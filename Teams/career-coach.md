@@ -16,317 +16,310 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1ec7ef2f09728abdb2db8acc3be948a50faaf304
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684570"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699354"
 ---
-# <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a><span data-ttu-id="e4598-103">購買、設定及啟用適用于Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e4598-103">Purchase, configure, and enable Career Coach for Microsoft Teams</span></span>
+# <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a><span data-ttu-id="289d6-103">購買、設定及啟用適用于Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="289d6-103">Purchase, configure, and enable Career Coach for Microsoft Teams</span></span>
 
-<span data-ttu-id="e4598-104">職稱教練是Microsoft Teams教育用應用程式，由 LinkedIn提供個人化指引，讓高教學生流覽其事業歷程。</span><span class="sxs-lookup"><span data-stu-id="e4598-104">Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for higher education students to navigate their career journey.</span></span> <span data-ttu-id="e4598-105">Career Coach 為教育機構提供一個統一的生涯解決方案，讓學生探索其事業路徑、培養實際技能，以及將他們的網路全部建在一個地方。</span><span class="sxs-lookup"><span data-stu-id="e4598-105">Career Coach offers educational institutions a unified career solution for students to discover their career path, grow real-world skills, and build their network all in one place.</span></span>
+<span data-ttu-id="289d6-104">職稱教練是Microsoft Teams教育用應用程式，由 LinkedIn提供個人化指引，讓高教學生流覽其事業歷程。</span><span class="sxs-lookup"><span data-stu-id="289d6-104">Career Coach is a Microsoft Teams for Education app powered by LinkedIn that provides personalized guidance for higher education students to navigate their career journey.</span></span> <span data-ttu-id="289d6-105">Career Coach 為教育機構提供統一的生涯解決方案，讓學生探索其事業路徑、培養實際技能，以及將網路全部建在一個地方。</span><span class="sxs-lookup"><span data-stu-id="289d6-105">Career Coach offers educational institutions a unified career solution for students to discover their career path, grow real-world skills, and build their network all in one place.</span></span>
 
-<span data-ttu-id="e4598-106">深入瞭解職業 [教練](https://aka.ms/career-coach)。</span><span class="sxs-lookup"><span data-stu-id="e4598-106">Learn more about [Career Coach](https://aka.ms/career-coach).</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="e4598-107">使用本指南中的最佳作法和實用秘訣，為學生、教職員啟用專業教練的功能。</span><span class="sxs-lookup"><span data-stu-id="e4598-107">Use the best practices and helpful tips in this guide to enable the capabilities of Career Coach for students, faculty, and staff.</span></span> <span data-ttu-id="e4598-108">請參閱 [快速規劃指南](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) 文章。</span><span class="sxs-lookup"><span data-stu-id="e4598-108">See the [Quick planning guide](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) article.</span></span>
-
-## <a name="review-the-requirements"></a><span data-ttu-id="e4598-109">審查需求</span><span class="sxs-lookup"><span data-stu-id="e4598-109">Review the requirements</span></span>
-
-<span data-ttu-id="e4598-110">若要為教育機構啟用 Career Coach，請審查您需要哪些專案才能讓應用程式啟動並運作。</span><span class="sxs-lookup"><span data-stu-id="e4598-110">To enable Career Coach for your educational institution, review what you need to get the app up and running.</span></span>
-
-<span data-ttu-id="e4598-111">**技術需求**</span><span class="sxs-lookup"><span data-stu-id="e4598-111">**Technical requirements**</span></span>
-
-  - <span data-ttu-id="e4598-112">Office 365租使用者Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="e4598-112">Office 365 tenant with Azure Active Directory</span></span>
-
-  - <span data-ttu-id="e4598-113">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e4598-113">Microsoft Teams</span></span>
-
-  - <span data-ttu-id="e4598-114">LinkedIn帳戶Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="e4598-114">LinkedIn account connections in Azure Active Directory</span></span>
-
-<span data-ttu-id="e4598-115">**許可證**</span><span class="sxs-lookup"><span data-stu-id="e4598-115">**Licenses**</span></span>
-
-  - <span data-ttu-id="e4598-116">教師</span><span class="sxs-lookup"><span data-stu-id="e4598-116">Faculty</span></span> 
-
-  - <span data-ttu-id="e4598-117">學生</span><span class="sxs-lookup"><span data-stu-id="e4598-117">Students</span></span>
+<span data-ttu-id="289d6-106">深入瞭解職業 [教練](https://aka.ms/career-coach)。</span><span class="sxs-lookup"><span data-stu-id="289d6-106">Learn more about [Career Coach](https://aka.ms/career-coach).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e4598-118">必須指派專業教練教職員授權給 IT 系統管理員，以完成此組組。</span><span class="sxs-lookup"><span data-stu-id="e4598-118">A Career Coach Faculty license must be assigned to the IT admin completing the configuration.</span></span>
+> <span data-ttu-id="289d6-107">使用本指南中的最佳作法和實用秘訣，為學生、教職員啟用專業教練的功能。</span><span class="sxs-lookup"><span data-stu-id="289d6-107">Use the best practices and helpful tips in this guide to enable the capabilities of Career Coach for students, faculty, and staff.</span></span> <span data-ttu-id="289d6-108">請參閱 [快速規劃指南](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) 文章。</span><span class="sxs-lookup"><span data-stu-id="289d6-108">See the [Quick planning guide](https://support.microsoft.com/office/c5d0b934-bfcf-4fe7-8a85-ba7bbb1b6ad4) article.</span></span>
 
-<span data-ttu-id="e4598-119">**教育機構的資料與檔案**</span><span class="sxs-lookup"><span data-stu-id="e4598-119">**Data and files from your educational institution**</span></span>
+## <a name="review-the-requirements"></a><span data-ttu-id="289d6-109">審查需求</span><span class="sxs-lookup"><span data-stu-id="289d6-109">Review the requirements</span></span>
 
-  - <span data-ttu-id="e4598-120">課程目錄資料</span><span class="sxs-lookup"><span data-stu-id="e4598-120">Course catalog data</span></span>
+<span data-ttu-id="289d6-110">若要為教育機構啟用 Career Coach，請審查您需要哪些專案才能讓應用程式啟動並運作。</span><span class="sxs-lookup"><span data-stu-id="289d6-110">To enable Career Coach for your educational institution, review what you need to get the app up and running.</span></span>
 
-  - <span data-ttu-id="e4598-121">提供的學習欄位</span><span class="sxs-lookup"><span data-stu-id="e4598-121">Fields of study offered</span></span>
+<span data-ttu-id="289d6-111">**技術需求**</span><span class="sxs-lookup"><span data-stu-id="289d6-111">**Technical requirements**</span></span>
 
-  - <span data-ttu-id="e4598-122">教育機構的LinkedIn頁面</span><span class="sxs-lookup"><span data-stu-id="e4598-122">Educational institution’s LinkedIn page</span></span>
+  - <span data-ttu-id="289d6-112">Office 365租使用者Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="289d6-112">Office 365 tenant with Azure Active Directory</span></span>
 
-  - <span data-ttu-id="e4598-123">LinkedIn學習校園訂閱 (偏好) </span><span class="sxs-lookup"><span data-stu-id="e4598-123">LinkedIn Learning campus subscription (preferred)</span></span>
+  - <span data-ttu-id="289d6-113">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="289d6-113">Microsoft Teams</span></span>
 
-## <a name="purchase-the-career-coach-licenses"></a><span data-ttu-id="e4598-124">購買職業教練授權</span><span class="sxs-lookup"><span data-stu-id="e4598-124">Purchase the Career Coach licenses</span></span>
+  - <span data-ttu-id="289d6-114">LinkedIn帳戶Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="289d6-114">LinkedIn account connections in Azure Active Directory</span></span>
 
-<span data-ttu-id="e4598-125">除了中國 (俄羅斯) 之外，透過註冊教育解決方案 (EES) 、雲端服務提供者 (雲端服務提供者) ，以及 Microsoft 365 系統管理中心 (web) 提供全球專業教練。</span><span class="sxs-lookup"><span data-stu-id="e4598-125">Career Coach is available worldwide (except China and Russia) for qualified higher education institutions through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).</span></span> <span data-ttu-id="e4598-126">做為Microsoft Teams應用程式，客戶必須Microsoft 365 A3/A5 或 Office 365 A1/A3/A5。</span><span class="sxs-lookup"><span data-stu-id="e4598-126">As a Microsoft Teams app, customers must have Microsoft 365 A3/A5 or Office 365 A1/A3/A5.</span></span>
+<span data-ttu-id="289d6-115">**許可證**</span><span class="sxs-lookup"><span data-stu-id="289d6-115">**Licenses**</span></span>
 
-### <a name="assign-app-licenses-to-users"></a><span data-ttu-id="e4598-127">指派應用程式授權給使用者</span><span class="sxs-lookup"><span data-stu-id="e4598-127">Assign app licenses to users</span></span>
+  - <span data-ttu-id="289d6-116">教師</span><span class="sxs-lookup"><span data-stu-id="289d6-116">Faculty</span></span> 
 
-<span data-ttu-id="e4598-128">有關逐步指示，請參閱指派 [授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)。</span><span class="sxs-lookup"><span data-stu-id="e4598-128">For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).</span></span>
+  - <span data-ttu-id="289d6-117">學生</span><span class="sxs-lookup"><span data-stu-id="289d6-117">Students</span></span>
 
-### <a name="turn-on-linkedin-account-connections"></a><span data-ttu-id="e4598-129">開啟LinkedIn帳戶連結</span><span class="sxs-lookup"><span data-stu-id="e4598-129">Turn on LinkedIn account connections</span></span>
+> [!NOTE]
+> <span data-ttu-id="289d6-118">必須指派專業教練教職員授權給 IT 系統管理員，以完成此組組。</span><span class="sxs-lookup"><span data-stu-id="289d6-118">A Career Coach Faculty license must be assigned to the IT admin completing the configuration.</span></span>
 
-<span data-ttu-id="e4598-130">職稱 **教練** 要求教育機構的使用者能夠將其帳戶Microsoft 365到他們在LinkedIn教練中協助使用的帳戶</span><span class="sxs-lookup"><span data-stu-id="e4598-130">Career Coach **requires** your educational institution’s users to have the ability to connect their Microsoft 365 account to their LinkedIn account that is facilitated within Career Coach</span></span>
+<span data-ttu-id="289d6-119">**教育機構的資料與檔案**</span><span class="sxs-lookup"><span data-stu-id="289d6-119">**Data and files from your educational institution**</span></span>
 
-1. <span data-ttu-id="e4598-131">使用 Azure [AD](https://aad.portal.azure.com/) 組織的全域系統管理員帳戶來登錄 Azure AD 系統管理中心。</span><span class="sxs-lookup"><span data-stu-id="e4598-131">Sign in to the [Azure AD admin center](https://aad.portal.azure.com/) with an account that's a global admin for the Azure AD organization.</span></span>
+  - <span data-ttu-id="289d6-120">課程目錄資料</span><span class="sxs-lookup"><span data-stu-id="289d6-120">Course catalog data</span></span>
 
-2. <span data-ttu-id="e4598-132">選取 **使用者**。</span><span class="sxs-lookup"><span data-stu-id="e4598-132">Select **Users**.</span></span>
+  - <span data-ttu-id="289d6-121">提供的學習欄位</span><span class="sxs-lookup"><span data-stu-id="289d6-121">Fields of study offered</span></span>
 
-3. <span data-ttu-id="e4598-133">在使用者 **頁面上** ，選取 使用者 **設定**。</span><span class="sxs-lookup"><span data-stu-id="e4598-133">On the **Users** page, select **User settings**.</span></span>
+  - <span data-ttu-id="289d6-122">教育機構的LinkedIn頁面</span><span class="sxs-lookup"><span data-stu-id="289d6-122">Educational institution’s LinkedIn page</span></span>
 
-4. <span data-ttu-id="e4598-134">在 **LinkedIn帳戶** 連結下，允許使用者連接其帳戶，以在某些 Microsoft app LinkedIn存取他們的帳戶連結。</span><span class="sxs-lookup"><span data-stu-id="e4598-134">Under **LinkedIn account connections**, allow users to connect their accounts to access their LinkedIn connections within some Microsoft apps.</span></span> <span data-ttu-id="e4598-135">使用者同意連接其帳戶之前，不會共用任何資料。</span><span class="sxs-lookup"><span data-stu-id="e4598-135">No data is shared until users consent to connect their accounts.</span></span>
+  - <span data-ttu-id="289d6-123">LinkedIn學習校園訂閱 (偏好) </span><span class="sxs-lookup"><span data-stu-id="289d6-123">LinkedIn Learning campus subscription (preferred)</span></span>
 
-   - <span data-ttu-id="e4598-136">選取 **是** ，為教育機構的所有使用者啟用服務</span><span class="sxs-lookup"><span data-stu-id="e4598-136">Select **Yes** to enable the service for all users in your educational institution</span></span>
+## <a name="purchase-the-career-coach-licenses"></a><span data-ttu-id="289d6-124">購買職業教練授權</span><span class="sxs-lookup"><span data-stu-id="289d6-124">Purchase the Career Coach licenses</span></span>
 
-   - <span data-ttu-id="e4598-137">選取 **選取的** 群組，只為教育機構中一群選取的使用者啟用服務</span><span class="sxs-lookup"><span data-stu-id="e4598-137">Select **Selected group** to enable the service for only a group of selected users in your educational institution</span></span>
+<span data-ttu-id="289d6-125">除了中國 (俄羅斯) 之外，透過註冊教育解決方案 (EES) 、雲端服務提供者 (雲端服務提供者) ，以及 Microsoft 365 系統管理中心 (web) 提供全球專業教練。</span><span class="sxs-lookup"><span data-stu-id="289d6-125">Career Coach is available worldwide (except China and Russia) for qualified higher education institutions through Enrollment for Education Solutions (EES), Cloud Service Providers (CSP), and Microsoft 365 admin center (web direct).</span></span> <span data-ttu-id="289d6-126">做為Microsoft Teams應用程式，客戶必須Microsoft 365 A3/A5 或 Office 365 A1/A3/A5。</span><span class="sxs-lookup"><span data-stu-id="289d6-126">As a Microsoft Teams app, customers must have Microsoft 365 A3/A5 or Office 365 A1/A3/A5.</span></span>
 
-   - <span data-ttu-id="e4598-138">選取 **No** 以撤銷教育機構中所有使用者的同意</span><span class="sxs-lookup"><span data-stu-id="e4598-138">Select **No** to withdraw consent from all users in your educational institution</span></span>
+### <a name="assign-app-licenses-to-users"></a><span data-ttu-id="289d6-127">指派應用程式授權給使用者</span><span class="sxs-lookup"><span data-stu-id="289d6-127">Assign app licenses to users</span></span>
 
-<span data-ttu-id="e4598-139">瞭解如何在 LinkedIn[中整合帳戶Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)</span><span class="sxs-lookup"><span data-stu-id="e4598-139">Learn how to [Integrate LinkedIn account connections in Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)</span></span>
+<span data-ttu-id="289d6-128">有關逐步指示，請參閱指派 [授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)。</span><span class="sxs-lookup"><span data-stu-id="289d6-128">For step-by-step instructions, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).</span></span>
 
-## <a name="configure-career-coach-in-the-teams-admin-center"></a><span data-ttu-id="e4598-140">在系統管理中心設定Teams教練</span><span class="sxs-lookup"><span data-stu-id="e4598-140">Configure Career Coach in the Teams admin center</span></span>
+### <a name="turn-on-linkedin-account-connections"></a><span data-ttu-id="289d6-129">開啟LinkedIn帳戶連結</span><span class="sxs-lookup"><span data-stu-id="289d6-129">Turn on LinkedIn account connections</span></span>
 
-<span data-ttu-id="e4598-141">您可以使用系統管理中心Microsoft Teams設定，為教育機構設定 Career Coach，並讓使用者啟用。</span><span class="sxs-lookup"><span data-stu-id="e4598-141">Using the admin settings in the Microsoft Teams admin center, you can configure Career Coach for your educational institution and enable it for users.</span></span>
+<span data-ttu-id="289d6-130">職稱 **教練** 要求教育機構的使用者能夠將他們的 Microsoft 365 帳戶連接到LinkedIn教練內協助使用的帳戶</span><span class="sxs-lookup"><span data-stu-id="289d6-130">Career Coach **requires** your educational institution’s users to have the ability to connect their Microsoft 365 account to their LinkedIn account that is facilitated within Career Coach</span></span>
 
-## <a name="access-the-career-coach-app-settings"></a><span data-ttu-id="e4598-142">存取職業教練應用程式設定</span><span class="sxs-lookup"><span data-stu-id="e4598-142">Access the Career Coach app settings</span></span>
+1. <span data-ttu-id="289d6-131">使用 Azure [AD](https://aad.portal.azure.com/) 組織的全域系統管理員帳戶來登錄 Azure AD 系統管理中心。</span><span class="sxs-lookup"><span data-stu-id="289d6-131">Sign in to the [Azure AD admin center](https://aad.portal.azure.com/) with an account that's a global admin for the Azure AD organization.</span></span>
 
-<span data-ttu-id="e4598-143">使用管理[應用程式頁面](/microsoftteams/manage-apps)，Teams教育機構應用程式目錄中的 App。</span><span class="sxs-lookup"><span data-stu-id="e4598-143">Use the [Manage apps page](/microsoftteams/manage-apps) to view the Teams apps in your educational institution’s app catalog.</span></span>
+2. <span data-ttu-id="289d6-132">選取 **使用者**。</span><span class="sxs-lookup"><span data-stu-id="289d6-132">Select **Users**.</span></span>
 
-1. <span data-ttu-id="e4598-144">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="e4598-144">Sign in to the **Teams admin center**.</span></span>
+3. <span data-ttu-id="289d6-133">在使用者 **頁面上** ，選取 使用者 **設定**。</span><span class="sxs-lookup"><span data-stu-id="289d6-133">On the **Users** page, select **User settings**.</span></span>
 
-2. <span data-ttu-id="e4598-145">在左側流覽中，選取 **Teams**  >  **應用程式管理應用程式**。</span><span class="sxs-lookup"><span data-stu-id="e4598-145">In the left navigation, select **Teams apps** > **Manage apps**.</span></span>  
+4. <span data-ttu-id="289d6-134">在 **LinkedIn帳戶** 連結下，允許使用者連接其帳戶，以在某些 Microsoft app LinkedIn存取他們的帳戶連結。</span><span class="sxs-lookup"><span data-stu-id="289d6-134">Under **LinkedIn account connections**, allow users to connect their accounts to access their LinkedIn connections within some Microsoft apps.</span></span> <span data-ttu-id="289d6-135">使用者同意連接其帳戶之前，不會共用任何資料。</span><span class="sxs-lookup"><span data-stu-id="289d6-135">No data is shared until users consent to connect their accounts.</span></span>
+
+   - <span data-ttu-id="289d6-136">選取 **是** ，為教育機構的所有使用者啟用服務</span><span class="sxs-lookup"><span data-stu-id="289d6-136">Select **Yes** to enable the service for all users in your educational institution</span></span>
+
+   - <span data-ttu-id="289d6-137">選取 **選取的** 群組，只針對教育機構中一群選取的使用者啟用服務</span><span class="sxs-lookup"><span data-stu-id="289d6-137">Select **Selected group** to enable the service for only a group of selected users in your educational institution</span></span>
+
+   - <span data-ttu-id="289d6-138">選取 **No** 以撤銷教育機構中所有使用者的同意</span><span class="sxs-lookup"><span data-stu-id="289d6-138">Select **No** to withdraw consent from all users in your educational institution</span></span>
+
+<span data-ttu-id="289d6-139">瞭解如何在 LinkedIn[中整合Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)</span><span class="sxs-lookup"><span data-stu-id="289d6-139">Learn how to [Integrate LinkedIn account connections in Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)</span></span>
+
+## <a name="configure-career-coach-in-the-teams-admin-center"></a><span data-ttu-id="289d6-140">在系統管理中心設定Teams教練</span><span class="sxs-lookup"><span data-stu-id="289d6-140">Configure Career Coach in the Teams admin center</span></span>
+
+<span data-ttu-id="289d6-141">您可以使用系統管理中心Microsoft Teams設定，為教育機構設定 Career Coach，並讓使用者啟用。</span><span class="sxs-lookup"><span data-stu-id="289d6-141">Using the admin settings in the Microsoft Teams admin center, you can configure Career Coach for your educational institution and enable it for users.</span></span>
+
+## <a name="access-the-career-coach-app-settings"></a><span data-ttu-id="289d6-142">存取職業教練應用程式設定</span><span class="sxs-lookup"><span data-stu-id="289d6-142">Access the Career Coach app settings</span></span>
+
+<span data-ttu-id="289d6-143">使用管理[應用程式頁面](/microsoftteams/manage-apps)，Teams教育機構應用程式目錄中的 App。</span><span class="sxs-lookup"><span data-stu-id="289d6-143">Use the [Manage apps page](/microsoftteams/manage-apps) to view the Teams apps in your educational institution’s app catalog.</span></span>
+
+1. <span data-ttu-id="289d6-144">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="289d6-144">Sign in to the **Teams admin center**.</span></span>
+
+2. <span data-ttu-id="289d6-145">在左側流覽中，選取 **Teams**  >  **應用程式管理應用程式**。</span><span class="sxs-lookup"><span data-stu-id="289d6-145">In the left navigation, select **Teams apps** > **Manage apps**.</span></span>  
 
     > [!NOTE]
-    > <span data-ttu-id="e4598-146">您必須是全域系統管理員Teams服務系統管理員才能存取頁面。</span><span class="sxs-lookup"><span data-stu-id="e4598-146">You must be a global admin or Teams service admin to access the page.</span></span>
+    > <span data-ttu-id="289d6-146">您必須是全域系統管理員或Teams系統管理員才能存取頁面。</span><span class="sxs-lookup"><span data-stu-id="289d6-146">You must be a global admin or Teams service admin to access the page.</span></span>
 
-3. <span data-ttu-id="e4598-147">搜尋或流覽 **職業教練**。</span><span class="sxs-lookup"><span data-stu-id="e4598-147">Search or browse for **Career Coach**.</span></span>  
+3. <span data-ttu-id="289d6-147">搜尋或流覽 **職業教練**。</span><span class="sxs-lookup"><span data-stu-id="289d6-147">Search or browse for **Career Coach**.</span></span>  
 
-4. <span data-ttu-id="e4598-148">選取 **生涯教練**，然後選取 **設定。**</span><span class="sxs-lookup"><span data-stu-id="e4598-148">Select **Career Coach**, and then select **Settings.**</span></span>  
+4. <span data-ttu-id="289d6-148">選取 **生涯教練**，然後選取 **設定。**</span><span class="sxs-lookup"><span data-stu-id="289d6-148">Select **Career Coach**, and then select **Settings.**</span></span>  
 
-    ![顯示已選取的職設定應用程式，其中顯示](media/app-settings.png)
+    ![顯示已選取的職設定應用程式，設定選項](media/app-settings.png)
 
-### <a name="configure-the-career-coach-app-settings"></a><span data-ttu-id="e4598-150">設定職業教練應用程式設定</span><span class="sxs-lookup"><span data-stu-id="e4598-150">Configure the Career Coach app settings</span></span>
+### <a name="configure-the-career-coach-app-settings"></a><span data-ttu-id="289d6-150">設定職業教練應用程式設定</span><span class="sxs-lookup"><span data-stu-id="289d6-150">Configure the Career Coach app settings</span></span>
 
-<span data-ttu-id="e4598-151">職業教練有五種組組類別：</span><span class="sxs-lookup"><span data-stu-id="e4598-151">Career Coach has five configuration categories:</span></span>
+<span data-ttu-id="289d6-151">職業教練有五種組組類別：</span><span class="sxs-lookup"><span data-stu-id="289d6-151">Career Coach has five configuration categories:</span></span>
 
-- [<span data-ttu-id="e4598-152">品牌和喜好設定</span><span class="sxs-lookup"><span data-stu-id="e4598-152">Brand and preferences</span></span>](#brand-and-preferences)
+- [<span data-ttu-id="289d6-152">品牌和喜好設定</span><span class="sxs-lookup"><span data-stu-id="289d6-152">Brand and preferences</span></span>](#brand-and-preferences)
 
-- [<span data-ttu-id="e4598-153">LinkedIn組</span><span class="sxs-lookup"><span data-stu-id="e4598-153">LinkedIn configuration</span></span>](#linkedin-configuration)
+- [<span data-ttu-id="289d6-153">LinkedIn組</span><span class="sxs-lookup"><span data-stu-id="289d6-153">LinkedIn configuration</span></span>](#linkedin-configuration)
 
-- [<span data-ttu-id="e4598-154">課程目錄</span><span class="sxs-lookup"><span data-stu-id="e4598-154">Course catalog</span></span>](#course-catalog)
+- [<span data-ttu-id="289d6-154">課程目錄</span><span class="sxs-lookup"><span data-stu-id="289d6-154">Course catalog</span></span>](#course-catalog)
 
-- [<span data-ttu-id="e4598-155">學習領域</span><span class="sxs-lookup"><span data-stu-id="e4598-155">Fields of study</span></span>](#fields-of-study)
+- [<span data-ttu-id="289d6-155">學習領域</span><span class="sxs-lookup"><span data-stu-id="289d6-155">Fields of study</span></span>](#fields-of-study)
 
-- [<span data-ttu-id="e4598-156">定制</span><span class="sxs-lookup"><span data-stu-id="e4598-156">Customization</span></span>](#customization)
+- [<span data-ttu-id="289d6-156">定制</span><span class="sxs-lookup"><span data-stu-id="289d6-156">Customization</span></span>](#customization)
 
 > [!NOTE]
-> <span data-ttu-id="e4598-157">品牌和喜好設定、LinkedIn設定、課程目錄和學習領域是有效啟用適用于學生、教職員和教職員的應用程式所必須的。</span><span class="sxs-lookup"><span data-stu-id="e4598-157">Brand and preferences, LinkedIn configuration, Course catalog, and Fields of study are **required** to effectively enable the app for students, faculty, and staff.</span></span>
+> <span data-ttu-id="289d6-157">品牌和喜好設定、LinkedIn設定、課程目錄和學習領域是有效啟用適用于學生、教職員和教職員的應用程式所必須的。</span><span class="sxs-lookup"><span data-stu-id="289d6-157">Brand and preferences, LinkedIn configuration, Course catalog, and Fields of study are **required** to effectively enable the app for students, faculty, and staff.</span></span>
 
-#### <a name="brand-and-preferences"></a><span data-ttu-id="e4598-158">品牌和喜好設定</span><span class="sxs-lookup"><span data-stu-id="e4598-158">Brand and preferences</span></span>
+#### <a name="brand-and-preferences"></a><span data-ttu-id="289d6-158">品牌和喜好設定</span><span class="sxs-lookup"><span data-stu-id="289d6-158">Brand and preferences</span></span>
 
-<span data-ttu-id="e4598-159">在品牌和喜好設定設定頁面上設定教育機構的名稱、標誌和預設語言。</span><span class="sxs-lookup"><span data-stu-id="e4598-159">Set your educational institution’s name, logo, and default language on the brand and preferences settings page.</span></span>
+<span data-ttu-id="289d6-159">在品牌和喜好設定設定頁面上設定教育機構的名稱、標誌和預設語言。</span><span class="sxs-lookup"><span data-stu-id="289d6-159">Set your educational institution’s name, logo, and default language on the brand and preferences settings page.</span></span>
 
 ![系統管理中心的生涯教練品牌區段](media/brand-preferences.png)
 
-##### <a name="educational-institution-icon"></a><span data-ttu-id="e4598-161">教育機構圖示</span><span class="sxs-lookup"><span data-stu-id="e4598-161">Educational institution icon</span></span>
+##### <a name="educational-institution-icon"></a><span data-ttu-id="289d6-161">教育機構圖示</span><span class="sxs-lookup"><span data-stu-id="289d6-161">Educational institution icon</span></span>
 
-<span data-ttu-id="e4598-162">教育機構圖示會用於整個職業教練，以識別教育機構特有的內容、整個應用程式的課程目錄資源，以及儀表板的實際體驗區段。</span><span class="sxs-lookup"><span data-stu-id="e4598-162">The educational institution icon is used throughout Career Coach to identify content unique to your educational institution, course catalog resources throughout the app, and on the real-world experiences section of the dashboard.</span></span> <span data-ttu-id="e4598-163">圖示的格式最好為：</span><span class="sxs-lookup"><span data-stu-id="e4598-163">The icon is best formatted as:</span></span>
+<span data-ttu-id="289d6-162">教育機構圖示會用於整個職業教練，以識別教育機構特有的內容、整個應用程式的課程目錄資源，以及儀表板的實際體驗區段。</span><span class="sxs-lookup"><span data-stu-id="289d6-162">The educational institution icon is used throughout Career Coach to identify content unique to your educational institution, course catalog resources throughout the app, and on the real-world experiences section of the dashboard.</span></span> <span data-ttu-id="289d6-163">圖示的格式最好為：</span><span class="sxs-lookup"><span data-stu-id="289d6-163">The icon is best formatted as:</span></span>
 
- - <span data-ttu-id="e4598-164">透明 PNG</span><span class="sxs-lookup"><span data-stu-id="e4598-164">A transparent PNG</span></span>
- - <span data-ttu-id="e4598-165">長寬比為 1：1</span><span class="sxs-lookup"><span data-stu-id="e4598-165">Aspect ratio of 1:1</span></span>
- - <span data-ttu-id="e4598-166">最大大小為 64 px x 64 px。</span><span class="sxs-lookup"><span data-stu-id="e4598-166">Maximum size of 64 px x 64 px.</span></span>
+ - <span data-ttu-id="289d6-164">透明 PNG</span><span class="sxs-lookup"><span data-stu-id="289d6-164">A transparent PNG</span></span>
+ - <span data-ttu-id="289d6-165">長寬比為 1：1</span><span class="sxs-lookup"><span data-stu-id="289d6-165">Aspect ratio of 1:1</span></span>
+ - <span data-ttu-id="289d6-166">最大大小為 64 px x 64 px。</span><span class="sxs-lookup"><span data-stu-id="289d6-166">Maximum size of 64 px x 64 px.</span></span>
 
-##### <a name="educational-institution-thumbnail"></a><span data-ttu-id="e4598-167">教育機構縮圖</span><span class="sxs-lookup"><span data-stu-id="e4598-167">Educational institution thumbnail</span></span>
+##### <a name="educational-institution-thumbnail"></a><span data-ttu-id="289d6-167">教育機構縮圖</span><span class="sxs-lookup"><span data-stu-id="289d6-167">Educational institution thumbnail</span></span>
 
-<span data-ttu-id="e4598-168">當課程無法使用特定影像時，教育機構圖示會用於整個 App 的課程目錄資源。</span><span class="sxs-lookup"><span data-stu-id="e4598-168">The educational institution icon will be used for course catalog resources throughout the app when a specific image isn't available for a course.</span></span> <span data-ttu-id="e4598-169">圖示的格式最好為：</span><span class="sxs-lookup"><span data-stu-id="e4598-169">The icon is best formatted as:</span></span>
+<span data-ttu-id="289d6-168">當課程無法使用特定影像時，教育機構圖示會用於整個 App 的課程目錄資源。</span><span class="sxs-lookup"><span data-stu-id="289d6-168">The educational institution icon will be used for course catalog resources throughout the app when a specific image isn't available for a course.</span></span> <span data-ttu-id="289d6-169">圖示的格式最好為：</span><span class="sxs-lookup"><span data-stu-id="289d6-169">The icon is best formatted as:</span></span>
 
-- <span data-ttu-id="e4598-170">A PNG</span><span class="sxs-lookup"><span data-stu-id="e4598-170">A PNG</span></span>
-- <span data-ttu-id="e4598-171">長寬比為 16：9</span><span class="sxs-lookup"><span data-stu-id="e4598-171">Aspect ratio of 16:9</span></span>
-- <span data-ttu-id="e4598-172">最大大小為 360 px x 200 px。</span><span class="sxs-lookup"><span data-stu-id="e4598-172">Maximum size of 360 px x 200 px.</span></span>
+- <span data-ttu-id="289d6-170">A PNG</span><span class="sxs-lookup"><span data-stu-id="289d6-170">A PNG</span></span>
+- <span data-ttu-id="289d6-171">長寬比為 16：9</span><span class="sxs-lookup"><span data-stu-id="289d6-171">Aspect ratio of 16:9</span></span>
+- <span data-ttu-id="289d6-172">最大大小為 360 px x 200 px。</span><span class="sxs-lookup"><span data-stu-id="289d6-172">Maximum size of 360 px x 200 px.</span></span>
 
-#### <a name="linkedin-configuration"></a><span data-ttu-id="e4598-173">LinkedIn組</span><span class="sxs-lookup"><span data-stu-id="e4598-173">LinkedIn configuration</span></span>
+#### <a name="linkedin-configuration"></a><span data-ttu-id="289d6-173">LinkedIn組</span><span class="sxs-lookup"><span data-stu-id="289d6-173">LinkedIn configuration</span></span>
 
-<span data-ttu-id="e4598-174">此LinkedIn組會連接來自 LinkedIn 的職教教練與公開LinkedIn。</span><span class="sxs-lookup"><span data-stu-id="e4598-174">The LinkedIn configuration connects Career Coach with public alumni data from LinkedIn.</span></span>
+<span data-ttu-id="289d6-174">此LinkedIn組會連接來自 LinkedIn 的職教教練與公開LinkedIn。</span><span class="sxs-lookup"><span data-stu-id="289d6-174">The LinkedIn configuration connects Career Coach with public alumni data from LinkedIn.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e4598-175">未經頁面連結驗證，LinkedIn教練。</span><span class="sxs-lookup"><span data-stu-id="e4598-175">Career Coach can't be enabled without the LinkedIn page connection verified.</span></span>
+> <span data-ttu-id="289d6-175">未經頁面連結驗證，LinkedIn教練。</span><span class="sxs-lookup"><span data-stu-id="289d6-175">Career Coach can't be enabled without the LinkedIn page connection verified.</span></span>
 
-##### <a name="add-and-confirm-the-linkedin-page"></a><span data-ttu-id="e4598-176">新增並確認LinkedIn頁面</span><span class="sxs-lookup"><span data-stu-id="e4598-176">Add and confirm the LinkedIn page</span></span>
+##### <a name="add-and-confirm-the-linkedin-page"></a><span data-ttu-id="289d6-176">新增並確認LinkedIn頁面</span><span class="sxs-lookup"><span data-stu-id="289d6-176">Add and confirm the LinkedIn page</span></span>
 
-<span data-ttu-id="e4598-177">決定教育機構的LinkedIn頁面。</span><span class="sxs-lookup"><span data-stu-id="e4598-177">Determine the educational institution's LinkedIn page.</span></span> <span data-ttu-id="e4598-178">在 LinkedIn搜尋或LinkedIn職員工成員，以判斷要使用的正確頁面，以尋找該頁面。</span><span class="sxs-lookup"><span data-stu-id="e4598-178">Find the LinkedIn page by searching on LinkedIn or connecting with a career services staff member to determine the correct page to use.</span></span>  
+<span data-ttu-id="289d6-177">決定教育機構的LinkedIn頁面。</span><span class="sxs-lookup"><span data-stu-id="289d6-177">Determine the educational institution's LinkedIn page.</span></span> <span data-ttu-id="289d6-178">若要尋找LinkedIn頁面，請搜尋LinkedIn或連至職業服務教職員成員，以判斷要使用的正確頁面。</span><span class="sxs-lookup"><span data-stu-id="289d6-178">Find the LinkedIn page by searching on LinkedIn or connecting with a career services staff member to determine the correct page to use.</span></span>  
   
-1. <span data-ttu-id="e4598-179">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="e4598-179">Sign in to the **Teams admin center**.</span></span>
+1. <span data-ttu-id="289d6-179">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="289d6-179">Sign in to the **Teams admin center**.</span></span>
 
-1. <span data-ttu-id="e4598-180">選取 **Teams App** 管理  >  **App** Career  >  **Coach**  >  **LinkedIn連接**。</span><span class="sxs-lookup"><span data-stu-id="e4598-180">Select **Teams apps** > **Manage apps** > **Career Coach** > **LinkedIn connection**.</span></span>
+1. <span data-ttu-id="289d6-180">選取 **Teams App** 管理  >  **App** Career  >  **Coach**  >  **LinkedIn連接**。</span><span class="sxs-lookup"><span data-stu-id="289d6-180">Select **Teams apps** > **Manage apps** > **Career Coach** > **LinkedIn connection**.</span></span>
 
-2. <span data-ttu-id="e4598-181">輸入教育機構的 LinkedIn URL。</span><span class="sxs-lookup"><span data-stu-id="e4598-181">Enter your educational institution's LinkedIn page URL.</span></span>  
+2. <span data-ttu-id="289d6-181">輸入教育機構的 LinkedIn URL。</span><span class="sxs-lookup"><span data-stu-id="289d6-181">Enter your educational institution's LinkedIn page URL.</span></span>  
 
-3. <span data-ttu-id="e4598-182">選取 **Apply**。</span><span class="sxs-lookup"><span data-stu-id="e4598-182">Select **Apply**.</span></span>
+3. <span data-ttu-id="289d6-182">選取 **Apply**。</span><span class="sxs-lookup"><span data-stu-id="289d6-182">Select **Apply**.</span></span>
 
-4. <span data-ttu-id="e4598-183">複製驗證 URL，然後與教育機構的頁面系統管理員LinkedIn頁面LinkedIn[共用。](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en)</span><span class="sxs-lookup"><span data-stu-id="e4598-183">Copy the verification URL and share it with your educational institution’s LinkedIn page admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en).</span></span> <span data-ttu-id="e4598-184">驗證連結會在 30 天后過期。</span><span class="sxs-lookup"><span data-stu-id="e4598-184">The verification link expires after 30 days.</span></span>  
+4. <span data-ttu-id="289d6-183">複製驗證 URL，然後與教育機構的頁面系統管理員LinkedIn頁面LinkedIn[共用。](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en)</span><span class="sxs-lookup"><span data-stu-id="289d6-183">Copy the verification URL and share it with your educational institution’s LinkedIn page admin [LinkedIn page admin documentation](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en).</span></span> <span data-ttu-id="289d6-184">驗證連結會在 30 天后過期。</span><span class="sxs-lookup"><span data-stu-id="289d6-184">The verification link expires after 30 days.</span></span>  
 
    ![LinkedIn教練的設定](media/linkedin.png)  
 
-#### <a name="course-catalog"></a><span data-ttu-id="e4598-186">課程目錄</span><span class="sxs-lookup"><span data-stu-id="e4598-186">Course catalog</span></span>
+#### <a name="course-catalog"></a><span data-ttu-id="289d6-186">課程目錄</span><span class="sxs-lookup"><span data-stu-id="289d6-186">Course catalog</span></span>
 
-<span data-ttu-id="e4598-187">課程目錄代表教育機構提供給學生的課程和課程。</span><span class="sxs-lookup"><span data-stu-id="e4598-187">The course catalog represents the courses and classes offered to students by your educational institution.</span></span> <span data-ttu-id="e4598-188">這些課程在 App 中用於兩個區域：</span><span class="sxs-lookup"><span data-stu-id="e4598-188">These courses are used within the app in two areas:</span></span>
+<span data-ttu-id="289d6-187">課程目錄代表教育機構提供給學生的課程和課程。</span><span class="sxs-lookup"><span data-stu-id="289d6-187">The course catalog represents the courses and classes offered to students by your educational institution.</span></span> <span data-ttu-id="289d6-188">這些課程在 App 中用於兩個區域：</span><span class="sxs-lookup"><span data-stu-id="289d6-188">These courses are used within the app in two areas:</span></span>
 
-- <span data-ttu-id="e4598-189">課程會作為學習資源的一部分退回。</span><span class="sxs-lookup"><span data-stu-id="e4598-189">Courses are returned as part of learning resources.</span></span>  
+- <span data-ttu-id="289d6-189">課程會作為學習資源的一部分退回。</span><span class="sxs-lookup"><span data-stu-id="289d6-189">Courses are returned as part of learning resources.</span></span>  
 
-- <span data-ttu-id="e4598-190">課程和課程中繼資料 ，例如描述，可用來協助學生上傳文字記錄時識別其技能。</span><span class="sxs-lookup"><span data-stu-id="e4598-190">Courses and course meta data, like descriptions, are used to help students identify their skills when they upload a transcript.</span></span>  
+- <span data-ttu-id="289d6-190">課程和課程中繼資料 ，例如描述，可用來協助學生在上傳文字記錄時識別其技能。</span><span class="sxs-lookup"><span data-stu-id="289d6-190">Courses and course meta data, like descriptions, are used to help students identify their skills when they upload a transcript.</span></span>  
 
-<span data-ttu-id="e4598-191">若要建立課程目錄，請彙集教育機構所傳授的所有課程清單，並上傳為 CSV 檔案。</span><span class="sxs-lookup"><span data-stu-id="e4598-191">To create the course catalog, put together a list of all courses taught at your educational institution and upload it as a CSV file.</span></span> <span data-ttu-id="e4598-192">應用程式會從課程目錄繪製，以從學生的成績記錄中找出其技能，並建議要參加的課程。</span><span class="sxs-lookup"><span data-stu-id="e4598-192">The app draws from the course catalog to identify a student’s skills from their transcript and to suggest courses to take.</span></span> 
+<span data-ttu-id="289d6-191">若要建立課程目錄，請彙集教育機構所傳授的所有課程清單，並上傳為 CSV 檔案。</span><span class="sxs-lookup"><span data-stu-id="289d6-191">To create the course catalog, put together a list of all courses taught at your educational institution and upload it as a CSV file.</span></span> <span data-ttu-id="289d6-192">應用程式會從課程目錄繪製，以從學生的成績記錄中找出其技能，並建議要參加的課程。</span><span class="sxs-lookup"><span data-stu-id="289d6-192">The app draws from the course catalog to identify a student’s skills from their transcript and to suggest courses to take.</span></span> 
 
-> [!NOTE]
-> <span data-ttu-id="e4598-193">請參閱[資料在 Teams](location-of-data-in-teams.md) [安全性與合規性](security-compliance-overview.md)中的位置，以瞭解保護學生資訊的資訊。</span><span class="sxs-lookup"><span data-stu-id="e4598-193">See [Location of data in Teams](location-of-data-in-teams.md) and [Security and compliance](security-compliance-overview.md) for information about protecting of student information.</span></span> 
+##### <a name="course-catalog-documents-formatting-and-schema"></a><span data-ttu-id="289d6-193">課程目錄檔案格式和架構</span><span class="sxs-lookup"><span data-stu-id="289d6-193">Course catalog documents formatting and schema</span></span>
 
-##### <a name="course-catalog-documents-formatting-and-schema"></a><span data-ttu-id="e4598-194">課程目錄檔案格式和架構</span><span class="sxs-lookup"><span data-stu-id="e4598-194">Course catalog documents formatting and schema</span></span>
-
-<span data-ttu-id="e4598-195">檔必須採用 CSV 格式，大小上限為 18 MB。</span><span class="sxs-lookup"><span data-stu-id="e4598-195">The document needs to be in CSV format with a maximum size of 18 MB.</span></span> <span data-ttu-id="e4598-196">檔必須包含必要的欄位課程 **標題**、**課程識別碼** 和 **課程 URL。**</span><span class="sxs-lookup"><span data-stu-id="e4598-196">The document must contain the required fields **course title**, **course ID**, and **course URL**.</span></span> <span data-ttu-id="e4598-197">包含建議的欄位可返回更好的搜尋結果和技能識別，改善學生的體驗。</span><span class="sxs-lookup"><span data-stu-id="e4598-197">Including the recommended fields improves the experience for students by returning better search results and skill identification.</span></span>
+<span data-ttu-id="289d6-194">檔必須採用 CSV 格式，大小上限為 18 MB。</span><span class="sxs-lookup"><span data-stu-id="289d6-194">The document needs to be in CSV format with a maximum size of 18 MB.</span></span> <span data-ttu-id="289d6-195">檔必須包含必要的欄位課程 **標題**、**課程識別碼** 和 **課程 URL。**</span><span class="sxs-lookup"><span data-stu-id="289d6-195">The document must contain the required fields **course title**, **course ID**, and **course URL**.</span></span> <span data-ttu-id="289d6-196">包含建議的欄位可返回更好的搜尋結果和技能識別，改善學生的體驗。</span><span class="sxs-lookup"><span data-stu-id="289d6-196">Including the recommended fields improves the experience for students by returning better search results and skill identification.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e4598-198">從範例課程 [目錄檔]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) 開始著手。</span><span class="sxs-lookup"><span data-stu-id="e4598-198">Start with the [sample course catalog]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to get started.</span></span>
+> <span data-ttu-id="289d6-197">從範例課程 [目錄檔]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) 開始著手。</span><span class="sxs-lookup"><span data-stu-id="289d6-197">Start with the [sample course catalog]( https://aka.ms/career-coach/docs/it-admins/sample-catalog) document to get started.</span></span>
 
-<span data-ttu-id="e4598-199">下表顯示課程目錄中要包含的專案：</span><span class="sxs-lookup"><span data-stu-id="e4598-199">The following table shows the items to include in the course catalog:</span></span>
+<span data-ttu-id="289d6-198">下表顯示課程目錄中要包含的專案：</span><span class="sxs-lookup"><span data-stu-id="289d6-198">The following table shows the items to include in the course catalog:</span></span>
 
 
-| <span data-ttu-id="e4598-200">名稱</span><span class="sxs-lookup"><span data-stu-id="e4598-200">Name</span></span>             | <span data-ttu-id="e4598-201">地位</span><span class="sxs-lookup"><span data-stu-id="e4598-201">Status</span></span>      | <span data-ttu-id="e4598-202">類型</span><span class="sxs-lookup"><span data-stu-id="e4598-202">Type</span></span>   | <span data-ttu-id="e4598-203">說明</span><span class="sxs-lookup"><span data-stu-id="e4598-203">Description</span></span>                                                                    |
+| <span data-ttu-id="289d6-199">名稱</span><span class="sxs-lookup"><span data-stu-id="289d6-199">Name</span></span>             | <span data-ttu-id="289d6-200">地位</span><span class="sxs-lookup"><span data-stu-id="289d6-200">Status</span></span>      | <span data-ttu-id="289d6-201">類型</span><span class="sxs-lookup"><span data-stu-id="289d6-201">Type</span></span>   | <span data-ttu-id="289d6-202">說明</span><span class="sxs-lookup"><span data-stu-id="289d6-202">Description</span></span>                                                                    |
 |------------------|-------------|--------|--------------------------------------------------------------------------------|
-| <span data-ttu-id="e4598-204">courseId</span><span class="sxs-lookup"><span data-stu-id="e4598-204">courseId</span></span>         | <span data-ttu-id="e4598-205">必要</span><span class="sxs-lookup"><span data-stu-id="e4598-205">Required</span></span>    | <span data-ttu-id="e4598-206">字串</span><span class="sxs-lookup"><span data-stu-id="e4598-206">string</span></span> | <span data-ttu-id="e4598-207">課程識別碼通常 (會與文字記錄中產生的內容) 。</span><span class="sxs-lookup"><span data-stu-id="e4598-207">Usually the course id (Typically maps to what is generated in the transcript).</span></span> |
-| <span data-ttu-id="e4598-208">標題</span><span class="sxs-lookup"><span data-stu-id="e4598-208">title</span></span>            | <span data-ttu-id="e4598-209">必要</span><span class="sxs-lookup"><span data-stu-id="e4598-209">Required</span></span>    | <span data-ttu-id="e4598-210">字串</span><span class="sxs-lookup"><span data-stu-id="e4598-210">string</span></span> | <span data-ttu-id="e4598-211">通常是課程標題。</span><span class="sxs-lookup"><span data-stu-id="e4598-211">Usually the course title.</span></span>                                                      |
-| <span data-ttu-id="e4598-212">sourceLink</span><span class="sxs-lookup"><span data-stu-id="e4598-212">sourceLink</span></span>       | <span data-ttu-id="e4598-213">必要</span><span class="sxs-lookup"><span data-stu-id="e4598-213">Required</span></span>    | <span data-ttu-id="e4598-214">Url</span><span class="sxs-lookup"><span data-stu-id="e4598-214">URL</span></span>    | <span data-ttu-id="e4598-215">課程頁面的網站連結。</span><span class="sxs-lookup"><span data-stu-id="e4598-215">Website link to the course page.</span></span>                                               |
-| <span data-ttu-id="e4598-216">描述</span><span class="sxs-lookup"><span data-stu-id="e4598-216">description</span></span>      | <span data-ttu-id="e4598-217">推薦</span><span class="sxs-lookup"><span data-stu-id="e4598-217">Recommended</span></span> | <span data-ttu-id="e4598-218">字串</span><span class="sxs-lookup"><span data-stu-id="e4598-218">string</span></span> | <span data-ttu-id="e4598-219">課程簡介文字。</span><span class="sxs-lookup"><span data-stu-id="e4598-219">Introduction text for the course.</span></span>                                              |
-| <span data-ttu-id="e4598-220">語言</span><span class="sxs-lookup"><span data-stu-id="e4598-220">language</span></span>         | <span data-ttu-id="e4598-221">推薦</span><span class="sxs-lookup"><span data-stu-id="e4598-221">Recommended</span></span> | <span data-ttu-id="e4598-222">字串</span><span class="sxs-lookup"><span data-stu-id="e4598-222">string</span></span> | <span data-ttu-id="e4598-223">課程語言。</span><span class="sxs-lookup"><span data-stu-id="e4598-223">Language of the course.</span></span> <span data-ttu-id="e4598-224">使用標準語言代碼。</span><span class="sxs-lookup"><span data-stu-id="e4598-224">Use standard language codes.</span></span>                           |
-| <span data-ttu-id="e4598-225">格式</span><span class="sxs-lookup"><span data-stu-id="e4598-225">format</span></span>           | <span data-ttu-id="e4598-226">推薦</span><span class="sxs-lookup"><span data-stu-id="e4598-226">Recommended</span></span> | <span data-ttu-id="e4598-227">字串</span><span class="sxs-lookup"><span data-stu-id="e4598-227">string</span></span> | <span data-ttu-id="e4598-228">教學模式，例如線上、視像、個人。</span><span class="sxs-lookup"><span data-stu-id="e4598-228">Mode of teaching, e.g., online, video, in-person.</span></span>                              |
-| <span data-ttu-id="e4598-229">縮圖連結</span><span class="sxs-lookup"><span data-stu-id="e4598-229">thumbnailLink</span></span>    | <span data-ttu-id="e4598-230">推薦</span><span class="sxs-lookup"><span data-stu-id="e4598-230">Recommended</span></span> | <span data-ttu-id="e4598-231">Url</span><span class="sxs-lookup"><span data-stu-id="e4598-231">URL</span></span>    | <span data-ttu-id="e4598-232">課程影像的縮圖連結。</span><span class="sxs-lookup"><span data-stu-id="e4598-232">Thumbnail link to the course image.</span></span>                                            |
-| <span data-ttu-id="e4598-233">縮圖AltText</span><span class="sxs-lookup"><span data-stu-id="e4598-233">thumbnailAltText</span></span> | <span data-ttu-id="e4598-234">推薦</span><span class="sxs-lookup"><span data-stu-id="e4598-234">Recommended</span></span> | <span data-ttu-id="e4598-235">字串</span><span class="sxs-lookup"><span data-stu-id="e4598-235">string</span></span> | <span data-ttu-id="e4598-236">影像的協助工具替代文字</span><span class="sxs-lookup"><span data-stu-id="e4598-236">Accessibility alt text for the image</span></span>                                           |
-| <span data-ttu-id="e4598-237">educationLevel</span><span class="sxs-lookup"><span data-stu-id="e4598-237">educationLevel</span></span>   | <span data-ttu-id="e4598-238">推薦</span><span class="sxs-lookup"><span data-stu-id="e4598-238">Recommended</span></span> | <span data-ttu-id="e4598-239">字串</span><span class="sxs-lookup"><span data-stu-id="e4598-239">string</span></span> | <span data-ttu-id="e4598-240">學習層級，例如</span><span class="sxs-lookup"><span data-stu-id="e4598-240">Study level, ex.</span></span> <span data-ttu-id="e4598-241">文科/畢業生。</span><span class="sxs-lookup"><span data-stu-id="e4598-241">Undergraduate/Graduate.</span></span>                                       |
-| <span data-ttu-id="e4598-242">主題</span><span class="sxs-lookup"><span data-stu-id="e4598-242">topics</span></span>           | <span data-ttu-id="e4598-243">推薦</span><span class="sxs-lookup"><span data-stu-id="e4598-243">Recommended</span></span> | <span data-ttu-id="e4598-244">字串</span><span class="sxs-lookup"><span data-stu-id="e4598-244">string</span></span> | <span data-ttu-id="e4598-245">與課程所傳授技巧相關聯的主題或標記。</span><span class="sxs-lookup"><span data-stu-id="e4598-245">Topics or tags that are associated with the skills the courses teach.</span></span>          |
+| <span data-ttu-id="289d6-203">courseId</span><span class="sxs-lookup"><span data-stu-id="289d6-203">courseId</span></span>         | <span data-ttu-id="289d6-204">必要</span><span class="sxs-lookup"><span data-stu-id="289d6-204">Required</span></span>    | <span data-ttu-id="289d6-205">字串</span><span class="sxs-lookup"><span data-stu-id="289d6-205">string</span></span> | <span data-ttu-id="289d6-206">課程識別碼通常 (會與文字記錄中產生的內容) 。</span><span class="sxs-lookup"><span data-stu-id="289d6-206">Usually the course id (Typically maps to what is generated in the transcript).</span></span> |
+| <span data-ttu-id="289d6-207">標題</span><span class="sxs-lookup"><span data-stu-id="289d6-207">title</span></span>            | <span data-ttu-id="289d6-208">必要</span><span class="sxs-lookup"><span data-stu-id="289d6-208">Required</span></span>    | <span data-ttu-id="289d6-209">字串</span><span class="sxs-lookup"><span data-stu-id="289d6-209">string</span></span> | <span data-ttu-id="289d6-210">通常是課程標題。</span><span class="sxs-lookup"><span data-stu-id="289d6-210">Usually the course title.</span></span>                                                      |
+| <span data-ttu-id="289d6-211">sourceLink</span><span class="sxs-lookup"><span data-stu-id="289d6-211">sourceLink</span></span>       | <span data-ttu-id="289d6-212">必要</span><span class="sxs-lookup"><span data-stu-id="289d6-212">Required</span></span>    | <span data-ttu-id="289d6-213">Url</span><span class="sxs-lookup"><span data-stu-id="289d6-213">URL</span></span>    | <span data-ttu-id="289d6-214">課程頁面的網站連結。</span><span class="sxs-lookup"><span data-stu-id="289d6-214">Website link to the course page.</span></span>                                               |
+| <span data-ttu-id="289d6-215">描述</span><span class="sxs-lookup"><span data-stu-id="289d6-215">description</span></span>      | <span data-ttu-id="289d6-216">推薦</span><span class="sxs-lookup"><span data-stu-id="289d6-216">Recommended</span></span> | <span data-ttu-id="289d6-217">字串</span><span class="sxs-lookup"><span data-stu-id="289d6-217">string</span></span> | <span data-ttu-id="289d6-218">課程簡介文字。</span><span class="sxs-lookup"><span data-stu-id="289d6-218">Introduction text for the course.</span></span>                                              |
+| <span data-ttu-id="289d6-219">語言</span><span class="sxs-lookup"><span data-stu-id="289d6-219">language</span></span>         | <span data-ttu-id="289d6-220">推薦</span><span class="sxs-lookup"><span data-stu-id="289d6-220">Recommended</span></span> | <span data-ttu-id="289d6-221">字串</span><span class="sxs-lookup"><span data-stu-id="289d6-221">string</span></span> | <span data-ttu-id="289d6-222">課程語言。</span><span class="sxs-lookup"><span data-stu-id="289d6-222">Language of the course.</span></span> <span data-ttu-id="289d6-223">使用標準語言代碼。</span><span class="sxs-lookup"><span data-stu-id="289d6-223">Use standard language codes.</span></span>                           |
+| <span data-ttu-id="289d6-224">格式</span><span class="sxs-lookup"><span data-stu-id="289d6-224">format</span></span>           | <span data-ttu-id="289d6-225">推薦</span><span class="sxs-lookup"><span data-stu-id="289d6-225">Recommended</span></span> | <span data-ttu-id="289d6-226">字串</span><span class="sxs-lookup"><span data-stu-id="289d6-226">string</span></span> | <span data-ttu-id="289d6-227">教學模式，例如線上、視像、個人。</span><span class="sxs-lookup"><span data-stu-id="289d6-227">Mode of teaching, e.g., online, video, in-person.</span></span>                              |
+| <span data-ttu-id="289d6-228">縮圖連結</span><span class="sxs-lookup"><span data-stu-id="289d6-228">thumbnailLink</span></span>    | <span data-ttu-id="289d6-229">推薦</span><span class="sxs-lookup"><span data-stu-id="289d6-229">Recommended</span></span> | <span data-ttu-id="289d6-230">Url</span><span class="sxs-lookup"><span data-stu-id="289d6-230">URL</span></span>    | <span data-ttu-id="289d6-231">課程影像的縮圖連結。</span><span class="sxs-lookup"><span data-stu-id="289d6-231">Thumbnail link to the course image.</span></span>                                            |
+| <span data-ttu-id="289d6-232">縮圖AltText</span><span class="sxs-lookup"><span data-stu-id="289d6-232">thumbnailAltText</span></span> | <span data-ttu-id="289d6-233">推薦</span><span class="sxs-lookup"><span data-stu-id="289d6-233">Recommended</span></span> | <span data-ttu-id="289d6-234">字串</span><span class="sxs-lookup"><span data-stu-id="289d6-234">string</span></span> | <span data-ttu-id="289d6-235">影像的協助工具替代文字</span><span class="sxs-lookup"><span data-stu-id="289d6-235">Accessibility alt text for the image</span></span>                                           |
+| <span data-ttu-id="289d6-236">educationLevel</span><span class="sxs-lookup"><span data-stu-id="289d6-236">educationLevel</span></span>   | <span data-ttu-id="289d6-237">推薦</span><span class="sxs-lookup"><span data-stu-id="289d6-237">Recommended</span></span> | <span data-ttu-id="289d6-238">字串</span><span class="sxs-lookup"><span data-stu-id="289d6-238">string</span></span> | <span data-ttu-id="289d6-239">學習層級，例如</span><span class="sxs-lookup"><span data-stu-id="289d6-239">Study level, ex.</span></span> <span data-ttu-id="289d6-240">文科/畢業生。</span><span class="sxs-lookup"><span data-stu-id="289d6-240">Undergraduate/Graduate.</span></span>                                       |
+| <span data-ttu-id="289d6-241">主題</span><span class="sxs-lookup"><span data-stu-id="289d6-241">topics</span></span>           | <span data-ttu-id="289d6-242">推薦</span><span class="sxs-lookup"><span data-stu-id="289d6-242">Recommended</span></span> | <span data-ttu-id="289d6-243">字串</span><span class="sxs-lookup"><span data-stu-id="289d6-243">string</span></span> | <span data-ttu-id="289d6-244">與課程所傳授技巧相關聯的主題或標記。</span><span class="sxs-lookup"><span data-stu-id="289d6-244">Topics or tags that are associated with the skills the courses teach.</span></span>          |
 
-##### <a name="add-the-course-catalog"></a><span data-ttu-id="e4598-246">新增課程目錄</span><span class="sxs-lookup"><span data-stu-id="e4598-246">Add the course catalog</span></span>
+##### <a name="add-the-course-catalog"></a><span data-ttu-id="289d6-245">新增課程目錄</span><span class="sxs-lookup"><span data-stu-id="289d6-245">Add the course catalog</span></span>
 
-1. <span data-ttu-id="e4598-247">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="e4598-247">Sign in to the **Teams admin center**.</span></span>
+1. <span data-ttu-id="289d6-246">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="289d6-246">Sign in to the **Teams admin center**.</span></span>
 
-1. <span data-ttu-id="e4598-248">選取 **Teams App** 管理 &gt; **App** Career &gt; **Coach** &gt; **設定** &gt; **課程目錄**。  </span><span class="sxs-lookup"><span data-stu-id="e4598-248">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** &gt; **Settings** &gt;  **Course catalog**.</span></span>
+1. <span data-ttu-id="289d6-247">選取 **Teams App** 管理 &gt; **App** Career &gt; **Coach** &gt; **設定** &gt; **課程目錄**。  </span><span class="sxs-lookup"><span data-stu-id="289d6-247">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** &gt; **Settings** &gt;  **Course catalog**.</span></span>
 
-2. <span data-ttu-id="e4598-249">Upload CSV 格式的課程。</span><span class="sxs-lookup"><span data-stu-id="e4598-249">Upload courses in CSV format.</span></span>
+2. <span data-ttu-id="289d6-248">Upload CSV 格式的課程。</span><span class="sxs-lookup"><span data-stu-id="289d6-248">Upload courses in CSV format.</span></span>
 
-4. <span data-ttu-id="e4598-250">選取 **Apply**。</span><span class="sxs-lookup"><span data-stu-id="e4598-250">Select **Apply**.</span></span>
+4. <span data-ttu-id="289d6-249">選取 **Apply**。</span><span class="sxs-lookup"><span data-stu-id="289d6-249">Select **Apply**.</span></span>
 
    ![職業教練應用程式的課程目錄區段](media/course-catalog.png)
 
-#### <a name="fields-of-study"></a><span data-ttu-id="e4598-252">學習領域</span><span class="sxs-lookup"><span data-stu-id="e4598-252">Fields of study</span></span>
+#### <a name="fields-of-study"></a><span data-ttu-id="289d6-251">學習領域</span><span class="sxs-lookup"><span data-stu-id="289d6-251">Fields of study</span></span>
 
-<span data-ttu-id="e4598-253">學習領域與主要興趣領域、學術專業和學位是同義字。</span><span class="sxs-lookup"><span data-stu-id="e4598-253">The fields of study are synonymous with major areas of interest, academic major, and degree.</span></span> <span data-ttu-id="e4598-254">學生開始使用應用程式並開始設定個人化設定檔時，會參照這些標題。</span><span class="sxs-lookup"><span data-stu-id="e4598-254">These titles are referenced by students when they start using the app and begin setting up their personalized profile.</span></span>
+<span data-ttu-id="289d6-252">學習領域與主要興趣領域、學術專業和學位是同義字。</span><span class="sxs-lookup"><span data-stu-id="289d6-252">The fields of study are synonymous with major areas of interest, academic major, and degree.</span></span> <span data-ttu-id="289d6-253">學生開始使用應用程式並開始設定個人化設定檔時，會參照這些標題。</span><span class="sxs-lookup"><span data-stu-id="289d6-253">These titles are referenced by students when they start using the app and begin setting up their personalized profile.</span></span>
 
-<span data-ttu-id="e4598-255">新增所有學生可用的學習欄位，例如工程、英文、商務等等。</span><span class="sxs-lookup"><span data-stu-id="e4598-255">Add all fields of study available to students such as Engineering, English, Business, and so on.</span></span> <span data-ttu-id="e4598-256">欄位清單可讓學生探索可能感興趣的學習欄位，並新增其焦點區域至其設定檔。</span><span class="sxs-lookup"><span data-stu-id="e4598-256">The list of fields lets students discover fields of study that may interest them and add their area of focus to their profile.</span></span>
+<span data-ttu-id="289d6-254">新增所有學生可用的學習欄位，例如工程、英文、商務等等。</span><span class="sxs-lookup"><span data-stu-id="289d6-254">Add all fields of study available to students such as Engineering, English, Business, and so on.</span></span> <span data-ttu-id="289d6-255">欄位清單可讓學生探索可能感興趣的學習欄位，並新增其焦點區域至其設定檔。</span><span class="sxs-lookup"><span data-stu-id="289d6-255">The list of fields lets students discover fields of study that may interest them and add their area of focus to their profile.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e4598-257">從研究 [檔的範例欄位](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) 開始。</span><span class="sxs-lookup"><span data-stu-id="e4598-257">Start with the [sample field of study](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) document.</span></span>
-##### <a name="add-the-fields-of-study"></a><span data-ttu-id="e4598-258">新增學習欄位</span><span class="sxs-lookup"><span data-stu-id="e4598-258">Add the fields of study</span></span>
+> <span data-ttu-id="289d6-256">從研究 [檔的範例欄位](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) 開始。</span><span class="sxs-lookup"><span data-stu-id="289d6-256">Start with the [sample field of study](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) document.</span></span>
+##### <a name="add-the-fields-of-study"></a><span data-ttu-id="289d6-257">新增學習欄位</span><span class="sxs-lookup"><span data-stu-id="289d6-257">Add the fields of study</span></span>
 
-1. <span data-ttu-id="e4598-259">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="e4598-259">Sign in to the **Teams admin center**.</span></span>
-1. <span data-ttu-id="e4598-260">選取 **Teams** &gt; **應用程式 管理應用程式** &gt; **：設定** &gt;  &gt; **訓練課程和學習領域**。  </span><span class="sxs-lookup"><span data-stu-id="e4598-260">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** &gt; **Settings** &gt;  **Fields of study**.</span></span>
+1. <span data-ttu-id="289d6-258">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="289d6-258">Sign in to the **Teams admin center**.</span></span>
+1. <span data-ttu-id="289d6-259">選取 **Teams** &gt; **應用程式 管理應用程式** &gt; **：設定** &gt;  &gt; **訓練課程和學習領域**。  </span><span class="sxs-lookup"><span data-stu-id="289d6-259">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** &gt; **Settings** &gt;  **Fields of study**.</span></span>
 
-2. <span data-ttu-id="e4598-261">Upload CSV 格式的學習領域。</span><span class="sxs-lookup"><span data-stu-id="e4598-261">Upload field of study in CSV format.</span></span>
+2. <span data-ttu-id="289d6-260">Upload CSV 格式的學習領域。</span><span class="sxs-lookup"><span data-stu-id="289d6-260">Upload field of study in CSV format.</span></span>
 
-3. <span data-ttu-id="e4598-262">選取 **Apply**。</span><span class="sxs-lookup"><span data-stu-id="e4598-262">Select **Apply**.</span></span>
+3. <span data-ttu-id="289d6-261">選取 **Apply**。</span><span class="sxs-lookup"><span data-stu-id="289d6-261">Select **Apply**.</span></span>
 
-#### <a name="customization"></a><span data-ttu-id="e4598-263">定制</span><span class="sxs-lookup"><span data-stu-id="e4598-263">Customization</span></span>
+#### <a name="customization"></a><span data-ttu-id="289d6-262">定制</span><span class="sxs-lookup"><span data-stu-id="289d6-262">Customization</span></span>
 
-<span data-ttu-id="e4598-264">您可以自訂您的教育機構唯一的生涯教練。</span><span class="sxs-lookup"><span data-stu-id="e4598-264">Career Coach can be customized to be unique to your educational institution.</span></span> <span data-ttu-id="e4598-265">自訂支援新增體驗至儀表板。</span><span class="sxs-lookup"><span data-stu-id="e4598-265">The customization supports adding experiences to the dashboard.</span></span> <span data-ttu-id="e4598-266">建議您新增工作板、活動、職稱服務辦公室、職稱相關活動、學生俱樂部，以及協助學生取得實際經驗的其他資源的連結。</span><span class="sxs-lookup"><span data-stu-id="e4598-266">It's recommended to add links to job boards, events, career services office, career-related events, student clubs, and any other resources that help students gain real-world experience.</span></span>
+<span data-ttu-id="289d6-263">您可以自訂您的教育機構唯一的生涯教練。</span><span class="sxs-lookup"><span data-stu-id="289d6-263">Career Coach can be customized to be unique to your educational institution.</span></span> <span data-ttu-id="289d6-264">自訂支援新增體驗至儀表板。</span><span class="sxs-lookup"><span data-stu-id="289d6-264">The customization supports adding experiences to the dashboard.</span></span> <span data-ttu-id="289d6-265">建議您新增工作板、活動、職稱服務辦公室、職稱相關活動、學生俱樂部，以及協助學生取得實際經驗的其他資源的連結。</span><span class="sxs-lookup"><span data-stu-id="289d6-265">It's recommended to add links to job boards, events, career services office, career-related events, student clubs, and any other resources that help students gain real-world experience.</span></span>
 
-##### <a name="add-customized-experiences"></a><span data-ttu-id="e4598-267">新增自訂體驗</span><span class="sxs-lookup"><span data-stu-id="e4598-267">Add customized experiences</span></span>
+##### <a name="add-customized-experiences"></a><span data-ttu-id="289d6-266">新增自訂體驗</span><span class="sxs-lookup"><span data-stu-id="289d6-266">Add customized experiences</span></span>
 
-1. <span data-ttu-id="e4598-268">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="e4598-268">Sign in to the **Teams admin center**.</span></span>
+1. <span data-ttu-id="289d6-267">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="289d6-267">Sign in to the **Teams admin center**.</span></span>
 
-1. <span data-ttu-id="e4598-269">選取 **Teams App** &gt; **管理應用程式** &gt; **：設定**  >   &gt; **自訂**。</span><span class="sxs-lookup"><span data-stu-id="e4598-269">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** > **Settings** &gt; **Customization**.</span></span>
+1. <span data-ttu-id="289d6-268">選取 **Teams App** &gt; **管理應用程式** &gt; **：設定**  >   &gt; **自訂**。</span><span class="sxs-lookup"><span data-stu-id="289d6-268">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach** > **Settings** &gt; **Customization**.</span></span>
 
-2. <span data-ttu-id="e4598-270">新增每個 URL、標題和簡短描述。</span><span class="sxs-lookup"><span data-stu-id="e4598-270">Add each URL, a title, and short description.</span></span>  
+2. <span data-ttu-id="289d6-269">新增每個 URL、標題和簡短描述。</span><span class="sxs-lookup"><span data-stu-id="289d6-269">Add each URL, a title, and short description.</span></span>  
   
-3. <span data-ttu-id="e4598-271">選取 **Apply**。</span><span class="sxs-lookup"><span data-stu-id="e4598-271">Select **Apply**.</span></span>
+3. <span data-ttu-id="289d6-270">選取 **Apply**。</span><span class="sxs-lookup"><span data-stu-id="289d6-270">Select **Apply**.</span></span>
 
-## <a name="making-career-coach-available-to-your-organization"></a><span data-ttu-id="e4598-272">為貴組織提供職業教練</span><span class="sxs-lookup"><span data-stu-id="e4598-272">Making Career Coach available to your organization</span></span>
+## <a name="making-career-coach-available-to-your-organization"></a><span data-ttu-id="289d6-271">為貴組織提供職業教練</span><span class="sxs-lookup"><span data-stu-id="289d6-271">Making Career Coach available to your organization</span></span>
 
-<span data-ttu-id="e4598-273">現在，已為貴組織配置了職稱教練。</span><span class="sxs-lookup"><span data-stu-id="e4598-273">Now that Career Coach has been configured for your organization.</span></span> <span data-ttu-id="e4598-274">請遵循下列步驟，確保組織在 Microsoft Teams 中Microsoft Teams。</span><span class="sxs-lookup"><span data-stu-id="e4598-274">Follow these steps to ensure that Career Coach is available to organization in Microsoft Teams.</span></span>
+<span data-ttu-id="289d6-272">現在，已為貴組織配置了職稱教練。</span><span class="sxs-lookup"><span data-stu-id="289d6-272">Now that Career Coach has been configured for your organization.</span></span> <span data-ttu-id="289d6-273">請遵循下列步驟，確保組織在 Microsoft Teams 中Microsoft Teams。</span><span class="sxs-lookup"><span data-stu-id="289d6-273">Follow these steps to ensure that Career Coach is available to organization in Microsoft Teams.</span></span>
 
-### <a name="enable-the-app"></a><span data-ttu-id="e4598-275">啟用應用程式</span><span class="sxs-lookup"><span data-stu-id="e4598-275">Enable the app</span></span>
+### <a name="enable-the-app"></a><span data-ttu-id="289d6-274">啟用應用程式</span><span class="sxs-lookup"><span data-stu-id="289d6-274">Enable the app</span></span>
 
-<span data-ttu-id="e4598-276">完成組組之後，請為學生和授權使用者啟用應用程式，以便他們存取 Career Coach。</span><span class="sxs-lookup"><span data-stu-id="e4598-276">After you complete the configuration, enable the app for students and licensed users so they'll have access to Career Coach.</span></span>  
+<span data-ttu-id="289d6-275">完成組組之後，請為學生和授權使用者啟用應用程式，以便他們存取 Career Coach。</span><span class="sxs-lookup"><span data-stu-id="289d6-275">After you complete the configuration, enable the app for students and licensed users so they'll have access to Career Coach.</span></span>  
   
 > [!NOTE]
-> <span data-ttu-id="e4598-277">您必須擁有全域或Teams管理員角色許可權。</span><span class="sxs-lookup"><span data-stu-id="e4598-277">You must have Global or Teams admin role permissions.</span></span>
+> <span data-ttu-id="289d6-276">您必須擁有全域或Teams管理員角色許可權。</span><span class="sxs-lookup"><span data-stu-id="289d6-276">You must have Global or Teams admin role permissions.</span></span>
 
-1. <span data-ttu-id="e4598-278">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="e4598-278">Sign in to the **Teams admin center**.</span></span>
+1. <span data-ttu-id="289d6-277">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="289d6-277">Sign in to the **Teams admin center**.</span></span>
 
-1. <span data-ttu-id="e4598-279">選取 **Teams** &gt; **應用程式 管理應用程式** &gt; **職業教練**。</span><span class="sxs-lookup"><span data-stu-id="e4598-279">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach**.</span></span>
+1. <span data-ttu-id="289d6-278">選取 **Teams** &gt; **應用程式 管理應用程式** &gt; **職業教練**。</span><span class="sxs-lookup"><span data-stu-id="289d6-278">Select **Teams apps** &gt; **Manage apps** &gt; **Career Coach**.</span></span>
 
-2. <span data-ttu-id="e4598-280">將狀態切換 **開關移至** 允許 。</span><span class="sxs-lookup"><span data-stu-id="e4598-280">Move the Status toggle to **Allowed**.</span></span>  
+2. <span data-ttu-id="289d6-279">將狀態切換 **開關移至** 允許 。</span><span class="sxs-lookup"><span data-stu-id="289d6-279">Move the Status toggle to **Allowed**.</span></span>  
 
   > [!NOTE]
-  > <span data-ttu-id="e4598-281">允許表示此 App 可供教育機構中的使用者使用。</span><span class="sxs-lookup"><span data-stu-id="e4598-281">Allowed means that the app is available for users in your educational institution.</span></span> <span data-ttu-id="e4598-282">封鎖表示學生無法使用 App。</span><span class="sxs-lookup"><span data-stu-id="e4598-282">Blocked means that the app isn't available to students.</span></span>
+  > <span data-ttu-id="289d6-280">允許表示此 App 可供教育機構中的使用者使用。</span><span class="sxs-lookup"><span data-stu-id="289d6-280">Allowed means that the app is available for users in your educational institution.</span></span> <span data-ttu-id="289d6-281">封鎖表示學生無法使用 App。</span><span class="sxs-lookup"><span data-stu-id="289d6-281">Blocked means that the app isn't available to students.</span></span>
 
-### <a name="add-career-coach-as-an-installed-app"></a><span data-ttu-id="e4598-283">將職業教練新增為已安裝的應用程式</span><span class="sxs-lookup"><span data-stu-id="e4598-283">Add Career Coach as an installed app</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="e4598-284">此步驟可確保 1) 為貴組織正確配置 2，) 學生找到職稱教練。</span><span class="sxs-lookup"><span data-stu-id="e4598-284">This step ensures 1) that Career Coach is properly configured for your organization 2) that students find Career Coach.</span></span>
-
-1. <span data-ttu-id="e4598-285">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="e4598-285">Sign in to the **Teams admin center**.</span></span>
-
-2. <span data-ttu-id="e4598-286">選取 **Teams** &gt; **應用程式設定策略** &gt; *您的策略*。</span><span class="sxs-lookup"><span data-stu-id="e4598-286">Select **Teams apps** &gt;**Setup policies** &gt; *Your policy*.</span></span> 
-
-3. <span data-ttu-id="e4598-287">在安裝的應用程式下，選取新增應用程式。</span><span class="sxs-lookup"><span data-stu-id="e4598-287">Under Installed apps, select Add apps.</span></span>
-
-4. <span data-ttu-id="e4598-288">在新增已安裝的應用程式窗格中，搜尋使用者在開始使用應用程式時，Teams。</span><span class="sxs-lookup"><span data-stu-id="e4598-288">In the Add installed apps pane, search for the apps you want to automatically install for users when they start Teams.</span></span> <span data-ttu-id="e4598-289">您也可以根據應用程式權限原則篩選應用程式。</span><span class="sxs-lookup"><span data-stu-id="e4598-289">You can also filter apps by app permission policy.</span></span> <span data-ttu-id="e4598-290">當您選擇您的應用程式清單時，請選取新增。</span><span class="sxs-lookup"><span data-stu-id="e4598-290">When you've chosen your list of apps, select Add.</span></span>
-
-### <a name="pin-the-app"></a><span data-ttu-id="e4598-291">釘上應用程式</span><span class="sxs-lookup"><span data-stu-id="e4598-291">Pin the app</span></span>
-
-<span data-ttu-id="e4598-292">釘上生涯教練，讓學生更容易使用及看到應用程式。</span><span class="sxs-lookup"><span data-stu-id="e4598-292">Pinning Career Coach will make the app more accessible and visible for students.</span></span>
-
-1. <span data-ttu-id="e4598-293">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="e4598-293">Sign in to the **Teams admin center**.</span></span>
-
-2. <span data-ttu-id="e4598-294">選取 **Teams** &gt; **應用程式設定策略** &gt; *您的策略*。</span><span class="sxs-lookup"><span data-stu-id="e4598-294">Select **Teams apps** &gt;**Setup policies** &gt; *Your policy*.</span></span> 
-
-3. <span data-ttu-id="e4598-295">在 **釘選的 App** 下，選擇新增 **應用程式**。</span><span class="sxs-lookup"><span data-stu-id="e4598-295">Under **Pinned apps**, choose **Add apps**.</span></span>
-
-4. <span data-ttu-id="e4598-296">搜尋 **職業教練**， **然後選取** 新增 。</span><span class="sxs-lookup"><span data-stu-id="e4598-296">Search for **Career Coach**, and then select **Add**.</span></span>
-
-5. <span data-ttu-id="e4598-297">選擇應用程式顯示的順序， **然後選取** 儲存 。</span><span class="sxs-lookup"><span data-stu-id="e4598-297">Choose the order for the app to appear and select **Save**.</span></span>
+### <a name="add-career-coach-as-an-installed-app"></a><span data-ttu-id="289d6-282">將職業教練新增為已安裝的應用程式</span><span class="sxs-lookup"><span data-stu-id="289d6-282">Add Career Coach as an installed app</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e4598-298">學生會收到有關Microsoft Teams教練已釘釘的通知。</span><span class="sxs-lookup"><span data-stu-id="e4598-298">Students will be notified in Microsoft Teams that Career Coach has been pinned.</span></span>
+> <span data-ttu-id="289d6-283">此步驟可確保 1) 為貴組織正確配置 2，) 學生找到職稱教練。</span><span class="sxs-lookup"><span data-stu-id="289d6-283">This step ensures 1) that Career Coach is properly configured for your organization 2) that students find Career Coach.</span></span>
 
-<span data-ttu-id="e4598-299">請參閱 [在 Microsoft 中管理應用程式設定](/microsoftteams/teams-app-setup-policies) 政策以瞭解其他詳細資料。</span><span class="sxs-lookup"><span data-stu-id="e4598-299">Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-setup-policies) for additional details.</span></span>
+1. <span data-ttu-id="289d6-284">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="289d6-284">Sign in to the **Teams admin center**.</span></span>
 
-## <a name="resources"></a><span data-ttu-id="e4598-300">資源</span><span class="sxs-lookup"><span data-stu-id="e4598-300">Resources</span></span>
+2. <span data-ttu-id="289d6-285">選取 **Teams** &gt; **應用程式設定策略** &gt; *您的策略*。</span><span class="sxs-lookup"><span data-stu-id="289d6-285">Select **Teams apps** &gt;**Setup policies** &gt; *Your policy*.</span></span> 
 
-<span data-ttu-id="e4598-301">下列資源可協助規劃您的職業教練應用程式。</span><span class="sxs-lookup"><span data-stu-id="e4598-301">The following resources will help you plan your Career Coach app.</span></span>
+3. <span data-ttu-id="289d6-286">在安裝的應用程式下，選取新增應用程式。</span><span class="sxs-lookup"><span data-stu-id="289d6-286">Under Installed apps, select Add apps.</span></span>
 
-- [<span data-ttu-id="e4598-302">歡迎使用 Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e4598-302">Welcome to Microsoft Teams</span></span>](Teams-overview.md)
+4. <span data-ttu-id="289d6-287">在新增已安裝的應用程式窗格中，搜尋使用者在開始使用應用程式時，Teams。</span><span class="sxs-lookup"><span data-stu-id="289d6-287">In the Add installed apps pane, search for the apps you want to automatically install for users when they start Teams.</span></span> <span data-ttu-id="289d6-288">您也可以根據應用程式權限原則篩選應用程式。</span><span class="sxs-lookup"><span data-stu-id="289d6-288">You can also filter apps by app permission policy.</span></span> <span data-ttu-id="289d6-289">當您選擇您的應用程式清單時，請選取新增。</span><span class="sxs-lookup"><span data-stu-id="289d6-289">When you've chosen your list of apps, select Add.</span></span>
 
-- [<span data-ttu-id="e4598-303">如何推出 Teams</span><span class="sxs-lookup"><span data-stu-id="e4598-303">How to roll out Teams</span></span>](get-started-with-teams-resources-for-org-wide-rollout.md?tabs=SmallBusiness)
+### <a name="pin-the-app"></a><span data-ttu-id="289d6-290">釘上應用程式</span><span class="sxs-lookup"><span data-stu-id="289d6-290">Pin the app</span></span>
 
-- [<span data-ttu-id="e4598-304">Microsoft Teams 中的團隊和頻道概覽</span><span class="sxs-lookup"><span data-stu-id="e4598-304">Overview of teams and channels in Microsoft Teams</span></span>](teams-channels-overview.md)
+<span data-ttu-id="289d6-291">釘上生涯教練，讓學生更容易使用及看到應用程式。</span><span class="sxs-lookup"><span data-stu-id="289d6-291">Pinning Career Coach will make the app more accessible and visible for students.</span></span>
 
-- [<span data-ttu-id="e4598-305">在系統管理中心Microsoft Teams應用程式</span><span class="sxs-lookup"><span data-stu-id="e4598-305">Managing apps in Microsoft Teams Admin Center</span></span>](manage-apps.md)
+1. <span data-ttu-id="289d6-292">請Teams **系統管理中心**。</span><span class="sxs-lookup"><span data-stu-id="289d6-292">Sign in to the **Teams admin center**.</span></span>
 
-- [<span data-ttu-id="e4598-306">安全性、隱私權和合規性Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e4598-306">Security, privacy, and compliance in Microsoft Teams</span></span>](security-compliance-overview.md)
+2. <span data-ttu-id="289d6-293">選取 **Teams** &gt; **應用程式設定策略** &gt; *您的策略*。</span><span class="sxs-lookup"><span data-stu-id="289d6-293">Select **Teams apps** &gt;**Setup policies** &gt; *Your policy*.</span></span> 
 
-- [<span data-ttu-id="e4598-307">線上虛擬方向套件</span><span class="sxs-lookup"><span data-stu-id="e4598-307">Online Virtual Orientation Kit</span></span>](https://www.microsoft.com/education/remote-learning/virtual-orientation) 
+3. <span data-ttu-id="289d6-294">在 **釘選的 App** 下，選擇新增 **應用程式**。</span><span class="sxs-lookup"><span data-stu-id="289d6-294">Under **Pinned apps**, choose **Add apps**.</span></span>
 
-- [<span data-ttu-id="e4598-308">頻道的限制Teams規格</span><span class="sxs-lookup"><span data-stu-id="e4598-308">Limits and specification of Teams channels</span></span>](limits-specifications-teams.md)
+4. <span data-ttu-id="289d6-295">搜尋 **職業教練**， **然後選取** 新增 。</span><span class="sxs-lookup"><span data-stu-id="289d6-295">Search for **Career Coach**, and then select **Add**.</span></span>
 
-- [<span data-ttu-id="e4598-309">Microsoft Teams 中的資料位置</span><span class="sxs-lookup"><span data-stu-id="e4598-309">Location of data in Microsoft Teams</span></span>](location-of-data-in-teams.md)
+5. <span data-ttu-id="289d6-296">選擇應用程式顯示的順序， **然後選取** 儲存 。</span><span class="sxs-lookup"><span data-stu-id="289d6-296">Choose the order for the app to appear and select **Save**.</span></span>
 
-- [<span data-ttu-id="e4598-310">開始使用系統管理訓練Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="e4598-310">Getting started with admin training for Microsoft Teams</span></span>](ITAdmin-readiness.md)
+> [!NOTE]
+> <span data-ttu-id="289d6-297">學生會收到有關Microsoft Teams教練已釘釘的通知。</span><span class="sxs-lookup"><span data-stu-id="289d6-297">Students will be notified in Microsoft Teams that Career Coach has been pinned.</span></span>
 
-- [<span data-ttu-id="e4598-311">Teams疑難排解</span><span class="sxs-lookup"><span data-stu-id="e4598-311">Teams troubleshooting</span></span>](/microsoftteams/troubleshoot/teams-welcome)
+<span data-ttu-id="289d6-298">請參閱 [在 Microsoft 中管理應用程式設定](/microsoftteams/teams-app-setup-policies) 政策以瞭解其他詳細資料。</span><span class="sxs-lookup"><span data-stu-id="289d6-298">Reference [Manage app setup policies in Microsoft](/microsoftteams/teams-app-setup-policies) for additional details.</span></span>
 
-- [<span data-ttu-id="e4598-312">在 Microsoft Teams 中管理應用程式權限原則</span><span class="sxs-lookup"><span data-stu-id="e4598-312">Manage app permission policies in Microsoft Teams</span></span>](teams-app-permission-policies.md)
+## <a name="resources"></a><span data-ttu-id="289d6-299">資源</span><span class="sxs-lookup"><span data-stu-id="289d6-299">Resources</span></span>
+
+<span data-ttu-id="289d6-300">下列資源可協助規劃您的職業教練應用程式。</span><span class="sxs-lookup"><span data-stu-id="289d6-300">The following resources will help you plan your Career Coach app.</span></span>
+
+- [<span data-ttu-id="289d6-301">歡迎使用 Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="289d6-301">Welcome to Microsoft Teams</span></span>](Teams-overview.md)
+
+- [<span data-ttu-id="289d6-302">如何推出 Teams</span><span class="sxs-lookup"><span data-stu-id="289d6-302">How to roll out Teams</span></span>](get-started-with-teams-resources-for-org-wide-rollout.md?tabs=SmallBusiness)
+
+- [<span data-ttu-id="289d6-303">Microsoft Teams 中的團隊和頻道概覽</span><span class="sxs-lookup"><span data-stu-id="289d6-303">Overview of teams and channels in Microsoft Teams</span></span>](teams-channels-overview.md)
+
+- [<span data-ttu-id="289d6-304">在系統管理中心Microsoft Teams應用程式</span><span class="sxs-lookup"><span data-stu-id="289d6-304">Managing apps in Microsoft Teams Admin Center</span></span>](manage-apps.md)
+
+- [<span data-ttu-id="289d6-305">線上虛擬方向套件</span><span class="sxs-lookup"><span data-stu-id="289d6-305">Online Virtual Orientation Kit</span></span>](https://www.microsoft.com/education/remote-learning/virtual-orientation) 
+
+- [<span data-ttu-id="289d6-306">頻道的限制Teams規格</span><span class="sxs-lookup"><span data-stu-id="289d6-306">Limits and specification of Teams channels</span></span>](limits-specifications-teams.md)
+
+- [<span data-ttu-id="289d6-307">開始使用系統管理訓練Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="289d6-307">Getting started with admin training for Microsoft Teams</span></span>](ITAdmin-readiness.md)
+
+- [<span data-ttu-id="289d6-308">Teams疑難排解</span><span class="sxs-lookup"><span data-stu-id="289d6-308">Teams troubleshooting</span></span>](/microsoftteams/troubleshoot/teams-welcome)
+
+- [<span data-ttu-id="289d6-309">在 Microsoft Teams 中管理應用程式權限原則</span><span class="sxs-lookup"><span data-stu-id="289d6-309">Manage app permission policies in Microsoft Teams</span></span>](teams-app-permission-policies.md)
