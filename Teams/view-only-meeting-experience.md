@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76137c0ebfe73c6ba500a0dbcdc8ee1a01de85fc
-ms.sourcegitcommit: 242561bfc12504614633539ca696b91dfc890b92
+ms.openlocfilehash: ca53c75d12964de2d4d458b240878b14fd2ad04b
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "52328555"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699344"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 僅供檢視會議體驗
 
@@ -29,7 +29,7 @@ ms.locfileid: "52328555"
 > 在 Microsoft 365 E3/E5 和 Microsoft 365 A3/A5 中提供僅供檢視廣播。 此功能將於 2021 年 3 月 1 日啟用，但預設為關閉。 Microsoft 365 政府社群雲端 (GCC) 中的功能將於 2021 年 3 月底開始推出。 政府社群雲端 High (GCCH) 和美國國防部 (DoD) 將於稍後推出。 如果您想要將功能設定為預設開啟，您必須在此日期之後變更預設原則。 使用 PowerShell 啟用原則 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`。
 
 > [!Note]
-> 如果您的會議或網路研討會達到容量限制，Teams 將會無縫調整，以容納 10,000 人僅供檢視廣播體驗。 此外，在遠端工作數量增加的這段時間裡，到今年年底，請利用 20,000 人的更大廣播容量。
+> 如果您的會議達到容量，Teams可順暢縮放，以容納 10，000 人只能觀看的廣播體驗。 此外，在遠端工作數量增加的這段時間裡，到今年年底，請利用 20,000 人的更大廣播容量。
 
 Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 在達到主要會議容量之後 (1000 個使用者進入會議) 其他出席者會以僅查看體驗加入會議。
 
@@ -40,7 +40,7 @@ Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 在達到
 出席者將能透過 Android 和 iOS Teams和 iOS (，透過桌面、web 和) 加入僅) 。
 
 > [!Note]
-> 「主要會議」或也就是說，完全互動使用者數目的目前限制容量為 1000 個，包括GCC。
+> 「主要會議」或換句話說，完全互動使用者數目的目前限制容量為 1000 個，包括GCC。
 
 ## <a name="teams-view-only-experience-controls"></a>Teams只顯示體驗控制項
 
@@ -113,7 +113,7 @@ Teams 僅供檢視體驗可讓出席者：
 
 ## <a name="view-only-feature-limitations"></a>僅供檢視功能限制
 
-- 僅能觀看的出席者只能在桌面和 Web 上看到即時字幕。 目前僅支援英文字輔助字幕。
+- 只有只能觀看的出席者才能在桌面和 Web 上看到即時字幕。 目前僅支援英文字輔助字幕。
 - 串流技術將支援僅供檢視出席者。
 - 出席報告中不會包含僅供檢視出席者。
 - 僅供檢視出席者將擁有單一視訊體驗。 他們可以看到目前主講人或正在共用的內容，但不能同時看到兩者。

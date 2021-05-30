@@ -20,12 +20,12 @@ description: 在本文章中，您將瞭解在 Microsoft Teams 中設定即時�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 79142779c633aeb852826ee04f5fb5c3c9aeb07f
-ms.sourcegitcommit: 950387da2a2c094b7580bcf81ae5d8b6dfba0d6b
+ms.openlocfilehash: fbacbc4e17d08ae8e5e3a86338f764976ac34b4d
+ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "51637855"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "52699334"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -85,7 +85,7 @@ ms.locfileid: "51637855"
 2. 讓使用者接受來賓邀請並加入團隊。
 3. [排程即時活動，並將來賓新增至您的活動群組](https://support.microsoft.com/article/schedule-a-teams-live-event-7a9ce97c-e1cd-470f-acaf-e6dfc179a0e2)。
 
-最佳做法是，建議您為即時活動的製作人和簡報者建立頻道，使得他們可以在活動前交談和共用資訊。 沒有 Microsoft 365 認證的來賓就不會看到 Teams 中的行事曆。 若要讓他們能夠輕鬆加入活動，製作人可以將活動連結張貼到頻道。 然後，簡報者可以開啟 Teams、前往頻道，然後選取連結以加入活動。
+最佳做法是，建議您為即時活動的製作人和簡報者建立頻道，使得他們可以在活動前交談和共用資訊。沒有 Microsoft 365 認證的來賓就不會看到 Teams 中的行事曆。若要讓他們能夠輕鬆加入活動，製作人可以將活動連結張貼到頻道。然後，簡報者可以開啟 Teams，前往頻道，然後選取連結以加入活動。
 
 ## <a name="who-can-watch-live-events"></a>誰可以觀看即時活動？
 
@@ -106,7 +106,7 @@ ms.locfileid: "51637855"
 > [!IMPORTANT]
 > **Microsoft 365 的即時活動限制增加**
 >
-> **為能持續支援我們客戶的需求，直到 2021 年 6 月 30 日，我們將延長即時活動的暫時性限制增加**：
+> **為能持續支援我們客戶的需求，直到 2022 年 1 月，我們將延長即時活動的暫時性限制增加**：
 >
 >- 活動支援最多達 20000 個出席者
 >- 不同租用戶可以同時進行 50 個活動
