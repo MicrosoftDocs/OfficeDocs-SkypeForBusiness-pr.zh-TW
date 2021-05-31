@@ -1398,6 +1398,8 @@ items:
             items:
               - name: 使用 Teams 虛擬就診 - 整合 EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
+              - name: EHR 系統管理報告
+                href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
               - name: 使用 Bookings 和 Teams 虛擬就診
                 href: bookings-app-admin.md
           - name: 檢視並指派原則套件
