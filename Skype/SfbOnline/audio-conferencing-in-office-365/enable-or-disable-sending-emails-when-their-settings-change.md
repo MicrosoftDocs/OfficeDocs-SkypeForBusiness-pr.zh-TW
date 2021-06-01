@@ -33,11 +33,11 @@ ms.locfileid: "52237319"
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 如果您想要啟用或停用在 Microsoft Teams 中傳送電子郵件，請參閱在 Microsoft Teams 中音訊會議設定變更時啟用或[停用Microsoft Teams。](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)
+> 如果您想要啟用或停用在 Microsoft Teams 中傳送電子郵件，請參閱啟用或停用在 Microsoft Teams 中變更音訊會議設定時傳送[Microsoft Teams。](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)
 
-使用者啟用音訊會議時，會自動收到電子郵件通知。 不過，有時候您可能會想要減少寄給使用者的電子郵件商務用 Skype數量。 在這種情況下，您可以停用傳送電子郵件。
+啟用音訊會議時，系統會自動以電子郵件通知使用者。 不過，有時候您可能會想要減少寄給使用者的電子郵件商務用 Skype數量。 在這種情況下，您可以停用傳送電子郵件。
   
-如果您停用傳送電子郵件，音訊會議電子郵件將不會傳送給使用者，包括使用者啟用或停用音訊會議時、其 PIN 重設時間，以及會議 ID 和預設會議電話號碼變更時的電子郵件。
+如果您停用傳送電子郵件，音訊會議電子郵件將不會傳送給使用者，包括使用者啟用或停用音訊會議、PIN 重設時間，以及會議 ID 和預設會議電話號碼變更時的電子郵件。
   
 以下是啟用音訊會議時，會寄給使用者的電子郵件範例：
   
@@ -53,7 +53,7 @@ ms.locfileid: "52237319"
     
   - 當您手動重設使用者的會議 ID 時。
     
-  - 從 **音訊會議授權** 中移除時。
+  - 從 **這些會議中移除音訊會議** 授權時。
     
   - 當使用者的音訊會議提供者從 Microsoft 變更為另一個提供者或無 **時**。
     
@@ -62,7 +62,7 @@ ms.locfileid: "52237319"
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>啟用或停用電子郵件，禁止將電子郵件寄給使用者
 
-您可以使用系統管理中心商務用 Skype或Windows PowerShell以啟用或停用發送給使用者的電子郵件。
+您可以使用系統管理商務用 Skype或Windows PowerShell來啟用或停用發送給使用者的電子郵件。
 
  
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
@@ -111,15 +111,15 @@ ms.locfileid: "52237319"
     
   - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell使用系統管理中心時，Microsoft 365在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點： 
+- Windows PowerShell比使用 Microsoft 365 系統管理中心時，在速度、簡易性及生產力方面有許多優點，例如一次對許多使用者進行設定變更。 請從下列主題瞭解這些優點： 
     
   - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用Windows PowerShell執行線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
     > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell[模組商務用 Skype Online。](https://go.microsoft.com/fwlink/?LinkId=294688)

@@ -36,7 +36,7 @@ ms.locfileid: "52238783"
   
 ## <a name="manage-skype-for-business-online-tenants"></a>管理 商務用 Skype Online 租使用者
 
-若要返回您的線上租使用者商務用 Skype相關資訊，請撥打[Get-CsTenant](/powershell/module/skype/Get-CsTenant) Cmdlet，而不使用任何其他參數。
+若要返回您的線上租使用者商務用 Skype相關資訊，請撥打[Get-CsTenant](/powershell/module/skype/Get-CsTenant) Cmdlet，而不需要任何其他參數。
   
 ```PowerShell
 Get-CsTenant

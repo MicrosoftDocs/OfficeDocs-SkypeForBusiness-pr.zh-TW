@@ -32,31 +32,31 @@ ms.locfileid: "52239896"
 
 本文說明系統管理員如何將應用程式部署商務用 Skype組織人員 **[](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 的選項。
   
-在將 商務用 Skype部署至使用者之前，請確定您已完成設定線上版一文中的步驟 1-3 商務用 Skype[步驟](set-up-skype-for-business-online.md)。 如此一來，商務用 Skype網域進行設定，每個人都會擁有他們的授權，而您也將為貴組織的 商務用 Skype Online 設定 IM[和設定](configure-presence-in-skype-for-business-online.md)目前狀態。
+在將 商務用 Skype部署至使用者之前，請確定您已完成設定線上版一文中的步驟 1-3 商務用 Skype[步驟](set-up-skype-for-business-online.md)。 如此一來，商務用 Skype網域進行設定，每個人都會擁有他們的授權，而且您將為貴組織的 商務用 Skype Online 設定 IM[和設定](configure-presence-in-skype-for-business-online.md)目前狀態。
   
 > [!NOTE]
 > 使用者若要安裝 商務用 Skype應用程式，他們必須是電腦或裝置上的本地系統管理員。 或者，他們必須是可以在電腦或裝置上安裝 App 的當地群組的一部分。 如果您的使用者不允許在裝置上安裝軟體，您必須為使用者商務用 Skype應用程式。 
   
 ## <a name="for-most-small-and-medium-sized-businesses"></a>適用于大多數中小型企業
 
- **逐步安裝指示：** 如果您有中小型企業，我們建議您直接要求使用者將 商務用 Skype應用程式安裝在他們的 PC 上。 指向這些[指示：安裝](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)商務用 Skype。 如果他們使用的是 Mac，請指向設定[Lync for Mac 2011 Office 365。](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) 商務用 Skype應用程式會與應用程式的其他部分分開Office安裝。
+ **逐步安裝指示：** 如果您有中小型企業，建議您直接要求使用者將 商務用 Skype應用程式安裝在他們的 PC 上。 指向這些[指示：安裝](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)商務用 Skype。 如果他們使用的是 Mac，請指向設定[Lync for Mac 2011 Office 365。](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) 商務用 Skype應用程式會與應用程式的其他部分分開Office安裝。
   
- **Microsoft 365 Apps 企業版客戶：** 如果您的公司使用 Office 365 方案包含 Microsoft 365 Apps 企業版 ，例如 E3 方案，則 商務用 Skype 應用程式會同時安裝，同時您的使用者下載並安裝 Word、Excel、PowerPoint 等。這也表示他們無法卸載商務用 Skype，除非他們卸載所有Office。
+ **Microsoft 365 Apps 企業版客戶：** 如果您的公司使用包含 Office 365 的 Microsoft 365 Apps 企業版 方案 ，例如 E3 方案，則 商務用 Skype 應用程式會同時安裝，同時您的使用者下載並安裝 Word、Excel、PowerPoint 等。這也表示他們無法卸載商務用 Skype，除非他們卸載Office。
   
 ### <a name="choose-whether-to-make-skype-for-business-available-to-your-users"></a>選擇是否要商務用 Skype使用者使用
 
-作為[系統管理員](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)，您可以選擇是否要讓使用者商務用 Skype應用程式。
+做[為系統管理員](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)，您可以選擇是否要讓使用者商務用 Skype應用程式。
   
-- **若要控制公司中的** 每個人是否獲得軟體：請Microsoft 365系統管理中心，前往安裝我的軟體，然後選取您想要供使用者使用的軟體。
+- **若要控制公司中的** 每個人都是否獲得軟體：請Microsoft 365系統管理中心，前往安裝我的軟體，然後選取您想要供使用者使用的軟體。
     
     ![選擇您想要提供給公司人員的軟體。](../images/5eb9e9d4-6ea2-4cc1-a61d-8a1af5a7c121.png)
   
-- 若要控制公司中的特定人員是否取得軟體：請登錄 Microsoft 365 系統管理中心、前往 [使用者使用中使用者>、選取要授予軟體存取權限的人，然後按一下 [產品授權旁的編輯>，然後開啟或關閉授權。  >    
+- 若要控制公司中的特定人員是否取得軟體：請登錄 Microsoft 365 系統管理中心、前往 [使用者使用中使用者>、選取要授予軟體存取權限的人，然後按一下 [產品授權旁邊的編輯>，然後開啟或  >  關閉授權。
     
     ![選擇您想要使用者存取的軟體。](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> 如果您需要查看指派給貴組織人員哪些方案，請Microsoft 365系統管理中心>****  >  **使用者**。 從清單中選取該人員，然後查看產品 **授權下的**。 如果您使用的是傳統系統管理中心，請看下指派 **授權**。 
+> 如果您需要查看指派給貴組織人員哪些方案，請Microsoft 365系統管理中心>****  >  **使用者**。 從清單中選取人員，然後查看產品 **授權下的**。 如果您使用的是傳統系統管理中心，請看下指派 **授權**。 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>手動將商務用 Skype部署至您的使用者
 <a name="bkmk_manual_1"> </a>
@@ -67,7 +67,7 @@ ms.locfileid: "52239896"
   
 對於完整和基本 商務用 Skype 應用程式，下載設定檔案之後，您必須手動傳送 (，例如以電子郵件傳送) 網路路徑給使用者，以便他們執行安裝程式，將應用程式安裝在他們的電腦上。
   
-您也可以使用這些下載，使用現有的軟體部署工具和商務用 Skype將應用程式部署到您的使用者。
+您也可以使用這些下載，使用現有的軟體部署工具和商務用 Skype，將應用程式部署到您的使用者。
   
 ## <a name="for-larger-and-enterprise-organizations"></a>適用于大型企業及企業組織
 
@@ -92,9 +92,9 @@ ms.locfileid: "52239896"
   
 1. **[從 Microsoft 下載Office下載](https://www.microsoft.com/download/details.aspx?id=49117)** 最新的部署工具。
     
-2. 建立 configuration.xml 檔案，以與具有您想要的用戶端應用程式設定的 Office 部署工具一起使用，例如設定 (32 位或 64 位) 版本、安裝語言等。
+2. 建立 configuration.xml 檔案，以用於具有您想要的用戶端應用程式設定之 Office 部署工具，例如設定版本 (32 位或 64 位) 、安裝語言等。
     
-3. 使用 Office 部署工具及configuration.xml檔案，將設定檔案從伺服器下載至您的Office 內容傳遞網路 (CDN) 。
+3. 使用 Office部署工具及configuration.xml檔案，將設定檔案從 Office 內容傳遞網路 (CDN) 下載至您的本地或Office 內容傳遞網路 (CDN) 。
     
 4. 使用 Office 部署工具及configuration.xml來安裝 Office 用戶端應用程式，包括 商務用 Skype 應用程式。
     

@@ -30,7 +30,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52237529"
 ---
-# <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>系統管理員：設定商務用 Skype使用者的設定
+# <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>系統管理員：為個別商務用 Skype設定
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -85,7 +85,7 @@ ms.locfileid: "52237529"
     
 2. 選擇 **外部通訊**，然後適當清除選項：
     
-   - **外部商務用 Skype** 使用者：如果您不希望使用者能夠與商務用 Skype網域的使用者通訊，請清除此方塊。
+   - **外部商務用 Skype** 使用者：如果您不希望使用者能夠與聯合網域商務用 Skype使用者通訊，請清除此方塊。
     
    - **外部Skype** 使用者：如果您不希望使用者能夠與使用 freeSkype 應用程式的使用者通訊，請清除此方塊。
     
@@ -98,14 +98,14 @@ ms.locfileid: "52237529"
 
 1. 選擇 **使用者**，選取要編輯其音訊會議設定的使用者， **然後選擇編輯** ![ 編輯 ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 。
     
-2. 選擇 **[音訊會議，** 選取您的音訊會議提供者，輸入或變更要求的資訊，然後按一下 [ **儲存**。
+2. 選擇 **[音訊會議」，** 選取您的音訊會議提供者，輸入或變更要求的資訊，然後按一下 [ **儲存**。
     
 |**音訊會議設定**|**描述**|
 |:-----|:-----|
 |**提供者名稱** <br/> |從清單中選擇您的提供者。  <br/> |
 |**必須撥打 (** 電話號碼)  <br/> |對於協力廠商 ACP，這些電話號碼就是您從音訊會議提供者收到的號碼。 如果使用者使用 Microsoft 做為音訊會議提供者，這些號碼會設定在音訊會議橋接器上。 將數位格式化為您想要顯示在會議商務用 Skype Microsoft Teams中。  <br/> |
 |**免付費號碼** <br/> |對於協力廠商 ACP，這些電話號碼就是您從音訊會議提供者收到的號碼。 如果使用者使用 Microsoft 做為音訊會議提供者，這些號碼會設定在音訊會議橋接器上。 將數位格式化為您想要顯示在會議商務用 Skype Microsoft Teams中。  <br/> |
-|**會議 ID 和 PIN** (必須)  <br/> |參與者 PIN 或會議代碼，用來加入此使用者排程的會議，且由協力廠商音訊會議提供者提供。 如果使用者使用 Microsoft 做為音訊會議提供者，則不需要這樣做。  <br/> |
+|**會議 ID 和 PIN** (必須)  <br/> |參與者 PIN 或會議代碼，用來加入此使用者排程的會議，且由協力廠商音訊會議提供者提供。 如果使用者使用 Microsoft 做為音訊會議提供者，則不需要這項功能。  <br/> |
    
 若要大量設定這些設定，請使用 PowerShell。 請參閱[設定邀請中包含的電話號碼](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)[設定您的電腦Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 

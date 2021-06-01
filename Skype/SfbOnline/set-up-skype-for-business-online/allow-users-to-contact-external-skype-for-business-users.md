@@ -27,7 +27,7 @@ ms.custom:
 - O365P_ExternalCommDesc
 - O365P_ShareLync
 - LIL_Placement
-description: '瞭解如何設定商務用 Skype讓使用者與另一個組織的使用者交談，或讓外部連絡人與使用者交談。 '
+description: '瞭解如何設定商務用 Skype讓使用者與另一個組織的使用者交談，或讓外部連絡人交談。 '
 ms.openlocfilehash: 3b4aeb2b40cf34579d3d584a50664550cd34038c
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -73,7 +73,7 @@ ms.locfileid: "52240001"
 
 7. 請確定另一組織的系統管理員在系統管理中心執行商務用 Skype **步驟**。 例如，在允許 **的網域** 清單中，他們的系統管理員必須輸入您企業所需的網域。
 
-8. 如果您使用的是防火牆Windows，商務用 Skype自動開啟所需的埠。
+8. 如果您使用的是防火牆Windows，商務用 Skype開啟所需的埠。
 
     如果貴組織使用不同的防火牆解決方案來限制網路上的電腦無法連接到網際網路，請確保您的用戶端電腦能夠存取下列 Office 365 [URL 和 IP 位址範圍](/microsoftteams/office-365-urls-ip-address-ranges)。 這可能需要將 FQDNs 新增到防火牆或 Proxy 基礎結構組配置的外發允許清單 **\* ：.api.skype.com、.users.storage.live.com** \* *__***和 graph.skype.com。** 若要瞭解如何在防火牆中開啟這些埠的指示，請查看它所提供的檔。
 
@@ -107,9 +107,9 @@ ms.locfileid: "52240001"
 
 <a name="bk_preview"> </a>
 
-啟用與其他使用者的外部通訊商務用 Skype，您的使用者可以搜尋商務用 Skype使用者之登錄名稱來尋找已建立聯盟的使用者。 例如，Rob@contoso.com。 接著，他們將需要將人員新增到連絡人清單中。
+啟用與其他使用者的外部通訊商務用 Skype，您的使用者可以搜尋商務用 Skype使用者之登錄名稱，以尋找已建立聯盟的使用者。 例如，Rob@contoso.com。 接著，他們將需要將人員新增到連絡人清單中。
   
-![若要在聯合企業中尋找使用者，您必須搜尋其電子郵件地址 (這通常也是他們) 。](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
+![若要在聯合企業中尋找使用者，您必須搜尋其電子郵件地址 (這通常也是他們以) 。](../images/20242f85-0636-463b-8df3-1e123784d7fa.png)
   
 ## <a name="tips-on-setting-up-communications-with-federated-businesses"></a>提示與聯盟企業設定通訊
 
@@ -117,9 +117,9 @@ ms.locfileid: "52240001"
 
 - 若要設定 2015 商務用 Skype與 商務用 Skype之間的聯合，請參閱這篇文章：設定與 商務用 Skype [Online 的商務用 Skype。](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
 
-- 若要設定 Lync 和 商務用 Skype線上之間的聯合，請參閱這篇文章：設定[Lync Online](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-federation-support-for-a-lync-online-customer)客戶的聯合支援 。
+- 若要設定 Lync 與 商務用 Skype 線上之間的聯合，請參閱這篇文章：設定[Lync Online](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-federation-support-for-a-lync-online-customer)客戶的聯合支援。
 
-- 當 商務用 Skype 或 Microsoft 365 Office 365 中的兩位使用者正在個別網域上彼此通訊時，他們只能使用 商務用 Skype 功能 (例如，在兩個組織開啟的視像交談或桌面共用) 。
+- 當 商務用 Skype 或 Microsoft 365 Office 365 中的兩位使用者彼此在個別網域上彼此通訊時，他們只能使用 商務用 Skype 功能 (例如，視像交談或桌面共用) 這兩個組織都開啟的功能。
 
 - 如果貴商務用 Skype中的使用者被置於 In-Place 或訴訟保留狀態，該使用者與其他 商務用 Skype 或 Skype 使用者之間的任何 IM 交談都會儲存于其信箱中的可復原專案中。  這些交談不會儲存于信箱中的交談記錄資料夾中。
 
@@ -131,15 +131,15 @@ ms.locfileid: "52240001"
   
 1. 使用您的帳戶或Microsoft 365 Office 365帳戶進行登錄。
 
-2. 在系統管理中心，前往使用者  >  **活動使用者**。
+2. 在系統管理中心，前往 **使用者**  >  **活動使用者**。
 
-3. 在使用者清單中，選擇使用者，然後在 [其他 **設定下，** 按一下 [編輯商務用 Skype **屬性**。
+3. 在使用者清單中，選擇使用者，然後在 [其他 **設定，** 按一下 [編輯商務用 Skype **屬性**。
 
     ![選擇 商務用 Skype](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   
 4. 在系統 **管理商務用 Skype，** 選擇 **外部通訊**。
 
-    在選項 **頁面上** ，會選取所有選項。 清除您想要停用的通訊。 下圖顯示 Jakob 將能夠與其他信任的企業人員通訊，但無法與其他Skype通訊。
+    在選項 **頁面上** ，會選取所有選項。 清除您想要停用的通訊。 下圖顯示 Jakob 將能夠與其他信任企業中的人員通訊，但無法與其他Skype通訊。
 
     ![選擇外部連絡人](../images/4e546321-a065-48ed-8ac7-1e112a780eab.png)
   

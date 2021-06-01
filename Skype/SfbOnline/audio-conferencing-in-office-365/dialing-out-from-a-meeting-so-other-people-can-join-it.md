@@ -20,7 +20,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 瞭解您需要什麼，以及會議召集人如何使用會議商務用 Skype。
+description: 瞭解您所需的專案，以及會議召集人如何使用會議商務用 Skype。
 ms.openlocfilehash: 814d753570fd2337a8e443f93c3d58748711b964
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -35,9 +35,9 @@ ms.locfileid: "52238498"
 > [!NOTE]
 > 如果您要尋找從會議撥出Teams的資訊，請參閱從會議撥出Teams其他人可以[加入會議](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)。
 
-作為會議召集人，您可以使用 商務用 Skype App 撥出，讓其他人使用他們的電話加入同一個會議。 雖然不需要，但當您撥出給某人時，建議您撥打完整號碼，包括國家/地區代碼。 若要使用撥出功能：
+作為會議召集人，您可以使用 商務用 Skype應用程式撥出，讓其他人使用他們的電話加入同一個會議。 雖然不需要，但當您撥出給某人時，建議您撥打完整號碼，包括國家/地區代碼。 若要使用撥出功能：
   
-- 只有在使用應用程式加入會議時，才能撥出商務用 Skype電話。
+- 您必須使用應用程式加入會議，才能撥出商務用 Skype電話。
     
 - 您作為會議召集人已啟用音訊會議功能。
 

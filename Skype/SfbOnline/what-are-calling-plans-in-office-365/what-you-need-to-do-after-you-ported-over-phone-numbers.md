@@ -1,5 +1,5 @@
 ---
-title: 在行動電話號碼之後，您需要執行哪些工作？
+title: 在將電話號碼進行移植之後，您需要執行什麼工作？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -29,7 +29,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52237939"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>在行動電話號碼之後，您需要執行哪些工作？
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>在將電話號碼進行移植之後，您需要執行什麼工作？
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 

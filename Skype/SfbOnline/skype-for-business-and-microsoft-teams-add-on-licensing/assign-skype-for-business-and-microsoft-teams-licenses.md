@@ -38,7 +38,7 @@ ms.locfileid: "52237489"
 > 請參閱[商務用 Skype](skype-for-business-and-microsoft-teams-add-on-licensing.md)附加元件授權，瞭解您需要購買哪些授權，以及如何購買授權 ，視您的 Microsoft 365 或 Office 365 方案而不同，讓使用者取得音訊會議、免付費號碼，以及撥打公司外電話號碼的能力。
 
 
-## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>電話系統和通話方案：提示授權之使用者和腳本
+## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>電話系統和通話方案：提示授權指派的腳本和腳本
 
 指派音訊會議、電話系統通話方案授權之前，您需要知道什麼
 
@@ -48,7 +48,7 @@ ms.locfileid: "52237489"
 
 - **錯誤訊息**：如果您沒有購買正確的授權數量，就會收到錯誤訊息。 如果您需要購買更多通話方案授權，請選擇 購買 **更多**。
     
-- **下一** 個步驟：將通話方案授權指派給使用者之後，您必須取得貴組織的電話號碼，然後將那些號碼指派給貴組織的人。 有關逐步指示，請參閱 [設定通話方案](/microsoftteams/set-up-calling-plans)。
+- **下一** 個步驟：將通話方案授權指派給使用者之後，您必須取得貴組織的電話號碼，然後將這些號碼指派給貴組織的人。 有關逐步指示，請參閱 [設定通話方案](/microsoftteams/set-up-calling-plans)。
     
 ### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>如何將通話和電話系統方案授權指派給一位使用者
 
@@ -131,11 +131,11 @@ ms.locfileid: "52237489"
 
 1. 下載並安裝 [Microsoft Online Services Sign-In IT 專業人員 RTW 小幫手](https://go.microsoft.com/fwlink/?LinkId=625123)。
 
-2. 下載並安裝 Windows Azure Active Directory **模組。** 請參閱[使用帳戶管理 Azure AD Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100))下載指示和 Cmdlet 語法。
+2. 下載並安裝 Windows Azure Active Directory **模組。** 請參閱[使用工具管理 Azure AD Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100))下載指示和 Cmdlet 語法。
 
     安裝模組之後，請使用 Windows PowerShell命令提示和下列語法來指派授權給使用者：
 
-    腳本中的授權或產品名稱名稱會以斜體文字列出。 請參閱 [音訊會議產品名稱或用於](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) 所有產品名稱之腳本的 SKUs。
+    腳本中的授權或產品名稱名稱會以斜體文字列出。 請參閱 [音訊會議產品名稱或用於](assign-skype-for-business-and-microsoft-teams-licenses.md#sku) 所有產品名稱腳本的 SKUs。
 
     此範例會指派一Enterprise E3 授權，以及音訊會議授權。
 

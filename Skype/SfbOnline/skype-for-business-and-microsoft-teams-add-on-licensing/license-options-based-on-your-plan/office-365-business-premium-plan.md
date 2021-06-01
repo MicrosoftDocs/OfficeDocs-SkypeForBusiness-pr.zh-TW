@@ -32,13 +32,13 @@ ms.locfileid: "52238481"
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-如果您有[Microsoft 365 商務標準版，](https://products.office.com/en/business/office-365-business-premium)您可以使用 商務用 Skype電話給您訂閱中的公司其他人員。 例如，如果您的公司有 10 個人，您可以使用電話和 IM 彼此商務用 Skype。
+如果您[擁有](https://products.office.com/en/business/office-365-business-premium)Microsoft 365 商務標準版，您可以使用 商務用 Skype電話給您訂閱中的公司其他人員。 例如，如果您的公司有 10 個人，您可以使用電話和 IM 彼此商務用 Skype。
 
  **若要撥打和接聽來自公司外部人員的電話，有兩個選項**：
 
 - **選項 1.使用免費的 Skype [應用程式](https://www.skype.com/)**。 如果您擁有非常小型企業 (例如 1-2) ，使用 Skype 應用程式是更好的方法。 國內及國際通話費用較低。 您仍然可以進行電話會議、進行視音訊通話，以及共用桌面進行簡報。 [查看費率和付款選項](https://secure.skype.com/en/calling-rates?wt.mc_id=legacy&amp;expo365=bundled)。
 
-    請注意，Skype應用程式不是 Office 365套件的一部分，因此不會與Outlook 2016方式商務用 Skype整合。 這表示您Outlook 2016中的連絡人不會顯示在 Skype;您必須將連絡人新增到 Skype。
+    請注意，Skype應用程式不是 Office 365套件的一部分，因此不會與Outlook 2016方式商務用 Skype整合。 這表示您Outlook 2016中的連絡人不會顯示在 Skype;您必須將連絡人新增到Skype。
 
     我們建議您從 Skype應用程式開始，看看它是否符合您的需求。 如果沒有，請考慮下一個選項，升級您的方案。
 

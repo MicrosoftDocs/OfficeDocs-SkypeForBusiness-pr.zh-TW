@@ -36,7 +36,7 @@ ms.locfileid: "52237579"
 > 有關音訊會議在 Microsoft Teams 中的資訊，請參閱在 Microsoft 365 或 Office 365 中試用或購買音訊Skype [Microsoft Teams。](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)
 
 
-貴組織內的人員有時會需要透過電話來加入會議。 商務用 Skype音訊會議功能， 使用者可以使用電話商務用 Skype會議，而不是在行動裝置商務用 Skype或 PC 上使用 商務用 Skype應用程式。
+貴組織內的人員有時會需要透過電話來加入會議。 商務用 Skype音訊會議功能， 使用者可以使用電話商務用 Skype會議，而不是在行動裝置商務用 Skype或 PC 上使用應用程式。
 
 您只需要為計畫排程或引導會議的人設定音訊會議。 來電到會議的會議出席者不需要指派任何授權給他們，也不需要進行其他設定。
 
@@ -88,7 +88,7 @@ ms.locfileid: "52237579"
 
 2. [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。 這是使用者排程的會議會顯示的電話號碼。
 
-3. [設定音訊會議自動](set-auto-attendant-languages-for-audio-conferencing.md) 語音回應的自動語音服務語言，當來電者撥入音訊會議電話號碼時，該語言會用來問候來電者。 只有當您使用 Microsoft 做為音訊會議提供者時，才能執行此步驟。
+3. [為音訊會議設定](set-auto-attendant-languages-for-audio-conferencing.md) 自動語音語音服務語言，音訊會議自動語音機在撥入音訊會議電話號碼時，會用來問候來電者。 只有當您使用 Microsoft 做為音訊會議提供者時，才能執行此步驟。
 
 4. [設定音訊會議 PIN 的長度](set-the-pin-length-for-audio-conferencing-meetings.md)。
 

@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.ServicePlanNotValid
-description: '查看在線上服務方案無效後，商務用 Skype為使用者指派有效的服務方案。 '
+description: '查看在線上服務方案無效後商務用 Skype為使用者指派有效的服務方案。 '
 ms.openlocfilehash: 3545d0341e7e094ca1152d37a145e3c52640ae50
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT

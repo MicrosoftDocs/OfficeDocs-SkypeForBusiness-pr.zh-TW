@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: '瞭解如何設定測試帳戶和電腦，以及測試電話撥入式會議、線上功能 ，例如人員對人通話、會議及登出，以節省時間、支援通話並增加滿意度。 '
+description: '瞭解如何設定測試帳戶和電腦，以及測試電話撥入式會議、線上功能 ，例如人員對人通話、會議和登出，以節省時間、支援通話，以及提高滿意度。 '
 ms.openlocfilehash: 378fe1ad980de5c28c9175cf7e1e918b580c257a
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -34,7 +34,7 @@ ms.locfileid: "52239514"
 
 以下是您需要的：
 
-- 至少有三Microsoft 365或Office 365帳戶 (您的帳戶，至少有兩個帳戶) 。
+- 至少有三Microsoft 365或Office 365帳戶 (帳戶，至少有兩個帳戶) 。
 
 - 每個測試帳戶的電腦。 設定它們就像貴組織中一般電腦一樣。
 
@@ -81,7 +81,7 @@ ms.locfileid: "52239514"
 
  **若要將音訊會議資訊新增到其中一個測試使用者的帳戶**
 
-1. 按一下 **[音訊會議**  >  **使用者**。
+1. 按一下 **[音訊會議**  >  **使用者**> 。
 
 2. 按一下要設定電話撥入式會議的使用者名稱，然後按一下 **[編輯** ![ 編輯 ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) > 。
 
@@ -103,9 +103,9 @@ ms.locfileid: "52239514"
 
 |**工作**|**預期結果**|
 |:-----|:-----|
-|[在 Lync Online 中及登出](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |系統商務用 Skype主視窗，顯示您登錄時指定的目前狀態  <br/> |
-|[在 Lync Online 中及登出](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |系統商務用 Skype顯示登錄畫面  <br/> |
-|[在 Lync Online 中及登出](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |商務用 Skype視窗會關閉，商務用 Skype圖示不會再出現在通知Windows區域中。  <br/> |
+|[登出 Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |系統商務用 Skype主視窗，顯示您登錄時指定的目前狀態  <br/> |
+|[登出 Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |系統商務用 Skype登錄畫面  <br/> |
+|[登出 Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |商務用 Skype視窗會關閉，商務用 Skype圖示不會再出現在通知Windows區域中。  <br/> |
 
 無法登錄？ 請參閱[如何疑難排解線上商務用 Skype問題](https://support.microsoft.com/kb/2541980)。
 
@@ -134,10 +134,10 @@ ms.locfileid: "52239514"
 |:-----|:-----|
 |[設定 Lync 會議](https://support.office.com/article/258f9d20-f06c-49a4-a77f-7f5ac635bb5d) <br/> |會議邀請會寄給您指定的人員。  <br/> |
 |[變更 Lync 會議的參與者設定](https://support.office.com/article/cee2aa78-d878-4a63-ad33-9c249fceced9) <br/> |視選項而異。  <br/> **秘訣：** 在 **Access 和簡報者** 下，您可以嘗試不同的神秘 **會忽略大廳** 選項。 <br/> |
-|[加入 Lync 會議](https://support.office.com/article/538716dc-f4f2-48c2-af96-587c62387b87) <br/> |交談視窗隨即開啟，而且您的名稱會在您連接後出現在會議參與者清單中。  <br/> |
+|[加入 Lync 會議](https://support.office.com/article/538716dc-f4f2-48c2-af96-587c62387b87) <br/> |交談視窗隨即開啟，且您的名稱會在您連接後出現在會議參與者清單中。  <br/> |
 |[在會議或通話中將麥克風設為靜音商務用 Skype靜音或取消靜音](https://support.office.com/article/47399948-db7f-4ee5-8e61-53a94bb97704) <br/> |會議參與者清單中所有人的名稱旁會出現靜音圖示。 只有當您說話時，才能聽到您的聲音。  <br/> |
-|[在 Lync PowerPoint中展示幻燈片](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |您的PowerPoint簡報會顯示在會議階段視窗中的每個人商務用 Skype電腦上。  <br/> |
-|[在 Lync 會議中傳輸檔案](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |上傳之後，會議中的其他人都可以查看並下載附件。  <br/> |
+|[在 lync PowerPoint中展示幻燈片](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |您的PowerPoint簡報會顯示在會議階段視窗中的商務用 Skype電腦上。  <br/> |
+|[在 Lync 會議傳輸檔案](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |上傳之後，會議中的其他人都可以查看並下載附件。  <br/> |
 
 ## <a name="related-topics"></a>相關主題
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)

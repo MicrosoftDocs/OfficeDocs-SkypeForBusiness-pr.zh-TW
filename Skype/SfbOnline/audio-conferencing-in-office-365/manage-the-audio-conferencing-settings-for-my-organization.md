@@ -47,14 +47,14 @@ ms.locfileid: "52237240"
 
 1. 使用公司或學校帳戶來登錄。
 
-2. 在系統管理中心的左側導覽中，前往 **使用者**  >  **活動使用者**，然後從可用使用者清單中選取使用者。
+2. 在系統管理中心的左側導覽中，前往使用者活動使用者，然後從可用使用者清單中選取  >  使用者。
 
     > [!NOTE]
     > 如果您同時將授權指派給最多 20 個使用者，您可以使用選取視圖下拉式清單，然後選擇其中一個選項，或建立您自己的視圖。 然後按一下 [**編輯，****下** 一步兩次，然後選取授權並 **按一下 [提交**> 。 您也可以使用 Powershell，將授權指派給Windows使用者。 有關指示和 PowerShell 腳本範例，請參閱指派[商務用 Skype授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
 
 3. 在 [產品授權」 下的 [動作 **窗格**> 中，按一下 **[編輯>**。
 
-4. 在 [ **產品授權>** 頁面上，開啟 **音訊會議** ，然後按一下 [ **儲存**。 有關授權的更多內容，請參閱[商務用 Skype附加元件授權。](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+4. 在 [ **產品授權>** 頁面上，開啟 **音訊會議** ，然後按一下 [ **儲存**。 有關授權的更多內容，請參閱商務用 Skype[附加元件授權。](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
 
 > [!NOTE]
 > 指派授權之後，Microsoft 一開始可能不會在清單中顯示為音訊會議提供者。 如果發生這種情況，請登出系統管理中心，或按 CTRL+F5 重新啟用瀏覽器視窗。
@@ -88,9 +88,9 @@ ms.locfileid: "52237240"
 
     您可以使用 [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) 來管理貴組織的其他設定，包括電子郵件。
 
-## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>在電子郵件訊息中變更寄件者的連絡人資訊
+## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>變更寄件者在電子郵件訊息中的連絡人資訊
 
-您可以變更自動寄給使用者的電子郵件，包括實際的電子郵件地址和寄件者連絡人資訊的顯示名稱。 根據預設，電子郵件的寄件者為 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell 和[Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) Cmdlet 來變更電子郵件地址和顯示名稱。 若要變更傳送電子郵件給使用者的電子郵件地址，您必須：
+您可以變更自動發送給使用者的電子郵件，包括實際的電子郵件地址和寄件者連絡人資訊的顯示名稱。 根據預設，電子郵件的寄件者為 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell 和[Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) Cmdlet 來變更電子郵件地址和顯示名稱。 若要變更傳送電子郵件給使用者的電子郵件地址，您必須：
 
 - 在 _SendEmailFromAddress 參數中輸入_ 電子郵件地址。
 
@@ -127,7 +127,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 ## <a name="reset-a-conference-organizers-pin"></a>重設會議召集人的 PIN
 
-使用者排程的每個會議都會獲得唯一的會議 ID。 雖然會議 ID 會自動建立並指派給使用者，但有時候使用者可能不想使用此 ID，而您想要將其設定為特定號碼，或是您的使用者不記得或遺失其會議 ID。 您可以使用系統管理商務用 Skype和Windows PowerShell來查看、變更及重設其會議 ID。
+使用者排程的每個會議都會獲得唯一的會議 ID。 雖然會自動建立會議 ID 並指派給使用者，但有時候使用者可能不想使用此 ID，而您想要將其設定為特定號碼，或是您的使用者不記得或遺失其會議 ID。 您可以使用系統管理商務用 Skype和Windows PowerShell來查看、變更及重設其會議 ID。
 
 
 1. 使用公司或學校帳戶來登錄。
@@ -223,9 +223,9 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
     如果您這麼做，將會送出只包含會議 ID 和會議電話號碼的電子郵件，但不包含 PIN。
 
-    請參閱 [傳送包含音訊會議資訊的電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information.md)。
+    請參閱 [傳送電子郵件給使用者及其音訊會議資訊](send-an-email-to-a-user-with-their-dial-in-information.md)。
 
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音訊會議橋接器 (查看) 次要 (次要) 語言
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音訊會議橋接器上 (主要) 次要 (次要) 替代語言
 
 
 1. 使用公司或學校帳戶來登錄。
@@ -234,13 +234,13 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 3. 在 商務用 Skype **系統** 管理中心，在左側流覽中，前往 **[音訊會議**，然後按一下 **Microsoft 橋接器**。
 
-4. 從清單中選取電話號碼，按一下 [動作窗格設定語言>，然後在 [設定語言>頁面上，按一下 [使用主要語言清單來查看支援語言的完整清單。 
+4. 從清單中選取電話號碼，按一下 [動作窗格設定語言>，然後在 [設定語言>頁面上，按一下 [使用主要語言清單來查看支援的語言的完整清單。 
 
     您也可以設定當您選取 Microsoft 做為音訊會議提供者時支援的主要和次要語言。 在清單中選取的順序與向來電者呈現語言的順序相同。
 
 請參閱 [設定音訊會議的自動語音語音處理語言](set-auto-attendant-languages-for-audio-conferencing.md)。
 
-## <a name="see-audio-conferencing-dial-in-numbers"></a>請參閱音訊會議電話撥入號碼
+## <a name="see-audio-conferencing-dial-in-numbers"></a>查看音訊會議電話撥入號碼
 
 1. 使用公司或學校帳戶來登錄。
 
@@ -252,7 +252,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
    - 查看音訊會議自動語音機會使用的位置，以及主要和次要語言。
 
-   - 選取啟用音訊會議時，會給予使用者的預設電話號碼。 不過，如果音訊會議橋接器的預設電話號碼變更，現有使用者的預設電話號碼不會變更。
+   - 選取啟用音訊會議時將給予使用者的預設電話號碼。 不過，如果音訊會議橋接器的預設電話號碼變更，現有使用者的預設電話號碼不會變更。
 
 您可以前往音訊 **會議** 使用者，然後選取使用者的屬性，以變更使用者的預設號碼，從貴組織中可用的號碼清單中選擇新  >  號碼。
 
@@ -306,7 +306,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromOverride $true|$false
   ```
 
-- **在電子郵件中設定要寄給使用者的 From 位址** 預設值 _為_$null。
+- **在電子郵件上設定要寄給使用者的 From 位址** 預設值 _為_$null。
   ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -SendEmailFromAddress
   ```
@@ -321,7 +321,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
   - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 - Windows PowerShell使用系統管理中心時，系統在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
 
@@ -329,9 +329,9 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-  - [使用Windows PowerShell執行線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-    Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell Online 模組商務用 Skype[下載。](https://go.microsoft.com/fwlink/?LinkId=294688)
+    Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell[模組商務用 Skype Online。](https://go.microsoft.com/fwlink/?LinkId=294688)
 
 ## <a name="related-topics"></a>相關主題
 

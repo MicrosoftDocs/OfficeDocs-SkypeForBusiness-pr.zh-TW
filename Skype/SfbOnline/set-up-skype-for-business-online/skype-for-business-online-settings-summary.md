@@ -52,10 +52,10 @@ ms.locfileid: "52239716"
 
 |**設定**|**描述**|**預設**|**瞭解更多資訊**|
 |:-----|:-----|:-----|:-----|
-|音訊和視音訊  <br/> |使用線上商務用 Skype音訊商務用 Skype交談  <br/> |啟用  <br/> |[系統管理員：設定商務用 Skype使用者的設定](configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|錄製  <br/> |錄製通話和會議  <br/> |啟用  <br/> |[系統管理員：設定商務用 Skype使用者的設定](configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|匿名出席者撥出  <br/> |允許匿名商務用 Skype線上會議出席者連線，讓音訊會議提供者打電話給他們  <br/> |啟用  <br/> |[系統管理員：設定商務用 Skype使用者的設定](configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|停用未存檔的功能  <br/> | 關閉組織設定將內容新增到案例時未捕獲的功能，以及將來源保留于系統管理中心的[eDiscovery](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center) Exchange中心： <br/>  使用立即訊息傳輸檔案 <br/>  共用OneNote頁面 <br/>  PowerPoint注釋 <br/>  如果您依法需要保留以電子方式儲存的資訊，請選取此選項。 <br/> |已停用  <br/> |[系統管理員：設定商務用 Skype使用者的設定](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|音訊和視音訊  <br/> |使用線上商務用 Skype音訊商務用 Skype交談  <br/> |啟用  <br/> |[系統管理員：為個別商務用 Skype設定](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|錄製  <br/> |錄製通話和會議  <br/> |啟用  <br/> |[系統管理員：為個別商務用 Skype設定](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|匿名出席者撥出  <br/> |允許匿名商務用 Skype線上會議出席者連線，讓音訊會議提供者打電話給他們  <br/> |啟用  <br/> |[系統管理員：為個別商務用 Skype設定](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|停用未存檔的功能  <br/> | 關閉組織設定將內容新增到案例時未捕獲的功能，以及將來源保留于系統管理中心的[eDiscovery](/SharePoint/governance/add-content-to-a-case-and-place-sources-on-hold-in-the-ediscovery-center) Exchange中心： <br/>  使用立即訊息傳輸檔案 <br/>  共用OneNote頁面 <br/>  PowerPoint注釋 <br/>  如果您依法需要保留以電子方式儲存的資訊，請選取此選項。 <br/> |已停用  <br/> |[系統管理員：為個別商務用 Skype設定](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
 ## <a name="related-topics"></a>相關主題
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)

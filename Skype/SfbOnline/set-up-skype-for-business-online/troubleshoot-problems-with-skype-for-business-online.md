@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 瞭解如何修正系統管理員和使用者商務用 Skype Microsoft 365 Office 365。
+description: 瞭解如何在 商務用 Skype 中修正系統管理員Microsoft 365 Office 365。
 ms.openlocfilehash: b64cd39cee9a9981c5a5d605953d1e11c5ba06f0
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -48,7 +48,7 @@ ms.locfileid: "52239412"
 
 - [診斷及解決 PowerShell 連線問題與 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-## <a name="help-your-skype-for-business-online-users"></a>協助您的線上商務用 Skype使用者
+## <a name="help-your-skype-for-business-online-users"></a>協助您的商務用 Skype線上使用者
 
 線上使用者所面臨的大部分商務用 Skype與忘記密碼有關。 您可以遵循這兩個主題中的指示來解決大部分的登錄問題：
 

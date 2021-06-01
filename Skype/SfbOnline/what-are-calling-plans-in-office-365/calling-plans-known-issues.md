@@ -36,7 +36,7 @@ ms.locfileid: "52238019"
 
 |**已知問題**|**註解**|
 |:-----|:-----|
-|從 Tech Preview 授權轉換為通話方案生產授權不會自動更新授權。  <br/> |首先購買您的新授權，以便準備好指派給使用者。 從使用者 (技術預覽版) 促銷，然後立即指派新的國內通話方案及/或國內及國際通話方案授權給使用者。  <br/> 如果您要移除並新增多個使用者授權，從使用 Windows PowerShell 的所有使用者移除授權，然後立即指派授權給所有同時使用 Windows PowerShell 的使用者，這Windows PowerShell。 這麼做可確保處理大量使用者授權指派時，服務不會中斷。 有關 PowerShell 腳本範例，請參閱指派[商務用 Skype及Microsoft Teams授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。  <br/> **注意：** 如果您為混合式使用者使用內部部署 PSTN 連接，則只需要指派 **電話系統授權。** 您 **也不應該** 指派語音通話方案。 不過，如果您在 Microsoft 365 或 Office 365 中為 Microsoft 365 或 Office 365 中的使用者啟用通話方案，您仍然需要為這些使用者指派國內通話方案或國內和國際通話方案授權。  請參閱[指派商務用 Skype和Microsoft Teams授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+|從 Tech Preview 授權轉換為通話方案生產授權不會自動更新授權。  <br/> |首先購買您的新授權，以便準備好指派給使用者。 從使用者 (技術預覽版) 促銷，然後立即指派新的國內通話方案及/或國內及國際通話方案授權給使用者。  <br/> 如果您要移除並新增多個使用者授權，從使用 Windows PowerShell 的所有使用者移除授權，然後立即指派授權給所有同時使用 Windows PowerShell 的使用者Windows PowerShell。  這麼做可確保處理大量使用者授權指派時，服務不會中斷。 有關 PowerShell 腳本範例，請參閱指派[商務用 Skype及Microsoft Teams授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。  <br/> **注意：** 如果您為混合式使用者使用內部部署 PSTN 連接，則只需要指派 **電話系統授權。** 您 **也不應該** 指派語音通話方案。 不過，如果您在 Microsoft 365 或 Office 365 中為 Microsoft 365 或 Office 365 中的使用者啟用通話方案，您仍然需要為這些使用者指派國內通話方案或國內和國際通話方案授權。  請參閱[指派商務用 Skype和Microsoft Teams授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
 
 > [!NOTE]
 > 如果您需要取得更多電話號碼，請聯絡商務產品支援人員 [- 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)         |

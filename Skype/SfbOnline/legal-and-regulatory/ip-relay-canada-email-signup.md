@@ -54,6 +54,6 @@ ms.locfileid: "52237139"
 一旦您的帳戶在 (24 個工作時間內) ，我們會以使用者名稱和密碼以電子郵件將您送回。 
 
 
-接下來，請參閱 [加拿大的 IP 轉場 - 使用者指南](ip-relay-canada-user-guide.md) 以開始使用。 
+接下來，請參閱 [加拿大 IP 轉場 - 使用者指南](ip-relay-canada-user-guide.md) 以開始使用。 
 
 

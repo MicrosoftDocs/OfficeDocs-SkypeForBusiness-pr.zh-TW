@@ -29,7 +29,7 @@ ms.locfileid: "52240018"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-政策可協助判斷商務用 Skype線上的可用功能。 請參閱下列文章以瞭解完整詳細資料。
+政策可協助判斷商務用 Skype線上版的功能。 請參閱下列文章以瞭解完整詳細資料。
 
 - [封鎖點到點檔案傳輸](block-point-to-point-file-transfers.md)
 - [建立自訂外部存取原則](create-custom-external-access-policies.md)

@@ -38,7 +38,7 @@ ms.locfileid: "52239215"
   
 在 Android 和 Windows 手機上，商務用 Skype即時顯示通知。 不過Windows Phone、iPhone和 iPad裝置，當您不在手機或平板電腦中主動使用 商務用 Skype 時，會使用推入通知來顯示通知。
   
-## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>關閉組織中所有 Windows Phone Apple 裝置推入通知
+## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>關閉組織中所有Windows Phone Apple 裝置推入通知
 <a name="__top"> </a>
 
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
@@ -60,7 +60,7 @@ ms.locfileid: "52239215"
 - 當您關閉推入通知時，使用者無法重新開啟。
     
 > [!IMPORTANT]
->  Microsoft 會使用其他公司為商務用 Skype使用者提供即時Windows Phone、iPhone iPad通知。 請參閱[Microsoft 商務用 Skype 隱私權聲明](https://go.microsoft.com/fwlink/p/?linkid=247732)。 
+>  Microsoft 會使用其他公司為商務用 Skype、Windows Phone、iPhone使用者提供即時iPad通知。 請參閱[Microsoft 商務用 Skype 隱私權聲明](https://go.microsoft.com/fwlink/p/?linkid=247732)。 
   
 ## <a name="related-topics"></a>相關主題
 

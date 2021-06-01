@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: 使用 Get-CsOnlineUser 中的 Windows PowerShell Cmdlet 來取得貴組織的線上使用者商務用 Skype相關資訊。
+description: 使用 Get-CsOnlineUser 中的 Cmdlet Windows PowerShell取得貴組織線上使用者商務用 Skype相關資訊。
 ms.openlocfilehash: aec79f589f6b1fb0c9d38fd4bc70421b30f66a56
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -43,7 +43,7 @@ ms.locfileid: "52238719"
 - [在 商務用 Skype 中商務用 Skype清單](manage-user-accounts.md#BKMKReturnFilteredListofUsers)
 
 > [!NOTE]
-> **Set-CsUser** Cmdlet 也包含在一組可供線上系統管理員商務用 Skype Cmdlet。 不過，除了設定 _AudioVideoDisabled_ 參數之外 **，Set-CsUser** 目前無法用來管理 商務用 Skype Online。 如果您嘗試使用任何其他參數執行 Cmdlet，它會失敗，出現錯誤訊息，類似：無法設定「SipAddress」。 此參數在遠端租使用者 PowerShell 中受到限制。
+> **Set-CsUser** Cmdlet 也包含在一組可供線上系統管理員商務用 Skype Cmdlet。 不過，除了設定 _AudioVideoDisabled_ 參數之外 **，Set-CsUser** 目前無法用來管理 商務用 Skype Online。 如果您嘗試使用任何其他參數執行 Cmdlet，它會失敗，出現錯誤訊息類似：無法設定「SipAddress」。 此參數在遠端租使用者 PowerShell 中受到限制。
 
 ### <a name="return-information-about-all-your-skype-for-business-online-users"></a>傳回所有 Lync Online 使用者的相關資訊
 <a name="BKMKReturnInfoAboutAllUsers"> </a>

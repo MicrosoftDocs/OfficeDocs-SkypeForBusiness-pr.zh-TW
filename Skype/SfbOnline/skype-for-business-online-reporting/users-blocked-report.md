@@ -30,7 +30,7 @@ ms.locfileid: "52238129"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-新的 商務用 Skype **報表** 儀表板會顯示您組織中商務用 Skype活動概觀。 它可讓您深入瞭解個別的產品層級報告，以更細緻地深入瞭解每個產品內的活動。 例如，您可以使用使用者封鎖商務用 Skype，查看貴組織中已封鎖的使用者進行 PSTN 通話。 此報告與其他 商務用 Skype報告一起，提供您活動的詳細資訊，包括整個組織的 PSTN 使用方式。
+新的 商務用 Skype **報表** 儀表板會顯示您組織中商務用 Skype活動概觀。 它可讓您深入瞭解個別的產品層級報告，以更細緻地深入瞭解每個產品內的活動。 例如，您可以使用使用者封鎖商務用 Skype，查看貴組織中已禁止進行 PSTN 通話的使用者。 此報告與其他 商務用 Skype報告一起，提供您活動的詳細資訊，包括整個組織的 PSTN 使用方式。
   
  請查看報告 [概觀以](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 查看更多可用的報告。
   
@@ -41,7 +41,7 @@ ms.locfileid: "52238129"
 
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
-- 前往系統管理中心>**系統管理中心**  >  **商務用 Skype**  >  **報告**  >  **使用者已封鎖**。
+- 前往系統管理中心>**系統管理商務用 Skype**  >    >  **報告**  >  **使用者已封鎖。**
     
 ## <a name="interpret-the-skype-for-business-users-blocked-report"></a>解譯商務用 Skype封鎖的報告
 
@@ -57,7 +57,7 @@ ms.locfileid: "52238129"
 *   **使用者識別碼** 是使用者的登錄。
 *   **電話數位** 是指派給使用者的號碼。 
 *   **[封鎖動作時間** (UTC) 使用者被封鎖進行通話的時間。
-*   **封鎖動作** 是封鎖使用者的動作類型。
+*   **封鎖動作** 是封鎖使用者所執行的動作類型。
 *   **封鎖動作** 原因是使用者被封鎖撥打電話的原因。
 ***
 ![數位 2](../images/sfbcallout2.png)<br/>
@@ -71,7 +71,7 @@ ms.locfileid: "52238129"
 
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他商務用 Skype報表？
 
-- [商務用 Skype活動報告](activity-report.md)您可以查看使用者使用對等、組織及參與會議會話的多少。
+- [商務用 Skype活動報告](activity-report.md)您可以瞭解使用者使用對等、組織及參與會議會話的多少。
     
 - [商務用 Skype裝置使用方式報告](device-usage-report.md)您可以查看裝置，包括Windows型作業系統，以及已安裝應用程式商務用 Skype且用於 IM 和會議的行動裝置。
     
@@ -83,7 +83,7 @@ ms.locfileid: "52238129"
     
 - [商務用 Skype PSTN 使用方式報告](pstn-usage-report.md)您可以看見用於內/外通話的分鐘數，以及這些通話的成本。
 
-- [商務用 Skype PSTN 分鐘](pstn-minute-pools-report.md)數庫報表，您可以查看組織內當月使用的分鐘數。
+- [商務用 Skype PSTN 分鐘](pstn-minute-pools-report.md)數庫報表，您可以查看貴組織內當月所耗用分鐘數。
 
 - [商務用 Skype會話詳細資料包表](session-details-report.md)您可以查看個別使用者的通話體驗詳細資料。
    

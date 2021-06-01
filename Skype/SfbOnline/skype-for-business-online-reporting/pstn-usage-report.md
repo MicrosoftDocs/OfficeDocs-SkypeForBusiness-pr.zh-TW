@@ -34,7 +34,7 @@ ms.locfileid: "52238201"
   
 請查看報告 [概觀以](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 查看更多可用的報告。
   
-此報告與其他 商務用 Skype報告一起，提供您活動的詳細資訊，包括整個組織的通話使用量。 當您調查、規劃及為貴組織做出其他商務決策，以及設定通訊信用額度時，這些詳細資料非常 [實用](/microsoftteams/what-are-communications-credits)。
+此報告與其他 商務用 Skype報告一起，提供您有關活動的詳細資訊，包括整個組織的通話使用方式。 當您調查、規劃及為貴組織做出其他商務決策，以及設定通訊信用額度時，這些詳細資料非常 [實用](/microsoftteams/what-are-communications-credits)。
   
 > [!NOTE]
 > 當您以系統管理員商務用 Skype登入系統管理中心時，Microsoft 365報告。 
@@ -74,21 +74,21 @@ ms.locfileid: "52238201"
 
      **音訊會議通話類型**
      *    **conf_in (** 音訊會議橋接器的輸入) 。 針對此通話類型的記錄，在使用者 **識別碼** 欄中指定的使用者會對應到會議的召集人。
-     *    **conf_out (** 音訊會議橋接器撥打外線電話，通常是將 PSTN 號碼新加到會議) 。 針對此通話類型的記錄，在使用者 **識別碼** 欄中指定的使用者會對應到會議的召集人。
+     *    **conf_out (** 音訊會議橋接器撥打外線電話，通常是將 PSTN 號碼新增到會議) 。 針對此通話類型的記錄，在使用者 **識別碼** 欄中指定的使用者會對應到會議的召集人。
 
      **UCAP (統一通訊應用程式)** 
      *    **ucap_in (** 傳入 PSTN 通話至 UC 應用程式，例如自動電話機或通話佇列)  
-     *    **ucap_out (** UC 應用程式撥打出站 PSTN 通話，例如自動電話機或通話佇列) 
+     *    **ucap_out (** 從 UC 應用程式撥打出站 PSTN 通話，例如自動電話機或通話佇列) 
          > [!NOTE]
          > 從 UC 應用程式傳輸給使用者的通話 ，例如自動語音機或通話佇列，不會出現在 PSTN 使用方式報告中，因為這些通話支線是對等 (P2P) 音訊通話。 您可以在 商務用 Skype 系統管理中心的 「工具 > 商務用 Skype 通話分析」下存取 P2P 通話，並依據使用者名稱或 SIP 位址搜尋，以日期/時間與/或原始 CLID (通話線路識別碼) 關聯。 
 
-     根據使用者的位置，國內 **/** 國際會告訴您所撥打的通話 (是否被視為國家/地區) 或 (國家/地區) 以外的國際通話。 
-*    **已撥號的** 目的地是撥打的國家/地區目的地名稱，例如法國、德國或美國 (美國) 。 
+     根據使用者的位置，國內 **/** 國際會告訴您所撥打的來電是否被視為國家/地區 (國內) 或國際 (國家/地區) 以外的國家/地區。 
+*    **已撥號目的地** 是撥打的國家/地區目的地名稱，例如法國、德國或美國 (美國) 。 
 *    **號碼** 類型是使用者電話號碼、服務或免付費號碼的電話號碼類型。  
 *    **UTC (開始時間)** 是通話開始或撥打的時間。 
 *    **持續時間** 是通話已連接多久。  
 *    **ConfID** 是音訊會議的會議 ID。 
-*    **費用** 是向您的帳戶收取的金額或通話費用。 
+*    **費用** 是向您的帳戶收取的通話金額或費用。 
 *    **貨幣** 是用來計算通話成本的貨幣類型。 
 *    **功能** 是通話所使用的授權。 您可能會看到以下授權類型： 
      *    **MCOPSTNPP** - Communications Credits <br/> **MCOPSTN1** - 國內通話方案 (3000 分鐘美國 / 1200 分鐘的歐盟方案)  
@@ -129,7 +129,7 @@ CSV 的第一列包含欄名。
 匯出的檔案包含線上報告中沒有的其他欄位。 這些可用於疑難排解和自動化工作流程。
 
 > [!div class="has-no-wrap"]  
-> | #  | 名稱 | [資料類型 (SQL Server) ](/sql/t-sql/data-types/data-types-transact-sql) | 描述 |
+> | #  | 名稱 | [資料類型 (SQL Server) ](/sql/t-sql/data-types/data-types-transact-sql) | 說明 |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | UsageId | `uniqueidentifier` | 唯一通話識別碼 |
 > | 1 | 通話識別碼 | `nvarchar(64)` | 通話識別碼。 不保證是唯一的 |
@@ -141,8 +141,8 @@ CSV 的第一列包含欄名。
 > | 7 | 來電顯示 | `nvarchar(128)` | 接聽來電的號碼或撥出電話的號碼。 [E.164](https://en.wikipedia.org/wiki/E.164) 格式 |
 > | 8 | 通話類型 | `nvarchar(32)` | 通話是 PSTN 外寄或輸入通話，以及通話類型，例如使用者撥打的通話或音訊會議 |
 > | 9 | 數位類型 | `nvarchar(16)` | 使用者的電話號碼類型，例如免付費號碼的服務 |
-> | 10 | 國內/國際 | `nvarchar(16)` | 通話是國內通話 (國家/地區) 或 (國家/地區) 根據使用者的位置撥打國際電話 |
-> | 11 | 已撥入目的地 | `nvarchar(64)` | 已撥打的國家/地區 |
+> | 10 | 國內/國際 | `nvarchar(16)` | 通話是國內通話 (國家/地區) 或 (國家/地區外) 根據使用者的位置進行撥打 |
+> | 11 | 已撥入目的地 | `nvarchar(64)` | 已撥入的國家/地區 |
 > | 12 | 目的地號碼 | `nvarchar(32)` | 以 [E.164 格式](https://en.wikipedia.org/wiki/E.164) 撥打的號碼 |
 > | 13 | 開始時間 | `datetimeoffset` | 通話開始時間 ([UTC、ISO 8601](https://en.wikipedia.org/wiki/ISO_8601))  |
 > | 14 | 結束時間 | `datetimeoffset` | 通話結束時間 ([UTC、ISO 8601](https://en.wikipedia.org/wiki/ISO_8601))  |
@@ -155,19 +155,19 @@ CSV 的第一列包含欄名。
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他商務用 Skype報表？
 
-- [商務用 Skype活動報告](activity-report.md)您可以查看使用者使用對等、組織及參與會議會話的多少。
+- [商務用 Skype活動報告](activity-report.md)您可以瞭解使用者使用對等、組織及參與會議會話的多少。
     
 - [商務用 Skype裝置使用方式報告](device-usage-report.md)您可以查看裝置，包括Windows型作業系統，以及已安裝應用程式商務用 Skype且用於 IM 和會議的行動裝置。
     
 - [商務用 Skype會議召集人活動報告](conference-organizer-activity-report.md)您可以查看使用者組織使用 IM、音訊/視像、應用程式共用、Web、/dial out - 協力廠商和 /dial out - Microsoft 的會議。
     
-- [商務用 Skype參與者活動報告](conference-participant-activity-report.md)您可以查看有多少 IM、音訊/視像、應用程式共用、Web 和撥出音訊會議參與。
+- [商務用 Skype參與者活動報告](conference-participant-activity-report.md)您可以查看有多少 IM、音訊/視音訊、應用程式共用、Web 和撥出音訊會議參與。
     
 - [商務用 Skype對等活動報表](peer-to-peer-activity-report.md)您可以瞭解使用者正在使用 IM、音訊/視像、應用程式共用和傳輸檔案。
     
-- [商務用 Skype使用者封鎖報表](users-blocked-report.md)您可以看見貴組織中已禁止進行 PSTN 通話的使用者。
+- [商務用 Skype使用者封鎖報表](users-blocked-report.md)您可以看見貴組織中遭到封鎖的使用者，無法撥打 PSTN 通話。
 
-- [商務用 Skype PSTN 分鐘](pstn-minute-pools-report.md)數庫報表，您可以查看貴組織內當月所耗用分鐘數。
+- [商務用 Skype PSTN 分鐘](pstn-minute-pools-report.md)數庫報表，您可以查看組織內當月使用的分鐘數。
 
 - [商務用 Skype會話詳細資料包表](session-details-report.md)您可以查看個別使用者的通話體驗詳細資料。
     

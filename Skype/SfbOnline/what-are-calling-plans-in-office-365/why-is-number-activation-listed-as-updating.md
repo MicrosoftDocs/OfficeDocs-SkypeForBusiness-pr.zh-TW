@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateUpdating
-description: 位址驗證是設定通話方案的重要部分。 它會為貴組織的使用者提供緊急電話位址，由緊急回應服務使用。
+description: 位址驗證是設定通話方案的重要一部分。 它會為貴組織的使用者提供緊急電話位址，由緊急回應服務使用。
 ms.openlocfilehash: 2bc70c06ac5423864f7861fc44bbb2529a3d04f2
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -33,7 +33,7 @@ ms.locfileid: "52237789"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-位址驗證是設定通話方案的重要部分。 如果因為某種原因，電話號碼未啟用，且因為位址驗證而列為更新，您必須建立並提交服務要求。 如何執行此工作，取決於貴組織的大小。
+位址驗證是設定通話方案的重要一部分。 如果因為某種原因，電話號碼未啟用，且因為位址驗證而列為更新，您必須建立並提交服務要求。 您執行此工作是以貴組織的大小為基礎。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>針對組織 150 或以下組織，請遵循下列步驟
 1. 在系統管理中心中，選擇需要 **協助** 嗎？
@@ -48,9 +48,9 @@ ms.locfileid: "52237789"
     
 2. 在系統管理中心左側的流覽中，按一下 [**支援**  >  **新服務要求**。
     
-3. 在 **[服務要求>** 下，按一下 [ **新增**。
+3. 在 **[服務要求」** 下，按一下 [ **新增**。
     
-4. 在 [ **建立服務要求>** 頁面上，按一下 [ **線上共同合作>**。
+4. 在 [ **建立服務要求」** 頁面上，按一下 [ **線上共同合作>**。
     
 5. 在識別 **問題頁面上** ，選取並輸入下列專案：
     

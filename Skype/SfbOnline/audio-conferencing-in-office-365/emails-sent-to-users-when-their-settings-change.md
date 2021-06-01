@@ -33,7 +33,7 @@ ms.locfileid: "52237339"
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 如果您要在郵件中尋找自動電子郵件Microsoft Teams，請參閱當使用者的設定在 Microsoft Teams 中[變更時Microsoft Teams。](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams)
+> 如果您要在郵件中尋找自動電子郵件Microsoft Teams，請參閱當使用者的設定在 Microsoft Teams 中[變更時，將電子郵件Microsoft Teams。](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams)
 
 電子郵件會自動寄給使用 Microsoft 作為音訊會議[](set-up-audio-conferencing.md)提供者啟用音訊會議的使用者。
   
@@ -54,7 +54,7 @@ ms.locfileid: "52237339"
     
 - **使用者的會議 ID 或預設會議電話號碼會變更。**
     
-    此電子郵件包含會議 ID、預設會議電話號碼，以及使用 商務用 Skype 線上會議更新工具的指示和連結，此工具是用來更新使用者的現有會議。 但此電子郵件不包含使用者的音訊會議 PIN。 請參閱[重設使用者的會議 ID。](reset-a-conference-id-for-a-user.md)
+    此電子郵件包含會議 ID、預設會議電話號碼，以及使用 商務用 Skype 線上會議更新工具，用來更新使用者現有會議的指示和連結。 但此電子郵件不包含使用者的音訊會議 PIN。 請參閱[重設使用者的會議 ID。](reset-a-conference-id-for-a-user.md)
     
     > [!NOTE]
     > 如果貴組織已啟用動態會議 ID，他們排程的所有會議都會有唯一的會議 ID。 您可以在貴[組織中設定音訊會議動態的 ID。](./reset-a-conference-id-for-a-user.md) 
@@ -108,7 +108,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   
 您可以使用 [Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10)) Cmdlet 來管理貴組織的其他設定，包括電子郵件。
   
-## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>如果您不希望電子郵件寄給他們，該怎麼處理？
+## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>如果您不想將電子郵件寄給他們，該怎麼處理？
 
 當您停用傳送電子郵件給使用者時，即使使用者獲得授權，也不會傳送電子郵件。 在這種情況下，會議 ID、預設會議電話號碼，以及更重要的是，其音訊會議 PIN 不會發送給使用者。 發生此情況時，您必須傳送另一封電子郵件或打電話給使用者，告知使用者。
   
@@ -139,7 +139,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 - 有關啟用及停用自動傳送電子郵件給使用者的更多資訊，請參閱在音訊會議設定變更時啟用或停用 [傳送電子郵件](enable-or-disable-sending-emails-when-their-settings-change.md)。
     
-- 有時候使用者會失去音訊資訊，而您必須能夠傳送所有音訊資訊給他們。 您可以使用系統管理中心，商務用 Skype音訊會議內容下的按一下以電子郵件傳送會議資訊。 請參閱 [傳送包含音訊會議資訊的電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information.md)。 不過，這項資訊不包含音訊會議 PIN。
+- 有時候使用者會失去音訊資訊，而您必須能夠傳送所有音訊資訊給他們。 您可以使用系統管理中心，商務用 Skype音訊會議內容 **下的按一下以** 電子郵件傳送會議資訊來執行這項操作。 請參閱 [傳送電子郵件給使用者及其音訊會議資訊](send-an-email-to-a-user-with-their-dial-in-information.md)。 不過，這項資訊不包含音訊會議 PIN。
     
     以下是將寄給他們的此電子郵件範例：
     
@@ -153,7 +153,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
   - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell使用系統管理中心時，Microsoft 365在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點： 
     
@@ -161,7 +161,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用Windows PowerShell執行線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
     > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell Online 模組商務用 Skype[下載。](https://go.microsoft.com/fwlink/?LinkId=294688)

@@ -51,11 +51,11 @@ ms.locfileid: "52239330"
     4.0
     </pre>
 
-    如果所退回的版本號碼是 5.1，表示您Windows PowerShell 5.1。 如果退回的版本號碼不是 5.1，則您必須安裝 Windows PowerShell 5.1。 您可以從 Microsoft 下載Windows Management Framework下載 5.1，Windows PowerShell 5.1。 [](https://www.microsoft.com/download/details.aspx?id=54616)
+    如果退回的版本號碼是 5.1，則您Windows PowerShell 5.1。 如果退回的版本號碼不是 5.1，則您必須安裝 Windows PowerShell 5.1。 您可以從 Microsoft 下載Windows Management Framework下載 5.1，Windows PowerShell 5.1。 [](https://www.microsoft.com/download/details.aspx?id=54616)
   
 在您確認已安裝 5.1 Windows PowerShell之後，您必須確認已針對執行遠端腳本的 PowerShell 進行配置。 若要這麼做，請以系統管理員的名次啟動 PowerShell。 在 Windows 7，Windows伺服器 2008 R2、Windows Server 2012或 Windows Server 2012 R2 執行下列操作：
   
-1. 按一下 **[開始**，**按一下** 所有程式，按一下 [配件Windows PowerShell **，以** 滑鼠右鍵按一下 [Windows PowerShell，然後按一下 [**以系統管理員的執行**> 。
+1. 按一下 **[開始**，**按一下** 所有程式，按一下 [配件Windows PowerShell **，以** 滑鼠右鍵按一下 [Windows PowerShell，然後按一下 [**以系統管理員的** 執行> 。
     
 2. 如果出現 **[使用者帳戶控制>** 對話方塊，請按一下 [是」，確認您想要在系統管理員認證下執行 PowerShell。
     
@@ -74,7 +74,7 @@ Set-ExecutionPolicy RemoteSigned -Force
    
  
 > [!NOTE]
-> 執行上述命令時，您可能會收到下列錯誤訊息：> *Set-ExecutionPolicy：拒絕對註冊表鍵的存取權HKEY_LOCAL_MACHINE \\ SOFTWARE \\ Microsoft \\ PowerShell \\ 1 \\ ShellIds \\ Micrsoft.PowerShell'* 遭到拒絕。 如果您沒有在系統管理員認證下執行 PowerShell，通常會發生此錯誤訊息。 關閉 PowerShell 會話，然後以系統管理員的一個角色開始新的會話。
+> 執行前一個命令時，您可能會收到下列錯誤訊息：> *Set-ExecutionPolicy：拒絕存取登錄機碼的 HKEY_LOCAL_MACHINE \\ SOFTWARE \\ Microsoft \\ PowerShell \\ 1 \\ ShellIds \\ Micrsoft.PowerShell'* 。 如果您沒有在系統管理員認證下執行 PowerShell，通常會發生此錯誤訊息。 關閉 PowerShell 會話，然後以系統管理員的一個角色開始新的會話。
  
 若要確認執行策略已正確配置，請在 PowerShell 提示符中輸入下列專案，然後按 ENTER：
   
@@ -104,7 +104,7 @@ Get-ExecutionPolicy
     
 2. 如果出現 [使用者帳戶控制> 對話方塊，請按一下 [是」，確認您想要在系統管理員認證下執行 PowerShell。
     
-當 PowerShell 主控台出現時，您應該驗證 WinRM 服務是否執行且已正確配置。 若要確認服務是否執行，請在 PowerShell 提示處輸入下列命令，然後按 ENTER：
+當 PowerShell 主控台出現時，您應該確認 WinRM 服務已執行且已正確配置。 若要確認服務是否執行，請在 PowerShell 提示處輸入下列命令，然後按 ENTER：
   
 ```PowerShell
 Get-Service winrm

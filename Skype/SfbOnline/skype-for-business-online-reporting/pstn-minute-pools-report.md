@@ -46,7 +46,7 @@ ms.locfileid: "52238177"
 
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
-- 請前往系統管理中心>**系統管理** 商務用 Skype  >    >  **報告**  >  **PSTN 分鐘數庫**。
+- 請前往系統管理中心>系統管理商務用 Skype ****  >    >  **報告**  >  **PSTN 分鐘數庫**。
     
 > [!NOTE]
 > 視您Microsoft 365訂閱Office 365，您可能不會在這裡看到所有相同的詳細資料。 
@@ -87,11 +87,11 @@ ms.locfileid: "52238177"
     
 - [商務用 Skype會議召集人活動報告](conference-organizer-activity-report.md)您可以查看使用者組織使用 IM、音訊/視像、應用程式共用、Web、/dial out - 協力廠商和 /dial out - Microsoft 的會議。
     
-- [商務用 Skype會議參與者活動報告](conference-participant-activity-report.md)您可以查看有多少 IM、音訊/視音訊、應用程式共用、Web 和撥出音訊會議參與。
+- [商務用 Skype參與者活動報告](conference-participant-activity-report.md)您可以查看有多少 IM、音訊/視音訊、應用程式共用、Web 和撥出音訊會議參與。
     
 - [商務用 Skype對等活動報表](peer-to-peer-activity-report.md)您可以瞭解使用者正在使用 IM、音訊/視像、應用程式共用和傳輸檔案。
     
-- [商務用 Skype使用者封鎖報表](users-blocked-report.md)您可以看見貴組織中遭到封鎖的使用者，無法撥打 PSTN 通話。
+- [商務用 Skype使用者封鎖報表](users-blocked-report.md)您可以看見貴組織中已禁止進行 PSTN 通話的使用者。
 
 - [商務用 Skype會話詳細資料包表](session-details-report.md)您可以查看個別使用者的通話體驗詳細資料。
     

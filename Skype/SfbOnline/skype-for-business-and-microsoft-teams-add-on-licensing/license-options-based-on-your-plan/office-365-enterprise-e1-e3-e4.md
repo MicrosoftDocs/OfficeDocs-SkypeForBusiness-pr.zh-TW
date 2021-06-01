@@ -32,7 +32,7 @@ ms.locfileid: "52238471"
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-如果您已經購買[E1](https://products.office.com/business/office-365-enterprise-e1-business-software)Office 365 企業版[E3](https://products.office.com/business/office-365-enterprise-e3-business-software)或 E4 方案，以下是您需要購買的附加元件授權，以取得商務用 Skype功能。
+如果您已經購買[E1](https://products.office.com/business/office-365-enterprise-e1-business-software)Office 365 企業版[E3](https://products.office.com/business/office-365-enterprise-e3-business-software)或 E4 方案，以下是您需要購買的附加元件授權，以取得更多商務用 Skype功能。
 
 |||
 |:-----|:-----|
@@ -66,7 +66,7 @@ E3 方案是您的動作套件的一部分。 若要購買 **電話系統****和
 
 2. 請登錄系統管理中心，然後前往帳單訂閱  >    >  **附加元件**。
 
-    現在，您將看到購買電話和音訊 **電話系統附加元件** 的價格和選項。 
+    現在，您將看到購買電話電話系統 **音訊** 會議附加元件的價格和選項。
 
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>為什麼我看不到購買附加元件的選項？
 <a name="bkmk_how"> </a>

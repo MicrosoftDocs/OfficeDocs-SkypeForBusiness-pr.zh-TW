@@ -35,7 +35,7 @@ ms.locfileid: "52237029"
 > [!Note]
 > 有關將音訊會議資訊傳送給使用者Microsoft Teams，請參閱在[Microsoft Teasms](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)中傳送包含音訊會議資訊的電子郵件給使用者。
 
-有時候商務用 Skype使用者可能需要您傳送音訊會議資訊給他們。 您可以使用系統管理中心商務用 Skype，然後按一下使用者屬性下的透過 **電子郵件** 傳送會議資訊，即可執行這項操作。 當您傳送此電子郵件時，它會包含所有音訊會議資訊，包括：
+有時候商務用 Skype使用者可能需要您傳送音訊會議資訊給他們。 您可以使用系統管理中心商務用 Skype，然後按一下使用者內容下的透過 **電子郵件** 傳送會議資訊，即可執行這項操作。 當您傳送此電子郵件時，它會包含所有音訊會議資訊，包括：
   
 - 使用者的會議電話或撥入電話號碼。
     
@@ -70,7 +70,7 @@ ms.locfileid: "52237029"
 
 ## <a name="what-else-should-you-know-about-this-email"></a>關於此電子郵件，您還需要知道什麼？
 
-- 啟用音訊會議後，會向貴組織的使用者數封電子郵件：
+- 啟用音訊會議後，會將數封電子郵件寄給貴組織的使用者：
     
   - 當 **音訊會議授權** 指派給他們時。
     
@@ -107,7 +107,7 @@ ms.locfileid: "52237029"
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
-- 當涉及Windows PowerShell商務用 Skype，商務用 Skype是管理使用者，以及使用者允許或不允許執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+- 當涉及Windows PowerShell商務用 Skype，商務用 Skype是管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
   - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

@@ -21,7 +21,7 @@ ms.custom:
 - O365E_ReportsS4BPeerActivity
 - O365M_ReportsS4BPeerActivity
 - O365P_ReportsS4BPeerActivity
-description: '取得商務用 Skype對等活動報告，並瞭解如何根據您的需求解譯及自訂報告。 '
+description: '取得商務用 Skype對等活動報告，並瞭解如何根據您的需求解譯及自訂報表。 '
 ms.openlocfilehash: 4e46ef6c200ff82898b5a2c9cc89a512139d1404
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -33,7 +33,7 @@ ms.locfileid: "52238228"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-報表 **儀表板** 會顯示您組織中所有Microsoft 365 Office 365活動概觀。 它可讓您深入查看個別的產品層級報告，以進一步深入瞭解每個產品內的活動。 例如，您可以使用 商務用 Skype對等活動報告，查看使用者使用 IM、音訊、視像、應用程式共用和傳輸檔案的量。 
+報表 **儀表板** 會顯示您組織中所有Microsoft 365 Office 365活動概觀。 它可讓您深入查看個別的產品層級報告，以進一步深入瞭解每個產品內的活動。 例如，您可以使用 商務用 Skype對等活動報告來查看使用者使用 IM、音訊、視像、應用程式共用和傳輸檔案的量。 
 
 請查看報告 [概觀](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)。
   
@@ -63,14 +63,14 @@ ms.locfileid: "52238228"
 ***
 ![數位 2](../images/sfbcallout2.png)<br/>每個報表都有產生此報表的日期。 報告通常會反映啟用時間起 24 到 48 小時的延遲。 
 ***
-![數位 3](../images/sfbcallout3.png)<br/>使用活動圖表上的互動式圖表資料來瞭解使用趨勢，並查看貴組織中每個會話類型的會話總數。 它會顯示整個組織的 **IM、** 音訊、視像、**應用程式** 共用和 **檔案** 傳輸會話總數和類型。 
+![數位 3](../images/sfbcallout3.png)<br/>使用活動圖表上的互動式圖表資料來瞭解使用趨勢，並查看貴組織中每一會話類型的會話總數。 它會顯示整個組織的 **IM、** 音訊、視像、**應用程式** 共用和 **檔案** 傳輸會話總數和類型。 
 ***
 ![數位 4](../images/sfbcallout4.png)<br/>使用使用者圖表上的互動式圖表資料來瞭解使用趨勢，並查看參與貴組織中進行之對等活動的唯一使用者數目。 它會顯示使用者總數，以及點對點工作階段中 **的 IM、** 音訊、視視、應用程式共用和檔案傳輸類型。  
 ***
 ![數位 5](../images/sfbcallout5.png)<br/>使用分鐘圖表上的互動式圖表資料來瞭解使用趨勢，以及查看使用音訊和視像進行對等活動的使用者所使用的分鐘數。 它會顯示點對點工作階段中使用的音訊和視音訊的總分鐘數。
 ***
 ![數位 6](../images/sfbcallout6.png)<br/>每個圖表都有一個水準軸 (X，) 垂直軸 (Y) 。 
-*    在 **活動活動** 圖表上，Y 軸是使用者在貴組織中所舉行的 IM、音訊、視訊、應用程式共用和傳輸檔案會話總數。
+*    在 **活動活動** 圖表上，Y 軸是貴組織使用者所持有之 IM、音訊、視訊、應用程式共用和傳輸檔案會話的總數。
 *    在使用者 **活動** 圖表上，Y 軸是持有 IM、音訊、視訊、應用程式共用及傳輸檔案會話的使用者總數。 
 *    在分鐘 **活動** 圖表上，Y 軸是貴組織使用者使用音訊和視訊點對點工作階段所花的總分鐘數。 
 
@@ -80,7 +80,7 @@ ms.locfileid: "52238228"
 ***
 ![數位 8](../images/sfbcallout8.png)<br/>下表顯示每個使用者的對等活動明細。 這會顯示已指派商務用 Skype使用者及其對等活動。 您可以新增其他欄至資料表。
 *    **使用者名稱** 是使用者的名稱。
-*    **已刪除** 表示使用者授權已移除。 <br/> <br/> **注意：**  只要在所選時段內獲得授權，已刪除使用者的活動仍然會顯示在報告中。 刪除 **欄** 可協助您注意使用者可能不再作用中，但已對報告中的資料有影響。  <br/><br/>
+*    **已刪除** 表示使用者授權已移除。 <br/> <br/> **注意：**  只要在所選時段內獲得授權，已刪除使用者的活動仍然會顯示在報告中。 刪除 **欄** 可協助您注意，使用者可能已不再作用中，但已對報告中的資料有影響。  <br/><br/>
 *    **刪除日期** 是移除使用者授權的日期。 
 *    **UTC (上次**) 日期是該使用者 (UTC) 活動日期。
 *    **IM** 會顯示使用者使用的點對點工作階段總數。
@@ -99,7 +99,7 @@ ms.locfileid: "52238228"
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他商務用 Skype報表？
 
-- [商務用 Skype活動報告](activity-report.md)您可以查看使用者使用對等、組織及參與會議會話的多少。
+- [商務用 Skype活動報告](activity-report.md)您可以瞭解使用者使用對等、組織及參與會議會話的多少。
     
 - [商務用 Skype裝置使用方式報告](device-usage-report.md)您可以查看裝置，包括Windows型作業系統，以及已安裝應用程式商務用 Skype且用於 IM 和會議的行動裝置。
     
@@ -107,11 +107,11 @@ ms.locfileid: "52238228"
     
 - [商務用 Skype參與者活動報告](conference-participant-activity-report.md)您可以查看有多少 IM、音訊/視音訊、應用程式共用、Web 和撥入/撥出會議會議參與。
     
-- [商務用 Skype使用者封鎖報表](users-blocked-report.md)您可以看見貴組織中已禁止進行 PSTN 通話的使用者。
+- [商務用 Skype使用者封鎖報表](users-blocked-report.md)您可以看見貴組織中遭到封鎖的使用者，無法撥打 PSTN 通話。
     
 - [商務用 Skype PSTN 使用方式報告](pstn-usage-report.md)您可以看見用於內/外通話的分鐘數，以及這些通話的成本。
     
-- [商務用 Skype PSTN 分鐘](pstn-minute-pools-report.md)數庫報表，您可以查看組織內當月使用的分鐘數。
+- [商務用 Skype PSTN 分鐘](pstn-minute-pools-report.md)數庫報表，您可以查看貴組織內當月所耗用分鐘數。
 
 - [商務用 Skype會話詳細資料包表](session-details-report.md)您可以查看個別使用者的通話體驗詳細資料。
     

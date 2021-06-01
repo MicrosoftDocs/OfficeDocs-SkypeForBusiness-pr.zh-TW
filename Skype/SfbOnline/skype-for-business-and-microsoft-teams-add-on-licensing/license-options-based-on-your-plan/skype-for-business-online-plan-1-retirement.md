@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
-description: 線上商務用 Skype方案 1 已停用。 不過，如果您有線上方案 1 商務用 Skype訂閱，這項變更並不會影響您。 當您準備好要移至新方案時 ，無論是現在還是續約期間，您都有三個選項。
+description: 線上商務用 Skype方案 1 已停用。 不過，如果您有線上方案 1 商務用 Skype訂閱，這項變更並不會影響您。 當您準備好要移至新方案時 ，無論是現在或續約期間，您都有三個選項。
 ms.openlocfilehash: 11ee9f7ce323555b0ce7c21a326115ba05014c97
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -35,7 +35,7 @@ ms.locfileid: "52238675"
 
 當您準備好要移至新方案時 ，無論是現在或續約期間，您可以選擇切換到您Office 365 F1或其他Office 365方案。
 
-您可以維護與 Online 方案 1 商務用 Skype相同的功能，同時利用來自 Office 365 的新功能。 許多可用的方案選項包括 商務用 Skype Online 方案 1 提供的所有功能，以及 IM 和目前狀態、IP 對等音訊和視像，以及以驗證使用者身份加入會議的功能。
+您可以維護與線上方案 1 商務用 Skype相同的功能，同時利用來自 Office 365 的新功能。 許多可用的方案選項包括 商務用 Skype Online 方案 1 提供的所有功能，以及 IM 和目前狀態、IP 對等音訊和視像，以及以驗證使用者身份加入會議的功能。
 
 
 ## <a name="switching-to-office-365-f1"></a>切換到 Office 365 F1

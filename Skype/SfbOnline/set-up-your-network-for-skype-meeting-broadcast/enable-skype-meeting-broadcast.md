@@ -91,7 +91,7 @@ ms.locfileid: "52237009"
     
 ## <a name="configure-your-network-to-broadcast-meetings-with-external-attendees"></a>設定您的網路以廣播與外部出席者的會議
 
-如果您有防火牆，而且想要與公司外部人員 (非聯盟企業) 進行廣播，您必須使用以下指示來設定您的網路：設定您的網路以Skype 會議[廣播](set-up-your-network-for-skype-meeting-broadcast.md)。 
+如果您有防火牆，而且想要與公司外部人員 (非聯盟企業) 保留廣播，您必須使用以下指示來設定您的網路：設定您的網路以Skype 會議[廣播](set-up-your-network-for-skype-meeting-broadcast.md)。 
   
 如果您沒有防火牆的組組經驗，請考慮雇用 [Microsoft 合作夥伴](https://go.microsoft.com/fwlink/?linkid=391089) 來執行此步驟。
   

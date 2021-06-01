@@ -30,9 +30,9 @@ ms.locfileid: "52239159"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-即使連絡人商務用 Skype，您也可將 IM 傳送給連絡人。 這項功能可讓您的連絡人知道您一直嘗試聯繫他們。 在傳送訊息給他們之前，您不需要等到某人在線上。
+即使連絡人商務用 Skype，您也可將 IM 傳送給連絡人。 這項功能可讓您的連絡人知道您一直嘗試聯繫他們。 在傳送訊息給某人之前，您不需要等到某人在線上。
 
-對於離線郵件，必須知道：
+對於離線郵件，請瞭解：
 
 - 離線郵件不會在使用者的信箱中存檔。
 
@@ -45,7 +45,7 @@ ms.locfileid: "52239159"
 ## <a name="to-get-you-started"></a>若要開始使用
 
 > [!NOTE]
-> 商務用 Skype線上連接器是目前 PowerShell 模組Teams的一部分。 如果您使用的是最新版 PowerShell Teams版本，則不需要安裝 商務用 Skype連接器。
+> 商務用 Skype線上連接器是目前 PowerShell 模組Teams的一部分。 如果您使用的是最新版 PowerShell Teams版本，則不需要安裝 商務用 Skype 連接器。
 1. 安裝[powerShell Teams模組](/microsoftteams/teams-powershell-install)。
     
 2. 開啟 Windows PowerShell命令提示符，然後執行下列命令： 
@@ -57,7 +57,7 @@ ms.locfileid: "52239159"
    $userCredential = Get-Credential
    Connect-MicrosoftTeams -Credential $userCredential
    ```
-如果您想要開始建立帳戶Windows PowerShell，請參閱連線視窗中Office 365所有 Windows PowerShell[](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)服務，或設定您的電腦[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+若要進一Windows PowerShell，請參閱連線視窗中Office 365所有 Windows PowerShell[](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)服務，或設定您的電腦[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 ## <a name="turning-on-or-off-offline-im"></a>開啟或關閉離線 IM
 
@@ -72,7 +72,7 @@ ms.locfileid: "52239159"
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-若要啟用或停用使用者的離線訊息傳送離線訊息，請將  _EnableIMAutoArchiving 設定_ 為 `True` 或 `False` 。 根據預設，此設定為  `True` 。 您可以使用現有的策略，或建立如下範例。
+若要啟用或停用使用者的離線郵件傳送離線訊息，請將  _EnableIMAutoArchiving 設定_ 為 `True` 或 `False` 。 根據預設，此設定為  `True` 。 您可以使用現有的策略，或建立如下範例。
 
 
   ```PowerShell
@@ -95,7 +95,7 @@ Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [使用Windows PowerShell執行線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 ## <a name="related-topics"></a>相關主題
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)

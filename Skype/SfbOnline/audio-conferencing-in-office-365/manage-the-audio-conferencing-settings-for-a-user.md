@@ -33,9 +33,9 @@ ms.locfileid: "52237299"
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 如果您想要在 Microsoft Teams 管理使用者設定，請參閱在 Microsoft Teams 中管理[使用者的音訊會議Microsoft Teams。](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)
+> 如果您想要在 Microsoft Teams 中管理使用者設定，請參閱在 Microsoft Teams 中管理[使用者的音訊會議Microsoft Teams。](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)
 
-做為Microsoft 365或Office 365系統管理員，您可以編輯貴組織中個別使用者的音訊會議設定 ，例如提供者、預設付費或免付費號碼、會議 ID 或 PIN。 如果您想要編輯貴組織的設定，請參閱管理組織的音訊 [會議設定](manage-the-audio-conferencing-settings-for-my-organization.md)。
+作為Microsoft 365或Office 365，您可以為貴組織中個別使用者編輯音訊會議設定 ，例如提供者、預設付費或免付費號碼、會議 ID 或 PIN。 如果您想要編輯貴組織的設定，請參閱管理組織的音訊 [會議設定](manage-the-audio-conferencing-settings-for-my-organization.md)。
 
  
 1. 使用公司或學校帳戶來登錄。
@@ -54,7 +54,7 @@ ms.locfileid: "52237299"
 |**需要的預設 (** 號碼)  <br/> |對於協力廠商提供者，這些電話號碼就是您從音訊會議提供者收到的號碼。 如果使用者使用 Microsoft 做為音訊會議提供者，這些號碼會設定在音訊會議橋接器上。 將數位格式化為您想要顯示在會議商務用 Skype Microsoft Teams中。  <br/> |
 |**預設免付費號碼** <br/> |對於協力廠商提供者，這些電話號碼就是您從音訊會議提供者收到的號碼。 如果使用者使用 Microsoft 做為音訊會議提供者，這些號碼會設定在音訊會議橋接器上。 將數位格式化為您想要顯示在會議商務用 Skype Microsoft Teams中。  <br/> |
 |**在貴組織的 Microsoft 橋接器中允許使用免付費號碼加入此使用者的會議** <br/> |如果您想要允許免付費號碼的使用者加入會議，請選取此選項。  <br/> |
-|**透過電子郵件傳送會議資訊** <br/> |只有在您想要立即傳送包含其會議 ID 和電話號碼的電子郵件給使用者時，才能按一下此連結。  (此電子郵件不包含 PIN。) 請參閱傳送電子郵件給使用者及其 [音訊會議資訊](send-an-email-to-a-user-with-their-dial-in-information.md)。  <br/> |
+|**透過電子郵件傳送會議資訊** <br/> |只有在您想要立即傳送包含其會議 ID 和電話號碼的電子郵件給使用者時，才能按一下此連結。  (此電子郵件不包含 PIN。) 請參閱使用音訊會議資訊傳送 [電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information.md)。  <br/> |
 |**會議 ID** <br/> |如果您需要 **重** 設使用者的會議 ID，請選取重設。 詳細資訊，請參閱重[設使用者的會議 ID。](reset-a-conference-id-for-a-user.md)  <br/> |
 |**針** <br/> |如果您需要 **重** 設使用者的 PIN，請選取重設。 詳細資訊，請參閱重設[音訊會議 PIN。](reset-the-audio-conferencing-pin.md)  <br/> |
 |**允許未經驗證的來電者成為會議的第一位人員** <br/> |選取此選項，讓未經驗證的來電者成為第一個加入會議的人。  <br/> |

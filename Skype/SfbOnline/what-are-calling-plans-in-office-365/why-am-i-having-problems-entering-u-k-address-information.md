@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressGBSyntaxError
-description: 以下是在英法兩國取得正確驗證位址時 (問題) 。
+description: 以下是在英法兩國取得正確驗證位址 (問題) 。
 ms.openlocfilehash: 7751f2b23ecb15140fc5ff67aa3ede90fadfaf06
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -33,7 +33,7 @@ ms.locfileid: "52237929"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-以下是在英法兩國取得正確驗證位址時 (問題) 。
+以下是在英法兩國取得正確驗證位址 (問題) 。
   
 ## <a name="whats-wrong-with-the-company-name"></a>公司名稱有什麼問題？
 

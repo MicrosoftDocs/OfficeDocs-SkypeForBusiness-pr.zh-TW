@@ -41,7 +41,7 @@ Microsoft 已宣佈終止生命週期計畫，以將 商務用 Skype ACP 與協�
 
 在宣佈生命週期結束計畫開始時，下列變更已經生效，並會繼續生效，直到生命週期結束計畫結束： 
 
-- 沒有商務用 Skype使用者設定為使用協力廠商 ACP 服務的客戶將無法設定任何使用者使用協力廠商 ACP 服務。
+- 未設定商務用 Skype使用者使用協力廠商 ACP 服務的客戶將無法設定任何使用者使用協力廠商 ACP 服務。
 
 - 現有商務用 Skype使用者已配置為使用協力廠商 ACP 服務的客戶，在生命週期結束期間將能繼續新增使用者。 請注意，我們不建議設定其他 商務用 Skype 使用者使用協力廠商 ACP 服務，因為將于 2021 年 7 月 31 日生效的變更也會適用于他們。
 
@@ -79,7 +79,7 @@ Microsoft 已宣佈終止生命週期計畫，以將 商務用 Skype ACP 與協�
  
 **總結：**
 
-- 在 2021 年 7 月 31 日之前移入 Microsoft Audio 會議並完成移入的組織，不會在 2021 年 7 月 31 日之間或之後看到任何影響其服務。
+- 在 2021 年 7 月 31 日之前移入 Microsoft Audio 會議並完成移入的組織，不會在 2021 年 7 月 31 日之間或之後看到其服務受到任何影響。
 
 - 若要深入瞭解如何移入 Microsoft 音訊會議，請參閱嘗試或購買 Microsoft 365[或 Office 365。](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 
 
@@ -87,7 +87,7 @@ Microsoft 已宣佈終止生命週期計畫，以將 商務用 Skype ACP 與協�
 
 決定在 2021 年 7 月 31 日當天及之後繼續使用協力廠商 ACP 的組織，將會受到服務影響，因為協力廠商 ACP 撥入資訊將無法再用來加入 商務用 Skype 會議的音訊部分。 
 
-若要讓部分參與者透過 VoIP 和其他協力廠商 ACP 加入會議，以防止 商務用 Skype 會議中的音訊分散，建議這些組織在使用者的會議中停用使用 VoIP。 如此一來，所有參與者都需要使用協力廠商 ACP 加入會議的音訊部分，以及會議的其他所有工作負載 (例如聊天或螢幕分享) 可繼續支援 商務用 Skype。 
+若要讓部分參與者透過 VoIP 加入會議，並透過協力廠商 ACP 加入其他參與者，以防止 商務用 Skype 會議中的音訊分散，建議這些組織在使用者會議中停用使用 VoIP。 如此一來，所有參與者都需要使用協力廠商 ACP 加入會議的音訊部分，以及會議的其他所有工作負載 (例如聊天或螢幕分享) 可繼續支援 商務用 Skype。 
 
 - 若要從指定召集人的所有會議停用 VoIP，請透過 Cmdlet 將其會議策略的 AllowIPAudio 參數設為 false Set-CsConferencingPolicy False。 有關其他資訊，請參閱 [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
  
@@ -107,7 +107,7 @@ Microsoft 已宣佈終止生命週期計畫，以將 商務用 Skype ACP 與協�
 
     - 若要從指定召集人的所有會議停用 VoIP，請透過 Cmdlet 將使用者的會議策略的 AllowIPAudio 參數設為 false Set-CsConferencingPolicy False。 有關其他資訊，請參閱 [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
  
-- 如果組織未針對所有會議停用 VoIP，建議您停用使用者使用協力廠商 ACP 的 商務用 Skype Online 整合，並重新排期會議以移除協力廠商 ACP 撥入資訊，以防止音訊分散。
+- 如果組織未針對所有會議停用 VoIP，建議您停用使用者使用協力廠商 ACP 的 商務用 Skype Online 整合，並重新排程會議以移除協力廠商 ACP 撥入資訊，以防止音訊分散。
 
     - 若要停用特定召集人的協力廠商音訊會議整合，請使用 [Remove-CsUserAcp](/powershell/module/skype/remove-csuseracp?view=skype-ps) Cmdlet。 
 
@@ -115,9 +115,9 @@ Microsoft 已宣佈終止生命週期計畫，以將 商務用 Skype ACP 與協�
 
 ### <a name="path-3-stop-using-dial-in-conferencing-altogether"></a>路徑#3：完全停止使用電話撥入式會議
 
-決定完全停止使用電話撥入式會議的組織 (Microsoft 和協力廠商 ACP) 均無法完全仰賴 VoIP 支援會議的音訊商務用 Skype部分。 
+決定完全停止使用電話撥入式會議的組織 (無論 Microsoft 或協力廠商 ACP) 均無法完全仰賴 VoIP 支援商務用 Skype會議的音訊部分。 
 
-這些組織必須停用其使用者，避免使用協力廠商音訊會議提供者，並自動使用會議移轉服務重新排好會議，以移除電話撥入式會議資訊。 
+這些組織必須停用其使用者，避免使用協力廠商音訊會議提供者，並且使用會議移轉服務自動重新排好會議，以移除電話撥入式會議資訊。 
 
 - 若要停用特定召集人的協力廠商音訊會議整合，請使用 Remove-CsUserAcp Cmdlet。 有關其他資訊，請參閱 [Remove-CsUserAcp](/powershell/module/skype/remove-csuseracp?view=skype-ps)。 
 

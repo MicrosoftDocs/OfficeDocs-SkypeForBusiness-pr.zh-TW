@@ -47,7 +47,7 @@ ms.locfileid: "52239859"
 |:-----|:-----|
 |音訊和 HD 影片  <br/> PowerPoint和白板簡報  <br/> 桌面或程式共用會話  <br/> |共用OneNote頁面  <br/> PowerPoint注釋  <br/> 共用檔案 (附件)   <br/> |
    
-詳細資料請參閱 [Lync 錄製儲存與發佈及](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e) [Lync 錄製管理員](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b)。 
+詳細資料請參閱[Lync 錄製儲存與發佈，](https://support.office.com/article/83cf1507-0f05-40f5-a520-5a6c133bc33e)[以及 Lync 錄製管理員](https://support.office.com/article/fa915c55-ff55-45c0-b372-1ef5596da10b)。 
   
 ## <a name="related-topics"></a>相關主題
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)

@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: 使用 Get-CsOnlineUser 中的 Windows PowerShell Cmdlet 來取得貴組織的線上使用者商務用 Skype相關資訊。
+description: 使用 Get-CsOnlineUser 中的 Cmdlet Windows PowerShell取得貴組織線上使用者商務用 Skype相關資訊。
 ms.openlocfilehash: fa647a7ba80fc649146e2278fb2041343354dead
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT

@@ -1,5 +1,5 @@
 ---
-title: 您的埠訂單已接受
+title: 已接受您的埠訂單
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -29,11 +29,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52237779"
 ---
-# <a name="your-port-order-was-accepted"></a>您的埠訂單已接受
+# <a name="your-port-order-was-accepted"></a>已接受您的埠訂單
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-您的埠訂單已核准！ 在系統管理中心的 Voice商務用 Skype  >  **中尋找**  >  **電話號碼**。
+您的埠訂單已核准！ 在系統管理中心中尋找商務用 Skype ****  >  **語音電話**  >  **號碼**。
   
  **重要**：若要在 商務用 Skype系統管理中心的左側流覽中查看語音選項，您必須先購買至少一個 **Enterprise E5** 授權、一個 **電話系統** 附加元件授權或一個音訊會議附加元件授權。 
   

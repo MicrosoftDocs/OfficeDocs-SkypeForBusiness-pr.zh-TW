@@ -20,7 +20,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 瞭解如何在 商務用 Skype Online 中選取音訊會議自動語音商務用 Skype語言。
+description: 瞭解如何在 商務用 Skype Online 中為音訊會議號碼選取音訊會議自動語音商務用 Skype語言。
 ms.openlocfilehash: 714312989bc3898fea2ed0d335fed8f5f2eebbb3
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT

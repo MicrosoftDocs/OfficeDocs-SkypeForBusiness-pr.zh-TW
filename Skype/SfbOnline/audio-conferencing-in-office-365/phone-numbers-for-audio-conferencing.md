@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
-description: 瞭解哪些國家和地區有電話撥入式會議號碼，以及如何自動指派電話撥入式會議號碼。
+description: 瞭解哪些國家/地區有電話撥入式會議號碼，以及如何自動指派電話撥入式會議號碼。
 ms.openlocfilehash: 0e5d38f604e7236d8e924b8799c5c4ec0dd01b42
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -53,7 +53,7 @@ ms.locfileid: "52237209"
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>音訊會議橋接器上設定的撥入電話號碼
 
-可指派給您的會議橋接器的音訊會議電話號碼有兩個類型：**共用** 和 **專用**。 任何來電者都可以使用這兩種號碼來加入貴組織進行的音訊會議。
+可指派給您的會議橋接器的音訊會議電話號碼有兩個類型：**共用** 和 **專用**。 任何來電者都可以使用這兩種號碼來加入貴組織中進行的音訊會議。
   
  **專用電話號碼** 是只有在組織內部使用者才可以使用的電話號碼。 您可以變更某人撥入其中一個號碼時所使用的語言。
   
@@ -71,7 +71,7 @@ ms.locfileid: "52237209"
 > [!CAUTION]
 > 由於在委內瑞拉、印尼、越南 和阿拉伯聯合大公國 (EMIRATE) 的付費電話號碼有限，來自這些國家/地區的組織不會自動指派音訊會議付費號碼給他們。 來自這些位置的免付費電話號碼是否可供使用，視可用庫存而定。 
   
-專用音訊會議電話號碼是您可以取得並接著指派給組織的服務號碼。 您可以使用系統管理中心找到商務用 Skype **號碼**。 詳細資料請參閱 [取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+專用音訊會議電話號碼是您可以取得並接著指派給組織的服務號碼。 您可以使用系統管理中心找到 **商務用 Skype號碼**。 詳細資料請參閱 [取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
 若要查看已自動指派電話號碼給組織之國家/地區的清單，請參閱[音訊會議與通話方案的適用國家/地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。
   

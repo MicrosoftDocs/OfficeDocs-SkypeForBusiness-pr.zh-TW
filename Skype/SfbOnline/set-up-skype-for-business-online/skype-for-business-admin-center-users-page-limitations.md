@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.UsersCountLimitationWarning
-description: '瞭解如何在線上系統管理員顯示商務用 Skype限制內工作。 '
+description: '瞭解如何在線上系統管理員顯示使用者商務用 Skype限制內工作。 '
 ms.openlocfilehash: 00726dd76d59bfd177d6626d97c69ecb259bb2ec
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "52239675"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-為了提升商務用 Skype **系統管理中心** 會顯示使用者清單中的前 1，000 個使用者。 如果您有超過 1，000 個使用者，請使用篩選篩選和搜尋搜尋來尋找您要找 ![ ](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png)  ![ ](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) 的特定人員。
+為了提升商務用 Skype **系統管理中心** 會顯示使用者清單中的前 1，000 個使用者。 如果您有超過 1，000 個使用者，請使用篩選篩選和搜尋搜尋來尋找您正在尋找 ![ ](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png)  ![ ](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) 的特定人員。
   
 ## <a name="bulk-editing"></a>大量編輯
 <a name="__top"> </a>

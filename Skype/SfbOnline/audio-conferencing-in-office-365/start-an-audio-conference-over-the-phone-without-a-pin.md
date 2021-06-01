@@ -35,11 +35,11 @@ ms.locfileid: "52237589"
 > [!Note]
 > 有關在沒有 PIN 的情況下Microsoft Teams音訊會議的資訊，請參閱在 Microsoft Teams 中在沒有 PIN 的情況下[，在手機上Microsoft Teams。](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams)
 
-撥入會議的使用者在會議大廳中聆聽音樂可能會令人感到沮喪，因為會議商務用 Skype尚未開始會議。 
+撥入會議的使用者在會議大廳聆聽音樂可能會令人感到沮喪，因為商務用 Skype會議召集人尚未開始會議。 
   
-如果會議召集人預設會來電到會議，則啟動會議時必須輸入 PIN。 您可以設定，讓任何人都可以撥入會議，而且不會提示 PIN 開始會議。 您可以使用系統管理商務用 Skype，為單一使用者啟用或停用此設定。
+如果會議召集人會來電到會議，根據預設，啟動會議需要 PIN。 您可以設定，讓任何人都可以撥入會議，而且不會提示 PIN 開始會議。 您可以使用系統管理商務用 Skype，為單一使用者啟用或停用此設定。
   
-如果有人從應用程式啟動會議，會議召集人不需要 PIN 商務用 Skype PIN。 只有當會議召集人以電話加入其會議時，才需要 PIN。 當音訊使用者獲得音訊會議授權並啟用音訊會議時，會議 PIN會發送給音訊使用者。 請參閱 [傳送電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information.md) ，其音訊會議資訊和電子郵件會在使用者的音訊會議設定變更時 [自動傳送給使用者](emails-sent-to-users-when-their-settings-change.md)。
+如果有人從應用程式開始會議，會議召集人不需要 PIN 商務用 Skype PIN。 只有當會議召集人以電話加入其會議時，才需要 PIN。 當音訊使用者獲得音訊會議授權並啟用音訊會議時，會議 PIN會發送給音訊使用者。 請參閱 [傳送電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information.md) ，其音訊會議資訊和電子郵件會在使用者的音訊會議設定變更時 [自動傳送給使用者](emails-sent-to-users-when-their-settings-change.md)。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -50,7 +50,7 @@ ms.locfileid: "52237589"
     
 2. 在清單中，選取使用者，然後按一下 [動作窗格 **編輯>**。 
     
-3. 在使用者的屬性頁面上， **選取或清除** 會議選項下的允許未經驗證的來電 **者成為會議的第一個人。如果沒有，則他們會在大廳等候，直到經過驗證的使用者加入**。
+3. 在使用者的屬性頁面上，選取或 **清除會議選項** 下的允許未經驗證的來電 **者成為會議的第一個人。如果沒有，他們會在大廳等候，直到經過驗證的使用者加入**。
     
 4. 按一下 [儲存]。 
 
@@ -70,21 +70,21 @@ ms.locfileid: "52237589"
     
 - 如果匿名存取或不需要 PIN 來啟動會議，則停用：
     
-  - 如果會議尚未開始 (會議中還沒有人員) ：如果來電者是召集人，系統就會提示來電者;如果表示是，系統會提示他輸入 PIN，而輸入 PIN 之後，會議就會開始，而使用者將加入會議。
+  - 如果會議尚未開始 (會議中還沒有人員) ：如果來電者是召集人，系統就會提示來電者;如果表示是，系統會提示他輸入 PIN，然後輸入 PIN 之後，會議就會開始，而使用者將加入會議。
     
-  - 如果會議已經開始 (其他人已在會議) ：來電者若是會議召集人，系統將不會提示來電者輸入 PIN;會議已開始，來電者會加入會議。
+  - 如果會議已開始 (其他人已在會議) ：來電者若是會議召集人，系統將不會提示來電者輸入 PIN;會議已開始，來電者會加入會議。
     
 - 如果已啟用匿名存取，或不需要 PIN 來啟動會議：
     
   - 如果會議尚未開始 (會議中還沒有人) ：來電者若是召集人，系統將不會提示她，而且永遠不會提示她輸入 PIN。 由於召集人的設定設為關閉，會議將會開始，匿名來電者會加入會議。
     
-  - 如果會議已開始 (其他人已經在會議) ：來電者不會提示她成為召集人，而且永遠不會提示她輸入 PIN;會議已經啟動，來電者會加入。
+  - 如果會議已經開始 (其他人已經在會議) ：來電者不會提示她，如果對方是召集人，而且永遠不會提示她輸入 PIN;會議已經啟動，來電者會加入。
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想要瞭解如何使用 Windows PowerShell？
 
 - 若要為多個使用者節省時間或將其自動化，您可以使用 [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) Cmdlet。
     
-- 當涉及Windows PowerShell商務用 Skype，商務用 Skype是管理使用者，以及使用者允許或不允許執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+- 當涉及Windows PowerShell商務用 Skype，商務用 Skype是管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
   - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
@@ -99,7 +99,7 @@ ms.locfileid: "52237589"
   - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell[模組商務用 Skype Online。](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell Online 模組商務用 Skype[下載。](https://go.microsoft.com/fwlink/?LinkId=294688)
   
 ## <a name="related-topics"></a>相關主題
 

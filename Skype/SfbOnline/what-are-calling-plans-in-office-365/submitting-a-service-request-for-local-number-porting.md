@@ -33,7 +33,7 @@ ms.locfileid: "52237989"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-如果您需要將超過 999 個電話號碼 (或包括付費或免付費) 在內的服務號碼轉接到 商務用 Skype Online，請參閱管理貴組織[的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。
+如果您需要將超過 999 個電話號碼 (使用者，或包括付費或免付費) 在內的服務號碼轉接到 商務用 Skype Online，請參閱管理貴組織[的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。
 
 > [!NOTE]
 > 如果您需要取得更多電話號碼，請聯絡商務產品支援人員 [- 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

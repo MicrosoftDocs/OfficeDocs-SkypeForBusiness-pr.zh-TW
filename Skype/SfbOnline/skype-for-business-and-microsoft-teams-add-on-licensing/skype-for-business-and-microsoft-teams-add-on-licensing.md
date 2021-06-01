@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom:
 - Licensing
 - LIL_Placement
-description: '瞭解附加元件授權、您將取得哪些功能、如何為您的產品購買這些功能，以及如何與現有的電信電信公司一起使用。 您可以取得 Office 365、通訊點數、通話方案的價格和方案詳細資料。 '
+description: '瞭解附加元件授權、您將取得哪些功能、如何為您的產品購買這些功能，以及如何將現有的電信電信公司與附加元件一起使用。 您可以取得 Office 365、通訊點數、通話方案的價格和方案詳細資料。 '
 ms.openlocfilehash: 5bbd455a0cb3bf2bff8bc7bf0dd4362135214a39
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -59,7 +59,7 @@ ms.locfileid: "52238379"
 |||
 |:-----|:-----|
 |**功能** <br/> |**描述** <br/> |
-|**音訊會議** <br/> |有時候，貴組織的人需要使用電話來商務用 Skype會議，而不是使用電腦。 在這種情況下，可使用音訊會議功能。  <br/> 若要了解您的國家/地區是否可使用音訊會議，請參閱[音訊會議與通話方案的適用國家和地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 <br/> 如果您正在尋找其成本，請參閱音訊 [會議的需求](https://products.office.com/skype-for-business/audio-conferencing#requirements)。  <br/> |
+|**音訊會議** <br/> |有時候，貴組織中的人需要使用電話來商務用 Skype會議，而不是使用電腦。 在這種情況下，可使用音訊會議功能。  <br/> 若要了解您的國家/地區是否可使用音訊會議，請參閱[音訊會議與通話方案的適用國家和地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。 <br/> 如果您正在尋找其成本，請參閱音訊 [會議的需求](https://products.office.com/skype-for-business/audio-conferencing#requirements)。  <br/> |
 |**可撥入會議的免付費電話號碼，以及從會議撥出到世界上任何電話號碼將某人加入會議的功能** <br/> |如果您新增音訊會議，我們建議您 [設定通訊點數](/microsoftteams/set-up-communications-credits-for-your-organization)。 <br/> |
 |**電話系統** <br/> |企業的電話系統是 PBX。 電話系統是託管電話語音。 它提供傳統和創新的 PBX 功能，但不需要複雜且昂貴的設備。 [以下是您取得電話系統。](/MicrosoftTeams/here-s-what-you-get-with-phone-system)  <br/> 如果您要尋找其成本，請參閱此[電話系統。](https://products.office.com/skype-for-business/cloud-pbx#requirements)  <br/> |
 |**通話方案** <br/> |撥打給商務用 Skype使用者是免費的，但如果您希望使用者能夠撥打公司外的任何電話號碼，請取得通話[方案](/MicrosoftTeams/calling-plans-for-office-365)。 有國內通話方案及國內及國際通話方案。  <br/> 如果您要尋找費用，請參閱通話方案 [需求](https://products.office.com/skype-for-business/pstn-calling-plans#requirements)。  <br/> |
@@ -79,7 +79,7 @@ ms.locfileid: "52238379"
 - [Microsoft Teams 會議室](/MicrosoftTeams/rooms/rooms-licensing)
 - [政府機關、教育界、非營利組織](../skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/gov-edu-and-nonprofit-organizations.md)
 
-有關每個方案的詳細功能清單和比較商務用 Skype，請參閱 商務用 Skype[線上服務描述](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。
+有關每個方案的詳細功能清單及比較，請參閱商務用 Skype線上服務描述商務用 Skype[說明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>如何查看價格和購買附加元件授權
 <a name="bkmk_how"> </a>

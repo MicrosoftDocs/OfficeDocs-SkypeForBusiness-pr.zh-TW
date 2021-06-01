@@ -19,7 +19,7 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
-description: '瞭解如何為使用者設定隱私權模式，以便他們更好控制人員看到其可用性的方式。 '
+description: '瞭解如何為使用者設定隱私權模式，以便他們更能夠控制人員看到其可用性的方式。 '
 ms.openlocfilehash: f8589dfb648693f0c0c4331a1a16119a3d7fe748
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT

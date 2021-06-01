@@ -32,7 +32,7 @@ ms.locfileid: "52240172"
 
 在 商務用 Skype Online 中，您可以控制點到點 (P2P) 檔案傳輸，做為現有會議策略設定之一部分。 不過，無論使用者是否要將檔案傳輸給同一個組織的使用者，或是將檔案傳輸給另一個組織的聯盟使用者，這都允許或阻止使用者的檔案傳輸。 按照下列步驟，您可以封鎖與聯盟組織或合作夥伴的 P2P 檔案傳輸。
   
- 一個很常見的情況是，您想要允許內部使用者使用 P2P 檔案傳輸，但封鎖與聯盟合作夥伴的檔案傳輸。 針對此案例，您必須執行：
+ 一個很常見的情況是，您想要允許內部使用者使用 P2P 檔案傳輸，但封鎖與聯盟合作夥伴的檔案傳輸。 針對此案例，您必須執行以下工作：
   
 - 將啟用 P2P 檔案傳輸的會議 (_EnableP2PFileTransfer_ 設為 _True_) 組織的使用者。
     
@@ -40,7 +40,7 @@ ms.locfileid: "52240172"
     
 您可以在這裡進一瞭解這些 [設定](/previous-versions//mt228132(v=technet.10))。
   
-如果貴組織外部的聯盟使用者嘗試將檔案傳送給已採用原則的使用者，他們會收到傳輸 **失敗** 錯誤。 如果使用者嘗試傳送檔案，他們會收到檔案傳輸 **已關閉** 的錯誤。
+如果貴組織外部的聯盟使用者嘗試將檔案傳送給已採用原則的使用者，他們會收到傳輸 **失敗** 錯誤。 如果使用者嘗試傳送檔案，他們會收到關閉檔案 **傳輸的錯誤。**
   
 若要執行此作業，使用者必須使用支援的 2016 即用即用商務用 Skype應用程式。 需要下列 2016 商務用 Skype隨用用戶端的最低版本：
   
@@ -56,7 +56,7 @@ ms.locfileid: "52240172"
 ## <a name="start-windows-powershell"></a>開始Windows PowerShell
 
 > [!NOTE]
-> 商務用 Skype線上連接器是目前 PowerShell 模組Teams的一部分。 如果您使用的是最新版 PowerShell Teams版本，則不需要安裝 商務用 Skype連接器。
+> 商務用 Skype線上連接器是目前 PowerShell 模組Teams的一部分。 如果您使用的是最新版 PowerShell Teams版本，則不需要安裝 商務用 Skype 連接器。
 1. 安裝[powerShell Teams模組](/microsoftteams/teams-powershell-install)。
     
 2. 開啟 Windows PowerShell命令提示符，然後執行下列命令： 
@@ -69,7 +69,7 @@ ms.locfileid: "52240172"
    Connect-MicrosoftTeams -Credential $credential
    ```
    
-   如果您想要啟動 Windows PowerShell 功能連線，請參閱在單一 Microsoft 365 視窗中Office 365 [Windows PowerShell](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)所有 Microsoft 365 或 Office 365 服務，或設定您的電腦[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+   如果您想要啟動 Windows PowerShell 功能連線，請參閱在單一 Microsoft 365 視窗中Office 365所有 Microsoft 365 或 Office 365 [Windows PowerShell](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)服務，或設定您的電腦[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>停用貴組織的 P2P 檔案傳輸
 
@@ -103,11 +103,11 @@ Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity am
     
 - Windows PowerShell使用系統管理中心時，Microsoft 365在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
     
-  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用Windows PowerShell執行線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="related-topics"></a>相關主題
 [建立自訂外部存取原則](create-custom-external-access-policies.md)

@@ -18,7 +18,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: 瞭解 Skype Online 的 商務用 Skype 會議廣播功能，此功能可讓您排程、製作會議或活動，以及將會議或活動廣播給最多 10，000 名出席者的大型線上觀眾。
+description: 瞭解 Skype Online 的 商務用 Skype 會議廣播功能，此功能可讓您排程、製作會議或活動，以及將會議或活動廣播給最多 10，000 位出席者的大型線上觀眾。
 ms.openlocfilehash: da27110313765bb50df92e3bafb6f09ceae5f301
 ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
 ms.translationtype: MT
@@ -95,7 +95,7 @@ ms.locfileid: "52237549"
 
 設定程式的第二個步驟是先新增所需的網域，然後新增讓會議廣播Skype所需的 IP 位址和 URL。
 
-- **在這裡查看商務用 Skype** 線上端點 URL 和 IP 位址，以新增所需的 [Url 和 IP 位址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)。
+- **在這裡查看商務用 Skype** Web 端點 URL 和 IP 位址，以新增所需的 [連線端點 URL 和 IP 位址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)。
 
 ## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>在混合式部署Skype組織中設定會議廣播
 

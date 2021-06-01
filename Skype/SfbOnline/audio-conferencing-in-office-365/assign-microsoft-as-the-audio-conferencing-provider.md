@@ -35,7 +35,7 @@ ms.locfileid: "52237759"
 
 若要在 Microsoft 365 或 Office 365 使用音訊會議商務用 Skype Microsoft Teams，貴組織的使用者必須指派音訊會議授權給他們。 請參閱[在 Microsoft 365](try-or-purchase-audio-conferencing-in-office-365.md)或 Office 365中試用或購買音訊會議，以取得授權和費用詳細資訊。
 
-Microsoft 音訊會議提供撥入電話號碼、PIN 和會議編號，會議參與者可以使用這些號碼加入貴組織的會議。 您只需要將 Microsoft 指派為音訊會議提供者給打算排程或帶領商務用 Skype或Microsoft Teams提供者。
+Microsoft 音訊會議提供撥入電話號碼、PIN 和會議編號，會議參與者可以使用這些號碼加入貴組織的會議。 您只需要將 Microsoft 指派為音訊會議提供者給打算排程或帶領會議商務用 Skype或Microsoft Teams提供者。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -60,7 +60,7 @@ Microsoft 音訊會議提供撥入電話號碼、PIN 和會議編號，會議參
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
     
-### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a>為少數Windows PowerShell使用腳本
+### <a name="using-a-windows-powershell-script-for-a-small-number-of-users"></a>為Windows PowerShell使用腳本
 
 若要節省時間或自動化這項功能，您可以使用下列 PowerShell 腳本將 Microsoft 設定為少數使用者的音訊會議提供者。
 
@@ -72,7 +72,7 @@ Microsoft 音訊會議提供撥入電話號碼、PIN 和會議編號，會議參
   
 
 ### <a name="using-a-windows-powershell-script-for-a-large-number-of-users"></a>為Windows PowerShell使用腳本
-若要節省時間或將這項功能自動化，您可以使用下列 PowerShell 腳本，將 Microsoft 設定為大量使用者的音訊會議提供者。
+若要節省時間或自動化這項功能，您可以使用下列 PowerShell 腳本將 Microsoft 設定為大量使用者的音訊會議提供者。
 
 當提供者從另一個提供者變更為 **Microsoft** 時，系統將會 (會議 ID、付費和免付費號碼) 使用者的音訊會議資訊。 在變更提供者之前，您應該先儲存此資訊。 
   
@@ -195,7 +195,7 @@ Script.ps1 -CsvFile <Path of the csv file>
   }
   }
   ```
-若要進一Windows PowerShell，請參閱使用 Windows PowerShell[執行商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
+若要進一Windows PowerShell，請參閱Windows PowerShell[線上管理工作商務用 Skype一般。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="related-topics"></a>相關主題
 [嘗試或購買音訊會議Microsoft 365或Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 

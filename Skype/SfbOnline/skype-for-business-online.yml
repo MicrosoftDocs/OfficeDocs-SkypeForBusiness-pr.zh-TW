@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: 商務用 Skype Online 系統管理員
-summary: 商務用 Skype Online 將于 2021 年 7 月 31 日停用，此時服務存取權將會結束。 我們鼓勵客戶開始升級至 Microsoft 365 中團隊合作的中心 Microsoft Teams。
+summary: 商務用 SkypeOnline 將于 2021 年 7 月 31 日終止服務存取權。 我們鼓勵客戶開始升級至 Microsoft Teams 中心 ，Microsoft 365。
 metadata:
   title: 商務用 Skype Online 系統管理員
-  description: 瞭解如何為貴組織管理商務用 Skype Online。
+  description: 瞭解如何為貴商務用 Skype管理線上帳戶。
   services: skype-for-business-online-admin
   ms.service: skype-for-business-online-admin
   ms.topic: landing-page
@@ -24,11 +24,11 @@ metadata:
   ms.lasthandoff: 03/23/2021
   ms.locfileid: "51118922"
 landingContent:
-- title: 關於商務用 Skype Online
+- title: 關於 商務用 Skype Online
   linkLists:
   - linkListType: whats-new
     links:
-    - text: 商務用 Skype Online 將于 2021 年停用
+    - text: 商務用 Skype線上將于 2021 年停用
       url: https://techcommunity.microsoft.com/t5/microsoft-teams-blog/skype-for-business-online-to-be-retired-in-2021/ba-p/777833
   - linkListType: get-started
     links:
@@ -38,11 +38,11 @@ landingContent:
     links:
     - text: 我們在此提供協助
       url: https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
-    - text: 需要協助您登錄商務用 Skype 嗎？
+    - text: 需要協助您商務用 Skype？
       url: https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05
-    - text: 疑難排解商務用 Skype Online 的問題
+    - text: 疑難排解線上商務用 Skype問題
       url: ./set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online.md
-    - text: 從商務用 Skype 到 Teams 的歷程
+    - text: 從 商務用 Skype 到 Teams
       url: /MicrosoftTeams/upgrade-start-here
 - title: 新功能
   linkLists:
@@ -88,7 +88,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: 商務用 Skype 和 Microsoft Teams 附加元件授權
+    - text: 商務用 Skype Microsoft Teams附加元件授權
       url: ./skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md
     - text: 什麼是通訊點數？
       url: /MicrosoftTeams/what-are-communications-credits
@@ -116,9 +116,9 @@ landingContent:
   linkLists:
   - linkListType: how-to-guide
     links:
-    - text: 疑難排解商務用 Skype 中的連接問題
+    - text: 疑難排解 商務用 Skype
       url: https://support.office.com/article/ca302828-783f-425c-bbe2-356348583771
-    - text: 疑難排解商務用 Skype 的音訊和視音訊
+    - text: 疑難排解音訊和視商務用 Skype
       url: https://support.office.com/article/62777bc6-c52b-47ae-84ba-a8905c3b71dc
-    - text: 調整商務用 Skype Online 的績效
+    - text: 調整商務用 Skype線上的績效
       url: https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802

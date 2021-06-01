@@ -33,14 +33,14 @@ ms.locfileid: "52237729"
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 有關會議邀請電話號碼Microsoft Teams，請參閱在 Microsoft Teams 中設定邀請[Microsoft Teams。](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)
+> 有關會議邀請電話號碼Microsoft Teams，請參閱在 Microsoft Teams 中設定邀請[中Microsoft Teams。](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)
 
 Microsoft 365或 Office 365中的音訊會議可讓貴組織的使用者商務用 Skype會議，然後允許使用者使用電話撥入這些會議。 在 Microsoft 365 和 Office 365 中，您可以選擇使用 Microsoft 音訊會議橋接器或由核准音訊會議提供者 (ACP) 託管的協力廠商音訊會議橋接器。
   
 > [!NOTE]
-> 沒有任何資源會包含音訊會議的所有撥入號碼清單。 如果您想要查看您的地區或國家/地區是否有可用的撥入電話號碼，請使用 商務用 Skype 系統管理中心的 **Voice** 電話 號碼，然後按一下 [新增服務  >    >  ******號碼**> 。  使用國家/地區、省 **/** 市 **/** 區及縣/市的清單來篩選您的搜尋。>此外，如果您要尋找免付費服務號碼，請從州 **/** 地區清單中選取免付費。
+> 沒有任何資源會包含音訊會議的所有撥入號碼清單。 如果您想要查看您的地區或國家/地區是否有可用的撥入電話號碼，請使用 商務用 Skype 系統管理中心的 Voice 電話 號碼，然後按一下 [新增服務  >    >  ******號碼**> 。  使用國家/地區、省 **/** 市 **/** 區及縣/市的清單來篩選您的搜尋。>此外，如果您要尋找免付費服務號碼，請從州 **/** 地區清單中選取免付費。
   
-會議橋接器會提供您組織的一組撥入電話號碼。 所有會議都可以用來加入會議召集人所建立的會議，但您可以選取哪些會議邀請會包含在會議邀請中。
+會議橋接器會提供您組織的一組撥入電話號碼。 所有會議都可以用來加入會議召集人已建立的會議，但您可以選取哪些會議邀請會包含在會議邀請中。
   
 > [!NOTE]
 > 會議邀請的會議召集人最多可以有一個付費電話和一個免付費電話號碼，但每個會議邀請底部也有一個連結，可開啟可用來加入會議之所有撥入電話號碼的完整清單。 
@@ -134,7 +134,7 @@ Microsoft 365或 Office 365中的音訊會議可讓貴組織的使用者商務�
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
   ## <a name="want-to-learn-more-about-windows-powershell"></a>想要深入瞭解Windows PowerShell？
-- 當要Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 有了Windows PowerShell，您可以使用單一Office 365管理商務用 Skype管理線上，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+- 當要Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一Office 365管理商務用 Skype管理線上，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
   - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

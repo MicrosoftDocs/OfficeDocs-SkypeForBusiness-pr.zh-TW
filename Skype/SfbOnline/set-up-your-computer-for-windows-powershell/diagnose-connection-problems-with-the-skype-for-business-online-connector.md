@@ -46,9 +46,9 @@ ms.locfileid: "52238904"
     
 - [連線至租使用者的能力已在 商務用 Skype Online 中停用](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
 
-- [已超出此使用者在 商務用 Skype 命令命令的並行命令數目上限](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
+- [已超出此使用者在 商務用 Skype 命令的上限](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
 
-- [超過此租使用者在 商務用 Skype 中並行命令命令數上限](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
+- [已超出此租使用者在 商務用 Skype 的並行命令命令數目上限](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
 
     
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Import-Module執行Windows PowerShell錯誤
@@ -67,7 +67,7 @@ PowerShell 執行策略可協助判斷哪些組組檔案可以載入至 PowerShe
 ## <a name="import-module-error-caused-by-incorrect-version-of-windows-powershell"></a>Import-Module錯誤由不正確的版本Windows PowerShell
 <a name="BKMKIncorrectVersion"> </a>
 
-商務用 Skype線上連接器模組只能在 3.0 Windows PowerShell下執行。 如果您嘗試在先前版本的 PowerShell 下輸入模組，則導入程式將會失敗，出現錯誤訊息，類似這樣：
+商務用 Skype線上連接器模組只能在 3.0 Windows PowerShell下執行。 如果您嘗試在先前版本的 PowerShell 下輸入模組，則導入程式將會失敗，並出現類似以下的錯誤訊息：
   
   - **錯誤***：Import-Module：載入的 PowerShell 版本為 '2.0'。模組 'D：程式檔案一般 \\ 檔案 Microsoft Lync Server \\ \\ 2013 \\ 模組 \\ LyncOnlineConnector \\LyncOnlineConnector.psd1' 需要執行的最低 PowerShell 版本為 '3.0' 。請確認 PowerShell 的安裝，然後再試一次。*
 
@@ -80,7 +80,7 @@ PowerShell 執行策略可協助判斷哪些組組檔案可以載入至 PowerShe
 
   - **錯誤***：Get-CsWebTicket：無法連接即時識別碼伺服器。請確定 Proxy 已啟用，或電腦已與即時識別碼伺服器建立網路連接。*
 
-- **解決** 方式：此錯誤通常表示 Microsoft Online Services 登入小幫手並未運作。 您可以從 PowerShell 提示執行下列命令，以驗證此服務的狀態： 
+- **解決** 方式：此錯誤通常表示 Microsoft Online Services 登入小幫手並未進行。 您可以從 PowerShell 提示執行下列命令，以驗證此服務的狀態： 
     ```PowerShell
     Get-Service "msoidsvc"
     ```
@@ -96,16 +96,16 @@ PowerShell 執行策略可協助判斷哪些組組檔案可以載入至 PowerShe
 ## <a name="failed-to-load-live-id-module"></a>載入 Live ID 模組失敗
 <a name="BKMKFailedLoad"> </a>
 
-使用 PowerShell 管理線上版的先決條件之一商務用 Skype安裝 Microsoft Online 服務登錄小幫手。 如果尚未安裝登錄小幫手，當您嘗試在線上建立遠端會話時，您會收到商務用 Skype訊息：
+使用 PowerShell 管理線上版的先決條件之一商務用 Skype安裝 Microsoft Online 服務登錄小幫手。 如果未安裝登錄小幫手，當您嘗試使用線上帳戶建立遠端會話時，商務用 Skype訊息：
 
 - **錯誤***：Get-CsWebTicket：無法載入 Live Id 模組。確認已安裝正確版本的 Live Id 登錄小幫手。*
 
-- **解決** 方式：Microsoft Online Services 登入小幫手可在 Microsoft Online Services 的 Microsoft 下載中心Sign-In [IT 專業人員 RTW 小幫手](https://www.microsoft.com/download/details.aspx?id=28177)
+- **解決** 方式：Microsoft Online Services 登入小幫手可在 Microsoft Online Services 的 Microsoft 下載中心Sign-In [IT 專業人員 RTW](https://www.microsoft.com/download/details.aspx?id=28177)小幫手
 
 ## <a name="logon-failed-for-the-user"></a>使用者登入失敗
 <a name="BKMKLogonFailed"> </a>
 
-當您嘗試進行遠端連線至線上商務用 Skype，您必須提供線上使用者帳戶中有效商務用 Skype使用者名稱和密碼。 如果沒有，登入將會失敗，以及類似以下的錯誤訊息：
+當您嘗試進行遠端連線至線上商務用 Skype，您必須提供線上使用者帳戶中有效商務用 Skype使用者名稱和密碼。 如果沒有，登入會失敗，以及類似以下的錯誤訊息：
 
 - **錯誤***：Get-CsWebTicket：登入失敗的使用者'kenmyer@litwareinc.com'。請建立新的 PSCredential 物件，確認您所使用的使用者名稱和密碼正確無誤。*
 
@@ -135,7 +135,7 @@ PowerShell 執行策略可協助判斷哪些組組檔案可以載入至 PowerShe
 
 每個系統管理員最多可同時使用三個遠端連線商務用 Skype Online。 如果您有三個遠端 PowerShell 連接已啟動並執行，任何嘗試進行第四次同時連接都會失敗，並出現下列錯誤訊息：
 
-- **錯誤***：New-PSSession：[admin.vdomain.com] 無法連接到遠端伺服器 admin.vdomain.com 出現下列錯誤訊息：WS-Management服務無法處理要求。已超過此使用者並行命令命令的上限。關閉現有的命令命令或提高此使用者的配額。詳細資訊請參閱 [遠端疑難排解] (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
+- **錯誤***：New-PSSession：[admin.vdomain.com] 無法連接到遠端伺服器 admin.vdomain.com 出現下列錯誤訊息：WS-Management服務無法處理要求。已超過此使用者並行命令命令的上限。關閉現有的 shell 或提高此使用者的配額。詳細資訊請參閱 [遠端疑難排解] (https://docs.microsoft.com/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting?view=powershell-5.1*
 
 - **解決方法**：解決此問題的唯一方法就是關閉一或多個先前的連接。 當您完成線上商務用 Skype時，建議您使用 **Remove-PSSession** Cmdlet 來終止會話。 這可協助避免此問題。
   

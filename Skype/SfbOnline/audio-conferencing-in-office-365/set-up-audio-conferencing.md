@@ -83,7 +83,7 @@ ms.locfileid: "52237639"
  2. 選取 [語音]  >  [電話號碼]。
  3. 選取電話號碼，然後按一下 [指派]。
 
-有關詳細資料，請參閱變更音訊會議橋接器 [上的電話號碼](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
+有關詳細資料，請參閱 [變更音訊會議橋接器上的電話號碼](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
 
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>步驟 5：設定會議橋接器的預設和替代語言
 <a name="__top"> </a>
@@ -133,7 +133,7 @@ ms.locfileid: "52237639"
 
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心：**
 
-1. 請前往舊版 **Microsoft 365系統管理Teams**  >    >  **中心**。
+1. 前往舊版 **Microsoft 365系統管理Teams**  >    >  **中心**。
 2. 選取 **[音訊會議**  >  **使用者**，然後從清單中選取使用者，然後按一下 [**編輯**。 
 
 如需詳細資訊，請參閱[將 Microsoft 指派為音訊會議提供者](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)。
