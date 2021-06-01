@@ -26,7 +26,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52237379"
 ---
-# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="bdd79-103">不同方案的授權選項</span><span class="sxs-lookup"><span data-stu-id="bdd79-103">License options based on your plan</span></span>
+# <a name="license-options-based-on-your-plan"></a><span data-ttu-id="8620a-103">不同方案的授權選項</span><span class="sxs-lookup"><span data-stu-id="8620a-103">License options based on your plan</span></span>
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 

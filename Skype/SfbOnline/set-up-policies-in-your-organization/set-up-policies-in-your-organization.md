@@ -25,15 +25,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52240018"
 ---
-# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="9a76e-102">在組織中設定策略</span><span class="sxs-lookup"><span data-stu-id="9a76e-102">Set up policies in your organization</span></span>
+# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="0f193-102">在組織中設定策略</span><span class="sxs-lookup"><span data-stu-id="0f193-102">Set up policies in your organization</span></span>
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-<span data-ttu-id="9a76e-103">政策可協助判斷商務用 Skype線上的可用功能。</span><span class="sxs-lookup"><span data-stu-id="9a76e-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="9a76e-104">請參閱下列文章以瞭解完整詳細資料。</span><span class="sxs-lookup"><span data-stu-id="9a76e-104">See the following articles for complete details.</span></span>
+<span data-ttu-id="0f193-103">政策可協助判斷商務用 Skype線上版的功能。</span><span class="sxs-lookup"><span data-stu-id="0f193-103">Policies help determine the features of Skype for Business Online that are made available to users.</span></span> <span data-ttu-id="0f193-104">請參閱下列文章以瞭解完整詳細資料。</span><span class="sxs-lookup"><span data-stu-id="0f193-104">See the following articles for complete details.</span></span>
 
-- [<span data-ttu-id="9a76e-105">封鎖點到點檔案傳輸</span><span class="sxs-lookup"><span data-stu-id="9a76e-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
-- [<span data-ttu-id="9a76e-106">建立自訂外部存取原則</span><span class="sxs-lookup"><span data-stu-id="9a76e-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
-- [<span data-ttu-id="9a76e-107">保留附加於會議的大型檔案</span><span class="sxs-lookup"><span data-stu-id="9a76e-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
-- [<span data-ttu-id="9a76e-108">設定組織的會議原則</span><span class="sxs-lookup"><span data-stu-id="9a76e-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
-- [<span data-ttu-id="9a76e-109">設定組織的行動原則</span><span class="sxs-lookup"><span data-stu-id="9a76e-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
-- [<span data-ttu-id="9a76e-110">設定組織的用戶端原則</span><span class="sxs-lookup"><span data-stu-id="9a76e-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)
+- [<span data-ttu-id="0f193-105">封鎖點到點檔案傳輸</span><span class="sxs-lookup"><span data-stu-id="0f193-105">Block point-to-point file transfers</span></span>](block-point-to-point-file-transfers.md)
+- [<span data-ttu-id="0f193-106">建立自訂外部存取原則</span><span class="sxs-lookup"><span data-stu-id="0f193-106">Create custom external access policies</span></span>](create-custom-external-access-policies.md)
+- [<span data-ttu-id="0f193-107">保留附加於會議的大型檔案</span><span class="sxs-lookup"><span data-stu-id="0f193-107">Retaining large files attached to a meeting</span></span>](retaining-large-files-attached-to-a-meeting.md)
+- [<span data-ttu-id="0f193-108">設定組織的會議原則</span><span class="sxs-lookup"><span data-stu-id="0f193-108">Set up conferencing policies for your organization</span></span>](set-up-conferencing-policies-for-your-organization.md)
+- [<span data-ttu-id="0f193-109">設定組織的行動原則</span><span class="sxs-lookup"><span data-stu-id="0f193-109">Set up mobile policies for your organization</span></span>](set-up-mobile-policies-for-your-organization.md)
+- [<span data-ttu-id="0f193-110">設定組織的用戶端原則</span><span class="sxs-lookup"><span data-stu-id="0f193-110">Set up client policies for your organization</span></span>](set-up-client-policies-for-your-organization.md)

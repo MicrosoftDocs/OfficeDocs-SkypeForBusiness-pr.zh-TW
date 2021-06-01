@@ -27,43 +27,43 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52239215"
 ---
-# <a name="turn-on-or-off-mobile-phone-notifications"></a><span data-ttu-id="fffeb-103">開啟或關閉行動電話通知</span><span class="sxs-lookup"><span data-stu-id="fffeb-103">Turn on or off mobile phone notifications</span></span>
+# <a name="turn-on-or-off-mobile-phone-notifications"></a><span data-ttu-id="123a2-103">開啟或關閉行動電話通知</span><span class="sxs-lookup"><span data-stu-id="123a2-103">Turn on or off mobile phone notifications</span></span>
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> <span data-ttu-id="fffeb-104">系統Microsoft Teams系統管理中心已取代 商務用 Skype 系統管理中心 (舊版) 。</span><span class="sxs-lookup"><span data-stu-id="fffeb-104">The Microsoft Teams admin center has replaced the Skype for Business admin center (Legacy portal).</span></span> <span data-ttu-id="fffeb-105">系統管理中心商務用 Skype所有管理Teams設定。</span><span class="sxs-lookup"><span data-stu-id="fffeb-105">All settings for managing Skype for Business are now in the Teams admin center.</span></span> <span data-ttu-id="fffeb-106">若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。</span><span class="sxs-lookup"><span data-stu-id="fffeb-106">To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).</span></span>
+> <span data-ttu-id="123a2-104">系統Microsoft Teams系統管理中心已取代 商務用 Skype 系統管理中心 (舊版) 。</span><span class="sxs-lookup"><span data-stu-id="123a2-104">The Microsoft Teams admin center has replaced the Skype for Business admin center (Legacy portal).</span></span> <span data-ttu-id="123a2-105">系統管理中心商務用 Skype所有管理Teams設定。</span><span class="sxs-lookup"><span data-stu-id="123a2-105">All settings for managing Skype for Business are now in the Teams admin center.</span></span> <span data-ttu-id="123a2-106">若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。</span><span class="sxs-lookup"><span data-stu-id="123a2-106">To learn more, see [Manage Skype for Business settings in the Microsoft Teams admin center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).</span></span>
 
-<span data-ttu-id="fffeb-107">在 **[貴](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 組織的 Microsoft 365 Apps 商務版 中指派系統管理員角色時，您可以選擇您的 商務用 Skype 使用者在行動電話或平板電腦上時，是否收到有關傳入和未接立即訊息的提醒。</span><span class="sxs-lookup"><span data-stu-id="fffeb-107">As the **[Assign admin roles in Microsoft 365 Apps for business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** for your organization, you can choose whether your Skype for Business users receive alerts about incoming and missed instant messages when they are on their mobile phones or tablets.</span></span>
+<span data-ttu-id="123a2-107">在 **[貴](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 組織的 Microsoft 365 Apps 商務版 中指派系統管理員角色時，您可以選擇您的 商務用 Skype 使用者在行動電話或平板電腦上時，是否收到有關傳入和未接立即訊息的提醒。</span><span class="sxs-lookup"><span data-stu-id="123a2-107">As the **[Assign admin roles in Microsoft 365 Apps for business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** for your organization, you can choose whether your Skype for Business users receive alerts about incoming and missed instant messages when they are on their mobile phones or tablets.</span></span>
   
-<span data-ttu-id="fffeb-108">在 Android 和 Windows 手機上，商務用 Skype即時顯示通知。</span><span class="sxs-lookup"><span data-stu-id="fffeb-108">On Android and Windows Phones, Skype for Business notifications pop up in real time.</span></span> <span data-ttu-id="fffeb-109">不過Windows Phone、iPhone和 iPad裝置，當您不在手機或平板電腦中主動使用 商務用 Skype 時，會使用推入通知來顯示通知。</span><span class="sxs-lookup"><span data-stu-id="fffeb-109">For Windows Phone, iPhone, and iPad devices, however, push notification is used to show the alerts whenever you're not actively using Skype for Business on your phone or tablet.</span></span>
+<span data-ttu-id="123a2-108">在 Android 和 Windows 手機上，商務用 Skype即時顯示通知。</span><span class="sxs-lookup"><span data-stu-id="123a2-108">On Android and Windows Phones, Skype for Business notifications pop up in real time.</span></span> <span data-ttu-id="123a2-109">不過Windows Phone、iPhone和 iPad裝置，當您不在手機或平板電腦中主動使用 商務用 Skype 時，會使用推入通知來顯示通知。</span><span class="sxs-lookup"><span data-stu-id="123a2-109">For Windows Phone, iPhone, and iPad devices, however, push notification is used to show the alerts whenever you're not actively using Skype for Business on your phone or tablet.</span></span>
   
-## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a><span data-ttu-id="fffeb-110">關閉組織中所有 Windows Phone Apple 裝置推入通知</span><span class="sxs-lookup"><span data-stu-id="fffeb-110">Turn push notifications off for all the Windows Phone or Apple devices in your organization</span></span>
-<span data-ttu-id="fffeb-111"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="fffeb-111"><a name="__top"> </a></span></span>
+## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a><span data-ttu-id="123a2-110">關閉組織中所有Windows Phone Apple 裝置推入通知</span><span class="sxs-lookup"><span data-stu-id="123a2-110">Turn push notifications off for all the Windows Phone or Apple devices in your organization</span></span>
+<span data-ttu-id="123a2-111"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="123a2-111"><a name="__top"> </a></span></span>
 
-<span data-ttu-id="fffeb-112">![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**</span><span class="sxs-lookup"><span data-stu-id="fffeb-112">![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
+<span data-ttu-id="123a2-112">![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**</span><span class="sxs-lookup"><span data-stu-id="123a2-112">![An icon showing the Skype for Business logo](../images/sfb-logo-30x30.png) **Using the Skype for Business admin center**</span></span>
 
-1. <span data-ttu-id="fffeb-113">請Microsoft 365。</span><span class="sxs-lookup"><span data-stu-id="fffeb-113">Sign in to Microsoft 365.</span></span>
+1. <span data-ttu-id="123a2-113">請Microsoft 365。</span><span class="sxs-lookup"><span data-stu-id="123a2-113">Sign in to Microsoft 365.</span></span>
     
-2. <span data-ttu-id="fffeb-114">請前往系統管理中心 **>商務用 Skype。**</span><span class="sxs-lookup"><span data-stu-id="fffeb-114">Go to admin center > **Skype for Business**.</span></span>
+2. <span data-ttu-id="123a2-114">請前往系統管理中心 **>商務用 Skype。**</span><span class="sxs-lookup"><span data-stu-id="123a2-114">Go to admin center > **Skype for Business**.</span></span>
     
-3. <span data-ttu-id="fffeb-115">前往 **組織**  >  **一般**。</span><span class="sxs-lookup"><span data-stu-id="fffeb-115">Go to **Organization** > **General**.</span></span> 
+3. <span data-ttu-id="123a2-115">前往 **組織**  >  **一般**。</span><span class="sxs-lookup"><span data-stu-id="123a2-115">Go to **Organization** > **General**.</span></span> 
     
-4. <span data-ttu-id="fffeb-116">在 **[行動電話通知」** 下，清除要停用的通知服務旁的方塊，然後按一下 [ **儲存**。</span><span class="sxs-lookup"><span data-stu-id="fffeb-116">Under **Mobile phone notifications**, clear the box next to the notification service you want to disable, and then click **Save**.</span></span>
+4. <span data-ttu-id="123a2-116">在 **[行動電話通知」** 下，清除要停用的通知服務旁的方塊，然後按一下 [ **儲存**。</span><span class="sxs-lookup"><span data-stu-id="123a2-116">Under **Mobile phone notifications**, clear the box next to the notification service you want to disable, and then click **Save**.</span></span>
     
-<span data-ttu-id="fffeb-117">請記住：</span><span class="sxs-lookup"><span data-stu-id="fffeb-117">Keep in mind:</span></span> 
+<span data-ttu-id="123a2-117">請記住：</span><span class="sxs-lookup"><span data-stu-id="123a2-117">Keep in mind:</span></span> 
   
-- <span data-ttu-id="fffeb-118">如果您關閉推入通知，當使用者在行動裝置上再次啟動商務用 Skype仍然會收到所有通知。</span><span class="sxs-lookup"><span data-stu-id="fffeb-118">If you turn off push notifications, users still receive all alerts when they start up Skype for Business again on their mobile device.</span></span>
+- <span data-ttu-id="123a2-118">如果您關閉推入通知，當使用者在行動裝置上再次啟動商務用 Skype仍然會收到所有通知。</span><span class="sxs-lookup"><span data-stu-id="123a2-118">If you turn off push notifications, users still receive all alerts when they start up Skype for Business again on their mobile device.</span></span>
     
-- <span data-ttu-id="fffeb-119">推入通知預設為開啟。</span><span class="sxs-lookup"><span data-stu-id="fffeb-119">Push notifications are turned on by default.</span></span> <span data-ttu-id="fffeb-120">個別使用者可以在行動裝置上選擇適當的商務用 Skype選項來關閉它們。</span><span class="sxs-lookup"><span data-stu-id="fffeb-120">Individual users can turn them off by choosing the appropriate Skype for Business option on their mobile device.</span></span>
+- <span data-ttu-id="123a2-119">推入通知預設為開啟。</span><span class="sxs-lookup"><span data-stu-id="123a2-119">Push notifications are turned on by default.</span></span> <span data-ttu-id="123a2-120">個別使用者可以在行動裝置上選擇適當的商務用 Skype選項來關閉它們。</span><span class="sxs-lookup"><span data-stu-id="123a2-120">Individual users can turn them off by choosing the appropriate Skype for Business option on their mobile device.</span></span>
     
-- <span data-ttu-id="fffeb-121">當您關閉推入通知時，使用者無法重新開啟。</span><span class="sxs-lookup"><span data-stu-id="fffeb-121">When you turn off push notifications, users can't turn them back on.</span></span>
+- <span data-ttu-id="123a2-121">當您關閉推入通知時，使用者無法重新開啟。</span><span class="sxs-lookup"><span data-stu-id="123a2-121">When you turn off push notifications, users can't turn them back on.</span></span>
     
 > [!IMPORTANT]
->  <span data-ttu-id="fffeb-122">Microsoft 會使用其他公司為商務用 Skype使用者提供即時Windows Phone、iPhone iPad通知。</span><span class="sxs-lookup"><span data-stu-id="fffeb-122">Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users.</span></span> <span data-ttu-id="fffeb-123">請參閱[Microsoft 商務用 Skype 隱私權聲明](https://go.microsoft.com/fwlink/p/?linkid=247732)。</span><span class="sxs-lookup"><span data-stu-id="fffeb-123">See the [Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732).</span></span> 
+>  <span data-ttu-id="123a2-122">Microsoft 會使用其他公司為商務用 Skype、Windows Phone、iPhone使用者提供即時iPad通知。</span><span class="sxs-lookup"><span data-stu-id="123a2-122">Microsoft uses other companies to provide real-time Skype for Business mobile notifications for Windows Phone, iPhone, and iPad users.</span></span> <span data-ttu-id="123a2-123">請參閱[Microsoft 商務用 Skype 隱私權聲明](https://go.microsoft.com/fwlink/p/?linkid=247732)。</span><span class="sxs-lookup"><span data-stu-id="123a2-123">See the [Privacy Statement for Microsoft Skype for Business Products](https://go.microsoft.com/fwlink/p/?linkid=247732).</span></span> 
   
-## <a name="related-topics"></a><span data-ttu-id="fffeb-124">相關主題</span><span class="sxs-lookup"><span data-stu-id="fffeb-124">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="123a2-124">相關主題</span><span class="sxs-lookup"><span data-stu-id="123a2-124">Related topics</span></span>
 
-[<span data-ttu-id="fffeb-125">設定商務用 Skype Online</span><span class="sxs-lookup"><span data-stu-id="fffeb-125">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+[<span data-ttu-id="123a2-125">設定商務用 Skype Online</span><span class="sxs-lookup"><span data-stu-id="123a2-125">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
   

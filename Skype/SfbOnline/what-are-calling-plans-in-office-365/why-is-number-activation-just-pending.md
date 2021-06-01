@@ -29,87 +29,87 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 05/06/2021
 ms.locfileid: "52237909"
 ---
-# <a name="why-is-number-activation-just-pending"></a><span data-ttu-id="2af50-104">為什麼號碼啟用只是擱置中？</span><span class="sxs-lookup"><span data-stu-id="2af50-104">Why is number activation just pending?</span></span>
+# <a name="why-is-number-activation-just-pending"></a><span data-ttu-id="f06c7-104">為什麼號碼啟用只是擱置中？</span><span class="sxs-lookup"><span data-stu-id="f06c7-104">Why is number activation just pending?</span></span>
 
-<span data-ttu-id="2af50-105">[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?</span><span class="sxs-lookup"><span data-stu-id="2af50-105">[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?</span></span>
+<span data-ttu-id="f06c7-105">[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?</span><span class="sxs-lookup"><span data-stu-id="f06c7-105">[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?</span></span>
 
-<span data-ttu-id="2af50-106">位址驗證是設定通話方案的重要一部分。</span><span class="sxs-lookup"><span data-stu-id="2af50-106">Address validation is an important part of setting up Calling Plans.</span></span> <span data-ttu-id="2af50-107">如果因為某種原因，電話號碼未啟用，且因為位址驗證而列為擱置中，您必須建立並提交服務要求。</span><span class="sxs-lookup"><span data-stu-id="2af50-107">If for some reason a phone number isn't activated and is listed as **pending** because of address validation, you will need to create and submit a service request.</span></span> <span data-ttu-id="2af50-108">您執行此工作是以貴組織的大小為基礎。</span><span class="sxs-lookup"><span data-stu-id="2af50-108">How you do this is based on the size of your organization.</span></span>
+<span data-ttu-id="f06c7-106">位址驗證是設定通話方案的重要一部分。</span><span class="sxs-lookup"><span data-stu-id="f06c7-106">Address validation is an important part of setting up Calling Plans.</span></span> <span data-ttu-id="f06c7-107">如果因為某種原因，電話號碼未啟用，且因為位址驗證而列為擱置中，您必須建立並提交服務要求。</span><span class="sxs-lookup"><span data-stu-id="f06c7-107">If for some reason a phone number isn't activated and is listed as **pending** because of address validation, you will need to create and submit a service request.</span></span> <span data-ttu-id="f06c7-108">如何執行此工作，取決於貴組織的大小。</span><span class="sxs-lookup"><span data-stu-id="f06c7-108">How you do this is based on the size of your organization.</span></span>
   
-## <a name="for-organizations-150-or-less-follow-these-steps"></a><span data-ttu-id="2af50-109">針對組織 150 或以下組織，請遵循下列步驟</span><span class="sxs-lookup"><span data-stu-id="2af50-109">For organizations 150 or less follow these steps</span></span>
-1. <span data-ttu-id="2af50-110">在系統管理中心中，選擇需要 **協助** 嗎？</span><span class="sxs-lookup"><span data-stu-id="2af50-110">In the admin center, choose **Need help**?</span></span>
-2. <span data-ttu-id="2af50-111">在 " **需要協助嗎？"** 窗格中，告訴我們您需要哪些協助，然後選擇取得 **協助**。</span><span class="sxs-lookup"><span data-stu-id="2af50-111">In the **Need help?** pane, tell us what you need help with, then choose **Get help**.</span></span>
-3. <span data-ttu-id="2af50-112">如果 View **解決方案** 區段的結果沒有説明，請選擇下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="2af50-112">If the results in the **View solutions** section don't help, choose one of the following:</span></span>
-    - <span data-ttu-id="2af50-113">**讓我們打電話給您 (建議**) ：確認您的聯絡人號碼，然後按 **Call me。**</span><span class="sxs-lookup"><span data-stu-id="2af50-113">**Let us call you (Recommended)**: Confirm your contact number, then press **Call me**.</span></span> <span data-ttu-id="2af50-114">回電的預期等候時間會以需要說明 **？** 窗格表示。</span><span class="sxs-lookup"><span data-stu-id="2af50-114">The expected wait time for a call back is indicated in the **Need help?** pane.</span></span>
-    - <span data-ttu-id="2af50-115">**傳送電子郵件給我們**：確認您的電子郵件地址， **然後選擇傳送**。</span><span class="sxs-lookup"><span data-stu-id="2af50-115">**Email us**: Confirm your email address, then choose **Send**.</span></span> <span data-ttu-id="2af50-116">通話回應時間會以需要說明 **？** 窗格表示。</span><span class="sxs-lookup"><span data-stu-id="2af50-116">The call response time is indicated in the **Need help?** pane.</span></span>
+## <a name="for-organizations-150-or-less-follow-these-steps"></a><span data-ttu-id="f06c7-109">針對組織 150 或以下組織，請遵循下列步驟</span><span class="sxs-lookup"><span data-stu-id="f06c7-109">For organizations 150 or less follow these steps</span></span>
+1. <span data-ttu-id="f06c7-110">在系統管理中心中，選擇需要 **協助** 嗎？</span><span class="sxs-lookup"><span data-stu-id="f06c7-110">In the admin center, choose **Need help**?</span></span>
+2. <span data-ttu-id="f06c7-111">在 " **需要協助嗎？"** 窗格中，告訴我們您需要哪些協助，然後選擇取得 **協助**。</span><span class="sxs-lookup"><span data-stu-id="f06c7-111">In the **Need help?** pane, tell us what you need help with, then choose **Get help**.</span></span>
+3. <span data-ttu-id="f06c7-112">如果 View **解決方案** 區段的結果沒有説明，請選擇下列其中一項：</span><span class="sxs-lookup"><span data-stu-id="f06c7-112">If the results in the **View solutions** section don't help, choose one of the following:</span></span>
+    - <span data-ttu-id="f06c7-113">**讓我們打電話給您 (建議**) ：確認您的聯絡人號碼，然後按 **Call me。**</span><span class="sxs-lookup"><span data-stu-id="f06c7-113">**Let us call you (Recommended)**: Confirm your contact number, then press **Call me**.</span></span> <span data-ttu-id="f06c7-114">回電的預期等候時間會以需要說明 **？** 窗格表示。</span><span class="sxs-lookup"><span data-stu-id="f06c7-114">The expected wait time for a call back is indicated in the **Need help?** pane.</span></span>
+    - <span data-ttu-id="f06c7-115">**傳送電子郵件給我們**：確認您的電子郵件地址， **然後選擇傳送**。</span><span class="sxs-lookup"><span data-stu-id="f06c7-115">**Email us**: Confirm your email address, then choose **Send**.</span></span> <span data-ttu-id="f06c7-116">通話回應時間會以需要說明 **？** 窗格表示。</span><span class="sxs-lookup"><span data-stu-id="f06c7-116">The call response time is indicated in the **Need help?** pane.</span></span>
  
-## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a><span data-ttu-id="2af50-117">針對使用者超過 150 的組織，建立服務要求以驗證緊急位址</span><span class="sxs-lookup"><span data-stu-id="2af50-117">For organizations with more than 150 users, create a service request to validate an emergency address</span></span>
+## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a><span data-ttu-id="f06c7-117">針對使用者超過 150 的組織，建立服務要求以驗證緊急位址</span><span class="sxs-lookup"><span data-stu-id="f06c7-117">For organizations with more than 150 users, create a service request to validate an emergency address</span></span>
 
-1. <span data-ttu-id="2af50-118">以系統管理員的登錄Microsoft 365或Office 365公司或學校帳戶進行登錄。</span><span class="sxs-lookup"><span data-stu-id="2af50-118">Sign in as an administrator to Microsoft 365 or Office 365 with your work or school account.</span></span>
+1. <span data-ttu-id="f06c7-118">以系統管理員的登錄Microsoft 365或Office 365公司或學校帳戶進行登錄。</span><span class="sxs-lookup"><span data-stu-id="f06c7-118">Sign in as an administrator to Microsoft 365 or Office 365 with your work or school account.</span></span>
     
-2. <span data-ttu-id="2af50-119">在系統管理中心左側的流覽中，按一下 [**支援**  >  **新服務要求**。</span><span class="sxs-lookup"><span data-stu-id="2af50-119">In the admin center, in the left navigation, click **Support** > **New service request**.</span></span>
+2. <span data-ttu-id="f06c7-119">在系統管理中心左側的流覽中，按一下 [**支援**  >  **新服務要求**。</span><span class="sxs-lookup"><span data-stu-id="f06c7-119">In the admin center, in the left navigation, click **Support** > **New service request**.</span></span>
     
-3. <span data-ttu-id="2af50-120">在 **[服務要求>** 下，按一下 [ **新增**。</span><span class="sxs-lookup"><span data-stu-id="2af50-120">Under **Service requests**, click **Add**.</span></span>
+3. <span data-ttu-id="f06c7-120">在 **[服務要求」** 下，按一下 [ **新增**。</span><span class="sxs-lookup"><span data-stu-id="f06c7-120">Under **Service requests**, click **Add**.</span></span>
     
-4. <span data-ttu-id="2af50-121">在 [ **建立服務要求>** 頁面上，按一下 [ **線上共同合作>**。</span><span class="sxs-lookup"><span data-stu-id="2af50-121">On the **Create a service request** page, click **Online collaboration**.</span></span>
+4. <span data-ttu-id="f06c7-121">在 [ **建立服務要求」** 頁面上，按一下 [ **線上共同合作>**。</span><span class="sxs-lookup"><span data-stu-id="f06c7-121">On the **Create a service request** page, click **Online collaboration**.</span></span>
     
-5. <span data-ttu-id="2af50-122">在識別 **問題頁面上** ，選取並輸入下列專案：</span><span class="sxs-lookup"><span data-stu-id="2af50-122">On the **Identify the issue** page, select and enter in the following:</span></span>
+5. <span data-ttu-id="f06c7-122">在識別 **問題頁面上** ，選取並輸入下列專案：</span><span class="sxs-lookup"><span data-stu-id="f06c7-122">On the **Identify the issue** page, select and enter in the following:</span></span>
     
-   - <span data-ttu-id="2af50-123">**功能：** 選取 **國內通話方案** 及/或 **國內及國際方案**。</span><span class="sxs-lookup"><span data-stu-id="2af50-123">**Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.</span></span>
+   - <span data-ttu-id="f06c7-123">**功能：** 選取 **國內通話方案** 及/或 **國內及國際方案**。</span><span class="sxs-lookup"><span data-stu-id="f06c7-123">**Feature:** Select **Domestic Calling Plan** and/or **Domestic and International Plan**.</span></span>
     
-   - <span data-ttu-id="2af50-124">**症狀：** 輸入 **緊急電話**。</span><span class="sxs-lookup"><span data-stu-id="2af50-124">**Symptom:** Enter **Emergency Calling**.</span></span>
+   - <span data-ttu-id="f06c7-124">**症狀：** 輸入 **緊急電話**。</span><span class="sxs-lookup"><span data-stu-id="f06c7-124">**Symptom:** Enter **Emergency Calling**.</span></span>
     
-   - <span data-ttu-id="2af50-125">**問題摘要：** 輸入 **位址驗證**。</span><span class="sxs-lookup"><span data-stu-id="2af50-125">**Issue summary:** Enter **Address validation**.</span></span>
+   - <span data-ttu-id="f06c7-125">**問題摘要：** 輸入 **位址驗證**。</span><span class="sxs-lookup"><span data-stu-id="f06c7-125">**Issue summary:** Enter **Address validation**.</span></span>
     
-   - <span data-ttu-id="2af50-126">**問題詳細資料：** 輸入您想要驗證之 (位址) ，例如：</span><span class="sxs-lookup"><span data-stu-id="2af50-126">**Issue details:** Enter any details about the address(s) you want to validate such as the:</span></span>
+   - <span data-ttu-id="f06c7-126">**問題詳細資料：** 輸入您想要驗證之 (位址) ，例如：</span><span class="sxs-lookup"><span data-stu-id="f06c7-126">**Issue details:** Enter any details about the address(s) you want to validate such as the:</span></span>
     
-      - <span data-ttu-id="2af50-127">街道號碼</span><span class="sxs-lookup"><span data-stu-id="2af50-127">Street number</span></span>
+      - <span data-ttu-id="f06c7-127">街道號碼</span><span class="sxs-lookup"><span data-stu-id="f06c7-127">Street number</span></span>
     
-      - <span data-ttu-id="2af50-128">街道名稱</span><span class="sxs-lookup"><span data-stu-id="2af50-128">Street name</span></span>
+      - <span data-ttu-id="f06c7-128">街道名稱</span><span class="sxs-lookup"><span data-stu-id="f06c7-128">Street name</span></span>
     
-      - <span data-ttu-id="2af50-129">鄉鎮或城市</span><span class="sxs-lookup"><span data-stu-id="2af50-129">Town or city</span></span>
+      - <span data-ttu-id="f06c7-129">鄉鎮或城市</span><span class="sxs-lookup"><span data-stu-id="f06c7-129">Town or city</span></span>
     
-      - <span data-ttu-id="2af50-130">國家或地區</span><span class="sxs-lookup"><span data-stu-id="2af50-130">Country or region</span></span>
+      - <span data-ttu-id="f06c7-130">國家或地區</span><span class="sxs-lookup"><span data-stu-id="f06c7-130">Country or region</span></span>
     
      > [!IMPORTANT]
-     > <span data-ttu-id="2af50-131">**在您指派電話號碼時，將我們提供通話方案的國家/地區置於您嘗試驗證緊急位址的國家/地區。**</span><span class="sxs-lookup"><span data-stu-id="2af50-131">**Put the country/region where we offer Calling Plans that you are trying to validate an emergency address in when you are assigning phone number.**</span></span>
+     > <span data-ttu-id="f06c7-131">**將我們提供通話方案的國家/地區放在您指派電話號碼時嘗試驗證緊急位址的國家/地區。**</span><span class="sxs-lookup"><span data-stu-id="f06c7-131">**Put the country/region where we offer Calling Plans that you are trying to validate an emergency address in when you are assigning phone number.**</span></span>
   
-      - <span data-ttu-id="2af50-132">郵遞區號</span><span class="sxs-lookup"><span data-stu-id="2af50-132">Postal or zip code</span></span>
+      - <span data-ttu-id="f06c7-132">郵遞區號</span><span class="sxs-lookup"><span data-stu-id="f06c7-132">Postal or zip code</span></span>
     
-6. <span data-ttu-id="2af50-133">按一下 **[下** 一頁>，按一下 **[是，繼續** 繼續>。</span><span class="sxs-lookup"><span data-stu-id="2af50-133">Click **Next** page, click **Yes, continue** to continue.</span></span>
+6. <span data-ttu-id="f06c7-133">按一下 **[下** 一頁>，按一下 **[是，繼續** 繼續>。</span><span class="sxs-lookup"><span data-stu-id="f06c7-133">Click **Next** page, click **Yes, continue** to continue.</span></span>
     
-7. <span data-ttu-id="2af50-134">在新增 **詳細資料** 頁面上，選取並輸入下列專案：</span><span class="sxs-lookup"><span data-stu-id="2af50-134">On the **Add details** page, select and enter the following:</span></span>
+7. <span data-ttu-id="f06c7-134">在新增 **詳細資料** 頁面上，選取並輸入下列專案：</span><span class="sxs-lookup"><span data-stu-id="f06c7-134">On the **Add details** page, select and enter the following:</span></span>
     
-   - <span data-ttu-id="2af50-135">**您的服務是否無法使用？**</span><span class="sxs-lookup"><span data-stu-id="2af50-135">**Is your service unavailable?**</span></span> <span data-ttu-id="2af50-136">選取 **否**。</span><span class="sxs-lookup"><span data-stu-id="2af50-136">Select **No**.</span></span>
+   - <span data-ttu-id="f06c7-135">**您的服務是否無法使用？**</span><span class="sxs-lookup"><span data-stu-id="f06c7-135">**Is your service unavailable?**</span></span> <span data-ttu-id="f06c7-136">選取 **否**。</span><span class="sxs-lookup"><span data-stu-id="f06c7-136">Select **No**.</span></span>
     
-   - <span data-ttu-id="2af50-137">**受影響的使用者數？**</span><span class="sxs-lookup"><span data-stu-id="2af50-137">**How many users are affected?**</span></span> <span data-ttu-id="2af50-138">選取 **部分使用者**。</span><span class="sxs-lookup"><span data-stu-id="2af50-138">Select **Some users**.</span></span>
+   - <span data-ttu-id="f06c7-137">**受影響的使用者數？**</span><span class="sxs-lookup"><span data-stu-id="f06c7-137">**How many users are affected?**</span></span> <span data-ttu-id="f06c7-138">選取 **部分使用者**。</span><span class="sxs-lookup"><span data-stu-id="f06c7-138">Select **Some users**.</span></span>
     
-   - <span data-ttu-id="2af50-139">**輸入受此問題影響之某人的電子郵件地址** ，或保留空白。</span><span class="sxs-lookup"><span data-stu-id="2af50-139">**Enter an email address of someone affected by this issue** or leave blank.</span></span>
+   - <span data-ttu-id="f06c7-139">**輸入受此問題影響之某人的電子郵件地址** ，或保留空白。</span><span class="sxs-lookup"><span data-stu-id="f06c7-139">**Enter an email address of someone affected by this issue** or leave blank.</span></span>
     
-   - <span data-ttu-id="2af50-140">**選取 () 清單的網域**</span><span class="sxs-lookup"><span data-stu-id="2af50-140">**Select Domain(s) you want to list**</span></span>
+   - <span data-ttu-id="f06c7-140">**選取 () 清單的網域**</span><span class="sxs-lookup"><span data-stu-id="f06c7-140">**Select Domain(s) you want to list**</span></span>
     
-   - <span data-ttu-id="2af50-141">**如果您有多個** 位址需要驗證，請附加檔案。</span><span class="sxs-lookup"><span data-stu-id="2af50-141">**Attach a file** if you have multiple addresses you need validated.</span></span>
+   - <span data-ttu-id="f06c7-141">**如果您有多個** 位址需要驗證，請附加檔案。</span><span class="sxs-lookup"><span data-stu-id="f06c7-141">**Attach a file** if you have multiple addresses you need validated.</span></span>
     
-   - <span data-ttu-id="2af50-142">按一下 **[下一步**。</span><span class="sxs-lookup"><span data-stu-id="2af50-142">Click **Next**.</span></span>
+   - <span data-ttu-id="f06c7-142">按一下 **[下一步**。</span><span class="sxs-lookup"><span data-stu-id="f06c7-142">Click **Next**.</span></span>
     
-   - <span data-ttu-id="2af50-143">輸入您的連絡人電話號碼。</span><span class="sxs-lookup"><span data-stu-id="2af50-143">Enter your contact phone number.</span></span>
+   - <span data-ttu-id="f06c7-143">輸入您的連絡人電話號碼。</span><span class="sxs-lookup"><span data-stu-id="f06c7-143">Enter your contact phone number.</span></span>
     
-8. <span data-ttu-id="2af50-144">請閱閱資訊，然後按一下 [ **提交要求**> 。</span><span class="sxs-lookup"><span data-stu-id="2af50-144">Review the information, and then click **Submit request**.</span></span>
+8. <span data-ttu-id="f06c7-144">請閱閱資訊，然後按一下 [ **提交要求**> 。</span><span class="sxs-lookup"><span data-stu-id="f06c7-144">Review the information, and then click **Submit request**.</span></span>
     
 > [!TIP]
-> <span data-ttu-id="2af50-145">參考號碼會列在系統管理中心的服務 **要求Microsoft 365頁面上**。</span><span class="sxs-lookup"><span data-stu-id="2af50-145">The reference number will be listed on the **Service requests** page in the Microsoft 365 admin center.</span></span>
+> <span data-ttu-id="f06c7-145">參考號碼會列在系統管理中心的服務 **要求Microsoft 365頁面上**。</span><span class="sxs-lookup"><span data-stu-id="f06c7-145">The reference number will be listed on the **Service requests** page in the Microsoft 365 admin center.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="2af50-146">如果您需要取得更多電話號碼，請聯絡商務產品支援人員 [- 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="2af50-146">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="f06c7-146">如果您需要取得更多電話號碼，請聯絡商務產品支援人員 [- 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span><span class="sxs-lookup"><span data-stu-id="f06c7-146">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
 
   
-## <a name="related-topics"></a><span data-ttu-id="2af50-147">相關主題</span><span class="sxs-lookup"><span data-stu-id="2af50-147">Related topics</span></span>
-[<span data-ttu-id="2af50-148">移轉電話號碼的常見問題</span><span class="sxs-lookup"><span data-stu-id="2af50-148">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="f06c7-147">相關主題</span><span class="sxs-lookup"><span data-stu-id="f06c7-147">Related topics</span></span>
+[<span data-ttu-id="f06c7-148">移轉電話號碼的常見問題</span><span class="sxs-lookup"><span data-stu-id="f06c7-148">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="2af50-149">用於通話方案的各種電話號碼</span><span class="sxs-lookup"><span data-stu-id="2af50-149">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="f06c7-149">用於通話方案的各種電話號碼</span><span class="sxs-lookup"><span data-stu-id="f06c7-149">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="2af50-150">緊急通話條款及條件</span><span class="sxs-lookup"><span data-stu-id="2af50-150">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="f06c7-150">緊急通話條款及條件</span><span class="sxs-lookup"><span data-stu-id="f06c7-150">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="2af50-151">[商務用 Skype線上：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="2af50-151">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="f06c7-151">[商務用 Skype線上：緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="f06c7-151">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
   
  
