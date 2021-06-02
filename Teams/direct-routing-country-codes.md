@@ -1,5 +1,5 @@
 ---
-title: 直接路由國碼
+title: 直接路由國家/地區代碼
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 請閱讀本文，找出直接路由的媒體路徑國家/地區代碼，以便選取最佳的媒體路徑。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56cdc48b33e048776a43a37864930fc153c47aac
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 330d178c7bfa969020ffc8c26b1e05283c182ae8
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648122"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717994"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>直接路由媒體路徑國家/地區代碼
 
@@ -34,10 +34,10 @@ ms.locfileid: "51648122"
 
 Set-CSOnlinePSTNGateway -身分識別 sbc1.contoso.com –MediaRelayRoutingLocationOverride DE 
 
-請注意，只有當通話記錄清楚指出媒體路徑資料中心的預設指派不使用最接近 SBC 資料中心的路徑時，Microsoft 才建議設定此參數。 
+請注意，只有在通話記錄清楚指出媒體路徑資料中心的預設指派不使用最接近 SBC 資料中心的路徑時，Microsoft 才建議設定此參數。 
 
 > [!NOTE]
-> -MediaRelayRoutingLocationOverride - 此命令不適用於直接路由案例。
+> MediaRelayRoutingLocationOverride 參數是保留用於受管理的電信公司。
  
 ## <a name="country-code-reference-table"></a>國碼參照資料表
 
@@ -115,7 +115,7 @@ Set-CSOnlinePSTNGateway -身分識別 sbc1.contoso.com –MediaRelayRoutingLocat
 | 薩爾瓦多     | Sv |
 | 赤道幾內亞 | Gq |
 | 厄利垂亞         | 二 |
-| 愛沙尼亞         | Ee |
+| 愛沙尼亞         | EE |
 | Eswatini        | 深圳 |
 | 衣索比亞        | Et |
 | 福克蘭群島 | Fk |
@@ -182,7 +182,7 @@ Set-CSOnlinePSTNGateway -身分識別 sbc1.contoso.com –MediaRelayRoutingLocat
 | 馬拉威          | M w |
 | 馬來西亞        | 我 |
 | 馬爾地夫        | Mv |
-| 馬利            | 毫升 |
+| 馬利            | ML |
 | 馬爾他           | MT |
 | 馬紹爾群島 | MH |
 | 馬丁尼克      | Mq |
@@ -233,7 +233,7 @@ Set-CSOnlinePSTNGateway -身分識別 sbc1.contoso.com –MediaRelayRoutingLocat
 | 俄羅斯          | 如 |
 | 盧安達          | 烏爾曼 |
 | 薩巴            | Xs |
-| 聖巴塞萊米 | BL |
+| 聖巴塞萊梅 | BL |
 | 聖克里斯多福及尼維斯 | KN |
 | 聖露西亞     | 立法會 |
 | 聖馬德堡    | Mf |
@@ -263,7 +263,7 @@ Set-CSOnlinePSTNGateway -身分識別 sbc1.contoso.com –MediaRelayRoutingLocat
 | 蘇丹           | Sd |
 | 蘇利南        | 鍶 |
 | 斯瓦爾巴特        | Sj |
-| 瑞典          | 硒 |
+| 瑞典          | SE |
 | 瑞士     | CH |
 | 敘利亞           | Sy |
 | 台灣          | TW |
@@ -293,8 +293,7 @@ Set-CSOnlinePSTNGateway -身分識別 sbc1.contoso.com –MediaRelayRoutingLocat
 | 梵蒂岡城    | Va |
 | 委內瑞拉       | VE |
 | 越南         | VN |
-| 瓦利斯和福圖納 | WF |
+| 瓦利斯和富圖納 | WF |
 | 葉門           | 你們 |
 | 尚比亞          | Zm |
 | 辛巴威        | ZW |
-

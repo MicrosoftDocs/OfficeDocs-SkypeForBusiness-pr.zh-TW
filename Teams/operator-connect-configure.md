@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e82c862810448552bb9d2dc2d721815b5db43f55
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: bb6ceacb6e7a2cc4d458c86edda96511e5230ace
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689890"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717854"
 ---
 # <a name="configure-operator-connect"></a>設定運算子連線
 
@@ -49,7 +49,7 @@ ms.locfileid: "52689890"
 
 4. **接受資料傳輸通知。**
 
-5. **新增運算子。** 選取 **新增為我的運算子** 以儲存。
+5. **新增運算子。** 選取 **新增為運算子** 以儲存。
 
 ## <a name="set-up-phone-numbers"></a>設定電話號碼
 
@@ -68,15 +68,15 @@ ms.locfileid: "52689890"
 
 若要取得新使用者Teams號碼，請遵循下列步驟：
 
-1. **指派授權電話系統授權。** 您可以指派授權電話系統系統管理中心或使用 PowerShell Microsoft 365使用者。 詳細資訊，請參閱指派[Teams附加元件授權給使用者](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+1. **指派授權電話系統授權。** 您可以指派授權電話系統系統管理中心或 PowerShell Microsoft 365使用者。 詳細資訊，請參閱指派[Teams附加元件授權給使用者](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
-2. **請確定您目前使用 TeamsOnly 模式。** 若要檢查，請在 Teams 系統管理中心，前往整個 **組織設定以> Teams升級**。 共存模式應設為僅Teams模式。
+2. **請確定您目前使用 TeamsOnly 模式。** 若要檢查，請在 Teams系統管理中心，前往整個組織設定 **以> Teams升級**。 共存模式應設為只Teams模式。
 
 3. **建立及驗證緊急位址。** 在 Teams系統管理中心，前往緊急>**位置以** 設定緊急位址。 若要深入瞭解，請參閱 [新增、變更或移除貴組織的緊急位置](add-change-remove-emergency-location-organization.md)。
 
-4. **取得數位。** 請前往您的接線員網站訂購及取得電話號碼。 有關運算子網站的清單 [，請參閱運算子](#operators)。 您必須提供租使用者識別碼。 如果您不知道您的租使用者識別碼，請參閱尋找您的Microsoft 365[租使用者識別碼](/onedrive/find-your-office-365-tenant-id)以瞭解更多資訊。
+4. **取得數位。** 請前往您的接線員網站訂購及取得電話號碼。 有關運算子網站的清單 [，請參閱運算子](#operators)。 您必須提供租使用者識別碼。 如果您不知道您的租使用者識別碼，請參閱尋找Microsoft 365[租使用者識別碼](/onedrive/find-your-office-365-tenant-id)以瞭解更多資訊。
 
-5. **指派數位。** 您的運算子完成訂單後，就會將測試編號上傳至您的租使用者。 您可以在系統管理中心查看號碼Teams提供者，> 電話 **號碼**。 使用系統管理中心或 powerShell Teams指派號碼給使用者。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
+5. **指派數位。** 您的運算子完成訂單後，就會將號碼上傳至您的租使用者。 您可以在系統管理中心查看號碼Teams提供者，> 電話 **號碼**。 使用系統管理中心或 powerShell Teams指派號碼給使用者。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
  
 
 ### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>將號碼從通話方案移至運算子連線
@@ -85,7 +85,7 @@ ms.locfileid: "52689890"
 
 2. 您的接線員完成移移訂單之後，您可以取消為使用者的通話方案電話號碼進行分配，並移除通話方案授權。 然後，您的運算子可以將數位上傳到您的租使用者。
 
-3. 使用 連線系統管理中心或 PowerShell 將運算子Teams號碼指派給使用者。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
+3. 使用 連線系統管理中心或 PowerShell 將運算子指派給使用者Teams運算子。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
 
  
 ### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>將數位從直接路由移至運算子連線
@@ -106,9 +106,9 @@ ms.locfileid: "52689890"
 
 2. 移除任何與使用者相關聯的 PSTNUsage，否則通話會路由至 PSTN 使用量中指定的閘道。 若要瞭解如何移除 PSTN 使用量，請參閱 [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps)。
 
-3. 請前往您的接線員網站訂購及取得電話號碼。 有關運算子網站的清單 [，請參閱運算子](#operators)。 您必須提供租使用者識別碼。 如果您不知道您的租使用者識別碼，請參閱尋找您的Microsoft 365[租使用者識別碼](/onedrive/find-your-office-365-tenant-id)以瞭解更多資訊。
+3. 請前往您的接線員網站訂購及取得電話號碼。 有關運算子網站的清單 [，請參閱運算子](#operators)。 您必須提供租使用者識別碼。 如果您不知道您的租使用者識別碼，請參閱尋找Microsoft 365[租使用者識別碼](/onedrive/find-your-office-365-tenant-id)以瞭解更多資訊。
 
-4. 您的運算子完成訂單後，就會將測試編號上傳至您的租使用者。 您可以在系統管理中心查看號碼Teams提供者，> 電話 **號碼**。 使用 連線系統管理中心或 PowerShell 將運算子Teams號碼指派給使用者。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
+4. 您的運算子完成訂單後，就會將號碼上傳至您的租使用者。 您可以在系統管理中心查看號碼Teams提供者，> 電話 **號碼**。 使用 連線系統管理中心或 PowerShell 將運算子指派給使用者Teams運算子。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
 
    
 
@@ -136,7 +136,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 
 ## <a name="manage-your-operators"></a>管理運算子
 
-在 "我的運算子" 選項卡中，您可以查看運算子及其狀態，並變更下列選取專案：  
+在 "我的運算子" 選項卡中，您可以查看您的運算子及其狀態，並變更您的選取範圍：  
 
 - 根據國家/地區管理運算子服務
 - 暫停運算子

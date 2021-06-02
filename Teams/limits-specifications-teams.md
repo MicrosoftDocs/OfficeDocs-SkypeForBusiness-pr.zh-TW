@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b714da86c51072eb7efae846dbeb29b205674751
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 3f15b2ad9fce413602ed531067ed7e2b280ed122
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628882"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717724"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -118,17 +118,6 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的訊�
 
 ## <a name="meetings-and-calls"></a>會議和通話
 
-> [!IMPORTANT]
-> **Microsoft 365 的即時活動限制增加**
->
-> **為能持續支援我們客戶的需求，直到 2021 年 6 月 30 日，我們將延長即時活動的暫時性限制增加**：
->
->- 活動支援最多達 20000 個出席者
->- 不同租用戶可以同時進行 50 個活動
->- 每個廣播的活動持續時間 (16 小時)
->
-> 此外，可透過 Microsoft 365 輔助計畫來規劃最多 100,000 位出席者參與的即時活動。小組會評估每個要求，並與您一起判斷可用的選項。[深入了解](https://aka.ms/Stream/Blog/LiveEventOptions)。
-
 |功能     | 最大限制 |
 |------------|---------------|
 |一場會議中的人數 (可以交談和通話)  | 1000 位，包含 GCC 但尚不適用 GCCH、DoD 或 A1 (300)。 **僅檢視** 會允許高達 20,000 名僅限聆聽參與者加入會議，其中的召集人擁有 E3/E5/A3/A5 SKU 以及政府用 (GCC、GCC High、DoD) 的授權。 深入了解[僅檢視體驗](view-only-meeting-experience.md)。|
@@ -139,7 +128,7 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的訊�
 ### <a name="meeting-expiration"></a>會議到期
 
 > [!NOTE]
-> 會議 URL 絕不會停止運作。到期只會與任何 PSTN 撥入號碼和/或基礎會議原則及設定相關。
+> 會議 URL 絕不會停止運作。到期只會與任何 PSTN 撥入號碼、CVI 座標和/或基礎會議原則及設定相關。
 
 |會議類型  |會議將在這些時間後到期  |每次您開始或更新會議，到期時間會延長這麼多時間  |
 |---------|---------|---------|
@@ -216,10 +205,10 @@ Microsoft Teams 教育版提供專為獨特教育案例 (例如教室教學) 所
 |功能  |最大限制  |
 |---------|---------|
 |一個小組中的成員數目    | 請參閱本文的 [Teams 和頻道](#teams-and-channels)一節        |
-|課程小組中要使用作業的成員數目    | 200        |
-|課程小組中要使用 OneNote 課程筆記本的成員數目     |200         |
+|課程小組中要使用作業的成員數目    | 300        |
+|課程小組中要使用 OneNote 課程筆記本的成員數目     |300         |
 
-課程小組可支援超過 200 個成員。不過，如果您計劃在您的小組內使用「作業」應用程式或「課程筆記本」應用程式，則您必須將成員數目保持在以上的上限之下。
+課程小組可支援超過 300 個成員。不過，如果您計劃在您的小組內使用「作業」應用程式或「課程筆記本」應用程式，則您必須將成員數目保持在以上的上限之下。
 
 ## <a name="tags"></a>標籤
 

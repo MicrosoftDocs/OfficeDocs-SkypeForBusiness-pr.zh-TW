@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 瞭解如何管理網路研討會Teams會議。
-ms.openlocfilehash: bc1460f93259a9dd3095cf764c38b56ab703bba0
-ms.sourcegitcommit: 592e5a0638c7739dfaa3565b67d4edc621eebc9f
+ms.openlocfilehash: aafa7b57eea1228fa5565bb4d5e95304b42751a3
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "52656046"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718044"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>在 Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "52656046"
 - WhoCanRegister
 - AllowPrivateMeetingScheduling
 
-請參閱 [Set-CsTeamsMeetingPolicy，](/powershell/module/skype/set-csteamsmeetingpolicy) 以進一瞭解更多關於 Cmdlet 的資訊。
+請參閱 [Set-CsTeamsMeetingPolicy，](/powershell/module/skype/set-csteamsmeetingpolicy) 以在 Cmdlet 上獲得詳細資訊。
 
 > [!NOTE]
 > 執行這些 Cmdlet 之前，您必須連線至 商務用 Skype PowerShell。 詳細資訊，請參閱使用[powerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)或 商務用 Skype 管理 Microsoft 365 Office 365 Online 。
@@ -54,19 +54,19 @@ ms.locfileid: "52656046"
 若要允許貴組織的使用者排程網路研討會，請執行：
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowMeetingRegistration True
+Set-CsTeamsMeetingPolicy -AllowMeetingRegistration $True
 ```
 ### <a name="configure-who-can-register-for-webinars"></a>設定誰可以註冊網路研討會
 
 您可以只將註冊限制為貴組織的使用者，或將註冊開放給租使用者內外的每個人。 根據預設 **，WhoCanRegister** 會啟用並設定為 **所有人**。 如果您想要關閉會議註冊，請設定 **AllowMeetingRegistration** 為 **False**。
 
 > [!IMPORTANT]
-> 請記住 **，AllowPrivateMeetingScheduling** 必須設為 **True，AllowMeetingRegistration** 可以工作。  此外，Microsoft 清單必須設定在 SharePoint。 若要深入瞭解，請參閱控制 [Microsoft 清單的設定](/sharepoint/control-lists)。
+> 請記住 **，AllowPrivateMeetingScheduling** 必須設為 **True，AllowMeetingRegistration** 可以工作。  此外，Microsoft 清單必須設定在 SharePoint。 若要深入瞭解，請參閱 Microsoft [清單的控制項設定](/sharepoint/control-lists)。
 
 **若要只允許 *貴* 組織的使用者註冊網路研討會，請執行：**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 接著，執行：
@@ -78,7 +78,7 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister EveryoneInCompany
 **若要允許任何人 ，包括匿名使用者，註冊網路研討會，請執行：**
 
 ```powershell
-Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling True
+Set-CsTeamsMeetingPolicy -AllowPrivateMeetingScheduling $True
 ```
 
 接著，執行：

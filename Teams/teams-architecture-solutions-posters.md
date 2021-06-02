@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: 摘要：了解使用 Microsoft Teams 領導，Microsoft 365 中生產力服務的邏輯架構。同時了解 Teams 的語音解決方案。
-ms.openlocfilehash: b124a32cc2b0285f364d1211ea8d23eb2d6e64c2
-ms.sourcegitcommit: 5a738cbb96f09edd8c3779f9385bc9ed126e3001
+ms.openlocfilehash: 75f1a4a2be0cc2669537a6f7afd031468d246a1a
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "52212156"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717964"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Microsoft Teams IT 結構與語音解決方案海報
 
@@ -32,7 +32,6 @@ Teams 是 Microsoft 365 生產力服務的邏輯架構核心，其中包含資�
 這系列的圖例可為企業架構設計人員提供生產力服務邏輯架構使用 Teams 引導的檢視。
 
 [![Teams 邏輯架構海報的縮圖影像](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-teams-logical-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf)  <br/>[PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-teams-logical-architecture.vsdx)
-
 
 ## <a name="groups-in-microsoft-365"></a>Microsoft 365 中的群組
 
