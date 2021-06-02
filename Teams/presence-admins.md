@@ -17,20 +17,22 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7eaa2b35cdb01ce9bc59e69883ce1ac6ca20322
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 82d9f152dbba345f876ac166bcf6833e53bab799
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768412"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52718034"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中使用者的目前狀態
 
 顯示狀態是使用者在 Microsoft Teams (以及整個 Microsoft 365 或 Office 365) 的一部分。 [目前狀態] 表示使用者目前的可用性與其他使用者的狀態。 依預設，貴組織中任何有使用 Teams 的人都可以 (幾乎即時) 查看其他使用者是否在線上。 當您重新整理行動裝置上的頁面時，線上和傳統版會即時更新 [目前狀態]。
 
- > [!Note]
+ > [!NOTE]
  > 如需有關不同平台上 Teams 使用者設定檔的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
+ > [!NOTE]
+ > Teams 會尊重您的隱私權設定，因此如果您已啟用隱私權模式，外部使用者將不會看到您的目前狀態。
 ## <a name="presence-states-in-teams"></a>Teams 中的目前狀態
 
 |使用者設定|應用程式設定|
@@ -43,16 +45,17 @@ ms.locfileid: "51768412"
 || ![紅色空心圓圈，表示忙碌](media/Presence_Busy_OOF.png) 通話中，外出|
 |  ![紅色圓圈加白線，表示請勿打擾](media/Presence_DND.png) 請勿打擾 ||
 || ![紅色圓圈加白線，表示簡報中](media/Presence_DND.png) 簡報中|
-|| ![紅色圓圈加白線，表示專注](media/Presence_DND.png) 專注。 當使用者在行事曆中排程 [MyAnalytics/Insights] 時，就會進入 [專注] 功能。|
+|| ![紅色圓圈加白線，表示專注](media/Presence_DND.png) 專注。當使用者在行事曆中排程 [MyAnalytics/Insights] 時，就會進入 [專注] 功能。|
 | ![黃色時鐘圖示，表示離開](media/Presence_Away.png) 離開| ![黃色時鐘圖示，表示離開](media/Presence_Away.png) 離開|
 || ![黃色時鐘圖示，表示離開](media/Presence_Away.png)上次看到的 *時間*|
 |![黃色時鐘圖示，表示離開，馬上回來](media/Presence_Away.png) 馬上回來| |
-|![灰色圓圈帶 x，表示離線](media/Presence_Offline.png) 顯示為離線|![灰色圓圈帶 x，表示離線](media/Presence_Offline.png) 離線。  當使用者未在任何裝置上登入達數分鐘，便會顯示為 [離線]。 | |
+|![灰色圓圈帶 x，表示離線](media/Presence_Offline.png) 顯示為離線|![灰色圓圈帶 x，表示離線](media/Presence_Offline.png) 離線。當使用者未在任何裝置上登入達數分鐘，便會顯示為 [離線]。 | |
 || ![空心灰色圓圈，表示狀態不明](media/Presence_Unknown.png) 狀態不明|
-|| ![紫色圓圈加箭號，表示外出](media/Presence_OOF.png) 外出。 設定為自動回復時，會使用 [外出] 功能。 (只可供 Outlook 使用) |
+|| ![紫色圓圈加箭號，表示外出](media/Presence_OOF.png) 外出。設定為自動回覆時，會使用 [外出] 功能。 |
 |||
- > [!Note]
- > 對於內部託管信箱的使用者，其目前狀態會延遲，最多為一小時。
+ > [!NOTE]
+ > 對於擁有其信箱託管於內部部署的使用者，預期目前狀態延遲為一小時 (最大值)。
+
 應用程式設定的目前狀態是根據使用者活動 (有空、離開)、Outlook 行事曆狀態 (會議中)、或是 Teams 應用程式狀態 (通話中、簡報中)。 當您在行事曆中使用 [焦點模式] 時，人員會在 Teams 上看到顯示為 **[專注中]** 的狀態。 在其他產品中，焦點模式會顯示為 **請勿打擾**。
 
 當您鎖定電腦或當您的電腦進入閒置或睡眠模式時，您目前的顯示狀態會變更為 [離開]。 在行動裝置上，只要 Teams 應用程式在背景作業時，您的顯示狀態即會變更為 [離開]。

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a58b878443943b2dbd8322dc710bf59d3827e9
-ms.sourcegitcommit: 6227667c9941cc3289029099b7b6781581f16ea7
+ms.openlocfilehash: baea63a8ed51d2e47fa24b7602573b1dda342e93
+ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52569231"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "52717984"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 適用的行動裝置必要診斷資料
 
@@ -109,10 +109,6 @@ ms.locfileid: "52569231"
   - 設定中的號碼。
 - **blockChat** - 封鎖聊天機器人。 這會加強聊天中現有的遙測，且只會增加應用程式資訊。
 - **botClickCardAction** - 連接器卡使用情況。
-- **brbFeedback** - 與 BRB 回函表單的效能相關聯。
-- **brbFormCancelled** - 當 BRB 回函表單取消且使用者返回應用程式時，會傳送事件。
-- **brbFormOpened** - BRB 表單開啟時，傳送的事件。
-- **brbFormSubmit** - 當使用者選取 [意見反應] 表單上的 **[提交]** 時，傳送的事件。
 - **breakStartEndClicked** - 在螢幕上的時鐘中，已選取 **[開始]** 或 **[結束休息]** 按鈕。
 - **breakStartEndTriggered** - 註冊使用者選擇使用「開始」或「結束」。
 - **bucketSelected** - 確認已成功選取貯體。
@@ -1187,6 +1183,8 @@ ms.locfileid: "52569231"
 - **語音信箱- 不做為已指派** - 演講者點選語音信箱專案。
 - **whiteboardUsed** - 使用者在白板上解釋 (網頁視圖上的任何動作)。
 - **wiki - 不做為已指派** - Wiki 使用情況遙測。
+- **poorNetworkBanner** - 顯示網路連線不佳的橫幅。
+- **badNetworkBanner** - 顯示網路品質差的橫幅。
 
 ### <a name="panelview"></a>PanelView
 
@@ -1224,6 +1222,11 @@ ms.locfileid: "52569231"
 > [!NOTE]
 > 如需 PanelAction 事件屬性的詳細資訊，請參閱[隨著案例事件傳送的屬性](#properties-sent-with-scenario-events)。
 
+- **app_incremental_sync_launch** 確認已成功更新冷啟動的計數。
+- **app_incremental_sync_resume** 確認已成功更新暖/熱啟動的計數。
+- **app_start_cold** 監視應用程式冷啟動 (僅適用於 Android)。
+- **app_start_hot** 監視應用程式熱啟動 (僅適用於 Android)。
+- **app_start_warm** 監視應用程式暖啟動 (僅適用於 Android)。
 - **chat_add_giphy** - 確認 Giphy GIF 呈現動作成功或失敗。
 - **cortanaError** 監視 Cortana 錯誤發生。
 - **cortanaView** - 監視 Cortana 畫布顯示。
@@ -1278,6 +1281,18 @@ ms.locfileid: "52569231"
 - **upload_images** 確認影像上傳動作成功或失敗。
 - **upload_voice_messages** 確認語音訊息上傳動作成功或失敗。
 - **voiceMessageUpload** 確認語音訊息上傳動作成功或失敗。
+- **cancel_channel_meeting** 確認頻道會議的取消作業成功或失敗。
+- **cancel_meeting** 確認會議的取消作業成功或失敗。
+- **cancel_private_meeting** 確認私人會議的取消作業成功或失敗。
+- **edit_channel_meeting** 確認頻道會議的編輯作業成功或失敗。
+- **edit_meeting** 確認會議的編輯作業成功或失敗。
+- **server_fetch_agenda_view** 確認使用中介層 API 進行行事曆活動的同步處理成功或失敗。
+- **server_fetch_date_picker_view** 確認使用 Outlook REST API 進行行事曆活動的同步處理成功或失敗。
+- **server_fetch_agenda_view_group** 確認 TFL 群組使用中介層 API 進行行事曆活動的同步處理成功或失敗。
+- **server_fetch_date_picker_view_incremental** 確認使用 Outlook REST API 進行行事曆活動的增量同步處理成功或失敗。
+- **meeting_details** 確認會議詳細資料同步處理成功或失敗。
+- **show_meeting_participants** 確認顯示會議參與者清單成功或失敗。
+
 
 ## <a name="property-lists"></a>屬性清單
 
