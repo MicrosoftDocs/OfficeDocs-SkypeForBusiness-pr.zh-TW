@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95272545080559b94faeff42d715b8f57c4d0242
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 8a16f6cbb3d6ade57a81bb245c42c5ea0917f849
+ms.sourcegitcommit: 19b9904588fcc14398e65b4153ab9fe7f5dd6a5d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699354"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52729785"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>購買、設定及啟用適用于Microsoft Teams
 
-職稱教練是Microsoft Teams教育用應用程式，由 LinkedIn提供個人化指引，讓高教學生流覽其事業歷程。 Career Coach 為教育機構提供統一的生涯解決方案，讓學生探索其事業路徑、培養實際技能，以及將網路全部建在一個地方。
+職稱教練是Microsoft Teams教育用應用程式，由 LinkedIn 提供個人化指引，讓高教學生流覽其事業歷程。 Career Coach 為教育機構提供一個統一的生涯解決方案，讓學生探索其事業路徑、培養實際技能，以及將他們的網路全部建在一個地方。
 
 深入瞭解職業 [教練](https://aka.ms/career-coach)。
 
@@ -34,7 +34,7 @@ ms.locfileid: "52699354"
 
 ## <a name="review-the-requirements"></a>審查需求
 
-若要為教育機構啟用 Career Coach，請審查您需要哪些專案才能讓應用程式啟動並運作。
+若要為教育機構啟用 Career Coach，請審查讓應用程式啟動及運作所需的內容。
 
 **技術需求**
 
@@ -65,7 +65,7 @@ ms.locfileid: "52699354"
 
 ## <a name="purchase-the-career-coach-licenses"></a>購買職業教練授權
 
-除了中國 (俄羅斯) 之外，透過註冊教育解決方案 (EES) 、雲端服務提供者 (雲端服務提供者) ，以及 Microsoft 365 系統管理中心 (web) 提供全球專業教練。 做為Microsoft Teams應用程式，客戶必須Microsoft 365 A3/A5 或 Office 365 A1/A3/A5。
+透過註冊教育解決方案 (EES) 、雲端服務提供者 (雲端解決方案) ，以及 Microsoft 365 系統管理中心 (web) ，除了中國與俄羅斯) 之外，全球範圍都提供專業教練。 ( 做為Microsoft Teams應用程式，客戶必須擁有Microsoft 365 A3/A5 或 Office 365 A1/A3/A5。
 
 ### <a name="assign-app-licenses-to-users"></a>指派應用程式授權給使用者
 
@@ -73,7 +73,7 @@ ms.locfileid: "52699354"
 
 ### <a name="turn-on-linkedin-account-connections"></a>開啟LinkedIn帳戶連結
 
-職稱 **教練** 要求教育機構的使用者能夠將他們的 Microsoft 365 帳戶連接到LinkedIn教練內協助使用的帳戶
+職稱 **教練** 要求教育機構的使用者能夠將其帳戶Microsoft 365到他們在LinkedIn教練中協助使用的帳戶
 
 1. 使用 Azure [AD](https://aad.portal.azure.com/) 組織的全域系統管理員帳戶來登錄 Azure AD 系統管理中心。
 
@@ -81,36 +81,36 @@ ms.locfileid: "52699354"
 
 3. 在使用者 **頁面上** ，選取 使用者 **設定**。
 
-4. 在 **LinkedIn帳戶** 連結下，允許使用者連接其帳戶，以在某些 Microsoft app LinkedIn存取他們的帳戶連結。 使用者同意連接其帳戶之前，不會共用任何資料。
+4. 在 **LinkedIn帳戶** 連結下，允許使用者連接其帳戶，以存取LinkedIn Microsoft App 中的帳戶連結。 使用者同意連接其帳戶之前，不會共用任何資料。
 
    - 選取 **是** ，為教育機構的所有使用者啟用服務
 
-   - 選取 **選取的** 群組，只針對教育機構中一群選取的使用者啟用服務
+   - 選取 **選取的** 群組，只為教育機構中一群選取的使用者啟用服務
 
    - 選取 **No** 以撤銷教育機構中所有使用者的同意
 
-瞭解如何在 LinkedIn[中整合Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)
+瞭解如何在 LinkedIn[中整合帳戶Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)
 
 ## <a name="configure-career-coach-in-the-teams-admin-center"></a>在系統管理中心設定Teams教練
 
-您可以使用系統管理中心Microsoft Teams設定，為教育機構設定 Career Coach，並讓使用者啟用。
+您可以使用系統管理中心中的Microsoft Teams設定，為教育機構設定 Career Coach，並讓使用者啟用。
 
 ## <a name="access-the-career-coach-app-settings"></a>存取職業教練應用程式設定
 
-使用管理[應用程式頁面](/microsoftteams/manage-apps)，Teams教育機構應用程式目錄中的 App。
+使用管理[應用程式頁面](/microsoftteams/manage-apps)來Teams教育機構應用程式目錄中的 App。
 
 1. 請Teams **系統管理中心**。
 
 2. 在左側流覽中，選取 **Teams**  >  **應用程式管理應用程式**。  
 
     > [!NOTE]
-    > 您必須是全域系統管理員或Teams系統管理員才能存取頁面。
+    > 您必須是全域系統管理員Teams服務系統管理員才能存取頁面。
 
 3. 搜尋或流覽 **職業教練**。  
 
 4. 選取 **生涯教練**，然後選取 **設定。**  
 
-    ![顯示已選取的職設定應用程式，設定選項](media/app-settings.png)
+    ![顯示已選取的職設定應用程式，其中顯示](media/career-coach-app.png)
 
 ### <a name="configure-the-career-coach-app-settings"></a>設定職業教練應用程式設定
 
@@ -127,17 +127,17 @@ ms.locfileid: "52699354"
 - [定制](#customization)
 
 > [!NOTE]
-> 品牌和喜好設定、LinkedIn設定、課程目錄和學習領域是有效啟用適用于學生、教職員和教職員的應用程式所必須的。
+> 品牌和喜好設定LinkedIn設定、課程目錄和學習領域，才能有效啟用適用于學生、教職員和教職員的應用程式。
 
 #### <a name="brand-and-preferences"></a>品牌和喜好設定
 
 在品牌和喜好設定設定頁面上設定教育機構的名稱、標誌和預設語言。
 
-![系統管理中心的生涯教練品牌區段](media/brand-preferences.png)
+![系統管理中心的生涯教練品牌區段](media/career-coach-brand.png)
 
 ##### <a name="educational-institution-icon"></a>教育機構圖示
 
-教育機構圖示會用於整個職業教練，以識別教育機構特有的內容、整個應用程式的課程目錄資源，以及儀表板的實際體驗區段。 圖示的格式最好為：
+教育機構圖示會用於整個 Career Coach，以識別教育機構特有的內容、整個 App 的課程目錄資源，以及儀表板的實際體驗區段。 圖示的格式最好為：
 
  - 透明 PNG
  - 長寬比為 1：1
@@ -153,14 +153,14 @@ ms.locfileid: "52699354"
 
 #### <a name="linkedin-configuration"></a>LinkedIn組
 
-此LinkedIn組會連接來自 LinkedIn 的職教教練與公開LinkedIn。
+此LinkedIn組會連接來自公司之公開LinkedIn。
 
 > [!NOTE]
-> 未經頁面連結驗證，LinkedIn教練。
+> 未經頁面連結驗證，才能啟用LinkedIn教練。
 
 ##### <a name="add-and-confirm-the-linkedin-page"></a>新增並確認LinkedIn頁面
 
-決定教育機構的LinkedIn頁面。 若要尋找LinkedIn頁面，請搜尋LinkedIn或連至職業服務教職員成員，以判斷要使用的正確頁面。  
+決定教育機構的LinkedIn頁面。 在 LinkedIn搜尋或LinkedIn職員工成員，以判斷要使用的正確頁面，以尋找該頁面。  
   
 1. 請Teams **系統管理中心**。
 
@@ -170,9 +170,9 @@ ms.locfileid: "52699354"
 
 3. 選取 **Apply**。
 
-4. 複製驗證 URL，然後與教育機構的頁面系統管理員LinkedIn頁面LinkedIn[共用。](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en) 驗證連結會在 30 天后過期。  
+4. 複製驗證 URL，然後與教育機構的頁面系統管理員LinkedIn頁面LinkedIn[共用。](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admins-overview?lang=en) 驗證連結會在 30 天后到期。  
 
-   ![LinkedIn教練的設定](media/linkedin.png)  
+   ![LinkedIn教練的設定](media/career-coach-linked-in.png)  
 
 #### <a name="course-catalog"></a>課程目錄
 
@@ -180,7 +180,7 @@ ms.locfileid: "52699354"
 
 - 課程會作為學習資源的一部分退回。  
 
-- 課程和課程中繼資料 ，例如描述，可用來協助學生在上傳文字記錄時識別其技能。  
+- 課程和課程中繼資料 ，例如描述，可用來協助學生上傳文字記錄時識別其技能。  
 
 若要建立課程目錄，請彙集教育機構所傳授的所有課程清單，並上傳為 CSV 檔案。 應用程式會從課程目錄繪製，以從學生的成績記錄中找出其技能，並建議要參加的課程。 
 
@@ -221,9 +221,9 @@ ms.locfileid: "52699354"
 
 #### <a name="fields-of-study"></a>學習領域
 
-學習領域與主要興趣領域、學術專業和學位是同義字。 學生開始使用應用程式並開始設定個人化設定檔時，會參照這些標題。
+學習領域與主要興趣領域、學術專業和學位是同義字。 學生開始使用 App 並開始設定個人化設定檔時，會參照這些標題。
 
-新增所有學生可用的學習欄位，例如工程、英文、商務等等。 欄位清單可讓學生探索可能感興趣的學習欄位，並新增其焦點區域至其設定檔。
+新增所有學生可用的學習欄位，例如工程、英文、商務等等。 欄位清單可讓學生探索可能感興趣的學習欄位，並新增其焦點區域至個人檔案。
 
 > [!NOTE]
 > 從研究 [檔的範例欄位](https://aka.ms/career-coach/docs/it-admins/sample-fieldsofstudy) 開始。
@@ -238,13 +238,13 @@ ms.locfileid: "52699354"
 
 #### <a name="customization"></a>定制
 
-您可以自訂您的教育機構唯一的生涯教練。 自訂支援新增體驗至儀表板。 建議您新增工作板、活動、職稱服務辦公室、職稱相關活動、學生俱樂部，以及協助學生取得實際經驗的其他資源的連結。
+您可以自訂您的教育機構唯一的生涯教練。 自訂支援新增體驗至儀表板。 建議您新增工作板、活動、職稱服務辦公室、職稱相關活動、學生俱樂部的連結，以及協助學生取得實際經驗的其他資源。
 
 ##### <a name="add-customized-experiences"></a>新增自訂體驗
 
 1. 請Teams **系統管理中心**。
 
-1. 選取 **Teams App** &gt; **管理應用程式** &gt; **：設定**  >   &gt; **自訂**。
+1. 選取 **Teams App** 管理 &gt; **App** Career Coach &gt;   >  **設定** &gt; **自訂**。
 
 2. 新增每個 URL、標題和簡短描述。  
   
@@ -256,14 +256,14 @@ ms.locfileid: "52699354"
 
 ### <a name="enable-the-app"></a>啟用應用程式
 
-完成組組之後，請為學生和授權使用者啟用應用程式，以便他們存取 Career Coach。  
+完成組組之後，請為學生和授權使用者啟用應用程式，以便他們存取職業教練。  
   
 > [!NOTE]
 > 您必須擁有全域或Teams管理員角色許可權。
 
 1. 請Teams **系統管理中心**。
 
-1. 選取 **Teams** &gt; **應用程式 管理應用程式** &gt; **職業教練**。
+1. 選取 **Teams App** 管理 &gt; **App** Career &gt; **Coach**。
 
 2. 將狀態切換 **開關移至** 允許 。  
 
@@ -273,7 +273,7 @@ ms.locfileid: "52699354"
 ### <a name="add-career-coach-as-an-installed-app"></a>將職業教練新增為已安裝的應用程式
 
 > [!NOTE]
-> 此步驟可確保 1) 為貴組織正確配置 2，) 學生找到職稱教練。
+> 此步驟可確保 1) 為貴組織正確配置 2) 學生找到職稱教練。
 
 1. 請Teams **系統管理中心**。
 
@@ -281,7 +281,7 @@ ms.locfileid: "52699354"
 
 3. 在安裝的應用程式下，選取新增應用程式。
 
-4. 在新增已安裝的應用程式窗格中，搜尋使用者在開始使用應用程式時，Teams。 您也可以根據應用程式權限原則篩選應用程式。 當您選擇您的應用程式清單時，請選取新增。
+4. 在新增已安裝的應用程式窗格中，搜尋使用者啟動應用程式時要自動安裝Teams。 您也可以根據應用程式權限原則篩選應用程式。 當您選擇您的應用程式清單時，請選取新增。
 
 ### <a name="pin-the-app"></a>釘上應用程式
 
