@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: baea63a8ed51d2e47fa24b7602573b1dda342e93
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
+ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717984"
+ms.locfileid: "52723564"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 適用的行動裝置必要診斷資料
 
@@ -344,6 +344,7 @@ ms.locfileid: "52717984"
 - **companionDismissProximity** - 關閉配套橫幅。
 - **companionJoin** - 已在工作表上選取 [以配套選項加入]。
 - **companionJoinProximity** - 透過配套橫幅加入。
+- **completeVaultFRE** - 使用者完成產生用來加密其保管庫資料之主要金鑰的程序。
 - **completionStateChange** - 當在工作清單的篩選條件檢視中選取已完成或未完成的篩選條件切換時，進行觸發。
 - **composeExpandComposer** -  已點選 **[格式]** 按鈕。
 - **composeFilePick** - 本機檔案選擇器已啟動。
@@ -432,6 +433,7 @@ ms.locfileid: "52717984"
 - **deleteMeeting** - 選取 [會議詳細資料] 頁面中的 **[刪除]** 按鈕。
 - **deletePersonaltask** - 確認已成功刪除個人工作。
 - **deletePersonalSubtask** - 確認已成功刪除個人子工作。
+- **deletePersonalVaultItem** - 使用者要求刪除其個人保管庫。
 - **deletePlannerTask** - 確認共用工作刪除作業已順利完成。
 - **deleteShift** - 班次刪除。
 - **duration_picker_dismissed** - 當持續時間選擇器關閉時。
@@ -571,6 +573,8 @@ ms.locfileid: "52717984"
 - **funSelectItem** - Giphy 影像已選取。 Teams 中的 Giphy 附件功能的成功資料。
 - **galleryImage** - 影像上傳 - 圖庫。
 - **get_directions_clicked** -已選取 **[取得方向]** 按鈕。
+- **giphyUserDisabled** - 使用者選擇拒絕 Giphy 條款/條件。
+- **giphyUserEnabled** - 使用者選擇接受 Giphy 條款/條件。
 - **goToNotificationSettings** - 從 **[我們已更新 通知設定]** 對話方塊，移至 [通知設定] 頁面。
 - **GPSPromptClicked** - 已在 OS 提示中選取 **[允許]** 或 **[不允許]**。允許 GPS 或不允許。
 - **group_map_closed** - 使用者會從聊天中開啟地圖檢視。
@@ -617,6 +621,7 @@ ms.locfileid: "52717984"
 - **labelSelected** - 確認已成功選取標籤。
 - **labelUnselected** - 確認已成功取消選取標籤。
 - **launchLinksGallery** -當使用者從儀表板輸入連結資源庫時。
+- **launchSlideshow** - 使用者從三個可能的應用程式功能位置之一啟動投影片全螢幕影像檢視器。 
 - **啟動來源，例如直接、連結、appShortcut** -直接或透過連結啟動 (錄製行動應用程式管理(MAM)，或行動裝置管理(MDM)遙測，以收集作用中使用者的資料)。
 - **leaveChat** -確認離開聊天。
 - **legacyChatLink** -已選取舊版聊天的連結。
@@ -656,7 +661,9 @@ ms.locfileid: "52717984"
 - **location_sharing_stop** -使用者在聊天中停止共用其即時位置。
 - **loginFailed** -使用者無法登入。
 - **loginSuccess** - 使用者可以登入。
+- **logoutVault** - 使用者登出應用程式，然後登出保管庫。 
 - **manageBlockedNumbers** - 透過 [設定] 存取已封鎖的號碼。
+- **manageVaultKey** - 使用者變更其保管庫金鑰管理選項 (MSA 與自我追蹤)。
 - **manualSendMessage** - 已手動傳送郵件。
 - **mapAppPicker** -當使用者在位置卡上點選時，選取要使用的地圖應用程式。
 - **markAsRead** -標示為已讀取。
@@ -708,6 +715,7 @@ ms.locfileid: "52717984"
 - **meetingUserFreemium** -免費增值使用者已加入會議。
 - **meetingUserGuest** -來賓使用者已加入會議。
 - **meetingUserTenant** -租使用者已加入會議。
+- **memeGenerated** - 提供使用者輸入的影像和文字資料後，產生 Meme 的時機。 
 - **messageCopyMessage** - 複製訊息。
 - **messageDelete** - 訊息刪除。
 - **messageEditMessage** - 編輯訊息。
@@ -940,6 +948,7 @@ ms.locfileid: "52717984"
 - **requestToJoinTeam** - 要求加入團隊 (公開或私下)。
 - **requestToJoinTeamError** - 具有加入要求的錯誤。
 - **requestTypeClicked** - 決定人員從要求選擇器中選取的要求類型。
+- **resetLocalVault** - 使用者重設並清除裝置所有的保管庫資料。
 - **resolveIssue** -  已在 [通知疑難排解] 中選取 **[解決]**，以瀏覽至封鎖程式應用程式。
 - **responseClicked** - 使用者選取回覆頁面。
 - **retryButtonClicked** -已選取 **[重試]** 按鈕。
@@ -1003,6 +1012,7 @@ ms.locfileid: "52717984"
 - **設定/解除** - 裝置連絡人設定。
 - **settingsNavReadReceiptNotice** - 使用者從 [功能注意事項] 移至 [設定]。
 - **settingsOpened** - 當使用者的裝置時區不符合團隊時區，且使用者移至 [設定] 時，就會觸發。
+- **setupPinVault** - 使用者為帳戶儲存保管庫 PIN 碼。 
 - **shareFile** - 當選取 **[共用檔案]** 時觸發。 也可協助您檢查：
   - 使用者能夠啟動共用檔案作業。
   - 使用者可以順利地共用檔案。
