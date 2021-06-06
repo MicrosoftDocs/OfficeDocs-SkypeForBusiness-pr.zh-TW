@@ -1,5 +1,5 @@
 ---
-title: 在小型企業教學課程Microsoft Teams通話佇列
+title: 在小型企業教學課程中Microsoft Teams通話佇列
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 瞭解如何在 Microsoft 365 商務語音 中為小型企業設定Microsoft 365 商務語音。
-ms.openlocfilehash: 755c4914271c96cdd668bb2933872ebf1fa21b94
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: be6c53855a6d32f8348f02b18ac3074388dafc88
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52629052"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739669"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>建立通話佇列 - 小型企業教學課程
 
@@ -51,7 +51,7 @@ ms.locfileid: "52629052"
 
 #### <a name="before-you-begin"></a>開始之前
 
-取得一[電話系統 - 如果您](../teams-add-on-licensing/virtual-user.md)還沒有虛擬使用者授權。 針對您打算設定的每一個通話佇列和自動電話機，取得一個。 這些授權是免費的，因此我們建議您額外取得一些授權，以防您決定日後變更您的設定。
+取得一[電話系統 - 如果您](../teams-add-on-licensing/virtual-user.md)還沒有虛擬使用者授權。 針對您打算設定的每個通話佇列和自動話務員取得一個。 這些授權是免費的，因此我們建議您額外取得一些授權，以防您決定日後變更您的設定。
 
 由於通話佇列中的代理人可能會撥出以傳回客戶電話，請考慮將呼叫代理的本機號碼設定為主電話號碼或適當的自動語音機號碼。 請參閱[在 Microsoft Teams](../caller-id-policies.md)管理本機號碼政策以瞭解更多資訊。
 
@@ -61,7 +61,7 @@ ms.locfileid: "52629052"
 
 # <a name="step-1brcreate-a-team"></a>[步驟 1 <br> 建立團隊](#tab/create-team)
 
-建立通話佇列時，您可以新增個別使用者至佇列，或使用現有的安全性群組、Microsoft 365群組，或Microsoft Teams小組。 我們建議您使用 [小組頻道](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 這可讓佇列的成員彼此聊天、分享想法，以及建立檔或其他資源，協助他們協助您的客戶。 團隊也會提供語音信箱，讓來電者在數小時後留言，或佇列達到最大容量時留言。
+建立通話佇列時，您可以新增個別使用者至佇列，或使用現有的安全性群組、Microsoft 365群組，或Microsoft Teams小組。 我們建議您使用 [小組頻道](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 這可讓佇列成員彼此聊天、分享想法，以及建立檔或其他資源，協助他們協助您的客戶。 團隊也會提供語音信箱，讓來電者在數小時後留言，或佇列達到最大容量。
 
 建立團隊
 
@@ -136,9 +136,13 @@ ms.locfileid: "52629052"
 
 2. 按一下 **[新增帳戶**，搜尋要用於此通話佇列的資源帳戶;按一下 [ **新增**，然後按一下 [ **新增**> 。
 
+3.  ([指派) ID 下，按一下 [新增，搜尋您為自動話務員建立的資源帳戶，然後按一下 [新增，然後按一下 [**新增**> 。 這樣一來，通話代理人就會在來電時，提供主線本機號碼。
+
+    ![通話識別碼設定螢幕擷取畫面](../media/call-queue-assign-calling-id.png)
+
 3. 選擇語言。 如果您啟用語音提示，系統產生的語音提示和語音信箱 (會) 。
 
-    ![資源帳戶和語言設定螢幕擷取畫面](../media/call-queue-name-language.png)
+    ![資源帳戶設定螢幕擷取畫面](../media/call-queue-name-language.png)
 
 4. 指定當來電者抵達佇列時，是否要播放問候語。 您必須上傳包含您想要播放的問候語的 MP3、WAV 或 WMA 檔案。
 
@@ -151,7 +155,7 @@ ms.locfileid: "52629052"
 > [!div class="nextstepaction"]
 > [步驟 3 - 呼叫代理人>](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
-# <a name="step-3brcall-agents"></a>[步驟 3 <br> 通話代理人](#tab/call-agents)
+# <a name="step-3brcall-agents"></a>[步驟 3 <br> 通話代理程式](#tab/call-agents)
 
 若要將代理人新增到通話佇列，我們會將它們新加到我們先前建立的團隊和頻道中。
 
@@ -180,9 +184,9 @@ ms.locfileid: "52629052"
 
     - **連續路由** 會一個接一個地撥打所有呼叫代理程式。 如果客服人員關閉或不接電話，來電會撥打下一個代理人，並嘗試所有代理人，直到被接回或打出電話。
 
-    - **輪循** 機制會平衡來電的路由，讓每個通話代理程式從佇列取得相同數量的通話。 在內入銷售環境中，這一點可能相當理想，以確保所有通話代理人之間享有同等的機會。
+    - **輪循** 機制會平衡來電的路由，讓每個通話代理程式從佇列取得相同數量的通話。 在內入銷售環境中，這可能是理想的選擇，以確保所有通話代理人之間享有同等的機會。
 
-    - **最長空閒** 時間會路由每個通話給閒置時間最長的代理人。  (狀態已離開超過 10 分鐘的代理人。) 
+    - **最長空閒** 時間會路由每個通話給閒置時間最長的代理人。  (目前狀態已離開超過 10 分鐘的代理人。) 
 
     ![會議模式和路由方法設定螢幕擷取畫面](../media/call-queue-conference-mode-routing-method.png)
 
@@ -220,7 +224,7 @@ ms.locfileid: "52629052"
 
 1. 設定 **最大等待時間**。
 
-2. 選擇當通話時間過時您想要執行什麼工作。您可以中斷通話或重新導向。 我們建議您將通話重新導向下列其中一個目的地：
+2. 選擇當通話時間過長時要執行什麼工作。您可以中斷通話或重新導向。 我們建議您將通話重新導向下列其中一個目的地：
     - **組織中能夠** 接聽語音通話的人
     - **語音應用程式** - 自動語音留言或其他通話佇列。  (選擇此目的地時，選擇與自動電話機或通話佇列相關聯的資源帳戶。) 
     - **外部電話號碼** - 任何電話號碼。 使用此格式：+[國碼][區碼][電話號碼]

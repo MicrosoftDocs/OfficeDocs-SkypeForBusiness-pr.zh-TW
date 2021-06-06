@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c6f6b3cbb80fb209c519593c28077b03e4a13ed9
-ms.sourcegitcommit: ab566ddab9d26440bac1716a975f30e075d0c7b5
+ms.openlocfilehash: 2ce282df27a30f0741a7b95a5400fd5ba6d4e367
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "49865167"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739543"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的團隊和頻道概覽
 
@@ -39,7 +39,7 @@ ms.locfileid: "49865167"
 - **Teams** 是與組織內不同專案和結果有關的人員、內容和工具的集合。
 
     - Teams 可以建立為只有受邀使用者才可加入的形式。
-    - 小組也可以建立為公開和開啟，組織中的任何人都可以加入 (最多10000個成員) 。
+    - Teams也可以建立為公開和開啟，而且組織中任何人都可以加入 (最多 10，000) 。
     
     設計團隊的目的是聚集一群人，讓他們以密切合作的方式來完成工作。 專案型工作 (例如啟動產品、建立數位戰情室) 的團隊可以是動態且持續性的，以反映組織的內部結構 (例如部門和辦公室位置)。 團隊中的聊天、檔案和記事只會對團隊成員顯示。
 
@@ -54,14 +54,13 @@ ms.locfileid: "49865167"
 
    > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
 
-<a name="membership-roles-and-settings"></a>成員資格、角色和設定
-------------------------------
+## <a name="membership-roles-and-settings"></a>成員資格、角色和設定
 
 **團隊成員資格**
 
-為您的整個組織啟用 Microsoft Teams 時，指定的團隊擁有者可以邀請與他們共同作業的任何員工加入其團隊。 Microsoft Teams 可讓團隊擁有者根據姓名輕鬆地在組織中新增人員。 視組織的設定而定，您也可以將屬於團隊成員但位在組織外部的來賓新增至您的團隊。 如需詳細資訊，請參閱 [Microsoft Teams 中的來賓存取](guest-access.md)。 
+為您的整個組織啟用 Microsoft Teams 時，指定的團隊擁有者可以邀請與他們共同作業的任何員工加入其團隊。 Microsoft Teams 可讓團隊擁有者根據姓名輕鬆地在組織中新增人員。 視貴組織的設定，組織外部人員可以新增到團隊做為來賓。 如需詳細資訊，請參閱 [Microsoft Teams 中的來賓存取](guest-access.md)。 
 
-小組擁有者也可以根據現有的 Microsoft 365 群組建立小組。 對群組所做的任何變更都會自動與 Microsoft Teams 同步。 根據現有的 Microsoft 365 群組建立小組，不僅可簡化邀請與管理成員的程式，還能同步處理 Microsoft 團隊內的群組檔案。
+團隊擁有者也可以根據現有的團隊群組建立Microsoft 365團隊。 對群組所做的任何變更都會自動與 Microsoft Teams 同步。 根據現有的群組建立Microsoft 365不僅簡化了邀請及管理成員的過程，還能同步處理群組Microsoft Teams。
 
 **團隊角色**
 
@@ -72,6 +71,9 @@ Microsoft Teams 中的主要角色如下：
 
 此外，如果已設定仲裁功能，則團隊擁有者和成員都可以有頻道的仲裁者功能。 仲裁者可在頻道中開始新的文章，並控制團隊成員是否可以回覆現有的頻道訊息。 團隊擁有者可以在頻道內指派仲裁者。 (頻道擁有者會預設為具有仲裁者功能。) 頻道內的仲裁者可以新增或移除該頻道中的其他仲裁者。 如需詳細資訊，請參閱[在 Microsoft Teams 中設定和管理頻道仲裁](manage-channel-moderation-in-teams.md)。
 
+> [!NOTE]
+> 當您新增團隊擁有者時，他們也會新增為成員，除非團隊是在 Teams 系統管理中心建立，或是團隊新加入或現有的Microsoft 365群組。
+
 **團隊設定** 
 
 團隊擁有者可以直接在 Microsoft Teams 中管理整個團隊內的設定。 設定包括新增團隊圖片、設定團隊成員的權限以建立標準和 [私人頻道](private-channels.md)、新增索引標籤和連接器、以 @ 提及整個團隊或頻道，以及使用 Gif、貼紙和 Meme。
@@ -80,14 +82,13 @@ Microsoft Teams 中的主要角色如下：
 
    > [!VIDEO https://www.youtube.com/embed/kalV4dG-oFo]
 
-如果您是 Microsoft 365 或 Office 365 中的 Microsoft 團隊管理員，您可以在 Microsoft 團隊系統管理中心中存取全系統的設定。 這些設定可以影響團隊擁有者可在其團隊設定底下看到的選項和預設值。 例如，您可以啟用預設的「一般」頻道，在整個團隊中發佈公告、進行討論和提供資源，這些都會顯示在所有團隊中。
+如果您是系統Microsoft Teams系統管理員Microsoft 365 Office 365，您可以在系統管理中心存取Microsoft Teams設定。 這些設定可以影響團隊擁有者可在其團隊設定底下看到的選項和預設值。 例如，您可以啟用預設的「一般」頻道，在整個團隊中發佈公告、進行討論和提供資源，這些都會顯示在所有團隊中。
 
-根據預設，所有使用者都有權在 Microsoft Teams 內建立團隊 (若要修改此設定，請參閱[在 Teams 中指派角色和權限](assign-roles-permissions.md))。 現有 Microsoft 365 群組的使用者也可以利用團隊功能加強其許可權。
+根據預設，所有使用者都有權在 Microsoft Teams 內建立團隊 (若要修改此設定，請參閱[在 Teams 中指派角色和權限](assign-roles-permissions.md))。 現有群組Microsoft 365使用者也可以使用 Teams功能來增強其許可權。
 
 為了讓使用者與 Microsoft Teams 接觸而建立早期規劃活動的其中一個重點是，這可協助使用者思考並了解 Teams 可如何加強他們日常生活中的共同作業。 藉由與其他人交談，協助他們選取目前以零碎方式進行共同作業的商務案例。 透過相關索引標籤將他們聚集在頻道中，以協助他們完成工作。 Teams 最強的使用案例之一就是任何跨組織的程序。 
 
-<a name="example-teams"></a>團隊範例
---------------
+## <a name="example-teams"></a>團隊範例
 
 以下幾個實用案例可說明不同類型的使用者可如何設定其團隊、頻道和應用程式 (索引標籤/連接器/Bot)。 這可能有助於您與您的使用者社群開始一個有關 Microsoft Teams 的交談。 當您思考如何在您組織中實作 Microsoft Teams 時，請記住，您可以提供如何建構團隊的指導方針，不過，使用者可以自行控制管理方式。 這些只是協助團隊開始思考可能性的範例。
 

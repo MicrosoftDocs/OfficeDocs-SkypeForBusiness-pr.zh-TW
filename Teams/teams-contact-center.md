@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式聯絡人中心服務概觀 (CCaaS) 解決方案Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 84c012950065cb261a0fc451aa77c498e9ba7d78
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 002f5d6a0fa2f00b2bfb2d4e69eae6c75b58f570
+ms.sourcegitcommit: f5b6a0fe055e42e06eee21ce311813b5127474ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717784"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52741062"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>連絡人中心整合Microsoft Teams
 
@@ -26,11 +26,11 @@ ms.locfileid: "52717784"
 
 ## <a name="what-is-a-contact-center-integration-for-microsoft-teams"></a>什麼是連絡人中心整合功能Microsoft Teams？
 
-現今的聯絡中心提供的支援遠非支援，它們可成為客戶與品牌互動和未篩選之意見的其中一個主要工具。 由於現今客戶偏好跨電話、電子郵件、文字、社交等多種頻道互動，以及與現今購買程式相關的觸控點數量擴大，許多組織已發現兩個額外的事實：
+現今的聯絡中心提供的支援遠非支援，它們可成為客戶與品牌互動和未篩選之意見的其中一個主要工具。 由於現今客戶偏好跨電話、電子郵件、文字、社交等多種頻道互動，以及與目前購買程式相關的觸控點數量擴大，許多組織已發現兩個額外的事實：
 
 1. 組織的每一個成員都有可能直接與客戶互動，因此必須配備適當的工具。
 
-2. 這種客戶互動的擴大範圍需要工具，有助於推動一致性、持續改善和縮放。
+2. 這種擴大的客戶互動範圍需要工具，有助於推動一致性、持續改善和縮放。
 
 Microsoft Teams客戶互動的資料流程，可在其通訊模式中 ，包括聊天、視訊會議和通話，做為內部和外部客戶連結的中樞。 針對部分公司，Microsoft Teams雲端語音功能[，包括](./cloud-voice-landing-page.md)自動語音語音和[](./what-are-phone-system-auto-attendants.md)通話[佇列](./create-a-phone-system-call-queue.md)，提供功能和組態，以滿足其需求。
 
@@ -38,7 +38,7 @@ Microsoft Teams客戶互動的資料流程，可在其通訊模式中 ，包括�
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>已連Microsoft Teams認證計畫中心
 
-API 允許解決方案提供者開發並整合 CCaaS Teams。 此外，我們已針對 Microsoft Teams 認證計畫開發連接式聯絡人中心，為客戶提供確保每個參與提供者的解決方案都經過測試與驗證，以提供他們預期從 Microsoft 解決方案獲得的品質、相容性和可靠性。
+API 允許解決方案提供者開發並整合 CCaaS Teams。 此外，我們開發 Microsoft Teams 認證計畫之連接式聯絡人中心，為客戶提供每個參與提供者的解決方案都經過測試與驗證的保證，以提供他們預期從 Microsoft 解決方案獲得的品質、相容性和可靠性。
 
 ![認證徽章。](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
 
@@ -61,6 +61,7 @@ API 允許解決方案提供者開發並整合 CCaaS Teams。 此外，我們已
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Genesys` | https://www.genesys.com/microsoft                                                                                   |
+| `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                                                  |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
@@ -98,7 +99,7 @@ API 允許解決方案提供者開發並整合 CCaaS Teams。 此外，我們已
 
 此模型使用[microsoft Graph](/microsoftteams/platform/overview)中的 Teams 用戶端平臺[、Teams Graph API](/graph/api/resources/teams-api-overview?view=graph-rest-1.0)和雲端通訊[API](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)與 Teams 用戶端整合，並針對所有聯絡中心通話和通話控制體驗使用 Teams 電話系統，以延伸聯絡中心人員和代理人體驗。 在此模型中，聯絡中心解決方案提供者會和電話業者Microsoft 365。
 
-使用 連線 和擴充型解決方案，代理人可以在開始進行互動之前，從多個系統關聯資料的動態關聯性筆記獲益，然後在 Teams 內部共同合作和外部通訊中原生地工作，以避免成本昂貴的上下文切換。
+使用 連線 和擴充型解決方案，代理人可以在開始參與之前，從多個系統的資料相互關聯的動態內容筆記中獲益，然後在 Teams 內部共同合作和外部通訊中原生地工作，以避免成本昂貴的上下文切換。
 
 組織可以向下設計工作流程和進位路由組組，並測量其系統與互動的品質。
 
@@ -112,7 +113,7 @@ API 允許解決方案提供者開發並整合 CCaaS Teams。 此外，我們已
 
   - Teams代理的主通話端點 
 
-  - Teams通話控制項的用戶端通話
+  - Teams所有通話控制項的用戶端通話
 
   - 代理人體驗應用程式應該也能夠Teams Web 和行動用戶端上工作
 
@@ -126,7 +127,7 @@ API 允許解決方案提供者開發並整合 CCaaS Teams。 此外，我們已
 
 此模型可讓解決方案提供者使用 Teams 通話基礎結構和用戶端平臺來建立原生 Azure 語音應用程式，為共同操作的客戶和代理人員連接提供現代化且智慧的解決方案。 延伸與 Power 的目標是激發開發人員的創造力，並提升客戶的生產力。
 
-解決方案提供者可以直接在 Azure 上建置，可以跨 Teams 個地區和地理位置快速部署和部署其解決方案，從我們的共用全球通訊網路獲益，同時利用 Azure 的儲存空間、計算、分析&認知服務。
+解決方案提供者可以直接在 Azure 上建置，可以跨 Teams 個地區和地理位置快速部署和部署其解決方案，並受益于我們的共用全域通訊網路，同時利用 Azure 的儲存空間、計算、分析&認知服務。
 
 使用擴充和 Power 整合模型，解決方案提供者可以提供連絡人中心代理提供全通道通訊體驗，同時整合人工智慧，以自訂參與者或其他服務參與在 Microsoft Graph 中運用雲端[通訊 API 的通話方式和時間](/graph/api/resources/communications-api-overview?view=graph-rest-1.0)。
 

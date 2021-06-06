@@ -21,12 +21,12 @@ description: 您的 Teams 或 IT 系統管理員可以設定其他網域的外�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: f475fea52e28981e99b1456d52d291473ff8fc50
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f472ef2a009a3a0b9b87222d951ef34b65da15a
+ms.sourcegitcommit: f5b6a0fe055e42e06eee21ce311813b5127474ea
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092261"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52741072"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部存取
 
@@ -36,7 +36,7 @@ ms.locfileid: "51092261"
 
 使用外部存取的時機：
   
-- 您的使用者位於不同網域，且需要共同作業。 例如，Rob@contoso.com 和 Ann@northwindtraders.com 正與 contoso.com 和 northwindtraders.com 網域中的其他人一起共同合作一個專案。
+- 您的使用者位於不同網域，且需要共同作業。例如，Rob@contoso.com 和 Ann@northwindtraders.com 正與 contoso.com 和 northwindtraders.com 網域中的其他人一起共同合作一個專案。
 
 - 您希望組織中的人員能夠使用 Teams 與組織外部特定公司的人員連絡。
 
@@ -48,6 +48,9 @@ ms.locfileid: "51092261"
 ## <a name="plan-for-external-access"></a>規劃外部存取
 
 Teams 預設會開啟外部存取，這表示您的組織可以與所有外部網域通訊。 如果您新增封鎖網域，將允許所有其他網域；如果您新增允許網域，所有其他網域都會遭到封鎖。 此規則的例外為是否在會議中允許匿名參與者。 在 Teams 系統管理中心設定外部存取有三種案例 ([全組織設定 **]**  >  [外部存取 **]**)：
+
+> [!NOTE]
+> Teams 使用者可以在主持會議或與其他組織人員聊天時新增應用程式。 當他們加入由其他組織主持的會議或聊天時，他們也可以使用由其他組織人員共用的應用程式。 將會套用託管使用者組織的資料原則，以及該使用者組織共用的任何協力廠商應用程式的資料共用做法。
 
 > [!NOTE]
 > 如果您關閉組織中的外部存取，外部使用者仍然可以透過匿名加入來加入會議。 若要深入了解，請參閱[在 Teams 中管理會議設定](./meeting-settings-in-teams.md)。
@@ -124,7 +127,7 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 
 若要讓組織的使用者與另一個組織的使用者通訊，這兩個組織都必須啟用同盟。 為指定組織啟用同盟的步驟取決於組織是純線上、混合式或純內部部署。
 
-|**如果您的組織為** |**如下所示啟用同盟**  |
+| 如果您的組織為 | 如下所示啟用同盟 |
 |:---------|:-----------------------|
 |線上，沒有商務用 Skype 內部部署。 這包括具有 TeamsOnly 使用者和/或商務用 Skype Online 使用者的組織。| 如果使用 Teams 系統管理中心： <br>- 確定已在 [外部存取] 中啟用 [使用者可以與其他商務用 Skype 及 Teams 使用者通訊 **]** 設定。<br>- 如果您未使用開放式同盟 (其會允許與任何其他網域同盟)，請新增外部網域至 [已允許] 清單。<br><br>如果使用 PowerShell：<br>- 確保租用戶已啟用同盟：`Get-CsTenantFederationConfiguration` 必須顯示 `AllowFederatedUsers=true`。 <br>- 確保使用者的有效值 `CsExternalAccessPolicy` 具有 `EnableFederationAccess=true`。<br>- 如果您未使用開放式同盟，請確定目標網域已列在 `CsTenantFederationConfiguration` 的 `AllowedDomains` 中。 |
 |純內部部署 | 在內部部署工具中： <br>- 確保已在 `CsAccessEdgeConfiguration` 中啟用同盟。<br>- 確保已透過 `ExternalAccessPolicy` 啟用使用者的同盟 (透過全域原則、網站原則或使用者指派的原則)。 <br> - 如果您未使用開放式同盟，請確定目標網域已列在 `AllowedDomains`。 |
@@ -134,7 +137,7 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 
 根據收件者使用者在 TeamsUpgradePolicy 中的模式，來自同盟組織的傳入聊天和通話會抵達使用者的 Teams 或商務用 Skype 用戶端。
 
-|**如果您想要** |**執行此動作：**  |
+| 如果您想要 | 執行此動作： |
 |:---------|:-----------------------|
 | 確保傳入的同盟聊天和通話抵達使用者的 Teams 用戶端： | 將使用者設定為 TeamsOnly。
 | 確保傳入的同盟聊天和通話抵達使用者的商務用 Skype 用戶端 | 將使用者設定為 TeamsOnly 外的任何模式。 |
@@ -144,7 +147,7 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 
 若要在您的組織中的使用者與 Skype 消費者使用者之間啟用同盟：
 
-|**如果您的組織為** |**如下所示啟用消費者同盟**  |
+| 如果您的組織為 | 如下所示啟用消費者同盟 |
 |:---------|:-----------------------|
 | 純線上，沒有商務用 Skype 內部部署。  這包括具有 TeamsOnly 使用者和/或商務用 Skype Online 使用者的組織。 | 如果使用 Teams 系統管理中心： <br>- 確定已在 [外部存取] 中啟用 [使用者可以與 Skype 使用者通訊 **]**。<br><br>如果使用 PowerShell： <br>- 確保租用戶已啟用同盟：`Get-CsTenantFederationConfiguration` 必須顯示 `AllowPublicUsers=true`。 <br> - 確保使用者的有效值 `CsExternalAccessPolicy` 具有 `EnablePublicCloudAccess=true`。 |
 | 純內部部署 | 在內部部署工具中： <br> - 確保 Skype 已啟用為同盟合作夥伴。 <br> - 確保使用者的 `EnablePublicCloudAccess=true` 透過 `ExternalAccessPolicy` (透過全域原則、網站原則或使用者指派的原則)。|

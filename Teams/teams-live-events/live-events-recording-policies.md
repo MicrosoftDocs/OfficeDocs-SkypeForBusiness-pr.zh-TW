@@ -17,12 +17,12 @@ description: 瞭解即時活動錄製政策。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f9654c139433ffa764767e0a2140896eab52204b
-ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
+ms.openlocfilehash: 8d25f37f94a514b83bd37e44d1b022bac064a839
+ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52513846"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "52739653"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>即時活動錄製Microsoft Teams
 
@@ -58,7 +58,7 @@ ms.locfileid: "52513846"
 
 | 選項                                       | 狀態   | Dvr                                                   | Vod                                                     | 錄製                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
-| 錄製者與簡報者可以使用錄製 | 選擇     | DVR 可供使用，AZURE 媒體服務 (AMS) 資產儲存 180 天 | 出席者可以存取並觀看活動                     |                              |
+| 出席者可以使用錄製 | 選擇     | DVR 可供使用，AZURE 媒體服務 (AMS) 資產儲存 180 天 | 出席者可以存取並觀看活動                     |                              |
 |                                                  | 未選取 | DVR 可供使用，且 AMS 資產儲存 180 天 | 活動結束後，出席者無法存取活動 |                              |
 ||已停用 (未選取) |DVR 可供使用，事件之後會刪除 AMS 資產|活動結束後，出席者無法存取活動||
 | 錄製者與簡報者可以使用錄製 | 選擇     |                                                           |                                                             | 已建立並儲存 MP4 |
