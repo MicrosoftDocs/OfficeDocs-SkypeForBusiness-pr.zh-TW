@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4e87103a5325e231bb07ca56ee5c14b8f48294a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1a4b0dcc52b5c497d594a26fda09f3f48b1c563a
+ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117781"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "52777897"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams 原則控制概覽
 
@@ -35,7 +35,7 @@ Microsoft 致力於為您提供所需的資訊和控制，以便您在使用 Mic
 這些變更的其中一個部分，是提供新的及更新的使用者介面 (UI) 元素和原則設定。
 
 > [!IMPORTANT]
-> 如想進一步閱讀，請參閱 M365 內容的 [原則控制概覽](/deployoffice/privacy/overview-privacy-controls)。
+> 如要進一步閱讀，請檢閱 Microsoft 365 的[原則控制概觀](/deployoffice/privacy/overview-privacy-controls)內容。
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>從 Microsoft 365 Apps 企業版傳送到 Microsoft 的診斷資料
 
@@ -59,9 +59,10 @@ Microsoft 致力於為您提供所需的資訊和控制，以便您在使用 Mic
 - Android
 - 桌上型電腦 (僅限使用 win32 API 的元件)
 
-有關所需的行動裝置診斷資料，請參閱 [行動裝置的原則控制診斷資料](policy-control-diagnostic-data-mobile.md)。
+若要查看必要診斷資料事件及其屬性的清單，請參閱下列文章：
 
-有關所需的桌上型電腦診斷資料，請參閱 [桌上型電腦的原則控制診斷資料](policy-control-diagnostic-data-desktop.md)。
+- [Microsoft Teams 的行動裝置必要診斷資料](policy-control-diagnostic-data-mobile.md)
+- [Microsoft Teams 的桌面必要診斷資料](policy-control-diagnostic-data-desktop.md)
 
 ## <a name="diagnostic-data-sent-from-the-teams-app-to-microsoft"></a>從 Teams 應用程式傳送到 Microsoft 的診斷資料
 
@@ -77,24 +78,25 @@ Teams 軟體有三個層級的診斷資料可供選擇：
 
 如果您選擇將選用的診斷資料傳送給我們，則也會包含必要的診斷資料。
 
-身為組織的系統管理員，您可以使用原則設定來選擇要傳送給我們的診斷資料層級。 除非您變更設定，否則會將選用的診斷資料傳送給 Microsoft。 提供選用的診斷資料有助於 Microsoft 的 Office 工程團隊偵測、診斷以及減輕問題，以降低對組織的影響。
+身為組織的系統管理員，您可以使用原則設定來選擇要傳送給我們的診斷資料層級。 除非您變更設定，否則會將選用的診斷資料傳送給 Microsoft。 提供選用的診斷資料有助於 Microsoft 的 Office 工程團隊偵測、診斷以及減輕問題，以降低對組織的影響。 
+
+若要選擇要傳送給我們的診斷資料層級，請使用 [Office 雲端原則服務](/deployoffice/overview-office-cloud-policy-service)，並設定 *設定 Office 傳送給 Microsoft 的用戶端軟體診斷資料層級* 原則設定。 這是用來設定 Microsoft 365 Apps 企業版中其他 Office 應用程式 (例如 Word、Excel 和 PowerPoint) 所傳送診斷資料層級的相同原則設定。
 
 如果使用者是使用其組織的認證 (有時稱為公司或學校帳戶) 登入 Office，使用者將無法為他們的裝置變更診斷資料層級。
 
 此診斷資料不會包含使用者的名稱、他們的電子郵件地址或其 Office 檔案的內容。 我們的系統會建立一個唯一的識別碼，該識別碼會與使用者的診斷資料建立關聯。 當我們收到的診斷資料顯示我們的 Teams 應用程式當機了 100 次，這個唯一識別碼可讓我們判斷是單一使用者當機了 100 次，還是 100 個不同的使用者各當機一次。 我們不會使用此唯一識別碼來識別出特定使用者。
 
+若要查看傳送給 Microsoft 的是哪些診斷資料，您可以使用診斷資料檢視器，您可以自 Microsoft Store 免費下載並安裝該工具。 如需詳細資訊，請參閱[使用 Office 的診斷資料檢視器](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)。
+
+> [!NOTE]
+> 針對診斷資料檢視器的支援，可在執行 Android 裝置的 Teams 上取得。 針對執行 Windows、macOS 或 iOS 裝置上的 Teams 支援正在處理中。
+
 ## <a name="required-service-data-for-connected-experiences"></a>連線體驗的必要服務資料
 
-必要的服務資料是使我們能夠提供這些雲端型連線體驗並協助保護體驗的安全及讓其如預期執行的資料。 必要服務資料包含三種資訊類型。
-
-- **客戶內容**，這是您使用 Office 建立的內容，例如在 Word 文件中輸入的文字。
-- **功能資料**，這包括連線體驗執行其工作所需的資訊，例如有關 App 的組態資訊。
-- **服務診斷資料**，這是讓服務安全、最新且如預期執行所需的資料。 因為此資料嚴格上來說僅與連線體驗相關，它會與必要或選用診斷資料層級分開。
-
-您可以選擇不提供這項功能給您的使用者，在這種情況下，此資料就不會提供給 Microsoft 來支援連線體驗的功能。 您可以深入瞭解 [必要服務資料](/deployoffice/privacy/required-service-data)。
+必要的服務資料是使我們能夠提供這些雲端型連線體驗並協助保護體驗的安全及讓其如預期執行的資料。 您可以選擇不提供這項功能給您的使用者，在這種情況下，此資料就不會提供給 Microsoft 來支援連線體驗的功能。 您可以深入瞭解 [必要服務資料](/deployoffice/privacy/required-service-data)。
 
 ## <a name="essential-services-for-microsoft-teams"></a>Microsoft Teams 的基本服務
 
-還有一組服務是 Microsoft 365 Apps 企業版運作的基礎，因此不能停用。 例如，可確認您取得使用 Microsoft 365 Apps 企業版正確授權的授權服務。 無論您設定了哪些其他原則設定，都會收集有關這些服務的必要服務資料並將其傳送給 Microsoft。
+也有一組服務是 Microsoft 365 Apps 企業版運作的基礎，因此不能加以停用。 例如，可確認您取得使用 Microsoft 365 Apps 企業版正確授權的授權服務。 無論您設定了哪些其他原則設定，都會收集有關這些服務的必要服務資料並將其傳送給 Microsoft。
 
 如需詳細資訊，請參閱 [Office 的基本服務](/deployoffice/privacy/essential-services)。
