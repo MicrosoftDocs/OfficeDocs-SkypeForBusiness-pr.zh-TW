@@ -1,5 +1,5 @@
 ---
-title: 版本資訊
+title: 適用于該版本Microsoft Teams 會議室
 ms.author: dstrome
 author: dstrome
 ms.reviewer: sohailta
@@ -14,14 +14,14 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以閱讀 Microsoft Teams 會議室 版本資訊，其中列出 Microsoft Teams 會議室 中累積Microsoft Teams 會議室。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9911061cd3b461c014a184a0ffb1df4d0f49e02
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 6d44d8a854a3aa4d66d7ecec346db24db2cfd6c1
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469545"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796847"
 ---
-# <a name="release-notes"></a>版本資訊
+# <a name="release-notes-for-microsoft-teams-rooms"></a>適用于該版本Microsoft Teams 會議室
 
 本文將討論在 Microsoft Teams 會議室 中累積Microsoft Teams 會議室。
 
@@ -85,7 +85,7 @@ ms.locfileid: "52469545"
 ### <a name="48250-04222021"></a>2021/04/22 (4.8.25.0) 
 
 此更新仲介紹：
-- 修正在 TEAMS 會議室 主機上的會議室資訊無法顯示全域通訊錄中隱藏的聊天室帳戶 (GAL) 
+- 修正主機上的會議室資訊Teams 會議室無法顯示從全域通訊錄清單或 GAL 帳戶 (聊天室) 
 
 > [!NOTE]
 > GCCH 客戶可以從手動更新裝置下載升級套件Microsoft Teams 會議室[套件](manual-update.md)
@@ -121,7 +121,7 @@ ms.locfileid: "52469545"
 
 此更新仲介紹：
 
-- 修正在會議內使用螢幕小鍵盤時出現白色半螢幕Teams的問題
+- 修正在會議內使用螢幕小鍵盤時，白色半螢幕Teams的問題
 
 ### <a name="46200-09302020"></a>2020/09/30 (4.6.20.0) 
 
@@ -129,7 +129,7 @@ ms.locfileid: "52469545"
 
 - 在會議室顯示器前面看到更多 3x3 影片庫的影片  
 - 從國電啟動當地即時隱藏式字幕
-- 使用直接來賓加入 Teams 會議室預覽版來加入 (縮放) 
+- 使用直接來賓加入Teams 會議室預覽版來加入縮放 (會議) 
 
 > [!NOTE]
 > 3x3 影片庫和本地即時隱藏式字幕會透過 Microsoft Teams提供。 這些功能適用于所有Teams 會議室 4.5.37.0 及更新版本的裝置。
@@ -146,7 +146,7 @@ ms.locfileid: "52469545"
 此更新仲介紹：
 
 - 使用直接來賓加入Teams 會議室加入 Cisco WebEx 會議
-- Teams系統管理中心啟用和自動註冊
+- Teams系統管理中心的啟用和自動註冊
 - Windows 10 1909 版本支援
 - 切換至影片庫版面配置，即使內容存在時
 - 虛擬舉手支援出席者及簡報者的控制項
@@ -170,13 +170,13 @@ ms.locfileid: "52469545"
 
 此更新仲介紹：
 
-- 應用程式的可靠性修正程式從 Windows 10開始
+- 在 Kiosk 中啟動應用程式的可靠性Windows 10修正
 
 ### <a name="44250-03312020"></a>2020/03/31 (4.4.25.0) 
 
 此更新仲介紹：
 
-- 新式驗證支援Exchange商務用 Skype
+- 適用于 Exchange 和 商務用 Skype
 - 支援動態緊急電話，Teams (服務元件，並Teams響鈴) 
 - 使用 XML 停用雙顯示器會議室會議外重複內容的能力
 - 應用程式初始畫面
@@ -202,7 +202,7 @@ ms.locfileid: "52469545"
 此更新仲介紹：
 
 - 自動接聽鄰近通話和系統管理員設定以控制此
-- 裝置系統管理員設定新增裝置組配置的 UI 重新啟用功能
+- 裝置系統管理員設定新增裝置配置的 UI 重新啟用功能
 - 會議室控制項回到主畫面
 - 會議室SKU 可在 GCC
 - 適用于以 Surface Pro 為基礎的 (應用程式建立的內容相機支援：4.2.4.0) 
@@ -258,7 +258,7 @@ ms.locfileid: "52469545"
 此更新仲介紹：
 
 - DTMF 鍵台Microsoft Teams P2P 會議和 PSTN 通話。 若要Microsoft Teams通話用戶端，系統管理員必須將 IsTeamsDefaultClient 設為 true
-- 將遠端參與者的傳入視音訊釘到會議室顯示器前方的全螢幕。 使用主機上參與者名冊上的 「釘釘」命令
+- 將遠端參與者的傳入視像釘到會議室顯示器前方的全螢幕。 使用主機上參與者名冊上的「釘釘」命令
 - 大廳通知的改良功能，以及會議室前方通知的新增功能
 - 當裝置上未啟用藍牙時，會議室顯示強制轉換圖示Microsoft Teams 會議室移除
 - 修正會議中音量控制Teams問題
@@ -295,7 +295,7 @@ ms.locfileid: "52469545"
 
 此更新仲介紹：
 
-- 無法啟動的Crsron應用程式的 Hotfix，當按下Crsron SR 裝置上的應用程式按鈕時，通常便於使用。 Microsoft Teams 會議室 4.0.19.0 之後，需要重新開機應用程式。
+- 無法啟動的Cresron應用程式的 Hotfix 通常會在按下Crsron SR 裝置上的應用程式按鈕時便於使用。 Microsoft Teams 會議室 4.0.19.0 之後，需要重新開機應用程式。
 
 ### <a name="40180-08272018"></a>2018/08/27 (4.0.18.0) 
 
@@ -305,7 +305,7 @@ ms.locfileid: "52469545"
 - 啟用 SIP 通話從Teams商務用 Skype回到通話模式
 - 協助工具改良功能 (朗讀程式放大鏡) 
 - 在 XML 資源配置變更已適用之後，當需要時自動重新開機應用程式
-- 其他修正程式
+- 其他修正
 
 ### <a name="4080-07062018"></a>2018/07/06 (4.0.8.0) 
 
@@ -373,8 +373,8 @@ ms.locfileid: "52469545"
 此更新仲介紹：
 
 - 支援 [Polycom MSR 系列](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) 固定式硬體
-- 支援 [Logitech Brio](https://www.logitech.com/product/brio)
-- 解決當會議室沒有 (時，) 主機和會議室前顯示器無法進入睡眠模式的問題
+- [Logitech Brio 的支援](https://www.logitech.com/product/brio)
+- 解決在聊天室中 (主機和會議室) 無法進入睡眠模式的問題
 
 ### <a name="30120-912017"></a>2017/9/1 (3.0.12.0) 
 
@@ -387,11 +387,11 @@ ms.locfileid: "52469545"
 
 自 Microsoft Teams 會議室 版本 3.0.12.0 (更新 3) 起，不再支援 64 位版本的 Windows 10 企業版 紀念日版 (英文版本 1607) 。
 
-### <a name="3080-842017"></a>2017 年 8 月 4 (3.0.8.0) 
+### <a name="3080-842017"></a>2017/8/4 (3.0.8.0) 
 
 此更新仲介紹：
 
-- 解決透過參與者搜尋欄位搜尋聯合使用者時所觀察的問題。 在此修正程式之前，外部聯合使用者的搜尋結果可能尚未正確解決，反而會退回不正確的結果。
+- 解決透過參與者搜尋欄位搜尋聯合使用者時所觀察的問題。 在此修正程式之前，外部聯合使用者的搜尋結果可能無法正確解決，反而會退回不正確的結果。
 
 ### <a name="3060-772017"></a>2017 年 7 月 7 (3.0.6.0) 
 
@@ -418,10 +418,10 @@ ms.locfileid: "52469545"
  **專為 商務用 Skype**
 
 - 會議中的單鍵Skype加入
-- Skype針對螢幕填滿 HD 影片和 HD 寬頻音訊的會議室優化的會議體驗
+- Skype針對螢幕填滿 HD 影片和 HD 寬頻音訊的會議室優化會議體驗
 - 所有參與者都可以從Skype，使用他們所選擇的裝置連接到會議
 - 從目錄中邀請人員，您可以立即看到他們的可用性，或透過電話通話
-- 支援商務用 Skype PSTN 會議和 PSTN 通話以取代會議室中的獨立會議電話
+- 支援商務用 Skype PSTN 會議和 PSTN 通話以取代您會議室中的獨立會議電話
 
  **轉換任何會議室**
 

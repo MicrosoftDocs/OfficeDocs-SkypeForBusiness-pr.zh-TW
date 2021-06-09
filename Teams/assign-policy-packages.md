@@ -14,47 +14,50 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解在 Microsoft Teams 中將策略套件指派給使用者和群組的不同方式。
+description: 瞭解在 Microsoft Teams 中將策略套件指派給使用者和群組的不同Microsoft Teams。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 0266cb5c34a13df0dac62be2258134e553a357d8
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: e70d5e2bf0db6cb7dfd93e35a8207fce61fa75fd
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574300"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796827"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>指派策略套件給使用者和群組
 
-本文將審查在 Microsoft Teams 中將策略套件指派給使用者和群組的不同方式。 閱讀前，請務必先閱讀 Teams [中的指派政策 - 開始使用](policy-assignment-overview.md)。
+本文將審查將策略套件指派給使用者和群組的不同Microsoft Teams。 閱讀前，請確定您閱讀過在 Teams[中指派策略 - 開始使用](policy-assignment-overview.md)。
+
+> [!NOTE]
+> 每個使用者都需要進一步通訊附加元件才能接收自訂策略套件指派。 若要詳細資訊，請參閱適用于 Microsoft Teams[的 Advanced Communications 附加Microsoft Teams。](/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 ## <a name="assign-a-policy-package-to-users"></a>指派策略套件給使用者
 
-Teams 中的策略套件是預先定義的策略和設定集合，您可以指派給組織中相同或類似角色的使用者。 每個策略套件都是針對使用者角色設計，並包含預先定義的策略和策略設定，可支援該角色的一般活動。 一些政策套件範例包括教育 (教師) 方案，以及醫療保健 (診所) 套件。 若要深入瞭解，請參閱 [在 Teams 中管理原則套件](manage-policy-packages.md)。
+Teams中的策略套件是預先定義的策略和設定集合，您可以指派給組織中具有相同或類似角色的使用者。 每個策略套件都是針對使用者角色設計，並包含預先定義的策略和策略設定，可支援該角色的一般活動。 一些政策套件範例包括教育 (教師) 方案，以及醫療保健 (診所) 套件。 若要深入瞭解，請參閱在 Teams[中管理Teams。](manage-policy-packages.md)
 
 ### <a name="assign-a-policy-package-to-one-user"></a>將策略套件指派給一個使用者
 
-1. 在 Microsoft Teams 系統管理中心的左側流覽中，前往 **使用者，然後** 選取使用者。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 **使用者，然後** 選取使用者。
 2. 在使用者的頁面上，**選取策略**，然後在策略套件 **旁邊，選取****編輯**。
 3. 在指派 **策略套件窗格中** ，選取您想要指派的套件， **然後選取** 儲存 。
 
-![系統管理中心螢幕擷取畫面，以將策略套件指派給使用者](media/assign-policypackages-user.png)
+![Teams系統管理中心螢幕擷取畫面，以將策略套件指派給使用者](media/assign-policypackages-user.png)
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>指派策略套件給多個使用者
 
-1. 在 Microsoft Teams 系統管理中心的左側流覽中，前往策略套件，然後按一下套件名稱左側，選取您想要指派的政策套件。
+1. 在系統管理中心的左側導Microsoft Teams，前往策略套件，然後按一下套件名稱左側，選取您想要指派的政策套件。
 2. 選取 [管理使用者]。
 3. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
 4. 新增使用者完成後，請選取 **儲存**。
 
-![將策略套件指派給多個使用者的 Teams 系統管理中心螢幕擷取畫面](media/assign-policypackages-multipleusers.png)
+![Teams系統管理中心螢幕擷取畫面，以將策略套件指派給多個使用者](media/assign-policypackages-multipleusers.png)
 
 ## <a name="assign-a-policy-package-to-a-group"></a>將原則套件指派給群組
 
 透過向群組指派原則套件，可以將多個原則指派給一組使用者，例如安全性群組或通訊群組。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。
 
-建議最多 50，000 個使用者群組將策略套件指派給群組，但也會與較大的群組一起使用。
+建議最多 50，000 個使用者群組將策略套件指派給群組，但也會用於較大的群組。
 
 當您指派策略套件時，系統會立即將其指派給群組。 不過，將策略指派傳播給群組成員是做為背景作業，可能需要一些時間，視群組大小而不同。 當未從群組中未指定策略，或成員新加入群組或從群組中移除時，也是如此。
 
@@ -83,9 +86,9 @@ Teams 中的策略套件是預先定義的策略和設定集合，您可以指�
 
 ### <a name="work-with-powershell"></a>使用 PowerShell
 
-#### <a name="get-the-teams-powershell-module"></a>取得 Teams PowerShell 模組
+#### <a name="get-the-teams-powershell-module"></a>取得 powerShell Teams模組
 
-有關逐步指南，請參閱安裝 Teams [PowerShell](teams-powershell-install.md)。
+有關逐步指南，請參閱在[PowerShell Teams安裝](teams-powershell-install.md)。
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>將策略套件指派給一組使用者
 
@@ -107,13 +110,13 @@ Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79
 
 ### <a name="use-the-teams-powershell-module"></a>使用 Teams PowerShell 模組
 
-如果您尚未安裝 Microsoft [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) 模組 (請執行下列) 。 請確定您安裝版本 1.0.5 或更新版本。
+執行下列操作，Microsoft Teams[安裝 PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模組 (如果您尚未安裝) 。 請確定您安裝版本 1.0.5 或更新版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
 ```
 
-執行下列操作以連接到 Teams 並開始會話。
+執行下列操作以連接到Teams並啟動會話。
 
 ```powershell
 Connect-MicrosoftTeams
@@ -137,7 +140,7 @@ New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-如果輸出顯示發生錯誤，請執行下列操作，以取得有關錯誤的詳細資訊 ，而錯誤則出現在 ```UserState``` 屬性中。
+如果輸出顯示發生錯誤，請執行下列操作以取得有關錯誤的詳細資訊，這些資訊會顯示在 ```UserState``` 屬性中。
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
@@ -147,7 +150,7 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 
 ## <a name="related-topics"></a>相關主題
 
-- [使用策略管理 Teams](manage-teams-with-policies.md)
-- [在 Microsoft Teams 中管理原則套件](manage-policy-packages.md)
-- [Teams PowerShell 概觀](teams-powershell-overview.md)
-- [在 Teams 中指派策略 - 開始使用](policy-assignment-overview.md)
+- [使用Teams管理](manage-teams-with-policies.md)
+- [在中管理Microsoft Teams](manage-policy-packages.md)
+- [TeamsPowerShell 概觀](teams-powershell-overview.md)
+- [在 Teams 中指派Teams - 開始使用](policy-assignment-overview.md)

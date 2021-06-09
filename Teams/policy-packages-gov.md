@@ -1,5 +1,5 @@
 ---
-title: 政府用 Teams 政策套件
+title: Teams政府政策套件
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,18 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何為貴政府組織使用及管理 Teams 策略套件。
-ms.openlocfilehash: 891d8762a914a003e3707d8f5eab29b3d8d916c9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 瞭解如何使用及管理Teams組織的政策套件。
+ms.openlocfilehash: 41ae937323b37948c03128efd565f40c02bbd6a2
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117771"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796867"
 ---
-# <a name="teams-policy-packages-for-government"></a>政府用 Teams 政策套件
+# <a name="teams-policy-packages-for-government"></a>Teams政府政策套件
 
 > [!NOTE]
-> Microsoft 365 政府 GCC High 或 DoD 部署目前無法提供策略套件。
+> 在政府部署或 DoD 部署Microsoft 365提供GCC套件。
 
 ## <a name="overview"></a>概觀
 
@@ -41,11 +41,11 @@ Microsoft Teams 中的 [原則套件](manage-policy-packages.md) 是預先定義
 - 應用程式設定
 - 即時活動
 
-Teams 目前包含下列政府政策套件。
+Teams目前包含下列政府政策套件。
 
 |Microsoft Teams 系統管理中心所列的套件名稱|最適合用於|描述 |
 |---------|---------|---------|
-|公共安全專員  |貴政府組織的公開安全人員  |建立一組套套用至貴組織的公開安全人員之原則與原則設定。 |
+|公共安全專員  |貴政府組織的公開安全人員  |建立一組套套用至貴組織的公安人員之原則與原則設定。 |
 |前線管理員  |您政府組織的前線管理員 |建立一組原則，並套用這些設定給貴組織的前線管理員。|
 |前線工作人員  |您政府組織的前線工作人員 |建立一組原則，並套用這些設定給貴組織的前線工作人員。|
 
@@ -71,7 +71,10 @@ Teams 目前包含下列政府政策套件。
 
 ### <a name="assign"></a>指派
 
-將原則套件指派給使用者。 如果使用者已獲指派原則，後來您指派不同的原則，則會優先處理最新的指派。
+將原則套件指派給使用者。如果使用者已獲指派原則，後來您指派不同的原則，則會優先處理最新的指派。
+
+> [!NOTE]
+> 每個使用者都需要進一步通訊附加元件，才能接收自訂策略套件指派。 若要詳細資訊，請參閱適用于 Microsoft Teams[的 Advanced Communications 附加Microsoft Teams。](/microsoftteams/teams-add-on-licensing/advanced-communications)
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>將原則套件指派給一或多個使用者
 
@@ -101,4 +104,4 @@ Teams 目前包含下列政府政策套件。
 
 [在 Teams 中管理原則套件](manage-policy-packages.md)
 
-[在 Teams 中將原則指派給使用者](assign-policies.md)
+[指派策略套件給使用者和群組](assign-policy-packages.md)

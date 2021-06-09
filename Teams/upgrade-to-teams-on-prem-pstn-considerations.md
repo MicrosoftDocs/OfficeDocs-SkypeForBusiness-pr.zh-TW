@@ -1,13 +1,13 @@
 ---
 title: 從 Teams 升級到 PSTN 商務用 Skype
-author: msdmaguire
-ms.author: dmaguire
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: 升級至商務用 Skype語音Teams
+description: 從 商務用 Skype 升級至 Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,16 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d2a33b408ffbb4154ce6e872ae9e1e9bb48dd67
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f4024e62c90ef99f3280d5aec15cd718b3d2b6de
+ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240503"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "52796817"
 ---
 # <a name="pstn-considerations-for-upgrading-to-teams-from-skype-for-business-on-premises"></a>從內部部署升級Teams PSTN 商務用 Skype PSTN 考慮
 
-本文將說明公用交換電話網絡 (PSTN) 升級至 PSTN 時Teams。
+本文將說明公用交換電話網絡 (PSTN) 升級至 PSTN 時考慮Teams。
 
 [!INCLUDE [sfbo-retirement-skype](../Skype/Hub/includes/sfbo-retirement.md)]
 
@@ -38,7 +38,9 @@ ms.locfileid: "52240503"
 
 
  > [!NOTE]
- > - 只有在電話系統 TeamsOnly Teams，才支援在 Teams 中使用應用程式。  如果使用者位於群島模式，電話系統僅支援 商務用 Skype。 
+ > - 只有在電話系統模式Teams使用者帳戶指派升級Teams，才能在 Teams中使用。  
+ > - 只有在電話系統 SfB 模式商務用 Skype為使用者帳戶指派升級Teams時，才支援在 商務用 Skype 中使用新版。 
+ > - 電話系統以群島模式為使用者帳戶指派升級Teams不支援此選項。
  > - 系統不會移轉任何呼叫轉商務用 Skype小組通話群組和委派設定，而且必須重新建立Teams。
  > - 有關雲端語音功能Microsoft Teams概觀，以及協助決定哪一種 Microsoft 語音解決方案適合您的組織，請參閱規劃您的Teams[解決方案](cloud-voice-landing-page.md)。
 
@@ -47,13 +49,13 @@ ms.locfileid: "52240503"
 
 移至 TeamsOnly 模式時，有四種可能的通話案例：
 
-- [使用 Microsoft 通話商務用 Skype Online 中的使用者](#from-skype-for-business-online-with-microsoft-calling-plans)。 升級後，此使用者會繼續擁有 Microsoft 通話方案。
+- [使用 Microsoft 通話商務用 Skype Online 中的使用者](#from-skype-for-business-online-with-microsoft-calling-plans)。 升級後，該使用者會繼續擁有 Microsoft 通話方案。
 
 - [Online 中的商務用 Skype，](#from-skype-for-business-online-with-on-premises-voice)透過內部部署或雲端連接器版本商務用 Skype內部部署語音功能。 使用者的升級至Teams使用者移向直接路由，以確保 TeamsOnly 使用者具有 PSTN 功能。
 
 - [使用 商務用 Skype](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)內部部署的使用者企業語音，該使用者將會移往線上並保持內部部署 PSTN 連線。  將此使用者移Teams需要將使用者的內部部署 商務用 Skype 帳戶移至雲端，並協調使用者移轉至直接路由。 
 
-- [使用 商務用 Skype](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)內部部署的使用者企業語音，該使用者將會移往線上，並且使用 Microsoft 通話方案。  將該使用者移轉至 Teams 需要將使用者的內部部署 商務用 Skype 帳戶移至雲端，並協調該移動與 A) 該使用者電話號碼的埠到 Microsoft 通話方案，或 B) 從可用區域指派新的訂閱者號碼。
+- [使用 商務用 Skype](#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)內部部署的使用者企業語音，該使用者將會移往線上，並且使用 Microsoft 通話方案。  將該使用者移轉至 Teams 需要將使用者的內部部署 商務用 Skype 帳戶移至雲端，並協調該移動與 A) 將該使用者電話號碼的埠移至 Microsoft 通話方案，或 B) 從可用區域指派新的訂閱者號碼。
 
 本文僅提供高層級概觀。 如要詳細資訊，請參閱[電話系統路由和](direct-routing-landing-page.md)[通話方案。](calling-plan-landing-page.md) 
 
@@ -75,7 +77,7 @@ ms.locfileid: "52240503"
 
 2. 設定您的租使用者進行直接路由。 請參閱 [直接路由的每個租使用者組配置的摘要](#summary-of-per-tenant-configuration-of-direct-routing)。
 
-3. 如果需要，請Teams這些使用者的各種 (，例如 TeamsMessagingPolicy、TeamsMeetingPolicy 等) 。 這一點隨時都可以完成，但如果您想要確保使用者在升級時擁有正確的組式，最好在使用者升級至 TeamsOnly 模式之前執行這項操作。
+3. 如果需要，請針對這些Teams設定各種 (，例如 TeamsMessagingPolicy、TeamsMeetingPolicy 等) 。 這一點隨時都可以完成，但如果您想要確保使用者在升級時擁有正確的組式，最好在使用者升級至 TeamsOnly 模式之前執行這項操作。
 
 4. 準備選取的使用者進行語音移移： 
    - 如有需要，請指派Teams授權。  假設使用者已在 商務用 Skype Online 內部部署語音中運作，則使用者已經商務用 Skype方案 2 以及 Microsoft 電話系統。 讓這兩個方案保持啟用狀態，包括 商務用 Skype方案 2 授權。  
@@ -91,15 +93,15 @@ ms.locfileid: "52240503"
 
 在此情境中，使用者仍然位於內部商務用 Skype，而且他們的 PSTN 連接也是內部部署。 使用 PSTN 功能將這些使用者移往 TeamsOnly 模式，即表示啟用這些使用者進行直接路由，然後將使用者移至雲端。 
  
-以下列出基本步驟。  步驟 1-5 會以建議的順序列出，但可以按照任何循序執行。 關鍵在於在步驟 6 之前完成所有步驟。
+以下列出基本步驟。  步驟 1-5 會以建議的順序列出，但可以以任何順序完成。 關鍵在於在步驟 6 之前完成所有步驟。
 
-1. 如果您將整個租使用者範圍的政策設定為其中一種 商務用 Skype 模式，請務必像先前所述，明確指派群島模式，以將現有的群島使用者外派。
+1. 如果您將整個租使用者範圍的政策設定為其中一個 商務用 Skype 模式，請務必像先前所述，明確指派群島模式，以將現有的群島使用者外派。
 
 2. 如果您尚未這麼做，請針對混合式[設定商務用 Skype組織](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)。
 
 3. 設定您的租使用者進行直接路由。 請參閱 [直接路由的每個租使用者組配置的摘要](#summary-of-per-tenant-configuration-of-direct-routing)。
 
-4. 如果需要，請Teams這些使用者的各種 (，例如 TeamsMessagingPolicy、TeamsMeetingPolicy 等 ) 。 這一點隨時都可以完成，但如果您想要確保使用者在升級時擁有正確的配置，最好在使用者升級至 TeamsOnly 之前執行這項操作。
+4. 如果需要，請Teams這些使用者的各種 (，例如 TeamsMessagingPolicy、TeamsMeetingPolicy 等) 。 這一點隨時都可以完成，但如果您想要確保使用者在升級時擁有正確的配置，最好在使用者升級至 TeamsOnly 之前執行這項操作。
 
 5. 如有需要，Microsoft 365或Office 365授權。  使用者應該同時擁有 Teams 商務用 Skype方案 2，以及 電話系統。 如果 商務用 Skype方案 2 停用，請重新啟用。  
 
@@ -116,19 +118,19 @@ ms.locfileid: "52240503"
 
 在此情境中，使用者仍然位於內部商務用 Skype，而且他們的 PSTN 連接也是內部部署。 使用 PSTN 功能將這些使用者移往 TeamsOnly 模式，即表示將使用者移往雲端，並將他們的號碼從舊的電信公司移往 Microsoft 通話方案，或指派新號碼給使用者。 
 
-以下列出基本步驟。步驟 1-5 會以建議的順序列出，但可以按照任何循序執行。 關鍵在於在步驟 6 之前完成所有步驟。 
+以下列出基本步驟。步驟 1-5 會以建議的順序列出，但可以以任何順序完成。 關鍵在於在步驟 6 之前完成所有步驟。 
 
-1. 如果您將整個租使用者範圍的政策設定為其中一種 商務用 Skype 模式，請務必像先前所述，明確指派群島模式，以將現有的群島使用者外派。 
+1. 如果您將整個租使用者範圍的政策設定為其中一個 商務用 Skype 模式，請務必像先前所述，明確指派群島模式，以將現有的群島使用者外派。 
 
 2. 如果您尚未這麼做，請針對混合式[設定商務用 Skype組織](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)。 
 
-3. 如果需要，請Teams這些使用者的各種 (，例如 TeamsMessagingPolicy、TeamsMeetingPolicy 等) 。 這一點隨時都可以完成，但如果您想要確保使用者在升級時擁有正確的配置，最好在使用者升級至 TeamsOnly 之前執行這項操作。 
+3. 如果需要，請針對這些Teams設定各種 (，例如 TeamsMessagingPolicy、TeamsMeetingPolicy 等) 。 這一點隨時都可以完成，但如果您想要確保使用者在升級時擁有正確的配置，最好在使用者升級至 TeamsOnly 之前執行這項操作。 
 
 4. 如有需要，Microsoft 365或Office 365授權。使用者應該同時擁有 Teams 商務用 Skype方案 2，以及 電話系統。 如果 商務用 Skype方案 2 停用，請重新啟用。  
 
 5. 取得使用者的電話號碼。  (詳細資料請參閱 [管理](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)貴組織的電話號碼 .) 
 
-   - 如果您要重新使用這些號碼，請提交一份移植要求給電信公司。  
+   - 如果您要重新使用這些號碼，請提交一份移植要求給您的電信公司。  
    - 或者，您也可以直接從 Microsoft 取得新號碼。 
 
 6. 升級使用者，並根據需要指派 LineUri。 使用內部部署工具商務用 Skype，使用 -MoveToTeams Move-CsUser執行所有操作。  
@@ -141,10 +143,10 @@ ms.locfileid: "52240503"
 
 1. 請檢閱此清單， (SBC) 直接路由支援會話邊界 [控制器](direct-routing-border-controllers.md)。 您也必須確保您擁有正確的固件版本。  
 
-2. 將內部部署 SBC 與 Teams路由服務配對。 詳細資料請參閱將 SBC 與 電話系統 的直接[路由服務配對](direct-routing-configure.md)。 
+2. 將內部部署 SBC 與 Teams路由服務配對。 詳細資料請參閱[將 SBC 配對至](direct-routing-configure.md)電話系統。 
 
 3. 此組式基本上是內部部署配置的鏡像。 線上組組包括： 
-   - OnlineVoiceRoutingPolicy (根據內部部署 VoiceRoutingPolicy 將使用者從 商務用 Skype Online 移移，並依據 VoicePolicy 使用 企業語音) 從內部部署移企業語音) 。
+   - OnlineVoiceRoutingPolicy (根據內部部署 VoiceRoutingPolicy 從 商務用 Skype Online 移移使用者，以及使用 企業語音) 從內部部署移移使用者的 VoicePolicy。
    - OnlinePSTNUsage 物件 (內部部署 PSTN 使用量) 。 
    - OnlineVoiceRoute 物件 (內部部署 VoiceRoute) 。 
 
@@ -166,7 +168,7 @@ ms.locfileid: "52240503"
 
 [規劃您的Teams語音解決方案](cloud-voice-landing-page.md)
 
-[針對與應用程式一起使用Teams的移商務用 Skype](migration-interop-guidance-for-teams-with-skype.md) 
+[適用于與應用程式一起使用Teams的移商務用 Skype](migration-interop-guidance-for-teams-with-skype.md) 
 
 [設定商務用 Skype Server或Microsoft 365之間的Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 
