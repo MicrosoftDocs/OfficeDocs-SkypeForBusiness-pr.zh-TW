@@ -481,8 +481,6 @@ items:
         href: teams-policies.md
       - name: 在 Teams 中設定頻道仲裁
         href: manage-channel-moderation-in-teams.md
-      - name: 在 Teams 中共用檔案
-        href: sharing-files-in-teams.md
       - name: Teams 和 Outlook 電子郵件整合
         href: teams-outlook-email-integration.md
       - name: 從 Outlook 共用至 Teams
