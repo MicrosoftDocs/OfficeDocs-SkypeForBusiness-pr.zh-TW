@@ -832,7 +832,7 @@ items:
               - name: 變更語音信箱的預設語言
                 href: change-the-default-language-for-greetings-and-emails.md
               - name: 語音信箱問候語和訊息的語言
-                href: languages-for-voicemail-greetings-and-messages-teams.md
+                href: languages-for-voicemail-greetings-and-messages.md
           - name: 來電顯示
             items:
               - name: 如何在組織中使用來電顯示
