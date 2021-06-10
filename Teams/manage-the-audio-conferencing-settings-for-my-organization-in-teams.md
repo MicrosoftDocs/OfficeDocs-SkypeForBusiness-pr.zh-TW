@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '請參閱 Microsoft Teams 將電話撥入式會議授權和會議 ID 指派給使用者的步驟，以及許多其他電話撥入式會議設定。 '
+description: '請參閱Microsoft Teams將電話撥入式會議授權和會議 ID 指派給使用者和其他許多電話撥入式會議設定的步驟。 '
 ms.openlocfilehash: 96a8995b995340642c6b58be9d5062eacd3cd29c
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -32,7 +32,7 @@ ms.locfileid: "51101089"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 管理貴組織的音訊會議設定
 
-您可以更輕鬆地在單一位置查看 Microsoft Teams 的所有音訊會議設定。 
+您可以更輕鬆地在單一位置查看所有Microsoft Teams會議設定。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -40,20 +40,20 @@ ms.locfileid: "51101089"
 ## <a name="assign-an-audio-conferencing-license"></a>指派音訊會議授權
 
 > [!NOTE]
-> 您無法使用 Teams 指派授權。 您必須使用 Microsoft 365 系統管理中心。 請參閱 [指派 Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
+> 您無法使用 Teams。 您必須使用系統管理Microsoft 365中心。 請參閱[指派Microsoft Teams附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
   
  **為使用者指派授權**
   
-1. 使用公司或學校帳戶來登錄 Microsoft 365。
+1. 使用公司Microsoft 365學校帳戶來登錄。
     
-2. 在 **Microsoft 365** 系統管理中心的左側導覽中，前往使用者活動使用者，然後從可用使用者清單中選取  >  使用者。
+2. 在系統管理中心的左側Microsoft 365，前往使用者活動使用者，然後從可用使用者清單中選取  >  使用者。
     
     > [!NOTE]
     > 如果您同時將授權指派給最多 20 個使用者，您可以使用選取視圖下拉式清單，然後選擇其中一個選項，或建立您自己的視圖。 然後按一下 [**編輯，****下** 一步兩次，然後選取授權並 **按一下 [提交**> 。  
   
 3. 在 [產品授權」 下的 [動作 **窗格**> 中，按一下 **[編輯。** 
     
-4. 在 [ **產品授權>** 頁面上，開啟 **音訊會議** ，然後按一下 [ **儲存**。 有關授權的更多資訊，請參閱 [Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+4. 在 [ **產品授權>** 頁面上，開啟 **音訊會議** ，然後按一下 [ **儲存**。 有關授權的更多內容，請參閱Microsoft Teams[附加元件授權。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
    > [!NOTE]
    > 指派授權之後，Microsoft 一開始可能不會在清單中顯示為音訊會議提供者。 如果發生這種情況，請登出系統管理中心，或按 CTRL+F5 重新啟用瀏覽器視窗。 
@@ -71,13 +71,13 @@ ms.locfileid: "51101089"
 4. 按一下 [儲存]。
 
     
-**使用 Windows PowerShell**
+**使用Windows PowerShell**
   
-請參閱 [Microsoft Teams PowerShell 參考以](/powershell/module/teams/?view=teams-ps) 瞭解更多資訊。
+請參閱[powerShell Microsoft Teams，](/powershell/module/teams/?view=teams-ps)以瞭解更多資訊。
   
 ## <a name="reset-the-meeting-conference-id"></a>重設會議 ID
 
-![顯示 Teams 標誌 ](media/teams-logo-30x30.png) **的圖示使用 Microsoft Teams 系統管理中心**
+![使用系統管理中心Teams ](media/teams-logo-30x30.png) **圖示Microsoft Teams標誌**
 
 1. 在左側導覽中， **按一下 [使用者**，然後從可用使用者清單中選取使用者。
 
@@ -89,7 +89,7 @@ ms.locfileid: "51101089"
   
 ## <a name="reset-a-conference-organizers-pin"></a>重設會議召集人的 PIN
 
-使用者排程的每個會議都會獲得一個唯一的會議識別碼。 雖然會議 ID 會自動建立並指派給使用者，但有時候使用者可能不想使用此 ID，而您想要將其設定為特定號碼，或是您的使用者不記得或遺失其會議 ID。 
+使用者排程的每個會議都會獲得一個唯一的會議識別碼。 雖然會自動建立會議 ID 並指派給使用者，但有時候使用者可能不想使用此 ID，而您想要將其設定為特定號碼，或是您的使用者不記得或遺失其會議 ID。 
 
 ![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
@@ -143,7 +143,7 @@ ms.locfileid: "51101089"
 
     此功能預設為啟用。 如果您停用此選項，根據預設，已加入會議的使用者不會在有人進入或離開會議時收到通知。
 
-4. 在 **進入/離開公告類型下**，選擇 **色調或****名稱或電話號碼**。 
+4. 在 **進入/離開公告類型下**，選擇 **色調** 或 **名稱或電話號碼**。 
 
     如果您選擇名稱 **或電話號碼**，您也可以選擇啟用或停用要求來電者在加入會議前錄製 **其名稱**。 
     > [!NOTE]
@@ -184,7 +184,7 @@ ms.locfileid: "51101089"
 
 請參閱 [傳送包含音訊會議資訊的電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)。
     
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音訊會議橋接器 (查看) 次要 (次要) 語言
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音訊會議橋接器上 (主要) 次要 (次要) 替代語言
 
 ![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
@@ -192,14 +192,14 @@ ms.locfileid: "51101089"
 
 2. 從清單中選取電話號碼，然後按一下 [ **編輯**。
 
-3. 在預設語言和替代語言下選擇您想要的語言 **， (選擇) 。**
+3. 在預設語言和替代語言下選擇您想要的語言 **， (選用) 。**
 
 4. 按一下 [儲存]。
 
 
 請參閱 [設定音訊會議的自動語音語音處理語言](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)。
   
-## <a name="see-audio-conferencing-dial-in-numbers"></a>查看音訊會議電話撥入號碼
+## <a name="see-audio-conferencing-dial-in-numbers"></a>請參閱音訊會議電話撥入號碼
 
 ![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
@@ -215,15 +215,15 @@ ms.locfileid: "51101089"
 請參閱 [查看音訊會議號碼清單](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
   
 
-## <a name="want-to-know-more-about-windows-powershell"></a>想要進一瞭解 Windows PowerShell 嗎？
+## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
 
-Windows PowerShell 就是管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點來管理 Microsoft 365 或 Office 365，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用 Windows PowerShell，請參閱以下主題：
+Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 有了Windows PowerShell，您可以使用單一Microsoft 365管理Office 365管理，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
-  - [為什麼您需要使用 Microsoft 365 或 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-有關 Windows PowerShell 的資訊，請參閱 [Microsoft Teams PowerShell 參考以](/powershell/module/teams/?view=teams-ps) 瞭解更多資訊。
+如要進一Windows PowerShell，請參閱[powerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams以瞭解更多資訊。
   
     
 ## <a name="related-topics"></a>相關主題

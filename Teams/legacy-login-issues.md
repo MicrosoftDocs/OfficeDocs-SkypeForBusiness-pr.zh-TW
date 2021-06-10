@@ -1,5 +1,5 @@
 ---
-title: 在 Teams 中的舊版系統上接收郵件和通話的問題
+title: 在舊版系統上接收訊息和通話時Teams
 ms.reviewer: ''
 author: cichur
 ms.author: v-cichur
@@ -27,7 +27,7 @@ ms.locfileid: "51120604"
 <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>在舊版系統上接收訊息和通話的問題
 ==============================================================
 
-如果使用者使用舊版的 Teams 或已與其他應用程式登入，則接收郵件或通話時可能有問題。
+如果使用者使用舊版的手機或已登入其他應用程式Teams收到訊息或通話時可能有問題。
 
 ## <a name="legacy-adu-setups"></a>舊版 ADU 設定
 
@@ -40,9 +40,9 @@ ms.locfileid: "51120604"
 > [!NOTE]
 > 針對以「.local」或「.corp」結尾的使用者名稱，略過或忽略使用者名稱預先填入的功能預設為開啟，因此您不需要設定登錄機碼就能關閉預先填入。
 
-請參閱 [使用新式驗證來登錄 Microsoft Teams](sign-in-teams.md) 以瞭解更多資訊。
+請參閱[使用新式驗證Microsoft Teams以使用新式](sign-in-teams.md)驗證來登錄，以瞭解更多資訊。
 
-## <a name="skype-token-revocation"></a>Skype 權杖撤銷
+## <a name="skype-token-revocation"></a>Skype權杖吊銷
 
 變更/重設密碼時，較舊的用戶端最多一小時不會收到訊息和通話。 若要解決此問題，請重新開機應用程式或移至較新的用戶端。
 

@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: 安裝 Power BI連接器，以在 CQD (中) 通話品質儀表板
+description: 安裝 Power BI 連接器，以在 CQD (中) 通話品質儀表板
 ms.openlocfilehash: 26229c59fc666afbc6bcdade67050e1e9b536ea6
 ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
 ms.translationtype: MT
@@ -75,7 +75,7 @@ ms.locfileid: "52689801"
 
     ![螢幕擷取畫面：Power BI連接器](media/CQD-power-bi-connector3-resize.png)
 
-2. 決定要用於查詢 (以匯總符號名稱表示) 維度和度量，然後手動選取這些維度和度量，並將它們拖曳到黑色視覺效果。 或者，將它們拖曳 *到視覺效果選項* 下方的值欄位。
+2. 決定要用於 (的匯總符號) 以匯總符號表示的維度和度量，然後手動選取這些維度和度量，並將它們拖曳到黑色視覺效果上。 或者，將它們拖曳 *到視覺效果選項* 下方的值欄位。
 
     ![螢幕擷取畫面：Power BI連接器](media/CQD-power-bi-connector4-resize2.png)
 
@@ -86,7 +86,7 @@ ms.locfileid: "52689801"
 
     ![螢幕擷取畫面：Power BI連接器](media/CQD-power-bi-connector5-resize.png)
 
-4. 最後，選取視覺效果 *窗格中* 的格式 *索引* 點，以樣式和格式化查詢。
+4. 最後，選取視覺效果 *窗格中* 的格式索引鍵，以為查詢設置樣式和格式。
 
     > [!NOTE]
     > 通話品質儀表板查詢至少需要一個量值才能執行。 如果您的查詢未載入，請仔細檢查您是否在查詢中包含量值。
@@ -113,7 +113,7 @@ Microsoft 通話品質連接器查詢在設計時，應牢記鑽取功能。 與
 
 ## <a name="limitations"></a>限制
 
-雖然使用 Power BI，但 Microsoft 通話品質連接器Power BI並非所有的 Power BI 功能都受到支援，無論是因為通話品質儀表板的資料模型或 DirectQuery 連接器的一般限制。 下列清單會說明連接器的一些較值得注意的限制，但這份清單不應視為詳盡無遺：
+雖然使用 Power BI，但 Microsoft 通話品質連接器Power BI並非所有的 Power BI 功能都受到支援，無論是因為通話品質儀表板資料模型的限制，還是 DirectQuery 連接器的一般限制。 下列清單會說明連接器的一些較值得注意的限制，但這份清單不應視為詳盡無遺：
 
 1. **計算欄 –** DirectQuery 連接器一般對計算結果欄的支援有限，Power BI。 某些計算結果欄可能會與連接器一起使用，因為這些資料行是例外。 根據一般規則，計算結果欄無法運作。
 
@@ -133,7 +133,7 @@ Microsoft 通話品質連接器查詢在設計時，應牢記鑽取功能。 與
 
 ## <a name="troubleshooting"></a>疑難排解
 
-### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>我嘗試使用日期欄做為日期分割器。 一旦將此欄的資料類型轉換成日期，就會收到此錯誤
+### <a name="im-trying-to-use-the-date-column-as-a-date-slicer-as-soon-as-i-convert-the-data-type-of-this-column-to-date-i-get-this-error"></a>我嘗試使用日期欄做為日期分割器。 一旦將此欄的資料類型轉換為日期，就會收到此錯誤
 
 > **無法載入此** 視覺效果的資料：OLE DB 或 ODBC 錯誤：[Expression.Error] 無法將運算式折至資料來源。 請嘗試更簡單的運算式。
 
@@ -149,7 +149,7 @@ Microsoft 通話品質連接器不支援日期分割器。 若要指定日期範
 
   - **ErrorType 2 - 查詢建立錯誤：** 查詢建立錯誤是由 Microsoft 通話品質連接器無法正確剖析您嘗試建立之查詢所導致。 使用不支援的功能時，通常會發生此情況，如上述限制所指定。 請仔細檢查您並未針對該查詢使用任何計算結果欄或自訂視覺效果。
 
-  - **ErrorType 5 - 執行超時：** 查詢在超時前已達到可能執行時間上限。請嘗試在查詢中新增更多篩選，以限制其範圍。 縮小資料範圍通常是達成此目標最有效的方法。
+  - **ErrorType 5 - 執行超時：** 查詢在超時前已達到可能的最大執行時間。請嘗試在查詢中新增更多篩選，以限制其範圍。 縮小資料範圍通常是達成此目標最有效的方法。
 
   - **ErrorType 7 - 無度量錯誤：** 通話品質儀表板查詢需要量值才能運作。 請仔細檢查您的查詢是否包含量值。 Microsoft 通話品質連接器中的量值會以匯總表示， (名稱) 符號加總。
 
@@ -165,7 +165,7 @@ Microsoft 通話品質連接器不支援日期分割器。 若要指定日期範
 
 ### <a name="when-will-the-power-bi-connector-be-updated-from-beta-status"></a>何時會從Power BI Beta 狀態更新連接器？
 
-雖然有 Beta 標記，Power BI 版 Microsoft 通話品質 (Beta) 連接器是連接器的第一個"發行」版本，並經過 Power BI 小組正式簽署安全性，以反映這一點。 在連接器初次發行時，Power BI 小組無法提供支援和更廣泛的認證，但仍準備證明 Microsoft 通話品質連接器的安全性、真實性和一般功能。 展望未來，我們計畫在近期內投資 microsoft 通話品質連接器Power BI電話品質連接器。
+雖然有 Beta 標記，Power BI 版 Microsoft 通話品質 (Beta) 連接器是連接器的第一個發行版本本，並經過 Power BI 小組正式簽署安全性，以反映這一點。 在連接器初次發行時，Power BI 小組無法提供支援和更廣泛的認證，但仍準備證明 Microsoft 通話品質連接器的安全性、真實性和一般功能。 展望未來，我們計畫在近期內投資 microsoft 通話品質連接器Power BI電話品質連接器。
 
 ### <a name="why-does-the-connector-seem-slower-compared-to-call-quality-dashboard-in-the-browser-what-can-i-do-to-improve-performance"></a>為什麼連接器看起來比瀏覽器中的通話品質儀表板慢？ 我可以做些什麼來改善績效？
 

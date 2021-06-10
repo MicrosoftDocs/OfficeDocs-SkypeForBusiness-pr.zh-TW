@@ -16,7 +16,7 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 瞭解如何在 Microsoft Teams 系統管理中心為貴組織新增、變更或移除緊急位置的位置。
+description: 瞭解如何在系統管理中心為貴組織新增、變更或移除緊急Microsoft Teams位置。
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 50343fbd1d16694e46afafe53114f2dde4b7b150
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -29,15 +29,15 @@ ms.locfileid: "51121501"
 
 根據貴組織實體位置的數量，您可以新增建築物、樓層和辦公室的位置，以建立更具體的緊急位置。 請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md) 以瞭解更多資訊。
   
-若要瞭解如何取得通話方案及其費用，請參閱 [Teams 附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+若要瞭解如何取得通話方案及其費用，請參閱Teams[授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-您可以在 Microsoft Teams 系統管理中心或使用 PowerShell 管理組織的緊急位置。
+您可以在系統管理中心或使用 PowerShell Microsoft Teams組織的緊急位置。
   
 ## <a name="add-a-place-to-an-emergency-location"></a>新增位置至緊急位置
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在 Microsoft Teams 系統管理中心的左側流覽中，按一下 **[位置**  >  **緊急位址**> 。
+1. 在系統管理中心的左側導Microsoft Teams，按一下 **[位置**  >  **緊急位址**> 。
 2. 在清單中，按一下要新增位置的位置名稱。
 3. 在 [ **位置」** 選項卡上，按一下 [ **新增**。
 4. 輸入地點名稱，然後按一下 **[Apply.**
@@ -50,7 +50,7 @@ ms.locfileid: "51121501"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在 Microsoft Teams 系統管理中心的左側流覽中，按一下 **[位置**  >  **緊急位址**> 。
+1. 在系統管理中心的左側導Microsoft Teams，按一下 **[位置**  >  **緊急位址**> 。
 2. 在清單中，按一下要變更位置的位置名稱。
 3. 在 [ **位置」** 選項卡上，選取您想要變更的位置，然後按一下 [ **編輯**。
 4. 更新位置資訊，然後按一下 **[Apply.**
@@ -63,7 +63,7 @@ ms.locfileid: "51121501"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在 Microsoft Teams 系統管理中心的左側流覽中，按一下 **[位置**  >  **緊急位址**> 。
+1. 在系統管理中心的左側導Microsoft Teams，按一下 **[位置**  >  **緊急位址**> 。
 2. 在清單中，按一下要移除位置的位置名稱。
 3. 在 [ **位置」** 選項卡上，選取您想要移除的位置，然後按一下 [ **刪除**。
 

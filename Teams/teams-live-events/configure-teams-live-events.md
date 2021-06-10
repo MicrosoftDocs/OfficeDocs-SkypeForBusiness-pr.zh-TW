@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中設定即時活動設定
+title: 在 Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -15,7 +15,7 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-description: 瞭解如何管理貴組織中舉辦的 Teams 即時活動的設定。
+description: 瞭解如何管理組織中Teams即時活動的設定。
 f1.keywords:
 - CSH
 ms.custom:
@@ -29,13 +29,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 04/08/2021
 ms.locfileid: "51637875"
 ---
-# <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams 中設定即時活動設定
+# <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams
 
-使用 Teams 即時活動設定來設定貴組織中舉辦的即時活動設定。 您可以設定支援 URL，並設定協力廠商視音訊發佈提供者。 這些設定適用于在貴組織中建立的所有即時活動。
+使用 Teams活動設定來設定貴組織中舉辦的即時活動設定。 您可以設定支援 URL，並設定協力廠商視音訊發佈提供者。 這些設定適用于在貴組織中建立的所有即時活動。
 
-您可以在 Microsoft Teams 系統管理中心輕鬆管理這些設定。 在左側流覽中，前往 **會議**  >  **Live 事件設定**。
+您可以在系統管理中心輕鬆管理Microsoft Teams設定。 在左側流覽中，前往 **會議**  >  **Live 事件設定**。
 
-![Teams 即時活動設定螢幕擷取畫面](../media/teams-live-events-settings.png "您可以在 Microsoft Teams 系統管理中心設定 Teams 即時活動設定螢幕擷取畫面")
+![即時活動Teams螢幕擷取畫面](../media/teams-live-events-settings.png "您可以在系統管理中心Teams即時活動設定Microsoft Teams螢幕擷取畫面")
 
 ## <a name="set-up-event-support-url"></a>設定活動支援 URL
 
@@ -46,9 +46,9 @@ ms.locfileid: "51637875"
 1. 在左側流覽中，前往 **會議**  >  **即時活動設定**。
 2. 在 **支援 URL** 下，輸入貴組織的支援 URL。
 
-    ![系統管理中心即時活動的支援 URL 設定](../media/teams-live-events-settings-supporturl.png "Teams 即時活動支援 URL 設定螢幕擷取畫面")
+    ![系統管理中心即時活動的支援 URL 設定](../media/teams-live-events-settings-supporturl.png "即時活動支援 URL Teams螢幕擷取畫面")
 
-### <a name="using-windows-powershell"></a>使用 Windows PowerShell
+### <a name="using-windows-powershell"></a>使用Windows PowerShell
 
 執行下列操作：
 
@@ -58,7 +58,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 詳細資訊，請參閱 [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)。
 ## <a name="configure-a-third-party-video-distribution-provider"></a>設定協力廠商視音訊發佈提供者 
 
-如果您透過 Microsoft 影片傳遞合作夥伴購買並設定軟體定義的網路 (SDN) 解決方案或企業內容傳遞網路 (eCDN) 解決方案，請設定 Teams 中即時事件的提供者。 
+如果您透過 Microsoft 影片傳遞合作夥伴購買並設定軟體定義的網路 (SDN) 解決方案或企業內容傳遞網路 (eCDN) 解決方案，請設定 Teams 中的即時事件提供者。 
 
 ### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft Teams 標誌的圖示](../media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
 
@@ -72,7 +72,7 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
     - **提供者授權金鑰** 輸入您從提供者連絡人獲得授權識別碼。
     - **SDN API 範本 URL** 輸入您從提供者連絡人獲得之 API 範本 URL。
 
-### <a name="using-windows-powershell"></a>使用 Windows PowerShell
+### <a name="using-windows-powershell"></a>使用Windows PowerShell
 從提供者連絡人取得授權識別碼或 API 權杖和 API 範本，然後根據您使用的提供者執行下列其中一項操作：
 
 **蜂巢** 

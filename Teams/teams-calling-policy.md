@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 中的通話政策
+title: 通話中Microsoft Teams
 author: SerdarSoysal
 ms.author: tonysmit
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: 瞭解如何在 Microsoft Teams 中建立、修改及新增使用者至自訂通話策略，以及各種通話策略設定。
+description: 瞭解如何在 Microsoft Teams 中建立、修改及新增使用者至自訂通話Microsoft Teams，以及各種通話策略設定。
 localization_priority: Normal
 ms.collection:
 - M365-voice
@@ -27,10 +27,10 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 04/09/2021
 ms.locfileid: "51653937"
 ---
-<a name="calling-policies-in-microsoft-teams"></a>Microsoft Teams 中的通話政策
+<a name="calling-policies-in-microsoft-teams"></a>通話中Microsoft Teams
 ===================================
 
-在 Microsoft Teams 中，通話政策會控制哪些通話和呼叫轉呼叫功能可供使用者使用。 通話政策會決定使用者是否可以撥打私人電話、使用呼叫轉寄或同時撥打給其他使用者或外部電話號碼、將通話路由至語音信箱、將通話傳送給通話群組、使用委派進行輸入和外寄通話等等。
+在 Microsoft Teams中，通話策略會控制哪些通話和呼叫轉呼叫功能可供使用者使用。 通話政策會決定使用者是否可以撥打私人電話、使用呼叫轉寄或同時撥打給其他使用者或外部電話號碼、將通話路由至語音信箱、將通話傳送給通話群組、使用委派進行輸入和外寄通話等等。
 
 您可以使用自動建立 (全組織的預設) ，或建立及指派自訂策略。
 
@@ -38,7 +38,7 @@ ms.locfileid: "51653937"
 
 請遵循下列步驟建立自訂通話策略。
 
-1. 在 Microsoft Teams 系統管理中心的左側流覽中，前往 **語音**  >  **通話政策**。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 **語音**  >  **通話政策**。
 2. 選取 [新增 **]**。
 3. 開啟或關閉您想要在通話政策中使用的功能。
 4. 若要控制使用者是否可以將輸入通話路由至語音信箱， **請選取** 啟用或 **使用者控制**。 若要防止路由至語音信箱，請選取 **已停用**。
@@ -48,8 +48,8 @@ ms.locfileid: "51653937"
 
 請遵循這些步驟來編輯現有的通話政策。
 
-1. 在 Microsoft Teams 系統管理中心的左側流覽中，選取 **語音**  >  **通話政策**。
-2. 按一下您想要修改之政策旁邊的 ，然後選取 [ **編輯**。
+1. 在系統管理中心的左側導Microsoft Teams，選取 **語音**  >  **通話政策**。
+2. 按一下要修改之政策旁的 ，然後選取 [ **編輯**。
 3. 進行您想要的變更，然後按一下 [ **儲存**。
 
 ## <a name="assign-a-custom-calling-policy-to-users"></a>指派自訂通話策略給使用者
@@ -62,7 +62,7 @@ ms.locfileid: "51653937"
 
 ### <a name="make-private-calls"></a>可進行私人通話
 
-此設定控制 Teams 中所有的通話功能。 關閉此功能以關閉 Teams 中所有的通話功能。
+此設定會控制所有通話功能，Teams。 關閉此選項以關閉所有通話功能Teams。
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>呼叫轉譯和同時撥打給貴組織人員
 
@@ -94,11 +94,11 @@ ms.locfileid: "51653937"
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>在通話時，可在忙碌中忙碌
 
-在忙碌 (忙碌選項) 是一個新的設定，可讓您設定當使用者已經在通話或會議或保留通話時如何處理來電。 新的或來電可能會以忙碌訊號拒絕，也可以根據使用者的未接聽設定路由。 您可以在租使用者層級或使用者層級啟用忙碌選項。 無論其忙碌選項的組組方式如何，通話或會議中的使用者或保留通話的使用者，都不得啟動新的通話或會議。 此設定預設為停用。
+在忙碌 (忙碌選項) 是一個新的設定，可讓您設定當使用者已經在通話或會議或保留通話時如何處理來電。 新的或來電可能會以忙碌訊號拒絕，也可以根據使用者未接聽的設定路由。 您可以在租使用者層級或使用者層級啟用忙碌選項。 無論他們的忙碌選項是如何配置的，通話或會議中的使用者或保留通話的使用者，都不得啟動新的通話或會議。 此設定預設為停用。
 
 ### <a name="allow-web-pstn-calling"></a>允許 Web PSTN 通話
 
-此設定可讓使用者使用 Teams Web 用戶端撥打 PSTN 號碼。
+此設定可讓使用者使用網路用戶端Teams PSTN 號碼。
 
 ### <a name="allow-music-on-hold"></a>允許等候音樂
 

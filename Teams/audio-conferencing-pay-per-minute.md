@@ -55,14 +55,14 @@ ms.locfileid: "51617785"
 > 您可以在音訊會議中查看要通話位置的查看費率區段，以找到與這類通話相關聯的撥入和撥出[費率](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)。
   
   
-每分鐘付費要求貴組織設定 [通訊](what-are-communications-credits.md) 信用額度。 如果您想要更多詳細資料 [，請參閱為](set-up-communications-credits-for-your-organization.md) 貴組織設定通訊信用額度和/或 Microsoft [Teams 附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+每分鐘付費要求貴組織設定 [通訊](what-are-communications-credits.md) 信用額度。 如果您想要更多詳細資料，請參閱為[](set-up-communications-credits-for-your-organization.md)貴組織設定通訊信用額度和/或Microsoft Teams[附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
 
   
-若要為貴組織的使用者啟用音訊會議每分鐘付費，請參閱在 [Microsoft Office 365 或 Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)中試用或購買音訊會議。
+若要為貴組織的使用者啟用音訊會議每分鐘付費，請參閱在 Microsoft Office 365 或 Office 365 中試用[或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
 
 ## <a name="why-is-it-best-for-you"></a>為什麼最適合您？
 
-- 每一位出席者在排定會議期間所撥打的每一個傳入或外寄電話 (費率只會依每分鐘付費，而費率會因付費或免付費通話和目的地) 而異，而不是在行動裝置或 PC 中使用商務用 Skype 或 Teams 應用程式。
+- 每一位出席者在排定會議期間所撥打的每一個傳入或外寄電話 (費率會因付費或免付費通話和目的地) 而異，而不是在行動裝置或 PC 中使用 商務用 Skype 或 Teams 應用程式。
 
 - 管理成本的能力，因為系統管理員可以控制從召集人的會議 (國際) 撥出類型。 請參閱[音訊會議與使用者 PSTN](./outbound-calling-restriction-policies.md)通話的外發通話限制政策
 

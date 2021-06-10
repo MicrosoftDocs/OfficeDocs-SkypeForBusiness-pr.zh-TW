@@ -36,7 +36,7 @@ ms.locfileid: "52689791"
 本文可協助您決定適合貴組織的 Microsoft 語音解決方案。 在您決定之後，本文會提供內容藍圖，以便您執行您所選擇的解決方案。
 
 > [!NOTE]
-> 有關規劃 Teams 語音解決方案做為從 商務用 Skype Server 升級至 Teams 的整體計畫之一的指引，請參閱從 商務用 Skype 內部部署升級到 Teams 的[PSTN](upgrade-to-teams-on-prem-pstn-considerations.md)考慮。
+> 有關將 Teams 語音解決方案規劃為從 商務用 Skype Server 升級至 Teams 的整體計畫之一的指引，請參閱從 商務用 Skype 內部部署升級到 Teams 的[PSTN](upgrade-to-teams-on-prem-pstn-considerations.md)考慮。
 
 您可能會想要使用通話方案 &mdash; 電話系統最簡單的解決方案。 這是 Microsoft 的全雲端解決方案，提供私人分支 Exchange (PBX) 功能，並撥打到公用交換電話網路 (PSTN) ，如下圖所示。 有了這個解決方案，Microsoft 就是您的 PSTN 電信公司。
 
@@ -61,7 +61,7 @@ ms.locfileid: "52689791"
 **全部為必填專案。** 本文中的部分章節與所有組織有關。 例如，每個人都應該閱讀電話系統並瞭解在 PSTN 中連接至公用交換電話網絡 (選項) 。 
 
 
-| 全部為必填專案 | 說明 |
+| 全部為必填專案 | 描述 |
 | :------------|:-------|
 | [**電話系統**](#phone-system) | Microsoft 的技術可啟用通話控制和私人分支Exchange (PBX) 雲端Microsoft 365功能Microsoft Teams。 |
 | [**公用交換電話網絡 (PSTN) 連接選項**](#public-switched-telephone-network-connectivity-options) | 使用 Microsoft 做為電話電信業者，或使用直接路由或電信業者Microsoft Teams電話電信業者連線。 PSTN 電話系統結合，可讓使用者撥打全球電話。|
@@ -72,10 +72,10 @@ ms.locfileid: "52689791"
 
 ![圖表 2 顯示其他語音元件，例如電話的號碼、撥號方案及通話路由等等。](media/voice-consider-additional-components.png)
 
-| 根據您的需求 | 說明 |
+| 根據您的需求 | 描述 |
 | :------------|:-------|
 | [**電話 Microsoft 的號碼**](#phone-numbers-from-microsoft) | 如何取得和管理 Microsoft 的電話號碼，以及如何將現有號碼移轉至 Microsoft。 如果您需要取得 Microsoft 通話方案的電話號碼、轉接現有號碼、取得服務號碼等，請閱讀本文。 |
-| [**撥號方案與通話路由**](#dial-plans-and-call-routing) | 如何設定及管理撥號方案，將撥號電話號碼轉換成替代格式 (通常是 E.164 格式) 電話授權和呼叫路由。 如果您需要瞭解什麼是撥號方案，以及您是否需要為貴組織指定撥號方案，請閱讀本文。|
+| [**撥號方案與通話路由**](#dial-plans-and-call-routing) | 如何設定及管理將撥號電話號碼轉換成替代格式的撥號方案 (通常是 E.164 格式) 電話授權和呼叫路由。 如果您需要瞭解什麼是撥號方案，以及您是否需要為貴組織指定撥號方案，請閱讀本文。|
 | [**緊急電話**](#emergency-calling) | 如何管理及設定緊急電話 &mdash; ，取決於您的 PSTN 連接選項。 如果您使用的是 Microsoft 通話方案或直接路由，並需要瞭解如何管理組織的緊急電話，請閱讀本節。 |
 | [**直接路由的基於位置的路由**](#location-based-routing-for-direct-routing) |如何使用 LBR Location-Based路由 (，) 使用者根據地理位置Microsoft Teams免付費路。 如果貴組織在不允許免付費路的位置使用直接路由，請閱讀本節。
 | [**雲端語音功能的網路拓撲**](#network-topology-for-voice-features) | 如果貴組織正在部署 Location-Based路由 (LBR) 直接路由或動態緊急電話，您必須設定網路設定，以在 Microsoft Teams 中與這些功能一Microsoft Teams。 如果您正針對直接路由執行 LBR，或是使用通話方案或直接路由來實施動態緊急電話，請閱讀本節。 |
@@ -107,7 +107,7 @@ ms.locfileid: "52689791"
 
 - [以下是可透過電話系統獲得的功能](here-s-what-you-get-with-phone-system.md)
 - [設定貴組織的 [電話系統]](setting-up-your-phone-system.md)<br>
-  說明如何購買及指派電話系統授權、管理電話號碼，以及設定免付費號碼的通訊信用額度。 
+  說明如何購買及指派電話系統授權、管理電話號碼，以及設定免付費號碼的通訊額度。 
 
 有關管理支援裝置的資訊，請參閱在[](devices/device-management.md)Microsoft Teams Teams[管理您的裝置](https://www.microsoft.com/microsoft-365/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
 
@@ -170,7 +170,7 @@ ms.locfileid: "52689791"
 
 - 您可以Microsoft 電話國內或國際通話方案來使用系統，這些方案 (視全球授權服務等級) 。
 
-- 您不需要部署或維護內部部署，因為通話方案無法 &mdash; Microsoft 365 Office 365。
+- 您不需要部署或維護內部部署，因為通話方案在Microsoft 365 &mdash; 或Office 365。
 
 - 注意：如有需要，您可以選擇透過直接路由連接支援的會話邊界控制器 (SBC) ，以與 SBC 支援的協力廠商 PBX、類比裝置和其他協力廠商電話設備進行互通性。
 
@@ -228,7 +228,7 @@ ms.locfileid: "52689791"
 
 ## <a name="phone-numbers-from-microsoft"></a>電話 Microsoft 的號碼
 
-Microsoft 有兩種可用的電話號碼：訂閱者 *(* 使用者) 號碼，可指派給貴組織的使用者;以及服務號碼，以付費和免付費服務號碼提供。 服務號碼的並行通話容量高於訂閱者號碼，並可以指派給音訊會議、自動語音服務或通話佇列等服務。
+Microsoft 有兩種類型的可用電話號碼：訂閱者 *(* 使用者) 號碼，可指派給貴組織的使用者，以及服務號碼，以付費和免付費服務號碼提供。 服務號碼的並行通話容量高於訂閱者號碼，並可以指派給音訊會議、自動語音服務或通話佇列等服務。
 
 您必須決定：
 
@@ -261,7 +261,7 @@ Microsoft 有兩種可用的電話號碼：訂閱者 *(* 使用者) 號碼，可
 
 ## <a name="emergency-calling"></a>緊急電話
 
-您設定緊急電話方式會根據您的 PSTN 連接選項而不同：Microsoft 通話方案或直接路由。 Microsoft 通話方案與直接路由的動態緊急電話系統提供設定及路由緊急電話的能力，並依據用戶端目前的位置通知Teams人員。 若要進一步瞭解緊急電話概念和術語，以及如何設定動態緊急電話，請參閱下列文章：
+您設定緊急電話方式會根據您的 PSTN 連接選項而不同：Microsoft 通話方案或直接路由。 Microsoft 通話方案與直接路由的動態緊急電話系統提供設定和路由緊急電話的能力，並依據用戶端目前的位置通知Teams人員。 若要進一步瞭解緊急電話概念和術語，以及如何設定動態緊急電話，請參閱下列文章：
 
 - [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)
 - [規劃和設定動態緊急電話](configure-dynamic-emergency-calling.md)
@@ -291,7 +291,7 @@ Microsoft 有兩種可用的電話號碼：訂閱者 *(* 使用者) 號碼，可
 
 - [開始升級您的 Microsoft Teams](upgrade-start-here.md)
 - [關於升級架構](upgrade-framework.md)
-- [IT 系統管理員的升級策略](upgrade-to-teams-on-prem-implement.md)
+- [適用于 IT 系統管理員的升級策略](upgrade-to-teams-on-prem-implement.md)
 
 移移您的語音解決方案時，移至 TeamsOnly 模式時，有四種可能的通話案例：
 

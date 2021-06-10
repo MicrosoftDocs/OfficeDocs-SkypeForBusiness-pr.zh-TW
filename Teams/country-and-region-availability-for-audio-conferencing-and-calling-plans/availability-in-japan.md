@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于日本商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+description: 以下是適用于日本Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
 ms.openlocfilehash: 07163f6aa252bb0ec3e8976a8ed54bba914f4ae9
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51122307"
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于日本商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+以下是適用于日本Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -57,18 +57,18 @@ ms.locfileid: "51122307"
    
 ## <a name="calling-plans"></a>通話方案
 > [!IMPORTANT]
-> 僅適用于以日文為基礎的租使用者。 詳細資訊請參閱 Office [365 版 SoftBank 通話](https://aka.ms/SoftBankVoicePlan)) 。
+> 僅適用于以日文為基礎的租使用者。 如要詳細資訊，請參閱[適用于Office 365) 。](https://aka.ms/SoftBankVoicePlan)
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|可以購買通話方案嗎？  <br/> |是，請參閱 [Office 365 的 SoftBank 通話](https://aka.ms/SoftBankVoicePlan)。  <br/> |
-|通話方案可用的分鐘數  <br/> |請參閱 [Office 365 的 SoftBank 通話](https://aka.ms/SoftBankVoicePlan)。 <br/> |
-|可以向外撥打電話嗎？  <br/> |請參閱 [Office 365 的 SoftBank 通話](https://aka.ms/SoftBankVoicePlan)。 <br/> |
+|可以購買通話方案嗎？  <br/> |是，請參閱[SoftBank 通話Office 365。](https://aka.ms/SoftBankVoicePlan)  <br/> |
+|通話方案可用的分鐘數  <br/> |請參閱[SoftBank 通話Office 365。](https://aka.ms/SoftBankVoicePlan) <br/> |
+|可以向外撥打電話嗎？  <br/> |請參閱[SoftBank 通話Office 365。](https://aka.ms/SoftBankVoicePlan) <br/> |
 
 > [!IMPORTANT]
 > 若要刪除使用者 (或) 由 SoftBank (所提供的電話號碼) 請直接與 SoftBank 聯繫。
 > 若要更新由 SoftBank 提供的 (使用者) 電話號碼的緊急 (，請) 與 SoftBank 聯繫。
-> 詳細資訊，請參閱 [Office 365 的 SoftBank 通話](https://aka.ms/SoftBankVoicePlan)。
+> 詳細資訊，請參閱適用于[Office 365 的 SoftBank Office 365。](https://aka.ms/SoftBankVoicePlan)
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 

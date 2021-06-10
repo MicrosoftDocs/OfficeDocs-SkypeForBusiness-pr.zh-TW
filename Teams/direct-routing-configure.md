@@ -18,7 +18,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 瞭解如何設定 Microsoft Phone System Direct Routing，將您的內部部署電話基礎結構連接到 Microsoft Teams。
+description: 瞭解如何設定 Microsoft 電話直接路由，將您的內部部署電話基礎結構連接到Microsoft Teams。
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: ecd8579ccd092e6b82deb06aa670901cdfc3b023
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -29,14 +29,14 @@ ms.locfileid: "51122237"
 ---
 # <a name="configure-direct-routing"></a>設定直接路由
 
-Microsoft Phone System Direct Routing 可讓您將內部部署電話基礎結構連接到 Microsoft Teams。 本文列出將支援的內部部署會話邊界控制器 (SBC) 連接到直接路由所需的高層級步驟，以及如何設定 Teams 使用者使用直接路由來連接到公用交換電話網絡 (PSTN) 。 本文連結至相關文章以尋找詳細資料。  
+Microsoft 電話系統直接路由可讓您將內部部署電話基礎結構連接到Microsoft Teams。 本文列出將支援的內部部署會話邊界控制器 (SBC) 連接到直接路由所需的高層級步驟，以及如何將 Teams 使用者設定為使用直接路由來連接到公用交換電話網絡 (PSTN) 。 本文連結至相關文章以尋找詳細資料。  
 
-有關直接路由是否適合貴組織的解決方案，請參閱 [電話系統直接路由](direct-routing-landing-page.md)。 有關先決條件和規劃部署的資訊，請參閱規劃 [直接路由](direct-routing-plan.md)。
+有關直接路由是否適合貴組織的解決方案，請參閱直接路由[電話系統> 。](direct-routing-landing-page.md) 有關先決條件和規劃部署的資訊，請參閱規劃 [直接路由](direct-routing-plan.md)。
 
 > [!Tip]
-> 您也可以觀看下列會話，以瞭解直接路由的好處、如何規劃，以及如何部署 [：Microsoft Teams](https://aka.ms/teams-direct-routing)中的直接路由。
+> 您也可以觀看下列會話，以瞭解直接路由的好處、如何規劃，[以及如何](https://aka.ms/teams-direct-routing)部署：直接路由在 Microsoft Teams。
 
-若要完成本文說明的步驟，系統管理員需要熟悉 PowerShell Cmdlet。 有關使用 PowerShell 的資訊，請參閱為 [Windows PowerShell 設定您的電腦](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)。 
+若要完成本文說明的步驟，系統管理員需要熟悉 PowerShell Cmdlet。 有關使用 PowerShell 的資訊，請參閱設定您的電腦[Windows PowerShell。](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 
 
 在執行這些文章中的步驟之前，Microsoft 建議您確認您的 SBC 已按照 SBC 廠商的建議進行配置： 
 
@@ -48,9 +48,9 @@ Microsoft Phone System Direct Routing 可讓您將內部部署電話基礎結構
 
 有關支援 SBC 的完整清單，請參閱通過直接路由認證的會話 [邊界控制器清單](direct-routing-border-controllers.md)。
 
-若要設定 Microsoft Phone System 並讓使用者使用直接路由，請遵循下列步驟： 
+若要設定 Microsoft 電話，並讓使用者使用直接路由，請遵循下列步驟： 
 
-- **步驟 1。** [使用 Microsoft Phone 系統連接 SBC 並驗證連接](direct-routing-connect-the-sbc.md)
+- **步驟 1。** [連線系統Microsoft 電話 SBC 並驗證連接](direct-routing-connect-the-sbc.md)
 - **步驟 2.** [啟用使用者進行直接路由、語音和語音信箱](direct-routing-enable-users.md)
 - **步驟 3.** [設定語音路由](direct-routing-voice-routing.md)
 - **步驟 4.** [將數位轉換成替代格式](direct-routing-translate-numbers.md) 

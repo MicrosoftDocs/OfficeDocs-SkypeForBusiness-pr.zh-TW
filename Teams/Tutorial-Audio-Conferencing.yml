@@ -2,7 +2,7 @@
 title: 教學課程：音訊會議 - Microsoft Teams
 metadata:
   title: Microsoft Teams 中的音訊會議
-  description: 使用此互動式教學課程來瞭解 Microsoft Teams 音訊會議的需求、規劃步驟及報告。
+  description: 使用此互動式教學課程，瞭解音訊會議在 Microsoft Teams 中的需求、規劃步驟及Microsoft Teams。
   ms.custom:
   - seo-marvel-apr2020
   - seo-marvel-mar2020
@@ -31,7 +31,7 @@ metadata:
 items:
 - durationInMinutes: 1
   content: >
-    在此訓練中，我們介紹 Microsoft Teams 中的音訊會議功能：從一般電話加入 Teams 會議，以及從會議撥出到電話號碼。 除了 Teams 的需求與規劃考慮之外，我們還會涵蓋 Teams 的音訊會議功能。
+    在此訓練中，我們Microsoft Teams音訊會議-從一般Teams加入會議，以及從會議撥出到電話號碼。 除了會議需求與規劃考慮之外，Teams中涵蓋音訊會議Teams。
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
@@ -43,7 +43,7 @@ items:
 
     -   負責規劃、部署或管理 Teams 的人員。
 
-    -   考慮在 Teams 中規劃、部署或管理音訊會議。
+    -   考慮規劃、部署或管理音訊會議Teams。
 
 
     我們將討論以下部分：
@@ -55,7 +55,7 @@ items:
     -   報告
 
 
-    音訊會議新增功能到 Teams 中的會議。 我們建議您在教學課程之前完成 [Microsoft Teams](./tutorial-meetings-in-teams.yml) 中的會議。
+    音訊會議新增功能至會議Teams。 我們建議您在教學課程之前[完成Microsoft Teams](./tutorial-meetings-in-teams.yml)會議。
 
 
     [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
@@ -68,24 +68,24 @@ items:
 
 
     若要向我們提供有關 Teams 的產品意見反應，例如新功能的想法，請存取 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
-- title: Teams 中的音訊會議
+- title: 音訊會議Teams
   durationInMinutes: 12
-  content: "\n使用音訊會議，參與者可以使用一般電話參與 Teams 會議，無論是從電話撥入會議，還是使用會議中撥出功能。 請閱閱下列資源以深入瞭解音訊會議：\n-   [音訊會議功能 (](https://products.office.com/skype-for-business/audio-conferencing#Features) 估計閱讀時間 1 分鐘) \n-   [使用 Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)開會的 9 個 (1 - 透過音訊會議加入會議」 的估計閱讀時間為 1 分鐘;如果您閱讀整篇文章，) \\#\n-   [音訊會議常見問題 (](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) 估計閱讀時間 7 分鐘) \n-   [從會議撥出，](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) 讓其他人可以加入會議， (估計的閱讀時間為 2 分鐘) \n"
+  content: "\n使用音訊會議，參與者可以使用一般電話參與 Teams 會議，無論是從電話撥入會議，還是使用會議中撥出功能。 請閱閱下列資源以深入瞭解音訊會議：\n-   [音訊會議功能 (](https://products.office.com/skype-for-business/audio-conferencing#Features) 估計閱讀時間 1 分鐘) \n-   [9](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)個與 Microsoft Teams (會議秘訣，「1 - 透過音訊會議加入會議」的估計閱讀時間為 \\# 1 分鐘;如果您閱讀整篇文章，) \n-   [音訊會議常見問題 (](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions) 估計閱讀時間 7 分鐘) \n-   [從會議撥出，](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) 讓其他人可以加入會議， (估計的閱讀時間為 2 分鐘) \n"
 - title: 案例 – 音訊會議
   durationInMinutes: 1
-  content: "\nGarth 在 Contoso 公司工作，該公司有多個辦公室。 Garth 經常需要與其他辦公室位置的人聯繫，而且由於他經常在家工作或外出，因此他非常喜歡 Teams 會議。 當 Garth 傳送會議邀請時，會自動新增音訊會議的資訊。 這樣一來，下列案例就大有可能：\n-   她想要參加 Garth 的會議，但是她在路上，而且無法存取可靠的網路。 因此，她使用會議邀請中的撥入座標來加入會議。 在撥入程式期間，她會使用 PIN 進行驗證，因此系統會將她識別為「張心心」。\n-   目前位於旅館的 Bob 使用電腦上的 Teams 用戶端加入會議。 很抱歉，透過旅館網際網路連接的音訊品質並不高，因此 Bob 從會議撥出自己的電話號碼，透過公用交換電話網路 (PSTN) 。\n-   如果會議參與者在通話期間決定要以不同的電話號碼新增使用者，他們只要撥出電話號碼，並帶其他人加入會議。\n-   其他使用者也可以從電腦、Mac 或行動裝置上的 Teams 用戶端加入。\n\n在 Teams 中，會議召集人可以結束所有會議參與者的會議。 這在以下情况下非常有用：\n\n-   授課者就能在課程完成之後，確保學生不會留在會議中而不受監督。\n-   對於正在錄製的會議 (如網路研討會)，會議召集人可以確保錄製在會議結束時結束。\n-   結束所有參與者的會議，有助於減少貴組織的 PSTN 使用量和計費。 \n\n例如，會議結束後，Garth 可以在小組中按一下 **[會議結束]** 並從會議中移除所有參與者。\n"
-- title: 商務用 Skype 客戶的考慮
+  content: "\nGarth 在 Contoso 公司工作，該公司有多個辦公室。 Garth 經常需要與其他辦公室位置的人聯繫，而且由於他經常在家工作或外出，因此他非常喜歡Teams會議。 當 Garth 傳送會議邀請時，會自動新增音訊會議的資訊。 這樣一來，下列案例就大有可能：\n-   她想要參加 Garth 的會議，但是她在路上，而且無法存取可靠的網路。 因此，她使用會議邀請中的撥入座標來加入會議。 在撥入程式期間，她會使用 PIN 進行驗證，因此系統會將她識別為「張心心」。\n-   目前位於旅館的 Bob 使用電腦Teams加入會議。 很抱歉，透過旅館網際網路連接的音訊品質並不高，因此 Bob 從會議撥出自己的電話號碼，透過公用交換電話網路 (PSTN) 。\n-   如果會議參與者在通話期間決定要以不同的電話號碼新增使用者，他們只要撥出電話號碼，並帶其他人加入會議。\n-   其他使用者也可以從電腦、Teams或行動裝置上的用戶端加入。\n\n在 Teams 中，會議召集人可以結束所有會議參與者的會議。 這在以下情况下非常有用：\n\n-   授課者就能在課程完成之後，確保學生不會留在會議中而不受監督。\n-   對於正在錄製的會議 (如網路研討會)，會議召集人可以確保錄製在會議結束時結束。\n-   結束所有參與者的會議，有助於減少貴組織的 PSTN 使用量和計費。 \n\n例如，會議結束後，Garth 可以在小組中按一下 **[會議結束]** 並從會議中移除所有參與者。\n"
+- title: 客戶商務用 Skype考慮
   durationInMinutes: 1
-  content: "\n如果您已經在使用商務用 Skype，您必須考慮下列事項：\n\n### <a name=\"skype-for-business-serverhomed-users\"></a>商務用 Skype Server-homed 使用者\n\n如果您使用的是商務用 Skype Server，則位於商務用 Skype 內部部署中的使用者所排程的 Teams 會議不包含 PSTN 會議座標。 如果您在 2019 年 3 月 1 日之前將音訊會議授權指派給這些使用者，您可能需要取消指派這些授權、等候 2 小時，然後重新指派這些授權，讓使用者看到 PSTN 會議座標。\n\n### <a name=\"skype-for-business-onlinehomed-users\"></a>商務用 Skype Online-homed 使用者\n\n如果使用者是商務用 Skype Online 中的主使用者，且已啟用音訊會議功能，系統會自動在 Teams 中為音訊會議啟用使用者。 他們在撥入會議時用於驗證的 PIN 碼，與商務用 Skype 和 Teams 相同。\n"
+  content: "\n如果您已經在使用商務用 Skype，您必須考慮下列事項：\n\n### <a name=\"skype-for-business-serverhomed-users\"></a>商務用 Skype Server使用者\n\n如果您使用的是商務用 Skype Server，Teams內部部署商務用 Skype所排程的會議將不會包含 PSTN 會議座標。 如果您在 2019 年 3 月 1 日之前將音訊會議授權指派給這些使用者，您可能需要取消指派這些授權、等候 2 小時，然後重新指派這些授權，讓使用者看到 PSTN 會議座標。\n\n### <a name=\"skype-for-business-onlinehomed-users\"></a>商務用 Skype線上家用使用者\n\n如果使用者目前商務用 Skype線上，且已啟用音訊會議功能，系統就會在 Teams 中自動啟用這些Teams。 他們撥入會議時用於驗證的 PIN，對於商務用 Skype和Teams。\n"
 - title: 構想音訊會議
   durationInMinutes: 48
   content: "\n實際指南詳述規劃及成功實做音訊會議所需的內容。 請閱閱下列文章以瞭解下列技術規劃步驟：\n\n-   [定義我的成功 - 音訊會議 (](https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-audio-conferencing) 估計閱讀時間 11 分鐘) \n-   [做出我的服務決策 - 音訊會議 (](./deploy-audio-conferencing-teams-landing-page.md) 估計閱讀時間 12 分鐘) \n-   [評估我的 (](./3-envision-evaluate-my-environment.md) 估計閱讀時間 12 分鐘) \n-   [規劃我的服務管理 (](./4-envision-plan-my-service-management.md) 估計閱讀時間 5 分鐘) \n-   [規劃我使用者的體驗， (](./5-envision-plan-my-users-experience.md) 5 分鐘的閱讀) \n-   [將我的成功計畫 (](./6-envision-document-my-success-plan.md) 估計閱讀時間 6 分鐘) \n"
 - title: 板載音訊會議
   durationInMinutes: 13
-  content: "\n就像構想一樣，實際指南中也涵蓋上一步。 請閱閱下列文章，瞭解如何將使用者加入音訊會議：\n\n-   [準備我的服務 (](./1-onboard-prepare-my-service.md) 估計閱讀時間 6 分鐘) \n-   [準備我的使用者 (](./2-onboard-prepare-my-users.md) 估計閱讀時間 2 分鐘) \n-   [部署我的服務 (](./3-onboard-deploy-my-service.md) 估計閱讀時間 3 分鐘) \n-   [音訊會議疑難排解和已知問題 (](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues) Teams 特定內容的閱讀時間預估為 2 分鐘) \n"
+  content: "\n就像構想一樣，實際指南中也涵蓋上一步。 請閱閱下列文章，瞭解如何將使用者加入音訊會議：\n\n-   [準備我的服務 (](./1-onboard-prepare-my-service.md) 估計閱讀時間 6 分鐘) \n-   [準備我的使用者 (](./2-onboard-prepare-my-users.md) 估計閱讀時間 2 分鐘) \n-   [部署我的服務 (](./3-onboard-deploy-my-service.md) 估計讀取時間 3 分鐘) \n-   [音訊會議疑難排解和已知問題 (](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-troubleshooting-and-known-issues)特定內容Teams閱讀時間預估為 2 分鐘) \n"
 - title: 練習 - 設定音訊會議
   durationInMinutes: 20
-  content: "\n在這個練習中，您將有機會在 Teams 中測試音訊會議。\n雖然我們沒有描述如何執行每個案例，但我們推薦一些情況來嘗試。\n\n### <a name=\"requirements\"></a>需求\n-   具有使用 Teams 的適當權限的 Office 365 組織\n    -   我們強烈建議您使用專用測試租用戶。\n    -   如果您沒有測試租用戶，則可以在 [Office 365 企業版 E5 試用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)上注册試用租用戶。\n    -   不要在實際執行環境中執行任何測試。 更改設定或原則可能會對所有使用者產生負面影響，並可能影響他們的使用者體驗。\n-   至少兩個端點\n    -   這可以是兩台電腦，但您也可以在手機上使用用戶端。\n    -   可撥入會議並撥出到的電話\n\n### <a name=\"suggested-scenarios-to-test\"></a>建議測試的場景\n-   啟用音訊會議的使用者。\n-   為不同的使用者設定不同的會議橋接器號碼。\n-   變更租使用者的預設會議橋接器號碼。\n-   變更會議橋接器號碼的設定 (語言) 。\n-   變更會議橋接器的全域 (進入和離開通知、PIN 長度、電子郵件通知) 。\n-   觀察要發送給使用者的電子郵件。\n-   排程 Teams 會議，並審查會議邀請。\n-   從電話加入會議。\n-   從會議撥出到電話。\n-   在會議期間使用雙色調多頻率控制項，將電話設為靜音和取消靜音。\n-   結束所有使用者的會議。 \n"
+  content: "\n在這個練習中，您將有機會在 Teams 中測試音訊Teams。\n雖然我們沒有描述如何執行每個案例，但我們推薦一些情況來嘗試。\n\n### <a name=\"requirements\"></a>需求\n-   具有使用 Teams 的適當權限的 Office 365 組織\n    -   我們強烈建議您使用專用測試租用戶。\n    -   如果您沒有測試租用戶，則可以在 [Office 365 企業版 E5 試用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)上注册試用租用戶。\n    -   不要在實際執行環境中執行任何測試。 更改設定或原則可能會對所有使用者產生負面影響，並可能影響他們的使用者體驗。\n-   至少兩個端點\n    -   這可以是兩台電腦，但您也可以在手機上使用用戶端。\n    -   可撥入會議並撥出到的電話\n\n### <a name=\"suggested-scenarios-to-test\"></a>建議測試的場景\n-   啟用音訊會議的使用者。\n-   為不同的使用者設定不同的會議橋接器號碼。\n-   變更租使用者的預設會議橋接器號碼。\n-   變更會議橋接器號碼的設定 (語言) 。\n-   變更會議橋接器的全域 (進入和離開通知、PIN 長度、電子郵件通知) 。\n-   觀察要發送給使用者的電子郵件。\n-   排Teams會議，並審查會議邀請。\n-   從電話加入會議。\n-   從會議撥出到電話。\n-   在會議期間使用雙色調多頻率控制項，將電話設為靜音和取消靜音。\n-   結束所有使用者的會議。 \n"
 - title: 磁碟機值
   durationInMinutes: 1
   content: "\n從報告的觀點看，您有兩個需要查看的區域：\n-   使用方式：：召開多少次會議？\n-   品質：會議的品質如何？\n\n您應該仔細監控這兩個方面：\n-   低使用率意味著使用者出於某種原因不使用該產品。 只有進一步調查，才能判斷原因。\n    原因可能包括會議的使用者需求不足、認知或訓練不足，以及品質問題。\n-   另一方面，低品質意味著使用者和 Office 365 之間的連線能力存在問題。 低品質會導致使用者體驗不佳，並降低使用率。 請參閱[系統管理中心中的 Microsoft 365 報告 - Microsoft Teams 使用者活動](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (估計閱讀時間 5 分鐘)，以瞭解有關使用率報告的更多資訊。\n\n品質管制不在本訓練範圍內，但請參閱以下訓練資料：\n\n-   [營運我的服務](./1-drive-value-operate-my-service.md)\n"
@@ -94,7 +94,7 @@ items:
   content: >-
     在本次訓練中，我們討論了以下關鍵知識：
 
-    -   Teams 中的音訊會議
+    -   音訊會議Teams
 
     -   音訊會議的需求
 
@@ -104,7 +104,7 @@ items:
     ### <a name="next-steps"></a>後續步驟
 
 
-    1.  在 Teams 中開始使用音訊會議。
+    1.  開始在 Teams 中使用音訊Teams。
 
     2.  傳送意見反應給我們：
         - 張貼在本頁底部的註解區段。

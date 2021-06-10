@@ -50,7 +50,7 @@ Microsoft 正在努力提供更多疑難排解和監控工具。 請定期檢查
 
 當使用者撥打號碼 +1 425 \<any seven digits> 時，直接路由會評估路由。 路由有兩個 SBC：sbc1.contoso.com 和 sbc2.contoso.com。 這兩個 SBC 在路由中具有相等的優先順序。 挑選 SBC 之前，路由機制會根據 SBC 上次傳送 SIP 選項的時間，評估 SBC 的健康情況。 
 
-如果傳送通話時的統計資料顯示 SBC 每分鐘傳送選項，則 SBC 會視為健康狀態。  
+如果傳送通話時的統計資料顯示 SBC 每分鐘傳送選項，則 SBC 會被視為健康狀態。  
 
 進行通話時，會採用下列邏輯：
 
@@ -58,15 +58,15 @@ Microsoft 正在努力提供更多疑難排解和監控工具。 請定期檢查
 - SBC 會于上午 11：01、上午 11：02 等傳送選項。  
 - 在 11：15，使用者進行通話，而路由機制會選取此 SBC。 
 
-直接路由會採用三次定期間隔選項 (而一般間隔為一分鐘) 。 如果選項是在過去三分鐘內傳送的，則 SBC 會視為健康狀態。
+直接路由會採用三次定期間隔選項 (而一般間隔為一分鐘) 。 如果選項是在過去三分鐘內傳送，則 SBC 會視為健康狀態。
 
 如果範例中的 SBC 在上午 11：12 到上午 11：15 (通話時間) 之間，會被視為健康狀態。 如果沒有，SBC 將會從路由降級。 
 
-降級表示不會先嘗試 SBC。 例如，我們有一 sbc1.contoso.com sbc2.contoso.com 優先順序。  
+降級表示不會先試用 SBC。 例如，我們有一 sbc1.contoso.com sbc2.contoso.com 等優先順序。  
 
-如果 sbc1.contoso.com 未如先前所述定期傳送 SIP 選項，系統即會降級。 接下來，sbc2.contoso.com 通話。 如果 sbc2.contoso.con 無法傳遞通話，系統 sbc1.contoso.com (降級) 再試一次，然後再產生失敗。 
+如果 sbc1.contoso.com 未如先前所述定期傳送 SIP 選項，系統即會降級。 接下來，sbc2.contoso.com 通話。 如果 sbc2.contoso.con 無法傳遞通話，系統 sbc1.contoso.com (降級) 在產生失敗之前再試一次。 
 
-如果 (一個路由) 兩個或多個 SBCs 視為健康且相等，Fisher-Yates隨機播放會用於在 SBCs 之間分配通話。
+如果 (一個路由) 兩個或多個 SBCs 視為健康且相等，Fisher-Yates隨機播放會用於在 SBC 之間分配通話。
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>監控通話品質分析儀表板和 SBC 記錄 
  
@@ -79,7 +79,7 @@ Microsoft 正在努力提供更多疑難排解和監控工具。 請定期檢查
 
 直接路由服務有非常描述性的錯誤碼，會報告給通話分析或 SBC 記錄。 
 
-通話品質儀表板提供有關通話品質和可靠性的資訊。 若要深入瞭解如何使用通話分析疑難排解問題，請參閱開啟並使用 [Microsoft Teams](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) 和商務用 Skype Online 的通話品質儀表板，以及使用通話分析來疑難排解通話品質 [不佳的問題](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)。 
+通話品質儀表板提供有關通話品質和可靠性的資訊。 若要深入瞭解如何使用通話分析疑難排解問題，請參閱開啟並使用[Microsoft Teams](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard)和 商務用 Skype 的通話品質儀表板，以及使用通話分析來疑難排解通話品質[不佳的問題](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality)。 
 
 如果通話失敗，通話分析會提供標準 SIP 代碼，可協助進行疑難排解。 
 

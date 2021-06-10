@@ -1,5 +1,5 @@
 ---
-title: 安裝 Microsoft Teams PowerShell
+title: 在 PowerShell Microsoft Teams安裝
 ms.reviewer: brandber
 author: brandber
 ms.author: brandber
@@ -10,7 +10,7 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: 瞭解如何使用 PowerShell 控制項來管理 Microsoft Teams。
+description: 瞭解如何使用 PowerShell 控制項來管理Microsoft Teams。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 002f2bc8408536d79274c5e9b001f5e2a5eb55b3
@@ -20,24 +20,24 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 04/15/2021
 ms.locfileid: "51768335"
 ---
-# <a name="install-microsoft-teams-powershell"></a>安裝 Microsoft Teams PowerShell
+# <a name="install-microsoft-teams-powershell"></a>在 PowerShell Microsoft Teams安裝
 
-本文將說明如何使用 PowerShellGet 安裝 Microsoft Teams [PowerShell 模組](/powershell/scripting/gallery/installing-psget)。 這些指示可于 [Azure Cloud Shell、Linux、macOS](/azure/cloud-shell/overview)和 Windows 平臺上使用。
+本文說明如何使用[PowerShellGet](/powershell/scripting/gallery/installing-psget)Microsoft Teams PowerShell 模組。 這些指示可于 Azure Cloud Shell、Linux、macOS 和 Windows平臺上使用。 [](/azure/cloud-shell/overview)
 
 ## <a name="requirements"></a>需求
 
-Teams PowerShell 需要在所有平臺上使用 PowerShell 5.1 或更高版本。 安裝[適用于您作業系統的最新版本的 PowerShell。](/powershell/scripting/install/installing-powershell)
+TeamsPowerShell 需要在所有平臺上使用 PowerShell 5.1 或更高版本。 安裝[適用于您作業系統的最新版本的 PowerShell。](/powershell/scripting/install/installing-powershell)
 
 > [!NOTE]
 > 為了獲得最佳體驗，建議您使用 PowerShell 5.1。
 
-## <a name="install-the-teams-powershell-module"></a>安裝 Teams PowerShell 模組
+## <a name="install-the-teams-powershell-module"></a>安裝 powerShell Teams模組
 
 > [!NOTE]
 > 為了獲得最佳體驗，請使用一般 (GA) 或公用預覽模組 -而不是兩者。 它們並不適合共同作業。
 
 
-使用 **PowerShellGet** Cmdlet 來安裝 Teams PowerShell 模組。 在系統上為所有使用者安裝模組時，需要提升許可權。 使用 Windows 中的系統管理員 **執行** PowerShell 會話，或使用 macOS 或 `sudo` Linux 上的命令：
+使用 **PowerShellGet** Cmdlet 來安裝 powerShell 模組Teams模組。 在系統上為所有使用者安裝模組時，需要提升許可權。 在 macOS 或Linux 上Windows以系統管理員Windows `sudo` 啟動 PowerShell 會話：
 
 ```powershell
 Install-Module MicrosoftTeams
@@ -59,10 +59,10 @@ Are you sure you want to install the modules from 'PSGallery'?
 
 ## <a name="sign-in"></a>登錄
 
-若要開始使用 Teams PowerShell，請以 Azure 認證來登錄。
+若要開始使用 PowerShell Teams，請以 Azure 認證來登錄。
 
 > [!NOTE]
-> 如果您使用的是最新的 [Teams PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)公開預覽版，則不需要安裝商務用 Skype Online 連接器。
+> 如果您使用的是最新版[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Teams版本，則不需要安裝 商務用 Skype 連接器。
 
 ```powershell
 $credential = Get-Credential
@@ -82,32 +82,32 @@ Connect-MicrosoftTeams -AccountId <UPN>
 
 ## <a name="update-teams-powershell"></a>更新 Teams PowerShell
 
-若要更新 Teams PowerShell，請開啟新的提升的 PowerShell 命令提示，然後執行下列操作：
+若要更新 powerShell Teams，請開啟新的提升的 PowerShell 命令提示，然後執行下列操作：
 
 ```powershell
 Update-Module MicrosoftTeams
 ```
 
 > [!WARNING]
-> 如果 Teams PowerShell 已導入 PowerShell 會話，更新模組將會失敗。 關閉 PowerShell，然後重新開啟新的提升的 PowerShell 會話。
+> 如果Teams PowerShell 已導入到 PowerShell 會話，更新模組將會失敗。 關閉 PowerShell，然後重新開啟新的提升的 PowerShell 會話。
 
 
 ## <a name="uninstall-teams-powershell"></a>卸載 Teams PowerShell
 
-若要卸載 Teams PowerShell，請開啟新的提升的 PowerShell 命令提示，然後執行下列操作：
+若要卸載 powerShell Teams，請開啟新的提升的 PowerShell 命令提示，然後執行下列操作：
 
 ```powershell
 Uninstall-Module MicrosoftTeams
 ```
 > [!WARNING]
-> 如果 Teams PowerShell 已導入您的 PowerShell 會話，卸載模組將會失敗。 關閉 PowerShell，然後重新開啟新的提升的 PowerShell 會話。
+> 如果Teams PowerShell 已導入 PowerShell 會話，卸載模組將會失敗。 關閉 PowerShell，然後重新開啟新的提升的 PowerShell 會話。
 
-## <a name="install-teams-powershell-public-preview"></a>安裝 Teams PowerShell 公開預覽版
+## <a name="install-teams-powershell-public-preview"></a>安裝 powerShell Teams預覽版
 
 > [!NOTE]
-> 如果您使用的是 Teams PowerShell 的公用預覽版，我們強烈建議您先卸載商務用 Skype Online Connector。
+> 如果您使用的是 PowerShell 的公用預覽版Teams，我們強烈建議您先卸載商務用 Skype連接器。
 
-在系統上為所有使用者安裝 Teams PowerShell 公用預覽模組時，需要提升許可權。 使用 Windows 中的系統管理員 **執行** PowerShell 會話，或使用 macOS 或 `sudo` Linux 上的命令。
+在系統Teams安裝 PowerShell 公用預覽模組時，需要提升許可權。 在 macOS 或Linux 上Windows以系統管理員Windows `sudo` PowerShell 會話。
 
 如果您使用的是 PowerShell 5.1，則必須事先更新 **PowerShellGet** 模組。 更新 **PowerShellGet** 之後，關閉並重新開啟提升的 PowerShell 會話，以確保載入最新的 **PowerShellGet。**
 
@@ -115,7 +115,7 @@ Uninstall-Module MicrosoftTeams
 Install-Module PowerShellGet -Force -AllowClobber
 ```
 
-若要安裝 Teams PowerShell 公開預覽版，請執行下方的 PowerShell 命令。
+若要安裝 powerShell Teams預覽版，請執行下方的 PowerShell 命令。
 
 > [!NOTE]
 > 您可以在 PowerShell 圖庫或 [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams) 中，使用「Find-Module MicrosoftTeams -AllowPrerelease -AllVersions」來尋找最新的預覽版本
@@ -126,13 +126,13 @@ Install-Module MicrosoftTeams -AllowPrerelease -RequiredVersion "1.1.9-preview"
 
 ## <a name="next-steps"></a>後續步驟
 
-現在，您已準備好使用 Teams PowerShell 來管理 Teams。 請參閱 [使用 Teams PowerShell 管理 Teams](teams-powershell-managing-teams.md) 以開始使用。
+現在，您可以使用 PowerShell Teams管理Teams程式。 請參閱[使用 powerShell Teams管理Teams以](teams-powershell-managing-teams.md)開始使用。
 
 ## <a name="related-topics"></a>相關主題
 
-[使用 Teams PowerShell 管理 Teams](teams-powershell-managing-teams.md)
+[使用 powerShell Teams管理Teams](teams-powershell-managing-teams.md)
 
-[Teams PowerShell 版本資訊](teams-powershell-release-notes.md)
+[TeamsPowerShell 版本資訊](teams-powershell-release-notes.md)
 
 [Microsoft Teams Cmdlet 參照](/powershell/teams/?view=teams-ps)
 

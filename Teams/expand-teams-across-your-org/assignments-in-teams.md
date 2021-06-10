@@ -1,5 +1,5 @@
 ---
-title: Teams 的作業
+title: 作業Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,7 +17,7 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: 瞭解如何在 Teams 教育用 Microsoft Teams 系統管理中心管理作業。
+description: 瞭解如何在教育Microsoft Teams系統管理中心Teams作業。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
@@ -30,29 +30,29 @@ ms.locfileid: "51121371"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的作業
 
-Teams 教育課程的作業和成績功能允許教育人員將工作、工作或測驗指派給學生。 教師可以管理作業時程表、指示、新增資源以上交、以成績評分等等。 他們也可以追蹤課程和個別學生的進度在 "成績" 選項卡中。
+教育課程課程Teams作業和成績功能，讓教育者可以將工作、工作或測驗指派給學生。 教師可以管理作業時程表、指示、新增資源以上交、以成績評分等等。 他們也可以追蹤課程和個別學生的進度在 "成績" 選項卡中。
 
-[深入瞭解 Teams 教育課程的作業和成績](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)。
+[深入瞭解教育Teams作業和成績](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)。
 
 > [!Note]
-> 有關不同平臺上 Teams 作業的詳細資訊，請參閱 [平臺的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
+> 有關不同平臺上Teams作業的詳細資訊，請參閱[Teams平臺的功能。](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
 
-## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 系統管理中心的作業整合
+## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>系統管理中心中的作業Microsoft Teams整合
 
-使用 Microsoft Teams 系統管理中心的系統管理設定，您可以開啟或關閉貴組織內部教育人員及其學生的功能。 以下是與作業相關的設定：
+您可以使用系統管理中心Microsoft Teams設定，為貴組織及其學生中的教育人員開啟或關閉功能。 以下是與作業相關的設定：
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>每週監護人電子郵件摘要
 
 
-監護人電子郵件會在每個週末寄給家長或監護人。 電子郵件包含前一周和下周的作業相關資訊。 家長和監護人同步處理可以使用學校資料同步 [處理來設定](/schooldatasync/parent-contact-sync)。
+監護人電子郵件會在每個週末寄給家長或監護人。 電子郵件包含前一周和下周的作業相關資訊。 家長和監護人同步設定可以使用[學校資料同步處理。](/schooldatasync/parent-contact-sync)
 
 1. 在 SDS 中透過家長和監護人同步操作來輸入家長連絡人資訊。 有關如何啟用家長和監護人同步處理的指示，請參閱 [啟用家長和監護人同步處理](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync)。
 
-2. 在 Microsoft Teams 系統管理中心開啟監護人設定，因為預設會關閉設定。 這可讓教師傳送每週摘要。
+2. 在系統管理中心Microsoft Teams監護人設定，因為預設會關閉設定。 這可讓教師傳送每週摘要。
 
    > [!NOTE]
-   > 教師可以退出宣告摘要，在他們自己的個人班級小組中取消選擇設定 (作業設定>家長 **/** 監護人電子郵件) 。
+   > 教師可以退出宣告摘要，在他們自己的個人班級小組中取消選擇設定 (作業設定 >家長 **/** 監護人電子郵件) 。
 
 若要確認家長會收到電子郵件，下列三個專案必須正確：
 
@@ -73,7 +73,7 @@ MakeCode 是 Microsoft 產品，受 Microsoft[使用條款和](https://go.micros
 
 此功能的預設設定為 - **關閉**。
 
-若要在 Teams 中啟用 MakeCode 作業，請前往 Teams **系統管理中心**、流覽至作業區段，然後將 MakeCode 切換選項切換到 **開啟**。 按一下 [儲存]。 允許幾個小時讓這些設定生效。
+若要在 Teams中啟用 MakeCode 作業，請Teams系統管理 **中心**、流覽至作業區段，然後將 MakeCode 切換選項切換到 **開啟**。 按一下 [儲存]。 允許幾個小時讓這些設定生效。
 
 有關此功能運作方式的資訊，請參閱此 [影片示範](https://makecode.com/blog/teams/teams-assignments)。
 
@@ -102,7 +102,7 @@ MakeCode 是 Microsoft 產品，受 Microsoft[使用條款和](https://go.micros
 
 ![顯示新增整合的螢幕擷取畫面](./educationImages/Assignments_mopo_turnitin2.png)
 
-在您遵循提示後，系統就會提供 **TurnitinApiKey。** 複製 API 金鑰並貼到 Microsoft Teams 系統管理中心。  這是您唯一可以查看金鑰的時間。
+在您遵循提示後，系統就會提供 **TurnitinApiKey。** 複製 API 金鑰並貼到系統管理Microsoft Teams中心。  這是您唯一可以查看金鑰的時間。
 
 ![顯示覆制 API 金鑰的螢幕擷取畫面](./educationImages/Assignments_mopo_turnitin3.png)
 

@@ -29,7 +29,7 @@ ms.custom:
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
 - Licensing
-description: '瞭解如何在商務用 Skype 服務 (PSTN 消費) 支付通訊信用額度，並查看讓使用者持續使用電話系統存取權的計畫。 '
+description: '瞭解如何支付 PSTN (PSTN) 服務商務用 Skype的通訊商務用 Skype，並查看讓使用者持續使用電話系統存取權的計畫。 '
 ms.openlocfilehash: 4730cf33a11adfa3d1527304ef0adecf2d2209cb
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -39,13 +39,13 @@ ms.locfileid: "51121491"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>加值和管理通訊點數
 
-在 Microsoft 365 或 Office 365 中，通訊信用額度是支付電話系統與通話方案費用的便利方式。 通訊信用額度有助於確保您和使用者不會因為無法：
+通訊信用額度是支付 電話系統 或 Microsoft 365 通話方案Office 365。 通訊信用額度有助於確保您和使用者不會因為無法：
   
-- 使用免付費電話撥入電話號碼撥入音訊會議。
+- 使用免付費撥入電話號碼撥入音訊會議會議。
 
 - 從音訊會議撥出，從世界任何地方新增其他人。
 
-- 在已安裝商務用 Skype 或 Microsoft Teams App 的行動電話上，從音訊會議撥出。
+- 從音訊會議會議撥出到行動電話，商務用 Skype或Microsoft Teams應用程式。
 
 - 當您有國內通話方案時，撥打 **任何國際電話號碼**。
 
@@ -56,7 +56,7 @@ ms.locfileid: "51121491"
   
 做為系統管理員，您可以手動新增資金，也可以設定自動加值，我們建議 **這樣做**。
   
-當餘額低於您設定觸發金額時，自動充值會自動超過您的餘額。 我們建議您使用自動加價，這樣您就不必記得手動新增資金。 當您的餘額達到觸發金額時，系統會自動新增資金。 如果您沒有選擇自動充值，則您的餘額風險會低於零。 此時，您和您的使用者將無法撥打免付費電話或國際電話。
+當餘額低於您設定觸發金額時，自動充電會自動超過您的餘額。 建議您使用自動加價，這樣您就不必記得手動新增資金。 當您的餘額達到觸發金額時，系統會自動新增資金。 如果您沒有選擇自動充值，則您的餘額風險會低於零。 此時，您和您的使用者將無法撥打免付費電話或國際電話。
   
 您隨時都可以更新您的付款選項。 在訂閱 **頁面上** ，選取 **通訊信用額度**，然後進行更新。
   
@@ -77,9 +77,9 @@ ms.locfileid: "51121491"
 
 - [電話系統方案](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-您也可以登錄 Microsoft 365 系統管理中心，然後到帳單訂閱  >    >  **新增訂閱** 來查看資訊。
+您也可以登錄系統管理中心，然後Microsoft 365帳單訂閱新增訂閱，來查看  >    >  **資訊**。
   
-若要查看每個功能所需的授權或授權資料表，請參閱 Microsoft Teams [附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+若要查看每個功能所需的授權或授權資料表，[請參閱Microsoft Teams附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 ## <a name="related-topics"></a>相關主題
 
@@ -87,4 +87,4 @@ ms.locfileid: "51121491"
 
 - [設定雲端語音信箱 - 管理說明](set-up-phone-system-voicemail.md)
 
-- [設定 Microsoft](set-up-calling-plans.md) [365 或 Office 365](calling-plans-for-office-365.md)的通話方案與通話方案
+- [設定通話方案](set-up-calling-plans.md)與通話方案[Microsoft 365或Office 365](calling-plans-for-office-365.md)

@@ -39,32 +39,32 @@ ms.locfileid: "51637835"
 
 在設置網路會議之前，請確定貴組織符合下列先決條件： 
 
-- 請確保貴組織中已啟用或將會啟用音訊會議的所有使用者使用 Teams 進行所有會議。 僅 Teams 會議支援透過網內會議傳送輸入和輸出音訊會議通話的路由。
+- 請確保貴組織中已啟用或將會啟用音訊會議的所有使用者，Teams所有會議。 透過網路會議撥打和輸出音訊會議通話的路由僅支援Teams會議。
 
 - 指派音訊會議授權給將會使用網路會議的所有使用者。
 
-- 設定音訊會議服務。 有關其他資訊，請參閱 [設定 Microsoft Teams 的音訊會議](set-up-audio-conferencing-in-teams.md)。
+- 設定音訊會議服務。 有關其他資訊，請參閱[設定音訊會議Microsoft Teams。](set-up-audio-conferencing-in-teams.md)
 
 - 設定會話邊界控制器 (SBC) 直接路由。 有關其他資訊，請參閱 [規劃直接路由](direct-routing-plan.md) 和 [設定直接路由](direct-routing-configure.md)。 
 
-  如果您只針對音訊會議的目的設定直接路由，則只需要完成「步驟 1：連接您的 SBC」，才能進行網路會議。
+  如果您只針對音訊會議的目的設定直接路由，則只需要完成「步驟 1：連線 SBC」的網內會議。
   
 ## <a name="enable-the-routing-of-dial-in-calls-to-microsoft-audio-conferencing-through-direct-routing"></a>啟用透過直接路由將撥入式通話路由至 Microsoft 音訊會議 
 
-若要透過直接路由，將內部部署使用者撥打的撥入電話路由至音訊會議服務，您必須為 SBC 和私人分支 Exchange (PBX)  (設定適當的路由規則) 。
+若要透過直接路由，將內部部署使用者撥打的電話撥入電話路由至音訊會議服務，您必須為 SBC 和私人分支 Exchange (PBX)  (設定適當的路由規則) 。
 
 您需要設定網站的電話設備，以透過直接路由主幹將通話路由到貴組織會議橋接器的任何服務號碼。
 
-您可以在 Teams 系統管理中心的會議 **->** 會議橋接器下，或使用商務用 Skype Online PowerShell Cmdlet Get-CsOnlineDialInConferencingBridge 找到服務號碼。 有關其他資訊，請參閱 Microsoft Teams 中的音訊 [會議號碼清單](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
+您可以在會議 **->** 會議橋接器下的 Teams 系統管理中心找到服務號碼，或使用 商務用 Skype Online PowerShell Cmdlet Get-CsOnlineDialInConferencingBridge。 有關其他資訊，請參閱在 Microsoft Teams 中的[音訊會議號碼Microsoft Teams。](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 
 > [!NOTE]
 > 此功能不適用於擁有每分鐘付費音訊會議授權的使用者。
 
-## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>透過直接路由啟用 Teams 會議撥出通話的路由
+## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>透過直接路由Teams電話撥入電話的路由
 
-Teams 會議撥出電話會從您組織的會議內撥打 PSTN 號碼，包括電話-me-at 通話和通話，以將新參與者帶到會議。 
+Teams會議撥出電話會從貴組織的會議內撥打 PSTN 號碼，包括電話-me-at 通話和通話，以將新參與者帶到會議。 
 
-若要透過直接路由將 Teams 會議撥出路由傳送給網路使用者，您必須建立並指派稱為「OnlineAudioConferencingRoutingPolicy」的音訊會議路由策略。 
+若要Teams直接路由傳送給網路使用者，您必須建立並指派稱為「OnlineAudioConferencingRoutingPolicy」的音訊會議路由策略。 
 
 OnlineAudioConferencingRoutingPolicy 政策相當於透過直接路由撥打 1：1 PSTN 通話的 CsOnlineVoiceRoutingPolicy。 您可以使用下列 Cmdlet 管理 OnlineAudioConferencingRoutingPolicy 政策：
 
@@ -83,20 +83,20 @@ OnlineAudioConferencingRoutingPolicy 政策相當於透過直接路由撥打 1�
 - 在貴組織的電話設備上設定路由
 -  (選) 設定撥號方案
 
-Teams 會議的撥出電話來自會議橋接器上的預設服務號碼。 有關音訊會議橋接器預設服務號碼的其他資訊，請參閱變更音訊會議橋接器 [上的電話號碼](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
+從會議撥出Teams電話來自會議橋接器上的預設服務號碼。 有關音訊會議橋接器預設服務號碼的其他資訊，請參閱變更音訊會議橋接器 [上的電話號碼](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
 
 ### <a name="configure-audio-conferencing-routing-policies"></a>設定音訊會議路由策略
 
 音訊會議路由策略 OnlineAudioConferencingRoutingPolicy 會決定哪些會議撥出電話會路由至直接路由主幹。 如果您熟悉 CsOnlineVoiceRoutingPolicy 政策，此政策運作方式非常類似。
 
 設定音訊會議路由策略需要下列步驟：
-1.  建立 PSTN 使用狀況
+1.  建立 PSTN 使用方式
 2.  設定語音路由
 3.  建立音訊會議語音路由策略
 4.  指派策略給使用者
 
 
-#### <a name="create-pstn-usages"></a>建立 PSTN 使用狀況
+#### <a name="create-pstn-usages"></a>建立 PSTN 使用方式
 
 PSTN 使用量是語音路由的集合。 當從特定召集人的會議啟動撥出通話時，語音路由會用來根據透過使用者的語音路由策略與使用者相關聯的 PSTN 使用方式，判斷通話的路由路徑。
 
@@ -108,7 +108,7 @@ Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
 
 #### <a name="configure-voice-routes"></a>設定語音路由
 
-語音路由會根據 Teams 會議撥打的電話號碼，決定應該用來路由通話的 PSTN 閘道。 語音路由會決定應該用來路由給定通話的 PSTN 閘道，方法就是將 Teams 會議撥打的電話號碼與 RegEx 模式比對。 建立語音路由時，路由必須與一或多個 PSTN 使用方式相關聯。
+語音路由會決定 PSTN 閘道，該閘道應該用來根據從會議撥打的電話號碼路由Teams號碼。 語音路由會決定應該用來路由給定通話的 PSTN 閘道，方法為使用 RegEx 模式Teams會議撥打的電話號碼。 建立語音路由時，路由必須與一或多個 PSTN 使用方式相關聯。
 
 您可以使用 「New-CsOnlineVoiceRoute」Cmdlet 建立語音路由，並定義要與語音路由相關聯的 RegEx 和閘道。 例如：
 
@@ -148,9 +148,9 @@ Grant-CsOnlineAudioConferencingRoutingPolicy -Identity "<User Identity>" -Policy
 
 撥號方案是一組標準化規則，將個別使用者撥打的電話號碼轉換成替代格式 (通常是 E.164) ，用於通話授權和呼叫路由。
 
-根據預設，Teams 使用者可以以 E.164 格式撥入 PSTN 號碼，即 + \<country code\> \<number\> 。 不過，撥號方案可用來允許使用者以其他格式撥打電話號碼，例如 4 位數的分機號碼。
+根據預設，Teams以 E.164 格式撥入 PSTN 號碼，即 + \<country code\> \<number\> 。 不過，撥號方案可用來允許使用者以其他格式撥打電話號碼，例如 4 位數的分機號碼。
 
-如果您想要透過網內會議啟用分機式撥號，您可以設定撥號方案，讓分機撥號模式符合貴組織電話號碼的電話號碼範圍。 若要設定撥號方案，請參閱 [建立和管理撥號方案](create-and-manage-dial-plans.md)。
+如果您想要透過網路會議啟用分機式撥號，您可以設定撥號方案，以將分機撥號模式與貴組織電話號碼的電話號碼範圍相符。 若要設定撥號方案，請參閱 [建立和管理撥號方案](create-and-manage-dial-plans.md)。
 
 
 ## <a name="known-issues-in-open-preview"></a>Open Preview 中的已知問題

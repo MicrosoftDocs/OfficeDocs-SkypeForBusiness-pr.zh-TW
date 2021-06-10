@@ -25,7 +25,7 @@ ms.custom:
 - Phone System
 - Calling Plans for Business and Microsoft Teams available for Moldova."
 - seo-marvel-mar2020
-description: 尋找在摩爾多瓦供應商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務的資訊。
+description: 尋找有關在Microsoft 365 Office 365提供哪些商務用 Skype和Microsoft Teams服務的資訊。
 ms.openlocfilehash: 477cfc33995d1a72e2407afdb0e5f8a9453056bd
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -37,7 +37,7 @@ ms.locfileid: "51102469"
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于摩爾多瓦的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

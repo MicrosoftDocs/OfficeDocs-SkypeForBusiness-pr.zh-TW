@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中呼叫停駐和取回
+title: 在通話中呼叫Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -20,7 +20,7 @@ ms.custom:
 - Phone System
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
-description: 瞭解如何在 Microsoft Teams 中使用通話保留和取回來保留通話。
+description: 瞭解如何在通話中使用通話保留和Microsoft Teams。
 ms.openlocfilehash: 11c0abc5c9cd49a524417ce9706129cea9ccae1e
 ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
 ms.translationtype: MT
@@ -28,34 +28,34 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/25/2021
 ms.locfileid: "51197578"
 ---
-# <a name="call-park-and-retrieve-in-microsoft-teams"></a>在 Microsoft Teams 中呼叫停駐和取回
+# <a name="call-park-and-retrieve-in-microsoft-teams"></a>在通話中呼叫Microsoft Teams
 
-呼叫保留和取回功能可讓使用者保留通話。 當通話被停駐時，服務會產生唯一的通話取回程序代碼。 之後，將通話停駐的使用者或其他人就可以在支援的 App 或裝置上使用該代碼來取回通話。  (請參閱將通話停在 [Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f) 中以) 
+呼叫保留和取回功能可讓使用者保留通話。 當通話被停駐時，服務會產生唯一的通話取回程序代碼。 之後，將通話停駐的使用者或其他人就可以在支援的 App 或裝置上使用該代碼來取回通話。  (請參閱[將通話Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)中，以) 
 
 使用呼叫停駐的一些常見案例有：
 
-- 接待員會為在工廠工作的人打電話。 然後，接待員在公用電話系統上宣佈通話和代碼號碼。 接著，通話使用者就可以在工廠區拿起 Teams 電話，然後輸入代碼以取回通話。
-- 使用者將通話放在行動裝置上，因為裝置電池電力不足。 然後，使用者可以輸入代碼，以從 Teams 電話機取回通話。
-- 支援代表會將客戶電話寄到客戶電話上，並傳送公告給 Teams 頻道，讓專家取回通話並協助客戶。 專家在 Teams 用戶端中輸入代碼以取回通話
+- 接待員會為在工廠工作的人打電話。 然後，接待員在公用電話系統上宣佈通話和代碼號碼。 接著，負責通話的使用者可以在工廠Teams電話，然後輸入代碼以取回通話。
+- 使用者將通話放在行動裝置上，因為裝置電池電力不足。 然後，使用者可以輸入代碼，從電話機Teams通話。
+- 支援代表會將客戶電話放在Teams頻道上傳送公告，讓專家取回來電並協助客戶。 專家在用戶端中輸入Teams以取回通話
 
-使用者必須是企業語音使用者，且必須包含在通話停駐策略中，以將通話停駐和接聽來電。
+若要將通話停駐和取回，使用者必須是企業語音使用者，且必須包含在通話駐用策略中。
 
 > [!NOTE]
-> 只有 Teams 部署模式才提供通話駐點和取回 [功能](teams-and-skypeforbusiness-coexistence-and-interoperability.md) ，商務用 Skype IP 電話不支援。
+> 呼叫停駐和Teams只能在部署模式中[](teams-and-skypeforbusiness-coexistence-and-interoperability.md)使用，IP 電話商務用 Skype不支援。
 
 ## <a name="configure-call-park-and-retrieve"></a>設定呼叫停駐和取回
 
-您必須是 Teams 系統管理員，才能設定通話停駐和取回。 它預設為停用。 您可以為使用者啟用它，然後使用呼叫停駐策略建立使用者群組。 當您將相同的原則套用至一組使用者時，他們可以在使用者之間停駐和取回通話。
+您必須是管理員Teams才能設定呼叫駐位和取回。 它預設為停用。 您可以為使用者啟用它，然後使用呼叫停駐策略建立使用者群組。 當您將相同的原則套用至一組使用者時，他們可以在使用者之間停駐和取回通話。
 
 若要啟用通話停駐策略
 
-1. 在 Microsoft Teams 系統管理中心的左側流覽中，前往 **Voice**  >  **Call Park 策略**。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 **語音**  >  **通話停駐區政策**。
 2. 在 [ **管理原則>** 選項卡上，按一下 [ **新增**。
 3. 為策略命名，然後將允許 **通話停駐切換到****開啟**。
 
     ![通話停駐策略設定螢幕擷取畫面](media/call-park-add-policy.png)
 
-4. 選取 **儲存**。
+4. 選取 [儲存 **]**。
 
 您可以在清單中選取該策略，然後按一下編輯來 **編輯。**
 
@@ -74,7 +74,7 @@ ms.locfileid: "51197578"
 
 ## <a name="related-topics"></a>相關主題
 
-[將通話停在 Teams 中](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
+[將通話Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 
 [將原則指派給 Teams 中的使用者](assign-policies.md)
 

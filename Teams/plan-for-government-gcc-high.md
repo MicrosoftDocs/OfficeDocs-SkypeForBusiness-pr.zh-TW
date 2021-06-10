@@ -31,13 +31,13 @@ ms.locfileid: "52718054"
 本指南適用于在美國聯邦政府機構中推動 Office 365 部署的 IT 專業人員，或是處理受政府法規和需求規範之資料的其他實體，而使用 Office 365 政府版 – GCC High 適合符合這些要求。
 
 > [!NOTE]
-> 如果貴組織已經符合 Office 365 政府版 - GCC 高資格要求，並申請並已被計畫接受，您可以略過步驟 1 和 2，直接前往步驟 3。
+> 如果貴組織已經符合 Office 365 政府版 - GCC 高資格要求，且已申請且已接受計畫，您可以略過步驟 1 和 2，直接前往步驟 3。
 
 ## <a name="step-1-determine-whether-your-organization-needs-office-365-government---gcc-high-and-meets-eligibility-requirements"></a>步驟 1。 判斷貴組織是否需要Office 365 政府版 - GCC並符合資格要求。 
 
 Office 365 政府版 - GCC高環境提供符合美國政府雲端服務需求的規範。 除了享受新功能和功能之外，Office 365還受益于下列功能，這些功能是 Office 365 政府版 - GCC高：
 
-- 貴組織的客戶內容會從邏輯上與 Microsoft 服務的商業Office 365內容分隔。
+- 貴組織的客戶內容會從邏輯上與 Microsoft 商務服務中的Office 365內容分隔。
 - 貴組織的客戶內容會儲存在美國境內。
 - 您組織客戶內容的存取權僅限於已篩選的 Microsoft 人員。
 - Office 365 政府版 – GCC高符合美國公共部門客戶所需的認證和認證。
@@ -48,19 +48,19 @@ Office 365 政府版 - GCC高環境提供符合美國政府雲端服務需求的
 
 
 > [!Tip]
-> 您可能會想要將服務描述中的資訊表轉移到 Excel 活頁簿，並新增兩欄：與組織 **Y/N** 相關，以及符合組織 **Y/N 的需求**。 然後，您可以與同事一起查看這份清單，確認此服務符合貴組織的需求。
+> 您可能會想要將服務描述中的資訊表傳輸至 Excel 活頁簿，並新增兩欄：與組織 **Y/N** 相關，以及符合組織 **Y/N 的需求**。 然後，您可以與同事一起查看這份清單，確認此服務符合貴組織的需求。
 
 
 |    |     |
 |-----------|------------|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定 Office 365 政府版 - GCC高是否適合貴組織。</li><li>確認您的組織符合資格要求。</li></ul> |
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定 Office 365 政府版 - GCC高是否適合貴組織。</li><li>確認貴組織符合資格要求。</li></ul> |
 
 > [!Note]
-> Office 365 政府版 - GCC高僅適用于美國。 非美國政府客戶可以從多個方案Office 365 政府版[選擇](https://products.office.com/en/government/compare-office-365-government-plans)。
+> Office 365 政府版 - GCC高僅適用于美國。 非美國政府客戶可以從許多方案Office 365 政府版[選擇](https://products.office.com/en/government/compare-office-365-government-plans)。
 
 ## <a name="step-2-apply-for-office-365-government---gcc-high"></a>步驟 2. 申請Office 365 政府版 - GCC高
 
-決定這項服務適合貴組織後，請開始 [申請這項服務程式](https://products.office.com/government/eligibility-validation)。
+決定這項服務適合貴組織後，請開始申請 [這項服務程式](https://products.office.com/government/eligibility-validation)。
 
 
 ## <a name="step-3-understand-office-365-government---gcc-high-default-security-settings"></a>步驟 3. 瞭解Office 365 政府版 - GCC高預設安全性設定。
@@ -69,7 +69,7 @@ Office 365 政府版 - GCC高環境提供符合美國政府雲端服務需求的
 
 |    |     |
 |-----------|------------|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定是否需要修改任何預設選項 - Office 365 政府版高安全性GCC，解決以先瞭解您可能進行的任何變更的影響。</li></ul> |
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定是否需要修改任何預設Office 365 政府版 - GCC安全性設定，解決以先瞭解您可能進行的任何變更的影響。</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---gcc-high"></a>步驟 4. 瞭解Teams中目前提供哪些Office 365 政府版 - GCC功能

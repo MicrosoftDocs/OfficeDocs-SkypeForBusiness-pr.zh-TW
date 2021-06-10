@@ -1,5 +1,5 @@
 ---
-title: 升級檢查清單|Skype Business 升級至 Teams |基本步驟
+title: 升級檢查清單|Skype商務Teams升級|基本步驟
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 請遵循此加速的十個步驟行動計畫，從基本商務用 Skype 設定轉換為 Microsoft Teams 設定。
+description: 請遵循此加速的十個步驟行動計畫，從基本商務用 Skype轉換到Microsoft Teams設定。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -34,29 +34,29 @@ ms.locfileid: "51120524"
 
 <a name="about-upgrade-basic"></a>
 
-升級基本檢查清單專為小型組織或使用商務用 Skype Online 進行 IM (聊天) 和會議的組織所設計，是一項加速行動計畫，包含核心、建議的活動和相關資源，可順利從商務用 Skype 移至 Teams。
+升級基本檢查清單是專為小型組織或使用 商務用 Skype Online 進行 IM (聊天) 和會議的組織所設計，是一項加速行動計畫，包含核心、建議的活動和相關資源，可順利從 商務用 Skype 移至 Teams。
 
 這十個簡單的步驟提供您成功升級所需的一切。 設計成大約在 30 到 45 天內完成，但您應根據組織的升級排程調整任務完成日期。
 
 > [!IMPORTANT]
-> 商務用 Skype Online 將于 2021 年 7 月 31 日停用。 之後，商務用 Skype Online 服務將不再可供使用或支援。 為了最大化權益實現，並確保貴組織有適當的時間實做升級，我們鼓勵您立即開始 Microsoft Teams 之旅。
+> 商務用 Skype線上將于 2021 年 7 月 31 日停用。 之後，商務用 Skype線上服務將無法再使用或支援。 為了最大化效益的實現，並確保貴組織有適當的時間實做您的升級，我們鼓勵您立即開始Microsoft Teams旅程。
 
-升級之後，商務用 Skype 會發生什麼情況？ 在您的使用者升級至 Teams ([僅 Teams **]** 模式) 之後：
+升級之後商務用 Skype會發生什麼情況？ 在您的使用者升級至 Teams ([僅 Teams **]** 模式) 之後：
 
-- 他們的商務用 Skype 用戶端已停用，且所有聊天和通話都轉至 Teams。 請注意，這不會卸載其桌面上的用戶端。
-- 任何在升級之前排程的商務用 Skype 會議都如設計一樣，但所有新會議都排程在 Teams 中。 商務用 Skype 外掛程式將不再在 Outlook 中提供。 
-- 如果使用者嘗試登錄商務用 Skype，他們收到用戶端的通知，告知他們已升級至 Teams。
-- 使用者需要在行動裝置上手動卸載商務用 Skype 用戶端。
+- 他們的商務用 Skype用戶端已停用，所有聊天和通話會Teams。 請注意，這不會卸載其桌面上的用戶端。
+- 任何商務用 Skype升級前排程的會議都如設計一樣，但所有新會議都排程在 Teams。 商務用 Skype外掛程式將不再在 Outlook。 
+- 如果使用者嘗試商務用 Skype，會從他們的用戶端收到通知，告知他們已升級至 Teams。
+- 使用者需要在行動裝置上手動商務用 Skype用戶端。
 
 有關升級 [的其他](./faq-journey.yml) 問題，請參閱我們的常見問題。
 
-不熟悉 Teams 嗎？ [閱讀 Teams 如何將交談](https://products.office.com/microsoft-teams/group-chat-software) 、會議、檔案、Office 應用程式和協力廠商整合在一起，為 Microsoft 365 和 Office 365 中的團隊合作提供單一中樞。
+不熟悉Teams？ [瞭解如何Teams](https://products.office.com/microsoft-teams/group-chat-software)交談、會議、檔案、Office應用程式，以及協力廠商整合，為團隊合作提供單一Microsoft 365 Office 365。
 
 <!--ENDOFSECTION-->
 
 <a name="step-1"></a>
 
-## <a name="step-1-notify-your-key-stakeholders"></a>步驟 1。 通知您的重要專案關係人
+## <a name="step-1-notify-your-key-stakeholders"></a>步驟 1. 通知您的重要專案關係人
 
 *(升級前四到六周)*
 
@@ -76,14 +76,14 @@ ms.locfileid: "51120524"
 
 *(升級前四到六周)*
 
-Teams 提供相容的商務用 Skype 功能，例如 IM (聊天) 聊天和會議，但也可以執行更多功能。 Teams 是真正的團隊合作中心，可讓工作組在單一位置管理專案、檔案、交談和應用程式。 預設會為所有組織開啟 Teams。 決定貴組織如何使用 Teams，並設定您的環境以取得成功。 
+Teams提供相容的商務用 Skype功能 ，例如 IM (聊天) 聊天和會議，但也可以執行更多更多功能。 作為真正的團隊合作中心，Teams工作組可以在同一個位置管理專案、檔案、交談和應用程式。 預設會為所有組織開啟 Teams。 決定貴組織如何使用Teams並設定您的環境以取得成功。 
 
 > [!Note]
-> 作為現有的商務用 Skype 客戶，您目前的網路基礎結構可能已經針對 Teams 進行配置。 若要確認這一點，您可以遵循下方連結的「完成技術規劃」 (此為選擇性) 。
+> 作為現有的商務用 Skype，您目前的網路基礎結構可能已經針對 Teams。 若要確認這一點，您可以遵循下方連結的「完成技術規劃」 (此為選擇性) 。
 
 **資源：**
 
-- [Teams 概觀](Teams-overview.md)
+- [概觀Teams](Teams-overview.md)
 - [開始使用 Microsoft Teams](get-started-with-teams-quick-start.md)
 
 [回到頁首](#about-upgrade-basic)
@@ -92,15 +92,15 @@ Teams 提供相容的商務用 Skype 功能，例如 IM (聊天) 聊天和會議
 
 <a name="step-3"></a>
 
-## <a name="step-3-know-your-skype-for-business-users"></a>步驟 3. 認識您的商務用 Skype 使用者
+## <a name="step-3-know-your-skype-for-business-users"></a>步驟 3. 認識您的商務用 Skype使用者
 
 *(升級前四周)*
 
-在商務用 Skype 上深為採用的使用者可能需要多一點時間或協助，以轉換至 Teams。 請花一些時間檢閱您目前的商務用 Skype 使用方式，找出需要額外支援之熱門使用者，並建立可追蹤升級後號碼的使用比較基準。
+已深入採用 商務用 Skype 的使用者可能需要多一點時間或協助，以轉換至Teams。 請花一些時間檢閱您目前商務用 Skype使用方式，找出需要額外支援之最熱門使用者，並建立您可根據升級後的數位追蹤的使用比較基準。
 
 **資源：**
 
-- [系統管理中心的 Microsoft 365 報告](/microsoft-365/admin/activity-reports/activity-reports)
+- [Microsoft 365管理中心中的報告](/microsoft-365/admin/activity-reports/activity-reports)
 
 [回到頁首](#about-upgrade-basic)
 
@@ -108,14 +108,14 @@ Teams 提供相容的商務用 Skype 功能，例如 IM (聊天) 聊天和會議
 
 <!--ENDOFSECTION-->
 
-## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>步驟 4. 通知您的使用者，他們將從商務用 Skype 升級至 Teams
+## <a name="step-4-notify-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>步驟 4. 通知您的使用者，他們將從 商務用 Skype 升級Teams
 
 *(升級前約兩到三周)*
 
-為使用者提供充分通知，可給予他們熟悉 Teams 的時間，而不會對其生產力造成負面影響，因而獲得更正面的使用者體驗。 傳送通訊，告知他們正在變更哪些專案、變更原因，以及他們如何做好準備。
+為使用者提供充分通知，可給予他們熟悉Teams，而不會對生產力造成負面影響，因而獲得更正面的使用者體驗。 傳送通訊，告知他們正在變更哪些專案、變更原因，以及他們如何做好準備。
 
 > [!Note]
-> 視需要，您目前可以透過 Microsoft 365 系統管理中心為使用者啟用 Teams。
+> 如果需要，您Teams透過系統管理中心Microsoft 365您的使用者。
 
 **資源：**
 
@@ -132,7 +132,7 @@ Teams 提供相容的商務用 Skype 功能，例如 IM (聊天) 聊天和會議
 
 *(升級前一周)*
 
-透過系統管理入口網站啟用使用者升級通知，在商務用 Skype 用戶端中提供使用者從商務用 Skype 升級至 Teams 的視覺警示，以維持升級動力。
+透過系統管理入口網站啟用使用者升級通知，在 商務用 Skype 用戶端中提供使用者從 商務用 Skype 升級至 Teams 的視覺警示，以維持升級動力。
 
 **資源：**
 
@@ -144,15 +144,15 @@ Teams 提供相容的商務用 Skype 功能，例如 IM (聊天) 聊天和會議
 
 <a name="step-6"></a>
 
-## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>步驟 6. 提醒使用者，他們將從商務用 Skype 升級至 Teams
+## <a name="step-6-remind-your-users-that-theyll-be-upgrading-from-skype-for-business-to-teams"></a>步驟 6. 提醒使用者，他們將從 商務用 Skype 升級Teams
 
 *(升級前五天)*
 
-使用者正忙著處理每日工作。 提醒他們擱置中的升級，有助於確保他們記得採取準備 Teams 所需的步驟。 這是提醒使用者有關可用訓練以及如何開始使用 Teams 的絕好時間。
+使用者正忙於日常工作。 提醒他們擱置中的升級有助於確保他們記得採取所需的步驟，以準備Teams。 這是提醒使用者可用訓練以及如何開始使用訓練Teams。
 
 **資源：**
 
-- [範例電子郵件：提醒使用者開始使用 Teams](upgrade-emails-surveys.md#step-6-email)
+- [範例電子郵件：提醒使用者開始使用Teams](upgrade-emails-surveys.md#step-6-email)
 
 [回到頁首](#about-upgrade-basic)
 
@@ -160,18 +160,18 @@ Teams 提供相容的商務用 Skype 功能，例如 IM (聊天) 聊天和會議
 
 <!--ENDOFSECTION-->
 
-## <a name="step-7-upgrade-users-to-teams"></a>步驟 7. 將使用者升級至 Teams！
+## <a name="step-7-upgrade-users-to-teams"></a>步驟 7. 將使用者升級Teams！
 
 *(升級日)*
 
-今天是貴組織正式升級為 Teams 作為通訊和共同合作解決方案的日子。 在 Microsoft Teams 系統管理中心，將共存模式設定為 Teams Only 以啟用 **升級切換**。  (在系統管理中心，請前往全組織設定 Teams 升級 。) 使用者將會收到商務用 Skype 用戶端中的通知，告知他們已升級至  >  **** Teams。
+今天是貴組織正式升級為Teams通訊和共同合作解決方案的日子。 在 Microsoft Teams系統管理中心，將共存模式設定為 Teams **切換**。  (在系統管理中心，請前往全組織 **設定** Teams 升級 .) 使用者會收到他們的 商務用 Skype 用戶端中已升級至  >  **** Teams 的通知。
 
-我們建議您在每個人升級之後，傳送一封歡迎他們到 Teams 的電子郵件。
+我們建議您在每個人升級之後，傳送一封電子郵件，歡迎他們Teams。
 
 **資源：**
 
 - [設定共存和升級設定](setting-your-coexistence-and-upgrade-settings.md)
-- [範例電子郵件：歡迎使用者使用 Teams](upgrade-emails-surveys.md#step-7-email)
+- [範例電子郵件：歡迎使用者Teams](upgrade-emails-surveys.md#step-7-email)
 
 [回到頁首](#about-upgrade-basic)
 
@@ -179,15 +179,15 @@ Teams 提供相容的商務用 Skype 功能，例如 IM (聊天) 聊天和會議
 
 <a name="step-8"></a>
 
-## <a name="step-8-monitor-teams-usage-against-your-baseline"></a>步驟 8. 針對您的比較基準監控 Teams 使用量
+## <a name="step-8-monitor-teams-usage-against-your-baseline"></a>步驟 8. 監控Teams比較基準的使用狀況
 
 *(升級後的一或兩周)*
 
-調整為新的技術可能需要一些時間。 檢查使用方式，確認使用者使用的是與商務用 Skype 相同或更高層級的 Teams。 與未在預期層級使用 Teams 的使用者確認。
+調整為新的技術可能需要一些時間。 檢查使用方式，確認使用者使用的是Teams或更高層級的使用者，就像使用商務用 Skype。 與未在預期層級使用Teams使用者進行確認。
 
 **資源：**
 
-- [查看使用方式資料](https://portal.office.com/AdminPortal/Home#/reportsUsage)
+- [查看使用狀況資料](https://portal.office.com/AdminPortal/Home#/reportsUsage)
 
 [回到頁首](#about-upgrade-basic)
 
@@ -199,7 +199,7 @@ Teams 提供相容的商務用 Skype 功能，例如 IM (聊天) 聊天和會議
 
 *(升級後的一或兩周)*
 
-員工滿意度可能會影響生產力、保留，以及最終的企業成果。 請與使用者聯繫，以判斷使用者對於升級以及對於 Teams 的滿意程度。
+員工滿意度可能會影響生產力、保留，以及最終的企業成果。 請與使用者聯繫，以判斷使用者對於升級的滿意程度Teams。
 
 **資源：**
 
@@ -211,14 +211,14 @@ Teams 提供相容的商務用 Skype 功能，例如 IM (聊天) 聊天和會議
 
 <a name="step-10"></a>
 
-## <a name="step-10-maximize-your-roi-with-teams"></a>步驟 10。 使用 Teams 最大化您的ROI
+## <a name="step-10-maximize-your-roi-with-teams"></a>步驟 10。 使用 Teams
 
 *(進行)*
 
-在使用者熟悉 Teams 中的 IM (聊天) 和會議之後，請使用 Teams 共同合作與 App 整合來鼓勵他們擴充使用案例，真正優化其新解決方案，並最大化您的投資收益。
+在使用者熟悉 (聊天) 和 Teams 中的會議之後，請鼓勵他們使用 Teams 共同合作與 App 整合來擴充使用案例，真正優化其新解決方案，並最大化您的投資收益。
 
 **資源：**
 
-- [範例電子郵件：鼓勵使用者進一步探索 Teams](upgrade-emails-surveys.md#step-10-email)
+- [範例電子郵件：鼓勵使用者進一Teams探索](upgrade-emails-surveys.md#step-10-email)
 
 [回到頁首](#about-upgrade-basic)
