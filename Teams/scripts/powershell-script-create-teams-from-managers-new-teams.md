@@ -23,16 +23,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117301"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a><span data-ttu-id="e7aeb-103">PowerShell 腳本範例 - 建立新的人員管理員團隊</span><span class="sxs-lookup"><span data-stu-id="e7aeb-103">PowerShell script sample - Create new people manager teams</span></span>
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a><span data-ttu-id="3faf4-103">PowerShell 腳本範例 - 建立新的人員管理員團隊</span><span class="sxs-lookup"><span data-stu-id="3faf4-103">PowerShell script sample - Create new people manager teams</span></span>
 
-<span data-ttu-id="e7aeb-104">使用此 PowerShell 腳本為每位主管建立一個團隊，其直接人員是小組成員。</span><span class="sxs-lookup"><span data-stu-id="e7aeb-104">Use this PowerShell script to create a team for each manager with their directs as team members.</span></span> <span data-ttu-id="e7aeb-105">執行此腳本之前，請執行匯出[](powershell-script-create-teams-from-managers-export-managers.md)管理員腳本， (Active Directory 匯出) 管理員及其組織主管清單。</span><span class="sxs-lookup"><span data-stu-id="e7aeb-105">Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.</span></span>
+<span data-ttu-id="3faf4-104">使用此 PowerShell 腳本為每位主管建立一個團隊，其直接人員是小組成員。</span><span class="sxs-lookup"><span data-stu-id="3faf4-104">Use this PowerShell script to create a team for each manager with their directs as team members.</span></span> <span data-ttu-id="3faf4-105">執行此腳本之前，請執行匯出[](powershell-script-create-teams-from-managers-export-managers.md)管理員腳本， (Active Directory 匯出) 管理員及其組織主管清單。</span><span class="sxs-lookup"><span data-stu-id="3faf4-105">Before you run this script, run the [Export managers](powershell-script-create-teams-from-managers-export-managers.md) script to  export (from your Active Directory) a list of managers and their directs for your organization.</span></span>
 
-<span data-ttu-id="e7aeb-106">若要瞭解此 PowerShell 腳本，請參閱 [建立人員管理員團隊](../create-manager-directs-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="e7aeb-106">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
+<span data-ttu-id="3faf4-106">若要瞭解此 PowerShell 腳本，請參閱 [建立人員管理員團隊](../create-manager-directs-teams.md)。</span><span class="sxs-lookup"><span data-stu-id="3faf4-106">To learn about this PowerShell script, read [Create people manager teams](../create-manager-directs-teams.md).</span></span>
 
-<span data-ttu-id="e7aeb-107">如果您剛開始使用 PowerShell，需要協助開始使用，請參閱 Azure [PowerShell 概觀](/powershell/azure/overview?view=azurermps-5.1.1)。</span><span class="sxs-lookup"><span data-stu-id="e7aeb-107">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
+<span data-ttu-id="3faf4-107">如果您剛開始使用 PowerShell，需要協助開始使用，請參閱概觀[Azure PowerShell。](/powershell/azure/overview?view=azurermps-5.1.1)</span><span class="sxs-lookup"><span data-stu-id="3faf4-107">If you're new to PowerShell and need help getting started, see [Overview of Azure PowerShell](/powershell/azure/overview?view=azurermps-5.1.1).</span></span>
 
 
-## <a name="create-new-people-manager-teams"></a><span data-ttu-id="e7aeb-108">建立新的人員管理員團隊</span><span class="sxs-lookup"><span data-stu-id="e7aeb-108">Create new people manager teams</span></span> 
+## <a name="create-new-people-manager-teams"></a><span data-ttu-id="3faf4-108">建立新的人員管理員團隊</span><span class="sxs-lookup"><span data-stu-id="3faf4-108">Create new people manager teams</span></span> 
 
 ```powershell
 <# 

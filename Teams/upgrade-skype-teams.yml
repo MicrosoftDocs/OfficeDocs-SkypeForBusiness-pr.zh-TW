@@ -30,11 +30,11 @@ highlightedContent:
     - title: 註冊免費升級規劃研討會
       itemType: learn
       url: 'https://aka.ms/upgradeworkshops'
-    - title: 瞭解百& Veatch 在八周Teams轉Teams轉場
+    - title: 瞭解百& Veatch 如何在八周內Teams轉場
       itemType: video
       url: 'https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk'
 productDirectory:
-  title: 規劃成功升級及Teams的資源
+  title: 規劃成功升級Teams資源
   summary: 健康的技術環境、持續採用使用者，以及達成您的商業目標，都是從適當的規劃開始。
   items:
     - title: Teams升級故事
@@ -82,7 +82,7 @@ productDirectory:
       url: 'https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog'
     - title: 企業的總Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg'
-      summary: 深入瞭解 Forrester Research 報告，該報表會量化採用新方案後員工和公司績效的Teams。
+      summary: 深入探討 Forrester Research 報告，該報告可量化採用新方案後員工和公司績效的Teams。
       url: 'https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf'
 additionalContent:
   sections:
@@ -95,5 +95,5 @@ additionalContent:
           summary: 需要其他指引嗎？ Microsoft 解決方案提供者可協助您管理升級的技術與物流。
           url: 'https://www.microsoft.com/solution-providers/home'
         - title: Microsoft Teams方案與價格
-          summary: 尋找適合Microsoft Teams的合適目標。
+          summary: 尋找適合Microsoft Teams的企業。
           url: 'https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options'

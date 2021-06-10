@@ -24,16 +24,16 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 05/08/2021
 ms.locfileid: "52282550"
 ---
-# <a name="step-3-assign-business-voice-licenses"></a><span data-ttu-id="3b99f-103">步驟 3：指派商務語音授權</span><span class="sxs-lookup"><span data-stu-id="3b99f-103">Step 3: Assign Business Voice licenses</span></span>
+# <a name="step-3-assign-business-voice-licenses"></a><span data-ttu-id="1b262-103">步驟 3：指派商務語音授權</span><span class="sxs-lookup"><span data-stu-id="1b262-103">Step 3: Assign Business Voice licenses</span></span>
 
-<span data-ttu-id="3b99f-104">每一個需要使用Microsoft 365 商務語音使用者都需要獲得商務語音授權。</span><span class="sxs-lookup"><span data-stu-id="3b99f-104">Each user that needs to use Microsoft 365 Business Voice needs to be assigned licenses for Business Voice.</span></span>
+<span data-ttu-id="1b262-104">每一個需要使用Microsoft 365 商務語音使用者都需要獲得商務語音授權。</span><span class="sxs-lookup"><span data-stu-id="1b262-104">Each user that needs to use Microsoft 365 Business Voice needs to be assigned licenses for Business Voice.</span></span>
 
-1. <span data-ttu-id="3b99f-105">開啟 Microsoft 365系統管理中心，然後使用全域系統管理員使用者登入 (通常是您用來註冊帳戶Microsoft 365) 。</span><span class="sxs-lookup"><span data-stu-id="3b99f-105">Open the Microsoft 365 admin center and log in with a user that is a Global admin (this is usually the account you used to sign up for Microsoft 365).</span></span>
-1. <span data-ttu-id="3b99f-106">在左側流覽窗格中，前往帳單 <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">\*\*\*\*  >  **授權**</a>。</span><span class="sxs-lookup"><span data-stu-id="3b99f-106">In the left navigation pane, go to <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">**Billing** > **Licenses**</a>.</span></span>
-1. <span data-ttu-id="3b99f-107">選取 **Microsoft 365 商務語音**。</span><span class="sxs-lookup"><span data-stu-id="3b99f-107">Select **Microsoft 365 Business Voice**.</span></span>
-1. <span data-ttu-id="3b99f-108">在產品詳細資料頁面上，選取指派 **授權**。</span><span class="sxs-lookup"><span data-stu-id="3b99f-108">On the product details page, select **Assign licenses**.</span></span>
-1. <span data-ttu-id="3b99f-109">在 " **指派授權給使用者"** 窗格中，開始輸入名稱，然後從結果中選擇名稱，以將其新增到清單中。</span><span class="sxs-lookup"><span data-stu-id="3b99f-109">In the **Assign licenses to users** pane, begin typing a name, and then choose it from the results to add it to the list.</span></span> <span data-ttu-id="3b99f-110">一次最多可以新增 20 個使用者。</span><span class="sxs-lookup"><span data-stu-id="3b99f-110">You can add up to 20 users at a time.</span></span>
-1. <span data-ttu-id="3b99f-111">完成時，請選取 **[指派]**，然後選取 **[關閉]**。</span><span class="sxs-lookup"><span data-stu-id="3b99f-111">When you're finished, select **Assign**, then select **Close**.</span></span>
+1. <span data-ttu-id="1b262-105">開啟 Microsoft 365系統管理中心，然後使用全域系統管理員使用者登入 (通常是您用來註冊帳戶Microsoft 365) 。</span><span class="sxs-lookup"><span data-stu-id="1b262-105">Open the Microsoft 365 admin center and log in with a user that is a Global admin (this is usually the account you used to sign up for Microsoft 365).</span></span>
+1. <span data-ttu-id="1b262-106">在左側流覽窗格中，前往帳單 <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">\*\*\*\*  >  **授權**</a>。</span><span class="sxs-lookup"><span data-stu-id="1b262-106">In the left navigation pane, go to <a href="https://go.microsoft.com/fwlink/p/?linkid=842264" target="_blank">**Billing** > **Licenses**</a>.</span></span>
+1. <span data-ttu-id="1b262-107">選取 **Microsoft 365 商務語音**。</span><span class="sxs-lookup"><span data-stu-id="1b262-107">Select **Microsoft 365 Business Voice**.</span></span>
+1. <span data-ttu-id="1b262-108">在產品詳細資料頁面上，選取指派 **授權**。</span><span class="sxs-lookup"><span data-stu-id="1b262-108">On the product details page, select **Assign licenses**.</span></span>
+1. <span data-ttu-id="1b262-109">在 " **指派授權給使用者"** 窗格中，開始輸入名稱，然後從結果中選擇名稱，將其新加入清單。</span><span class="sxs-lookup"><span data-stu-id="1b262-109">In the **Assign licenses to users** pane, begin typing a name, and then choose it from the results to add it to the list.</span></span> <span data-ttu-id="1b262-110">一次最多可以新增 20 個使用者。</span><span class="sxs-lookup"><span data-stu-id="1b262-110">You can add up to 20 users at a time.</span></span>
+1. <span data-ttu-id="1b262-111">完成時，請選取 **[指派]**，然後選取 **[關閉]**。</span><span class="sxs-lookup"><span data-stu-id="1b262-111">When you're finished, select **Assign**, then select **Close**.</span></span>
 
 > [!div class="nextstepaction"]
-> [<span data-ttu-id="3b99f-112">下一個步驟：設定Teams資源帳戶</span><span class="sxs-lookup"><span data-stu-id="3b99f-112">Next step: Set up Teams resource account</span></span>](set-up-resource-account.md)
+> [<span data-ttu-id="1b262-112">下一個步驟：設定Teams資源帳戶</span><span class="sxs-lookup"><span data-stu-id="1b262-112">Next step: Set up Teams resource account</span></span>](set-up-resource-account.md)

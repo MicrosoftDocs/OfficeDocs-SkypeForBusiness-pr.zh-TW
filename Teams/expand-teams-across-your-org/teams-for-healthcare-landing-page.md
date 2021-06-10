@@ -1,6 +1,6 @@
 ---
 title: 適用於醫療保健的 Teams
-description: 瞭解您可用於管理貴組織中醫療團隊的系統管理員資源。
+description: 瞭解您可用於管理組織中Teams醫療小組的管理員資源。
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -23,12 +23,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51092511"
 ---
-# <a name="teams-for-healthcare"></a><span data-ttu-id="10140-103">適用於醫療保健的 Teams</span><span class="sxs-lookup"><span data-stu-id="10140-103">Teams for Healthcare</span></span>
+# <a name="teams-for-healthcare"></a><span data-ttu-id="14033-103">適用於醫療保健的 Teams</span><span class="sxs-lookup"><span data-stu-id="14033-103">Teams for Healthcare</span></span>
 
-<span data-ttu-id="10140-104">Teams 為健康小組和醫療保健專業人員提供了安全通訊、協調病患照護，並改善營運效率的方法。</span><span class="sxs-lookup"><span data-stu-id="10140-104">Teams gives health teams and healthcare professionals a secure way to communicate, coordinate patient care, and improve operational efficiencies.</span></span> <span data-ttu-id="10140-105">您可以在這裡找到管理組織中 Teams 醫療保健小組所需的系統管理資源。</span><span class="sxs-lookup"><span data-stu-id="10140-105">Here you'll find the admin resources you need to manage Teams for healthcare teams in your organization.</span></span>
+<span data-ttu-id="14033-104">Teams讓健康小組和醫療保健專業人員以安全的方式溝通、協調病患照護，並改善營運效率。</span><span class="sxs-lookup"><span data-stu-id="14033-104">Teams gives health teams and healthcare professionals a secure way to communicate, coordinate patient care, and improve operational efficiencies.</span></span> <span data-ttu-id="14033-105">您可以在這裡找到管理組織中醫療保健小組Teams所需的系統管理資源。</span><span class="sxs-lookup"><span data-stu-id="14033-105">Here you'll find the admin resources you need to manage Teams for healthcare teams in your organization.</span></span>
 
 |               |               |
 | ------------- | ------------- |
-| ![以手指指向箭號圖示的手螢幕擷取畫面](../media/get-started-teams.svg)  |  [<span data-ttu-id="10140-107">開始使用適用於醫療保健組織的 Teams</span><span class="sxs-lookup"><span data-stu-id="10140-107">Get started with Teams for Healthcare organizations</span></span>](./healthcare/teams-in-hc.md) |
-| ![地圖圖示的螢幕擷取畫面](../media/walkthrough-map-teams.svg) | [<span data-ttu-id="10140-109">開始使用適用於醫療保健組織的 Teams 範本</span><span class="sxs-lookup"><span data-stu-id="10140-109">Get started with Teams templates for Healthcare organizations</span></span>](./healthcare/healthcare-templates-admin-console.md) |
-| ![對話方塊泡泡圖示的螢幕擷取畫面](../media/chat.svg)  |  [<span data-ttu-id="10140-111">開始使用適用於醫療保健組織的 Secure Messaging</span><span class="sxs-lookup"><span data-stu-id="10140-111">Get started with Secure Messaging for Healthcare organizations</span></span>](./healthcare/messaging-policies-hc.md) |
+| ![以手指指向箭號圖示的手螢幕擷取畫面](../media/get-started-teams.svg)  |  [<span data-ttu-id="14033-107">開始使用適用於醫療保健組織的 Teams</span><span class="sxs-lookup"><span data-stu-id="14033-107">Get started with Teams for Healthcare organizations</span></span>](./healthcare/teams-in-hc.md) |
+| ![地圖圖示的螢幕擷取畫面](../media/walkthrough-map-teams.svg) | [<span data-ttu-id="14033-109">開始使用適用於醫療保健組織的 Teams 範本</span><span class="sxs-lookup"><span data-stu-id="14033-109">Get started with Teams templates for Healthcare organizations</span></span>](./healthcare/healthcare-templates-admin-console.md) |
+| ![對話方塊泡泡圖示的螢幕擷取畫面](../media/chat.svg)  |  [<span data-ttu-id="14033-111">開始使用適用於醫療保健組織的 Secure Messaging</span><span class="sxs-lookup"><span data-stu-id="14033-111">Get started with Secure Messaging for Healthcare organizations</span></span>](./healthcare/messaging-policies-hc.md) |
