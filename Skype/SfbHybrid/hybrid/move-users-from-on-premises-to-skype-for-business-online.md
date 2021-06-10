@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 瞭解如何將使用者移至商務用 Skype 線上。
-ms.openlocfilehash: e4536b13b6a9c05757bfcbf629fcc8301f94ed86
-ms.sourcegitcommit: 17ad87556fb8e0de3c498e53f98f951ae3fa526b
+ms.openlocfilehash: 883db98a424c254e6792fd651594b02201a311f9
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52305977"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863194"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>將使用者從內部部署移動至商務用 Skype Online
 
@@ -34,8 +34,7 @@ ms.locfileid: "52305977"
 移動任何使用者之前，請務必先檢查 [必要條件](move-users-between-on-premises-and-cloud.md#prerequisites) ，將使用者移至雲端。
 
 > [!NOTE]
-> 在準備即將淘汰的商務用 Skype 線上狀態時，Microsoft 將簡化組織在近期內如何進行 Teams，而且將無法再移至商務用 Skype 線上。  當這些變更可供使用時，當您將使用者從內部部署移至雲端時，系統會自動指派使用者 TeamsOnly 模式，並將其從內部部署的會議 automtically 轉換為 Teams 會議， `-MoveToTeams` 不論是否實際指定參數，都如同已指定參數一樣。 我們預計此功能會在實際退休2021年7月31日之前發佈。   目前如果未指定此參數，則會將使用者轉換為位於商務用 Skype Server 內部部署，以商務用 Skype 線上，且其模式保持不變，也就是本文中所述的功能。
-
+> 在準備即將淘汰的商務用 Skype 線上狀態時，Microsoft 已簡化組織移至 Teams 的方式。 將使用者從內部部署移至雲端時，使用者現在會自動指派 TeamsOnly 模式，並將其來自內部部署的會議 automtically 轉換為 Teams 會議，就如同 `-MoveToTeams` 已指定參數一樣，不論該參數是否實際指定。  在線上退休商務用 Skype 之前，需要將使用者從內部部署移至商務用 Skype 線上的組織，可在 *使用者移至 TeamsOnly 後*，更新使用者的模式，以兩個步驟完成。 不過，在不久的未來，將不會再將 TeamsOnly 的模式指派給位於雲端中的使用者。  
  
 ## <a name="move-users-with-move-csuser"></a>使用 Move-CsUser 移動使用者 
 
@@ -48,28 +47,37 @@ ms.locfileid: "52305977"
 - 如果您在內部部署和 Microsoft 365 中沒有一個具有足夠許可權的帳戶，請使用-credential 參數提供具有足夠許可權的帳戶，在 Microsoft 365 中。
 - 如果 Microsoft 365 中具有許可權的帳戶不是以「name.onmicrosoft.com17」結尾。 <span>com "，則您必須指定-HostedMigrationOverrideUrl 參數，並在[必要的管理認證](move-users-between-on-premises-and-cloud.md#required-administrative-credentials)中所述的值正確。
 
-您可以使用下列 Cmdlet 順序，將使用者移至商務用 Skype 線上。 它假設 Microsoft 365 身分憑證是個別帳戶，並提供給 Get-Credential 提示的輸入。
+您可以使用下列 Cmdlet 順序，將使用者移至商務用 Skype 線上，並將租使用者預設模式指派給使用者。 它假設 Microsoft 365 身分憑證是個別帳戶，並提供給 Get-Credential 提示的輸入。
 
 ```PowerShell
+# From an on-premises Skype for Business Server or Lync Server 2013 management shell window, run:
+ 
 $cred=Get-Credential
 $url="https://admin1a.online.lync.com/HostedMigration/hostedmigrationService.svc"
- 
 Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -Credential $cred -HostedMigrationOverrideUrl $url
+ 
+# And then from a Teams PowerShell window, remove TeamsOnly mode by running: 
+Grant-CsTeamsUpgradePolicy -Identity username@contoso.com -PolicyName $null
 ```
 
 如果系統管理員帳戶為 MFA (Multi-Factor 驗證) 啟用，請勿指定-Credential 參數。 系統會提示系統管理員輸入認證。
 
-## <a name="move-users-with-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台移動使用者 
+## <a name="move-users-with-skype-for-business-server-control-panel-and-teams-admin-center"></a>使用商務用 Skype Server 控制台和 Teams 系統管理中心移動使用者
 
 1. 開啟商務用 Skype Server 的 [控制台] 應用程式。
 2. 在左側導覽中，選擇 [ **使用者**]。
 3. 使用 [**尋找**] 來找出使用者 (s) 您想要移至商務用 Skype 線上。
-4. 選取 [使用者 (s) ]，然後從清單上方的 [**動作**] 下拉式功能表中，選擇 [**將選取的使用者移至線上商務用 Skype**]。
+4. 選取 [使用者 (s) ]，然後從清單上方的 [**動作**] 下拉式功能表中，選擇 [**將選取的使用者移至商務用 Skype** ] 或 [**將選取的使用者移至 Teams**]。 任一選項最初都會將使用者移至 TeamsOnly 模式，但在移動之後，您可以指派另一種模式。 
 5. 在精靈中，按 **[下一步]**。
 6. 如果出現提示，請以 onmicrosoft.com 結尾的帳戶登入 Microsoft 365，且具有足夠的許可權。
 7. 按 **[下一步** **]，然後再一** 次移動使用者。
 8. 請注意，關於成功或失敗的狀態訊息是在主要控制台應用程式的頂端，而不是在嚮導中提供。
+9. 開啟 Teams 系統管理中心，並選取左側導覽欄中的 [使用者]。 
+10. 按一下 listview 中所需的使用者。 
+11. 在顯示 **Teams 升級** 的區段中，按一下 [**編輯**]。
+12. 在右側快顯視窗中，選取所需的共存模式，然後 **按一下 [** 套用]。
+ 
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 [Move-CsUser](/powershell/module/skype/move-csuser)

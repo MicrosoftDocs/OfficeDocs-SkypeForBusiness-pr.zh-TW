@@ -37,7 +37,7 @@ ms.locfileid: "52697830"
 根據 HIPAA 指導方針，醫療保健提供者必須保留所有 PHI 存取的記錄，以便對變更進行稽核。 Microsoft 承諾使用 Microsoft Teams企業客戶，並協助他們符合 HIPAA 需求和控制措施。 透過病患 App 存取 PHI 的功能會完全追蹤，Microsoft 365合規性中心提供記錄，如稽核記錄搜尋功能一文[所述](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
 > [!IMPORTANT]
-> 根據法律，維護病患隱私權的重任是由醫療保健提供者承擔。 法律賦予病患隱私權，並規定 IT 系統管理員或 HIPAA 控制者可以輕鬆地判斷哪些護士、醫師或社會工作人員存取或變更病患記錄。 違反 PHI 存取權最常見的範例之一是存取VIP 病患。 需要稽核記錄功能，才能針對任何 PHI 存取違規進行調查，並符合 HIPAA 需求。
+> 根據法律，維護病患隱私權的重任是由醫療保健提供者承擔。 法律賦予病患隱私權，並規定 IT 系統管理員或 HIPAA 控制者能輕鬆判斷哪些護士、醫師或社會工作人員存取或變更病患記錄。 違反 PHI 存取權最常見的範例之一是存取至VIP 病患。 需要稽核記錄功能，才能針對任何 PHI 存取違規進行調查，並符合 HIPAA 需求。
 
 <!-- add an image from the security and compliance center audit log search page showing an event, Ansuman please let me know whether we need to copy an existing screen shot (and which one) or grab a new one -->
 
@@ -60,7 +60,7 @@ ms.locfileid: "52697830"
 
 病患應用程式擁有自己的記錄活動，如下表所列：
 
-|好用名稱 | 操作 | 說明|
+|好用的名稱 | 操作 | 描述|
 |:---|:---|:---|
 | 已查看病患清單 | PatientListView | 使用者已查看病患清單。|
 | 已刪除的病患清單 | PatientListDelete | 使用者刪除了病患清單。|
@@ -81,7 +81,7 @@ ms.locfileid: "52697830"
 
 您可以自訂您的稽核，以搜尋或篩選任何這些記錄的活動。
 
-一般而言，Microsoft Teams記錄的活動會以Microsoft Teams[描述](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)。
+一般而言，Microsoft Teams記錄的活動會以 Microsoft Teams[描述](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#microsoft-teams-activities)。
 
 ## <a name="related-topics"></a>相關主題
 

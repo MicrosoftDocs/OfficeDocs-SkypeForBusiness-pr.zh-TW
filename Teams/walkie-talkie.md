@@ -29,7 +29,7 @@ ms.locfileid: "52479070"
 
 Android 中的對講Teams App 提供即時隨 (PTT) 通訊功能，現在可在 Android 上使用。 Walkie Talkie 允許使用者使用他們成員相同的基礎通道，與小組聯繫。 只有在頻道中連接到 Walkie Talkie 的使用者才能成為參與者，而且可以一次一個地使用隨推式交談來彼此通訊。
 
-在 Teams 中使用 Walkie Talkie，前線員工現在可以使用熟悉的 PTT 體驗安全地通訊，而不需要攜帶大量收音機，而 Walkie Talkie 可在任何位置使用 WiFi 或行動電話網際網路連接。
+使用 Teams 中的 Walkie Talkie，前線員工現在可以安全地使用熟悉的 PTT 體驗進行通訊，而不需要攜帶大量收音機，而 Walkie Talkie 可在任何位置使用 WiFi 或行動電話網際網路連接。
 
 ## <a name="getting-started"></a>快速入門
 
@@ -65,7 +65,7 @@ Teams對講Teams需要網際網路連接，且網路條件低於網路條件才�
 
 - **延遲** - 這是從 A 點到網路 B 點取得 IP 封包所花的時間。 此網路傳播延遲基本上與兩點之間的實體距離和光速有關，包括介於兩者之間的各種路由器所增加的負荷。 延遲是以 RTT (的往返時間) 。
 - **到達間抖動** - 這是連續封包之間延遲的平均變化。
-- **封包** 遺失 - 這通常定義為在給定時段內遺失的封包百分比。 封包遺失會直接影響音訊品質，從小型、個別遺失的封包幾乎沒有影響，到造成音訊完全中斷的背對背斷流損失。
+- **封包** 遺失 - 這通常定義為在給定時段內遺失的封包百分比。 封包遺失會直接影響音訊品質，包括小型、個別遺失的封包幾乎沒有影響，以及造成音訊完全中斷的背對背斷流損失。
 
 在傳送或接收音訊時，Walkie Talkie 的預期資料使用量約為 20 Kb/s。 閒置時，Walkie Talkie 的預期資料使用量是可忽略的。
 
@@ -84,14 +84,14 @@ Teams對講Teams需要網際網路連接，且網路條件低於網路條件才�
     -  [MDM 設定](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
 
 > [!NOTE]
-> 這些裝置未通過Teams認證。 它們已經過驗證，可以與 Teams Talkie 合作。
+> 這些裝置未通過Teams認證。 它們已經過驗證，Teams Walkie Talkie 使用。
 
 ### <a name="license-requirements"></a>授權需求
 
 Walkie Talkie 應用程式會包含在所有付費授權Teams訂閱Office 365[中](/office365/servicedescriptions/teams-service-description)。 若要進一Teams，請參閱如何 [存取Microsoft Teams？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 > [!NOTE]
-> 某些進一步功能可能需要額外授權。 例如，與 Samsung Galaxy XCover Pro需要 Knx 授權。
+> 某些進位功能可能需要額外授權。 例如，與 Samsung Galaxy XCover Pro需要 Knx 授權。
 
 ## <a name="further-information"></a>進一步資訊
 

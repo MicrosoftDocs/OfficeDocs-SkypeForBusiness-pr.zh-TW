@@ -19,7 +19,7 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 使用此表格尋找在芬蘭取得及管理電話號碼Microsoft Teams。
+description: 使用此表格可尋找在芬蘭取得及管理電話號碼Microsoft Teams。
 ms.openlocfilehash: df4daad247460a202ebaa8ed8d0ce384dbe2d959
 ms.sourcegitcommit: bdd9901db1fc741aaec9c7ddcf5ee1caaca4d777
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "52589257"
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-使用此表格尋找在芬蘭取得及管理電話號碼Microsoft Teams。
+使用此表格可尋找在芬蘭取得及管理電話號碼Microsoft Teams。
   
 詳細資訊，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)。
   

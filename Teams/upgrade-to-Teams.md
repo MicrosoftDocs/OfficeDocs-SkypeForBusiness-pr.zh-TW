@@ -57,7 +57,7 @@ ms.locfileid: "52282370"
 
 - **如果您要從** 商務用 Skype Online 升級至 Teams，請遵循從 商務用 Skype Online 升級至 [Teams。](./upgrade-to-teams-execute-skypeforbusinessonline.md)
 
--  **如果您是從** 商務用 Skype 內部部署環境升級，您必須執行一些額外步驟，在將使用者移至 Teams 之前，先設定內部部署與線上環境之間的連線。 詳細資訊，請參閱將[內部商務用 Skype升級至 Teams。](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
+-  如果您是 **從** 商務用 Skype 內部部署環境升級，您必須執行一些額外步驟，才能在內部部署和線上環境之間設定連線，然後再將使用者移至 Teams。 詳細資訊，請參閱將[內部商務用 Skype升級至 Teams。](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
 

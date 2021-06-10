@@ -1,5 +1,5 @@
 ---
-title: 患者 App 與 EHR 整合 STU3 介面
+title: 病患應用程式與 EHR 整合 STU3 介面
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: 瞭解如何將電子醫療記錄整合至 Microsoft 團隊患者 app 及 STU3 介面規格。
+description: 瞭解如何將電子健康記錄整合到 Microsoft Teams App 和 STU3 介面規格中。
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 4e20619badb2509d0a90f396563a98796e718e2f
@@ -29,71 +29,71 @@ ms.locfileid: "48803491"
 # <a name="stu3-interface-specification"></a>STU3 介面規格
 
 > [!NOTE]
-> 2020年10月30日生效，患者 app 已停用，且已由小組中的 [清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 取代。 患者 app 資料會儲存在可支援小組的 Office 365 群組群組信箱中。 所有與患者 app 相關的資料都會保留在這個群組中，但無法再透過使用者介面存取。 使用者可以使用 [ [清單] 應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新建立其清單。
+> 自 2020 年 10 月 30 日起，病患應用程式已淘汰並且由 Teams 中的[清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)取代。 病患應用程式資料會儲存在支援小組之 Office 365 群組的群組信箱中。 所有與病患應用程式相關聯的資料會保留在此群組中，但是無法再透過使用者介面存取。 使用者可以使用[清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)來重新建立他們的清單。
 >
->透過清單，您的醫療保健組織中的 [護理小組] 可建立案例的患者清單，包括從倒圓角和 interdisciplinary 小組會議到一般患者監視。 查看清單中的患者範本以開始使用。 若要進一步瞭解如何管理組織中的 [清單] 應用程式，請參閱 [管理清單應用程式](../../manage-lists-app.md)。
+>使用清單，您的醫療保健組織照護小組可以針對各種案例建立病患清單，範圍從會診和跨學科小組會議到一般病患監視。 請查看清單中的病患範本以開始使用。 若要深入了解如何在組織中管理清單應用程式，請參閱[管理清單應用程式](../../manage-lists-app.md)。
 
-設定或重新配置 FHIR 伺服器以搭配 Microsoft 團隊患者應用程式，需要瞭解 app 需要存取哪些資料。 FHIR 伺服器必須支援使用捆綁作業的下列資源的 POST 要求：
+設定或重新設定 FHIR 伺服器以使用 Microsoft Teams 病患應用程式時，必須瞭解應用程式需要存取哪些資料。 FHIR 伺服器必須使用下列資源套件支援 POST 要求：
 
-- [患者](#patient)
-- [便](#observation)
+- [病人](#patient)
+- [觀察](#observation)
 - [條件](#condition)
-- [還有](#encounter)
-- [過敏症 Intolerance](#allergyintolerance)
-- [百分比](#coverage)
-- [[藥物] 語句](#medication-request) (取代 DSTU2 版本的 PatientsApp 中的 MedicationOrder) 
-- 位置 (此資源所需的資訊可能會包含在) 
+- [遇到](#encounter)
+- [防偏執症](#allergyintolerance)
+- [覆蓋](#coverage)
+- [藥物聲明](#medication-request) (取代 DSTU2 版本的 PatientsApp) 
+- 位置 (此資源所需資訊的位置，可包含在 <遭遇) 
 
 > [!NOTE]
-> 患者資源是唯一的必要資源 (，不會將 app 載入至所有) ;不過，建議合作夥伴針對上述所述的所有上述資源提供支援，以取得 Microsoft 團隊患者 App 的最佳使用者體驗。
+> 病患資源是唯一的 (資源，若沒有此資源，應用程式就完全無法載入) ;不過，建議合作夥伴針對以下提供的規格，針對上述所有資源執行支援，以在病患應用程式中獲得最佳Microsoft Teams體驗。
 
-來自 Microsoft 團隊患者 app 的來自多個資源的查詢，會將 (批次) 傳送給 FHIR server URL 的要求。 伺服器應該處理每個要求，並傳回每個要求所相符的資源套件。 如需詳細資訊和範例，請參閱 [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) 。
+來自多個Microsoft Teams之病患應用程式的查詢，應張貼 (BATCH) 到 FHIR 伺服器 URL 的要求。 伺服器應處理每個要求，並退回與每個要求相符的資源套件。 有關詳細資訊和範例，請參閱 [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) 。
 
-## <a name="capability-statement"></a>功能陳述
+## <a name="capability-statement"></a>功能語句
 
-以下是所需的最小欄位：
+這些是最小的必要欄位：
 
- - 地方
+ - 休息
 
-    - 下
+    - 模式
     - 互動
-    - 資源：類型
-    - 安全性： [OAuth uri 的副檔名](https://hl7.org/fhir/extension-oauth-uris.html)
+    - 資源：輸入
+    - 安全性 [：OAuth URI 擴充功能](https://hl7.org/fhir/extension-oauth-uris.html)
     
- - FhirVersion (我們的程式碼需要這麼做，才能瞭解我們應該將哪些版本的樞紐分析表。 ) 
+ - FhirVersion (我們的程式碼需要此程式，以瞭解應該樞紐至哪個) 
 
-[https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://www.hl7.org/fhir/stu3/capabilitystatement.html](https://www.hl7.org/fhir/stu3/capabilitystatement.html) 此欄位集的其他詳細資料。
 
-## <a name="patient"></a>患者
+## <a name="patient"></a>病人
 
-以下是 [Argonaut 患者設定檔] 欄位子集的 [必要] 欄位：
+以下是最小必要的欄位，這是 Argonaut 病患設定檔欄位的子集：
 
- - Name。指定
- - Name. 家人
+ - Name.given
+ - Name.Family
  - 性別
  - 生日
  - MRN (識別碼) 
 
-除了 [Argonaut 欄位](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html)之外，您還可以取得良好的使用者體驗，因為患者 app 也可以讀取下欄欄位：
+除了 [Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html)欄位之外，為了獲得出色的使用者體驗，Patients App 也可以讀取下欄欄位：
 
- - 名稱。使用
- - 名稱。前置詞
- - [GeneralPractitioner]-GeneralPractitioner 參照應該包含在患者資源中 (只顯示欄位) 
+ - Name.use
+ - Name.首碼
+ - [GeneralPractitioner] - GeneralPractitioner 參照應包含在 [病患] 資源中， (只包含) 
 
-資源搜尋使用/Patient/_search 的 POST 方法，以及下列參數：
+資源搜尋使用 /Patient/_search的 POST 方法，以及下列參數：
 
- - 標識號
- - [家人 =] (搜尋其系列名稱中包含值的所有患者) 
- - 給定 =\<substring>
- - 生日 = (完全符合) 
- - 性別 = (值是其中一個管理性別) 
- - \_count (應傳回的結果數目上限)  <br> 回應應包含由於搜尋和計數所傳回的記錄總數， \_ PatientsApp 將會使用這些記錄來限制傳回的記錄數。
- - 識別碼 =\<mrn>
+ - Id
+ - family= (會搜尋所有其姓氏包含) 
+ - given=\<substring>
+ - birthdate= (完全相符) 
+ - gender= (是其中一個系統管理性別) 
+ - \_計算 (應)  <br> 回應應包含搜尋結果所退回之記錄的總數，而 PatientsApp 會使用計數來限制所退回 \_ 的記錄數目。
+ - identifier=\<mrn>
 
-您的目標就是能夠搜尋及篩選患者，如下所示：
+目的是要能夠搜尋及篩選病患，方法如下：
 
-- [識別碼]：這是 FHIR 中的每個資源所擁有的資源識別碼。
-- MRN：這是臨床員工要認識的患者實際識別碼。 我們瞭解此 MRN 是以 FHIR 中識別碼資源內的識別碼類型為基礎。
+- 識別碼：這是 FHIR 中每個資源都有的資源識別碼。
+- MRN：這是臨床教職員會知道之病患的實際識別碼。 我們瞭解，此 MRN 是根據 FHIR 中識別碼資源內的識別碼類型。
 - 名稱
 - 生日
 
@@ -237,26 +237,26 @@ Response:
 }
 ```
 
-[https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://hl7.org/fhir/stu3/patient.html](https://hl7.org/fhir/stu3/patient.html) 此欄位集的其他詳細資料。
 
-## <a name="observation"></a>便
+## <a name="observation"></a>觀察
 
-這些是最小必要欄位，這些欄位是 [Argonaut Vital-Signs 設定檔](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html)的子集。
+這些是最小必要欄位，這是 [Argonaut](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html)設定檔的Vital-Signs欄位。
 
- - 生效 (日期時間或期間) 
- - 程式碼代碼。程式碼
- - ValueQuantity 值
+ - 自 (日期時間或期間起) 
+ - Code.Code.Code
+ - ValueQuantity.Value
 
-除了 Argonaut 欄位之外，您還可以取得良好的使用者體驗，因為患者 app 也可以讀取下欄欄位：
+除了 Argonaut 欄位之外，為了獲得出色的使用者體驗，病患應用程式也可以讀取下欄欄位：
 
- - 程式碼。顯示
- - ValueQuantity 單位
+ - Code.Code.Display
+ - ValueQuantity.Unit
 
-資源搜尋使用 [取得] 方法及下列參數：
+資源搜尋使用 GET 方法及下列參數：
 
- - 患者 =\<patient id>
- - _sort =-日期
- - 類別 (我們將查詢「類別 = 重要符號」 ) ，以取得重要符號清單。
+ - patient=\<patient id>
+ - _sort=-date
+ - 類別 (，我們會查詢"category=vital-signs") 以取回生命體征清單。
 
 請參閱此通話範例：
 
@@ -309,25 +309,25 @@ Response:
 }
 ```
 
-[https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://www.hl7.org/fhir/stu3/observation.html](https://www.hl7.org/fhir/stu3/observation.html) 此欄位集的其他詳細資料。
 
 ## <a name="condition"></a>條件
 
-以下是 [Argonaut 條件設定檔](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)的子集所需的最小欄位。
+以下是最小必要欄位，這是 [Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)條件設定檔的子集。
 
- - 程式碼。編碼 [0]。顯示幕
+ - Code.Code[0]。顯示
 
-除了 Argonaut 欄位之外，您還可以取得良好的使用者體驗，因為患者 app 也可以讀取下欄欄位：
+除了 Argonaut 欄位之外，為了獲得出色的使用者體驗，病患應用程式也可以讀取下欄欄位：
 
- - AssertedDate
- - 程度
+ - 已聲明
+ - 嚴重性
 
-資源搜尋使用 [取得] 方法及下列參數：
+資源搜尋使用 GET 方法及下列參數：
 
- - 患者 =\<patient id>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _count=\<max results>
 
-請參閱下列通話範例：
+請參閱下列此通話範例：
 
 ```
 Request:
@@ -372,49 +372,49 @@ Response:
 }
 ```
 
-[https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://hl7.org/fhir/stu3/condition.html](https://hl7.org/fhir/stu3/condition.html) 此欄位集的其他詳細資料。
 
-## <a name="encounter"></a>還有
+## <a name="encounter"></a>遇到
 
-這些是最小必要欄位，這些欄位是「 [美國核心](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) 」的子集 [必須擁有] 欄位) 。
+這些是最小必要欄位，這是美國核心遭遇設定檔的子集 [，"](https://hl7.org/fhir/us/core/2018Jan/StructureDefinition-us-core-encounter.html) 必須有"欄位) 。
 
- - 狀態值
- - 輸入 [0]。編碼 [0]。顯示幕
+ - 地位
+ - 輸入[0]。編碼[0]。顯示
 
-此外，美國核心的下欄欄位會遇到設定檔的「必須支援」欄位：
+此外，下欄欄位來自美國核心會議設定檔的「必須支援」欄位：
 
- - [期間]。開始
- - 位置 [0]。位置。顯示
+ - Period.Start
+ - 位置[0]。位置.顯示
 
-資源搜尋使用 [取得] 方法及下列參數：
+資源搜尋使用 GET 方法及下列參數：
 
- - 患者 =\<patient id>
- - _sort： desc =\<field ex. date>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _sort：desc=\<field ex. date>
+ - _count=\<max results>
 
-目標就是能夠檢索患者的最近已知位置。 每個遇到的都是參照位置資源。 參照也必須包含位置的顯示欄位。
+目的是要能夠取回病患的上一個已知位置。 每一次遇到都參照位置資源。 參照中也須包含位置的顯示欄位。
 
-[https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://hl7.org/fhir/stu3/encounter.html](https://hl7.org/fhir/stu3/encounter.html) 此欄位集的其他詳細資料。
 
-## <a name="allergyintolerance"></a>AllergyIntolerance
+## <a name="allergyintolerance"></a>抗反性Intolerance
 
-以下是 [ [Argonaut AllergyIntolerance](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) ] 設定檔的子集所需的最小欄位數：
+這些是最小必要欄位，這是 [Argonaut 的一個 SubsetyIntolerance 設定檔](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) ：
 
- - 程式碼。文字
- - 程式碼。編碼 [0]。顯示幕
- - ClinicalStatus/VerificationStatus (我們都會閱讀兩個) 
+ - Code.Text
+ - Code.Code[0]。顯示
+ - ClinicalStatus/verificationStatus (我們同時閱讀) 
 
-除了 Argonaut 欄位之外，您還可以取得良好的使用者體驗，因為患者 app 也可以讀取下欄欄位：
+除了 Argonaut 欄位之外，為了獲得出色的使用者體驗，病患應用程式也可以讀取下欄欄位：
 
- - AssertedDate
- - 記事。文字
- - 應付
-    - 物質 (一個編碼元素) 
-    -  (一個編碼元素) 的表現形式
+ - 已聲明
+ - 附注.文字
+ - 反應
+    - 實體 (一個編碼元素) 
+    - 顯示 (一個編碼元素) 
 
-資源搜尋使用 [取得] 方法及下列參數：
+資源搜尋使用 GET 方法及下列參數：
 
- - 患者 =  \<patient id>
+ - Patient =  \<patient id>
 
 請參閱下列通話範例： 
 
@@ -468,41 +468,41 @@ Response:
 }
 ```
 
-[https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://hl7.org/fhir/stu3/allergyintolerance.html](https://hl7.org/fhir/stu3/allergyintolerance.html) 此欄位集的其他詳細資料。
 
-## <a name="medication-request"></a>藥物要求
+## <a name="medication-request"></a>用藥要求
 
-這些是最小必要欄位，這些欄位是 [美國核心藥物需求設定檔](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html)的子集：
+這些是最低需求欄位，這是美國核心醫療要求設定檔的 [子集](http://www.hl7.org/fhir/us/core/StructureDefinition-us-core-medicationrequest.html)：
 
- - [藥物]。如果參照) ，則顯示 (
- - [藥物]。如果 CodableConcept) ，則 (文字
+ - Medication.display (參考) 
+ - Medication.text (CodableConcept) 
  - AuthoredOn
- - [申請者]。顯示
+ - Requester.Agent.Display
 
-除了美國核心欄位之外，您還可以取得良好的使用者體驗，讓患者 app 也可以讀取下欄欄位：
+除了美國核心欄位之外，為了獲得出色的使用者體驗，病患應用程式也可以閱讀下欄欄位：
 
- - DosageInstruction[..].字體
- - 字體
+ - DosageInstruction[..]。文本
+ - 文本
 
-資源搜尋使用 [取得] 方法及下列參數：
+資源搜尋使用 GET 方法及下列參數：
 
- - 患者 =\<patient id>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _count=\<max results>
 
-[https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://www.hl7.org/fhir/medicationrequest.html](https://www.hl7.org/fhir/medicationrequest.html) 此欄位集的其他詳細資料。
 
-## <a name="coverage"></a>百分比
+## <a name="coverage"></a>覆蓋
 
-以下是最小必要欄位，不是由美國核心或 Argonaut 設定檔所涵蓋：
+這些是最低要求欄位，美國核心或 Argonaut 設定檔未涵蓋：
 
- - 群組，至少有一個元素與
-    - GroupDisplay
-    - PlanDisplay
- - 試用期
- - SubscriberId
+ - 群組，至少有一個元素
+    - 群組顯示
+    - 方案顯示
+ - 時期
+ - 訂閱者Id
 
-資源搜尋使用 [取得] 方法及下列參數：
+資源搜尋使用 GET 方法及下列參數：
 
- - 患者 = \<patient id>
+ - Patient = \<patient id>
 
-[https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://hl7.org/fhir/stu3/coverage.html](https://www.hl7.org/fhir/medicationrequest.html) 此欄位集的其他詳細資料。

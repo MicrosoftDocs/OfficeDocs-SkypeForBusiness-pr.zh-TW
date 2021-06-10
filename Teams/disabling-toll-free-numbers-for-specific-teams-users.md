@@ -1,5 +1,5 @@
 ---
-title: 停用特定 Teams 使用者的免付費號碼
+title: 停用特定使用者的免付費Teams號碼
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -28,26 +28,26 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51096343"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>停用特定 Teams 使用者的免付費號碼
+# <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>停用特定使用者的免付費Teams號碼
 
 如果貴組織在其 Microsoft 音訊會議橋接器中擁有免付費號碼，您可以允許或禁止在特定的召集人會議中使用。  
 
-根據預設，貴組織的所有使用者都可以使用免付費號碼，也就是說，參與者可以使用這些號碼來加入他們的會議 。如果可用的話，這些號碼可供參與者使用。 如果貴組織中某些使用者不是想要的行為，您可以透過免付費號碼啟用控制項，限制特定使用者在會議中使用這些號碼。 
+根據預設，貴組織的所有使用者都可以使用免付費號碼，也就是說，參與者可以使用這些號碼來加入他們的會議 。如果可用的話， 如果貴組織中某些使用者不是想要的行為，您可以透過免付費號碼啟用控制項，限制特定使用者在會議中使用這些號碼。 
 
 當為給定的召集人停用免付費號碼時： 
  - 免付費號碼將不再包含在其會議邀請中。 
  - 免付費號碼將不再列在其會議邀請中參照的「尋找當地號碼」頁面上。 
  - 如果參與者撥打組織的任何免付費號碼，他們將無法加入該召集人的會議。 
- - 召集人的所有會議都會自動重新排期，免付費號碼也會從這些會議中移除。  
+ - 召集人的所有會議都會自動重新排期，免付費號碼也會從它們中移除。  
 
     > [!IMPORTANT]
-    > 這會將召集人的所有電子郵件邀請重新發回給這些會議的所有參與者。 
+    > 這會將召集人的所有電子郵件邀請重新發回給所有會議參與者。 
 
  - 參與者可以使用付費號碼繼續加入召集人的會議。 
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>停用特定使用者的免付費電話號碼 
 
-從 **Microsoft Teams 系統管理中心**：
+從 Microsoft Teams **系統管理中心**：
 
 1. 在左側導覽中， **按一下 [使用者**，然後從可用使用者清單中選取使用者。
 
@@ -63,4 +63,4 @@ ms.locfileid: "51096343"
  
 **使用 PowerShell**  
 
-請參閱 [Microsoft Teams PowerShell 參考以](/powershell/module/teams/?view=teams-ps) 瞭解更多資訊。
+請參閱[powerShell Microsoft Teams，](/powershell/module/teams/?view=teams-ps)以瞭解更多資訊。

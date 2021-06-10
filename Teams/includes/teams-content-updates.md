@@ -12,7 +12,7 @@
 | 5/10/2021 | [Microsoft TeamsPSTN 分鐘數庫報告](/MicrosoftTeams/teams-analytics-and-reports/pstn-minute-pools-report) | 改 性 |
 | 5/10/2021 | [瞭解Microsoft Teams商務用 Skype及互通性](/MicrosoftTeams/teams-and-skypeforbusiness-coexistence-and-interoperability) | 改 性 |
 | 5/10/2021 | [將商務用 Skype內部部署升級至Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 改 性 |
-| 5/10/2021 | [IT 系統管理員的升級策略](/MicrosoftTeams/upgrade-to-teams-on-prem-implement) | 改 性 |
+| 5/10/2021 | [適用于 IT 系統管理員的升級策略](/MicrosoftTeams/upgrade-to-teams-on-prem-implement) | 改 性 |
 | 5/10/2021 | [管理 Microsoft Teams 中的來電顯示原則](/MicrosoftTeams/caller-id-policies)。 | 改 性 |
 | 5/10/2021 | [媒體旁路搭配直接路由方案](/MicrosoftTeams/direct-routing-plan-media-bypass) | 改 性 |
 | 5/10/2021 | [如何在貴組織中使用來電顯示](/MicrosoftTeams/how-can-caller-id-be-used-in-your-organization) | 改 性 |
@@ -25,14 +25,14 @@
 | 5/12/2021 | [應用程式中的應用程式更新Microsoft Teams](/MicrosoftTeams/apps-update-experience) | 添加 |
 | 5/12/2021 | [自訂應用程式Microsoft Teams](/MicrosoftTeams/customize-apps) | 改 性 |
 | 5/12/2021 | [使用記錄檔案疑難排解Microsoft Teams](/MicrosoftTeams/log-files) | 改 性 |
-| 5/12/2021 | [使用應用程式Teams API 提交及核准您的自訂應用程式](/MicrosoftTeams/submit-approve-custom-apps) | 改 性 |
+| 5/12/2021 | [使用 Teams提交 API 來提交及核准您的自訂應用程式](/MicrosoftTeams/submit-approve-custom-apps) | 改 性 |
 | 5/12/2021 | [系統管理訓練資源 - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 改 性 |
 | 5/12/2021 | [維度和度量 - 通話品質儀表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 改 性 |
 | 5/12/2021 | [直接路由本地媒體優化](/MicrosoftTeams/direct-routing-media-optimization) | 改 性 |
 | 5/12/2021 | [媒體旁路搭配直接路由方案](/MicrosoftTeams/direct-routing-plan-media-bypass) | 改 性 |
 | 5/12/2021 | [以下是可透過電話系統獲得的功能](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 改 性 |
 | 5/12/2021 | [適用于 60 個字元 #Microsoft Teams #<的使用者訓練](/MicrosoftTeams/instructor-led-training-teams-landing-page) | 改 性 |
-| 5/12/2021 | [Microsoft Teams 適用的行動裝置必要診斷資料](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | 改 性 |
+| 5/12/2021 | [Microsoft Teams 的行動裝置必要診斷資料](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | 改 性 |
 | 5/12/2021 | [Microsoft Teams 中的私人頻道](/MicrosoftTeams/private-channels) | 改 性 |
 | 5/12/2021 | [Microsoft Teams 會議室應用程式版本支援](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 改 性 |
 | 5/12/2021 | [管理 Microsoft Teams 會議室](/MicrosoftTeams/rooms/rooms-manage) | 改 性 |
@@ -52,7 +52,7 @@
 | 5/14/2021 | [系統管理訓練資源 - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 改 性 |
 | 5/14/2021 | [設定自動Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 改 性 |
 | 5/14/2021 | [在 Microsoft Teams](/MicrosoftTeams/manage-tags) | 改 性 |
-| 5/14/2021 | [Microsoft Teams 適用的行動裝置必要診斷資料](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | 改 性 |
+| 5/14/2021 | [Microsoft Teams 的行動裝置必要診斷資料](/MicrosoftTeams/policy-control-diagnostic-data-mobile) | 改 性 |
 
 
 ## <a name="week-of-may-03-2021"></a>2021 年 5 月 3 日周
@@ -132,7 +132,7 @@
 | 5/7/2021 | [開始將商務用 Skype升級Teams](/MicrosoftTeams/upgrade-start-here) | 改 性 |
 | 5/7/2021 | [將商務用 Skype內部部署升級至Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 改 性 |
 | 5/7/2021 | [從線上商務用 Skype升級至Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | 改 性 |
-| 5/7/2021 | [IT 系統管理員的升級策略](/MicrosoftTeams/upgrade-to-teams-on-prem-implement) | 改 性 |
+| 5/7/2021 | [適用于 IT 系統管理員的升級策略](/MicrosoftTeams/upgrade-to-teams-on-prem-implement) | 改 性 |
 | 5/7/2021 | [從內部部署Teams升級商務用 Skype工具](/MicrosoftTeams/upgrade-to-teams-on-prem-tools) | 改 性 |
 | 5/7/2021 | [將升級升級至 Microsoft Teams](/MicrosoftTeams/upgrade-to-teams) | 改 性 |
 | 5/7/2021 | [從 Teams 升級到 PSTN 商務用 Skype](/MicrosoftTeams/upgrade-to-teams-on-prem-pstn-considerations) | 改 性 |
@@ -174,7 +174,7 @@
 | 4/30/2021 | [指派Microsoft 365 商務語音授權](/MicrosoftTeams/business-voice/set-up-licenses) | 添加 |
 | 4/30/2021 | [設定Microsoft 365 商務語音](/MicrosoftTeams/business-voice/set-up-overview) | 添加 |
 | 4/30/2021 | [設定Microsoft 365 商務語音電話號碼](/MicrosoftTeams/business-voice/set-up-phone-numbers) | 添加 |
-| 4/30/2021 | [設定 Microsoft 365 商務語音資源帳戶](/MicrosoftTeams/business-voice/set-up-resource-account) | 添加 |
+| 4/30/2021 | [設定Microsoft 365 商務語音資源帳戶](/MicrosoftTeams/business-voice/set-up-resource-account) | 添加 |
 | 4/30/2021 | 使用 [快速入門精靈] 設定商務語音 | 刪除 |
 | 4/30/2021 | [使用 Microsoft 365 商務語音附帶通話方案需要購買哪些項目？](/MicrosoftTeams/business-voice/what-to-buy) | 改 性 |
 

@@ -1,1 +1,1 @@
-Microsoft Teams 系統管理中心正在逐步替換商務用 Skype 系統管理中心，而且我們正在將 Teams 設定移轉至 Microsoft 365 系統管理中心。 如果某項設定已移轉完成，您會看到一則通知，然後系統會將您導向 Teams 系統管理中心的設定位置。 如需詳細資訊，請參閱[在轉換至 Teams 系統管理中心期間管理 Teams](../manage-teams-skypeforbusiness-admin-center.md) (英文)。
+Microsoft Teams 系統管理中心正在逐步替換商務用 Skype 系統管理中心，而且我們正在將 Teams 設定移轉至 Microsoft 365 系統管理中心。 如果某項設定已移轉完成，您會看到一則通知，然後系統會將您導向 Teams 系統管理中心的設定位置。 如需詳細資訊，請參閱[在轉換至 Teams 系統管理中心期間管理 Teams](../manage-teams-skypeforbusiness-admin-center.md)。

@@ -1,5 +1,5 @@
 ---
-title: 設定商務語音後的嘗試事項
+title: 設定 Business Voice 之後要嘗試的一些操作
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -25,6 +25,6 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 02/06/2020
 ms.locfileid: "41827361"
 ---
-# <a name="things-to-try-after-setting-up-business-voice"></a>設定商務語音後的嘗試事項
+# <a name="things-to-try-after-setting-up-business-voice"></a>設定 Business Voice 之後要嘗試的一些操作
 
 <!-- This topic will be populated in the future. Intentionally left out of the TOC>

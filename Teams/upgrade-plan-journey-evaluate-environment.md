@@ -29,7 +29,7 @@ ms.locfileid: "52282200"
 
 ![升級歷程圖，強調技術準備階段](media/upgrade-banner-tech-readiness.png "升級歷程的階段，強調技術準備階段")
 
-本文是升級過程中技術整備階段的一部分，此階段是您與使用者整備階段同時完成的活動。 繼續進行之前，請確認您已完成上述階段的活動：
+本文是升級過程中技術整備階段的一部分，此階段是您與使用者整備階段同時完成的活動。 在繼續進行之前，請確認您已完成上述階段的活動：
 
 - [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
 - [已定義專案範圍](./upgrade-define-project-scope.md)
@@ -44,7 +44,7 @@ ms.locfileid: "52282200"
 
 您將技術風險識別為環境評估與採用準備評估的一部分，並針對每個已識別的風險制定緩解計畫。 您應該在風險註冊簿中加入這項資訊。
 
-所有與現有共同作業基礎結構Microsoft 365或Office 365組織、網路、端點、作業，以及採用與準備相關的事項，都包含在環境探索問卷中。 請與專案小組合作，盡可能提供要求的資訊，以利規劃活動。
+所有與現有共同作業基礎結構Microsoft 365或Office 365組織、網路、端點、作業、採用和準備相關的事項，都包含在環境探索問卷中。 請與專案小組合作，盡可能提供要求的資訊，以利規劃活動。
 
 [問卷分為](upgrade-plan-journey-discovery-questionnaire.md)下列各節，以確認貴組織在幾個主要Teams部署準備就緒：
 
@@ -67,6 +67,6 @@ ms.locfileid: "52282200"
 
 ## <a name="project-team"></a>Project小組
 
-請確保您已與專案小組的合適人員合作。 驗證在招募專案專案關係人 [中完成的步驟](upgrade-enlist-stakeholders.md)。
+請確保您已與專案小組的合適人員合作。 驗證在招募專案專案關係 [人中完成的步驟](upgrade-enlist-stakeholders.md)。
 
 評估您的環境之後，請繼續進行下一個步驟： [準備您的服務](upgrade-prepare-environment-prepare-service.md)。

@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 瞭解如何在 SBC (設定一個會話) 控制器，) Microsoft 合作夥伴和/或 PSTN 電信公司的多個租使用者。
+description: 瞭解如何在 SBC 中設定一個會話 (，) Microsoft 合作夥伴和/或 PSTN 電信公司的多個租使用者。
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 8ff378d55f551cfb11bd6f185840407e20095035
 ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
@@ -29,10 +29,10 @@ ms.locfileid: "52486377"
 直接路由支援將一個會話邊界控制器 (SBC) 多個租使用者。
 
 > [!NOTE]
-> 此案例專為 Microsoft 合作夥伴和/或 PSTN 電信公司所設計，本文稍後稱為電信公司。 電信業者會銷售傳送給客戶Microsoft Teams電話語音。 
+> 此案例是專為 Microsoft 合作夥伴和/或 PSTN 電信公司所設計，本文稍後稱為電信公司。 電信業者會銷售傳送給客戶Microsoft Teams電話語音。 
 
 電信公司：
-- 在資料中心部署及管理 SBC (客戶不需要執行 SBC，而且他們會收到來自電信業者的電話語音，Teams用戶端) 。
+- 在資料中心部署和管理 SBC (客戶不需要執行 SBC，而且他們會收到來自電信業者的電話語音，Teams用戶端) 。
 - 將 SBC 與多個租使用者相互連接。
 - 為客戶提供 PSTN 服務。
 - 管理電話品質端對端。
@@ -50,17 +50,17 @@ Microsoft 不會管理電信公司。 Microsoft 提供 PBX (Microsoft 電話 Sys
 **具有客戶全域系統管理員的電信公司：**
 1. 將子功能變數名稱稱新增到客戶租使用者。
 2. 啟用子功能變數名稱稱。
-3. 設定從電信企業到客戶租使用者的主幹，並設定使用者。
+3. 設定從電信電信企業到客戶租使用者的主幹，並設定使用者。
 
-*請確定您瞭解 DNS 基本功能，以及功能變數名稱在 Microsoft 365 或 Office 365。在 [繼續進行之前，請Microsoft 365取得Office 365網](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)域的協助。*
+*請確定您瞭解 DNS 基本功能，以及功能變數名稱在 Microsoft 365 或 Office 365。在 [繼續進行之前，請Microsoft 365或Office 365取得](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)協助。*
 
 ## <a name="deploy-and-configure-the-sbc"></a>部署及設定 SBC
 
 如需如何針對 SBC 主機案例部署及設定 SBC 的詳細步驟，請參閱 SBC 廠商的檔。
 
-- **AudioCodes：**[直接路由組](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)組記，SBC 主機案例的組Microsoft Teams「將 AudioCodes SBC 連結至 Microsoft Teams主機管理模型組組附注」。 
+- **音訊代碼：**[直接路由組](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams)附注，SBC 主機案例的組Microsoft Teams「將 AudioCodes SBC 連結至 Microsoft Teams路由主機模型組組附注」。 
 - **Oracle：**[直接路由群組原則附注](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html)，SBC 主機案例的組塊會于「Microsoft」一節中說明。 
-- **功能區通訊：** 請參閱功能區 [通訊 SBC 核心 Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)組組指南，以瞭解如何設定功能區核心系列 SBC 的檔，並參閱此頁面功能區最佳做法 - 為 Microsoft Teams 直接路由 [SBC Edge 設定](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)電信業者
+- **功能區通訊：** 請參閱功能區通訊 [SBC 核心 Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe)組組指南，以瞭解如何設定功能區核心系列 SBC 的檔，並參閱此頁面功能區最佳做法 - 為 Microsoft Teams 直接路由 [SBC Edge 設定](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)電信業者
 - **TE-Systems (anynode) ：** 請在 [TE-Systems](https://community.te-systems.de/) Community頁面上註冊，以瞭解如何為多個租使用者設定 anynode SBC 的檔和範例。
 - **Metaswitch：** 請在 [Metaswitch](https://manuals.metaswitch.com/MAN39555) Community頁面上註冊，以瞭解如何為多個租使用者啟用 Perimeta SBC 的檔。
 
@@ -131,7 +131,7 @@ SBC 需要憑證來驗證連接。 針對 SBC 主機案例，電信業者必須�
     ![顯示確認已驗證功能變數名稱的螢幕擷取畫面](media/direct-routing-3-sbc-verify-domain.png)
 
 5. 按一下 **[下** 一步設定更新 **DNS** 記錄頁面，選取 [我要自己新增 **DNS** 記錄，然後按一下 [下 **一步**。
-6. 在下一頁上，清除所有值 (，除非您要使用 Exchange、SharePoint 或 Teams/商務用 Skype) 的功能變數名稱，請按一下 [下一步，然後按一下 [**完成**> 。  請確定您的新網域已達設定完成狀態。
+6. 在下一頁中，清除所有值 (，除非您要使用 Exchange、SharePoint 或 Teams/商務用 Skype) 的功能變數名稱，請按一下 [下一步，然後按一下 [**完成**。  請確定您的新網域已達設定完成狀態。
 
     ![顯示完成設定狀態的網域的螢幕擷取畫面](media/direct-routing-14-sbc-setup-complete.png)
 
@@ -142,7 +142,7 @@ SBC 需要憑證來驗證連接。 針對 SBC 主機案例，電信業者必須�
 > [!NOTE]
 > 電信公司租使用者必須保留至少一電話系統指派給租使用者授權，以避免移除商務用 Skype組。 
 
-*如需在 [組織](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)或Microsoft 365 Office 365中新增使用者Microsoft 365或Office 365取得協助。*
+*如需在組織Microsoft 365 [或](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)Office 365中新增使用者Microsoft 365，請參閱取得Office 365協助。*
 
 例如：test@customers.adatum.biz
 
@@ -164,7 +164,7 @@ SBC 需要憑證來驗證連接。 針對 SBC 主機案例，電信業者必須�
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>新增子域至客戶租使用者並驗證
 1. 在系統管理Microsoft 365，請 **前往設定**  >  **網域**  >  **新增網域**。
-2. 在輸入 **您擁有之網域的** 方塊中，輸入此租使用者子域的 FQDN。 在下列範例中，子域 sbc1.customers.adatum.biz。
+2. 在輸入 **您擁有之網域** 的方塊中，輸入此租使用者子域的 FQDN。 在下列範例中，子域 sbc1.customers.adatum.biz。
 
     ![新增網域頁面的螢幕擷取畫面](media/direct-routing-5-sbc-add-customer-domain.png)
 
@@ -207,7 +207,7 @@ SBC 需要憑證來驗證連接。 針對 SBC 主機案例，電信業者必須�
 
 註冊功能變數名稱之後，您必須新增至少一個使用者，並指派 SIP 位址與客戶租使用者中已建立子域符合之 SIP 位址的 FQDN 部分來啟用功能變數名稱。 子域啟用之後，使用者 (最多可能需要 24 小時) 。
 
-*如需在 [組織](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)或Microsoft 365 Office 365中新增使用者Microsoft 365或Office 365取得協助。*
+*如需在組織Microsoft 365 [或](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)Office 365中新增使用者Microsoft 365，請參閱取得Office 365協助。*
 
 例如：test@sbc1.customers.adatum.biz
 
@@ -223,20 +223,20 @@ SBC 需要憑證來驗證連接。 針對 SBC 主機案例，電信業者必須�
 
 -  **負荷處理**。 收集及監控主幹健康情況資料 - 從多個邏輯主幹收集的 SIP 選項，實際上，相同的 SBC 和相同的實體主幹，會降低路由資料的處理速度。
  
-根據這個意見，Microsoft 會提供新的邏輯來為客戶租使用者配置主幹。
+根據這項意見，Microsoft 正在引進新的邏輯，以為客戶租使用者配置主幹。
 
 引進了兩個新實體：
 -    使用命令 New-CSOnlinePSTNGateway 在電信租使用者中註冊的電信母線，例如 New-CSOnlinePSTNGateway -FQDN customers.adatum.biz -SIPSignalingport 5068 -ForwardPAI $true。
 
--    不需要註冊的衍生主幹。 它只是從電信母線新增到所需的主機名稱稱。 它會從電信母線衍生出其所有設定參數。 衍生主幹不需要在 PowerShell 中建立，而與電信業者主幹的關聯是以 FQDN 名稱為基礎 (請參閱下方) 。
+-    不需要註冊的衍生主幹。 這只是從電信母線新增的所需主機名稱稱。 它會從電信母線衍生出其所有設定參數。 衍生主幹不需要在 PowerShell 中建立，而與電信業者主幹的關聯是以 FQDN 名稱為基礎 (請參閱下方) 。
 
 **置備邏輯和範例**
 
 -    電信公司只需要使用 (命令，在電信) 中設定及管理Set-CSOnlinePSTNGateway主幹。 在上方範例中，這是 adatum.biz;
 -    在客戶租使用者中，電信公司只需要將衍生主幹 FQDN 新加到使用者的語音路由策略。 不需要執行主幹New-CSOnlinePSTNGateway程式。
 -    如名稱所建議，衍生主幹會繼承或衍生電信母線的所有組組參數。 例子：
--    Customers.adatum.biz – 需要在電信租使用者中建立電信母線。
--    Sbc1.customers.adatum.biz – 客戶租使用者中的衍生主幹，不需要在 PowerShell 中建立。  您只要在線上語音路由策略中，在客戶租使用者中新增衍生主幹的名稱即可，而不必建立該主幹。
+-    Customers.adatum.biz – 需要在電信租使用者中建立之電信母線。
+-    Sbc1.customers.adatum.biz – 客戶租使用者中的衍生主幹，不需要在 PowerShell 中建立。  您可以直接在線上語音路由策略的客戶租使用者中新增衍生主幹的名稱，而不必建立。
 -   電信公司必須設定 DNS 記錄，將衍生主幹 FQDN 解析為電信公司 SBC IP 位址。
 
 -    在電信 (租使用者) 上進行的任何變更，都會自動適用于衍生的主幹。 例如，電信公司可以變更電信母線上的 SIP 埠，這項變更會適用于所有衍生的主幹。 設定主幹的新邏輯簡化了管理，因為您不需要前往每個租使用者並變更每個主幹上的參數。

@@ -45,7 +45,7 @@ ms.locfileid: "52697840"
 
 ## <a name="configure-patients-app"></a>設定病患應用程式
 
-請參閱[管理應用程式中的應用程式Microsoft Teams，](../../teams-app-setup-policies.md)為貴組織啟用病患應用程式。
+請參閱[管理應用程式中的應用程式設定Microsoft Teams，](../../teams-app-setup-policies.md)為貴組織啟用病患應用程式。
 
 如需使用者如何存取及安裝病患應用程式至他們擁有或管理的小組的詳細資訊，請參閱[開始使用 Microsoft Teams 病患服務](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393)。
 

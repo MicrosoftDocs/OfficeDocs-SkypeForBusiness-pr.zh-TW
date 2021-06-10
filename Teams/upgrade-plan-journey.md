@@ -42,6 +42,6 @@ ms.locfileid: "52282120"
 規劃好您的歷程之後，您將閱讀有關準備環境及準備組織[](upgrade-prepare-environment.md)的主題，然後再執行[升級](upgrade-to-teams.md)。 [](upgrade-prepare-organization.md)  
 
 > [!TIP]
-> 與我們一起參與即時互動式研討會，我們將分享引導、最佳做法和資源，以開始進行升級規劃與實作。
+> 與我們一起參與即時互動式研討會，我們將在這裡分享指導、最佳做法和資源，以啟動升級規劃與實作。
 >
 > 首先 [加入規劃升級](./upgrade-workshops-landing-page.yml) 會話以開始使用。

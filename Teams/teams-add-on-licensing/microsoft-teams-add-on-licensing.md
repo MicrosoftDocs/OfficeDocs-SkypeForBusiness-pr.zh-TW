@@ -19,7 +19,7 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-mar2020
-description: 瞭解每個授權Microsoft Teams附加元件授權以及您取得的功能。
+description: 瞭解每個授權Microsoft Teams附加元件授權，以及您取得的功能。
 ms.openlocfilehash: ff5c9ca199a017406b46061daea99658157318e5
 ms.sourcegitcommit: a628b22c9a0ef3bcd7dee3f308a79b4c427872cc
 ms.translationtype: MT
@@ -41,7 +41,7 @@ ms.locfileid: "52491772"
 |:-----|:-----|:-----|:-----|
 |**功能** <br/> |**描述** <br/> |**小型企業版 (<300 個使用者)**|**大型企業 (>300 個使用者)**|
 **Microsoft 365 Business Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md)是專為多達 300 位使用者的中小型企業所設計的電話解決方案，電話系統音訊會議、國內通話方案等。 電話系統語音信箱、本機號碼、呼叫保留、呼叫轉乘、自動語音信箱和通話佇列等功能。 <br> 若要瞭解商務語音是否可在您的國家/地區使用，請參閱商務語音的國/地區 [可用性](../business-voice/country-region-availability.md)。 有關定價資訊，請參閱 [商務用語音的定價](https://go.microsoft.com/fwlink/?linkid=2127221)。 <br/> |&#x2713;||
-|**音訊會議** <br/> |有時候，貴組織的成員必須用電話來Teams會議。 為 [排程或主導](../audio-conferencing-in-office-365.md) 會議的使用者設定音訊會議。 <br/> 若要了解您的國家/地區是否可使用音訊會議，請參閱[音訊會議與通話方案的適用國家和地區](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 如需定價資訊，請參閱[音訊會議的定價](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> <br/>如果您是一家擁有最多 300 位使用者的中小型企業，而且您目前沒有音訊會議授權，您可以免費使用音訊會議一年。 自 2020 年 10 月 1 日起，擁有 Microsoft 365 商務基本版、商務標準版、商務用 進階版、Enterprise E1 或 e3 授權的使用者Enterprise音訊會議優惠。 若要深入瞭解，請參閱為中小型企業設定音訊 [會議](../audio-conferencing-smb.md)。|&#x2713;|&#x2713;|
+|**音訊會議** <br/> |有時候，貴組織的成員必須用電話來Teams會議。 為 [排程或主導](../audio-conferencing-in-office-365.md) 會議的使用者設定音訊會議。 <br/> 若要了解您的國家/地區是否可使用音訊會議，請參閱[音訊會議與通話方案的適用國家和地區](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 如需定價資訊，請參閱[音訊會議的定價](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> <br/>如果您是一家擁有最多 300 位使用者的中小型企業，而且您目前沒有音訊會議授權，您可以免費使用音訊會議一年。 自 2020 年 10 月 1 日起，擁有 Microsoft 365 商務基本版、商務標準版、商務用 進階版、Enterprise E1 或 e3 授權Enterprise音訊會議優惠。 若要深入瞭解，請參閱 [設定中小型企業的音訊會議](../audio-conferencing-smb.md)。|&#x2713;|&#x2713;|
 |**免付費號碼** |如果您想要音訊會議、自動語音服務或通話佇列免付費號碼，您必須 [設定通訊信用額度](../set-up-communications-credits-for-your-organization.md)。 <br/> |&#x2713;|&#x2713;|
 |**電話系統** <br/> |[電話系統](../what-is-phone-system-in-office-365.md)是一種託管電話語音，可為您提供通話控制和私人分支 Exchange (PBX) 功能，以及可連接至公用交換電話網絡 (PSTN) 的選項。 電話系統包括雲端語音信箱、本機號碼、來電轉接、來電轉接、自動語音留言、通話佇列、來電轉接、本機號碼等。 <br>若要深入瞭解，請參閱[以下是您取得電話系統。](../here-s-what-you-get-with-phone-system.md) 有關定價資訊，請參閱[定價電話系統。](https://go.microsoft.com/fwlink/?linkid=799763)  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
 |**通話方案** <br/> |如果您希望使用者能夠撥打組織外的電話號碼，請取得通話 [方案](../calling-plans-for-office-365.md)。 有國內通話方案及國內及國際通話方案。 有關定價資訊，請參閱 [通話方案定價](https://go.microsoft.com/fwlink/?linkid=799761 )。  <br/> |&#x2713;<sup>1</sup>|&#x2713;|
@@ -54,7 +54,7 @@ ms.locfileid: "52491772"
 
 根據您擁有的計畫，查看Teams取得語音功能所需的附加元件授權。
 
-根據您想要的語音功能，我們建議您比較切換到包含這些功能的計畫是否更具成本效益。 例如，對大多數的大型組織而言，在計畫內購買一Microsoft 365 企業版套件，將會降低整體成本。 一般來說，當您個別購買多個附加元件授權，而非計畫的一部分時，最終可能會獲得較高的合併成本。
+根據您想要的語音功能，我們建議您比較切換到包含這些功能的計畫是否更具成本效益。 例如，對大多數的大型組織而言，在計畫內購買一Microsoft 365 企業版套件，將會降低整體成本。 一般來說，當您個別購買多個附加元件授權，而不是作為計畫的一部分時，最終可能會獲得較高的合併成本。
 
 #### <a name="small-business"></a>[**小型企業**](#tab/small-business/)
 
@@ -172,7 +172,7 @@ Microsoft 365 商務標準版 Microsoft 365 商務進階版</td>
 
 對於學校和其他學術組織，您擁有三種取得語音功能的方法。
 
-- 購買 EDU A1 或 A3 方案Microsoft 365 商務語音。
+- 購買 EDU A1 或 A3 方案並Microsoft 365 商務語音。
 - 購買 EDU A1 或 A3 方案，並個別新增語音功能。
 - 購買包含語音功能的 EDU A5 方案。
 
@@ -213,7 +213,7 @@ Microsoft 365 商務標準版 Microsoft 365 商務進階版</td>
 
   <sup>1</sup> 僅適用于使用者少於 300 的組織。
 
-若要深入瞭解，[請參閱Microsoft 365 教育版](https://www.microsoft.com/education/buy-license/microsoft365)及[Office 365 教育版方案](https://www.microsoft.com/education/products/office)。
+若要深入瞭解，[請參閱Microsoft 365 教育版Office 365 教育版](https://www.microsoft.com/education/buy-license/microsoft365)[方案](https://www.microsoft.com/education/products/office)。
 
 > [!NOTE]
 > 如果您需要使用協力廠商電話語音，直接路由會部署[](../direct-routing-landing-page.md)在貴組織中，或者如果您的國家/地區沒有提供通話方案，您必須使用直接路由作為語音功能。
@@ -263,7 +263,7 @@ Microsoft 365 商務標準版 Microsoft 365 商務進階版</td>
 
   <sup>1</sup> 僅適用于使用者少於 300 的組織。
 
-若要深入瞭解，請參閱Microsoft 365[及](https://www.microsoft.com/microsoft-365/government/)Office 365 政府版[計畫](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)。
+若要深入瞭解，請參閱[Microsoft 365及](https://www.microsoft.com/microsoft-365/government/)Office 365 政府版[計畫](https://www.microsoft.com/microsoft-365/government/compare-office-365-government-plans)。
 
 > [!NOTE]
 > 如果您需要使用協力廠商電話語音，直接路由會部署[](../direct-routing-landing-page.md)在貴組織中，或者如果您的國家/地區沒有提供通話方案，您必須使用直接路由作為語音功能。
@@ -329,9 +329,9 @@ Microsoft 365 商務標準版 Microsoft 365 商務進階版</td>
 
 ### <a name="trial-offers-for-licensing-plans"></a>授權方案試用優惠
 
-針對人們進行遠端工作或在家 (工作) 需求增加，Microsoft 提供數種免費 Teams 試用優惠給政府、教育及非營利組織。 以下方案提供試用版：
+為了因應人們遠端工作或在家 (工作) ，Microsoft 提供數種免費 Teams 試用優惠給政府、教育及非營利組織。 以下方案提供試用版：
 
-- Office 365 企業版[E1](../e1-trial-license.md)試用版 (2020 年 7 月 1 日終止) E3 試用版和 E5 試用版
+- Office 365 企業版[E1](../e1-trial-license.md) (于 2020 年 7 月 1 日終止) E3 試用版和 E5 試用版
 - Office 365 教育版[A1 試用版](../teams-edu-licensing.md)
 - Office 365 政府版[G1 (](../g1-trial-license.md)于 2020 年 7 月 1 日終止) 
 

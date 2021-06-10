@@ -46,7 +46,7 @@ CQD 會顯示 2019 年 2019 Microsoft Teams、商務用 Skype線上商務用 Sky
 
 ## <a name="assign-admin-roles-for-access-to-cqd"></a>指派系統管理員角色以存取 CQD
 
-將 [存取](/microsoft-365/admin/add-users/about-admin-roles) CQD 的角色指派給需要使用該角色的人。
+將 [存取](/microsoft-365/admin/add-users/about-admin-roles) CQD 的角色指派給需要使用它的人。
 
 如果您希望非系統管理員使用者 (例如支援工程師和技術支援人員) 使用通話品質儀表板，您可以指派下列其中一個角色來存取 CQD。 
 
@@ -54,7 +54,7 @@ CQD 會顯示 2019 年 2019 Microsoft Teams、商務用 Skype線上商務用 Sky
 |  |查看報表  |查看 EUII 欄位  |建立報表  |Upload建立資料  |
 |---------|:-------:|:-------:|:-------:|:-------:|
 |全域系統管理員     |是         |是         |是         |是         |
-|Teams管理員     |是         |是         |是         |是         |
+|Teams 系統管理員     |是         |是         |是         |是         |
 |Teams 通訊系統管理員     |是         |是         |是         |是         |
 |Teams 通訊支援工程師     |是         |是         |是         |否         |
 |Teams通訊支援專家     |是         |否         |是         |否         |
@@ -62,7 +62,7 @@ CQD 會顯示 2019 年 2019 Microsoft Teams、商務用 Skype線上商務用 Sky
 |全域閱讀程式 |是         |是         |是         |否         |
 |報表閱讀<sup>程式 1</sup>     |是         |否         |是         |否         |
 
-<sup>1</sup>除了閱讀 CQD 報告之外，報表閱讀程式還可以查看[](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)系統管理中心的所有活動報告，以及採用內容套件Microsoft 365[報告](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)。
+<sup>1</sup>除了閱讀 CQD 報告之外，報表閱讀程式還可以在[](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263)系統管理中心中查看所有活動報告，以及來自採用內容套件Microsoft 365[報告](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)。
 
 > [!NOTE]
 > 如果您沒有看到 [EUII (](CQD-data-and-reports.md#euii-data) 使用者識別資訊) 且您擁有允許查看此資訊的其中一個角色，請記住，CQD 只會讓 EUII 保留 28 天。 任何超過 28 天都將會刪除。

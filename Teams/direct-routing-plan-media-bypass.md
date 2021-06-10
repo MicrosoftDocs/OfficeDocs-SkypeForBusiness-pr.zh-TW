@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 瞭解如何使用直接路由規劃媒體旁電話系統，這可讓您縮短媒體流量的路徑並改善績效。
+description: 瞭解如何使用直接路由規劃媒體電話系統，這可讓您縮短媒體流量的路徑，並改善績效。
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 4978c7ce2a69f23164a3869dd69368b3aaad2c4e
 ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
@@ -28,7 +28,7 @@ ms.locfileid: "52469625"
 
 ## <a name="about-media-bypass-with-direct-routing"></a>關於使用直接路由的媒體旁路
 
-媒體旁路可讓您縮短媒體流量的路徑，並減少傳輸中的躍點數量，以提升績效。 在媒體旁路時，媒體會保留在會話邊界控制器 (SBC) 與用戶端之間，而不是透過 Microsoft 電話 系統傳送。 若要設定媒體旁路，SBC 和用戶端必須位於相同的位置或網路。
+媒體旁路可讓您縮短媒體流量的路徑，並減少傳輸中的躍點數量，以提升績效。 在媒體旁路時，媒體會保留在會話邊界控制器 (SBC) 與用戶端之間，而不是透過 Microsoft 電話 系統傳送。 若要設定媒體旁路，SBC 和用戶端必須位於相同的位置或網路中。
 
 您可以使用 **Set-CSOnlinePSTNGateway** 命令，將 **-MediaBypass** 參數設為 True 或 false，控制每個 SBC 的媒體旁路。 如果您啟用媒體旁路，這不表示所有媒體流量都會維持在公司網路中。 本文將說明不同情況下的通話流程。
 
@@ -51,7 +51,7 @@ ms.locfileid: "52469625"
   > [!div class="mx-imgBorder"]
   > ![使用媒體旁路顯示訊號和媒體流程](media/direct-routing-media-bypass-2.png)
 
-媒體旁路會利用 SBC 上 (的 ICE) 協定Teams ICE lite。 這些通訊協定可讓直接路由使用最直接的媒體路徑，以獲得最佳品質。 ICE 和 ICE Lite 是 WebRTC 標準。 有關這些通訊協定的詳細資訊，請參閱 RFC 5245。
+媒體旁路會利用稱為互動式 (建立) 的通訊協定Teams SBC 上的 ICE lite。 這些通訊協定可讓直接路由使用最直接的媒體路徑，以獲得最佳品質。 ICE 和 ICE Lite 是 WebRTC 標準。 有關這些通訊協定的詳細資訊，請參閱 RFC 5245。
 
 
 ## <a name="call-flow-and-firewall-planning"></a>通話流程與防火牆規劃
@@ -64,15 +64,15 @@ ms.locfileid: "52469625"
 
 - 對於媒體旁Teams，用戶端必須能存取 SBC 的公用 IP 位址，即使從內部網路也一樣。 如果不需要直接媒體，媒體可以透過傳輸轉場流程。
 
-- 當使用者與 SBC 位於同一棟大樓和/或網路中時，建議使用這個解決方案：從媒體路徑移除 Microsoft Cloud 元件。
+- 當使用者與 SBC 位於同一棟大樓和/或網路中時，建議您使用這個解決方案：從媒體路徑移除 Microsoft Cloud 元件。
 
 - 訊號永遠會透過 Microsoft 雲端傳輸。
 
-下圖顯示啟用媒體旁路時通話流程、用戶端為內部，且用戶端可以到達 SBC 的公用 IP 位址 (媒體) ： 
+下圖顯示啟用媒體旁路時通話流程、用戶端為內部，且用戶端可以到達 SBC (媒體的公用 IP 位址) ： 
 
 - 路徑的箭號和數值與通話Microsoft Teams[一樣](./microsoft-teams-online-call-flows.md)。
 
-- SIP 訊號一定採用 4' 和 4' 路徑 (視流量方向) 。 媒體保持為本地，並採用路徑 5b。
+- SIP 訊號一直採用 4' 和 4' (視流量方向) 。 媒體保持為本地，並採用路徑 5b。
 
 > [!div class="mx-imgBorder"]
 > ![顯示已啟用媒體旁路的通話流程，用戶端為內部](media/direct-routing-media-bypass-3.png)
@@ -82,7 +82,7 @@ ms.locfileid: "52469625"
 
 以下說明如果使用者無法存取 SBC 的公用 IP 位址，則通話流程。 
 
-例如，假設使用者是外部使用者，而且租使用者系統管理員決定不將 SBC 的公用 IP 位址開啟給網際網路中的每個人，而只會開啟到 Microsoft Cloud。 流量的內部元件可以透過傳輸轉Teams流程。 請考慮下列事項：
+例如，假設使用者是外部使用者，而且租使用者系統管理員決定不將 SBC 的公用 IP 位址開放給網際網路中的每個人，而只會開啟到 Microsoft Cloud。 流量的內部元件可以透過傳輸轉Teams流程。 請考慮下列事項：
 
 - Teams使用傳輸轉場。
 
@@ -93,13 +93,13 @@ ms.locfileid: "52469625"
 
 - 路徑的箭號和數值與通話Microsoft Teams[一樣](./microsoft-teams-online-call-flows.md)。
 
-- 媒體會透過路徑 3、3'、4 和 4' 進行轉場
+- 媒體會透過路徑 3、3'、4 和 4' 轉傳
 
 > [!div class="mx-imgBorder"]
 > ![如果使用者無法存取 SBC 的公用 IP，則顯示通話流程](media/direct-routing-media-bypass-4.png)
 
 
-### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>如果使用者位於網路外部，且可存取 SBC 的公用 IP，則通話流程
+### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>如果使用者位於網路外部且可存取 SBC 的公用 IP，則通話流程
 
 > [!NOTE]
 > 這不是建議的配置，因為它不會利用傳輸轉Teams的優點。 相反地，您應該考慮使用者無法存取 SBC 公用 IP 位址的上一個案例。 
@@ -120,11 +120,11 @@ Microsoft Cloud 中的兩個元件可以在媒體流量的路徑中：媒體處�
 
 - 媒體處理器是一種公開元件，可處理非旁路情況下的媒體，並處理語音應用程式的媒體。
 
-   媒體處理器一直位於使用者非旁路通話的路徑中，但絕不會在未接來電的路徑中。 媒體處理器一直位於所有語音應用程式的路徑中，例如通話駐場、組織自動語音留言和通話佇列。
+   媒體處理器一直位於使用者非旁路通話的路徑中，但絕不會在未接來電的路徑中。 媒體處理器會一直位於所有語音應用程式的路徑中，例如通話停駐、組織自動語音留言和通話佇列。
 
 - 傳輸轉送是用來連接到最近的傳輸服務，以傳送即時流量。
 
-   傳輸轉訊可能位於未接來電的路徑中 ，這些通話可能來自或目的地給使用者，取決於使用者在哪裡，以及網路是如何配置的。
+   傳輸轉訊可能位於未接來電的路徑中 ，這些通話的來源或目的地是使用者，取決於使用者在哪裡，以及網路是如何配置的。
 
 下圖顯示兩個通話流程 ：一個已啟用媒體旁路，另一個已停用媒體旁路。
 
@@ -143,11 +143,11 @@ Microsoft Cloud 中的兩個元件可以在媒體流量的路徑中：媒體處�
 
 |    | 媒體處理器 | 傳輸轉場|
 | :--------------|:---------------|:------------|
-針對使用者的非旁路通話的媒體路徑 | 總是 | 如果用戶端無法直接到達媒體處理器 | 
+在媒體路徑中，為使用者撥打非旁路的通話 | 總是 | 如果用戶端無法直接到達媒體處理器 | 
 在媒體路徑中為使用者進行旁路通話 | 從來 沒有 | 如果用戶端無法到達公用 IP 位址上的 SBC | 
 在語音應用程式的媒體路徑中 | 總是 | 從來 沒有 | 
 可以轉譯 B2BUA (B2BUA) \* | 是 | 否，只會在端點之間轉傳音訊 | 
-全球實例數目和位置 | 總計 10 個：美國東部和西部 2 個;2 在荷蘭的阿姆斯特丹和伯德林;香港和新加坡有 2 個;日本為 2;澳洲東部和東南亞的 2 個 | 多個
+全球實例數目和位置 | 總計 10 個：美國東部和西部 2 個;2 在荷蘭的阿姆斯特丹和伯林達;香港和新加坡有 2 個;日本為 2;澳洲東部和東南亞的 2 個 | 多個
 
 IP 範圍為：
 - 52.112.0.0/14 (IP 位址從 52.112.0.1 到 52.115.255.254) 
@@ -157,14 +157,14 @@ IP 範圍為：
 
 - 媒體處理器是 B2BUA，這表示它可以在 MP 和 S) BC (之間將編解碼器從 Teams 用戶端變更為 MP 和 G.711。
 
-- 傳輸轉場不是 B2BUA，這表示編解碼器永遠不會在用戶端與 SBC 之間變更，即使流量是透過轉場流程。
+- 傳輸轉場不是 B2BUA，這表示編解碼器永遠不會在用戶端與 SBC 之間變更，即使流量是透過轉場流量。
 
 ### <a name="use-of-teams-media-processors-if-trunk-is-configured-for-media-bypass"></a>如果主幹Teams媒體旁路，則使用媒體處理器
 
 Teams媒體處理器一直在下列情況下插入媒體路徑：
 
 - 通話從 1：1 升級為群組通話
-- 通話會撥打至Teams使用者
+- 正在將通話呼叫至Teams使用者
 - 呼叫已轉接或轉接至商務用 Skype使用者
 
 請確定您的 SBC 能夠存取媒體處理器和傳輸轉場範圍，如下所示。    
@@ -188,13 +188,13 @@ Teams媒體處理器一直在下列情況下插入媒體路徑：
 
 - **sip2.pstnhub.microsoft.com** - 次要 FQDN - 地理上會繪製至第二個優先順序區域。
 
-- **sip3.pstnhub.microsoft.com** - 三級 FQDN - 地理上可繪製至第三個優先順序區域。
+- **sip3.pstnhub.microsoft.com** - 三級 FQDN – 地理上可繪製至第三個優先順序區域。
 
-您必須放置這三個 FQDN，才能：
+您必須放置這三個 FQDNs，才能：
 
 - 查詢第一個 FQDN (，提供較不載入且最接近 SBC 資料中心的最佳) 。
 
-- 當從 SBC 建立到遇到暫時問題的資料中心的連接時，提供容錯移轉。 詳細資訊，請參閱下方的容錯移轉機制。
+- 當從 SBC 建立到發生暫時問題的資料中心的連接時，提供容錯移轉。 詳細資訊，請參閱下方的容錯移轉機制。
 
 
 FQDNs **sip.pstnhub.microsoft.com** **、sip2.pstnhub.microsoft.com** 和 sip3.pstnhub.microsoft.com 會解析為下列其中一個 IP 位址：
@@ -215,7 +215,7 @@ FQDNs **sip.pstnhub.microsoft.com** **、sip2.pstnhub.microsoft.com** 和 sip3.p
 
 直接路由的連接點為下列 FQDN：
 
-**sip.pstnhub.dod.teams.microsoft.us** – 全域 FQDN。 由於 Office 365 DoD 環境僅存在於美國資料中心，因此沒有次要和三級 FQDNs。
+**sip.pstnhub.dod.teams.microsoft.us** - 全域 FQDN。 由於 Office 365 DoD 環境僅存在於美國資料中心，因此沒有次要和三級 FQDNs。
 
 FQDNs – sip.pstnhub.dod.teams.microsoft.us 會解析為下列其中一個 IP 位址：
 
@@ -228,7 +228,7 @@ FQDNs – sip.pstnhub.dod.teams.microsoft.us 會解析為下列其中一個 IP �
 
 直接路由的連接點為下列 FQDN：
 
-**sip.pstnhub.gov.teams.microsoft.us** – 全域 FQDN。 由於 GCC高環境僅存在於美國資料中心，因此沒有次要和三級 FQDNs。
+**sip.pstnhub.gov.teams.microsoft.us** - 全域 FQDN。 由於GCC高環境僅存在於美國資料中心，因此沒有次要和三級 FQDNs。
 
 FQDNs – sip.pstnhub.gov.teams.microsoft.us 會解析為下列其中一個 IP 位址：
 
@@ -290,7 +290,7 @@ UDP/SRTP | 用戶端 | Sbc | 3478-3481 和 49152 – 53247| 在 SBC 上定義 |
 - 52.127.88.0/21
 
 
-適用于所有Teams傳輸轉 (的埠) 如下表所示：
+適用于所有Teams傳輸轉 (的埠範圍) 如下表所示：
 
 
 | 交通 | 從 | 自 | 來源埠 | 目的地埠|
@@ -306,13 +306,13 @@ UDP/SRTP | 傳輸轉場 | Sbc | 50 000 -59 999    | 在 SBC 上定義 |
 > 
 > - v6，適用于埠 3478-3481
 
-目前，媒體旁路僅支援 v4 版的傳輸轉場。 我們會在未來推出 v6 的支援。 
+目前，媒體旁路僅支援 v4 版的傳輸轉場。 我們會在未來推出 v6 支援。 
 
 您需要開啟埠 3478-3481 進行轉場。 當 Microsoft 推出 V6 傳輸轉場與媒體旁路的支援時，您將不需要重新配置您的網路設備或 SBC。 
 
 ### <a name="requirements-for-using-media-processors"></a>使用媒體處理器的需求
 
-媒體處理器一直位於語音應用程式和 Web 用戶端的媒體路徑 (例如 Edge 或 Google Chrome Teams用戶端) 。 需求與非旁路組組相同。
+媒體處理器一直位於語音應用程式和 Web 用戶端的媒體路徑中，例如 (Edge 或 Google Chrome Teams用戶端) 。 需求與非旁路組組相同。
 
 
 媒體流量的 IP 範圍為 
@@ -338,7 +338,7 @@ UDP/SRTP | 媒體處理器 | Sbc | 3478-3481 和 49 152 – 53 247    | 在 SBC 
 
 ## <a name="configure-separate-trunks-for-media-bypass-and-non-media-bypass"></a>設定媒體旁路和非媒體旁路的個別主幹  
 
-如果您要從非媒體旁路移至媒體旁路，並想要先確認功能，然後再將所有使用方式移遷移到媒體旁路，您可以建立個別的主幹和個別的線上語音路由策略，以路由至媒體旁路主幹並指派給特定使用者。 
+如果您要從非媒體旁路移至媒體旁路，並想要先確認功能，然後再將所有使用方式移遷移到媒體旁路，您可以建立個別主幹和個別的線上語音路由策略，以路由至媒體旁路主幹並指派給特定使用者。 
 
 高層次組組步驟：
 
@@ -373,7 +373,7 @@ UDP/SRTP | 媒體處理器 | Sbc | 3478-3481 和 49 152 – 53 247    | 在 SBC 
 
 ## <a name="client-endpoints-supported-with-media-bypass"></a>媒體旁路支援的用戶端端點
 
-所有獨立電腦用戶端、Android 和 iOS 用戶端Teams裝置都支援媒體Teams 電話旁路。 
+所有獨立電腦用戶端、Android Teams iOS 用戶端和裝置都支援媒體Teams 電話旁路。 
 
 對於不支援媒體旁路的所有其他端點，我們會將通話轉換為非旁路，即使它以旁路通話開始。 這會自動發生，而且不需要系統管理員執行任何動作。 這包括商務用 Skype 3PIP 電話和 Teams Web 用戶端，這些用戶端支援在 Microsoft Edge、Google Chrome、Mozilla Firefox) 上直接路由通話 (WebRTC 用戶端。 
  

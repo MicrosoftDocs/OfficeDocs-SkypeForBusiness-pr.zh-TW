@@ -1,5 +1,5 @@
 ---
-title: 使用者意見反應方法的最佳做法
+title: 使用者意見回饋方法的最佳作法
 ms.reviewer: ''
 author: SerdarSoysal
 ms.author: serdars
@@ -8,7 +8,7 @@ ms.date: 09/25/2017
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: 瞭解 Microsoft 團隊中的使用者意見反應方法的最佳做法，以確保最佳的團隊體驗。
+description: 瞭解使用者意見回饋方法的最佳作法Microsoft Teams以確保盡可能獲得最佳的團隊體驗。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -18,25 +18,23 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 85a03967b9ea7facb5f7a69090b1b5902b601f64
-ms.sourcegitcommit: 43d66693f6f08d4dcade0095bf613240031fec56
+ms.openlocfilehash: 6656871e2232df82f81bfea4568cf857e4271d79
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "46581384"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855902"
 ---
-<a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Microsoft 團隊中使用者意見反應方法的最佳做法
-===========================================================
+# <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>使用者意見回饋方法的最佳作法Microsoft Teams
 
-新的共同作業體驗，就是變更使用者的行為。 人體變更需要訓練、encouragement 和積極的範例。 在轉場期間，人們也很重要。 如果您先前已在貴組織中建立成功的意見反應方法，請考慮將其展開以納入您的團隊實現。 如果您之前沒有這麼做，請考慮下列其中一種方法：
+採用新的共同合作體驗是有關變更使用者行為。 人的變化需要訓練、鼓勵和正面的範例。 在轉場期間，讓其他人聽到聲音也非常重要。 如果您先前在組織中建立了成功的回饋方法，請考慮將其展開以納入您的Teams中。 如果您之前尚未這麼做，請考慮下列其中一種方法：
 
--   在 Microsoft 團隊中建立一個公開小組，讓任何使用者都能加入其經驗的意見反應 (請記住，該公用群組5000只能) 的使用者使用。
+- 在 Microsoft Teams內建立一個公開小組，讓任何使用者都可以加入，以提供有關其體驗的意見 (請記住，公用群組僅限 5000 名) 。
 
--   使用 Yammer 提供開放的社區，以取得最佳做法及體驗支援。
+- 您可以使用 Yammer提供開放式社群，以獲得最佳作法和支援體驗。
 
-社區導向的意見反應方法需要擁護者與服務擁有者。 我們建議您建立在這些成員之間旋轉的監視排程。 其中一個最佳做法是，在 Microsoft 團隊中建立一個獨立的小組，成為這些擁護者在與更廣泛的小組共用之前可以共同作業、共用資源和最佳做法的場所。 擁護者對採用新服務的使用者執行顧問角色，為變更提供友好的人，並與您的部署小組其他成員共同作業，以引發並解決問題。
+Community導向的意見回饋方法需要支援者和服務擁有者參與。 我們建議您建立監控排程，以在這些成員之間旋轉。 其中一個提示是，在 Microsoft Teams中建立一個獨立的團隊，讓這些領軍者先共同合作、共用資源及最佳做法，然後再與更廣泛的團隊共用。 支援者會向採用新服務的使用者提供建議角色，為變更提供一個親切且人性化的面容，以及與您的部署小組其他成員共同合作以提出和解決問題。
 
-<a name="showcases"></a>展示
----------
+## <a name="showcases"></a>展示
 
-當您繼續進行這項旅程時，您會發現自己的員工環境中，這些員工的創意會令您感到吃驚，並愉悅您。 我們建議您廣泛地分享這些展示。 這將鼓勵其他人有革新性，教育可能在採用曲線中較早的使用者，並獎勵那些已花時間思考如何在其環境中最佳使用 Microsoft 團隊的人員。 設定每個季度都能辨識的測量目標，以維持您的採納勢頭。
+當您繼續此旅程時，您可以在您自己的員工環境中找到展示，這些員工對Microsoft Teams的創意會令您感到驚喜和愉悅。 廣泛分享這些展示。 這會鼓勵其他人創新、教育可能更早採用曲線的使用者，並獎勵那些花時間思考如何在環境中Microsoft Teams最佳方式的使用者。 設定可測量的目標，以找出每個季度的一組展示專案，有助於維持您的採用動力。

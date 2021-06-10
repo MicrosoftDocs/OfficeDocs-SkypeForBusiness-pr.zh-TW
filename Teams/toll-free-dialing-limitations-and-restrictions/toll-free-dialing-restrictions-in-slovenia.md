@@ -1,5 +1,5 @@
 ---
-title: 斯洛維尼亞免付費撥號限制
+title: 斯洛維尼亞的免付費撥號限制
 ms.author: crowe
 author: CarolynRowe
 manager: serdars

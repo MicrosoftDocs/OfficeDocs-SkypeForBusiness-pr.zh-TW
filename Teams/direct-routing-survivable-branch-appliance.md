@@ -89,7 +89,7 @@ SBA 是 Microsoft 提供給 SBC 廠商的可發佈程式碼，廠商接著將程
 | Identity  | SBA 的身分識別  |
 | Fqdn | SBA 的 FQDN |
 | 網站 | SBA 所在的 TenantNetworkSite |
-| 說明 | 免費格式文字 |
+| 描述 | 免費格式文字 |
 |||
 
 例如：
@@ -168,7 +168,7 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 針對 SBA 應用程式，請記住下列事項： 
 
-- 名稱可以是您決定的任何專案。  
+- 名稱可以是您決定的任何名稱。  
 - 支援的帳戶類型 = 僅此組織目錄中的帳戶。 
 - Web 重新導向 Uri = https://login.microsoftonline.com/common/oauth2/nativeclient 。
 - 隱含授權權杖 = Access 權杖和識別碼權杖。 
@@ -203,7 +203,7 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 ## <a name="known-issues"></a>已知問題
 
-- 當您新增可生存的分支裝置時，可能需要一些時間，才能在可生存的分支裝置策略中使用它們。
+- 當您新增可替代的分支裝置時，可能需要一些時間，才能在可生存的分支裝置策略中使用它們。
 
 - 當您將可維分支裝置策略指派給使用者時，可能需要一些時間，SBA 才能顯示在 Get-CsOnlineUser 的輸出中。 
 

@@ -102,7 +102,7 @@ Microsoft Teams 與多個 Microsoft 365 和 Office 365 服務合作，為使用�
   > [!NOTE]
   > Exchange信 任來自 Teams 服務 (稱為 EvoSTS) 的 OAuth 權杖。 第 1 步應該足够了，但是只有 EvoSTS；ACS 用於行事曆中的空閒/忙碌查閲。
 
-- 已設定 Azure AD Connect 中 Exchange 混合式部署功能的核取方塊。 詳細資訊請參閱混合[式Exchange回寫](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback)。
+- 已設定 Azure AD Connect 中 Exchange 混合式部署功能的核取方塊。 詳細資訊，請參閱混合[式Exchange回寫](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback)。
 
 - 對於行事曆應用程式支援和 Mac 版 Teams Outlook 增益集，Exchange Web 服務 URL 必須設定為 Exchange 服務主體的租用戶 Azure AD 中的 SPN。 這一步是透過混合組態精靈完成的，或者遵循[混合式新式驗證的手動步驟](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)來完成的。
 

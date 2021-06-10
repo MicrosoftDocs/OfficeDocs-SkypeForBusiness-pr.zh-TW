@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：在內部部署中為混合式啟用的商務用 Skype Server，您可以在內部部署環境與雲端之間移動使用者 (是否要 Microsoft Teams 或在其退休) 之前商務用 Skype 線上。
-ms.openlocfilehash: 3140811a08f582488e672fccbfa7f34678b813d4
-ms.sourcegitcommit: 9d446485aa842abbdcd34d946b247166c2bf1610
+ms.openlocfilehash: 998adf068dbfd360cb5a3e279320d1fee96f761f
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "52642083"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52855942"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>在內部部署和雲端之間移動使用者
 
@@ -56,13 +56,13 @@ ms.locfileid: "52642083"
 
 若要在內部部署與雲端之間移動使用者 (是否 Teams 或商務用 Skype 線上) ，請使用 Move-CsUser 指令程式或商務用 Skype 系統管理員控制台，兩者都是內部部署工具。 這些工具支援三種不同的移動路徑：
 
-- [從商務用 Skype Server (內部部署) 直接 Teams](move-users-from-on-premises-to-teams.md) (也會將其移至商務用 Skype 線上) 。  只從內部部署移至 Teams 的選項 *目前* 可用於商務用 Skype Server 2019 及商務用 Skype Server 2015 累計更新8。 使用舊版商務用 Skype Server 的組織可以一開始將使用者移至商務用 Skype Online，然後在使用者上線時為他們套用 TeamsOnly 模式，便能將使用者移至 TeamsOnly。 
+- [從商務用 Skype Server (內部部署) 直接 Teams](move-users-from-on-premises-to-teams.md) (也會將其移至商務用 Skype 線上) 。  不論使用的是哪個版本的商務用 Skype Server 或 Lync Server，都現在只會自動從內部部署移至 Teams 的行為。 您不再需要指定 `-MoveToTeams` 參數來取得此行為。  
+- [從商務用 Skype Server (內部部署) 到商務用 Skype 線上](move-users-from-on-premises-to-skype-for-business-online.md)。 仍需要將使用者移至商務用 Skype 線上，但不會變成 TeamsOnly 的客戶，可以先將使用者移至雲端並使用 TeamsOnly 模式，然後再使用或 Teams 系統管理中心，將使用者的模式更新為 TeamsOnly 以外的任何專案 `Grant-CsTeamsUpgradePolicy` 。 在線上商務用 Skype 已停用此選項後，將不再提供此選項。
+- [從 [線上] (Teams 是否只或不) ）為內部部署](move-users-from-the-cloud-to-on-premises.md)。
 
 > [!NOTE] 
-> 在 Move-CsUser 中指定-MoveToTeams 參數之後，將不再需要將使用者直接從內部部署移至 TeamsOnly。 目前如果未指定此參數，則會將使用者轉換為位於商務用 Skype Server 內部部署，以商務用 Skype 線上，且其模式保持不變。 淘汰後，將使用者從內部部署移至雲端並使用 Move-CsUser 時，系統會自動指派使用者 TeamsOnly 模式，並將其來自內部部署的會議 automtically 轉換成 Teams 會議，不論是否實際指定參數，都如同已指定-MoveToTeams 參數。 我們預計此功能會在實際退休2021年7月31日之前發佈。
-
-- [從商務用 Skype Server (內部部署) 到商務用 Skype 線上](move-users-from-on-premises-to-skype-for-business-online.md)。 此選項不久將不再可用。
-- [從 [線上] (Teams 是否只或不) ）為內部部署](move-users-from-the-cloud-to-on-premises.md)。
+> 您不再需要在 Move-CsUser 中指定-MoveToTeams 參數，將使用者直接從內部部署移至 TeamsOnly。 先前若未指定此參數，則會將使用者轉換為位於商務用 Skype Server 內部部署，以商務用 Skype 線上，而且其模式仍保持不變。 現在，當您使用 Move-CsUser 將使用者從內部部署移至雲端時，系統會自動為使用者指派 TeamsOnly 模式，並將其來自內部部署的會議自動轉換成 Teams 會議， `-MoveToTeams` 不論該參數是否實際已指定。 
+> 
 
 ## <a name="required-administrative-credentials"></a>所需的系統管理認證
 
@@ -97,7 +97,7 @@ ms.locfileid: "52642083"
 
 內部部署和線上環境中的原則 (例如，控制訊息、會議、通話行為) 互不相干。 您可以考慮在環境中設定任何原則，並將其指派給使用者，然後再將該使用者從內部部署移至雲端，使其在遷移到線上時立即具備正確的設定。
 
-## <a name="see-also"></a>也請參閱
+## <a name="see-also"></a>另請參閱
 
 [將使用者從內部部署移動至 Teams](move-users-from-on-premises-to-teams.md)
 

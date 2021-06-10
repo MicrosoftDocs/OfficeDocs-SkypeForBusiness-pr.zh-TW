@@ -21,7 +21,7 @@ ms.locfileid: "52513866"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>從線上連接器商務用 Skype移Teams PowerShell 模組
 
-TeamsPowerShell 模組提供一組完整的 Cmdlet，Teams直接從 PowerShell 命令列管理資料。 系統管理員不需要Skype商務用 Online 連接器進行Teams管理。
+TeamsPowerShell 模組提供一組完整的 Cmdlet，Teams直接從 PowerShell 命令列管理資料。 系統管理員在系統管理時Skype商務用 Online 連接器Teams。
 
 > [!NOTE]
 > Teams已于 2021 年 3 月 16 (MC244740 郵件中心張貼公告通知系統管理員;MC250940 于 2021 年 4 月 16 日) 此變更。
@@ -82,7 +82,7 @@ TeamsPowerShell 模組提供一組完整的 Cmdlet，Teams直接從 PowerShell �
 
 1.  請前往 系統管理中心 [https://admin.microsoft.com](https://admin.microsoft.com) 。 如果您收到一則訊息，指出您沒有存取此頁面或執行此動作的許可權，表示您不是系統管理員。神秘擁有我企業中的系統管理員許可權？
 
-2.  選取需要 **協助嗎**？按鈕。
+2.  選取需要 **協助** 嗎？按鈕。
 
 3.  在需要 **協助**？窗格，告訴我們您需要哪些協助，然後按 Enter。
 

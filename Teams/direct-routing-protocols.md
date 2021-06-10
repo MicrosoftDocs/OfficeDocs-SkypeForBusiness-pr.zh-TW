@@ -48,7 +48,7 @@ ms.locfileid: "52569201"
 下列標準適用于僅支援非媒體旁路模式的裝置：
 
 - [RFC 3261 SIP](https://tools.ietf.org/html/rfc3261)：會話初始通訊協定
-- [RFC 3325](https://www.ietf.org/rfc/rfc3325)。 會話初始通訊協定的私人擴充功能，用於信任網路內被認定的身分識別--有關處理 P-Identity 標頭的章節。 直接路由會傳送具有隱私權識別碼標頭的 P-Identity。 
+- [RFC 3325](https://www.ietf.org/rfc/rfc3325)。 受信任網路內已確認身分識別的會話初始通訊協定私人擴充功能-關於處理 P-確認-身分識別標頭的章節。 直接路由會傳送具有隱私權識別碼標頭的 P-Identity。 
 - [RFC 4244](https://www.ietf.org/rfc/rfc4244.txt) SIP 的會話初始通訊協定 (擴展) 所需的歷程記錄資訊。 另請參閱：路由 SIP 通訊協定描述以瞭解更多資訊。
 - [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt) 會話初始通訊協定Referred-By機制
 - [RFC 3891](https://www.ietf.org/rfc/rfc3891.txt) SIP 中的會話初始 (「) 取代」標頭 
@@ -77,7 +77,7 @@ ms.locfileid: "52569201"
 
 下表列出 RFC 協定 (區段) 其中 Microsoft 的 SIP 或媒體堆疊的實現與標準有偏差：
 
-| RFC 和節 | 說明 | 偏差 |
+| RFC 和節 | 描述 | 偏差 |
 | :---------------------  |:---------------------- |:-----------------------|
 | [RFC 6337，第 5.3 節媒體保留與履歷表](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC 允許使用"a=非使用中"、"a=sendonly"、a=recvonly"來保留通話。 |SIP Proxy 僅支援「a=非使用中」，且不了解 SBC 是傳送「a=sendonly」或「a=revonly」。
 | [RFC 6337，第 5.4 節「使用 c=0.0.0.0.0 接收 SDP 的行為](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) 要求代理程式能夠接收具有 0.0.0.0.0 之連接位址的 SDP，在這種情況下，這表示不應將 RTP 或 RTCP 送往對等電腦。 | SIP Proxy 不支援此選項。 |
@@ -88,7 +88,7 @@ ms.locfileid: "52569201"
 
 - **沒有媒體旁** 路，所有 RTP 流量Teams用戶端、媒體處理器和 SBC 之間流動。  
 
-- **當媒體旁** 路時，所有 RTP 媒體Teams端點與 SBC 之間流動。 
+- **當媒體旁** 路時，所有 RTP 媒體Teams端點和 SBC 之間流動。 
 
 請注意，SIP 流量一直透過 SIP Proxy 流動。 
 

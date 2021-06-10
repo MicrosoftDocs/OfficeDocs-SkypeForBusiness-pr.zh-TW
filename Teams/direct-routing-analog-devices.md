@@ -55,7 +55,7 @@ ms.locfileid: "52642093"
 - [功能區組組檔](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Analog+Devices)
 - [Oracle 組組檔](https://www.oracle.com/technical-resources/documentation/acme-packet.html#Link-MicrosoftTeams)
 
-## <a name="step-1--connect-the-sbc-to-direct-routing"></a>步驟 1.  連線 SBC 到直接路由
+## <a name="step-1--connect-the-sbc-to-direct-routing"></a>步驟 1。  連線 SBC 到直接路由
 
 下列命令會設定 SBC 連接，如下所示：
 
@@ -87,7 +87,7 @@ PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425
 
 ## <a name="step-4-assign-the-voice-route-to-the-pstn-usage"></a>步驟 4：將語音路由指派給 PSTN 使用量：
 
-此命令會使用身分識別 「AadiInteropPolicy」建立新的線上每個使用者語音路由策略。 此策略會指派單一線上 PSTN 使用量：「Interop」。
+此命令會使用身分識別 「AadiInteropPolicy」建立新的線上每個使用者語音路由策略。 此政策會指派單一線上 PSTN 使用量：「Interop」。
 
 ```powershell
 PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -Name "AnalogInteropPolicy" -OnlinePstnUsages "Interop"
@@ -95,13 +95,13 @@ PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -Name "An
 
 ## <a name="step-5-enable-the-online-user"></a>步驟 5：啟用線上使用者
 
-此命令會使用身分識別選項修改 exampleuser@contoso.com。 在這種情況下，帳戶會修改為啟用 企業語音 ，即 Microsoft VoIP 的實現，並啟用語音信箱，並將號碼 +142550000000 指派給此使用者。  此命令應針對每個使用者執行Teams， (公司租使用者中的 ATA 裝置) 使用者除外。
+此命令會使用身分識別選項修改 exampleuser@contoso.com。 在這種情況下，帳戶會修改為啟用 企業語音 ，即 Microsoft VoIP 的實現，且已啟用語音信箱，並將號碼 +142550000000 指派給此使用者。  此命令應針對每個使用者執行Teams， (公司租使用者中的 ATA 裝置) 使用者除外。
 
 ```powershell
 PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $True -HostedVoiceMail $True -OnPremLineUri "tel:+14255000000"
 ```
 
-## <a name="step-6-assign-the-voice-route-policy-to-a-user"></a>步驟 6：指派語音路由策略給使用者
+## <a name="step-6-assign-the-voice-route-policy-to-a-user"></a>步驟 6：將語音路由策略指派給使用者
 
 此命令會指派每個使用者的線上語音路由策略AdisInteropPolicy給具有身分識別 exampleuser@contoso.com。  此命令應針對每個使用者執行Teams， (公司租使用者中的 ATA 裝置) 使用者除外。
 

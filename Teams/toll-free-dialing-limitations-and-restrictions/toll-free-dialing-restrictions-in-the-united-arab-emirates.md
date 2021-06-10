@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解在阿拉伯聯合大公國撥打免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
+description: 瞭解撥打阿拉伯聯合大公國免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
 ms.openlocfilehash: 483165d439e8eefe10c665534d9ad1050331f4f8
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT

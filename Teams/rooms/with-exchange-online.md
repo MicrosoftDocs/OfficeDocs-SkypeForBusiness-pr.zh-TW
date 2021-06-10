@@ -34,12 +34,12 @@ ms.locfileid: "52796677"
 
 使用 Microsoft Teams 會議室部署Exchange Online，請確定您符合需求。 詳細資訊，請參閱Microsoft Teams 會議室[需求](requirements.md)。
   
-若要使用 Microsoft Teams 會議室部署Exchange Online，請遵循下列步驟。 請確定您擁有執行關聯的 Cmdlet 的許可權。 
+若要使用 Microsoft Teams 會議室 部署Exchange Online，請遵循下列步驟。 請確定您擁有執行關聯 Cmdlet 的許可權。 
 
    > [!NOTE]
    >  本節 Azure Active Directory 中 Windows PowerShell [Cmdlet](/powershell/azure/active-directory/overview?view=azureadps-1.0)的模組 (例如 Set-MsolUser) 已針對 Microsoft Teams 會議室 裝置設定帳戶進行測試。 不過，其他 Cmdlet 可能可以工作，但尚未在此特定情況下進行測試。
 
-如果您部署 Active Directory Federation Services (AD FS) ，您可能必須先將使用者帳戶轉換為受管理的使用者，然後再執行這些步驟，然後在完成這些步驟後將使用者轉換回聯盟使用者。
+如果您部署 Active Directory Federation Services (AD FS) ，您可能必須先將使用者帳戶轉換成受管理的使用者，然後再執行這些步驟，然後在完成這些步驟後將使用者轉換回聯合使用者。
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>建立帳戶並設定Exchange屬性
 
@@ -81,10 +81,10 @@ ms.locfileid: "52796677"
 3. 輸入此帳戶的密碼。 您必須重新輸入以進行驗證。 請確定選取 **的唯** 一選項為密碼永不過期核取方塊。
 
     > [!NOTE]
-    > 選取 **密碼永不過期** 是商務用 Skype Server Microsoft Teams 會議室。 您的網域規則可能會禁止不會過期的密碼。 如果是這樣，您必須為每個使用者帳戶建立例外Microsoft Teams 會議室例外。
+    > 選取 **密碼永不過期** 是商務用 Skype Server Microsoft Teams 會議室。 您的網域規則可能會禁止密碼過期。 如果是這樣，您必須為每個使用者帳戶建立例外Microsoft Teams 會議室例外。
   
 4. 按一下 **[完成** 並建立帳戶。
-5. 建立帳戶之後，請執行目錄同步處理。 您可以在 PowerShell 中使用 [Set-MsolDirSyncConfiguration 來](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) 完成這項工作。 完成時，請前往使用者頁面，並確認先前步驟所建立之兩個帳戶已合併。
+5. 建立帳戶之後，請執行目錄同步處理。 您可以在 PowerShell 中使用 [Set-MsolDirSyncConfiguration 來](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) 完成這項工作。 完成後，請前往使用者頁面，並確認在先前步驟中建立的帳戶已合併。
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>指派授權Microsoft 365或Office 365授權
 
@@ -102,7 +102,7 @@ ms.locfileid: "52796677"
 
 2. 使用者帳戶必須擁有有效的授權Microsoft 365或Office 365，以確保Exchange商務用 Skype Server有效。 如果您有授權，您必須將使用位置指派給使用者帳戶，這決定您的帳戶可以使用哪些授權 SKUs。 您將在下列步驟中進行作業。
 3. 接下來，使用 `Get-MsolAccountSku` <!--Get-AzureADSubscribedSku--> 來為貴組織或組織Microsoft 365 SKus Office 365清單。
-4. 列出 SKUs 之後，您可以使用 `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> Cmdlet。 在此案例中，$strLicense是您看到的 SKU 程式碼，例如 contoso：standardPACK (contoso：STANDARDPACK) 。 
+4. 列出 SKUs 之後，您可以使用 `Set-MsolUserLicense` <!-- Set-AzureADUserLicense--> Cmdlet。 在此案例中，$strLicense是您看到的 SKU 程式碼， (contoso：STANDARDPACK) 。 
 
     ```PowerShell
     Set-MsolUser -UserPrincipalName 'PROJECT01@contoso.com' -UsageLocation 'US'
@@ -153,7 +153,7 @@ ms.locfileid: "52796677"
 
 1. 以租使用者系統管理員登入，開啟 Microsoft 365系統管理中心，然後按一下系統管理應用程式。
 2. 按一下 [ **使用者與群組** ，然後按一下 **[新增使用者、重設密碼等>**。
-3. 按一下 [Microsoft Teams 會議室帳戶，然後按一下 [觸控筆圖示以編輯帳戶資訊。
+3. 按一下 Microsoft Teams 會議室帳戶，然後按一下 [筆形圖示以編輯帳戶資訊。
 4. 按一下 **[授權>**。
 5. 在 **指派授權** 中，商務用 Skype (方案 2) 或商務用 Skype (方案 3) 視您的授權和企業語音需求。 如果您想要在 企業語音 上使用方案 3 授權Microsoft Teams 會議室。
 6. 按一下 [儲存]。
@@ -164,7 +164,7 @@ ms.locfileid: "52796677"
 > 如果您目前使用 E1、E3、E4 或 E5 SKUS，且使用 商務用 Skype 方案 2 與音訊會議或 電話系統 和通話方案，這些將會繼續使用。 不過，您應該考慮在目前的授權到期後，使用 Teams 會議室[授權更新中所述](rooms-licensing.md)的更簡單的授權模型。
 
 > [!IMPORTANT]
-> 如果您使用的是方案 2 商務用 Skype，則只能在 Microsoft Teams 會議室 模式使用 商務用 Skype，也就是說，所有會議都會商務用 Skype會議。 為了啟用會議室以Microsoft Teams會議，建議您購買會議室授權。
+> 如果您使用的是方案 2 商務用 Skype，則只能在 Microsoft Teams 會議室 模式使用 商務用 Skype，也就是說，所有會議都會商務用 Skype會議。 為了啟用會議室Microsoft Teams會議，建議您購買會議室授權。
   
 ## <a name="related-topics"></a>相關主題
 

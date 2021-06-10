@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中使用內建和自訂索引標籤
+title: 使用內建和自訂的Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: lucarras
 f1.keywords:
 - NOCSH
 search.appverid: MET150
-description: 瞭解如何使用內建和自訂索引標籤來包含交談、檔案、地圖等功能。
+description: 瞭解如何使用內建和自訂的定位停駐點來包含交談、檔案、地圖等功能。
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f98024b10cf6fc191e9225a447903ff6dc25d6ff
@@ -23,43 +23,43 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 09/22/2020
 ms.locfileid: "48203716"
 ---
-<a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>在 Microsoft 團隊中使用內建和自訂索引標籤
+<a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>使用內建和自訂的Microsoft Teams
 ==================================================
 
-索引標籤可讓小組成員存取頻道內或聊天中的專用空間中的服務與內容。 這可讓小組直接使用工具和資料，並在頻道或聊天的內容內，提供有關工具和資料的交談。
+使用定位停駐點，小組成員可以存取頻道或聊天中專用空間中的服務和內容。 這可讓小組直接使用工具和資料，並且與工具和資料進行交談，而所有內容都位於頻道或聊天中。
 
-擁有者與團隊成員可以在頻道、私人聊天和群組聊天中新增索引標籤，協助整合其雲端服務。 您可以新增索引標籤，協助使用者輕鬆存取及管理他們所需的資料，或與最多的資料互動。 這可以是 Power BI 報表、儀表板，或甚至是 [Microsoft 串流](https://go.microsoft.com/fwlink/?linkid=855785) 視頻通道，您可以在這裡發佈訓練影片。
+擁有者與團隊成員可以在頻道、私人聊天和群組聊天中新增索引標籤，協助整合其雲端服務。 您可以新增定位停駐點，協助使用者輕鬆存取及管理所需的資料，或與大部分使用者互動。 這可以是一個Power BI、儀表板，甚至是[您發佈](https://go.microsoft.com/fwlink/?linkid=855785)訓練影片的 Microsoft Stream 影片頻道。
 
-![索引標籤中各種內容的三個螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
+![三個選項卡中各種內容的螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 
 >[!Note]
-> 使用 Microsoft Stream to [商務用 OneDrive 和 SharePoint for meeting 錄製](tmr-meeting-recording-change.md) 所做的變更將是一種分階段的方法。 在啟動時，您可以加入宣告此體驗，在11月中，您必須退出宣告，如果您想要繼續使用串流，且在早期2021中有一些時間，我們會要求所有客戶使用商務用 OneDrive 和 SharePoint 進行新的會議錄製。
+> 從使用 Microsoft Stream 變更為使用[商務用 OneDrive 和 SharePoint 來進行會議錄製](tmr-meeting-recording-change.md)，將會採取階段性的方式。推出時您將可以加入此體驗。在 11 月，如果您想要繼續使用 Stream，則必須退出體驗。在 2021 年初的某個時候，我們將要求所有客戶對新會議錄製使用商務用 OneDrive 和 SharePoint。
 
-## <a name="work-with-tabs"></a>使用索引標籤
+## <a name="work-with-tabs"></a>使用定位字元
 
-- 在每個新頻道中，預設都會提供兩個索引標籤： [交談] 和 [檔案]。
+- 根據預設，每一個新頻道都會提供兩個選項卡：交談和檔案。
 
-    ![行銷團隊之 [交談] 區段的螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
-- 透過每個私人聊天，預設都會提供四個索引標籤： [交談]、[檔案]、[組織] 和 [活動]。
+    ![行銷小組的交談區段螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+- 根據預設，每一個私人聊天都會提供四個選項卡：交談、檔案、組織和活動。
 
-    ![聊天中之索引標籤的螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
+    ![聊天中選項卡的螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- 擁有者和小組成員可以按一下 [新增索引標籤] 按鈕的 [新增索引標籤 **]** ![ 螢幕擷取畫面，顯示 + 符號，將更多索引標籤新增到頻道或聊天中。](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) 在頻道或聊天的頂端。
+- 擁有者和小組成員可以按一下新增 Tab 按鈕的 Tab 螢幕快照，顯示 +符號，以在頻道或聊天中新增 ![ 更多定位停駐點。](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) 位於頻道或聊天頂端。
 
-- Excel、PowerPoint、Word 和 PDF 檔案 **必須上傳至 [檔案** ] 索引標籤，才能轉換為索引標籤。 只要按一下，任何現有的上傳檔案就可以轉換成索引標籤，如下所示。
+- Excel、PowerPoint、Word 和 PDF 檔案必須上傳到檔案標籤，才能轉換成定位字元。 只要按一下即可將任何現有的上傳檔案轉換成定位停駐點，如下所示。
 
-    ![已選取 PowerPoint 檔案之 [檔案] 索引標籤的螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
+    ![已選取檔案的檔案PowerPoint螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
-- 若要新增網站，URL 必須以 **HTTPs** 首碼開頭，才能讓交換的資訊保持安全。
+- 若要新增網站，URL 必須以 **HTTPs** 首碼開頭，以便交換的資訊保持安全。
 
-- 當小組成員嘗試將自訂索引標籤新增至其頻道或聊天時，會提供詳細指示。 在頻道中新增自訂索引標籤時，會建立一個 [索引標籤 **交談]** ，讓小組成員能夠對內容進行專門的討論。
+- 當團隊成員嘗試在頻道或聊天中新增自訂定位停駐點時，會提供詳細指示。 將自訂的定位停駐點新加到頻道時，會建立 **Tab** 交談，讓小組成員對內容進行焦點討論。
 
-    ![[自訂] 索引標籤的螢幕擷取畫面，右側有一個索引標籤交談](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
+    ![右側有定位停駐點交談的自訂定位停駐點螢幕擷取畫面](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
-## <a name="develop-custom-tabs"></a>開發自訂索引標籤
+## <a name="develop-custom-tabs"></a>開發自訂的定位停駐點
 
-除了內建索引標籤之外，您還可以設計及開發自己的索引標籤，以整合至小組或與其他群組共用。 如需詳細資訊，請參閱我們的[開發人員文件](/microsoftteams/platform/tabs/what-are-tabs)。
+除了內建的定位停駐點之外，您還可以設計及開發自己的定位停駐點，Teams與社群其他人共用。 如需詳細資訊，請參閱我們的[開發人員文件](/microsoftteams/platform/tabs/what-are-tabs)。
 
-![Microsoft 團隊中 [自訂] 索引標籤範例的螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
+![螢幕擷取畫面顯示範例自訂Microsoft Teams。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 
 ---

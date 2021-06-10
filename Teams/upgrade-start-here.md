@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 本文將協助您開始從 商務用 Skype 升級Microsoft Teams。
+description: 本文將協助您開始從商務用 Skype升級Microsoft Teams。
 localization_priority: Normal
 search.appverid: MET150
 ms.custom:
@@ -53,7 +53,7 @@ Microsoft Teams 擴充商務用 Skype 的功能，將聊天、會議、通話、
 
 ## <a name="when-should-my-organization-migrate-to-teams"></a>我的組織何時應該要遷移到Teams？
 
-雖然 商務用 Skype線上服務將于 2021 年 7 月 31 日全面運作，但我們強烈建議您立即開始升級至 Teams服務。 從今天開始升級，您將有足夠的時間在停用日期之前完成升級。 您可以選擇使用重迭功能Teams或選取功能 (「群島模式」) 升級至新版。 若要進一步瞭解這些方法，請參閱選擇從 商務用 Skype 到 Teams 的[升級Teams。](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+雖然 商務用 Skype線上服務將于 2021 年 7 月 31 日全面運作，但我們強烈建議您立即開始升級至 Teams服務。 從今天開始升級，您將有足夠的時間在停用日期之前完成升級。 您可以選擇升級至Teams使用重迭功能方法 (「群島模式」) 或選取功能方法。 若要進一步瞭解這些方法，請參閱選擇從 商務用 Skype 到 Teams 的[升級Teams。](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 ## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>在我們做好準備並升級至 Teams 時，是否能夠繼續使用商務用 Skype Online？
 
@@ -65,7 +65,7 @@ Microsoft Teams 擴充商務用 Skype 的功能，將聊天、會議、通話、
 
 ## <a name="can-we-continue-to-use-our-on-premises-telephony-infrastructure"></a>我們可以繼續使用內部部署電話基礎結構嗎？
 
-是的。 有了 電話系統路由，您幾乎電話系統任何電話電信業者都能使用。 使用直接路由，您將自己的會話邊界控制器 (SBC) 直接電話系統。 如要詳細資訊，請參閱直接[電話系統路由](direct-routing-landing-page.md)。
+是的。 有了 電話系統路由，您幾乎電話系統任何電話電信業者都能使用。 使用直接路由，您可以直接將您自己的會話邊界控制器 (SBC) 直接電話系統。 如要詳細資訊，請參閱直接[電話系統路由](direct-routing-landing-page.md)。
 
 ## <a name="how-is-microsoft-helping-customers-with-their-migration-to-teams"></a>Microsoft 如何協助客戶移Teams？
 
@@ -73,7 +73,7 @@ Microsoft 致力於協助您從商務用 Skype 轉換到 Teams。 Microsoft 為�
 
 為了協助推動您的升級規劃與實作，Microsoft 會舉辦免費的即時互動式升級規劃研討會，這些研討會可協助您熟悉我們的升級架構、分享使用者準備升級的深入見解，以及找出貴組織在 Teams 之旅中的正確路徑。 歡迎加入我們的升級規劃綜合講習： [https://aka.ms/SkypeToTeamsPlanning](./upgrade-workshops-landing-page.yml)。
 
-使用 商務用 Skype Online 的組織可能符合 Microsoft 協助升級至 Teams 資格，以協助在 2021 年 7 月 31 日服務結束之前，從 商務用 Skype Online 順利轉換。 輔助升級可以減少客戶所需的技術工作數量，並讓您更專注于組織準備、使用者認知度，以及Teams訓練。
+使用 商務用 Skype Online 的組織可能符合 Microsoft 協助升級至 Teams 資格，以協助在 2021 年 7 月 31 日服務結束之前，從 商務用 Skype Online 順利轉換。 輔助升級可以減少客戶所需的技術工作數量，並更專注于組織準備、使用者認知度，以及Teams訓練。
 
 排定進行輔助升級的客戶將在升級日期Teams系統管理中心以及 Microsoft 365訊息中心收到通知。 若要詳細資訊，請參閱從 商務用 Skype [Online Microsoft Teams。](upgrade-assisted.md)
 

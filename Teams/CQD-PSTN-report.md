@@ -1,5 +1,5 @@
 ---
-title: 使用 CQD PSTN 直接路由報表
+title: 使用 CQD PSTN 直接路由報告
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: 使用 Microsoft Teams 通話品質儀表板 (PSTN) ) 直接路由報告來監控和疑難排解 Microsoft Teams 中的 PSTN 通話。
+description: 使用 [Microsoft Teams通話品質儀表板 (PSTN) ) 直接路由報告來監控及疑難排解 PSTN Microsoft Teams。
 ms.openlocfilehash: f2b63f991f42aa4de9e0e4474137f7f992f95c53
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -22,12 +22,12 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51094977"
 ---
-# <a name="using-the-cqd-pstn-direct-routing-report"></a>使用 CQD PSTN 直接路由報表
+# <a name="using-the-cqd-pstn-direct-routing-report"></a>使用 CQD PSTN 直接路由報告
 
-我們于 2020 年 3 月新增了 Microsoft Teams 通話品質儀表板 (CQD) PSTN 直接路由報告至可下載 [的 CQD Power BI](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)查詢範本。 
+我們于 2020 年 3 月新增 Microsoft Teams 通話品質儀表板 (CQD) PSTN 直接路由報表至可下載的 Power BI 查詢[範本 。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true) 
 
 
-CQD PSTN 直接路由報表 (CQD PSTN 直接路由報表.pbit) 可協助瞭解 PSTN 服務的使用模式和品質。 使用此報表可監控服務使用方式、會話邊界控制器 (SBC) 、電話語音、網路參數和網路效能比詳細資料。 這項資訊可協助找出問題，包括通話中斷的原因。 例如，您將能夠查看音量何時降低，或是有多少通話受到影響，以及原因。
+CQD PSTN 直接路由報告 (CQD PSTN 直接路由報表.pbit) 可協助瞭解 PSTN 服務的使用模式和品質。 使用此報表可監控服務使用方式、會話邊界控制器 (SBC) 、電話語音、網路參數和網路效能比詳細資料。 這項資訊可協助找出問題，包括通話中斷的原因。 例如，您將能夠查看音量何時降低，或是有多少通話受到影響，以及原因。
 
 
 CQD PSTN 直接路由報告有四個區段：
@@ -40,7 +40,7 @@ CQD PSTN 直接路由報告有四個區段：
 
   - [網路參數](#network-parameters)
 
-## <a name="highlights"></a>突出
+## <a name="highlights"></a>好友動向
 
 1. 根據通話類型、SBC、來電和通話物件國家/地區來分析
 
@@ -117,17 +117,17 @@ CQD PSTN 直接路由報告提供下列與過去 180 天服務整體健康情況
 
 ![螢幕擷取畫面：PSTN CQD 報表](media/CQD-PSTN-report4.png)
 
-如果 Daily NER 于 2020/02/05 出現下拉，您可以按一下日期，其他圖表會縮放至該特定日期。
+如果 Daily NER 在 2020/02/05 出現下拉，您可以按一下日期，其他圖表會縮放至該特定日期。
 
 ![螢幕擷取畫面：PSTN CQD 報表](media/CQD-PSTN-report5.png)
 
-從 NER 良好百分比每小時趨勢中，您可以發現 21：00 左右會發生下拉。 然後再次按一下以縮放至第 21 小時，並檢查 [影響通話詳細資料>，以查看該小時內有多少通話失敗，以及通話結束原因為何。 您可以在任何 SBC 問題上自行解決問題，或如果問題與 SBC 沒有關系，向服務台報告。
+從 NER 良好百分比每小時趨勢中，您可以發現 21：00 左右會發生下拉。 然後再次按一下以縮放至第 21 小時，並檢查 [影響通話詳細資料>，以查看該小時內有多少通話失敗，以及通話結束原因為何。 您可以在任何 SBC 問題上自行自找問題開始，如果問題與 SBC 沒有關系，也可以向服務台報告。
 
 ## <a name="network-parameters"></a>網路參數
 
-所有網路參數都是從直接路由介面到會話邊界控制器測量。 有關建議值的資訊，請參閱準備貴組織的 [Microsoft Teams](prepare-network.md)網路，並查看客戶邊緣至 Microsoft Edge 的建議值。
+所有網路參數都是從直接路由介面到會話邊界控制器測量。 有關建議值的資訊，請參閱準備貴組織的網路[Microsoft Teams，並](prepare-network.md)查看 Customer Edge 以Microsoft Edge建議的值。
 
-  - **抖動** – 是使用 RTCP 或 RTP 控制通訊協定在兩個端點之間計算網路傳播延遲時間變化的毫秒 (RTP 控制通訊協定) 。
+  - **抖動** – 是使用 RTCP 與 RTP 控制通訊協定 (計算兩個端點之間網路傳播延遲時間變化的毫秒) 。
 
   - **封包** 遺失 – 是未送達的封包量值;這是在兩個端點之間計算。
 
@@ -145,6 +145,6 @@ CQD PSTN 直接路由報告提供下列與過去 180 天服務整體健康情況
 
 ## <a name="related-topics"></a>相關主題
 
-[使用 Power BI 分析 Microsoft Teams 的 CQD 資料](CQD-PSTN-report.md)
+[使用 Power BI 分析 CQD 資料Microsoft Teams](CQD-PSTN-report.md)
 
 [Teams 疑難排解](/MicrosoftTeams/troubleshoot/teams)

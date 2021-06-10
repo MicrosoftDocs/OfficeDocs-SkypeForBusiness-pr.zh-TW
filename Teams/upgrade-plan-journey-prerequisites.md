@@ -29,7 +29,7 @@ ms.locfileid: "52282160"
 
 ![升級歷程圖，強調技術準備階段](media/upgrade-banner-tech-readiness.png "升級歷程的階段，強調技術準備階段")
 
-本文是升級過程中技術整備階段的一部分，此階段是您與使用者整備階段同時完成的活動。 繼續進行之前，請確認您已完成上述階段的活動：
+本文是升級過程中技術整備階段的一部分，此階段是一項與使用者整備階段同時完成的活動。 在繼續進行之前，請確認您已完成上述階段的活動：
 
 - [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
 - [已定義專案範圍](./upgrade-define-project-scope.md)
@@ -38,7 +38,7 @@ ms.locfileid: "52282160"
 
 Teams合併多個Microsoft 365 Office 365服務，因此取決於這些服務的正確實現與運作。 這些服務包括但不限於線上、SharePoint、Exchange Online和商務用 OneDrive。
 
-雖然並非所有服務都為必填專案，我們強烈建議您全部實現。 如果您選擇不實行特定服務，將會影響貴組織Teams的功能。 例如，雖然不需要執行 SharePoint Online，Teams 確實會仰賴 SharePoint Online 來使用群組交談中的檔案共用等特定功能，因此不執行這項服務將會減少透過用戶端提供的功能。
+雖然並非所有服務都為必填專案，但強烈建議您全部實現。 如果您選擇不實行特定服務，將會影響貴組織Teams的功能。 例如，雖然不需要執行 SharePoint Online，Teams 確實會仰賴 SharePoint Online 來使用群組交談中的檔案共用等特定功能，因此不執行這項服務將會減少透過用戶端提供的功能。
 
 請參閱下列文章以瞭解先決條件，以及Teams與其他技術互動的方式：
 
@@ -54,12 +54,12 @@ Teams合併多個Microsoft 365 Office 365服務，因此取決於這些服務的
 
 - 若要瞭解如何[Microsoft 365群組Microsoft Teams互動](Office-365-groups.md)。
 
-- 如果貴組織是教育機構，而且您使用學生資訊系統，[請參閱](/schooldatasync)在部署 Microsoft 學校資料同步處理之前Microsoft Teams。
+- 如果貴組織是教育機構，而且您使用學生資訊系統，[請參閱](/schooldatasync)在部署 microsoft 學校資料同步處理之前Microsoft Teams。
 
 - 如果貴組織考慮公用交換電話網路 (PSTN) 通話選項，請參閱語音 - 電話系統 和[PSTN](cloud-voice-landing-page.md)連接、哪[](calling-plan-landing-page.md)一個通話方案適合您，以及 電話系統[路由](direct-routing-landing-page.md)。
 
-- 若要在推出前確保所有網路需求都符合Teams，請參閱準備貴組織的網路[Microsoft Teams。](prepare-network.md)
+- 若要在推出之前確保所有網路需求都符合Teams，請參閱準備貴組織的網路[以Microsoft Teams。](prepare-network.md)
 
-- 如果您目前使用 商務用 Skype Online Connector 來管理您的服務，您必須移至 PowerShell 模組Teams並更新現有的 PowerShell 腳本。 請參閱[從線上連接器商務用 Skype移至 powerShell Teams模組以](teams-powershell-move-from-sfbo.md)瞭解更多資訊。
+- 如果您目前使用 商務用 Skype Online Connector 來管理您的服務，您必須移至 PowerShell 模組Teams並更新現有的 PowerShell 腳本。 請參閱[從 商務用 Skype連線連接器移至 Teams PowerShell 模組以](teams-powershell-move-from-sfbo.md)瞭解更多資訊。
 
 確認您的環境符合所有適用的先決條件之後，請評估您目前[Teams。](upgrade-plan-journey-evaluate-environment.md)

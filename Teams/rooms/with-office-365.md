@@ -24,7 +24,7 @@ ms.locfileid: "52739643"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>使用 Microsoft Teams 會議室 或 Microsoft 365 部署Office 365
 
-請閱讀本主題，瞭解如何使用 Microsoft Teams 會議室 或 Microsoft 365 部署Office 365，Microsoft Teams或商務用 Skype Exchange兩者。
+請閱讀本主題，瞭解如何使用 Microsoft Teams 會議室 或 Microsoft 365 部署Office 365，其中 Microsoft Teams 或 商務用 Skype Exchange都位於線上。
 
 設定使用者帳戶最簡單的方法是使用遠端Windows PowerShell。 Microsoft 提供[SkypeRoomProvisioningScript.ps1，](https://go.microsoft.com/fwlink/?linkid=870105)此腳本可協助建立新的使用者帳戶，或驗證您現有的資源帳戶，以便協助您將這些帳戶轉換為相容的Microsoft Teams 會議室使用者帳戶。 您可以按照下列步驟來設定您的裝置Microsoft Teams 會議室帳戶。
 
@@ -40,7 +40,7 @@ ms.locfileid: "52739643"
 
 - 您的租使用者使用者必須擁有Exchange信箱。
 
-- 您的 Microsoft Teams 會議室帳戶至少需要 商務用 Skype 方案 2 (授權) ，但不需要授權Exchange Online授權。 請參閱[Microsoft Teams 會議室授權](rooms-licensing.md)以瞭解詳細資料。
+- 您的Microsoft Teams 會議室帳戶至少需要 商務用 Skype 方案 2 (授權) ，但不需要授權Exchange Online授權。 請參閱[Microsoft Teams 會議室授權](rooms-licensing.md)的詳細資訊。
 
 有關線上方案商務用 Skype詳細資料，請參閱 商務用 Skype[線上服務描述](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。
 
@@ -175,7 +175,7 @@ ms.locfileid: "52739643"
 
    有關詳細指示，請參閱使用 PowerShell 指派授權[Office 365使用者帳戶](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)。
 
-   您也可以新增電話系統功能至此帳戶，但您必須先進行設定。 請參閱[什麼是電話系統？](../what-is-phone-system-in-office-365.md)以進一步瞭解詳細資料。 此範例新增 PSTN 國內及國際通話方案：
+   您也可以新增電話系統功能至此帳戶，但您必須先進行設定。 請參閱[什麼是電話系統？](../what-is-phone-system-in-office-365.md)以進一步查看詳細資料。 此範例新增 PSTN 國內及國際通話方案：
 
    ```PowerShell
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
@@ -214,7 +214,7 @@ ms.locfileid: "52739643"
    ```
 
    > [!NOTE]
-   > 新使用者帳戶可能不會與租使用者中現有的使用者帳戶在同一個註冊機構資料庫上建立。 上述命令會防止帳戶設定中因此情況而發生錯誤。
+   > 新使用者帳戶可能不會與租使用者中現有的使用者帳戶在同一個註冊機構資料庫上建立。 上述命令可防止帳戶設定發生此情況的錯誤。
 
 ## <a name="validate"></a>驗證
 

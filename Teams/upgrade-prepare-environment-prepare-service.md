@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 瞭解組織準備共同合作和雲端語音服務的需求，Teams。
+description: 瞭解組織準備共同合作與雲端語音服務的需求，Teams。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -31,14 +31,14 @@ ms.locfileid: "52282184"
 
 ![升級歷程圖，強調技術準備階段](media/upgrade-banner-tech-readiness.png "升級歷程的階段，強調技術準備階段")
 
-本文是升級過程中技術整備階段的一部分，此階段是一項與使用者整備階段同時完成的活動。 繼續進行之前，請確認您已完成上述階段的活動：
+本文是升級過程中技術整備階段的一部分，此階段是一項與使用者整備階段同時完成的活動。 在繼續進行之前，請確認您已完成上述階段的活動：
 
 - [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
 - [已定義專案範圍](./upgrade-define-project-scope.md)
 - [瞭解共同使用和商務用 Skype互通性Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [已選擇升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-本文概觀說明組織準備共同合作和雲端語音服務Teams。 通過正確準備，您可以確定準備好要提供這些功能給貴組織。
+本文概觀了組織準備共同合作和雲端語音服務與Teams。 通過正確準備，您可以確定準備好要提供這些功能給貴組織。
 
 ## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>登陸檢查清單和登陸頁面Microsoft Teams推出
 

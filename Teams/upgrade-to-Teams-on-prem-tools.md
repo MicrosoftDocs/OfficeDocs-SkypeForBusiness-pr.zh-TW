@@ -28,7 +28,7 @@ ms.locfileid: "52282470"
 
 本文將說明從 Teams 升級商務用 Skype。 
 
-開始升級之前，Microsoft 會建議下列文章說明重要的升級概念和共存行為：
+在開始升級之前，Microsoft 建議下列文章說明重要的升級概念和共存行為：
 
 - [Teams和商務用 Skype](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [共存模式 - 參照](migration-interop-guidance-for-teams-with-skype.md)
@@ -39,15 +39,15 @@ ms.locfileid: "52282470"
 無論您選擇哪一種升級方法，對於已經擁有 商務用 Skype Online 的使用者，您可以使用 TeamsUpgradePolicy 管理向 TeamsOnly 的轉換，而[TeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)會控制使用者的共存模式。 對於在 商務用 Skype Server 中擁有內部部署帳戶的使用者，您也可以將它們移至 `Move-CsUser` [雲端](/skypeforbusiness/hybrid/move-users-between-on-premises-and-cloud)。  有關每個模式的資訊，請參閱 [共存模式](migration-interop-guidance-for-teams-with-skype.md)。
 
 > [!NOTE]
-> 如果您目前使用 商務用 Skype Online Connector 來管理您的服務，您必須移至 PowerShell 模組Teams並更新現有的 PowerShell 腳本。 請參閱[從 商務用 Skype連線連接器移至 Teams PowerShell 模組以](teams-powershell-move-from-sfbo.md)瞭解更多資訊。
+> 如果您目前使用 商務用 Skype Online Connector 來管理您的服務，您必須移至 PowerShell 模組Teams並更新現有的 PowerShell 腳本。 請參閱[從線上連接器商務用 Skype移至 powerShell Teams模組以](teams-powershell-move-from-sfbo.md)瞭解更多資訊。
 
 無論您是使用 商務用 Skype 模式執行選取功能轉換，或只是從預設群島組態升級至 TeamsOnly 模式，TeamsUpgradePolicy 都是已擁有 商務用 Skype Online 的主要工具。 就像其他系統Teams一樣，您可以直接將 TeamsUpgradePolicy 指派給使用者。 您也可以將策略設定為租使用者範圍的預設值。 任何指派給使用者的優先順序都高於租使用者的預設設定。  您可以在系統管理主控台和 PowerShell Teams管理該策略。
 
 您也可以將 TeamsUpgradePolicy 的任何模式指派給內部部署中商務用 Skype TeamsOnly 模式除外。 **TeamsOnly 模式只能** 指派給已經位於 商務用 Skype Online 的使用者。 這是因為只有在使用者位於 商務用 Skype Online 中，才能與使用者Microsoft 365 電話系統和聯合商務用 Skype連線。 此外，如果您有 商務用 Skype 內部部署 (，則無法將 **TeamsOnly** 模式指派為整個租使用者的預設模式，因為 lyncdiscover DNS 記錄的存在會偵測到 Office 365 之外的位置。
 
-擁有 商務用 Skype 內部部署帳戶的使用者必須移至線上[ (移至](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)商務用 Skype Online，或直接移至 Teams) 使用 Move-CsUser 商務用 Skype 內部部署工具集。 這些使用者可以在 1 或 2 個步驟中移至 TeamsOnly：
+擁有 商務用 Skype 內部部署帳戶的使用者必須移至線上[ (移至](/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams)商務用 Skype Online，或直接移至 Teams) 使用 Move-CsUser 內部商務用 Skype工具集的 商務用 Skype。 這些使用者可以在 1 或 2 個步驟中移至 TeamsOnly：
 
--   1 個步驟：在 Move-CsUser 中指定 -MoveToTeams 切換。 這需要在 2019 商務用 Skype Server 2015 或 2015 商務用 Skype Server CU8 或更高版本。
+-   1 個步驟：在 Move-CsUser 中指定 -MoveToTeams 切換。 這需要使用 CU8 商務用 Skype Server 2019 或 商務用 Skype Server 2015。
 
 -   2 個步驟：執行 Move-CsUser 之後，使用 TeamsUpgradePolicy 將 TeamsOnly 模式授予使用者。
 
@@ -77,7 +77,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 
 
 >[!NOTE]
->如果您有任何擁有內部部署帳戶商務用 Skype，您無法在租使用者層級指派 TeamsOnly 模式。 您必須使用 Move-CsUser 將這些使用者個別移至雲端。
+>如果您有任何使用者擁有內部商務用 Skype帳戶，您無法在租使用者層級指派 TeamsOnly 模式。 您必須使用 Move-CsUser 將這些使用者個別移至雲端。
 
 
 ## <a name="using-notifications-in-skype-for-business-clients"></a>在用戶端商務用 Skype通知
@@ -96,7 +96,7 @@ Grant-CsTeamsUpgradePolicy -PolicyName SfbWithTeamsCollab -Global
 New-CsTeamsUpgradePolicy -Identity EnableNotification -NotifySfbUsers $true
 ```
 
-然後，使用相同的內部部署 PowerShell 視窗，將新策略指派給想要的使用者：
+接著，使用相同的內部部署 PowerShell 視窗，將新策略指派給想要的使用者：
 
 ```PowerShell
 Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
@@ -104,7 +104,7 @@ Grant-CsTeamsUpgradePolicy -Identity $user -PolicyName EnableNotification
 
 ## <a name="meeting-migration"></a>會議移移
 
-當使用者移轉至 TeamsOnly 模式時，根據預設商務用 Skype他們組織的現有會議將會轉換成Teams。 您可以選擇將 TeamsOnly 模式指派給使用者時停用預設行為。 將使用者從內部部署移轉時，會議必須移轉至雲端，以使用線上使用者帳戶運作，但如果您未指定 -MoveToTeams，會議會移轉為 商務用 Skype 會議，而不是轉換成 Teams。 
+當使用者移轉至 TeamsOnly 模式時，根據預設商務用 Skype他們組織的現有會議將會轉換成Teams。 您可以將 TeamsOnly 模式指派給使用者時，選擇性地停用預設行為。 將使用者從內部部署移轉時，會議必須移轉至雲端，以使用線上使用者帳戶運作，但如果您未指定 -MoveToTeams，會議會移轉為 商務用 Skype 會議，而不是轉換成 Teams。 
 
 在租使用者層級指派 TeamsOnly 模式時，不會針對任何使用者觸發會議移移。 如果您想要在租使用者層級指派 TeamsOnly 模式並移移會議，您可以使用 PowerShell 在租使用者 (中取得使用者清單，例如使用 Get-CsOnlineUser 以任何所需的篩選) ，然後迴圈流覽這些使用者，以啟動使用 Start-CsExMeetingMigration 進行會議移入。 詳細資料請參閱使用會議移 ([MMS) 。](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
 

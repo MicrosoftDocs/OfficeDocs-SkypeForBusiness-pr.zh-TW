@@ -24,7 +24,7 @@ ms.locfileid: "52705227"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB 音訊和視Microsoft Teams
 
-周邊設備認證計畫可確保 USB 周邊 (耳機、喇叭、網路) 等 USB 周邊設備提供豐富的音訊或視音訊品質。 認證裝置 (即&即) ，不需要額外的組Microsoft Teams通話商務用 Skype。 這些產品為使用者和系統管理員提供了很好的體驗。
+周邊設備認證計畫可確保 USB 周邊 (耳機、喇叭、網路相機和監視器等) 提供豐富的音訊或視音訊品質。 認證裝置 (即&即) ，不需要額外的組Microsoft Teams通話商務用 Skype。 這些產品為使用者和系統管理員提供了很好的體驗。
 
 若要探索已測試並認證Microsoft Teams的裝置，請前往 Teams[市。](https://products.office.com/microsoft-teams/across-devices/devices)
 
@@ -37,7 +37,7 @@ ms.locfileid: "52705227"
 
 從 Teams 升級至之前通過認證的商務用 Skype。  所有認證裝置都支援Microsoft Teams商務用 Skype使用者，只有一些差異。  認證也會提供特定裝置類別的進一步指定。
 
-- **商務用 Skype升級Teams認證** 在此層級通過認證的裝置最初已通過 商務用 Skype。 Microsoft 已與裝置製造商合作，以提供最佳Teams整合體驗，而不變更原始硬體。 當 *不在通話* 中時，Teams按鈕會做為按鈕，而且可能會隨著時間而包含更多函數。  此類別中的裝置可能會將Teams認證徽章放在行銷資料上。
+- **商務用 Skype升級Teams認證** 在此層級通過認證的裝置最初已通過 商務用 Skype。 Microsoft 已與裝置製造商合作，以提供最佳Teams整合體驗，而不對原始硬體進行任何變更。 當 *不在通話* 中時，Teams切換按鈕會做為按鈕，而且可能會隨著時間而包含更多函數。  此類別中的裝置可能會將Teams認證徽章放在行銷資料上。
 - **已Microsoft Teams** 此等級認證的裝置會指出最新通過認證的裝置，以不折不Teams體驗。 這些裝置提供先前認證的所有優點，並包含一個Teams LED 指示器的專用按鈕。 在大多數的表單因素中，Teams按鈕會是一個易於找到且具有Teams按鈕。 Microsoft 會持續與裝置製造商合作，透過一段時間的固件更新提供新價值。
 
 ### <a name="special-usage-designations"></a>特殊使用量指定
@@ -93,7 +93,7 @@ ms.locfileid: "52705227"
 |Jabra                |Evolve2 30 耳機                                         |3/1/2021        |已Microsoft Teams                           |
 |微軟            |Surface Headphones 2+                                      |2/26/2021       |已Microsoft Teams                           |
 |聚                 |Studio P15 影片欄                                       |2/1/2021        |已Microsoft Teams                           |
-|聚                 |同步 40 個喇叭                                       |1/19/2021       |已Microsoft Teams                           |
+|聚                 |同步 40 部喇叭                                       |1/19/2021       |已Microsoft Teams                           |
 |聚                 |使用 Poly BT600 USB 加密狗同步處理 40+ 部喇叭           |1/19/2021       |已Microsoft Teams                           |
 |Yealink              |UH34 Dual/Mono 頭戴式耳機                                     |12/23/2020      |已Microsoft Teams                           |
 |Yealink              |MP50 USB 電話                                             |12/23/2020      |已Microsoft Teams                           |
@@ -107,8 +107,8 @@ ms.locfileid: "52705227"
 |聯想               |Pro有線 VoIP 身歷聲耳機                              |12/21/2020      |商務用 Skype升級至 Microsoft Teams      |
 |聚                 |Savi Office 7320                                           |12/18/2020      |已Microsoft Teams                           |
 |聚                 |Savi Office 7310                                           |12/18/2020      |已Microsoft Teams                           |
-|Jabra                |Evolve 75e 頭戴式耳機                                         |12/16/2020      |商務用 Skype升級至 Microsoft Teams      |
-|Jabra                |Evolve 65e 耳麥                                         |12/16/2020      |商務用 Skype升級至 Microsoft Teams      |
+|Jabra                |演進 75e 耳麥                                         |12/16/2020      |商務用 Skype升級至 Microsoft Teams      |
+|Jabra                |演進 65e 耳麥                                         |12/16/2020      |商務用 Skype升級至 Microsoft Teams      |
 |戴爾                 |C3422WE 監視器                                            |12/11/2020      |已Microsoft Teams                           |
 |戴爾                 |C2722DE 監視器                                            |12/11/2020      |已Microsoft Teams                           |
 |戴爾                 |C2422HE 監視器                                            |12/11/2020      |已Microsoft Teams                           |
@@ -167,7 +167,7 @@ ms.locfileid: "52705227"
 | 聚                | 順航者 8200 耳機                                      | 3/26/2020      | 商務用 Skype升級至 Microsoft Teams     |
 | 羅技            | 區域有線                                                | 3/26/2020      | 已Microsoft Teams                          |
 | Jabra               | Evolve2 40 耳機                                        | 3/26/2020      | 已Microsoft Teams                          |
-| 聚                | 遠航者 6200 耳機                                      | 3/23/2020      | 商務用 Skype升級至 Microsoft Teams     |
+| 聚                | 服務者 6200 耳機                                      | 3/23/2020      | 商務用 Skype升級至 Microsoft Teams     |
 | 聚                | 遠洋 4245 Office                                       | 3/23/2020      | 已Microsoft Teams                          |
 | 聚                | Blackwire 8225 耳機                                    | 3/23/2020      | 已Microsoft Teams                          |
 | 聚                | Calisto 5300-M                                            | 03/05/2020     | 已Microsoft Teams                          |

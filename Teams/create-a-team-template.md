@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中建立自訂小組範本
+title: 在範本中建立Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: aaglick
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解如何在 Microsoft Teams 中建立自訂小組範本。
+description: 瞭解如何在 Microsoft Teams 中建立Microsoft Teams。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -23,7 +23,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 04/02/2021
 ms.locfileid: "51506731"
 ---
-# <a name="create-a-custom-team-template-in-microsoft-teams"></a>在 Microsoft Teams 中建立自訂小組範本
+# <a name="create-a-custom-team-template-in-microsoft-teams"></a>在範本中建立Microsoft Teams
 
 **EDU 客戶尚不支援自訂範本。**
 
@@ -33,7 +33,7 @@ ms.locfileid: "51506731"
 
 1. 登入 Teams 系統管理中心。
 
-2. 在左側流覽中，展開 **Teams**  >  **Teams 範本**。
+2. 在左側流覽中，展開 **Teams**  >  **範本**。
 
 3. 選取 [新增 **]**。
 
@@ -48,12 +48,12 @@ ms.locfileid: "51506731"
 
     ![小組範本設定命名對話方塊的影像。](media/template-add-a-name.png)
 
-6. 在 **頻道、定位字元和應用程式** 區段，新增小組所需的任何頻道和應用程式。
+6. 在頻道 **、定位字元和應用程式** 區段，新增小組所需的任何頻道和應用程式。
 
     1. 在頻道 **區** 段 **，選取** 新增 。
     2. 在 [ **新增」** 對話方塊中，為頻道命名。
     3. 新增描述。
-    4. 決定是否應該預設顯示頻道。
+    4. 決定是否預設應該顯示頻道。
     5. 搜尋要新加入頻道的應用程式名稱。
     6. 完成 **時選取 Apply。**
 
@@ -61,7 +61,7 @@ ms.locfileid: "51506731"
 
 8. 選取 **完成時** 提交。
 
-您的新範本會顯示在小組 **範本** 清單中。 範本可用於在 Teams 中建立團隊。
+您的新範本會顯示在小組 **範本** 清單中。 範本可用來在 Teams 中建立Teams。
 
 > [!Note]
 > 團隊使用者最多可能需要 24 小時，才能在圖庫中查看自訂範本。
@@ -91,13 +91,13 @@ ms.locfileid: "51506731"
 
 ## <a name="known-issues"></a>已知問題
 
-**問題**：如果您從包含其他自訂選項卡的自訂範本建立團隊，您可能會在自訂的選項卡 App 中看到空白的定位停駐點。 您的預設 (，例如文章、**檔案** 和 **Wiki**) 都會如預期顯示。 
+**問題**：如果您從包含其他自訂定位字元的自訂範本建立團隊，您可能會在自訂的選項卡 App 中看到空白的定位停駐點。 您的預設 (，例如文章、**檔案** 和 **Wiki**) 都會如預期顯示。 
 
 **解決方案**：若要修正此問題，請移除自訂定位點，並使用相同的應用程式新增定位點。 如果您沒有許可權移除自訂定位停駐點並新增新定位停駐點，請聯絡團隊擁有者以尋求協助。
 
 我們目前正在為從自訂範本建立的未來團隊開發修正程式。
 
-**問題**：在瀏覽器中使用 Teams 時，某些網站不支援在 Teams 選項卡中呈現。
+**問題**：在瀏覽器中Teams時，某些網站不支援在 Teams 中呈現。
 
 ![瀏覽器錯誤訊息](media/browser-error-message.png)
 

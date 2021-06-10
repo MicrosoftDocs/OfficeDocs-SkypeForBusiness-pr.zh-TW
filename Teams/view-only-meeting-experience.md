@@ -37,7 +37,7 @@ Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 在達到
 
 主要會議容量到達後加入的出席者將擁有僅供檢視體驗。
 
-出席者將能透過 Android 和 iOS Teams和 iOS (，透過桌面、web 和) 加入僅) 。
+出席者將能透過 Android 和 iOS Teams和 iOS (使用桌面、web 和) 。
 
 > [!Note]
 > 「主要會議」或換句話說，完全互動使用者數目的目前限制容量為 1000 個，包括GCC。

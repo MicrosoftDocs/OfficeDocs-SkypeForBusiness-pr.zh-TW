@@ -37,4 +37,4 @@ Microsoft 會透過 API 提供通話詳細記錄和品質資料給每個參與�
 
 每個電信公司都會透過 API 向 Microsoft 提供客戶使用 MICROSOFT TEAMS。 Microsoft 會使用這些記錄為客戶提供使用方式資訊，並確保我們的記錄與電信公司的記錄一致。 Microsoft 會根據相關法律和法規，以及 Microsoft 隱私權聲明來儲存及處理這些記錄。
 
-詳細資訊：[購買、設定及啟用](career-coach.md)適用于Microsoft Teams
+詳細資訊：購買[、設定及啟用](career-coach.md)適用于Microsoft Teams

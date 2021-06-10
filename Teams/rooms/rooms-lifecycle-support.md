@@ -23,7 +23,7 @@ ms.locfileid: "52469675"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 會議室應用程式版本支援
  
-應用程式Microsoft Teams 會議室應用程式每年會獲得數次更新。 自發行日期起， (12) 12 個月內支援每個更新 (GA) 更新。 在 12 個月內提供 12 個月的 (技術支援) 支援。 不過，支援結構是動態的，有兩個不同的階段，取決於最新版本的可用性：
+應用程式Microsoft Teams 會議室應用程式每年會獲得數次更新。 每一次更新在 12 (12 個月內) 于 GA (發行日期) 支援。 在 12 個月內提供 12 個月的 (技術支援) 支援。 不過，支援結構是動態的，有兩個不同的階段，取決於最新版本的可用性：
 
 - **維護與重要更新階段**- 當您執行最新版本的 Microsoft Teams 會議室 App 時，您會收到包含安全性與維護更新 *的定期更新*。
 
@@ -40,11 +40,11 @@ ms.locfileid: "52469675"
 
 Microsoft Teams 會議室通道維護選項Windows 10 IoT 企業版或Windows 10 企業版 SKUS Semi-Annual SKUS。 不支援Windows 10版本：
 
-- Windows 10 企業版LTS) B 或 ltSB (/長期維護通道 (LTSC) 分支
+- Windows 10 企業版LTS) B 或 ltSB (/長期維護通道 (LTSC) 服務分支
 - Windows 10IoT (Internet) Enterprise LTSB / LTSC 版本
 - 任何其他版本的Windows，例如Windows 10 專業版家用版
 
-系統Windows 10裝置上不會立即提供新功能Microsoft Teams 會議室新功能更新。 在發佈于發行資訊頁面上的一般發行日期之後，Windows 10延遲達[六](/windows/release-information/)個月。 延遲時間會用來驗證 Windows 10應用程式、裝置硬體Microsoft Teams 會議室認證音訊視訊外Microsoft Teams 會議室的發行相容性。 驗證會在每個主要版本開發期間開始並繼續Windows 10。 需要額外時間驗證所有裝置製造商都為裝置建立更新的影像，Microsoft Teams認證和測試這些影像。 在驗證期間，Microsoft Teams會議室應用程式會Windows[商務用](/windows/deployment/update/waas-manage-updates-wufb)更新群組原則來延遲Windows 10更新。 找到並解決任何相容性問題之後，封鎖會透過在市/市中的新應用程式發行更新群組Windows解除。 執行此應用程式Microsoft Teams 會議室裝置會在Windows 10維護重新開機期間自動更新至適當的版本。 MSI 版本可供想要手動管理更新的客戶使用。  
+Windows 10裝置上不會立即提供新功能Microsoft Teams 會議室新功能更新。 在發佈于發行資訊頁面上的一般發行日期之後，Windows 10延遲達[六](/windows/release-information/)個月。 延遲時間會用來驗證 Windows 10應用程式、裝置硬體Microsoft Teams 會議室認證音訊視訊外Microsoft Teams 會議室的發行相容性。 驗證會在每個主要版本開發期間開始並繼續Windows 10。 需要額外時間驗證所有裝置製造商都為裝置建立更新的影像，Microsoft Teams認證和測試這些影像。 在驗證期間，Microsoft Teams會議室應用程式會Windows[商務用](/windows/deployment/update/waas-manage-updates-wufb)更新群組原則來延遲Windows 10更新。 找到並解決任何相容性問題之後，封鎖會透過新版 App 在 Windows 中更新群組原則Windows解除。 執行此應用程式Microsoft Teams 會議室裝置會在Windows 10維護重新開機期間自動更新至適當的版本。 MSI 版本可供想要手動管理更新的客戶使用。  
 
 > [!IMPORTANT]
 > 在驗證期間，Microsoft Teams 會議室不得以任何方式將裝置更新至Windows 10版本。 這包括重寫就地的群組原則，或System Center或其他協力廠商裝置管理服務。 上述任何一個都可能會導致會議室應用程式Microsoft Teams問題，或可能導致裝置無法使用。  

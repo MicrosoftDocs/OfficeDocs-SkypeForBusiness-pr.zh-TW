@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于波多黎各的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+description: 以下是適用于波多黎各Microsoft 365 Office 365和商務用 Skype Microsoft Teams的Microsoft Teams及服務。
 ms.openlocfilehash: 3f4933b1b6ea0ca85a7b6235e77b5eb7c50e40fc
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51092651"
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于波多黎各的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+以下是適用于波多黎各Microsoft 365 Office 365和商務用 Skype Microsoft Teams的Microsoft Teams及服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -61,7 +61,7 @@ ms.locfileid: "51092651"
 |:-----|:-----|
 |可以購買通話方案嗎？  <br/> |是  <br/> |
 |通話方案可用的分鐘數  <br/> |國內 3000 分鐘或 600 分鐘國際 (以每個日曆月的第一次到達者為准) 。 美國國內通話包括美國所有 50 個州和波多黎各的通話。 指派授權使用位置為美國和/或波多黎各的使用者共用相同的分鐘數。  <br/> |
-|可以撥打付費號碼的外接電話嗎？ <br/> | 目前不支援。 <br/> |
+|可以撥打付費號碼外接電話嗎？ <br/> | 目前不支援。 <br/> |
 |可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼

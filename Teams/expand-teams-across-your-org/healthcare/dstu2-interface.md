@@ -1,5 +1,5 @@
 ---
-title: 患者 App 與 EHR 整合 DSTU2 介面
+title: 病患應用程式與 EHR 整合 DSTU2 介面
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -16,7 +16,7 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: 瞭解團隊中的 DSTU2 介面規格，包括設定或重新配置 FHIR 伺服器以搭配 Microsoft 團隊患者 app 使用。
+description: 瞭解 DSTU2 介面規格Teams，包括設定或重設 FHIR 伺服器以使用 Microsoft Teams App。
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 12833ea55977cf7e8d18ee5c10b1f17d898b27b3
@@ -29,58 +29,58 @@ ms.locfileid: "48803481"
 # <a name="dstu2-interface-specification"></a>DSTU2 介面規格
 
 > [!NOTE]
-> 2020年10月30日生效，患者 app 已停用，且已由小組中的 [清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db) 取代。 患者 app 資料會儲存在可支援小組的 Office 365 群組群組信箱中。 所有與患者 app 相關的資料都會保留在這個群組中，但無法再透過使用者介面存取。 使用者可以使用 [ [清單] 應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)重新建立其清單。
+> 自 2020 年 10 月 30 日起，病患應用程式已淘汰並且由 Teams 中的[清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)取代。 病患應用程式資料會儲存在支援小組之 Office 365 群組的群組信箱中。 所有與病患應用程式相關聯的資料會保留在此群組中，但是無法再透過使用者介面存取。 使用者可以使用[清單應用程式](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)來重新建立他們的清單。
 >
->透過清單，您的醫療保健組織中的 [護理小組] 可建立案例的患者清單，包括從倒圓角和 interdisciplinary 小組會議到一般患者監視。 查看清單中的患者範本以開始使用。 若要進一步瞭解如何管理組織中的 [清單] 應用程式，請參閱 [管理清單應用程式](../../manage-lists-app.md)。
+>使用清單，您的醫療保健組織照護小組可以針對各種案例建立病患清單，範圍從會診和跨學科小組會議到一般病患監視。 請查看清單中的病患範本以開始使用。 若要深入了解如何在組織中管理清單應用程式，請參閱[管理清單應用程式](../../manage-lists-app.md)。
 
-設定或重新配置 FHIR 伺服器以搭配 Microsoft 團隊患者應用程式，需要瞭解 app 需要存取哪些資料。 FHIR 伺服器必須支援使用捆綁作業的下列資源的 POST 要求：
+若要設定或重新設定 FHIR 伺服器以使用 Microsoft Teams病患應用程式，必須瞭解 App 需要存取哪些資料。 FHIR 伺服器必須使用下列資源套件支援 POST 要求：
 
-- [患者](#patient)
-- [便](#observation)
+- [病人](#patient)
+- [觀察](#observation)
 - [條件](#condition)
-- [還有](#encounter)
-- [過敏症 intolerance](#allergyintolerance)
-- [百分比](#coverage)
-- [藥物訂單](#medication-order)
+- [遇到](#encounter)
+- [偏執不耐症](#allergyintolerance)
+- [覆蓋](#coverage)
+- [用藥單](#medication-order)
 - [位置](#location)
 
 > [!NOTE]
-> 患者資源是唯一的必要資源 (，不會完全載入 app。 不過，建議合作夥伴針對上述所述的所有上述資源提供支援，以取得 Microsoft 團隊患者 App 的最佳使用者體驗。
+> 病患資源是唯一的 (資源，如果沒有它，應用程式就完全無法載入。 不過，建議合作夥伴針對以下提供的規格，針對上述所有資源執行支援，以獲得最佳的使用者體驗，Microsoft Teams App。
 
-來自 Microsoft 團隊患者 app 的來自多個資源的查詢會將組合 (批次) 至 FHIR server URL 的要求。 伺服器處理每個要求，並傳回每個要求所相符的資源套件。 如需詳細資訊和範例，請參閱 [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) 。
+從 Microsoft Teams App 查詢多個資源時，會張貼 (BATCH) 到 FHIR 伺服器 URL 的要求。 伺服器會處理每個要求，並回報每個要求相符的資源組合。 有關詳細資訊和範例，請參閱 [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) 。
 
-下列所有 FHIR 資源應該可透過直接資源參考存取。
+下列所有 FHIR 資源都應該可由直接資源參照來訪問。
 
-## <a name="conformance-minimum-required-field-set"></a>必要的一致性欄位集
+## <a name="conformance-minimum-required-field-set"></a>符合最低要求欄位集
 
- FHIR 伺服器必須實現一致性聲明，我們才能擁有其功能的實際摘要。 我們期待 DSTU2 FHIR 伺服器中的下列參數：
+ FHIR Server 必須實做一致性聲明，以便我們以事實摘要說明其功能。 我們預期 DSTU2 FHIR Server 中的下列參數：
 
- - 地方
+ - 休息
 
-    - 下
+    - 模式
     - 互動
-    - 資源：類型
-    - 安全性： [OAuth uri 的副檔名](https://hl7.org/fhir/extension-oauth-uris.html)
+    - 資源：輸入
+    - 安全性 [：OAuth URI 擴充功能](https://hl7.org/fhir/extension-oauth-uris.html)
    
- - FhirVersion (我們的程式碼需要這麼做，才能瞭解我們支援多個版本時應該要資料透視的版本。 ) 
+ - FhirVersion (我們的程式碼需要此程式，以瞭解支援多個版本時，應該樞紐處理哪個版本。) 
 
-[https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://www.hl7.org/fhir/dstu2/conformance.html](https://www.hl7.org/fhir/dstu2/conformance.html) 此欄位集的其他詳細資料。
 
-## <a name="patient"></a>患者
+## <a name="patient"></a>病人
 
-以下是 [Argonaut 患者設定檔](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) 欄位的子集所需的最小欄位：
+這些是最小必要的欄位，這是 [Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-patient.html) 病患設定檔欄位的子集：
 
- - Name. 家人
- - Name。指定
+ - Name.Family
+ - Name.given
  - 性別
  - 生日
  - MRN (識別碼) 
 
-除了 Argonaut 欄位以外，您還可以取得良好的使用者體驗，因為患者 app 也會讀取下欄欄位：
+除了 Argonaut 欄位之外，為了提供出色的使用者體驗，病患應用程式也會念出下欄欄位：
 
- - 名稱。使用
- - 名稱。前置詞
- - CareProvider (患者資源上的這個參照應包含下列範例所示的顯示欄位。 ) 
+ - Name.use
+ - Name.首碼
+ - CareProvider (此病患資源上的參照應包含下列範例中顯示的顯示欄位。) 
 
     ```
     Request:
@@ -121,24 +121,24 @@ ms.locfileid: "48803481"
     }
     ```
 
-資源搜尋使用/Patient/_search 的 POST 方法，以及下列參數：
+資源搜尋使用 /Patient/_search的 POST 方法，以及下列參數：
 
- - 標識號
- - [家人]：包含 = (搜尋其系列名稱中包含值的所有患者。 ) 
- - 給定 =\<substring>
- - 名稱 =\<substring>
- - 生日 = (完全符合) 
- - \_count (應傳回的結果數目上限)  <br> 回應應包含搜尋結果傳回的記錄總數，而 \_ PatientsApp 會使用 count 來限制傳回的記錄數。
- - 識別碼 =\<mrn>
+ - Id
+ - family：contains= (搜尋所有姓氏包含值) 
+ - given=\<substring>
+ - name=\<substring>
+ - birthdate= (完全相符) 
+ - \_計算 (應)  <br> 回應應包含搜尋結果所退回之記錄的總數，而 PatientsApp 會使用 Count 來限制所退回 \_ 的記錄數目。
+ - identifier=\<mrn>
 
-您的目標就是能夠搜尋及篩選患者，如下所示：
+目的是要能夠搜尋及篩選病患，方法如下：
 
-- [識別碼]：這是 FHIR 中的每個資源所擁有的資源識別碼。
-- MRN：這是臨床員工要認識的患者實際識別碼。 我們瞭解此 MRN 是以 FHIR 中識別碼資源內的識別碼類型為基礎。
+- 識別碼：這是 FHIR 中每個資源都有的資源識別碼。
+- MRN：這是臨床教職員會知道之病患的實際識別碼。 我們瞭解此 MRN 是根據 FHIR 中識別碼資源中的識別碼類型所根據
 - 名稱
 - 生日
 
-請參閱下列通話範例。
+請參閱下列此通話範例。
 
 ```
 Request:
@@ -176,29 +176,29 @@ Response:
 }
 ```
 
-[https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://www.hl7.org/fhir/DSTU2/Patient.html](https://www.hl7.org/fhir/DSTU2/Patient.html) 此欄位集的其他詳細資料。
 
-## <a name="observation"></a>便
+## <a name="observation"></a>觀察
 
-這些是最小必要欄位，這些欄位是 Argonaut 重要符號設定檔的子集：
+這些是最小必要欄位，這是 Argonaut 生命符號設定檔的子集：
 
- - 生效 (日期時間或期間) 
- - 程式碼代碼。程式碼
- - ValueQuantity 值
+ - 自 (日期時間或期間起) 
+ - Code.Code.Code
+ - ValueQuantity.Value
 
-除了 Argonaut 欄位以外，您還可以取得良好的使用者體驗，因為患者 app 也會讀取下欄欄位：
+除了 Argonaut 欄位之外，為了提供出色的使用者體驗，病患應用程式也會念出下欄欄位：
 
- - 程式碼。顯示
- - ValueQuantity 單位
+ - Code.Code.Display
+ - ValueQuantity.Unit
 
-如果使用元件觀測值，則會針對每個元件觀察來套用相同的邏輯。
+如果使用元件觀察，則每個元件觀察都適用相同的邏輯。
 
-資源搜尋使用 [取得] 方法及下列參數：
+資源搜尋使用 GET 方法及下列參數：
 
- - 患者 =\<patient id\>
- - 排序： desc =\<field ex. date\>
+ - patient=\<patient id\>
+ - sort：desc=\<field ex. date\>
 
-您的目標是要取得患者的最新重要標誌： [VitalSigns DSTU saz] ([觀察]？ ) 。
+目的是要能夠針對病患 ，[VitalSigns.DSTU.saz] 或觀察結果？ (最新的生命) 。
 
 ```
 Request:
@@ -243,25 +243,25 @@ Response:
 }
 ```
 
-[https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://www.hl7.org/fhir/DSTU2/Observation.html](https://www.hl7.org/fhir/DSTU2/Observation.html) 此欄位集的其他詳細資料。
 
 ## <a name="condition"></a>條件
 
-以下是 [Argonaut 條件設定檔](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)的子集所需的最小欄位數：
+這些是最小必要欄位，這是 [Argonaut](http://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-condition.html)條件設定檔的子集：
 
-1. 程式碼。編碼 [0]。顯示幕
+1. Code.Code[0]。顯示
 
-除了 Argonaut 欄位之外，您還可以取得良好的使用者體驗，因為患者 app 也可以讀取下欄欄位：
+除了 Argonaut 欄位之外，為了獲得出色的使用者體驗，病患應用程式也可以讀取下欄欄位：
 
- - 錄製日期
- - 程度
+ - 記錄的日期
+ - 嚴重性
 
-資源搜尋使用 [取得] 方法及下列參數：
+資源搜尋使用 GET 方法及下列參數：
 
- - 患者 =\<patient id>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _count=\<max results>
 
-請參閱下列通話範例：
+請參閱下列此通話範例：
 
 ```
 Request:
@@ -303,27 +303,27 @@ Response:
 }
 ```
 
-[https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://www.hl7.org/fhir/DSTU2/Condition.html](https://www.hl7.org/fhir/DSTU2/Condition.html) 此欄位集的其他詳細資料。
 
-## <a name="encounter"></a>還有
+## <a name="encounter"></a>遇到
 
-這些是最小必要欄位，這是「美國核心」的子集 [必須具有] 欄位的一部分：
+這些是最小必要欄位，這是美國核心遭遇設定檔「必須擁有」欄位的子集：
 
- - 狀態值
- - 輸入 [0]。編碼 [0]。顯示幕
+ - 地位
+ - 輸入[0]。編碼[0]。顯示
 
-此外，美國核心的下欄欄位會遇到設定檔的「必須支援」欄位
+此外，下欄欄位來自美國核心會議設定檔的「必須支援」欄位
 
- - [期間]。開始
- - 位置 [0]。位置。顯示
+ - Period.Start
+ - 位置[0]。位置.顯示
 
-資源搜尋使用 [取得] 方法及下列參數：
+資源搜尋使用 GET 方法及下列參數：
 
- - 患者 =\<patient id>
- - _sort： desc =\<field ex. date>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _sort：desc=\<field ex. date>
+ - _count=\<max results>
 
-目標就是能夠檢索患者的最近已知位置。 每個遇到的都是參照位置資源。 參照也必須包含位置的顯示欄位。 請參閱下列通話範例。
+目的是要能夠取回病患的上一個已知位置。 每一次遇到都參照位置資源。 參照中也須包含位置的顯示欄位。 請參閱下列此通話範例。
 
 ```
 Request:
@@ -359,29 +359,29 @@ Response:
 }
 ```
 
-[https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://www.hl7.org/fhir/DSTU2/Encounter.htm](https://www.hl7.org/fhir/DSTU2/Encounter.htm) 此欄位集的其他詳細資料。
 
-## <a name="allergyintolerance"></a>AllergyIntolerance
+## <a name="allergyintolerance"></a>抗反性Intolerance
 
-以下是 [Argonaut AllergyIntolerance] 設定檔的子集所需的最小欄位數：
+這些是最小必要欄位，這是 Argonaut 的一個 SubsetyIntolerance 設定檔：
 
- - 程式碼。文字
- - 程式碼。編碼 [0]。顯示幕
- - 狀態值
+ - Code.Text
+ - Code.Code[0]。顯示
+ - 地位
 
-除了 Argonaut 欄位以外，您還可以取得良好的使用者體驗，因為患者 app 也會讀取下欄欄位：
+除了 Argonaut 欄位之外，為了提供出色的使用者體驗，病患應用程式也會念出下欄欄位：
 
  - RecordedDate
- - 記事。文字
- - 反應 [...]。物質。文字
- - 反應 [...]。表現形式 [...]。字體
- - Text. Div
+ - 附注.文字
+ - Reaction[..].實體.文字
+ - Reaction[..].顯性[..]。文本
+ - Text.Div
 
-資源搜尋使用 [取得] 方法及下列參數：
+資源搜尋使用 GET 方法及下列參數：
 
- - 患者 =  \<patient id>
+ - Patient =  \<patient id>
 
-請參閱下列通話範例：
+請參閱下列此通話範例：
 
 ```
 Request:
@@ -421,29 +421,29 @@ Response:
 }
 ```
 
-[https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html) 此欄位集的其他詳細資料。
 
-## <a name="medication-order"></a>藥物訂單
+## <a name="medication-order"></a>醫療訂單
 
-以下是 [Argonaut MedicationOrder] 設定檔的子集所需的最小欄位數：
+這些是最小必要欄位，這是 Argonaut MedicationOrder 設定檔的子集：
 
  - DateWritten
- - Prescriber。顯示
- - [藥物]。如果參照) ，則顯示 (
- - 藥物 (if 概念的文字) 
+ - 指定器.Display
+ - Medication.display (參考) 
+ - Medication.text (概念) 
 
-除了 Argonaut 欄位之外，您還可以取得良好的使用者體驗，因為患者 app 也可以讀取下欄欄位：
+除了 Argonaut 欄位之外，為了獲得出色的使用者體驗，病患應用程式也可以讀取下欄欄位：
 
  - DateEnded
- - DosageInstruction 文字
- - Text. Div
+ - DosageInstruction.Text
+ - Text.Div
 
-資源搜尋使用 [取得] 方法及下列參數：
+資源搜尋使用 GET 方法及下列參數：
 
- - 患者 =\<patient id>
- - _count =\<max results>
+ - patient=\<patient id>
+ - _count=\<max results>
 
-請參閱下列通話範例：
+請參閱下列此通話範例：
 
 ```
 Request:
@@ -478,19 +478,19 @@ Response:
 }
 ```
 
-[https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://www.hl7.org/fhir/DSTU2/MedicationOrder.html](https://www.hl7.org/fhir/DSTU2/MedicationOrder.html) 此欄位集的其他詳細資料。
 
-## <a name="coverage"></a>百分比
+## <a name="coverage"></a>覆蓋
 
-以下是最小必要欄位，不是由美國核心或 Argonaut 設定檔所涵蓋：
+這些是最低要求欄位，美國核心或 Argonaut 設定檔未涵蓋：
 
  - Payor
 
-資源搜尋使用 [取得] 方法及下列參數：
+資源搜尋使用 GET 方法及下列參數：
 
- - 患者 =\<patient id>
+ - patient=\<patient id>
 
-請參閱下列通話範例：
+請參閱下列此通話範例：
 
 ```
 Request:
@@ -514,10 +514,10 @@ Response:
 }
 ```
     
-[https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://www.hl7.org/fhir/DSTU2/Coverage.html](https://www.hl7.org/fhir/DSTU2/Coverage.html) 此欄位集的其他詳細資料。
 
 ## <a name="location"></a>位置
 
-此資源只是用來做為「 [遇到](#encounter) 資源」的參考。
+此資源只會在 Encounter 資源上做 [為參照](#encounter) 使用。
 
-[https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html)如需此欄位集的其他詳細資料，請參閱。
+請參閱 [https://www.hl7.org/fhir/DSTU2/Location.html](https://www.hl7.org/fhir/DSTU2/Location.html) 此欄位集的其他詳細資料。
