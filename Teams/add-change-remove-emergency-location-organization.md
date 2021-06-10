@@ -16,7 +16,7 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: '瞭解如何在 Microsoft Teams 系統管理中心新增、變更或移除貴組織的緊急位置。 '
+description: '瞭解如何在系統管理中心新增、變更或移除組織的緊急Microsoft Teams位置。 '
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: b918cbcbebf8edb2cd54d08e0e4a3177867fa623
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -25,65 +25,65 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51121521"
 ---
-# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a><span data-ttu-id="8aef4-103">新增、變更或移除貴組織的緊急位置</span><span class="sxs-lookup"><span data-stu-id="8aef4-103">Add, change, or remove an emergency location for your organization</span></span>
+# <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a><span data-ttu-id="1b8b2-103">新增、變更或移除貴組織的緊急位置</span><span class="sxs-lookup"><span data-stu-id="1b8b2-103">Add, change, or remove an emergency location for your organization</span></span>
 
-<span data-ttu-id="8aef4-104">緊急位置必須與電話號碼相關聯，但發生這種情況時，可能會因國家/地區而異。</span><span class="sxs-lookup"><span data-stu-id="8aef4-104">An emergency location must be associated with a phone number, but when this happens can vary between countries and regions.</span></span> <span data-ttu-id="8aef4-105">例如，在美國，當您將電話號碼指派給使用者時，您必須建立緊急位置的關聯。</span><span class="sxs-lookup"><span data-stu-id="8aef4-105">For example, in the United States, you need to associate an emergency location when you assign the phone number to the user.</span></span> <span data-ttu-id="8aef4-106">在英國，當您從 Microsoft 365 或 Office 365 取得電話號碼，或移轉目前服務提供者的電話號碼時，您必須將緊急位置與電話號碼建立關聯。</span><span class="sxs-lookup"><span data-stu-id="8aef4-106">In the United Kingdom, you need to associate an emergency location to the phone number when you get the phone numbers from Microsoft 365 or Office 365 or transfer phone numbers from your current service provider.</span></span>
+<span data-ttu-id="1b8b2-104">緊急位置必須與電話號碼相關聯，但發生這種情況時，可能會因國家/地區而異。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-104">An emergency location must be associated with a phone number, but when this happens can vary between countries and regions.</span></span> <span data-ttu-id="1b8b2-105">例如，在美國，當您將電話號碼指派給使用者時，您必須建立緊急位置的關聯。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-105">For example, in the United States, you need to associate an emergency location when you assign the phone number to the user.</span></span> <span data-ttu-id="1b8b2-106">在英國，當您從 Microsoft 365 或 Office 365 取得電話號碼，或從目前的服務提供者移轉電話號碼時，您必須將緊急位置與電話號碼建立關聯。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-106">In the United Kingdom, you need to associate an emergency location to the phone number when you get the phone numbers from Microsoft 365 or Office 365 or transfer phone numbers from your current service provider.</span></span>
 
-<span data-ttu-id="8aef4-107">無論您位於哪個國家/地區，都可以在緊急位置新增位置或地點，並移除緊急位置。</span><span class="sxs-lookup"><span data-stu-id="8aef4-107">No matter which country or region you are in, you can add a place or places to an emergency location and remove an emergency location.</span></span> <span data-ttu-id="8aef4-108">根據貴組織實體位置的數量，您可以建立建築物、樓層和辦公室的位置。</span><span class="sxs-lookup"><span data-stu-id="8aef4-108">Depending on the number of physical locations in your organization, you can create places for buildings, floors, and offices.</span></span> <span data-ttu-id="8aef4-109">請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)。</span><span class="sxs-lookup"><span data-stu-id="8aef4-109">See [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).</span></span>
+<span data-ttu-id="1b8b2-107">無論您位於哪個國家/地區，都可以在緊急位置新增地點或地點，並移除緊急位置。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-107">No matter which country or region you are in, you can add a place or places to an emergency location and remove an emergency location.</span></span> <span data-ttu-id="1b8b2-108">根據貴組織實體位置的數量，您可以建立建築物、樓層和辦公室的位置。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-108">Depending on the number of physical locations in your organization, you can create places for buildings, floors, and offices.</span></span> <span data-ttu-id="1b8b2-109">請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-109">See [Manage emergency calling](what-are-emergency-locations-addresses-and-call-routing.md).</span></span>
   
-<span data-ttu-id="8aef4-110">若要瞭解如何取得通話方案及其費用，請參閱 [Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="8aef4-110">To learn how to get a Calling Plan and how much they cost, see [Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</span></span>
+<span data-ttu-id="1b8b2-110">若要瞭解如何取得通話方案及其費用，請參閱Teams[授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-110">To learn how to get a Calling Plan and how much they cost, see [Teams add-on licensing](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).</span></span>
 
-<span data-ttu-id="8aef4-111">您可以在 Microsoft Teams 系統管理中心或使用 PowerShell 管理組織的緊急位置。</span><span class="sxs-lookup"><span data-stu-id="8aef4-111">You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.</span></span>
+<span data-ttu-id="1b8b2-111">您可以在系統管理中心或使用 PowerShell Microsoft Teams組織的緊急位置。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-111">You manage emergency locations for your organization in the Microsoft Teams admin center or by using PowerShell.</span></span>
   
-## <a name="add-an-emergency-location"></a><span data-ttu-id="8aef4-112">新增緊急位置</span><span class="sxs-lookup"><span data-stu-id="8aef4-112">Add an emergency location</span></span>
+## <a name="add-an-emergency-location"></a><span data-ttu-id="1b8b2-112">新增緊急位置</span><span class="sxs-lookup"><span data-stu-id="1b8b2-112">Add an emergency location</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="8aef4-113">使用 Microsoft Teams 系統管理中心</span><span class="sxs-lookup"><span data-stu-id="8aef4-113">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="1b8b2-113">使用 Microsoft Teams 系統管理中心</span><span class="sxs-lookup"><span data-stu-id="1b8b2-113">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="8aef4-114">在 Microsoft Teams 系統管理中心的左側流覽中，按一下 **[位置**  >  **緊急位址**> 。</span><span class="sxs-lookup"><span data-stu-id="8aef4-114">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
-2. <span data-ttu-id="8aef4-115">按一下 [新增 **]**。</span><span class="sxs-lookup"><span data-stu-id="8aef4-115">Click **Add**.</span></span>
-3. <span data-ttu-id="8aef4-116">輸入位置的名稱和描述。</span><span class="sxs-lookup"><span data-stu-id="8aef4-116">Enter a name and description for the location.</span></span>
-4. <span data-ttu-id="8aef4-117">選取國家/地區，然後輸入位址。</span><span class="sxs-lookup"><span data-stu-id="8aef4-117">Select the country or region, and then enter the address.</span></span>
+1. <span data-ttu-id="1b8b2-114">在系統管理中心的左側導Microsoft Teams，按一下 **[位置**  >  **緊急位址**> 。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-114">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
+2. <span data-ttu-id="1b8b2-115">按一下 [新增 **]**。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-115">Click **Add**.</span></span>
+3. <span data-ttu-id="1b8b2-116">輸入位置的名稱和描述。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-116">Enter a name and description for the location.</span></span>
+4. <span data-ttu-id="1b8b2-117">選取國家/地區，然後輸入位址。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-117">Select the country or region, and then enter the address.</span></span>
 
    > [!NOTE]
-   > <span data-ttu-id="8aef4-118">在比利時、法國、德國、愛爾蘭、荷蘭和西班牙，您必須瞭解，若要在 Microsoft 365 或 Office 365 中成功啟用電話號碼，緊急位置中用來取得號碼的位址必須與電話號碼的區碼相符。</span><span class="sxs-lookup"><span data-stu-id="8aef4-118">In Belgium, France, Germany, Ireland, Netherlands, and Spain, it's important to understand that to successfully activate a phone number in Microsoft 365 or Office 365, the address set up in the emergency location, which is used to acquire the number, must match the phone number's area code.</span></span>
+   > <span data-ttu-id="1b8b2-118">在比利時、法國、德國、愛爾蘭、荷蘭和西班牙，必須瞭解，若要在 Microsoft 365 或 Office 365 中成功啟用電話號碼，緊急位置中用來取得號碼的位址必須與電話號碼的區碼相符。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-118">In Belgium, France, Germany, Ireland, Netherlands, and Spain, it's important to understand that to successfully activate a phone number in Microsoft 365 or Office 365, the address set up in the emergency location, which is used to acquire the number, must match the phone number's area code.</span></span>
 
-5. <span data-ttu-id="8aef4-119">如果找不到位址，而您想要手動編輯位址，請開啟手動 **編輯位址**。</span><span class="sxs-lookup"><span data-stu-id="8aef4-119">If the address isn't found and you want to manually edit the address, turn on **Edit the address manually**.</span></span>
-6. <span data-ttu-id="8aef4-120">按一下 [儲存]。</span><span class="sxs-lookup"><span data-stu-id="8aef4-120">Click **Save**.</span></span>
+5. <span data-ttu-id="1b8b2-119">如果找不到位址，而您想要手動編輯位址，請開啟手動 **編輯位址**。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-119">If the address isn't found and you want to manually edit the address, turn on **Edit the address manually**.</span></span>
+6. <span data-ttu-id="1b8b2-120">按一下 [儲存]。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-120">Click **Save**.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="8aef4-121">使用 PowerShell</span><span class="sxs-lookup"><span data-stu-id="8aef4-121">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="1b8b2-121">使用 PowerShell</span><span class="sxs-lookup"><span data-stu-id="1b8b2-121">Using PowerShell</span></span>
 
-<span data-ttu-id="8aef4-122">請參閱 [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivicaddress)。</span><span class="sxs-lookup"><span data-stu-id="8aef4-122">See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivicaddress).</span></span>
+<span data-ttu-id="1b8b2-122">請參閱 [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivicaddress)。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-122">See [New-CsOnlineLisCivicAddress](/powershell/module/skype/new-csonlineliscivicaddress).</span></span>
     
-## <a name="change-an-emergency-location"></a><span data-ttu-id="8aef4-123">變更緊急位置</span><span class="sxs-lookup"><span data-stu-id="8aef4-123">Change an emergency location</span></span>
+## <a name="change-an-emergency-location"></a><span data-ttu-id="1b8b2-123">變更緊急位置</span><span class="sxs-lookup"><span data-stu-id="1b8b2-123">Change an emergency location</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="8aef4-124">使用 Microsoft Teams 系統管理中心</span><span class="sxs-lookup"><span data-stu-id="8aef4-124">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="1b8b2-124">使用 Microsoft Teams 系統管理中心</span><span class="sxs-lookup"><span data-stu-id="1b8b2-124">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="8aef4-125">在 Microsoft Teams 系統管理中心的左側流覽中，按一下 **[位置**  >  **緊急位址**> 。</span><span class="sxs-lookup"><span data-stu-id="8aef4-125">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
-2. <span data-ttu-id="8aef4-126">在清單中，選取您想要變更的位置，然後按一下 [ **編輯**。</span><span class="sxs-lookup"><span data-stu-id="8aef4-126">In the list, select the location that you want to change, and then click **Edit**.</span></span>
-3. <span data-ttu-id="8aef4-127">進行您想要的變更。</span><span class="sxs-lookup"><span data-stu-id="8aef4-127">Make the changes you want.</span></span>
-4. <span data-ttu-id="8aef4-128">按一下 [儲存]。</span><span class="sxs-lookup"><span data-stu-id="8aef4-128">Click **Save**.</span></span>
+1. <span data-ttu-id="1b8b2-125">在系統管理中心的左側導Microsoft Teams，按一下 **[位置**  >  **緊急位址**> 。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-125">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
+2. <span data-ttu-id="1b8b2-126">在清單中，選取您想要變更的位置，然後按一下 [ **編輯**。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-126">In the list, select the location that you want to change, and then click **Edit**.</span></span>
+3. <span data-ttu-id="1b8b2-127">進行您想要的變更。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-127">Make the changes you want.</span></span>
+4. <span data-ttu-id="1b8b2-128">按一下 [儲存]。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-128">Click **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="8aef4-129">只有在位址未驗證時，您才能變更位置的位址資訊。</span><span class="sxs-lookup"><span data-stu-id="8aef4-129">You can change the address information for a location only if the address isn't validated.</span></span> <span data-ttu-id="8aef4-130">如果位址已經過驗證，而您需要變更位址、刪除位置，然後使用正確的位址建立新位置。</span><span class="sxs-lookup"><span data-stu-id="8aef4-130">If the address is already validated, and you need to change the address, delete the location, and then create a new location with the correct address.</span></span>
+> <span data-ttu-id="1b8b2-129">只有在位址未驗證時，您才能變更位置的位址資訊。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-129">You can change the address information for a location only if the address isn't validated.</span></span> <span data-ttu-id="1b8b2-130">如果位址已經過驗證，而您需要變更位址、刪除位置，然後使用正確的位址建立新位置。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-130">If the address is already validated, and you need to change the address, delete the location, and then create a new location with the correct address.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="8aef4-131">使用 PowerShell</span><span class="sxs-lookup"><span data-stu-id="8aef4-131">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="1b8b2-131">使用 PowerShell</span><span class="sxs-lookup"><span data-stu-id="1b8b2-131">Using PowerShell</span></span>
 
-<span data-ttu-id="8aef4-132">請參閱 [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress)。</span><span class="sxs-lookup"><span data-stu-id="8aef4-132">See [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress).</span></span>
+<span data-ttu-id="1b8b2-132">請參閱 [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress)。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-132">See [Set-CsOnlineLisCivicAddress](/powershell/module/skype/set-csonlineliscivicaddress).</span></span>
     
-## <a name="remove-an-emergency-location"></a><span data-ttu-id="8aef4-133">移除緊急位置</span><span class="sxs-lookup"><span data-stu-id="8aef4-133">Remove an emergency location</span></span>
+## <a name="remove-an-emergency-location"></a><span data-ttu-id="1b8b2-133">移除緊急位置</span><span class="sxs-lookup"><span data-stu-id="1b8b2-133">Remove an emergency location</span></span>
 
-### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="8aef4-134">使用 Microsoft Teams 系統管理中心</span><span class="sxs-lookup"><span data-stu-id="8aef4-134">Using the Microsoft Teams admin center</span></span>
+### <a name="using-the-microsoft-teams-admin-center"></a><span data-ttu-id="1b8b2-134">使用 Microsoft Teams 系統管理中心</span><span class="sxs-lookup"><span data-stu-id="1b8b2-134">Using the Microsoft Teams admin center</span></span>
 
-1. <span data-ttu-id="8aef4-135">在 Microsoft Teams 系統管理中心的左側流覽中，按一下 **[位置**  >  **緊急位址**> 。</span><span class="sxs-lookup"><span data-stu-id="8aef4-135">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
-2. <span data-ttu-id="8aef4-136">在清單中，選取您想要移除的位置，然後按一下 [ **刪除**。</span><span class="sxs-lookup"><span data-stu-id="8aef4-136">In the list, select the location that you want to remove, and then click **Delete**.</span></span>
+1. <span data-ttu-id="1b8b2-135">在系統管理中心的左側導Microsoft Teams，按一下 **[位置**  >  **緊急位址**> 。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-135">In the left navigation of the Microsoft Teams admin center, click **Locations** > **Emergency addresses**.</span></span>
+2. <span data-ttu-id="1b8b2-136">在清單中，選取您想要移除的位置，然後按一下 [ **刪除**。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-136">In the list, select the location that you want to remove, and then click **Delete**.</span></span>
 
-### <a name="using-powershell"></a><span data-ttu-id="8aef4-137">使用 PowerShell</span><span class="sxs-lookup"><span data-stu-id="8aef4-137">Using PowerShell</span></span>
+### <a name="using-powershell"></a><span data-ttu-id="1b8b2-137">使用 PowerShell</span><span class="sxs-lookup"><span data-stu-id="1b8b2-137">Using PowerShell</span></span>
 
-<span data-ttu-id="8aef4-138">請參閱 [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlineliscivicaddress)。</span><span class="sxs-lookup"><span data-stu-id="8aef4-138">See [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlineliscivicaddress).</span></span>
+<span data-ttu-id="1b8b2-138">請參閱 [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlineliscivicaddress)。</span><span class="sxs-lookup"><span data-stu-id="1b8b2-138">See [Remove-CsOnlineLisCivicAddress](/powershell/module/skype/remove-csonlineliscivicaddress).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="8aef4-139">相關主題</span><span class="sxs-lookup"><span data-stu-id="8aef4-139">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="1b8b2-139">相關主題</span><span class="sxs-lookup"><span data-stu-id="1b8b2-139">Related topics</span></span>
 
-- [<span data-ttu-id="8aef4-140">管理緊急電話</span><span class="sxs-lookup"><span data-stu-id="8aef4-140">Manage emergency calling</span></span>](what-are-emergency-locations-addresses-and-call-routing.md)
-- [<span data-ttu-id="8aef4-141">新增、變更或移除貴組織緊急位置的地方</span><span class="sxs-lookup"><span data-stu-id="8aef4-141">Add, change, or remove a place for an emergency location in your organization</span></span>](add-change-remove-emergency-place-organization.md)
-- [<span data-ttu-id="8aef4-142">管理貴組織的電話號碼</span><span class="sxs-lookup"><span data-stu-id="8aef4-142">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
-- [<span data-ttu-id="8aef4-143">緊急通話條款及條件</span><span class="sxs-lookup"><span data-stu-id="8aef4-143">Emergency calling terms and conditions</span></span>](./emergency-calling-terms-and-conditions.md)
+- [<span data-ttu-id="1b8b2-140">管理緊急電話</span><span class="sxs-lookup"><span data-stu-id="1b8b2-140">Manage emergency calling</span></span>](what-are-emergency-locations-addresses-and-call-routing.md)
+- [<span data-ttu-id="1b8b2-141">新增、變更或移除貴組織緊急位置的地方</span><span class="sxs-lookup"><span data-stu-id="1b8b2-141">Add, change, or remove a place for an emergency location in your organization</span></span>](add-change-remove-emergency-place-organization.md)
+- [<span data-ttu-id="1b8b2-142">管理貴組織的電話號碼</span><span class="sxs-lookup"><span data-stu-id="1b8b2-142">Manage phone numbers for your organization</span></span>](/microsoftteams/manage-phone-numbers-for-your-organization)
+- [<span data-ttu-id="1b8b2-143">緊急通話條款及條件</span><span class="sxs-lookup"><span data-stu-id="1b8b2-143">Emergency calling terms and conditions</span></span>](./emergency-calling-terms-and-conditions.md)
