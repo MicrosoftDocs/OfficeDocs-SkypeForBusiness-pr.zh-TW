@@ -80,9 +80,9 @@ ms.locfileid: "52684580"
 3. 選取 **Apply**。
 
 > [!Note]
-> 您的新政策最多可能需要 24 小時，才能對使用者生效。
+> 您的新政策最多可能需要 24 小時，使用者才能生效。
 
-## <a name="size-limits-for-template-policies"></a>範本政策的大小限制
+## <a name="size-limits-for-template-policies"></a>範本策略的大小限制
 
 每個策略最多可以隱藏 100 個範本。 如果 **已** 隱藏 100 個範本，則停用了隱藏按鈕。
 
@@ -104,12 +104,12 @@ ms.locfileid: "52684580"
 
 答：任何已刪除的範本將不再存在於任何範本政策中。
 
-**問：我可以將多個使用者指派給系統管理中心的範本Teams嗎？**
+**問：我可以將多個使用者指派給系統管理中心中的範本Teams嗎？**
 
 答：是。
 
 1. 在系統管理中心，前往 **使用者**。
-1. 在使用者清單表格中，選取您想要指派給特定範本策略的使用者。
+1. 在使用者清單表格中，選取要指派給特定範本策略的使用者。
 1. 選取編輯設定，然後變更範本政策欄位。
 1. 選取 Apply。
    深入瞭解[在 Microsoft \| Docs](./assign-policies.md#assign-a-policy-to-a-batch-of-users)中指派Microsoft Teams使用者Microsoft Teams。

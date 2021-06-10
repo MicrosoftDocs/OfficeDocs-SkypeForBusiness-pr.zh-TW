@@ -18,19 +18,19 @@ description: 瞭解在 Microsoft Teams 中將策略套件指派給使用者和�
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: e70d5e2bf0db6cb7dfd93e35a8207fce61fa75fd
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 820cc280e7168dee5a0e059005a1b7e6cebf5ff1
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796827"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856422"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>指派策略套件給使用者和群組
 
 本文將審查將策略套件指派給使用者和群組的不同Microsoft Teams。 閱讀前，請確定您閱讀過在 Teams[中指派策略 - 開始使用](policy-assignment-overview.md)。
 
 > [!NOTE]
-> 每個使用者都需要進一步通訊附加元件才能接收自訂策略套件指派。 若要詳細資訊，請參閱適用于 Microsoft Teams[的 Advanced Communications 附加Microsoft Teams。](/microsoftteams/teams-add-on-licensing/advanced-communications)
+> 每位使用者都需要 [進階通訊] 附加元件，才能接收自訂原則套件指派。 如需詳細資訊，請參閱 [Microsoft Teams 的進階通訊附加元件](/microsoftteams/teams-add-on-licensing/advanced-communications) (部分機器翻譯)。
 
 ## <a name="assign-a-policy-package-to-users"></a>指派策略套件給使用者
 
@@ -62,7 +62,7 @@ Teams中的策略套件是預先定義的策略和設定集合，您可以指派
 當您指派策略套件時，系統會立即將其指派給群組。 不過，將策略指派傳播給群組成員是做為背景作業，可能需要一些時間，視群組大小而不同。 當未從群組中未指定策略，或成員新加入群組或從群組中移除時，也是如此。
 
 > [!IMPORTANT]
-> 在您開始使用之前，您必須瞭解 (優先順序規則)  ([群組](assign-policies-users-and-groups.md#group-assignment-ranking)作業) 。 [](assign-policies-users-and-groups.md#precedence-rules) 請確認您閱讀並瞭解本文 (本文中關於指派給群組[](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)之) 中必須瞭解的概念。
+> 在您開始使用之前，瞭解群組工作分派 (優先順序)  ([優先順序) 。](assign-policies-users-and-groups.md#group-assignment-ranking) [](assign-policies-users-and-groups.md#precedence-rules) 請確認您閱讀並瞭解本文 (本文中關於指派給群組[](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)之) 中必須瞭解的概念。
 
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>將策略套件指派給系統管理中心的一組使用者
 
@@ -86,13 +86,13 @@ Teams中的策略套件是預先定義的策略和設定集合，您可以指派
 
 ### <a name="work-with-powershell"></a>使用 PowerShell
 
-#### <a name="get-the-teams-powershell-module"></a>取得 powerShell Teams模組
+#### <a name="get-the-teams-powershell-module"></a>取得 PowerShell Teams模組
 
 有關逐步指南，請參閱在[PowerShell Teams安裝](teams-powershell-install.md)。
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>將策略套件指派給一組使用者
 
-使用 [Grant-CsGroupPolicyPackageAssignment Cmdlet](https://docs.microsoft.com/powershell/module/teams/grant-csgrouppolicypackageassignment) 將策略套件指派給群組。 您可以使用物件識別碼、SIP 位址或電子郵件地址來指定群組。 當您指派策略套件時，請針對 (中) 類型指定[](assign-policies-users-and-groups.md#group-assignment-ranking)群組分派排名。
+使用 [Grant-CsGroupPolicyPackageAssignment Cmdlet](/powershell/module/teams/grant-csgrouppolicypackageassignment) 將策略套件指派給群組。 您可以使用物件識別碼、SIP 位址或電子郵件地址來指定群組。 當您指派策略套件時，請針對 (中) 類型指定[](assign-policies-users-and-groups.md#group-assignment-ranking)群組分派排名。
 
 在此範例中，我們將 Education_Teacher 策略套件指派給一個群組，其 TeamsAppSetupPolicy 和 TeamsMeetingBroadcastPolicy 的作業排名為 1，而 TeamsMeetingPolicy 的排名為 2。
 
@@ -102,13 +102,13 @@ Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79
 
 ## <a name="assign-a-policy-package-to-a-batch-of-users"></a>將策略套件指派給一批使用者
 
-使用批次策略套件指派，您可以一次指派一群組原則套件給大型使用者，而不需要使用腳本。 您可以使用 [New-CsBatchPolicyAssignmentOperation Cmdlet](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) 提交一批使用者和您想要指派的政策套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。 接著，您可以使用 [Get-CsBatchPolicyAssignmentOperation Cmdlet](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation) 來追蹤批次中作業的進度和狀態。
+使用批次策略套件指派，您可以一次指派一群組原則套件給大型使用者，而不需要使用腳本。 您可以使用 [New-CsBatchPolicyAssignmentOperation Cmdlet](/powershell/module/teams/new-csbatchpolicyassignmentoperation) 提交一批使用者和您想要指派的政策套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。 接著，您可以使用 [Get-CsBatchPolicyAssignmentOperation Cmdlet](/powershell/module/teams/get-csbatchpolicyassignmentoperation) 來追蹤批次中作業的進度和狀態。
 
 根據使用者的物件識別碼或會話初始通訊協定 (SIP) 位址。 使用者的 SIP 位址通常與 UPN 或電子郵件地址的使用者主體名稱 (相同) ，但這不是必要的。 如果使用者是使用 UPN 或電子郵件指定，但其值與 SIP 位址不同，則使用者的策略指派將會失敗。 如果批次包含重複的使用者，則重複專案將在處理前從批次中移除，而狀態只會提供給批次中的唯一使用者。
 
 批次最多包含 5，000 個使用者。 為了獲得最佳結果，一次不要提交多個批次。 在提交更多批次之前，允許批次完成處理。
 
-### <a name="use-the-teams-powershell-module"></a>使用 Teams PowerShell 模組
+### <a name="use-the-teams-powershell-module"></a>使用 PowerShell Teams模組
 
 執行下列操作，Microsoft Teams[安裝 PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模組 (如果您尚未安裝) 。 請確定您安裝版本 1.0.5 或更新版本。
 
@@ -126,7 +126,7 @@ Connect-MicrosoftTeams
 
 ### <a name="assign-policy-packages-to-a-batch-of-users"></a>指派策略套件給一批使用者
 
-在此範例中，我們使用 [New-CsBatchPolicyAssignmentOperation Cmdlet](https://docs.microsoft.com/powershell/module/teams/new-csbatchpolicyassignmentoperation) 將 Education_PrimaryStudent原則套件指派給一批使用者。
+在此範例中，我們使用 [New-CsBatchPolicyAssignmentOperation Cmdlet](/powershell/module/teams/new-csbatchpolicyassignmentoperation) 將 Education_PrimaryStudent原則套件指派給一批使用者。
 
 ```powershell
 New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4b6049816ab,user1@econtoso.com,user2@contoso.com -PackageName Education_PrimaryStudent
@@ -140,13 +140,13 @@ New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-如果輸出顯示發生錯誤，請執行下列操作以取得有關錯誤的詳細資訊，這些資訊會顯示在 ```UserState``` 屬性中。
+如果輸出顯示發生錯誤，請執行下列操作，以取得有關錯誤的詳細資訊 ，而錯誤則出現在 ```UserState``` 屬性中。
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
 ```
 
-若要深入瞭解，請參閱 [Get-CsBatchPolicyAssignmentOperation](https://docs.microsoft.com/powershell/module/teams/get-csbatchpolicyassignmentoperation)。
+若要深入瞭解，請參閱 [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation)。
 
 ## <a name="related-topics"></a>相關主題
 

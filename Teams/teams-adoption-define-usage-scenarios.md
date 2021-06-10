@@ -1,5 +1,5 @@
 ---
-title: 定義 Microsoft 團隊的使用案例
+title: 定義適用于您的Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何針對小組採納的實驗階段，選擇最佳的使用方式。
+description: 瞭解如何選擇最適合您採用之實驗階段適用的使用Teams案例。
 f1.keywords:
 - CSH
 ms.custom:
@@ -28,48 +28,48 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49804593"
 ---
-# <a name="define-usage-scenarios-for-microsoft-teams"></a>定義 Microsoft 團隊的使用案例
+# <a name="define-usage-scenarios-for-microsoft-teams"></a>定義適用于您的Microsoft Teams
 
-請確定您已瞭解商務專案 (案例) ，這些案例將會在您實現的此階段的範圍內。 看看這個範例案例清單，這些案例是先期採用者程式的絕佳候選方案。 您可以從簡易的 wins 開始，例如：
+請確定您瞭解商務專案 (，) 此階段將適用于您的執行範圍。 請看看這份範例案例清單，這些案例是早期採用者計畫最適合的候選項目。 您可以開始使用簡單的勝局，例如：
 
 - 個人生產力
-- 現代專案管理
+- 現代化專案管理
 - 新式會議
 
 ![三種核心案例的圖例](media/teams-adoption-modernizing-core-scenarios.png)
 
 要考慮的其他案例包括：
 
-- 員工參與與通訊
-- 更快速地將行銷活動推向市場
-- 提高銷售效率並增加收入
-- 精簡業務考評
+- 員工互動與溝通
+- 更快速地將行銷活動上市
+- 提高銷售生產力並提升營收
+- 簡化商務評論
 
-![針對每個案例的小組使用案例圖例](media/teams-adoption-use-cases.png)
+![每個案例Teams使用案例的圖例](media/teams-adoption-use-cases.png)
 
-您可以將此案例看作是一種累加的處理方式，透過這項新的工作方式來建立更基本的案例，以建立熱忱、熟練性和可信度。 然後移至更 ambitious 的影響區域。 隨著 Microsoft 團隊對您的業務同事的影響，我們將會建立更多與發展的相關專案。 對於許多客戶來說，當他們收到此程式後，我們會發現該業務專案關係人在瞭解他們的同事從 Microsoft 團隊取得價值之後的做法。
+將此案例現代化動作想像為累加的過程，讓事情以更基本的情況進行，以這個新的工作方式建立熱忱、熟悉度與可信度。 接著，移至更具有影響力的更具有影響力的區域。 隨著對Microsoft Teams的更多影響向商務同事示範，他們中的更多人將會參與，而動力將會建立。 對於我們的許多客戶來說，一旦完成此程式之後，他們發現業務關係人瞭解同事如何從公司獲得Microsoft Teams。
 
-## <a name="interview-business-stakeholders"></a>採訪業務關係人
+## <a name="interview-business-stakeholders"></a>面試商務專案關係人
 
-若要確認選取這些早期專案，我們建議直接使用您在此程式中先前所辨識的專案關係人來召開會議。 您目前的目標是聆聽並瞭解其業務的其他相關資訊。 請考慮下列問題來驅動交談：
+若要確認這些早期專案的選取範圍，我們建議您直接與您在此程式先前識別的利害關係人開會。 此時，您的目標就是聆聽並瞭解其業務的其他資訊。 請考慮下列問題來推動交談：
 
-- 貴組織的一些挑戰或與共同作業相關的痛點為何？
-- 貴組織想要改善哪些區域？
-- 團隊可以支援哪些組織的戰略方案或目前的轉換專案？
-- 貴組織與其他人相比，哪些通訊與共同作業的方法通常會更符合您的能力？
-- 起草、散佈及共用資訊的程式為何？
+- 組織與通訊和共同合作相關的一些挑戰或痛點是什麼？
+- 貴組織希望改善哪些領域？
+- 組織可以支援哪些策略性計畫或目前的Teams專案？
+- 貴組織通常會比其他人更接受哪些通訊和共同合作方法？
+- 草擬、發佈及共用資訊的流程是什麼？
 
-## <a name="map-and-prioritize-business-scenarios"></a>地圖並排定商務案例的優先順序
+## <a name="map-and-prioritize-business-scenarios"></a>繪製商務案例並排定優先順序
 
-若要確定您擁有商務案例的正確資訊，請考慮使用下列格式，從員工完成工作與流程的公司擁有者的觀點來記錄方案。 需要使用這兩個角度來手工建立成功的路徑。
+若要確定您擁有正確的商務案例資訊，請考慮從完成工作的員工和流程的企業擁有者的角度，使用下列格式來記錄案例。 這兩種觀點都是打造成功前進之路的必由之路。
 
-![識別案例的架構圖例](media/teams-adoption-identify-scenarios.png)
+![識別案例之架構的圖例](media/teams-adoption-identify-scenarios.png)
 
-在對一或多個商務專案關係人講話之後，您可以根據影響與難點來排定案例的優先順序。  (您的案例可能是您上述所建議的案例。針對您的實驗階段 ) 適當的候選人，會有較高的影響和中等難度。 這可確保您的專案不會受到範圍蔓延或技術問題影響，您就可以顯示工作的價值。 圖範例如下所示。
+與一或多個業務關係人討論之後，您可以根據影響與難度來排列案例的優先順序。  (您的案例可能是上述建議案例之外。) 實驗階段的適當候選者應具有較高的影響，以及低至中難度。 這可確保專案不會受到範圍緩慢或技術困難的影響，您才能顯示工作的價值。 範例圖表如下所示。
 
-![顯示案例影響與難點的圖例](media/teams-adoption-impact-difficulty.png)
+![顯示案例影響與難度的圖例](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> 我們總是渴望瞭解我們的客戶如何以新的創新方式使用團隊。 在我們的 [推動採納研討論壇](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)中與我們分享您的 #TeamsStories。 在您的文章中加入 [井號] **#TeamsStories** 。 我們一直都對您在組織中使用團隊的方式感興趣。
+> 我們一直希望瞭解我們的客戶如何使用Teams創新的方式使用。 在我們的駕駛#TeamsStories論壇中與我們 [分享您的建議](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)。 在 **文章#TeamsStories雜湊** 標記。 我們一直對貴組織使用Teams感興趣。
 
-![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [內 [建先行的](teams-adoption-onboard-early-adopters.md)使用中] 和 [收集意見反應]。
+![代表下一個步驟的 ](media/teams-adoption-next-icon.png) 圖示下一步：[加入早期採用者並收集意見。](teams-adoption-onboard-early-adopters.md)

@@ -16,18 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc85b682ee24b466514e297532dc9ac0deb56924
-ms.sourcegitcommit: 1db39fde090809d9abc6d7346dda55814d88993a
-ms.translationtype: HT
+ms.openlocfilehash: 5f7c4e9a827aad18593ee530272bedc8595bc9db
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/23/2020
-ms.locfileid: "48739281"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856082"
 ---
-<a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中指派 Teams 擁有者和成員
-=================================================
-
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+# <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中指派 Teams 擁有者和成員
 
 Microsoft Teams 內有兩個使用者角色：**擁有者** 和 **成員**。 根據預設，建立新小組的使用者會取得擁有者狀態。 此外，則小組擁有者和成員都可以有頻道的仲裁者功能 (如果已設定仲裁功能)。 如果小組是從現有的 Microsoft 365 群組建立的，則會繼承權限。
 
@@ -43,9 +39,9 @@ Microsoft Teams 內有兩個使用者角色：**擁有者** 和 **成員**。 �
 |          **添加標準通道**          |    是     |    是<sup>2</sup>|
 | **編輯標準頻道名稱/描述** |    是     |    是<sup>2</sup>|
 |        **刪除標準通道**         |    是     |    是<sup>2</sup>|
-|          **_新增私人頻道_*          |    是     |    是<sup>2</sup>|
-| **_編輯私人頻道名稱/描述_* |    否     |    不適用|
-|        **_刪除私人頻道_*         |    是     |    否|
+|          ***新增私人頻道**          |    是     |    是<sup>2</sup>|
+| ***編輯私人頻道名稱/描述** |    否     |    不適用|
+|        ***刪除私人頻道**         |    是     |    否|
 |          **新增成員**          |  是<sup>3</sup>   |     否<sup>4</sup>    |
 |          **要求新增成員**          |  不適用   |     是<sup>5</sup>     |
 |           **新增應用程式**            |    是     |    是<sup>2</sup>|
@@ -76,9 +72,3 @@ Microsoft Teams 內有兩個使用者角色：**擁有者** 和 **成員**。 �
 ## <a name="permissions-to-create-teams"></a>建立小組的權限
 
 根據預設，在 Exchange Online 中具有郵箱的所有使用者都有權建立 Microsoft 365 群組，因此有權在 Microsoft Teams 中建立小組。 透過將群組建立和管理權限委派給一組使用者，您可以更嚴格地控制和限制新小組的建立，從而建立新的 Microsoft 365 群組。 如需詳細指示，請參閱[管理能建立 Microsoft 365 群組的使用者](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)。
-
-
-|圖示|標題|描述|
-|---------|---------|---------|
-| ![表示決策點的圖示](media/Assign_roles_and_permissions_in_Microsoft_Teams_image2.png)     |決策點         |所有 Microsoft Teams 使用者都能建立 Teams 嗎 (建議)?         |
-| ![表示後續步驟的圖示](media/Assign_roles_and_permissions_in_Microsoft_Teams_image3.png)    |後續步驟         |如果需要限制可以建立小組的人員，請修改可以建立 Microsoft 365 群組的使用者的預設權限         |

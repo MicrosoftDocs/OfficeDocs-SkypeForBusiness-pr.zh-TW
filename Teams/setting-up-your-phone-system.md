@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: 逐步指南詳細說明如何在 Microsoft 365 或 Office 365 中設定貴組織的電話系統 (雲端 PBX) 。
+description: 逐步指南詳述如何在 電話系統 (或) 中為貴組織Microsoft 365雲端 PBX Office 365。
 ms.openlocfilehash: c00b628716a54adcb19c3dd1f00e8e9e2b6f4c40
 ms.sourcegitcommit: 380a96f1ed2cefb429286854f06546bdb28d7d74
 ms.translationtype: MT
@@ -31,121 +31,121 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 12/17/2020
 ms.locfileid: "49701211"
 ---
-# <a name="set-up-phone-system-in-your-organization"></a>在組織中設定電話系統
+# <a name="set-up-phone-system-in-your-organization"></a>設定貴組織的 [電話系統]
 
-以下是在 Microsoft 365 或 Office 365 中設定電話系統的逐步指南。 在每個步驟的結尾，都提供其他詳細資訊的連結。
+以下是在 電話系統 或 Microsoft 365 中設定Microsoft 365逐步Office 365。 其他詳細資訊的連結可在每個步驟的結尾提供。
 
-## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>步驟1：確認您的國家或地區有可用的電話系統
+## <a name="step-1-make-sure-that-phone-system-is-available-in-your-country-or-region"></a>步驟 1：確定電話系統國家/地區提供
 
-1.    首先，請移至 [適用于音訊會議與通話方案的國家和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，然後從頁面頂端的清單中選取您的國家或地區。 
-2.    在 [ **電話系統**] 下，查看功能清單及詳細資料。 
-3.    如果有可用的電話系統，請移至步驟2。 
+1.    首先前往 [音訊](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)會議與通話方案的國家/地區可用性，然後從頁面頂端的清單選取您的國家/地區。 
+2.    在 **電話系統** 下，查看功能與詳細資料清單。 
+3.    如果電話系統，請前往步驟 2。 
 
-## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>步驟2：購買並指派電話系統和通話方案授權
+## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>步驟 2：購買並指派電話系統通話方案授權
 
-若要將電話系統和通話方案授權指派給單一使用者，這些步驟與指派 Microsoft 365 或 Office 365 授權是一樣的。  您也可以大量指派授權給多位使用者。 如需詳細資訊，請參閱 [指派 Microsoft 團隊附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+若要指派電話系統通話方案授權給單一使用者，步驟與指派授權Microsoft 365或Office 365相同。  您也可以大量指派授權給多個使用者。 若要詳細資訊，請參閱指派[Microsoft Teams附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
-如果通話方案不適用於您的國家或地區，請考慮使用直接路由將您的內部部署電話結構連線至 [電話系統]。  如需詳細資訊，請參閱 [手機系統 Direct 路由](direct-routing-landing-page.md)。
+如果您的國家/地區無法使用通話方案，請考慮使用直接路由將您的內部部署電話基礎結構電話系統。  詳細資訊請參閱直接路由[電話系統。](direct-routing-landing-page.md)
 
-## <a name="step-3-get-phone-numbers-for-your-users"></a>步驟3：為您的使用者取得電話號碼
+## <a name="step-3-get-phone-numbers-for-your-users"></a>步驟 3：取得使用者的電話號碼
 
-您必須先取得電話號碼，才能將貴組織中的使用者設定為撥打及接聽電話。
+在您可以設定貴組織中使用者撥打和接聽電話之前，您必須先取得他們的電話號碼。
 
-您有三種方式可取得使用者的號碼：
-- 使用小組系統管理中心取得新數位。
-- 取得小組系統管理中心無法使用的新號碼。
-- 從目前的服務提供者或電話轉接至 Microsoft 365 或 Office 365，將您現有的號碼從目前的服務提供者或電話轉接至
+您擁有三種為使用者取得數位的方法：
+- 使用系統管理中心取得Teams號碼。
+- 取得系統管理中心Teams號碼。
+- 將現有的號碼從目前的服務提供者或電話電信公司移轉或移轉Microsoft 365或Office 365。
 
-您必須使用 [ **新增號碼** ] 頁面來查看、搜尋、取得及保留這些號碼。 您可以依 [國家/地區]、[省/市] 及 [城市] 進行搜尋，然後輸入使用者所需的電話號碼數量。
+您必須使用新增 **數位** 頁面來查看、搜尋、取得及保留這些數位。 您可以根據國家/地區、省/市和縣/市進行搜尋，然後輸入使用者所需的電話號碼數目。
 
-### <a name="get-new-user-phone-numbers-using-the-teams-admin-center"></a>使用團隊系統管理中心取得新使用者的電話號碼
+### <a name="get-new-user-phone-numbers-using-the-teams-admin-center"></a>使用系統管理中心取得Teams電話號碼
 
-1. 使用您的公司或學校帳戶登入 Microsoft 365。
+1. 使用公司Microsoft 365學校帳戶來登錄。
 
-2. 移至 [ **團隊系統管理中心**]。
+2. 請前往 **Teams 系統管理中心**。
     
-3. 在左導覽中，前往 [**語音**  >  **電話號碼**]，按一下 [**新增**]，然後依照提示進行。
+3. 在左側流覽中，前往 **[** 語音電話  >  數位，按一下 **[新增**，然後按照提示操作。
     
-### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>取得團隊系統管理中心無法使用的新號碼
+### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>取得系統管理中心Teams號碼
   
-有時候 (視您的國家/地區而定，) 您無法使用 [團隊系統管理中心] 來取得新號碼。 在這種情況下，您必須下載表單並將它傳送給我們。 若要瞭解如何要求新的使用者編號，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。   
+有時候 (視您的國家/地區/地區) 您將無法使用系統管理中心取得Teams號碼。 在這種情況下，您必須下載表單並傳送回給我們。 若要瞭解如何要求新的使用者號碼，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。   
   
-### <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>從服務提供者或電話載波傳送埠或轉移電話號碼
+### <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>從服務提供者或電話電信公司移轉或移轉電話號碼
   
-- 如果您需要999或更少的使用者電話號碼，您可以使用 [小組系統管理中心] 中的 [ **新的當地號碼埠順序** ] 嚮導。 遵循將 [電話號碼轉接給小組](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) ，以轉接您的電話號碼中找到的步驟。
+- 如果您需要使用者的電話號碼少於 999 個，您可以在系統管理中心使用新的當地號碼Teams精靈。 請遵循將電話號碼轉接至[Teams以轉接](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)電話號碼。
     
-- 如果您需要端口超過999的電話號碼，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 以提交埠訂單服務要求或訂單。 
+- 如果您需要端口超過 999 個電話號碼，請參閱管理貴[](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)組織的電話號碼，以提交埠訂單服務要求或訂單。 
 
-如需取得新電話號碼或轉移現有號碼的詳細資訊，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+有關取得新電話號碼或傳輸現有號碼的詳細資訊，請參閱管理 [貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-## <a name="step-4-get-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>步驟4：取得服務電話號碼 (音訊會議、通話佇列、自動語音應答) 
+## <a name="step-4-get-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>步驟 4：取得服務電話號碼 (音訊會議、通話佇列、自動語音) 
 
-除了從 Microsoft 365 或 Office 365 取得使用者的電話號碼之外，您還可以搜尋並取得付費或免付費電話號碼（例如會議橋接的音訊會議 () 、自動語音應答及通話佇列）。 服務電話號碼的並行通話容量比使用者或訂閱者電話號碼要高。 例如，服務號碼可以同時處理數百個通話，而使用者的電話號碼只能同時處理幾個通話。
+除了從 Microsoft 365 或 Office 365 取得使用者的電話號碼之外，您還可以搜尋及取得電話或免付費電話號碼，以取得會議橋接器 (、自動語音服務及通話佇列等服務 () 。 服務電話號碼的並行通話容量高於使用者或訂閱者電話號碼。 例如，服務號碼可以同時處理數百個通話，而使用者的電話號碼只能同時處理幾個通話。
 
-### <a name="get-new-service-numbers-using-the-teams-admin-center"></a>使用團隊系統管理中心取得新的服務號碼
+### <a name="get-new-service-numbers-using-the-teams-admin-center"></a>使用系統管理中心取得Teams號碼
 
 
-1. 使用您的公司或學校帳戶登入。
+1. 使用公司或學校帳戶來登錄。
 
-2. 移至 [ **團隊系統管理中心**]。
+2. 請前往 **Teams 系統管理中心**。
 
-3. 在左側流覽窗格中，移至 [**語音**  >  **電話號碼**]  >  ，**新增號碼**，然後按一下 [新的 **服務號碼**]。
+3. 在左側流覽窗格中，前往 **[** 語音電話  >    >  **號碼 新增號碼**，然後按一下 [**新增服務號碼**> 。
 
     > [!IMPORTANT]
-    > 若要在 [團隊管理中心] 的左導覽窗格中看到 [ **語音** ] 選項，您必須先購買至少一個 **企業版 E5 授權**、一個 **電話系統** 附加元件授權或一個 **音訊會議** 附加元件授權。
+    > 若要在 Teams系統管理中心的左側流覽窗格中看到語音選項，您必須先購買至少一個 **Enterprise E5** 授權、一個 **電話系統** 附加元件授權或一個音訊會議附加元件授權。 
 
-### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>取得團隊系統管理中心無法使用的新號碼
+### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>取得系統管理中心Teams號碼
   
-有時候 (視您的國家/地區而定，) 您無法使用 [團隊系統管理中心] 來取得新號碼。 在這種情況下，您將需要下載表單並將它傳送給我們。 若要瞭解如何要求新號碼，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
+有時候 (視您的國家/地區/地區) 您將無法使用系統管理中心取得Teams號碼。 在這種情況下，您必須下載表單並傳送回給我們。 若要瞭解如何要求新號碼，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
 
-### <a name="port-or-transfer-existing-service-numbers"></a>移植或轉移現有的服務號碼
+### <a name="port-or-transfer-existing-service-numbers"></a>移轉或移轉現有的服務號碼
 
-如果您想要從目前的服務提供者或承運人傳送服務號碼，您必須手動將埠訂單提交給 Microsoft。 您必須針對每一種類型的服務號碼（ (付費）提交不同的埠順序， (LOA) 的免費) 。 在授權 (LOA) 中，您必須選取正確的服務號碼類型。 當您聯繫 Microsoft 支援時，請指定您要轉移服務號碼 (*，而不是使用者或訂閱者號碼*) ，或併發通話容量可能不足以處理通話量。 如果您想要使用電話號碼傳送電話號碼或進行其他動作，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+如果您想要從目前的服務提供者或電信公司移轉服務號碼，您必須手動提交移轉訂單給 Microsoft。 您必須針對每種類型的服務號碼提交個別的移轉訂單 (收費與免付費) 您將使用授權書或 LOA (進行) 。 在授權書 (LOA) ，您必須選取正確的服務號碼類型。 與 Microsoft 支援服務聯繫時，請指定您傳輸的是服務號碼 (而非使用者或訂閱 *者號碼*) ，或是同時通話容量可能不足以處理通話量。 如果您想要傳輸電話號碼或使用電話號碼執行其他工作，請參閱管理 [貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-## <a name="step-5-if-you-want-to-set-up-calling-plans"></a>步驟5：如果您要設定通話方案
+## <a name="step-5-if-you-want-to-set-up-calling-plans"></a>步驟 5：如果您想要設定通話方案
 
-如果您已按照上述步驟進行，就表示您已購買並指派電話系統和授權，以及通話方案 (步驟 2) 與 (步驟 3) 的使用者取得的電話號碼，因此您的通話方案已部分設定。 若要完成設定通話方案的程式，請參閱 [設定通話方案](set-up-calling-plans.md)。
-
-
-## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>步驟6：如果您想要設定音訊會議
-
-貴組織內的人員有時會需要透過電話來加入會議。 Microsoft 團隊包括音訊會議功能，只適用于這種情況。 使用者可以使用電話撥入團隊會議，而不是在行動裝置或電腦上使用 [小組] 應用程式。
-如需如何設定音訊會議的詳細資訊，請參閱 [設定適用于小組的音訊會議](set-up-audio-conferencing-in-teams.md)。
-
-## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>步驟7：如果您想要設定雲端通話佇列
-
-雲端通話佇列包括某人撥入您組織的電話號碼時所使用的問候語、自動保留通話的功能，以及搜尋下一個可用的呼叫代理程式，以處理通話，而呼叫者正在聆聽音樂的人員。 您可以為組織建立單一或多個通話佇列。
-
-如需通話佇列的詳細資訊，請參閱 [建立雲端通話佇列](create-a-phone-system-call-queue.md)。
-
-## <a name="step-8-if-you-want-to-set-up-a-cloud-auto-attendant"></a>步驟8：如果您想要設定雲端自動助理
-
-自動語音應答讓撥入您組織的人員，並流覽功能表系統，以取得正確的部門、呼叫佇列、人員或接線員。 您可以使用小組系統管理中心，為您的組織建立自動語音應答。
-
-如需設定雲端自動 attendendant 的相關資訊，請參閱 [設定雲端自動](create-a-phone-system-auto-attendant.md)語音應答。
+如果您一直遵循上述步驟，表示您已經購買並指派 電話系統 和授權，以及您的使用者的通話方案 (步驟 2) ，並取得使用者的電話號碼 (步驟 3) ，因此您的通話方案已部分設定。 若要完成設定通話方案的程式，請參閱 [設定通話方案](set-up-calling-plans.md)。
 
 
-## <a name="step-9-assign-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>步驟9：指派服務電話號碼 (音訊會議、通話佇列、自動語音應答) 
+## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>步驟 6：如果您想要設定音訊會議
 
-從 **上述步驟 4** 獲得您的服務號碼之後，您必須將他們指派給您想要的每一種類型的服務。 例如，如果您想要將專用服務電話號碼 (付費或免付費) ，您必須將號碼指派給會議橋。
+貴組織內的人員有時會需要透過電話來加入會議。 Microsoft Teams音訊會議功能， 使用者可以使用電話Teams會議，而不是在行動裝置Teams或 PC 上使用 Teams應用程式。
+若要瞭解如何設定音訊會議，請參閱設定音訊會議[Teams。](set-up-audio-conferencing-in-teams.md)
 
-- 對於音訊會議，您可以移至 [**團隊管理中心**  >  **會議**]  >  **橋**，然後依照提示，將專用號碼指派給會議橋。  如需詳細資訊，請參閱  [在音訊會議橋中變更付費或免付費電話號碼](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
+## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>步驟 7：如果您想要設定雲端通話佇列
 
-- 針對自動語音應答，您可以移至 [**小組系統管理中心** 語音自動語音應答]，將專用號碼指派給自動語音應答，  >    >  然後依照提示進行。  如需詳細資訊，請參閱 [設定雲端自動](create-a-phone-system-auto-attendant.md)語音應答。
+雲端通話佇列包括當某人來電到貴組織的電話號碼時所使用的問候語、自動保留通話的能力，以及搜尋下一個可用的通話代理程式來處理通話，而通話者正在聆聽保留的音樂。 您可以為貴組織建立單一或多個通話佇列。
 
-- 如果是通話佇列，您可以移至 [**小組系統管理中心**  >  **語音** 通話] 佇列，將專用號碼指派給呼叫佇列，  >  然後依照提示進行。 如需詳細資訊，請參閱 [建立雲端通話佇列](create-a-phone-system-call-queue.md)。
+有關通話佇列詳細資訊，請參閱 [建立雲端通話佇列](create-a-phone-system-call-queue.md)。
 
-如需取得新服務號碼和移植現有服務號碼的詳細資訊，請參閱 [取得服務電話號碼](getting-service-phone-numbers.md)。
+## <a name="step-8-if-you-want-to-set-up-a-cloud-auto-attendant"></a>步驟 8：如果您想要設定雲端自動總機
 
-## <a name="step-10-set-up-communications-credits-for-your-organization"></a>步驟10：為您的組織設定通訊點數
+自動電話機會讓來電到貴組織的人，並流覽功能表系統，讓他們到正確的部門、通話佇列、人員或接線生。 您可以使用系統管理中心，為組織建立Teams機。
 
-如果您想要將免付費電話號碼與 Microsoft 團隊搭配使用，您必須設定通訊點數。 Microsoft 建議您為通話方案設定通訊點數， (國內或國際) ，以及需要撥出至任何目的地的語音會議使用者。 包含許多國家/地區，但某些目的地可能不會包含在您的通話方案或音訊會議訂閱中。 
+有關設定雲端自動出席者的資訊，請參閱 [設定雲端自動出席者](create-a-phone-system-auto-attendant.md)。
 
-如果您沒有設定通訊信用帳單，並將 **通訊點數** 授權指派給您的使用者，而您在您的國家/地區) 的通話方案或音訊會議方案中，您的組織 (，這些使用者將無法撥打音訊會議或撥出會議。 如需詳細資訊（包括建議的融資金額），請參閱 [什麼是通訊信用？](what-are-communications-credits.md) ，並 [為您的組織設定通訊點數](set-up-communications-credits-for-your-organization.md)。
+
+## <a name="step-9-assign-service-phone-numbers-audio-conferencing-call-queues-auto-attendants"></a>步驟 9：指派服務電話號碼 (音訊會議、通話佇列、自動語音) 
+
+一旦從上述步驟 **4** 獲得您的服務號碼後，您需要將號碼指派給您想要的每一種服務類型。 例如，如果您想要專用服務電話號碼 (付費或免付費) ，您必須將號碼指派給會議橋接器。
+
+- 針對音訊會議，您可以到系統管理中心會議橋接器，Teams會議橋接器並遵循提示，將專用號碼指派給會議  >    >  橋接器。  詳細資訊，請參閱變更音訊會議橋接器上的付費或免  [付費號碼](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)。
+
+- 針對自動語音留言，您可以到系統管理中心語音自動語音Teams，然後按照提示，將專用號碼指派給自動語音  >    >  機。  詳細資訊，請參閱 [設定雲端自動助理](create-a-phone-system-auto-attendant.md)。
+
+- 針對通話佇列，您可以指定專用號碼給通話佇列 **，Teams** 系統管理中心語音通話佇列，然後按照  >    >  提示操作。 詳細資訊，請參閱 [建立雲端通話佇列](create-a-phone-system-call-queue.md)。
+
+有關取得新服務號碼及移植現有服務號碼的詳細資訊，請參閱取得 [服務電話號碼](getting-service-phone-numbers.md)。
+
+## <a name="step-10-set-up-communications-credits-for-your-organization"></a>步驟 10：為貴組織設定通訊信用額度
+
+如果您想要將免付費號碼與 Microsoft Teams一起使用，您必須設定通訊信用額度。 Microsoft 建議您為需要撥出到任何目的地之 (國內或國際電話) 音訊會議使用者設定通訊信用額度。 包含許多國家/地區，但部分目的地可能不包含在通話方案或音訊會議訂閱中。 
+
+如果您沒有設定通訊信用額度帳單，並指派通訊信用額度授權給使用者，而貴組織的通話分鐘數 (取決於您的國家/地區) 中的通話方案或音訊會議方案，這些使用者將無法撥打電話或撥出音訊會議。 有關詳細資訊 ，包括建議的基金金額，請參閱 [什麼是通訊信用額度？](what-are-communications-credits.md) 以及為貴組織設定通訊 [信用額度](set-up-communications-credits-for-your-organization.md)。
   
 
 ## <a name="related-topics"></a>相關主題
-[以下是您在 Microsoft 365 或 Office 365 中的電話系統所取得的結果](here-s-what-you-get-with-phone-system.md)
+[以下是在 電話系統 或 Microsoft 365 中Office 365](here-s-what-you-get-with-phone-system.md)
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 

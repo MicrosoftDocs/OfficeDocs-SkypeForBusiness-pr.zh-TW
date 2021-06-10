@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于白俄羅斯的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+description: 以下是適用于白俄羅斯Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
 ms.openlocfilehash: 33b6e7c0048c20a0a512abdf106b301d62d297e1
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51118372"
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于白俄羅斯的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+以下是適用于白俄羅斯Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -44,7 +44,7 @@ ms.locfileid: "51118372"
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |是 [，僅按分鐘](../audio-conferencing-pay-per-minute.md) 付費 <br/> |
 |是否會自動為音訊會議指派電話號碼？  <br/> |否  <br/> |
-|使用 [語音來電] 功能的撥出功能  <br/> |提供通訊信用額度每分鐘付款  <br/> |
+|使用 [語音來電] 功能的撥出功能  <br/> |使用通訊信用額度每分鐘付款  <br/> |
    
 ## <a name="phone-system"></a>電話系統
 

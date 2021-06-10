@@ -24,7 +24,7 @@ ms.locfileid: "52238969"
 
 本文將說明如何使用 PowerShell Microsoft Teams管理Teams商務用 Skype。 
 
-請結合[Cmdlet Microsoft Teams和 Cmdlet 參照](/powershell/teams/?view=teams-ps)商務用 Skype[本指南](/powershell/skype/intro?view=skype-ps)。
+使用本指南與[Cmdlet](/powershell/teams/?view=teams-ps) Microsoft Teams及[Cmdlet 商務用 Skype一起使用](/powershell/skype/intro?view=skype-ps)。
 
 ## <a name="create-and-manage-teams-using-powershell"></a>使用 PowerShell 建立及管理團隊
 
@@ -52,7 +52,7 @@ New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for 
 - **GET** 命令 (例如) ：會返回可供您指派在貴組織中使用的政策檔，包括 Microsoft 建立供您使用的政策，以及您建立之自訂策略。 ``Get-CsTeamsMeetingPolicy``
    - 若要只尋找您于組織中建立自訂策略，請使用 ``-Filter "tag:*"`` 。
 
-- **新的** (例如) ：為貴組織建立新策略，以指派 ``New-CsTeamsMeetingPolicy`` 給貴組織的使用者。 並非所有策略都支援建立自訂策略。 這通常是為了確保貴組織使用的政策具有支援的設定組合。
+- **新的** (例如) ：為貴組織建立新策略，以指派 ``New-CsTeamsMeetingPolicy`` 給貴組織的使用者。 並非所有策略都支援建立自訂策略。 這通常是為了確保貴組織使用的策略具有支援的設定組合。
 
 - **SET** 命令 (例如 ``Set-CsTeamsMeetingPolicy`` ，) ：設定特定策略上的特定值。 有些策略沒有 SET 命令可用，或包含無法自訂于該策略的參數。 PowerShell 描述會告訴您哪些參數無法自訂。 
    - 若要編輯預設會指派給組織中未指派自訂策略的使用者的策略，請執行 ``Set-Cs<PolicyName> -Identity Global`` 。
@@ -68,7 +68,7 @@ New-Team -DisplayName "Contoso Marketing" -Description "Collaboration space for 
 
 常用參數：
 
-- **身分** 識別： ``Get-`` 針對 ``Set-`` 、 ``New-`` 和 ``Remove-`` **，Identity** 參數一定會參照特定的策略實例。 針對 ``Grant`` **，Identity** 參數會參照要採用原則的特定使用者物件。
+- **身分** 識別： ``Get-`` 對於 ``Set-`` 、 ``New-`` 和 ``Remove-`` **，Identity** 參數一定會參照特定的策略實例。 針對 ``Grant`` ， **身分識別** 參數是指要採用原則的特定使用者物件。
 
 ## <a name="manage-configurations-via-powershell"></a>透過 PowerShell 管理配置
 

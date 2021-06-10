@@ -8,7 +8,7 @@ audience: ITPro
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: 說明雲端自動回應和通話佇列，並說明如何在 Teams 中接聽這些通話。
+description: 說明雲端自動回應和通話佇列，並說明如何在 Teams 中接聽這些Teams。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -19,27 +19,26 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cca068ab1194a48eb775550e4bf3f99826d82d2a
-ms.sourcegitcommit: b8c4536db4ce9ea682e247d6c8ee7019b08462f8
+ms.openlocfilehash: 3e1656af8ee457cb4c112d229c2dee03d2590ece
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2021
-ms.locfileid: "50874663"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856372"
 ---
-<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接從 Teams 回答自動語音應答和通話佇列的通話
-===========================================================
+# <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接從 Teams 回答自動語音應答和通話佇列的通話
 
-Teams 使用者可以直接從 Teams 用戶端接收和接聽來自雲端自動回應和通話佇列的通話。
+Teams使用者可以直接從他們的用戶端接收和接聽來自雲端自動回應和通話Teams通話。
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>什麼是自動電話機和通話佇列？
 
-雲端自動語音回應會提供一系列語音提示或音訊檔案，讓來電者在來電到組織時，聽到這些語音提示或音訊檔案，而不是由接線生聽到。 自動語音機可讓來電者使用電話鍵台 (DTMF) 語音輸入，在功能表系統之間移動、撥打電話或尋找使用者。
+雲端自動語音留言提供一系列語音提示或音訊檔案，讓來電者在來電到組織時聽到這些語音提示或音訊檔案，而不是由接線生聽到。 自動語音機可讓來電者使用電話鍵台 (DTMF) 語音輸入，在功能表系統之間移動、撥打電話或尋找使用者。
 
 雲端通話佇列包括當某人來電到貴組織的電話號碼時所使用的問候語、自動保留通話的能力，以及搜尋下一個可用的通話代理程式來處理通話，而通話者正在聆聽保留的音樂。 您可以為貴組織建立單一或多個通話佇列。
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>處理自動電話機或通話佇列通話
 
-在接聽來電之前，使用者將能夠將來電與自動回應或通話佇列區別。 除了來電者的名稱和/或號碼外，每一個通話都會包含來電者嘗試與誰聯繫的資訊，為使用者提供更好的內容來稱呼來電者。
+在接聽來電之前，使用者將能夠區分來電與自動回應或通話佇列。 除了來電者的名稱和/或號碼外，每一個通話都會包含來電者嘗試與誰聯繫的資訊，為使用者提供更好的內容來稱呼來電者。
 
 下圖顯示來自自動電話機或通話佇列的來電會如何顯示給使用者。
 
@@ -56,14 +55,14 @@ Teams 使用者可以直接從 Teams 用戶端接收和接聽來自雲端自動�
 
 下列用戶端支援自動通話和通話佇列通話：
 
--    Microsoft Teams Windows 用戶端 (32 位和 64 位版本) 
--    Microsoft Teams Mac 用戶端
--    Microsoft Teams iPhone 應用程式
--    Microsoft Teams Android 應用程式
+-    Microsoft Teams Windows 32 (64 位版本的用戶端) 
+-    Microsoft TeamsMac 用戶端
+-    Microsoft Teams iPhone應用程式
+-    Microsoft TeamsAndroid 應用程式
 
-## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>設定 Microsoft Teams 的自動電話機和通話佇列支援
+## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>設定自動電話機和通話佇列支援Microsoft Teams
 
-若要在 Microsoft Teams 上接收自動通話和通話佇列通話，您必須設定互通性原則與升級原則。 請審查使用 Teams 與商務用 Skype 的組織 [移移及互通性](migration-interop-guidance-for-teams-with-skype.md)。 如果您沒有設定自動電話機和/或通話佇列，並想這麼做，請參閱設定雲端 [自動](create-a-phone-system-auto-attendant.md) 通話佇列和 [建立雲端通話佇列](create-a-phone-system-call-queue.md)。
+若要在電話上接聽自動Microsoft Teams通話佇列，您必須設定互通性原則及升級原則。 請針對使用 Teams 與 商務用 Skype[的組織，檢查移](migration-interop-guidance-for-teams-with-skype.md)商務用 Skype。 如果您沒有設定自動電話機和/或通話佇列，並想這麼做，請參閱設定雲端 [自動](create-a-phone-system-auto-attendant.md) 電話機和 [建立雲端通話佇列](create-a-phone-system-call-queue.md)。
 
 ## <a name="known-issues"></a>已知問題
 
@@ -72,7 +71,7 @@ Teams 使用者可以直接從 Teams 用戶端接收和接聽來自雲端自動�
 
 ## <a name="related-topics"></a>相關主題
 
--    [什麼是 Microsoft 365 或 Office 365 中的電話系統](what-is-phone-system-in-office-365.md)
+-    [電話系統或Microsoft 365 Office 365](what-is-phone-system-in-office-365.md)
 -    [建立雲端通話佇列](create-a-phone-system-call-queue.md)
 -    [什麼是雲端自動語音應答？](what-are-phone-system-auto-attendants.md)
 -    [設定雲端自動語音應答](create-a-phone-system-auto-attendant.md)

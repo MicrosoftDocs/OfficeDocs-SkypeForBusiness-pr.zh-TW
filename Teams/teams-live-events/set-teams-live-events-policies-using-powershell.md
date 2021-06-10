@@ -14,7 +14,7 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 如何使用 PowerShell 在 Teams 中設定策略以控制誰可以在貴組織中舉辦即時活動，以及活動可用的功能範例。
+description: 如何使用 PowerShell 在 Teams中設定策略的範例，以控制哪些人可以舉辦貴組織的即時活動，以及活動中可用的功能。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
@@ -25,9 +25,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51119142"
 ---
-# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams 中設定即時活動政策
+# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams
 
-您可以使用下列 Windows PowerShell Cmdlet 在 Teams 中設定和指派即時活動的政策設定： 
+您可以使用下列 Cmdlet Windows PowerShell，為即時活動設定及指派Teams： 
 - [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
@@ -37,12 +37,12 @@ ms.locfileid: "51119142"
 以下是一些範例。
 
 > [!NOTE]
-> 您必須先連線到商務用 Skype Online PowerShell，才能執行這些 Cmdlet。 詳細資訊，請參閱使用 [Microsoft 365 或 Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)管理商務用 Skype Online 。
+> 執行這些 Cmdlet 之前，您必須連線至 商務用 Skype PowerShell。 詳細資訊，請參閱使用[powerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)或 商務用 Skype 管理 Microsoft 365 Office 365 Online 。
 
 ## <a name="allow-users-to-schedule-live-events"></a>允許使用者排程即時活動 
 
 > [!NOTE]
-> 這些範例適用于 Teams 中產生的事件。 對於使用外部 App 或裝置產生的事件，您必須執行其他步驟。 若要取得詳細資訊，請參閱讓使用者排程使用外部 App 或裝置產生的 [事件](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。
+> 這些範例適用于在 Teams 中Teams。 對於使用外部 App 或裝置產生的事件，您必須執行其他步驟。 若要取得詳細資訊，請參閱讓使用者排程使用外部 App 或裝置產生的 [事件](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。
 
 **允許使用者排程即時活動**
 
@@ -130,7 +130,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 ```
 ## <a name="set-the-recording-option-for-live-events"></a>設定即時事件的錄製選項
 > [!NOTE]
-> 此設定僅適用于 Teams 中產生的事件。
+> 此設定僅適用于在 Teams 中Teams。
 
 設定全域原則以停用即時活動的錄製：
 ```PowerShell
@@ -138,7 +138,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 ```
 ## <a name="set-live-captions-and-subtitles-in-live-events"></a>在即時活動中設定即時字幕和字幕
 > [!NOTE]
-> 此設定僅適用于 Teams 中產生的事件。 
+> 此設定僅適用于在 Teams 中Teams。 
 
 設定全域原則，為活動出席者開啟即時 (字幕) 字幕：
 ```PowerShell

@@ -25,7 +25,7 @@ ms.locfileid: "52684601"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams監控和警示
 
-系統管理中心提供Microsoft Teams監控和提醒Teams功能。 使用系統管理中心中&通知>區段Teams提供的不同規則集，Teams功能並接收通知。 例如，您可以主動監控 ip 電話、共同Teams等裝置在意外離線時的健康情況。  
+系統管理中心提供Microsoft Teams監控和提醒Teams功能。 使用系統管理中心中&通知>區段Teams提供Teams規則集，以監控Teams功能並接收通知。 例如，您可以主動監控 ip 電話、共同Teams等裝置在意外離線時的健康情況。  
 
 貴組織可以使用Teams和警示功能執行下列專案：
 

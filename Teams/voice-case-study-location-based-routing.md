@@ -1,5 +1,5 @@
 ---
-title: 團隊語音 Contoso 案例研究
+title: Teams Contoso 案例研究
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 多國企業的小組語音案例研究
+description: Teams多國公司的語音案例研究
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f1ba92794b2ba17cc23e1bca55800c9307707636
@@ -23,46 +23,46 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 06/18/2020
 ms.locfileid: "44785968"
 ---
-# <a name="contoso-case-study-location-based-routing"></a>Contoso 案例研究：以位置為基礎的路由
+# <a name="contoso-case-study-location-based-routing"></a>Contoso 案例研究：Location-Based路由
 
-位置式路由（LBR）是一項功能，可根據原則與使用者在撥打電話或接聽電話時的物理位置來限制付費略過。  
+Location-Based路由 (LBR) 是一項功能，根據撥打或接收通話時，根據策略和使用者實際位置限制免付費。  
 
 ## <a name="overview"></a>概觀
 
-Contoso 在國家/地區中有兩個辦事處，在這種情況下，不能避開公開的交換電話網絡（PSTN）提供者來減少長途通話成本。 主要辦事處有一個由主要辦公室和第二個辦公室使用的網際網路連線。 每個辦公室都有自己的會話邊界控制器（SBC）連線至 PSTN 運營商。  
+Contoso 在一個國家/地區有兩個辦公室，而忽略公用交換電話網絡 (PSTN) ，以降低長途通話成本。 主辦公室有由主要辦公室和第二個辦公室使用的網際網路連接。 每個辦公室都有自己的會話邊界控制器 (SBC) PSTN 電信公司。  
  
-在此國家/地區，Contoso 已針對其商務用 Skype 部署設定 LBR。 若要決定如何設定團隊的 LBR，請按 Contoso 讀取[方案位置，直接傳送路由](location-based-routing-plan.md)。 Contoso 已決定在撥打電話時，小組和商務用 Skype 會在相同的案例中進行，當您收到來電時，可以將 PSTN 來電轉接給小組使用者，以及您可以將另一個小組使用者轉接至 PSTN 通話。  
+在這個國家/地區，Contoso 已針對他們的部署商務用 Skype LBR。 若要決定如何設定 LBR Teams，Contoso 請閱讀直接路由Location-Based[路由方案](location-based-routing-plan.md)。 Contoso 決定 Teams 和 商務用 Skype 在何時可以撥打、何時可以接收、PSTN 通話可以轉接給 Teams 使用者，以及何時可以將另一個 Teams 使用者轉接到 PSTN 通話時，遵循相同的案例。  
 
-在商務用 Skype 中，LBR 是使用會話邊界控制器（SBC） SIP 幹線（連接至 PSTN 載波）進行設定。 針對這個 SBC，Contoso 已檢查[經過驗證的 SBCs 清單](direct-routing-border-controllers.md)，並判斷已部署的 SBC 已認證以直接路由，但尚未針對媒體旁路進行認證。 若要支援 LBR，直接路由必須設定至 SBC 現場，必須是局域網出口，而 SBC 必須針對媒體旁路進行設定。 根據這項資訊，Contoso 決定下列事項：
+針對商務用 Skype，LBR 已使用會話邊界控制器 (SBC) SIP 主幹連接到 PSTN 電信電信公司。 針對此 SBC，Contoso 已審查認證 [SBC](direct-routing-border-controllers.md) 清單，並判定所部署的 SBC 已通過直接路由認證，但未通過媒體旁路認證。 若要支援 LBR，直接路由必須配置至 SBC 現場，需要有一個本地網際網路出口，而 SBC 必須針對媒體旁路進行配置。 根據這項資訊，Contoso 決定下列專案：
 
-- 若要推遲團隊 LBR 的啟用，直到現有的 SBC 驗證了媒體旁路。   
+- 若要延遲啟用 LBR Teams，直到現有 SBC 通過媒體旁路認證。   
 
-- Contoso 決定使用主要網站 SBC 來取得 Office 365 的直接路線。  主網站 SBC 將是遠端網站的 proxy SBC。  
+- Contoso 決定使用主要網站 SBC 進行直接路由Office 365。  主網站 SBC 是遠端網站的 Proxy SBC。  
 
-- Contoso 使用以印度為基礎的協力廠商顧問，協助 LBR 設定與國家/地區的電話公司進行認證。  
+- Contoso 使用印度的協力廠商顧問，協助國內電話公司進行 LBR 組組認證。  
 
-- 若要支援從辦公室以外的使用者進行 PSTN 通話，提供給員工的公司頒發的行動電話。 
+- 為了支援公司外部使用者撥打 PSTN 電話，公司已發行行動電話給員工。 
 
-下列圖表顯示符合需要以位置為基礎路由之電話規章之國家/地區的部署之前和之後的情況：
+下列圖表顯示國家/地區部署之前和之後，其電話法規需要Location-Based路由：
 
 **原始部署**
 
-![在狀態之前顯示的圖表](media/voice-case-study-5.png)
+![顯示狀態前圖表](media/voice-case-study-5.png)
 
 **使用直接路由進行部署**
 
-![在狀態之前顯示的圖表](media/voice-case-study-6.png)
+![顯示狀態前圖表](media/voice-case-study-6.png)
 
 
-## <a name="configuration"></a>Configuration 
+## <a name="configuration"></a>配置： 
 
-若要設定團隊中的網路元件，Contoso 按照[管理雲端語音功能之網路拓撲](manage-your-network-topology.md)中的指示進行。 Contoso 已完成下列步驟以設定以位置為基礎的路由： 
+若要在 Teams 中設定網路元件，Contoso 遵循管理雲端語音功能的網路拓撲[中的指示](manage-your-network-topology.md)。 Contoso 已完成下列設定路由Location-Based步驟： 
 
-- 定義網路區域-已定義一個網路區域。 
+- 定義網路區域 - 已定義一個網路區域。 
 
-- 定義網路網站-定義了兩個網路網站。 在區域中的每個辦公室位置都有一個網站。
+- 定義網路網站 - 已定義兩個網路網站。 針對地區中每個辦公室位置的一個網站。
 
-- 定義網路子網-辦公室位置中的每個樓層都有自己的有線和無線網路子網。 此設定會針對 Contoso 產生20個子網。 
+- 定義網路子網 - 辦公室位置內的每個樓層都有自己的有線和無線網路子網。 此組配置導致 Contoso 有 20 個子網。 
 
-- 定義信任的 IP 位址-SBC 的外部點對點 IP 位址已新增至信任的 IP 位址。  
+- 定義信任的 IP 位址 - SBC 的外部 IP 位址已新加到信任的 IP 位址。  
 

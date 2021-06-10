@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何更新應用程式中的應用程式Microsoft Teams。
+description: 瞭解如何更新 Microsoft Teams。
 ms.openlocfilehash: b39b831b644b19038b8f4574acf3e5bc5c50d73c
 ms.sourcegitcommit: 40f76bc6b5e304faea8516a78f8576ba1cdb7f7c
 ms.translationtype: MT
@@ -30,13 +30,13 @@ ms.locfileid: "52337821"
 在大多數情況下，應用程式開發人員發佈 App 更新後，新版本會自動顯示給使用者。 不過，系統對 Microsoft Teams<a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">清單</a>有一些更新需要使用者接受才能完成：
 
 * 已新增或移除 Bot
-* 現有 Bot 的「botId」屬性已變更
+* 現有 Bot 的 「botId」 屬性已變更
 * 已變更現有 Bot 的 "isNotificationOnly" 屬性
-* Bot 的「支援檔」屬性已變更
+* Bot 的「支援Files」屬性已變更
 * 已新增或移除訊息擴充功能
 * 已新增連接器
 * 已新增靜態定位停駐點
-* 已新增可配置的選項卡
+* 已新增可配置的 Tab
 * 「webApplicationInfo」中的屬性已變更
 
 ![提供新版本](media/manage-your-custom-apps-update1.png)
@@ -44,7 +44,7 @@ ms.locfileid: "52337821"
 ![應用程式的升級選項](media/manage-your-custom-apps-update2.png)
 
 > [!NOTE] 
-> 更新程式適用于 Microsoft App、自訂應用程式和協力廠商應用程式的所有應用程式更新。 
+> 更新程式適用于 Microsoft App、自訂應用程式和協力廠商應用程式的所有 App 更新。 
 
 ## <a name="related-topics"></a>相關主題
 

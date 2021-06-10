@@ -1,5 +1,5 @@
 ---
-title: 瞭解 Microsoft 團隊中的團隊和頻道
+title: 瞭解團隊和頻道Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 深入瞭解如何在 Microsoft 團隊中組織團隊和頻道，以及如何使用團隊來驅動跨組織共同作業。
+description: 深入瞭解如何組織團隊和頻道Microsoft Teams以及如何使用Teams來推動跨組織共同合作。
 f1.keywords:
 - CSH
 ms.custom:
@@ -28,15 +28,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49831203"
 ---
-# <a name="understand-teams-and-channels-in-microsoft-teams"></a>瞭解 Microsoft 團隊中的團隊和頻道
+# <a name="understand-teams-and-channels-in-microsoft-teams"></a>瞭解團隊和頻道Microsoft Teams
 
-團隊和頻道的概念是 Microsoft 團隊良好、高效實施的基礎。 
+團隊和頻道的概念是健康且有生產力地執行Microsoft Teams。 
 
-- 小組是共同作業的人員、內容和工具集合，共同為您的公司產生商業成果。 Teams 的建置基礎為 Microsoft 365 群組，因此 Microsoft 365 群組成員資格的變更會同步處理至該小組。
+- 團隊是一組人員、內容和工具的集合，能共同合作，為貴公司帶來業務成果。 Teams 的建置基礎為 Microsoft 365 群組，因此 Microsoft 365 群組成員資格的變更會同步處理至該小組。
 
-- [頻道] 是指小組中的共同作業空間，實際工時已完成。 
+- 頻道是團隊內部共同作業的空間，實際工作是在其中完成。 
 
-若要深入瞭解團隊和頻道，請參閱 [Microsoft 團隊中的團隊和頻道概覽](teams-channels-overview.md)。 如需全面的團隊採用指示，請取得 [團隊採用指南](https://aka.ms/teamstoolkit)。 若要深入瞭解團隊和 Microsoft 365 群組，請參閱 [microsoft 365 群組和 Microsoft 團隊](office-365-groups.md) ，並 [深入瞭解 microsoft 365 群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+若要閱讀團隊和頻道的更多資訊，請參閱團隊和頻道概觀[Microsoft Teams。](teams-channels-overview.md) 如要Teams採用指南，請取得Teams[指南](https://aka.ms/teamstoolkit)。 若要深入瞭解群組Teams Microsoft 365群組，請參閱Microsoft 365群組Microsoft Teams，並深入瞭解[](office-365-groups.md)Microsoft 365[群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 
 |  |  |
@@ -45,20 +45,20 @@ ms.locfileid: "49831203"
 
 
 
-小組存取類型決定誰可以加入團隊：
+團隊存取類型會決定誰可以加入團隊：
 
 - *私人* 團隊限團隊擁有者核准的團隊成員。 這是大型組織中專案團隊和虛擬團隊的標準設定。
 
-- *公用* 團隊會公開給組織中的任何人，且使用者可以直接加入他們。 公用團隊可用於共同作業，這些主題涉及不同部門中的人員，或是處理不同專案的人員。 這是非常適合小型組織的預設設定。
+- *公開* 團隊對組織中任何人開放，使用者可以直接加入。 公開小組很適合針對不同部門人員或處理不同專案之人員所感興趣的主題進行共同合作。 這是非常適合小型組織的預設設定。
 
-## <a name="use-teams-to-drive-cross-organization-collaboration"></a>使用團隊推動跨組織共同作業
+## <a name="use-teams-to-drive-cross-organization-collaboration"></a>使用 Teams來推動跨組織共同合作
 
-最佳做法是使用團隊來改善跨組織共同作業，而許多專案也會在此模型中提供給自己。 此外，組織內的領導或分部可能需要專用團隊給自己的人員。 請考慮下列圖例所示的組織模型和專案模型。
+使用團隊改善跨組織共同合作是最佳作法，許多專案會採用這個模型。 此外，組織內部領導者或部門可能會想要一個專屬團隊供自己的人員使用。 請考慮下圖所示的組織與專案模型。
 
-![組織與專案模型](media/teams-adoption-organization-project.png)
+![組織和專案模型](media/teams-adoption-organization-project.png)
 
-在 (左側) 所示的組織小組中，組織執行其業務、團隊事件、核心策略及其他操作資訊（例如商務評論）的重要資訊，都可能是共用的。 針對右側所示的小組，該學區的資訊會細分成代表該小組所完成之工作類別的頻道。 此小組的成員可能會或不會向同一個人員報告，但他們都參與了該學區的結果。
+在組織小組 (左側) 中，可能會共用有關組織營運方式、小組活動、核心策略及其他營運資訊 ，例如商務評論的重要資訊。 針對右側顯示的小組，區資訊會細分為代表該團隊正在完成之工作類別的頻道。 此團隊的成員可能會或可能不會向同一個人報告，但他們都參與推動該學區的結果。
   
-您可以在實施的 [階段 2](teams-adoption-phase2-experiment.md) 中，更深入地發揮團隊結構。
+您將在執行工作的第 [2](teams-adoption-phase2-experiment.md) 階段中，進一步處理小組的結構。
 
-![描述下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [建立您的第一份團隊](teams-adoption-your-first-teams.md)
+![描繪下一個步驟的圖示 ](media/teams-adoption-next-icon.png) 下一步： [建立您的第一個團隊](teams-adoption-your-first-teams.md)

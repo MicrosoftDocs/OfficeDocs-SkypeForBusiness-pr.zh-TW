@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 團隊中取得協助
+title: 取得Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -13,7 +13,7 @@ ms.reviewer: karuanag
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解協助主題、影片、版本資訊與意見反應論壇，以便在 Microsoft 團隊中取得協助。
+description: 瞭解說明主題、影片、版本資訊及意見回饋論壇，以取得Microsoft Teams。
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
@@ -24,20 +24,20 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583210"
 ---
-<a name="get-help-in-microsoft-teams"></a>在 Microsoft 團隊中取得協助
+<a name="get-help-in-microsoft-teams"></a>取得Microsoft Teams
 ============================================
 
-Microsoft 團隊中的 [說明] 按鈕可讓您的使用者和擁護人找到他們在使用團隊時可能需要的所有協助。
+您的使用者和Microsoft Teams中的協助按鈕，可在這裡找到他們在使用Teams。
 
-團隊為說明內容提供當地語系化的語言支援。 如需最新的支援語言清單，請參閱[Microsoft 團隊支援的語言以取得協助內容](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)。
+Teams為説明內容提供當地語系化語言支援。 有關支援語言最新清單，請參閱Microsoft Teams[語言以尋找協助內容](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)。
 
- - **[流覽主題]** ：這會移至 [依小組整理的內容] 功能。 簡單明瞭的指導方針可協助使用者充分發揮團隊的效用。 
+ - **流覽主題**- 這可協助您整理Teams內容。 簡單且直接的指引，可協助使用者從Teams。 
 
- - 影片 **-我們的點播**影片內容可讓使用者快速瞭解特定工作。 我們會持續產生新的影片，因此請經常查看。 當然需要網際網路存取。 
+ - **影片** - 我們的點播影片內容可讓使用者快速瞭解特定工作。 我們會持續製作新的影片，因此請經常回來查看。 當然，需要網際網路存取。 
 
- - **新功能** - 
-   針對新的或更新的小組功能，提供使用者和小組擁有者的定期版本資訊。
+ - **新增功能** - 
+   針對使用者和團隊擁有者定期發佈關於新功能或更新Teams資訊。
 
- - **分享想法**-我們永遠都想聽到您的意見，瞭解如何改善團隊。 此選項會將您帶到我們的產品意見反應論壇，您可以在其中提交新的功能要求或投票給現有的功能要求。 我們會在規劃新功能時，持續查看此資訊。 
+ - **分享想法**- 我們一直希望您瞭解如何改善Teams。 此選項會帶您到我們的產品意見回應論壇，您可以在此提交新功能要求或對現有功能要求進行投票。 我們會持續在規劃新功能時，查看這項資訊。 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Ignite 上的小組會話2020
-description: 尋找所有適用于商務的學習中心。
+title: Teams點 2020 的會話
+description: 尋找商務中心的所有可用學習課程。
 author: cichur
 ms.date: 09/21/2020
 ms.topic: article
@@ -15,99 +15,99 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/20/2021
 ms.locfileid: "49909137"
 ---
-# <a name="teams-sessions-at-ignite-2020"></a>Ignite 上的小組會話2020
+# <a name="teams-sessions-at-ignite-2020"></a>Teams點 2020 的會話
 
- 觀看這些會議，以取得數位 Ignite 2020 的最新團隊新聞、宣告和技術 skilling 內容。  
+ 觀看這些會話，從 Digital Ignite 2020 取得Teams、公告及技術技能內容的最新資訊。  
 
-## <a name="key-segments"></a>主要區段
+## <a name="key-segments"></a>關鍵區段
 
-| 標題                      |  概要                                                |                    者                                                        |
+| 標題                      |  抽象                                                |                    揚聲器                                                        |
 |--------------------------------------------|--------------------------------------------------------|-----------------------------------------------------------------------------------|
-|[使用 Microsoft 團隊建立具彈性、包含及混合式工作場所](https://aka.ms/DB156) |組織要移至混合式工作區，以支援遠端和現場員工的需求。 在第一個部分中，您將瞭解團隊如何透過團隊會議、虛擬事件和通話，以及新的裝置體驗來保持連線。 我們將示範團隊平臺如何協助簡化工作流程、改善決策制定，以及整合您的應用程式生態系統。 <br> 此外，請參閱此系列的第二部分，即會話程式碼 DB158。|Nicole Herskowitz                 |
-|[更聰明、保持專注，並利用 Microsoft 團隊會議實現更多工](https://aka.ms/DB151)  |[會議] 是如何完成工作的基礎。 瞭解團隊會議如何協助您和您的組織提高生產力，同時調整為新的工作方式。  |Shiraz Cupala|
-|[Microsoft 團隊通話變得簡單](https://aka.ms/DB149)  |小組中的企業通話很容易部署和使用。 瞭解小組通話的基本知識，在通話中尋找最新的電話經驗及共同通話。 |Paul 無法、劉娜 Kramer、Barbara Kim|
-|[單一位置供管理員管理 Microsoft 團隊：團隊可管理性的新功能](https://aka.ms/DB144) |團隊管理員擁有靈活且精細的管理功能。 這些功能可讓他們為組織打造最符合企業需求的自訂體驗。 在這個會話中，我們將介紹小組系統管理中心入口網站的最新功能和最大功能，討論原則、應用程式管理、裝置管理、報告、分析及疑難排解以及 PowerShell 的新增功能。 |Ronit Ben-Sheffer，曉明 Stark|
-|[使用 Microsoft 團隊縮放及自訂虛擬會議與活動](https://aka.ms/DB138) |會議都有所有的圖形和大小-瞭解如何使用團隊來組織及管理您的下一個大型活動。 團隊可以與貴組織的需求無縫地伸縮，提供自訂和提供最佳出席者經驗的方式，以取得各種規模的活動。  |Christina Torok, Ashwin Appiah|
-|[使用 Microsoft 團隊裝置跨混合式工作區進行 Power 現代會議體驗](https://aka.ms/DB147) |Microsoft 團隊裝置簡介。 團隊裝置的設計目的是協助人員充分發揮團隊威力，並填補遠端與共享工作區之間的差距。 瞭解專為提供以人員為中心會議室體驗的裝置，以及經過重新設計個人工作區，以讓 Microsoft 團隊裝置更具包容性與共同作業體驗。  |Kendra 麵包師，Greg Baribault|
-|[使用 Microsoft 團隊平臺來轉換現代工作場所](https://aka.ms/DB157) |瞭解小組平臺中所有新的和現有的擴充性點。 瞭解如何建立功能強大的 app 與解決方案，以解決您的業務需求。|Archana Saseetharan, Michal Lesiczka|
-|[Reimagining 使用 Microsoft 365 平臺](https://aka.ms/DB146)|Microsoft 365 平臺可協助組織調整其環境的每個層面，以協助人們更完善地進行工作和共同作業。 從 Microsoft Graph 新增真知灼見與相關資料，瞭解每個應用程式如何進一步進行。 瞭解每個應用程式可以如何與跨應用程式（包括 Microsoft 團隊）的工作流程整合。 瞭解 app 如何在各種裝置上提供獨特且吸引人的體驗。 充分利用可加速 app 建立的主要構造塊。|Yina Arenas，Mike Ammerlaan|
-|[簡化使用 Microsoft 團隊 & Microsoft 365 中的低程式碼解決方案的工作](https://aka.ms/DB141) |團隊和 Microsoft 365 是適用于所有人的平臺，即使您沒有任何專業的開發體驗也一樣。  請參閱小組與 Microsoft 365 的低代碼革新，讓小組更輕鬆地建立及使用自訂應用程式、bot、自動化及資料，以解決富有挑戰性的商業程式。|Karan Nigam, Weston Lander|
-|[Microsoft 團隊安全性與合規性的新功能](https://aka.ms/DB140) | 啟用安全的遠端作業非常重要。 在這個會話中，您將瞭解有關安全性與合規性的最新團隊功能和功能。 我們將說明如何使用小組中 Microsoft 365 的情報與強度，讓您的組織保持安全與合規性。 主題包括保護您的資訊免遭資料洩漏、啟用安全及包容的會議，以及維持跨全球法規與業務需求的合規性組織。|約翰 Gruszczyk|
+|[使用應用程式建立彈性、包容性和混合式工作場所Microsoft Teams](https://aka.ms/DB156) |組織正移往混合式工作場所，以支援遠端和現場員工的需求。 第一部分將瞭解如何透過會議、虛擬活動Teams通話，以及新的裝置體驗，與團隊保持聯繫。 我們將說明這個Teams平臺如何協助簡化工作流程、改善決策，以及整合您的應用程式的生態系統。 <br> 另請查看本系列的第二部分，會話代碼 DB158。|Nicole Herskowitz                 |
+|[以更聰明的方式開會、保持專注，以及使用Microsoft Teams達成更多目標](https://aka.ms/DB151)  |會議是完成工作的基礎。 瞭解Teams會議如何協助您和貴組織更有效率地適應新的工作方式。  |Shiraz Cupala|
+|[Microsoft Teams通話變得簡單](https://aka.ms/DB149)  |Enterprise在 Teams 中通話，部署和使用非常簡單。 瞭解通話Teams，同時瞭解通話的最新功能，例如新的通話體驗和共同通話。 |Paul 加農、Laura Kramer、Barbara Kim|
+|[系統管理員可以管理Microsoft Teams的地方：管理能力Teams新功能](https://aka.ms/DB144) |Teams系統管理員具有彈性且精細的管理功能。 這些功能可讓他們為組織打造最符合業務需求的自訂體驗。 在此會話中，我們將介紹小組系統管理中心入口網站的最新功能和最大功能，討論政策、應用程式管理、裝置管理、報告、分析和疑難排解，以及 PowerShell 的新增功能。 |Ronit Ben-Sheffer， Jamie Stark|
+|[使用虛擬會議與活動縮放Microsoft Teams](https://aka.ms/DB138) |會議有各種圖案和大小-瞭解如何使用Teams來建立和管理下一個大型活動。 Teams與貴組織的需求完美縮放，提供自訂各種大小活動的最佳出席者體驗的方法。  |Christina Torok， Ashwin Appiah|
+|[使用不同裝置在混合式工作場所中Microsoft Teams會議體驗](https://aka.ms/DB147) |裝置Microsoft Teams簡介。 Teams裝置的設計，可協助使用者發揮最大功能Teams並縮小遠端和共用工作區之間的橋樑。 瞭解專為提供以人員為中心的會議室體驗而設計的裝置，以及重新構想個人工作區的裝置，以更全面且Microsoft Teams體驗。  |肯德拉·巴克，Greg Baribault|
+|[使用平臺轉換Microsoft Teams工作場所](https://aka.ms/DB157) |瞭解新平臺內所有新的和現有的Teams點。 探索如何建立功能強大的應用程式和解決方案，以解決您的業務需求。|Archana Saseetharan， Michar Lesiczka|
+|[使用平臺重新Microsoft 365工作](https://aka.ms/DB146)|此Microsoft 365平臺可協助組織量身訂做環境的每一個層面，協助人員改善工作與共同作業。 探索每個 App 如何從 Microsoft Graph 中新增深入資訊Graph。 瞭解每個應用程式如何整合跨應用程式的工作流程，包括Microsoft Teams。 瞭解應用程式如何跨裝置提供獨特且吸引人的體驗。 利用可加快應用程式建立速度的重要建組塊。|伊納納阿森納，Mike Ammerlaan|
+|[使用低程式碼解決方案簡化Microsoft Teams & Microsoft 365](https://aka.ms/DB141) |Teams和Microsoft 365平臺是適合所有人的平臺，即使您沒有任何專業開發經驗。  瞭解適用于 Teams 和 Microsoft 365 的低程式碼創新如何讓團隊更輕鬆地建立及使用自訂應用程式、Bot、自動化和資料，以解決挑戰的商務程式。|卡蘭尼甘，Weston Lander|
+|[安全性與合規性Microsoft Teams新功能](https://aka.ms/DB140) | 啟用安全、遠端的工作非常重要。 在此會話中，瞭解安全性與合規性Teams功能的最新功能。 我們將涵蓋如何在內部使用智慧和Microsoft 365，Teams保持貴組織的安全與規範。 主題包括保護您的資訊，避免資料洩漏、啟用安全且含納性的會議，以及維護全球法規和商務需求中的合規性組織。|John Gruszczyk|
 ||                                                     |                                                                                     |
 
-## <a name="pre-recorded-sessions"></a>預先錄製的會議
+## <a name="pre-recorded-sessions"></a>預先錄製的會話
 
 ### <a name="meetings-calling-and-devices"></a>會議、通話和裝置
 
-| 標題 | 概要            | 層級| 者  |
+| 標題 | 抽象            | 水準| 揚聲器  |
 |---|----------|---|---|---|
-|[團隊會議和裝置中的創新與情報](https://aka.ms/PR104) |我們會持續創新並 reimagining 會議。 瞭解我們如何在會議中取得更多智慧，以及如何在裝置中加入智慧的最新創新。  |200|Shalendra Chhabra|
-|[高級通話功能](https://aka.ms/OD265)|在我們探索新的通話體驗時，請更深入地進行通話。 接收有關共同通話、e911、Location-Based 路由及其他功能的詳細資訊。 瞭解您的高級案例的通話方式（不論貴公司的規模為何）。 |200|Alan Xie, Roy Kuntz|
-|[共用空間的 Microsoft 團隊裝置](https://aka.ms/OD261) |Microsoft 團隊裝置的設計目的是協助人員充分發揮團隊威力，並彌補遠端與共享工作區之間的差距。 有了團隊會議功能、以客戶為中心的房間體驗，以及業界領先的硬體，使用者就能從低摩擦、包含及互動式會議中獲益。 無論使用者是遠端加入或在會議室中，都可以使用會議功能。 瞭解共用空間裝置（例如 Microsoft 團隊聊天室、共同作業條和 Surface Hub）如何協助您的團隊在混合式工作區間保持連線並共同作業。|200|Greg Baribault、Kendra 麵包師、Sandhya Rao|
-|[在商務用 Skype 中？設計您的 Microsoft 團隊路徑](https://aka.ms/OD251)|加入此會話，以根據您目前的商務用 Skype 部署和商業目標，瞭解並判斷最適合的方法。 無論您是商務用 Skype Online 或伺服器客戶，我們都會分享提示、資源及指導方針，以立即取得 Microsoft 團隊。 |200|Lisa McKee，Laszlo Somi
-|[團隊個人裝置中的新式創新](https://aka.ms/PR108)  |客戶正在尋找適合團隊的個人裝置，尤其是他們的員工在遠端作業。 請加入我們，瞭解團隊個人裝置中的新創新。我們將在功能和認證裝置中分享我們的勢頭，以及我們的遠端工作提示。 |200|Sandhya Rao, Arash Ghanaie-Sichanie, Kruthika Ponnusamy|
-|[Microsoft 團隊會議中的主要虛擬專題會議室](https://aka.ms/PR109) |請加入我們，瞭解如何在團隊中使用虛擬的專題會議室來瞭解最新的創新。 在這個會話中，我們將醒目提示使用案例和最佳做法，以利用虛擬的群組 ideation、靈感觸發、學習及討論來取得虛擬的專題討論。 |200|James Skay，Nakul Madaan|
-|[讓您的小組與會議與視訊會議控制項進行安全與包含的會議](https://aka.ms/PR110) |加入此會話，進一步瞭解會議的安全性、安全性和裁決。 我們會將重點放在所有出席者的 [硬靜音]、[要求朗讀] 功能，以及設定 [專題討論] 會議室中。 我們會涵蓋反應與舉手的功能，可協助讓會議更具包容性。|200|Nakul Madaan, Rajiv Ramaiah|
-|[Microsoft 團隊作為平臺進行通話與會議](https://aka.ms/PR111) |瞭解小組通話和會議平臺功能，包括 Microsoft Graph 雲端通訊 Api、連絡人中心及合規性錄製的更新。 我們將在其他平臺體驗中分享新的資訊。 |200|Srividhya Chandrasekaran, Mansoor Malik|
-|[利用團隊為員工、客戶和社區提供吸引人的虛擬活動](https://aka.ms/PR112) |加入此會話，瞭解 Microsoft 團隊如何順暢地進行調整，以協助提供所有類型的事件。 想像一下公司 townhalls、訓練網路研討會，以及線上會議。 我們也會分享視覺與藍圖，以協助您伸縮及自訂您的虛擬會議與活動。 |200|Christina Torok, Ashwin Appiah|
-|[使用 Microsoft 團隊提供更有效率且 impactful 會議的最佳做法](https://aka.ms/OD267)|團隊會議在共同作業的連續階段中發展並逐漸整合。 我們讓會議更具生產效率、安全且包含在內。 團隊中的創新將協助您更好地準備、執行並簡化會議。  在這個會話中，我們會展示提示，協助您充分發揮會議的大部分，並持續進行工作流程。|200|Shiraz Cupola|
+|[使用智慧Teams會議與裝置中的創新](https://aka.ms/PR104) |我們持續創新及重新構想會議。 瞭解我們如何在會議中提供更多智慧，以及我們在裝置上的最新創新，讓智慧更具有生命。  |200|葉岩岩色色|
+|[進位通話功能](https://aka.ms/OD265)|探索新的通話體驗時，使用通話功能進行更深入的探索。 收到有關共同通話、e911、Location-Based路由及其他功能的其他資訊。 瞭解無論公司規模大小，通話如何準備好適用于進一階段案例。 |200|謝亞倫，Roy Kuntz|
+|[Microsoft Teams共用空間的裝置](https://aka.ms/OD261) |Microsoft Teams裝置的設計，可協助使用者發揮最大功能Teams並縮小遠端和共用工作區之間的差距。 有了Teams功能、以客戶為中心的會議室體驗，以及業界領先硬體，使用者可受益于低摩擦、包容性和互動式會議。 無論使用者以遠端或會議室加入會議，會議功能都可用。 瞭解共用空間裝置Microsoft Teams 會議室、共同Surface Hub等共用空間裝置如何協助您的小組在混合式工作場所保持聯繫和共同合作。|200|Greg Baribault， Kendra Baker， Sandhya Rao|
+|[在 商務用 Skype？設計您的Microsoft Teams](https://aka.ms/OD251)|加入此會話，以根據您的目前執行和商務用 Skype來瞭解並判斷最適合的方法。 無論您是線上或伺服器商務用 Skype，我們分享提示、資源與指引，以取得今天Microsoft Teams資訊。 |200|麗莎·McKee，Laszlo Somi
+|[個人裝置Teams創新](https://aka.ms/PR108)  |客戶正在尋找適合Teams裝置，尤其是因為許多員工都是遠端工作。 與我們一起瞭解個人裝置Teams創新。我們會分享功能與認證裝置，以及遠端工作的提示。 |200|Sandhya Rao， Arash 加納尼-Sichanie， Kruthika Ponnusamy|
+|[在會議中主控虛擬Microsoft Teams會議室](https://aka.ms/PR109) |與我們一起瞭解最新創新，在 Teams。 在此會話中，我們將強調使用案例和最佳做法，以虛擬分組會議室促進小型群組構想、腦力激蕩、學習及討論。 |200|James Skay， Nakul Madaan|
+|[使用會議和視訊會議Teams，讓會議安全且含納](https://aka.ms/PR110) |加入此會話以深入瞭解會議安全性、安全性和管理。 我們強調將所有出席者設為硬靜音、要求發言功能，以及配置分組討論會議室的功能。 我們會涵蓋反應和舉手等功能，有助於讓會議更具包容性。|200|Nakul Madaan， 拉吉夫拉馬亞|
+|[Microsoft Teams將通話和會議當做平臺](https://aka.ms/PR111) |瞭解 Microsoft Teams雲端通訊 API、連絡人中心及合規性錄製Graph通話和會議平臺功能。 我們會分享其他平臺體驗的最新消息。 |200|斯裡維得亞錢德拉塞卡蘭，曼索或馬利克|
+|[運用Teams，為員工、客戶及社群提供吸引人的虛擬活動](https://aka.ms/PR112) |加入此會話以瞭解Microsoft Teams如何順暢地縮放，協助傳遞所有類型的事件。 Imagine鎮會議、訓練網路研討會和線上會議。 我們也會分享功能願景和藍圖，協助縮放和自訂您的虛擬會議和活動。 |200|Christina Torok， Ashwin Appiah|
+|[使用會議進行更有效率且有影響力的會議Microsoft Teams](https://aka.ms/OD267)|Teams會議正在不斷演進，並深入整合在共同合作中。 我們讓會議更有效率、更安全且更具包容性。 創新功能Teams可協助您更充分準備、執行及簡化會議。  在這個會議中，我們將展示提示，説明您充分利用會議，並隨時處理工作。|200|Shiraz Cupola|
 |||||
 
 ### <a name="deployment-management-and-security"></a>部署、管理和安全性
 
-| 標題 | 概要            | 層級| 者 |
+| 標題 | 抽象            | 水準| 揚聲器 |
 |---|----------|---|---|---|
-|[使用虛擬事件促進採納：召集人與發生器的最佳做法](https://aka.ms/PR101)|這個實際的教學課程講座將回顧我們針對活動召集人和 IT 專業人員的虛擬活動行動手冊。  在 pandemic 的初始階段，透過 Microsoft 團隊工程的重要旗艦活動，從 Karuana Gatimu、技術發生器。 聽取從 Microsoft 轉換到虛擬事件所收集的指導方針。 您可以使用團隊會議與即時事件，傳送可讓組織保持連線的引人注目事件。  |300|Karuana Gatimu, Ashwin Appiah|
-|[深入瞭解 Office 365 群組和 Microsoft 團隊的管理](https://aka.ms/PR102)|觀看此動手示範管理功能與工具，以管理您的 Microsoft 團隊使用者體驗。 您會對資訊的安全性和合規性感到自信。 包含 Azure Active Director 附加元件功能的設定。 |300|Karuana Gatimu|
-|[促進業界採用-適用于第一線、不盈利性、醫療保健及其他方面的特殊案例和功能。](https://aka.ms/PR121)|這個案例驅動的會話會在必須在其上交付的 IT 專業人員的內容中審查現有和新的功能。  此會話包括使用者和 ITPro 範本與行動裝置功能|200|Karuana Gatimu, Kathy Minnis|
-|[您準備好要部署 Microsoft 團隊嗎？](https://aka.ms/PR127) |在這個會話中，我們將逐步說明所有可協助您確保團隊推出成功的重要產品和資源。 在掌握工具、資源和提示的情況下，如果小組的規劃與部署是在您的待辦事項清單上，就必須出席此會議！|300|Stephen 玫瑰|
-|[團隊部署與 Microsoft 端點管理員](https://aka.ms/PR122)|在最佳做法中觀看動手示範，以協助您透過 End-Point 管理員部署及管理 Microsoft 團隊|300|Mayunk Jain, Mayank Verma|
-|[管理 Microsoft 團隊的基本要素;[高級管理性] 控制項](https://aka.ms/OD269) |Microsoft 團隊在設計上考慮，提供共同作業、會議、callings 及應用程式的管理功能。 探索所有可用的管理功能。 配置、管理及監視 Microsoft 團隊只需要幾個專案。  我們將逐步完成整個控制範圍-從讓您的環境持續進行維護與優化，讓您能夠更順暢地進行加入體驗。 |200|Ronit Ben-Sheffer，曉明 Stark|
-|[管理 Microsoft 團隊中的安全性與合規性](https://aka.ms/OD268)|提供安全的共同作業體驗是非常重要的。 從 ITPro 的觀點回顧 Microsoft 團隊的安全性與合規性功能。 我們將涵蓋原則管理、內容管理、保留程式及通訊 compliances。 請參閱適用于安全、合規性共同作業的功能的完整補充！|300|約翰 Gruszczyk|
-|[Microsoft 團隊裝置管理基本版](https://aka.ms/PR144) |Windows AI 平臺為 ML 專業人員提供所需的 OS 基礎結構，以便在 Windows 上成功建立並部署 ML 體驗。 Windows ML （平臺的 inferencing API）是 revolutionizing Windows 開發人員如何部署和執行 ML 模型。 Windows ML 有一個便於使用的介面，只要在任何 Windows 裝置上都能正常運作。 在 Windows 的 ONNX 執行時間使用量中使用新的 Windows ML 可再發行套件和運用 DirectML。 取得設定預覽所需的資訊，以便在 Linux 的 Windows 子系統內啟用以 GPU 為基礎的 ML 訓練工作負載。|200|Kyle Spiess，Sid Roy|
-|[在 Microsoft 團隊中建立 devops 工作區](https://aka.ms/PR128)|瞭解您可以如何使用 Microsoft 團隊和應用程式為您的 DevOps 團隊建立中樞。|200|Sid Uppal|
+|[使用虛擬活動推動採用：召集人和製作人的最佳作法](https://aka.ms/PR101)|此實際課程會話將針對活動召集人和 IT 專業人員，複習我們的虛擬活動 Playbook。  向卡魯納-加提姆瞭解，在大Microsoft Teams初期階段，主要主要Microsoft Teams活動的技術製作人。 聆聽從 Microsoft 轉場到虛擬活動所收集的指引。 您可以使用會議Teams即時活動來舉辦引人注目的活動，讓貴組織保持連線。  |300|卡魯納加提姆，Ashwin Appiah|
+|[深入探討群組和Office 365的Microsoft Teams](https://aka.ms/PR102)|請觀看此管理功能與工具的親身示範，以管理使用者對Microsoft Teams。 您一定會對資訊的安全性與合規性感到放心。 包含 Azure Active Director 附加元件功能的配置。 |300|卡魯納加提姆|
+|[推動產業採用 - Frontline、非營利組織、醫療保健等的特殊案例和功能。](https://aka.ms/PR121)|此案例導向會話會根據必須交付這些功能的 IT 專業人員，來審查現有和新增的功能。  會話包含使用者和 ITPro 範本及行動功能|200|卡魯納加提姆，凱西明尼|
+|[準備好要部署Microsoft Teams？](https://aka.ms/PR127) |在此會話中，我們將瞭解所有可協助確保成功推出Teams產品和資源。 如果規劃及部署您的工作清單上包含工具、資源和提示，Teams必須參加此會話！|300|Stephen Rose|
+|[Teams部署和 Microsoft End Point Manager](https://aka.ms/PR122)|查看最佳做法的實戰示範，以透過 Microsoft Teams Manager End-Point管理|300|Mayunk Jain， Mayank Verma|
+|[管理資料的基本Microsoft Teams;進位可管理性控制項](https://aka.ms/OD269) |Microsoft Teams IT 設計，提供共同合作、會議、通話和應用程式管理功能。 探索所有可用的管理功能。 只有一些Microsoft Teams、管理及監控資料。  我們將進行完整的控制項範圍 -從啟用更順暢的上線體驗，到持續維護及優化您的環境。 |200|Ronit Ben-Sheffer， Jamie Stark|
+|[管理安全性與合規性Microsoft Teams](https://aka.ms/OD268)|提供安全的共同合作體驗至關重要。 從 ITPro 的角度，Microsoft Teams安全性與合規性功能。 系統將會涵蓋策略管理、內容管理、保留程式和通訊合規性。 查看全面稱讚安全、合規性共同合作的功能！|300|John Gruszczyk|
+|[Microsoft Teams裝置管理基本功能](https://aka.ms/PR144) |WINDOWS AI 平臺ML專業人員提供所需的作業系統基礎結構，以便成功在 ML 上Windows。 Windows ML平臺的推斷 API，正在變革開發人員Windows部署和執行ML模式。 Windows ML便於使用的介面，只要在任何裝置上Windows運作。 使用最新提供的可Windows ML套件，並運用 ONNX Runtime 使用量上的 DirectML Windows。 取得設定預覽所需的資訊，以在 ML 內啟用 GPU Windows 子系統 Linux 版。|200|賽克·斯皮斯，Sid Roy|
+|[在 Microsoft Teams](https://aka.ms/PR128)|瞭解如何使用應用程式Microsoft Teams，為團隊建立DevOps中心。|200|Sid Uppal|
 |||||
 
 ### <a name="collaboration"></a>共同作業
 
-| 標題 | 概要            | 層級| 者|
+| 標題 | 抽象            | 水準| 揚聲器|
 |---|----------|---|---|---|
-|[Microsoft 團隊行動裝置 App： [新增功能] & [下一步]](https://aka.ms/OD255)|查看 Microsoft 團隊行動用戶端的新功能和未來功能。|100|Marissa Salazar|
-|[驅動 wellbeing 並包含在 Microsoft 團隊中](https://aka.ms/PR140)|需要的人也能提供此特色。 需要鼓勵人員在他們的個人時間內出席。 人員必須具備適當的工具，才能將其設定為成功的角色。 透過確保每個人都能以最適合他們的方式進行共同作業，以及平衡工時與生活，進一步瞭解團隊的共同作業。 |100|麗麗 Bryan，阿裡 Oberg|
-|[使用 Microsoft 團隊中的聊天與頻道在組織內部與外部共同作業](https://aka.ms/PR142) |[立即訊息] 仍是一種最有效的溝通方式。 若沒有適當的規劃，立即訊息就可以限制誰可以參與。 瞭解如何套用聊天與頻道交談，以與組織內部和外部的人員展開更多的公開作業。 我們將在此區域討論差異、最佳做法及近期功能。|200|Karuana Gatimu, Luis Escobar Reyes, Somak Bhattacharyya|
+|[Microsoft Teams行動應用程式：&下一步](https://aka.ms/OD255)|查看所有行動用戶端的新增功能，以及接下來Microsoft Teams功能。|100|Marissa Salazar|
+|[使用手機來推動健康Microsoft Teams](https://aka.ms/PR140)|人員需要感到包含在內。 必須鼓勵人員在個人時間出席。 必須賦予人員適當的工具，讓他們在角色中成功。 瞭解Teams確保每個人以最適合他們的方式共同作業，並平衡工作和生活，以賦予包容性團隊合作的能力。 |100|Chris Bryan，Ali Oberg|
+|[使用聊天和頻道在組織內外共同Microsoft Teams](https://aka.ms/PR142) |立即訊息仍然是最有效率的通訊方式之一。 如果沒有適當的規劃，立即訊息可能會限制誰可以參與。 瞭解如何運用聊天和頻道交談，促進與組織內外人員更開放地共同合作。 我們將討論此區域中的差異、最佳做法和即將推出的功能。|200|卡魯納加提姆，路易士·Escobar Reyes，Somak Bhattacharyya|
 ||||||
 
 ### <a name="platform"></a>平台
 
-| 標題 | 概要            | 層級| 者 |
+| 標題 | 抽象            | 水準| 揚聲器 |
 |---|----------|---|---|---|
-|[在 Microsoft 團隊中使用無程式碼構造區塊和應用程式範本來數位化及轉換業務流程](https://aka.ms/PR130)|組織正在轉變核准、任務管理，以及為組織提供最佳想法。  使用內嵌的構造塊及生產就緒的應用程式範本來數位化及簡化重要程式。 在這個會話中，我們將分享客戶使用這些解決方案的方式，而不需要進行任何自訂開發。 瞭解一些近期的創新如何協助簡化這些程式。|200|Wes Lander, Aditya Challapally, Christopher Bryan|
-|[使用新的會議擴充性點，透過 Microsoft 團隊 app 建立更豐富的會議體驗](https://aka.ms/OD250) |瞭解開發人員可以如何使用新的會議擴充性點，在會議表面整合其小組 app。 應用程式會在整個會議週期中使用， (在進行期間、張貼) 期間進行。 應用程式在會議中為使用者提供更豐富的共同作業體驗。|300|Rajesh Rangarajan, Isabella Lubin|
-|[流覽團隊 app 週期](https://aka.ms/PR132) |瞭解您需要安全且有效地管理團隊 app 生命週期的工具。 生命週期從開發人員和 IT 系統管理員開始，並持續進行最終使用者。 我們將涵蓋小組 app 開發、驗證、提交、設定、許可權，以及可協助您流覽 app 管理與採納的部署。|300|Joey Glocke, Vaibhav Agarwal|
-|[探索如何在您的團隊 app 中整合與 power mobile 體驗](https://aka.ms/PR133)|透過行動裝置共同作業是我們今天完成工作的關鍵元件。 您使用行動裝置作為伴生體驗或您的主要方式。 團隊會提供您所需的所有功能，讓您隨時掌握工作，並與您的小組保持聯繫，以提高生產力。 請加入我們以瞭解新功能，並在我們涵蓋行動裝置與行動裝置功能上的個人 app 時，您可以用來為員工建立行動裝置的第一個應用程式。|300|Anuj Bahl, Vikramjit Singh Chug|
-|[使用低代碼功能建立 Microsoft 團隊的自訂應用程式、機器人及自動化](https://aka.ms/PR134)|建立小組的自訂解決方案。  我們將進入 [團隊 + Power Platform 整合]，以顯示使用者如何建立自訂的數位工具，即使他們沒有開發人員的經驗|300|Pete Daderko, Geneve Estrada|
-|[利用團隊和彈性卡片提升使用者體驗](https://aka.ms/PR135)|含彈性卡片的小組平臺可讓您在小組中建立經過整合和可操作的使用者體驗。 在這個講座中，我們將說明開發人員如何利用新的功能來建立可提升團隊共同作業的內容和合規性體驗。|300|Suryamanohar Mallela, Shubham Chauhan|
-|[秘訣和訣竅：建立 Microsoft 團隊 app 時的最佳做法及常見挑戰](https://aka.ms/PR136) |我們涵蓋了開發人員在建立團隊 app 時所面臨的一些常見挑戰。 當您繼續其小組 app 開發歷程時，開發人員將會離開此會話，讓他們可以使用秘訣和深入見解。|400|Adrien Solis，Erin Bailie|
-|[使用授權與驗證功能及 Microsoft Graph 來建立無摩擦應用程式 & 啟用無縫採用](https://aka.ms/PR137)|使用功能強大的功能（例如單一 Sign-On (SSO) 、Resource-Specific 同意 (RSC) 及精確許可權）來開發 app。 IT 管理員可以瞭解如何利用圖形 Api 來自動化 app 生命週期/管理。|400|Nick Kramer|
+|[在應用程式中使用無代碼建組塊及應用程式範本，將商務程式數位化Microsoft Teams](https://aka.ms/PR130)|組織正在轉換核准、任務管理，以及群眾為組織尋找最佳構想。  使用內嵌建組塊和生產就緒型應用程式範本，將關鍵程式數位化並簡化。 在此會話中，我們將分享客戶如何使用這些解決方案，而不需要任何自訂開發。 瞭解最近的一些創新如何協助簡化這些程式。|200|Wes Lander， Aditya Challapally， Christopher Bryan|
+|[使用新的會議擴充點Microsoft Teams應用程式建立更豐富的會議體驗](https://aka.ms/OD250) |瞭解開發人員如何使用新的會議可擴充點，在Teams整合其應用程式。 應用程式會在整個會議週期內使用， (在會議之前、期間、) 。 應用程式可讓使用者在會議中獲得更豐富的共同合作體驗。|300|拉吉沙·蘭加拉延，Isabella Lubin|
+|[流覽 Teams應用程式生命週期](https://aka.ms/PR132) |瞭解您需要的工具，以安全且有效率的方式管理應用程式Teams週期。 生命週期從開發人員和 IT 系統管理員開始，並持續向使用者進行。 我們將涵蓋應用程式Teams、驗證、提交、組組、許可權和部署，可協助您流覽 App 管理和採用。|300|Joey Glocke， Vaibhav Agarwal|
+|[探索如何在應用程式內整合行動Teams體驗](https://aka.ms/PR133)|透過行動裝置共同作業，是現今完成工作的重要元件。 您可以使用行動手機做為伴隨體驗，或做為主要方式。 Teams提供您所需的所有功能，以隨時瞭解工作、與小組保持聯繫並提高工作效率。 與我們一起瞭解新功能和即將推出的功能，我們涵蓋行動裝置和行動裝置上的個人應用程式功能，您可以使用這些功能來為員工建立行動裝置第一個 App。|300|Anuj Bahl， Vikramjit·卡梅克•楚格|
+|[使用低程式碼功能Microsoft Teams建立自訂應用程式、bot 和自動化功能](https://aka.ms/PR134)|建立自訂解決方案Teams。  我們會深入說明 Teams Power Platform 整合，以顯示使用者如何建立自訂的數位工具 ，即使他們沒有開發人員經驗|300|Pete Daderko， 金格維 Estrada|
+|[使用卡片和Teams提升使用者體驗](https://aka.ms/PR135)|Teams介面卡平臺，可讓您在 Teams 中建立美觀且可操作Teams。 在此會話中，我們將說明開發人員如何運用新功能來建立關係式且相容的體驗，提升共同Teams。|300|Suryamanohar Mallela， Shubham Chauhan|
+|[提示和訣竅：建立應用程式時的最佳作法Microsoft Teams挑戰](https://aka.ms/PR136) |我們會涵蓋開發人員在建立應用程式時遇到Teams挑戰。 開發人員在結束此會話時，會提供他們可在繼續進行應用程式開發Teams秘訣和深入見解。|400|Adrin Solis，Erin 白莉|
+|[建立無摩擦應用程式&使用授權和驗證功能及 Microsoft Graph](https://aka.ms/PR137)|開發具有強大功能的應用程式，例如單一Sign-On (SSO) 、Resource-Specific同意 (RSC) ，以及精細的許可權。 IT 系統管理員可以瞭解如何運用 api Graph應用程式生命週期/管理。|400|Ick Kramer|
 ||||||
 
-### <a name="industry"></a>產業
+### <a name="industry"></a>行業
 
-| 標題 | 概要            | 層級| 者 |
+| 標題 | 抽象            | 水準| 揚聲器 |
 |---|----------|---|---|---|
-|[部署與管理團隊教育版](https://aka.ms/PR103) |瞭解您教育機構的整體管轄性。 此講座涵蓋聊天原則、會議原則、應用程式原則、透過群組進行的作業、如何設定學生安全性，以及自動化小組課程建立的方法。 |300|Jethro Seghers|
-|[在醫療保健中與 Microsoft 團隊進行虛擬健康與共同作業](https://aka.ms/PR116)|醫療保健組織可以使用 Microsoft 團隊來為健康團隊進行準備。 此會話將重點放在虛擬健康和健康小組共同作業上。 深入瞭解醫療保健、虛擬走訪、客戶案例等中的最新團隊宣告等區域。 您也可以瞭解如何使用 Microsoft 團隊作為解決許多目前醫療保健案例的平臺。|200|Evan Westenberger，Tom McGuinness，Kristina Behr，楊 Canning|
-|[為您的行業量身定制 Microsoft 團隊](https://aka.ms/PR117)|我們將分享有關如何使用範本來引導您共同作業體驗的詳細資料。 使用我們的行業圖庫。 針對貴組織的需求自訂這些範本。 將範本部署到我們組織的各個部分。 透過原則套件進行管理。|200|內部部署 Kuchi，李清 Glick|
-|[在政府中使用 Microsoft 團隊共同作業及溝通](https://aka.ms/PR118) |州、當地與聯邦機構使用 Microsoft 團隊來共同作業，並改善回應時間和公民參與。 瞭解如何最大限度地利用現有的功能。 探索我們的下一步，以及我們在政府中的 Microsoft 團隊未來構想。 |200|Rima Reyes, Karuana Gatimu, Roxy Ndebumadu, Sarah Gilbert|
-|[整合 Microsoft 團隊以進行教育應用程式平臺](https://aka.ms/PR120)|團隊是一個可供教學機構整合 app 與建立自訂工作流程的開放平臺。 我們將說明團隊 app store 如何在整個教室教學中使用，以與 IT 協助辦公桌整合。 瞭解協力廠商應用程式管理、開放來源應用程式範本。 若要為您的機構建立快速自訂網站應用程式，請觀看 App Studio 的實際操作範例。|300|Dominic Williamson|
-|[使用教育版團隊進行遠端及混合式學習](https://aka.ms/PR139)|我們將深入瞭解您在遠端和混合式學習中必須知道的所有專案。 我們提供如何使用正確的會議選項和原則來建立線上會議。 瞭解如何透過自動化建立課程小組。 瞭解如何支援共同作業的教室環境。|200|Juliano Menegazzo Souza|
+|[教育用Teams的部署與管理](https://aka.ms/PR103) |瞭解教育機構的整體管理。 此會話涵蓋聊天政策、會議政策、應用程式政策、群組作業、如何設定學生安全，以及自動化小組課程建立的方法。 |300|Jethro Seghers|
+|[與醫療保健Microsoft Teams虛擬健康與共同合作](https://aka.ms/PR116)|醫療保健組織可以使用Microsoft Teams來增強健康團隊的能力。 此會話將著重于虛擬健康與健康小組共同合作。 深入探討醫療保健、虛擬Teams客戶案例等最新公告等領域。 您也將瞭解如何使用Microsoft Teams平臺，解決許多目前的醫療保健案例。|200|Evan Westenberger， Tom McGuinness， Kristina Behr， Daniel Canning|
+|[為您的Microsoft Teams量身打造](https://aka.ms/PR117)|我們會分享如何使用範本引導您的共同合作體驗的詳細資訊。 使用我們的產業圖庫。 根據貴組織的需求自訂這些範本。 將範本部署到我們組織的各個部分。 透過策略套件管理。|200|Prem Kuchi， Aaron Glick|
+|[在政府中Microsoft Teams共同合作與通訊](https://aka.ms/PR118) |州、地方和聯邦機構會Microsoft Teams共同合作，並改善回應時間和市民參與度。 瞭解如何充分利用現有功能。 探索下一步是什麼，以及我們未來Microsoft Teams願景。 |200|Rima Reyes， Kar花加提姆， Roxy Ndebumadu， Sarah Gilbert|
+|[與教育Microsoft Teams平臺整合](https://aka.ms/PR120)|Teams是教育機構整合應用程式和建立自訂工作流程的開放平臺。 我們將涵蓋如何在Teams間使用應用程式存放區，以與 IT 技術支援台整合。 瞭解協力廠商應用程式管理、開放來源應用程式範本。 查看 App Studio 的實際操作範例，為機構建立快速自訂網站應用程式。|300|Dominic Williamson|
+|[使用教育Teams遠端和混合式學習](https://aka.ms/PR139)|我們會深入探討遠端和混合式學習所需的一切資訊。 我們包含如何使用正確的會議選項與政策建立線上會議。 瞭解如何透過自動化建立班級團隊。 瞭解如何支援共同合作教室環境。|200|Juliano Menegazzo Souza|
 ||||||
 
-### <a name="frontline-worker"></a>第一線 Worker
+### <a name="frontline-worker"></a>前線工作人員
 
-| 標題 | 概要            | 層級|  者|
+| 標題 | 抽象            | 水準|  揚聲器|
 |---|----------|---|---|---|
-|[使用 Microsoft 團隊為您的第一線員工啟用業務連續性](https://aka.ms/OD258)|隨著組織繼續調整他們的運營與員工，以維持業務連續性，Microsoft 團隊中的新功能可協助第一線工人保持專注于滿足客戶的需求。這個講座將重點放在倒班、工作和核心通訊，以及 Walkie Talkie 功能，以建立安全且集中的使用者體驗，以節省您的時間和金錢。|200|Scott Morrison，Zoe Hawtof|
-|[部署和管理啟用團隊的裝置，以符合您第一線工作力的多種需求](https://aka.ms/PR114)|瞭解如何部署第一線的特定裝置，讓工作人員能在工作上將焦點集中在作業前面。  本逐步解說將包含小組 Walkie Talkie 和無人參與共同作業的案例。 |200|Abid Chaudhry，James Ellis|
-|[使用 Microsoft 365 系統管理中心的功能管理分散式第一線 Workforces](https://aka.ms/PR115)|針對適用于第一線工作者的 Microsoft 365 中的常見 IT 部署與管理案例，探索最佳做法及實際指導方針。 瞭解如何在 Microsoft 團隊中建立適當的體驗，並成功推出解決方案來支援您的第一線工作力。 |300|Irina Parsina, Zoe Hawtof|  
+|[在前線員工中啟用業務連續性Microsoft Teams](https://aka.ms/OD258)|隨著組織持續調整其營運和人力以維持業務連續性，Microsoft Teams新功能可協助前線員工持續專注于滿足客戶需求。此會話將著重于班次、工作及核心通訊，以及 Walkie Talkie 功能，以建立安全且集中式使用者體驗，為您節省時間與金錢。|200|ScottMormoron， Zoe Ha的f|
+|[部署及Teams啟用的裝置，以滿足前線員工的各種需求](https://aka.ms/PR114)|瞭解如何部署 Frontline 特定裝置，讓員工以新的方式專注于前方的工作。  本演練將包含使用 Walkie Talkie Teams和免手共同操作案例。 |200|阿森特·查德里，James Ellis|
+|[使用系統管理中心的功能管理分散式前線Microsoft 365員工](https://aka.ms/PR115)|探索適用于前線工作者的 it 部署和管理案例的最佳作法Microsoft 365實用指南。 瞭解如何在公司中建立正確的Microsoft Teams並成功推出解決方案，以支援您的前線員工。 |300|Iina Parsina， Zoe Haf|  
 |||||

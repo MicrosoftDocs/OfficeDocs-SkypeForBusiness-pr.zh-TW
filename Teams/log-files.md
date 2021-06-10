@@ -40,9 +40,9 @@ ms.locfileid: "52689691"
 
 ## <a name="collect-and-enable-logging"></a>收集和啟用記錄
 
-發生問題時，收集記錄非常重要。 只要按幾下滑鼠，就能收集記錄。
+發生問題時，收集記錄非常重要。 只要按幾下滑鼠，就能將記錄收集在一起。
 
-Windows：以滑鼠右鍵按一下系統Teams中的 [檔案備份Teams，然後選擇 [**收集支援檔案**> 。 
+Windows：以滑鼠右鍵按一下系統Teams中的 [收集支援 **檔案**> 圖示。 
 
 Mac：選取説明功能表，然後選擇收集 **支援檔案**。
 
@@ -99,12 +99,12 @@ Mac：Option + Command + Shift + 1
 
 以下是產生的記錄檔案清單及其包含的資訊。
 
-|記錄檔案名  |說明  |
+|記錄檔案名  |描述  |
 |---------|---------|
 |Teams.msrtc-0-s1039525249.blog     | 包含媒體堆疊相關資訊。 這包括頻道狀態，例如解析度、使用的解碼器及編碼器，以及已送出和接收的畫面數目，以及攝影機和視 (視) 會話狀態。         |
 |rtmcontrol.msrtc-0-2415069487.blog      |記錄與遠端控制動作相關的資訊，例如提供控制項時時間戳記，以及滑鼠指標資訊。          |
 |Teams_MediaStackETW-2-U-xr-U.etl      |記錄媒體堆疊追蹤事件。         |
-|Debug-0-s2790420889.blog    | 包含媒體代理程式相關資訊，包括呈現品質。          |
+|Debug-0-s2790420889.blog    | 包含與媒體代理程式有關的資訊，包括呈現品質。          |
 |tscalling-0-2061129496.blog   |在 ts-calling API 中記錄事件。       |
 
 ## <a name="desktop-logs"></a>桌面記錄
@@ -121,7 +121,7 @@ Mac：Option + Command + Shift + 1
 
 在啟動瀏覽器追蹤之前，請確認您已Teams。 在啟動追蹤之前，執行這項工作非常重要，這樣追蹤就不包含敏感性的登錄資訊。
 
-在您登錄後，請選取下列其中一個連結 ，以適合您的瀏覽器使用，然後按照提供的步驟進行。 
+在您登錄後，請選取下列其中一個連結 ，以適合您的瀏覽器使用，然後遵循所提供的步驟。 
 
 -   [Chrome & Edge (Chromium) ](/azure/azure-portal/capture-browser-trace#google-chrome-and-microsoft-edge-chromium?preserve-view=true#resolution)
 
@@ -132,7 +132,7 @@ Mac：Option + Command + Shift + 1
 -   [火狐](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
 
 > [!NOTE]
-> 在步驟中，將 Azure 入口網站的所有參照取代為Teams用戶端。 
+> 在步驟中，將 Azure 入口網站的所有參照取代為 Teams用戶端。 
 
 ## <a name="related-topics"></a>相關主題
 

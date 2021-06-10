@@ -15,7 +15,7 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 瞭解如何將 [透過電話撥出媒體] 設定為 Microsoft 團隊，只要一次切換所有使用者或執行逐步例行（建議）。
+description: 瞭解如何設定媒體旁路電話系統直接路由Microsoft Teams一次切換所有使用者，或採用建議的逐步 (方法) 。
 ms.custom: seo-marvel-apr2020
 ms.openlocfilehash: 41e5aae3f91c13653119b04fb88364ce93a4d90c
 ms.sourcegitcommit: 1e7bc16969db01317ee482cabf681febae0ef51f
@@ -26,37 +26,37 @@ ms.locfileid: "44416893"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>設定媒體旁路搭配直接路由
 
-在使用直接路由配置旁路媒體之前，請確定您有[使用直接路由的媒體旁路方案](direct-routing-plan-media-bypass.md)。
+使用直接路由來配置媒體旁路之前，請務必先閱讀使用直接路由 [的媒體旁路方案](direct-routing-plan-media-bypass.md)。
 
-若要開啟 [媒體旁路]，必須符合下列條件：
+若要開啟媒體旁路，必須符合下列條件：
 
-1.    請確定您的會話邊界控制器（SBC）選擇支援媒體旁路，並提供如何在 SBC 上設定旁路的指示。 請參閱認證頁面，瞭解 SBCs、支援媒體旁路的資訊，以及相關指示。
+1.    請確定您的會話邊界控制器 (選擇) 廠商支援媒體旁路，並提供如何在 SBC 上設定旁路的指示。 請參閱認證頁面，以瞭解支援媒體旁路的 SBCs，以及指示。
 
-2.    您必須使用下列命令在幹線上開啟媒體旁路： **CSOnlinePSTNGateway 身分識別 <sbc_FQDN>-MediaBypass $true**。
+2.    您需要使用下列命令開啟主幹上的媒體旁路 **：Set-CSOnlinePSTNGateway -Identity <sbc_FQDN> -MediaBypass $true。**
 
-3.    確定所需的埠已開啟。 
+3.    請確定已開啟所需的埠。 
 
 
-## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>從非回避 trunks 遷移到旁路啟用的 trunks
+## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>從未忽略的主幹遷移到已啟用旁路的主幹
 
-您可以一次切換所有使用者，或者您可以執行分階段的階段（建議使用）。
+您可以一次切換所有使用者，也可以按照建議的方式， (逐步) 。
 
-- **一次切換所有使用者。** 如果符合所有條件，您可以開啟 [略過] 模式。 不過，您所有的生產使用者都會同時進行切換。 因為您在最初設定 trunks 和埠時可能會遇到一些問題，所以您的生產使用者體驗可能會受到影響。 
+- **一次切換所有使用者。** 如果符合所有條件，您可以開啟旁路模式。 不過，所有生產使用者都會同時切換。 由於您一開始在設定主幹和埠時可能會遇到一些問題，因此您的生產使用者體驗可能會受到影響。 
 
-- **分階段的方法。（建議使用）**。  針對同一個 SBC （使用不同的埠）建立新的主幹，進行測試，然後變更使用者的線上語音路由原則，以指向新的主幹。 
+- **階段方法。 (建議) 。**  為具有不同埠 (的同一個 SBC) 建立新主幹、進行測試，並變更使用者指向新主幹的線上語音路由策略。 
 
-  這是建議的方法，因為它可讓您更順暢地轉換和不間斷的使用者體驗。 這個方法需要使用 SBC、新的 FQDN 名稱和防火牆的設定。 注意：您必須確認您的憑證同時支援這兩個 trunks。 在 SAN 中，您必須有兩個名稱（**sbc1.contoso.com**和**sbc2.contoso.com**），或是擁有萬用字元證書。
+  這是建議的方法，因為它可讓轉場更順暢，且使用者體驗不受干擾。 此方法需要 SBC 的組組、新的 FQDN 名稱，以及防火牆的組組。 請注意，您必須確定憑證支援這兩個主幹。 在 SAN 中，您必須有兩個名稱 (sbc1.contoso.com，sbc2.contoso.com) 萬用字元憑證。  
 
-![從非回避 trunks 遷移到旁路啟用的 trunks）](media/direct-routing-media-bypass-8.png)
+![從未忽略的主幹遷移到已啟用旁路的主幹) ](media/direct-routing-media-bypass-8.png)
 
-如需如何設定 trunks 及執行遷移的指示，請參閱來自 SBC 廠商的檔：
+有關如何設定主幹並執行移移的指示，請參閱 SBC 廠商提供的檔：
 
 - [AudioCodes 部署檔](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Oracle 部署檔](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)
 - [功能區通訊部署檔](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
-- [TE-系統（anynode）部署檔](https://www.anynode.de/anynode-and-microsoft-teams/)
+- [TE-Systems (任何) 部署檔](https://www.anynode.de/anynode-and-microsoft-teams/)
 
-如需直接路由認證的會話邊界控制器（SBCs）清單，請參閱[認證直接路由的會話 Broder 控制器清單](direct-routing-border-controllers.md)。
+有關已通過直接路由 (SBC 的會話邊界控制器) ，請參閱通過直接路由認證的 [會話布](direct-routing-border-controllers.md)羅德控制器清單。
 
 
 

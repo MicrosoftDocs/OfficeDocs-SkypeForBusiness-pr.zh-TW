@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 通話佇列支援的語言
+title: Microsoft Teams通話佇列支援的語言
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Microsoft Teams 通話佇列支援的語言
+description: Microsoft Teams通話佇列支援的語言
 ms.openlocfilehash: 0d5e587c8a90c11a2b6b3234a98510101e2cb94c
 ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
 ms.translationtype: MT
@@ -29,50 +29,50 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 02/12/2021
 ms.locfileid: "50197059"
 ---
-# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams 通話佇列支援的語言
+# <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams通話佇列支援的語言
 
 通話佇列支援 TTS 中文字到語音 (語言) ：
 
 |語言                                |
 |:---------------------------------------|
 |阿拉伯 (埃及)                           |
-|加泰蘭 (加泰蘭)                        |
-|簡 (簡體中文、中國)                |
+|Catalan (加泰羅尼亞)                        |
+|中文 (簡體，中國)                |
 |繁 (繁體中文、香港)         |
-|繁 (繁體中文、臺灣)            |
-|克羅 (克羅)                       |
-|捷克 (捷克文)                   |
+|繁 (傳統、臺灣)            |
+|克羅地亞 (克羅地亞)                       |
+|捷克 (捷克共和國)                   |
 |丹麥 (丹麥)                         |
 |荷蘭 (荷蘭)                      |
-|澳大利亞 (英文)                      |
+|澳洲 (英文)                      |
 |加拿大 (英文)                         |
 |印度 (英文)                          |
 |英國 (英文)                 |
 |美國 (英文)                  |
 |芬蘭 (芬蘭)                        |
-|法文 (加拿大)                          |
+|加拿大 (法文)                          |
 |法文 (法國)                          |
-|德文 (德國)                         |
+|德文 (德文)                         |
 |希臘 (希臘)                           |
 |匈牙利 (匈牙利)                      |
 |印尼 (印尼)                   |
 |義大利 (義大利)                          |
 |日文 (日本)                         |
-|韓 (韓國)                           |
-|挪威文 (挪威)                |
+|韓國 (韓國)                           |
+|挪威波克 (挪威)                |
 |波蘭 (波蘭)                          |
-|葡萄牙文 (巴西)                      |
+|巴西 (葡萄牙文)                      |
 |葡萄牙文 (葡萄牙)                    |
 |羅馬尼亞 (羅馬尼亞)                       |
-|俄 (俄羅斯)                         |
+|俄羅斯 (俄羅斯)                         |
 |斯洛伐克 (斯洛伐克)                        |
 |斯洛 (斯洛)                     |
-|西班牙文 (墨西哥)                         |
+|墨西哥 (西班牙文)                         |
 |西班牙文 (西班牙，國際)           |
 |瑞典文 (瑞典)                         |
-|泰國 (泰文)                          |
+|泰國 (泰國)                          |
 |土耳其 (土耳其)                         |
 |越南文 (越南)                     |
 
 > [!NOTE]
-> 使用文字轉換語音功能時，文字必須以選取的語言輸入，因為系統不會執行翻譯。
+> 使用文字轉換語音時，系統無法執行翻譯，因此必須以所選語言輸入文字。

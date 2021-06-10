@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于澳洲的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+description: 以下是適用于澳洲Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
 ms.openlocfilehash: afe7f5cf0cdb3758f107cee2801ccf07779c747f
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51118422"
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于澳洲的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+以下是適用于澳洲Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
 
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -88,7 +88,7 @@ ms.locfileid: "51118422"
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
 
-如果您想要取得自動語音服務、通話佇列或音訊會議服務號碼的付費和免付費電話號碼， [請聯絡我們](mailto:ptnapac@microsoft.com)。
+如果您想要取得自動語音電話、通話佇列或音訊會議服務號碼的付費和免付費電話號碼， [請聯絡我們](mailto:ptnapac@microsoft.com)。
 
 ## <a name="communications-credits"></a>通訊點數
 

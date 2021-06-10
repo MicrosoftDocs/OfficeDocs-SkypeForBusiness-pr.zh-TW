@@ -23,7 +23,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于阿爾巴尼亞的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
 ms.openlocfilehash: 1bc14449b8388348ac6fe8783d42129f68a301e2
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -35,7 +35,7 @@ ms.locfileid: "51118452"
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于阿爾巴尼亞的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -72,7 +72,7 @@ ms.locfileid: "51118452"
 |有提供付費電話號碼嗎？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
 |免付費號碼是否可用？  <br/> |否  <br/> |
    
- 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得商務用 Skype 和 [Microsoft Teams](../getting-service-phone-numbers.md)的服務電話號碼。
+ 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通訊點數
 

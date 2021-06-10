@@ -31,7 +31,7 @@ ms.locfileid: "52705257"
 
 ### <a name="career-coach"></a>職業教練
 
-職稱教練是Microsoft Teams教育用應用程式，由 LinkedIn提供個人化指引，讓高教學生流覽其事業歷程。 Career Coach 為教育機構提供一個統一的生涯解決方案，讓學生探索其事業路徑、培養實際技能，以及將他們的網路全部建在一個地方。 [深入了解](../career-coach.md)。
+職稱教練是Microsoft Teams教育用應用程式，由 LinkedIn提供個人化指引，讓高教學生流覽其事業歷程。 Career Coach 為教育機構提供統一的生涯解決方案，讓學生探索其事業路徑、培養實際技能，以及將網路全部建在一個地方。 [深入了解](../career-coach.md)。
 
 ## <a name="march-31-2021"></a>2021 年 3 月 31 日
 
@@ -43,7 +43,7 @@ ms.locfileid: "52705257"
 
 ### <a name="customize-apps-in-teams-preview"></a>在預覽Teams (自訂) 
 
-Microsoft Teams應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂Teams應用程式。系統管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新Teams應用程式屬性。 [深入了解](../customize-apps.md)。
+Microsoft Teams應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂Teams應用程式。管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新Teams應用程式屬性。 [深入了解](../customize-apps.md)。
 
 ## <a name="march-29-2021"></a>2021 年 3 月 29 日
 
@@ -180,7 +180,7 @@ Microsoft Teams是一種一體式專用Teams裝置，具有環境觸控螢幕和
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>管理商務用 Skype的設定
 
-您可以在系統管理商務用 Skype管理商務用 Skype管理中心管理貴Microsoft Teams使用者的功能。 請前往 **組織範圍的設定**  >  **商務用 Skype。** 您可以在這裡管理Skype廣播、目前狀態和行動通知。 [深入了解](../skype-for-business-settings.md)。
+您可以在系統管理商務用 Skype管理商務用 Skype管理中心管理貴Microsoft Teams使用者的功能。 請前往 **組織範圍的設定**  >  **商務用 Skype。** 您可以從這裡管理Skype廣播、目前狀態和行動通知。 [深入了解](../skype-for-business-settings.md)。
 
 ## <a name="october-16-2020"></a>2020 年 10 月 16 日
 
@@ -194,7 +194,7 @@ Microsoft Teams是一種一體式專用Teams裝置，具有環境觸控螢幕和
 
 *這項功能在私人預覽中*
 
-自訂策略套件讓您針對組織中具有類似角色的使用者，將您自己的一群組原則組合在一起。 新增所需的策略類型與策略，以建立您自己的策略套件。 [深入了解](../manage-policy-packages.md#custom-policy-packages)。
+自訂策略套件讓您針對組織中具有類似角色的使用者，將您自己的一群組原則組合在一起。 新增您所需的策略類型與策略，以建立您自己的策略套件。 [深入了解](../manage-policy-packages.md#custom-policy-packages)。
 
 ### <a name="add-an-app-to-a-team-in-the-microsoft-teams-admin-center"></a>在系統管理中心新增應用程式Microsoft Teams小組
 
@@ -300,9 +300,9 @@ Microsoft Teams新的會議錄製方式。 這是從傳統 Microsoft Stream 轉�
 
 ### <a name="cortana-voice-skills-in-teams"></a>Cortana 語音技能在 Teams
 
-行動應用程式中的 Cortana 語音Teams使用者只要使用口語自然語言，就可協助使用者執行會議、通訊和共同作業。 使用者可以按一下 Teams App 中的麥克風按鈕來與 Cortana 通話，並且提出要求，例如「打電話給 Megan」或「傳送訊息到下一場會議」，如果他們需要與某人聯繫，同時處理家庭雜務或遛狗或一般在外走動。 使用者只要說「加入我的下一個會議」，或詢問「我早上有什麼」，就可以加入會議。 在會議或通話中，他們可以從會議階段中的溢出功能表叫用 Cortana，並執行典型的會議內工作，例如按名稱或號碼新增人員 ("將 Megan 新增到通話中") 、幻燈片組簡報 ("簡報每季評論組") 或流覽幻燈片 ("前往附件幻燈片") 。 此功能支援的其他功能包括尋找及共用檔案、搜尋及流覽 Teams App (「開啟與 John 的聊天、前往未讀取的活動、前往我的提及等等) 。
+行動應用程式中的 Cortana 語音Teams使用者只要使用口語自然語言，就可協助使用者執行會議、通訊和共同作業。 使用者可以按一下 Teams App 中的麥克風按鈕來與 Cortana 通話，並且提出要求，例如「打電話給 Megan」或「傳送訊息到下一場會議」，如果他們需要與某人聯繫，同時處理家庭雜務或遛狗或一般在外走動。 使用者只要說「加入我的下一個會議」，或詢問「我早上有什麼」，就可以加入會議。 在會議或通話中，他們可以從會議階段中的溢出功能表叫用 Cortana，並執行典型的會議內工作，例如按名稱或號碼新增人員 ("將 Megan 新增到通話中") 、幻燈片組簡報 ("簡報每季評論組") 或流覽幻燈片 ("前往附件幻燈片") 。 此功能支援的其他專案包括尋找及共用檔案、搜尋及流覽 Teams App (「開啟與 John 的聊天、前往未讀取的活動、前往我的提及等等) 。
 
-Cortana Teams與 Cortana 企業服務的企業級隱私權、安全性和合規性承諾相同，如線上服務條款與 OST (所[) 。](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) [深入了解](../cortana-in-teams.md)。
+Teams中的 Cortana 符合與 Cortana 企業服務相同的企業級隱私權、安全性和合規性承諾，如線上服務條款與 OST (所[) 。](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) [深入了解](../cortana-in-teams.md)。
 
 ### <a name="teams-devices-administrator"></a>Teams裝置系統管理員
 
@@ -326,7 +326,7 @@ Teams使用者現在可以使用清單應用程式選項卡直接管理、建立
 
 Teams應用程式可免費安裝，有些應用程式可能需要購買服務訂閱，以體驗 App 的完整功能和範圍。 這些服務訂閱稱為軟體即服務 (SaaS) 方案，可透過 AppSource 購買，現在Microsoft Teams系統管理中心。 [深入了解](../purchase-third-party-apps.md)。
 
-### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>發佈透過應用程式提交 API Teams的自訂應用程式
+### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>發佈透過應用程式提交 API Teams提交的自訂應用程式
 
 開發人員可以使用應用程式提交TEAMS API，將自訂應用程式直接提交至 Microsoft Teams系統管理中心，讓系統管理員進行審閱和核准。 [深入了解](../submit-approve-custom-apps.md)。
 
@@ -400,11 +400,11 @@ Teams應用程式可免費安裝，有些應用程式可能需要購買服務訂
 
 ### <a name="screen-sharing-on-behalf-of-others"></a>代表其他人進行螢幕畫面共用
 
-許多 IT 系統管理員抱怨當他們停用 AllowPrivateCalling 政策時，無法讓員工從聊天分享螢幕畫面。 這項功能已使從 AllowPrivateCalling 政策啟動畫面功能的功能脫鉤，但如果使用者的 AllowPrivateCalling 政策停用，仍然無法將音訊/視像新加入螢幕共用會話。
+許多 IT 系統管理員抱怨當他們停用 AllowPrivateCalling 政策時，無法讓員工從聊天分享螢幕畫面。 這項功能已使從 AllowPrivateCalling 政策啟動畫面功能的功能脫鉤，但如果其 AllowPrivateCalling 政策停用，它仍然會禁止使用者將音訊/視像新增到螢幕共用會話。
 
 ## <a name="june-29-2020"></a>2020 年 6 月 29 日
 
-### <a name="walkie-talkie-app-in-microsoft-teams"></a>在應用程式中的對講Microsoft Teams
+### <a name="walkie-talkie-app-in-microsoft-teams"></a>在應用程式中的 Walkie Talkie Microsoft Teams
 
 使用隨推即用立即語音通訊。 [深入了解](../walkie-talkie.md)。
 
@@ -474,7 +474,7 @@ Teams應用程式可免費安裝，有些應用程式可能需要購買服務訂
 
 ### <a name="team-and-channel-analytics"></a>小組和頻道分析
 
-除了團隊分析之外，現在您也可以查看頻道層級度量和深入解析。 我們也將期間增強為 90 天，因此您可以分析較長的期間資料。 除此之外，此版本還包含關於小組或頻道的文章、回復和會議數量的新度量和圖表。 [深入了解](../teams-analytics-and-reports/view-analytics.md)。
+除了團隊分析之外，現在您也可以查看頻道層級度量和深入解析。 我們也將期間增強為 90 天，因此您可以分析較長的期間資料。 除此之外，此版本還包含有關小組或頻道的文章、回復和會議數量的新度量和圖表。 [深入了解](../teams-analytics-and-reports/view-analytics.md)。
 
 ## <a name="april-20-2020"></a>2020 年 4 月 20 日
 
@@ -502,7 +502,7 @@ Microsoft Teams的用戶端可讓前線員工使用 Real求強固式頭戴式穿
 
 ## <a name="march-30-2020"></a>2020 年 3 月 30 日
 
-### <a name="policy-based-recording-for-teams-calls-and-meetings"></a>以策略為基礎的錄製Teams通話和會議
+### <a name="policy-based-recording-for-teams-calls-and-meetings"></a>通話和會議Teams型錄製
 
 此功能可讓透過 Microsoft 認證的軟體廠商自動錄製Teams通話和會議。
 

@@ -1,5 +1,5 @@
 ---
-title: 團隊撥號鍵台設定
+title: Teams撥號鍵台組
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -16,7 +16,7 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 瞭解如何在團隊用戶端設定撥號鍵台，讓使用者可以存取公用的交換式電話網絡（PSTN）功能。
+description: 瞭解如何在用戶端中設定撥號鍵Teams，讓使用者能夠存取公用交換電話網絡 (PSTN) 功能。
 ms.openlocfilehash: 44fcbb766cadaa4b31aa065fae80fdcd48c5453f
 ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
 ms.translationtype: MT
@@ -24,29 +24,29 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 07/01/2020
 ms.locfileid: "45012412"
 ---
-# <a name="dial-pad-configuration"></a>撥號鍵台設定
+# <a name="dial-pad-configuration"></a>撥號鍵台組
 
-在 [團隊用戶端] 中，使用撥號鍵台可以讓使用者存取公用的交換式電話網絡（PSTN）功能。 如果使用者設定正確，就可以使用撥號鍵台來供具備電話系統授權的使用者使用。 若要顯示撥號鍵台，必須具備下列準則：
+在 Teams 用戶端中，撥號鍵台可讓使用者存取公用交換電話網絡 (PSTN) 功能。 撥號鍵台可供擁有電話系統的使用者使用，但必須正確配置。 撥號鍵台必須符合下列準則才能顯示：
 
-- 使用者有已啟用的電話系統（"MCOEV"）授權
-- 使用者擁有 Microsoft 通話方案，或已啟用直接路由
-- 使用者已啟用企業語音
-- 使用者是在線上且不在商務用 Skype 內部部署中
-- 使用者已啟用團隊通話原則
+- 使用者已啟用電話系統 ( MCOEV") 授權
+- 使用者有 Microsoft 通話方案或已啟用直接路由
+- 使用者已啟用企業語音功能
+- 使用者位於線上，而不是商務用 Skype內部部署
+- 使用者已Teams通話策略
 
-下列各節說明如何使用 PowerShell 來檢查準則。 在大多數情況下，您必須在 CsOnlineUser Cmdlet 的輸出中查看各種屬性。 範例假設 $user 是使用者的 UPN 或 sip 位址。
+下列各節說明如何使用 PowerShell 檢查準則。 在大多數的情況下，您需要查看 Cmdlet 輸出Get-CsOnlineUser屬性。 範例假設$user為使用者的 UPN 或 sip 位址。
 
-## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>使用者有已啟用的電話系統（"MCOEV"）授權
+## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>使用者已啟用電話系統 ( MCOEV") 授權
 
-您必須確保指派給使用者的方案顯示**已將 CapabilityStatus 屬性設定為 [已啟用**]，而**功能方案則設定為 MCOEV** （[電話系統授權]）。 您可能會看到 [MCOEV]、[MCOEV1] 等等。 全部都可接受-只要功能計畫以 MCOEV 開始。
+您必須確定為使用者指派的計畫顯示 **設為啟用的 CapabilityStatus** 屬性，且功能計畫設為 **MCOEV** (電話系統授權) 。 您可能會看到 MCOEV、MCOEV1 等。 只要功能計畫以 MCOEV 開頭，所有專案都可接受。
 
-若要檢查屬性是否設定正確，請使用下列命令：
+若要檢查屬性是否正確設定，請使用下列命令：
 
 ```
 Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 ```
 
-輸出看起來會如下所示。 您只需要檢查**CapabilityStatus**及**功能方案**的屬性：
+輸出看起來會像這樣。 您只需要檢查 **功能Status** 和 **功能計畫** 屬性：
 
 ```
 <Plan SubscribedPlanId="2f9eda01-4630-4a5c-bdb3-cf195f22d240"  
@@ -63,9 +63,9 @@ Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 ```
 
 
-## <a name="user-has-microsoft-calling-plan-or-is-enabled-for-direct-routing"></a>使用者擁有 Microsoft 通話方案，或已啟用直接路由
+## <a name="user-has-microsoft-calling-plan-or-is-enabled-for-direct-routing"></a>使用者已啟用 Microsoft 通話方案或已啟用直接路由
 
-**如果使用者有 Microsoft 通話方案**，您必須確保**CapabilityStatus 屬性已設定為 [啟用**]，且**功能方案已設定為 MCOPSTN**。 您可能會看到 [MCOPSTN1]、[MCOPSTN2] 等等。 全部都可接受-只要功能計畫以 MCOPSTN 開始。
+**如果使用者有 Microsoft 通話方案**，您必須確定 **CapabilityStatus** 屬性設定為啟用，且功能方案已設定為 **MCOPSTN。** 您可能會看到 MCOPSTN1、MCOPSTN2 等。 只要功能計畫以 MCOPSTN 開頭，所有專案都可接受。
 
 若要檢查屬性，請使用下列命令：
 
@@ -73,7 +73,7 @@ Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 ```
 
-輸出看起來會如下所示。 您只需要檢查**CapabilityStatus**及**功能方案**的屬性：
+輸出看起來會像這樣。 您只需要檢查 **功能Status** 和 **功能計畫** 屬性：
 
 ```  
 <Plan SubscribedPlanId="71d1258e-a4e6-443f-884e-0f3d6f644bb1" 
@@ -89,13 +89,13 @@ xmlns="http://schemas.microsoft.com/online/directoryservices/change/2008/11">
 </Plan>
   ```
 
-**如果使用者已啟用直接路由**，則使用者必須為 OnlineVoiceRoutingPolicy 指派非 null 值。 若要檢查屬性，請使用下列命令：
+**如果使用者已啟用直接** 路由，則必須為 OnlineVoiceRoutingPolicy 指派非 Null 值。 若要檢查屬性，請使用下列命令：
   
 ```
 Get-CsOnlineUser -Identity $user|Select OnlineVoiceRoutingPolicy 
 ```
 
-輸出應具有非 null 值，例如：
+輸出應具有非 Null 值，例如：
 
 ```
 OnlineVoiceRoutingPolicy
@@ -103,7 +103,7 @@ OnlineVoiceRoutingPolicy
 Test_Policy
 ```
 
-## <a name="user-has-enterprise-voice-enabled"></a>使用者已啟用企業語音
+## <a name="user-has-enterprise-voice-enabled"></a>使用者已啟用企業語音功能
 
 若要檢查使用者是否已啟用企業語音，請使用下列命令：
 
@@ -111,7 +111,7 @@ Test_Policy
 Get-CsOnlineUser -Identity $user|Select EnterpriseVoiceEnabled
 ```
 
-輸出應如下所示：
+輸出看起來應該會像這樣：
 
 ```
 EnterpriseVoiceEnabled
@@ -120,15 +120,15 @@ EnterpriseVoiceEnabled
 
 ```
  
-## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>使用者是在線上且不在商務用 Skype 內部部署中
+## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>使用者位於線上，而不是商務用 Skype內部部署
 
-若要確保使用者在線上且不是在內部部署商務用 Skype 中，RegistrarPool 不得為 null，且 HostingProvider 必須包含以 "sipfed." 開頭的值。  若要檢查值，請使用下列命令：
+若要確保使用者位於線上，而非內部商務用 Skype，RegistrarPool 不得為 Null，HostingProvider 必須包含以「sipfed.online」開頭的值。  若要檢查值，請使用下列命令：
 
 ```
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider
 ```
 
-輸出應該類似以下所示：
+輸出應該類似：
 
 ```
 RegistrarPool                 HostingProvider
@@ -136,17 +136,17 @@ RegistrarPool                 HostingProvider
 sippoolbn10M02.infra.lync.com sipfed.online.lync.com
 ```
 
-## <a name="user-has-teams-calling-policy-enabled"></a>使用者已啟用團隊通話原則
+## <a name="user-has-teams-calling-policy-enabled"></a>使用者已Teams通話策略
 
-使用者的 [有效 TeamsCallingPolicy] 必須已將 AllowPrivateCalling 設定為 true。  根據預設，使用者會繼承全域原則，預設會將 AllowPrivateCallingPolicy 設定為 true。
+使用者的有效 TeamsCallingPolicy 必須設定為 True AllowPrivateCalling。  根據預設，使用者會繼承全域原則，根據預設，全域原則的 AllowPrivateCallingPolicy 設定為 true。
 
-若要取得使用者的 TeamsCallingPolicy，並檢查 AllowPrivateCalling 是否設定為 true，請使用下列命令：
+若要取得使用者的 TeamsCallingPolicy，並檢查 AllowPrivateCalling 設定為 true，請使用下列命令：
 
 ```
 if (($p=(get-csonlineuser -Identity $user).TeamsCallingPolicy) -eq $null) {Get-CsTeamsCallingPolicy -Identity global} else {get-csteamscallingpolicy -Identity $p}
 ```
 
-輸出應如下所示：
+輸出看起來應該會像這樣：
 
 ```
 Identity                   : Global
@@ -165,16 +165,16 @@ MusicOnHoldEnabledType     : Enabled
 
 ## <a name="additional-notes"></a>其他筆記
 
--   在變更任何設定之後，您可能需要重新開機團隊用戶端。
+-   進行上述任何一個Teams之後，您可能需要重新開機用戶端。
 
--   如果您最近更新了上述任何一個準則，您可能需要等候幾個小時，用戶端才能收到新設定。
+-   如果您最近更新了上述任何準則，您可能需要等候數小時，用戶端才能收到新的設定。
 
--   如果您仍然看不到撥號鍵台，請使用下列命令檢查是否有提供錯誤：
+-   如果您仍然看不到撥號鍵台，請用下列命令檢查是否有置備錯誤：
 
   ```
   Get-CsOnlineUser -Identity $user|Select McoValidationError
   ```
 
--    如果有超過24小時的時間，但仍有問題，請聯絡支援人員。
+-    如果超過 24 小時，但您仍然看到問題，請聯絡支援人員。
 
 

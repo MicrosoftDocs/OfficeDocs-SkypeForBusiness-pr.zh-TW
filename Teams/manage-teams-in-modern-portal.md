@@ -36,7 +36,7 @@ ms.locfileid: "52237539"
 作為系統管理員，您可能需要查看或更新貴組織為共同合作所設定的團隊，或者您可能需要執行補救動作，例如指派無擁有者團隊的擁有者。 您可以透過 PowerShell 模組和系統管理中心管理Microsoft Teams組織中Microsoft Teams團隊。 您可以在 存取系統管理中心 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 。 針對使用這兩個工具集的完整管理功能，您應該確定已指派下列其中一個角色：
 
 - 全域系統管理員
-- Teams管理員
+- Teams 系統管理員
 
 您可以在使用 Microsoft Teams 系統管理員角色來管理[Teams](using-admin-roles.md)中深入瞭解 Teams 中的系統管理員角色，並深入瞭解如何使用 PowerShell Cmdlet 在[Microsoft Teams Cmdlet](/powershell/teams/?view=teams-ps)參照中管理團隊。
 
@@ -66,7 +66,7 @@ ms.locfileid: "52237539"
 
 ### <a name="add"></a>添加
 
-若要新增團隊，請按一下 [ **新增**。 在新增 **團隊窗格中** ，為團隊命名和描述，設定您是否要將其設為私人或公開團隊，並設定分類。
+若要新增團隊，請按一下 [ **新增**。 在新增 **團隊窗格中** ，為團隊命名和描述，設定是否要將其設為私人或公開團隊，然後設定分類。
 
 > [!NOTE]
 > 新建立的團隊可以在系統管理中心Teams管理，不像其他用戶端中的體驗，例如 Outlook。
@@ -89,7 +89,7 @@ ms.locfileid: "52237539"
 
 ## <a name="team-profile"></a>小組設定檔
 
-您可以按一下團隊名稱，從主要團隊概觀格線流覽至任何團隊的小組設定檔頁面面。 小組設定檔頁面面會顯示屬於團隊 (的成員、擁有者和來賓，以及團隊 Microsoft 365 群組) 的支援，以及團隊的頻道和設定。 從小組設定檔頁面面，您可以：
+您可以按一下團隊名稱，從主要團隊概觀格線流覽至任何團隊的小組設定檔頁面面。 小組設定檔頁面面會顯示屬於團隊 (的成員、擁有者和來賓，以及其支援 Microsoft 365 群組) ，以及團隊的頻道和設定。 從小組設定檔頁面面，您可以：
 
 - 新增或移除成員和擁有者。
 - 新增或移除 (，請注意，您無法移除一般) 。
@@ -122,11 +122,11 @@ ms.locfileid: "52237539"
 
 **解析度：透過 MS 或 Graph**
 
-在查詢中將 **{groupid}** 取代為問題的實際 GroupId，您可以透過 Exchange Online powershell 取得此名稱，以 **[「Get-UnifiedGroup」](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)** Cmdlet 取代為 **「ExternalDirectoryObjectId」** 屬性。
+在查詢中，將 **{groupid}** 取代為問題的實際 GroupId，您可以透過 Exchange Online powershell 取得此名稱，以 **[「Get-UnifiedGroup」](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)** Cmdlet 取代為 **「ExternalDirectoryObjectId」** 屬性。
 
 1. Access [Graph Explorer](https://developer.microsoft.com/graph/graph-explorer)。
 
-2. 在左側功能表Graph的 Explorer。
+2. 在左側功能表Graph使用 Explorer。
 
 3. 將查詢行變更為：PATCH > v1.0 https://graph.microsoft.com/v1.0/groups/{groupid} >。
 

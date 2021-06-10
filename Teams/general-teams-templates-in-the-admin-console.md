@@ -76,13 +76,13 @@ ms.locfileid: "52684560"
 | 管理活動| `com.microsoft.teams.template.ManageAnEvent` | 頻道： <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與公關</li></ul> 應用程式：<ul><li>Wiki</li><li>網站</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
 ||||
 
-## <a name="onboard-employees"></a>員工上機
+## <a name="onboard-employees"></a>上載員工
 
 利用這個中央小組改善您的文化，並簡化員工上線，以尋找資源、問題和一些樂趣。
 
 | 範本類型 |baseTemplateId| 此基本範本提供的屬性 |
 | ------------------|--|-----------------------------------------------------------|
-|員工上機|`com.microsoft.teams.template.OnboardEmployees`  | 頻道： <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用程式：<ul><li>Wiki</li><li>社區</li><li>Planner</li></ul>|
+|上載員工|`com.microsoft.teams.template.OnboardEmployees`  | 頻道： <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用程式：<ul><li>Wiki</li><li>社區</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="organize-a-help-desk"></a>組織服務台

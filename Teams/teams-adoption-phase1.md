@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊採用階段 1-開始
+title: Microsoft Teams採用階段 1 - 開始
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 在本文中，您將瞭解 Microsoft 團隊採納的啟動階段中的活動。 瞭解 Microsoft 團隊設定和小組規劃的最佳做法。
+description: 在本文中，您將瞭解採用新方案啟動階段的活動Microsoft Teams活動。 瞭解有關設定Microsoft Teams小組規劃的最佳作法。
 f1.keywords:
 - CSH
 ms.custom:
@@ -28,49 +28,49 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49806123"
 ---
-# <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft 團隊採用階段 1-開始
+# <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams採用階段 1 - 開始
 
-您將使用下列活動來開始您的小組採納：
+您將使用下列Teams開始採用：
 
-- [驗證採納的先決條件](#validate-adoption-prerequisites)。
-- [召集您的小組](#assemble-your-team)。
+- [驗證採用先決條件](#validate-adoption-prerequisites)。
+- [組建您的小組](#assemble-your-team)。
 - [瞭解團隊和頻道](teams-adoption-understand-teams-and-channels.md)。
-- [在小組中設定您的第一位團隊](teams-adoption-your-first-teams.md) ，以建立您的技術知識。
-- [評估貴組織的準備變更](teams-adoption-assess-readiness.md)。
+- [在 Teams上設定](teams-adoption-your-first-teams.md)您的第一個團隊，以建立您的技術知識。
+- [評估貴組織的變更準備狀態](teams-adoption-assess-readiness.md)。
 
-此階段的主要目標是確保您已準備好進行實驗階段。 您也會判斷您是否需要來自 Microsoft 或我們訓練有素合作夥伴的網路的協助。  
+此階段的主要目的，是確保您準備好進行實驗階段。 您也會決定是否需要 Microsoft 或我們的技術合作夥伴網路提供協助。  
 
-## <a name="validate-adoption-prerequisites"></a>驗證採納先決條件
+## <a name="validate-adoption-prerequisites"></a>驗證採用先決條件
 
-審查我們的 [採納先決條件](teams-adoption-get-started.md#adoption-prerequisites) ，並與技術小組合作，視需要進行。 我們將在每個採用案例中解決更深入的技術需求。
+請審查 [我們的採用先決條件](teams-adoption-get-started.md#adoption-prerequisites) ，並在必要時與技術小組一起開會。 我們會在每個採用案例內解決更深入的技術需求。
 
-## <a name="assemble-your-team"></a>召集您的小組
+## <a name="assemble-your-team"></a>組建您的團隊
 
-下表列出專案小組的核心角色。 在較小的組織中，某些角色可能會由同一個人執行。
+下表列出專案小組的核心角色。 在較小的組織中，其中一些角色可能由同一個人執行。
 
-| 角色 | 分 | 部門 |
+| 角色 | 責任 | 部門 |
 | ---- | ---------------- | ---------- |
-| 總經理主管<sup>1</sup> | 溝通高層次願景。 將團隊實施連接至公司的核心任務與優先順序計畫。 | 總經理領導能力 |
-| 成功擁有者<sup>1</sup> | 確保已透過團隊推出來實現商業目標。 | 任何部門 |
-| 程式管理員<sup>1</sup> | 監督整個團隊啟動執行與推出程式。 | 其 |
-| 擁護您<sup>1</sup> | 協助 evangelize 團隊、支援技能組建，並提供使用方式深入見解。 | 多個部門 |
-| 訓練線索 | 管理和傳達小組的訓練內容。 | IT 或其他 |
-| 部門領導 (的專案關係人) <sup>2</sup> | 找出特定部門將如何使用團隊並鼓勵接洽。 | 任何部門 (管理)  |
-| IT 專家<sup>1</sup> | 監管實施的所有技術方面，包括整合。 | 其 |
-| 溝通組長<sup>2</sup> | 監管小組的整個公司溝通。 | 公司溝通、IT 或其他 |
-| 社區管理員 | 管理日常 Yammer 網路活動。 提供指導方針和最佳做法。 | 多個部門 |
+| 執行贊助<sup>人 1</sup> | 傳達高層次的視力。 連線 Teams核心任務和公司優先順序計畫執行。 | 主管領導 |
+| 成功擁有者<sup>1</sup> | 確保從推出計畫開始，就Teams目標。 | 任何部門 |
+| Program Manager<sup>1</sup> | 監督整個Teams啟動執行和推出程式。 | IT |
+| 冠軍<sup>1</sup> | 協助宣傳Teams、支援技能建立，並提供使用深入見解。 | 多個部門 |
+| 訓練潛在客戶 | 管理及傳達有關Teams。 | IT 或其他 |
+| 部門主管 (專案關係人) <sup>2</sup> | 找出特定部門如何使用Teams並鼓勵互動。 | 任何部門 (管理)  |
+| IT 專家<sup>1</sup> | 監督所有技術層面的執行工作，包括整合。 | IT |
+| 通訊潛在客戶<sup>2</sup> | 監督全公司關於公司Teams。 | 公司通訊、IT 或其他 |
+| Community經理 | 管理日常網路Yammer活動。 提供指引和最佳做法。 | 多個部門 |
 
 <sup>1</sup>這些角色對於專案的成功至關重要。</br>
 <sup>2</sup>這些角色對於整體計畫的成功非常重要。
 
-在大部分的情況下，這個初始小組應該是一小組對團隊感興趣的 minded 人員，也可能對其實施負責。 隨著您的採納方案會移至其他階段，您會在團隊中加入更多人。 我們也建議您利用可協助您使用的 Microsoft 資源。 
+在大多數情況下，這個初始團隊應該是一小群對計畫感興趣的志同道合的人，Teams也可能對其執行負責。 隨著採用計畫進入其他階段，您的小組中將會包含更多人。 我們也建議您利用可協助您的 Microsoft 資源。 
 
 ## <a name="additional-resources"></a>其他資源
 
-[Microsoft 技術社區](https://aka.ms/TechCommunity)提供對許多 Microsoft 365 和 Office 365 產品採用和技術問題的對等深入見解。 我們建議您加入下列社區：
+[Microsoft 技術Community](https://aka.ms/TechCommunity)提供對等提供的深入見解，以深入瞭解許多產品Microsoft 365 Office 365問題。 我們建議您加入下列社群：
 
-- [Microsoft 團隊技術社區](https://aka.ms/TeamsCommunity) -取得產品問題、向其他團隊客戶學習，以及追蹤我們的博客，及時掌握新功能和使用案例給小組。 
-- [擁護者程式](https://aka.ms/O365Champions) 和推動採用群組-從您的同行瞭解如何最佳地利用 Microsoft 365 或 Office 365 工作負載（例如團隊、SharePoint、Yammer 及其他產品）。 向 IT 專業人員、商業使用者、「偶然」開發人員，以及任何對雲端服務的採納感興趣的人。  
+- [Microsoft Teams技術](https://aka.ms/TeamsCommunity)Community – 取得產品問題的解答、向其他 Teams 客戶學習，以及追蹤我們的部落格，以掌握最新功能及Teams。 
+- [支援計畫](https://aka.ms/O365Champions)與推動採用社群 – 向同儕瞭解如何以最佳方式推動採用 Microsoft 365 或 Office 365 工作負載，例如 Teams、SharePoint、Yammer 和其他產品。 向 IT 專業人員、商務使用者、「意外」開發人員，以及任何想要推動採用雲端服務的人開放。  
 
 
-![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [瞭解團隊和頻道](teams-adoption-understand-teams-and-channels.md)
+![代表下一個步驟的 ](media/teams-adoption-next-icon.png) 圖示下一步： [瞭解團隊和頻道](teams-adoption-understand-teams-and-channels.md)

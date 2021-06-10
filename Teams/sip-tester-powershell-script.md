@@ -1,5 +1,5 @@
 ---
-title: 測試直接路由會話邊界控制器連線的 PowerShell 腳本
+title: 測試直接路由會話邊界控制器連接的 PowerShell 腳本
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: filippse
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 腳本範例來測試 Microsoft 團隊中的直接路由會話框線控制器連線。
+description: 使用此 PowerShell 腳本範例來測試直接路由會話邊界控制器在 Microsoft Teams。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -23,22 +23,22 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49834273"
 ---
-# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>測試直接路由會話邊界控制器連線的 PowerShell 腳本
+# <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>測試直接路由會話邊界控制器連接的 PowerShell 腳本
 
-SIP 測試者用戶端是一個範例 PowerShell 腳本，您可以用來測試 Microsoft 團隊中的 Direct 路由會話邊界控制器 (SBC) 連線。 此腳本會測試客戶成對會話初始通訊協定的基本功能， (SIP) 幹線與直接路由。
+SIP 測試程式用戶端是一個範例 PowerShell 腳本，可用於測試直接路由會話邊界控制器 (SBC) 連接Microsoft Teams。 此腳本會使用直接路由測試由客戶配對的會話初始通訊協定 (SIP) 主幹的基本功能。
 
-此腳本會將 SIP 測試提交至測試回合程式，等待結果，然後以易於閱讀的格式呈現。 您可以使用此腳本來測試下列案例：
+腳本會提交 SIP 測試給測試執行者、等待結果，然後以可讀取的格式呈現。 您可以使用此腳本來測試下列案例：
 
-- 輸出和撥出通話
-- 同時撥打
+- 外發和傳入通話
+- 同時響鈴
 - 媒體升級
-- 顧問式轉接
+- 諮詢轉移
 
-## <a name="download-the-script-and-documentation"></a>下載腳本與檔
+## <a name="download-the-script-and-documentation"></a>下載腳本和檔
 
-下載 [SIP 測試程式用戶端腳本及檔](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)。
+下載 [SIP 測試程式用戶端腳本和檔](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)。
 
   > [!NOTE]
-  > SIP 測試用戶端腳本只支援 adal.ps 版本3.19.8.1。 如果使用的是更新版本的 adal.ps，就會傳回錯誤。
+  > SIP 測試程式用戶端腳本僅 adal.ps 版本 3.19.8.1。 如果使用較新版本的版本，系統 adal.ps 錯誤。
   
   

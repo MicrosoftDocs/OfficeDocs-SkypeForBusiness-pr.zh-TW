@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
-description: 瞭解如何規劃直接路由 Location-Based 路由。
+description: 瞭解如何規劃直接路由Location-Based路由。
 localization_priority: Normal
 f1.keywords:
 - NOCSH
@@ -25,247 +25,247 @@ ms.locfileid: "49822923"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>規劃直接路由的依位置路由
 
-## <a name="overview-of-location-based-routing"></a>Location-Based 路由的概覽
+## <a name="overview-of-location-based-routing"></a>路由Location-Based概觀
 
-在某些國家和地區，不一定要略過公開交換的電話網絡 (PSTN) 提供者來減少長途通話成本。 本文說明如何使用 Location-Based 路由依據其地理位置來限制 Microsoft 團隊使用者的付費略過。 本文只適用于電話系統直接路由。
+在一些國家和地區，若要降低長途電話費用， (PSTN) 通電話網絡不合法。 本文將說明如何使用 Location-Based路由，根據使用者的地理位置Microsoft Teams付費旁路。 本文僅適用于直接電話系統路由。
 
-您可以在這裡取得 Location-Based 路由與指導方針的概覽，協助您規劃。 當您準備好要套用並啟用 Location-Based 路由時，請參閱：
+在這裡，您將取得路由Location-Based概觀，以及可協助您規劃的指南。 當您準備好要申請並啟用路由Location-Based，請參閱：
 
-- [部署 Location-Based 路由的網路設定](location-based-routing-configure-network-settings.md)
+- [部署路由Location-Based設定](location-based-routing-configure-network-settings.md)
 - [啟用直接路由的依位置路由](location-based-routing-enable.md)
 
 > [!NOTE]
-> 在 Microsoft 365 政府社區 (雲端) 高或 DoD 部署中，無法使用 Location-Based 路由。
+> Location-Based高或 DoD 部署中Microsoft 365 政府社群雲端 (GCC) 路由。
 
-Location-Based 路由是一項功能，可讓您根據原則和使用者在輸入或輸出 PSTN 通話時的地理位置來限制付費旁路。 Location-Based 路由的目的是提供一種防範免付費回避的機制。 它不應該用來做為根據使用者位置或非預期後果動態路由 PSTN 呼叫的機制。
+Location-Based路由是一項功能，可讓您根據原則以及使用者的地理位置，在輸入或外發 PSTN 通話時限制免付費。 Location-Based路由的目的是提供一種機制，以防止免付費路。 它不應該用來做為根據使用者位置動態路由 PSTN 通話的機制，否則可能會導致非預期的結果。
 
-當團隊使用者啟用 Location-Based 路由時，下列專案適用：
+當使用者Teams路由時Location-Based，則適用下列條件：
 
-- 若要進行出站 PSTN 通話，下列其中一項必須成立：
-    - 使用者的端點位於已啟用 Location-Based 路由的網路網站，並可透過針對 Location-Based 路由啟用的對應閘道來呼叫出局。 
-    - 使用者的端點位於未啟用 Location-Based 路由的網路網站，並透過未啟用 Location-Based 路由的閘道來呼叫出局。
+- 若要撥打外發 PSTN 通話，下列其中一項必須為 True：
+    - 使用者的端點位於已啟用 Location-Based 路由和呼叫輸出的網路網站中，此網路網站會透過已啟用 Location-Based 路由的對應閘道Location-Based出口。 
+    - 使用者的端點位於未針對 Location-Based 路由啟用的網路網站中，並且透過未針對 Location-Based 路由啟用的閘道出口。
 
-    任何其他案例中都不允許出站通話。
+    在任何其他情況下都不允許外線通話。
 
-- 若要接收入站 PSTN 呼叫，使用者的應答端點必須位於您在其中 Location-Based 路由的閘道進行呼叫 ingresses 的相同網路網站中。 在任何其他情況下（例如，如果使用者是漫遊），不允許呼叫且路由至使用者的來電轉接設定， (通常) 語音信箱。
-- 若要將 PSTN 來電轉接給其他團隊使用者，目標使用者的端點必須位於與啟動傳輸的使用者相同的網路網站中。 任何其他案例中都不允許傳輸。 
-- 若要將另一個小組使用者轉接至 PSTN，必須在與初始呼叫者相同的網路網站上，將來電轉接到已啟用 Location-Based 路由的閘道。 任何其他案例中都不允許傳輸。
+- 若要接收輸入 PSTN 通話，使用者的接聽端點必須位於呼叫透過已啟用 [路由Location-Based進入的同一個網路網站。 在任何其他情況下 ，例如使用者漫遊時，通話是不允許的，而且會路由至使用者的呼叫轉 (語音信箱) 。
+- 若要將 PSTN Teams另一位使用者，目標使用者的端點必須位於啟動傳輸的使用者所在的同一個網路網站中。 其他任何案例都不允許傳輸。 
+- 若要將另Teams使用者轉接到 PSTN，呼叫必須透過與初始來電者位於相同網路網站的 Location-Based 路由啟用閘道進行轉接。 其他任何案例都不允許傳輸。
 
-Location-Based 路由] 使用的是商務用 Skype 伺服器所使用的相同網路區域、網站和子網定義。 當您針對某個位置限制付費旁路時，系統管理員會將該位置的每個 IP 子網和每個 PSTN 閘道與一個網路網站進行關聯。 使用者的位置是由使用者的小組端點在 PSTN 通話時所連接到的 IP 子網上所決定。 使用者可能會有多個小組用戶端位於不同的網站，在這種情況下，Location-Based 路由會根據其端點的位置，分別強制執行每個用戶端的路由。 
+Location-Based路由使用相同的網路區域、網站和子網定義，商務用 Skype Server使用。 當位置限制免付費時，系統管理員會將該位置的每個 IP 子網和每個 PSTN 閘道關聯至網路網站。 使用者的位置是由 IP 子網決定，Teams PSTN 通話時，使用者與端點已連結。 使用者可能會有多個位於Teams用戶端，在這種情況下，Location-Based路由會依據其端點位置個別強制執行每個用戶端的路由。 
 
-若要熟悉本文中使用的一些網路術語，請參閱 [小組中雲端語音功能的網路設定](cloud-voice-network-settings.md)。
+若要熟悉本文中使用的部分網路術語，請參閱本文中的雲端語音功能網路[Teams。](cloud-voice-network-settings.md)
 
-## <a name="apply-location-based-routing"></a>套用 Location-Based 路由
+## <a name="apply-location-based-routing"></a>將 Location-Based路由
 
-您必須將 Location-Based 路由套用至使用者、網路網站和 PSTN 閘道。  
+您必須將路由Location-Based使用者、網路網站和 PSTN 閘道。  
 
-### <a name="apply-location-based-routing-at-the-user-location"></a>在使用者位置套用 Location-Based 路由
+### <a name="apply-location-based-routing-at-the-user-location"></a>在Location-Based位置使用路由
 
-如前文所述，Location-Based 路由只適用于設定直接路由的使用者。 Location-Based 路由不適用於設定通話方案的使用者。 如果使用者位於 [付費旁路限制] 底下，則必須為使用者啟用 Location-Based 路由，這會控制他們可以撥打和接聽 PSTN 通話的條件，以及可使用的 PSTN 閘道。 當啟用 Location-Based 路由的使用者位於已啟用 Location-Based 路由的網站時，使用者必須透過連線至該網站的 Location-Based 路由啟用閘道撥打電話。 
+如先前所述，Location-Based路由僅適用于設定為直接路由的使用者。 Location-Based路由不適用於已設定通話方案的使用者。 如果使用者受到免付費Location-Based，則必須啟用 [路由路由>，此限制會控制他們可以撥打和接聽 PSTN 通話的條件，以及可以使用的 PSTN 閘道。 啟用 Location-Based 路由的使用者位於已啟用 Location-Based 路由的網站時，使用者必須透過連結至網站的 Location-Based 路由啟用閘道撥打電話。 
 
-Location-Based 路由的運作方式是根據使用者的團隊端點的 IP 位址來判斷使用者的目前位置，並據此套用規則。 Location-Based 路由的使用者位置可以使用下列方式加以分類： 
-- **使用者位於與已指派其所在之 PSTN 閘道的同一 Location-Based 路由啟用的網站。**<br>在這種情況下，使用者位於已啟用 Location-Based 路由的已知網路網站，而使用者的直接向內撥號 (則會在同一網路網站的 PSTN 閘道上) 號碼終止。 例如，使用者是他們的辦公室。 
-- **使用者位於不同的 Location-Based 路由啟用的網站，該網站未與已指派的 PSTN 閘道相關聯。**<br>在這種情況下，使用者位於已啟用 Location-Based 路由的已知網路網站，而該網站未與使用者的已指派號碼的 PSTN 閘道相關聯。 例如，使用者移至另一個辦公室。  
-- **使用者位於未啟用 Location-Based 路由的內部網站上。** <br>在這種情況下，使用者位於尚未啟用 Location-Based 路由的已知內部網路網站。 
-- **使用者位於未知的網站上。** 
-    - 使用者位於未定義為網路網站的內部網路中。 
-    - 使用者位於內部網路以外。 例如，使用者是在家中或咖啡店中的網際網路。 
+Location-Based路由會根據使用者端點的 IP 位址決定使用者的目前位置，Teams並據此適用規則。 啟用路由的使用者位置Location-Based下列方式分類： 
+- **使用者位於指派其 DID 的 PSTN Location-Based啟用路由的網站。**<br>在此情境中，使用者位於已啟用 Location-Based 路由的已知網路網站中，而使用者的 [直接向內撥號 (DID) 號碼會終止于同一個網路網站的 PSTN 閘道上。 例如，使用者位於他們的辦公室。 
+- **使用者位於另一個Location-Based路由啟用的網站，與指派其 DID 的 PSTN 閘道沒有關聯。**<br>在此情境中，使用者位於已啟用 Location-Based 路由的已知網路網站中，而且該網站不會與指派使用者的 DID 號碼的 PSTN 閘道相關聯。 例如，使用者會前往另一個辦公室。  
+- **使用者所在的內部網站未啟用 Location-Based路由。** <br>在此情境中，使用者位於已知內部網路網站中，此網站未啟用 Location-Based路由。 
+- **使用者位於未知的網站。** 
+    - 使用者位於未定義為網路網站的內部網路內。 
+    - 使用者位於內部網路外部。 例如，使用者位於家中或咖啡店的網際網路上。 
 
-### <a name="apply-location-based-routing-at-the-network-site"></a>在網路網站上套用 Location-Based 路由 
-您必須為 Location-Based 路由啟用網路網站，以協助決定在漫遊時要路由哪些閘道 Location-Based 路由啟用的使用者。 如果已啟用 Location-Based 路由的使用者將漫遊到已啟用 Location-Based 路由的網站，則只有在該網站上啟用 Location-Based 路由的 PSTN 閘道才能用於撥出通話。 如果已啟用 Location-Based 路由的使用者漫遊至未啟用 Location-Based 路由的網站，則所有未啟用 Location-Based 路由的閘道都可以用來進行撥出通話。  
+### <a name="apply-location-based-routing-at-the-network-site"></a>在Location-Based上使用路由 
+必須啟用網路網站，Location-Based路由，協助決定在漫遊時要路由Location-Based路由的使用者。 如果已啟用 Location-Based 路由的使用者漫遊至已啟用 Location-Based 路由的網站，則只有已啟用該網站 Location-Based 路由的 PSTN 閘道才能用於外線通話。 如果已啟用 Location-Based 路由的使用者漫遊至未啟用 Location-Based 路由的網站，則任何未針對 Location-Based 路由啟用的閘道都可以用於外發通話。  
 
-### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>在 PSTN 閘道套用 Location-Based 路由 
+### <a name="apply-location-based-routing-at-the-pstn-gateway"></a>在 PSTN Location-Based上申請路由 
 
-閘道會與網站建立關聯，以判斷已啟用 Location-Based 路由的使用者在撥打或接聽 PSTN 通話時，可以找出哪個位置。 您必須為 Location-Based 路由啟用閘道，以確保它位於 [付費旁路] 限制下，且無法供沒有啟用 Location-Based 路由的使用者使用。 同一個閘道可能會與多個網站建立關聯，而且您可以將它設定為針對 Location-Based 路由啟用，或不為 Location-Based 路由啟用，視網站而定。
+閘道會與網站相關聯，以決定啟用 [路由Location-Based使用者撥打或接收 PSTN 通話時的位置。 必須針對 Location-Based啟用閘道，以確保它受免付費限制限制，且無法由未啟用 Location-Based 的使用者使用。 同一個閘道可能與多個網站相關聯，而且可以將它配置為啟用 Location-Based 路由，或視網站Location-Based路由啟用。
 
 ## <a name="scenarios-for-location-based-routing"></a>位置基礎路由案例
 
-本節說明使用 Location-Based 路由來限制免付費旁路的不同案例，並比較如何針對沒有啟用 Location-Based 傳送功能的使用者 Location-Based 路由的使用者傳送通話。
+本節說明使用 Location-Based 路由限制付費旁路的不同案例，並比較未啟用 Location-Based 路由的使用者與已啟用 Location-Based 路由的使用者的通話路由方式。
 
-- [團隊使用者將出站呼叫放入 PSTN](#teams-user-places-an-outbound-call-to-the-pstn)
-- [團隊使用者從 PSTN 接收入站通話](#teams-user-receives-an-inbound-call-from-the-pstn)
-- [團隊使用者將來電轉移或轉寄給其他團隊使用者](#teams-user-transfers-or-forwards-call-to-another-teams-user)
-- [小組使用者將來電轉接或轉寄給 PSTN 端點](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
+- [Teams將外線通話撥打到 PSTN](#teams-user-places-an-outbound-call-to-the-pstn)
+- [Teams從 PSTN 接收來電](#teams-user-receives-an-inbound-call-from-the-pstn)
+- [Teams轉接或轉接呼叫給另一位Teams使用者](#teams-user-transfers-or-forwards-call-to-another-teams-user)
+- [Teams轉接或轉接呼叫至 PSTN 端點](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
 - [同時響鈴](#simultaneous-ringing)
 - [委派](#delegation)
 
-下圖顯示在每個案例中 Location-Based 路由所啟用的限制。 在 Location-Based 路由中啟用的使用者、網路網站和閘道，都會在它們周圍加上框線。 使用圖表做為指南，協助您瞭解 Location-Based 路由在各個案例中的運作方式。  
+下圖顯示每個案例的 Location-Based路由啟用的限制。 已啟用路由的使用者、網路網站和閘道Location-Based其周圍有一個邊界。 使用圖表做為指南，説明您瞭解路由Location-Based路由如何運作。  
 
-![圖表顯示 Location-Based 路由的案例](media/lbr-direct-routing.png "圖表顯示 Location-Based 路由的案例")
+![顯示路由Location-Based圖表](media/lbr-direct-routing.png "顯示路由Location-Based圖表")
 
-### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>團隊使用者將出站呼叫放入 PSTN
+### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams將外線通話撥打到 PSTN
 
-#### <a name="user-not-enabled-for-location-based-routing"></a>未啟用 Location-Based 路由的使用者
+#### <a name="user-not-enabled-for-location-based-routing"></a>未啟用使用者路由Location-Based使用者
 
-未啟用 Location-Based 路由的使用者可以使用任何未在已指派的語音路由策略中 Location-Based 路由的網站上的任何閘道，來撥打出站通話。 不過，如果已為 Location-Based 路由啟用閘道，即使已將它指派給其語音路由策略，使用者也無法透過閘道撥出通話。 如果使用者漫遊至已啟用 Location-Based 路由的網站，他們只能透過其無法在 Location-Based 路由的標準路由閘道進行通話。
+未啟用 Location-Based路由的使用者，可以在未透過指派的語音路由Location-Based路由的任何網站使用任何閘道撥打外接電話。 不過，如果閘道已啟用 Location-Based路由，即使已指派給語音路由策略，使用者也無法透過閘道撥打外接電話。 如果使用者漫遊至已啟用 Location-Based 路由的網站，則他們只能透過未啟用 Location-Based 路由的一般路由閘道Location-Based通話。
  
-#### <a name="user-enabled-for-location-based-routing"></a>使用者已啟用 Location-Based 路由
-相比之下，針對已啟用 Location-Based 路由的使用者傳送撥出通話的路由，會受到使用者端點的網路位置影響。 下表顯示 Location-Based 路由對 User1 的呼出呼叫路由的影響，視 User1 的位置而定。 
+#### <a name="user-enabled-for-location-based-routing"></a>使用者已啟用 Location-Based路由
+相較之下，已啟用 Location-Based 路由的使用者的外發通話路由會受到使用者端點的網路位置影響。 下表顯示路由Location-Based路由如何影響 User1 的外發通話路由，視使用者 1 的位置而不同。 
 
-|User1 端點位置  |針對 User1 的出站通話進行路由  |
+|User1 端點位置  |User1 的外發通話路由  |
 |---------|---------|
-|指派使用者的位置相同的網站，為 Location-Based 路由 (Site1 啟用網站)       |Location-Based 路由 (GW1) 在 Site1 時根據使用者的語音路由策略呼叫路由的通話         |
-|與使用者所指派的位置不同的網站，為 Location-Based 路由 (Site2 啟用網站)     |在) GW2 路由 Site2 中，以使用者的語音路由策略為基礎，透過支援 Location-Based 路由 (的閘道路由的通話        |
-|與使用者所指派的位置不同的網站，Location-Based 路由 (Site3 的網站沒有啟用)   |在未啟用 GW3 路由 () 的網站上，以使用者的語音路由策略為基礎，傳送到未啟用 Location-Based 路由的 Location-Based 路由的呼叫。       |
-|未知的內部網路 (Location4)     |  不允許 PSTN 通話       |
-|未知的外部網路 (Location5)     | 不允許 PSTN 通話        |
+|已指派使用者的 DID 的同一個網站，Location-Based網站 1 (網站)       |根據使用者的語音路由Location-Based， (GW1) 閘道路由的通話         |
+|與指派使用者 DID 的網站不同，網站會啟用 Location-Based 網站 (網站)     |根據使用者的語音路由策略，Location-Based路由 (GW2) 路由的閘道路由通話        |
+|與指派使用者 DID 的網站不同，網站未啟用 Location-Based網站 (網站)   |根據使用者的語音路由策略，未針對 Location-Based 路由 (GW3) 啟用 Location-Based 路由的閘道路由通話       |
+|位置 4 (未知的內部)     |  不允許 PSTN 通話       |
+|位置 5 (未知的外部)     | 不允許 PSTN 通話        |
 
-### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>團隊使用者從 PSTN 接收入站通話
+### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teams從 PSTN 接收來電
 
-#### <a name="user-not-enabled-for-location-based-routing"></a>未啟用 Location-Based 路由的使用者
+#### <a name="user-not-enabled-for-location-based-routing"></a>未啟用使用者路由Location-Based使用者
 
-未啟用 Location-Based 路由的使用者可以接收來自閘道的撥入通話，但無法從指派的電話號碼 ingresses 傳送 Location-Based 路由。 如果使用者漫遊至未啟用 Location-Based 路由的網站，他們仍可透過其正常 PSTN 閘道接收來電。
+未啟用 Location-Based 路由的使用者可以從未針對指派 DID 號碼輸入的 Location-Based 路由的閘道接收輸入通話。 如果使用者漫遊到未啟用 [路由Location-Based的網站，他們仍然可以透過一般 PSTN 閘道接聽來電。
   
-#### <a name="user-enabled-for-location-based-routing"></a>使用者已啟用 Location-Based 路由
+#### <a name="user-enabled-for-location-based-routing"></a>使用者已啟用 Location-Based路由
 
-相比之下，針對 Location-Based 路由啟用的使用者，只能從 PSTN 閘道收到其已指派給相同網站的撥入電話。 下表顯示當 User1 移至不同網路位置時，User1 如何接收撥入通話。 如果通話不是傳送給使用者的端點，則會移至使用者的來電轉接設定（如果設定已設定）。 通常，這是語音信箱。  
+相較之下，啟用 Location-Based路由的使用者只能從 PSTN 閘道接收其 DID 位於同一個網站時指派的來電。 下表顯示當使用者 1 移至不同的網路位置時，使用者1 如何接收來電。 如果通話未路由至使用者的端點，則呼叫會傳送到使用者的呼叫轉轉設定 ，如果設定已設定。 一般來說，這是語音信箱。  
 
-|User1 端點位置  |將入站呼叫路由至 User1  |
+|User1 端點位置  |將輸入通話路由至 User1  |
 |---------|---------|
-|與使用者的分派位置相同的網站，為 Location-Based 路由 (Site1 啟用網站)    | 在 Site1 中傳送給 User1's 端點的通話        |
-|與使用者所指派的位置不同的網站，為 Location-Based 路由 (Site2 啟用網站)     | 通話未路由至 Site2 中的端點        |
-|與使用者所指派的位置不同的網站，Location-Based 路由 (Site3 的網站沒有啟用)     | 通話未路由至 Site3 中的端點        |
-|未知的內部網路 (Location4)    | 通話未路由至 Location4 中的端點        |
-|未知的外部網路 (Location5)      | 通話未路由至 Location5 中的端點        |
+|與指派使用者 DID 的網站相同，網站會啟用 Location-Based路由 (網站1)    | 在 Site1 中路由至 User1 端點的通話        |
+|與指派使用者 DID 的網站不同，網站已啟用 Location-Based網站 (網站)     | 未路由至 Site2 中的端點的通話        |
+|與指派使用者 DID 的網站不同，網站未啟用 Location-Based網站 (網站)     | 未路由至 Site3 端點的通話        |
+|位置 4 (未知的內部)    | 未路由至位置 4 端點的通話        |
+|位置 5 (未知的外部)      | 未路由至位置 5 中的端點的通話        |
 
-### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>團隊使用者將來電轉移或轉寄給其他團隊使用者
+### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teams轉接或轉接呼叫給另一位Teams使用者
 
-在涉及 PSTN 端點時，Location-Based 路由會分析是否已針對其中一個或兩個使用者啟用 Location-Based 路由，並根據兩個端點的位置，判斷是否應該轉移或轉寄通話。 
+當涉及 PSTN 端點時，Location-Based路由會分析一或兩個使用者是否已啟用 Location-Based 路由，並決定是否應該根據兩個端點的位置轉移或轉接通話。 
  
-來電轉接要求初始使用者在來電轉接時接聽電話，而不需要先接聽來電。 這表示即使 User1 不在要接收來電的位置，也可以轉寄呼叫 (請參閱 [小組使用者從 PSTN 區段接收輸入呼叫](#teams-user-receives-an-inbound-call-from-the-pstn) ]) 且如果 user1 無法接收撥入通話，就無法傳送通話。 
+來電轉接要求啟動使用者接聽來電，而來電轉接則不需要接聽初始通話。 這表示即使 User1 不在接收輸入通話的位置 (也可以轉接來電 (請參閱 Teams 使用者從[PSTN](#teams-user-receives-an-inbound-call-from-the-pstn)區段) 接收輸入通話的資料表，如果使用者無法接收輸入通話，就無法轉接通話。 
 
-#### <a name="user-not-enabled-for-location-based-routing"></a>未啟用 Location-Based 路由的使用者
+#### <a name="user-not-enabled-for-location-based-routing"></a>未啟用使用者路由Location-Based使用者
 
-未啟用 Location-Based 路由的使用者可以將 PSTN 來電轉接或轉寄至其他未啟用 Location-Based 路由的使用者。 使用者通常不能將 PSTN 呼叫傳送或轉寄給已啟用 Location-Based 路由的使用者，因為 Location-Based 的啟用路由的使用者通常只允許在支援 PSTN 呼叫的 Location-Based 路由的閘道上共同找到。 例外狀況是當 Location-Based 路由已啟用的使用者漫遊至尚未啟用 Location-Based 路由的網站時。 在這種情況下，允許轉接的通話。  
+未啟用 [路由Location-Based可以將 PSTN 通話轉接或轉Location-Based其他使用者。 一般而言，使用者無法將 PSTN 通話轉接或轉接給已啟用 Location-Based 路由的使用者，因為啟用 Location-Based 路由的使用者通常只能在啟用 Location-Based 路由的閘道進行 PSTN 通話。 例外是啟用路由Location-Based使用者漫遊到未啟用路由Location-Based網站。 在此情境中，允許轉接的通話。  
 
-同樣地，沒有啟用 Location-Based 路由的使用者，只能從另一個尚未啟用 Location-Based 路由的使用者接收轉接或轉寄的 PSTN 通話。 
+同樣地，未啟用 [路由Location-Based只能接收另一個未啟用 [路由Location-Based轉接或轉Location-Based PSTN 通話。 
 
-#### <a name="user-enabled-for-location-based-routing"></a>使用者已啟用 Location-Based 路由
+#### <a name="user-enabled-for-location-based-routing"></a>使用者已啟用 Location-Based路由
 
-一般來說，只有當目標使用者已啟用 Location-Based 路由，且位於相同的網站時，才能從 Location-Based 路由的閘道轉移和轉寄進貨 PSTN 呼叫。 否則，不允許轉移和轉接通話。 
+一般而言，只有在目標使用者已啟用 Location-Based 路由且位於同一個網站時，才能從已啟用 Location-Based 路由的閘道轉移和轉送傳入 PSTN 通話。 否則，不允許轉接和轉接通話。 
 
-下表顯示是否允許來電轉接與來電轉接，視目標使用者的位置而定。 在此表格中，位於 Site1 中的 [User1] 會啟動轉接或轉寄給其他團隊使用者，這些使用者也可以 Location-Based 路由及其他位置。  
+下表顯示是否允許來電轉接和來電轉接，視目標使用者的位置而不同。 在此資料表中，位於 Site1 中的 User1 會啟動傳輸或轉Teams移轉給其他已啟用 Location-Based 路由，以及位於不同位置的使用者。  
 
-|目標使用者端點位置|User1 啟動來電轉接 |User1 啟動來電轉接|
+|目標使用者端點位置|User1 會啟動來電轉接 |User1 會啟動呼叫前轉|
 |---------|---------|---------|
-|與發起者 (的同一個網路網站) |允許|允許|
-|在不同的網路網站上，Location-Based 路由 (User3 的網站已啟用) |不允許|不允許|
-|不同的網路網站，沒有 Location-Based 路由 (User4 的網站啟用) |不允許|不允許|
-|未知的內部網路 (User5) | 不允許|不允許|
-|未知的外部網路 (User6) | 不允許|不允許|
+|與 User2 (啟動) |允許|允許|
+|不同的網路網站，針對使用者 3 Location-Based路由 (啟用) |不允許|不允許|
+|不同的網路網站，未針對使用者 4 Location-Based路由 (啟用) |不允許|不允許|
+|User5 (內部網路) | 不允許|不允許|
+|User6 (外部網路) | 不允許|不允許|
 
-### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>小組使用者將來電轉接或轉寄給 PSTN 端點
+### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teams轉接或轉接呼叫至 PSTN 端點
 
-#### <a name="user-not-enabled-for-location-based-routing"></a>未啟用 Location-Based 路由的使用者
+#### <a name="user-not-enabled-for-location-based-routing"></a>未啟用使用者路由Location-Based使用者
 
-- 允許將 PSTN 來電轉接並轉寄到另一個 PSTN 號碼。 
-- 將入站 VOIP 來電轉接及轉寄到 PSTN，必須遵守來電者的免付費回避限制。 
-    - 如果呼叫者沒有啟用 Location-Based 路由，可以將它們傳輸到任何未啟用 Location-Based 路由的 PSTN 閘道。
-    - 如果呼叫者已啟用 Location-Based 路由，則只能將其轉接至位於相同網路網站的 Location-Based 路由啟用的閘道。 
+- 允許將 PSTN 通話轉接至另一個 PSTN 號碼。 
+- 將傳入 VOIP 通話轉接及轉接到 PSTN 時，必須遵守來電者的付費旁路限制。 
+    - 如果來電者未啟用 [Location-Based路由，可以移轉到任何未啟用 [路由Location-Based閘道。
+    - 如果來電者已啟用路由Location-Based，他們只能轉移到位於相同網路Location-Based路由啟用閘道。 
 
-#### <a name="user-enabled-for-location-based-routing"></a>使用者已啟用 Location-Based 路由
+#### <a name="user-enabled-for-location-based-routing"></a>使用者已啟用 Location-Based路由
 
-- 將 PSTN 來電轉接和轉寄轉移到另一個 PSTN 號碼的同時，必須在已啟用撥入通話的相同 Location-Based 路由閘道路由。 
-- 將入站 VOIP 來電轉接及轉寄到 PSTN 時，必須同時服從呼叫者，並呼叫使用者的免付費旁路限制。 
-    - 如果呼叫者沒有啟用 Location-Based 路由，可以將它們傳輸到任何未啟用 Location-Based 路由的 PSTN 閘道。
-    - 如果呼叫者已啟用 Location-Based 路由，則只能將其轉接至位於相同網路網站的 Location-Based 路由啟用的閘道。
+- 將 PSTN 通話的傳入和轉Location-Based PSTN 號碼必須路由到與來電抵達的啟用路由的閘道相同。 
+- 將傳入 VOIP 通話轉接及轉接到 PSTN 時，必須同時遵守來電者與稱為使用者的付費旁路限制。 
+    - 如果來電者未啟用 [Location-Based路由，可以移轉到任何未啟用 [路由Location-Based閘道。
+    - 如果來電者已啟用 Location-Based路由，則只能將來電者移轉到位於相同網路Location-Based路由啟用閘道。
  
-下表顯示 Location-Based 路由會如何影響將 VOIP 呼叫從 User1 傳送到不同位置的使用者，而這些使用者會將來電轉接或轉寄到 PSTN 端點。  
+下表顯示 [Location-Based路由如何影響將 VoIP 通話從網站 1 的 User1 路由傳送給在不同位置將通話轉接或轉接到 PSTN 端點的使用者。  
 
-|使用者啟動來電轉接或轉寄  |轉接至 PSTN  |轉接至 PSTN  |
+|使用者啟動來電轉接或轉接  |移轉至 PSTN  |轉往 PSTN  |
 |---------|---------|---------|
-|相同的網路網站，為 Location-Based 路由 (的網路，啟用網站)    |來電轉接只能透過 User2's 語音路由策略，在 Site1 上啟用 Location-Based 路由 Gateway1 傳送         |根據 User2's 語音路由策略，呼叫轉寄只能在 Site1 上啟用 Location-Based 路由 Gateway1 進行路由         |
-|在不同的網路網站上，Location-Based 路由 (User3 的網站已啟用)     |來電轉接只能透過 User3's 語音路由策略，在 Site1 上啟用 Location-Based 路由 Gateway1 傳送         |根據 User3's 語音路由策略，在 Site1 上啟用 Gateway1 路由功能的來電轉接，即可 Location-Based 路由         |
-|不同的網路網站，沒有 Location-Based 路由 (User4 的網站啟用)     |來電轉接只能透過 User4's 語音路由策略，在 Site1 上啟用 Location-Based 路由 Gateway1 傳送         |根據 User4's 語音路由策略，在 Site1 上啟用 Gateway1 路由功能的來電轉接，即可 Location-Based 路由         |
-|未知的內部網路 (User5)      |來電轉接只能透過 User5's 語音路由策略，在 Site1 上啟用 Location-Based 路由 Gateway1 傳送         |根據 User5's 語音路由策略，在 Site1 上啟用 Gateway1 路由功能的來電轉接，即可 Location-Based 路由         |
-|未知的外部網路 (User6)    |來電轉接只能透過 User6's 語音路由策略，在 Site1 上啟用 Location-Based 路由 Gateway1 傳送        |根據 User6's 語音路由策略，在 Site1 上啟用 Gateway1 路由功能的來電轉接，即可 Location-Based 路由         |
+|相同的網路網站，使用者 2 Location-Based路由 (網站)    |根據 User2 的語音路由Location-Based，只能透過網站 1 的啟用路由的閘道1 路由來電轉接         |根據 User2 的語音路由Location-Based，只能透過網站 1 的啟用路由的閘道1 路由呼叫         |
+|不同的網路網站，針對使用者 3 Location-Based路由 (啟用)     |根據 User3 的語音路由Location-Based，只能透過網站 1 的啟用路由的閘道1 路由來電轉接         |根據 User3 的語音路由Location-Based，只能透過網站 1 的啟用路由的閘道1 路由呼叫。         |
+|不同的網路網站，未針對使用者 4 Location-Based路由 (啟用)     |根據 User4 的語音路由Location-Based，只能透過網站 1 的啟用路由的閘道1 路由來電轉接         |根據 User4 的語音路由Location-Based，只能透過網站 1 的啟用路由的閘道1 路由呼叫轉呼叫         |
+|User5 (內部網路)      |根據 User5 的語音路由Location-Based，只能透過網站 1 的啟用路由的閘道1 路由來電轉接         |根據 User5 的語音路由Location-Based，只能透過網站 1 的啟用路由的閘道1 路由呼叫。         |
+|User6 (外部網路)    |根據 User6 的語音路由Location-Based，只能透過網站 1 的啟用路由的閘道1 路由來電轉接        |根據 User6 的語音路由Location-Based，只能透過網站 1 的啟用路由的閘道1 路由呼叫。         |
 
 ### <a name="simultaneous-ringing"></a>同時響鈴
 
-在啟用 Location-Based 路由的使用者接聽通話且已啟用同時撥打時，Location-Based 路由會分析呼叫方的位置，以及呼叫方的端點，判斷是否應該路由通話。 同時震鈴遵循與來電轉接與轉寄相同的 Location-Based 規則。 
+當已啟用 Location-Based 路由的使用者收到來電並啟用同時撥打時，Location-Based 路由會分析通話方的位置和被叫方端點，以決定是否應該路由通話。 同時撥打會遵循與Location-Based和轉接相同的規則。 
 
-#### <a name="simultaneous-ringing-for-another-teams-user"></a>同時撥打另一個小組使用者
+#### <a name="simultaneous-ringing-for-another-teams-user"></a>同時為另一位Teams響鈴
 
-下表顯示 Location-Based 路由是否允許針對使用者1的進貨 PSTN 呼叫同時撥打給不同的使用者。
+下表顯示 [Location-Based路由是否允許同時撥打給不同的使用者，以撥打使用者 1 的傳入 PSTN 通話。
 
-|目標使用者端點位置|同時撥打  |
+|目標使用者端點位置|同時響鈴  |
 |---------|---------|
-|與發起者 (的同一個網路網站)    |允許         |
-|針對 Location-Based 路由 (User3) 啟用不同的漫遊網路網站   |不允許         |
-|漫遊網路網站未啟用 Location-Based 路由 (User4)    |不允許        |
-|未知的內部網路 (User5)     | 不允許        |
-|未知的外部網路 (User6)     |不允許        |
-|目標使用者是 PSTN 號碼    |呼叫只能透過 User1's 語音路由原則，在 Site1 上啟用 Location-Based 路由 Gateway1 傳送      |
+|與 User2 (啟動)    |允許         |
+|針對使用者 3 的路由Location-Based啟用 (網路)    |不允許         |
+|未針對使用者 4 Location-Based路由 (漫遊) 網站)    |不允許        |
+|User5 (內部網路)     | 不允許        |
+|User6 (外部網路)     |不允許        |
+|目標使用者是 PSTN 號碼    |根據 User1 的語音路由Location-Based，只能透過網站 1 的啟用路由的閘道1 路由通話      |
 
-#### <a name="simultaneous-ringing-to-a-pstn-endpoint"></a>同時撥打 PSTN 端點
+#### <a name="simultaneous-ringing-to-a-pstn-endpoint"></a>同時響鈴到 PSTN 端點
 
-下表 Location-Based 顯示從 Site1 到不同位置的輸入 VOIP 呼叫的路由行為，並將同時撥打設定為 PSTN 號碼的使用者。 
+下表顯示Location-Based使用者 1 的傳入 VOIP 通話的路由行為，以及同時撥打設定為 PSTN 號碼的不同位置的使用者。 
 
-|呼叫使用者端點位置  |同時振鈴目標是 PSTN 端點 |
+|稱為使用者端點位置  |同時響鈴目標為 PSTN 端點 |
 |---------|---------|
-|相同的網路網站，為 Location-Based 路由 (的網路，啟用網站)     |根據 User2's 語音路由策略，只能在 Site1 上 Location-Based 路由 Gateway1 傳送通話       |
-|針對 Location-Based 路由 (User3 啟用不同的網路網站)     |呼叫只能透過 User3's 語音路由策略，在 Site1 上 Location-Based 路由 Gateway1 進行路由        |
-|沒有為 Location-Based 路由 (User4 啟用不同的網路網站)     |呼叫只能透過 User4's 語音路由策略，在 Site1 上 Location-Based 路由 Gateway1 進行路由         |
-|未知的內部網路 (User5)     |呼叫只能透過 User5's 語音路由策略，在 Site1 上 Location-Based 路由 Gateway1 進行路由         |
-|未知的外部網路 (User6)    |呼叫只能透過 User6's 語音路由策略，在 Site1 上 Location-Based 路由 Gateway1 進行路由         |
+|相同的網路網站，使用者 2 Location-Based路由 (網站)     |根據 User2 的語音路由Location-Based，只能透過網站 1 的路由閘道1 路由通話       |
+|針對使用者 3 Location-Based路由 (啟用)     |根據 User3 的語音路由Location-Based，只能透過網站 1 的路由閘道1 路由通話        |
+|未針對使用者 4 Location-Based路由 (啟用)     |根據 User4 的語音路由Location-Based，只能透過網站 1 的路由閘道1 路由通話         |
+|User5 (內部網路)     |根據 User5 的語音路由Location-Based，只能透過網站 1 的路由閘道1 路由通話         |
+|User6 (外部網路)    |根據 User6 的語音路由Location-Based，只能透過網站 1 的路由閘道1 路由通話         |
 
-#### <a name="inbound-calls-through-voice-app-auto-attendant-or-call-queue"></a>透過語音 app 撥入通話 (自動語音應答或通話佇列) 
+#### <a name="inbound-calls-through-voice-app-auto-attendant-or-call-queue"></a>透過語音應用程式撥打 (自動語音留言或通話佇列) 
 
-允許來自 Location-Based 路由的輸入 PSTN 呼叫連線至自動語音應答或呼叫佇列。 針對 Location-Based 路由啟用的使用者，只要位於輸入 PSTN 呼叫產生的相同網站，就只能接收來自這些應用程式的入站來電轉接。 
+允許從啟用路由Location-Based閘道的傳入 PSTN 通話，以連接到自動電話機或通話佇列。 啟用 [Location-Based路由的使用者，只有在這些應用程式位於與傳入 PSTN 通話來源相同的網站時，才能接收來自這些應用程式的來電轉移。 
  
-語音 app 傳輸允許來電轉接及同時撥打給使用者和 PSTN。 完成對目標的通話受限於前面所列的相同 Location-Based 路由規則。  
+語音應用程式傳輸允許來電轉接和同時撥打給使用者和 PSTN。 完成目標通話時，需遵守Location-Based路由規則。  
  
-也允許轉接至語音信箱。  
+也允許轉往語音信箱。  
 
 ### <a name="delegation"></a>委派
 
-團隊使用者可以選擇代表自己撥打或接聽電話的代理人。 小組中的委派功能會受到 Location-Based 路由的影響，如下所示： 
-- 如果您代表 delegator 從 Location-Based 路由啟用的委派撥出電話，就會套用相同的規則。 呼叫路由是以代理人的呼叫授權原則、語音路由原則和位置為基礎。 如需詳細資訊，請參閱 [小組使用者將出站呼叫放入 PSTN](#teams-user-places-an-outbound-call-to-the-pstn)。 
-- 針對撥入的 PSTN 呼叫 delegator，適用于來電轉接或同時撥打給其他使用者的相同 Location-Based 路由規則也適用于代理人。 如需詳細資訊，請參閱 [小組使用者轉移或轉寄呼叫給其他團隊使用者](#teams-user-transfers-or-forwards-call-to-another-teams-user)、 [團隊使用者將來電轉接或轉寄給 PSTN 端點](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)，以及 [同時撥打](#simultaneous-ringing)。 如果代理人將 PSTN 端點設定為同時環目標，則會使用委派的語音路由策略，將呼叫路由至 PSTN。 
-- 若是委派，建議您將 delegator 及相關聯的代理人放在同一個網路網站中。 
+使用者Teams使用者可以選擇可以代表他們撥打和接聽電話的代理人。 郵件中的委派功能Teams受 Location-Based路由影響，如下所示： 
+- 對於來自授權Location-Based路由啟用代理人的外發通話，則適用相同的規則。 通話路由是根據代理人的通話授權策略、語音路由策略和位置。 若要詳細資訊，請參閱Teams[將外線通話撥打到 PSTN。](#teams-user-places-an-outbound-call-to-the-pstn) 
+- 針對傳入 PSTN 呼叫委派者，Location-Based呼叫轉譯或同時撥打給其他使用者的相同路由規則也適用于代理人。 若要詳細資訊，請參閱Teams[](#teams-user-transfers-or-forwards-call-to-another-teams-user)轉接或轉接呼叫給另一位 Teams 使用者、Teams轉接或轉接呼叫至[PSTN](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)端點，以及同時[撥打。](#simultaneous-ringing) 當代理人將 PSTN 端點設定為同時響鈴目標時，代理人的語音路由策略會用來將通話路由至 PSTN。 
+- 對於委派，建議您將委派者和相關代理人位於同一個網路網站。 
 
 ## <a name="other-planning-considerations"></a>其他規劃考慮
 
-### <a name="changes-from-an-on-premises-location-based-routing-deployment"></a>從內部部署 Location-Based 路由部署所做的變更
+### <a name="changes-from-an-on-premises-location-based-routing-deployment"></a>內部部署和路由Location-Based變更
 
-已不再使用網路網站語音路由原則。 相反地，我們會使用使用者的語音路由原則。 這表示，若要讓使用者能夠漫遊到其他網站，語音路由策略必須包含漫遊網站的閘道。 
+不再使用網路網站語音路由策略。 相反地，我們使用使用者的語音路由策略。 這表示，若要允許使用者漫遊到其他網站，語音路由策略必須包含漫遊網站的閘道。 
 
 ### <a name="technical-considerations-for-location-based-routing"></a>位置基礎路由的技術考量
 
-支援 IPv4 與 IPv6 子網，但在檢查相符時，會優先考慮 IPv6。
+支援 IPv4 和 IPv6 子網，不過，在檢查相符專案時，IPv6 會優先使用。
 
-### <a name="client-support-for-location-based-routing"></a>Location-Based 路由的用戶端支援
+### <a name="client-support-for-location-based-routing"></a>用戶端支援Location-Based路由
 
-支援下列團隊用戶端：
-- 團隊桌面用戶端 (的 Windows 和 Mac) 
-- 團隊行動用戶端 (iOS 和 Android) 
-- 團隊 IP 電話
+支援Teams用戶端：
+- Teams桌面用戶端 (Windows Mac) 
+- Teams iOS 和 Android (行動用戶端) 
+- TeamsIP 電話
 
-不支援小組網頁用戶端與商務用 Skype 用戶端。
+不支援Teams用戶端商務用 Skype用戶端。
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>未受位置基礎路由支援的功能
 
-Location-Based 路由不適用於下列類型的互動。 當團隊端點與下列案例中的 PSTN 端點互動時，不會強制執行 Location-Based 路由： 
-- 透過通話駐留撥打電話給寄存或檢索 PSTN 電話 
-- 內部部署商務用 Skype 使用者或商務用 Skype Online 使用者會呼叫團隊使用者  
+Location-Based路由不適用於下列互動類型。 Location-Based在下列情況下，Teams端點與 PSTN 端點互動時，不會強制執行路由： 
+- 透過 [呼叫停駐點撥打或取回 PSTN 通話 
+- 內部部署使用者商務用 Skype或線上商務用 Skype使用者Teams使用者  
 
-### <a name="location-based-routing-for-conferencing"></a>Location-Based 傳送會議
+### <a name="location-based-routing-for-conferencing"></a>Location-Based會議路由
 
-無法在 PSTN 通話中啟用 Location-Based 路由的使用者，以另一個使用者或 PSTN 號碼啟動會議。 允許連線到自動語音應答或通話佇列。 如果使用者有會議授權，使用者必須啟動一則與相關使用者的會議，並透過會議橋打電話給 PSTN，以開始電話會議。  
+Location-Based PSTN 通話中啟用路由功能的使用者無法與其他使用者或 PSTN 號碼開始會議。 允許連接到自動電話機或通話佇列。 如果使用者有會議授權，使用者必須啟動與相關使用者的會議，並透過會議橋接器撥打 PSTN 以開始電話會議。  
 
-### <a name="media-bypass-requirement-for-location-based-routing"></a>Location-Based 路由的媒體旁路需求
+### <a name="media-bypass-requirement-for-location-based-routing"></a>媒體旁路Location-Based路由
 
-如果您是在印度部署 Location-Based 路由，也就是設定媒體旁路的需求。 若要深入瞭解，請參閱使用直接路由與[本機媒體優化來](direct-routing-media-optimization.md)[規劃媒體旁路](direct-routing-plan-media-bypass.md)。
+如果您要在印度部署 Location-Based路由，則還必須設定媒體旁路。 若要深入瞭解，請參閱[使用](direct-routing-plan-media-bypass.md)直接路由和直接路由的當地媒體[優化規劃媒體旁路。](direct-routing-media-optimization.md)
 
-### <a name="direct-voice-over-ip-voip"></a>直接在 IP 上進行語音 (VoIP) 
+### <a name="direct-voice-over-ip-voip"></a>在 VoIP (直接語音) 
 
-直接在 IP 上使用語音 (VoIP) 不能在印度的任何電話裝置上部署。
+VoIP (IP) 不得與印度的任何電話設備一起部署。
 
 ## <a name="next-steps"></a>後續步驟
 
-移至 [設定 Location-Based 路由的網路設定](location-based-routing-configure-network-settings.md)。
+請前往 [設定路由的網路Location-Based設定](location-based-routing-configure-network-settings.md)。
 
 ## <a name="related-topics"></a>相關主題
 
 - [啟用直接路由的依位置路由](location-based-routing-enable.md)
-- [小組中雲端語音功能的網路設定](cloud-voice-network-settings.md)
+- [雲端語音功能的網路設定Teams](cloud-voice-network-settings.md)

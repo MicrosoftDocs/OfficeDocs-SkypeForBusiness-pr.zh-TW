@@ -11,28 +11,27 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解如何設定會議策略，讓使用者在 Teams 聊天或會議中共用桌面。
+description: 瞭解如何設定會議策略，讓使用者在聊天或會議中Teams桌面。
 ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56ee2c83827c25da5b16cc3f7c2725a3daf815c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 35db312d7a4530f05db3cbad59d1b2b29a4e3847
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121511"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856462"
 ---
-<a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft Teams 中設定桌面共用
-============================================
+# <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft Teams 中設定桌面共用
 
-桌面共用可讓使用者在會議或聊天時顯示螢幕畫面或應用程式。 系統管理員可以在 Microsoft Teams 中設定螢幕畫面共用，讓使用者共用整個畫面、應用程式或檔案。 您可以讓使用者授與或要求控制權、允許 PowerPoint 共用、新增白板，並允許共用筆記。 您也可以設定匿名或外部使用者是否可以要求共用畫面的控制權。 Teams 會議的外部參與者可以分類如下：
+桌面共用可讓使用者在會議或聊天時顯示螢幕畫面或應用程式。 系統管理員可以在 Microsoft Teams 中設定螢幕畫面共用，讓使用者共用整個畫面、應用程式或檔案。 您可以讓使用者授與或要求控制權、允許 PowerPoint 共用、新增白板，並允許共用筆記。 您也可以設定匿名或外部使用者是否可以要求共用畫面的控制權。 Teams 會議的外部參與者可依如下分類：
 
 - 匿名使用者
 - 來賓使用者
 - B2B 使用者
-- 聯合使用者
+- 同盟使用者
 
 若要設定螢幕畫面共用，請建立新的會議原則，然後將它指派給您要管理的使用者。
 
@@ -61,8 +60,8 @@ ms.locfileid: "51121511"
 
 5. 開啟或關閉下列設定：
 
-    - **允許參與者提供或要求控制權** ， 讓小組成員提供或要求控制簡報者的桌面或應用程式。
-    - **允許外部參與者提供或要求控制權** - 這是每個使用者的政策。 無論會議召集人已設定什麼內容，組織是否擁有該使用者的此集，都無法控制外部參與者可以執行什麼操作。 此參數可控制外部參與者是否可以根據共用者在其組織會議政策中設定的內容，獲得控制權或要求控制共用者螢幕。
+    - **允許參與者提供或要求控制權** ，讓小組成員提供或要求控制簡報者的桌面或應用程式。
+    - **允許外部參與者提供或要求控制權** - 這是每個使用者的政策。 不論會議召集人的設定為何，無論組織是否為使用者設定此選項，都無法控制外部參與者可以執行的動作。 此參數會根據分享者在其組織的會議原則中所設定的內容，是否可以授與外部參與者控制或要求控制分享者的螢幕畫面。
     - **允許 PowerPoint 分享**：讓使用者建立可讓 PowerPoint 簡報上傳並共用的會議。
     - **允許使用白板**：讓使用者共用白板。
     - **允許共用記事**：讓使用者記共用記事。

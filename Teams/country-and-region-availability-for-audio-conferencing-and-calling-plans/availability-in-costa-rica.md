@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于哥斯大黎加的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+description: 以下是哥斯大黎加Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
 ms.openlocfilehash: 07b132d7d921d237e197e73e8d6d7e22bb666ad9
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -34,9 +34,9 @@ ms.locfileid: "51118222"
 ---
 # <a name="availability-in-costa-rica"></a>在哥斯大黎加的可用性
 
-[尋找另一個國家/](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)地區，或深入瞭解音訊會議與通話方案的國家/地區可用性。音訊會議與通話方案。
+[尋找其他國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入瞭解音訊會議與通話方案的國家/地區可用性。音訊會議與通話方案。
 
-以下是適用于哥斯大黎加的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+以下是哥斯大黎加Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

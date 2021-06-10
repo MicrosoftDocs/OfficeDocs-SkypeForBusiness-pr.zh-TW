@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 透過設定商務用 Skype 混合模式，規劃在商務用 Skype Server 和 Teams 或商務用 Skype 線上之間實現混合式連線。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 4b38e5aa046224572da485a63bd651b705c83011
-ms.sourcegitcommit: 83f14c4c79559ef28357ff076938e52b369fc0c7
+ms.openlocfilehash: 7d886016495d194997ebf99361916c9c387e5d1f
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "52308322"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856332"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>規劃商務用 Skype Server 和 Teams 之間的混合式連線
 
@@ -54,11 +54,12 @@ ms.locfileid: "52308322"
 - 內部部署使用者 (神秘可能使用或可能使用 Teams，但無法在 TeamsOnly 模式) 
 - Teams僅限使用者。 
 
-若要讓組織從商務用 Skype Server 或 Lync Server 2013 移至 Teams，他們仍然必須使用相同的工具組來設定和設定混合（*完全如同退休之前*）。 當使用者從內部部署將使用者移至 Teams 時，將不再需要將使用者從內部部署移至 TeamsOnly，就能變更 `-MoveToTeams` `Move-CsUser` 。 目前如果未指定此參數，則會將使用者轉換為位於商務用 Skype Server 內部部署，以商務用 Skype 線上，且其模式保持不變。 停用之後，當您將使用者從內部部署移至雲端時 `Move-CsUser` ，系統會自動為使用者指派 TeamsOnly 模式，而且其來自內部部署的會議將會自動轉換為 Teams 會議，就像那樣 `-MoveToTeams switch had been specified` ，不論是否實際指定參數。  (這包括從 Lync Server 2013 進行遷移，其絕對不會有 `MoveToTeams` 參數。 ) 我們預計會發佈此 (功能，但不需要任何內部部署 upddates) 在年7月 2021 31 日之前的實際退休。
+若要讓組織從商務用 Skype Server 或 Lync Server 2013 移至 Teams，他們仍然必須使用相同的工具組來設定和設定混合（*完全如同退休之前*）。 變更的方式是將使用者從內部部署移至 Teams 時，您不再需要在 `-MoveToTeams` 中指定切換 `Move-CsUser` 以將使用者直接從內部部署移至 TeamsOnly。 先前若未指定此參數，則會將使用者轉換為位於商務用 Skype Server 內部部署，以商務用 Skype 線上，而且其模式仍保持不變。 在準備淘汰時，當您將使用者從內部部署移至雲端時， `Move-CsUser` 使用者現在會自動被指派 TeamsOnly 模式，而來自內部部署的會議則會自動轉換為 Teams 會議，就如同 `-MoveToTeams` 已指定參數，不論該參數是否實際指定一樣。  (這包括從 Lync Server 2013 進行遷移，其絕對不會有 `MoveToTeams` switch。 )  
 
 停用商務用 Skype Online 後，就會繼續存在共存模式。 就像以前，具有位於商務用 Skype Server 內部部署帳戶的使用者可以指派任何共存模式，但 TeamsOnly 除外。 停用之後，只有在線上使用者可以是任何模式) 時，才可以 (TeamsOnly 位於線上商務用 Skype 的使用者。  
 
-[!Important] 現有的「混合組織」（位於商務用 Skype 線上的使用者）不 TeamsOnly，應著重于升級這些使用者，使其盡可能只 Teams 模式，但不得晚于2021年7月31日退休。 如果您的組織仍然有商務用 Skype 線上中未 TeamsOnly 的使用者，您可以排定 Microsoft 協助升級，將這些使用者轉換為 TeamsOnly。 這不會影響駐留在商務用 Skype Server 內部部署中的使用者。 在這些線上之前，會事先傳送給具有使用者商務用 Skype Online 之使用者的混合式客戶的排程通知，將非 TeamsOnly 使用者升級至 Teams。
+> [!Important]
+> 現有的「混合組織」（位於商務用 Skype 線上的使用者）不 TeamsOnly，應著重于升級這些使用者，使其盡可能只 Teams 模式，但不得晚于2021年7月31日退休。 如果您的組織仍然有商務用 Skype 線上中未 TeamsOnly 的使用者，您可以排定 Microsoft 協助升級，將這些使用者轉換為 TeamsOnly。 這不會影響駐留在商務用 Skype Server 內部部署中的使用者。 在這些線上之前，會事先傳送給具有使用者商務用 Skype Online 之使用者的混合式客戶的排程通知，將非 TeamsOnly 使用者升級至 Teams。
 
 
 ## <a name="about-shared-sip-address-space-functionality"></a>關於共用 SIP 位址空間功能
@@ -136,7 +137,7 @@ Microsoft 支援下列多樹系混合式案例類型：
   - 主控商務用 Skype 的樹系必須信任包含使用者的樹系。
     如需資源樹系混合式案例的詳細資訊，請參閱[部署混合式商務用 Skype 的資源樹系拓撲](configure-a-multi-forest-environment-for-hybrid.md)。
 
-- **多個樹系中的多個商務用 Skype Server 部署。** 這項設定會因合併和收購案例，以及更複雜的企業而產生。 在單一 Microsoft 365 或 Office 365 組織中，所有的使用者都可以整合到單一或組織中，商務用 Skype 但前提是符合下列主要需求：
+- **在多個樹系中部署多個商務用 Skype Server。** 這項設定會因合併和收購案例，以及更複雜的企業而產生。 在單一 Microsoft 365 或 Office 365 組織中，所有的使用者都可以整合到單一或組織中，商務用 Skype 但前提是符合下列主要需求：
   - 最多隻能有一個 Microsoft 365 或 Office 365 組織相關。 不支援在具有多個組織之案例中進行合併。
   - 在任何指定時間，只有一個內部部署商務用 Skype 樹系可以位於混合模式 (共用 SIP 位址空間) 。 所有其他內部部署商務用 Skype 樹系都必須在內部部署上保持完全使用 (，且每個) 的同盟。 請注意，如有需要，這些其他內部部署組織可以與 AAD 同步處理，以停用於12月2018的 [線上 SIP 網域](/powershell/module/skype/disable-csonlinesipdomain) 。
 

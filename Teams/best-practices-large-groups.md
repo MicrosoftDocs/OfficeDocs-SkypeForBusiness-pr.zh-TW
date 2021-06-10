@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 中管理大型團隊 - 最佳做法
+title: 管理大型團隊Microsoft Teams - 最佳做法
 ms.reviewer: abgupta
 author: lolaj
 ms.author: serdars
@@ -7,7 +7,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: 瞭解在 Microsoft Teams 中管理大型團隊以符合貴組織需求的最佳作法。
+description: 瞭解管理大型團隊的最佳作法Microsoft Teams以符合貴組織的需求。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -17,17 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9dfecde14e47992588fa13e04aa652a069f7108b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: fff84bd660eb19f01c6a7e3388f5289b09896401
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092881"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856342"
 ---
-<a name="manage-large-teams-in-microsoft-teams---best-practices"></a>在 Microsoft Teams 中管理大型團隊 - 最佳做法
-======================================================
+# <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>管理大型團隊Microsoft Teams - 最佳做法
 
-Microsoft Teams 在協助與數十個成員和擁有數千個成員的大型群組之間的溝通方面，同樣有效率。 查看 [Teams 的限制和規格](limits-specifications-teams.md) ，以更新團隊大小。 團隊規模增加會導致獨特的管理和營運挑戰。 本文將說明建立及管理由數千個成員組成的大型團隊的最佳作法。
+Microsoft Teams能促進與數十個成員和數千個成員的大型群組之間的溝通。 針對[小組大小更新Teams](limits-specifications-teams.md)限制和規格。 團隊規模增加會導致獨特的管理和營運挑戰。 本文將說明建立及管理由數千個成員組成的大型團隊的最佳作法。
 
 ## <a name="value-of-large-teams"></a>大型團隊的價值
 
@@ -41,17 +40,17 @@ Microsoft Teams 在協助與數十個成員和擁有數千個成員的大型群�
 
 ## <a name="create-teams-from-existing-groups"></a>從現有的群組建立團隊
 
-使用連絡人群組、安全性群組或 Office 群組來快速啟動您的小組。 您可以輸入群組來建立團隊，或從 Office 群組建立團隊。
+使用連絡人群組、安全性群組或Office群組來快速啟動您的小組。 您可以輸入群組來建立團隊，或從群組建立Office團隊。
 
-**將群組** 輸入成團隊：當您將最多 3，500 個成員的群組導入 Teams 時，Teams 會自動計算群組中的成員總數。 此為一次導入，且群組中的未來變更不會在 Teams 中自動更新。
+將 **群組** 輸入成團隊：當您將最多 3，500 個成員的群組Teams，Teams會自動計算群組中的成員總數。 這是一次導入，群組中未來的變更將不會在 Teams。
 
-**從大型 Microsoft 365** 群組建立團隊：當您從大型 Microsoft 365 群組建立團隊時，成員會自動成為 Microsoft 365群組和團隊的一部分。 日後，當小組成員加入或離開 Microsoft 365 群組時，系統會自動新增或移除他們。
+**從大型群組建立** Microsoft 365：當您從大型群組Microsoft 365團隊時，成員會自動成為群組 **Microsoft 365團隊的** 一部分。 日後，當小組成員加入或離開Microsoft 365群組時，系統會自動新增或移除他們。
 
 ## <a name="bulk-importexportremove-members-in-a-team"></a>大量匯出/匯出/移除團隊中的成員
 
-Azure 入口網站允許使用者大量匯出/匯出/移除 Microsoft 365 群組中的成員。 詳細資訊，請參閱 [大量導入群組成員](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)。
+Azure 入口網站允許使用者大量匯出/匯出/移除群組Microsoft 365成員。 詳細資訊，請參閱 [大量導入群組成員](/azure/active-directory/enterprise-users/groups-bulk-import-members#to-bulk-import-group-members)。
 
-由於每個團隊都有 Microsoft 365 群組的支援，因此您可以使用 Azure 入口網站，在對應該團隊的群組中執行這些作業。 成員作業將在 24 小時內反映在團隊中。
+由於每個團隊都有一個Microsoft 365，您可以使用 Azure 入口網站，在對應該團隊的群組中執行這些作業。 成員作業將在 24 小時內反映在團隊中。
 
 ## <a name="create-channels-to-focus-discussions"></a>建立頻道來聚焦討論
 
@@ -59,31 +58,31 @@ Azure 入口網站允許使用者大量匯出/匯出/移除 Microsoft 365 群組
 
 ## <a name="restrict-channel-creation"></a>限制頻道建立
 
-如果允許任何團隊成員建立頻道，該團隊可以擴大頻道。 團隊擁有者應關閉在設定或成員許可權中為成員建立、更新、刪除 **>還原**。 請參閱 [團隊和頻道概觀](teams-channels-overview.md)。
+如果允許任何團隊成員建立頻道，該團隊可以擴大頻道。 團隊擁有者應在成員許可權中關閉成員頻道的建立、更新、刪除 **設定 >還原**。 請參閱 [團隊和頻道概觀](teams-channels-overview.md)。
 
-![顯示系統管理主控台設定選項卡之成員許可權區段的螢幕圖像。](media/no-channel-creation.png "系統管理主控台設定選項卡中成員許可權區段的螢幕圖像。未取消勾選允許成員建立或刪除頻道選項。")
+![顯示系統管理主控台中成員許可權區段的螢幕設定畫面。](media/no-channel-creation.png "系統管理主控台中成員許可權區段的螢幕設定畫面。未取消勾選允許成員建立或刪除頻道選項。")
 
 ## <a name="add-favorite-channels"></a>新增我的最愛頻道
 
 若要加快新的使用者互動和內容探索，您可以選取使用者預設可用的最愛頻道。 在 **系統管理中心的** 頻道窗格中，檢查顯示成員欄下的 **頻道** 。
 
-![顯示系統管理主控台的頻道窗格的螢幕圖像。](media/favorite-channels.png "顯示系統管理主控台頻道窗格的螢幕圖像。某些頻道會檢查為成員顯示。")
+![顯示系統管理主控台的頻道窗格的螢幕圖像。](media/favorite-channels.png "顯示系統管理主控台的頻道窗格的螢幕圖像。某些頻道會檢查為成員顯示。")
 
  請參閱 [建立您的第一個團隊和頻道以](get-started-with-teams-create-your-first-teams-and-channels.md) 瞭解詳細資料。
 
 ## <a name="regulate-applications-and-bots-in-large-teams"></a>在大型團隊中規範應用程式和 Bot
 
-為了防止新增令人分心的應用程式或 Bot，團隊擁有者可以針對小組成員停用、新增、移除及上傳應用程式和連接器。 在系統管理中心中的 >成員 **許可權下**，取消勾選三個允許成員新增 App 或連接器的選項。
+為了防止新增令人分心的應用程式或 Bot，團隊擁有者可以針對小組成員停用、新增、移除及上傳應用程式和連接器。 在系統管理 **中心設定 >**，取消勾選允許成員新增 App 或連接器的三個選項。
 
-![顯示設定窗格之成員許可權區段的螢幕圖像。](media/disable-bots-connectors.png "顯示設定窗格之成員許可權區段的螢幕圖像。允許成員新增 App 或連接器的選項會取消勾選。")
+![顯示窗格之成員許可權區段的設定圖像。](media/disable-bots-connectors.png "顯示窗格之成員許可權區段的設定圖像。允許成員新增 App 或連接器的選項會取消勾選。")
 
 請參閱 [應用程式、bot、&連接器](deploy-apps-microsoft-teams-landing-page.md)。
 
 ## <a name="regulate-team-and-channel-mentions"></a>規範團隊和頻道提及
 
-小組和頻道提及可以用來吸引整個團隊對特定頻道文章的注意。 在文章使用提及後，通知會發送給數千名小組成員。 如果通知過於頻繁，則小組成員可能會超載，並可能會向團隊擁有者抱怨。 若要避免團隊或頻道提及，請取消勾選團隊設定和窗格中的 **> @mentions提及。**
+小組和頻道提及可以用來吸引整個團隊對特定頻道文章的注意。 在文章使用提及後，通知會發送給數千名小組成員。 如果通知過於頻繁，則小組成員可能會超載，並可能會向團隊擁有者抱怨。 若要避免團隊或頻道提及，請取消勾選團隊或頻道窗格中的 **設定 > @mentions提及。**
 
-![顯示設定窗格的提及區段的螢幕圖像。](media/no-at-mentions.png "顯示設定窗格的提及區段的螢幕圖像。未勾選顯示和給予成員提及存取權的選項。")
+![Screen image that shows the at Mentions section of the Settings pane.](media/no-at-mentions.png "顯示窗格的 <提及> 區段的設定圖像。未勾選顯示和給予成員提及存取權的選項。")
 
 ## <a name="consider-setting-up-moderation-in-your-channels"></a>請考量在您的頻道中設定仲裁
 
@@ -91,5 +90,5 @@ Azure 入口網站允許使用者大量匯出/匯出/移除 Microsoft 365 群組
 
 ## <a name="related-topics"></a>相關主題
 
-- [組織 Teams 的最佳作法](best-practices-organizing.md)
+- [組織活動的最佳Teams](best-practices-organizing.md)
 - [建立全組織團隊](create-an-org-wide-team.md)

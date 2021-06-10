@@ -1,5 +1,5 @@
 ---
-title: 直接路由國家/地區代碼
+title: 直接路由國碼
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -281,7 +281,7 @@ Set-CSOnlinePSTNGateway -身分識別 sbc1.contoso.com –MediaRelayRoutingLocat
 | 土克斯和凱科斯群島 | Tc |
 | 吐瓦魯          | 電視 |
 | 美國外島 | UM |
-| 美屬維爾京群島 | Ⅵ |
+| 美屬維爾京群島 | 六 |
 | 烏干達          | UG |
 | 烏克蘭         | Ua |
 | 阿拉伯聯合大公國 | Ae |
@@ -293,7 +293,7 @@ Set-CSOnlinePSTNGateway -身分識別 sbc1.contoso.com –MediaRelayRoutingLocat
 | 梵蒂岡城    | Va |
 | 委內瑞拉       | VE |
 | 越南         | VN |
-| 瓦利斯和富圖納 | WF |
+| 瓦利斯和福圖納 | WF |
 | 葉門           | 你們 |
 | 尚比亞          | Zm |
 | 辛巴威        | ZW |

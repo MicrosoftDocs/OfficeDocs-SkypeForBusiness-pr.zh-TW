@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于商務用 Skype 的 Microsoft 365 和 Office 365 服務，以及適用于貝裡斯的 Microsoft Teams。
+description: 以下是適用于 Microsoft 365 Office 365 的 商務用 Skype 和 Microsoft Teams 服務。
 ms.openlocfilehash: 362a8bccb8d52e97b52dfc45929b99b5abe39c0e
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51118352"
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于商務用 Skype 的 Microsoft 365 和 Office 365 服務，以及適用于貝裡斯的 Microsoft Teams。
+以下是適用于 Microsoft 365 Office 365 的 商務用 Skype 和 Microsoft Teams 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

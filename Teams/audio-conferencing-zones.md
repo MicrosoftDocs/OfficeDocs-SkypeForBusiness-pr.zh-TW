@@ -1,5 +1,5 @@
 ---
-title: 音訊會議的國家和地區區域
+title: 音訊會議的國家/地區與區域
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -27,11 +27,11 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49821273"
 ---
-# <a name="country-and-region-zones-for-audio-conferencing"></a>音訊會議的國家和地區區域
+# <a name="country-and-region-zones-for-audio-conferencing"></a>音訊會議的國家/地區與區域
 
-本文列出音訊會議的國家和地區區域。
+本文列出音訊會議的國家/地區與區域。
 
-## <a name="zone-a-countries-and-regions"></a>將國家和地區區域
+## <a name="zone-a-countries-and-regions"></a>A 區國家/地區
 
 |國家或地區    |
 |-----|
@@ -68,7 +68,7 @@ ms.locfileid: "49821273"
 |羅馬尼亞  <br/> |
 |俄羅斯  <br/> |
 |新加坡  <br/> |
-|斯洛伐克文共和國  <br/> |
+|斯洛伐克共和國  <br/> |
 |斯洛維尼亞  <br/> |
 |南非  <br/> |
 |南韓  <br/> |
@@ -84,6 +84,6 @@ ms.locfileid: "49821273"
 
 - [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [音訊會議免費撥出期間](complimentary-dial-out-period.md)
-- [音訊會議訂閱「撥出」/「在「撥打電話」分鐘優惠](audio-conferencing-subscription-dial-out.md)
+- [音訊會議訂閱「撥出」/「撥入電話給我」分鐘權益](audio-conferencing-subscription-dial-out.md)
 - [音訊會議和使用者 PSTN 通話的撥出通話限制原則](outbound-calling-restriction-policies.md)
 - [什麼是通訊點數？](what-are-communications-credits.md)

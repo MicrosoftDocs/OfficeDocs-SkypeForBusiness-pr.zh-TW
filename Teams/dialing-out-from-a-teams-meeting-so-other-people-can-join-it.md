@@ -21,7 +21,7 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 會議召集人可以瞭解如何使用 Teams 應用程式撥出，讓其他人使用他們的電話加入同一個會議。
+description: 會議召集人可以瞭解如何使用 Teams App 撥出，讓其他人使用他們的電話加入同一個會議。
 ms.openlocfilehash: 55cbd5ccc9e9c364bcb829d9a392f61cbdd2f7f8
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -29,7 +29,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51119282"
 ---
-# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>從 Microsoft Teams 會議撥出，讓其他人可以加入會議
+# <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>從會議撥出Microsoft Teams其他人可以加入會議
 
 作為會議召集人，您可以使用 Teams 應用程式撥出，讓其他人使用他們的電話加入同一個會議。
 
@@ -37,7 +37,7 @@ ms.locfileid: "51119282"
   
   請注意：
 
-- 您只有在使用 Teams 加入會議時才能撥出。
+- 只有在使用電話加入會議時，才能撥出Teams。
 - 會議召集人已啟用音訊會議功能，或者，如果尚未指派音訊會議授權，則允許透過線上通話方案或直接路由撥打公用交換電話網絡。
 - 會議召集人獲 [授予線上撥出政策，可啟用從會議撥出功能](/powershell/module/skype/grant-csdialoutpolicy?view=skype-ps)
 
@@ -46,7 +46,7 @@ ms.locfileid: "51119282"
 
 以下是如何讓撥出工作：
 
- **步驟 1：** 在會議中，使用新增人員按鈕選項的新增人員螢幕擷取畫面來撥出 ![ ](media/add-people-button.png) 到電話號碼。
+ **步驟 1：** 在會議中，使用新增 **人員** 按鈕選項的新增人員螢幕擷取畫面 ![ ](media/add-people-button.png) 來撥出到電話號碼。
  **步驟 2：** 在邀請某人或撥打號碼方塊中輸入完整的電話號碼，包括國家/ **地區** 代碼。
   
 ![邀請某人或撥打號碼方塊的螢幕擷取畫面](media/invite-someone-box.png)
@@ -57,7 +57,7 @@ ms.locfileid: "51119282"
 
 ## <a name="allow-users-to-dial-in"></a>允許使用者撥入
 
-如果您正在尋找如何讓使用者撥入 Teams 會議的指示，請參閱 [Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md)的音訊會議電話號碼。
+如果您正在尋找如何讓使用者撥入會議Teams的指示，請參閱 電話 中的音訊會議[Microsoft Teams。](phone-numbers-for-audio-conferencing-in-teams.md)
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>想要進一瞭解音訊會議嗎？
 

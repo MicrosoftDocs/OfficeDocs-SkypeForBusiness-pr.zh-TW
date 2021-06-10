@@ -32,7 +32,7 @@ ms.locfileid: "52240459"
 
 ## <a name="how-do-i-know-if-im-in-a-native-chat"></a>如何知道我是否進行原生聊天？
 
-如果您只能與其他組織人員在聊天中交換文字，表示您目前使用標準外部存取 (聊天) 聊天。 如果您有其他聊天功能，包括格式、@mentions、表情符號等，表示您用原生聊天Teams聊天。 
+如果您只能在聊天中與其他組織人員交換文字，表示您目前使用標準外部存取 (聊天) 聊天。 如果您有其他聊天功能，包括格式、@mentions、表情符號等，表示您用原生聊天Teams聊天。 
 
 Teams定期檢查其他組織中的人員升級模式，如果發現他們在 TeamsOnly 升級模式中執行 Teams，系統會提示您切換到原生 Teams 聊天並鎖定原始聊天。
 
@@ -42,7 +42,7 @@ Teams定期檢查其他組織中的人員升級模式，如果發現他們在 Te
 
 ## <a name="what-happens-if-a-user-isnt-in-teams-only-mode-anymore"></a>如果使用者不再使用僅Teams模式，會發生什麼情況？
 
-如果您與其他組織Teams原生 Teams 聊天，然後其中一人被切換出 TeamsOnly 升級模式，Teams 會鎖定原生 Teams 聊天，並為您提供僅限文字聊天的連結。 您無法繼續原生聊天Teams聊天。 您仍然可以讀取原生Teams聊天，但無法繼續交談。
+如果您與其他組織Teams原生 Teams 聊天，然後其中一人被切換為從 TeamsOnly 升級模式切換，Teams 會鎖定原生 Teams 聊天，並為您提供僅限文字聊天的連結。 您無法繼續原生聊天Teams聊天。 您仍然可以讀取原生Teams聊天，但無法繼續交談。
 
 如果Teams找到與此人的舊文字聊天，就會重新恢復該聊天。 否則，Teams建立一個新的純文字聊天。
 

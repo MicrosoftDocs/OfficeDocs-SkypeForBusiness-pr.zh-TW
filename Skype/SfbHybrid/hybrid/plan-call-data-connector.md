@@ -11,44 +11,44 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
-description: 使用商務用 Skype Online 遙測工具，以監視混合式案例中的內部部署實施。
-ms.openlocfilehash: f47f0969d102408299678842b18bb503eaf6aea0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 使用商務用 Skype 線上遙測工具來監視混合式案例中的內部部署實施，以瞭解如何使用線上遙測工具。
+ms.openlocfilehash: 7b6076224280446b7fc52c505fe5fc3ab8d41be4
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110549"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856352"
 ---
 # <a name="plan-call-data-connector"></a>規劃通話資料連接器
 
 ## <a name="overview"></a>概觀
 
-本主題說明實現商務用 Skype Server 呼叫資料連線器的優點、規劃考慮和需求。 如需設定呼叫資料連線器的詳細資訊，請參閱 [設定呼叫資料連線器](configure-call-data-connector.md)。
+本主題說明執行商務用 Skype Server 呼叫資料連線器的優點、規劃考慮和需求。 如需設定呼叫資料連線器的詳細資訊，請參閱 [設定呼叫資料連線器](configure-call-data-connector.md)。
 
 
 呼叫資料連線器大幅簡化混合式環境中的呼叫監控，因為您不再需要使用不同的內部部署和線上工具來監視所有使用者的通話品質。 不論您的使用者是位於內部部署或線上，您可以選擇線上查看整個組織的通話品質。
 
 使用「呼叫資料連線器」，您可以使用單一工具集來執行下列工作：
 
-- 在 Microsoft 團隊、商務用 Skype Online 和商務用 Skype Server 上監視您的使用者體驗。
+- 監控使用者對 Microsoft Teams、商務用 Skype 線上及商務用 Skype Server 的體驗。
 
 - 查看並疑難排解整個網路的問題。
 
 - 指派呼叫分析的「服務台」和「系統管理員」角色，讓輔助技術人員能夠查看及疑難排解其職責範圍。
 
-使用呼叫資料連線器時，商務用 Skype 伺服器會將資料推送至雲端服務，如此您就可以使用商務用 Skype Online 通話分析 (CA) 和通話品質儀表板 (CQD) 工具，如下圖所示：
+使用呼叫資料連線器時，商務用 Skype Server 會將資料推送至雲端服務，以便您可以利用商務用 Skype 線上呼叫分析 (CA) 及通話品質儀表板 (CQD) 工具，如下圖所示：
 
 ![SfB 雲端語音信箱](../../sfbserver2019/media/call-data-connector-plan-1.png)
 
 伺服器會將經驗品質 (QoE) 和詳細通話記錄 (CDR) 資料到線上服務。
 
-通話分析和 CQD 工具可讓您監視通話的品質，並以 Microsoft 團隊和商務用 Skype 服務的連線問題進行疑難排解，如下所示：
+通話分析和 CQD 工具可讓您監視通話的品質，並使用 Microsoft Teams 和商務用 Skype 服務來疑難排解連線問題，如下所示：
 
-- 呼叫分析著重于特定通話的品質問題。 它會顯示商務用 Skype 帳戶中每位使用者之通話和會議的詳細資訊。  使用呼叫分析，您可以將許可權指派給服務台操作員，這樣就能在未存取其他商務用 Skype 系統管理中心的情況下，監控來電。
+- 呼叫分析著重于特定通話的品質問題。 它會顯示商務用 Skype 帳戶中每位使用者之通話和會議的詳細資訊。  使用呼叫分析，您可以將許可權指派給服務台操作員，這樣就能在未存取商務用 Skype 系統管理中心的其餘部分的情況下監視通話。
 
-- 通話品質儀表板側重于整個組織的網路效能和問題。 商務用 Skype 管理員和網路工程師使用此工具來疑難排解及優化網路效能。
+- 通話品質儀表板側重于整個組織的網路效能和問題。 商務用 Skype 系統管理員和網路工程師使用此工具來疑難排解及優化網路效能。
 
-如需詳細資訊，請參閱 [Call Analytics 和通話品質儀表板](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)。
+如需詳細資訊，請參閱 [Call Analytics 和通話品質儀表板](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)。
 
 當然，您可能想要在內部部署中保留一些通話品質資料。 例如，如果您要使用協力廠商的解決方案與自訂的報表和工作流程，便會發生這種情況。  呼叫資料連線器可讓您設定將資料傳送到線上服務，同時在內部部署伺服器上保留資料的複本，如下圖所示：
 
@@ -56,18 +56,18 @@ ms.locfileid: "51110549"
 
 ## <a name="requirements"></a>需求
 
-下列需求假設您已在支援的拓撲中部署商務用 Skype Server。  如需部署商務用 Skype Server 和支援的拓撲的詳細資訊，請參閱 [拓撲基礎](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md)。 若要設定呼叫資料連線器，您必須：
+下列需求假設您已在支援的拓撲中部署商務用 Skype Server。  如需部署商務用 Skype Server 和支援的拓撲的詳細資訊，請參閱[拓撲基礎](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md)。 若要設定呼叫資料連線器，您必須：
 
-- 啟用混合連接。 如果您已部署商務用 Skype Server，而且想要啟用呼叫資料連線器，則必須確定您的內部部署與線上環境之間已設定混合式連線能力。 這有時稱為分割網域設定。
+- 啟用混合連接。 如果您已部署商務用 Skype Server 而且想要啟用呼叫資料連線器，則必須確定您的內部部署與線上環境之間已設定混合式連線能力。 這有時稱為分割網域設定。
 
-   如需詳細資訊，請參閱 [規劃商務用 Skype server 與 microsoft 365 或 office 365 之間的混合](plan-hybrid-connectivity.md) 式連線，以及 [設定商務用 Skype server 與 Microsoft 365 或 office 365 的混合](configure-hybrid-connectivity.md)式連線。
+   如需詳細資訊，請參閱[Plan 商務用 Skype Server 和 Microsoft 365 之間的混合](plan-hybrid-connectivity.md)式連線，或 Office 365 和[設定商務用 Skype Server 及 Microsoft 365 或 Office 365 之間的混合](configure-hybrid-connectivity.md)式連線。
 
-- 驗證您的 Microsoft 365 或 Office 365 組織，並確定已啟用下列角色：
+- 驗證您的 Microsoft 365 或 Office 365 組織，並確認您已啟用下列角色：
 
-  - 商務用 Skype Server 管理員
-  - Microsoft 365 或 Office 365 全域系統管理員
+  - 商務用 Skype Server管理員
+  - Microsoft 365 或 Office 365 全域管理員
 
-- 若尚未這麼做，請依 [開啟和使用 Microsoft 團隊和商務用 Skype Online 的通話品質儀表板](/microsoftteams/turning-on-and-using-call-quality-dashboard)中所述，開啟通話品質儀表板。
+- 如果您還沒有這麼做，請依[開啟和使用通話品質儀表板中的 Microsoft Teams 和商務用 Skype 線上](/microsoftteams/turning-on-and-using-call-quality-dashboard)中所述，開啟通話品質儀表板。
 
 - 使用本機 LCSCdr 和 QoEMetrics 資料庫，啟用監視的前端集區。 若未這麼做，則通話資料連線器沒有可使用的計量資料。
 

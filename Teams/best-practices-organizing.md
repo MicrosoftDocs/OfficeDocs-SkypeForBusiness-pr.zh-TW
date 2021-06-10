@@ -1,5 +1,5 @@
 ---
-title: 組織團隊的最佳做法
+title: 組織團隊的最佳作法
 ms.reviewer: pbethi
 author: SerdarSoysal
 ms.author: serdars
@@ -42,7 +42,7 @@ ms.locfileid: "46581374"
 
 ## <a name="create-channels-to-focus-discussions"></a>建立頻道來聚焦討論
 
-建立小組之後，就可以開始思考您需要支援的不同專案與交談類型，這是個不錯的想法。 建立初始頻道，讓其他人知道要在哪裡參與，並尋找現有的交談。 使用描述性的頻道名稱，讓使用者能夠輕鬆地知道每個交談的位置。 將工具 (例如 OneNote、Power BI 或 Planner) 新增為頻道的索引標籤，讓成員能夠在頻道中具備所需的項目。 您也可以將常用網頁新增為頻道的索引標籤。
+建立小組之後，建議開始思考您需要支援的不同專案和交談類型。 建立初始頻道，讓其他人知道要在哪裡參與，並尋找現有的交談。 使用描述性的頻道名稱，讓使用者能夠輕鬆地知道每個交談的位置。 將工具 (例如 OneNote、Power BI 或 Planner) 新增為頻道的索引標籤，讓成員能夠在頻道中具備所需的項目。 您也可以將常用網頁新增為頻道的索引標籤。
 
 使用適用於使用者的快速秘訣，深入了解[在小組中工作](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)。
 
@@ -54,16 +54,16 @@ ms.locfileid: "46581374"
 
 ## <a name="use-the-general-channel"></a>使用 [一般] 頻道
 
-根據預設，當您建立小組時，系統會為您建立**一般頻道**。 這個頻道有許多實用的用途：
+根據預設，當您建立小組時，系統會為您建立 **一般頻道**。 這個頻道有許多實用的用途：
 
 - 您可以使用它來分享小組要達成目標的概觀，例如專案章程或小組成員的身分。
 - 將它用於新的小組成員上線，以及新的小組成員會覺得有用的其他高階資訊。
 - 將它用於公告，或設定 SharePoint News 連接器以將您的新式狀態報告張貼到這個頻道。  
 - 針對新的或單一目的小組，在您決定 Teams 可以如何最佳地支援您的目標時，它會是一開始唯一的頻道。
 
-您無法將 [一般] 頻道移除、重新命名或移除最愛。 頻道會以字母順序顯示 ([一般] 頻道位於頂端)。 在有多個頻道的小組中，請使用 [隱藏]**** 或 [顯示]****，以顯示您最常使用的頻道。
+您無法將 [一般] 頻道移除、重新命名或移除最愛。 頻道會以字母順序顯示 ([一般] 頻道位於頂端)。 在有多個頻道的小組中，請使用 [隱藏] 或 [顯示]，以顯示您最常使用的頻道。
 
-若要深入了解，請詳閱 [Teams 和頻道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels)頁面上的**在頻道中工作**。
+若要深入了解，請詳閱 [Teams 和頻道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_channels)頁面上的 **在頻道中工作**。
 
 ## <a name="consider-setting-up-moderation-in-your-channels"></a>請考量在您的頻道中設定仲裁
 

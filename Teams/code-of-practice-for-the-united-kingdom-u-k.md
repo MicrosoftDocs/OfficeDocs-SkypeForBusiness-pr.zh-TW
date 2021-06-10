@@ -1,5 +1,5 @@
 ---
-title: 英國的練習準則 -Microsoft 365 通話方案
+title: 英國的做法規范 - Microsoft 365通話方案
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,7 +22,7 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: 瞭解商務用 Skype UK 的 PSTN 通話方案程式碼，包括在何處取得協助，以及如何提交投訴及解決糾紛。
+description: 瞭解適用于英國地區 PSTN 通話方案商務用 Skype，包括在何處取得協助，以及如何提交抱怨及解決爭議。
 ms.openlocfilehash: ac741fec8ccd7262e865ef4aaef8f3858faf3cb7
 ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
 ms.translationtype: MT
@@ -30,123 +30,123 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 06/10/2020
 ms.locfileid: "44689759"
 ---
-# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Microsoft 365 中的通話方案-英國的練習準則（英國）
+# <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Microsoft 365的通話方案 - 英國和英國 (實務) 
 
-這段程式碼適用于英國（英國）中的小型企業客戶（有10名員工或較小者），且根據英國通訊管理法規，以 Microsoft 365 或 Office 365 通話方案服務（"服務"）為依據。 其他商務用 Skype 服務是由您的服務合約所管轄，以及適用于您使用特定服務的任何其他條款。
+本規範適用于在英國 (英國) ) 有 10 名以下員工之小型企業客戶) 組織，適用于 Microsoft 365 或 Office 365 通話方案服務 (根據英國通訊法規 (「服務」) 。 ( 其他商務用 Skype服務受您與 Microsoft 的服務協定以及適用于您使用特定服務之任何其他條款所規範。
 
-## <a name="1-about-skype-for-business"></a>1. 關於商務用 Skype
+## <a name="1-about-skype-for-business"></a>1. 關於 商務用 Skype
 
-商務用 Skype 是在英國由 Microsoft 愛爾蘭運營限制提供，在70羅德 Rogerson 的 Quay，都柏林2，愛爾蘭已註冊的 office。
+商務用 Skype由 Microsoft Ireland Operations Limited 在英國提供，其註冊辦公室位於愛爾蘭的布林第 2 區 John JohnGerson's Quay 70 號。
 
 ## <a name="2-customer-service"></a>2. 客戶服務
 
-如果您有任何銷售、帳單或技術支援問題，您可以在正常的上班時間或在線上期間，透過電話與我們聯繫：
+如果您有任何銷售、帳單或技術支援問題，您可以在一般上班時間或線上電話聯絡我們：
 
-免付費電話號碼： 0800 032 6417
+Toll-Free 電話號碼：0800 032 6417
 
-線上：登入 Microsoft 365 系統管理中心，然後選取 [**支援**] 底下的 [**新增服務要求**] 來提交服務要求。
+線上：請Microsoft 365系統管理中心，然後選取支援 下的新增服務要求以 **提交****服務要求**。
 
-標準上班時間是星期一到星期五，從 9:00 am 到 5:00 pm。
+一般上班時間為星期一至星期五，上午 9：00 至下午 5：00。
 
-您可以透過造訪[商務用 Skype 網站](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)來回答您的一些問題。
+您可以流覽網站以回答部分商務用 Skype[問題](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)。
 
-## <a name="3-complaints-and-dispute-resolution"></a>3. 投訴與糾紛解析
+## <a name="3-complaints-and-dispute-resolution"></a>3. 抱怨和爭議解決
 
-我們的頭等大事是客戶滿意度和卓越的服務。 不過，如果您有任何投訴，我們將會快速協助您解決問題。 [Microsoft 365 或 Office 365 中的通話方案-英國（英國）頁面的投訴處理常式代碼](complaint-handling-code-for-the-united-kingdom-u-k.md)會詳細說明小型企業的程式，將投訴與我們的獨立爭議解決方案進行歸檔。
+我們最優先的事項是客戶滿意度和優質服務。 不過，萬一您收到抱怨，我們會快速協助您解決問題。 我們 Microsoft 365 或 Office 365 的通話方案 - 英國[ (英國 ) ](complaint-handling-code-for-the-united-kingdom-u-k.md)的抱怨處理常式字碼頁面詳細說明小型企業向我們提出訴訟的程式，以及我們獨立的爭議解決方案。
   
-## <a name="4-number-porting"></a>4. 數位移植
+## <a name="4-number-porting"></a>4. 數位埠
 
-在某些情況下，商務用 Skype 可能無法轉讓客戶的電話號碼以與服務搭配使用。 在有可用的數位可攜性的情況下，商務用 Skype 將採取所有合理的步驟，以確保在已達到客戶目前服務提供者所能傳送號碼的協定後，立即完成編號與後續啟用的轉移。
+商務用 Skype在某些情況下可能無法移轉客戶的電話號碼，以用於服務。 如果號碼可攜商務用 Skype，則當與客戶目前的服務提供者達成移轉號碼協定後，商務用 Skype 會採取一切合理步驟，確保號碼移轉及後續啟用能立即完成。
 
 ## <a name="5-service-reliability"></a>5. 服務可靠性
 
-Microsoft 365 或 Office 365 通話方案依賴您的寬頻連線。 如果您的寬頻連線遇到電力中斷或失敗，您將無法打電話給電話。 這些失敗的原因可能不在我們的控制項內。
+Microsoft 365或Office 365通話方案仰賴您的寬頻連線。 如果您的寬頻連線發生電源中斷或失敗，您將無法撥打電話。 這些失敗的原因可能超出我們的控制範圍。
 
-## <a name="6-emergency-calls"></a>6. 緊急通話
+## <a name="6-emergency-calls"></a>6. 緊急電話
 
-商務用 Skype 可讓您在英國、威爾士、蘇格蘭和北愛爾蘭的客戶存取999/112 公用緊急通話服務。 不過，緊急呼叫999或112的運作方式與 Microsoft 365 或 Office 365 通話方案服務的不同，而不是傳統的電話語音。 客戶必須通知這些差異的 Microsoft 365 或 Office 365 通話方案服務的每個使用者。
+商務用 Skype提供 999/112 公用緊急電話語音給英格蘭、蘇格蘭和北愛爾蘭的客戶。 不過，撥打 999 或 112 的緊急Microsoft 365或Office 365方案服務的運作方式與傳統電話語音不同。 客戶必須通知每個使用者這些Microsoft 365或Office 365方案服務。
 
-差異包括：（i）商務用 Skype 可能不知道來電者的實際位置，這可能會導致緊急服務被 despatched 到錯誤的位置;（ii）當商務用 Skype 使用者撥打電話給緊急通話時，操作員可能會要求使用者提供其目前的位置，以協助正確地傳送緊急通話並 despatching 緊急服務;（iii）如果使用者的裝置沒有電源、遇到電源中斷或因任何原因而無法存取網際網路，使用者就無法透過 Microsoft 365 或 Office 365 通話方案服務撥打緊急電話;與（iv）雖然 Microsoft 365 和 Office 365 通話方案服務可以在網際網路連線的世界各地使用，但使用者不應呼叫999或112境外、威爾士、蘇格蘭或北愛爾蘭，因為通話可能不會傳送給適當的緊急服務。
+差異包括： (i) 商務用 Skype可能不知道來電者的實際位置，這可能會導致緊急服務被發到錯誤的位置; (ii) 商務用 Skype使用者撥打緊急電話時，接線生可能會要求使用者提供目前的位置，以協助正確路由緊急電話和緊急服務; (iii) 如果使用者的裝置沒有電源、發生電源中斷，或因其他原因無法存取網際網路，使用者無法透過 Microsoft 365 或 Office 365 通話方案服務撥打緊急電話; (iv) 雖然 Microsoft 365 和 Office 365 通話方案服務可在網際網路可用的任何位置使用，但使用者不應該撥打 999 或 112 在英格蘭、斯文斯、蘇格蘭或愛爾蘭以外的地區，因為電話可能不會路由至適當的緊急服務。
 
-每個客戶都必須註冊使用者的位置，並將此資訊保留更新，以便提供給緊急服務。 您可以透過商務用 Skype 系統管理員入口網站線上變更位置資訊。
+每個客戶必須註冊使用者的位置，並持續更新此資訊，以便提供給緊急服務。 您可以透過系統管理員入口網站對線上位置資訊商務用 Skype變更。
 
-## <a name="7-refund-policy"></a>7. 退款原則
+## <a name="7-refund-policy"></a>7. 退款政策
 
-我們在您的服務合約中指出我們的退款原則。
+我們的退款政策會于您的服務授權合約中說明。
 
 ## <a name="8-contract-terms-and-conditions"></a>8. 合約條款與條件
 
-服務的標準合約條件是在您的服務合約中提供。
+服務合約中提供服務的標準合約條件。
 
-## <a name="9-subscription-fees-and-charges"></a>9. 訂閱費用與費用
+## <a name="9-subscription-fees-and-charges"></a>9. 訂閱費用
 
-您可以在[商務用 Skype 網站](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)上找到訂閱者案和使用費用（包括特優比率服務和國家/地區翻譯服務號碼費用）的相關資訊。
+有關訂閱者案及使用費用 (包括進階版費率服務及國家翻譯服務號碼費用) 請參閱商務用 Skype[網站](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)。
 
 ## <a name="10-directory-listing"></a>10. 目錄清單
 
-如果您想要目錄查詢清單（包括電話簿中的專案）以取得您的電話號碼，可以提供額外費用。 如需進一步的詳細資料，請使用第2節提供的連絡人資訊與我們聯繫。
+如果您想要列出目錄查詢 (包括您電話號碼電話) 中的專案，可以支付額外費用。 如需進一步詳細資料，請使用第 2 節所提供的連絡人資訊來聯絡我們。
 
 ## <a name="11-users-with-disabilities"></a>11. 殘障使用者
 
-此程式碼和投訴處理常式代碼在大型列印或音訊格式中都有提供。
+此程式碼和抱怨處理常式代碼提供大型列印或音訊格式。
 
-## <a name="12-premium-rate-services"></a>12. 特優比率服務
+## <a name="12-premium-rate-services"></a>12. 進階版費率服務
 
-### <a name="what-are-premium-rate-services"></a>什麼是 [特優匯率服務]？
+### <a name="what-are-premium-rate-services"></a>什麼是付費服務？
 
-[特優比率服務] 是可轉譯您的電話帳單所收取之資訊和娛樂的電話號碼。 [特優比率服務] 包含但不限於、慈善捐贈、投票列（亦即，英國擁有人才）、目錄 dating、賭博線，以及成人服務線路（亦即）。 呼叫特優比率服務比呼叫其他有線電話號碼並從0871、0872、0873、118和09開始的成本更大。
+進階版Rate Services 是一種電話號碼，可呈現向電話帳單收費的資訊和娛樂。 進階版Rate Services 包括但不限於慈善捐贈、投票行 (例如英國 Got Talent) 、目錄查詢、娛樂行和成人服務行 (例如) 。 撥打 進階版費率服務比撥打其他有線電話更貴，且從 0871、0872、0873、118 和 09 開始。
 
-[特優比率服務] 由服務提供者（"服務提供者"）提供。 服務提供者（a）提供貨物或服務，或（b）代表多個這樣的提供者提供轉銷商或聚合器。
+進階版費率服務是由服務提供者 (「服務提供者」) 。 服務提供者 (提供) 產品或服務， (b) 代表一些這類提供者做為轉銷商或匯總器。
 
-### <a name="how-do-premium-rate-services-work"></a>[特優工資率服務] 的運作方式為何？
+### <a name="how-do-premium-rate-services-work"></a>進位率服務如何工作？
 
-商務用 Skype 會將您的 [特優比率服務] 呼叫傳送給另一個電話公司（「端接通訊提供者」），它會代表服務提供者接收呼叫。 雖然在服務提供者、商務用 Skype 和終止通訊提供者之間劃分 [特優比率服務] 收入，但服務提供者會收到大部分收入。
+商務用 Skype您的 進階版 費率服務通話傳送給另一個電話公司 (「終止通訊提供者」) 代表服務提供者接收通話。 雖然進階版服務營收是由服務提供者、商務用 Skype和終止通訊提供者所分割，但大部分的收入是由服務提供者所接收。
 
-### <a name="charges"></a>雜項
+### <a name="charges"></a>收費
 
-您可以在我們的[網站](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)上找到 [特優工資率] 服務的所有使用費用。 通話津貼比率號碼通話的持續時間，會以一分鐘的增量為基礎。 分鐘數的秒數將會進位到下一分鐘。 您可以在通話開始時收取連線費用（如果適用的話）。
+我們網站上進階版費率服務的所有使用[費用](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)。 通話進一步費率號碼的通話持續時間應以一分鐘遞增為基礎。 分鐘數的分數會進位到下一分鐘。 如適用，連線費用將在通話開始時收取。
 
-### <a name="telephone-preference-service-and-fax-preference-services"></a>電話喜好服務和傳真喜好設定服務
+### <a name="telephone-preference-service-and-fax-preference-services"></a>電話喜好設定服務和傳真喜好設定服務
 
-[電話喜好設定] （"TPS"）是由直接行銷協會代表 Ofcom 所做的，是一種可讓客戶選擇不接受未經許可的銷售來電的收銀機。 如果您想要在 TPS 註冊，您可以在此 [https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx](https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx) 或呼叫 0843 005 9576。
+「電話喜好設定服務」 (「TPS」) 是由直接行銷協會代表 Ofcom 所經營，是一種可讓客戶退出宣告接收未經要求的銷售電話的註冊。 如果您想要向 TPS 註冊，您可以撥打或撥打 [https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx](https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx) 0843 005 9576 進行註冊。
 
-就像 TPS 一樣，[傳真喜好設定] （"FPS"）是一種寄存器，企業和個人可能會選擇不接受未經許可的銷售和市場傳真。 您可以透過呼叫 0843 005 9576 或在線上來註冊 FPS [https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps](https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps) 。
+與 TPS 一樣，傳真喜好 ("FPS") 是一種註冊，企業和個人可能會退出宣告接收未經要求的銷售和市場傳真。 您可以撥打 0843 005 9576 或線上電話，向 FPS 註冊 [https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps](https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps) 。
 
-### <a name="internet-dialler-protection"></a>網際網路 dialler 防護
+### <a name="internet-dialler-protection"></a>網際網路撥號器保護
 
-網際網路 dialler （與電腦病毒類似）是可下載到電腦的軟體，可將電腦連線到您的電腦，並在您不知情或不同意的情況下，將您的電腦連接到特優匯率服務。 若要保護您的電腦，建議您在按一下連結或快顯視窗，並下載未知來源的內容時，務必小心。 若要進一步保護（透過電話或電子郵件要求），我們可以將所有或特定的特優費率服務的存取權列在內容和成本方面。 此外，我們建議您下載所有必要的安全性軟體來保護您的電腦，而且您會在此軟體推出時經常安裝更新。 如果您認為您已透過網際網路 dialler victimized，請透過電話或電子郵件與我們聯繫。
+網際網路撥號器與電腦病毒類似，是一種可下載到電腦的軟體，可在您不知情或同意的情況下，將電腦連接到 進階版 Rate Services。 為了保護您的電腦，建議您在按一下連結或快顯視窗，並下載未知來源的資料時，請小心。 為了進一步保護，我們可以根據電話或電子郵件的要求，基於內容和成本進階版所有或特定服務。 此外，我們建議您下載所有必要的安全性軟體以保護您的電腦，並經常安裝這類軟體的更新，因為軟體可供使用。 如果您認為您受到網際網路撥號器傷害，請撥打電話或電子郵件來聯絡我們。
 
 ### <a name="phonepayplus"></a>PhonepayPlus
 
-所有服務提供者都必須向 PhonepayPlus 註冊，這是由 Ofcom 核准的獨立組織。 PhonepayPlus 會控制 [特優比率服務] 並調查消費者所歸檔的意見。 所有服務提供者都必須遵循 PhonepayPlus 的實踐程式碼，可以在這裡找到 [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice) 。 如果服務提供者違反實踐程式碼，PhonepayPlus 可能會：
+所有服務提供者都必須向 PhonepayPlus 註冊，PhonepayPlus 是由 Ofcom 核准的獨立組織。 PhonepayPlus 會規範進階版服務，並調查消費者提起的抱怨。 所有服務提供者必須遵守 PhonepayPlus 的實務規範，請于 找到 [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice) 。 如果服務提供者違反實務規範，PhonepayPlus 可能會：
 
-- 需要一方修正違規行為
+- 要求一方補救違反行為
 
-- 罰款問題
+- 發出微調
 
-- [條碼存取服務]
+- 服務橫條圖存取權
 
 ### <a name="service-provider-contact-information"></a>服務提供者連絡人資訊
 
-若要尋找服務提供者的連絡人資訊，您可以使用 PhonepayPlus ' #NumberChecker 工具 [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry) 。 如果您認為您已 wrongfully 支付優惠服務的費用，您應該直接聯繫服務提供者。
+若要尋找服務提供者的連絡人資訊，您可以使用 PhonepayPlus #NumberChecker 工具 [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry) 。 如果您認為您因為付費服務受到不當進階版，您應該直接與服務提供者聯繫。
 
-### <a name="complaints"></a>抱怨
+### <a name="complaints"></a>投訴
 
-如果您想要使用 PhonepayPlus 將服務提供者的投訴歸檔給您，您可以免費付款，或是透過電話提交查詢：
+如果您想要使用 PhonepayPlus 向服務提供者提出訴訟，您可以免費線上或電話提交詢盤：
 
-- 電話： 0300 30 300 20 （9:30 am-下午5點到星期五）
+- 電話：星期一至星期五上午 0300 30 300 (上午 9：30 - 下午 5) 
 
-- 線上查詢：[http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
+- 線上查詢： [http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry](http://www.phonepayplus.org.uk/for-consumers/making-an-enquiry/submit-an-online-enquiry)
 
 ### <a name="dispute-resolution"></a>爭議解決
 
-如果您認為您在 [商務用 Skype] 元件上的 [您的帳單費用] 上的費用是錯誤的，而您想要退款，您可以根據商務用 Skype 投訴處理常式代碼來歸檔投訴。 如果您使用商務用 Skype 歸檔投訴，或（a），在提交（8）周之後，或（b）收到我們已達到最終決定的 Ombudsman 服務，您可能會將投訴提供給 Ofcom，以處理有關通訊服務的相關意見投訴的協力廠商。
+如果您認為帳單上的 進階版 費率服務費用是 商務用 Skype 的一部分錯誤，而且想退款，您可以根據 商務用 Skype 抱怨處理常式程式提出訴訟。 如果您向 商務用 Skype 提出訴訟， () 在提交八 () 周或 (b) 之後，您收到一封信，指出我們已做出最後決定，您可將該抱怨提交至由 Ofcom 核准的協力廠商，以處理通訊服務方面的抱怨。
 
-## <a name="13-national-translation-services-personal-numbers-and-0870-numbers"></a>13. 國家翻譯服務、個人號碼與0870號碼
+## <a name="13-national-translation-services-personal-numbers-and-0870-numbers"></a>13. 國家翻譯服務、個人號碼和 0870 號碼
 
-國家/地區翻譯服務是從08或0500（Freephone 號碼）開始的電話號碼，並依國家/地區電話編號方案分類為「特殊服務號碼」。 個人號碼會加上數位070的首碼。
+National Translation Services 是電話號碼，開頭為 08 或 0500 (免費電話) ，並按國家電話號碼編號計畫歸類為「特殊服務號碼」。 個人號碼會以數位 070 為首碼。
 
-在我們的[網站](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)上提供國內翻譯服務、個人號碼和0870編號的費率，可能會根據當天的時間和通話的日期而波動。 呼叫0800號碼是免費的。
+我們網站上提供國家翻譯服務、個人號碼和 0870 號碼的費率[](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)，可能會根據您的通話時間和一周中的日子而有所變動。 撥打 0800 號碼是免費的。
 
 
 ## <a name="related-topics"></a>相關主題

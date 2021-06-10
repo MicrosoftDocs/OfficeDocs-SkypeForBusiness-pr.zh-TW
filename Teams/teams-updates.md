@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊內容更新
+title: Microsoft Teams內容更新
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.date: 05/16/2019
 ms.reviewer: LolaJ
-description: 本主題是最近已更新的 Microsoft 團隊說明主題清單，其中包含已更新主題的連結。
+description: 本主題是最近更新Microsoft Teams說明主題的清單，包括更新主題的連結。
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
@@ -25,8 +25,8 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/06/2020
 ms.locfileid: "46583802"
 ---
-# <a name="microsoft-teams-content-updates"></a>Microsoft 團隊內容更新
+# <a name="microsoft-teams-content-updates"></a>Microsoft Teams內容更新
 
-本主題列出最近變更的 Microsoft 團隊主題。
+本主題列出Microsoft Teams最近變更的主題。
 
 > [!INCLUDE [teams-content-updates](includes/teams-content-updates.md)]

@@ -18,18 +18,18 @@ description: 瞭解如何設定 Microsoft 通話方案電話系統直接路由�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 46e9e206e82fdc535f115ab276e9cb67ba58d959
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 7c0578496c2ce8d66c7292ac7d7030a1abdd8f88
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796787"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856452"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
 Microsoft 通話方案與直接路由的動態緊急電話系統提供設定和路由緊急電話的能力，並依據用戶端的目前位置通知Teams人員。  
 
-根據租使用者系統管理員定義的網路拓撲，Teams用戶端會向位置資訊服務與 LIS (提供網路) 。 如果有相符專案，LIS 會將位置返回用戶端。 此位置資料會傳回用戶端。  
+根據租使用者系統管理員定義的網路拓撲，Teams用戶端會向位置資訊服務中心或 LIS (提供網路) 。 如果有相符專案，LIS 會將位置返回用戶端。 此位置資料會傳回用戶端。  
 
 用戶端Teams緊急通話中包含位置資料。 然後，緊急服務提供者會使用這些資料來判斷適當的公用安全應答點 (PSAP) ，然後將通話路由至該 PSAP，讓 PSAP 調度員取得來電者的位置。  
 
@@ -41,7 +41,7 @@ Microsoft 通話方案與直接路由的動態緊急電話系統提供設定和�
 
 2. 在啟動期間和之後定期，或網路連接變更時，Teams用戶端會傳送包含其網路連接資訊的位置要求至網路設定和 LIS。
 
-   - 如果有網路設定網站相符 ，緊急通話政策會從該網站Teams用戶端。  (有關政策的資訊，請參閱設定 [緊急](#configure-emergency-policies)) 。
+   - 如果有網路設定網站相符 ，緊急電話Teams會從該網站回到用戶端。  (有關政策的資訊，請參閱設定 [緊急](#configure-emergency-policies)) 。
 
    - 如果有 LIS 相符專案，則從已連接用戶端Teams網路元素的緊急位置會Teams用戶端。 會以下列循序執行比對，並返回第一個相符的結果：
        - Wap
@@ -85,7 +85,7 @@ Microsoft 通話方案與直接路由的動態緊急電話系統提供設定和�
 - Teams 會議室版本 4.4.25.0 及更新版本
 
 > [!NOTE]
-> Web 用戶端不支援動態緊急電話，包括安全Teams通知。 若要防止使用者使用網路用戶端Teams PSTN 號碼，您可以設定Teams，並關閉 [允許 **Web PSTN** 通話設定。 若要深入瞭解，請參閱在[](teams-calling-policy.md)Teams[和 Set-CsTeamsCallingPolicy 中的通話政策](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)。 支援子網和 WiFi AP。 目前支援乙太網路Windows 8.1/埠。 
+> Web 用戶端不支援動態緊急電話，包括安全Teams通知。 若要防止使用者使用網路用戶端Teams PSTN 號碼，您可以設定Teams，並關閉 [允許 **Web PSTN** 通話設定。 若要深入瞭解，請參閱在[](teams-calling-policy.md)Teams[和 Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)中的通話政策。 支援子網和 WiFi AP。 目前支援乙太網路Windows 8.1/埠。 
 
 ## <a name="assign-emergency-addresses"></a>指派緊急位址
 
@@ -97,11 +97,11 @@ Azure 地圖用於位置型服務。  當您使用系統管理中心輸入緊急
 
 - 如果找到相符專案，系統會自動包含地理代碼。
 
-- 如果找不到相符專案，您將有機會手動建立緊急位址。 您可以使用 PIN 下拉功能執行此工作。 
+- 如果找不到相符專案，您將有機會手動建立緊急位址。 您可以使用 PIN 拖放功能執行此工作。 
 
 這表示，如果為指派給通話方案使用者而建立的現有緊急位置是針對動態位置所建立，必須重新建立相同的位址，以包含地理代碼。 若要區別這兩個位置，您應該包含不同的描述。 新的緊急位置可以指派給擁有舊位置的使用者。 完全移移後，可以刪除舊位置。
 
-您可以在系統管理中心Microsoft Teams或使用 PowerShell 來新增和指派緊急位址。 若要詳細資訊，請參閱 [為貴組織](add-change-remove-emergency-location-organization.md) 新增緊急位置，以及指派 [使用者的緊急位置](assign-change-emergency-location-user.md)。
+您可以在系統管理中心Microsoft Teams或使用 PowerShell 來新增和指派緊急位址。 詳細資訊，請參閱 [新增組織的](add-change-remove-emergency-location-organization.md) 緊急位置，以及指派 [使用者的緊急位置](assign-change-emergency-location-user.md)。
 
 ## <a name="configure-network-settings"></a>設定網路設定
 
@@ -110,17 +110,17 @@ Azure 地圖用於位置型服務。  當您使用系統管理中心輸入緊急
 網路設定包括包含子網集合的網站，這些網站僅用於動態策略指派給使用者。 例如，緊急通話策略和緊急電話路由策略可能會指派給「Redmond 網站」，讓任何從家用或另一個 Microsoft 位置漫遊的使用者，都使用 Redmond 特有的緊急號碼、路由和安全性電話機進行配置。  
 
 >[!Note]
->子網也可以定義在 LIS 中，而且可以與緊急位置相關聯。  LIS 子網必須由符合指派給用戶端之子網 IP 範圍的網路識別碼定義。 例如，用戶端 IP/遮罩 10.10.10.150/25 的網路識別碼是 **10.10.10.128**。 詳細資訊，請參閱瞭解 [TCP/IP 位址和子網劃分基本功能](https://docs.microsoft.com/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)。
+>子網也可以定義在 LIS 中，而且可以與緊急位置相關聯。  LIS 子網必須由符合指派給用戶端之子網 IP 範圍的網路識別碼定義。 例如，用戶端 IP/遮罩 10.10.10.150/25 的網路識別碼是 **10.10.10.128**。 詳細資訊請參閱瞭解 [TCP/IP 位址和子網劃分基本功能](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)。
 
 請記住下列定義。 詳細資訊，請參閱 [雲端語音功能的網路設定](cloud-voice-network-settings.md)。
 
-- 信任的 IP 位址包含商業網路的網際網路外部 IP 位址集合，並用來判斷使用者的端點是否位於公司網路內。 只有在使用者的外部 IP 位址符合信任的 IP 位址中的 IP 位址時，才能嘗試取得動態策略或位置。 您可以根據 IPv4 或 IPv6 IP 位址進行比對，並視要送至網路設定之 IP 封包的格式而定。   (如果公用 IP 位址同時有 IPv4 和 IPv6，您需要將兩者新增為信任的 IP 位址。) 
+- 信任的 IP 位址包含商業網路的網際網路外部 IP 位址集合，並用來判斷使用者的端點是否位於公司網路內。 只有在使用者的外部 IP 位址符合信任的 IP 位址中的 IP 位址時，才能嘗試取得動態策略或位置。 您可以根據 IPv4 或 IPv6 IP 位址進行比對，並視要送往網路設定之 IP 封包的格式而定。   (如果公用 IP 位址同時有 IPv4 和 IPv6，您必須同時將兩者新增為信任的 IP 位址。) 
 
 - 網路區域包含網路網站的集合。 
 
 - 網路網站代表貴組織具有實體值的位置，例如辦公室、一組建築物或校園。 這些網站定義為 IP 子網的集合。
 
-- 網路子網必須與特定網路網站相關聯。 用戶端的位置是根據網路子網和相關聯的網路網站所決定。  
+- 網路子網必須與特定網路網站相關聯。 用戶端的位置是根據網路子網和相關網路網站所決定。  
 
 您可以在系統管理中心Microsoft Teams或使用 PowerShell 來設定網路設定。 若要深入瞭解，請參閱 [管理雲端語音功能的網路拓撲](manage-your-network-topology.md)。
 
@@ -136,7 +136,7 @@ Azure 地圖用於位置型服務。  當您使用系統管理中心輸入緊急
 
 **針對直接路由使用者：**
 
-- 如果需要動態啟用緊急電話或動態設定安全電話台通知，則必須同時設定信任的 IP 位址和網路網站。
+- 如果需要動態啟用緊急電話或安全性電話台通知的動態設定，則必須同時設定信任的 IP 位址和網路網站。
 
 - 如果只需要動態位置，則必須只設定信任的 IP 位址。
 
@@ -145,7 +145,7 @@ Azure 地圖用於位置型服務。  當您使用系統管理中心輸入緊急
 
 ## <a name="configure-location-information-service"></a>設定位置資訊服務
 
-用戶端Teams會從與不同的網路識別碼相關聯的位置取得緊急位址。 支援子網和無線存取點 (WAP) 。 目前支援乙太網路Windows 8.1/埠。
+用戶端Teams會從與不同網路識別碼相關聯的位置取得緊急位址。 支援子網和無線存取點 (WAP) 。 目前支援乙太網路Windows 8.1/埠。
 
 若要讓用戶端取得位置，您必須在 LIS 中填入網路識別碼 (子網、WAP、切換器、埠和) 位置。 您可以在系統管理中心Microsoft Teams PowerShell 執行此工作。
 
@@ -157,7 +157,7 @@ Azure 地圖用於位置型服務。  當您使用系統管理中心輸入緊急
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-使用下列 Cmdlet 將埠、開關、子網和 WAP 新加到 LIS。
+使用下列 Cmdlet 在 LIS 中新增埠、切換、子網和 WAP。
 
 - [取得](/powershell/module/skype/get-csonlinelissubnet?view=skype-ps)、 [設定](/powershell/module/skype/set-csonlinelissubnet?view=skype-ps)、 [移除](/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
 - [取得](/powershell/module/skype/get-csonlinelisport?view=skype-ps)、 [設定](/powershell/module/skype/set-csonlinelisport?view=skype-ps)、 [移除](/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
@@ -171,7 +171,7 @@ Azure 地圖用於位置型服務。  當您使用系統管理中心輸入緊急
 
 使用下列策略來設定緊急電話。 您可以在系統管理中心Microsoft Teams使用 PowerShell 來管理這些策略。
 
-- **緊急通話路由原則** - 僅適用于直接路由。 此策略會設定緊急號碼、每個號碼的遮罩 ，以及每個號碼的 PSTN 路由。  您可以將此策略指派給使用者、網路網站或兩者。  (通話方案 Teams 用戶端會根據國家/地區 Microsoft 365 或 Office 365 使用位置自動啟用緊急電話。) 若要深入瞭解，請參閱管理直接路由的緊急電話路由[策略。](manage-emergency-call-routing-policies.md)
+- **緊急電話路由原則** - 僅適用于直接路由。 此策略會設定緊急號碼、每個號碼的遮罩 ，以及每個號碼的 PSTN 路由。  您可以將此策略指派給使用者、網路網站或兩者。  (通話方案 Teams 用戶端會根據國家/地區 Microsoft 365 或 Office 365 使用位置自動啟用緊急電話。) 若要深入瞭解，請參閱管理直接路由的緊急電話路由[策略。](manage-emergency-call-routing-policies.md)
 
 - **緊急通話原則** - 適用于通話方案及直接路由。 此策略會設定撥打緊急電話時的安全性電話台通知體驗。 您可以設定要通知哪些人，以及如何通知他們。 例如，若要自動通知貴組織的安全電話台，讓他們接聽緊急電話。  此策略可以指派給使用者或網路網站，也可以同時指派給使用者或網路網站。 若要深入瞭解，請參閱在 Teams 中[管理緊急Teams。](manage-emergency-calling-policies.md)
 
@@ -186,7 +186,7 @@ Azure 地圖用於位置型服務。  當您使用系統管理中心輸入緊急
 
 以下是一些 PowerShell 範例。
 
-若要啟用特定使用者的安全性電話台通知，請使用下列命令：
+若要啟用特定使用者的安全性桌面通知，請使用下列命令：
 
 ```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification

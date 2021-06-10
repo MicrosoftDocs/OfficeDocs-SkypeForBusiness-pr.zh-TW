@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何為 Microsoft 團隊採納增加知名度並執行訓練計畫。
+description: 瞭解如何提高認知度，並針對採用Microsoft Teams計畫。
 f1.keywords:
 - CSH
 ms.custom:
@@ -28,47 +28,47 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49834153"
 ---
-# <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>針對 Microsoft 團隊進行磁片磁碟機意識與實施訓練
+# <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>提高認知度，並針對這些人員Microsoft Teams
 
-[認識與訓練] 是您總體採用戰略的行銷與通訊區段。 這可確保您的員工知道 Microsoft 團隊及其基礎 Microsoft 365 或 Office 365 服務與應用程式的新功能。
+認知與訓練是整體採用策略的行銷與通訊區段。 這可確保您的員工瞭解 Microsoft Teams 服務與應用程式的Microsoft 365或Office 365新功能。
    
-針對您的初始試驗和您的整個公司全期間推出，您的內部溝通必須是優先順序。 它們應該包括：
+對於初始試驗和最終全公司的推出，您的內部通訊應優先處理。 它們應該包括：
 
-- 內部認識素材，例如海報、數位告示及事件。
-- 在單一位置進行自助與訓練資訊。
+- 內部宣傳資料，例如海報、數位標誌和事件。
+- 單一位置的自助與訓練資訊。
 
-針對您的試用階段，這些是成功的最低步驟：
+針對您的試驗階段，以下為成功的最低步驟：
 
-- 與您的專案股東進行定期排程的會議以進行更新。
-- 提供自助說明文件，包括產品影片。
-- 使用試驗使用者來舉行開始會議，讓他們對他們的參與感到滿意。 建立具有熱忱的群組感覺的重要性無法 overstated。
+- 定期與專案專案關係人召開排定的會議，以進行更新。
+- 提供自助檔，包括產品影片。
+- 與試驗使用者召開啟動會議，讓他們對參與感到興奮。 建立具有熱忱之社群感的重要性，不能誇大。
 
-完成初始試驗之後，您就可以擴大上述工作，以吸引整個組織。 根據您的大小而定，這可能需要一些時間，並會依地區、使用者設定檔或組織的階段來進行。 在此規模較大的橫向期間，鼓勵貴組織中的 communicators 參與。 我們建議在您使用可用的採納資料或設計自己的時，儘早參與這些人。
+完成初始試驗後，您可以展開上述工作，以覆蓋整個組織。 視您的大小，這可能需要一些時間，並依地區、使用者設定檔或組織來逐步處理。 在此大規模推出期間，鼓勵貴組織中通訊者的參與。 我們建議您在使用可用的採用資料或自行設計時，及早且經常參與這些人員。
 
-如果您的公司有一個中央 intranet 入口網站可提供新聞、資訊或支援，您可以將它作為中樞，以取得關於此推出的資訊。提供廣泛提供的自助資訊、訓練及書面指南，讓使用者可以快速取得板載的功能。 許多使用者只需在團隊推出後，就可以開始進行，我們會鼓勵您這樣做。 我們也知道每個人都以不同的方式來學習，中央資訊入口網站可支援貴組織內的所有學習樣式。
+如果您的公司有一個中央內部網路入口網站，提供新聞、資訊或支援，您可以使用它做為樞紐，以提供有關此推出的資訊。提供廣泛可用的自助資訊、訓練和書面指引，讓使用者快速上手。 許多使用者只要在可用Teams就會跳到其中，我們鼓勵這樣做。 我們也知道每個人都會以不同方式學習;中央資訊入口網站可支援貴組織內的所有學習樣式。
 
-## <a name="implement-end-user-training"></a>實施最終使用者訓練
+## <a name="implement-end-user-training"></a>執行使用者訓練
 
-使用我們的資源，在使用者開始使用 Microsoft 團隊以及其他 Microsoft 365 或 Office 365 服務時，提供使用者的訓練。 若要深入瞭解，請造訪我們的資源頁面：
+使用我們的資源提供使用者訓練，因為人員開始使用 Microsoft Teams 服務Microsoft 365 Office 365訓練。 請流覽我們的資源頁面以深入瞭解：
 
-- [針對團隊提供講師指導的使用者訓練](instructor-led-training-teams-landing-page.yml)
-- [團隊的管理員訓練](itadmin-readiness.md)
-- [線上端使用者的影片訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [& IT 專業人員的擁護的雲端線上訓練中的咖啡](https://aka.ms/CoffeeintheCloud) 
-- [採納工具](https://aka.ms/O365AdoptionTools)
+- [由講師帶領的最終使用者訓練課程Teams](instructor-led-training-teams-landing-page.yml)
+- [適用于您的系統管理員Teams](itadmin-readiness.md)
+- [線上使用者影片訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
+- [針對 It 專業人員的雲端線上訓練中的咖啡&咖啡](https://aka.ms/CoffeeintheCloud) 
+- [採用工具](https://aka.ms/O365AdoptionTools)
 
-## <a name="measure-and-share-success"></a>衡量及分享成功
+## <a name="measure-and-share-success"></a>衡量並分享成功
 
-就像任何溝通與採納行銷活動，您都會想提前識別您的成功測量。 請考慮下列事項：
+就像任何通訊和採用行銷活動一樣，您一定會想要找出成功的度量單位。 請考慮以下專案：
 
-- 產品中的作用中使用者
-- 您的資訊網頁視圖
-- 使用者群組中的問題
-- 訓練影片的視圖
-- 參與學習活動
+- 產品中的使用中使用者
+- 資訊網頁的流覽
+- 使用者社群中的問題
+- 訓練影片的觀看
+- 出席學習活動
 
-透過 [# #] #TeamsStories 分享您在意見反應頻道所取得的洞察力，輕鬆進行檢索。 在內部網路上共用每個月的 #TeamsStory，以醒目提示正在進行變更的員工，以在您的環境中提高生產力和共同作業。 您也可以在我們的 Microsoft 技術社區中，與我們分享我們的 emc 共同採納論壇。 在您自己的公司中共用這些真實世界的範例，對於您的使用者群體而言，使用持續的變更就相當重要。
+使用雜湊標記和索引#TeamsStories分享您從意見回饋頻道取得的意見。 每月#TeamsStory內部網路共用活動，以突顯採用這項變更的員工，以提升您環境的生產力和共同作業。 此外，在 Microsoft Technical Community 的駕駛採用論壇中與我們Community。 在您自己的公司內分享這些實際範例，對於與使用者社群一起實現持續的變化來說，是非常寶貴的。
 
-[深入瞭解 Microsoft 365 系統管理中心的 Microsoft 團隊使用方式報告。](teams-activity-reports.md)
+[進一Microsoft Teams系統管理中心Microsoft 365使用方式報告。](teams-activity-reports.md)
 
-![描述後續步驟的圖示 ](media/teams-adoption-next-icon.png) ： [[排程服務健康情況檢查](teams-adoption-schedule-service-health-reviews.md)]
+![描述下一個步驟的 ](media/teams-adoption-next-icon.png) 圖示下一步： [排程服務健康狀態評論](teams-adoption-schedule-service-health-reviews.md)

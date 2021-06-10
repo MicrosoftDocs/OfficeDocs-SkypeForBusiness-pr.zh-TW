@@ -1,5 +1,5 @@
 ---
-title: Microsoft 團隊採用階段 3-規模
+title: Microsoft Teams採用階段 3 - 縮放
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 閱讀您需要瞭解的步驟，以支援貴組織的小組規模廣泛啟用。
+description: 閱讀您需要學習的步驟概觀，以支援組織廣泛Teams啟用。
 f1.keywords:
 - CSH
 ms.custom:
@@ -28,17 +28,17 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49806103"
 ---
-# <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft 團隊採用階段 3-規模
+# <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams採用階段 3 - 縮放
 
-在此階段中，您將會使用學習專案、共同進行的專案小組，以及與干係人、擁護者和早期使用方式的關聯，以支援貴組織的小組規模廣泛啟用。 當您準備針對貴組織使用 Microsoft 團隊的持續商務活動時，您將會完成下列步驟：
+在這個階段中，您將使用您的學習、有才能的專案小組，以及與專案關係人、支援者和早期採用者的關係，為貴組織提供Teams支援。 當您準備持續與組織進行商務互動時，您將完成下列Microsoft Teams：
 
-1. 定義結果與成功的方法。
-2. 選取 [服務策略]。
-3. 與干係人接洽。
-4. 設計及啟動知曉活動。
-5. 設計及啟動訓練計畫。
-6. 瞭解報表工具。
-7. 準備日常商務活動。
-8. 準備日常服務健康情況 & 採納審查。
+1. 定義結果和成功度量。
+2. 選取服務策略。
+3. 與專案關係人互動。
+4. 設計並啟動認知活動。
+5. 設計並啟動訓練計畫。
+6. 瞭解報告工具。
+7. 準備進行中的商務互動。
+8. 準備進行中的服務健康狀態&採用審查。
 
-![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [定義結果與成功](teams-adoption-define-outcomes.md)
+![代表下一個步驟的 ](media/teams-adoption-next-icon.png) 圖示下一步： [定義結果和成功](teams-adoption-define-outcomes.md)

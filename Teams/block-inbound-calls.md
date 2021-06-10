@@ -23,7 +23,7 @@ ms.locfileid: "52689761"
 ---
 # <a name="block-inbound-calls"></a>封鎖來電
 
-Microsoft 通話方案、直接路由和接線連線都支援封鎖從公用交換電話網絡 (PSTN) 。 此功能可讓系統管理員在租使用者全域層級定義號碼模式清單，以便針對相符專案清單檢查每個傳入 PSTN 呼叫的來電者識別碼。 如果相符，來電會遭到拒絕。
+Microsoft 通話方案、直接路由和接線連線都支援封鎖從公用交換電話網絡 (PSTN) 。 此功能可讓系統管理員在租使用者全域層級定義號碼模式清單，以便針對相符專案清單檢查每個傳入 PSTN 來電的本機號碼給租使用者。 如果相符，來電會遭到拒絕。
 
 此來電封鎖功能僅適用于來自 PSTN 的來電，且僅適用于租使用者全域層級。 個別Teams使用者無法操作此清單。 用戶端Teams允許個別使用者封鎖 PSTN 通話。 有關您的使用者如何實行通話封鎖的資訊，請參閱在 Teams 中[管理通話Teams。](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
@@ -46,7 +46,7 @@ Microsoft 通話方案、直接路由和接線連線都支援封鎖從公用交�
 檢視及啟用整個通話封鎖功能是由 **Get-** 和 **Set-CsTenantBlockingCallingNumbers** Cmdlet 管理。
 
 - [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) 會針對全域封鎖的編號清單，會返回輸入區塊編號模式和輸入免稅數位模式參數。 此 Cmdlet 也會將封鎖功能 (True 或 False) 。 除了開啟或關閉功能外，無法手動修改單一全域租使用者策略。
-- [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) 允許修改全域租使用者封鎖的通話，以在租使用者層級開啟和關閉。
+- [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) 可讓您修改全域租使用者封鎖的通話，以在租使用者層級開啟和關閉。
 
 ### <a name="examples"></a>範例
 
