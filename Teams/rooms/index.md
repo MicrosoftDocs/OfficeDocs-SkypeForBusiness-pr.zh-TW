@@ -14,7 +14,7 @@ localization_priority: Normal
 ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: 瞭解如何設定 Microsoft Teams 會議室，包括規劃、部署和管理系統，以建立理想的虛擬會議室。
+description: 瞭解如何設定Microsoft Teams 會議室，包括規劃、部署和管理系統，以建立理想的虛擬會議室。
 ms.custom: seo-marvel-may2020
 ms.openlocfilehash: a809b2a0e66b391a001956dabddc2763915be14f
 ms.sourcegitcommit: 88cb2362d07bca88402cf771a6f366c972e26001
@@ -23,33 +23,33 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/31/2021
 ms.locfileid: "51471477"
 ---
-# <a name="microsoft-teams-rooms"></a><span data-ttu-id="cb28c-103">Microsoft Teams 會議室</span><span class="sxs-lookup"><span data-stu-id="cb28c-103">Microsoft Teams Rooms</span></span>
+# <a name="microsoft-teams-rooms"></a><span data-ttu-id="61761-103">Microsoft Teams 會議室</span><span class="sxs-lookup"><span data-stu-id="61761-103">Microsoft Teams Rooms</span></span>
 
 :::row:::
     :::column span="2":::
-       <span data-ttu-id="cb28c-104">利用豐富的共同合作式 Teams 體驗，輕鬆使用、部署和管理會議空間，從小型擠滿區域到大型會議室，轉換會議空間。</span><span class="sxs-lookup"><span data-stu-id="cb28c-104">Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Teams experience that's simple to use, deploy, and manage.</span></span>
+       <span data-ttu-id="61761-104">利用簡單使用、部署和管理的豐富、共同Teams會議空間，從小型活動區域到大型會議室，轉換會議空間。</span><span class="sxs-lookup"><span data-stu-id="61761-104">Transform meeting spaces ranging from small huddle areas to large conference rooms with a rich, collaborative Teams experience that's simple to use, deploy, and manage.</span></span>
 
-       <span data-ttu-id="cb28c-105">使用單鍵加入功能，及時開始會議，然後立即將專案顯示在會議室中，並分享給遠端參與者。</span><span class="sxs-lookup"><span data-stu-id="cb28c-105">Start meetings on time with one-touch join, then instantly project to the display in the room and share to remote participants.</span></span>
+       <span data-ttu-id="61761-105">使用單鍵加入功能，及時開始會議，然後立即將專案顯示在會議室中，並分享給遠端參與者。</span><span class="sxs-lookup"><span data-stu-id="61761-105">Start meetings on time with one-touch join, then instantly project to the display in the room and share to remote participants.</span></span>
 
-       <span data-ttu-id="cb28c-106">從我們的其中一個合作夥伴：Yealink、Logitech、Cresron、Polycom、Lenovo 和 HP 選取正確的系統與音訊視訊周邊。</span><span class="sxs-lookup"><span data-stu-id="cb28c-106">Select the right system and audio video peripherals from one of our partners: Yealink, Logitech, Crestron, Polycom, Lenovo, and HP.</span></span>
+       <span data-ttu-id="61761-106">從我們的其中一個合作夥伴：Yealink、Logitech、Cresron、Polycom、Lenovo 和 HP 選取正確的系統與音訊視訊周邊。</span><span class="sxs-lookup"><span data-stu-id="61761-106">Select the right system and audio video peripherals from one of our partners: Yealink, Logitech, Crestron, Polycom, Lenovo, and HP.</span></span>
 
-       <span data-ttu-id="cb28c-107">若要快速瞭解 Teams 會議室，請按一下右邊的影片。</span><span class="sxs-lookup"><span data-stu-id="cb28c-107">For a quick introduction to Teams Rooms, click on the video to the right.</span></span>
+       <span data-ttu-id="61761-107">若要快速瞭解Teams 會議室，請按一下右邊的影片。</span><span class="sxs-lookup"><span data-stu-id="61761-107">For a quick introduction to Teams Rooms, click on the video to the right.</span></span>
     :::column-end:::
     :::column:::
-       [<span data-ttu-id="cb28c-108">:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams 會議室 Microsoft 技工影片":::</span><span class="sxs-lookup"><span data-stu-id="cb28c-108">:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams Rooms Microsoft Mechanics video":::</span></span>](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+       [<span data-ttu-id="61761-108">:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams 會議室Microsoft 技工影片":::</span><span class="sxs-lookup"><span data-stu-id="61761-108">:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams Rooms Microsoft Mechanics video":::</span></span>](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
     :::column-end:::
 :::row-end:::
 
 |    <img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon">           | <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon">              |   <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon">            |
 | ------------- | ------------- | ------------- |
-|  <span data-ttu-id="cb28c-109">**[規劃](./rooms-plan.md)**</span><span class="sxs-lookup"><span data-stu-id="cb28c-109">**[Plan](./rooms-plan.md)**</span></span> |  <span data-ttu-id="cb28c-110">**[部署](./rooms-deploy.md)**</span><span class="sxs-lookup"><span data-stu-id="cb28c-110">**[Deploy](./rooms-deploy.md)**</span></span> |  <span data-ttu-id="cb28c-111">**[管理](./rooms-manage.md)**</span><span class="sxs-lookup"><span data-stu-id="cb28c-111">**[Manage](./rooms-manage.md)**</span></span> |
+|  <span data-ttu-id="61761-109">**[規劃](./rooms-plan.md)**</span><span class="sxs-lookup"><span data-stu-id="61761-109">**[Plan](./rooms-plan.md)**</span></span> |  <span data-ttu-id="61761-110">**[部署](./rooms-deploy.md)**</span><span class="sxs-lookup"><span data-stu-id="61761-110">**[Deploy](./rooms-deploy.md)**</span></span> |  <span data-ttu-id="61761-111">**[管理](./rooms-manage.md)**</span><span class="sxs-lookup"><span data-stu-id="61761-111">**[Manage](./rooms-manage.md)**</span></span> |
 
 > [!NOTE]
-> <span data-ttu-id="cb28c-112">Microsoft Teams 會議室適用于 Microsoft Teams、商務用 Skype Online、商務用 Skype Server 2019 或商務用 Skype Server 2015。</span><span class="sxs-lookup"><span data-stu-id="cb28c-112">Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Online, Skype for Business Server 2019, or Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="61761-112">Microsoft Teams 會議室適用于 2019 Microsoft Teams、商務用 Skype、商務用 Skype Server 2019 或 2015 商務用 Skype Server使用。</span><span class="sxs-lookup"><span data-stu-id="61761-112">Microsoft Teams Rooms is intended for use with Microsoft Teams, Skype for Business Online, Skype for Business Server 2019, or Skype for Business Server 2015.</span></span>
 >
-> <span data-ttu-id="cb28c-113">Lync Server 2013 等先前平臺無法與 Microsoft Teams 會議室一起使用。</span><span class="sxs-lookup"><span data-stu-id="cb28c-113">Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms.</span></span>
+> <span data-ttu-id="61761-113">Lync Server 2013 等先前平臺無法與 Microsoft Teams 會議室。</span><span class="sxs-lookup"><span data-stu-id="61761-113">Earlier platforms like Lync Server 2013 aren't expected to work with Microsoft Teams Rooms.</span></span>
 
-<span data-ttu-id="cb28c-114">這些文章適用于負責規劃、部署和管理這些裝置的使用者，而非系統使用者。</span><span class="sxs-lookup"><span data-stu-id="cb28c-114">These articles are intended for people tasked with planning, deploying, and managing these devices, and not for the users of the system.</span></span> <span data-ttu-id="cb28c-115">使用者將會對 Microsoft Teams 會議室的線上 [説明更感興趣](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。</span><span class="sxs-lookup"><span data-stu-id="cb28c-115">Users will be more interested in the Microsoft Teams Rooms [online help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).</span></span>
+<span data-ttu-id="61761-114">這些文章適用于負責規劃、部署和管理這些裝置的使用者，而非系統使用者。</span><span class="sxs-lookup"><span data-stu-id="61761-114">These articles are intended for people tasked with planning, deploying, and managing these devices, and not for the users of the system.</span></span> <span data-ttu-id="61761-115">使用者將會對線上Microsoft Teams 會議室[感興趣](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。</span><span class="sxs-lookup"><span data-stu-id="61761-115">Users will be more interested in the Microsoft Teams Rooms [online help](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="cb28c-116">[Skype 會議室系統](../rooms/lrs-migration.md) (Lync Room System) 和 Microsoft Teams Room 是不同的產品，具有不同的相依性與部署程式。</span><span class="sxs-lookup"><span data-stu-id="cb28c-116">[Skype Room System](../rooms/lrs-migration.md) (formerly Lync Room System) and Microsoft Teams Rooms are different products with different dependencies and deployment procedures.</span></span>
+> <span data-ttu-id="61761-116">[Skype會議室系統](../rooms/lrs-migration.md) (Lync Room System) 和 Microsoft Teams 會議室是不同的產品，具有不同的相依性及部署程式。</span><span class="sxs-lookup"><span data-stu-id="61761-116">[Skype Room System](../rooms/lrs-migration.md) (formerly Lync Room System) and Microsoft Teams Rooms are different products with different dependencies and deployment procedures.</span></span>

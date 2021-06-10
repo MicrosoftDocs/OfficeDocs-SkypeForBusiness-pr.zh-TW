@@ -1,5 +1,5 @@
 ---
-title: 斯洛維尼亞免付費撥號限制
+title: 斯洛維尼亞的免付費撥號限制
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -30,28 +30,28 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51097699"
 ---
-# <a name="toll-free-dialing-restrictions-in-slovenia"></a><span data-ttu-id="a8ee6-105">斯洛維尼亞的免付費撥號限制</span><span class="sxs-lookup"><span data-stu-id="a8ee6-105">Toll-free dialing restrictions in Slovenia</span></span>
+# <a name="toll-free-dialing-restrictions-in-slovenia"></a><span data-ttu-id="4c194-105">斯洛維尼亞的免付費撥號限制</span><span class="sxs-lookup"><span data-stu-id="4c194-105">Toll-free dialing restrictions in Slovenia</span></span>
 
-<span data-ttu-id="a8ee6-106">[尋找其他國家/地區](../toll-free-dialing-limitations-and-restrictions.md)，或深入瞭解免付費撥號限制與限制。</span><span class="sxs-lookup"><span data-stu-id="a8ee6-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="4c194-106">[尋找其他國家/地區](../toll-free-dialing-limitations-and-restrictions.md)，或深入瞭解免付費撥號限制與限制。</span><span class="sxs-lookup"><span data-stu-id="4c194-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="a8ee6-107">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="a8ee6-107">**Details**</span></span>|<span data-ttu-id="a8ee6-108">**描述**</span><span class="sxs-lookup"><span data-stu-id="a8ee6-108">**Description**</span></span>|
+|<span data-ttu-id="4c194-107">**詳細資料**</span><span class="sxs-lookup"><span data-stu-id="4c194-107">**Details**</span></span>|<span data-ttu-id="4c194-108">**描述**</span><span class="sxs-lookup"><span data-stu-id="4c194-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="a8ee6-109">免付費通話是否可用？</span><span class="sxs-lookup"><span data-stu-id="a8ee6-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="a8ee6-110">是</span><span class="sxs-lookup"><span data-stu-id="a8ee6-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="a8ee6-111">撥號格式 () </span><span class="sxs-lookup"><span data-stu-id="a8ee6-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="a8ee6-112">0 800 800XX</span><span class="sxs-lookup"><span data-stu-id="a8ee6-112">0 800 800XX</span></span>  <br/> |
-|<span data-ttu-id="a8ee6-113">國家/地區 ISO 代碼</span><span class="sxs-lookup"><span data-stu-id="a8ee6-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="a8ee6-114">四</span><span class="sxs-lookup"><span data-stu-id="a8ee6-114">SI</span></span>  <br/> |
-|<span data-ttu-id="a8ee6-115">涵蓋的島嶼/地區</span><span class="sxs-lookup"><span data-stu-id="a8ee6-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="a8ee6-116">不適用</span><span class="sxs-lookup"><span data-stu-id="a8ee6-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="a8ee6-117">未涵蓋的島嶼/地區</span><span class="sxs-lookup"><span data-stu-id="a8ee6-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="a8ee6-118">不適用</span><span class="sxs-lookup"><span data-stu-id="a8ee6-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="a8ee6-119">有線/固定線路可用性</span><span class="sxs-lookup"><span data-stu-id="a8ee6-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="a8ee6-120">是</span><span class="sxs-lookup"><span data-stu-id="a8ee6-120">Yes</span></span>  <br/> |
-|<span data-ttu-id="a8ee6-121">行動網路可用性</span><span class="sxs-lookup"><span data-stu-id="a8ee6-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="a8ee6-122">否</span><span class="sxs-lookup"><span data-stu-id="a8ee6-122">No</span></span>  <br/> |
-|<span data-ttu-id="a8ee6-123">批註、限制和存取問題</span><span class="sxs-lookup"><span data-stu-id="a8ee6-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="a8ee6-124">無</span><span class="sxs-lookup"><span data-stu-id="a8ee6-124">None</span></span>  <br/> |
+|<span data-ttu-id="4c194-109">免付費通話是否可用？</span><span class="sxs-lookup"><span data-stu-id="4c194-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="4c194-110">是</span><span class="sxs-lookup"><span data-stu-id="4c194-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="4c194-111">撥號格式 () </span><span class="sxs-lookup"><span data-stu-id="4c194-111">Dialing format(s)</span></span>  <br/> |<span data-ttu-id="4c194-112">0 800 800XX</span><span class="sxs-lookup"><span data-stu-id="4c194-112">0 800 800XX</span></span>  <br/> |
+|<span data-ttu-id="4c194-113">國家/地區 ISO 代碼</span><span class="sxs-lookup"><span data-stu-id="4c194-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="4c194-114">四</span><span class="sxs-lookup"><span data-stu-id="4c194-114">SI</span></span>  <br/> |
+|<span data-ttu-id="4c194-115">涵蓋的島嶼/地區</span><span class="sxs-lookup"><span data-stu-id="4c194-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="4c194-116">不適用</span><span class="sxs-lookup"><span data-stu-id="4c194-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="4c194-117">未涵蓋的島嶼/地區</span><span class="sxs-lookup"><span data-stu-id="4c194-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="4c194-118">不適用</span><span class="sxs-lookup"><span data-stu-id="4c194-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="4c194-119">有線/固定線路可用性</span><span class="sxs-lookup"><span data-stu-id="4c194-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="4c194-120">是</span><span class="sxs-lookup"><span data-stu-id="4c194-120">Yes</span></span>  <br/> |
+|<span data-ttu-id="4c194-121">行動網路可用性</span><span class="sxs-lookup"><span data-stu-id="4c194-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="4c194-122">否</span><span class="sxs-lookup"><span data-stu-id="4c194-122">No</span></span>  <br/> |
+|<span data-ttu-id="4c194-123">批註、限制和存取問題</span><span class="sxs-lookup"><span data-stu-id="4c194-123">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="4c194-124">無</span><span class="sxs-lookup"><span data-stu-id="4c194-124">None</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="a8ee6-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a8ee6-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4c194-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4c194-125">See also</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="a8ee6-126">相關主題</span><span class="sxs-lookup"><span data-stu-id="a8ee6-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="4c194-126">相關主題</span><span class="sxs-lookup"><span data-stu-id="4c194-126">Related topics</span></span>
 
-[<span data-ttu-id="a8ee6-127">免付費電話的撥號限制</span><span class="sxs-lookup"><span data-stu-id="a8ee6-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="4c194-127">免付費電話的撥號限制</span><span class="sxs-lookup"><span data-stu-id="4c194-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="a8ee6-128">取得商務用 Skype 和 Microsoft Teams 的服務電話號碼</span><span class="sxs-lookup"><span data-stu-id="a8ee6-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
+[<span data-ttu-id="4c194-128">取得商務用 Skype 和 Microsoft Teams 的服務電話號碼</span><span class="sxs-lookup"><span data-stu-id="4c194-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](../getting-service-phone-numbers.md)
 
   
