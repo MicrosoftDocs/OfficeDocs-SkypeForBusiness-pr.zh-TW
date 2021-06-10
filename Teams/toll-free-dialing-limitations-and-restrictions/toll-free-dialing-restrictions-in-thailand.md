@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解撥打泰國的免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
+description: 瞭解撥打泰國免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
 ms.openlocfilehash: 8fc33d740762e8b94948c9a7ad596d5fa11fd479
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT

@@ -1,5 +1,5 @@
 ---
-title: Teams Android 裝置遠端置備及登錄
+title: 在 Android 裝置上遠端Teams和登錄
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,7 +17,7 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何遠端提供和登錄 Teams Android 裝置
+description: 瞭解如何在 Android 裝置上遠端Teams和登錄
 ms.openlocfilehash: f39b93a048cee84cf6890d063e272edbef5edb4e
 ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
 ms.translationtype: MT
@@ -25,9 +25,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 04/27/2021
 ms.locfileid: "52059187"
 ---
-# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Teams Android 裝置遠端置備及登錄
+# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>在 Android 裝置上遠端Teams和登錄
 
-IT 系統管理員可以遠端撥備並登錄 Teams Android 裝置。 若要遠端置備裝置，系統管理員必須上傳所配置之裝置之 MAC ID，並建立驗證碼。 整個程式可以從 Teams 系統管理中心遠端完成。
+IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠端置備裝置，系統管理員必須上傳所配置之裝置之 MAC ID，並建立驗證碼。 整個程式可以從系統管理中心Teams完成。
 
 ## <a name="review-the-supported-devices"></a>檢查支援的裝置
 
@@ -35,14 +35,14 @@ IT 系統管理員可以遠端撥備並登錄 Teams Android 裝置。 若要遠�
 
 |裝置類別|裝置模型|固件版本|
 |-|-|-|
-|Teams 電話|Yealink T55/T56/T58|58.15.0.124|
-|Teams 電話|Yealink VP59|91.15.0.58|
-|Teams 電話|Yealink CP960|73.15.0.117|
-|Teams 電話|Yealink MP56/MP54/MP58|122.15.0.36|
-|Teams 電話|Cresron UC-2|1.0.3.52|
-|Teams 電話|  Poly Trio C60|  7.0.2.1071|
-|Teams 電話|  CCX400/CCX500/CCX600    |7.0.2.1072|
-|Teams 電話|  音訊代碼 C448HD/C450HD/C470HD|   1.10.120|
+|Teams手機|Yealink T55/T56/T58|58.15.0.124|
+|Teams手機|Yealink VP59|91.15.0.58|
+|Teams手機|Yealink CP960|73.15.0.117|
+|Teams手機|Yealink MP56/MP54/MP58|122.15.0.36|
+|Teams手機|Cresron UC-2|1.0.3.52|
+|Teams手機|  Poly Trio C60|  7.0.2.1071|
+|Teams手機|  CCX400/CCX500/CCX600    |7.0.2.1072|
+|Teams手機|  音訊代碼 C448HD/C450HD/C470HD|   1.10.120|
 
 ## <a name="add-a-device-mac-address"></a>新增裝置 MAC 位址
 
@@ -58,18 +58,18 @@ IT 系統管理員可以遠端撥備並登錄 Teams Android 裝置。 若要遠�
 
 1. 從等待 **啟用的** 選項卡中，選取 **新增 MAC 識別碼**。
 
-   ![手動新增裝置 Mac 位址](../media/remote-provision-6.png)
+   ![手動新增裝置 mac 位址](../media/remote-provision-6.png)
 
 1. 輸入 MAC 識別碼。
 1. 輸入位置，協助技術人員識別安裝裝置的位置。
 1. 完成 **時選取 Apply。**
 
-### <a name="upload-a-file-to-add-a-device-mac-address"></a>上傳檔案以新增裝置 MAC 位址
+### <a name="upload-a-file-to-add-a-device-mac-address"></a>Upload檔案以新增裝置 MAC 位址
 
-1. 從等待 **啟用的** 選項卡中，選取 **上傳 MAC ID。**
+1. 從等待 **啟用的** 選項卡中，選取 **Upload MAC ID。**
 2. 下載檔案範本。
 3. 輸入 MAC 識別碼和位置，然後儲存檔案。
-4. **選取檔案**， **然後選取** 上傳 。
+4. **選取檔案**，**然後選取** Upload。
 
 ## <a name="generate-a-verification-code"></a>產生驗證碼
 
@@ -82,9 +82,9 @@ IT 系統管理員可以遠端撥備並登錄 Teams Android 裝置。 若要遠�
 
 ## <a name="provision-the-device"></a>置備裝置
 
-當裝置已電源開啟並連接至網路時，技術人員會配置裝置。 這些步驟在 Teams 裝置上完成。
+當裝置已電源開啟並連接至網路時，技術人員會配置裝置。 這些步驟在裝置上Teams完成。
 
-1. 技術人員會從設定 **中選取** 設定 **裝置**。  
+1. 技術人員 **會從裝置** 上選取 **設定。**  
 
    ![從動作選項卡中置備新裝置選項](../media/provision-device1.png)
   
@@ -111,4 +111,4 @@ IT 系統管理員可以遠端撥備並登錄 Teams Android 裝置。 若要遠�
 ## <a name="related-article"></a>相關文章
 
 - [在 Teams 中管理裝置](device-management.md)
-- [遠端更新 Teams 裝置](remote-update.md)
+- [遠端Teams更新裝置](remote-update.md)

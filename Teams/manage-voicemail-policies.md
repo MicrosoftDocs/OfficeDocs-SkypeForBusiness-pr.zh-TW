@@ -32,7 +32,7 @@ ms.locfileid: "52796900"
 # <a name="setting-voicemail-policies-in-your-organization"></a>在貴組織中設定語音信箱政策
 
 > [!WARNING]
-> 針對商務用 Skype，透過通話Microsoft Teams停用語音信箱，也可能停用您的語音信箱服務商務用 Skype使用者。
+> 針對商務用 Skype，透過通話Microsoft Teams停用語音信箱也可以停用您的語音信箱服務商務用 Skype使用者。
 
 語音信箱文字翻譯預設為啟用，且所有組織和使用者預設會停用聽寫不全遮罩功能;不過，您可以使用 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) 和 [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) Cmdlet 來控制它們。
 
@@ -98,7 +98,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ## <a name="turning-off-transcription-for-a-user"></a>關閉使用者的轉錄
 
-在組織預設設定之前，會先評估使用者政策。 例如，如果所有使用者已啟用語音信箱轉錄功能，您可以使用 [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) Cmdlet 指派一個策略來停用特定使用者的轉寫功能。
+在組織預設設定之前，會先評估使用者政策。 例如，如果所有使用者都已啟用語音信箱轉錄功能，您可以使用 [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) Cmdlet 指派策略來停用特定使用者的轉寫功能。
 
 若要停用單一使用者的抄寫，請執行：
 
@@ -106,9 +106,9 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:amosmar@contoso.com
 ```
 
-## <a name="turning-on-transcription-profanity-masking-for-a-user"></a>為使用者開啟文字翻譯不全遮罩
+## <a name="turning-on-transcription-profanity-masking-for-a-user"></a>為使用者開啟文字翻譯不全遮罩功能
 
-若要為特定使用者啟用文字翻譯不全遮罩，您可以使用 [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) Cmdlet 指派原則，為特定使用者啟用轉錄不全遮罩。
+若要為特定使用者啟用文字翻譯不全遮罩，您可以使用 [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) Cmdlet 指派原則，為特定使用者啟用轉錄不端遮罩。
 
 若要為單一使用者啟用文字翻譯不全遮罩，請執行：
 

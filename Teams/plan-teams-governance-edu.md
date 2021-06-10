@@ -61,12 +61,12 @@ ms.locfileid: "52085845"
 
 在每個學期或每季開始時，您需要一些新的團隊。 採取自動化方法自動建立這些團隊、填入正確的使用者，以及設定正確的許可權可能很合理：
 
--   學校資料同步處理可針對 Exchange Online 和 SharePoint Online 建立 Microsoft 365 群組、Microsoft Teams 和 OneNote 課程筆記本的班級團隊、Intune 教育版學校群組，以及名冊和單一登入 (SSO) 整合許多其他協力廠商應用程式。 如需深入瞭解，[請流覽 學校資料同步處理。](/schooldatasync/overview-of-school-data-sync)
+-   學校資料同步處理可針對 Exchange Online 和 SharePoint Online 建立 Microsoft 365 群組、Microsoft Teams 和 OneNote 課程筆記本的班級團隊、Intune 教育版學校群組，以及名冊和單一登入 (SSO) 整合，適用于許多其他協力廠商應用程式。 如需深入瞭解，[請流覽 學校資料同步處理。](/schooldatasync/overview-of-school-data-sync)
 -   您可以使用 PowerShell 建立團隊和頻道，並自動設定設定。 請參閱[Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)以瞭解更多資訊。
 -   您可以使用 Microsoft Graph API (Beta) 建立、設定、複製和存檔團隊。 請參閱[使用 Microsoft Graph API 處理Microsoft Teams](/graph/api/resources/teams-api-overview)以瞭解更多資訊。
 
 > [!TIP]
-> 學校資料同步處理會為每個Microsoft 365建立一個群組，並啟用隱藏的群組成員資格，讓班級中的[](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945)教師和學生只能看到該班級的成員。 如果使用不同的程式建立班級群組，請使用 HiddenGroupMembershipEnabled New-UnifiedGroup Cmdlet 以滿足相同的隱私權需求。
+> 學校資料同步處理會為每個Microsoft 365建立一個群組，並啟用隱藏的群組成員資格，讓班級中的[](https://techcommunity.microsoft.com/t5/School-Data-Sync/HiddenGroupMembershipEnabled-SDS-setting/td-p/159945)教師和學生只能看到該班級的成員。 如果使用不同的程式來建立班級群組，請使用 Cmdlet 的 HiddenGroupMembershipEnabled 參數New-UnifiedGroup Cmdlet 以滿足相同的隱私權需求。
 
 ## <a name="how-do-i-deal-with-teams-when-the-semester-or-quarter-ends"></a>當學期或季結束時，我要如何處理團隊？
 
@@ -122,7 +122,7 @@ ms.locfileid: "52085845"
 您可以使用來賓存取來邀請租使用者以外的使用者，這很適合研究共同研究或來賓課程：
 
 -   使用網域允許清單，根據來賓的網域來允許或封鎖來賓。
--   針對特定群組和團隊開啟Microsoft 365來賓存取權，以控制哪些團隊可以 (哪些團隊) 邀請來賓。
+-   開啟和關閉特定群組和Microsoft 365的來賓存取權，以控制哪些團隊可以 (，) 邀請來賓。
 -   使用稽核記錄查看哪些通知已發送給受邀來賓。
 
 詳細資訊請參閱群組中的[來賓Microsoft 365存取](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6#PickTab=Manage)。

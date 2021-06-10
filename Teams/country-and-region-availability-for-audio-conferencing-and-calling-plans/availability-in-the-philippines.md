@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于菲律賓的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+description: 以下是菲律賓Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
 ms.openlocfilehash: 2d83918dcfb6d6c990938cbf4b79f559dd29a39b
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51115683"
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于菲律賓的商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+以下是菲律賓Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

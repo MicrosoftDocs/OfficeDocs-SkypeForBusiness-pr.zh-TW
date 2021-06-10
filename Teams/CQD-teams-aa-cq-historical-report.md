@@ -1,5 +1,5 @@
 ---
-title: 使用 CQD Power BI 報表來查看自動&通話佇列歷史報表
+title: 使用 CQD Power BI報表來查看自動&通話佇列歷史報表
 ms.author: colongma
 author: clyvr
 manager: roykuntz
@@ -22,7 +22,7 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
-description: 瞭解如何使用通話品質儀表板 Power BI 報表來查看自動通話和通話佇列歷史資料。
+description: 瞭解如何使用通話品質儀表板Power BI報表來查看自動通話和通話佇列歷史資料。
 ms.openlocfilehash: cfd72d0397407205aef729188c630e99148f154c
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,41 +31,41 @@ ms.lasthandoff: 03/23/2021
 ms.locfileid: "51111509"
 ---
 # <a name="what-are-the-requirements"></a>需求是什麼？ 
-您需要安裝 Power BI Desktop。 您可以從 [Microsoft Windows Store 安裝](https://aka.ms/pbidesktopstore)。
+您必須安裝Power BI Desktop。 您可以從 Microsoft Windows [Store 安裝](https://aka.ms/pbidesktopstore)。
 
-您可以使用免費的 Power BI Desktop 版本。 最低相容版本為 2020 年 9 月 (2.85.681.0) 。
+您可以使用免費版本的 Power BI Desktop。 最低相容版本為 2020 年 9 月 (2.85.681.0) 。
 
 ## <a name="permissions-to-access-the-cqd-pipeline"></a>存取 CQD 管道的許可權
 您用於查看 AA & CQ 分析歷史報表的帳戶必須擁有存取 CQD 資料管道的許可權。 如需詳細資訊，請參閱 [CQD 存取](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) 角色。
 
 ## <a name="installation"></a>安裝 
-下列步驟假設您已經在電腦上安裝 Power BI Desktop，而且您的帳戶具有存取 CQD 資料管道的必要許可權。
+下列步驟假設您已經在電腦上Power BI Desktop，而且您的帳戶擁有存取 CQD 資料管道的必要許可權。
 
 請執行下列步驟：
-- 下載 [CQD Teams 自動&通話佇列歷史報表範本，](./aa-cq-cqd-historical-reports.md) 並將其儲存到您電腦的目錄。
+- 下載[CQD Teams自動&佇列歷史報表範本](./aa-cq-cqd-historical-reports.md)，並將其儲存到您電腦的目錄。
 
-- 按兩下範本，Power BI Desktop 應該會啟動。
+- 按兩下範本，Power BI Desktop啟動。
 
-- 系統會提示您選取 CQD 資料管道區域。 選取租使用者所在的區域。
+- 系統會提示您選取 CQD 資料管道區域。 選取租使用者所在的地區。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Teams 系統管理中心的通話品質儀表板按鈕螢幕擷取畫面":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="系統管理中心中通話品質儀表板按鈕Teams螢幕擷取畫面":::
 
- - 您可以使用商務用 Skype Online PS Cmdlet (Get-CsTenant) 。ServiceInstance 輸出。 
+ - 您可以使用 Get-CsTenant 商務用 Skype Online PS Cmdlet (查看) 。ServiceInstance 輸出。 
  此範例中的 /like 之後會顯示區域： 
  
    microsoftcommunicationsonline/noam-4a-s7，其中區域為 noam。
    
  - 報告會以範例資料啟動。
  
- - 若要查看您自己的資料，請按一下 **Power** BI Desktop 中的 [查詢> 下的 [首頁索引鍵重新更新>。
+ - 若要查看您自己的資料，請按一下 [查詢中查詢> 下的 [首頁Power BI Desktop。
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Teams 系統管理中心的通話品質儀表板按鈕螢幕擷取畫面":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="系統管理中心中通話品質儀表板按鈕Teams螢幕擷取畫面":::
 
 - 系統隨即會提示您進行登錄。 選取 **組織帳戶**，**然後選取**
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Teams 系統管理中心的通話品質儀表板按鈕螢幕擷取畫面":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="系統管理中心中通話品質儀表板按鈕Teams螢幕擷取畫面":::
 
-- 選取 **連接** 並觀看資料重新更新。
+- 選取 **連線** 並觀看資料重新更新。
 
 ## <a name="data-latency-any-aa--cq-analytics"></a>資料延遲 任何 AA & CQ 分析
 資料將在 30 分鐘內于 CQD 資料管道中提供。
@@ -83,28 +83,28 @@ ms.locfileid: "51111509"
 請執行下列步驟：
 - 選取 **功能區上的** View Tab。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Teams 系統管理中心的通話品質儀表板按鈕螢幕擷取畫面":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="系統管理中心中通話品質儀表板按鈕Teams螢幕擷取畫面":::
 
 - 從下拉式清單中選取色彩架構。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Teams 系統管理中心的通話品質儀表板按鈕螢幕擷取畫面":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="系統管理中心中通話品質儀表板按鈕Teams螢幕擷取畫面":::
 
 
 ## <a name="cqd-fields-description"></a>CQD 欄位描述
 
-|名稱                                    |資料類型                |說明                            |
+|名稱                                    |資料類型                |描述                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |自動助理身分識別                 |字串                   |附加至 AA 的資源帳戶名稱<br>範例：aa_test@microsoft.com|
 |自動總機鏈開始時間         |Datetime                 |AA 鏈開始時間                    |
 |自動助理目錄搜尋方法  |字串                   |上次通訊錄搜尋方法        |
 |自動助理轉接動作          |字串                   |來電轉接目標型別<br>可能的值：<br>§ 未知 - 未指定實體類型<br>§ 使用者 - 使用者實體<br>§ orgaa - 組織自動助理實體<br>§ hunt_group - 通話佇列實體<br>§ 應用程式 - 語音應用程式實體<br>§ external_pstn - 外部 PSTN 實體<br>§ shared_voicemail - 共用語音信箱實體|
 |自動通話結果              |字串                   |通話結果：<br>§ 未知<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined<br>§ service_terminated<br>§ failed_to_establish_media<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long|
-|自動通話流程                |字串                   |封裝自動通話的不同狀態<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ 公告|
+|自動電話Flow                |字串                   |封裝自動通話的不同狀態<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>§ 公告|
 |是否涉及自動助理              |Boolean                  |指出 AA 是否參與通話 |
 |自動語音回應本機號碼計數      |Int                      |來電者已使用動作的計數         |
 |自動總機鏈工期秒數   |Int                      |AA 中的通話持續時間                 |
 |通話佇列通話結果                  |String                   |通話佇列通話的最後狀態<br>可能的值：<br>§ 錯誤<br>§ 已拒絕<br>§ 溢出<br>§ 失敗<br>§ timed_out<br>§ transferred_to_agent<br>§ agent_joined_conference|
-|呼叫佇列最終狀態動作           |String                   |通話佇列最後動作<br>可能的值：<br>§ 轉場<br>§ 中斷連接<br>§ 語音信箱<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ 其他|
+|呼叫佇列最終狀態動作           |String                   |通話佇列最終動作<br>可能的值：<br>§ 轉場<br>§ 中斷連接<br>§ 語音信箱<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ 其他|
 |通話佇列身分識別                     |String                   |附加至 CQ 的資源帳戶名稱<br>範例：aa_test@microsoft.com|
 |通話佇列為會議模式           |Boolean                  |在 CQ 上啟用會議模式時，設為 1 |
 |通話佇列目標型別                  |String                   |預期的通話重新導向目標型別     |
@@ -116,13 +116,13 @@ ms.locfileid: "51111509"
 
 ### <a name="powerbi-data-model-dimensions"></a>PowerBI 資料模型維度
 
-|名稱                                    |資料類型                |說明                            |
+|名稱                                    |資料類型                |描述                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |AA 名稱                                   |字串                   |自動助理識別碼 (資源帳戶識別碼)  |
 |AACallFlow                              |字串                   |封裝自動通話的不同狀態<br>§ abs_search<br>§ call_termination<br>§ call_transfer<br>§ main_menu<br>§ user_selection<br>§ speech_input_confirmation<br>§ first_level_menu<br>§ automatic_menu<br>公告 |
 |AACallResult                            |字串                   |自動電話機通話的結果：<br>§ 未知<br>§ transferred_to_user<br>§ transferred_to_operator<br>§ failover_to_operator<br>§ user_terminated<br>§ service_declined – AA 組組錯誤<br>§ service_terminated – 內部 AA 錯誤<br>§ failed_to_establish_media<br> terminated_no_operator<br>§ terminated_transfer_failed<br>§ terminated_automatic_selection<br>§ transferred_to_shared_voicemail<br>§ oaa_chain_too_long<br>§ oaa_session_too_long          |
-|AAChainDuration                         |字串                   |自動總機通話持續時間 ，以秒數表示  |
-|AACount                                 |字串                   |自動通話參與通話的 #         |
+|AAChainDuration                         |字串                   |自動總機通話的持續時間 ，以秒數表示  |
+|AACount                                 |字串                   |自動電話機參與通話的 #         |
 |AADirectorySearchMethod                 |字串                   |通話中使用的搜尋方法：<br>§ abs_search_dtmf<br>§ abs_search_extension<br>§ abs_search_name|
 |AAStartTime                             |字串                   |以 UTC 表示的通話時間                            |
 |AATransferAction                        |字串                   |通話收聽者：<br>§ 未知 - 未指定實體類型<br>§ 使用者 - 使用者實體<br>§ AA - 組織自動助理實體<br>§ CQ - 通話佇列實體<br>§ 應用程式 - 語音應用程式實體<br>§ external_pstn - 外部 PSTN 實體<br>§ shared_voicemail - 共用語音信箱實體      |
@@ -131,13 +131,13 @@ ms.locfileid: "51111509"
 |通話佇列身分識別                     |字串                   |附加至 CQ 的資源帳戶名稱     |
 |通話佇列目標型別                  |字串                   |預期的通話重新導向目標型別：<br>§ 使用者<br>§ 應用程式端點<br>§ 其他     |
 |通話佇列通話結果                  |字串                   |通話佇列通話的最後狀態<br>可能的值：<br>§ 錯誤<br>§ 已拒絕<br>§ 溢出<br>§ 失敗<br> timed_out<br>§ transferred_to_agent<br>agent_joined_conference           |
-|呼叫佇列最終狀態動作           |字串                   |通話佇列最後動作<br>可能的值：<br>§ 轉場<br>§ 中斷連接<br>§ 語音信箱<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ 其他             |
+|呼叫佇列最終狀態動作           |字串                   |通話佇列最終動作<br>可能的值：<br>§ 轉場<br>§ 中斷連接<br>§ 語音信箱<br>§ disconnect_with_busy<br>§ shared_voicemail<br>§ failed_to_accept_call<br>§ 其他             |
 |代理人名稱                              |字串                   |使用者 UPN               |
 
 
 ### <a name="measures"></a>措施
 
-|名稱                                      |類型                       |說明                            |
+|名稱                                      |類型                       |描述                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |AACallerActionCount                     |Int                        |通話期間 AA 中使用者選取的動作數  |
 |PSTNMinutes                             |Int                      |總分鐘使用量                                  |
@@ -145,9 +145,9 @@ ms.locfileid: "51111509"
 |平均通話持續時間 (秒)          |Int                      |通話佇列通話的總持續時間 ，以秒數表示     |
 
 
-### <a name="power-bi-graph-description-auto-attendant"></a>Power BI 圖形描述自動助理
+### <a name="power-bi-graph-description-auto-attendant"></a>Power BI圖形描述自動助理
 
-|名稱                                      |說明                            |
+|名稱                                      |描述                            |
 |:---------------------------------------|:--------------------------------------|
 |來電來源                    |按內部/外部通話來源分配通話      |
 |目錄搜尋方法總計          |按搜尋類型分配通話                         |
@@ -158,29 +158,29 @@ ms.locfileid: "51111509"
 
 ### <a name="call-queue"></a>通話佇列
 
-|名稱                                      |說明                            |
+|名稱                                      |描述                            |
 |:---------------------------------------|:--------------------------------------|
 |來電來源                    |按內部/外部通話來源分配通話         |
 |通話音量                             |按通話佇列分配通話                            |
 |本機號碼結果                           |按通話結果分配通話                            |
-|超時/溢出通話總計動作      |未轉 (呼叫) 通話結果的分配   |
+|超時/溢出通話總計動作      |根據通話結果 (未) 呼叫的分配   |
 |轉移/轉出目標總計          |根據通話結果轉呼叫的分配                  |
 |已放棄通話比率                   |成功與放棄通話計數的比例                    |
-|平均會話長度 (秒)         |以放棄/成功通話分組的通話長度 ，以秒數分組   |
+|平均會話長度 (秒)         |以秒數分組的通話長度，以放棄/成功通話分組   |
 
 
 
 ### <a name="agent-timeline"></a>代理人時程表
 
-|名稱                                                      |說明                            |
+|名稱                                                      |描述                            |
 |:-------------------------------------------------------|:--------------------------------------|
 |按代理人撥打的電話                                        |呼叫佇列和代理人的通話分配                 |
-|由代理 (通話) 通話總通話持續時間   |代理 (通話) 通話的總持續時間     |
-|按代理人名稱 (通話) 通話持續時間平均) 秒數            |由代理人 (通話) 通話的平均持續時間                  |
+|由代理人和 (通話) 通話總通話持續時間   |代理 (通話) 通話的總持續時間     |
+|按代理人名稱 (通話) 通話持續時間平均) 秒數            |代理 (通話) 通話的平均持續時間                  |
 
 
 
 ## <a name="known-issues"></a>已知問題
-- 目前，通話佇列和自動話務員會顯示資源帳戶識別碼，而不是呼叫佇列/自動話務員名稱。  若要顯示自動總機或通話佇列的所有流量，您必須選取指派給自動話務員或通話佇列的所有資源帳戶。
+- 目前，通話佇列和自動話務員會顯示資源帳戶識別碼，而不是通話佇列/自動話務員名稱。  若要顯示自動總機或通話佇列的所有流量，您必須選取指派給自動話務員或通話佇列的所有資源帳戶。
 
 - 目前儀表板中只有 28 天的歷程記錄可用，因為通話佇列/自動話務資料被視為使用者識別資訊，且受資料隱私權保留政策所影響。

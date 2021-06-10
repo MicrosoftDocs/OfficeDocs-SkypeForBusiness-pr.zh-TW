@@ -1,5 +1,5 @@
 ---
-title: 在紐西蘭的可用性
+title: 紐西蘭的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -32,7 +32,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 05/03/2021
 ms.locfileid: "52130272"
 ---
-# <a name="availability-in-new-zealand"></a>在紐西蘭的可用性
+# <a name="availability-in-new-zealand"></a>紐西蘭的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 

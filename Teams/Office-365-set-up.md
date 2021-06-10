@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft 365 或 Office 365 中開啟 Teams
+title: 開啟Teams或Microsoft 365 Office 365
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: 瞭解如何為 Microsoft 365 或 Office 365 組織開啟 Microsoft Teams、指派使用者授權以控制個別存取權，以及允許或封鎖內容來源。
+description: 瞭解如何為組織或Microsoft Teams開啟Microsoft 365 Office 365使用者授權以控制個別存取權，以及允許或封鎖內容來源。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -39,7 +39,7 @@ ms.locfileid: "51113679"
 
 
  
-若要深入瞭解如何管理個別授權，請閱讀 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。 
+若要深入瞭解管理個別授權，請閱讀Microsoft Teams[描述](/office365/servicedescriptions/teams-service-description)。 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>為整個組織開啟或關閉 Teams 

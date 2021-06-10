@@ -74,19 +74,19 @@ ms.locfileid: "52777924"
 
 如果您打算為呼叫代理Teams通道，您可以指定一或多個具有電話號碼的資源帳戶，為代理人指派外發本機號碼號碼。
 
-按一下 **[新增**，搜尋您想要允許代理人在撥打外接電話時用於通話識別碼的資源帳戶;按一下 [ **新增**，然後按一下 [ **新增**> 。
+按一下 **[新增**，搜尋您想要允許代理人在撥打外線通話時用於通話識別碼的資源帳戶;按一下 [ **新增**，然後按一下 [ **新增**> 。
 
-如果您不是使用 Teams通道來控制代理人成員資格，請考慮將通話佇列成員的本機號碼直接設定為通話佇列的服務號碼或適當的自動語音回應。 請參閱[在 Microsoft Teams](caller-id-policies.md)管理本機號碼政策以瞭解更多資訊。
+如果您不是使用 Teams通道來控制代理人成員資格，請考慮直接將通話佇列成員的本機號碼設定為通話佇列的服務號碼或適當的自動語音回應。 請參閱[在 Microsoft Teams](caller-id-policies.md)管理本機號碼政策以瞭解更多資訊。
 
 ### <a name="language"></a>語言
 
 ![語言設定螢幕擷取畫面](media/call-queue-language.png)
 
-選擇支援 [的語言](create-a-phone-system-call-queue-languages.md)。 如果您啟用語音提示，系統產生的語音提示和語音信箱 (語音信箱) 。
+選擇支援 [的語言](create-a-phone-system-call-queue-languages.md)。 如果您啟用語音提示，系統產生的語音提示和語音信箱 (會) 。
 
 ### <a name="greetings-and-music-on-hold-in-queue"></a>佇列中保留的問候語和音樂
 
-![佇列設定中保留的問候語和音樂螢幕擷取畫面](media/call-queue-greetings-music.png)
+![佇列設定中問候語和音樂保留的螢幕擷取畫面](media/call-queue-greetings-music.png)
 
 指定當來電者抵達佇列時，是否要播放問候語。 您必須上傳包含您想要播放的問候語的 MP3、WAV 或 WMA 檔案。
 
@@ -96,7 +96,7 @@ Teams在佇列中保留來電者時，提供預設音樂。 如果您想要播�
 > 上傳的錄製不能大於 5 MB。
 > 在通話佇列Teams中提供的預設音樂，不含貴組織支付的任何版稅。 
 
-### <a name="call-agents"></a>通話代理程式
+### <a name="call-agents"></a>通話代理人
 
 檢查 [將代理人新加入通話佇列的先決條件](plan-auto-attendant-call-queue.md#prerequisites)。
 
@@ -115,7 +115,7 @@ Teams在佇列中保留來電者時，提供預設音樂。 如果您想要播�
 
 ##### <a name="users-and-groups"></a>使用者和群組
 
-您可以個別新增最多 20 個代理程式，並透過群組最多新增 200 個代理程式。
+您可以個別新增最多 20 個代理程式，並透過群組新增最多 200 個代理程式。
 
 如果您想要新增個別使用者或群組至佇列，請選取選擇 **使用者和群組** 選項。 
 
@@ -152,12 +152,12 @@ Teams在佇列中保留來電者時，提供預設音樂。 如果您想要播�
 
 ![路由、退出宣告和通知時間設定螢幕擷取畫面](media/call-queue-presence-agents-time.png)
 
-**目前狀態路由** 會使用呼叫代理程式的可用性狀態，判斷該代理人是否應該包含在所選路由方法的通話路由清單中。 其可用性狀態設為可用的通話 **代理人會包含在** 通話路由清單中，而且可以接聽來電。 其可用性狀態設定為任何其他狀態的代理人會排除在通話路由清單中，且不會接聽來電，直到其可用性狀態變更回可用 **。** 
+**目前狀態路由** 會使用呼叫代理程式的可用性狀態來判斷代理人是否應該包含在所選路由方法的呼叫路由清單中。 其可用性狀態設為可用的通話 **代理人會包含在** 通話路由清單中，而且可以接聽來電。 其可用性狀態設定為任何其他狀態的代理人會排除在通話路由清單中，且不會接聽來電，直到其可用性狀態變更回可用 **。** 
 
 您可以使用任何路由方法啟用目前狀態型通話路由。
 
 > [!NOTE]
-> 當 **選取了最長** 閒置時間做為路由方法時，需要以目前狀態為基礎的路由，並自動啟用，即使目前狀態型路由切換開關會關閉且呈灰色。
+> 當 **選取了最** 長時間空閒作為路由方法時，需要以目前狀態為基礎的路由並自動啟用，即使目前狀態型路由切換開關會關閉且呈灰色。
 
 如果代理人選擇不接聽來電，無論他們的可用性狀態設定為什麼，他們將不會包含在通話路由清單中。 
 
@@ -180,12 +180,12 @@ Teams在佇列中保留來電者時，提供預設音樂。 如果您想要播�
 
 ![通話溢出設定螢幕擷取畫面](media/call-queue-overflow-handling.png)
 
-**佇列中的通話上限** 會指定在任何指定時間可在佇列中等候的通話數上限。 預設值為 50，但範圍從 0 到 200。 達到此限制時，通話會依照達到通話次數上限設定所 **指定的方式處理** 。
+**佇列中的通話上限** 會指定在任何指定時間可在佇列中等候的通話數上限。 預設值為 50，但範圍為 0 到 200。 達到此限制時，通話會依照達到通話次數上限設定所 **指定的方式處理** 。
 
 您可以選擇中斷通話，或重新導向到任何通話路由目的地。 例如，您可能讓來電者為佇列中的代理人留下語音信箱。 如需外部傳輸，請參閱先決條件和外部[](plan-auto-attendant-call-queue.md#prerequisites)電話號碼傳輸[- 數位](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)格式的技術詳細資料。
 
 > [!NOTE]
-> 如果通話數上限設為 0，則問候語訊息將不會播放。
+> 如果通話次數上限設為 0，則問候語訊息將不會播放。
 
 ### <a name="call-timeout-handling"></a>通話超時處理
 
@@ -201,7 +201,7 @@ Teams在佇列中保留來電者時，提供預設音樂。 如果您想要播�
 
 通話佇列中的通話代理程式支援下列用戶端：
 
-  - 商務用 Skype 32 位 (64 位版本的桌面用戶端 2016) 
+  - 商務用 Skype桌面用戶端 2016 (32 位和 64 位版本) 
   - Lync 桌面用戶端 2013 (32 位和 64 位版本) 
   - 支援所有 IP 電話Microsoft Teams。 請參閱[取得適用于 商務用 Skype Online 的電話](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。
   - Mac 商務用 Skype用戶端 (版本 16.8.196 及更新版本) 
@@ -210,7 +210,7 @@ Teams在佇列中保留來電者時，提供預設音樂。 如果您想要播�
   - iPad 商務用 Skype用戶端 (版本 6.16.0 及更新版本) 
   - Microsoft Teams Windows 32 位 (64 位版本的用戶端) 
   - Microsoft TeamsMac 用戶端
-  - Microsoft Teams[虛擬](/microsoftteams/teams-for-vdi)桌面基礎結構 (Windows虛擬桌面、Citrix 和 V1 版 V1) 
+  - Microsoft Teams[虛擬](/microsoftteams/teams-for-vdi)桌面基礎結構上的 (Windows虛擬桌面、奇思和 V3) 
   - Microsoft Teams iPhone應用程式
   - Microsoft TeamsAndroid 應用程式
 

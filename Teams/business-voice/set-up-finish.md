@@ -26,7 +26,7 @@ ms.locfileid: "52130000"
 ---
 # <a name="finished-business-voice-setup"></a>完成商務語音設定
 
-**祝賀！** 您已完成設定Microsoft 365 商務語音。 以下是一些實用的資源，可管理商務語音，並協助使用者取得他們大部分的新電話、會議和音訊會議體驗。
+**祝賀！** 您已完成 Microsoft 365 商務語音。 以下是一些實用的資源，可管理商務語音，並協助使用者取得他們大部分的新的電話、會議和音訊會議體驗。
 
 下表列出可協助您充分利用商務語音Teams資源。
 
@@ -42,15 +42,15 @@ ms.locfileid: "52130000"
 
 ## <a name="customize-business-voice"></a>自訂商務語音
 
-使用下列資源來自訂 Business Voice 以符合您的特定需求。
+使用下列資源自訂 Business Voice 以符合您的特定需求。
 
 | 資源 | 描述  |
 |---------|---------|
 | [通話中Microsoft Teams](set-up-policies.md)    | 控制使用者是否可以撥打私人電話、轉呼叫或設定同時撥打、將通話路由至語音信箱等等。        |
 | [在中管理Microsoft Teams](policy-packages.md)    | 建立可指派給類似角色使用者的政策群組。        |
-| [建立及授權商務語音使用者，並指派電話號碼給使用者](create-users.md)    | 新增更多使用者至商務語音，然後使用電話號碼設定使用者。        |
+| [建立及授權商務語音使用者，並指派電話號碼給使用者](create-users.md)    | 新增更多使用者至 Business Voice，然後使用電話號碼設定使用者。        |
 | [建立通話佇列 - 小型企業教學課程](create-a-phone-system-call-queue-smb.md)    | 建立通話佇列以支援電話中心環境，例如銷售、客戶服務、技術支援等。        |
-| [設定自動助理 - 小型企業教學課程](create-a-phone-system-auto-attendant-smb.md)   | 在通話功能表上 (額外的自動) ，以更靈活的通話路由。        |
+| [設定自動助理 - 小型企業教學課程](create-a-phone-system-auto-attendant-smb.md)   | 在通話功能表上 (額外的自動) ，以更靈活地路由通話。        |
 | [設定通話品質儀表板 (CQD) ](analytics-dashboard.md)| 設定通話使用方式和品質監控，以確保使用者擁有最佳的商務語音體驗。|
 
 ## <a name="manage-business-voice"></a>管理商務語音
@@ -59,6 +59,6 @@ ms.locfileid: "52130000"
 
 |資源  |描述  |
 |---------|---------|
-| [建立及授權商務語音使用者，並指派電話號碼給使用者](create-users.md)    | 新增更多使用者至商務語音，然後使用電話號碼設定使用者。         |
+| [建立及授權商務語音使用者，並指派電話號碼給使用者](create-users.md)    | 新增更多使用者至 Business Voice，然後使用電話號碼設定使用者。         |
 | [在 Microsoft Teams](manage-devices.md)    | 建立已連接到該裝置之裝置Teams。        |
 | [監控並改善通話品質Microsoft Teams](monitor-quality.md)    | 監控誰撥打或接聽電話或參與線上會議、監控及疑難排解通話品質等。        |

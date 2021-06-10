@@ -37,7 +37,7 @@ ms.locfileid: "52130343"
   
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。 |在捷克共和國，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並傳送給我們，以提交新的電話號碼 [要求](mailto:ptneu@microsoft.com)。<br/><br/>[捷克共和國的新電話號碼要求 (v.1.0) 。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單、完整填寫並傳送給我們。<br/><br/>新訂單可能需要兩到三周的時間才能填入這個市場。  |
+|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。 |在捷克共和國，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並傳送給我們，以提交新的電話號碼 [要求](mailto:ptneu@microsoft.com)。<br/><br/>[捷克共和國的新電話號碼要求 (v.1.0) 。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單，完整完成，然後傳送給我們。<br/><br/>新訂單可能需要兩到三周的時間才能填入這個市場。  |
 |將電話號碼轉接給我們。 | 下載此表單。 <br/><br/>[捷克共和國 (LOA) 授權書 (所有號碼)  (v.1.0)  (cz-cz) ](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。 <br/><br/>在這個市場中，移轉數位可能需要兩到三周才能完成。 <br/><br/>這些號碼目前無法用於會議。 |
 |發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[傳送您想要](mailto:ptneu@microsoft.com) 發佈/取消發佈的電話號碼清單給我們。 <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |[傳送您想要](mailto:ptneu@microsoft.com) 轉換成服務號碼的使用者號碼清單給我們。 <br/> |

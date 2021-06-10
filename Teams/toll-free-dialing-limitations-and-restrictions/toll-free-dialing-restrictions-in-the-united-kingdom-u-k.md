@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解撥打英國免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
+description: 瞭解撥打英國免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
 ms.openlocfilehash: 6e27a73724fc272ff2b870cf32d2b97fb2a2c156
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT

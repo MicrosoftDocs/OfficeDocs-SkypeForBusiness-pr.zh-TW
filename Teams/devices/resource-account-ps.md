@@ -1,5 +1,5 @@
 ---
-title: 使用 PowerShell 為 Microsoft Teams 建立共同合作橫條圖的 Microsoft Teams 資源帳戶
+title: 使用 powerShell Microsoft Teams共同Microsoft Teams資源帳戶
 ms.author: mitressl
 author: flinchbot
 manager: ericwe
@@ -14,7 +14,7 @@ ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: 請閱讀本主題，以瞭解如何部署 Microsoft Teams 的共同合作橫條圖。
+description: 請閱讀本主題，以瞭解如何部署共同Microsoft Teams。
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: 812fb4704661aa11d3388048fa044030cdb1ce00
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -23,26 +23,26 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51115601"
 ---
-# <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>使用 PowerShell 建立 Microsoft 365 資源帳戶
+# <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>使用 PowerShell Microsoft 365資源帳戶
 
-請閱讀本主題，以瞭解如何使用 PowerShell 為 Microsoft Teams 建立共同合作資料條的資源帳戶。
+請參閱本主題，以瞭解如何使用 PowerShell 建立共同Microsoft Teams資源帳戶。
 
-建立資源帳戶最簡單的方法是使用 Microsoft 365 系統管理中心。 [請參閱這篇文章，瞭解如何執行此工作](resource-account-ui.md)。
+建立資源帳戶最簡單的方法是使用 Microsoft 365管理中心。 [請參閱這篇文章，瞭解如何執行此工作](resource-account-ui.md)。
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
 ## <a name="requirements"></a>需求
 
-使用 Office 365 部署 Microsoft Teams 會議室之前，請確定您符合需求。 詳細資訊，請參閱部署 [Microsoft Teams 的共同合作橫條圖](collab-bar-deploy.md)。
+使用 Microsoft Teams 會議室部署Office 365，請確定您符合需求。 詳細資訊，請參閱部署適用于 Microsoft Teams 的[共同Microsoft Teams。](collab-bar-deploy.md)
 
-- 如果您需要共同合作欄的 PSTN 功能，您需要電話系統授權。
+- 如果您需要共同合作欄的 PSTN 功能，則需要電話系統授權。
 
-- 您的資源帳戶必須擁有 Exchange 信箱。 由於這些是資源帳戶，因此不需要 Exchange 授權。 我們建議您使用資源帳戶的會議室授權。
+- 您的資源帳戶必須Exchange信箱。 由於這些是資源帳戶，Exchange授權。 我們建議您使用資源帳戶的會議室授權。
 
 
 ### <a name="add-a-resource-account"></a>新增資源帳戶
 
-1. 連線至 Exchange Online PowerShell。 有關指示，請參閱 [連線至 Exchange Online PowerShell](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)。
+1. 連線 PowerShell Exchange Online PowerShell。 有關指示，請參閱連線[powerShell Exchange Online。](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
 
 2. 在 Exchange Online PowerShell 中，建立新會議室信箱或修改現有的會議室信箱。
 
@@ -72,7 +72,7 @@ ms.locfileid: "51115601"
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     此範例啟用具有 HuddleRoom02 別名的現有會議室信箱的帳戶，並且將密碼設定為 808P@$$W 0rd。 請注意，由於現有的別名 HuddleRoom02@contoso.onmicrosoft.com 帳戶將會無法使用。
+     此範例啟用具有 HuddleRoom02 別名的現有會議室信箱的帳戶，並且將密碼設定為 808P@$$W 0rd。 請注意，由於現有的別名值 HuddleRoom02@contoso.onmicrosoft.com 帳戶將會更新。
 
      ``` PowerShell
      Set-Mailbox -Identity HuddleRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '808P@$$W0rd' -AsPlainText -Force)
@@ -81,7 +81,7 @@ ms.locfileid: "51115601"
    有關詳細的語法和參數資訊，請參閱 [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) 和 [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox)。
 
 
-3. 在 Exchange Online PowerShell 中，在會議室信箱上設定下列設定以改善會議體驗：
+3. 在 Exchange Online PowerShell 中，設定會議室信箱上的下列設定以改善會議體驗：
 
    - 自動化處理：自動 (會議召集人直接收到會議室預約決定，而不需要人為介入：free = accept;busy = decline.) 
 
@@ -95,7 +95,7 @@ ms.locfileid: "51115601"
 
    - AddAdditionalResponse：$true (其他Response 參數指定的文字會新加到會議要求中。) 
 
-   - 其他Response：「這個會議室有 Microsoft Teams 的共同合作列！  (新增到會議要求的其他文字。) 
+   - 其他Response：「這個會議室有一個共同Microsoft Teams！  (新增到會議要求的其他文字。) 
 
    此範例在名為 Huddle-Room-01 的會議室信箱上設定這些設定。
 
@@ -105,10 +105,10 @@ ms.locfileid: "51115601"
 
    有關詳細的語法和參數資訊，請參閱 [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing)。
 
-4. 請連線到 MS Online PowerShell，以使用 `Connect-MsolService -Credential $cred` Powershell Cmdlet 來設定 Active Directory。   有關 Active Directory 的詳細資訊，請參閱 [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
+4. 連線 MS Online PowerShell，以使用 `Connect-MsolService -Credential $cred` Powershell Cmdlet 來設定 Active Directory。   有關 Active Directory 的詳細資訊，請參閱 [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) 不受支援。 
+   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0)不支援。 
 
 5. 使用下列語法 huddleroom01@contoso.onmicrosoft.com 密碼，讓密碼不會過期：
 
@@ -116,7 +116,7 @@ ms.locfileid: "51115601"
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true
       ```
     
-6. 資源帳戶必須擁有有效的 Office 365 授權，最好是會議室 SKU。 您也需要為裝置帳戶指派使用位置，這決定您的帳戶可以使用哪些授權 SKUs。 您可以使用來 `Get-MsolAccountSku` 為 Office 365 租使用者取回可用的 SKUs 清單。
+6. 資源帳戶需要有有效的授權Office 365，最好是會議室 SKU。 您也需要為裝置帳戶指派使用位置，這決定您的帳戶可以使用哪些授權 SKUs。 您可以使用來為租使用者Office 365 `Get-MsolAccountSku` SKUS 清單。
 
       ``` Powershell
       Get-MsolAccountSku
@@ -128,13 +128,13 @@ ms.locfileid: "51115601"
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -UsageLocation "US"
       Set-MsolUserLicense -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -AddLicenses contoso:meeting_room
       ```
-   有關詳細指示，請參閱使用 [Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)指派授權給使用者帳戶。
+   有關詳細指示，請參閱使用 PowerShell 指派授權[Office 365使用者帳戶](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)。
 
 
 
 
-[使用 PowerShell 設定 Microsoft Teams 共同合作橫條圖的帳戶](resource-account-ps.md)
+[使用 PowerShell 為共同Microsoft Teams設定帳戶](resource-account-ps.md)
 
-[部署 Microsoft Teams 的共同合作橫條圖](collab-bar-deploy.md)
+[部署共同Microsoft Teams](collab-bar-deploy.md)
 
-[Microsoft Teams 授權共同合作橫條圖](../rooms/rooms-licensing.md)
+[適用于授權Microsoft Teams共同合作橫條圖](../rooms/rooms-licensing.md)
