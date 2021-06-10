@@ -22,7 +22,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解如何使用 Microsoft Teams 系統管理中心，查看貴組織中所有電話號碼的清單，以及指派給使用者或未指定的所有號碼。
+description: 瞭解如何使用 Microsoft Teams管理中心查看貴組織所有電話號碼的清單，以及指派給使用者或未指定的所有號碼。
 ms.openlocfilehash: 41eceb3618fae61308b90a88165ce1935ad6b30b
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -32,18 +32,18 @@ ms.locfileid: "51117231"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>查看貴組織的電話號碼清單
 
-您可以指派不同類型的電話號碼給使用者或其他服務 (服務號碼) 例如 Microsoft 365 或 Office 365 的音訊會議。
+您可以為使用者或其他服務指派不同類型的電話號碼 (服務號碼) 例如，在 Microsoft 365 或 Office 365。
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>查看貴組織所有電話號碼的清單
 
-![顯示 Teams 標誌 ](media/teams-logo-30x30.png) **的圖示使用 Microsoft Teams 系統管理中心**
+![使用系統管理中心Teams ](media/teams-logo-30x30.png) **圖示Microsoft Teams標誌**
 
-1. 請前往 **Microsoft Teams 系統管理中心**。
+1. 請前往 Microsoft Teams **系統管理中心**。
 
-2. 在左側流覽中，前往 **語音**  >  **電話號碼**。
+2. 在左側流覽中，前往 **Voice**  >  **電話號碼**。
 
     > [!IMPORTANT]
-    > 若要在商務用Skype 系統管理中心的左側流覽中查看語音選項，您必須先購買至少一個 **企業版 E5** 授權、一個電話 **系統** 附加元件授權，或一個音訊會議附加元件授權。
+    > 若要在 商務用 Skype系統管理中心左側流覽中查看語音選項，您必須先購買至少一 **個 Enterprise E5** 授權、一 **個 電話系統** 附加元件授權或一個音訊會議附加元件授權。 
 
 3. 若要查看指派的電話號碼，請參閱 **狀態列。**
 
@@ -63,14 +63,14 @@ ms.locfileid: "51117231"
 
 當您設定使用者時，您可能只想查看已指派給使用者的電話號碼清單，以及可指派給使用者的電話號碼。
   
-![顯示 Teams 標誌 ](media/teams-logo-30x30.png) **的圖示使用 Microsoft Teams 系統管理中心**
+![使用系統管理中心Teams ](media/teams-logo-30x30.png) **圖示Microsoft Teams標誌**
 
-1. 請前往 **Microsoft Teams 系統管理中心**。
+1. 請前往 Microsoft Teams **系統管理中心**。
 
-2. 在左側流覽中，前往 **語音**  >  **電話號碼**。
+2. 在左側流覽中，前往 **Voice**  >  **電話號碼**。
 
     > [!IMPORTANT]
-    > 若要在 Microsoft  Teams 系統管理中心的左側流覽中查看語音選項，您必須先購買至少一個 **企業版 E5** 授權、一個電話 **系統** 附加元件授權或一個音訊會議附加元件授權。
+    > 若要在 Microsoft Teams系統管理中心左側流覽中查看語音選項，您必須先購買至少一個 **Enterprise E5** 授權、一個 **電話系統** 附加元件授權或一個音訊會議附加元件授權。 
 
 3. 若要快速排序數位，以便查看已指派哪些數位，請按一下 [ **狀態>** 欄標題。 或者，您可以按一下篩選圖示，然後篩選您的視圖，以查看已指派給使用者的電話號碼，或您可以指派給使用者的未指定號碼。 您可以篩選：
 
@@ -84,14 +84,14 @@ ms.locfileid: "51117231"
 
 當您在組織中設定使用者撥打和接聽電話時，您必須先取得電話號碼，然後將電話號碼指派給使用者。 在您獲得電話號碼之後，您可能只想查看號碼指派的啟用狀態。
 
-![顯示 Teams 標誌 ](media/teams-logo-30x30.png) **的圖示使用 Microsoft Teams 系統管理中心** ！
+![使用系統管理中心Teams ](media/teams-logo-30x30.png) **標誌的Microsoft Teams圖示**！
   
-1. 請前往 **Microsoft Teams 系統管理中心**。
+1. 請前往 Microsoft Teams **系統管理中心**。
 
-2. 在左側流覽中，前往 **語音**  >  **電話號碼**。
+2. 在左側流覽中，前往 **Voice**  >  **電話號碼**。
 
     > [!IMPORTANT]
-    > 若要在 Microsoft  Teams 系統管理中心的左側流覽中查看語音選項，您必須先購買至少一個 **企業版 E5** 授權、一個電話 **系統** 附加元件授權，或一個音訊會議附加元件授權。
+    > 若要在 Microsoft Teams系統管理中心左側流覽中查看語音選項，您必須先購買至少一個 **Enterprise E5** 授權、一個 **電話系統** 附加元件授權或一個音訊會議附加元件授權。 
 
 3. 按一下篩選圖示以根據啟用狀態篩選您的 **視圖：您可以** 篩選：
 
@@ -107,7 +107,7 @@ ms.locfileid: "51117231"
 
 ## <a name="using-the-teams-powershell-module"></a>使用 Teams PowerShell 模組
 
-您可以使用 Teams PowerShell 模組從前一節取得相同的資訊，但需要版本 1.1.6 或更新版本，包括整合商務用 Skype Online 連接器。 有關模組詳細資訊，請參閱 Microsoft [Teams PowerShell 概觀](teams-powershell-overview.md)。
+您可以使用 Teams PowerShell 模組，從前一節取得相同的資訊，但需要版本 1.1.6 或更新版本，包括整合 商務用 Skype Online 連接器。 有關模組詳細資訊，請參閱[powerShell Microsoft Teams概觀](teams-powershell-overview.md)。
 
 您可以使用 [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber) Cmdlet 來查看貴組織擁有的所有電話號碼清單。 例如，您可以執行下列命令來查看每個電話號碼及其狀態：
 

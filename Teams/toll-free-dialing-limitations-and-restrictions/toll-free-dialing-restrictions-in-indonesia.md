@@ -45,7 +45,7 @@ ms.locfileid: "51116691"
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |
 |行動網路可用性  <br/> |部分。 查看批註。  <br/> |
-|批註、限制和存取問題  <br/> |提供兩種數位格式，以擴大涵蓋範圍。 數位格式 007 803 CCC XXXX 格式可從 PT Telkom 網路進行，包括 Telkomsel 和 XL Mobile。 數位格式 001 803 CCC XXXX 可從 Indosat 網路進行。 行動：Matrix Mobile (首碼 0855、0858、0815 和 0816) 。  <br/> |
+|批註、限制和存取問題  <br/> |提供兩種數位格式，以擴大涵蓋範圍。 數位格式 007 803 CCC XXXX 格式可從 PT Telkom 網路進行，包括 Telkomsel 和 XL Mobile。 數位格式 001 803 CCC XXXX 可從 Indosat 網路進行。 行動：矩陣行動 (首碼 0855、0858、0815 和 0816) 。  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 

@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于印度商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+description: 以下是適用于印度Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
 ms.openlocfilehash: a5bb42531cc2dc3fc7688bfeb014b82b30513502
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,13 +36,13 @@ ms.locfileid: "51117991"
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于印度商務用 Skype 和 Microsoft Teams 的 Microsoft 365 和 Office 365 服務。
+以下是適用于印度Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|音訊會議是否可供購買？  <br/> |Microsoft 不會在印度銷售音訊會議。 TATA Communications 提供與 Microsoft Teams 會議相容的撥入和撥出服務。 如需詳細資訊，請流覽 [TATA Communications 的網站](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)。   <br/> |
+|音訊會議是否可供購買？  <br/> |Microsoft 不會在印度銷售音訊會議。 TATA Communications 提供與會議相容的撥入和撥出Microsoft Teams服務。 如需詳細資訊，請流覽 [TATA Communications 的網站](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)。   <br/> |
 |是否會自動為音訊會議指派電話號碼？  <br/> |是，適用於：<br/><ul><li> 孟買</ul>如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。  <br/> |
 |使用 [語音來電] 功能的撥出功能  <br/> |可用  <br/> |
 
@@ -73,7 +73,7 @@ ms.locfileid: "51117991"
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
 
- 請注意，印度的服務號碼只能用於音訊會議。 因此，如果您想要取得音訊會議免付費電話號碼，請參閱取得商務用 Skype 和 [Microsoft Teams](../getting-service-phone-numbers.md)的服務電話號碼。
+ 請注意，印度的服務號碼只能用於音訊會議。 因此，如果您想要取得音訊會議免付費電話號碼，請參閱取得電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通訊點數
 

@@ -13,7 +13,7 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: ''
-description: 請閱讀本主題，瞭解如何將 Lync Room System 裝置遷移到使用 Microsoft Teams 會議室軟體。
+description: 請閱讀本主題，瞭解如何將 Lync Room System 裝置Microsoft Teams 會議室軟體。
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 7e850b5f5f0f210abf7defc2e53cc510c5c0b0c2
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
@@ -22,13 +22,13 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51117521"
 ---
-# <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>將 Lync 會議室系統 (LRS) 到 Microsoft Teams 會議室
+# <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>將 Lync 會議室系統 (LRS) 裝置Microsoft Teams 會議室
 
-Lync Room System (LRS) 裝置與 Skype 會議室系統版本 1 (SRS v1) 軟體于 [2018 年 10](https://support.microsoft.com/help/4043450/products-reaching-end-of-support-for-2018)月 9 日終止支援。 這表示 Skype 會議室系統 v1 軟體將不再取得任何產品更新或修正。 如果客戶的裝置是使用 Skype 會議室系統 v1 軟體的 Lync Room System 裝置，建議您將其裝置升級至「Microsoft Teams 會議室」。
+Lync Room System (LRS) 裝置與 Skype 會議室系統版本 1 (SRS v1) 軟體于[2018 年 10](https://support.microsoft.com/help/4043450/products-reaching-end-of-support-for-2018)月 9 日終止支援。 這表示 Skype 會議室系統 v1 軟體將不再取得任何產品更新或修正。 如果客戶的裝置是使用 Skype 會議室系統 v1 軟體的 Lync Room System 裝置，建議您將其裝置升級至「Microsoft Teams 會議室」。
 
-除了商務用 Skype Server 和 Online 服務之外，Microsoft Teams 會議室軟體還適用于所有支援 Microsoft Teams 會議室的會議和通話裝置。
+Microsoft Teams 會議室軟體可Microsoft Teams，商務用 Skype Server所有支援裝置上的會議和Microsoft Teams 會議室線上服務。
 
-Skype Room  System v1 軟體支援結束後，您現有的裝置可能會繼續工作。 不過，如果此軟體發生軟體錯誤，需要 Microsoft 發佈修正程式，則不受支援。 SRS v1 使用 TLS 1.0/ 1.1，Microsoft 未來將會以 TLS 1.0/ 1.1 來代用。 您可以深入瞭解如何準備 [TLS 1.0/1.1 棄用](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)。 
+您的現有裝置 **在** 會議室系統 v1 軟體支援結束後Skype繼續使用。 不過，如果此軟體發生軟體錯誤，需要 Microsoft 發行修正程式，則不支援此修正程式。 SRS v1 會使用 TLS 1.0/ 1.1，Microsoft 未來將會以 TLS 1.0/ 1.1 來代用。 您可以深入瞭解如何準備 [TLS 1.0/1.1 棄用](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608)。 
 
 ## <a name="which-devices-are-affected"></a>哪些裝置受到影響？
 
@@ -41,7 +41,7 @@ Skype Room  System v1 軟體支援結束後，您現有的裝置可能會繼續�
 
 ## <a name="upgrade-options"></a>升級選項
 
-有多種選項可升級 Lync 會議室系統至下一代 Microsoft Teams 會議室。
+有多種選項可升級 Lync 會議室系統至下一代Microsoft Teams 會議室。
 
 ### <a name="crestron-hardware-trade-in-program"></a>Cresron 硬體折中計畫
 
@@ -53,13 +53,13 @@ Cresron 會針對所有非 [Crsron](https://www.crestron.com/products/featured-s
 
 ### <a name="smart-room-systems-upgrade"></a>SMART Room Systems 升級
 
-針對 SMART LRS 客戶，除了Crsron 硬體折中方案之外，SMART 也正在努力提供升級至 Microsoft Teams 會議室的解決方案。 此升級是由 SMART Technologies Inc. 根據產品支援提供給客戶。 請在這裡查看有關此 [的更多資訊](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)。
+針對 SMART LRS 客戶，除了使用Crsron 硬體折讓方案之外，SMART 也正在努力提供升級至 Microsoft Teams 會議室。 此升級由 SMART Technologies Inc. 在產品支援下提供給客戶。 請在這裡查看有關此 [的更多資訊](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)。
 
 
 ## <a name="what-should-you-do"></a>您應該怎麼做？
 
-我們建議您使用上述升級選項，在 TLS 1.0/1.1 之前，將 Lync Room System 裝置更新至 Microsoft Teams Room。 此外，您也可以考慮以 Microsoft Teams 會議室認證的新裝置取代現有的裝置。 請參閱 [會議室裝置](https://aka.ms/roomdevices) 以瞭解詳細資料，並查看 [Microsoft Teams 會議室的需求](/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)。  
+我們建議您使用上述升級選項，在 TLS 1.0/1.1 Microsoft Teams 會議室之前，將 Lync Room System 裝置更新為最新版。 此外，您也可以考慮將現有裝置取代為經過認證的新裝置Microsoft Teams 會議室。 請參閱[會議室裝置](https://aka.ms/roomdevices)以瞭解詳細資料，並查看Microsoft Teams 會議室[需求](/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)。  
 
 
 > [!NOTE]
-> Microsoft Teams 會議室軟體支援自 2018 年 12 月 14 日起使用 App 版本 4.0.64.0 的 TLS 1.2 通訊協定。 針對內部部署客戶，啟用 Microsoft Teams 會議室 TLS 1.2 上的通訊需要商務用 Skype Server 2015 累積更新 9 (CU9) 或商務用 Skype Server 2019 累積更新 1 (CU1) 。 變更不應影響商務用 Skype Online 客戶，因為用戶端變更是向前和向後相容。
+> Microsoft Teams 會議室支援自 2018 年 12 月 14 日起使用 App 版本 4.0.64.0 的 TLS 1.2 通訊協定。 對於內部部署客戶，Microsoft Teams 會議室 的 TLS 1.2 啟用通訊需要 商務用 Skype Server 2015 累積更新 9 (CU9) 或 商務用 Skype Server 2019 累積更新 1 (CU1) 。 變更不應影響線上商務用 Skype，因為用戶端變更是向前和向後相容。

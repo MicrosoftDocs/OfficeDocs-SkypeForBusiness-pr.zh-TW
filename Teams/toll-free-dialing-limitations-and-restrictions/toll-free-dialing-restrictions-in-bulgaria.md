@@ -44,7 +44,7 @@ ms.locfileid: "51116811"
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |
 |行動網路可用性  <br/> |部分。 查看批註。  <br/> |
-|批註、限制和存取問題  <br/> |Vivacom &amp; Globul Mobile 中的行動存取。  <br/> |
+|批註、限制和存取問題  <br/> |從 Vivacom &amp; Globul Mobile 進行行動存取。  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 [免付費電話的撥號限制](../toll-free-dialing-limitations-and-restrictions.md)

@@ -1,6 +1,6 @@
 ---
 title: 適用於醫療保健的 Teams
-description: 瞭解您可用於管理貴組織中醫療團隊的系統管理員資源。
+description: 瞭解您可用於管理組織中Teams醫療小組的管理員資源。
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -25,7 +25,7 @@ ms.locfileid: "51092511"
 ---
 # <a name="teams-for-healthcare"></a>適用於醫療保健的 Teams
 
-Teams 為健康小組和醫療保健專業人員提供了安全通訊、協調病患照護，並改善營運效率的方法。 您可以在這裡找到管理組織中 Teams 醫療保健小組所需的系統管理資源。
+Teams讓健康小組和醫療保健專業人員以安全的方式溝通、協調病患照護，並改善營運效率。 您可以在這裡找到管理組織中醫療保健小組Teams所需的系統管理資源。
 
 |               |               |
 | ------------- | ------------- |

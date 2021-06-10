@@ -1,6 +1,6 @@
 ---
 title: Teams 中的 Shifts
-description: 在 Teams 中取得設定及管理班次所需的系統管理指南 ，此為排程管理工具。
+description: 取得您設定及管理班次所需的系統管理指南，此為排程管理工具，Teams。
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -30,7 +30,7 @@ ms.locfileid: "51092551"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的 Shifts
 
-Teams 為貴組織的前線工作人員提供有效溝通和共同合作所需的工具。 本文將說明如何設定和管理。 在 Teams 中班次並使用排程管理工具。
+Teams為貴組織的前線工作人員提供有效溝通和共同合作所需的工具。 本文將說明如何設定和管理。 在作業中班次並使用排程Teams。
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>為貴組織設定及管理班次
 
@@ -42,9 +42,9 @@ Teams 為貴組織的前線工作人員提供有效溝通和共同合作所需�
 
 |               |               |
 | ------------- | ------------- |
-| ![Api](../media/api-small.svg) | **[Shift Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** Shifts Graph API 讓您將 Shifts 資料與外部員工管理系統整合。 您可以在後端彈性地建立自訂 Shifts 體驗，同時在 Teams 中為使用者提供豐富的前端體驗。             |
+| ![Api](../media/api-small.svg) | **[移Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** 移轉Graph API 讓您將 Shifts 資料與外部員工管理系統整合。 您可以在後端彈性地建立自訂的 Shifts 體驗，同時為使用者提供豐富的前端體驗，Teams。             |
 | ![Api](../media/api-small.svg) | **[員工管理整合](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** 如果您使用的是協力廠商員工管理系統 ，例如 Kronos 和 JDA，用於排程、時間和出勤，您可以透過 Shifts Graph API 和 SDK 與開放來源整合，直接與 Shifts 整合。 |
-| ![Api](../media/process-flow-teams-small.svg) | **[Shifts + Power 自動化](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power 自動化可讓您從 Shifts 中取資訊，並與其他 App 建立自訂工作流程，並大規模執行作業。 使用幾乎不執行任何程式碼來自動化重要程式。 觸發程式與範本支援各種案例，例如，在不需要主管核准時，為輪班要求啟用自動核准。 |
+| ![Api](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate可讓您從 Shifts 中取資訊，並與其他 App 建立自訂工作流程，並大規模執行作業。 使用幾乎不執行任何程式碼來自動化重要程式。 觸發程式與範本支援各種案例，例如，在不需要主管核准時，為輪班要求啟用自動核准。 |
 
 ## <a name="featured-training"></a>精選訓練
 

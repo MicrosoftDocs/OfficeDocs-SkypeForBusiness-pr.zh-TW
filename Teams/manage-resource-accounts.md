@@ -1,5 +1,5 @@
 ---
-title: 在 Teams 中管理資源帳戶
+title: 管理資源帳戶Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -20,7 +20,7 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
-description: 本文將瞭解如何在 Microsoft Teams 中建立、編輯及管理資源帳戶。
+description: 本文將瞭解如何在 Microsoft Teams 中建立、編輯及管理資源Microsoft Teams。
 ms.openlocfilehash: 21824c360e26e568ae47a9729960fca01a100ae8
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -30,9 +30,9 @@ ms.locfileid: "51094243"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
-資源帳戶是 Azure AD 中的停用使用者物件，一般可用來表示資源。 例如，Exchange 中可能會使用資源帳戶來代表會議室，並允許會議室擁有電話號碼和日曆。 資源帳戶可以在 Microsoft 365 中使用商務用 Skype Server 2019 在內部部署中。
+資源帳戶是 Azure AD 中的停用使用者物件，一般可用來表示資源。 例如，資源帳戶可用於Exchange會議室，並允許會議室擁有電話號碼和日曆。 資源帳戶可以使用 2019 Microsoft 365或內部部署商務用 Skype Server中。
 
-在 Microsoft Teams 中，每個自動電話機或通話佇列都需要資源帳戶。 資源帳戶也可能被指派服務電話號碼。 這是您將電話號碼指派給自動語音機和通話佇列，讓 Teams 外部的來電者能夠到達自動語音機或通話佇列。
+在 Microsoft Teams中，每個自動電話機或通話佇列都需要資源帳戶。 資源帳戶也可能被指派服務電話號碼。 這是您將電話號碼指派給自動語音機和通話佇列，讓來自Teams的來電者能夠到達自動語音機或通話佇列。
 
 本文涵蓋如何建立資源帳戶，並準備好與自動通話和通話佇列一起使用。
 
@@ -43,11 +43,11 @@ ms.locfileid: "51094243"
 
 ### <a name="obtain-virtual-user-licenses"></a>取得虛擬使用者授權
 
-每個資源帳戶都需要授權才能使用自動電話機和通話佇列。 您可以使用免費的 Microsoft *365 Phone System - 虛擬使用者* 授權。 若要取得這些授權，請參閱 [虛擬使用者授權](teams-add-on-licensing/virtual-user.md)。
+每個資源帳戶都需要授權才能使用自動電話機和通話佇列。 您可以使用免費的虛擬使用者 *Microsoft 365 電話系統虛擬使用者* 授權。 若要取得這些授權，請參閱 [虛擬使用者授權](teams-add-on-licensing/virtual-user.md)。
 
 本文稍後將說明如何將授權指派給資源帳戶。
 
-若要取得虛擬使用者授權，請前往 Microsoft 365 系統管理中心中的帳單購買服務附加元件訂閱，並卷起到最後一端 -您將看到電話  >    >  系統 *- 虛擬使用者* 授權。 選取 **立即購買**。 零成本，但您仍然需要遵循這些步驟取得授權。
+若要取得虛擬使用者授權，請前往 Microsoft 365 系統管理中心，前往帳單購買服務附加元件訂閱，並卷起到最後  >    >  ****-電話系統 *-* 虛擬使用者授權。 選取 **立即購買**。 零成本，但您仍然需要遵循這些步驟取得授權。
 
 ### <a name="obtain-service-numbers"></a>取得服務編號
 
@@ -57,15 +57,15 @@ ms.locfileid: "51094243"
 
 若要取得新的服務號碼，請參閱取得 [服務電話號碼](getting-service-phone-numbers.md)。
 
-若要從另一個電信公司移轉號碼，請參閱 [將電話號碼移轉至 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。
+若要從另一個電信公司移轉號碼，請參閱[將電話號碼移](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)Teams。
 
 ## <a name="create-a-resource-account"></a>建立資源帳戶
 
-您可以在 Teams 系統管理中心建立資源帳戶。
+您可以在系統管理中心建立Teams帳戶。
 
 ![新增資源帳戶使用者介面的螢幕擷取畫面](media/resource-account-add.png)
 
-1. 在 Teams 系統管理中心，展開 **整個組織設定**，然後按一下 [ **資源帳戶**。
+1. 在 Teams系統管理中心中，展開 **整個組織設定**，然後按一下 [**資源帳戶**。
 
 2. 按一下 [新增 **]**。
 
@@ -77,13 +77,13 @@ ms.locfileid: "51094243"
 
 ## <a name="assign-a-license"></a>指派授權
 
-針對每個資源帳戶，您必須指派 *Microsoft 365 電話系統 - 虛擬使用者* 授權或 *電話系統* 授權。
+針對每個資源帳戶，您必須指派一個 *Microsoft 365 電話系統 - 虛擬使用者**授權或* 電話系統授權。
 
-![Microsoft 365 系統管理中心指派授權使用者介面的螢幕擷取畫面](media/resource-account-assign-virtual-user-license.png)
+![系統管理中心指派授權使用者介面的螢幕擷取畫面Microsoft 365螢幕擷取畫面](media/resource-account-assign-virtual-user-license.png)
 
-1. 在 Microsoft 365 系統管理中心，按一下要指派授權的資源帳戶。
+1. 在 Microsoft 365系統管理中心中，按一下要指派授權的資源帳戶。
 
-2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
+2. 在 "**授權與應用程式"** 選項卡的 **"授權**" 下，選取 Microsoft 365 電話系統 -**虛擬使用者**。
 
 3. 按一下 **[儲存變更**。
 
@@ -93,11 +93,11 @@ ms.locfileid: "51094243"
 
 ![指派服務編號使用者介面的螢幕擷取畫面](media/resource-account-assign-phone-number.png)
 
-1. 在 Teams 系統管理中心中的 [資源 **帳戶** > 頁面上，選取要指派服務號碼的資源帳戶，然後按一下 [ **指派/取消指派**> 。
+1. 在 Teams系統管理中心，在 [資源帳戶> 頁面上，選取要指派服務號碼的資源帳戶，然後按一下 [**指派/取消指派**> 。
 
-2. 在 **電話號碼類型** 下拉式下拉清單中，選擇您想要使用的號碼類型。
+2. 在 電話 **數位** 類型下拉式選項中，選擇您想要使用的電話號碼類型。
 
-3. 在 **[指派的電話號碼>** 方塊中，搜尋您用的電話號碼，然後按一下 [ **新增**。
+3. 在 **[已指派的電話號碼** > 方塊中，搜尋您想要使用的號碼，然後按一下 [ **新增**。
 
 4. 按一下 [儲存]。
 
@@ -120,24 +120,24 @@ ms.locfileid: "51094243"
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>將現有的資源帳戶變更為使用虛擬使用者授權
 
-如果您決定將現有資源帳戶上的授權從 Phone **System** 授權切換到虛擬使用者授權，您必須取得免費的虛擬使用者授權，然後遵循 Microsoft 365 系統管理中心中的步驟，將使用者移至不同的 [訂閱。](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
+如果您決定將現有資源帳戶上的授權從 **電話系統** 授權切換為虛擬使用者授權，您必須取得免費的虛擬使用者授權，然後按照 Microsoft 365 系統管理中心中的步驟將使用者移至不同的 [訂閱。](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
-> 永遠移除完整的電話系統授權，並在同一個授權活動中指派虛擬使用者授權。 如果您移除舊授權、儲存帳戶變更、新增授權，然後再次儲存帳戶設定，資源帳戶可能不再如預期運作。 如果發生這種情況，建議您為虛擬使用者授權建立新資源帳戶，並移除中斷的資源帳戶。
+> 永遠移除完整的授權電話系統，並在同一個授權活動中指派虛擬使用者授權。 如果您移除舊授權、儲存帳戶變更、新增授權，然後再次儲存帳戶設定，資源帳戶可能不再如預期運作。 如果發生這種情況，建議您為虛擬使用者授權建立新資源帳戶，並移除中斷的資源帳戶。
 
-## <a name="skype-for-business-server-2019"></a>商務用 Skype Server 2019
+## <a name="skype-for-business-server-2019"></a>Skype商務用伺服器 2019
 
-對於位於商務用 Skype Server 2019 上且可與雲端通話佇列和雲端自動話務員一起[](/SkypeforBusiness/hybrid/plan-call-queue)使用的資源帳戶，請參閱規劃雲端通話佇列或[規劃雲端自動](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)話務員 。 混合式 (直接路由) 上的數位是使用內部部署商務用 Skype Server 2019 伺服器上 [New-CsHybridApplicationEndPoint](/powershell/module/skype/new-cshybridapplicationendpoint) Cmdlet 設定。
+如果資源帳戶位於 Skype 商務用伺服器 2019，可用於雲端通話佇列和雲端自動話務員，請參閱規劃雲端通話佇列[](/SkypeforBusiness/hybrid/plan-call-queue)或[規劃雲端自動](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)話務員。 混合式 (直接路由) 上的數位是使用內部部署 商務用 Skype Server 2019 伺服器上[New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) Cmdlet 設定。
 
 建立應用程式實例時，您需使用的應用程式 ID 為：
 
-- **自動總機** ：ce933385-9390-45d1-9512-c8d228074e07
+- **自動助理** ：ce933385-9390-45d1-9512-c8d228074e07
 - **通話佇列** ：11cd3e2e-fcb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> 如果您希望商務用 Skype Server 2019 使用者可以搜尋通話佇列或自動話務員，您應該在商務用 Skype Server 2019 上建立資源帳戶，因為線上資源帳戶不會同步處理至 Active Directory。 當 sipfederationtls 的 DNS SRV 記錄解析為商務用 Skype Server 2019 時，必須使用 SfB 管理命令殼在商務用 Skype Server 2019 上建立資源帳戶，並同步處理至 Azure AD。 
+> 如果您希望 Skype For Business Server 2019 使用者可以搜尋通話佇列或自動話務員，您應該在 Skype For Business Server 2019 上建立資源帳戶，因為線上資源帳戶不會同步處理至 Active Directory。 當 sipfederationtls 的 DNS SRV 記錄解析為 商務用 Skype Server 2019 時，必須在 Skype for Business Server 2019 使用 SfB Management shell 建立資源帳戶，並同步處理至 Azure AD。 
 
-針對與商務用 Skype Server 混合的實現：
+針對與專案混合的商務用 Skype Server：
 
    [規劃雲端自動語音應答](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
   
@@ -150,7 +150,7 @@ ms.locfileid: "51094243"
 
 在刪除電話號碼之前，請務必先將電話號碼與資源帳戶解除關聯，以避免您的服務號碼卡在擱置模式。
 
-完成之後，您可以刪除 Microsoft 365 系統管理中心中的資源帳戶，位於使用者選項卡下。
+完成之後，您可以刪除系統管理Microsoft 365中的資源帳戶，位於使用者選項卡下。
 
 若要從資源帳戶取消關聯直接路由電話號碼，請使用下列 Cmdlet：
 

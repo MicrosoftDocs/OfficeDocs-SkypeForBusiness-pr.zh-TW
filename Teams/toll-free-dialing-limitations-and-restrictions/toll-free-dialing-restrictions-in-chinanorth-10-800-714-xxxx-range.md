@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解撥打中國北部免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
+description: 瞭解撥入中國北部免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
 ms.openlocfilehash: 8aa0a330e51a99dc53ebdacd94e53691dc165367
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -45,7 +45,7 @@ ms.locfileid: "51116791"
 |未涵蓋的島嶼/地區  <br/> |中國南部  <br/> |
 |有線/固定線路可用性  <br/> |僅從中國 Netcom  <br/> |
 |行動網路可用性  <br/> |否  <br/> |
-|批註、限制和存取問題  <br/> |無法從付費電話進行。  <br/> |
+|批註、限制和存取問題  <br/> |無法從付費電話機進行訪問。  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 [免付費電話的撥號限制](../toll-free-dialing-limitations-and-restrictions.md)

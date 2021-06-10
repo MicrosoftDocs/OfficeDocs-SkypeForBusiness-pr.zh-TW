@@ -33,12 +33,12 @@ ms.locfileid: "51102639"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>變更音訊會議橋接器的設定
 
-當您在 Microsoft 365 或 Office 365 中設定音訊會議時，您會收到來自所謂的音訊會議橋接器的使用者電話號碼。 一個會議橋接器可以包含一或多個電話號碼。 當來電者撥入會議時，會使用這些電話號碼。 電話號碼會包含在商務用 Skype 或 Microsoft Teams 會議邀請的底部。
+當您在 Microsoft 365 或 Office 365 中設定音訊會議時，您會收到來自所謂的音訊會議橋接器的使用者電話號碼。 一個會議橋接器可以包含一或多個電話號碼。 當來電者撥入會議時，會使用這些電話號碼。 電話號碼會包含在會議邀請或商務用 Skype Microsoft Teams底端。
   
-會議橋接器會接聽來電，然後使用會議自動語音應答提示來電者，然後視您的設定播放通知、要求來電者錄製名稱，以及控制 PIN 設定。 PIN 會提供給會議召集人，讓他們在未使用商務用 Skype 或 Microsoft Teams App 時開始會議。
+會議橋接器會接聽來電，然後使用會議自動語音應答提示來電者，然後視您的設定播放通知、要求來電者錄製名稱，以及控制 PIN 設定。 PIN 會提供給會議召集人，讓他們在未使用應用程式或應用程式商務用 Skype Microsoft Teams會議。
 
   > [!IMPORTANT]
-  > 只有當商務用 Skype 或 Microsoft Teams 應用程式使用者尚未開始會議時，會議召集人才需要 PIN。 如果每個人都撥入會議，會議召集人必須輸入 PIN 才能開始會議。 
+  > 只有在應用程式使用者尚未啟動會議商務用 Skype或Microsoft Teams，會議召集人才需要 PIN。 如果每個人都撥入會議，會議召集人必須輸入 PIN 才能開始會議。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -63,33 +63,33 @@ ms.locfileid: "51102639"
 4. 若要設定會議的 PIN 長度，請在 PIN 長度清單中選取 PIN **的位數** 。
 
 5. 若要指定是否要傳送電子郵件給使用者，請啟用或停用如果使用者的音訊會議組組變更時自動 **傳送電子郵件給使用者**。
-    請參閱 [在 Microsoft Teams](emails-sent-to-users-when-their-settings-change-in-teams.md) 中的音訊會議設定變更時自動將電子郵件發送給使用者，或當使用者的商務用 [Skype Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) 設定變更時，將電子郵件發送給使用者以瞭解更多資訊。
+    請參閱[當使用者](emails-sent-to-users-when-their-settings-change-in-teams.md)的音訊會議設定在 Microsoft Teams 中變更時自動發送給使用者的電子郵件，或當使用者在 商務用 Skype [Online 中變更其設定時商務用 Skype電子郵件](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change)。
  
 6. 按一下 [儲存]。 
 
-## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 進行管理嗎？
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想要瞭解如何使用 Windows PowerShell？
 
 - 若要節省時間或自動化此程式，您可以使用 [Set-CsDialinConferencingBridge](/powershell/module/skype/Set-CsOnlineDialInConferencingBridge) Cmdlet。
     
-- Windows PowerShell 就是管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點來管理 Microsoft 365 或 Office 365，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用 Windows PowerShell，請參閱以下主題：
+- Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 有了Windows PowerShell，您可以使用單一Microsoft 365管理Office 365管理，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
-  - [為什麼您需要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell 比使用 Microsoft 365 系統管理中心在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點： 
+- Windows PowerShell比使用 Microsoft 365 系統管理中心時，在速度、簡易性及生產力方面有許多優點，例如一次對許多使用者進行設定變更。 請從下列主題瞭解這些優點： 
     
   - [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [使用 Windows PowerShell 管理商務用 Skype Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [使用 Windows PowerShell 管理 商務用 Skype Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [使用 Windows PowerShell 執行常見的商務用 Skype Online 管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
     > [!NOTE]
-    > 商務用 Skype Online 的 Windows PowerShell 模組可讓您建立連接到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組僅支援 64 位電腦，可從商務用 Skype Online 版 Windows PowerShell 模組的 Microsoft 下載 [中心下載。](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell[模組商務用 Skype Online。](https://go.microsoft.com/fwlink/?LinkId=294688)
   
 ## <a name="related-topics"></a>相關主題
 
 [設定 Microsoft Teams 的音訊會議](set-up-audio-conferencing-in-teams.md)
 
-[設定商務用 Skype Online 的音訊會議](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[設定線上商務用 Skype會議](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

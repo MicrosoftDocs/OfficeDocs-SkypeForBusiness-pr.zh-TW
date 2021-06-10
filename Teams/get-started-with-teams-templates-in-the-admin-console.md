@@ -18,19 +18,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 773b97197a4f233dea9a404d87e669239b3969f6
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: bf5a601cfe373f1afa995b1dcd8b1f9adff05877
+ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684450"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52856292"
 ---
 # <a name="get-started-with-team-templates-in-the-admin-center"></a>在系統管理中心開始使用小組範本
 
 **尚未支援 EDU 客戶建立自訂範本的能力。**
 
 > [!NOTE]
-> 小組範本目前不支援私人頻道和敏感度標籤。 範本定義中不包含私人頻道建立功能。 從範本流程 **建立團隊** 中的敏感度標籤選項將不會適用于該團隊。
+> 小組範本目前不支援私人頻道和敏感度標籤。 範本定義中不包含私人頻道建立功能。 從範本流程 **建立團隊** 中的敏感度標籤選項將不會適用于團隊。
 
 小組範本是專為業務需求或專案所設計的小組結構預先建立的定義。 使用預先建建的範本或建立您自己的範本。 小組範本讓您能利用不同主題的頻道，快速建立豐富的共同合作空間，並預先安裝 App 以利於任務關鍵型內容和服務。 小組範本提供預先定義的小組結構，可協助您輕鬆建立整個組織的一致團隊。 目前，您可以從範本或 Microsoft Teams建立[Graph。](get-started-with-teams-templates.md)
 
@@ -67,14 +67,14 @@ ms.locfileid: "52684450"
 定義基本範本類型之後，您可以使用更多要指定的屬性來延伸或覆蓋這些特殊範本。 某些基本範本類型包含無法重寫的屬性。
 
 > [!NOTE]
-> 您可以在範本中預先定義Microsoft Teams範本，但無法編輯。
+> 在範本中提供的預先定義Microsoft Teams範本可以複製，但無法編輯。
 
 | 範本類型 | baseTemplateId | 此基本範本提供的屬性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 採用Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  頻道： <ul><li>一般</li> <li>公告</li> <li>冠軍角</li> <li>小組表單</li></ul> 應用程式： <ul><li>Wiki</li>  <li>行事曆</li> |
+| 採用Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  頻道： <ul><li>一般</li> <li>公告</li> <li>冠軍角</li> <li>小組表單</li><li>行事曆</li></ul> 應用程式： <ul><li>Wiki</li>  <li>頻道日曆</li> |
 | 管理專案 |`com.microsoft.teams.template.ManageAProject`| 頻道： <ul><li>一般</li> <li>公告</li> <li>資源</li> <li>規劃</li></ul> 應用程式：<ul><li>Wiki</li><li>OneNote</li><li>Planner</li><li>清單</li>  </ul> |
-| 管理活動|`com.microsoft.teams.template.ManageAnEvent` | 頻道： <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與公關</li></ul> 應用程式：<ul><li>Wiki</li><li>網站</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li> <li>員工構想</li> <li>問題報者</li></ul> |
-|員工上機|`com.microsoft.teams.template.OnboardEmployees` | 頻道： <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用程式：<ul><li>Wiki</li><li>社區</li><li>Planner</li><li>員工構想</li></ul>|
+| 管理活動|`com.microsoft.teams.template.ManageAnEvent` | 頻道： <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與公關</li></ul> 應用程式：<ul><li>Wiki</li><li>網站</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li> <li>員工的想法</li> <li>問題報訊者</li></ul> |
+|員工上機|`com.microsoft.teams.template.OnboardEmployees` | 頻道： <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用程式：<ul><li>Wiki</li><li>社區</li><li>Planner</li><li>員工的想法</li></ul>|
 |組織服務台| `com.microsoft.teams.template.OrganizeHelpDesk`|頻道：<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用程式：<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>稱讚</li><li>問題報者</li></ul> |
 | 病患照護| `healthcareWard`| 頻道：<ul><li>一般</li><li>公告</li><li>過程中討論</li><li>輪次</li><li>人員</li><li>訓練</li></ul> 應用程式： <ul><li>Wiki</li><li>清單  </li><li>批准</li></ul>|
 | 在全球危機或事件上共同合作 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 頻道： <ul><li>一般<li>公告</li><li>世界新訊</li><li>業務連續性</li><li>遠端工作</li><li>內部通訊</li><li>外部通訊</li><li>核准要求</li><li>客戶抱怨</li><li>榮譽</li><li>主管更新</li></ul>應用程式： <ul><li>稱讚</li><li>Wiki</li><li>網站</li><li>Planner</li><li>問題報者</li></ul>|

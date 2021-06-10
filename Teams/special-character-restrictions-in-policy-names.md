@@ -29,23 +29,23 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51116981"
 ---
-# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>Teams 政策中的特殊字元限制是什麼？
+# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>在特殊字元限制中，Teams限制？
 
-**在 Microsoft Teams** 系統管理中心的名稱中 (訊息、會議等) ，您無法建立或編輯具有特殊字元的政策。 
+**您無法建立或編輯** 郵件 (會議等) 系統管理中心名稱中具有特殊字元Microsoft Teams策略。 
 
-如果策略名稱包含特殊字元，您將受限於在 Microsoft Teams 系統管理中心管理這些策略。 **因此，我們強烈建議策略名稱不要包含特殊字元**。 
+如果策略名稱包含特殊字元，您將受限於在系統管理中心管理Microsoft Teams。 **因此，我們強烈建議策略名稱不要包含特殊字元**。 
 
-在 Teams 中使用 PowerShell 建立的會議和傳訊之策略名稱可以具有 @、#、$等特殊字元。 不過，如果您想要在 Microsoft Teams 系統管理中心變更該政策，將無法進行。 
+已使用 PowerShell 在 Teams 中建立用於會議和傳訊的策略名稱可以具有 @、#、$等特殊字元。 不過，如果您想要在系統管理中心變更Microsoft Teams，將無法進行。 
 
-如果您有具有特殊字元的政策，您必須使用 Windows PowerShell (永久) 編輯該政策，或在 Microsoft Teams 系統管理中心建立新策略，其設定與舊策略相同，並指派給同一組使用者。
+如果您有具有特殊字元的政策，您必須使用 Windows PowerShell (永久) 編輯該策略，或在 Microsoft Teams 系統管理中心建立新策略，其設定與舊策略相同，並指派給同一組使用者。
 
 ## <a name="to-remove-special-characters"></a>移除特殊字元
 
 **步驟 1 - 使用 PowerShell 進行遠端連線。**
 > [!NOTE]
-> 商務用 Skype Online Connector 目前是 Teams PowerShell 模組的一部分。
+> 商務用 Skype線上連接器是目前最新版 PowerShell 模組Teams一部分。
 >
-> 如果您使用的是最新的 [Teams PowerShell 公開發行](https://www.powershellgallery.com/packages/MicrosoftTeams/)，則不需要安裝商務用 Skype Online 連接器。
+> 如果您使用的是最新版[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Teams版本，則不需要安裝 商務用 Skype 連線連接器。
 
 ```powershell
   # When using Teams PowerShell Module
@@ -68,7 +68,7 @@ ms.locfileid: "51116981"
 
 **步驟 3 - 建立新策略。**
 
-您可以使用 Microsoft Teams 系統管理中心或 PowerShell，以相同的設定建立新政策。
+您可以使用系統管理中心或 PowerShell 來建立設定相同的新Microsoft Teams。
 
 執行這項操作會為您的建立新策略，但您必須看到 [Set-CsTeamsMessagingPolicy，](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) 然後執行它，以新增正確的設定：
 
@@ -94,21 +94,21 @@ Grant-CsTeamsMessagingPolicy -Policy <new_policy_name>
 ```PowerShell
 Grant-CsMessagingPolicy -Policy <old_policy_name> $null
 ```
-### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 進行管理嗎？
+### <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想要瞭解如何使用 Windows PowerShell？
 
-Windows PowerShell 就是管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點來管理 Microsoft 365 或 Office 365，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用 Windows PowerShell，請參閱以下主題：
+Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
-  - [為什麼您需要使用 Office 365 PowerShell？](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [為什麼您需要使用 PowerShell Office 365 PowerShell？](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell 比使用 Microsoft 365 系統管理中心在速度、簡易性及生產力方面有許多優點，例如一次變更許多使用者的設定。 請從下列主題瞭解這些優點：
+- Windows PowerShell使用系統管理中心時，Microsoft 365在速度、簡易性及生產力方面有許多優點，例如一次變更許多使用者的設定。 請從下列主題瞭解這些優點：
     
   - [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-    [使用 Windows PowerShell 管理商務用 Skype Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+    [使用 Windows PowerShell 管理 商務用 Skype Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [使用 Windows PowerShell 執行常見的商務用 Skype Online 管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [使用Windows PowerShell執行線上商務用 Skype管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
     > [!NOTE]
-    > 商務用 Skype Online 的 Windows PowerShell 模組可讓您建立可連線到商務用 Skype Online 和 Microsoft Teams 的遠端 Windows PowerShell 會話。 此模組僅支援 64 位電腦，可從 Windows PowerShell Online 版 Skype 模組的 Microsoft 下載 [中心下載。](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 和 商務用 Skype 的遠端Microsoft Teams。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell Online 模組商務用 Skype[下載。](https://go.microsoft.com/fwlink/?LinkId=294688)

@@ -23,7 +23,7 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解撥打中國南部免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
+description: 瞭解撥打中國南部免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
 ms.openlocfilehash: ea2b2e535f491f57e5aad41244e56afff3490ebb
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51116781"
 ---
-# <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>中國 -南部地區免付費撥號限制 (10 800 140 XXXX) 
+# <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>中國 -南部地區 10 800 140 XXXX (免付費撥號限制) 
 
 [尋找其他國家/地區](../toll-free-dialing-limitations-and-restrictions.md)，或深入瞭解免付費撥號限制與限制。
 
@@ -45,7 +45,7 @@ ms.locfileid: "51116781"
 |未涵蓋的島嶼/地區  <br/> |華北地區  <br/> |
 |有線/固定線路可用性  <br/> |僅從中國電信  <br/> |
 |行動網路可用性  <br/> |部分。 查看批註。  <br/> |
-|批註、限制和存取問題  <br/> |無法從付費電話進行。  <br/> |
+|批註、限制和存取問題  <br/> |無法從付費電話機進行訪問。  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 

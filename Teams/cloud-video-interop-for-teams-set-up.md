@@ -1,5 +1,5 @@
 ---
-title: 設定 Microsoft Teams 的雲端視像交互操作
+title: 設定雲端視Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -24,15 +24,15 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2021
 ms.locfileid: "51102599"
 ---
-# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>設定 Microsoft Teams 的雲端視像交互操作
+# <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>設定雲端視Microsoft Teams
 
-選擇您的雲端視像交互操作合作夥伴 [ (](cloud-video-interop.md)) 之後，您必須規劃您的部署、設定與部署詳細資料及合作夥伴租使用者金鑰，以及同意貴組織的視像交互操作應用程式。 下圖概述程式。 
+選擇您的雲端視像交互操作合作夥伴 [ (](cloud-video-interop.md)) 之後，您必須規劃部署、設定與部署詳細資料及合作夥伴租使用者金鑰，以及同意貴組織的視像交互操作應用程式。 下圖概述程式。 
 
 ![在貴組織中部署 CVI](media/deploying-cvi.png)
 
 ## <a name="plan"></a>規劃
 
-請參閱 [Microsoft Teams 的雲端](cloud-video-interop.md) 視像交互操作，以尋找合作夥伴或合作夥伴以在貴組織中使用的資訊。 
+請參閱[雲端視Microsoft Teams](cloud-video-interop.md)交互操作，以尋找識別合作夥伴或合作夥伴以在貴組織中使用的資訊。 
 
 若要規劃使用者型/並行/全網站啟用： 
 
@@ -66,7 +66,7 @@ ms.locfileid: "51102599"
 
     此 Cmdlet 可讓您識別可在貴組織中使用的預先建構策略。 您可以使用 Cmdlet，將這個Grant-CsTeamsVideoInteropServicePolicy指派給一或Grant-CsTeamsVideoInteropServicePolicy使用者。
  
-- **[Grant-CsTeamsVideoInteropServicePolicy](/powershell/module/skype/grant-csteamsvideointeropservicepolicy)：** Cmdlet Grant-CsTeamsVideoInteropServicePolicy Cmdlet 可讓您指派預先建構的策略，供貴組織使用，或將策略指派給特定使用者。
+- **[Grant-CsTeamsVideoInteropServicePolicy：](/powershell/module/skype/grant-csteamsvideointeropservicepolicy)** Cmdlet Grant-CsTeamsVideoInteropServicePolicy Cmdlet 可讓您指派預先建構的策略，供貴組織使用，或將策略指派給特定使用者。
  
 - **[New-CsVideoInteropServiceProvider](/powershell/module/skype/new-csvideointeropserviceprovider)：** 使用 New-CsVideoInteropServiceProvider指定貴組織想使用之支援的 CVI 合作夥伴相關資訊。
  
@@ -83,7 +83,7 @@ ms.locfileid: "51102599"
 完成這些步驟後，透過上方的 Grant Cmdlet 個別啟用的使用者，或啟用租使用者時組織中所有使用者，都會在排程的所有 Teams 會議中擁有 VTC 座標。 任何 VTC 都可以透過這些座標加入這些會議。
 
 
-|名稱|應用程式許可權簡短描述| 說明|
+|名稱|應用程式許可權簡短描述| 描述|
 |--|--|---|
 |通話.JoinGroupCall.All|以應用程式加入群組通話和會議 (預覽) |允許應用程式加入貴組織的群組通話和排程會議，而不需要已登錄使用者。  應用程式會以目錄使用者的許可權加入租使用者中的會議。|
 |通話.JoinGroupCallasGuest.All|以來賓使用者加入群組通話和會議 (預覽) |允許應用程式以匿名方式加入貴組織的群組通話和排程會議，而不需要已登錄使用者。  應用程式會以來賓的來賓加入租使用者中的會議。|
@@ -92,21 +92,21 @@ ms.locfileid: "51102599"
 
 ## <a name="schedule"></a>附表
 
-接下來，使用視像交互操作座標排程 Teams 會議。 啟用的使用者可以透過以下方式排程團隊會議：
-- [Outlook 的 Teams 會議附加元件](teams-add-in-for-outlook.md)
-- Teams 用戶端桌面與行動版
+接下來，使用視Teams座標排程會議。 啟用的使用者可以透過以下方式排程團隊會議：
+- [Teams會議附加元件Outlook](teams-add-in-for-outlook.md)
+- Teams桌面和行動版
 
 
 ## <a name="join"></a>加入
 
-您可以使用 VTC 裝置以下列方式加入 Teams 會議：
+您可以使用 VTC Teams，以下列方式加入會議：
  
 - IVR (互動式語音回應) 
     - 您可以使用電話號碼撥入合作夥伴的 IVR tenantkey@domain。 
-    - 當您在合作夥伴 IVR 中時，系統會提示您輸入 VTC meetingId，然後將您連接到 Teams 會議。
+    - 當您在合作夥伴 IVR 中時，系統會提示您輸入 VTC meetingId，然後將您Teams會議。
 - 直撥
-    - 您可以使用使用完整字串租使用者金鑰的直接撥號功能，直接撥入 Teams 會議，而不與合作夥伴的 IVR 互動。VTC ConferenceId@domain。
+    - 您可以直接撥入Teams，而不使用使用完整字串租使用者金鑰的直接撥號功能與合作夥伴的 IVR 互動。VTC ConferenceId@domain。
 - 單鍵撥號
-    - 如果您有整合的 Teams 會議室，您可以使用合作夥伴提供的單鍵撥號功能 (而不需要輸入任何撥號字串) 。
+    - 如果您有整合式Teams，您可以使用合作夥伴提供的單鍵撥號功能 (不需要輸入任何撥號字串) 。
 
-最後，使用音訊、視像和內容共用，與 Teams 使用者進行會議互動。
+最後，使用音訊、Teams和內容共用，與會議中的使用者互動。

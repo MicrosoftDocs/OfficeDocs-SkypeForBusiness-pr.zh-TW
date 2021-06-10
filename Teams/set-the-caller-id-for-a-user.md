@@ -31,7 +31,7 @@ ms.locfileid: "52308332"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>設定使用者的來電顯示
 
-電話系統中Microsoft 365提供預設本機號碼，即使用者指派的電話號碼。 您可以變更或封鎖本機號碼 (呼叫線識別碼) 使用者。 您可以進一步瞭解如何在組織中使用本機號碼，方法為了解如何在組織中使用來電 [顯示](how-can-caller-id-be-used-in-your-organization.md)。
+電話系統中Microsoft 365提供預設本機號碼，即使用者指派的電話號碼。 您可以變更或封鎖本機號碼 (呼叫線識別碼) 使用者。 您可以進一步瞭解如何在組織中使用本機號碼，方法為 [：如何在](how-can-caller-id-be-used-in-your-organization.md)貴組織中使用本機號碼。
   
 根據預設，下列本機號碼設定 **會關閉**。 這表示Teams撥打 PSTN 電話時，可以看到該使用者的電話號碼。 您可以變更這些設定，如下所示：
   
@@ -47,7 +47,7 @@ ms.locfileid: "52308332"
 - **將通話方名稱設定 (CNAM) 。** 針對您的Microsoft Teams，您可以在外寄 PSTN 通話上傳送 CNAM。
     
 > [!IMPORTANT]
-> 緊急電話一定會將使用者的電話號碼 (來電) 。 
+> 緊急電話會一直將使用者的電話號碼 (來電) 。 
   
 
   
@@ -70,7 +70,7 @@ Connect-MicrosoftTeams -Credential $credential
 
 ### <a name="view-create-and-apply-policy-settings"></a>查看、建立及適用原則設定
 
-1. 若要在貴組織中查看所有本機號碼策略設定，請執行：
+1. 若要查看貴組織中所有的本機號碼策略設定，請執行：
 
      ```PowerShell
      Get-CsCallingLineIdentity |fl
@@ -144,7 +144,7 @@ Windows PowerShell管理使用者，以及允許或不允許使用者執行哪�
     
 - [使用 Windows PowerShell 管理 商務用 Skype Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-- [使用Windows PowerShell執行線上商務用 Skype管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+- [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
   
  ## <a name="related-topics"></a>相關主題

@@ -86,14 +86,14 @@ ms.locfileid: "52306037"
 注釋
  
 - 您可以設定 SfbWithTeamsCollabs，而不是將整個租使用者的政策設定為 SfbWithTeamsCollabAndMeetings。 這會使所有使用者在會議中排程Teams。
-- `Move-CsUser` 是內部部署工具中的 Cmdlet。 此 `MoveToTeams` 切換需要在 2019 商務用 Skype Server 2015 或 2015 商務用 Skype Server CU8 或更高版本。 如果您使用的是先前版本，您可以先將使用者移至 商務用 Skype，然後將 TeamsOnly 模式授予該使用者。
+- `Move-CsUser` 是內部部署工具中的 Cmdlet。 切換 `MoveToTeams` 需要 2019 商務用 Skype Server 2015 或 2015 商務用 Skype Server CU8 或更高版本。 如果您使用的是先前版本，您可以先將使用者移至 商務用 Skype，然後將 TeamsOnly 模式授予該使用者。
 - 根據預設，商務用 Skype升級至 TeamsOnly 模式Teams或指派 SfbWithTeamsCollabAndMeetings 模式時，會議會移至其他會議。  
 
 > [!NOTE]
-> 為了準備即將商務用 Skype Online，Microsoft 將會簡化組織在近期內Teams如何移至新版。 將使用者從內部部署移至Teams，很快就會不再需要指定移入，將使用者直接從內部部署移至 `-MoveToTeams` `Move-CsUser` TeamsOnly。 目前如果未指定此切換，使用者會從內部部署中的商務用 Skype Server切換到 商務用 Skype Online，其模式會維持不變。 停用之後，將使用者從內部部署移動到雲端時，系統會自動將使用者指派 TeamsOnly 模式，而他們的會議從內部部署自動轉換成 Teams 會議，就像無論實際指定切換是否一樣。 `Move-CsUser` `-MoveToTeams switch had been specified` 我們預期在 2021 年 7 月 31 日實際停用之前發行此功能。
+> 為了準備即將商務用 Skype Online，Microsoft 將會簡化組織在近期內Teams如何移至線上。 將使用者從內部部署移至Teams，很快就會不再需要指定移入，將使用者直接從內部部署移至 `-MoveToTeams` `Move-CsUser` TeamsOnly。 目前如果未指定此切換，使用者會從內部部署中的商務用 Skype Server切換到 商務用 Skype Online，其模式會維持不變。 停用之後，將使用者從內部部署移動到雲端時，系統會自動將使用者指派 TeamsOnly 模式，而他們的會議從內部部署會自動轉換成 Teams 會議，就像無論實際指定切換是否一樣。 `Move-CsUser` `-MoveToTeams switch had been specified` 我們預期在 2021 年 7 月 31 日實際停用之前發行此功能。
 
 
-下圖顯示組織中未事先使用特定功能之組織之選取功能更新的概念Teams。 長條的高度代表使用者數目。 在升級的任何階段中，所有使用者都可以彼此通訊。  商務用 Skype使用 Interop 與 TeamsOnly 使用者通訊，反之亦然。 在群島模式中的使用者必須確定要同時執行這兩個用戶端。
+下圖顯示組織中未事先使用特定功能之組織之選取功能更新的概念Teams。 長條的高度代表使用者數目。 在升級的任何階段，所有使用者都可以彼此通訊。  商務用 Skype使用 Interop 與 TeamsOnly 使用者通訊，反之亦然。 在群島模式中的使用者必須確定要同時執行這兩個用戶端。
 
 ![顯示選取功能更新的圖表，無需事先Teams](media/teams-upgrade-1.png)
 
@@ -136,7 +136,7 @@ ms.locfileid: "52306037"
    Move-CsUser -Identity $user -Target sipfed.online.lync.com -MoveToTeams -credential $cred 
    ```
 
-下圖顯示選取功能轉換的概念階段，其中一開始有使用中的群島使用者。 長條的高度代表使用者數目。 在升級的任何階段中，所有使用者都可以彼此通訊。  商務用 Skype使用交互操作與 TeamsOnly 使用者通訊，反之亦然。 
+下圖顯示選取功能轉換的概念階段，其中一開始有使用中的群島使用者。 長條的高度代表使用者數目。 在升級的任何階段，所有使用者都可以彼此通訊。  商務用 Skype使用交互操作與 TeamsOnly 使用者通訊，反之亦然。 
 
 
 ![顯示在群島模式中與使用中使用者進行選取功能更新的圖表](media/teams-upgrade-2.png)
@@ -147,7 +147,7 @@ ms.locfileid: "52306037"
 
 ## <a name="related-links"></a>相關連結
 
-[針對與應用程式一起使用Teams的移商務用 Skype](migration-interop-guidance-for-teams-with-skype.md) 
+[適用于與應用程式一起使用Teams的移商務用 Skype](migration-interop-guidance-for-teams-with-skype.md) 
 
 [設定商務用 Skype Server或Microsoft 365之間的Office 365](/SkypeForBusiness/hybrid/configure-hybrid-connectivity)
 

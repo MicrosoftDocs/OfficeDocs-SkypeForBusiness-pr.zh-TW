@@ -44,7 +44,7 @@ ms.locfileid: "51116681"
 |未涵蓋的島嶼/地區  <br/> | 無法從領土存取。 <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |
 |行動網路可用性  <br/> | 部分。 查看批註。 <br/> |
-|批註、限制和存取問題  <br/> |行動存取：從Paltel &amp; Jawal/Jawania 行動網路無法存取。  <br/> |
+|批註、限制和存取問題  <br/> |行動存取：無法從Paltel &amp; Jawal/Jawania 行動網路存取。  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 

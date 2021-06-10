@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 腳本建立您管理學校教育者和學生的 Teams 策略所需的安全性群組。
+description: 使用此 PowerShell 腳本建立您管理學校Teams教師和學生所需的安全性群組。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -26,14 +26,14 @@ ms.locfileid: "51117281"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 腳本範例 - 為學校中的教師和學生建立安全性群組
 
-使用此 PowerShell 腳本建立管理學校 Microsoft Teams 政策所需的安全性群組。 Teams [中的組](../assign-policies.md#assign-a-policy-to-a-group) 策略指派功能可讓您將策略指派給一組使用者，例如安全性群組。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。
+使用此 PowerShell 腳本建立管理學校Microsoft Teams安全性群組。 系統[中的群組原則](../assign-policies.md#assign-a-policy-to-a-group)指派Teams可讓您將策略指派給一組使用者，例如安全性群組。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。
 
-此 PowerShell 腳本會根據授權類型建立兩個安全性群組，一個適用于教職員和教育工作者，另一個則適用于學校的學生。 接著，您可以將策略指派給您建立的安全性組。 有關使用此腳本的資訊，請參閱指派策略給 [學校](../batch-group-policy-assignment-edu.md)中的大量使用者。
+此 PowerShell 腳本會根據授權類型建立兩個安全性群組，一個適用于教職員和教育工作者，另一個則適用于學校的學生。 接著，您可以將策略指派給您建立的安全性群組。 有關使用此腳本詳細資訊，請參閱指派策略給 [學校](../batch-group-policy-assignment-edu.md)中的大量使用者。
 
 此腳本執行下列操作：
 
 - 識別指派教職員 SKU 的教職員和教育工作者，建立安全性群組，然後將教職員和教師新加入群組。
-- 識別指派學生 SKU 的學生、建立安全性群組，然後將學生新增到群組。
+- 識別指派學生 SKU 的學生、建立安全性群組，然後將學生新加入群組。
 - 更新每個安全性群組的成員，以根據員工、教育者和學生是否有授權來新增或移除他們。
 
 您必須定期執行此腳本，讓安全性群組保持在最新狀態。
@@ -43,9 +43,9 @@ ms.locfileid: "51117281"
 
 ## <a name="before-you-start"></a>在您開始之前
 
-下載並安裝商務用 [Skype Online PowerShell 模組](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)，然後在系統提示時重新開機電腦。
+下載並安裝[商務用 Skype PowerShell 模組](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)，然後重新開機電腦 ，如果系統提示。
 
-若要更精簡，請參閱使用 [Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 和 [Teams PowerShell](../teams-powershell-overview.md)管理商務用 Skype Online 概觀。
+若要精簡更多內容，請參閱使用 powerShell 商務用 Skype [PowerShell Office 365管理線上](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)Teams [PowerShell 概觀](../teams-powershell-overview.md)。
 
 
 ## <a name="sample-script"></a>範例腳本

@@ -21,7 +21,7 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: '尋找每個國家/地區電話撥入式會議語言，以及指派 (en-US、da-DK、de-DE 等帳戶的) '
+description: '尋找每個國家/地區電話撥入式會議語言，以及指派給 (en-US、da-DK、de-DE 等) '
 ms.openlocfilehash: 9486996a2d951d8ba5ad4790fd2dc792f69f1b1d
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -31,7 +31,7 @@ ms.locfileid: "51098509"
 ---
 # <a name="audio-conferencing-supported-languages"></a>音訊會議的支援語言
 
-當您在 Microsoft 365 或 Office 365 中設定及設定音訊會議時，您可以選取來電者撥入商務用 Skype 或 Microsoft Teams 會議時所使用的主要和次要 () 語言。 以下是音訊會議支援的語言清單： 
+當您在 Microsoft 365 或 Office 365 中設定音訊會議時，您可以選取來電者撥入 商務用 Skype 或 Microsoft Teams 會議時所使用的主要和次要 () 語言。 以下是音訊會議支援的語言清單： 
   
 > [!IMPORTANT]
 > 主要和次要語言只能在專用音訊會議電話號碼上變更。 
@@ -87,29 +87,29 @@ ms.locfileid: "51098509"
    
 如果您正在尋找可以購買音訊會議的國家/地區，請參閱音訊會議與通話方案的國家/地區 [可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
-如果您正在尋找具有音訊會議電話號碼的特定國家/地區，請參閱 [Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md) 的音訊會議電話號碼或商務用 [Skype Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)的音訊會議電話號碼。
+如果您正在尋找具有音訊會議電話號碼的特定國家/地區，請參閱 Microsoft Teams 中的[電話](phone-numbers-for-audio-conferencing-in-teams.md)音訊會議號碼，或[商務用 Skype Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)的音訊會議 電話 號碼。
   
-## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想知道如何使用 Windows PowerShell 進行管理嗎？
+## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想要瞭解如何使用 Windows PowerShell？
 
 - 若要節省時間或自動化這項功能，您可以使用 [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) 或 [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) Cmdlets。
     
-- Windows PowerShell 就是管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點來管理 Microsoft 365 或 Office 365，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用 Windows PowerShell，請參閱以下主題：
+- Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
-  - [為什麼您需要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Windows PowerShell 管理 Microsoft 365 或 Office 365 的最佳方法](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell 比使用 Microsoft 365 系統管理中心在速度、簡易性及生產力方面有許多優點，例如當您一次變更許多使用者的設定時。 請從下列主題瞭解這些優點： 
+- Windows PowerShell使用系統管理中心時，Microsoft 365在速度、簡易性及生產力方面有許多優點，例如一次變更許多使用者的設定。 請從下列主題瞭解這些優點： 
     
   - [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [使用 Windows PowerShell 管理商務用 Skype Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [使用 Windows PowerShell 管理 商務用 Skype Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [使用 Windows PowerShell 執行常見的商務用 Skype Online 管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
     > [!NOTE]
-    > 商務用 Skype Online 的 Windows PowerShell 模組可讓您建立連接到商務用 Skype Online 的遠端 Windows PowerShell 會話。 此模組僅支援 64 位電腦，可從 Windows PowerShell Online 版 Skype 模組的 Microsoft 下載 [中心下載。](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell[模組商務用 Skype Online。](https://go.microsoft.com/fwlink/?LinkId=294688)
   
 ## <a name="related-topics"></a>相關主題
 
-[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[嘗試或購買音訊會議Microsoft 365或Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

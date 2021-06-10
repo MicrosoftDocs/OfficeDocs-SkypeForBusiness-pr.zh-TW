@@ -30,7 +30,7 @@ ms.locfileid: "52282720"
 
 當您升級您的商務用 Skype使用者以使用Teams時，您有幾個選項可協助使用者順暢地執行此程式。 您可以選擇一次為貴組織中所有使用者進行共存和升級設定，或者您可以針對貴組織的單一或一組使用者進行設定變更。 請注意，舊版用戶端商務用 Skype可能無法遵守這些設定。 若要進一商務用 Skype用戶端版本，請前往下載商務用 Skype[更新頁面](/skypeforbusiness/software-updates)。 
 
-您可以閱讀瞭解與共同Microsoft Teams互通性商務用 Skype或與 商務用 Skype 共存，以[](teams-and-skypeforbusiness-coexistence-and-interoperability.md)進一步瞭解[可用的商務用 Skype。](coexistence-chat-calls-presence.md)  
+您可以閱讀瞭解Microsoft Teams及商務用 Skype共存或與 商務用 Skype。 [](teams-and-skypeforbusiness-coexistence-and-interoperability.md) [](coexistence-chat-calls-presence.md)  
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -53,8 +53,8 @@ ms.locfileid: "52282720"
     - 設定 **通知商務用 Skype使用者Teams升級。** 如果您開啟這項功能，它會告知商務用 Skype使用者，他們很快就會升級至 Teams App。
     - 設定使用者 **加入會議商務用 Skype應用程式**。 此設定會決定用於加入會議商務用 Skype應用程式，且無論共存模式的值如何，都會受到尊重。
       - **Skype會議應用程式**
-      - **商務用 Skype功能受限的**
-    - 設定是否要 **在背景Teams下載應用程式，商務用 Skype使用者**。  此設定會以無Teams方式下載適用于在 商務用 Skype 上Windows。 只有在使用者共存模式為Teams或系統啟用擱置升級通知時，才能商務用 Skype。
+      - **商務用 Skype功能有限**
+    - 設定是否要 **在背景Teams下載應用程式商務用 Skype使用者**。  此設定會以無Teams方式下載適用于在 商務用 Skype 上Windows。 只有在使用者共存模式為Teams或系統啟用擱置升級通知時，才能商務用 Skype。
 3. 在您 **進行變更** 後，按一下 [儲存。
 
 ## <a name="set-upgrade-options-for-a-single-user-in-your-organization"></a>為貴組織的單一使用者設定升級選項
@@ -63,14 +63,14 @@ ms.locfileid: "52282720"
 
 1. 在左側導覽中，前往 **使用者**，然後從清單中選取使用者。 
 2. 在使用者的 **[帳戶** Teams **中，按一下 [Teams****編輯**。
-3. 您可以設定 **共存模式**。 從下列選項中選擇：
+3. 您可以設定 **共存模式**。 選擇下列選項：
      - **使用全組織設定** - 如果您希望使用者使用全組織設定中的設定，請使用 **這個** 設定。 
      - **群島**- 如果您希望使用者同時使用商務用 Skype，請使用Teams。 
      - **商務用 Skype** - 如果您希望使用者使用此功能，請使用商務用 Skype。
      - **商務用 Skype** 共同Teams - 如果您希望使用者使用 商務用 Skype，除了使用 Teams 進行群組共同 (頻道) 。
       - **商務用 Skype** 共同Teams和會議 - 如果您希望使用者使用 商務用 Skype，除了使用 Teams 進行群組共同 (頻道) 會議Teams請使用這項設定。
      - **Teams** - 如果您希望使用者只使用Teams。 使用者仍然可以加入商務用 Skype會議。
-4. 如果您 **選取了使用** 全組織設定外的任何共存模式，您可以選擇在即將升級至 Teams 的使用者 商務用 Skype 應用程式中啟用通知。 您可以開啟通知使用者選項，為使用者 **啟用商務用 Skype通知**。
+4. 如果您 **選取了使用** 全組織設定外的任何共存模式，您可以選擇在即將升級至 Teams 的使用者 商務用 Skype 應用程式中啟用通知。 您可以開啟通知使用者選項，為使用者 **商務用 Skype通知**。
 5. 在您 **進行變更** 後，按一下 [儲存。
 
 ### <a name="related-topics"></a>相關主題
@@ -78,4 +78,4 @@ ms.locfileid: "52282720"
 
 [瞭解商務用 Skype和Teams](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-[針對與應用程式一起使用Teams的移商務用 Skype](migration-interop-guidance-for-teams-with-skype.md)
+[適用于與應用程式一起使用Teams的移商務用 Skype](migration-interop-guidance-for-teams-with-skype.md)

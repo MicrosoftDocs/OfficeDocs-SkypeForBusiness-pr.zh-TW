@@ -24,7 +24,7 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于商務用 Skype 的 Microsoft 365 和 Office 365 服務，以及適用于 Jordan 的 Microsoft Teams。
+description: 以下是適用于Microsoft 365和Office 365的商務用 Skype Microsoft Teams和Microsoft Teams服務。
 ms.openlocfilehash: af10bdb310f577632e1e7c686020065f817d3972
 ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
 ms.translationtype: MT
@@ -36,7 +36,7 @@ ms.locfileid: "51117941"
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于商務用 Skype 的 Microsoft 365 和 Office 365 服務，以及適用于 Jordan 的 Microsoft Teams。
+以下是適用于Microsoft 365和Office 365的商務用 Skype Microsoft Teams和Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -69,7 +69,7 @@ ms.locfileid: "51117941"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> |根據[ (，) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |Amman ([要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
 |有提供付費電話號碼嗎？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
 |是否提供免付費電話號碼？  <br/> |否  <br/> |
    

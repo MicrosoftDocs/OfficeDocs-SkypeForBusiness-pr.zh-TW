@@ -31,14 +31,14 @@ ms.locfileid: "52282710"
 
 ![升級歷程的階段，強調使用者準備階段](media/upgrade-banner-user-readiness.png "升級歷程的階段，強調使用者準備階段")
 
-本文是升級過程中的使用者整備階段之一部分，此階段是您與技術整備階段同時完成的活動。 繼續進行之前，請確認您已完成上述階段的活動：
+本文是升級過程中的使用者整備階段之一部分，此階段是您與技術整備階段同時完成的活動。 在繼續進行之前，請確認您已完成上述階段的活動：
 
 - [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
 - [已定義專案範圍](./upgrade-define-project-scope.md)
 - [瞭解共同使用和商務用 Skype互通性Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [已選擇升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-最佳的使用者準備計畫會納入您進行試驗、上機及升級至新版時，與使用者通訊、訓練和支援Teams。 如您 [于評估組織](./upgrade-org-change-readiness.md)變更準備狀況所發現，準備狀態並非一成一體。 若要確保對新技術的最佳接受度，請使用廣泛的傳訊 (結合視覺/價值訊息和通用使用案例) 以及專為您定義及您的落後使用者量身打造的訊息、訓練和支援。 這項個人化計畫可協助使用者採用，讓使用者能更快速地Teams，同時證明您瞭解他們的需求。
+最佳的使用者準備計畫會納入您進行試驗、上機及升級至新版時，如何與使用者通訊、訓練和支援Teams。 如您 [于評估組織](./upgrade-org-change-readiness.md)變更準備狀況所發現，準備狀態並非一成一體。 若要確保對新技術的最佳接受力，請使用廣範圍傳訊 (結合視覺/價值訊息和通用使用案例) 以及專為您定義及您的落後使用者量身打造的訊息、訓練和支援。 這項個人化計畫可協助使用者採用，讓使用者能更快速地Teams，同時證明您瞭解他們的需求。
 
 > [!Tip]
 > 除了範例 [升級專案](https://aka.ms/UpgradeSuccessKit) 計畫和試驗測試計劃之外，下載範本使用者準備資料 ，例如通訊和使用者問卷的升級成功套件。

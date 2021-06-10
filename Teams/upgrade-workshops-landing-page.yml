@@ -32,7 +32,7 @@ productDirectory:
       url: 'https://microsoftteams.eventbuilder.com/PlanYourUpgrade'
     - title: 執行您的Teams升級
       imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
-      summary: 請加入我們，根據您的目標及您目前商務用 Skype環境，找出並準備執行最佳技術方法，將所有工作負載移往Teams中。 大部分已完成成功轉換的客戶，Teams目前線上、商務用 Skype或混合式商務用 Skype Server啟用。 此會話將分享重要的考慮事項和寶貴的資源，説明您為組織定義最佳的移移策略。 物件 - IT 系統管理員
+      summary: 請加入我們，根據您的目標及您目前商務用 Skype環境，找出並準備執行最佳技術方法，將所有工作負載移往Teams中。 大部分已完成成功轉換的客戶，Teams目前線上、商務用 Skype或混合式商務用 Skype Server啟用。 此會話會分享重要的考慮事項和寶貴的資源，可協助您為組織定義最佳的移移策略。 物件 - IT 系統管理員
       url: 'https://microsoftteams.eventbuilder.com/ImplementTeamsUpgrade'
 additionalContent:
   sections:

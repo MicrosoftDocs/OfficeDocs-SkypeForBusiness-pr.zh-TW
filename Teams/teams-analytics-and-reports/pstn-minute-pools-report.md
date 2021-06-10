@@ -26,11 +26,11 @@ ms.locfileid: "52305987"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft TeamsPSTN 分鐘數庫報告
 
-Teams系統管理中心中的 Microsoft Teams TEAMS PSTN 分鐘數庫報告，顯示您目前月份所耗用分鐘數，讓您概觀貴組織的音訊會議和通話活動。 您可以查看活動明細，包括通話使用授權、通話總分鐘數、已用分鐘數，以及授權使用量 。根據位置。
+Microsoft Teams 系統管理中心中的 Teams PSTN 分鐘數庫報告，顯示您當月所耗用分鐘數，讓您概觀貴組織的音訊會議和通話活動。 您可以查看活動明細，包括通話使用授權、通話總分鐘數、已用分鐘數，以及授權使用量 。根據位置。
 
-## <a name="view-the-pstn-minute-pools-report"></a>[查看 PSTN 分鐘數庫報告
+## <a name="view-the-pstn-minute-pools-report"></a>查看 PSTN 分鐘數庫報告
 
-在系統管理中心的左側導Microsoft Teams，按一下 [分析&**報告**  >  **使用方式報告**。 在 [ **查看報表」** 選項卡的 [ **報表>** 下，選取 **[PSTN 分鐘數庫**，然後按一下 [ **執行報表**> 。
+在系統管理中心的左側導Microsoft Teams，按一下 [分析&**報告**  >  **使用方式報告**。 在 [ **查看報表>** 選項卡的 [ **報表>** 下，選取 **[PSTN 分鐘數庫**，然後按一下 [ **執行報表**> 。
 
 ![系統管理中心Teams PSTN 分鐘數庫報表的螢幕擷取畫面](../media/teams-reports-pstn-minute-pools-with-callouts.png "系統管理中心Teams PSTN 分鐘Microsoft Teams包含編號圖說義的螢幕擷取畫面")
 

@@ -29,7 +29,7 @@ ms.locfileid: "51117311"
 
 若要瞭解此 PowerShell 腳本，請參閱 [建立人員管理員團隊](../create-manager-directs-teams.md)。
 
-如果您剛開始使用 PowerShell，需要協助開始使用，請參閱 Azure [PowerShell 概觀](/powershell/azure/overview?view=azurermps-5.1.1)。
+如果您剛開始使用 PowerShell，需要協助開始使用，請參閱概觀[Azure PowerShell。](/powershell/azure/overview?view=azurermps-5.1.1)
 
 
 ## <a name="export-managers-script"></a>Export-Managers腳本

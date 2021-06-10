@@ -39,7 +39,7 @@ ms.locfileid: "51116731"
 |:-----|:-----|
 |免付費通話是否可用？  <br/> |是  <br/> |
 |撥號格式 ()   <br/> |800 XXXX (XXX)   <br/> |
-|國家/地區 ISO 代碼  <br/> |Ee  <br/> |
+|國家/地區 ISO 代碼  <br/> |EE  <br/> |
 |涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |
@@ -50,5 +50,5 @@ ms.locfileid: "51116731"
 
 [免付費電話的撥號限制](../toll-free-dialing-limitations-and-restrictions.md)
 
-[取得商務用 Skype 和 Microsoft Teams](../getting-service-phone-numbers.md) 服務電話號碼) 
+[取得服務電話號碼商務用 Skype Microsoft Teams) ](../getting-service-phone-numbers.md)
   
