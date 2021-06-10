@@ -1,7 +1,7 @@
 ---
-title: Microsoft 團隊的系統管理訓練
+title: 系統管理訓練Microsoft Teams
 ms.reviewer: ''
-description: 取得管理組織中 Microsoft 小組所需的系統管理員訓練與支援。
+description: 取得管理貴組織中所有人員所需的系統管理員Microsoft Teams支援。
 author: cichur
 manager: serdars
 audience: admin
@@ -27,9 +27,9 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 01/12/2021
 ms.locfileid: "49822713"
 ---
-# <a name="admin-training-for-microsoft-teams"></a>Microsoft 團隊的系統管理訓練
+# <a name="admin-training-for-microsoft-teams"></a>系統管理訓練Microsoft Teams
 
-瞭解如何為您的組織管理團隊。
+瞭解如何為貴Teams管理帳戶。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -43,7 +43,7 @@ ms.locfileid: "49822713"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>新增：適用于團隊的講師指導訓練課程</h3>
+                        <h3>NEW：由講師帶領的訓練課程Teams</h3>
                     </div>
                 </div>
             </div>
@@ -61,7 +61,7 @@ ms.locfileid: "49822713"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>我們在這裡協助您</h3>
+                        <h3>我們在此提供協助</h3>
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@ ms.locfileid: "49822713"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>需要登入商務用 Skype 的協助嗎？</h3>
+                        <h3>需要協助您商務用 Skype？</h3>
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@ ms.locfileid: "49822713"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>疑難排解商務用 Skype Online 的相關問題</h3>
+                        <h3>疑難排解線上商務用 Skype問題</h3>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@ ms.locfileid: "49822713"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>從商務用 Skype 旅程移至團隊</h3>
+                        <h3>從 商務用 Skype 到 Teams</h3>
                     </div>
                 </div>
             </div>
@@ -139,10 +139,10 @@ ms.locfileid: "49822713"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>稿件</h3>
+                        <h3>文章</h3>
                         <p><a 
                         href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">設定組織的電話系統</a></p>
-                        <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">與音訊會議進行協力廠商整合</a></p>
+                        <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">與音訊會議的協力廠商整合</a></p>
                     </div>
                 </div>
             </div>
@@ -159,8 +159,8 @@ ms.locfileid: "49822713"
                     </div>
                     <div class="cardText">
                         <h3>新功能</h3>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">加拿大的通話方案 (一般可用性) </a></p>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">在澳大利亞通話方案 (僅供預覽) </a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">加拿大的通話方案 (一般) </a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">澳洲的通話方案 (預覽) </a></p>
                     </div>
                 </div>
             </div>
