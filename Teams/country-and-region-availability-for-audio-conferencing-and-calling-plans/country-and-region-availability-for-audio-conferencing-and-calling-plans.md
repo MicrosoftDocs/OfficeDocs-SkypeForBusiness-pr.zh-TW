@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解國家/地區電話系統音訊會議、電話方案、通訊信用額度，以及免付費和免付費電話號碼。
-ms.openlocfilehash: 050554b7a2c558aca9157fd910a2ee7a317ee9e2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3890fa79173dd6327830cc995bf41d79a0b2dde0
+ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122267"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52873820"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音訊會議與通話方案的適用國家/地區
 
@@ -157,7 +157,7 @@ ms.locfileid: "51122267"
 > - [委內瑞拉](availability-in-venezuela.md)
 > - [越南](availability-in-vietnam.md)
 
-如果您要尋找包含所有國家和地區的試算表，請下載並儲存雲端 **[語音功能國家/地區可用性試算表](https://www.microsoft.com/download/details.aspx?id=102271)**。
+如果您要尋找包含所有國家和地區的試算表，請下載並儲存雲端 **[語音功能國家/地區可用性試算表](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-05252021)-(en-us).xlsx)**。
 
 ***
 
@@ -193,7 +193,7 @@ ms.locfileid: "51122267"
   
 ### <a name="phone-system"></a>電話系統
 
-使用 電話系統，您可以建立自動回應和 (電話佇列，並) 付費或免付費號碼來接聽組織的來電。 當您為使用者新增通話方案時，他們可以使用 商務用 Skype 處理基本的通話控制工作，例如撥打和接聽來電、轉接通話，以及將通話靜音和取消靜音。 **電話系統** 使用者在通訊錄中按一下名稱，商務用 Skype就會打電話給該人員。 若要撥打和接聽 **電話，電話系統** 使用者使用他們的行動裝置、膝上型電腦或 PC 耳機，或許多 IP 電話之一，商務用 Skype。
+使用 電話系統，您可以建立自動回應和 (電話佇列，並) 付費或免付費號碼來接聽組織的來電。 當您為使用者新增通話方案時，他們可以使用 商務用 Skype 處理基本的通話控制工作，例如撥打和接聽來電、轉接通話，以及將通話靜音和取消靜音。 **電話系統** 使用者在通訊錄中按一下名稱，商務用 Skype就會打電話給該人員。 若要撥打和接聽 **電話，電話系統** 使用者使用其行動裝置、膝上型電腦或 PC 耳機，或許多 IP 電話之一，商務用 Skype。
 
 > 根據庫存量而定，某些位置在任何給定時間不一定會有付費電話號碼。 除了取得個別使用者的電話號碼之外，也可以搜尋及取得電話或免付費電話號碼等服務，例如電話會議 () 、自動語音機和通話佇列。 這些電話號碼稱為服務號碼。 請參閱[取得服務電話號碼](../getting-service-phone-numbers.md)以取得電話號碼。 但對您的使用者來說，在為其指派通話方案之後，您就可以指派使用者電話號碼，讓其可以撥打和接聽電話。 若要尋找這些電話號碼，請移至[為使用者取得電話號碼](../getting-phone-numbers-for-your-users.md)。 您也可以參閱[指派、變更或移除使用者的電話號碼](../assign-change-or-remove-a-phone-number-for-a-user.md)。
 
@@ -215,7 +215,7 @@ ms.locfileid: "51122267"
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>服務的付費和免付費電話號碼
 
-除了取得個別使用者的電話號碼之外，也可以搜尋及取得電話或免付費電話號碼的服務，例如會議橋接器)  (、自動語音服務及通話佇列 (。 這些電話號碼稱為服務號碼。
+除了取得個別使用者的電話號碼之外，也可以搜尋及取得電話或免付費電話號碼的服務，例如會議橋接器 (、自動語音電話和通話佇列 () 。 這些電話號碼稱為服務號碼。
   
 以下是一份首都和主要城市的清單，您可以從這份清單中取得可與音訊會議和通話方案搭配使用的付費服務號碼。 您可以使用系統管理中心從這些位置 **取得商務用 Skype號碼**。
   

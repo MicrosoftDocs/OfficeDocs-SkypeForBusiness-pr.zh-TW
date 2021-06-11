@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以瞭解適用于使用者的已知問題Microsoft Teams 會議室，包括更新、使用者介面、硬體、限制和預期行為。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cec5cac544d3935c2c8be0f4dd9d7a57e68d35ec
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: d601db3c028c7c93a97131db48de81bdcab314e4
+ms.sourcegitcommit: bd7b4986044f7921b25506488dfed405fc2e7ca3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856432"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52877485"
 ---
 # <a name="known-issues"></a>已知問題 
  
@@ -32,9 +32,9 @@ ms.locfileid: "52856432"
 | 問題標題 |  行為 \/ 症狀 | 已知的因應措施 | KB 文章 |
 |  ---        |      ---             |   ---            | --- |
 | 應用程式未啟動 |  更新至應用程式版本 4.4.41.0 之後，系統會引導至黑色螢幕，或幾分鐘後進入登入畫面。 | 請遵循更新[Microsoft Teams 會議室 4.4.41.0](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update)之後，應用程式無法啟動中的步驟來修正此問題。  | 無 |
-|  SfB 會議內容共用無法全螢幕顯示         |    在 商務用 Skype中，使用高 DPI 設定顯示會議室的會議室可能會遇到共用至會議的內容未在會議室顯示器前方顯示全螢幕的問題。 這是因為遠端桌面通訊協定或 RDP Windows 10 API 中 () 問題。 | 使用 `<WinRTRdpEnabled>` XML 設定來停用 WINDOWS 10 API 以解決此問題。 若要停用，您必須將值指定為 `false` 。 詳細資訊，請參閱使用 [XML 設定檔管理主控台設定](xml-config-file.md#manage-console-settings-with-an-xml-configuration-file)。 | 無 |
+|  內容共用後的會議音量較低         |   Microsoft Teams 會議室 20H2 體驗Windows 10裝置透過室內 HDMI 共用內容後，媒體和會議音量降低。 這是由 20H2 Windows 10問題所導致。 | 目前尚無此問題的解決方法。 為了減少會議音訊音量的影響 (例如參與者語音) ，我們已停用所有裝置上的 HDMI 音訊Teams 會議室音訊。 小組Windows 10正在調查此問題，客戶建議將維持有效，直到找到解決方案。 | 無 |
 |  應用程式已過期         |    主機Microsoft Teams 會議室顯示「系統組態已過期」錯誤。                |   [使用 Microsoft Teams 會議室修復工具](recovery-tool.md)             |  無 |
-|  裝置更新為不支援的版本Windows 10   |    Windows 10從版本 1803 更新至版本 1809 的裝置，但不支援。 支援的版本為 1903。 |   如果 [DeferFeatureUpdatesPeriodinDays](/windows/deployment/update/waas-configure-wufb) 的群組原則或 MDM 設定設為最多 365 天，可讓您將功能更新延後指定的天數，則可能發生此情況。 <br><br> Windows 10版本 1809 不支援Microsoft Teams 會議室版本 1903。 不過，自 2020 年 3 月 27 日，版本 1809 已經超過 365 天。 如果未變更此設定，Windows嘗試安裝版本 1809，這可能會導致Microsoft Teams 會議室。<br><br>若要避免這種情況， **請移除** 任何群組原則或 MDM 設定以延後更新。 這可讓您Windows更新至最新、支援的 OS 版本。 <br><br>**重要** 必須移除群組原則或 MDM設定， (未設定) 且未設為 **0。** 如果策略設為 0，Windows會採用可能不支援的最新可用版本。 |  無 |
+|  裝置更新為不支援的版本Windows 10   |    Windows 10從版本 1803 更新至版本 1809 的裝置，但不支援。 支援的版本為 1903。 |   如果 [DeferFeatureUpdatesPeriodinDays](/windows/deployment/update/waas-configure-wufb) 的群組原則或 MDM 設定設為最多 365 天，可讓您將功能更新延後指定的天數，則可能發生此情況。 <br><br> Windows 10版本 1809 不支援Microsoft Teams 會議室版本 1903。 不過，自 2020 年 3 月 27 日，版本 1809 已經超過 365 天。 如果未變更此設定，Windows嘗試安裝版本 1809，這可能會導致Microsoft Teams 會議室。<br><br>若要避免這種情況， **請移除** 任何群組原則或 MDM 設定以延後更新。 這可讓您Windows更新至最新、支援的作業系統版本。 <br><br>**重要** 必須移除群組原則或 MDM設定 (未設定) 且未設為 **0。** 如果策略設為 0，Windows會採用可能不支援的最新可用版本。 |  無 |
 
 
 
@@ -43,7 +43,7 @@ ms.locfileid: "52856432"
 
 | 問題標題 |  行為 \/ 症狀 | 已知的因應措施 | KB 文章 |
 |  ---        |      ---             |   ---            | --- |
-|虛擬鍵盤遺失   | 當您需要在 Microsoft Teams 會議室 中輸入資訊時，虛擬鍵盤Microsoft Teams 會議室。 此問題會發生在 Windows 10版本 1903 中。 | 透過更新為 x64 型系統安裝 Windows 10 1903 的 2020-04 累積更新Windows更新。  | 無 | 
+|虛擬鍵盤遺失   | 當您需要在鍵盤中輸入資訊時，虛擬鍵盤Microsoft Teams 會議室。 此問題會發生在 Windows 10版本 1903 中。 | 透過更新為 x64 型系統安裝 Windows 10 1903 的 2020-04 累積更新Windows更新。  | 無 | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>硬體
