@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: 9306646cf76485ba06828f7dad2113912ec28b55
+ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863244"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "52873840"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 適用的行動裝置必要診斷資料
 
@@ -540,12 +540,12 @@ ms.locfileid: "52863244"
 - **errorShown** - 顯示錯誤。
 - **展開/摺疊** - 裝置連絡人或公司連絡人區段。
 - **expandCollapseSection** - 點選區段標題來展開或摺疊區段。
-- **預期： atMention-Android： chatSendMessage-iOS： sendMsg** -@提及 撰寫方塊中的機器人。
+- **預期：atMention-Android： chatSendMessage-iOS： sendMsg** -@提及 撰寫方塊中的機器人。
 - **Expected: botClickCardAction - Android: showCard - iOS: 遺失** - 點選卡片按鈕。卡片是重要的平臺構造，且需度量其使用方式和模式才能瞭解平臺使用狀況，並持續瞭解用戶端的潛在問題。
-- **預期： chatSendMessage-iOS： composeSendMessage** - 點選 **[回復]** ，並在頻道中回復聊天機器人。
-- **預期： composeSendMessage - Android： replyChannel -iOS：遺失** - 點選 **[回復]** ，並在頻道中回復聊天機器人。
-- **預期： messageLike-Android： reactLike_CM** ，例如機器人訊息。
-- **預期： messageUnread-Android： markAsLastUnread** - 訊息的快顯功能表選項。
+- **預期：chatSendMessage-iOS： composeSendMessage** - 點選 **[回復]** ，並在頻道中回復聊天機器人。
+- **預期：composeSendMessage - Android： replyChannel -iOS：遺失** - 點選 **[回復]** ，並在頻道中回復聊天機器人。
+- **預期：messageLike-Android： reactLike_CM** ，例如機器人訊息。
+- **預期：messageUnread-Android： markAsLastUnread** - 訊息的快顯功能表選項。
 - **federatedUpgradeNewChat** - 舊的聊天會升級至原生。
 - **檔案** - 追蹤是否已在 [聊天和頻道檔案] 索引標籤中成功完成檔案。
 - **fileSelected** - 已選取 PowerPoint 簡報。
@@ -1303,6 +1303,8 @@ ms.locfileid: "52863244"
 - **smart_reply_enabled** - 確認已為目前使用者啟用智慧回覆。
 - **smart_reply_received** - 確認已收到智慧回覆建議。
 - **smart_reply_banned** - 確認無法為目前使用者顯示智慧回覆。
+- **park_call_for_hold_v2** - 使用通話駐留來確認通話保留成功或失敗。
+- **unpark_call_for_hold_v2** - 使用通話取消駐留來確認繼續通話成功或失敗。 
 - **update_planner_task_and_nav_to_view** - 確認已成功更新共用工作專案，以及在動作之後使用者導向結果檢視所需的時間。
 - **update_personal_task_and_nav_to_view** - 確認已成功更新個人工作項目，以及在動作之後使用者導向結果檢視所需的時間 
 - **updatePlannerTask** - 確認使用者已成功更新共用工作清單中的工作。
