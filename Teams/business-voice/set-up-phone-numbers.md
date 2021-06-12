@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 瞭解如何為貴Microsoft 365 商務語音使用者和服務設定電話號碼。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7dcf582593cf09977f4992d6b78035a9726c12b8
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 89cb3764e30fa0bf4fcfa9d6a18d29ca69786cef
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282540"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52910035"
 ---
 # <a name="step-2-set-up-business-voice-phone-numbers"></a>步驟 2：設定商務語音電話號碼
 
@@ -37,15 +37,19 @@ ms.locfileid: "52282540"
 > [!NOTE]
 > 您的新電話號碼可能需要數小時才能在 Teams。
 
+下列影片將說明如何在系統管理中心完成Teams步驟。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWENzQ]
+
 ## <a name="set-up-a-service-number"></a>設定服務號碼
 
 您現在設定的服務號碼將在公司主要電話號碼的稍後步驟中使用。
 
 1. 開啟 Microsoft Teams系統管理中心，然後使用全域系統管理員使用者登入 (這通常是您用來註冊帳戶Microsoft 365) 。
-2. 在左側流覽中，前往 <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**[語音** 電話  >  **數位**</a>，然後按一下 [**新增**。
+2. 在左側流覽中，前往 <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**[語音** 電話  >  **數位，**</a>然後按一下 [**新增**。
 3. 輸入訂單名稱並新增描述。
 4. 在位置和數量頁面上，執行下列操作：
-    1. 在 **國家/地區** 下，選取某個國家/地區。
+    1. 在 **國家/地區下**，選取國家/地區。
     2. 在 **數位類型** 下，選取下列其中一個選項：
 
         - **自動 (付費)** 一般、非免付費的電話號碼。 長途費用會向來電者收取。
@@ -57,7 +61,7 @@ ms.locfileid: "52282540"
     4. 選擇位置 **或** 區碼 **，取決於您** 是想要使用位置的城市搜尋電話號碼，還是想要搜尋特定區碼中的號碼。
     5. 如果您 **選取位置**：
 
-        1. 在 [設定緊急位置> 步驟中輸入緊急位址 [](set-up-emergency-locations.md)所在的城市，或如果您需要為另一個辦公室或家用辦公室建立新位置，請按一下 [**新增位置**> 。
+        1. 輸入緊急位址位於 [設定緊急位置位置> 步驟 [](set-up-emergency-locations.md)中的城市，或如果您需要為另一個辦公室或家用辦公室建立新位置，請按一下 [**新增位置**> 。
         2. 在 **區碼下**，選取區碼， **然後選取下** 一步以保留您的號碼。
 
     6. 如果您選取區 **碼，** 輸入要搜尋的區碼，然後 **選取下一** 步以保留您的號碼。
@@ -68,17 +72,17 @@ ms.locfileid: "52282540"
 ## <a name="set-up-phone-numbers-for-your-users"></a>設定使用者的電話號碼
 
 1. 開啟 Microsoft Teams系統管理中心，然後使用全域系統管理員使用者登入 (這通常是您用來註冊帳戶Microsoft 365) 。
-2. 在左側流覽中，前往 <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**[語音** 電話  >  **數位**</a>，然後按一下 [**新增**。
+2. 在左側流覽中，前往 <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**[語音** 電話  >  **數位，**</a>然後按一下 [**新增**。
 3. 輸入訂單名稱並新增描述。
 4. 在位置和數量頁面上，執行下列操作：
 
-    1. 在 **國家/地區** 下，選取某個國家/地區。
+    1. 在 **國家/地區下**，選取國家/地區。
     2. 在 **數位類型** 下，選取 **使用者 (訂閱) 。**
     3. 在 **數量** 下，輸入貴組織想要的數位數目。
     4. 選擇位置 **或** 區碼 **，取決於您** 是想要使用位置的城市搜尋電話號碼，還是想要搜尋特定區碼中的號碼。
     5. 如果您 **選取位置**：
 
-        1. 在 [設定緊急位置> 步驟中輸入緊急位址 [](set-up-emergency-locations.md)所在的城市，或如果您需要為另一個辦公室或家用辦公室建立新位置，請按一下 [**新增位置**> 。
+        1. 輸入緊急位址位於 [設定緊急位置位置> 步驟 [](set-up-emergency-locations.md)中的城市，或如果您需要為另一個辦公室或家用辦公室建立新位置，請按一下 [**新增位置**> 。
         2. 在 **區碼下**，選取區碼， **然後選取下** 一步以保留您的號碼。
 
     6. 如果您選取區 **碼，** 輸入要搜尋的區碼，然後 **選取下一** 步以保留您的號碼。
