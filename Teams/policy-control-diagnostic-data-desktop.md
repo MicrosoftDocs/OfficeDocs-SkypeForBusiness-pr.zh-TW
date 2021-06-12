@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbac20caa3f1eff0ead7ef0bf7f11d55b7718903
-ms.sourcegitcommit: 448606977ee67befbdc91060363cf90dd346a528
+ms.openlocfilehash: c255fd02342eb6db1878608ad2da09683d7a83ec
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/19/2020
-ms.locfileid: "48136016"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863224"
 ---
 # <a name="required-desktop-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 適用的桌面必要診斷資料
 
 下列文章包含 Microsoft Teams 桌面事件的清單，以及每個事件收集的屬性清單。
+
+如需有關診斷資料 (包括如何控制要傳送到 Microsoft 的診斷資料) 的詳細資訊，請參閱 [從 Teams 應用程式將診斷資料傳送到 Microsoft](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft)。 若要檢視傳送到 Microsoft 的診斷資料，您可以使用 [診斷資料檢視器](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)。
 
 ## <a name="events"></a>事件
 
@@ -205,7 +207,7 @@ ms.locfileid: "48136016"
 | Session_DesktopId                 | 唯一工作階段識別碼                                                                  |
 | machineLocked                     | 擷取電腦是否已鎖定                                          |
 | windowIsVisible                   | 擷取應用程式視窗是否可見而可供使用                                      |
-| appStates/webAppStates            | 記錄應用程式已進行的應用程式狀態清單。 這可協助您進行當機調查，因為我們可以查看應用程式所處的狀態 |
+| appStates/webAppStates            | 記錄應用程式經過的應用程式狀態清單，這可協助您進行當機調查，因為我們可以查看應用程式所處的狀態 |
 | crashDesktopSession               | 擷取當機工作階段的識別碼                                                 |
 | appRuntime                        | 擷取應用程式的執行時間                                                        |
 | diagnosticEvents                  | 應用程式當機前的最後 50 個網頁應用程式診斷事件                                 |

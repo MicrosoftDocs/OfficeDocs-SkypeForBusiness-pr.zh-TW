@@ -14,12 +14,12 @@ search.appverid: MET150
 description: 本文概述您會在 Microsoft Teams 中看到的選擇性連結體驗。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49b2cf94f660b7935ae61aadf21bdb9a7a78fb21
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 588dd904794ce79cfdcdbfa7fb9e17275f1d3661
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777884"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863234"
 ---
 # <a name="overview-of-optional-connected-experiences-in-microsoft-teams"></a>Microsoft Teams 中選擇性連線體驗的概觀
 
@@ -28,7 +28,7 @@ ms.locfileid: "52777884"
 如果您的系統管理員允許你在 Teams 中使用選擇性連線體驗，您可以轉到 Teams 中的 **[設定]** > **[隱私]** 並選擇是否要使用選擇性連線體驗。
 
 > [!NOTE]
-> 如果您是系統管理員，您可以授與或限制使用者使用選擇性連線體驗的能力。 要執行此操作，您可以使用 [[Office 雲端原則服務]](/deployoffice/overview-office-cloud-policy-service) 並設定 *[允許在 Office 中使用其他選擇性連線體驗]* 原則設定。 
+> 如果您是系統管理員，您可以授與或限制使用者使用選擇性連線體驗的能力。 要執行此操作，您可以使用 [[Office 雲端原則服務]](/deployoffice/overview-office-cloud-policy-service) 並設定 *[允許在 Office 中使用其他選擇性連線體驗]* 原則設定。 這是相同的原則設定，可控制您的使用者在 Microsoft 365 Apps 企業版提供的 Office 應用程式 (例如 Word、Excel 和 PowerPoint) 中是否可以使用選擇性連線體驗。
 
 ## <a name="giphy"></a>GIPHY
 

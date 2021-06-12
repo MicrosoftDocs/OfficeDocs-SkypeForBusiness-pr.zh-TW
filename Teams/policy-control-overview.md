@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a4b0dcc52b5c497d594a26fda09f3f48b1c563a
-ms.sourcegitcommit: 17d0108fb4d36a3f56144460683f53d77a8a0a7f
+ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "52777897"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863214"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams 原則控制概覽
 
@@ -84,7 +84,7 @@ Teams 軟體有三個層級的診斷資料可供選擇：
 
 如果使用者是使用其組織的認證 (有時稱為公司或學校帳戶) 登入 Office，使用者將無法為他們的裝置變更診斷資料層級。
 
-此診斷資料不會包含使用者的名稱、他們的電子郵件地址或其 Office 檔案的內容。 我們的系統會建立一個唯一的識別碼，該識別碼會與使用者的診斷資料建立關聯。 當我們收到的診斷資料顯示我們的 Teams 應用程式當機了 100 次，這個唯一識別碼可讓我們判斷是單一使用者當機了 100 次，還是 100 個不同的使用者各當機一次。 我們不會使用此唯一識別碼來識別出特定使用者。
+此診斷資料不包含使用者名稱、其電子郵件地址或其他使用者內容，例如 Teams 中共用的 Office 檔案、在 Teams 中發送的聊天訊息，或在 Teams 頻道中發佈之文章的文字。 我們的系統會建立一個唯一的識別碼，該識別碼會與使用者的診斷資料建立關聯。 當我們收到的診斷資料顯示我們的 Teams 應用程式當機了 100 次，這個唯一識別碼可讓我們判斷是單一使用者當機了 100 次，還是 100 個不同的使用者各當機一次。 我們不會使用此唯一識別碼來識別出特定使用者。
 
 若要查看傳送給 Microsoft 的是哪些診斷資料，您可以使用診斷資料檢視器，您可以自 Microsoft Store 免費下載並安裝該工具。 如需詳細資訊，請參閱[使用 Office 的診斷資料檢視器](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)。
 

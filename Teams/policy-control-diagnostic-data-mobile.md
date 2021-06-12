@@ -16,16 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03206c6a1d3a9bfb8a42446e7134ad21689d93cc
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: 28cebeabe860f1e76d10d0af976454161ed448e1
+ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723564"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "52863244"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 適用的行動裝置必要診斷資料
 
 下列文章包含 Microsoft Teams 行動裝置事件的清單，以及每個事件收集的屬性清單。
+
+如需有關診斷資料 (包括如何控制要傳送到 Microsoft 的診斷資料) 的詳細資訊，請參閱 [從 Teams 應用程式將診斷資料傳送到 Microsoft](policy-control-overview.md#diagnostic-data-sent-from-the-teams-app-to-microsoft)。 若要檢視傳送到 Microsoft 的診斷資料，您可以使用 [診斷資料檢視器](https://support.microsoft.com/topic/cf761ce9-d805-4c60-a339-4e07f3182855)。
 
 ## <a name="events"></a>事件
 
@@ -109,6 +111,8 @@ ms.locfileid: "52723564"
   - 設定中的號碼。
 - **blockChat** - 封鎖聊天機器人。 這會加強聊天中現有的遙測，且只會增加應用程式資訊。
 - **botClickCardAction** - 連接器卡使用情況。
+- **brbFormOpened** - 使用者已要求傳送意見反應。
+- **brbFormSubmit** - 使用者已提交意見。
 - **breakStartEndClicked** - 在螢幕上的時鐘中，已選取 **[開始]** 或 **[結束休息]** 按鈕。
 - **breakStartEndTriggered** - 註冊使用者選擇使用「開始」或「結束」。
 - **bucketSelected** - 確認已成功選取貯體。
@@ -461,6 +465,7 @@ ms.locfileid: "52723564"
 - **dialOutDialog** -  已在操作列表中選取 **[新號碼]**。
 - **dialOutFailRetry** -  已從失敗橫幅中選取 **[重試]**。
 - **DialPad** - 已從通話清單中選取 **[DialPad]** 按鈕。
+- **directShare** - 已分享簡訊/電子郵件原生應用程式的邀請連結。
 - **disableCategory** - 停用通知類型或停用來電通知。
 - **已停用 - ** 已在 [初次執行體驗 (FRE)] 中選取 **[略過通知]**。 這會為 FRE 流程提供略過通知的重要成功資料。
 - **disableQuietDays** - 免打擾天數已停用。 免打擾天數的功能成功遙測。
@@ -625,6 +630,7 @@ ms.locfileid: "52723564"
 - **啟動來源，例如直接、連結、appShortcut** -直接或透過連結啟動 (錄製行動應用程式管理(MAM)，或行動裝置管理(MDM)遙測，以收集作用中使用者的資料)。
 - **leaveChat** -確認離開聊天。
 - **legacyChatLink** -已選取舊版聊天的連結。
+- **link** - 使用者透過輸入 Teams 應用程式以啟動邀請連結兌換。
 - **likeAppDismiss** -當詢問使用者是否喜歡該應用程式的提示在沒有回應的情況下關閉時。
 - **likeAppNo** - 當詢問使用者是否喜歡應用程式的提示收到 [否] 的回復時。
 - **likeAppYes** - 當詢問使用者是否喜歡應用程式的提示收到 [是] 的回復時。
@@ -650,6 +656,7 @@ ms.locfileid: "52723564"
 - **location_active_tracking** -使用者的裝置切換為作用中追蹤。
 - **locationCard** - 選取位置卡。
 - **location_family_sync** -顯示在 MSA 系列應用程式中建立的 [家庭] 群組成員。 確認顯示出所有可授與授權的家庭成員。
+- **location_data_use_privacy_denied** - 使用者拒絕接受隱私權條款。
 - **location_group_map_sync** - 已開啟地圖檢視。
 - **location_map_load** -地圖檢視載入。
 - **location_map_markers_load** - 地圖檢視載入。確認所有主動共用的使用者位置標記都能在地圖檢視中正確顯示。
@@ -855,6 +862,9 @@ ms.locfileid: "52723564"
 - **pinChannel** - 釘選頻道，將它顯示在小組和頻道清單上方。
 - **pinSelf** - 將自己從操作列表中釘選。
 - **pinUser** - 將使用者從操作列表中釘選。
+- **place_created** - 使用者已建立共用位置。
+- **place_deleted** - 使用者已刪除共用位置。
+- **place_edited** - 使用者已編輯共用位置。
 - **播放** - 播放錄製。
 - **playVoicemail** -  已在語音信箱專案中點選 **[播放]**。
 - **plusButtonClicked** - 選取 **[加號按鈕]** (**+**)。
@@ -918,6 +928,7 @@ ms.locfileid: "52723564"
 - **reactRemoved_HB** - 當使用者透過反應摘要頁面體驗，移除反應時。
 - **readReceipts** - 使用者已啟用功能。
 - **redeemInvite** - 在應用程式中的兌換。
+- **redeemLinkInAppStart** - 使用者從 Teams 應用程式內啟動兌換邀請連結。
 - **refreshCalendarList** - 下拉以重新整理 [日程] 檢視。
 - **refreshLinksGallery** - 當使用者向下滑動，以重新整理連結資源庫。
 - **removeAssignee** - 確認受託人已從 [指派選擇器] 檢視中移除 (與透過選取 [指派選擇器] 檢視外的 **x** 所觸發的 *assignmentRemoved* 相反)。
@@ -958,6 +969,8 @@ ms.locfileid: "52723564"
 - **saveEditMeeting** - 在更新會議之後，在 [會議排程器] 頁面上選取 **[儲存]** 按鈕。
 - **saveNewMeeting** - 在 [會議排程器] 頁面上選取 **[儲存]** 按鈕。 若要記錄已成功儲存的會議，以及由於用戶端或服務錯誤而無法建立之會議的百分比。
 - **savePlanClicked** - 會在預設開啟應用程式中的新方案建立器裡選取 **[建立]** 時觸發。
+- **dashboardNav** - 使用者瀏覽至儀表板上的磚。
+- **scenarioDashboardNav** - 使用者瀏覽至交談內的儀表板索引標籤（聊天的同層級）。
 - **scheduledMeetingJoin** - 已從 [排定的會議] 物件中選取 **[會議加入]** 按鈕。
 - **scrollCalendarList** - 在行事曆中測量卷軸。
 - **scrollDatePicker** - 瀏覽行事曆日期選擇器控制項。
@@ -1013,6 +1026,8 @@ ms.locfileid: "52723564"
 - **settingsNavReadReceiptNotice** - 使用者從 [功能注意事項] 移至 [設定]。
 - **settingsOpened** - 當使用者的裝置時區不符合團隊時區，且使用者移至 [設定] 時，就會觸發。
 - **setupPinVault** - 使用者為帳戶儲存保管庫 PIN 碼。 
+- **shareCharmCompleted** - 使用者已透過應用程式共用圖標完成共用邀請連結。
+- **shareCharmCompleted** - 使用者已透過應用程式共用圖標啟動完成共用邀請連結。 
 - **shareFile** - 當選取 **[共用檔案]** 時觸發。 也可協助您檢查：
   - 使用者能夠啟動共用檔案作業。
   - 使用者可以順利地共用檔案。
@@ -1127,6 +1142,8 @@ ms.locfileid: "52723564"
   - 傳輸目標設定為 [人員]。
   - 傳輸目標設定為 [電話號碼]。
 - **translateFailed** - 翻譯失敗 (離線時除外)。 訊息翻譯功能的功能成功度量值。
+- **trigger_created** - 使用者已建立地理柵欄。
+- **trigger_deleted** - 使用者已刪除地理柵欄。
 - **unansweredCallForward** - 已設定未回復的通話轉接目標。 同時啟用未回復的通話轉接 ([找我的來電] 已啟用，且若已啟用未回復)。
 - **unblockCaller** -解除封鎖：
   - 操作列表的連絡人或號碼。
@@ -1225,6 +1242,7 @@ ms.locfileid: "52723564"
 - **fileUploadSuccess** - 檔案上傳作業成功時觸發。
 - **fileUploadSummaryNotification** - 當檔案上傳摘要通知的內容變更或與通知互動時觸發。 互動可能包括手勢，例如滑動以關閉通知或點選通知等。
 - **meetingFiles** - 開啟會議檔案畫面時觸發。
+- **meetNowActionSheet** - 當使用者建立會議時觸發。
 - **navPersonalFiles** - 執行瀏覽至檔案畫面時觸發。
 
 ### <a name="scenario"></a>案例
@@ -1308,7 +1326,7 @@ ms.locfileid: "52723564"
 
 ### <a name="properties-sent-with-all-events"></a>隨著所有事件傳送的屬性
 
-| 屬性名稱                    | 說明                                                          |
+| 屬性名稱                    | 描述                                                          |
 |----------------------------------|----------------------------------------------------------------------|
 | EventInfo_Time                   | 事件產生時間                                                |
 | EventInfo_Name                   | 事件名稱 - 用來區分事件類型               |
@@ -1348,7 +1366,7 @@ ms.locfileid: "52723564"
 
 ### <a name="properties-sent-with-panelaction-events"></a>隨著面板動作事件傳送的屬性
 
-| 屬性名稱         | 說明                                                        |
+| 屬性名稱         | 描述                                                        |
 |-----------------------|--------------------------------------------------------------------|
 | Action_DestinationUri | 透過使用者動作存取之資源的 URI                  |
 | Panel_Uri             | 傳送給使用者的面板的 URI                             |
@@ -1390,7 +1408,7 @@ ms.locfileid: "52723564"
 
 ### <a name="properties-sent-with-scenario-events"></a>隨著案例事件傳送的屬性
 
-| 屬性名稱        | 說明 |
+| 屬性名稱        | 描述 |
 |----------------------|-------------|
 | Scenario_Status      | 案例狀態 - 放棄/確定/錯誤 |
 | Scenario_Step        | 當案例包含多個具有不同失敗點的步驟時，此屬性會擷取該步驟的詳細資料 |
