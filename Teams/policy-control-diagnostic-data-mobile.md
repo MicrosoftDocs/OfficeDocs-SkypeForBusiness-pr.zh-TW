@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9306646cf76485ba06828f7dad2113912ec28b55
-ms.sourcegitcommit: 2c9ce2e3e4c3f1e3bfe317daa4fed5033d65876b
+ms.openlocfilehash: 7d040a6e592ead9f29dcc7f23efe069b041ccf07
+ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52873840"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "52901940"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 適用的行動裝置必要診斷資料
 
@@ -540,12 +540,12 @@ ms.locfileid: "52873840"
 - **errorShown** - 顯示錯誤。
 - **展開/摺疊** - 裝置連絡人或公司連絡人區段。
 - **expandCollapseSection** - 點選區段標題來展開或摺疊區段。
-- **預期：atMention-Android： chatSendMessage-iOS： sendMsg** -@提及 撰寫方塊中的機器人。
+- **預期： atMention-Android： chatSendMessage-iOS： sendMsg** -@提及 撰寫方塊中的機器人。
 - **Expected: botClickCardAction - Android: showCard - iOS: 遺失** - 點選卡片按鈕。卡片是重要的平臺構造，且需度量其使用方式和模式才能瞭解平臺使用狀況，並持續瞭解用戶端的潛在問題。
-- **預期：chatSendMessage-iOS： composeSendMessage** - 點選 **[回復]** ，並在頻道中回復聊天機器人。
-- **預期：composeSendMessage - Android： replyChannel -iOS：遺失** - 點選 **[回復]** ，並在頻道中回復聊天機器人。
-- **預期：messageLike-Android： reactLike_CM** ，例如機器人訊息。
-- **預期：messageUnread-Android： markAsLastUnread** - 訊息的快顯功能表選項。
+- **預期： chatSendMessage-iOS： composeSendMessage** - 點選 **[回復]** ，並在頻道中回復聊天機器人。
+- **預期： composeSendMessage - Android： replyChannel -iOS：遺失** - 點選 **[回復]** ，並在頻道中回復聊天機器人。
+- **預期： messageLike-Android： reactLike_CM** ，例如機器人訊息。
+- **預期： messageUnread-Android： markAsLastUnread** - 訊息的快顯功能表選項。
 - **federatedUpgradeNewChat** - 舊的聊天會升級至原生。
 - **檔案** - 追蹤是否已在 [聊天和頻道檔案] 索引標籤中成功完成檔案。
 - **fileSelected** - 已選取 PowerPoint 簡報。
@@ -979,17 +979,10 @@ ms.locfileid: "52873840"
   - 搜尋成功或使用者是否放棄搜尋。
   - 搜尋查詢成功。
 - **searchContacts** - 從 [通話清單] 中搜尋。
-- **searchIcon** - 判斷：
-  - 是否可觸發搜尋。
-  - 搜尋觸發項目的來源。
-  - 是否成功找到相關結果。
 - **searchInitiated** - 判斷是否可觸發搜尋，以及搜尋觸發項目的來源。
 - **searchMeetingParticipants** -搜尋參與者以在排程表單中新增。 以區分建立的約會數量與建立的會議數量。
 - **searchResultsClicked** - 判斷：
   - 是否能成功找到相關結果。
-  - 是否搜尋結果來自 [全部] 索引標籤，或來自個別網域。
-- **searchTab** - 判斷：
-  - 搜尋結果的網域資訊 - 適用于人員、聊天、訊息和檔案。
   - 是否搜尋結果來自 [全部] 索引標籤，或來自個別網域。
 - **searchTabClicked** - 判斷：
   - 搜尋結果的網域資訊 - 適用于人員、聊天、訊息和檔案。
@@ -1322,13 +1315,13 @@ ms.locfileid: "52873840"
 - **server_fetch_date_picker_view_incremental** 確認使用 Outlook REST API 進行行事曆活動的增量同步處理成功或失敗。
 - **meeting_details** 確認會議詳細資料同步處理成功或失敗。
 - **show_meeting_participants** 確認顯示會議參與者清單成功或失敗。
-
+- **search** 確認整個搜尋工作階段成功或失敗。
 
 ## <a name="property-lists"></a>屬性清單
 
 ### <a name="properties-sent-with-all-events"></a>隨著所有事件傳送的屬性
 
-| 屬性名稱                    | 描述                                                          |
+| 屬性名稱                    | 說明                                                          |
 |----------------------------------|----------------------------------------------------------------------|
 | EventInfo_Time                   | 事件產生時間                                                |
 | EventInfo_Name                   | 事件名稱 - 用來區分事件類型               |
@@ -1368,7 +1361,7 @@ ms.locfileid: "52873840"
 
 ### <a name="properties-sent-with-panelaction-events"></a>隨著面板動作事件傳送的屬性
 
-| 屬性名稱         | 描述                                                        |
+| 屬性名稱         | 說明                                                        |
 |-----------------------|--------------------------------------------------------------------|
 | Action_DestinationUri | 透過使用者動作存取之資源的 URI                  |
 | Panel_Uri             | 傳送給使用者的面板的 URI                             |
@@ -1410,7 +1403,7 @@ ms.locfileid: "52873840"
 
 ### <a name="properties-sent-with-scenario-events"></a>隨著案例事件傳送的屬性
 
-| 屬性名稱        | 描述 |
+| 屬性名稱        | 說明 |
 |----------------------|-------------|
 | Scenario_Status      | 案例狀態 - 放棄/確定/錯誤 |
 | Scenario_Step        | 當案例包含多個具有不同失敗點的步驟時，此屬性會擷取該步驟的詳細資料 |
