@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ecf4d9abbd3f5c8747744010015ecda35cbeecf
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: ed6ad995cd0a1624171396b68bec3355fc05f559
+ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717614"
+ms.lasthandoff: 06/12/2021
+ms.locfileid: "52909945"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬體需求
 
@@ -35,7 +35,7 @@ ms.locfileid: "52717614"
 
 | 元件 | 需求 |
 |---------|---------|
-|電腦與處理器    | 最小 1.6 GHz (或更高)、雙核心<br><br>注意：對於 Intel 處理器，必須考慮使用 Intel Frequency Boost Technology (最大渦輪頻率) 所達成的最大速度         |
+|電腦與處理器    | 最小 1.1 GHz 或更快、雙核心<br><br>注意：對於 Intel 處理器，必須考慮使用 Intel Frequency Boost Technology (最大渦輪頻率) 所達成的最大速度         |
 |記憶體     |    4.0 GB RAM (Teams 需要專用的 4 GB RAM，高於任何其他系統要求)    |
 |硬碟    | 3.0 GB 的可用磁碟空間        |
 |顯示器    |   1024 x 768 螢幕解析度 |
