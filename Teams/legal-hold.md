@@ -12,28 +12,29 @@ ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解如何使用安全性Microsoft Teams合規性中心將使用者或小組擱置&，並瞭解根據資料需求需要法律保留哪些專案。
+description: 瞭解如何使用安全性Microsoft Teams合規性中心將使用者或小組&保留狀態，並瞭解根據資料需求需要法律保留哪些專案。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f2f269d75a7bf8bd97165329d2ae6b006b940f4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3e52b10f0a7a8dd3ac67f7a2c15b9d1e082186ab
+ms.sourcegitcommit: dba7984f899f8921b462a56d158fa0a1cc2c2a8b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112299"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "52929289"
 ---
 <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>將Microsoft Teams或小組保留為法律保留狀態
 ==================================================
 
-當訴訟有合理的預期時，組織必須保留電子 (ESI) ，包括Teams與案件相關的聊天訊息。 組織可能需要保留與特定主題或特定人員相關的所有郵件。 本文將涵蓋 Microsoft Teams (中的法律保留：若要在 M365 空間中解決保留的實現，請參閱管理電子檔探索[案例：](/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold)將內容位置保留 。) 。
+當訴訟有合理的預期時，組織必須保留電子 (ESI) ，包括Teams與案件相關的聊天訊息。 組織可能需要保留與特定主題或特定人員相關的所有郵件。 本文將涵蓋 Microsoft Teams (中的法律保留：若要解決 M365 空間中保留的實現，請參閱管理[電子檔探索案例：](/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold)將內容位置保留 。) 。
 
 > [!NOTE]
 > 在 2020 年 2 月，我們啟用私人頻道的法律保留或案例保留 (私人頻道聊天會儲存在使用者信箱中，一般頻道聊天會儲存在小組的群組信箱) 。 如果使用者信箱已有法律保留，保留原則現在會自動適用于儲存在該信箱中的私人通道郵件。 系統管理員無需執行其他動作來開啟此功能。 也支援合法保留在私人頻道中共用的檔案。
 
-在Microsoft Teams，整個團隊或選取的使用者都可以保留或合法保留。 這麼做會確保組織合規性管理員或系統管理員 (在這些團隊中交換的所有郵件) 包括私人頻道) Teams或由這些人員交換的郵件。
+在Microsoft Teams，整個團隊或選取的使用者都可以保留或合法保留。 這麼做會確保組織合規性管理員或系統管理員 (在這些團隊中交換的所有郵件) 包括私人頻道) 或由這些人員交換的郵件，都Teams找到。
 
 > [!NOTE]
 > 將使用者置於保留狀態不會自動將群組置於保留狀態，反之亦然。
+> 在活動提要中所送出的通知無法置於法律保留狀態。
 
 若要將使用者或小組置於法律保留狀態：
 
@@ -70,7 +71,7 @@ ms.locfileid: "51112299"
 
 ## <a name="content-locations-to-place-on-legal-hold-to-preserve-teams-content"></a>保留保留內容的位置，以保留Teams內容
 
-做為實用指南，您可以使用下表瞭解哪些內容位置 (例如信箱或網站) 會保留法律保留，以保留不同類型的Teams內容。
+做為實用指南，您可以使用下表瞭解哪些內容位置 (例如信箱或網站) 可置於法律保留狀態，以保留不同類型的Teams內容。
 
 |案例  |內容位置  |
 |---------|---------|
@@ -85,4 +86,4 @@ ms.locfileid: "51112299"
 > [!NOTE]
 > 若要在私人頻道中保留通訊，您必須保留使用者信箱 (私人通道使用者) ，而使用 eDiscovery 工具進行搜尋時，您應該在該使用者的信箱中搜尋。 如先前所述，私人頻道聊天會儲存在使用者信箱中，而不是儲存在小組的群組信箱中。
 
-如果您想要進一步閱讀本主題中的非Teams區域，Microsoft 365管理[電子檔探索案例：](/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold)保留內容位置。
+如果您想要進一步閱讀本主題中的非Teams區域，Microsoft 365請參閱管理電子檔探索[案例：](/microsoft-365/compliance/ediscovery-cases#step-4-place-content-locations-on-hold)保留內容位置。
