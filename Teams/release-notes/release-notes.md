@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 適用于系統管理員功能的Microsoft Teams資訊。
-ms.openlocfilehash: 6d634d89c5b810b0df149385e020ab0944def475
-ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.openlocfilehash: 94213748d55e91022f19e29a48dab7f4fe6e5199
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705257"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947605"
 ---
 # <a name="release-notes-for-microsoft-teams-admin-features"></a>適用于系統管理員功能的Microsoft Teams資訊
 
@@ -31,19 +31,19 @@ ms.locfileid: "52705257"
 
 ### <a name="career-coach"></a>職業教練
 
-職稱教練是Microsoft Teams教育用應用程式，由 LinkedIn提供個人化指引，讓高教學生流覽其事業歷程。 Career Coach 為教育機構提供統一的生涯解決方案，讓學生探索其事業路徑、培養實際技能，以及將網路全部建在一個地方。 [深入了解](../career-coach.md)。
+職涯教練是一Microsoft Teams 教育版由 LinkedIn提供個人化指引的 App，為高教學生流覽其事業歷程提供個人化指引。 職涯教練為教育機構提供統一的生涯解決方案，讓學生探索自己的事業路徑、培養實際技能，以及將他們的網路全部建在一個地方。 [深入了解](../career-coach.md)。
 
 ## <a name="march-31-2021"></a>2021 年 3 月 31 日
 
 ### <a name="share-to-teams-from-outlook"></a>從 Teams 共用Outlook
 
-從 Teams共用Outlook可讓您將電子郵件訊息或交談的一份副本 ，包括附件，傳送至Teams和頻道。 在電子郵件 **的 Teams** 功能區或Outlook功能表中尋找共用至電子郵件的選項。 共用至Teams支援Outlook網頁、Outlook Windows，以及Mac 版 Outlook Preview。 [深入了解](../teams-outlook-share-teams.md)。
+從 Teams共用Outlook可讓您將電子郵件訊息或交談的一份副本 ，包括附件，傳送至Teams和頻道。 在電子郵件 **的 Teams** 功能區或Outlook功能表中尋找共用至電子郵件的選項。 共用至Teams支援Outlook 網頁版Outlook Windows，以及新的Mac 版 Outlook Preview。 [深入了解](../teams-outlook-share-teams.md)。
 
 ## <a name="march-30-2021"></a>2021 年 3 月 30 日
 
 ### <a name="customize-apps-in-teams-preview"></a>在預覽Teams (自訂) 
 
-Microsoft Teams應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂Teams應用程式。管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新Teams應用程式屬性。 [深入了解](../customize-apps.md)。
+Microsoft Teams應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂Teams應用程式。系統管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新Teams應用程式屬性。 [深入了解](../customize-apps.md)。
 
 ## <a name="march-29-2021"></a>2021 年 3 月 29 日
 
@@ -146,7 +146,7 @@ Microsoft Teams使用者使用者存取應用程式之前，Teams啟用 Google W
 
 ## <a name="december-9-2020"></a>2020 年 12 月 9 日
 
-### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>學習路徑Teams顧問Microsoft 365學習路徑
+### <a name="advisor-for-teams-with-microsoft-365-learning-pathways"></a>使用 Teams 路徑Microsoft 365 Learning顧問
 
 Microsoft 365 學習路徑 是隨選學習解決方案，您可以自訂以訓練您的使用者，並提高您組織中對於 Teams 的使用及採用。 將學習路徑與 Advisor for Teams 搭配使用，以讓您的使用者快速設定並執行和推動採用。
 
@@ -170,7 +170,7 @@ Microsoft Teams提供許多適用于醫院和其他醫療保健組織的功能�
 
 ### <a name="teams-displays"></a>Teams顯示
 
-Microsoft Teams是一種一體式專用Teams裝置，具有環境觸控螢幕和 Cortana 提供免手體驗。 [深入了解](../devices/teams-displays.md)。
+Microsoft Teams顯示器是一種一體式專用Teams裝置，具有環境觸控螢幕和由螢幕Cortana。 [深入了解](../devices/teams-displays.md)。
 
 ## <a name="october-22-2020"></a>2020 年 10 月 22 日
 
@@ -180,7 +180,7 @@ Microsoft Teams是一種一體式專用Teams裝置，具有環境觸控螢幕和
 
 ### <a name="manage-skype-for-business-settings-for-your-organization"></a>管理商務用 Skype的設定
 
-您可以在系統管理商務用 Skype管理商務用 Skype管理中心管理貴Microsoft Teams使用者的功能。 請前往 **組織範圍的設定**  >  **商務用 Skype。** 您可以從這裡管理Skype廣播、目前狀態和行動通知。 [深入了解](../skype-for-business-settings.md)。
+您可以在系統管理商務用 Skype管理商務用 Skype管理中心管理貴Microsoft Teams使用者的功能。 請前往 **組織範圍的設定**  >  **商務用 Skype。** 您可以從這裡管理Skype 會議、目前狀態和行動通知。 [深入了解](../skype-for-business-settings.md)。
 
 ## <a name="october-16-2020"></a>2020 年 10 月 16 日
 
@@ -194,7 +194,7 @@ Microsoft Teams是一種一體式專用Teams裝置，具有環境觸控螢幕和
 
 *這項功能在私人預覽中*
 
-自訂策略套件讓您針對組織中具有類似角色的使用者，將您自己的一群組原則組合在一起。 新增您所需的策略類型與策略，以建立您自己的策略套件。 [深入了解](../manage-policy-packages.md#custom-policy-packages)。
+自訂策略套件讓您針對組織中具有類似角色的使用者，將您自己的一群組原則組合在一起。 新增所需的策略類型與策略，以建立您自己的策略套件。 [深入了解](../manage-policy-packages.md#custom-policy-packages)。
 
 ### <a name="add-an-app-to-a-team-in-the-microsoft-teams-admin-center"></a>在系統管理中心新增應用程式Microsoft Teams小組
 
@@ -258,7 +258,7 @@ Microsoft Teams新的會議錄製方式。 這是從傳統 Microsoft Stream 轉�
 
 ### <a name="skype-for-business-online-connector-integrated-to-teams-powershell-module"></a>商務用 Skype整合至 PowerShell 模組Teams線上連接器
 
-最新版 powerShell Teams版本已與 商務用 Skype Online Connector 整合，提供單一模組Teams PowerShell 管理。 [深入了解](../teams-powershell-overview.md#manage-teams-with-powershell)。
+最新版 powerShell Teams版本已與 商務用 Skype Online Connector 整合，提供單一模組Teams PowerShell 管理。  [深入了解](../teams-powershell-overview.md)。
 
 ## <a name="september-8-2020"></a>2020 年 9 月 8 日
 
@@ -298,11 +298,11 @@ Microsoft Teams新的會議錄製方式。 這是從傳統 Microsoft Stream 轉�
 
 ## <a name="august-14-2020"></a>2020 年 8 月 14 日
 
-### <a name="cortana-voice-skills-in-teams"></a>Cortana 語音技能在 Teams
+### <a name="cortana-voice-skills-in-teams"></a>Cortana語音技巧Teams
 
-行動應用程式中的 Cortana 語音Teams使用者只要使用口語自然語言，就可協助使用者執行會議、通訊和共同作業。 使用者可以按一下 Teams App 中的麥克風按鈕來與 Cortana 通話，並且提出要求，例如「打電話給 Megan」或「傳送訊息到下一場會議」，如果他們需要與某人聯繫，同時處理家庭雜務或遛狗或一般在外走動。 使用者只要說「加入我的下一個會議」，或詢問「我早上有什麼」，就可以加入會議。 在會議或通話中，他們可以從會議階段中的溢出功能表叫用 Cortana，並執行典型的會議內工作，例如按名稱或號碼新增人員 ("將 Megan 新增到通話中") 、幻燈片組簡報 ("簡報每季評論組") 或流覽幻燈片 ("前往附件幻燈片") 。 此功能支援的其他專案包括尋找及共用檔案、搜尋及流覽 Teams App (「開啟與 John 的聊天、前往未讀取的活動、前往我的提及等等) 。
+Cortana行動應用程式中Teams語音技巧，可協助使用者直接使用自然口語執行會議、通訊和共同作業。 使用者只要在 Teams 應用程式中按一下麥克風按鈕，就可以與 Cortana 通話，如果需要與某人聯繫，同時處理家庭雜事、遛狗或一般在外，也可以提出「打電話給 Megan」或「傳送訊息到下一場會議」等要求。 使用者只要說「加入我的下一個會議」，或詢問「我早上有什麼」，就可以加入會議。 一旦進入會議或通話，他們就可以從會議階段中的溢位功能表上呼叫 Cortana，並執行一般會議工作，例如按名稱或號碼新增人員 ("將 Megan 新增到通話中") 、幻燈片組簡報 ("簡報每季評論組") 或流覽幻燈片 ("前往附加幻燈片") 。 此功能支援的其他功能包括尋找及共用檔案、搜尋及流覽 Teams App (「開啟與 John 的聊天、前往未讀取的活動、前往我的提及等等) 。
 
-Teams中的 Cortana 符合與 Cortana 企業服務相同的企業級隱私權、安全性和合規性承諾，如線上服務條款與 OST (所[) 。](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) [深入了解](../cortana-in-teams.md)。
+Cortana中Teams符合與 Cortana 企業服務相同的企業級隱私權、安全性和合規性承諾，如線上服務條款 (OST) [中所反映。](https://www.microsoft.com/licensing/product-licensing/products?rtc=1) [深入了解](../cortana-in-teams.md)。
 
 ### <a name="teams-devices-administrator"></a>Teams裝置系統管理員
 
@@ -326,7 +326,7 @@ Teams使用者現在可以使用清單應用程式選項卡直接管理、建立
 
 Teams應用程式可免費安裝，有些應用程式可能需要購買服務訂閱，以體驗 App 的完整功能和範圍。 這些服務訂閱稱為軟體即服務 (SaaS) 方案，可透過 AppSource 購買，現在Microsoft Teams系統管理中心。 [深入了解](../purchase-third-party-apps.md)。
 
-### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>發佈透過應用程式提交 API Teams提交的自訂應用程式
+### <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>發佈透過應用程式提交 API Teams的自訂應用程式
 
 開發人員可以使用應用程式提交TEAMS API，將自訂應用程式直接提交至 Microsoft Teams系統管理中心，讓系統管理員進行審閱和核准。 [深入了解](../submit-approve-custom-apps.md)。
 
@@ -400,11 +400,11 @@ Teams應用程式可免費安裝，有些應用程式可能需要購買服務訂
 
 ### <a name="screen-sharing-on-behalf-of-others"></a>代表其他人進行螢幕畫面共用
 
-許多 IT 系統管理員抱怨當他們停用 AllowPrivateCalling 政策時，無法讓員工從聊天分享螢幕畫面。 這項功能已使從 AllowPrivateCalling 政策啟動畫面功能的功能脫鉤，但如果其 AllowPrivateCalling 政策停用，它仍然會禁止使用者將音訊/視像新增到螢幕共用會話。
+許多 IT 系統管理員抱怨當他們停用 AllowPrivateCalling 政策時，無法讓員工從聊天分享螢幕畫面。 這項功能已使從 AllowPrivateCalling 政策啟動畫面功能的功能脫鉤，但如果使用者的 AllowPrivateCalling 政策停用，仍然無法將音訊/視像新加入螢幕共用會話。
 
 ## <a name="june-29-2020"></a>2020 年 6 月 29 日
 
-### <a name="walkie-talkie-app-in-microsoft-teams"></a>在應用程式中的 Walkie Talkie Microsoft Teams
+### <a name="walkie-talkie-app-in-microsoft-teams"></a>在應用程式中的對講Microsoft Teams
 
 使用隨推即用立即語音通訊。 [深入了解](../walkie-talkie.md)。
 
@@ -474,7 +474,7 @@ Teams應用程式可免費安裝，有些應用程式可能需要購買服務訂
 
 ### <a name="team-and-channel-analytics"></a>小組和頻道分析
 
-除了團隊分析之外，現在您也可以查看頻道層級度量和深入解析。 我們也將期間增強為 90 天，因此您可以分析較長的期間資料。 除此之外，此版本還包含有關小組或頻道的文章、回復和會議數量的新度量和圖表。 [深入了解](../teams-analytics-and-reports/view-analytics.md)。
+除了團隊分析之外，現在您也可以查看頻道層級度量和深入解析。 我們也將期間增強為 90 天，因此您可以分析較長的期間資料。 除此之外，此版本還包含關於小組或頻道的文章、回復和會議數量的新度量和圖表。 [深入了解](../teams-analytics-and-reports/view-analytics.md)。
 
 ## <a name="april-20-2020"></a>2020 年 4 月 20 日
 
@@ -502,7 +502,7 @@ Microsoft Teams的用戶端可讓前線員工使用 Real求強固式頭戴式穿
 
 ## <a name="march-30-2020"></a>2020 年 3 月 30 日
 
-### <a name="policy-based-recording-for-teams-calls-and-meetings"></a>通話和會議Teams型錄製
+### <a name="policy-based-recording-for-teams-calls-and-meetings"></a>以策略為基礎的錄製Teams通話和會議
 
 此功能可讓透過 Microsoft 認證的軟體廠商自動錄製Teams通話和會議。
 

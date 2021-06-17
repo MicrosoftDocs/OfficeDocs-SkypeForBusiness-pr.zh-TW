@@ -1,5 +1,5 @@
 ---
-title: 設定運算子連線
+title: 設定運算子連接
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -15,29 +15,29 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: 深入瞭解如何設定運算子連線。
+description: 深入瞭解如何設定運算子連接。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb6ceacb6e7a2cc4d458c86edda96511e5230ace
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: c4f4ec3d1d7cf39402da562e5939d794ac9f1624
+ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717854"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "52947575"
 ---
-# <a name="configure-operator-connect"></a>設定運算子連線
+# <a name="configure-operator-connect"></a>設定運算子連接
 
 >[!NOTE]
->運算子連線目前僅適用于公用 **預覽**。 公開預覽可讓您測試即將推出的功能，並提供意見回饋。 公用預覽中包含的功能可能不完整、可能會變更，且雲端版Office 365 政府版支援。
+>運算子連接目前僅適用于公用 **預覽** 版。 公開預覽可讓您測試即將推出的功能，並提供意見回饋。 公開預覽中包含的功能可能不完整、可能會變更，且 Office 365 政府雲端不支援。
 
-本文將說明如何設定運算子連線。 在安裝運算子連線，請務必閱讀運算子方案[連線，以](operator-connect-plan.md)瞭解先決條件和授權的資訊。
+本文將說明如何設定運算子連接。 在配置運算子連接之前，請務必閱讀運算子 [連接](operator-connect-plan.md) 方案，以瞭解先決條件和授權的資訊。
 
 ## <a name="enable-an-operator"></a>啟用運算子
 
-您可以在系統管理中心啟用、編輯及移除Teams運算子。 在左側流覽窗格中，前往語音> **運算子**。
+您可以在 Teams 系統管理中心啟用、編輯及移除運算子。 在左側流覽窗格中，前往語音> **運算子**。
 
 若要啟用運算子：
 
@@ -45,52 +45,52 @@ ms.locfileid: "52717854"
 
 2. **選取國家/地區。** 在 **運算子設定** 下，選取您想要使用所選運算子啟用的國家/地區。
 
-3. **提供連絡人資訊 (選) 。** 如果您想要讓運算子與您聯繫，並提供有關運算子連線，請勾選該方塊，並提供您的連絡人資訊。  
+3. **提供連絡人資訊 (選) 。** 如果您想要讓接線員連上運算子 Connect 的其他資訊，請勾選該方塊，並提供您的連絡人資訊。  
 
 4. **接受資料傳輸通知。**
 
-5. **新增運算子。** 選取 **新增為運算子** 以儲存。
+5. **新增運算子。** 選取 **新增為我的運算子** 以儲存。
 
 ## <a name="set-up-phone-numbers"></a>設定電話號碼
 
 您設定電話號碼的方式取決於您要設定新使用者的電話號碼，或移動 Microsoft 通話方案或直接路由的現有號碼。
 
-- 如果您需要取得新使用者的電話號碼，請參閱取得新[使用者Teams號碼](#acquire-numbers-for-new-teams-users)。
+- 如果您需要取得新使用者的電話號碼，請參閱取得新 Teams [使用者的電話號碼](#acquire-numbers-for-new-teams-users)。
 
-- 如果您想要將現有的號碼從通話方案移至運算子連線，請參閱將號碼從通話方案移至[運算子連線。](#move-numbers-from-calling-plans-to-operator-connect)
+- 如果您想要將現有的號碼從通話方案移至運算子連接，請參閱將號碼從通話方案移至 [運算子連接](#move-numbers-from-calling-plans-to-operator-connect)。
 
-- 如果您想要將現有號碼從直接路由移至運算子連線，請參閱將數位從直接路由移至[運算子連線。](#move-numbers-from-direct-routing-to-operator-connect)
+- 如果您想要將現有號碼從直接路由移至運算子連接，請參閱將號碼從直接路由 [移至運算子連接](#move-numbers-from-direct-routing-to-operator-connect)。
 
 >[!IMPORTANT]
->**緊急位址：** 與從運算子取得的號碼相關聯的緊急位址會直接與運算子管理。 請聯絡接線員進行變更。
+>**緊急位址：** 與緊急位址相關聯的電話號碼是由您的接線員管理。 在 Teams 系統管理中心建立緊急位址後，您的接線員會指派電話號碼給這些緊急位址。 若要變更緊急位址及其指派的電話號碼，請與您的接線員聯繫。
 
-### <a name="acquire-numbers-for-new-teams-users"></a>取得新使用者Teams號碼
+### <a name="acquire-numbers-for-new-teams-users"></a>取得新 Teams 使用者的數位
 
-若要取得新使用者Teams號碼，請遵循下列步驟：
+若要取得新 Teams 使用者的數位，請遵循下列步驟：
 
-1. **指派授權電話系統授權。** 您可以指派授權電話系統系統管理中心或 PowerShell Microsoft 365使用者。 詳細資訊，請參閱指派[Teams附加元件授權給使用者](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+1. **指派電話系統授權。** 您可以從 Microsoft 365 系統管理中心或 PowerShell 指派電話系統授權給使用者。 詳細資訊，請參閱指派 [Teams 附加元件授權給使用者](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
-2. **請確定您目前使用 TeamsOnly 模式。** 若要檢查，請在 Teams系統管理中心，前往整個組織設定 **以> Teams升級**。 共存模式應設為只Teams模式。
+2. **請確定您目前使用 Teams 模式。** 若要檢查貴組織是否位於 Teams 模式，請在 Teams 系統管理中心，前往 Teams 升級> **全組織設定**。 若要檢查使用者是否位於 Teams 模式，請前往使用者 **並選取** 使用者帳戶。 在帳戶 **選項卡** 的 **Teams 升級下** ，確認您的共存模式已設定為'僅 Teams'。
 
-3. **建立及驗證緊急位址。** 在 Teams系統管理中心，前往緊急>**位置以** 設定緊急位址。 若要深入瞭解，請參閱 [新增、變更或移除貴組織的緊急位置](add-change-remove-emergency-location-organization.md)。
+3. **建立及驗證緊急位址。** 在 Teams 系統管理中心，前往緊急> **位置設定** 緊急位址。 若要深入瞭解，請參閱 [新增、變更或移除貴組織的緊急位置](add-change-remove-emergency-location-organization.md)。
 
-4. **取得數位。** 請前往您的接線員網站訂購及取得電話號碼。 有關運算子網站的清單 [，請參閱運算子](#operators)。 您必須提供租使用者識別碼。 如果您不知道您的租使用者識別碼，請參閱尋找Microsoft 365[租使用者識別碼](/onedrive/find-your-office-365-tenant-id)以瞭解更多資訊。
+4. **取得數位。** 請前往您的接線員網站訂購及取得電話號碼。 有關運算子網站的清單 [，請參閱運算子](#operators)。 您必須提供租使用者識別碼。 如果您不知道您的租使用者識別碼，請參閱尋找您的 [Microsoft 365 租使用者識別碼](/onedrive/find-your-office-365-tenant-id) 以瞭解更多資訊。
 
-5. **指派數位。** 您的運算子完成訂單後，就會將號碼上傳至您的租使用者。 您可以在系統管理中心查看號碼Teams提供者，> 電話 **號碼**。 使用系統管理中心或 powerShell Teams指派號碼給使用者。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
+5. **指派數位。** 您的接線員完成訂單後，就會將號碼上傳至您的租使用者。 您可以流覽 Teams 系統管理中心中的號碼和提供者，> **電話號碼**。 使用 Teams 系統管理中心或 PowerShell 指派號碼給使用者。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
  
 
-### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>將號碼從通話方案移至運算子連線
+### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>將號碼從通話方案移至運算子連接
 
-1. 請與您的接線員聯繫，將號碼連線。 請參閱 [運算子](#operators) 以尋找您的運算子網站。
+1. 請連連您的接線員，將您的號碼移植到運算子 Connect。 請參閱 [運算子](#operators) 以尋找您的運算子網站。
 
 2. 您的接線員完成移移訂單之後，您可以取消為使用者的通話方案電話號碼進行分配，並移除通話方案授權。 然後，您的運算子可以將數位上傳到您的租使用者。
 
-3. 使用 連線系統管理中心或 PowerShell 將運算子指派給使用者Teams運算子。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
+3. 使用 Teams 系統管理中心或 PowerShell 將號碼指派給使用者。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
 
  
-### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>將數位從直接路由移至運算子連線
+### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>將號碼從直接路由移至運算子連接
 
-1. 移除使用者現有的電話號碼，如下所示：  
+1. 從使用者移除現有電話號碼，如下所示：  
 
    執行下列 PowerShell 命令以取得現有的 On-prem Line URI：
 
@@ -106,17 +106,17 @@ ms.locfileid: "52717854"
 
 2. 移除任何與使用者相關聯的 PSTNUsage，否則通話會路由至 PSTN 使用量中指定的閘道。 若要瞭解如何移除 PSTN 使用量，請參閱 [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps)。
 
-3. 請前往您的接線員網站訂購及取得電話號碼。 有關運算子網站的清單 [，請參閱運算子](#operators)。 您必須提供租使用者識別碼。 如果您不知道您的租使用者識別碼，請參閱尋找Microsoft 365[租使用者識別碼](/onedrive/find-your-office-365-tenant-id)以瞭解更多資訊。
+3. 請前往您的接線員網站訂購及取得電話號碼。 有關運算子網站的清單 [，請參閱運算子](#operators)。 您必須提供租使用者識別碼。 如果您不知道您的租使用者識別碼，請參閱尋找您的 [Microsoft 365 租使用者識別碼](/onedrive/find-your-office-365-tenant-id) 以瞭解更多資訊。
 
-4. 您的運算子完成訂單後，就會將號碼上傳至您的租使用者。 您可以在系統管理中心查看號碼Teams提供者，> 電話 **號碼**。 使用 連線系統管理中心或 PowerShell 將運算子Teams號碼指派給使用者。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
+4. 您的接線員完成訂單後，就會將號碼上傳至您的租使用者。 您可以流覽 Teams 系統管理中心中的號碼和提供者，> **電話號碼**。 使用 Teams 系統管理中心或 PowerShell 將號碼指派給使用者。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
 
    
 
 ### <a name="assign-numbers"></a>指派數位
 
-無論您是新增使用者Teams或將現有使用者移動到運算子連線，指派數位的步驟如下：
+無論您是新增 Teams 使用者，或將現有使用者移動至 Operator Connect，指派號碼的步驟如下：
 
-若要使用系統管理中心Teams數位，請前往 電話 **數位**。 步驟與指派通話方案號碼的步驟相同。 詳細資訊，請參閱 [指派電話號碼給使用者](assign-change-or-remove-a-phone-number-for-a-user.md)。
+若要使用 Teams 系統管理中心指派號碼，請前往 **電話號碼**。 步驟與指派通話方案號碼的步驟相同。 詳細資訊，請參閱 [指派電話號碼給使用者](assign-change-or-remove-a-phone-number-for-a-user.md)。
 
 若要使用 PowerShell 指派數位，請使用 Set-CsOnlineVoiceUser Cmdlet，如下所示：
 
