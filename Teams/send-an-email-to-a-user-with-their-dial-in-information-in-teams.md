@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中傳送包含其音訊會議資訊Microsoft Teams。
-ms.openlocfilehash: 8cc0e549d502a2c7a8d8052ebe496a82e36b6648
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 13c566884c5bc3e8d5de873696541c4b88fcb271
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117201"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004195"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>將電子郵件傳送給使用者，並將他們的音訊會議資訊傳送Microsoft Teams
 
@@ -55,10 +55,9 @@ ms.locfileid: "51117201"
 
 3. 在 **[音訊會議」** 下，按一下 **[以電子郵件傳送會議資訊。**
 
-
 ## <a name="what-else-should-you-know-about-this-email"></a>關於此電子郵件，您還需要知道什麼？
 
-- 啟用音訊會議後，會將數封電子郵件寄給貴組織的使用者：
+- 啟用音訊會議後，會向貴組織的使用者數封電子郵件：
     
   - 當 **音訊會議授權** 指派給他們時。
     
@@ -71,17 +70,6 @@ ms.locfileid: "51117201"
   - 當使用者的音訊會議提供者從 Microsoft 變更為另一個提供者或無 **時**。
     
   - 當使用者的音訊會議提供者變更為 Microsoft 時。
-  
-## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
-
-Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
-    
-  - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
-如要進一Windows PowerShell，請參閱[powerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams以瞭解更多資訊。
-    
   
 ## <a name="related-topics"></a>相關主題
 

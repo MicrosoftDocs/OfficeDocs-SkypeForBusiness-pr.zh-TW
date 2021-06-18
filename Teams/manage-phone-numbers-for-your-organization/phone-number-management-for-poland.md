@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在波蘭取得及管理波蘭電話號碼Microsoft Teams。
-ms.openlocfilehash: d97bbfe1fe463b9df6056a11fc587e979c8076d4
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 5cd3bf4add3b2c58a50a84fc869d22633746bd5b
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129984"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993936"
 ---
 # <a name="phone-number-management-for-poland"></a>電話波蘭的號碼管理
 
@@ -37,7 +37,7 @@ ms.locfileid: "52129984"
   
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。  |在波蘭，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並傳送給我們，以提交新的電話號碼 [要求](mailto:ptneu@microsoft.com)。<br/><br/>[波蘭的新電話號碼要求 (v.1.0)  (pl-pl) 。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單，完整完成，然後傳送給我們。<br/><br/>電話數位會以 10 個區塊排序。 客戶只會針對已訂閱的通話方案授權付費。<br/><br/>新訂單可能需要四到六周的時間才能填入這個市場。 |
+|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。  |在波蘭，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並傳送給我們，以提交新的電話號碼 [要求](mailto:ptneu@microsoft.com)。<br/><br/>[波蘭的新電話號碼要求 (v.1.0)  (pl-pl) 。](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf) <br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單，完整完成，然後傳送給我們。<br/><br/>電話數位會以 10 個區塊排序。 客戶只會針對已訂閱的通話方案授權付費。<br/><br/>新訂單可能需要四到六周的時間才能填入這個市場。 |
 |將電話號碼轉接給我們。| 下載此表單。 <br/>[授權書 (波蘭) LOA (所有號碼)  (v.1.0)  (pl-pl) ](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。 <br/><br/>在這個市場中，移轉數位可能需要四到六周才能完成。 <br/><br/> 這些號碼目前無法用於會議。    |
 |發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[傳送您想要](mailto:ptneu@microsoft.com) 發佈/取消發佈的電話號碼清單給我們。 <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |[傳送您想要](mailto:ptneu@microsoft.com) 轉換成服務號碼的使用者號碼清單給我們。 <br/> |

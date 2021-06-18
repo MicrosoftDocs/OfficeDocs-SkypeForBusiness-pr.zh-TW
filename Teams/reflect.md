@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb7dc36dc08677d0f6dd1e849383b7e146c972b
-ms.sourcegitcommit: bbf44378373668899d338d56cde4c92cc31202c4
+ms.openlocfilehash: 981061e4892f679dac2a4e4f47fdcc929e6a02fb
+ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "52070649"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52997702"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>在 Microsoft Teams 中 Reflect 的 IT 系統管理員指南
 
@@ -45,7 +45,7 @@ Reflect 遵循與教育版 Insights 相同的隱私權和安全性標準，以�
 
 資料會儲存在教育版 Insights 中。 預設會開啟育版 Insights。 當您選擇退出時，我們會 **刪除針對 Reflect 收集的所有資料**。 重新開啟教育版 Insights，我們就會從重新啟用的時間開始收集資料。
 
-在 [教育版 Insights 的 IT 系統管理員指南](class-insights.md)中，您可以閱讀教育版 Insights 如何運作 (包括儲存位置)，以及當您要刪除資料或啟用服務時，[如何關閉或開啟教育版 Insights](class-insights.md#turn-insights-off-or-on)。
+在 [教育版 Insights 的 IT 系統管理員指南](class-insights.md)中，您可以閱讀教育版 Insights 如何運作 (包括儲存位置)，以及當您要刪除資料或啟用服務時，[如何關閉或開啟教育版 Insights](class-insights.md#turn-insights-on-or-off)。
 
 雖然不會收集來賓資料，但會從 Reflect 中的學生收集資料。 **如果有學生被定義為來賓，則不會收集其資料。** 
 

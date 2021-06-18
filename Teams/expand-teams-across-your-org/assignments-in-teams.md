@@ -17,29 +17,29 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.emaildigest
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
-description: 瞭解如何在教育Microsoft Teams系統管理中心Teams作業。
+description: 瞭解如何在 Microsoft Teams 系統管理中心管理Teams 教育版。
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 410f5d32dd8af4775639a080725cd5680b6a70c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: abf17b12e8555ce12642627093d856f917dce439
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121371"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004145"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的作業
 
-教育課程課程Teams作業和成績功能，讓教育者可以將工作、工作或測驗指派給學生。 教師可以管理作業時程表、指示、新增資源以上交、以成績評分等等。 他們也可以追蹤課程和個別學生的進度在 "成績" 選項卡中。
+課程的作業和成績功能Teams 教育版教師將工作、工作或測驗指派給學生。 教師可以管理作業時程表、指示、新增資源以上交、以成績評分等等。 他們也可以追蹤課程和個別學生的進度在 "成績" 選項卡中。
 
-[深入瞭解教育Teams作業和成績](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)。
+[深入瞭解作業和成績在 Teams 教育版。](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
 > [!Note]
-> 有關不同平臺上Teams作業的詳細資訊，請參閱[Teams平臺的功能。](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+> 有關不同平臺上Teams作業的詳細資訊，請參閱[Teams功能。](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
 
 ## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>系統管理中心中的作業Microsoft Teams整合
 
-您可以使用系統管理中心Microsoft Teams設定，為貴組織及其學生中的教育人員開啟或關閉功能。 以下是與作業相關的設定：
+您可以使用系統管理中心中的Microsoft Teams設定，為貴組織內的教育人員及其學生開啟或關閉功能。 以下是與作業相關的設定：
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>每週監護人電子郵件摘要
@@ -56,7 +56,7 @@ ms.locfileid: "51121371"
 
 若要確認家長會收到電子郵件，下列三個專案必須正確：
 
- - 附加至 SDS 中學生個人資料的電子郵件地址，並標記為 _家長或__監護人_。 詳細資料請參閱家長 [和監護人同步檔案格式](/schooldatasync/parent-contact-sync-file-format)。
+ - 附加至 SDS 中學生個人資料的電子郵件地址，並標記為 _家長或__監護人_。 詳細資料請參閱 [家長和監護人同步檔案格式](/schooldatasync/parent-contact-sync-file-format)。
 
  - 學生至少屬於一個班級，教師不會在作業設定中停用 [電子郵件](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77)。
 
@@ -107,3 +107,10 @@ MakeCode 是 Microsoft 產品，受 Microsoft[使用條款和](https://go.micros
 ![顯示覆制 API 金鑰的螢幕擷取畫面](./educationImages/Assignments_mopo_turnitin3.png)
 
 按一下系統管理 **中心中的** 此設定中的儲存按鈕後，請允許幾個小時讓這些設定生效。
+
+### <a name="removing-assignments-and-grades"></a>移除作業和成績
+您可以使用這些Teams移除特定使用者或整個租使用者的工作分派和成績。 
+
+若要移除個別使用者的作業和成績，請Teams系統管理中心，Teams許可權>**來** 建立新的應用程式許可權政策定義。  建立新策略定義時，請設定 **Microsoft 應用程式** 政策以封鎖 _特定應用程式_，並允許所有其他應用程式，並新增作業到封鎖的應用程式清單中。 儲存新策略定義後，請將其指派給適當的使用者。
+
+若要移除整個租使用者的工作分派和成績，請前往Teams 系統管理中心，流覽至 Teams 應用程式 **>管理應用程式**，然後從應用程式清單中搜尋並選取作業。 將作業應用程式設定頁面中的狀態設定變更為 _已封鎖_。 

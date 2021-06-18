@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 瞭解如何在音訊和視Teams中管理會議策略設定。
-ms.openlocfilehash: 3f7a557555d6846c4ada792ceb05da43ce91ed0f
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: e599948a78baa96849e9ddaedf6eb2a4a131ebf4
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598714"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004184"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音訊和視&設定
 
@@ -35,11 +35,12 @@ ms.locfileid: "51598714"
 
 - [允許轉錄](#allow-transcription)
 - [允許雲端錄製](#allow-cloud-recording)
-- [IP 音訊的模式](#mode-for-ip-audio) 
-- [IP 視訊的模式](#mode-for-ip-video) 
+- [IP 音訊的模式](#mode-for-ip-audio)
+- [IP 視訊的模式](#mode-for-ip-video)
 - [允許 IP 視訊](#allow-ip-video)
 - [媒體位元速率 (KB)](#media-bit-rate-kbs)
-- [視音訊模式](#video-filters-mode)
+- [視像篩選模式](#video-filters-mode)
+- [允許自訂背景設定](#allow-custom-background-settings)
 
 ### <a name="allow-transcription"></a>允許轉錄
 
@@ -63,7 +64,7 @@ ms.locfileid: "51598714"
 |Amanda | Location1MeetingPolicy | 開啟|
 |John (外部使用者) | 不適用 | 不適用|
 
-無法錄製由 Daniela 組織的會議，且已啟用策略設定的 Amanda 無法錄製由 Daniela 組織的會議。 不過，您可以錄製由 Amanda 組織的會議，但已停用策略設定且 John 是外部使用者的 Daniela 無法錄製由 Amanda 組織的會議。
+無法錄製由 Daniela 組織的會議，已啟用策略設定的 Amanda 無法錄製由 Daniela 組織的會議。 不過，您可以錄製由 Amanda 組織的會議，但已停用策略設定且 John 是外部使用者的 Daniela 無法錄製由 Amanda 組織的會議。
 
 若要深入了解雲端會議錄製，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。
 
@@ -76,7 +77,7 @@ ms.locfileid: "51598714"
 |**已啟用傳出和傳入音訊**    |會議中允許傳出和傳入音訊。這是預設設定。 |
 |**已停用**     |會議中已關閉傳出和傳入音訊。     |
 
-如果使用者設為 **已停用** ，該使用者仍然可以排程和組織會議，但他們無法使用音訊。 若要加入會議，他們必須透過公用交換電話網路 (PSTN) 或透過電話加入會議。 未獲指派任何原則的會議參與者 (例如匿名參與者)，預設會將此設定為 [已啟用傳出和傳入音訊 **]**。 在 Teams 行動用戶端上，如果已停用此設定，使用者必須透過 PSTN 撥入會議。
+如果使用者設為 **已** 停用，該使用者仍然可以排程和組織會議，但他們無法使用音訊。 若要加入會議，他們必須透過公用交換電話網路 (PSTN) 或透過電話加入會議。 未獲指派任何原則的會議參與者 (例如匿名參與者)，預設會將此設定為 [已啟用傳出和傳入音訊 **]**。 在 Teams 行動用戶端上，如果已停用此設定，使用者必須透過 PSTN 撥入會議。
 
 此設定不適用一對一通話。 若要限制一對一通話，請設定 Teams [通話原則 []](teams-calling-policy.md) 並關閉 [撥打私人通話 **]** 設定。 此設定也不適用會議室裝置，例如 Surface Hub 和 Microsoft Teams 會議室裝置。
 
@@ -95,7 +96,7 @@ ms.locfileid: "51598714"
 
 如果設為 [已停用 **]**，該使用者無法開啟或檢視由其他會議參與者共用的視訊。 未獲指派任何原則的會議參與者 (例如匿名參與者)，預設會將此設定為 [已啟用傳出和傳入視訊 **]**。
 
-此設定不適用會議室裝置，例如 Surface Hub 和 Microsoft Teams 會議室裝置。 
+此設定不適用會議室裝置，例如 Surface Hub 和 Microsoft Teams 會議室裝置。
 
 此設定尚無法於 Microsoft 365 政府社群雲端 (GCC)、GCC High 或美國國防部 (DoD) 環境中取得。
 
@@ -106,7 +107,7 @@ ms.locfileid: "51598714"
 
 ### <a name="allow-ip-video"></a>允許 IP 視訊
 
-這是每個召集人和每個使用者策略的組合。 視訊是會議的重要元件。 在某些組織中，系統管理員可能會想要進一步控制哪些使用者的會議有視訊。 此設定可控制是否可以在使用者主持的會議以及在使用者啟動的一對一和群組通話中開啟視訊。 在Teams用戶端上，此設定可控制使用者是否可以在會議中共用相片和影片。 
+這是每個召集人和每個使用者策略的組合。 視訊是會議的重要元件。 在某些組織中，系統管理員可能會想要進一步控制哪些使用者的會議有視訊。 此設定可控制是否可以在使用者主持的會議以及在使用者啟動的一對一和群組通話中開啟視訊。 在Teams用戶端上，此設定可控制使用者是否可以在會議中共用相片和影片。
 
 由已啟用此原則設定的使用者所召集的會議，如果參與者也已啟用此原則設定，則會允許由會議參與者在會議中分享視訊。 未獲指派任何原則的會議參與者 (例如匿名和同盟參與者) 會繼承會議召集人的原則。
 
@@ -150,7 +151,7 @@ ms.locfileid: "51598714"
 |---------|---------|
 |為會議中參與者停用音訊和視訊  |IP 音訊的模式：**已停用**<br> IP 視訊的模式：**已停用**<br>允許 IP 視訊：不適用       |
 |僅為會議的參與者啟用傳入音訊和視訊  |IP 音訊的模式：**已啟用傳出和傳入音訊**<br> IP 視訊的模式：**已啟用傳出和傳入視訊**<br>允許 IP 視訊：**關閉**       |
-|為會議中的參與者停用視訊 (參與者僅有音訊)|  IP 音訊的模式：**啟用傳出和傳入音訊**<br> IP 視訊的模式：**已停用**<br>允許 IP 視訊：不適用        
+|為會議中的參與者停用視訊 (參與者僅有音訊)|  IP 音訊的模式：**啟用傳出和傳入音訊**<br> IP 視訊的模式：**已停用**<br>允許 IP 視訊：不適用
 |為會議中參與者啟用音訊和視訊    |IP 音訊的模式：**已啟用傳出和傳入音訊** (預設值)<br> IP 視訊的模式：**已啟用傳出和傳入視訊** (預設值)<br>允許 IP 視訊：**開啟** (預設值)    |
 
 將套用會議召集人的原則與使用者原則之間最具限制性的原則。 例如，如果召集人有一個原則會限制視訊，而使用者的原則不會限制視訊，則會議參與者會繼承會議召集人的原則，且無法存取會議中的視訊。 這表示他們只能使用音訊加入會議。
@@ -160,11 +161,11 @@ ms.locfileid: "51598714"
 
 #### <a name="teams-mobile-clients"></a>Teams 行動用戶端
 
-對於使用Teams用戶端的使用者，會議期間共用相片和視像的能力也取決於允許 **IP 視** 像或 **IP 視像模式** 設定。 根據設定的優先原則為何，分享視訊和相片的功能均無法使用。 這不會影響螢幕畫面分享，這是您使用個別的 [螢幕畫面分享模式[]](meeting-policies-content-sharing.md#screen-sharing-mode) 設定進行的設定。 此外，您可以設定 [Teams 行動性原則](https://docs.microsoft.com/powershell/module/skype/new-csteamsmobilitypolicy)，以防止行動裝置使用者透過行動數據連線使用 IP 視訊，這表示他們必須使用 WiFi 連線。
+對於使用Teams用戶端的使用者，會議期間共用相片和視像的能力也取決於允許 **IP 視** 像或 **IP 視像模式** 設定。 根據設定的優先原則為何，分享視訊和相片的功能均無法使用。 這不會影響螢幕畫面分享，這是您使用個別的 [螢幕畫面分享模式[]](meeting-policies-content-sharing.md#screen-sharing-mode) 設定進行的設定。 此外，您可以設定 [Teams 行動性原則](/powershell/module/skype/new-csteamsmobilitypolicy)，以防止行動裝置使用者透過行動數據連線使用 IP 視訊，這表示他們必須使用 WiFi 連線。
 
 ### <a name="media-bit-rate-kbs"></a>媒體位元速率 (KB)
 
-這是每一使用者原則。 此設定會決定使用者通話和會議中音訊、視視和視視應用程式共用傳輸的媒體位速率。 它會同時套用於通話或會議使用者的上行連結和下行媒體周遊。 此設定會提供您對組織中頻寬管理的細微控制。 根據使用者需要的會議案例而定，我們建議有足夠的頻寬，以便擁有良好的品質體驗。 最小值為 30 Kbps，而最大值取決於會議案例。 若要深入了解 Teams 中高品質會議、通話和即時活動的最低建議頻寬，請參閱[頻寬需求](prepare-network.md#bandwidth-requirements)。
+這是每一使用者原則。 此設定會決定使用者在通話和會議中進行音訊、視視和視視應用程式共用傳輸的媒體位元速率。 它會同時套用於通話或會議使用者的上行連結和下行媒體周遊。 此設定會提供您對組織中頻寬管理的細微控制。 根據使用者需要的會議案例而定，我們建議有足夠的頻寬，以便擁有良好的品質體驗。 最小值為 30 Kbps，而最大值取決於會議案例。 若要深入了解 Teams 中高品質會議、通話和即時活動的最低建議頻寬，請參閱[頻寬需求](prepare-network.md#bandwidth-requirements)。
 
 如果會議頻寬不足，參與者會看到一則訊息，指出網路品質不佳。
 
@@ -176,7 +177,7 @@ ms.locfileid: "51598714"
 
 這是每一使用者原則。此設定可控制使用者是否可以自訂其會議中的視訊背景。
 
-目前，您僅能使用 PowerShell 來設定此原則。 您可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的 Teams 會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，然後將該原則指派給使用者。
+目前，您僅能使用 PowerShell 來設定此原則。 您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的 Teams 會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，然後將該原則指派給使用者。
 
 若要指定使用者是否可以自訂會議中的視訊背景，請設定 **VideoFiltersMode** 參數，如下所示：
 
@@ -190,13 +191,41 @@ ms.locfileid: "51598714"
 > [!NOTE]
 > Teams 不會篩選由使用者上傳的影像。 使用 **AllFilters** 設定時，您應該有內部組織原則，以防止使用者上傳冒犯性或不適當的影像，或組織無權用於 Teams 會議背景的影像。
 
+### <a name="allow-custom-background-settings"></a>允許自訂背景設定
 
+您可以新增自訂背景影像，以用於每個租使用者。 此功能可讓公司將公司商標用於Teams會議。
 
+1. 登入 Teams 系統管理中心。
 
+2. 選取 **會議策略**  >  **自訂會議影像**。
 
+   ![會議政策選取專案，畫面上會以強調的自訂會議影像按鈕](media/custom-background-image-button.png)
+
+3. 從 **組織** 背景 **影像選取 On**。
+
+4. 選取 **+ 新增影像**。
+
+5. 在管理背景面板中，選取 新增 **影像**。
+
+6. 確保影像符合以下需求：
+  
+   - 最小大小 360 px
+   - 最大大小 2048 px
+   - PNG、JPG 或 BMP 的檔案類型
+   - 最多可上傳 50 張影像
+
+7. 預覽您選取的影像，然後選取 **關閉**。
+
+8. 請檢查影像，並根據需要新增更多內容。
+
+9. 選取 [儲存 **]**。
+
+會議出席者會看到一系列背景影像，可在他們參加會議時使用。
+
+> [!NOTE]
+> 變更最多可能需要 24 小時才能生效。
 
 ## <a name="related-topics"></a>相關主題
 
 - [Teams PowerShell 概觀](teams-powershell-overview.md)
 - [將原則指派給 Teams 中的使用者](assign-policies.md)
-

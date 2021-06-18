@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '瞭解當使用者的電話撥入式會議設定變更時，哪些資訊會以電子郵件自動Microsoft Teams。 '
-ms.openlocfilehash: a9ca30e7e701afca2e42eccfaef4f3d45660cd3a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 590d2b9431950464aab051b73a70a1c30e6a55ad
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120754"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004205"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>當使用者的設定變更時，會以電子郵件Microsoft Teams
 
@@ -78,7 +78,7 @@ ms.locfileid: "51120754"
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>變更要寄給他們的電子郵件訊息
 
-您可以變更自動發送給使用者的電子郵件。 根據預設，電子郵件的寄件者會來自 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell。 請參閱[powerShell Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)參考資料以瞭解更多資訊。
+您可以變更自動發送給使用者的電子郵件。 根據預設，電子郵件的寄件者會來自 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell。 請參閱[powerShell Microsoft Teams，](/powershell/module/teams/?view=teams-ps)以瞭解更多資訊。
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>如果您不希望電子郵件寄給他們，該怎麼處理？
 
@@ -92,7 +92,7 @@ ms.locfileid: "51120754"
 
 2. 在 [會議橋接器 **」** 頁面頂端，按一下 [ **橋接器設定>**。 
 
-3. 在橋接器 **設定窗格中** ，啟用或停用當使用者的撥入設定變更時自動 **傳送電子郵件給使用者**。
+3. 在橋接器 **設定窗格中** ，啟用或停用在使用者的撥入設定變更時自動 **傳送電子郵件給使用者**。
 
 4. 按一下 [儲存]。
 
@@ -101,8 +101,15 @@ ms.locfileid: "51120754"
 
 **使用Windows PowerShell**
 
-請參閱[powerShell Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)參考資料以瞭解更多資訊。
+您也可以使用 PowerShell 模組Microsoft Teams並執行：
 
+```PowerShell
+Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
+```
+
+您可以使用 [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) 來管理貴組織的其他設定，包括電子郵件。
+
+請參閱[powerShell Microsoft Teams，](/powershell/module/teams/?view=teams-ps)以瞭解更多資訊。
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
 

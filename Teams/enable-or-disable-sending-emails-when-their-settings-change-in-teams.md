@@ -21,18 +21,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: '瞭解如何啟用或停用Skype釘號變更或預設會議號碼變更等設定時，將電子郵件傳送給使用者Microsoft Teams。 '
-ms.openlocfilehash: e1bb6df0a443f01ed3c9bc70d03eedc05f217ce4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 17c2864703eafa2c70709da0381f870abba58ad0
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092701"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004165"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>啟用或停用在音訊會議設定變更時傳送Microsoft Teams
 
 啟用音訊會議時，系統會自動以電子郵件通知使用者。 不過，有時候您可能會想要減少寄給使用者的電子郵件Microsoft Teams數量。 在這種情況下，您可以停用傳送電子郵件。
   
-如果您停用傳送電子郵件，音訊會議電子郵件將不會傳送給使用者，包括使用者啟用或停用音訊會議時、其 PIN 重設時間，以及會議 ID 和預設會議電話號碼變更時的電子郵件。
+如果您停用傳送電子郵件，音訊會議電子郵件將不會傳送給使用者，包括使用者啟用或停用音訊會議、PIN 重設時間，以及會議 ID 和預設會議電話號碼變更時的電子郵件。
   
 以下是啟用音訊會議時，會寄給使用者的電子郵件範例：
   
@@ -40,7 +40,7 @@ ms.locfileid: "51092701"
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>何時會將電子郵件寄給您的使用者？
 
-- 啟用音訊會議後，會將數封電子郵件寄給貴組織的使用者：
+- 啟用音訊會議後，會向貴組織的使用者數封電子郵件：
     
   - 當 **音訊會議授權** 指派給他們時。
     
@@ -65,7 +65,7 @@ ms.locfileid: "51092701"
 
 2. 在 [會議橋接器 **」** 頁面頂端，按一下 [ **橋接器設定>**。 
 
-3. 在橋接器 **設定窗格中** ，啟用或停用當使用者的撥入設定變更時自動 **傳送電子郵件給使用者**。
+3. 在橋接器 **設定窗格中** ，啟用或停用在使用者的撥入設定變更時自動 **傳送電子郵件給使用者**。
 
 4. 按一下 [儲存]。
 
@@ -75,7 +75,15 @@ ms.locfileid: "51092701"
 
 **使用Windows PowerShell**
   
-請參閱[powerShell Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)參考資料以瞭解更多資訊。
+您也可以使用 PowerShell 模組Microsoft Teams並執行：
+
+```PowerShell
+Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $true|$false
+```
+
+您可以使用 [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) 來管理貴組織的其他設定，包括電子郵件。
+
+請參閱[powerShell Microsoft Teams，](/powershell/module/teams/?view=teams-ps)以瞭解更多資訊。
 
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？

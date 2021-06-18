@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在羅馬尼亞取得及管理羅馬尼亞電話號碼Microsoft Teams。
-ms.openlocfilehash: 4a1420ff3e0ff9ea8ac00e5e154c68412a8cd4df
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 88364b4168cecd6e58c558547e3ce96812e3ebed
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130348"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993906"
 ---
 # <a name="phone-number-management-for-romania"></a>電話羅馬尼亞號碼管理
 
@@ -37,7 +37,7 @@ ms.locfileid: "52130348"
   
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。 <br/> |在羅馬尼亞，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並傳送給我們，以提交新的電話號碼 [要求](mailto:ptneu@microsoft.com)。<br/><br/>[適用于羅馬尼亞的新電話號碼要求 (v.1.0)  (rm-rm) 。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) <br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單，完整完成，然後傳送給我們。<br/><br/>新訂單可能需要兩到三周的時間才能填入這個市場。 |
+|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。 <br/> |在羅馬尼亞，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並傳送給我們，以提交新的電話號碼 [要求](mailto:ptneu@microsoft.com)。<br/><br/>[針對羅馬尼亞的新電話號碼要求 (v.1.0)  (rm-rm) 。](https://download.microsoft.com/download/1/4/d/14d27bf9-4326-409e-be0c-30f88d1fae83/new-phone-number-request-for-romania-(v1.0)-(ro-RO).pdf) <br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單，完整完成，然後傳送給我們。<br/><br/>新訂單可能需要兩到三周的時間才能填入這個市場。 |
 |將電話號碼轉接給我們。<br/> | 下載此表單。 <br/>[羅馬尼亞的 (授權書) LOA ()  (1.0)  (rm-rm) ](https://download.microsoft.com/download/9/c/1/9c1dcdc3-2161-4e2e-bdce-34397d20782e/letter-of-authorization-(loa)-for-romania-(all-numbers)-(v.1.0)-(rm-rm).pdf) <br/> <br/>填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。<br/><br/>在這個市場中，移轉數位可能需要四到五周才能完成。 <br/><br/>這些號碼目前無法用於會議。  <br/> |
 |發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[傳送您想要](mailto:ptneu@microsoft.com) 發佈/取消發佈的電話號碼清單給我們。 <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |[傳送您想要](mailto:ptneu@microsoft.com) 轉換成服務號碼的使用者號碼清單給我們。 <br/> |

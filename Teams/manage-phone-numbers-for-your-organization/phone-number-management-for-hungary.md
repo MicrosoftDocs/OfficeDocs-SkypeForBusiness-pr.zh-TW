@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在匈牙利取得及管理匈牙利電話號碼Microsoft Teams。
-ms.openlocfilehash: b052da954fe59d6c802cbe485d3c722492299a23
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 5e590a861c7a68b15dd65a3ce304373fe49525d8
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130428"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993946"
 ---
 # <a name="phone-number-management-for-hungary"></a>電話匈牙利的號碼管理
 
@@ -37,7 +37,7 @@ ms.locfileid: "52130428"
   
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。<br/> |在匈牙利，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並傳送給我們，以提交新的電話號碼 [要求](mailto:ptneu@microsoft.com)。<br/><br/>[匈牙利的新電話號碼要求 (1.0)  (hu-hu) 。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true)<br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單，完整完成，然後傳送給我們。<br/><br>新訂單可能需要兩到三周的時間才能填入這個市場。  |
+|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。<br/> |在匈牙利，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並傳送給我們，以提交新的電話號碼 [要求](mailto:ptneu@microsoft.com)。<br/><br/>[匈牙利的新電話號碼要求 (1.0)  (hu-hu) 。](https://download.microsoft.com/download/f/7/7/f7782f40-8a64-49b6-b97d-89bfb111f1ea/Know%20your%20customer%20for%20Hungary.pdf)<br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單，完整完成，然後傳送給我們。<br/><br>新訂單可能需要兩到三周的時間才能填入這個市場。  |
 |將電話號碼轉接給我們。<br/> | 下載此表單。 <br/>[匈牙利 (LOA) 授權書 (所有號碼)  (v.1.0)  (hu-hu) ](https://download.microsoft.com/download/f/b/1/fb17b2df-b5cf-45b7-89f0-0cbf250df1f7/letter-of-authorization-(loa)-for-hungary-(all-numbers)-(v1.0)-(hu-hu)%20(1).pdf) <br/> <br/>填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。 <br/><br/>在這個市場中，移轉數位可能需要兩到三周才能完成。 <br/><br/>這些號碼目前無法用於會議。   |
 |發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[傳送您想要](mailto:ptneu@microsoft.com) 發佈/取消發佈的電話號碼清單給我們。 <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |[傳送您想要](mailto:ptneu@microsoft.com) 轉換成服務號碼的使用者號碼清單給我們。 <br/> |
