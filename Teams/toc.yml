@@ -791,6 +791,8 @@ items:
                 href: rooms/lrs-migration.md
               - name: 內容相機
                 href: rooms/content-camera.md
+              - name: 智慧型喇叭的語音辨識控制項
+                href: rooms/voice-recognition.md
           - name: 管理
             items:
               - name: 管理概觀
