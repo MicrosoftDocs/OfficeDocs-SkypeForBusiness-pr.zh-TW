@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的私人頻道。
-ms.openlocfilehash: 543060371a42c3b0c514828779be14676fda8a25
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: 8dd0120f0a92591b3417d01c7a86c396161215a1
+ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469615"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "53004155"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人頻道
 
@@ -89,7 +89,11 @@ Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空�
 
 ## <a name="private-channel-sharepoint-sites"></a>私人頻道 SharePoint 網站
 
-每個私人頻道都有自己的 SharePoint 網站。 分隔的網站是為了確保僅限私人頻道的成員才可存取私人頻道檔案。 依預設，這些網站會以文件庫建立，且可以透過[網站管理介面](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)輕鬆地增強為功能完整的網站。 每個網站都在與父系小組的網站相同的地理區域中建立。 這些輕量型網站擁有自訂範本識別碼 TEAMCHANNEL#0，可讓您透過 PowerShell 和圖形 API 更輕鬆地進行管理。 請注意：新 SharePoint 系統管理中心的 [使用中網站] 頁面中不包括私人頻道 SharePoint 網站。
+每個私人頻道都有自己的 SharePoint 網站。 分隔的網站是為了確保僅限私人頻道的成員才可存取私人頻道檔案。 依預設，這些網站會以文件庫建立，且可以透過[網站管理介面](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)輕鬆地增強為功能完整的網站。 每個網站都在與父系小組的網站相同的地理區域中建立。 這些輕量型網站擁有自訂範本識別碼 TEAMCHANNEL#0，可讓您透過 PowerShell 和圖形 API 更輕鬆地進行管理。 
+
+>[!NOTE]
+>新 SharePoint 系統管理中心的 [使用中網站] 頁面中不包含私人頻道 SharePoint 網站。
+>2021 年 6 月 28 日之後建立的私人頻道 SharePoint 網站將會有自訂範本識別碼 TEAMCHANNEL#1。
 
 私人頻道網站會同步處理資料分類，並繼承父系小組網站中的來賓存取權限。 網站擁有者和成員群組的成員資格，會與 Teams 內私人頻道的成員資格保持同步。 在 SharePoint 中對擁有者或成員群組的成員資格所做的任何變更，都會自動在四小時內還原到私人頻道成員資格。 在特定使用者需要存取文件而不需要存取私人頻道訊息的情況下，請將他們新增至網站上的 [訪客] 群組，或新增至與擁有者和成員不同的新群組。
 
