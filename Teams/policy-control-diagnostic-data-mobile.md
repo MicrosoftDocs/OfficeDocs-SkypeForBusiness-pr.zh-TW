@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d040a6e592ead9f29dcc7f23efe069b041ccf07
-ms.sourcegitcommit: 31c5b9cd3d4f500e1f9d7823052dae8f8c298b1e
+ms.openlocfilehash: 8ede7588f0de085c41eeecd1e8e2e0f496772b11
+ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "52901940"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "52993866"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 適用的行動裝置必要診斷資料
 
@@ -595,6 +595,7 @@ ms.locfileid: "52901940"
 - **隱藏** - 隱藏聊天。
 - **hideChannel** - 隱藏團隊和頻道清單中的頻道。
 - **影像** - 影像。
+- **inAppNotification** - 當使用者在應用程式中作用中的情況下點選通知時觸發。
 - **immediateCallForward** - 已設定立即撥打轉接目標，或啟用立即撥打轉接 (已停用找我的來電)。
 - **importanceToggleClicked** -當 **時觸發!** 欄位會在工作專案詳細資料內進行切換。
 - **importantMessage_select** -使用者會從優先內容功能表中選取重要的訊息。
@@ -791,6 +792,7 @@ ms.locfileid: "52901940"
 - **notBlockedDevice** -使用者無法在30天內達到背景活動失敗的臨界值。
 - **notNow** - 已於 [提醒] 中選取 **[現在不要]**。
 - **notNowUpdate** -UpdateDefer。
+- **notification/notification_clicked** - 點選通知時觸發。
 - **notificationNavChannelConversation** -使用頻道交談通知來啟動應用程式。
 - **notificationNavChannelThreadConversation** -使用頻道交談中的特定訊息通知來啟動應用程式。
 - **notificationSettingTurnedOff** - 關閉 Teams Android 應用程式的推送通知。
@@ -1044,7 +1046,9 @@ ms.locfileid: "52901940"
 - **showCard** - 點選卡片按鈕。卡片是重要的平臺構造，且需度量其使用方式和模式才能瞭解平臺使用狀況，並持續瞭解用戶端的潛在問題。
 - **shownReadReceiptNotice** - 使用者顯示的功能注意事項 (含設定選項)。
 - **signIn** - 已在歡迎頁面上選取 **[登入]**，或已點選 **[登入]** 按鈕。
-- **signUp** -  已選取 **[建立免費帳戶]** 或 **[免費註冊]**。
+- **SignInWithOTP** - 使用者選取以來賓身分使用一次性密碼 (OTP) 登入的選項。 
+- **signUp** - 已選取 [建立免費帳戶 **]** 或 [免費註冊 **]**。
+- **SignUpFromSignIn** - 使用者在登入時點選 [建立新帳戶 **]** 選項。
 - **simultaneousCallForward** - 觸發時機：
   - 已設定同時通話轉接目標。
   - 已啟用同時通話轉接 (已啟用 [找我的來電] 且也已設定振鈴)。
@@ -1052,6 +1056,7 @@ ms.locfileid: "52901940"
 - **smartReply** - 已按下智慧回覆切換按鈕切換按鈕。
 - **SMSSendMessage** - 使用者傳送 SMS 訊息。
 - **sortChanged** - 當使用者在檢視工作清單下，變更排序次序時觸發。
+- **SSOAccountListItem**：當使用者點選 SSO 帳戶以登入時觸發。
 - **startEditing** - **[編輯]** 按鈕已選取。
 - **startPresentPhoto** - 開始呈現相片。
 - **startPresentVideo** - 開始呈現影片。
@@ -1079,6 +1084,7 @@ ms.locfileid: "52901940"
 - **stuckOnConnectingRetrySelected** -  已在選單中選取 **[重試]**。
 - **stuckOnConnectingShownDismissed** -使用者已關閉選單。
 - **suggested_place_selected** - 使用者選取建議的位置來共用靜態位置。
+- **Switching** - 租用戶或帳戶從應用程式切換。 這是主動測量帳戶/租用戶切換問題，並提供順暢的帳戶/租用戶切換體驗所需。
 - **switchTeamAction** - 使用者在上班中切換小組。 這會在使用者選取要切換到的小組之後觸發。
 - **switchTeamsDialogTriggered** - 使用者檢視 **[班次]** 索引標籤。
 - **tabActionCopyLink** - 使用者如何探索並使用行動裝置上的索引標籤複製連結。
@@ -1211,6 +1217,7 @@ ms.locfileid: "52901940"
 > [!NOTE]
 > 如需 PanelView 事件屬性的詳細資訊，請參閱[隨著 panelview 事件傳送的屬性](#properties-sent-with-panelview-events)。
 
+- **appInstall**：當使用者在安裝後第一次開啟應用程式時觸發。
 - **fileDeleteFailed** - 檔案刪除作業失敗時觸發。
 - **fileDeleteSuccess** - 檔案刪除作業成功時觸發。
 - **filePreview** - 在下列情況下觸發：
@@ -1237,21 +1244,31 @@ ms.locfileid: "52901940"
 - **meetingFiles** - 開啟會議檔案畫面時觸發。
 - **meetNowActionSheet** - 當使用者建立會議時觸發。
 - **navPersonalFiles** - 執行瀏覽至檔案畫面時觸發。
+- **signInSSOPage**：當使用者在登入時檢視單一登入頁面時觸發。
+-- **signInError**：當使用者在登入時發生任何錯誤時觸發。 這是主動識別並修正使用者在登入期間所面臨問題所需。 
+-- **TfLSignInSuccessful**：當使用者成功登入個人 Microsoft 帳戶時觸發。 這是要了解登入和註冊可靠性，並主動識別並修正問題所需。
+-- **TfWFreemiumSignInSuccessful**：當使用者成功登入免費增值帳戶時觸發。 這是要了解登入和註冊可靠性，並主動識別並修正問題所需。
+-- **TfWSignInSuccessful**：當使用者成功登入公司或學校帳戶時觸發。 這是要了解登入和註冊可靠性，並主動識別並修正問題所需。
 
 ### <a name="scenario"></a>案例
 
 > [!NOTE]
 > 如需 PanelAction 事件屬性的詳細資訊，請參閱[隨著案例事件傳送的屬性](#properties-sent-with-scenario-events)。
-
-- **app_incremental_sync_launch** 確認已成功更新冷啟動的計數。
-- **app_incremental_sync_resume** 確認已成功更新暖/熱啟動的計數。
-- **app_start_cold** 監視應用程式冷啟動 (僅適用於 Android)。
-- **app_start_hot** 監視應用程式熱啟動 (僅適用於 Android)。
-- **app_start_warm** 監視應用程式暖啟動 (僅適用於 Android)。
+> 
+- **acquire_resource_token_interactive** - 互動式登入取得驗證權杖時觸發的必要服務呼叫。 
+- **acquire_resource_token_silent** - 無訊息登入取得驗證權杖時觸發的必要服務呼叫。
+- **app_crash2** - 當應用程式意外當機時觸發。 提供 Teams 應用程式當機頻率的相關資訊。 
+- **app_incremental_sync_launch** - 確認框計數會針對冷啟動成功更新。
+- **app_incremental_sync_resume** - 確認框計數會針對熱啟動成功更新。
+- **app_start_cold** - 監視應用程式冷啟動 (僅適用 Android)。
+- **app_start_hot** - 監視應用程式熱啟動 (僅適用 Android)。
+- **app_start_warm** - 監視應用程式暖啟動 (僅適用 Android)。
+- **auth_adal_tokens** - 執行無訊息驗證的必要服務呼叫。 使用者啟動應用程式或權杖在到期時更新時觸發。
 - **chat_add_giphy** - 確認 Giphy GIF 呈現動作成功或失敗。
-- **cortanaError** 監視 Cortana 錯誤發生。
+- **chat_send_message_sfc** - 在 SfC Interop 聊天中傳送聊天訊息時觸發。
+- **cortanaError** - 監視 Cortana 錯誤發生。
 - **cortanaView** - 監視 Cortana 畫布顯示。
-- **cortanaRestart** 監視 Cortana 重新啟動。
+- **cortanaRestart** - 監視 Cortana 重新啟動。
 - **cortanaSetNewConversation** 監視 Cortana 設定新的交談。
 - **cortanaSpeechRecognization** 監視 Cortana 語音辨識延遲。
 - **cortanaStart** 監視 Cortana 後端啟動。
@@ -1268,6 +1285,7 @@ ms.locfileid: "52901940"
 - **cortana_skill_action_delay** - 確認延遲動作的開始。
 - **cortana_watchdog** - 監視 Cortana 看門狗復原程式。
 - **create_default_plan_and_nav_to_view** - 確認已成功建立預設的共用工作清單，以及在動作之後使用者導向結果所需的時間。
+- **create_new_chat_thread_sfc** - 為 SfC Interop 聊天建立新聊天對話時觸發。
 - **create_personal_plan_and_nav_to_view** - 確認已成功建立個人工作清單，以及在動作之後使用者導向結果所需的時間。
 - **create_personal_task** - 確認已成功建立個人工作專案。
 - **create_planner_plan_and_nav_to_view** - 確認已成功建立共用工作清單，以及在動作之後使用者導向結果所需的時間。
@@ -1277,7 +1295,12 @@ ms.locfileid: "52901940"
 - **delete_personal_task** - 確認已成功刪除個人工作專案。
 - **delete_planner_plan** - 確認已成功刪除共用工作清單。
 - **delete_planner_task** - 確認已成功刪除共用工作專案。
+- **json_parse_failure** - 提供 JSON 剖析問題頻率的相關資訊。
+- **getProfilePicture** - 取得使用者個人資料圖片的必要服務呼叫。 
+- **get_resource_token_async**：以非同步方式取得 Azure Active Directory 資源權杖的必要服務呼叫。
+- **get_resource_token_sync**：以同步方式取得 Azure Active Directory 資源權杖的必要服務呼叫。
 - **get_sender_sub_scenario** - 取得活動中的寄件者子案例。
+- **interactiveAuthNopa2** - 沒有密碼的使用者遭到中斷以執行互動式驗證時觸發。
 - **load_chat_plans_list** - 確認已成功取得聊天方案檢視的 Planner 方案。
 - **load_home_page** - 確認已成功取得主要 [常用] 檢視的個人和共用工作清單。
 - **load_personal_task_list** - 確認工作清單檢視的個人工作清單之工作已成功取得。
@@ -1292,7 +1315,8 @@ ms.locfileid: "52901940"
 - **rename_personal_plan** - 確認已成功重新命名個人工作清單。
 - **rename_planner_plan** - 確認已成功重新命名共用工作清單。
 - **save_image** 確認影像儲存動作成功或失敗。
-- **share_image** 確認影像共用動作成功或失敗。
+- **saveMeProfile** - 使用者儲存設定檔時觸發的必要服務呼叫
+- **share_image** - 確認影像共用動作成功或失敗。
 - **smart_reply_enabled** - 確認已為目前使用者啟用智慧回覆。
 - **smart_reply_received** - 確認已收到智慧回覆建議。
 - **smart_reply_banned** - 確認無法為目前使用者顯示智慧回覆。
@@ -1313,9 +1337,10 @@ ms.locfileid: "52901940"
 - **server_fetch_date_picker_view** 確認使用 Outlook REST API 進行行事曆活動的同步處理成功或失敗。
 - **server_fetch_agenda_view_group** 確認 TFL 群組使用中介層 API 進行行事曆活動的同步處理成功或失敗。
 - **server_fetch_date_picker_view_incremental** 確認使用 Outlook REST API 進行行事曆活動的增量同步處理成功或失敗。
-- **meeting_details** 確認會議詳細資料同步處理成功或失敗。
-- **show_meeting_participants** 確認顯示會議參與者清單成功或失敗。
-- **search** 確認整個搜尋工作階段成功或失敗。
+- **meeting_details** - 確認會議詳細資料同步處理成功或失敗。
+- **show_meeting_participants** - 確認顯示會議參與者清單成功或失敗。
+- **search** - 確認整個搜尋工作階段成功或失敗。
+- **time_based_retention_shared_channel** - 擷取剪除資料庫的效能資料。
 
 ## <a name="property-lists"></a>屬性清單
 
