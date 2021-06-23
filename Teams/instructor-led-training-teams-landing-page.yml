@@ -57,7 +57,7 @@ productDirectory:
     - title: 升級規劃研討會
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
       summary: 規劃並實作成功的 Teams 升級。 (對象：IT 專業人員、採用變更經理)
-      url: ./upgrade-workshops-landing-page.yml
+      url: 'https://aka.ms/upgradeworkshops'
 additionalContent:
   sections:
     - title: 課程
