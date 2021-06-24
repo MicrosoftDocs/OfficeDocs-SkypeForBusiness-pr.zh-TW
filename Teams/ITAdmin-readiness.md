@@ -19,12 +19,12 @@ ms.custom:
 description: 針對系統管理員PowerPoint、部署及執行這些訓練影片、幻燈片組、教學課程及其他資源Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 024da06002d6f3f4647cc48a854042320a8a5f66
-ms.sourcegitcommit: 02e243d6c58eab463a00ed45dadd80112087006e
+ms.openlocfilehash: 664e9649d5fab01fb40124aa383943ec496ce452
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52723421"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105025"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>開始使用系統管理訓練Microsoft Teams
 
@@ -87,13 +87,14 @@ ms.locfileid: "52723421"
 | ------------| -------------------- |
 | 單元 1：Android Microsoft Teams簡介  |[甲板](https://download.microsoft.com/download/8/0/2/8020c233-8989-4def-b3ea-fb06365c663a/%281%29%20Introduction%20to%20Microsoft%20Teams%20Android%20Devices.pdf) |
 | 單元 2：規劃 Android Microsoft Teams裝置|[甲板](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
-|單元 3：Microsoft Teams Android 裝置的功能 |[甲板](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)
+|單元 3：Microsoft Teams Android 裝置的功能 |[甲板](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
+|單元 4：Microsoft Teams Android 裝置|[甲板](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
 
 <h2>互動式指南</h2>
 
 | 標題                                                                       | 抽象                                                                                                                                                                                                               |  連結至指南                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| 身分識別、Access 管理&威脅防護Teams                   | 瞭解如何使用 Microsoft 系統管理中心和 PowerShell 來設定存取和身分識別政策，以及Office 365進一Teams                                                            | [Teams安全指南](https://aka.ms/teamsesecurityinteractiveguide)         |
+| 身分識別、Access 管理&威脅防護Teams                   | 瞭解如何使用 Microsoft 系統管理中心和 PowerShell 來設定存取和身分識別政策，Office 365進一Teams                                                            | [Teams安全指南](https://aka.ms/teamsesecurityinteractiveguide)         |
 | 資料外 (DLP) 策略Microsoft Teams                     | 瞭解如何新增新Microsoft Teams至現有的 DLP 策略，以及如何建立新策略 ，無論是根據範本或完全自訂的組織的資料保護需求。                        | [TeamsDLP 指南](https://aka.ms/teamsdlpguide)         |
 | 在 Teams                                                | 使用 Microsoft 365、Microsoft 365合規性和 Microsoft Teams 系統管理中心，以及 Windows PowerShell 來管理和設定 Office 365 組織的 Microsoft Teams 策略和設定。 | [管理指南中的合規性Teams規範](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams顧問：在 Microsoft Teams | 瞭解如何使用Teams顧問來評估您的環境，並建立部署聊天、團隊、頻道和應用程式的計畫。                                                                                         |  [Teams顧問指南](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
@@ -107,10 +108,11 @@ ms.locfileid: "52723421"
 | 為第一Microsoft Teams員工進行配置                           | 瞭解如何為第一線員工Microsoft Teams及部署正確的環境。                                                                                                                  | [第一Microsoft Teams工作人員指南的組組](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | 前線員工身分識別：授權 IT、主管和前線員工                    | 瞭解如何與現有人力資源Microsoft Teams整合、設定輕量委派身分識別管理，以及為使用共用裝置的人設定簡化的登錄和順暢的轉換。                                                                                                                  | [前線員工身分識別指南](https://aka.ms/FLWIdentityIG)              |
 | 部署Microsoft Teams 會議室                           | 瞭解如何在系統管理中心建立及設定帳戶Microsoft Teams 會議室管理Microsoft Teams裝置。                                                                                                                  | [部署Microsoft Teams 會議室](https://aka.ms/teamsroomslab)              |
+|使用Teams Android 裝置|瞭解如何管理及升級手機Microsoft Teams、Microsoft Teams顯示、Microsoft Teams 會議室和Microsoft Teams面板。|[使用Microsoft Teams Android 裝置](https://aka.ms/teamsandroiddeviceslab)|
 
 <h2>快速入門手冊</h2>
 
-- [快速入門：Teams教育系統管理員](teams-quick-start-edu.yml)
+- [快速入門：Teams 教育版系統管理員](teams-quick-start-edu.yml)
 - [快速入門：在 Teams](configuring-teams-calling-quickstartguide.md)
 
 <h2>教程</h2>

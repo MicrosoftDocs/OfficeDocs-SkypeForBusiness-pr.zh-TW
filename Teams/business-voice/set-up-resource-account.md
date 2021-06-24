@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 瞭解如何設定與自動Microsoft 365 商務語音一起使用的資源帳戶。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 618f26394f2b4acc44d56b814bd31c20ffe1a370
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: df5001b6f757b407e96a473d302c79d837af957c
+ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282772"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53105165"
 ---
 # <a name="step-4-set-up-a-business-voice-resource-account"></a>步驟 4：設定商務語音資源帳戶
 
@@ -32,16 +32,20 @@ ms.locfileid: "52282772"
 
 本文中的各節將說明如何設定資源帳戶，然後為其指派電話號碼。 稍後，您將將資源帳戶與自動助理建立關聯。
 
+下列影片將說明如何在系統管理中心完成Teams步驟。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYG]
+
 ## <a name="obtain-virtual-user-licenses"></a>取得虛擬使用者授權
 
 資源帳戶需要授權才能使用自動電話機和通話佇列。 您可以使用免費的虛擬使用者 *Microsoft 365 電話系統虛擬使用者* 授權。
 
 > [!NOTE]
-> 如果您註冊了商務語音試用期，您只需要執行下列步驟。 如果您購買 Business Voice 授權，虛擬授權應該已經適用于您的帳戶。 
+> 如果您註冊了商務語音試用期間，您只需要執行下列步驟。 如果您購買 Business Voice 授權，虛擬授權應該已經適用于您的帳戶。 
 >
 > 若要查看您是否已經有虛擬授權，請Microsoft 365全域系統管理員許可權的帳戶登入。 然後前往帳單> [您的產品](https://admin.microsoft.com/Adminportal/Home#/subscriptions)。 如果您有虛擬授權，這些授權會顯示為 Microsoft 365 電話系統 **- 虛擬使用者**。
 
-1. 開啟 Microsoft 365系統管理中心，然後使用全域系統管理員使用者登入 (通常是您用來註冊帳戶Microsoft 365) 。
+1. 開啟 Microsoft 365 系統管理中心，然後使用全域系統管理員的使用者登入 (通常是您用來註冊 Microsoft 365) 。
 2. 在左側流覽窗格中，前往帳單 <a href="https://admin.microsoft.com/Adminportal/Home#/catalog" target="_blank">****  >  **購買服務**</a>附加元件  >    >  **查看所有附加元件產品**。
 3. 卷起到最後以尋找Microsoft 365 電話系統 **– 虛擬使用者** 授權。 選取 **詳細** 資料，然後 **選取購買**。
 4. 在授權購買頁面上，選取您想要的虛擬使用者授權數目。 針對您打算設定的每個自動電話機和通話佇列，您需要一個虛擬授權。 我們建議您至少選取五個授權，以便日後輕鬆設定更多自動電話機和通話佇列，而不需要立即購買更多授權。
@@ -71,9 +75,9 @@ ms.locfileid: "52282772"
 
 建立資源帳戶之後，您需要指派一個Microsoft 365 電話系統 *- 虛擬* 使用者 *授權或電話系統* 授權。
 
-![系統管理中心指派授權使用者介面的螢幕擷取畫面Microsoft 365螢幕擷取畫面](../media/resource-account-assign-virtual-user-license.png)
+![指派授權使用者介面的螢幕擷取畫面Microsoft 365 系統管理中心](../media/resource-account-assign-virtual-user-license.png)
 
-1. 開啟 Microsoft 365系統管理中心，然後使用全域系統管理員使用者登入 (通常是您用來註冊帳戶Microsoft 365) 。
+1. 開啟 Microsoft 365 系統管理中心，然後使用全域系統管理員的使用者登入 (通常是您用來註冊 Microsoft 365) 。
 1. 在左側流覽窗格中，前往使用者 <a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank">****  >  **活動使用者**</a>。
 1. 選取您的資源帳戶。
 1. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.

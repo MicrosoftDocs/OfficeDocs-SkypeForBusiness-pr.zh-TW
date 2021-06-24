@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 10547a99b0e63585ae39cc90a5b0cf573a9c94e3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e97ddf7f6b7410e83a5e2257d7df6ae2ad27cb7f
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834333"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096280"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>雲端語音功能的網路設定Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "49834333"
 
 ## <a name="network-region"></a>網路區域
 
-網路區域包含網路網站的集合。 它會跨多個地理區域連接網路的各個部分。 例如，如果貴組織有許多位於印度的網站，您可以選擇將「印度」指定為網路區域。 每個網路網站都必須與網路區域相關聯。
+網路區域包含網路網站的集合。 它可跨多個地理區域連接網路的各個部分。 例如，如果貴組織有許多位於印度的網站，您可以選擇將「印度」指定為網路區域。 每個網路網站都必須與網路區域相關聯。
 
 相同的網路區域會由直接路由Location-Based路由和增強的緊急服務共用。 如果您已經為一項功能建立網路區域，則不需要為另一項功能建立新網路區域。
 
@@ -61,3 +61,6 @@ ms.locfileid: "49834333"
 如果使用者的外部 IP 位址符合信任 IP 位址清單中的 IP 位址，雲端語音功能會檢查以判斷使用者端點所在的內部子網。 您可以根據 IPv4 或 IPv6 IP 位址進行比對，並視要送往網路設定之 IP 封包的格式而定。  (如果公用 IP 位址同時有 IPv4 和 IPv6，您必須同時將兩者新增為信任的 IP 位址。) 
 
 如果使用者的外部 IP 位址與信任 IP 位址清單中的 IP 位址不相符，端點會分類為位於未知位置。
+
+> [!Important]
+> 雲端 Proxy 服務部署不支援網路設定設定檢查，這些部署會修改來自Teams IP 位址。

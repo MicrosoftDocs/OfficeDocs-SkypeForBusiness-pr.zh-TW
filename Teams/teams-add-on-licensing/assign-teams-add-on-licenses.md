@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 瞭解如何將附加Teams授權指派給使用者，以使用音訊會議、電話系統和通話方案等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 240672b125190492a036bc9dfa3f7a42070e8320
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b30df309412d159b878b4b57655787c9b4b292a8
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116931"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53095577"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>指派Teams附加元件授權給使用者
 
@@ -30,7 +30,7 @@ ms.locfileid: "51116931"
 > [!NOTE]
 > 請參閱[Teams附加元件授權](./microsoft-teams-add-on-licensing.md)Teams附加元件授權提供的功能。 您也可以根據您的方案) 找到您需要購買哪些授權以及如何購買授權的資訊 (以便使用者可以取得音訊會議、免付費號碼等功能，以及撥打組織外電話號碼的功能。 決定要為使用者提供哪些功能之後，請指派授權給他們。
 
-您可以使用系統管理Microsoft 365 PowerShell 將授權指派給貴組織的使用者。 您必須是全域系統管理員或使用者管理系統管理員，才能管理授權。
+您可以使用應用程式或 PowerShell Microsoft 365 系統管理中心指派授權給貴組織的使用者。 您必須是全域系統管理員或使用者管理系統管理員，才能管理授權。
 
 ## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>指派授權、通話方案電話系統通訊信用額度授權之前，您需要知道什麼
 
@@ -44,11 +44,11 @@ ms.locfileid: "51116931"
 
 - 即使您的使用者被指派Enterprise E5 授權，如果您想要撥打或接聽 PSTN[](../what-are-communications-credits.md)的通話，您仍然需要指派通訊信用額度授權給他們。
 
-- 將通話方案或通訊信用額度授權指派給使用者之後，您必須取得貴組織的電話號碼，然後將這些號碼指派給使用者。 有關逐步指示，請參閱 [設定通話方案](../set-up-calling-plans.md)。
+- 將通話方案或通訊信用額度授權指派給使用者之後，您必須取得貴組織的電話號碼，然後將這些號碼指派給使用者。 有關逐步指示，請參閱設定 [通話方案](../set-up-calling-plans.md)。
 
-## <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365系統管理中心
+## <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365 系統管理中心
 
-使用 Microsoft 365系統管理中心，一次指派授權給個別使用者或少數使用者。 您一次在 (或活動使用者頁面上，為最多 20) **指派** 授權。 您選擇的方法取決於您要管理特定使用者的產品授權，或管理特定產品的使用者授權。
+使用 Microsoft 365 系統管理中心，一次指派授權給個別使用者或少數使用者。 您可以在授權頁面 (一次指派最多 20 個使用者) 或活動使用者頁面 (一次最多 40 個使用者指派授權) 。  您選擇的方法取決於您要管理特定使用者的產品授權，或管理特定產品的使用者授權。
 
 有關逐步指示，請參閱指派 [授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)。
 

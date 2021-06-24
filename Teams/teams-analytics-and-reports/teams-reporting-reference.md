@@ -18,16 +18,16 @@ description: 在本文中，您將瞭解 Teams系統管理中心提供Microsoft 
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6d195c90dc7e959146546dde1a75fedf0764c24a
-ms.sourcegitcommit: 66e7b28ba1c0433535eb6a3e7d883851c27d9d1f
+ms.openlocfilehash: 57135e50b604c8e92a7ff78963af9520ccc87b8a
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "51478343"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096317"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams分析與報告
 
-系統管理中心提供新的Microsoft Teams和報告體驗Microsoft Teams系統。 您可以執行不同的報告，以深入瞭解貴組織的使用者使用Teams。 例如，您可以查看有多少使用者透過頻道和聊天訊息通訊，以及他們用於連接到Teams。 貴組織可以使用報告中的資訊，進一步瞭解使用模式、協助做出商務決策，以及為訓練和溝通工作提供資訊。
+系統管理中心提供新的Microsoft Teams和報告體驗Microsoft Teams系統。 您可以執行不同的報告，以深入瞭解貴組織的使用者使用Teams。 例如，您可以查看有多少使用者透過頻道和聊天訊息通訊，以及他們用於連至Teams。 貴組織可以使用報告中的資訊，以進一步瞭解使用模式、協助做出商務決策，以及為訓練和溝通工作提供資訊。
 
 ## <a name="how-to-access-the-reports"></a>如何存取報告
 
@@ -36,7 +36,7 @@ ms.locfileid: "51478343"
 請前往 Microsoft Teams系統管理中心，選取左側導&分析報表，然後在報表下，選擇您想要執行的報告。 
 
 > [!NOTE]
-> 系統管理中心Microsoft Teams報告與 Teams 系統管理中心中Microsoft 365活動Microsoft 365報表。 有關系統管理中心的活動報告Microsoft 365，請參閱Teams系統管理中心Microsoft 365[活動報告](../teams-activity-reports.md)
+> 系統管理Microsoft Teams中的報告與 Teams 中屬於 Microsoft 365 報告之Microsoft 365 系統管理中心的活動報告Microsoft 365 系統管理中心。 有關活動報告中活動報告Microsoft 365 系統管理中心，請參閱Teams[中的活動Microsoft 365 系統管理中心](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Teams報告參照
 
@@ -54,6 +54,8 @@ ms.locfileid: "51478343"
 |[TeamsPSTN 分鐘數庫報告](pstn-minute-pools-report.md) |  國家或地區<br>功能 (授權)  <br>總分鐘數<br>使用的分鐘數<br>可用的分鐘數|
 |[TeamsPSTN 使用方式報告 - 通話方案](pstn-usage-report.md#calling-plans)|  時間戳記<br>使用者名稱<br>電話數位<br>通話類型 <br>已叫到<br>至國家/地區 <br>從 <br>從國家/地區<br>負責<br>貨幣<br>時間<br>國內/國際<br>通話識別碼<br>數位類型<br>國家或地區<br>會議 ID<br>功能 (授權) |
 |[TeamsPSTN 使用方式報告 - 直接路由](pstn-usage-report.md#direct-routing)  |  時間戳記<br>顯示名稱<br>SIP 位址<br>電話數位 <br>通話類型<br>已叫到<br>開始時間<br>邀請時間<br>失敗時間<br>結束時間<br>時間<br>數位類型<br>媒體旁路<br>SBC FQDN<br>Azure 區域<br>事件種類<br>最終 SIP 程式碼<br>最終 Microsoft 子代碼<br>最終 SIP 片語<br>相關識別碼  |
+|[Teams資訊保護授權報告 - 直接路由](information-protection-license-report.md)  | <br>使用者是否擁有透過變更通知推送其郵件的有效授權</br><br>使用者三次變更通知事件的總數</br><br>哪些應用程式正在聆聽全組織變更通知事件</br>|
+
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
@@ -61,9 +63,9 @@ ms.locfileid: "51478343"
 
 若要將使用者活動Teams裝置使用方式報告Teams匿名，您必須是全域系統管理員。 這會隱藏可辨識的資訊，例如報表及其匯出中的顯示名稱、電子郵件和 AAD 識別碼。
 
-1. 在 Microsoft 365系統管理中心中，前往 設定組織設定，然後選取在服務設定下 \> ****，選擇報告。
+1. 在 Microsoft 365 系統管理中心中，前往 設定 \> **組織** 設定，然後選擇在服務選項卡下，選擇報表。
     
-2. 選取 **報表**，然後選擇顯示 **匿名識別碼**。 此設定會同時Microsoft 365系統管理中心中的使用方式報告，Teams系統管理中心。
+2. 選取 **報表**，然後選擇顯示 **匿名識別碼**。 此設定會同時適用于系統管理中心Microsoft 365 系統管理中心使用方式Teams報告。
   
 3. 選取 **儲存變更**。
 

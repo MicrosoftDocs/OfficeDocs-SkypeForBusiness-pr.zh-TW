@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7b79371cdc8ff5109bf67b1c78639106a83a95e
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 23551c102ec8fc0684a979bf85717a02d82e5142
+ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796646"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "53096267"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams非標準使用者的應用程式行為
 
@@ -45,15 +45,15 @@ ms.locfileid: "52796646"
 
 ### <a name="usage-behavior-and-policy-for-guest-users"></a>來賓使用者的使用行為與政策 
 
-如果應用程式是由原生使用者安裝，則來賓可以使用應用程式。
+如果應用程式是由原生使用者安裝，來賓可以使用應用程式。
 
 #### <a name="bots-installed-to-a-channel"></a>安裝至頻道的 Bot
 
-Bot 可以主動訊息來賓使用者，但來賓無法與 Bot 互動。 來賓無法一對一訊息給 Bot、提及 Bot，或與與 Bot 通訊的介面卡片互動。
+Bot 可以主動訊息給來賓使用者，但來賓無法與 Bot 互動。 來賓無法一對一訊息給 Bot、提及 Bot，或與與 Bot 通訊的介面卡片互動。
 
 #### <a name="personal-bots-installed-with-policies"></a>使用策略安裝的個人 Bot
 
-- 來賓會遵循針對任何應用程式的主機租使用者所設定之全域和全組織許可權原則。 如果整個主機組織的應用程式被封鎖，則來賓也無法使用此 App。
+- 來賓會遵循針對任何 App 的主機租使用者所設定之全域和全組織許可權原則。 如果整個主機組織的應用程式被封鎖，則來賓也無法使用此 App。
 - 全域預設應用程式設定政策中包含的任何 Bot 也會為來賓安裝。
 - 安裝 Bot 之後，Bot 可以主動與來賓通訊，而來賓可以與 Bot 重新通訊。
 - 您無法從全域預設應用程式設定政策移除來賓。
@@ -80,6 +80,6 @@ Bot 可以主動訊息來賓使用者，但來賓無法與 Bot 互動。 來賓�
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>匿名使用者的使用行為與政策
 
-匿名使用者無法直接在會議中使用 App。 如果匿名使用者存在，原生使用者可以繼續使用會議應用程式。 如果應用程式在聊天中傳送介面卡片，匿名使用者可以與卡片互動。 若要詳細資訊，請參閱 [允許匿名使用者加入會議](/meeting-settings-in-teams#allow-anonymous-users-to-join-meetings)。
+匿名使用者無法直接在會議中使用 App。 如果匿名使用者存在，原生使用者可以繼續使用會議應用程式。 如果應用程式在聊天中傳送介面卡片，匿名使用者可以與卡片互動。 若要詳細資訊，請參閱 [允許匿名使用者加入會議](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
 
-匿名使用者將繼承使用者層級全域預設權限原則。 如果使用者層級許可權Teams啟用應用程式，他們可以與會議中的應用程式互動。 匿名使用者只能與會議中現有的應用程式互動，而且無法取得和/或管理這些應用程式。
+匿名使用者將繼承使用者層級全域預設權限原則。 如果使用者層級許可權Teams啟用應用程式，他們可以與會議中的應用程式互動。 匿名使用者只能與會議中現有的應用程式互動，且無法取得和/或管理這些應用程式。
