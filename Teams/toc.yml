@@ -445,6 +445,8 @@ items:
                 href: teams-analytics-and-reports/pstn-usage-report.md
               - name: Teams 即時活動使用報告
                 href: teams-analytics-and-reports/teams-live-event-usage-report.md
+              - name: Teams 資訊保護授權報告
+                href: teams-analytics-and-reports/information-protection-license-report.md
       - name: 記錄檔案、服務健康狀態和支援
         items:
           - name: 使用記錄檔案以監測並疑難排解 Teams 問題
