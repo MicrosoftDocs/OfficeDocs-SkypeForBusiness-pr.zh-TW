@@ -21,45 +21,46 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 瞭解如何使用通話品質儀表板 Power BI 報表來查看自動通話和通話佇列歷史資料。
-ms.openlocfilehash: 77b74eb48a16992f7f601bd6cccf3c61b421fc30
-ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
+description: 瞭解如何使用通話品質儀表板Power BI報表來查看自動通話和通話佇列歷史資料。
+ms.openlocfilehash: 994e135cfd579d473da02879adde0d3603ab0ed2
+ms.sourcegitcommit: 0122be629450e203e7143705ac2b395bf3792fd3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53023244"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53129333"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自動呼叫&通話佇列歷史報告
 
-CQD Teams 自動&通話佇列歷史報告 Power BI Template 提供下列三個報告：
+CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告：
 
-- 自動助理 – 顯示自動電話機來電的分析。
-- 通話佇列 – 顯示來電佇列來電的分析。
-- 代理人時程表 – 顯示在通話佇列通話中作用中的代理人時程表視圖。
+- [自動助理](media/cqd-teams-aa-cq-historical-report-sample-aa.png) – 顯示自動助理來電的分析。
+- [通話佇列](media/cqd-teams-aa-cq-historical-report-sample-cq.png) – 顯示來電佇列來電的分析。
+- [代理人時程表](media/cqd-teams-aa-cq-historical-report-sample-at.png) – 顯示在通話佇列通話中作用中的代理人時程表視圖。
 
 這些報告使用來自通話 [品質儀表板資料](CQD-Power-BI-query-templates.md) 存放區的資料。 它們允許組織報告自動電話機和通話佇列正在處理的通話數目。  他們也提供深入見解，讓代理人在通話佇列中的績效。
 
-## <a name="what-are-the-requirements"></a>需求是什麼？ 
+## <a name="prerequisites"></a>必要條件
 
-您需要安裝 Power BI Desktop。 您可以從 [Microsoft Windows Store 安裝](https://aka.ms/pbidesktopstore)。
+### <a name="power-bi-desktop"></a>Power BI Desktop
+您必須安裝Power BI Desktop。 您可以從 Microsoft Windows [Store 安裝](https://aka.ms/pbidesktopstore)。
 
-您可以使用免費的 Power BI Desktop 版本。 最低相容版本為 2020 年 9 月 (2.85.681.0) 。
+您可以使用免費版本的 Power BI Desktop。 最低相容版本為 2020 年 9 月 (2.85.681.0) 。
 
-## <a name="permissions-to-access-the-cqd-pipeline"></a>存取 CQD 管道的許可權
+### <a name="permissions-to-access-the-cqd-pipeline"></a>存取 CQD 管道的許可權
 
 您用於查看 AA & CQ 分析歷史報表的帳戶必須擁有存取 CQD 資料管道的許可權。 詳細資訊請參閱 [CQD 存取角色](./turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)。
 
 ## <a name="installation"></a>安裝 
 
-下列步驟假設您已經在電腦上安裝 Power BI Desktop，而且您的帳戶具有存取 CQD 資料管道的必要許可權。
+下列步驟假設您已經在電腦上Power BI Desktop，而且您的帳戶具有存取 CQD 資料管道的必要許可權。
 
 執行下列步驟：
 
-- 下載 [CQD Power BI 查詢範本](https://www.microsoft.com/download/details.aspx?id=102291) ，然後將 zip 檔案儲存到您電腦的目錄。
+- 下載[CQD Power BI查詢範本，](https://www.microsoft.com/download/details.aspx?id=102291)然後儲存 zip 檔案至您電腦的目錄。
 
 - 按兩下 zip 檔案以開啟它。
 
-- 按兩下 「CQ 與 AA 合併分析 20201105.pbit」範本檔案，然後啟動 Power BI Desktop。
+- 按兩下 「CQ 和 AA 合併分析 20201105.pbit」範本檔案，Power BI Desktop啟動。
 
 - 系統會提示您選取 CQD 資料管道區域。 選取租使用者所在的區域。
 
@@ -86,7 +87,7 @@ CQD Teams 自動&通話佇列歷史報告 Power BI Template 提供下列三個�
 
   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="顯示登入的螢幕擷取畫面":::
 
-- 選取 **連接** 並觀看資料重新更新。
+- 選取 **連線** 並觀看資料重新更新。
 
 ## <a name="data-latency-and-aa--cq-analytics"></a>資料延遲和 AA & CQ 分析
 
@@ -150,7 +151,7 @@ CQD Teams 自動&通話佇列歷史報告 Power BI Template 提供下列三個�
 |AA 中的平均秒數<br>平均本機號碼動作 |AAChainDuration<br>AACallerActionCount     |無                                                             |
 |通話結果                                    |AACallResult<br>TotalCallCount             |無                                                             |
 |本機號碼動作計數                            |AACallerActionCount<br>TotalCallCount      |無                                                             |
-|報表的下區段                         |AA 名稱<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>通話類型<br>TotalCallCount |無                |
+|報表的下半部                         |AA 名稱<br>AACallFlow<br>AACallResult<br>AAChainDuration<br>通話類型<br>TotalCallCount |無                |
 
 #### <a name="fautoattendant-cqd-fields-description"></a>fAutoAttendant CQD 欄位描述
 
@@ -279,7 +280,7 @@ CQD Teams 自動&通話佇列歷史報告 Power BI Template 提供下列三個�
 |代理人名稱                                    |代理人名稱                            |無                  |
 |通話佇列名稱                               |通話佇列名稱                       |無                  |
 |#Calls代理程式                               |代理人名稱<br>通話計數<br>日期      |無                  |
-|由代理人和通話佇列發佈          |代理人名稱<br>通話計數<br>通話持續時間 (分鐘) <br>通話佇列名稱 |無                      |
+|按代理人和通話佇列發佈          |代理人名稱<br>通話計數<br>通話持續時間 (分鐘) <br>通話佇列名稱 |無                      |
 |左下角                                   |代理人名稱<br>第二 (的平均通話) <br>通話計數<br>通話持續時間 (分鐘) <br>通話佇列名稱 | 無 |
 |按代理人名稱 (通話) 通話持續時間 |代理人名稱<br>第二 (的平均通話) <br>通話計數<br>通話持續時間 (分鐘) <br>通話佇列名稱 | 無 |
 

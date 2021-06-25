@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: anwara
-description: 瞭解溝通合規性，即測試人員風險解決方案集的一部分，從 Microsoft Teams 的觀點 (這是 M365 通訊合規性功能的一) 。
+description: Learning，這是測試人員風險解決方案集的一部分，從 Microsoft Teams 的觀點 (這是 M365 通訊合規性功能的一) 。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +16,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf032669edc7255571e2501774ac0d0ee0df47d8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c5957e8900a9b3d9915a88e3ad8bf5e18c7a08b3
+ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121531"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53126899"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>通訊合規性Microsoft Teams
 
 通訊合規性是公司內部的Microsoft 365風險解決方案，可協助偵測、捕獲及處理貴組織中不當的郵件，協助將通訊風險降到最低。
 
-針對Microsoft Teams，通訊合規性可協助識別下列不當Teams頻道[](/microsoft-365/compliance/communication-compliance-feature-reference)或 1：1 和群組聊天：
+針對 Microsoft Teams，通訊合規性可協助識別 Teams[](/microsoft-365/compliance/communication-compliance-feature-reference)頻道、私人 Teams 頻道或 1：1 和群組聊天中的下列不當內容類型：
 
 - 令人反感、褻褻和騷擾的語言
 - 成人、狂犬和 Gory 影像
@@ -37,7 +37,7 @@ ms.locfileid: "51121531"
 
 ## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>如何使用通訊合規性Microsoft Teams
 
-通訊合規性Microsoft Teams緊密整合，有助於將貴組織的通訊風險降到最低。 在您已建立第一個通訊合規性政策之後，您可以主動管理不當的郵件Microsoft Teams自動在通知中標出的內容。
+通訊合規性Microsoft Teams緊密整合，有助於將貴組織的通訊風險降到最低。 在您建立第一個通訊合規性政策之後，您可以主動管理Microsoft Teams自動在通知中標記的郵件和內容。
 
 ### <a name="getting-started"></a>快速入門
 
@@ -45,12 +45,12 @@ ms.locfileid: "51121531"
 
 Teams系統管理員可以在下列層級設定通訊合規性政策：
 
-- **使用者層級**：此層級原則適用于個別使用者Teams，或可能適用于Teams使用者。 這些策略涵蓋這些使用者可能會以 1：1 或群組聊天傳送的郵件。 使用者聊天通訊會自動監控所有使用者Microsoft Teams使用者是成員的所有通訊。
-- **Teams層級**：此層級原則適用于 Microsoft 小組頻道。 這些方針僅涵蓋在頻道Teams的郵件。
+- **使用者層級**：此層級原則適用于個別使用者Teams或可能適用于Teams使用者。 這些策略涵蓋這些使用者可能會以 1：1 或群組聊天傳送的郵件。 使用者聊天通訊會自動監控使用者Microsoft Teams使用者的所有位置。
+- **Teams層級**：此層級原則適用于 Microsoft 小組頻道，包括私人頻道。 這些方針僅涵蓋在頻道Teams的郵件。
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>在郵件中處理不當Microsoft Teams
 
-當您已針對這些郵件Microsoft Teams並收到通訊合規性通知之後，貴組織的合規性審查者可以針對這些郵件採取行動。 校閱者可以檢查通訊合規性通知，並移除已標有標Microsoft Teams。
+在您針對郵件已建立策略並收到Microsoft Teams通訊合規性通知之後，組織中的合規性審查者可以針對這些郵件採取行動。 校閱者可以檢查通訊合規性通知，並移除已標有標Microsoft Teams。
 
 ![移除郵件Teams](./media/communication-compliance-remove-teams-message.png)
 

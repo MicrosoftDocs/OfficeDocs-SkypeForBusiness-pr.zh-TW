@@ -19,12 +19,12 @@ ms.custom:
 description: 針對系統管理員PowerPoint、部署及執行這些訓練影片、幻燈片組、教學課程及其他資源Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 664e9649d5fab01fb40124aa383943ec496ce452
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: dfb21be79f22628d7b30b2328ef18248cd35864e
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105025"
+ms.locfileid: "53113962"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>開始使用系統管理訓練Microsoft Teams
 
@@ -42,7 +42,6 @@ ms.locfileid: "53105025"
 |---------|---------|---------|
 |[**Teams IT**](https://aka.ms/MicrosoftTeamsforIT)的基本功能 - MicrosoftMicrosoft Teams it" 影片系列將說明您 – 系統管理員 – 如何推出、設定及管理Teams。     |[**支援使用遠端Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - 取得您需要的指引 ，包括訓練連結，以支援在家工作的使用者。         |[**管理 IT 團隊共同合作**](/learn/paths/m365-manage-team-collaboration)- 瞭解如何使用Teams，促進組織內部跨應用程式和裝置之間的團隊合作與溝通。         |
 |[**服務採用專家認證**](/learn/paths/m365-service-adoption)- Microsoft 服務採用專家認證課程提供Teams。 瞭解如何在貴組織中進行 Microsoft 服務的採用。     |[**Microsoft 服務採用專家Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index)簡介 - Microsoft 服務採用專家認證課程Teams。 瞭解如何在貴組織中進行 Microsoft 服務的採用。        |[**Microsoft 365**](/learn/certifications/m365-teamwork-administrator)認證：團隊合作系統管理員關聯 - Microsoft 365 團隊合作系統管理員設定、部署及管理 Microsoft 365 或 Office 365 工作負載，例如 SharePoint (線上、內部部署和混合式) 、OneDrive 和 Teams。        |
-
 
 <h2>技術訓練</h2>
 
@@ -65,7 +64,7 @@ ms.locfileid: "53105025"
 
 <h2>Teams 會議室IT 與 AV 專業人員&基礎</h2>
 
-<p>下表包含全面影片訓練的連結，以及隨附的PowerPoint套 (PDF 格式) ，Microsoft Teams 會議室。  
+<p>下表包含全面影片訓練的連結，以及隨附PowerPoint套 (PDF 格式) ，Microsoft Teams 會議室。  
 
 | 模組 | 影片 | PowerPoint套 (PDF)   |
 | ------------ | -------------------- | -------------------- |
@@ -89,6 +88,7 @@ ms.locfileid: "53105025"
 | 單元 2：規劃 Android Microsoft Teams裝置|[甲板](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 |單元 3：Microsoft Teams Android 裝置的功能 |[甲板](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
 |單元 4：Microsoft Teams Android 裝置|[甲板](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
+|單元 5：Microsoft Teams Android 裝置 - 疑難排解 |[甲板](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
 
 <h2>互動式指南</h2>
 
@@ -108,7 +108,7 @@ ms.locfileid: "53105025"
 | 為第一Microsoft Teams員工進行配置                           | 瞭解如何為第一線員工Microsoft Teams及部署正確的環境。                                                                                                                  | [第一Microsoft Teams工作人員指南的組組](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | 前線員工身分識別：授權 IT、主管和前線員工                    | 瞭解如何與現有人力資源Microsoft Teams整合、設定輕量委派身分識別管理，以及為使用共用裝置的人設定簡化的登錄和順暢的轉換。                                                                                                                  | [前線員工身分識別指南](https://aka.ms/FLWIdentityIG)              |
 | 部署Microsoft Teams 會議室                           | 瞭解如何在系統管理中心建立及設定帳戶Microsoft Teams 會議室管理Microsoft Teams裝置。                                                                                                                  | [部署Microsoft Teams 會議室](https://aka.ms/teamsroomslab)              |
-|使用Teams Android 裝置|瞭解如何管理及升級手機Microsoft Teams、Microsoft Teams顯示、Microsoft Teams 會議室和Microsoft Teams面板。|[使用Microsoft Teams Android 裝置](https://aka.ms/teamsandroiddeviceslab)|
+|使用Teams Android 裝置|瞭解如何管理及升級手機、Microsoft Teams、Microsoft Teams、Microsoft Teams 會議室和Microsoft Teams面板。|[使用Microsoft Teams Android 裝置](https://aka.ms/teamsandroiddeviceslab)|
 
 <h2>快速入門手冊</h2>
 
@@ -119,6 +119,4 @@ ms.locfileid: "53105025"
 
 - [教學課程：Teams 中的會議](tutorial-meetings-in-teams.yml)
 - [教學課程：Teams 的音訊會議](tutorial-audio-conferencing.yml)
-- [教學課程：瞭解通話Teams](tutorial-calling-in-teams.yml)
-
-
+- [教學課程：瞭解在 Teams](tutorial-calling-in-teams.yml)
