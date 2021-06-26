@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ede7588f0de085c41eeecd1e8e2e0f496772b11
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: ab0ae8fe2e1e3fee37a01de178c62fd45558b1d0
+ms.sourcegitcommit: a07040d1527692b4dbde7bd2c21994377ad0a92e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993866"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "53114122"
 ---
 # <a name="required-mobile-diagnostic-data-for-microsoft-teams"></a>Microsoft Teams 適用的行動裝置必要診斷資料
 
@@ -522,7 +522,7 @@ ms.locfileid: "52993866"
 - **已啟用** - 與啟用初次執行體驗 (FRE) 流程中的通知相關：
   - 已在 [初次執行體驗 (FRE)] 中選取 **啟用通知**。
   - 已在提醒中選取 [啟用]。
-- **啟用/停用** - 通話權限或連絡人權限 (僅限 Android)。
+- **啟用/停用** - 通話權限或連絡人權限 (僅適用 Android)。
 - **啟用、稍後** - 通知權限提示 **[接受]** 按鈕、初次執行體驗 (FRE) 通知權限 (iOS)。 這會擷取已啟用通知功能的人數，並提供相關資訊。
 - **enablediOSPrompt** - 使用者實際上會在 iOS 通知權限提示中啟用通知。 這會在通知權限提示中提供從 iOS 啟用通知的使用者相關資訊。
 - **enabledQuietDays** - 已啟用免打擾天數。
@@ -1249,6 +1249,9 @@ ms.locfileid: "52993866"
 -- **TfLSignInSuccessful**：當使用者成功登入個人 Microsoft 帳戶時觸發。 這是要了解登入和註冊可靠性，並主動識別並修正問題所需。
 -- **TfWFreemiumSignInSuccessful**：當使用者成功登入免費增值帳戶時觸發。 這是要了解登入和註冊可靠性，並主動識別並修正問題所需。
 -- **TfWSignInSuccessful**：當使用者成功登入公司或學校帳戶時觸發。 這是要了解登入和註冊可靠性，並主動識別並修正問題所需。
+- **appDrawer** - 成功開啟應用程式啟動器時觸發。
+- **appPolicyChange** - 當使用者在本機重設並儲存新 Tab 順序時觸發。
+- **app_stageview** - 成功呈現階段檢視時觸發。
 
 ### <a name="scenario"></a>案例
 
@@ -1341,6 +1344,40 @@ ms.locfileid: "52993866"
 - **show_meeting_participants** - 確認顯示會議參與者清單成功或失敗。
 - **search** - 確認整個搜尋工作階段成功或失敗。
 - **time_based_retention_shared_channel** - 擷取剪除資料庫的效能資料。
+- **sync_user_entitlements_and_app_definitions** - 需要服務呼叫才能擷取 aggregatedEntitlements。
+- **bots_load_mediacards** - 在聊天和頻道中設定連接器卡片時，擷取執行個體。
+- **bots_load_one_card** - 擷取在與 Bot 聊天時，是否至少有一張卡片存在並載入。
+- **load_assignments** - 擷取載入指派應用程式的例外處理。
+- **load_channel_tab** - 擷取頻道索引標籤的載入。(僅適用 Android)
+- **load_messaging_extension_results** - 擷取訊息延伸模組搜尋/查詢結果的載入。 (僅適用 Android)
+- **load_static_tab** - 擷取靜態索引標籤的載入。(僅適用 Android)
+- **app_authenticated** - 確認驗證成功且已擷取權杖。 (僅適用 Android)
+- **blocked_by_conditional_access** - 在驗證中收到條件式存取封鎖錯誤碼時。 (我們嘗試在該情況下強制更新主要權杖。) (僅適用 Android)
+- **get_resource_token_sync** - 當我們嘗試同步擷取應用程式資源的權杖時觸發。 (僅適用 Android)
+- **get_resource_token_async** - 當我們嘗試以非同步方式擷取應用程式資源的權杖時觸發。 (僅適用 Android)
+
+## <a name="oneplayer-events"></a>OnePlayer 事件
+> [!NOTE]
+> 針對 OnePlayer 事件，僅適用 [OnePlayer 事件的屬性清單](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/212efdd56d2d52faacd03dd70d367ca0b5895e3a/Teams/policy-control-diagnostic-data-mobile.md#property-lists-for-oneplayer-events)中所列的屬性。
+### <a name="oneplayer-user-action-events"></a>OnePlayer 使用者動作事件
+- **PlayerPlay** - 確認使用者是否在 OnePlayer 檢視中點選播放按鈕。
+- **PlayerPause** - 確認使用者是否在 OnePlayer 檢視中點選暫停按鈕。
+- **PlayerSeek** - 確認使用者是否使用 OnePlayer 檢視中的搜尋列或前進/後退按鈕來尋找影片 (僅適用 iOS)。
+- **VideoPlayerSeekForward** - 確認使用者是否使用 OnePlayer 檢視中的搜尋列或前進按鈕來尋找影片 (僅適用 Android)。
+- **VideoPlayerSeekBackward** - 確認使用者是否使用 OnePlayer 檢視中的搜尋列或後退按鈕來尋找影片 (僅適用 Android)。
+- **ChangePlaybackSpeed** - 確認使用者是否選取新的播放速度。
+- **changePlaybackQuality** - 確認使用者是否選取新的影片品質進行播放。
+- **ShareVideo** - 確認使用者是否點選共用圖示。
+- **PlayerClose** - 確認使用者是否點選關閉圖示。
+- **VideoCaptionsOn** - 確認使用者是否開啟字幕。
+- **VideoCaptionsOff** - 確認使用者是否關閉字幕。
+- **ChangePlayerOrientation** - 確認使用者是否變更裝置的方向。
+- **OpenPlayerSettingsMenu** - 確認使用者是否開啟設定功能表。
+- **OpenPlaybackSpeedMenu** - 確認使用者是否開啟播放速度功能表。
+- **PlayerAction** - 由主應用程式提供的自訂動作。
+
+### <a name="oneplayer-playback-events"></a>OnePlayer 播放事件
+- **PlayerHeartbeat** - 這是會傳送播放器和播放的目前狀態至記錄的週期性事件。
 
 ## <a name="property-lists"></a>屬性清單
 
@@ -1439,3 +1476,101 @@ ms.locfileid: "52993866"
 | 屬性名稱 | 說明                                                                                    |
 |---------------|------------------------------------------------------------------------------------------------|
 | Trace_message | 包含錯誤字串和可能發生失敗的原因之詳細資料 |
+
+## <a name="property-lists-for-oneplayer-events"></a>OnePlayer 事件的屬性清單
+
+### <a name="1-properties-sent-with-all-oneplayer-events"></a>1. 隨著所有 OnePlayer 事件傳送的屬性
+##### <a name="11-standard-properties"></a>1.1 標準屬性
+| 屬性名稱 | 說明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| eventType | 事件類型 (AppLogic、ErrorAlert、Performance、UserAction) |
+| accountType   | 使用者帳戶類型 (例如，商務) |
+| component     | OnePlayer |
+| language      | 應用程式的地區設定/語言 |
+| platform      | OnePlayer 的平台 (iOS/Android) |
+| tenantId      | 租用戶識別碼|
+| version       | 使用的 OnePlayer 版本 |
+| aadUserId     | 使用者識別碼 |                                
+
+##### <a name="12-player-properties"></a>1.2 播放器屬性
+| 屬性名稱 | 說明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| engineName    | 基礎播放器名稱 (iOS 為 AVFoundation/Android 為 ExoPlayer) |
+| engineVersion | 作業系統版本 |
+| loadMode      | 播放器的載入模式 |
+| playbackSessionId | 播放的工作階段識別碼 |
+
+##### <a name="13-host-properties"></a>1.3 主機屬性 
+| 屬性名稱 | 說明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| hostIntegrationType | 主機整合類型 (例如 Package、OneUp) |
+| hostPlatform  | 主應用程式的平台 |
+| hostProperties| 主機屬性 (如果有) (僅適用 iOS) |
+| hostApp       | 主應用程式的名稱 |
+| hostVersion   | 主應用程式的版本 |
+
+##### <a name="14-experimentation-properties"></a>1.4 實驗屬性
+| 屬性名稱 | 說明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| ring          | 使用者所屬的通道 |
+| hostSettings  | 主應用程式所設定的屬性 (moreOptionsEnabled、shareFeatureEnabled、playbackQualityFeatureEnabled、playbackSpeedFeatureEnabled) |
+| flightFilters | 描述 |
+| flightsOverridden | 是否覆寫正式發行前小眾測試版的布林值 |
+
+##### <a name="15-service-properties"></a>1.5 服務屬性
+| 屬性名稱 | 說明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| contentType   | 提供的內容類型 |
+| environment   | 環境名稱  |
+| mediaService  | 使用的媒體服務 (SPO、ODB、ODC、IC3-AMS、Unknown) |
+| mediaType     | 播放的媒體類型  |
+| playbackTech  | 媒體的播放技術  |
+| correlationId | 媒體的相互關聯識別碼 (如果有) |
+
+### <a name="2-properties-sent-with-all-oneplayer-user-action-events"></a>2. 隨著所有 OnePlayer 使用者動作傳送的屬性 
+| 屬性名稱 | 說明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| actionType    | 執行的動作類型，例如點選、拖曳和撥動 (僅適用 iOS)|
+| isIntentional | 動作是否為刻意的布林值 (僅適用 iOS) |
+
+#### <a name="21-properties-sent-with-changeplaybackquality-event"></a>2.1 隨著 changePlaybackQuality 事件傳送的屬性
+| 屬性名稱 | 說明                                                                                    |
+|---------------|------------------------------------------------------------------------------------------------|
+| currentPlaybackQuality | 目前的播放品質 |
+
+#### <a name="22-properties-sent-with-changeplaybackspeed-event"></a>2.2 隨著 ChangePlaybackSpeed 事件傳送的屬性
+| 屬性名稱 | 說明 |
+|---------------|------------------------------------------------------------------------------------------------|
+| previousPlaybackRate  | 影片先前的播放速率 (僅適用 iOS) |
+| currentPlaybackRate   | 影片目前的播放速率 |
+
+#### <a name="23-properties-sent-with-playerseek-event-ios-only"></a>2.3 隨著 PlayerSeek 事件傳送的屬性 (僅適用 iOS)
+| 屬性名稱 | 說明 |
+|---------------|------------------------------------------------------------------------------------------------|
+| seekSource    | 尋找的來源 (seekbar、forwardButton、backwardButton) |
+| seekValue     | 尋找位置 |
+
+### <a name="3-properties-sent-with-oneplayer-heartbeat-event"></a>3. 隨著 OnePlayer 活動訊號事件傳送的屬性
+| 屬性名稱 | 說明 |
+|---------------|------------------------------------------------------------------------------------------------|
+| mediaCurrentTime | 媒體目前的播放時間 (僅適用 iOS)|
+| isLoaded | 媒體是否載入 |
+| loadTimeMs | 載入耗費的時間 (以毫秒為單位) |
+| numberOfStalls | 播放期間停頓次數 (僅適用 iOS) |
+| bufferingCount | 播放期間停頓次數 (僅適用 Android) |
+| observedBitrate | 播放期間觀察到的位元速率 (僅適用 iOS) |
+| avgBitrateBitsPerSecond | 播放期間觀察到的位元速率 (僅適用 Android) |
+| playedSeconds | 事件前已播放秒數 |
+| rebufferingSeconds | 播放期間重新緩衝秒數 |
+| timeSinceSourceSetMs | 設定來源後的時間 (毫秒) |
+| triggerType | 觸發程式類型 (buffering、error、errorLog、canPlayThrough、intervalHeartbeat、sourceset、unload) |
+| errorId | 錯誤的錯誤識別碼 (如果有) |
+| errorCorrelationId | 錯誤的相互關聯識別碼 (如果有) |
+| errorLog | 錯誤的錯誤記錄 (如果有) |
+| errorType | 錯誤的錯誤類型 (如果有) |
+| errorMessage | 錯誤的錯誤訊息 (如果有) |
+| errorStack | 錯誤的延伸錯誤資訊 (如果有) |
+| metaUrl | 媒體的中繼 URL |
+| odspDocId | 媒體的 ODSP 文件識別碼 |
+| siteId | 媒體的網站識別碼 |
+| teamsCallId | 媒體的 Teams 通話識別碼 (如果有) |
