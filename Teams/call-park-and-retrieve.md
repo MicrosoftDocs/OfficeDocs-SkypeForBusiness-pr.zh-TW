@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解如何在通話中使用通話保留和Microsoft Teams。
-ms.openlocfilehash: 11c0abc5c9cd49a524417ce9706129cea9ccae1e
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: fb60e09148f2b96ce9b4d059d7d112c817239822
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197578"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147181"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>在通話中呼叫Microsoft Teams
 
@@ -34,7 +34,7 @@ ms.locfileid: "51197578"
 
 使用呼叫停駐的一些常見案例有：
 
-- 接待員會為在工廠工作的人打電話。 然後，接待員在公用電話系統上宣佈通話和代碼號碼。 接著，負責通話的使用者可以在工廠Teams電話，然後輸入代碼以取回通話。
+- 接待員會為在工廠工作的人打電話。 然後，接待員在公用電話系統上宣佈通話和代碼號碼。 接著，通話使用者可以在工廠Teams接聽電話，然後輸入代碼以取回通話。
 - 使用者將通話放在行動裝置上，因為裝置電池電力不足。 然後，使用者可以輸入代碼，從電話機Teams通話。
 - 支援代表會將客戶電話放在Teams頻道上傳送公告，讓專家取回來電並協助客戶。 專家在用戶端中輸入Teams以取回通話
 
@@ -47,6 +47,8 @@ ms.locfileid: "51197578"
 
 您必須是管理員Teams才能設定呼叫駐位和取回。 它預設為停用。 您可以為使用者啟用它，然後使用呼叫停駐策略建立使用者群組。 當您將相同的原則套用至一組使用者時，他們可以在使用者之間停駐和取回通話。
 
+呼叫代答號碼的範圍已預先定義為 10-99，且無法修改。 第一個已停駐的通話會呈現 10 的代答碼，下一個已停駐的通話會呈現 11 的代答碼，等等。 直到 99 呈現為代答程式碼。 之後，呈現的取件代碼會再次從 10 開始。  如果超過 89 個使用中的保留通話，則呈現的代答碼會持續遞增到 99 以上，如此一來，第 90 個有效保留的通話會呈現 100 個代答程式碼，第 91 個使用中的保留通話會呈現 101 的代答碼。
+
 若要啟用通話停駐策略
 
 1. 在系統管理中心的左側導Microsoft Teams，請前往 **語音**  >  **通話停駐區政策**。
@@ -57,7 +59,7 @@ ms.locfileid: "51197578"
 
 4. 選取 [儲存 **]**。
 
-您可以在清單中選取該策略，然後按一下編輯來 **編輯。**
+您可以在清單中選取該策略，然後按一下 編輯 來 **編輯。**
 
 為了讓該策略能夠執行，必須將它指派給使用者。 您可以 [個別指派該策略](assign-policies.md) 給使用者，或將使用者指派給群組。
 

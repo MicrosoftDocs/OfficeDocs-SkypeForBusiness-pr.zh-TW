@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在葡萄牙取得及管理葡萄牙地區電話號碼Microsoft Teams。
-ms.openlocfilehash: a7df7688e4d2f7178d794158506560944923e265
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: db9c80bd36e6fbceede52beafc8787513ea5c7e2
+ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50461033"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53147131"
 ---
 # <a name="phone-number-management-for-portugal"></a>電話葡萄牙號碼管理
 
@@ -35,7 +35,7 @@ ms.locfileid: "50461033"
 |**您想要做什麼？**|**下載正確的表單並傳送給我們**|
 |:-----|:-----|
 |取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。   <br/> |下載其中一個表單。 <br/>  [葡萄牙的新電話號碼要求 (v.5.0)  (pt-pt) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(pt-pt).pdf?raw=true) <br/>  [葡萄牙的新電話號碼要求 (v.5.0)  (en-us) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-portugal-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。<br/><br/> 您也必須填寫三方協定、簽署並 [傳送給我們](mailto:ptneu@microsoft.com)。 在您下單以取得新電話號碼之後，我們的 PSTN 服務台小組會將這份表單寄給您。 <br/><br/>|
-|將電話號碼轉接給我們。  <br/> | 下載此表單。 <br/>[葡萄牙 (LOA) 授權書 (所有號碼)  (v.5.0)  (pt-pt) ](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.5.0)-(pt-pt).pdf) <br/> <br/>填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。 <br/><br/> 您也必須填寫三方協定、簽署並 [傳送給我們](mailto:ptneu@microsoft.com)。 在您下單轉接電話號碼之後，我們的 PSTN 服務台小組會傳送此表單。<br/><br/>|
+|將電話號碼轉接給我們。  <br/> | 下載此表單。 <br/>[葡萄牙 (LOA) 授權書 (所有號碼)  (v.6.0)  (pt-pt) ](https://download.microsoft.com/download/1/b/d/1bd8641d-cfa5-4028-ba26-62e2430952fb/letter-of-authorization-(loa)-for-portugal-(all-numbers)-(v.6.0)-(pt-pt).pdf) <br/> <br/>填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。 <br/><br/> 您也必須填寫三方協定、簽署並 [傳送給我們](mailto:ptneu@microsoft.com)。 在您下單轉接電話號碼之後，我們的 PSTN 服務台小組會傳送此表單。<br/><br/>|
 |發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[傳送您想要](mailto:ptneu@microsoft.com) 發佈/取消發佈的電話號碼清單給我們。      <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |[傳送您想要](mailto:ptneu@microsoft.com) 轉換成服務號碼的使用者號碼清單給我們。 <br/> |
 |讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請 [連至 PSTN 服務台](contact-pstn-service-desk.md)。 |

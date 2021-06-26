@@ -1,11 +1,11 @@
 ---
-title: 墨西哥免付費撥號限制
-ms.author: crowe
-author: CarolynRowe
-manager: serdars
+title: 加拿大免付費撥號限制
+ms.author: v-lsaldanha
+author: lovina-saldanha
+manager: dansimp
 ms.reviewer: mikedav, oscarr
 ms.topic: reference
-ms.assetid: 576e0cc3-0a1a-43bf-a6fc-3a28e47ecd58
+ms.assetid: 4e3ffa25-762e-4066-acb2-15634818b586
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -23,15 +23,15 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解撥打墨西哥的免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
-ms.openlocfilehash: 93a7a92d15860519fe9a599cfb247982be1b0ac3
+description: 瞭解撥打加拿大免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
+ms.openlocfilehash: 85ac884050c69e5be64c99c9c07df7549b2b2a9a
 ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/25/2021
-ms.locfileid: "53142829"
+ms.locfileid: "53142909"
 ---
-# <a name="toll-free-dialing-restrictions-in-mexico"></a>墨西哥免付費撥號限制
+# <a name="toll-free-dialing-restrictions-in-canada"></a>加拿大免付費撥號限制
 
 [尋找其他國家/地區](../toll-free-dialing-limitations-and-restrictions.md)，或深入瞭解免付費撥號限制與限制。
 
@@ -39,7 +39,7 @@ ms.locfileid: "53142829"
 |:-----|:-----|
 |免付費通話是否可用？  <br/> |是  <br/> |
 |撥號格式 ()   <br/> | 844<br/>833<br/>855<br/>800<br/>866<br/>877<br/>888<br/>|
-|國家/地區 ISO 代碼  <br/> |Mx  <br/> |
+|國家/地區 ISO 代碼  <br/> |可以  <br/> |
 |涵蓋的島嶼/地區  <br/> |美屬薩摩亞、波地安那、安地安達和巴布達、巴塞羅群島、巴塞哥維尼亞、巴塞哥維納、巴塞哥維達、百慕達、英屬維爾京群島、加拿大、開曼群島、多明尼加、多明尼加共和國、格瑞那達、美國、美屬維爾京群島、北馬里安納群島、波多黎各、聖基茨和尼維斯、聖文森特和格林納丁斯群島St.Vincent、聖文森特和格林納丁斯群島St.Vincent、聖文森特、特立達和托巴哥、土克斯及開科斯群島、美國、美屬維爾京群島 <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |
 |行動網路可用性  <br/> |是  <br/> |

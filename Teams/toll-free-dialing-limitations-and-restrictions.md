@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 - seo-marvel-mar2020
-description: 瞭解撥打國家/地區免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
-ms.openlocfilehash: 2d4fe611683217d058e9fb2a9a8330c4d6e2798c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 瞭解撥打國家/地區免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
+ms.openlocfilehash: b56e923f12182501459c1eeab923bdb668c44dc3
+ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093893"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53142819"
 ---
 # <a name="toll-free-dialing-limitations-and-restrictions"></a>免付費電話的撥號限制
 
@@ -49,6 +49,7 @@ ms.locfileid: "51093893"
 > - [巴西](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)
 > - [汶萊](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brunei.md)
 > - [保加利亞](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bulgaria.md)
+> - [加拿大](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-canada.md)
 > - [智利](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chile.md)
 > - [中國 (北方)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinanorth-10-800-714-xxxx-range.md)
 > - [中國 (南方)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-chinasouth-10-800-140-xxxx-range.md)
@@ -101,6 +102,7 @@ ms.locfileid: "51093893"
 > - [土耳其](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-turkey.md)
 > - [阿拉伯聯合大公國 (UAE)](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-arab-emirates.md)
 > - [英國](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-kingdom-u-k.md)
+> - [美國](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-united-states-u-s.md)
 > - [烏拉圭](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-uruguay.md)
 > - [委內瑞拉](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-venezuela.md)
 > - [越南](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-vietnam.md)
