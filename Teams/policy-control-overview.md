@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7f642b1ce9a767c30077374aa193355edbbbef09
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: ed0e5aa3a39147238bf0ade57df509a31f0f13e8
+ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863214"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53142809"
 ---
 # <a name="policy-control-overview-for-microsoft-teams"></a>Microsoft Teams 原則控制概覽
 
@@ -35,7 +35,7 @@ Microsoft 致力於為您提供所需的資訊和控制，以便您在使用 Mic
 這些變更的其中一個部分，是提供新的及更新的使用者介面 (UI) 元素和原則設定。
 
 > [!IMPORTANT]
-> 如要進一步閱讀，請檢閱 Microsoft 365 的[原則控制概觀](/deployoffice/privacy/overview-privacy-controls)內容。
+> 如需進一步閱讀，請檢視 [Microsoft 365 Apps 企業版隱私權控制概觀](/deployoffice/privacy/overview-privacy-controls)。
 
 ## <a name="diagnostic-data-sent-from-microsoft-365-apps-for-enterprise-to-microsoft"></a>從 Microsoft 365 Apps 企業版傳送到 Microsoft 的診斷資料
 

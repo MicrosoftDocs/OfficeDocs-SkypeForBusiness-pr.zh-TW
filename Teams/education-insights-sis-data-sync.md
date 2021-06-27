@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b0d9ae3788be09e4a66724e6122791a91b6879f
-ms.sourcegitcommit: 35ee6946b6f560a268d1313bf51c3cc94d8d52f1
+ms.openlocfilehash: 5d5ba5c2c5179d5c333472450fd9b2e9c270a4e9
+ms.sourcegitcommit: 7579dda8018691eb1a724cb0311b53333dc3ae5a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52997732"
+ms.lasthandoff: 06/25/2021
+ms.locfileid: "53142839"
 ---
 # <a name="sync-student-information-system-sis-data-with-education-insights"></a>將學生資訊系統 (SIS) 資料與 Education Insights 同步處理
 送入 [Education Insights](class-insights.md) 中的資料越多，授課者更能夠支援其學生，且教育領導者也更能夠支援授課者。
@@ -33,43 +33,40 @@ ms.locfileid: "52997732"
 ## <a name="plan-your-school-data-sync-integration"></a>規劃您的學校資料同步處理整合
 Microsoft 學校資料同步處理 (又名 SDS) 可提供學校資訊系統 (又名 SIS) 資料及其教育系統的階層結構，並且會對應使用者被指派的位置，以及提供有關學生和組織階層結構的其他資料。
 
-Insights 搭配使用 [SDS V2 檔案格式](/schooldatasync/sds-v2-csv-file-format)或以上版本時效果最好，但也支援 *有限功能* 的 [SDS V1 檔案格式](/schooldatasync/school-data-sync-format-csv-files-for-sds)。
+Insights 搭配使用 [SDS V2.1 檔案格式](/schooldatasync/sds-v2.1-csv-file-format) 時效果最好，但也支援 *有限功能* 的 [SDS V2 檔案格式](/schooldatasync/sds-v2-csv-file-format) 和 [SDS V1 檔案格式](/schooldatasync/school-data-sync-format-csv-files-for-sds)。
 
 
-### <a name="differences-between-sds-v1-and-v2-file-formats"></a>SDS V1 和 V2 檔案格式之間的差異
+### <a name="differences-between-sds-v1-and-v2-file-formats"></a>SDS V1 和 V2 檔案格式之間的差异
 
-若要充分利用深入解析，建議使用檔案格式 v2 或 v2.1 (即將推出)
-
-| 資料類型 | V1 | V2 |
+| 資料類型 | V1 | V2 和 V2.1 |
 |:--- |:--- |:--- |
-| **使用者** | V1 格式包含的 **僅有授課者**，因此若要為教育領導者設定組織層級權限，您需要手動定義每個人的權限。 | V2 格式包含 **所有角色**，因此您可以指派以角色為基礎的權限。 |
-| **組織** | V1 格式包含 **僅學校**，因此只能看到一個彙總層級 (所有學校)。 您可以使用一般清單放大至特定學校，但此清單可能包含大量學校或包含難以比較的不同類型學校 (如小學到中學或科學到藝術學校)。<br/><br/> 當有階層結構時，您可以建立易辨識的層級，例如科學或藝術系。| V2 格式包含 **您所在地區或機構的完整階層結構**，包括大學、學院、學系、校區、地區、計劃等。<br/><br/> 使用階層圖，您可以按階層結構的每個層級查看相關彙總，快速比較每個層級的組織單位，為特定層級指派權限，按組織層級設定目標，等等。|
+| **使用者** |僅支援‘教育者’角色，因此需要手動設定教育領導者的組織層級許可權|支援多個角色，以便設定角色型權限|
+| **組織** | 僅支援‘學校’、匯總層級。<br><br>因此，不提供多重匯總層級，並提供比較不同類型學校 (例如小學與中學、科學與藝術學校) 的有限能力|支援多層階層圖，包括學區/機構、大學、學院、教職員、校園、地區、方案等。<br><br>允許多個匯總層級，並輕鬆比較每個層級的組織單位、指派權限至特定層級、根據組織層級設定目標等等。|
+| **其他選用資訊** |無|**僅 V2.1 檔案格式**<br><br>*學術課程* - 工作階段的時間範圍 (學期、學年等)<br><br>人口統計和學生旗標* - 種族、民族和性別等資料，以及特殊方案 (IEP，504)|
 
 > [!NOTE]
 > 從 2021 年 7 月 15 日開始，客戶將無法上線檔案格式 v2，且必須改為使用 v2.1 格式，所有未來的升級和新功能都會以 v2.1 格式完成，而且會完全向下相容於檔案格式 v1。
 
-## <a name="best-practices"></a>最佳做法
+### <a name="best-practices"></a>最佳做法
+
 階層的精確對應以及每個人在該階層中所屬的位置，使 Insights 能够為不同類型的教育領導者提供準確的資料和更精確和相關的深入解析。
 
 在這裡提供的詳細資料越多，報告和焦點就越詳細、越相關。
 
-以下是一些確保 SDS 順利部署的最佳做法，以讓您的使用者能够充分利用 Insights。
+#### <a name="file-format-version-to-use-adn-data-to-sync"></a>要使用的檔案格式版本與要同步的資料
+*   如 [此處](/schooldatasync/sds-for-insights-overview#education-insights-capabilities-matrix-and-sds-v21-csv) 所述，使用檔案格式 V2.1 並同步教育版 Insights 所使用的選擇性資料。
 
-### <a name="file-format-version-to-ue"></a>至 ue 的檔案格式版本
-*   使用檔案格式 V2.1 (即將推出) 並同步教育版 Insights 所使用的選擇性資料
-
-### <a name="users-and-roles"></a>使用者與角色
+#### <a name="users-and-roles"></a>使用者與角色
 *   確認 **所有使用者都列在您提供並同步處理的檔案中**。 這包括所有需要查看所涵蓋組織單位資料的學生和教職員。
-    如果目前只有授課者列在 SIS 中，請在將檔案上傳至 SIS 並同步資料之前手動新增其他使用者。
-    Insights 收集的統計資料只來自註冊的學生，如果遺漏某些學生，這會使資料和結論產生誤導。
+*   如果目前只有授課者列在您的 SIS 中，請在將檔案上傳至 SIS 並同步資料之前手動新增全部其他使用者。 Insights 收集的統計資料僅來自註冊的學生，如果遺漏某些學生，將會使資料和結論產生誤導。
     
-*   確保 **提供每位使用者的名字和姓氏**。 否則，可由電子郵件地址參照它們，這在報告和焦點 (具有學生活動或表現之深入解析的卡片) 中提供非最佳體驗。
+*   如果您也使用 SDS 進行佈建，請務必 **提供每個使用者的名字和姓氏**。 否則，系統將會透過學生的電子郵件地址進行參照，導致非最佳體驗。
 
-*   成績/年級必須依據此[對應清單](#supported-grade-level-values)。 
+*   年級/學年等級必須以此份 [對應清單](#supported-grade-level-values) 為依據。 
 
-*   請務必將 **年級/成績新增到所有學生**，才能彙整並篩選活動資料。    
+*   請務必 **將學年/年級等級新增至所有學生** 。    
 
-*   請確保 **將每位使用者指派到其相關的組織單位**。 如此一來，教育版 Insights 將不會在教育版 Inisghts 焦點中顯示誤導的資料。
+*   請確保 **將每個使用者指派到其相關的組織單位**。
 
     *   一位學生可以與多個組織單元相關聯，例如，在特殊課程或兩個學院註冊的學生。 如果學生擁有多個組織單位，請在學生的使用者檔案中各提供一行。
     
@@ -77,18 +74,18 @@ Insights 搭配使用 [SDS V2 檔案格式](/schooldatasync/sds-v2-csv-file-form
     
 *   **這個角色至關重要**。 雖然此清單為封閉式，請嘗試將[此清單](/schooldatasync/sds-v2-csv-file-format#enumerated-values-enum-supported)的角色與您上傳的每位使用者的實際角色相對應。 這樣，您就可以相應地指派以角色為基礎的權限。 例如，為所有校長提供查看其學校班級的權限，或為所有教授提供查看其教職員的權限。 
 
-### <a name="organizations"></a>組織
+#### <a name="organizations"></a>組織
 
-* 確保 **反映出組織的真實完整階層圖**。 這可以透過手動新增檔案來實現。 在某些情况下，SIS 中沒有反映這種階層。 不過，這裡可能需要按階層結構的每個層級查看相關的彙總，為特定層級指派權限，按組織層級設定目標等等。 
+* 確保 **反映出組織的真實完整階層圖**。 在某些情況下，此階層圖不會反映在 SIS 中，在這種情況下，需要手動新增到 CSV 檔案，以完成同步處理。
 
-* 確保 **組織樹狀目錄下的所有組織單元都包含學生或班級**，以便為他們彙總學生資料。 我們建議學生處於樹的最低支。
+* 確保 **組織樹狀下的所有組織單元都包含學生或班級**。 我們建議學生處於樹的最低支。
 
 > [!NOTE]
 > 有關 SDS 部署的更多詳細資訊，請造訪[規劃 SDS](/schooldatasync/planning-school-data-sync)。
 
 ## <a name="integrate-sis-data-using-sds"></a>使用 SDS 整合 SIS 資料
 
-學校資料同步處理 (SDS) 隨附於 Office 365 教育版中。 SDS 會從教育機構的學生資訊系統 (SIS) 讀取資料，並將其與類似 Teams 的 Microsoft 應用程式整合，以自動建立線上教室和使用者。
+學校資料同步處理 (SDS) 會與 Office 365 教育版一起提供。SDS 會從教育機構的學生資訊系統 (SIS) 讀取資料，並將其與類似 Teams 的 Microsoft 應用程式整合，以自動建立線上教室和使用者。
 
 它還會將 SIS 資料與 Insights 同步。
 
