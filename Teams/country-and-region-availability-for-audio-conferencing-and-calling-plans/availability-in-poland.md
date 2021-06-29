@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是波蘭Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: bb60f6f100ec118349f39ac45371ff593013111c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 30cfa3fcc7d417402c0a5cb478c78b183f4492ee
+ms.sourcegitcommit: d7a4707192d73b718b23abc32beb6f1684c2f928
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129642"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53177689"
 ---
 # <a name="availability-in-poland"></a>波蘭的可用性
 
@@ -57,11 +57,14 @@ ms.locfileid: "52129642"
    
 ## <a name="calling-plans"></a>通話方案
 
+> [!IMPORTANT]
+> 我們在波蘭目前面臨無法預期的延遲，無法完成新的電話號碼訂單和移動訂單。 您可以繼續下單，但請注意，我們預期此延遲將于 9 月解決，屆時所有掛單都會完成。
+
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |可以購買通話方案嗎？  <br/> |是  <br/> |
 |通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li></ul>|
-|可以撥打付費號碼外接電話嗎？  <br/> | 目前不支援。 <br/> |
+|可以撥打付費號碼的外接電話嗎？  <br/> | 目前不支援。 <br/> |
 |可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
