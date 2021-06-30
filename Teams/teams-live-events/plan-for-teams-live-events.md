@@ -20,12 +20,12 @@ description: 在本文章中，您將瞭解在 Microsoft Teams 中設定即時�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e3baf6a27b98d9f8b3fb30572391cd3442530c3d
-ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
+ms.openlocfilehash: e1d7def6710d98e2a77358abfcc43ec80fa89bb8
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53069365"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203592"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -43,7 +43,7 @@ ms.locfileid: "53069365"
 若要組織、產生或出席 Teams 即時活動，您必須獲派以下授權：  
 
 - **若要組織：** Microsoft 或 Office 365 企業版 E1、E3 或 E5 授權，**[或]** Microsoft 或 Office 365 教育版 A3 或 A5 授權。 
-- **若要產生或出席：** Microsoft 或 Office 365 企業版 E1、E3 或 E5 授權，**[或]** Microsoft 或 Office 365 教育版 A1、A3 或 A5 授權。這項需求的例外情況是，如果符合[來賓使用者](plan-for-teams-live-events.md#guest-to-present)的其他準則，來賓使用者就可以不使用授權出席。
+- **若要產生或出席：** Microsoft 或 Office 365 企業版 E1、E3 或 E5 授權，**[或]** Microsoft 或 Office 365 教育版 A1、A3 或 A5 授權。這項需求的例外情況是，如果符合 [來賓使用者](plan-for-teams-live-events.md#guest-to-present)的其他準則，來賓使用者就可以不使用授權出席。
 - Microsoft Teams 授權 - 此授權包含在第一個和第二個項目符號列出的授權中。
 - Microsoft Stream 授權 - 如果您打算將內容共用給外部應用程式或裝置，就必須有此授權；請參閱 [Microsoft Stream 授權](/stream/license-overview)。
 
@@ -139,7 +139,7 @@ ms.locfileid: "53069365"
 |即時輔助字幕和翻譯字幕 |&#x2714; |&#x2714; |&#x274C; |
 |即時活動錄製中的輔助字幕 |&#x2714; |&#x2714; |&#x2714; |
 |出席者 DVR 控制項 (暫停、倒轉) |&#x2714; |&#x2714; |&#x2714; |
-|合作夥伴 eCDN 支援 |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
+|合作夥伴 eCDN 支援 |&#x2714; (Kollective, Hive, Riverbed) |&#x2714; (Kollective, Hive, Ramp, Riverbed) |&#x2714; (Hive, Kollective, Ramp, Riverbed) |
 |適用於製作人的廣播後出席報告 |&#x2714; |&#x2714; |&#x274C; |
 |對象人氣分析 - 即時投票與票選 |&#x2714; (Microsoft Pulse) |&#x274C; |&#x274C; |
 
