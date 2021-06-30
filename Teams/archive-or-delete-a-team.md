@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97cce8577c2d3c23e097f5e3bf5d819d51a16b10
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 88c5bf29717efaa75f166e515006cfdb39461448
+ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856362"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53186922"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中封存或刪除團隊
 
@@ -41,20 +41,20 @@ ms.locfileid: "52856362"
 
 按照這些步驟以封存小組。 您必須是 Teams 服務系統管理員才能進行這些變更。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
 
-1. 在系統管理中心中，**選取** Teams。
+1. 在系統管理中心 **中，選取** Teams。
 2. 按一下小組名稱以選取小組。
 3. 選取 [封存]。 將會出現下列訊息。
 
     ![螢幕擷取畫面：Teams 封存訊息](media/teams-archive-message.png)
 
-4. 若要防止人員編輯小組SharePoint網站和與小組相關聯的 Wiki SharePoint中的內容，請選取將網站改為唯讀 **供小組成員使用**。  (Teams擁有者仍然可以編輯此內容。) 
+4. 若要防止人員編輯小組SharePoint網站和與小組相關聯的 Wiki SharePoint中的內容，請選取讓小組成員使用唯讀SharePoint **網站**。  (Teams擁有者仍然可以編輯此內容。) 
 5. 選取 [封存] 以封存小組。 小組的狀態會變更為 [已封存]。
 
 ## <a name="make-an-archived-team-active"></a>讓封存的小組成為使用中
 
 按照下列步驟，讓封存的小組成為使用中。
 
-1. 在系統管理中心中，**選取** Teams。
+1. 在系統管理中心 **中，選取** Teams。
 2. 按一下小組名稱以選取小組。
 3. 選取 [解除封存]。 小組的狀態會變更為 [使用中]。
 
@@ -62,7 +62,7 @@ ms.locfileid: "52856362"
 
 如果未來不再需要小組，您可以將它刪除，而不只是封存。 按照下列步驟刪除小組。
 
-1.  在系統管理中心中，**選取** Teams。
+1.  在系統管理中心 **中，選取** Teams。
 2.  按一下小組名稱以選取小組。
 3.  選取 [刪除]。 將會出現確認訊息。
 4.  選取 [刪除] 以永久刪除小組。
@@ -113,3 +113,7 @@ ms.locfileid: "52856362"
     ```
 
     完成還原程序最多可能需要 24 小時，之後就會在 Teams 中顯示小組以及小組相關聯的內容 (包括索引標籤和頻道) 。
+    
+## <a name="related-topics"></a>相關主題
+
+- [將小組存檔或還原](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) 
