@@ -557,6 +557,8 @@ items:
         href: cortana-in-teams.md
       - name: 設定您的團隊目標階層
         href: set-up-your-team-hierarchy.md
+      - name: 非教育租用戶的受監督聊天
+        href: supervised-chat-non-edu.md
   - name: 各式會議和即時活動
     items:
       - name: 快速入門 - 會議與即時活動
