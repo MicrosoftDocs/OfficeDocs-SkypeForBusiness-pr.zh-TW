@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7bc57372526e231e4f2111c0dd2cc00783598cf3
-ms.sourcegitcommit: 112df406ae2c127cd9b5f717c1b43b11784b592d
+ms.openlocfilehash: e35ad06e8123bc2525439dd81334a8600fd0a555
+ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "53069301"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53203602"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -124,6 +124,9 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的訊�
 |交談視訊或音訊通話中的人員數目 | 20 |
 |PowerPoint 檔案大小的最大值 | 2 GB|
 |Teams 會保留[會議記錄](cloud-recording.md)，該記錄不會上傳至 Microsoft Stream，但可供本機下載 | 20 天 |
+  
+> [!NOTE]
+> 分組會議室只能在少於 300 名出席者的會議中建立。 此外，在會議中建立分組會議室會自動將會議出席者人數限制為 300 人。 建議使用者不要在預期超過 300 名參與者的會議中初始化分組會議室。 如需大型小組會議的資訊，請與使用者分享指南 [適用於大型 Teams 會議的最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。 
 
 ### <a name="meeting-expiration"></a>會議到期
 
@@ -185,7 +188,7 @@ Microsoft Teams 中的每個小組在 SharePoint Online 中都有一個小組網
 |------------------------|---------|---------|---------|---------|---------|---------|
 |儲存空間                 |每個組織 1 TB，加上每個購買授權 10 GB  |每個組織 1 TB，加上每個購買授權 10 GB  |每個組織 1 TB，加上每個購買授權 10 GB   |每個組織 1 TB，加上每個購買授權 10 GB |每個組織 1 TB，加上每個購買授權 10 GB  |每個組織 1 TB            |
 |Teams 檔案的儲存空間 |每個網站或群組最多 25 TB。 |每個網站或群組最多 25 TB。 |每個網站或群組最多 25 TB。 |每個網站或群組最多 25 TB。 |每個網站或群組最多 25 TB。 |每個網站或群組最多 25 TB。 |
-|檔案上傳限制 (每個檔案)    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |100 GB    |
+|檔案上傳限制 (每個檔案)    |250 GB    |250 GB    |250 GB    |250 GB    |250 GB    |250 GB    |
 
 頻道可由針對小組建立的 SharePoint Online 網站 (先前稱之為 "網站集合”) 內的資料夾進行備份，因此 [頻道] 內的檔案索引標籤會共用所屬小組的儲存空間限制。
 

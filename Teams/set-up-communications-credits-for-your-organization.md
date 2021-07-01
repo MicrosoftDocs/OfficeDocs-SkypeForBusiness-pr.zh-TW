@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: '瞭解如何設定 PSTN 消費 (訂閱) 使用者和組織帳單授權。 '
-ms.openlocfilehash: 98591d7603cdf63a76bef3478834f37504d8ff6c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 33206e09a63a74689361fcfb34d51c5b0b4a4973
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117101"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219130"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>設定貴組織的 [通訊點數]
 
@@ -47,7 +47,7 @@ ms.locfileid: "51117101"
     
     指派此授權之後，您必須設定音訊會議。 有關逐步指示，請參閱在 Microsoft 365 或 Office 365 中試用或[購買音訊Office 365。](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-- 指派 **電話系統，****並指派** 國內或國內及國際通話方案授權給使用者。 請參閱[指派Microsoft Teams附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+- 指派 **電話系統** 國內 **或** 國內及國際通話方案授權給使用者。 請參閱[指派Microsoft Teams附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
     > [!NOTE]
     > 雖然通訊信用額度不一樣，您仍然需要指派國內通話方案或 **國內和國際** 通話方案授權。
@@ -58,9 +58,9 @@ ms.locfileid: "51117101"
   
 ## <a name="step-2-set-up-communications-credits-for-your-organization"></a>步驟 2：為貴組織設定通訊信用額度
 
-1. 使用公司[或學校帳戶](https://portal.office.com/Adminportal)Microsoft 365系統管理中心。
+1. 使用公司[Microsoft 365 系統管理中心](https://portal.office.com/Adminportal)學校帳戶來登錄帳戶。
     
-2. 在系統管理中心的左側導Microsoft 365，前往 **帳單**  >  **購買服務**。 向下卷起並選取 **附加元件**。
+2. 在系統左側導Microsoft 365 系統管理中心，請前往帳單  >  **購買服務**。 向下卷起並選取 **附加元件**。
 
 3. 選取 **通訊信用額度**。
     
@@ -72,28 +72,28 @@ ms.locfileid: "51117101"
     
      建議您使用自動充值設定，以避免通訊信用額度餘額達到 0 (零) 。 當充值交易成功、充值交易失敗 (例如過期的信用卡) ，以及您的通訊信用額度餘額達到 0 (零) 時，您就會收到電子郵件。
     
-   - **充值金額** 在下列觸發金額達到觸發金額時，在您想要新加到您帳戶的加值方塊中輸入金額。
+   - **充值金額** 在到達下方的觸發金額後，在您想要新加到您帳戶的加值方塊中輸入金額。
     
-   - **觸發金額** 在將 **用來'觸發**'自動充值的餘額低於方塊中輸入金額。  一旦餘額低於此金額，加值金額會自動新加到您的帳戶。
+   - **觸發金額** 在當餘額低於方塊時輸入金額，此方塊會用來'*觸發*'自動充值。 一旦餘額低於此金額，加值金額會自動新加到您的帳戶。
 
       > [!NOTE]
-     > 當服務使用時，資金只會以 Microsoft 發佈費率適用于通訊信用額度。 在購買日期後 12 個月內未使用的任何資金將會過期並予以沒收。 
+     > 當服務使用時，資金只會以 Microsoft 發佈費率適用于通訊信用額度。 購買日期後 12 個月內未使用的任何資金將會到期並予以沒收。 
      > 
-     > 只有在已使用已分配資金時，才能使用通訊信用額度的每月帳單，若要瞭解如何檢查每月使用量，請參閱 PSTN 使用方式商務用 Skype [PSTN 使用方式報告](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
+     > 使用自動充值功能時，當達到觸發金額並處理充值交易時，會針對通訊信用額度產生發票。 通訊信用額度會先以先發的方式使用。 若要瞭解如何檢查每月使用量，請參閱[PSTN 商務用 Skype使用方式報告](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. 輸入您的付款資訊，然後按一下 **[下單**。
     >[!IMPORTANT]
     >如果您是大量授權客戶，您可以選擇要付款的企業協定號碼。 如果您有多個企業協定編號，您可以選取要用於付款的企業協定。 如果適用，您也會有機會指定要與企業 (建立關聯的) 。
     
-每個組織都會考慮不同的通話方案使用量和費率。 您必須從目前的服務提供者取得此類型的使用狀況資料。 已經使用 商務用 Skype Online 的組織，只要在系統管理中心報告  >    >  **PSTN** 使用方式詳細Microsoft Teams，就可以取得使用方式資料。
+每個組織都會考慮不同的通話方案使用量和費率。 您必須從目前的服務提供者取得這類使用方式資料。 已經使用 商務用 Skype Online 的組織，只要在系統管理中心報告 PSTN 使用方式詳細資料包告中Microsoft Teams，**就可以** 取得使用方式  >    >  資料。
   
 當您設定通訊信用額度時，您必須調查貴組織的通話使用量，以決定您需要的金額。 您可以查看 PSTN 使用方式詳細資料包告，以取得 **通話使用方式** 資訊。 如果您需要儲存資料或建立自訂報表Excel此報表可讓您將通話資料記錄匯出至其他記錄。 若要瞭解如何查看使用方式，請閱讀 [PSTN 使用方式報告](/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)。
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>步驟 3：指派通訊信用額度授權給使用者
 
-1. 使用公司[或學校帳戶](https://portal.office.com/Adminportal)Microsoft 365系統管理中心。
+1. 使用公司[Microsoft 365 系統管理中心](https://portal.office.com/Adminportal)學校帳戶來登錄帳戶。
     
-2. 在系統管理中心的左側導覽Microsoft 365，前往使用者  >  **活動使用者**，然後從清單中選取使用者。
+2. 在左側流覽Microsoft 365 系統管理中心，前往 **使用者**  >  **活動使用者**，然後從清單中選取使用者。
     
 3. 選擇 **授權與應用程式**。
     
@@ -115,7 +115,7 @@ ms.locfileid: "51117101"
     
 - [電話系統計畫](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-您也可以登錄系統管理中心 [，](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)然後Microsoft 365帳單訂閱新增訂閱來查看  >    >  **資訊**。
+您也可以在訂閱中登錄，然後Microsoft 365 系統管理中心帳單訂閱新增訂閱 [，](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)來查看  >    >  **資訊**。
   
 若要查看每個功能所需的授權或授權資料表，[請參閱Microsoft Teams附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   

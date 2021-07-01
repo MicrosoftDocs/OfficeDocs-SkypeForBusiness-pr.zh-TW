@@ -3,8 +3,8 @@ title: Microsoft Teams 系統管理訓練
 ms.reviewer: ''
 description: 使用這些使用者、系統管理員和由講師帶領的訓練資源和教學課程影片，幫助您充分利用組織中的 Microsoft Teams。
 ms.topic: overview
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 audience: admin
 manager: serdars
 ms.service: msteams
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ff718bda9b1713621a7c63ab2f8bf1adf4e179ad
-ms.sourcegitcommit: c80af314f1a573f99dd66858301c004ccc5410d6
+ms.openlocfilehash: 1d88448851cdb81226eaae06ee5120555d498b6b
+ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51648112"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "53186902"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 訓練
 
@@ -61,8 +61,7 @@ ms.locfileid: "51648112"
 
 :::row:::
    :::column:::
-   **[採用專家認證](/learn/paths/m365-service-adoption/)** </br>
-   Microsoft 服務採用專家認證課程功能 Teams。 瞭解如何在貴組織中進行 Microsoft 服務的採用。
+   **[採用專家認證](/learn/paths/m365-service-adoption/)** </br> Microsoft 服務採用 Teams 為主的專家認證課程。了解如何在您的組織中驅動 Microsoft 服務的採用率。
 
    :::column-end:::
 

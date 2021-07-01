@@ -18,16 +18,16 @@ f1.keywords:
 - NOCSH
 description: 系統管理員可以瞭解哪些會話邊界控制器 (SBC) 直接路由認證。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b15ff9956e988047b0246e7a965fcd58b1d9d74b
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: e06b3eeeec6f5e383f6fd4aaafcb1f034dd43338
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526736"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230570"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器清單
 
-Microsoft 與已選取的會話邊界控制器 (SBC) 廠商合作，以認證其 SBC 使用直接路由。
+Microsoft 與所選會話邊界控制器 (SBC) 廠商合作，以認證其 SBC 使用直接路由。
 
 Microsoft 會與每個廠商合作，以：
 
@@ -37,7 +37,7 @@ Microsoft 會與每個廠商合作，以：
 - 與 SBC 廠商建立共同支援程式。
 
   > [!NOTE]
-  > Microsoft 僅支援電話系統通過直接路由連結的裝置或裝置時，才能使用此連結。 Microsoft 保留拒絕未通過認證的裝置透過直接路由電話系統支援案例。 如果 Microsoft 判斷客戶的直接路由問題與廠商的 SBC 裝置有關，客戶將需要與 SBC 廠商聯繫以提供支援。
+  > Microsoft 僅支援電話系統通過直接路由連結的裝置。 Microsoft 保留拒絕未通過認證的裝置透過直接路由電話系統支援案例。 如果 Microsoft 判斷客戶的直接路由問題與廠商的 SBC 裝置有關，客戶將需要與 SBC 廠商聯繫以提供支援。
 
 遵循已認證直接路由之清單裝置的資料表。  (有關哪些 SBC 廠商支援 Local Media 優化的資訊，請參閱設定直接路由的當地媒體優化[.) ](direct-routing-media-optimization-configure.md)
 
@@ -45,7 +45,7 @@ Microsoft 會與每個廠商合作，以：
 如果您對直接路由的 SBC 認證計畫有任何疑問，請 drsbccertification@microsoft.com。
 <br/>
 
-## <a name="certified-sbc-vendors"></a>經過認證的 SBC 廠商
+## <a name="certified-sbc-vendors"></a>通過認證的 SBC 廠商
 
 |                                                       供應商                                                        |       產品       | 非媒體旁路 | 媒體旁路 | 軟體版本 | 支援 911 服務提供者* | ELIN 支援
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|
@@ -73,12 +73,12 @@ Microsoft 會與每個廠商合作，以：
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |   &#10004;   |  &#10004;  |                                            
 |                                                                                                                    |      Vme           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |    
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      支援 3.20 (建議 4.0)         |  &#10004;    |  &#10004;   |    
-|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   |  |      4.7      |     |    |  
-|                     [思科](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     1000 系列整合式服務路由器 (CUBE) 整合的 Cisco Unified Border 元素        |     &#10004;   | &#10004; |      支援的 IOS XE Amsterdam 17.2.1r (建議 17.3.2)          |    &#10004;     |   |  
+|                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 適用于媒體旁路)       |     |    |  
+|                     [思科](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     Cisco Unified Border Element (CUBE) 1000 系列整合式服務路由器        |     &#10004;   | &#10004; |      支援的 IOS XE Amsterdam 17.2.1r (建議 17.3.2)          |    &#10004;     |   |  
 |                                   |     Cisco Unified Border Element (CUBE) 4000 系列整合式服務路由器        |     &#10004;   | &#10004; |   支援的 IOS XE Amsterdam 17.2.1r (建議 17.3.2)          |   &#10004;      |    |  
 |                                   |     1000V 系列雲端服務路由器 (CUBE) 的 Cisco Unified Border 元素       |     &#10004;   | &#10004; |      支援的 IOS XE Amsterdam 17.2.1r (建議 17.3.2)          |    &#10004;     |    |  
-|                                 |     適用于 1000 系列匯總服務路由器 (CUBE) 整合 Border 元素      |     &#10004;   | &#10004; |      支援的 IOS XE Amsterdam 17.2.1r (建議 17.3.2)          |    &#10004;     |    |
-|                                 |     Cisco Unified Border Element (CUBE) 11000 Edge 平臺      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2      |    &#10004;     |    |
+|                                 |     1000 系列匯總服務路由器 (CUBE) 整合 Border 元素      |     &#10004;   | &#10004; |      支援的 IOS XE Amsterdam 17.2.1r (建議 17.3.2)          |    &#10004;     |    |
+|                                 |     Cisco Unified Border Element (CUBE) 的1000 Edge 平臺      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    適用于 ASBCE Enterprise ( Avaya 會話) 控制器)     |     &#10004;     |       &#10004;     |       第 8.1.1 (8.1.2 版媒體旁路)       |     |    | 
 |                     [諾基亞](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia 會話邊界控制器    |     &#10004;     |           |       1908 (19.5)        |     |    | 
 |                     |    Nokia 會話邊界控制器    |     &#10004;     |           |       20.8       |      &#10004;        |    | 

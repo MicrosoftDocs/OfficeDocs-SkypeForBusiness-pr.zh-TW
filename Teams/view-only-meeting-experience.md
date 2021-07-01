@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca53c75d12964de2d4d458b240878b14fd2ad04b
-ms.sourcegitcommit: ea9a0119d184179300e51f58ca4fee249c12d00a
+ms.openlocfilehash: 4f3546983c3d783c8eb08e0fc371cb9a9feb84f8
+ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52699344"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "53219110"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 僅供檢視會議體驗
 
@@ -40,11 +40,20 @@ Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 在達到
 出席者將能透過 Android 和 iOS Teams和 iOS (使用桌面、web 和) 。
 
 > [!Note]
-> 「主要會議」或換句話說，完全互動使用者數目的目前限制容量為 1000 個，包括GCC。
+> 「主要會議」或也就是說，完全互動使用者數目的目前限制容量為 1000 個，包括GCC。
 
 ## <a name="teams-view-only-experience-controls"></a>Teams只顯示體驗控制項
 
-您可以使用 PowerShell 啟用僅查看體驗。
+您可以使用 [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) [SkypeForBusiness PowerShell](/powershell/module/skype/?view=skype-ps) 模組或至少版本 2.0.0 [的 MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams)模組中的 Cmdlet 來啟用僅查看體驗。
+
+若要使用建議 `MicrosoftTeams` 模組：
+
+```PowerShell
+Install-Module -Name "MicrosoftTeams" -MinimumVersion 2.0.0
+Connect-MicrosoftTeams
+```
+
+若要啟用僅以視圖顯示的體驗，您可以使用下列 PowerShell 片段：
 
 ```PowerShell
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled
@@ -77,7 +86,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
 如果有空間，使用者一律可以加入主要會議。 達到主要會議容量限制後，如果一或多位出席者離開主要會議，則主要會議會釋出容量可供加入。 加入 (或重新加入) 會議的出席者將加入主要會議，直到再次達到容量限制。 只有觀看體驗的出席者不會自動升級至主要會議，且無法手動升級至主要會議。
 
-如果已設定簡報者與出席者角色，且簡報者在主要會議達到容量後嘗試加入會議，他們將以只能觀看的出席者加入，而且與其他只有視圖的出席者有相同的限制。 支援確保所有簡報者加入主要會議，稍後推出。 主會議一定會保證召集人有空間。
+如果簡報者與出席者角色已設定，且簡報者在主要會議達到容量後嘗試加入會議，他們將以僅觀看出席者的方式加入，而且與其他僅查看出席者有相同的限制。 支援確保所有簡報者加入主要會議，稍後推出。 主會議一定會保證召集人有空間。
 
 ## <a name="impact-to-meeting-presenters-and-organizers"></a>對會議簡報者和召集人的影響
 
@@ -113,7 +122,7 @@ Teams 僅供檢視體驗可讓出席者：
 
 ## <a name="view-only-feature-limitations"></a>僅供檢視功能限制
 
-- 只有只能觀看的出席者才能在桌面和 Web 上看到即時字幕。 目前僅支援英文字輔助字幕。
+- 僅能觀看的出席者只能在桌面和 Web 上看到即時字幕。 目前僅支援英文字輔助字幕。
 - 串流技術將支援僅供檢視出席者。
 - 出席報告中不會包含僅供檢視出席者。
 - 僅供檢視出席者將擁有單一視訊體驗。 他們可以看到目前主講人或正在共用的內容，但不能同時看到兩者。
