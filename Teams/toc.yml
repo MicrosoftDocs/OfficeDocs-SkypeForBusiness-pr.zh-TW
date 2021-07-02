@@ -1525,6 +1525,8 @@ items:
             href: g1-trial-license.md
           - name: 管理 Teams Exploratory 體驗
             href: teams-exploratory.md
+          - name: 從 Teams Exploratory 升級使用者
+            href: upgrade-from-teams-exploratory.md
           - name: 管理 Teams 免費版
             href: manage-freemium.md
           - name: 將 Teams 免費版升級為訂閱版本
