@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e2cecf24d9bbd9e8c510ce722b059d2e00837d5
-ms.sourcegitcommit: 0c942d9e25f9a51bb9bd22b40c5926e1d6d3892d
+ms.openlocfilehash: 83b95032e89accca311eb66933a9991d4f0ca195
+ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53186802"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53252638"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的團隊和頻道概覽
 
@@ -38,7 +38,7 @@ ms.locfileid: "53186802"
     - Teams 可以建立為只有受邀使用者才可加入的形式。
     - Teams也可以建立為公開和開啟，且組織中任何人都可以加入 (最多 10，000 位) 。
     
-    設計團隊的目的是聚集一群人，讓他們以密切合作的方式來完成工作。 Teams專案型工作 (例如，啟動產品、建立數位出貨室) ，以及進行中，都可以動態地反映組織的內部結構 (例如部門與辦公室位置) 。 團隊中的聊天、檔案和記事只會對團隊成員顯示。
+    設計團隊的目的是聚集一群人，讓他們以密切合作的方式來完成工作。 Teams專案型工作 (例如，啟動產品、建立數位出貨室) ，以及進行中，以反映貴組織的內部結構 (例如部門與辦公室位置) 。 團隊中的聊天、檔案和記事只會對團隊成員顯示。
 
 - **頻道** 是團隊內的專用區段，可依據特定主題、專案或訓練等適合團隊的分類來讓交談保持在井然有序的狀態中！ 您在頻道中共用的檔案 (位於 [檔案] 索引標籤上) 會儲存在 SharePoint 中。 如需詳細資訊，請參閱 [SharePoint Online 和商務用 OneDrive 如何與 Teams 互動](SharePoint-OneDrive-interact.md)。
 
@@ -47,9 +47,9 @@ ms.locfileid: "53186802"
     
 如需使用團隊和頻道的說明，請參閱[團隊和頻道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)。
 
-若要深入了解建立團隊和頻道的最佳做法，請觀看這段短片。
+請觀看這段短片，深入瞭解建立團隊和頻道的最佳作法：
 
-   > [!VIDEO https://www.youtube.com/embed/WkAVgNKn0hs]
+- [技術提示：在](https://youtu.be/WkAVgNKn0hs)Teams & 21：08 Microsoft Teams (建立私人頻道的指南) 
 
 ## <a name="membership-roles-and-settings"></a>成員資格、角色和設定
 
@@ -77,13 +77,13 @@ ms.locfileid: "53186802"
 
 如果您是系統Teams系統管理員Microsoft 365，您可以在系統管理中心存取Teams設定。 這些設定可以影響團隊擁有者可在其團隊設定底下看到的選項和預設值。 例如，您可以啟用預設的「一般」頻道，在整個團隊中發佈公告、進行討論和提供資源，這些都會顯示在所有團隊中。
 
-根據預設，所有使用者都有建立團隊的許可權。 若要修改此內容，請參閱在 Teams[中指派Teams。](assign-roles-permissions.md)
+根據預設，所有使用者都有建立團隊的許可權。 若要修改這項功能，請參閱在 Teams[中指派Teams。](assign-roles-permissions.md)
 
 與使用者互動的一項Teams計畫活動，就是協助使用者思考Teams如何加強日常共同作業。 藉由與其他人交談，協助他們選取目前以零碎方式進行共同作業的商務案例。 透過相關索引標籤將他們聚集在頻道中，以協助他們完成工作。 Teams 最強的使用案例之一就是任何跨組織的程序。 
 
 ## <a name="example-teams"></a>團隊範例
 
-以下幾個實用案例可說明不同類型的使用者可如何設定其團隊、頻道和應用程式 (索引標籤/連接器/Bot)。 這或許很實用，有助於開始與使用者Teams進行交談。 當您思考如何在組織中Teams時，請記住，您可以提供如何架構團隊的指引;不過，使用者可以控制自我組織方式。 這些只是協助團隊開始思考可能性的範例。
+以下幾個實用案例可說明不同類型的使用者可如何設定其團隊、頻道和應用程式 (索引標籤/連接器/Bot)。 這或許很實用，有助於開始與使用者Teams進行交談。 當您思考如何在組織中Teams時，請記住，您可以提供如何架構團隊的指引;不過，使用者可以控制如何自我組織。 這些只是協助團隊開始思考可能性的範例。
 
 Teams是打破組織孤島及促進跨功能團隊的很好選擇，因此請鼓勵使用者思考功能團隊，而不是組織界限。
 

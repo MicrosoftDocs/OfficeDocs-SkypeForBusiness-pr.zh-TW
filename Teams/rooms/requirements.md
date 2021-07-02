@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: 瞭解支援Microsoft Teams 會議室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f39749cd24053d7849b23b30f87264dc9d0209cd
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: 7618d4bb94941660e9ed98b995330f1a559ec262
+ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105105"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53252658"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
-Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的大小及使用方式，使用各種經過認證的音訊和視音訊周邊。 選取適當的核心裝置和主機，結合適合空間的麥克風、喇叭、相機和顯示器，您可以將 Microsoft Teams 會議室 部署到任何大小的空間中，從小型空間到大型會議空間和會議室。  您可以在[裝置展示](https://products.office.com/microsoft-teams/across-devices)中取得可用於設定會議室的所有經認證音訊和視訊週邊設備的完整集合。
+Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的大小及使用方式，使用各種經過認證的音訊和視音訊周邊設備。 選取適當的核心裝置和主機，結合適合空間的麥克風、喇叭、相機和顯示器，您可以將 Microsoft Teams 會議室 部署到任何大小的空間中，從小型空間到大型會議空間和會議室。  您可以在[裝置展示](https://products.office.com/microsoft-teams/across-devices)中取得可用於設定會議室的所有經認證音訊和視訊週邊設備的完整集合。
 
 本文摘要說明支援 Microsoft Teams 會議室所需的裝置部署和組態需求。
 
@@ -119,9 +119,11 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
 |Microsoft Teams 會議室週邊設備|認證的韌體版本 | 相機支援內容相機使用|
 |:--- |:--- | :--- |
 |[Aver VC520 Pro相機 + 喇叭](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
-|[Aver VB342+ 相機聲音鍵](https://www.averusa.com/products/conference-camera/vb342plus) | 聲音橫條：0.0.0000.97|
+|[Aver VB342+ 相機聲音鍵](https://www.averusa.com/products/conference-camera/vb342plus) | 音條：0.0.0000.97|
 |[Aver CAM 540](https://www.averusa.com/products/conference-camera/cam540) |0.0.6002.83 |
 |[Aver CAM 520 Pro](https://www.averusa.com/products/conference-camera/cam520pro) |0.0.1000.73 |
+|[Aver CAM 520 Pro 2](https://www.averusa.com/products/conference-camera/cam520pro2) |00.0.7200.3 |
+|[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7400.03 |
 |[Bose 視線 VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
 |[Biamp Devio SCR-20CX Web-Based帶天花板麥克風的會議中樞](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Biamp Devio SCR-20TX Web-Based桌面麥克風的會議中樞](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
@@ -173,7 +175,7 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
 |[舒爾 MXA 710 4ft 牆式線性陣列麥克風](https://www.shure.com/en-US/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/en-US/products/mixers/p300) +</br></br> [MXN5-C 天花板喇叭](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft 牆麵線性陣列麥克風：1.2.0 </br> P300 DSP：4.4.8 </br> MXN5-C 喇叭：1.1.1 |
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect Ceiling 2 Microphone](https://en-us.sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP：3.12.0.15  </br></br> TCC2：1.3.3 </br></br> EX-UBT：3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB RV4 音訊 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA 天花板麥克風](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 天花板安裝式喇叭](https://www.biamp.com/products/tesira-speakers)| 音訊 FW 版本：3.15|
-|[Biamp TesiraFORTE AVB RV4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X (麥克風) ](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[前 UBT]() |音訊 FW 版本：3.15|
+|[Biamp TesiraFORTE AVB RV4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X (表格麥克風) ](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[前 UBT]() |音訊 FW 版本：3.15|
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink Amplifier +</br> Sennheiser TCC2 Ceiling Microphone + </br> Bose EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |  |
 |[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink 功放 + Sennheiser TCC2 天花板麥克風 + </br> Bose DesignMax DM2C-P Ceiling 喇叭](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 功放 +</br> [Sennheiser TCC2 天花板麥克風](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP 天花板喇叭](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  | 

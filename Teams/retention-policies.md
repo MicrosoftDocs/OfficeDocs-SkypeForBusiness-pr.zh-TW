@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ec6b257f91c7e5003a4a69079e37b20b5f338528
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
-ms.translationtype: HT
+ms.openlocfilehash: c99fc4bfb185ec291a98a96572167b389b3e6252
+ms.sourcegitcommit: 28b83243411b54760875e7fd137549d5d2182c7a
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617755"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53252648"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>管理 Microsoft Teams 的保留原則
 
@@ -63,13 +63,17 @@ Microsoft Teams 支援適用於聊天和頻道訊息的保留原則，所以身�
 
 在許多情況下，組織會認為私人聊天資料比頻道訊息有更多的責任，通常是和專案更相關的交談。
 
-您可以為私人聊天和頻道訊息設定不同的保留原則  (1 原則對 1 聊天，或 1 原則對許多聊天) 。 您也可以設定唯一原則，然後套用到組織中的特定使用者或小組。 如果是使用 Teams 聊天，您可以選取原則要套用到哪些使用者。 如果是使用 Teams 頻道訊息，您可以選取原則要套用到哪些小組。
+您可以非常有效率地設定所有郵件的單一保留Teams策略。 或者，針對更精細的控制項，您可以：
 
-例如，針對頻道訊息，您可以將保留原則套用到貴組織的特定小組，且該原則設定為在 1 年後執行的刪除動作。 然後，將另一個保留原則套用至所有其他團隊，且將該原則設定為在 3 年後執行的刪除動作。
+- 針對私人聊天分別 (1：1 或 1：) 聊天、標準頻道的郵件或私人頻道的郵件。
+
+- 僅將原則適用于貴組織的特定使用者或團隊。 若要Teams聊天和私人頻道，您可以選取原則所適用的使用者。 如果是使用 Teams 頻道訊息，您可以選取原則要套用到哪些小組。
+
+例如，針對標準頻道訊息：為貴組織的特定團隊建立保留原則，並設定該策略 1 年後的刪除動作。 然後為所有其他團隊的標準通道訊息建立另一個保留原則，然後在 3 年後使用刪除動作設定該策略。
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>建立和管理 Microsoft Teams 保留原則
 
-若要建立或編輯 Teams 聊天和頻道訊息的保留原則，請使用 [Teams 位置的保留原則](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)。
+若要建立或編輯郵件的保留Teams，請使用保留原則中的指示[Teams位置](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)。
 
 該頁面提供有關為 Microsoft 365 中的其他工作負載，建立和管理保留原則的其他資訊。 例如，您可能也想要為 Microsoft 365 群組建立保留原則，以保留和刪除在 Teams 中存取並儲存於 OneDrive 或 SharePoint 中的檔案。  
 
@@ -91,7 +95,7 @@ Microsoft Teams 支援適用於聊天和頻道訊息的保留原則，所以身�
 > [!NOTE]
 > 使用者因刪除郵件而看到的訊息顯示為目前無法進行設定。
 
-這些顯示訊息中的連結會移至 [Teams 保留原則的訊息](https://support.microsoft.com/zh-TW/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)。 此份使用者的文件可協助回答有關為何訊息遭到刪除的基本問題。 不過，作為保留原則部署的一部分，請確定您向使用者和技術支援中心表達您已配置的設定影響。
+這些顯示訊息中的連結會移至 [Teams 保留原則的訊息](https://support.microsoft.com/en-us/office/teams-messages-about-retention-policies-c151fa2f-1558-4cf9-8e51-854e925b483b)。 此份使用者的文件可協助回答有關為何訊息遭到刪除的基本問題。 不過，作為保留原則部署的一部分，請確定您向使用者和技術支援中心表達您已配置的設定影響。
 
 ## <a name="related-topics"></a>相關主題
 
