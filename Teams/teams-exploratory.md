@@ -18,16 +18,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff84b1dc161aa5b8ab99a74509fa7a93a1a9b270
-ms.sourcegitcommit: 6e492297a886ff8c7894a6469965e63d1b806184
+ms.openlocfilehash: 8803219c93a66d7094ce6ca1aa635f1fbff8580e
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/27/2021
-ms.locfileid: "51399140"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230550"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 
-Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Directory (Azure AD) 和未取得 Teams 授權的使用者起始 Teams 探勘體驗。 系統管理員可以為其組織中的使用者開啟或關閉這項功能。 舊版 [Microsoft 商務雲端試用版]()現在已由 Teams Exploratory 體驗取代。
+Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Directory (Azure AD) 和未取得 Teams 授權的使用者起始 Teams 探勘體驗。系統管理員可以為其組織中的使用者開啟或關閉這項功能。
 
 ## <a name="whats-in-the-teams-exploratory-experience"></a>Microsoft Teams Exploratory 體驗有什麼內容
 
@@ -52,7 +52,7 @@ Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Director
 - Whiteboard (方案 1)
 - Yammer Enterprise
 
-  <sup>1</sup> 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 SharePoint 來進行會議錄製](tmr-meeting-recording-change.md)，將會採取階段性的方式。 啟動時，您將可以選擇加入此體驗。 在 11 月，如果您想繼續使用 Stream，您將必須選擇退出。 2021 年初，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 進行新的會議錄製。
+  <sup>1</sup> 從使用 Microsoft Stream 變更為使用[商務用 OneDrive 和 SharePoint 來進行會議錄製](tmr-meeting-recording-change.md)，將會採取階段性的方式。推出時，您將可以加入此體驗。在 11 月，如果您想要繼續使用 Stream，則必須退出體驗。在 2021 年初的某個時候，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行會議錄製。
 
 ## <a name="whos-eligible"></a>符合使用資格的對象
 
@@ -138,26 +138,12 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 您可以管理擁有 Teams Exploratory 授權的使用者，就像您管理擁有一般付費授權的使用者一般。如需詳細資訊，請參閱[管理組織的 Teams 設定](enable-features-office-365.md)。
 
-### <a name="upgrade-users-from-the-teams-exploratory-license"></a>從 Teams Exploratory 授權升級使用者
+### <a name="upgrade-users-from-teams-exploratory"></a>從 Teams Exploratory 升級使用者
 
-若要從 Teams Exploratory 授權升級使用者 (您必須擁有系統管理員權限)，請執行下列動作：
-
-1. 購買包括 Teams 的訂閱。
-
-2. 從使用者移除 Teams Exploratory 訂閱。
-
-3. 指派新購買的授權。
-
-如需詳細資訊，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
+您必須擁有系統管理員權限以從 Teams Exploratory 升級使用者。 如需詳細資訊，請參閱 [從 Teams Exploratory 升級使用者](upgrade-from-teams-exploratory.md)。
 
 > [!NOTE]
-> 如果 Teams Exploratory 授權結束，並且使用者沒有立即陞級至包含 Teams 的訂閱，那麼他們有 30 天的寬限期，然後其後 30 天過後資料將被删除。使用者仍然存在於 Azure Active Directory 中。一旦將新授權指派給使用者以再次啟用 Teams 功能，則如果在寬限期時間範圍內新增使用者，則所有內容仍將存在。
-
-## <a name="what-happens-to-legacy-microsoft-teams-commercial-cloud-trial-licenses"></a>舊版 Microsoft Teams 商業雲端試用版授權會發生什麼情況
-
-自 2020 年 2 月起，符合資格的使用者就可以開始使用最新的 Microsoft Teams Exploratory 體驗。所有舊版 Teams 商務雲端試用版授權將在試用到期之前，自動轉換為新方案。
-
-當使用者第一次登入過期的 Teams 商務雲端試用版時，系統會自動將 Teams Exploratory 體驗授權指派給該使用者。使用者在登入之後才會進行轉換。
+> 如果 Teams Exploratory 授權結束且未將使用者立即升級至包含 Teams 的訂閱，則在 30 天寬限期之後失去 Teams 存取權。再經過另一個 30 天之後，其資料會遭到刪除。一旦將新授權指派給使用者以再次啟用 Teams 功能，則如果在寬限期時間範圍內新增使用者，則所有內容仍將存在。
 
 ### <a name="remove-a-teams-exploratory-license"></a>移除 Teams Exploratory 授權
 
@@ -184,4 +170,4 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 > [!NOTE]
 > 在前一個 Exploratory 體驗授權到期後的 3 個月內客戶將被停用並封鎖開始新 Explaratory 授權。
 
-如需詳細資訊，請參閱本文上方的[從 Teams Exploratory 授權升級使用者](#upgrade-users-from-the-teams-exploratory-license)。
+如需詳細資訊，請參閱本文上方的 [從 Teams Exploratory 升級使用者](#upgrade-users-from-teams-exploratory)。

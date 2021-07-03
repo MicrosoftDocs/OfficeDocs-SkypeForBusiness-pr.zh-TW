@@ -18,12 +18,12 @@ description: 了解 Microsoft Teams 中的公開預覽。嘗試新功能並提�
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: b0719e68dcbf1c73c15ee58e8c7d6be08f359aa5
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: e2724901a2a1b534053e2145da442e989aed4e6c
+ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863254"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "53230540"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公開預覽
 
@@ -46,7 +46,7 @@ Microsoft Teams 的公開預覽可提供 Teams 中尚未發行功能的早期存
 3. 選取 [新增 **]**。
 4. 為更新原則命名，新增描述，然後開啟 [顯示預覽功能 **]**。
 
-您也可以使用 `CsTeamsUpdateManagementPolicy` Cmdlet 透過 PowerShell 設定原則。
+您也可以使用 PowerShell 搭配使用 `Set-CsTeamsUpdateManagementPolicy` cmdlet 和 `-AllowPreview` 布林值參數以設定原則。
 
 ## <a name="enable-public-preview"></a>啟用公開預覽
 
