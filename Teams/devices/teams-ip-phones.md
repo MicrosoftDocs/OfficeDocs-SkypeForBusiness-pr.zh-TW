@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: 52a3930db5dfed90b28b98a8bfc2a87dd57dabb5
-ms.sourcegitcommit: 4d2e1328dee2b6c60ba0022976da8dfe5efba2ef
+ms.openlocfilehash: 475753931cc2620e6ea51491abda74c2ea3f4d84
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53203632"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278496"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認證的裝置
 
@@ -103,7 +103,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 |:------------------------|:-----------------|:--------------|
 |Cresron TSS-770 | 1.003.0082 |2021 年 2 月 |
 |Cresron TSS-1070 | 1.003.0082 |2021 年 2 月 |
-|Yealink RoomPanel | 147.15.0.2 |2021 年 5 月 |
+|Yealink RoomPanel | 147.15.0.1 |2021 年 5 月 |
 
 ### <a name="product-release-information-for-teams-phones"></a>手機版產品Teams資訊
 
@@ -178,7 +178,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。  然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行 |
 |:--------------|:-----------------|:-------------------------|
@@ -210,7 +210,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。  然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行|
 |:--------------|:-----------------|:-------------------------|

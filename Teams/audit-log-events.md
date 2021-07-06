@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: 瞭解如何從 Microsoft Teams合規性中心的稽核記錄中Microsoft 365資料。
+description: 瞭解如何在 Microsoft Teams中從稽核記錄中Microsoft 365 合規性中心。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4398ed1c89b1ece93bf2e1ca31947f6fadf7afa
-ms.sourcegitcommit: ea2ccf77ba86c3cc10184a2c8a2eceafc6842d1b
+ms.openlocfilehash: 027d3691a5e5c501beb69448a4d4060de4a7fad9
+ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "52091670"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53275672"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在稽核記錄中搜尋Microsoft Teams
 
@@ -65,15 +65,15 @@ ms.locfileid: "52091670"
 
 ![稽核記錄搜尋頁面的螢幕擷取畫面](media/audit-log-search-page.png)
 
-- 您可以按一下活動名稱來選取要搜尋的特定活動。 或者，您可以按一下群組名稱 (群組中的所有活動，) 檔案和資料夾活動。 如果已選取活動，您可以按一下該活動以取消選取專案。 您也可以使用搜尋方塊來顯示包含您輸入之關鍵字的活動。
+- 您可以按一下活動名稱，選取要搜尋的特定活動。 或者，您可以按一下群組名稱 (群組中的所有活動，) 檔案和資料夾活動。 如果已選取活動，您可以按一下該活動以取消選取專案。 您也可以使用搜尋方塊來顯示包含您輸入之關鍵字的活動。
 
   ![稽核記錄搜尋的螢幕擷取畫面](media/audit-log-search.png)
 
-- 若要顯示使用 Cmdlet 執行的活動活動，請選取 **顯示活動** 清單中 **所有活動的結果** 。 如果您知道這些活動的作業名稱，請搜尋所有活動，然後在活動欄的方塊中輸入作業名稱來 **篩選結果。** 若要深入瞭解，請參閱 [步驟 3：篩選搜尋結果](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results)。
+- 若要顯示使用 Cmdlet 執行之活動的事件，請 **選取顯示活動** 清單中 **所有活動的結果** 。 如果您知道這些活動的作業名稱，請搜尋所有活動，然後在活動欄的方塊中輸入作業名稱來 **篩選結果。** 若要深入瞭解，請參閱 [步驟 3：篩選搜尋結果](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#step-3-filter-the-search-results)。
 
 - 若要清除目前的搜尋準則，請按一下 [ **清除**。 日期範圍會回到過去七天的預設值。 您也可以按一下 [ **全部清除以顯示所有活動的結果，** 以取消所有選取的活動。
 
-- 如果找到 5，000 個結果，您可能假設超過 5，000 個符合搜尋準則的事件。 您可以調整搜尋準則，然後重新搜尋以返回較少的結果，或者您也可以選取匯出結果 下載所有結果來匯出  >  **所有搜尋結果**。
+- 如果找到 5，000 個結果，您可以假設超過 5，000 個符合搜尋準則的事件。 您可以調整搜尋準則，然後重新搜尋以返回較少的結果，或者，您也可以選取匯出結果 下載  >  **所有結果來匯出所有搜尋結果**。
 
 請觀看 [這段影片](https://www.youtube.com/embed/UBxaRySAxyE) 以使用音訊記錄搜尋。 加入 Ansuman Acharya，Teams專案經理，示範如何執行稽核記錄搜尋Teams。
 
@@ -81,7 +81,7 @@ ms.locfileid: "52091670"
 
 您可以使用[Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)整合，設定活動策略，以使用[](/cloud-app-security/user-activity-policies)應用程式提供者的 API 強制執行各種自動化程式。 這些策略可讓使用者監控各種使用者執行的特定活動，或追蹤某一種特定活動類型的意外高比率。
 
-設定活動偵測策略之後，系統即會開始產生警示。 通知只會在您建立策略後發生的活動上產生。 以下是一些範例案例，說明您可以在其中使用活動雲端 App 安全性監控Teams活動。
+設定活動偵測策略之後，系統即會開始產生警示。 只有在您建立策略後發生的活動時，才產生通知。 以下是一些範例案例，說明您可以在其中使用活動雲端 App 安全性監控Teams活動。
 
 ### <a name="external-user-scenario"></a>外部使用者案例
 
@@ -95,7 +95,7 @@ ms.locfileid: "52091670"
 
 ![大量刪除觸發的事件清單螢幕擷取畫面](media/TeamsExternalUserList.png)
 
-您可以在這裡查看已設定之方針的符合專案，並根據需要進行任何調整，或匯出結果以用於其他位置。
+您可以在這裡查看符合您設定之方針的符合專案，並根據需要進行任何調整，或匯出結果以用於其他位置。
 
 ### <a name="mass-delete-scenario"></a>大量刪除案例
 
@@ -103,13 +103,13 @@ ms.locfileid: "52091670"
 
 ![顯示大量小組刪除偵測之策略設定之策略建立頁面的螢幕擷取畫面](media/TeamsMassDeletePolicy.png)
 
-如螢幕擷取畫面所示，您可以為此策略設定許多不同的參數，以監控 Teams 刪除，包括嚴重性、單一或重複動作，以及限制此Teams和網站刪除的參數。 您可以獨立于範本執行此工作，或者您可能已建立範本以根據組織需求來建立此策略。
+如螢幕擷取畫面所示，您可以為此策略設定許多不同的參數，以監控 Teams 刪除，包括嚴重性、單一或重複動作，以及限制此Teams和網站刪除的參數。 您可以獨立于範本執行此工作，或者您可能有建立範本以根據組織需求來建立此策略。
 
 建立適用于企業的政策之後，您可以在觸發事件時，查看活動記錄中的結果：
 
 ![大量刪除觸發的事件清單螢幕擷取畫面](media/TeamsMassDeleteList.png)
 
-您可以篩選至您設定的政策，以查看該政策的結果。 如果您在活動記錄中取得的結果不盡如人意 (可能是因為您看到許多結果，或) 沒有結果，這可協助您微調查詢，使其更與您需要它執行的活動相關。
+您可以篩選到您設定的策略，以查看該政策的結果。 如果您在活動記錄中取得的結果不盡如人意 (可能是因為您看到許多結果，或) 沒有結果，這可協助您微調查詢，使其更與您需要它執行的活動相關。
 
 ### <a name="alert-and-governance-scenario"></a>警示與監管案例
 
@@ -119,7 +119,7 @@ ms.locfileid: "52091670"
 
 ## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>使用 雲端 App 安全性設定異常偵測策略
 
-[](/cloud-app-security/anomaly-detection-policy)雲端 App 安全性 中的異常偵測策略提供開箱即用的使用者和實體行為分析 (UEBA) 和機器學習 (ML) ，以便您立即在雲端環境中執行進一級的威脅偵測。 由於系統會自動啟用這些異常現象偵測策略，因此提供立即偵測功能，針對使用者和連接到您網路的機器和裝置中的許多行為異常情況，提供立即結果。 此外，新政策會公開來自 雲端 App 安全性 引擎的更多資料，協助您加快調查程式並包含持續的威脅。
+[雲端 App 安全性](/cloud-app-security/anomaly-detection-policy)中的異常偵測策略提供開箱即用的使用者和實體行為分析 (UEBA) 和機器學習 (ML) ，以便立即在雲端環境中執行進一級的威脅偵測。 由於系統會自動啟用這些異常現象偵測策略，因此提供立即偵測功能，針對使用者和連接到您網路的機器與裝置中的許多行為異常情況，提供立即結果。 此外，新政策會公開來自 雲端 App 安全性 引擎的更多資料，協助您加快調查程式並包含持續的威脅。
 
 我們正努力將事件與Teams偵測策略整合。 目前，您可以針對其他產品設定異常Office偵測策略，並針對符合這些策略的使用者採取動作專案。
 
@@ -127,37 +127,55 @@ ms.locfileid: "52091670"
 
 以下是在稽核記錄中記錄使用者和系統管理活動Teams活動Microsoft 365清單。 資料表包含顯示在活動欄中的好記名稱，以及匯出搜尋結果時出現在稽核記錄詳細資訊和 CSV 檔案中之對應作業的名稱。
 
-|好用名稱  |操作|描述 |
-|---------|---------|---------|
+|好用名稱  |操作 |說明 |
+|:---------|:---------|:---------|
 |新增 Bot 至小組   |BotAddedToTeam        |使用者會新增 Bot 至團隊。        |
 |已新增頻道   |ChannelAdded         |使用者會新增頻道至團隊。         |
 |新增連接器  |ConnectorAdded          |使用者會新增連接器至頻道。        |
 |新增成員    |MemberAdded         |團隊擁有者會將成員新增到團隊、頻道或群組聊天。         |
 |已新增的定位停駐點    |TabAdded         |使用者新增一個定位停駐點至頻道。        |
-|已變更頻道設定    |ChannelSettingChanged         |當團隊成員執行下列活動時，會記錄 ChannelSettingChanged 作業。 針對這些活動的每一項，在稽核記錄搜尋結果的 (欄會顯示變更設定的描述， (括弧中顯示的設定。  <ul><li>變更團隊頻道的名稱 (**頻道名稱)**</li><li>變更小組頻道的描述 (**頻道描述)**</li> </ul>      |
-|已變更組織設定   |TeamsTenantSettingChanged         |當全域系統管理員在系統管理中心執行下列活動時，會記錄 TeamsTenantSettingChanged 作業Microsoft 365作業。 這些活動會影響整個組織Teams設定。 若要深入瞭解，請參閱[管理Teams的設定](enable-features-office-365.md)。 <br>針對上述每一個活動，在稽核記錄搜尋結果的 (欄會顯示變更 (括弧) 顯示之設定的描述。 <ul><li>為組織Teams或停用 **(Microsoft Teams) 。**</li><li>啟用或停用組織Microsoft Teams與商務用 Skype之間的互通性 (商務用 Skype **互通性**) 。</li><li>啟用或停用 Microsoft Teams 中的組織結構 (**組織結構) 。**</li><li>啟用或停用小組成員排程私人會議的能力， (**私人會議排程) 。**</li><li>啟用或停用小組成員在頻道會議排程 (**頻道會議) 。**</li><li>在會議中啟用或停用視Teams視 (**視Skype視) 。**</li><li>啟用或停用組織Microsoft Teams會議中的螢幕 (**螢幕Skype共用) 。**</li><li>啟用或停用新增名為 Giphys (動畫影像) 功能Teams動畫 (**動畫**) 。</li><li>變更組織的內容分級設定 (**內容分級) 。** 內容分級會限制可在交談中顯示的動畫影像類型。</li><li>啟用或停用小組成員將可自訂的影像 (稱為自訂 meme) 從網際網路新增到小組交談 (可自訂的影像) 。 </li><li>啟用或停用小組成員新增可編輯影像的能力， (貼圖) 可編輯 (圖像) 。 </li><li>啟用或停用小組成員在全組織 bot Microsoft Teams聊天和頻道中 (**Bot**) 。</li><li>啟用特定 bot Microsoft Teams。 這不包括 T-Bot，Teams啟用組織自動機器人時， (**個人** bot) 。</li><li>啟用或停用小組成員在擴充功能或 (**或**) 。</li><li>啟用或停用專屬 Bot 的側載功能，Microsoft Teams (**自動載入 Bot) 。**</li><li>啟用或停用使用者將電子郵件訊息傳送至頻道Microsoft Teams頻道 (**功能) 。**</li></ul>|
+|已變更頻道設定    |ChannelSettingChanged         |當團隊成員執行下列活動時，會記錄 ChannelSettingChanged 作業。 For each of these activities, a description of the setting that was changed (shown in parentheses is displayed in the **Item** column in the audit log search results. <ul><li>變更團隊頻道的名稱 (**頻道名稱)**</li><li>變更小組頻道的描述 (**頻道描述)**</li> </ul>      |
+|已變更組織設定   |TeamsTenantSettingChanged         |當下列活動由全域系統管理員在 Microsoft 365 系統管理中心 中執行時，會記錄 TeamsTenantSettingChanged 作業。 這些活動會影響整個組織Teams設定。 若要深入瞭解，請參閱[管理Teams的設定](enable-features-office-365.md)。 <br>針對上述每一個活動，在稽核記錄搜尋結果的 (欄會顯示變更設定的描述) 以括弧或括弧顯示。 <ul><li>啟用或停用Teams組織 **(Microsoft Teams) 。**</li><li>啟用或停用組織Microsoft Teams與商務用 Skype之間的互通性 (商務用 Skype **互通性**) 。</li><li>啟用或停用 Microsoft Teams 中的組織結構 (**組織結構) 。**</li><li>啟用或停用小組成員排程私人會議 (**私人會議排** 程) 。</li><li>啟用或停用小組成員在頻道會議排程 (**頻道會議) 。**</li><li>啟用或停用會議Teams視 (**視Skype視) 。**</li><li>啟用或停用組織Microsoft Teams會議中的螢幕 (**螢幕Skype共用) 。**</li><li>啟用或停用新增名為 Giphys (動畫影像) 功能Teams動畫 (**動畫**) 。</li><li>變更組織的內容分級設定 (**內容分級) 。** 內容分級會限制可在交談中顯示的動畫影像類型。</li><li>啟用或停用小組成員將可自訂的影像 (稱為自訂 meme) 從網際網路新增到小組交談 (可自訂的影像) 。 </li><li>啟用或停用小組成員新增可編輯影像的能力， (貼圖) 可編輯 (圖像) 。 </li><li>啟用或停用小組成員在全組織 bot Microsoft Teams聊天和頻道中 (**Bot**) 。</li><li>啟用特定 bot Microsoft Teams。 這不包括 T-Bot，這是Teams為組織啟用 Bot 時可用的 (**Bot**) 。</li><li>啟用或停用小組成員在擴充功能或 (**或**) 。</li><li>啟用或停用專屬 Bot 的側載功能，Microsoft Teams (**自動載入 Bot) 。**</li><li>啟用或停用使用者將電子郵件訊息傳送至頻道Microsoft Teams頻道 (**傳送) 。**</li></ul>|
 |變更小組成員在團隊中的角色    |MemberRoleChanged         |團隊擁有者會變更團隊中成員的角色。 下列值表示指派給使用者的角色類型。 <br><br>**1** - 表示成員角色。<br>**2** - 表示擁有者角色。<br>**3** - 表示來賓角色。<br><br>成員屬性也包括貴組織的名稱和成員的電子郵件地址。        |
-|已變更團隊設定    |TeamSettingChanged        |當團隊擁有者執行下列活動時，會記錄 TeamSettingChanged 作業。 針對上述每一個活動，在稽核記錄搜尋結果的 (欄會顯示變更 (括弧) 顯示之設定的描述。 <ul><li>變更團隊的存取類型。 Teams小組存取類型設定為私人 (**公用) 。** 當團隊是私人 (預設設定) ，使用者只能使用邀請來存取團隊。 當團隊公開時，任何人都可以發現。</li><li>變更團隊資訊分類 (**團隊) 。** 例如，小組資料可以歸類為高業務影響、中型企業影響或低業務影響。</li><li>變更團隊名稱 (**團隊名稱) 。**</li><li>變更團隊描述 (**團隊描述) 。**</li><li>對小組設定進行變更。 若要存取這些設定，團隊擁有者可以以滑鼠右鍵按一下團隊，選取[**管理團隊**，然後按一下 [設定欄。針對這些活動，變更的設定名稱會顯示在稽核記錄搜尋結果中的專案欄中。</li></ul>         |
+|已變更團隊設定    |TeamSettingChanged        |當團隊擁有者執行下列活動時，會記錄 TeamSettingChanged 作業。 針對上述每一個活動，在稽核記錄搜尋結果的 (欄會顯示變更設定的描述) 以括弧或括弧顯示。 <ul><li>變更團隊的存取類型。 Teams小組存取類型設定為私人 (**公用) 。** 當團隊是私人 (預設) ，使用者只能使用邀請來存取團隊。 當團隊公開時，任何人都可以發現。</li><li>變更團隊資訊分類 (**團隊) 。** 例如，小組資料可以歸類為高業務影響、中型企業影響或低業務影響。</li><li>變更團隊名稱 (**團隊名稱) 。**</li><li>變更團隊描述 (**團隊描述) 。**</li><li>對小組設定進行變更。 若要存取這些設定，團隊擁有者可以以滑鼠右鍵按一下團隊，選取[**管理團隊**，然後按一下 [設定欄。針對這些活動，變更的設定名稱會顯示在稽核記錄搜尋結果中的專案欄中。</li></ul>         |
+|建立聊天 <sup>1</sup>|   聊天已產生|    已Teams聊天。|
 |已建立團隊    |TeamCreated         |使用者會建立團隊。         |
 |刪除所有組織應用程式|DeletedAllOrganizationApps           |已刪除目錄中的所有組織應用程式。     |
 |已刪除的應用程式 |AppDeletedFromCatalog           |應用程式已從目錄中刪除。     |
 |已刪除的頻道     |ChannelDeleted         |使用者會從團隊中刪除頻道。         |
 |已刪除的團隊  |TeamDeleted            |團隊擁有者會刪除團隊。      |
 |已編輯郵件中的 URL 連結Teams     |MessageEditedHasLink         |使用者會編輯郵件，並將 URL 連結新增到郵件Teams。         |
+|匯出的郵件 <sup>1</sup> |   郵件已Exported |已匯出聊天或頻道訊息|.
+|已抓取的聊天 <sup>1</sup> |ChatRetrieved  |已Microsoft Teams聊天。|
+|已提取郵件的所有託管內容<sup>1</sup>    |MessageHostedContentsListed    |已取回郵件中所有託管的內容，例如影像或程式碼段。|
 |已安裝的應用程式 |App 已安裝         |已安裝應用程式。   |
 |在卡片上執行的動作|已執行CardAction|使用者對聊天中的介面卡片採取動作。 Bot 通常會使用介面卡片，以在聊天中豐富地顯示資訊和互動。 <br/><br/>**注意：** 稽核記錄中只能使用聊天內適性卡片上的內嵌輸入動作。 例如，當使用者在由投票機器人產生的介面卡片上，在頻道交談中提交投票回應。 「查看結果」等使用者動作會開啟對話方塊，或對話方塊內的使用者動作在稽核記錄中無法使用。|
+|張貼新郵件 <sup>1</sup>  |訊息：新訊息已張貼至聊天或頻道。|
 |已發佈的應用程式 |AppPublishedToCatalog           |應用程式已新加入目錄。     |
+|讀取郵件 <sup>1</sup>    |MessageRead    |已取回聊天或頻道的訊息。|
+|讀取郵件的託管內容 <sup>1</sup>  |MessageHostedContentRead   |已取回郵件中的託管內容，例如影像或程式碼段。|
 |從小組移除 Bot   |BotRemovedFromTeam         |使用者會從小組移除 Bot。       |
 |移除連接器     |ConnectorRemoved         |使用者會從頻道移除連接器。         |
-|已移除的成員    |MemberRemoved        |團隊擁有者會從小組、頻道或群組聊天移除成員。         |
+|已移除的成員    |MemberRemoved        |團隊擁有者會從團隊、頻道或群組聊天移除成員。         |
 |已移除的定位停駐點    |TabRemoved         |使用者會從頻道移除一個定位停駐點。         |
+|已取回的郵件 <sup>1</sup>    |郵件已列出 |已從聊天或頻道中取回訊息。|
 |在郵件中Teams |MessageCreatedHasLink|使用者會傳送一則訊息，其中包含 Teams。|
+|郵件建立已送出變更 <sup>通知 1</sup> |MessageCreatedNotification |已送出變更通知，以通知訂閱的聆聽者應用程式新郵件。|
+|郵件刪除的已送出變更通知 <sup>1</sup> |MessageDeletedNotification |已送出變更通知，以通知訂閱的聆聽者應用程式已刪除的郵件。|
+|郵件更新的已送出變更通知 <sup>1</sup>   |MessageUpdatedNotification |已送出變更通知，以通知訂閱的聆聽者應用程式已更新的郵件。|
+|訂閱郵件變更通知 <sup>1</sup>    |訂閱ToMessages   |由聆聽者應用程式建立訂閱以接收郵件的變更通知。|
 |已卸載的應用程式 |AppUninstalled           |應用程式已卸載。     |
 |更新的應用程式 |AppUpdatedInCatalog           |已更新目錄中的應用程式。     |
+|更新聊天 <sup>1</sup>    |ChatUpdated    |已Teams聊天。|
+|更新郵件 <sup>1</sup> |MessageUpdated |聊天或頻道的訊息已更新。|
 |更新連接器    |ConnectorUpdated         |使用者修改了頻道中的連接器。         |
 |已更新的 Tab   |TabUpdated         |使用者修改了頻道中的一個定位停駐點。         |
 |升級的應用程式 |AppUpgraded           |應用程式已升級至目錄中的最新版本。     |
 |使用者已Teams     |TeamsSession 啟動         |使用者會以用戶端Microsoft Teams。 此事件不會捕獲權杖重新更新活動。         |
+||||
+
+> [!NOTE]
+> <sup>1</sup>此事件的稽核記錄只有在執行作業時，才能撥打 Microsoft Graph API。 如果在用戶端中執行Teams，將不會記錄稽核記錄
 
 ## <a name="shifts-in-teams-activities"></a>在活動中Teams班
 
@@ -165,7 +183,7 @@ ms.locfileid: "52091670"
 
 如果貴組織正在使用 Teams 中的 Shifts 應用程式，您可以搜尋稽核記錄，尋找與 Shifts 應用程式相關的活動。 以下列出所有在稽核記錄中記錄在 Teams 中 Shifts Microsoft 365活動。
 
-|好用名稱  |操作  |描述  |
+|好用名稱  |操作  |說明  |
 |---------|---------|---------|
 |已新增排程群組 |ScheduleGroupAdded          |使用者已成功新增排程群組至排程。|
 |已編輯排程群組     |ScheduleGroupEdited         |使用者已成功編輯排程群組。          |
@@ -173,7 +191,7 @@ ms.locfileid: "52091670"
 |已撤銷排程 |ScheduleWithdrawn              |使用者已成功撤銷已發佈的排程。|
 |新增班次      |ShiftAdded          |使用者已成功新增班次。           |
 |已編輯的班次       |ShiftEdited       |使用者已成功編輯班次。        |
-|已刪除的班次          |ShiftDeleted          | 使用者已成功刪除班次。               |
+|已刪除的班          |ShiftDeleted          | 使用者已成功刪除班次。               |
 |新增請假      |TimeOffAdded          |使用者已成功在排程中新增假。          |
 |已編輯的假         |TimeOffEdited           |使用者已成功編輯假。          |
 |已刪除的假     |TimeOffDeleted              |使用者已成功刪除假。           |
@@ -187,13 +205,13 @@ ms.locfileid: "52091670"
 |使用時間時鐘結束的中斷    |BreakEnded          |使用者在使用中的時間時鐘會話期間成功結束休息。          |
 |新增時間時鐘專案     |TimeClockEntryAdded          |使用者已成功在時程表上新增手動計時專案。          |
 |編輯的時間時鐘專案     | TimeClockEntryEdited             |使用者在時程表上成功編輯時間時鐘專案。          |
-|已刪除的時間時鐘專案    |TimeClockEntryDeleted              |使用者已成功刪除時程表上的時間時鐘專案。          |
+|已刪除的時間時鐘專案    |TimeClockEntryDeleted              |使用者已成功刪除時表上的時間時鐘專案。          |
 |新增輪班要求         |RequestAdded              |使用者新增了輪班要求。          |
 |回應班次要求     |RequestRespondedTo                  |使用者回應了輪班要求。          |
 |已取消的班次要求         |RequestCancelled               |使用者已取消班次要求。          |
 |變更排程設定      |ScheduleSettingChanged          |使用者變更 Shifts 設定中的設定。         |
 |新增員工整合      |WorkforceIntegrationAdded                  | Shifts App 已與協力廠商系統整合。         |
-|已接受關閉班次訊息         |OffShiftDialogAccepted          |使用者會確認輪班後訊息，Teams班次後存取。           |
+|已接受關閉班次訊息         |OffShiftDialogAccepted          |使用者會確認輪班後訊息，Teams輪班後存取。           |
 
 ## <a name="office-365-management-activity-api"></a>Office 365管理活動 API
 
@@ -205,4 +223,4 @@ Teams () 的成員資格變更，例如透過 Azure Active Directory (Azure AD) 
 
 ## <a name="related-topics"></a>相關主題
 
-- [在合規性中心中Microsoft 365稽核記錄](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [搜尋稽核記錄Microsoft 365 合規性中心](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

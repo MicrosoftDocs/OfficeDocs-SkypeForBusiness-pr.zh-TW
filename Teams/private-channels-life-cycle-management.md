@@ -18,16 +18,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用 API 管理貴Graph頻道。
-ms.openlocfilehash: e97d808bd9f544ef611b0b5e4b0456d302b4013d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 263c490156a3dc02ddc8f81233a049ff020c72f8
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117741"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278526"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>管理私人頻道在 Microsoft Teams
 
-您可以在這裡找到管理所需的指引，使用 Graph API 來管理[Teams中的](./private-channels.md)私人頻道。
+您可以在這裡找到管理所需的指南，使用 Graph API 來管理[Teams中的](./private-channels.md)私人頻道。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>設定小組成員是否可以建立私人頻道
 
@@ -68,7 +68,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="find-sharepoint-urls-for-all-private-channels-in-a-team"></a>尋找SharePoint中所有私人頻道的 URL
 
-無論您是想要在私人頻道中執行 eDiscovery 或合法保留檔案，或想要建立將檔案放在特定私人頻道的自訂應用程式，您都想要查詢每個私人頻道所建立的唯一 SharePoint 網站集合。
+無論您是想要在私人頻道中執行 eDiscovery 或合法保留檔案，或想要建立將檔案放在特定私人頻道中的自訂應用程式，您都想要查詢每個私人頻道所建立的唯一 SharePoint 網站集合。
 
 系統管理員可以使用 API 命令Graph查詢這些 URL。
 
@@ -136,7 +136,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 ## <a name="list-and-update-roles-of-owners-and-members-in-a-private-channel"></a>在私人頻道中列出及更新擁有者和成員的角色
 
-您可能會想要列出私人頻道的擁有者和成員，以決定是否需要將私人頻道的某些成員升級為擁有者。 當私人頻道的擁有者已離開組織，而私人頻道需要系統管理員協助以要求該頻道的擁有權時，可能會發生此情況。
+您可能會想要列出私人頻道的擁有者和成員，以決定是否需要將私人頻道的某些成員升級為擁有者。 當您有私人頻道的擁有者已離開組織，而私人頻道需要系統管理員協助以要求該頻道的擁有權時，可能會發生此情況。
 
 做為系統管理員，您可以使用 Graph API 來執行這些動作。
 
@@ -149,7 +149,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     ```Graph API
     GET https://graph.microsoft.com/beta/teams/<group_id>/channels/<channel_id>/members
     ```
-    
+
     **回應**
 
     ```Graph API
@@ -177,8 +177,9 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
               }
           ]
     }
-    ```    
-2. 使用下列專案將成員升級為擁有者，其中group_id 、channel_id 和 id 會從上一個 &lt; &gt; &lt; &gt; &lt; &gt; 通話中返回。 請注意，從上一個通話中返回的識別碼和 userId 並不相同， &lt; &gt; &lt; &gt; 無法交換。 請確定您用 &lt; 的是識別碼 &gt; 。
+    ```
+
+2. 使用下列專案將成員升級為擁有者，其中group_id 、channel_id 和 id 會從上一個 &lt; &gt; &lt; &gt; &lt; &gt; 通話中返回。 請注意，從前一個通話中返回的識別碼和 userId 並不相同， &lt; &gt; &lt; &gt; 無法交換。 請確定您用 &lt; 的是識別碼 &gt; 。
 
     **請求**
 

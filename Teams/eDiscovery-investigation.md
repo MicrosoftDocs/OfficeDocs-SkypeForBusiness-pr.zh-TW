@@ -13,20 +13,20 @@ ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解當您需要執行電子檔探索時該怎麼辦，例如當您需要提交所有電子化儲存的資訊進行訴訟時。
+description: 瞭解執行電子檔探索時該做什麼，例如當您需要提交所有電子檔儲存的資訊進行訴訟時。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ca1a679fbdce7ca2840c41266053cf13f1452fe0
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: ebc1bb12b8a864e65cf6cb26b3d2022ae2e1563b
+ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197528"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53275682"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在電子郵件中對內容進行電子檔探索Microsoft Teams
 
-大型企業通常會遭受高罰訴訟，要求提交所有電子 (ESI) 。 Microsoft Teams內容可在電子檔探索調查期間搜尋及使用。
+大型企業通常會受到高罰訴訟，要求提交所有電子 (ESI) 。 Microsoft Teams內容可在電子檔探索調查期間搜尋及使用。
 
 ## <a name="overview"></a>概觀
 
@@ -78,11 +78,11 @@ ms.locfileid: "51197528"
 > [!div class="mx-imgBorder"]
 > ![eDiscovery 搜尋結果中參與者之間的交談。](media/MeetingImConversation2.png)
 
-有關進行電子資料探索調查詳細資訊，請參閱開始使用 [Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)。
+有關執行 eDiscovery 調查的資訊，請參閱開始使用 [Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)。
 
 Microsoft Teams電子檔探索匯出輸出中，Excel會顯示為 IM 或交談。 您可以在檔案中 `.pst` 開啟Outlook以在匯出郵件後查看這些郵件。
 
-檢視團隊的 .pst 檔案時，所有交談會保留在 [交談記錄> 下的 [小組聊天> 資料夾中。 郵件的標題包含團隊名稱和頻道名稱。 例如，下圖顯示來自 Bob 的訊息，該訊息Project製造規格小組的 7 個標準通道。
+檢視團隊的 .pst 檔案時，所有交談都位於 [交談記錄> 下的 [小組聊天> 資料夾中。 郵件的標題包含團隊名稱和頻道名稱。 例如，下圖顯示來自 Bob 的訊息，該訊息Project製造規格小組的 7 個標準通道。
 
 ![使用者信箱中的小組聊天資料夾螢幕擷取畫面Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
@@ -100,9 +100,9 @@ Teams不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋整
 
 ### <a name="include-private-channel-files-in-an-ediscovery-search"></a>在電子檔探索搜尋中納入私人頻道檔案
 
-執行這些步驟之前，請安裝[SharePoint管理命令殼，然後連線至 SharePoint Online。](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+執行這些步驟之前，請安裝 SharePoint[管理命令殼，然後連線至 SharePoint Online。](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
-1. 執行下列操作，以取得小組中SharePoint私人頻道的所有網站集合清單。
+1. 執行下列操作，以取得與小組中私人SharePoint相關聯的所有網站集合清單。
 
     ```PowerShell
     Get-SPOSite
@@ -211,13 +211,13 @@ Teams不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋整
 ![內容搜尋結果中的卡片內容相同](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> 若要在此時的搜尋結果中顯示來自卡片內容的影像 (例如上一個螢幕擷取畫面) 中的核取方塊，您必須在您用於查看搜尋結果的同一個瀏覽器會話的不同索引標上，于 Teams (上登錄。 https://teams.microsoft.com) 否則會顯示影像預留位置。
+> 若要在搜尋結果中顯示來自卡片內容的影像 (例如上一個螢幕擷取畫面) 中的核取方塊，您必須在您用於查看搜尋結果的同一個瀏覽器會話的不同索引點，在 Teams (上登錄。 https://teams.microsoft.com) 否則會顯示影像預留位置。
 
 ## <a name="advanced-ediscovery"></a>Advanced eDiscovery
 
 您也可以Microsoft Teams工作流程來搜尋及保留部分Advanced eDiscovery[內容](/microsoft-365/compliance/overview-ediscovery-20)。 雖然 eDiscovery 提供一系列的搜尋、保留和匯出功能，Advanced eDiscovery提供合規性系統管理員更多工具來識別資料來源及分析其內容。
 
-### <a name="advanced-ediscovery-custodian-workflow-for-teams-content"></a>Advanced eDiscovery管理工作流程Teams內容
+### <a name="advanced-ediscovery-custodian-workflow-for-teams-content"></a>Advanced eDiscovery內容管理Teams工作流程
 
 監護者可能是各種團隊的成員。 您可以Teams與這些監護者相關的內容。 有關監護工作流程的指示，請參閱新增監護者[至Advanced eDiscovery案例](/microsoft-365/compliance/add-custodians-to-case)。
 
@@ -240,11 +240,11 @@ Teams不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋整
 
 ### <a name="advanced-ediscovery-searches"></a>Advanced eDiscovery搜尋
 
-Teams搜尋內容。 有關搜尋詳細資訊，請參閱在 Advanced eDiscovery[中收集Advanced eDiscovery。](/microsoft-365/compliance/collecting-data-for-ediscovery) 即使有一封郵件符合搜尋查詢，搜尋也會返回整個交談。
+Teams搜尋內容。 有關搜尋詳細資訊，請參閱在 Advanced eDiscovery[中收集案例Advanced eDiscovery。](/microsoft-365/compliance/collecting-data-for-ediscovery) 即使有一封郵件符合搜尋查詢，搜尋也會返回整個交談。
 
 建立搜尋查詢時，您可以選擇監護者，以便搜尋所有已選取的來源。 您也可以搜尋非監護來源，例如Teams未對應給使用者的網站。 選擇性查詢也可以縮小搜尋範圍，以縮小Teams範圍。
 
-建立並選取搜尋之後，視窗會顯示其他詳細資料，以及您可以在選取的搜尋上執行的動作。 如果您按一下 [統計資料> 按鈕，就可以查看搜尋的統計資料，包括根據位置類型細分、內容的原始來源，以及內容是否位於群組信箱、個別使用者信箱或 SharePoint 網站。 因此，您可以查看哪些來源對搜尋結果有説明。 您也可以使用 **查詢** 視圖，以便查看哪些個別關鍵字對結果有影響。
+建立並選取搜尋之後，視窗會顯示其他詳細資料，以及您可以在選取的搜尋上執行的動作。 如果您按一下 [統計資料> 按鈕，就可以查看搜尋的統計資料，包括根據位置類型細分、內容的原始來源，以及內容是否位於群組信箱、個別使用者信箱或 SharePoint 網站。 因此，您可以查看哪些來源對搜尋結果有説明。 您也可以使用 **[查詢** 視圖>，以便查看哪些個別關鍵字對結果有影響。
 
 完成搜尋之後，您可以按一下 [新增結果 **以審查設定** 按鈕並新增到評論集。 有關審查集詳細資訊，請參閱本文稍後[Advanced eDiscovery管理檢查](/microsoft-365/compliance/managing-review-sets)集和[檢查](#review-sets-workflow)集工作流程。
 
@@ -252,9 +252,9 @@ Teams搜尋內容。 有關搜尋詳細資訊，請參閱在 Advanced eDiscovery
 
 新增搜尋至評論集時，您可以選擇一般評論集或交談評論集。
 
-一般評論集與匯出類似;它提供個別 `.msg` 檔案Teams內容，並且以基本視圖呈現內容。 當您打算稍後使用其他軟體工具重新處理檔案時，通常會使用一般評論集。
+一般評論集與匯出類似;它提供個別檔案Teams內容，並且以基本視圖 `.msg` 呈現內容。 當您打算稍後使用其他軟體工具重新處理檔案時，通常會使用一般評論集。
 
-交談評論集提供交談的更直覺、討論執行緒的視圖;它會以適當的順序一起顯示相關的郵件。
+交談評論集提供交談的更直覺、討論執行緒的視圖;它會以適當的順序一起顯示相關郵件。
 
 > [!div class="mx-imgBorder"]
 > ![交談評論集的螢幕擷取畫面](media/conversationOptions2.png)
@@ -267,7 +267,7 @@ Teams搜尋內容。 有關搜尋詳細資訊，請參閱在 Advanced eDiscovery
 
 許多邏輯準則會用來判斷其他郵件是否提供符合您查詢的郵件內容。 例如，針對Teams，啟用這些選項會因為郵件的執行緒方式，來取回父郵件和所有子郵件。
 
-也會檢查郵件時間戳記。 如果郵件符合您的查詢，則 4 小時內在其前或 4 小時內追蹤該郵件的相鄰郵件會視為交談的一部分，也會包含在結果中。
+也會檢查郵件時間戳記。 如果郵件符合您的查詢，則 4 小時內或 4 小時內追蹤該郵件的相鄰郵件會視為交談的一部分，也會包含在結果中。
 
 如果您必須確定哪些上下文相關郵件會與搜尋查詢的符合專案一起返回，則不需要使用這些選項。 您可以收集所有內容，也可以擴大搜尋的日期範圍，讓查詢的結果會退回更多郵件。
 
@@ -283,7 +283,7 @@ Teams搜尋內容。 有關搜尋詳細資訊，請參閱在 Advanced eDiscovery
 
 #### <a name="summary-view-text-view-and-annotate-view"></a>摘要視圖、文字視圖和批註視圖
 
-如果您按一下評論Teams中的交談，它會顯示 [摘要視圖Teams整個交談顯示為您可以個別互動的訊息清單。 按一下郵件右邊的向下箭鍵，以顯示操作功能表，可讓您查看郵件詳細資料或下載個別 `.msg` 檔案。 按一下郵件詳細資料會顯示中繼資料摘要或郵件的完整中繼資料。
+如果您按一下評論Teams中的交談，它會顯示 [摘要視圖Teams整個交談，作為您可以個別互動的郵寄清單。 按一下郵件右邊的向下箭鍵，以顯示操作功能表，可讓您查看郵件詳細資料或下載個別 `.msg` 檔案。 按一下郵件詳細資料會顯示中繼資料摘要或郵件的完整中繼資料。
 
 若要下載 PDF，請按一下摘要視圖右上角的下載按鈕。
 
@@ -300,7 +300,7 @@ At the bottom of the **Annotate view** tab is the **Tag documents** button, whic
 
 #### <a name="action-menu"></a>動作功能表
 
-在評論集視窗中，您可以按一下動作匯出來 **匯出** \> **內容**。 匯出時有許多可用的選項。
+在評論集視窗中，您可以按一下動作匯出來匯出 \> **內容**。 匯出時有許多可用的選項。
 
 若要匯出包含所有郵件之所有中繼資料Teams，請按一下以選取 [載入 **檔案>** 核取方塊。 若要在檔案中納入任何您已對內容所申請的標記，請按一下以選取 [ **標記>** 核取方塊。
 
@@ -315,7 +315,7 @@ At the bottom of the **Annotate view** tab is the **Tag documents** button, whic
 當您準備好開始匯出程式時，請按一下 [ **匯出>** 按鈕。 請參閱 [下載匯出工作](/microsoft-365/compliance/download-export-jobs) ，以取得如何存取 Azure Blob 儲存容器，以及匯出完成後下載匯出內容之詳細資訊。
 
 > [!NOTE]
-> 匯出可能需要一段長的時間。 若要追蹤匯出程式的狀態，請離開 [檢查集>**選項卡，** 然後按一下 [**匯出> Tab。**
+> 匯出可能需要一段長的時間。 若要追蹤匯出程式的狀態，請離開 [檢查集> **定位停駐點** ，然後按一下 [ **匯出> 選項卡** 。
 
 ## <a name="related-topics"></a>相關主題
 

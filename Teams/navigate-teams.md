@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: edf8c342ced18245e6dd56fe3916cebea3fa9f9e
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: bc05be5d107c2394c959b56866b2a5cda143278d
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856252"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278666"
 ---
 # <a name="navigate-microsoft-teams"></a>流覽Microsoft Teams
 
@@ -26,7 +26,7 @@ ms.locfileid: "52856252"
 
 ## <a name="getting-started"></a>開始
 
-使用我們的入門指南，Kaizala開始Teams開始進行。 若要深入瞭解如何開始您的Microsoft Teams，請參閱[開始使用 Teams。](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)
+使用我們的入門指南，Kaizala開始Teams您輕鬆上手。 若要深入瞭解如何開始您的Microsoft Teams，請參閱[開始使用 Teams。](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)
 
 ## <a name="starting-new-chats-11-audio-and-video-calls"></a>開始新的聊天、1：1 音訊和視訊通話
 
@@ -42,13 +42,13 @@ ms.locfileid: "52856252"
 
 您可以在 中與員工共用重要更新[Teams。](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992)
 
-與公司 [Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) App 聊天，建立及傳送適用于多個團隊或大量員工的郵件。 其簡易介面可讓指定使用者以目標方式建立、預覽、共同合作及傳送郵件。 建立自訂目標通訊功能，例如自訂遙測，瞭解有多少使用者已確認或與郵件互動，而深入見解會直接與管理決策關聯。
+與公司 [Communicator](https://docs.microsoft.com/microsoftteams/platform/samples/app-templates#company-communicator) App 聊天，建立及傳送適用于多個團隊或大量員工的郵件。 其簡易介面可讓指定使用者以目標方式建立、預覽、共同合作及傳送郵件。 建立自訂的目標通訊功能，例如自訂遙測，瞭解有多少使用者已確認或與郵件互動，而深入見解會直接與管理決策關聯。
 
 ### <a name="check-ins"></a>簽入
 
-使用智慧Teams相機來捕獲並共用有批註的影像與小組。 輕鬆精准分享您的位置，讓您的小組隨時瞭解。 需要擁有詳細資訊，以傳達Kaizala功能如何Teams。 在檔上，我們一定會有來自幻燈片組的資訊。
+使用智慧Teams相機來捕獲並共用有批註的影像與小組。 輕鬆精准分享您的位置，讓您的小組隨時瞭解。 需要擁有詳細資訊，以傳達Kaizala功能如何Teams。 在檔上，一定要有來自幻燈片組的資訊。
 
-[使用教職員檢查應用程式](/microsoftteams/platform/samples/app-templates#staff-check-ins)範本，讓前線員工直接從公司直接在排定或臨時的基礎上，輕鬆提供時間關鍵型資訊和狀態Teams。 應用程式支援即時位置、相片、筆記、提醒通知和自動化工作流程。
+[使用教職員簽入應用程式](/microsoftteams/platform/samples/app-templates#staff-check-ins)範本，讓前線員工能直接從公司直接在排定或臨時的基礎上，輕鬆提供時間關鍵型資訊和狀態Teams。 應用程式支援即時位置、相片、筆記、提醒通知和自動化工作流程。
 
 ### <a name="training"></a>訓練
 
@@ -82,7 +82,7 @@ ms.locfileid: "52856252"
 
 ## <a name="kaizala-group-dissolution"></a>Kaizala群組解除群組
 
-當您轉換至Teams和聊天時，您可能會考慮Kaizala群組解除關係，以確保貴組織有一個集中的通訊位置。  刪除群組Kaizala群組會從聊天清單中移除群組。 如果您是群組中唯一的系統管理員，您必須將系統管理員角色指派給群組中的至少一個人，才能刪除。
+當您轉換至Teams和聊天時，您可能會考慮Kaizala群組解除關係，以確保貴組織有一個集中的通訊位置。  刪除群組Kaizala群組會從聊天清單中移除群組。 如果您是群組中的唯一系統管理員，您必須將系統管理員角色指派給群組中的至少一個人，才能刪除。
 
 若要刪除群組：
 
@@ -92,7 +92,7 @@ ms.locfileid: "52856252"
 
 ## <a name="kaizala-tenant-data-export"></a>Kaizala租使用者資料匯出
 
-使用 Teams時，您仍可在 Kaizala 中維持公司資料的Kaizala。 詳細資訊，請參閱從 [管理入口網站匯出租使用者資料](/office365/kaizala/export-or-delete-your-data)。
+使用 Teams時，您仍可在 Kaizala 中維持公司資料的Kaizala。 詳細資訊，請參閱 [從管理入口網站匯出租使用者資料](/office365/kaizala/export-or-delete-your-data)。
 
 ## <a name="collaborating-with-external-usersvendorssupplierspartners"></a>與外部使用者 (廠商/供應商/合作夥伴) 
 
@@ -104,9 +104,9 @@ ms.locfileid: "52856252"
 
 ## <a name="what-is-guest-access-in-teams"></a>什麼是來賓存取Teams？
 
-使用 [來賓存取](/MicrosoftTeams/guest-access)，您可以為組織外部人員提供團隊、頻道中的檔、資源、聊天和應用程式存取權，同時維持公司資料的控制權。 在來賓中新增來賓不需要額外Teams。
+使用 [來賓存取](/MicrosoftTeams/guest-access)，您可以為組織外部人員提供團隊、頻道中的檔、資源、聊天和應用程式存取權，同時維持公司資料的控制權。 在來賓中新增來賓不需要Teams。
 
-## <a name="who-can-be-a-guest-in-teams"></a>神秘中的來賓Teams？
+## <a name="who-can-be-a-guest-in-teams"></a>神秘中可以做來賓Teams？
 
 來賓不是員工或貴組織的成員。 他們沒有貴組織的工作帳戶。 例如，來賓可能包括有合作夥伴、廠商、供應商或顧問。
 

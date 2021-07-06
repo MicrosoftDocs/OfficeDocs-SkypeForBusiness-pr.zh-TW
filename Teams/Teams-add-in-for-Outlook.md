@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ce2e7ff2822e87d3a2a4784a10d83a4c12ced8f
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 5242d4b836f159484caf5575d23937ddaba97816
+ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598382"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "53278536"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 =======================================
@@ -33,7 +33,7 @@ Teams 會議增益集可讓使用者從 Outlook 安排 Teams 會議。 您可以
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>在 Windows 版 Outlook 中使用 Teams 會議增益集
 
-如果使用者在 Windows 電腦上安裝了 Microsoft Teams 及 Office 2013、Office 2016 或 Office 2019，則系統就會自動為他們安裝 Teams 會議增益集。 使用者會在 Outlook 行事曆功能區上看到 Teams 會議增益集。
+如果使用者在 Windows 電腦上安裝了 Microsoft Teams 及 Office 2013、Office 2016 或 Office 2019，則系統就會自動為他們安裝 Teams 會議增益集。使用者會在 Outlook 行事曆功能區上看到 Teams 會議增益集。
 
 ![Outlook 功能區上的 Teams 會議增益集螢幕擷取畫面](media/Teams-add-in-for-Outlook.png)
 
@@ -97,7 +97,7 @@ Teams 用戶端會藉由判斷使用者需要 32 位元或 64 位元版本，來
 
 ## <a name="teams-upgrade-policy-and-the-teams-meeting-add-in-for-outlook"></a>Teams 升級原則和適用於 Outlook 的 Teams 會議增益集
 
-客戶可以[選擇從商務用 Skype 升級到 Teams 的作業過程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)。 租用戶系統管理員可以使用 Teams 共存模式來為使用者定義此過程。 租用戶系統管理員可以選擇讓使用者並行使用 Teams 和商務用 Skype (離島模式)。 
+客戶可以[選擇從商務用 Skype 升級到 Teams 的作業過程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)。 租用戶系統管理員可以使用 Teams 共存模式來為使用者定義此過程。 租用戶系統管理員可以選擇讓使用者並行使用 Teams 和商務用 Skype (離島模式)。
 
 當使用離島模式的使用者在 Outlook 中安排會議時，他們通常能夠選擇要安排商務用 Skype 或 Teams 會議。 在 Outlook 網頁版、Outlook Windows 和 Outlook Mac 中，使用者預設可在離島模式中看到商務用 Skype 和 Teams 增益集。 您可以設定 [Teams 會議原則] 設定，控制 [離島] 模式中的使用者只能使用 [Teams 會議] 增益集，或是可同時使用 [Teams 會議] 和 [商務用 Skype 會議] 增益集。
 
