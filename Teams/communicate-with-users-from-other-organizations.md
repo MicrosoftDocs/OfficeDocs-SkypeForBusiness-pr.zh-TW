@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Priority
 description: 了解如何使用外部存取 (同盟) 和來賓存取在 Microsoft Teams 中通話、聊天、尋找和新增來自組織外部的使用者。
-ms.openlocfilehash: e4aea581af73e69512e8ab55f87faa0602219575
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bda5652aedd8d071984334a3851e50ba52400943
+ms.sourcegitcommit: 89e26d9ffca180e56233984bf0a341b3c3ec7208
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115991"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53301998"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>使用來賓存取和外部存取與組織外的人員共同作業
 
@@ -77,7 +77,7 @@ ms.locfileid: "51115991"
 | 組織外部的人員可以 | 外部存取使用者 | 來賓 |
 |---------|-----------------------|--------------------|
 | 存取 Teams 資源 | 否 | 是 |
-| 被新增至群組聊天 | 否 | 是 |
+| 被新增至群組聊天 | 是 | 是 |
 | 受邀參加會議 | 是 | 是 |
 | 可進行私人通話 | 是 | 是<sup>5</sup> |
 | 檢視撥入會議參與者的電話號碼 | 否<sup>4</sup> | 是 |

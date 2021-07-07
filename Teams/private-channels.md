@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的私人頻道。
-ms.openlocfilehash: 53eeff9791ac07939756f56a7ebce635ac7cd819
-ms.sourcegitcommit: 24ae0c223e9d915c505146d422ad049c88a4ed51
+ms.openlocfilehash: 10734ef748d5e3ec0327c1cae3a3e6defec0e9af
+ms.sourcegitcommit: 89e26d9ffca180e56233984bf0a341b3c3ec7208
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "53023234"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "53301988"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人頻道
 
@@ -124,8 +124,6 @@ Teams 會管理私人頻道網站的生命週期。 如果在 Teams 以外刪除
 當您從現有小組建立小組時，不會複製現有小組中任何的私人頻道。
 
 目前未接的活動電子郵件中不會包含來自私人頻道的通知。
-
-私人頻道中的訊息不支援保留原則。
 
 ## <a name="related-topics"></a>相關主題
 
