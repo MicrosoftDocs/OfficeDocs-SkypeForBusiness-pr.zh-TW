@@ -587,6 +587,8 @@ items:
                     href: meeting-policies-participants-and-guests.md
                   - name: 從使用者移除 RestrictedAnonymousAccess 會議原則
                     href: meeting-policies-restricted-anonymous-access.md
+          - name: 會議原則與會議到期時間
+            href: meeting-expiration.md
           - name: 管理會議設定
             href: meeting-settings-in-teams.md
           - name: 在使用者設定變更時傳送給他們的電子郵件
