@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 98502d623edda6117b2838d2bc71197a43baf394
-ms.sourcegitcommit: 84d99b266dea2a972774d781b92eccc67d6c197a
+ms.openlocfilehash: d58d9aaecd2c5d07922a96e0d5b0cb1ead4ba25b
+ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "51197518"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53345699"
 ---
 <a name="sign-in-to-microsoft-teams"></a>登入 Microsoft Teams
 ==========================
@@ -39,13 +39,13 @@ Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。若要瞭�
 
 使用 Teams 的每一個組織都能使用新式驗證。 如果使用者無法完成此程序，則表示貴組織的 Azure AD 設定可能有基礎問題。 如需詳細資訊，請參閱[為何我無法登入 Microsoft Teams？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
-- 如果使用者已透過他們的公司或學校帳戶登入 Windows 或其他 Office 應用程式，當他們啟動 Teams 時，就可以直接進入應用程式。 不需要再輸入認證。
+- 如果使用者已透過他們的公司或學校帳戶登入 Windows 或其他 Office 應用程式，當他們啟動 Teams 時，就可以直接進入應用程式。他們不需要輸入認證。
 
 - Microsoft 建議使用 Windows 10 版本 1903 或更新版本，以獲得最佳的單一登入體驗。
 
-- 如果使用者未登入他們的 Microsoft 公司或學校帳戶，當他們啟動 Teams 時，系統會要求他們提供單一要素或多重要素驗證 (SFA 或 MFA)。 此程序取決於貴組織決定登入程式所需的方式。
+- 如果使用者未登入他們的 Microsoft 公司或學校帳戶，當他們啟動 Teams 時，系統會要求他們提供單一要素或多重要素驗證 (SFA 或 MFA)。此程序取決於您的組織已決定他們希望登入程序要求的條件。
 
-- 如果使用者登入加入網域的電腦，當他們啟動 Teams 時，系統可能會要求他們執行一個進一步的驗證步驟，視您的組織是否選擇要求 MFA 或他們的電腦是否要求 MFA 才能登入而定。 如果使用者的電腦要求 MFA 才能登入，當他們開啟 Teams 時，應用程式會自動啟動。
+- 如果使用者登入加入網域的電腦，當他們啟動 Teams 時，系統可能會要求他們執行一個進一步的驗證步驟，視您的組織是否選擇要求 MFA 或他們的電腦是否要求 MFA 才能登入而定。如果他們的電腦已經要求 MFA 才能登入，則當他們開啟 Teams 時，應用程式會自動啟動。
 
 - 在已加入網域的電腦上，如果無法使用 SSO，Teams 可能會使用使用者主體名稱 (UPN) 預先填入其登入畫面。 您可能不會想要這種情況發生，特別是如果您的組織在內部部署和 Azure Active Directory 中使用不同的 UPN。 如果是這樣，您可以使用下列 Windows 登錄機碼來關閉 UPN 的預先填入：
 
@@ -72,7 +72,7 @@ Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。若要瞭�
 
 登入後，行動使用者將會看到目前登入或先前已在其裝置上登入的所有 Microsoft 365 帳戶清單。 使用者可以點選任何帳戶以登入。 以行動裝置登入會有下列兩種案例：
 
-1. 如果選取的帳戶目前已登入其他 Office 365 或 Microsoft 365 app，系統會將該使用者直接移至 Teams。 使用者不需要輸入認證。
+1. 如果選取的帳戶目前已登入其他 Office 365 或 Microsoft 365 應用程式，系統會將該使用者直接登入 Teams。使用者不需輸入認證。
 
 2. 如果使用者未登入其 Microsoft 365 帳戶的其他位置，系統會要求他們提供單一要素或多重要素驗證 (SFA 或 MFA)，視貴組織針對 [行動裝置登入原則] 設定的內容而定。
 
@@ -89,7 +89,7 @@ iOS 和 Android 版 Teams 支援多個公司、學校和多個個人帳戶並行
 
 ## <a name="restrict-sign-in-to-teams"></a>限制登入 Teams
 
-組織可能會想要限制在受管理的裝置上使用公司核准應用程式的方式，例如，限制學生或員工從其他組織存取資料，或將公司核准的應用程式用作個人使用的情況。 可以透過設定 Teams 應用程式可識別的裝置原則來強制執行這些限制。   
+組織可能會想要限制在受管理的裝置上使用公司核准應用程式的方式，例如，限制學生或員工從其他組織存取資料，或將公司核准的應用程式用作個人使用的情況。可以透過設定 Teams 應用程式識別的 [裝置原則]，以強制執行這些限制。   
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>如何在行動裝置上限制登入
 
@@ -119,10 +119,10 @@ Windows 和 macOS 上的 Teams 應用程式可支援限制登入組織的裝置�
 當您在裝置上設定此原則時，使用者只能使用位於 Azure AD 租用戶 (包含於原則中定義的「租用戶允許清單」) 中的帳戶登入。 原則會套用至所有的登入，包括第一個和其他的帳戶。 如果您的組織包括多個 Azure AD 租用戶，您可以在允許清單中包含多個租用戶識別碼。 新增另一個帳戶的連結可能會持續顯示在 Teams 應用程式中，但無法操作。
 
 > [!NOTE]
->1. 原則只會限制登入。它不會限制使用者在其他 Azure AD 租用戶中受邀為來賓，或切換到其他租用戶。
+>1. 原則只會限制登入。它不會限制使用者在其他 Azure AD 租用戶中受邀為來賓，或切換到其他租用戶 (其中使用者已受邀為來賓)。
 >2. 原則需要 Windows 版 Teams 版本 1.3.00.30866 或更新版本，以及 macOS 版 Teams 版本 1.3.00.30882 (於 2020 年 11 月中發行)。
 
-**適用於 Windows** 系統管理範本檔案 (ADMX/ADML) 的原則可從[下載中心](https://www.microsoft.com/download/details.aspx?id=49030) 取得 (系統管理範本檔案中的原則設定描述性名稱為 [將 Teams 的登入限制為特定租用戶中的帳戶]) 提供。 此外，您可以在 Windows 登錄中手動設定金鑰：
+**適用於 Windows** 系統管理範本檔案 (ADMX/ADML) 的原則可從 [下載中心](https://www.microsoft.com/download/details.aspx?id=49030) 取得 (系統管理範本檔案中的原則設定描述性名稱為 [將 Teams 的登入限制為特定租用戶中的帳戶]) 提供。 此外，您可以在 Windows 登錄中手動設定金鑰：
 
 - 值名稱：RestrictTeamsSignInToAccountsFromTenantList
 - 值類型：字串

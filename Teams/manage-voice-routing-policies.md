@@ -1,7 +1,7 @@
 ---
-title: 管理語音路由Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: 管理直接路由的語音路由策略
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -17,16 +17,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中建立和管理語音路由Microsoft Teams。
-ms.openlocfilehash: ac856ef05d425208af43307ebe12ff0c4776ca51
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7023100850eb34d6adf61c99de5f3568afed6aeb
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101069"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "53354283"
 ---
-# <a name="manage-voice-routing-policies-in-microsoft-teams"></a>管理語音路由Microsoft Teams
+# <a name="manage-voice-routing-policies-for-direct-routing"></a>管理直接路由的語音路由策略
 
-如果您在組織中部署[電話系統](direct-routing-landing-page.md)直接路由，您可以使用語音路由策略來允許 Teams 和 商務用 Skype Online 使用者使用您的內部部署電話基礎結構接收及撥打公用交換電話網絡 (PSTN) 。
+如果您在組織中部署[電話系統](direct-routing-landing-page.md)直接路由，您可以使用語音路由策略來允許 Teams 和 商務用 Skype Online 使用者使用您的內部部署電話基礎結構接收及撥打公用交換電話網絡 (PSTN) 的電話。
 
 語音路由策略是 PSTN 使用方式記錄的容器。 您可以到系統管理中心中的語音語音路由Microsoft Teams使用語音路由  >  **** Windows PowerShell。
 
@@ -43,7 +43,7 @@ ms.locfileid: "51101069"
 2. 輸入原則的名稱和描述。
 3. 在 **PSTN 使用量記錄下**，按一下 **[新增 PSTN 使用量**，然後選取要新增的記錄。 如果您需要建立新的 PSTN 使用記錄，請按一下 [ **新增**。
 4. 如果您新增了多個 PSTN 使用記錄，請以您想要的順序排列。
-5. 完成後，按一下 **[Apply.**
+5. 完成後，請按一下 **[Apply.**
 6. 按一下 [儲存]。
 
 ### <a name="using-powershell"></a>使用 PowerShell

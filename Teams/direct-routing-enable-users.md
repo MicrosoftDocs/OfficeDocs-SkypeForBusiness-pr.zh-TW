@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何啟用使用者Microsoft 電話直接路由。
-ms.openlocfilehash: 86132778226702577068d9502ae46cba949667c6
-ms.sourcegitcommit: 5df33e7fe912426e3e158b3be7334e05dc3803a5
+ms.openlocfilehash: 6dab88312634a0dc3c595fec109905b308acbdaa
+ms.sourcegitcommit: 5720fa12bdabdfc2988bf835c8cf95e4d64fa54e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 07/09/2021
-ms.locfileid: "53345709"
+ms.locfileid: "53354293"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>啟用使用者進行直接路由、語音和語音信箱
 
@@ -126,7 +126,7 @@ ms.locfileid: "53345709"
     > 如果使用者的電話號碼是內部部署管理，請使用內部部署管理命令商務用 Skype或控制台來設定使用者的電話號碼。 
 
 
-## <a name="configuring-sending-calls-directly-to-voicemail"></a>直接將通話傳送至語音信箱
+## <a name="configure-sending-calls-directly-to-voicemail"></a>設定將通話直接傳送至語音信箱
 
 直接路由可讓您結束通話給使用者，並直接傳送至使用者的語音信箱。 如果您想要將通話直接傳送至語音信箱，請將不透明=app：語音信箱附加至要求 URI 標頭。 例如，"sip：user@yourdomain.com;不透明=app：語音信箱」。 在這種情況下，Teams不會收到通話通知，通話會直接連接到使用者的語音信箱。
 

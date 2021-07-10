@@ -817,8 +817,6 @@ items:
     items:
       - name: 規劃您的 Teams 語音解決方案
         href: cloud-voice-landing-page.md
-      - name: 管理 Teams 中的語音和通話原則
-        href: voice-and-calling-policies.md
       - name: 電話系統
         items:
           - name: 什麼是電話系統
@@ -879,100 +877,102 @@ items:
             href: shared-line-appearance.md
           - name: 撥號鍵台設定
             href: dial-pad-configuration.md
-      - name: 通話方案
-        items:
-          - name: 哪一個通話方案適合您？
-            href: calling-plan-landing-page.md
-          - name: 如何購買通話方案
-            href: calling-plans-for-office-365.md
-          - name: 設定組織的通話方案
-            href: set-up-calling-plans.md
-          - name: 快速入門手冊：設定通話方案
-            href: configuring-teams-calling-quickstartguide.md
-          - name: 通話方案的適用國家/地區
-            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-      - name: 電話系統直接路由
+      - name: PSTN 連線能力選項
         items:
           - name: 概觀
-            href: direct-routing-landing-page.md
-          - name: 規劃直接路由
-            href: direct-routing-plan.md
-          - name: 通過直接路由認證的工作階段邊界控制器清單
-            href: direct-routing-border-controllers.md
-          - name: 設定直接路由
+            href: pstn-connectivity.md
+          - name: 通話方案
+            items:
+              - name: 哪一個通話方案適合您？
+                href: calling-plan-landing-page.md
+              - name: 設定組織的通話方案
+                href: set-up-calling-plans.md
+              - name: 快速入門手冊：設定通話方案
+                href: configuring-teams-calling-quickstartguide.md
+              - name: 通話方案的適用國家/地區
+                href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: 電話系統直接路由
             items:
               - name: 概觀
-                href: direct-routing-configure.md
-              - name: 步驟 1：連結您的 SBC
-                href: direct-routing-connect-the-sbc.md
-              - name: 步驟 2：啟用使用者
-                href: direct-routing-enable-users.md
-              - name: 步驟 3：設定語音路由
-                href: direct-routing-voice-routing.md
-              - name: 步驟 4：翻譯電話號碼
-                href: direct-routing-translate-numbers.md
-              - name: 針對多個租用戶設定 SBC
-                href: direct-routing-sbc-multiple-tenants.md
-              - name: 如何搭配直接路由使用類比裝置
-                href: direct-routing-analog-devices.md
-          - name: 依位置路由
-            items:
-              - name: 規劃直接路由的位置型路由
-                href: location-based-routing-plan.md
-              - name: 設定位置型路由的網路設定
-                href: location-based-routing-configure-network-settings.md
-              - name: 啟用直接路由的位置型路由
-                href: location-based-routing-enable.md
-          - name: 直接路由的媒體旁路
-            items:
-              - name: 規劃媒體旁路搭配直接路由
-                href: direct-routing-plan-media-bypass.md
-              - name: 設定媒體旁路搭配直接路由
-                href: direct-routing-configure-media-bypass.md
-          - name: 直接路由的本機媒體最佳化
-            items:
-              - name: 規劃本機媒體最佳化
-                href: direct-routing-media-optimization.md
-              - name: 設定本機媒體最佳化
-                href: direct-routing-media-optimization-configure.md
-          - name: 含有 PSTN 連線功能的混合式環境中的使用者帳戶
-            href: direct-routing-user-accounts-in-a-hybrid-environment.md
-          - name: 移轉至直接路由
-            href: direct-routing-migrating.md
-          - name: 監視和疑難排解直接路由
-            items:
-              - name: 概觀
-                href: direct-routing-monitor-and-troubleshoot.md
-              - name: 健康狀態儀表板
-                href: direct-routing-health-dashboard.md
-          - name: 直接路由的技術參考
-            items:
-              - name: 撥出電話上的語音主幹容錯移轉
-                href: direct-routing-trunk-failover-on-outbound-call.md
-              - name: 媒體路徑的國家/地區代碼
-                href: direct-routing-country-codes.md
-              - name: 用來測試工作階段邊界控制器連線的 PowerShell 指令碼
-                href: sip-tester-powershell-script.md
-              - name: 管理來電通知
-                href: direct-routing-call-notifications.md
-              - name: 通訊協定
+                href: direct-routing-landing-page.md
+              - name: 規劃直接路由
+                href: direct-routing-plan.md
+              - name: 通過直接路由認證的工作階段邊界控制器清單
+                href: direct-routing-border-controllers.md
+              - name: 設定直接路由
                 items:
-                  - name: 定義和 RFC 標準
-                    href: direct-routing-protocols.md
-                  - name: SIP 通訊協定
-                    href: direct-routing-protocols-SIP.md
-                  - name: 媒體通訊協定
-                    href: direct-routing-protocols-media.md
-              - name: 管理語音路由原則
-                href: manage-voice-routing-policies.md
-              - name: 直接路由 Survivable Branch Appliance
-                href: direct-routing-survivable-branch-appliance.md
-      - name: 電信業者連線
-        items:
-          - name: 電信業者連線計劃
-            href: operator-connect-plan.md
-          - name: 設定電信業者連線
-            href: operator-connect-configure.md
+                  - name: 概觀
+                    href: direct-routing-configure.md
+                  - name: 步驟 1：連結您的 SBC
+                    href: direct-routing-connect-the-sbc.md
+                  - name: 步驟 2：啟用使用者
+                    href: direct-routing-enable-users.md
+                  - name: 步驟 3：設定語音路由
+                    href: direct-routing-voice-routing.md
+                  - name: 步驟 4：翻譯電話號碼
+                    href: direct-routing-translate-numbers.md
+                  - name: 針對多個租用戶設定 SBC
+                    href: direct-routing-sbc-multiple-tenants.md
+                  - name: 如何搭配直接路由使用類比裝置
+                    href: direct-routing-analog-devices.md
+                  - name: 管理語音路由原則
+                    href: manage-voice-routing-policies.md
+                  - name: 管理來電通知
+                    href: direct-routing-call-notifications.md
+              - name: 依位置路由
+                items:
+                  - name: 規劃直接路由的位置型路由
+                    href: location-based-routing-plan.md
+                  - name: 設定位置型路由的網路設定
+                    href: location-based-routing-configure-network-settings.md
+                  - name: 啟用直接路由的位置型路由
+                    href: location-based-routing-enable.md
+              - name: 直接路由的媒體旁路
+                items:
+                  - name: 規劃媒體旁路搭配直接路由
+                    href: direct-routing-plan-media-bypass.md
+                  - name: 設定媒體旁路搭配直接路由
+                    href: direct-routing-configure-media-bypass.md
+              - name: 直接路由的本機媒體最佳化
+                items:
+                  - name: 規劃本機媒體最佳化
+                    href: direct-routing-media-optimization.md
+                  - name: 設定本機媒體最佳化
+                    href: direct-routing-media-optimization-configure.md
+              - name: 含有 PSTN 連線功能的混合式環境中的使用者帳戶
+                href: direct-routing-user-accounts-in-a-hybrid-environment.md
+              - name: 移轉至直接路由
+                href: direct-routing-migrating.md
+              - name: 監視和疑難排解直接路由
+                items:
+                  - name: 概觀
+                    href: direct-routing-monitor-and-troubleshoot.md
+                  - name: 健康狀態儀表板
+                    href: direct-routing-health-dashboard.md
+              - name: 直接路由的技術參考
+                items:
+                  - name: 撥出電話上的語音主幹容錯移轉
+                    href: direct-routing-trunk-failover-on-outbound-call.md
+                  - name: 媒體路徑的國家/地區代碼
+                    href: direct-routing-country-codes.md
+                  - name: 用來測試工作階段邊界控制器連線的 PowerShell 指令碼
+                    href: sip-tester-powershell-script.md
+                  - name: 通訊協定
+                    items:
+                      - name: 定義和 RFC 標準
+                        href: direct-routing-protocols.md
+                      - name: SIP 通訊協定
+                        href: direct-routing-protocols-SIP.md
+                      - name: 媒體通訊協定
+                        href: direct-routing-protocols-media.md
+                  - name: 直接路由 Survivable Branch Appliance
+                    href: direct-routing-survivable-branch-appliance.md
+          - name: 電信業者連線
+            items:
+              - name: 電信業者連線計劃
+                href: operator-connect-plan.md
+              - name: 設定電信業者連線
+                href: operator-connect-configure.md
       - name: 電話號碼
         items:
           - name: 管理組織的電話號碼
@@ -1037,8 +1037,10 @@ items:
                 href: emergency-calling-labels.md
           - name: 管理緊急通話原則
             href: manage-emergency-calling-policies.md
-          - name: 管理緊急電話路由原則
+          - name: 管理直接路由的緊急電話路由原則
             href: manage-emergency-call-routing-policies.md
+      - name: 管理 Teams 中的語音和通話原則
+        href: voice-and-calling-policies.md
       - name: Contoso 語音移轉案例研究
         items:
           - name: 概觀
@@ -1556,8 +1558,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: SharePoint Online 和商務用 OneDrive 如何與 Teams 互動
             href: sharepoint-onedrive-interact.md
-          - name: 在 Microsoft 365 或已啟用多地理位置的 Office 365 租用戶中的 Teams 體驗
-            href: teams-experience-o365odb-spo-multi-geo.md
       - name: 支援的裝置
         items:
           - name: 在 Teams 中管理裝置
