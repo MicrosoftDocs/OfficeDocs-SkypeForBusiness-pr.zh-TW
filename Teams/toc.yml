@@ -1558,6 +1558,8 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: SharePoint Online 和商務用 OneDrive 如何與 Teams 互動
             href: sharepoint-onedrive-interact.md
+          - name: 在 Microsoft 365 或已啟用多地理位置的 Office 365 租用戶中的 Teams 體驗
+            href: teams-experience-o365odb-spo-multi-geo.md
       - name: 支援的裝置
         items:
           - name: 在 Teams 中管理裝置
