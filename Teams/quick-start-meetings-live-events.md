@@ -3,8 +3,8 @@ title: 系統管理員快速入門 - Microsoft Teams 的會議和即時活動
 ms.reviewer: ''
 description: 適用於系統管理員的快速入門指南，以取得 Microsoft Teams 的授權、推出 Microsoft Teams 和設定線上會議和即時事件。
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.service: msteams
 audience: admin
@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ca2c048b28d82c7c41a7f98712264c739bce210
-ms.sourcegitcommit: d5e77f8a3b8084ed92f0a77888a555626309591b
+ms.openlocfilehash: 03611f2d166883ce960e272e2f3b11300cd20c54
+ms.sourcegitcommit: 616b6d0d5be2b333519b79ab59a4117036ba647e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52517736"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "53363578"
 ---
 # <a name="admin-quick-start---meetings-and-live-events-in-microsoft-teams"></a>系統管理員快速入門 - Microsoft Teams 的會議和即時活動
 
@@ -42,15 +42,9 @@ Microsoft Teams 有 2 個集會方式 - 會議和即時活動。請使用此文�
 
 任何人都可以免費參加 Teams 會議或公開即時活動，不需要授權。出席者按一下 Teams 或會議邀請中的 [加入 **]** 就能加入 Teams 會議。會議的音訊是 Teams 會議的一部分，但是如果您希望人員能夠以電話撥入會議，則您必須提供撥入號碼。
 
-若是召集、排程和舉辦會議或即時活動的人員，這些人員需要下表列出的 Microsoft 365 或 Office 365 授權之一。如果您已經在使用 Teams，您可能已經擁有召集和舉辦會議和即時活動所需的授權。
+對於召集、排程和舉辦會議或即時活動的人員，這些人員需要 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)中所列的授權計畫之一。 
 
-:::image type="content" source="media/quick-start-meetings-live-events-image1.png" alt-text="Teams 會議或即時活動所需授權的表格":::
-
-> <sup>1</sup> 會議召集人必須擁有[音訊會議附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)，才能傳送內含撥入式會議的邀請。
->
-> <sup>2</sup> 若是撥出至 [**撥打** 這支電話給我](set-up-the-call-me-feature-for-your-users.md)的會議，召集人必須擁有 E5 或 [音訊會議附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。[撥號對應表](what-are-dial-plans.md)可能也在必要項目之列。
-
-若要深入了解授權，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
+如果您已經在使用 Teams，您可能已經擁有召集和舉辦會議和即時活動所需的授權。
 
 ## <a name="make-sure-your-networks-ready"></a>確定網路已準備就緒
 
