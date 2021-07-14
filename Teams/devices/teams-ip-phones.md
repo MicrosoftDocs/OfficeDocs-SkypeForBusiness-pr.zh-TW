@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: 475753931cc2620e6ea51491abda74c2ea3f4d84
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 76a4d88cc82379911f6f4716f199bb2424328959
+ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278496"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53408762"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認證的裝置
 
@@ -36,7 +36,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 - 硬體Teams整合和 LED 通知的原生體驗
 - 日曆整合和一鍵式會議加入
-- 透過整合 Intune Teams系統管理中心部署及管理
+- 透過系統管理中心與 intune Teams部署和管理
 
 ## <a name="currently-certified-teams-phones"></a>目前已Teams手機
 
@@ -52,7 +52,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 | AudioCodes C435HD                      | 1.12.33                                                  | 2021 年 4 月                   |
 | AudioCodes C470HD                      | 1.8.293                                                  | 2021 年 1 月                 |
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
-| 音訊代碼 C448HD (CAP 模式)       | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
+| AudioCodes C448HD (CAP 模式)       | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
 | Cresron UC-2                          |1.0.1.46                                                  | 2020 年 7 月                    |
 | Cresron M100                          | 此產品已停用。 如要詳細資訊，請流覽[Crsron網站上Crsron M100。](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) | 已于 2020 (5/11)  |
 | Cresron Flex UC-P100-T & UC-P110-T    | 此產品已停用。 如要詳細資訊，請流覽[電話](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)的 UC 連結。                  | 已于 2020 (5/11)  |
@@ -178,10 +178,14 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。  然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行 |
 |:--------------|:-----------------|:-------------------------|
+| Yealink VC210 |118.15.0.54   | 2021 更新#2    |
+| Yealink MeetingBar A20 | 133.15.0.60     | 2021 更新#2    |
+| Yealink MeetingBar A30 | 133.15.0.60    | 2021 更新#2    |
+| Yealink CTP18 | 137.15.0.37    | 2021 更新#2    |
 | Poly Studio X30 | 3.5.0.344025          | 2021 更新#2    |
 | Poly Studio X50 | 3.5.0.344025        | 2021 更新#2    |
 | Poly TC8 | 3.5.0.210489                 | 2021 更新#2    |
@@ -198,7 +202,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 ### <a name="product-release-information-for-teams-displays"></a>顯示器的產品Teams資訊
 
-以下是顯示應用程式與Microsoft Teams的最新版本。
+以下是顯示 app 和Microsoft Teams版本的最新版本。
 
 #### <a name="app-versions"></a>應用程式版本
 

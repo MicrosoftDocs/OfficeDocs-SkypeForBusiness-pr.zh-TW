@@ -1,5 +1,5 @@
 ---
-title: 在應用程式中自訂Microsoft Teams
+title: 自訂應用程式Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,14 +18,14 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在應用程式中自訂Microsoft Teams。
-ms.openlocfilehash: 6ef38c613151ece58591cf395add35276cb55c03
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: e2a217648abbcec4075e942b303542621f7d317a
+ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796857"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53408742"
 ---
-# <a name="customize-apps-in-microsoft-teams"></a>在應用程式中自訂Microsoft Teams
+# <a name="customize-apps-in-microsoft-teams"></a>自訂應用程式Microsoft Teams
 
  Microsoft Teams應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂Teams應用程式。管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新Teams **應用程式** 屬性。 您可以自訂的詳細資訊有：
 
@@ -43,6 +43,7 @@ ms.locfileid: "52796857"
 
 > [!NOTE]
 > 目前不支援在 政府社群雲端 (GCCH) 或 (DoD) 自訂應用程式。
+> 目前，此功能不適用於旁載入的應用程式Microsoft Teams應用程式。
 
 ## <a name="customize-the-apps-details"></a>自訂應用程式詳細資料
 
@@ -56,7 +57,7 @@ ms.locfileid: "52796857"
 
    有三個進入點可存取自訂功能：
 
-   - 選取要自訂之應用程式旁的 ， **然後選取** 自訂 。
+   - 選取您想要自訂的應用程式旁，然後選取 **自訂**。
 
      ![自訂選取選項 1](media/select-app-to-customize1.png)
 
@@ -111,8 +112,8 @@ ms.locfileid: "52796857"
 > - 系統管理提供的自訂資料會儲存在最近的地區。
 > - 您負責確保使用條款或隱私權政策的連結有效。
 > - 如果應用程式發行者不再允許欄位可自訂，應用程式詳細資料頁面上會出現一則訊息，通知系統管理員無法再自訂的欄位。 對該欄位進行的所有變更都會還原為原始值。
-> - 我們建議您在測試租使用者Teams測試應用程式自訂變更，然後再在生產環境中進行這些變更。
-> - 變更商標可能需要最多 24 小時，使用者才能看到變更。
+> - 我們建議您先在測試租使用者Teams測試應用程式自訂變更，然後再在生產環境中進行這些變更。
+> - 品牌變更最多可能需要 24 小時，使用者才能看到變更。
 
 ## <a name="review-app-details"></a>查看應用程式詳細資料
 
