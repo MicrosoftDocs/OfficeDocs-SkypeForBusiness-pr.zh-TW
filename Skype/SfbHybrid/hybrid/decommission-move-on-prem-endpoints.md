@@ -1,5 +1,5 @@
 ---
-title: 將混合應用程式端點移至雲端
+title: 將混合應用程式端點遷移至雲端
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,15 +16,15 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: 在解除委任商務用 Skype 內部部署環境之前，請先移動 hyrid 應用程式端點。
-ms.openlocfilehash: 959a3ed47993f431636fe3c99b8502cf9aa634fe
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+description: 在解除委任商務用 Skype 內部部署環境之前，請先遷移 hyrid 應用程式端點。
+ms.openlocfilehash: 7315ee807bb79b9186cd92ccc19074021b2fcfa1
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684380"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420798"
 ---
-# <a name="move-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>在解除委任內部部署環境之前，移動混合應用程式端點
+# <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>在解除委任內部部署環境之前遷移混合應用程式端點
 
 本文說明如何在解除您的內部部署商務用 Skype 環境之前，將所需的混合應用程式端點移至 Microsoft 雲端。 這是將您的內部部署環境解除委任之下列步驟的步驟3：
 
@@ -32,14 +32,14 @@ ms.locfileid: "52684380"
 
 - 步驟 2. [停用您的混合](cloud-consolidation-disabling-hybrid.md)式設定。
 
-- **步驟3。將混合應用程式端點從內部部署移至線上。**  (本文) 
+- **步驟3。從內部部署向線上遷移混合應用程式端點。**  (本文) 
 
-- 步驟 4. [移除您的內部部署商務用 Skype 部署](decommission-remove-on-prem.md)。
+- 步驟 4： [移除您的內部部署商務用 Skype 部署](decommission-remove-on-prem.md)。
 
 
-## <a name="move-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>將所有需要的混合應用程式端點從內部部署移至線上
+## <a name="migrate-all-required-hybrid-application-endpoints-from-on-premises-to-online"></a>將所有需要的混合應用程式端點從內部部署遷移至線上
 
-在您可以將這些端點移至線上之前，您必須確定已更新 DNS 記錄，以指向端點所使用之所有 sip 網域的 Microsoft 365。 如果 DNS 記錄指向內部部署，便無法建立線上資源帳戶。 如需詳細資訊，請參閱 [停用混合](cloud-consolidation-disabling-hybrid.md)式設定。
+在您可以將這些端點移至線上之前，您必須確定已更新 DNS 記錄，以指向端點所使用之所有 sip 網域的 Microsoft 365。 請注意，一旦您將 DNS 更新為指向 Microsoft 365，只要您完成此步驟，就無法再發現任何現有的混合應用程式端點。 由於此步驟 (建立線上資源) 帳戶，因此如果 DNS 記錄指向內部部署，您應該規劃在相同維護視窗中執行步驟2和3。 如需詳細資訊，請參閱 [停用混合](cloud-consolidation-disabling-hybrid.md)式設定。
 
 1. 執行下列內部部署商務用 Skype Server PowerShell 命令，以取得及匯出內部部署混合應用程式端點設定：
 
@@ -79,7 +79,7 @@ ms.locfileid: "52684380"
    ```
 您現在已準備好[移除內部部署商務用 Skype 部署](decommission-remove-on-prem.md)。
 
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>請參閱
 
 - [解除您的內部部署商務用 Skype 環境](decommission-on-prem-overview.md)
 

@@ -16,31 +16,31 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: 解除委任商務用 Skype 伺服器的指示。
-ms.openlocfilehash: 9c6051a07fc05297985b3692351c36791d8842bb
-ms.sourcegitcommit: 71d90f0a0056f7604109f64e9722c80cf0eda47d
+description: 解除委任商務用 Skype Server 的指示。
+ms.openlocfilehash: a69ba2d9a3bbdce8bee342c3554b758138ad1d87
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "51656689"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420788"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>移除您的內部部署商務用 Skype 部署
 
-本文說明如何移除您的內部部署商務用 Skype 部署。 這是下列步驟的步驟4，以解除委任您的內部部署環境：
+本文說明如何移除內部部署商務用 Skype 部署。 這是下列步驟的步驟4，以解除委任您的內部部署環境：
 
 - 步驟 1. [將所有必要使用者從內部部署移至線上](decommission-move-on-prem-users.md)。 
 
 - 步驟 2. [停用您的混合](cloud-consolidation-disabling-hybrid.md)式設定。
 
-- 步驟 3. [將混合應用程式端點從內部部署移至線上](decommission-move-on-prem-endpoints.md)
+- 步驟 3. [從內部部署向線上遷移混合應用程式端點](decommission-move-on-prem-endpoints.md)
 
 - **步驟4。移除您的內部部署商務用 Skype 部署。**  (本文) 
 
 
 > [!IMPORTANT] 
-> 本文中的步驟僅適用于使用方法2管理使用者屬性時[，如下所述。](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory) 如果您使用方法1，請勿使用本文所述的步驟來移除您的商務用 Skype 伺服器。 相反地，您可以重新鏡像伺服器。
+> 本文中的步驟僅適用于使用方法2管理使用者屬性時[，如下所述。](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory) 如果您是使用方法1，請勿使用本文所述的步驟來移除您的商務用 Skype 伺服器。 相反地，您可以重新鏡像伺服器。
 
-若要完成本文中的步驟，您需要具備 Schema Admins 群組和 Enterprise Admin 群組的許可權。 您將需要這些許可權，才能撤銷 Active Directory 網域服務的商務用 Skype 伺服器架構和樹系層級變更。 您也必須是 RTCUniversalServerAdmins 群組的成員。
+若要完成本文中的步驟，您需要具備 Schema Admins 群組和 Enterprise 系統管理員群組的許可權。 您將需要這些許可權，才能撤銷 Active Directory 網域服務的商務用 Skype Server 架構和樹系層級變更。 您也必須是 RTCUniversalServerAdmins 群組的成員。
 
 
 ## <a name="prepare-to-remove-the-skype-for-business-deployment"></a>準備移除商務用 Skype 部署
@@ -85,24 +85,24 @@ ms.locfileid: "51656689"
 
 1. 從邏輯上移除商務用 Skype Server 部署，但單一前端除外，如下所示：
 
-   a. 更新商務用 Skype 伺服器拓撲，使其具備單一前端集區：
+   1. 更新您的商務用 Skype Server 拓撲，使其具有單一前端集區：
 
-     - 在 [拓撲產生器] 中，下載新的複本並流覽至前端集區。
-     - 以滑鼠右鍵按一下集區，然後按一下 [編輯屬性]。
-     - 在 [ **關聯**] 中，取消選取媒體元件的 [ **建立 Edge 集** 區 (]) 然後按一下 **[確定]**。
-     - 如果有一個以上的前端集區，請移除所有剩餘集區的關聯。
-     - 選取 [ **動作] > [移除部署**]。
-     - 選取 [ **動作] > [發行拓撲**]。
+      1. 在 [拓撲產生器] 中，下載新的複本並流覽至前端集區。
+      1. 以滑鼠右鍵按一下集區，然後按一下 [編輯屬性]。
+      1. 在 [ **關聯**] 中，取消選取媒體元件的 [ **建立 Edge 集** 區 (]) 然後按一下 **[確定]**。
+      1. 如果有一個以上的前端集區，請移除所有剩餘集區的關聯。
+      1. 選取 [ **動作] > [移除部署**]。
+      1. 選取 [ **動作] > [發行拓撲**]。
 
-    b. 發行拓撲之後，請完成嚮導中所述的其他步驟。
+    1. 發行拓撲之後，請完成嚮導中所述的其他步驟。
 
-2. 執行下列商務用 Skype Server PowerShell Cmdlet，以移除商務用 Skype Server 會議目錄：
+2. 執行下列商務用 Skype Server PowerShell Cmdlet 來移除商務用 Skype Server 會議目錄：
 
    ```PowerShell
    Get-CsConferenceDirectory | Remove-CsConferenceDirectory -Force
    ```
 
-3. 執行下列商務用 Skype Server PowerShell Cmdlet，以完成您的商務用 Skype 伺服器部署的卸載：
+3. 執行下列商務用 Skype Server PowerShell Cmdlet，以完成商務用 Skype Server 部署的卸載：
 
    ```PowerShell
    Publish-CsTopology -FinalizeUninstall
@@ -110,24 +110,24 @@ ms.locfileid: "51656689"
    > [!NOTE]
    > 如果此步驟傳回錯誤，請開啟 Microsoft 支援票證以取得刪除剩餘的陳舊物件的說明。
 
-4. 執行下列商務用 Skype Server PowerShell Cmdlet 來移除中央管理存放區服務控制點：
+4. 執行下列商務用 Skype Server PowerShell Cmdlet，以移除中央管理存放區服務控制點：
 
    ```PowerShell
    Remove-CsConfigurationStoreLocation
    ``` 
 
-5. 執行下列商務用 Skype Server PowerShell Cmdlet，以復原商務用 Skype Server Active Directory 網域樹系層級變更：
+5. 執行下列商務用 Skype Server PowerShell Cmdlet 以復原商務用 Skype Server Active Directory 網域層級變更：
 
    ```PowerShell
    Disable-CsAdDomain
    ```
-6. 執行下列商務用 Skype Server PowerShell Cmdlet，以復原商務用 Skype Server Active Directory 網域架構變更：
+6. 執行下列商務用 Skype Server PowerShell Cmdlet 以復原商務用 Skype Server Active Directory 樹系層級變更。
 
    ```PowerShell
    Disable-CsAdForest
    ```
 
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>請參閱
 
 - [解除您的內部部署商務用 Skype 環境](decommission-on-prem-overview.md)
 
@@ -136,14 +136,4 @@ ms.locfileid: "51656689"
 - [停用混合式設定](cloud-consolidation-disabling-hybrid.md)
 
 - [將混合應用程式端點從內部部署移至線上](decommission-move-on-prem-endpoints.md)
-
-
-
-
-
-
-
-
-
-
 
