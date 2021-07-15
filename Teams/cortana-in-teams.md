@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b343a3f69d2b0f97f9d7d3054951719da2e9e43
-ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
+ms.openlocfilehash: 3d0f31c8841a5a357034cc083f1a62d0d6704805
+ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53219140"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53428209"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana語音協助Teams
 
@@ -35,10 +35,6 @@ ms.locfileid: "53219140"
 > Cortana預覽下Microsoft Teams 會議室語音協助。 在預覽版中，Cortana在連接了拉力麥克風的裝置上，僅支援美國的語言 EN-US。
 
 Cortana行動裝置 Teams App、Windows Microsoft Teams 會議室 和 Microsoft Teams 顯示裝置上的語音協助，可讓 Microsoft 365 企業版 使用者使用口語自然語言簡化通訊、共同作業和會議相關工作。 使用者可以在 Teams 行動Cortana中選取麥克風按鈕，或在 Microsoft Teams 會議室中念出 &#8220;Cortana&#8221;，或在使用 Microsoft Teams 顯示器時Microsoft Teams說話。 若要不用手快速與小組聯繫，以及進行中，使用者可以說出查詢，例如 &#8220;打電話給 Megan&#8221; 或 &#8220;將訊息傳送給下一個會議&#8221;。 使用者也可以加入會議，&#8220;加入我的下一&#8221;，並使用語音協助來共用檔案、檢查他們的日曆等等。 這些語音協助體驗是使用[Cortana](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide)企業級服務提供，完全符合 Office 365 的隱私權、安全性和合規性承諾，如線上服務條款 (OST) 中[反映。](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)
-
-影像顯示在行動裝置上Cortana聊天。
-
-![顯示聊天會話Cortana一系列行動畫面](media/cortana-on-teams-mobile.png)
 
 ## <a name="admin-control-and-limitations"></a>系統管理控制與限制
 
@@ -94,22 +90,6 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 
 您可以使用裝置中的Cortana，Teams裝置中的設定來控制裝置中是否已啟用此功能。
 
-### <a name="teams-mobile-app-or-the-microsoft-teams-display"></a>Teams行動應用程式或Microsoft Teams顯示
-
-  1. 開啟 Teams行動應用程式。
-
-  2. 選取  >  **設定Cortana**。
-
-  3. 移動開關 **開啟或****關閉**。
-
-### <a name="microsoft-teams-display"></a>Microsoft Teams顯示
-
-  1. 請前往 (畫面) 環境Microsoft Teams畫面。
-
-  2. 選取使用者虛擬人像，**然後選取** 設定。 如果Cortana，請說「Cortana，請前往設定」。
-
-  3. 移動開關 **開啟或****關閉**。
-  
 ### <a name="microsoft-teams-rooms-on-windows"></a>Microsoft Teams 會議室上Windows
 
 如果在租使用者層級啟用 Cortana，可在裝置層級進行變更。 Cortana將預設為關閉。

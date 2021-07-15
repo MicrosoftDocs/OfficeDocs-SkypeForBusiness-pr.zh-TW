@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中為大型組織設定通話佇列，提供問候訊息、等候音樂、重新導向通話及其他功能。
-ms.openlocfilehash: b3a17343b21f0dcb35ba2f2d6bb99178bdafffd0
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: a8dbcddbbc7b0717678f56a2876b617d06f49187
+ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420848"
+ms.locfileid: "53428199"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -58,7 +58,7 @@ ms.locfileid: "53420848"
 
 ## <a name="create-the-call-queue"></a>建立通話佇列
 
-若要設定通話佇列，請在系統管理中心Teams[**語音** 與通話佇列>，然後按一下 [**新增**。
+若要設定通話佇列，請在系統管理中心Teams展開 **[語音** 與通話佇列>，然後按一下[**新增**。
 
 輸入通話佇列的名稱。
 
@@ -74,28 +74,28 @@ ms.locfileid: "53420848"
 
 如果您打算為呼叫代理Teams通道，您可以指定一或多個具有電話號碼的資源帳戶，為代理人指派外發本機號碼號碼。
 
-按一下 **[新增**，搜尋您想要允許代理人在撥打外線通話時用於通話識別碼的資源帳戶;按一下 [ **新增**，然後按一下 [ **新增**> 。
+按一下 **[新增**，搜尋您想要允許代理人在撥打外接電話時用於通話識別碼的資源帳戶;按一下 [ **新增**，然後按一下 [ **新增**> 。
 
-如果您不是使用 Teams通道來控制代理人成員資格，請考慮將通話佇列成員的本機號碼直接設定為通話佇列的服務號碼或適當的自動語音回應。 請參閱[在 Microsoft Teams](caller-id-policies.md)管理本機號碼政策以瞭解更多資訊。
+如果您不是使用 Teams通道來控制代理人成員資格，請考慮直接將通話佇列成員的本機號碼設定為通話佇列的服務號碼或適當的自動語音回應。 請參閱[在 Microsoft Teams](caller-id-policies.md)管理本機號碼政策以瞭解更多資訊。
 
 ## <a name="language"></a>語言
 
 ![語言設定螢幕擷取畫面](media/call-queue-language.png)
 
-選擇支援 [的語言](create-a-phone-system-call-queue-languages.md)。 如果您啟用語音提示，系統產生的語音提示和語音信箱 (語音信箱) 。
+選擇支援 [的語言](create-a-phone-system-call-queue-languages.md)。 如果您啟用語音提示，系統產生的語音提示和語音信箱 (會) 。
 
 ## <a name="greetings-and-music-on-hold-in-queue"></a>佇列中保留的問候語和音樂
 
-![佇列設定中問候語和音樂保留的螢幕擷取畫面](media/call-queue-greetings-music.png)
+![佇列設定中保留的問候語和音樂螢幕擷取畫面](media/call-queue-greetings-music.png)
 
 指定當來電者抵達佇列時，是否要播放問候語。 您必須上傳包含您想要播放的問候語的 MP3、WAV 或 WMA 檔案。 上傳的錄製不能大於 5 MB。
 
 Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams中提供的預設音樂，不含貴組織支付的任何版稅。 如果您想要播放特定的音訊檔案，請選擇播放音訊檔案並上傳 MP3、WAV 或 WMA 檔案。
 
 > [!NOTE]
-> 您負責獨立清除及保護使用任何音樂或音訊檔案與您的Microsoft Teams許可權， 其中可能包含來自所有相關權利擁有者之任何音樂、音效、音訊、品牌、名稱及其他內容中的智慧財產權及其他權利，包括美術家、參與者、演出者、音樂人、歌曲作者、作曲者、記錄標籤、音樂發行者、聯合企業、版權協會、集體管理組織，以及擁有、控制或授權音樂著作權、音效、音訊和其他智慧財產權的其他各方。
+> 您有責任獨立清除及保護使用任何音樂或音訊檔案與服務時Microsoft Teams許可權， 其中可能包含來自所有相關權利擁有者之任何音樂、音效、音訊、品牌、名稱及其他內容中的智慧財產權及其他權利，包括美術家、參與者、演出者、音樂人、歌曲作者、作曲者、記錄標籤、音樂發行者、聯合企業、版權社團、集體管理組織，以及擁有、控制或授權音樂著作權、音效、音訊和其他智慧財產權的其他任何方。
 
-## <a name="call-agents"></a>通話代理人
+## <a name="call-agents"></a>通話代理程式
 
 檢查 [將代理人新加入通話佇列的先決條件](plan-auto-attendant-call-queue.md#prerequisites)。
 
@@ -105,12 +105,15 @@ Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams
 
 您可以透過頻道新增最多 200 Teams代理。
 
-如果您想要使用頻道 [Teams](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)佇列，請選取 [選擇團隊選項，然後按一下 [**新增頻道**> 。  搜尋您想要使用的團隊，選取該團隊，然後按一下 [ **新增**。 選取您想要使用的頻道，然後按一下 **[Apply.** 您必須是團隊的成員，或是頻道的建立者或擁有者。
+如果您想要使用頻道 [管理](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)Teams，請選取 [選擇團隊選項，然後按一下 [**新增頻道**> 。  搜尋您想要使用的團隊，選取該團隊，然後按一下 [ **新增**。 選取您想要使用的頻道，然後按一下 **[Apply.** 您必須是團隊的成員，或是頻道的建立者或擁有者。
 
 在通話佇列使用Teams支援下列用戶端： 
 
   - Microsoft Teams Windows用戶端
   - Microsoft TeamsMac 用戶端
+
+> [!NOTE]
+> 如果您使用此選項，通話佇列最多可能需要 24 小時才能完全運作。
 
 ##### <a name="users-and-groups"></a>使用者和群組
 
@@ -182,12 +185,12 @@ Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams
 
 ![通話溢出設定螢幕擷取畫面](media/call-queue-overflow-handling.png)
 
-**佇列中的通話上限** 會指定在任何指定時間可在佇列中等候的通話數上限。 預設值為 50，但範圍為 0 到 200。 達到此限制時，通話會依照達到通話次數上限設定所 **指定的方式處理** 。
+**佇列中的通話上限** 會指定在任何指定時間可在佇列中等候的通話數上限。 預設值為 50，但範圍從 0 到 200。 達到此限制時，通話會依照達到通話次數上限設定所 **指定的方式處理** 。
 
 您可以選擇中斷通話，或重新導向到任何通話路由目的地。 例如，您可能讓來電者為佇列中的代理人留下語音信箱。 如需外部傳輸，請參閱先決條件和外部[](plan-auto-attendant-call-queue.md#prerequisites)電話號碼傳輸[- 數位](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)格式的技術詳細資料。
 
 > [!NOTE]
-> 如果通話次數上限設為 0，則問候語訊息將不會播放。
+> 如果通話數上限設為 0，則問候語訊息將不會播放。
 
 ## <a name="call-timeout-handling"></a>通話超時處理
 
@@ -203,8 +206,8 @@ Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams
 
 建議使用下列設定：
 
-- **會議模式** 為 **自動**
-- **將路由方法****路由到 Round robin** 或 **最長閒置時間**
+- **會議模式** 至 **自動**
+- **將路由方法** 路由至 **Round robin** 或 **最長閒置時間**
 - **目前狀態路由至** **On**
 - **代理人警示時間：****至 20 秒**
 
@@ -212,7 +215,7 @@ Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams
 
 通話佇列中的通話代理程式支援下列用戶端：
 
-  - 商務用 Skype桌面用戶端 2016 (32 位和 64 位版本) 
+  - 商務用 Skype 32 位 (64 位版本的桌面用戶端 2016) 
   - Lync 桌面用戶端 2013 (32 位和 64 位版本) 
   - 支援所有 IP 電話Microsoft Teams。 請參閱[取得適用于 商務用 Skype Online 的電話](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。
   - Mac 商務用 Skype用戶端 (版本 16.8.196 及更新版本) 
@@ -221,7 +224,7 @@ Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams
   - iPad 商務用 Skype用戶端 (版本 6.16.0 及更新版本) 
   - Microsoft Teams Windows 32 位 (64 位版本的用戶端) 
   - Microsoft TeamsMac 用戶端
-  - Microsoft Teams[虛擬](/microsoftteams/teams-for-vdi)桌面基礎結構上的 (Windows虛擬桌面、奇思和 V3) 
+  - Microsoft Teams[虛擬](/microsoftteams/teams-for-vdi)桌面基礎結構 (Windows虛擬桌面、Citrix 和 V1 版 V1) 
   - Microsoft Teams iPhone應用程式
   - Microsoft TeamsAndroid 應用程式
 
