@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 解除委任商務用 Skype Server 的指示。
-ms.openlocfilehash: a69ba2d9a3bbdce8bee342c3554b758138ad1d87
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: e96c4cd37d09fc62fbfbe34a8b8d61c79ea08289
+ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420788"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454336"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>移除您的內部部署商務用 Skype 部署
 
@@ -38,7 +38,7 @@ ms.locfileid: "53420788"
 
 
 > [!IMPORTANT] 
-> 本文中的步驟僅適用于使用方法2管理使用者屬性時[，如下所述。](cloud-consolidation-disabling-hybrid.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory) 如果您是使用方法1，請勿使用本文所述的步驟來移除您的商務用 Skype 伺服器。 相反地，您可以重新鏡像伺服器。
+> 本文中的步驟僅適用于使用方法2管理使用者屬性時[，如下所述。](cloud-consolidation-managing-attributes.md#method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory) 如果您是使用方法1，請勿使用本文所述的步驟來移除您的商務用 Skype 伺服器。 相反地，您可以重新鏡像伺服器。
 
 若要完成本文中的步驟，您需要具備 Schema Admins 群組和 Enterprise 系統管理員群組的許可權。 您將需要這些許可權，才能撤銷 Active Directory 網域服務的商務用 Skype Server 架構和樹系層級變更。 您也必須是 RTCUniversalServerAdmins 群組的成員。
 

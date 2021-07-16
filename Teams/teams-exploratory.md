@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8803219c93a66d7094ce6ca1aa635f1fbff8580e
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 946847793ea90e549a555cd9d100cd1ae2809fa3
+ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230550"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "53408752"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 
@@ -69,7 +69,7 @@ Microsoft Teams Exploratory 體驗可讓貴組織中擁有 Azure Active Director
 
 使用者在以下情況不符合條件：
 
-- 目前或先前具有付費、未付款或試用版授權的 Teams
+- 目前有來自付費授權或試用版授權或先前具有試用版授權
 - 位於至少使用過/收到過一個特殊 COVID 特殊優惠的租使用者中。
 
 如果您是整合合作夥伴客戶，或是 GCC、GCC High、DoD 或 EDU 客戶，則貴組織不符合使用資格。
