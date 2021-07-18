@@ -26,8 +26,14 @@
           href: ../hybrid/decommission-on-prem-overview.md
         - name: 將使用者移至雲端
           href: ../hybrid/decommission-move-on-prem-users.md
-        - name: 停用混合式以完成移轉至雲端
-          href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+        - name: 停用混合式以完成移轉至僅限 Teams
+          items:
+            - name: 停用混合式以完成移轉至僅限 Teams
+              href: ../hybrid/cloud-consolidation-disabling-hybrid.md
+            - name: 更新 DNS 項目
+              href: ../hybrid/decommission-manage-dns-entries.md
+            - name: 決定解除授權後如何管理屬性
+              href: ../hybrid/cloud-consolidation-managing-attributes.md
         - name: 將應用程式端點移至雲端
           href: ../hybrid/decommission-move-on-prem-endpoints.md
         - name: 移除您的內部部署商務用 Skype 部署

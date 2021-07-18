@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 0bde5b2fac365369fea385a325cbd1d0d05cca07
-ms.sourcegitcommit: 8750f98d59e74e3835d762d510fb0e038c8f17eb
+ms.openlocfilehash: db911db3631caebb0e767401f80c36bdac6c9c1b
+ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "51899084"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "53420828"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
 
@@ -32,12 +32,7 @@ ms.locfileid: "51899084"
 
 如果您已[針對 Microsoft 365 或 Office 365 最佳化您的網路](/Office365/Enterprise/assessing-network-connectivity)，則可能已準備好使用 Microsoft Teams。 在任何情況下，尤其是如果您要快速推出 Teams 做為第一個 Microsoft 365 或 Office 365 工作負載以支援 **遠端工作者** - 請在開始推出 Teams 之前，檢查下列項目：
 
-1.  您的所有位置是否都有網際網路存取權 (以便它們可以連線到 Microsoft 365 或 Office 365)？ 除了一般網路流量之外，請確定您至少已針對 Teams 中的媒體，對所有位置開放下列項目：
-
-    |  |  |
-    |---------|---------|
-    |連接埠     |UDP 連接埠 <strong>3478</strong> 到 <strong>3481</strong>        |
-    |[IP 位址](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) |<strong>13.107.64.0/18</strong>、<strong>52.112.0.0/14</strong> 和 <strong>52.120.0.0/14</strong>         |
+1.  您的所有位置是否都有網際網路存取權 (以便它們可以連線到 Microsoft 365 或 Office 365)？ 除了正常網路流量之外，請確定您已開啟 [Office 365 URL 和 IP 位址範圍中列入 Teams 的 TCP 埠和 IP 位址](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。
 
     > [!IMPORTANT]
     > 如果需要與商務用 Skype (內部部署或線上) 進行同盟，您必須設定額外的 DNS 記錄。
@@ -149,10 +144,173 @@ ms.locfileid: "51899084"
 
 無論您的網路狀況如何，Teams 的設計都可提供最佳的音訊、視訊和內容共用體驗。 也就是說，當頻寬不足時，Teams 會優先處理音訊品質，之後才是視訊品質。
 
-在頻寬 *未* 受限的情況下，Teams 會最佳化媒體品質，包括最高 1080p 的視訊解析度、最高 30fps 的視訊和 15fps 的內容，以及高逼真度音訊。 
+在頻寬未受限的情況下，Teams 會最佳化媒體品質，包括高逼真度音訊、最高至 1080p 的視訊解析度，以及最高 30fps (每秒畫面數) 的視訊和內容。
 
-[!INCLUDE [bandwidth-requirements](includes/bandwidth-requirements.md)]
+下表說明 Teams 使用頻寬的方式。 Teams 在頻寬利用方面一向非常節約，可提供低於 1.5 Mbps 的 HD 視訊品質。 每個音訊/視訊通話或會議中的實際頻寬消耗，會根據幾個因素而有所不同，例如視訊版面配置、視訊解析度和每秒視訊畫面格數。 當有更多頻寬可用時，品質和使用狀況便會提高，以提供最佳體驗。
 
+:::row:::
+   :::column span="":::
+      **形式**
+   :::column-end:::
+   :::column span="3":::
+      **頻寬需求 （位元速率 KB/s 上/下）**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+   :::column-end:::
+   :::column span="":::
+      **最小值**
+   :::column-end:::
+   :::column span="":::
+      **建議**
+   :::column-end:::
+   :::column span="":::
+      **最佳效能**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **音訊**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        一對一
+   :::column-end:::
+   :::column span="":::
+        10/10
+   :::column-end:::
+   :::column span="":::
+        58/58
+   :::column-end:::
+   :::column span="":::
+        76/76
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        會議
+   :::column-end:::
+   :::column span="":::
+        10/10
+   :::column-end:::
+   :::column span="":::
+        58/58
+   :::column-end:::
+   :::column span="":::
+        76/76
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **視訊**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        一對一
+   :::column-end:::
+   :::column span="":::
+        150/150
+   :::column-end:::
+   :::column span="":::
+        1,500/1,500
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        會議
+   :::column-end:::
+   :::column span="":::
+        150/200
+   :::column-end:::
+   :::column span="":::
+        2,500/4,000
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **共用螢幕**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        一對一
+   :::column-end:::
+   :::column span="":::
+        200/200
+   :::column-end:::
+   :::column span="":::
+        1,500/1,500
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        會議
+   :::column-end:::
+   :::column span="":::
+        250/250
+   :::column-end:::
+   :::column span="":::
+        2,500/2,500
+   :::column-end:::
+   :::column span="":::
+        4,000/4,000
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="4":::
+      **齊聚模式**
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        一對一
+   :::column-end:::
+   :::column span="":::
+        不適用
+   :::column-end:::
+   :::column span="":::
+        不適用
+   :::column-end:::
+   :::column span="":::
+        不適用
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+        會議
+   :::column-end:::
+   :::column span="":::
+        1,000/1,500
+   :::column-end:::
+   :::column span="":::
+        1,500/2,500
+   :::column-end:::
+   :::column span="":::
+        2,500/4,000
+   :::column-end:::
+:::row-end:::
+
+**最低**、 **建議的**，以及 **最佳** 頻寬需求是根據每個端點的使用情況。 一般來說，每個使用者為一個端點，例如電腦或行動裝置。 不過，如果使用者 *同時* 在電腦 *與* 行動裝置上參與 Teams 會議，則兩個端點皆會與該使用者相關聯。
+
+- 視訊通話的 **最低** 頻寬需求為最高 240p 解析度、共用螢幕內容畫面播放速率可調整 1.875 到 7.5fps，而齊聚模式/大型圖庫視訊最高 540p 解析度。  
+
+- 視訊通話的 **建議** 頻寬需求為最高 1080p 解析度<sup>\*</sup>、共用螢幕內容畫面播放速率可調整為 7.5 到 30fps，而齊聚模式/大型圖庫視訊最高 1080p 解析度<sup>\*</sup>。  
+
+- **「最佳效能** 指引」可達成較大型的會議出席者人數、高遺失環境以及較高動作內容逼真度的視訊，螢幕共用內容畫面播放速率可調整從 15 到 30fps。
+
+<sup>\*</sup>預期最高品質 1080p ，但根據您的網路狀況，音訊解析度和品質會加以優化。  
 
 ## <a name="related-topics"></a>相關主題
 

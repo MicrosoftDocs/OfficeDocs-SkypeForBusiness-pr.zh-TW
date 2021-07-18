@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cfbff25ff4f241b18baa6b313977c687c73c8262
-ms.sourcegitcommit: b7da2655607a17cde9537ed9e00db29b4c1a68df
+ms.openlocfilehash: cd4d8b4136639a057250bf72aa969e13f8619e1d
+ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "53219120"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "53454346"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用商務用 OneDrive或SharePoint串流進行會議錄製
 
@@ -161,9 +161,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 
 標題可協助建立包含所有功能之檢視器的內容。 作為擁有者，您可以在會議錄製中隱藏標題，但會議記錄Teams，除非您刪除該記錄。 
 
-從錄製會議起Teams 60 天內，會議錄製支援隱藏式字幕。
+今天錄製視像檔案的隱藏式字幕會連結至Teams記錄。 在大多數的情況下，此連結會保留為檔案的生命週期，但有時候可能會中斷，例如，如果視像檔案是在同一個 OneDrive 或 SharePoint 網站中複製，這可能會導致新的錄製影片檔案上無法提供標題。
 
-如果會議錄製內容從原始位置移動Teams或複製，則隱藏式字幕商務用 OneDrive或SharePoint。
+任何未來的變更都會在這裡和訊息中心通知中加以說明，並確保在 60 天內錄製的檔案會在整個移移期間將會議記錄顯示為標題。
 
 > [!NOTE]
 > 會議記錄中 (英文的隱藏式GCC) 。

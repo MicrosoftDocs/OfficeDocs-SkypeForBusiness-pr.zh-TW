@@ -229,10 +229,16 @@ items:
                 href: /SkypeForBusiness/hybrid/decommission-on-prem-overview
               - name: 將使用者移至雲端
                 href: /SkypeForBusiness/hybrid/decommission-move-on-prem-users
-              - name: 停用混合式以完成移轉至雲端
-                href: /SkypeForBusiness/hybrid/cloud-consolidation-disabling-hybrid
+              - name: 停用混合式以完成移轉至僅限 Teams
+                items:
+                  - name: 停用混合式以完成移轉至僅限 Teams
+                    href: /SkypeForBusiness//hybrid/cloud-consolidation-disabling-hybrid
+                  - name: 更新 DNS 項目
+                    ref: /SkypeForBusiness//hybrid/decommission-manage-dns-entries.md
+                  - name: 決定解除授權後如何管理屬性
+                    href: /SkypeForBusiness//hybrid/cloud-consolidation-managing-attributes
               - name: 將應用程式端點移至雲端
-                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints.md
+                href: /SkypeForBusiness/hybrid/decommission-move-on-prem-endpoints
               - name: 移除您的商務用 Skype 部署
                 href: /SkypeForBusiness/hybrid/decommission-remove-on-prem
           - name: 部署資源樹系拓撲
@@ -1558,8 +1564,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: SharePoint Online 和商務用 OneDrive 如何與 Teams 互動
             href: sharepoint-onedrive-interact.md
-          - name: 在 Microsoft 365 或已啟用多地理位置的 Office 365 租用戶中的 Teams 體驗
-            href: teams-experience-o365odb-spo-multi-geo.md
       - name: 支援的裝置
         items:
           - name: 在 Teams 中管理裝置
