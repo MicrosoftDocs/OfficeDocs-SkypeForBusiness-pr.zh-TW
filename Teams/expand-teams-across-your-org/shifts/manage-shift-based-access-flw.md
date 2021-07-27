@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c69f5678b2a3884f52dd3dc676fce21e2ee67f4f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9c1d8ed8e964d1ffeda8e862992335560c9a6aab
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092541"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536839"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>管理公司中前線員工以班為基礎的Teams
 
@@ -31,19 +31,19 @@ ms.locfileid: "51092541"
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-目前Microsoft Teams表示使用者目前的可用性和狀態給其他使用者。 前線工作人員的存在通常不如其他員工預測，因為每天的工作時間通常不同。 做為系統管理員，您可以設定Teams，為貴組織的前線工作人員顯示一組以班為基礎的目前狀態，以指出他們何時上班和下班。
+目前Microsoft Teams表示使用者目前的可用性和狀態給其他使用者。 前線員工的存在通常不如其他員工預測，因為每天的工作時間通常不同。 做為系統管理員，您可以設定Teams，為貴組織的前線員工顯示一組以班為基礎的目前狀態，以指出他們何時上班和下班。
 
 這些以班為基礎的目前狀態 實心綠色核取方塊，表示在班次上，灰色圓圈與 x，表示關閉班次關閉班次，實心紅色圓圈，表示忙碌狀態與 Teams 的預設目前狀態 &mdash; ![ ](../../media/flw-presence-on-shift.png)  ![ ](../../media/flw-presence-off-shift.png)  ![ ](../../media/flw-presence-busy.png)  &mdash; 集不同[](../../presence-admins.md)。 有了這兩組目前狀態，您可以根據組織人員的角色來設定不同的體驗。
 
-使用輪班式存取，您可以在前線工作人員Teams管理對人員的存取權限。 例如，您可以設定Teams，以顯示一則訊息，要求前線工作人員必須先確認，才能Teams排班時才能使用電話。  
+使用以班為基礎的存取，您可以在前線員工Teams管理存取權。 例如，您可以設定Teams，以顯示前線員工必須先確認的訊息，才能Teams排班時才能使用。  
 
 ## <a name="scenario"></a>案例
 
 以下是貴組織如何管理班次式存取的範例。
 
-貴組織有前線工作人員，其工作時間只應在主管排程及核准的班中支付。 他們不應支付在排程班以外工作的時間，包括使用 Teams 應用程式。 您設定了一則自訂訊息，指出「您的 Teams 非班時間不會計入應付時數」，當前線工作人員嘗試在輪班時存取 Teams 時，會顯示此訊息。 如果他們選擇使用Teams，他們按一下 [我接受，瞭解這次不會支付他們費用。
+貴組織的前線員工只能在主管排程和核准的班上工作時數獲得報酬。 他們不應支付在排程班以外工作的時間，包括使用 Teams 應用程式。 您設定了一則自訂訊息，指出「您的 Teams 非班時間不會計入應付時數」，當前線工作人員嘗試在輪班時存取Teams會顯示該訊息。 如果他們選擇使用Teams，請按一下 [我接受，瞭解這次不會支付他們費用。
 
-您組織中也有有薪資且沒有輪班的資訊工作者。 您將資訊工作者設定為在 Teams 使用預設目前狀態，同時提供前線員工以班為基礎的目前狀態。
+您組織中也有有薪資且沒有輪班的資訊工作者。 您將資訊工作者設定為在 Teams中使用預設目前狀態，同時提供前線員工以班為基礎的目前狀態。
 
 ## <a name="shift-based-presence-states"></a>以班次為基礎的目前狀態
 
@@ -57,17 +57,17 @@ ms.locfileid: "51092541"
 
 ## <a name="off-shift-access-to-teams"></a>關閉班次存取Teams
 
-此功能可讓您在前線工作人員Teams時管理存取權。 您可以設定Teams，讓前線工作人員在輪班時存取Teams訊息。 前線工作人員必須先按一下 **[我接受** 才能使用Teams。
+此功能可讓您在前線員工Teams時管理存取權。 您可以設定Teams，讓前線員工在輪班時存取Teams訊息。 前線工作人員必須先按一下 **[我接受** 並認可郵件後，才能使用Teams。
 
 您可以使用預設郵件、從一組預先定義的郵件中選擇，或自訂郵件以顯示您想要的任何文字。 以下是預設訊息：
 
 ![預設訊息的螢幕擷取畫面](../../media/shifts-presence-message.png)
 
-您也可以設定顯示郵件的頻率，並設定第一個班次開始或最後一個班結束，以及限制Teams寬限期。
+您也可以設定顯示郵件的頻率，並設定寬限期，介於第一個班次開始或最後一個班次結束，以及限制存取Teams期間。
 
 ## <a name="manage-shift-based-access"></a>管理輪班式存取
 
-做為系統管理員，您可以使用策略來控制組織中前線工作人員以班為基礎的目前狀態。 您可以使用下列 PowerShell Cmdlet 管理這些策略：
+做為系統管理員，您可以使用策略來控制組織中前線員工以班為基礎的目前狀態。 您可以使用下列 PowerShell Cmdlet 管理這些策略：
 
 - [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)
 - [Get-CsTeamsShiftsPolicy](/powershell/module/teams/get-csteamsshiftspolicy)

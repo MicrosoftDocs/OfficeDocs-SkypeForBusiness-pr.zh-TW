@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2b805f4cfddce18f1fa055b7de96a4afcaa47fb
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: c68965bb658328646b5308ad85092ce23bc0ab02
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684560"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574048"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>在系統管理中心使用一般小組範本
 
@@ -34,7 +34,7 @@ ms.locfileid: "52684560"
 
 本文介紹每個小組範本，並建議如何使用這些範本。
 
-如果您負責規劃、部署及管理整個財務組織的多個團隊，本文適合您閱讀。 您已在組織中部署 Teams 服務。 如果您尚未推出Teams，請首先閱讀如何[推出](./deploy-overview.md)Microsoft Teams。
+如果您負責規劃、部署及管理整個組織的多個團隊，本文適合您閱讀。 您已在組織中部署 Teams 服務。 如果您尚未推出Teams，請首先閱讀如何[推出](./deploy-overview.md)Microsoft Teams。
 
 若要深入瞭解一般小組範本，請參閱開始使用 [小組範本](get-started-with-teams-templates-in-the-admin-console.md)。
 
@@ -76,13 +76,13 @@ ms.locfileid: "52684560"
 | 管理活動| `com.microsoft.teams.template.ManageAnEvent` | 頻道： <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與公關</li></ul> 應用程式：<ul><li>Wiki</li><li>網站</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li></ul> |
 ||||
 
-## <a name="onboard-employees"></a>上載員工
+## <a name="onboard-employees"></a>員工上機
 
 利用這個中央小組改善您的文化，並簡化員工上線，以尋找資源、問題和一些樂趣。
 
 | 範本類型 |baseTemplateId| 此基本範本提供的屬性 |
 | ------------------|--|-----------------------------------------------------------|
-|上載員工|`com.microsoft.teams.template.OnboardEmployees`  | 頻道： <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用程式：<ul><li>Wiki</li><li>社區</li><li>Planner</li></ul>|
+|員工上機|`com.microsoft.teams.template.OnboardEmployees`  | 頻道： <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用程式：<ul><li>Wiki</li><li>社區</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="organize-a-help-desk"></a>組織服務台

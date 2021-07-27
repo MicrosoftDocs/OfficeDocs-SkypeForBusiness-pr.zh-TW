@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: 瞭解如何安裝及設定 Teams 應用程式Surface Hub，Teams通話和會議應用程式。
+description: 瞭解如何安裝及設定 Teams 應用程式Surface Hub，讓 Teams 成為預設的通話和會議應用程式。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,22 +20,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38202fcbb4c2147baae3f745bc2455da6fdff3e3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d65f94b3f1e71a59ac2debc04828c5fa25f000f7
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093933"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587002"
 ---
-<a name="deploy-microsoft-teams-for-surface-hub"></a>部署 Microsoft Teams Surface Hub
-======================================
+# <a name="deploy-microsoft-teams-for-surface-hub"></a>部署 Microsoft Teams Surface Hub
 
 在安裝 Teams Surface Hub，請務必執行下列操作：
 
  □確認硬體、作業系統和其他需求都符合。 詳細資訊，請參閱管理Microsoft Surface Hub[指南](/surface-hub/)。<br>
  □請確定已安裝適用于 Teams 的最低作業系統更新 - [KB4343889](https://support.microsoft.com/help/4343889)。<br>
  □指派授權Teams中心裝置帳戶。<br>
- □如果您是從 商務用 Skype Online 轉換，請確認Teams授權已指派給使用者。
+ □如果您是從 商務用 Skype Online 轉場，請確認Teams授權已指派給使用者。
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>從 Teams Surface Hub安裝Microsoft Store 
 
@@ -63,7 +62,7 @@ ms.locfileid: "51093933"
 
 |數量  |描述  |
 |---------|---------|
-|0     | Skype畫面上顯示偏好的應用程式，Teams會議        |
+|0     | Skype畫面上的偏好應用程式，Teams會議        |
 |1     | Teams畫面上的偏好應用程式，Skype會議        |
 |2     | Teams畫面上的專屬應用程式 (Skype應用程式無法)         |
  

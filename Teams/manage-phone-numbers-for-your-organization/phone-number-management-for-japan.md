@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在日本取得及管理日本電話號碼Microsoft Teams。
-ms.openlocfilehash: 3c16d05a1160e95777f6ee981ca7332a4555f10a
-ms.sourcegitcommit: bfada4fd06c5cff12b0eefd3384bb3c10d10787f
+ms.openlocfilehash: 68bb6a33741c1508765c0808b69934073e220445
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "50196677"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509994"
 ---
 # <a name="phone-number-management-for-japan"></a>電話日本號碼管理
 
@@ -39,8 +39,8 @@ ms.locfileid: "50196677"
 |**您想要做什麼？**|**執行這些步驟並下載正確的表單**|
 |:-----|:-----|
 |取得日本通話方案的新使用者電話號碼。|如需使用者的新電話號碼，請聯絡 [SoftBank](https://aka.ms/SoftBankVoicePlan) 通話。 接著，他們會將這些數位新加到貴組織，好讓您可以將這些數位指派給使用者。 <br/>
-|取得日本音訊會議、自動語音機和通話佇列的新服務電話號碼。|[請聯絡我們](mailto:ptnapac@microsoft.com)。|
-|將電話號碼轉接到日本Microsoft 365或Office 365 **電話號碼**。|請聯絡 [SoftBank 通話](https://aka.ms/SoftBankVoicePlan) 以轉接使用者電話號碼。 接著，他們會將這些數位新加到貴組織。  <br/> |
+|取得日本音訊會議、自動語音機和通話佇列的新服務電話號碼。|[如需指示，請連連 PTSN。](contact-pstn-service-desk.md)|
+|將電話號碼轉接至日本Microsoft 365或 **Office 365電話號碼。**|請聯絡 [SoftBank 通話](https://aka.ms/SoftBankVoicePlan) 以轉接使用者電話號碼。 接著，他們會將這些數位新加到貴組織。  <br/> |
 |將電話號碼轉接到日本Microsoft 365或Office 365 **通話佇列**。|請聯絡 [SoftBank 通話](https://aka.ms/SoftBankVoicePlan) 以轉接服務電話號碼。 接著，他們會將這些數位新加到貴組織。|
 |變更指派給有通話方案電話號碼的使用者的緊急位址。|請聯絡 [SoftBank 通話](https://aka.ms/SoftBankVoicePlan) 以變更緊急位址。 他們可以更新這項資訊。|
 |將使用者號碼變更為服務號碼。 |使用 SoftBank 通話時目前不支援。|

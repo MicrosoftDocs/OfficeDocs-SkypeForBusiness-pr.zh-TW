@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 系統管理員可以瞭解哪些會話邊界控制器 (SBC) 直接路由認證。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 33df0f9d00d0c02d28c5f69ef26ae151586803d2
-ms.sourcegitcommit: 9b794b579e57d478e5e4bd76b8ca79fdea6f90c4
-ms.translationtype: MT
+ms.openlocfilehash: af721c97d809204eacc897c09a6f504a0d6d5722
+ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53465381"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "53482326"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器清單
 
@@ -93,7 +93,7 @@ Microsoft 會與每個廠商合作，以：
 |                     [M5 技術 (先前稱為 Media5 Corporation) ](https://www.m5t.com/solutions/sentinel-sbc-ms-teams-certified/)|    Mediatrix Sentinel 系列   |     &#10004;     |         |      DGW 48.0.2340 (建議 DGW 48.1.2503)       |     |    |
 |                     [Ekinops](https://www.ekinops.com/solutions/voice-data-access/microsoft-direct-routing-sbc)|    Ekinops 會話邊界控制器 (ONeSBC)    |     &#10004;     |     &#10004;     |      6.6.1m5ha1      |     |    |
 |                     |    Ekinops 虛擬會話邊界控制器 (ONEvSBC)    |     &#10004;     |    &#10004;      |      6.6.1m5ha1      |     |    |
-|                     [46 個實驗室 LLC](https://46labs.com/docs/hcvoice/teams/)|    超凸語音   |     &#10004;     |         |      HCVoice 1.0.6       |     |    |
+|                     [46 個實驗室 LLC](https://46labs.com/docs/hcvoice/teams/)|    超凸語音   |     &#10004;     |     &#10004;      |      HCVoice 1.0.6       |     |    |
 
 <br/>
 

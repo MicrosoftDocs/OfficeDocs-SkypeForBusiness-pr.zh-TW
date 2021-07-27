@@ -1,5 +1,5 @@
 ---
-title: 適用於 Microsoft Teams for RealWear 用戶端的 ITAdmin 資訊 (預覽)
+title: 適用於 Microsoft Teams for RealWear 用戶端的 IT 系統管理員資訊 (預覽)
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: 適用於 Microsoft Teams for RealWear 用戶端的 ITAdmin 逐步解說。
+description: 適用於 Microsoft Teams for RealWear 用戶端的 IT 系統管理員逐步解說。
 localization_priority: Priority
 search.appverid: MET150
 f1.keywords:
@@ -18,16 +18,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222cb12e38061c81a860092f90bf42d5412fdb63
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e7977aae272f13a0ffe59ccd9febad2b501dbd54
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092281"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536699"
 ---
 # <a name="microsoft-teams-for-realwear"></a>Microsoft Teams for RealWear
 
-本文涵蓋適用於 RealWear 頭戴式穿戴裝置的 Microsoft Teams 用戶端。 使用 RealWear HMT-1 和 HMT-1Z1 的第一線工作者現在可以使用 Teams 的視訊通話來與遠端專家共同作業。 透過語音控制的使用者介面，適用於 RealWear 的 Teams 允許現場工作者具有 100% 免持式能力，並且同時在吵雜與危險環境中保持對環境的警覺。 透過即時顯示現場工作者看到的內容，可協助現場工作者節省解決問題的時間，並降低昂貴的停機風險。
+本文涵蓋適用於 RealWear 頭戴式穿戴裝置的 Microsoft Teams 用戶端。 使用 RealWear HMT-1 和 HMT-1Z1 的前線員工現在可以使用 Teams 的視訊通話來與遠端專家共同作業。 透過語音控制的使用者介面，適用於 RealWear 的 Teams 允許現場工作者具有 100% 免持式能力，並且同時在吵雜與危險環境中保持對環境的警覺。 透過即時顯示現場工作者看到的內容，可協助現場工作者節省解決問題的時間，並降低昂貴的停機風險。
 
 ## <a name="how-to-deploy-microsoft-teams-for-realwear"></a>如何部署適用於 RealWear 的 Microsoft Teams
 
@@ -53,4 +53,4 @@ Microsoft Teams 授權屬於 Microsoft 365 和 Office 365 訂閱的一部分。 
 
 ## <a name="end-user-content"></a>使用者內容
 
-若要從使用者觀點進一步了解，請參閱[使用 Microsoft Teams for RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f)。
+若要從使用者觀點進一步了解，請參閱 [使用 Microsoft Teams for RealWear](https://support.office.com/article/using-microsoft-teams-for-realwear-af20d232-d18c-476f-8031-843a4edccd5f)。

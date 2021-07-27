@@ -17,12 +17,12 @@ description: 瞭解執行電子檔探索時該做什麼，例如當您需要提�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ebc1bb12b8a864e65cf6cb26b3d2022ae2e1563b
-ms.sourcegitcommit: e023c3023f49e196315e176ce346f0dc5825fa56
+ms.openlocfilehash: b9010bb233438029d6e755cf1fcd8b78b7cba6eb
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53275682"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486163"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在電子郵件中對內容進行電子檔探索Microsoft Teams
 
@@ -30,7 +30,7 @@ ms.locfileid: "53275682"
 
 ## <a name="overview"></a>概觀
 
-所有Microsoft Teams 1：1 或群組聊天會記錄到各個使用者的信箱。 所有標準頻道訊息會記錄到代表團隊的群組信箱。 在標準頻道上傳的檔案會涵蓋在 SharePoint Online 和 商務用 OneDrive。
+所有Microsoft Teams 1：1 或群組聊天會記錄到各個使用者的信箱。 所有標準頻道訊息會記錄到代表團隊的群組信箱。 以標準頻道上傳的檔案會涵蓋在 SharePoint Online 和 商務用 OneDrive。
 
 私人頻道中郵件和檔案的 [eDiscovery](private-channels.md) 運作方式與標準頻道不同。 若要深入瞭解，請參閱 [私人頻道的 eDiscovery](#ediscovery-of-private-channels)。
 
@@ -96,13 +96,13 @@ Microsoft Teams電子檔探索匯出輸出中，Excel會顯示為 IM 或交談�
 
 Teams不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋整個團隊。 若要在私人頻道中執行 eDiscovery 內容搜尋，請搜尋整個小組、與私人頻道關聯的網站集合 (以包含檔案) ，以及私人頻道成員的信箱 (以包含郵件) 。
 
-請使用下列步驟來識別私人頻道中的檔案和訊息，以納入您的電子檔探索搜尋。
+使用下列步驟來識別私人頻道中的檔案和郵件，以納入您的電子檔探索搜尋。
 
 ### <a name="include-private-channel-files-in-an-ediscovery-search"></a>在電子檔探索搜尋中納入私人頻道檔案
 
-執行這些步驟之前，請安裝 SharePoint[管理命令殼，然後連線至 SharePoint Online。](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+執行這些步驟之前，請安裝[SharePoint管理命令殼，然後連線至 SharePoint Online。](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
-1. 執行下列操作，以取得與小組中私人SharePoint相關聯的所有網站集合清單。
+1. 執行下列操作，以取得小組中SharePoint私人頻道的所有網站集合清單。
 
     ```PowerShell
     Get-SPOSite
@@ -115,7 +115,7 @@ Teams不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋整
     foreach ($site in $sites) {$x= get-sposite -identity $site.url -detail; $x.relatedgroupID; $x.url}
     ```
 
-3. 針對每個小組或群組識別碼，執行下列 PowerShell 腳本，以識別所有相關的私人頻道網站，$groupID是團隊的群組識別碼。
+3. 針對每個小組或群組識別碼，執行下列 PowerShell 腳本，以識別所有相關的私人頻道網站，$groupID是團隊的組識別碼。
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -139,7 +139,7 @@ Teams不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋整
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 
-3. 在 [eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery)搜尋查詢中，包含團隊中每個私人頻道中所有成員的信箱。
+3. 在 [eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery)搜尋查詢中，包含團隊中每個私人頻道所有成員的信箱。
 
 ## <a name="search-for-content-for-guest-users"></a>搜尋來賓使用者的內容
 
@@ -213,111 +213,9 @@ Teams不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋整
 > [!NOTE]
 > 若要在搜尋結果中顯示來自卡片內容的影像 (例如上一個螢幕擷取畫面) 中的核取方塊，您必須在您用於查看搜尋結果的同一個瀏覽器會話的不同索引點，在 Teams (上登錄。 https://teams.microsoft.com) 否則會顯示影像預留位置。
 
-## <a name="advanced-ediscovery"></a>Advanced eDiscovery
-
-您也可以Microsoft Teams工作流程來搜尋及保留部分Advanced eDiscovery[內容](/microsoft-365/compliance/overview-ediscovery-20)。 雖然 eDiscovery 提供一系列的搜尋、保留和匯出功能，Advanced eDiscovery提供合規性系統管理員更多工具來識別資料來源及分析其內容。
-
-### <a name="advanced-ediscovery-custodian-workflow-for-teams-content"></a>Advanced eDiscovery內容管理Teams工作流程
-
-監護者可能是各種團隊的成員。 您可以Teams與這些監護者相關的內容。 有關監護工作流程的指示，請參閱新增監護者[至Advanced eDiscovery案例](/microsoft-365/compliance/add-custodians-to-case)。
-
-新增保管人之後，按一下 **[下** 一步> 按鈕，然後按一下 [ **新增>** 按鈕。 隨後會顯示一個視窗，提示您選取其他位置，這會顯示保管人的所有成員資格，以及其SharePoint網站的對應位置。 您可以從所有這些資料來源和團隊中，選擇您想要用於 eDiscovery 的內容，然後將該使用者和您識別的所有資料來源保留。
-
-您可以選取是否要包含其Exchange內容、OneDrive或兩者。 Exchange包含使用者信箱中所有的應用程式內容，例如其電子郵件、Teams信箱中儲存的 Teams 內容等等。 OneDrive內容不僅包括使用者的內容，也包含 OneDrive 中儲存的所有 Teams 內容，例如 1：1 聊天、1：N 聊天，以及聊天中共用的檔案。
-
-您也可以選擇將監護者是其中一員的任何團隊進行關聯，以便包含監護者可存取的頻道聊天訊息和檔案。 此外，任何其他團隊都可以與監護者相關聯。
-
-> [!NOTE]
-> 私人頻道中郵件和檔案的 [eDiscovery](private-channels.md) 運作方式與標準頻道不同。 若要深入瞭解，請參閱 [私人頻道的 eDiscovery](#ediscovery-of-private-channels)。
-
-### <a name="placing-a-data-source-on-hold"></a>保留資料來源
-
-如果沒有任何特定使用者要指定為監管人，您可以將整個資料來源保留。 有關保留詳細資訊，請參閱在 Advanced eDiscovery[中管理Advanced eDiscovery。](/microsoft-365/compliance/managing-holds)
-
-建立保留Teams內容時，您可以選擇要納入保留的所有位置。 即使使用者刪除或變更內容，保留也會保留該內容的所有先前版本複本。
-
-您也可以使用選擇性查詢，根據關鍵字、日期範圍、作者和許多其他準則來設定保留的條件。 如果您未指定關鍵字，則來自該資料來源的所有專案都會受到保留。
-
-### <a name="advanced-ediscovery-searches"></a>Advanced eDiscovery搜尋
-
-Teams搜尋內容。 有關搜尋詳細資訊，請參閱在 Advanced eDiscovery[中收集案例Advanced eDiscovery。](/microsoft-365/compliance/collecting-data-for-ediscovery) 即使有一封郵件符合搜尋查詢，搜尋也會返回整個交談。
-
-建立搜尋查詢時，您可以選擇監護者，以便搜尋所有已選取的來源。 您也可以搜尋非監護來源，例如Teams未對應給使用者的網站。 選擇性查詢也可以縮小搜尋範圍，以縮小Teams範圍。
-
-建立並選取搜尋之後，視窗會顯示其他詳細資料，以及您可以在選取的搜尋上執行的動作。 如果您按一下 [統計資料> 按鈕，就可以查看搜尋的統計資料，包括根據位置類型細分、內容的原始來源，以及內容是否位於群組信箱、個別使用者信箱或 SharePoint 網站。 因此，您可以查看哪些來源對搜尋結果有説明。 您也可以使用 **[查詢** 視圖>，以便查看哪些個別關鍵字對結果有影響。
-
-完成搜尋之後，您可以按一下 [新增結果 **以審查設定** 按鈕並新增到評論集。 有關審查集詳細資訊，請參閱本文稍後[Advanced eDiscovery管理檢查](/microsoft-365/compliance/managing-review-sets)集和[檢查](#review-sets-workflow)集工作流程。
-
-#### <a name="normal-review-sets-and-conversation-review-sets"></a>一般評論集和交談評論集
-
-新增搜尋至評論集時，您可以選擇一般評論集或交談評論集。
-
-一般評論集與匯出類似;它提供個別檔案Teams內容，並且以基本視圖 `.msg` 呈現內容。 當您打算稍後使用其他軟體工具重新處理檔案時，通常會使用一般評論集。
-
-交談評論集提供交談的更直覺、討論執行緒的視圖;它會以適當的順序一起顯示相關郵件。
-
-> [!div class="mx-imgBorder"]
-> ![交談評論集的螢幕擷取畫面](media/conversationOptions2.png)
-
-兩種類型的校閱集都提供編校等功能。 有關評論集詳細資訊，請參閱在進一版 [eDiscovery 中審查交談](/microsoft-365/compliance/conversation-review-sets)。
-
-#### <a name="collection-options"></a>集合選項
-
-新增到評論集時，視窗的收藏選項區段下有數個選項可用做為核取方塊，包括交談Teams **選項**。  如果您啟用這些選項，任何屬於您Teams之個別的郵件也會顯示周圍其他訊息以做為上下文。 例如，如果您的查詢是特定的，因此只會返回一封郵件，啟用這些選項也會在符合查詢的郵件前和之後，返回數封郵件。
-
-許多邏輯準則會用來判斷其他郵件是否提供符合您查詢的郵件內容。 例如，針對Teams，啟用這些選項會因為郵件的執行緒方式，來取回父郵件和所有子郵件。
-
-也會檢查郵件時間戳記。 如果郵件符合您的查詢，則 4 小時內或 4 小時內追蹤該郵件的相鄰郵件會視為交談的一部分，也會包含在結果中。
-
-如果您必須確定哪些上下文相關郵件會與搜尋查詢的符合專案一起返回，則不需要使用這些選項。 您可以收集所有內容，也可以擴大搜尋的日期範圍，讓查詢的結果會退回更多郵件。
-
-### <a name="review-sets-workflow"></a>審查集工作流程
-
-您可以按一下檢查集，來查看現有的評論集或 **建立** 新評論集。有關評閱集的資訊，請參閱在 Advanced eDiscovery [中管理Advanced eDiscovery。](/microsoft-365/compliance/managing-review-sets)
-
-除了檔之外，您還可以在評論集Teams電子郵件、Yammer郵件及其他內容。 您也可以在評論集內執行許多可在其他上下文執行相同的作業，例如搜尋內容和建立自訂查詢。 這些作業僅適用于已新加入審查集的專案。
-
-管理 **審查集** 按鈕提供其他選項，例如分析、摘要報告、新增的載入集數等等。
-
-若要存取資料的視覺效果和圖表，請按一下右上角的 [個別 **結果** 搜尋 \> 設定檔視圖。 您可以按一下這些圖表中的圓形圖，以互動式方式選取您想要查詢的內容類型。 例如，您可以選擇只查詢Teams內容。 您也可以儲存這些查詢，就像儲存手動撰寫的查詢一樣。
-
-#### <a name="summary-view-text-view-and-annotate-view"></a>摘要視圖、文字視圖和批註視圖
-
-如果您按一下評論Teams中的交談，它會顯示 [摘要視圖Teams整個交談，作為您可以個別互動的郵寄清單。 按一下郵件右邊的向下箭鍵，以顯示操作功能表，可讓您查看郵件詳細資料或下載個別 `.msg` 檔案。 按一下郵件詳細資料會顯示中繼資料摘要或郵件的完整中繼資料。
-
-若要下載 PDF，請按一下摘要視圖右上角的下載按鈕。
-
-按一下 [**文字視圖>** 選項卡，以顯示交談中摘要文字的純文字Teams視圖。 此純文字內容適合匯出，而且您可以使用其他軟體工具輕鬆處理。
-
-按一下 [ **批註視圖>** 選項卡以存取注釋功能。 此選項卡會以類似交談Teams格式顯示內容，但還有其他編輯選項。 您可以使用鉛筆工具做筆記、在郵件上繪圖，或執行細細微性的刮擦，以用於編校用途。 您也可以使用 **區域密** 文工具來繪製一個矩形，將區域黑色化，並標記為「已重新編輯」。
-
-以下是使用者之間對話對話的已修訂檔案範例。
-
-> [!div class="mx-imgBorder"]
-> ![已修訂檔案的螢幕擷取畫面](media/RedactedFileExample.png)
-
-At the bottom of the **Annotate view** tab is the **Tag documents** button, which displays the tagging panel. 您可以在此面板中，將標記Teams交談。 您可以將交談標示為回應性或非回應式、有許可權或不具有許可權、是否包含「有趣專案」、是否要包含在匯出中，以及是否需要進一步審查。 您也可以管理並應用其他可自訂的標記。
-
-#### <a name="action-menu"></a>動作功能表
-
-在評論集視窗中，您可以按一下動作匯出來匯出 \> **內容**。 匯出時有許多可用的選項。
-
-若要匯出包含所有郵件之所有中繼資料Teams，請按一下以選取 [載入 **檔案>** 核取方塊。 若要在檔案中納入任何您已對內容所申請的標記，請按一下以選取 [ **標記>** 核取方塊。
-
-使用 **原生檔案** 選項以原生格式匯出檔案。 您可以選擇將交談匯出為個別檔案中的一個檔案或所有個別聊天訊息。
-
-文字檔 **選項** 可讓您儲存純文字版本的內容。 若要瞭解如何取得評論集內交談的純文字Teams，請參閱上方的摘要視圖、文字視圖和[批註視圖。](#summary-view-text-view-and-annotate-view)
-
-如果您按照上述的摘要視圖、文字視圖和批註視圖區段 [](#summary-view-text-view-and-annotate-view)所述，將任何編目內容都適用，您可以選取以轉換 **PDF** 取代已編輯的原生檔選項，以 PDF 中的已轉換複本取代原生檔案。
-
-您可以選擇匯出至 Microsoft 提供的 Azure Blob 儲存容器，或提供您自己的 Azure Blob 儲存容器。
-
-當您準備好開始匯出程式時，請按一下 [ **匯出>** 按鈕。 請參閱 [下載匯出工作](/microsoft-365/compliance/download-export-jobs) ，以取得如何存取 Azure Blob 儲存容器，以及匯出完成後下載匯出內容之詳細資訊。
-
-> [!NOTE]
-> 匯出可能需要一段長的時間。 若要追蹤匯出程式的狀態，請離開 [檢查集> **定位停駐點** ，然後按一下 [ **匯出> 選項卡** 。
-
 ## <a name="related-topics"></a>相關主題
 
-- [電子探索Microsoft 365](/microsoft-365/compliance/ediscovery)
+- [Microsoft 365電子資料探索解決方案](/microsoft-365/compliance/ediscovery)
+- [開始使用核心電子探索](/microsoft-365/compliance/get-started-core-ediscovery)
+- [Teams工作流程Advanced eDiscovery](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [TeamsPowerShell 概觀](teams-powershell-overview.md)

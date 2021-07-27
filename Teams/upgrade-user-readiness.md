@@ -20,32 +20,32 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dfc2be330f0890a73bdfa34077c910e7cfc3e84
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 705ad7ab9dbfccf12f269636e8c38312c3b8a3c7
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282710"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587222"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>準備使用者整備計畫
 
 ![升級歷程的階段，強調使用者準備階段](media/upgrade-banner-user-readiness.png "升級歷程的階段，強調使用者準備階段")
 
-本文是升級過程中的使用者整備階段之一部分，此階段是您與技術整備階段同時完成的活動。 在繼續進行之前，請確認您已完成上述階段的活動：
+本文是升級過程中使用者整備階段的一部分，此階段是您與技術整備階段同時完成的活動。 在繼續進行之前，請確認您已完成上述階段的活動：
 
 - [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
 - [已定義專案範圍](./upgrade-define-project-scope.md)
 - [瞭解共同使用和商務用 Skype互通性Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [已選擇升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-最佳的使用者準備計畫會納入您進行試驗、上機及升級至新版時，如何與使用者通訊、訓練和支援Teams。 如您 [于評估組織](./upgrade-org-change-readiness.md)變更準備狀況所發現，準備狀態並非一成一體。 若要確保對新技術的最佳接受力，請使用廣範圍傳訊 (結合視覺/價值訊息和通用使用案例) 以及專為您定義及您的落後使用者量身打造的訊息、訓練和支援。 這項個人化計畫可協助使用者採用，讓使用者能更快速地Teams，同時證明您瞭解他們的需求。
+最佳的使用者準備計畫會納入您進行試驗、上機及升級至新版時，如何與使用者通訊、訓練和支援Teams。 如您 [于評估組織](./upgrade-org-change-readiness.md)變更準備狀況所發現，準備狀態並非一成一體。 若要確保對新技術的最佳接受度，請使用廣泛的傳訊 (結合視覺/價值訊息和通用使用案例) 以及專為您定義及您的落後使用者量身打造的訊息、訓練和支援。 此個人化計畫可協助使用者採用，讓使用者能更快速地Teams，同時證明您瞭解他們的需求。
 
 > [!Tip]
 > 除了範例 [升級專案](https://aka.ms/UpgradeSuccessKit) 計畫和試驗測試計劃之外，下載範本使用者準備資料 ，例如通訊和使用者問卷的升級成功套件。
 
-| | |
+|&nbsp; |&nbsp; |
 |---|---|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>如何建立準備計畫，以促進及加快使用者採用新解決方案？</li><li>您是否擁有符合使用者處理變更的能力以及您定義之使用者角色的合適認知、訓練和支援資源？</li></ul> |
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>如何建立準備計畫，以促進及加快使用者採用新解決方案？</li><li>您是否有符合使用者處理變更的能力以及您定義之使用者角色的合適認知、訓練和支援資源？</li></ul> |
 | ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>請使用下列清單，針對您的準備計畫產生構想。 選取最相關的活動 ，或新增您自己的活動，為貴組織設計優化的備戰計畫。 請記住，針對整個組織 (使用廣泛) ，並針對 (或特定角色使用) ，以取得最大結果。</li></ul>|
 
 <div class="mx-tableFixed">

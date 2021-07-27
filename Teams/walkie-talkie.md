@@ -18,16 +18,16 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f86d40772eb067a561708c6170ef2354bae521b
-ms.sourcegitcommit: 05411575d07d3eadc79d872d1cf81b36aae25621
+ms.openlocfilehash: c1e7391163ec41d385b99cab4ae6d135892284e2
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52479070"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536729"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>在應用程式中的對講Microsoft Teams
 
-Android 中的對講Teams App 提供即時隨 (PTT) 通訊功能，現在可在 Android 上使用。 Walkie Talkie 允許使用者使用他們成員相同的基礎通道，與小組聯繫。 只有在頻道中連接到 Walkie Talkie 的使用者才能成為參與者，而且可以一次一個地使用隨推式交談來彼此通訊。
+Android 中的對講Teams App 提供即時隨 (PTT) 通訊功能，現在可在 Android 上使用。 Walkie Talkie 允許使用者使用他們成員相同的基礎頻道，與小組聯繫。 只有在頻道中連接到 Walkie Talkie 的使用者才能成為參與者，而且可以使用隨推即說的方式彼此通訊，一次一個。
 
 使用 Teams 中的 Walkie Talkie，前線員工現在可以安全地使用熟悉的 PTT 體驗進行通訊，而不需要攜帶大量收音機，而 Walkie Talkie 可在任何位置使用 WiFi 或行動電話網際網路連接。
 
@@ -41,9 +41,9 @@ Android 中的對講Teams App 提供即時隨 (PTT) 通訊功能，現在可在 
 
 在 Microsoft Teams系統管理中心，Teams **應用程式** 設定政策下，您應該將允許  >  ******使用者釘** 點設定為 **On**。 接著，在 [釘上的應用程式> 區段下，按一下 **[+新增應用程式>**。
 
-:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="顯示要選取的已釘選應用程式區段和新增應用程式按鈕。":::
+:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="顯示已釘選的 App 區段和要選取的新增應用程式按鈕。":::
 
-在右側 **出現的新增釘** 上應用程式面板上，使用搜尋文字方塊尋找Walkie Talkie。 當您將名稱做為搜尋結果時，請選取名稱右邊的新增按鈕，將其新加到清單中。
+在右側 **出現的新增釘上** 應用程式面板上，使用搜尋文字方塊尋找Walkie Talkie。 當您將名稱做為搜尋結果時，請選取名稱右邊的新增按鈕，將其新加到清單中。
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="顯示在搜尋窗格中輸入 Walkie 的已釘選應用程式側邊欄，以及搜尋結果中的 Walkie Talkie 應用程式，旁邊有新增按鈕。":::
 
@@ -65,13 +65,13 @@ Teams對講Teams需要網際網路連接，且網路條件低於網路條件才�
 
 - **延遲** - 這是從 A 點到網路 B 點取得 IP 封包所花的時間。 此網路傳播延遲基本上與兩點之間的實體距離和光速有關，包括介於兩者之間的各種路由器所增加的負荷。 延遲是以 RTT (的往返時間) 。
 - **到達間抖動** - 這是連續封包之間延遲的平均變化。
-- **封包** 遺失 - 這通常定義為在給定時段內遺失的封包百分比。 封包遺失會直接影響音訊品質，包括小型、個別遺失的封包幾乎沒有影響，以及造成音訊完全中斷的背對背斷流損失。
+- **封包** 遺失 - 這通常定義為在給定時段內遺失的封包百分比。 封包遺失會直接影響音訊品質，從小型、個別遺失的封包幾乎沒有影響，到造成音訊完全中斷的背對背斷流損失。
 
 在傳送或接收音訊時，Walkie Talkie 的預期資料使用量約為 20 Kb/s。 閒置時，Walkie Talkie 的預期資料使用量是可忽略的。
 
-### <a name="walkie-talkie-devices"></a>對講臺對講裝置
+### <a name="walkie-talkie-devices"></a>Walkie Talkie 裝置
 
-即使電話已鎖定，前線員工也經常需要說話並接聽 Walkie Talkie 通話。 透過具有專用 PTT 按鈕的專用裝置，即可獲得此體驗。
+即使電話已鎖定，前線員工通常也需要說話並接聽 Walkie Talkie 通話。 透過具有專用 PTT 按鈕的專用裝置，即可獲得此體驗。
 
 - **耳機**
   - 無線耳機 
@@ -84,20 +84,20 @@ Teams對講Teams需要網際網路連接，且網路條件低於網路條件才�
     -  [MDM 設定](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
 
 > [!NOTE]
-> 這些裝置未通過Teams認證。 它們已經過驗證，Teams Walkie Talkie 使用。
+> 這些裝置未通過Teams認證。 它們已經過驗證，可以與 Teams Talkie 合作。
 
 ### <a name="license-requirements"></a>授權需求
 
 Walkie Talkie 應用程式會包含在所有付費授權Teams訂閱Office 365[中](/office365/servicedescriptions/teams-service-description)。 若要進一Teams，請參閱如何 [存取Microsoft Teams？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 > [!NOTE]
-> 某些進位功能可能需要額外授權。 例如，與 Samsung Galaxy XCover Pro需要 Knx 授權。
+> 某些進一步功能可能需要額外授權。 例如，與 Samsung Galaxy XCover Pro需要 Knx 授權。
 
 ## <a name="further-information"></a>進一步資訊
 
-- ITAdmins 可以透過應用程式政策，維持對講臺對講程式消費者控制權。
+- ITAdmins 可以透過應用程式策略，維持對講臺對講程式消費者的控制。
 - 如果您的前線員工使用行動資料透過 Teams 通訊，Walkie Talkie 會使用相同的方法。
-- 對講機應能順利在低頻寬情況下，或智慧型手機已連接及使用的情況中順利使用。 當完全沒有連接時，對講臺 Talkie 將無法工作。
+- 對講機在低頻寬情況下，或智慧型手機已連接及使用的情況下，應該可以順利使用。 當完全沒有連接時，對講臺 Talkie 將無法工作。
 
 有關使用者體驗的進一步閱讀，請參閱：
 

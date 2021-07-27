@@ -18,18 +18,18 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 瞭解如何將使用者移至商務用 Skype 線上。
-ms.openlocfilehash: 883db98a424c254e6792fd651594b02201a311f9
-ms.sourcegitcommit: 2591c96d8613660220c5af71fc945e27b31175d7
+ms.openlocfilehash: fcb1d508230c4faa18da4a473d9e24d384b047a6
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52863194"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509944"
 ---
 # <a name="move-users-from-on-premises-to-skype-for-business-online"></a>將使用者從內部部署移動至商務用 Skype Online
 
-在您將使用者從內部部署移至商務用 Skype online 後，使用者會與商務用 Skype 線上互動以取得其功能。 您可以在線上商務用 Skype 使用任何存在於內部部署的連絡人，而且所有在未來組織之使用者的現有會議都會更新，讓連結指向商務用 Skype 線上。 如果使用者已啟用音訊會議，則會議也會包含撥入座標。  若要將內部部署環境中的使用者移至商務用 Skype 線上，請使用 Move-CsUser Cmdlet 或商務用 Skype Server 控制台，這兩者都是內部部署工具。 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-[!INCLUDE [sfbo-retirement-skype](../../Hub/includes/sfbo-retirement.md)]
+在您將使用者從內部部署移至商務用 Skype online 後，使用者會與商務用 Skype 線上互動以取得其功能。 您可以在線上商務用 Skype 使用任何存在於內部部署的連絡人，而且所有在未來組織之使用者的現有會議都會更新，讓連結指向商務用 Skype 線上。 如果使用者已啟用音訊會議，則會議也會包含撥入座標。  若要將內部部署環境中的使用者移至商務用 Skype 線上，請使用 Move-CsUser Cmdlet 或商務用 Skype Server 控制台，這兩者都是內部部署工具。 
 
 移動任何使用者之前，請務必先檢查 [必要條件](move-users-between-on-premises-and-cloud.md#prerequisites) ，將使用者移至雲端。
 

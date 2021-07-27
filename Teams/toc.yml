@@ -565,14 +565,14 @@ items:
         href: set-up-your-team-hierarchy.md
       - name: 非教育租用戶的受監督聊天
         href: supervised-chat-non-edu.md
-  - name: 各式會議和即時活動
+  - name: 會議和音訊會議
     items:
-      - name: 快速入門 - 會議與即時活動
-        href: quick-start-meetings-live-events.md
       - name: 規劃您的部署
         href: deploy-meetings-microsoft-teams-landing-page.md
-      - name: 會議
+      - name: 會議、網路研討會與即時活動
         items:
+          - name: 快速入門
+            href: quick-start-meetings-live-events.md
           - name: 管理會議原則
             items:
               - name: 概觀
@@ -599,42 +599,58 @@ items:
             href: meeting-settings-in-teams.md
           - name: 在使用者設定變更時傳送給他們的電子郵件
             href: emails-sent-to-users-when-their-settings-change-in-teams.md
-          - name: 讓使用者在加入會議時記錄他們的名稱
-            href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-          - name: 開啟或關閉進入和結束會議的公告
-            href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-          - name: 在 Teams 中使用 NDI® 技術
-            href: use-NDI-in-meetings.md
-          - name: Teams 會議中的舉手選項
-            href: raise-hand-meetings.md
-          - name: 在不支援的瀏覽器上進行 Teams 會議
-            href: unsupported-browsers.md
-          - name: 在 Teams 中設定桌面共用
-            href: configure-desktop-sharing.md
-          - name: Teams 雲端會議錄製
-            href: cloud-recording.md
-          - name: 使用商務用 OneDrive 和 SharePoint 或 Stream 進行會議錄製
-            href: tmr-meeting-recording-change.md
-          - name: 連絡中心整合
-            href: teams-contact-center.md
-          - name: 在 Outlook 中使用 Teams 會議增益集
-            href: teams-add-in-for-outlook.md
-          - name: 設定 Skype 會議應用程式以搭配使用 Teams
-            href: configure-skype-meetings-app-to-work-with-teams.md
-          - name: 為使用者設定撥號給我功能
-            href: set-up-the-call-me-feature-for-your-users.md
-          - name: 取得會議出席報告
-            href: teams-analytics-and-reports/meeting-attendance-report.md
-          - name: 設定會議移轉服務 (MMS)
+          - name: 管理會議和會議功能
+            items:
+              - name: 讓使用者在加入會議時記錄他們的名稱
+                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+              - name: 開啟或關閉進入和結束會議的公告
+                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+              - name: 在 Teams 中使用 NDI® 技術
+                href: use-NDI-in-meetings.md
+              - name: 在不支援的瀏覽器上進行 Teams 會議
+                href: unsupported-browsers.md
+              - name: 在 Teams 中設定桌面共用
+                href: configure-desktop-sharing.md
+              - name: Teams 雲端會議錄製
+                href: cloud-recording.md
+              - name: 使用商務用 OneDrive 和 SharePoint 或 Stream 進行會議錄製
+                href: tmr-meeting-recording-change.md
+              - name: 連絡中心整合
+                href: teams-contact-center.md
+              - name: 在 Outlook 中使用 Teams 會議增益集
+                href: teams-add-in-for-outlook.md
+              - name: 設定 Skype 會議應用程式以搭配使用 Teams
+                href: configure-skype-meetings-app-to-work-with-teams.md
+              - name: 為使用者設定撥號給我功能
+                href: set-up-the-call-me-feature-for-your-users.md
+              - name: 取得會議出席報告
+                href: teams-analytics-and-reports/meeting-attendance-report.md
+              - name: 管理 Teams 中的白板
+                href: manage-whiteboard.md
+              - name: 為 Google Workspace 設定 Teams 會議附加元件
+                href: google-workspace-addon-teams.md
+              - name: 雲端視訊 Interop
+                href: cloud-video-interop.md
+              - name: 僅供檢視會議體驗
+                href: view-only-meeting-experience.md
+          - name: 正在設定會議移轉服務 (MMS)
             href: /SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: 管理 Teams 中的白板
-            href: manage-whiteboard.md
-          - name: 為 Google Workspace 設定 Teams 會議附加元件
-            href: google-workspace-addon-teams.md
-          - name: 雲端視訊 Interop
-            href: cloud-video-interop.md
           - name: 在 Microsoft Teams 中設定網路研討會
             href: set-up-webinars.md
+          - name: 即時活動
+            items:
+              - name: 什麼是 Teams 即時活動？
+                href: teams-live-events/what-are-teams-live-events.md
+              - name: 規劃 Teams 即時活動
+                href: teams-live-events/plan-for-teams-live-events.md
+              - name: 設定 Teams 即時活動
+                href: teams-live-events/set-up-for-teams-live-events.md
+              - name: 使用 PowerShell 設定 Teams 即時活動原則
+                href: teams-live-events/set-teams-live-events-policies-using-powershell.md
+              - name: 設定 Teams 即時活動設定
+                href: teams-live-events/configure-teams-live-events.md
+              - name: 即時活動錄製原則
+                href: teams-live-events/live-events-recording-policies.md
       - name: 音訊會議
         items:
           - name: 規劃您的部署
@@ -725,20 +741,6 @@ items:
                 href: audio-conferencing-zones.md
               - name: 影片：Teams 的音訊會議
                 href: ./audio-conferencing-in-office-365.md
-      - name: 即時活動
-        items:
-          - name: 什麼是 Teams 即時活動？
-            href: teams-live-events/what-are-teams-live-events.md
-          - name: 規劃 Teams 即時活動
-            href: teams-live-events/plan-for-teams-live-events.md
-          - name: 設定 Teams 即時活動
-            href: teams-live-events/set-up-for-teams-live-events.md
-          - name: 使用 PowerShell 設定 Teams 即時活動原則
-            href: teams-live-events/set-teams-live-events-policies-using-powershell.md
-          - name: 設定 Teams 即時活動設定
-            href: teams-live-events/configure-teams-live-events.md
-          - name: 即時活動錄製原則
-            href: teams-live-events/live-events-recording-policies.md
       - name: Microsoft Teams 會議室
         items:
           - name: 概觀

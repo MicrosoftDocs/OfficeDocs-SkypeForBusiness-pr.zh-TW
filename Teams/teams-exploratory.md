@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 946847793ea90e549a555cd9d100cd1ae2809fa3
-ms.sourcegitcommit: f3e9989cbcc2f9f83ff94204bdd75b1e6ad43b5e
+ms.openlocfilehash: 571bc53925bb807d11c16d72f25ad247fe9496b3
+ms.sourcegitcommit: f781600a40e174cfc522e29375a4820b1142e23a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "53408752"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "53596391"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 
@@ -157,7 +157,7 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 ## <a name="how-long-does-the-teams-exploratory-experience-last"></a>Teams Exploratory 體驗持續時間
 
-自 2021 年年初起，Teams Exploratory 將以 12 個月訂閱形式 (從使用者初始註冊起) 提供所有新客戶使用。 新的 Teams Exploratory 訂閱會在組織中的第一個使用者註冊 Teams Exploratory 時開始，並且會在 12 個月之後到期。 由於 12 個月是從第一位使用者註冊日期開始，到期日將對相同租用戶中的所有使用者套用。
+Teams Exploratory 將以 12 個月訂閱形式 (從使用者初始註冊起) 提供所有新客戶使用。 新的 Teams Exploratory 訂閱會在組織中的第一個使用者註冊 Teams Exploratory 時開始，並且會在 12 個月之後到期。 由於 12 個月是從第一位使用者註冊日期開始，到期日將對相同租用戶中的所有使用者套用。
 
 > [!NOTE]
 > 體驗的結束日期在組織層級設定，表示它會套用至相同組織中的所有使用者。 例如，使用者 1 在 2021 年 1 月 1 日註冊取得訂閱。 這會起始 2021 年 12 月 31 日的訂閱結束日期。 另一位使用者，使用者 2 在 2021 年 10 月 1 日註冊取得訂閱。 使用者 2 可以使用 Teams Exploratory 兩個月，因為其結束日期將為 2021 年 12 月 31 日，因為他們與使用者 1 屬於相同組織的訂閱。

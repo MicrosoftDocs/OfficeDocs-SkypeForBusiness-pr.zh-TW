@@ -1,5 +1,5 @@
 ---
-title: 使用商務用 OneDrive SharePoint錄製
+title: 使用商務用 OneDrive 和 SharePoint Online 進行會議錄製
 author: cichur
 ms.author: v-cichur
 ms.reviewer: debhag
@@ -8,8 +8,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解如何從 Stream 切換到 商務用 OneDrive，SharePoint會議錄製Microsoft Teams。
-localization_priority: Normal
+description: 了解如何在 Microsoft Teams 中從 Stream 切換至商務用 OneDrive 和 SharePoint 會議錄製儲存空間。
+localization_priority: Priority
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,72 +17,73 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd4d8b4136639a057250bf72aa969e13f8619e1d
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
-ms.translationtype: MT
+ms.openlocfilehash: 2c53cc427c1db87a2d0296384d5d0c67e7e7996a
+ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53454346"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53506322"
 ---
-# <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用商務用 OneDrive或SharePoint串流進行會議錄製
+# <a name="use-onedrive-for-business-and-sharepoint-online-or-stream-for-meeting-recordings"></a>使用商務用 OneDrive 和 SharePoint Online 或 Stream 進行會議錄製
 
 > [!Note]
-> 從使用 Microsoft Stream 變更商務用 OneDrive Microsoft SharePoint錄製的 Microsoft 帳戶，將會是一個階段性的做法。
+> 從使用 Microsoft Stream 到變更為使用商務用 OneDrive 和 Microsoft SharePoint Online 來進行會議錄製，將會採取階段性的方式。
 
-|<div style="width:290px">日期&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> |事件&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
-|:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|2020 年 10 月 5 日<br> *(完成)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 您可以啟用 Teams 會議策略，將會議錄製儲存為商務用 OneDrive SharePoint而非 Microsoft Stream (傳統) |
-|從 2021 年 1 月 7 日開始推出<br> *(完成)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|除非您修改Teams會議Teams，並明確將其設定為 Stream 來延遲此變更，否則所有新的會議錄製內容都會儲存至 商務用 OneDrive 和 **SharePoint。** 將策略報告視為 Stream 是不夠的。 您必須明確地將策略值設定為 **Stream。**|
-|從 2021 年 1 月 11 日開始推出<br> *(完成)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC只**<br> 雖然GCC客戶可以從 10 月 5 日起退出宣告，但您將無法加入宣告。 這項功能將于 2021 GCC 2021 年 1 月 11 日開始推出給所有客戶，除非您退出宣告。<br>  <br>自 2021 年 1 月 11 日起，GCC 客戶的所有新 Teams 會議錄製內容都會儲存至 商務用 OneDrive 和 SharePoint，除非您修改組織的 Teams 會議政策並明確將其設定為 Stream 來延遲這項變更。  <br><br>如果您已經退出宣告，但已準備好開啟此功能，您可以將會議Teams明確設定為 **商務用 OneDrive。** |
-|自 2021 年 3 月 1 日推出<br> *(完成)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**GCC -High 和 DoD**<br> 客戶現在可以第一次在Microsoft Teams中啟用雲端會議錄製。 這些錄製預設會儲存並OneDrive SharePoint播放。 |
-|自 2021 年 7 月 7 日開始推出<br> *(完成)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**所有客戶 (Enterprise、教育及GCC)**<br> 對於Teams錄製至 OneDrive 和 SharePoint 且在會議期間也即時轉譯的會議，現在您可以在 Microsoft 搜尋 中搜尋，以根據記錄尋找會議錄製檔案。 |
-|從 2021 年 8 月 16 日逐步推出 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**所有客戶 (Enterprise、教育及GCC)**<br>無法將新的會議錄製儲存至 Microsoft Stream (傳統) ;所有客戶都會自動將會議錄製儲存商務用 OneDrive SharePoint，即使他們已經將會議Teams變更為 Stream。<br><br> 我們建議您客戶，為了更好的控制貴組織的變更，只要您習慣變更，就加入宣告，而不是等待變更發生。 |
+|<div style="width:290px">日期&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div> |事件&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
+|:--------------|:----------------------|
+|2020 年 10 月 5 日<br> *(已完成)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| 您允許 Teams 會議原則將會議錄製儲存至商務用 OneDrive 和 SharePoint Online，而非 Microsoft Stream (傳統版)|
+|2021 年 1 月 7 日開始推出<br> *(已完成)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|所有新 Teams 會議錄製都將儲存至商務用 OneDrive 和 SharePoint Online，除非您修改組織的 Teams 會議原則並將其明確設定為 **Stream** 來延遲此變更。 僅看到原則報告為 Stream 是不够的。 您需要明確地將原則值設定為 **Stream**。|
+|2021 年 1 月 11 日開始推出<br> *(已完成)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**僅 GCC**<br> 雖然 GCC 客戶可以從 10 月 5 日開始選擇退出，但您不能選擇加入。 此功能將從 2021 年 1月 11 日開始向所有 GCC 客戶推出，除非您已選擇退出。<br>  <br>從 2021 年 1 月 11 開始，GCC 客戶的所有新 Teams 會議錄製都將儲存至商務用 OneDrive 和 SharePoint Online，除非您修改組織的 Teams 會議原則並將其明確設定為 **Stream** 來延遲此變更。 <br><br>如果您已選擇退出，但準備好啟用此功能，則可以透過將 Teams 會議原則明確設定為 **商務用 OneDrive** 來實現。 |
+|2021 年 3 月 1 日開始推出<br> *(已完成)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**進 GCC-High 和 DoD**<br> 客戶現在可以在其 Microsoft Teams 中首次啟用雲端會議錄製。 根據預設，這些錄製將在 OneDrive 和 SharePoint Online 上儲存和播放。 |
+|2021 年 7 月 7 日開始推出<br> *(已完成)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**所有客戶 (企業、教育和 GCC)**<br> 對於錄製至 OneDrive 和 SharePoint Online 並在會議期間即時轉錄的 Teams 會議，您現在可以在 Microsoft 搜尋中根據會議記錄尋找會議錄製檔案。 |
+|從 2021 年 8 月 16 日開始逐步推出&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**所有客戶 (企業、教育和 GCC)**<br>不能將新會議錄製儲存至 Microsoft Stream (傳統)；所有客戶將自動將會議錄製儲存至商務用 OneDrive 和 SharePoint Online，即使他們已將其 Teams 會議原則變更為 Stream。<br><br> 我們建議客戶，在您對變更感到滿意選擇加入，而非等待變更生效，以便更好地控制組織中的變更。 |
 
-Microsoft Teams有一種用於保存會議錄製的新方法。 這是從傳統 Microsoft Stream 轉換到新 Stream[](/stream/streamnew/new-stream)的第一個階段，此方法會儲存 Microsoft OneDrive 商務用和 SharePoint Microsoft 365 中的錄製內容，並提供許多優點。
+Microsoft Teams 有用於儲存會議錄製的新方法。 做為從傳統 Microsoft Stream 轉換為[新 Stream](/stream/streamnew/new-stream)的第一階段，此方法會將錄製檔儲存在 Microsoft 商務用 OneDrive 和 Microsoft 365 的 SharePoint Online 中，並提供許多優點。
+
+Stream (傳統版) 平台不會在近期被弃用。 在未來的移轉工具可用於將影片移動至 OneDrive 和 SharePoint Online 之前，目前儲存在 Stream (傳統版) 中的影片將一直保留在該處。 有關我們未來計畫的更多資訊，請查看 [Stream 傳統版移轉](/stream/streamnew/classic-migration)。
 
 > [!NOTE]
-> 如果Teams錄製無法成功上傳到 OneDrive/SharePoint，錄製將會暫時儲存至 Azure 媒體服務 (AMS) 。 儲存于 AMS 後，系統不會嘗試嘗試自動將錄製上傳到 OneDrive/SharePoint串流。
+> 如果 Teams 會議錄製未能成功上傳至 OneDrive/SharePoint Online，則錄製內容將暫時儲存至 Azure 媒體服務 (AMS)。 儲存至 AMS 中後，系統不會重試將錄製內容自動上傳至 OneDrive/SharePoint Online 或 Stream。
 
-儲存在 AMS 中的會議錄製可在自動刪除前 21 天使用。 如果需要保留副本，使用者可以從 AMS 下載影片。
+儲存在 AMS 中的會議錄製内容在自動删除前可使用 21 天。 若使用者需要保留複本，可從 AMS 下載影片。
 
-使用錄音和商務用 OneDrive SharePoint錄製的權益包括：
+使用商務用 OneDrive 和 SharePoint Online 儲存錄製内容的好處包括：
 
-- 使用 TMR Teams S+C E5 (自動執行)  (錄製的保留) 
-- 從資訊商務用 OneDrive SharePoint中獲益
-- 輕鬆設定許可權和共用
-- 僅以明確共用 (外部) 共用錄製內容
+- Teams 會議錄製內容 (TMR) 的保留原則 (S+C E5 自動偵測標籤)
+- 受益於商務用 OneDrive 和SharePoint Online 資訊控管
+- 易於設定權限和共用
+- 僅透過明確共用與來賓 (外部使用者) 共用錄製内容
 - 要求存取流程
-- 供應商務用 OneDrive SharePoint連結
-- 會議錄製功能更快速
-- 搜尋會議記錄的基礎文字記錄
-- **前往當地** 租使用者支援
-- 多地理位置支援 – 錄製會儲存在該使用者特定的區域
-- 將您自己的金鑰 (BYOK) 支援
+- 提供商務用 OneDrive 和 SharePoint Online 共用連結
+- 可更快取得會議錄製内容
+- 搜尋會議中錄製的基礎文字記錄
+- **移至本地** 租用戶支援
+- 多地理位置支援 – 錄製内容儲存在特定於該使用者的地區
+- 攜帶您自己的金鑰 (BYOK) 支援
 
-查看今天可用的 [功能的完整清單，以及一段時間後預期的結果](/stream/streamnew/features-new-version-stream)。 
+查看[當前可用功能以及一段時間后的預期功能](/stream/streamnew/features-new-version-stream)的完整清單。
 
-請觀看「會議Microsoft Teams的新增功能」以瞭解更多資訊。
+如需詳細資訊，請觀看「Microsoft Teams 會議錄製新功能」。
 
 > [!VIDEO https://www.youtube.com/embed/8iol0KfCeL8]
 
-## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint"></a>設定會議錄製選項商務用 OneDrive SharePoint
+## <a name="set-up-the-meeting-recording-option-for-onedrive-for-business-and-sharepoint-online"></a>設定商務用 OneDrive 和 SharePoint Online 的會議錄製選項
 
-會議錄製選項是一項設定，Teams層級。 下列範例顯示如何設定全域原則。 請確定您為指派給使用者的政策或政策設定會議錄製選項。
+會議錄製選項是 Teams 原則層級的設定。 下列範例顯示如何設定全域原則。 請確定為已指派給使用者的一個或多個原則設定了會議錄製選項。
 
 > [!Note]
-> Teams策略變更需要一段時間才能傳播。 設定好幾個小時之後再回來查看，然後登出並再次Teams桌面應用程式，或重新開機電腦。
+> Teams 會議原則變更需要一段時間來傳播。 設定完成的幾小時後再返回檢查，然後登出並再次登入至 Teams 桌面版應用程式，或僅是重新啟動電腦。
 
 1. 安裝 Teams PowerShell PowerShell。
 
    > [!NOTE]
-   > 商務用 Skype線上連接器是目前 PowerShell 模組Teams的一部分。 如果您使用的是最新版 PowerShell Teams版本，則不需要安裝 商務用 Skype 連接器。 請參閱[使用 powerShell 商務用 Skype管理線上版](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide)。
+   > 商務用 Skype Online 連接器目前是最新 Teams PowerShell 模組的一部分。 如果您使用的是最新的 Teams PowerShell 公開發行版本，則不需要安裝商務用 Skype Online 連接器。 請參閲[使用 PowerShell 管理商務用 Skype Online](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell?preserve-view=true&view=o365-worldwide)。
 
-2. 以系統管理員角色啟動 PowerShell。
+2. 以系統管理員身分啟動 PowerShell。
 
 3. 安裝[Teams PowerShell 模組](./teams-powershell-install.md)。
 
-4. 輸入 MicrosoftTeams 模組，然後以系統管理員Teams登。
-
+4. 匯入 MicrosoftTeams 模組並以 Teams 系統管理員身分登入。
 
    ```powershell
    # When using Teams PowerShell Module
@@ -91,105 +92,15 @@ Microsoft Teams有一種用於保存會議錄製的新方法。 這是從傳統 
    Connect-MicrosoftTeams
    ```
 
-5. 使用[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)設定 Teams 會議策略，以從 Stream 儲存空間轉換為 商務用 OneDrive SharePoint。
+5. 使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) 設定 Teams 會議原則，以從 Stream 儲存空間轉換至商務用 OneDrive 和 SharePoint Online。
 
    ```powershell
    Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "OneDriveForBusiness"
    ```
 
 > [!Note]
-> 如果您的部分使用者已指派每個召集人或每個使用者的政策，如果您希望他們同時將會議錄製儲存在 商務用 OneDrive 和 SharePoint，您必須在此策略上設定此設定。 詳細資訊，請參閱在 Teams 中[管理會議Teams。](meeting-policies-in-teams.md)
+> 如果您的某些使用者已指派了「每一召集人」或「每一使用者」原則，那麽若您希望他們也將會議錄製儲存在商務用 OneDrive 和 SharePoint Online 中，則您必須在此原則上設定此設定。 如需詳細資訊，請參閱[在 Teams 中管理會議原則](meeting-policies-in-teams.md)。
 
-## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>退出宣告 商務用 OneDrive SharePoint繼續使用 Stream
+## <a name="learn-more"></a>深入了解
 
-即使有一個策略指出已設定為 **Stream，** 它可能不會設定。 一般來說，如果未設定該策略，則預設設定為 **Stream**。 不過，有了這個新變更，如果您想要退出宣告使用 SharePoint 或 商務用 OneDrive，則必須將策略重設為 **Stream，** 以確保 **Stream** 為預設值。
-
-```PowerShell
-Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
-```
-
-## <a name="permissions-or-role-based-access"></a>許可權或角色式存取
-
-> [!Note]
-> 我們建議您在共用會議錄製內容時，收件者必須Teams登入使用者。 當您在共用 **檔案 (** 或資料夾中) 檔案時，請選取您組織SharePoint [中的人員選項](https://support.microsoft.com/office/share-sharepoint-files-or-folders-1fe37332-0f9a-4719-970e-d2578da4941c?redirectSourcePath=%25252fen-US%25252farticle%25252fShare-sites-or-documents-with-people-outside-your-organization-80E49744-E30F-44DB-8D51-16661B1D4232&ui=en-US&rs=en-US&ad=US)。 外部共用並非專為發佈大型檔案或大量檔案所設計。 為了防止詐騙和濫用案例，當您與外部使用者共用大量資料時，可能會遇到問題。
-
-|會議類型                               | 神秘 [記錄？| 錄製位置在哪裡？                               |神秘存取權？ R/W、R 或共用                                                                                                                                                                                                                                                     |
-|-------------------------------------------|-----------------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|與內部各方進行 1：1 通話             |來電                 |來電者商務用 OneDrive帳戶                        |來電者為擁有者，且擁有完整許可權。 <br /><br />如果 (同一個租使用者) 唯讀存取權，受叫) 會進行通話。 沒有共用存取權。 <br /><br /> 如果不同的 (使用者沒有存取權，) 通話者會進行通話。 來電者必須共用給通話者。|
-|與內部各方進行 1：1 通話             |通話者                 |通話者商務用 OneDrive帳戶                        |受叫者為擁有者，並擁有完整權利。 <br /><br />如果 (租使用者有唯讀存取權，來電者會進行通話。 沒有共用存取權。 <br /><br />如果 (租使用者中，) 無法存取來電。 通話者必須共用給來電者。|
-|使用外部通話進行 1：1 通話             |來電                 |來電者商務用 OneDrive帳戶                        |來電者為擁有者，且擁有完整許可權。<br /> <br />通話者無法存取。 來電者必須共用給通話者。|
-|使用外部通話進行 1：1 通話             |通話者                 |通話者商務用 OneDrive帳戶                        |受叫者為擁有者，並擁有完整權利。<br /><br />來電者無法存取。 通話者必須共用給來電者。|
-|群組通話                                 |通話的任何成員 |按一下 Record 帳戶的群組商務用 OneDrive成員  |按一下 Record 的成員擁有完整許可權。 <br /><br /> 同一租使用者中的其他成員具有讀取權限。 <br /><br /> 不同租使用者的其他群組成員沒有許可權。|
-|Adhoc/Scheduled 會議                    |召集人              |召集人的 商務用 OneDrive 帳戶                     |召集人擁有錄製的完整許可權。 <br /><br /> 會議中的所有其他成員都有讀取存取權。|
-|Adhoc/Scheduled 會議                    |其他會議成員   |按一下 [記錄》 的會議成員                                  |按一下 [錄製> 的成員擁有錄製的完整許可權。 <br /><br />召集人具有編輯許可權，可以共用。<br /><br /> 所有其他會議成員都有讀取存取權。|
-|與外部使用者的 Adhoc/Scheduled 會議|召集人              |召集人的 商務用 OneDrive 帳戶                     |召集人擁有錄製的完整許可權。<br /> <br /> 會議所有其他成員與召集人來自同一個租使用者，都有讀取存取權。 <br /><br /> 所有其他外部成員都無存取權，且召集人必須將其共用給他們。|
-|與外部使用者的 Adhoc/Scheduled 會議|其他會議成員   |按一下 [記錄》 的成員                                  |按一下 [錄製> 的成員擁有錄製的完整許可權。 召集人具有編輯許可權，可以共用。 <br /><br /> 會議所有其他成員與召集人來自同一個租使用者，都有讀取存取權。 <br /><br />所有其他外部成員都無存取權，且召集人必須將其共用給他們。|
-|頻道會議                            |頻道成員         |Teams該SharePoint的顯示位置                   |按一下 [錄製> 的成員擁有錄製的編輯許可權。 <br /> <br />每個其他成員的許可權都是根據通道SharePoint許可權。|
-
-## <a name="frequently-asked-questions"></a>常見問題集
-
-**會議錄製內容會儲存在何處？**
-
-- 對於非頻道會議，錄製會儲存在名為錄製的資料夾，該資料夾位於會議商務用 OneDrive會議錄製者所屬的最頂層。 範例：
-
-  <i>答錄機商務用 OneDrive</i> /**錄製**
-
-- 針對頻道會議，錄製會儲存在 Teams網站文件庫中的名為 錄製 **的資料夾**。 範例：
-
-  <i>Teams名稱 - 頻道名稱</i> /**檔** /**錄製**
-
-**當串流 (例如錄製) 儲存在 SharePoint/OneDrive 中時，如何決定它們要在哪裡？系統管理員是否能夠變更其位置？**
-
-根據預設，所有錄製檔案都會OneDrive選取錄製的使用者 **的帳戶。** 對於頻道會議，錄製內容會一直SharePoint到頻道的網址。 系統管理員無法變更錄製的儲存位置。
-
-**如何處理來自前員工的錄製？**
-
-由於影片與 商務用 OneDrive 和 SharePoint 中任何其他檔案一樣，因此在員工離職後處理擁有權和保留會遵循一般 商務用 OneDrive 和 SharePoint[程式](/onedrive/retention-and-deletion#the-onedrive-deletion-process)。
-
-**神秘會議錄製的許可權嗎？**
-
-- 對於非通道會議，除了外部使用者之外，所有會議受邀者都會自動取得個人共用連結。 會議召集人或會議錄製者必須明確將外部使用者新加入共用清單。
-
-- 對於頻道會議，許可權會從頻道中的擁有者和成員清單中繼承。
-
-> [!NOTE]
-> 錄製完成時，您不會收到電子郵件，但錄製完成後，該錄製內容會顯示在會議聊天中。 這會比先前在 Stream 中更快發生。
-
-**如何管理標題？**
-
-只有在使用者在錄製Teams已開啟轉錄時，才能在播放期間使用會議錄製的隱藏式字幕。 系統管理員必須 [透過策略](/microsoftteams/cloud-recording#turn-on-or-turn-off-recording-transcription) 開啟錄製文字記錄，以確保其使用者有使用文字記錄錄製會議的選項。
-
-標題可協助建立包含所有功能之檢視器的內容。 作為擁有者，您可以在會議錄製中隱藏標題，但會議記錄Teams，除非您刪除該記錄。 
-
-今天錄製視像檔案的隱藏式字幕會連結至Teams記錄。 在大多數的情況下，此連結會保留為檔案的生命週期，但有時候可能會中斷，例如，如果視像檔案是在同一個 OneDrive 或 SharePoint 網站中複製，這可能會導致新的錄製影片檔案上無法提供標題。
-
-任何未來的變更都會在這裡和訊息中心通知中加以說明，並確保在 60 天內錄製的檔案會在整個移移期間將會議記錄顯示為標題。
-
-> [!NOTE]
-> 會議記錄中 (英文的隱藏式GCC) 。
-
-**我的儲存空間配額會如何影響？**
-
-Teams錄製的檔案會商務用 OneDrive SharePoint，並包含在這些服務的配額中。 請參閱[SharePoint配額](/sharepoint/sites/plan-site-maintenance-and-management#quotas)和[商務用 OneDrive配額](/onedrive/set-default-storage-space)。
-
-與 Stream 相比[](/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)，您可以商務用 OneDrive更多儲存空間，以及使用 SharePoint。
-
-**如何播放會議Teams錄製？**
-
-視您存取檔案的位置商務用 OneDrive或SharePoint播放影片。
-
-**如果您打算將新增到 Stream 中，現有的影片會維持目前和多久？**
-
-在近期內不會將 Stream 當做平臺被棄用。 目前住在 Stream 中的影片會一直留在這裡，直到我們開始移移。 移移時，這些視商務用 OneDrive或SharePoint移。 請查看 [Stream 傳統移移](/stream/streamnew/classic-migration) 以瞭解更多資訊。
-
-**如何將保留標籤Microsoft Teams錄製？**
-
-請參閱 [如何自動貼上保留標籤](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings)。
-
-**如何指派政策給使用者，Microsoft Teams哪些政策優先？**
-
-請參閱 [哪個策略優先？](./assign-policies.md#which-policy-takes-precedence)。
-
-**如果使用者沒有儲存空間或商務用 OneDrive，或儲存SharePoint已滿，錄製會在哪裡？**
-
-錄製內容會位於我們的暫時儲存位置，該位置將保存 21 天。 在此期間，召集人必須下載錄製內容。 如果未在 21 天內下載，錄製內容會被刪除。
+若要深入了解 Teams 雲端會議錄製，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。 在這篇文章中，您可以深入了解錄製設定、管理、控管、權限和儲存空間。

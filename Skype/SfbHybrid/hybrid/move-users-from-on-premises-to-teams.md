@@ -18,14 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：瞭解如何遷移使用者設定，以及將使用者移至 Teams。
-ms.openlocfilehash: b9b21dafc2290dfff5522f5d54c0872121294dd9
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 1df8c617d40b88813074319d7eb041995ff71ca5
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856302"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509774"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>將使用者從內部部署移動至 Teams
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 當使用者從內部部署移至 Teams 時，使用者的商務用 Skype home 會從內部部署移至線上，且會為使用者指派 mode = TeamsOnly 的 TeamsUpgradePolicy。  使用者從內部部署移至 TeamsOnly 模式後：
 

@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格尋找在紐西蘭取得及管理電話號碼Microsoft Teams。
-ms.openlocfilehash: 930b2068071fe6a0d99019e136eb50179e60cae9
-ms.sourcegitcommit: 7015d6f5858399a4e6c5feded95dfba50d17ce7b
+ms.openlocfilehash: db8cfb0457ab6dea2a32fbe80bfe94001dff2e73
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "52993896"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509984"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>電話紐西蘭的號碼管理
 
@@ -37,10 +37,10 @@ ms.locfileid: "52993896"
   
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。|在紐西蘭，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並傳送給我們，以提交新的電話號碼 [要求](mailto:ptneu@microsoft.com)。<br/><br/>[紐西蘭的新電話號碼要求 (v.1.0)  (mi-nz) 。](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf) <br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單，完整完成，然後傳送給我們。<br/><br/>新訂單可能需要兩到三周的時間才能填入這個市場。  |
-|將電話號碼轉接給我們。  <br/> | 下載此表單。 <br/>[紐西蘭 (LOA) 授權書 (所有號碼)  (v.1.0)  (en-nz) ](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/letter-of-authorization-(loa)-for-new-zealand-(all-numbers)-(v1.0)-(en-nz).pdf) <br/> <br/>填寫並 [傳送給我們](mailto:ptneu@microsoft.com)。 <br/><br>移轉號碼可能需要一到六周的時間，才能在這個市場中完成，視埠的複雜性而不同。<br/><br/>這些號碼目前無法用於會議。  |
-|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[傳送您想要](mailto:ptneu@microsoft.com) 發佈/取消發佈的電話號碼清單給我們。 <br/> |
-|將使用者的號碼變更為服務號碼。  <br/> |[傳送您想要](mailto:ptneu@microsoft.com) 轉換成服務號碼的使用者號碼清單給我們。 <br/> |
+|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。|在紐西蘭，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並連上 PTSN 以索取指示，以提交 [新的電話號碼要求](contact-pstn-service-desk.md)。<br/><br/>[紐西蘭的新電話號碼要求 (v.1.0)  (mi-nz) 。](https://download.microsoft.com/download/4/a/a/4aa04212-a13d-46bf-b09e-1efbcbb2e622/new-phone-number-request-for-new-zealand-(v1.0)-(mi-NZ).pdf) <br/><br/> 在指派電話號碼之前，您必須下載認識客戶表單、完整填寫，並連連 [PTSN 以尋找指示](contact-pstn-service-desk.md)。<br/><br/>新訂單可能需要兩到三周的時間才能填入這個市場。  |
+|將電話號碼轉接給我們。  <br/> | 下載此表單。 <br/>[紐西蘭 (LOA) 授權書 (所有號碼)  (v.1.0)  (en-nz) ](https://download.microsoft.com/download/e/6/7/e67f46ef-e1cd-4e70-a5cc-f53fd74285aa/letter-of-authorization-(loa)-for-new-zealand-(all-numbers)-(v1.0)-(en-nz).pdf) <br/> <br/>填寫並連連 [PTSN 以尋找指示](contact-pstn-service-desk.md)。 <br/><br>移轉號碼可能需要一到六周的時間，才能在這個市場中完成，視埠的複雜度而不同。<br/><br/>這些號碼目前無法用於會議。  |
+|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |如需有關要發佈/取消發佈之電話號碼清單的指示，請連連[PTSN。](contact-pstn-service-desk.md) <br/> |
+|將使用者的號碼變更為服務號碼。  <br/> |如需要轉換成服務號碼之使用者號碼清單的指示，請連連[PTSN。](contact-pstn-service-desk.md) <br/> |
 |讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請 [連至 PSTN 服務台](contact-pstn-service-desk.md)。|
 
 ## <a name="related-topics"></a>相關主題

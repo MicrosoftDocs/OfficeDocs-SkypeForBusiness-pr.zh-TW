@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams轉換電子郵件和問卷|基本升級
+title: Microsoft Teams轉場電子郵件和問卷|基本升級
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e0b462488bd9faa1ef52e2e610a0ed7892898018
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6071d567972babbe16bae8ce00852be713199ef0
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809073"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53586982"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升級基本通訊的電子郵件和問卷範例
 
@@ -203,7 +203,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 指出您執行下列活動的能力Teams以及如果您想要深入瞭解的一或多個活動。
 
-| &nbsp; | 非常熟練 | 有點熟練 | 完全不熟練 | 想要深入瞭解 | 不適用 | 不確定/不熟悉 | | | | |
+| &nbsp; | 非常熟練 | 有點熟練 | 完全不熟練 | 想要深入瞭解 | 不適用 | 不確定/不熟悉 |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 使用Teams進行 IM/聊天 | | | | | | | | | | |
 | 使用 Teams線上會議 | | | | | | | | | | |
@@ -223,7 +223,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 | 沒有，我目前使用它 | &#9744; |
 | 其他 (請指定)  | &#9744; |
 
-**您建議朋友/同事使用Microsoft Teams的可能性如何？ (0=完全不可能...10=極可能)**
+**您建議朋友/同事Microsoft Teams建議嗎？ (0=完全不可能...10=極可能)**
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|

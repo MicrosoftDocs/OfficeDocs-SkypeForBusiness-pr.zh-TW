@@ -18,14 +18,16 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 透過設定商務用 Skype 混合模式，規劃在商務用 Skype Server 和 Teams 或商務用 Skype 線上之間實現混合式連線。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 277e592df24a03f50d09ebca21bad0211e6c8c57
-ms.sourcegitcommit: e19fdedca6573110d08c7d114e05b84779e36b58
+ms.openlocfilehash: d8f1468d4278c905779a5cbb31e98bd4d0ffa6a4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53437650"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53509824"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>規劃商務用 Skype Server 和 Teams 之間的混合式連線
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 閱讀此主題以瞭解如何規劃商務用 Skype Server 和 Teams (或商務用 Skype Online 之間的混合式連線，直到) 2021 年7月31日為止。 設定混和式連線是將內部部署環境移至雲端的第一步。
 

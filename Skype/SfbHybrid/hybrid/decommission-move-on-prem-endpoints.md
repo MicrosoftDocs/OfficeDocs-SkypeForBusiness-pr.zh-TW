@@ -17,18 +17,20 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在解除委任商務用 Skype 內部部署環境之前，請先遷移 hyrid 應用程式端點。
-ms.openlocfilehash: 7315ee807bb79b9186cd92ccc19074021b2fcfa1
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: ee437f7f6c35ee67168c81e8e8ad440b1b0ba824
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420798"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574238"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>在解除委任內部部署環境之前遷移混合應用程式端點
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 本文說明如何在解除您的內部部署商務用 Skype 環境之前，將所需的混合應用程式端點移至 Microsoft 雲端。 這是將您的內部部署環境解除委任之下列步驟的步驟3：
 
-- 步驟 1. [將所有必要使用者從內部部署移至線上](decommission-move-on-prem-users.md)
+- 步驟 1。 [將所有必要使用者從內部部署移至線上](decommission-move-on-prem-users.md)
 
 - 步驟 2. [停用您的混合](cloud-consolidation-disabling-hybrid.md)式設定。
 
@@ -55,7 +57,7 @@ ms.locfileid: "53420798"
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. 因為這些帳戶的電話號碼可能是在 Microsoft 365 而非內部部署中管理，所以請在商務用 Skype 線上中執行下列命令 PowerShell:
+5. 因為這些帳戶的電話號碼可能是在 Microsoft 365 而非內部部署中管理，所以請在 Teams 中執行下列命令 PowerShell:
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"
@@ -79,7 +81,7 @@ ms.locfileid: "53420798"
    ```
 您現在已準備好[移除內部部署商務用 Skype 部署](decommission-remove-on-prem.md)。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 - [解除您的內部部署商務用 Skype 環境](decommission-on-prem-overview.md)
 

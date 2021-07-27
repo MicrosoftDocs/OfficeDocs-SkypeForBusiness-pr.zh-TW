@@ -21,28 +21,28 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 889c3f4149489f6bcea44acde93d897a7f2e50e1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d4901258f7e0422b373553beba509bdfa0673d96
+ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092551"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53536709"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的 Shifts
 
-Teams為貴組織的前線工作人員提供有效溝通和共同合作所需的工具。 本文將說明如何設定和管理。 在作業中班次並使用排程Teams。
+Teams為貴組織的前線員工提供有效溝通和共同合作所需的工具。 請參閱下列資源以深入瞭解如何設定和管理 Shifts，此為 Teams。
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>為貴組織設定及管理班次
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![工作檢查清單-規劃-團隊](../media/task-checklist-planning-teams-small.svg) | **[管理貴組織的班次](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![設計](../media/Help-small.svg)  | **[前線員工班次說明](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![工作檢查清單-規劃-teams](../media/task-checklist-planning-teams-small.svg) | **[管理貴組織的班次](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![設計](../media/Help-small.svg)  | **[第一線員工輪班協助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
-### <a name="shifts-extensions"></a>移轉延伸線
+### <a name="shifts-extensions"></a>Shifts 擴充功能
 
 |               |               |
 | ------------- | ------------- |
-| ![Api](../media/api-small.svg) | **[移Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** 移轉Graph API 讓您將 Shifts 資料與外部員工管理系統整合。 您可以在後端彈性地建立自訂的 Shifts 體驗，同時為使用者提供豐富的前端體驗，Teams。             |
+| ![Api](../media/api-small.svg) | **[移Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** 移轉Graph API 讓您將 Shifts 資料與外部員工管理系統整合。 您可以在後端彈性地建立自訂 Shifts 體驗，同時為使用者提供豐富的前端體驗，Teams。             |
 | ![Api](../media/api-small.svg) | **[員工管理整合](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** 如果您使用的是協力廠商員工管理系統 ，例如 Kronos 和 JDA，用於排程、時間和出勤，您可以透過 Shifts Graph API 和 SDK 與開放來源整合，直接與 Shifts 整合。 |
 | ![Api](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate可讓您從 Shifts 中取資訊，並與其他 App 建立自訂工作流程，並大規模執行作業。 使用幾乎不執行任何程式碼來自動化重要程式。 觸發程式與範本支援各種案例，例如，在不需要主管核准時，為輪班要求啟用自動核准。 |
 
