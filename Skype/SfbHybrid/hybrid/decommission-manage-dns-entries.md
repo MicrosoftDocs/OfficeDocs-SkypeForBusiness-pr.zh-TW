@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 解除委任內部部署商務用 Skype 環境時，如何管理 DNS 專案的指示。
-ms.openlocfilehash: a5321aa187a88505b3973c3e5418f4a88e1e6f69
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: d51cd3bb7617eaca563de35e708bb6ab56368ab3
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486243"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510764"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>更新 DNS 專案，讓您的組織全部 Teams
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 先前部署商務用 Skype Server 或 Lync Server 的內部部署組織可能仍然具有指向內部部署商務用 Skype 部署的 DNS 專案。 如果您的組織包括內部部署商務用 Skype 使用者，這些記錄就是必要的。 不過，當您的組織不再有任何內部部署商務用 Skype 或 Lync Server 使用者的情況下，內部部署部署就不再需要這些原始記錄，而且 **這些 DNS 專案必須更新為指向 Microsoft 365 (或在某些情況下)** 從內部部署至 Teams 的部分中移除。 *Microsoft 不會代表您更新這些 DNS 記錄。*
 

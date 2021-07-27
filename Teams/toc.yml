@@ -293,8 +293,6 @@ items:
             href: legal-hold.md
           - name: 內容搜尋
             href: content-search.md
-          - name: 進階電子文件探索中的 Microsoft Teams 工作流程
-            href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: 稽核
             href: audit-log-events.md
           - name: 客戶金鑰
@@ -901,13 +899,7 @@ items:
                 href: configuring-teams-calling-quickstartguide.md
               - name: 通話方案的適用國家/地區
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: 電信業者連線
-            items:
-              - name: 電信業者連線計劃
-                href: operator-connect-plan.md
-              - name: 設定電信業者連線
-                href: operator-connect-configure.md
-          - name: 直接路由
+          - name: 電話系統直接路由
             items:
               - name: 概觀
                 href: direct-routing-landing-page.md
@@ -983,6 +975,12 @@ items:
                         href: direct-routing-protocols-media.md
                   - name: 直接路由 Survivable Branch Appliance
                     href: direct-routing-survivable-branch-appliance.md
+          - name: 電信業者連線
+            items:
+              - name: 電信業者連線計劃
+                href: operator-connect-plan.md
+              - name: 設定電信業者連線
+                href: operator-connect-configure.md
       - name: 電話號碼
         items:
           - name: 管理組織的電話號碼
@@ -1471,8 +1469,6 @@ items:
                 href: class-insights.md
               - name: 同步處理深入解析和 SIS 資料
                 href: education-insights-sis-data-sync.md
-              - name: 管理使用者對深入解析的存取
-                href: education-insights-manage-access.md
               - name: 開始使用 Reflect
                 href: reflect.md
           - name: Teams 教育版中的作業
@@ -1489,7 +1485,7 @@ items:
             href: sku-reference-edu.md
       - name: 適用於前線員工的 Teams
         items:
-          - name: 前線員工快速入門手冊
+          - name: 適用於前線員工的快速入門
             href: flw-quickstart.yml
           - name: 前線員工編寫指令碼部署
             href: flw-scripted-deployment.md
