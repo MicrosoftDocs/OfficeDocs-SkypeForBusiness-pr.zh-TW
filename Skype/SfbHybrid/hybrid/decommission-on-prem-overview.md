@@ -17,18 +17,18 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 如何解除委任內部部署商務用 Skype 環境的指示。
-ms.openlocfilehash: 820a5b55fe7bf2b5e2351fff253990fd794c562d
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 420ca75e12737ce85c2fd03031f3e1b8fd9ca625
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574218"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510794"
 ---
 # <a name="decommission-your-on-premises-skype-for-business-environment"></a>解除您的內部部署商務用 Skype 環境
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-如果您的組織使用 Teams 搭配內部部署商務用 Skype Server，您可以將這些環境完整遷移至雲端，然後淘汰商務用 Skype Server 的內部部署。 
+如果您的組織使用 Teams 或商務用 Skype 線上搭配內部部署商務用 Skype Server，您可以將這些環境完全遷移至雲端，然後淘汰商務用 Skype Server 的內部部署。 
 
 > [!NOTE]
 > 在解除委任內部部署環境之前，您必須[設定](configure-hybrid-connectivity.md)內部部署和 Microsoft 365 之間的混合式連線。 設定混合式連線後，您可以將使用者遷移至雲端，同時從內部部署遷移其會議，以及將任何連絡人從商務用 Skype Server 遷移至 Teams。 設定混合式連線是將使用者從內部部署遷移至雲端的必要步驟，以確保完整的 Teams 功能。

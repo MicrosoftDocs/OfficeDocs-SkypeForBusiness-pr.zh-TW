@@ -1,5 +1,5 @@
 ---
-title: 停用混合式完成僅限 Teams 的遷移
+title: 停用混合式以完成移轉至僅限 Teams
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -21,18 +21,21 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文包含停用混合成 Teams 和商務用 Skype 之雲端合併的一部分的詳細步驟。
-ms.openlocfilehash: 87bd1f6e0dcabed067174972dd0f0fc51149beb0
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: 90f3b6d5cd533ca92966a46dd271d2f82f40acc4
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53453642"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510504"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>停用混合式設定，僅完成 Teams 的遷移 
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
+
 本文說明如何在解除您的內部部署商務用 Skype 環境之前停用混合式設定。 這是下列步驟的步驟2，以解除委任您的內部部署環境：
 
-- 步驟 1. [將所有必要使用者從內部部署移至線上](decommission-move-on-prem-users.md)。
+- 步驟 1。 [將所有必要使用者從內部部署移至線上](decommission-move-on-prem-users.md)。
 
 - **步驟2。停用您的混合式設定。**  (本文) 
 
@@ -102,7 +105,7 @@ Get-CsHostingProvider|Set-CsHostingProvider -Enabled $false
 ```
 
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 - [Teams 與商務用 Skype 的雲整合](cloud-consolidation.md)
 

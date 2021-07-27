@@ -1,5 +1,5 @@
 ---
-title: 適用於 Microsoft Teams 教育版管理員的資源
+title: 適用於 Microsoft Teams 教育版管理員的資源：指派教育版 Teams 授權
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 83448f32ddfc96800a14b5a599ef9cb7af52bb9b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e51d472bbf3310b03fea6344b354fc307c8ce08a
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119232"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587372"
 ---
 # <a name="assign-microsoft-teams-licenses-for-edu"></a>指派 Microsoft Teams 教育版授權
 

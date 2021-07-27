@@ -17,18 +17,18 @@ description: 瞭解即時活動錄製政策。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8d25f37f94a514b83bd37e44d1b022bac064a839
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: c0f5f089bf4f1a0dc2c28a0b718d89b9200a4676
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739653"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587332"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>即時活動錄製Microsoft Teams
 
 您有幾個錄製即時活動Microsoft Teams選項。 錄製選項是使用錄製策略來設定。 本文將說明各種設定。
 
-錄製選項是使用 PowerShell 命令 [Set-CsTeamsMeetingBroadcastPolicy 來設定](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)。
+錄製選項是使用 PowerShell 命令 [Set-CsTeamsMeetingBroadcastPolicy 來設定](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)。
 
 ## <a name="scheduling-and-option-behaviors"></a>排程和選項行為
 
@@ -48,7 +48,7 @@ ms.locfileid: "52739653"
 
 在廣播政策中，您可以切換設定來開啟或關閉即時活動的錄製。
 
-|                                 | 錄製者與簡報者可以使用錄製 | 出席者可以使用錄製 |
+| &nbsp;| 錄製者與簡報者可以使用錄製 | 出席者可以使用錄製 |
 | ------------------------------- | ---------------------------------------------------- | ------------------------------------- |
 | 永遠錄製               | 已停用並選取                                | 已啟用並選取         |
 | 召集人可以錄製或無法錄製 | 預設為啟用和選取                  | 預設為啟用和選取   |

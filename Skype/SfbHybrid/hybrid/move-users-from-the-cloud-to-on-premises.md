@@ -17,24 +17,24 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: 瞭解如何將使用者從商務用 Skype 線上移至內部部署。
-ms.openlocfilehash: 78e86e48e9f409c9e2a9f348cada9c24f30c6279
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+description: 瞭解如何將使用者從 Teams 移至內部部署。
+ms.openlocfilehash: db1557c3929bdf62557e31a7fce78050569016ee
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509784"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574088"
 ---
 # <a name="move-users-from-the-cloud-to-on-premises"></a>將使用者從雲端移至內部部署 
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-如有需要，您可以移動先前從內部部署遷移至雲端的使用者 (是否使用商務用 Skype 線上或 Teams 只) 回內部部署。 若要將使用者從商務用 Skype 線上或 TeamsOnly 模式移回商務用 Skype Server 的內部部署，請使用 Move-CsUser 指令程式或商務用 Skype Server 控制台，兩者都是內部部署工具。 當您將使用者移回內部部署時，您必須決定要將使用者移至哪一個集區。
+如有需要，您可以移動先前從內部部署遷移的使用者，以 Teams 回內部部署。 若要將使用者從商務用 Skype 線上或 TeamsOnly 模式移回商務用 Skype Server 的內部部署，請使用 Move-CsUser 指令程式或商務用 Skype Server 控制台，兩者都是內部部署工具。 當您將使用者移回內部部署時，您必須決定要將使用者移至哪一個集區。
 
 > [!Important]
 > 如果使用者先前是在 TeamsOnly 模式中，且使用的版本低於商務用 Skype Server 2015 CU8，您也必須為該使用者移除 TeamsUpgradePolicy 的 TeamsOnly 模式指派。 內部部署使用者不得具有 mode = TeamsOnly。  後續版本的商務用 Skype Server 會自動移除此指派。 如需詳細資訊，請參閱 [授與 CsTeamsUpgradePolicy](/powershell/module/skype/grant-csteamsupgradepolicy)。
 
-## <a name="prerequisites"></a>必要條件
+## <a name="prerequisites"></a>先決條件
 
 - 組織必須正確設定 Azure AD 連線，並同步處理使用者的所有相關屬性，如[Configure AZURE AD 連線](configure-azure-ad-connect.md)所述。
 - 從線上移回內部部署的使用者，必須已存在於內部部署 Active Directory 中。

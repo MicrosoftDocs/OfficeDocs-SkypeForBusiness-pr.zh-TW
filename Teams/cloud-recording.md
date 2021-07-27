@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1ad5cb2c6bd1abd394d23d68c6636274a6cd1447
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: 6f492ab931e765534adf455114ff570a94768a40
+ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486143"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53565709"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -179,6 +179,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |我想要 100% 停用錄製內容謄寫。 |<ol><li>確認 Global CsTeamsMeetingPolicy 具有 AllowTranscription = False。 <li>所有使用者都獲得 Global CsTeamsMeetingPolicy 原則或是其中一個 CsTeamsMeetingPolicy 原則具有 AllowTranscription = False。 </ol>|
 |我想讓大部分使用者不能謄寫，但我能選擇性地啟用特定使用者允許他進行謄寫。 |<ol><li>確認 Global CsTeamsMeetingPolicy 具有 AllowCloudRecording = False。 <li>大部分使用者都獲得 Global CsTeamsMeetingPolicy 原則或是其中一個 CsTeamsMeetingPolicy 原則具備 AllowCloudRecording = False。 <li>所有其他使用者都獲得其中一個 CsTeamsMeetingPolicy 原則具備 AllowCloudRecording = True 的授權。 </ol>|
 
+### <a name="terms-of-use-acceptance"></a>接受使用規定
+如果您的組織具有一個會議錄製原則，是您想要使用者在錄製會議之前要接受的原則，請使用 [Azure Active Directory 使用規定](/azure/active-directory/conditional-access/terms-of-use) 功能。 此功能可讓您的使用者先接受貴組織的使用規定原則，再取得 Microsoft Teams 的存取權。 此功能並不是按一下錄製按鈕的特定功能，而是與使用整體 Teams 或其他 Microsoft 365 應用程式相關的功能。 我們的建議是將您的會議錄製資訊新增至使用 Teams 或 Microsoft 365 的整體使用規定。 
 
 ## <a name="permissions-and-storage"></a>權限與共用
 
@@ -220,8 +222,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 | 會議類型  | 是誰按了一下 [錄製]？| 錄製內容在哪裡？ | 誰可以存取？ R/W、R 或共用  |
 |-------------|-----------------------|------------------------|------------------------|
-|與內部派對進行一對一通話             |呼叫者                 |呼叫者的商務用 OneDrive 帳戶                        |呼叫者為擁有者，且擁有完整權限。 <br /><br />被呼叫者 (如果在同一個租用戶中) 擁有唯讀存取權。 沒有共用存取權。 <br /><br /> 被呼叫者 (如果在其他租用戶中) 沒有存取權。 呼叫者必須將它分享給被呼叫者。|
-|與內部派對進行一對一通話             |被呼叫者                 |被呼叫者的商務用 OneDrive 帳戶                        |被呼叫者為擁有者，且擁有完整權限。 <br /><br />被呼叫者 (如果在同一個租用戶中擁有唯讀存取權。 沒有共用存取權。 <br /><br />呼叫者 (如果在其他租用戶中) 沒有存取權。 被呼叫者必須將它分享給呼叫者。|
+|與內部派對進行一對一通話             |呼叫者                 |呼叫者的商務用 OneDrive 帳戶                        |呼叫者為擁有者，且擁有完整權限。 <br /><br />被呼叫者 (如果在同一個租用戶中) 擁有唯讀存取權。沒有共用存取權。 <br /><br /> 被呼叫者 (如果在其他租用戶中) 沒有存取權。 呼叫者必須將它分享給被呼叫者。|
+|與內部派對進行一對一通話             |被呼叫者                 |被呼叫者的商務用 OneDrive 帳戶                        |被呼叫者為擁有者，且擁有完整權限。 <br /><br />呼叫者 (如果在同一個租用戶中) 擁有唯讀存取權。沒有共用存取權。 <br /><br />呼叫者 (如果在其他租用戶中) 沒有存取權。 被呼叫者必須將它分享給呼叫者。|
 |與外部通話進行一對一通話             |呼叫者                 |呼叫者的商務用 OneDrive 帳戶                        |呼叫者為擁有者，且擁有完整權限。<br /> <br />被呼叫者沒有存取權。 呼叫者必須將它分享給被呼叫者。|
 |與外部通話進行一對一通話             |被呼叫者                 |被呼叫者的商務用 OneDrive 帳戶                        |被呼叫者為擁有者，且擁有完整權限。<br /><br />呼叫者沒有存取權。 被呼叫者必須將它分享給呼叫者。|
 |群組通話                                 |通話的任何成員 |按一下 [錄製] 之商務用 OneDrive 帳戶的群組成員  |按一下 [錄製] 的成員擁有完整的權限。 <br /><br /> 來自相同租用戶的其他成員擁有讀取權限。 <br /><br /> 來自其他租用戶的其他群組成員沒有權限。|
@@ -262,9 +264,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 只有當使用者在錄製時已開啟謄寫功能，才能在播放期間使用 Teams 會議錄製的隱藏式輔助字幕。 系統管理員必須 [經由原則將錄製謄寫功能開啟](#turn-on-or-turn-off-recording-transcription)，以確保他們的使用者可以選擇錄製會議及謄寫功能。
 
-字幕可協助建立所有能力之觀眾的包容性內容。 作為擁有者，您可以在會議錄製中隱藏標題，不過除非您在 Teams 中刪除會議記錄，否則會議記錄仍可使用。
+字幕可協助建立所有能力之觀眾的包容性內容。作為擁有者，您可以在會議錄製中隱藏標題，不過除非您在 Teams 中刪除會議記錄，否則會議記錄仍可使用。
 
-目前錄製影片檔案的隱藏式字幕會連結到 Teams 會議字幕。 在大部分情況下，此連結在檔案的存留時間內維持不變，但如果影片檔案是在同一個商務用 OneDrive 或 SharePoint Online 網站中複製，則此連結可能會中斷，可能會導致在複製的影片檔案上無法提供字幕。
+目前錄製影片檔案的隱藏式字幕會連結到 Teams 會議字幕。在大部分情況下，此連結在檔案的存留時間內維持不變，但如果影片檔案是在同一個商務用 OneDrive 或 SharePoint Online 網站中複製，則此連結可能會中斷，可能會導致在複製的影片檔案上無法提供字幕。
 
 日後若在 Teams 中的文字記錄與錄製內容之間的連結出現任何變更，都會在這裡和訊息中心通知中釐清。 如果我們之後做出任何變更，我們會確保錄製檔案在 60 天內以輔助字幕顯示會議文字記錄。
 

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文說明如何在解除委任您的內部部署環境之後管理屬性。
-ms.openlocfilehash: 32cd4c6da893e4ba336007d3f5d5f3f8fdb5ca90
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: d8c61e1a5a76206cadd8ab4ae3ed51de77badc74
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574318"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510644"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>決定解除授權後如何管理屬性
 
@@ -59,7 +59,7 @@ ms.locfileid: "53574318"
 
   ![Active Directory 使用者和電腦工具](../media/disable-hybrid-1.png)
   
--  如果使用者在 `msRTCSIP-Line` 移動之前沒有內部部署的值，您可以使用 `onpremLineUri` Teams PowerShell 模組中[Set-CsUser Cmdlet](/powershell/module/skype/set-csuser?view=skype-ps)中的-參數修改電話號碼。
+-  如果使用者在 `msRTCSIP-Line` 移動之前沒有內部部署的值，您可以使用 `onpremLineUri` 商務用 Skype 線上 PowerShell 模組中[Set-CsUser Cmdlet](/powershell/module/skype/set-csuser?view=skype-ps)中的-參數修改電話號碼。
 
 在您停用混合式之後所建立的新使用者，這些使用者不需要這些步驟，而且可以直接在雲端中管理這些使用者。 如果您習慣使用這些方法的組合，以及在內部部署 Active Directory 中就地保留 msRTCSIP 屬性，則可以直接重新鏡像內部部署商務用 Skype 伺服器。 不過，如果您想要清除所有 msRTCSIP 屬性，並執行商務用 Skype Server 的傳統卸載，請使用方法2。
 
@@ -140,13 +140,13 @@ ms.locfileid: "53574318"
    Start-ADSyncSyncCycle -PolicyType Delta
    ```
 
-7. 等候使用者布建完成。 您可以執行下列 Teams PowerShell 命令，以監視使用者布建進度。 下列 Teams PowerShell 命令會在很快處理常式完成時傳回空的結果。
+7. 等候使用者布建完成。 您可以執行下列商務用 Skype 線上 PowerShell 命令，以監視使用者布建進度。 下列商務用 Skype 線上 PowerShell 命令會在很快的處理常式完成時傳回空的結果。
 
    ```PowerShell
    Get-CsOnlineUser -Filter {Enabled -eq $True -and (MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
    ```
 
-8. 執行下列 Teams PowerShell 命令指派電話號碼，並為使用者啟用電話系統：
+8. 執行下列商務用 Skype 線上 PowerShell 命令指派電話號碼，並為使用者啟用電話系統：
      
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -161,7 +161,7 @@ ms.locfileid: "53574318"
    > [!Note]
    >  如果您仍然有商務用 Skype 端點 (Skype 用戶端或協力廠商電話) ，您也會想要將 HostedVoiceMail 設定為 $true。 如果您的組織只對啟用語音的使用者使用 Teams 端點，則此設定不適用於您的使用者。 
 
-9. 確認已正確布建電話系統功能的使用者。 下列 Teams PowerShell 命令會在很快處理常式完成時傳回空的結果。
+9. 確認已正確布建電話系統功能的使用者。 下列商務用 Skype 線上 PowerShell 命令會在很快的處理常式完成時傳回空的結果。
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -187,13 +187,11 @@ ms.locfileid: "53574318"
     ```PowerShell
     Get-CsUser | Select-Object SipAddress, UserPrincipalName
     ``` 
-
-    TeamsPowerShell 命令：
+    商務用 Skype線上 PowerShell 命令：
 
     ```PowerShell
     Get-CsOnlineUser -Filter {Enabled -eq $True -and (OnPremHostingProvider -ne $null -or MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
     ``` 
-
 12. 在方法2中完成所有步驟之後，請參閱[將混合應用程式端點從內部部署移至線上](decommission-move-on-prem-endpoints.md)，並[移除內部部署商務用 Skype Server](decommission-remove-on-prem.md) ，以取得其他步驟，以移除您的商務用 Skype Server 內部部署。
 
 

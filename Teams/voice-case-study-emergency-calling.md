@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso 案例研究
+title: Teams Contoso 案例研究：緊急通話
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,19 +13,19 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams多國公司的語音案例研究
+description: Teams多國公司的語音案例研究：緊急電話
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4503576df8d8e9f3d332cda45eb235d8162cf53
-ms.sourcegitcommit: af15d99837a389b6b26952211e65cd68c4b7f46e
+ms.openlocfilehash: 69231adb4588039012cceec1063571ddc201c2bb
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "44785977"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587472"
 ---
 # <a name="contoso-case-study-emergency-calling"></a>Contoso 案例研究：緊急電話
 
-若要瞭解緊急電話與緊急通話相關術語的可用性，Contoso 已審查管理緊急電話和規劃及設定動態緊急電話 &mdash; &mdash; 。 [](what-are-emergency-locations-addresses-and-call-routing.md) [](configure-dynamic-emergency-calling.md)
+若要瞭解緊急電話與緊急通話相關術語的可用性，Contoso 已審查管理緊急電話和規劃及設定動態緊急 &mdash; &mdash; [電話](configure-dynamic-emergency-calling.md)。 [](what-are-emergency-locations-addresses-and-call-routing.md)
 
 在 Office 365，系統會自動啟用通話方案使用者進行緊急通話。 但只有美國的通話方案使用者可以使用動態位置路由緊急電話。 
 
@@ -83,7 +83,7 @@ Contoso 決定使用會話邊界控制器，其中包括 ELIN (緊急) 號碼。
 
 ## <a name="security-desk-notification"></a>安全電話台通知
 
-Microsoft 通話方案及直接路由功能都提供在緊急通話時通知電話系統功能。 Contoso 已查看安全性中心通知中的詳細資料，以判斷這是否應在其辦公室進行配置  
+Microsoft 通話方案及直接路由功能都提供在緊急通話時通知電話系統功能。 Contoso 已查看安全性中心通知中的詳細資料，以判斷是否應在其辦公室進行此配置  
 
 Contoso 決定使用安全電話台通知。
 

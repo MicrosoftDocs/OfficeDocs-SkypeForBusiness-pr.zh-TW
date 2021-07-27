@@ -17,14 +17,16 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在解除委任商務用 Skype 內部部署環境之前，請先移動使用者。
-ms.openlocfilehash: 992f2dd479e0b8ca8a3f11f069e8ef049259ad9c
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: bc98ebfcfb7ad4d4b2c64942b5f84500a98cdc84
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420808"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510714"
 ---
 # <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>在解除委任內部部署環境之前，移動必要使用者
+
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 本文說明如何在解除您的內部部署商務用 Skype 環境之前，將所需使用者移至 Microsoft 雲端。 這是解除委任內部部署環境之下列步驟的步驟1：
 
@@ -61,7 +63,7 @@ Get-CsUser -Filter { HostingProvider -eq "SRV:"} | Disable-CsUser
 
 您現在已準備好 [停用混合](cloud-consolidation-disabling-hybrid.md)式設定。
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 - [解除您的內部部署商務用 Skype 環境](decommission-on-prem-overview.md)
 

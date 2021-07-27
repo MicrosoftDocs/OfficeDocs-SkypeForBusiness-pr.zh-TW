@@ -1,5 +1,5 @@
 ---
-title: Teams Contoso 案例研究
+title: Teams Contoso 案例研究升級方案
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,15 +13,15 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams多國公司的語音案例研究
+description: Teams多國公司的語音案例研究：升級規劃。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0da56bc0da083654a0cd694bd5983f2fe4fe515
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a458f2c98b0f6de8bc2d3b3d23e2b68e4cadd931
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093723"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587442"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Contoso 案例研究：Teams升級計畫
 
@@ -30,7 +30,7 @@ ms.locfileid: "51093723"
 若要瞭解升級、方法及模式的基本概念，Contoso 請閱讀下列文章：
 
 - [開始升級您的 Microsoft Teams](upgrade-start-here.md)
-- [適用于 IT 系統管理員的升級策略](upgrade-to-teams-on-prem-implement.md) 
+- [IT 系統管理員的升級策略](upgrade-to-teams-on-prem-implement.md) 
 - [移移和互通性指南](migration-interop-guidance-for-teams-with-skype.md)
  
 Contoso 也參加 Ignite 2019 會話設計您從 商務用 Skype[到 Teams。](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) Contoso 瞭解：
@@ -57,4 +57,4 @@ Contoso 也參加 Ignite 2019 會話設計您從 商務用 Skype[到 Teams。](h
 
   - 在技術試驗期間使用群島模式。
 
-  - 使用者一旦啟用 TeamsOnly 模式，電話系統。 通話方案與直接路由需要 TeamsOnly 模式。
+  - 使用者啟用後，切換至 TeamsOnly 電話系統。 通話方案與直接路由需要 TeamsOnly 模式。

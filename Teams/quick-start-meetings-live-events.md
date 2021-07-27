@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66fe753e289cb989b354a27e1f0eccad0d3327ea
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: f7c55d6192c4c3aa8aa9b00def41b998410bcb60
+ms.sourcegitcommit: 3173bb338a4b79f9443941a3def4223360e45f61
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506332"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "53479050"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>快速入門 - 會議、網路研討會與即時活動 
 
@@ -46,27 +46,20 @@ Microsoft Teams 有多種開會方式 - 會議、網路研討會和即時活動�
 
 | 會議類型 | 參與者的數量 | 互動 | 支援註冊 |
 |----------|--------|--------|-----|
-| 會議  | 最多 20,000* 位 <br> | -最多 1,000 位參與者具有完整的互動式平等會議功能。 <br> -超過 1,000 位參與者 (最多 20,000 位) 具有 [僅供檢視](view-only-meeting-experience.md) 功能。  | 否 |
-| 網路研討會 | 最多 1,000 位<br>-增加 [僅供檢視](view-only-meeting-experience.md) 功能的限制即將推出。 |-最多 1,000 位參與者具有完整的互動式功能。 <br> -可設定的觀眾互動。 <br> -可以指定簡報者。 | 是 |
-| 即時活動 | 最多 20,000** 位 |-向大型觀眾廣播。 <br>-觀眾互動的仲裁問與答。 <br> -可以指定製作者和簡報者，包括外部簡報者。<br>-支援其他進階製作功能。 | 否 |
+| 會議  | 最多 20,000* 位 <br> | -最多 1,000 位參與者具有完全互動式的相等會議功能 <br> -超過 1,000 位參與者 (最多 20,000 位) 具有[僅供檢視](view-only-meeting-experience.md)功能  | 否 |
+| 網路研討會 | 最多 20,000* 位 |-最多 1,000 位參與者具有完全互動式功能 <br> -超過 1,000 位參與者 (最多 20,000 位) 具有[僅供檢視](view-only-meeting-experience.md)功能  <br> -觀眾互動可設定 <br> -可以指定簡報者 | 是 |
+| 即時活動 | 最多 20,000** 位 |-廣播給大量觀眾 <br>-觀眾互動的仲裁問與答 <br> -可以指定製作者和簡報者，包括外部簡報者<br>-支援更多進階製作功能 | 否 |
 ||||
 
 *到 2021 年 12 月 31 日，由一般的 10,000 位增加到 20,000 位。<br>
 
 **到 2021 年 12 月 31 日，由一般的 10,000 位增加到 20,000 位。 您可以在 Yammer 和/或 Microsoft Stream 中排程更多即時活動。 如需詳細資訊，請參閱[跨 Microsoft 365 的即時活動](/stream/live-event-m365)。 請注意，超過 20,000 位出席者需要[即時活動協助計畫](/stream/live-events-assistance)。 
 
-**大型會議、網路研討會和即時活動的考慮事項** - 主持大型會議時，請考慮下列事項：
-
-- 為了在大型會議、網路研討會和即時活動中獲得最佳體驗，Microsoft 建議使用 Teams 桌面用戶端或 Teams 行動裝置用戶端。 
-
-- 大型會議、網路研討會和即時活動中的簡報者應該使用 Teams 桌面用戶端。 
-
-- 如需主持大型會議的更多秘訣，請參閱[大型 Teams 會議的最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
+為了在大型會議中獲得最佳體驗，Microsoft 建議使用 Teams 桌面用戶端或 Teams 行動裝置用戶端。 大型會議中的簡報者應該使用 Teams 桌面用戶端。 如需主持大型會議的更多秘訣，請參閱[大型 Teams 會議的最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
 
 有關僅供檢視會議體驗的資訊，請參閱 [Teams 僅供檢視會議體驗](view-only-meeting-experience.md)。
 
 請注意，會議、網路研討會和即時活動中完全支援 NDI，讓您使用 OBS 和 Wirecast 等工具產生廣播。 如需詳細資訊，請參閱[在Microsoft Teams 中使用 NDI® 技術](use-ndi-in-meetings.md)。
-
 
 ### <a name="meetings"></a>會議
 

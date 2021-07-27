@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 如何使用記憶體
 author: msdmaguire
-ms.author: dmaguire
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: d218c71a0e3ecdde40559d67e1ad3a408d65a5d9
-ms.sourcegitcommit: 43dc627e9fef31a2508f54acf741000551ff68b5
+ms.openlocfilehash: d3e694dcba73cd90b2faa131776210c5d3faf4d5
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "48878717"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587312"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams 如何使用記憶體
 
@@ -30,11 +30,11 @@ ms.locfileid: "48878717"
 
 ## <a name="how-teams-works"></a>如何Teams運作
 
-Teams在電子上設計，可加快開發速度，而且在不同作業系統 Teams、Mac 和 Linux (Windows 之間維持 Teams 版本之間的) 。 這個奇偶性是有可能的，因為電子Chromium在所有版本之間維持相似的程式碼基礎。 此架構的另一個優點，是 Web 應用程式與桌上出版Teams記憶體使用量設定檔類似。 Web App 和桌上出版使用記憶體的方式與瀏覽器的使用方式類似。 有關電子的更多相關資訊，請參閱 [他們的網站](https://electronjs.org/)。
+Teams電子版設計，可以加快開發速度，而且在不同作業系統 Teams、Mac 和 Linux (Windows 之間維持 Teams 版本之間的) 。 這個奇偶性是有可能的，因為電子Chromium在所有版本上維持類似的程式碼基礎。 此架構的另一個優點，是 Web 應用程式與桌上出版Teams記憶體使用量設定檔類似。 Web App 和桌上出版使用記憶體的方式與瀏覽器的使用方式類似。 有關電子的更多資訊，請流覽 [他們的網站](https://electronjs.org/)。
 
-請參閱[Chromium Chrome](https://www.chromium.org/developers/memory-usage-backgrounder)記憶體中的儲存體使用量和主要概[念，以](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md)瞭解更多資訊。
+請參閱[Chromium Chrome](https://www.chromium.org/developers/memory-usage-backgrounder)記憶體中的儲存體使用量和[主要](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md)概念，以瞭解更多資訊。
 
-下圖顯示 Windows 版 Teams 桌面應用程式與此範例中的 Teams Web 應用程式 (在 Google Chrome) 中同時使用) 。
+下圖顯示 Windows 版 Teams 桌面應用程式與此範例中的 Teams Web 應用程式 (在 Google Chrome) 中的並排記憶體使用量。
 
 ![Teams應用程式與 Web 應用程式的記憶體使用量](media/teams-memory-clientweb.png)
 
@@ -44,7 +44,7 @@ Teams在電子上設計，可加快開發速度，而且在不同作業系統 Te
 
 ### <a name="expected-memory-usage-by-teams"></a>預期記憶體使用量Teams
 
-無論您是在Teams或 Teams Web App 中，Chromium偵測可用的系統記憶體量，並運用足夠的記憶體來優化呈現體驗。 當其他應用程式或服務需要系統記憶體時，Chromium記憶體給這些程式。 Chromium持續Teams調整記憶體使用量，以優化Teams，而不會影響目前執行中的任何其他專案。
+無論您是在Teams或 Teams Web App 中，Chromium偵測可用的系統記憶體量，並運用足夠的記憶體來優化呈現體驗。 當其他應用程式或服務需要系統記憶體時，Chromium程式會放棄記憶體。 Chromium持續Teams調整記憶體使用量，以優化Teams，而不會影響目前執行中的任何其他專案。
 
 如此一來，Chromium工作負載會根據可用的系統記憶體量，使用不同的記憶體量。
 
@@ -56,14 +56,14 @@ Teams在電子上設計，可加快開發速度，而且在不同作業系統 Te
 
 ### <a name="symptoms-of-system-memory-issues"></a>系統記憶體問題之症狀
 
-如果您在電腦上看到下列一或多個症狀，則可能是系統記憶體問題：
+如果您在電腦上看到下列一或多個症狀，可能是系統記憶體問題：
 
 - 當多個大型應用程式同時執行時，會使用高記憶體。
 - 系統執行速度變慢或應用程式懸空。
-- 在所有 App 上持續使用 90% 或更高的系統記憶體使用量。 有了這個記憶體使用量，Teams將記憶體回饋給其他應用程式和工作負載。 持續使用 90% Teams表示系統無法提供記憶體，這表示發生問題。
+- 在所有 App 上持續使用 90% 或更高的系統記憶體使用量。 有了這個記憶體使用量，Teams應該會將記憶體回饋給其他應用程式和工作負載。 持續使用 90% Teams表示系統無法提供記憶體，這表示發生問題。
 
 下列影像顯示當系統記憶體使用量異常高時，Task Manager 中的視圖範例。
 
-![Teams Manager 中的記憶體使用量視圖](media/teams-memory-high-mem-process-list.png)
+![Teams管理員中的記憶體使用量視圖](media/teams-memory-high-mem-process-list.png)
 
-![Teams Manager 中的記憶體使用量圖表](media/teams-memory-high-mem-process-list2.png)
+![Teams管理器中的記憶體使用量圖表](media/teams-memory-high-mem-process-list2.png)

@@ -17,23 +17,25 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 解除委任內部部署商務用 Skype 環境時，如何管理 DNS 專案的指示。
-ms.openlocfilehash: 77011f0680c0a47e28b5cd44c2be2ff6bb62f1a8
-ms.sourcegitcommit: e60547de6e33ad73ba02c9aa9b5d831100940fbe
+ms.openlocfilehash: a5321aa187a88505b3973c3e5418f4a88e1e6f69
+ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "53482396"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "53486243"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>更新 DNS 專案，讓您的組織全部 Teams
 
-先前部署商務用 Skype Server 或 Lync Server 的內部部署組織可能仍然具有指向內部部署商務用 Skype 部署的 DNS 專案。 如果您的組織包括內部部署商務用 Skype 使用者，這些記錄就是必要的。 不過，當您的組織不再有任何內部部署商務用 Skype 或 Lync Server 使用者的情況下，內部部署部署就不再需要這些原始記錄，而且 **這些 DNS 專案必須更新為指向 Microsoft 365 (或在某些情況下移除)** 做為從內部部署至 Teams 的部分遷移，*但 Microsoft 無法為您採取此步驟。*
+先前部署商務用 Skype Server 或 Lync Server 的內部部署組織可能仍然具有指向內部部署商務用 Skype 部署的 DNS 專案。 如果您的組織包括內部部署商務用 Skype 使用者，這些記錄就是必要的。 不過，當您的組織不再有任何內部部署商務用 Skype 或 Lync Server 使用者的情況下，內部部署部署就不再需要這些原始記錄，而且 **這些 DNS 專案必須更新為指向 Microsoft 365 (或在某些情況下)** 從內部部署至 Teams 的部分中移除。 *Microsoft 不會代表您更新這些 DNS 記錄。*
 
-當您嘗試將 TeamsOnly 授與整個租使用者時，Teams 會檢查 DNS，判斷是否存在組織中 Microsoft 365 驗證的網域的任何 dns 記錄。 如果找到任何記錄，且其指向 Microsoft 365 以外的專案，則嘗試將租使用者共存模式變更為 TeamsOnly 時，會因設計而失敗。 這可避免使用內部部署使用者的混合式組織誤將 TeamsOnly 模式套用到租使用者--因為這樣做會中斷組織中所有內部部署商務用 Skype 使用者的同盟 (使用 Teams 還是商務用 Skype) 。
+當您嘗試將 TeamsOnly 授與整個租使用者時，Teams 會檢查 DNS，判斷下列列出的任何 DNS 記錄是否都存在於您的組織中的每個 Microsoft 365 驗證的網域中。 如果找到任何記錄，且其指向 Microsoft 365 以外的專案，則嘗試將租使用者共存模式變更為 TeamsOnly 時，會因設計而失敗。 這可避免使用內部部署使用者的混合式組織誤將 TeamsOnly 模式套用到租使用者--因為這樣做會中斷組織中所有內部部署商務用 Skype 使用者的同盟 (使用 Teams 還是商務用 Skype) 。
 
 
 ## <a name="how-to-identify-stale-dns-records"></a>如何識別陳舊的 DNS 記錄
 
-若要識別任何防止您的組織成為所有 Teams 的 DNS 記錄，您可以使用 Teams 系統管理中心，將共存模式變更為 TeamsOnly。 移至 **全組織設定**  ->  **Teams 升級**。 任何阻止組織成為 Teams 的 DNS 記錄，都將會包含在錯誤訊息中。  在事件中找不到 DNS 記錄時，您的組織的共存模式將變更為 TeamsOnly。   或者，您也可以使用 Teams PowerShell 來執行相同的作業。
+若要識別任何防止您的組織成為所有 Teams 的 DNS 記錄，您可以使用 Teams 系統管理中心，將共存模式變更為 TeamsOnly。 移至 **全組織設定**  ->  **Teams 升級**。 任何阻止組織成為 Teams 的 DNS 記錄，都將會包含在錯誤訊息中。  在事件中找不到 DNS 記錄時，您的組織的共存模式將變更為 TeamsOnly。   
+
+或者，您也可以使用 Teams PowerShell 執行相同的作業，如下所示：
 
    ```PowerShell
    Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Global

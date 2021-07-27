@@ -1,5 +1,5 @@
 ---
-title: 規劃混合式連接 |商務用 Skype Server 2019 和 Teams
+title: 規劃混合式連線能力 |商務用 Skype Server 2019 和 Teams
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,28 +16,28 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
-description: 透過設定商務用 Skype 混合模式，規劃在商務用 Skype Server 和 Teams 或商務用 Skype 線上之間實現混合式連線。
+description: 設定商務用 Skype 的混合模式，以規劃在商務用 Skype Server 和 Teams 之間執行混合連線。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: d8f1468d4278c905779a5cbb31e98bd4d0ffa6a4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: acfd94d78609ef3428029832ffaf030ca0f34b64
+ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509824"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "53574258"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>規劃商務用 Skype Server 和 Teams 之間的混合式連線
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-閱讀此主題以瞭解如何規劃商務用 Skype Server 和 Teams (或商務用 Skype Online 之間的混合式連線，直到) 2021 年7月31日為止。 設定混和式連線是將內部部署環境移至雲端的第一步。
+閱讀此主題以瞭解如何規劃商務用 Skype Server 和 Teams 之間的混合式連線。 設定混和式連線是將內部部署環境移至雲端的第一步。
 
 如果是使用 Teams (並存) 之內部部署的商務用 Skype 使用者，將無法從 Teams 用戶端與商務用 Skype 使用者互通，也無法從 Teams 用戶端與同盟組織中的使用者進行通訊。 若要取得 Teams 中的這項功能，這些使用者必須從商務用 Skype 內部部署移至雲端，而此動作需要設定商務用 Skype 混合式模式。 此外，為了獲得最佳的體驗，這些使用者應位於 Teams 僅限模式，可確保使用者 Teams 用戶端中所有使用者土地的來電和聊天。
 
 在解除您的內部部署商務用 Skype之前，還必須設定混合式連線並將所有使用者移至雲端。  設定混合式連線後，您可以根據您的排程和業務需求，選擇將使用者移至雲端。 使用直接路由，您可以在移至雲端時以及在完成移轉之後，運用您的內部部署語音基礎結構。
 
-本主題說明在現有內部部署商務用 Skype Server 部署與 Teams 或商務用 Skype 線上之間設定混合式連線時，所需的基礎結構和系統需求。
+本主題說明在現有內部部署商務用 Skype Server 部署與 Teams 之間設定混合式連線時，所需的基礎結構和系統需求。
 
-閱讀本主題並準備好設定混合式連線後，請參閱[設定商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合](configure-hybrid-connectivity.md)式連線性。 設定主題會提供逐步指導，以在內部部署與 Teams 或商務用 Skype 線上之間設定混合式連線。
+閱讀本主題並準備好設定混合式連線後，請參閱[設定商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合](configure-hybrid-connectivity.md)式連線性。 設定主題提供在內部部署與 Teams 之間設定混合式連線的逐步指引。
 
 > [!Important]
 > 商務用 Skype線上將于2021年7月31日停用，在此之後將無法再存取服務。  此外，您的內部部署環境之間的 PSTN 連線是否會有商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype 線上，都不再支援。  瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線至 Teams。
@@ -70,9 +70,9 @@ ms.locfileid: "53509824"
 
 <a name="BKMK_Overview"> </a>
 
- 在內部部署商務用 Skype Server 和 Teams 或商務用 Skype 線上的內部部署之間設定混合式連線，您可以讓某些使用者位於內部部署中，有些使用者位於線上。
+ 在內部部署的商務用 Skype Server 和 Teams 之間設定混合式連線，您可以讓某些使用者位於內部部署，而部分使用者則位於線上。
 
-這種類型的設定取決於共用 SIP 位址空間功能，有時也稱為「分割網域」--例如，網域的使用者（如 contoso.com）會在內部部署和 Teams 或商務用 Skype 線上上使用商務用 Skype Server 分割，如下圖所示：
+這種類型的設定取決於共用 SIP 位址空間功能，有時也稱為「分割網域」--例如，網域的使用者（如 contoso.com）是在內部部署和 Teams 上使用商務用 Skype Server 進行分割，如下圖所示：
 
 ![商務用 Skype 混合式 connectivity-分割網域](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
@@ -101,16 +101,16 @@ ms.locfileid: "53509824"
 - Azure Active Directory 連線同步處理內部部署目錄與 Microsoft 365 或 Office 365。 如需詳細資訊，請參閱[AZURE AD 連線：帳戶和許可權](/azure/active-directory/connect/active-directory-aadconnect-accounts-permissions)。
 
 - 商務用 Skype Server 系統管理工具。 這些是將使用者從內部部署移至雲端的必要條件。 這些工具必須安裝在具有內部部署和網際網路存取權的伺服器上。
-- 線上系統管理工具。 您可以使用 Teams 系統管理中心或 Windows PowerShell 來管理 Teams 和商務用 Skype 線上。 若要使用 PowerShell 來管理 Teams 或商務用 Skype 線上，請下載並安裝 Teams PowerShell 模組。  (已退休商務用 Skype 線上連接器) 。
+- 線上系統管理工具。 您可以使用 Teams 系統管理中心或 Windows PowerShell 來管理 Teams。 若要使用 PowerShell 來管理 Teams，請下載並安裝 Teams PowerShell 模組。  (已退休商務用 Skype 線上連接器) 。
 - 必須啟用共用 SIP 位址空間，而且您的內部部署部署必須設定成使用 Microsoft 365 或 Office 365 作為裝載提供者。 如需設定混合式連線所需步驟的詳細資訊，請參閱 [設定混合](configure-hybrid-connectivity.md)式連線。
 
-設定混合式連線後，您可以將使用者移至 Teams 或商務用 Skype 線上。 如需詳細資訊，請參閱[將使用者從內部部署移至 Teams](move-users-from-on-premises-to-teams.md) ，並[將使用者從內部部署移至商務用 Skype Online](move-users-from-on-premises-to-skype-for-business-online.md)。
+設定混合式連線後，您可以將使用者移至 Teams。 如需詳細資訊，請參閱[將使用者從內部部署移至 Teams](move-users-from-on-premises-to-teams.md)。
 
 ## <a name="server-version-requirements"></a>伺服器版本需求
 
 <a name="BKMK_Topology"> </a>
 
-若要設定混合部署以搭配 **Teams 或商務用 Skype 線上**，您必須具備下列其中一種支援的拓撲：
+若要設定與 **Teams** 混合使用的部署，您必須具備下列其中一種支援的拓撲：
 
 - 包含所有執行商務用 Skype Server 2019 之伺服器的商務用 Skype Server 2019 部署。
 - 包含所有執行商務用 Skype Server 2015 之伺服器的商務用 Skype Server 2015 部署。
@@ -120,7 +120,7 @@ ms.locfileid: "53509824"
   - Lync Server 2013 和商務用 Skype Server 2019
   - Lync Server 2013 和商務用 Skype Server 2015
 
-*如果任何拓撲中需要混合式語音*，則指定為同盟 edge 的 edge server 以及與 SIP 同盟關聯的集區，都必須執行商務用 Skype 2015 或更新版本。 使用者可以保留在 Lync 2013 集區（如果有的話）。 如需詳細資訊，請參閱[Plan 電話系統 with PSTN Connectivity in 商務用 Skype Server](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity.md)。
+*如果任何拓撲中需要混合式語音*，則指定為同盟 edge 的 edge server 以及與 SIP 同盟關聯的集區，都必須執行商務用 Skype 2015 或更新版本。 使用者可以保留在 Lync 2013 集區（如果有的話）。 如需詳細資訊，請參閱 [規劃語音解決方案](/MicrosoftTeams/cloud-voice-landing-page.md)。
 
 下列包含 **Lync Server 2010 的拓撲支援線上** 郵件和會議的商務用 Skype 線上。 **混合式語音和 Teams 都不支援包含 Lync Server 2010** 的拓撲。
 

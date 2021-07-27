@@ -17,20 +17,20 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: 下列各節 descrbie 如何設定資源/使用者樹系模型中有多個樹系的環境，以提供混合式案例中的功能。
-ms.openlocfilehash: 3de0309681842eabe2924e6b489a6acbdc71c1b7
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+description: 下列各節提供如何設定資源/使用者樹系模型中有多個樹系的環境，以提供混合式案例中商務用 Skype 功能的指導方針。
+ms.openlocfilehash: 38e41a2ae845120bbdc49419d47b264f69c0a5fe
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574108"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510694"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>部署資源樹系拓撲
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
  
-下列各節說明如何設定資源/使用者樹系模型中有多個樹系的環境，以提供混合式案例中的功能。 
+下列各節提供如何設定資源/使用者樹系模型中有多個樹系的環境，以提供混合式案例中商務用 Skype 功能的指導方針。 
   
 ![混合式的多樹系環境](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
@@ -38,7 +38,7 @@ ms.locfileid: "53574108"
 
 支援多個使用者樹系。 請記住下列事項： 
     
-- 如需在混合式設定中支援的 Lync Server 和商務用 Skype Server 版本，請參閱[規劃混合](plan-hybrid-connectivity.md)式連線。
+- 如需在混合式設定中支援的 Lync Server 和商務用 Skype Server 版本，請參閱[規劃商務用 Skype Server 和 Microsoft 365 或 Office 365 之間的混合](plan-hybrid-connectivity.md)式連線中的[伺服器版本需求](plan-hybrid-connectivity.md#server-version-requirements)。
     
 - Exchange Server 可以部署在一個或多個樹系中，也可能包含商務用 Skype Server 的樹系。 請確認您已套用最新的累計更新。
     
@@ -47,21 +47,15 @@ ms.locfileid: "53574108"
   
 ## <a name="user-homing-considerations"></a>使用者主頁考慮
 
-位於內部部署商務用 Skype 使用者可以在內部部署或線上上進行 Exchange。 Teams 使用者應使用 Exchange Online 以取得最佳體驗;不過，這不是必要的。 在這兩種情況下，不需要在內部部署 Exchange 執行商務用 Skype。
+位於內部部署商務用 Skype 使用者可以在內部部署或線上上進行 Exchange。 商務用 Skype線上使用者應使用 Exchange Online 以取得最佳體驗;不過，這不是必要的。 在這兩種情況下，不需要在內部部署 Exchange 執行商務用 Skype。
   
 ## <a name="configure-forest-trusts"></a>設定樹系信任
 
-在資源樹系拓撲中，主控商務用 Skype Server 的資源樹系必須信任每個包含使用者帳戶的帳戶樹系，該樹系都可以存取該拓撲。 
-
-如果您有多個使用者樹系，若要啟用跨樹系驗證，則必須為每個樹系信任啟用名稱尾碼路由。 如需相關指示，請參閱 [管理樹系信任](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772440(v=ws.11))。 
-
-如果您已在另一個樹系中部署 Exchange Server，且 Exchange 供應商務用 Skype 使用者的功能，則主控 Exchange 的樹系必須信任主控商務用 Skype Server 的樹系。 例如，如果 Exchange 已部署在帳戶樹系中，則需要使用帳戶與商務用 Skype 樹系之間的雙向信任。
+在資源樹系拓撲中，主控商務用 Skype Server 的資源樹系必須信任每個包含使用者帳戶的帳戶樹系，該樹系都可以存取該拓撲。 如果您有多個使用者樹系，若要啟用跨樹系驗證，則必須為每個樹系信任啟用名稱尾碼路由。 如需相關指示，請參閱 [管理樹系信任](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772440(v=ws.11))。 如果您已在另一個樹系中部署 Exchange Server，並為商務用 Skype 使用者提供功能，則主控 Exchange 的樹系必須信任主控商務用 Skype Server 的樹系。 例如，如果 Exchange 已部署在帳戶樹系中，這會在該設定中有效表示帳戶和商務用 Skype 樹系之間必須有雙向信任。
   
 ## <a name="synchronize-accounts-into-the-forest-hosting-skype-for-business"></a>將帳戶同步處理到主控商務用 Skype 的樹系中
 
-假設商務用 Skype Server 部署在一個樹系中 (資源樹系) ，但為一或多個其他樹系中的使用者提供功能 (帳戶樹系) 。 在此情況下，其他樹系中的使用者必須表示為已部署商務用 Skype Server 樹系中已停用的使用者物件。
-
-您必須使用身分識別管理產品（例如 Microsoft Identity Manager），以將帳戶樹系中的使用者布建及同步處理至部署商務用 Skype Server 的樹系中。 使用者必須同步處理到主控商務用 Skype Server 為停用的使用者物件的樹系中。 無法將使用者同步處理成 Active Directory contact 物件，因為 Azure Active Directory 連線不會將連絡人正確同步處理到 Azure AD，以搭配 Skype 使用。
+當商務用 Skype Server 部署在一個樹系中 (資源樹系) ，但為一或多個其他樹系中的使用者提供功能 (帳戶樹系) ，其他樹系中的使用者則必須在部署商務用 Skype Server 的樹系中呈現為已停用的使用者物件。 身分識別管理產品（例如 Microsoft Identity Manager）必須部署並設定，才能布建及同步處理帳戶樹系中的使用者，以進行商務用 Skype Server 部署。 使用者必須同步處理到主控商務用 Skype Server 為停用的使用者物件的樹系中。 無法將使用者同步處理成 Active Directory contact 物件，因為 Azure Active Directory 連線不會將連絡人正確同步處理到 Azure AD，以搭配 Skype 使用。
   
 不論任何多樹系設定，主控商務用 Skype Server 的樹系也可以為存在於相同樹系中的任何已啟用使用者提供功能。
   
@@ -76,15 +70,15 @@ ms.locfileid: "53574108"
    
 [選取的帳戶連結屬性](/azure/active-directory/hybrid/plan-connect-design-concepts)將會做為來源錨點使用。 如果您想要使用不同且不可變的屬性，您可以這樣做;只須確定編輯 AD FS 宣告規則，並在 AAD 連線設定期間選取屬性。
   
-請勿同步處理樹系之間的 Upn。 您必須針對每個使用者樹系使用唯一的 UPN，因為您無法在多個樹系上使用相同的 UPN。 因此，有兩種可能性：同步處理 UPN 或不同步處理。 
+請勿同步處理樹系之間的 Upn。 我們在測試期間發現，我們需要針對每個使用者樹系使用唯一的 UPN，因為您無法在多個樹系中使用相同的 UPN。 因此，我們會提供兩個可能的方式，同步處理 UPN 或不同步處理。 
   
-- 如果每個使用者樹系的唯一 UPN 未同步處理至資源樹系中關聯的已停用物件，則 [單一登入] (SSO) 至少會在初始登入嘗試時中斷 (假定使用者選取了儲存密碼的選項) 。 在商務用 Skype 用戶端中，我們假設 SIP/UPN 值相同。 因為此案例中的 SIP 位址是 user@company.com，但使用者樹系中已啟用之物件的 UPN 實際上是 user@contoso.company.com，所以初始登入嘗試會失敗，且系統會提示使用者輸入認證。 輸入正確的 UPN 後，就會針對使用者樹系中的網域控制站完成驗證要求，而且登入會成功。
+- 如果每個使用者樹系的唯一 UPN 未同步處理至資源樹系中關聯的已停用物件，則 [單一登入] (SSO) 至少會在初始登入嘗試時中斷 (假定使用者選取了儲存密碼的選項) 。 在商務用 Skype 用戶端中，我們假設 SIP/UPN 值相同。 由於此案例中的 SIP 位址是 user@company.com，但使用者樹系中已啟用之物件的 UPN 實際上是 user@contoso.company.com，所以初始登入嘗試會失敗，且系統會提示使用者輸入認證。 輸入正確/實際的 UPN 後，就會針對使用者樹系中的網域控制站完成驗證要求，而且登入會成功。
     
 - 如果每個使用者樹系的唯一 UPN 已同步處理至資源樹系中關聯的已停用物件，則 AD FS 驗證會失敗。 比對規則會在資源樹系中的物件上找到 UPN，該物件已停用，且無法用於驗證。 
     
 ## <a name="create-a-microsoft-365-or-office-365-organization"></a>建立 Microsoft 365 或 Office 365 組織
 
-您將需要布建 Microsoft 365 組織，以用於部署。 如需詳細資訊，請參閱 [Microsoft 雲端供應專案的訂閱、授權、帳戶及承租人](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)。 
+接下來，您將需要布建 Microsoft 365 或 Office 365 組織，以搭配您的部署使用。 如需詳細資訊，請參閱 [Microsoft 雲端供應專案的訂閱、授權、帳戶及承租人](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)。 
   
 ## <a name="configure-active-directory-federation-services"></a>設定 Active Directory Federation Services
 
@@ -100,7 +94,7 @@ ms.locfileid: "53574108"
     
 在每個使用者樹系中放置一個 AD FS 伺服器陣列，並針對每個樹系使用唯一的 SIP/SMTP/UPN，我們會解決這兩個問題。 在驗證嘗試期間，只會搜尋該特定使用者樹系中的帳戶，並將其配對。 這將協助提供更順暢的驗證程式。 
   
-此部署將是 Windows Server 2012 R2 AD FS 的標準部署，在繼續之前，應正常運作。 如需相關指示，請參閱 how [To Microsoft 365 or Office 365 安裝 AD FS 2012 R2](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)。 
+這將是 Windows Server 2012 R2 AD FS 的標準部署，在繼續之前，應正常運作。 如需相關指示，請參閱 how [To Microsoft 365 or Office 365 安裝 AD FS 2012 R2](https://blogs.technet.com/b/rmilne/archive/2014/04/28/how-to-install-adfs-2012-r2-for-office-365.aspx)。 
   
 部署之後，您必須編輯宣告規則，使其符合先前所選取的來源錨點。 在 [AD FS MMC] 的 [信賴憑證者信任] 底下，以滑鼠右鍵按一下 [ **Microsoft 365 身分識別平臺**] 或 [ **Microsoft Office 365 身分識別平臺**]，然後選取 [**編輯宣告規則**]。 編輯第一個規則，並將 ObjectSID 變更為 **employeeNumber**。 
   
@@ -108,21 +102,21 @@ ms.locfileid: "53574108"
   
 ## <a name="configure-aad-connect"></a>設定 AAD 連線
 
-在資源樹系拓撲中，資源樹系和任何 (帳戶樹系) 中的使用者屬性都必須已同步處理至 Azure AD。 Microsoft 建議 Azure AD 連線同步處理及合併 *所有* 已啟用使用者帳戶的樹系和包含商務用 Skype 的樹系的使用者身分識別。 如需詳細資訊，請參閱[針對商務用 Skype 和 Teams 設定 Azure AD 連線](configure-azure-ad-connect.md)。
+在資源樹系拓撲中，資源樹系和任何 (帳戶樹系) 中的使用者屬性都必須已同步處理至 Azure AD。 執行這項作業的最簡單和建議方式是讓 Azure AD 連線同步處理及合併 *所有* 已啟用使用者帳戶的樹系和包含商務用 Skype 的樹系的使用者身分識別。 如需詳細資訊，請參閱[針對商務用 Skype 和 Teams 設定 Azure AD 連線](configure-azure-ad-connect.md)。
 
-請注意，Azure AD 連線不會在帳戶和資源樹系之間的內部部署上提供同步處理。 必須使用 Microsoft Identity Manager 或類似的產品來設定，如前文所述。
+請注意，AAD 連線不會提供帳戶和資源樹系之間的內部部署同步處理。 必須依先前所述，使用 Microsoft Identity Manager 或類似的產品來個別設定。
   
-完成和 Azure AD 連線合併時，如果您在元節中查看物件，您應該會看到類似下列的內容： 
+在合併完成和 AAD 連線時，如果您要查看元節中的物件，您應該會看到類似下列的內容： 
   
 ![多樹系元節物件畫面](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
-綠色的醒目提示屬性已從 Microsoft 365 合併，黃色來自使用者樹系，而藍色則來自資源樹系。 
+綠色的醒目提示屬性已從 Microsoft 365 或 Office 365 合併，黃色來自使用者樹系，而藍色則來自資源樹系。 
   
-在此範例中，Azure AD 連線已識別從 Microsoft 365 的使用者和資源樹系物件的 sourceAnchor 和 cloudSourceAnchor，在本例中為 1101-------------------- Azure AD 連線使用者是否可以將此物件合併至您的上方。 
+這是一項測試使用者，您可以在我們的案例1101（即先前選取的 employeeNumber）中，看到 AAD 連線已從使用者和資源樹系物件識別 sourceAnchor 及 cloudSourceAnchor，並從 Microsoft 365 或 Office 365。 然後，它就可以將此物件合併成您在上方看到的內容。 
   
 如需詳細資訊，請參閱[將您的內部部署目錄與 Azure Active Directory 整合](/azure/active-directory/hybrid/whatis-hybrid-identity)。 
   
-Azure AD 連線應以預設值安裝，但不包括下列各項： 
+您應該使用預設值安裝 AAD 連線，但不包括下列各項： 
   
 1. 已部署並運作單一登入與 AD FS：選取 [不 **設定**]。
     

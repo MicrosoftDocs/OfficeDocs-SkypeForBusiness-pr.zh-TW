@@ -17,18 +17,20 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 解除委任商務用 Skype Server 的指示。
-ms.openlocfilehash: e96c4cd37d09fc62fbfbe34a8b8d61c79ea08289
-ms.sourcegitcommit: 405b22cfd94e50d651f4c3f73fb46780cd8a6d06
+ms.openlocfilehash: bdd38578d8ee98c26e6515c1cd4baa0ef8a825cf
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53454336"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510784"
 ---
 # <a name="remove-your-on-premises-skype-for-business-deployment"></a>移除您的內部部署商務用 Skype 部署
 
+[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+
 本文說明如何移除內部部署商務用 Skype 部署。 這是下列步驟的步驟4，以解除委任您的內部部署環境：
 
-- 步驟 1. [將所有必要使用者從內部部署移至線上](decommission-move-on-prem-users.md)。 
+- 步驟 1。 [將所有必要使用者從內部部署移至線上](decommission-move-on-prem-users.md)。 
 
 - 步驟 2. [停用您的混合](cloud-consolidation-disabling-hybrid.md)式設定。
 
@@ -127,7 +129,7 @@ ms.locfileid: "53454336"
    Disable-CsAdForest
    ```
 
-## <a name="see-also"></a>請參閱
+## <a name="see-also"></a>另請參閱
 
 - [解除您的內部部署商務用 Skype 環境](decommission-on-prem-overview.md)
 

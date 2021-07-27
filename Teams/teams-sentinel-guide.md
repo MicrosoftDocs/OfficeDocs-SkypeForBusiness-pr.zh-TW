@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3b2c37f7f3731b34abb5337bf954250e0c3564d
-ms.sourcegitcommit: 046b020cee8af00a1d0e5f5866f847d42e8ad9a5
+ms.openlocfilehash: 55307637e18f81775229bb46db51a6f5738cce7c
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51712765"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587042"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel 和 Microsoft Teams
 
@@ -40,7 +40,7 @@ Teams 可在 Microsoft 365 雲端的通訊和資料共用中扮演中心角色�
 
 本文主要說明如何在 Azure Sentinel 中收集 Teams 活動記錄。
 
-Sentinel 可讓系統管理員在單一位置中執行安全性管理。 這包括管理：
+Sentinel 可讓系統管理員在單一位置中執行安全性管理。這包括管理：
 
 - 協力廠商裝置
 - Microsoft 威脅防護
@@ -53,7 +53,7 @@ Sentinel 活頁簿和 Runbook 可以使得安全性監視 *系統化*。 此程�
 
 ## <a name="step-1-collect-teams-logs-enable-audit-logs-in-microsoft-365"></a>步驟 1：收集 Teams 記錄：在 Microsoft 365 中啟用稽核記錄
 
-因為 Teams 會透過 Microsoft 365 記錄活動，因此預設不會收集稽核記錄。 使用[這些步驟](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)開啟此功能。 Teams 資料會收集在 Microsoft 365 稽核中的 *Audit.General* 下。
+因為 Teams 會透過 Microsoft 365 記錄活動，因此預設不會收集稽核記錄。 使用[這些步驟](/microsoft-365/compliance/turn-audit-log-search-on-or-off)開啟此功能。 Teams 資料會收集在 Microsoft 365 稽核中的 *Audit.General* 下。
 
 ## <a name="step-2-connect-office-365-logs-to-azure-sentinel"></a>步驟 2：將 Office 365 記錄連線至 Azure Sentinel
 
@@ -228,6 +228,6 @@ SigninLogs
 
 [在 Azure AD 中註冊您的應用程式](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
 
-[開啟或關閉稽核記錄搜尋](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+[開啟或關閉稽核記錄搜尋](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 [什麼是 Azure Sentinel？](/azure/sentinel/overview)

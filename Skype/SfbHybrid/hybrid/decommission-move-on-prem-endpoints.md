@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在解除委任商務用 Skype 內部部署環境之前，請先遷移 hyrid 應用程式端點。
-ms.openlocfilehash: ee437f7f6c35ee67168c81e8e8ad440b1b0ba824
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 556c6dca43f1fb273d1934dfe581bdc86356ca15
+ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574238"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "53510534"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>在解除委任內部部署環境之前遷移混合應用程式端點
 
@@ -57,7 +57,7 @@ ms.locfileid: "53574238"
    ```PowerShell
    Get-CsHybridApplicationEndpoint -Filter {LineURI -ne $null} | Set-CsHybridApplicationEndpoint -LineURI ""
    ```
-5. 因為這些帳戶的電話號碼可能是在 Microsoft 365 而非內部部署中管理，所以請在 Teams 中執行下列命令 PowerShell:
+5. 因為這些帳戶的電話號碼可能是在 Microsoft 365 而非內部部署中管理，所以請在商務用 Skype 線上中執行下列命令 PowerShell:
 
    ```PowerShell
    $endpoints = import-csv "c:\backup\HybridEndpoints.csv"
