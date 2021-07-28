@@ -1487,7 +1487,7 @@ items:
             href: sku-reference-edu.md
       - name: 適用於前線員工的 Teams
         items:
-          - name: 適用於前線員工的快速入門
+          - name: 前線員工快速入門手冊
             href: flw-quickstart.yml
           - name: 前線員工編寫指令碼部署
             href: flw-scripted-deployment.md
