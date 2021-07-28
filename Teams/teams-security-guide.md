@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 的安全性指南
+title: Microsoft Teams 的安全性指南概觀
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edfa29dd1c2c3f5197b175f49d8d045967fc79f1
-ms.sourcegitcommit: d3c67eadf7cab167340d35b76401ff49fc7eb728
+ms.openlocfilehash: 5eeeaa0da5058abe4466cda3a063df96c5ea3098
+ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "51749481"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "53587022"
 ---
 # <a name="security-and-microsoft-teams"></a>安全性和 Microsoft Teams
 
@@ -40,7 +40,7 @@ Teams 在設計和開發時就符合 Microsoft 高可信度電腦運算安全性
 
 ## <a name="trustworthy-by-default"></a>透過預設而值得信賴
 
-Teams 中的網路通訊預設會進行加密。 透過要求所有伺服器使用憑證，並使用 OAUTH、TLS、安全即時傳輸通訊協定 (SRTP)，所有的 Teams 資料都會在網路上受到保護。
+Teams 中的網路通訊預設為加密。透過要求所有伺服器使用憑證，並使用 OAUTH、TLS、安全即時傳輸通訊協定 (SRTP)，所有的 Teams 資料都會在網路上受到保護。
 
 ## <a name="how-teams-handles-common-security-threats"></a>Teams 如何處理常見的安全性威脅
 
@@ -48,7 +48,7 @@ Teams 中的網路通訊預設會進行加密。 透過要求所有伺服器使�
 
 ### <a name="compromised-key-attack"></a>盜取金鑰攻擊
 
-Teams 會使用 Windows Server 作業系統中的 PKI 功能，來保護用於傳輸層安全性 (TLS) 連線加密的金鑰資料。 用於媒體加密的金鑰會透過 TLS 連線來交換。
+Teams 使用 Windows Server 作業系統中的 PKI 功能來保護用於傳輸層安全性 （TLS） 連接加密的金鑰資料。用於媒體加密的金鑰是使用 TLS 連接來交換。
 
 ### <a name="network-denial-of-service-attack"></a>網路拒絕服務攻擊
 
@@ -57,8 +57,7 @@ Teams 會使用 Windows Server 作業系統中的 PKI 功能，來保護用於�
 - 對受攻擊網路上所執行的應用程式和服務傳送無效資料，以干擾其正常功能。
 - 傳送大量流量，讓系統超載直到其停止回應或只能緩慢回應合法要求。
 - 隱藏攻擊證據。
-- 妨礙使用者存取網路資源。
-Teams 會執行 Azure DDOS 網路保護，並對來自相同端點、子網路和同盟實體的用戶端要求進行節流，藉此來緩解這些攻擊。
+- 防止使用者存取網路資源。Teams 會執行 Azure DDOS 網路保護，並節流來自相同端點、子網和聯盟實體的用戶端要求，以防範這些攻擊。
 
 ### <a name="eavesdropping"></a>竊聽
 
@@ -82,7 +81,7 @@ TLS 會對各方實施驗證，並加密所有流量。 使用 TLS 可防止攻�
 
 ### <a name="rtp-replay-attack"></a>RTP 重播攻擊
 
-當兩方之間的有效媒體傳輸遭到惡意攔截並重新傳輸時，就會發生重播攻擊。 Teams 會使用 SRTP 並搭配安全訊號通訊協定來保護傳輸免於遭受重播攻擊，其方法是讓接收者保有已收到 RTP 封包的索引，並將每個新封包與索引中已列出的每個封包進行比較。
+當雙方之間的有效媒體傳輸遭到攔截，並針對惡意目的重新傳輸時，即會發生重新執行攻擊。Teams 會使用 SRTP 並搭配安全訊號通訊協定來保護傳輸免於遭受重播攻擊，其方法是讓接收者保有已收到 RTP 封包的索引，並將每個新封包與索引中已列出的每個封包進行比較。
 
 ### <a name="spim"></a>Spim
 
@@ -132,15 +131,15 @@ TLS 和 MTLS 可同時防範竊聽和中間人攻擊。 發生中間人攻擊時
 
 ### <a name="encryption-for-teams"></a>Teams 的加密
 
-Teams 會使用 TLS 和 MTLS 來加密立即訊息。 伺服器對伺服器的流量無論是局限於內部網路還是跨越內部網路周邊，都需要使用 MTLS。
+Teams 會使用 TLS 和 MTLS 來加密立即訊息。伺服器對伺服器的流量無論是局限於內部網路還是跨越內部網路周邊，都需要使用 MTLS。
 
 下表摘要說明 Teams 使用的通訊協定。
 
 ***流量加密***
 
-|||
-|:-----|:-----|
+
 |**流量類型**|**加密工具**|
+|:-----|:-----|
 |伺服器對伺服器|MTLS|
 |用戶端對伺服器 (例如 立即訊息與目前狀態)|TLS|
 |媒體流量 (例如 媒體的音訊和視訊共用)|TLS|
@@ -156,7 +155,7 @@ Teams 會使用認證型權杖，以便透過 TURN 安全地存取媒體轉送�
 
 #### <a name="fips"></a>FIPS
 
-Teams 會使用符合 FIPS (聯邦資訊處理標準) 規範的演算法來交換加密金鑰。 如需有關 FIPS 實作的詳細資訊，請參閱[聯邦資訊處理標準 (FIPS) 出版物 140-2](/microsoft-365/compliance/offering-fips-140-2?view=o365-worldwide) \(英文\)。
+Teams 會使用符合 FIPS (聯邦資訊處理標準) 規範的演算法來交換加密金鑰。 如需有關 FIPS 實作的詳細資訊，請參閱[聯邦資訊處理標準 (FIPS) 出版物 140-2](/microsoft-365/compliance/offering-fips-140-2) \(英文\)。
 
 ### <a name="user-and-client-authentication"></a>使用者和用戶端驗證
 
@@ -179,7 +178,7 @@ Teams 驗證是透過 Azure AD 和 OAuth 來完成的。 驗證程序可簡化�
 
 ### <a name="windows-powershell-and-team-management-tools"></a>Windows PowerShell 和 Teams 管理工具
 
-在 Teams 中，IT 系統管理員可以透過 Microsoft 365 系統管理中心或使用租用戶遠端 PowerShell (TRPS) 來管理服務。 租用戶系統管理員會使用新式驗證來向 TRPS 驗證。
+在 Teams 中，IT 系統管理員可以透過 Microsoft 365 系統管理中心或使用租用戶遠端 PowerShell (TRPS) 來管理服務。租用戶系統管理員使用新式驗證向 TRPS 進行驗證。
 
 ### <a name="configuring-access-to-teams-at-your-internet-boundary"></a>將 Teams 的存取設定在網際網路界限
 
