@@ -19,22 +19,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d0f31c8841a5a357034cc083f1a62d0d6704805
-ms.sourcegitcommit: ede53639ac782eb51d7560fc41fb01ec6979dfd9
+ms.openlocfilehash: 368cb8b0c2d34e985d10adf11a405fb0603f1aff
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53428209"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646414"
 ---
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana語音協助Teams
 
 > [!Note]
-> Cortana iOS 和 Android 的 Microsoft Teams 行動應用程式支援語音協助，Microsoft Teams適用于美國、英國、加拿大、印度和澳洲的使用者。 Microsoft Teams 會議室Windows僅適用于美國的使用者。 Cortana語音協助目前不適用於 GCC、GCC-High、DoD 和非美國 EDU 租使用者。 Cortana行動應用程式中Teams語音協助，現在適用于美國 EDU 客戶。 擴充至其他語言和地區，將在未來發行時進行。
+> Cortana iOS 和 Android Microsoft Teams行動應用程式中支援語音協助，Microsoft Teams適用于美國、英國、加拿大、印度和澳洲的使用者。 Microsoft Teams 會議室Windows僅適用于美國的使用者。 Cortana語音協助目前不適用於 GCC、GCC-High、DoD 和非美國 EDU 租使用者。 Cortana行動應用程式中Teams語音協助，現在適用于美國 EDU 客戶。 擴充至其他語言和地區，將在未來發行時進行。
 
 > [!Note]
 > Cortana預覽下Microsoft Teams 會議室語音協助。 在預覽版中，Cortana在連接了拉力麥克風的裝置上，僅支援美國的語言 EN-US。
 
-Cortana行動裝置 Teams App、Windows Microsoft Teams 會議室 和 Microsoft Teams 顯示裝置上的語音協助，可讓 Microsoft 365 企業版 使用者使用口語自然語言簡化通訊、共同作業和會議相關工作。 使用者可以在 Teams 行動Cortana中選取麥克風按鈕，或在 Microsoft Teams 會議室中念出 &#8220;Cortana&#8221;，或在使用 Microsoft Teams 顯示器時Microsoft Teams說話。 若要不用手快速與小組聯繫，以及進行中，使用者可以說出查詢，例如 &#8220;打電話給 Megan&#8221; 或 &#8220;將訊息傳送給下一個會議&#8221;。 使用者也可以加入會議，&#8220;加入我的下一&#8221;，並使用語音協助來共用檔案、檢查他們的日曆等等。 這些語音協助體驗是使用[Cortana](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide)企業級服務提供，完全符合 Office 365 的隱私權、安全性和合規性承諾，如線上服務條款 (OST) 中[反映。](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)
+Cortana行動裝置 Teams App、Windows Microsoft Teams 會議室 和 Microsoft Teams 顯示裝置上的語音協助，可讓 Microsoft 365 企業版 使用者使用口語自然語言簡化通訊、共同作業和會議相關工作。 使用者可以在 Teams 行動Cortana中選取麥克風按鈕，或在 Microsoft Teams 會議室中念出 &#8220;Cortana&#8221;，或是使用 Microsoft Teams 顯示器。 若要不用手快速與小組聯繫，以及進行中，使用者可以說出查詢，例如 &#8220;打電話給 Megan&#8221; 或 &#8220;將訊息傳送給下一個會議&#8221;。 使用者也可以加入會議，&#8220;加入我的下一&#8221;，並使用語音協助來共用檔案、檢查他們的日曆等等。 這些語音協助體驗是使用[Cortana](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide)企業級服務提供，完全遵守 Office 365 的隱私權、安全性和合規性承諾，如線上服務條款[ (OST ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)) 所反映。
 
 ## <a name="admin-control-and-limitations"></a>系統管理控制與限制
 
@@ -88,7 +88,9 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 
 - 在顯示Cortana上Microsoft Teams「Microsoft Teams」。
 
-您可以使用裝置中的Cortana，Teams裝置中的設定來控制裝置中是否已啟用此功能。
+您可以使用裝置中的Cortana，Teams裝置中的設定來控制裝置是否已啟用此設定。
+
+![顯示啟用移動視窗時移動視窗Cortana](media/cortana-mobile-sequence.png)
 
 ### <a name="microsoft-teams-rooms-on-windows"></a>Microsoft Teams 會議室上Windows
 
@@ -106,6 +108,6 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 </SkypeSettings> 
 ```
 
-如果裝置層級已啟用Cortana，可在會議層級進行變更。
+如果裝置層級已啟用 Cortana，可在會議層級進行變更。
 
 若要在Cortana啟用語音協助，請移動開關 **開啟或****關閉**。 會議結束後，Cortana回到裝置層級設定設定。

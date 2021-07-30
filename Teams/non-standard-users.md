@@ -17,18 +17,18 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23551c102ec8fc0684a979bf85717a02d82e5142
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 046a8f08db43062586230c5d7016ebb117027398
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096267"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646864"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams非標準使用者的應用程式行為
 
 本文將說明當來賓、外部 (、) 使用者和匿名使用者出現時，Teams應用程式的行為Teams內容。
 
-- 來賓 **使用者** 不是貴組織的員工、學生或成員。 他們沒有貴組織的學校或公司帳戶。
+- **來賓使用者** 不是貴組織的員工、學生或成員。 他們沒有貴組織的學校或公司帳戶。
 
 - 外部 **(使用者**) 屬於另一個網域，且無法存取貴組織的小組或小組資源。
 
@@ -43,7 +43,7 @@ ms.locfileid: "53096267"
 
 來賓無法安裝、更新或刪除應用程式至共用內容 ，例如聊天、頻道或會議，但他們可以使用訊息擴充功能與直接連結來進入個人範圍。 來賓無法從桌面應用程式存取 Teams應用程式Teams，但可以使用直接連結存取。
 
-### <a name="usage-behavior-and-policy-for-guest-users"></a>來賓使用者的使用行為與政策 
+### <a name="usage-behavior-and-policy-for-guest-users"></a>來賓使用者的使用行為與政策
 
 如果應用程式是由原生使用者安裝，來賓可以使用應用程式。
 
@@ -69,7 +69,7 @@ Bot 可以主動訊息給來賓使用者，但來賓無法與 Bot 互動。 來�
 
 - 來自其他組織的人遵守託管組織的全域 (全組織的預設) 原則
 - 託管組織中使用者可以在與其他組織人員的會議聊天中新增應用程式。 來自其他組織的人無法在會議聊天中新增應用程式，但一旦新增到聊天中，就可以與 Bot、定位字元和訊息擴充功能互動。
-- 在會議聊天中安裝 Bot 之後，機器人可以主動與來自該聊天中的其他組織人員通訊，而且這些人員可以與 Bot 通訊。
+- 在會議聊天中安裝 Bot 之後，它就可以主動與來自該聊天中的其他組織人員通訊，而且這些人員可以與 Bot 通訊。
 - 會採用託管組織的資料原則，以及該使用者組織共用之任何協力廠商應用程式的資料共用作法。
 
 ## <a name="anonymous-users"></a>匿名使用者
@@ -83,3 +83,7 @@ Bot 可以主動訊息給來賓使用者，但來賓無法與 Bot 互動。 來�
 匿名使用者無法直接在會議中使用 App。 如果匿名使用者存在，原生使用者可以繼續使用會議應用程式。 如果應用程式在聊天中傳送介面卡片，匿名使用者可以與卡片互動。 若要詳細資訊，請參閱 [允許匿名使用者加入會議](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
 
 匿名使用者將繼承使用者層級全域預設權限原則。 如果使用者層級許可權Teams啟用應用程式，他們可以與會議中的應用程式互動。 匿名使用者只能與會議中現有的應用程式互動，且無法取得和/或管理這些應用程式。
+
+## <a name="related-topics"></a>相關主題
+
+[管理應用程式中的應用程式設定Microsoft Teams](teams-app-setup-policies.md)

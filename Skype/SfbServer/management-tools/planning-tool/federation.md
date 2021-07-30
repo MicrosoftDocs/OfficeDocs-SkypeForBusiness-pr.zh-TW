@@ -1,5 +1,5 @@
 ---
-title: '同盟 (規劃工具) '
+title: 同盟規劃工具
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,21 +13,21 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
-description: 您可以設定 Edge Server，以允許您的內部和外部使用者存取夥伴組織或服務上的連絡人。
-ms.openlocfilehash: 0ca870518bc373a251f9db5a4255f8f55f1cf4b1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 您可以設定 Edge Server，以允許您的內部及外部使用者存取夥伴組織或服務上的連絡人。
+ms.openlocfilehash: d0f7526a8cbe2822bbbf6350ced81ca16063cfb7
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095177"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646284"
 ---
-# <a name="federation-planning-tool"></a>同盟 (規劃工具) 
+# <a name="federation-planning-tool"></a>同盟規劃工具
  
 您可以設定 Edge Server，以允許您的內部和外部使用者存取夥伴組織或服務上的連絡人。
   
  同盟的運作方式類似于 Microsoft Lync 2013。 如需針對同盟準備環境的詳細資訊，請參閱下列主題：
   
-- [規劃 Lync Server 2013 和 Office 通訊伺服器同盟](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-lync-server-and-office-communications-server-federation)
+- [規劃 Lync server 2013 及 Office 通訊伺服器同盟](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-lync-server-and-office-communications-server-federation)
     
 - [在 Lync Server 2013 中規劃公用立即訊息連線](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-public-instant-messaging-connectivity)
     

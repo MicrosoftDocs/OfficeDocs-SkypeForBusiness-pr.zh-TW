@@ -14,8 +14,6 @@
       items:
         - name: 將使用者從內部部署移動至 Teams
           href: ../hybrid/move-users-from-on-premises-to-teams.md
-        - name: 將使用者從內部部署移動至商務用 Skype Online
-          href: ../hybrid/move-users-from-on-premises-to-skype-for-business-online.md
         - name: 將使用者從雲端移動至內部部署
           href: ../hybrid/move-users-from-the-cloud-to-on-premises.md
         - name: 管理會議移轉

@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '瞭解如何設定大廳、接待區和會議室的公用區域電話 '
-ms.openlocfilehash: bb17b21eac262c160abc3e16a4b552fb32b97d00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d04b1262c88a2600e2167cbaf5498672983cb0b
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117111"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646214"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>設定公用區域電話授權Microsoft Teams
 > [!NOTE]
@@ -40,7 +40,7 @@ ms.locfileid: "51117111"
 
 ## <a name="step-1---buy-the-licenses"></a>步驟 1 - 購買授權
 
-1. 在 Microsoft 365系統管理中心，前往帳單  >  **購買服務**，然後展開其他 **方案**。
+1. 在 Microsoft 365 系統管理中心中，前往帳單  >  **購買服務**，然後展開其他 **方案**。
 
     ![顯示共同區域圖磚電話螢幕擷取畫面](media/set-up-common-area-phone-image1.png)
 
@@ -61,7 +61,7 @@ ms.locfileid: "51117111"
 公用區域電話授權支援： 
 
 
-|   |  公用區域電話  |
+| &nbsp;  |  公用區域電話  |
 |---------|---------|
 |商務用 Skype |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
@@ -80,7 +80,7 @@ ms.locfileid: "51117111"
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>步驟 2 - 為手機建立新使用者帳戶並指派授權
 
-1. 在 Microsoft 365系統管理中心，前往 **使用**  >  **中使用者**  >  **新增使用者**。
+1. 在 Microsoft 365 系統管理中心，請前往 **使用**  >  **中使用者**  >  **新增使用者**。
 
 2. 輸入使用者名稱，例如名字的「主」，第二個名稱的「接收」。
 
@@ -88,11 +88,11 @@ ms.locfileid: "51117111"
 
 4. 輸入使用者名稱，例如「MainReception」或「Mainlobby」。
 
-5. 對於一般地區電話，您可能會想要手動設定密碼，或針對所有公用區域電話設定相同的密碼。 此外，您可能會考慮清除讓此使用者第一次 **登錄時變更** 其密碼核取方塊。
+5. 對於一般地區電話，您可能會想要手動設定密碼，或針對所有常見的地區電話設定相同的密碼。 此外，您可能會考慮清除讓此使用者第一次 **登錄時變更** 其密碼核取方塊。
 
-6. 指派授權給使用者。 在同一頁上，按一下 以展開 **[產品授權**> 。 開啟共同區域電話電話選擇國內通話方案或 **國內及國際通話方案**。  
+6. 指派授權給使用者。 在同一頁上，按一下 以展開 **[產品授權>**。 開啟共同區域電話電話選擇國內通話方案或 **國內及國際通話方案**。  
 
-    ![顯示授權指派的螢幕擷取畫面](media/set-up-common-area-phone-image2.png)
+    ![顯示授權指派的螢幕擷取畫面，其中已強調國內通話方案及國內和國際方案選項](media/set-up-common-area-phone-image2.png)
 
 > [!NOTE]
 > 如果您使用的是 Microsoft 電話直接路由，則不需要指派通話方案授權。
@@ -103,17 +103,17 @@ ms.locfileid: "51117111"
 
 使用 Teams系統管理中心將號碼指派給使用者。
 
-1. 在系統管理Teams，選取 **語音**  >  **電話號碼**。
+1. 在系統管理Teams，選取 **語音電話**  >  **號碼**。
 
 3.    從電話號碼清單中選取一個數位，然後按一下 [ **指派**。
 
-4. 在 **指派** 頁面的語音使用者方塊中，輸入將會使用電話的使用者名稱，然後在選取語音使用者下拉式清單中選取使用者。 
+4. 在指派 **頁面** 的語音使用者方塊中，輸入將會使用電話的使用者名稱，然後在選取語音使用者下拉式清單中選取使用者。 
 
 5. 接下來，您需要新增緊急位址。 從 **下拉** 式清單中，選擇按城市搜尋、按描述搜尋，或按位置搜尋，然後在文字方塊中輸入城市、描述或位置。 搜尋後，請在選取 **緊急位址** 下尋找，以挑選適合您的位址。
 
-6. 按一下 **[儲存** ，您的使用者看起來應該像這樣：
+6. 按一下 **[儲存** ，您的使用者應該看起來像這樣：
 
-   ![顯示授權指派的螢幕擷取畫面](media/set-up-common-area-phone-image3.png)
+   ![螢幕擷取畫面顯示範例使用者授權指派](media/set-up-common-area-phone-image3.png)
 
 > [!NOTE]
 > 使用者只有在已申請授權電話系統顯示。 如果您只是這麼做，有時候使用者需要一點時間，才顯示在清單中。

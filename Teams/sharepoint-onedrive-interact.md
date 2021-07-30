@@ -1,5 +1,5 @@
 ---
-title: SharePoint與OneDrive互動Microsoft Teams
+title: 如何SharePoint OneDrive互動Microsoft Teams
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -18,21 +18,21 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 21abc840ddc740d7d842767c6c864d8ff5b598dd
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 99667735c6e0e71532084f3aff6771df4408f892
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855952"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646204"
 ---
-# <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>SharePoint與OneDrive互動Microsoft Teams
+# <a name="how-sharepoint-and-onedrive-interact-with-microsoft-teams"></a>如何SharePoint OneDrive互動Microsoft Teams
 
 > [!Tip]
 > 觀看下列會話，瞭解如何Teams AAD Azure Active Directory (、) 、Microsoft 365 群組、Exchange、SharePoint和 OneDrive互動：Microsoft Teams [](https://aka.ms/teams-foundations)
 
-每個團隊Microsoft Teams小組網站SharePoint，團隊中的每個標準頻道會獲得預設小組網站文件庫中的資料夾。 每個[私人頻道](private-channels.md)都有各自獨立的SharePoint網站。
+團隊中的每個Microsoft Teams在 SharePoint 中都有一個小組網站，而團隊中的每個標準頻道會獲得預設小組網站文件庫中的資料夾。 每個[私人頻道](private-channels.md)都有各自獨立的SharePoint網站。 若要深入瞭解這些小組網站和頻道網站，請參閱管理Teams[網站和頻道網站](/sharepoint/teams-connected-sites)。
 
-在交談中共用的檔案會自動新增到文件庫，在 SharePoint 中設定的權限和檔案安全性選項會自動在 Teams 中反映。 若要查看變更網站位址在 SharePoint 的影響，請參閱[變更網站位址](/sharepoint/change-site-address)。
+在交談中共用的檔案會自動新增到文件庫，在 SharePoint 中設定的權限和檔案安全性選項會自動在 Teams 中反映。 若要查看變更網站位址在 SharePoint 中的影響，請參閱[變更網站位址](/sharepoint/change-site-address)。
 
 私人聊天檔案會儲存在寄件者的 OneDrive 資料夾中，並會在檔案共用過程中自動授予所有參與者許可權。
 
@@ -47,7 +47,7 @@ ms.locfileid: "52855952"
 
 針對每個小組，SharePoint網站，**而共用檔** 資料夾是團隊建立的預設資料夾。 每個標準頻道 ，包括一般 (每個團隊的預設頻道) 共用 **檔中的資料夾**。
 
-![共用文件資料夾圖表在 SharePoint。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
+![共用文件資料夾圖表 在 SharePoint。](media/Understand_how_SharePoint_Online_and_OneDrive_for_Business_interact_with_Microsoft_Teams_image1.png)
 
 無法SharePoint網站和文件庫的預設文件庫。
 

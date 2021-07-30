@@ -1471,6 +1471,8 @@ items:
                 href: class-insights.md
               - name: 同步處理深入解析和 SIS 資料
                 href: education-insights-sis-data-sync.md
+              - name: 管理使用者對深入解析的存取
+                href: education-insights-manage-access.md
               - name: 開始使用 Reflect
                 href: reflect.md
           - name: Teams 教育版中的作業
@@ -1865,4 +1867,4 @@ items:
       - name: 升級探索問卷
         href: upgrade-plan-journey-discovery-questionnaire.md
       - name: Teams 系統管理員功能的版本資訊
-        href: release-notes/release-notes.md
+        href: /OfficeUpdates/teams-admin

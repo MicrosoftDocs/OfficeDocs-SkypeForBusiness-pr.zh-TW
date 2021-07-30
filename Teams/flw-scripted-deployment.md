@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 384c7d98dbbae5fa1c471130f8699c9c570c79ac
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: 452fd19bdd89ced22a3e233fc851c52395e48e9b
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536819"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646474"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何為一線員工大規模佈建 Teams
 
@@ -211,7 +211,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 #### <a name="create-the-frontline-manager-app-setup-policy"></a>建立一線管理者的應用程式設定原則
 
-您可以根據業務需求來自訂下列設定。 我們已根據最佳做法選擇了一些建議選項，讓您可更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](./teams-app-setup-policies.md#create-a-custom-app-setup-policy)。
+您可以根據業務需求來自訂下列設定。 我們已根據最佳做法選擇了一些建議選項，讓您可更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](teams-app-setup-policies.md)。
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至  **[Teams 應用程式]** > **[設定原則]**。
 2. 按一下  **[新增]**。  
@@ -238,7 +238,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>建立一線員工的應用程式設定原則
 
-您可以根據業務需求來自訂下列設定。 我們已根據最佳做法選擇了一些建議選項，讓您可更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](./teams-app-setup-policies.md#create-a-custom-app-setup-policy)。
+您可以根據業務需求來自訂下列設定。 我們已根據最佳做法選擇了一些建議選項，讓您可更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](teams-app-setup-policies.md)。
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至  **[Teams 應用程式]** > **[設定原則]**。
 2. 按一下  **[新增]**。

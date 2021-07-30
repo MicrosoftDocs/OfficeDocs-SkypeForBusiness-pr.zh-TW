@@ -1,5 +1,5 @@
 ---
-title: '媒體旁路 (規劃工具) '
+title: 媒體旁路規劃工具
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,16 +13,15 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
-description: 媒體旁路是指當呼叫的轉送伺服器的信號流經轉送伺服器時，從媒體路徑移除轉送伺服器。 如需詳細資訊，請參閱 Plan for media 旁路 in 商務用 Skype 2015。
-ms.openlocfilehash: 6c422d76fa5f1fcfbdbe73cc94acf9e8196c7903
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 媒體旁路表示每當可能的呼叫符號透過轉送伺服器時，從媒體路徑中移除轉送伺服器。 如需詳細資訊，請參閱 Plan for media 旁路 in 商務用 Skype 2015。
+ms.openlocfilehash: 26ac80f8a43a730057ac23fab5cbceae4f7e1185
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834518"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646264"
 ---
-# <a name="media-bypass-planning-tool"></a>媒體旁路 (規劃工具) 
+# <a name="media-bypass-planning-tool"></a>媒體旁路規劃工具
  
-媒體旁路是指當呼叫的轉送伺服器的信號流經轉送伺服器時，從媒體路徑移除轉送伺服器。 如需詳細資訊，請參閱 [Plan for media 旁路 In 商務用 Skype 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)。
+媒體旁路是指當呼叫的轉送伺服器的信號流經轉送伺服器時，從媒體路徑移除轉送伺服器。 如需詳細資訊，請參閱[Plan for media 旁路 in 商務用 Skype 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)。
   
-

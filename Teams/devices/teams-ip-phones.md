@@ -21,22 +21,22 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: b531f6bb3a6a097f1480b3bcbfc938cdf20a8ec4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 467192fbf3635d7ef478b246e9376dfbc3d16829
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510344"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646224"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認證的裝置
 
 這些Microsoft Teams認證計畫可確保使用經過認證的電話機和會議電話的客戶，能體驗高品質的音訊通話和會議體驗。
 
-Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以符合此較高的列，且符合認證要求的裝置。 我們的部分合作夥伴也正在努力在電話商務用 Skype硬體上，為Teams服務提供支援。 來自認證Microsoft Teams裝置的好處包括：
+Microsoft Teams認證程式可確保品質較高的資料條具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以滿足此較高層次的需求，並符合認證要求的裝置。 我們的部分合作夥伴也正在努力在與手機商務用 Skype相同的硬體上，為Teams服務提供支援。 來自認證Microsoft Teams裝置的好處包括：
 
 - 硬體Teams整合和 LED 通知的原生體驗
 - 日曆整合和一鍵式會議加入
-- 透過系統管理中心與 intune Teams部署和管理
+- 透過整合 Intune Teams系統管理中心部署及管理
 
 ## <a name="currently-certified-teams-phones"></a>目前已Teams手機
 
@@ -52,7 +52,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 | AudioCodes C435HD                      | 1.12.33                                                  | 2021 年 4 月                   |
 | AudioCodes C470HD                      | 1.8.293                                                  | 2021 年 1 月                 |
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
-| AudioCodes C448HD (CAP 模式)       | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
+| 音訊代碼 C448HD (CAP 模式)       | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
 | Cresron UC-2                          |1.0.1.46                                                  | 2020 年 7 月                    |
 | Cresron M100                          | 此產品已停用。 如要詳細資訊，請流覽[Crsron網站上Crsron M100。](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) | 已于 2020 (5/11)  |
 | Cresron Flex UC-P100-T & UC-P110-T    | 此產品已停用。 如要詳細資訊，請流覽[電話](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)的 UC 連結。                  | 已于 2020 (5/11)  |
@@ -129,8 +129,8 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 | 裝置模型        | 固件版本     | 已包含產品發行  |
 |:--------------------|:---------------------|:-------------------------|
-| Poly Trio C60   | 7.0.3.0342  | 2021 更新#2                        |
-| Poly CCX400/CCX500/CCX600   | 7.0.3.0347 | 2021 更新#2                     |
+| Poly Trio C60   | 7.0.3.0517  | 2021 更新#2                        |
+| Poly CCX400/CCX500/CCX600   | 7.0.3.0515 | 2021 更新#2                     |
 | 音訊代碼 C448HD/C450HD/C470HD   | 1.10.143  | 2021 更新#2           |
 | Yealink T55/T56/T58   | 58.15.0.131  | 2021 更新#2                       |
 | Yealink VP59   | 91.15.0.63  | 2021 更新#2                               |
@@ -183,7 +183,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 | 裝置模型  | 固件版本 | 已包含產品發行 |
 |:--------------|:-----------------|:-------------------------|
-| AudioCodes RXV80 |1.13.356   | 2021 更新#2 |
+| AudioCodes RXV80 |1.13.361   | 2021 更新#2 |
 | Yealink VC210 |118.15.0.54   | 2021 更新#2    |
 | Yealink MeetingBar A20 | 133.15.0.60     | 2021 更新#2    |
 | Yealink MeetingBar A30 | 133.15.0.60    | 2021 更新#2    |

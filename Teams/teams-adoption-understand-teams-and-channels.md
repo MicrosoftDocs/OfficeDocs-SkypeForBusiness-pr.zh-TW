@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae3efe06e36c653069c06127c98f228fb25cac37
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6daa5391e90c1931e7de1e3008c41782b0b22976
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831203"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646824"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>瞭解團隊和頻道Microsoft Teams
 
@@ -36,10 +36,10 @@ ms.locfileid: "49831203"
 
 - 頻道是團隊內部共同作業的空間，實際工作是在其中完成。 
 
-若要閱讀團隊和頻道的更多資訊，請參閱團隊和頻道概觀[Microsoft Teams。](teams-channels-overview.md) 如要Teams採用指南，請取得Teams[指南](https://aka.ms/teamstoolkit)。 若要深入瞭解群組Teams Microsoft 365群組，請參閱Microsoft 365群組Microsoft Teams，並深入瞭解[](office-365-groups.md)Microsoft 365[群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+若要閱讀團隊和頻道的更多資訊，請參閱團隊和頻道概觀[Microsoft Teams。](teams-channels-overview.md) 如要Teams採用指南，請取得Teams[指南](https://aka.ms/teamstoolkit)。 若要深入瞭解群組Teams群組Microsoft 365，請參閱Microsoft 365[群組](office-365-groups.md)Microsoft Teams，並深入瞭解Microsoft 365[群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 
-|  |  |
+| &nbsp; |&nbsp;  |
 |---------|---------|
 | 觀看這段短片   | <iframe width="350" height="200" src="https://www.youtube.com/embed/hjJWtoaRJeE" frameborder="0" allowfullscreen></iframe>   |
 

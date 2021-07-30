@@ -17,12 +17,12 @@ description: 瞭解如何在系統管理中心的 Teams 管理應用程式頁面
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 6ea09ae40068277c5e450c19b6e258d04fd40fdc
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: e237fc1e511694b80cb9b98ca4e1f9c36f1eba25
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126909"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646464"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在系統管理中心管理Microsoft Teams應用程式
 
@@ -45,14 +45,14 @@ ms.locfileid: "53126909"
 
   ![應用程式詳細資料頁面的螢幕擷取畫面](media/manage-apps-app-details.png)
   
-- **認證**：如果應用程式已經通過認證，則會看到已認證 **Microsoft 365或Publisher****認證**。 選取連結以查看應用程式的認證詳細資料。 如果您看到 **--** 「」，我們並沒有應用程式的認證資訊。 若要深入瞭解應用程式中的認證Teams，請參閱[Microsoft 365認證計畫](/teams-app-certification/all-apps)。  
+- **認證**：如果應用程式已經通過認證，則會看到已 **Microsoft 365或Publisher****認證**。 選取連結以查看應用程式的認證詳細資料。 如果您看到 **--** 「」，我們並沒有應用程式的認證資訊。 若要深入瞭解應用程式中的認證Teams，請參閱[Microsoft 365認證計畫](/teams-app-certification/all-apps)。  
 - **Publisher：** 發行者的名稱。
 - **發佈狀態**：發佈自訂應用程式的狀態。
 - **狀態**：組織層級的應用程式狀態，可以是下列其中一項：
 - **允許**：此應用程式可供貴組織的所有使用者使用。
 - **已封鎖**：應用程式已封鎖，且不適用於貴組織的任何使用者。
-  - **封鎖整個組織**：應用程式會封鎖在全組織的應用程式設定中。
-      請注意，此欄代表之前位於全 **組織** 設定窗格中之應用程式的允許和封鎖狀態。 現在，您可以在管理應用程式頁面的全組織範圍內，查看、封鎖及 **允許應用程式** 。
+- **封鎖整個組織**：應用程式會封鎖在全組織的應用程式設定中。
+      請注意，此欄代表之前位於全 **組織** 設定窗格中之應用程式的允許和封鎖狀態。 現在，您可以在管理應用程式頁面的全組織範圍內，查看、封鎖及 **允許** 應用程式。
 - **授權**：指出應用程式是否提供軟體即服務 (SaaS) 訂閱以購買。 此欄僅適用于協力廠商應用程式。 每個協力廠商應用程式都會有下列其中一個值：
 - **現在購買**：應用程式提供 SaaS 訂閱，可供購買。  
 - **已** 購買：應用程式提供 SaaS 訂閱，而且您已購買其授權。
@@ -63,6 +63,7 @@ ms.locfileid: "53126909"
 - **- ：** 應用程式沒有需要同意的許可權。
 - **類別**：適用于應用程式的類別。
 - **版本**：應用程式版本。
+- **系統管理員可以在會議中安裝**：指出系統管理員是否可以在小組會議中安裝應用程式。 [深入了解](teams-app-setup-policies.md#install-apps)
 
 若要在表格中查看您想要的資訊，請選取右上角的編輯欄，以新增或移除表格中的欄。
 
@@ -71,7 +72,7 @@ ms.locfileid: "53126909"
 使用管理應用程式頁面來發佈專為貴組織所建立的應用程式。 發佈自訂應用程式之後，組織 App Store 中的使用者可以使用它。 有兩種方法可以發佈自訂應用程式至貴組織的 App Store。 使用方式取決於您取得應用程式的方式。
 
 - [核准自訂應用程式](#approve-a-custom-app)：如果開發人員使用應用程式提交 API 將應用程式直接提交到管理應用程式Teams使用此方法。 然後，您可以直接從應用程式詳細資料頁面 (或拒絕) 應用程式。
-- [Upload應用程式套件](#upload-an-app-package)：如果開發人員以新的格式傳送應用程式套件，.zip方法。 您可以上傳應用程式套件來發佈應用程式。
+- [Upload應用程式套件](#upload-an-app-package)：如果開發人員以新的格式傳送應用程式套件，請使用此方法.zip套件。 您可以上傳應用程式套件來發佈應用程式。
 
 ### <a name="approve-a-custom-app"></a>核准自訂應用程式
 
@@ -122,11 +123,11 @@ ms.locfileid: "53126909"
 
 ## <a name="grant-admin-consent-to-apps"></a>將系統管理員同意授予應用程式
 
-您可以審查並授權代表貴組織中所有使用者要求許可權的應用程式。 如此一來，使用者就不需要在啟動 App 時，查看並接受應用程式要求的許可權。 許可權 **欄** 會指出應用程式是否具有需要同意的許可權。 針對在 Azure  AD 中註冊並擁有需要同意許可權的每個應用程式，您會看到一個 View 詳細資料連結。 若要深入瞭解，請參閱在系統管理中心中查看應用程式許可權Microsoft Teams[管理員同意](app-permissions-admin-center.md)。
+您可以審查並授權代表貴組織中所有使用者要求許可權的應用程式。 如此一來，使用者就不需要在啟動 App 時，查看並接受應用程式要求的許可權。 許可權 **欄** 會指出應用程式是否具有需要同意的許可權。 針對在 Azure  AD 中註冊並擁有需要同意的許可權的每個應用程式，您會看到一個 View 詳細資料連結。 若要深入瞭解，請參閱在系統管理中心中查看應用程式許可權Microsoft Teams[管理員同意](app-permissions-admin-center.md)。
 
 ## <a name="view-resource-specific-consent-permissions"></a>查看特定資源同意許可權
 
-資源特定 (RSC) 許可權，讓團隊擁有者同意應用程式存取及修改小組的資料。 RSC 許可權是精細Teams特定許可權，可定義應用程式可在特定小組中執行哪些工作。 您可以在應用程式詳細資料頁面的許可權選項卡上，查看 RSC 許可權。 若要深入瞭解，請參閱在系統管理中心中查看應用程式許可權Microsoft Teams[管理員同意](app-permissions-admin-center.md)。
+資源特定 (RSC) 許可權，讓團隊擁有者同意應用程式存取及修改小組的資料。 RSC 許可權是精細Teams特定許可權，可定義應用程式可在特定小組中執行哪些工作。 您可以在應用程式詳細資料頁面的許可權標籤上，查看 RSC 許可權。 若要深入瞭解，請參閱在系統管理中心中查看應用程式許可權Microsoft Teams[管理員同意](app-permissions-admin-center.md)。
 
 ## <a name="manage-org-wide-app-settings"></a>管理全組織的應用程式設定
 

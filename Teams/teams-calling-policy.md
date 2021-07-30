@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4502d76bbb2e12f38ba79d0848ecd06739417cc
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 061573176da10c48dc5cbee72a49f22eb4994c09
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53596606"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53661863"
 ---
 #  <a name="calling-and-call-forwarding-in-teams"></a>在 Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "53596606"
 
 ## <a name="edit-a-calling-policy"></a>編輯通話政策
 
-請遵循這些步驟來編輯現有的通話政策。
+請遵循下列步驟編輯現有的通話政策。
 
 1. 在系統管理中心的左側導Microsoft Teams，選取 **語音**  >  **通話政策**。
 2. 按一下要修改之政策旁的 ，然後選取 [ **編輯**。
@@ -79,31 +79,35 @@ ms.locfileid: "53596606"
 - **已停用**  語音信箱不適用於來電。
 - **使用者控制** 使用者可以決定是否想要語音信箱可用。
 
-### <a name="inbound-calls-can-be-routed-to-call-groups"></a>可路由來電至通話群組 
+### <a name="inbound-calls-can-be-routed-to-call-groups"></a>可路由來電至通話群組
 
-此設定會控制是否可以將來電轉往通話群組。
+此設定可控制是否可以將來電轉往通話群組。
 
-### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>允許委派傳入和外接通話
+### <a name="delegation-for-inbound-and-outbound-calls"></a>呼叫和外接通話的委派
 
-此設定可讓來電路由至代理人，允許代理人代表其具有委派許可權的使用者進行外接通話。 詳細資訊，請參閱 [與代理人共用電話線](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)。
+此設定可讓來電路由至代理人，允許代理人代表他們擁有委派許可權的使用者進行外接通話。 詳細資訊，請參閱 [與代理人共用電話線](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)。
 
 ### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>防止免付費，並透過 PSTN 傳送通話 
 
-將此選項設定為 **[開** ） 會透過 PSTN 傳送通話，並產生費用，而不是透過網路傳送電話並忽略付費。
+將此選項設定為 **[開** 」 會透過 PSTN 傳送通話，並產生費用，而不是透過網路傳送電話並忽略付費。
 
-### <a name="busy-on-busy-is-available-while-in-a-call"></a>在通話時，可在忙碌中忙碌
+### <a name="busy-on-busy-is-available-when-in-a-call"></a>在通話中時，可于忙碌時忙碌
 
-在忙碌 (忙碌選項) 是一個新的設定，可讓您設定當使用者已經在通話或會議或保留通話時如何處理來電。 新的或來電可能會以忙碌訊號拒絕，也可以根據使用者未接聽的設定路由。 您可以在租使用者層級或使用者層級啟用忙碌選項。 無論其忙碌選項的組組方式如何，通話或會議中的使用者或保留通話的使用者，都不得啟動新的通話或會議。 此設定預設為停用。
+在忙碌 (忙碌選項) 可讓您設定當使用者已經在通話或會議或保留通話時處理來電的方式。 新的或來電可能會以忙碌訊號拒絕，也可以根據使用者的未接聽設定路由。 您可以在租使用者層級或使用者層級啟用忙碌選項。 無論他們的忙碌選項是如何配置的，通話或會議中的使用者或保留通話的使用者，都不得啟動新的通話或會議。 此設定預設為停用。
 
-### <a name="allow-web-pstn-calling"></a>允許 Web PSTN 通話
+### <a name="web-pstn-calling"></a>Web PSTN 通話
 
 此設定可讓使用者使用網路用戶端Teams PSTN 號碼。
+
+### <a name="incoming-meeting-invites-are-automatically-answered"></a>系統會自動回復傳入的會議邀請
+
+此設定會控制是否自動回復傳入的會議邀請。 預設為關閉。 請記住，此設定僅適用于傳入的會議邀請。 它不適用於其他類型的通話。
 
 ### <a name="allow-music-on-hold"></a>允許等候音樂
 
 這項設定可讓您在 PSTN 來電者處於保留狀態時開啟或關閉等候音樂。 它預設為開啟。 此設定不適用於通話駐場和老闆代理人功能，目前僅能透過 PowerShell 使用。
 
-## <a name="related-topics"></a>相關主題
+## <a name="related-articles"></a>相關文章
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 

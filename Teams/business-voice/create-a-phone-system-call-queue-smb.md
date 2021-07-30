@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 description: 瞭解如何在 Microsoft 365 商務語音 中為小型企業設定Microsoft 365 商務語音。
-ms.openlocfilehash: e7141d32015207469346e018bc12bc362254ba2f
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: 0e0f6dde164f270987d4b01c6bc3528f8799a662
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126919"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646484"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>建立通話佇列 - 小型企業教學課程
 
@@ -51,7 +51,7 @@ ms.locfileid: "53126919"
 
 #### <a name="before-you-begin"></a>開始之前
 
-取得一[電話系統 - 如果您](../teams-add-on-licensing/virtual-user.md)還沒有虛擬使用者授權。 針對您打算設定的每個通話佇列和自動話務員取得一個。 這些授權是免費的，因此我們建議您額外取得一些授權，以防您決定日後變更您的設定。
+取得電話系統[- 如果您](../teams-add-on-licensing/virtual-user.md)還沒有虛擬使用者授權。 針對您打算設定的每一個通話佇列和自動電話機，取得一個。 這些授權是免費的，因此我們建議您額外取得一些授權，以防您決定日後變更您的設定。
 
 由於通話佇列中的代理人可能會撥出以傳回客戶電話，請考慮將呼叫代理的本機號碼設定為主電話號碼或適當的自動語音機號碼。 請參閱[在 Microsoft Teams](../caller-id-policies.md)管理本機號碼政策以瞭解更多資訊。
 
@@ -61,7 +61,7 @@ ms.locfileid: "53126919"
 
 # <a name="step-1brcreate-a-team"></a>[步驟 1 <br> 建立團隊](#tab/create-team)
 
-建立通話佇列時，您可以新增個別使用者至佇列，或使用現有的安全性群組、Microsoft 365群組，或Microsoft Teams小組。 我們建議您 [使用小組頻道](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 這可讓佇列成員彼此聊天、分享想法，以及建立檔或其他資源，協助他們協助您的客戶。 團隊也會提供語音信箱，讓來電者在數小時後留言，或佇列達到最大容量。
+建立通話佇列時，您可以新增個別使用者至佇列，或使用現有的安全性群組、Microsoft 365群組，或Microsoft Teams小組。 我們建議您使用 [小組頻道](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)。 這可讓佇列成員彼此聊天、分享想法，以及建立檔或其他資源，協助他們協助您的客戶。 團隊也會提供語音信箱，讓來電者在數小時後留言，或佇列達到最大容量。
 
 建立團隊
 
@@ -87,7 +87,9 @@ ms.locfileid: "53126919"
 
 1. 在 Teams中，尋找您剛剛建立的團隊，按一下[更多選項 (...) ，然後按一下 [**新增頻道**> 。
 
-2. 輸入頻道的名稱和描述，然後按一下 [ **新增**。
+2. 輸入頻道的名稱和描述。
+
+3. 在 **[隱私權**> 下，選擇 **[標準 - 團隊中所有人便於使用，** 然後按一下 [ **新增**> 。
 
 > [!div class="nextstepaction"]
 > [步驟 2 - 資源帳戶>](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=resource-account#steps)
@@ -120,9 +122,9 @@ ms.locfileid: "53126919"
 
 1. 在 Microsoft 365 系統管理中心中，按一下 [使用中使用者」 清單中的您想要指派授權的資源帳戶。
 
-2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
+2. 在 "**授權與應用程式"** 選項卡的 **"授權**" 下，選取 Microsoft 365 電話系統 -**虛擬使用者**。
 
-3. 按一下 **[儲存變更**。
+3. 按一下 **[儲存變更]**。
 
     ![指派授權使用者介面的螢幕擷取畫面Microsoft 365 系統管理中心](../media/resource-account-assign-virtual-user-license.png)
 
@@ -140,7 +142,7 @@ ms.locfileid: "53126919"
 
     ![通話識別碼設定螢幕擷取畫面](../media/call-queue-assign-calling-id.png)
 
-3. 選擇語言。 如果您啟用語音提示，系統產生的語音提示和語音信箱 (語音信箱) 。
+3. 選擇語言。 如果您啟用語音提示，系統產生的語音提示和語音信箱 (會) 。
 
     ![資源帳戶設定螢幕擷取畫面](../media/call-queue-name-language.png)
 
@@ -155,7 +157,7 @@ ms.locfileid: "53126919"
 > [!div class="nextstepaction"]
 > [步驟 3 - 呼叫代理人>](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
-# <a name="step-3brcall-agents"></a>[步驟 3 <br> 通話代理程式](#tab/call-agents)
+# <a name="step-3brcall-agents"></a>[步驟 3 <br> 通話代理人](#tab/call-agents)
 
 若要將代理人新增到通話佇列，我們會將它們新加到我們先前建立的團隊和頻道中。 您必須是團隊的成員，以執行此工作。
 
@@ -182,7 +184,7 @@ ms.locfileid: "53126919"
 
     - **話務員路由** 會同時響鈴佇列中的所有代理程式。 第一個接電話的代理人會接到電話。
 
-    - **連續路由** 會一個接一個地撥打所有呼叫代理程式。 如果客服人員關閉或不接電話，來電會撥打給下一個代理人，並嘗試所有代理人，直到被接回或打出電話。
+    - **連續路由** 會一個接一個地撥打所有呼叫代理程式。 如果客服人員關閉或不接電話，來電會撥打下一個代理人，並嘗試所有代理人，直到被接回或打出電話。
 
     - **輪循** 機制會平衡來電的路由，讓每個通話代理程式從佇列取得相同數量的通話。 在內入銷售環境中，這可能是理想的選擇，以確保所有通話代理人之間享有同等的機會。
 
@@ -208,7 +210,7 @@ ms.locfileid: "53126919"
 1. 設定 **佇列中的通話上限**。
 
 2. 選擇通話次數上限時要執行什麼工作。 您可以中斷通話或重新導向。 我們建議您將通話重新導向下列其中一個目的地：
-    - **組織中能夠** 接聽語音通話的人
+    - **組織中能夠接聽** 語音通話的人
     - **語音應用程式** - 自動語音留言或其他通話佇列。  (選擇此目的地時，選擇與自動電話機或通話佇列相關聯的資源帳戶。) 
     - **外部電話號碼** - 任何電話號碼。 使用此格式：+[國碼][區碼][電話號碼]
     - **語音** 信箱 - 您可以使用您建立團隊的語音信箱。
@@ -225,7 +227,7 @@ ms.locfileid: "53126919"
 1. 設定 **最長等待時間**。
 
 2. 選擇當通話時間過時您想要執行什麼工作。您可以中斷通話或重新導向。 我們建議您將通話重新導向下列其中一個目的地：
-    - **組織中能夠** 接聽語音通話的人
+    - **組織中能夠接聽** 語音通話的人
     - **語音應用程式** - 自動語音留言或其他通話佇列。  (選擇此目的地時，選擇與自動電話機或通話佇列相關聯的資源帳戶。) 
     - **外部電話號碼** - 任何電話號碼。 使用此格式：+[國碼][區碼][電話號碼]
     - **語音** 信箱 - 您可以使用您建立團隊的語音信箱。
