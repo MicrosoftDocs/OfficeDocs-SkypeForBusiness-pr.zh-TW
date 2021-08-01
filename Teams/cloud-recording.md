@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6f492ab931e765534adf455114ff570a94768a40
-ms.sourcegitcommit: e3bc5418025780207b05766cd817ef01c014a809
+ms.openlocfilehash: b66a65f9c3c5bf42911062d1af0a68b975363cfa
+ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53565709"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53660741"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -103,7 +103,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 |案例|步驟|
 |--|--|
 | 我想要讓公司中的所有使用者都能錄製他們的會議。 | <ol><li>確認 Global CsTeamsMeetingPolicy 具有 AllowCloudRecording = True。<li>所有使用者都擁有 Global CsTeamsMeetingPolicy 原則或是其中一個 CsTeamsMeetingPolicy 原則具備 AllowCloudRecording = True。</ol> |
-| 我想讓我的大部分使用者都能錄製其會議，但可以選擇性地停用特定使用者不讓他進行錄製。 | <ol><li>確認 GlobalCsTeamsMeetingPolicy 原則具備 AllowCloudRecording = True。<li>大部分使用者都擁有 Global CsTeamsMeetingPolicy 原則或是其中一個 CsTeamsMeetingPolicy 原則具備 AllowCloudRecording = True。<li>所有其他使用者都獲得其中一個 CsTeamsMeetingPolicy 原則具有 AllowCloudRecording = False 的授權。</ol> |
+| 我想讓我的大部分使用者都能錄製其會議，但可以選擇性地停用特定使用者, 不讓其進行錄製。 | <ol><li>確認 GlobalCsTeamsMeetingPolicy 原則具備 AllowCloudRecording = True。<li>大部分使用者都擁有 Global CsTeamsMeetingPolicy 原則或是其中一個 CsTeamsMeetingPolicy 原則具備 AllowCloudRecording = True。<li>所有其他使用者都獲得其中一個 CsTeamsMeetingPolicy 原則具有 AllowCloudRecording = False 的授權。</ol> |
 | 我想要 100% 停用錄製。 | <ol><li>確認 Global CsTeamsMeetingPolicy 具有 AllowCloudRecording = False。<li>所有使用者都獲得 Global CsTeamsMeetingPolicy 原則或是其中一個 CsTeamsMeetingPolicy 原則具備 AllowCloudRecording = False。 |
 | 我想讓大部分使用者不能錄製會議，但我能選擇性地啟用特定使用者允許他進行錄製。 | <ol><li>確認 Global CsTeamsMeetingPolicy 具有 AllowCloudRecording = False。<li>大部分使用者都獲得 Global CsTeamsMeetingPolicy 原則或是其中一個 CsTeamsMeetingPolicy 原則具備 AllowCloudRecording = False。<li>所有其他使用者都獲得其中一個 CsTeamsMeetingPolicy 原則具備 AllowCloudRecording = True 的授權。 <ol> |
 
@@ -111,7 +111,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowCloudRecording $true
 <a name="bd-channel"></a>
 ### <a name="block-or-allow-download-of-channel-meeting-recordings"></a>封鎖或允許下載頻道會議錄製內容
 
-此設定可控制頻道會議是否會儲存至頻道中的「錄製內容」資料夾或「錄製內容\僅供檢視」資料夾。
+此設定可控制頻道會議是否會儲存至頻道中的「錄製內容」資料夾或「錄製內容\僅供檢視」資料夾。 此設定適用於選取頻道會議記錄的使用者原則。 
 
 此設定有兩個值：
 
@@ -236,7 +236,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 <a name="temp-storage"></a>
 ### <a name="temporary-storage-when-unable-to-upload-to-onedrive-for-business-and-sharepoint-online"></a>無法上傳到商務用 OneDrive 和 SharePoint Online 時的暫存空間
 
-如果會議錄製內容無法上傳到商務用 OneDrive 和 SharePoint Online，此檔案在刪除之前，暫時可從 Teams 下載使用 (為期 21 天)。 目前系統管理員並無法控制或管理此機制，包括加以刪除的能力。
+如果會議錄製內容無法上傳到商務用 OneDrive 和 SharePoint Online，此檔案在刪除之前，暫時可從 Teams 下載 (為期 21 天)。 目前系統管理員無法控制或管理此機制，包括將其刪除的能力。
 
 會議錄製可能會中止在暫存空間中的原因如下：
 
@@ -254,6 +254,114 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 1小時錄製內容的大小為 400 MB。 請確認您瞭解錄製檔案所需的容量，並讓商務用 OneDrive 和 Microsoft Office SharePoint Online 有足夠的儲存空間可使用。  閱讀 [設定商務用 OneDrive 的預設儲存空間](/onedrive/set-default-storage-space) 和 [管理 SharePoint Online 網站儲存空間限制](/sharepoint/manage-site-collection-storage-limits)，以了解訂閱中所包含的基本儲存空間，以及如何購買額外的儲存空間。
 
+ <a name="auto-expiration"></a>
+### <a name="auto-expiration-of-teams-meeting-recordings"></a>Teams 會議錄製自動到期： 
+
+> [!IMPORTANT] 
+>
+> 本文內容中的自動到期功能尚未啟動。 請參閱[藍圖（功能識別碼： 84580）](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580)以瞭解有關其傳遞日期的詳細資訊。 
+> 
+> 我們會提供此功能在未來如何執行的資訊，因此您可以事先規劃這項變更並修改 Teams 原則設定。 
+
+請參閱系統管理員和使用者的常見問題，以收集 Teams 會議錄製的自動到期如何運作的深入見解、您現在可採取的動作，以及此功能啟動後可以採取的動作。 
+  
+## <a name="frequently-asked-questions"></a>常見問題集
+
+**是什麼變更？**
+  
+我們引進所有新建立 Teams 會議錄製(TMR) 的預設 60 天到期設定。 這表示根據預設，在啟用此功能之後建立的所有 TMR，都會在建立日期 60 天後刪除。 如果系統管理員希望會議錄製的到期時間早於或晚於預設值，他們可以修改到期設定。 OneDrive 和 SharePoint 系統將會監視所有會議錄製的到期日集，並會在到期日自動將它們移至資源回收筒。 
+
+**誰會受影響?**
+  
+任何人在 OneDrive 或 SharePoint 中儲存 Teams 會議錄製內容 (非頻道、頻道或臨時會議)。 
+
+**為何我應該使用此功能？**
+  
+您應該使用此功能來限制 Teams 會議錄製所消耗的 OneDrive 或 SharePoint 儲存空間(注意：它們通常每小時使用 400 MB 錄製)。 
+  
+**我們為什麼引進這項變更？**
+  
+客戶已提供大量意見反應，希望更多控制項以減少從 Teams 會議錄製中產生的儲存空間雜亂資料，平均而言，99% 在 60 天後就永遠不會再重看。
+  
+**為什麼此功能會預設開啟?**
+  
+我們相信，幾乎所有客戶都會從租用戶降低的儲存空間負載獲益，由於移除 60 天後可能永遠不會重看的錄製內容。 我們的目標是藉由預設, 儘可能為所有客戶提供乾淨的體驗。 
+  
+**到期日如何計算？**
+  
+到期日的計算方式為建立會議錄製的日期，加上系統管理員在 Teams 設定中設定的預設天數。 
+  
+**系統管理員如何變更到期日?**
+  
+系統管理員今天可以在 PowerShell 中變更預設到期設定。 當此功能啟動時，系統管理員可以在 Teams 系統管理中心變更此設定。 變更到期設定只會從該時間點起影響新建立之 TMR。 這不會影響該日期之前進行的任何錄製。 
+
+系統管理員可申請的到期天數上限設定為 99，999 天或 273 年。 在此功能釋出之前，系統管理員無法變更已上傳至 OneDrive 或 SharePoint 的現有 TMR 到期日。 這可保護擁有 TMR 的使用者意圖。 
+
+  PowerShell 命令範例： 
+  
+  ```powershell
+  Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50
+  ```
+  
+**系統管理原則的控制範圍是什麼？**
+  
+會議和通話都會由相同的 `CsTeamsMeetingPolicy`設定`MeetingRecordingExpirationDays`控制。 
+  
+**使用者如何修改特定 TMR 檔案的到期日？**
+  
+擁有 TMR 編輯和刪除許可權的任何人都可以在 OneDrive 或 SharePoint 的檔案詳細資料窗格中修改到期日。 
+
+使用者可以將到期日延遲 14、30 或 60 天，也可以選擇未來的特定日期，或選取永不過期的檔案。 
+  
+**系統管理員是否依賴此功能來嚴格遵循安全性與合規性？**
+  
+否，系統管理員不應該依賴此功能進行法律保護，因為使用者可以修改他們控制的任何錄製的到期日。 
+  
+**啟用此功能會強制執行檔案保留？**
+  
+否，由於此功能或其設定，將不會保留檔案。 如果具有刪除許可權的使用者嘗試刪除具有到期設定之 TMR，將會執行該使用者的刪除動作。
+ 
+**在安全性與合規性 (S+C) 中心設定的保留和/或刪除原則是否會取代 TMR 到期設定？**
+  
+是，您於 S+C 中心設定的任何原則將擁有完整優先順序。 例如： 
+  
+- 如果您擁有一個原則，指出網站中所有檔案都必須保留 100 天，而 TMR 的到期設定是 30 天，則記錄檔案會保留 100 天整。  
+- 如果您的刪除原則是, 所有 TMR 將在 5 天後刪除，而且您的錄製檔案有 30 天的到期設定，則該檔案將在五天後刪除。 
+
+**TMR 「到期」 會發生什麼情況？**
+  
+在到期日，TMR 會移至 OneDrive 或 SharePoint 回收站，並清除到期日欄位。 系統的這個動作與使用者刪除檔案的方式完全相同。 資源回收筒生命週期後續會遵循正常路徑。 如果使用者從資源回收筒復原 TMR，除非使用者在檔案上設定新的到期日，否則此功能不會再次刪除 TMR，因為到期日已清除。 
+  
+**我要如何收到有關檔案到期的通知？**
+  
+擁有查看存取權的每一個人，都會在 Teams 聊天視窗中的錄製通知中看到有關到期日的通知。 
+  
+在檔案到期的 14 天前，擁有存取權的所有人都會在 OneDrive 或 SharePoint 資料夾中的檔案旁邊看到紅色圖示。 
+  
+檔案擁有者會在 TMR 到期時收到電子郵件通知，如果檔案擁有者想要復原 TMR，就會導向資源回收筒以復原 TMR。
+  
+**這項功能需要哪些 SKUs ?**
+  
+根據預設，所有 SKU 都會有此功能。 A1 使用者將預設為 30 天到期期間，且無法修改到期日
+  
+**檔案到期是已稽核事件，我可以在稽核記錄中看見它嗎？**
+  
+是，檔案到期時間會顯示為稽核記錄中的系統刪除事件。 
+  
+**如果我想要系統管理員完全控制 TMRs 的生命週期，而不想讓使用者能夠覆蓋到期日，該如何做？**
+  
+我們建議您使用 S+C 保留和/或刪除原則, 為 E5 合規性 SKU 中提供使用的原則。 提供該功能的目標是解決複雜的原則與 SLA 導向的管理法律考量。 
+
+這項功能只是做為輕量型儲存機制，以減少從冷的 TMR 所產生的儲存空間雜亂。 
+  
+**何時會刪除檔案？**
+  
+檔案將在到期日的 5 天內刪除，但這不是嚴格的保證。 
+  
+**未來在此功能釋出後, 從傳統資料流移轉來的 TMR 也將套用自動到期？**
+  
+否，移轉的 TMR 不會有到期設定。 相反地，我們鼓勵系統管理員只遷移他們想要保留的 TMR。 移轉文件將會提供更多詳細資料。
+  
 ## <a name="manage-meeting-recordings"></a>管理會議錄製
 
 會議錄製會以影片檔案儲存在商務用 OneDrive 和 SharePoint Online 中，並遵循這些平台提供的管理和控管選項。 請閱讀 [SharePoint Online 控管概觀](/sharepoint/governance-overview)、[適用於企業的商務用 OneDrive 指南](/onedrive/plan-onedrive-enterprise)，或 [適用於小型企業的商務用 OneDrive 指南](/onedrive/one-drive-quickstart-small-business) 以取得更多資訊。
@@ -273,7 +381,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > [!NOTE]
 > 將會提供僅英文的即時輔助字幕 (會議謄寫功能尚無法在 GCC 中使用)。
 
-## <a name="compliance-and-ediscovery-for-meeting-recordings"></a>會議錄製的合規性與電子文件探索
+## <a name="ediscovery-and-compliance-for-meeting-recordings"></a>會議錄製的 eDiscovery 與合規性
 
 ### <a name="ediscovery"></a>電子文件探索
 

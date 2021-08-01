@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams 的限制和規格
-author: microsoftheidi
+author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
 ms.topic: reference
@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f28e9f1b0fcc4d8855b0c053dbd71ee30cf58747
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: 08b6686a640e039cbd84d95196824d4b35fb9f35
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506342"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646034"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -125,12 +125,12 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的訊�
 |PowerPoint 檔案大小的最大值 | 2 GB|
 |Teams 會保留[會議記錄](cloud-recording.md)，該記錄不會上傳至 Microsoft Stream，但可供本機下載 | 20 天 |
   
-<sup>1</sup> 為了在大型會議、網路研討會和即時活動中獲得最佳體驗，Microsoft 建議使用 Teams 桌面用戶端或 Teams 行動裝置用戶端。
-  
+<sup>1</sup> 為了在大型會議、網路研討會和即時活動中獲得最佳體驗，Microsoft 建議使用最新版的 Teams 桌面用戶端或 Teams 行動裝置用戶端。
+
 <sup>2</sup> 大型會議、網路研討會和即時活動中的簡報者應該使用 Teams 桌面用戶端。 如需主持大型會議的更多秘訣，請參閱 [大型 Teams 會議的最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
-  
+
 > [!NOTE]
-> 分組會議室只能在少於 300 名出席者的會議中建立。 此外，在會議中建立分組會議室會自動將會議出席者人數限制為 300 人。 建議使用者不要在預期超過 300 名參與者的會議中初始化分組會議室。 如需大型小組會議的資訊，請與使用者分享指南 [適用於大型 Teams 會議的最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。 
+> 分組會議室只能在少於 300 名出席者的會議中建立。 此外，在會議中建立分組會議室會自動將會議出席者人數限制為 300 人。 建議使用者不要在預期超過 300 名參與者的會議中初始化分組會議室。 如需大型小組會議的資訊，請與使用者分享指南 [適用於大型 Teams 會議的最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
 
 ### <a name="meeting-expiration"></a>會議到期
 
@@ -169,7 +169,7 @@ Teams 的聊天是在 Microsoft Exchange 後端執行，因此 Exchange 的訊�
 >- 不同租用戶可以同時進行 50 個活動
 >- 每個廣播的活動持續時間 (16 小時)
 >
-> 此外，可透過 Microsoft 365 輔助計畫來規劃最多 100,000 位出席者參與的即時活動。小組會評估每個要求，並與您一起判斷可用的選項。[深入了解](https://aka.ms/Stream/Blog/LiveEventOptions)。 
+> 此外，可透過 Microsoft 365 輔助計畫來規劃最多 100,000 位出席者參與的即時活動。小組會評估每個要求，並與您一起判斷可用的選項。[深入了解](https://aka.ms/Stream/Blog/LiveEventOptions)。
 
 ## <a name="presence-in-outlook"></a>在 Outlook 中的顯示狀態
 

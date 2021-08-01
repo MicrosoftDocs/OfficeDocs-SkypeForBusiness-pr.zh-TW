@@ -20,12 +20,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88a9f86ae72bcc86ba2a1c7d252950c6b11cbf36
-ms.sourcegitcommit: 0c3ff4933360813b9c6d78adea02f42688dea997
+ms.openlocfilehash: 854443e529736207520cbfdbe845c0b4992f9cd6
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "53463296"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53647014"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>快速入門 - 會議、網路研討會與即時活動 
 
@@ -42,29 +42,35 @@ Microsoft Teams 有多種開會方式 - 會議、網路研討會和即時活動�
 
 不同類型的會議也有不同的參與者限制和參與者功能。 
 
-下表簡要摘要說明三種會議類型、建議的參與者數目，以及參與者如何在會議中互動。 有關每種會議類型的詳細資訊，請參閱表格。
-<br><br>
+下表簡要摘要說明三種會議類型、建議的參與者數目，以及參與者如何在會議中互動。如需每種類型會議的詳細資訊，請參閱下表。 <br><br>
 
 | 會議類型 | 參與者的數量 | 互動 | 支援註冊 |
 |----------|--------|--------|-----|
-| 會議  | 最多 20,000* 位 <br> | -最多 1,000 位參與者具有完全互動式的相等會議功能 <br> -超過 1,000 位參與者 (最多 20,000 位) 具有[僅供檢視](view-only-meeting-experience.md)功能  | 否 |
-| 網路研討會 | 最多 20,000* 位 |-最多 1,000 位參與者具有完全互動式功能 <br> -超過 1,000 位參與者 (最多 20,000 位) 具有[僅供檢視](view-only-meeting-experience.md)功能  <br> -觀眾互動可設定 <br> -可以指定簡報者 | 是 |
-| 即時活動 | 最多 20,000** 位 |-廣播給大量觀眾 <br>-觀眾互動的仲裁問與答 <br> -可以指定製作者和簡報者，包括外部簡報者<br>-支援更多進階製作功能 | 否 |
+| 會議  | 最多 20,000* 位 <br> | -最多 1,000 位參與者具有完整的互動式平等會議功能。 <br> -超過 1,000 位參與者 (最多 20,000 位) 具有 [僅供檢視](view-only-meeting-experience.md) 功能。  | 否 |
+| 網路研討會 | 最多 1,000 位<br>-增加 [僅供檢視](view-only-meeting-experience.md) 功能的限制即將推出。 |-最多 1,000 位參與者具有完整的互動式功能。 <br> -可設定的觀眾互動。 <br> -可以指定簡報者。 | 是 |
+| 即時活動 | 最多 20,000** 位 |-向大型觀眾廣播。 <br>-觀眾互動的仲裁問與答。 <br> -可以指定製作者和簡報者，包括外部簡報者。<br>-支援其他進階製作功能。 | 否 |
 ||||
 
 *到 2021 年 12 月 31 日，由一般的 10,000 位增加到 20,000 位。<br>
 
-**到 2021 年 12 月 31 日，由一般的 10,000 位增加到 20,000 位。 您可以在 Yammer 和/或 Microsoft Stream 中排程更多即時活動。 如需詳細資訊，請參閱[跨 Microsoft 365 的即時活動](https://docs.microsoft.com/stream/live-event-m365)。 請注意，超過 20,000 位出席者需要[即時活動協助計畫](https://docs.microsoft.com/stream/live-events-assistance)。 
+**到 2021 年 12 月 31 日，由一般的 10,000 位增加到 20,000 位。 您可以在 Yammer 和/或 Microsoft Stream 中排程更多即時活動。 如需詳細資訊，請參閱[跨 Microsoft 365 的即時活動](/stream/live-event-m365)。 請注意，超過 20,000 位出席者需要[即時活動協助計畫](/stream/live-events-assistance)。 
 
-為了在大型會議中獲得最佳體驗，Microsoft 建議使用 Teams 桌面用戶端或 Teams 行動裝置用戶端。 大型會議中的簡報者應該使用 Teams 桌面用戶端。 如需主持大型會議的更多秘訣，請參閱[大型 Teams 會議的最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
+**大型會議、網路研討會和即時活動的考慮事項** - 主持大型會議時，請考慮下列事項：
+
+- 若要在大型會議、網路研討會和即時活動中獲得最佳體驗，Microsoft 建議使用最新版的 Teams 桌面用戶端或 Teams 行動裝置用戶端。 
+
+- 大型會議、網路研討會和即時活動中的簡報者應該使用 Teams 桌面用戶端。 
+
+- 如需主持大型會議的更多秘訣，請參閱[大型 Teams 會議的最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
 
 有關僅供檢視會議體驗的資訊，請參閱 [Teams 僅供檢視會議體驗](view-only-meeting-experience.md)。
 
 請注意，會議、網路研討會和即時活動中完全支援 NDI，讓您使用 OBS 和 Wirecast 等工具產生廣播。 如需詳細資訊，請參閱[在Microsoft Teams 中使用 NDI® 技術](use-ndi-in-meetings.md)。
 
+
 ### <a name="meetings"></a>會議
 
-Teams 中的 **會議** 包括音訊、視訊，且螢幕畫面分享人數最多可達 1,000 人，以及最多 1,000 位參與者的[僅供檢視](view-only-meeting-experience.md)功能。 參與者不需要具備組織的成員資格 (或擁有 Teams 帳戶) 就能加入 Teams 會議。 他們可以透過加入會議連結直接從行事曆邀請加入，或透過音訊通話 (如果有)。  
+Teams 中的 **會議** 包括音訊、視訊，且螢幕畫面分享人數最多可達 1,000 人，以及最多 1,000 位參與者的 [僅供檢視](view-only-meeting-experience.md)功能。 參與者不需要具備組織的成員資格 (或擁有 Teams 帳戶) 就能加入 Teams 會議。 他們可以透過加入會議連結直接從行事曆邀請加入，或透過音訊通話 (如果有)。  
 
 作為系統管理員，您將設定會議設定，並指定會議原則來控制貴組織啟用哪些會議功能。  
 
@@ -141,7 +147,7 @@ Teams 中的 **會議** 包括音訊、視訊，且螢幕畫面分享人數最�
 
 ## <a name="apps-for-meetings"></a>會議應用程式
 
-Microsoft 可讓您整合及使用會議應用程式來增強會議體驗。 例如，Teams 會議中的白板整合功能採用 Whiteboard Web App 功能，可讓 Teams 會議的參與者在共用的數位畫布上繪圖、打草稿和書寫。
+Microsoft 讓您能夠透過整合和使用會議應用程式來增強會議體驗。例如，Teams 會議中的白板整合功能採用 Whiteboard Web App 功能，可讓 Teams 會議的參與者在共用的數位畫布上繪圖、打草稿和書寫。
 
 您可以使用隨著 Teams 提供的應用程式、使用認證的協力廠商應用程式和範本，以及透過建立您自己的自訂應用程式，將會議應用程式新增到您的 Teams 部署。 
 

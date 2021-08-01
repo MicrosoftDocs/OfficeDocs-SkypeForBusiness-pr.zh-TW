@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 中的來賓存取可將團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。
-ms.openlocfilehash: 80e0f7edb581b5c9089a1d79feece5a6877f1e2f
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: ac699c662c8e0ac61180c1031cfc77c300c51d19
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536829"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646424"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的來賓存取
 
@@ -54,6 +54,12 @@ Teams 中的來賓存取需要設定 Microsoft 365 中的其他設定，包括�
 - 若要與合作夥伴組織共同作業，使用 Azure Active Directory 並允許來賓自行註冊以取得小組存取，請參閱 [使用受管理來賓建立 B2B 外部網路](/microsoft-365/solutions/b2b-extranet)。
 
 Teams 的來賓存取是一項全組織設定，預設為關閉。 您可以透過使用 [敏感性標籤](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)，控制來賓對個別 Teams 的存取。
+
+### <a name="turning-guest-access-off"></a>關閉來賓存取
+
+如果您將 Teams 中的來賓存取關閉，現有的來賓存取即無法存取各自的小組。 不過，他們不會在小組中遭到移除。 小組成員仍可看到它們，而且可以　@mentioned。 如果您再次開啟 Teams 來賓存取，他們將會重新取得存取權。
+
+如果您計畫要將來賓存取權保持關閉，您可能想要建議您的小組擁有者手動移除小組中的來賓帳戶。 雖然這些來賓不具有存取權，若小組可以看見他們的帳戶，可能會導致其他小組成員混淆。
 
 ## <a name="how-a-guest-becomes-a-member-of-a-team"></a>來賓成為小組成員的方式
 

@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 0d1d453e0d9d6575ec108b4bc17cdce1f4dac839
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 56287bc82afbd686ead23134779043ceb27782f3
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53096327"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646094"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>什麼是 Microsoft Teams 即時活動
 
@@ -41,7 +41,7 @@ Teams 提供聊天式的共同作業、通話、會議和即時活動，因此�
 
 Teams 即時活動被視為下一版的 Skype 會議廣播，而且最終會取代 Skype 會議廣播中提供的功能。 目前，Microsoft 將繼續為組織中使用商務用 Skype 的使用者支援 Skype 會議廣播，不會中斷新活動或未來活動的服務。 不過，我們鼓勵您試用 Teams 即時活動，以使用所有全新且令人興奮的功能，包括螢幕畫面分享和支援外部硬體/軟體編碼器。
 
-讓我們開始吧。 首先，請看一下下圖，其中顯示與 Microsoft 365 即時活動有關的高層級元件，以及其連線方式。
+讓我們開始吧。首先，請看一下下圖，其中顯示與 Microsoft 365 即時活動有關的高層級元件，以及其連線方式。
 
 ![即時活動的主要元件](../media/live-event-flow-diagram.png  "即時活動、排程、產生、Stream 平台、認證的協力廠商 eCDN 提供者的主要元件")
 
@@ -102,6 +102,7 @@ eCDN 的目標是從網際網路拍攝影片內容，並將內容發佈至整個
 - [Kollective](https://kollective.com/ecdn-solutions/microsoft-live-events/)
 - [Ramp](https://rampecdn.com)
 - [Riverbed](https://www.riverbed.com/solutions/office-365.html)
+- [Peer5](https://www.peer5.com/) (即將推出)
 
 ### <a name="attendee-experience"></a>出席者體驗
 

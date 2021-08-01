@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.deploymentadvisor.overview
 description: 使用 Advisor for Teams 協助您規劃和完成您的 Microsoft Teams 部署。
-ms.openlocfilehash: 98a2d2ee2bdfca82de0f42651b1936d982ab6805
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b86ade0aa067e895ebf21b912801c761e7657ba
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240548"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646614"
 ---
 # <a name="use-advisor-for-teams-to-help-you-roll-out-microsoft-teams"></a>使用 Advisor for Teams 協助您推出 Microsoft Teams
 
@@ -71,8 +71,16 @@ Advisor for Teams 目前提供下列方案:
     - Forms 使用者問卷
     - Advisor for Teams Bot
     - 專為目前正在使用商務用 Skype Online 或商務用 Skype 內部部署環境的客戶設計，商務用 Skype 升級計畫可幫助您擺脫升級過程中的猜測。 該計劃將利用一個行之有效的成功框架來實作變更，無論您是剛開始使用 Teams、已經將 Teams與商務用 Skype 搭配使用還是準備進行升級，它都將指導您逐步進行操作。 該計劃還將提供您[線上指南和最佳做法](./upgrade-start-here.md)、[可下載資產](https://aka.ms/UpgradeSuccessKit)、[即時一對多規劃研討會](./upgrade-workshops-landing-page.yml)以及其他資源，以支援您成功升級。
+1. 教育 (僅適用於教育組織)
+    - 租用戶評估
+    - Planner 計劃，包括採用工作
+    - Forms 使用者問卷
+    - Advisor for Teams Bot
+    - 專為教育組織設計的教育方案，可協助您在教育機構中進行部署、採用和管理 Teams。
 
-我們建議您從交談、團隊、頻道和應用程式的方案開始。 您完成該工作負載的部署後，請返回 Advisor for Teams，選取 **[新增頻道]** 以開始下一項工作負載。
+針對商業組織，我們建議您從交談、團隊、頻道和應用程式的方案開始。 針對教育組織，建議您從教育方案開始。 您完成該工作負載的部署後，請返回 Advisor for Teams，選取 **[新增頻道]** 以開始下一項工作負載。
+
+
 
 ## <a name="tenant-assessment"></a>租用戶評估
 

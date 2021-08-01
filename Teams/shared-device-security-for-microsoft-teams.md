@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 的安全性指南
+title: Microsoft Teams 的安全性指南：在公用電腦上安全地使用 Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45497c824cfc20644a59e35f7812b17058f61c2c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cc886b2783d1398a85e00927a224968d65a9539b
+ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117051"
+ms.lasthandoff: 07/29/2021
+ms.locfileid: "53646004"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>在共用電腦上安全地使用 Microsoft Teams
 
@@ -46,14 +46,14 @@ ms.locfileid: "51117051"
 
 1. 使用作業系統平台安全性功能。
     1. 確保作業系統已設定為透過作業系統提供者安裝自動更新 (若為 Microsoft 系統，可透過 [**Windows Update**](https://support.microsoft.com/help/12373/windows-update-faq) 來完成此動作)。 
-    1. 確保已啟用任何裝置加密功能 (例如 [**bitlocker**](/windows/security/information-protection/bitlocker/bitlocker-overview))，以及用來存取裝置的金鑰受到保護。  請注意，大多數的 [**Windows 10 裝置支援 BitLocker**](/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)。 
+    1. 確保已啟用任何裝置加密功能 (例如 [**bitlocker**](/windows/security/information-protection/bitlocker/bitlocker-overview))，以及用來存取裝置的金鑰受到保護。請注意，大部分新式 [**Windows 10 裝置都支援 bitlocker**](/windows/security/information-protection/bitlocker/bitlocker-device-encryption-overview-windows-10)。 
     1. 在您的裝置上使用防毒功能，例如 [**Windows Defender**](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-antivirus-in-windows-10) 提供的功能。
     1. 強烈建議對系統的每個使用者使用[個別使用者帳戶](https://support.microsoft.com/help/4026923/windows-10-create-a-local-user-or-administrator-account)。
     1. *請勿* 對非系統管理功能 (例如瀏覽網頁、執行 Teams 等) 授與或使用系統管理員權限。
 
 如果不符合上述指導方針，我們建議使用額外的瀏覽器安全性最佳做法：
 
-1. 運用瀏覽器的安全性功能。
+1. 套用瀏覽器的安全性功能。
     1. 使用私人瀏覽工作階段，將保存到磁碟的資料和歷程記錄最小化。 例如，[在 Microsoft Edge 中使用 inPrivate 瀏覽](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate)、[在 Google Chrome中進行無痕式瀏覽](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en)，或使用您的特定瀏覽器用於私人瀏覽的功能。 
     1. 建議將系統行為變更為 *預設* 採用私人瀏覽。 
 
@@ -64,7 +64,7 @@ ms.locfileid: "51117051"
     1. 關閉所有瀏覽器索引標籤和視窗。
     1. 從裝置登出。
 
-上述項目並非涵蓋所有情況的最佳做法或安全性控制項的完整清單，且可能會在您的環境中採取額外的動作 (例如，如果您有 [Office 365 ATP 方案 1 或 2](/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide#office-365-atp-plan-1-and-plan-2)，安全性系統管理員可以選擇對 Teams 使用安全連結和安全附件)。 不過，這些步驟可做為建立從共用裝置使用 Teams 指導方針的起點。
+上述項目並非涵蓋所有情況的最佳做法或安全性控制項的完整清單，且可能會在您的環境中採取額外的動作 (例如，如果您有 [Office 365 ATP 方案 1 或 2](/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)，安全性系統管理員可以選擇對 Teams 使用安全連結和安全附件)。不過，這些步驟可做為建立從共用裝置使用 Teams 指導方針的起點。
 
 ## <a name="more-information"></a>詳細資訊
 
