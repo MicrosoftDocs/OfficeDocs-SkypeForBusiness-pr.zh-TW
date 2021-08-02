@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 description: 瞭解系統生命週期支援Microsoft Teams 會議室，包括動態支援結構及其階段。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d6ac865a59f2342b97ddb8cb0ae5807427c10b85
-ms.sourcegitcommit: 50ec59b454e751d952cde9fd13c8017529d0e1d6
+ms.openlocfilehash: c34f448eeaadbf946ab708378caa835a94836ccc
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "52469675"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679728"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 會議室應用程式版本支援
  
-應用程式Microsoft Teams 會議室應用程式每年會獲得數次更新。 每一次更新在 12 (12 個月內) 于 GA (發行日期) 支援。 在 12 個月內提供 12 個月的 (技術支援) 支援。 不過，支援結構是動態的，有兩個不同的階段，取決於最新版本的可用性：
+應用程式Microsoft Teams 會議室應用程式每年會獲得數次更新。 自發行日期起， (12) 12 個月內支援每個更新 (GA) 更新。 在 12 個月內提供 12 個月的 (技術支援) 支援。 不過，支援結構是動態的，有兩個不同的階段，取決於最新版本的可用性：
 
 - **維護與重要更新階段**- 當您執行最新版本的 Microsoft Teams 會議室 App 時，您會收到包含安全性與維護更新 *的定期更新*。
 
@@ -44,7 +44,7 @@ Microsoft Teams 會議室通道維護選項Windows 10 IoT 企業版或Windows 10
 - Windows 10IoT (Internet) Enterprise LTSB / LTSC 版本
 - 任何其他版本的Windows，例如Windows 10 專業版家用版
 
-Windows 10裝置上不會立即提供新功能Microsoft Teams 會議室新功能更新。 在發佈于發行資訊頁面上的一般發行日期之後，Windows 10延遲達[六](/windows/release-information/)個月。 延遲時間會用來驗證 Windows 10應用程式、裝置硬體Microsoft Teams 會議室認證音訊視訊外Microsoft Teams 會議室的發行相容性。 驗證會在每個主要版本開發期間開始並繼續Windows 10。 需要額外時間驗證所有裝置製造商都為裝置建立更新的影像，Microsoft Teams認證和測試這些影像。 在驗證期間，Microsoft Teams會議室應用程式會Windows[商務用](/windows/deployment/update/waas-manage-updates-wufb)更新群組原則來延遲Windows 10更新。 找到並解決任何相容性問題之後，封鎖會透過新版 App 在 Windows 中更新群組原則Windows解除。 執行此應用程式Microsoft Teams 會議室裝置會在Windows 10維護重新開機期間自動更新至適當的版本。 MSI 版本可供想要手動管理更新的客戶使用。  
+系統Windows 10裝置上不會立即提供新功能Microsoft Teams 會議室新功能更新。 在發佈于發行資訊頁面上的一般發行日期之後，Windows 10延遲達[六](/windows/release-information/)個月。 延遲時間會用來驗證 Windows 10應用程式、裝置硬體Microsoft Teams 會議室認證音訊視訊外Microsoft Teams 會議室的發行相容性。 驗證會在每個主要版本開發期間開始並繼續Windows 10。 需要額外時間驗證所有裝置製造商都為裝置建立更新的影像，Microsoft Teams認證和測試這些影像。 在驗證期間，Microsoft Teams會議室應用程式會Windows[商務用](/windows/deployment/update/waas-manage-updates-wufb)更新群組原則來延遲Windows 10更新。 找到並解決任何相容性問題之後，封鎖會透過新版 App 在 Windows 中更新群組原則Windows解除。 執行此應用程式Microsoft Teams 會議室裝置會在Windows 10維護重新開機期間自動更新至適當的版本。 MSI 版本可供想要手動管理更新的客戶使用。  
 
 > [!IMPORTANT]
 > 在驗證期間，Microsoft Teams 會議室不得以任何方式將裝置更新至Windows 10版本。 這包括重寫就地的群組原則，或System Center或其他協力廠商裝置管理服務。 上述任何一個都可能會導致會議室應用程式Microsoft Teams問題，或可能導致裝置無法使用。  
@@ -53,7 +53,7 @@ Windows 10裝置上不會立即提供新功能Microsoft Teams 會議室新功能
 
 |版本  |可用性日期   |Microsoft Teams 會議室支援狀態   |Microsoft Teams 會議室最低應用程式版本 | 建議的作業系統建立  |
 |:---  |:---       |:---                                  |:---     |:---     |
-| 20H2 |2020-10-20 |支援 <br/>推薦|4.8.31.0 |19042.631 |
+| 20H2 |2020-10-20 |支援 <br/>建議|4.8.31.0 |19042.631 |
 | 2004 |2020-05-27 |跳 <br/> 不建議&#x2780;|&#x2014; |&#x2014; |
 | 1909 |2019-11-12 |支援 |4.5.33.0 |18363.418  |
 | 1903 |2019-05-21 |不支援  |&#x2014; |&#x2014; |
@@ -73,10 +73,6 @@ Windows 10裝置上不會立即提供新功能Microsoft Teams 會議室新功能
 > 
 > 有 compatiablity 問題的裝置有：
 > 
-> - HP Elite Slice
-> - HP Elite Slice G2 MS SRS 音訊就緒
-> - HP Elite Slice MS SRS 合作夥伴準備就緒
-> - HP Elite Slice G2 與 MS 的
 > - Cresron UC-Engine (BIOS 版本/date 包含「KYSKLI」-表示「頭骨峽谷BIOS」)  
 
 ## <a name="related-topics"></a>相關主題

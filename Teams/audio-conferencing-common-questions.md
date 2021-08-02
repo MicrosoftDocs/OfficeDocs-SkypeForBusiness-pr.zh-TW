@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 以下是我們向想要使用音訊會議的客戶提出的一些常見問題。
-ms.openlocfilehash: 6547aa6cb0021cfdb7a9cf3af1f77ebc8f625c5d
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: c8c5ea445e9c8d01f869a9340934fe75fe92a329
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856412"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679748"
 ---
 # <a name="audio-conferencing-common-questions"></a>音訊會議的常見問題
 
@@ -71,7 +71,7 @@ ms.locfileid: "52856412"
   
 ## <a name="can-i-set-up-local-numbers-for-audio-conferencing-from-additional-cities-in-the-country"></a>我可以設定國內其他城市的音訊會議當地號碼嗎？
 
-如果貴地區沒有音訊會議的電話號碼，或不符合貴組織的需求，請到 [SkypeFeedback](http://www.skypefeedback.com/forums/299910--preview/category/119971-pstn-conferencing)論壇傳送意見。
+如果地區沒有音訊會議的電話號碼，或不符合貴組織的需求，請從 [SkypeFeedback](http://www.skypefeedback.com/forums/299910--preview/category/119971-pstn-conferencing)論壇傳送意見。
   
 ## <a name="what-is-the-maximum-length-of-the-audio-conferencing-meetings"></a>音訊會議會議的長度上限是什麼？
 
@@ -81,7 +81,7 @@ ms.locfileid: "52856412"
 |:-----|:-----|
 |使用者已使用 商務用 Skype或Microsoft Teams加入，或已撥入會議。  <br/> |如果 24 小時後出席者清單沒有變更，會議即會結束。  <br/> |
 |所有使用者都撥入會議，但有人使用 PIN 輸入會議。  <br/> |會議在 24 小時後結束。  <br/> |
-|所有使用者都撥入會議，但沒有任何人使用 PIN 輸入會議。  <br/> | 如果允許匿名使用者開始會議，會議將于四小時後結束。 如果不允許匿名使用者開始會議，且所有經過驗證的參與者都離開會議，則會議在上次通過驗證的參與者離開後 90 分鐘結束。 <br/> |
+|所有使用者都撥入會議，但沒有人使用 PIN 輸入會議。  <br/> | 如果允許匿名使用者開始會議，會議將于四小時後結束。 如果匿名使用者無法開始會議，且所有經過驗證的參與者都離開會議，則會議在上次通過驗證的參與者離開後 90 分鐘結束。 <br/> |
    
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>我可以在會議中擁有多少電話參與者？
 
@@ -111,7 +111,7 @@ ms.locfileid: "52856412"
   
 ## <a name="how-does-a-user-access-or-change-their-conference-id"></a>使用者如何存取或變更其會議 ID？
 
-商務用 Skype或Microsoft Teams使用者都可以在網頁中排程會議，Outlook Outlook找到指派給他們的會議 ID。 此外，使用者可以在設定之後，在要寄給他們的電子郵件中尋找會議 ID。
+商務用 Skype或Microsoft Teams，使用者可以在 Outlook 和 Outlook 網頁版 中排程會議，以找到指派給他們的會議 ID。 此外，使用者可以在設定之後，在要寄給他們的電子郵件中尋找會議 ID。
   
 > [!NOTE]
 > 使用者將無法重設其會議 ID。 只有貴組織的系統管理員才能重設會議 ID。 [](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504) 
@@ -131,10 +131,11 @@ ms.locfileid: "52856412"
 
 對於會議參與者和召集人：
 
-| 命令名稱 | 命令鍵 | 描述                                                     |
-|--------------|--------------|-----------------------------------------------------------------|
-| 命令功能表 | \*1          | 按 \* 1 以播放可用的撥號鍵台命令描述。 |
-| 靜音/取消靜音  | \*6          | 按 \* 6 以將自身設為靜音或取消靜音。                         |
+| 命令名稱    | 命令鍵 | 描述                                                                 |
+|--------------   |--------------|-----------------------------------------------------------------------------|
+| 命令功能表    | \*1          | 按 \* 1 以播放可用的撥號鍵台命令描述。 |
+| 舉/下手| \*5          | 按 \* 5 以舉手或下手。                                           |  
+| 靜音/取消靜音     | \*6          | 按 \* 6 以將自身設為靜音或取消靜音。                                     |
 
 僅適用于會議召集人：
 
@@ -146,19 +147,19 @@ ms.locfileid: "52856412"
 
 ## <a name="can-attendees-dial-out-to-international-phone-numbers-when-they-are-in-a-skype-for-business-or-microsoft-teams-meeting"></a>出席者在會議或會議時，可以撥入國際商務用 Skype Microsoft Teams號碼？
 
-可以，出席者可以撥出國際電話，並邀請其他來電者商務用 Skype或Microsoft Teams會議。 請參閱[從會議撥出](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)Microsoft Teams其他人可以加入會議，或從線上商務用 Skype撥出，讓其他人[可以加入會議](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)。
+可以，出席者可以撥出國際電話，並邀請其他來電者加入商務用 Skype或Microsoft Teams會議。 請參閱[從會議Microsoft Teams](dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md)撥出，讓其他人可以加入會議，或從線上商務用 Skype撥出，讓其他人[可以加入會議](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it)。
   
 ## <a name="how-does-a-skype-for-business-or-microsoft-teams-user-schedule-a-meeting-with-audio-conferencing-meeting-details"></a>使用者如何商務用 Skype Microsoft Teams音訊會議會議詳細資料排程會議？
 
-當使用者獲得音訊會議授權，且使用者于 Outlook 或 Outlook 網頁版中建立新的 商務用 Skype 或 Microsoft Teams 會議時，撥入電話號碼和會議 ID 會自動新加到會議邀請中。
+當使用者被指派音訊會議授權，且該使用者在 Outlook 或 Outlook 網頁版 中建立新的 商務用 Skype 或 Microsoft Teams 會議時，撥入電話號碼和會議 ID 會自動新加到會議邀請中。
   
-## <a name="how-does-a-user-schedule-and-start-a-meeting-when-all-attendees-will-be-using-a-phone-to-dial-in"></a>當所有出席者都會使用電話撥入時，使用者如何排程和開始會議？
+## <a name="how-does-a-user-schedule-and-start-a-meeting-when-all-attendees-will-be-using-a-phone-to-dial-in"></a>當所有出席者都會使用電話撥入時，使用者如何排程和啟動會議？
 
 排程所有使用電話撥入的出席者將加入的會議，與排程一般線上會議沒有不同。 不過，啟動會議的方法有兩種，所有參與者都使用電話撥入：
 
 - **選項#1：** 根據預設，如果會議召集人和所有參與者都使用電話加入會議，會議召集人必須輸入音訊會議 PIN，以啟動會議。 來電者撥打線上會議的電話號碼時，會詢問他們是否要以指定會議的召集人身份進行驗證。 在會議開始之前透過撥入加入會議的所有參與者都會放在大廳，並保留聆聽音樂。 針對商務用 Skype，一旦召集人輸入其音訊會議 PIN 來啟動會議，大廳的所有參與者都會自動加入會議。 對於Microsoft Teams，參與者會根據召集人會議政策中自動允許人員設定的值加入會議。
 
-- **選項#2：** 預設會停用「允許未經驗證的來電者成為會議的第一個人」設定。 如果為給定的召集人啟用設定，則該召集人排定的所有會議都可以在召集人輸入音訊會議 PIN 之前開始。 啟用此設定後，第一個參與者會透過撥入電話號碼加入會議，而第一個參與者不會放在大廳。 有關詳細資訊，請參閱在[](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)Microsoft Teams 中管理使用者的音訊會議設定，或管理[商務用 Skype Online 中的使用者音訊會議設定](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)。
+- **選項#2：** 預設會停用「允許未經驗證的來電者成為會議的第一個人」設定。 如果為給定的召集人啟用設定，則該召集人排定的所有會議都可以在召集人輸入音訊會議 PIN 之前開始。 啟用此設定後，第一個參與者會透過撥入電話號碼加入會議，而第一個參與者不會放在大廳。 詳細資訊請參閱在 Microsoft Teams [](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) Online 中管理使用者的音訊會議Microsoft Teams或管理使用者的音訊會議[商務用 Skype設定](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user)。
   
 ## <a name="related-topics"></a>相關主題
 

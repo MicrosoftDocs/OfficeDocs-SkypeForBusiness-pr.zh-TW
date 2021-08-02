@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以瞭解適用于使用者的已知問題Microsoft Teams 會議室，包括更新、使用者介面、硬體、限制和預期行為。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d601db3c028c7c93a97131db48de81bdcab314e4
-ms.sourcegitcommit: bd7b4986044f7921b25506488dfed405fc2e7ca3
+ms.openlocfilehash: b3656e73226f29f6580a4ae3a1807ee8273731a8
+ms.sourcegitcommit: ad215c120d7e550a7aebf2e1bb620c69039e5d8d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "52877485"
+ms.lasthandoff: 08/01/2021
+ms.locfileid: "53679778"
 ---
 # <a name="known-issues"></a>已知問題 
  
@@ -32,7 +32,7 @@ ms.locfileid: "52877485"
 | 問題標題 |  行為 \/ 症狀 | 已知的因應措施 | KB 文章 |
 |  ---        |      ---             |   ---            | --- |
 | 應用程式未啟動 |  更新至應用程式版本 4.4.41.0 之後，系統會引導至黑色螢幕，或幾分鐘後進入登入畫面。 | 請遵循更新[Microsoft Teams 會議室 4.4.41.0](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update)之後，應用程式無法啟動中的步驟來修正此問題。  | 無 |
-|  內容共用後的會議音量較低         |   Microsoft Teams 會議室 20H2 體驗Windows 10裝置透過室內 HDMI 共用內容後，媒體和會議音量降低。 這是由 20H2 Windows 10問題所導致。 | 目前尚無此問題的解決方法。 為了減少會議音訊音量的影響 (例如參與者語音) ，我們已停用所有裝置上的 HDMI 音訊Teams 會議室音訊。 小組Windows 10正在調查此問題，客戶建議將維持有效，直到找到解決方案。 | 無 |
+|  內容共用後的會議音量較低         |   Microsoft Teams 會議室 20H2 體驗Windows 10裝置透過室內 HDMI 共用內容後，媒體和會議音量降低。 這是由 20H2 Windows 10問題所導致。 | 此問題的修正程式可在應用程式版本 [4.9.12.0 中提供](/microsoftteams/rooms/rooms-release-note#49120-7282021)。 | 無 |
 |  應用程式已過期         |    主機Microsoft Teams 會議室顯示「系統組態已過期」錯誤。                |   [使用 Microsoft Teams 會議室修復工具](recovery-tool.md)             |  無 |
 |  裝置更新為不支援的版本Windows 10   |    Windows 10從版本 1803 更新至版本 1809 的裝置，但不支援。 支援的版本為 1903。 |   如果 [DeferFeatureUpdatesPeriodinDays](/windows/deployment/update/waas-configure-wufb) 的群組原則或 MDM 設定設為最多 365 天，可讓您將功能更新延後指定的天數，則可能發生此情況。 <br><br> Windows 10版本 1809 不支援Microsoft Teams 會議室版本 1903。 不過，自 2020 年 3 月 27 日，版本 1809 已經超過 365 天。 如果未變更此設定，Windows嘗試安裝版本 1809，這可能會導致Microsoft Teams 會議室。<br><br>若要避免這種情況， **請移除** 任何群組原則或 MDM 設定以延後更新。 這可讓您Windows更新至最新、支援的作業系統版本。 <br><br>**重要** 必須移除群組原則或 MDM設定 (未設定) 且未設為 **0。** 如果策略設為 0，Windows會採用可能不支援的最新可用版本。 |  無 |
 
