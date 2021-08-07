@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中設定含媒體旁路的主幹
+title: 商務用 Skype Server：設定具有媒體旁路的主幹
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,26 +15,26 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
-description: 摘要：使用啟用商務用 Skype 伺服器的媒體旁路來設定主幹。 這可讓您將轉送伺服器的數目降至最低，presuming 您的 SIP 主幹提供者支援該伺服器。
-ms.openlocfilehash: 12f9abc49830e0af9c1934f4da56fe29be861114
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：使用啟用商務用 Skype Server 的媒體旁路設定主幹。 這可讓您將轉送伺服器的數目降至最低，presuming 您的 SIP 主幹提供者支援該伺服器。
+ms.openlocfilehash: d5178a4adedb380193dc0ce55c0a8a4a414e59d3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106389"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772744"
 ---
-# <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>在商務用 Skype Server 中設定含媒體旁路的主幹
+# <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>商務用 Skype Server：設定具有媒體旁路的主幹
 
-**摘要：** 使用啟用商務用 Skype Server 的媒體旁路來設定主幹。 這可讓您將轉送伺服器的數目降至最低，presuming 您的 SIP 主幹提供者支援該伺服器。
+**摘要：** 設定商務用 Skype Server 啟用媒體旁路的主幹。 這可讓您將轉送伺服器的數目降至最低，presuming 您的 SIP 主幹提供者支援該伺服器。
 
-請遵循下列步驟，設定啟用媒體旁路的主幹。 若要設定停用媒體旁路的主幹，請參閱 [在商務用 Skype Server 中設定無媒體旁路的主幹](configure-trunk-without-media-bypass.md)。
+請遵循下列步驟，設定啟用媒體旁路的主幹。 若要設定停用媒體旁路的主幹，請參閱[在商務用 Skype Server 中設定不含媒體旁路的主幹](configure-trunk-without-media-bypass.md)。
 
-當您想要將已部署的轉送伺服器數目降至最低時，媒體旁路很有用。 如需詳細資訊，請參閱 [在商務用 Skype 中規劃媒體旁路](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+當您想要將已部署的轉送伺服器數目降至最低時，媒體旁路很有用。 如需詳細資訊，請參閱[Plan for media 旁路 in 商務用 Skype](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
 
 強烈建議您啟用媒體旁路。 不過，在 SIP 主幹上啟用媒體旁路之前，請先確認您合格的 SIP 主幹提供者支援媒體旁路，而且能夠滿足成功啟用此案例的需求。 具體而言，提供者必須具有組織內部網路中伺服器的 IP 位址。
 
 > [!NOTE]
-> 媒體旁路不會與每一部公用交換電話網路 (PSTN) 閘道、IP-PBX 和會話邊界控制器 (SBC) 互動。 Microsoft 已測試過一組 PSTN 閘道和認證合作夥伴的 SBCs。 只有產品和 [商務用 Skype Server 頁面的電話語音基礎結構](../../../SfbPartnerCertification/certification/infra-gateways.md) 中所列的版本，才支援媒體旁路。
+> 媒體旁路不會與每一部公用交換電話網路 (PSTN) 閘道、IP-PBX 和會話邊界控制器 (SBC) 互動。 Microsoft 已測試過一組 PSTN 閘道和認證合作夥伴的 SBCs。 只有在商務用 Skype Server] 頁面的[電話語音基礎結構](../../../SfbPartnerCertification/certification/infra-gateways.md)中列出的產品及版本，才支援媒體旁路。
 
 如下所述的主幹設定群組一組套用至主幹指派此主幹設定的參數。 特定的主幹組態可涵蓋全域 (涵蓋至不具更明確網站或集區組態的所有主幹)，或涵蓋至網站或集區。 集區層級組態是用於將明確主幹組態涵蓋至單一主幹。
 
@@ -73,7 +73,7 @@ ms.locfileid: "51106389"
 6. 如果您想讓媒體略過轉送伺服器，以供主幹對等處理，請選取 [ **啟用媒體旁路** ] 核取方塊。
 
     > [!IMPORTANT]
-    > 若要讓媒體旁路順利運作，PSTN 閘道、IP-PBX 或 ITSP 會話邊界控制器必須支援某些功能。 如需詳細資訊，請參閱 [Plan for media 旁路 In 商務用 Skype](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)。
+    > 若要讓媒體旁路順利運作，PSTN 閘道、IP-PBX 或 ITSP 會話邊界控制器必須支援某些功能。 如需詳細資訊，請參閱[Plan for media 旁路 in 商務用 Skype](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)。
 
 7. 如果有已知的媒體終端 (點，請選取 [ **集中式媒體處理** ] 核取方塊（例如，媒體端接系的 IP 位址與「終止」) 相同）。 如果主幹沒有已知的媒體終端點，請清除此核取方塊。
 
@@ -82,9 +82,9 @@ ms.locfileid: "51106389"
     > [!NOTE]
     > 如果在選取 [ **啟用媒體旁路** ] 選項時停用此選項，則需要其他設定。 若主幹對等不支援從轉送伺服器接收 SIP 參考要求和媒體旁路，您也必須執行 **Set-CsTrunkConfiguration** Cmdlet 以停用使用中和保留通話的 RTCP，以便支援媒體旁路的適當狀況。 或者，您也可以選取 [ **使用協力廠商通話控制啟用參考** ]，如果您想要將轉接來電轉接到媒體略過，而閘道不支援 SIP 參考要求。
 
-9. (選用) 若要啟用主幹間的路由，請關聯至此主幹組態並設定其 PSTN 使用方式記錄。 與此主幹設定相關聯的 PSTN 使用方式，會透過主幹（並非來自商務用 Skype 伺服器端點）進行所有來電的應用程式。 若要管理與主幹組態關聯的 PSTN 使用方式記錄，請使用下列其中一種方法：
+9. (選用) 若要啟用主幹間的路由，請關聯至此主幹組態並設定其 PSTN 使用方式記錄。 與此主幹設定相關聯的 PSTN 使用方式，將會透過主幹（未從商務用 Skype Server 端點產生）的所有來電套用。 若要管理與主幹組態關聯的 PSTN 使用方式記錄，請使用下列其中一種方法：
 
-   - 若要從 Enterprise Voice 部署中所有可用的 PSTN 使用方式記錄清單中選取一或多筆記錄，請按一下 [ **選取**]。 反白顯示您要與此主幹組態建立關聯的記錄，然後按一下 **[確定]**。
+   - 若要從企業語音部署中所有可用的 PSTN 使用方式記錄清單中，選取一或多筆記錄，請按一下 [**選取**]。 反白顯示您要與此主幹組態建立關聯的記錄，然後按一下 **[確定]**。
 
    - 若要從此主幹組態移除 PSTN 使用方式記錄，請選取該記錄然後按一下 **[移除]**。
 
@@ -99,11 +99,11 @@ ms.locfileid: "51106389"
 
      c. 使用下列其中一種方法，關聯至此 PSTN 使用方式記錄並設定其路由：
 
-     - 若要從 Enterprise Voice 部署中所有可用路由的清單中選取一個或多個路由，請按一下 [ **選取**]。 反白顯示您要與此 PSTN 使用方式記錄相關聯的路由，然後按一下 **[確定]**。
+     - 若要從企業語音部署中所有可用路由的清單中選取一個或多個路由，請按一下 [**選取**]。 反白顯示您要與此 PSTN 使用方式記錄相關聯的路由，然後按一下 **[確定]**。
 
      - 若要從 PSTN 使用方式記錄移除路由，請選取該路由，然後按一下 **[移除]**。
 
-   - 若要定義新路由，並將其關聯至此 PSTN 使用記錄，請按一下 **[新增]**。 如需詳細資訊，請參閱 [Create or modify voice route In 商務用 Skype](create-or-modify-a-voice-route.md)。
+   - 若要定義新路由，並將其關聯至此 PSTN 使用記錄，請按一下 **[新增]**。 如需詳細資訊，請參閱[Create or modify voice route in 商務用 Skype](create-or-modify-a-voice-route.md)。
 
      - 若要編輯與此 PSTN 使用方式記錄相關聯的路由，請選取該路由，然後按一下 **[顯示詳細資料]**。
 
@@ -115,23 +115,23 @@ ms.locfileid: "51106389"
 
        b. 使用下列其中一種方法，關聯至此 PSTN 使用方式記錄並設定其路由：
 
-   - 若要從 Enterprise Voice 部署中所有可用路由的清單中選取一個或多個路由，請按一下 [ **選取**]。 反白顯示您要與此 PSTN 使用方式記錄相關聯的路由，然後按一下 **[確定]**。
+   - 若要從企業語音部署中所有可用路由的清單中選取一個或多個路由，請按一下 [**選取**]。 反白顯示您要與此 PSTN 使用方式記錄相關聯的路由，然後按一下 **[確定]**。
 
    - 若要從 PSTN 使用方式記錄移除路由，請選取該路由，然後按一下 **[移除]**。
 
-   - 若要定義新路由，並將其關聯至此 PSTN 使用記錄，請按一下 **[新增]**。 如需詳細資訊，請參閱 [Create or modify voice route In 商務用 Skype](create-or-modify-a-voice-route.md)。
+   - 若要定義新路由，並將其關聯至此 PSTN 使用記錄，請按一下 **[新增]**。 如需詳細資訊，請參閱[Create or modify voice route in 商務用 Skype](create-or-modify-a-voice-route.md)。
 
    - 若要編輯與此 PSTN 使用方式記錄相關聯的路由，請選取該路由，然後按一下 **[顯示詳細資料]**。
 
-     c. 按一下 **[確定]**。
+     c. 按一下 ****[確定]。
 
      > [!IMPORTANT]
-     > 請務必將 PSTN 使用方式記錄與所設定之主幹相關聯的轉送伺服器對等相關聯。 若轉送伺服器對等是 PSTN 閘道或會話邊界控制器 (SBC) ，強烈建議您不要將主幹設定相關聯至 pstn 使用方式記錄，該記錄會路由傳送至 PSTN 目的地或透過商務用 Skype Server 所連接的任何其他下游系統。
+     > 請務必將 PSTN 使用方式記錄與所設定之主幹相關聯的轉送伺服器對等相關聯。 若轉送伺服器對等是 PSTN 閘道或會話邊界控制器 (SBC) ，強烈建議您不要將主幹設定相關聯至 pstn 使用方式記錄，該記錄會路由傳送至 pstn 目的地或透過商務用 Skype Server 所連接的任何其他下游系統。
 
 10. 排列 PSTN 使用方式記錄，以獲得最佳效能。 若要變更記錄在清單中的位置，請選取 PSTN 使用方式記錄，然後按一下向上或向下箭號。
 
     > [!IMPORTANT]
-    > PSTN 使用方式記錄列示在主幹組態中的順序非常重要。 商務用 Skype 伺服器從上到上，從上到上來遍歷清單。
+    > PSTN 使用方式記錄列示在主幹組態中的順序非常重要。 商務用 Skype Server 從上到上，從上到上的遍歷清單。
 
 11. 應該選取 [**啟用 RTP** 鎖定]，以啟用網路位址轉譯之後用戶端的旁路媒體（ (NAT) 或防火牆，以及支援閉鎖的 SBC）。
 
@@ -141,11 +141,11 @@ ms.locfileid: "51106389"
 
 14. 您應選取 **[啟用輸出路由容錯移轉計時器]** 才能啟用快速容錯移轉。 由於與此主幹相關聯的閘道正在處理撥出電話，所以可以在 10 秒內發出通知。 若轉送伺服器未收到此通知，則會進行重新路由至另一個主幹。 在延遲可能遞延回應時間的網路上或是閘道回應時間在 10 秒以上者，應停用快速容錯移轉。
 
-15. (選用) 建立與主幹的關聯並設定其 **[撥號轉譯規則]**。 這些轉譯規則適用於撥出電話的撥打號碼
+15. (選用) 建立與主幹的關聯並設定其 **[撥號轉譯規則]**。這些轉譯規則適用於撥出電話的撥打號碼
 
-    - 若要從 Enterprise Voice 部署中所有可用轉譯規則的清單中選擇一個或多個規則，請按一下 [ **選取**]。 在 **[選取轉譯規則]** 中，按一下您要建立關聯的主幹，然後按一下 **[確定]**。
+    - 若要從企業語音部署中可用之所有轉譯規則的清單中選擇一個或多個規則，請按一下 [**選取**]。 在 **[選取轉譯規則]** 中，按一下您要建立關聯的主幹，然後按一下 **[確定]**。
 
-    - 若要定義新的轉譯規則並建立其與主幹的關聯，請按一下 **[新增]**。 如需有關轉譯規則的詳細資訊，請參閱 [商務用 Skype Server 中的轉譯規則](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
+    - 若要定義新的轉譯規則並建立其與主幹的關聯，請按一下 **[新增]**。 如需有關轉譯規則的詳細資訊，請參閱[商務用 Skype Server 中的轉譯規則](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
 
     - 若要編輯已與主幹建立關聯的轉譯規則，按一下規則名稱，然後按一下 **[顯示詳細資料]**。
 
@@ -158,9 +158,9 @@ ms.locfileid: "51106389"
 
 16. (選用) 建立與主幹的關聯並設定其 **[撥號轉譯規則]**。這些轉譯規則適用於撥出電話的撥打號碼。
 
-    - 若要從 Enterprise Voice 部署中所有可用轉譯規則的清單中選擇一個或多個規則，請按一下 [ **選取**]。 在 **[選取轉譯規則]** 中，按一下您要建立關聯的主幹，然後按一下 **[確定]**。
+    - 若要從企業語音部署中可用之所有轉譯規則的清單中選擇一個或多個規則，請按一下 [**選取**]。 在 **[選取轉譯規則]** 中，按一下您要建立關聯的主幹，然後按一下 **[確定]**。
 
-    - 若要定義新的轉譯規則並建立其與主幹的關聯，請按一下 **[新增]**。 如需有關轉譯規則的詳細資訊，請參閱 [商務用 Skype Server 中的轉譯規則](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
+    - 若要定義新的轉譯規則並建立其與主幹的關聯，請按一下 **[新增]**。 如需有關轉譯規則的詳細資訊，請參閱[商務用 Skype Server 中的轉譯規則](../../plan-your-deployment/enterprise-voice-solution/translation-rules.md)。
 
     - 若要編輯已與主幹建立關聯的轉譯規則，按一下規則名稱，然後按一下 **[顯示詳細資料]**。
 
@@ -174,19 +174,19 @@ ms.locfileid: "51106389"
 17. 請確定主幹的轉譯規則依正確的順序排列。 若要變更規則在清單中的位置，請反白顯示規則名稱，然後按一下向上或向下箭號。
 
     > [!IMPORTANT]
-    > 商務用 Skype 伺服器會從左上部開始轉譯規則清單，並使用符合撥號號碼的第一個規則。 如果您設定的主幹會使撥號號碼符合不只一個轉譯規則，請確定限制較多的規則排在限制較少的規則上方。 例如，如果您已包含符合任何11位數的轉譯規則和轉譯規則，且符合以 + 1425 開頭的11位數，請確定符合任何11位數數位的規則，會依限制性更為嚴格的 *規則排序。*
+    > 商務用 Skype Server 從左上部開始的轉譯規則清單，並使用符合撥號號碼的第一個規則。 如果您設定的主幹會使撥號號碼符合不只一個轉譯規則，請確定限制較多的規則排在限制較少的規則上方。 例如，如果您已包含符合任何11位數的轉譯規則和轉譯規則，且符合以 + 1425 開頭的11位數，請確定符合任何11位數數位的規則，會依限制性更為嚴格的 *規則排序。*
 
 18. 完成主幹的設定時，請按一下 **[確定]**。
 
 19. 在 **[主幹組態]** 頁面上，按一下 **[認可]**，再按一下 **[全部認可]**。
 
     > [!NOTE]
-    > 只要建立或修改主幹組態後，都應執行 **[全部認可]** 命令以發行組態變更。 如需詳細資訊，請參閱 Operations 檔中的在 [商務用 Skype 中發佈待定的變更至語音路由](voice-route-config-changes.md) 設定。
+    > 只要建立或修改主幹組態後，都應執行 **[全部認可]** 命令以發行組態變更。 如需詳細資訊，請參閱操作檔中的[商務用 Skype 發佈擱置變更至語音路由](voice-route-config-changes.md)設定。
 
-設定主幹之後，請選擇通用媒體旁路選項，繼續設定媒體旁路，如部署檔中的 [在 [商務用 Skype Server 中部署媒體旁路](deploy-media-bypass.md) ] 中所述。
+設定主幹之後，請選擇通用媒體旁路選項，繼續設定媒體旁路，如部署檔中的[部署媒體旁路商務用 Skype Server](deploy-media-bypass.md)所述。
 ## <a name="see-also"></a>另請參閱
 
-[在商務用 Skype Server 中設定無媒體旁路的主幹](configure-trunk-without-media-bypass.md)
+[在商務用 Skype Server 中設定不含媒體旁路的主幹](configure-trunk-without-media-bypass.md)
 
 [在商務用 Skype Server 中部署媒體旁路](deploy-media-bypass.md)
 

@@ -12,16 +12,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
 description: 摘要：瞭解商務用 Skype Server 中的位置趨勢報告。
-ms.openlocfilehash: cde443757da903daa261d12fd34f50a9288870d0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1ca84e4122c26743cfc97addad6c3ef09d568a28b838e1b93dc1f4e900d2e48a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827883"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276768"
 ---
 # <a name="location-trend-report-in-skype-for-business-server"></a>商務用 Skype Server 中的位置趨勢報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的位置趨勢報告。
+**摘要：** 瞭解商務用 Skype Server 中的位置趨勢報告。
   
 位置趨勢報告提供網路位置的通話品質趨勢資訊。
   

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 ROBOTS: NOINDEX, NOFOLLOW
 description: 位置原則決定是否要啟用增強型 9-1-1 (E9-1-1)、其使用方式，以及位置資訊對於使用者與連絡人的運用方式。
-ms.openlocfilehash: 9f6d7468520b3398f186adeacffd5b393ce159b8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: eabd1ce415f420ef62e9f85a7b4a7c4342e0f4d1ea1a34cf71b14319761f002a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109569"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305745"
 ---
 # <a name="location-policy"></a>位置原則
 
@@ -35,7 +35,7 @@ ms.locfileid: "51109569"
 - **使用者原則 (選用) ：** 您可以建立一或多個使用者位置原則，每個使用者位置原則都適用于特定的使用者或使用者群組。 使用者原則會覆寫全域原則及網站原則。
 
 > [!NOTE]
-> 您也可以指派位置原則給網站 (即子網路群組)。 指派給網站的位置原則，優先於其他所有使用者原則。 如需使用 Cmdlet 將位置原則指派給網路網站的詳細資訊，請參閱 [在商務用 Skype Server 中新增位置原則至網路網站](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)。 如需使用商務用 Skype Server 控制台將位置原則指派給網站的詳細資訊，請參閱設定 [網路網站](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)。
+> 您也可以指派位置原則給網站 (即子網路群組)。 指派給網站的位置原則，優先於其他所有使用者原則。 如需使用 Cmdlet 將位置原則指派給網路網站的詳細資訊，請參閱[在商務用 Skype Server 中將位置原則新增至網路網站](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md)。 如需使用商務用 Skype Server 控制台將位置原則指派至網站的詳細資訊，請參閱設定[網路網站](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)。
 
 「位置原則」頁面會顯示為您組織所定義之所有位置原則的清單。
 
@@ -70,7 +70,7 @@ ms.locfileid: "51109569"
 
 - **E9-1-1** 已檢查是否已對 E9-1-1 啟用指派此位置原則的使用者。
 
-- **位置** 指定使用者在其用戶端使用新位置的商務用 Skype 進行登錄時，是否要提示使用者輸入位置資訊，以及是否要在不輸入位置資訊的情況下，看到免責聲明。
+- **位置** 指定使用者在其用戶端以新位置商務用 Skype Server 註冊時，是否要提示使用者輸入位置資訊，以及是否要在不輸入位置資訊的情況下，在取消提示時看到免責聲明。
 
 - **PSTN 使用** 方式指定公用交換電話網路 (PSTN) 使用方式，用來判斷用來從使用此設定檔的用戶端路由緊急通話的語音路由。
 
@@ -78,4 +78,4 @@ ms.locfileid: "51109569"
 
 - **E9-1-1 遮罩** 指定使用者撥號的號碼，然後將其轉譯成緊急撥號號碼。
 
-如需有關 Enterprise Voice 急診 service 功能及功能的詳細資訊，請參閱規劃檔中的 [E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 。 如需使用位置原則的詳細資訊，請參閱作業文件中的＜[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)＞。
+如需企業語音緊急服務功能及功能的詳細資訊，請參閱規劃檔中的[E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) 。 如需使用位置原則的詳細資訊，請參閱作業文件中的＜[Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information)＞。

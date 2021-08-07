@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中 Peer-to-Peer IM 報告
+title: Peer-to-Peer 商務用 Skype Server 中的 IM 報表
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,23 +11,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
-description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer IM 報告。
-ms.openlocfilehash: 1962d2d39ce23b6cdfeaedf7db6a3ada3b1e8eab
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer IM 報表。
+ms.openlocfilehash: 32f68fcf4d191896fc86aa1bc18007920f0b0f7cb29ba446385ced478dc5879c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823493"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276808"
 ---
-# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>在商務用 Skype Server 中 Peer-to-Peer IM 報告
+# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Peer-to-Peer 商務用 Skype Server 中的 IM 報表
  
-**摘要：** 深入瞭解商務用 Skype Server 中的 Peer-to-Peer IM 報告。
+**摘要：** 瞭解商務用 Skype Server 中的 Peer-to-Peer IM 報表。
   
 對等 IM 報告會提供對等立即訊息 (IM) 工作階段的趨勢資訊 (依集區和驗證類型細分)。此報告可以顯示指定時段內 (例如，每天或每小時) 主控的工作階段總數，或者可以顯示該時段內傳送的立即訊息總數。
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>存取對等 IM 報告
 
-您可以只 [在商務用 Skype Server 中開啟 Peer-to-Peer 活動摘要報告](peer-to-peer-activity-summary-report.md) ，然後按一下下列其中一個計量，即可存取 Peer-to-Peer IM 報告：
+您可以只[在商務用 Skype Server 中開啟 Peer-to-Peer 活動摘要報表](peer-to-peer-activity-summary-report.md)，然後按一下下列其中一個計量，才能存取 Peer-to-Peer IM 報告：
   
 - 對等 IM 工作階段總數
     

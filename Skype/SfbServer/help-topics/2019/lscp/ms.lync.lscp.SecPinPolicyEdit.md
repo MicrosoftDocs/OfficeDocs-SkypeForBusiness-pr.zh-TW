@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: a24388bbc04e9823328c15a9f67dd227eb001915
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9e51d9a284596d7b2d987eb499687b8de6a1639bc525c1fd8fba6b5438a5b5cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118752"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305725"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>PIN 原則：建立新的或編輯現有
 

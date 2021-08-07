@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 ROBOTS: NOINDEX, NOFOLLOW
 description: 只有在您想要解除委任整個部署時，才執行移除部署嚮導。 這個嚮導會建立由單一前端伺服器組成的空拓撲。 在您執行此嚮導併發布空的拓撲之後，就無法還原為原始的拓撲。
-ms.openlocfilehash: 3aaba62ae445cb0be9f674cdba21dfc14d9b61be
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 97f5122b791e6cf558e2f568b2c6dc42c5104496c845b3015b91b91bfa442ca2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822083"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277198"
 ---
 # <a name="remove-deployment-introduction"></a>移除部署簡介
  

@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解為會議橋接器指派新服務電話號碼以擴大使用者範圍所需的步驟。
-ms.openlocfilehash: f477c583db36e6dee514a84f32de202361d01c11
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4514c9cf34049f9c9b92be697176c7897e560605
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102659"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724506"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>變更音訊會議橋接器的電話號碼
 
@@ -37,7 +37,7 @@ ms.locfileid: "51102659"
 除了已指派給會議橋接器的電話號碼之外，您還可以從其他位置取得用於音訊會議) 的其他服務號碼 [ (](./getting-service-phone-numbers.md) 付費和免付費號碼，然後將這些號碼指派給會議橋接器，以便擴大使用者的涵蓋範圍。
   
 > [!NOTE]
-> 若要指派/取消指派會議橋接器的電話號碼，電話號碼必須是'*服務*'號碼。 您可以流覽至系統管理中心中的 Voice 電話號碼，Microsoft Teams數位類型欄來查看  >  ******號碼** 類型。 Microsoft 365或Office 365通訊信用額度必須先設定，使用者才能撥打免付費號碼撥入橋接器。
+> 若要指派/取消指派會議橋接器的電話號碼，電話號碼必須是'*服務*'號碼。 您可以在系統管理中心流覽至 Voice 電話號碼，Microsoft Teams數位類型欄來查看  >  ******號碼** 類型。 Microsoft 365或Office 365通訊信用額度必須先設定，使用者才能撥打免付費號碼撥入橋接器。
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>將新服務電話號碼指派給會議橋接器的步驟
 
@@ -91,7 +91,7 @@ ms.locfileid: "51102659"
     Start-CsExMeetingMigration user@contoso.com
 ```
 
-- 您也可以查看會議移移狀態。 在擱置或進行中狀態中沒有任何作業時，所有會議都會 *重新排期*。
+- 您也可以查看會議移移狀態。 一旦沒有在擱置或進行中狀態中的作業，所有會議都會 *重新* 排期。
 
 ```PowerShell
     Get-CsMeetingMigrationStatus -SummaryOnly
@@ -133,13 +133,14 @@ Get-CsMeetingMigrationStatus -SummaryOnly
   
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>步驟 3 - 取消從音訊會議橋接器中舊的電話號碼
 
-![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+使用 Unregister-CsOnlineDialInConferencingServiceNumber Cmdlet 從會議橋接器取消註冊付費或免付費號碼
 
-1. 在左側流覽中，前往 **Voice**  >  **電話號碼**。
+```PowerShell
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll number to be removed" -bridgeId "Conference Bridge ID"
+Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll free number to be removed" -bridgeId "Conference Bridge ID"
+```
+注意：若要尋找會議橋接器識別碼，請執行下列 PowerShell：Get-CsOnlineDialInConferencing Bridge。
 
-2. 如果電話號碼是免付費號碼，請從清單中選取電話號碼，然後按一下 [ **釋出**> 。 如果電話號碼是付費號碼，請聯絡 Microsoft [支援](/microsoft-365/admin/contact-support-for-business-products) 人員，將電話號碼取消分配。
-
-3. 如果電話號碼是免付費號碼，請在確認視窗中按一下[是。
 
    > [!IMPORTANT]
    > 從音訊會議橋接器中未指定電話號碼之後，使用者就無法再使用電話號碼加入新的或現有的會議。
@@ -161,26 +162,26 @@ Get-CsMeetingMigrationStatus -SummaryOnly
     > [!NOTE]
     > 若要尋找 BridgeID，請使用 **Get-CsOnlineDialInConferencing Bridge**。
 
-  - 若要為沒有 1 的所有使用者設定預設的免付費號碼至 8005551234，請執行：
+  - 若要為沒有電話號碼的所有使用者設定預設的免付費8005551234，請執行：
 
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
 
-  - 若要將具有 8005551234 作為預設免付費號碼的所有使用者的預設免付費號碼變更為 8005551239，並自動重新排定會議，請執行：
+  - 若要將已8005551234作為預設免付費號碼的所有使用者的預設免付費號碼變更為8005551239並自動重新排8005551239，請執行：
 
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber 8005551234 -ToNumber 8005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
-  - 若要將位於美國的所有使用者的預設免付費號碼設為 8005551234，並自動重新排定會議，請執行：
+  - 若要將位於美國的所有使用者的預設免付費號碼設為自動8005551234，請執行：
 
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
   ```
 
     > [!NOTE]
-    > 上述使用的位置必須與系統管理中心 (使用者) 連絡人資訊Microsoft 365相符。
+    > 上述使用的位置必須符合使用者在 (中) 的連絡人Microsoft 365 系統管理中心。
 
 ## <a name="troubleshooting"></a>疑難排解
 
@@ -193,7 +194,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 ```
 
-結果，除了身分識別、名稱和地區等其他資訊之外，也應該包含 DefaultServiceNumber。
+除了身分識別、名稱和地區等其他資訊之外，結果也應該包含 DefaultServiceNumber。
 
 **範例**，若要取消分配，DefaultServiceNumber "8005551234"
 ```PowerShell
@@ -208,9 +209,9 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
   - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-Windows PowerShell使用系統管理中心時，Microsoft 365在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
+Windows PowerShell相比于僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
 
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
   - [使用 Windows PowerShell 管理 商務用 Skype Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 

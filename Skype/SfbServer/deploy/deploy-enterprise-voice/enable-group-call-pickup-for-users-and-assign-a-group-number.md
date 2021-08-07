@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
-description: 在商務用 Skype Server Enterprise Voice 中啟用群組呼叫收取的使用者，並指派群組號碼。
-ms.openlocfilehash: 5469e9634e16b855993518092114184a2dca7359
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在商務用 Skype Server 企業語音中啟用群組通話收取的使用者，並指派群組號碼。
+ms.openlocfilehash: 6765cfab12cd888bb5e86f7b1c9b709b8edc7a8855d35de071ebb25619e48ce8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111829"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305905"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>在商務用 Skype 中為使用者啟用群組呼叫收取和指派群組號碼
 
-在商務用 Skype Server Enterprise Voice 中啟用群組呼叫收取的使用者，並指派群組號碼。
+在商務用 Skype Server 企業語音中啟用群組通話收取的使用者，並指派群組號碼。
 
 在您將呼叫收取群組號碼新增至通話駐留軌道表之後，您可以使用 SEFAUtil 工具將群組號碼指派給使用者，並為其啟用群組呼叫收取。
 

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 瞭解哪些國家/地區有電話撥入式會議號碼，以及如何自動指派電話撥入式會議號碼。
-ms.openlocfilehash: 0e5d38f604e7236d8e924b8799c5c4ec0dd01b42
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: a0984a4bab89724f0dd00a50a1dbe0161ad837555180086f807f099396c9445e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237209"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306226"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>商務用 Skype Online 中音訊會議的電話號碼
 
@@ -39,7 +39,7 @@ ms.locfileid: "52237209"
 當您為 **會議設定音訊** 會議商務用 Skype，撥入電話號碼會自動指派給貴組織。 您可以到系統管理中心音訊會議 Microsoft 橋接器，商務用 Skype指派給音訊會議橋接器  >    >  **的電話號碼**。 請參閱 [查看音訊會議號碼清單](see-a-list-of-audio-conferencing-numbers.md)。
   
 > [!NOTE]
-> 沒有任何資源會包含音訊會議的所有撥入號碼清單。 如果您想要查看您的地區或國家/地區是否有可用的撥入電話號碼，請使用 **商務用 Skype** 系統管理中心的 Voice 電話 號碼，按一下 [新增，然後按一下 [新增  >    >  ******服務號碼**> 。  使用 [國家/地區]、[州/地區] 和 [城市] 的清單來篩選搜尋。 此外，如果您要尋找免付費服務號碼， **請從州** /地區清單中選取免 **付費** 。
+> 沒有任何資源會包含音訊會議的所有撥入號碼清單。 如果您想要查看您的地區或國家/地區是否有可用的撥入電話號碼，請使用 **商務用 Skype** 系統管理中心 Voice 電話 號碼，按一下 [新增，然後按一下 [新增  >    >  ******服務號碼**> 。  使用 [國家/地區]、[州/地區] 和 [城市] 的清單來篩選搜尋。 此外，如果您要尋找免付費服務號碼， **請從州** /地區清單中選取免 **付費** 。
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>音訊會議涵蓋範圍和價格
 
@@ -47,13 +47,13 @@ ms.locfileid: "52237209"
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>會議邀請中的撥入電話號碼
 
-當 商務用 Skype Online 使用者排程 Outlook 或 Outlook Web App 中的會議時，為使用者設定的預設音訊會議號碼會包含在會議邀請中。 如果您想要為一或多個使用者選取不同的預設號碼，您可以到系統管理中心音訊會議使用者商務用 Skype變更  >    >  **。** 請參閱 [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。
+當線上商務用 Skype使用者排程 Outlook 或 Outlook Web App 中的會議時，會議邀請中會包含為該使用者設定的預設音訊會議號碼。 如果您想要為一或多個使用者選取不同的預設號碼，您可以到系統管理中心音訊會議使用者商務用 Skype變更  >    >  **。** 請參閱 [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。
   
 按一下會議邀請中的尋找當地號碼連結，即可看到其他撥入號碼。
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>音訊會議橋接器上設定的撥入電話號碼
 
-可指派給您的會議橋接器的音訊會議電話號碼有兩個類型：**共用** 和 **專用**。 任何來電者都可以使用這兩種號碼來加入貴組織中進行的音訊會議。
+可指派給您的會議橋接器的音訊會議電話號碼有兩個類型：**共用** 和 **專用**。 任何來電者都可以使用這兩種號碼來加入貴組織進行的音訊會議。
   
  **專用電話號碼** 是只有在組織內部使用者才可以使用的電話號碼。 您可以變更某人撥入其中一個號碼時所使用的語言。
   
@@ -66,12 +66,12 @@ ms.locfileid: "52237209"
 組織若已啟用音訊會議功能，系統便會自動將共用的音訊會議電話號碼指派給組織。 指派電話號碼時，系統會將電話號碼指派為會議橋接器的預設電話號碼。 指派為橋接器預設號碼的電話號碼，將會是來自組織的國家/地區的電話號碼。
   
 > [!NOTE]
-> 您可以登錄系統管理中心，並查看組織設定檔Microsoft 365找到貴組織的國家/地區 **位置**。 
+> 您可以在組織設定檔下，以登錄或Microsoft 365 系統管理中心找到貴組織的國家/地區 **位置**。 
   
 > [!CAUTION]
 > 由於在委內瑞拉、印尼、越南 和阿拉伯聯合大公國 (EMIRATE) 的付費電話號碼有限，來自這些國家/地區的組織不會自動指派音訊會議付費號碼給他們。 來自這些位置的免付費電話號碼是否可供使用，視可用庫存而定。 
   
-專用音訊會議電話號碼是您可以取得並接著指派給組織的服務號碼。 您可以使用系統管理中心找到 **商務用 Skype號碼**。 詳細資料請參閱 [取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+專用音訊會議電話號碼是您可以取得並接著指派給組織的服務號碼。 您可以使用系統管理中心找到商務用 Skype **號碼**。 詳細資料請參閱 [取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
 若要查看已自動指派電話號碼給組織之國家/地區的清單，請參閱[音訊會議與通話方案的適用國家/地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)。
   

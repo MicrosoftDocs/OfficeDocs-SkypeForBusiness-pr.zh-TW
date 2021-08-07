@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 瞭解由 Microsoft Teams 產生的 Debug、Media 和桌面記錄、可以在哪裡找到這些記錄，以及這些記錄如何協助監控和疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a18dbef0441055c1202c2b77ce4f8af87040e561
-ms.sourcegitcommit: 17e34d2de3d10f1d04929a695e301127db7014bd
+ms.openlocfilehash: d6baa1b7cbaff690899945ac554d1a3bcf9ff170
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52689691"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724956"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用記錄檔案來監控和疑難排解Microsoft Teams
 
@@ -40,15 +40,15 @@ ms.locfileid: "52689691"
 
 ## <a name="collect-and-enable-logging"></a>收集和啟用記錄
 
-發生問題時，收集記錄非常重要。 只要按幾下滑鼠，就能將記錄收集在一起。
+發生問題時，收集記錄非常重要。 只要按幾下滑鼠，就能收集記錄。
 
-Windows：以滑鼠右鍵按一下系統Teams中的 [收集支援 **檔案**> 圖示。 
+Windows：以滑鼠右鍵按一下系統Teams中的 [檔案備份Teams，然後選擇 [**收集支援檔案**> 。 
 
 Mac：選取説明功能表，然後選擇收集 **支援檔案**。
 
 Debug、Desktop 和 Media 記錄會收集到一個名稱為 MSTeams 診斷記錄的資料夾 <local data and time> 。 當您向 Microsoft 支援服務開啟支援要求時，可以壓縮並共用此資料夾。 資料夾會包含桌面、會議 (媒體) 資料夾，以及 (網頁) 。 您可以使用下列鍵盤快速鍵收集檔案：
 
-Windows：Crtl + Alt + Shift + 1
+Windows：Ctrl + Alt + Shift + 1
 
 Mac：Option + Command + Shift + 1
 
@@ -85,7 +85,7 @@ Mac：Option + Command + Shift + 1
 
 若要收集 Linux 的記錄：鍵盤快速鍵：Ctrl + Alt + Shift + 1 檔案可在 ~/Downloads 中使用
 
-若要收集瀏覽器的記錄：鍵盤快速鍵：Crtl + Alt + Shift + 1 %userprofile%\Downloads 中會提供檔案
+若要收集瀏覽器的記錄：鍵盤快速鍵：Ctrl + Alt + Shift + 1 %userprofile%\Downloads 中會提供檔案
 
 ## <a name="media-logs"></a>媒體記錄
 
@@ -104,7 +104,7 @@ Mac：Option + Command + Shift + 1
 |Teams.msrtc-0-s1039525249.blog     | 包含媒體堆疊相關資訊。 這包括頻道狀態，例如解析度、使用的解碼器及編碼器，以及已送出和接收的畫面數目，以及攝影機和視 (視) 會話狀態。         |
 |rtmcontrol.msrtc-0-2415069487.blog      |記錄與遠端控制動作相關的資訊，例如提供控制項時時間戳記，以及滑鼠指標資訊。          |
 |Teams_MediaStackETW-2-U-xr-U.etl      |記錄媒體堆疊追蹤事件。         |
-|Debug-0-s2790420889.blog    | 包含與媒體代理程式有關的資訊，包括呈現品質。          |
+|Debug-0-s2790420889.blog    | 包含媒體代理程式相關資訊，包括呈現品質。          |
 |tscalling-0-2061129496.blog   |在 ts-calling API 中記錄事件。       |
 
 ## <a name="desktop-logs"></a>桌面記錄
@@ -121,7 +121,7 @@ Mac：Option + Command + Shift + 1
 
 在啟動瀏覽器追蹤之前，請確認您已Teams。 在啟動追蹤之前，執行這項工作非常重要，這樣追蹤就不包含敏感性的登錄資訊。
 
-在您登錄後，請選取下列其中一個連結 ，以適合您的瀏覽器使用，然後遵循所提供的步驟。 
+在您登錄後，請選取下列其中一個連結 ，以適合您的瀏覽器使用，然後按照提供的步驟進行。 
 
 -   [Chrome & Edge (Chromium) ](/azure/azure-portal/capture-browser-trace#google-chrome-and-microsoft-edge-chromium?preserve-view=true#resolution)
 
@@ -132,7 +132,7 @@ Mac：Option + Command + Shift + 1
 -   [火狐](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
 
 > [!NOTE]
-> 在步驟中，將 Azure 入口網站的所有參照取代為 Teams用戶端。 
+> 在步驟中，將 Azure 入口網站的所有參照取代為Teams用戶端。 
 
 ## <a name="related-topics"></a>相關主題
 

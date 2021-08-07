@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81072ae1-6a20-4695-aba7-c05b91f81799
-description: 在 [匯入憑證摘要] 頁面上，您會看到檔案名稱、路徑及私密金鑰目前狀態的摘要。 檢閱摘要後，請按 [下一步] 繼續。
-ms.openlocfilehash: c576ff132c8a730a5107251fea1bdad1352f8abc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在 [匯入憑證摘要] 頁面上，您會看到檔案名稱、路徑及私密金鑰目前狀態的摘要。檢閱摘要後，請按 [下一步] 繼續。
+ms.openlocfilehash: 4985accb324517bd78b4039a101be11c5f7b521a7f0b7b2c26d1ff9b3c73c8b2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827213"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54277188"
 ---
 # <a name="import-certificate-summary"></a>匯入憑證 (摘要)
  

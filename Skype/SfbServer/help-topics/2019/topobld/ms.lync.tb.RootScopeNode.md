@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lync Server 節點會列出您拓撲中的中央網站。 您可以執行下列動作：
-ms.openlocfilehash: 90d1b7fed5dec0372a7db33d7ffa5791f189ac13
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5416a32c2dc00651a19c6ebcce263d11cba18faa04cd9a536360e03740068ac4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822073"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305615"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>商務用 Skype Server 根範圍節點
  
@@ -42,7 +42,7 @@ ms.locfileid: "49822073"
     
 - **安裝資料庫**。 可讓您建立部署必要的資料庫。
     
-- **合併 Office 通訊伺服器 2007 R2 拓撲**。 啟動拓撲產生器合併嚮導。 此工具會收集先前 Office 通訊伺服器環境的相關資訊，包括 Edge Server 資訊，並將該資訊發佈至共用資料庫。 
+- **Merge Office 通訊伺服器 2007 R2 拓撲**。 啟動拓撲產生器合併嚮導。 這個工具會收集先前 Office 通訊伺服器環境的相關資訊，包括 Edge Server 資訊，並將該資訊發佈至共用資料庫。 
     
 - **移除部署**。 啟動 [移除部署] 嚮導，該嚮導可讓您開始移除整個部署。
     

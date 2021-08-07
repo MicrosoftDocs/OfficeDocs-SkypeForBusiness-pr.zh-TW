@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server 類別。
-ms.openlocfilehash: 648629e42994c59f5d6ba5ee5592729f4dff0bbe
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1785f541765075160573907955630ee395d4f9773daebff7895842689327a3ef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276748"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中管理 Persistent Chat Server 中的類別
  
@@ -36,18 +36,18 @@ ms.locfileid: "49815123"
     
 使用者、組織單位 (Ou) ，以及識別為類別建立者的使用者群組，都是唯一可以在類別中建立聊天室的個人和群組。 在建立類別之後，您可以從類別的 AllowedMembers 清單中選擇使用者、Ou 和使用者群組做為聊天室管理員和成員，以管理及參與會議室。 
   
-設定類別之前，請務必閱讀 [商務用 Skype Server 2015 中的持續聊天類別、聊天室和使用者角色](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)。
+在您設定類別之前，請務必閱讀[商務用 Skype Server 2015 中的持續聊天類別、聊天室和使用者角色](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)。
   
 您可以使用 [控制台] 或使用 Windows PowerShell Cmdlet 來設定及管理類別。
 
 > [!NOTE]
-> 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或是繼續使用商務用 Skype Server 2015。 
+> 持續聊天可在商務用 Skype Server 2015 中取得，但在商務用 Skype Server 2019 中已不再支援。 Teams 中提供相同的功能。 如需詳細資訊，請參閱[Microsoft Teams 升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續性聊天，您可以選擇將需要這項功能的使用者遷移至 Teams，或是繼續使用商務用 Skype Server 2015。 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>使用控制台設定類別
 
 1. 使用指派給 CsPersistentChatAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任一部電腦。
     
-2. 從 [ **開始** ] 功能表中，選取商務用 Skype Server 控制台或開啟瀏覽器視窗，然後輸入管理 URL。
+2. 從 [**開始**] 功能表中，選取 [商務用 Skype Server 控制台] 或開啟瀏覽器視窗，然後輸入管理 URL。
     
 3. 在左導覽列中，按一下 [常設聊天室]，然後按一下 [類別]。
     
@@ -105,7 +105,7 @@ ms.locfileid: "49815123"
     
 - DeniedMembers。 列出不允許存取該類別中之聊天室的使用者。
     
-如需 Cmdlet 語法（包括所有參數）的完整資訊，請參閱 [商務用 Skype Server 2015 管理命令](../management-shell.md)介面。
+如需 Cmdlet 語法（包括所有參數）的完整資訊，請參閱[商務用 Skype Server 2015 管理命令](../management-shell.md)介面。
   
 ### <a name="create-a-new-category"></a>建立新類別
 

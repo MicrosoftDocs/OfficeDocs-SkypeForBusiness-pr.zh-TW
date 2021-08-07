@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-description: 在商務用 Skype Server Enterprise Voice 中，將 E9-1-1 位置原則指派給網路網站。
-ms.openlocfilehash: 887c2fcab63acd5d143ba80f6be6976e8fe2b39f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 將 E9-1-1 位置原則指派給商務用 Skype Server 企業語音中的網路網站。
+ms.openlocfilehash: bdb34209a164375b1e21f9e896ec53d7d242c006ec4df4053634918857f8ea4e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804273"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305935"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>在商務用 Skype Server 中將位置原則新增至網路網站
  
-在商務用 Skype Server Enterprise Voice 中，將 E9-1-1 位置原則指派給網路網站。 
+將 E9-1-1 位置原則指派給商務用 Skype Server 企業語音中的網路網站。 
   
-下列範例顯示如何將在「[商務用 Skype 伺服器」中建立位置](create-location-policies.md)原則中定義的 **Redmond** 位置原則新增至現有的網路網站，以及如何建立使用 **Redmond** 位置原則的新網路網站。
+下列範例顯示如何將在 [商務用 Skype Server 建立位置](create-location-policies.md)原則中定義的 **Redmond** 位置原則新增至現有的網路網站，以及如何建立使用 **Redmond** 位置原則的新網路網站。
   
 如需使用網路網站的詳細資訊，請參閱 Lync Server 管理命令介面檔中的下列 Cmdlet：
   
@@ -41,7 +41,7 @@ ms.locfileid: "49804273"
     
 ### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a>若要指派位置原則給現有網路網站
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 2. 執行下列 Cmdlet 來修改現有的網路網站。
     
@@ -53,7 +53,7 @@ ms.locfileid: "49804273"
 
 ### <a name="to-assign-a-location-policy-to-a-new-network-site"></a>若要指派位置原則給新的網路網站
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 2. 執行下列 Cmdlet 來建立新的網路網站。
     

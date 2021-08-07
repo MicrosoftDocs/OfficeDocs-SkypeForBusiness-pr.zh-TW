@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: 摘要：瞭解如何在商務用 Skype Server 中管理雙色調多頻率 (DTMF) 命令的按鍵對應。
-ms.openlocfilehash: 6b409ccce10128fdd7776e3ea77d6ee17d4a49f4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：瞭解如何在商務用 Skype Server 中管理雙音多頻率 (DTMF) 命令的按鍵對應。
+ms.openlocfilehash: 106cd301826792ec494df4d490a6b953baf3badd1740d9cfd2de12e6de966d09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119442"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276848"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>在商務用 Skype Server 中管理 DTMF 命令的按鍵對應
  
@@ -25,7 +25,7 @@ ms.locfileid: "51119442"
   
 電話撥入式會議使用者可按下電話按鍵上的按鍵，以執行雙音多頻率 (DTMF) 命令。 DTMF 命令可讓撥入會議的使用者控制會議設定 (例如，靜音和 unmuting 本身，或使用電話上的小鍵盤鎖定和解除鎖定會議) 。 
   
-若要管理 DTMF 命令使用的金鑰，請使用商務用 Skype Server 管理命令介面與 **set-csdialinconferencingdtmfconfiguration**、 **Set-CsDialinConferencingDtmfConfiguration** 及 **set-csdialinconferencingdtmfconfiguration** Cmdlet。
+若要管理 DTMF 命令使用的金鑰，請使用商務用 Skype Server 管理命令介面搭配 **set-csdialinconferencingdtmfconfiguration**、 **Set-CsDialinConferencingDtmfConfiguration** 和 **set-csdialinconferencingdtmfconfiguration** Cmdlet。
   
 當您為網站建立新的 DTMF 設定時，網站設定會優先于通用設定。 
 
@@ -33,7 +33,7 @@ ms.locfileid: "51119442"
 
 1. 以 RTCUniversalServerAdmins 群組成員或 Cs-ServerAdministrator、CsAdministrator 角色成員的身分登入電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 若要查看用於電話撥入式會議的 DTMF 設定，請在命令提示字元中執行下列命令：
     

@@ -1,5 +1,5 @@
 ---
-title: '分支網站 (規劃工具) '
+title: Lync Server 分支網站規劃工具
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,13 +16,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b9d0779-436f-4965-8110-a41ff4d0302d
 description: 如需有關分支網站恢復的詳細資訊，請參閱規劃 Branch-Site 語音恢復功能。
-ms.openlocfilehash: 96ef2d9afc376b5dee648f431d243ba5f67fe06b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: af049e151b8067242fcd9bfe08fba40962d57aa1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116131"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772594"
 ---
-# <a name="branch-sites-planning-tool"></a>分支網站 (規劃工具) 
+# <a name="lync-server-branch-sites-planning-tool"></a>Lync Server 分支網站規劃工具
 
 如需有關分支網站恢復的詳細資訊，請參閱 [規劃 Branch-Site 語音恢復](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency)功能。

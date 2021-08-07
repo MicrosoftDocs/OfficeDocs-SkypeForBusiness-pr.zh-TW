@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: '使用Skype標誌、說明和法律 URL 及頁腳文字自訂會議邀請。 '
-ms.openlocfilehash: 9998b2edb49b8b1c248fc388974051fe04c69051
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c7c642d13eb2e0ac76d4565a977faebe08c52b378f50e1e5193486002056c4ea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237519"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306176"
 ---
 # <a name="customize-meeting-invitations"></a>自訂會議邀請
 
@@ -52,7 +52,7 @@ ms.locfileid: "52237519"
 
 1. 使用公司或學校帳戶來登錄。
     
-2. 從系統管理中心，選擇系統 **管理**  >  **中心商務用 Skype。**
+2. 從系統管理中心選擇系統 **管理中心**  >  **商務用 Skype。**
     
 3. 在系統管理商務用 Skype，選擇 **線上會議**。 
     

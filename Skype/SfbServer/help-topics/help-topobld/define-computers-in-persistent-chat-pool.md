@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 description: 您可以在 [電腦 FQDN] 中輸入完整功能變數名稱 (FQDN) ，來定義將成為 Persistent Chat Server 集區的一部分的電腦。 這必須是在網域名稱系統 DNS 主機中所定義的電腦名稱稱 (A 或 AAAA) 記錄。
-ms.openlocfilehash: a1cf1b9bead7178170e4003ed1e3156a0910f340
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e658f6d9392b67050b2c540acf7c3fb8d47d0d7439bd51afaea5e84c916bb200
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833013"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305475"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>定義常設聊天室集區的電腦
  

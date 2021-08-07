@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 24fb3caf-19b3-4c0a-90d7-ca5d53de32ad
-description: AppliedBandwidthSource 表格是支援的表格。 每筆記錄代表一個來源。
-ms.openlocfilehash: bf7e1be3b98bcd56fea16dbd7aa7171b056a7f3c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: AppliedBandwidthSource 表格是一種支援資料表，其中的每一項記錄都代表一種來源。
+ms.openlocfilehash: fcb0323b1e6775b20a8ca4d269bcc8eecdc055b73d5a93a490e97f8a1af44b11
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831403"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305345"
 ---
 # <a name="appliedbandwidthsource-table"></a>AppliedBandwidthSource 表格
  

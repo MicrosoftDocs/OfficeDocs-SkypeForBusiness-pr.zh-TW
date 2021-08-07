@@ -19,18 +19,18 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '瞭解如何使用會議邀請上的檔案或商務用 Skype開啟或關閉預先載入Outlook內容。 '
-ms.openlocfilehash: b6ff40e34c6459a75d0b79a8d750902a3457e00d
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 212491b6a21cb2586237bc3ba8d5bf48382e23d888af044f40908b73ff0fbc9c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239106"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304615"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>開啟或關閉允許使用 Outlook
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-使用者可以預先載入附加至線上會議邀請Outlook內容、檔案商務用 Skype附件，但您可以開啟或關閉該邀請。 系統預設會針對所有使用 Online 商務用 Skype開啟。 瞭解如何預先[載入會議商務用 Skype附件](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)。
+使用者可以預先載入附加至線上會議邀請Outlook內容、檔案或附件商務用 Skype線上會議，但您可以開啟或關閉該邀請。 系統預設會針對所有使用 Online 商務用 Skype開啟。 瞭解如何預先[載入會議商務用 Skype附件](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251)。
   
 > [!NOTE]
 > 目前，在 商務用 Skype Online 中沒有任何 Cmdlet 可用於設定或檢視 _MaxContentStorageMB_ 和 _MaxUploadFileMB_ 的線上值。 它們僅適用于內部部署。 請注意，如果附加內容超過  _MaxUploadFileSizeMB_ 或已達到 _MaxContentStorageMB_ 限制，內容不會上傳到會議。
@@ -40,7 +40,7 @@ ms.locfileid: "52239106"
 ## <a name="start-windows-powershell"></a>開始Windows PowerShell
 
 > [!NOTE]
-> 商務用 Skype線上連接器是目前 PowerShell 模組Teams的一部分。 如果您使用的是最新版 PowerShell Teams版本，則不需要安裝 商務用 Skype 連接器。
+> 商務用 Skype Online 連接器目前是最新 Teams PowerShell 模組的一部分。 如果您使用的是最新的 Teams PowerShell 公開發行版本，則不需要安裝商務用 Skype Online 連接器。
 1. 安裝[powerShell Teams模組](/microsoftteams/teams-powershell-install)。
     
 2. 開啟 Windows PowerShell命令提示符，然後執行下列命令： 
@@ -82,13 +82,13 @@ Grant-CsGraphPolicy -PolicyName GraphEnabled
     
   - [您可能會想要使用 Windows PowerShell 管理Microsoft 365或Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell使用系統管理中心時，Microsoft 365在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
+- Windows PowerShell相比于僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
     
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [使用Windows PowerShell執行線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="related-topics"></a>相關主題
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)

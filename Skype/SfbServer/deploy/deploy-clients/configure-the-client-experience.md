@@ -11,24 +11,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
-description: 摘要：閱讀此主題以瞭解如何設定商務用 Skype 使用者的用戶端經驗。
-ms.openlocfilehash: 1816ff9af6c8c6e28ca72420f843d224587b2c70
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：閱讀此主題以瞭解如何設定商務用 Skype 使用者的用戶端體驗。
+ms.openlocfilehash: 4ad311917ef868a8eea55fab88e7aad6dd854dfe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096007"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772684"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>使用商務用 Skype 2015 設定用戶端體驗
  
 **摘要：** 閱讀此主題以瞭解如何設定商務用 Skype 2015 使用者的用戶端經驗。
   
-商務用 skype 2015 提供以 Skype 消費者產品經驗為基礎的新使用者體驗。 除了 Lync 的所有功能之外，商務用 Skype 也會透過簡化的控制項及熟悉的圖示來提供新功能。 如需有關新用戶端體驗的詳細資訊，請參閱 [探索商務用 Skype](https://go.microsoft.com/fwlink/?LinkId=529022)。
+商務用 Skype 2015 提供以 Skype 使用者產品經驗為基礎的新使用者體驗。 除了 Lync 的所有功能之外，商務用 Skype 還會以簡化的控制項及熟悉的圖示來提供新功能。 如需有關新用戶端體驗的詳細資訊，請參閱[探索商務用 Skype](https://go.microsoft.com/fwlink/?LinkId=529022)。
   
-商務用 skype 伺服器支援新的商務用 Skype 用戶端體驗和 Lync 用戶端經驗。 身為管理員，您可以為使用者選擇喜歡的用戶端體驗。 例如，您可能想要部署 Lync 用戶端體驗，直到貴組織中的使用者已完全訓練新的商務用 Skype 體驗。 或者，如果您尚未將所有使用者升級至商務用 Skype Server，您可能會希望所有使用者都能使用相同的用戶端體驗，直到全部使用者都升級至新伺服器為止。
+商務用 Skype Server 支援新的商務用 Skype 用戶端經驗，以及 Lync 用戶端體驗。 身為管理員，您可以為使用者選擇喜歡的用戶端體驗。 例如，您可能想要部署 Lync 用戶端體驗，直到貴組織中的使用者已完全訓練新的商務用 Skype 體驗。 或者，如果您尚未將所有使用者升級為商務用 Skype Server，您可能會想要讓所有的使用者都有相同的用戶端體驗，直到全部使用者都升級至新伺服器為止。
   
 > [!IMPORTANT]
-> 如果您的組織同時已部署商務用 Skype Server 和 Lync Server，則預設的用戶端體驗會因伺服器版本和使用者介面設定而異。 當使用者第一次啟動商務用 Skype 時，他們會永遠看到商務用 Skype 使用者介面，即使您已選取 Lync 用戶端經驗也是一樣。 幾分鐘後，系統會要求使用者切換至 Lync 模式。 如需詳細資訊，請參閱本主題稍後的 **第一次啟動用戶端行為** 。
+> 如果您的組織同時部署商務用 Skype Server 和 Lync 伺服器，則預設的用戶端經驗會因伺服器版本和使用者介面設定而異。 當使用者第一次啟動商務用 Skype 時，他們會永遠看到商務用 Skype 使用者介面，即使您已選取 Lync 用戶端經驗也是一樣。 幾分鐘後，系統會要求使用者切換至 Lync 模式。 如需詳細資訊，請參閱本主題稍後的 **第一次啟動用戶端行為** 。
   
 > [!NOTE]
 > Lync 2013 用戶端體驗不是商務用 Skype 2016 用戶端版本或更新版本的選項。 在您嘗試設定用戶端環境以使用 Lync 2013 用戶端之前，請檢查用戶端版本，以確保其不是以數位16開頭;例如： x.x.x。 
@@ -43,7 +43,7 @@ Set-CsClientPolicy  [-Identity <XdsIdentity] [-EnableSkypeUI <$true | $false>]
 
 其中 Microsoft.rtc.management.xds.xdsidentity 指的是全域原則或已命名的網站原則。
   
-下列命令會為組織中受全域原則影響的所有使用者選取商務用 Skype 用戶端體驗 (請記住，網站或使用者特定原則會覆寫全域原則) ： 
+下列命令會為組織中的所有使用者選取受全域原則影響的商務用 Skype 用戶端體驗 (記住、網站或使用者特定原則會覆寫全域原則) ： 
   
 ```powershell
 Set-CsClientPolicy -Identity Global -EnableSkypeUI $true
@@ -77,13 +77,13 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
 
 ## <a name="first-launch-client-behaviors"></a>第一次啟動用戶端行為
 
-根據預設，當使用者第一次啟動商務用 Skype 2015 時，他們會永遠看到商務用 Skype 使用者介面--即使您已透過將 EnableSkypeUI 參數的值設為 $False，如先前所述，您已選取 Lync 用戶端經驗。 幾分鐘後，系統會要求使用者切換至 Lync 模式。
+根據預設，當使用者第一次啟動商務用 Skype 2015 時，他們會永遠看到商務用 Skype 使用者介面--即使您已透過將 EnableSkypeUI 參數的值設定為 $False （如先前所述），您已選取 Lync 用戶端經驗。 幾分鐘後，系統會要求使用者切換至 Lync 模式。
   
-當使用者第一次啟動商務用 Skype 用戶端時，如果您想要顯示 Lync 使用者介面，請在更新後第一次啟動用戶端之前，先執行下列步驟：
+當使用者第一次啟動商務用 Skype 用戶端時，如果您想要顯示 Lync 使用者介面，請在用戶端第一次更新後的第一次啟動之前，執行下列步驟：
   
 1. 確認的值  `EnableSkypeUI` 已設定為在您使用的原則中 $False，如先前所述。
     
-2. 更新使用者電腦上的系統登錄。 您應該在使用者第一次啟動商務用 Skype 用戶端之前執行此作業，而且您應該只執行一次。 如需如何建立群組原則物件以更新加入網域之電腦上之登錄的詳細資訊，請參閱本主題稍後的章節。
+2. 更新使用者電腦上的系統登錄。 您應該在使用者第一次啟動商務用 Skype 用戶端之前執行此作業，您應該只執行一次。 如需如何建立群組原則物件以更新加入網域之電腦上之登錄的詳細資訊，請參閱本主題稍後的章節。
     
     在 **[HKEY_CURRENT_USER\Software\Microsoft\Office\Lync]** 機碼中，建立新的 **二進位** 值。
     
@@ -103,7 +103,7 @@ Get-CsUser -LDAPFilter "Department=Sales" | Grant-CsClientPolicy -PolicyName Sal
   
 ### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>控制歡迎使用畫面教學課程的顯示
 
-當使用者開啟商務用 Skype 用戶端時，預設行為是顯示歡迎畫面，其中包含  *大多數人員所要求的7個快速秘訣*。 您可以在用戶端電腦上新增下列登錄值，關閉 [歡迎] 畫面，但仍允許使用者存取教學課程：
+當使用者開啟商務用 Skype 用戶端時，預設行為是顯示歡迎畫面，其中包含 *大多數人員所要求的7個快速秘訣*。 您可以在用戶端電腦上新增下列登錄值，關閉 [歡迎] 畫面，但仍允許使用者存取教學課程：
   
 在 **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]** 機碼中，建立新的 **DWORD (32-bit) 值**。 **值名稱** 必須是 **IsBasicTutorialSeenByUser**，且 **數值資料** 必須設定為 **1**。
   
@@ -127,29 +127,29 @@ Lync
   
 ## <a name="default-client-behaviors"></a>預設用戶端行為
 
-如果您的組織同時已部署商務用 Skype Server 和 Lync Server，則用戶端經驗會因伺服器版本和 Skype UI 設定而有所不同。 下表顯示以伺服器版本及 UI 設定為基礎的初始用戶端體驗：
+如果您的組織同時部署了商務用 Skype Server 和 Lync 伺服器，則用戶端經驗會因伺服器版本和 Skype 使用者介面設定而有所不同。 下表顯示以伺服器版本及 UI 設定為基礎的初始用戶端體驗：
   
 
 |**伺服器版本**|**EnableSkypeUI 設定**|**用戶端經驗**|
 |:-----|:-----|:-----|
 |商務用 Skype Server |預設  <br/> |商務用 Skype  <br/> |
-|商務用 Skype Server  |對  <br/> |商務用 Skype  <br/> |
-|商務用 Skype Server  |False  <br/> |使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true，以切換至商務用 Skype。)   <br/> |
-|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |預設  <br/> |使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true，以切換至商務用 Skype。)   <br/> |
-|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |對  <br/> |商務用 Skype  <br/> |
-|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |False  <br/> |使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true，以切換至商務用 Skype。)   <br/> |
-|不含修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |預設  <br/> |使用者要求切換至 Lync 模式 (使用者無法切換至商務用 Skype)   <br/> |
+|商務用 Skype Server  |True  <br/> |商務用 Skype  <br/> |
+|商務用 Skype Server  |錯  <br/> |使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true 時，切換至商務用 Skype)   <br/> |
+|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |預設  <br/> |使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true 時，切換至商務用 Skype)   <br/> |
+|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |True  <br/> |商務用 Skype  <br/> |
+|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |錯  <br/> |使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true 時，切換至商務用 Skype)   <br/> |
+|不含修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |預設  <br/> |使用者要求切換至 Lync 模式 (使用者無法在稍後切換商務用 Skype)   <br/> |
    
-下表顯示管理員變更 Skype 使用者介面體驗的初始設定時，用戶端的經驗。
+下表顯示管理員變更 Skype UI 體驗的初始設定時，用戶端的體驗：
   
 
 |**伺服器版本**|**EnableSkypeUI 設定**|**用戶端 UI = Lync**|**用戶端 UI = 商務用 Skype**|
 |:-----|:-----|:-----|:-----|
-|商務用 Skype Server |對  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
-|商務用 Skype Server |False  <br/> |Lync 模式  <br/> |使用者要求切換至 Lync 模式  <br/> |
-|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |對  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
-|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |False  <br/> |Lync 模式  <br/> |使用者要求切換至 Lync 模式  <br/> |
-|不含修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |預設  <br/> |Lync 模式 (無法切換至商務用 Skype)   <br/> |Lync 模式 (無法切換至商務用 Skype)   <br/> |
+|商務用 Skype Server |True  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
+|商務用 Skype Server |錯  <br/> |Lync 模式  <br/> |使用者要求切換至 Lync 模式  <br/> |
+|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |True  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
+|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |錯  <br/> |Lync 模式  <br/> |使用者要求切換至 Lync 模式  <br/> |
+|不含修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |預設  <br/> |Lync 模式 (無法切換成商務用 Skype)   <br/> |Lync 模式 (無法切換成商務用 Skype)   <br/> |
    
 管理商務用 Skype 用戶端設定所需的修補程式版本如下：
   
@@ -161,7 +161,7 @@ Lync
 
 當使用者第一次啟動商務用 Skype 2015 用戶端時，要顯示 Lync 用戶端經驗的登錄更新，應只執行一次。 如果您使用群組原則物件 (GPO) 來更新登錄，您必須定義物件來建立新的值，而不是更新值資料。 套用 GPO 時，如果新值不存在，GPO 將會建立它，並將數值資料設定為0。 
   
-下列程式說明如何修改登錄，讓使用者第一次啟動商務用 Skype 2015 用戶端時，會顯示 Lync 用戶端體驗。 您也可以使用此程式來更新登錄，以停用先前所述的歡迎畫面教學課程。
+下列程式說明如何修改登錄，讓使用者第一次啟動商務用 Skype 2015 用戶端時，就會顯示 Lync 用戶端體驗。 您也可以使用此程式來更新登錄，以停用先前所述的歡迎畫面教學課程。
   
 ### <a name="to-create-the-gpo"></a>建立 GPO
 
@@ -175,7 +175,7 @@ Lync
     
 4. 在您剛才建立的新 GPO 上按一下滑鼠右鍵，然後從功能表中選取 [ **編輯** ]。
     
-5. 在 [**群組原則管理編輯器**] 中，展開 [**使用者** 設定]，展開 [**喜好** 設定]，展開 [ **Windows 設定**]，然後選取 **登錄節點。**
+5. 在 [**群組原則管理編輯器**] 中，展開 [**使用者** 設定]，展開 [**喜好** 設定]，展開 **Windows 設定**]，然後選取 **登錄節點。**
     
 6. **在 [登錄**] 節點上按一下滑鼠右鍵，然後選取 [**新增** 登錄  >  **專案**]。
     
@@ -185,7 +185,7 @@ Lync
    |:-----|:-----|
    |**動作** <br/> |**Create** <br/> |
    |**蜂巢** <br/> | HKEY_CURRENT_USER <br/> |
-   |**機碼路徑** <br/> |Software\Microsoft\Office\Lync  <br/> |
+   |**機碼路徑** <br/> |Software\Microsoft\ Office \Lync  <br/> |
    |**Value name** <br/> |EnableSkypeUI  <br/> |
    |**Value type** <br/> |REG_BINARY  <br/> |
    |**值資料** <br/> |00000000  <br/> |
@@ -202,12 +202,10 @@ Lync
     
 3. 在目標使用者的電腦上，開啟命令提示字元，並輸入下列命令：
        
-```console
-gpupdate /target:user
-```
-
-    
-    The message "Updating policy..." is displayed while the GPO is applied. When it is completed, the message "User Policy update has completed successfully" is displayed.
+   ```console
+   pupdate /target:user
+   ```
+     郵件「更新原則 ...」會在應用 GPO 時顯示。 完成後，就會顯示「已成功完成使用者原則更新」郵件。
     
 4. 在命令提示字元處，輸入下列命令：
     

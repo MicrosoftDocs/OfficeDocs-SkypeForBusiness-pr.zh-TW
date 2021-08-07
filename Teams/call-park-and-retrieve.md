@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解如何在通話中使用通話保留和Microsoft Teams。
-ms.openlocfilehash: fb60e09148f2b96ce9b4d059d7d112c817239822
-ms.sourcegitcommit: 355c7858b98518f6a922110390c51eb7e2cd6690
+ms.openlocfilehash: 751101a250c7a3f38ac7ba51dc8a22cc91d4d7b5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53147181"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772604"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>在通話中呼叫Microsoft Teams
 
@@ -53,7 +53,7 @@ ms.locfileid: "53147181"
 
 1. 在系統管理中心的左側導Microsoft Teams，請前往 **語音**  >  **通話停駐區政策**。
 2. 在 [ **管理原則>** 選項卡上，按一下 [ **新增**。
-3. 為策略命名，然後將允許 **通話停駐切換到****開啟**。
+3. 為策略命名，然後將允許 **通話停駐切換到****開啟**。  (無法自訂呼叫代答範圍和) 
 
     ![通話停駐策略設定螢幕擷取畫面](media/call-park-add-policy.png)
 

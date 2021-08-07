@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ca91a0b4-98c0-49f6-af9d-7d0f8ac75f1a
 description: DeviceDriver 表格是支援的表格。 每筆記錄都代表一個捕獲裝置或轉譯裝置使用的驅動程式。
-ms.openlocfilehash: 1f83bfd014fa5fb49f4d0f900e01aeecfe2b5f46
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 49bf941de3c0639552bd01e5066c9b823953ca7d4c01acc1b77a973045d89985
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823073"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276568"
 ---
 # <a name="devicedriver-table"></a>DeviceDriver 表格
  

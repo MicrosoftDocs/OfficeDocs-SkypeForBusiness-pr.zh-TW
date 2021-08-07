@@ -1,5 +1,5 @@
 ---
-title: 'Exchange 整合通訊 (規劃工具) '
+title: 商務用 Skype Server Exchange 整合通訊規劃工具
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,15 +15,15 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
-description: 商務用 Skype Server 2015 支援與 Exchange 整合通訊 (UM) 整合，以結合語音訊息與電子郵件訊息到單一郵件基礎結構。
-ms.openlocfilehash: f85062c5c239c817fe141e36ff2b04c9809c0279
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 商務用 Skype Server 支援與 Exchange 整合通訊的整合，以結合語音訊息與電子郵件訊息到單一郵件基礎結構。
+ms.openlocfilehash: 47bf74dfd543537ecd90aa7dfc2b588fabacd49b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116101"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772914"
 ---
-# <a name="exchange-unified-messaging-planning-tool"></a>Exchange 整合通訊 (規劃工具) 
+# <a name="skype-for-business-server-exchange-unified-messaging-planning-tool"></a>商務用 Skype Server Exchange 整合通訊規劃工具
 
 商務用 Skype Server 2015 支援與 Exchange 整合通訊 (UM) 整合，以結合語音訊息與電子郵件訊息到單一郵件基礎結構。
 

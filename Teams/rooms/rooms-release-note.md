@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以閱讀 Microsoft Teams 會議室 版本資訊，其中列出 Microsoft Teams 會議室 中累積Microsoft Teams 會議室。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ad710ab42548ab5a143c6cc001fadd152b0808d2
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: f870f746a5ff085fc997d9071ba243e43a8046b0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646874"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772724"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>適用于該版本Microsoft Teams 會議室
 
@@ -90,12 +90,12 @@ ms.locfileid: "53646874"
 - Windows 10 20H2 支援 
 
 > [!NOTE]
-> 包含「KYSKLi」) Teams 會議室 的 HP Elite Slice 和 Cresron UC-Engine (BIOS 版本日期有相容性問題，系統 OEM 近期將會提供更新的驅動程式。 Windows 10 20H2 將不會提供給這些裝置。 有關版本支援Windows，請參閱版本Windows 10[支援](./rooms-lifecycle-support.md#windows-10-release-support)。
+> Cresron UC-Engine (含有「KYSKLi」) Teams 會議室的BIOS版本日期有相容性問題，系統 OEM 近期將會提供更新的驅動程式。 Windows 10 20H2 將不會提供給這些裝置。 有關版本支援Windows，請參閱版本Windows 10[支援](./rooms-lifecycle-support.md#windows-10-release-support)。
 
 ### <a name="48250-04222021"></a>2021/04/22 (4.8.25.0) 
 
 此更新仲介紹：
-- 修正主機上的會議室資訊Teams 會議室無法顯示從全域通訊錄清單或 GAL 帳戶 (聊天室) 
+- 修正在 TEAMS 會議室 主機上的會議室資訊無法顯示全域通訊錄中隱藏的聊天室帳戶 (GAL) 
 
 > [!NOTE]
 > GCCH 客戶可以從手動更新裝置下載升級套件Microsoft Teams 會議室[套件](manual-update.md)
@@ -131,7 +131,7 @@ ms.locfileid: "53646874"
 
 此更新仲介紹：
 
-- 修正在會議內使用螢幕小鍵盤時，白色半螢幕Teams的問題
+- 修正在會議內使用螢幕小鍵盤時出現白色半螢幕Teams的問題
 
 ### <a name="46200-09302020"></a>2020/09/30 (4.6.20.0) 
 
@@ -139,7 +139,7 @@ ms.locfileid: "53646874"
 
 - 在會議室顯示器前面看到更多 3x3 影片庫的影片  
 - 從國電啟動當地即時隱藏式字幕
-- 使用直接來賓加入 Teams 會議室預覽版來加入 (縮放) 
+- 使用直接來賓加入Teams 會議室預覽版來加入縮放 (會議) 
 
 > [!NOTE]
 > 3x3 影片庫和本地即時隱藏式字幕會透過 Microsoft Teams提供。 這些功能適用于所有Teams 會議室 4.5.37.0 及更新版本的裝置。
@@ -180,13 +180,13 @@ ms.locfileid: "53646874"
 
 此更新仲介紹：
 
-- 在 Kiosk 中啟動應用程式的可靠性Windows 10修正
+- 應用程式的可靠性修正程式從 Windows 10開始
 
 ### <a name="44250-03312020"></a>2020/03/31 (4.4.25.0) 
 
 此更新仲介紹：
 
-- 適用于 Exchange 和 商務用 Skype
+- 新式驗證支援Exchange商務用 Skype
 - 支援動態緊急電話，Teams (服務元件，並Teams響鈴) 
 - 使用 XML 停用雙顯示器會議室會議外重複內容的能力
 - 應用程式初始畫面
@@ -238,7 +238,7 @@ ms.locfileid: "53646874"
 
 此更新仲介紹：
 
-- Skype會議室系統商店應用程式重新建立為"Microsoft Teams 會議室"
+- Skype會議室系統商店應用程式重新建立為「Microsoft Teams 會議室」
 - Microsoft Teams 會議室主機使用者介面重新Microsoft Teams
 - 主題更新：只在會議室顯示器前面保留自訂背景影像，同時將主機背景製作為中性色彩，以確保主機 UI 控制項符合色彩對比 — 協助工具需求
 - 適用于電話會議/會議Teams通話控制項的通用Microsoft Teams PC/Web/Mobile 用戶端<sup>1</sup>
@@ -268,7 +268,7 @@ ms.locfileid: "53646874"
 此更新仲介紹：
 
 - DTMF 鍵台Microsoft Teams P2P 會議和 PSTN 通話。 若要Microsoft Teams通話用戶端，系統管理員必須將 IsTeamsDefaultClient 設為 true
-- 將遠端參與者的傳入視音訊釘到會議室顯示器前方的全螢幕。 使用主機上參與者名冊上的 「釘釘」命令
+- 將遠端參與者的傳入視像釘到會議室顯示器前方的全螢幕。 使用主機上參與者名冊上的「釘釘」命令
 - 大廳通知的改良功能，以及會議室前方通知的新增功能
 - 當裝置上未啟用藍牙時，會議室顯示強制轉換圖示Microsoft Teams 會議室移除
 - 修正會議中音量控制Teams問題
@@ -287,7 +287,7 @@ ms.locfileid: "53646874"
 
 - 會議室 (的雙顯示器) 會議Teams支援
 
-### <a name="40310-10162018"></a>2018 年 10 月 16 (4.0.31.0) 
+### <a name="40310-10162018"></a>2018/10/16 (4.0.31.0) 
 
 此更新仲介紹：
 
@@ -297,9 +297,9 @@ ms.locfileid: "53646874"
 
 此更新仲介紹：
 
-- 準備升級版本 1803 Microsoft Teams 會議室應用程式Windows 10程式碼變更
+- 準備應用程式供Microsoft Teams 會議室版本 1803 升級Windows 10程式碼變更
 - 修正當地語系化 EULAs 的格式設定問題 (特別是挪威文) 避免超出 EULA OOBE 設定視窗
-- 若要讓應用程式在舊版 Lync Microsoft Teams 會議室系統上執行，所需的程式碼變更。 請在這裡[查看更多。](./lrs-migration.md)
+- 若要在舊版 Lync 會議室系統上Microsoft Teams 會議室應用程式所需的程式碼變更。 請在這裡[查看更多。](./lrs-migration.md)
 
 ### <a name="40190-8312018"></a>2018 年 8 月 8 (4.0.19.0) 
 
@@ -384,7 +384,7 @@ ms.locfileid: "53646874"
 
 - 支援 [Polycom MSR 系列](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl) 固定式硬體
 - 支援 [Logitech Brio](https://www.logitech.com/product/brio)
-- 解決在聊天室中 (主機和會議室) 無法進入睡眠模式的問題
+- 解決當會議室沒有 (時，) 主機和會議室前顯示器無法進入睡眠模式的問題
 
 ### <a name="30120-912017"></a>2017/9/1 (3.0.12.0) 
 
@@ -397,7 +397,7 @@ ms.locfileid: "53646874"
 
 自 Microsoft Teams 會議室 版本 3.0.12.0 (更新 3) 起，不再支援 64 位版本的 Windows 10 企業版 紀念日版 (英文版本 1607) 。
 
-### <a name="3080-842017"></a>2017/8/4 (3.0.8.0) 
+### <a name="3080-842017"></a>2017 年 8 月 4 (3.0.8.0) 
 
 此更新仲介紹：
 

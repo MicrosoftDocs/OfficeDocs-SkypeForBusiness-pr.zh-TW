@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 的高級 Edge Server DNS 規劃
+title: 規劃商務用 Skype Server 的高級 Edge Server 部署
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
-description: 摘要：商務用 Skype Server 部署選項的審查案例。 不管您是想要單一伺服器或喜歡使用 DNS 或 HLB 的伺服器集區，本主題都應該有所説明。
-ms.openlocfilehash: 8615e0111385163b73558e5b76130f670f5d2db4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 檢查商務用 Skype Server 部署選項的案例，您是否想要單一伺服器或慣用伺服器集區與 DNS 或 HLB。
+ms.openlocfilehash: 97ce574c575210dfddcae3ffeae018f533840a8b
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813823"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53725466"
 ---
-# <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>商務用 Skype Server 的高級 Edge Server DNS 規劃
+# <a name="plan-advanced-edge-server-deployment-for-skype-for-business-server"></a>規劃商務用 Skype Server 的高級 Edge Server 部署
  
-**摘要：** 查看商務用 Skype Server 部署選項的案例。 不管您是想要單一伺服器或喜歡使用 DNS 或 HLB 的伺服器集區，本主題都應該有所説明。
+**摘要：** 商務用 Skype Server 部署選項的評審案例。 不管您是想要單一伺服器或喜歡使用 DNS 或 HLB 的伺服器集區，本主題都應該有所説明。
   
-在網域名稱系統 (DNS) 規劃商務用 Skype Server 時，可能會有許多因素可納入您的決策。 如果您的組織的域結構已存在，這可能是複查您要繼續的方式。 我們將從以下找到的主題開始：
+ (DNS) 規劃商務用 Skype Server 的網域名稱系統時，可能會有許多因素可納入您的決策。 如果您的組織的域結構已存在，這可能是複查您要繼續的方式。 我們將從以下找到的主題開始：
   
-- [商務用 Skype 用戶端尋找服務的演練](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md#WalkthroughOfSkype)
+- [商務用 Skype 用戶端尋找服務的逐步解說](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md#WalkthroughOfSkype)
     
 - [裂腦 DNS](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md#SplitBrainDNS)
     
@@ -39,10 +39,10 @@ ms.locfileid: "49813823"
     
 - [DNS 負載平衡](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md#DNSLB)
     
-## <a name="walkthrough-of-skype-for-business-clients-locating-services"></a>商務用 Skype 用戶端尋找服務的演練
+## <a name="walkthrough-of-skype-for-business-clients-locating-services"></a>商務用 Skype 用戶端尋找服務的逐步解說
 <a name="WalkthroughOfSkype"> </a>
 
-商務用 skype 用戶端與舊版的 Lync 用戶端類似于在商務用 Skype Server 中尋找及存取服務的方式。 本節詳細說明伺服器位置的處理常式。
+商務用 Skype 用戶端在商務用 Skype Server 中尋找及存取服務的方式，類似于舊版的 Lync 用戶端。 本節詳細說明伺服器位置的處理常式。
   
 1. lyncdiscoverinternal.\<domain\>
     
@@ -102,19 +102,19 @@ ms.locfileid: "49813823"
     
 - 這個內部 contoso.com 包含：
     
-  - DNS A 和 AAAA (如果您要使用 IPv6 定址) 前端集區、Director 集區或 Director 集區名稱，以及組織網路中執行商務用 Skype Server 的所有內部伺服器的記錄。
+  - DNS A 和 AAAA (如果您要使用 IPv6 定址) 前端集區、director 集區或 director 集區名稱，以及組織網路中執行商務用 Skype Server 所有內部伺服器的記錄。
     
-  - DNS A 和 AAAA (如果您為周邊網路中每個商務用 Skype Server Edge Server 的 Edge 內部介面使用 IPv6 定址) 記錄。
+  - DNS A 和 AAAA (如果您針對周邊網路中的每個商務用 Skype Server edge Server 使用 IPv6 定址您 Edge 內部介面的) 記錄。
     
   - DNS A 和 AAAA (如果您要使用 IPv6 定址周邊 (網路中每個反向 proxy 伺服器的內部介面) 記錄，這是對反向 proxy) 的管理的 **選用** 。
     
-  - DNS A 和 AAAA (如果您使用 IPv6 定址) 和 SRV 記錄供內部商務用 Skype Server 用戶端 (自動進行處理，則為 **選用** 的 ) 。
+  - DNS A 和 AAAA (如果您使用 IPv6 定址) 和 SRV 記錄進行內部商務用 Skype Server 用戶端自動設定 (（**選用**) ）。
     
-  - DNS A 和 AAAA (如果您使用 IPv6 定址) 或 CNAME 記錄來自動探索商務用 Skype Server Web 服務 (是 **選用** 的 ) 。
+  - DNS A 和 AAAA (如果您是使用 IPv6 定址) 或 CNAME 記錄來自動探索商務用 Skype Server Web 服務 (（**選用**) ）。
     
-- 您周邊網路中的所有商務用 Skype 伺服器內部 Edge 介面都會使用此內部 DNS 區域來解析 contoso.com 的查詢。
+- 您周邊網路中的所有商務用 Skype Server 內部 Edge 介面都會使用此內部 DNS 區域來解析 contoso.com 的查詢。
     
-- 所有執行商務用 Skype 伺服器的伺服器，而且在公司網路中執行商務用 Skype Server 的用戶端，指向內部 DNS 伺服器來解析對 contoso.com 的查詢，或在每個 Edge Server 上使用主機檔案，如果您要針對 Director 或 Director 集區 vip、前端集區 VIP 或 Standard Edition server) ，使用 IPv6 定址) 的下一個躍點伺服器的記錄，則為 A 和 AAAA ( (。
+- 所有執行商務用 Skype Server 的伺服器，以及在公司網路中執行商務用 Skype Server 的用戶端，指向 [內部 DNS 伺服器]，以將查詢解析為 contoso.com，或是在每一部 Edge server 上使用主機檔，也 IPv6 可以使用清單 A 和 AAAA (（特別是針對 Director 或 Director 集區 vip、前端集區 vip 或) Server (）。
     
 ### <a name="external-dns"></a>外部 DNS
 
@@ -122,18 +122,18 @@ ms.locfileid: "49813823"
     
 - 此外部 contoso.com 包含：
     
-  - 如果您是使用 IPv6 定址) 或 CNAME 記錄來自動探索商務用 Skype Server web 服務，則 DNS A 和 AAAA (。 這與行動性搭配使用。
+  - 當您使用 IPv6 定址) 或 CNAME 記錄來自動探索商務用 Skype Server web 服務時，DNS A 和 AAAA (。 這與行動性搭配使用。
     
-  - DNS A 和 AAAA (如果您要使用 IPv6 定址) 和 SRV 記錄，以供每個商務用 Skype Server Edge Server 或硬體負載平衡 (HLB) VIP 在周邊網路中。
+  - DNS A 和 AAAA (如果您正在使用 IPv6 定址) 和 SRV 記錄，以供每個商務用 Skype Server edge Server 的 edge 外部介面使用，或在周邊網路中 (的硬體負載平衡) HLB VIP。
     
   - DNS A 和 AAAA (如果您使用 IPv6 定址) 和 SRV 記錄的反向 proxy 伺服器或 (VIP 集區的反向 proxy 伺服器集區（在周邊網路中) ）。
     
-  - DNS A 和 AAAA (如果您使用 IPv6 定址) 和 SRV 的商務用 Skype Server 用戶端自動進行記錄 ( **選用** ) 。
+  - DNS A 和 AAAA (如果您使用 IPv6 定址) 和 SRV 記錄進行商務用 Skype Server 用戶端自動設定 (**選用**) 。
     
 ## <a name="automatic-configuration-without-split-brain-dns"></a>沒有 split-大腦 DNS 的自動設定
 <a name="NoSplitBrainDNS"> </a>
 
-如果您未使用「分裂大腦 DNS」，除非您使用我們在這裡提供的其中一個變通方法，否則執行商務用 Skype 之用戶端的內部自動設定將無法運作。 為什麼？ 由於商務用 Skype Server 需要使用者的 SIP URI，以符合為自動設定指定之前端集區的網域。 這尚未從舊版的 Lync Server 變更。
+[！附注] 如果您不使用「分裂大腦」 DNS，則執行商務用 Skype 之用戶端的內部自動設定將無法運作，除非您使用我們在這裡所用的其中一個變通方法。 為什麼？ 因為商務用 Skype Server 需要使用者的 SIP URI，以符合為自動設定指定之前端集區的網域。 這尚未從舊版的 Lync Server 變更。
   
 因此，如果您有兩個使用中的 SIP 網域，則需要下列 DNS SRV 記錄：
   
@@ -151,7 +151,7 @@ ms.locfileid: "49813823"
     
      *以 tim@litwareinc.com 登入的使用者無法自動設定，因為他的 SIP 網域 (litwareinc.com) 與集區中的網域不相符 (fabrikam.com) 。* 
     
-現在，我們已知道，如果您需要自動要求商務用 Skype 用戶端（不含分裂大腦 DNS），您可以使用下列選項：
+現在，我們已知道，如果您需要商務用 Skype 未使用大腦的 DNS 的用戶端自動需求，您可以使用下列選項：
   
 - **群組原則物件**
     
@@ -162,9 +162,9 @@ ms.locfileid: "49813823"
   
 - **相符的內部區域**
     
-    您必須在內部 DNS 中建立與您的外部 DNS 區域相符的區域 (例如，contoso.com) ， (然後在您使用 IPv6 位址) 記錄，而這些記錄對應到用於自動設定的商務用 Skype 伺服器集區。
+    您必須在內部 DNS 中建立與您的外部 dns 區域相符的區域 (例如，contoso.com) ，然後在您使用 IPv6 定址) 記錄，而這些記錄對應到用於自動設定的商務用 Skype Server 集區時，建立 dns a (和 AAAA。
     
-    例如，如果您擁有位於 pool01.contoso.net 上的使用者，但登入商務用 Skype 的 bob@contoso.com，請建立名為 contoso.com 的內部 DNS 區域，並在此區域內建立 DNS A (和 AAAA （如果 IPv6 定址) pool01.contoso.com 的記錄）。
+    例如，如果您擁有位於 pool01.contoso.net 的使用者，但登入商務用 Skype 為 bob@contoso.com，請建立名為 contoso.com 的內部 DNS 區域，並在此區域內建立 dns a (和 AAAA （如果 IPv6 定址為 pool01.contoso.com 的) 記錄使用）。
     
 - **Pin 點內部區域**
     
@@ -203,9 +203,9 @@ ms.locfileid: "49813823"
 ## <a name="dns-disaster-recovery"></a>DNS 災難修復
 <a name="DNSDR"> </a>
 
-若要設定 DNS 將商務用 Skype 伺服器網頁流量重新導向至您的嚴重損壞 (DR) 和容錯移轉網站，您必須使用支援 GeoDNS 的 DNS 提供者。 您可以設定您的 DNS 記錄以支援嚴重損壞修復，這樣即使一個整個前端集區中斷時，使用 web 服務的功能仍會繼續進行。 這項 DR 功能支援自動探索、符合和撥入簡易 URLs。
+若要設定 DNS 將商務用 Skype Server web 流量重新導向至災難回復 (DR) 和容錯移轉網站，您必須使用支援 GeoDNS 的 DNS 提供者。 您可以設定您的 DNS 記錄以支援嚴重損壞修復，這樣即使一個整個前端集區中斷時，使用 web 服務的功能仍會繼續進行。 這項 DR 功能支援自動探索、符合和撥入簡易 URLs。
   
-您可以定義及設定其他 DNS 主機 A (AAAA （如果使用 IPv6) GeoDNS 提供者的內部及外部 web 服務的記錄）。 下列詳細資料假設成對的集區、地理位置上的集區，以及您 **的提供者** 所支援的 GeoDNS 都具有迴圈 DNS， **或** 設定為使用 Pool1 做為主要，並在發生任何通信遺失或電源故障時，容錯移轉至 Pool2。
+您可以定義及設定其他 DNS 主機 A (AAAA （如果使用 IPv6) GeoDNS 提供者的內部及外部 web 服務的記錄）。 下列詳細資料假設成對的集區、地理位置分散，而且提供者所支援的 **GeoDNS 都具有** 迴圈 DNS， **或** 設定為使用 Pool1 做為主要，並在發生任何通信遺失或電源故障時容錯移轉至 Pool2。
   
 此表格中的所有 DNS 記錄皆為範例。
   
@@ -223,13 +223,13 @@ ms.locfileid: "49813823"
 ## <a name="dns-load-balancing"></a>DNS 負載平衡
 <a name="DNSLB"> </a>
 
-DNS 負載平衡通常是在應用層級實施。 應用程式 (例如，執行商務用 Skype) 的用戶端會嘗試連線至集區中從 DNS A 和 (AAAA 傳回的其中一個 IP 位址，但如果 IPv6 定址是用於集區 FQDN) 記錄查詢，則會嘗試連線至集區中的伺服器。
+DNS 負載平衡通常是在應用層級實施。 應用程式 (例如，執行商務用 Skype) 的用戶端，如果 IPv6 定址是用於集區 FQDN) 記錄查詢，則會連接至 DNS a 和 AAAA (所傳回的其中一個 IP 位址，以嘗試連線至集區中的伺服器。
   
 例如，如果名為 pool01.contoso.com 的集區中有三部前端伺服器，則會發生下列情況：
   
-- 執行商務用 Skype For pool01.contoso.com 的用戶端查詢 DNS。 查詢會傳回三個 IP 位址，並將它們快取為 (依某些順序) ：
+- 執行商務用 Skype 的用戶端會查詢 pool01.contoso.com 的 DNS。 查詢會傳回三個 IP 位址，並將它們快取為 (依某些順序) ：
     
-   |||
+   |&nbsp;|&nbsp;|
    |:-----|:-----|
    |pool01.contoso.com  <br/> |192.168.10.90  <br/> |
    |pool01.contoso.com  <br/> |192.168.10.91  <br/> |
@@ -239,7 +239,7 @@ DNS 負載平衡通常是在應用層級實施。 應用程式 (例如，執行�
     
 - 如果 TCP 連線成功，用戶端會協商 TLS，以連線至 pool01.contoso.com 上的主要註冊機構。
     
-- 如果用戶端嘗試所有快取的專案但沒有成功的連線，使用者會收到通知，指出目前沒有任何執行商務用 Skype Server 的伺服器可供使用。
+- 如果用戶端嘗試所有的快取專案，但沒有成功的連線，使用者會收到通知，指出目前沒有任何執行商務用 Skype Server 的伺服器可供使用。
     
 > [!NOTE]
 > DNS 的負載平衡不同于 DNS 迴圈 (DNS RR) ，它通常是指以 DNS 為集區中的伺服器提供不同的 IP 位址順序的負載平衡。 通常，DNS RR 會啟用負載分配，但不會允許您啟用容錯移轉。 例如，如果您在 IPv6 案例中的 DNS A (或 AAAA 所傳回的一個 IP 位址的連線) 查詢會失敗，該連線會失敗。 這會使 DNS RR 不如以 DNS 為基礎的負載平衡更可靠。 如果您需要這麼做，您仍然可以搭配 DNS 的負載平衡使用 DNS RR。 
@@ -258,11 +258,11 @@ DNS 負載平衡通常是在應用層級實施。 應用程式 (例如，執行�
   
 - 您的前端伺服器或 Director 的用戶端對伺服器網頁流量。
     
-若要深入瞭解當查詢傳回 mutiple DNS 記錄時，如何選取 DNS SRV 記錄，Access Edge service 一定會以最低的數值優先順序來挑選記錄，而且如果需要斷詞，則最高的數值權重。 這與 [網際網路工程任務強制檔](https://www.ietf.org/rfc/rfc2782.txt)一致。
+若要深入瞭解查詢傳回多個 DNS 記錄時，如何選取 DNS SRV 記錄，Access Edge service 一定會以最低的數值優先順序來挑選記錄，而且如果需要斷詞，則最高的數值權重。 這與 [網際網路工程任務強制檔](https://www.ietf.org/rfc/rfc2782.txt)一致。
   
 舉例來說，如果您的第一個 DNS SRV 記錄的權重為20，優先順序為40，而第二個 DNS SRV 記錄的權重為10，優先順序為50，則第一筆記錄會因其優先順序低於40而選取。 優先順序一定會先開始，也就是用戶端將優先進行目標的主機。 如果有兩個具有相同優先順序的目標，該怎麼辦？ 
   
-在此情況下，會考慮重量。 在此情況下，應將較大的權重指定為非常高的概率。 DNS 管理員應該在沒有任何要執行的伺服器選擇時使用權重0。 當記錄中包含的權重大於0時，具有權重0的記錄會有極小的進入選擇狀態。
+在此情況下，會考慮重量。 在此情況下，應將較大的權重指定為非常高的概率。 DNS 管理員應該在沒有任何要執行的伺服器選擇時使用權重0。 當記錄中包含的權重大於0時，具有權重0的記錄會有很小的進入選擇狀態。
   
 那麼，當傳回具有相同優先順序和權重的多個 DNS SRV 記錄時，會發生什麼事？ 在此情況下，Access Edge service 會從 DNS 伺服器開始選擇它所獲得的 SRV 記錄。
   

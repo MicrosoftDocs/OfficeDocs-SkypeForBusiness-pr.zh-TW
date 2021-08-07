@@ -1,5 +1,5 @@
 ---
-title: 'Edge Network (規劃工具) '
+title: 商務用 Skype ServerEdge 網路規劃工具
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
-description: 大部分的 Edge 元件都是部署在周邊網路中。 下列元件組成周邊網路的 Edge 拓撲。 除了另有說明之外，這些元件是商務用 Skype 2015 Server 中的 Edge Server 案例的一部分，且位於周邊網路中。 Edge 元件包括：
-ms.openlocfilehash: b4b32e124569cd2318bd5bccea628b19cfa28659
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 大部分的 Edge 元件都是部署在周邊網路中。 這些元件組成周邊網路的 Edge 拓撲。 除非另有說明，否則此處所述的元件為 Edge Server 案例的一部分，在商務用 Skype Server 2015 中，且位於周邊網路中。
+ms.openlocfilehash: 89ee3f0763e85fb5ec563ba44dc0e272b21e44c1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810513"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772374"
 ---
-# <a name="edge-network-planning-tool"></a>Edge Network (規劃工具) 
+# <a name="skype-for-business-server-edge-network-planning-tool"></a>商務用 Skype ServerEdge 網路規劃工具
  
-大部分的 Edge 元件都是部署在周邊網路中。 下列元件組成周邊網路的 Edge 拓撲。 除了另有說明之外，這些元件是 [商務用 Skype 2015 server 中的 Edge server 案例](../../plan-your-deployment/edge-server-deployments/scenarios.md) 的一部分，且位於周邊網路中。 Edge 元件包括：
+大部分的 Edge 元件都是部署在周邊網路中。 下列元件組成周邊網路的 Edge 拓撲。 除了另有說明之外，元件是[Edge Server 案例的一部分，在商務用 Skype Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md)中，且位於周邊網路中。 Edge 元件包括：
   
 - Edge Server
     
@@ -39,6 +39,6 @@ ms.locfileid: "49810513"
     
 ## <a name="see-also"></a>另請參閱
 
-[在商務用 Skype Server 2015 中規劃 Edge Server 部署](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[規劃商務用 Skype Server 2015 中的 Edge Server 部署](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[商務用 Skype Server 中的 Edge Server 系統需求2015](../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[商務用 Skype Server 2015 中的 Edge Server 系統需求](../../plan-your-deployment/edge-server-deployments/system-requirements.md)

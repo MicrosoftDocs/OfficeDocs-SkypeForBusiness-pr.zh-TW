@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0b94f555-6888-4fe0-a048-4660a2513276
 description: tblPrincipalMemberDifference 包含的群組成員資格變更 (新增及移除的成員，) 後來的 Active Directory 網域服務同步步驟尚未處理。
-ms.openlocfilehash: 8fac76f1abfbd55d13d89c96bb23a6953d38edf9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c1d5a0d492d228b5a8292fde608fbd66c3b586c393aba8eb5bc0fbbddd45a5e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809703"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276578"
 ---
 # <a name="tblprincipalmemberdifference"></a>tblPrincipalMemberDifference
  
@@ -32,7 +32,7 @@ tblPrincipalMemberDifference 包含的群組成員資格變更 (新增及移除�
 |memberADPath  <br/> |nvarchar(256)  <br/> |成員的辨別名稱。  <br/> |
 |memberRemoved  <br/> |bit，非 null  <br/> |False 表示已新增成員；True 表示已移除成員。  <br/> |
    
-**Key**
+**機碼**
 
 |**欄**|**描述**|
 |:-----|:-----|

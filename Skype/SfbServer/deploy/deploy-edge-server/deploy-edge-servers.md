@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中部署 Edge Server
+title: 在商務用 Skype Server 中部署 Edge server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,19 +14,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
-description: 摘要：瞭解如何將 Edge Server 部署至您的商務用 Skype Server 環境。
-ms.openlocfilehash: 8e23e157d4eb86f5b3d2bd5fa3ab3a54fd8aadc8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解如何將 Edge server 部署到您的商務用 Skype Server 環境中。
+ms.openlocfilehash: 6d098a78fe0fbb005bc023790e59416601eeab8c3c4d8b1378a71bfcf3d59a02
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804373"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305945"
 ---
-# <a name="deploy-edge-servers-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 Edge Server
+# <a name="deploy-edge-servers-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 Edge server
  
-**摘要：** 瞭解如何在商務用 Skype 伺服器環境中部署 Edge Server。
+**摘要：** 瞭解如何將 Edge server 部署到您的商務用 Skype Server 環境中。
   
-下列各節包含在商務 [用 Skype server 檔中檢查 Edge server 部署](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) 的商務用 Skype server 計畫後，應遵循的步驟。 部署步驟如下：
+下列各節包含的步驟，在[商務用 Skype Server 檔中的 Edge Server 部署商務用 Skype Server 計畫](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)已經過評審之後，將遵循這些步驟。 部署步驟如下：
   
 - 網路介面
     
@@ -51,11 +51,11 @@ ms.locfileid: "49804373"
     
    a. 外部周邊網路子網上的三個靜態 IP 位址，並將預設閘道指向外部防火牆的內部介面。 設定配接器的 DNS 設定，使其指向一對周邊 DNS 伺服器。
     
-   b. 外部周邊網路子網上的一個靜態 IP 位址，將預設閘道指向外部防火牆的內部介面。 設定配接器的 DNS 設定，使其指向一對周邊 DNS 伺服器。 只有在您先前已設定拓撲在埠指派中具有非標準值時，才可接受此設定，這會在 [ [建立商務用 Skype Server 的 Edge 拓撲](create-your-edge-topology.md) ] 文章仲介紹。
+   b. 外部周邊網路子網上的一個靜態 IP 位址，將預設閘道指向外部防火牆的內部介面。 設定配接器的 DNS 設定，使其指向一對周邊 DNS 伺服器。 只有在您先前已設定拓撲在埠指派中具有非標準值時，才可接受此設定，這會在 [[建立您的商務用 Skype Server 文章的 Edge 拓撲](create-your-edge-topology.md)中有所介紹。
     
 3. 在您的內部周邊網路子網上，設定一個靜態 IP，但不要設定預設閘道。 設定配接器 DNS 設定，使其指向至少一部 DNS 伺服器，但最好是一對周邊 DNS 伺服器。
     
-4. 在內部介面上建立持續性靜態路由，以傳送用戶端、商務用 Skype 伺服器和 Exchange 整合通訊 (UM) 伺服器所在的所有內部網路。
+4. 在內部介面上建立持續性靜態路由，以傳送用戶端、商務用 Skype Server 和 Exchange 整合通訊 (UM) 伺服器所在的所有內部網路。
     
 ### <a name="interface-configuration-without-dns-servers-in-the-perimeter-network"></a>周邊網路中沒有 DNS 伺服器的介面設定
 
@@ -68,17 +68,17 @@ ms.locfileid: "49804373"
     
    a. 外部周邊網路子網上的三個靜態 IP 位址。 您也需要設定外部介面上的預設閘道，例如，將網際網路對向路由器或外部防火牆定義為預設閘道。 設定配接器 DNS 設定以指向外部 DNS 伺服器，理想的是一對外部 DNS 伺服器。
     
-   b. 外部周邊網路子網上的一個靜態 IP 位址。 您也需要設定外部介面上的預設閘道，例如，將網際網路對向路由器或外部防火牆定義為預設閘道。 設定配接器 DNS 設定以指向外部 DNS 伺服器，或理想一對外部 DNS 伺服器。 只有在您先前已設定拓撲在埠指派中具有非標準值時，才可接受此設定，這會在 [ [建立商務用 Skype Server 的 Edge 拓撲](create-your-edge-topology.md) ] 文章仲介紹。
+   b. 外部周邊網路子網上的一個靜態 IP 位址。 您也需要設定外部介面上的預設閘道，例如，將網際網路對向路由器或外部防火牆定義為預設閘道。 設定配接器 DNS 設定以指向外部 DNS 伺服器，或理想一對外部 DNS 伺服器。 只有在您先前已設定拓撲在埠指派中具有非標準值時，才可接受此設定，這會在 [[建立您的商務用 Skype Server 文章的 Edge 拓撲](create-your-edge-topology.md)中有所介紹。
     
 3. 在您的內部周邊網路子網上，設定一個靜態 IP，但不要設定預設閘道。 同時將配接器 DNS 設定保留空白。
     
-4. 在內部介面上建立持續性靜態路由，以傳送用戶端、商務用 Skype 伺服器和 Exchange 整合通訊 (UM) 伺服器所在的所有內部網路。
+4. 在內部介面上建立持續性靜態路由，以傳送用戶端、商務用 Skype Server 和 Exchange 整合通訊 (UM) 伺服器所在的所有內部網路。
     
-5. 編輯每一部 Edge Server 上的主機檔案，以包含下一個躍點伺服器或虛擬 IP (VIP) 的記錄。 這項記錄會是您在拓撲產生器中設定為 Edge Server 下一個躍點位址的 Director、Standard Edition 伺服器或前端集區。 如果您是使用 DNS 負載平衡，請在下一個躍點集區的每個成員中包含一行。
+5. 編輯每一部 Edge Server 上的主機檔案，以包含下一個躍點伺服器或虛擬 IP (VIP) 的記錄。 這項記錄會是您在拓撲產生器中設定為 Edge server 下一個躍點位址的 Director、Standard Edition 伺服器或前端集區。 如果您是使用 DNS 負載平衡，請在下一個躍點集區的每個成員中包含一行。
     
 ## <a name="installation"></a>安裝
 
-若要順利完成這些步驟，您必須遵循為 [商務用 Skype Server 文章建立 Edge 拓撲](create-your-edge-topology.md) 中的步驟。
+若要順利完成這些步驟，您必須遵循為[商務用 Skype Server 文章建立 Edge 拓撲](create-your-edge-topology.md)中的步驟。
   
 1. 使用本機系統管理員群組中的帳戶，登入已設定 Edge Server role 的伺服器。
     
@@ -86,19 +86,19 @@ ms.locfileid: "49804373"
     
 3. 啟動 **部署嚮導**。
     
-4. 在嚮導開啟之後，按一下 [ **安裝或更新商務用 Skype Server 系統**]。
+4. 在嚮導開啟之後，按一下 [**安裝或更新商務用 Skype Server 系統**]。
     
 5. 嚮導會執行檢查，以查看是否有任何已安裝的專案。 當您第一次執行該嚮導時，您會想要從 **步驟1開始。安裝本機設定存放區。**
     
 6. 隨即會出現 [ **設定中央管理存放區的本機複本** ] 對話方塊。 您必須按一下 [ **從檔案匯入] (為 Edge server) 所建議的** 檔案。
     
-7. 在這裡，流覽至您先前匯出的拓撲位置，選取 .zip 檔案，按一下 [ **開啟**]，然後按 **[下一步]**。
+7. 在這裡，流覽至您先前匯出的拓撲位置，選取 .zip 檔，按一下 [ **開啟**]，然後按 **[下一步]**。
     
 8. 部署嚮導會讀取設定檔，並將 XML 設定檔寫入本機電腦。
     
 9. **[執行命令]** 程序完成後，按一下 **[完成]**。
     
-10. 在 [部署嚮導] 中，按一下 [ **步驟 2]。安裝或移除商務用 Skype Server 元件**。 然後，該嚮導將安裝已儲存在本機電腦上的 XML 設定檔中所指定的商務用 Skype 伺服器 Edge 元件。
+10. 在 [部署嚮導] 中，按一下 [**步驟 2]。安裝或移除商務用 Skype Server 元件**。 然後，該嚮導將會安裝已儲存在本機電腦上的 XML 設定檔中所指定的商務用 Skype Server Edge 元件。
     
 11. 安裝完成後，您可以移至下方的 **憑證** 區段中的步驟。
     
@@ -107,7 +107,7 @@ ms.locfileid: "49804373"
 Edge Server 的憑證需求可在 Edge 憑證規劃檔中找到。 以下是設定憑證的步驟。
   
 > [!NOTE]
-> 執行憑證嚮導時，您必須以具有您要使用之憑證範本類型之正確許可權的帳戶登入。 根據預設，商務用 Skype 伺服器憑證要求即將使用網頁伺服器憑證範本。 如果您是以 RTCUniversalServerAdmins 群組成員的帳戶登入，以透過此範本要求憑證，請加倍檢查，確定已將「註冊」許可權指派給群組，以使用該範本。 
+> 執行憑證嚮導時，您必須以具有您要使用之憑證範本類型之正確許可權的帳戶登入。 根據預設，商務用 Skype Server 憑證要求即將使用網頁伺服器憑證範本。 如果您是以 RTCUniversalServerAdmins 群組成員的帳戶登入，以透過此範本要求憑證，請加倍檢查，確定已將「註冊」許可權指派給群組，以使用該範本。 
   
 ### <a name="internal-edge-interface-certificates"></a>內部 Edge 介面憑證
 
@@ -117,7 +117,7 @@ Edge Server 的憑證需求可在 Edge 憑證規劃檔中找到。 以下是設�
  
 #### <a name="nbspnbspnbsp-a-download-using-certsrv-web-site"></a>&nbsp;&nbsp;&nbsp; 單個. 使用 certsrv 網站下載
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我。 以本機 Administrators 群組成員的身分，登入內部網路中的商務用 Skype 伺服器。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我。 以本機 Administrators 群組成員的身分，登入您的內部網路中的商務用 Skype Server。
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第二。 開啟 [ **開始**] 及 [ **執行** (] 或 [ **搜尋** 並 **執行** ) ]，然後輸入下列專案：
     
@@ -151,9 +151,9 @@ Edge Server 的憑證需求可在 Edge 憑證規劃檔中找到。 以下是設�
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V。 按一下您的 CA 所簽發的根憑證。 以滑鼠右鍵按一下憑證，選擇功能表上的 [ **所有** 工作]，然後選取 [ **匯出**]。
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六。 [ **憑證匯出] 嚮導** 隨即開啟。 按 **[下一步]**。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;六。 [ **憑證匯出] 嚮導** 隨即開啟。 按一下 **[下一步]**。
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;七。 在 [ **匯出檔案格式** ] 對話方塊中，選擇您想要匯出的格式。 建議是 **加密郵件語法 Standard-PKCS #7 憑證 (P7b)**。 如果您也選擇這種方式，請務必同時選取 [ **如果可能的話，包含憑證路徑中的所有憑證** ] 核取方塊，因為這樣也會匯出憑證鏈，包括根 CA 憑證和任何中級憑證。 按 **[下一步]**。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;七。 在 [ **匯出檔案格式** ] 對話方塊中，選擇您想要匯出的格式。 建議是 **加密郵件語法 Standard-PKCS #7 憑證 (P7b)**。 如果您也選擇這種方式，請務必同時選取 [ **如果可能的話，包含憑證路徑中的所有憑證** ] 核取方塊，因為這樣也會匯出憑證鏈，包括根 CA 憑證和任何中級憑證。 按一下 **[下一步]**。
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;八。 在 [ **要匯出的** 檔案] 對話方塊的 [檔案名] 專案中，輸入路徑和檔案名 (預設副檔名為已匯出憑證的 p7b) 。 如果您很容易，請選擇 [ **流覽]** 按鈕，移至您要儲存匯出憑證的位置，然後在這裡命名匯出的憑證。 按一下 [ **儲存**]，然後在 **[下一步]** 準備就緒。
     
@@ -177,9 +177,9 @@ Edge Server 的憑證需求可在 Edge 憑證規劃檔中找到。 以下是設�
     
 &nbsp;&nbsp;&nbsp;G。 在主控台樹中，依序展開 [**憑證 (本機電腦])** 中，以滑鼠右鍵按一下 **[信任的根憑證授權** 單位]，移至 [**所有** 工作]，然後按一下 [匯 **入**
     
-&nbsp;&nbsp;&nbsp;H。 在出現的嚮導中，在 [ **要匯入** 的檔案] textbox 中指定憑證的檔案名 (您在上一節) 中您所擁有的 p7b 檔案名稱。 按 **[下一步]**。
+&nbsp;&nbsp;&nbsp;H。 在出現的嚮導中，在 [ **要匯入** 的檔案] textbox 中指定憑證的檔案名 (您在上一節) 中您所擁有的 p7b 檔案名稱。 按一下 **[下一步]**。
     
-&nbsp;&nbsp;&nbsp;我。 將 [選項按鈕] 保留在 **[將所有憑證放入] 下的存放區中，因為應該選取受信任的根憑證授權單位單位** 。 按 **[下一步]**。
+&nbsp;&nbsp;&nbsp;我。 將 [選項按鈕] 保留在 **[將所有憑證放入] 下的存放區中，因為應該選取受信任的根憑證授權單位單位** 。 按一下 **[下一步]**。
     
 &nbsp;&nbsp;&nbsp;J。 查看摘要，然後按一下 **[完成]** 完成匯入。
     
@@ -193,7 +193,7 @@ Edge Server 的憑證需求可在 Edge 憑證規劃檔中找到。 以下是設�
     
 &nbsp;&nbsp;&nbsp;C。 在 [ **延遲或立即要求** ] 頁面上，只要您可以從 Edge 環境存取其中一個，請選擇 [ **立即將要求傳送到線上憑證授權單位** ]，或是 **立即準備此要求，否則請稍後再傳送** 。
     
-&nbsp;&nbsp;&nbsp;D。 在 [ **憑證要求** 檔案] 頁面上，輸入檔案儲存位置的完整部分和檔案名 (例如 c:\SkypeInternalEdgeCert.cer) 。 按 **[下一步]**。
+&nbsp;&nbsp;&nbsp;D。 在 [ **憑證要求** 檔案] 頁面上，輸入檔案儲存位置的完整部分和檔案名 (例如 c:\SkypeInternalEdgeCert.cer) 。 按一下 **[下一步]**。
     
 &nbsp;&nbsp;&nbsp;發送. 在 [ **指定替代的憑證範本** ] 頁面上，若要使用預設 WebServer 範本以外的範本，請選取 [對 **選取的憑證授權單位單位使用其他憑證範本** ] 核取方塊。 否則，不執行任何動作。
     
@@ -205,7 +205,7 @@ Edge Server 的憑證需求可在 Edge 憑證規劃檔中找到。 以下是設�
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  第三。 如果您需要可匯出的憑證，您必須勾選 [將 **憑證私密金鑰標示為可匯出** ] 核取方塊。
     
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  四。 按 **[下一步]**。
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  四。 按一下 **[下一步]**。
     
 &nbsp;&nbsp;&nbsp;G。 在 [ **組織資訊** ] 頁面上，輸入組織的名稱和組織單位 (OU) 。 您可以輸入您的部門或部門 (它，例如) 。
     
@@ -247,7 +247,7 @@ Edge Server 的憑證需求可在 Edge 憑證規劃檔中找到。 以下是設�
     
 &nbsp;&nbsp;&nbsp;D。 在 [ **新增或移除嵌入式管理單元** ] 方塊中，按一下 [ **憑證**]，然後按一下 [ **新增**]。
     
-&nbsp;&nbsp;&nbsp;發送. 在 [ **憑證** 嵌入式管理單元] 對話方塊中，選擇 [ **電腦帳戶**]。 按 **[下一步]**。
+&nbsp;&nbsp;&nbsp;發送. 在 [ **憑證** 嵌入式管理單元] 對話方塊中，選擇 [ **電腦帳戶**]。 按一下 **[下一步]**。
     
 &nbsp;&nbsp;&nbsp;F。 在 [ **選取電腦** ] 對話方塊中，選取 [ **本機電腦： (此主控台執行的電腦])**。 按一下 **[完成]**。 按一下 **[確定]**，然後完成 MMC 主控台的設定。
     
@@ -258,9 +258,9 @@ Edge Server 的憑證需求可在 Edge 憑證規劃檔中找到。 以下是設�
   
 &nbsp;&nbsp;&nbsp;H。 在本機電腦的 [ **憑證個人] 存放區** 中，以滑鼠右鍵按一下您要匯出的憑證。 從產生的功能表中選取 [ **所有** 工作]，然後按一下 [ **匯出**]。
     
-&nbsp;&nbsp;&nbsp;我。 在 [憑證匯出精靈] 中，按 [下一步]。 選取 **[是，匯出私密金鑰**]。 按 **[下一步]**。
+&nbsp;&nbsp;&nbsp;我。 在 [憑證匯出精靈] 中，按 [下一步]。 選取 **[是，匯出私密金鑰**]。 按一下 **[下一步]**。
     
-&nbsp;&nbsp;&nbsp;J。 在 [ **匯出檔案格式** ] 對話方塊中，選取 [ **個人資訊交換-PKCS#12 (]。PFX)**，然後選取下列各項：
+&nbsp;&nbsp;&nbsp;J。 在 [**匯出檔案格式**] 對話方塊中，選取 [**個人資訊] Exchange-PKCS#12 (]。PFX)**，然後選取下列各項：
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   我。 如有可能，請將所有憑證包含在憑證路徑中。
     
@@ -307,7 +307,7 @@ Edge Server 的憑證需求可在 Edge 憑證規劃檔中找到。 以下是設�
     
 &nbsp;&nbsp;&nbsp;D。 在 [ **延遲或立即要求** ] 頁面上，按一下 **[立即準備此要求，但稍後再傳送**]。
     
-&nbsp;&nbsp;&nbsp;發送. 在 [ **憑證要求** 檔案] 頁面上，輸入檔案儲存位置的完整部分和檔案名 (例如 c:\SkypeInternalEdgeCert.cer) 。 按 **[下一步]**。
+&nbsp;&nbsp;&nbsp;發送. 在 [ **憑證要求** 檔案] 頁面上，輸入檔案儲存位置的完整部分和檔案名 (例如 c:\SkypeInternalEdgeCert.cer) 。 按一下 **[下一步]**。
     
 &nbsp;&nbsp;&nbsp;F。 在 [ **指定替代的憑證範本** ] 頁面上，若要使用預設 WebServer 範本以外的範本，請選取 [對 **選取的憑證授權單位單位使用其他憑證範本** ] 核取方塊。
     
@@ -319,7 +319,7 @@ Edge Server 的憑證需求可在 Edge 憑證規劃檔中找到。 以下是設�
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  第三。 如果您需要可匯出的憑證，您必須勾選 [將 **憑證私密金鑰標示為可匯出** ] 核取方塊。
     
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 四。 按 **[下一步]**。
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 四。 按一下 **[下一步]**。
     
 &nbsp;&nbsp;&nbsp;H。 在 [ **組織資訊** ] 頁面上，輸入組織的名稱和組織單位 (OU) 。 您可以輸入您的部門或部門 (它，例如) 。
     
@@ -375,7 +375,7 @@ Edge Server 的憑證需求可在 Edge 憑證規劃檔中找到。 以下是設�
     
 &nbsp;&nbsp;&nbsp;D。 在 [ **新增或移除嵌入式管理單元** ] 方塊中，按一下 [ **憑證**]，然後按一下 [ **新增**]。
     
-&nbsp;&nbsp;&nbsp;發送. 在 [ **憑證** 嵌入式管理單元] 對話方塊中，選擇 [ **電腦帳戶**]。 按 **[下一步]**。
+&nbsp;&nbsp;&nbsp;發送. 在 [ **憑證** 嵌入式管理單元] 對話方塊中，選擇 [ **電腦帳戶**]。 按一下 **[下一步]**。
     
 &nbsp;&nbsp;&nbsp;F。 在 [ **選取電腦** ] 對話方塊中，選取 [ **本機電腦： (此主控台執行的電腦])**。 按一下 **[完成]**。 按一下 **[確定]**，然後完成 MMC 主控台的設定。
     
@@ -386,12 +386,12 @@ Edge Server 的憑證需求可在 Edge 憑證規劃檔中找到。 以下是設�
   
 &nbsp;&nbsp;&nbsp;H。 在本機電腦的 [ **憑證個人] 存放區** 中，以滑鼠右鍵按一下您要匯出的憑證。 從產生的功能表中 **選取 [所有** 工作]，然後按一下 [**匯出**]。
     
-&nbsp;&nbsp;&nbsp;我。 在 [憑證匯出精靈] 中，按 [下一步]。 選取 **[是，匯出私密金鑰**]。 按 **[下一步]**。
+&nbsp;&nbsp;&nbsp;我。 在 [憑證匯出精靈] 中，按 [下一步]。 選取 **[是，匯出私密金鑰**]。 按一下 **[下一步]**。
     
    > [!NOTE]
    > 如果 **是，請匯出私密金鑰** 不可用，則此憑證的私密金鑰在您取得之前並未標示為匯出。 您必須再次向提供者要求憑證，並在私密金鑰設定為匯出後，才可成功執行這項操作。
   
-&nbsp;&nbsp;&nbsp;J。 在 [匯出檔案格式] 對話方塊中，選取 [個人資訊交換-PKCS#12 (]。PFX) 然後選取下列各項：
+&nbsp;&nbsp;&nbsp;J。 在 [匯出檔案格式] 對話方塊中，選取 [個人資訊] Exchange-PKCS#12 (]。PFX) 然後選取下列各項：
     
  &nbsp;&nbsp;&nbsp;  我。 如有可能，請將所有憑證包含在憑證路徑中。
     
@@ -436,12 +436,12 @@ Edge Server 的憑證需求可在 Edge 憑證規劃檔中找到。 以下是設�
   
 1. 在每一部 Edge Server 上，于 [ **部署嚮導**] 中的 [ **步驟4：啟動服務**] 旁邊，按一下 [ **執行**]。
     
-2. 在 [ **開始商務用 Skype 伺服器服務** ] 頁面上，複查服務清單，然後按 **[下一步]** 以啟動服務。
+2. 在 [**開始商務用 Skype Server 服務**] 頁面上，複查服務清單，然後按 **[下一步]** 以啟動服務。
     
 3. 啟動服務後，您可以按一下 **[完成** ] 來關閉嚮導。
     
 4.  (選用) 仍在 [ **步驟4：啟動服務**] 下，按一下 [ **服務狀態**]。
     
-5.  在每一部伺服器上的 [ **服務 MMC** ] 中，確認所有商務用 Skype server 服務都在執行中。
+5.  在每一部伺服器上的 [**服務 MMC** ] 中，確認所有的商務用 Skype Server 服務都在執行中。
     
 

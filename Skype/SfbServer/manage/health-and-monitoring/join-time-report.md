@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
 description: 摘要：瞭解商務用 Skype Server 中的會議加入時間摘要報告。
-ms.openlocfilehash: c84ea3f72aa4ed76ddb2bc11d40801aa1a9f6d59
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4b8f82c543e8c4f43c6d902ed828ba83436bfc6228f361b9c2ef2c1f55bfb6fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827903"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276788"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>商務用 Skype Server 中的會議加入時間報告
  
@@ -41,9 +41,9 @@ ms.locfileid: "49827903"
 |**To** <br/> |時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：  <br/> 7/7/2015 1:00 PM  <br/> 如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：  <br/> 7/7/2015  <br/> 若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：  <br/> 7/3/2015  <br/> 星期永遠是從星期日開始星期六結束。  <br/> |
 |**Interval** <br/> | 時間間隔。請選取下列其中一項： <br/>  每小時 (最多可以顯示 25 個小時) <br/>  每日 (最多可以顯示 31 天) <br/>  每週 (最多可以顯示 12 週) <br/>  每月 (最多可以顯示 12 個月) <br/>  若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。 例如，如果您選取 [開始日期 7/7/2015] 和 [結束2/28/2015 日期] 的 [每日間隔]，將會顯示 8/7/2015 12:00 AM 到 9/7/2015 12:00 AM (的資料，也就是有31天的資料) 總計。 <br/> |
 |**集區** <br/> |登錄器集區或 Edge Server 的完整網域名稱 (FQDN)。您可以選取個別的集區，或是按一下 [全部] 檢視所有集區的資料。此下拉式清單會自動將資料庫內的資料填入。<br/> |
-|**會議會話** <br/> | 會話類型。 允許的值為： <br/>  一切 <br/>  焦點會話 (焦點是線上會議的中央原則和狀態管理員，並協調會議的各個方面 <br/>  應用程式共用 <br/>  A/V 會議 <br/>  如果您選取 [全部]，會議加入時間的總數將會顯示在報告的頂端。 請注意，這些總和只適用于使用 Microsoft Exchange 或 Microsoft Outlook 排程的會議。 <br/> |
+|**會議會話** <br/> | 會話類型。 允許的值為： <br/>  一切 <br/>  焦點會話 (焦點是線上會議的中央原則和狀態管理員，並協調會議的各個方面 <br/>  應用程式共用 <br/>  A/V 會議 <br/>  如果您選取 [全部]，會議加入時間的總數將會顯示在報告的頂端。 請注意，這些總和只適用于使用 microsoft Exchange 或 microsoft Outlook 排程的會議。 <br/> |
    
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>度量
 
 下表列出會議加入時間報告中提供的資訊。
   

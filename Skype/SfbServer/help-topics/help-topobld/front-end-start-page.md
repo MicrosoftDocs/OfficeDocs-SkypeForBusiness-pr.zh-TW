@@ -14,14 +14,14 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f6e69ed-4add-4dc8-acb8-dfe050819f5a
-description: 使用此精靈來定義網站的新前端集區。 每個網站都至少必須有一個 Enterprise Edition 集區或 Standard Edition Server。 如需使用精靈建立新前端集區時之需求的詳細資訊，請參閱＜部署＞文件中的定義和設定前端集區。
-ms.openlocfilehash: 5134c77c15616675a860e137ae8e724407f38869
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 使用此精靈來定義網站的新前端集區。每個網站都至少必須有一個 Enterprise Edition 集區或 Standard Edition Server。如需使用精靈建立新前端集區時之需求的詳細資訊，請參閱＜部署＞文件中的定義和設定前端集區。
+ms.openlocfilehash: 5fe3a8d2c234f7548f2bf90b5fef3d4fdc6b653159bd60d39c3cb0e8794a53fe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106859"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276978"
 ---
 # <a name="front-end-start-page"></a>前端開始頁面
 
-使用此精靈來定義網站的新前端集區。 每個網站都至少必須有一個 Enterprise Edition 集區或 Standard Edition Server。 如需使用精靈建立新前端集區時之需求的詳細資訊，請參閱＜部署＞文件中的[定義和設定前端集區](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)。
+使用此精靈來定義網站的新前端集區。每個網站都至少必須有一個 Enterprise Edition 集區或 Standard Edition Server。如需使用精靈建立新前端集區時之需求的詳細資訊，請參閱＜部署＞文件中的[定義和設定前端集區](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)。

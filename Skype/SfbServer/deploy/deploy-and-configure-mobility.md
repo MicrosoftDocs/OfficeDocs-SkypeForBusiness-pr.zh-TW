@@ -1,5 +1,5 @@
 ---
-title: 為商務用 Skype Server 部署及設定行動性
+title: 部署及設定商務用 Skype Server 的行動性
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
-description: 本文將引導您完成設定現有商務用 Skype Server 安裝的步驟，以使用行動性服務，讓行動裝置能夠利用商務用 Skype 伺服器行動功能。
-ms.openlocfilehash: 2ba0a81350dac6e47f4e909b4cfba256ee90de18
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 本文將逐步逐步指導您設定現有的商務用 Skype Server 安裝以使用行動裝置服務，讓行動裝置能夠利用商務用 Skype Server 行動功能。
+ms.openlocfilehash: 4e2cbb49d74347082bf3db02bba4a01de7f31ca187867b8e95474e88ec01fcbb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103859"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306035"
 ---
-# <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>為商務用 Skype Server 部署及設定行動性  
+# <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>部署及設定商務用 Skype Server 的行動性  
  
-本文將引導您完成設定現有商務用 Skype Server 安裝的步驟，以使用行動性服務，讓行動裝置能夠利用商務用 Skype 伺服器行動功能。
+本文將逐步逐步指導您設定現有的商務用 Skype Server 安裝以使用行動裝置服務，讓行動裝置能夠利用商務用 Skype Server 行動功能。
   
-已回顧 [商務用 Skype server 文章行動方案的計畫](../plan-your-deployment/mobility.md) ，您應該準備好繼續執行下列步驟，以將行動性部署到商務用 skype 伺服器環境中。 步驟如下 (，我們會在此表格中包含許可權清單) ：
+已複習[商務用 Skype Server 文章行動方案的計畫](../plan-your-deployment/mobility.md)，您應該準備好繼續執行下列步驟，以將行動性部署至您的商務用 Skype Server 環境。 步驟如下 (，我們會在此表格中包含許可權清單) ：
   
 |**階段**|**權限**|
 |:-----|:-----|
@@ -38,12 +38,12 @@ ms.locfileid: "51103859"
 下列各節包含假設您已閱讀規劃主題的步驟。 如果有任何混淆，請隨意查看資訊。
 
 > [!NOTE]
-> MCX (行動服務) 支援舊版行動用戶端，商務用 Skype Server 2019 不再提供支援。 所有目前的商務用 Skype mobile 用戶端都已經使用整合通訊網頁 API (UCWA) 以支援立即訊息 (IM) 、目前狀態及連絡人。 具有使用 MCX 之舊版用戶端的使用者，必須升級至目前的用戶端。
+> 商務用 Skype Server 2019 不再提供舊版行動用戶端的 MCX (行動服務) 支援。 所有目前商務用 Skype 的行動裝置都已經使用整合通訊 Web API (UCWA) 以支援立即訊息 (IM) 、目前狀態及連絡人。 具有使用 MCX 之舊版用戶端的使用者，必須升級至目前的用戶端。
   
 ## <a name="create-dns-records"></a>建立 DNS 記錄
 <a name="CreateDNSRec"> </a>
 
-您可能已經擁有商務用 Skype Server 環境的一部分，但是您必須建立下列記錄，才能讓「自動探索」運作：
+您可能已經將它們當做商務用 Skype Server 環境的一部分，但是您必須建立下列記錄，才能讓「自動探索」運作：
   
 - 內部 DNS 記錄，以支援從組織網路內部連線的行動使用者。
     
@@ -55,9 +55,9 @@ ms.locfileid: "51103859"
 
 1. 登入您網路中的 DNS 伺服器，該伺服器是 **Domain Admins** 群組的成員，或是 **DnsAdmins** 群組的成員。
     
-2. 按一下 [ **開始**]，選擇 [系統 **管理工具** ] (您可能需要 **搜尋** 它（如果不是「開始」功能表中的選項）) ，然後按一下 [ **dns** ] 以開啟 [dns 管理] 嵌入式管理單元。
+2. 按一下 [**開始**]，選擇 [系統 **管理工具**] (如果不是 [開始] 功能表) 的選項，請加以 **搜尋**，然後按一下 [ **dns** ] 以開啟 [dns 管理] 嵌入式管理單元。
     
-3. 在主控台視窗的左窗格中，您需要移至您的商務用 Skype 伺服器前端伺服器所在的網域，並展開其中的 **正向對應區域** 。
+3. 在主控台視窗的左窗格中，您必須前往商務用 Skype Server 前端伺服器的首頁，然後展開其中的 **正向對應區域**。
     
 4. 請花一點時間來查看您有下列哪一項：
     
@@ -71,13 +71,13 @@ ms.locfileid: "51103859"
     
 7. 在 [ **目標主機的完整功能變數名稱 (FQDN**] 中，您必須輸入或流覽至前端集區的內部 WEB 服務 FQDN (或單一前端伺服器或 director) （在上述步驟4中識別）。 輸入時，按一下 [確定]。
     
-8. 您必須為商務用 Skype 伺服器環境中支援的每個 SIP 網域，在正向對應區域中建立新的自動探索 CNAME 記錄。
+8. 您必須在正向對應區域中，為商務用 Skype Server 環境所支援的每個 SIP 網域建立新的自動探索 CNAME 記錄。
     
 ### <a name="create-an-external-dns-cname-record"></a>建立外部 DNS CNAME 記錄
 
 1. 這些步驟是一般的，因為我們無法判斷可能使用的公用 DNS 提供者，但我們仍想要協助您。請使用可讓新 DNS 記錄的帳戶登入您的公用 DNS 提供者。
     
-2. 在這個時間點，SIP 網域應該已存在於商務用 Skype Server 中。 展開這個 SIP 網域的 **正向對應區域** ，或以其他方式開啟它。
+2. 在此時間，SIP 網域應該已存在於商務用 Skype Server。 展開這個 SIP 網域的 **正向對應區域** ，或以其他方式開啟它。
     
 3. 請花一點時間來查看您有下列哪一項：
     
@@ -91,15 +91,15 @@ ms.locfileid: "51103859"
     
 6. 接下來應該是一個區域，可在 **目標主機的 fqdn** 內輸入，這必須是前端集區的 FQDN (或單一前端伺服器的 fqdn，或是 director 集區或 director) （在上述步驟3中識別）。
     
-7. 您可能需要儲存在這裡，或者，如果您需要在商務用 Skype 伺服器環境中的每個 SIP 網域的正向對應區域中建立其他 CNAME 記錄，您應該這麼做，但在您準備好後，請儲存您的工作。
+7. 您可能需要儲存在這裡，或者，如果您需要在商務用 Skype Server 環境中的每個 SIP 網域的正向對應區域中建立其他 CNAME 記錄，您應該這麼做，但在您準備好之後，請儲存您的工作。
     
 ### <a name="create-an-internal-dns-a-record"></a>建立內部 DNS A 記錄
 
 1. 登入您網路中的 DNS 伺服器，該伺服器是 **Domain Admins** 群組的成員，或是 **DnsAdmins** 群組的成員。
     
-2. 按一下 [ **開始**]，選擇 [系統 **管理工具** ] (您可能需要 **搜尋** 它（如果不是「開始」功能表中的選項）) ，然後按一下 [ **dns** ] 以開啟 [dns 管理] 嵌入式管理單元。
+2. 按一下 [**開始**]，選擇 [系統 **管理工具**] (如果不是 [開始] 功能表) 的選項，請加以 **搜尋**，然後按一下 [ **dns** ] 以開啟 [dns 管理] 嵌入式管理單元。
     
-3. 在主控台視窗的左窗格中，您需要移至您的商務用 Skype 伺服器前端伺服器所在的網域，並展開其中的 **正向對應區域** 。
+3. 在主控台視窗的左窗格中，您必須前往商務用 Skype Server 前端伺服器的首頁，然後展開其中的 **正向對應區域**。
     
 4. 請花一點時間來查看您有下列哪一項：
     
@@ -115,7 +115,7 @@ ms.locfileid: "51103859"
     
 8. 完成後，按一下 [ **新增主機**]，然後按一下 **[確定]**。
     
-9. 您必須為商務用 Skype 伺服器環境中支援的每個 SIP 網域，在正向對應區域中建立新的自動探索 A 或 AAAA 記錄。 若要這麼做，請視需要重複步驟6-8。
+9. 您需要為商務用 Skype Server 環境中支援的每個 SIP 網域，在正向對應區域中建立新的自動探索 a 或 AAAA 記錄。 若要這麼做，請視需要重複步驟6-8。
     
 10. 當您完成時，請按一下 [ **完成**]。
     
@@ -123,7 +123,7 @@ ms.locfileid: "51103859"
 
 1. 這些步驟是一般的，因為我們無法判斷可能使用的公用 DNS 提供者，但我們仍想要協助您。請使用可讓新 DNS 記錄的帳戶登入您的公用 DNS 提供者。
     
-2. 在這個時間點，SIP 網域應該已存在於商務用 Skype Server 中。 展開這個 SIP 網域的 **正向對應區域** ，或以其他方式開啟它。
+2. 在此時間，SIP 網域應該已存在於商務用 Skype Server。 展開這個 SIP 網域的 **正向對應區域** ，或以其他方式開啟它。
     
 3. 請花一點時間來查看您有下列哪一項：
     
@@ -137,12 +137,12 @@ ms.locfileid: "51103859"
     
 6. 接下來，您應該要有一個區域可在 **IP Addresss** 中輸入，這必須是前端集區的 IP (或單一前端伺服器，或是 director 集區或 director) （在上述步驟3中所識別）。
     
-7. 您可能需要儲存在這裡，或者，如果您需要在每個 SIP 網域的正向對應區域中建立額外的 A 或 AAAA 記錄，以供商務用 Skype 伺服器環境使用，則應該這麼做，但在您準備好後，請儲存您的工作。
+7. 您可能需要儲存在這裡，或者，如果您需要在商務用 Skype Server 環境的每個 SIP 網域的正向對應區域中建立額外的 A 或 AAAA 記錄，您應該這麼做，但在您準備好之後，請儲存您的工作。
     
 ## <a name="modify-certificates"></a>修改憑證
 <a name="ModCerts"> </a>
 
-如果您有關于如何規劃憑證的相關問題，我們已在我們為 [商務用 Skype Server 文章的行動方案](../plan-your-deployment/mobility.md) 中記錄這方面的問題。 一旦您已複習好，我們會逐步引導您完成下列作業：
+如果您有關于如何規劃憑證的相關問題，我們已在我們[為商務用 Skype Server 文章的行動方案](../plan-your-deployment/mobility.md)中記錄這方面的問題。 一旦您已複習好，我們會逐步引導您完成下列作業：
   
 - 我是否需要新的憑證？
     
@@ -154,9 +154,9 @@ ms.locfileid: "51103859"
     
 ### <a name="do-i-need-new-certificates"></a>我是否需要新的憑證？
 
-1. 首先，您可能需要檢查並查看存在哪些憑證，以及是否有您所需的專案。 若要這麼做，您必須使用本機系統管理員帳戶登入您的商務用 Skype 伺服器。 此帳戶可能也需要 (CA) 的許可權，才能執行這些步驟中的部分。
+1. 首先，您可能需要檢查並查看存在哪些憑證，以及是否有您所需的專案。 若要這麼做，您必須使用本機系統管理員帳戶登入您的商務用 Skype Server。 此帳戶可能也需要 (CA) 的許可權，才能執行這些步驟中的部分。
     
-2. 開啟商務用 Skype Server 管理命令介面 (您可以使用「搜尋」來找出它是否已釘選到 [開始] 功能表或工作列) 。
+2. 開啟商務用 Skype Server 管理命令介面 (當您未將其固定至 [開始] 功能表或工作列) 時，您可以使用「搜尋」來找出它。
     
 3. 在您嘗試新增更新的憑證之前，您必須先知道哪些憑證已被指派，才是必要的做法。 因此，在命令中輸入：
     
@@ -170,7 +170,7 @@ ms.locfileid: "51103859"
     
 ### <a name="request-a-new-certificate-or-certificates-from-your-certificate-authority-ca"></a>從憑證授權單位單位 (CA 要求新憑證或憑證) 
 
-1. 檢查您所擁有的 SAN 專案後，您會知道您已透過) 上的步驟進行檢查後，您有 **一個憑證** (，而且您已學到您沒有所有需要的專案。 需要對您的 CA 進行新的憑證要求。 開啟商務用 Skype 伺服器 PowerShell:
+1. 檢查您所擁有的 SAN 專案後，您會知道您已透過) 上的步驟進行檢查後，您有 **一個憑證** (，而且您已學到您沒有所有需要的專案。 需要對您的 CA 進行新的憑證要求。 開啟商務用 Skype Server PowerShell:
     
    - 若缺少自動探索服務 SAN (將-Ca 參數取代為您自己的憑證授權單位路徑) ：
     
@@ -184,7 +184,7 @@ ms.locfileid: "51103859"
    Request-CsCertificate -New -Type Default,WebServicesInternal,WebServicesExternal -Ca dc\myca -DomainName "LyncdiscoverInternal.contoso.com, LyncdiscoverInternal.contoso.net" -verbose
    ```
 
-2. 或者，在您檢查您所擁有的 SAN 專案後，您就會發現有 **多個憑證** 沒有所有需要的專案。 需要對您的 CA 進行新的憑證要求。 開啟商務用 Skype 伺服器 PowerShell:
+2. 或者，在您檢查您所擁有的 SAN 專案後，您就會發現有 **多個憑證** 沒有所有需要的專案。 需要對您的 CA 進行新的憑證要求。 開啟商務用 Skype Server PowerShell:
     
    - 若缺少自動探索服務 SAN (將-Ca 參數取代為您自己的憑證授權單位路徑) ：
     
@@ -386,13 +386,13 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
 ## <a name="configure-autodiscover-for-mobility-with-hybrid-deployments"></a>設定具有混合式部署行動的自動探索
 <a name="ConfigAutoD"> </a>
 
-商務用 Skype Server 中的混合式環境是結合內部部署和 O365 環境的環境。 當您在混合式環境中使用商務用 Skype 伺服器時，自動探索服務必須能夠從這些環境中尋找使用者。
+商務用 Skype Server 中的混合式環境是結合內部部署和 O365 環境的環境。 當您在混合式環境中工作商務用 Skype Server 時，自動探索服務必須能夠從這些環境中尋找使用者。
   
 若要讓行動用戶端探索使用者所在的位置，必須使用新的統一資源定位器 (URL) ，來設定自動探索服務。 步驟如下：
   
 1. 開啟商務用 Skype Server 管理命令介面。
     
-2. 執行下列動作以取得商務用 Skype 伺服器環境之屬性 **ProxyFQDN** 的值：
+2. 執行下列動作，以取得商務用 Skype Server 環境的屬性 **ProxyFQDN** 值：
     
    ```powershell
    Get-CsHostingProvider
@@ -409,18 +409,18 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
 ## <a name="test-your-mobility-deployment"></a>測試行動性部署
 <a name="TestMobility"> </a>
 
-一旦您已部署商務用 Skype Server 行動服務和商務用 Skype Server 自動探索服務，您就會想要執行測試交易，以確定您的部署正確運作。 您可以執行 **Test-CsUcwaConference** ，以測試兩位使用者在會議中建立、加入和通訊的能力。 您需要有兩位使用者 (實際或測試) 及其完整認證，才能進行此項測試。 此命令會同時適用于商務用 Skype 用戶端和 Lync Server 2013 用戶端。
+當您部署商務用 Skype Server 行動性服務並商務用 Skype Server 自動探索服務之後，您會想要執行測試交易，以確定部署的運作許可權。 您可以執行 **Test-CsUcwaConference** ，以測試兩位使用者在會議中建立、加入和通訊的能力。 您需要有兩位使用者 (實際或測試) 及其完整認證，才能進行此項測試。 商務用 Skype 用戶端和 Lync Server 2013 用戶端都可以使用此命令。
   
-在商務用 Skype Server 2015 上的 Lync Server 2010 用戶端，您必須執行 **Test-CsMcxP2PIM** 以進行測試。 您的 Lync Server 2010 使用者仍必須是實際使用者或預先定義的測試使用者，而且您將需要其密碼認證。
+針對商務用 Skype Server 2015 上的 Lync Server 2010 用戶端，您必須執行 **Test-CsMcxP2PIM** 以進行測試。 您的 Lync Server 2010 使用者仍必須是實際使用者或預先定義的測試使用者，而且您將需要其密碼認證。
 
 > [!NOTE]
-> MCX (行動服務) 支援舊版行動用戶端，商務用 Skype Server 2019 不再提供支援。 所有目前的商務用 Skype mobile 用戶端都已經使用整合通訊網頁 API (UCWA) 以支援立即訊息 (IM) 、目前狀態及連絡人。 具有使用 MCX 之舊版用戶端的使用者，必須升級至目前的用戶端。
+> 商務用 Skype Server 2019 不再提供舊版行動用戶端的 MCX (行動服務) 支援。 所有目前商務用 Skype 的行動裝置都已經使用整合通訊 Web API (UCWA) 以支援立即訊息 (IM) 、目前狀態及連絡人。 具有使用 MCX 之舊版用戶端的使用者，必須升級至目前的用戶端。
   
 ### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>測試會議的商務用 Skype 和 Lync 2013 行動用戶端
 
 1. 在安裝 **商務用 Skype Server 管理命令** 介面和 **ocscore.msi** 的任何電腦上，以 **CsAdministrator** 角色成員的身分登入。
     
-2. 啟動 **商務用 Skype Server 管理命令** 介面 (您可以在 [搜尋] 中輸入名稱或移至 [ **所有程式** ]，然後選擇) 。
+2. 啟動 **商務用 Skype Server 管理命令** 介面 (您可以在 [搜尋] 中輸入名稱，或是移至 [**所有程式**] 並選擇) 。
     
 3. 在命令列中輸入：
     
@@ -441,11 +441,11 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
 ### <a name="test-conferencing-for-lync-2010-mobile-clients"></a>測試 Lync 2010 行動用戶端的會議
 
 > [!NOTE]
-> MCX (行動服務) 支援舊版行動用戶端，商務用 Skype Server 2019 不再提供支援。 所有目前的商務用 Skype mobile 用戶端都已經使用整合通訊網頁 API (UCWA) 以支援立即訊息 (IM) 、目前狀態及連絡人。 具有使用 MCX 之舊版用戶端的使用者，必須升級至目前的用戶端。
+> 商務用 Skype Server 2019 不再提供舊版行動用戶端的 MCX (行動服務) 支援。 所有目前商務用 Skype 的行動裝置都已經使用整合通訊 Web API (UCWA) 以支援立即訊息 (IM) 、目前狀態及連絡人。 具有使用 MCX 之舊版用戶端的使用者，必須升級至目前的用戶端。
 
 1. 在安裝 **商務用 Skype Server 管理命令** 介面和 **ocscore.msi** 的任何電腦上，以 **CsAdministrator** 角色成員的身分登入。
     
-2. 啟動 **商務用 Skype Server 管理命令** 介面 (您可以在 [搜尋] 中輸入名稱或移至 [ **所有程式** ]，然後選擇) 。
+2. 啟動 **商務用 Skype Server 管理命令** 介面 (您可以在 [搜尋] 中輸入名稱，或是移至 [**所有程式**] 並選擇) 。
     
 3. 在命令列中輸入：
     
@@ -468,19 +468,19 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
 ## <a name="configure-for-push-notifications"></a>設定推入通知
 <a name="ConfigPush"> </a>
 
-即使當 Skype 或 Lync 應用程式非使用中時，也可以將「徽章」、圖示或警示形式的推播通知傳送至行動裝置。 但什麼是推播通知？ 它們是事件警示，例如新的或錯過的 IM 邀請，或是收到的語音信箱。 商務用 Skype Server 行動服務會將這些通知傳送至雲端式商務用 Skype Server 推播通知服務，然後在 Windows Phone 使用者 (MSNS) 中傳送通知給 Microsoft 推播通知服務。
+即使 Skype 或 Lync 應用程式非使用中，也可以將「徽章」、圖示或警示等推播通知傳送給行動裝置。 但什麼是推播通知？ 它們是事件警示，例如新的或錯過的 IM 邀請，或是收到的語音信箱。 商務用 Skype Server 行動性服務會將這些通知傳送至雲端式商務用 Skype Server 推播通知服務，然後將通知傳送至 Microsoft 推播通知服務 (MSNS) ，以供 Windows Phone 使用者。
   
-這項功能並不會從 Lync Server 2013 變更，但如果您有商務用 Skype 伺服器，則會想要執行下列作業：
+這項功能在 Lync Server 2013 中是不變的，但是如果您有商務用 Skype Server，您會想要執行下列作業：
   
-- 若為商務用 Skype Server Edge Server，請新增主機服務提供者、Microsoft 商務用 Skype Online，然後在您的組織和商務用 Skype Online 之間設定裝載提供者同盟。
+- 若為商務用 Skype Server Edge Server，請新增新的主機服務提供者、Microsoft 商務用 Skype 線上，然後設定組織和商務用 Skype Online 之間的裝載提供者同盟。
     
 - 執行 **Set-CsPushNotificationConfiguration** Cmdlet 以啟用推播通知。 依預設，推播通知會關閉。
     
 - 測試同盟設定及推播通知。
     
-### <a name="configure-your-skype-for-business-edge-server-for-push-notifications"></a>設定適用于推播通知的商務用 Skype Edge Server
+### <a name="configure-your-skype-for-business-edge-server-for-push-notifications"></a>設定推播通知的商務用 Skype Edge Server
 
-1. 使用 **CsAdministrator** 角色成員的帳戶登入，安裝 **商務用 Skype Server 管理命令** 介面和 **ocscore.msi** 的電腦。
+1. 使用 **CsAdministrator** 角色成員的帳戶登入，以安裝 **商務用 Skype Server 管理命令** 介面和 **ocscore.msi** 的電腦。
     
 2. 啟動 **商務用 Skype Server 管理命令** 介面。
     
@@ -499,7 +499,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
     > [!NOTE]
     > 您不可以有多個與單一主機服務提供者的同盟關聯。 因此，如果您已設定與 sipfed.online.lync.com 具有同盟關聯的裝載提供者，請勿為其新增其他主機服務提供者，即使主機服務的身分識別是 SkypeOnline 以外的其他專案。 
   
-4. 在商務用 Skype Online 中，設定組織與推播通知服務之間的主機服務同盟同盟。 您必須在命令列上輸入：
+4. 在商務用 Skype Online 設定組織與推播通知服務之間的主機服務同盟同盟。 您必須在命令列上輸入：
     
    ```powershell
     New-CsAllowedDomain -Identity "push.lync.com"
@@ -507,7 +507,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
 
 ### <a name="enable-push-notifications"></a>啟用推播通知
 
-1. 使用 **CsAdministrator** 角色成員的帳戶登入，安裝 **商務用 Skype Server 管理命令** 介面和 **ocscore.msi** 的電腦。
+1. 使用 **CsAdministrator** 角色成員的帳戶登入，以安裝 **商務用 Skype Server 管理命令** 介面和 **ocscore.msi** 的電腦。
     
 2. 啟動 **商務用 Skype Server 管理命令** 介面。
     
@@ -525,7 +525,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
 
 ### <a name="test-federation-and-push-notifications"></a>測試同盟及推播通知
 
-1. 使用 **CsAdministrator** 角色成員的帳戶登入，安裝 **商務用 Skype Server 管理命令** 介面和 **ocscore.msi** 的電腦。
+1. 使用 **CsAdministrator** 角色成員的帳戶登入，以安裝 **商務用 Skype Server 管理命令** 介面和 **ocscore.msi** 的電腦。
     
 2. 啟動 **商務用 Skype Server 管理命令** 介面。
     
@@ -556,15 +556,15 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
 ## <a name="configure-mobility-policy"></a>設定行動性原則
 <a name="ConfigMob"> </a>
 
-您具備商務用 Skype 伺服器的功能，可決定誰可以使用行動服務、撥打您的行動、透過 IP 語音 (VoIP) 或影片，以及 VoIP 或影片是否需要 WiFi。 「透過公司通話」可讓行動使用者在撥打和接聽電話時使用其公司電話號碼，而不是其行動電話號碼。 該行另一端的人員不會看到行動使用者的蜂窩電話號碼，並可讓行動使用者避免撥出的電話費用。 當您設定 VoIP 和影片時，使用者可以採取或撥打 VoIP 通話和影片。 [WiFi 使用狀況] 設定會決定使用者的行動裝置是否需要透過行動電話資料網路使用 WiFi 網路。
+您可以使用商務用 Skype Server 來判斷誰可以使用您的行動服務、通話方式、透過 IP 語音 (VoIP) 或影片，以及 WiFi 或影片是否需要 VoIP。 「透過公司通話」可讓行動使用者在撥打和接聽電話時使用其公司電話號碼，而不是其行動電話號碼。 該行另一端的人員不會看到行動使用者的蜂窩電話號碼，並可讓行動使用者避免撥出的電話費用。 當您設定 VoIP 和影片時，使用者可以採取或撥打 VoIP 通話和影片。 [WiFi 使用狀況] 設定會決定使用者的行動裝置是否需要透過行動電話資料網路使用 WiFi 網路。
   
 行動性、呼叫方式，以及 VoIP 和影片功能預設為啟用。 需要停用 WiFi VoIP 和影片的設定。 系統管理員可以變更全域、依網站，或由使用者變更此功能。
   
 若要能夠透過工作使用行動功能及通話，使用者必須：
   
-- 啟用商務用 Skype 伺服器
+- 已啟用商務用 Skype Server
     
-- 已啟用 Enterprise Voice。
+- 為企業語音啟用。
     
 - 指派 **EnableMobility** 選項設定為 **True** 的行動原則。
     
@@ -575,11 +575,11 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
 - 指派 **EnableOutsideVoice** 設定為 **True** 的行動性原則。
     
 > [!NOTE]
-> 未啟用 Enterprise Voice 的使用者可以使用行動裝置，在行動裝置上使用 [按一下以加入] 連結，在行動裝置上使用 [按一下以加入會議]，如果為其相關聯的語音原則設定適當的選項，即可使用其行動裝置 VoIP 進行通話或加入會議。 規劃主題中有更多詳細資料。 
+> 未啟用企業語音的使用者可以使用行動裝置，在行動裝置上使用 [按一下以加入] 連結，讓 Skype Skype VoIP 通話，也可以加入會議，如果為其相關聯的語音原則設定了適當的選項。 規劃主題中有更多詳細資料。 
   
 ### <a name="modify-global-mobility-policy"></a>修改全域行動性原則
 
-1. 使用 **CsAdministrator** 角色成員的帳戶登入，安裝 **商務用 Skype Server 管理命令** 介面和 **ocscore.msi** 的電腦。
+1. 使用 **CsAdministrator** 角色成員的帳戶登入，以安裝 **商務用 Skype Server 管理命令** 介面和 **ocscore.msi** 的電腦。
     
 2. 啟動 **商務用 Skype Server 管理命令** 介面。
     
@@ -596,7 +596,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
     
 ### <a name="modify-mobility-policy-by-site"></a>依網站修改行動性原則
 
-1. 使用 **CsAdministrator** 角色成員的帳戶登入，安裝 **商務用 Skype Server 管理命令** 介面和 **ocscore.msi** 的電腦。
+1. 使用 **CsAdministrator** 角色成員的帳戶登入，以安裝 **商務用 Skype Server 管理命令** 介面和 **ocscore.msi** 的電腦。
     
 2. 啟動 **商務用 Skype Server 管理命令** 介面。
     
@@ -610,7 +610,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
     
 ### <a name="modify-mobility-policy-by-user"></a>依使用者修改行動性原則
 
-1. 使用 **CsAdministrator** 角色成員的帳戶登入，安裝 **商務用 Skype Server 管理命令** 介面和 **ocscore.msi** 的電腦。
+1. 使用 **CsAdministrator** 角色成員的帳戶登入，以安裝 **商務用 Skype Server 管理命令** 介面和 **ocscore.msi** 的電腦。
     
 2. 啟動 **商務用 Skype Server 管理命令** 介面。
     

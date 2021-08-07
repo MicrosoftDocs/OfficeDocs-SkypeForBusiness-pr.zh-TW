@@ -1,5 +1,5 @@
 ---
-title: 設定監視節點測試使用者和設定
+title: 如何設定監視節點測試使用者和設定
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
-description: 摘要：為商務用 Skype 伺服器綜合交易設定測試使用者帳戶和監視者節點設定。
-ms.openlocfilehash: 4069b1b51dc826beb631306e941eb40146188f42
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 如何設定商務用 Skype Server 綜合交易的測試使用者帳戶和監視程式節點設定。
+ms.openlocfilehash: 2be4b8aef73def9f9fee11e3469eae93b83393ff
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111599"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53724776"
 ---
-# <a name="configure-watcher-node-test-users-and-settings"></a>設定監視節點測試使用者和設定
+# <a name="how-to-configure-watcher-node-test-users-and-settings"></a>如何設定監視節點測試使用者和設定
  
-**摘要：** 為商務用 Skype 伺服器綜合交易設定測試使用者帳戶和監視者節點設定。
+**摘要：** 為商務用 Skype Server 綜合交易設定測試使用者帳戶和監視節點設定。
   
 在設定將充當監視節點的電腦之後，您必須：
   
@@ -34,9 +34,9 @@ ms.locfileid: "51111599"
 ## <a name="configure-test-user-accounts"></a>設定測試使用者帳戶
 <a name="testuser"> </a>
 
-測試帳戶不需要表示實際人員，但必須是有效的 Active Directory 帳戶。 此外，必須為商務用 Skype Server 啟用這些帳戶，他們必須具有有效的 SIP 位址，而且應為 Enterprise Voice (啟用這些帳戶，才能使用 Test-CsPstnPeerToPeerCall 綜合交易) 。 
+測試帳戶不需要表示實際人員，但必須是有效的 Active Directory 帳戶。 此外，必須為商務用 Skype Server 啟用這些帳戶，他們必須具有有效的 SIP 位址，而且應為企業語音啟用這些帳戶， (才能使用 Test-CsPstnPeerToPeerCall 綜合交易) 。 
   
-如果您使用的是 TrustedServer 驗證方法，您需要做的所有工作是確定這些帳戶都存在，並加以設定。 您應為每個您要測試的集區至少指派兩個測試使用者。 如果您使用 Negotiate 驗證方法，您也必須使用 Set-CsTestUserCredential Cmdlet 和商務用 Skype Server 管理命令介面，讓這些測試帳戶能夠搭配綜合交易。 執行下列命令，以執行類似下列的命令 (這些命令會假設已建立兩個 Active Directory 使用者帳戶，且已啟用這些帳戶的商務用 Skype Server) ：
+如果您使用的是 TrustedServer 驗證方法，您需要做的所有工作是確定這些帳戶都存在，並加以設定。 為每個您要測試的集區至少指派兩個測試使用者。 如果您使用 Negotiate 驗證方法，您也必須使用 Set-CsTestUserCredential Cmdlet 和商務用 Skype Server 管理命令介面，讓這些測試帳戶能夠搭配綜合交易。 請執行類似下列的命令，以執行這項作業 (這些命令會假設已建立兩個 Active Directory 使用者帳戶，且已啟用這些帳戶商務用 Skype Server) ：
   
 ```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -52,7 +52,7 @@ Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
 Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 ```
 
-會針對每位使用者傳回類似以下的資訊：
+會針對每位使用者傳回類似下列的資訊：
   
 |**UserName**|**Password**|
 |:-----|:-----|
@@ -66,7 +66,7 @@ Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
-這個命令會建立新的監看員節點，使用預設設定，並執行預設的綜合交易集合。 新的監看員節點也會使用 test users watcher1@litwareinc.com 及 watcher2@litwareinc.com。 如果觀察程式節點使用 TrustedServer 驗證，則這兩個測試帳戶可以是啟用 Active Directory 和商務用 Skype 伺服器的任何有效使用者帳戶。 如果監看員節點使用 Negotiate 驗證方法，也必須使用 Set-CsTestUserCredential Cmdlet 來啟用監視節點的使用者帳戶。
+這個命令會建立新的監看員節點，使用預設設定，並執行預設的綜合交易集合。 新的監看員節點也會使用 test users watcher1@litwareinc.com 及 watcher2@litwareinc.com。 如果監看員節點使用 TrustedServer 驗證，則這兩個測試帳戶可以是為 Active Directory 及商務用 Skype Server 啟用的任何有效使用者帳戶。 如果監看員節點使用 Negotiate 驗證方法，也必須使用 Set-CsTestUserCredential Cmdlet 來啟用監視節點的使用者帳戶。
   
 若要驗證已正確設定目標集區的自動探索，而不是以集區為目標，請改用下列步驟：
   
@@ -85,7 +85,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > 這個命令的結果必須儲存在變數中。 在此範例中，變數命名為 $pstnTest。 
   
-接下來，您可以使用 **New-CsWatcherNodeConfiguration** 指令程式，將儲存在變數 $pstnTest) 中的測試類型 (關聯至商務用 Skype Server 集區。 例如，下列命令會為集區 atl-cs-001.litwareinc.com 建立新的監看員節點設定，加入先前建立的兩個測試使用者，並新增 PSTN 測試類型：
+接下來，您可以使用 **New-CsWatcherNodeConfiguration** Cmdlet，將 $pstnTest) 中儲存的測試類型 (關聯至商務用 Skype Server 集區。 例如，下列命令會為集區 atl-cs-001.litwareinc.com 建立新的監看員節點設定，加入先前建立的兩個測試使用者，並新增 PSTN 測試類型：
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
@@ -99,7 +99,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
   
 因為 **New-CsWatcherNodeConfiguration** 指令程式呼叫時未使用測試參數，所以新的監看員節點只會啟用預設的綜合交易 (和指定的延伸綜合交易) 。 因此，觀察程式節點會測試下列元件：
   
-- 登錄
+- 註冊
     
 - 我
     
@@ -159,7 +159,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Ad
 
 例如，如果其中一或多個測試 (（例如，DataConference) 已在監看員節點上啟用），便會發生錯誤。 在此情況下，您會收到類似下列的錯誤訊息：
   
-Set-CsWatcherNodeConfiguration： ' urn： schema： WatcherNode： TestName ' key or unique identity constraint 中有重複的按鍵順序 ' DataConference '。
+Set-CsWatcherNodeConfiguration： ' urn： schema： DataConference ' 是重複的 key sequence ' '。設定。WatcherNode。2010： TestName ' 鍵或唯一識別碼限制。
   
 發生此錯誤時，將不會套用任何變更。 已移除重複的測試，應重新執行命令。
   
@@ -195,7 +195,7 @@ Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Ob
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests | Sort-Object
 ```
 
-若要確認已建立監看員節點，請在商務用 Skype Server 管理命令介面中輸入下列命令：
+若要確認已建立監看員節點，請從商務用 Skype Server 管理命令介面輸入下列命令：
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration
@@ -245,13 +245,13 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabl
 ```
 
 > [!NOTE]
-> Enabled 屬性可用於開啟或關閉監看員節點。 如果要永久刪除監看員節點，請使用 **Remove-CsWatcherNodeConfiguration** Cmdlet：
+> Enabled 屬性可用於開啟或關閉監看員節點。如果要永久刪除監看員節點，請使用 **Remove-CsWatcherNodeConfiguration** Cmdlet：
   
 ```PowerShell
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
-該命令會從指定的電腦移除所有的監看員節點設定設定，以防止電腦自動執行綜合交易。 不過，此命令不會卸載 System Center 代理檔或商務用 Skype Server 系統檔案。
+該命令會從指定的電腦移除所有的監看員節點設定設定，以防止電腦自動執行綜合交易。 不過，此命令不會卸載 System Center 代理程式檔案或商務用 Skype Server 系統檔案。
   
 依預設，觀察程式節點會在執行測試時使用組織的外部 Web URLs。 不過，觀察程式節點也可以設定為使用組織的內部 Web URLs。 這讓系統管理員可以驗證位於周邊網路內之使用者的 URL 存取。 若要設定監視節點使用內部 URLs，而不是外部 URLs，請將 UseInternalWebURls 屬性設定為 True ($True) ：
   
@@ -272,9 +272,9 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
   
 ### <a name="data-conferencing-synthetic-transaction"></a>資料會議綜合交易
 
-如果您的監看員節點電腦位於周邊網路之外，除非您先停用 Windows Internet Explorer®網路服務帳戶的 Internet browser proxy 設定，請完成下列步驟，否則您將無法執行資料會議綜合交易：
+如果您的監看員節點電腦位於周邊網路之外，除非您先停用 Windows internet Explorer® internet browser proxy 設定，請完成下列步驟，否則您將無法執行資料會議綜合交易：
   
-1. 在監看員節點電腦上，依序按一下 [**開始**]、[**所有程式**]、[**附件**] 及 [以 **系統管理員身分執行**]。 
+1. 在監看員節點電腦上，依序按一下 [ **開始**]、[ **所有程式**]、[ **附件**]、滑鼠右鍵按一下 [ **命令提示** 字元] 及 [以 **系統管理員身分執行**]。
     
 2. 在主控台視窗中，輸入下列命令，然後按 ENTER 鍵。 
     
@@ -294,9 +294,9 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
       
     此訊息表示您已停用網路服務帳戶的 Internet Explorer proxy 設定。
   
-### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange 整合通訊綜合交易
+### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange整合通訊綜合交易
 
-Exchange 整合通訊 (UM) 綜合交易會驗證測試使用者是否可以連線至位於 Exchange 中的語音信箱帳戶。
+Exchange 整合通訊 (UM) 綜合交易會驗證測試使用者是否可以連線至位於 Exchange 的語音信箱帳戶。
   
 測試使用者必須使用語音信箱帳戶進行預先設定。 
   
@@ -313,7 +313,7 @@ $cred2 = Get-Credential "contoso\testUser2"
 Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip:testUser1@contoso.com -SenderCredential $cred1 -ReceiverSipAddress sip:testUser2@contoso.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:testUser1@contoso.com -TestUser2SipAddress sip:testUser2@contoso.com -Setup $true
 ```
 
-您必須執行此設定工作，您必須從企業內部執行：
+請從 enterprise 內部執行此設定任務：
   
 - 如果從非伺服器電腦執行，則執行 Cmdlet 的使用者必須是 CsPersistentChatAdministrators 角色的成員，Role-Based 存取控制 (RBAC) 。
     
@@ -335,7 +335,7 @@ Test-CsPstnPeerToPeerCall 綜合交易會透過公用交換電話網路 (PSTN) �
     
 ### <a name="unified-contact-store-synthetic-transaction"></a>整合連絡人存放區綜合交易
 
-整合連絡人存放區綜合交易可驗證商務用 Skype 伺服器代表使用者從 Exchange 取得連絡人的能力。
+整合連絡人存放區綜合交易會驗證商務用 Skype Server 以代表使用者從 Exchange 中取得連絡人的能力。
   
 若要使用此綜合交易，必須符合下列條件：
   
@@ -367,18 +367,18 @@ Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:tes
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
-在此範例中，商務用 Skype 伺服器規則必須已存在，才能將 litwareinc.com 的郵件路由傳送至 XMPP 閘道。
+在此範例中，需要有商務用 Skype Server 規則，才能將 litwareinc.com 的郵件路由傳送至 XMPP 閘道。
 
 > [!NOTE]
-> XMPP 閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 。 
+> XMPP 的閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md)。
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a> (VIS) 綜合交易的視頻 Interop 伺服器
 
 [！注意] VIS) 綜合交易的「影片互通性 (伺服器」會要求您下載並安裝綜合交易支援檔案 ([VISSTSupportPackage.msi](https://www.microsoft.com/download/details.aspx?id=46921)) 。 
   
-若要安裝 VISSTSupportPackage.msi 請確定已安裝 msi 的 [系統需求]) 的相依性 (。 執行 VISSTSupportPackage.msi 以執行簡單安裝。 .Msi 會安裝下列路徑中的所有檔案：「%ProgramFiles%\VIS 綜合交易支援套件」。
+若要安裝 VISSTSupportPackage.msi 請確定已安裝 msi 的 [系統需求]) 的相依性 (。 執行 VISSTSupportPackage.msi 以執行簡單安裝。 .msi 會安裝下列路徑中的所有檔案：「%ProgramFiles%\VIS 綜合交易支援套件」。
   
-如需如何執行 VIS 綜合交易的詳細資訊，請參閱 [CsP2PVideoInteropServerSipTrunkAV](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV) Cmdlet 的檔。
+如需如何執行 VIS 綜合交易的更多 informatin，請參閱 [CsP2PVideoInteropServerSipTrunkAV](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV) Cmdlet 的檔。
   
 ## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>變更綜合交易的執行頻率
 <a name="special_synthetictrans"> </a>
@@ -393,7 +393,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
     
 2. 在 [規則] 區段中，尋找名稱為「主要綜合交易處理常式效能收集規則」的規則。
     
-3. 以滑鼠右鍵按一下規則，然後選取 [覆寫]，選取 [覆寫規則]，然後選取 [針對 class：集區觀察程式的所有物件]。
+3. 以滑鼠右鍵按一下該規則，然後選取 [覆寫]，選取 [覆寫規則]，然後選取 [適用于 class：集區的所有物件：集區觀察器]。
     
 4. 在 [覆寫屬性] 視窗中，選取 [參數名稱] [Frequency]，然後將覆寫值設定為所需的值。
     
@@ -402,7 +402,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>使用綜合交易的豐富記錄
 <a name="special_synthetictrans"> </a>
 
-綜合交易會證明在協助識別系統問題方面非常有用。 例如，Test-CsRegistration 指令程式可能會提醒系統管理員使用者在使用商務用 Skype 伺服器註冊時遇到問題。 不過，您可能會需要其他詳細資料，以判斷失敗的實際原因。
+綜合交易對於協助識別系統問題非常有用。 例如，Test-CsRegistration 指令程式可能會提醒系統管理員使用者在向商務用 Skype Server 註冊時遇到問題。 不過，您可能需要更多詳細資料，以判斷失敗的實際原因。
   
 因此，綜合交易會提供豐富的記錄。 使用豐富記錄，針對綜合交易 undertakes 的每個活動，會記錄下列資訊：
   
@@ -410,7 +410,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
     
 - 活動完成的時間。
     
-- 執行的動作 (例如，建立、加入或離開會議）;登入商務用 Skype 伺服器;傳送立即訊息) 。
+- 執行的動作 (例如，建立、加入或離開會議）;登入商務用 Skype Server;傳送立即訊息) 。
     
 - 活動執行時產生的資訊、詳細、警告或錯誤訊息。
     
@@ -447,9 +447,9 @@ $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
 $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 ```
 
-您可以使用 Windows Internet Explorer、Microsoft Visual Studio 或任何其他能夠開啟 HTML/XML 檔案的應用程式來查看這些檔案。
+您可以使用 Windows Internet Explorer、Microsoft Visual Studio 或任何其他能夠開啟 HTML/XML 檔的應用程式，來查看這些檔案。
   
-在 System Center Operations Manager 內執行的綜合交易，會自動產生這些記錄檔失敗。 如果執行失敗之前商務用 Skype Server PowerShell 能夠載入並執行綜合交易，將不會產生這些記錄。 
+在 System Center Operations Manager 內執行綜合交易會自動產生這些記錄檔失敗。 若執行失敗之前商務用 Skype Server PowerShell 能夠載入和執行綜合交易，將不會產生這些記錄。 
   
 > [!IMPORTANT]
-> 依預設，商務用 Skype 伺服器會將記錄檔儲存至未共用的資料夾。 若要讓這些記錄立即可供存取，您應該共用此資料夾。 例如： \\ atl-觀察程式-001。 litwareinc com\WatcherNode。
+> 根據預設，商務用 Skype Server 會將記錄檔儲存至未共用的資料夾。 若要讓這些記錄立即可供存取，您應該共用此資料夾。 例如： \\ atl-觀察程式-001。 litwareinc com\WatcherNode。

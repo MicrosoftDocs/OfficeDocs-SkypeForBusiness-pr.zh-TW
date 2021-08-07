@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype 伺服器集區失敗期間的使用者經驗
+title: 商務用 Skype Server 的集區失敗期間的使用者經驗
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
-description: 深入瞭解在商務用 Skype Server 中的前端集區容錯移轉或回失敗時的使用者經驗。
-ms.openlocfilehash: 137ad9076febccb272e88e457ee56e6474cff107
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 深入瞭解當前端集區容錯移轉或在商務用 Skype Server 中的嚴重損壞復原期間容錯移轉時，使用者會遇到什麼情況。
+ms.openlocfilehash: f17e589175c0d91db074f7ff1a1808a32d65410a5c5d7639fa2bcb284ed67680
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809903"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276598"
 ---
-# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>商務用 Skype 伺服器集區失敗期間的使用者經驗
+# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>商務用 Skype Server 的集區失敗期間的使用者經驗
  
-深入瞭解在商務用 Skype Server 中的前端集區容錯移轉或回失敗時的使用者經驗。
+深入瞭解當前端集區容錯移轉或在商務用 Skype Server 中的嚴重損壞復原期間容錯移轉時，使用者會遇到什麼情況。
   
-如果集區容錯移轉，受影響的集區中的所有使用者都會強制登出，然後登入備份組區。 對於登入備份組區的簡短使用者，其可能是以復原模式進行。 在復原模式中，使用者無法執行會導致商務用 Skype 伺服器持續變更的任務，例如新增連絡人。 容錯移轉完成後，所有使用者都可以從備份組區取得所有服務。
+如果集區容錯移轉，受影響的集區中的所有使用者都會強制登出，然後登入備份組區。 對於登入備份組區的簡短使用者，其可能是以復原模式進行。 在復原模式中，使用者無法執行會導致商務用 Skype Server 持續變更的任務，例如新增連絡人。 容錯移轉完成後，所有使用者都可以從備份組區取得所有服務。
   
 當集區失敗時，使用者所擁有的任何呼叫、會議或交談都會中斷，使用者必須在容錯移轉之後重新建立這些會話，以繼續進行。
   
@@ -54,7 +54,7 @@ ms.locfileid: "49809903"
 |由不受影響的使用者組織的現行會議  <br/> |會議持續和受影響的使用者可以保留在會議中。 受影響的使用者限制為以復原模式來執行的動作。  <br/> |會議繼續進行，且受影響的使用者可以保留在會議中，而且在使用者結束復原模式後，所有形式都會運作。  <br/> |
 |排程或修改排程的會議，建立即席會議  <br/> |當使用者處於復原模式時，不可能。  <br/> |適用于所有形式。  <br/> |
 |相同集區中的其他使用者看到的狀態  <br/> |當使用者在復原模式期間登入備份組區時，目前狀態不明。  <br/> |顯示使用者設定的最後一個目前狀態，而且現在會反映目前狀態變更。  <br/> |
-|連絡人清單和通訊錄服務可用性  <br/> |不適用  <br/> |可以使用  <br/> |
+|連絡人清單和通訊錄服務可用性  <br/> |無  <br/> |可以使用  <br/> |
 |所有點對點工作階段和形式  <br/> |可以使用  <br/> |可以使用  <br/> |
    
 **使用者在另一個集區的回切期間位於未受影響的集區中的使用者經驗**

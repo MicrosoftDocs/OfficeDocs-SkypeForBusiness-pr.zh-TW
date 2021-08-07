@@ -1,5 +1,5 @@
 ---
-title: '封存 (規劃工具) '
+title: 商務用 Skype Server：封存規劃工具
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45580eaa-4c59-47c6-9e64-9221a3a352b4
-description: 在商務用 Skype Server 中封存可讓您封存透過商務用 Skype Server 所傳送的通訊。
-ms.openlocfilehash: 053924727c43d43387bd759797754ba2ff45c4c1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在商務用 Skype Server 中封存為您提供一種方式，可讓您封存透過商務用 Skype Server 傳送的通訊。
+ms.openlocfilehash: 18f40ef42a83895056790a87a365aad1372c0555
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810683"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "53772764"
 ---
-# <a name="archiving-planning-tool"></a>封存 (規劃工具) 
+# <a name="skype-for-business-server-archiving-planning-tool"></a>商務用 Skype Server：封存規劃工具
  
-在商務用 Skype Server 中封存可讓您封存透過商務用 Skype Server 所傳送的通訊。
+在商務用 Skype Server 中封存為您提供一種方式，可讓您封存透過商務用 Skype Server 傳送的通訊。
   
-如需準備封存伺服器環境的詳細資訊，請參閱 Plan for 封存 [In 商務用 Skype Server 2015](../../plan-your-deployment/archiving/archiving.md)。
+如需準備封存伺服器環境的詳細資訊，請參閱[Plan for 封存 in 商務用 Skype Server 2015](../../plan-your-deployment/archiving/archiving.md)。
   
 

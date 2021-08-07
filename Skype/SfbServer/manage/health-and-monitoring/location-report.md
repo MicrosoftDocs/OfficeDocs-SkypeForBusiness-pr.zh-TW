@@ -12,16 +12,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 description: 摘要：瞭解商務用 Skype Server 中的位置報告。
-ms.openlocfilehash: 4c99b958c4cdf129338b263486dc12adc3ef64a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0bebc7e04ae97cb90a5a2b2382bfceb679315d5b3442248852b3fb9a4aa31e5e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827893"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276778"
 ---
 # <a name="location-report-in-skype-for-business-server"></a>商務用 Skype Server 中的位置報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的位置報告。
+**摘要：** 瞭解商務用 Skype Server 中的位置報告。
   
 位置報告提供依網路位置 (，也就是由網路子網) 分組之通話品質計量的相關資訊。 如果使用者遇到來電問題，此報告可協助您判斷這些問題是否受到廣泛使用，或是主要局限于指定的網段。
   
@@ -50,7 +50,7 @@ ms.locfileid: "49827893"
 |**網路類型** <br/> | 指出當撥打電話時，用戶端連線的網路類型。請選取下列其中一項： <br/>  一切 <br/>  有線 <br/>  無線 <br/> |
 |**VPN** <br/> | 指出當撥打電話時，外部用戶端是否使用虛擬私人網路 (VPN) 連線。請選取下列其中一項： <br/>  一切 <br/>  VPN <br/>  非 VPN <br/> |
    
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>度量
 
 下表列出位置報告中提供的資訊。
   

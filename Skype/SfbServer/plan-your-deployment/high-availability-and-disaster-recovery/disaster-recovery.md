@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 中的前端集區嚴重損壞修復
+title: 商務用 Skype Server 中的前端集區災害復原
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
-description: 針對嚴重損壞修復，商務用 Skype 伺服器提供集區配對與容錯移轉，以防一個集區中斷。
-ms.openlocfilehash: 949b0c51ba3ad545210f70c311f8db1912623291
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 針對嚴重損壞修復，商務用 Skype Server 提供集區配對與容錯移轉，以防一個集區中斷。
+ms.openlocfilehash: a7e658e10718ac45ee6c2122433137ac4a198a459baa0171aec2453963636d32
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093131"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276624"
 ---
-# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>商務用 Skype Server 中的前端集區嚴重損壞修復
+# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>商務用 Skype Server 中的前端集區災害復原
  
-針對嚴重損壞修復，商務用 Skype 伺服器提供集區配對與容錯移轉，以防一個集區中斷。
+針對嚴重損壞修復，商務用 Skype Server 提供集區配對與容錯移轉，以防一個集區中斷。
   
-針對商務用 Skype Server 中最強健的嚴重損壞修復選項，請將前端集區配對部署到兩個地理位置分散的網站。 每個網站都有一個前端集區與另一個網站中對應的前端集區成對。 這兩個網站都使用中，而備份服務會提供即時資料複寫，以保持集區同步。 如果您想要執行前端集區配對，請參閱 [在商務用 Skype Server 中部署成對的前端集區以進行](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) 嚴重損壞修復。
+針對商務用 Skype Server 中最強健的嚴重損壞修復選項，請將前端集區配對部署到兩個地理位置分散的網站。 每個網站都有一個前端集區與另一個網站中對應的前端集區成對。 這兩個網站都使用中，而備份服務會提供即時資料複寫，以保持集區同步。 如果您想要執行前端集區配對，請參閱[在商務用 Skype Server 中部署成對的前端集區以進行](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)嚴重損壞修復。
   
 ![在兩個不同的網站上顯示前端集區，彼此搭配。](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
@@ -50,7 +50,7 @@ ms.locfileid: "51093131"
   
 即使兩個前端集區之間的備份關係必須是1:1 及對稱式，每個前端集區也可以是任何數目的 Survivable 分支裝置的備份註冊機。
   
-請注意，商務用 Skype 不會將嚴重損壞復原支援擴充至位於 Survivable 分支裝置的使用者。 如果充當 Survivable 分支裝置備份的前端集區中斷，即使位於前端集區的使用者已容錯移轉至備份前端集區，登入 Survivable Branch 裝置的使用者還是會進入復原模式。
+請注意，商務用 Skype 不會將嚴重損壞復原支援擴充至位於 Survivable Branch 裝置的使用者。 如果充當 Survivable 分支裝置備份的前端集區中斷，即使位於前端集區的使用者已容錯移轉至備份前端集區，登入 Survivable Branch 裝置的使用者還是會進入復原模式。
   
 ## <a name="recovery-time-for-pool-failover-and-pool-failback"></a>集區容錯移轉及集區容錯移轉的復原時間
 
@@ -58,11 +58,11 @@ ms.locfileid: "51093131"
   
 針對集區容錯移轉及集區回復，復原點目標的工程目標 (RPO) 為5分鐘。 這代表由於備份服務的複寫延遲而因災難而遺失的資料時間量。 例如，如果集區在 10:00 A.M. 中斷，RPO 為5分鐘，將資料寫入至集區的 9:55 A.M。 和 10:00 A.M。可能尚未複製到備份組區，將會遺失。
   
-本檔中的所有 RTO 和 RPO 都是以兩個網站之間的高速度、低延遲傳輸的方式，假設兩個資料中心位於相同的世界地區內。 這些數位是針對包含40000個同時作用中使用者的集區測量的集區200000，也就是針對商務用 Skype 使用的預先定義使用者模型（在資料複寫中未進行待辦事項的預先定義使用者模型）來啟用。 它們可能會根據效能測試和驗證而變更。
+本檔中的所有 RTO 和 RPO 都是以兩個網站之間的高速度、低延遲傳輸的方式，假設兩個資料中心位於相同的世界地區內。 這些數位是針對已啟用40000同時作用中使用者和200000使用者的集區，針對在資料複寫中沒有待辦事項的預先定義使用者模型啟用商務用 Skype。 它們可能會根據效能測試和驗證而變更。
   
 ## <a name="central-management-store-failover"></a>中央管理存放區容錯移轉
 
-中央管理存放區包含您部署中的伺服器和服務的設定資料。 每一部商務用 Skype Server 部署都包含一個中央管理存放區，由一個前端集區的後端伺服器主控。
+中央管理存放區包含您部署中的伺服器和服務的設定資料。 每個商務用 Skype Server 部署都包含一個中央管理存放區，由一個前端集區的後端伺服器主控。
   
 如果您將主控中央管理存放區的集區配對，備份組區中會設定備份中央管理存放區資料庫。 在任何時候，都有兩個中央管理存放區資料庫中的其中一個，另一個是待機狀態。 備份服務會將內容從現用資料庫複製到待機狀態。
   
@@ -80,15 +80,15 @@ ms.locfileid: "51093131"
   
 從來源集區中，此資料是從本機儲存區匯出，然後轉接至目標集區，在此情況下，會將其解壓縮並匯入至本機儲存區。 備份服務假定兩個資料中心之間的通訊連結，都位於從網際網路保護的公司網路內。 它不會加密兩個資料中心之間已傳輸的資料，也不會在安全性通訊協定（如 HTTPS）內，以本機方式封裝的資料。 因此，來自公司網路內部的內部人員可以進行中間人攻擊。
   
-任何可跨多個資料中心部署商務用 Skype Server 和使用嚴重損壞修復功能的企業，都必須確定資料中心之間的流量受到公司內部網路的保護。 關心內部攻擊防護的企業必須保護資料中心之間的通訊連結。 這是標準的需求，也可協助 protech 在資料中心之間傳輸的其他許多類型的公司敏感性資料。
+任何可跨多個資料中心部署商務用 Skype Server 並使用災難修復功能的企業，都必須確定資料中心之間的流量受到公司內部網路的保護。 關心內部攻擊防護的企業必須保護資料中心之間的通訊連結。 這是標準的需求，也可協助 protech 在資料中心之間傳輸的其他許多類型的公司敏感性資料。
   
 雖然公司網路記憶體在中間人攻擊的風險存在，但是它相對於公開網際網路的流量，其相對包含。 具體而言，由「備份服務」所公開的使用者資料 (例如 SIP URIs) 一般是透過其他方式，例如全域通訊錄或其他目錄軟體，供公司內的所有員工使用。 因此，當備份服務用於複製兩個配對集區間的資料時，您的重點應該是保護兩個資料中心之間的 WAN。
   
 ### <a name="mitigating-security-risks"></a>降低安全性風險
 
-您有許多方式可以增強備份服務流量的安全性保護。 這範圍包括限制資料中心存取，以保護兩個資料中心之間的 WAN 傳輸。 在大多數情況下，部署商務用 Skype 伺服器的企業可能已具備必要的安全性基礎結構。 針對尋求指導的企業，Microsoft 提供了如何建立安全 IT 基礎結構的範例。 如需詳細資訊，請參閱 [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) 。 
+您有許多方式可以增強備份服務流量的安全性保護。 這範圍包括限制資料中心存取，以保護兩個資料中心之間的 WAN 傳輸。 在大多數情況下，部署商務用 Skype Server 的企業可能已具備必要的安全性基礎結構。 針對尋求指導的企業，Microsoft 提供了如何建立安全 IT 基礎結構的範例。 如需詳細資訊，請參閱 [https://go.microsoft.com/fwlink/p/?LinkId=268544](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc725770(v=ws.10)) 。 
   
-我們並不表示這是唯一的解決方案，也不表示它是商務用 Skype 伺服器的慣用解決方案。 我們建議企業客戶根據其 IT 安全性基礎結構和需求，選擇可滿足其特定需求的解決方案。 Microsoft 解決方案範例使用 IPSec 和群組原則來進行伺服器和網域隔離。
+我們並不暗示這是唯一的解決方案，也不表示這是商務用 Skype Server 的慣用解決方案。 我們建議企業客戶根據其 IT 安全性基礎結構和需求，選擇可滿足其特定需求的解決方案。 Microsoft 解決方案範例使用 IPSec 和群組原則來進行伺服器和網域隔離。
   
 另一種可能的解決方法是使用 IPSec，協助保護備份服務本身所傳送的資料。 如果您選擇此方法，則應該為下列伺服器（其中集區 A 與集區 B 是兩個成對的前端集區）設定 SMB 通訊協定的 IPSec 規則。
   
@@ -101,4 +101,4 @@ ms.locfileid: "51093131"
   
 ## <a name="see-also"></a>另請參閱
 
-[在商務用 Skype Server 中部署用於嚴重損壞修復的配對前端集區](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)
+[在商務用 Skype Server 中為嚴重損壞修復部署成對的前端集區](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

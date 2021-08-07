@@ -1,5 +1,5 @@
 ---
-title: 刪除商務用 Skype Server 中的經驗品質設定設定
+title: 在商務用 Skype Server 中刪除經驗品質設定設定
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
-description: 摘要：瞭解如何在商務用 Skype Server 中 (QoE) 設定中刪除經驗品質。
-ms.openlocfilehash: b48ddb9af715cd33b11d3c2f1c7ea90b3746aa4a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：瞭解如何刪除商務用 Skype Server 的經驗品質 (QoE) 設定。
+ms.openlocfilehash: 8f97ed5fc1a59b68a4087406c14ad4414cc106ad25401322f025101f09aabe4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095277"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54305425"
 ---
-# <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>刪除商務用 Skype Server 中的經驗品質設定設定
+# <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除經驗品質設定設定
  
-**摘要：** 瞭解如何在商務用 Skype Server 中 QoE) 設定中刪除經驗品質 (。
+**摘要：** 瞭解如何刪除商務用 Skype Server 的經驗品質 (QoE) 設定。
   
 「經驗品質 (QoE)」計量在追蹤組織中進行之音訊和視訊通話的品質，包括遺失的網路封包數量、背景雜訊和「抖動」(封包延遲差異) 等項目的數量。這些計量會儲存在與其他資料 (例如詳細通話記錄) 不同的資料庫中，讓您可獨立於其他資料記錄來啟用和停用 QoE。
   
@@ -29,23 +29,23 @@ ms.locfileid: "51095277"
   
 請注意，您也可以「刪除」全域設定。 不過，全域設定實際上不會被移除。 相反地，該集合中的所有屬性都會重設為預設值。 例如，預設會在 QoE 設定設定的集合中啟用清除。 假設您修改全域集合以停用清除。 如果您稍後刪除全域設定，所有屬性都會重設為其預設值。 在此情況下，這表示會再次啟用清除。
   
-您可以使用商務用 Skype Server 控制台或使用 [Remove-CsQoEConfiguration](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps) Cmdlet 來移除 QoE 設定設定。
+您可以使用商務用 Skype Server 控制台或使用[Remove-CsQoEConfiguration](/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps)指令程式移除 QoE 設定設定。
   
 ### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台刪除 QoE 配置設定
 
 1.  以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱＜**Delegate Setup Permissions**＞。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。  
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。  
     
 3. 在左導覽列中，按一下 **[監控和封存]**，然後按一下 **[經驗品質資料]**。
     
 4. 在 [ **經驗品質資料** ] 頁面上，按一下您要的原則，按一下 [ **編輯**]，然後按一下 [ **刪除**]。
     
-5. 按一下 **[確定]**。
+5. 按一下 ****[確定]。
     
-## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 移除 QoE 配置設定
+## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 移除 QoE 設定設定
 
-您可以使用 Windows PowerShell 和 **Remove-CsQoEConfiguration** Cmdlet 刪除 QoE 的設定設定。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線到商務用 Skype 伺服器的詳細資訊，請參閱博客文章 [：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。 商務用 Skype Server 中的程式相同。
+您可以使用 Windows PowerShell 和 **Remove-CsQoEConfiguration** Cmdlet 刪除 QoE 的設定設定。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此指令程式。 如需使用遠端 Windows PowerShell 連線到商務用 Skype Server 的詳細資訊，請參閱博客文章[：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。 商務用 Skype Server 中的程式相同。
   
 ### <a name="to-remove-a-specified-collection-of-qoe-configuration-settings"></a>移除指定的 QoE 配置設定集合
 
