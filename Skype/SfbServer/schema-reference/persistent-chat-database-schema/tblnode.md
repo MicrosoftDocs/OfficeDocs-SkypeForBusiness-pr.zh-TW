@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode 包含類別或聊天室節點 (的物件樹) 如控制台和管理 Cmdlet 中所管理。
-ms.openlocfilehash: cd2353d768ef61787b81efcdfe35f9c57409cc12
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2d26e61fc9404e2649ca71d4e48d4bb3f147c88ec787dfd798753eaa5f83a5b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815923"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306714"
 ---
 # <a name="tblnode"></a>tblNode
  

@@ -25,15 +25,15 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: 瞭解音訊會議Microsoft 365或Office 365使用者如何從他們的電話撥打會議。
-ms.openlocfilehash: bce9aee26fa1fa9cfd8a365074bd67fcc79bde6f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 166ec76e8f63373056f73efd647b6810818a53ca410594ca06dc2f137e6ece02
+ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111269"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "57799064"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>音訊會議Microsoft 365
-音訊會議Microsoft 365 Office 365使用者可以從他們的電話撥打會議。 音訊會議可允許最多 250 位電話出席者。
+Microsoft 365 Office 365音訊會議Office 365使用者可以從他們的電話撥打會議。 音訊會議最多允許 1000 個電話出席者。
 
 ## <a name="what-is-audio-conferencing"></a>什麼是音訊會議？
 撥入 (撥電話進入) 會議對於不在現場且無法在其筆記本電腦或行動裝置上使用商務用 Skype 或 Microsoft Teams 應用程式的使用者而言，是很實用的功能。 但在其他情況下，使用電話參加商務用 Skype 或 Microsoft Teams 會議，會比在電腦上使用應用程式的效果更好：

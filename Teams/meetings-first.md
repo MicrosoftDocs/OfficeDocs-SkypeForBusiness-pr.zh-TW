@@ -19,59 +19,59 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b75f9bf5328b25a1ce1fd695a90163f63a61f823
-ms.sourcegitcommit: bd7847de9d1402476f8faaeae2ff97ec60d86a1b
+ms.openlocfilehash: a9053c3ff27300f8699a3f4fdd7de6175d752df78684eb133be457da61873f65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "51262580"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276149"
 ---
 # <a name="meetings-first"></a>會議優先
 
-「會議第一」是針對內部商務用 Skype Server組織企業語音，並針對想要儘快開始使用Teams會議的組織而優化。 對於這類組織，會議優先是使用 **島嶼** 模式的替代方式，可優先Teams會議體驗。
+「會議第一」是針對內部部署商務用 Skype Server組織企業語音，並針對想要儘快開始使用Teams會議的組織進行優化。 對於這類組織，會議優先是使用 **島嶼** 模式的替代方式，可優先Teams會議體驗。
 
 ## <a name="what-is-meetings-first"></a>什麼是會議第一個？
 
-會議第一個是以 **SfBWithTeamsCollabAndMeetings** 共存模式為基礎。 會議第一步不是產品或功能，而是使用 Teams 和 商務用 Skype 功能來提供獨一無二的共存體驗的組組。
+會議第一個是以 **SfBWithTeamsCollabAndMeetings** 共存模式為基礎。 會議第一步不是產品或功能，而是使用 Teams 和 商務用 Skype 功能來提供獨一無二的共存體驗。
 
-在會議第一個中，使用者會以 Teams 建立會議，商務用 Skype聊天、通話和目前狀態。 兩者之間的模式沒有重迭Teams商務用 Skype。 聊天、通話和目前狀態商務用 Skype和關閉Teams。 這可在 商務用 Skype 和 Teams 之間啟用唯一的「共同Teams案例，以增強使用者在共存期間的體驗，以及僅與 Teams 使用者之間的互通性 **案例**。
+在會議第一個中，使用者會以 Teams 建立會議，商務用 Skype聊天、通話和目前狀態。 兩者之間的模式沒有重迭Teams商務用 Skype。 聊天、通話和目前狀態商務用 Skype和關閉Teams。 這可在 商務用 Skype 和 Teams 之間啟用獨特的「共同Teams案例，以增強使用者在共存期間的體驗，以及僅與 Teams 使用者之間的互通性 **案例**。
 
 ![螢幕擷取畫面顯示使用 Teams 和 商務用 Skype](media/meetings-first-meeting-in-meeting.png)
 
 > [!Important]
 > 會議第一個比對沒有或幾個作用中聊天Teams相符。 使用Teams聊天使用者不應切換到會議第一模式，因為他們會失去在 Teams 聊天和存取其聊天記錄的能力。 這些使用者應該改為以 **群島** 模式進行，而會議第一次只授予尚未在群島中聊天Teams。
 
-## <a name="who-should-consider-meetings-first"></a>神秘應該先考慮會議嗎？
+## <a name="who-should-consider-meetings-first"></a>神秘先考慮會議嗎？
 
 會議第一次是專為想要加速移至 Teams 會議的 商務用 Skype Server 使用 企業語音 的組織所設計，尤其是想要以受管理、決定式升級路徑Teams。
 
-對於複雜或大型組織，語音移移通常是以網站為基礎進行，而且可能需要很長的時間，可能花上數年的時間，導致延長共存案例。 如果該共存是在 **群島** 模式中，使用者一定會選擇兩種會議解決方案 (商務用 Skype Teams) ，這可能會導致混淆或不最佳的情況。 與語音移移不同的是，會議移移通常可以在很短的時間內完成整個公司。 想要儘快完全切換到會議Teams組織 (而不需要等待語音移轉完成，) 應考慮會議第一。
+對於複雜或大型組織，語音移移通常是以網站為基礎進行，而且可能需要很長的時間，可能花上數年的時間，導致延長共存案例。 如果該共存是在 **群島** 模式中，使用者一定會選擇兩種會議解決方案 (商務用 Skype Teams) ，這可能會導致混淆或不最佳的情況。 與語音移移不同的是，會議移移一般可以在很短的時間內完成整個公司。 想要儘快完全切換到會議Teams且不需要等待語音移轉完成 (組織應考慮) 會議。
 
-會議第一步可能對於沒有使用者企業語音實用。 只有這些組織能夠採用Teams，才能升級至 Teams會議。 他們應該考慮先略過會議。
+會議第一步對於沒有使用者或企業語音很有用。 只有這些組織能夠採用Teams，才能升級至 Teams會議。 他們應該考慮先略過會議。
 
 此外，「會議第一」對於其範圍為純播放會議解決方案的組織而言，例如發行「僅會議」RFP 時，會很有用。
 
 ## <a name="capabilities-in-meetings-first"></a>會議第一個功能
 
-會議第一次將下列功能彙集在一起：
+會議第一個功能結合下列功能：
 
 - [在內部商務用 Skype Server (內部部署) 音訊會議](./tutorial-audio-conferencing.yml?tutorial-step=3)Teams[使用者](tutorial-audio-conferencing.yml)。
 - [會議移轉服務](/skypeforbusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)：使用者組織的會議會移轉至雲端，並轉換成 Teams 會議，因為使用者升級為會議第一 (需要Exchange Online) 。
 - 精簡的 Teams，以 Teams 會議和團隊和頻道為中心 (您可以選擇使用應用程式權限原則選項隱藏這些) ; [](teams-app-permission-policies.md)[Teams聊天](teams-client-experience-and-conformance-to-coexistence-modes.md)、通話和自我目前狀態不會在會議第一次中公開，因此部署和採用工作可以完全專注于會議。
 - 出色的[Teams會議體驗](tutorial-meetings-in-teams.yml)。
-- 兩者之間的「更Teams」商務用 Skype： 
-  - 自動保留：在 Teams 中開會時，商務用 Skype來電會Teams保留會議，反之亦然。 這可防止使用者被會議參與者聽到他們的私人通話。
+- 兩者之間的「共同Teams」商務用 Skype： 
+  - 自動保留：在 Teams 中開會時，商務用 Skype來電會保留Teams，反之亦然。 這可防止使用者聽到會議參與者的私下通話。
     ![螢幕擷取畫面顯示使用 Teams 和 商務用 Skype](media/meetings-first-better-together-hold.png)
   - 目前狀態對帳：Teams中的活動會反映在使用者的目前狀態中，商務用 Skype聊天和通話是在商務用 Skype。 具體來說，當會議第一位使用者Teams會議時，他們的目前狀態將會更新以反映這一點。 當他們展示畫面時，其目前狀態將會更新， (畫面中的設定顯示請勿打擾商務用 Skype) 。
-  - MAC (也提供 USB 裝置 HID 控制項對帳) ：在 Teams 會議中Teams以及所有其他情況下，商務用 Skype會遵守 HID 控制項。
+  - MAC (也提供 USB 裝置 HID 控制項對帳) ：在 Teams 會議中Teams以及所有其他情況下商務用 Skype，HID 控制項會由 Teams 使用。
   - 除非另有提及，否則更好的共同功能目前Windows桌面用戶端。
 
 ## <a name="prerequisites-for-meetings-first"></a>會議第一個先決條件
 
 會議第一次的唯一硬性需求與使用內部部署 Active Directory Teams內部部署商務用 Skype需求相同：
 
-- [一般先決條件的Teams，](upgrade-plan-journey-prerequisites.md)包括
-- [身分識別與 Teams驗證](identify-models-authentication.md)
+- [一般Teams](upgrade-plan-journey-prerequisites.md)先決條件，包括
+- [中的](identify-models-authentication.md)身分識別Teams驗證
 - [設定 Azure Active Directory 和 Teams 商務用 Skype。](/skypeforbusiness/hybrid/configure-azure-ad-connect)
 
 不需要[商務用 Skype](/skypeforbusiness/hybrid/configure-federation-with-skype-for-business-online)混合式拓撲，但建議使用。 某些功能 ，例如會議移移服務和互通性，仰賴該拓撲。
@@ -80,9 +80,9 @@ ms.locfileid: "51262580"
 
 一旦符合這些 (而非) ，使用者就可以獲得授權Microsoft 365或[Office 365 Teams。](/office365/enterprise/assign-licenses-to-user-accounts)
 
-為了獲得最佳會議第一次體驗，使用者應啟用[Exchange Online、SharePoint](exchange-teams-interact.md) [Online 和](sharepoint-onedrive-interact.md)商務用 OneDrive ，Microsoft 365群組建立。 對於信箱位於內部部署Exchange，或沒有 SharePoint Online 或 OneDrive 商務用，或群組Microsoft 365支援會議。 不過，他們的體驗會不太完整。 特別是，對於使用 Exchange Server 內部部署的組織， (視 Exchange Server) 版本不同，從 Teams 用戶端建立和檢視會議，以及合規性功能方面，可能有一些限制。
+為了獲得最佳會議第一次體驗，使用者應啟用[Exchange Online、SharePoint](exchange-teams-interact.md) [Online 和](sharepoint-onedrive-interact.md)商務用 OneDrive ，Microsoft 365群組建立。 對於信箱位於內部部署Exchange，或沒有 SharePoint Online 或 OneDrive 商務用，或群組Microsoft 365支援會議。 不過，他們的體驗會不太完整。 特別是，對於使用 Exchange Server 內部部署的組織， (視 Exchange Server) 版本不同，從 Teams 用戶端建立和檢視會議，以及合規性功能可能有一些限制。
 
-使用者至少必須獲得[授權，Teams。](/microsoft-365/admin/manage/assign-licenses-to-users) 此外，如有必要，他們也可以獲得音訊 [會議](set-up-audio-conferencing-in-teams.md)授權。
+使用者至少必須獲得[授權，Teams。](/microsoft-365/admin/manage/assign-licenses-to-users) 此外，如有必要，他們可以獲得音訊 [會議](set-up-audio-conferencing-in-teams.md)授權。
 
 我們建議您在授權使用者時，將 [**SfBOnly** 或 **SfBWithTeamsCollab**](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)模式作為租使用者預設模式。 這可確保在準備好啟動會議Teams，使用者不會在預設 **群島** 模式中自行開始使用會議。
 
@@ -105,7 +105,7 @@ ms.locfileid: "51262580"
 
 ## <a name="configure-users-for-meetings-first"></a>先設定會議使用者
 
-一旦授權使用者並準備好組織Teams，現在該是讓使用者先開會的時間。 我們已輕鬆進行：單一設定可以全部執行！
+一旦授權使用者並準備好組織Teams，現在該是讓使用者先開會的時間。 我們已輕鬆操作：單一設定可以全部執行！
 
 會議第一中的所有功能和使用者體驗 ，包括 Teams 用戶端組組和使用者體驗的[](teams-client-experience-and-conformance-to-coexistence-modes.md)自動一致性、會議移移服務和更好的一致性功能，都是在[Microsoft Teams](manage-teams-in-modern-portal.md)系統管理中心或[PowerShell](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps)中授予使用者 (或使用者群組，或租使用者預設) [](setting-your-coexistence-and-upgrade-settings.md)來加以配置。
 

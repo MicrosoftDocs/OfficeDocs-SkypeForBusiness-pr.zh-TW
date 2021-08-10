@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 概觀什麼是移轉訂單，以及如何將服務提供者的電話號碼移轉Teams。
-ms.openlocfilehash: f30bdc825caf7feadbb09bd4bbe65a4d5771a6a6
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: a0d8884df95e153544e5d0108af8b23af7e464d59480350c7422bfdfdbb6e113
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278646"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276119"
 ---
 # <a name="whats-a-port-order"></a>什麼是移轉訂單？
 
@@ -31,7 +31,7 @@ ms.locfileid: "53278646"
   
 將電話號碼移植到 Teams之後，Microsoft 會成為您的服務提供者，您可以中斷與舊服務提供者或電信公司的服務。
 
-請閱閱本文中的資訊，以熟悉數位埠。 之後，您應該可以建立移轉訂單並移轉電話號碼。 請參閱[將電話號碼轉接Teams，](transfer-phone-numbers-to-teams.md)以逐步指示。
+請閱閱本文中的資訊，以熟悉數位埠。 之後，您應該準備好建立移轉訂單並傳輸電話號碼。 請參閱[將電話號碼轉接Teams，](transfer-phone-numbers-to-teams.md)以逐步指示。
   
 ## <a name="what-countries-or-regions-support-number-porting"></a>哪些國家/地區支援號碼移植？
 
@@ -57,7 +57,7 @@ ms.locfileid: "53278646"
 - 免付費電話號碼。
 
     > [!NOTE]
-    > 通用國際免費電話號碼 (UIFN) 無法移轉至我們。 
+    > 無法將通用國際免費 (號碼) UIFN 號碼傳送給我們。 
   
 - 服務電話號碼，例如用於會議橋接器、自動電話機等的電話號碼。
 
@@ -78,14 +78,14 @@ ms.locfileid: "53278646"
 
     如果您有用於傳真的現有專用電話號碼，您可以將這些數位移轉至Teams但傳真服務無法如預期繼續工作。 傳真服務不適用於Teams，即使您擁有 電話系統、國內通話方案或國際通話方案授權。
 
-    如果您將電話號碼Teams，您可以將此電話號碼指派給貴組織的使用者，而不是使用電話號碼進行傳真。
+    如果您將電話號碼Teams，您可以將這個電話號碼指派給貴組織的使用者，而不是使用它進行傳真。
 
     > [!NOTE]
     > 目前在英國，我們目前不支援傳輸英國非地理號碼，包括區碼 0843、0844、0845、0870、0871、0872 的共用成本號碼。
   
 ## <a name="what-information-do-i-need-to-provide"></a>我需要提供哪些資訊？
 
-您必須擁有目前電信公司的所有帳戶資訊。 您于埠訂單中輸入的資訊大多位於您目前服務提供者的最新帳單或發票上。 您也需要知道帳戶上的名稱，以及要端口的號碼。
+您必須擁有目前電信公司的所有帳戶資訊。 您于埠訂單中輸入的資訊，大多可于您目前服務提供者的最新帳單或發票上找到。 您也需要知道帳戶上的名稱，以及要端口的號碼。
   
 ## <a name="what-are-full-port-and-partial-port-transfers"></a>什麼是完整埠和部分埠傳輸？
 
@@ -93,7 +93,7 @@ ms.locfileid: "53278646"
   
 - **完整埠** 這是當您將目前服務提供者的所有號碼移轉至Teams。 當系統要求您轉接電話號碼時，您必須包含帳單電話號碼 (BTN) 以及您帳戶上所有其他電話號碼。 
 
-    例如，假設您的 BTN 是  *+1 425-555-1234，*  而您想要將 25 個電話號碼全部 (*+1 425-555-1235 到 1259*) 。 當您按照下列指示傳送號碼時，請輸入 **：+14255551234 - +14255551259**。
+    例如，假設您的 BTN 是  *+1 425-555-1234，*  而您想要將 25 個電話號碼全部 (*+1 425-555-1235 到 1259*) 。 當您按照下列指示傳送號碼時，請輸入 **：+14255551234 - +14255551259。**
 
 - **部分埠** 此時，您只會將部分電話號碼從目前的服務提供者轉接至Teams。 當您想要將部分電話號碼與同一個 BTN 系結在一起時，您 **** 不得包含 ** BTN 以及您帳戶上所有其他電話號碼。
 
@@ -112,19 +112,19 @@ ms.locfileid: "53278646"
 
 - 行動電話號碼
 
-- 可在會議或會議中使用的服務號碼Microsoft 365 Office 365。
+- 可在會議或會議中使用的服務Microsoft 365 Office 365。
 
 以下是如何針對每種數位類型提交號碼移植要求之詳細資訊：
   
 - **電話不同** 電信公司所提供的號碼，需要針對每個電信公司所提供的號碼提出唯一的移植要求。
 
-- **含** 區碼的免付費號碼，例如：800、844、855、866、877 和 888，無法包含在號碼移植要求中，並與其他號碼類型。 若要端口這些免付費號碼，您必須 [手動提交埠訂單](manually-submit-port-order.md)。 您無法將這些數位Microsoft Teams系統管理中心。 詳細資訊，請參閱 [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+- **不含區** 碼的免付費號碼，例如：800、844、855、866、877 和 888，無法包含在號碼移植要求中，並包含其他類型的號碼。 若要端口這些免付費號碼，您必須 [手動提交埠訂單](manually-submit-port-order.md)。 您無法將這些數位Microsoft Teams系統管理中心。 詳細資訊，請參閱 [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
     請針對國家/地區使用正確的授權 (LOA) ，以及您想要端口的電話號碼類型。 您可以[在這裡下載您需要的 LOA。](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 - **行動電話號碼** 需要 PIN 碼才能授權傳輸。 因此，他們需要個別的號碼埠要求。
 
-- **服務號碼** 的埠要求必須自行提交。 無法以其他類型的數位提交。
+- **服務號碼** 的埠要求必須自行提交。 無法與其他數位類型一起提交。
 
 ## <a name="how-long-does-it-take-to-port-numbers"></a>埠號碼需要多久時間？
 <a name="bkmk_type_1"> </a>
@@ -165,11 +165,11 @@ ms.locfileid: "53278646"
 
 - 請確定這些電話號碼上沒有啟用進位的通話控制功能，例如通話搜尋、特殊響鈴。
 
-- 請確定您尚未下任何新的服務訂單，或中斷與目前服務提供者的連線。
+- 請確定您尚未下任何新的服務訂單，或中斷與目前服務提供者的中斷連接。
 
 - 請確定所有號碼都來自同一個電信電信公司與同一個帳戶。
 
-- 請確定您的服務已使用中。 凍結帳戶可防止帳戶上的電信公司變更。 獲授權變更帳戶的人員必須提交訂單給目前的電信公司，才能移除凍結。 此程式可能需要一到三周的時間，視電信公司不同。
+- 請確定您的服務為使用中。 凍結帳戶可防止帳戶上的電信公司變更。 獲授權變更帳戶的人員必須提交訂單給目前的電信公司，才能移除凍結。 此程式可能需要一到三周的時間，視電信公司不同。
 
 ## <a name="related-topics"></a>相關主題
 

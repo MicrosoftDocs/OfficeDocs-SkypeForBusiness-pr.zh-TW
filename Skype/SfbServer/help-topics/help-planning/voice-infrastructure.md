@@ -1,5 +1,5 @@
 ---
-title: '語音基礎結構 (規劃工具) '
+title: 商務用 Skype Server語音基礎結構規劃工具
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,16 +15,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
-description: 商務用 Skype Server 2015 可透過使用 SIP 主幹、將 SIP 直接連線至 PSTN 閘道，或直接 SIP 連接至 PBX，提供可靠、可伸縮的 PSTN 連線能力。 如需詳細資訊，請參閱 Plan for PSTN connectivity in 商務用 Skype Server 2015。
-ms.openlocfilehash: 114f8aa44127736a754b98d9693ca17317f95490
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 商務用 Skype Server 2015 可透過使用 SIP 主幹、將 sip 連線到 PSTN 閘道，或將 sip 連線至 PBX，提供可靠、可伸縮的 PSTN 連線能力。 如需詳細資訊，請參閱 Plan for PSTN connectivity in 商務用 Skype Server 2015。
+ms.openlocfilehash: 4b679ba60e05a5ff065fdddbd8d5685ab915e5935302549207191da9e579a118
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800263"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590707"
 ---
-# <a name="voice-infrastructure-planning-tool"></a>語音基礎結構 (規劃工具) 
+# <a name="skype-for-business-server-voice-infrastructure-planning-tool"></a>商務用 Skype Server語音基礎結構規劃工具
  
-商務用 Skype Server 2015 可透過使用 SIP 主幹、將 SIP 直接連線至 PSTN 閘道，或直接 SIP 連接至 PBX，提供可靠、可伸縮的 PSTN 連線能力。 如需詳細資訊，請參閱 [Plan FOR PSTN connectivity In 商務用 Skype Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)。
+商務用 Skype Server 2015 可透過使用 SIP 主幹、將 sip 連線到 PSTN 閘道，或將 sip 連線至 PBX，提供可靠、可伸縮的 PSTN 連線能力。 如需詳細資訊，請參閱[Plan for PSTN connectivity in 商務用 Skype Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md)。
   
 

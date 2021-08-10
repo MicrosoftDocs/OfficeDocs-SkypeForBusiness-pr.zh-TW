@@ -18,18 +18,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何手動提交埠訂單要求。
-ms.openlocfilehash: 92b5754a78cb0949b2788b33000ecbfa5d1f2e53
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 13732092921951ee60749e91f4963942f31cb9c45211a0d66cbd9b6f688d220a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098259"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276139"
 ---
 # <a name="manually-submit-a-port-order"></a>手動提交移轉訂單
 
 在某些國家和地區，您可能需要手動提交服務要求，才能取得電話號碼、轉接電話號碼、發行電話號碼或變更位址。 若要瞭解每個國家/地區所需的功能，或深入瞭解號碼移植，請參閱管理 [貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-如果您的國家/地區未列在系統管理中心的埠精靈中，請使用本文中的步驟，手動提交[Microsoft Teams訂單](transfer-phone-numbers-to-teams.md)。
+如果您的國家/地區未列在系統管理中心的埠精靈中，請使用本文中的步驟手動提交Microsoft Teams[訂單](transfer-phone-numbers-to-teams.md)。
 
 ## <a name="manually-submit-a-new-port-order-request"></a>手動提交新的埠訂單要求
 

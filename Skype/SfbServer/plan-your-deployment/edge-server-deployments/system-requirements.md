@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
-description: 摘要：瞭解在商務用 Skype Server 中 Edge Server 的系統需求。
-ms.openlocfilehash: d5003a265a53c3603892133077a961f54c974401
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：瞭解商務用 Skype Server 中 Edge Server 的系統需求。
+ms.openlocfilehash: dc1541604a4a26c9af3c184282648ef2f96469fa4346a6b6cc379eed2f5f023f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51112739"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306974"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>商務用 Skype Server 中的 Edge Server 系統需求
  
-**摘要：** 深入瞭解在商務用 Skype Server 中的 Edge Server 的系統需求。
+**摘要：** 深入瞭解商務用 Skype Server 中的 Edge Server 的系統需求。
   
-當您前往商務用 Skype Server Edge Server 部署時，您需要針對環境本身中的伺服器或伺服器進行下列作業，以及規劃環境結構。 如需拓撲、DNS、憑證及其他基礎結構問題的詳細資訊，請參閱環境需求檔。
+當您商務用 Skype Server Edge Server 部署時，這些是您要對環境本身的伺服器或伺服器進行的工作，以及規劃環境結構。 如需拓撲、DNS、憑證及其他基礎結構問題的詳細資訊，請參閱環境需求檔。
   
 ## <a name="components"></a>元件
 
-當您討論 Edge Server 環境時，我們會參考大多數在周邊網路中部署的元件， (這是指在工作組或位於商務用 Skype Server 域結構之外的網域中) 。
+在討論 Edge Server 環境時，我們會參考大多數在周邊網路中部署的元件，這些元件是在周邊網路中部署 (，也就是在您商務用 Skype Server 網域結構以外的工作組或網域中) 。
   
 請記住，這些是您在成功部署 Edge 時需要記住的元件：
   
@@ -50,28 +50,28 @@ ms.locfileid: "51112739"
 ### <a name="edge-servers"></a>Edge Server
 <a name="EdgeServers"> </a>
 
-這些是部署在周邊環境中的商務用 Skype 伺服器。 其角色是針對內部商務用 Skype Server 部署所提供的服務，傳送和接收網路流量給外部使用者。 若要成功執行這項作業，每個 Edge Server 都會執行：
+這些是部署在周邊環境中的商務用 Skype 伺服器。 其角色是針對內部商務用 Skype Server 部署所提供的服務，針對外部使用者傳送和接收網路流量。 若要成功執行這項作業，每個 Edge Server 都會執行：
   
 - **Access Edge service**：為輸出和輸入會話初始通訊協定 (SIP) 流量提供單一信任的連線點。
     
-- **Web 會議 Edge service**：可讓外部使用者加入內部商務用 Skype 伺服器環境所主控的會議。
+- **Web 會議 Edge service**：可讓外部使用者加入內部商務用 Skype Server 環境所主控的會議。
     
 - **A/V Edge service**：讓外部使用者可以使用音訊、影片、應用程式共用和檔案傳輸。
     
 - **XMPP Proxy 服務**：接受及傳送可延伸的訊息和顯示狀態通訊協定 (XMPP) 與已設定 XMPP 同盟協力廠商的郵件。
     
-已授權的外部使用者可以使用 Edge Server 連線到內部的商務用 Skype Server 部署，但在其他情況下，不會為任何人提供內部網路的其他存取權。
+已授權的外部使用者可以使用 Edge server 連線到您的內部商務用 Skype Server 部署，但在其他情況下，不會為任何人提供內部網路的其他存取權。
   
 > [!NOTE]
-> Edge Server 會進行部署，以提供啟用商務用 Skype 用戶端和其他 Edge Server (在同盟情況) 中的連線。 您無法從其他端點用戶端或伺服器類型進行連線。 XMPP 閘道伺服器可允許與已設定 XMPP 合作夥伴的連線。 不過，這些是唯一可以運作的用戶端和同盟類型。 
+> Edge server 會部署以提供連線，以便在同盟) 中 (的商務用 Skype 用戶端和其他 Edge server 成為啟用的連線。 您無法從其他端點用戶端或伺服器類型進行連線。 XMPP 閘道伺服器可允許與已設定 XMPP 合作夥伴的連線。 不過，這些是唯一可以運作的用戶端和同盟類型。 
 
 > [!NOTE]
-> XMPP 閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 。
+> XMPP 的閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 。
   
 ### <a name="reverse-proxies"></a>反向 Proxy
 <a name="ReverseProxies"> </a>
 
-反向 proxy (RP) server 沒有商務用 Skype 伺服器角色，但為 Edge Server 部署的基本元件。 反向 proxy 允許外部使用者執行下列作業：
+反向 proxy (RP) 伺服器沒有商務用 Skype Server 角色，但為 Edge server 部署的基本元件。 反向 proxy 允許外部使用者執行下列作業：
   
 - 使用簡單 URLs 連線到會議或電話撥入式會議。
     
@@ -89,9 +89,9 @@ ms.locfileid: "51112739"
   
 - 它可讓他們自動探索前端伺服器提供行動性服務。
     
-- 它會啟用從 Microsoft 365 或 Office 365 到行動裝置的推播通知。
+- 它會啟用從 Microsoft 365 或 Office 365 至行動裝置的推播通知。
     
-目前的反向 proxy 建議可在商務用 Skype 頁面的 [電話語音基礎結構](../../../SfbPartnerCertification/certification/infra-gateways.md) 上找到。 您的反向 proxy：
+您可以在商務用 Skype 頁面的[電話語音基礎結構](../../../SfbPartnerCertification/certification/infra-gateways.md)上找到目前的反向 proxy 建議。 您的反向 proxy：
   
 - 應該可以使用傳輸層安全性 (TLS) （透過公用憑證將其引入您的環境），以連線至已發佈的外部 Web 服務：
     
@@ -129,24 +129,24 @@ ms.locfileid: "51112739"
 ### <a name="directors"></a>董事
 <a name="Directors"> </a>
 
-這是選用的角色。 它可以是單一伺服器或執行 Director 角色之伺服器的集區。 這是在內部商務用 Skype 伺服器環境中找到的角色。
+這是選用的角色。 它可以是單一伺服器或執行 Director 角色之伺服器的集區。 這是在內部商務用 Skype Server 環境中找到的角色。
   
-Director 是一個內部的下一個躍點伺服器，可從目的地為商務用 Skype 伺服器內部伺服器的 Edge server 接收輸入 SIP 流量。 它會 preauthenticates 輸入要求並將其重新導向至使用者的主集區或伺服器。 這種預驗證可讓您丟棄未識別的使用者帳戶要求。
+Director 是一個內部的下一個躍點伺服器，它會接收來自目標為商務用 Skype Server 內部伺服器之 Edge server 的輸入 SIP 流量。 它會 preauthenticates 輸入要求並將其重新導向至使用者的主集區或伺服器。 這種預驗證可讓您丟棄未識別的使用者帳戶要求。
   
-為何這麼做？ Director 的一個重要功能是保護 Standard Edition server 和前端伺服器或前端集區免受惡意流量（例如拒絕服務 (DoS) 攻擊）。 如果您的網路因外部流量無效而淹沒，則流量會停止在 Director 上。
+為何這麼做？ Director 的一個重要功能是保護 Standard Edition 伺服器與前端伺服器或前端集區免受惡意流量的攻擊，例如拒絕服務 (DoS) 攻擊。 如果您的網路因外部流量無效而淹沒，則流量會停止在 Director 上。
   
 ### <a name="load-balancers"></a>負載平衡器
 <a name="LoadBalancers"> </a>
 
-商務用 Skype 伺服器調整式合併 Edge 拓撲已針對新部署的 DNS 負載平衡進行優化，我們建議這樣做。 如果您需要高可用性，建議使用硬體負載平衡器以取得一個特定狀況：
+商務用 Skype Server 調整式合併 Edge 拓撲已針對新部署的 DNS 負載平衡進行優化，我們建議這樣做。 如果您需要高可用性，建議使用硬體負載平衡器以取得一個特定狀況：
   
-- Exchange 2013 **之前** 使用 exchange um 的遠端使用者的 exchange um。
+- Exchange在 Exchange 2013 **之前**，使用 Exchange um 的遠端使用者 um。
     
 > [!IMPORTANT]
-> 請務必注意，您不能混合負載平衡器。 在商務用 Skype 伺服器環境中，所有介面都必須使用 DNS 或 HLB。 
+> 請務必注意，您不能混合負載平衡器。 在您的商務用 Skype Server 環境中，所有介面都必須使用 DNS 或 HLB。 
   
 > [!NOTE]
-> Direct server 回郵 (DSR) NAT 不支援商務用 Skype Server。 
+> 不支援直接伺服器傳回 (DSR) NAT 商務用 Skype Server。 
   
 #### <a name="hardware-load-balancer-requirements-for-edge-servers-edge-servers-running-the-av-edge-service"></a>執行 A/V Edge service 之 Edge Server Edge Server 的硬體負載平衡器需求
 
@@ -164,7 +164,7 @@ Director 是一個內部的下一個躍點伺服器，可從目的地為商務�
     
 #### <a name="hlb-requirements"></a>HLB 需求
 
-商務用 Skype 伺服器沒有許多 cookie 的關聯性需求。 因此，您不需要使用 cookie 型暫留， **除非** (，而且這是商務用 skype server 2015 特有的) 您將在商務用 skype server 環境中有 Lync Server 2010 前端伺服器或前端集區。 在 Lync Server 2010 的設定方法中，將需要以 cookie 為基礎的關聯性。
+商務用 Skype Server 不會有許多 cookie 的關聯性需求。 所以您不需要使用 cookie 型持續性，**除非** (，而這是商務用 Skype Server 2015 特有的) 您會在商務用 Skype Server 環境中有 Lync Server 2010 前端伺服器或前端集區。 在 Lync Server 2010 的設定方法中，將需要以 cookie 為基礎的關聯性。
   
 > [!NOTE]
 > 如果您決定為您的 HLB 開啟 cookie 基礎的親近性，即使您的環境不需要，也不會發生問題。 
@@ -186,7 +186,7 @@ Director 是一個內部的下一個躍點伺服器，可從目的地為商務�
 - 您 **必須** 在每個傳入的 HTTP 要求沒有 COOKIE 的 HTTP 回應中設定硬體負載平衡器 cookie，不論相同 TCP 連線上先前的 HTTP 回應是否已取得 cookie。 如果您的硬體負載平衡器優化 cookie 插入只會在每個 TCP 連線時發生一次，則 **不得** 使用該優化。
     
 > [!NOTE]
-> 對於商務用 Skype 伺服器及其用戶端，HLB 設定使用來源-親近性和20分鐘的 TCP 會話存留時間，因為會話狀態是透過用戶端使用狀況和/或應用程式互動來維護的，所以很正常。 
+> 一般情況下，HLB 設定使用來源相關性和20分鐘的 TCP 會話壽命，這對商務用 Skype Server 和其用戶端而言很好，因為會話狀態是透過用戶端使用狀況和/或應用程式互動來維護。 
   
 如果您要部署行動裝置，HLB 必須能夠在 TCP 會話內負載平衡個別的要求 (實際上，您必須能夠根據目標 IP 位址) ，對個別要求進行負載平衡。
   
@@ -195,7 +195,7 @@ Director 是一個內部的下一個躍點伺服器，可從目的地為商務�
   
 以下是 (選用) Director 的 HLB 需求，以及 (必要的) 前端集區 Web 服務：
   
-- 針對您的內部 Web 服務 VIPs，請在 HLB 上設定 (內部埠80，443) 的 Source_addr 持續性。 若為商務用 Skype Server，Source_addr 持續性表示來自單一 IP 位址的多個連線，永遠會傳送至一部伺服器，以維護會話狀態。
+- 針對您的內部 Web 服務 VIPs，請在 HLB 上設定 (內部埠80，443) 的 Source_addr 持續性。 針對商務用 Skype Server，Source_addr 暫留表示來自單一 IP 位址的多個連線，永遠會傳送至一部伺服器，以維護會話狀態。
     
 - 使用的 TCP 閒置超時為1800秒。
     
@@ -205,9 +205,9 @@ Director 是一個內部的下一個躍點伺服器，可從目的地為商務�
 
 |**用戶端/使用者位置**|**外部 Web 服務 FQDN 相似性需求**|**內部 web 服務 FQSN 關聯性需求**|
 |:-----|:-----|:-----|
-|商務用 Skype Web App (內部及外部使用者)   <br/> 行動裝置 (內部及外部使用者  <br/> |無相似性  <br/> |來源位址相似性  <br/> |
-|商務用 Skype Web App (僅限外部使用者)   <br/> 行動裝置 (內部及外部使用者  <br/> |無相似性  <br/> |來源位址相似性  <br/> |
-|僅限內部使用者 (商務用 Skype Web App)   <br/> 行動裝置 (未部署)  <br/> |無相似性  <br/> |來源位址相似性  <br/> |
+|商務用 Skype Web 應用程式 (內部和外部使用者)   <br/> 行動裝置 (內部及外部使用者  <br/> |無相似性  <br/> |來源位址相似性  <br/> |
+|僅商務用 Skype Web 應用程式 (外部使用者)   <br/> 行動裝置 (內部及外部使用者  <br/> |無相似性  <br/> |來源位址相似性  <br/> |
+|僅限內部使用者商務用 Skype Web 應用程式 ()   <br/> 行動裝置 (未部署)  <br/> |無相似性  <br/> |來源位址相似性  <br/> |
    
 #### <a name="port-monitoring-for-hlbs"></a>HLBs 的埠監視
 
@@ -216,12 +216,12 @@ Director 是一個內部的下一個躍點伺服器，可從目的地為商務�
 |**虛擬 IP/連接埠**|**節點連接埠**|**節點電腦/監視器**|**持續性設定檔**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |前端  <br/> 5061  <br/> |無  <br/> |HTTPS:  <br/> |
-|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |前端  <br/> 5061  <br/> |無  <br/> |HTTP:  <br/> |
+|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |前端  <br/> 5061  <br/> |無  <br/> |HTTP  <br/> |
    
 ## <a name="hardware-and-software-requirements"></a>硬體及軟體需求
 
-我們已在商務用 skype server 2015 的整體 [伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) 和  [商務用 skype server 2019 檔的系統需求](../../../SfBServer2019/plan/system-requirements.md) 中，涵蓋了 Edge server 的硬體和軟體需求。
+我們已在商務用 Skype Server 2019 檔的商務用 Skype Server 2015 和[系統需求](../../../SfBServer2019/plan/system-requirements.md)的整體[伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)中，涵蓋 Edge server 的硬體和軟體需求。
   
 ## <a name="collocation"></a>搭配
 
-我們已在我們的《商務用 [Skype server 檔」的拓撲基礎](../../plan-your-deployment/topology-basics/topology-basics.md) 上涵蓋 Edge server 組合。
+我們已在[商務用 Skype Server 檔的拓撲基礎](../../plan-your-deployment/topology-basics/topology-basics.md)中涵蓋 Edge Server 組合。

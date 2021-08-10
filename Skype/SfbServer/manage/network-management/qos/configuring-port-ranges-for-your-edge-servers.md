@@ -15,14 +15,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本文說明如何設定 Edge Server 的埠範圍，以及如何為您的 A/V Edge Server 設定服務品質原則。
-ms.openlocfilehash: c88f784fe1956fa16b8464caa4f9f26e5c61005e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f21a5612889e0368a93bc8a55e5f023a28b226a9aa8843275faa696675b94d7e
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832903"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591127"
 ---
-# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>在商務用 Skype Server 中設定 Edge Server 的埠範圍和服務品質原則
+# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>在商務用 Skype Server 中設定 Edge server 的埠範圍和服務品質原則
 
 本文說明如何設定 Edge Server 的埠範圍，以及如何為您的 A/V Edge Server 設定服務品質原則。
 
@@ -35,9 +35,6 @@ ms.locfileid: "49832903"
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -71,17 +68,17 @@ ms.locfileid: "49832903"
 </table>
 
 
-如您所見，音訊、影片和應用程式共用的埠範圍會從埠40803開始，並包含24732埠的總數。 如果您願意，您可以在商務用 Skype Server 管理命令介面中執行類似下列的命令，以設定指定的 Edge Server 使用這些整體埠值：
+如您所見，音訊、影片和應用程式共用的埠範圍會從埠40803開始，並包含24732埠的總數。 如果您願意，您可以從商務用 Skype Server 管理命令介面中執行類似如下的命令，將指定的 Edge Server 設定為使用這些整體埠值：
 
-    Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730
+  **Set-CsEdgeServer-Identity EdgeServer:atl-edge-001.litwareinc.com-MediaCommunicationPortStart 40803-MediaCommunicationPortCount 24730**
 
 或者，使用下列命令以在組織中同時設定所有 Edge 伺服器：
 
-    Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_.Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}
+  **Get-CsService-Edgeserver atl-edge |ForEach-Object {Set-CsEdgeServer-Identity $ _。Identity-MediaCommunicationPortStart 40803-MediaCommunicationPortCount 24730}**
 
-您可以使用此商務用 Skype Server 管理命令介面命令來驗證 Edge server 的目前埠設定：
+您可以使用下列商務用 Skype Server 管理命令介面命令來驗證 Edge server 的目前埠設定：
 
-    Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount
+  **Get-CsService-Edgeserver atl-edge |Select-Object 身分識別、MediaCommunicationPortStart、MediaCommunicationPortCount**
 
 同樣地，我們確實提供這些選項，我們強烈建議您保留其為埠設定的內容。
 
@@ -97,11 +94,11 @@ ms.locfileid: "49832903"
 
 如果您要建立 Active Directory 型原則，應登入已安裝群組原則管理的電腦。 在此情況下，請開啟 [群組原則管理] (按一下 [ **開始**]，指向 [系統 **管理工具**]，然後按一下 [ **群組原則管理**) ]，然後完成下列步驟：
 
-1.  在群組原則管理中，找出要用來建立新原則的容器。 例如，如果您所有的商務用 Skype Server 電腦都位於名為商務用 Skype Server 的 OU 中，則應該在商務用 Skype Server OU 中建立新的原則。
+1.  在群組原則管理中，找出要用來建立新原則的容器。 例如，如果您的所有商務用 Skype Server 電腦都位於名為商務用 Skype Server 的 OU 中，則應該在商務用 Skype Server OU 中建立新的原則。
 
 2.  以滑鼠右鍵按一下適當的容器，然後按一下 [ **在這個網域中建立 GPO]，並在這裡連結**。
 
-3.  在 [ **新增 GPO** ] 對話方塊的 [ **名稱** ] 方塊中，輸入新群組原則物件的名稱 (例如， **商務用 Skype Server 音訊**) ]，然後按一下 **[確定]**。
+3.  在 [**新增 GPO** ] 對話方塊的 [**名稱**] 方塊中，輸入新群組原則物件的名稱 (例如，**商務用 Skype Server 音訊**) ]，然後按一下 **[確定]**。
 
 4.  以滑鼠右鍵按一下新建立的原則，然後按一下 [ **編輯**]。
 
@@ -109,7 +106,7 @@ ms.locfileid: "49832903"
 
 1.  在群組原則管理編輯器或本機群組原則編輯器中，依序展開 [電腦設定]、[原則]、[Windows 設定]，以滑鼠右鍵按一下 [以原則為依據的 QoS]，然後按一下 [建立新原則]。
 
-2.  在 [**原則型 QoS** ] 對話方塊的 [開始] 頁面上，于 [**名稱**] 方塊中輸入新原則的名稱 (例如，**商務用 Skype Server 音訊**) 。 選取 [指定 DSCP 數值]，並將該值設為 **46**。 將 [指定輸出節流閥速率] 保留未選取狀態，然後按 [下一步]。
+2.  在 [**原則型 QoS** ] 對話方塊的 [開始] 頁面上，于 [**名稱**] 方塊中輸入新原則的名稱 (例如，**商務用 Skype Server Audio**) 。 選取 [指定 DSCP 數值]，並將該值設為 **46**。 將 [指定輸出節流閥速率] 保留未選取狀態，然後按 [下一步]。
 
 3.  在下一個頁面上，確定已選取 [ **所有應用程式** ]，然後按 **[下一步]**。 此設定會指示網路尋找 DSCP 標示為 46 的所有封包，而不只是特定應用程式建立的封包。
 
@@ -121,7 +118,7 @@ ms.locfileid: "49832903"
 
 在建立音訊流量的 QoS 原則之後，您應該先建立影片流量的第二個原則。 若要為視訊建立原則，請遵循您建立音訊原則時所使用的相同基本程序，並替換下列項目：
 
-  - 使用不同的 (和唯一的) 原則名稱 (例如， **商務用 Skype Server 影片**) 。
+  - 使用不同的 (和唯一的) 原則名稱 (例如 **商務用 Skype Server 影片**) 。
 
   - 將 DSCP 值設為 **34** 而不是 46。(請注意，DSCP 值不一定要使用 34。唯一的要求是用於視訊和音訊的 DSCP 值必須不同。)
 
@@ -129,7 +126,7 @@ ms.locfileid: "49832903"
 
 如果您決定建立用來管理應用程式共用流量的原則，則必須建立第三個原則，以進行下列替代：
 
-  - 使用不同的 (和唯一的) 原則名稱 (例如， **商務用 Skype Server 應用程式共用**) 。
+  - 使用不同的 (和唯一的) 原則名稱 (例如，**商務用 Skype Server 應用程式共用**) 。
 
   - 將 DSCP 值設為 **24** 而不是 46。(再強調一次，DSCP 值不一定要使用 24。唯一的要求是用於應用程式共用的 DSCP 值必須與視訊或音訊不同。)
 
@@ -137,9 +134,9 @@ ms.locfileid: "49832903"
 
 必須在 Edge Server 上重新整理群組原則之後，您建立的新原則才會生效。雖然群組原則本身會定期重新整理，但您可以在需要重新整理群組原則的每部電腦上執行下列命令，以強制立即重新整理：
 
-    Gpudate.exe /force
+ **Gpudate.exe/force**
 
-您可以從商務用 Skype Server 或任何執行于系統管理員認證的命令視窗中執行此命令。 若要以系統管理員憑證執行命令視窗，請按一下 [開始]，以滑鼠右鍵按一下 [命令提示字元]，然後按一下 [以系統管理員身分執行]。 請注意，即使在執行 Gpudate.exe 之後，可能還是需要重新啟動 Edge Server。
+這個命令可以從商務用 Skype Server 中執行，或從任何以系統管理員認證執行的命令視窗執行。 若要以系統管理員憑證執行命令視窗，請按一下 [開始]，以滑鼠右鍵按一下 [命令提示字元]，然後按一下 [以系統管理員身分執行]。 請注意，即使在執行 Gpudate.exe 之後，可能還是需要重新啟動 Edge Server。
 
 為幫助確保網路封包標示適當的 DSCP 值，您也應該要在每部電腦上建立新的登錄項目，請完成下列程序：
 

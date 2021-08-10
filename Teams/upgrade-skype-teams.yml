@@ -30,11 +30,11 @@ highlightedContent:
     - title: 註冊免費升級規劃研討會
       itemType: learn
       url: 'https://aka.ms/upgradeworkshops'
-    - title: 瞭解百& Veatch 如何在八周內Teams轉場
+    - title: 瞭解百& Veatch 在八周Teams轉Teams轉場
       itemType: video
       url: 'https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk'
 productDirectory:
-  title: 規劃成功升級Teams資源
+  title: 規劃成功升級及Teams的資源
   summary: 健康的技術環境、持續採用使用者，以及達成您的商業目標，都是從適當的規劃開始。
   items:
     - title: Teams升級故事
@@ -43,7 +43,7 @@ productDirectory:
         - url: 'https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams'
           text: 英國 DSM – 商務用 Skype Server Teams
         - url: 'https://customers.microsoft.com/story/799203-ikea-retailers-teams'
-          text: 2010- 商務用 Skype Server至 Teams
+          text: 宜家 – 商務用 Skype Server Teams
         - url: 'https://customers.microsoft.com/story/782385-williams-energy-teams'
           text: Williams – 商務用 Skype Server Teams
         - url: 'https://customers.microsoft.com/story/765513-trek-retailers-teams'
@@ -78,22 +78,22 @@ productDirectory:
       url: ./skype-for-business-online-retirement.md
     - title: Microsoft Teams部落格
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blog-site-teams.svg'
-      summary: 直接從幕後團隊瞭解最佳做法、Microsoft Teams。
+      summary: 直接從幕後團隊瞭解最佳做法、新訊和Microsoft Teams。
       url: 'https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog'
     - title: 企業的總Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/trend-graph-teams.svg'
-      summary: 深入探討 Forrester Research 報告，該報告可量化採用新方案後員工和公司績效的Teams。
+      summary: 深入瞭解 Forrester Research 報告，該報表會量化採用新方案後員工和公司績效的Teams。
       url: 'https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf'
 additionalContent:
   sections:
     - title: 需要其他協助嗎？
     - items:
-        - title: 使用 FastTrack 以尋求部署協助
-          summary: 當Teams專案需要更多參與協助時，具有合格訂閱的客戶可以與 FastTrack 合作以取得支援。
+        - title: 使用 FastTrack以尋求部署協助
+          summary: 當Teams專案需要更多參與協助時，具有合格訂閱的客戶可以FastTrack尋求支援。
           url: 'https://www.microsoft.com/fasttrack'
         - title: 尋找 Microsoft 合作夥伴
           summary: 需要其他指引嗎？ Microsoft 解決方案提供者可協助您管理升級的技術與物流。
           url: 'https://www.microsoft.com/solution-providers/home'
         - title: Microsoft Teams方案與價格
-          summary: 尋找適合Microsoft Teams的企業。
+          summary: 尋找適合Microsoft Teams的合適目標。
           url: 'https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options'

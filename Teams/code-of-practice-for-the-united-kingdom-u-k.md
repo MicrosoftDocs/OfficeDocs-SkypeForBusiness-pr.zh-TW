@@ -22,17 +22,17 @@ ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: 瞭解適用于英國地區 PSTN 通話方案商務用 Skype，包括在何處取得協助，以及如何提交抱怨及解決爭議。
-ms.openlocfilehash: ac741fec8ccd7262e865ef4aaef8f3858faf3cb7
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+description: 瞭解英國 PSTN 通話方案商務用 Skype，包括在何處取得協助，以及如何提交抱怨及解決爭議。
+ms.openlocfilehash: 822fe58fd072bbb61626b0410876fe6adb3b4790a6db22c97196596f05adf52a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44689759"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306564"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Microsoft 365的通話方案 - 英國和英國 (實務) 
 
-本規範適用于在英國 (英國) ) 有 10 名以下員工之小型企業客戶) 組織，適用于 Microsoft 365 或 Office 365 通話方案服務 (根據英國通訊法規 (「服務」) 。 ( 其他商務用 Skype服務受您與 Microsoft 的服務協定以及適用于您使用特定服務之任何其他條款所規範。
+本規範適用于在英國 (英國) ) 有 10 名員工或少於) 的小型企業客戶 (組織，適用于 Microsoft 365 或 Office 365 通話方案服務 (根據英國通訊法規 (「服務」) 。 其他商務用 Skype服務受您與 Microsoft 的服務協定以及適用于您使用特定服務之任何其他條款所規範。
 
 ## <a name="1-about-skype-for-business"></a>1. 關於 商務用 Skype
 
@@ -44,7 +44,7 @@ ms.locfileid: "44689759"
 
 Toll-Free 電話號碼：0800 032 6417
 
-線上：請Microsoft 365系統管理中心，然後選取支援 下的新增服務要求以 **提交****服務要求**。
+線上：在 支援 下Microsoft 365 系統管理中心新服務要求，然後提交服務 **要求**。 
 
 一般上班時間為星期一至星期五，上午 9：00 至下午 5：00。
 
@@ -52,7 +52,7 @@ Toll-Free 電話號碼：0800 032 6417
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3. 抱怨和爭議解決
 
-我們最優先的事項是客戶滿意度和優質服務。 不過，萬一您收到抱怨，我們會快速協助您解決問題。 我們 Microsoft 365 或 Office 365 的通話方案 - 英國[ (英國 ) ](complaint-handling-code-for-the-united-kingdom-u-k.md)的抱怨處理常式字碼頁面詳細說明小型企業向我們提出訴訟的程式，以及我們獨立的爭議解決方案。
+我們最優先的事項是客戶滿意度和優質服務。 不過，萬一您收到抱怨，我們會快速協助您解決問題。 我們 Microsoft 365 或 Office 365 的通話方案 - 英國[ (英國 ) ](complaint-handling-code-for-the-united-kingdom-u-k.md)的抱怨處理常式程式頁面詳細說明小型企業向我們提出訴訟的程式，以及我們獨立的爭議解決方案。
   
 ## <a name="4-number-porting"></a>4. 數位埠
 
@@ -64,7 +64,7 @@ Microsoft 365或Office 365通話方案仰賴您的寬頻連線。 如果您的�
 
 ## <a name="6-emergency-calls"></a>6. 緊急電話
 
-商務用 Skype提供 999/112 公用緊急電話語音給英格蘭、蘇格蘭和北愛爾蘭的客戶。 不過，撥打 999 或 112 的緊急Microsoft 365或Office 365方案服務的運作方式與傳統電話語音不同。 客戶必須通知每個使用者這些Microsoft 365或Office 365方案服務。
+商務用 Skype提供 999/112 公用緊急電話語音給英格蘭、斯文斯、蘇格蘭和北愛爾蘭的客戶。 不過，999 或 112 的緊急Microsoft 365或Office 365方案服務的運作方式與傳統電話語音不同。 客戶必須通知每個使用者這些Microsoft 365或Office 365方案服務。
 
 差異包括： (i) 商務用 Skype可能不知道來電者的實際位置，這可能會導致緊急服務被發到錯誤的位置; (ii) 商務用 Skype使用者撥打緊急電話時，接線生可能會要求使用者提供目前的位置，以協助正確路由緊急電話和緊急服務; (iii) 如果使用者的裝置沒有電源、發生電源中斷，或因其他原因無法存取網際網路，使用者無法透過 Microsoft 365 或 Office 365 通話方案服務撥打緊急電話; (iv) 雖然 Microsoft 365 和 Office 365 通話方案服務可在網際網路可用的任何位置使用，但使用者不應該撥打 999 或 112 在英格蘭、斯文斯、蘇格蘭或愛爾蘭以外的地區，因為電話可能不會路由至適當的緊急服務。
 
@@ -84,7 +84,7 @@ Microsoft 365或Office 365通話方案仰賴您的寬頻連線。 如果您的�
 
 ## <a name="10-directory-listing"></a>10. 目錄清單
 
-如果您想要列出目錄查詢 (包括您電話號碼電話) 中的專案，可以支付額外費用。 如需進一步詳細資料，請使用第 2 節所提供的連絡人資訊來聯絡我們。
+如果您想要列出您的電話號碼的目錄查詢 (包括電話書籍) 中的專案，可以支付額外費用。 如需詳細資料，請使用第 2 節所提供的連絡人資訊來聯絡我們。
 
 ## <a name="11-users-with-disabilities"></a>11. 殘障使用者
 
@@ -104,13 +104,13 @@ Microsoft 365或Office 365通話方案仰賴您的寬頻連線。 如果您的�
 
 ### <a name="charges"></a>收費
 
-我們網站上進階版費率服務的所有使用[費用](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)。 通話進一步費率號碼的通話持續時間應以一分鐘遞增為基礎。 分鐘數的分數會進位到下一分鐘。 如適用，連線費用將在通話開始時收取。
+我們網站上進階版費率服務的所有使用[費用](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)。 通話進一步費率號碼的通話持續時間應依據一分鐘的遞增。 分鐘數的分數會進位到下一分鐘。 如適用，連線費用將在通話開始時收取。
 
 ### <a name="telephone-preference-service-and-fax-preference-services"></a>電話喜好設定服務和傳真喜好設定服務
 
-「電話喜好設定服務」 (「TPS」) 是由直接行銷協會代表 Ofcom 所經營，是一種可讓客戶退出宣告接收未經要求的銷售電話的註冊。 如果您想要向 TPS 註冊，您可以撥打或撥打 [https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx](https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx) 0843 005 9576 進行註冊。
+電話喜好設定服務 (「TPS」) 是由直接行銷協會代表 Ofcom 所經營，是一種可讓客戶退出宣告接收未經要求的銷售電話的註冊。 如果您想要向 TPS 註冊，您可以撥打或撥打 [https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx](https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx) 0843 005 9576 進行註冊。
 
-與 TPS 一樣，傳真喜好 ("FPS") 是一種註冊，企業和個人可能會退出宣告接收未經要求的銷售和市場傳真。 您可以撥打 0843 005 9576 或線上電話，向 FPS 註冊 [https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps](https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps) 。
+與 TPS 一樣，傳真喜好 ("FPS") 是一種註冊，企業和個人可能會退出宣告接收未經要求的銷售和市場傳真。 您可以撥打 0843 005 9576 或線上 ，向 FPS 註冊 [https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps](https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps) 。
 
 ### <a name="internet-dialler-protection"></a>網際網路撥號器保護
 
@@ -140,7 +140,7 @@ Microsoft 365或Office 365通話方案仰賴您的寬頻連線。 如果您的�
 
 ### <a name="dispute-resolution"></a>爭議解決
 
-如果您認為帳單上的 進階版 費率服務費用是 商務用 Skype 的一部分錯誤，而且想退款，您可以根據 商務用 Skype 抱怨處理常式程式提出訴訟。 如果您向 商務用 Skype 提出訴訟， () 在提交八 () 周或 (b) 之後，您收到一封信，指出我們已做出最後決定，您可將該抱怨提交至由 Ofcom 核准的協力廠商，以處理通訊服務方面的抱怨。
+如果您認為帳單上的 進階版 費率服務費用是 商務用 Skype 的一部分錯誤，而且想退款，您可以根據 商務用 Skype 抱怨處理常式代碼提出訴訟。 如果您向 商務用 Skype 提出訴訟， () 在提交八 () 周或 (b) 之後，您收到一封信，指出我們已做出最後決定，您可將該抱怨提交至由 Ofcom 核准的協力廠商，以處理通訊服務方面的抱怨。
 
 ## <a name="13-national-translation-services-personal-numbers-and-0870-numbers"></a>13. 國家翻譯服務、個人號碼和 0870 號碼
 

@@ -18,12 +18,12 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在頻道中設定仲裁Microsoft Teams，包括如何將小組成員新增為頻道仲裁者。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 81e5159cf0e64a4c5b88afea51de528c299daf80
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: c0aa2035a23a82d0a73009c379b99d34e9ccf7ff1b1b3dd0806dd7d6d0afcdf7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948639"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304845"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在頻道中設定及管理頻道Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "51948639"
 
 頻道仲裁者可以：
 
-- 在頻道中開始新文章。 當頻道開啟仲裁時，只有仲裁者可以在該頻道中開始新貼文。
+- 在頻道中開始新文章。 當頻道開啟仲裁時，只有仲裁者可以在該頻道中啟動新文章。
 - 將小組成員新增並移除為仲裁者至頻道。 請記住，根據預設，團隊擁有者是頻道仲裁者，無法移除。
 - 控制小組成員是否可以回復現有的頻道訊息，以及 Bot 和連接器是否可以提交頻道訊息。
 
@@ -52,15 +52,15 @@ ms.locfileid: "51948639"
 
 在此情境中，團隊擁有者會將行銷潛在客戶新增為仲裁者，這樣他們就可以在頻道中張貼公告，並關閉小組成員回復該頻道中的訊息的能力。
 
-### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>在教育用頻道中Teams討論
+### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>使用頻道在 Teams 教育版
 
-在 Teams教育課程中，科學教師想要使用頻道讓學生參與特定課堂主題的專注討論。
+在 Teams 教育版中，科學教師想要使用頻道讓學生參與特定課堂主題的專注討論。
 
-在此情境中，教師允許其教學助理管理頻道。 然後，教學小幫手可以建立新文章，以啟動和推動與學生討論。
+在此情境中，教師允許其教學助理管理頻道。 然後，教學助理可以建立新文章，以啟動和推動與學生的討論。
 
 ## <a name="manage-channel-moderation"></a>管理頻道模式
 
-在 Teams中，前往頻道，按一下 [**更多選項...**  > **管理頻道**。 您可以在這裡開啟並關閉仲裁、將小組成員新增為仲裁者，以及設定喜好設定。
+在 Teams，請前往頻道，按一下 [**更多選項...**  > **管理頻道**。 您可以在這裡開啟並關閉仲裁、將小組成員新增為仲裁者，以及設定喜好設定。
 
 通道模式是每個頻道的設定。 頻道模式沒有租使用者層級設定。 如果您想要我們新增租使用者層級通道管理設定，請于[UserVoice](https://microsoftteams.uservoice.com/)Teams要求。
 

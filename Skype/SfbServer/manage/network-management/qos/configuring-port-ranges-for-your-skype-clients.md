@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 本文說明如何為您的用戶端設定埠範圍，以及如何為在 Windows 10 上執行的用戶端在商務用 Skype Server 中設定服務品質原則。
-ms.openlocfilehash: 9cd5fe3fa84c4acd9365e02c0e5801b63d5497d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 本文說明如何為您的用戶端設定埠範圍，以及如何為在 Windows 10 上執行的用戶端設定商務用 Skype Server 的服務品質原則。
+ms.openlocfilehash: d2d38ff777322aa952efd427c7e528afbb0e333252aabec2a943b1a9007d0ca7
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122427"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591137"
 ---
-# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>為商務用 Skype Server 中的用戶端設定埠範圍和服務品質原則
+# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>設定商務用 Skype Server 中用戶端的埠範圍和服務品質原則
 
-本文說明如何為您的用戶端設定埠範圍，以及如何為在 Windows 10 上執行的用戶端在商務用 Skype Server 中設定服務品質原則。
+本文說明如何為您的用戶端設定埠範圍，以及如何為在 Windows 10 上執行的用戶端設定商務用 Skype Server 的服務品質原則。
 
 ## <a name="configure-port-ranges"></a>設定埠範圍
 
@@ -34,53 +34,50 @@ ms.locfileid: "51122427"
 > 使用者無法自行進行這些變更。 只有管理員使用 Set-CsConferencingConfiguration Cmdlet 才能進行埠變更。
 
 
-您可以從商務用 Skype Server 管理命令介面中執行下列命令，判斷目前用於通訊會話的埠範圍：
+您可以從商務用 Skype Server 管理命令介面內執行下列命令，判斷目前用於通訊會話的埠範圍：
 
-    Get-CsConferencingConfiguration
+**Get-CsConferencingConfiguration**
 
 假設您在安裝商務用 Skype Server 後，尚未對會議設定進行任何變更，您應該會收到包含下列屬性值的資訊：
 
-    ClientMediaPortRangeEnabled : False
-    ClientAudioPort             : 5350
-    ClientAudioPortRange        : 40
-    ClientVideoPort             : 5350
-    ClientVideoPortRange        : 40
-    ClientAppSharingPort        : 5350
-    ClientAppSharingPortRange   : 40
-    ClientFileTransferPort      : 5350
-    ClientTransferPortRange     : 40
+ClientMediaPortRangeEnabled： False<br/>
+ClientAudioPort：5350<br/>
+ClientAudioPortRange：40<br/>
+ClientVideoPort：5350<br/>
+ClientVideoPortRange：40<br/>
+ClientAppSharingPort：5350<br/>
+ClientAppSharingPortRange：40<br/>
+ClientFileTransferPort：5350<br/>
+ClientTransferPortRange：40<br/>
 
-若您仔細看前面的輸出，就會注意到兩項重點。 首先，ClientMediaPortRangeEnabled 屬性是設為 False：
+若您仔細看前面的輸出，就會注意到兩項重點。首先，ClientMediaPortRangeEnabled 屬性是設為 False：
 
-    ClientMediaPortRangeEnabled : False
+**ClientMediaPortRangeEnabled： False**
 
-這一點很重要，因為當此屬性設定為 False 時，商務用 Skype 用戶端會在通訊會話中時使用埠1024和65535之間的任何可用埠;不論任何其他埠設定 (例如，ClientMediaPort 或 ClientVideoPort) ，都是如此。 如果您想要將使用限制在一組指定的埠 (，而這是您在規劃執行服務品質) 時所要執行的動作，則必須先啟用用戶端媒體埠範圍。 可以使用下列 Windows PowerShell 命令來完成：
+這一點很重要，因為當此屬性設定為 False 時，商務用 Skype 用戶端將會在通訊會話中時使用埠1024和65535之間的任何可用埠;不論任何其他埠設定 (例如，ClientMediaPort 或 ClientVideoPort) ，都是如此。 如果您想要將使用限制在一組指定的埠 (，而這是您在規劃執行服務品質) 時所要執行的動作，則必須先啟用用戶端媒體埠範圍。 可以使用下列 Windows PowerShell 命令來完成：
 
-    Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True
+**Set-CsConferencingConfiguration-ClientMediaPortRangeEnabled $True**
 
 前面的命令會啟用全域會議組態設定集合的用戶端媒體連接埠；不過這些設定也可套用至網站範圍及/或服務範圍 (僅限會議伺服器服務)。若要啟用特定網站或伺服器的用戶端媒體連接埠範圍，請在呼叫 Set-CsConferencingConfiguration 時指定該網站或伺服器的識別：
 
-    Set-CsConferencingConfiguration -Identity "site:Redmond" -ClientMediaPortRangeEnabled $True
+**Set-CsConferencingConfiguration Identity "site： Redmond"-ClientMediaPortRangeEnabled $True**
 
 或者，您也可使用此命令，同時啟用所有會議組態設定的連接埠範圍：
 
-    Get-CsConferencingConfiguration | Set-CsConferencingConfiguration  -ClientMediaPortRangeEnabled $True
+**Get-CsConferencingConfiguration |Set-CsConferencingConfiguration-ClientMediaPortRangeEnabled $True**
 
 您注意到的第二項重點是範例輸出顯示，根據預設，針對每個網路流量類型所設定的媒體連接埠範圍皆為相同：
 
-    ClientAudioPort             : 5350
-    ClientVideoPort             : 5350
-    ClientAppSharingPort        : 5350
-    ClientFileTransferPort      : 5350
+ClientAudioPort：5350<br/>
+ClientVideoPort：5350<br/>
+ClientAppSharingPort：5350<br/>
+ClientFileTransferPort：5350<br/>
 
 為了實作 QoS，其中的每個連接埠範圍皆必須是唯一的連接埠範圍。例如，您可能設定了如下的連接埠範圍：
 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -118,31 +115,28 @@ ms.locfileid: "51122427"
 
 此外，您可能還有注意到，在伺服器上針對應用程式共用獨立設定了 8348 個連接埠，但用戶端上的應用程式共用僅獨立設定了 20 個連接埠。 建議您也這麼做，但不是一種很快的規則。 一般說來，您可以將每個可用的埠視為代表單一通訊會話：如果埠範圍中有100埠可供使用，這表示有問題的電腦在任何指定時間內最多可加入100通訊會話。 因為伺服器可能會比用戶端參與更多的交談，所以在伺服器上開啟比用戶端更多的連接埠也很合理。 為應用程式共用在用戶端上獨立設定 20 個連接埠，表示使用者可在特定裝置上同時參與 20 個應用程式共用工作階段。 這對於您絕大多數的使用者而言應該已足夠使用。
 
-若要將先前的埠範圍指派給全域會議設定的集合，您可以使用下列商務用 Skype Server 管理命令介面命令：
+若要將先前的埠範圍指派至全域會議設定集合，您可以使用下列商務用 Skype Server 管理命令介面命令：
 
-    Set-CsConferencingConfiguration -Identity global -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20
+**Set-CsConferencingConfiguration 身分識別 global-ClientAudioPort 50020-ClientAudioPortRange 20-ClientVideoPort 58000-ClientVideoPortRange 20-ClientAppSharingPort 42000-ClientAppSharingPortRange 20-ClientFileTransferPort 42020-ClientFileTransferPortRange 20**
 
 或是使用此命令將這些相同的連接埠範圍指派給所有會議組態設定：
 
-    Get-CsConferencingConfiguration | Set-CsConferencingConfiguration -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20
+**Get-CsConferencingConfiguration |Set-CsConferencingConfiguration-ClientAudioPort 50020-ClientAudioPortRange 20-ClientVideoPort 58000-ClientVideoPortRange 20-ClientAppSharingPort 42000-ClientAppSharingPortRange 20-ClientFileTransferPort 42020-ClientFileTransferPortRange 20**
 
-個別使用者必須從商務用 Skype 登出，然後重新登入，這些變更實際會生效。
+個別使用者必須從商務用 Skype 登出，然後再重新登入，這些變更實際會生效。
 
 > [!NOTE]  
-> 您也可以啟用用戶端媒體埠範圍，然後使用單一命令指派這些埠範圍。 例如：<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
+> 您也可以使用單一命令啟用用戶端媒體連接埠範圍，然後指派這些連接埠範圍，例如：<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
 
 ## <a name="configure-quality-of-service-policies-for-clients-running-on-windows-10"></a>設定在 Windows 10 上執行之用戶端的服務品質原則
 
-除了指定商務用 Skype 用戶端所使用的埠範圍之外，還必須建立要套用至用戶端電腦的個別服務原則品質。  (針對會議、應用程式及轉送伺服器建立的服務原則的品質不應該套用至用戶端電腦。 ) 此資訊僅適用于執行商務用 Skype 用戶端和 Windows 10 的電腦。
+除了指定供商務用 Skype 用戶端使用的埠範圍之外，還必須建立將套用至用戶端電腦的個別服務原則品質。  (針對會議、應用程式及轉送伺服器建立的服務原則的品質不應該套用至用戶端電腦。 ) 此資訊僅適用于執行商務用 Skype 用戶端和 Windows 10 的電腦。
 
 下列範例會使用這組埠範圍來建立音訊原則和影片原則：
 
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -185,11 +179,11 @@ ms.locfileid: "51122427"
 
 4.  以滑鼠右鍵按一下新建立的原則，然後按一下 [ **編輯**]。
 
-5.  在 [群組原則管理編輯器] 中，展開 [ **電腦** 設定]，展開 [ **Windows 設定**]，以滑鼠右鍵按一下 [ **原則] QoS**，然後按一下 [ **建立新原則**]。
+5.  在 [群組原則管理編輯器] 中，展開 [**電腦** 設定]，展開 **Windows 設定**，以滑鼠右鍵按一下 [以 **QoS 原則為基礎**]，然後按一下 [**建立新原則**]。
 
 6.  在 [ **原則型 QoS** ] 對話方塊的 [開始] 頁面上，于 [ **名稱** ] 方塊中輸入新原則的名稱。 選取 [指定 DSCP 數值]，並將該值設為 **46**。 將 [指定輸出節流閥速率] 保留未選取狀態，然後按 [下一步]。
 
-7.  在下一個頁面上，選取 [ **僅限具有此可執行檔名稱的應用程式**]，輸入 **Lync.exe** 作為名稱，然後按 **[下一步]**。 此設定指示原則僅優先于商務用 Skype 用戶端的相符流量。
+7.  在下一個頁面上，選取 [ **僅限具有此可執行檔名稱的應用程式**]，輸入 **Lync.exe** 作為名稱，然後按 **[下一步]**。 此設定會指示原則僅優先于從商務用 Skype 用戶端對應的流量。
 
 8.  在第三頁上，確定已選取 [ **所有來源 ip 位址** ] 和 [ **任何目的地 ip 位址** ]，然後按 **[下一步]**。 這兩個設定可確保無論是哪部電腦 (IP 位址) 傳送封包，以及哪部電腦 (IP 位址) 接收封包，那些封包都會受到管理。
 
@@ -207,7 +201,7 @@ ms.locfileid: "51122427"
 
 如果您決定建立原則以管理應用程式共用流量，請進行下列的替代專案：
 
-  - 使用不同的 (和唯一的) 原則名稱 (例如， **商務用 Skype Server 應用程式共用**) 。
+  - 使用不同的 (和唯一的) 原則名稱 (例如，**商務用 Skype Server 應用程式共用**) 。
 
   - 將 DSCP 值設定為 **24** ，而不是46。  (此外，此值不必為 24;它只必須不同于音訊和影片所用的 DSCP 值。 ) 
 
@@ -215,7 +209,7 @@ ms.locfileid: "51122427"
 
 對於檔案傳輸原則：
 
-  - 使用不同的 (和唯一的) 原則名稱 (例如， **商務用 Skype Server** 檔案會) 傳輸。
+  - 使用不同的 (和唯一的) 原則名稱 (例如，**商務用 Skype Server 檔案傳輸**) 。
 
   - 將 DSCP 值設定為 **14**。  (此外，此值不必為 14;它只必須是唯一的 DSCP 代碼。 ) 
 
@@ -223,11 +217,11 @@ ms.locfileid: "51122427"
 
 在用戶端電腦上重新整理群組原則後，您建立的新原則將不會生效。 雖然群組原則本身會定期重新整理，但您可以在需要重新整理群組原則的每部電腦上執行下列命令，以強制立即重新整理：
 
-    Gpupdate.exe /force
+**Gpupdate.exe/force**
 
 您可以從任何以系統管理員認證執行的命令視窗中執行此命令。 若要以系統管理員憑證執行命令視窗，請按一下 [開始]，以滑鼠右鍵按一下 [命令提示字元]，然後按一下 [以系統管理員身分執行]。
 
-請記住，這些原則應該針對您的用戶端電腦。 它們不應用於執行商務用 Skype 伺服器的伺服器。
+請記住，這些原則應該針對您的用戶端電腦。 它們不應用於執行商務用 Skype Server 的伺服器上。
 
 為幫助確保網路封包標示適當的 DSCP 值，您也應該要在每部電腦上建立新的登錄項目，請完成下列程序：
 

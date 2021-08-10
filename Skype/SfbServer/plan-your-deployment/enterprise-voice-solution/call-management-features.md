@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
-description: 商務用 Skype Server Enterprise Voice 中支援的呼叫管理功能的概覽。
-ms.openlocfilehash: 926ffe294c2819b9f68af76e61410a0ce4a9f63b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 商務用 Skype Server 企業語音中支援的呼叫管理功能的概覽。
+ms.openlocfilehash: c0cbeb9a659f815c72f36db9ebd426b718b9483d198bd6a65d3f9488701cca19
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096433"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306894"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>在商務用 Skype 中規劃通話管理功能
 
-商務用 Skype Server Enterprise Voice 中支援的呼叫管理功能的概覽。
+商務用 Skype Server 企業語音中支援的呼叫管理功能的概覽。
 
-Enterprise Voice 通話管理功能可控制來電的路由傳送與應答方式。 商務用 Skype 伺服器提供下列通話管理功能：
+Enterprise Voice 通話管理功能可控制來電的路由傳送與應答方式。 商務用 Skype Server 提供下列通話管理功能：
 
 - **通話駐留**：讓語音使用者暫時駐留通話，然後從相同或另一部電話接聽。
 

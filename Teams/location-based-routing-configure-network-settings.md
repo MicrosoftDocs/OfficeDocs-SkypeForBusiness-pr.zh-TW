@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a7dd707a6066cfe9a8dfcbcc9b3ae36d450d1dd1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 06bccad77991aa4e9d11160bfd7b7b3e6759189f1160100ebd064e3c133e965d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822943"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306365"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>設定依位置路由的網路設定
 
@@ -38,15 +38,15 @@ ms.locfileid: "49822943"
 
 網路網站代表貴組織有實體場地的位置，例如辦公室、一組建築物或校園。 您必須將拓撲中的每個網路網站與網路區域建立關聯。 若要瞭解如何設定網路網站的步驟，請參閱在 Teams 中管理雲端功能[的網路拓撲](manage-your-network-topology.md)。
 
-使用 [路由Location-Based最佳做法是為每個具有唯一 PSTN 連接的位置建立個別的網站。 您可以建立為路由Location-Based啟用的網站，或未針對路由啟用Location-Based網站。 例如，您可能會想要建立未針對 Location-Based 路由啟用的網站，讓已啟用 Location-Based 路由的使用者在漫遊到該網站時撥打 PSTN 通話。
+使用 [路由Location-Based最佳做法是為每個具有唯一 PSTN 連線性的位置建立個別的網站。 您可以建立為路由Location-Based啟用的網站，或尚未啟用路由Location-Based的網站。 例如，您可能會想要建立未針對 Location-Based 路由啟用的網站，讓已啟用 Location-Based 路由的使用者在漫遊到該網站時撥打 PSTN 通話。
 
 ## <a name="define-network-subnets"></a>定義網路子網
 
 每個子網都必須與特定的網路網站相關聯。 您可以將多個子網與同一個網路網站建立關聯，但無法將多個網站與同一個子網建立關聯。 若要瞭解如何設定網路子網的步驟，請前往 管理網路拓撲以在 Teams 中[管理雲端Teams。](manage-your-network-topology.md)
 
-針對 Location-Based路由，必須定義可Teams端點可連至網路的 IP 子網，並與定義的網路建立關聯，才能強制執行免付費。 這個子閘道聯Location-Based路由，以地理方式找出端點，以判斷是否應該允許特定 PSTN 通話。 支援 IPv6 和 IPv4 子網。 當判斷Teams端點是否位於網站時，Location-Based路由會先檢查符合的 IPv6 位址。 如果沒有 IPv6 位址，請Location-Based路由檢查 IPv4 位址。
+針對 Location-Based路由，必須定義可Teams端點可連至網路的 IP 子網，並與已定義的網路建立關聯，才能強制執行免付費。 這種子閘道聯Location-Based路由，以在地理上找出端點，以判斷是否應該允許特定 PSTN 通話。 支援 IPv6 和 IPv4 子網。 當判斷Teams端點是否位於網站時，Location-Based路由會先檢查符合的 IPv6 位址。 如果沒有 IPv6 位址，請Location-Based路由檢查 IPv4 位址。
 
-## <a name="define-trusted-ip-addresses-external-subnets"></a>定義信任的 IP 位址 (外部子網) 
+## <a name="define-trusted-ip-addresses-external-subnets"></a>在外部子網中定義 (IP 位址) 
 
 信任的 IP 位址是商業網路的網際網路外部 IP 位址，用來判斷使用者的端點是否位於公司網路內。 若要瞭解如何設定信任的 IP 位址的步驟，請前往 管理網路拓撲以在 Teams 中[管理雲端Teams。](manage-your-network-topology.md)
 

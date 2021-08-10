@@ -16,17 +16,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
-description: 深入瞭解通話許可控制，其可能會在商務用 Skype Server Enterprise Voice 中，防止來電出現不良的媒體質量。
-ms.openlocfilehash: a802babc1b97eaf73b338f56c8c0a2b6c1f0efd6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 深入瞭解通話許可控制，可防止來電發生時不佳的媒體質量商務用 Skype Server 企業語音中。
+ms.openlocfilehash: ee51e83c8c797a958ce520e0215b438927a65005d8cb1b3caf4c75793cb55f99
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306904"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃通話許可控制
 
-深入瞭解通話許可控制，其可能會在商務用 Skype Server Enterprise Voice 中，防止來電出現不良的媒體質量。
+深入瞭解通話許可控制，可防止來電發生時不佳的媒體質量商務用 Skype Server 企業語音中。
 
 對於以 IP 為基礎的應用程式（例如電話語音、影片和應用程式共用），商業網路的可用頻寬一般視為 LAN 環境中的限制因素。 不過，您可以在互連網站的 WAN 連結上限制網路頻寬。
 
@@ -37,7 +37,7 @@ ms.locfileid: "51105309"
 本節說明通話許可控制功能，並說明如何規劃 CAC。
 
 > [!NOTE]
-> 商務用 Skype 伺服器具有三個高級 Enterprise Voice 功能：通話許可控制 (CAC) 、緊急服務 (E9-1-1) 及媒體旁路。 若要瞭解上述三項功能共同通用的規劃資訊，請參閱 [商務用 Skype Server 中的「高級 Enterprise Voice 功能」網路設定](network-settings-for-advanced-features.md)。
+> 商務用 Skype Server 有三個高級企業語音功能：「通話許可控制」 (CAC) 、緊急服務 (E9-1-1) 和媒體旁路。 如需所有三種功能通用的規劃資訊的概述，請參閱[商務用 Skype Server 中的「高級企業語音功能的網路設定](network-settings-for-advanced-features.md)。
 
 商務用 Skype Server 中的 CAC 設計提供四個主要屬性：
 
@@ -59,7 +59,7 @@ CAC 僅控制語音及視訊的即時流量。並不控制資料流量。
 
 1. 網際網路
 
-2. Pstn
+2. PSTN
 
 3. 語音信箱
 
@@ -78,7 +78,7 @@ CAC 僅控制語音及視訊的即時流量。並不控制資料流量。
 
 ### <a name="network-considerations"></a>網路考量
 
-雖然商務用 Skype Server 中的頻寬原則服務強制執行音訊和影片的頻寬限制，但不會在網路路由器上強制執行此限制 (第2層和第 3) 。 CAC 無法防止資料應用程式，例如，在 WAN 連結上消耗整個網路頻寬，包括您的 CAC 原則為音訊和影片保留的頻寬。 若要在網路上保護必要的頻寬，您可以將服務品質 (QoS) 通訊協定（如差異服務 (DiffServ) ）。 因此，最佳作法是將您定義的 CAC 頻寬原則與您可能部署的任何 QoS 設定進行協調。
+雖然商務用 Skype Server 中的頻寬原則服務會強制執行音訊和影片的頻寬限制，但不會在網路路由器 (第2層和第 3) 中強制執行此限制。 CAC 無法防止資料應用程式，例如，在 WAN 連結上消耗整個網路頻寬，包括您的 CAC 原則為音訊和影片保留的頻寬。 若要在網路上保護必要的頻寬，您可以將服務品質 (QoS) 通訊協定（如差異服務 (DiffServ) ）。 因此，最佳作法是將您定義的 CAC 頻寬原則與您可能部署的任何 QoS 設定進行協調。
 
 ### <a name="media-and-signaling-paths-over-vpn"></a>透過 VPN 的媒體及訊號路徑
 
@@ -86,13 +86,13 @@ CAC 僅控制語音及視訊的即時流量。並不控制資料流量。
 
 ### <a name="call-admission-control-of-outside-users"></a>外部使用者的通話許可控制
 
-除了商務用 Skype Server 組織限制以外，不會強制執行通話許可控制。 CAC 無法套用到透過網際網路進行的媒體流量，該流量不是由商務用 Skype Server 所管理。 如果呼叫的端點屬於組織，且已將 Edge Server 新增至網路設定（如 [通話許可控制部署：適用于商務用 Skype 伺服器的最終檢查清單](../../deploy/deploy-enterprise-voice/final-checklist.md)），則會在流經商業網路的呼叫部分執行 CAC 檢查。 如果呼叫的端點不屬於組織，例如同盟或 PIC 使用者，則不會執行頻寬原則檢查，撥出電話將會忽略任何 CAC 限制。
+除了商務用 Skype Server 組織的限制以外，不會強制執行通話許可控制。 CAC 無法套用到透過網際網路進行的媒體流量，這不是由商務用 Skype Server 所管理。 如果呼叫的端點屬於組織，且已將 Edge Server 新增至網路設定，則會在此呼叫的部分執行 CAC 檢查，如[通話許可控制部署中所述：商務用 Skype Server 的最終檢查清單](../../deploy/deploy-enterprise-voice/final-checklist.md)。 如果呼叫的端點不屬於組織，例如同盟或 PIC 使用者，則不會執行頻寬原則檢查，撥出電話將會忽略任何 CAC 限制。
 
 ### <a name="call-admission-control-of-pstn-connections"></a>PSTN 連線的通話許可控制
 
-「通話許可控制」會在轉送伺服器上強制實施，不論它是連接至 IP/PBX、PSTN 閘道或 SIP 主幹。 由於轉送伺服器是 back to back user agent (B2BUA) ，因此會終止媒體。 有兩個連線方：一種連接至 [商務用 Skype] 伺服器及閘道端的端，其連接到 PSTN 閘道、IP/PBXs 或 SIP 主幹。 如需 PSTN 連線的詳細資訊，請參閱 [Plan FOR pstn connectivity In 商務用 Skype Server](pstn-connectivity-0.md)。
+「通話許可控制」會在轉送伺服器上強制實施，不論它是連接至 IP/PBX、PSTN 閘道或 SIP 主幹。 由於轉送伺服器是 back to back user agent (B2BUA) ，因此會終止媒體。 有兩個連線方：一部連接至商務用 Skype Server 和閘道方，其連線至 PSTN 閘道、IP/PBXs 或 SIP 主幹。 如需 pstn 連線的詳細資訊，請參閱[Plan for pstn connectivity in 商務用 Skype Server](pstn-connectivity-0.md)。
 
-除非啟用媒體旁路，否則可在轉送伺服器的兩側強制 CAC。 如果啟用媒體旁路，媒體流量不會穿越轉送伺服器，而是直接在商務用 Skype 用戶端與閘道之間流動。 在此情況下，不需要 CAC。 如需詳細資訊，請參閱 [Plan for media 旁路 In 商務用 Skype](media-bypass.md)。
+除非啟用媒體旁路，否則可在轉送伺服器的兩側強制 CAC。 如果啟用媒體旁路，媒體流量不會遍歷轉送伺服器，而是直接在商務用 Skype 用戶端和閘道之間流動。 在此情況下，不需要 CAC。 如需詳細資訊，請參閱[Plan for media 旁路 in 商務用 Skype](media-bypass.md)。
 
 下圖說明如何在啟用或未啟用媒體旁路的情況下於 PSTN 連線上強制執行 CAC。
 
@@ -126,7 +126,7 @@ CAC 僅控制語音及視訊的即時流量。並不控制資料流量。
 > [!NOTE]
 > 所有網站都與網路地區有關聯。例如，波特蘭、雷諾與阿布奎基都包含在北美洲地區內。本圖只顯示已套用 CAC 原則且具有頻寬限制的 WAN 連結。包含芝加哥、紐約與底特律的網站會顯示在北美洲地區內，而且由於這幾個網站沒有頻寬限制，因此不需要 CAC 原則。
 
-以下各節將說明此範例拓撲的各個元件。 如需有關如何規劃此拓撲的詳細資訊，包括頻寬限制，請參閱 [範例：在商務用 Skype Server 中收集通話許可控制的需求](example-gathering-requirements.md)。
+以下各節將說明此範例拓撲的各個元件。 如需有關如何規劃此拓撲的詳細資訊，包括頻寬限制，請參閱[範例：在商務用 Skype Server 中收集通話許可控制的需求](example-gathering-requirements.md)。
 
 ### <a name="identify-network-regions"></a>識別網路地區
 
@@ -138,17 +138,17 @@ CAC 僅控制語音及視訊的即時流量。並不控制資料流量。
 
 ### <a name="associating-a-central-site-with-each-network-region"></a>關聯中央網站與個別網路地區
 
-CAC 需要為每個網路地區定義商務用 Skype Server 中央網站。 中央網站係以與該網路地區內所有其他網站相較之下，具有最佳網路連線和最高頻寬作為選擇依據。 先前的範例網路拓撲顯示三個網路地區，每一個都具備中央網站以負責管理 CAC 決策。 下表顯示先前範例中適當的關聯關係。
+CAC 需要為每個網路地區定義商務用 Skype Server 的中央網站。 中央網站係以與該網路地區內所有其他網站相較之下，具有最佳網路連線和最高頻寬作為選擇依據。 先前的範例網路拓撲顯示三個網路地區，每一個都具備中央網站以負責管理 CAC 決策。 下表顯示先前範例中適當的關聯關係。
 
 > [!NOTE]
-> 中央網站不一定會對應至網路網站。 在本檔的範例中，有些中央網站（芝加哥、倫敦及北京）與網站共用相同的名稱。 不過，即使中央網站與網路網站共用相同名稱，中央網站還是商務用 Skype 伺服器拓撲的元素，而網路網站是商務用 Skype 伺服器拓撲所在整體網路的一部分。
+> 中央網站不一定會對應至網路網站。 在本檔的範例中，有些中央網站（芝加哥、倫敦及北京）與網站共用相同的名稱。 不過，即使中央網站與網路網站共用相同名稱，中央網站還是商務用 Skype Server 拓撲的元素，而網路網站是商務用 Skype Server 拓撲所在的整體網路的一部分。
 
 **網路地區、中央網站與網路網站**
 
 |**網路地區**|**中央網站**|**網路網站**|
 |:-----|:-----|:-----|
 |北美地區  <br/> |Chicago  <br/> |Chicago  <br/> 紐約  <br/> 底特律  <br/> 波特蘭  <br/> 雷諾  <br/> 阿爾伯克爾基  <br/> |
-|Emea  <br/> |倫敦  <br/> |倫敦  <br/> 科隆  <br/> |
+|EMEA  <br/> |倫敦  <br/> |倫敦  <br/> 科隆  <br/> |
 |亞太  <br/> |北京  <br/> |北京  <br/> 馬尼拉  <br/> |
 
 ### <a name="identify-network-sites"></a>識別網路網站
@@ -169,7 +169,7 @@ CAC 需要為每個網路地區定義商務用 Skype Server 中央網站。 中�
 
 請與您的網路作業團隊合作，決定組織內所有 WAN 連結之間的即時音訊與視訊流量可用的 WAN 頻寬大小。當頻寬使用量受到限制，亦即當預期頻寬使用量高出分配給音訊與視訊形式的頻寬大小時，通常會在 WAN 連結上套用頻寬原則。
 
-CAC 「頻寬原則」定義可保留給即時音訊與視訊形式的最大頻寬。 由於 CAC 未限制其他流量的頻寬，因此無法防止其他資料流量 (例如大型檔案傳輸、音樂串流等等) 用完所有的網路頻寬。
+CAC 「頻寬原則」定義可保留給即時音訊與視訊形式的最大頻寬。由於 CAC 未限制其他流量的頻寬，因此無法防止其他資料流量 (例如大型檔案傳輸、音樂串流等等) 用完所有的網路頻寬。
 
 CAC 頻寬原則可定義下列任一或所有項目：
 
@@ -185,15 +185,15 @@ CAC 頻寬原則可定義下列任一或所有項目：
 > 所有 CAC 頻寬值都代表最大的  *單向*  頻寬限制。
 
 > [!NOTE]
-> 商務用 Skype 伺服器語音原則功能可讓使用者 (不會針對使用者) 所撥打的撥出電話，覆寫對撥入電話的頻寬原則檢查功能。 工作階段建立完畢後，便可準確地計算頻寬使用量。 為順利做出適宜的通話許可控制決策，請勿頻繁使用此設定，能不用就不用。 如需詳細資訊，請參閱 [建立或修改語音原則及設定在商務用 Skype 中的 pstn 使用方式記錄](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) 或 [修改語音原則，以及設定](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records) 部署檔中的 pstn 使用方式記錄。
+> 商務用 Skype Server 語音原則功能可讓使用者 (不會對使用者) 所撥打的撥出電話，覆寫對來電之來電的頻寬原則檢查功能。 工作階段建立完畢後，便可準確地計算頻寬使用量。 為順利做出適宜的通話許可控制決策，請勿頻繁使用此設定，能不用就不用。 如需詳細資訊，請參閱[建立或修改語音原則及設定 pstn 使用方式記錄的商務用 Skype](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)或[修改語音原則，以及設定](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)部署檔中的 pstn 使用方式記錄。
 
 若要最佳化個別工作階段的頻寬使用，請斟酌要使用的音訊與視訊轉碼器類型。具體地說，請避免分配過少的頻寬給預期將頻繁使用的轉碼器。相反地，如果您想要防止媒體使用會消耗大量頻寬的轉碼器，請儘可能將每個工作階段的最大頻寬設為最小值以抑制此類用途。對音訊而言，並非每一種情況都有可用的轉碼器。例如：
 
-- 在商務用 Skype 端點之間進行對等音訊通話時，會使用 RTAudio (8kHz) 或 RTAudio (16kHz) 當您考慮編解碼器的頻寬和優先順序時。
+- 商務用 Skype 端點之間的對等音訊通話 RTAudio (8kHz) 或 RTAudio (16kHz) ，當您考慮編解碼器的頻寬和優先順序時，就會使用此方法。
 
-- 商務用 Skype 端點和 A/V 會議服務之間的電話會議會使用 g.722 或 Siren。
+- 商務用 Skype 端點與 A/V 會議服務之間的電話會議會使用 g.722 或 Siren。
 
-- 呼叫公用交換電話網路 (PSTN) 或從商務用 Skype 端點，將會使用 g.711 或 RTAudio (8kHz) 。
+- 撥打給公用交換電話網路 (PSTN) 或從商務用 Skype 端點撥打的電話，將會使用 g.711 或 RTAudio (8kHz) 。
 
 使用下表有助於最佳化每個工作階段的最大頻寬設定。
 
@@ -214,13 +214,13 @@ CAC 頻寬原則可定義下列任一或所有項目：
 
 雖然 G.722.1 與 Siren 轉碼器很相近，但其位元速率卻不相同。
 
-G.722 是商務用 Skype Server 會議的預設編解碼器，與722.1 和 Siren 編解碼器完全不同。
+g.722，商務用 Skype Server 會議的預設編解碼器，與722.1 和 Siren 編解碼器完全不同。
 
-在下列情況中，Siren 編解碼器用於商務用 Skype Server：
+Siren 編解碼器用於商務用 Skype Server 于下列情況：
 
 - 當頻寬原則設得太低，以致於無法使用 G.722 時。
 
-- 如果通訊伺服器2007或通訊伺服器 2007 R2 用戶端連線至商務用 Skype Server 會議服務 (，因為這些用戶端不支援 g.722 編解碼器) 。
+- 如果通訊伺服器2007或通訊伺服器 2007 R2 用戶端連接至商務用 Skype Server 會議服務 (因為這些用戶端不支援 g.722 編解碼器) 。
 
 **依案例的頻寬使用**
 
@@ -228,10 +228,10 @@ G.722 是商務用 Skype Server 會議的預設編解碼器，與722.1 和 Siren
 |:-----|:-----|:-----|:-----|
 |對等音訊通話  <br/> |45 kbps  <br/> |62 kbps  <br/> |91 kbps  <br/> |
 |電話會議  <br/> |53 kbps  <br/> |101 kbps  <br/> |165 kbps  <br/> |
-|在商務用 Skype 與 PSTN 閘道之間 (PSTN 通話，具有媒體旁路)   <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
-|在商務用 Skype 和轉送伺服器之間 (PSTN 通話，但沒有媒體旁路)   <br/> |45 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
+|pstn 通話 (商務用 Skype 與 PSTN 閘道之間，具有媒體旁路)   <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
+|PSTN 呼叫 (商務用 Skype 和轉送伺服器之間，但沒有媒體旁路)   <br/> |45 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
 |PSTN 通話 (轉送伺服器和 PSTN 閘道之間，未使用媒體旁路)   <br/> |97 kbps  <br/> |97 kbps  <br/> |161 kbps  <br/> |
-|商務用 Skype-Polycom 通話  <br/> |101 Kbps  <br/> |101 Kbps  <br/> |101 Kbps  <br/> |
+|Polycom 通話商務用 Skype  <br/> |101 Kbps  <br/> |101 Kbps  <br/> |101 Kbps  <br/> |
 
 ### <a name="identify-ip-subnets"></a>識別 IP 子網路
 
@@ -240,7 +240,7 @@ G.722 是商務用 Skype Server 會議的預設編解碼器，與722.1 和 Siren
 在我們的範例中，將指派以下 IP 子網路給北美洲地區內的紐約網站：172.29.80.0/23、157.57.216.0/25、172.29.91.0/23、172.29.81.0/24。假設原本在底特律上班的 Bob 必須出差到紐約辦公室接受訓練課程。當他開啟自己的電腦並連線至網路時，他的電腦會取得保留給紐約的四個範圍內的其中一個 IP 位址，例如，172.29.80.103。
 
 > [!CAUTION]
-> 在伺服器上的網路設定期間指定的 IP 子網必須符合用戶端電腦提供的格式，才能正確用於媒體旁路。 商務用 Skype 用戶端採用其本機 IP 位址，並以關聯的子網路遮罩遮罩 IP 位址。 決定與每個用戶端相關聯的旁路識別碼時，註冊機構會比較與用戶端所提供之子網相關聯的 IP 子網清單，以完全符合。 因此，在伺服器上的網路設定期間輸入的子網，必須是實際的子網，而不是虛擬子網，這一點很重要。  (如果您部署通話許可控制，但沒有媒體旁路，則即使您設定虛擬子網，通話許可控制也會正常運作。 ) 例如，如果用戶端使用具有 IP 子網路遮罩255.255.255.0 的 IP 位址來登入電腦，則商務用 Skype 會要求與子網172.29.81.0 相關聯的旁路識別碼。 如果子網路定義為 172.29.0.0/16，則儘管用戶端屬於虛擬子網路，登錄器仍舊不會將其視為完全相符，因為登錄器所尋找的是真正的子網路 172.29.81.0。 因此，管理員必須嚴格依照商務用 Skype 用戶端所提供的方式輸入子網， (在設定網路設定時，會以靜態方式或 DHCP 方式輸入子網。 ) 
+> 在伺服器上的網路設定期間指定的 IP 子網必須符合用戶端電腦提供的格式，才能正確用於媒體旁路。 商務用 Skype 用戶端採用其本機 IP 位址，並以關聯的子網路遮罩遮罩 IP 位址。 決定與每個用戶端相關聯的旁路識別碼時，註冊機構會比較與用戶端所提供之子網相關聯的 IP 子網清單，以完全符合。 因此，在伺服器上的網路設定期間輸入的子網，必須是實際的子網，而不是虛擬子網，這一點很重要。  (如果您部署通話許可控制，但沒有媒體旁路，則即使您設定虛擬子網，通話許可控制也會正常運作。 ) 例如，如果用戶端使用 ip 位址為255.255.255.0 的電腦登入，則商務用 Skype 會要求與子網172.29.81.0 相關聯的旁路識別碼。 如果子網路定義為 172.29.0.0/16，則儘管用戶端屬於虛擬子網路，登錄器仍舊不會將其視為完全相符，因為登錄器所尋找的是真正的子網路 172.29.81.0。 因此，管理員必須嚴格依照商務用 Skype 用戶端所提供的輸入子網， (在網路設定（以靜態方式或透過 DHCP 方式）中提供子網，這一點很重要。 ) 
 
 ## <a name="best-practices-for-call-admission-control"></a>通話許可控制的最佳作法
 

@@ -21,18 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: 467192fbf3635d7ef478b246e9376dfbc3d16829
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 17e9a1c0e6fd35787ee451c0fc96f57da0a1dcaf736155d38aedcec05f90ae41
+ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646224"
+ms.lasthandoff: 08/07/2021
+ms.locfileid: "57799044"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認證的裝置
 
 這些Microsoft Teams認證計畫可確保使用經過認證的電話機和會議電話的客戶，能體驗高品質的音訊通話和會議體驗。
 
-Microsoft Teams認證程式可確保品質較高的資料條具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以滿足此較高層次的需求，並符合認證要求的裝置。 我們的部分合作夥伴也正在努力在與手機商務用 Skype相同的硬體上，為Teams服務提供支援。 來自認證Microsoft Teams裝置的好處包括：
+Microsoft Teams認證程式可確保品質較高的資料條具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以符合此較高的列，且符合認證要求的裝置。 我們的部分合作夥伴也正在努力在電話商務用 Skype硬體上，為Teams服務提供支援。 來自認證Microsoft Teams裝置的好處包括：
 
 - 硬體Teams整合和 LED 通知的原生體驗
 - 日曆整合和一鍵式會議加入
@@ -179,10 +179,11 @@ Microsoft Teams認證程式可確保品質較高的資料條具有更高的績�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。  然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行 |
 |:--------------|:-----------------|:-------------------------|
+| EPOS EXPAND Vision 3T |1.2.2.21182.10   | 2021 更新#2 |
 | AudioCodes RXV80 |1.13.361   | 2021 更新#2 |
 | Yealink VC210 |118.15.0.54   | 2021 更新#2    |
 | Yealink MeetingBar A20 | 133.15.0.60     | 2021 更新#2    |
@@ -204,7 +205,7 @@ Microsoft Teams認證程式可確保品質較高的資料條具有更高的績�
 
 ### <a name="product-release-information-for-teams-displays"></a>顯示器的產品Teams資訊
 
-以下是顯示 app 和Microsoft Teams版本的最新版本。
+以下是顯示應用程式與Microsoft Teams的最新版本。
 
 #### <a name="app-versions"></a>應用程式版本
 
@@ -216,7 +217,7 @@ Microsoft Teams認證程式可確保品質較高的資料條具有更高的績�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。  然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行|
 |:--------------|:-----------------|:-------------------------|

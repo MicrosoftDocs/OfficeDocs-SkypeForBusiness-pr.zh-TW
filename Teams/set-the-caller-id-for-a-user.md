@@ -22,33 +22,33 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解使用者Microsoft 365號碼Office 365使用者 (號碼的預設本機號碼) 電話線識別碼。 您可以變更或封鎖使用者的本機號碼。
-ms.openlocfilehash: 2e94dde2c3271e2b31e4c679c5e020c121d28c25
-ms.sourcegitcommit: 41e2e97b5856e727e42ebf5bfebceede9af56481
+ms.openlocfilehash: ea3d9676caf0984c19137abe286f792aacfcceca393fd4ccfeff9117edef9011
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "53388648"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54275949"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>設定使用者的來電顯示
 
-電話系統中Microsoft 365提供預設本機號碼，即使用者指派的電話號碼。 您可以變更或封鎖本機號碼 (呼叫線識別碼) 使用者。 您可以進一步瞭解如何在組織中使用本機號碼，方法為 [：如何在](how-can-caller-id-be-used-in-your-organization.md)貴組織中使用本機號碼。
+電話系統中Microsoft 365提供預設本機號碼，即使用者指派的電話號碼。 您可以變更或封鎖本機號碼 (呼叫線識別碼) 使用者。 您可以進一步瞭解如何在組織中使用本機號碼，方法為了解如何在組織中使用來電 [顯示](how-can-caller-id-be-used-in-your-organization.md)。
   
 根據預設，下列本機號碼設定 **會關閉**。 這表示Teams撥打 PSTN 電話時，可以看到該使用者的電話號碼。 您可以變更這些設定，如下所示：
   
-- **外發本機號碼** 您可以將使用者的本機號碼取代為另一個電話號碼，預設為使用者的電話號碼。 例如，您可以變更使用者的本機號碼，從他們的電話號碼變更為公司的主要電話號碼，或變更為法務部門的主要電話號碼。 此外，您可以將通話識別碼設為任何線上服務號碼 (付費或免付費) ，或透過指派給自動總機或通話佇列使用的資源帳戶的直接路由，將內部部署電話號碼設定為內部部署電話號碼。
+- **外發本機號碼** 您可以將使用者的本機號碼取代為另一個電話號碼，預設為使用者的電話號碼。 例如，您可以變更使用者的本機號碼，從使用者的電話號碼變更為公司的主要電話號碼，或變更為法務部門的主要電話號碼。 此外，您可以將通話識別碼號碼設定為任何線上服務號碼 (付費或免付費) ，或透過指派給自動總機或通話佇列使用的資源帳戶的直接路由，將內部部署電話號碼設定為內部部署電話號碼。
     
   > [!NOTE]
   > 如果您想要使用 Service *參數，* 您必須指定有效的服務號碼。
-  > 如果下拉式中看不到 PowerShell 模組 2.3.1 或更高版本，您必須在 Teams PowerShell 模組 2.3.1 或稍後使用 PowerShell Cmdlet New-CsCallingLineIdentity 或 Set-CsCallingLineIdentity。
+  > 您必須在 Teams PowerShell 模組 2.3.1 或更晚的 New-CsCallingLineIdentity 或 Set-CsCallingLineIdentity 中，針對資源帳戶編號使用 PowerShell Cmdlet New-CsCallingLineIdentity 或 Set-CsCallingLineIdentity，如果下拉式下載中看不到該編號。
   
 - **封鎖外發本機號碼。** 您可以封鎖外寄本機號碼，防止在使用者的外寄 PSTN 通話中送出。 這麼做會封鎖他們的電話號碼，不會顯示在被通話者的電話上。
     
-- **封鎖本機號碼。** 您可以在任何傳入的 PSTN 通話中封鎖使用者接收本機號碼。
+- **封鎖本機號碼。** 您可以封鎖使用者接收任何傳入 PSTN 通話的本機號碼。
 
 - **將通話方名稱設定 (CNAM) 。** 針對您的Microsoft Teams，您可以在外寄 PSTN 通話上傳送 CNAM。
     
 > [!IMPORTANT]
-> 緊急電話會一直將使用者的電話號碼 (來電) 。 
+> 緊急電話一定會將使用者的電話號碼 (來電) 。 
   
 
   
@@ -57,7 +57,7 @@ ms.locfileid: "53388648"
 ## <a name="set-your-caller-id-policy-settings"></a>設定本機號碼策略設定
 
 > [!NOTE]
-> 若要將本機號碼設為資源帳戶電話號碼，並設定通話方名稱，請使用 Teams PowerShell 模組 2.3.1 或更高版本中的 PowerShell Cmdlet New-CsCallingLineIdentity 或 Set-CsCallingLineIdentity。  (系統管理中心目前Microsoft Teams這些選項)  
+> 若要將本機號碼設為資源帳戶電話號碼，並設定通話方名稱，請使用 Teams PowerShell 模組 2.3.1 或更高版本中的 PowerShell Cmdlet New-CsCallingLineIdentity 或 Set-CsCallingLineIdentity。  (系統管理中心目前無法Microsoft Teams這些選項)  
 
 開啟 Windows PowerShell命令提示符，然後執行下列命令：
 
@@ -71,7 +71,7 @@ Connect-MicrosoftTeams -Credential $credential
 
 ### <a name="view-create-and-apply-policy-settings"></a>查看、建立及適用原則設定
 
-1. 若要查看貴組織中所有的本機號碼策略設定，請執行：
+1. 若要在貴組織中查看所有本機號碼策略設定，請執行：
 
      ```PowerShell
      Get-CsCallingLineIdentity |fl

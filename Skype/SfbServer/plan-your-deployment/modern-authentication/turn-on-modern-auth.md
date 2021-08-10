@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 本文概述的 Cmdlet 可讓系統管理員更深入地控制企業內部及外部使用的驗證方法。 管理員可以在內部或外部開啟或關閉驗證方法。
-ms.openlocfilehash: 3d7217167f7e72c4db0ec438fb20d746cd612cc2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c9d4cce512ebb296cb442c6a78482f19bf7062aaceb8fe8704cbca3c277e4e92
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116051"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306874"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>規劃在內部和外部關閉舊版驗證方法。
 
@@ -30,35 +30,35 @@ ms.locfileid: "51116051"
   
 新式驗證不只是啟用更安全的驗證方法，例如 Two-Factor 驗證或以憑證為基礎的驗證，只要不需要使用者名稱或密碼，就能對您的使用者執行授權。 這十分實用。
 
-本文將協助您插入已受到拒絕服務 (DOS) 攻擊的漏洞，方法是將用於驗證的舊方法（從外部、內部或兩者）關閉至您的網路。 例如，協助停用 DOS 攻擊的一個好方法是關閉 Windows 整合式驗證 (，其中包括 NTLM 和 Kerberos) 。 從外部關閉 NTLM 並依賴憑證型驗證，可協助保護密碼不會洩密。 這是因為 NTLM 會使用密碼認證來驗證使用者，但是由新式驗證啟用憑證型驗證--不是。 這表示降低 DOS 攻擊的一個理想選擇是在外部封鎖 NTLM，而只在這裡使用憑證型驗證。
+本文將協助您針對商務用 Skype 伺服器上的 (DOS) 攻擊，關閉已受到拒絕服務攻擊的漏洞，方法是將用於驗證的舊方法（從外部、內部或兩者）關閉至您的網路。 例如，協助停用 DOS 攻擊的一個不錯的方法，就是關閉 Windows 整合驗證 (，其中包括 NTLM 和 Kerberos) 。 從外部關閉 NTLM 並依賴憑證型驗證，可協助保護密碼不會洩密。 這是因為 NTLM 會使用密碼認證來驗證使用者，但是由新式驗證啟用憑證型驗證--不是。 這表示降低 DOS 攻擊的一個理想選擇是在外部封鎖 NTLM，而只在這裡使用憑證型驗證。
 
 完全正確，讓我們開始吧。
 
 ## <a name="what-would-you-be-changing"></a>您要變更什麼？ 
 
-這些 Cmdlet 適用于存取的 SIP 和 Web 服務點。 雖然這兩個通道使用不同的存取方法，執行從 NTLM 和 Kerberos 到匿名存取的情況，但已考慮商務用 Skype 所使用的所有標準方法。
+這些 Cmdlet 適用于存取的 SIP 和 Web 服務點。 雖然這兩個通道使用不同的存取方法，從 NTLM 和 Kerberos 執行 gamut 以匿名存取，但已考慮商務用 Skype 所使用的所有標準方法。
 
 ## <a name="how-to-get-the-get--and-set-csauthconfig-cmdlets"></a>如何取得 Get 及 Set-CsAuthConfig Cmdlet
 
-這些指令程式將只會在2018年7月 (的商務用 Skype Server 2015 中安裝後置中的「累計更新」) ，然後您就可以為您的商務用 Skype 伺服器展開多種拓撲。
+這些指令程式將只會在2018年7月累積更新 (6.0.9319.534) Microsoft 商務用 Skype Server 2015 內安裝，然後您就可以為商務用 Skype 伺服器展開多種拓撲。
 
 ## <a name="topologies"></a>拓撲
 
 請務必記住，此案例中包含的支援拓撲是必要的！ 例如，如果您需要尋求協助，以協助封鎖方法，您必須在下列類型之間進行設定。 
 
 > [!IMPORTANT]
-> 在下清單格和描述中， *新式驗證* 是以 __MA__ 為縮寫，而 *Windows 整合式驗證* 是一種 __入選__。 如提醒，Windows 整合式驗證是由兩個方法組成： NTLM 和 Kerberos 驗證。 您將需要知道這一點才能正確讀取資料表！
+> 在下清單格和描述中，*新式驗證* 會縮寫為 __MA__ ， *Windows 整合驗證* 是一種 __入選__ 的縮寫。 如提醒，Windows 整合驗證由兩個方法組成： NTLM 和 Kerberos 驗證。 您將需要知道這一點才能正確讀取資料表！
 
 
 |       |外部  |內部  |參數  |
 |---------|:---------|:---------|---------|
-|__Type 1__   |  MA + Win       | MA + Win         |  AllowAllExternallyAndInternally       |
-|__類型2__   |  馬       | MA + Win         | BlockWindowsAuthExternally        |
-|__類型3__   |  馬       | 馬        | BlockWindowsAuthExternallyAndInternally        |
+|__類型 1__   |  MA + Win       | MA + Win         |  AllowAllExternallyAndInternally       |
+|__類型 2__   |  馬       | MA + Win         | BlockWindowsAuthExternally        |
+|__類型 3__   |  馬       | 馬        | BlockWindowsAuthExternallyAndInternally        |
 |__類型4__   |  馬       | 贏得        | BlockWindowsAuthExternallyAndModernAuthInternally    |
 |__類型5__   |  MA + Win       | 贏得        | BlockModernAuthInternally         |
 
-__類型1描述：__ 此為商務用 Skype __Server 的 MA 開啟時__ 的預設案例。 換句話說，這是設定 MA 的 *起始點* 。
+__類型1描述：__ 此為 __商務用 Skype Server 開啟 MA 的預設__ 案例。 換句話說，這是設定 MA 的 *起始點* 。
 
 __Type 2 Description：__ 此拓撲會在 *外部* 封鎖 ntlm，但是允許不支援 ADAL) 之用戶端的 Ntlm 或 Kerberos (*在內部* 運作。 如果您的用戶端支援 ADAL，他們會在內部使用 MA。
 
@@ -68,13 +68,13 @@ __類型4描述：__ 此拓撲會在內部 *從外部* 封鎖 NTLM，並在內�
 
 __Type 5 Description：__ *對外*，您的現代 ADAL 用戶端將使用 MA，任何不支援 ADAL 的用戶端都會使用舊版驗證方法。 不過， *在內部*， *所有用戶端* 都會使用舊版驗證 (包括所有支援 ADAL 功能的用戶端) 。
 
-在可用選項中追蹤密碼保護的目的相當簡單。 請記住，理想的情況是使用 MA 外部 (例如，透過設定憑證型驗證) ，避免 DOS 攻擊。 如果您是在您的現代用戶端內部利用這種方式，您也會進一步對您的網路進行商務用 Skype Server DOS 攻擊的考驗。
+在可用選項中追蹤密碼保護的目的相當簡單。 請記住，理想的情況是使用 MA 外部 (例如，透過設定憑證型驗證) ，避免 DOS 攻擊。 如果您是在您的現代用戶端內部利用這種方式，您也會進一步對您的網路進行有關商務用 Skype Server DOS 攻擊的證據。
 
 ## <a name="why-to-use-set-csauthconfig-at-the-global-level"></a>在全域層級使用 Set-CsAuthConfig 的原因
 
 `Set-CsAuthConfig`註冊機構和 Web 服務角色上的指令 Cmdlet 效果設定。
 
-此 Cmdlet 應該在您的商務用 Skype 伺服器的全域層級執行。 它 *可以* 在集區層級執行，但 *不建議使用* ，因為這會增加安裝的複雜性。 在集區層級執行下列命令，如果您的集區沒有所有的角色包含 (例如，它沒有) 的 Web 服務，將只會針對註冊機構角色設定設定。 在此情況下，Web 服務會使用來自全域層級的設定，這可能是令人困惑的行為 (尤其是在無意中) 時執行。
+此 Cmdlet 應該在商務用 Skype 伺服器的全域層級執行。 它 *可以* 在集區層級執行，但 *不建議使用* ，因為這會增加安裝的複雜性。 在集區層級執行下列命令，如果您的集區沒有所有的角色包含 (例如，它沒有) 的 Web 服務，將只會針對註冊機構角色設定設定。 在此情況下，Web 服務會使用來自全域層級的設定，這可能是令人困惑的行為 (尤其是在無意中) 時執行。
 
 如果用戶端使用來自某個集區的註冊器設定，以及另一個集區的 Web 服務設定，且驗證設定處於不一致的狀態，yous 用戶端可能無法登入。
 
@@ -95,10 +95,10 @@ __Type 5 Description：__ *對外*，您的現代 ADAL 用戶端將使用 MA，�
 
 > [!NOTE]
 > 
-> 如果您使用 BlockWindowsAuthExternally 參數對外封鎖 NTLM，請注意，這也會在內部為 SIP 通道封鎖 NTLM。 不過，版本高於2010的商務用 Skype 和 Lync 用戶端仍可登入，因為他們會使用 NTLM over HTTP 登入，並在內部登入，然後取得憑證以透過 SIP 登入。 不過，低於2010的用戶端在此情況下將無法在內部登入，而且您可能想要考慮升級這些應用程式，讓使用者能夠繼續安全運作。
+> 如果您使用 BlockWindowsAuthExternally 參數對外封鎖 NTLM，請注意，這也會在內部為 SIP 通道封鎖 NTLM。 不過，如果商務用 Skype 和 Lync 用戶端的版本超過2010，將仍可登入，因為他們會使用 NTLM over HTTP 登入，並在內部登入憑證，以透過 SIP 登入。 不過，低於2010的用戶端在此情況下將無法在內部登入，而且您可能想要考慮升級這些應用程式，讓使用者能夠繼續安全運作。
 
 > [!IMPORTANT] 
-> 部分商務用 Skype web 應用程式不支援 MA。 所以，使用 BlockWindowsAuthExternallyAndInternally 案例時，您將無法存取這些應用程式。 沒有 MA 支援的應用程式是 Web 排程器、Dial-In 頁面、商務用 Skype 控制台 (CSCP) 和回應群組設定] 頁面。 
+> 有些商務用 Skype web 應用程式不支援 MA。 所以，使用 BlockWindowsAuthExternallyAndInternally 案例時，您將無法存取這些應用程式。 沒有 MA 支援的應用程式是 Web 排程器、Dial-In 頁面、商務用 Skype 控制台 (CSCP) 及回應群組設定] 頁面。 
 
 ## <a name="links"></a>連結 
 - 如需詳細 PowerShell 資訊：
@@ -107,7 +107,7 @@ __Type 5 Description：__ *對外*，您的現代 ADAL 用戶端將使用 MA，�
 
 - 如需如何使用命令或執行安裝所需之 CU 的相關指導：
     - [Cmdlet 簡報](https://support.microsoft.com/help/4346673/new-cmdlets-to-manage-skype-for-business-server-2015-authentication)
-    - [商務用 Skype Server 2015 的更新](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) (一般) 
-    - [2018 年7月日的商務用 Skype Server 2015，核心元件 CU](https://support.microsoft.com/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server) (6.0.9319.534) 
+    - [商務用 Skype Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015) (一般) 的更新
+    - [2018 年7月商務用 Skype Server 2015，核心元件 CU](https://support.microsoft.com/help/4340903/july-2018-cumulative-update-6-0-9319-534-for-skype-for-business-server) (6.0.9319.534) 
 
 

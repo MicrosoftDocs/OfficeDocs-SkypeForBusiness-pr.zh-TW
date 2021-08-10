@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 1cf6cd94772b1364d94207a96e7ccd6eda08d72f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0262d50ec74bfdb2934ced0d17eb015f742a9fbc1ec2d093a2f936e91c61edd6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092501"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306475"
 ---
 # <a name="teams-for-education"></a>適用於教育的 Teams
 
@@ -35,6 +35,6 @@ ms.locfileid: "51092501"
 | ------------- | ------------- |
 | ![向右鍵圖示的螢幕擷取畫面](../media/arrow-right-2-teams.svg)  |  [快速入門 - Teams 教育版系統管理員](../teams-quick-start-edu.yml) |
 | ![紙張和鉛筆圖示的螢幕擷取畫面](../media/sign-up-teams.svg) | [Teams 教育版中的作業](./assignments-in-teams.md) |
-| ![深入見解圖示的螢幕擷取畫面](../media/insights-teams.svg) | [教育Teams深入資訊](../class-insights.md) |
-| ![工具箱圖示的螢幕擷取畫面](../media/toolbox.svg)  |  [適用于教育Teams資源](../resources-teams-edu.md) |
-| ![檢查清單圖示的螢幕擷取畫面](../media/task-checklist-planning-teams.svg)  |  [適用于教育Teams的管理常見問題](../plan-teams-governance-edu.md) |
+| ![深入見解圖示的螢幕擷取畫面](../media/insights-teams.svg) | [Insights Teams 教育版](../class-insights.md) |
+| ![工具箱圖示的螢幕擷取畫面](../media/toolbox.svg)  |  [適用于系統管理員Teams 教育版資源](../resources-teams-edu.md) |
+| ![檢查清單圖示的螢幕擷取畫面](../media/task-checklist-planning-teams.svg)  |  [系統管理員的Teams 教育版常見問題](../plan-teams-governance-edu.md) |

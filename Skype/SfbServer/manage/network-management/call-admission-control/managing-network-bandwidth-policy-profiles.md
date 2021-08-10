@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 使用本文中的程式來查看、建立、修改或刪除網路頻寬原則設定檔。
-ms.openlocfilehash: 47a4d268c24cd8d57c8aeda4deacc6b03e795c2c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4905a80f402b15328f4bca5476dc47262030f323cee8ec12910b25e35aee6eda
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096669"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590957"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>管理商務用 Skype Server 中的網路頻寬原則設定檔
 
@@ -24,13 +24,13 @@ ms.locfileid: "51096669"
 
 ## <a name="view-network-bandwidth-policy-profile-information"></a>查看網路頻寬原則設定檔資訊
 
-頻寬原則為通話許可控制 (CAC) 的一部分，用於定義某些形式的頻寬限制。 在商務用 Skype Server 中，只有音訊和影片形式可以獲指派頻寬限制。 您可以設定整體頻寬限制和工作階段限制。 您可以使用商務用 Skype Server 控制台建立、修改或刪除這些原則的容器設定檔。 每個頻寬原則設定檔可以與一或多個網路網站產生關聯。 請使用下列程式來查看頻寬原則設定檔。 
+頻寬原則為通話許可控制 (CAC) 的一部分，用於定義某些形式的頻寬限制。 在商務用 Skype Server 中，只能對音訊和影片形式指派頻寬限制。 您可以設定整體頻寬限制和工作階段限制。 您可以使用商務用 Skype Server 控制台建立、修改或刪除這些原則的容器設定檔。 每個頻寬原則設定檔可以與一或多個網路網站產生關聯。 請使用下列程式來查看頻寬原則設定檔。 
 
 ### <a name="to-view-a-bandwidth-policy-profile"></a>若要查看頻寬原則設定檔
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 **[網路設定]**，再按一下 **[頻寬原則]**。
 
@@ -41,38 +41,37 @@ ms.locfileid: "51096669"
 
 ### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 來查看網路頻寬原則設定檔資訊
 
-您可以使用 Windows PowerShell 和 Get-CsNetworkBandwidthPolicyProfile Cmdlet 來查看網路頻寬設定檔。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 
+您可以使用 Windows PowerShell 和 Get-CsNetworkBandwidthPolicyProfile Cmdlet 來查看網路頻寬設定檔。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話執行此 Cmdlet。 
 
 
 ### <a name="to-view-network-bandwidth-policy-profile-information"></a>若要查看網路頻寬原則設定檔資訊
 
-  - 若要查看所有網路頻寬原則設定檔的相關資訊，請在商務用 Skype Server 管理命令介面中輸入下列命令，然後按 ENTER 鍵：
+  - 若要查看所有網路頻寬原則設定檔的相關資訊，請在商務用 Skype Server 管理命令介面中輸入下列命令，然後按 enter：
     
-        Get-CsNetworkBandwidthPolicyProfile
+    **Get-CsNetworkBandwidthPolicyProfile**
     
     如此將傳回類似如下的資訊：
     
-        Identity          : RedmondBandwidthPolicy
-        BWPolicy          : {BWLimit=200;BWSessionLimit=200;
-                            BWPolicyModality=Audio, 
-                            BWLimit=1400;BWSessionLimit=500;
-                            BWPolicyModality=Video}
-        BWPolicyProfileID : RedmondBandwidthPolicy
-        Description       :
-
+    身分識別： RedmondBandwidthPolicy<br/>
+    BWPolicy： {BWLimit = 200;BWSessionLimit = 200;<br/>
+                        BWPolicyModality = 音訊、 <br/>
+                        BWLimit = 1400;BWSessionLimit = 500;<br/>
+                        BWPolicyModality = Video}<br/>
+    BWPolicyProfileID : RedmondBandwidthPolicy<br/>
+    描述：
 
 如需詳細資訊，請參閱 [Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile) Cmdlet 的 [說明] 主題。
 
 
 ## <a name="create-or-modify-bandwidth-policy-profiles"></a>建立或修改頻寬原則設定檔
 
-頻寬原則為通話許可控制 (CAC) 的一部分，用於定義某些形式的頻寬限制。 在商務用 Skype Server 中，只有音訊和影片形式可以獲指派頻寬限制。 您可以設定整體頻寬限制和工作階段限制。 您可以使用商務用 Skype Server 控制台建立、修改或刪除這些原則的容器設定檔。 每個頻寬原則設定檔可以與一或多個網路網站產生關聯。 請使用下列程序來建立或修改頻寬原則設定檔。 
+頻寬原則為通話許可控制 (CAC) 的一部分，用於定義某些形式的頻寬限制。 在商務用 Skype Server 中，只能對音訊和影片形式指派頻寬限制。 您可以設定整體頻寬限制和工作階段限制。 您可以使用商務用 Skype Server 控制台建立、修改或刪除這些原則的容器設定檔。 每個頻寬原則設定檔可以與一或多個網路網站產生關聯。 請使用下列程序來建立或修改頻寬原則設定檔。 
 
 ### <a name="to-create-a-new-bandwidth-policy-profile"></a>若要建立新的頻寬原則設定檔
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **頻寬原則**]。
 
@@ -100,7 +99,7 @@ ms.locfileid: "51096669"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **頻寬原則**]。
 
@@ -118,13 +117,13 @@ ms.locfileid: "51096669"
   
 ## <a name="delete-network-bandwidth-policy-profiles"></a>刪除網路頻寬原則設定檔
 
-頻寬原則為通話許可控制 (CAC) 的一部分，用於定義某些形式的頻寬限制。 在商務用 Skype Server 中，只有音訊和影片形式可以獲指派頻寬限制。 您可以設定整體頻寬限制和工作階段限制。 您可以使用商務用 Skype Server 控制台建立、修改或刪除這些原則的容器設定檔。 請使用下列程序來刪除網路頻寬原則設定檔。 
+頻寬原則為通話許可控制 (CAC) 的一部分，用於定義某些形式的頻寬限制。 在商務用 Skype Server 中，只能對音訊和影片形式指派頻寬限制。 您可以設定整體頻寬限制和工作階段限制。 您可以使用商務用 Skype Server 控制台建立、修改或刪除這些原則的容器設定檔。 請使用下列程序來刪除網路頻寬原則設定檔。 
 
 ### <a name="to-delete-a-bandwidth-policy-profile"></a>刪除頻寬原則設定檔
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **頻寬原則**]。
 

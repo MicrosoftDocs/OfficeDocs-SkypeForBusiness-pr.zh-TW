@@ -13,24 +13,24 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 摘要：在商務用 Skype Server 中設定雙因素驗證。
-ms.openlocfilehash: 8651be3fbc07bb890637bc8d1c7c99a827d1ea1e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 304b8e288954e14b251bf17f628e3206b79aedb3888f957456fca9fafb59e0fc
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096819"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590727"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>在商務用 Skype Server 中設定雙因素驗證
 
-**摘要：** 在商務用 Skype Server 中設定雙因素驗證。
+**摘要：** 設定商務用 Skype Server 中的兩個要素驗證。
 
-下列各節說明為您的部署設定雙因素驗證所需的步驟。 如需有關雙因素驗證的詳細資訊，請參閱 [啟用 Office 365 多重要素驗證以供線上系統管理員格線使用者開機自檢](https://go.microsoft.com/fwlink/p/?LinkId=313332)。
+下列各節說明為您的部署設定雙因素驗證所需的步驟。 如需有關雙因素驗證的詳細資訊，請參閱[啟用線上系統管理員格線使用者文章的 Office 365 多重要素驗證](https://go.microsoft.com/fwlink/p/?LinkId=313332)。
 
-## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>設定企業根憑證授權以支援智慧卡驗證
+## <a name="configure-an-enterprise-root-certificate-authority-to-support-smart-card-authentication"></a>設定 Enterprise 的根憑證授權以支援智慧卡驗證
 
-下列步驟說明如何設定企業根 CA 以支援智慧卡驗證：
+下列步驟說明如何設定 Enterprise 的根 CA，以支援智慧卡驗證：
 
-如需如何安裝企業根 CA 的詳細資訊，請參閱 [install a Enterprise Root 核證機關](/previous-versions/windows/it-pro/windows-server-2003/cc776709(v=ws.10))。
+如需如何安裝 Enterprise 根 CA 的詳細資訊，請參閱[install a Enterprise Root 核證機關](/previous-versions/windows/it-pro/windows-server-2003/cc776709(v=ws.10))。
 
 1. 使用網域管理員帳戶登入 Enterprise CA 電腦。
 
@@ -44,7 +44,7 @@ ms.locfileid: "51096819"
 
 6. 選取 [ **註冊代理程式**、 **智慧卡使用者** 及 **智慧卡登** 入]。
 
-7. 按一下 **[確定]**。
+7. 按一下 ****[確定]。
 
 8. 以滑鼠右鍵按一下 [ **憑證範本**]。
 
@@ -64,13 +64,13 @@ ms.locfileid: "51096819"
 
 ## <a name="configure-windows-8-for-virtual-smart-cards"></a>設定虛擬智慧卡的 Windows 8
 
-部署雙因素驗證和智慧卡技術時，要考慮的一個因素是實施成本。 Windows 8 提供許多新的安全性功能，其中一個最有意思的新功能是支援虛擬智慧卡。
+部署雙因素驗證和智慧卡技術時，要考慮的一個因素是實施成本。 Windows 8 提供許多新的安全性功能，而且其中一個最有意思的新功能是支援虛擬智慧卡。
 
-針對配備受信任平臺模組的電腦 (符合規格版本1.2 的 TPM) 晶片，組織現在可以取得智慧卡登入的優勢，而不需要在硬體上進行任何額外的投資。 如需詳細資訊，請參閱搭配 [Windows 8 使用虛擬智慧卡](https://go.microsoft.com/fwlink/p/?LinkId=313365)。
+針對配備受信任平臺模組的電腦 (符合規格版本1.2 的 TPM) 晶片，組織現在可以取得智慧卡登入的優勢，而不需要在硬體上進行任何額外的投資。 如需詳細資訊，請參閱搭配[Windows 8 使用虛擬智慧卡](https://go.microsoft.com/fwlink/p/?LinkId=313365)。
 
 ### <a name="to-configure-windows-8-for-virtual-smart-cards"></a>設定虛擬智慧卡的 Windows 8
 
-1. 使用啟用商務用 Skype 之使用者的認證，登入 Windows 8 電腦。
+1. 使用具備商務用 Skype 功能之使用者的認證登入 Windows 8 電腦。
 
 2. 在 [Windows 8 開始] 畫面上，將游標移至螢幕的右下角。
 
@@ -80,9 +80,9 @@ ms.locfileid: "51096819"
 
 5. 執行下列命令，以 (TPM) 管理主控台開啟受信任的平臺模組：
 
-  ```console
-  Tpm.msc
-  ```
+   ```console
+   Tpm.msc
+   ```
 
 6. 在 [TPM 管理主控台] 中，確認您的 TPM 規格版本至少是1。2
 
@@ -97,8 +97,8 @@ ms.locfileid: "51096819"
   TpmVscMgr create /name MyVSC /pin default /adminkey random /generate
   ```
 
-    > [!NOTE]
-    > 若要在建立虛擬智慧卡時提供自訂 PIN 碼值，請改用/pin prompt。
+   > [!NOTE]
+   > 若要在建立虛擬智慧卡時提供自訂 PIN 碼值，請改用/pin prompt。
 
 9. 在命令提示字元中執行下列命令，以開啟 [電腦管理] 主控台：
 
@@ -120,14 +120,14 @@ ms.locfileid: "51096819"
 
 ### <a name="to-enroll-users-for-smart-card-authentication"></a>註冊使用者的智慧卡驗證
 
-1. 使用啟用商務用 Skype 之使用者的認證，登入 Windows 8 工作站。
+1. 使用具備商務用 Skype 功能之使用者的認證登入 Windows 8 工作站。
 
 2. 啟動 Internet Explorer。
 
 3. 流覽至 [ **憑證授權單位 Web 登記** ] 頁面 (https://MyCA.contoso.com/certsrv) 例如，
 
     > [!NOTE]
-    > 如果您使用的是 Internet Explorer 10，您可能需要在相容性模式中查看此網站。
+    > 如果您使用 Internet Explorer 10，您可能需要在相容性模式中查看此網站。
 
 4. 在 [ **歡迎** ] 頁面上，選取 [ **要求憑證**]。
 
@@ -143,7 +143,7 @@ ms.locfileid: "51096819"
 
     - 若為 **CSP**，請選取 [ **Microsoft 基本智慧卡加密提供者**]
 
-    - 如需 **主要用法**，請選取 [ **Exchange** (這是唯一可用的選項) 。
+    - 若要 **使用主要用法**，請選取 [ **Exchange** (這是唯一可用的選項) 。
 
     - 若為 **金鑰大小**，請輸入2048
 
@@ -172,17 +172,16 @@ ms.locfileid: "51096819"
 
     > [!NOTE]
     >  如果憑證要求失敗，錯誤為「此網頁瀏覽器不支援產生憑證要求」，有三種方法可以解決問題：
-
-        a. Enable Compatibility View in Internet Explorer
-        b. Enable the Turn on Intranet settings option in Internet Explorer
-        c. Select the Reset all zones to default level setting under the Security tab in the Internet Explorer options menu.
+    >- 在 Internet Explorer 中啟用相容性檢視。
+    >- 啟用 Internet Explorer 中的 [開啟內部網路設定] 選項。
+    >- 選取 [Internet Explorer 選項] 功能表中 [安全性] 索引標籤底下的 [將所有區域重設為預設層級] 設定。
 
 ## <a name="configure-active-directory-federation-services-ad-fs-20"></a>設定 Active Directory Federation Services (AD FS 2.0) 
 
 下列章節說明如何設定 Active Directory Federation Services (AD FS 2.0) 以支援多重要素驗證。 如需如何安裝 AD FS 2.0 的詳細資訊，請參閱 [AD fs 2.0 逐步和操作方法指南](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10))。
 
 > [!NOTE]
-> 安裝 AD FS 2.0 時，請勿使用 Windows Server 管理員來新增 Active Directory Federation Services 角色。 相反地，請下載並安裝 [Active Directory Federation Services 2.0 幫手 rtw 套件](https://go.microsoft.com/fwlink/p/?LinkId=313375)。
+> 安裝 AD FS 2.0 時，請勿使用 Windows 伺服器管理員來新增 Active Directory Federation Services 角色。 相反地，請下載並安裝 [Active Directory Federation Services 2.0 幫手 rtw 套件](https://go.microsoft.com/fwlink/p/?LinkId=313375)。
 
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>設定用於雙因素驗證的 AD FS
 
@@ -190,7 +189,7 @@ ms.locfileid: "51096819"
 
 2. 啟動 Windows PowerShell。
 
-3. 在 [Windows PowerShell] 命令列中，執行下列命令：
+3. 從 Windows PowerShell 命令列中，執行下列命令：
 
   ```PowerShell
   add-pssnapin Microsoft.Adfs.PowerShell
@@ -208,7 +207,7 @@ ms.locfileid: "51096819"
 
 7. 確認已為您的商務用 Skype Server 建立新的信任。
 
-8. 執行下列命令，為使用 Windows PowerShell 的信賴憑證者信任建立並指派發行授權規則：
+8. 執行下列命令，為您的信賴憑證者信任建立並指派發行授權規則 Windows PowerShell：
 
   ```PowerShell
   $IssuanceAuthorizationRules = '@RuleTemplate = "AllowAllAuthzRule" => issue(Type = "https://schemas.microsoft.com/authorization/claims/permit", Value = "true");'
@@ -219,7 +218,7 @@ ms.locfileid: "51096819"
 -IssuanceAuthorizationRules $IssuanceAuthorizationRules
   ```
 
-9. 執行下列命令，為您使用 Windows PowerShell 建立並指派「信賴憑證方信任」的發行轉換規則：
+9. 執行下列命令，使用 Windows PowerShell 建立並指派對信賴憑證者信任的發行轉換規則：
 
   ```PowerShell
   $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
@@ -255,7 +254,7 @@ ms.locfileid: "51096819"
 
 4. 請備份現有的 web.config 檔。
 
-5. 使用 [記事本] 開啟現有的 web.config 檔案。
+5. 使用記事本開啟現有的 web.config 檔案。
 
 6. 從功能表列中，選取 [ **編輯** ]，然後選取 [ **尋找**]。
 
@@ -277,29 +276,29 @@ ms.locfileid: "51096819"
 
 ## <a name="configuring-skype-for-business-server-passive-authentication"></a>設定商務用 Skype Server 被動式驗證
 
-下列章節說明如何設定商務用 Skype 伺服器以支援被動式驗證。 一旦啟用，啟用兩個要素驗證的使用者將需要使用實體或虛擬智慧卡和有效 PIN 碼以商務用 Skype 用戶端登入。
+下列章節說明如何設定商務用 Skype Server 以支援被動式驗證。 啟用兩個要素驗證之後，將需要使用實體或虛擬智慧卡和有效 PIN 碼來登入使用商務用 Skype 用戶端的使用者。
 
 > [!NOTE]
 > 強烈建議客戶在服務層級為註冊機構和 Web 服務啟用被動式驗證。 如果已為全域層級的註冊機構和 Web 服務啟用被動式驗證，則對於不是以支援的桌面用戶端登入的使用者而言，這可能會導致組織範圍的驗證失敗。
 
 ### <a name="web-service-configuration"></a>Web 服務設定
 
-下列步驟說明如何針對 Director、Enterprise Pool 和 Standard Edition server 建立自訂 web 服務設定，以進行被動式驗證。
+下列步驟說明如何針對 director、Enterprise 集區和將為被動驗證啟用 Standard Edition 伺服器建立自訂 web 服務設定。
 
 ### <a name="to-create-a-custom-web-service-configuration"></a>建立自訂 web 服務設定
 
-1. 使用商務用 Skype 系統管理員帳戶登入商務用 Skype Server 前端伺服器。
+1. 使用商務用 Skype 系統管理員帳戶登入您的商務用 Skype Server 前端伺服器。
 
 2. 啟動商務用 Skype Server 管理命令介面。
 
-3. 從商務用 Skype Server 管理命令介面命令列，針對每個 Director、Enterprise 集區和 Standard Edition Server 建立新的 Web 服務設定，並執行下列命令，以啟用被動驗證：
+3. 從商務用 Skype Server 管理命令介面命令列，為每個 Director、Enterprise 集區和 Standard Edition 伺服器建立新的 Web 服務設定，並執行下列命令來啟用被動驗證：
 
   ```PowerShell
   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
   ```
 
-    > [!CAUTION]
-    > WsFedPassiveMetadataUri FQDN 的值為 AD FS 2.0 伺服器的同盟服務名稱。 您可以在 AD FS 2.0 管理主控台中，以滑鼠右鍵按一下功能窗格中的 [ **服務** ]，然後選取 [ **編輯同盟服務屬性**]，即可找到 [同盟服務名稱] 值。
+   > [!CAUTION]
+   > WsFedPassiveMetadataUri FQDN 的值為 AD FS 2.0 伺服器的同盟服務名稱。 您可以在 AD FS 2.0 管理主控台中，以滑鼠右鍵按一下功能窗格中的 [ **服務** ]，然後選取 [ **編輯同盟服務屬性**]，即可找到 [同盟服務名稱] 值。
 
 4. 執行下列命令，確認 UseWsFedPassiveAuth 和 WsFedPassiveMetadataUri 值已正確設定：
 
@@ -307,7 +306,7 @@ ms.locfileid: "51096819"
   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
   ```
 
-5. 若為用戶端，被動式驗證是 webticket 驗證的最低偏好驗證方法。 針對將為進行被動式驗證而啟用的所有 Director、Enterprise Pool 和 Standard Edition server，您必須在商務用 Skype Web 服務中使用下列 Cmdlet 來停用所有其他驗證類型：
+5. 若為用戶端，被動式驗證是 webticket 驗證的最低偏好驗證方法。 針對將啟用被動驗證的所有 director、Enterprise 集區和 Standard Edition 伺服器，所有其他驗證類型都必須透過執行下列 Cmdlet 商務用 Skype Web 服務中停用：
 
   ```PowerShell
   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
@@ -321,13 +320,13 @@ ms.locfileid: "51096819"
 
 ### <a name="proxy-configuration"></a>Proxy 設定
 
-為商務用 Skype Web 服務停用憑證驗證時，商務用 Skype 用戶端將使用較不習慣的驗證類型，例如 Kerberos 或 NTLM，以驗證註冊機構服務。 仍然需要使用憑證驗證，讓用戶端可以找回 webticket，但必須停用註冊器服務的 Kerberos 和 NTLM。
+當您為商務用 Skype Web 服務停用憑證驗證時，商務用 Skype 用戶端將使用較不習慣的驗證類型（例如 Kerberos 或 NTLM）來驗證註冊器服務。 仍然需要使用憑證驗證，讓用戶端可以找回 webticket，但必須停用註冊器服務的 Kerberos 和 NTLM。
 
-下列步驟說明如何針對將啟用被動驗證的 Edge 集區、Enterprise 集區和 Standard Edition server 建立自訂 proxy 設定。
+下列步驟說明如何為 Edge 集區、Enterprise 集區，以及將為被動驗證啟用 Standard Edition 伺服器建立自訂 proxy 設定。
 
 ### <a name="to-create-a-custom-proxy-configuration"></a>建立自訂 proxy 設定
 
-1. 從商務用 Skype Server 管理命令介面命令列，針對每個商務用 Skype Server Edge 集區、Enterprise 集區和 Standard Edition server 建立新的 proxy 設定，並執行下列命令來啟用被動驗證：
+1. 從商務用 Skype Server 管理命令介面命令列，為每個商務用 Skype Server Edge 集區、Enterprise 集區和 Standard Edition 伺服器建立新的 proxy 設定，以執行下列命令來啟用被動驗證：
 
   ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False

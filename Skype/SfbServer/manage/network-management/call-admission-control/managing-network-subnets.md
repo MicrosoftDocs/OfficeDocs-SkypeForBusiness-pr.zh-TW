@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 在大部分的商務用 Skype Server 中執行通話許可控制時，會執行 (CAC) 的商務用 Skype 伺服器，通常會有許多子網。 因此，通常最好是從商務用 Skype Server 管理命令介面來設定子網。
-ms.openlocfilehash: ef771ad78f00085374038203e1049790a9179e88
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在大多數部署通話許可控制 (CAC) 執行的商務用 Skype Server 中，通常會有大量子網。 因此，通常最好是從商務用 Skype Server 管理命令介面設定子網。
+ms.openlocfilehash: c42d0cf4a3970a354183de3bb39878f7955b8678aae93c4f0703257a1ae1f901
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122437"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591097"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>管理商務用 Skype Server 中的網路子網路
 
-您可以使用商務用 Skype Server 控制台或商務用 Skype Server 管理命令介面來管理網路子網。 在大部分的商務用 Skype Server 中執行通話許可控制時，會執行 (CAC) 的商務用 Skype 伺服器，通常會有許多子網。 因此，通常最好是從商務用 Skype Server 管理命令介面來設定子網。
+您可以使用商務用 Skype Server 控制台或商務用 Skype Server 管理命令介面來管理網路子網。 在大多數部署通話許可控制 (CAC) 執行的商務用 Skype Server 中，通常會有大量子網。 因此，通常最好是從商務用 Skype Server 管理命令介面設定子網。
 
 請使用本文中的章節來查看網路子網資訊，或建立、修改或刪除網路子網。 
 
@@ -32,34 +32,34 @@ ms.locfileid: "51122437"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **子網**]。
 
 4.  在 **[子網路]** 頁面上，按一下您要檢視的子網路。
  
-    > [!NOTE]  
+    > [!NOTE]
     > 您一次只能檢視一個子網路。
 
 5.  在 **[編輯]** 功能表上，按一下 **[顯示詳細資料]**。
 
 ### <a name="view-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 來查看網路子網設定資訊
 
-您可以使用 Windows PowerShell 和 Get-CsNetworkSubnet Cmdlet 來查看網路子網資訊。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 
+您可以使用 Windows PowerShell 和 Get-CsNetworkSubnet Cmdlet 來查看網路子網資訊。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話執行此 Cmdlet。 
 
 ### <a name="to-view-network-subnet-information"></a>若要查看網路子網資訊
 
-  - 若要查看所有網路子網的相關資訊，請在商務用 Skype Server 管理命令介面中輸入下列命令，然後按 ENTER：
+  - 若要查看所有網路子網的相關資訊，請在商務用 Skype Server 管理命令介面中輸入下列命令，然後按 enter：
     
-        Get-CsNetworkSubnet
+    **Get-CsNetworkSubnet**
     
     如此將傳回類似如下的資訊：
     
-        Identity      : 172.11.15.0
-        MaskBits      : 28
-        Description   :
-        NetworkSiteID : Redmond
-        SubnetID      : 172.11.15.0
+    身分識別：172.11.15。0<br/>
+    MaskBits：28<br/>
+    描述：<br/>
+    NetworkSiteID： Redmond<br/>
+    SubnetID : 172.11.15.0<br/>
 
 
 如需詳細資訊，請參閱 [Get-CsNetworkSubnet](/powershell/module/skype/Get-CsNetworkSubnet) Cmdlet 的說明主題。
@@ -69,14 +69,14 @@ ms.locfileid: "51122437"
 
 網路子網必須與網路網站相關聯，以判斷屬於該子網之主機的地理位置。 您可以使用商務用 Skype Server 控制台來設定子網。 您可以從商務用 Skype Server 控制台建立、修改或刪除網路子網。 
 
-在大部分的商務用 Skype Server 中執行通話許可控制時，會執行 (CAC) 的商務用 Skype 伺服器，通常會有許多子網。 因此，通常最好是從商務用 Skype Server 管理命令介面來設定子網。 從那裡，您可以將 **New-CsNetworkSubnet** 與 Windows PowerShell Cmdlet 匯 **入-CSV** 搭配呼叫。 透過這些 Cmdlet 一起使用，您可以從逗點分隔的值讀取子網設定 ( .csv) 檔案，並同時建立多個子網。 如需如何從 .csv 檔案建立子網的範例，請參閱 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)。
+在大多數部署通話許可控制 (CAC) 執行的商務用 Skype Server 中，通常會有大量子網。 因此，通常最好是從商務用 Skype Server 管理命令介面設定子網。 您可以從這裡呼叫 **New-CsNetworkSubnet** ，搭配 Windows PowerShell Cmdlet 匯 **入-CSV**。 透過這些 Cmdlet 一起使用，您可以從逗點分隔的值讀取子網設定 (.csv) 檔案並同時建立多個子網。 如需如何從 .csv 檔案建立子網的範例，請參閱 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)。
 
 
 ### <a name="to-create-a-network-subnet"></a>建立網路子網
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **子網**]。
 
@@ -100,7 +100,7 @@ ms.locfileid: "51122437"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **子網**]。
 
@@ -116,14 +116,14 @@ ms.locfileid: "51122437"
 
 您可以使用下列程式來刪除子網。 您可以從商務用 Skype Server 控制台建立、修改或刪除網路子網。 
 
-在大部分的商務用 Skype Server 中執行通話許可控制時，會執行 (CAC) 的商務用 Skype 伺服器，通常會有許多子網。 因此，通常最好是從商務用 Skype Server 管理命令介面來設定子網。 從那裡，您可以將 **New-CsNetworkSubnet** 與 Windows PowerShell Cmdlet 匯 **入-CSV** 搭配呼叫。 透過這些 Cmdlet 一起使用，您可以從逗點分隔的值讀取子網設定 ( .csv) 檔案，並同時建立多個子網。 如需如何從 .csv 檔案建立子網的範例，請參閱 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)。
+在大多數部署通話許可控制 (CAC) 執行的商務用 Skype Server 中，通常會有大量子網。 因此，通常最好是從商務用 Skype Server 管理命令介面設定子網。 您可以從這裡呼叫 **New-CsNetworkSubnet** ，搭配 Windows PowerShell Cmdlet 匯 **入-CSV**。 透過這些 Cmdlet 一起使用，您可以從逗點分隔的值讀取子網設定 (.csv) 檔案並同時建立多個子網。 如需如何從 .csv 檔案建立子網的範例，請參閱 [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet)。
 
 
 ### <a name="to-delete-a-network-subnet"></a>若要刪除網路子網
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **子網**]。
 

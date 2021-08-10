@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: 請參閱商務用 Skype Server 中的「忙碌選項」功能。
-ms.openlocfilehash: 558d7486ca7aaa794c3114f5c210702a54e02fc4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9c752ebfbfc24f250b1dc9ad68118d1795cfc356cb1332ff7d1d5c66026cfca1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813693"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306944"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>規劃商務用 Skype Server 的繁忙選項
  
@@ -30,29 +30,29 @@ ms.locfileid: "49813693"
   
 在成對前端集區和 Survivable Branch Server (SBS) 上，支援容錯移轉和嚴重損壞修復功能的 [忙碌選項] 原則。
   
-本主題說明忙碌選項的功能。 如需如何安裝及設定忙碌選項的詳細資訊，請參閱 [安裝及設定商務用 Skype Server 的繁忙選項](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)。
+本主題說明忙碌選項的功能。 如需如何安裝及設定忙碌選項的詳細資訊，請參閱[install and configure busy options for 商務用 Skype Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)。
   
 ## <a name="configuration-options"></a>設定選項
 
-如果為組織啟用忙碌選項，組織中的所有使用者（Enterprise Voice 和非企業語音使用者）都可以使用下列功能：
+如果為組織啟用忙碌選項，組織中的所有使用者（企業語音和非企業語音使用者）均可使用下列功能：
   
 - 忙於忙碌-當使用者忙碌時，將會以忙碌信號拒絕新的來電。
     
 - 在忙碌中的語音信箱，當使用者忙碌時，會將新的來電轉送到語音信箱。
     
-「忙碌選項」功能提供容錯移轉功能。 如果發生問題，且使用者已容錯移轉至另一部前端伺服器或在商務用 Skype Server 中的另一個集區，則會保留其「忙碌選項」設定。
+「忙碌選項」功能提供容錯移轉功能。 如果發生問題，且使用者容錯移轉至另一部前端伺服器或商務用 Skype Server 中的另一個集區，則會保留其「忙碌選項」設定。
   
 不論其忙碌選項的設定方式為何，通話或會議中的使用者或是具有保留狀態的使用者，都不會被禁止撥打新的通話或會議。 
   
-設定之後，「忙碌選項」設定會作用於所有使用者的商務用 Skype 通話裝置和用戶端。 根據使用者的「忙碌選項」設定，拒絕或傳送至語音信箱的呼叫，不會在使用者的任何呼叫裝置上振鈴，包括使用者已登入的 Macintosh、Windows 桌面、行動用戶端或 IP 電話。 
+設定之後，「忙碌選項」設定會作用於所有使用者的商務用 Skype 呼叫裝置和用戶端。 根據使用者的「忙碌選項」設定，拒絕或傳送至語音信箱的來電不會在使用者的任何呼叫裝置上振鈴，包括使用者已登入的 Macintosh、Windows 桌面、行動用戶端或 IP 電話。 
   
-使用者將會在其商務用 Skype 用戶端和裝置上看到未接來電通知，也會透過電子郵件通知他們。 來電因忙碌而遭到拒絕的來電者，將會在其商務用 Skype 用戶端中看到通知，告知使用者嘗試到達的使用者正忙於另一個呼叫。
+使用者將會在其商務用 Skype 用戶端和裝置上看到未接來電通知，也會透過電子郵件通知他們。 來電因忙碌而遭到拒絕的來電者，會在其商務用 Skype 用戶端中看到通知，告知使用者嘗試到達的使用者正忙於另一個呼叫。
   
 您可以使用商務用 Skype PowerShell Cmdlet 來設定「忙碌選項」功能，以進行下列作業：
   
-- 啟用或停用企業的繁忙選項語音原則。
+- 啟用或停用 Enterprise 的繁忙選項語音原則。
     
-- 針對企業中的所有使用者，管理忙碌的繁忙或語音信箱占線。
+- 對 Enterprise 中的所有使用者，管理忙碌或語音信箱等忙碌狀態。
     
 - 為位於特定前端集區中的所有使用者，管理忙碌的繁忙或語音信箱忙碌狀態。
     
@@ -62,7 +62,7 @@ ms.locfileid: "49813693"
     
 ## <a name="interoperability-with-voice-applications"></a>與語音應用程式交互操作
 
-繁忙選項可在商務用 Skype 中與下列語音應用程式互通性：
+忙碌選項可在商務用 Skype 中提供與下列語音應用程式的互通性：
   
 - 回應群組 (RGS) 
     

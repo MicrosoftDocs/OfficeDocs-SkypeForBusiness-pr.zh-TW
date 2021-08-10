@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c59220fe886d7301491909c0e099b8cd4c15ae75
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8d2fed3a011936507febdfcd6bb7dae5aa4c7d385a3ea3fccc49e018f7749a95
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306375"
 ---
 # <a name="get-started-with-microsoft-teams"></a>開始使用 Microsoft Teams
 
@@ -47,9 +47,9 @@ ms.locfileid: "51092241"
 
 如果您有中型或大型組織， [使用適用於 Microsoft Teams 的建議程式](use-advisor-teams-roll-out.md) 以協助您規劃在整個組織中推出這些工作負載。 建議程式會使用 Teams 本身以建立計畫工作，並將其指派給擁有者、共用文件，以及啟用部署小組之間的討論。
 
-## <a name="make-sure-youre-ready"></a>確定您已準備就緒
+## <a name="make-sure-youre-ready&quot;></a>確定您已準備就緒
 
-若要為您的 Teams 推出做好準備，無論 Teams 是您的第一個工作負載 ("Teams First") 或現有 Microsoft 365 或 Office 365 部署中的下一個工作負載，以下為您需要進行的動作：
+若要為您的 Teams 推出做好準備，無論 Teams 是您的第一個工作負載 (&quot;Teams First") 或現有 Microsoft 365 或 Office 365 部署中的下一個工作負載，以下為您需要進行的動作：
 
 - [針對 Teams 準備組織的網路](prepare-network.md)
   - 這包含設定您的 Microsoft 365 或 Office 365 網域、SharePoint Online、Exchange Online 和商務用 OneDrive。
@@ -74,10 +74,10 @@ ms.locfileid: "51092241"
 
 ## <a name="upgrade-or-migrate-from-skype-for-business"></a>從商務用 Skype® 2015 升級或移轉
 
-如果您是從商務用 Skype® 2015 (線上或內部部署) 進入 Teams，或如果您需要混合式設定，您仍然需要依照上述針對 Teams 部署的建議路徑進行，但首先您需進行一些額外的規劃。 從檢閱下表中適用於貴組織設定檔的指導方針開始。
+如果您是從商務用 Skype (線上或內部部署) 進入 Teams，或如果您需要混合式設定，您仍然需要依照上述針對 Teams 部署的建議路徑進行，但首先您需進行一些額外的規劃。從檢閱下表中適用於貴組織設定檔的指導方針開始。
 
 |  |貴組織的設定檔|指導方針  |
 |---------|---------|---------|
 |<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|我目前使用商務用 Skype Online，並準備好要移至 Teams。 |移至[升級至 Teams](upgrade-start-here.md)。        |
 |<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|我的組織執行商務用 Skype Server，而我想要推出 Teams。 |若要全面推出 Teams，您必須先在內部部署環境與 Microsoft 365 之間設定混合式連線。從閱讀[規劃商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合式連線](/skypeforbusiness/hybrid/plan-hybrid-connectivity) (部分機器翻譯) 開始。<br><br>您也應該檢閱[升級至 Teams](upgrade-start-here.md)。   |
-|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|我沒有商務用 Skype Server，但有內部部署公共交換電話網路 (PSTN) 解決方案。 我想要推出 Teams，但想要保留我的內部部署 PSTN 解決方案。 |遵循本文中的建議以開始使用 Teams。<br><br>然後閱讀[規劃直接路由](direct-routing-plan.md)，了解如何使用電話系統直接路由來將您的內部部署 PSTN 解決方案與 Teams 對接。|
+|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|我沒有商務用 Skype Server，但有內部部署公用交換電話網路 (PSTN) 解決方案。我想要推出 Teams，但想要保留我的內部部署 PSTN 解決方案。 |遵循本文中的建議以開始使用 Teams。<br><br>然後閱讀[規劃直接路由](direct-routing-plan.md)，了解如何使用電話系統直接路由來將您的內部部署 PSTN 解決方案與 Teams 對接。|

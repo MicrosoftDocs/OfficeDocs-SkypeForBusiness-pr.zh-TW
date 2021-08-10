@@ -1,5 +1,5 @@
 ---
-title: " (規劃工具的 IP 版本) "
+title: 商務用 Skype ServerIP 版本規劃工具
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,18 +15,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
-description: 在商務用 Skype Server 2015 中設定 IP 位址時，您有三個選項。 您可以設定商務用 Skype Server 2015，只支援 IP 版本 4 (IPv4) 、只有 IP 版本 6 (IPv6) ，或是兩個 (稱為雙重堆疊) 的組合。
-ms.openlocfilehash: e2ceac7e4143ce090f26a557f97c1e5b8676d77d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 當您設定商務用 Skype Server 2015 中的 IP 位址時，您有三個選項。 您可以將商務用 Skype Server 2015 設定為僅支援 ip 版本 4 (IPv4) 、只有 ip 版本 6 (IPv6) ，或是兩種 (（稱為雙重堆疊) ）的組合。
+ms.openlocfilehash: ae037de79d077711b4290bb564f9b79f0f4b3166d991ec4ace1d1e49407ffcc8
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804903"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590687"
 ---
-# <a name="ip-version-planning-tool"></a> (規劃工具的 IP 版本) 
+# <a name="skype-for-business-server-ip-version-planning-tool"></a>商務用 Skype ServerIP 版本規劃工具
  
-在商務用 Skype Server 2015 中設定 IP 位址時，您有三個選項。 您可以設定商務用 Skype Server 2015，只支援 IP 版本 4 (IPv4) 、只有 IP 版本 6 (IPv6) ，或是兩個 (稱為雙重堆疊) 的組合。
+當您設定商務用 Skype Server 2015 中的 IP 位址時，您有三個選項。 您可以將商務用 Skype Server 2015 設定為僅支援 ip 版本 4 (IPv4) 、只有 ip 版本 6 (IPv6) ，或是兩種 (（稱為雙重堆疊) ）的組合。
   
-如需選擇 IP 基礎結構的詳細資訊，請參閱 [在商務用 Skype 中規劃 IPv6](../../plan-your-deployment/network-requirements/ipv6.md)。
+如需選擇 IP 基礎結構的詳細資訊，請參閱[Plan for IPv6 in 商務用 Skype](../../plan-your-deployment/network-requirements/ipv6.md)。
   
 

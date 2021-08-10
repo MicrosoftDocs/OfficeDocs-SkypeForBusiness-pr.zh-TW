@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中測試系統管理員許可權
+title: 測試商務用 Skype Server 中的系統管理員許可權
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,20 +11,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 如何在商務用 Skype Server 中測試系統管理員許可權
-ms.openlocfilehash: 535911c26bac5e3f1dadb2c8d59cffe82dc20c7a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1c828eeb965ee98aae72b00c7da9fa65016d2ed90e56c7cc982a59763c2703ae
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122397"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590767"
 ---
-# <a name="testing-admin-permissions-in-skype-for-business-server"></a>在商務用 Skype Server 中測試系統管理員許可權
+# <a name="testing-admin-permissions-in-skype-for-business-server"></a>測試商務用 Skype Server 中的系統管理員許可權
 
-| | |
+|&nbsp; |&nbsp; |
 |--|--|
-|驗證排程|初次進行商務用 Skype Server 部署之後。 在發生許可權相關的問題時，視需要進行。|
+|驗證排程|初始商務用 Skype Server 部署之後。 在發生許可權相關的問題時，視需要進行。|
 |測試控管|Windows PowerShell|
-|必要的權限|使用商務用 Skype Server 管理命令介面在本機執行時，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。<br><br/>使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行 Test-CsOUPermission Cmdlet 許可權的 RBAC 角色。 若要查看可使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell prompt 中執行下列命令：<br/><br/>Get-CsAdminRole \| Where-Object {$ _。Cmdlet-符合 "Test-CsOUPermission"}|
+|必要的權限|當您使用商務用 Skype Server 管理命令介面在本機執行時，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。<br><br/>使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行 Test-CsOUPermission Cmdlet 許可權的 RBAC 角色。 若要查看可使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell 提示中執行下列命令：<br/><br/>Get-CsAdminRole \| Where-Object {$ _。Cmdlet-符合 "Test-CsOUPermission"}|
 |||
 
 ## <a name="description"></a>描述
@@ -52,7 +52,7 @@ Test-CsOUPermission Cmdlet 會驗證管理使用者、電腦及其他物件所�
 
 如果已設定必要的許可權，Test-CsOUPermission 會傳回一個單字回應：
 
-對
+True
 
 如果未設定必要的許可權，Test-CsOUPermission 會傳回值 False。 您可能需要搜尋一會兒，以找出此值。 它通常會內嵌在數個伴隨的警告內。 例如：
 

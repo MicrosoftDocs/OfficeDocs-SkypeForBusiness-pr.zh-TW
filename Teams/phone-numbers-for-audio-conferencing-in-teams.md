@@ -22,13 +22,13 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 - seo-marvel-mar2020
-description: 瞭解哪些國家和地區有電話撥入式會議號碼，以及如何自動指派電話撥入式會議號碼。
-ms.openlocfilehash: c353fa46e271b6bdec72944565e595592e3810d1
-ms.sourcegitcommit: f586d2765195dbd5b7cf65615a03a1cb098c5466
+description: 瞭解哪些國家/地區有電話撥入式會議號碼，以及如何自動指派電話撥入式會議號碼。
+ms.openlocfilehash: f72a8929ae9d685642857764e7c0d4541f762ce875adafdd0a46a6de1b471483
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2020
-ms.locfileid: "44665885"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54276129"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 音訊會議的電話號碼
 
@@ -46,7 +46,7 @@ ms.locfileid: "44665885"
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>音訊會議橋接器上設定的撥入電話號碼
 
-可指派給您的會議橋接器的音訊會議電話號碼有兩個類型：**共用** 和 **專用**。 任何來電者都可以使用這兩種號碼來加入貴組織進行的音訊會議。
+可指派給您的會議橋接器的音訊會議電話號碼有兩個類型：**共用** 和 **專用**。 任何來電者都可以使用這兩種號碼來加入貴組織中進行的音訊會議。
   
 - **專用電話號碼** 是只有在組織內部使用者才可以使用的電話號碼。 您可以變更某人撥入其中一個號碼時所使用的語言。
   

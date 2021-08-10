@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 中的分支網站 SIP 主幹
+title: 分支網站 SIP 主幹 in 商務用 Skype Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
-description: 深入瞭解商務用 Skype Server Enterprise Voice 中分支網站的 SIP 主幹。
-ms.openlocfilehash: f8b875fca8adc1ac78c0b24cf3e53fab2ec2cd89
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 瞭解商務用 Skype Server 企業語音中分支網站的 SIP 主幹。
+ms.openlocfilehash: 3a009e7e2a94cd9c172adb4cfb0496efc9a44a03749f6c40c6ee63fb321b7f62
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813713"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306954"
 ---
-# <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>商務用 Skype Server 中的分支網站 SIP 主幹
+# <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>分支網站 SIP 主幹 in 商務用 Skype Server
  
-深入瞭解商務用 Skype Server Enterprise Voice 中分支網站的 SIP 主幹。
+瞭解商務用 Skype Server 企業語音中分支網站的 SIP 主幹。
   
-在某些情況下，您可能需要在選取的分支網站上執行分散式 SIP 主幹。 若要判斷分支網站是否需要 SIP 主幹，以及在分支網站中部署 SIP 主幹時支援的拓撲選項的詳細資訊，請參閱 [商務用 Skype Server 中的 SIP trunk](sip-trunking.md)。
+在某些情況下，您可能需要在選取的分支網站上執行分散式 SIP 主幹。 若要判斷分支網站是否需要 SIP 主幹，以及在分支網站中部署 sip 主幹時支援的拓撲選項的詳細資訊，請參閱商務用 Skype Server 中的[sip trunk](sip-trunking.md)。
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>分支網站 SIP 主幹需求分析範例
 

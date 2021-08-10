@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本文說明如何針對會議、應用程式及轉送伺服器設定埠範圍和服務品質原則。
-ms.openlocfilehash: 8c65e36528615aca181b6aac17aab844c1a4d206
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 14a9bd1b4e32ab68b01746edaca77337654ea391737f38129c7e482fdcd49324
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800123"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54591077"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>針對會議、應用程式及轉送伺服器設定埠範圍和服務品質原則
 
@@ -32,25 +32,21 @@ ms.locfileid: "49800123"
 
 同樣地，假設您為視訊保留連接埠 10000 到 10999，但接著為音訊保留連接埠 10500 到 11999。 這樣會造成服務品質的問題，因為連接埠範圍重疊。 在 QoS 中，每個模態都必須有一組獨特的埠：如果您使用埠10000到10999以進行影片，則必須使用不同的範圍 (（例如11000到11999，針對音訊) ）。
 
-依預設，在商務用 Skype Server 中，音訊和視訊連接埠範圍不會重疊;不過，指派給應用程式共用的埠範圍會與音訊和視訊連接埠範圍重疊。  (它會反過來表示這些範圍都不是唯一的。 ) 您可以從商務用 Skype Server 管理命令介面執行下列三個命令，以驗證會議、應用程式及轉送伺服器的現有埠範圍。
+依預設，音訊和視訊連接埠範圍不會在商務用 Skype Server 中重疊;不過，指派給應用程式共用的埠範圍會與音訊和視訊連接埠範圍重疊。  (它會反過來表示這些範圍都不是唯一的。 ) 您可以從商務用 Skype Server 管理命令介面中執行下列三個命令，以驗證會議、應用程式及轉送伺服器的現有埠範圍。
 
-    Get-CsService -ConferencingServer | Select-Object Identity, AudioPortStart, AudioPortCount, VideoPortStart, VideoPortCount, AppSharingPortStart, AppSharingPortCount
+  Get-CsService-ConferencingServer |Select-Object 身分識別、AudioPortStart、AudioPortCount、VideoPortStart、VideoPortCount、AppSharingPortStart AppSharingPortCount
     
-    Get-CsService -ApplicationServer | Select-Object Identity, AudioPortStart, AudioPortCount
+  Get-CsService-ApplicationServer |Select-Object 身分識別、AudioPortStart、AudioPortCount
     
-    Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
+  Get-CsService-MediationServer |Select-Object 身分識別、AudioPortStart、AudioPortCount
 
 > [!WARNING]  
 > 如同您在上述命令中所見，每一種連接埠類型 (音訊、視訊和應用程式共用) 都會被指派兩個不同的屬性值：連接埠起點和連接埠計數。 連接埠起點指出用於該形式的第一個連接埠；例如，如果音訊連接埠起點等於 50000，表示用於音訊流量的第一個連接埠是連接埠 50000。 如果音訊埠計數為 2 (不是有效值，但在這裡是用來做說明，請) ，這表示只有兩個埠為音訊所指派。 如果第一個連接埠是連接埠 50000，且總共有兩個連接埠，表示第二個連接埠一定是連接埠 50001 (連接埠範圍必須是連續的)。 因此，音訊的連接埠範圍將會是連接埠 50000 到 50001 (含)。<BR><br>另請注意，應用程式伺服器和中繼伺服器只支援音訊的服務品質；您不需要在應用程式伺服器或中繼伺服器中變更視訊或應用程式共用連接埠。
 
-如果您執行上述三個命令，您會看到商務用 Skype Server 的預設埠值是設定如下：
+如果您執行上述三個命令，您會看到商務用 Skype Server 的預設埠值設定如下：
 
 <table>
 <colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
 </colgroup>
 <thead>
 <tr class="header">
@@ -100,41 +96,41 @@ ms.locfileid: "49800123"
 </tbody>
 </table>
 
-如先前所述，設定 QoS 的商務用 Skype 伺服器埠時，應確定： 1) 音訊埠設定在您的會議、應用程式及轉送伺服器上都相同。而且，2) 埠範圍不會重疊。 如果您仔細查看前面的表格，您會看到埠範圍在三個伺服器類型中皆相同。 例如，在每個伺服器類型上，啟動音訊埠設定為埠49152，而在每個伺服器上為音訊保留的埠總數也相同：8348。 不過，埠範圍會重迭：音訊埠會從埠49152開始，但也會為應用程式共用設定埠。 為了讓服務品質獲得最佳的使用，應將應用程式共用重新設定為使用唯一的埠範圍。 例如，您可以將應用程式共用設定為從埠40803開始，並使用8348埠。  (為何8348埠？ 如果您將這些值一起新增--40803 + 8348--這表示應用程式共用將使用埠40803透過埠49150。 因為音訊埠不會開始，直到埠49152，您就不會再有任何重疊的埠範圍。 ) 
+如先前所述，設定 QoS 的商務用 Skype Server 埠時，應確定在您的會議、應用程式及轉送伺服器上，： 1) 音訊埠設定都相同。而且，2) 埠範圍不會重疊。 如果您仔細查看前面的表格，您會看到埠範圍在三個伺服器類型中皆相同。 例如，在每個伺服器類型上，啟動音訊埠設定為埠49152，而在每個伺服器上為音訊保留的埠總數也相同：8348。 不過，埠範圍會重迭：音訊埠會從埠49152開始，但也會為應用程式共用設定埠。 為了讓服務品質獲得最佳的使用，應將應用程式共用重新設定為使用唯一的埠範圍。 例如，您可以將應用程式共用設定為從埠40803開始，並使用8348埠。  (為何8348埠？ 如果您將這些值一起新增--40803 + 8348--這表示應用程式共用將使用埠40803透過埠49150。 因為音訊埠不會開始，直到埠49152，您就不會再有任何重疊的埠範圍。 ) 
 
 選取應用程式共用的新埠範圍後，您可以使用 Set-CsConferencingServer Cmdlet 進行變更。 您不需要在應用程式伺服器或中繼伺服器上進行這項變更，因為這些伺服器不會處理應用程式共用流量。 如果您決定要重新指派用於音效流量的連接埠，只要在這些伺服器上變更連接埠值即可。
 
-若要在單一會議服務器上修改應用程式共用的埠值，請在商務用 Skype Server 管理命令介面中執行類似以下的命令：
+若要在單一會議服務器上修改應用程式共用的埠值，請從商務用 Skype Server 管理命令介面中執行類似以下的命令：
 
-    Set-CsConferenceServer -Identity ConferencingServer:atl-cs-001.litwareinc.com -AppSharingPortStart 40803 -AppSharingPortCount 8348
+  **Set-CsConferenceServer-Identity ConferencingServer： atl-cs-001.litwareinc.com-AppSharingPortStart 40803-AppSharingPortCount 8348**
 
 如果您想要在所有會議服務器上進行這些變更，可以改為執行下列命令：
 
-    Get-CsService -ConferencingServer | ForEach-Object {Set-CsConferenceServer -Identity $_.Identity -AppSharingPortStart 40803 -AppSharingPortCount 8348}
+  **Get-CsService-ConferencingServer |ForEach-Object {Set-CsConferenceServer-Identity $ _。Identity-AppSharingPortStart 40803-AppSharingPortCount 8348}**
 
 變更埠設定之後，您應該停止並重新啟動每個變更所影響的服務。
 
 您的會議伺服器、應用程式伺服器和中繼伺服器並不是一定要共用完全相同的連接埠範圍；唯一必要的需求是您要在所有的伺服器上預留唯一的連接埠範圍。不過，如果您在所有伺服器上使用同一組連接埠，通常會讓管理工作更為輕鬆。
 
-## <a name="configure-a-quality-of-service-policy-in-skype-for-business-server-for-your-conferencing-application-and-mediation-servers"></a>針對會議、應用程式及轉送伺服器設定商務用 Skype Server 中的服務品質原則
+## <a name="configure-a-quality-of-service-policy-in-skype-for-business-server-for-your-conferencing-application-and-mediation-servers"></a>在商務用 Skype Server 中為會議、應用程式及轉送伺服器設定服務品質原則
 
 設定埠範圍可確保指定類型的所有流量 (，以協助使用服務品質。例如，所有音訊流量) 一組相同的埠。 這可讓系統輕鬆識別及標記指定的封包：如果為音訊流量保留埠49152，則透過埠49152的任何封包都會以 DSCP 代碼標示，表示這是音訊封包。 反過來，這可讓路由器將封包識別為音訊封包，並提供比未標記的封包更高的優先順序 (例如，用來將檔案從一部伺服器複製到另一個) 的封包。
 
 不過，只要將一組埠限制在特定類型的流量中，就不會導致透過以適當 DSCP 代碼標示的埠傳送傳輸。 除了定義埠範圍之外，您還必須建立服務原則的品質，指定要與每個埠範圍相關聯的 DSCP 碼。 若為商務用 Skype Server，通常表示建立兩個原則：一個用於音訊，另一個用於影片。
 
-使用群組原則，可很輕鬆地建立及管理服務品質原則。 您也可以使用本機安全性原則建立這些相同原則 (。 不過，您必須在每個電腦和每一部電腦上重複相同的程式。 ) 您的初始 QoS 原則集合 (一個用於音訊，另一個用於影片) 只適用于執行會議服務器、應用程式伺服器及/或轉送伺服器服務的商務用 Skype 伺服器電腦。 如果所有這些電腦都位於相同的 Active Directory OU 中，您可以只指派新的群組原則物件 (GPO) 給該 OU。 或者，您也可以執行其他步驟，將新的原則設定為指定的電腦;例如，您可以將適當的電腦放在安全性群組中，然後使用群組原則安全性篩選，將 GPO 只套用到該安全性群組。
+使用群組原則，可很輕鬆地建立及管理服務品質原則。 您也可以使用本機安全性原則建立這些相同原則 (。 不過，您必須在每個電腦和每一部電腦上重複相同的程式。 ) 您的初始 QoS 原則集合 (一個用於音訊，另一個用於影片) 只應該套用至商務用 Skype Server 執行會議服務器、應用程式伺服器及/或轉送伺服器服務的電腦。 如果所有這些電腦都位於相同的 Active Directory OU 中，您可以只指派新的群組原則物件 (GPO) 給該 OU。 或者，您也可以執行其他步驟，將新的原則設定為指定的電腦;例如，您可以將適當的電腦放在安全性群組中，然後使用群組原則安全性篩選，將 GPO 只套用到該安全性群組。
 
 若要建立服務品質原則以管理音訊，請登入已安裝群組原則管理的電腦。 開啟群組原則管理 (按一下 [ **開始**]，指向 [系統 **管理工具**]，然後按一下 [ **群組原則管理** ]) 然後完成下列程式：
 
-1.  在群組原則管理中，找出要用來建立新原則的容器。 例如，如果您所有的商務用 Skype Server 電腦都位於名為商務用 Skype Server 的 OU 中，則應該在商務用 Skype Server OU 中建立新的原則。
+1.  在群組原則管理中，找出要用來建立新原則的容器。 例如，如果您的所有商務用 Skype Server 電腦都位於名為商務用 Skype Server 的 OU 中，則應該在商務用 Skype Server OU 中建立新的原則。
 
 2.  以滑鼠右鍵按一下適當的容器，然後按一下 [ **在這個網域中建立 GPO]，並在這裡連結**。
 
-3.  在 [ **新增 GPO** ] 對話方塊的 [ **名稱** ] 方塊中，輸入新群組原則物件的名稱 (例如， **商務用 Skype Server QoS**) ]，然後按一下 **[確定]**。
+3.  在 [**新增 GPO** ] 對話方塊的 [**名稱**] 方塊中，輸入新群組原則物件的名稱 (例如，**商務用 Skype Server QoS**) ]，然後按一下 **[確定]**。
 
 4.  以滑鼠右鍵按一下新建立的原則，然後按一下 [ **編輯**]。
 
-5.  在 [群組原則管理編輯器] 中，依序展開 [ **電腦** 設定] 及 [ **原則**]，展開 [ **Windows 設定**]，以滑鼠右鍵按一下 [ **原則] QoS**，然後按一下 [ **建立新原則**]。
+5.  在 [群組原則管理編輯器] 中，依序展開 [**電腦** 設定] 及 [**原則**]，展開 **Windows 設定**，以滑鼠右鍵按一下 **原則 QoS**]，然後按一下 [**建立新原則**]。
 
 6.  在 [**原則型 QoS** ] 對話方塊的 [開始] 頁面上，于 [**名稱**] 方塊中輸入新原則的名稱 (例如，**商務用 Skype Server QoS**) 。 選取 [指定 DSCP 數值]，並將該值設為 **46**。 將 [指定輸出節流閥速率] 保留未選取狀態，然後按 [下一步]。
 
@@ -151,7 +147,7 @@ ms.locfileid: "49800123"
 
 在您建立音訊流量的 QoS 原則之後，您應該先為影片流量建立第二個原則 (並選擇性地，第三個用於管理應用程式共用流量) 的原則。 若要為視訊建立原則，請遵循您建立音訊原則時所使用的相同基本程序，並替換下列項目：
 
-  - 使用不同的 (和唯一的) 原則名稱 (例如， **商務用 Skype Server 影片**) 。
+  - 使用不同的 (和唯一的) 原則名稱 (例如 **商務用 Skype Server 影片**) 。
 
   - 將 DSCP 值設為 **34** 而不是 46。(請注意，DSCP 值不一定要使用 34。唯一的要求是用於視訊和音訊的 DSCP 值必須不同。)
 
@@ -159,25 +155,25 @@ ms.locfileid: "49800123"
 
 如果您決定建立用來管理應用程式共用流量的原則，則必須建立第三個原則，以進行下列替代：
 
-  - 使用不同的 (和唯一的) 原則名稱 (例如， **商務用 Skype Server 應用程式共用**) 。
+  - 使用不同的 (和唯一的) 原則名稱 (例如，**商務用 Skype Server 應用程式共用**) 。
 
   - 將 DSCP 值設為 **24** 而不是 46。(再強調一次，DSCP 值不一定要使用 24。唯一的要求是用於應用程式共用的 DSCP 值必須與視訊或音訊不同。)
 
   - 使用先前設定的影片流量的埠範圍。 例如，如果您有保留埠40803到49151以進行應用程式共用，請將埠範圍設定為： **40803:49151**。
 
-在您的商務用 Skype Server 電腦上重新整理群組原則後，您建立的新原則將不會生效。 雖然群組原則本身會定期重新整理，但您可以在需要重新整理群組原則的每部電腦上執行下列命令，以強制立即重新整理：
+在您的商務用 Skype Server 電腦上重新整理群組原則之前，您建立的新原則將不會生效。 雖然群組原則本身會定期重新整理，但您可以在需要重新整理群組原則的每部電腦上執行下列命令，以強制立即重新整理：
 
-    Gpupdate.exe /force
+  **Gpupdate.exe/force**
 
-您可以從商務用 Skype Server 管理命令介面或任何執行于系統管理員認證的命令視窗中執行此命令。 若要以系統管理員憑證執行命令視窗，請按一下 [開始]，以滑鼠右鍵按一下 [命令提示字元]，然後按一下 [以系統管理員身分執行]。
+您可以從商務用 Skype Server 管理命令介面或任何執行系統管理員認證的命令視窗中執行此命令。 若要以系統管理員憑證執行命令視窗，請按一下 [開始]，以滑鼠右鍵按一下 [命令提示字元]，然後按一下 [以系統管理員身分執行]。
 
 若要確認已套用新的 QoS 原則，請執行下列操作：
 
-1.  在商務用 Skype Server 電腦上，按一下 [ **開始**]，然後按一下 [ **執行**]。
+1.  在商務用 Skype Server 電腦上，按一下 [**開始**]，然後按一下 [**執行**]。
 
 2.  在 [ **執行** ] 對話方塊中，輸入 **regedit**，然後按 enter。
 
-3.  在登錄編輯程式中，依序展開 [ **電腦**]、[ **HKEY \_ 本機 \_ 電腦**]、[ **軟體**]、[ **原則**] 及 [ **Microsoft**]，展開 [ **Windows**]，然後按一下 [ **QoS**]。 在 [ **QoS** 您應該會看到您剛才建立之每個 QoS 原則的登錄機碼。 例如，如果您建立兩個新的原則 (一個名為商務用 Skype Server 音訊 QoS，另一個名為商務用 Skype Server 影片 QoS) ，您應該會看到商務用 Skype Server 音訊 QoS 和商務用 Skype Server 影片 QoS 的登錄專案。
+3.  在 [登錄編輯程式] 中，依序展開 [**電腦**]、[ **HKEY \_ 本機 \_ 電腦**]、[**軟體**]、[**原則**] 和 [ **Microsoft**]，展開 **Windows**，然後按一下 [ **QoS**]。 在 [ **QoS** 您應該會看到您剛才建立之每個 QoS 原則的登錄機碼。 例如，如果您建立兩個新的原則 (一個名為商務用 Skype Server 音訊 QoS 和另一個名為商務用 Skype Server 的影片 QoS) ，您應該會看到商務用 Skype Server 音訊 QoS 和商務用 Skype Server 視頻 QoS 的登錄專案。
 
 為幫助確保網路封包標示適當的 DSCP 值，您也應該要在每部電腦上建立新的登錄項目，請完成下列程序：
 

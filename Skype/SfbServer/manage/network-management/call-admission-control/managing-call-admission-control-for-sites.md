@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 網站是指通話許可控制 (CAC)、E9-1-1 和媒體旁路部署的每一個網路地區內的辦公室或位置。
-ms.openlocfilehash: 0b339f15e53dd94bda655884f70c041f9da9e5a8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 39b9f4f82686a1ab4947e6d9b2175570615c84b65b8c7c0aa4cbbba45957e35d
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118562"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590997"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>在商務用 Skype Server 中的網站管理通話許可控制
 
@@ -24,17 +24,17 @@ ms.locfileid: "51118562"
 
 ## <a name="configure-network-site-links"></a>設定網路站台連結
 
-在通話許可控制 (CAC) 組態中，您可以建立網路網站間原則以定義直接連結的網站之間的頻寬限制。 當網路網站共用直接連結時，您可以定義這兩個網站之間音訊與視訊連線的頻寬限制。 您無法使用商務用 Skype Server 控制台來設定網路網站原則，只能使用來自商務用 Skype Server 管理命令介面的 Cmdlet 來執行此動作。 您可以建立、修改及移除網路站台連結 (也稱為從商務用 Skype Server 管理命令介面) 網路內部網站原則。
+在通話許可控制 (CAC) 組態中，您可以建立網路網站間原則以定義直接連結的網站之間的頻寬限制。 當網路網站共用直接連結時，您可以定義這兩個網站之間音訊與視訊連線的頻寬限制。 您無法使用商務用 Skype Server 控制台設定網路網站原則，只能使用來自商務用 Skype Server 管理命令介面的 Cmdlet 來執行此動作。 您可以建立、修改及移除網路站台連結 (也稱為從商務用 Skype Server 管理命令介面) 網路內部網站原則。
 
 ### <a name="to-create-a-network-site-link"></a>若要建立網路網站連結
 
 1.  以 RTCUniversalServerAdmins 群組成員的身分或必要的使用者權限，登入安裝商務用 Skype Server 管理命令介面的電腦。
 
-2.  啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 伺服器**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2.  啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype Server**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
 
 3.  在命令提示字元中輸入下列命令，其中的值換成您組態適用的有效值：
     
-        New-CsNetworkInterSitePolicy -Identity Reno_Portland -NetworkSiteID1 Reno -NetworkSiteID2 Portland -BWPolicyProfileID LowBWLimits
+     **CsNetworkInterSitePolicy-Identity Reno_Portland-NetworkSiteID1 雷諾-NetworkSiteID2 上的 BWPolicyProfileID LowBWLimits**
     
     這個範例會建立名為雷諾的新網路站台連結 \_ ，此連結會設定雷諾和上點網路網站之間的頻寬限制。 網路網站與頻寬原則設定檔在執行此命令前即必須存在。
 
@@ -44,11 +44,11 @@ ms.locfileid: "51118562"
 
 1.  以 RTCUniversalServerAdmins 群組成員的身分或必要的使用者權限，登入安裝商務用 Skype Server 管理命令介面的電腦。
 
-2.  啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 伺服器**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2.  啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype Server**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
 
 3.  使用 **Set-CsNetworkInterSitePolicy** Cmdlet 來修改某個網路網站連結的內容。 您可以修改相連網站的其中一端網站 (或兩端網站都修改)，並且可以修改與連結相關聯的頻寬原則設定檔。 以下是修改名為雷諾上海之網站連結的頻寬原則設定檔的範例 \_ ：
     
-        Set-CsNetworkInterSitePolicy -Identity Reno_Portland -BWPolicyProfileID HighBWLimits
+    **Set-CsNetworkInterSitePolicy-Identity Reno_Portland-BWPolicyProfileID HighBWLimits**
 
 如需詳細的參數描述，請參閱 [Set-CsNetworkInterSitePolicy](/powershell/module/skype/Set-CsNetworkInterSitePolicy)。
 
@@ -57,11 +57,11 @@ ms.locfileid: "51118562"
 
 1.  以 RTCUniversalServerAdmins 群組成員的身分或必要的使用者權限，登入安裝商務用 Skype Server 管理命令介面的電腦。
 
-2.  啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 伺服器**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2.  啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype Server**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
 
 3.  使用 **Remove-CsNetworkInterSitePolicy** Cmdlet 來移除網路網站連結。 下列範例會刪除雷諾 \_ 上海網路站台連結：
     
-        Remove-CsNetworkInterSitePolicy -Identity Reno_Portland
+    **Remove-CsNetworkInterSitePolicy 識別碼 Reno_Portland**
 
 如需詳細的參數描述，請參閱 [Remove-CsNetworkInterSitePolicy](/powershell/module/skype/Remove-CsNetworkInterSitePolicy)。
 
@@ -74,13 +74,13 @@ ms.locfileid: "51118562"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **網站**]。
 
 4.  在 [網站] 頁面上，按一下您要檢視的網站。
  
-    > [!NOTE]  
+    > [!NOTE]
     > 您一次僅可檢視一個網站的網站資訊。
 
 5.  在 [編輯] 功能表上，按一下 [顯示詳細資料]。
@@ -88,23 +88,23 @@ ms.locfileid: "51118562"
 
 ### <a name="viewing-network-site-information-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 來查看網路網站資訊
 
-您可以使用 Windows PowerShell 和 Get-CsNetworkSite Cmdlet 來查看網路網站資訊。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 
+您可以使用 Windows PowerShell 和 Get-CsNetworkSite Cmdlet 來查看網路網站資訊。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話執行此 Cmdlet。 
 
 ### <a name="to-view-network-site-information"></a>若要檢視網路網站資訊
 
-  - 若要查看所有網路網站的相關資訊，請在商務用 Skype Server 管理命令介面中輸入下列命令，然後按 ENTER 鍵：
+  - 若要查看所有網路網站的相關資訊，請在商務用 Skype Server 管理命令介面中輸入下列命令，然後按 enter：
     
-        Get-CsNetworkSite
+    **Get-CsNetworkSite**
     
     如此將傳回類似如下的資訊：
     
-        Identity          : Redmond
-        NetworkSiteID     : Redmond
-        Description       :
-        NetworkRegionID   : Pacific Northwest
-        BypassID          : 3b232b84-2c1d-4da2-8181-e9330bafebe9
-        BWPolicyProfileID :
-        LocationPolicy    :
+    身分識別： Redmond<br/>
+    NetworkSiteID： Redmond<br/>
+    描述：<br/>
+    NetworkRegionID：太平洋西北部<br/>
+    BypassID：3b232b84-2c1d-4da2-8181-e9330bafebe9<br/>
+    BWPolicyProfileID :<br/>
+    Microsoft.rtc.management.writableconfig.policy.location.locationpolicy<br/>
 
 如需詳細資訊，請參閱＜[Get-CsNetworkSite](/powershell/module/skype/Get-CsNetworkSite)＞Cmdlet 的說明主題。
 
@@ -117,7 +117,7 @@ ms.locfileid: "51118562"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **網站**]。
 
@@ -151,7 +151,7 @@ ms.locfileid: "51118562"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **網站**]。
 
@@ -175,7 +175,7 @@ ms.locfileid: "51118562"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **網站**]。
 

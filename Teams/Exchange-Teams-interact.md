@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d908373cf3e8df6429823d9245cf53a52fbf901
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: e2088272756886b210ae99b32f8c3148d237b10ccb367702745f0327cc4e2896
+ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796537"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "54590777"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 和 Microsoft Teams 如何互動
 
@@ -45,12 +45,12 @@ ms.locfileid: "52796537"
 
 **支援動作：**
 
-| 使用者的郵箱代管在：                                        | 電子文件探索       | 法務&nbsp;保存措施    | 保留  | 團隊和頻道管理 | 建立和檢視 Teams 中的會議 | 修改使用者設定檔圖片 | 通訊記錄 | 管理連絡人 | 存取 Outlook 連絡人 | 語音信箱  | 新增和設定連接器 | 新增和設定索引標籤 | 新增和設定機器人 |
-|---------------------------------------------------------------------|------------------|--------------------|------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------|------------------------------|------------------------|------------------------|
-| **Exchange Online**                                                 | 是 <sup>1</sup> | 是 <sup>1</sup>   | 是        | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是        | 是                          | 是                    | 是                    |
-| **Exchange Online 專用 vNext**                                 | 是 <sup>1</sup> | 是 <sup>1</sup>   | 是        | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是        | 是                          | 是                    | 是                    |
-| **Exchange Online 專用 – 舊版** (需要同步到 Azure AD)  | 是 <sup>1</sup> | 是 <sup>1，2</sup> | 是 <sup>3</sup> | 是                   | 否                                | 否                          | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>                   | 是                    | 是                    |
-| **Exchange 內部部署** (同步到 Azure AD) | 是 <sup>1，9</sup> | 是 <sup>1</sup>   | 是 <sup>3</sup> | 是                   | 是 <sup>8</sup>         | 是                          | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>                   | 是                    | 是                    |
+| 使用者的郵箱代管在：                                       | 電子文件探索         | 法務&nbsp;保存措施    | 保留        | 團隊和頻道管理 | 建立和檢視 Teams 中的會議 | 修改使用者設定檔圖片 | 通訊記錄 | 管理連絡人 | 存取 Outlook 連絡人 | 語音信箱        | 新增和設定連接器 | 新增和設定索引標籤 | 新增和設定機器人 |
+|--------------------------------------------------------------------|--------------------|--------------------|------------------|-----------------------|-----------------------------------|-----------------------------|--------------|-----------------|-------------------------|------------------|------------------------------|------------------------|------------------------|
+| **Exchange Online**                                                | 是 <sup>1</sup>   | 是 <sup>1</sup>   | 是              | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是              | 是                          | 是                    | 是                    |
+| **Exchange Online 專用 vNext**                                | 是 <sup>1</sup>   | 是 <sup>1</sup>   | 是              | 是                   | 是                               | 是<sup>7</sup>             | 是          | 是             | 是 <sup>6</sup>        | 是              | 是                          | 是                    | 是                    |
+| **Exchange Online 專用 – 舊版** (需要同步到 Azure AD) | 是 <sup>1</sup>   | 是 <sup>1，2</sup> | 是 <sup>3</sup> | 是                   | 否                                | 否                          | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>             | 是                    | 是                    |
+| **Exchange 內部部署** (同步到 Azure AD)                        | 是 <sup>1，9</sup> | 是 <sup>1</sup>   | 是 <sup>3</sup> | 是                   | 是 <sup>8</sup>                  | 是<sup>10</sup>            | 是          | 是             | 否                      | 是 <sup>4</sup> | 是 <sup>5</sup>             | 是                    | 是                    |
 
 <sup>1</sup> 所有代管選項都支援 eDiscovery 和針對管道訊息的合規性保留。
 
@@ -64,11 +64,13 @@ ms.locfileid: "52796537"
 
 <sup>6</sup> 僅限預設連絡人資料夾中的連絡人。 不支援存取其他連絡人資料夾或子資料夾。
 
-<sup>7</sup> Teams 接受由租用戶管理員設定的 [[Outlook 網頁版信箱原則]](/powershell/module/exchange/client-access/set-owamailboxpolicy) 設定，來控制使用者是否可以變更個人資料相片。 如果在策略中關閉 **-SetPhotoEnabled** 設定，使用者就無法新增、變更或移除其個人檔案圖片，因此如果系統管理員變更相片，就不會將 porfile 圖片同步至團隊。
+<sup>7</sup> Teams 接受由租用戶管理員設定的 [[Outlook 網頁版信箱原則]](/powershell/module/exchange/client-access/set-owamailboxpolicy) 設定，來控制使用者是否可以變更個人資料相片。 如果在策略中關閉 **-SetPhotoEnabled** 設定，使用者就無法新增、變更或移除其設定檔圖片，因此如果系統管理員變更相片，設定檔圖片就不會同步至團隊。
 
 <sup>8</sup> 您需要滿足[為內部部署主控的的郵箱建立和檢視會議的需求](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises)列出的要求。
 
 <sup>9</sup>亦須至少Exchange Online方案 1 授權。 詳細資訊，請參閱[搜尋Teams使用者的聊天資料](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
+
+<sup>10</sup>個內部部署使用者可以Teams更新其設定檔圖片，即使 web 信箱Outlook設定為 `SetPhotoEnabled` `false` 。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft Teams 的需求
 

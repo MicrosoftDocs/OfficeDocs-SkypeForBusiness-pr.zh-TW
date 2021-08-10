@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
-description: 規劃商務用 Skype Server Enterprise Voice 中的通話駐留，讓通話保持通話，並將來電轉接至部門。 包括容量規劃、支援的通話，以及支援的用戶端。
-ms.openlocfilehash: c324e8d61f6d0e9e67870f05597a9157965a3eb3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在商務用 Skype Server 企業語音中規劃通話駐留，讓通話保持通話，並將通話轉接至部門。 包括容量規劃、支援的通話，以及支援的用戶端。
+ms.openlocfilehash: 40f6b08512bd76401a8bb881429737f0da53be952e2774099e82396522b79aeb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825923"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54306864"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>在商務用 Skype 中規劃通話駐留
  
-規劃商務用 Skype Server Enterprise Voice 中的通話駐留，讓通話保持通話，並將來電轉接至部門。 包括容量規劃、支援的通話，以及支援的用戶端。
+在商務用 Skype Server 企業語音中規劃通話駐留，讓通話保持通話，並將通話轉接至部門。 包括容量規劃、支援的通話，以及支援的用戶端。
   
 通話駐留應用程式可讓企業語音使用者執行下列作業：
   
@@ -35,20 +35,20 @@ ms.locfileid: "49825923"
     
 - 保留通話，並將原始接聽電話保留空閒狀態供其他電話使用。
     
-當使用者公園通話時，商務用 Skype 伺服器會將來電轉接到暫時號碼（稱為軌道），該呼叫會保留，直到被取回或超時為止。商務用 Skype 伺服器會將軌道傳送給停用通話的使用者。 若要取得寄存通話，使用者可以撥打軌道號碼，或按一下 [交談] 視窗中的 [軌道] 連結或按鈕。 
+當使用者公園通話時，商務用 Skype Server 會將來電轉接至暫時號碼（稱為軌道），在此呼叫會保留，直到被取回或超時為止。商務用 Skype Server 會將軌道傳送給停用通話的使用者。 若要取得寄存通話，使用者可以撥打軌道號碼，或按一下 [交談] 視窗中的 [軌道] 連結或按鈕。 
   
 停用通話的使用者可以使用外部機制（如立即訊息 (IM) 或分頁系統）來通知人員取得通話，以與其他人溝通軌道號碼。 停用通話的使用者可以讓 [交談] 視窗保持開啟，以在檢索來電時收到通知。
   
-因為軌道範圍是全域唯一的，所以如果路由設定正確，可以從任何商務用 Skype Server 網站或 PBX 電話取回通話。 如果沒有人在可設定的時間內取回通話，則呼叫會傳回寄存其的人員。 如果此人沒有回答回電，則會將來電轉接至 fallback 目的地（例如，如果已設定，則為操作員）。 您可以設定來電響鈴的次數，再從一到十次轉接。 如果沒有人接聽轉接的電話，則通話會中斷連線。 檢索或中斷通話呼叫時，會釋放軌道。
+因為軌道範圍是全域唯一的，所以如果路由設定正確，可以從任何商務用 Skype Server 的網站或 PBX 電話中取得通話。 如果沒有人在可設定的時間內取回通話，則呼叫會傳回寄存其的人員。 如果此人沒有回答回電，則會將來電轉接至 fallback 目的地（例如，如果已設定，則為操作員）。 您可以設定來電響鈴的次數，再從一到十次轉接。 如果沒有人接聽轉接的電話，則通話會中斷連線。 檢索或中斷通話呼叫時，會釋放軌道。
   
-當您部署通話駐留時，您必須保留駐留通話的分機號碼範圍。 這些分機必須是虛擬分機：沒有指派使用者或電話的分機號碼。 然後，您可以使用分機號碼範圍設定通話駐留軌道表格，並指定哪些應用程式服務主控處理每個範圍的通話駐留應用程式。 每個前端集區在對應的後端伺服器上都有一個呼叫駐留表，用來管理集區上寄存的呼叫。 軌道範圍的清單儲存在中央管理存放區中，用來將軌道式路由傳送至目的地集區。 部署及設定通話駐留應用程式的每個商務用 Skype 伺服器集區，都可以有一或多個軌道範圍。 軌道範圍必須在整個商務用 Skype Server 部署中全域唯一。 
+當您部署通話駐留時，您必須保留駐留通話的分機號碼範圍。 這些分機必須是虛擬分機：沒有指派使用者或電話的分機號碼。 然後，您可以使用分機號碼範圍設定通話駐留軌道表格，並指定哪些應用程式服務主控處理每個範圍的通話駐留應用程式。 每個前端集區在對應的後端伺服器上都有一個呼叫駐留表，用來管理集區上寄存的呼叫。 軌道範圍的清單儲存在中央管理存放區中，用來將軌道式路由傳送至目的地集區。 在其中部署及設定通話駐留應用程式的每個商務用 Skype Server 集區，都可以有一個或多個軌道範圍。 軌道範圍在整個商務用 Skype Server 部署中必須是全域唯一的。 
   
 您也可以設定其他通話駐留設定，例如，在通話超時的位置，以及電話上的人員是否會在寄存時，是否會聽到音樂。 您也可以在通話處於保留狀態時，指定要播放的音樂檔案。
   
 > [!NOTE]
-> 在商務用 Skype 伺服器的嚴重損壞復原過程中，不會備份通話駐留的自訂音樂暫止檔案，而且如果上傳至集區的檔案損毀、損毀或清除，將會遺失。 請永遠為通話保留，保留您為通話保留所上傳之自訂音樂暫止檔案的個別備份副本。 
+> 如果上傳至集區的檔案損毀、損毀或已被清除，則不會將通話駐留的自訂封存暫止檔案備份為商務用 Skype Server 嚴重損壞修復程式的一部分。 請永遠為通話保留，保留您為通話保留所上傳之自訂音樂暫止檔案的個別備份副本。 
   
-通話駐留應用程式是 Enterprise Voice 的元件。 當您部署企業語音時，會自動安裝通話駐留應用程式並加以啟用。 不過，您必須先設定企業語音管理員，並透過語音原則為使用者啟用通話駐留，才可使用通話保留。
+通話駐留應用程式是企業語音的元件。 當您部署企業語音時，會自動安裝及啟用通話駐留應用程式。 不過，企業語音管理員必須設定它，並透過語音原則為使用者啟用通話駐留，您才能使用通話駐留。
   
 ## <a name="deployment-and-requirements"></a>部署和需求
 
@@ -56,7 +56,7 @@ ms.locfileid: "49825923"
   
 ### <a name="software-requirements"></a>軟體需求
 
-部署通話駐留的所有前端伺服器和 Standard Edition 伺服器都必須為執行 Windows Server 2008 R2 的伺服器安裝 Windows Media Format Runtime （或執行 Windows Server 2012 或 Windows Server 2012 R2 之伺服器的 Microsoft Media Foundation）。 若為 Windows Server 2008 R2，Windows Media Format Runtime 會安裝為 Windows 桌面體驗的一部分。 Windows media Audio ( 的 windows Media Format Runtime 或 Microsoft Media Foundation 是必要的功能。) 通話駐留的檔案會對等候音樂播放。
+部署通話駐留的所有前端伺服器和 Standard Edition 伺服器都必須為執行 Windows Server 2012 或 Windows Server 2012 R2 的伺服器安裝 Windows 媒體格式執行時間，以供執行 Windows Server 2008 R2 的伺服器或 Microsoft Media Foundation 使用。 針對 Windows Server 2008 R2，Windows Media Format Runtime 是以 Windows 桌面體驗的一部分安裝。 Windows媒體格式執行時間或 Microsoft media Foundation 是 Windows 媒體音訊的必要 (。呼叫駐留的 wma) 檔案會對等候音樂播放。
   
 ### <a name="port-requirements"></a>連接埠需求
 
@@ -67,7 +67,7 @@ ms.locfileid: "49825923"
   
 ### <a name="audio-file-requirements"></a>音訊檔需求
 
-通話駐留應用程式僅支援 Windows Media Audio ( 的 wma) 檔案用於等候音樂。 您可以使用 Microsoft Expression Encoder 4 自訂等候音樂的檔案。 若要下載運算式編碼器4，請參閱   ["運算式編碼器 4"](https://go.microsoft.com/fwlink/p/?linkId=202843)。 使用此工具可將檔案轉換成 .wma 格式。 通話駐留等候音樂檔案的建議格式為 Media Audio 9、44 kHz、16 位元、Mono、CBR、32 kbps。
+通話駐留應用程式僅支援 Windows 媒體音訊 () 檔案用於等候音樂。 您可以使用 Microsoft Expression Encoder 4 自訂等候音樂的檔案。 若要下載運算式編碼器4，請參閱   ["運算式編碼器 4"](https://go.microsoft.com/fwlink/p/?linkId=202843)。 使用此工具可將檔案轉換成 .wma 格式。 通話駐留等候音樂檔案的建議格式為 Media Audio 9、44 kHz、16 位元、Mono、CBR、32 kbps。
   
 > [!NOTE]
 > 轉換後的檔案只能以 16 kHz 音頻在電話中播放，即使檔案是以 44 kHz 音頻錄製也一樣。 
@@ -118,7 +118,7 @@ ms.locfileid: "49825923"
     
 - IP 公共區域電話
     
-- 連線至商務用 Skype 伺服器基礎結構的非 IP 電話，包括通用區域電話和專用交換機 (PBX) 電話
+- 連接至商務用 Skype Server 基礎結構的非 IP 電話，包括通用區域電話和專用交換機 (PBX) 電話
     
 ## <a name="call-park-capacity-planning"></a>通話駐留容量規劃
 
@@ -129,7 +129,7 @@ ms.locfileid: "49825923"
   
 **通話駐留使用者模型**
 
-|**計量**|**每個前端伺服器集區  <br/>  (8 部前端伺服器)**|**每個 Standard Edition server**|
+|**計量**|**每個前端伺服器集區  <br/>  (8 部前端伺服器)**|**根據 Standard Edition 伺服器**|
 |:-----|:-----|:-----|
 |駐留率  <br/> |每分鐘 8 個  <br/> |每分鐘 1 個  <br/> |
 |擷取駐留通話率  <br/> |每分鐘 8 個  <br/> |每分鐘 1 個  <br/> |
