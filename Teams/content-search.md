@@ -14,15 +14,15 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: 瞭解如何在 Microsoft 365 合規性中心使用內容搜尋Microsoft Teams搜尋儲存在 Exchange Online、SharePoint Online、商務用 OneDrive 和 OneNote 中的內容。
+description: 瞭解如何在 Microsoft 365 合規性中心 中使用內容搜尋Microsoft Teams搜尋儲存在 Exchange Online、SharePoint Online、商務用 OneDrive 和 OneNote 中的內容。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb63f3668ef03cdaf760a24ae1df0a815e7f282d
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 6810355304371564a2a305c82290df7667f5efd41889e598021636cc9ccd11d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855802"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278211"
 ---
 # <a name="use-content-search-in-microsoft-teams"></a>在搜尋中Microsoft Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "52855802"
 
 若要深入瞭解，請參閱在 Microsoft 365[中搜尋內容](/microsoft-365/compliance/content-search)。
 
-例如，針對您的製造規格信箱和製造規格 SharePoint 網站使用內容搜尋，您可以搜尋 Exchange 中的 Teams 標準頻道交談、從 SharePoint Online 上傳檔案和修改，以及 OneNote 變更。
+例如，針對您的製造規格信箱和製造規格 SharePoint 網站使用內容搜尋，您可以搜尋 Exchange 中的 Teams 標準頻道交談、SharePoint Online 的檔案上傳和修改，以及 OneNote 變更。
 
 您也可以在內容搜尋中新增查詢 **準則** ，以縮小結果的返回範圍。 在上例中，您可以尋找使用關鍵字「**新工廠規格」** 的內容。
 
@@ -52,9 +52,9 @@ Teams不支援單一頻道的內容搜尋，因此必須搜尋整個團隊。 �
 
 ### <a name="include-private-channel-files-in-a-content-search"></a>在內容搜尋中納入私人頻道檔案
 
-執行這些步驟之前，請安裝 SharePoint[管理命令殼，然後連線至 SharePoint Online。](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+執行這些步驟之前，請安裝[SharePoint管理命令殼，然後連線至 SharePoint Online。](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
-1. 執行下列操作，以取得與小組中私人SharePoint相關聯的所有網站集合清單。
+1. 執行下列操作，以取得小組中SharePoint私人頻道的所有網站集合清單。
 
     ```PowerShell
     Get-SPOSite

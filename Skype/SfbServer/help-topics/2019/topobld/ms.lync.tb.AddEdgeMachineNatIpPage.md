@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 如果由網路位址轉譯 (NAT) 來轉譯此 Edge 集區的公用 IP 位址，您必須提供要轉譯的公用 IP 位址。這應該是 A/V Edge Service 的外部 IP 位址。
-ms.openlocfilehash: e9feffeab5dcd4d13b411c831e98cf9548c23c3b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 60c2c607ba69e6995cc55cfaf654a5e4de03c8de0a992c389249b96dc2d1af90
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835963"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294360"
 ---
 # <a name="add-edge-machine-nat-ip"></a>新增 Edge 電腦 NAT IP
  

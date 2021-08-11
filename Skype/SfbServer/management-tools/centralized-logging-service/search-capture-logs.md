@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 2015 中的集中式記錄服務所建立的搜尋捕獲記錄檔
+title: 由商務用 Skype Server 2015 中的集中式記錄服務所建立的搜尋捕獲記錄檔
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
-description: 摘要：瞭解如何在商務用 Skype Server 2015 中搜尋及讀取集中式記錄服務捕獲記錄。
-ms.openlocfilehash: 1a030e18f9e59fa26c4bd51aa8c6e69dd96004ba
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解如何在商務用 Skype Server 2015 中搜尋及讀取集中式記錄服務捕獲記錄檔。
+ms.openlocfilehash: f1136166798b1f0570f18342cce04a51957b4cace83319183889eff3c98f7298
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294200"
 ---
-# <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的集中式記錄服務所建立的搜尋捕獲記錄檔
+# <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>由商務用 Skype Server 2015 中的集中式記錄服務所建立的搜尋捕獲記錄檔
  
-**摘要：** 瞭解如何在商務用 Skype Server 2015 中搜尋及讀取集中式記錄服務捕獲記錄。
+**摘要：** 瞭解如何在2015商務用 Skype Server 中搜尋及讀取集中式記錄服務捕獲記錄檔。
   
 集中式記錄服務中的搜尋功能非常有用，而且很強大，原因如下： 
   
@@ -39,7 +39,7 @@ ms.locfileid: "49835123"
   
 若要取得集中式記錄服務的最大好處，您必須充分瞭解如何設定搜尋，只從電腦及集區記錄中只傳回追蹤訊息，這些記錄是與您正在搜尋之問題相關的。 問題
   
-若要使用商務用 Skype Server 管理命令介面來執行集中式記錄服務搜尋功能，您必須是 CsAdministrator 或 CsServerAdministrator 角色型存取控制 (RBAC) 安全性群組的成員，或是包含這兩個群組之任一個自訂 RBAC 角色的成員。 若要傳回所有獲指派此 Cmdlet 的 RBAC 角色清單 (包括您自行建立的任何自訂 RBAC 角色) ，請從商務用 Skype Server 管理命令介面或 Windows PowerShell 提示中執行下列命令：
+若要使用商務用 Skype Server 管理命令介面執行集中式記錄服務搜尋功能，您必須是 CsAdministrator 或 CsServerAdministrator 角色型存取控制 (RBAC) 安全性群組的成員，或是包含這兩個群組之任一個自訂 RBAC 角色的成員。 若要傳回所有獲指派此 Cmdlet 的 rbac 角色清單 (包括您自行建立的任何自訂 RBAC 角色) ，請從商務用 Skype Server 管理命令介面或 Windows PowerShell 提示中執行下列命令：
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -55,7 +55,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 ### <a name="to-run-a-basic-search-by-using-the-centralized-logging-service"></a>使用集中式記錄服務執行基本搜尋
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 2. 請確定您已在全域範圍的部署中執行 AlwaysOn 案例，然後在命令提示字元處輸入下列命令：
     
@@ -110,7 +110,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-run-a-search-by-using-time-parameters"></a>使用時間參數執行搜尋
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 2. 根據預設，搜尋的時間特有參數的開始時間是在您啟動搜尋之後五分鐘之前的25分鐘。 換句話說，如果我們在 4:00:00 PM 進行搜尋，則搜尋開始時間會顯示為 3:35:00 PM 至 4:05:00 PM。 如果您需要在目前的時間之前搜尋60分鐘或3小時，請使用-StartTime 參數，並設定日期和時間字串，以表示您想要搜尋開始的時間。 
     
@@ -141,7 +141,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ### <a name="to-run-an-advanced-search-by-using-other-criteria-and-matching-options"></a>使用其他準則及符合選項執行高級搜尋
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 2. 若要執行命令來收集特定元件的追蹤，請輸入下列專案：
     
@@ -177,16 +177,16 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
 ## <a name="read-capture-logs-from-the-centralized-logging-service"></a>從集中式記錄服務讀取捕獲記錄檔
 
-在您執行搜尋後，您就可以充分利用集中式記錄服務，您可以用來追蹤已報告問題的檔案。 您可以使用許多方式來讀取檔案。 輸出檔是標準的文字格式，您可以使用 Notepad.exe 或任何其他可讓您開啟及讀取文字檔的程式。 針對較大的檔案和更複雜的問題，您可以使用類似 Snooper.exe 的工具，以用於讀取及分析集中式記錄服務的記錄輸出。 Snooper 包含可供個別下載之調試工具。 您可以在以下位置下載調試工具： [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) 。 當您安裝調試工具時，不會建立簡短的剪下及功能表項目目。 安裝調試工具之後，請開啟 Windows Explorer、命令列視窗或商務用 Skype Server 管理命令介面，然後移至 (預設位置的目錄) C:\Program Files\Skype for Business Server 2015 \ 調試工具。 在 [Snooper.exe] 或 [輸入 Snooper.exe] 中按兩下，如果使用命令列或商務用 Skype Server 管理命令介面，請按 ENTER。
+在您執行搜尋後，您就可以充分利用集中式記錄服務，您可以用來追蹤已報告問題的檔案。 您可以使用許多方式來讀取檔案。 輸出檔是標準的文字格式，您可以使用 Notepad.exe 或任何其他可讓您開啟及讀取文字檔的程式。 針對較大的檔案和更複雜的問題，您可以使用類似 Snooper.exe 的工具，以用於讀取及分析集中式記錄服務的記錄輸出。 Snooper 包含可供個別下載之調試工具。 您可以在以下位置下載調試工具： [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) 。 當您安裝調試工具時，不會建立簡短的剪下及功能表項目目。 安裝調試工具之後，請開啟 Windows Explorer、命令列視窗或商務用 Skype Server 管理命令介面，然後移至 (預設位置) 的目錄預設位置，C:\Program 2015 \ 調試工具。 在 [Snooper.exe] 或 [輸入 Snooper.exe] 中按兩下，如果使用命令列或商務用 Skype Server 管理命令介面，請按 enter。
   
 > [!IMPORTANT]
-> 本主題的目的不是詳細討論和討論疑難排解技術。 疑難排解及其周圍的程式是複雜的主體。 如需疑難排解基本及疑難排解特定工作負載的詳細資訊，請參閱《 Microsoft Lync Server 2010 Resource 工具組手冊》 [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) 。 處理常式和程式仍適用于商務用 Skype Server 2015。 
+> 本主題的目的不是詳細討論和討論疑難排解技術。 疑難排解及其周圍的程式是複雜的主體。 如需疑難排解基本及疑難排解特定工作負載的詳細資訊，請參閱《 Microsoft Lync Server 2010 Resource 工具組手冊》 [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) 。 程式和程式仍適用于商務用 Skype Server 2015。 
   
 ### <a name="to-open-a-log-file-in-snooper"></a>若要在 Snooper 中開啟記錄檔
 
 1. 若要使用 Snooper 及開啟記錄檔，您需要有記錄檔的讀取權。 若要使用 Snooper 和存取記錄檔，您必須是 CsAdministrator 的成員或 CsServerAdministrator 角色型存取控制 (RBAC) 安全性群組，或是包含這兩個群組的自訂 RBAC 角色。 
     
-2. 在安裝調試工具 ( # A0) 之後，使用 Windows Explorer 或從命令列變更目錄至 Snooper.exe 的位置。 根據預設，調試工具位於 C:\Program Files\Skype for Business Server 2015 \ 調試工具。 按兩下或執行 Snooper.exe。
+2. 在安裝調試工具 (LyncDebugTools.msi) 之後，使用 Windows Explorer 或從命令列變更目錄至 Snooper.exe 的位置。 根據預設，調試工具位於 C:\Program Files \ 商務用 Skype Server 2015 \ 調試工具中。 按兩下或執行 Snooper.exe。
     
 3. 開啟 Snooper 後，以滑鼠 **按右鍵 [檔案]，按一下**[ **OpenFile**]，尋找您的記錄檔，選取 [ **開啟** ] 對話方塊中的檔案，然後按一下 [ **開啟**]。
     
@@ -198,7 +198,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
 2. 開啟記錄檔，然後按一下 [ **訊息** ] 索引標籤，在 [ **追蹤** ] 索引標籤上選取 [交談]，或選取一個追蹤元件。
     
-3. 按一下 [ **通話流程**]。
+3. 按一下 [**通話 Flow**]。
     
 > [!NOTE]
 > 如果您按一下的訊息或追蹤不是通話流程的一部分，將不會顯示圖表，而且會在 Snooper 的底部顯示狀態訊息，指出「這封郵件不符合 callfow」。 選擇 [另一封郵件] 或 [追蹤]，如果郵件或追蹤屬於通話流程的一部分，就會顯示通話流程。 

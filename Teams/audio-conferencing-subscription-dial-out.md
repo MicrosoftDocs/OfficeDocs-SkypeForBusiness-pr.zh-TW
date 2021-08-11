@@ -22,12 +22,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 撥出和撥打我通話分鐘數權益。 自 2019 年 12 月 1 日起，每個音訊會議訂閱每個月會為 A 區國家/地區每個使用者提供 60 分鐘。
-ms.openlocfilehash: effd0794a554288634af1634bcf7417050ad16b9
-ms.sourcegitcommit: b52b6aba289396c4fc10dd856817137eb1bc1f67
+ms.openlocfilehash: d532664abee611fe9ced2e744415edb91e3dae03b8aaea36e705d8bed59b10e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51617765"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278231"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>音訊會議訂閱「撥出」/「撥入電話給我」分鐘權益
 
@@ -44,7 +44,7 @@ ms.locfileid: "51617765"
 
 ## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>音訊會議「從會議撥出」&「撥號給我」詳細資料
 
-針對採用音訊會議服務的客戶，Microsoft 提供從指派音訊會議訂閱授權之使用者所組織之會議撥出功能。 撥入未包含在 [A](audio-conferencing-zones.md) 區國家/地區清單中的國家/地區通話，會使用通訊信用額度每分鐘收費。 對於每分鐘計費的 (超出租使用者撥出分鐘數庫的撥出通話，或非區域 [A](audio-conferencing-zones.md) 國家/地區清單) 中目的地的通話，通話及其相關聯的費率是根據通話目的地，而非召集人的居住國家/地區或啟動撥出電話的會議參與者。 例如，如果音訊會議撥出電話是由美國、法國或尚比亞的會議參與者啟動，則撥打到法國的電話號碼 ，即地區 A 國家/地區，將會以相同的每分鐘費率計費。 
+針對採用音訊會議服務的客戶，Microsoft 提供從指派音訊會議訂閱授權之使用者所組織之會議撥出功能。 撥入未包含在 [A](audio-conferencing-zones.md) 區國家/地區清單中的國家/地區通話，會使用通訊信用額度每分鐘收費。 對於每分鐘計費的 (超出租使用者撥出分鐘數庫的撥出通話，或非區域 [A](audio-conferencing-zones.md) 國家/地區清單) 中目的地的通話，通話及其相關聯的費率是根據通話目的地，而非召集人的居住國家/地區或啟動撥出電話的會議參與者。 例如，如果音訊會議撥出電話是由美國、法國或德國的會議參與者所啟動，則撥打到法國的電話號碼 ，即地區 A 國家/地區，將會以相同的每分鐘費率計費。 
 
 
 |會議召集人授權使用位置 |已撥號的目的地 |我可以使用撥出分鐘數分鐘數嗎？|我是否需要通訊信用額度？|

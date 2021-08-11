@@ -18,25 +18,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b91045dae26d14ca1e902812a705e8fa99bdd164
-ms.sourcegitcommit: ea54990240fcdde1fb061489468aadd02fb4afc7
+ms.openlocfilehash: aa5102934cdeadf6b2418ab437bc0be28764307cda075139bfc6435c9d61948e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43779189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278241"
 ---
 # <a name="enhance-my-service"></a>加強我的服務
 
-本文提供您組織使用雲端語音服務之需求概觀。 您可以持續監控雲端語音服務功能，確保為貴組織提供最大的價值。
+本文概觀了為貴組織取得最大雲端語音服務的需求。 您可以持續監控雲端語音服務功能，確保為貴組織帶來最大的價值。
 
 ## <a name="enhance-my-service-overview"></a>增強我的服務概觀
 成功將音訊會議或 電話系統 使用通話方案服務部署到您的組織，並且以品質和可靠性執行服務之後，下一個步驟就是定期評估您是否有機會加強服務。 這是持續服務改進規劃的一部分，也是雲端服務管理的現代化標準。 
 
-若要確保您隨時充分利用服務，最好的方法就是監控[Teams 公用](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)藍圖，以取得貴組織可能感興趣的新功能增強功能。 如果您能夠存取系統管理中心Microsoft 365，您將透過我們的訊息中心收到我們有關新功能和變更功能的定期更新。 
+若要確保您隨時充分利用服務，最好的方法就是監控[Teams 公用](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)藍圖，以取得貴組織可能感興趣的新功能增強功能。 如果您有存取權，Microsoft 365 系統管理中心透過我們的訊息中心定期收到我們關於新功能和變更功能的更新。 
 
-此外，由於組織成長與變更，您應定期重新檢查和更新商務使用案例，以確保服務已配置符合貴組織目前的需求。  在貴組織中建立意見回饋通道，確保您從使用者和內部支援者獲得實際的意見回饋。 這些可以是非正式交談、一般會議，或透過Teams或社群Yammer。 
+此外，由於組織成長與變更，您應定期重新檢查和更新商務使用案例，以確保服務已根據貴組織目前的需求進行配置。  在貴組織中建立意見回饋通道，確保您從使用者和內部支援者取得實際的意見回饋。 這些可以是非正式交談、一般會議，或透過Teams或社群Yammer。 
 
-當您看到提升服務的機會時，請花一些時間正確執行。 重新[探討在 Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md)部署聊天、團隊、頻道和應用程式，並端對端適用相同的指引。 進行小型的漸進式變更時，您不可能需要完整完成所有活動和工作，但您一定要一路評估每一個活動和工作，給自己取得成功結果的最佳機會。
+當您看到提升服務的機會時，請花一些時間正確執行。 重新[探討在 Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md)部署聊天、團隊、頻道和應用程式，並端對端適用相同的指引。 進行小型的漸進式變更時，您不可能需要完整完成所有活動和工作，但您一定要一路評估每個活動和工作，給自己取得成功結果的最佳機會。
 
 
 <table>

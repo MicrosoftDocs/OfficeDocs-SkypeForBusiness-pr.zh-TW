@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格尋找在紐西蘭取得及管理電話號碼Microsoft Teams。
-ms.openlocfilehash: db8cfb0457ab6dea2a32fbe80bfe94001dff2e73
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 8065da758022f1a3b345fc9b20f508ed9ead6fdd7deb0a6ccc353ebd9e710c9a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509984"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278142"
 ---
 # <a name="phone-number-management-for-new-zealand"></a>電話紐西蘭的號碼管理
 

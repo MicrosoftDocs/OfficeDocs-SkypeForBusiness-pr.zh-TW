@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
-description: MonitoredUserSiteLink 表格是支援的表格。 每筆記錄代表兩個使用者網站間的一個連結。
-ms.openlocfilehash: 88b4d385f3c96dc93a519274c584e1f99584982f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: MonitoredUserSiteLink 表格是一種支援資料表，其中的每一項記錄都代表兩個使用者網站間的連結。
+ms.openlocfilehash: 7c7edea00fdd680ece091d06aa7528fb0dc7fe25d5b5b4fa126c37c48b3ee81d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806353"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321605"
 ---
 # <a name="monitoredusersitelink-table"></a>MonitoredUserSiteLink 表格
  

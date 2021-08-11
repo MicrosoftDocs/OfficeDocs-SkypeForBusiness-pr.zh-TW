@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 0cc69437379255dc0a3337da4c749ae744840277
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7db7ce2a911a7b8e483f456ba854310de3b33597b1574f6bfa3867098b8bdbab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122487"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302587"
 ---
 # <a name="users-view-or-configure-dial-plan"></a>使用者：檢視或設定撥號對應表
 
@@ -34,4 +34,4 @@ ms.locfileid: "51122487"
 
 - [手動建立或修改正規化規則](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-normalization-rule-manually)
 
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 建立商務用 Skype Server 2019 集區時，會使用與舊版安裝相關聯的中央管理存放區。 當您在第一次使用時啟動拓撲產生器和後續的編輯會話時，系統會提示您輸入您想要拓撲產生器載入目前設定檔的位置。 因為您已定義拓撲，且已建立中央管理存放區，所以您應該選擇從現有的部署下載拓撲。 拓撲產生器會讀取資料庫，並取得目前的定義。
-ms.openlocfilehash: 56234c24d9278c2702f4b07bd6df774bff45c387
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: e20b6fbf8c65d7b59678c0061eee45b21a8e4130132da320494c0d230fffcb1d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752845"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339331"
 ---
 # <a name="download-topology-from-existing-deployment"></a>從現有部署下載拓撲
 
@@ -24,13 +24,13 @@ ms.locfileid: "44752845"
   
 ### <a name="to-download-a-topology-from-an-existing-deployment"></a>從現有的部署下載拓撲
 
-1. 開啟商務用 Skype 伺服器部署嚮導。
+1. 開啟 [商務用 Skype Server 部署] 嚮導。
     
 2. 在 [**商務用 Skype Server 2019-部署嚮導]** 頁面上，按一下 [**安裝系統管理工具**]。
     
-3. 啟動拓撲產生器：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft 商務用 skype server 2019**]，然後按一下 [**商務用 skype server 拓撲**產生器]。
+3. 啟動拓撲產生器：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft 商務用 Skype Server 2019**]，然後按一下 [**商務用 Skype Server 拓撲** 產生器]。
     
-4. 選取 [**從現有的部署下載拓撲**]。
+4. 選取 [ **從現有的部署下載拓撲**]。
   
 5. 選擇檔案名，並以預設的 redmond.tbxml 檔案類型儲存拓撲。
     

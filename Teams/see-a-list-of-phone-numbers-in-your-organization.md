@@ -22,13 +22,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解如何使用 Microsoft Teams管理中心查看貴組織所有電話號碼的清單，以及指派給使用者或未指定的所有號碼。
-ms.openlocfilehash: 41eceb3618fae61308b90a88165ce1935ad6b30b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 瞭解如何使用 Microsoft Teams管理中心查看組織中所有電話號碼的清單，以及指派給使用者或未指定的所有號碼。
+ms.openlocfilehash: 6d66b1fb1b4118bca60dc37fed7f4eac8c18090c34fa68ba6a61fba860fb5710
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117231"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339441"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>查看貴組織的電話號碼清單
 
@@ -70,9 +70,9 @@ ms.locfileid: "51117231"
 2. 在左側流覽中，前往 **Voice**  >  **電話號碼**。
 
     > [!IMPORTANT]
-    > 若要在 Microsoft Teams系統管理中心左側流覽中查看語音選項，您必須先購買至少一個 **Enterprise E5** 授權、一個 **電話系統** 附加元件授權或一個音訊會議附加元件授權。 
+    > 若要在 Microsoft Teams系統管理中心左側流覽中查看語音選項，您必須先購買至少一 **個 Enterprise E5** 授權、一個 **電話系統** 附加元件授權或一個音訊會議附加元件授權。 
 
-3. 若要快速排序數位，以便查看已指派哪些數位，請按一下 [ **狀態>** 欄標題。 或者，您可以按一下篩選圖示，然後篩選您的視圖，以查看已指派給使用者的電話號碼，或您可以指派給使用者的未指定號碼。 您可以篩選：
+3. 若要快速排序數位，以便查看指派的號碼，請按一下 [ **狀態列** 標題。 或者，您可以按一下篩選圖示，然後篩選您的視圖，以查看已指派給使用者的電話號碼，或您可以指派給使用者的未指定號碼。 您可以篩選：
 
    - **指派給使用者**
 
@@ -91,13 +91,13 @@ ms.locfileid: "51117231"
 2. 在左側流覽中，前往 **Voice**  >  **電話號碼**。
 
     > [!IMPORTANT]
-    > 若要在 Microsoft Teams系統管理中心左側流覽中查看語音選項，您必須先購買至少一個 **Enterprise E5** 授權、一個 **電話系統** 附加元件授權或一個音訊會議附加元件授權。 
+    > 若要在 Microsoft Teams系統管理中心左側流覽中查看語音選項，您必須先購買至少一 **個 Enterprise E5** 授權、一個 **電話系統** 附加元件授權或一個音訊會議附加元件授權。 
 
-3. 按一下篩選圖示以根據啟用狀態篩選您的 **視圖：您可以** 篩選：
+3. 按一下篩選圖示，以根據 **啟用狀態篩選** 您的視圖：您可以篩選：
 
    - **啟動**
 
-   - **待處理的工作分派**
+   - **待處理作業**
 
    - **作業失敗**
 
@@ -107,7 +107,7 @@ ms.locfileid: "51117231"
 
 ## <a name="using-the-teams-powershell-module"></a>使用 Teams PowerShell 模組
 
-您可以使用 Teams PowerShell 模組，從前一節取得相同的資訊，但需要版本 1.1.6 或更新版本，包括整合 商務用 Skype Online 連接器。 有關模組詳細資訊，請參閱[powerShell Microsoft Teams概觀](teams-powershell-overview.md)。
+您可以使用 Teams PowerShell 模組從前一節取得相同的資訊，但需要版本 1.1.6 或更新版本，包括整合 商務用 Skype Online 連接器。 有關模組詳細資訊，請參閱 powerShell 概觀[Microsoft Teams PowerShell 概觀](teams-powershell-overview.md)。
 
 您可以使用 [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber) Cmdlet 來查看貴組織擁有的所有電話號碼清單。 例如，您可以執行下列命令來查看每個電話號碼及其狀態：
 

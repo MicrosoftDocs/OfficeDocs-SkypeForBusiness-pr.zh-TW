@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: db911db3631caebb0e767401f80c36bdac6c9c1b
-ms.sourcegitcommit: f39484688800a3d22f361e660d0eeba974a44fb1
+ms.openlocfilehash: 282a6646c321d14618b9aaede36918db8db58c774d7bd99ff79f15cac729f83e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "53420828"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312691"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
 
@@ -306,7 +306,7 @@ ms.locfileid: "53420828"
 
 - 視訊通話的 **最低** 頻寬需求為最高 240p 解析度、共用螢幕內容畫面播放速率可調整 1.875 到 7.5fps，而齊聚模式/大型圖庫視訊最高 540p 解析度。  
 
-- 視訊通話的 **建議** 頻寬需求為最高 1080p 解析度<sup>\*</sup>、共用螢幕內容畫面播放速率可調整為 7.5 到 30fps，而齊聚模式/大型圖庫視訊最高 1080p 解析度<sup>\*</sup>。  
+- 視訊通話的 **建議** 頻寬需求為最高 1080p 解析度 <sup>\*</sup>、共用螢幕內容畫面播放速率可調整為 7.5 到 30fps，而齊聚模式/大型圖庫視訊最高 1080p 解析度 <sup>\*</sup>。  
 
 - **「最佳效能** 指引」可達成較大型的會議出席者人數、高遺失環境以及較高動作內容逼真度的視訊，螢幕共用內容畫面播放速率可調整從 15 到 30fps。
 

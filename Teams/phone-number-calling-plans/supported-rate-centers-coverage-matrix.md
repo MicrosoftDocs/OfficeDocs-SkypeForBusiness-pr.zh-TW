@@ -17,18 +17,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 列出通話方案支援的費率中心和涵蓋範圍。
-ms.openlocfilehash: dbf0280bf26452d6bfdf40e669f43dbf131cc88b
-ms.sourcegitcommit: 67dac7a8c9c5d0151b94db81c979e2f6bafe28c3
+ms.openlocfilehash: 7c294f01e84c7b846da81d1e685673ba309fd9398f0fe34513d292c01589e32a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "49724509"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339481"
 ---
 # <a name="supported-rate-centers-and-coverage-for-calling-plans"></a>通話方案的支援費率中心和涵蓋範圍
 
-本文列出北美通話方案支援費率中心和涵蓋範圍。 費率中心是一個地理區域的產業術語，一向定義公用交換電話網路 (PSTN) 的當地通話、計費費率和電話號碼指派的邊界。 在許多情況下，隨著產業向全包方案或分鐘方案轉移，費率中心在計費方面已變得不太重要，但仍被部分使用者使用。
+本文列出北美通話方案支援費率中心和涵蓋範圍。 費率中心是一個地理區域的產業術語，一向定義公用交換電話網路 (PSTN) 的當地通話、計費費率和電話號碼指派的邊界。 在許多情況下，隨著產業向全包方案或分鐘方案轉移，費率中心對於計費已變得不太重要，但有些人仍然會使用。
 
-支援 [北美試算表的費率中心和涵蓋矩陣](https://www.microsoft.com/download/details.aspx?id=102534) 會列出我們支援的費率中心。 當您收到新的電話號碼，或將現有提供者的電話號碼移轉到 Teams時，請下載試算表，並使用它來尋找費率中心。 如果您不知道您的費率中心，您可以根據您的區碼 (NPA) NXX (NXX) 來) 它。
+支援 [北美試算表的費率中心和涵蓋矩陣](https://www.microsoft.com/download/details.aspx?id=102534) 會列出我們支援的費率中心。 當您收到新的電話號碼，或將現有提供者的電話號碼移轉到 Teams時，請下載試算表，並使用它來尋找費率中心。 如果您不知道您的費率中心，您可以根據您的地區代碼 (NPAs) NXX (NXX) 來) 中心。
 如果您收到新的號碼，但我們沒有您要求的數位，我們會嘗試從相同的費率中心為您提供號碼。
 
 如果您收到新的號碼，但我們沒有您要求的數位，我們會提供您來自相同費率中心的號碼。

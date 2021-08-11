@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: 摘要：瞭解如何在商務用 Skype Server 中管理會議配置設定。
-ms.openlocfilehash: 1e6ef11992a547456d2a971c2f8de6f3097b166e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9bd0cefb32074f6e11d524e65096fa0999db4ae35b5244c202616d76ded81085
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119432"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321675"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議配置設定
  
 **摘要：** 瞭解如何在商務用 Skype Server 中管理會議配置設定。
   
-本主題說明如何管理會議配置設定。 如需如何規劃及部署會議的詳細資訊，請參閱在商務用 skype server 中 [規劃會議](../../plan-your-deployment/conferencing/conferencing.md) ，以及 [在商務用 Skype server 中部署會議](../../deploy/deploy-conferencing/deploy-conferencing.md)。
+本主題說明如何管理會議配置設定。 如需如何規劃及部署會議的詳細資訊，請參閱[商務用 Skype Server 中的會議計畫](../../plan-your-deployment/conferencing/conferencing.md)商務用 Skype Server 中的[部署會議](../../deploy/deploy-conferencing/deploy-conferencing.md)。
   
 會議設定設定會口述使用者可以建立的會議類型，除了控制 (，甚至) 匿名使用者和電話撥入式會議使用者是否可以加入這些會議。 請注意，這些設定只會影響排程的會議;它們不會影響在商務用 Skype 中按一下 [立即開會] 選項所建立的特定會議。
   
@@ -37,7 +37,7 @@ ms.locfileid: "51119432"
     
 - 預設是否允許匿名 (未授權) 使用者加入
     
-您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面來定義會議的特性。 
+您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面來定義會議的特性。 
   
 您可以指定預設) 、網站層級或集區層級所建立之全域層級 (的會議設定。 根據預設，全域設定會定義會議經驗。 如果您建立集區層級設定，這些設定會套用至該集區所主控的所有會議。 如果您未建立集區層級設定，則會套用網站層級設定（如果有的話）。 如果您未定義網站層級設定，全域設定會套用至所有會議。
   
@@ -47,11 +47,11 @@ ms.locfileid: "51119432"
   
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [ **會議**]，然後按一下 [ **會議** 設定]。
     
-## <a name="manage-meeting-settings-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來管理會議設定
+## <a name="manage-meeting-settings-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面管理會議設定
 
 若要使用商務用 Skype Server 管理命令介面來管理會議，請使用下列 Cmdlet：
   

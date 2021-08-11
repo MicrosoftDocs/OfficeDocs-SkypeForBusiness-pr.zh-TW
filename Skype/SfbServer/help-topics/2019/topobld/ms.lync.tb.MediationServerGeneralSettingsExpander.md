@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a78fa8c12f2eb0db4cedd97a765e6445788c3382
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 064255bc958f9c1b59ca105cb943dca766f7715e59c71a5f1d1e0dee8620e868
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804263"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285153"
 ---
 # <a name="mediation-server-general-settings-expander"></a>中繼伺服器一般設定展開工具
  
@@ -29,7 +29,7 @@ ms.locfileid: "49804263"
 
 中繼伺服器集區或中繼伺服器的完整網域名稱 (FQDN)。編輯伺服器的 FQDN 會變更此值。您必須有符合新值的網域名稱系統 (DNS) 主機 (A) 記錄。
   
-在 [關聯] 區段中，選取要與中繼伺服器集區或中繼伺服器關聯的 Edge Server 或 Edge Server 集區。 您選取的邊界是轉送伺服器的媒體元件將用於外部使用者 Enterprise Voice。
+在 [關聯] 區段中，選取要與中繼伺服器集區或中繼伺服器關聯的 Edge Server 或 Edge Server 集區。 選取要用於外部使用者企業語音的轉送伺服器媒體元件的 Edge。
   
 如果您目前並未定義 Edge Server，而需要將中繼伺服器與 Edge Server 關聯，請按一下 [新增] 並在 [定義新的 Edge 集區精靈] 中定義新的 Edge Server 或 Edge Server 集區。
   

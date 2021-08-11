@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 6b4fe394bbeacf99510a9da3d6d2f66fd859176a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: db229077d658b9efee902270fc0a294ec3cce40558f6a2509379d09c1e5ba009
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099469"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321905"
 ---
 # <a name="pin-policy"></a>PIN 原則
 
 您要執行的工作 按一下您要執行之任務的連結。
 
- **使用 IP 電話的 PIN 原則** (PIN) 原則的此個人識別碼，可支援使用 IP 電話連線到商務用 Skype 伺服器的使用者進行驗證。
+ **使用 IP 電話的 PIN 原則** (PIN) 原則的此個人識別碼，可支援使用 IP 電話連線至商務用 Skype Server 的使用者進行驗證。
 - [在商務用 Skype Server 2015 中建立新的 PIN 原則](../../manage/authentication/create-a-new-pin-policy.md)
 
 - [在商務用 Skype Server 2015 中修改現有的 PIN 原則](../../manage/authentication/modify-an-existing-pin-policy.md)
@@ -40,4 +40,4 @@ ms.locfileid: "51099469"
 
 - [刪除站台或使用者群組的電話撥入式會議 PIN 設定](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。

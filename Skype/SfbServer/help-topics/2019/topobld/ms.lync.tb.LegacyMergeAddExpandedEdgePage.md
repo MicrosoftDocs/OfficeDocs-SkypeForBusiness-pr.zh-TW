@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 324349df-ff11-40b5-93cf-4504e18b8985
 ROBOTS: NOINDEX, NOFOLLOW
-description: 商務用 Skype Server 不支援合併舊版 Office 通訊伺服器 2007 R2 擴充的 Edge Server 設定。 在合併 Edge Server 資訊之前，擴充的 Edge Server 必須先轉換為合併的 Edge Server 組態。
-ms.openlocfilehash: f246f3edd9f59f1f72c7145ced6dc97fc222d258
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 商務用 Skype Server 不支援合併舊版 Office 通訊伺服器 2007 R2 擴充 Edge Server 設定。 在合併 Edge Server 資訊之前，擴充的 Edge Server 必須先轉換為合併的 Edge Server 組態。
+ms.openlocfilehash: 34589e439fb2f6e31ea99cd047dd28e7e3c13aed229c4c511d6553c160907532
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285183"
 ---
 # <a name="legacy-merge-add-expanded-edge"></a>舊版合併新增擴充的 Edge
  
-商務用 Skype Server 不支援合併舊版 Office 通訊伺服器 2007 R2 擴充的 Edge Server 設定。 在合併 Edge Server 資訊之前，擴充的 Edge Server 必須先轉換為合併的 Edge Server 組態。 
+商務用 Skype Server 不支援合併舊版 Office 通訊伺服器 2007 R2 擴充 Edge Server 設定。 在合併 Edge Server 資訊之前，擴充的 Edge Server 必須先轉換為合併的 Edge Server 組態。 
   
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用此頁面指定 Edge Server 的內部 IP 位址和內部完整網域名稱 (FQDN)。
-ms.openlocfilehash: ff6c965c6256e26ebe905ce25e15c9e18a2cd0d2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 72e98165d4c279d1e35e0cb36afc49835e6010f72dfe685bec0e3eb8786d469f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095817"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294380"
 ---
 # <a name="add-edge-machine-internal-ip"></a>新增 Edge 電腦內部 IP
 
