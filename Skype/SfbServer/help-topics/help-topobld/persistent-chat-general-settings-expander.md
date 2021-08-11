@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 您可以透過設定或定義下列內容，來編輯 Persistent Chat Server 或 Persistent Chat Server 集區的一般設定：
-ms.openlocfilehash: 5c0884f4877e622a82b58ea914ffa934eecc3291
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5e226ac2a70783b6944b81a7932fd9605ea3a0230029b17ebcbfd1f3e53331e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823849"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320315"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>常設聊天室一般設定展開工具
  
@@ -38,35 +38,35 @@ ms.locfileid: "49823849"
   
  **協會**
   
-- **Sql server 儲存區**：從清單中選取 SQL server 儲存區和選用的命名實例。
+- **SQL Server 儲存區**：從清單中選取 SQL Server 儲存區和選用的命名實例。
     
     按一下 [新增] 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想啟用主要 SQL Server 儲存區的鏡像，請選取 [ **啟用 SQL Server 儲存區鏡像** ] 核取方塊。
+- 如果您想要啟用主要 SQL Server 儲存區的鏡像，請選取 [**啟用 SQL Server 儲存區鏡像**] 核取方塊。
     
-    如果您選擇啟用 SQL Server 儲存區鏡像，請從 [ **鏡像 SQL Server 儲存區**] 清單中選取儲存區和實例。
+    如果您選擇啟用 SQL Server 儲存區鏡像，請從 [**鏡像 SQL Server 儲存區**] 清單中選取儲存區和實例。
     
     按一下 [新增] 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想自動容錯移轉主要 SQL Server 儲存區，請選取 [ **使用 SQL Server 鏡像見證啟用自動容錯移轉** ] 核取方塊。
+- 如果您想自動容錯移轉主要 SQL Server 儲存區，請選取 [**使用 SQL Server 鏡像見證啟用自動容錯移轉**] 核取方塊。
     
     如果您選擇啟用 SQL Server 儲存區鏡像見證以啟用自動容錯移轉，請從清單中選取儲存區和實例。
     
     按一下 [新增] 定義見證儲存區的新 SQL Server 儲存區和選用執行個體。
     
-- 如果您想要啟用 SQL Server 嚴重損壞修復，請選取 [ **使用備份 SQL Server 儲存區來啟用** 嚴重損壞修復] 核取方塊。
+- 如果您想要啟用 SQL Server 災害復原的使用，請選取 [**使用備份 SQL Server 儲存以啟用** 嚴重損壞修復] 核取方塊。
     
     如果選擇啟用嚴重損壞修復，請從 [備份 SQL Server 儲存區] 清單中選取儲存區和執行個體。
     
     按一下 [新增] 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想啟用備份 SQL Server 鏡像儲存區的鏡像，請選取 [ **啟用 SQL Server 儲存區鏡像** ] 核取方塊。
+- 如果您想啟用備份 SQL Server 鏡像儲存區的鏡像，請選取 [**啟用 SQL Server 儲存區鏡像**] 核取方塊。
     
-    如果您選擇啟用備份 SQL Server 儲存區鏡像，請從 [ **備份 Sql server 儲存區鏡像**] 清單中選取儲存區和實例。
+    如果您選擇啟用備份 SQL Server 儲存區鏡像，請從 [**備份 SQL Server 儲存區鏡像**] 清單中選取儲存區和實例。
     
     按一下 [新增] 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想自動容錯移轉備份 SQL Server 儲存區，請選取 [ **使用 SQL Server 鏡像見證啟用自動容錯移轉** ] 核取方塊。
+- 如果您想自動容錯移轉備份 SQL Server 存放區，請選取 [**使用 SQL Server 鏡像見證啟用自動容錯移轉**] 核取方塊。
     
     如果您選擇啟用 SQL Server 儲存區鏡像見證以啟用自動容錯移轉，請從清單中選取儲存區和實例。
     
@@ -78,13 +78,13 @@ ms.locfileid: "49823849"
     
     按一下 [新增] 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想啟用規範 SQL Server 儲存區的鏡像，請選取 [ **啟用 SQL server 儲存區鏡像** ] 核取方塊。
+- 如果您想啟用規範 SQL Server 儲存區的鏡像，請選取 [**啟用 SQL Server 儲存區鏡像**] 核取方塊。
     
-    如果您選擇啟用規範 SQL Server 儲存區鏡像，請從 [ **規範 Sql server 儲存區鏡像**] 清單中選取儲存區和實例。
+    如果您選擇啟用規範 SQL Server 儲存區鏡像，請從 [**規範 SQL Server 儲存區鏡像**] 清單中選取儲存區和實例。
     
     按一下 [新增] 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想自動容錯移轉規範 SQL Server 儲存區，請選取 [ **使用 SQL Server 鏡像見證啟用自動容錯移轉** ] 核取方塊。
+- 如果您想自動容錯移轉規範 SQL Server 存放區，請選取 [**使用 SQL Server 鏡像見證啟用自動容錯移轉**] 核取方塊。
     
     如果您選擇啟用 SQL Server 儲存區鏡像見證以啟用自動容錯移轉，請從清單中選取儲存區和實例。
     
@@ -94,13 +94,13 @@ ms.locfileid: "49823849"
     
     按一下 [新增] 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想啟用規範 SQL Server 儲存區的鏡像，請選取 [ **啟用 SQL server 儲存區鏡像** ] 核取方塊。
+- 如果您想啟用規範 SQL Server 儲存區的鏡像，請選取 [**啟用 SQL Server 儲存區鏡像**] 核取方塊。
     
-    如果您選擇啟用規範 SQL Server 儲存區鏡像，請從 [ **備份規範 Sql server 儲存區鏡像**] 清單中選取儲存區和實例。
+    如果您選擇啟用規範 SQL Server 儲存區鏡像，請從 [**備份規範 SQL Server 儲存區鏡像**] 清單中選取儲存區和實例。
     
     按一下 [新增] 定義新的 SQL Server 儲存區和選用執行個體。
     
-- 如果您想自動容錯移轉備份規範 SQL Server 儲存區，請選取 [ **使用 SQL Server 鏡像見證啟用自動容錯移轉** ] 核取方塊。
+- 如果您想自動容錯移轉備份規範 SQL Server 存放區，請選取 [**使用 SQL Server 鏡像見證啟用自動容錯移轉**] 核取方塊。
     
     如果您選擇啟用 SQL Server 儲存區鏡像見證以啟用自動容錯移轉，請從清單中選取儲存區和實例。
     

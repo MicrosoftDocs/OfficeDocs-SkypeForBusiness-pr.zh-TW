@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e154dc5844c4b8f3994c8c7bc00865c494a4c8c6
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 957f84ca8629dbc9effb440211220465f6be0640633638e70306c6e3dec6d0ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282140"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300729"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>準備您的環境以升級到 Teams
 
 ![升級歷程圖，強調技術準備階段](media/upgrade-banner-tech-readiness.png "升級歷程的階段，強調技術準備階段")
 
-本文是升級過程中技術整備階段的一部分，此階段是一項與使用者整備階段同時完成的活動。 在繼續進行之前，請確認您已完成上述階段的活動：
+本文是升級過程中技術整備階段的一部分，此階段是您與使用者整備階段同時完成的活動。 繼續進行之前，請確認您已完成上述階段的活動：
 
 - [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
 - [已定義專案範圍](./upgrade-define-project-scope.md)
@@ -44,6 +44,6 @@ ms.locfileid: "52282140"
 
 - [準備您的 IT 員工](upgrade-prepare-IT-pros.md) ，協助確保他們擁有成功升級旅程所需的功能。
 - 確認您的環境符合所有先決條件，[](upgrade-plan-journey-prerequisites.md)並瞭解Microsoft 365或Office 365與Teams。
-- [使用樣本問卷](upgrade-plan-journey-evaluate-environment.md)來執行環境探索來評估您的環境，以確認貴組織準備好進行成功的升級歷程，Teams。
+- [使用範例問卷](upgrade-plan-journey-evaluate-environment.md)來執行環境探索，以確認貴組織準備好進行成功的升級歷程，以Teams。
 - [透過規劃、](prepare-network.md)準備及採取任何必要的補救步驟，為您的網路做好準備，以支援Teams工作量。
 - [使用登錄檢查](upgrade-prepare-environment-prepare-service.md)清單來準備您的服務，以確保您的 Teams 已準備就緒，可支援將使用者從 商務用 Skype 移Teams。

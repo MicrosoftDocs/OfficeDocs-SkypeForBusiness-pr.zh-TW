@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在混合式環境中設定 Azure AD 連線的指示。
-ms.openlocfilehash: 208d44a9bb8db909d5d562b23cbcfeada41318a7
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: e9e043e8cded2e9e55741cd0abe37488c4b621c6fb7cbfc5e9fd1e35917f8b84
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660681"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292480"
 ---
 # <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>針對 Teams 和商務用 Skype 設定 Configure Azure AD Connect
 

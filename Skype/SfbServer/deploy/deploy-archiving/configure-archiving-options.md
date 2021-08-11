@@ -12,16 +12,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: 摘要：閱讀此主題以瞭解如何設定商務用 Skype Server 的初始封存選項。 您在部署封存時，您必須先設定封存設定，但是您可以在部署後變更、新增和刪除設定。
-ms.openlocfilehash: 0a4803b821ee082a548b9f429b9596fd8019500f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d3bc24edc4c4b130094541eb6bde00c63c8977910f8a45106c43032be32c2fb3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815533"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312131"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>設定商務用 Skype Server 的封存選項
  
-**摘要：** 閱讀此主題以瞭解如何為商務用 Skype 伺服器設定初始封存選項。 您在部署封存時，您必須先設定封存設定，但是您可以在部署後變更、新增和刪除設定。
+**摘要：** 閱讀此主題以瞭解如何設定商務用 Skype Server 的初始封存選項。 您在部署封存時，您必須先設定封存設定，但是您可以在部署後變更、新增和刪除設定。
   
 若要設定初始封存設定，您可以使用商務用 Skype Server 控制台指定下列專案：
   
@@ -48,17 +48,17 @@ ms.locfileid: "49815533"
 > [!NOTE]
 > 您應該先指定所有適當的選項，才能啟用封存。 
   
-如需如何執行封存設定的詳細資訊，包括您可以指定哪些選項及封存設定的階層，請參閱 [在商務用 Skype Server 中規劃](../../plan-your-deployment/archiving/archiving.md)封存。 如需如何使用控制台或使用 Windows PowerShell 來管理設定的詳細資訊，請參閱 [manage 封存 options In 商務用 Skype Server](../../manage/archiving/options.md)。
+如需如何執行封存設定的詳細資訊，包括您可以指定哪些選項及封存設定的階層，請參閱[在商務用 Skype Server 中規劃](../../plan-your-deployment/archiving/archiving.md)封存。 如需如何使用控制台或使用 Windows PowerShell 來管理設定的詳細資訊，請參閱[管理商務用 Skype Server 中](../../manage/archiving/options.md)的封存選項。
   
 ## <a name="configure-global-level-archiving-options"></a>設定全域層級封存選項
 
-當您將封存新增至拓撲併發行拓撲時，商務用 Skype 伺服器會建立通用設定進行封存。 根據預設，全域設定中不會啟用任何封存選項。 全域設定會控制針對整個部署啟用哪些選項，除非您設定的網站或集區設定會覆寫全域設定。
+當您將封存新增至拓撲併發行拓撲時，商務用 Skype Server 會建立通用設定進行封存。 根據預設，全域設定中不會啟用任何封存選項。 全域設定會控制針對整個部署啟用哪些選項，除非您設定的網站或集區設定會覆寫全域設定。
   
 若要在全域層級設定封存選項：
   
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中 **，按一下 [****監視與** 封存]，然後按一下 [封存設定]。
     
@@ -76,7 +76,7 @@ ms.locfileid: "49815533"
     
    - 若要在封存無法使用時封鎖活動，請選取 **[封存失敗時封鎖立即訊息 (IM) 和 Web 會議工作階段]** 核取方塊。
     
-   - 若要使用 Microsoft Exchange Server 儲存封存資料，請按一下 [ **Microsoft exchange 整合** ] 核取方塊。
+   - 若要使用 Microsoft Exchange Server 儲存封存資料，請按一下 [ **Microsoft Exchange 整合**] 核取方塊。
     
    - 若要啟用資料清除，請選取 **[啟用封存資料的清除]** 核取方塊，然後執行下列其中一項作業：
     
@@ -92,7 +92,7 @@ ms.locfileid: "49815533"
   
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中 **，按一下 [****監視與** 封存]，然後按一下 [封存設定]。
     
@@ -112,7 +112,7 @@ ms.locfileid: "49815533"
     
    - 若要在封存無法使用時封鎖活動，請選取 **[封存失敗時封鎖立即訊息 (IM) 和 Web 會議工作階段]** 核取方塊。
     
-   - 若要使用 Microsoft Exchange Server 儲存封存資料，請按一下 [ **Microsoft exchange 整合** ] 核取方塊。
+   - 若要使用 Microsoft Exchange Server 儲存封存資料，請按一下 [ **Microsoft Exchange 整合**] 核取方塊。
     
    - 若要啟用資料清除，請選取 **[啟用封存資料的清除]** 核取方塊，然後執行下列其中一項作業：
     
@@ -128,7 +128,7 @@ ms.locfileid: "49815533"
   
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中 **，按一下 [****監視與** 封存]，然後按一下 [封存設定]。
     
@@ -148,7 +148,7 @@ ms.locfileid: "49815533"
     
    - 若要在封存無法使用時封鎖活動，請選取 **[封存失敗時封鎖立即訊息 (IM) 和 Web 會議工作階段]** 核取方塊。
     
-   - 若要使用 Microsoft Exchange Server 儲存封存資料，請按一下 [ **Microsoft exchange 整合** ] 核取方塊。
+   - 若要使用 Microsoft Exchange Server 儲存封存資料，請按一下 [ **Microsoft Exchange 整合**] 核取方塊。
     
    - 若要啟用資料清除，請選取 **[啟用封存資料的清除]** 核取方塊，然後執行下列其中一項作業：
     

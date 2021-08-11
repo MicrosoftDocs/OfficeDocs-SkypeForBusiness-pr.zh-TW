@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
-description: '[SQL 存放區] 節點會列出您拓撲中的 SQL Server 資料庫。 您可以執行下列動作：'
-ms.openlocfilehash: 38d11c4074fea1df299e8394e7a7fc93f88ace15
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: SQL 儲存區] 節點會列出您拓撲中的 SQL Server 資料庫。 您可以執行下列動作：
+ms.openlocfilehash: 01fd1aaa286f350a98f267acef565c5182bbf0d0faf489b117b7aeb6e1850099
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320305"
 ---
 # <a name="sql-instances-scope-node"></a>SQL 執行個體範圍節點
  
-[ **SQL 存放區** ] 節點會列出您拓撲中的 SQL Server 資料庫。 您可以執行下列動作：
+**SQL 儲存區**] 節點會列出您拓撲中的 SQL Server 資料庫。 您可以執行下列動作：
   
-- **新增 SQL 存放區**。 啟動 [ **定義新的 Sql 存放區** ] 嚮導，用來將新的 sql Server 資料庫新增至拓撲。
+- **新增 SQL 存放區**。 啟動 [**定義新的 SQL 存放區**] 嚮導，用來將新的 SQL Server 資料庫新增至拓撲。
     
-除了 SQL Server 資料庫選項，您還可以執行下列一般工作：
+除了 SQL Server 的資料庫選項，您還可以執行下列一般工作：
   
 - **拓撲**。 您可以使用此選項來定義新的拓撲，開啟現有的拓撲，下載目前的拓撲，儲存拓撲的複本，發佈拓撲，安裝資料庫，從舊版中合併元件，或移除部署。
     

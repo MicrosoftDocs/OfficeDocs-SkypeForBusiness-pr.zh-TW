@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 description: 在 [拓撲產生器] 中，您可以執行與個別封存伺服器相關的工作，方法是在主控台樹中，以滑鼠右鍵按一下 [封存伺服器]，按一下工具列中的 [動作]，或是按一下 [動作] 窗格中的工作，再按一下下列封存伺服器選項。
-ms.openlocfilehash: c0167325db125ab898a8b324c672e5b687ccd7ca
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: add77a823e4ca17ce51828959b1b3b402693463dcf77be58f873d13bbfb1fb36
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803353"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320415"
 ---
 # <a name="archiving-servers-scope-node"></a>封存伺服器範圍節點
  
@@ -29,7 +29,7 @@ ms.locfileid: "49803353"
 - **新增封存伺服器**。啟動 [定義新的封存伺服器精靈]，以供您指定新封存伺服器的設定，包括完整網域名稱 (FQDN)、封存 SQL Server 資料庫、封存檔案存放區和集區關聯。
     
 > [!NOTE]
-> 如果您先前已在拓撲產生器中將封存伺服器新增至拓撲，則 [封存伺服器] 節點會包含封存伺服器。 不過，立即訊息或 web 會議 (郵件) 無法封存，直到您也設定封存伺服器（包括在您要做為封存伺服器的伺服器上安裝商務用 Skype 伺服器及設定封存支援）。 
+> 如果您先前已在拓撲產生器中將封存伺服器新增至拓撲，則 [封存伺服器] 節點會包含封存伺服器。 不過，立即訊息或 web 會議 (郵件) 無法封存，直到您也設定封存伺服器（包括在您要做為封存伺服器的伺服器上安裝商務用 Skype Server 和設定封存支援）。 
   
 除了本主題稍早所述的封存伺服器選項，您在 [封存伺服器] 節點中還有主控台樹狀目錄中的其他節點也有的一般選項。包括下列選項：
   

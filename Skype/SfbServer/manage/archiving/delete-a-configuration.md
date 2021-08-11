@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 摘要：瞭解如何在商務用 Skype Server 中刪除封存設定。
-ms.openlocfilehash: 43913485ce18660b6c7fa7ce747ceeaaebd49923
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b6a8aec925bf6bfb7914b6cf830ee6e38751ed7187c862ca2d26104ca3384f39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095407"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320255"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除封存設定
 
@@ -31,7 +31,7 @@ ms.locfileid: "51095407"
   
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。 
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中 **，按一下 [****監視與** 封存]，然後按一下 [封存設定]。
     

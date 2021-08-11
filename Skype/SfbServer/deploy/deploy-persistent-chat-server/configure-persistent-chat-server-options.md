@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 摘要：瞭解如何在商務用 Skype Server 2015 的全域、網站或集區層級設定 Persistent Chat Server 選項。
-ms.openlocfilehash: 9c0b6d5e03b9bc4f7d955ea0dae3e1c45b14ada3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8b9e351e32b0a255cfca0f0996961075c94b17b3b9c0ab45704b27d10b709a23
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337123"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定 Persistent Chat Server 選項
  
@@ -35,7 +35,7 @@ ms.locfileid: "49802123"
 - 聊天室管理 URL。 自訂聊天室管理所用的 URL。 設定允許使用自訂聊天室管理解決方案。 
    
 > [!NOTE] 
-> 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或是繼續使用商務用 Skype Server 2015。
+> 持續聊天可在商務用 Skype Server 2015 中取得，但在商務用 Skype Server 2019 中已不再支援。 Teams 中提供相同的功能。 如需詳細資訊，請參閱[Microsoft Teams 升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續性聊天，您可以選擇將需要這項功能的使用者遷移至 Teams，或是繼續使用商務用 Skype Server 2015。
  
 ## <a name="configure-persistent-chat-server-global-options"></a>設定 Persistent Chat Server 全域選項
 
@@ -43,7 +43,7 @@ ms.locfileid: "49802123"
   
 1. 使用指派給 CsPersistentChatAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任一部電腦。
     
-2. 從 [ **開始** ] 功能表中，選取商務用 Skype Server 控制台或開啟瀏覽器視窗，然後輸入管理 URL。
+2. 從 [**開始**] 功能表中，選取 [商務用 Skype Server 控制台] 或開啟瀏覽器視窗，然後輸入管理 URL。
     
 3. 在左導覽列中，按一下 [常設聊天室]，然後按一下 [常設聊天室組態]。
     
@@ -79,7 +79,7 @@ ms.locfileid: "49802123"
   
 1. 使用指派給 CsPersistentChatAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任一部電腦。
     
-2. 從 [ **開始** ] 功能表中，選取商務用 Skype Server 控制台，或開啟瀏覽器視窗，然後輸入管理 URL。
+2. 從 [**開始**] 功能表中，選取 [商務用 Skype Server 控制台]，或開啟瀏覽器視窗，然後輸入管理 URL。
     
 3. 在左導覽列中，按一下 [常設聊天室]，然後按一下 [常設聊天室組態]。
     

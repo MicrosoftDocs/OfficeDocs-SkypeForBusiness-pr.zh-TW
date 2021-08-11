@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解撥打泰國免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
-ms.openlocfilehash: 8fc33d740762e8b94948c9a7ad596d5fa11fd479
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 瞭解撥打泰國的免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
+ms.openlocfilehash: 9aff0741295b744074eed1a1d1079e9ab3e75080d2583267d3370ef3bc532a8b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116591"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292890"
 ---
 # <a name="toll-free-dialing-restrictions-in-thailand"></a>泰國免付費撥號限制
 

@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0184198d7e419642a582f8642b312238900f1f8
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: ca14aaf3e0d61977abf0d03735fa2d5ec0f6995375e773931088f0979cba395c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53586992"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300719"
 ---
 # <a name="about-the-upgrade-framework"></a>關於升級架構
 
@@ -33,18 +33,18 @@ ms.locfileid: "53586992"
 
 首先，將正確的專案關係人彙集在一起，並定義您的升級 (，例如範圍、目標及時程表) 。 規劃就緒後，請確認您的技術環境，而且您的使用者已準備好Teams。 接著，在準備好時，將升級階段從試驗階段移向全組織的升級。 一旦貴組織上Teams，建立可監控品質並加快使用者採用速度的營運計畫。
 
-![升級歷程架構的圖例](media/upgrade-banner-main.png "請確定您的專案已設定好，以適當的專案小組取得成功。定義您的專案範圍、目標及時程表。確認技術和使用者準備就緒。執行您的推出計畫。保持動力以最大化結果。")
+![升級歷程架構的圖例](media/upgrade-banner-main.png "請確定您的專案已設定好，以適當的專案小組取得成功。定義您的專案範圍、目標及時程表。確認技術和使用者準備狀態。執行您的推出計畫。保持動力以最大化結果。")
 
 在相關頁面上尋找此架構圖形，找出您進行升級程式的地方。
 
 ## <a name="sample-upgrade-timeline"></a>升級時程表範例
 
-當您開始規劃變更時，升級之旅即會開始。 以下以成功架構為指導方針，提供範例時程表，將您從升級前階段開始規劃並準備升級，透過升級進入升級後作業階段，此階段旨在維持並放大您的結果。 
+當您開始規劃變更時，升級之旅即會開始。 利用成功架構做為指導方針，以下是一個範例時程表，從升級前階段開始，您可以在此規劃升級並準備升級，並進入升級後作業階段，此階段旨在維持並放大您的結果。 
 
 > [!NOTE]
-> 我們瞭解，您前往 Teams 可能涉及在不同時間運用多種 [](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)模式及升級使用者群組，這可讓使用者控制使用者的升級體驗，同時使用   Teams。  
+> 我們瞭解，您前往 Teams 可能涉及在不同時間運用多種 [](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)模式和升級使用者群組，這可讓使用者控制使用者升級體驗，同時使用   Teams。  
 
-為了協助示範升級歷程如何展開，我們在下面提供範例方案，定義從線上模式到群島模式商務用 Skype到島嶼模式Teams旅程。 此外，範例計畫會概述將使用者分成四個升級群組或群組的組織。 使用此範本，自訂計畫以包含您前往 Teams 的特定歷程，並納入您將使用的各種模式，以及您將 [](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)使用者細分到的升級群組   數目。 
+為了協助示範升級歷程可能如何展開，我們在下面提供範例方案，定義從線上模式到群島模式商務用 Skype到島嶼模式Teams旅程。 此外，範例計畫會概述將使用者分成四個升級群組或群組的組織。 使用此範本，自訂計畫以包含您前往 Teams 的特定歷程，並納入您將使用的各種模式，以及您將 [](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)使用者細分到的升級群組   數目。 
 
 ## <a name="pre-upgrade"></a>升級前
 
@@ -69,21 +69,21 @@ ms.locfileid: "53586992"
 
 | 步 |&nbsp;  | 總結 | 資源 |
 |------|--|---------|----------|
-| **1** | **評估您的環境並完成Teams技術入門** | 請確定您的環境已準備就緒Teams，以協助優化使用者體驗，並方便您一段時間的升級。 | [升級至 Teams。](upgrade-plan-journey-evaluate-environment.md)<br><br> [準備升級至 Teams](upgrade-prepare-environment-prepare-service.md) |
+| **1** | **評估您的環境並完成Teams技術入門** | 請確定您的環境已準備就緒Teams以協助優化使用者體驗，並方便您進行一段時間的升級。 | [升級至 Teams。](upgrade-plan-journey-evaluate-environment.md)<br><br> [準備升級至 Teams](upgrade-prepare-environment-prepare-service.md) |
 | **2** | **優化網路Teams，尤其是即時媒體案例** | 如果您要部署音訊、視像或會議，請採取下列額外步驟，針對該功能優化您的網路。 | [準備您的網路以升級至Teams](prepare-network.md) |
 | **3** | **評估組織變更準備狀況及定義團隊合作案例** | 瞭解您的使用者基礎，以準備正確的價值訊息與教育程度，以促進及加快使用者採用。 | [組織變更準備](upgrade-org-change-readiness.md#organizational-change-readiness) |
 | **4** | **準備使用者準備計畫，以定義溝通、訓練和支援使用者的方式** | 個人化您的通訊、訓練和支援計畫，以確保以最佳方式接受這項新技術。 | [準備使用者整備計畫](upgrade-user-readiness.md)<br><br>[升級成功套件](https://aka.ms/UpgradeSuccessKit) |
 | **5** | **宣佈即將啟動Microsoft Teams** | 及早溝通，協助使用者感到內情、減少混淆，以及產生興奮。 | [升級成功套件](https://aka.ms/UpgradeSuccessKit) |
 | **6** | **準備您的 IT 員工Teams** | 確認您的技術和支援人員擁有所需的一切準備，並支援您的技術環境以Teams。 | [準備您的 IT 員工Microsoft Teams](upgrade-prepare-it-pros.md) <br><br> [升級成功套件](https://aka.ms/UpgradeSuccessKit) |
 
-### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>試驗：執行試驗以確認貴組織已準備就緒，並告知您進行最佳Teams
+### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>試驗：執行試驗以確認貴組織已準備就緒，並告知您最佳的Teams
 
 | 步 | &nbsp; | 總結 | 資源 |
 |------|--|---------|----------|
-| **1** | **大綱試驗物流** | 定義正式的試驗物流，協助驗證貴組織升級或共存的準備狀態。 | [大綱試驗物流](pilot-essentials.md#1-outline-pilot-logistics) |
+| **1** | **大綱試驗物流** | 定義正式的試驗物流，協助驗證貴組織升級或並存的準備狀態。 | [大綱試驗物流](pilot-essentials.md#1-outline-pilot-logistics) |
 | **2** | **選取您的試驗參與者和測試案例** | 找出可協助驗證團隊合作案例的使用者，並驗證Teams準備狀態。 | [選取您的試驗參與者和測試案例](pilot-essentials.md#2-select-your-pilot-participants-and-test-scenarios) |
 | **3** | **設計您的測試計劃與意見回饋問卷** | 找出明確定義的工作供參與者完成，並讓他們分享意見。 | [設計您的測試計劃與意見回饋問卷](pilot-essentials.md#3-design-your-test-plan-and-feedback-survey) |
-| **4** | **建立試驗通訊計畫** | 教育試驗參與者瞭解目前的情況、時間、原因，以及預期的結果。 | [建立通訊計畫](pilot-essentials.md#4-create-your-communications-plan)<br><br>[升級成功套件](https://aka.ms/UpgradeSuccessKit) |
+| **4** | **建立試驗通訊計畫** | 教育試驗參與者瞭解目前發生的情況、時間、原因，以及預期的結果。 | [建立通訊計畫](pilot-essentials.md#4-create-your-communications-plan)<br><br>[升級成功套件](https://aka.ms/UpgradeSuccessKit) |
 | **5** | **進行您的試驗** | 啟動您的試驗、追蹤進度並根據需要進行，以優化您的試驗結果。 | [進行您的試驗](pilot-essentials.md#5-conduct-your-pilot) |
 | **6** | **評估學習並評估您的進一步計畫** | 收集使用者意見回饋、網路統計資料和支援票證，以針對您的目標進行分析，並判斷您的進一步計畫。 | [評估學習並評估您的進一步計畫](pilot-essentials.md#6-assess-learnings-and-evaluate-your-go-forward-plan)
 
@@ -94,11 +94,11 @@ ms.locfileid: "53586992"
 | **1** | **宣佈正式啟動Teams** | 準備好時，傳送正式啟動公告，Teams振奮和動力。 | [升級成功套件](https://aka.ms/UpgradeSuccessKit) |
 | **2** | **實施您的升級** | 您採取的步驟取決於您目前部署商務用 Skype。 | [實施您的升級](upgrade-to-teams.md) |
 | **3** | **隨時瞭解Teams藍圖** | 監控Teams藍圖，找出適合貴組織移至Teams。 | [Teams藍圖](https://aka.ms/teamsroadmap) |
-| **4** | **傳送其他通訊，並Teams支援者參與，以吸引更多人參與Teams** | 鼓勵使用者採用，並保持Teams持續溝通與支援者。 | [Microsoft 365冠軍計畫](https://aka.ms/O365Champions) |
+| **4** | **傳送其他通訊，並Teams支援者參與，以吸引更多人參與Teams** | 鼓勵使用者採用，並保持Teams持續溝通與支援。 | [Microsoft 365冠軍計畫](https://aka.ms/O365Champions) |
 
 ## <a name="upgrade"></a>升級 
 
-**讓官方移至 Teams。** 當您升級使用者時，您將其移至Teams模式。 Teams成為聊天、會議、通話和共同合作的主要應用程式，商務用 Skype應用程式存取權。 雖然此階段的技術層面相當簡單，但請考慮變更對使用者體驗的影響，並允許使用者將活動從 商務用 Skype 正式轉Teams。 若要減少擁有不同用戶端不同體驗的使用者，請嘗試將端對端升級視窗限制為 45 天左右。
+**讓正式移至 Teams。** 當您升級使用者時，您將其移至Teams模式。 Teams成為聊天、會議、通話和共同合作的主要應用程式，商務用 Skype應用程式存取權。 雖然此階段的技術層面相當簡單，但請考慮變更對使用者體驗的影響，並允許使用者將活動從 商務用 Skype 正式轉Teams。 若要減少擁有不同用戶端不同體驗的使用者，請嘗試將端對端升級視窗限制為 45 天左右。
 
 ### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>升級：從 商務用 Skype 到 Teams
 
@@ -118,11 +118,11 @@ ms.locfileid: "53586992"
 
 | 步 | &nbsp; | 總結 | 資源 |
 |------|--|---------|----------|
-| **1** | **評估您的初始升級成功** | 根據在升級前階段所建立的目標評估進度。 | [Project目標](upgrade-define-project-scope.md#project-goals) |
+| **1** | **評估您的初始升級成功** | 根據升級前階段所建立的目標評估進度。 | [Project目標](upgrade-define-project-scope.md#project-goals) |
 | **2** | **針對任何未進行中的目標，執行緩解計畫** | 針對未達目標定義緩解或課程校正策略。 | [Project目標](upgrade-define-project-scope.md#project-goals) |
-| **3** | **監控網路健康情況和品質** | 執行品質檢查和監控計畫，協助確保良好的使用者體驗，以及減少撥打給支援電話台的來電。 | [監控網路健康情況和品質](continue-journey.md#monitor-for-network-health-and-quality) |
-| **4** | **推動使用者動力與採用** | 使用持續採用計畫，鼓勵使用者採用Teams保持興奮。 | [推動使用者動力與採用](continue-journey.md#drive-user-momentum-and-adoption) |
-| **5** | **準備新功能** | 建立新創新與產品改良的變更週期，以發揮最大價值。 | [準備新功能](continue-journey.md#prepare-for-new-functionality)
+| **3** | **監控網路健康情況和品質** | 執行品質檢查和監控計畫，協助確保良好的使用者體驗，並減少撥打給支援電話台的來電。 | [監控網路健康情況和品質](continue-journey.md#monitor-for-network-health-and-quality) |
+| **4** | **推動使用者動力與採用** | 使用持續採用計畫，Teams使用者採用並保持興奮。 | [推動使用者動力與採用](continue-journey.md#drive-user-momentum-and-adoption) |
+| **5** | **準備新功能** | 建立新創新與產品改良的變革週期，以發揮最大價值。 | [準備新功能](continue-journey.md#prepare-for-new-functionality)
 
 
 > [!Note]

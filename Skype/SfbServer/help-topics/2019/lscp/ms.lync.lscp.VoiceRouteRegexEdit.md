@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
 ROBOTS: NOINDEX, NOFOLLOW
-description: 輸入 .NET Framework 正則運算式，以指定要套用路由之目的地電話號碼的相符模式。
-ms.openlocfilehash: fd66e36018276ac1373c2b5392c44f6052fdd458
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 輸入 .NET Framework 正則運算式，指定要套用路由之目的地電話號碼的相符模式。
+ms.openlocfilehash: b0c7de053c89aae71969ec1209bd5b51cab99088365d1400ad1c801cf61e2295
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819993"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283505"
 ---
 # <a name="normalization-rule-type-a-regular-expression"></a>正常化規則：輸入規則運算式
  
-輸入 .NET Framework 正則運算式，以指定要套用路由之目的地電話號碼的相符模式。 
+輸入 .NET Framework 正則運算式，指定要套用路由之目的地電話號碼的相符模式。 
   
  
   

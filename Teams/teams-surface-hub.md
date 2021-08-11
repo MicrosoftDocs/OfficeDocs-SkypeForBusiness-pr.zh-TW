@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
-description: 瞭解如何安裝及設定 Teams 應用程式Surface Hub，讓 Teams 成為預設的通話和會議應用程式。
+description: 瞭解如何安裝及設定 Teams 應用程式Surface Hub，Teams通話和會議應用程式。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d65f94b3f1e71a59ac2debc04828c5fa25f000f7
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 3a4e1786064f0f87d153d3167c9d2eceed3126f9df97e5e6deb77e55c6b1691e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587002"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292920"
 ---
 # <a name="deploy-microsoft-teams-for-surface-hub"></a>部署 Microsoft Teams Surface Hub
 
@@ -51,7 +51,7 @@ ms.locfileid: "53587002"
 
 ## <a name="make-teams-the-default-calling-and-meetings-application"></a>使用Teams通話和會議應用程式
  
-有兩個選項可配置預設的通話和會議應用程式策略： 
+有兩個選項可針對預設通話和會議應用程式策略進行配置： 
 
 - **選項 1：** 透過 USB 鍵設定。 
 - **選項 2：** 透過 MDM 設定 ，例如 Intune。

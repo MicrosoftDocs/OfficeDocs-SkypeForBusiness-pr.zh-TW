@@ -1,5 +1,5 @@
 ---
-title: 設定封存選項，以處理商務用 Skype Server 中的失敗
+title: 設定封存選項以處理商務用 Skype Server 的失敗
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
-description: 摘要：瞭解如何在商務用 Skype 伺服器失敗的情況下封鎖 IM 和會議會話，以避免封存。
-ms.openlocfilehash: 8bfe4d3f8e02fa0d7d7d3f1f6b55f224aaa1451a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：瞭解如何在商務用 Skype Server 失敗以防封存的情況下封鎖 IM 和會議會話。
+ms.openlocfilehash: 8baf245b1c8e95394aec756cb019b9562555f4bbe17dc0444615d5815da846df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095447"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320265"
 ---
-# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>設定封存選項，以處理商務用 Skype Server 中的失敗
+# <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>設定封存選項以處理商務用 Skype Server 的失敗
 
-**摘要：** 瞭解如何在商務用 Skype 伺服器失敗的情況下封鎖 IM 和會議會話，以防封存。
+**摘要：** 瞭解如何在商務用 Skype Server 失敗以防封存的情況下封鎖 IM 和會議會話。
   
-如果您的組織需要封存，您可以在商務用 Skype 伺服器失敗的情況下封鎖 IM 和會議會話，以避免封存。 這有時稱為重要模式。 例如，如果儲存服務發生問題，將會封鎖啟用封存之通訊的使用者的 IM。 IM 和會議會在失敗更正後自動復原。 
+如果您的組織需要封存，您可以在發生商務用 Skype Server 失敗情況時封鎖 IM 和會議會話，以防封存。 這有時稱為重要模式。 例如，如果儲存服務發生問題，將會封鎖啟用封存之通訊的使用者的 IM。 IM 和會議會在失敗更正後自動復原。 
   
 ## <a name="configure-critical-mode-by-using-the-control-panel"></a>使用控制台設定重要模式
 
@@ -31,7 +31,7 @@ ms.locfileid: "51095447"
   
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。 
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中 **，按一下 [****監視與** 封存]，然後按一下 [封存設定]。
     

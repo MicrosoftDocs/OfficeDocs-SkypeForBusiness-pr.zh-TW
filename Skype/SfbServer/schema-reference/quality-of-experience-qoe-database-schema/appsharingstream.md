@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream 表格包含用於應用程式共用之網路資料流程的經驗品質計量。 此表格已引進 Microsoft Lync Server 2013。
-ms.openlocfilehash: d95e0d78175f8e17363dc558d82cafefba36ce28
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 68f43e9d783cd0f30d89bf9f4f13c0fe5329bbf3755e6b2c3eba897b86ead6c5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120875"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329348"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream 表格
  
@@ -124,5 +124,5 @@ AppSharingStream 表格包含用於應用程式共用之網路資料流程的經
 |**AverageRectangleHeight** <br/> |int  <br/> ||影片的平均解析度高度（以圖元為單位）。  <br/> |
 |**AverageRectangleWidth** <br/> |int  <br/> ||影片的平均解析度寬度（以圖元為單位）。  <br/> |
 |**入境** <br/> |位  <br/> ||輸入傳輸的平均每秒幀 () 的平均框架速率。  <br/> |
-|**出境** <br/> |位  <br/> ||輸出傳輸) 每秒幀中 (的平均框架速率。  <br/> |
+|**出埠** <br/> |位  <br/> ||輸出傳輸) 每秒幀中 (的平均框架速率。  <br/> |
 |**SenderIsCallerPAI** <br/> |位  <br/> ||1表示資料流程的方向從來電者到被叫方。  <br/> 0表示資料流程方向從被叫方傳送給來電者。  <br/> |

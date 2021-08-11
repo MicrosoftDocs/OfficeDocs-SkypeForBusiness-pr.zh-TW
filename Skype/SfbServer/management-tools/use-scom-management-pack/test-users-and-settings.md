@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 如何設定商務用 Skype Server 綜合交易的測試使用者帳戶和監視程式節點設定。
-ms.openlocfilehash: 2be4b8aef73def9f9fee11e3469eae93b83393ff
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: e5ae16702ca5659cc196086a108f65acb03d032a2901344afc1f3e2238211b2f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53724776"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283245"
 ---
 # <a name="how-to-configure-watcher-node-test-users-and-settings"></a>如何設定監視節點測試使用者和設定
  

@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: ed304be8ea6f46d3bcbd16537da9b23c84227f9b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 8ded9db153aa9bf5388c4afe9957e86bb739be05085e669e8bd36feb472e2ed6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823303"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278401"
 ---
 # <a name="planning-tool-ui-reference"></a>規劃工具 UI 參考
  
@@ -31,9 +31,9 @@ ms.locfileid: "49823303"
     
 - [Web 會議 (規劃工具) ](../../help-topics/help-planning/web-conferencing.md)
     
-- [Enterprise Voice (規劃工具) ](../../help-topics/help-planning/enterprise-voice.md)
+- [企業語音 (規劃工具) ](../../help-topics/help-planning/enterprise-voice.md)
     
-- [Exchange 整合通訊設定 (規劃工具) ](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
+- [Exchange整合通訊設定 (規劃工具) ](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
     
 - [ (規劃工具的通話許可控制) ](../../help-topics/help-planning/call-admission-control.md)
     
@@ -53,13 +53,13 @@ ms.locfileid: "49823303"
     
 - [ (規劃工具的功能綜述) ](../../help-topics/help-planning/feature-overview.md)
     
-- [Exchange 整合通訊 (規劃工具) ](../../help-topics/help-planning/exchange-unified-messaging.md)
+- [Exchange整合通訊 (規劃工具) ](../../help-topics/help-planning/exchange-unified-messaging.md)
     
 - [負載平衡器 (規劃工具) ](../../help-topics/help-planning/load-balancer.md)
     
 - [Director (規劃工具) ](../../help-topics/help-planning/director.md)
     
-- [規劃工具 (的用戶端設定) ](../../help-topics/help-planning/client-settings.md)
+- [用戶端設定 (規劃工具) ](../../help-topics/help-planning/client-settings.md)
     
 - [中繼組合 (規劃工具) ](../../help-topics/help-planning/mediation-collocation.md)
     

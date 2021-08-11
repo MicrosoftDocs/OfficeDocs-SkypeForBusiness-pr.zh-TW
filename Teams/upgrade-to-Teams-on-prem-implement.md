@@ -1,5 +1,5 @@
 ---
-title: IT 系統管理員的升級策略
+title: 適用于 IT 系統管理員的升級策略
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -17,14 +17,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f11d14bc7bf302a864afe3062ef8f2bb8eccd7da
-ms.sourcegitcommit: e19fdedca6573110d08c7d114e05b84779e36b58
+ms.openlocfilehash: 3247ff29d99769a94314f2bff42699ba071bdce8976b2332b38232bdd7bfc0b2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "53437640"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292860"
 ---
-# <a name="upgrade-strategies-for-it-administrators"></a>IT 系統管理員的升級策略
+# <a name="upgrade-strategies-for-it-administrators"></a>適用于 IT 系統管理員的升級策略
 
 ![升級歷程的階段，強調部署與執行階段](media/upgrade-banner-deployment.png "升級歷程的階段，強調部署與執行階段")
 

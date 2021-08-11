@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在解除委任商務用 Skype 內部部署環境之前，請先移動使用者。
-ms.openlocfilehash: bc98ebfcfb7ad4d4b2c64942b5f84500a98cdc84
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 44092460fa1db0664fe95b12cc99f3488544dc0ad049d75d56074e6bf0873c60
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510714"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292361"
 ---
 # <a name="move-required-users-before-decommissioning-your-on-premises-environment"></a>在解除委任內部部署環境之前，移動必要使用者
 
@@ -36,7 +36,7 @@ ms.locfileid: "53510714"
 
 - 步驟 3. [從內部部署向線上遷移混合應用程式端點](decommission-move-on-prem-endpoints.md)。 請注意，在執行上述步驟2之前，任何現有的混合應用程式端點都不會發現，直到您完成此步驟為止。 您應該規劃在相同維護視窗中執行步驟2和3。
 
-- 步驟 4： [移除您的內部部署商務用 Skype 部署](decommission-remove-on-prem.md)。
+- 步驟 4. [移除您的內部部署商務用 Skype 部署](decommission-remove-on-prem.md)。
 
 
 ## <a name="move-all-required-users-from-on-premises-to-the-cloud"></a>將所有必要使用者從內部部署移至雲端

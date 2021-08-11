@@ -11,45 +11,45 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
-description: 摘要：閱讀此主題以瞭解如何為商務用 Skype 伺服器使用者設定初始封存原則。
-ms.openlocfilehash: ab737305561aa20c873bbce6e0f075d17fedd0d6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：閱讀此主題以瞭解如何為商務用 Skype Server 使用者設定初始封存原則。
+ms.openlocfilehash: 9db20eefd26de31eb01ab25d4ef7596319459b68be3f76ce95ba0b355122eee8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820853"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312121"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>設定商務用 Skype Server 的封存原則
  
-**摘要：** 閱讀此主題以瞭解如何為商務用 Skype 伺服器使用者設定初始封存原則。
+**摘要：** 閱讀此主題以瞭解如何為商務用 Skype Server 使用者設定初始封存原則。
   
 在商務用 Skype Server 中，您可以使用原則為位於商務用 Skype Server 上的使用者啟用和停用內部通訊和外部通訊的封存。 其中包括下列項目：
   
-- 當您部署商務用 Skype Server 時，預設會建立全域原則
+- 當您部署商務用 Skype Server 時預設建立的全域原則
     
 - 選用的網站層級原則，指定如何為特定網站實施封存
     
 - 選用的使用者層級原則，指定如何為特定使用者執行封存
     
-您在部署封存時，最初會設定封存原則，但您可以在部署後變更、新增和刪除原則。 在商務用 Skype Server 控制台中，您可以使用 [封存 **與監控**] 群組的 [封存 **原則**] 頁面，以管理全域、網站及使用者層級的原則。
+您在部署封存時，最初會設定封存原則，但您可以在部署後變更、新增和刪除原則。 在商務用 Skype Server 控制台中，您可以使用封存 **與監控** 群組的「封存 **原則**」頁面，以管理全域、網站及使用者層級的原則。
   
 > [!NOTE]
-> 若要控制封存的實施，您必須指定選項，例如是否封存 IM 或會議、使用重要模式，以及清除選項。 根據預設，全域封存設定或任何網站或集區封存設定中未啟用任何選項。 您應該先指定所有適當的選項，才能啟用內部或外部通訊的封存。 如需詳細資訊，請參閱 [設定商務用 Skype Server 的封存選項](configure-archiving-options.md)。 
+> 若要控制封存的實施，您必須指定選項，例如是否封存 IM 或會議、使用重要模式，以及清除選項。 根據預設，全域封存設定或任何網站或集區封存設定中未啟用任何選項。 您應該先指定所有適當的選項，才能啟用內部或外部通訊的封存。 如需詳細資訊，請參閱[設定商務用 Skype Server 的封存選項](configure-archiving-options.md)。 
   
 > [!NOTE]
-> 如果您為部署啟用 Microsoft Exchange 整合，Exchange In-Place 保留原則會控制是否為位於 Exchange 上的使用者啟用封存，並將其信箱置於 In-Place 保留狀態。 
+> 如果您為部署啟用 Microsoft Exchange 整合，請 Exchange In-Place 保留原則控制是否為位於 Exchange 的使用者啟用封存，並將其信箱置於 In-Place 保留狀態。 
   
-如需有關封存原則如何運作（包括全域、網站及使用者原則的階層）的詳細資訊，請參閱 [在商務用 Skype Server 中規劃](../../plan-your-deployment/archiving/archiving.md)封存。 如需如何在部署後管理原則的詳細資訊，請參閱 [管理商務用 Skype Server 中](../../manage/archiving/policies.md)的封存原則。
+如需有關封存原則如何運作（包括全域、網站及使用者原則的階層）的詳細資訊，請參閱[Plan for 封存 in 商務用 Skype Server](../../plan-your-deployment/archiving/archiving.md)。 如需如何在部署後管理原則的詳細資訊，請參閱[manage 封存原則 in 商務用 Skype Server](../../manage/archiving/policies.md)。
   
 ## <a name="global-policy"></a>全域原則
 
-當您部署前端伺服器時，商務用 Skype 伺服器會建立封存的全域原則。 預設會停用全域原則中的封存。 「全域」原則會控制是否對整個部署啟用內部和外部通訊的封存，除非您設定網站或使用者原則，以覆寫全域原則，或您針對部分或所有使用者使用 Microsoft Exchange 整合。 如果您使用 Microsoft Exchange 整合，全域原則不會套用到所有位於 Exchange 上的使用者，並將信箱置於 In-Place 保留狀態。
+當您部署前端伺服器時，商務用 Skype Server 會建立一個全域原則進行封存。 預設會停用全域原則中的封存。 「全域」原則會控制是否對整個部署啟用內部和外部通訊的封存，除非您設定網站或使用者原則，以覆寫全域原則，或您使用 Microsoft Exchange 整合部分或所有使用者。 如果您使用 Microsoft Exchange 整合，全域原則不會套用到 Exchange 中的任何使用者，而且會將信箱置於 In-Place 保留狀態。
   
-### <a name="configure-the-global-policy-for-archiving-for-skype-for-business-server-archiving-databases"></a>為商務用 Skype Server 封存資料庫設定封存的全域原則
+### <a name="configure-the-global-policy-for-archiving-for-skype-for-business-server-archiving-databases"></a>設定商務用 Skype Server 封存資料庫的封存全域原則
 
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左側導覽列中，依序按一下 **[監控和封存]** 和 **[封存原則]**。
     
@@ -69,17 +69,17 @@ ms.locfileid: "49820853"
     
 ## <a name="site-policies"></a>網站原則
 
-您可以為每個網站建立封存原則，以啟用或停用特定網站的封存。 網站原則會覆寫全域原則，但使用者原則會覆寫網站原則。 封存原則只有在您未使用 Microsoft Exchange 整合時才會套用，否則，如果您使用 Microsoft Exchange 整合，但有部分使用者未位於 Exchange 上，且其信箱置於 In-Place 保留狀態時，則僅適用。
+您可以為每個網站建立封存原則，以啟用或停用特定網站的封存。 網站原則會覆寫全域原則，但使用者原則會覆寫網站原則。 僅當您不使用 microsoft Exchange 整合時，或若您使用 microsoft Exchange 整合，但有一些使用者不是位於 Exchange 上，且其信箱置於 In-Place 保留狀態，則僅適用封存原則。
   
 ### <a name="create-an-archiving-policy-for-a-site"></a>建立網站的封存原則
 
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。
     
 3. 在左側導覽列中，依序按一下 **[監控和封存]** 和 **[封存原則]**。
     
-    如需有關封存原則如何運作（包括全域、網站及使用者原則的階層）的詳細資訊，請參閱 [在商務用 Skype Server 中規劃](../../plan-your-deployment/archiving/archiving.md)封存。
+    如需有關封存原則如何運作（包括全域、網站及使用者原則的階層）的詳細資訊，請參閱[Plan for 封存 in 商務用 Skype Server](../../plan-your-deployment/archiving/archiving.md)。
     
 4. 按一下 [新增]，然後按一下 [站台原則]。
     
@@ -99,13 +99,13 @@ ms.locfileid: "49820853"
     
 ## <a name="user-policies"></a>使用者原則
 
-您可以為使用者建立和設定封存原則，然後將原則套用至特定的使用者或使用者群組，來啟用或停用特定使用者的封存。 使用者原則會覆寫任何全域原則或網站原則。 封存原則只有在您未使用 Microsoft Exchange 整合時才會套用，否則，如果您使用 Microsoft Exchange 整合，但有部分使用者未位於 Exchange 上，且其信箱置於 In-Place 保留狀態時，則僅適用。
+您可以為使用者建立和設定封存原則，然後將原則套用至特定的使用者或使用者群組，來啟用或停用特定使用者的封存。 使用者原則會覆寫任何全域原則或網站原則。 僅當您不使用 microsoft Exchange 整合時，或若您使用 microsoft Exchange 整合，但有一些使用者不是位於 Exchange 上，且其信箱置於 In-Place 保留狀態，則僅適用封存原則。
   
-### <a name="configure-an-archiving-policy-for-users-homed-on-skype-for-business-server"></a>為駐留在商務用 Skype Server 上的使用者設定封存原則
+### <a name="configure-an-archiving-policy-for-users-homed-on-skype-for-business-server"></a>設定位於商務用 Skype Server 上之使用者的封存原則
 
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左側導覽列中，依序按一下 **[監控和封存]** 和 **[封存原則]**。
     
@@ -128,7 +128,7 @@ ms.locfileid: "49820853"
 
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中，按一下 **[使用者]**，然後搜尋想要設定的使用者帳戶。
     

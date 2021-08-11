@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: 在商務用 Skype Server Enterprise Voice 中管理應用層級回應群組設定，例如「暫停音樂」和「回電設定」。
-ms.openlocfilehash: 941164fb3a99f62303b45f587b64e7aff9cb1393
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在商務用 Skype Server 企業語音中管理應用層級回應群組設定，例如「暫停音樂」和「回電設定」。
+ms.openlocfilehash: a6883247f7be8816a8363c9b2790d6d0e45599484037d23af860b3e0f191dc10
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103469"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337153"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>在商務用 Skype 中管理應用層級回應群組設定
  
-在商務用 Skype Server Enterprise Voice 中管理應用層級回應群組設定，例如「暫停音樂」和「回電設定」。
+在商務用 Skype Server 企業語音中管理應用層級回應群組設定，例如「暫停音樂」和「回電設定」。
   
 回應群組應用程式的應用層級設定包括預設的等候音樂設定、預設的等候音樂音訊檔、代理程式回電寬限時間，以及通話內容設定。 您只能為每個集區定義一組應用層級的設定。 若要查看應用層級設定，請使用 **Get-CsRgsConfiguration** Cmdlet。 若要修改應用層級設定，請使用 **Set-CsRgsConfiguration** Cmdlet。
   
@@ -35,7 +35,7 @@ ms.locfileid: "51103469"
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分登入，或是以支援回應群組之其中一個預先定義的系統管理角色的成員身分登入。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 在命令列中執行：
     

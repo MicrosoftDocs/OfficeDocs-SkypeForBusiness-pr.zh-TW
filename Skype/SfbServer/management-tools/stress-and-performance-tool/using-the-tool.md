@@ -13,19 +13,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
-description: 若要執行商務用 Skype Server 2015 壓力和效能工具，您必須能夠同時管理使用者、連絡人和使用者設定檔、設定執行的工具，然後查看工具所產生的輸出或結果。
-ms.openlocfilehash: e008a85d22753a4e649da8501bd387675bb9b536
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 若要執行商務用 Skype Server 2015 的壓力和效能工具，您必須能夠管理使用者、連絡人和使用者設定檔、設定執行的工具，然後查看工具所產生的輸出或結果。
+ms.openlocfilehash: c80f623476bcfd33979256185d87786e2cf92d6b48bc0467dc61c1773569e0fe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814943"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283265"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>使用商務用 Skype Server 2015 應力和效能工具
  
-若要執行商務用 Skype Server 2015 壓力和效能工具，您必須能夠同時管理使用者、連絡人和使用者設定檔、設定執行的工具，然後查看工具所產生的輸出或結果。
+若要執行商務用 Skype Server 2015 的壓力和效能工具，您必須能夠管理使用者、連絡人和使用者設定檔、設定執行的工具，然後查看工具所產生的輸出或結果。
   
-執行商務用 Skype Server 2015 的壓力和效能工具有四個方面， (可執行檔 LyncPerfTool.exe) ：
+執行商務用 Skype Server 2015 的壓力和效能工具時，有四個方面會 LyncPerfTool.exe) 執行 (：
   
 - [建立使用者和連絡人](using-the-tool.md#BKMK_CreateUsersAndContacts)
     
@@ -38,7 +38,7 @@ ms.locfileid: "49814943"
 ## <a name="create-users-and-contacts"></a>建立使用者和連絡人
 <a name="BKMK_CreateUsersAndContacts"> </a>
 
-您必須使用商務用 Skype Server 2015 (SB 2015) 使用者布建工具 ( # A0) ，為您的壓力和效能測試建立使用者和連絡人。
+您必須使用商務用 Skype Server 2015 (SB 2015) 使用者布建工具 (UserProvisioningTool.exe) ，為您的壓力和效能測試建立使用者和連絡人。
   
 這是您閱讀主題時，可能會很有用的有用字詞清單：
   
@@ -48,20 +48,20 @@ ms.locfileid: "49814943"
     
 - **通訊群組清單** 或 DLs。 這些是 AD DS 中包含 AD DS 使用者清單的物件。 它們是用來協助跨使用者群組進行通訊。
     
-- **位置資訊服務** -商務用 Skype Server 2015 服務，啟用並設定每個電話時，允許檢索增強型 911 (E911) 服務的實體位置。
+- **位置資訊服務**-商務用 Skype Server 2015 服務，啟用並設定每個電話時，允許檢索增強型 911 (E911) 服務的實體位置。
     
-- **美國電話號碼** -指派給使用者的電話號碼，除了用於路由撥入和撥出電話的 SIP URI 之外，還會 (RNL) 。
+- **美國電話號碼**-電話指派給使用者的號碼，除了用於路由撥入和撥出電話的 SIP URI 以外， (RNL) 。
     
 ### <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>使用 UserProvisioningTool.exe 建立使用者和連絡人
 
 > [!NOTE]
 > 在您開始之前，請務必確定您已以 Domain Admins 安全性群組成員的身分登入，以執行此工具。 您必須這麼做，因為您即將建立 Active Directory 使用者。 
   
-您必須使用商務用 Skype Server 使用者布建工具建立使用者和連絡人的負載模擬。
+您必須使用商務用 Skype Server 使用者布建工具，以建立負載模擬的使用者和連絡人。
   
-**商務用 Skype Server 使用者** 布建工具隨 **商務用 skype Server 壓力和效能工具** 套件一起安裝。 請確定已在前端伺服器或您想要測試的 Standard Edition 伺服器上執行 ( # A0) 的套件安裝程式。
+**商務用 Skype Server 使用者** 布建工具隨 **商務用 Skype Server 壓力和效能工具** 套件一起安裝。 請確定套件安裝程式 (CapacityPlanningTool.msi) 已在前端伺服器或您想要測試的 Standard Edition 伺服器上執行。
   
-您可以在前端伺服器或 Standard Edition server 上執行檔案 UserProvisioningTool.exe (，以啟動商務用 Skype Server 使用者布建工具，) 位於% InstalledDirectory% LyncStressAndPerfTool \ LyncStress 上。
+您可以執行商務用 Skype Server 使用者布建工具，方法是執行 UserProvisioningTool.exe (位於前端伺服器或 Standard Edition 伺服器上的% InstalledDirectory% LyncStressAndPerfTool \ LyncStress) 。
   
 > [!IMPORTANT]
 > 當您建立大量使用者 (例如10000或更多) 時，請執行 UserProvisioningTool.exe。 您必須這麼做，因為工具將會建立及設定  *新*  的 AD 使用者。
@@ -74,7 +74,7 @@ ms.locfileid: "49814943"
   
 ### <a name="to-configure-server-options"></a>若要設定伺服器選項：
 
-1. 在 [ **前端集區 FQDN** ] 欄位中，輸入要用來主控使用者之 Standard Edition server 的完整功能變數名稱 (FQDN) 或前端集區。
+1. 在 [**前端集區 FQDN** ] 欄位中，輸入 Standard Edition 伺服器的完整功能變數名稱 (FQDN) ，或您要主控使用者之前端集區的名稱。
     
 2. 在 [ **使用者名稱首碼** ] 欄位中，輸入您要用來 bust 用於測試目的的使用者名稱的前置詞 (例如 "TestUser" ) 。
     
@@ -84,7 +84,7 @@ ms.locfileid: "49814943"
     
 5. 在 [ **組織單位** ] 欄位中，輸入您要建立這些測試使用者的 AD 網功能變數名稱稱。  (如果 OU 尚不存在，則會為您建立) 。
     
-6. 在 [ **電話區號** ] 欄位中，輸入要在所有測試使用者帳戶中使用的三位數區功能變數代碼。 請確認您所選擇的地區代碼與 AD 中的其他使用者區功能變數代碼不會發生衝突。
+6. 在 [**電話地區碼**] 欄位中，輸入要在所有測試使用者帳戶中使用的三位數區功能變數代碼。 請確認您所選擇的地區代碼與 AD 中的其他使用者區功能變數代碼不會發生衝突。
     
 7. 如果您想要啟用企業語音的測試使用者，請按一下以選取 **語音啟用** 核取方塊。
     
@@ -110,7 +110,7 @@ ms.locfileid: "49814943"
 當您按一下 [ **刪除使用者** ] 按鈕時，將會驗證索引標籤的輸入參數。 如果有驗證錯誤，系統會提示您修正這些錯誤，如果輸入值正確，就會停用指定的測試使用者，並將其從 Active Directory 中刪除。 同樣地，進度列會出現在此索引標籤的底部，而且您不應該在進度列處於作用中時關閉應用程式。
   
 > [!NOTE]
-> 只支援 U.S. 格式的電話號碼。 電話號碼永遠會指派給使用者，而由 UserProvisioningTool.exe 所建立的所有使用者預設都會啟用 Enterprise Voice。 使用電話號碼的任何案例（如會議自動語音應答或 UC-PSTN 通話）都會使用此電話號碼來正確地路由通話。 因此，  *每個使用者*  都必須有 *唯一的電話號碼*  。
+> 只支援 U.S. 格式的電話號碼。 電話號碼一定會指派給使用者，而且所有由 UserProvisioningTool.exe 所建立的使用者預設都會啟用企業語音。 使用電話號碼的任何案例（如會議自動語音應答或 UC-PSTN 通話）都會使用此電話號碼來正確地路由通話。 因此，  *每個使用者*  都必須有 *唯一的電話號碼*  。
   
 > [!NOTE]
 > **如果您必須建立使用者兩次，除非您使用不同的區號，或是先前的使用者已使用 Disable-CsUser Cmdlet 停用，否則命令將會失敗。**
@@ -119,7 +119,7 @@ ms.locfileid: "49814943"
 > 建立連絡人之前，您必須先完成從 [使用者] 索引標籤執行的使用者複寫 () 。 
   
 > [!IMPORTANT]
-> 如果您剛剛建立使用者，則必須等到商務用 Skype Server 複寫完成，並填入資料庫中的使用者帳戶。 **如果使用者尚未完成複寫，您會看到錯誤。** 如果已啟動商務用 Skype Server 2015 前端服務，或是成功于您指定之總數的最後一個使用者上執行 Get-CsUser Cmdlet，您就會知道使用者何時完成複製。
+> 如果您剛剛建立使用者，必須等到商務用 Skype Server 複寫完成，並填入資料庫中的使用者帳戶。 **如果使用者尚未完成複寫，您會看到錯誤。** 如果已啟動商務用 Skype Server 2015 前端服務，或是成功于您指定之總數的最後一個使用者上執行 Get-CsUser Cmdlet，您就會知道使用者何時完成複製。
   
 #### <a name="contacts-creation-tab"></a>[建立連絡人] 索引標籤
 
@@ -150,7 +150,7 @@ ms.locfileid: "49814943"
   
 #### <a name="distribution-list"></a>通訊群組清單
 
-商務用 Skype Server 2015 應力和效能工具可以模擬商務用 Skype 2015 用戶端中的通訊群組清單 (DL) 擴充功能。 如果您不想要在使用者布建工具中啟用 DL 擴充，可以略過此步驟。
+商務用 Skype Server 2015 的壓力和效能工具可以模擬商務用 Skype 2015 用戶端中的通訊群組清單 (DL) 擴充功能。 如果您不想要在使用者布建工具中啟用 DL 擴充，可以略過此步驟。
   
 ![使用者布建工具，顯示 [通訊群組清單建立] 索引標籤。](../../media/4b689306-70c4-4569-9842-15c73f038eb6.png)
   
@@ -172,11 +172,11 @@ ms.locfileid: "49814943"
   
 #### <a name="location-info-service-config-tab"></a>位置資訊服務的 [配置] 索引標籤
 
-商務用 Skype Server 2015 應力和效能工具也可以產生位置資訊服務的虛擬設定檔。 請注意，位置資訊服務通常對伺服器的效能影響不大。 
+商務用 Skype Server 2015 的壓力和效能工具也可以產生位置資訊服務的虛擬設定檔。 請注意，位置資訊服務通常對伺服器的效能影響不大。 
   
 ![使用者布建工具，顯示 [位置資訊服務配置] 索引標籤。](../../media/227662a2-e0c3-4e34-ab54-5f1459344f30.png)
   
-如果您選擇測試此功能，請填入表單中的值，然後按一下 [產生 .LIS 的 Config Files] 按鈕，即可建立。所呼叫的 CSV 檔案：
+如果您選擇測試此功能，請填入表單中的值，然後按一下 [產生 .LIS 的 Config Files] 按鈕，將會建立名為的 .CSV 檔案：
   
 - LIS_Subnet.csv
     
@@ -199,14 +199,14 @@ ms.locfileid: "49814943"
 ## <a name="configure-user-profile"></a>設定使用者設定檔
 <a name="BKMK_UserProfile"> </a>
 
-透過使用者建立工具建立使用者 (之後) 您可以使用商務用 Skype Server 2015 負載設定工具設定使用者設定檔 ( # A0) 。
+透過使用者建立工具建立使用者 (之後) 您可以使用商務用 Skype Server 2015 負載設定工具 (UserProfileGenerator.exe) 來設定使用者設定檔。
   
-### <a name="running-the-skype-for-business-server-2015-load-configuration-tool"></a>執行商務用 Skype Server 2015 載入設定工具
+### <a name="running-the-skype-for-business-server-2015-load-configuration-tool"></a>執行商務用 Skype Server 2015 Load Configuration 工具
 
-啟動載入設定工具 ( # A0) 並填入索引標籤。 此工具會為您需要執行模擬的每一部用戶端電腦建立目錄。 每個用戶端目錄隨附一個腳本，以啟動商務用 Skype Server 2015 應力和效能工具 ( # A0) 。 以下各節將提供範例，說明如何在商務用 Skype Server 2015 載入設定工具的每個索引標籤上填寫欄位。
+啟動 [載入設定工具 (UserProfileGenerator.exe]) 並填入索引標籤。 此工具會為您需要執行模擬的每一部用戶端電腦建立目錄。 每個用戶端目錄隨附一個腳本，以啟動商務用 Skype Server 2015 的壓力和效能工具 (LyncPerfTool.exe) 。 以下各節將提供範例，說明如何在商務用 Skype Server 2015 負載設定工具的每個索引標籤上填入欄位。
   
 > [!IMPORTANT]
-> 負載設定工具 ( # A0) 中使用的使用者特定值，必須與集區的商務用 Skype Server 2015 使用者建立工具 ( # A1) 所指定的值相符。 
+> 在 [載入設定工具] (UserProfileGenerator.exe) 中使用的使用者特定值，必須符合集區中商務用 Skype Server 2015 使用者建立工具 (UserProvisioningTool.exe) 中所指定的值。 
   
 #### <a name="common-configuration-tab"></a>通用設定] 索引標籤
 
@@ -214,29 +214,29 @@ ms.locfileid: "49814943"
   
 ![顯示通用設定] 索引標籤的 [使用者布建] 索引標籤。](../../media/c25df343-3550-47fb-88e0-29194338fee2.png)
   
-1. 在 [ **可用機器數目** ] 欄位中，輸入您要用來執行壓力和效能工具 ( # A0) 的電腦數目。 我們建議您為每個要模擬的4500使用者提供一部電腦，但是該數目會因您降低負載層級而異，或僅使用工具可用功能的子集 (負載層級是在 [一般案例] 索引標籤) 上設定。
+1. 在 [ **可用機器數目** ] 欄位中，輸入您要用來執行壓力和效能工具 (LyncPerfTool.exe) 的電腦數目。 我們建議您為每個要模擬的4500使用者提供一部電腦，但是該數目會因您降低負載層級而異，或僅使用工具可用功能的子集 (負載層級是在 [一般案例] 索引標籤) 上設定。
     
 2. 在 [ **使用者名稱的首碼** ] 欄位中，為所有使用者輸入 [使用者名稱] 欄位的首碼。 若要登入統一資源識別項 (URI) 會是： *UserPrefix [User Start Index ... (使用者數目-1) ] @User 網域*  ，例如 myUser009@Contoso.com。
     
 3. 在 [ **所有使用者的密碼** ] 欄位中，輸入使用者建立時所使用的密碼。 如果您將此欄位保留空白，則會將使用者名稱設為密碼。
     
-4. 在 [ **使用者起始索引** ] 欄位中，輸入要設定的第一位使用者的索引。 您可以為不同的類型或不同的負載層級設定不同的範圍，但是您必須在每個您要設定的範圍中執行「載入設定工具 ( # A0) 一次。
+4. 在 [ **使用者起始索引** ] 欄位中，輸入要設定的第一位使用者的索引。 您可以為不同的類型或不同的負載層級設定不同的範圍，但是必須針對您要設定的範圍執行「載入設定工具 (UserProfileGenerator.exe) 一次。
     
 5. 在 [ **使用者數目** ] 欄位中，輸入您要設定的使用者總數。
     
-6. 在 [ **使用者網域** ] 欄位中，輸入用於 SIP URI 的網域。 這是用來建立每一位使用者的 SIP URI，以登入商務用 Skype Server 2015 前端伺服器或 Standard Edition server，而且可能會不同于帳戶網域。
+6. 在 [ **使用者網域** ] 欄位中，輸入用於 SIP URI 的網域。 這是用來建立每一位使用者的 SIP URI，以登入商務用 Skype Server 2015 前端伺服器或 Standard Edition 伺服器，而且可能與帳戶網域不同。
     
 7. 在 [ **帳戶網域** ] 欄位中，輸入 AD DS 網域登入。
     
 8. 在 [ **MPOP 百分比** (多重存在) ] 欄位中，為從多部機器或裝置登入的使用者百分比提供值，例如10%。
     
-9. 在 [ **每秒 (每個實例)** ] 欄位中輸入最大並行端點數目。 這是使用者的最大登入數目，而建議的速率為小於/等於每秒 ( # B0 = 2) 。
+9. 在 [ **每秒 (每個實例)** ] 欄位中輸入最大並行端點數目。 這是使用者的最大登入數目，而建議的速率為小於/等於2每秒 (<= 2) 。
     
-10. 在 [ **Access Proxy 或集區 FQDN** ] 欄位中，輸入您要讓用戶端連接之伺服器的完整功能變數名稱 (FQDN) 。 若使用者在外部登入，您必須輸入存取 proxy proxy。 如果使用者是內部使用者，請提供其 Enterprise 集區或 Standard Edition server 的 FQDN。
+10. 在 [ **Access Proxy 或集區 FQDN** ] 欄位中，輸入您要讓用戶端連接之伺服器的完整功能變數名稱 (FQDN) 。 若使用者在外部登入，您必須輸入存取 proxy proxy。 如果使用者是內部使用者，請給其 Enterprise 集區或 Standard Edition 伺服器的 FQDN。
     
 11. 在 [ **埠** ] 欄位中，輸入您要讓使用者用於 SIP 的埠 (預設值為 5061) 。
     
-12. 針對 [ **外部網路伺服器設定** ] 欄位，請提供訪問 Proxy 或集區 FQDN，然後再給該 **埠**。 這些設定只用于外部端點的負載模擬。
+12. 針對 [**外部網路伺服器設定**] 欄位中，提供存取 Proxy 或集區 FQDN，然後再給該 **埠**。 這些設定只用于外部端點的負載模擬。
     
 #### <a name="general-scenarios-tab"></a>一般案例] 索引標籤
 
@@ -255,11 +255,11 @@ ms.locfileid: "49814943"
     
 - **資料共同作業-** 選擇資料共同作業的負載層級（包括資料會議）。
     
-- **通訊群組清單擴充-** 按一下 [ **高級** ] 按鈕，並使用使用者建立工具 ( # A0) 中的 [DL] 索引標籤上所設定的相同值填入欄位。 選擇一種負載層級。
+- **通訊群組清單擴充-** 按一下 [ **高級** ] 按鈕，並在 [使用者建立工具 (UserProvisioningTool.exe]) 的 [DL] 索引標籤上設定相同值的欄位。 選擇一種負載層級。
     
 - **通訊錄 Web 查詢-** 這是通訊錄查閱服務，而不是通訊錄檔案下載。 如果您想要針對通訊錄檔案下載啟用此功能，請按一下 [ **高級** ] 按鈕，並將 **EnableABSDownload** 設定為 True。 為 [負載層級] 提供值。
     
-- **回應群組服務-** 按一下 [ **高級** ] 按鈕，並指定當您布建回應群組服務代理程式時，您已建立的回應群組 URIs。 您必須選擇至少一個回應群組。 若要使用其他，請以分號分隔回應群組。 將 **RGSUriSuffixStartIndex** 及 **RGSUriSuffixEndIndex** 更新為實際值。 選擇一種負載層級。
+- **回應群組服務-** 按一下 [**高級**] 按鈕，並指定當您布建回應群組服務代理程式時，您已建立的回應群組 URIs。 您必須選擇至少一個回應群組。 若要使用其他，請以分號分隔回應群組。 將 **RGSUriSuffixStartIndex** 及 **RGSUriSuffixEndIndex** 更新為實際值。 選擇一種負載層級。
     
 - **位置資訊服務-** 選取 [啟用] 或 [已停用] 的負載層級。
     
@@ -293,7 +293,7 @@ ms.locfileid: "49814943"
     > [!TIP]
     > 您可以使用商務用 Skype 控制台或商務用 Skype 管理命令介面來驗證您的語音路由設定。 
   
-- **會議助理-** 提供負載層級的值。 任何非 Disabled 的值都會啟用 [ **電話號碼** ] 欄位。 輸入您想要使用之自動語音應答的電話號碼。 按一下 [ **高級** ]，並提供 **microsoft.rtc.management.writableconfig.policy.voice.locationprofile** 欄位的值。
+- **會議語音應答-** 提供負載層級的值。 任何非 Disabled 的值都會啟用 [ **電話號碼** ] 欄位。 輸入您想要使用之自動語音應答的電話號碼。 按一下 [ **高級** ]，並提供 **microsoft.rtc.management.writableconfig.policy.voice.locationprofile** 欄位的值。
     
 - **通話駐留服務-** 在這裡，提供負載層級。
     
@@ -308,7 +308,7 @@ ms.locfileid: "49814943"
   
 Web 應用程式透過安裝在前端伺服器上的整合通訊 Web API (UCWA) 伺服器，支援會議案例。 使用 [Web 應用程式] 索引標籤來設定所有 Web 應用程式相關案例。 選項包括：
   
-- **一般 Web 應用程式設定-** 按一下 [ **其他設定** ] 按鈕，並將 **ReachTargetServerUrl** 設定為前端集區 VIP 的目錄集區虛擬 IP (VIP) 。
+- **一般 Web App 設定-** 按一下 [**其他設定**] 按鈕，並將 **ReachTargetServerUrl** 設定為前端集區 VIP 的目錄集區虛擬 IP (VIP) 。
     
 - **應用程式共用-** 選取 [負載層級] 的值。
     
@@ -329,7 +329,7 @@ Web 應用程式透過安裝在前端伺服器上的整合通訊 Web API (UCWA) 
   
 選項如下：
   
-- **一般行動設定-** 按一下 [ **其他設定** ]，然後將 [欄位 UcwaTargetServerUrl] 設定為 Director 集區虛擬 IP (VIP) 或前端集區 VIP。
+- **一般行動性設定-** 按一下 [**其他設定**]，然後將 [欄位 UcwaTargetServerUrl] 設定為 Director 集區虛擬 IP (VIP) 或前端集區 VIP。
     
 - 目前 **狀態和 P2P 立即訊息/音訊-** 選取 [負載層級] 的值，啟用行動類比。
     
@@ -346,7 +346,7 @@ Web 應用程式透過安裝在前端伺服器上的整合通訊 Web API (UCWA) 
   
 您可以手動設定使用者號碼範圍，方法是選取 [ **啟用自訂使用者範圍產生** ] 核取方塊，然後在具有您要自訂之使用者範圍的資料表中，按兩下案例。
   
-檢查 **( # A0) 新增登入延遲** ，以包含產生的批次處理檔中的延遲以對應到登入率。 當您簽署大量使用者時，這是避免伺服器超載的有用方法。
+檢查 **(RunClient.bat) 新增登入延遲** ，以包含產生的批次處理檔中的延遲，以對應到登入率。 當您簽署大量使用者時，這是避免伺服器超載的有用方法。
   
 按一下 [ **產生** 檔案]，然後選取您要產生設定的資料夾。 當您已成功建立檔案時，會出現一個對話方塊。
   
@@ -355,17 +355,17 @@ Web 應用程式透過安裝在前端伺服器上的整合通訊 Web API (UCWA) 
 ## <a name="run-lyncperftool"></a>執行 LyncPerfTool
 <a name="BKMK_RunTool"> </a>
 
-在執行商務用 Skype Server 2015 的應力和效能工具 ( # A0) 之前，您必須先建立使用者、連絡人及案例。 如需使用工具來執行這些動作的詳細資訊，請參閱 [建立使用者和連絡人](using-the-tool.md#BKMK_CreateUsersAndContacts) 及設定本文先前的 [使用者設定檔](using-the-tool.md#BKMK_UserProfile) 。 執行這些工具也會產生一個檔案，該檔案會以壓力和效能工具，以包含必要參數的批次檔案的一部分來執行。
+在 (LyncPerfTool.exe) 中執行商務用 Skype Server 2015 的壓力和效能工具之前，您必須先建立使用者、連絡人及案例。 如需使用工具來執行這些動作的詳細資訊，請參閱 [建立使用者和連絡人](using-the-tool.md#BKMK_CreateUsersAndContacts) 及設定本文先前的 [使用者設定檔](using-the-tool.md#BKMK_UserProfile) 。 執行這些工具也會產生一個檔案，該檔案會以壓力和效能工具，以包含必要參數的批次檔案的一部分來執行。
   
 ### <a name="running-the-skype-for-business-server-2015-stress-and-performance-tool"></a>執行商務用 Skype Server 2015 應力和效能工具
 
-「載入設定」工具 ( # A0) 會建立批次處理檔案，可讓您透過註冊效能計數器及載入 XML 設定檔，來執行壓力和效能工具 ( # A1) 。 批次檔案會針對每個設定檔執行 LyncPerfTool.exe 的一個實例。 若要執行批次檔，請遵循下列步驟：
+載入設定工具 (UserProfileGenerator.exe) 會建立批次處理檔案，可讓您透過註冊效能計數器及載入 XML 設定檔，來執行壓力和效能工具 (LyncPerfTool.exe) 。 批次檔案會針對每個設定檔執行 LyncPerfTool.exe 的一個實例。 若要執行批次檔，請遵循下列步驟：
   
 ### <a name="run-the-stress-and-performance-test"></a>執行壓力和效能測試
 
 1. 將資料夾中的設定資料夾和檔案，複製到每個用戶端電腦上有 LyncPerfTool.exe 的目錄中。  (例如，如果在名為 1.28 _ 13.16.16 的資料夾中產生設定檔，請將該資料夾複製到具有 LyncPerfTool.exe 的資料夾中。 在每個用戶端執行這項作業。 ) 
     
-2. 流覽至用戶端資料夾，並執行 **RunClient** 批次腳本。 您可以按兩下 [Windows Explorer] 中的批次檔，以執行該用戶端的所有設定檔。 您也可以使用下列語法，從用戶端資料夾執行腳本：
+2. 流覽至用戶端資料夾，並執行 **RunClient** 批次腳本。 您可以在 Windows Explorer 中按兩下批次處理檔案，它會針對該用戶端執行所有的設定檔案。 您也可以使用下列語法，從用戶端資料夾執行腳本：
     
    ```console
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
@@ -396,7 +396,7 @@ LyncPerfTool.exe /file:IM_client0.xml /displayfile
 ## <a name="interpreting-the-results"></a>解讀結果
 <a name="BKMK_Interpret"> </a>
 
-商務用 Skype Server 2015 應力和效能工具有許多計數器可協助您瞭解用戶端的執行狀況，以及是否發生問題。
+商務用 Skype Server 2015 的壓力和效能工具有許多計數器可協助您瞭解用戶端的執行狀況，以及是否遇到問題。
   
 ### <a name="client-counters"></a>用戶端計數器
 

@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
-description: 摘要：瞭解「取得最近的整合資料」作業，此作業是「呼叫品質」儀表板的資料 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
-ms.openlocfilehash: c40041e41e04d2bdc62a9eb9fa1eb699697a5b3d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解「取得最近的整合資料」作業，此作業是「呼叫品質」儀表板的資料 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
+ms.openlocfilehash: 42542a092baba41e334f30ba50029ab7efa70bf1af59b7ecf8cf2bd05f3f1b62
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832513"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278411"
 ---
 # <a name="get-last-integration-data"></a>取得上次整合資料
  
-**摘要：** 深入瞭解「取得最後的整合資料」作業，此作業是「通話品質」儀表板的資料 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
+**摘要：** 深入瞭解「取得最後的整合資料」作業，此作業是「通話品質」儀表板的資料 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
   
 「取得最後一個整合資料」作業是「呼叫品質」儀表板之資料 API 的一部分。
   

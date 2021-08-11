@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
-description: 摘要：瞭解屬於專案服務的「取得專案祖先」作業。 專案服務是「呼叫品質」儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
-ms.openlocfilehash: 59fcd10f620b32151346e8732e67ae6151a258ff
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解屬於專案服務的「取得專案祖先」作業。 專案服務是「呼叫品質」儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
+ms.openlocfilehash: bb756e35ff835d889ef8d8c8f613529ab7d6a5c08de339fe7892779921367997
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278651"
 ---
 # <a name="get-item-ancestors"></a>取得項目上階
  
-**摘要：** 瞭解 [取得專案] 上級作業，這是專案服務的一部分。 專案服務是「呼叫品質」儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
+**摘要：** 瞭解 [取得專案] 上級作業，這是專案服務的一部分。 專案服務是「呼叫品質」儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
   
 「取得專案祖先」作業是存放庫 API for a Call Quality 儀表板的專案服務的一部分。
   

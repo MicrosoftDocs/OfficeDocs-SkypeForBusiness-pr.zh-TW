@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 摘要：瞭解如何在商務用 Skype Server 中測試電話撥入式會議。
-ms.openlocfilehash: be1cf5bba5a5bec2076f78880343582be19eda70
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6ed82ac33fc9fc63bab127834c039d045e585c9efd4ea2c15b5dba2fdaf8edbe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096729"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283345"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>測試商務用 Skype Server 中的電話撥入式會議
  
 **摘要：** 瞭解如何在商務用 Skype Server 中測試電話撥入式會議。
   
-做為您的電話撥入式會議設定的最終驗證，您可以搜尋撥號對應表，該撥號對應表中的電話撥入式會議地區未使用任何存取號碼，且未指定電話撥入式會議區域的存取號碼。 此外，您也應驗證電話撥入式會議設定網頁和撥入式存取號碼是否運作正常。
+做為您的電話撥入式會議設定的最終驗證，您可以搜尋撥號對應表，該撥號對應表中的電話撥入式會議地區未使用任何存取號碼，且未指定電話撥入式會議區域的存取號碼。 您也應該確認電話撥入式會議設定網頁和撥入式存取號碼是否運作正常。
   
 ## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>使用電話撥入式會議區域（未使用的存取號碼）尋找撥號對應表
 
 1. 以 RTCUniversalServerAdmins 群組成員或 Cs-ServerAdministrator、CsAdministrator 角色成員的身分登入電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 在命令提示字元中執行下列命令：
     
@@ -45,7 +45,7 @@ ms.locfileid: "51096729"
 
 1. 以 RTCUniversalServerAdmins 群組成員或 Cs-ServerAdministrator、CsAdministrator 角色成員的身分登入電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 在命令提示字元中執行下列命令：
     
@@ -69,7 +69,7 @@ ms.locfileid: "51096729"
 
 1. 以 RTCUniversalServerAdmins 群組成員或 Cs-ServerAdministrator、CsAdministrator 角色成員的身分登入電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 在命令提示字元中執行下列命令：
     

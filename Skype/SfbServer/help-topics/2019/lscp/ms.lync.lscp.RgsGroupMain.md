@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 回應群組中包含代理群組、佇列及工作流程。 代理人群組是指定給回應回應群組通話的人員群組。
-ms.openlocfilehash: 74f7114894e76981003faf4a0e9167a03df02302
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9a3d6abc058924ac9e96600b0dc290ef149192b6664de4b6e9da1c19d66ad337
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118812"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311941"
 ---
 # <a name="response-groups-group"></a>回應群組：群組
 
@@ -56,4 +56,4 @@ ms.locfileid: "51118812"
 
 - **描述** 代理人群組的描述。
 
-如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype Server 中規劃回應群組應用程式](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 。 如需使用代理群組的詳細資訊，請參閱作業文件中的＜[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)＞。
+如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔[中商務用 Skype Server 的回應群組應用程式](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 如需使用代理群組的詳細資訊，請參閱作業文件中的＜[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)＞。

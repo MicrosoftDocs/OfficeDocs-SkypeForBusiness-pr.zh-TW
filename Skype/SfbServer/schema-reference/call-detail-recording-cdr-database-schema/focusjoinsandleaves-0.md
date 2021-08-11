@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: FocusJoinsAndLeaves 檢視可儲存會議的加入和離開相關資訊。 每次有使用者加入和離開某場會議時，此檢視中的該場會議都會有一筆撰寫記錄來表示。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 30e6535461c8887a832fec39bfd14c51976260d8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 12bfac794378a27c612a5afa06d63c57ba23bbcdce3ea1bd7e928a663d99fd3b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821663"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278361"
 ---
 # <a name="focusjoinsandleaves-view"></a>FocusJoinsAndLeaves view
  
@@ -26,8 +26,8 @@ FocusJoinsAndLeaves 檢視可儲存會議的加入和離開相關資訊。 每�
   
 |**欄**|**資料類型**|**詳細資料**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |會議執行個體的時間。 會與 SessionIdSeq 搭配使用，專門用於識別會議執行個體。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中](conferences.md) 的 [會議] 表格。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |用於辨識執行個體的 ID 號碼。 會與 SessionIDTime 搭配使用，專門用於識別會議執行個體。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中](conferences.md) 的 [會議] 表格。 <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |會議執行個體的時間。 會與 SessionIdSeq 搭配使用，專門用於識別會議執行個體。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中](conferences.md)的 [會議] 表格。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |用於辨識執行個體的 ID 號碼。 會與 SessionIDTime 搭配使用，專門用於識別會議執行個體。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中](conferences.md)的 [會議] 表格。 <br/> |
 |**UserUri** <br/> |Nvarchar (450)   <br/> |已擷取其加入/離開會議資訊之使用者的 URI。  <br/> |
 |**UserUriType** <br/> |Nvarchar (256)   <br/> |已擷取其加入/離開會議資訊之使用者的 URI 類型。 如需詳細資訊，請參閱 [UriTypes 表格](uritypes.md) 。 <br/> |
 |**UserTenant** <br/> |Nvarchar (256)   <br/> |已擷取其加入/離開會議資訊之使用者的租用戶。 如需詳細資訊，請參閱 [承租人資料表](tenants.md) 。 <br/> |
@@ -37,7 +37,7 @@ FocusJoinsAndLeaves 檢視可儲存會議的加入和離開相關資訊。 每�
 |**UserClientCategory** <br/> |Nvarchar (64)   <br/> |已擷取其加入/離開會議資訊之使用者所用的用戶端類別名稱。  <br/> |
 |**FocusUserInstance** <br/> |int  <br/> ||
 |**IsuserInternal** <br/> |位  <br/> |代表使用者是否為內部使用者的位元。  <br/> |
-|**DialogSessionIdTime** <br/> |datetime  <br/> |工作階段要求的時間。 與 SessionIdSeq 搭配使用，以唯一識別工作階段。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中的對話方塊表格](dialogs.md) 。 <br/> |
+|**DialogSessionIdTime** <br/> |datetime  <br/> |工作階段要求的時間。 與 SessionIdSeq 搭配使用，以唯一識別工作階段。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中的對話方塊表格](dialogs.md)。 <br/> |
 |**DialogSessionIdSeq** <br/> |int  <br/> |若使用者同時登入多部電腦或裝置，會使用 UserInstance 專門識別使用者/裝置的組合。  <br/> |
 |**DialogId** <br/> |Varchar (775)   <br/> |工作階段的 SIP 對話方塊識別碼，格式為：dialog;from-tag;to-tag。  <br/> |
 |**UserJoinTime** <br/> |datetime  <br/> |使用者加入會議的時間。  <br/> |

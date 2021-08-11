@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中部署用於嚴重損壞修復的配對前端集區
+title: 在商務用 Skype Server 中為嚴重損壞修復部署成對的前端集區
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 您可以決定使用成對的前端集區來提供嚴重損壞修復保護，但這不是必要條件。
-ms.openlocfilehash: 7d066de60bf3ab98d73d8aeee08044803fad983c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bc061e05931c6a4b58d754623bde580e35c2c51367228a05126783d83d3fd27a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830603"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312051"
 ---
-# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>在商務用 Skype Server 中部署用於嚴重損壞修復的配對前端集區
+# <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>在商務用 Skype Server 中為嚴重損壞修復部署成對的前端集區
  
 您可以決定使用成對的前端集區來提供嚴重損壞修復保護，但這不是必要條件。
   
@@ -55,7 +55,7 @@ ms.locfileid: "49830603"
     
 9. 在兩個集區中的每一部前端伺服器上，引導程式完成安裝備份配對所需的元件後，請務必重新套用先前在這兩個集區中的前端伺服器上套用的任何現有累計更新，然後繼續進行下一個步驟。
 
-10. 從商務用 Skype Server 管理命令介面命令提示字元中，執行下列命令： 
+10. 從商務用 Skype Server 管理命令介面命令提示字元處，執行下列命令： 
     
    ```powershell
    Start-CsWindowsService -Name LYNCBACKUP
@@ -86,4 +86,4 @@ ms.locfileid: "49830603"
   
 ## <a name="see-also"></a>另請參閱
 
-[商務用 Skype Server 中的前端集區嚴重損壞修復](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+[商務用 Skype Server 中的前端集區災害復原](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

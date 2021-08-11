@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 摘要：設定沒有為商務用 Skype Server 啟用媒體旁路的主幹。
-ms.openlocfilehash: 4cf17da7233697d31f386501be6f7089bf803205
+ms.openlocfilehash: 737fbc850583513b6782878fbd75484716364bcf258db2e5183e0800700d3891
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772424"
+ms.locfileid: "54312071"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>商務用 Skype Server：設定沒有媒體旁路的主幹
 

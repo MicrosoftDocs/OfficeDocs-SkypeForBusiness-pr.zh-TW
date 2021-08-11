@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
-description: 摘要：閱讀此主題以瞭解如何建立 Persistent Chat Server 系統管理員角色，以在商務用 Skype Server 2015 中啟用 Persistent 聊天服務的初始設定和管理。
-ms.openlocfilehash: eea989b0284353e193ebf99a0be99b2d0811e532
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：閱讀此主題以瞭解如何建立 persistent chat Server 系統管理員角色，以在商務用 Skype Server 2015 中啟用 persistent 聊天服務的初始設定和管理。
+ms.openlocfilehash: 61b601399f1e21fa36a7f7b9ead1a458b577179295c40154a78f861c6bc0c156
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802093"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337093"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中建立持續性聊天系統管理員
  
-**摘要：** 閱讀此主題以瞭解如何建立 Persistent Chat Server 系統管理員角色，以在商務用 Skype Server 2015 中啟用 Persistent Chat service 的初始設定和管理。
+**摘要：** 閱讀此主題以瞭解如何建立 persistent chat Server 系統管理員角色，以在商務用 Skype Server 2015 中啟用 persistent 聊天服務的初始設定和管理。
   
-在商務用 Skype Server 中，執行特定工作的使用者必須指派為一或多個特定群組的成員。 Role-Based 存取控制 (RBAC) 是用來授與許可權的方式，方法是指派使用者至預先定義的商務用 Skype Server 系統管理角色。 這些角色會對應至 Active Directory 網域服務中的通用安全性群組。 Persistent Chat 系統管理員安全性群組的成員（CsPersistentChatAdministrator）會被授與 Persistent Chat Server Cmdlet 的存取權，可使用商務用 Skype Server 管理命令介面或商務用 Skype Server 控制台執行。
+在商務用 Skype Server 中，執行特定工作的使用者必須指派為一或多個特定群組的成員。 Role-Based 存取控制 (RBAC) 是用來授與許可權的方式，方法是指派使用者至預先定義的商務用 Skype Server 系統管理角色。 這些角色會對應至 Active Directory 網域服務中的通用安全性群組。 可使用商務用 Skype Server 管理命令介面或商務用 Skype Server 控制台，將 persistent chat Server Cmdlet 的存取權授與 CsPersistentChatAdministrator，以取得 persistent chat Server Cmdlet 的成員。
   
 在設定及管理 Persistent Chat Server 之前，請確定適當的使用者權限及許可權已存在，而且將充當 Persistent Chat 系統管理員的任何使用者都已新增至 Persistent Chat Administrator 安全性群組。
   
 > [!NOTE] 
-> 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或是繼續使用商務用 Skype Server 2015。
+> 持續聊天可在商務用 Skype Server 2015 中取得，但在商務用 Skype Server 2019 中已不再支援。 Teams 中提供相同的功能。 如需詳細資訊，請參閱[Microsoft Teams 升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續性聊天，您可以選擇將需要這項功能的使用者遷移至 Teams，或是繼續使用商務用 Skype Server 2015。
 
 ## <a name="create-a-persistent-chat-administrator"></a>建立常設聊天室系統管理員
 

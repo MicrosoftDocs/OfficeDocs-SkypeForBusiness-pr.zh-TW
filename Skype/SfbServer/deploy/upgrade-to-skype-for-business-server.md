@@ -1,5 +1,5 @@
 ---
-title: 升級至商務用 Skype Server 2015
+title: 升級為商務用 Skype Server 2015
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,40 +16,40 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
-description: 摘要：瞭解如何從 Lync Server 2013 升級為商務用 Skype Server 2015。 從 Microsoft 評估中心下載免費試用版的商務用 Skype Server 2015，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: cda83d03db697a0adf404af4f6fe6e350abf6b58
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解如何從 Lync Server 2013 升級為商務用 Skype Server 2015。 從 Microsoft 評估中心下載商務用 Skype Server 2015 的免費試用版，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
+ms.openlocfilehash: a295b723dce318fc51121f3a5290dbf9b1fef3d41df9d7716780816168e6a2df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820423"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292261"
 ---
-# <a name="upgrade-to-skype-for-business-server-2015"></a>升級至商務用 Skype Server 2015
+# <a name="upgrade-to-skype-for-business-server-2015"></a>升級為商務用 Skype Server 2015
  
-**摘要：** 瞭解如何從 Lync Server 2013 升級為商務用 Skype Server 2015。 從  [Microsoft 評估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)下載商務用 Skype Server 2015 免費試用版。
+**摘要：** 瞭解如何從 Lync Server 2013 升級為商務用 Skype Server 2015。 從[Microsoft 評估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)下載商務用 Skype Server 2015 的免費試用版。
   
-使用此檔中的程式，透過使用商務用 Skype Server 拓撲產生器和新的 In-Place 升級功能，從 Lync Server 2013 升級至商務用 Skype Server 2015。 如果您想要從 Lync Server 2010 或 Office 通訊伺服器 2007 R2 升級，請參閱 [Plan to upgrade To Business server 2015](../plan-your-deployment/upgrade.md)。
+使用本檔中的程式，透過使用商務用 Skype Server 拓撲產生器和新的 In-Place 升級功能，從 Lync Server 2013 升級為商務用 Skype Server 2015。 如果您想要從 Lync server 2010 或 Office 通訊伺服器 2007 R2 升級，請參閱[Plan to upgrade to 商務用 Skype Server 2015](../plan-your-deployment/upgrade.md)。
 
 > [!NOTE]
-> 您可以在商務用 Skype 2015 Server 中取得就地升級，但在商務用 Skype Server 2019 中已不再支援就地升級。 受支援的並排 coexistance，請參閱 [遷移至商務用 Skype Server 2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md) 以取得詳細資訊。
+> 就地升級可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 支援並排 coexistance，請參閱[遷移至商務用 Skype Server 2019](../../SfBServer2019/migration/migration-to-skype-for-business-server-2019.md)以取得詳細資訊。
   
 ## <a name="upgrade-from-lync-server-2013"></a>從 Lync Server 2013 升級
 
-將 Lync Server 2013 升級為商務用 Skype Server 2015 包括安裝必要軟體，使用商務用 Skype Server 拓撲產生器升級集區中的資料庫，以及使用商務用 Skype Server In-Place 在與集區相關聯的每個伺服器上進行升級。 若要完成升級，請完成本主題中的8個步驟。
+將 Lync Server 2013 升級為商務用 Skype Server 2015 包括安裝必要軟體，使用商務用 Skype Server 拓撲產生器升級集區中的資料庫，然後在與集區相關聯的每個伺服器上使用商務用 Skype Server In-Place 升級。 若要完成升級，請完成本主題中的8個步驟。
   
 ### <a name="before-you-begin"></a>開始之前
 
-- 檢查 [方案，以升級至商務用 Skype Server 2015](../plan-your-deployment/upgrade.md)。
+- 請檢查[方案，以升級為商務用 Skype Server 2015](../plan-your-deployment/upgrade.md)。
     
-- 檢查 [商務用 Skype server 2015 的伺服器需求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
+- 檢查[商務用 Skype Server 2015 的伺服器需求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
     
-- [安裝商務用 Skype Server 2015 的必要條件](install/install-prerequisites.md) 。
+- [安裝商務用 Skype Server 2015 的必要條件](install/install-prerequisites.md)。
     
 - [安裝商務用 Skype Server 2015](install/install.md) 。
     
 ### <a name="step-1-install-administrator-tools-and-download-topology"></a>步驟1：安裝系統管理員工具及下載拓撲
 
-1. 在未安裝 Lync Ocscore.msi 或已安裝任何其他 Lync 元件的拓撲中，連線至電腦。
+1. 連線至拓撲中未安裝 Lync Ocscore.msi 或任何其他 Lync 元件的電腦。
     
 2. 從商務用 Skype Server 2015 安裝媒體，從 **OCS_Volume \setup\amd64** 執行 **Setup.exe** 。 
     
@@ -61,7 +61,7 @@ ms.locfileid: "49820423"
     
      ![部署嚮導的螢幕擷取畫面，其中包含稱為「安裝系統管理員」工具的連結。](../media/5bbac2d6-a5b3-42b4-a243-7bcf2b04477a.png)
   
-6. 在 Windows [開始] 畫面中，開啟 [商務用 Skype 伺服器拓撲產生器]。
+6. 在 [Windows 開始] 畫面中，開啟商務用 Skype Server 拓撲產生器。
     
 7. 按一下 [ **從現有的部署下載拓撲**]，然後按 **[下一步]**。
     
@@ -79,13 +79,13 @@ ms.locfileid: "49820423"
 > [!NOTE]
 > 如果拓撲具有鏡像的後端資料庫，當您使用拓撲產生器 **發行拓撲時** ，您會看到主體和鏡像資料庫都會顯示。 請確定主體上的所有資料庫都在執行中，並只在發行拓撲時選取主體，而不是鏡像，否則您會在發行拓撲之後看到一則警告。
   
-選擇下列其中一個選項，透過使用商務用 Skype Server 2015 拓撲產生器升級及發行新的拓撲。 完成步驟併發行更新後的拓撲之後，請移至本主題中的步驟3。
+選擇下列其中一個選項，透過使用商務用 Skype Server 2015 拓撲產生器來升級及發行新的拓撲。 完成步驟併發行更新後的拓撲之後，請移至本主題中的步驟3。
   
 #### <a name="option-1-upgrade-an-isolated-front-end-pool-and-associated-archiving-and-monitoring-stores"></a>選項1：升級隔離的前端集區和相關聯的封存與監控存放區
 
 如果您要升級的集區有封存與監控存放區相依性，當您使用下列步驟時，也會升級封存與監控存放區。
   
-1. 在 [拓撲產生器] 中，以滑鼠右鍵按一下 [Lync Server 2013 集區]，然後選取 [ **升級為商務用 Skype Server 2015**]，然後依照步驟執行。 
+1. 在 [拓撲產生器] 中，以滑鼠右鍵按一下 [Lync Server 2013 集區]，然後選取 [**升級為商務用 Skype Server 2015**]，然後依照步驟執行。 
     
      ![具有 Lync Server 2013 升級選項的右擊功能表的螢幕擷取畫面。](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
@@ -113,13 +113,13 @@ ms.locfileid: "49820423"
     
      ![[編輯內容] 對話方塊的螢幕擷取畫面，showsr 監視] 核取方塊。](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
   
-3. 以滑鼠右鍵按一下 [Lync Server 2013 集區]，然後選取 [ **升級為商務用 Skype Server 2015**]，然後依照步驟執行。 
+3. 以滑鼠右鍵按一下 [Lync Server 2013 集區]，然後選取 [**升級為商務用 Skype Server 2015**]，然後依照步驟執行。 
     
      ![具有 Lync Server 2013 升級選項的右擊功能表的螢幕擷取畫面。](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
 4. 在 [拓撲產生器] 中，按一下 [**動作**  >  **發佈拓撲**] 或 [**動作**  >  **拓撲**  >  **發佈**]。 
     
-#### <a name="option-3-upgrade-front-end-pool-and-associated-it-to-new-skype-for-business-server-2015-archiving-and-monitoring-stores"></a>選項3：將前端集區和相關聯的更新至新的商務用 Skype Server 2015 封存與監控存放區
+#### <a name="option-3-upgrade-front-end-pool-and-associated-it-to-new-skype-for-business-server-2015-archiving-and-monitoring-stores"></a>選項3：將前端集區和相關專案升級至新的商務用 Skype Server 2015 封存與監控存放區
 
 如果您使用下列步驟，封存和監控會停止在先前的存放區中，並在您建立的新存放區中開始。 
   
@@ -137,11 +137,11 @@ ms.locfileid: "49820423"
     
      ![[編輯內容] 對話方塊的螢幕擷取畫面，showsr 監視] 核取方塊。](../media/880acf33-57bb-4521-8717-cf5b67261ed4.png)
   
-3. 以滑鼠右鍵按一下 [Lync Server 2013 集區]，然後選取 [ **升級為商務用 Skype Server 2015**]，然後依照步驟執行。 
+3. 以滑鼠右鍵按一下 [Lync Server 2013 集區]，然後選取 [**升級為商務用 Skype Server 2015**]，然後依照步驟執行。 
     
      ![具有 Lync Server 2013 升級選項的右擊功能表的螢幕擷取畫面。](../media/7d5b25b1-e5c0-474c-a024-a5ba33f1b3a1.png)
   
-4. 建立新的 SQL 存放區進行封存。 
+4. 建立新的 SQL 儲存區進行封存。 
     
    - 選取 [集區] 和 [**動作**  >  **編輯] 屬性**。 
     
@@ -151,7 +151,7 @@ ms.locfileid: "49820423"
     
      ![[編輯屬性] 對話方塊的螢幕擷取畫面，顯示 [封存] 區段下的 [新增] 按鈕。](../media/3a4a18e7-8251-4736-837c-2b486f64f896.png)
   
-5. 建立新的 SQL 存放區進行監視。 
+5. 建立監視的新 SQL 儲存區。 
     
    - 選取 [集區] 和 [**動作**  >  **編輯] 屬性**。 
     
@@ -182,11 +182,11 @@ Disable-CsComputer -Scorch
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>步驟5：升級前端集區和非前端集區伺服器
 
 > [!NOTE]
->  在升級之前，請安裝商務用 Skype Server 2015 所需的所有新必要條件，其中包括：在嘗試升級之前，請先 > 至少32GB 可用空間。 此外，請確定磁片磁碟機是固定的本機磁片磁碟機，未以 NTFS 檔案系統格式化，否則請以 NTFS 檔案系統格式化。不會壓縮，也不會包含頁面檔案。 > PowerShell 版本6.2.9200.0 或更新版本。 > 已安裝最新的 Lync Server 2013 累計更新。 > SQL Server 2012 SP1 已安裝。 > 使用 Microsoft Update (，會自動安裝下列 KB 安裝的) ： > windows server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)> windows server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> windows Server 2012 r2-[KB2982006](https://support.microsoft.com/kb/2982006)
+>  在升級之前，請安裝商務用 Skype Server 2015 所需的所有新必要條件，其中包括： > 至少32GB 可用空間，再嘗試升級。 此外，請確定磁片磁碟機是固定的本機磁片磁碟機，且未以 USB 或 Firewire 為單位進行連線。是以 NTFS 檔案系統格式化，不會壓縮，也不會包含頁面檔案。 > PowerShell 版本6.2.9200.0 或更新版本。 > 已安裝最新的 Lync Server 2013 累計更新。 > SQL Server 2012 SP1 安裝。 > 使用 Microsoft Update (，會自動安裝下列 KB 安裝的) ： > Windows Server 2008 r2-[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
   
 在每一部伺服器上使用 In-Place 升級，以更新前端集區、Edge 集區、轉送伺服器及 Persistent Chat 集區。
   
-1. 在每一部伺服器上，在商務用 Skype Server 2015 安裝媒體上的 **OCS_Volume \setup\amd64** 中執行 **Setup.exe** 。
+1. 在每一部伺服器上，從商務用 Skype Server 2015 安裝媒體上 **OCS_Volume \setup\amd64** 中執行 **Setup.exe** 。
     
 2. 接受授權合約，並遵循 In-Place 升級的提示。
     
@@ -223,9 +223,9 @@ In-Place 升級順利完成時，您會看到下列訊息。
   
 ![螢幕擷取畫面，顯示就地升級順利完成之後的後續步驟。](../media/6a7236b6-9ef9-4df3-8682-b0e4021810f9.png)
   
-### <a name="step-7-verify-skype-for-business-functionality-works"></a>步驟7：驗證商務用 Skype 功能運作
+### <a name="step-7-verify-skype-for-business-functionality-works"></a>步驟7：確認商務用 Skype 功能能夠運作
 
-若要確定升級成功，針對已升級的集區，請測試商務用 Skype，以確定功能如預期般運作。 
+若要確定升級成功，請測試已升級的集區，並測試商務用 Skype，確定功能如預期般運作。 
   
 ### <a name="step-8-upgrade-secondary-pools"></a>步驟8：升級輔助集區
 
@@ -239,11 +239,11 @@ In-Place 升級順利完成時，您會看到下列訊息。
   
 複查頁面底部的完整訊息，以協助您疑難排解問題。 按一下 [ **查看記錄** 檔] 以取得詳細資訊。
   
-如果 In-Place 升級失敗若要 **驗證升級準備情況** 或 **安裝遺漏的必要條件**，請確定伺服器已套用所有的 Windows server、Lync server 和 SQL server 更新，且已安裝所有必要的軟體和角色。 如需必要的清單，請參閱 [商務用 Skype server 2015 的伺服器需求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) 以及 [商務用 skype Server 2015 的安裝必要條件](install/install-prerequisites.md)。
+如果 In-Place 升級失敗若要 **驗證升級準備情況** 或 **安裝遺漏的必要條件**，請確定伺服器已套用所有最新的 Windows 伺服器、Lync server 和 SQL Server 更新，且已安裝所有必要的軟體和角色。 如需必要的清單，請參閱[商務用 Skype Server 2015 的伺服器需求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)，並[安裝商務用 Skype Server 2015 的必要條件](install/install-prerequisites.md)。
   
 ## <a name="see-also"></a>另請參閱
 
-[規劃升級至商務用 Skype Server 2015](../plan-your-deployment/upgrade.md)
+[規劃升級為商務用 Skype Server 2015](../plan-your-deployment/upgrade.md)
   
 [商務用 Skype Server 2015 的伺服器需求](../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   

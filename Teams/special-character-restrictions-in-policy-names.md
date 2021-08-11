@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.policies.naming.error
 - seo-marvel-mar2020
 description: 查看在策略名稱中特殊字元有什麼問題，以及您可以採取什麼措施修正此問題。
-ms.openlocfilehash: 15df8b64f423d1ee20df6e230e4a9cdbebcb56db
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b8a628ee261ba813b50d58531ab1255a2f121dc4e4719ff4249de70517215cc3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116981"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54292970"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>在特殊字元限制中，Teams限制？
 
@@ -35,11 +35,11 @@ ms.locfileid: "51116981"
 
 如果策略名稱包含特殊字元，您將受限於在系統管理中心管理Microsoft Teams。 **因此，我們強烈建議策略名稱不要包含特殊字元**。 
 
-已使用 PowerShell 在 Teams 中建立用於會議和傳訊的策略名稱可以具有 @、#、$等特殊字元。 不過，如果您想要在系統管理中心變更Microsoft Teams，將無法進行。 
+已使用 PowerShell 在 Teams 中建立用於會議和傳訊的策略名稱可以有特殊字元，例如 @，#，$。 不過，如果您想要在系統管理中心變更Microsoft Teams，將無法進行。 
 
 如果您有具有特殊字元的政策，您必須使用 Windows PowerShell (永久) 編輯該策略，或在 Microsoft Teams 系統管理中心建立新策略，其設定與舊策略相同，並指派給同一組使用者。
 
-## <a name="to-remove-special-characters"></a>移除特殊字元
+## <a name="to-remove-special-characters"></a>若要移除特殊字元
 
 **步驟 1 - 使用 PowerShell 進行遠端連線。**
 > [!NOTE]
@@ -68,7 +68,7 @@ ms.locfileid: "51116981"
 
 **步驟 3 - 建立新策略。**
 
-您可以使用系統管理中心或 PowerShell 來建立設定相同的新Microsoft Teams。
+您可以使用系統管理中心或 PowerShell，以相同的設定Microsoft Teams新策略。
 
 執行這項操作會為您的建立新策略，但您必須看到 [Set-CsTeamsMessagingPolicy，](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps) 然後執行它，以新增正確的設定：
 
@@ -100,15 +100,15 @@ Windows PowerShell管理使用者，以及允許或不允許使用者執行哪�
     
   - [為什麼您需要使用 PowerShell Office 365 PowerShell？](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell使用系統管理中心時，Microsoft 365在速度、簡易性及生產力方面有許多優點，例如一次變更許多使用者的設定。 請從下列主題瞭解這些優點：
+- Windows PowerShell比使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如一次對許多使用者進行設定變更。 請從下列主題瞭解這些優點：
     
   - [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
     [使用 Windows PowerShell 管理 商務用 Skype Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
-  - [使用Windows PowerShell執行線上商務用 Skype管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
     > [!NOTE]
     > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 和 商務用 Skype 的遠端Microsoft Teams。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell Online 模組商務用 Skype[下載。](https://go.microsoft.com/fwlink/?LinkId=294688)

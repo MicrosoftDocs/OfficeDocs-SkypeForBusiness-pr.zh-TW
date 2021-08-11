@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
-description: 摘要：使用拓撲產生器，在商務用 Skype Server 中建立影片 Interop 伺服器集區。
-ms.openlocfilehash: 7c6f45b232151d99cbce169826c8110cf4a8d494
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：使用拓撲產生器在商務用 Skype Server 中建立影片 Interop 伺服器集區。
+ms.openlocfilehash: 91a1ed8b5b8d5ce728a666be507a1c1026b0c88460d9ba33b519f1f3d3825aa8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802053"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283575"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>在商務用 Skype Server 中建立 VIS 集區
  
-**摘要：** 使用拓撲產生器，在商務用 Skype Server 中建立影片 Interop 伺服器集區。
+**摘要：** 使用拓撲產生器在商務用 Skype Server 中建立影片 Interop 伺服器集區。
   
 ### <a name="create-a-vis-or-vis-pool-using-topology-builder"></a>使用拓撲產生器建立 VIS 或 VIS 集區
 
@@ -57,9 +57,9 @@ ms.locfileid: "49802053"
 10. 在上述步驟完成之後，會新增相對應的 SIP 影片主幹。 以滑鼠右鍵按一下 SIP 影片主幹，然後選取剛新增的主幹。 影片的 SIP 主幹名稱、關聯的視頻 Interop 伺服器、SIP 傳輸通訊協定和埠均可全部變更。 
     
     > [!NOTE]
-    >  影片 Interop 伺服器支援1： N 主幹。 因此可以新增多個主幹，這與單一的視頻 Interop 伺服器相關聯，每個主幹會在不同的視頻閘道上終止。 其限制是，特定的視頻閘道具有一個且只能定義為商務用 Skype 伺服器部署的一個主幹。
+    >  影片 Interop 伺服器支援1： N 主幹。 因此可以新增多個主幹，這與單一的視頻 Interop 伺服器相關聯，每個主幹會在不同的視頻閘道上終止。 這種限制是，特定的視頻閘道具有一個且只有一個主幹可定義給商務用 Skype Server 部署。
   
-11. 依照在 [商務用 Skype Server 2015 中建立及發行新拓撲](../../deploy/install/create-and-publish-new-topology.md)中所述的方式，發佈拓撲檔。
+11. 依照在[商務用 Skype Server 2015 中建立及發行新拓撲中](../../deploy/install/create-and-publish-new-topology.md)所述的方式，發佈拓撲檔。
     
     > [!NOTE]
     > 若要改善復原能力，您可能想要設定第二個視頻 Interop 伺服器或 VIS 集區，或是備份前端集區。 如需詳細資訊，請參閱 [恢復機制](../../plan-your-deployment/video-interop-server.md#resiliency) 。
@@ -69,6 +69,6 @@ ms.locfileid: "49802053"
 
 [在商務用 Skype Server 中部署 VIS 伺服器角色](deploy-the-vis-server-role.md)
 
-[在商務用 Skype Server 中規劃影片 Interop 伺服器](../../plan-your-deployment/video-interop-server.md)
+[在商務用 Skype Server 中規劃視頻 Interop 伺服器](../../plan-your-deployment/video-interop-server.md)
   
 [在商務用 Skype Server 2015 中建立及發行新的拓撲](../../deploy/install/create-and-publish-new-topology.md)

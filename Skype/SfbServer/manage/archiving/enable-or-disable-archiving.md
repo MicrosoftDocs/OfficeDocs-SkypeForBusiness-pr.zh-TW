@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: 摘要：瞭解如何啟用或停用商務用 Skype Server 中的封存。
-ms.openlocfilehash: 6d8f6f24bd4b10f7d33a00e218a494d6e8a823d1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 83ed391ed482d3bd744e963e1589726729a52b6e3f1c65a776b213a809eabed4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817593"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283375"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>啟用或停用商務用 Skype Server 中的封存
 
@@ -27,7 +27,7 @@ ms.locfileid: "49817593"
 
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。 
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中 **，按一下 [****監視與** 封存]，然後按一下 [封存設定]。
     
