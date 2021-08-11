@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: ffbd7a8e15e85eb052206012a4695993a796d1f5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 23d2a0fc51d421d283d7c81afaed6202012d237bee21589fa42d458b1fc7f1af
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115201"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307364"
 ---
 # <a name="users-new-contact-objects"></a>使用者：新連絡人物件
 
@@ -32,7 +32,7 @@ ms.locfileid: "51115201"
 
 - [指定使用者支援登入的用戶端版本](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-client-version-policy)
 
-- [在商務用 Skype Server 2015 中指派每一使用者 PIN 原則](../../manage/authentication/assign-a-per-user-pin-policy.md)
+- [在商務用 Skype Server 2015 中指派每位使用者的 PIN 原則](../../manage/authentication/assign-a-per-user-pin-policy.md)
 
 - [設定使用者的同盟、遠端使用者存取和公用 IM 連線能力](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
@@ -40,7 +40,7 @@ ms.locfileid: "51115201"
 
 - [將位置原則指派給使用者](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)
 
-- [在商務用 Skype Server 2015 中啟用使用者的 Enterprise Voice](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [在2015商務用 Skype Server 中為使用者啟用企業語音](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [設定使用者的同盟、遠端使用者存取和公用 IM 連線能力](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
@@ -50,4 +50,4 @@ ms.locfileid: "51115201"
 
 - [指派 Per-User 持久聊天原則](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-persistent-chat-policy)
 
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。

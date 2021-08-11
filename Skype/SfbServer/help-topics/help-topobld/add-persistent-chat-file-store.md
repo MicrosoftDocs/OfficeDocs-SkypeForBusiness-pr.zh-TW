@@ -15,19 +15,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 description: 您必須指定要用來做為 Standard Edition server 或 Enterprise Edition 前端集區之檔案存放區的檔案共用。 您可以使用檔案存放區現有的檔案共用，也可以指定新的檔案共用，方法是指定檔案共用所在的檔案伺服器的完整功能變數名稱 (FQDN) ，以及新檔案共用的資料夾名稱。
-ms.openlocfilehash: c77087520e51fffcad8c8341fe33103327e17799
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 83c88710e288fb2282950c2c9cc3922a65cef63bedbc57537dd01b5634feb7e5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818673"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307354"
 ---
 # <a name="add-persistent-chat-file-store"></a>新增常設聊天室檔案存放區
  
 您必須指定要用來做為 Standard Edition server 或 Enterprise Edition 前端集區之檔案存放區的檔案共用。 您可以使用檔案存放區現有的檔案共用，也可以指定新的檔案共用，方法是指定檔案共用所在的檔案伺服器的完整功能變數名稱 (FQDN) ，以及新檔案共用的資料夾名稱。
   
 > [!IMPORTANT]
-> 商務用 Skype Server 的檔案共用不能位於 Enterprise Edition 前端伺服器，但可以位於 Standard Edition server 上。 
+> 商務用 Skype Server 的檔案共用不能位於 Enterprise Edition 前端伺服器上，但可位於 Standard Edition 伺服器上。 
   
 > [!IMPORTANT]
 > 您可以先在拓撲產生器中定義檔案共用，然後才建立檔案共用；但是您必須先在您定義的位置中建立檔案共用，才能發行拓撲。 
@@ -41,7 +41,7 @@ ms.locfileid: "49818673"
   
 [將 Persistent Chat Server 新增至您的商務用 Skype Server 2015 拓撲](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   
-[商務用 Skype 2015 Server 中的 Persistent Chat Server 的硬體和軟體需求](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
+[商務用 Skype Server 2015 中的 Persistent Chat Server 的硬體和軟體需求](../../plan-your-deployment/persistent-chat-server/hardware-and-software-requirements.md)
   
 [商務用 Skype Server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   

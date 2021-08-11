@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 1d3fe1f6-e987-4b21-aafd-4ceaf523027a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 7773376de2d0858083a59358d89bedee589d32c4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7253ff4ca7bdc9b5daf864c807b520a4c330bf7e18ef5f9c298b7558dfb02538
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122087"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307624"
 ---
 # <a name="configure-a-network-region"></a>設定網路區域
 

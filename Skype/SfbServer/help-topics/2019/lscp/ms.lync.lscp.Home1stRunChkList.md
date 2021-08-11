@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 ROBOTS: NOINDEX, NOFOLLOW
-description: 歡迎使用商務用 Skype Server 控制台，以 web 為基礎的使用者介面，用來管理和管理商務用 Skype Server。 您可以使用 [控制台] 執行先前版本中使用 Microsoft 管理主控台所執行的系統管理工作類型。
-ms.openlocfilehash: 3e8fee53c37079c46862e05f246d984c621b57ef
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 歡迎使用商務用 Skype Server 控制台，以 web 為基礎的使用者介面，以供管理及管理商務用 Skype Server。 您可以使用 [控制台] 執行先前版本中使用 Microsoft 管理主控台所執行的系統管理工作類型。
+ms.openlocfilehash: 3fd383a13e9248c1c6cf5d4f272e58a74fa59f956b7fc7bdb494a789d1028ba6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100439"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307634"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>商務用 Skype Server 控制台的第一次執行檢查清單
 
-歡迎使用商務用 Skype Server 控制台，以 web 為基礎的使用者介面，用來管理和管理商務用 Skype Server。 您可以使用 [控制台] 執行先前版本中使用 Microsoft 管理主控台所執行的系統管理工作類型。
+歡迎使用商務用 Skype Server 控制台，以 web 為基礎的使用者介面，以供管理及管理商務用 Skype Server。 您可以使用 [控制台] 執行先前版本中使用 Microsoft 管理主控台所執行的系統管理工作類型。
 
 在您部署商務用 Skype Server 之後，我們強烈建議您執行一些重要工作。 這些工作中，一部份是初始設定步驟，您可能已在部署期間執行過，但其他的則是針對您在部署期間的設定或是預設設定進行細分或修改。 本主題中描述的其他工作會驗證您在部署過程中所進行的設定。
 

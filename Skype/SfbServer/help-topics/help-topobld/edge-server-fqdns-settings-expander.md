@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 description: 若要編輯或指定 Edge Server 的外部設定，您必須先決定是否要針對會話初始通訊協定使用個別的 IP 位址 (SIP) 存取、Web 會議 Edge service 及 Audio/Video Edge service。
-ms.openlocfilehash: d2589ccd8bcd3d7f7bfccd39e3adf726f8839ad8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: da54236226c69b3020413bfb05aa515f26a8641b18457e7c6f7cf9e2689611a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095558"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307144"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Edge Server FQDN 設定展開工具
 
-若要編輯或指定 Edge Server 的 **外部設定** ，您必須先決定是否要針對會話初始通訊協定使用個別的 IP 位址 (SIP) 存取、Web 會議 Edge service 及 Audio/Video Edge service。
+若要編輯或指定 Edge server 的 **外部設定**，您必須先決定是否要針對會話初始通訊協定使用個別的 IP 位址 (SIP) 存取、Web 會議 Edge service 及 Audio/Video Edge service。
 
 如果您想要讓每一項使用個別 IP 位址，請選取核取方塊 **[為 Web 會議和 A/V 啟用個別 FQDN 和 IP 位址]**。每個服務必須已建立對應的網域名稱系統 (DNS) 主機 (A) 記錄。
 

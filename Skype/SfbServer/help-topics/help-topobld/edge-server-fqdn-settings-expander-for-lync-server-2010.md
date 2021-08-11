@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 若要定義 [外部設定] 底下的屬性，請進行下列設定：
-ms.openlocfilehash: 6075fab9dbc820b725beec8be4a674a828b4c7d1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d8c800051dcbc6aa2c1a533940c3d3d558ef86ba8db115e557846dc04a08c795
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807093"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307154"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Edge Server FQDN 設定展開工具 (適用於 Lync Server 2010)
  
