@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: 在商務用 Skype Server Enterprise Voice 中，設定、填入及發佈 E9-1-1 位置資料庫。
-ms.openlocfilehash: 70158864446c12b2e7636a2962aced05d87c49a0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在商務用 Skype Server 企業語音中，設定、填入及發佈 E9-1-1 位置資料庫。
+ms.openlocfilehash: 9e97c959af9dc88ff43fd93e734e21bae051583206be3dd89390dcae59c6ca0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804083"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326599"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>在商務用 Skype Server 中設定位置資料庫
  
-在商務用 Skype Server Enterprise Voice 中，設定、填入及發佈 E9-1-1 位置資料庫。 
+在商務用 Skype Server 企業語音中，設定、填入及發佈 E9-1-1 位置資料庫。 
   
 若要讓用戶端自動偵測網路內部的位置，您必須先設定位置資料庫。 
   
@@ -52,7 +52,7 @@ ms.locfileid: "49804083"
 |**無線存取點** <br/> |\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
 |**子網路** <br/> |\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
 |**Port** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…  <br/> …\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
-|**參數** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
+|**Switch** <br/> |\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…  <br/> …\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>若要將網路元素新增至位置資料庫
 
@@ -120,7 +120,7 @@ ms.locfileid: "49804083"
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>驗證位於位置資料庫中的位址
 
-1.  啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1.  啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 2. 執行下列 Cmdlet 以設定緊急服務提供者連線。
     
@@ -145,7 +145,7 @@ ms.locfileid: "49804083"
   
 ### <a name="to-publish-the-location-database"></a>發佈位置資料庫
 
--  啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+-  啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 - 執行下列 Cmdlet 來發佈位置資料庫。
     

@@ -11,27 +11,27 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: Microsoft 正在撤銷2020年2月28日的 Exchange 整合通訊線上 (ExchUMO) 服務。 本文摘要說明哪些受影響客戶應知道哪些專案，以及應如何規劃其業務持續性。
-ms.openlocfilehash: 4da55c9004224c68e4e65c56038c5491fac5a0ab
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 933ba625506496c01242b26712e9b6d5b020dbb199c5f515444f7a8734fb84b9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116511"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279591"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合通訊線上移轉支援
 
 > [!IMPORTANT]
-> **Exchange Online 中的整合通訊服務的支援超出太平洋時間2月28日（2020、5 PM）。Microsoft 的所有語音信箱帳戶已遷移至雲端語音信箱服務。任何剩餘的自動語音應答流量都不會受到監控，而且可能會在任何時間中斷。**
+> **Exchange Online 中的整合通訊服務在太平洋時間2020年2月28日晚上5點，已不支援。Microsoft 的所有語音信箱帳戶都已遷移至雲端語音信箱服務。任何剩餘的自動語音應答流量都不會受到監控，而且可能會在任何時間中斷。**
 
-在2019年2月8日 [發佈的宣告](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) 中，Microsoft 正在撤銷 Exchange 整合通訊線上 (ExchUMO) 服務，2020年2月28日。 本文摘要說明哪些受影響客戶應知道哪些專案，以及應如何規劃其業務連續性。
+在2019年2月8日[發佈的宣告](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/)中，Microsoft 會在2月 28 2020 日內停用 Exchange 整合通訊線上 (ExchUMO) 服務。 本文摘要說明哪些受影響客戶應知道哪些專案，以及應如何規劃其業務連續性。
 
-客戶會透過語音信箱、自動語音應答、通話佇列和傳真整合服務，部署 ExchUMO。 Microsoft 計畫可協助客戶遷移至已在商務用 Skype Online 和 Microsoft 團隊上支援數以千計客戶的電話系統服務。
+客戶會透過語音信箱、自動語音應答、通話佇列和傳真整合服務，部署 ExchUMO。 Microsoft 計畫可協助客戶遷移至已商務用 Skype 在線上和 Microsoft Teams 上支援數以千計客戶的電話系統服務。
 
-語音信箱主要是 Microsoft 導向的遷移;客戶的子集可能需要系統管理員參與和/或投資。 自動語音應答是管理員導向的遷移;您必須在雲端自動語音應答雲端服務中重新建立現有的 ExchUMO 自動語音應答樹。 使用任何 ExchUMO 功能搭配協力廠商 PBX 的客戶，將不會遷移到 Skype 雲端服務，因為它們不支援協力廠商 PBX 系統。 在 [此博客](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)中已宣告協力廠商支援的退休計畫，而且此部署模型中的客戶可以將他們的使用者遷移至 Microsoft 的整合通訊平臺/服務之一，或為這些使用者取得協力廠商的語音信箱和/或自動語音應答解決方案。 雲端式服務不支援傳真整合;客戶將需要遷移至協力廠商解決方案。
+語音信箱主要是 Microsoft 導向的遷移;客戶的子集可能需要系統管理員參與和/或投資。 自動語音應答是管理員導向的遷移;您必須在雲端自動語音應答雲端服務中重新建立現有的 ExchUMO 自動語音應答樹。 使用任何 ExchUMO 功能搭配協力廠商 PBX 的客戶，將不會遷移至 Skype 雲端服務，因為它們不支援協力廠商 pbx 系統。 在 [此博客](https://techcommunity.microsoft.com/t5/Exchange-Team-Blog/New-date-for-discontinuation-of-support-for-Session-Border/ba-p/607853)中已宣告協力廠商支援的退休計畫，而且此部署模型中的客戶可以將他們的使用者遷移至 Microsoft 的整合通訊平臺/服務之一，或為這些使用者取得協力廠商的語音信箱和/或自動語音應答解決方案。 雲端式服務不支援傳真整合;客戶將需要遷移至協力廠商解決方案。
 
-## <a name="who-is-affected"></a>受影響的人員
+## <a name="who-is-affected"></a>神秘會受到影響？
 
-使用來自 Exchange 整合通訊線上服務之下列任何功能的客戶都會受到影響：
+會影響使用 Exchange 整合通訊線上服務之下列任何功能的客戶：
 
 - 語音信箱服務
 - 自動語音應答服務
@@ -57,14 +57,14 @@ Microsoft 已識別出使用 ExchUMO 之功能的各種客戶部署，將會根�
 
 ### <a name="get-informed"></a>取得通知
 
-您可以熟悉 [博客宣告](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) 和本文，為您的使用者規劃順利遷移。 如需電話語音語音信箱功能的詳細資訊，請參閱 [查看商務用 Skype 語音信箱和選項](https://support.office.com/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) 。  
+您可以熟悉 [博客宣告](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) 和本文，為您的使用者規劃順利遷移。 如需電話系統語音信箱功能的詳細資料，請參閱[檢查商務用 Skype 語音信箱和選項](https://support.office.com/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8)。  
 
 ### <a name="establish-a-skype-for-business-hybrid-topology"></a>建立商務用 Skype 混合式拓撲
 
-如果您未建立商務用 Skype 混合式拓撲，您必須執行該動作才能啟用語音信箱使用者的平滑遷移。 如需詳細資訊，請參閱 [設定商務用 Skype 混合](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) 。
+如果您未建立商務用 Skype 混合式拓撲，您必須執行該動作才能啟用語音信箱使用者的平滑遷移。 如需詳細資訊，請參閱[Configure 商務用 Skype 混合](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md)。
 
 > [!Note]
-> 您不需要在線上語音信箱服務遷移時遷移您的使用者。 不過，若要讓內部部署使用者利用電話語音語音信箱服務，必須建立混合式拓撲。
+> 您不需要在線上語音信箱服務遷移時遷移您的使用者。 不過，若要讓內部部署使用者利用電話系統語音信箱服務，必須建立混合式拓撲。
 
 ### <a name="plan-your-auto-attendant-migration"></a>規劃您的自動語音應答遷移
 
@@ -77,7 +77,7 @@ Microsoft 繼續提供額外的自動語音應答功能，讓客戶可能會考�
 語音信箱遷移是指 Microsoft 所導向。 系統管理員不需要執行任何動作，前提是已建立必要條件混合式拓撲。 Microsoft 會執行必要的驗證和測試，確保使用者的語音信箱遷移未中斷。 系統管理員可以在他們的一面執行測試及驗證。 請參閱建議的 [測試計劃與系統管理員的遷移後驗證，](#suggested-test-plan-and-post-migration-validation-for-admins) 以取得建議的測試計劃。
 
 > [!Note]
-> 不支援 Lync Server 2010。 如果您使用的是2010伺服器部署，您應該規劃伺服器升級或考慮將使用者遷移至 Microsoft 團隊。  
+> 不支援 Lync Server 2010。 如果您使用的是2010伺服器的部署，您應該規劃伺服器升級或考慮將使用者遷移至 Microsoft Teams。  
 
 ### <a name="monitor-the-admin-notification-center"></a>監視系統管理員通知中心
 
@@ -100,21 +100,21 @@ Microsoft 繼續提供額外的自動語音應答功能，讓客戶可能會考�
 
 - 建議的日期 (週二) ：每週二執行遷移聲波。 請選取不超過12/3/2019 的星期二的日期。
  
-- 承租人 ID:32 個字元，格式為 0046728c-688a-4472-a38f-098fec60ac6x。 您可以在 Azure AD 底下的 Microsoft 365 系統管理員入口網站中，或使用下列 PowerShell Cmdlet 找到您的租使用者識別碼： `Get-CsTenant | Select ObjectId`
+- 承租人 ID:32 個字元，格式為 0046728c-688a-4472-a38f-098fec60ac6x。 您可以在 Azure AD 底下的 Microsoft 365 管理入口網站，或使用下列 PowerShell Cmdlet 來找到您的租使用者識別碼：`Get-CsTenant | Select ObjectId`
 
 當租使用者成功遷移後，您將會收到一封電子郵件確認。
 
 ## <a name="auto-attendant-migration-guidelines"></a>自動語音應答遷移指導方針
 
-Microsoft 365 和 Office 365 組織管理員必須在 Microsoft 雲端自動語音應答服務中重新建立 Exchange UM 線上自動語音應答2020，並在 Exchange UMO 服務退休日的 Exchange 服務退休之前切換其內部部署電話號碼。 若要成功遷移和測試新的雲端自動語音應答，建議使用這種指導方針。 如果您有大量的自動語音應答，您可以使用 [EXCHANGE UM 自動](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA) 語音應答加入雲端自動語音應答遷移腳本，以簡化自動語音應答的大量遷移。
+Microsoft 365 和 Office 365 組織管理員都必須在 Microsoft 雲端自動語音應答服務中重新建立其 Exchange UM 線上語音應答，然後在2020年2月28日的「Exchange UMO 服務退休」之前，將其內部部署電話號碼切換至這些號碼。 若要成功遷移和測試新的雲端自動語音應答，建議使用這種指導方針。 如果您有大量的自動語音應答，您可以使用[Exchange UM 自動](https://github.com/NathanJBennett/ExUMAAMigrationToCloudAA)語音應答加入雲端自動語音應答遷移腳本，以簡化自動語音應答的大量遷移。
 
 ### <a name="auto-attendant-setup"></a>自動語音應答設定
 
 我們強烈建議您儘早開始設定新的自動語音應答，以避免過去分鐘的問題，並熟悉雲端自動語音應答服務的功能和經驗。 針對需要一或多個間隙功能的自動語音應答，您可以在有可用的缺口功能準備部署時，建立並測試自動語音應答。 如需差距功能的相關資訊，請參閱 [附錄](#appendix)。
 
-1. 使用 Exchange UMO Cmdlet，使用 [Get-UMAutoAttendant](/powershell/module/exchange/unified-messaging/get-umautoattendant)來匯出現有自動語音應答的設定。  
-2. 在 Exchange Online PowerShell 中使用 [export-import-umprompt 指令程式](/powershell/module/exchange/unified-messaging/export-umprompt) 來匯出問候語媒體檔案 (如果使用) 並將其轉換成 mp3 格式。
-3. 遵循 [規劃雲端自動](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md) 語音應答中的指示，並 [設定雲端自動](/microsoftteams/create-a-phone-system-auto-attendant) 語音應答，以使用 Microsoft 團隊系統管理中心或 Powershell 建立自動語音應答。
+1. 使用 Exchange UMO Cmdlet，透過[Get-UMAutoAttendant](/powershell/module/exchange/unified-messaging/get-umautoattendant)匯出現有自動語音應答的設定。  
+2. 在 Exchange Online PowerShell 中使用[export-import-umprompt 指令程式](/powershell/module/exchange/unified-messaging/export-umprompt)來匯出問候語媒體檔 (如果使用) 並將其轉換成 .mp3 格式。
+3. 遵循[規劃雲端自動](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)語音應答中的指示，並[設定雲端自動](/microsoftteams/create-a-phone-system-auto-attendant)語音應答，以使用 Microsoft Teams 系統管理中心或 Powershell 來建立自動語音應答。
 4. 若功能表選項變更，請複查您的問候語。
 5. 使用本文的「 [已知問題](#known-issues) 」區段中的「自動語音應答來電轉接至 PSTN」解決方法，設定傳送至回應群組。  
 6. 在內部撥打或指派測試電話號碼，以測試新的自動語音應答。  
@@ -131,11 +131,11 @@ Microsoft 365 和 Office 365 組織管理員必須在 Microsoft 雲端自動語�
 
 | 服務 | 功能層級 | 功能 | 附註  | 雲端 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| Vm  | 服務功能| 支援協力廠商 PBX    | 包括協力廠商 PBX 所提供的所有功能，例如 MWI (訊息等待指示器) 使用來自 Exchange UM Online 的 SIP 通知訊息 | N   | Y    |
+| Vm  | 服務功能| 支援協力廠商 PBX    | 包括協力廠商 PBX 所提供的所有功能，例如 MWI (郵件等候指示器) 使用 SIP 線上 Exchange UM 通知訊息 | N   | Y    |
 | Vm | 服務功能  | 支援商務用 Skype Server   |  | Y | Y    |
-| Vm | 服務功能 | 支援 Microsoft 團隊|  | Y | N    |
+| Vm | 服務功能 | 支援 Microsoft Teams|  | Y | N    |
 | Vm | 服務功能 | eDiscovery 和保留  | 出於安全性和合規性  | Y | Y    |
-| Vm | 服務功能 | Exchange 規則支援 | 出於安全性和合規性  | Y | Y    |
+| Vm | 服務功能 | Exchange規則支援 | 出於安全性和合規性  | Y | Y    |
 | Vm | 使用者功能 | PSTN 撥入式存取  | 使用者存取  | N | Y    |
 | Vm | 使用者功能 | 委託  | 未接來電電子郵件  | N | Y    |
 | Vm | 使用者功能 | PSTN Outlook 語音存取   | 使用者存取  | N | Y    |
@@ -165,21 +165,21 @@ Microsoft 365 和 Office 365 組織管理員必須在 Microsoft 雲端自動語�
 | Vm | 來電者功能  | 靜音偵測   |  | N | Y    |
 | Vm | Tenant-Admin 功能 | 伺服器層級的受保護語音信箱    | 租使用者-系統管理員可以設定服務層級規則，將輸入的語音信箱標記為受保護 | Y | Y    |
 | Vm | Tenant-Admin 功能 | 變更錄製持續時間限制  |     | Y | Y    |
-| Vm | Tenant-Admin 功能 | 變更靜音偵測超時    |  | 不適用    | Y    |
+| Vm | Tenant-Admin 功能 | 變更靜音偵測超時    |  | N/A    | Y    |
 | Vm | Tenant-Admin 功能 | 變更輸入失敗的次數 | CVM：硬編碼為3 | N | Y    |
 | Vm | Tenant-Admin 功能 | 變更預設語言 |  | Y | Y    |
 | Vm | Tenant-Admin 功能 | 停用/啟用功能 |  | Y | Y    |
 | Vm | Tenant-Admin 功能 | 停用/啟用未接來電通知 |  | N | Y    |
 | Vm | Tenant-Admin 功能 | 協助 Microsoft 改善語音信箱預覽   這些選項可讓 Microsoft 改善語音信箱預覽的品質。    |  | Y | Y    |
-| Vm | Tenant-Admin 功能 | 自訂已啟用使用者的文字訊息|  | 不適用    | Y    |
+| Vm | Tenant-Admin 功能 | 自訂已啟用使用者的文字訊息|  | N/A    | Y    |
 | Vm | Tenant-Admin 功能 | 應對猥褻遮罩|  | Y | N    |
 | Vm | Tenant-Admin 功能 | 語音信箱原則    |   | Y | Y    |
 | Vm | Tenant-Admin 功能 | 網頁入口網站管理   |  | CY19   | Y    |
 | Vm | Tenant-Admin 功能 | PowerShell   |  | Y | Y    |
-| UM | 使用者功能 | 商務用 Skype 已驗證電話上的訊息等待指示器 (MWI)    |可由電話合作夥伴提供  | 否 | 是    |
+| UM | 使用者功能 | 商務用 Skype 認證的電話上的郵件等候指示器 (MWI)    |可由電話合作夥伴提供  | 否 | 是    |
 | 機 管 局 | 服務功能 | AA 支援協力廠商 PBX    |  | N | Y    |
 | 機 管 局 | 服務功能 | 支援商務用 Skype Server   |  | Y | Y    |
-| 機 管 局 | 服務功能 | 支援 Microsoft 團隊|  | Y | N    |
+| 機 管 局 | 服務功能 | 支援 Microsoft Teams|  | Y | N    |
 | 機 管 局 | 服務功能 | 依名稱撥號，DTMF 輸入    |  | Y | Y    |
 | 機 管 局 | 服務功能 | 依名稱撥號、語音輸入  |  | Y | Y    |
 | 機 管 局 | 服務功能 | 多語言支援 | 此處為語言詳細資料： https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
@@ -202,7 +202,7 @@ Microsoft 365 和 Office 365 組織管理員必須在 Microsoft 雲端自動語�
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>建議的測試計劃與系統管理員的遷移後驗證
 
-若要驗證您的使用者是否已遷移至雲端語音信箱，請將語音信箱保留給使用者，並在 Outlook 中查看郵件內文。 雲端語音信箱訊息的頁尾是讀取：
+若要驗證您的使用者是否已遷移至雲端語音信箱，請將語音信箱保留給使用者，然後在 Outlook 中查看郵件內文。 雲端語音信箱郵件的頁尾為讀取：
 
 「謝謝您使用「！」 如果您沒有看到上述的記錄，則這是因為音訊品質不夠清晰，無法 transcribe。」
 
@@ -210,8 +210,8 @@ Microsoft 365 和 Office 365 組織管理員必須在 Microsoft 雲端自動語�
 
 - 驗證組織中所有端點類型的語音信箱存取，例如應用程式和 IP 電話。
 - 使用範例使用者驗證已設定的個人化問候語會向來電者播放。
-- 如果您的組織具備停用使用者功能的法律或法規遵從性需求，請確定已停用遷移後停用。 如需詳細資訊，請參閱 [設定雲端語音信箱](/microsoftteams/set-up-phone-system-voicemail)。
-- 如果您先前已設定 Exchange VM 原則和規則，請確定它們有效。
+- 如果您的組織具備停用使用者功能的法律或法規遵從性需求，請確定已停用遷移後停用。 如需詳細資訊，請參閱[Set up 雲端語音信箱](/microsoftteams/set-up-phone-system-voicemail)。
+- 如果您先前已設定 Exchange 的 VM 原則和規則，請確定它們有效。
 - 熟悉雲端語音信箱服務 PowerShell Cmdlet，以變更使用者設定。  
 
 ### <a name="user-experience-impact"></a>使用者經驗影響
@@ -232,7 +232,7 @@ Microsoft 365 和 Office 365 組織管理員必須在 Microsoft 雲端自動語�
 
 ### <a name="user-management-and-provisioning-in-cvm"></a>CVM 中的使用者管理與布建
 
-建立時，會自動為雲端語音布布建新的商務用 Skype 使用者。 布建新的語音信箱使用者，不需要額外的系統管理員工作或授權。 請參閱 [設定雲端語音信箱](/microsoftteams/set-up-phone-system-voicemail) 以瞭解現有和新使用者的原則管理。
+新商務用 Skype 使用者會在建立時自動布建雲端語音信箱。 布建新的語音信箱使用者，不需要額外的系統管理員工作或授權。 請參閱[設定雲端語音信箱](/microsoftteams/set-up-phone-system-voicemail)以瞭解現有和新使用者的原則管理。
 
 ### <a name="admin-auto-attendant-management-experience"></a>系統管理員自動語音應答管理經驗
 
@@ -242,24 +242,24 @@ Microsoft 365 和 Office 365 組織管理員必須在 Microsoft 雲端自動語�
 
 #### <a name="greeting-inconsistencies"></a>問候語不一致
 
-訂閱者存取可能持續用於您的承租人，直到服務完全淘汰為止，即使所有的使用者都已遷移至雲端語音信箱也是一樣。 為了避免使用者混淆和不一致的體驗，請停用訂閱者存取，因為在遷移之後問候語會變更。 若要這麼做，請使用來移除每一位訂閱者存取行的 EXUM 連絡人 `Get-CsExUmContact | ?{$_.IsSubscriberAccess -eq $true} | Remove-CsExUmContact` 。
+訂閱者存取可能會繼續針對您的租使用者運作，直到服務完全撤銷，即使所有的使用者都已遷移至雲端語音信箱。 為了避免使用者混淆和不一致的體驗，請停用訂閱者存取，因為在遷移之後問候語會變更。 若要這麼做，請使用來移除每一位訂閱者存取行的 EXUM 連絡人 `Get-CsExUmContact | ?{$_.IsSubscriberAccess -eq $true} | Remove-CsExUmContact` 。
 
 #### <a name="auto-attendant-call-transfer-to-pstn"></a>自動語音應答來電轉接至 PSTN
 
-若要透過商務用 Skype server 或回應群組服務 (RGS) 在商務用 Skype Server 上，將自動語音應答來電轉接至外部 PSTN 電話號碼，請建立新的內部部署使用者與來電轉接設定為 PSTN 電話號碼或 RGS 電話號碼。 使用者必須啟用並正確地設定 Enterprise Voice，並已指派語音原則。
+若要使用商務用 Skype Server 上的商務用 Skype Server 或回應群組服務 (RGS) ，將自動語音應答來電轉接至外部 PSTN 電話號碼，請建立新的內部部署使用者與來電轉接設定為 PSTN 電話號碼或 RGS 電話號碼。 使用者必須已啟用並正確地設定企業語音，並已指派語音原則。
 
 #### <a name="shared-mailbox-is-still-accessible"></a>仍然可以存取共用信箱
 
-在遷移至 CVM 後，使用 Exchange UM Online 設定的共用信箱繼續接收郵件，而且可透過 Outlook 存取使用者。 不過，當您將這些信箱的存取權轉移至 CVM 後，就無法使用此存取權變更這些信箱的問候語郵件。 使用共用信箱（用來捕獲自動語音應答來電者）的客戶應在發行 (ETA 2019 年10月) 時，利用自動語音應答及通話佇列共用信箱功能。
+在遷移至 CVM 後，使用 Exchange UM Online 設定的共用信箱繼續接收郵件，並可透過 Outlook 供使用者存取。 不過，當您將這些信箱的存取權轉移至 CVM 後，就無法使用此存取權變更這些信箱的問候語郵件。 使用共用信箱（用來捕獲自動語音應答來電者）的客戶應在發行 (ETA 2019 年10月) 時，利用自動語音應答及通話佇列共用信箱功能。
   
-#### <a name="username-is-not-using-skype-for-business-banner-displays"></a>「使用者名稱未使用商務用 Skype」橫幅顯示
+#### <a name="username-is-not-using-skype-for-business-banner-displays"></a>「未使用商務用 Skype 的「使用者名稱」橫幅顯示
 
-CVM 服務是以 Microsoft 團隊基礎結構為基礎，而商務用 Skype 用戶端的呼叫可能會在用戶端上顯示資訊橫幅，以讀取：「使用者未使用商務用 Skype。 若要取得更豐富的體驗，請切換至 [小組] 或 [啟動 Skype 會議]。
+CVM 服務是以 Microsoft Teams 基礎結構為基礎，而來自商務用 Skype 用戶端的呼叫可能會導致資訊旗標顯示在用戶端上，但讀取：「Username 並未使用商務用 Skype。 如需更豐富的體驗，請切換至 Teams 或啟動 Skype 會議。」
 請務必將使用者的商務用 Skype 用戶端更新為最新的 C2R 用戶端更新，以避免出現這種旗標。
   
 #### <a name="set-up-voice-mail-takes-you-to-owa"></a>「設定語音信箱」會帶您前往 OWA
 
-在遷移至 CVM 後，按一下用戶端的 [ **設定語音信箱** ] 將繼續進行商務用 Skype Server 2015/2013 客戶前往 Office Web ACCESS (OWA) 入口網頁。 已從 OWA 的 [語音信箱] 索引標籤中移除所有設定，而且橫幅會以重新導向連結顯示，以將使用者帶至 CVM 使用者設定入口網站。
+在遷移至 CVM 後，按一下用戶端上的 [**設定語音信箱**] 將繼續進行商務用 Skype Server 2015/2013 客戶進入 Office Web 存取 (OWA) 入口網站頁面。 已從 OWA 的 [語音信箱] 索引標籤中移除所有設定，而且橫幅會以重新導向連結顯示，以將使用者帶至 CVM 使用者設定入口網站。
 
 #### <a name="changing-greeting-remotely"></a>以遠端方式變更問候語
 

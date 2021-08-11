@@ -1,5 +1,5 @@
 ---
-title: " (選用) 在商務用 Skype 中定義回應群組假日集"
+title: " (選用) 定義回應群組假日集商務用 Skype"
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: 在商務用 Skype Server Enterprise Voice 中建立或修改回應群組假日集。
-ms.openlocfilehash: 3a8173964cf32c148146ffc4c501861b35bf6077
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在商務用 Skype Server 企業語音中建立或修改回應群組假日集。
+ms.openlocfilehash: a265f1c8a09133dec6a9f88a705ca6041b1a09a167b5a24252a540e8152deca8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103679"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298693"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a> (選用) 在商務用 Skype 中定義回應群組假日集
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a> (選用) 定義回應群組假日集商務用 Skype
  
-在商務用 Skype Server Enterprise Voice 中建立或修改回應群組假日集。
+在商務用 Skype Server 企業語音中建立或修改回應群組假日集。
   
 假日設定會定義回應群組關閉的不營業日期，並且指定在這些日子採取的動作。假日集為套用至回應群組的假日集合。
   
@@ -33,7 +33,7 @@ ms.locfileid: "51103679"
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分登入，或是以支援回應群組之其中一個預先定義的系統管理角色的成員身分登入。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 對於您要定義的每個假日，請執行：
     

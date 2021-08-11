@@ -12,34 +12,34 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 摘要：瞭解商務用 Skype Server 中的通話功能的速率。
-ms.openlocfilehash: 597a8213576e7aa2316ace68ed91288475df2a0d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6623729dced8128e010ac0a61dfd2fccd95f1c558deda1342b0db92936f0b31f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814333"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326429"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>在商務用 Skype Server 中評價我的通話
 
 **摘要：** 深入瞭解商務用 Skype Server 中的通話功能的速率。
 
-評價我的來電是商務用 Skype 2015 和2016用戶端在 Windows 上的新功能，可讓企業從他們的使用者取得意見反應的方式。
+評價我的來電是 Windows 中商務用 Skype 2015 和2016用戶端的新功能，可讓企業從使用者取得意見反應的方式。
 
 「我的呼叫」視窗的速率是「星形」分級系統及音訊及視頻通話的預先定義的標記。 此外，系統管理員可以讓自訂欄位提供意見反應。
 
-收集的速率我的呼叫資料目前不會包含在任何現有的監控報告中，但有個別的監控報告。 在 SQL 資料表中收集的資料可透過執行 SQL 查詢進行存取。
+收集的速率我的呼叫資料目前不會包含在任何現有的監控報告中，但有個別的監控報告。 資料會收集在 SQL 表中，可透過執行 SQL 查詢進行存取。
 
 ## <a name="rate-my-call-prerequisites"></a>評估我的來電先決條件
 
-在商務用 Skype 伺服器部署中的使用者可以存取我的呼叫功能之前，必須部署及設定下列元件：
+您的商務用 Skype Server 部署中的使用者可以存取我的呼叫功能之前，必須部署及設定下列元件：
 
--  您必須安裝商務用 Skype Server (版本9160或更高版本) 。
+-  您必須已商務用 Skype Server 安裝 (版本9160或更高版本的) 。
 
-- 讓您的使用者安裝並更新至最新版本的商務用 Skype，也要求他們使用商務用 Skype UI。
+- 讓您的使用者能夠安裝和更新商務用 Skype 的最新版本，也可讓使用者使用商務用 Skype UI。
 
-- 使用者必須位於商務用 Skype 伺服器前端集區。
+- 使用者必須駐留在商務用 Skype Server 前端集區上。
 
-- 您必須已部署商務用 Skype Server 監控資料庫並與商務用 Skype 伺服器集區相關聯。
+- 您必須已部署商務用 Skype Server 監控資料庫並與商務用 Skype Server 集區相關聯。
 
 - 建議您部署通話品質儀表板 (CQD) 。
 
@@ -69,8 +69,8 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -R
 
 |||
 |:-----|:-----|
-|1   <br/> |DistortedSpeech  <br/> |
-|2   <br/> | ElectronicFeedback <br/> |
+|1  <br/> |DistortedSpeech  <br/> |
+|第  <br/> | ElectronicFeedback <br/> |
 |3   <br/> | BackgroundNoise <br/> |
 |4   <br/> |MuffledSpeech  <br/> |
 |5   <br/> |回音  <br/> |
@@ -112,7 +112,7 @@ Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -R
 
 您可以使用 **\* [Table.Name]** 查詢或使用 Microsoft SQL Server Management Studio 來呼叫資料表中的資料。
 
-下列 SQL 查詢可供使用：
+您可以使用下列 SQL 查詢：
 
  **音訊**
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>更新權杖定義
 
-最新的商務用 Skype 用戶端報告新問題 token IDs (\> 100) 中的 [QoeMetrics] 不會出現。 [dbo]。[CallQualityFeedbackTokenDef] 表格。 若要以最新的標記定義更新資料庫資料表，可在使用 Microsoft SQL Server Management Studio 的監控資料庫上執行下列 SQL 命令。 此命令會取代 [QoeMetrics] 中的所有專案。[dbo]。[CallQualityFeedbackTokenDef] 表格。
+最新的商務用 Skype 用戶端報告新問題權杖 IDs (\> 100) （可能不會出現在 [QoeMetrics] 中）。 [dbo]。[CallQualityFeedbackTokenDef] 表格。 若要使用最新的標記定義更新資料庫資料表，可使用 Microsoft SQL Server Management Studio 在監控資料庫上執行下列 SQL 命令。 此命令會取代 [QoeMetrics] 中的所有專案。[dbo]。[CallQualityFeedbackTokenDef] 表格。
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

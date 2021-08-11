@@ -16,17 +16,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: 閱讀此主題以瞭解使用雲端連接器 Edition 版本2.0 和更新版本部署媒體旁路的步驟。
-ms.openlocfilehash: c9dc79a3079fd27e8901d31abf1a27310d18ed28
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6ce46df02295810367556e735897cd9ce912b4c7e8aa15f6db5ffb66d38d4574
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119362"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289431"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>在雲端連接器 Edition 中部署媒體旁路
  
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會在2021年7月31日和商務用 Skype 線上時終止。 當您的組織升級至 Teams 後，請瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話網絡連線至 Teams。
 
 閱讀此主題以瞭解使用雲端連接器 Edition 版本2.0 和更新版本部署媒體旁路的步驟。 
   
@@ -38,7 +38,7 @@ ms.locfileid: "51119362"
   
 租使用者管理員必須在內部實際執行 Active Directory 中設定 DNS A 記錄。 如果您有複雜的多網站環境，請參閱 [範例範例：在複雜的多網站環境中，媒體旁路網站 DNS 記錄](deploy-media-bypass-in-cloud-connector.md#Example)。 DNS 記錄應該只解析內部網路用戶端;不應為外部網路用戶端解析。
   
-設定 DNS 之後，使用遠端 PowerShell 搭配商務用 Skype 系統管理員認證，連線至商務用 Skype Online。 如需詳細資訊，請參閱 [設定您的電腦以進行 Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) 。
+設定 DNS 之後，使用遠端 PowerShell 商務用 Skype 系統管理員認證，連線至商務用 Skype Online。 如需詳細資訊，請參閱[設定 Windows PowerShell 的電腦](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)。
   
 在 PowerShell 會話中，輸入下列命令以啟用媒體旁路：
   
@@ -69,9 +69,9 @@ Get-CsNetworkConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-若要檢查用戶端設定，請登出商務用 Skype 用戶端，並重新登入，並確認用戶端已接收到服務 URL，如下所示：
+若要檢查用戶端設定，請登出商務用 Skype 用戶端，然後重新登入，並確認用戶端是否已收到服務 URL，如下所示：
   
-1. 開啟%appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog。 
+1. 開啟%appdatalocal%\Microsoft\ Office \16.0\Lync\Tracing\Lync-UccApi-0.UccApilog。 
     
 2. 搜尋 hybridconfigserviceinternalurl 並確認 URL 與您定義的 URL 相符。
     
@@ -118,9 +118,9 @@ Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a>範例：在複雜的多網站環境中，媒體旁路網站 DNS 記錄
 <a name="Example"> </a>
 
-用戶端將從內部 DNS 伺服器接收媒體旁路 web 服務的網址。 所有雲端連接器裝置和雲端連接器 PSTN 網站上的 web 服務名稱都是相同的。 在複雜的多網站環境中，我們建議使用 Windows 2016 DNS 原則進行 Geo-Location 的流量管理，讓用戶端可以重新導向至其網路的本機 web 服務。 
+用戶端將從內部 DNS 伺服器接收媒體旁路 web 服務的網址。 所有雲端連接器裝置和雲端連接器 PSTN 網站上的 web 服務名稱都是相同的。 在複雜的多網站環境中，我們建議您針對 Geo-Location 型流量管理使用 Windows 2016 DNS 原則，讓用戶端可以重新導向至其網路的本地 web 服務。 
   
-有關 Windows 2016 DNS 原則的詳細資訊，請參閱 [使用 DNS 原則 Geo-Location 對主伺服器進行流量管理](/windows-server/networking/dns/deploy/primary-geo-location)。
+關於 Windows 2016 DNS 原則的詳細資訊，請參閱[使用 DNS 原則進行 Geo-Location 的流量管理與主要伺服器](/windows-server/networking/dns/deploy/primary-geo-location)。
   
 以下是一家公司設定的範例，其中包含使用 Windows 2016 DNS 原則進行 Geo-Location 的流量管理的多個網站。
   

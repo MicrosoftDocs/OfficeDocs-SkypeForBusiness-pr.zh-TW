@@ -16,21 +16,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
-description: 閱讀此主題以瞭解如何在商務用 Skype Server 2015，2015累計更新中規劃共用線外觀 (SLA) 。
-ms.openlocfilehash: d7fa13b36c232e37c79e8509de71b4ac29ceff72
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 請閱讀本主題，以瞭解如何在 2015 2015 年11月累積更新 (的 SLA) 商務用 Skype Server 中規劃共用線外觀。
+ms.openlocfilehash: cabd5a9f6780371a8345bd95c5686829e74ad3c18e875ec85decf6ab0ca2f789
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813343"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289721"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中規劃共用行外觀
  
-閱讀此主題以瞭解如何在商務用 Skype Server 2015，2015累計更新中規劃共用線外觀 (SLA) 。 
+請閱讀本主題，以瞭解如何在 2015 2015 年11月累積更新 (的 SLA) 商務用 Skype Server 中規劃共用線外觀。 
   
-共用線外觀是商務用 Skype 中的一項功能，用來處理特定號碼（稱為共用號碼）上的多個通話。 SLA 可將任何已啟用企業語音的商務用 Skype 使用者設定為具有多行的共用號碼，以回應多個通話。 呼叫並未實際接收共用號碼，而是轉寄給充當共用號碼代理人的使用者。 任何一位代理人都可以接聽來電，而其餘的代理人會在他們的電話上取得通知，告知已收取通話的人員，以及哪些線路已變得忙碌的結果。 您可以設定 SLA 中共用號碼的行數和代理人。 此外，高級選項（例如 BusyOption (所有線路忙碌) 和 MissedCallOption 時，會發生什麼情況）。 (所有代理人都不會拾取來電) 的情況，也可以設定共用號碼。
+共用列的外觀是商務用 Skype 中的一項功能，用來處理特定號碼（稱為共用號碼）上的多個通話。 SLA 可將任何已啟用企業語音的商務用 Skype 使用者設定為具有多行的共用號碼，以回應多個通話。 呼叫並未實際接收共用號碼，而是轉寄給充當共用號碼代理人的使用者。 任何一位代理人都可以接聽來電，而其餘的代理人會在他們的電話上取得通知，告知已收取通話的人員，以及哪些線路已變得忙碌的結果。 您可以設定 SLA 中共用號碼的行數和代理人。 此外，高級選項（例如 BusyOption (所有線路忙碌) 和 MissedCallOption 時，會發生什麼情況）。 (所有代理人都不會拾取來電) 的情況，也可以設定共用號碼。
   
-僅在下列電話裝置上支援 SLA (電腦、行動電話或其他裝置上的商務用 Skype 用戶端不支援此項功能) ： 
+僅在下列電話裝置上支援 SLA (電腦、行動電話或其他裝置上商務用 Skype 用戶端不支援此項功能) ： 
   
 - 含固件更新5.4.1 的 Polycom VVX300
     
@@ -40,9 +40,9 @@ ms.locfileid: "49813343"
     
 - 含固件更新5.4.1 的 Polycom VVX600
     
-SLA 是商務用 Skype Server 中的新功能（2015年11月累積更新）。 
+SLA 是商務用 Skype Server，2015年11月累積更新的新功能。 
   
-如需部署 SLA 的詳細資訊，請參閱 [在商務用 Skype Server 2015 中部署共用行外觀](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)。
+如需部署 SLA 的相關資訊，請參閱[在商務用 Skype Server 2015 中部署共用線路外觀](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md)。
   
 ## <a name="feature-list"></a>功能清單
 

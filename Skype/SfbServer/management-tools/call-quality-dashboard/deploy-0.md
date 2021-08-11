@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
-description: 摘要：瞭解通話品質儀表板的部署程式。 通話品質儀表板是商務用 Skype 伺服器的工具。
-ms.openlocfilehash: 1f59209575284035fcdca52e4f18220aa05337af
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：瞭解通話品質儀表板的部署程式。 通話品質儀表板是商務用 Skype Server 的工具。
+ms.openlocfilehash: eaabfe4700a2466c469776fcd839beab358ed763ede49c96a72d0be5f10f660c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114109"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278741"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>為商務用 Skype Server 部署通話品質儀表板
  
-**摘要：** 瞭解通話品質儀表板的部署程式。 通話品質儀表板是商務用 Skype 伺服器的工具。
+**摘要：** 瞭解通話品質儀表板的部署程式。 通話品質儀表板是商務用 Skype Server 的工具。
   
 ## <a name="deployment-overview"></a>部署概述
 
@@ -36,16 +36,16 @@ ms.locfileid: "51114109"
     
 ![CQD 元件](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
-QoE 封存的設定套裝程式括建立 QoE 封存資料庫、部署 SQL Server 預存程式，將資料從來源 QoE 度量資料庫移入 QoE 封存資料庫，以及設定 SQL Server 代理程式工作以定期執行預存程式。 
+QoE 封存的設定套裝程式括建立 QoE 封存資料庫、部署 SQL Server 的預存程式，以將來源 QoE 度量資料庫中的資料移至 QoE 封存資料庫，以及設定 SQL Server 代理程式工作以定期執行預存程式。 
   
-Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 cube，並設定一般 SQL Server 代理程式工作，以便定期重新整理 cube。
+Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 cube，以及設定定期重新整理 cube 的定期 SQL Server 代理程式工作。
   
 入口網站安裝建立儲存 CQD 使用者與每個使用者報告/查詢之對應的存放庫資料庫。 然後，它會設定 IIS web 應用程式，該應用程式是使用者可以查看預先定義的報表集合，以及自訂和建立自己的查詢，以視覺化 cube 中的資料。 入口網站安裝會建立其他兩個 web 應用程式，公開 APIs 使用者可透過程式設計方式存取存放庫及 cube。  (這些 APIs 也會在儀表板內部使用。 ) 
   
 
 |**階段**|**步驟**|**角色和群組成員資格**|**文件**|
 |:-----|:-----|:-----|:-----|
-|安裝必要的硬體和軟體。  <br/> |決定 CQD 設定，並選擇要從中執行安裝的 SQL Server。  <br/> |身為本機系統管理員群組成員的網域使用者。  <br/> |部署檔中的「安裝前需求」一節。  <br/> |
+|安裝必要的硬體和軟體。  <br/> |決定 CQD 設定，並選擇要執行安裝的 SQL Server。  <br/> |身為本機系統管理員群組成員的網域使用者。  <br/> |部署檔中的「安裝前需求」一節。  <br/> |
 |安裝 CQD。  <br/> |請在部署檔後執行 MSI。  <br/> |若要執行安裝程式，安裝帳戶必須是本機 administrators 群組成員的網域使用者，且具有監控伺服器上 QoE 度量資料庫的讀取權限。  <br/> |部署檔中的「帳戶和部署步驟」一節。  <br/> |
 |授與使用者存取權。  <br/> |若要管理對入口網站的授權，我們建議使用在 IIS 7.0 中引入的 URL 授權。 如需詳細資訊，請參閱 [瞭解 IIS 7.0 URL 授權](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization)。  <br/> |身為本機系統管理員群組成員的網域使用者。  <br/> |在部署檔中管理入口網站區段的使用者存取。  <br/> |
 |選用：提供子網對應資訊。  <br/> |在 QoE 封存資料庫中填入網路及建立對應表格。  <br/> |具有 QoE 封存資料庫之寫入存取權的帳戶。  <br/> |使用者檔中的「提供子網資訊」一節。  <br/> |
@@ -56,9 +56,9 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
   
 ## <a name="deployment-steps"></a>部署步驟
 
-1. 將 CallQualityDashboard.msi 複製到要安裝 CQD 之封存資料庫元件的機器 (這是已安裝 SQL Server) 的電腦。 
+1. 將 CallQualityDashboard.msi 複製到要安裝 CQD 封存資料庫元件的機器 (這是 SQL Server 安裝) 的電腦。 
     
-2. 執行 MSI (Windows 會提示以系統管理員許可權執行，請執行) 。 
+2. 執行 MSI (Windows 會提示以系統管理員許可權執行，請) 執行此動作。 
     
 3. 接受 EULA。
     
@@ -68,72 +68,72 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
     
 6. 在 [QoE 封存設定] 頁面上，提供下列資訊：
     
-   - **QoE 度量 SQL Server：** QoE 度量 DB 所在位置的 SQL Server 實例名稱 (這會是) 的資料來源。
+   - **QoE 度量 SQL Server：** SQL Server QoE 度量 DB 所在位置的實例名稱 (這會是資料來源) 。
     
    - **QoE 封存 SQL Server 名稱：** 這是唯讀欄位，且固定為本機電腦的完整功能變數名稱。 封存資料庫只能安裝在本機電腦上。
     
-   - **QoE 封存 SQL Server 實例：** 本機 SQL Server 實例名稱，以供建立封存資料庫的位置。 若要使用預設的 SQL Server 實例，請將此欄位保留空白。 若要使用指定的 SQL Server 實例，請指定實例名稱 (例如 ") 之後的名稱。 \"
+   - **QoE 封存 SQL Server 實例：** 本機 SQL Server 實例名稱，用來建立封存資料庫的位置。 若要使用預設的 SQL Server 實例，請將此欄位保留空白。 若要使用命名的 SQL Server 實例，請指定實例名稱 (例如 ") 之後的名稱。 \"
     
    - **QoE 封存資料庫：** 根據預設，此選項會設定為「建立新資料庫」。 由於不支援封存資料庫升級，因此如果現有的封存資料庫與要安裝的組建具有相同的架構，則可以使用「使用現有資料庫」選項的唯一情形。
     
    - **資料庫檔案目錄：** 應該放置封存資料庫的資料庫檔案 ( .mdf 和 .ldf) 位置的路徑。 這應該是在建議的硬體設定中 (HDD2 的磁片磁碟機上，) 與作業系統不同。 請注意，因為檔案名已在安裝中修復，所以建議您不要使用沒有檔案的空白目錄。
     
-   - **使用多個磁碟分割：** 預設值是設定為 "多個分割區"，這需要 SQL Server 的商務智慧 edition 或 Enterprise edition。 在 [Standard edition] 中，選取 [單一分割區] 選項。 請注意，如果使用單一分割區，cube 處理效能可能會受到影響。
+   - **使用多個磁碟分割：** 預設值是設定為 "多重分割區"，這需要 SQL Server 的商務智慧 edition 或 Enterprise 版本。 在 [Standard edition] 中，選取 [單一分割區] 選項。 請注意，如果使用單一分割區，cube 處理效能可能會受到影響。
     
      > [!NOTE]
      > 在安裝程式完成後，無法變更 [使用多個分割區] 選項的選取範圍。 為了進行變更，必須先卸載 Cube 功能，然後使用 [控制台] 中的 [變更] 選項重新安裝。 
   
    - **分割區檔案目錄：** QoE 封存資料庫的磁碟分割應位於何處的路徑。 這應該是在建議的硬體設定) 中 (HDD3，與 OS 磁片磁碟機和 SQL 資料庫記錄檔磁片磁碟機分開。 請注意，因為檔案名已在安裝中修復，所以建議您不要使用沒有檔案的空白目錄。
     
-   - **SQL 代理程式工作使用者-使用者名稱 &amp; 密碼：** 網域服務帳戶名稱和密碼 (已遮罩) ，用來執行 SQL Server 代理程式工作的「QoE 封存資料」步驟 (它會執行預存程式，以從 QoE 度量 db 中取得資料，以取得封存資料庫中的資料，所以此帳戶必須具有 QoE 度量 db 的「讀取」存取權，如 [帳戶] 區段中所示。 此帳戶在 QoE 封存 SQL Server 實例) 中也需要登入。
+   - **SQL 代理程式工作使用者-使用者名稱 &amp;密碼：** 網域服務帳戶名稱和密碼 (已遮罩) ，用來執行 SQL Server 代理程式工作的「QoE 封存資料」步驟 (這會執行預存程式，以從 QoE 度量 db 將資料提取至封存資料庫，所以此帳戶必須具有 QoE 度量 db 的「讀取」存取權，如 [帳戶] 區段中所示。 此帳戶在 QoE 封存 SQL Server 實例) 中也需要登入。
     
      > [!NOTE]
-     > 執行 SQL Server 實例的帳戶（如 NT SERVICE\MSSQLSERVER）必須具有上述所述目錄的存取權/許可權，安裝才會成功。 如需詳細資訊，請參閱 [設定資料庫引擎存取的檔案系統許可權](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
+     > 在執行 SQL Server 實例的帳戶（如 NT SERVICE\MSSQLSERVER）必須具有上述所述目錄的存取權/許可權，安裝才會成功。 如需詳細資訊，請參閱[設定資料庫引擎存取的檔案系統許可權](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
   
 7. 按 [下一步] 時，安裝程式會執行先決條件檢查，並在遇到任何問題時報告。 當所有必要條件檢查都通過時，安裝程式會移至 [Cube 設定] 頁面。 
     
     > [!NOTE]
-    > 如果安裝程式顯示一則警告訊息，指出 QoE 封存 SQL Server 實例的 SQL Server 代理程式服務目前並未執行，安裝可以繼續，但是安裝後請確定 SQL 代理程式服務正在執行中，並將啟動類型設定為 [自動]，以執行排定的工作。 
+    > 如果安裝程式顯示警告訊息，指出 QoE 封存 SQL Server 實例的 SQL Server Agent service 目前並未執行，安裝可以繼續，但是安裝後請確定 SQL Agent 服務正在執行，並將啟動類型設定為 [自動]，以執行排定的工作。 
   
 8. 在 [Cube 設定] 頁面上，提供下列資訊：
     
    - **QoE 封存 SQL Server 名稱：** 這是唯讀欄位，且固定為本機電腦的完整功能變數名稱。 Cube 只能從 QoE 封存資料庫 (附注的機器安裝。 Cube 本身可以安裝在遠端電腦上。 請參閱下文) 
     
-   - **QoE 封存 SQL Server 實例：** QoE 封存 DB 所在位置的 SQL Server 實例名稱。 若要指定預設的 SQL Server 實例，請將此欄位保留空白。 若要指定命名的 SQL Server 實例，請輸入實例名稱 (例如 ") 之後的名稱。 \" 如果已選取 [QoE 封存元件] 進行安裝，此欄位將預先填入 QoE 封存設定] 頁面上提供的值。
+   - **QoE Archive SQL Server instance：** SQL Server QoE 封存 DB 所在位置的實例名稱。 若要指定預設的 SQL Server 實例，請將此欄位保留空白。 若要指定命名的 SQL Server 實例，請輸入實例名稱 (例如 ") 之後的名稱。 \" 如果已選取 [QoE 封存元件] 進行安裝，此欄位將預先填入 QoE 封存設定] 頁面上提供的值。
     
-   - **Cube 分析伺服器：** 要在其中建立 cube 的 SQL Server Analysis Service 實例名稱。 這可以是不同的機器，但是安裝使用者必須是目標 SQL Server Analysis Service 實例之伺服器管理員的成員。
+   - **cube 分析伺服器：** SQL Server Analysis Service 實例名稱，以供建立 Cube 的位置。 這可以是不同的機器，但是安裝使用者必須是目標 SQL Server Analysis Service 實例之伺服器管理員的成員。
     
      > [!NOTE]
      >  如需設定 Analysis Services 伺服器管理員許可權的詳細資訊，請參閱 [授與伺服器管理員許可權 (Analysis Services) ](/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance?viewFallbackFrom=sql-server-ver15)
   
-   - **使用多個磁碟分割：** 預設值是設定為 "多個分割區"，這需要 SQL Server 的商務智慧 edition 或 Enterprise edition。 在 [Standard edition] 中，選取 [單一分割區] 選項。 請注意，如果使用單一分割區，cube 處理效能可能會受到影響。
+   - **使用多個磁碟分割：** 預設值是設定為 "多重分割區"，這需要 SQL Server 的商務智慧 edition 或 Enterprise 版本。 在 [Standard edition] 中，選取 [單一分割區] 選項。 請注意，如果使用單一分割區，cube 處理效能可能會受到影響。
     
      > [!NOTE]
      >  在安裝程式完成後，無法變更 [使用多個分割區] 選項的選取範圍。 為了進行變更，必須先卸載 Cube 功能，然後使用 [控制台] 中的 [變更] 選項重新安裝。
   
-   - **Cube 使用者-使用者名稱 &amp; 密碼：** 網域服務帳戶名稱和密碼 (會觸發 cube 處理的遮罩) 。 如果已選取 [QoE 封存元件] 進行安裝，此欄位將預先填入 SQL 代理工作使用者「封存設定」頁面上的值，但建議您指定不同的網域服務帳戶，以便安裝程式可以授與其最少必要的許可權。
+   - **Cube 使用者-使用者名稱 &amp; 密碼：** 網域服務帳戶名稱和密碼 (會觸發 cube 處理的遮罩) 。 如果已選取 [QoE 封存元件] 進行安裝，此欄位將預先填入 SQL 代理工作使用者的 [封存設定] 頁面上的值，但建議您指定不同的網域服務帳戶，以讓安裝程式授與最少必要的許可權。
     
 9. 按 [下一步] 時，會執行另一輪驗證，而且會報告任何問題。 當成功完成驗證時，安裝程式會移至入口網站設定頁面。 
     
 10. 在入口網站設定頁面上，提供下列資訊：
     
-    - **QoE 封存 SQL Server：** QoE 封存資料庫所在位置的 SQL Server 實例名稱。 請注意，與「QoE 封存設定」頁面和「Cube 設定」頁面不同的是，機器名稱並未修正，必須提供。 如果已選取 [QoE 封存元件] 進行安裝，此欄位將預先填入 QoE 封存設定] 頁面上提供的值。
+    - **QoE 封存 SQL Server：** SQL Server QoE 封存資料庫所在位置的實例名稱。 請注意，與「QoE 封存設定」頁面和「Cube 設定」頁面不同的是，機器名稱並未修正，必須提供。 如果已選取 [QoE 封存元件] 進行安裝，此欄位將預先填入 QoE 封存設定] 頁面上提供的值。
     
-    - **Cube 分析伺服器：** Cube 所在位置的 SQL Server Analysis Service 實例名稱。 如果已選取 [Cube 元件] 進行安裝，此欄位將預先填入 [Cube 設定] 頁面上提供的值。
+    - **cube 分析伺服器：** cube 所在位置的 SQL Server Analysis Service 實例名稱。 如果已選取 [Cube 元件] 進行安裝，此欄位將預先填入 [Cube 設定] 頁面上提供的值。
     
-    - 存放 **庫 SQL Server：** 要建立存放庫資料庫的 SQL Server 實例名稱。 如果 QoE 封存資料庫所在位置的 SQL Server 實例名稱已在其他元件) 中的「安裝程式 (中提供，則此欄位將預先填入 QoE 封存 DB SQL Server 實例名稱。 這可以是任何 SQL Server 實例。
+    - 存放 **庫 SQL Server：** 要建立存放庫資料庫 SQL Server 實例名稱。 如果 QoE 封存資料庫所在位置的 SQL Server 實例名稱在其他元件) 的「安裝」 (中已提供，此欄位將預先填入 QoE 的封存資料庫 SQL Server 實例名稱。 這可以是任何 SQL Server 實例。
     
     - 存放 **庫資料庫：** 根據預設，此選項會設定為「建立新資料庫」。 由於不支援存放庫 DB 升級，因此如果現有的存放庫 DB 與要安裝的組建具有相同的架構，則唯一可以使用「使用現有資料庫」選項的情況。
     
     - **IIS 應用程式集區使用者-使用者名稱 &amp; 密碼：** IIS 應用程式集區執行所在的帳戶。 [使用者名稱] 和 [密碼] 欄位會在選取內建系統帳戶時呈現灰色。 只有從下拉式方塊中選取 "Other"，這樣使用者才能輸入網域服務帳戶資訊時，才會啟用這些欄位。
     
-11. 按 [下一步] 時，會進行最後一輪驗證，以確保 SQL Server 實例可以使用所提供的認證，以及電腦上可用的 IIS。 當成功完成驗證時，安裝程式會繼續進行設定。 
+11. 按 [下一步] 時，將會進行最後一輪驗證，以確保使用所提供的認證及該電腦上可用的 IIS 來存取 SQL Server 實例。 當成功完成驗證時，安裝程式會繼續進行設定。 
     
-安裝程式完成時，最可能的 SQL Server 代理程式工作會進行中，進行 QoE 資料的初始載入和 cube 處理。 根據 QoE 中的資料量而定，入口網站將沒有可供查看的資料。 若要檢查資料負載和 cube 處理的狀態，請移至  `http://<machinename>/CQD/#/Health` 。 
+安裝程式完成時，最可能的 SQL Server 代理程式工作會進行中，執行 QoE 資料和 cube 處理的初始載入。 根據 QoE 中的資料量而定，入口網站將沒有可供查看的資料。 若要檢查資料負載和 cube 處理的狀態，請移至  `http://<machinename>/CQD/#/Health` 。 
 > [!NOTE]
 > 請注意，檢查下載 cube 處理狀態的 URL 是區分大小寫的。 如果您輸入「健康狀態」，URL 將無法運作。 您必須在 URL 的結尾以大寫的 H 輸入「健康情況」。 
   
-如果啟用偵錯模式，就會顯示詳細的記錄訊息。 若要啟用偵錯模式，請移至 **%SYSTEMDRIVE%\Program Files\Skype For Business 2015 CQD\QoEDataService\web.config**，並更新下行，使值設定為 **True**：
+如果啟用偵錯模式，就會顯示詳細的記錄訊息。 若要啟用偵錯模式，請移至 **%SYSTEMDRIVE%\Program 的「Files \ Skype For Business 2015 CQD\QoEDataService\web.config**，並更新下列行，讓此值設為 **True**：
 
 ```xml
 <add key="QoEDataLib.DebugMode" value="True" /> 
@@ -149,7 +149,7 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
 ![在 IIS 中部署呼叫品質-授權規則](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
   
 > [!NOTE]
-> [授權規則] 圖示不會與 [ASP.NET] 區段下的「.NET 授權」混淆，後者是一種不同的授權機制。 
+> [授權規則] 圖示不會與 [ASP.NET] 區段下的「.net 授權」混淆，後者是一種不同的授權機制。 
   
 管理員應該先移除繼承的「允許所有使用者」規則。 這可防止任何未獲授權的使用者存取入口網站。
   
@@ -194,9 +194,9 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
 
 *無法在 Cube 上執行查詢。使用查詢編輯器，修改查詢並修正任何問題。此外，請確定可以存取 Cube。*
 
-這表示在 CQD 中使用 cube 之前，必須先在 SQL Server Analysis Services 中處理 cube。 若要解決此問題，您可以遵循下列步驟：
+這表示在 CQD 中使用之前，必須先在 SQL Server Analysis Services 中處理 cube。 若要解決此問題，您可以遵循下列步驟：
 
-1. 開啟 SQL Management Studio 並選取 [ **Analysis Services**]。
+1. 開啟 SQL Management Studio 並選取 **Analysis Services**。
 
 2. 展開 **QoECube** 物件，選取 [ **QoE 度量**]，按一下滑鼠右鍵，然後選擇 **[流覽]**。 
 
@@ -219,7 +219,7 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
     
      ![部署通話品質儀表板](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
   
-3. 針對 "Windows 驗證"，按一下右側的 [高級設定]。
+3. 針對「Windows 驗證」，按一下右側的 [高級] 設定。
     
      ![部署通話品質儀表板](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
   
@@ -235,7 +235,7 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
   
 1. 在 IIS 中設定安全通訊端層，請參閱 [在 iis 7 中設定安全通訊端層](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771438(v=ws.10))。 完成後，請  `http` 取代 `https` 。
     
-2. 如需在 SQL Server 連線中啟用 TLS 的相關指示，請參閱 how [to 使用 Microsoft Management Console 為 SQL server 實例啟用 SSL 加密](https://support.microsoft.com/kb/316898/)。
+2. 如需在 SQL Server 連線中啟用 TLS 的相關指示，請參閱 how [to 使用 Microsoft Management Console 為 SQL Server 實例啟用 SSL 加密](https://support.microsoft.com/kb/316898/)。
     
 ## <a name="cube-sync-fails"></a>Cube Sync 失敗
 
@@ -278,7 +278,7 @@ QoEMetrics 可能會根據使用者的時鐘，包含一些不正確記錄。 �
   
 - Headquarters
     
-- 遠端辦公室
+- 遠端 Office
     
 - 共同冒險的位置
     
@@ -388,7 +388,7 @@ BuildingKey、BuildingName、BuildingShortName、OwnershipTypeId、BuildingTypeI
 > [!NOTE]
 > 這是選用的步驟，但建議使用。
   
-匯入子網並將其對應至上一個步驟中匯入的大樓。 如果決定不填入 NetworkName，請確定此表格中的每個專案都使用0的 NetworkNameID。 如需有關通話品質儀表板之 SQL 語法和參數的詳細資訊，請參閱 [使用商務用 Skype Server 的通話品質儀表板](./use.md)。
+匯入子網並將其對應至上一個步驟中匯入的大樓。 如果決定不填入 NetworkName，請確定此表格中的每個專案都使用0的 NetworkNameID。 如需通話品質儀表板 SQL 語法和參數的詳細資訊，請參閱[使用呼叫品質儀表板進行商務用 Skype Server](./use.md)。
   
  **範例 SQL 語法**
   
@@ -431,7 +431,7 @@ VALUES
 |:-----|:-----|:-----|
 |Ap NName  <br/> |美聯社  <br/> |AP1  <br/> |
 |BBssid  <br/> |Bss  <br/> |00-00-00-00-00-00 (您必須使用分隔 fformat)   <br/> |
-|控制項  <br/> |建築  <br/> |Aruba AP 7  <br/> |
+|控制器  <br/> |建築  <br/> |Aruba AP 7  <br/> |
 |裝置  <br/> |Ess  <br/> |Controller1  <br/> |
 |無線電  <br/> |Phy  <br/> |bgn  <br/> |
    
@@ -441,6 +441,6 @@ VALUES
   
 若要使用這個新資料來標記上述所有記錄，您必須執行如下所示的 CqdUpdateBuilding 預存程式： 
   
-將您的第一筆記錄的日期， (識別使用 [選取 MIN (StartTime) 從 CqdPartitionedStreamView SQL 命令 ) ，在明天 EndDate，最後兩個值則為 Null。
+將您的第一筆記錄的日期， (識別使用 [選取 MIN (StartTime) 從 CqdPartitionedStreamView SQL] 命令 ) ，EndDate 為明天，最後兩個值則為 Null。
   
 資料與資料流程資料關聯之後，SSIS Cube 便需要重新處理所有記錄。 大量新增 BSSID/ISP 資料時，也會套用這種情況。 確定已選取「處理完整」。

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e26c6a7ad92353e083c67d0dad777e980a83fdfe
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: eebbea6ce5d632d38e94465f05fd9f60a3300a4e060106e7ba2f6218433c5e8b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598462"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335813"
 ---
 # <a name="use-ndi-technology-in-microsoft-teams"></a>在 ® 使用 NDI Microsoft Teams
 
@@ -43,7 +43,7 @@ NDI®使用者需要開啟兩個步驟。
 Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 ```
 
-2. 完成此變更之後，使用者必須針對其特定用戶端開啟 NDI®技術，設定  >  **許可權**。
+2. 完成此變更之後，使用者必須開啟其特定用戶端的 NDI®技術，設定  >  **許可權**。
 
 當使用者加入會議時，會看到一則訊息，通知他們會議正在廣播中。 如果使用者不想包含在廣播中，則需要從會議刪除。
 
@@ -60,10 +60,10 @@ Set-CsTeamsMeetingPolicy -Identity MEETING_POLICY -AllowNDIStreaming $true
 
 NDI®支援所有地區。 下列使用者包含在 NDI®技術流中，但並非所有使用者都可以存取 NDI®技術流：
 
-- 租使用者內 – 完全支援，根據由會議 (控制之 Ring/tenantId/userId) 
+- 租使用者內 – 完全支援，根據 Ring/tenantId/userId (由會議策略) 
 - 聯合 – 即使<sup>1</sup> (有 NDI®，也) 存取
 - 進階版 - 沒有串流存取
 - 匿名 – 沒有串流存取
 - 來賓 – 沒有串流存取  
 
-<sup>1</sup> 裝置預設為® NDI®技術設定。 如果會議參與者使用具有 NDI ®關閉的裝置，他們必須開啟 NDI®技術。
+<sup>1</sup> 裝置預設為® NDI®技術設定。 如果會議參與者使用具有 NDI®關閉的裝置，他們必須開啟 NDI® 技術。

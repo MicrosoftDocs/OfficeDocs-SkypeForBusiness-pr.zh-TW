@@ -16,16 +16,16 @@ f1.keywords:
 description: Teams多國公司的語音案例研究：音訊會議
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e9f4dd4781a8ea6a60528aaa3e4b208efc1a8f5e
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: f25fa2e81244365d1c0c3dfcacf918f1b35a6fa71d2b619eaaa55c8aa219c310
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587302"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335793"
 ---
 # <a name="contoso-case-study-audio-conferencing"></a>Contoso 案例研究：音訊會議
 
-若要瞭解音訊會議是什麼、費用、可用性，以及音訊會議運作方式，Contoso 在 Office 365 &mdash; &mdash; 中[已Office 365。](deploy-audio-conferencing-teams-landing-page.md) 
+若要瞭解音訊會議是什麼、其成本、可用性及運作方式 &mdash; ，Contoso 在 Office 365 &mdash; 中[已Office 365。](deploy-audio-conferencing-teams-landing-page.md) 
 
 ## <a name="overview"></a>概觀 
 
@@ -37,12 +37,12 @@ Contoso 根據他們的研究做出下列決定：
 
 - Contoso 會使用專用電話號碼，並移植現有的號碼，以用於音訊會議。   
 
-由於 Contoso 使用者使用的是商務用 Skype且所有使用者的信箱都位於線上，因此許多使用者已排程現有的會議。 Contoso 閱讀使用會議移 ([MMS) ， ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json) 以瞭解當將使用者變更為 TeamsOnly 模式時，系統會自動更新 Contoso 的現有會議。  
+由於 Contoso 使用者使用的是商務用 Skype且所有使用者的信箱都位於線上，因此許多使用者已排程現有的會議。 Contoso 閱讀使用會議移 ([MMS ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)) ，以瞭解當將使用者變更為 TeamsOnly 模式時，系統會自動更新 Contoso 的現有會議。  
 
 
 ## <a name="configuration"></a>配置
 
-電話與音訊會議相關聯的號碼，稱為電話系統。 
+電話與音訊會議相關聯的號碼，稱為 電話系統。 
 
 - 對於使用通話方案的位置，若要將現有的電話號碼從電話電信Office 365，Contoso 會遵循取得服務電話號碼[中的步驟](getting-service-phone-numbers.md)。
 

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: VideoStreamDetail View 儲存資料庫中每個影片資料流程的資訊。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 6341febeb8d43e36975c5b4cc446ac24ff1287c2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9caf8cac3c45088cde68635a46ab9ebd79b5ca3bc203f71dc2ea0fce34968e3b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834343"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279949"
 ---
 # <a name="videostreamdetail-view"></a>VideoStreamDetail view
  

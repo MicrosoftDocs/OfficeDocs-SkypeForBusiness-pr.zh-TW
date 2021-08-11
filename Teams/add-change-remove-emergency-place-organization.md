@@ -16,22 +16,22 @@ appliesto:
 localization_priority: Normal
 f1.keywords:
 - NOCSH
-description: 瞭解如何在系統管理中心為貴組織新增、變更或移除緊急Microsoft Teams位置。
+description: 瞭解如何在系統管理中心新增、變更或移除組織緊急Microsoft Teams位置。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 50343fbd1d16694e46afafe53114f2dde4b7b150
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f9a612bc89972d06bbb87c6905c3ec25c85a5e9171095c46e065a9692e2514b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121501"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279829"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>新增、變更或移除貴組織緊急位置的地方
 
-根據貴組織實體位置的數量，您可以新增建築物、樓層和辦公室的位置，以建立更具體的緊急位置。 請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md) 以瞭解更多資訊。
+根據貴組織中實際位置的數量，您可以新增建築物、樓層和辦公室的位置，以建立更具體的緊急位置。 請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md) 以瞭解更多資訊。
   
 若要瞭解如何取得通話方案及其費用，請參閱Teams[授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-您可以在系統管理中心或使用 PowerShell Microsoft Teams組織的緊急位置。
+您可以在系統管理中心或使用 PowerShell 管理Microsoft Teams組織的緊急位置。
   
 ## <a name="add-a-place-to-an-emergency-location"></a>新增位置至緊急位置
 

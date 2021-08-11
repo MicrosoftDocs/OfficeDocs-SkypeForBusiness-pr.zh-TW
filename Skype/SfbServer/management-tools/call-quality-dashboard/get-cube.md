@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
-description: 摘要：瞭解「取得 Cube」作業，此作業是「通話品質」儀表板的資料 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
-ms.openlocfilehash: a3527f21bc1751c23bba088ae06c3e6702cb8c8e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解「取得 Cube」作業，此作業是「通話品質」儀表板的資料 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
+ms.openlocfilehash: bc65a9d6886b9375a799c62a6abaefd33738dae5fd8a4d4aee83a536d9a82948
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832623"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278721"
 ---
 # <a name="get-cube"></a>取得 Cube
  
-**摘要：** 深入瞭解「取得 Cube」作業，此作業是「通話品質」儀表板的資料 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
+**摘要：** 深入瞭解「取得 Cube」作業，此作業是「通話品質」儀表板的資料 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
   
 「取得 Cube」作業是「呼叫品質」儀表板之資料 API 的一部分。
   

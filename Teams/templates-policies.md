@@ -18,17 +18,17 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在系統管理中心管理小組範本
-ms.openlocfilehash: dd88f76d0f74b6a1fe48bd934e7cfc8ee9ab4ccc
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: a8fa2833f00c1d943bfa1b935492a80bd98444d1780eff1382b0952781aa471e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684580"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310402"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>在系統管理中心管理小組範本
 
 在系統管理中心建立範本政策，管理使用者看到的團隊範本。 在每個範本策略中，您可以指定顯示或隱藏哪些範本。
-將不同的使用者指派給不同的範本策略，這樣您的使用者只會查看指定的小組範本子集。
+將不同的使用者指派給不同的範本策略，讓使用者只查看指定的小組範本子集。
 
 請觀看這段短片，瞭解如何管理範本策略。
 
@@ -54,11 +54,11 @@ ms.locfileid: "52684580"
 
     ![已選取的範本，並突顯隱藏](media/template-policies-2.png)
 
-    您可以在隱藏範本資料表中看到您選取要 **隱藏的** 範本。
+    您可以在隱藏範本資料表中看到您選取要 **隱藏的範本。**
 
 1. 若要取消隱藏特定範本，請卷起至隱藏 **範本** 資料表。
 
-2. 選取要取消隱藏的範本，然後選取 **顯示**。
+2. 選取要取消隱藏的範本， **然後選取** 顯示 。
 
    ![未隱藏的所選範本](media/template-policies-3.png)
 
@@ -69,9 +69,9 @@ ms.locfileid: "52684580"
 
 ## <a name="assign-users-to-the-template-policies"></a>將使用者指派給範本策略
 
-指派給策略的使用者只能查看該政策內的可查看範本。
+指派給策略的使用者只能查看該策略內的可查看範本。
 
-1. 從 **範本政策** 中，選取一個策略，然後選取管理 **使用者**。
+1. 從 **範本策略** 中，選取一個策略，然後選取管理 **使用者**。
 
 2. 輸入要指派給此策略的使用者。
 
@@ -90,7 +90,7 @@ ms.locfileid: "52684580"
 
 **問：我可以批次將使用者指派給小組範本政策嗎？**
   
-答：是，我們支援 PowerShell 中範本策略的批次指派。 此動作的策略類型為 TeamsTemplatePermissionPolicy。 [瞭解更多資訊](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+答：是，我們支援 PowerShell 中範本策略的批次指派。 此動作的策略類型為 TeamsTemplatePermissionPolicy。 [深入了解](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 **問：群組可以指派給小組範本政策嗎？**
 
@@ -118,7 +118,7 @@ ms.locfileid: "52684580"
 
 答：在系統管理中心：
 
-1. 前往 **使用者區** 段。
+1. 前往使用者 **區** 段。
 2. 在使用者清單資料表中選取篩選，然後針對小組範本策略進行篩選。
 3. 選取 **Apply**。
 
@@ -144,4 +144,4 @@ ms.locfileid: "52684580"
 
 - [在 Microsoft Docs Microsoft Teams指派Microsoft Teams \| 使用者](./assign-policies.md)
 
-- [將使用者批次指派給策略](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [批次指派使用者至策略](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

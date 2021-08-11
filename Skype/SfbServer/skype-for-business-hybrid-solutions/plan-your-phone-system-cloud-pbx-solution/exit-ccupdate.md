@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 463dce1e-fb60-487d-bcf1-69e7b03ecd14
-description: CcUpdate Cmdlet 會在商務用 Skype 雲端連接器 Edition 主機伺服器上退出更新維護模式。
-ms.openlocfilehash: 315d6b7dccb6708901128bf8faa29a60f712e833
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Exit-CcUpdate Cmdlet 會在商務用 Skype Cloud Connector Edition 主機伺服器上退出更新維護模式。
+ms.openlocfilehash: d55004f071caa67492d5368e36007d9c3c307b90aabbc33d79d1feeb4aa37356
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801763"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288833"
 ---
 # <a name="exit-ccupdate"></a>Exit-CcUpdate
  
-CcUpdate Cmdlet 會在商務用 Skype 雲端連接器 Edition 主機伺服器上退出更新維護模式。 
+Exit-CcUpdate Cmdlet 會在商務用 Skype Cloud Connector Edition 主機伺服器上退出更新維護模式。 
   
-此 Cmdlet 適用于商務用 Skype 雲端連接器 Edition 1.4.1，1.4.2。 
+此 Cmdlet 適用于商務用 Skype Cloud Connector Edition 1.4.1，1.4.2。 
   
 ```powershell
 Exit-CcUpdate
@@ -39,7 +39,7 @@ Exit-CcUpdate
 
 ### <a name="example-1"></a>範例 1
 
-下列命令會將它執行的裝置放回生產模式： 
+下列命令會將執行它的裝置放回實際執行模式： 
   
 ```powershell
 Exit-CcUpdate
@@ -48,14 +48,14 @@ Exit-CcUpdate
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-如果您的裝置是透過指定 CcUpdate Cmdlet 進入維護模式，則 CcUpdate Cmdlet 會將這些裝置放回生產模式。 
+如果您透過指定 Enter-CcUpdate Cmdlet 將裝置置於維護模式，則 Exit-CcUpdate Cmdlet 會將這些裝置傳回生產模式。 
   
 如需將裝置置於維護模式的詳細資訊，請參閱 Enter-CcUpdate。
   
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>
 
-無。 Exit CcUpdate Cmdlet 不接受流水線輸入。
+無。 Exit-CcUpdate Cmdlet 不接受管線傳送的輸入。
   
 ## <a name="return-types"></a>傳回類型
 <a name="ReturnTypes"> </a>

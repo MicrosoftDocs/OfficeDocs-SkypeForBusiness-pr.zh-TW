@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 系統管理員可以控制召集人如何為會議使用免付費號碼。
-ms.openlocfilehash: 4fae54e3ed140ab876e6fadef10907e40f59057e
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: aabc72f5e413b8f760981b8fac364afc836be5ce058d5999e2c19f96109141b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238508"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310272"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>停用特定線上使用者的免付費商務用 Skype號碼
 
@@ -36,7 +36,7 @@ ms.locfileid: "52238508"
 
 如果貴組織在其 Microsoft 音訊會議橋接器中擁有免付費號碼，您可以允許或禁止在特定的召集人會議中使用。  
 
-根據預設，貴組織的所有使用者都可以使用免付費號碼，也就是說，參與者可以使用這些號碼來加入他們的會議 。如果可用的話，這些號碼可供參與者使用。 如果貴組織中某些使用者不是想要的行為，您可以透過免付費號碼啟用控制項，限制特定使用者在會議中使用這些號碼。 
+根據預設，貴組織的所有使用者都可以使用免付費號碼，也就是說，參與者可以使用這些號碼來加入他們的會議 。如果可用的話， 如果貴組織中某些使用者不是想要的行為，您可以透過免付費號碼啟用控制項，限制特定使用者在會議中使用這些號碼。 
 
 當為給定的召集人停用免付費號碼時： 
  - 免付費號碼將不再包含在其會議邀請中。 
@@ -45,7 +45,7 @@ ms.locfileid: "52238508"
  - 召集人的所有會議都會自動重新排期，免付費號碼也會從它們中移除。  
 
     > [!IMPORTANT]
-    > 這會將召集人的所有電子郵件邀請重新發回給所有會議參與者。 
+    > 這會將召集人的所有電子郵件邀請重新發回給這些會議的所有參與者。 
 
  - 參與者可以使用付費號碼繼續加入召集人的會議。 
 

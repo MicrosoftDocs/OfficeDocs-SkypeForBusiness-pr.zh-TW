@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于薩爾瓦多Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
-ms.openlocfilehash: 609439bd20fa894f6a2805712cbfeff1b12ab759
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 以下是薩爾瓦多Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
+ms.openlocfilehash: 211a5db86d3ee7f5d9241a7028cd8992211428d1aafc3fe57aab7f9c9fced194
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118151"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279760"
 ---
 # <a name="availability-in-el-salvador"></a>薩爾瓦多的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于薩爾瓦多Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
+以下是薩爾瓦多Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

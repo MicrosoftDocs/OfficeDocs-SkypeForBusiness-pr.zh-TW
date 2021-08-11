@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 將憑證要求傳送到線上憑證授權單位單位 (CA 時)  (通常是內部網路上的伺服器) 上的 [選擇憑證授權單位單位 (CA) ] 頁面上，會顯示兩個選項：
-ms.openlocfilehash: 8744471569c76e8f8196cda41ca398c48205fea8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f6c0a52018c5741fab22f29e23dd1f8a27b3709cca347cd24bcc1c2e11b87688
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830363"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326479"
 ---
 # <a name="certificate-request-certificate-authority"></a>簽署要求 (憑證授權單位)
  
@@ -30,11 +30,11 @@ ms.locfileid: "49830363"
     
 2. 指定另一個憑證授權單位單位。
     
-如果您選取第一個選項，您會看到一個下拉式清單，其中包含在您的環境中偵測到的所有以 Windows Server 為基礎的憑證授權單位單位。 選取適合您憑證的憑證授權單位單位。 您可能需要與 CA 管理員協商，以瞭解選擇哪個 CA。
+如果您選取第一個選項，您會看到一個下拉式清單，其中包含在您的環境中偵測到的 Windows 所有以伺服器為基礎的憑證授權單位單位。 選取適合您憑證的憑證授權單位單位。 您可能需要與 CA 管理員協商，以瞭解選擇哪個 CA。
   
-如果您選取第二個選項，請輸入您要用於憑證之憑證授權單位單位的完整功能變數名稱 (FQDN) 及 CA 實例。 如果您想要使用的 CA 不是以 Windows Server 為基礎的 CA，但適用于 Windows Server 型 ca，則此選項是適當的。
+如果您選取第二個選項，請輸入您要用於憑證之憑證授權單位單位的完整功能變數名稱 (FQDN) 及 CA 實例。 如果您想要使用的 ca 不是 Windows 伺服器型 ca，但可用於 Windows 伺服器型 ca，則此選項是適當的。
   
 > [!IMPORTANT]
-> 請務必確認您需要成功使用憑證要求的群組成員資格。 在伺服器上安裝商務用 Skype Server 的需求通常，憑證授權單位單位具有不同的許可權需求。 確認要求您的 CA 管理員要求憑證。 
+> 請務必確認您需要成功使用憑證要求的群組成員資格。 通常，憑證授權單位單位具有不同于在伺服器上安裝商務用 Skype Server 的許可權需求。 確認要求您的 CA 管理員要求憑證。 
   
 

@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 在商務用 Skype Cloud Connector Edition 上尋找一組封裝虛擬機器，以 (vm) 執行內部部署 PSTN 連線與電話系統 (Cloud PBX) 。
-ms.openlocfilehash: 4d4573b89f743ea8224905687869cb607a85c00d
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 147fabd9866386b67c17022a37369149273de3caeecf40e471abbed40e0e33cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628802"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288851"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>規劃商務用 Skype Cloud Connector Edition
 
@@ -350,7 +350,7 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 |SBC/PSTN 閘道  <br/> |雲端連接器轉送元件  <br/> |任何  <br/> |TCP 5068/TLS 5067  <br/> |
 |雲端連接器轉送元件  <br/> |SBC/PSTN 閘道  <br/> |UDP 49 152-57 500  <br/> |任何\*\*\*  <br/> |
 |SBC/PSTN 閘道  <br/> |雲端連接器轉送元件  <br/> |任何\*\*\*  <br/> |UDP 49 152-57 500  <br/> |
-|雲端連接器轉送元件  <br/> |內部用戶端  <br/> |TCP 49 152-57 500\*  <br/> |TCP 50000 50019  <br/> (選用)  <br/> |
+|雲端連接器轉送元件  <br/> |內部用戶端  <br/> |TCP 49 152-57 500\*  <br/> |TCP 50000 50019  <br/> （選用）  <br/> |
 |雲端連接器轉送元件  <br/> |內部用戶端  <br/> |UDP 49 152-57 500\*  <br/> |UDP 50000 50019  <br/> |
 |內部用戶端  <br/> |雲端連接器轉送元件  <br/> |TCP 50000 50019  <br/> |TCP 49 152-57 500\*  <br/> |
 |內部用戶端  <br/> |雲端連接器轉送元件  <br/> |UDP 50000 50019  <br/> |UDP 49 152-57 500\*  <br/> |
@@ -424,9 +424,9 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 |方向  <br/> |來源 IP  <br/> |目的地 IP  <br/> |來源連接埠  <br/> |目的地連接埠  <br/> |Protocol (通訊協定)  <br/> |用途  <br/> |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|出境  <br/> |雲端連接器主機 IPs  <br/> |任何  <br/> |任何  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
-|出境  <br/> |雲端連接器主機 IPs  <br/> |任何  <br/> |任何  <br/> |80，443  <br/> |TCP  <br/> | (CRL) 的憑證吊銷清單  <br/> |
-|出境  <br/> |雲端連接器主機 IPs  <br/> |任何  <br/> |任何  <br/> |80，443  <br/> |TCP  <br/> |雲端連接器更新  <br/> 商務用 Skype Online  <br/> 系統管理員 PowerShell  <br/> Windows Update  <br/> |
+|出埠  <br/> |雲端連接器主機 IPs  <br/> |任何  <br/> |任何  <br/> |53  <br/> |TCP/UDP  <br/> |DNS  <br/> |
+|出埠  <br/> |雲端連接器主機 IPs  <br/> |任何  <br/> |任何  <br/> |80，443  <br/> |TCP  <br/> | (CRL) 的憑證吊銷清單  <br/> |
+|出埠  <br/> |雲端連接器主機 IPs  <br/> |任何  <br/> |任何  <br/> |80，443  <br/> |TCP  <br/> |雲端連接器更新  <br/> 商務用 Skype Online  <br/> 系統管理員 PowerShell  <br/> Windows Update  <br/> |
 
 如果需要更嚴格的規則，請參閱下列 allowlist URLs：
 
@@ -458,7 +458,7 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 首先，您必須定義下列常見的部署參數：
 
 
-|**項目**|**描述**|**附註**|
+|**Item**|**描述**|**附註**|
 |:-----|:-----|:-----|
 |SIP 網域  <br/> |公司使用者使用的 SIP URI。 提供此部署將服務的所有 SIP 網域。 您可以擁有一個以上的 SIP 網域。  <br/> ||
 |PSTN 網站數目  <br/> |您將部署的 PSTN 網站數目。  <br/> ||
@@ -528,7 +528,7 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 |透過內部防火牆與中繼元件進行通訊的媒體埠範圍  <br/> |中繼元件要用來與用戶端和閘道通訊的 UDP 埠範圍 (每次呼叫的建議4個埠) 。  <br/> ||
 |從商務用 Skype 用戶端透過內部防火牆進行通訊的媒體埠範圍  <br/> |出於規劃目的，無法變更。 需要在內部防火牆中開啟埠，以在內部網路和中繼元件的商務用 Skype 用戶端之間進行通訊。  <br/> |50 000-50 019  <br/> |
 |公用憑證密碼  <br/> |必須在腳本中提供。  <br/> ||
-|安全模式系統管理員密碼  <br/> 僅限版本1.4。2  <br/> |內部 CC 網域的安全模式系統管理員密碼。  <br/> ||
+|保管庫模式系統管理員密碼  <br/> 僅限版本1.4。2  <br/> |內部 CC 網域的保管庫模式系統管理員密碼。  <br/> ||
 |雲端連接器網域管理員密碼  <br/> 僅限版本1.4。2  <br/> |雲端連接器網域管理員的密碼 (不同于您的實際執行網域) 。 使用者名稱為系統管理員。 您無法變更使用者名稱。  <br/> ||
 |虛擬機器管理員密碼  <br/> 僅限版本1.4。2  <br/> |在部署期間用來設定管理網路。  <br/> 使用者名稱為系統管理員。 您無法變更使用者名稱。  <br/> ||
 |CABackupFile  <br/> 版本2.0 和更新版本  <br/> |用於在雲端連接器網站中部署多個裝置時，將憑證授權單位服務從 Active Directory 伺服器儲存至檔案。 請務必為一個雲端連接器網站中的所有裝置使用相同的密碼，以便將 CA 備份檔案匯入至已成功新增的裝置。  <br/> ||
@@ -706,7 +706,7 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 
 Cloud Connector 2.1 和更新版本支援使用 Operations Management Suite (OMS) 來監視雲端連接器。 如需詳細資訊，請參閱 [使用 Operations Management Suite Monitor Cloud Connector (OMS) ](monitor-cloud-connector-using-operations-management-suite-oms.md)
 
-## <a name="for-more-information"></a>如需詳細資訊
+## <a name="for-more-information"></a>相關資訊
 <a name="BKMK_MoreInfo"> </a>
 
 如需詳細資訊，請參閱下列各主題：

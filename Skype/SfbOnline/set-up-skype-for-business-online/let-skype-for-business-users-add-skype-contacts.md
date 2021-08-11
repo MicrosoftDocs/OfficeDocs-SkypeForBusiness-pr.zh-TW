@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: '瞭解如何讓商務用 Skype連絡人商務用 Skype組織外部的使用者，並新增到連絡人清單中。 '
-ms.openlocfilehash: d68fc27dfb1c77935ce74e278092f6ed4ae3d7dc
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 1c3d0e3e03d85b17e65dfc7a3782d1f2497f6d65f7fa0b84050d9d7cbb759ca2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239832"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298773"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>讓商務用 Skype 使用者新增 Skype 連絡人
 
@@ -45,19 +45,19 @@ ms.locfileid: "52239832"
   
 3. 在 [商務用 Skype 系統管理中心]，選擇 [組織]  >  [外部通訊]。 
     
-4. 根據預設，如果您的防火牆已商務用 Skype (允許此防火牆，您的使用者就可以與全世界所有使用此) 。 
+4. 根據預設，如果您的防火牆已商務用 Skype (允許此防火牆，您的使用者可以與世界上所有使用此功能) 。 
     
     ![選擇讓人員使用商務用 Skype與Skype。](../images/333789f8-2ea6-4bbd-805b-18130f427999.png)
   
     如果您希望使用者與使用者Skype聊天，但您不希望他們與使用 商務用 Skype 的人聊天，請選擇僅適用于允許的 **網域**。 當您啟用與使用者Skype時，skype.com 會自動新增為幕後允許的網域。 
     
-    如果您想要允許來自全球所有其他企業使用 商務用 Skype，請選擇除了封鎖網域以外的 On，然後選擇新增 **+** 這些網域。 除了這些特定網域上的人員之外，每個人都可以與您聯繫。  (某些企業可能會選擇這個選項，例如，如果他們正參與訴訟，而且需要確保沒有與其他企業聯繫。) 
+    如果您想要允許全球所有其他企業使用 商務用 Skype，請選擇除了封鎖網域以外的 On，然後選擇新增 **+** 這些網域。 除了這些特定網域上的人員之外，每個人都可以與您聯繫。  (某些企業可能會選擇這個選項，例如，如果他們正參與訴訟，而且需要確保與其他企業沒有聯繫。) 
     
-5. 選擇 **讓人員商務用 Skype組織Skype使用者通訊**。 
+5. 選擇 **讓人員使用商務用 Skype與組織Skype使用者通訊**。 
     
 6.  如果您使用的是防火牆Windows，商務用 Skype自動開啟所需的埠。
     
-    如果貴組織使用另一個解決方案來限制網路上的電腦無法連接到網際網路，請確保用戶端電腦能夠存取 Skype 連接和目錄搜尋[](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)Skype IP 位址和 URL。 這可能需要將它們新增到防火牆或 Proxy 基礎結構組配置的外發允許清單。
+    如果貴組織使用另一個解決方案來限制網路上的電腦無法連接到網際網路，請確保用戶端電腦能夠存取 Skype 連線性的所有[IP](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)位址和 URL，Skype目錄搜尋。 這可能需要將它們新增到防火牆或 Proxy 基礎結構組配置的外發允許清單。
     
 7. **等候最多 24 小時進行測試**。 每次變更外部通訊設定時，變更最多可能需要 24 小時，才能填入所有資料中心。
     
@@ -69,7 +69,7 @@ ms.locfileid: "52239832"
   
 1. 變更外部通訊設定之後，請等候 **最多 24 小時進行測試**。
     
-2. 登出帳戶商務用 Skype然後再次登錄，這樣您便看到搜尋目錄Skype選項。 
+2. 登出商務用 Skype，然後再次登錄，這樣您便看到搜尋目錄Skype選項。 
     
     ![當Skype目錄時，您可以搜尋擁有帳戶Skype人員。](../images/76ee9fab-1ac3-4f4a-9569-f5f2606dbb7a.png)
   
@@ -77,9 +77,9 @@ ms.locfileid: "52239832"
     
     如果您收到由於公司政策無法送出的郵件，您必須仔細檢查防火牆 [設定](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 
     
-4. 另一個測試問題是否出在防火牆上的方法，是前往防火牆後面的 Wifi 位置，例如咖啡店，並使用 商務用 Skype 傳送要求給您的Skype聯絡人聊天。 
+4. 另一個測試問題是否出在防火牆上的方法，是前往防火牆後面的 Wifi 位置，例如咖啡店，然後使用 商務用 Skype 傳送要求給您的Skype聯絡人聊天。 
     
-   - **如果您傳送您的Skype聯絡要求，但他們** 從未收到要求，請要求他們傳送聊天要求。 如果問題在兩者之間建立Skype，商務用 Skype通常可以解決問題。
+   - **如果您傳送您的Skype** 聯絡要求，但他們從未收到要求，請要求他們傳送邀請與您聊天。 如果問題在兩者之間建立Skype，商務用 Skype通常可以解決問題。
     
    - 現在，如果訊息在咖啡店傳遞，但您不在公司時，您就會知道問題出在防火牆上。 
     
@@ -87,15 +87,15 @@ ms.locfileid: "52239832"
 
 - **商務用 Skype Mac** 上的連絡人無法搜尋並Skype連絡人。
     
-- 啟用目錄搜尋時，您可以搜尋及尋找Skype商務用 Skype使用者。 如果您因為某種原因無法搜尋目錄來尋找，您可以傳送連絡人要求給他們，然後讓他們Skype並接受，好讓他們進行 IM。 
+- 啟用目錄搜尋時，您可以搜尋及尋找Skype商務用 Skype使用者。 如果您因為某種原因無法搜尋目錄來尋找他們，您可以傳送連絡人要求給他們，然後讓他們Skype並接受，以便他們進行 IM。 
     
 - 無法允許與其他 IM 提供者 ，例如 Google 或 Facebook 的 IM 連接。 您無法使用商務用 Skype手機文字訊息。
 
-- 無法錄製連絡人與連絡人Skype音訊商務用 Skype通話。
+- 無法錄製連絡人與連絡人之間的音訊Skype視商務用 Skype通話。
     
 ## <a name="what-features-are-available-when-adding-skype-contacts"></a>新增連絡人時，可以使用Skype功能？
 
-Skype使用 Microsoft 帳戶 (前 Windows Live ID) 的連絡人在與您的使用者交談時，可以取得部分功能，但並非全部商務用 Skype功能。
+Skype以 Microsoft 帳戶 (前 Windows Live ID) 的連絡人在與您的使用者交談時，可以取得部分功能，但並非全部商務用 Skype功能。
   
 |**適用于Skype連絡人**|**無法與Skype一起使用**|
 |:-----|:-----|

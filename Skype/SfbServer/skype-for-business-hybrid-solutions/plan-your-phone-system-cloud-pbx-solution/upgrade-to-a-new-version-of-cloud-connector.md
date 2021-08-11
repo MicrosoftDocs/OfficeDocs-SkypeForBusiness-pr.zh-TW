@@ -16,21 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: 瞭解如何升級 Cloud Connector Edition 部署。
-ms.openlocfilehash: fea78c6b1b6ba3b2e644fef71d78b94aa3a244b7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2670557f3f5ab44545c511b759971a457bd37e333d01b323ad6cc35d82526858
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109129"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279969"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>升級至新版 Cloud Connector
 
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會在2021年7月31日和商務用 Skype 線上時終止。 當您的組織升級至 Teams 後，請瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話網絡連線至 Teams。
  
 瞭解如何升級 Cloud Connector Edition 部署。
   
-如果您已設定線上管理租使用者帳戶並啟用自動更新，您現有的商務用 Skype 雲端連接器版本部署會根據您的自動更新時間範圍設定，自動升級為更新的版本。 您也可以執行手動升級。 
+如果您已設定線上管理租使用者帳戶並啟用自動更新，您現有的商務用 Skype Cloud Connector Edition 部署將會自動升級為更新的版本（根據您的自動更新時間範圍設定）。 您也可以執行手動升級。 
   
 Cloud Connector Edition Edition 1.4.1 及更新版本預設會執行自動更新。 若要以手動方式升級至最新版本 (2.1) ，請參閱本主題稍後的將 [單一網站升級至新版本](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) 。
   
@@ -54,11 +54,11 @@ Cloud Connector Edition Edition 1.4.1 及更新版本預設會執行自動更新
     
   - 從下載網站下載並檢查版本檔案。
     
-  - 下載新的版本 .msi 檔案。 
+  - 下載新版 .msi 檔案。 
     
   - 卸載舊的 msi 檔案;安裝新的 msi 檔案。
     
-  - 下載新版本的商務用 Skype bits。
+  - 下載商務用 Skype bits 的新版本。
     
   - 呼叫 CcAppliance 註冊裝置。
     
@@ -78,7 +78,7 @@ Cloud Connector Edition Edition 1.4.1 及更新版本預設會執行自動更新
     
 2. 從安裝新版本的 CloudConnector.msi [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller) 。
     
-3. 確認您已安裝版本的 CloudConnector.ini 檔案，且已更新環境所需的所有值。 您無法使用舊版本中的 .ini 檔案。 如果您要升級 Cloud Connector，請參閱主題 Prepare a [Cloud connector 裝置](prepare-your-cloud-connector-appliance.md) ，並確認 SiteName 和 EnableReferSupport 設定為正確的 CloudConnector.ini 檔案中的值。
+3. 確認您已安裝版本的 CloudConnector.ini 檔案，且已更新環境所需的所有值。 您無法使用舊版本的 .ini 檔案。 如果您要升級 Cloud Connector，請參閱主題 Prepare a [Cloud connector 裝置](prepare-your-cloud-connector-appliance.md) ，並確認 SiteName 和 EnableReferSupport 設定為正確的 CloudConnector.ini 檔案中的值。
     
 4. 以系統管理員身分啟動 PowerShell 主控台，並執行下列 Cmdlet 來註冊目前的裝置：
     
@@ -106,7 +106,7 @@ Cloud Connector Edition Edition 1.4.1 及更新版本預設會執行自動更新
 
 如果網站中有一個以上的裝置，請依照上述步驟逐個升級每一個裝置。
   
-如果您想要更新域管理員、虛擬機器管理員、安全模式管理員及承租人系統管理員認證，您可以使用  _UpdateAllCredentials_ 參數來執行 Cmdlet，以重設所有認證：
+若要更新網域管理員、虛擬機器管理員、保管庫模式管理員及承租人系統管理員認證，您可以使用 _UpdateAllCredentials_ 參數來執行 Cmdlet，以重設所有認證：
   
 ```powershell
 Install-CcAppliance -UpdateAllCredentials

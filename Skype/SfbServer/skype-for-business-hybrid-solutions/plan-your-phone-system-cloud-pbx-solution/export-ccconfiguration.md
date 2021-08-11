@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
-description: 將商務用 Skype 雲端連接器版本設定匯出到商務用 Skype 雲端連接器 Edition 主機伺服器上的本機檔案。
-ms.openlocfilehash: cd0745081e3f069aaf58c9ffdbf24494bfb3ece1
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 將商務用 Skype Cloud Connector Edition 設定匯出至商務用 Skype Cloud Connector Edition 主伺服器上的本機檔案。
+ms.openlocfilehash: f34f8454dfc3129be50b26114f71fdeee4a4b633f66ca9f80dc621c51c5af6ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801463"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288835"
 ---
 # <a name="export-ccconfiguration"></a>Export-CcConfiguration
  
-將商務用 Skype 雲端連接器版本設定匯出到商務用 Skype 雲端連接器 Edition 主機伺服器上的本機檔案。
+將商務用 Skype Cloud Connector Edition 設定匯出至商務用 Skype Cloud Connector Edition 主伺服器上的本機檔案。
   
 ```powershell
 Export-CcConfiguration [-Path] <String> [<CommonParameters>]
@@ -33,7 +33,7 @@ Export-CcConfiguration [-Path] <String> [<CommonParameters>]
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會將 Path 參數設定為完整的檔案路徑，並將設定匯出至該檔案。
+下列範例會將 Path 參數設定為完整檔案路徑及匯出設定至該檔案。
   
 ```powershell
 Export-CcConfiguration -Path "C:\test\CloudConnector.ini" 
@@ -42,19 +42,19 @@ Export-CcConfiguration -Path "C:\test\CloudConnector.ini"
 ## <a name="detailed-description"></a>詳細描述
 <a name="Examples"> </a>
 
-Export CcConfiguration Cmdlet 可讓您將雲端連接器設定儲存至選取路徑中的檔案。 此命令是在雲端連接器版本2.0 中引入。
+Export-CcConfiguration Cmdlet 可讓您將雲端連接器設定儲存至選取路徑中的檔案。 此命令是在雲端連接器 Edition 版本2.0 中引入。
   
 ## <a name="parameters"></a>參數
 <a name="Examples"> </a>
 
-|**參數**|**必要**|**類型**|**說明**|
+|**參數**|**Required**|**Type**|**描述**|
 |:-----|:-----|:-----|:-----|
-|路徑  <br/> |必要  <br/> |System.String  <br/> |將儲存雲端連接器設定的完整檔案路徑。  <br/> |
+|路徑  <br/> |必要  <br/> |System.String  <br/> |用來儲存雲端連接器設定的完整檔案路徑。  <br/> |
    
 ## <a name="input-types"></a>輸入類型
 <a name="Examples"> </a>
 
-無。 Export CcConfiguration Cmdlet 不接受流水線輸入。
+無。 Export-CcConfiguration Cmdlet 不接受管線傳送的輸入。
   
 ## <a name="return-types"></a>傳回類型
 <a name="Examples"> </a>

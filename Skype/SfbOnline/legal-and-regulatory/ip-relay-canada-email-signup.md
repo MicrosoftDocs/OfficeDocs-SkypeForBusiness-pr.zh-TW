@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 如何為加拿大的 IP 轉場帳戶松一口氣。
-ms.openlocfilehash: 1d1a5f4c493c29ceaa0c0ac885dfb8f4aea81523
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 142f56aac8c80cb9a316e294985d8c7736b1ccd8d8d06f5b2d925633686c1bb4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237139"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298763"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>加拿大 IP 轉送 - 註冊
 
@@ -34,7 +34,7 @@ ms.locfileid: "52237139"
 
 |||
 |:-----|:-----|
-|名字&名字：||
+|姓氏&名字：||
 |Microsoft 365或Office 365組織功能變數名稱： <br/> (範例：Contoso.com) ||
 |Microsoft 365或Office 365使用者電話號碼： <br/>範例：+1 XXX XXX XXXX)  ||
 |密碼 (8 到 16 個字元) ： ||
@@ -49,7 +49,7 @@ ms.locfileid: "52237139"
 |||
 
 > [!NOTE]
-> 如果某人透過 IP 轉傳撥打電話，您不在線上時，上述電子郵件地址會接收您留下的郵件。 
+> 如果某人透過 IP 轉場電話來呼叫您，則上述電子郵件地址會在您不在線上時，收到您留下的郵件。 
 
 一旦您的帳戶在 (24 個工作時間內) ，我們會以使用者名稱和密碼以電子郵件將您送回。 
 

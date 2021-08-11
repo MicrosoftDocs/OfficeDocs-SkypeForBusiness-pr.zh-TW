@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66124a70-67e8-4bda-9da5-8ab13afccf49
 description: 您可以使用 [Persistent Chat] 頁面的 [增益集] 區段，將 URLs 與 Persistent 聊天室產生關聯。 這些 URLs 會出現在交談擴充性窗格中的聊天室中的用戶端。 管理員必須將增益集加入至已註冊的增益集清單中，且聊天室管理員/創作者必須與其中一個已註冊的增益集產生關聯，使用者才能在用戶端看到此升級。
-ms.openlocfilehash: c90383a26c658e8da73df09368a5d8fe04cfe69b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 179d3728deb11b16ac60d98f1c3815b43502e4047f01ab70ea046cf6f66baa99
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099499"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54278801"
 ---
 # <a name="persistent-chat-add-in"></a>常設聊天室增益集
 
@@ -28,13 +28,13 @@ ms.locfileid: "51099499"
 
 增益集可擴充聊天室體驗。 一般增益集可能會包含指向 Silverlight 應用程式的 URL，該應用程式會在將股市代號傳送至聊天室時進行截獲，並在 [擴充性] 窗格中顯示 stock 記錄。 其他範例還包括在聊天室中嵌入 OneNote 2013 URL 做為增益集，以包含一些分享內容，例如「第一印象」或「本日熱門話題」。
 
-若要建立 Persistent 聊天室的增益集，請參閱 [在商務用 Skype Server 2015 中設定 Persistent 聊天室的增益集](../../manage/persistent-chat/configure-add-ins.md)。 如果您是 Persistent Chat Administrator，您可以使用 [控制台] 或 [Windows PowerShell Cmdlet 來建立增益集。
+若要建立持久聊天室的增益集，請參閱[在商務用 Skype Server 2015 中設定 persistent 聊天室的增益集](../../manage/persistent-chat/configure-add-ins.md)。 如果您是 Persistent Chat 系統管理員，可以使用 [控制台] 或 Windows PowerShell Cmdlet 來建立增益集。
 
 ## <a name="tasks-that-you-can-perform"></a>您可以執行的工作
 
 您可以在「增益集」頁面上執行下列工作：
 
-- [在商務用 Skype Server 2015 中設定持久聊天室的增益集](../../manage/persistent-chat/configure-add-ins.md)
+- [在商務用 Skype Server 2015 中設定 Persistent 聊天室的增益集](../../manage/persistent-chat/configure-add-ins.md)
 
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>設定聊天室的增益集
 
@@ -42,7 +42,7 @@ ms.locfileid: "51099499"
 
 1. 使用指派給 CsPersistentChatAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任一部電腦。
 
-2. 從 [ **開始** ] 功能表中，選取商務用 Skype Server 控制台或開啟瀏覽器視窗，然後輸入管理 URL。 如需您可以用來啟動控制台之不同方法的詳細資訊，請參閱 [Open Lync Server 系統管理工具](/previous-versions/office/lync-server-2013/lync-server-2013-open-lync-server-administrative-tools)。
+2. 從 [**開始**] 功能表中，選取 [商務用 Skype Server 控制台] 或開啟瀏覽器視窗，然後輸入管理 URL。 如需您可以用來啟動控制台之不同方法的詳細資訊，請參閱 [Open Lync Server 系統管理工具](/previous-versions/office/lync-server-2013/lync-server-2013-open-lync-server-administrative-tools)。
 
 3. 在左導覽列中，按一下 [常設聊天室]，然後按一下 [增益集]。
 
@@ -62,4 +62,4 @@ ms.locfileid: "51099499"
 
 ## <a name="see-also"></a>另請參閱
 
-如需 Persistent Chat Server 功能及功能的詳細資訊，請參閱 [Plan For Persistent Chat server In 商務用 skype server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、 [在商務用 skype server 2015 中部署 persistent chat](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)Server，以及 [在商務用 Skype Server 2015 中管理 persistent chat server](../../manage/persistent-chat/persistent-chat.md)。
+如需 Persistent chat server 功能及功能的詳細資訊，請參閱[在商務用 Skype Server 2015 中規劃 persistent chat server](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、[在商務用 Skype Server 2015 中部署 persistent chat](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)server，以及[在商務用 Skype Server 2015 中管理 persistent chat server](../../manage/persistent-chat/persistent-chat.md)。

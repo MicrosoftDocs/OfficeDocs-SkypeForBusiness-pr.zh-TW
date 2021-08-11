@@ -16,12 +16,12 @@ ms.reviewer: ''
 description: 如何管理及監控Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1682565d015d104ca4a60d2770e526453bea535a
-ms.sourcegitcommit: 3500faff11f76fdff7c645931e6704f2d33f36a3
+ms.openlocfilehash: e3c30bb4aeba2866bcce042c3ce11840ec8e9d68e73386bfcb4f3b434a136506
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "50071039"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279700"
 ---
 # <a name="manage-and-monitor-teams"></a>管理及監控Teams
 
@@ -31,7 +31,7 @@ Teams提供數種工具來管理及監控Teams服務，以及管理貴組織的�
 
 - [系統管理員角色](using-admin-roles.md)。 請閱讀本文以瞭解Teams角色和功能，以及如何指派角色給使用者。
 
-- [系統Teams系統管理中心](manage-teams-in-modern-portal.md)。 請閱讀本文，瞭解如何使用 Teams 管理中心管理Teams。  
+- [系統Teams系統管理中心](manage-teams-in-modern-portal.md)。 請閱讀本文以瞭解如何使用系統管理中心Teams管理Teams。  
 
 - [在Teams系統管理中心期間管理帳戶](manage-teams-skypeforbusiness-admin-center.md)。 請閱讀本文，瞭解如何從系統管理中心商務用 Skype新系統管理Teams中心。 
 
@@ -43,7 +43,7 @@ Teams提供數種工具來管理及監控Teams服務，以及管理貴組織的�
 
 - [監控及管理通話品質](monitor-call-quality-qos.md)。 請閱讀本文，瞭解如何使用可用於監控及改善貴組織的通話品質的工具。
 
-- [系統管理Teams中的報表](teams-analytics-and-reports/teams-reporting-reference.md)[，以及系統管理Microsoft 365中的報表](teams-activity-reports.md)。 請閱讀這些文章，瞭解哪些報表可供使用，以及如何使用這些報告來監控Teams和服務健康情況。
+- [系統管理Teams中的報表](teams-analytics-and-reports/teams-reporting-reference.md)，以及[系統管理中心中的報表Microsoft 365 系統管理中心。](teams-activity-reports.md) 請閱讀這些文章，瞭解哪些報表可供使用，以及如何使用這些報告來監控Teams和服務健康情況。
 
 - [操作您的服務並](teams-analytics-and-reports/teams-reporting-reference.md)[強化您的服務](upgrade-enhance-my-service.md)。 請閱讀這些文章，以瞭解如何操作及強化您的Teams藍圖。
 

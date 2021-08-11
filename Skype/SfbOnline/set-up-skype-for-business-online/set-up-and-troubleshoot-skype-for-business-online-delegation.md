@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 本文將說明如何設定和疑難排解線上委派商務用 Skype疑難排解。 本文提供設定建議、最佳做法和疑難排解步驟的指引。
-ms.openlocfilehash: e5c710849f5829a4a270dc327f71d98185e85c89
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c672006e8b78e5b3fb881da97e2ab3bbe65e465aa5981cc95fb2caf9bed39e4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239822"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310172"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>商務用 Skype Online 委派的設定和疑難排解
 
@@ -38,7 +38,7 @@ ms.locfileid: "52239822"
 
 設定及讓委派正確工作取決於您遵循下列指導方針：
   
-- 您必須使用具有最新更新商務用 Skype 2015 完整用戶端，或使用 2016 商務用 Skype完整用戶端。
+- 您必須在 2015 完整商務用 Skype用戶端使用最新更新，或使用 2016 商務用 Skype完整用戶端。
     
 - 您必須使用具有最新Outlook的 2013 用戶端，或 Outlook 2016用戶端。
     
@@ -46,7 +46,7 @@ ms.locfileid: "52239822"
     
 - 商務用 Skype代理人和代理人的代理人應為線上使用者。 此外，Exchange Server帳戶的信箱必須同時為 Online 或兩者都是內部部署。
     
-- 委派者與代理人都應該使用相同的主要版本Outlook。
+- 委派者與代理人應該使用相同的主要版本Outlook。
     
 - **在用戶端策略中，EnableExchangeDelegateSync** 屬性值應該設為 true。 您可以在線上 PowerShell 模組中商務用 Skype **Get-CSClientPolicy** Cmdlet 來驗證此設定。
     
@@ -59,7 +59,7 @@ ms.locfileid: "52239822"
 ||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
 |**Lync/商務用 Skype基本用戶端**| 不支援 |不支援
-|**2015 商務用 Skype月**|支援| 支援|
+|**商務用 Skype 2015**|支援| 支援|
 |**商務用 Skype 2016**|支援| 支援|
 
    
@@ -69,15 +69,15 @@ ms.locfileid: "52239822"
 
 |**許可證**|**用戶端**|**注釋**|
 |:-----|:-----|:-----|
-|EnterpriseE3  <br/> |Lync 2013 (商務用 Skype 2015) 2013 Outlook 2013 或 Outlook 2016  <br/> 商務用 Skype 2016 Outlook 2013 或 Outlook 2016  <br/> |商務用 Skype基本用戶端不支援委派。  <br/> 對於 Mac 用戶端，您可以委派通話，但無法委派會議。  <br/> |
-|EnterpriseE3 Office 365 電話系統 + Office 365 xCalling 方案  <br/> |Lync 2013 (商務用 Skype 2015) 2013 Outlook 2013 或 Outlook 2016  <br/> 商務用 Skype 2016 Outlook 2013 或 Outlook 2016  <br/> Lync for Mac 2011  <br/> |商務用 Skype基本用戶端不支援委派。  <br/> 對於 Mac 用戶端，您可以委派通話，但無法委派會議。  <br/> |
+|EnterpriseE3  <br/> |Lync 2013 (商務用 Skype 2015) 2013 Outlook 2013 或 Outlook 2016  <br/> 商務用 Skype 2016 與 2013 Outlook 2016 一Outlook 2016  <br/> |商務用 Skype基本用戶端不支援委派。  <br/> 對於 Mac 用戶端，您可以委派通話，但無法委派會議。  <br/> |
+|EnterpriseE3 Office 365 電話系統 + Office 365 xCalling 方案  <br/> |Lync 2013 (商務用 Skype 2015) 2013 Outlook 2013 或 Outlook 2016  <br/> 商務用 Skype 2016 與 2013 Outlook 2016 一Outlook 2016  <br/> Lync for Mac 2011  <br/> |商務用 Skype基本用戶端不支援委派。  <br/> 對於 Mac 用戶端，您可以委派通話，但無法委派會議。  <br/> |
    
 **EnterpriseE5 授權案例**
 
 |**許可證**|**用戶端**|**注釋**|
 |:-----|:-----|:-----|
-|EnterpriseE5  <br/> |Lync 2013 (商務用 Skype 2015) 2013 Outlook 2013 或 Outlook 2016。  <br/> 商務用 Skype 2016 Outlook 2013 或 Outlook 2016  <br/> |商務用 Skype基本用戶端不支援委派。  <br/> 對於 Mac 用戶端，您可以委派通話，但無法委派會議。  <br/> |
-|EnterpriseE5 加 Office 365通話方案  <br/> |Mac 版商務用 Skype 2016  <br/> Lync 2013 (商務用 Skype 2015) 2013 Outlook 2013 或 Outlook 2016  <br/> 商務用 Skype 2016 Outlook 2013 或 Outlook 2016  <br/> Lync for Mac 2011  <br/> |商務用 Skype基本用戶端不支援委派。  <br/> 對於 Mac 用戶端，您可以委派通話，但無法委派會議。  <br/> |
+|EnterpriseE5  <br/> |Lync 2013 (商務用 Skype 2015) 2013 Outlook 2013 或 Outlook 2016。  <br/> 商務用 Skype 2016 與 2013 Outlook 2016 一Outlook 2016  <br/> |商務用 Skype基本用戶端不支援委派。  <br/> 對於 Mac 用戶端，您可以委派通話，但無法委派會議。  <br/> |
+|EnterpriseE5 加 Office 365通話方案  <br/> |Mac 版商務用 Skype 2016  <br/> Lync 2013 (商務用 Skype 2015) 2013 Outlook 2013 或 Outlook 2016  <br/> 商務用 Skype 2016 與 2013 Outlook 2016 一Outlook 2016  <br/> Lync for Mac 2011  <br/> |商務用 Skype基本用戶端不支援委派。  <br/> 對於 Mac 用戶端，您可以委派通話，但無法委派會議。  <br/> |
    
 ## <a name="set-up-and-verify-delegation"></a>設定及驗證委派
 
@@ -97,7 +97,7 @@ ms.locfileid: "52239822"
   
 1. 在 Outlook中，**選取檔案**  >  **帳戶設定**  >  **委派 Access**  >  **Add**。
     
-2. 找出並新增要成為代理人之人員的名稱。
+2. 找出並新增要成為代理人的人名。
     
 3. 選取的 **日曆** 功能表，然後選取編輯器 (**可讀取、建立及修改) 。**
     
@@ -109,7 +109,7 @@ ms.locfileid: "52239822"
     
 ### <a name="verify-success"></a>驗證成功
 
-如果設定成功，代理人應該會看到您已新增為 < 名稱>郵件的代理人，以及已建立 "我 **管理** 通話的人 **"** 群組。 委派程式應該會看到已建立 **代理人** 群組。
+如果設定成功，代理人應該會看到您已新增為 < 名稱>的代理人訊息，以及已建立 "我 **管理** 通話的人 **"** 群組。 委派程式應該會看到已建立 **代理人** 群組。
   
 > [!NOTE]
 > 委派許可權通常會在設定程式 30 分鐘內顯示。 不過，此程式最多可能需要 24 小時才能完成。 

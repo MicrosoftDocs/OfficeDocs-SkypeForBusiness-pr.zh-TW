@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
-description: 深入瞭解商務用 Skype Server Enterprise Voice 中的 SIP 主幹
-ms.openlocfilehash: ca3e30c8974e5ac26c2d9c395da228f85c92bac0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 深入瞭解商務用 Skype Server 企業語音中的 SIP 主幹
+ms.openlocfilehash: 8254df8366fdbfd03dd5ad0aa2f3253e5f4284b8248d26b131f056d28714bd77
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51110659"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54289731"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>商務用 Skype Server 中的 SIP 主幹
 
-深入瞭解商務用 Skype Server Enterprise Voice 中的 SIP 主幹
+深入瞭解商務用 Skype Server 企業語音中的 SIP 主幹
 
-工作階段初始通訊協定 (SIP) 可用來為基本電話服務與其他即時通訊服務 (如立即訊息、會議、顯示狀態偵測和多媒體等) 啟動及管理 VoIP 通訊工作階段。 本節將提供實作「SIP 主幹」的規劃資訊，這是一種可延伸到您區域網路邊界以外的 SIP 連線。
+工作階段初始通訊協定 (SIP) 可用來為基本電話服務與其他即時通訊服務 (如立即訊息、會議、顯示狀態偵測和多媒體等) 啟動及管理 VoIP 通訊工作階段。本節將提供實作「SIP 主幹」的規劃資訊，這是一種可延伸到您區域網路邊界以外的 SIP 連線。
 
 ## <a name="what-is-sip-trunking"></a>何謂 SIP 主幹？
 
@@ -51,9 +51,9 @@ SIP 主幹是一種 IP 連線，可在您的組織與網際網路電話語音服
 
 ### <a name="expanded-voip-services"></a>擴充的 VoIP 服務
 
-語音功能常常是部署 SIP 主幹的主要動機，但語音支援只是第一步。 透過 SIP 主幹，您可以擴充 VoIP 功能，並啟用商務用 Skype 伺服器以傳遞一組更豐富的服務。 例如：
+語音功能常常是部署 SIP 主幹的主要動機，但語音支援只是第一步。 透過 SIP 主幹，您可以擴充 VoIP 功能，並讓商務用 Skype Server 提供一組更豐富的服務。 例如：
 
-- 未執行商務用 Skype Server 之裝置的增強顯示狀態偵測，可提供與行動電話的更好整合，讓您能看到使用者何時接聽行動電話。
+- 未執行商務用 Skype Server 裝置的增強顯示狀態偵測功能可提供與行動電話的更好整合，讓您能看到使用者何時接聽行動電話。
 
 - E9-1-1 緊急電話可讓接聽911呼叫的授權者判斷來電者的電話號碼的位置。
 
@@ -62,21 +62,21 @@ SIP 主幹是一種 IP 連線，可在您的組織與網際網路電話語音服
 
 ### <a name="sip-trunks-vs-direct-sip-connections"></a>SIP 主幹與直接 SIP 連線的比較
 
-「主幹」一詞衍生自電路交換技術。 它是指將電話交換設備相連的專門實體線路。 像是其前置任務、時間分割多工 (TDM) 主幹、SIP 主幹是兩個不同 SIP 網路（商務用 Skype Server enterprise 和 ITSP）之間的連線。 與電路交換主幹不同之處在於，SIP 主幹是可以透過任何支援的 SIP 主幹連線類型建立的虛擬連線。
+「主幹」一詞衍生自電路交換技術。 它是指將電話交換設備相連的專門實體線路。 如同其前置任務、時間分割多工 (TDM) 主幹、SIP 主幹是兩個不同 SIP 網路之間的連線，商務用 Skype Server 企業和 ITSP。 與電路交換主幹不同之處在於，SIP 主幹是可以透過任何支援的 SIP 主幹連線類型建立的虛擬連線。
 
-另一方面，直接 SIP 連線是未穿越區域網路邊界的 SIP 連線 (亦即，它們是連線至位於您內部網路中的公用交換電話網路 (PSTN) 閘道或專用交換機 (PBX))。 如需如何使用與商務用 Skype Server 的直接 SIP 連線的詳細資訊，請參閱 [商務用 Skype server 中的直接 sip](direct-sip.md)連線。
+另一方面，直接 SIP 連線是未穿越區域網路邊界的 SIP 連線 (亦即，它們是連線至位於您內部網路中的公用交換電話網路 (PSTN) 閘道或專用交換機 (PBX))。 如需如何使用與商務用 Skype Server 的直接 sip 連線的詳細資訊，請參閱[商務用 Skype Server 中的直接 sip](direct-sip.md)連線。
 
 ## <a name="how-do-i-implement-sip-trunking"></a>如何執行 SIP 主幹？
 
-若要執行 SIP 主幹，您必須透過轉送伺服器路由傳送，該伺服器可充當商務用 Skype Server 用戶端與服務提供者和 transcodes 媒體（必要時）之間的通訊會話 proxy。
+若要執行 SIP 主幹，您必須透過轉送伺服器路由傳送，該伺服器可充當商務用 Skype Server 用戶端與服務提供者之間的通訊會話 proxy，以及必要時的 transcodes 媒體。
 
 每個轉送伺服器都具有內部網路介面和外部網路介面。 內部介面連接至前端伺服器。 外部介面一般稱為閘道介面，因為傳統上它是用來將轉送伺服器連接到公用交換電話網路 (PSTN) 閘道或 IP-PBX。 若要執行 SIP 主幹，您可以將轉送伺服器的外部介面連接至 ITSP 的外部 edge 元件。 ITSP 的外部 Edge 元件可以是工作階段界限控制器 (SBC)、路由器或閘道。
 
-如需轉送伺服器的詳細資訊，請參閱 lync [server component In 商務用 Skype server](mediation-server.md)。
+如需轉送伺服器的詳細資訊，請參閱[商務用 Skype Server 中的轉送伺服器元件](mediation-server.md)。
 
 ### <a name="centralized-vs-distributed-sip-trunking"></a>集中式與分散式 SIP 主幹的比較
 
-集中式 SIP 中繼會透過您的中央網站路由傳送所有 VoIP 流量，包括分支網站流量。 集中式部署模型是簡單、經濟划算的，通常是以商務用 Skype Server 實施 SIP 主幹的建議方法。
+集中式 SIP 中繼會透過您的中央網站路由傳送所有 VoIP 流量，包括分支網站流量。 集中式部署模型是簡單、經濟划算的，通常是使用商務用 Skype Server 執行 SIP 主幹的建議方法。
 
 分散式 SIP 主幹是一種部署模型，您可以在其中執行一或多個分支網站上的本機 SIP 主幹。 VoIP 流量會從分支網站直接路由傳送至服務提供者，而不需要透過中央網站。
 
@@ -94,20 +94,20 @@ SIP 主幹是一種 IP 連線，可在您的組織與網際網路電話語音服
 
 - 各網站上的哪些直接向內撥號 (DID) 號碼來電數最多？
 
-在考量應部署集中式或分散式 SIP 主幹時，必須進行成本效益分析。 在某些情況下，即便並非必要，選擇分散式部署模型可能較有利。 在完整的集中式部署中，所有分支網站流量都透過 WAN 連結路由傳送。 與其為 WAN 連結所需的頻寬支付高額費用，您可能寧可使用分散式 SIP 主幹。 例如，您可能想要在具有同盟的中央網站的分支網站上部署 Standard Edition server，或使用小型閘道部署 Survivable Branch 裝置或 Survivable Branch Server。
+在考量應部署集中式或分散式 SIP 主幹時，必須進行成本效益分析。 在某些情況下，即便並非必要，選擇分散式部署模型可能較有利。 在完整的集中式部署中，所有分支網站流量都透過 WAN 連結路由傳送。 與其為 WAN 連結所需的頻寬支付高額費用，您可能寧可使用分散式 SIP 主幹。 例如，您可能想要在具有同盟的中央網站的分支網站上部署 Standard Edition 的伺服器，或使用小型閘道部署 Survivable 分支裝置或 Survivable 分支伺服器。
 
 > [!NOTE]
-> 如需有關分散式 SIP 主幹的詳細資訊，請參閱 [在商務用 Skype Server 中的分支網站 SIP trunk](branch-site.md)。
+> 如需有關分散式 SIP 主幹的詳細資訊，請參閱[Branch site SIP trunk in 商務用 Skype Server](branch-site.md)。
 
 ### <a name="supported-sip-trunking-connection-types"></a>支援的 SIP 主幹連線類型
 
-商務用 Skype 伺服器支援 SIP 主幹的下列連線類型：
+商務用 Skype Server 支援 SIP 主幹下列連線類型：
 
 - Multiprotocol Label Switching (MPLS) 是可將資料從一個網路節點導向及承載到另一個網路節點的私人網路。 MPLS 網路中的頻寬是與其他訂閱者共用的，而每封資料包都會被指派標籤，以辨別來自另一位訂閱者的資料。 此連線類型不需要虛擬私人網路 (VPN)。 可能的缺點是，過多的 IP 流量可能會干擾 VoIP 作業，除非 VoIP 流量享有優先權。
 
 - 不含其他流量的私人連線 (例如租用的光纖連線或 T1 線路) 通常會是最可靠而安全的連線類型。此連線類型可提供最高的通話承載能力，但通常也最昂貴。此連線類型不需要 VPN。私人連線適用於通話量大或安全性與可用性需求很高的組織。
 
-- 網際網路是最經濟的連線類型，但可靠性也最低。 Internet connection 是唯一需要 VPN 的商務用 Skype Server SIP 主幹連線類型。
+- 網際網路是最經濟的連線類型，但可靠性也最低。 網際網路連線是唯一需要 VPN 的商務用 Skype Server SIP 主幹連線類型。
 
 #### <a name="selecting-a-connection-type"></a>選取連線類型
 
@@ -130,7 +130,7 @@ SIP 主幹最大頻寬 = 同時通話數上限 x (64 kbps + 標頭大小)
 
 ### <a name="codec-support"></a>轉碼器支援
 
-商務用 Skype 伺服器只支援下列編解碼器：
+商務用 Skype Server 只支援下列編解碼器：
 
 - G.711 a-law (主要使用於北美以外的地區)
 
@@ -185,4 +185,4 @@ SIP 主幹連線之服務提供者端的實作方式，會根據 ITSP 而不同�
 
 ## <a name="see-also"></a>另請參閱
 
-[商務用 Skype Server 中的分支網站 SIP 主幹](branch-site.md)
+[分支網站 SIP 主幹 in 商務用 Skype Server](branch-site.md)
