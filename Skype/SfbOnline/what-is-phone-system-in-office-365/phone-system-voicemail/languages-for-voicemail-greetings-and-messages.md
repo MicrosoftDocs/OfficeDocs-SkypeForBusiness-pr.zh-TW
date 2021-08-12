@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解您可以在預設系統訊息商務用 Skype語音信箱問候語中設定的語言。
-ms.openlocfilehash: 70a45100763f7164c9d3d450e560a7c920133ca4
-ms.sourcegitcommit: eca3f5e83e4a07be197936db19f539cbfa2c2bd2
+ms.openlocfilehash: 3e19c01703ac1078bf6913b52aa1ca2dbfee9fc923184ab076791e234278ff0e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52804664"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295760"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>語音信箱問候語和訊息的語言
 
@@ -37,7 +37,7 @@ ms.locfileid: "52804664"
 
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**語言** <br/> |**國家/地區** <br/> |**語言代碼** <br/> |**使用者可以在電子郵件中查看嗎？** <br/> |**使用者來電時可以使用嗎？** <br/> |**可進行文字翻譯嗎？** <br/> |
+|**語言** <br/> |**國家/地區** <br/> |**語言代碼** <br/> |**使用者可以在電子郵件中查看嗎？** <br/> |**使用者來電時可以使用嗎？** <br/> |**可以使用文字翻譯嗎？** <br/> |
 |阿拉伯文 <br/> |埃及  <br/> |ar-EG  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |加泰隆語  <br/> |加泰隆語  <br/> |ca-ES  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |簡 (中文)   <br/> |中國  <br/> |zh-hans  <br/> |是  <br/> |是  <br/> |是  <br/> |

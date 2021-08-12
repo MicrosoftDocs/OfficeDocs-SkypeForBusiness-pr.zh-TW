@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6daa5391e90c1931e7de1e3008c41782b0b22976
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 289f684054d3acd8a3801a816286c365ad3a3cced3319ed54845824cb47a5934
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646824"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345302"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>瞭解團隊和頻道Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "53646824"
 
 - 頻道是團隊內部共同作業的空間，實際工作是在其中完成。 
 
-若要閱讀團隊和頻道的更多資訊，請參閱團隊和頻道概觀[Microsoft Teams。](teams-channels-overview.md) 如要Teams採用指南，請取得Teams[指南](https://aka.ms/teamstoolkit)。 若要深入瞭解群組Teams群組Microsoft 365，請參閱Microsoft 365[群組](office-365-groups.md)Microsoft Teams，並深入瞭解Microsoft 365[群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+若要閱讀團隊和頻道的更多資訊，請參閱團隊和頻道概觀[Microsoft Teams。](teams-channels-overview.md) 如要Teams採用指南，請取得Teams[指南](https://aka.ms/teamstoolkit)。 若要深入瞭解群組Teams Microsoft 365群組，請參閱Microsoft 365群組Microsoft Teams，並深入瞭解[](office-365-groups.md)Microsoft 365[群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 
 | &nbsp; |&nbsp;  |
@@ -53,7 +53,7 @@ ms.locfileid: "53646824"
 
 ## <a name="use-teams-to-drive-cross-organization-collaboration"></a>使用 Teams來推動跨組織共同合作
 
-使用團隊改善跨組織共同合作是最佳作法，許多專案會採用這個模型。 此外，組織內部領導者或部門可能會想要一個專屬團隊供自己的人員使用。 請考慮下圖所示的組織與專案模型。
+使用團隊改善跨組織共同合作是最佳作法，許多專案都適合使用此模型。 此外，組織內部領導者或部門可能會想要一個專屬團隊供自己的人員使用。 請考慮下圖所示的組織與專案模型。
 
 ![組織和專案模型](media/teams-adoption-organization-project.png)
 

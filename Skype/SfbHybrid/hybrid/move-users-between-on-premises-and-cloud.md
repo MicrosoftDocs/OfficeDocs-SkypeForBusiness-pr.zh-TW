@@ -17,28 +17,28 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 ms.custom: ''
-description: 摘要：在內部部署中為混合式啟用的商務用 Skype Server，您可以在內部部署環境與雲端之間移動使用者 (是否要 Microsoft Teams 或在其退休) 之前商務用 Skype 線上。
-ms.openlocfilehash: 9a8099d5825eda6820bb8746d543e955524111be
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+description: 摘要：在內部部署中為混合式啟用的商務用 Skype Server，您可以在內部部署環境與雲端之間移動使用者。
+ms.openlocfilehash: 31695b7fa21f4fc873afa6b94bbefa58bbfbdb7b7d22f6da5c6eb972627c8cb8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510774"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334535"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>在內部部署和雲端之間移動使用者
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-在已啟用混合式商務用 Skype Server 的內部部署中，您可以在內部部署環境與雲端之間移動使用者 (是否 Microsoft Teams 或在其退休) 之前商務用 Skype 線上。 無論使用者是位於內部部署或雲端中，都將視為使用者的商務用 Skype 首頁：
+在已啟用混合式商務用 Skype Server 的內部部署中，您可以在內部部署環境和 Teams 之間移動使用者。 無論使用者是位於內部部署或雲端中，都將視為使用者的商務用 Skype 首頁：
 
 - 位於內部部署的使用者會與內部部署商務用 Skype 伺服器互動。
-- 已在線上狀態的使用者可以跟與商務用 Skype Online 服務互動。
+- 位於線上的使用者可能會與 Teams 服務互動。
 
-*Teams 使用者本身就擁有商務用 Skype 首頁，不論他們是否使用商務用 Skype。* 如果您有內部部署商務用 Skype 同時使用 Teams (並排) 的使用者，則這些使用者位於內部部署。 在內部部署商務用 Skype 的 Teams 使用者無法從其 Teams 用戶端與商務用 Skype 使用者互動，也不能從 Teams 與同盟組織中的使用者通訊。 這類功能只有在使用者從商務用 Skype 內部部署移至線上，且進行 TeamsOnly 時，才會完全可用。 當您將使用者移至線上時，您可以允許他們使用商務用 Skype Online (或 Teams)，或僅使用 Teams Only。 強烈建議您將使用者移至 [僅 Teams] 模式，以確保所有傳入聊天和通話的路由都位於其 Teams 用戶端。 如需詳細資訊，請參閱[使用 Teams 搭配商務用 Skype 之組織的商務用 Skype 和遷移與互通性指南](/microsoftteams/migration-interop-guidance-for-teams-with-skype) [Teams 共存](/microsoftteams/coexistence-chat-calls-presence)。
+*Teams 使用者本身就擁有商務用 Skype 首頁，不論他們是否使用商務用 Skype。* 如果您有內部部署商務用 Skype 同時使用 Teams (並排) 的使用者，則這些使用者位於內部部署。 在內部部署商務用 Skype 的 Teams 使用者無法從其 Teams 用戶端與商務用 Skype 使用者互動，也不能從 Teams 與同盟組織中的使用者通訊。 這類功能只有在使用者從商務用 Skype 內部部署移至線上，且進行 TeamsOnly 時，才會完全可用。 強烈建議您將使用者移至 TeamsOnly 模式，以確保所有傳入聊天和通話的路由都位於其 Teams 用戶端。 如需詳細資訊，請參閱[使用 Teams 搭配商務用 Skype 之組織的商務用 Skype 和遷移與互通性指南](/microsoftteams/migration-interop-guidance-for-teams-with-skype) [Teams 共存](/microsoftteams/coexistence-chat-calls-presence)。
 
-## <a name="prerequisites"></a>必要條件
+## <a name="prerequisites"></a>先決條件
 
-將使用者移至雲端的必要條件 (是否只 Teams 模式或在其退休) 之前商務用 Skype 線上：
+將使用者移至 TeamsOnly 模式的必要條件：
 
 - 組織必須正確設定 Azure AD 連線，並依照[Configure AZURE ad 連線](configure-azure-ad-connect.md)中所述，同步處理使用者的所有相關屬性。
 - 必須設定商務用 Skype 混合式，如[Configure 商務用 Skype 混合](configure-federation-with-skype-for-business-online.md)式中所述。
@@ -52,14 +52,14 @@ ms.locfileid: "53510774"
 從內部部署移動使用者至雲端時：
 
 - Teams 使用者可與商務用 Skype 的使用者進行互通性，如果他們 TeamsOnly，也能與其他組織同盟。
-- 使用者開始在雲端中的商務用 Skype Online 服務，以使用任何商務用 Skype 功能。
-- 從內部部署的連絡人會移至雲端 (，以 Teams 或商務用 Skype 線上) 。
+
+- 從內部部署的連絡人會移至 Teams。
+
 - 其組織的現有會議會遷移至線上：如果使用者直接移至 TeamsOnly (請參閱下列) 、會議會轉換成 Teams 會議，否則會議仍然存在商務用 Skype 但會進行遷移，以供線上（而非內部部署）。  會議移轉會同步發生，並在移動使用者之後約 90 分鐘開始。  若要判斷會議移轉狀態，可以使用 [Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms)。 請注意，不會移動會議之前上傳的任何內容。
 
-若要在內部部署與雲端之間移動使用者 (是否 Teams 或商務用 Skype 線上) ，請使用 Move-CsUser 指令程式或商務用 Skype 系統管理員控制台，兩者都是內部部署工具。 這些工具支援三種不同的移動路徑：
+若要將使用者移至 Teams，請使用 Move-CsUser Cmdlet 或商務用 Skype 系統管理員控制台，這兩者都是內部部署工具。 這些工具支援下列移動路徑：
 
 - [從商務用 Skype Server (內部部署) 直接 Teams](move-users-from-on-premises-to-teams.md) (也會將其移至商務用 Skype 線上) 。  不論使用的是哪個版本的商務用 Skype Server 或 Lync Server，都現在只會自動從內部部署移至 Teams 的行為。 您不再需要指定 `-MoveToTeams` 參數來取得此行為。  
-- [從商務用 Skype Server (內部部署) 到商務用 Skype 線上](move-users-from-on-premises-to-skype-for-business-online.md)。 仍需要將使用者移至商務用 Skype 線上，但不會變成 TeamsOnly 的客戶，可以先將使用者移至雲端並使用 TeamsOnly 模式，然後再使用或 Teams 系統管理中心，將使用者的模式更新為 TeamsOnly 以外的任何專案 `Grant-CsTeamsUpgradePolicy` 。 在線上商務用 Skype 已停用此選項後，將不再提供此選項。
 - [從 [線上] (Teams 是否只或不) ）為內部部署](move-users-from-the-cloud-to-on-premises.md)。
 
 > [!NOTE] 
@@ -102,8 +102,6 @@ ms.locfileid: "53510774"
 ## <a name="see-also"></a>另請參閱
 
 [將使用者從內部部署移動至 Teams](move-users-from-on-premises-to-teams.md)
-
-[將使用者從內部部署移動至商務用 Skype Online](move-users-from-on-premises-to-skype-for-business-online.md)
 
 [設定會議移轉服務 (MMS)](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
 

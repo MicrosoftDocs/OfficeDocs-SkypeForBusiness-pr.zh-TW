@@ -1,5 +1,5 @@
 ---
-title: 電話芬蘭號碼管理
+title: 電話芬蘭的號碼管理
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -20,14 +20,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在芬蘭取得及管理電話號碼Microsoft Teams。
-ms.openlocfilehash: efe358fc42ca6c2cb12bb1b55b9e6ddb44fd447385c273eec491f9e6bef284f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5314b4069be7145706080c2b69e1a8c1f7c42b6252f5588a0af1f4fd7ecb9e1d
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849486"
 ---
-# <a name="phone-number-management-for-finland"></a>電話芬蘭號碼管理
+# <a name="phone-number-management-for-finland"></a>電話芬蘭的號碼管理
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
@@ -37,11 +37,11 @@ ms.locfileid: "54281576"
   
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。<br/> |在芬蘭，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並連上 PTSN 以索取指示，以提交 [新的電話號碼要求](contact-pstn-service-desk.md)。<br/><br/>芬蘭的新電話號碼要求 (1.0)  (en-fi) 。<br/><br/> 在指派電話號碼之前，您必須下載芬蘭 ([v.1.0)  (fi-FI) ](https://download.microsoft.com/download/6/8/4/6849d27c-d257-4f92-b3b7-cb0d7db8b267/know-your-customer-for-finland-(v1.0)-(fi-FI).pdf) 認識您的客戶表單、完整填寫並傳送給我們。<br/><br/>新訂單可能需要兩到三周的時間才能填入這個市場。   |
-|將電話號碼轉接給我們。| 下載此表單。 <br/>[芬蘭 (LOA) 授權書 (所有)  (v.1.0)  (en-fi) ](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>填寫並連連 [PTSN 以尋找指示](contact-pstn-service-desk.md)。 <br/><br/>在這個市場中，移轉數位可能需要兩到三周才能完成。 <br/><br/> 這些號碼目前無法用於會議。   |
-|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |如需有關要發佈/取消發佈之電話號碼清單的指示，請連連[PTSN。](contact-pstn-service-desk.md) <br/> |
-|將使用者的號碼變更為服務號碼。  <br/> |如需要轉換成服務號碼之使用者號碼清單的指示，請連連[PTSN。](contact-pstn-service-desk.md) <br/> |
-|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請 [連至 PSTN 服務台](contact-pstn-service-desk.md)。 |
+|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。<br/> |在芬蘭，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並連至 [PTSN](contact-pstn-service-desk.md)服務台以索取指示，以提交新的電話號碼要求。<br/><br/>適用于芬蘭的新電話號碼要求 (v.1.0)  (en-fi) 。<br/><br/> 在指派電話號碼之前，您必須下載瞭解芬蘭的客戶 [ (v.1.0)  (fi-FI) ](https://download.microsoft.com/download/6/8/4/6849d27c-d257-4f92-b3b7-cb0d7db8b267/know-your-customer-for-finland-(v1.0)-(fi-FI).pdf) 瞭解您的客戶表單、完整填寫並傳送給我們。<br/><br/>新訂單可能需要兩到三周的時間才能填入這個市場。   |
+|將電話號碼轉接給我們。| 下載此表單。 <br/>[芬蘭 (LOA) 授權書 (所有)  (v.1.0)  (en-fi) ](https://download.microsoft.com/download/a/6/8/a68d6c80-daf5-4d40-ba6e-d0f99db1041b/letter-of-authorization-(loa)-for-finland-(all-numbers)-(v1.0)-(en-fi).pdf) <br/> <br/>填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 <br/><br/>在這個市場中，移轉數位可能需要兩到三周才能完成。 <br/><br/> 這些號碼目前無法用於會議。   |
+|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需有關要](contact-pstn-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請連連 PTSN 服務台。 <br/> |
+|將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-pstn-service-desk.md) 服務號碼的使用者號碼清單的指示，請連連 PTSN 服務台。 <br/> |
+|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請連連 [PSTN 服務台以尋找指示](contact-pstn-service-desk.md)。 |
    
 ## <a name="related-topics"></a>相關主題
 

@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: 摘要：瞭解如何在商務用 Skype Server 中查看會議原則。
-ms.openlocfilehash: afe86f0a77e73c3fa7bf96339c4865598a7bc609
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9cc55d9546337bd50e9508f85fc5f79e449df42278fe6166c7b32342a80babd1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119402"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313211"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中查看會議原則
  
 **摘要：** 瞭解如何在商務用 Skype Server 中查看會議原則。
   
-您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面來查看會議原則。
+您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面來查看會議原則。
   
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台來查看會議原則
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [ **會議**]，然後按一下 [ **會議原則**]。
     
@@ -39,7 +39,7 @@ ms.locfileid: "51119402"
     
     **編輯會議原則- \<policy\>** 開啟顯示選取原則的設定。
     
-    如需設定設定的詳細資訊，請參閱 [在商務用 Skype Server 中建立會議原則](create-policies.md)。
+    如需設定設定的詳細資訊，請參閱[在商務用 Skype Server 中建立會議原則](create-policies.md)。
     
 ## <a name="view-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來查看會議原則
 

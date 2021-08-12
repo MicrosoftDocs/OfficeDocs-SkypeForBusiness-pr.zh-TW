@@ -1,5 +1,5 @@
 ---
-title: 電話系統直接路由
+title: 電話直接路由概觀
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,33 +14,33 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 直接路由通訊協定
+description: hHw 直接路由支援媒體旁路，同時啟用 ICE Lite 的會話邊界控制器。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 550836275a1ea060d6004c75e0f2bf301f3094a7752ae80ad44dc2c91bbf96bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15ec422b59cfb19e63acb0c8b2768792d0e4387dc3200db720ec9c0d8d00f67b
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849528"
 ---
 # <a name="overview"></a>概觀
 
-本文將說明直接路由如何支援使用會話邊界控制器 (SBC) 啟用 ICE Lite 的媒體旁路，如 [RFC 5245](https://tools.ietf.org/html/rfc5245)中所述。 本文適用于負責在內部部署 SBC 與 SIP Proxy 服務之間建立連接之語音系統管理員。
+本文將說明直接路由如何支援使用會話邊界控制器 (SBC) 啟用 ICE Lite 的媒體旁路，如 [RFC 5245 中所述](https://tools.ietf.org/html/rfc5245)。 本文適用于負責在內部部署 SBC 與 SIP Proxy 服務之間建立連接之語音系統管理員。
 
 本文提供 ICE Lite 案例與互通性需求概觀。 本文將說明訊息格式，以及確保可靠的通話和媒體流程所需的狀態機轉場。
 
 ## <a name="terminology"></a>術語
 
-- First Hello – 來電者與受話者所說出的第一個字。 必須做出一切努力，確保端點的第一個封包在大部分使用方式下都可靠地傳遞。
+- First Hello – 來電者與受話者所說出的第一個字。 必須做出一切努力，確保從端點傳送的第一個封包在大部分使用方式下都能夠可靠地傳遞。
 
-- Forking - 如果受叫者在多個裝置上可用，則來電者所提供的優惠可能會傳送到多個受叫者端點 (例如，Teams 使用者可能會針對 Windows 和 Teams for Android 或 iPhone) Teams 進行登錄。
+- Forking – 如果受叫者可在多個裝置上 (例如，Teams 使用者可能會針對 Windows 和 Teams for Android 或 iPhone) 登錄 Teams，則來電者所提供的優惠可能會傳送到多個受叫者端點。
 
-- 暫 (183) – 呼叫者端點可傳送一個答案，以建立媒體流程所需的候選項和按鍵來設定通話。 這麼做是為了預期使用者可能從該特定受電話 (200OK) 接聽來電。 使用點名時，來電者應該可以接收多個臨時答案。
+- 暫 (183) – 呼叫者端點可傳送答案，以加快通話設定速度，並傳送要建立媒體流程所需的候選項和按鍵。 這是在預期使用者可能從該特定受電話 (200OK) 接聽來電時所完成。 使用點名時，來電者應該可以接收多個臨時答案。
 
 - Re-Invite – 由 ICE 控制端點選取最終候選人的優惠。 這會有 a=remote-candidate 屬性，以解決處理多個分叉時的任何競賽條件。
 
-- Teams端點 – 這可能是媒體處理器 (傳輸轉) 伺服器Teams用戶端。
+- Teams端點 – 這可能是媒體處理器 (傳輸轉) 伺服器，或Teams用戶端。
 
 ## <a name="message-format"></a>郵件格式
 
@@ -56,22 +56,22 @@ RFC 5389 要求的 SBCs 必須忽略他們無法識別的任何 STUN 屬性，�
 
 ### <a name="candidate-gathering"></a>候選人聚會
 
-SBC 只能提供一個可公開取得的候選人。 目前僅支援 IPV4 候選項。
+SBC 只能提供一個可公開聯繫的候選者。 目前僅支援 IPV4 候選項。
 
 
 #### <a name="connectivity-checks"></a>連接檢查
 
-ICE Lite 的實現必須回應收到的任何連接檢查。 ICE Lite 端點不得傳送任何連接檢查要求。  (如果違反連接檢查，則完整實現會回應，這可能會導致發現非預期的對等衍生候選者，並可能導致通話失敗。) 
+ICE Lite 的實現必須回應收到的任何連接檢查。 ICE Lite 端點不得傳送任何連接檢查要求。  (如果中斷了連接檢查，則完整實現會回應，這可能會導致發現非預期的對等衍生候選者，並可能導致通話失敗。) 
 
 #### <a name="nominations"></a>提名
 
-ICE 完整實現端點一直是控制端點，並遵循 「一般」的提名，以選取媒體流程使用的最終候選者。 ICE Lite 端點可以使用提名來結束媒體和完整的通話建立路徑。
+ICE 完整實現端點一直是控制端點，並遵循 「一般」的提名，以選取媒體流程使用的最終候選項目。 ICE Lite 端點可以使用提名來結束媒體和完整的通話建立路徑。
 
-注意：若是使用對等端點進行點選，傳送 183 個暫定答案，SBC 必須準備好回應來自多個端點的檢查，以及多個端點的提名，如果 200OK 之前發生。 根據 ICE 狀態機在使用者回答的最後路徑和時間上的趨同，200OK 之前或之後可能會進行提名。 SBC 必須能夠處理這兩種情況。
+注意：若是使用對等端點進行點選，傳送 183 個暫時答案，SBC 必須準備好回應來自多個端點的檢查，如果 200OK 之前發生提名，也可以回應來自多個端點的提名。 根據 ICE 狀態機在使用者回答的最後路徑和時間上的趨同，200OK 之前或之後可能會進行提名。 SBC 必須能夠處理這兩種情況。
 
 #### <a name="converging-for-forking"></a>針對點點進行匯合
 
-如果從 SBC 分叉到多個Teams，Teams端點可能會以暫時答案回應，並啟動連接檢查。 SBC 必須準備好接收連接檢查，並回應來自多個對等端點的連接檢查。 例如，Teams使用者可以同時在桌面和行動電話上登錄。 這兩個裝置都會收到來電通知，並嘗試與 SBC 進行連接檢查。
+如果從 SBC 分叉到多個Teams，Teams端點可能會以暫時答案回應，並開始進行連接檢查。 SBC 必須準備好接收連接檢查，並回應來自多個對等端點的連接檢查。 例如，Teams使用者可以同時在桌面和行動電話上登錄。 這兩個裝置都會收到來電通知，並嘗試與 SBC 進行連接檢查。
 
 最終只有其中一個端點會接聽 (200OK) 。 收到 200OK 後，SBC 可以設定處理媒體封包的合適上下文。
 
@@ -81,9 +81,9 @@ ICE 完整實現端點一直是控制端點，並遵循 「一般」的提名，
 
 針對此案例，SBC 必須處理數個可能的對等端點：
 
-- 伺服器端點通常會使用 200OK 直接回應。 這些是完整 ICE 端點，通常涉及語音信箱、通話佇列和自動語音信箱案例。
+- 伺服器端點通常會以 200OK 直接回應。 這些是完整 ICE 端點，通常涉及語音信箱、通話佇列和自動語音信箱案例。
 
-- 用戶端端點可以傳送多個臨時答案，其從/到標籤 (183) 後面接著接聽來電端點的 200OK。 這些是完整 ICE 端點，通常代表使用者用戶端。
+- 用戶端端點可以傳送多個臨時答案，並使用不同的 From/To 標籤 (183) ，後面接著接聽來電端點的 200OK。 這些是完整 ICE 端點，通常代表使用者用戶端。
 
 - 其他 SBC 端點。 這些是 ICE Lite 端點，通常涉及同時撥打用戶端端點和另一個電話號碼 () 。
 
@@ -95,11 +95,11 @@ SBC 必須回應從完整 ICE 端點收到的所有有效連接檢查要求。 �
 
 ### <a name="outbound-call-to-sbc"></a>到 SBC 的外發通話
 
-Teams端點是此案例的來電者，且會為控制端點。 收到暫定答案 (183) 或最終答案 (200OK) 時，Teams 端點會開始進行連接檢查，然後繼續進行「一般」的提名，以完成連接檢查。
+Teams端點是此案例的來電者，且會為控制端點。 收到暫定答案 (183) 或最終答案 (200OK) 時，Teams 端點會啟動連接檢查，然後繼續進行「一般」的提名，以完成連接檢查。
 
-注意：如果 SBC 傳送暫定答案 (183) ，SBC 必須準備好接收連接檢查要求，並有可能完成提名，然後 SBC 才能傳送 200OK。 如果在收到 200OK 之前已完成檢查和/或提名，則收到 200OK 之後，將不會再次執行檢查和/或提名。 SBC 不得變更 ICE 候選者、密碼和 ufrag (使用者) 介於 183 和 200 之間。
+注意：如果 SBC 傳送暫定答案 (183) ，SBC 必須準備好接收連接檢查要求，並有可能在 SBC 傳送 200OK 之前完成提名。 如果在收到 200OK 之前已完成檢查和/或提名，則收到 200OK 之後，將不會再次執行檢查和/或提名。 SBC 不得變更 ICE 候選者、密碼和 ufrag (介於 183) 200 之間的使用者名稱片段。
 
-為了支援早期媒體，SBC 可能會開始將媒體串流至對等 ICE 候選者，而最高優先順序會依據收到的連接檢查，甚至在由 Teams 端點完成Teams為止。 SBC 應預期媒體Teams任何候選人，直到完成提名為止。 一旦候選人被提名，SBC 必須重設至正確的上下文，以傳送和接收媒體封包。
+為了支援早期媒體，SBC 可能會開始串流媒體至對等 ICE 候選者，最高優先順序會根據收到的連接檢查來決定，甚至在由 Teams 完成之前。 SBC 應預期媒體Teams任何候選人，直到完成提名為止。 一旦候選人被提名，SBC 必須重設至正確的上下文，以傳送和接收媒體封包。
 
 ## <a name="srtp-support-requirements"></a>SRTP 支援需求
 
@@ -117,15 +117,15 @@ a=crypto:1 AES_CM_128_HMAC_SHA1_80 inline:V/Lr6Lsvhad/crSB9kCQ28jrYDxR2Yfk5bXryH
 
 MKI 和 Length 參數是不需要的。
 
-詳細資訊請參閱 [RFC 4568，第 6.1 節](https://tools.ietf.org/html/rfc4568#section-6.1)。
+詳細資訊，請參閱 [RFC 4568，第 6.1 節](https://tools.ietf.org/html/rfc4568#section-6.1)。
 
 ## <a name="sdes-support-requirements"></a>SDES 支援需求
 
-裝置必須能夠以下列格式提供 SDES。 Microsoft Media 處理器永遠偏好 SDES。
+裝置必須能夠以下列格式提供 SDES。 Microsoft Media 處理器一向偏好 SDES。
 
 - 如果忽略非媒體，即使用戶端僅支援 DTLS，媒體處理器也會轉換成 SDES。
 
-- 如果媒體旁路，如果用戶端是 DTLS (未來的 Google Chrome 狀態) ，直接路由就會在路徑中插入 MP，將媒體旁路的通話轉換成非媒體旁路。 在直接路由的 SBC 和媒體處理器元件之間，一直使用 SDES。
+- 在媒體旁路時，如果用戶端是 DTLS (未來的 Google Chrome 狀態) ，則直接路由會將 MP 插入路徑中，將媒體旁路的通話轉換成非媒體旁路。 在直接路由的 SBC 和媒體處理器元件之間，一直使用 SDES。
 
 目前，沒有任何用戶端Teams只提供 DTLS;不過，Google 已宣佈在一段時間停止支援 SDES。
 
@@ -153,7 +153,7 @@ a=rtcp-mux
 
 ```
 
-## <a name="format-for-offer-from-teams-to-sbc"></a>適用于從 Teams 到 SBC 的優惠格式 
+## <a name="format-for-offer-from-teams-to-sbc"></a>從 sBC Teams優惠的格式 
 
 ### <a name="format-for-sdes-only-offer-to-sbc"></a>SDES 格式僅適用于 SBC
 

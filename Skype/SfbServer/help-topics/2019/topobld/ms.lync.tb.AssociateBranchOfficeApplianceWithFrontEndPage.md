@@ -14,16 +14,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 607709a0-1617-44f3-bf68-fec1129250a4
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要將 Survivable Branch 裝置或 Survivable Branch 伺服器與前端集區或 Standard Edition server 產生關聯，請在 [選取前端集區] 頁面上，從前端集區下拉式清單中選取前端集區或 Standard Edition server。 按 [下一步] 繼續。
-ms.openlocfilehash: 768047f5c7bba1b3e0235988e38f11fe19bbd00c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 若要將 Survivable branch 裝置或 Survivable branch 伺服器與前端集區或 Standard Edition 伺服器產生關聯，請在 [選取前端集區] 頁面上，從前端集區下拉式清單中選取前端集區或 Standard Edition 伺服器。 按 [下一步] 繼續。
+ms.openlocfilehash: e1e27a60655839d57f32eb95280de49b1346f54deef5d457cc4fa9120a2e7acf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811493"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323355"
 ---
 # <a name="associate-branch-office-appliance-with-front-end"></a>建立 Branch Office Appliance 與前端的關聯
  
-若要將 Survivable Branch 裝置或 Survivable Branch 伺服器與前端集區或 Standard Edition server 產生關聯，請在 [ **選取前端集** 區] 頁面上，從 **前端集** 區下拉式清單中選取前端集區或 Standard edition server。 按 **[下一步]** 繼續。
+若要將 Survivable branch 裝置或 Survivable branch 伺服器與前端集區或 Standard Edition 伺服器產生關聯，請在 [**選取前端集** 區] 頁面上，從 **前端集** 區下拉式清單中選取前端集區或 Standard Edition 伺服器。 按 **[下一步]** 繼續。
   
 

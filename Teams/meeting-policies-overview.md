@@ -1,5 +1,5 @@
 ---
-title: 管理會議原則
+title: 管理會議Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,14 +19,14 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解如何管理會議中的會議Teams，並使用這些設定來控制提供給會議參與者的功能，供使用者排程的會議使用。
-ms.openlocfilehash: 0b8a7c04140249b2017872857cdcb2b0daa178bf6d70a14cf20133197a1bce8e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12ba479cd88da3f1c77e53750608817bdda40c1d2176e7055ed7d04cd8d29de7
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850048"
 ---
-# <a name="manage-meeting-policies-in-teams"></a>在 Teams 中管理會議原則
+# <a name="manage-meeting-policies-in-microsoft-teams"></a>管理會議Microsoft Teams
 
 <a name="bkautomatically-admit-people"> </a>
 
@@ -43,7 +43,7 @@ ms.locfileid: "54350675"
 
 |實作類型  |描述  |
 |---------|---------|
-|每一召集人    |當您實作每一召集人原則時，所有會議參與者都會繼承召集人的原則。 例如， **自動** 准許人員是每個召集人的政策，並控制使用者是否直接加入會議，或是在大廳等候指派該政策的使用者排程的會議。          |
+|每一召集人    |當您實作每一召集人原則時，所有會議參與者都會繼承召集人的原則。 例如， **自動** 准許人員是每個召集人的政策，並控制使用者是直接加入會議，還是等候在大廳等候指派該政策的使用者排程的會議。          |
 |每一使用者    |當您實作每一使用者原則時，僅會套用每一使用者原則，以限制召集人和/或會議參與者的某些功能。 例如，[允許在頻道中立即開會 **]** 是每一使用者原則。     |
 |每一召集人和每一使用者     |當您實作每一召集人和每一使用者的原則組合時，系統會根據參與者的原則和召集人的原則，限制會議參與者的某些功能。 例如，**允許雲端錄製** 是每一召集人和每一使用者原則。 開啟此設定，讓會議召集人和參與者開始和停止錄製。
 

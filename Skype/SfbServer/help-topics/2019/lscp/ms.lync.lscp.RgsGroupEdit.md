@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: 代理群組會定義接聽回應群組 (稱為代理) 電話的人選，以及要套用至群組中所有代理的設定。
-ms.openlocfilehash: 944cd48745a2524ccfcd795d9edc60e806859301
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 732aef1d5c4e6c23fc084e8f178705888d1fec0ef938f5aeef65eb250b48f42b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118962"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291561"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>回應群組：建立新代理群組或編輯現有代理群組
 
@@ -56,7 +56,7 @@ ms.locfileid: "51118962"
 
 - **代理** 程式以下列其中一種方式，選取要成為回應群組之代理人的使用者：
 
-  - 選取 [ **使用現有的電子郵件通訊群組清單** ] 以使用 Exchange 通訊群組清單。 請在 [通訊群組清單位址] 中輸入通訊群組清單的電子郵件地址。
+  - 選取 [**使用現有的電子郵件通訊群組清單**] 以使用 Exchange 通訊群組清單。 請在 [通訊群組清單位址] 中輸入通訊群組清單的電子郵件地址。
 
     > [!NOTE]
     > 您可以僅選取一個代理群組的通訊群組清單。若通訊群組清單包含巢狀通訊群組清單，那些巢狀通訊群組清單將不會包含在代理群組中。
@@ -65,10 +65,10 @@ ms.locfileid: "51118962"
     > 代理列在通訊群組清單中的順序，會影響代理接聽循環配置資源電話及循序路由電話的順序。
 
     > [!NOTE]
-    > 回應群組管理員或使用者可能會看到隱藏的成員資格或隱藏的清單。 如需詳細資訊，請參閱 [在商務用 Skype 中建立或修改代理人群組](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)。
+    > 回應群組管理員或使用者可能會看到隱藏的成員資格或隱藏的清單。 如需詳細資訊，請參閱[Create or modify agent group in 商務用 Skype](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)。
 
   - 選取 [定義代理自訂群組] 以選取您要指派作為回應群組代理的使用者。按一下 [選取] 將代理新增至清單。按一下 [移除] 可從清單刪除選取的代理。
 
     使用向上鍵及向下鍵可在代理清單中移動選取的代理。代理在清單中的順序，會影響代理接聽循環配置資源電話及循序路由電話的順序。
 
-如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype Server 中規劃回應群組應用程式](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 。 如需使用代理群組的詳細資訊，請參閱作業文件中的＜[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)＞。
+如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔[中商務用 Skype Server 的回應群組應用程式](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 如需使用代理群組的詳細資訊，請參閱作業文件中的＜[Managing Agent Groups](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-agent-groups)＞。

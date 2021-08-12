@@ -1,5 +1,5 @@
 ---
-title: 設定 SharePoint 伺服器以搜尋已封存的商務用 Skype 資料
+title: 設定 SharePoint 伺服器以搜尋封存商務用 Skype 資料
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,21 +13,21 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
-description: 摘要：設定 SharePoint 伺服器以搜尋 Exchange Server 和商務用 Skype Server 所封存的資料。
-ms.openlocfilehash: 406e0a713c65bc147ce6eb492f251a25ea2a3afc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：設定 SharePoint 伺服器以搜尋 Exchange Server 和商務用 Skype Server 封存的資料。
+ms.openlocfilehash: 42bffc09c78295909969ec0da0bb5ccd212c8fc6ad6fb286bc243684df8b7dd3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833943"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295720"
 ---
-# <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>設定 SharePoint 伺服器以搜尋已封存的商務用 Skype 資料
+# <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>設定 SharePoint 伺服器以搜尋封存商務用 Skype 資料
  
-**摘要：** 設定 SharePoint 伺服器以搜尋 Exchange Server 2016 或 Exchange Server 2013 和商務用 Skype Server 所封存的資料。
+**摘要：** 設定 SharePoint 伺服器以搜尋 Exchange Server 2016 或 Exchange Server 2013 及商務用 Skype Server 的封存資料。
   
-在 Exchange Server 中儲存立即訊息和 Web 會議記錄的主要優點之一，而不是商務用 Skype Server，其可讓系統管理員使用單一工具來搜尋封存的 Exchange 資料和/或已封存的商務用 Skype 伺服器資料。 由於所有資料都儲存在相同的位置 (Exchange) 任何可搜尋已封存 Exchange 資料的工具也可以搜尋封存的商務用 Skype 伺服器資料。
+在 Exchange Server，而不是商務用 Skype Server 中儲存立即訊息和網路會議記錄的主要優點之一，是將資料儲存在相同位置，讓系統管理員可以使用單一工具來搜尋已封存的 Exchange 資料和/或已封存的商務用 Skype Server 資料。 由於所有資料都儲存在相同的位置 (Exchange) 任何可搜尋已封存 Exchange 資料的工具也可以搜尋封存的商務用 Skype Server 資料。
   
-一種可讓您搜尋封存資料的工具，是 Microsoft SharePoint Server 2013。 如果您想要使用 SharePoint 來搜尋商務用 Skype 伺服器資料，您必須先完成在商務用 Skype Server 中設定 Exchange 封存所涉及的所有步驟。 成功整合 Exchange 伺服器和商務用 Skype Server 之後，您必須在 SharePoint 伺服器上安裝 Exchange [Web Services MANAGED API](https://go.microsoft.com/fwlink/p/?LinkId=258305) 。 下載的檔案 (EWSManagedAPI.msi) 可以儲存至 SharePoint Server 上的任何資料夾。
+一種可讓您搜尋封存資料的工具，會 Microsoft SharePoint Server 2013。 如果您想要使用 SharePoint 來搜尋商務用 Skype Server 資料，您必須先完成在商務用 Skype Server 中設定 Exchange 封存相關的所有步驟。 順利整合 Exchange Server 和商務用 Skype Server 之後，您必須在 SharePoint 伺服器上安裝 Exchange [Web Services Managed API](https://go.microsoft.com/fwlink/p/?LinkId=258305) 。 下載的檔案 (EWSManagedAPI.msi) 可以儲存至 SharePoint Server 上的任何資料夾。
   
 下載檔案之後，在 SharePoint Server 上完成下列程序：
   
@@ -51,7 +51,7 @@ ms.locfileid: "49833943"
    iisreset
    ```
 
-在安裝 Exchange Web 服務之後，您必須設定 SharePoint 伺服器與 Exchange Server 之間的伺服器對伺服器驗證。 若要這麼做，請先開啟 SharePoint 管理命令介面，並執行下列命令組：
+安裝 Exchange Web 服務之後，您必須設定 SharePoint 伺服器和 Exchange Server 之間的伺服器對伺服器驗證。 若要這麼做，請先開啟 SharePoint 管理命令介面，並執行下列命令組：
   
 ```powershell
 New-SPTrustedSecurityTokenIssuer -Name "Exchange" -MetadataEndPoint "https://autodiscover.litwareinc.com/autodiscover/metadata/json/1"
@@ -65,7 +65,7 @@ $service.Update()
 > [!NOTE]
 > 請務必將該 URI 用於自動探索服務。 請勿使用範例 URI https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 。 
   
-建立權杖簽發者並設定 token 服務之後，請執行下列命令，以確保將 SharePoint 網站的 URL 取代為範例 URL http://atl-sharepoint-001:
+建立權杖簽發者並設定 token 服務之後，請執行下列命令，以確保將 SharePoint 網站的 url 取代為範例 urlhttp://atl-sharepoint-001:
   
 ```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
@@ -74,13 +74,13 @@ $site = Get-SPSite  "https://atl-sharepoint-001"
 Set-SPAppPrincipalPermission -AppPrincipal $app -Site $site.RootWeb -Scope "SiteSubscription" -Right "FullControl" -EnableAppOnlyPolicy
 ```
 
-若要設定 Exchange Server 的伺服器對伺服器驗證，請開啟 Exchange 管理命令介面，並執行類似此 (的命令，假設 Exchange 已安裝在磁碟機 C：上，而且它使用預設的資料夾路徑) ：
+若要設定 Exchange Server 的伺服器對伺服器驗證，請開啟 Exchange 管理命令介面，並執行類似這種 (的命令，假設 Exchange 已安裝在磁碟機 C：上，而且其使用預設的資料夾路徑) ：
   
 ```powershell
 "C:\Program Files\Microsoft\Exchange Server\V15\Scripts\Configure-EnterprisePartnerApplication.ps1 -AuthMetaDataUrl 'https://atl-sharepoint-001/_layouts/15/metadata/json/1' -ApplicationType SharePoint"
 ```
 
-設定夥伴應用程式之後，建議您在所有 Exchange 信箱和用戶端存取伺服器上停止並重新啟動網際網路資訊服務 (IIS) 。 您可以使用如下命令來重新啟動 IIS，其會在電腦 atl-exchange-001 上重新啟動該服務：
+設定夥伴應用程式之後，建議您在所有 Exchange 信箱和用戶端存取伺服器上停止並重新啟動 Internet Information Services (IIS) 。 您可以使用如下命令來重新啟動 IIS，其會在電腦 atl-exchange-001 上重新啟動該服務：
   
 ```powershell
 iisreset atl-exchange-001
@@ -94,7 +94,7 @@ iisreset atl-exchange-001
 Add-RoleGroupMember "Discovery Management" -Member "kenmyer"
 ```
 
-在 Exchange 和 SharePoint 之間建立伺服器對伺服器的驗證之後，下一步是在 SharePoint 中建立 eDiscovery 網站。 您可以從 SharePoint 管理命令介面中執行類似下列的命令，以執行此作業：
+在 Exchange 和 SharePoint 之間建立伺服器對伺服器驗證之後，下一步是在 SharePoint 中建立 eDiscovery 網站。 您可以從 SharePoint 管理命令介面中執行類似下列的命令，以執行此作業：
   
 ```powershell
 $template = Get-SPWebTemplate | Where-Object {$_.Title -eq "eDiscovery Center"}
@@ -104,19 +104,19 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
 > [!NOTE]
 > "eDiscovery" 是 "electronic discovery" (電子化探索) 的縮寫，此程序通常是指在電子化封存中尋找可以在法庭上「合理計算以導出可採納證據」的項目。 
   
-當新的網站準備好時，下一步是設定 Exchange 伺服器做為 SharePoint 的結果來源。 您可以從 SharePoint 管理中心] 頁面完成下列程式，以執行此動作：
+當新的網站準備好時，下一步是設定 Exchange Server，以當作 SharePoint 的結果來源。 您可以從 SharePoint 管理中心] 頁面完成下列程式，以執行此動作：
   
 1. 在「管理中心」頁面上，按一下 [管理服務應用程式]，然後按一下 [Search Service 應用程式]。
     
 2. 在「Search Service 應用程式：搜尋管理」頁面上，按一下 [結果來源] ，然後按一下 [新增結果來源]。
     
-3. 在 [新增結果來源] 窗格的 [名稱] 方塊中，輸入新結果來源的名稱 (例如，**Microsoft Exchange**)。 選取 [ **exchange** ] 做為結果來源 **通訊協定**，然後在 [ **exchange 來源 Url** ] 方塊中輸入 EXCHANGE 伺服器的 web 服務來源 url。 來源 URL 看起來應該像下面這樣：
+3. 在 [新增結果來源] 窗格的 [名稱] 方塊中，輸入新結果來源的名稱 (例如，**Microsoft Exchange**)。 選取 [ **Exchange** 為結果來源 **通訊協定**]，然後在 [ **Exchange 來源 URL** ] 方塊中輸入 Exchange 伺服器的 web 服務來源 url。 來源 URL 看起來應該像下面這樣：
     
     https://atl-exchange-001.litwareinc.com/ews/exchange.asmx
     
 4. 請確定未選取 [使用自動探索]，然後按一下 [確定]。
     
-最後，請從 SharePoint 探索網站 (中完成下列程式，以建立新的 eDiscovery 案例及新的 eDiscovery 集（例如， https://atl-sharepoint-001/sites/discovery):
+最後，請從 SharePoint 探索網站 (中完成下列程式，以建立新的 ediscovery 案例及新的 ediscovery 集（例如，https://atl-sharepoint-001/sites/discovery):
   
 1. 在「網站內容」頁面上，按一下 [建立新案例]。
     

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 一般來說，您必須根據所要管理的伺服器版本，使用對應的系統管理工具。
-ms.openlocfilehash: e18d54b660b675334d2cd37320a10340ea2f1497
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 57795ac509a57b514adebc92935cddd5285672b34473c65bf3168825438ba5be
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752475"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334575"
 ---
 # <a name="administering-servers-after-migration"></a>在移轉後管理伺服器
 

@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: Director 是執行商務用 Skype Server 2015 通訊軟體的伺服器，可驗證使用者要求，但不會家用任何使用者帳戶。
-ms.openlocfilehash: fa55cfb04684cd363e6be8a6e7d02f281c9eeed8
+ms.openlocfilehash: 969b45a39da201a1de31fe1cf3261dce2cb20070de454770691a9d6c85dcae3a
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772694"
+ms.locfileid: "54344962"
 ---
 # <a name="skype-for-business-server-director-planning-tool"></a>商務用 Skype ServerDirector 規劃工具
  

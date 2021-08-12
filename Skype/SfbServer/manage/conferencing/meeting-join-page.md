@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
 description: 摘要：瞭解如何在商務用 Skype Server 中設定會議加入頁面。
-ms.openlocfilehash: 247664a3ff4bbc4ee055775d26f1d077b662752b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d1615b2d436cf884ee8d37e911b7ca82c57289973279c6f98f4360a6a40d99e0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828033"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313221"
 ---
 # <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>在商務用 Skype Server 中設定會議加入頁面
  
@@ -33,7 +33,7 @@ ms.locfileid: "49828033"
 
 |**Set-CsWebServiceConfiguration 參數**|**描述**|
 |:-----|:-----|
-|ShowJoinUsingLegacyClientLink  <br/> |此參數已被取代，可搭配商務用 Skype Server 的內部部署版本使用。  <br/> 若設為 True，使用商務用 Skype 以外的用戶端應用程式加入會議的使用者，將有機會利用其目前的用戶端應用程式加入會議。 預設值為 False。  <br/> |
-|ShowAlternateJoinOptionsExpanded  <br/> |此參數已被取代，可搭配商務用 Skype Server 的內部部署版本使用。  <br/>  若設為 True，加入線上會議的替代選項會自動展開並向使用者顯示。 如果設為 False (預設值) ，這些選項將可用，但使用者必須自行顯示選項清單。  <br/> |
+|ShowJoinUsingLegacyClientLink  <br/> |此參數已被取代，可搭配內部部署版本的商務用 Skype Server 使用。  <br/> 若設為 True，則使用商務用 Skype 以外的用戶端應用程式加入會議的使用者，將會獲得使用目前用戶端應用程式加入會議的機會。 預設值為 False。  <br/> |
+|ShowAlternateJoinOptionsExpanded  <br/> |此參數已被取代，可搭配內部部署版本的商務用 Skype Server 使用。  <br/>  若設為 True，加入線上會議的替代選項會自動展開並向使用者顯示。 如果設為 False (預設值) ，這些選項將可用，但使用者必須自行顯示選項清單。  <br/> |
    
 

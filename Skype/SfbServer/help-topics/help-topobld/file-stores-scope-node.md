@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
-description: '[檔案存放區] 節點會列出您拓撲中的檔案存放區。 您可以執行下列動作：'
-ms.openlocfilehash: 9e85ca7477cc9eb81319747211422aaffb707142
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[檔案存放區] 節點會列出您拓撲中的檔案存放區。您可以執行下列動作：'
+ms.openlocfilehash: 68fdf403b4748808c0b7e390579f274be5399f9dedbee89b8612fcf7aefdb6f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804733"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344882"
 ---
 # <a name="file-stores-scope-node"></a>檔案存放區範圍節點
  

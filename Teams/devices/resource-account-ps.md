@@ -16,18 +16,18 @@ ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 請閱讀本主題，以瞭解如何部署共同Microsoft Teams。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 812fb4704661aa11d3388048fa044030cdb1ce00
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ce5fe8fa0066ea613cdee1dbea6cf7fb2e385e2694ae9b84bbd99901c999f69b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115601"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334714"
 ---
-# <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>使用 PowerShell Microsoft 365資源帳戶
+# <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>使用 PowerShell Microsoft 365建立資源帳戶
 
-請參閱本主題，以瞭解如何使用 PowerShell 建立共同Microsoft Teams資源帳戶。
+請參閱本主題，以瞭解如何使用 PowerShell 為共同Microsoft Teams建立資源帳戶。
 
-建立資源帳戶最簡單的方法是使用 Microsoft 365管理中心。 [請參閱這篇文章，瞭解如何執行此工作](resource-account-ui.md)。
+建立資源帳戶最簡單的方法是使用Microsoft 365 系統管理中心。 [請參閱這篇文章，瞭解如何執行此工作](resource-account-ui.md)。
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
@@ -42,7 +42,7 @@ ms.locfileid: "51115601"
 
 ### <a name="add-a-resource-account"></a>新增資源帳戶
 
-1. 連線 PowerShell Exchange Online PowerShell。 有關指示，請參閱連線[powerShell Exchange Online。](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
+1. 連線 PowerShell Exchange Online PowerShell。 有關指示，請參閱連線[PowerShell Exchange Online。](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
 
 2. 在 Exchange Online PowerShell 中，建立新會議室信箱或修改現有的會議室信箱。
 
@@ -72,7 +72,7 @@ ms.locfileid: "51115601"
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     此範例啟用具有 HuddleRoom02 別名的現有會議室信箱的帳戶，並且將密碼設定為 808P@$$W 0rd。 請注意，由於現有的別名值 HuddleRoom02@contoso.onmicrosoft.com 帳戶將會更新。
+     此範例啟用具有 HuddleRoom02 別名的現有會議室信箱的帳戶，並且將密碼設定為 808P@$$W 0rd。 請注意，由於現有的別名 HuddleRoom02@contoso.onmicrosoft.com 帳戶將會無法使用。
 
      ``` PowerShell
      Set-Mailbox -Identity HuddleRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '808P@$$W0rd' -AsPlainText -Force)

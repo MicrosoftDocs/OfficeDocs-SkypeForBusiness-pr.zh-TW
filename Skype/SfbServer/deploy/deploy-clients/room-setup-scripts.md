@@ -1,5 +1,5 @@
 ---
-title: Skype 聊天室系統機房安裝腳本
+title: Skype會議室系統機房安裝腳本
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
-description: 閱讀此主題以尋找布建 Skype 室系統帳戶的範例腳本。
-ms.openlocfilehash: 93a97b42f3b800011030787ea39cfb503767e42c
-ms.sourcegitcommit: 1613e08da482ff142c990c9c9951abeb873ad964
+description: 閱讀此主題以尋找布建 Skype 房間系統帳戶的範例腳本。
+ms.openlocfilehash: b485a8d08dc5b121d43545ab89ce9c992b4a5860eb874ba806b57c4ac09cfbe3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50569365"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294930"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Skype 聊天室系統機房安裝腳本
+# <a name="skype-room-system-room-setup-scripts"></a>Skype會議室系統機房安裝腳本
  
-閱讀此主題以尋找布建 Skype 室系統帳戶的範例腳本。
+閱讀此主題以尋找布建 Skype 房間系統帳戶的範例腳本。
   
 本節說明可用於布建 Skype 室系統帳戶的範例腳本。 這些腳本只是用於說明目的。 只有在您諮詢 IT 專家或網域管理員之後，才應使用。
   
-## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>範例安裝程式腳本：商務用 Skype 和 Exchange Server (內部部署) 
+## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>範例安裝腳本：商務用 Skype 和 Exchange Server (內部部署) 
 
 ```powershell
 # On Exchange 
@@ -39,15 +39,15 @@ Set-ADAccountPassword -Identity "conference room"# Paste the next command on its
 Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=1669" -EnterpriseVoiceEnabled $true
 ```
 
-## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>範例安裝程式腳本：商務用 Skype 和 Exchange Server Online
+## <a name="example-setup-script-skype-for-business-and-exchange-server-online"></a>範例安裝腳本：商務用 Skype 和 Exchange Server 線上
 
 在執行腳本之前，請確定您已複習下列必要條件：
   
 - 適用于 IT 專業人員的 Microsoft Online Services Sign-In Assistant
     
-- Windows Azure Active Directory Module for Windows PowerShell (64 位版本) 或 (32 位版本) 
+- Windows PowerShell (64 位版本) 或 (32 位版本 Windows Azure Active Directory 模組) 
     
-- 小組 PowerShell 模組
+- TeamsPowerShell 模組
     
 - 視需要重新開機
     

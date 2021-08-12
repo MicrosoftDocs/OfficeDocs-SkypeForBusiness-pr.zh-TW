@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Setup
 - ms.lync.lac.UsersCountLimitationWarning
-description: '瞭解如何在線上系統管理員顯示使用者商務用 Skype限制內工作。 '
-ms.openlocfilehash: 00726dd76d59bfd177d6626d97c69ecb259bb2ec
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: '瞭解如何在線上系統管理員顯示商務用 Skype限制內工作。 '
+ms.openlocfilehash: d2a5903f2ce5fb5671123e7b8fca090826f39a69a8f98f5c628d0351a4b73bd9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239675"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334465"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>商務用 Skype線上系統管理中心使用者頁面限制
 

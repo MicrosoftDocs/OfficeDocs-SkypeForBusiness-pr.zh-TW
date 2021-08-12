@@ -1,5 +1,5 @@
 ---
-title: 已接受您的埠訂單
+title: 您的埠訂單已接受
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,15 +21,15 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
-description: '當您的埠訂單已接受時，代表什麼，以及您接下來需要做什麼，才能完成商務用 Skype設定。 '
-ms.openlocfilehash: 28357a28deaae6aa07606e8cc79ac2ec56fa2f04
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: '當您的埠訂單已接受時，代表什麼，以及您接下來需要執行哪些工作，才能完成商務用 Skype設定。 '
+ms.openlocfilehash: 78c10a340fd1b00fb29a1c28c638e2421adc4713809a73933a33611ef17c71ef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237779"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334405"
 ---
-# <a name="your-port-order-was-accepted"></a>已接受您的埠訂單
+# <a name="your-port-order-was-accepted"></a>您的埠訂單已接受
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 

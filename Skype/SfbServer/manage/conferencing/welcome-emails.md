@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中將歡迎電子郵件傳送至撥入使用者
+title: 將歡迎電子郵件傳送至商務用 Skype Server 中的撥入使用者
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 摘要：瞭解如何在商務用 Skype Server 中歡迎使用者使用電話撥入式會議。
-ms.openlocfilehash: dea63f02bcdd3fab323f7f4eff8f420bf012e9a7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1b585d4e0ff05bdb1faca0aa9c8b0863dd26f10f7d06bb1140211a2f1663e6b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817493"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313191"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>在商務用 Skype Server 中將歡迎電子郵件傳送至撥入使用者
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>將歡迎電子郵件傳送至商務用 Skype Server 中的撥入使用者
  
 **摘要：** 瞭解如何在商務用 Skype Server 中歡迎使用者使用電話撥入式會議。
   
-設定電話撥入式會議並測試以確認其運作正常之後，您應該為使用者 (Pin) 設定初始個人識別碼，並通知使用者有關該功能的可用性。 您可以加入簡介說明，例如初始 PIN 碼，以及撥入式會議設定網頁的連結。 
+設定電話撥入式會議並測試以確認其運作正常之後，您應該為使用者 (Pin) 設定初始個人識別碼，並通知使用者有關該功能的可用性。 您可以加入簡介（如初始 PIN）和電話撥入式會議設定網頁的連結。 
   
 一般來說，您可以使用 **unlock-csclientpin 指令程式** 來重設 pin，但是如果您想要使用 PIN 資訊傳送簡介的歡迎電子郵件，您可以使用本主題中的程式。 如果您不想要傳送電子郵件，您可以使用 **unlock-csclientpin** 代替。
   
@@ -37,7 +37,7 @@ ms.locfileid: "49817493"
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分登入。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 在命令提示字元中執行下列命令：
     

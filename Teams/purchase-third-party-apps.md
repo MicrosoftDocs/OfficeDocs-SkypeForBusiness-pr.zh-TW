@@ -16,15 +16,14 @@ description: 瞭解如何在系統管理中心Teams第三Microsoft Teams應用�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: dc46ea58421901a4d11f20160c2e9528a5311794bb084291c3c72e5e006ddc18
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5fa6c57b009ce7a7d6fef7ce1dd353ae32521a690fda254e469159cf0661dcd0
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849674"
 ---
-<a name="purchase-third-party-apps-for-teams"></a>購買協力廠商應用程式Teams
-======================================================
+# <a name="purchase-third-party-apps-for-teams"></a>購買協力廠商應用程式Teams
 
 > [!NOTE]
 > 此功能目前僅適用于美國。
@@ -33,9 +32,9 @@ Teams應用程式可免費安裝，有些應用程式可能需要購買服務訂
 
 系統[管理中心](manage-apps.md)中的Microsoft Teams頁面，就是您查看及管理組織Teams應用程式的地方。 例如，您可以看見應用程式的組織層級狀態和屬性、將新的自訂應用程式上傳到組織的 App Store、封鎖或允許組織層級的應用程式，以及管理整個組織的應用程式設定。
 
-您也可以在這裡為貴組織使用者購買協力廠商應用程式所提供的服務授權。 表格中 **的** 授權欄會指出應用程式是否提供要購買的 SaaS 訂閱。
+您也可以在這裡為貴組織使用者購買協力廠商應用程式所提供的服務授權。 表格中 **的** 授權欄會指出應用程式是否提供 SaaS 訂閱供購買。
 
-:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="顯示具有 SaaS 訂閱的協力廠商 App 的螢幕擷取畫面":::
+:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="顯示擁有 SaaS 訂閱的協力廠商 App 的螢幕擷取畫面":::
 
 ## <a name="search-for-and-purchase-services-for-a-third-party-app"></a>搜尋及購買協力廠商應用程式的服務
 
@@ -44,7 +43,7 @@ Teams應用程式可免費安裝，有些應用程式可能需要購買服務訂
     - **現在購買**：應用程式提供 SaaS 訂閱，可供購買。  
     - **已** 購買：應用程式提供 SaaS 訂閱，而且您已購買其授權。
     - **- -**：應用程式不會提供 SaaS 訂閱。
-3. 當您找到應用程式時 **，按一下** [立即購買>，以前往應用程式詳細資料 **頁面** 的 [方案與定價> 選項卡。 查看應用程式 SaaS 優惠的計畫和價格資訊。 如果您需要詳細資訊，請按一下深入瞭解連結，以前往[AppSource 上的應用程式頁面](https://appsource.microsoft.com/)。  
+3. 當您找到應用程式時 **，按一下** [立即購買>，以前往應用程式詳細資料 **頁面** 的 [方案與定價> 選項卡。 查看 App 的 SaaS 優惠方案與價格資訊。 如果您需要詳細資訊，請按一下深入瞭解連結，以前往[AppSource 上的應用程式頁面](https://appsource.microsoft.com/)。  
 4. 若要購買方案，請按一下 [ **立即購買**> 。 您將重新導向至與應用程式相關聯的優惠Teams體驗。 這是您完成購買服務或 SaaS 優惠的地方。
 5. 選擇您想要的計畫。 如果 SaaS 優惠包含多個方案，請按一下 **[變更** > 以查看可用方案清單。
 6. 選取您的帳單 **(每月或** 每年) ，然後輸入您想要購買的使用者授權數目。
@@ -52,10 +51,10 @@ Teams應用程式可免費安裝，有些應用程式可能需要購買服務訂
 8. 準備好時，請選取 **下單**。
 9. 按一下 **[立即設定** 以在發行者網站上啟用您的訂閱。
 
-購買與應用程式關聯的 SaaS 優惠Teams，您可以在應用程式詳細資料頁面的 "方案與價格" 標籤上查看下列購買詳細資料。
+購買與應用程式關聯的 SaaS 優惠Teams，您可以在應用程式詳細資料頁面的 "方案與價格" 選項卡上查看下列購買詳細資料。
 
 - **授權啟用日期**：您授權啟用的日期。 如果您的帳戶尚未設定，這會顯示為訂閱 **擱置啟用。**
-- **授權**：您購買授權的數量。
+- **授權**：您購買的授權數量。
 
 :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="應用程式詳細資料頁面之方案與定價欄的螢幕擷取畫面":::
 
@@ -71,5 +70,5 @@ Teams應用程式可免費安裝，有些應用程式可能需要購買服務訂
 
 ## <a name="related-topics"></a>相關主題
 
-- [在系統管理中心管理Microsoft Teams應用程式](manage-apps.md)
+- [在系統管理中心Microsoft Teams您的應用程式](manage-apps.md)
 - [建立 SaaS 優惠](/azure/marketplace/partner-center-portal/create-new-saas-offer)

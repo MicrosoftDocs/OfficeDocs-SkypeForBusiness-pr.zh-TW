@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是波蘭Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 30cfa3fcc7d417402c0a5cb478c78b183f4492ee
-ms.sourcegitcommit: d7a4707192d73b718b23abc32beb6f1684c2f928
+ms.openlocfilehash: 40b300016a6d747614fec8ddae26780ec6ca39903dd239b93d0d0f1ec39046a1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "53177689"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334724"
 ---
 # <a name="availability-in-poland"></a>波蘭的可用性
 
@@ -58,7 +58,7 @@ ms.locfileid: "53177689"
 ## <a name="calling-plans"></a>通話方案
 
 > [!IMPORTANT]
-> 我們在波蘭目前面臨無法預期的延遲，無法完成新的電話號碼訂單和移動訂單。 您可以繼續下單，但請注意，我們預期此延遲將于 9 月解決，屆時所有掛單都會完成。
+> 我們目前面對波蘭在完成新電話號碼訂單和移動訂單時，發生意外的延遲。 您可以繼續下單，但請注意，我們預期此延遲將于 9 月解決，屆時所有掛單都會完成。
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
