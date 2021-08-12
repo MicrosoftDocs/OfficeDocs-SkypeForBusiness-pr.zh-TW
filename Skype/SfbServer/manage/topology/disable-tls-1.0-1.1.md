@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 在您的環境中準備及執行停用 TLS 1.0 和1.1。
-ms.openlocfilehash: b07b9b5319b858a20a8073de8c6a37dd4d3299ec
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9bb737466595420770c4374d7d1b76bcc0319e38d188f550fb284b686df7e19f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103209"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337771"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中停用 TLS 1.0/1。1
 
@@ -29,9 +29,9 @@ ms.locfileid: "51103209"
 
 ## <a name="background-and-scope"></a>背景和範圍
 
-提供 TLS 1.0 和1.1 的主要驅動程式停用商務用 Skype Server On-Premises 是支付卡行業 (PCI) 安全性標準理事會和聯邦資訊處理標準需求。 您可以在 [這裡](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls)找到 PCI 需求的詳細資訊。  Microsoft 不會提供您的組織是否需要遵守這些或其他需求的指導方針。 您必須決定是否需要在您的環境中停用 TLS 1.0 和/或1.1。
+提供 TLS 1.0 和1.1 的主要驅動程式會停用商務用 Skype Server On-Premises 的支付卡行業 (PCI) 安全性標準理事會和聯邦資訊處理標準需求。 您可以在 [這裡](https://blog.pcisecuritystandards.org/are-you-ready-for-30-june-2018-sayin-goodbye-to-ssl-early-tls)找到 PCI 需求的詳細資訊。  Microsoft 不會提供您的組織是否需要遵守這些或其他需求的指導方針。 您必須決定是否需要在您的環境中停用 TLS 1.0 和/或1.1。
 
-Microsoft 已于 [這裡](https://cloudblogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/)產生可用 TLS 的白皮書，我們也建議您在此 [Exchange 博客](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)中提供的背景讀取功能。
+Microsoft 已于[這裡](https://cloudblogs.microsoft.com/microsoftsecure/2017/06/20/tls-1-2-support-at-microsoft/)產生可用 TLS 的白皮書，我們也建議您在此[Exchange 博客](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)中使用的背景讀取功能。
 
 ## <a name="supportability-scope"></a>支援範圍
 
@@ -39,26 +39,26 @@ Microsoft 已于 [這裡](https://cloudblogs.microsoft.com/microsoftsecure/2017/
 
 ### <a name="fully-tested-and-supported-servers"></a>經過完整測試及支援的伺服器
 
-- 商務用 Skype Server 2019 CU1 17.0.2046.123 (年6月 2019) 或更高版本
-- 商務用 Skype Server 2015 CU9 6.0.9319.548 2019 () 或更高版本的 Windows Server 2012 (，含 KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) 或取代更新) ，2012 R2 或2016。
-- 就地升級的商務用 Skype Server 2015，使用 CU9 6.0.9319.548 (可能 2019) 或更高版本的 Windows Server 2008 R2，2012 (，含 KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in) 或取代更新) 或 2012 R2。
-- Exchange 連線和 Outlook Web App 與 Exchange Server 2010 SP3 RU19 或更新版本，請參閱[此處](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)的指導方針
-- Survivable Branch 裝置 (SBA) 搭配商務用 Skype Server 2015 CU6 HF2 或更高版本 (向您的廠商確認他們是否已封裝適當的更新，並已供裝置使用) 
-- Survivable Branch Server (SBS) 與商務用 Skype Server 2015 CU6 HF2 或更高版本
-- 僅限 Lync Server 2013 **Edge 角色**，這是因為 edge Role 在 Windows Fabric 1.0 上沒有相依性。
+- 商務用 Skype Server 2019 CU1 17.0.2046.123 (6 月 2019) 或更高版本
+- 商務用 Skype Server 2015 CU9 6.0.9319.548 (2019) 或更新版本 Windows Server 2012，含 KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in)或取代更新 (，2012 R2 或2016。
+- 就地升級商務用 Skype Server 2015，使用 CU9 6.0.9319.548 (2019) 或以上的 Windows Server 2008 R2，2012 (，含 KB [3140245](https://support.microsoft.com/help/3140245/update-to-enable-tls-1-1-and-tls-1-2-as-a-default-secure-protocols-in)或取代更新) 或 2012 R2。
+- ExchangeExchange Server 2010 的連線和 Outlook Web App SP3 RU19 或更新版本，請參閱[此處](https://blogs.technet.microsoft.com/exchange/2018/01/26/exchange-server-tls-guidance-part-1-getting-ready-for-tls-1-2/)的指導方針
+- Survivable Branch 裝置 (SBA) 使用商務用 Skype Server 2015 CU6 HF2 或更高版本 (向廠商確認他們是否已封裝適當的更新，並已供裝置使用) 
+- Survivable Branch Server (SBS) 商務用 Skype Server 2015 CU6 HF2 或更高版本
+- 僅限 Lync Server 2013 **Edge 角色**，這是因為 edge Role 對 Windows Fabric 1.0 沒有相依性。
 
 ### <a name="fully-tested-and-supported-clients"></a>經過充分測試及支援的用戶端
 
-- Lync 2013 (商務用 Skype) 桌面用戶端，MSI 和 C2R，包含基本 [15.0.5023.1000 或更高版本](https://support.microsoft.com/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
-- 商務用 Skype 2016 桌面用戶端（MSI [16.0.4678.1000 或更新版本](https://support.microsoft.com/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323)），包含基本
-- 商務用 Skype 2016 請按一下以執行（需要 [4 月 2018](/officeupdates/release-notes-office365-proplus) 更新）： 
+- Lync 2013 (商務用 Skype) 的桌面用戶端、MSI 及 C2R，包含基本[15.0.5023.1000 或更高版本](https://support.microsoft.com/help/4018334/april-3-2018-update-for-skype-for-business-2015-lync-2013-kb4018334)
+- 商務用 Skype 2016 桌面用戶端（MSI [16.0.4678.1000 或更高版本](https://support.microsoft.com/help/4018323/april-3-2018-update-for-skype-for-business-2016-kb4018323)，包含基本
+- 商務用 Skype 2016 按一下以執行（需要[四月 2018](/officeupdates/release-notes-office365-proplus)更新）： 
     - 每月和 Semi-Annual 目標，16 \. 0 \. 9126 \. 2152 或更高版本
     - Semi-Annual 和延時通道，16 \. 0 \. 8431 \. 2242 或更高版本
 - Mac 16.15 或以上版本的商務用 Skype
-- IOS 和 Android 6.19 或更高版本的商務用 Skype
-- Microsoft 團隊會議室 (先前稱為 Skype 會議室 System V2 SRS V2) 4.0.64.0 (2018 年12月) 或更高版本
-- 以 KB4499162 (為基礎之 Team edition 的 Surface Hub 更新2019年5月、OS 組建 15063.1835) 或更高版本
-- ) 伺服器隨附的 Skype Web App 2015 CU6 HF2 或更新版本 (
+- iOS 和 Android 6.19 或更高版本的商務用 Skype
+- Microsoft Teams 會議室 (以前稱為 Skype 會議室 System v2 SRS v2) 4.0.64.0 (2018 年12月) 或更高版本
+- Surface Hub 以 KB4499162 為基礎的 Team edition 更新 (2019 年5月、OS 組建 15063.1835) 或更高版本
+- SkypeWeb App 2015 CU6 HF2 或更新版本 (隨附于伺服器) 
 
 ### <a name="currently-being-investigated"></a>目前正在調查
 
@@ -66,38 +66,38 @@ Microsoft 已于 [這裡](https://cloudblogs.microsoft.com/microsoftsecure/2017/
  
 ### <a name="out-of-scope"></a>超出範圍
 
-除了另有說明之外，下列產品不在 TLS 1.0/1.1 停用支援範圍內，而且在已停用 TLS 1.0 和1.1 的環境中不會運作。 其含義如下：如果您仍然使用超出範圍的伺服器或用戶端，則必須在內部部署的商務用 Skype Server 中停用 TLS 1.0/1.1 任何地方，以進行更新或移除。
+除了另有說明之外，下列產品不在 TLS 1.0/1.1 停用支援範圍內，而且在已停用 TLS 1.0 和1.1 的環境中不會運作。 這表示：如果您仍然使用範圍外的伺服器或用戶端，則必須在商務用 Skype Server 內部部署中的任何地方停用 TLS 1.0/1.1 時，更新或移除這些專案。
 
 - Lync Server 2013
 - Lync Server 2010
-- Windows Server 2008 或更低
+- Windows伺服器2008或更低
 - Lync for Mac 2011
-- Lync 2013 for Mobile-iOS、iPad、Android 或 Windows Phone
-- Lync "MX" Windows Store 用戶端
+- Lync 2013，適用于行動裝置 iOS、iPad、Android 或 Windows Phone
+- Lync "MX" Windows 儲存區用戶端
 - Lync 會議室系統 (a.k.a。 SRSv1) 。 LRS 已于2018年10月9日到達支援的結尾，將不會更新以支援 TLS 1.2。
 - 所有 Lync 2010 用戶端
-- Lync Phone Edition-更新的 [指導方針](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/ba-p/120035)。
+- Lync 電話 Edition-更新的[指導方針](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Certified-Skype-for-Business-Online-Phones-and-what-this-means/ba-p/120035)。
 - 2013基礎 Survivable Branch 裝置 (SBA) 或 Survivable Branch Server (SBS) 
 - 雲端連接器版本 (CCE) 
-- 適用于 Windows Phone 的商務用 Skype
+- Windows Phone 版商務用 Skype
 
 ### <a name="exceptions"></a>例外狀況
 
 #### <a name="lync-server-2013"></a>Lync Server 2013
 
-Lync Server 2013 會對 Windows Fabric 版本1.0 進行相依相依性的依賴性。  在 Lync Server 2013 的設計階段中，已針對其引人注目和新的分散式架構選擇 Windows Fabric 1.0，以提供複寫、高可用性和容錯。  經過一段時間後，商務用 Skype Server 與 Windows Fabric 已大幅提升這種結合架構，在後續版本中有大量重新設計。  例如，目前的商務用 Skype 2015 Server 使用 Windows Fabric 3.0。
+Lync Server 2013 會對 Windows Fabric 版本1.0 進行相依相依的依賴性。  在 Lync Server 2013 的設計階段中，會針對其引人注目和新的分散式架構選擇 Windows Fabric 1.0，以提供複寫、高可用性及容錯。  隨著時間的推移，商務用 Skype Server 和 Windows Fabric 都會大幅提高這種聯合架構，在後續版本中有大量重新設計。  例如，目前的商務用 Skype 2015 Server 使用 Windows Fabric 3.0。
 
 不幸的是，Windows Fabric 1.0 不 **支援 TLS 1.2。 不過，我們將更新 Lync Server 2013，以與 TLS 1.2 搭配** 使用。 這將會進入 Lync Server 2013 的下一個累計更新。  我們提供 TLS 1.2 支援，以啟用共存、遷移、同盟和混合案例。
 
-如果您的組織必須停用 TLS 1.0 和1.1，而且您目前使用 Lync Server 2013，我們建議您開始規劃程式，但您可能必須在就地升級或並存遷移 (新集區，將使用者) 移至商務用 Skype Server 2015 或更高版本。  或者，您可能想要加速遷移至商務用 Skype Online。
+如果您的組織必須停用 TLS 1.0 和1.1，而且您目前使用 Lync Server 2013，建議您開始規劃程式，但您可能必須在就地升級或並存遷移 (新集區，移動使用者) 以商務用 Skype Server 2015 或更高版本。  或者，您可能想要將遷移速度加速至商務用 Skype 線上。
 
 #### <a name="call-quality-dashboard"></a>通話品質儀表板
 
 On-Premises 通話品質儀表板目前在安裝新的安裝期間 (使用 TLS 1.0，) 安裝至 On-Premises 環境。  我們目前正在調查這項問題，並計畫在不久的未來發佈修復。  如果您計畫安裝 CQD，同時也停用 TLS 1.0，建議您先完成 CQD 安裝，然後繼續 TLS 1.0 停用。
 
-#### <a name="skype-for-business-sdn-manager"></a>商務用 Skype 的 SDN 管理員
+#### <a name="skype-for-business-sdn-manager"></a>商務用 SkypeSDN 管理員
 
-使用 SQL 的商務用 Skype 物件管理員在新安裝期間，資料庫與 TLS 1.0 有相依性。 如果您打算使用 SQL a 資料庫來安裝商務用 Skype 系統管理員，同時也停用了 TLS 1.0，建議您先完成商務用 Skype 管理員，然後再繼續進行 TLS 1.0 停用。 在安裝之前停用了 TLS 1.0 的情況下，您應該在 SQL Server 後端伺服器中暫時啟用 TLS 1.0，將用來主控商務用 Skype 專案經理 SQL 資料庫。
+商務用 Skype使用 SQL 資料庫的 SDN 管理員在新安裝期間，對 TLS 1.0 的依賴性。 如果您打算使用資料庫 SQL 來安裝商務用 Skype SDN 管理員，同時也停用 TLS 1.0，我們建議您先完成商務用 Skype SDN manager，然後繼續進行 tls 1.0 停用。 在安裝之前停用了 tls 1.0 的情況下，您應該在 SQL Server 後端伺服器中暫時啟用 tls 1.0，以主控商務用 Skype SDN Manager SQL 資料庫。
 
 #### <a name="third-party-devices"></a>協力廠商裝置
 
@@ -111,17 +111,17 @@ On-Premises 通話品質儀表板目前在安裝新的安裝期間 (使用 TLS 1
 
 當您的 Edge 網路 (或任何網路) 低於 PCI standard 時，Microsoft 無法提供相關意見或建議。必須由個別公司所決定。
 
-商務用 Skype Online 具備 TLS 1.2，所以不需要有線上的混合式/同盟影響。
+商務用 Skype線上具備 TLS 1.2 的功能，因此不需要有線上的混合式/同盟影響。
 
-PIC (公用 IM 連線) 到 Skype 消費者服務：我們不想停用 TLS 1.0/1.1 來影響 [Skype](../../deploy/deploy-skype-connectivity.md)連線;Microsoft PIC 閘道已具備 TLS 1.2 的功能。
+PIC (公用 IM 連線) 以 Skype 消費者服務：我們不想停用 TLS 1.0/1.1 來影響[Skype](../../deploy/deploy-skype-connectivity.md)連線;Microsoft PIC 閘道已具備 TLS 1.2 的功能。
 
 ## <a name="prerequisites-and-process"></a>必要條件及處理常式
 
 除了上面所述之外，只要 TLS 1.0 和1.1 停用超出範圍的伺服器，用戶端和裝置就能正常運作，或完全正常運作。 這可能表示您必須暫停並等候 Microsoft 的更新指導方針。 當您符合所有需求，且有計劃解決空缺時，請繼續進行。
 
-在高層次上，雖然商務用 Skype Server 2019 已準備好進行安裝，但商務用 Skype Server 2015 將需要您安裝 CU9、將必要條件更新套用至 .NET 和 SQL、部署必要條件登錄機碼，最後一輪個別的 OS 設定更新， (亦即停用 TLS 1.0 和1.1 （透過登錄檔匯入) ）。 在停用您環境中的任何伺服器上的 TLS 1.0 和1.1 之前，請務必先完成所有必要條件（包括商務用 Skype Server 2015 CU6 HF2）的安裝。 每個商務用 Skype 伺服器（包括 Edge role 和 SQL Backends）都需要更新。 此外，請確定所有支援的 (範圍) 用戶端都已更新為所需的最小版本。 別忘記同時更新管理工作站。
+在高層次，雖然商務用 Skype Server 2019 已準備好進行安裝程式，商務用 Skype Server 2015 將需要您安裝 CU9、將必要條件更新套用至 .net 及 SQL、部署必要條件登錄機碼，最後一輪個別的 OS 設定更新， (亦例如，透過登錄檔案匯入) 來停用 TLS 1.0 和1.1。 在 1.1 1.0 停用環境中的任何伺服器上之前，請務必先完成所有必要條件（包括商務用 Skype Server 2015 CU6 HF2）的安裝。 每個商務用 Skype 伺服器（包括 Edge role 及 SQL Backends）都需要更新。 此外，請確定所有支援的 (範圍) 用戶端都已更新為所需的最小版本。 別忘記同時更新管理工作站。
 
-我們想遵循常見的「內部程式」作業順序，以升級商務用 Skype 伺服器。 以您平常的相同方式對待 Director 集區、持久聊天和配對的集區。 升級的[順序和](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)[方法如下所述。](topology.md)
+我們想遵循常見的「內部程式」運作順序，以升級商務用 Skype 伺服器。 以您平常的相同方式對待 Director 集區、持久聊天和配對的集區。 升級的[順序和](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)[方法如下所述。](topology.md)
 
 ### <a name="high-level-process"></a>高層級流程
 
@@ -139,63 +139,63 @@ PIC (公用 IM 連線) 到 Skype 消費者服務：我們不想停用 TLS 1.0/1.
 
 ### <a name="install-prerequisites-to-all-servers"></a>安裝所有伺服器的必要條件
 
-在您開始在商務用 Skype Server 2015 部署中的作業系統層級上停用 TLS 1.0 和1.1 之前，需要進行大量的相依性更新。 以下是可支援 TLS 1.2 的最小版本。 在您開始停用 TLS 1.0 和1.1 之前，請先在環境中的每個商務用 Skype server 上部署所有必要更新。
+在您開始停用商務用 Skype Server 2015 部署中作業系統層級的 TLS 1.0 和1.1 之前，需要進行大量的相依性更新。 以下是可支援 TLS 1.2 的最小版本。 在您開始停用 TLS 1.0 和1.1 之前，請先在環境中的每一部商務用 Skype 伺服器上部署所有必要條件更新。
 
-- 商務用 Skype Server 2015 CU9 6.0.9319.548 (可能 2019) 或更高版本
-- [.Net Framework 4.7](https://www.microsoft.com/download/details.aspx?id=55167) 或更高版本已在登錄中啟用 SchUseStrongCrypto (如下所述) 
-- 必須在所有商務用 Skype 2015 server 和 backends 上更新 SQL。 請先更新 Enterprise Edition 集區 SQL Backends，然後再更新其各自的 FEs。 
-    - [SQL server 2014 SP1 + CU5](https://support.microsoft.com/help/3130926)或更高版本/sql server 2012 SP2 + CU16 或更高版本/ [SQL server 2014 RTM + CU12](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014)或更高版本/sql server 2014 SP2
-     - [Sql Server 2012 的 SQL Server Native Client](https://www.microsoft.com/download/details.aspx?id=50402)
-     - [MICROSOFT ODBC Driver 11 FOR SQL Server](https://www.microsoft.com/download/details.aspx?id=36434)或更高版本
+- 商務用 Skype Server 2015 CU9 6.0.9319.548 (2019) 或更高版本
+- 在下列的登錄 (中啟用 SchUseStrongCrypto [.NET Framework 4.7](https://www.microsoft.com/download/details.aspx?id=55167)或更高版本) 
+- 在所有商務用 Skype 2015 伺服器和 backends 上都必須更新 SQL。 先更新 Enterprise Edition 集區 SQL Backends，然後再更新其各自的 FEs。 
+    - [SQL Server 2014 SP1 + CU5](https://support.microsoft.com/help/3130926)或更高版本/SQL Server 2012 SP2 + CU16 或更高/ [SQL Server 2014 RTM + CU12](https://support.microsoft.com/help/3130923/cumulative-update-12-for-sql-server-2014)或更高/SQL Server 2014 SP2
+     - [SQL Server 2012 的 SQL Server Native Client](https://www.microsoft.com/download/details.aspx?id=50402)
+     - SQL Server 或更高版本[的 Microsoft ODBC Driver 11](https://www.microsoft.com/download/details.aspx?id=36434)
      - [SQL Server 2014 的共用管理物件 SP2](https://www.microsoft.com/download/details.aspx?id=53164)
-     - [SQLSysClrTypes for SQL server 2014 SP2](https://www.microsoft.com/download/details.aspx?id=42295)
+     - [SQL server 2014 的 SQLSysClrTypes SP2](https://www.microsoft.com/download/details.aspx?id=42295)
 
 ### <a name="basic-steps-to-install-pre-requisites-in-recommended-order-of-operations"></a>安裝先決條件的基本步驟，以建議的作業順序進行
 
-1. 安裝商務用 Skype Server CU9 更新至所有伺服器。 
+1. 將商務用 Skype Server CU9 更新安裝到所有伺服器。 
     1. 使用更新安裝元件的更新。
-    2. 根據記錄的程式更新資料庫。 若為商務用 Skype Server 2015，請參閱 KB [3061064](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)。
+    2. 根據記錄的程式更新資料庫。 如需商務用 Skype Server 2015，請參閱 KB [3061064](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)。
     3. 先驗證部署中的產品功能，再與其他任何變更一起向前移動。
 2. 下載 .NET 4.7 離線安裝程式。 
-    1. 參考： [https://www.microsoft.com/download/details.aspx?id=55167](https://www.microsoft.com/download/details.aspx?id=55167)
+    1. 參考：[https://www.microsoft.com/download/details.aspx?id=55167](https://www.microsoft.com/download/details.aspx?id=55167)
     2. 確定前端伺服器上的商務用 Skype Server 2015 服務已停止。
-    3. 參考： [https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
-    4. Ex (Standard Edition) ： ```Stop-CsWindowsService```
-    5. Ex (Enterprise Edition) ： ```Invoke-CsComputerFailover```
+    3. 參考：[https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
+    4. Ex (Standard Edition) ：```Stop-CsWindowsService```
+    5. Ex (Enterprise Edition) ：```Invoke-CsComputerFailover```
     6. 執行安裝程式套件。
     7. 重新啟動伺服器。
 3. 在所有伺服器上更新 SQL Express 2014。 
-    1. 參考： [https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server)
+    1. 參考：[https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server)
     2. 下載 SQL 2014 SP2 
-        - 參考： [https://www.microsoft.com/download/details.aspx?id=53168](https://www.microsoft.com/download/details.aspx?id=53168)
+        - 參考：[https://www.microsoft.com/download/details.aspx?id=53168](https://www.microsoft.com/download/details.aspx?id=53168)
     3. 將安裝媒體複製到伺服器上的資料夾中 (Ex： C：\ 01_2014SqlSp2) 
     4. 確定前端伺服器上的商務用 Skype Server 2015 服務已停止 
-        - Ex (Standard Edition) ： ```Stop-CsWindowsService```
-        - Ex (Enterprise Edition) ： ```Invoke-CsComputerFailover```
+        - Ex (Standard Edition) ：```Stop-CsWindowsService```
+        - Ex (Enterprise Edition) ：```Invoke-CsComputerFailover```
     5. 開啟系統管理命令提示字元，並升級所有已安裝的元件和實例 
         - 範例： C:\01_2014SqlSp2\SQLServer2014SP2-KB3171021-x64-ENU.exe/qs/IAcceptSQLServerLicenseTerms/Action = Patch/AllInstances
 4. 更新 SQL Native Client。 
     1. 參考： [https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server) 。
     2. 下載來源 [https://www.microsoft.com/download/details.aspx?id=50402](https://www.microsoft.com/download/details.aspx?id=50402)
     3. 確定前端伺服器上的商務用 Skype Server 2015 服務已停止。 
-        - Ex (Standard Edition) ： ```Stop-CsWindowsServices```
-        - Ex (Enterprise Edition) ： ```Invoke-CsComputerFailover```
-    4. 停止已從執行安裝的 SQL 實例 
+        - Ex (Standard Edition) ：```Stop-CsWindowsServices```
+        - Ex (Enterprise Edition) ：```Invoke-CsComputerFailover```
+    4. 停止已安裝的 SQL 實例 
         - 前： ```Get-Service 'MSSQL$RTCLOCAL' | Stop-Service```
         - 前： ```Get-Service 'MSSQL$LYNCLOCAL' | Stop-Service```
-        - Ex (Standard Edition 只有) ： ```Get-Service 'MSSQL$RTC' | Stop-Service```
+        - Ex (僅 Standard Edition) ：```Get-Service 'MSSQL$RTC' | Stop-Service```
     5. 安裝更新。
-5. 更新 ODBC Driver 11 for SQL Server，以包含對 TLS 1.2 (KB [3135244](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server)) 的支援。
-    1. 下載 [SQL Server-Windows 的 ODBC 驅動程式 11](https://www.microsoft.com/download/confirmation.aspx?id=36434)。
+5. 更新 ODBC Driver 11 的 SQL Server，以包含對 TLS 1.2 (KB [3135244](https://support.microsoft.com/help/3135244/tls-1-2-support-for-microsoft-sql-server)) 的支援。
+    1. 下載[SQL Server Windows 的 ODBC 驅動程式 11](https://www.microsoft.com/download/confirmation.aspx?id=36434)。
     2. 確定前端伺服器上的商務用 Skype Server 2015 服務已停止。
-        -  (Standard Edition) 範例： ```Stop-CsWindowsService```
-        -  (Enterprise Edition) 範例： ```Invoke-CsComputerFailover```
+        - 範例 (Standard Edition) ：```Stop-CsWindowsService```
+        - 範例 (Enterprise Edition) ：```Invoke-CsComputerFailover```
     3. 安裝更新。
 6. 部署必要登錄機碼。
 
 ### <a name="pre-requisite-registry-keys"></a>預備必要條件登錄機碼
 
-將下列測試複製/貼到 [記事本] 中，然後重新命名 TLSPreReq 或您選擇的名稱，然後匯入：
+將下列測試複製/貼回記事本，然後重新命名 TLSPreReq，或是您選擇的名稱，然後匯入：
 
 ```console
 Windows Registry Editor Version 5.00
@@ -239,15 +239,15 @@ Windows Registry Editor Version 5.00
 "Enabled"=dword:00000001
 ```
 
-針對 Enterprise Edition 集區的 SQL 後端，應將必要條件和 TLS 停用視為任何 SQL 或作業系統更新;請參閱： [https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](./patch-or-update-a-back-end-or-standard-edition-server.md)
+針對 Enterprise Edition 集區的 SQL 後端，應將必要條件和 TLS 停用視為任何 SQL 或作業系統更新;請參閱：[https://docs.microsoft.com/skypeforbusiness/manage/topology/patch-or-update-a-back-end-or-standard-edition-server](./patch-or-update-a-back-end-or-standard-edition-server.md)
 
 當必要的應用程式和 TLS 停用步驟都能結合時，強烈建議先套用所有必要條件，再繼續停用作業系統層級的 TLS 1.0 和1.1。 最佳作法方法是部署所有必要條件，以驗證工作負載是否正常運作及預期，然後繼續執行 TLS 1.0/1.1，以準備環境。
 
 ### <a name="disable-tls-10-and-11-via-registry-import"></a>經由登錄匯入停用 TLS 1.0 和1。1
 
-繼續進行下一個步驟之前， *請確定您已完成所有必要條件和更新的商務用 Skype 伺服器*。
+繼續進行下一個步驟之前，*請確定您已完成所有必要條件，並更新商務用 Skype 伺服器*。
 
-將下列文字複製到記事本檔案，並將其重新命名為 **TLSDisable**：
+將下列文字複製到記事本檔案，並將其重新命名 **TLSDisable**：
 
 ```console
 Windows Registry Editor Version 5.00
@@ -441,22 +441,22 @@ Windows Registry Editor Version 5.00
 
 在您要停用 TLS 1.0 和1.1 的每部伺服器上，匯入 .reg 檔案。 重新啟動伺服器。 服務回到線上後，請移至下一個伺服器。 Enterprise Edition 集區的方法與任何作業系統更新所需的方式相同。
 
-您可能已注意到，我們執行的工作不只是在這裡停用 TLS 1.0 和1.1。 我們支援密碼套件重新排序 (如上所示) 以及停用某些較舊的弱密碼。 這是我們第一次在商務用 Skype Server 上為 SCHANNEL 和加密 API 所做的變更，這是很重要的一點，請務必注意，這些變更是我們所支援的，且已在此時間進行測試。 我們可能會在未來考慮其他設定，但是現在，請不要在您的實施中修改登錄匯入檔案。
+您可能已注意到，我們執行的工作不只是在這裡停用 TLS 1.0 和1.1。 我們支援密碼套件重新排序 (如上所示) 以及停用某些較舊的弱密碼。 這是我們第一次在商務用 Skype Server 上為 SCHANNEL 和加密 API 所做的變更。請務必注意，這些變更是我們所支援的，且已在此時間加以測試。 我們可能會在未來考慮其他設定，但是現在，請不要在您的實施中修改登錄匯入檔案。
 
 ### <a name="validate-that-workloads-are-functioning-as-expected"></a>驗證工作負載是否如預期般運作
 
-在您的環境中停用 TLS 1.0 和1.1 後，請確定您的主要工作負載會如預期般運作，例如 IM & 目前狀態、P2P 通話、Enterprise Voice 等等。
+在您的環境中停用 TLS 1.0 和1.1 後，請確定您的主要工作負載會如預期般運作，例如 IM & 目前狀態、P2P 通話、企業語音等。
 
 **只驗證 TLS 1.2 正在使用中**
 
-讓您的安全小組執行新的商務用 Skype 流量審核，以確保已不再使用舊的通訊協定 TLS 1.0 和1.1。
+讓您的安全小組執行商務用 Skype 流量的新審核，以確保已不再使用較舊的通訊協定 TLS 1.0 和1.1。
 
-或者，您也可以使用 Internet Explorer，在 TLS 1.0 和 TLS 1.1 停用之後，從商務用 Skype Server 2015 測試 TLS 連線到 web 服務。
+或者，您也可以使用 Internet Explorer，在 tls 1.0 和 tls 1.1 已停用之後，從商務用 Skype Server 2015 測試與 web 服務之間的 tls 連線。
 
 1. 啟動 Internet Explorer。
 2. 選取 [**工具**  >  **網際網路選項**]。
 3. 選取 [進階] 索引標籤。
-4. 在 [ **設定**] 底下，向下移動。
+4. 在 [**設定**] 底下，向下移動。
 5. 確認 TLS 1.0、TLS 1.1 及 TLS 1.2 皆已啟用。
 6. 流覽 SfB 2015 集區 (的內部 Web 服務 URL，) 應該成功連接。
 7. 請回到 Internet Explorer，並停 **用只使用 TLS 1.2** 的選項。
@@ -466,15 +466,15 @@ Windows Registry Editor Version 5.00
 
 ## <a name="advanced-deployment-scenarios"></a>高級部署案例
 
-因為在商務用 Skype Server 2015 中需要一些相依性必要條件來支援 TLS 1.2，所以在任何已停用 TLS 1.0 和1.1 的系統上，從 RTM 媒體安裝都會失敗。
+因為在商務用 Skype Server 2015 中需要一些相依性必要條件來支援 tls 1.2，所以在已停用 tls 1.0 和1.1 的任何系統上安裝 RTM 介質時，將會失敗。
 
-**在您的環境中已停用 TLS 1.0 和1.1 後，部署新的 Standard Edition Server 或 Enterprise Edition 集區。**
+**在您的環境中已停用 TLS 1.0 和1.1 時，部署新的 Standard Edition 伺服器或 Enterprise Edition 集區。**
 
-**選項1：** 使用 [SmartSetup](../../deploy/install/install-skype-for-business-server.md)。 請注意，我們正在更新 SmartSetup，以在未來 CU 中容納更新的 SQL 二進位檔案，並將在未來更新此文章。
+**選項1：** 使用 [SmartSetup](../../deploy/install/install-skype-for-business-server.md)。 請注意，我們將更新 SmartSetup，以在未來的 CU 中容納更新的 SQL 二進位檔，並將在未來更新此文章。
 
-**選項2：** 預先安裝本機 SQL 實例 (RTCLOCAL 和 LYNCLOCAL) 
+**選項2：** (RTCLOCAL 及 LYNCLOCAL 的預先安裝本機 SQL 實例) 
 
-1. 下載並複製 SQL Express 2014 SP2 (SQLEXPR_x64.exe) 至 FE 上的本機資料夾。 讓我們說 <SQL_FOLDER_PATH> 的資料夾路徑。
+1. 下載並複製 SQL Express 2014 SP2 (SQLEXPR_x64.exe) 于 FE 上的本機資料夾。 讓我們說 <SQL_FOLDER_PATH> 的資料夾路徑。
 2. 啟動 PowerShell 或命令提示字元，並流覽至 <SQL_FOLDER_PATH>。
 3. 執行下列命令，以建立 RTCLOCAL SQL 實例。 請等到 SQLEXPR_x64.exe 完成，再繼續執行：
 
@@ -489,23 +489,23 @@ Windows Registry Editor Version 5.00
 
 1. [安裝商務用 Skype Server 的必要條件](../../deploy/install/install-prerequisites.md)  
 2. 安裝 .NET 4.7： 
-      - **附注：** 在商務用 Skype Server 2015 CU5 (6.0.9319.281) 中，我們第一次推出 .NET 4.7 的支援。 因此，在後面的步驟中，我們會在主安裝之前更新核心元件。
+      - **附注：** 我們第一次在商務用 Skype Server 2015 CU5 (6.0.9319.281) 中引進 .net 4.7 的支援。 因此，在後面的步驟中，我們會在主安裝之前更新核心元件。
       - 下載： https://www.microsoft.com/download/details.aspx?id=55167 。 
-      - 參考： [在商務用 Skype Server 2015 部署之前應安裝的軟體](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
+      - 參考：[應該在商務用 Skype Server 2015 部署之前安裝的軟體](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md#software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment)
 3. 複製 ISO 檔案/資料夾： 
-    - 在 [商務用 Skype Server 2015 ISO] 中，開啟它所附加之磁片磁碟機的根目錄，如檔案瀏覽器中 (Ex： D： \) 。
+    - 在附加商務用 Skype Server 2015 ISO 的情況下，以檔案瀏覽器中 (Ex： D：的方式，開啟它所附加之磁片磁碟機的根目錄 \) 。
     - 將所有資料夾及檔案複製到本機磁片的資料夾中 (Ex： C:\SkypeForBusiness2015ISO) 。
     - **附注：** 安裝元件之前，必須更新部分檔案，以支援 TLS 1.2。
 4. 取代 MSI/EXE 套件： 
     - 將現有的 MSI 和 EXE 套件取代在本機電腦上安裝媒體的/Setup/amd64/資料夾中。
-    - SQL 2014 SP2 Express： https://www.microsoft.com/download/details.aspx?id=53167 
+    - SQL 2014 SP2 Express：https://www.microsoft.com/download/details.aspx?id=53167 
         - 在本機電腦上重新命名為 SQLEXPR_x64，並取代安裝媒體安裝程式/amd64/資料夾中現有的檔案。
-    - SQL Native Client： https://www.microsoft.com/download/details.aspx?id=50402 
+    - SQL Native Client：https://www.microsoft.com/download/details.aspx?id=50402 
         - **附注：** 如有需要 sqlncli.msi，請將其重新命名，然後取代安裝媒體安裝程式/amd64/資料夾中存在的現有檔案。
-    - SQL 管理物件： https://www.microsoft.com/download/details.aspx?id=53164 
+    - SQL管理物件：https://www.microsoft.com/download/details.aspx?id=53164 
         - **附注：** 功能套件會有許多可以下載的專案。 選取只下載 SharedManagementObjects.msi。
         - **附注：** 取代安裝媒體之 Setup/amd64/資料夾中存在的現有檔案。
-    - SQL CLR 類型： https://www.microsoft.com/download/details.aspx?id=53164 
+    - SQLCLR 類型：https://www.microsoft.com/download/details.aspx?id=53164 
         - **附注：** 功能套件會有許多可以下載的專案。 選取只下載 CQLSysClrTypes.msi
         - **附注**：取代安裝媒體之 Setup/amd64/資料夾中存在的現有檔案。
 5. 安裝核心元件： 
@@ -517,18 +517,18 @@ Windows Registry Editor Version 5.00
     - **附注：** 從 CU6HF2 發行時，目前只會安裝「自動更新」功能 CU6。 因此，必須另行執行更新，以將核心元件更新為6.0.9319.516。
     - 參考： https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015
 7. 安裝系統管理工具 (選用) ： 
-    - 這會使用更新的檔案，針對 SQL Server 2014 (x64) ，安裝 Microsoft SQL Server 2012 Native Client、SQL Server 2014 管理物件 (x64) 和 Microsoft System CLR 類型。 此外，商務用 Skype Server 2015 拓撲產生器和控制台將會出現在本機電腦上。
+    - 這將會使用更新的檔案，安裝 Microsoft SQL Server 2012 Native Client、SQL Server 2014 管理物件 (x64) 及 Microsoft 系統 CLR 類型 SQL Server 2014 (x64) 。 此外，在本機電腦上也可使用商務用 Skype Server 2015 拓撲產生器和控制台。
 8. 安裝本機設定存放區 (步驟 1) ： 
-     - 開啟部署嚮導，按一下 [安裝或更新商務用 Skype Server 系統]，然後按一下 [步驟1：安裝本機設定存放區] 中的 [ **執行** ]。
+     - 開啟部署嚮導，按一下 [安裝或更新商務用 Skype Server 系統]，然後按一下 [步驟1：安裝本機設定存放區] 中的 [**執行**]。
      - 在 [**安裝本機設定存放區**] 對話方塊中，按 **[下一步**]。
      ![[安裝本機設定存放區] 對話方塊](../../media/local-configuration-store.png)
      - 檢查結果，並確定任務狀態為 [已完成]。 按一下 [ **查看記錄** 檔] 以複查所產生的記錄檔。
      ![任務狀態顯示為已完成](../../media/local-configuration-task-completed.png)
      - 按一下 **[完成]**。
-9. 設定或移除商務用 Skype Server 元件 (步驟 2) ：
-    - 開啟部署嚮導，按一下 [ **安裝或更新商務用 Skype Server 系統**]，然後按一下 [步驟2：設定或移除商務用 Skype server 元件] 中的 [ **執行** ]。
-    - 在 [設定商務用 Skype Server 元件] 對話方塊中，按 **[下一步** ]。
-    ![設定商務用 Skype Server 元件視窗](../../media/set-up-skype-for-business-server-components-window.png)
+9.  (步驟 2) 設定或移除商務用 Skype Server 元件：
+    - 開啟部署嚮導，按一下 [**安裝或更新商務用 Skype Server 系統**]，然後按一下 [步驟2：設定或移除商務用 Skype Server 元件] 中的 [**執行**]。
+    - 在 [設定商務用 Skype Server 元件] 對話方塊中，按 **[下一步**]。
+    ![設定商務用 Skype Server 元件] 視窗](../../media/set-up-skype-for-business-server-components-window.png)
     - 使用 View Log 複查記錄檔，並驗證安裝程式是否順利完成。 
     - 按一下 **[完成]**。
 10. 如有需要，繼續進行其他安裝和設定 (您可以在此點繼續正常安裝程式) 。

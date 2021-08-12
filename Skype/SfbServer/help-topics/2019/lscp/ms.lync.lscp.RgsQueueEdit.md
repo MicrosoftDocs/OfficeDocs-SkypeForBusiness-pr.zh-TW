@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 回應群組佇列會將呼叫保留到回應群組，直到代理接聽來電為止。
-ms.openlocfilehash: ee99ac8cb4f3ea9c2f0e1804914eaf30c909a2b0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1754e2c3634bf2b37341e0b73608dd5aa23f5bc8b070bc9075fe1b583055ec67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118802"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279251"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>回應群組佇列：建立新的或編輯現有
 
@@ -36,7 +36,7 @@ ms.locfileid: "51118802"
 
 - **群組** 選取您要指派給佇列的代理人群組。 按一下 [ **選取** ]，將代理群組新增至清單。 按一下 [ **移除** ]，從清單中刪除選取的代理人群組。
 
-    向上及向中箭號會在清單中上下移動選取的代理群組。 代理人群組的順序會影響商務用 Skype 伺服器搜尋可用之代理人的順序。 也就是說，會先搜尋清單中的第一個群組，以取得可用的代理程式，後面接著第二個群組，依此類推。
+    向上及向中箭號會在清單中上下移動選取的代理群組。 代理人群組的順序會影響商務用 Skype Server 搜尋可用代理程式的順序。 也就是說，會先搜尋清單中的第一個群組，以取得可用的代理程式，後面接著第二個群組，依此類推。
 
 - **啟用佇列** 超時選取此核取方塊可指定來電者等候通話之前等候保留的時間上限。 如果您選取此選項，您也必須指定下列專案：
 
@@ -72,4 +72,4 @@ ms.locfileid: "51118802"
 
   - **轉寄到另一個佇列** 如果您選取此選項，請流覽至滿足佇列溢出閾值時要接聽通話的佇列。
 
-如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype Server 中規劃回應群組應用程式](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) 。 如需使用佇列的詳細資訊，請參閱 Operations 檔中的 [管理回應群組佇列](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) 。
+如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔[中商務用 Skype Server 的回應群組應用程式](../../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 如需使用佇列的詳細資訊，請參閱 Operations 檔中的 [管理回應群組佇列](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) 。

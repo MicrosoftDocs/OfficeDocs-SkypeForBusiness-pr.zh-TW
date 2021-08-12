@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 請閱讀本主題，以瞭解如何在內部部署Microsoft Teams 會議室部署Exchange Online商務用 Skype Server部署。
-ms.openlocfilehash: 6684173df916b268b35061c735614188e1d58e40
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: a72fb8cfb484c9838253b9d87452c745c5e6695525bb0eed380ea6b21be64ee2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646244"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280678"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Microsoft Teams 會議室 部署Exchange Online
 
@@ -34,7 +34,7 @@ ms.locfileid: "53646244"
 
 使用 Microsoft Teams 會議室部署Exchange Online，請確定您符合需求。 詳細資訊，請參閱Microsoft Teams 會議室[需求](requirements.md)。
   
-若要使用 Microsoft Teams 會議室 部署Exchange Online，請遵循下列步驟。 請確定您擁有執行關聯 Cmdlet 的許可權。 
+若要使用 Microsoft Teams 會議室部署Exchange Online，請遵循下列步驟。 請確定您擁有執行關聯的 Cmdlet 的許可權。 
 
    > [!NOTE]
    >  本節 Azure Active Directory 中 Windows PowerShell [Cmdlet](/powershell/azure/active-directory/overview)的模組 (例如 Set-MsolUser) 已針對 Microsoft Teams 會議室 裝置設定帳戶進行測試。 不過，其他 Cmdlet 可能可以工作，但尚未在此特定情況下進行測試。
@@ -53,7 +53,7 @@ ms.locfileid: "53646244"
     Import-PSSession $sess -DisableNameChecking
     ```
 
-2. 建立會話之後，您可以建立新信箱並啟用為 RoomMailboxAccount，或變更現有會議室信箱的設定。 這樣一來，帳戶就會Microsoft Teams 會議室。
+2. 建立會話之後，您可以建立新信箱，並啟用為 RoomMailboxAccount，或變更現有會議室信箱的設定。 這會允許帳戶驗證至 Microsoft Teams 會議室。
 
    如果您要變更現有的資源信箱：
 
@@ -84,7 +84,7 @@ ms.locfileid: "53646244"
     > 選取 **密碼永不過期** 是商務用 Skype Server Microsoft Teams 會議室。 您的網域規則可能會禁止不會過期的密碼。 如果是這樣，您必須為每個使用者帳戶建立例外Microsoft Teams 會議室例外。
   
 4. 按一下 **[完成** 並建立帳戶。
-5. 建立帳戶之後，請執行目錄同步處理。 您可以在 PowerShell 中使用 [Set-MsolDirSyncConfiguration 來](/powershell/module/msonline/set-msoldirsyncconfiguration) 完成這項工作。 完成後，請前往使用者頁面，並確認在先前步驟中建立的帳戶已合併。
+5. 建立帳戶之後，請執行目錄同步處理。 您可以在 PowerShell 中使用 [Set-MsolDirSyncConfiguration 來](/powershell/module/msonline/set-msoldirsyncconfiguration) 完成這項工作。 完成時，請前往使用者頁面，並確認先前步驟所建立之兩個帳戶已合併。
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>指派授權Microsoft 365或Office 365授權
 
@@ -134,7 +134,7 @@ ms.locfileid: "53646244"
    Connect-MicrosoftTeams -Credential $credential
    ```
 
-2. 若要啟用Microsoft Teams 會議室帳戶商務用 Skype Server，請執行此命令：
+2. 若要為 Microsoft Teams 會議室帳戶商務用 Skype Server，請執行此命令：
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool 'sippoolbl20a04.infra.lync.com' -SipAddressType EmailAddress

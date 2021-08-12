@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 中的檔共用高可用性
+title: 檔共用的高可用性商務用 Skype Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
-description: 瞭解如何在商務用 Skype Server 中使用 DFS，以確保檔案共用的高可用性。
-ms.openlocfilehash: f47d8207969063472af23d898ef8a52c2383df0d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 瞭解使用 DFS，以確保商務用 Skype Server 中檔案共用的高可用性。
+ms.openlocfilehash: c707a1049bf1c54302c4dde270856379e4731fd4e23b1e886b3144445b4e2aaf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093091"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337761"
 ---
-# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>商務用 Skype Server 中的檔共用高可用性
+# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>檔共用的高可用性商務用 Skype Server
  
-瞭解如何在商務用 Skype Server 中使用 DFS，以確保檔案共用的高可用性。
+瞭解使用 DFS，以確保商務用 Skype Server 中檔案共用的高可用性。
   
-為了確保商務用 Skype Server 部署中的檔案共用具有高可用性，您可以使用分散式檔案系統 (DFS) 。 DFS 支援在相同的資料中心內，從一個檔案伺服器到另一個檔案伺服器的容錯移轉。 在大規模部署中，建議您使用使用 DFS 成對的專用檔案伺服器。 如需有關 Windows Server 2012 中 DFS 的詳細資訊，請參閱 [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) 。 如需有關 Windows Server 2008 上之 DFS 的資訊，請參閱 [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) 。
+為了確保您的商務用 Skype Server 部署中的檔案共用具有高可用性，您可以使用分散式檔案系統 (DFS) 。 DFS 支援在相同的資料中心內，從一個檔案伺服器到另一個檔案伺服器的容錯移轉。 在大規模部署中，建議您使用使用 DFS 成對的專用檔案伺服器。 如需 Windows Server 2012 中 DFS 的詳細資訊，請參閱 [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) 。 如需 Windows Server 2008 上之 DFS 的詳細資訊，請參閱 [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) 。
   
 根據您的網路規模和您想要的復原數量，您可以使用一組伺服器來裝載網站中的所有檔案共用，或在前端集區中使用一對。
   

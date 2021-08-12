@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
 description: tblScopePrincipal 包含指派給節點的範圍。
-ms.openlocfilehash: efda792ab6f6c6cc7b188a9dffdaa7c324b24797
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e86b259126ee58c26246e78e1afd44a5e5122cbdbaaabb7f0967bb2bba7e5d39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831513"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337591"
 ---
 # <a name="tblscopeprincipal"></a>tblScopePrincipal
  

@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 的安全性架構
+title: 商務用 Skype Server 的安全性框架
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-description: 本節概述構成商務用 Skype Server 安全性框架的基本元素。 瞭解這些元素的運作方式，對於在保護特定商務用 Skype Server 部署的相關決策方面是必要的。
-ms.openlocfilehash: 94d2ffac30e029ab6631557a69d6da3ec108657f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 本節提供組成商務用 Skype Server 安全性框架之基礎元素的概述。 瞭解這些元素的運作方式，對於保證特定商務用 Skype Server 部署的安全決策是必要的。
+ms.openlocfilehash: a0f6513f86d7416f546c6a744fc1b40df7c7137a18dae5d76fcf18166a4f2eb1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832093"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337711"
 ---
-# <a name="security-framework-for-skype-for-business-server"></a>商務用 Skype Server 的安全性架構
+# <a name="security-framework-for-skype-for-business-server"></a>商務用 Skype Server 的安全性框架
  
-本節概述構成商務用 Skype Server 安全性框架的基本元素。 瞭解這些元素的運作方式，對於在保護特定商務用 Skype Server 部署的相關決策方面是必要的。
+本節提供組成商務用 Skype Server 安全性框架之基礎元素的概述。 瞭解這些元素的運作方式，對於保證特定商務用 Skype Server 部署的安全決策是必要的。
   
 這些元素如下：
   
@@ -36,21 +36,21 @@ ms.locfileid: "49832093"
     
 - 適用于使用者驗證的業界標準通訊協定。
     
-- Windows PowerShell 提供預設啟用的安全性功能，讓使用者無法輕易或無意中執行腳本。
+- Windows PowerShell 提供預設已啟用的安全性功能，讓使用者無法輕易或無意中執行腳本。
     
 這些基本的安全性元素共同運作，以定義信任的使用者、伺服器、連線和作業，以協助確保商務用 Skype Server 的安全基礎。
   
 ## <a name="in-this-section"></a>本節內容
 
-本節中的主題說明這些基本元素的運作方式，以增強商務用 Skype 伺服器基礎結構的安全性。
+本節中的主題說明這些基本元素的運作方式，以增強商務用 Skype Server 基礎結構的安全性。
   
 - [商務用 Skype Server 的 Active Directory 網域服務](active-directory-domain-services.md)
     
-- [商務用 Skype Server (RBAC) 角色的存取控制](role-based-access-control-rbac.md)
+- [商務用 Skype Server 的角色型存取控制 (RBAC) ](role-based-access-control-rbac.md)
     
-- [商務用 Skype Server 的公用機碼基礎結構](public-key-infrastructure-for-skype.md)
+- [商務用 Skype Server 的公用金鑰基礎結構](public-key-infrastructure-for-skype.md)
     
-- [適用于商務用 Skype Server 的 TLS 及 MTLS](tls-and-mtls.md)
+- [商務用 Skype Server 的 TLS 及 MTLS](tls-and-mtls.md)
     
 - [商務用 Skype Server 的加密](encryption.md)
     

@@ -12,21 +12,21 @@ ms.collection:
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 本文將討論如何使用復原工具Microsoft Teams 會議室，您將使用此工具將過期的系統帶至支援的狀態。
-ms.openlocfilehash: 9a856312229ae326b4adbfd039ee0553213ca09c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 本文討論如何使用復原工具Microsoft Teams 會議室，您將使用此工具將過期的系統帶至支援的狀態。
+ms.openlocfilehash: 65cb123de9284d4b65b461390a325ce413d069f381b2c075a137cedfb0121aca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117491"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280688"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用 Microsoft Teams 會議室修復工具
 
-本文將討論如何使用復原工具Microsoft Teams 會議室，您將使用此工具將過期的系統帶至支援的狀態。 當主機主機顯示「系統Microsoft Teams 會議室已過期」錯誤，或在執行按鈕重設出廠還原之前，應該會使用[此工具](./rooms-operations.md#microsoft-teams-rooms-reset-factory-restore)。
+本文討論如何使用復原工具Microsoft Teams 會議室，您將使用此工具將過期的系統帶至支援的狀態。 當主機主機顯示「系統Microsoft Teams 會議室已過期」錯誤，或在執行按鈕重設出廠還原之前，應該會使用[此工具](./rooms-operations.md#microsoft-teams-rooms-reset-factory-restore)。
 
 ## <a name="prerequisites"></a>必要條件
 
-下載最新的[Microsoft Teams 會議室套件](https://go.microsoft.com/fwlink/?linkid=851168)，然後解壓縮到 USB 記憶棒或可供裝置Microsoft Teams 會議室共用。
+下載最新的[Microsoft Teams 會議室套件](https://go.microsoft.com/fwlink/?linkid=851168)，然後解壓縮到 USB 記憶棒或可供裝置Microsoft Teams 會議室的網路共用。
 
 > [!NOTE]
 > 從 MSI 解壓縮檔案有許多方法可以完成。 任何能解壓縮所有檔案並保留其目錄結構的機制都是可接受的。 其中一個方法就是使用命令，其中代表 Microsoft Teams 會議室安裝套件的完整路徑，並代表要解壓縮檔案之資料夾的完整 `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` 路徑。
@@ -38,9 +38,9 @@ ms.locfileid: "51117491"
 3) 執行 `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"` 。
 4) 若要執行出廠還原：
    1. 當腳本提示時，請選取選項 2： **重設**。
-   2. 如果BitLocker，請按照腳本輸出結尾所提供的指示來停用。
+   2. 如果 BitLocker 已啟動，請遵循腳本輸出結尾所提供的指示來停用。
    3. 執行出廠還原。
-      1. 開啟 **設定應用程式**，然後選取 **&安全性**
+      1. 開啟 **設定應用程式**，然後選取 **更新&安全性**
       2. 流覽至修復 **定位** 點。
       3. 在 **重設此電腦** 底下，選取 **開始**
       4. 選取 **移除所有專案**，然後選取下 **一步** 和 **重設**

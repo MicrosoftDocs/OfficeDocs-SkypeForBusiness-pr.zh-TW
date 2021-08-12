@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
-description: 您可以使用搜尋查詢的結果，為商務用 Skype 伺服器設定使用者。 您可以依顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、SIP 位址或線路統一資源識別元 (URI) 來搜尋使用者。 您也可以使用 [Lync Server 控制台] 或 [Active Directory 使用者及電腦] 嵌入式管理單元來搜尋使用者。
-ms.openlocfilehash: 117f1c6a5a697cb1cf9e8e1f5c6cbf8363c517bf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 您可以使用搜尋查詢的結果，為使用者設定商務用 Skype Server。 您可以依顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、SIP 位址或線路統一資源識別元 (URI) 來搜尋使用者。 您也可以使用 [Lync Server 控制台] 或 [Active Directory 使用者及電腦] 嵌入式管理單元來搜尋使用者。
+ms.openlocfilehash: 75e5a3ddf063477351946ad1d5efa1e5877f38d1a6b8d2109fc2b91869bc6cde
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119932"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320645"
 ---
 # <a name="control-panel---updated-user-search"></a>控制台 - 已更新：使用者搜尋
 
-您可以使用搜尋查詢的結果，為商務用 Skype 伺服器設定使用者。 您可以依顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、SIP 位址或線路統一資源識別元 (URI) 來搜尋使用者。 您也可以使用 [Lync Server 控制台] 或 [Active Directory 使用者及電腦] 嵌入式管理單元來搜尋使用者。
+您可以使用搜尋查詢的結果，為使用者設定商務用 Skype Server。 您可以依顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、SIP 位址或線路統一資源識別元 (URI) 來搜尋使用者。 您也可以使用 [Lync Server 控制台] 或 [Active Directory 使用者及電腦] 嵌入式管理單元來搜尋使用者。
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
@@ -40,13 +40,13 @@ ms.locfileid: "51119932"
 
 - [將原則指派給使用者](/previous-versions/office/lync-server-2013/lync-server-2013-assigning-per-user-policies)
 
-- [在商務用 Skype Server 2015 中啟用使用者的 Enterprise Voice](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [在2015商務用 Skype Server 中為使用者啟用企業語音](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [設定使用者的同盟、遠端使用者存取和公用 IM 連線能力](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 
 - [設定使用者的電話語音](/previous-versions/office/lync-server-2013/lync-server-2013-configure-telephony-for-a-user)
 
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。
 
 ## <a name="ui-reference"></a>UI 參考
 
@@ -76,7 +76,7 @@ ms.locfileid: "51119932"
 
 ### <a name="search-results-menus"></a>搜尋結果功能表
 
-- **啟用使用者** 按一下以開啟 [ [使用者：新增 Lync Server 使用者](users-new-lync-server-user.md) ] 對話方塊，您可以在其中將新使用者新增至商務用 Skype Server。
+- **啟用使用者** 按一下以開啟 [[使用者：新增 Lync Server 使用者](users-new-lync-server-user.md)] 對話方塊，您可以在其中將新使用者新增至商務用 Skype Server。
 
     若要新增連絡人，請按向下鍵，然後選取 [啟用使用者] 開啟 [[Users: New Contact Objects](users-new-contact-objects.md)] 對話方塊。
 

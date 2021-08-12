@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 description: 恢復功能提供註冊區集區的高可用性和嚴重損壞修復。 藉由在主要登錄器發生失敗時提供備份登錄器，備份登錄器可以接手失敗的登錄器，並允許使用者登入和通訊。 使用者可能會發現功能減少，視主要登錄器上失敗的系統而定。
-ms.openlocfilehash: 8ab5fc804b6fad1f049e70477d7c16cb35111f79
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 75184413222c2de6d580b1ae088b4d65bc7e9851fd10aaaba6b303daa1a53e5e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818293"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329637"
 ---
 # <a name="registrar-settings-expander"></a>登錄器設定展開工具
  
@@ -28,7 +28,7 @@ ms.locfileid: "49818293"
   
 在您 Survivable Branch Appliance 或 Survivable Branch Server 的 **[編輯內容]** 對話方塊 **[恢復能力]** 區段中，可以變更下列設定：
   
-- **關聯的使用者服務和備份註冊區集** 區在下拉式清單中，選取 Enterprise Edition 前端集區或 Standard Edition 前端伺服器，以充當 Survivable Branch 裝置或 Survivable Branch 伺服器的備份註冊機。
+- **關聯的使用者服務和備份註冊區集** 區在下拉式清單中，選取要充當 Survivable 分支裝置或 Survivable branch 伺服器之備份報名者的 Enterprise Edition 前端集區或 Standard Edition 前端伺服器。
     
 - **啟用容錯移轉和回切** 選取此設定，以允許自動偵測失敗的註冊機構，並自動判斷主要註冊機已備份，且可以繼續進行註冊程式的處理常式。
     

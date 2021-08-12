@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: ConferenceSessionDetails 檢視會儲存多方成員工作階段的相關資訊。 每筆記錄都代表一個會議工作階段，它可以是有「焦點」的工作階段，或是特定會議伺服器的工作階段。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: d7ea4e7e793f26c377386082e26376a0ca5acb7d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d11573f8911f02001101c2d6f2e13dd5ec2112017ada115282b9c0ed008176f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816153"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337651"
 ---
 # <a name="conferencesessiondetails-view"></a>ConferenceSessionDetails view
  
@@ -26,8 +26,8 @@ ConferenceSessionDetails 檢視會儲存多方成員工作階段的相關資訊�
   
 |**欄**|**資料類型**|**詳細資料**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |工作階段要求的時間。 與 SessionIdSeq 搭配使用，以唯一識別工作階段。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中的對話方塊表格](dialogs.md) 。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |識別工作階段的 ID 號碼。 與 SessionIdTime 搭配使用，以唯一識別工作階段。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中的對話方塊表格](dialogs.md) 。 <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |工作階段要求的時間。 與 SessionIdSeq 搭配使用，以唯一識別工作階段。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中的對話方塊表格](dialogs.md)。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |識別工作階段的 ID 號碼。 與 SessionIdTime 搭配使用，以唯一識別工作階段。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中的對話方塊表格](dialogs.md)。 <br/> |
 |**InviteTime** <br/> |datetime  <br/> |第一個 INVITE 要求的時間。此欄位通常會使用從工作階段之初始 INVITE 訊息中產生的資料來填入。如果沒有 INVITE 訊息，則會使用第一個相關的 SIP 訊息 (BYE、CANCEL、MESSAGE 或 INFO) 的日期與時間來填入。此欄位通常會使用從工作階段之初始 INVITE 訊息中產生的資料來填入。如果沒有 INVITE 訊息，則會使用第一個相關的 SIP 訊息 (BYE、CANCEL、MESSAGE 或 INFO) 的日期與時間來填入。  <br/> |
 |**ConferenceUri** <br/> |Nvarchar (450)   <br/> |會議的 URI。  <br/> |
 |**ConferenceUriType** <br/> |Nvarchar (256)   <br/> |會議 URI 的類型。 如需詳細資訊，請參閱 [UriTypes 表格](uritypes.md) 。 <br/> |
@@ -52,8 +52,8 @@ ConferenceSessionDetails 檢視會儲存多方成員工作階段的相關資訊�
 |**ReferredByUriType** <br/> |Nvarchar (256)   <br/> |引用工作階段之使用者的 URI 類型。 如需詳細資訊，請參閱 [UriTypes 表格](uritypes.md) 。 <br/> |
 |**ReferredByUriTenant** <br/> |Nvarchar (256)   <br/> |引用工作階段之使用者的租用戶。 如需詳細資訊，請參閱 [承租人資料表](tenants.md) 。 <br/> |
 |**DialogId** <br/> |varstring (775)   <br/> |SIP 對話方塊識別碼。格式為  <br/> :d ialog; from-tag; to-tag  <br/> |
-|**ReplaceDialogIdTime** <br/> |datetime  <br/> |用來識別目前工作階段所取代之對話的識別碼。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中的對話方塊表格](dialogs.md) 。 <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |用來識別工作階段的識別碼。 可與 ReplaceDialogIdTime 搭配使用，來唯一識別此工作階段所取代的工作階段。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中的對話方塊表格](dialogs.md) 。 <br/> |
+|**ReplaceDialogIdTime** <br/> |datetime  <br/> |用來識別目前工作階段所取代之對話的識別碼。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中的對話方塊表格](dialogs.md)。 <br/> |
+|**ReplaceDialogIdSeq** <br/> |int  <br/> |用來識別工作階段的識別碼。 可與 ReplaceDialogIdTime 搭配使用，來唯一識別此工作階段所取代的工作階段。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中的對話方塊表格](dialogs.md)。 <br/> |
 |**ReplacesDialogId** <br/> |Varchar (775)   <br/> |工作階段取代的 SIP 對話方塊識別碼。格式為：  <br/> dialog; 從-標籤; to-標記  <br/> |
 |**IsStartedByConfServer** <br/> |位  <br/> |指出是否要透過會議伺服器來啟動工作階段。  <br/> |
 |**IsEndedByConfServer** <br/> |位  <br/> |指出是否要透過會議伺服器來結束工作階段。  <br/> |

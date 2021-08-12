@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d19033ac0feb9e88b3564e725574a14a1564022
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: afc949e71292f88bbd5d955349782938b724bdae94806339d05ddb404aafaf76
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116883"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280538"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>系統支援Microsoft Teams
 
-若要確保早期採用者及領獎團隊在開始使用新Teams時獲得適當的支援，請與支援人員開會，並審查Teams。 支援組織的重要成員可能會想要加入您的早期採用者計畫。 鼓勵他們在他們自己的Teams中使用。 透過我們的線上訓練資源，讓他們完成產品的基本上線。  
+若要確保早期採用者及領獎團隊在開始使用新Teams時獲得適當的支援，請與支援人員開會，並審查Teams。 支援組織的重要成員可能會想要加入您的早期採用者計畫。 鼓勵他們在他們自己的Teams中使用。 使用我們的線上訓練資源，讓他們完成產品的基本上線。  
 
 - [基礎 - Microsoft Teams](https://youtu.be/V6B4KraD-FM)
 - [疑難排解Teams](https://youtu.be/0KNh9KNpXcA)

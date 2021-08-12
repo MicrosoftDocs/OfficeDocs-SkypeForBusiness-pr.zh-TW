@@ -16,16 +16,16 @@ localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 大部分的 Edge 元件都是部署在周邊網路中。 下列元件組成周邊網路的 Edge 拓撲。 除了另有說明之外，元件是商務用 Skype Server 中的 Edge Server 案例的一部分，且位於周邊網路中。 Edge 元件包括：
-ms.openlocfilehash: 73f908905980a03ece98725fad480d33e775d06c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f3f9f3bbdbfb385229ffc221de38462b0dccd182654f8625784531796a2efc0b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819893"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311901"
 ---
-# <a name="edge-network-planning-tool-in-skype-for-business"></a>在商務用 Skype 中) Edge Network (規劃工具 
+# <a name="edge-network-planning-tool-in-skype-for-business"></a>商務用 Skype 中的 Edge Network (規劃工具)  
  
-大部分的 Edge 元件都是部署在周邊網路中。 下列元件組成周邊網路的 Edge 拓撲。 除了另有說明之外，元件是 [商務用 Skype server 中的 Edge Server 案例](../../../plan-your-deployment/edge-server-deployments/scenarios.md) 的一部分，且位於周邊網路中。 Edge 元件包括：
+大部分的 Edge 元件都是部署在周邊網路中。 下列元件組成周邊網路的 Edge 拓撲。 除了另有說明之外，元件是[商務用 Skype Server 中的 Edge Server 案例](../../../plan-your-deployment/edge-server-deployments/scenarios.md)的一部分，且位於周邊網路中。 Edge 元件包括：
   
 - Edge Server
     

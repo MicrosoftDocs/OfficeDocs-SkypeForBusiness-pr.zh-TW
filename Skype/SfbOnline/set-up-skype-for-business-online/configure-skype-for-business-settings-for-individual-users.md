@@ -23,14 +23,14 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: '瞭解如何變更個別商務用 Skype的使用者設定，例如：音訊和視訊會議、錄製通話和會議。 '
-ms.openlocfilehash: 0123f285101b8d7190dd7450ddb876a136de13ce
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 54dc4e1ee649fff28ac1c7d0729bfbddae521622d76d07e1723ddcc7fd0bdbf1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237529"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312297"
 ---
-# <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>系統管理員：為個別商務用 Skype設定
+# <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>系統管理員：設定商務用 Skype使用者的設定
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -85,7 +85,7 @@ ms.locfileid: "52237529"
     
 2. 選擇 **外部通訊**，然後適當清除選項：
     
-   - **外部商務用 Skype** 使用者：如果您不希望使用者能夠與聯合網域商務用 Skype使用者通訊，請清除此方塊。
+   - **外部商務用 Skype** 使用者：如果您不希望使用者能夠與商務用 Skype網域的使用者通訊，請清除此方塊。
     
    - **外部Skype** 使用者：如果您不希望使用者能夠與使用 freeSkype 應用程式的使用者通訊，請清除此方塊。
     
@@ -105,7 +105,7 @@ ms.locfileid: "52237529"
 |**提供者名稱** <br/> |從清單中選擇您的提供者。  <br/> |
 |**必須撥打 (** 電話號碼)  <br/> |對於協力廠商 ACP，這些電話號碼就是您從音訊會議提供者收到的號碼。 如果使用者使用 Microsoft 做為音訊會議提供者，這些號碼會設定在音訊會議橋接器上。 將數位格式化為您想要顯示在會議商務用 Skype Microsoft Teams中。  <br/> |
 |**免付費號碼** <br/> |對於協力廠商 ACP，這些電話號碼就是您從音訊會議提供者收到的號碼。 如果使用者使用 Microsoft 做為音訊會議提供者，這些號碼會設定在音訊會議橋接器上。 將數位格式化為您想要顯示在會議商務用 Skype Microsoft Teams中。  <br/> |
-|**會議 ID 和 PIN** (必須)  <br/> |參與者 PIN 或會議代碼，用來加入此使用者排程的會議，且由協力廠商音訊會議提供者提供。 如果使用者使用 Microsoft 做為音訊會議提供者，則不需要這項功能。  <br/> |
+|**會議 ID 和 PIN** (必須)  <br/> |參與者 PIN 或會議代碼，用來加入此使用者排程的會議，且由協力廠商音訊會議提供者提供。 如果使用者使用 Microsoft 做為音訊會議提供者，則不需要這樣做。  <br/> |
    
 若要大量設定這些設定，請使用 PowerShell。 請參閱[設定邀請中包含的電話號碼](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md)[設定您的電腦Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 

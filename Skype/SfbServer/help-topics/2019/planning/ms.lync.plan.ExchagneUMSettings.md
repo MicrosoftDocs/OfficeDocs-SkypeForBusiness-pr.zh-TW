@@ -1,5 +1,5 @@
 ---
-title: 'Exchange 整合通訊設定 (規劃工具) '
+title: 'Exchange整合通訊設定 (規劃工具) '
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,17 +16,17 @@ localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 商務用 Skype Server 2015 支援與 Exchange 整合通訊 (UM) 整合，以結合語音訊息與電子郵件訊息到單一郵件基礎結構。
-ms.openlocfilehash: e23c1e44dc0724651c9072fd0a9d93e06d12cd4d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 272c3d51085f9bac2491835bd44317e31784c4729393010f857d5f147fa6bd0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121651"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311861"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>商務用 Skype 2015 中的 Exchange 整合通訊設定 (規劃工具) 
+# <a name="exchange-unified-messaging-settings-planning-tool-in-skype-for-business-2015"></a>Exchange商務用 Skype 2015 中的整合通訊設定 (規劃工具) 
 
 > [!NOTE]
-> Exchange 2019 中已不再提供 exchange 整合通訊（如先前所知），但您仍然可以使用電話系統來錄製語音信箱訊息，然後在使用者的 Exchange 信箱中留下記錄。 如需詳細資訊，請參閱 [Plan Cloud 語音信箱服務](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 。
+> ExchangeExchange 2019 不再提供整合通訊，但您仍然可以使用電話系統來錄製語音信箱訊息，然後在使用者的 Exchange 信箱中留下記錄。 如需詳細資訊，請參閱[Plan 雲端語音信箱 service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 。
 
 商務用 Skype Server 2015 支援與 Exchange 整合通訊 (UM) 整合，以結合語音訊息與電子郵件訊息到單一郵件基礎結構。
 

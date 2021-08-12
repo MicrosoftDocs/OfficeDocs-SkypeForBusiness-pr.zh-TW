@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中規劃安全性
+title: 在商務伺服器的 Skype 中規劃安全性
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,29 +13,29 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cbc800db-35f6-45c0-b9f6-d8cee0c7e922
 description: 商務用 Skype Server 安全性內容。
-ms.openlocfilehash: fc0b8591702f34c43c3658616a9658a8006755f5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ff8756b54d023f64e6cb6507f9033d4268c994ed6cdc4ec00c220448cd26d57e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832023"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337661"
 ---
-# <a name="plan-for-security-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃安全性 
+# <a name="plan-for-security-in-skype-for-business-server"></a>在商務伺服器的 Skype 中規劃安全性 
  
 商務用 Skype Server 安全性內容。 
   
-此內容與商務用 Skype Server 安全性相關。 安全性是非常廣泛的主題。 每個商務用 Skype 伺服器的功能，以及組成生態系統的資料庫、服務和硬體，都能達到安全性。 此內容是有關商務用 Skype Server 之特定安全性主題的增補。
+此內容與商務用 Skype Server 安全性相關。 安全性是非常廣泛的主題。 安全性可跨越商務用 Skype Server 的每一項功能，以及組成生態系統的資料庫、服務和硬體。 此內容是關於商務用 Skype Server 的特定安全性主題的補充。
   
 ## <a name="in-this-section"></a>本章節內容
 
 - [商務用 Skype Server 的防病毒掃描排除](antivirus.md)
     
-- [商務用 Skype Server 中的重要安全性功能](key-security.md)
+- [商務用 Skype Server 中的主要安全性功能](key-security.md)
     
 - [現代的日期計算中的常見安全性威脅](common-threats.md)
     
-- [商務用 Skype Server 的安全性架構](security-framework.md)
+- [商務用 Skype Server 的安全性框架](security-framework.md)
     
-- [定址商務用 Skype Server 的核心基礎結構威脅](addressing-threats.md)
+- [解決商務用 Skype Server 核心基礎結構的威脅](addressing-threats.md)
     
 

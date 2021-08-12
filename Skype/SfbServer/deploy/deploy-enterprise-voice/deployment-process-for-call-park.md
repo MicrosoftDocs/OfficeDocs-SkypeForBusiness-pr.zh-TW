@@ -15,30 +15,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
-description: 商務用 Skype Server Enterprise Voice 中通話駐留的部署程式與步驟。
-ms.openlocfilehash: 0ddc46c391d362fde922e682db0813ad1c0d72bd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 商務用 Skype Server 企業語音中通話駐留的部署程式與步驟。
+ms.openlocfilehash: d6eff3b4474aaa97bb1c1d0b94a08a7f5fdfe4bc02ef104a29acbd5bfe69b3ae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812353"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280338"
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business"></a>商務用 Skype 中通話駐留的部署程式
  
-商務用 Skype Server Enterprise Voice 中通話駐留的部署程式與步驟。
+商務用 Skype Server 企業語音中通話駐留的部署程式與步驟。
   
-通話駐留可讓企業語音使用者從一部電話接聽來電，然後再撥打此通話的內部號碼 (稱為通話駐留軌道) 從任何電話）。
+通話駐留可讓企業語音使用者將來電保留在一部電話中，然後再撥打 (（稱為通話駐留軌道) 從任何電話）的內部號碼來取回通話。
   
-當您部署企業語音時，會自動在前端伺服器或 Standard Edition server 上安裝及啟用呼叫駐留所使用的元件。 不過，您必須使用下列步驟來設定通話駐留，使用者才能使用它。 
+當您部署企業語音時，會自動在前端伺服器或 Standard Edition Server 上安裝及啟用呼叫駐留所使用的元件。 不過，您必須使用下列步驟來設定通話駐留，使用者才能使用它。 
   
 **通話駐留部署程式**
 
 |**階段**|**步驟**|**所需群組和角色**|**部署文件**|
 |:-----|:-----|:-----|:-----|
-|在軌道表格中設定通話駐留軌道範圍  <br/> |使用商務用 Skype Server 控制台或 **New-CSCallParkOrbit** Cmdlet 來建立通話駐留軌道表格中的軌道範圍，並將其關聯至主控通話駐留應用程式的應用程式服務。 <br/> **附注：** 為了與現有的撥號對應表進行無縫整合，軌道範圍通常會設定為虛擬擴充區塊。 指派直接向內撥號 (，不支援通話駐留軌道表格中的軌道編號) 數位。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[在商務用 Skype 中建立或修改通話駐留軌道範圍](create-or-modify-a-call-park-orbit-range.md) <br/> |
-|設定通話駐留設定  <br/> | 使用 **Set-CsCpsConfiguration** Cmdlet 來設定通話駐留設定。 建議您至少將 **OnTimeoutURI** 選項設定為設定要在寄存通話超時時使用的回退目的地。您也可以設定下列設定： <br/>   (選用) **EnableMusicOnHold** 啟用或停用等候的音樂。 <br/>   (選用) **MaxCallPickupAttempts** 決定寄存來電在將來電轉送至回復的備用資源識別元 (URI) 之前所用的次數。 <br/>   (選用) **CallPickupTimeoutThreshold** 可決定通話之後所經過的時間長度，超過此時間之後，它會在接聽來電的電話之前所經過的時間。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[在商務用 Skype 中設定通話駐留設定](configure-call-park-settings.md) <br/> |
+|在軌道表格中設定通話駐留軌道範圍  <br/> |使用商務用 Skype Server 控制台或 **New-CSCallParkOrbit** 指令程式，建立通話駐留軌道表格中的軌道範圍，並將它們與主控通話駐留應用程式的應用程式服務建立關聯。 <br/> **附注：** 為了與現有的撥號對應表進行無縫整合，軌道範圍通常會設定為虛擬擴充區塊。 指派直接向內撥號 (，不支援通話駐留軌道表格中的軌道編號) 數位。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[在商務用 Skype 中建立或修改通話駐留軌道範圍](create-or-modify-a-call-park-orbit-range.md) <br/> |
+|設定通話駐留設定  <br/> | 使用 **Set-CsCpsConfiguration** Cmdlet 來設定通話駐留設定。 建議您至少將 **OnTimeoutURI** 選項設定為設定要在寄存通話超時時使用的回退目的地。您也可以設定下列設定： <br/>   (選用) **EnableMusicOnHold** 啟用或停用等候的音樂。 <br/>   (選用) **MaxCallPickupAttempts** 決定寄存來電在將來電轉送至回復的備用資源識別元 (URI) 之前所用的次數。 <br/>   (選用) **CallPickupTimeoutThreshold** 可決定通話之後所經過的時間長度，超過此時間之後，它會在接聽來電的電話之前所經過的時間。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[設定商務用 Skype 中的通話駐留設定](configure-call-park-settings.md) <br/> |
 |（選用）自訂等候音樂  <br/> |如果您不想要使用預設的等候音樂，請使用 **Set-CsCallParkServiceMusicOnHoldFile** Cmdlet 自訂和上傳音訊檔案。 <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[自訂通話駐留 inSkype for Business 的等候音樂](customize-call-park-music-on-hold.md) <br/> |
-|設定語音原則為使用者啟用通話駐留  <br/> |使用商務用 Skype Server 控制台或具有 **EnableCallPark** 選項的 **Set-CSVoicePolicy** Cmdlet，為語音原則中的使用者啟用通話駐留。 <br/> 預設會停用所有使用者的通話駐留。  <br/> 如果您有多個語音原則，請確定針對每個語音原則設定 EnableCallPark 屬性，而不只是針對預設原則。  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[為商務用 Skype 中的使用者啟用通話駐留](enable-call-park-for-users.md) <br/> |
+|設定語音原則為使用者啟用通話駐留  <br/> |使用 **EnableCallPark** 選項來商務用 Skype Server 控制台或 **Set-CSVoicePolicy** 指令程式，以在語音原則中為使用者啟用通話駐留。 <br/> 預設會停用所有使用者的通話駐留。  <br/> 如果您有多個語音原則，請確定針對每個語音原則設定 EnableCallPark 屬性，而不只是針對預設原則。  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[為商務用 Skype 中的使用者啟用通話駐留](enable-call-park-for-users.md) <br/> |
 |驗證通話駐留的正規化規則  <br/> |通話駐留軌道不得正規化。 請確認您的正規化規則不包含任何軌道範圍。 如有必要，請建立其他正規化規則，以防止軌道正規化。  <br/> |RTCUniversalServerAdmins  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[在商務用 Skype 中驗證通話駐留的正規化規則](verify-normalization-rules-for-call-park.md) <br/> |
 |驗證通話駐留部署  <br/> |測試停車場和取回通話，以確保您的設定如預期般運作。  <br/> |-  <br/> |[ (選用) 在商務用 Skype 中驗證通話駐留部署](optional-verify-call-park-deployment.md) <br/> |
    

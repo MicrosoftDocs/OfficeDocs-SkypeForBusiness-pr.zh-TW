@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
-description: 裝置設定是用於管理商務用 Skype Phone Edition 裝置（全域或網站內）的設定集合。 這些設定可讓您設定諸如所需的安全性模式、裝置記錄等級、語音服務品質 (QoS) 設定，以及電話是否應該在指定的非使用期限後自動鎖定等事項。
-ms.openlocfilehash: 23bedeba6b1ab2bf8a620818e6b77bb8c8b2eebe
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 裝置設定是一組設定，用來管理全域或網站內商務用 Skype 電話 Edition 裝置。 這些設定可讓您設定諸如所需的安全性模式、裝置記錄等級、語音服務品質 (QoS) 設定，以及電話是否應該在指定的非使用期限後自動鎖定等事項。
+ms.openlocfilehash: f8d2ea114cc955c9c0e1fb0dd1856dc474335975761282b6e894e9978a3111f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119912"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320625"
 ---
 # <a name="device-configuration"></a>裝置設定
  
-裝置設定是用於管理商務用 Skype Phone Edition 裝置（全域或網站內）的設定集合。 這些設定可讓您設定諸如所需的安全性模式、裝置記錄等級、語音服務品質 (QoS) 設定，以及電話是否應該在指定的非使用期限後自動鎖定等事項。 
+裝置設定是一組設定，用來管理全域或網站內商務用 Skype 電話 Edition 裝置。 這些設定可讓您設定諸如所需的安全性模式、裝置記錄等級、語音服務品質 (QoS) 設定，以及電話是否應該在指定的非使用期限後自動鎖定等事項。 
   
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 

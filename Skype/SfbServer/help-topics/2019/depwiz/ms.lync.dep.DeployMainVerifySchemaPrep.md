@@ -15,18 +15,18 @@ localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要確認架構擴充是否已在您的 Active Directory 網域服務樹系中成功複寫，請執行下列操作：
-ms.openlocfilehash: 4e4bfdf4fb50366f831f029d8f331551ba906969
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9da233460dd20548acd36bd90ef699359c77e4144eaea80576e1209df6a5c7fb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801563"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300219"
 ---
 # <a name="verify-replication-of-schema-partition"></a>驗證架構分割的複寫
  
 若要確認架構擴充是否已在您的 Active Directory 網域服務樹系中成功複寫，請執行下列操作：
   
-1. 使用 Active Directory 網域服務樹系中的架構主機角色) 以外的網域控制站，登入 (以外的網域控制站，其中架構擴充已套用至 Enterprise Admins 群組的成員。
+1. 使用 Active Directory 網域服務樹系中的架構主機角色) 以外的網域控制站，登入 (以外的網域控制站，其中架構擴充是以 Enterprise Admins 群組的成員的方式套用。
     
 2. 開啟 [ADSI 編輯器]：依序按一下 [開始]、[系統管理工具] 和 [ADSI 編輯器]。
     

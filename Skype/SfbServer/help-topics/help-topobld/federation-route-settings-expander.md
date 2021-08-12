@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 description: 若要設定網站同盟路由指派，您必須先在 Edge Server 或 Edge Server 集區上啟用同盟。如果 Edge Server 或集區上未啟用同盟，則無法修改網站的同盟路由指派設定。
-ms.openlocfilehash: ae8ae765a3975f21bc4b320edfbd6b1b337b8d3c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a30fd8220a04b74e4ec2ba38414dc6c6408c59163577d98a5557a65413baff2f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810283"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290731"
 ---
 # <a name="federation-route-settings-expander"></a>同盟路由設定展開工具
  

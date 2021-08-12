@@ -1,5 +1,5 @@
 ---
-title: 安裝及設定觀察程式節點
+title: 如何安裝及設定觀察程式節點
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,19 +13,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
-description: 摘要：為商務用 Skype 伺服器綜合交易安裝及設定監視節點。
-ms.openlocfilehash: f6d3db973291b8a41647a3c4a4d3c3530c7af019
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 如何為商務用 Skype Server 綜合交易安裝及設定監視節點節點。
+ms.openlocfilehash: 83e5fe9d6e825e7d27b590124c9f39b41ab75d10
+ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812751"
+ms.lasthandoff: 08/04/2021
+ms.locfileid: "53750827"
 ---
-# <a name="install-and-configure-watcher-nodes"></a>安裝及設定觀察程式節點
+# <a name="learn-how-to-install-and-configure-watcher-nodes"></a>瞭解如何安裝及設定觀察程式節點
  
-**摘要：** 為商務用 Skype 伺服器綜合交易安裝及設定監視節點。
+**摘要：** 為商務用 Skype Server 綜合交易安裝及設定監視節點。
   
-觀察程式節點是定期執行商務用 Skype Server 綜合交易的電腦。 綜合交易是 Windows PowerShell Cmdlet，用來驗證主要使用者案例，例如登入或 exchange 立即訊息的功能是否如預期般運作。 若為商務用 Skype Server 2015，System Center Operations Manager 可以執行下表所示的綜合交易，包括三個綜合交易類型：
+觀察程式節點是定期執行商務用 Skype Server 綜合交易的電腦。 綜合交易是 Windows PowerShell Cmdlet，用來驗證主要使用者案例，例如登入或 exchange 立即訊息的功能是否如預期般運作。 針對商務用 Skype Server 2015，System Center Operations Manager 可以執行下表所示的綜合交易，包含三個綜合交易類型：
   
 - **預設值** 監視節點預設會執行的綜合交易。 當您建立新的監看員節點時，您可以指定要執行節點的綜合交易。  (New-CsWatcherNodeConfiguration 指令程式所使用之測試參數的目的。 ) 如果在建立監看員節點時未使用 [測試] 參數，它會自動執行所有預設的綜合交易，而且不會執行任何非預設的綜合交易。 例如，這表示會將監視節點設定為執行 Test-CsAddressBookService 測試，但不會設定為執行 Test-CsExumConnectivity 測試。
     
@@ -59,16 +59,16 @@ ms.locfileid: "49812751"
 |Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)   <br/> |確認影片 Interop 伺服器已開啟，而且可以透過影片 SIP 主幹來處理傳入的連線。  <br/> **附注：** 商務用 Skype Server 2019 不再提供舊版行動用戶端的 MCX 支援。 |
 |Test-CsPersistentChatMessage (PersistentChatMessage)   <br/> |確認使用者可以使用 Persistent Chat service 來交換郵件。  <br/> |
 |Test-CsUcwaConference (UcwaConference)   <br/> |確認使用者可以透過 web 加入會議。  <br/> |
-|Test-CsUnifiedContactStore (UnifiedContactStore)   <br/> |確認可以透過整合連絡人存放區來存取使用者的連絡人。 整合連絡人存放區提供一種方式，讓使用者可以使用商務用 Skype Server 2015、Outlook 郵件和共同作業用戶端，以及/或 Outlook Web Access 來維護一組可以存取的連絡人。  <br/> |
-|Test-CsXmppIM (XmppIM)   <br/> |確認立即訊息可以透過可延伸的訊息和顯示狀態通訊協定 (XMPP) 閘道傳送。  <br/> XMPP 閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。  |
+|Test-CsUnifiedContactStore (UnifiedContactStore)   <br/> |確認可以透過整合連絡人存放區來存取使用者的連絡人。 整合連絡人存放區提供一種方式，讓使用者可以使用商務用 Skype Server 2015、Outlook 訊息和共同作業用戶端，以及/或 Outlook Web 存取，來維護一組可以存取的連絡人。  <br/> |
+|Test-CsXmppIM (XmppIM)   <br/> |確認立即訊息可以透過可延伸的訊息和顯示狀態通訊協定 (XMPP) 閘道傳送。  <br/> XMPP 的閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。  |
 
-您不需要安裝觀察器節點即可使用 System Center Operations Manager。 如果您未安裝這些節點，您仍然可以在發生問題時，從商務用 Skype Server 2015 元件取得即時警示。  (元件和 User Management Pack 不會使用觀察器節點。 ) 不過，如果您想要使用作用中的監控管理元件來監視端對端案例，則必須要有觀察程式節點。
+您不需要安裝觀察程式節點，即可使用 System Center Operations Manager。 如果您未安裝這些節點，您仍然可以在發生問題時，從商務用 Skype Server 2015 元件取得即時警示。  (元件和 User Management Pack 不會使用觀察器節點。 ) 不過，如果您想要使用作用中的監控管理元件來監視端對端案例，則必須要有觀察程式節點。
   
 > [!NOTE]
-> 管理員也可以手動執行綜合交易，而不需要使用或安裝 Operations Manager。 根據商務用 Skype Server 部署的大小，綜合交易可使用大量的電腦記憶體和處理器時間。 因此，建議您使用專用的電腦做為監看員節點。 例如，您不應該設定商務用 Skype Server 前端伺服器做為監看員節點。 觀察程式節點應該符合與商務用 Skype Server 拓撲中的任何其他電腦相同的基本硬體需求。 
+> 管理員也可以手動執行綜合交易，而不需要使用或安裝 Operations Manager。 根據商務用 Skype Server 部署的大小，綜合交易可使用大量的電腦記憶體和處理器時間。 因此，建議您使用專用的電腦做為監看員節點。 例如，您不應該將商務用 Skype Server 前端伺服器設定為當作監看員節點。 觀察程式節點應該符合與商務用 Skype Server 拓撲中的任何其他電腦相同的基本硬體需求。 
   
 > [!NOTE]
-> 由於 Lync Server 2013 和商務用 Skype Server 2015 的核心系統檔案不能安裝在同一部電腦上，因此舊版 Lync Server 2013 觀察器節點不能在與商務用 Skype Server 2015 觀察器節點相同的機器上組合。 不過，商務用 Skype Server 2015 觀察器節點可以同時監視商務用 Skype Server 2015 和 Lync Server 2013。 這兩種產品版本都支援預設的綜合交易。 
+> 由於 lync server 2013 和商務用 Skype Server 2015 的核心系統檔案不能安裝在同一部電腦上，因此舊版 Lync server 2013 觀察器節點無法與商務用 Skype Server 2015 監看節點在相同的機器上組合。 不過，商務用 Skype Server 2015 觀察程式節點可以同時監控商務用 Skype Server 2015 和 Lync Server 2013。 這兩種產品版本都支援預設的綜合交易。 
   
 Lync Server 2013 觀察程式節點可能會部署在企業內部或外部，以協助確認：
   
@@ -84,7 +84,7 @@ Lync Server 2013 觀察程式節點可能會部署在企業內部或外部，以
   
 若要將電腦設定為監視節點，您必須先完成下列必要條件： 
   
-- 安裝 System Center Operations Manager 並匯入商務用 Skype Server 2015 管理套件。 您也必須先確認觀察程式節點電腦符合安裝商務用 Skype Server 2015 的所有必要條件。
+- 安裝 System Center Operations Manager，然後匯入商務用 Skype Server 2015 管理套件。 您也必須先確認監看員節點電腦符合安裝商務用 Skype Server 2015 的所有必要條件。
     
 - 在監看員節點電腦上安裝下列專案：
     
@@ -104,7 +104,7 @@ Lync Server 2013 觀察程式節點可能會部署在企業內部或外部，以
     
 4. 使用 **New-CsWatcherNodeConfiguration** Cmdlet 來設定要由監看員節點採用的測試使用者帳戶。
     
-## <a name="install-the-skype-for-business-server-2015-core-files-and-the-rtclocal-database"></a>安裝商務用 Skype Server 2015 核心檔案和 RTCLocal 資料庫
+## <a name="install-the-skype-for-business-server-2015-core-files-and-the-rtclocal-database"></a>安裝商務用 Skype Server 2015 核心檔案與 RTCLocal 資料庫
 
 若要在電腦上安裝商務用 Skype Server 2015 核心檔案，請完成下列程式。 當您安裝核心檔案時，會自動安裝 RTCLocal 資料庫。 請注意，您不需要在觀察程式節點上安裝 SQL Server。 將會自動安裝 SQL Server Express。
   
@@ -112,14 +112,14 @@ Lync Server 2013 觀察程式節點可能會部署在企業內部或外部，以
   
 1. 在監看員節點電腦上，依序按一下 [開始]、[所有程式] 及 [附屬應用程式]，再以滑鼠右鍵按一下 [命令提示字元]，然後按一下 [以系統管理員身分執行]。
     
-2. 在主控台視窗中，輸入下列命令，然後按 ENTER 鍵。 請務必輸入商務用 Skype Server 安裝盤的適當路徑： D:\Setup.exe/BootstrapLocalMgmtTo 確認已成功安裝核心商務用 Skype Server 元件，請依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype server 2015**]，然後按一下 [ **商務用 skype server 管理命令** 介面]。 在商務用 Skype Server 管理命令介面中，輸入下列 Windows PowerShell 命令，然後按 ENTER：
+2. 在主控台視窗中，輸入下列命令，然後按 ENTER 鍵。 請務必輸入商務用 Skype Server 安裝檔案的適當路徑： D:\Setup.exe/BootstrapLocalMgmtTo 確認已成功安裝核心商務用 Skype Server 元件，請依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype Server 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。 在商務用 Skype Server 管理命令介面中，輸入下列 Windows PowerShell 命令，然後按 enter：
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration
 ```
 
 > [!NOTE]
-> 當您第一次執行此命令時，不會傳回任何資料，因為您尚未設定任何的監看員節點電腦。 如果執行命令時未傳回錯誤，您可以假定商務用 Skype Server 安裝已成功完成。 
+> 當您第一次執行此命令時，不會傳回任何資料，因為您尚未設定任何的監看員節點電腦。 如果執行命令時未傳回錯誤，您可以假設商務用 Skype Server 安裝程式已順利完成。 
   
 如果您的監看員節點電腦位於周邊網路內，您可以執行下列命令來驗證商務用 Skype Server 2015 的安裝：
   
@@ -143,21 +143,21 @@ MaximumLogonAttempts :
   
 ## <a name="install-the-operation-manager-agent-files-on-a-watcher-node"></a>在監看員節點上安裝 Operation Manager 代理程式檔案
 
-類似于商務用 Skype 伺服器設定來報告元件警示，商務用 Skype Server 2015 監看員需要安裝 System Center Operations Manager 代理程式檔案。 這可讓您執行綜合交易，並將警示報告給 System Center Operations Manager 根管理伺服器。
+類似于報告元件警示的商務用 Skype Server 設定，商務用 Skype Server 2015 監看員節點需要安裝 System Center Operations Manager 代理程式檔案。 這可讓您執行綜合交易，並將警示報告給 System Center Operations Manager 根管理伺服器。
   
-若要安裝代理程式檔案，請遵循 [設定要監視之商務用 Skype Server 電腦](configure-computers-to-monitor.md)中所列的程式。
+若要安裝代理程式檔案，請遵循[設定所要監視的商務用 Skype Server 電腦](configure-computers-to-monitor.md)中所列的程式。
   
 ## <a name="configure-a-watcher-node-to-run-synthetic-transactions"></a>設定監視節點以執行綜合交易
 <a name="enable_synthetic_trans"> </a>
 
 安裝 System Center Operations Manager 代理程式檔案之後，您必須設定觀察程式節點本身。 您採取的步驟會因您的監看員節點電腦位於周邊網路內還是周邊網路之外而異。 
   
-當您設定監視節點時，您也必須選擇該節點要使用的驗證方法類型。 商務用 Skype Server 2015 可讓您選擇兩種驗證方法之一：「信任的伺服器」或「憑證驗證」。 下表顯示這兩種方法之間的差異：
+當您設定監視節點時，您也必須選擇該節點要使用的驗證方法類型。 商務用 Skype Server 2015 可讓您選擇兩種驗證方法之一：信任的伺服器或認證驗證。 下表顯示這兩種方法之間的差異：
   
-||**描述**|**支援的位置**|
+|&nbsp;|**描述**|**支援的位置**|
 |:-----|:-----|:-----|
 |TrustedServer  <br/> |使用憑證來模擬內部伺服器並略過驗證挑戰。  <br/> 適用于喜歡管理單一憑證的系統管理員，而不是每個監看員節點上的許多使用者密碼。  <br/> |在企業內。  <br/> 使用此方法，觀察者節點必須與受監控的集區位於相同的網域中。 如果觀察程式節點與集區位於不同的網域，請改用認證驗證。  <br/> |
-|洽談  <br/> |在每個監看員節點上安全地將使用者名稱和密碼儲存在 Windows 認證管理員中。  <br/> 此模式需要較多的密碼管理，但為企業外部的觀察程式節點的唯一選項。 這些觀察器節點不能視為可信任的端點以進行驗證。  <br/> |在企業外。  <br/> 在企業內。  <br/> |
+|洽談  <br/> |在每個監看員節點上的 Windows 認證管理員中安全地儲存使用者名稱和密碼。  <br/> 此模式需要較多的密碼管理，但為企業外部的觀察程式節點的唯一選項。 這些觀察器節點不能視為可信任的端點以進行驗證。  <br/> |在企業外。  <br/> 在企業內。  <br/> |
    
 ## <a name="configure-a-watcher-node-to-use-trusted-server-authentication"></a>設定監視節點以使用信任的伺服器驗證
 <a name="enable_synthetic_trans"> </a>
@@ -167,7 +167,7 @@ MaximumLogonAttempts :
 若要設定信任的伺服器驗證，您必須先建立信任的應用程式集區，以裝載監看員節點電腦。 在您建立信任的應用程式集區之後，您必須將該監看員節點上的綜合交易，設定為執行為信任的應用程式。
   
 > [!NOTE]
-> 信任的應用程式是指以商務用 Skype Server 2015 的方式執行的受信任狀態的應用程式，但不是產品的內建部分。 信任狀態表示每次執行應用程式時，其驗證不會受到質疑。
+> [信任的應用程式] 是指具有信任狀態的應用程式，可在商務用 Skype Server 2015 的一部分中執行，但不是產品的內建部分。 信任狀態表示每次執行應用程式時，其驗證不會受到質疑。
   
 若要建立信任的應用程式集區，請開啟商務用 Skype Server 管理命令介面，並執行類似如下的命令：
   
@@ -176,7 +176,7 @@ New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar
 ```
 
 > [!NOTE]
-> 如需前述命令中參數的詳細資訊，請在商務用 Skype Server 管理命令介面提示字元中輸入下列命令： 
+> 如需前述命令中參數的詳細資訊，請從商務用 Skype Server 管理命令介面提示字元處，輸入下列命令： 
   
 ```PowerShell
 Get-Help New-CsTrustedApplicationPool -Full | more
@@ -196,7 +196,7 @@ Enable-CsTopology
 
 監看員節點電腦帳戶需要能夠查詢某些綜合交易的 CMS。 若要允許這項功能，請將監看員節點的電腦帳戶新增至 RTCUniversalReadOnlyAdmins 安全性群組。 發生 AD 複寫之後，請重新開機電腦。
   
-若要確認是否已建立新的受信任應用程式，請在商務用 Skype Server 管理命令介面提示字元處輸入下列專案：
+若要確認是否已建立新的受信任應用程式，請在商務用 Skype Server 管理命令介面提示字元處，輸入下列命令：
   
 ```PowerShell
 Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
@@ -205,13 +205,13 @@ Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:applicati
 ## <a name="configure-a-default-certificate-on-the-watcher-node"></a>在監看員節點上設定預設憑證
 <a name="enable_synthetic_trans"> </a>
 
-使用 TrustedServer 驗證的每個監看員節點都必須有使用商務用 Skype Server 部署嚮導所指派的預設憑證。 
+使用 TrustedServer 驗證的每個監看員節點都必須使用「商務用 Skype Server 部署」嚮導指派的預設憑證。 
   
 若要指派預設憑證：
   
-1. 依序按一下 [開始]、[所有程式]、[商務用 Skype Server 2015] 及 [商務用 Skype 伺服器部署嚮導]。 
+1. 依序按一下 [開始]、[所有程式]、[商務用 Skype Server 2015]，然後按一下 [商務用 Skype Server 部署嚮導]。 
     
-2. 在 [商務用 Skype 伺服器部署] 嚮導中，按一下 [安裝或更新商務用 Skype 伺服器系統]，然後按一下 [標題要求、安裝或指派憑證] 底下的 [執行]。 
+2. 在 [商務用 Skype Server 部署] 嚮導中，按一下 [安裝或更新商務用 Skype Server 系統]，然後按一下 [在標題要求、安裝或指派憑證] 底下的 [執行]。 
     
 > [!NOTE]
 > 如果 [執行] 按鈕停用，需先按一下 [安裝本機組態存放區] 下方的 [執行]。 
@@ -229,7 +229,7 @@ Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:applicati
   
 若要安裝及設定監視節點：
   
-1. 依序按一下 [開始]、[所有程式]、[商務用 Skype Server 2015]，然後按一下 [商務用 Skype Server 管理命令介面]，以開啟商務用 Skype Server 管理命令介面。 
+1. 依序按一下 [開始]、[所有程式]，按一下 [商務用 Skype Server 2015]，然後按一下 [商務用 Skype Server 管理命令介面]，以開啟商務用 Skype Server 管理命令介面。 
     
 2. 在管理命令介面中，輸入下列命令，然後按 ENTER (確定並指定您 Watchernode.msi) 副本的實際路徑：
     
@@ -280,9 +280,9 @@ TrustedServer 模式只能與位於周邊網路內部的電腦搭配使用。 �
 
 下一步是執行檔 Watchernode.msi： 
   
-1. 開啟 Microsoft 商務用 Skype Server 2015 管理命令介面。 依序按一下 [開始]、[所有程式]、[Microsoft 商務用 Skype Server 2015]，然後按一下 [商務用 Skype Server 管理命令介面]。 
+1. 開啟 [Microsoft 商務用 Skype Server 2015 管理命令介面]。 依序按一下 [開始]、[所有程式]、[Microsoft 商務用 Skype Server 2015]，然後按一下 [商務用 Skype Server 管理命令介面]。 
     
-2. 在商務用 Skype Server 管理命令介面中，輸入下列命令，然後按 ENTER (確定您 Watchernode.msi) 副本的實際路徑：
+2. 在商務用 Skype Server 管理命令介面中，輸入下列命令，然後按 enter (一定要指定 Watchernode.msi) 副本的實際路徑：
     
    ```PowerShell
    c:\Tools\Watchernode.msi Authentication=Negotiate

@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: '[信任的應用程式伺服器] 節點列出在此網站的信任應用程式集區。 [信任的應用程式集區] 包含執行「信任的 Microsoft 整合通訊」應用程式，但不會執行商務用 Skype 伺服器角色的伺服器。 您可以執行下列動作：'
-ms.openlocfilehash: b200593ea206f2c23f8c521dddbf3498d6ced838
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[信任的應用程式伺服器] 節點列出在此網站的信任應用程式集區。 [信任的應用程式集區] 包含執行「信任的 Microsoft 整合通訊」應用程式，但不會執行商務用 Skype Server 角色的伺服器。 您可以執行下列動作：'
+ms.openlocfilehash: 6615a113e8c2169db6105675de816558d29bff808bf6b90fda4ad4f9d2e51f8d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826653"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290741"
 ---
 # <a name="external-applications-scope-node"></a>外部應用程式範圍節點
  
-[信任的應用程式伺服器] 節點列出在此網站的信任應用程式集區。 [信任的應用程式集區] 包含執行「信任的 Microsoft 整合通訊」應用程式，但不會執行商務用 Skype 伺服器角色的伺服器。 您可以執行下列動作：
+[信任的應用程式伺服器] 節點列出在此網站的信任應用程式集區。 [信任的應用程式集區] 包含執行「信任的 Microsoft 整合通訊」應用程式，但不會執行商務用 Skype Server 角色的伺服器。 您可以執行下列動作：
   
 - **新增信任的應用程式集區**。啟動 [定義新信任的應用程式集區精靈]，它讓您用來新增信任的應用程式集區到拓撲中。
     
