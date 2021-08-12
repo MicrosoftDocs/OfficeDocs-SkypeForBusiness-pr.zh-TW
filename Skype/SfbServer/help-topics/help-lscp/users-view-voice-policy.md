@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 9a711020358a4aaa6860b4bec9341c1db89e2606
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7593dfcd17a47e2bac6f167b19a4643afde5fe8c35645a2bb9e10b6466be58ef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115069"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301555"
 ---
 # <a name="users-view-voice-policy"></a>使用者：檢視語音原則
 
@@ -30,4 +30,4 @@ ms.locfileid: "51115069"
 
 - [修改語音原則和設定 PSTN 使用方式記錄](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records)
 
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。

@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 使用此快速入門檢查清單，確保您的組織開始採用Microsoft Teams。
+description: 使用此快速入門檢查清單，以確保貴組織開始採用Microsoft Teams。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49cf3656b5ea48f8c23c33ac2ccc3b57de5bdb58
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7085716107b37d1d804d7c394aecb1472a0c75d8063aa237a9550702048e4249
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316639"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft Teams採用快速入門檢查清單
 
@@ -49,7 +49,7 @@ ms.locfileid: "49809313"
 - [建立您的風雲人物計畫](teams-adoption-create-champions-program.md)
 - [完成管理快速入門](teams-adoption-governance-quick-start.md)
 - [定義使用案例](teams-adoption-define-usage-scenarios.md)
-- [面試商務專案關係人](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
+- [與業務關係人面談](teams-adoption-define-usage-scenarios.md#interview-business-stakeholders)
 - [繪製商務案例並排定優先順序](teams-adoption-define-usage-scenarios.md#map-and-prioritize-business-scenarios)
 - [讓早期採用者快速上手並收集意見反應](teams-adoption-onboard-early-adopters.md)
 - [快速上手的支援](teams-adoption-onboard-support.md)

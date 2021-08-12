@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[設定其他主體別名] 選項可讓您在完成和要求憑證之前，將任何其他主體替代名稱新增 (SANs) 至憑證。 若要新增 SAN，請輸入 SAN 的完整網域名稱 (FQDN)，然後按一下 [新增]。 如果必須刪除您新增的 SAN，請反白顯示 SAN 項目，然後按一下 [移除]。 若要移除您已新增的所有 SAN 項目，請按一下 [全部清除]。'
-ms.openlocfilehash: 9b72bfdd9b43dc68544cc7535c7ba3e35b82cbc2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fe009ab68ecfdeb35d4e26d2dab8f71cda7b0978ccf65933f2d7bc4c9f764100
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801783"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301779"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>憑證要求 (其他主體別名)
  

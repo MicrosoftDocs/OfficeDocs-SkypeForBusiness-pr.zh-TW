@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯現有單一或多部伺服器 Edge 集區的設定，您會看到下列各節：
-ms.openlocfilehash: c887ffaa16818e377035109632871b7bc7ed25d8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b6f716093556919dab790e0c2258c22ba1e5159529deace41941b75c8802e817
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108799"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347069"
 ---
 # <a name="edge-settings-expander"></a>Edge 設定展開工具
 
@@ -37,7 +37,7 @@ ms.locfileid: "51108799"
 
 Edge Server 集區的內部集區完整功能變數名稱 (FQDN) 。 編輯集區的 FQDN，以變更此設定。
 
-如果您要設定與商務用 Skype Server 2015 伺服器的同盟，請選取 [ **啟用此 Edge 集區的同盟] 核取方塊 (埠 5061)** 。
+若要設定與商務用 Skype Server 2015 Server 的同盟，請選取 [**啟用此 Edge 集區的同盟] 核取方塊 (埠 5061)** 。
 
 指定內部配置複寫埠的埠號碼 **(HTTPS)**。
 
@@ -47,7 +47,7 @@ Edge Server 集區的內部集區完整功能變數名稱 (FQDN) 。 編輯集�
 
 ## <a name="edge-server-configuration"></a>Edge Server 設定
 
-若要編輯或指定 Edge Server 的 **外部設定** 設定，您必須先決定是否要針對 SIP 存取、web 會議和 Audio/Video 服務使用個別的 IP 位址。
+若要編輯或指定 Edge server 的 **外部設定** 設定，您必須先決定是否要針對 SIP 存取、web 會議和 Audio/Video 服務使用個別的 IP 位址。
 
 如果您想要讓每一項使用個別 IP 位址，請選取核取方塊 **[為 Web 會議和 A/V 啟用個別 FQDN 和 IP 位址]**。 每個服務都必須有對應的 DNS 主機 (為它建立的) 記錄。
 

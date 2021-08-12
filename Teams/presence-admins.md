@@ -1,7 +1,7 @@
 ---
 title: Teams 中使用者的目前狀態
-author: msdmaguire
-ms.author: dmaguire
+author: dmaguire
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17848cd1abd588ea1cd5106327ee576a318191bd06035389a8475b1fc258f8f2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 03ea8044bd2192d7f7cb00d71de20d8a5815ab66c73abf5f4130bc6f361078ce
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848778"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中使用者的目前狀態
 
@@ -34,6 +34,7 @@ ms.locfileid: "54350515"
  > [!NOTE]
  > Teams 會尊重您的隱私權設定，因此如果您已啟用隱私權模式，外部使用者將不會看到您的目前狀態。
 ## <a name="presence-states-in-teams"></a>Teams 中的目前狀態
+
 
 |使用者設定|應用程式設定|
 |:--- |:---|

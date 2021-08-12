@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: ''
 audience: admin
 search.appverid: MET150
-description: 瞭解如何為使用者購買訂閱者案Microsoft Teams免費版訂閱者案Microsoft 365 Office 365升級至完整版。
+description: 瞭解如何為使用者購買 Microsoft Teams訂閱者案，輕鬆從免費版 Microsoft 365 Office 365升級至完整版。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,16 +20,16 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c4b95081be4c7a0e900099dd4c81a1807a30bfb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c64e4ffc576bea4a68c8eac41d0cb533aad7e9fa55a97dd5f59d9d2fcb54df27
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122157"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337891"
 ---
 # <a name="upgrade-microsoft-teams-free-to-subscription-version"></a>免費Microsoft Teams升級至訂閱版本
 
-如果貴組織使用免費版 Microsoft Teams，您可以為使用者購買 Microsoft 365或 Office 365訂閱者案，輕鬆升級至完整版。 完整版提供免費Teams無法提供的額外功能，例如排程、音訊會議、增強型系統管理和安全性功能。 Microsoft 365 和 Office 365 將熟悉的 Microsoft Office 桌面套件與 Microsoft 新一代通訊和共同合作服務的雲端版本結合 ，包括 Exchange Online、SharePoint Online 和 Office，協助使用者幾乎能透過網際網路隨時隨地提高工作效率。 當您升級Teams，您現有的Teams資料不會遺失;您所有的團隊、頻道、聊天、檔案和許可權都一併提供。 
+如果貴組織使用免費版 Microsoft Teams，您可以為使用者購買 Microsoft 365或 Office 365訂閱者案，輕鬆升級至完整版。 完整版提供Teams免費版本無法提供的其他功能，例如排程、音訊會議、增強型系統管理和安全性功能。 Microsoft 365 和 Office 365 將熟悉的 Microsoft Office 桌面套件與 Microsoft 新一代通訊和共同合作服務的雲端版本結合 ，包括 Exchange Online、SharePoint Online 和 Office，協助使用者幾乎能透過網際網路隨時隨地提高工作效率。 當您升級Teams，您現有的Teams資料不會遺失;您所有的團隊、頻道、聊天、檔案和許可權都一併提供。 
 
 > [!NOTE]
 > 如果您已經有 Microsoft 365 或 Office 365 訂閱，您符合使用公司身分識別 Teams (試用版) ，而非免費版。 試用版Teams提供完整版本的Teams有限時間。 詳細資訊，請參閱[管理商務Microsoft Teams試用版優惠](./teams-exploratory.md)。
@@ -41,15 +41,15 @@ Teams免費方案是專為中小型企業所設計，並具有下列功能：
 - 最多 500，000 個使用者
 - 無限聊天訊息和搜尋
 - 來賓存取
-- 與應用程式與服務的整合，包括線上版本的 Word、Excel、PowerPoint及OneNote
+- 與應用程式與服務的整合，包括 Word、Excel、PowerPoint和 OneNote
 - 每個使用者 2 GB 的儲存空間和 10 GB 的共用儲存空間
 - 1：1 和群組線上音訊和視訊通話
 - 頻道會議
-- 螢幕畫面共用
+- 共用螢幕
 
 訂閱或訂閱Teams的完整Microsoft 365 Office 365除了免費版功能之外，Teams提供下列功能：
 
-- 使用企業授權 (使用者限制) 
+- 使用企業授權 (沒有使用者限制) 
 - Exchange電子郵件主機和自訂電子郵件網域
 - OneDrive、SharePoint、Planner、Yammer和其他Microsoft 365 Office 365服務
 - 每個使用者 1 TB 的儲存空間
@@ -58,17 +58,17 @@ Teams免費方案是專為中小型企業所設計，並具有下列功能：
 - 增強的安全性與合規性功能，包括多重要素驗證、單一登入，以及進一步稽核與報告
 - 系統管理控制項和支援功能，包括 24 x 7 電話和 Web 支援、管理使用者與應用程式的管理工具、Microsoft 365 或 Office 365 服務的使用方式報告、服務層級協定，以及可設定的使用者設定與政策
 
-有關免費版和Teams功能的詳細Teams，請參閱[比較Teams方案](https://products.office.com/microsoft-teams/free)。
+有關免費及Teams功能的詳細Teams，請參閱[比較Teams方案](https://products.office.com/microsoft-teams/free)。
 
 ## <a name="upgrade-requirements"></a>升級需求
 
 如果您符合下列需求，Teams升級至完整版本的版本：
 
 - 您就是註冊現有免費訂閱Teams的人。
-- 如果您攜帶自己的網域，該網域尚未透過試用版Azure Active Directory (或透過訂閱Microsoft 365或Office 365) 。
+- 如果您攜帶自己的網域，該網域尚未透過試用版Azure Active Directory (訂閱或訂閱Microsoft 365或Office 365) 。
 
 > [!NOTE]
-> 若要升級和傳輸您的資料，您必須透過應用程式升級程式購買Teams訂閱。 如果您透過Microsoft 365購買Office 365或Teams升級程式，您無法傳輸資料，因為您已經有一個獨立的租使用者。
+> 若要升級和傳輸您的資料，您必須透過應用程式升級程式購買Teams訂閱。 如果您在未Microsoft 365 Office 365或Teams，您無法傳輸資料，因為您已經有一個獨立的租使用者。
 
 ## <a name="limitations"></a>限制
 
@@ -85,7 +85,7 @@ Teams免費方案是專為中小型企業所設計，並具有下列功能：
 
 ![顯示升級按鈕的螢幕擷取畫面](media/teams-freemium-upgrade-image1.png)
 
-輸入您用於登錄帳戶的電子郵件地址，Teams購買Microsoft 365 商務標準版方案。 如果您想要購買 Microsoft 365 商務基本版 或 Enterprise 版本Office 365，請[聯絡客戶支援](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)。
+輸入您用於登錄帳戶的電子郵件地址Teams，然後購買Microsoft 365 商務標準版方案。 如果您想要購買 Microsoft 365 商務基本版 或 Enterprise 版本Office 365，請[聯絡客戶支援](https://portal.office.com/support/altusupport.aspx?app=teamsfreeupgrade)。
 
 ## <a name="whats-next"></a>下一步是什麼？
 
@@ -95,5 +95,5 @@ Teams免費方案是專為中小型企業所設計，並具有下列功能：
 
 - 若要進一Teams版本及其功能，請參閱[比較Teams方案](https://products.office.com/microsoft-teams/free)。
 - 有關升級至完整版本的 Teams，請參閱從 Teams[升級到 Teams。](https://support.office.com/article/Upgrade-from-Teams-free-to-Teams-29475bbd-a34f-4175-9b33-d44430f8ad39)
-- 有關與升級使用者相關的其他系統管理員工作，包括新增使用者授權、變更使用者名稱，以及指派暫時密碼，請參閱適用于系統管理員從[Teams](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)免費升級到付費訂閱 。
-- 有關在組織中Teams免費帳戶的資訊，請參閱[管理免費](manage-freemium.md)版 Microsoft Teams。
+- 有關與升級使用者相關的其他系統管理員工作，包括新增使用者授權、變更使用者名稱，以及指派暫時密碼，請參閱適用于系統管理員從[Teams](https://support.office.com/article/for-admins-upgrading-from-teams-free-to-a-paid-subscription-75a95e7f-001e-42d0-a787-ae8b992d5a52)免費升級到付費訂閱。
+- 有關在組織中Teams免費管理帳戶的資訊，請參閱[管理免費](manage-freemium.md)版 Microsoft Teams。

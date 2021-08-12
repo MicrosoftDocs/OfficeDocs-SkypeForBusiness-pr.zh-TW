@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: 摘要：瞭解如何設定商務用 Skype Server 的封存選項。
-ms.openlocfilehash: ee0145ac0896e1bbb8d18c6a51116f2ddd75ee05
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b2ed0644e64df1606141b94157920d98599fb020db7bdf39d522699fb88555ef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817533"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338141"
 ---
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>管理商務用 Skype Server 中的封存選項
 
@@ -45,7 +45,7 @@ ms.locfileid: "49817533"
     
 - 選用集區層級設定，指定如何為特定集區實施封存
     
-您可以刪除網站設定或集區設定，但無法刪除全域設定。 如果您刪除全域設定，它會自動重設為預設值。 如需如何執行封存設定與封存設定階層的詳細資訊，請參閱 [在商務用 Skype Server 中規劃](../../plan-your-deployment/archiving/archiving.md)封存。
+您可以刪除網站設定或集區設定，但無法刪除全域設定。 如果您刪除全域設定，它會自動重設為預設值。 如需如何執行封存設定與封存設定階層的詳細資訊，請參閱[Plan for 封存 in 商務用 Skype Server](../../plan-your-deployment/archiving/archiving.md)。
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>使用控制台設定封存選項
 
@@ -53,13 +53,13 @@ ms.locfileid: "49817533"
   
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。 
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中 **，按一下 [** 封存設定]。
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>使用 Windows PowerShell 設定封存選項
 
-您也可以使用下表所列的 Windows PowerShell Cmdlet 來設定封存選項。 如需語法的詳細資訊（包括所有可用參數），請參閱 [商務用 Skype Server 管理命令](../management-shell.md)介面。
+您也可以使用下表所列的 Windows PowerShell Cmdlet 來設定封存選項。 如需語法的詳細資料（包括所有可用參數），請參閱[商務用 Skype Server 管理命令](../management-shell.md)介面。
   
 
 |**指令程式**|**描述**|

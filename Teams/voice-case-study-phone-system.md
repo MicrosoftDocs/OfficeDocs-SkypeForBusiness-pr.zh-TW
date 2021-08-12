@@ -16,12 +16,12 @@ f1.keywords:
 description: Teams多國公司的語音案例研究：電話系統
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6ee15ef9bb42a28023c86963dd9100797c51edc3
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: b1221ff8fe47e26f04df621f99a0d4cd1a85a3205fcede766b7cc78189251708
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587142"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316589"
 ---
 # <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Contoso 案例研究：電話系統多國公司
 
@@ -34,7 +34,7 @@ ms.locfileid: "53587142"
 - 網站類型 C：傳統商務用 Skype 企業語音傳統電話系統的組合
 
 
-若要為整個組織Microsoft 電話系統解決方案，Contoso 必須針對每個網站類型決定下列哪些選項會與 電話系統 一起使用，以連接到公用交換電話網絡 &mdash; &mdash; (PSTN) ：
+若要為整個組織Microsoft 電話系統解決方案，Contoso 必須針對每個網站類型，決定要與 電話系統 一起使用下列哪一個選項，以連接到公用交換電話網絡 &mdash; &mdash; (PSTN) ：
 
 - 電話系統通話方案 
 
@@ -48,7 +48,7 @@ ms.locfileid: "53587142"
 
 Contoso 商務用 Skype 企業語音設定為樞紐和分支。 有一個中央位置維護了地區的 PSTN 閘道，為國家/地區的使用者商務用 Skype 企業語音 PSTN。 這些衛星辦公室通常沒有自己的網際網路出口。 這些使用者的數位會位於連接到現有 SBC 的 SIP 主幹上。 
 
-若要判斷已部署的 SBC 是否通過直接路由和媒體旁路的認證，Contoso 檢查了已通過直接路由認證的會話 [框線控制器清單](direct-routing-border-controllers.md)。  
+若要判斷已部署的 SBC 是否通過直接路由和媒體旁路的認證，Contoso 已檢查通過直接路由的會話框線控制器 [清單](direct-routing-border-controllers.md)。  
 
 使用者的撥號習慣是使用分機撥打舊版電話系統上的使用者，即使使用者有 商務用 Skype 用戶端可供對等音訊使用。 
 
@@ -78,7 +78,7 @@ Contoso 是根據下列問題做出決策：
 
 ## <a name="site-type-b-traditional-legacy-telephony-systems"></a>網站類型 B：傳統傳統電話系統
 
-Contoso 有許多運用舊版電話系統的辦公室。 有一部分使用者擁有 E1.64 電話號碼，而其他人則只有分機號碼。 這些號碼會位於 TDM 主幹到 PSTN 閘道上。 網站內部撥號是利用分機前方的網站代碼來決定撥號位置所配置的。 使用者的撥號習慣是按分機撥號。   
+Contoso 有許多運用舊版電話系統的辦公室。 有一部分使用者擁有 E1.64 電話號碼，而其他人則只有分機號碼。 這些號碼會位於 TDM 主幹到 PSTN 閘道。 網站內部撥號是利用分機前方的網站代碼來決定撥號位置所配置的。 使用者的撥號習慣是按分機撥號。   
 
 Contoso 是根據下列問題做出決策：
 
@@ -132,9 +132,9 @@ Contoso 是根據下列問題做出決策：
 
 - 為了支援一部分使用者移往 電話系統並允許繼續透過舊版系統路由，舊版電話系統已設定為 SBC 的下一個躍點。   
 
-- 此外，為了鼓勵使用者行為變更，並移除對網站間和內部分機撥號的相依性，Contoso 提供所有內部電話Teams電話使用指南。  
+- 此外，為了鼓勵使用者行為變更，並移除對網站間和內部分機撥號的相依性，Contoso 提供所有內部電話Teams通話使用指南。  
 
-下列圖表顯示原始電話商務用 Skype 企業語音和舊版電話系統部署，以及使用直接路由移入混合式部署：
+下圖顯示原始電話商務用 Skype 企業語音和舊版電話系統部署，以及使用直接路由移入混合式部署：
 
 **原始混合部署** 
  ![顯示前狀態之圖表 1。](media/voice-case-study-4.png)
@@ -151,7 +151,7 @@ Contoso 是根據下列問題做出決策：
 
 - 問。 我的使用者是否都有直接向內 DID 的電話號碼？<br> 答：今天沒有。 啟用的所有使用者都會收到 DID。 
 
-- 問。 我要遮罩或停用本機號碼嗎？<br> A.使用者的本機號碼會遮罩為 Contoso 的當地號碼。 
+- 問。 我要遮罩或停用本機號碼嗎？<br> A.使用者的本機號碼將會遮罩到 Contoso 的當地號碼。 
 
 
 ## <a name="direct-routing"></a>直接路由
@@ -192,11 +192,11 @@ Contoso 看到在全球不同區域運用 Local Media 優化的機會。 Contoso
 
 - 定義虛擬網路拓撲 
 
-- 決定模式：一直忽略或僅適用于當地使用者 
+- 決定模式：一直忽略或僅適用于本地使用者 
 
 ## <a name="networking-considerations"></a>網路考慮
 
-Contoso 有一些使用者需要長時間遠端工作，才能使用 電話系統。 使用者使用 VPN 存取特定的商務用應用程式。 使用 VPN 時，電話系統通話品質降低。 
+Contoso 有一些使用者需要長時間遠端工作，才能使用 電話系統。 使用者使用 VPN 存取特定的商務用應用程式。 在 VPN 上，電話系統使用者通話品質降低。 
 
-若要解決品質問題，Contoso 已實施 VPN 分割管道，允許其Office 365流量在內部應用程式的連接維持在 VPN 上時，可以橫穿網際網路。 若要執行 VPN 分割傳輸，Contoso 遵循了針對 Office 365 的實現 VPN 分割[Office 365。](/office365/enterprise/office-365-vpn-implement-split-tunnel)  
+若要解決品質問題，Contoso 已套用 VPN 分割管道，允許其Office 365流量在內部 App 的連接維持在 VPN 上時Office 365網際網路。 若要執行 VPN 分割管道，Contoso 遵循了針對 Office 365 的實現 VPN 分割[Office 365。](/office365/enterprise/office-365-vpn-implement-split-tunnel)  
 

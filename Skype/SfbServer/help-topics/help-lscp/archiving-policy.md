@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
-description: 您可以使用封存原則來啟用及停用駐留在商務用 Skype Server 上之使用者的封存功能。 在每個封存原則中，您可以啟用或停用下列其中一項或兩項的封存：
-ms.openlocfilehash: 19bc0612208e719b7a963bf4c7f0dc6a9cc69537
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 您可以使用封存原則來啟用及停用商務用 Skype Server 中使用者的封存。 在每個封存原則中，您可以啟用或停用下列其中一項或兩項的封存：
+ms.openlocfilehash: e4c51ed2103bf7abee6bc91fd4a5bd44cb68a2556ec409757d064ecdd7f745d0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826943"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301609"
 ---
 # <a name="archiving-policy"></a>封存原則
  
-您可以使用封存原則來啟用及停用駐留在商務用 Skype Server 上之使用者的封存功能。 在每個封存原則中，您可以啟用或停用下列其中一項或兩項的封存：
+您可以使用封存原則來啟用及停用商務用 Skype Server 中使用者的封存。 在每個封存原則中，您可以啟用或停用下列其中一項或兩項的封存：
   
 - 內部通訊
     
@@ -39,7 +39,7 @@ ms.locfileid: "49826943"
 - **使用者原則 (選用)** 您可以指定一或多個使用者封存原則，每個使用者封存原則都可以設定為啟用及停用特定使用者或使用者群組的內部或外部通訊的封存。 使用者原則會覆寫全域原則及網站原則，但僅限於您指派使用者層級封存原則的使用者和使用者群組。 您可以編輯或刪除使用者原則。
     
 > [!NOTE]
-> 封存原則只適用于駐留在商務用 Skype Server 上的使用者。 如果您使用 Exchange 整合將封存資料儲存在 Microsoft Exchange 中，Exchange 2013 原則會控制位於 Exchange 2013 之使用者的封存。 若要為這些使用者啟用封存，使用者的信箱必須置於 In-Place 保留狀態。 
+> 封存原則只適用于位於商務用 Skype Server 上的使用者。 如果您使用 Exchange 整合將封存資料儲存在 Microsoft Exchange 中，則 Exchange 2013 原則會控制位於 Exchange 2013 上之使用者的封存。 若要為這些使用者啟用封存，使用者的信箱必須置於 In-Place 保留狀態。 
   
 「封存 **原則** 」頁面會列出為您的部署設定的每個封存原則。 它也會顯示原則名稱、範圍 (全域、網站或使用者) ，以及針對每個封存原則啟用的封存選項。 在 [封存 **原則** ] 頁面上，您可以使用下列選項：
 - **新** 您可以新增一或多個下列選用的封存原則：
@@ -68,5 +68,5 @@ ms.locfileid: "49826943"
     
 - **Refresh** 您可以重新整理「封存 **原則** 」頁面，以確認所有封存原則選項的狀態。
     
-如需有關封存功能及功能（包括 Exchange 整合）的詳細資訊，請參閱 [在商務用 skype 2015 server 中規劃](../../plan-your-deployment/archiving/archiving.md)封存、 [部署商務用 skype server 2015](../../deploy/deploy-archiving/deploy-archiving.md)的封存，以及 [管理商務用 skype server 2015 中](../../manage/archiving/archiving.md)的封存。
+如需封存功能及功能的詳細資料，包括 Exchange 整合，請參閱[在商務用 Skype Server 2015 中規劃](../../plan-your-deployment/archiving/archiving.md)封存、[部署商務用 Skype Server 2015 的](../../deploy/deploy-archiving/deploy-archiving.md)封存，以及[管理商務用 Skype Server 2015 中](../../manage/archiving/archiving.md)的封存。
 

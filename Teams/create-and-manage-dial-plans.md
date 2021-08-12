@@ -21,16 +21,16 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 瞭解如何使用系統管理中心Microsoft Teams或Windows PowerShell PSTN 撥號方案 (撥號方案) 。
-ms.openlocfilehash: b578533bfd2b903fd29563897a2f9ed917b369c38955e631b4aba0cefaa025fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a1ec745a08848106d6f5c6c55543874703b82d8240608ec144dfcbd888c43c3
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849198"
 ---
 # <a name="create-and-manage-dial-plans"></a>建立和管理撥號對應表
 
-規劃組織的撥號方案，並找出呼叫路由需要建立的所有標準化規則之後，就可以建立撥號方案了。 使用具有有效授權Teams系統管理員帳戶，您可以使用 Microsoft Teams或Windows PowerShell建立和管理撥號方案。  
+規劃組織的撥號方案，並找出語音路由需要建立的所有標準化規則之後，就可以建立撥號方案了。 使用具有有效授權Teams系統管理員帳戶，您可以使用 Microsoft Teams或Windows PowerShell建立和管理撥號方案。  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
@@ -39,17 +39,17 @@ ms.locfileid: "54282866"
 1. 在系統管理中心的左側導Microsoft Teams，請前往 **語音**  >  **撥號方案**。
 2. 按一下 **[新增**」，然後輸入撥號方案的名稱和描述。
     ![顯示建立撥號方案之新增頁面的螢幕擷取畫面](media/create-dial-plan.png)
-3. 在 **撥號方案詳細資料** 下，指定外部撥號首碼，如果使用者需要撥打一或多個額外的前導 (例如 9) 以取得外部線路。 若要這麼做：
+3. 在 **撥號方案詳細資料** 下，指定外部撥號首碼，如果使用者需要撥打一或多個額外的前導 (，例如 9) 以取得外部線路。 若要這麼做：
     1. 在外部 **撥號首碼** 方塊中，輸入外部撥號首碼。 首碼最多四個字元 (#，*，以及 0-9) 。
-    2. 開啟優化 **的裝置撥號**。 如果您指定外部撥號首碼，您也必須開啟此設定，才能使用首碼，好在組織外部撥打電話。
+    2. 開啟優化 **的裝置撥號**。 如果您指定外部撥號首碼，您也必須開啟此設定，才能使用首碼，才能在組織外撥打電話。
 4. 在 **標準化規則** 下，為撥號方案設定一 [或多個標準化](what-are-dial-plans.md#normalization-rules) 規則並關聯。 每個撥號方案都必須至少有一個與其相關聯的標準化規則。  若要這麼做，請執行下列一或多個操作：
-    - 若要建立新常態化規則並將其與撥號方案建立關聯，請按一下 [ **新增**，然後定義規則。
+    - 若要建立新常態化規則並將其與撥號方案建立關聯，請按一下 [ **新增**」，然後定義規則。
     - 若要編輯已與撥號方案相關聯的標準化規則，請按一下規則名稱左側以選取規則，然後按一下 [ **編輯**。 進行您想要的變更，然後按一下 [ **儲存**。
-    - 若要從撥號方案移除標準化規則，請按一下規則名稱左側以選取規則，然後按一下 [ **移除**。
-5. 以您想要的順序排列標準化規則。 按一下 **[上移** 或 **下** 移以變更規則在清單中的位置。
+    - 若要從撥號方案移除標準化規則，請按一下規則名稱左側的選取規則，然後按一下 [ **移除**。
+5. 以您想要的順序排列標準化規則。 按一下 **[上移** 或 **下** 移來變更規則在清單中的位置。
 
     > [!NOTE]
-    > Teams由上而下，從上而下移動標準化規則清單，並使用符合撥號號碼的第一個規則。 如果您設定撥號方案，讓撥號號碼可以比對多個標準化規則，請確定較嚴格的規則會排序在較不嚴格的規則上方。 如果您設定了將撥號號碼正規化的撥號方案，但不含 「+」，通話服務會嘗試使用租使用者和區域撥號方案規則再次嘗試將號碼正規化。 為了避免重複常態化，建議所有標準化規則都會導致數位以"+"開始。 直接路由客戶可以使用 [主幹翻譯](direct-routing-translate-numbers.md) 規則來移除 「+」。如果需要的話。 
+    > Teams從上到下移動標準化規則清單，並使用符合撥號號碼的第一個規則。 如果您設定撥號方案，讓撥號號碼可以比對多個標準化規則，請確定較嚴格的規則會排序在較不嚴格的規則上方。 如果您設定了一個撥號方案，將撥號號碼正規化，但不含 「+」，則通話服務會嘗試使用租使用者和區域撥號方案規則再次嘗試將號碼正規化。 為了避免重複常態化，建議所有標準化規則都會導致數位以"+"開始。 直接路由客戶可以使用 [主幹翻譯](direct-routing-translate-numbers.md) 規則來移除 「+」，如果需要的話。 
 
 6. 按一下 [儲存]。
 7. 如果您想要測試撥號方案，請在 [測試撥號方案> 下輸入電話號碼，然後按一下 [**測試**。
@@ -161,7 +161,7 @@ $nr1=New-CsVoiceNormalizationRule -Parent Global/NR1 -InMemory
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
-當您也想要檢查現有的標準化規則、決定要刪除哪些規則，然後使用其索引來移除規則時，請執行下列操作。 標準化規則的陣列會以索引 0 開始。 我們要移除 3 位數的標準化規則，因此這是索引 1。
+當您也想要檢查現有的標準化規則、決定要刪除哪些規則，然後使用其索引來移除規則時，請執行下列操作。 標準化規則的陣列以索引 0 開始。 我們要移除 3 位數的標準化規則，因此這是索引 1。
   
 ```PowerShell
 Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules
@@ -181,7 +181,7 @@ $nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[1]
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
-執行此程式以尋找已獲得 RedmondDialPlan 租使用者撥號方案之所有使用者。
+執行此程式以尋找所有獲得 RedmondDialPlan 租使用者撥號方案的使用者。
   
 ```PowerShell
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}

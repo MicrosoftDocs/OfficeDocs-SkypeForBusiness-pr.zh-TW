@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 設定商務用 Skype 的混合模式，以規劃在商務用 Skype Server 和 Teams 之間執行混合連線。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 0941922fe5f5f4505932614422ec79ea310f7cf0
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: fee78cf4532ff1cb0be7a24fc29e407001647f452cdef5fbb5e60859989f8112
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660731"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54287882"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>規劃商務用 Skype Server 和 Teams 之間的混合式連線
 
@@ -136,7 +136,7 @@ Microsoft 支援下列多樹系混合式案例類型：
   - 主控商務用 Skype 的樹系必須信任包含使用者的樹系。
     如需資源樹系混合式案例的詳細資訊，請參閱[部署混合式商務用 Skype 的資源樹系拓撲](configure-a-multi-forest-environment-for-hybrid.md)。
 
-- **在多個樹系中部署多個商務用 Skype Server。** 這項設定會因合併和收購案例，以及更複雜的企業而產生。 在具有多個商務用 Skype 部署的組織 Microsoft 365 中，所有使用者的所有使用者都可以整合至雲端，但前提是符合下列主要需求：
+- **多個樹系中的多個商務用 Skype Server 部署。** 這項設定會因合併和收購案例，以及更複雜的企業而產生。 在具有多個商務用 Skype 部署的組織 Microsoft 365 中，所有使用者的所有使用者都可以整合至雲端，但前提是符合下列主要需求：
   - 最多隻能有一個 Microsoft 365 的組織參與。 不支援在具有多個組織之案例中進行合併。
   - 在任何指定時間，只有一個內部部署商務用 Skype 樹系可以位於混合模式 (共用 SIP 位址空間) 。 所有其他內部部署商務用 Skype 樹系都必須在內部部署上保持完全使用 (，且每個) 的同盟。 請注意，如有需要，這些其他內部部署組織可以與 AAD 同步處理，以停用於12月2018的 [線上 SIP 網域](/powershell/module/skype/disable-csonlinesipdomain) 。
 

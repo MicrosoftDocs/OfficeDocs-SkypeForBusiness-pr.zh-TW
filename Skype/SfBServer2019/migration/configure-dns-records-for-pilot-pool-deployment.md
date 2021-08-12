@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 部署試驗集區之前，您必須更新 DNS 主機試驗集區的專案。 若要順利完成此程式，您應該以 Domain Admins 群組成員或 DnsAdmins 群組成員的身分登入伺服器或網域。
-ms.openlocfilehash: d934e3bdc46ab9deffa3c588b15ab793111c1a68
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 270b0bda7da679cb0c75e9a99e10a898dcee6ac70413ce276abfe19ba1eb2231
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44754053"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337831"
 ---
 # <a name="configure-dns-records-for-pilot-pool-deployment"></a>為試驗集區部署設定 DNS 記錄
 
@@ -26,11 +26,11 @@ ms.locfileid: "44754053"
 
 1. 在網域名稱系統 (DNS) 伺服器上，依序按一下 **[開始]**、**[系統管理工具]** 和 **[DNS]**。
     
-2. 在您網域的主控台樹中，展開 [**正向對應區域**]，然後在要安裝商務用 Skype Server 2019 的網域上按一下滑鼠右鍵。
+2. 在您網域的主控台樹中，展開 [**正向對應區域**]，然後在將安裝商務用 Skype Server 2019 的網域上按一下滑鼠右鍵。
     
 3. 按一下 **[新增主機 (A 或 AAAA)]**。
     
-4. 按一下 [**名稱**]，輸入商務用 Skype Server 2019 集區的主機名稱（功能變數名稱會從記錄定義所在的區域來假設，而不需輸入為 A 記錄的一部分）。
+4. 按一下 [**名稱**]，然後輸入商務用 Skype Server 2019 集區的主機名稱 (功能變數名稱會從記錄定義所在的區域中取得，而不需要輸入為 A record) 的一部分。
     
 5. 按一下 [ **IP 位址**]，然後輸入前端集區的 ip 位址。
     

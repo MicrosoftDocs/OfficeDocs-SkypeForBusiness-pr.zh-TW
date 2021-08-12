@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何在系統管理中心內，查看組織中已啟用電話撥入式會議商務用 Skype清單。 '
-ms.openlocfilehash: 070b11c047ec90413128995196b99872a0884663
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b1138d80798791a433956e7b53db2569e1667e3126a81c3744c85a9604475012
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52236999"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327069"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>查看在 商務用 Skype Online 中啟用音訊會議商務用 Skype清單
 
@@ -49,7 +49,7 @@ ms.locfileid: "52236999"
 
 - 當您查看已啟用的使用者清單時，可以從清單中選取使用者，並使用動作窗格編輯該使用者的音訊會議設定。
     
-- 當您選取已設定為使用 Microsoft 做為音訊會議提供者的單一使用者時，您可以查看預設電話號碼，以及貴組織是否已啟用動態會議 ID，也可以重設使用者組織的會議 ID。
+- 當您選取已設定為使用 Microsoft 作為音訊會議提供者的單一使用者時，您可以查看預設電話號碼，以及貴組織是否已啟用動態會議 ID，也可以重設使用者組織的會議 ID。
     
 - 當您選取已設定為使用協力廠商音訊會議提供者的單一使用者時，您可以查看音訊會議提供者的名稱、付費電話號碼，以及免付費電話號碼 (如果他們已設定) 。
     
@@ -83,13 +83,13 @@ ms.locfileid: "52236999"
     
   - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell使用系統管理中心時，Microsoft 365在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
+- Windows PowerShell相比于僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
     
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [使用Windows PowerShell執行線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="related-topics"></a>相關主題
 

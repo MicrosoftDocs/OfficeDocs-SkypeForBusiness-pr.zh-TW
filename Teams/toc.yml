@@ -303,6 +303,8 @@ items:
             href: teams-privacy.md
           - name: Teams 中的資料位置
             href: location-of-data-in-teams.md
+          - name: Microsoft Teams 意見反應隱私權
+            href: teams-privacy-feedback.md
           - name: 封鎖特定使用者對 Sharepoint Online 的存取
             href: block-access-sharepoint.md
           - name: 原則控制概覽
@@ -1479,6 +1481,8 @@ items:
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: Teams 教育版系統管理員的資源
             href: resources-teams-edu.md
+          - name: 教育版 Teams 裝置
+            href: devices-for-education.md
           - name: 適用於系統管理員的 Microsoft 教育版控管常見問題集
             href: plan-teams-governance-edu.md
           - name: 安裝 Moodle 整合
@@ -1585,9 +1589,13 @@ items:
           - name: Teams 顯示器
             href: devices/teams-displays.md
           - name: Teams 窗格
-            href: devices/teams-panels.md
-          - name: 使用 Teams 窗格
-            href: devices/use-teams-panels.md
+            items:
+              - name: Teams 窗格
+                href: devices/teams-panels.md
+              - name: 使用 Teams 窗格
+                href: devices/use-teams-panels.md
+              - name: Teams 窗格上的應用程式支援
+                href: app-support-on-Teams-panels.md
           - name: 將 Teams 電話升級為 Teams 顯示器
             href: devices/upgrade-phones-to-displays.md
           - name: 使用 Intune 部署 Teams 電話與 Teams 顯示器

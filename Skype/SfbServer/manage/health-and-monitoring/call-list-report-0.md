@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 中的通話清單報告
+title: 商務用 Skype Server 的通話清單報告
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
-description: 摘要：瞭解用在商務用 Skype Server 中的通話清單報告。
-ms.openlocfilehash: 8deb14cc8d2b8ff4b47701502de414d7460a81ef
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解商務用 Skype Server 中使用的通話清單報告。
+ms.openlocfilehash: 301ace0e4d9af8b2635f95f6c3a750c859ca1300f6f3cc277870bdac2c8cc989
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817073"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338121"
 ---
-# <a name="call-list-report-in-skype-for-business-server"></a>商務用 Skype Server 中的通話清單報告
+# <a name="call-list-report-in-skype-for-business-server"></a>商務用 Skype Server 的通話清單報告
  
 **摘要：** 深入瞭解商務用 Skype Server 中使用的通話清單報告。
   
-通話清單報告提供經驗品質 (QoE 在組織中撥打和接收的個別通話) 度量。 請注意，實際報告的衡量值將取決於您存取通話清單報告的方式。 例如，如果您 [在商務用 Skype Server 中從設備報告](device-report.md)開啟報表，您將會看到下列度量值，也就是在裝置報表上報告的測量值：
+通話清單報告提供經驗品質 (QoE 在組織中撥打和接收的個別通話) 度量。 請注意，實際報告的衡量值將取決於您存取通話清單報告的方式。 例如，如果您[在商務用 Skype Server 中從設備報告](device-report.md)開啟報表，您將會看到下列度量值，也就是在裝置報表上報告的測量值：
   
 - 來電者的麥克風
     
@@ -35,7 +35,7 @@ ms.locfileid: "49817073"
     
 - 語音切換時間的比例 
     
-不過，如果您 [在商務用 Skype Server 的位置報告中](location-report.md)開啟通話清單報告，您就不會看到任何這類度量。相反地，您會看到如下的計量：
+不過，如果您從[商務用 Skype Server 的位置報告](location-report.md)中開啟通話清單報告，您就不會看到任何度量。相反地，您會看到如下的計量：
   
 - 來回行程 (毫秒) 
     
@@ -53,13 +53,13 @@ ms.locfileid: "49817073"
   
 - [商務用 Skype Server (中的位置報告](location-report.md)，請按一下 [通話量] 或 [不良通話百分比] 度量) 
     
-- [商務用 Skype Server (中的裝置報告](device-report.md)，按一下 [通話量] 或 [通話百分比] 度量值) 
+- 您可以按一下 [通話量] 或 [不良通話百分比] 計量[商務用 Skype Server (中的裝置報告](device-report.md)) 
     
 - [商務用 Skype Server (中的媒體質量摘要報告](summary.md)，請按一下 [通話量] 或 [不良通話百分比] 度量) 
     
-- [商務用 Skype server (中的伺服器效能報告](server-performance.md)，請按一下 [通話量] 或 [不良通話百分比] 度量) 
+- [商務用 Skype Server (中的伺服器效能報告](server-performance.md)，請按一下 [通話量] 或 [不良通話百分比] 度量) 
     
-從 [通話清單報告] 中，按一下 [詳細資料] 度量，即可存取 [商務用 Skype 中的 [通話詳細資料] 報告](call-detail-report.md) 。
+在通話清單報告中，按一下 [詳細資料] 度量，即可存取[商務用 Skype Server 中的 [通話詳細資料] 報告](call-detail-report.md)。
   
 ## <a name="making-the-best-use-of-the-call-list-report"></a>充分利用通話清單報告
 
@@ -69,7 +69,7 @@ ms.locfileid: "49817073"
 
 無。 您無法篩選通話清單報告。
   
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>度量
 
 下表列出通話清單報告中每次通話所提供的資訊。
   

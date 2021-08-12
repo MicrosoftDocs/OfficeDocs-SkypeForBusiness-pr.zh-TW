@@ -1,5 +1,5 @@
 ---
-title: 在將電話號碼進行移植之後，您需要執行什麼工作？
+title: 在行動電話號碼之後，您需要執行哪些工作？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,18 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderFinish
 description: 查看將電話號碼移植到新號碼之後，接下來商務用 Skype。
-ms.openlocfilehash: d49fea9315e44f7d126021ec8733143916f5e366
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b4a3a3f680b1618798e3bb28f529dbf0a706b3225661fadb028f3690aaf5847d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237939"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326639"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>在將電話號碼進行移植之後，您需要執行什麼工作？
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>在行動電話號碼之後，您需要執行哪些工作？
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-提交您的埠訂單之後，我們會與您的電信公司聯繫，並找出詳細資料給他們。 當最終移轉日期設定完成時，我們會透過電子郵件通知您。 不過，在等待您的電信公司接受訂單時，請繼續建立您需要的緊急位址，以便與這些數位一起使用。
+在您提交您的埠訂單之後，我們會與您的電信公司聯繫，並同他們一起詳細資料。 當最終移轉日期設定完成時，我們會透過電子郵件通知您。 不過，在等待您的電信公司接受訂單時，請繼續建立您需要的緊急位址，以便與這些數位一起使用。
   
 - 深入瞭解 [什麼是緊急位置、位址和通話路由？](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)。
     

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 description: 若要授與商務用 Skype Server 2015 的存取權，請執行下列操作：
-ms.openlocfilehash: 40c119f99182dc2416a1414db2a2fc143e818352
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 84be74295a4c6f345fcfb0b852f10d5897974d22219476e583085a0794a6c379
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811073"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301639"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>建立商務用 Skype Server 控制台管理員
  
@@ -37,7 +37,7 @@ ms.locfileid: "49811073"
 5. 在 [成員] 索引標籤上，確認您選取的使用者或群組已存在。按一下 [確定]。
     
 > [!TIP]
-> 商務用 Skype Server 控制台是以角色為基礎的存取控制工具。 CsAdministrator 群組中的成員資格會為所有可用的設定功能提供使用商務用 Skype Server 控制台完全控制權的使用者。 有些其他的角色是針對特定功能而設計。 使用者並非必須啟用商務用 Skype 伺服器才能成為管理群組的成員。 
+> 商務用 Skype Server 控制台是以角色為基礎的存取控制工具。 CsAdministrator 群組中的成員資格會為所有可用的設定功能提供使用商務用 Skype Server 控制台完全控制權的使用者。 有些其他的角色是針對特定功能而設計。 不需要為使用者啟用商務用 Skype Server，即可成為管理群組的成員。 
   
 其他角色包括：
   
@@ -49,7 +49,7 @@ ms.locfileid: "49811073"
     
 - **CsResponseGroupAdministrator：** 成員可以管理和設定回應群組服務。
     
-- **CsServerAdministrator：** 成員可以管理、監控及疑難排解所有執行商務用 Skype 伺服器的伺服器。
+- **CsServerAdministrator：** 成員可以管理、監控及疑難排解執行商務用 Skype Server 的所有伺服器。
     
 - **CsUserAdministrator：** 成員可以管理、啟用與停用使用者，以及指派現有的原則給使用者。
     

@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d20d914ab6ceca1d264a23662c9c8a067798a82
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2a0557603c0086fdcc561dec3257b9f9bd1bef32b7db6d680a018202f0aa59aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094731"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338011"
 ---
 # <a name="plan-my-users-experience"></a>規劃使用者的體驗
 
@@ -51,7 +51,7 @@ Teams端點可在許多裝置上執行，包括 PC、Mac、平板電腦和行動
 
 ## <a name="endpoint-capability"></a>端點功能
 
-規劃的第一部分，是為了確保貴組織的所有電腦和其他裝置都可以Teams。 這不只涉及查看硬體需求，也涉及瞭解電腦在背景中執行哪些其他操作。 許多組織會執行其他軟體，包括入侵偵測系統和反惡意軟體，這可能會影響裝置的基本性能。
+規劃的第一部分，是確保貴組織的所有電腦和其他裝置都可以Teams。 這不只涉及查看硬體需求，還涉及瞭解電腦在背景中執行哪些其他操作。 許多組織會執行其他軟體，包括入侵偵測系統和反惡意軟體，這可能會影響裝置的基本性能。
 
 有關 Web、桌面Teams行動 (每個平臺用戶端的軟體需求) ，請參閱取得用戶端[Microsoft Teams。](./get-clients.md)
 
@@ -70,16 +70,16 @@ Teams端點可在許多裝置上執行，包括 PC、Mac、平板電腦和行動
 ### <a name="wi-fi-drivers"></a>Wi-Fi驅動程式
 
 某些Wi-Fi驅動程式可能會有問題。 例如，驅動程式在訪問點之間可能具有非常積極的漫遊行為，導致通話品質不佳。
-這不是很常見的情況，但一Wi-Fi在部署前，確保已更新和測試 PC 上的驅動程式。
+這不是很常見的情況，但一Wi-Fi部署前，請確保已更新並測試 PC 上的驅動程式。
 
 ### <a name="wi-fi-bands"></a>Wi-Fi帶
 
-現今在設備中使用的頻帶Wi-Fi種，2.4 GHz 和 5.0 GHz。 如果貴組織同時提供這兩個頻帶，您應該設定驅動程式設定，以偏好 5.0 GHz 頻帶。 此頻帶在輸送量方面密度更高，且受到 2.4 GHz 頻帶的干擾影響較小。
+現今在設備中使用的頻帶Wi-Fi種，2.4 GHz 和 5.0 GHz。 如果貴組織同時提供這兩個頻帶，您應設定驅動程式設定以偏好 5.0 GHz 頻帶。 此頻帶在輸送量方面密度更高，且受 2.4 GHz 頻帶的干擾影響較小。
 此建議假設您已正確優化 5.0 GHz 網路帶。
 
 ### <a name="wi-fi-radio-type"></a>Wi-Fi廣播類型
 
-規劃支援較新的無線Wi-Fi裝置。 如果您在您撥備的裝置Wi-Fi 802.11ac 或更新版本，就可以獲得很好的使用效果。
+規劃支援較新廣播類型的Wi-Fi裝置。 如果您在您撥備的裝置Wi-Fi 802.11ac 或更新版本，就可以獲得很好的使用效果。
 
 ### <a name="wireless-avoidance"></a>無線避免
 
@@ -87,7 +87,7 @@ Teams端點可在許多裝置上執行，包括 PC、Mac、平板電腦和行動
 
 ### <a name="80211-power-save-protocol"></a>802.11 Power Save 通訊協定
 
-如果貴組織使用不支援 802.11 Power Save 通訊協定的無線訪問點或路由器，您可能會在 Windows 裝置上Microsoft Teams通話品質不佳。 如果無法升級無線存取點或路由器，您應該更新Windows電池電力的裝置上的 Power Plan 設定。 下列支援文章提供進一步的詳細資料及組 [組指引](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)。
+如果貴組織使用不支援 802.11 Power Save 通訊協定的無線訪問點或路由器，您可能會在 Windows 裝置上Microsoft Teams通話品質不佳。 如果無法升級您的無線存取點或路由器，您應該更新Windows電池電力的裝置上的 Power Plan 設定。 下列支援文章提供進一步的詳細資料及組 [組指引](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you)。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>哪些Teams用戶端會部署在貴組織中？</li><li>您一開始要如何Teams用戶端？</li><li>神秘負責評估端點和裝置，以驗證它們符合Teams品質體驗的需求嗎？</li></ul></td></tr>
@@ -98,7 +98,7 @@ Teams端點可在許多裝置上執行，包括 PC、Mac、平板電腦和行動
 
 ## <a name="devices-for-teams"></a>適用于 Teams
 
-Microsoft Teams可用於會議或電話系統。 使用這些功能時，用於Teams介面裝置在使用者體驗中會扮演重要角色。
+Microsoft Teams會議或電話系統。 使用這些功能時，用於Teams介面裝置在使用者體驗中會扮演重要角色。
 
 使用內建電腦喇叭和麥克風可能聽起來對擁有該組式的使用者來說可以接受。 但一般來說，這些裝置未針對雜訊消除進行優化，而且任何類型的環境雜訊會對通話中的其他人造成下游影響。 運用針對這些案例優化的裝置，有助於確保高品質的體驗。
 
@@ -108,12 +108,12 @@ Microsoft Teams可用於會議或電話系統。 使用這些功能時，用於T
 選取裝置之後，請將其納入試驗測試計劃，以完成驗證。 在試驗期間運用問卷收集意見，以確保您的裝置策略最佳。
 
 > [!NOTE]
-> 目前，我們建議您使用通過認證計畫商務用 Skype裝置。 若要尋找此計畫所認證的裝置，請參閱[Microsoft Teams裝置和](https://products.office.com/microsoft-teams/across-devices/devices)USB[音訊與視音訊裝置](/SkypeForBusiness/certification/devices-usb-devices)。
+> 目前，我們建議您使用通過認證計畫商務用 Skype裝置。 若要尋找此計畫所認證的裝置，請參閱[Microsoft Teams裝置和](https://products.office.com/microsoft-teams/across-devices/devices)USB[音訊及視像裝置](/SkypeForBusiness/certification/devices-usb-devices)。
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>決定貴組織的使用者和會議室體驗的整體裝置策略。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>決定貴組織的使用者和會議室體驗整體裝置策略。</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>後續步驟</td><td><ul><li>為貴組織完成人員對裝置映射練習。</li><li>記錄取得使用者和會議室裝置的過程。</li><li>記錄使用者和會議室的部署和組組裝置程式。</li><li>取得初始裝置以開始部署。</li></ul></td></tr>
 </table>
 

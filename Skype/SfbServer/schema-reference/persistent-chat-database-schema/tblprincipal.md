@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: tblPrincipal 包含所有主體，包括使用者、資料夾及群組。
-ms.openlocfilehash: ee9e16d0fcd5d7206bb73ff8b13cdc9d930b6b97
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 50d20aee156a4a919effac26ff29c371ec2cf886c12300ecd07268576730ae49
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815893"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338021"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  
@@ -39,7 +39,7 @@ tblPrincipal 包含所有主體，包括使用者、資料夾及群組。
 |prinADUserPrincipalName  <br/> |nvarchar(256)  <br/> |使用者的使用者主要名稱 (UPN) 。 僅可用於一般使用者類型。  <br/> |
 |prinDisabled  <br/> |smallint，非 null  <br/> | 0：主體為作用中狀態。 <br/>  1：主體已停用，因為使用者的 SIP 功能已停用。 <br/>  2：主體已刪除，因為相關聯的 AD 物件已刪除。 <br/> |
 |prinTypeID  <br/> |smallint，非 null  <br/> |主體類型 (參照 tblPrincipalType 表格)。  <br/> |
-|prinPoolID  <br/> |臨界值  <br/> |主體的商務用 Skype 用戶端集區。  <br/> |
+|prinPoolID  <br/> |臨界值  <br/> |商務用 Skype 主體的用戶端集區指派。  <br/> |
 |prinPolicyID  <br/> |臨界值  <br/> |如果存在標記類型原則，則為 user 的 Persistent Chat Server policy value。  <br/> |
 |prinAddedBy  <br/> |int  <br/> |建立者的主體識別碼。  <br/> |
 |prinAddedOn  <br/> |bigint，非 null  <br/> |建立時間的時間戳記。  <br/> |

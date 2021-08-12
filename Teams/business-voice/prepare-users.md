@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72cb35b2927dfb8cc1db65018d107bc209fd7ed2
-ms.sourcegitcommit: bfa5b8db4e42e0480542d61fe05716c52016873c
+ms.openlocfilehash: af0d35bf1c7183926607ec2aa6b35d0e74c67133a97fb8eb7de57b5acc45c053
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824741"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301968"
 ---
 # <a name="how-do-i-get-my-users-ready-for-microsoft-365-business-voice"></a>如何幫助我的使用者為 Microsoft 365 商務語音做好準備？
 
@@ -49,7 +49,7 @@ ms.locfileid: "41824741"
 * **總機和主管：** 可使用完整且多功能的電腦耳機，就像一般手機一樣。 自動撥號、會議、免持聽筒和支援耳機讓這些裝置變得極為靈活。
 * **會議室：** 音訊會議裝置可讓您將會議室設定成免持聽筒模式，能與 Teams 會議橋接器一起使用，以主持大型會議。
 
-如果您使用的是 USB 或無線裝置，請將裝置插入執行 Teams 的電腦中。 您可能需要移至 Teams 中的裝置設定：選取 Teams 頂端的個人檔案圖片，然後移至 [設定]****  >  [裝置]****。 從 [音訊裝置]**** 選擇您的裝置。 如果您在 Teams 中沒有看到您的裝置，請按照製造商的指示在您的電腦上進行設定。
+如果您使用的是 USB 或無線裝置，請將裝置插入執行 Teams 的電腦中。 您可能需要移至 Teams 中的裝置設定：選取 Teams 頂端的個人檔案圖片，然後移至 [設定]  >  [裝置]。 從 [音訊裝置] 選擇您的裝置。 如果您在 Teams 中沒有看到您的裝置，請按照製造商的指示在您的電腦上進行設定。
 
 > [!NOTE]
 > 若要測試 Teams、您的喇叭和麥克風都能正常運作，請按照 [確定您的網路裝置能夠存取 Microsoft 365](get-ready-internet.md#make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365) 中的步驟操作。
@@ -58,7 +58,7 @@ ms.locfileid: "41824741"
 
 ## <a name="set-up-voicemail-greetings-and-other-business-voice-features"></a>設定語音訊息問候語和其他商務語音功能
 
-就像一般的手機一樣，您可以設定語音訊息問候語、來電轉接、選擇鈴聲等等。 在 Teams 應用程式中，選取 Teams 右上角的個人檔案圖片，然後選取 [設定]****  >  [通話]****，就能找到所有使用者可以設定的項目。 若要瞭解如何設定這些功能，請參閱[在 Teams 中管理通話設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)。
+就像一般的手機一樣，您可以設定語音訊息問候語、來電轉接、選擇鈴聲等等。 在 Teams 應用程式中，選取 Teams 右上角的個人檔案圖片，然後選取 [設定]  >  [通話]，就能找到所有使用者可以設定的項目。 若要瞭解如何設定這些功能，請參閱[在 Teams 中管理通話設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)。
 
 ## <a name="learn-what-microsoft-teams-and-business-voice-can-do"></a>瞭解 Microsoft Teams 和商務語音的功能
 

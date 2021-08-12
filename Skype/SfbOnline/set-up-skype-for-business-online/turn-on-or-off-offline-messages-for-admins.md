@@ -19,18 +19,18 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 瞭解如何傳送商務用 Skype立即訊息，即使您的連絡人沒有使用 PowerShell 進行登錄。
-ms.openlocfilehash: fc340cff109d33a3a5afeaf6b1b2b09ae7f6ba3b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7c579e947383c9165035c7cd6a5baee6f2012a1f5bba063dd433f40b95faa164
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239159"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326660"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>開啟或關閉系統管理員的離線訊息
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-即使連絡人商務用 Skype，您也可將 IM 傳送給連絡人。 這項功能可讓您的連絡人知道您一直嘗試聯繫他們。 在傳送訊息給某人之前，您不需要等到某人在線上。
+即使連絡人商務用 Skype，您也可將 IM 傳送至您的連絡人。 這項功能可讓您的連絡人知道您一直嘗試聯繫他們。 在傳送訊息給他們之前，您不需要等到某人在線上。
 
 對於離線郵件，請瞭解：
 
@@ -45,7 +45,7 @@ ms.locfileid: "52239159"
 ## <a name="to-get-you-started"></a>若要開始使用
 
 > [!NOTE]
-> 商務用 Skype線上連接器是目前 PowerShell 模組Teams的一部分。 如果您使用的是最新版 PowerShell Teams版本，則不需要安裝 商務用 Skype 連接器。
+> 商務用 Skype Online 連接器目前是最新 Teams PowerShell 模組的一部分。 如果您使用的是最新的 Teams PowerShell 公開發行版本，則不需要安裝商務用 Skype Online 連接器。
 1. 安裝[powerShell Teams模組](/microsoftteams/teams-powershell-install)。
     
 2. 開啟 Windows PowerShell命令提示符，然後執行下列命令： 
@@ -72,7 +72,7 @@ ms.locfileid: "52239159"
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-若要啟用或停用使用者的離線郵件傳送離線訊息，請將  _EnableIMAutoArchiving 設定_ 為 `True` 或 `False` 。 根據預設，此設定為  `True` 。 您可以使用現有的策略，或建立如下範例。
+若要啟用或停用使用者的離線訊息傳送離線訊息，請將  _EnableIMAutoArchiving 設定_ 為 `True` 或 `False` 。 根據預設，此設定為  `True` 。 您可以使用現有的策略，或建立如下範例。
 
 
   ```PowerShell
@@ -83,15 +83,15 @@ Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
 
-- Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點管理 Microsoft 365 或 Office 365 和 商務用 Skype Online，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+- Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點來管理 Microsoft 365 或 Office 365 和 商務用 Skype Online，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
 
   - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
   - [您可能會想要使用 Windows PowerShell 管理Microsoft 365或Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- Windows PowerShell使用系統管理中心時，Microsoft 365在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
+- Windows PowerShell相比于僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
 
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 

@@ -15,13 +15,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
-description: 摘要：在實施商務用 Skype Server 之前，請先檢查負載平衡考慮。
-ms.openlocfilehash: 7a3851b73443db6be12ef2fd1a875b034eafff74
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：在實施商務用 Skype Server 之前，請先複查負載平衡考慮。
+ms.openlocfilehash: 867c9454aec26e3803447dec8565f210b243db6cf5a2997d18ca08e363eb6c43
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095007"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338071"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>商務用 Skype 的負載平衡需求
  
@@ -29,7 +29,7 @@ ms.locfileid: "51095007"
   
 負載平衡會在集區中的伺服器之間散佈流量。 如果您有前端集區、轉送伺服器集區或 Edge Server 集區，則需要為這些集區部署負載平衡。
   
-商務用 Skype 伺服器支援用戶端對伺服器流量的兩種負載平衡解決方案：網域名稱系統 (DNS) 負載平衡與硬體負載平衡 (通常縮寫為 HLB) 。 DNS 負載平衡提供數種優點，包括簡化管理、更有效率的疑難排解，以及隔離任何可能的硬體負載平衡器問題的商務用 Skype 伺服器流量。
+商務用 Skype Server 支援用戶端對伺服器流量的兩種負載平衡解決方案：網域名稱系統 (DNS) 負載平衡與硬體負載平衡 (通常縮寫為 HLB) 。 DNS 負載平衡提供數種優點，包括簡化管理、更有效率的疑難排解，以及隔離任何可能的硬體負載平衡器問題的商務用 Skype Server 流量的功能。
   
 決定您的部署中每個集區適用的負載平衡解決方案，但切記下列限制： 
   
@@ -39,17 +39,17 @@ ms.locfileid: "51095007"
     
 如果您選擇針對集區使用 DNS 負載平衡，但仍需要針對流量（例如 HTTP 流量）執行硬體負載平衡器，則可大幅簡化硬體負載平衡器的管理。 例如，設定硬體負載平衡器會變得更簡單，因為它只會管理 HTTP 和 HTTPS 流量，而所有其他通訊協定都會透過 DNS 負載平衡來管理。 如需詳細資訊，請參閱 [DNS 負載平衡](load-balancing.md#BKMK_DNSLoadBalancing)。 
   
-針對伺服器對伺服器流量，商務用 Skype 伺服器使用拓撲感知負載平衡。 伺服器讀取中央管理存放區中已發佈的拓撲，以取得拓撲中的伺服器 Fqdn，並在伺服器間自動散佈流量。 管理員不需要設定或管理這種類型的負載平衡。 
+針對伺服器對伺服器的流量，商務用 Skype Server 使用拓撲感知負載平衡。 伺服器讀取中央管理存放區中已發佈的拓撲，以取得拓撲中的伺服器 Fqdn，並在伺服器間自動散佈流量。 管理員不需要設定或管理這種類型的負載平衡。 
   
 如果您使用 DNS 負載平衡，而且需要封鎖特定電腦的流量，只是移除集區 FQDN 的 IP 位址專案是不夠的。 您也必須移除電腦的 DNS 專案。 
   
 ## <a name="hardware-load-balancer-requirements"></a>硬體負載平衡器需求
 
-商務用 Skype 伺服器調整式合併 Edge 拓撲已針對新的部署，針對 DNS 負載平衡進行優化，主要與使用商務用 Skype Server 或 Lync Server 的其他組織合作。 如果在下列任一情況下需要高可用性，則必須在 Edge Server 集區上使用硬體負載平衡器予以因應： 
+商務用 Skype Server 調整式合併 Edge 拓撲已針對新的部署，針對 DNS 負載平衡進行優化，主要與使用商務用 Skype Server 或 Lync Server 的其他組織合作。 如果在下列任一情況下需要高可用性，則必須在 Edge Server 集區上使用硬體負載平衡器予以因應： 
   
 - 與使用 Office 通訊伺服器 2007 R2 或 Office 通訊伺服器2007的組織同盟
     
-- Exchange 2010 與 SP1 前使用 Exchange UM 的遠端使用者 exchange UM
+- Exchange在 2010 Exchange SP1 之前，使用 Exchange um 進行遠端使用者的 um
     
 - 公用 IM 使用者的連線
     
@@ -60,9 +60,9 @@ ms.locfileid: "51095007"
 > 在您使用硬體負載平衡器時，針對內部網路的連線所部署的負載平衡器必須經過設定，使其僅對流向執行 Access Edge Service 與 A/V Edge Service 之伺服器的流量執行負載平衡。對於流向內部 Web Conferencing Edge Service 或內部 XMPP Proxy 服務的流量，不可執行負載平衡。 
   
 > [!NOTE]
-> 商務用 Skype Server 不支援 direct server 傳回 (DSR) NAT。 
+> 商務用 Skype Server 不支援 direct server return (DSR) NAT。 
   
-若要判斷您的硬體負載平衡器是否支援商務用 Skype Server 所需的功能，請參閱 [商務用 skype 的基礎結構](../../../SfbPartnerCertification/certification/infra-gateways.md)。 
+若要判斷您的硬體負載平衡器是否支援商務用 Skype Server 所需的必要功能，請參閱[基礎結構 for 商務用 Skype](../../../SfbPartnerCertification/certification/infra-gateways.md)。 
   
 ### <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a>執行 A/V Edge Service 之 Edge Server 的硬體負載平衡器需求
 
@@ -82,7 +82,7 @@ ms.locfileid: "51095007"
     
 ### <a name="other-hardware-load-balancer-requirements"></a>其他硬體負載平衡器需求
 
-在 Web 服務的商務用 Skype Server 中，Cookie 基礎的親近性需求會大幅減少。 如果您要部署商務用 Skype Server，但不會保留任何 Lync Server 2010 前端伺服器或前端集區，則不需要以 cookie 為基礎的持久性集。 不過，如果您暫時或永久保留任何 Lync Server 2010 前端伺服器或前端集區，您仍會使用以 cookie 為基礎的持久性，因為它是針對 Lync Server 2010 部署及設定。 
+在 Web 服務的商務用 Skype Server 中，以 Cookie 為基礎的親近性需求會大幅降低。 如果您要部署商務用 Skype Server，但不會保留任何 Lync Server 2010 前端伺服器或前端集區，則不需要以 cookie 為基礎的持久性集。 不過，如果您暫時或永久保留任何 Lync Server 2010 前端伺服器或前端集區，您仍會使用以 cookie 為基礎的持久性，因為它是針對 Lync Server 2010 部署及設定。 
   
 > [!NOTE]
 > **如果您決定使用 Cookie 型相似性 (即使您的部署不需要它)**，則這樣做並不會產生任何負面影響。 
@@ -112,11 +112,11 @@ ms.locfileid: "51095007"
 > 如果您要部署行動裝置，您的硬體負載平衡器必須能夠在 TCP 連線中個別地對每個要求進行負載平衡。 最新版的 Apple iOS 行動應用程式需要傳輸層安全性 (TLS) 版本 1.2。  
   
 > [!CAUTION]
-> 如需協力廠商硬體負載平衡器的詳細資訊，請參閱適用于 [商務用 Skype 的基礎結構](../../../SfbPartnerCertification/certification/infra-gateways.md)。  
+> 如需協力廠商硬體負載平衡器的詳細資訊，請參閱[基礎結構的商務用 Skype](../../../SfbPartnerCertification/certification/infra-gateways.md)。  
   
 下面是 Director 與前端集區 Web 服務的硬體負載平衡器需求：
   
-- 針對內部 Web 服務 VIP，在硬體負載平衡器上設定 Source_addr 持續性 (內部連接埠 80、443)。 若為商務用 Skype Server，Source_addr 持續性表示來自單一 IP 位址的多個連線，永遠會傳送至一部伺服器以維護會話狀態。
+- 針對內部 Web 服務 VIP，在硬體負載平衡器上設定 Source_addr 持續性 (內部連接埠 80、443)。 針對商務用 Skype Server，Source_addr 暫留表示來自單一 IP 位址的多個連線，永遠會傳送至一部伺服器以維護會話狀態。
     
 - 使用 TCP 閒置逾時：1800 秒。
     
@@ -139,19 +139,19 @@ ms.locfileid: "51095007"
 |**虛擬 IP/連接埠**|**節點連接埠**|**節點電腦/監視器**|**持續性設定檔**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web int_mco_443_vs  <br/> 443  <br/> |443  <br/> |前端  <br/> 5061  <br/> |來源  <br/> |HTTPS:  <br/> |
-|\<pool\>web int_mco_80_vs  <br/> 80  <br/> |80  <br/> |前端  <br/> 5061  <br/> |來源  <br/> |HTTP:  <br/> |
+|\<pool\>web int_mco_80_vs  <br/> 80  <br/> |80  <br/> |前端  <br/> 5061  <br/> |來源  <br/> |HTTP  <br/> |
    
 **前端伺服器使用者集區-HLB 外部介面**
 
 |**虛擬 IP/連接埠**|**節點連接埠**|**節點電腦/監視器**|**持續性設定檔**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |前端  <br/> 5061  <br/> |無  <br/> |HTTPS:  <br/> |
-|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |前端  <br/> 5061  <br/> |無  <br/> |HTTP:  <br/> |
+|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |前端  <br/> 5061  <br/> |無  <br/> |HTTP  <br/> |
    
 ## <a name="dns-load-balancing"></a>DNS 負載平衡
 <a name="BKMK_DNSLoadBalancing"> </a>
 
-商務用 Skype Server 可讓您在網路上大幅減少負載平衡之管理負荷的軟體解決方案，以進行 DNS 負載平衡。 DNS 負載平衡會平衡商務用 Skype 伺服器特有的網路流量，例如 SIP 流量和媒體流量。
+商務用 Skype Server 可讓您在網路上大幅減少負載平衡之管理負荷的軟體解決方案，啟用 DNS 負載平衡。 DNS 負載平衡會平衡商務用 Skype Server 特有的網路流量，例如 SIP 流量和媒體流量。
   
 如果您部署 DNS 負載平衡，您組織的硬體負載平衡器的管理系統開銷將會降到最低。 此外，負載平衡器中針對 SIP 流量的設定錯誤問題所涉及的複雜疑難排解也得以排除。 您也可以防止伺服器連線，以便將伺服器離線。 DNS 負載平衡也可以確保硬體負載平衡器問題不會影響基本通話路由等這類 SIP 流量元素。
 
@@ -161,15 +161,15 @@ ms.locfileid: "51095007"
 
 ![DNS 網狀圖表範例](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
-相較於將硬體負載平衡器用於全部的流量類型，如果使用 DNS 負載平衡也能讓您購買成本較低的硬體負載平衡器。 您應該使用已透過商務用 Skype 伺服器進行互通性資格測試的負載平衡器。 如需負載平衡器互通性測試的詳細資訊，請參閱 [Lync Server 2010 負載平衡器合作夥伴](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。 適用于商務用 Skype Server 的內容。
+相較於將硬體負載平衡器用於全部的流量類型，如果使用 DNS 負載平衡也能讓您購買成本較低的硬體負載平衡器。 您應該使用已通過互通性驗證測試的負載平衡器與商務用 Skype Server。 如需負載平衡器互通性測試的詳細資訊，請參閱 [Lync Server 2010 負載平衡器合作夥伴](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。 套用至商務用 Skype Server 的內容。
   
 DNS 負載平衡支援前端集區、Edge Server 集區、Director 集區和獨立中繼伺服器集區。
   
-DNS 負載平衡通常是在應用層級實施。 應用程式 (例如，執行商務用 Skype) 的用戶端，會嘗試連線至伺服器集區中從 DNS A 和 (AAAA 傳回的其中一個 IP 位址，如果 IPv6 定址是用於集區完整功能變數名稱) FQDN (的記錄查詢。 
+DNS 負載平衡通常是在應用層級實施。 應用程式 (例如，執行商務用 Skype) 的用戶端會嘗試連線至伺服器集區中從 DNS a 和 AAAA (傳回的其中一個 IP 位址，如果 IPv6 定址是用於集區完整功能變數名稱) FQDN (的記錄查詢。 
   
 例如，如果名為 pool01.contoso.com 的集區中有三部前端伺服器，則會發生下列情況：
   
-- 執行商務用 Skype For pool01.contoso.com 的用戶端查詢 DNS。 查詢會傳回三個 IP 位址，並將其快取如下 (不一定要依此順序) ：
+- 執行商務用 Skype 的用戶端會查詢 pool01.contoso.com 的 DNS。 查詢會傳回三個 IP 位址，並將其快取如下 (不一定要依此順序) ：
     
     pool01.contoso.com 192.168.10.90
     
@@ -181,7 +181,7 @@ DNS 負載平衡通常是在應用層級實施。 應用程式 (例如，執行�
     
 - 如果 TCP 連線成功，用戶端會協商 TLS，以連線至 pool01.contoso.com 上的主要註冊機構。
     
-- 如果用戶端嘗試所有的快取專案，但連線失敗，則會通知使用者目前沒有執行商務用 Skype 伺服器的伺服器。
+- 如果用戶端嘗試所有的快取專案，但連線失敗，則會通知使用者目前沒有任何執行商務用 Skype Server 的伺服器可供使用。
     
 > [!NOTE]
 > DNS 的負載平衡與 DNS 迴圈使用不同 (DNS RR) ，其主要指的是透過 DNS 提供與集區中伺服器對應的不同順序的負載平衡。 通常 DNS RR 只會啟用負載分配，但不會啟用容錯移轉。 例如，如果您在使用 IPv6 定址) 查詢失敗時，由 DNS A 和 AAAA (所傳回的一個 IP 位址進行連線，連接就會失敗。 因此，來自于 DNS 的負載平衡，其本身的 [DNS] 迴圈是不夠可靠的。 您可以搭配 DNS 負載平衡使用 DNS 迴圈。 
@@ -218,11 +218,11 @@ DNS 負載平衡及同盟流量：
   
 #### <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>DNS 負載平衡以及支援的舊版用戶端和伺服器
 
-僅針對執行商務用 Skype 伺服器或 Lync Server 2010 的伺服器，以及 Lync 2013 和商務用 Skype 用戶端，DNS 負載平衡只支援自動容錯移轉。 較舊版本的用戶端和 Office 通訊伺服器仍然可以連線到執行 DNS 負載平衡的集區，但如果這些集區無法連線至 DNS 負載平衡所參照的第一部伺服器，則他們無法容錯移轉至集區中的另一部伺服器。 
+DNS 負載平衡僅支援執行商務用 Skype Server 或 lync Server 2010 的伺服器，以及 Lync 2013 和商務用 Skype 用戶端的自動容錯移轉。 較舊版本的用戶端和 Office 通訊伺服器仍可連線到執行 dns 負載平衡的集區，但如果這些集區無法連線至 dns 負載平衡所參照的第一部伺服器，則他們無法容錯移轉至集區中的另一部伺服器。 
   
-此外，如果您使用 Exchange UM，您必須至少使用 Exchange 2010 SP1 以取得商務用 Skype 伺服器的 DNS 負載平衡支援。 如果您使用舊版的 Exchange，您的使用者將不會有這些 Exchange UM 案例的容錯移轉功能：
+此外，如果您使用 Exchange UM，您必須至少使用 Exchange 2010 SP1 才能取得商務用 Skype Server DNS 負載平衡的支援。 如果您使用舊版的 Exchange，您的使用者將不會有這些 Exchange UM 案例的容錯移轉功能：
   
-- 在電話上播放企業語音信箱
+- 在電話上播放其 Enterprise 語音信箱
     
 - 從 Exchange UM 自動語音應答轉接通話
     
@@ -249,15 +249,15 @@ DNS 負載平衡及同盟流量：
   
 在 Edge Server 上使用 DNS 負載平衡，會導致下列案例喪失容錯移轉能力：
   
-- 與執行 Lync Server 2010 之前發行之商務用 Skype Server 版本之組織的同盟。
+- 與執行 Lync Server 2010 前發行的商務用 Skype Server 版本的組織同盟。
     
 - 透過 XMPP IM) 服務 AOL 和 Yahoo！，除了型提供者和伺服器（如 Google 談話）之外的立即訊息 (交換，您也是目前唯一支援的 XMPP 合作夥伴。
     
 只要集區中的所有 Edge Server 都啟動並執行，這些案例就能運作，但是如果其中一個 Edge Server 無法使用，則在這些案例中任何傳送給該 Edge Server 的要求都會失敗，而不是路由至另一個 Edge Server。
   
- 如果您使用的是 Exchange UM，您必須至少使用 Exchange 2013，以取得對 Edge 的商務用 Skype 伺服器 DNS 負載平衡支援。 如果您使用舊版的 Exchange，您的遠端使用者將不會有這些 Exchange UM 案例的容錯移轉功能：
+ 如果您使用 Exchange UM，您必須至少使用 Exchange 2013，以取得對 Edge 商務用 Skype Server DNS 負載平衡的支援。 如果您使用舊版的 Exchange，您的遠端使用者將不會有這些 Exchange UM 案例的容錯移轉功能：
   
-- 在電話上播放企業語音信箱
+- 在電話上播放其 Enterprise 語音信箱
     
 - 從 Exchange UM 自動語音應答轉接通話
     
@@ -289,4 +289,4 @@ DNS 負載平衡及同盟流量：
 
 如果您使用 DNS 負載平衡，而且需要封鎖特定電腦的流量，只是移除集區 FQDN 的 IP 位址專案是不夠的。 您也必須移除電腦的 DNS 專案。 
   
-請注意，針對伺服器對伺服器的流量，商務用 Skype 伺服器使用拓撲感知負載平衡。 伺服器讀取中央管理存放區中已發佈的拓撲，以取得拓撲中的伺服器 Fqdn，並在伺服器間自動散佈流量。 若要封鎖伺服器接收伺服器對伺服器的流量，您必須從拓撲中移除伺服器。 
+請注意，針對伺服器對伺服器的流量，商務用 Skype Server 使用拓撲感知負載平衡。 伺服器讀取中央管理存放區中已發佈的拓撲，以取得拓撲中的伺服器 Fqdn，並在伺服器間自動散佈流量。 若要封鎖伺服器接收伺服器對伺服器的流量，您必須從拓撲中移除伺服器。 

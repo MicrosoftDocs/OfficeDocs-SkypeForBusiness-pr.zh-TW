@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
-description: 此節點會顯示此 Microsoft SQL Server 的完整功能變數名稱 (FQDN) ，以及該伺服器上的 SQL Server 實例，以及使用此 SQL Server 的集區或伺服器。 您可以執行下列動作：
-ms.openlocfilehash: 4c152cdcc9fd29f25573749934d7a7197360be9d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 此節點會顯示此 Microsoft SQL Server 的完整功能變數名稱 (FQDN) ，以及該伺服器上 SQL Server 的實例，以及使用此 SQL Server 的集區或伺服器。 您可以執行下列動作：
+ms.openlocfilehash: 1abf5a3cf011d90f8efc81531d5f7fa052a57941ec7484b00435d285364ec134
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818163"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338161"
 ---
 # <a name="sql-instance-scope-node"></a>SQL 執行個體範圍節點
  
-此節點會顯示此 Microsoft SQL Server 的完整功能變數名稱 (FQDN) ，以及該伺服器上的 SQL Server 實例，以及使用此 SQL Server 的集區或伺服器。 您可以執行下列動作：
+此節點會顯示此 Microsoft SQL Server 的完整功能變數名稱 (FQDN) ，以及該伺服器上 SQL Server 的實例，以及使用此 SQL Server 的集區或伺服器。 您可以執行下列動作：
   
-- **編輯內容**。 開啟此伺服器的「 **編輯** 內容」頁面，您可以在其中變更伺服器的 FQDN (若尚未發行拓撲) ，以及要使用的 SQL server 實例。
+- **編輯內容**。 開啟此伺服器的「**編輯** 內容」頁面，您可以在其中變更伺服器的 FQDN (若尚未發行拓撲) ，以及要使用 SQL Server 的實例。
     
 - **刪除**。從拓撲中刪除伺服器。
     

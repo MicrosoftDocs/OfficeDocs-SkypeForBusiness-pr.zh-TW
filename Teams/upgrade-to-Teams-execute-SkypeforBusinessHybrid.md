@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 瞭解如何從混合式部署Microsoft Teams升級商務用 Skype組織。
+description: 瞭解如何從混合式部署Microsoft Teams組織商務用 Skype升級。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97725e7a9790f47f9789366567981f0167fdd806
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 21e95d66ca0539c1e041123b082ce38c8b213fea9f9dc147ca42b8209f49935f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104019"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316609"
 ---
 # <a name="upgrade-from-a-skype-for-business-hybrid-deployment-to-teams"></a>從混合式部署商務用 Skype升級至Teams
 
@@ -41,7 +41,7 @@ ms.locfileid: "51104019"
 - [準備您的組織](./upgrade-prepare-organization.md)
 - [進行試驗](./pilot-essentials.md)
 
-如果您已經部署 商務用 Skype 或 Microsoft Lync 內部部署，並且已與 Microsoft 365 或 Office 365 組織進行混合式部署，且貴組織想要選擇性地升級至 Teams，請遵循本文中的指引，使用多種共存模式或全內聯。 在任一升級過程中，如果使用者還沒有線上商務用 Skype，您必須將使用者移至 商務用 Skype Online (，然後指派適當的共存和升級模式) 然後指派他們適當的共存和升級模式。
+如果您已經部署 商務用 Skype 或 Microsoft Lync 內部部署，並且已與 Microsoft 365 或 Office 365 組織進行混合式部署，且貴組織想要選擇性地升級至 Teams，請遵循本文中的指引，使用多種共存模式或全功能。 在任一升級過程中，如果您的使用者還沒有線上商務用 Skype (，您必須將使用者移至 (Online) ，然後指派適當的共存和升級模式。
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -59,6 +59,6 @@ ms.locfileid: "51104019"
 
 ## <a name="phone-system-and-teams-upgrade"></a>電話系統Teams升級
 
-如果您要使用通話方案將 商務用 Skype 混合式部署切換到 電話系統，而 Microsoft 將會成為公用交換電話網路絡 (PSTN) 提供者 ，而且假設您已完成電話號碼轉口，將使用者升級為 Teams 會自動將內撥 PSTN 通話切換至 Teams。
+如果您要使用通話方案將 商務用 Skype 混合式部署轉換至 電話系統，Microsoft 將會成為公用交換電話網路絡 (PSTN) 提供者 ，而且假設您已完成電話號碼轉口，將使用者升級為 Teams 會自動將內撥 PSTN 通話切換至 Teams。
 
 如果通話方案無法使用，或您打算使用現有的 PSTN 連接提供者，您必須將使用現有內部部署或雲端連接器版的企業語音部署或混合式語音部署，轉換至 Microsoft 電話 System Direct 路由。 若要將使用者升級至 Teams，請參閱直接路由的其他電話系統[考慮](./direct-routing-landing-page.md)。

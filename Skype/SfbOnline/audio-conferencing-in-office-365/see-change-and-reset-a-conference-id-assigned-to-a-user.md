@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何在 商務用 Skype Online 中指派會議 ID 給使用者，以及會議 ID 參數應該是什麼。 '
-ms.openlocfilehash: f12982298903485d93582fae3a4f39aaed49170c
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 4b52b3cd7fb3d1ca35937e8c43365f3463134a19e4b9337cfb56b3b9eac1f8b8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237049"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327059"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>在 Online 中查看並重設指派給使用者商務用 Skype ID
 
@@ -35,7 +35,7 @@ ms.locfileid: "52237049"
 > [!Note]
 > 有關使用者會議識別碼Microsoft Teams，請參閱在 Microsoft Teams 中查看[和重設指派給使用者的會議 id。](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)
 
-在 Microsoft 365 或 Office 365 中設定音訊會議並使用 Microsoft 做為音訊會議提供者時，系統會自動將會議 ID 指派給 商務用 Skype 使用者。 會議排程時，指派的會議 ID 會以會議邀請進行。 使用者排程的每個會議都會獲得唯一的會議 ID。
+在 Microsoft 365 或 Office 365 中設定音訊會議並使用 Microsoft 做為音訊會議提供者時，系統會自動將會議 ID 指派給 商務用 Skype 使用者。 會議排程時，指派的會議 ID 會以會議邀請中送出。 使用者排程的每個會議都會獲得唯一的會議 ID。
 
 雖然會自動建立會議 ID 並指派給使用者，但有時候使用者可能不想使用此 ID，而您想要將其設定為特定號碼，或是使用者不記得或遺失其會議 ID。 您可以使用系統 **管理商務用 Skype和** Windows PowerShell來查看、變更和重設其會議 ID。
 
@@ -84,7 +84,7 @@ ms.locfileid: "52237049"
 
 2. 請前往系統管理中心 **>商務用 Skype。**
 
-3. 在 **[商務用 Skype系統管理中心** >  **音訊會議使用者** 中，按一下 [會議識別碼》 下的 [動作窗格>  >  中的 [**重設**。 
+3. 在 **[商務用 Skype系統** 管理中心 >  **音訊會議使用者** 中，按一下 [會議識別碼》 下的 [動作窗格>  >  中的 [**重設**。 
 
 4. 在 [ **重設會議 ID？ 視窗中** ，按一下 **[是**。 系統會自動建立會議 ID，並且會以新的會議 ID 將電子郵件寄給使用者。
 
@@ -99,11 +99,11 @@ ms.locfileid: "52237049"
 ## <a name="what-else-should-you-know"></a>您還需要知道什麼？
 
    > [!IMPORTANT]
-   >  建立新會議 ID 或重設會議 ID 後，來電者無法使用舊的會議 ID。 您應該通知使用者重新排期現有的會議邀請，以確保新會議 ID 已新加入邀請中。 使用者可以使用會議移商務用 Skype工具來更新現有的會議。 若要瞭解如何下載、安裝及執行工具，請參閱：商務用 Skype 和[Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)的會議更新工具、商務用 Skype Online、會議移移工具[ (64](https://go.microsoft.com/fwlink/?LinkID=626047)位) 和 商務用 Skype Online、會議移移工具[ (32](https://www.microsoft.com/download/details.aspx?id=54079)位) 。
+   >  建立新會議 ID 或重設會議 ID 之後，來電者即無法使用舊的會議 ID。 您應該通知使用者重新排期現有的會議邀請，以確保新會議 ID 已新加入邀請中。 使用者可以使用會議移商務用 Skype工具來更新現有的會議。 若要瞭解如何下載、安裝及執行工具，請參閱：商務用 Skype 和[Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)的會議更新工具、商務用 Skype Online、會議移移工具[ (64](https://go.microsoft.com/fwlink/?LinkID=626047)位) 和[商務用 Skype Online、3) 2](https://www.microsoft.com/download/details.aspx?id=54079)位 (會議移移工具 。
 
 - 請參閱 [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) 以深入瞭解 Cmdlet。
 
-- 會議 ID 必須符合音訊會議橋接器上設定的數位長度。 會議 ID 中無法使用字母或特殊字元;只能使用數位。
+- 會議 ID 必須符合音訊會議橋接器上設定的數位長度。 在會議 ID 中，您不能使用字母或特殊字元;只能使用數位。
 
 - 根據預設，所有音訊會議使用者的會議 ID 為 9 位數，而且無法變更位數。
 
@@ -116,9 +116,9 @@ ms.locfileid: "52237049"
 
   - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- Windows PowerShell使用系統管理中心時，Microsoft 365在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
+- Windows PowerShell相比于僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
 
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
