@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中建立主幹設定的新集合
+title: 商務用 Skype Server：建立主幹設定的新集合
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段邊界控制器 (SBC) 之間的關係和功能。
-ms.openlocfilehash: a1be9ff54da001b1d59cdc2bda47c8bd3611418a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) 閘道、IP 公用分支 exchange (PBX) 或會話邊界控制器（在服務提供者上 (SBC) ）之間的關係。
+ms.openlocfilehash: 4e9e6164b7776181b85478c5d420f0bf5e296ac4c02fc23494c5af8808474566
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849938"
 ---
-# <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中建立主幹設定的新集合
+# <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>商務用 Skype Server：建立主幹設定的新集合
 
 SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段邊界控制器 (SBC) 之間的關係和功能。這些設定將指定下列項目：
 - 主幹是否啟用媒體旁路。
@@ -52,14 +52,14 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 ||||
 
 > [!Note]
-> 商務用 Skype Server Get-cstrunkconfiguration Cmdlet 支援其他屬性，但不會顯示在商務用 Skype Server 控制台中。 如需詳細資訊，請參閱 [get-cstrunkconfiguration](/powershell/module/skype/New-CsTrunkConfiguration) Cmdlet 的 [說明] 主題。 
+> 商務用 Skype Server get-cstrunkconfiguration Cmdlet 支援商務用 Skype Server 控制台中未顯示的其他屬性。 如需詳細資訊，請參閱 [get-cstrunkconfiguration](/powershell/module/skype/New-CsTrunkConfiguration) Cmdlet 的 [說明] 主題。 
 
 **使用商務用 Skype Server 控制台建立新的主幹設定設定**
 
-1. 在商務用 Skype Server 控制台中，依序按一下 [ **語音路由**] 和 [ **主幹** 設定]。
+1. 在 [商務用 Skype Server 控制台] 中，按一下 [**語音路由**]，然後按一下 [**主幹** 設定]。
 2. 在 **[主幹組態]** 索引標籤上，按一下 **[新增]**，然後按一下 **[站台主幹]** 以建立在網站範圍的新設定，或按一下 **[集區主幹]** 以建立在服務範圍的新設定。
 3. 在 [ **選取網站** ] 或 [ **選取服務** ] 對話方塊中 (顯示的對話方塊，取決於您是否要建立網站範圍或服務範圍的設定) ，請選取新設定設定的位置，然後按一下 **[確定]**。 如果對話方塊是空白的，表示沒有任何位置可建立新的設定。例如，如果 [ **選取網站** ] 對話方塊是空白的，表示您的所有網站都已被指派主幹設定網站的集合，而每個網站 (，而每個服務) 只能主控一種此類集合。 在這種情況下，您可以刪除現有的集合後再建立新集合，或只是修改現有的集合。
 4. 在 **[新主幹組態]** 對話方塊中，選取適當的選項，然後按一下 **[確定]**。
 5. 集合的 **[State]** 屬性將會更新為 **[未認可]**。如果要認可變更，並刪除集合，請依序按一下 **[認可]** 和 **[全部認可]**。
 6. 在 **[未認可的語音組態設定]** 對話方塊中，按一下 **[確定]**。
-7. 在 [ **商務用 Skype** 控制台] 對話方塊中，按一下 **[確定**]。
+7. 在 [**商務用 Skype 控制台**] 對話方塊中，按一下 **[確定]**。

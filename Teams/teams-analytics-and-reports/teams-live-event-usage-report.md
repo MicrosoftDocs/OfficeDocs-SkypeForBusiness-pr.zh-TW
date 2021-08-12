@@ -17,12 +17,12 @@ description: 瞭解如何使用 Teams 系統管理中心Microsoft Teams即時活
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 971e9bc846ad1a7134c1877a1716fc535ae65e4d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5953951400fbb1e888aec4c3c3e003aa5312a1b96abe13050a049d758c9902eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809283"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285642"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams活動使用方式報告
 
@@ -31,7 +31,7 @@ ms.locfileid: "49809283"
 ## <a name="view-the-live-event-usage-report"></a>查看即時活動使用方式報告
 
 1. 在系統管理中心的左側導Microsoft Teams，按一下 [**分析&報告**  >  **使用方式報告**。 On the **View reports** tab, under **Report**, select **Teams live event usage**.
-2. 在 **日期範圍** 下，選取預先定義的範圍或設定自訂範圍。 您可以將範圍設定為最多顯示一年、目前日期之前和之後六個月的資料。
+2. 在 **日期範圍** 下，選取預先定義的範圍或設定自訂範圍。 您可以將範圍設定為最多顯示一年、六個月之前和目前日期之後的資料。
 3.  (選) 在召集人 **下，您可以選擇** 只顯示由特定使用者組織的即時活動。
 4. 按一下 **[執行報表**> 。  
 
@@ -41,10 +41,10 @@ ms.locfileid: "49809283"
 
 |標注 |描述  |
 |--------|-------------|
-|**1**   |您可以Teams即時附隨報告，查看過去 7 天、28 天的趨勢，或您設定自訂的日期範圍。 |
-|**2**   |每個報表都有產生日期。 報表會反映頁面重新更新時接近即時的活動。 |
+|**1**   |您可以Teams即時活動報告，查看過去 7 天、28 天的趨勢，或您設定自訂的日期範圍。 |
+|**2**   |每個報表都有產生日期。 當頁面重新更新時，報表會反映接近即時的活動。 |
 |**3**   |<ul><li>圖表上的 X 軸是報表的選取日期範圍。</li> <li> Y 軸是總的視圖計數。</li> </ul>將游標停留在給定日期的點上方，以查看該日期所有即時事件的觀看次數。|
-|**4**   |表格會提供每個即時活動的明細。 <ul><li>**事件** 是即時事件的顯示名稱。 按一下事件名稱 [以取得活動](#view-event-details) 的詳細資訊。 </li> <li>**開始時間** 是指事件的開始日期和時間。</li> <li>**事件狀態** 會顯示事件是否已發生。  </li><li>**召集人** 是活動召集人的名稱。</li> <li>**簡報者** 是活動簡報者的名稱。</li><li>**製作** 人是活動製作人的名稱。</li><li>**視圖** 是活動完成之後的唯一視圖數目。</li><li>**錄製** 會顯示錄製設定是已啟用或關閉。</li><li>**生產類型** 會顯示事件是以 Teams或外部應用程式或裝置產生。</li></li> </ul>請注意，如果 Azure AD 中不再有使用者帳戶，使用者名稱會顯示為 「--」于表格中。 <br><br>若要在表格中查看您想要的資訊，請務必新增欄至資料表。 |
+|**4**   |表格會提供每個即時活動的明細。 <ul><li>**事件** 是即時事件的顯示名稱。 按一下事件名稱 [以取得活動](#view-event-details) 的詳細資訊。 </li> <li>**開始時間** 是指事件的開始日期和時間。</li> <li>**事件狀態** 會顯示事件是否已發生。  </li><li>**召集人** 是活動召集人的名稱。</li> <li>**演示** 者是活動簡報者的名稱。</li><li>**製作** 人是活動製作人的名稱。</li><li>**視圖** 是活動完成之後的唯一視圖數目。</li><li>**錄製** 會顯示錄製設定是已啟用或關閉。</li><li>**生產類型** 會顯示事件是以 Teams或外部應用程式或裝置產生。</li></li> </ul>請注意，如果 Azure AD 中不再有使用者帳戶，使用者名稱會顯示為 「--」于表格中。 <br><br>若要在表格中查看您想要的資訊，請務必新增欄至資料表。 |
 |**5**   |選取 **編輯欄** 以新增或移除表格中的欄。|
 
 ## <a name="notes"></a>注釋
@@ -60,5 +60,5 @@ ms.locfileid: "49809283"
 
 ## <a name="related-topics"></a>相關主題
 
-- [Teams分析與報告](teams-reporting-reference.md)
+- [Teams 分析與報告](teams-reporting-reference.md)
 - [什麼是 Teams 即時活動？](../teams-live-events/what-are-teams-live-events.md)

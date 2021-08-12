@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
-description: 代理人是指指派應答回應群組通話的使用者。 回應群組必須有指派的代理人群組，用以識別可以接收回應群組通話的代理人。 建立代理人群組的一種方法是，透過選取合格的使用者來定義自訂群組。 合格的使用者啟用商務用 Skype Server 和 Enterprise Voice。
-ms.openlocfilehash: c245ea9816d60fc8448eeeb00bdfc8351e345784
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 代理人是指指派應答回應群組通話的使用者。 回應群組必須有指派的代理人群組，用以識別可以接收回應群組通話的代理人。 建立代理人群組的一種方法是，透過選取合格的使用者來定義自訂群組。 為商務用 Skype Server 和企業語音啟用合格的使用者。
+ms.openlocfilehash: 59575537fd95a08fc457fedc39bf95b42f8890bd39d651735f0030658b37f8cd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107999"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313401"
 ---
 # <a name="select-agents"></a>選取代理程式
 
-代理人是指指派應答回應群組通話的使用者。 回應群組必須有指派的代理人群組，用以識別可以接收回應群組通話的代理人。 建立代理人群組的一種方法是，透過選取合格的使用者來定義自訂群組。 合格的使用者啟用商務用 Skype Server 和 Enterprise Voice。
+代理人是指指派應答回應群組通話的使用者。 回應群組必須有指派的代理人群組，用以識別可以接收回應群組通話的代理人。 建立代理人群組的一種方法是，透過選取合格的使用者來定義自訂群組。 為商務用 Skype Server 和企業語音啟用合格的使用者。
 
 您可以使用 [ **選取代理** ] 對話方塊，選取要新增至代理人群組的使用者。
 
@@ -32,7 +32,7 @@ ms.locfileid: "51107999"
 
 下列清單說明 [ **選取代理** ] 對話方塊中的控制項。
 
-- **尋找** 搜尋使用者的 SIP 位址或顯示名稱。 輸入全部或部分的位址或名稱。 保留搜尋方塊為空白，以顯示所有已啟用商務用 Skype Server 和 Enterprise Voice 的使用者。
+- **尋找** 搜尋使用者的 SIP 位址或顯示名稱。 輸入全部或部分的位址或名稱。 保留搜尋方塊為空白，以顯示所有已啟用商務用 Skype Server 和企業語音的使用者。
 
 - **顯示的使用者上限** 變更顯示的傳回結果數目。 如果您期望許多結果，請使用此計數器來限制搜尋。
 

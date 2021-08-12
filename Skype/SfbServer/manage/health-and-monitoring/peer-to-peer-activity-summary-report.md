@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 中的 Peer-to-Peer 活動摘要報告
+title: 商務用 Skype Server 中的 Peer-to-Peer 活動摘要報表
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,31 +11,31 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer 活動摘要報告。
-ms.openlocfilehash: b1dddaefc7e824bc7b4387d13c92143e253d69f2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer 活動摘要報表。
+ms.openlocfilehash: da8d23a0a51b23ccfbe0e15b7e2c79f81c88bf3559deb7005dc5d4f75f512ad2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816793"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286792"
 ---
-# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 Peer-to-Peer 活動摘要報告
+# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 Peer-to-Peer 活動摘要報表
  
-**摘要：** 深入瞭解商務用 Skype Server 中的 Peer-to-Peer 活動摘要報告。
+**摘要：** 深入瞭解商務用 Skype Server 中的 Peer-to-Peer 活動摘要報表。
   
-Peer-to-Peer 活動摘要報告可提供對等通訊會話的整體觀點。 點對點工作階段通常只會包含兩位使用者，不需要使用商務用 Skype Server 會議服務。 相比之下，會議通常包含兩個以上的使用者，且需要使用商務用 Skype Server 會議服務。 會議活動會在會議摘要報告上報告。
+Peer-to-Peer 活動摘要報告可提供對等通訊會話的整體觀點。 點對點工作階段通常只涉及兩位使用者，不需要使用商務用 Skype Server 會議服務。 相比之下，會議通常包含兩個以上的使用者，且需要使用商務用 Skype Server 會議服務。 會議活動會在會議摘要報告上報告。
   
 Peer-to-Peer 活動摘要報告可協助您回答如下問題：
   
 - 我的使用者在一般的一天會傳送多少對等立即訊息？
     
-- 是否有任何使用者實際採用商務用 Skype Server 應用程式共用和檔案傳輸功能？
+- 是否有任何使用者真的充分利用商務用 Skype Server 應用程式共用和檔案傳輸功能？
     
 - 使用者抱怨，網路在一天中的特定時間似乎很慢。 對等音訊和影片在這些時段內專門占多少分鐘？
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>存取 Peer-to-Peer 活動摘要報告
 
-您可以從監控報告的首頁存取 Peer-to-Peer 活動摘要報告。 您可以按一下下列其中一個計量， [以在商務用 Skype Server 中開啟 PEER-TO-PEER IM 報告](im-report.md) ：
+您可以從監控報告的首頁存取 Peer-to-Peer 活動摘要報告。 您可以按一下下列其中一個計量，[以在商務用 Skype Server 中開啟 Peer-to-Peer IM 報告](im-report.md)：
   
 - 對等 IM 工作階段總數
     
@@ -69,7 +69,7 @@ Peer-to-Peer 活動摘要報告可協助您回答如下問題：
 |**To** <br/> |時間範圍的結束日期和時間。若要按照小時檢視資料，請輸入結束日期和時間，如下所示：  <br/> 7/17/12015 1:00 PM  <br/> 如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：  <br/> 7/17/12015  <br/> 若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：  <br/> 7/13/2015  <br/> 星期永遠是從星期日開始星期六結束。  <br/> |
 |**Interval** <br/> | 時間間隔。請選取下列其中一項： <br/>  每小時 (最多可以顯示 25 個小時) <br/>  每日 (最多可以顯示 31 天) <br/>  每週 (最多可以顯示 12 週) <br/>  每月 (最多可以顯示 12 個月) <br/>  若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。 例如，如果您選取 [開始日期 7/17/12015] 和 [結束2/28/2015 日期] 的 [每日間隔]，將會顯示 8/7/12015 12:00 AM 到 9/7/12015 12:00 AM (的資料，也就是有31天的資料) 總計。 <br/> |
    
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>度量
 
 下表列出 Peer-to-Peer 活動摘要報告中提供的資訊。
   

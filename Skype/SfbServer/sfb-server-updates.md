@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在單一位置尋找及管理商務用 Skype Server 2015/2019 和 Lync 2013 的更新。 使用此頁面上的連結取得更新的詳細資訊，然後下載更新。
-ms.openlocfilehash: d59037f500bff249ab814632fef100821d63b7b7
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 615efffd595120f7833c3c51d585a381b46f5cc856f11620d60da532dca37334
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574118"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341518"
 ---
 # <a name="skype-for-business-server-updates"></a>商務用 Skype Server 更新
 
@@ -42,7 +42,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 ### <a name="skype-for-business-server-2019-tools"></a>商務用 Skype Server 2019 工具
 
-|套件名稱： |發行日期|
+|套件名稱 |發行日期|
 |:--- |:--- |
 |[UCMA 6.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=57506)     |  2019 年 6 月       |
 |[整合通訊 Managed API 5.0 執行時間](https://www.microsoft.com/en-in/download/details.aspx?id=57507)    | 2018 年 6 月        |
@@ -78,7 +78,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 ### <a name="skype-for-business-server-2015-tools"></a>商務用 Skype Server 2015 工具
 
-|套件名稱： |發行日期|
+|套件名稱 |發行日期|
 |:--- |:--- |
 |[UCMA 5.0 SDK ](https://www.microsoft.com/en-in/download/details.aspx?id=47345)     |  2015 年 5 月       |
 |[整合通訊 Managed API 5.0 執行時間](https://www.microsoft.com/download/details.aspx?id=47344)     |   2015 年 5 月      |
@@ -123,7 +123,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 ### <a name="lync-server-2013-dev-tools"></a>Lync Server 2013 開發工具
 
-|套件名稱：|發行日期|
+|套件名稱|發行日期|
 |:--- |:--- |
 | 整合通訊 Managed API 4.0 執行時間累計更新 |2013 年 7 月 |
 | Lync Server 2013 SDK |2013年2月|
@@ -138,7 +138,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 完整的拓撲包含7個虛擬機器，可讓您充分評估 Microsoft lync 2013、Microsoft Exchange 2013、SharePoint 2013 和 UC 開發平臺 APIs (包括 microsoft lync 2013 SDK、Exchange Web 服務 managed API 2.0、Microsoft Lync Server 2013 sdk，以及 microsoft 整合通訊管理 api 4.0) 。
 
-套件名稱： |發行日期|
+套件名稱 |發行日期|
 |:--- |:--- |
 |[測試磁片磁碟機-Lync Server 2013-第1部分，共3部分](https://www.microsoft.com/download/details.aspx?id=40266) |2013年9月 |
 |[測試磁片磁碟機-Lync Server 2013-第2之1部分](https://www.microsoft.com/download/details.aspx?id=40267) |2013年9月 |
@@ -146,7 +146,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 ### <a name="lync-2013-tools"></a>Lync 2013 工具
 
-|套件名稱： |發行日期|
+|套件名稱 |發行日期|
 |:--- |:--- |
 | Lync Connectivity Analyzer (32-位) 已撤銷 |2017 年 6 月 |
 | Lync Connectivity Analyzer (64-位) 已撤銷 |2017 年 6 月 |
@@ -165,7 +165,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 ### <a name="lync-2013-downloadable-documentation"></a>Lync 2013 可下載檔案
 
-套件名稱： |發行日期|
+套件名稱 |發行日期|
 |:--- |:--- |
 |[Lync Server 2013 檔說明檔案](https://www.microsoft.com/download/details.aspx?id=35405)|2015 年 8 月 |
 
@@ -207,7 +207,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 ### <a name="lync-2010-dev-tools"></a>Lync 2010 開發工具
 
-|套件名稱： |發行日期|
+|套件名稱 |發行日期|
 |:--- |:--- |
 | Lync Server 2010 SDK |November 2010 |
 | Lync 2010 SDK |March 2011 |
@@ -218,7 +218,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 ### <a name="lync-2010-tools"></a>Lync 2010 工具
 
-|套件名稱： |發行日期|
+|套件名稱 |發行日期|
 |:--- |:--- |
 | IM Microsoft Lync Server 2010 的專家 |March 2012 |
 | Lync Server 2010 最佳做法分析程式 |February 2011 |
@@ -231,7 +231,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 ### <a name="lync-2010-downloadable-documentation"></a>Lync 2010 可下載檔案
 
-套件名稱： |發行日期|
+套件名稱 |發行日期|
 |:--- |:--- |
 |[Lync Server 2010 檔說明檔案](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=9720c3f1-ddd4-426b-b98a-f1205561ce00)|March 2012 |
 |[Lync Server 2010 歡迎頁面](/previous-versions/office/skype-server-2010/gg398616(v=ocs.14))|October 2012 |
@@ -247,7 +247,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 ### <a name="group-chat"></a>群組聊天
 
-套件名稱： |發行日期|
+套件名稱 |發行日期|
 |:--- |:--- |
 | Lync Server 2010 Group Chat |November 2010 |
 | Lync Server 2010 群組聊天管理工具 |November 2010 |

@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 必須具備同盟的支援，才能讓具有信任之客戶或夥伴組織之帳戶的使用者（包括夥伴網域和公用立即訊息 (IM) 提供者使用者）與組織中的使用者共同作業。
-ms.openlocfilehash: 34991040e6eed9cfec8d2e3abd3fd3d944057d868f0ca9b83cd4131d3fd13ad0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f9c7b4ee7a861bc395c8599283f8d993b25ef4774d9487263e334207e9e277c8
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849968"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>啟用或停用商務用 Skype Server 中的同盟和公用 IM 連線
 
@@ -71,15 +71,11 @@ ms.locfileid: "54276838"
 
 ## <a name="to-enable-federation-and-public-im-connectivity"></a>啟用同盟和公用 IM 連線
 
-  - 若要啟用同盟和公用 IM 連線，請將 **AllowFederatedUsers** 屬性的值設為 True ($True) ：
-    
-        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $True
+  - 若要啟用同盟和公用 IM 連線，請將 **AllowFederatedUsers** 屬性的值設為 True ($True) ：<br/><br/>Set-CsAccessEdgeConfiguration-AllowFederatedUsers $True
 
 
 
 ## <a name="to-disable-federation-and-public-im-connectivity"></a>停用同盟和公用 IM 連線
 
-  - 若要停用同盟和公用 IM 連線，請將 **AllowFederatedUsers** 屬性的值設為 False ($False) ：
-    
-        Set-CsAccessEdgeConfiguration -AllowFederatedUsers $False
+  - 若要停用同盟和公用 IM 連線，請將 **AllowFederatedUsers** 屬性的值設為 False ($False) ：<br/><br/>Set-CsAccessEdgeConfiguration-AllowFederatedUsers $False
 

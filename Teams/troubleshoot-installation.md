@@ -16,12 +16,12 @@ appliesto:
 localization_priority: Priority
 search.appverid: MET150
 description: 瞭解如何針對 Windows 上的 Teams 桌面用戶端應用程式進行安裝和更新問題的疑難排解。
-ms.openlocfilehash: 6235bd6336940d7d36a7de526eaaf1fbb93f5323
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 7b482daae7378027418896fee718ae5beb88f02f0bcccc9ed8ce6fc988cf8ab6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768365"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350187"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>針對 Windows 上的 Microsoft Teams 安裝和更新問題進行疑難排解
 
@@ -52,7 +52,7 @@ Teams 安裝好後，Teams 安裝程式會將事件順序記錄到 %LocalAppData
 Teams 成功安裝後，記錄位置會從 %LocalAppData%\SquirrelTemp 切換到 %LocalAppData%\Microsoft\Teams。 這個位置有兩個需要注意的記錄檔：SquirrelSetup.log 和 logs.txt。
 
 - 這個位置的 SquirrelSetup.log 檔是由 Update.exe 寫入，這是一個服務 Teams 應用程式的可執行檔。
-- Logs.txt 檔是 Teams 應用程式 (特別是 Teams.exe) 用來記錄重大的應用程式事件。 它可能會包含失敗資訊。
+- Logs.txt 檔是 Teams 應用程式 (特別是 Teams.exe) 用來記錄重大的應用程式。它可能會包含失敗資訊。
 
 這些記錄檔包含個人識別資訊 (PII)，因此不會傳送給 Microsoft。
 
@@ -80,7 +80,7 @@ Teams 可以自動啟動更新程序 (視原則而定)，使用者也可以移�
         ```console
         cd /d %TEMP%
         ```
-    2. 複製安裝記錄和應用程式記錄。 請注意，視失敗點而定，不一定會有其中某些記錄。
+    2. 複製安裝與應用程式記錄。請注意，視失敗點而定，不一定會有其中某些記錄。
 
         ```console
         copy %LocalAppData%\SquirrelTemp\SquirrelSetup.log SquirrelSetup.log

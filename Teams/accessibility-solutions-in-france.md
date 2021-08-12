@@ -22,17 +22,17 @@ ms.custom:
 - Legal
 - seo-marvel-jul2020
 hideEdit: true
-description: Fournir des expériences à tous est au c àur de la mission de Microsoft， qui consiste à permettre à chaque personne et à à chaque 組織 de la planète d'accomplir davantage. Microsoft offre un certain nombre de fonctionnalités d'accessibilité pour Skype Entreprise et Microsoft Teams qui s'inscrivent dans son engagement fort en faveur de l'accessibilité et de l'inclusion.
-ms.openlocfilehash: df9204b5228c520cf73d3dc630250aa70005f868
-ms.sourcegitcommit: 18b5e3487ba1350c5d2e6d676a4ab582b5b638d4
+description: Fournir des expériences à tous est au c àur de la mission de Microsoft， qui consiste à permettre à chaque personne et à chaque 組織 de la planète d'accomplir davantage. Microsoft offre un certain nombre de fonctionnalités d'accessibilité pour Skype Entreprise et Microsoft Teams qui s'inscrivent dans son engagement fort en faveur de l'accessibilité et de l'inclusion.
+ms.openlocfilehash: e8e05e8eeb8a5af889507e7111cbdd478aaab2894cc92f0c5bea5f8bb58e79b8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "48772304"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333005"
 ---
-# <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>適用于法國線上商務用 Skype及Microsoft Teams的協助工具解決方案
+# <a name="accessibility-solutions-for-skype-for-business-online-and-microsoft-teams-in-france"></a>適用于法國線上商務用 Skype和Microsoft Teams的協助工具解決方案
 
-<span class="underline">Rapport sur les actions personées par Microsoft pour favoriser l'accès des personnes en situation de les aux Communications élecroniques</span>
+<span class="underline">Rapport sur les actions engagées par Microsoft pour favoriser l'accès des personnes en situation de les aux Communications élecroniques</span>
 
 Fournir des expériences à tous est au c àur de la mission de Microsoft， qui consiste à permettre à chaque personne et à chaque 組織 de la planète d'accomplir davantage. Microsoft offre un certain nombre de fonctionnalités d'accessibilité pour Skype Entreprise et Microsoft Teams qui s'inscrivent dans son engagement fort en faveur de l'accessibilité et de l'inclusion.
 
@@ -55,12 +55,12 @@ Microsoft Teams 4nit des pages d'aide avec des raccourcis clavier et des instruc
 
 - 使用 d'un lecteur d'écran pour trouver et répondre aux alertes dans Microsoft Teams[https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/utiliser-un-lecteur-d-%C3%A9cran-pour-rechercher-des-alertes-et-y-r%C3%A9pondre-dans-microsoft-teams-8290757e-789d-4e5a-a2ac-9ae4a07d55c2?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)
 
-Microsoft Teams permet désormais aux utilisateurs debrouiller leur arrière-plan ou d'utiliser une image de 進位 pendant les réunions， ce qui peut être utile aux personnes malentendantes qui ont du mal à lire sur les lèvres et à celles qui peuvent être facilement distraites par unvironnement actif： [ https://support.office.com/fr-fr/article/rendre-votre-arri ère-plan-flou-dans-une-réunion-en -équipe-f77a2381-443a-499d-825e-509a140f4780？omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)。
-Les utilisateurs de Microsoft Teams peuvent gérer les notifications par le biais des paramètres， désactiver entièrement les 通知 en activant le mode"Ne pas déranger"， et masquer， mettre en sourdine et épingler les discussion， tout cela contribuant à à distractioner les distractions et à aider l'utilisateur à se concentrer dans un environnement très actif. La possibilité d'activer la 禁止 du bruit en temps réel pour réduire le bruit de tempdant les réunions sera ajoutée.
+Microsoft Teams permet désormais aux utilisateurs debrouiller leur arrière-plan ou d'utiliser une image de 深德 pendant les réunions， ce qui peut être utile aux personnes malentendantes qui ont du mal à lire sur les lèvres et à celles qui peuvent être facilement distraites par un environnement actif： [ https://support.office.com/fr-fr/article/rendre-votre-arri ère-plan-flou-dans-une-réunion-en -équipe-f77a2381-443a-499d-825e-509a140f4780？omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR](https://support.office.com/fr-fr/article/rendre-votre-arrière-plan-flou-dans-une-réunion-en-équipe-f77a2381-443a-499d-825e-509a140f4780?omkt=fr-FR&ui=fr-FR&rs=fr-FR&ad=FR)。
+Les utilisateurs de Microsoft Teams peuvent gérer les notifications par le biais des paramètres， désactiver entièrement les 通知 en activant le mode"Ne pas déranger"， et masquer， mettre en sourdine et épingler les discussions， tout cela contribuant à à 晗椪妍 et à aider l'utilisateur à se concentrer dans un餃nement très actif. La possibilité d'activer la 禁止 du bruit en temps réel pour réduire le bruit de tempdant les réunions sera ajoutée.
 
-Microsoft Teams簡介取消 fonction"la main" qui permettra à toute personne 參與者 à une réunion Microsoft Teams d'方格取消訊號 visuel indiquant qu'elle a quelque 選擇 à À堄， utile à tous les utilisateurs qui souhaitent participer pleinement aux discussion de la réunion， y 包含 les personnes souffrant de les de a 假釋.
+Microsoft Teams簡介取消 fonction"杆 la main" qui permettra à toute personne 參與者 à une réunion Microsoft Teams d'envoyer un signal visuel indiquant qu'elle a quelque 選擇 à À堄， utile à tous les utilisateurs qui souhaitent participer pleinement aux discussion de la réunion， y 包含 les personnes souffrant de les de les la 假釋.
 
-Microsoft Teams permet aux utilisateurs d'épingler et de recadrer les vidéos et de passer de la visualisation du contenu partagé pendant une réunion à celle des personnes qui y participent， ce qui peut être utile aux personnes malentendantes qui lisent sur les lèvres ou utilisent un interprète en langue des signes. Les utilisateurs peuvent égalementer des messages audio et utiliser la technologie de dictée assistée par Microsoft Windows pour convertir la假釋 en texte， ce qui peut aider les personnes malvoyantes et malentendantes à communiquer avec les autres participants à la réunion.
+Microsoft Teams permet aux utilisateurs d'épingler et de recadrer les vidéos et de passer de la visualisation du contenu partagé pendant une réunion à celle des personnes qui y participent， ce qui peut être utile aux personnes malentendantes qui lisent sur les lèvres ou utilisent un interprète en langue des signes. Les utilisateurs peuvent également 的使者 des messages audio et utiliser la technologie de dictée assistée par Microsoft Windows pour convertir la 假釋 en texte， ce qui peut aider les personnes malvoyantes et malentendantes à communiquer avec les autres participants à la réunion.
 
 En outre， la fonction de chat des équipes de Microsoft Teams est 相容 avec un large éventail de technologies d'assistance， notamment les lecteurs d'écran， les logiciels de dictée， le contrôle visuel (sous Windows 10) ， le contrôle 人聲 (sous iOS et Android) ， les agrandisseurs d'écran et les commutateurs d'accès (sous iOS et Android) .
 
@@ -84,9 +84,9 @@ Lorsque vous utilisez Skype Entreprise， les 功能表互動ifs de réponse peu
 Les utilisateurs de Skype Entreprise utilisant Outlook 2010 ou des versions plus récentes peuvent choisir de recevoir leurs messages vocaux au format texte， ce qui peut être bénéfique pour les personnes malentendantes ou sourdes ： [https://support.microsoft.com/fr-fr/office/consultation-de-la-messagerie-vocale-et-des-options-de-skype-entreprise-2deea7f8-831f-4e85-a0d4-b34da55945a8?ui=fr-fr&rs=fr-fr&ad=fr](https://support.microsoft.com/fr-fr/office/consultation-de-la-messagerie-vocale-et-des-options-de-skype-entreprise-2deea7f8-831f-4e85-a0d4-b34da55945a8?ui=fr-fr&rs=fr-fr&ad=fr) .
 Les administrateurs informatiques de Microsoft Teams peuvent gérer la transcription pour leurs clients. 倒出課程加上 facile，Microsoft Teams prend en charge le zoom et Skype Entreprise permet d'ajuster la taille du texte des messages instantanés.
 
-Les pages consacrées à chacune de ces plates-formes décrivent comment se présentent généralement Skype Entreprise et Microsoft Teams sur les appareils qui prennent en charge ces plates-formes， telles Windows， Mac， iOS et Android. Les 描述 de des agencements de Skype Entreprise peuvent être particulièrement utiles aux utilisateurs aveugles， malvoyants ou à mobilité réduite pour les aider à utilire une représentation mentale des points de repère des interfaces utilisateur () afin de faciliter la navigations l'IU.
+Les pages consacrées à chacune de ces plates-formes décrivent comment se présentent généralement Skype Entreprise et Microsoft Teams sur les appareils qui prennent en charge ces plates-formes， telles Windows， Mac， iOS et Android. Les 描述 de des agencements de Skype Entreprise peuvent être particulièrement utiles aux utilisateurs aveugles， malvoyants ou à mobilité réduite pour les aider à utilire une représentation mentale des points de repère des points de repère des interfaces utilisateur (iU) afin de faciliter la navigations l'IU.
 
-La re偵測聲樂 de Windows peut également aider les personnes à mobilité réduite et bénéficier de l'utilisation de commandes vocales plutôt que du clavier ou de la souris. Les 指示傾注 Activer la reurance 人聲樂 sur unurur fonctionnant sous Windows 10 sont disponibles ici： [https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition](https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition) .
+La re偵測聲樂 de Windows peut également aider les personnes à mobilité réduite et bénéficier de l'utilisation de commandes vocales plutôt que du clavier ou de la souris. Les 指示 pour activer la reurance vocale sur unurur fonctionnant sous Windows 10 sont disponibles ici： [https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition](https://support.microsoft.com/fr-fr/help/17208/windows-10-use-speech-recognition) .
 
 ## <a name="assistance-client"></a>協助用戶端
 

@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 摘要：閱讀此主題以瞭解如何升級商務用 Skype Server 的統計資料管理員。
-ms.openlocfilehash: 6f2f0b885faad7bd650b3ff90650b64af98e9eee
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f3ce2a6f92ee1d3bd12994f2fe490b0acd5987e4801a98fa57a3527b9fa47dd8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821763"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333195"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>升級商務用 Skype Server 統計資料
  
 **摘要：** 閱讀此主題以瞭解如何升級商務用 Skype Server 的統計資料管理員。
   
-本主題說明如何為商務用 Skype Server 升級現有的統計資料管理員安裝功能，這是一種強大的工具，可讓您即時查看商務用 Skype 伺服器的健康情況和效能資料。 您可以每隔幾秒輪詢每數百部伺服器上的效能資料，並在統計資料管理員網站上立即查看結果。 
+本主題說明如何升級商務用 Skype Server 的統計資料管理員現有安裝，這是一種強大的工具，可讓您即時查看商務用 Skype Server 健康情況與效能資料。 您可以每隔幾秒輪詢每數百部伺服器上的效能資料，並在統計資料管理員網站上立即查看結果。 
   
-如需有關統計資料管理員的詳細資訊，以及版本2.0 中的新功能，請參閱 [Plan For 商務用 Skype server 的統計資料管理員](plan.md) 和 [部署商務用 Skype Server 的統計資料管理員](deploy.md)。
+如需有關統計資料管理員的詳細資訊，以及版本2.0 中的新功能，請參閱[規劃商務用 Skype Server 的統計資料管理員](plan.md)及[部署商務用 Skype Server 的統計資料管理員](deploy.md)。
   
 有兩種升級方法：
   

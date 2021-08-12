@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 瞭解如何將現有的電話號碼從目前的服務提供者移至 Microsoft 365 商務語音。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26f686197963f53f20477ccd9a16935c86a16d9f
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 230b49c60376fa63df6955c5946be0b0cfdfdd9805882d260f9e3c6ec3b6ce60
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282610"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341458"
 ---
 # <a name="step-7-port-phone-numbers-to-business-voice-optional"></a>步驟 7. 移植電話號碼至商務語音 (選用)
 

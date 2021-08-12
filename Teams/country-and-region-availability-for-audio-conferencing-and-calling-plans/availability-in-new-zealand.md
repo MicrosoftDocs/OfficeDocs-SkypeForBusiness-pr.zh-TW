@@ -1,5 +1,5 @@
 ---
-title: 紐西蘭的可用性
+title: 在紐西蘭的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于紐西蘭Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: f7654d1b7b4920e327d7a7db7c9970bc54e4575d
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 8ea346d34a89f7e52e21f16e78f3fd779d9e46fef750e8dca003042ebcaf63f4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130272"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332845"
 ---
-# <a name="availability-in-new-zealand"></a>紐西蘭的可用性
+# <a name="availability-in-new-zealand"></a>在紐西蘭的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 

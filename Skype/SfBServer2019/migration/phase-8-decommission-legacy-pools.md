@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.custom: httpsfix
 description: 下列主題提供更新 DNS 專案、移動內容管理伺服器、解除委任集區，以及從舊版部署停用和移除伺服器及集區的指導方針。 本節所列的程序並非全為必要程序。 請閱讀文件並判斷應使用哪些解除委任程序。
-ms.openlocfilehash: b1080c68e3b4075ce92aaef497854855135dc47d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7b96639b07ee8788f109a08f38265f4c0c27e0f035b1a7729488d4064ec31208
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113239"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285513"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>階段 8：解除委任舊版集區
 
@@ -40,6 +40,6 @@ ms.locfileid: "51113239"
 > 
 > [移除監控伺服器關聯](remove-the-monitoring-server-association.md)
 > 
-> [移除 Enterprise Edition 前端伺服器或 Standard Edition 前端伺服器](remove-the-front-end-server.md)
+> [移除 Enterprise Edition 前端伺服器或前端伺服器 Standard Edition](remove-the-front-end-server.md)
 > 
 > [移除後端伺服器上的 SQL Server 執行個體與資料庫](remove-sql-server-instances-and-databases-on-the-back-end-server.md)

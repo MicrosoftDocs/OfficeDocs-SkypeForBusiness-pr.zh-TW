@@ -15,25 +15,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c508eab-0b08-4fb2-b2b2-eca2eaf2053a
 description: 在拓撲產生器中定義新的 VIS 或視頻閘道所需的步驟，將在商務用 Skype Server 2015 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: 421cc80542c50495c69612261bc276e042971639
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5511de15410d152b89e58d734158666124cdcd185d2ab96c450d71387e15f557
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817883"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298173"
 ---
 # <a name="video-interop-server-general-settings"></a>視訊 Interop 伺服器一般設定
  
-在拓撲產生器中定義新的 VIS 或視頻閘道所需的步驟，將在 [商務用 Skype Server 2015 中的 [建立 VIS 集](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)區] 中說明為線上。
+在拓撲產生器中定義新的 VIS 或視頻閘道所需的步驟，將在商務用 Skype Server 2015 中的 [[建立 VIS 集](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)區] 中說明為線上。
   
-在使用 Windows PowerShell 的伺服器上指派「影片」 Interop 伺服器角色所需的步驟，會在在[商務用 Skype Server 2015 中的 DEPLOY VIS server role 中](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)說明為線上。
+在[商務用 Skype Server 2015 的「部署 VIS server role」中](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)說明在使用 Windows PowerShell 的伺服器上指派視頻 Interop 伺服器角色所需的步驟。
   
-使用 Windows PowerShell 的新視頻 Interop 伺服器設定步驟，會在 [ [在商務用 Skype server 2015 中設定影片 Interop 伺服器] 中](../../deploy/deploy-video-interop-server/configure-the-vis.md)說明為線上。
+使用 Windows PowerShell 的新視頻 interop 伺服器設定步驟，會在[商務用 Skype Server 2015 中設定視頻 Interop 伺服器](../../deploy/deploy-video-interop-server/configure-the-vis.md)時，以線上說明。
   
- 為了 [與商務用 Skype Server 2015 進行交互操作](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)，您必須在 Cisco GUI 中設定的視頻閘道的設定，以便與 VIS 交互操作。
+ 若要在 Cisco GUI 中設定需要在 Cisco GUI 中設定的影片閘道設定，以在 VIS 中進行交互操作，請參閱[Configure CUCM to with 商務用 Skype Server 2015](../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md)。
   
- 若要在 Cisco GUI 中設定之 VTC 的設定，以便與影片閘道和 VIS 進行交互操作，請參閱 [Configure a VTC for](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)business To business Server 2015 中的互用性。
+ 若要在 Cisco GUI 中設定之 VTC 的設定，以便與影片閘道和 VIS 進行交互操作，請參閱[Configure a VTC for interop to a with the 商務用 Skype Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)。
   
 ## <a name="see-also"></a>另請參閱
 
-[在商務用 Skype Server 2015 中規劃影片 Interop 伺服器](../../plan-your-deployment/video-interop-server.md)
+[在商務用 Skype Server 2015 中規劃視頻 Interop 伺服器](../../plan-your-deployment/video-interop-server.md)

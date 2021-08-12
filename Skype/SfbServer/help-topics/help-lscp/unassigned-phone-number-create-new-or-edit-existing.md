@@ -1,5 +1,5 @@
 ---
-title: 未指派電話號碼建立新的或編輯現有
+title: 未指派的電話號碼建立新的或編輯現有
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 description: 未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。未指派的號碼表可識別您希望用來處理撥打至未指派號碼的方式。
-ms.openlocfilehash: c757be0b49638c39a9f20f83baf680508a907b20
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 13b2caaa8e7b364fa60ab32e6c62f982612121c4861197cd2b76597975c0ba50
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116181"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313391"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未指派電話號碼：建立新的或編輯現有
 
@@ -44,7 +44,7 @@ ms.locfileid: "51116181"
 
   - 此數位必須符合正則運算式 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 。 這表示 `tel:` 如果您未指定該字串將會自動為您新增) 、加號 (+) 及數位1到9，則 (的數位可以以字串開頭。 電話號碼最多可達 17 位，且後面可以再加分機，格式為 ;ext= 分機號碼。
 
-- **宣告服務** 選取 [ **宣告** ]，讓宣告應用程式處理來電或 **exchange Um** ，讓 exchange um 自動語音應答處理傳入的呼叫。
+- **宣告服務** 選取 [**宣告**]，讓宣告應用程式處理來電或 **Exchange um** ，讓 Exchange um 自動語音應答處理傳入的呼叫。
 
 - 若您選取 [宣告服務] 的 [宣告]：
 
@@ -56,4 +56,4 @@ ms.locfileid: "51116181"
 
   - **自動語音應答電話號碼** 選取 Exchange UM 自動語音應答的電話號碼。
 
-如需公告功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype 2015 中規劃宣告應用程式](../../plan-your-deployment/enterprise-voice-solution/announcement.md) 。 如需使用未指派號碼範圍的詳細資訊，請參閱作業文件中的＜[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)＞。
+如需公告功能及功能的詳細資訊，請參閱規劃檔中的在[商務用 Skype 2015 中規劃宣告應用程式](../../plan-your-deployment/enterprise-voice-solution/announcement.md)。 如需使用未指派號碼範圍的詳細資訊，請參閱作業文件中的＜[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)＞。

@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 42ded974ba5f4400bdcb5796410a8277fbed4488
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a8aa2818cb2b4be85054f8804fa6a11112c4e8a68cc171e9b9f7191e3f3a5bfd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103969"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322915"
 ---
 # <a name="prepare-my-service"></a>準備我的服務
 
-本文概述為貴組織準備雲端語音服務的需求。 通過妥善準備，您可以確定已準備好為貴組織提供雲端語音功能。
+本文概述為貴組織準備雲端語音服務的需求。 通過正確準備，您可以確定已準備好為貴組織提供雲端語音功能。
 
 ## <a name="onboarding-checklists-for-microsoft-teams-voice-workloads"></a>針對語音工作負載Microsoft Teams檢查清單
 
@@ -40,23 +40,23 @@ ms.locfileid: "51103969"
 
 *  [準備您的網路](prepare-network.md)
 
-*  [在用戶端中設定Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
+*  [設定雲端語音工作負載Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)
 
 *  [在中設定直接路由Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)
 
 這些檢查清單的工作和活動是核心的「工作」專案，可適用于每一個雲端語音功能部署，Teams。 您可以自訂檢查清單，以包含您自己的行程中特有的活動Teams工作。
 
 >[!NOTE]
->本指南僅著重于通話方案、音訊會議和直接路由。 如果您第一次Teams，[請Microsoft Teams。](teams-overview.md) 有關規劃您的部署Teams一般指南，請從部署聊天、[團隊](deploy-chat-teams-channels-microsoft-teams-landing-page.md)、頻道和應用程式開始在 Microsoft Teams。
+>本指南僅著重于通話方案、音訊會議和直接路由。 如果您第一次使用 Teams，請流覽[Microsoft Teams。](teams-overview.md) 有關規劃部署之一般Teams，請從在 Microsoft Teams 中部署[聊天、團隊、頻道Microsoft Teams。](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 
 使用提供的檢查清單來追蹤每個個別活動和工作的狀態，並確保您未略過任何重要步驟。 每個活動包含所需動作的詳細描述，以及可用於完成該活動之額外資訊的參照。
 
-雖然我們建議您依序遵循檢查清單，但確切的順序會視您的部署範圍，以及您環境的組組和複雜度而決定。 這些部署會組織成支援「greenfield」Teams部署 (之前沒有 商務用 Skype Online 目前狀態) 或從 商務用 Skype Online 移Teams。 如果您是從線上商務用 Skype，您可能已經完成其中一些活動，現在可以忽略這些活動。
+雖然我們建議您依序遵循檢查清單，但確切的順序會視您的部署範圍，以及您環境的組組和複雜度而決定。 他們組織起來可支援「greenfield」Teams部署 (之前沒有 商務用 Skype Online 目前狀態) 或從 商務用 Skype Online 移Teams。 如果您是從線上商務用 Skype，您可能已經完成其中一些活動，現在可以忽略這些活動。
 
 當您以每個網站為基礎啟動使用者時，強烈建議您使用 Voice [ (Playbook ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)) 網站啟用 Playbook) 做為這些檢查清單的補充指南。
 
 >[!NOTE]
->大部分的設定設定在 Teams 和 商務用 Skype 之間商務用 Skype常見。 您可以使用系統管理Microsoft 365系統管理中心Microsoft Teams系統管理中心來設定這些設定。
+>大部分的設定設定在 Teams 和 商務用 Skype 之間商務用 Skype常見。 您可以使用中心Microsoft 365 系統管理系統管理Microsoft Teams系統管理中心來設定這些設定。
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>神秘將負責監督上機檢查清單的完成情況？</li></ul></td></tr>
@@ -71,7 +71,7 @@ ms.locfileid: "51103969"
 
 下一個步驟是使用 Voice (Playbook) 網站啟用 [Playbook) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 來協助您在每個網站上上手，並有助於確保您規劃並執行重要的網站特定活動。
 
--   已準備就緒的網站按網站推出計畫
+-   已準備就緒的按網站推出計畫的網站
 
 -   建立服務管理程式
 
@@ -87,13 +87,13 @@ ms.locfileid: "51103969"
 
 ## <a name="define-your-testing-approach"></a>定義您的測試方法
 
-測試方法最簡單的形式是以檢閱音訊會議、通話方案或直接路由服務的功能為基礎，並開發測試計劃，以驗證您的功能需求是否符合範圍中的使用者。 以下是音訊會議實施之板載階段範例測試計劃。
+測試方法最簡單的形式是檢閱音訊會議、通話方案或直接路由服務的功能，並開發測試計劃，以確認您的功能需求在範圍中符合使用者。 以下是音訊會議實施之板載階段範例測試計劃。
 
 
 | 要測試的音訊會議功能 | 結果摘要 | 其他筆記 |
 |------------|-----------------|------------------|
 | 排程包含音訊Teams撥入資訊的臨時會議 | 通過/失敗   | 待定 |
-| 使用電話使用會議音訊，從 PSTN 撥入會議，並包含提供的撥入資訊 | 通過/失敗 | 待定 |
+| 使用電話使用會議音訊，從 PSTN 撥入會議，提供撥入資訊 | 通過/失敗 | 待定 |
 | 透過 PSTN 撥出電話，讓其他人加入現有的會議 | 通過/失敗 | 待定 |
 
 
@@ -112,7 +112,7 @@ ms.locfileid: "51103969"
 
 ## <a name="set-up-cloud-voice-workloads-for-teams"></a>設定雲端語音工作負載Teams
 
-現在，您定義測試方法後，下一個步驟是針對雲端語音功能來Teams服務環境和使用者。
+現在，您定義測試方法後，下一個步驟就是針對雲端語音功能來Teams環境及使用者。
 
 有關其他資訊，請參閱：
 
@@ -130,7 +130,7 @@ ms.locfileid: "51103969"
 
 ### <a name="execute-the-test-plan"></a>執行測試計劃
 
-[//]: # (編輯正常嗎？「使用者」對我來說似乎有點模糊。)
+[//]: # (編輯正常嗎？「使用者」似乎有點模糊。)
 在使用者環境和服務完成配置之後，測試的最後一個步驟包括測試計劃執行，並著重于功能驗證。 
 
 **音訊會議測試使用者和網站在範圍中的先決條件和假設：**
@@ -141,7 +141,7 @@ ms.locfileid: "51103969"
 
 -   已識別組織網站和使用者群組清單。
 
--   已識別並設定具有語言喜好設定之專用和共用音訊會議電話撥入號碼的清單。
+-   已識別並設定具有語言喜好設定之專用和共用音訊會議電話撥入清單。
 
 -   [已](what-are-communications-credits.md) 針對 (設定) 通訊信用額度。
 
@@ -153,13 +153,13 @@ ms.locfileid: "51103969"
 
 **通話方案測試使用者和網站在範圍中的先決條件和假設：**
 
--   已完成通話方案服務的企業使用案例定義。
+-   已完成通話方案服務的商務使用案例定義。
 
--   通話方案所需的授權是可用的，而且已指派。
+-   通話方案所需的授權可供使用，而且已指派。
 
 -   已識別組織網站和使用者群組清單。
 
--   電話指派給使用者的號碼已經取得或移植到 Microsoft，且可在租使用者入口網站取得。
+-   電話指派給使用者的號碼已經取得或移植到 Microsoft，可在租使用者入口網站取得。
 
 -   [已](what-are-communications-credits.md) 針對 (設定) 通訊信用額度。
 
@@ -186,8 +186,8 @@ ms.locfileid: "51103969"
 -   已識別並配置直接路由合規性需求。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>決定將部署哪些音訊會議功能 (服務決策) 。</li><li>識別音訊會議的使用者功能需求。</li><li>識別音訊會議的服務組組需求。</li><br><li>決定是否要部署和配置直接路由或通話方案。<li>決定電話系統服務決策中 (哪些功能) 。</li><li>識別通話方案或直接路由的使用者功能需求。</li><li>識別通話方案或直接路由的服務組組需求。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>後續步驟</td><td><ul><li>開發和記錄您的測試計劃方法。</li><li>在音訊會議功能範圍內準備您的服務環境和使用者。</li><li>在通話方案或直接路由功能範圍內準備您的服務環境和使用者。</li><li>針對您想要啟用的音訊會議功能執行測試驗證。</li><li>針對您想要啟用的通話方案或直接路由功能執行測試驗證。</li><li>針對任何測試失敗，請確認您的組組正確無誤、檢閱社群文章，並提出支援案例 ，如有必要。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>決定將部署哪些音訊會議功能 (服務決策) 。</li><li>識別音訊會議的使用者功能需求。</li><li>識別音訊會議的服務組組需求。</li><br><li>決定是否要部署和配置直接路由或通話方案。<li>決定要電話系統服務決策中的哪些 (功能) 。</li><li>識別通話方案或直接路由的使用者功能需求。</li><li>識別通話方案或直接路由的服務組組需求。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>後續步驟</td><td><ul><li>開發和記錄您的測試計劃方法。</li><li>在音訊會議功能範圍內準備您的服務環境和使用者。</li><li>在通話方案或直接路由功能範圍內準備您的服務環境和使用者。</li><li>針對您想要啟用的音訊會議功能執行測試驗證。</li><li>針對您想要啟用的通話方案或直接路由功能執行測試驗證。</li><li>針對任何測試失敗，請確認您的組組正確無誤，檢閱社群文章，並提出支援案例 ，如有必要。</li></ul></td></tr>
 </table>
 
 

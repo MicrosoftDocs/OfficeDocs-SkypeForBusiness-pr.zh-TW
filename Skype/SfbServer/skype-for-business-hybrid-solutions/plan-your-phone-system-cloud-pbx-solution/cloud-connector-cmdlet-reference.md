@@ -12,20 +12,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
-description: 下表列出商務用 Skype 雲端連接器 Edition Cmdlet，具有簡短描述，以及詳細資訊的連結。
-ms.openlocfilehash: 3739518dd8ddcd17bce8108228d0d643ebaa79a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 下表列出具有簡短描述的商務用 Skype Cloud Connector Edition Cmdlet，以及詳細資訊的連結。
+ms.openlocfilehash: a5a29003db50f79440b6bd0393bce63b8597d90df35cded4b7b6c0114b165b97
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092931"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341488"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>Cloud Connector Cmdlet 參考
  
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會在2021年7月31日和商務用 Skype 線上時終止。 當您的組織升級至 Teams 後，請瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話網絡連線至 Teams。
 
-下表列出商務用 Skype 雲端連接器 Edition Cmdlet，具有簡短描述，以及詳細資訊的連結。
+下表列出具有簡短描述的商務用 Skype Cloud Connector Edition Cmdlet，以及詳細資訊的連結。
   
 > [!NOTE]
 > 您必須在雲端連接器主機機器上執行所有 Cmdlet，而且必須以系統管理員身分執行 PowerShell 會話。 
@@ -33,11 +33,11 @@ ms.locfileid: "51092931"
 |**Cmdlet 名稱**|**描述**|
 |:-----|:-----|
 |[Backup-CcCertificationAuthority](backup-cccertificationauthority.md) <br/> 版本1.4.2 和更新版本  <br/> |將憑證授權單位服務備份至檔案，並將其儲存至網站共用目錄下的 CA 資料夾。     <br/> |
-|[Convert-CcIsoToVhdx](convert-ccisotovhdx.md) <br/> |使用客戶提供的 Windows Server 2012 R2 ISO 檔案，建立基本虛擬硬碟檔案 (VHDX) 。 在部署 ofCloud 連接器期間，將會使用 VHDX 檔案。  <br/> |
+|[Convert-CcIsoToVhdx](convert-ccisotovhdx.md) <br/> |使用客戶提供 Windows Server 2012 R2 ISO 檔案，建立基本虛擬硬碟檔案 (VHDX) 。 在部署 ofCloud 連接器期間，將會使用 VHDX 檔案。  <br/> |
 |[Enter-CcUpdate](enter-ccupdate.md) <br/> |以維護模式來準備更新程式的雲端連接器主機伺服器。 裝置已「耗盡」;也就是說，所有的現有呼叫都會完成，但拒絕新來電。  <br/> |
 |[Exit-CcUpdate](exit-ccupdate.md) <br/> |在雲端連接器主機伺服器上退出更新維護模式。  <br/> |
-|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | 在商務用 skype 雲端連接器 Edition 主伺服器上，將商務用 Skype 雲端連接器版本設定匯出至本機檔案。 <br/> |
-|[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md) <br/> |將雲端連接器範例設定檔 ( .ini) 匯出至雲端連接器裝置的裝置目錄。 您可以修改和重新命名檔案，以用於部署。  <br/> |
+|[Export-CcConfiguration](export-ccconfiguration.md) <br/> | 將商務用 Skype Cloud Connector Edition 設定匯出至商務用 Skype Cloud Connector Edition 主伺服器上的本機檔案。 <br/> |
+|[Export-CcConfigurationSampleFile](export-ccconfigurationsamplefile.md) <br/> |匯出雲端連接器範例設定檔 (.ini) 雲端連接器裝置的裝置目錄。 您可以修改和重新命名檔案，以用於部署。  <br/> |
 |[Export-CcRootCertificate](export-ccrootcertificate.md) <br/> 版本1.4.2 和更新版本  <br/> |將根 CA 憑證匯出至雲端連接器主機伺服器上的本機檔案。  <br/> |
 |[Get-CcApplianceDirectory](get-ccappliancedirectory.md) <br/> |在雲端連接器主機伺服器上檢索工作目錄。 所有部署檔案都會儲存在這個目錄中。  <br/> |
 |[Get-CcApplianceLogDirectory](get-ccappliancelogdirectory.md) <br/> |顯示儲存雲端連接器裝置記錄檔的目前目錄。  <br/> |
@@ -47,7 +47,7 @@ ms.locfileid: "51092931"
 |[Get-CcSiteDirectory](get-ccsitedirectory.md) <br/> |顯示存放網站層級設定檔的目前目錄。 資料夾包含基本 VHD 和 Cloud Connector 安裝檔案。 此資料夾應與雲端連接器網站的所有其他裝置共用。  <br/> |
 |[Get-CcSiteLogDirectory](get-ccsitelogdirectory.md) <br/> |顯示儲存雲端連接器之網站層級記錄的目前目錄。  <br/> |
 |[Get-CcVersion](get-ccversion.md) <br/> 版本2.0 和更新版本  <br/> |傳回雲端連接器實例上的版本。 Get-CCVersion 只能用於 Cloud Connector 的主機電腦。  <br/> |
-|[Import-CcConfiguration](import-ccconfiguration.md) <br/> 版本2.0 和更新版本  <br/> |將商務用 Skype 雲端連接器版本設定從本機檔案匯入雲端連接器主機伺服器。  <br/> |
+|[Import-CcConfiguration](import-ccconfiguration.md) <br/> 版本2.0 和更新版本  <br/> |將本機檔案的商務用 Skype Cloud Connector Edition 設定匯入雲端連接器主機伺服器。  <br/> |
 |[Install-CcAppliance](install-ccappliance.md) <br/> |在主伺服器上安裝 Cloud Connector 裝置（包括 AD、中央管理存放區、轉送伺服器和 Edge Server 虛擬機器）。  <br/> |
 |[Publish-CcAppliance](publish-ccappliance.md) <br/> | 從線上承租人設定取得高可用性資訊，並將其發佈至主伺服器上的雲端連接器裝置。 <br/> |
 |[Register-CcAppliance](register-ccappliance.md) <br/> | 在線上承租人設定中向 PSTN 網站註冊裝置資訊。 裝置必須先註冊，雲連接器管理服務才能部署及管理。 <br/> |

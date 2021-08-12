@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: 會議原則定義使用者在會議 (又稱為會議) 時可用的功能和功能。
-ms.openlocfilehash: 073019a46e2934f78ec0f20b8a7cb8e04c01bab9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4c99caab263df4a000f65ecff62b2280c7999b94c52509acdce963e93c29a21a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121016"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313501"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>會議原則：建立新的或編輯現有原則
 
@@ -63,7 +63,7 @@ ms.locfileid: "51121016"
 
 - **允許匿名參與者撥出** 如果您允許使用者撥入會議，而您想要允許未驗證 (匿名) 使用者使用撥出 phoning 加入會議，請選取此核取方塊。 透過撥出 phoning，會議服務器呼叫使用者，而使用者接聽電話以加入會議。
 
-- **允許未啟用 Enterprise Voice 的參與者撥出** 如果您在 [ **音訊/影片**] 中啟用音訊，請選取此核取方塊，可允許未啟用 Enterprise Voice 的使用者加入使用撥出 phoning 的會議。 使用撥出 phoning 時，會議服務器會電話給使用者，然後使用者接聽電話以加入會議。
+- **允許參與者未啟用企業語音以撥出** 如果您在 [**音訊/影片**] 中啟用音訊，請選取此核取方塊以允許未啟用企業語音的使用者使用撥出 phoning 加入會議。 使用撥出 phoning 時，會議服務器會電話給使用者，然後使用者接聽電話以加入會議。
 
 - **允許多個影片流量** 如果您在 [ **音訊/影片**] 中啟用 [影片]，請選取此核取方塊以允許使用者利用圖庫 View 影片來組織會議。 當選中此核取方塊時，此設定可讓使用者組織傳送多個影片資料流程的會議。 未選取此核取方塊時，使用者只能組織傳送單一影片的會議。
 

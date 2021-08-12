@@ -1,5 +1,5 @@
 ---
-title: 設定商務用 Skype Server 2015 應力和效能工具的原則
+title: 設定商務用 Skype Server 2015 壓力和效能工具的原則
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
 description: 商務用 Skype Server 2015 應力和效能工具的原則設定。
-ms.openlocfilehash: bb049d5740d74e5ebeacd8a21d00e2644da61a7c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0a7e93e0e6a25195b1e9723ce6eb31b4c9f9fbd200d390f225a2be29c4106b0a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815033"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333185"
 ---
-# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>設定商務用 Skype Server 2015 應力和效能工具的原則
+# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>設定商務用 Skype Server 2015 壓力和效能工具的原則
  
 商務用 Skype Server 2015 應力和效能工具的原則設定。
   
@@ -79,9 +79,9 @@ ContactsPolicy.ps1 腳本將會是您需要複習的範例。 如果您需要進
   
 例如，在 RoutingRules.ps1 範例中對 **get-csdialplan 指令程式** 的呼叫中，SimpleName 參數應該用於下列 UserProfileGenerator.exe 中的 microsoft.rtc.management.writableconfig.policy.voice.locationprofile 值：
   
-![商務用 Skype 載入設定工具、語音案例] 索引標籤、[交談的高級設定]。](../../media/59f42e4e-8f1e-4d43-9ae2-9e6026191951.png)
+![商務用 Skype 載入設定工具、語音案例] 索引標籤、[交談] 的高級設定。](../../media/59f42e4e-8f1e-4d43-9ae2-9e6026191951.png)
   
-如需詳細資訊，您可以複查 Enterprise Voice Cmdlet。
+如需詳細資訊，您可以複查企業語音 Cmdlet。
   
 ## <a name="conference-attendant-application"></a>會議助理應用程式
 <a name="ConfAttendantApp"> </a>
@@ -113,7 +113,7 @@ ContactsPolicy.ps1 腳本將會是您需要複習的範例。 如果您需要進
   
 3. 當您已在 UserProvisioningTool 中輸入內容時，請按一下 [ **產生 .lis 的 Config Files** ] 按鈕。
     
-4. 現在會產生壓力和效能工具 (Wap) 的埠、子網、交換器和無線存取點的 CSV 檔案。 設定 Location 資訊服務 (.LIS) 使用 LisConfiguration.ps1 腳本時，您可以使用 CSV 檔案進行輸入。 若要這麼做，您必須將 Locations0.xml 檔案移至與壓力和效能工具可執行檔 ( # A1) 相同的資料夾。 這可讓您執行位置設定檔 (撥號對應表) 案例。
+4. 現在會產生壓力和效能工具 (Wap) 的埠、子網、交換器和無線存取點的 CSV 檔案。 設定 Location 資訊服務 (.LIS) 使用 LisConfiguration.ps1 腳本時，您可以使用 CSV 檔案進行輸入。 若要這麼做，您必須將 Locations0.xml 檔案移至與壓力和效能工具可執行檔 (LyncPerfTool.exe) 相同的資料夾。 這可讓您執行位置設定檔 (撥號對應表) 案例。
     
 ## <a name="configuring-response-group-application"></a>設定回應群組應用程式
 <a name="ConfigResponseGroupApp"> </a>

@@ -1,5 +1,5 @@
 ---
-title: 斯洛伐克的免付費撥號限制
+title: 斯洛伐克免付費撥號限制
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解在斯洛伐克撥打免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
-ms.openlocfilehash: 446c36fdb66fc08292ad8dfa94f4f708d0def087
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6242443e32660f8a106c5b0642076968f2f41b3f2a17096ad1fa72a062e90217
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116631"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285612"
 ---
-# <a name="toll-free-dialing-restrictions-in-slovakia"></a>斯洛伐克的免付費撥號限制
+# <a name="toll-free-dialing-restrictions-in-slovakia"></a>斯洛伐克免付費撥號限制
 
 [尋找其他國家/地區](../toll-free-dialing-limitations-and-restrictions.md)，或深入瞭解免付費撥號限制與限制。
 

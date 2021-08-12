@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
-description: 摘要：瞭解商務用 Skype Server 中的會議摘要子報告。
-ms.openlocfilehash: 9a42e16bc22f01f196274f1e25396d8516e26af2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解商務用 Skype Server 中的會議摘要子報表。
+ms.openlocfilehash: ec72c499a7a523dfcac3adaad43728c8e623526a5ff7264e12a7d6eb77df75cb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298163"
 ---
 # <a name="conference-summary-subreport-in-skype-for-business-server"></a>商務用 Skype Server 中的會議摘要子報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的會議摘要子報告。
+**摘要：** 深入瞭解商務用 Skype Server 中的會議摘要子報表。
   
 會議摘要子報告提供了失敗會議工作階段的整體檢視。這些失敗的工作階段可藉由工作階段類型加以細分為：焦點工作階段及 MCU 工作階段。
   
@@ -37,7 +37,7 @@ ms.locfileid: "49826473"
 |**To** <br/> |時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：  <br/> 7/7/2015 1:00 PM  <br/> 如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：  <br/> 7/7/2015  <br/> 若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：  <br/> 7/3/2015  <br/> 星期永遠是從星期日開始星期六結束。  <br/> |
 |**集區** <br/> |登錄器集區或 Edge Server 的完整網域名稱 (FQDN)。您可以選取個別的集區，或是按一下 [全部] 檢視所有集區的資料。此下拉式清單會自動將資料庫內的資料填入。<br/> |
    
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>度量
 
 下表列出會議摘要子報告中提供的資訊。
   

@@ -21,15 +21,15 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft 365 商務語音 中設定和測試小型企業的自動Microsoft 365 商務語音。
-ms.openlocfilehash: 7dbd9e471b80e2f930b330ad826147b92b1afef8
-ms.sourcegitcommit: 330e60ff3549cd5cff5b52ad95dc4259e4e8de13
+ms.openlocfilehash: 0eaa5c61a85bcf189e13f9cdfff43e68f12090c42533c69b2d0154da81a6f3e3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "52628972"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332965"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>設定自動助理 - 小型企業教學課程
 
-自動電話機可讓人打電話給您的組織，並流覽功能表系統，與正確的部門、通話佇列、人員或接線生通話。 您可以使用系統管理中心為貴組織建立Microsoft Teams機。
+自動話務員可讓人打電話給您的組織，並流覽功能表系統，與正確的部門、通話佇列、人員或接線生通話。 您可以使用系統管理中心為貴組織建立Microsoft Teams機。
 
 [!INCLUDE [business-voice-create-auto-attendant](../includes/business-voice-create-auto-attendant.md)]

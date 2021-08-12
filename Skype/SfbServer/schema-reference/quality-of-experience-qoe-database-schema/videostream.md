@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: 每筆記錄代表一個視頻資料流程。 一個影片媒體行通常包含兩個影片。
-ms.openlocfilehash: e506f022dbfa4ef0a1a8578dc6caf7c0f3984fa6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fde5036803bd02bed4b766ca9e6d2419d9b4cca92d78968867e18e9e4083897e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821323"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322905"
 ---
 # <a name="videostream-table"></a>VideoStream 表格
  
@@ -56,7 +56,7 @@ ms.locfileid: "49821323"
 |**BPSPDropRatio** <br/> |Tinyint  <br/> ||具有 BPSP 框架下沉的通話持續時間百分比。  <br/> |
 |**BPSPIDropRatio** <br/> |Tinyint  <br/> ||具有 BPSPI 框架下沉的通話持續時間百分比。  <br/> |
 |**入境** <br/> |位  <br/> | <br/> |接收接收方的資料流程資料。  <br/> |
-|**出境** <br/> |位  <br/> | <br/> |接收寄件者端的資料流程資料。  <br/> |
+|**出埠** <br/> |位  <br/> | <br/> |接收寄件者端的資料流程資料。  <br/> |
 |**SenderIsCallerPAI** <br/> |位  <br/> | <br/> |1表示資料流程的方向從來電者到被叫方。  <br/> 0表示資料流程方向從被叫方傳送給來電者。  <br/> |
 |**LossCongestionPercent** <br/> |float  <br/> ||會指出通話處於遺失擁塞狀態的時間百分比。  <br/> 此欄是在 Microsoft Lync Server 2013 中引進。  <br/> |
 |**DelayCongestionPercent** <br/> |float  <br/> ||會指出在此通話所占的百分比，造成擁塞是由網路封包的延遲抵達所造成。  <br/> 此欄是在 Microsoft Lync Server 2013 中引進。  <br/> |

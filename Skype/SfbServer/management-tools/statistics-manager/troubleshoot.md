@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: 摘要：閱讀此主題以針對商務用 Skype 伺服器的統計資料管理員部署進行疑難排解。
-ms.openlocfilehash: ea3d6f66003841e893ebe2dcc5d3fe02d0da125b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：閱讀本主題，以疑難排解商務用 Skype Server 的統計資料管理員部署。
+ms.openlocfilehash: 457790514cb769edce6deafc23857a59749b1102cf4c33206eac836d11c75c6a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821773"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333205"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>疑難排解商務用 Skype Server 統計資料
  
-**摘要：** 閱讀此主題以針對商務用 Skype 伺服器的統計資料管理員部署進行疑難排解。
+**摘要：** 閱讀此主題以疑難排解商務用 Skype Server 的統計資料管理員部署。
   
 本主題說明如何透過描述您在應用程式事件記錄檔中看到的事件來疑難排解您的統計資料管理員部署，以及您可能採取的適當動作以修正事件。 本主題包含下列各節：
   
@@ -39,7 +39,7 @@ ms.locfileid: "49821773"
     
 - **1001** -不允許程式 (可能在工作物件中的處理常式限制) 
     
-    代理程式會在 Windows 工作物件內執行，以自動限制記憶體佔用量。 如果代理程式不會啟動，且事件記錄檔中有這些事件專案，則無法在伺服器上具現化此工作物件。 若要解決此問題，您可以變更 config 檔案中的值來移除上限記憶體限制：
+    代理程式會在 Windows 工作物件內執行，以自動限制其記憶體需求量。 如果代理程式不會啟動，且事件記錄檔中有這些事件專案，則無法在伺服器上具現化此工作物件。 若要解決此問題，您可以變更 config 檔案中的值來移除上限記憶體限制：
     
   ```console
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
@@ -76,7 +76,7 @@ ms.locfileid: "49821773"
     
   - 請確認您已遵循匯入拓撲的指示。 請參閱匯 [入拓撲](deploy.md#BKMK_ImportTopology)。 
     
-  - 如果代理程式位於拓撲中未列出的伺服器上 (例如，SQL AlwaysOn 叢集中的節點) ，您必須遵循匯 [入拓撲](deploy.md#BKMK_ImportTopology)中的指示手動新增代理程式。
+  - 如果代理程式位於拓撲中未列出的伺服器上 (例如，SQL AlwaysOn 叢集) 中的節點，您必須遵循匯[入拓撲](deploy.md#BKMK_ImportTopology)中的指示手動新增代理程式。
     
   - **4002** -不正確監聽器密碼
     

@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 摘要：瞭解商務用 Skype Server 中的 PSTN 會議摘要報告。
-ms.openlocfilehash: aab91995a2c987e1a6e3a10d1f6fc8791b19a4b1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4fdcac31c5f674ca3289a275cc253f798fabdf5fb9ab221e5872e8b5d82fccb2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814373"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286762"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 PSTN 會議摘要報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的 PSTN 會議摘要報告。
+**摘要：** 深入瞭解商務用 Skype Server 中的《 PSTN 會議摘要報告。
   
-在商務用 Skype Server 中，PSTN 會議是指至少有一個參與者透過使用 PSTN (公用交換電話網路) 電話，撥打音訊部分的任何會議。  (PSTN 電話是 "室內電話"、"蜂窩電話] 或任何其他未利用 Voice over IP 的電話。 ) 雖然在監控報告中稱為 PSTN 會議，但這些會議甚至可能更常見，稱為電話撥入式會議。
+在商務用 Skype Server 中，PSTN 會議是指至少有一個參與者透過使用 PSTN (公用交換電話網路) 電話撥號進入音訊部分的任何會議。  (PSTN 電話是 "室內電話"、"蜂窩電話] 或任何其他未利用 Voice over IP 的電話。 ) 雖然在監控報告中稱為 PSTN 會議，但這些會議甚至可能更常見，稱為電話撥入式會議。
   
 PSTN 會議摘要報告提供您組織中所有 PSTN 會議的相關資訊 (也就是說，所有具有至少一個撥入式使用者) 的會議。 此報告包含有關 PSTN 會議總數、參與這些會議的人員總數，以及最重要的電話撥入式使用者總數 (全部 PSTN 參與者度量) 中的相關資訊。
   
@@ -33,9 +33,9 @@ PSTN 會議摘要報告只可從監控報告首頁進行存取。 此報告未�
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>PSTN 會議摘要報告的最佳用法
 
-若要決定所有包含撥入使用者之會議的百分比，請將 [PSTN 會議總數] 度量值與 [商務用 Skype] 伺服器的「 [會議摘要報告」中](conference-summary-report.md)所提供的 [會議總數] 度量值進行比較。
+若要決定所有包含撥入使用者之會議的百分比，請將 [PSTN 會議總數] 度量值與[商務用 Skype Server 中會議摘要報告](conference-summary-report.md)上找到的「會議總數」度量值進行比較。
   
-如果您看不到許多 PSTN 會議，如您可能會看到，請記住組織允許撥入使用者之會議的功能，取決於已指派給使用者的會議原則：如果允許很少的使用者持有 PSTN 會議，您顯然會看到極少的 PSTN 會議。 您可以在任何) 允許使用者在商務用 Skype Server 管理命令介面中執行下列命令，快速驗證 (的會議原則：
+如果您看不到許多 PSTN 會議，如您可能會看到，請記住組織允許撥入使用者之會議的功能，取決於已指派給使用者的會議原則：如果允許很少的使用者持有 PSTN 會議，您顯然會看到極少的 PSTN 會議。 您可以從商務用 Skype Server 管理命令介面內執行下列命令，以快速確認您 (的哪一種會議原則) 允許使用者排程 PSTN 會議：
   
 ```PowerShell
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing
@@ -67,7 +67,7 @@ Tag:DublinDialInUsers                                       True
 |**To** <br/> |時間範圍的結束日期/時間。若要按照小時檢視資料，請輸入開始日期和時間，如下所示：  <br/> 7/7/2015 1:00 PM  <br/> 如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：  <br/> 7/7/2015  <br/> 若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：  <br/> 7/3/2015  <br/> 星期永遠是從星期日開始星期六結束。  <br/> |
 |**Interval** <br/> | 時間間隔。請選取下列其中一項： <br/>  每小時 (最多可以顯示 25 個小時) <br/>  每日 (最多可以顯示 31 天) <br/>  每週 (最多可以顯示 12 週) <br/>  每月 (最多可以顯示 12 個月) <br/>  若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。 例如，如果您選取 [開始日期 7/7/2015] 和 [結束2/28/2015 日期] 的 [每日間隔]，將會顯示 8/7/2015 12:00 AM 到 9/7/2015 12:00 AM (的資料，也就是有31天的資料) 總計。 <br/> |
    
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>度量
 
 下表列出 PSTN 會議摘要報告中的資訊。
   

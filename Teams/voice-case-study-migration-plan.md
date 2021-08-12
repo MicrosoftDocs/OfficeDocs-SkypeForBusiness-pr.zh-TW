@@ -16,16 +16,16 @@ f1.keywords:
 description: Teams多國公司的語音案例研究：升級規劃。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a458f2c98b0f6de8bc2d3b3d23e2b68e4cadd931
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 2c2d64e93e8f9ab53cd2a696af69de4b7f0d4f7348fec27a189b60896ee1ec02
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587442"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350175"
 ---
 # <a name="contoso-case-study-teams-upgrade-plan"></a>Contoso 案例研究：Teams升級計畫
 
-在決定從 商務用 Skype Teams，Contoso 想要為使用者提供輕鬆的轉換體驗。 他們決定設定混合式Teams，並採用重迭功能方法，將使用者移至Teams。 這允許Teams商務用 Skype內部部署中的使用者共用目前狀態和通訊。 當使用者進入試驗電話系統，他們已移至 Teams 模式。
+在決定從 商務用 Skype Teams，Contoso 想要為使用者提供輕鬆的轉換體驗。 他們決定設定混合式Teams，並採用重迭功能方法，將使用者移至Teams。 這允許Teams商務用 Skype內部部署中的使用者共用目前狀態和通訊。 當使用者進入試驗電話系統，他們被移至 Teams 模式。
 
 若要瞭解升級、方法及模式的基本概念，Contoso 請閱讀下列文章：
 
@@ -33,7 +33,7 @@ ms.locfileid: "53587442"
 - [IT 系統管理員的升級策略](upgrade-to-teams-on-prem-implement.md) 
 - [移移和互通性指南](migration-interop-guidance-for-teams-with-skype.md)
  
-Contoso 也參加 Ignite 2019 會話設計您從 商務用 Skype[到 Teams。](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) Contoso 瞭解：
+Contoso 也參加 Ignite 2019 會話，設計從 商務用 Skype[到 Teams。](https://myignite.techcommunity.microsoft.com/sessions/81820?source=sessions) Contoso 瞭解：
 
 - 互通性、聯盟和升級行為等基本概念 
 
@@ -57,4 +57,4 @@ Contoso 也參加 Ignite 2019 會話設計您從 商務用 Skype[到 Teams。](h
 
   - 在技術試驗期間使用群島模式。
 
-  - 使用者啟用後，切換至 TeamsOnly 電話系統。 通話方案與直接路由需要 TeamsOnly 模式。
+  - 使用者一旦啟用 TeamsOnly 模式，電話系統。 通話方案與直接路由需要 TeamsOnly 模式。
