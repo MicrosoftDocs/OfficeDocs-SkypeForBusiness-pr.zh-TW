@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用系統管理中心提供預先定義的設定、頻道和預先安裝的 App，以使用小組範本建立專為政府需求設計的小組結構。
+description: 瞭解如何使用系統管理中心提供預先定義的設定、頻道和預先安裝的應用程式，以使用小組範本建立專為政府需求設計的小組結構。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,18 +19,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff975fc80c0b08136fa18d2b7c31cd100e405911
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: b915daab744bd764a9ac9e1d0be000357a051a2719e9e544bfff8b5a5c26e5a6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684530"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315249"
 ---
 # <a name="use-government-team-templates-in-the-admin-center"></a>在系統管理中心使用政府小組範本
 
 小組範本提供預先定義的設定、頻道和預先安裝應用程式範本，讓您快速且輕鬆地建立團隊。
 
-小組範本有預先建立的團隊結構定義，專為政府需求所設計。 您也可以擴充小組範本，以建立根據您的特定組織需求量身打造的團隊。
+小組範本有預先建立的團隊結構定義，專為政府需求所設計。 您也可以擴充小組範本，以建立符合您特定組織需求的團隊。
 
 本文介紹每個小組範本，並建議如何使用這些範本。
 
@@ -40,7 +40,7 @@ ms.locfileid: "52684530"
 
 ## <a name="coordinate-incident-response"></a>協調事件回應
 
-集中溝通和重要資源，以管理您的緊急事件或事件回應小組。 在這個小組中，您可以包含許多不同類型的檔案，協助建立所有檔的中央位置。 使用線上會議改善資訊流程及情境感知。
+集中溝通和重要資源，以管理您的緊急事件或事件回應小組。 在這個小組中，您可以包含許多不同類型的檔案，協助建立所有檔的集中位置。 使用線上會議改善資訊流程及情境認知度。
 
 | 範本類型 |baseTemplateId | 此基本範本提供的屬性 |
 |-------------------|-------|---------------------------------------------------------------------------|

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: 回應群組中包含代理群組、佇列及工作流程。 回應群組工作流程定義回應群組應用程式接聽電話時所採取的動作。
-ms.openlocfilehash: d5ab0f197817a5905df54e236db10a3d526685bd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 56c0f111cde8d2fbfdd1c704310a7804e0998294da6449303e2e5025c4572527
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122527"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333835"
 ---
 # <a name="response-groups-workflow"></a>回應群組工作流程
 
@@ -60,4 +60,4 @@ ms.locfileid: "51122527"
 
 - **已啟用** 會指出是否要啟用工作流程以接收來電。
 
-如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype Server 2015 中規劃回應群組應用程式](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 。 如需使用回應群組工作流程的詳細資訊，請參閱 Operations 檔中的 [管理回應群組工作流程](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows) 。
+如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔中的在[商務用 Skype Server 2015 中規劃回應群組應用程式](../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 如需使用回應群組工作流程的詳細資訊，請參閱 Operations 檔中的 [管理回應群組工作流程](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-workflows) 。

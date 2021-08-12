@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 瞭解如何指派Microsoft 365 商務語音電話號碼給貴組織的使用者。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0792b644c97194867c448ed67fb574bfb7735325
-ms.sourcegitcommit: 38fa37d83704200911866cf017566fcb128ea2fe
+ms.openlocfilehash: 6d4b32b6a255ef806e86848d068dc988548988a75fb76c16d2dc4334b0d51d7d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "53105155"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282846"
 ---
 # <a name="step-5-assign-business-voice-phone-numbers-to-your-users"></a>步驟 5：指派商務語音電話號碼給使用者
 
@@ -38,18 +38,18 @@ ms.locfileid: "53105155"
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYO]
 
 1. 開啟 Microsoft Teams系統管理中心，然後使用全域系統管理員使用者登入 (這通常是您用來註冊帳戶Microsoft 365) 。
-1. 在左側流覽窗格中，前往語音電話 <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">****  >  **號碼**</a>。
-1. 在 [數位 **電話** 頁面上，選取清單中的未分配的號碼，然後按一下 [**編輯**。  
-1. 在 [ **編輯窗格** 的 **[** 已指派至中） 下，依據顯示名稱或使用者名稱搜尋使用者，然後按一下 [ **指派**> 。
+1. 在左側流覽窗格中，前往 <a href="https://admin.teams.microsoft.com/phone-numbers" target="_blank">**Voice 電話**  >  **號碼**</a>。
+1. 在 [數位 **電話** 頁面上，選取清單中的未指定號碼，然後按一下 [**編輯**。  
+1. 在 [ **編輯窗格** 的 **[** 已指派至中） 下，依據顯示名稱或使用者名稱搜尋使用者，然後按一下 [ **指派**。
 1. 在 **[緊急** 位置」 下，您可以選取在 [設定 [](set-up-emergency-locations.md)緊急位置位置> 步驟中新增的緊急位置，或者如果您需要為另一個辦公室或家用辦公室建立新位置，請按一下 [新增 **位置**> 。
 1. 決定是否要傳送包含電話號碼資訊的歡迎電子郵件給使用者。 如果您想要：
-    - **將現有的電話號碼** 帶到商務語音 (稱為電話號碼) ，使用電話號碼資訊取消選擇電子郵件 **使用者**。
-    - **使用商務語音選取** 的新電話號碼，*選取***包含電話號碼資訊的電子郵件使用者**。
+    - **將現有的電話號碼** 帶到商務語音 (稱為電話號碼) ，取消選擇包含電話號碼資訊的電子郵件 **使用者**。
+    - **使用 Business** Voice 選取的新電話號碼，*選取***包含電話號碼資訊的電子郵件使用者**。
 1. 按一下 [儲存]。
 1. 針對要指派電話號碼的每個使用者重複上述步驟。
 
 > [!NOTE]
-> 由於 Microsoft 365 或 Office 365 Teams 之間的延遲，使用者最多可能需要 24 小時才能啟用。 如果 24 小時後沒有正確指派電話號碼，請聯絡商務產品 [支援人員 - 系統管理協助](/microsoft-365/admin/contact-support-for-business-products)。 我們在此提供協助！
+> 由於 Microsoft 365 或 Office 365 Teams 之間的延遲，使用者最多可能需要 24 小時才能啟用。 如果 24 小時後電話號碼未正確指派，請聯絡商務產品 [支援人員 - 系統管理協助](/microsoft-365/admin/contact-support-for-business-products)。 我們在此提供協助！
 
 > [!div class="nextstepaction"]
 > [下一個步驟：設定自動助理](set-up-auto-attendant.md?tabs=general-info#steps)

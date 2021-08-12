@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用下列區段編輯現有部署的屬性：
-ms.openlocfilehash: 9d76646c0b0f9f8f579e8f978659191258e9f412
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 705a4bb3b08d78472c3e165e8c9cfcff409ea30f302216af7914b9037c8f5bee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120003"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299979"
 ---
 # <a name="deployment-settings-expander"></a>部署設定展開工具
 
@@ -73,7 +73,7 @@ ms.locfileid: "51120003"
 > [!IMPORTANT]
 > 定義、發行及部署基礎結構的中央管理存放區之後，必須以外部程序將中央管理存放區重新放置到另一個前端，才能變更中央管理存放區的位置。
 
-如需移動中央管理存放區的詳細資訊，請參閱 Windows PowerShell Cmdlet 參考中的 [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) 。
+如需移動中央管理存放區的詳細資訊，請參閱 Windows PowerShell Cmdlet 參考中的[Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) 。
 
 
 如需定義和設定這些設定的詳細資訊，請參閱＜[Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)＞。

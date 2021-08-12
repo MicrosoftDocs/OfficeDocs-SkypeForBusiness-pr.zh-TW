@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中管理會議服務器設定設定
+title: 在商務用 Skype Server 中管理會議服務器配置設定
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 摘要：瞭解如何在商務用 Skype Server 中管理會議服務器設定設定。
-ms.openlocfilehash: db44ad62acb99bab32b732ea0686784b14c3b2b0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2175b1bc66425b98ade2a421a3f3cb477856ffb240bd835646164bc85dd668d8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099089"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341888"
 ---
-# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議服務器設定設定
+# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議服務器配置設定
  
-**摘要：** 瞭解如何在商務用 Skype Server 中管理會議服務器設定設定。
+**摘要：** 瞭解如何在商務用 Skype Server 中管理會議服務器配置設定。
   
-本主題說明如何管理會議配置設定。 如需如何規劃及部署會議的詳細資訊，請參閱在商務用 skype server 中 [規劃會議](../../plan-your-deployment/conferencing/conferencing.md) ，以及 [在商務用 Skype server 中部署會議](../../deploy/deploy-conferencing/deploy-conferencing.md)。
+本主題說明如何管理會議配置設定。 如需如何規劃及部署會議的詳細資訊，請參閱[商務用 Skype Server 中的會議計畫](../../plan-your-deployment/conferencing/conferencing.md)商務用 Skype Server 中的[部署會議](../../deploy/deploy-conferencing/deploy-conferencing.md)。
   
 會議配置設定會決定會議內容和講義的允許大小上限等專案;應用程式共用會議服務的最大頻寬量;儲存量限制和到期期限;支援之用戶端的內部及外部下載的 URLs;指向內部和外部 URLs 的指標，使用者可以在其中取得會議説明和資源;以及用來進行應用程式共用、用戶端音訊、檔案傳輸和媒體流量的埠。 這些設定可讓您自行管理實際的伺服器。 您可以使用商務用 Skype Server 管理命令介面來設定這些設定。
   
-當您安裝商務用 Skype Server 時，系統會在全域集合) 中，為您提供單一會議配置設定的集合 (。 如果您需要為網站或服務建立自訂設定，您可以使用 **New-CsConferencingConfiguration** Cmdlet 來執行。 請注意，新設定只能在網站或服務範圍上套用;您無法建立新的會議設定全域集合，但您可以使用 **Set-CsConferencingConfiguration** Cmdlet 修改全域集合。 此外，任何網站或服務都不能裝載多個設定集合。 如果您嘗試為 Redmond 網站建立新的設定，而 Redmond 網站已裝載會議設定的集合，則此命令會失敗。
+當您安裝商務用 Skype Server 時，系統會在全域集合)  (提供單一的會議配置設定集合。 如果您需要為網站或服務建立自訂設定，您可以使用 **New-CsConferencingConfiguration** Cmdlet 來執行。 請注意，新設定只能在網站或服務範圍上套用;您無法建立新的會議設定全域集合，但您可以使用 **Set-CsConferencingConfiguration** Cmdlet 修改全域集合。 此外，任何網站或服務都不能裝載多個設定集合。 如果您嘗試為 Redmond 網站建立新的設定，而 Redmond 網站已裝載會議設定的集合，則此命令會失敗。
   
-## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來管理會議配置設定
+## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面管理會議配置設定
 
 若要使用商務用 Skype Server 管理命令介面來管理會議配置設定，請使用下列 Cmdlet：
   

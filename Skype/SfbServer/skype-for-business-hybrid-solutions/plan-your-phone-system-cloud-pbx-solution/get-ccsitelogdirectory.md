@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 6625494d-1b63-4d99-a589-c8c69c4addba
-description: CcSiteLogDirectory Cmdlet 會顯示目前的目錄，其中儲存商務用 Skype 雲端連接器版本的網站層級記錄。
-ms.openlocfilehash: cace3ce3757294adbb3c55db24c619925f55ce5a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Get-CcSiteLogDirectory Cmdlet 會顯示存放商務用 Skype Cloud Connector Edition 之網站層級記錄的目前目錄。
+ms.openlocfilehash: 7c15d0b715384fd18522122571da69f58a83ed337d46420e83f7ac35cfd0c018
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799883"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349515"
 ---
 # <a name="get-ccsitelogdirectory"></a>Get-CcSiteLogDirectory
  
-CcSiteLogDirectory Cmdlet 會顯示目前的目錄，其中儲存商務用 Skype 雲端連接器版本的網站層級記錄。 
+Get-CcSiteLogDirectory Cmdlet 會顯示存放商務用 Skype Cloud Connector Edition 之網站層級記錄的目前目錄。 
   
-此 Cmdlet 適用于商務用 Skype 雲端連接器 Edition 1.4.1，1.4.2。
+此 Cmdlet 適用于商務用 Skype Cloud Connector Edition 1.4.1，1.4.2。
   
 ```powershell
 Get-CcSiteLogDirectory
@@ -39,7 +39,7 @@ Get-CcSiteLogDirectory
 
 ### <a name="example-1"></a>範例 1
 
-下列範例顯示了儲存雲端連接器網站記錄檔的目前資料夾：
+下列範例會顯示儲存雲端連接器網站記錄檔的目前資料夾：
   
 ```powershell
 Get-CcSiteLogDirectory
@@ -48,17 +48,17 @@ Get-CcSiteLogDirectory
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-預設資料夾為 C:\Users\%userprofile%\CloudConnector\SiteRoot\Logs。 您可以執行 CcSiteDirectory Cmdlet 來變更資料夾。 不會有單獨的 Cmdlet 會變更記錄資料夾位置，而不會變更網站目錄。
+預設資料夾為 C:\Users \% userprofile%\CloudConnector\SiteRoot\Logs。 您可以執行 Set-CcSiteDirectory Cmdlet 來變更資料夾。 沒有任何個別的指令程式可以變更記錄資料夾位置，而不會變更網站目錄。
   
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>
 
-無。 CcSiteLogDirectory Cmdlet 不接受流水線輸入。
+無。 Get-CcSiteLogDirectory Cmdlet 不接受管線傳送的輸入。
   
 ## <a name="return-types"></a>傳回類型
 <a name="ReturnTypes"> </a>
 
-命令會傳回檔案路徑。
+命令會傳回檔路徑。
   
 ## <a name="see-also"></a>另請參閱
 <a name="ReturnTypes"> </a>

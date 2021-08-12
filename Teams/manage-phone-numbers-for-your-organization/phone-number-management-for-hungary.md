@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在匈牙利取得及管理匈牙利電話號碼Microsoft Teams。
-ms.openlocfilehash: c47511d5f50071f20e19bb5929424632e212d962
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 00baf90acc5401320029c8903d8a36e41f8f68c5f05e33061d3a2af70092a53f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510024"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315239"
 ---
 # <a name="phone-number-management-for-hungary"></a>電話匈牙利的號碼管理
 
@@ -37,7 +37,7 @@ ms.locfileid: "53510024"
   
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。<br/> |在匈牙利，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並連上 PTSN 以索取指示，以提交 [新的電話號碼要求](contact-pstn-service-desk.md)。<br/><br/>[匈牙利的新電話號碼要求 (1.0)  (hu-hu) 。](https://download.microsoft.com/download/f/7/7/f7782f40-8a64-49b6-b97d-89bfb111f1ea/Know%20your%20customer%20for%20Hungary.pdf)<br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單，完整完成，然後傳送給我們。<br/><br>新訂單可能需要兩到三周的時間才能填入這個市場。  |
+|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。<br/> |在匈牙利，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並連上 PTSN 以索取指示，以提交 [新的電話號碼要求](contact-pstn-service-desk.md)。<br/><br/>[匈牙利的新電話號碼要求 (1.0)  (hu-hu) 。](https://download.microsoft.com/download/f/7/7/f7782f40-8a64-49b6-b97d-89bfb111f1ea/Know%20your%20customer%20for%20Hungary.pdf)<br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單、完整填寫並傳送給我們。<br/><br>新訂單可能需要兩到三周的時間才能填入這個市場。  |
 |將電話號碼轉接給我們。<br/> | 下載此表單。 <br/>[匈牙利 (LOA) 授權書 (所有)  (v.1.0)  (hu-hu) ](https://download.microsoft.com/download/f/b/1/fb17b2df-b5cf-45b7-89f0-0cbf250df1f7/letter-of-authorization-(loa)-for-hungary-(all-numbers)-(v1.0)-(hu-hu)%20(1).pdf) <br/> <br/>填寫並連連 [PTSN 以尋找指示](contact-pstn-service-desk.md)。 <br/><br/>在這個市場中，移轉數位可能需要兩到三周才能完成。 <br/><br/>這些號碼目前無法用於會議。   |
 |發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[傳送您想要](mailto:ptneu@microsoft.com) 發佈/取消發佈的電話號碼清單給我們。 <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |如需要轉換成服務號碼之使用者號碼清單的指示，請連連[PTSN。](contact-pstn-service-desk.md) <br/> |

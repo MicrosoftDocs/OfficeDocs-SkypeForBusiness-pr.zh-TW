@@ -12,25 +12,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 具有可提供 DNS 服務的內建軟體，所以您可能想要查看可用的檔，例如 DNS 原則案例指南。 您可以選擇協力廠商的解決方案（如果您願意）。
-ms.openlocfilehash: 2e8655cb53228fbfe23bc62aaebbdfd5a02ce4f4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e9187b5a619a55b4525d32eb20272e32cae514c2533d9c78f32d7ffed77d30ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116031"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54283085"
 ---
 # <a name="dns-basics"></a>DNS 基本知識
  
-Windows Server 2016 具有可提供 DNS 服務的內建軟體，所以您可能想要查看可用的檔，例如 [DNS 原則案例指南](/windows-server/networking/dns/deploy/dns-policy-scenario-guide)。 您可以選擇協力廠商的解決方案（如果您願意）。
+Windows Server 2016 具有可提供 DNS 服務的內建軟體，所以您可能想要查看可用的檔，例如[DNS 原則案例指南](/windows-server/networking/dns/deploy/dns-policy-scenario-guide)。 您可以選擇協力廠商的解決方案（如果您願意）。
   
-建議的最佳作法是，在您的實施中指定特定的伺服器，以提供 DNS。 您可以在其中一個專用於商務用 Skype server 角色的伺服器上進行設定，但是如果該伺服器也是集區的一部分，而在意外的商務用 Skype 中取得解除授權，直到重新建立 DNS 服務為止。
+建議的最佳作法是，在您的實施中指定特定的伺服器，以提供 DNS。 您可以在其中一個伺服器角色商務用 Skype 專用的伺服器上進行設定，但如果該伺服器也是集區的一部分，且在意外情況下解除委任，則在重新建立 DNS 服務之前商務用 Skype 會無法正常作業。
   
 ## <a name="dns-records"></a>DNS 記錄
 
 名稱對應至 IP 位址的每個對應 (，也可以是 IPv4 或 IPv6 的位址) 儲存在 DNS 伺服器上的 DNS 記錄中。 在 DNS 報告中，特別是以 FQDN （即完整功能變數名稱）說明的名稱。 雖然 *contoso.com* 是有效的功能變數名稱，但它是 *\* contoso.com* 的簡寫，所以是不明確的，而且可能會參照網域中的任何伺服器。 在您的網域中，會參照單一伺服器的 FQDN 範例可能是 **meeting01.contoso.com**。
   
 > [!IMPORTANT]
-> 依預設，未加入網域之電腦的電腦名稱稱為主機名稱，而不是完整功能變數名稱 (FQDN) 。 拓撲產生器使用 Fqdn，而非主機名稱。 因此，在未加入網域但要部署為 Edge Server 電腦的電腦名稱中，您必須設定 DNS 尾碼。 將 Fqdn 指派給執行商務用 Skype 伺服器的伺服器時，**只能使用標準字元** (包括 A-Z、a-z、0-9 和連字號) 。 請勿使用 Unicode 字元或底線。 也就是當 FQDN 必須指派給憑證的 SN 時，外部 DNS 與公用 CA 通常不支援在 FQDN 中使用非標準字元。
+> 依預設，未加入網域之電腦的電腦名稱稱為主機名稱，而不是完整功能變數名稱 (FQDN) 。 拓撲產生器使用 Fqdn，而非主機名稱。 因此，在未加入網域但要部署為 Edge Server 電腦的電腦名稱中，您必須設定 DNS 尾碼。 將 fqdn 指派給執行商務用 Skype Server 的伺服器時，請 **只使用標準字元** (包括 A-Z、a-z、0-9 和連字號) 。 請勿使用 Unicode 字元或底線。 也就是當 FQDN 必須指派給憑證的 SN 時，外部 DNS 與公用 CA 通常不支援在 FQDN 中使用非標準字元。
   
 除了 IP 位址，FQDN 也可以對應至 **VIP** （虛擬 IP 位址）。 VIP 是不會對應至實際實體網路介面的 IP 位址。 VIP 通常是指執行伺服器角色的伺服器集區，或是一對設定為冗余及容錯的伺服器。
   
@@ -51,7 +51,7 @@ Windows Server 2016 具有可提供 DNS 服務的內建軟體，所以您可能�
   
 ### <a name="multiple-sip-domains"></a>多個 SIP 網域
 
- 在某些情況下，您的組織可能需要數個 SIP 網域。 例如，如果 Fabrikam.com 是由 contoso.com 取得，您可能需要建立新的 SIP 網域，以供商務用 Skype 伺服器辨識，並接受來自的連接。 當您執行此動作時，您必須建立所有使用 contoso.com 的 DNS 記錄的其他集合，並顯示新的 Fqdn，以顯示要傳送 Fabrikam 之要求的位置。
+ 在某些情況下，您的組織可能需要數個 SIP 網域。 例如，如果 Fabrikam.com 是由 contoso.com 取得，您可能需要建立商務用 Skype Server 辨識並接受連線的新 SIP 網域。 當您執行此動作時，您必須建立所有使用 contoso.com 的 DNS 記錄的其他集合，並顯示新的 Fqdn，以顯示要傳送 Fabrikam 之要求的位置。
   
 ## <a name="dns-load-balancing"></a>DNS 負載平衡
 <a name="BK_NameSIP"> </a>

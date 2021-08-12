@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是希臘Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 7b07c1dbd44feb235a7bc6d5434c1bc5bc7c236b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a62a7841dcdd6dfc3bf56670961209031cb744b4a85c25c9300d045c1a942787
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118081"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349265"
 ---
 # <a name="availability-in-greece"></a>希臘的可用性
 

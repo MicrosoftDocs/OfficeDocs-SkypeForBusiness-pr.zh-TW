@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 2015 中設定 Persistent Chat Server 的合規性服務
+title: 在商務用 Skype Server 2015 中設定 Persistent Chat Server 的規範服務
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中設定 Persistent Chat Server 合規性服務。
-ms.openlocfilehash: ee7dbc3ad8e7eedcadcc60850e35b753c5fadb43
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ff49a32009b60447823675b90ee4b633ff8f0cb7cfdf3529a3afc26f3c067f79
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815063"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349305"
 ---
-# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定 Persistent Chat Server 的合規性服務
+# <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定 Persistent Chat Server 的規範服務
 
 **摘要：** 瞭解如何在商務用 Skype Server 2015 中設定 Persistent Chat Server 合規性服務。
 
@@ -38,10 +38,10 @@ ms.locfileid: "49815063"
 
 - 下載檔案
 
-此資訊可視需要從規範 SQL 資料庫中檢索。 
+您可以視需要從規範 SQL 資料庫中找回此資訊。 
 
 > [!NOTE]
-> 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或是繼續使用商務用 Skype Server 2015。 
+> 持續聊天可在商務用 Skype Server 2015 中取得，但在商務用 Skype Server 2019 中已不再支援。 Teams 中提供相同的功能。 如需詳細資訊，請參閱[Microsoft Teams 升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續性聊天，您可以選擇將需要這項功能的使用者遷移至 Teams，或是繼續使用商務用 Skype Server 2015。 
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>使用 Windows PowerShell 設定規范服務
 
@@ -140,7 +140,7 @@ Message 元素包含兩個元素 (Sender 和 DateTimeUTC) 及三個屬性 (Type�
 |:-----|:-----|:-----|
 |類型  <br/> |指定訊息類型。訊息類型描述在「訊息元素訊息類型」表格中。  <br/> |必要  <br/> |
 |內容  <br/> |包含訊息內容。Type 為 Join 或 Part 的訊息不使用此屬性。  <br/> |選用  <br/> |
-|識別碼  <br/> |指定內容的唯一識別碼。此屬性僅用於 Type 為 Chat 的訊息。  <br/> |選用  <br/> |
+|ID  <br/> |指定內容的唯一識別碼。此屬性僅用於 Type 為 Chat 的訊息。  <br/> |選用  <br/> |
 
 每個 Sender 元素都包含五個屬性：user name、ID、email、internal 和 URI。這些屬性的說明如下表。
 
@@ -149,7 +149,7 @@ Message 元素包含兩個元素 (Sender 和 DateTimeUTC) 及三個屬性 (Type�
 |**屬性**|**描述**|**選用/必要**|
 |:-----|:-----|:-----|
 |使用者名稱  <br/> |傳送者的名稱。  <br/> |選用  <br/> |
-|識別碼  <br/> |寄件者的唯一識別碼。  <br/> |必要  <br/> |
+|ID  <br/> |寄件者的唯一識別碼。  <br/> |必要  <br/> |
 |電子郵件  <br/> |寄件者的電子郵件地址。  <br/> |選用  <br/> |
 |內部  <br/> |決定使用者為內部使用者或同盟使用者。如果該值設為 true，則為內部使用者。  <br/> |選用  <br/> |
 |Uri  <br/> |使用者的 SIP URI。  <br/> |必要  <br/> |

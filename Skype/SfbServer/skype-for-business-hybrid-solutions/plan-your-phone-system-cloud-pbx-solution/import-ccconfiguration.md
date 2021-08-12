@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
-description: 從本機檔案將商務用 Skype 雲端連接器版本設定匯入雲端連接器主機伺服器。
-ms.openlocfilehash: 626ba52d4d67f99dd67d3d1f91d26d6e6d03f95e
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 將本機檔案的商務用 Skype Cloud Connector Edition 設定匯入雲端連接器主機伺服器。
+ms.openlocfilehash: 4ac32f460c2c493f5d78f1a38adcdd0728763bbbcf57a67470823fb88d407d09
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799853"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349495"
 ---
 # <a name="import-ccconfiguration"></a>Import-CcConfiguration
  
-從本機檔案將商務用 Skype 雲端連接器版本設定匯入雲端連接器主機伺服器。
+將本機檔案的商務用 Skype Cloud Connector Edition 設定匯入雲端連接器主機伺服器。
   
 ```powershell
 Import-CcConfiguration [-Force] [<CommonParameters>]
@@ -33,7 +33,7 @@ Import-CcConfiguration [-Force] [<CommonParameters>]
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會將 CloudConnector 從雲端連接器實例裝置目錄複寫到%SystemDrive%\ProgramData\CloudConnector 目錄：
+下列範例會將雲端連接器實例之裝置目錄中的 CloudConnector.ini 複製到%SystemDrive%\ProgramData\CloudConnector 目錄：
   
 ```powershell
 Import-CcConfiguration
@@ -42,19 +42,19 @@ Import-CcConfiguration
 ## <a name="detailed-description"></a>詳細描述
 <a name="Examples"> </a>
 
-這個 Cmdlet 會從雲端連接器裝置的裝置目錄將 CloudConnector 複製到%SystemDrive%\ProgramData\CloudConnector 目錄。 裝置目錄是使用 CcApplianceDirectory Cmdlet 來指定。 這個 Cmdlet 會覆寫%SystemDrive%\ProgramData\CloudConnector. 中任何現有的檔案 此命令適用于雲端連接器版本2.0.1 及更新版本。
+此 Cmdlet 會將 CloudConnector.ini 從雲端連接器裝置的裝置目錄複寫到%SystemDrive%\ProgramData\CloudConnector 目錄。 裝置目錄是使用 Set-CcApplianceDirectory Cmdlet 來指定。 Cmdlet 會覆寫%SystemDrive%\ProgramData\CloudConnector. 中的任何現有檔案 此命令適用于雲端連接器 Edition 2.0.1 和更新版本。
   
 ## <a name="parameters"></a>參數
 <a name="Examples"> </a>
 
-|**參數**|**必要**|**類型**|**說明**|
+|**參數**|**Required**|**Type**|**描述**|
 |:-----|:-----|:-----|:-----|
-|Force  <br/> |選用  <br/> |System.Management.Automation.SwitchParameter  <br/> |在%SystemDrive%\ProgramData\CloudConnector 中覆寫現有檔案而不發出通知。  <br/> |
+|力  <br/> |選用  <br/> |Automation。 SwitchParameter  <br/> |覆寫%SystemDrive%\ProgramData\CloudConnector 中的現有檔案，但不發出通知。  <br/> |
    
 ## <a name="input-types"></a>輸入類型
 <a name="Examples"> </a>
 
-無。 匯入-CcConfiguration Cmdlet 不接受流水線輸入。
+無。 Import-CcConfiguration Cmdlet 不接受管線傳送的輸入。
   
 ## <a name="return-types"></a>傳回類型
 <a name="Examples"> </a>

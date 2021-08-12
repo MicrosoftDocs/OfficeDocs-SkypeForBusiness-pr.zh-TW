@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 您可以使用下列區段編輯現有部署的屬性：
-ms.openlocfilehash: a49fe0872d83011c433d011e1bb5ce7a348f1bd2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 79a2ab248e27037edf62ade9a3e9689d06be50c90a5fff33ab5b61acdaa5c355
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106869"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333715"
 ---
 # <a name="deployment-settings-expander"></a>部署設定展開工具
 
@@ -73,7 +73,7 @@ ms.locfileid: "51106869"
 > [!IMPORTANT]
 > 定義、發行及部署基礎結構的中央管理存放區之後，必須以外部程序將中央管理存放區重新放置到另一個前端，才能變更中央管理存放區的位置。
 
-如需移動中央管理存放區的詳細資訊，請參閱 Windows PowerShell Cmdlet 參考中的 [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) 。
+如需移動中央管理存放區的詳細資訊，請參閱 Windows PowerShell Cmdlet 參考中的[Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) 。
 
 ## <a name="see-also"></a>另請參閱
 

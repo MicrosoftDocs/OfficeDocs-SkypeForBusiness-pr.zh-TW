@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
-description: 在商務用 Skype Server Enterprise Voice 中規劃回應群組，可讓您設定使用者群組的呼叫路由。 包括音訊檔需求。
-ms.openlocfilehash: b27f3d1c40a384bd7465e7d2c8843a0523687d19
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在商務用 Skype Server 企業語音中規劃回應群組，可讓您設定使用者群組的呼叫路由。 包括音訊檔需求。
+ms.openlocfilehash: 6efc867a38ef919488786da908facb840e40725eaf36e60a3acbad3b72b4a3ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114599"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290081"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃回應群組應用程式
 
-在商務用 Skype Server Enterprise Voice 中規劃回應群組，可讓您設定使用者群組的呼叫路由。 包括音訊檔需求。
+在商務用 Skype Server 企業語音中規劃回應群組，可讓您設定使用者群組的呼叫路由。 包括音訊檔需求。
 
 如果您的組織擁有接聽和管理特定通話類型的人員群組，例如，針對客戶服務、內部服務台或部門的一般電話支援，您可以部署回應群組應用程式來管理這些通話類型。 回應群組應用程式會將來電路由和佇列傳送給指定的人員（稱為代理人）。 藉由使用回應群組，您可以增加電話支援服務的使用頻率，並減少為執行這些服務所產生的負荷。
 
@@ -48,7 +48,7 @@ ms.locfileid: "51114599"
 
 ## <a name="management-of-response-groups"></a>管理回應群組
 
-在商務用 Skype Server 中，有兩個管理角色可用於管理回應群組：回應群組管理員和回應群組管理員。 回應群組管理員可以管理任何回應群組的任何方面。 回應群組管理員只可管理特定的部分，而且只可管理其擁有的回應群組。 管理員角色可協助您降低管理成本，因為您可以將特定回應群組的有限責任委派給已啟用 Enterprise Voice 的任何使用者。 請注意，使用者可以是回應群組管理員和回應群組管理員。
+在商務用 Skype Server 中，可以使用兩個管理角色來管理回應群組：回應群組管理員及回應群組管理員。 回應群組管理員可以管理任何回應群組的任何方面。 回應群組管理員只可管理特定的部分，而且只可管理其擁有的回應群組。 管理員角色可協助您降低管理成本，因為您可以將特定回應群組的有限責任委派給已啟用企業語音的任何使用者。 請注意，使用者可以是回應群組管理員和回應群組管理員。
 
 為了容納管理員角色，回應群組應用程式使用 Managed 或未受管理的 **工作流程類型** 。 下表描述「已受管理」與「未受管理」回應群組內容。
 
@@ -56,7 +56,7 @@ ms.locfileid: "51114599"
 
 |**回應群組類型**|**描述**|
 |:-----|:-----|
-|非 託管  <br/> | 未受管理的回應群組沒有指定的管理員。 只有回應群組管理員可以設定這些回應群組。 <br/>  多個未受管理回應群組可共用一個佇列或代理人群組。 <br/>  當您從先前版本向商務用 Skype Server 遷移回應群組時，該類型會設定為 [未管理]。 <br/> |
+|非 託管  <br/> | 未受管理的回應群組沒有指定的管理員。 只有回應群組管理員可以設定這些回應群組。 <br/>  多個未受管理回應群組可共用一個佇列或代理人群組。 <br/>  當您將回應群組從先前版本遷移至商務用 Skype Server 時，此類型會設定為 [未管理]。 <br/> |
 |受管理  <br/> | 回應群組管理員可以設定受管理回應群組的任何方面。 <br/>  回應群組管理員無法查看或修改未明確指派給他們的回應群組。 <br/>  回應群組管理員可以只為明確指派給他們的回應群組設定部分設定。 <br/>  受管理的回應群組無法與其他任何受管理或未受管理的回應群組共用任何佇列或代理人群組。 <br/> |
 
 下表說明回應群組管理員可對指派給他們的回應群組執行和無法執行的動作。
@@ -72,25 +72,25 @@ ms.locfileid: "51114599"
 - 商務用 Skype Server 控制台
 
     > [!NOTE]
-    > 回應群組管理員只能使用此工具來管理回應群組設定。 管理員無法使用其他商務用 Skype Server 設定。
+    > 回應群組管理員只能使用此工具來管理回應群組設定。 其他的商務用 Skype Server 設定無法供管理員使用。
 
 - 回應群組設定工具
 
 - 商務用 Skype Server 管理命令介面
 
-回應群組可非常適合部門或工作組環境 (如需詳細資訊，請參閱 [容量規劃，以進行回應群組](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)) ，而且可以部署于全新的電話語音安裝中。 它支援來自 Enterprise Voice 部署和本機電信公司網路的撥入電話。 代理程式可以使用商務用 Skype、Lync 2013、Lync 2010、Lync 2010 語音應答或 Lync Phone Edition，將通話路由傳送給他們。
+回應群組可非常適合部門或工作組環境 (如需詳細資訊，請參閱 [容量規劃，以進行回應群組](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)) ，而且可以部署于全新的電話語音安裝中。 它支援來自企業語音部署和本機電信公司網路的撥入電話。 代理程式可使用商務用 Skype、lync 2013、lync 2010、lync 2010 語音應答或 lync 電話 Edition，將通話路由傳送給他們。
 
 ## <a name="deployment-and-requirements"></a>部署和需求
 
-當您部署企業語音時，回應群組應用程式會自動啟用。
+當您部署企業語音時，會自動啟用回應群組應用程式。
 
 ### <a name="hardware-and-software-requirements"></a>硬體及軟體需求
 
 回應群組應用程式與前端伺服器具有相同的硬體需求、作業系統需求和軟體必要條件。
 
-如果您使用 Windows Media Audio () 的回應群組音樂和宣告的檔案，所有執行回應群組應用程式的前端伺服器或 Standard Edition 伺服器，都必須針對執行 windows server 2008 R2 的伺服器及 Microsoft Media Foundation （執行 Windows Server 2012 或 Windows Server 2012 R2 的伺服器）安裝 Windows Media Format Runtime。 若為 Windows Server 2008 R2，Windows Media Format Runtime 會安裝為 Windows 桌面體驗的一部分。
+如果您使用 Windows 媒體音訊 ( 回應群組的) wma 和宣告，所有執行回應群組應用程式的前端伺服器或 Standard edition server，都必須為執行 Windows Server 2008 R2 的伺服器或 Microsoft Media Foundation 安裝 Windows 媒體格式執行時間，以執行 Windows Server 2012 或 Windows Server 2012 R2 的伺服器。 針對 Windows Server 2008 R2，Windows Media Format Runtime 是以 Windows 桌面體驗的一部分安裝。
 
-回應群組使用 **語言套件** 來支援文字語音語音及語音辨識。 在您設定訊息 (如歡迎訊息與其他提示) 以及互動式語音回應 (IVR) 的問題與回答時，都會用到這些語音技術。 根據預設，當您部署商務用 Skype Server 時，會安裝26個支援的語言套件。
+回應群組使用 **語言套件** 來支援文字語音語音及語音辨識。 在您設定訊息 (如歡迎訊息與其他提示) 以及互動式語音回應 (IVR) 的問題與回答時，都會用到這些語音技術。 根據預設，在您部署商務用 Skype Server 時會安裝26支援的語言套件。
 
 ### <a name="port-requirements"></a>連接埠需求
 
@@ -108,9 +108,9 @@ ms.locfileid: "51114599"
 
 ### <a name="audio-file-requirements"></a>音訊檔案需求
 
-回應群組應用程式支援波形 ( wav) 檔案格式和 Windows Media 音訊 ( 回應群組訊息、等候音樂或互動語音回應的檔案格式) 。 (IVR) 問題。
+回應群組應用程式支援波形 ( wav) 檔案格式，以及 Windows 媒體音訊 ( 的回應群組訊息、等候音樂或互動語音回應的檔案格式) IVR (問題。
 
-Windows Media 音訊檔案格式要求 Windows Media Format Runtime 已安裝在執行 Windows Server 2008 R2 和 Windows Server 2008 的前端伺服器上。 如需詳細資訊，請參閱本節稍早的＜軟體需求＞。
+Windows 媒體音訊檔案格式要求在執行 Windows Server 2008 R2 和 Windows server 2008 的前端伺服器上安裝 Windows 媒體格式執行時間。 如需詳細資訊，請參閱本節稍早的＜軟體需求＞。
 
 #### <a name="supported-wave-file-formats"></a>支援的 Wave 檔案格式
 
@@ -137,7 +137,7 @@ Windows Media 音訊檔案格式要求 Windows Media Format Runtime 已安裝在
 回應群組設定工具支援下表所述之作業系統和網頁瀏覽器的組合。
 
 > [!NOTE]
-> 支援 32 位元或 64 位元版本的作業系統。 只支援 32 位元版本的 Internet Explorer。
+> 支援 32 位元或 64 位元版本的作業系統。只支援 32 位元版本的 Internet Explorer。
 
 **支援的作業系統和網頁瀏覽器**
 
@@ -180,7 +180,7 @@ Windows Media 音訊檔案格式要求 Windows Media Format Runtime 已安裝在
 
 - Lync 2010 Attendant
 
-- Office 通訊伺服器 2007 R2 語音應答
+- Office通訊伺服器 2007 R2 助理
 
 - Lync Phone Edition
 
@@ -191,25 +191,25 @@ Windows Media 音訊檔案格式要求 Windows Media Format Runtime 已安裝在
 
 - 來電 **者可以使用** 之前所列的任何用戶端，以及透過公用交換電話網路 (PSTN) 中的標準電話，撥打回應群組。
 
-- 不會登入和登出其群組以接受來電的 **非正式代理** (，) 可以使用語音應答、Lync 或 Lync Phone Edition 接受通話。 非正式代理程式會在使用者使用其中一位用戶端登入商務用 Skype Server 時，自動登入他們的群組。
+- 不會登入和登出其群組以接受來電的 **非正式代理** (，) 可以使用語音應答、Lync 或 lync 電話 Edition 接受通話。 非正式代理程式會在他們使用其中一位用戶端登入商務用 Skype Server 時，自動登入他們的群組。
 
-- 必須用來登入和登出其群組的 **正式代理** (，以接受來電) 可以使用商務用 Skype 來接受通話，並從功能表項目存取代理程式主控台，或是使用語音應答直接從 Internet Explorer 存取代理程式主控台。
+- 必須用來登入和登出其群組的 **正式代理** (代理商可以使用商務用 Skype 和存取代理程式主控台的功能表項目目，或是直接從 Internet Explorer 存取代理程式主控台，以接受通話) 。
 
 ## <a name="capacity-planning"></a>容量規劃
 
 下表說明您可以用來作為容量規劃需求之基礎的回應群組使用者模型。
 
 > [!NOTE]
-> 下表中的數位是假設您使用 16 kHz、mono、16位 ( 波形) 所有回應群組音訊檔案的檔案。 如果您使用其他檔案格式，例如 Windows Media Audio ( .wma) ，這些數位可能會有所不同。
+> 下表中的數位是假設您使用 16 kHz、mono、16位 ( 波形) 所有回應群組音訊檔案的檔案。 如果您使用其他檔案格式，例如 Windows 媒體音訊 ( .wma) ，這些數位可能會有所不同。
 
 > [!IMPORTANT]
 > 請記住，針對嚴重損壞修復容量規劃，配對集區的每個集區都應該可以處理兩個集區中所有回應群組的工作量。
 
 **回應群組使用者模型**
 
-|**計量**|**每個 Enterprise Edition 集區  <br/> (，含8部前端伺服器)**|**每個 Standard Edition server**|
+|**計量**|**每 Enterprise Edition <br/> 包含8部前端伺服器的集區 ()**|**根據 Standard Edition 伺服器**|
 |:-----|:-----|:-----|
-|每秒來電數  <br/> |16   <br/> |2   <br/> |
+|每秒來電數  <br/> |16   <br/> |第  <br/> |
 |連線至 IVR 或 MoH 的並行通話  <br/> |480  <br/> |60  <br/> |
 | (沒有 IM) 的併發匿名會話  <br/> |224  <br/> |日  <br/> |
 |使用 IM)  (同時匿名會話  <br/> |64  <br/> |8   <br/> |

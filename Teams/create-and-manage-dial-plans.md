@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 瞭解如何使用系統管理中心Microsoft Teams或Windows PowerShell PSTN 撥號方案 (撥號方案) 。
-ms.openlocfilehash: 59867dfe49436635f690ff9f5d56a2be36e553ec
-ms.sourcegitcommit: 127f9fdf05b93ee3af4244224e1c32a45d73d3ee
+ms.openlocfilehash: b578533bfd2b903fd29563897a2f9ed917b369c38955e631b4aba0cefaa025fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/21/2021
-ms.locfileid: "53046230"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282866"
 ---
 # <a name="create-and-manage-dial-plans"></a>建立和管理撥號對應表
 
@@ -40,8 +40,8 @@ ms.locfileid: "53046230"
 2. 按一下 **[新增**」，然後輸入撥號方案的名稱和描述。
     ![顯示建立撥號方案之新增頁面的螢幕擷取畫面](media/create-dial-plan.png)
 3. 在 **撥號方案詳細資料** 下，指定外部撥號首碼，如果使用者需要撥打一或多個額外的前導 (例如 9) 以取得外部線路。 若要這麼做：
-    1. 在外部 **撥號首碼** 方塊中，輸入外部撥號首碼。 首碼最多四個字元 (#、*和 0-9) 。
-    2. 開啟優化 **的裝置撥號**。 如果您指定外部撥號首碼，您也必須開啟此設定，才能使用首碼，才能在組織外撥打電話。
+    1. 在外部 **撥號首碼** 方塊中，輸入外部撥號首碼。 首碼最多四個字元 (#，*，以及 0-9) 。
+    2. 開啟優化 **的裝置撥號**。 如果您指定外部撥號首碼，您也必須開啟此設定，才能使用首碼，好在組織外部撥打電話。
 4. 在 **標準化規則** 下，為撥號方案設定一 [或多個標準化](what-are-dial-plans.md#normalization-rules) 規則並關聯。 每個撥號方案都必須至少有一個與其相關聯的標準化規則。  若要這麼做，請執行下列一或多個操作：
     - 若要建立新常態化規則並將其與撥號方案建立關聯，請按一下 [ **新增**，然後定義規則。
     - 若要編輯已與撥號方案相關聯的標準化規則，請按一下規則名稱左側以選取規則，然後按一下 [ **編輯**。 進行您想要的變更，然後按一下 [ **儲存**。
@@ -181,7 +181,7 @@ $nr1=(Get-CsTenantDialPlan RedmondDialPlan).NormalizationRules[1]
 Set-CsTenantDialPlan -Identity RedmondDialPlan -NormalizationRules @{remove=$nr1}
 ```
 
-執行此程式以尋找所有獲得 RedmondDialPlan 租使用者撥號方案的使用者。
+執行此程式以尋找已獲得 RedmondDialPlan 租使用者撥號方案之所有使用者。
   
 ```PowerShell
 Get-CsOnlineUser | Where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}

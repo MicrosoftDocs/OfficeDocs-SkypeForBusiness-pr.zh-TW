@@ -21,16 +21,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 瞭解如何指派會議 ID 給使用者Microsoft Teams會議識別碼參數應該是什麼。
-ms.openlocfilehash: b57a419266ceca09a73fc4bf75bb12153e41ea91
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3086ff06d2a59028fd8b7c41aea8819cea733179e4596b036dc54d5eba927c91
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117206"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323955"
 ---
-# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>在會議名稱中，查看並重設指派給使用者的會議Microsoft Teams
+# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>在會議名稱中，查看並重設指派給使用者Microsoft Teams
 
-在 Microsoft 365 或 Office 365 中設定音訊會議，並使用 Microsoft 做為音訊會議提供者時，系統會自動將會議 ID 指派給Microsoft Teams使用者。 會議排程時，指派的會議 ID 會以會議邀請中送出。 使用者排程的每個會議都會獲得一個唯一的會議識別碼。 
+在 Microsoft 365 或 Office 365 中設定音訊會議並使用 Microsoft 做為音訊會議提供者時，系統會自動將會議 ID 指派給Microsoft Teams使用者。 會議排程時，指派的會議 ID 會以會議邀請中送出。 使用者排程的每個會議都會獲得唯一的會議 ID。 
   
 雖然會自動建立會議 ID 並指派給使用者，但有時候使用者可能不想使用此 ID，而您想要將其設定為特定號碼，或是使用者不記得或遺失其會議 ID。 您可以使用系統管理Microsoft Teams或Windows PowerShell來查看、變更及重設其會議 ID。
   
@@ -84,7 +84,7 @@ ms.locfileid: "51117206"
    >  建立新會議 ID 或重設會議 ID 之後，來電者即無法使用舊的會議 ID。 您應該通知使用者重新排期現有的會議邀請，以確保新會議 ID 已新加入邀請中。 
   
     
-- 會議 ID 必須符合音訊會議橋接器上設定的數位長度。 在會議 ID 中，您不能使用字母或特殊字元;只能使用數位。
+- 會議 ID 必須符合音訊會議橋接器上設定的數位長度。 會議 ID 中無法使用字母或特殊字元;只能使用數位。
    
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？

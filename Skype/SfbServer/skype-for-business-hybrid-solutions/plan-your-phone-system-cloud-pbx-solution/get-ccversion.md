@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7d370abd-0c01-4490-88a1-55b42e51b663
-description: 傳回雲端連接器裝置的版本。 CCVersion 只能在雲端連接器的主機電腦上使用。
-ms.openlocfilehash: 706b480c2f8e277b7f41fe28e88cc062fea6603a
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 會傳回 Cloud Connector 裝置的版本。 Get-CCVersion 只能在雲端連接器的主機電腦上使用。
+ms.openlocfilehash: d3da9813fd67228f8e198cd21edce3cc187ac9359617eb660a352b38c51a95ba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799843"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349505"
 ---
 # <a name="get-ccversion"></a>Get-CcVersion
  
-傳回雲端連接器裝置的版本。 CCVersion 只能在雲端連接器的主機電腦上使用。
+會傳回 Cloud Connector 裝置的版本。 Get-CCVersion 只能在雲端連接器的主機電腦上使用。
   
 ```powershell
 Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
@@ -30,11 +30,11 @@ Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
 
 ## <a name="detailed-description"></a>詳細描述
 
-根據已安裝的 PowerShell 腳本、裝置目錄中的檔案，以及部署于主機伺服器上的虛擬機器，傳回雲端連接器裝置的版本。
+根據安裝的 PowerShell 腳本、裝置目錄中的檔案，以及在主伺服器上部署的虛擬機器，傳回雲端連接器裝置的版本。
   
 ## <a name="parameters"></a>參數
 
-|**參數**|**必要**|**類型**|**說明**|
+|**參數**|**Required**|**Type**|**描述**|
 |:-----|:-----|:-----|:-----|
 |VersionType  <br/> |選用  <br/> |System.String  <br/> |版本類型。 參數的值可以是 RunningScripts、RunningBits、BackupBits 或 All。 預設值為 RunningScripts。  <br/> |
    
@@ -43,7 +43,7 @@ Get-CcVersion [[-VersionType] <String>] [<CommonParameters>]
 
 ### <a name="example-1"></a>範例 1
 
-下列範例顯示開啟的 PowerShell 主控台中目前執行的腳本的雲端連接器版本：
+下列範例會顯示開啟的 PowerShell 主控台中目前正在執行之腳本的雲端連接器版本：
   
 ```powershell
 Get-CcVersion
@@ -51,7 +51,7 @@ Get-CcVersion
 
 ### <a name="example-2"></a>範例 2
 
-下列範例顯示目前正在執行的二進位檔案在虛擬機器上部署的雲端連接器版本。 您可以在 Hyper-v 管理員的 [執行中的虛擬機器名稱] 中查看版本：
+下列範例顯示部署至虛擬機器之目前執行二進位檔案的雲端連接器版本。 您可以在 Hyper-v 管理員的執行虛擬機器名稱中查看版本：
   
 ```powershell
 Get-CCVersion -VersionType RunningBits
@@ -60,7 +60,7 @@ Get-CCVersion -VersionType RunningBits
 ## <a name="input-types"></a>輸入類型
 <a name="Examples"> </a>
 
-無。 CcVersion Cmdlet 不接受流水線輸入。
+無。 Get-CcVersion Cmdlet 不接受管線傳送的輸入。
   
 ## <a name="return-types"></a>傳回類型
 <a name="Examples"> </a>

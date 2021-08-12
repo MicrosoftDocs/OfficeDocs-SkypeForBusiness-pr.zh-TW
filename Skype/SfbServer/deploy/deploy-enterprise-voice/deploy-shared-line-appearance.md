@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 2015 中部署共用線外觀
+title: 在商務用 Skype Server 2015 中部署共用線路外觀
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,25 +16,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
-description: 閱讀此主題以瞭解如何在商務用 Skype Server 2015，2015累計更新中，部署共用線外觀 (SLA) 。 SLA 是一種功能，可用於處理特定號碼（稱為共用號碼）上的多個通話。
-ms.openlocfilehash: 7758354b7c4be123cb9b5a482af3304b069931a8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 請閱讀此主題以瞭解如何在 2015 2015 年11月累積更新 (中，以商務用 Skype Server 的 SLA) 部署共用行外觀。 SLA 是一種功能，可用於處理特定號碼（稱為共用號碼）上的多個通話。
+ms.openlocfilehash: de0b0d54fed0b76c1e20b67b743dfef2c4f784589b2eb3867529201493242e32
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104909"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314909"
 ---
-# <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中部署共用線外觀
+# <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中部署共用線路外觀
 
-閱讀此主題以瞭解如何在商務用 Skype Server 2015，2015累計更新中，部署共用線外觀 (SLA) 。 SLA 是一種功能，可用於處理特定號碼（稱為共用號碼）上的多個通話。
+請閱讀此主題以瞭解如何在 2015 2015 年11月累積更新 (中，以商務用 Skype Server 的 SLA) 部署共用行外觀。 SLA 是一種功能，可用於處理特定號碼（稱為共用號碼）上的多個通話。
 
-如需此功能的相關資訊，請參閱 [在商務用 Skype Server 2015 中規劃共用行的外觀](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)。
+如需此功能的相關資訊，請參閱[商務用 Skype Server 2015 中的計畫共用行外觀](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)。
 
-共用線外觀 (SLA) 是商務用 Skype Server 中的新功能（2015年11月累積更新）。 若要啟用此功能，您必須先部署此累計更新。
+共用線路外觀 (SLA) 是商務用 Skype Server 中的新功能（2015年11月累積更新）。 若要啟用此功能，您必須先部署此累計更新。
 
 ### <a name="install-shared-line-appearance"></a>安裝共用線路外觀
 
-1. 在商務用 Skype Server 後，已部署11月2015累計更新，請  `SkypeServerUpdateInstaller.exe` 在集區中的每一部前端伺服器上執行修補程式。
+1. 商務用 Skype Server 後，部署了11月2015累計更新，請 `SkypeServerUpdateInstaller.exe` 在集區中的每一部前端伺服器上執行修補程式。
 
 2. 安裝程式將會部署最新版本的 SLA 應用程式，但預設不會啟用該應用程式。 遵循下列所述的步驟來啟用它：
 
@@ -66,9 +66,9 @@ ms.locfileid: "51104909"
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MaxNumberOfCalls <Number> -BusyOption <BusyOnBusy|Voicemail|Forward> [-Target <TargetUserOrPhoneNumber>]
    ```
 
-    Set-CsSlaConfiguration Cmdlet 會將 Enterprise Voice 帳戶 SLAGroup1 標示為 SLA 實體，SLAGroup1 數目會變成 SLA 群組的數目。 所有對 SLAGroup1 的呼叫都會撥打整個 SLA 群組。
+    Set-CsSlaConfiguration Cmdlet 會將企業語音帳戶 SLAGroup1 標示為 sla 實體，SLAGroup1 數目會變成 sla 群組的數目。 所有對 SLAGroup1 的呼叫都會撥打整個 SLA 群組。
 
-    下列範例會為現有的 Enterprise Voice user 和 SLAGroup1 建立 SLA 群組，並使用指派給 SLAGroup1 的號碼做為 SLA 主線編號。
+    下列範例會為現有的企業語音使用者 SLAGroup1 建立 SLA 群組，並使用指派給 SLAGroup1 的號碼做為 SLA 主線編號。
 
     此命令會將新 SLA 群組的並行通話數目上限設定為3，並讓來電超過該限制，以聽到忙碌的信號：
 
@@ -79,7 +79,7 @@ ms.locfileid: "51104909"
     您可以使用 Set-CsSlaConfiguration 建立新的 SLA 群組或修改現有的 SLA 群組。
 
     > [!NOTE]
-    > 請注意，您指定的  `-Identity` 必須是有效的現有企業語音使用者帳戶。
+    > 請注意，您指定的 `-Identity` 必須是有效的現有企業語音使用者帳戶。
 
 2. 使用 [CsSlaDelegates](/powershell/module/skype/add-cssladelegates?view=skype-ps) Cmdlet 將委派新增至群組：
 
@@ -88,7 +88,7 @@ ms.locfileid: "51104909"
           <NameOfDelegate@domain>
    ```
 
-    下列範例會將使用者新增至 SLA 群組。 新增至群組的每個使用者都必須是有效的企業語音啟用使用者：
+    下列範例會將使用者新增至 SLA 群組。 新增至群組的每個使用者都必須是有效的企業語音啟用的使用者：
 
    ```powershell
    Add-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate1@contoso.com

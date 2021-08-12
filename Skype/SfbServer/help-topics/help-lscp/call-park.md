@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: 當來電停用時，會將通話轉移至暫留的臨時號碼，直到有人將通話轉移或下班時為止。您必須使用保留用於寄存通話的分機號碼範圍來設定表格。 這些分機號碼必須是虛擬分機 (亦即，未指派使用者或電話的分機) 。 每個執行通話駐留應用程式的集區，都可以有一個或多個範圍的分機。 在您的部署中，這些範圍必須是全域唯一的。
-ms.openlocfilehash: 30e0493c065c8bcd16b8d18a625c2650522ee8ee
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 025dc470a31fef85f28df9fed5ec611880547d609e461eb7a6ce485b7ffb646e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095397"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334215"
 ---
 # <a name="call-park"></a>通話駐留
 
@@ -58,4 +58,4 @@ ms.locfileid: "51095397"
 
 - **目的地** 主機號碼範圍內主控通話駐留應用程式之應用程式服務的完整功能變數名稱 (FQDN) 或服務識別碼。
 
-如需通話駐留功能及功能的詳細資訊，請參閱 [在商務用 Skype 2015 中規劃通話駐留](../../plan-your-deployment/enterprise-voice-solution/call-park.md)。 如需使用通話駐留號碼範圍的詳細資訊，請參閱 [設定寄存通話的電話號碼分機號碼](/previous-versions/office/lync-server-2013/lync-server-2013-configure-phone-number-extensions-for-parking-calls)。
+如需通話駐留功能及功能的詳細資訊，請參閱[Plan for 通話駐留 in 商務用 Skype 2015](../../plan-your-deployment/enterprise-voice-solution/call-park.md)。 如需與通話駐留號碼範圍搭配使用的詳細資訊，請參閱[Configure 電話號碼分機的停車電話](/previous-versions/office/lync-server-2013/lync-server-2013-configure-phone-number-extensions-for-parking-calls)。

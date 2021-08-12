@@ -1,5 +1,5 @@
 ---
-title: 第5階段將商務用 Skype Server 2019 Edge Server 新增至試驗集區
+title: 階段5將商務用 Skype Server 2019 Edge Server 新增至試驗集區
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -11,14 +11,14 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本節中的主題說明如何將商務用 Skype Server 2019 Edge Server 新增至試驗集區部署。 主題會在執行 [部署新 Edge 集區] 嚮導時，提供設定和驗證指導方針。
-ms.openlocfilehash: adcbe7ef5c999328879d395f0e5439fa952cfda0
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: a646b5400c9448349eacb06da67001c9d2ed4e1e0d7716ad83d74e29deb5bfb7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752305"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315059"
 ---
-# <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a>第5階段：將商務用 Skype Server 2019 Edge Server 新增至試驗集區
+# <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a>階段5：將商務用 Skype Server 2019 Edge Server 新增至試驗集區
 
 本節中的主題說明如何將商務用 Skype Server 2019 Edge Server 新增至試驗集區部署。 主題會在執行 [部署新 Edge 集區] 嚮導時，提供設定和驗證指導方針。 
   

@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: 摘要：瞭解如何在商務用 Skype Server 中管理會議加入和離開宣告。
-ms.openlocfilehash: 796266dd3b571e525f657d5dbe712d1577779cae
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：瞭解如何在商務用 Skype Server 中管理會議加入和保留宣告。
+ms.openlocfilehash: 597bf27f574413364f1d16efc31704abe3c107f143f95d9469234d84d245628b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119452"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290381"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議加入和離開宣告
  
-**摘要：** 瞭解如何在商務用 Skype Server 中管理會議加入和離開宣告。
+**摘要：** 瞭解如何在商務用 Skype Server 中管理會議加入和保留宣告。
   
-當撥入使用者加入或離開會議時，會議宣告應用程式可以透過播放音調或口述其名稱來宣告其進入或退出。 您可以使用商務用 Skype Server 管理命令介面和 **test-csdialinconferencing 指令程式** 來變更宣告的運作方式，並使用下列參數：
+當撥入使用者加入或離開會議時，會議宣告應用程式可以透過播放音調或口述其名稱來宣告其進入或退出狀態。 您可以使用商務用 Skype Server 管理命令介面和 **test-csdialinconferencing 指令程式** 來變更宣告的運作方式，並使用下列參數：
   
 - EnableNameRecording-決定匿名參與者是否要求在進入會議之前記錄其名稱。 預設值為 "$true，這表示匿名參與者在加入會議時，系統會提示他們輸入名稱。  (驗證的參與者不會記錄其名稱，因為會改為使用其顯示名稱。 ) 
     
@@ -31,14 +31,14 @@ ms.locfileid: "51119452"
     
 - EntryExitAnnouncementsType-表示每當參與者加入或離開已啟用宣告的會議時所採取的動作。 預設值為 "UseNames，這表示有類似下列的宣告：「Ken Myer 已加入會議」（已開啟宣告）。
     
-您可以在全域範圍或網站範圍中設定這些設定。 在網站範圍設定的設定會優先于在全域範圍設定的設定。
+您可以在全域範圍或網站範圍中設定這些設定。 在網站範圍設定的設定優先于在全域範圍設定的設定。
    
 
 ### <a name="to-modify-the-conference-join-and-leave-announcement-behavior"></a>修改會議加入和離開宣告行為
 
 1. 以 RTCUniversalServerAdmins 群組成員或 Cs-ServerAdministrator、CsAdministrator 角色成員的身分登入電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 在命令提示字元中執行下列命令：
     
@@ -46,7 +46,7 @@ ms.locfileid: "51119452"
    Get-CsDialinConferencingConfiguration
    ```
 
-這個 Cmdlet 會取得參與者加入會議時，是否需要參與者記錄其名稱的相關資訊，以及商務用 Skype 伺服器在參與者加入或離開電話撥入式會議時，如何回應。
+此 Cmdlet 會在加入會議時，會檢索是否需要參與者記錄其名稱的相關資訊，以及當參與者加入或離開電話撥入式會議時，商務用 Skype Server 的回應方式。
     
 4. 在命令提示字元中執行下列命令：
     

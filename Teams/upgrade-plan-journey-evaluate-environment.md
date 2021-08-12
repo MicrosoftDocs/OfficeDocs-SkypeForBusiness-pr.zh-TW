@@ -18,18 +18,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aeb236edddea69c1c112b695c9323de19da46092
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 57bf9c10638fa9d037927eb38e604ab75a17ee1f989f5114b4e1c27606b71cfe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282200"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323755"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>升級至 Teams
 
 ![升級歷程圖，強調技術準備階段](media/upgrade-banner-tech-readiness.png "升級歷程的階段，強調技術準備階段")
 
-本文是升級過程中技術整備階段的一部分，此階段是您與使用者整備階段同時完成的活動。 在繼續進行之前，請確認您已完成上述階段的活動：
+本文是升級過程中技術整備階段的一部分，此階段是您與使用者整備階段同時完成的活動。 繼續進行之前，請確認您已完成上述階段的活動：
 
 - [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
 - [已定義專案範圍](./upgrade-define-project-scope.md)
@@ -40,7 +40,7 @@ ms.locfileid: "52282200"
 
 ## <a name="introduction-to-the-discovery-questionnaire"></a>探索問卷簡介
 
-若要在 OKRs (達成) ，您先前會做出重要的服務決策。 下一個步驟是執行環境探索，評估與 IT 基礎結構、網路和作業相關的所有層面，以確認貴組織已準備好執行解決方案。 探索是規劃您進行探索之旅時，您首先採取的重要Teams。 環境探索必須包含網路就緒性評定，以確保您的網路能夠支援升級至Teams。 您可以執行環境的詳細探索，以進一步瞭解其目前狀態，並揭露任何困難，或甚至是可能封鎖者，以執行您的Teams推出。
+若要在 OKRs (達成) ，您先前會做出重要的服務決策。 下一個步驟是執行環境探索，評估與 IT 基礎結構、網路和作業相關的所有層面，以確認貴組織已準備好執行解決方案。 探索是規劃您進行探索之旅時，您首先採取的重要Teams。 環境探索必須包含網路就緒性評定，以確保您的網路支援升級至Teams。 您可以執行環境的詳細探索，以進一步瞭解其目前狀態，並揭露任何困難，或甚至是可能封鎖者，以執行您的Teams推出。
 
 您將技術風險識別為環境評估與採用準備評估的一部分，並針對每個已識別的風險制定緩解計畫。 您應該在風險註冊簿中加入這項資訊。
 
@@ -67,6 +67,6 @@ ms.locfileid: "52282200"
 
 ## <a name="project-team"></a>Project小組
 
-請確保您已與專案小組的合適人員合作。 驗證在招募專案專案關係 [人中完成的步驟](upgrade-enlist-stakeholders.md)。
+請確保您已與專案小組的合適人員合作。 驗證在招募專案專案關係人 [中完成的步驟](upgrade-enlist-stakeholders.md)。
 
 評估您的環境之後，請繼續進行下一個步驟： [準備您的服務](upgrade-prepare-environment-prepare-service.md)。

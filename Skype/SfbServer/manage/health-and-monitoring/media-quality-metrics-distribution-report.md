@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 摘要：瞭解商務用 Skype Server 中的媒體質量計量散佈報告。
-ms.openlocfilehash: c39282ab2d5d6ce903affd807d22116a98de3620
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b90b54ede899d8eb085ad65392280e3910498128e5a43c927260b20e501e2292
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827803"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290311"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>商務用 Skype Server 中的媒體質量計量散佈報告 
  
@@ -27,8 +27,8 @@ ms.locfileid: "49827803"
   
 |**通話號碼**|**來回時間 (毫秒)**|
 |:-----|:-----|
-|1   <br/> |50  <br/> |
-|2   <br/> |50  <br/> |
+|1  <br/> |50  <br/> |
+|第  <br/> |50  <br/> |
 |3   <br/> |50  <br/> |
 |4   <br/> |50  <br/> |
 |5   <br/> |50  <br/> |

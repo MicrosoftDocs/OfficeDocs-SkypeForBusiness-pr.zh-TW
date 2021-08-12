@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams轉場電子郵件和問卷|基本升級
+title: Microsoft Teams轉換電子郵件和問卷|基本升級
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 用於 conjunciton 的電子郵件和問卷範例與加速的十個步驟行動計畫，從 商務用 Skype 升級Teams
+description: 在 Conjunciton 中使用的電子郵件和問卷範例，以及加速從 商務用 Skype 升級至 Teams
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6071d567972babbe16bae8ce00852be713199ef0
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 7c94094720a68bf14c0c6b3f66d8b45c4a7a3251cd1159645b1226a711d562a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53586982"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323775"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升級基本通訊的電子郵件和問卷範例
 
@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>要求使用者試用小組和頻道的電子郵件，以執行步驟 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>要求使用者試用步驟 10 之團隊和頻道的電子郵件
 
 主題行：
 
@@ -219,7 +219,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 | 我已經使用其他應用程式，以滿足通訊和共同合作的需求 | &#9744; |
 | 使用之前，我需要訓練 | &#9744; |
 | 我嘗試過使用它，但遇到技術問題或體驗不佳 | &#9744; |
-| 我們的支援人員無法協助我處理問題 | &#9744; |
+| 我們的支援人員無法協助我解決我的問題 | &#9744; |
 | 沒有，我目前使用它 | &#9744; |
 | 其他 (請指定)  | &#9744; |
 

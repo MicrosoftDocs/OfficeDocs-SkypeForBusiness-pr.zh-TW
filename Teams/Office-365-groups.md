@@ -17,12 +17,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 瞭解如何使用Microsoft 365群組和群組成員資格Microsoft Teams。
-ms.openlocfilehash: d258fa4252f6bbb02d2b9a8211dd5919c2d7a67b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 37668b4315f2a46a99f5d9409e395b70f5446ac0f9b0ab5fb86fdbbe644246d6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105239"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282896"
 ---
 # <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365群組和Microsoft Teams
 
@@ -42,9 +42,9 @@ Microsoft 365群組是應用程式中的跨應用程式成員資格Microsoft 365
 
 ## <a name="group-membership"></a>群組成員資格
 
-如果您移除團隊的成員，他們Microsoft 365群組中移除。 從群組移除會立即從用戶端移除團隊Teams頻道。 如果您使用 Microsoft 365 系統管理中心將人員從群組移除，他們將不再能夠存取其他共同合作層面，例如 SharePoint Online 文件庫、Yammer群組或共用OneNote。 不過，他們仍然可以存取團隊的聊天功能大約兩小時。
+如果您移除團隊的成員，他們Microsoft 365群組中移除。 從群組移除會立即從用戶端移除團隊Teams頻道。 如果您使用 Microsoft 365 系統管理中心 移除群組中的人員，他們將不再能夠存取其他共同合作層面，例如 SharePoint Online 文件庫、Yammer群組或共用OneNote。 不過，他們仍然可以存取團隊的聊天功能大約兩小時。
 
-作為管理小組成員的最佳作法，請從 Teams 用戶端新增和移除成員，以確保其他群組連接工作負載的許可權更新快速發生。 如果您使用 Microsoft 365 系統管理中心、Azure AD 或 Exchange Online PowerShell) ，在 Teams 用戶端 (之外新增或移除小組成員，最多可能需要 24 小時才能在 Teams 中反映變更。
+管理小組成員的最佳作法是從 Teams 用戶端新增和移除成員，以確保其他群組連接工作負載的許可權更新快速發生。 如果您使用 Microsoft 365 系統管理中心、Azure AD 或 Exchange Online PowerShell) 在 Teams 用戶端 (之外新增或移除小組成員，最多可能需要 24 小時才能在 Teams 中反映變更。
 
 ## <a name="deleting-groups-and-teams"></a>刪除群組和團隊
 

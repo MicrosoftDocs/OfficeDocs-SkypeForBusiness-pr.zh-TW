@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.ServicePlanNotValid
 description: '查看在線上服務方案無效後商務用 Skype為使用者指派有效的服務方案。 '
-ms.openlocfilehash: 3545d0341e7e094ca1152d37a145e3c52640ae50
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f683a3f12e9149017c5f62375f188360a03f0e9fd8bb286f1e44f09b2c2b6ef7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239465"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314959"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>使用者的線上服務商務用 Skype方案無效
 
@@ -34,7 +34,7 @@ ms.locfileid: "52239465"
 
 很抱歉，商務用 Skype指派給此使用者的線上服務方案無法識別，或無效。
   
-請前往 Microsoft 365系統管理 *中心** >**活動使用者，** 並指派有效的服務方案給此使用者。
+請前往 *Microsoft 365 系統管理中心** >**活動使用者，** 並指派有效的服務方案給此使用者。
 
 ## <a name="related-topics"></a>相關主題
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)

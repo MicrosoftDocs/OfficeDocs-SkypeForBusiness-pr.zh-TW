@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中修補或更新後端伺服器或 Standard Edition server
+title: 在商務用 Skype Server 中修補或更新後端伺服器或 Standard Edition 伺服器
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,28 +12,28 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 摘要：瞭解如何在商務用 Skype Server 中的後端伺服器上安裝更新或修補程式。
-ms.openlocfilehash: 3e5e0cda1604f3144e853cfa3bf7bcc45e7d0c2f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6da04dda24400e8dfa00bcaac5d3620cbf6509a5f4bef2d7d988682597b732f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826303"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54290281"
 ---
-# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>在商務用 Skype Server 中修補或更新後端伺服器或 Standard Edition server
+# <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>在商務用 Skype Server 中修補或更新後端伺服器或 Standard Edition 伺服器
  
-**摘要：** 瞭解如何在商務用 Skype Server 的後端伺服器上安裝更新或修補程式。
+**摘要：** 瞭解如何在商務用 Skype Server 中的後端伺服器上安裝更新或修補程式。
   
-本主題說明如何在 Enterprise Edition 後端伺服器或 Standard Edition server 上安裝更新。
+本主題說明如何在 Enterprise Edition 後端伺服器或 Standard Edition 伺服器上安裝更新。
   
 如果後端伺服器停機至少30分鐘，則使用者可能會進入復原模式。 當升級完成且後端伺服器重新連接至集區中的前端伺服器後，使用者會傳回完整功能。 如果升級所需的時間少於30分鐘，使用者將不會受到影響。
   
-### <a name="to-update-a-back-end-server-or-standard-edition-server"></a>更新後端伺服器或 Standard Edition server
+### <a name="to-update-a-back-end-server-or-standard-edition-server"></a>更新後端伺服器或 Standard Edition 伺服器
 
 1. 以 CsAdministrator 角色成員身分登入您要升級的伺服器。
     
 2. 下載更新，並將其解壓縮至本機硬碟。
     
-3. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype**]，然後按一下 [ **商務用 skype Server 管理命令** 介面]。
+3. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 4. 停止商務用 Skype Server 服務。 在命令列中輸入：
     
@@ -41,7 +41,7 @@ ms.locfileid: "49826303"
     Stop-CsWindowsService
     ```
 
-5. 停止全球資訊網服務。 在命令列中輸入：
+5. 停止全球資訊網服務。在命令列中輸入：
     
     ```PowerShell
     net stop w3svc
@@ -51,21 +51,21 @@ ms.locfileid: "49826303"
     
 7. 安裝更新。
     
-8. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+8. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
-9. 停用商務用 Skype Server 服務，以捕捉通用群組件快取 (GAC) 元件。 在命令列中輸入：
+9. 停用商務用 Skype Server 服務，以 (GAC) 集區中捕捉全域組件快取。 在命令列中輸入：
     
     ```PowerShell
     Stop-CsWindowsService
     ```
 
-10. 重新啟動全球資訊網服務。 在命令列中輸入：
+10. 重新啟動全球資訊網服務。在命令列中輸入：
     
     ```PowerShell
     net start w3svc
     ```
 
-11. 執行下列其中一項，以套用對 SQL Server 資料庫所做的變更：
+11. 執行下列其中一項，套用對 SQL Server 資料庫所做的變更：
     
     - 如果這是 Enterprise Edition 後端伺服器，且此伺服器上沒有組合資料庫（例如封存或監控資料庫），請在命令列輸入下列命令：
     
@@ -79,7 +79,7 @@ ms.locfileid: "49826303"
     Install-CsDatabase -Update -ConfiguredDatabases -SqlServerFqdn <SQL Server FQDN>  -ExcludeCollocatedStores
     ```
 
-    - 如果這是 Standard Edition server，請在命令列輸入下列命令：
+    - 如果這是 Standard Edition 伺服器，請在命令列輸入下列命令：
     
     ```PowerShell
     Install-CsDatabase -Update -LocalDatabases

@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6146b6d4a7ca3d988c5dc1042a7f75848cf4fc7b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9fbc1e51c22fbc2efc5ab286b1082f1169c14e89c2abae573ae810a8be04dd63
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092661"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315289"
 ---
 <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 試用版
 ==============================
@@ -56,7 +56,7 @@ ms.locfileid: "51092661"
 如需詳細資訊，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
 
 > [!NOTE]
-> 如果 E1 試用版結束，且使用者未立即升級為包含 Teams 的訂閱，則不會移除使用者資料。 使用者仍然存在於 Azure Active Directory 中，且 Teams 內的所有資料仍會保留。 一旦將新授權指派給使用者以再次啟用 Teams 功能，所有內容仍會存在。 
+> 如果 E1 試用版結束，且使用者未立即升級為包含 Teams 的訂閱，則不會移除使用者資料。使用者仍然存在於 Azure Active Directory 中，且 Teams 內的所有資料仍會保留。一旦將新授權指派給使用者以再次啟用 Teams 功能，所有內容仍會存在。 
 
 ### <a name="remove-an-office-365-e1-trial-license"></a>移除 Office 365 E1 試用版授權
 

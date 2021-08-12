@@ -24,16 +24,16 @@ ms.custom:
 - ms.lync.lac.CpcGettingStarted
 - seo-marvel-mar2020
 description: '瞭解如何嘗試或購買 PSTN (音訊會議) Microsoft 365 或 Office 365 授權，以設定人員可以撥入的電話會議。 '
-ms.openlocfilehash: b4cf789289bc1f05e9e8bba79409f204112f288b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bcf67443b395e5951d9499124d360061c4ea9a21c130eef5e9efe4187caa7088
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116531"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323765"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-for-microsoft-teams"></a>請嘗試或購買 Microsoft 365 音訊Microsoft Teams
 
-貴組織內的人員有時會需要透過電話來加入會議。 Microsoft Teams音訊會議功能， 人員可以使用電話Microsoft Teams會議，而不是在行動裝置Microsoft Teams或 PC 上使用 Microsoft Teams應用程式。
+貴組織內的人員有時會需要透過電話來加入會議。 Microsoft Teams音訊會議功能， 使用者可以使用電話Microsoft Teams會議，而不是在行動裝置Microsoft Teams或 PC 上使用 Microsoft Teams應用程式。
 
 您只需要為計畫排程或引導會議的人設定音訊會議。 來電到會議的會議出席者不需要指派任何授權給他們，也不需要進行其他設定。
 
@@ -55,7 +55,7 @@ ms.locfileid: "51116531"
 
 3. [指派授權給](/microsoft-365/admin/manage/assign-licenses-to-users) 組織中要排程或主導會議的使用者。
 
-4. 如果您購買音訊會議附加元件授權及通訊信用額度授權，也請指派這些授權。 有關指示，請參閱指派[Microsoft Teams附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+4. 如果您購買音訊會議附加元件授權及通訊信用額度授權，請同時指派這些授權。 有關指示，請參閱指派[Microsoft Teams附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>購買並指派每分鐘付費音訊會議授權
 
@@ -65,10 +65,10 @@ ms.locfileid: "51116531"
 
 2. 取得 **音訊會議** 授權。 若要取得每分鐘付費授權，請聯絡您的帳戶代表。
 
-3. [為貴組織](set-up-communications-credits-for-your-organization.md) 設定組織的通訊信用額度。 若要設定通訊信用額度，請參閱 [什麼是通訊信用額度？](what-are-communications-credits.md)
+3. [為貴組織設定組織的](set-up-communications-credits-for-your-organization.md) 通訊信用額度。 若要設定通訊信用額度，請參閱 [什麼是通訊信用額度？](what-are-communications-credits.md)
 
     > [!IMPORTANT]
-    > 如果尚未設定通訊信用額度，音訊會議將無法適用于任何擁有每分鐘付費授權的使用者。
+    > 如果尚未設定通訊信用額度，音訊會議將無法適用于擁有每分鐘付費授權的任何使用者。
 
 4. [指派授權給](/microsoft-365/admin/manage/assign-licenses-to-users) 組織中要排程或主導會議的使用者。
 
@@ -77,7 +77,7 @@ ms.locfileid: "51116531"
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>步驟 2：設定引導或排程會議之人員的音訊會議提供者
 
-當您將音訊會議授權指派給貴組織中未商務用 Skype協力廠商音訊會議提供者的人時，這些人員已設定好並準備就緒！  (您不一定必須設定其音訊會議提供者。) 
+當您將音訊會議授權指派給貴組織中未商務用 Skype協力廠商音訊會議提供者的人時，這些人員已設定好並準備就緒！  (您不需要設定其音訊會議提供者。) 
 
 如果您使用協力廠商音訊會議提供者啟用使用者，您必須將這些使用者的提供者變更為 Microsoft。 若要變更使用者的提供者，請參閱指派 [Microsoft 做為音訊會議提供者](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)。
 
@@ -89,12 +89,12 @@ ms.locfileid: "51116531"
 
 2. [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)。 這是使用者排程的會議會顯示的電話號碼。
 
-3. [設定音訊會議自動](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) 語音回應的自動語音服務語言，當來電者撥入音訊會議電話號碼時，該語言會用來問候來電者。 只有當您使用 Microsoft 做為音訊會議提供者時，才能執行此步驟。
+3. [設定音訊會議自動](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) 語音回應的自動語音服務語言，當來電者撥入音訊會議電話號碼時，該語言會用來問候來電者。 此步驟僅適用于使用 Microsoft 做為音訊會議提供者的情況。
 
 4. [設定音訊會議 PIN 的長度](set-the-pin-length-for-audio-conferencing-meetings-in-teams.md)。
 
 > [!NOTE]
-> 使用由中國 21Vianet Office 365 21Vianet 的客戶尚未提供這項功能。 若要深入瞭解，請參閱[瞭解由 21Vianet Office 365所操作之網路](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。
+> 使用由中國 21Vianet Office 365的客戶提供這項功能。 若要深入瞭解，請參閱[瞭解由 21Vianet Office 365所操作之網路](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)。
 
 ## <a name="related-topics"></a>相關主題
 

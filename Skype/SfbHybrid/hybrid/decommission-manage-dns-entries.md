@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 解除委任內部部署商務用 Skype 環境時，如何管理 DNS 專案的指示。
-ms.openlocfilehash: d51cd3bb7617eaca563de35e708bb6ab56368ab3
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 0dabf9790b1e579d136fef459308af450e879b110474b2877513855c8e78cf29
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315169"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>更新 DNS 專案，讓您的組織全部 Teams
 
@@ -57,8 +57,8 @@ ms.locfileid: "53510764"
 | :-----| :-----| :---- | :-----| :-----| :-----| :-----|
 | SRV | _sipfederationtls tcp | 3600 |  100 | 1 | 5061  | sipfed.online.lync.com |
 | SRV | _sip tls | 3600  | 100 |    1   | 443   | sipdir.online.lync.com |
-| CNAME | lyncdiscover |    3600 |  不適用 |   不適用 |   不適用 |   webdir.online.lync.com |
-| CNAME |   sip | 3600 |    不適用 |   不適用  | 不適用 |    sipdir.online.lync.com |
+| CNAME | lyncdiscover |    3600 |  N/A |   N/A |   N/A |   webdir.online.lync.com |
+| CNAME |   sip | 3600 |    N/A |   N/A  | N/A |    sipdir.online.lync.com |
 |||||||
 
 此外，如果存在) 可刪除，則為符合或撥入 (的 CNAME 記錄。 最後，您應該移除內部網路中商務用 Skype 的任何 DNS 記錄。

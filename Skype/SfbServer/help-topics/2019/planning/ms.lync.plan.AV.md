@@ -15,17 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 ROBOTS: NOINDEX, NOFOLLOW
-description: 商務用 Skype Server 音訊/視頻 (A/V) 會議可讓使用者參與即時音訊或視訊會議。
-ms.openlocfilehash: c2d491308a3886a172ba800ba39ca9a5f637be02
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 商務用 Skype Server音訊/視頻 (A/V) 會議可讓使用者參與即時音訊或視訊會議。
+ms.openlocfilehash: 6e9429c030ed3ed21c4873b80907adcee086ddf6554109c0c12d0ebb1b1c5b71
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801163"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300059"
 ---
 # <a name="audio-video-conferencing-planning-tool"></a>音訊視訊會議 (規劃工具) 
  
-商務用 Skype Server 音訊/視頻 (A/V) 會議可讓使用者參與即時音訊或視訊會議。
+商務用 Skype Server音訊/視頻 (A/V) 會議可讓使用者參與即時音訊或視訊會議。
   
 如需在組織中啟用 A/V 會議的規劃詳細資料，請參閱下列主題及其子主題： 
   

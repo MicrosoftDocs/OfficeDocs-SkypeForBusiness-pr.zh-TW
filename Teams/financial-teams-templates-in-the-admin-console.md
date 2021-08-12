@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34e1140fe1551c0e0bc52449735755fc6d6428ca
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 749fa9a3a4264f5e4231082dcf097151377fff069bf5b123afa6b1abc5ba017b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684440"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349465"
 ---
 # <a name="use-financial-team-templates-in-the-admin-center"></a>在系統管理中心使用財務小組範本
 
@@ -44,7 +44,7 @@ ms.locfileid: "52684440"
 
 | 範本類型|baseTemplateId | 此基本範本提供的屬性 |
 | ------------------|-- |----------------------------------------------------- |
-| 在全球危機或事件上共同合作|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |頻道： <ul><li>一般<li>公告</li><li>世界新訊</li><li>業務連續性</li><li>遠端工作</li><li>內部通訊</li><li>外部通訊</li><li>核准要求</li><li>客戶抱怨</li><li>榮譽</li><li>主管更新</li></ul>應用程式： <ul><li>稱讚</li><li>Wiki</li><li>網站</li><li>Planner</li></ul>|
+| 在全球危機或事件上共同合作|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |頻道： <ul><li>一般<li>公告</li><li>世界新聞</li><li>業務連續性</li><li>遠端工作</li><li>內部通訊</li><li>外部通訊</li><li>核准要求</li><li>客戶抱怨</li><li>榮譽</li><li>主管更新</li></ul>應用程式： <ul><li>稱讚</li><li>Wiki</li><li>網站</li><li>Planner</li></ul>|
 ||||
 
 ## <a name="collaborate-within-a-bank-branch"></a>在銀行分行內共同合作
