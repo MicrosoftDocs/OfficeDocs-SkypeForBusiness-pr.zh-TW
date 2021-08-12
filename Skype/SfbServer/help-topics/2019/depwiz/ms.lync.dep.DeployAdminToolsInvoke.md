@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 33fdbb31-c9c7-49cb-81ab-2522ac9ac8b9
 ROBOTS: NOINDEX, NOFOLLOW
-description: 如需使用部署嚮導來安裝商務用 Skype 伺服器的詳細資訊，請參閱安裝商務用 Skype Server。
-ms.openlocfilehash: 406a28868ceb7eb38b68dd282d94b27df9014c1b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 如需使用部署嚮導安裝商務用 Skype Server 的詳細資訊，請參閱 install 商務用 Skype Server。
+ms.openlocfilehash: 2d0400f671eb3017533210e7f33919df445af2ef68fe96f90ed441b70915dce3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820553"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291991"
 ---
 # <a name="deployment-wizard-using-the-admin-tools"></a>部署精靈：使用系統管理工具
  
-如需使用部署嚮導來安裝商務用 Skype 伺服器的詳細資訊，請參閱 [安裝商務用 Skype server](../../../deploy/install/install.md)。
+如需使用部署嚮導安裝商務用 Skype Server 的詳細資訊，請參閱[install 商務用 Skype Server](../../../deploy/install/install.md)。
   
 

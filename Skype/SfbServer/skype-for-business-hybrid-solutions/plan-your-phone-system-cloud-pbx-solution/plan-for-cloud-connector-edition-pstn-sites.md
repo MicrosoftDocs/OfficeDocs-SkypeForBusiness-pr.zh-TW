@@ -16,21 +16,21 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: 閱讀此主題以瞭解如何規劃雲端連接器 Edition PSTN 網站，以確保有效且經濟划算的呼叫路由。
-ms.openlocfilehash: b42f9109a52b5c30996abc3e42ef4ff0aa5f31dc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 51bc6c0b7bf536849ebc9d6b1338faa6db8800fee86c4515db4c5f15bf9115b3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096227"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339959"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>規劃 Cloud Connector Edition PSTN 網站
 
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會在2021年7月31日和商務用 Skype 線上時終止。 當您的組織升級至 Teams 後，請瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話網絡連線至 Teams。
  
 閱讀此主題以瞭解如何規劃雲端連接器 Edition PSTN 網站，以確保有效且經濟划算的呼叫路由。
   
-本主題說明您需要瞭解的雲端連接器版本和通話路由，以便您可以規劃雲端連接器 PSTN 網站。 PSTN 網站是雲端連接器裝置的組合，部署于相同位置，並與通用 PSTN 閘道相連。 本主題著重于如何設定您的雲端連接器網站拓撲，以確保您的雲端連接器網站可以以最具成本效益且有效的方式，處理所有指派給網站的使用者的輸入和輸出路由。 如需雲端連接器及 PSTN 網站優點的詳細資訊，請務必閱讀 Plan for [Business 雲端 Connector Edition](plan-skype-for-business-cloud-connector-edition.md)。 
+本主題說明您需要瞭解的雲端連接器版本和通話路由，以便您可以規劃雲端連接器 PSTN 網站。 PSTN 網站是雲端連接器裝置的組合，部署于相同位置，並與通用 PSTN 閘道相連。 本主題著重于如何設定您的雲端連接器網站拓撲，以確保您的雲端連接器網站可以以最具成本效益且有效的方式，處理所有指派給網站的使用者的輸入和輸出路由。 如需雲端連接器及 PSTN 網站優點的詳細資訊，請務必閱讀商務用 Skype Cloud Connector Edition 的[計畫](plan-skype-for-business-cloud-connector-edition.md)。 
   
 ## <a name="cloud-connector-pstn-sites-and-call-routing"></a>雲端連接器 PSTN 網站與通話路由
 
@@ -40,7 +40,7 @@ ms.locfileid: "51096227"
   
 每個雲端連接器裝置都可以連接至多個 IP 閘道、IP PBXs，或會話邊界控制器 (SBCs) 。 因為閘道和 PBXs 會連接到電訊主幹 (PRI 或 SIP 主幹) ，所以雲端連接器裝置會以邏輯方式連線至 PSTN 主幹，以進行撥入和撥出電話。 透過 Cloud Connector 和內部部署 PSTN 連線，您可以從您當地的載體取得主幹和相關聯的電話號碼。 如果您的公司是大型企業，您可能會有一個以上的電信公司，尤其是當您的公司跨越一個以上的城市、省或 country 時。 因為您的電信公司擁有電話號碼，所以電信公司負責處理緊急通話。
   
-商務用 Skype Online 會平等對待網站中的所有雲端連接器裝置，並將在同一網站中以旋轉方式將來電路由傳送至雲端連接器裝置。 網站中的每個雲端接頭都會與同一組 PSTN 主幹進行跨線連接 (完全網狀) 。 因為每一位使用者都與雲端連接器 PSTN 網站相關聯，所以來自該使用者的任何撥出電話 (一般或緊急) 都會指派給使用者關聯之 PSTN 網站中的其中一個雲端連接器裝置。 
+商務用 Skype線上在網站中平等對待所有的雲端連接器裝置，並將在同一網站中以旋轉方式將撥出電話路由傳送至雲端連接器裝置。 網站中的每個雲端接頭都會與同一組 PSTN 主幹進行跨線連接 (完全網狀) 。 因為每一位使用者都與雲端連接器 PSTN 網站相關聯，所以來自該使用者的任何撥出電話 (一般或緊急) 都會指派給使用者關聯之 PSTN 網站中的其中一個雲端連接器裝置。 
   
 雲端連接器會以靜態呼叫路由傳送至其連接的 IP 閘道、IP PBXs、SBCs 或 direct PSTN 主幹。 雲端連接器尚未能夠根據目的地 (，針對最低成本路由) 或根據原產地 (靜態或動態緊急通話) ，以動態路由傳送至主幹。 輸入呼叫不是問題，因為通話只會來自與號碼相關聯的主幹。 不過，撥出電話可以移至網站中的任何雲端連接器裝置 (，也可以擴充連接至雲端連接器裝置的 PSTN 主幹，) 這可能會導致不需要的長途通話。 此外，如果在具有不同區號或運營商的資料中心之間延伸雲端連接器 PSTN 網站，緊急通話不會經歷。
   

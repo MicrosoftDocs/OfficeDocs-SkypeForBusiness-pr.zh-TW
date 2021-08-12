@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e907e36b-c168-464c-8b52-edd409704a02
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[憑證要求摘要] 頁面顯示憑證的所有選項和設定的詳細摘要。 摘要會指出憑證要求將包含什麼，以及接下來將如何發出憑證。 您應該仔細查看摘要，確定您選取的所有專案和選項都是正確的。 如果您選擇正確，請按 [下一步] 繼續產生要求，並準備將它傳送給憑證授權單位單位 (CA) 。'
-ms.openlocfilehash: 216465d78caed2ab2a181faf9bc5a67202f479bf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 03d44be1be21d6af860b03a256f9be67f7589f365051e79edfd94503a153683f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801763"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291691"
 ---
 # <a name="certificate-request-summary"></a>憑證要求 (摘要)
  

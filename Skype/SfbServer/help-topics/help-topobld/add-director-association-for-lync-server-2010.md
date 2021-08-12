@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92631bb6-1bf5-4b0b-a223-ffa22d7f1fce
 description: 您可以定義 Director 或 Director 集區是否要有相關聯的監控伺服器。 選取 [將監控伺服器與 Director 或 Director 集區建立關聯] 核取方塊。
-ms.openlocfilehash: 598ede0a090d4c76ba6698ce92ce4c65c3b60959
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 69844db8cf43c2f3a3fe11d92683a0dd83cee2503fee27f9344975bed14b1463
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835533"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319214"
 ---
 # <a name="add-director-association-for-lync-server-2010"></a>為 Lync Server 2010 新增 Director 關聯
  

@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 部署一或多部 Edge Server 之後，您必須透過您組織支援的 Edge Server，啟用外部網域或提供者存取的類型、遠端使用者存取和匿名使用者對會議的存取。
-ms.openlocfilehash: 63d33a5dd3459aef5f657d8ab5772515a16e7915
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7f5ea6db17b498d2f1732cf72fc5462546d7598841a1bd489ac77c8749d86130
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848538"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>管理貴組織的 Access Edge 設定
 
@@ -36,7 +36,7 @@ ms.locfileid: "49817333"
     
       - **將封存免責聲明傳送給同盟夥伴**   選取此選項可讓您將封存免責聲明郵件傳送給同盟協力廠商，以告知其會記錄通訊詳細資料。 如果您封存與同盟協力廠商網域的外部通訊，應啟用封存免責聲明通知，以警告合作夥伴您的部署已封存其郵件和通訊詳細資料。 如需有關封存的詳細資訊，請參閱 [啟用或停用將封存免責聲明傳送給](enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md)同盟協力廠商。
 
-  - **啟用遠端使用者存取**   如果您想要在您的組織中的使用者（例如出差的遠端辦公和使用者）可以連線到商務用 Skype Server，請啟用此選項。 如需詳細資訊，請參閱 [啟用或停用遠端使用者存取](enable-or-disable-remote-user-access.md)。
+  - **啟用遠端使用者存取**  如果您想要在您的組織中的使用者（例如出差的遠端辦公和使用者）可以連接至商務用 Skype Server，請啟用此選項。 如需詳細資訊，請參閱 [啟用或停用遠端使用者存取](enable-or-disable-remote-user-access.md)。
 
   - **讓匿名使用者能夠存取會議**   如果您希望內部使用者邀請外部匿名使用者加入其組織的會議，請啟用此選項。 啟用此設定只允許匿名使用者進行會議。
 
@@ -45,31 +45,31 @@ ms.locfileid: "49817333"
 
 **使用 Windows PowerShell Cmdlet 來查看 Access Edge 設定資訊**
 
-  - 使用 Windows PowerShell 和 **Get-CsAccessEdgeConfiguration** Cmdlet 可以查看 Access Edge 設定資訊。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 
+  - 您可以使用 Windows PowerShell 和 **Get-CsAccessEdgeConfiguration** Cmdlet 來查看 Access Edge 設定資訊。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話執行此 Cmdlet。 
     
-    若要查看所有 Access Edge 設定設定的相關資訊，請在商務用 Skype Server 管理命令介面中輸入下列命令，然後按 ENTER 鍵：
+    若要查看所有 Access Edge 設定設定的相關資訊，請在商務用 Skype Server 管理命令介面中輸入下列命令，然後按 enter：
     
      `Get-CsAccessEdgeConfiguration`
     
     如此將傳回類似如下的資訊：
     
-        Identity                               : Global
-        AllowAnonymousUsers                    : False
-        AllowFederatedUsers                    : False
-        AllowOutsideUsers                      : True
-        BeClearingHouse                        : False
-        EnablePartnerDiscovery                 : False
-        EnableArchivingDisclaimer              : False
-        EnableUserReplicator                   : True
-        KeepCrlsUpToDateForPeers               : True
-        MarkSourceVerifiableOnOutgoingMessages : True
-        OutgoingTlsCountForFederatedPartners   : 4
-        DiscoveredPartnerStandardRate          : 20
-        EnableDiscoveredPartnerContactsLimit   : True
-        MaxContactsPerDiscoveredPartner        : 1000
-        DiscoveredPartnerReportPeriodMinutes   : 60
-        MaxAcceptedCertificatesStored          : 1000
-        MaxRejectedCertificatesStored          : 500
-        CertificatesDeletedPercentage          : 20
-        RoutingMethod                          : UseDnsSrvRouting
+    身分識別：全域<br/>
+    AllowAnonymousUsers： False<br/>
+    AllowFederatedUsers： False<br/>
+    AllowOutsideUsers： True<br/>
+    BeClearingHouse： False<br/>
+    EnablePartnerDiscovery： False<br/>
+    EnableArchivingDisclaimer： False<br/>
+    EnableUserReplicator： True<br/>
+    KeepCrlsUpToDateForPeers： True<br/>
+    MarkSourceVerifiableOnOutgoingMessages： True<br/>
+    OutgoingTlsCountForFederatedPartners：4<br/>
+    DiscoveredPartnerStandardRate：20<br/>
+    EnableDiscoveredPartnerContactsLimit： True<br/>
+    MaxContactsPerDiscoveredPartner：1000<br/>
+    DiscoveredPartnerReportPeriodMinutes：60<br/>
+    MaxAcceptedCertificatesStored：1000<br/>
+    MaxRejectedCertificatesStored：500<br/>
+    CertificatesDeletedPercentage：20<br/>
+    RoutingMethod： UseDnsSrvRouting<br/>
 

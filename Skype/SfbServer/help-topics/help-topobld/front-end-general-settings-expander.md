@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
-description: 若要編輯現有前端集區或 Standard Edition server 的設定，您會看到下列各節：
-ms.openlocfilehash: a899f7adc670009aaafff3b946432c13702935be
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 若要編輯現有前端集區或 Standard Edition 伺服器的設定，您會看到下列各節：
+ms.openlocfilehash: c2dc27177898c4ec8dbd260b6539e877d5eaf4ede8f402e44f09c5d4e095f1f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120935"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348068"
 ---
 # <a name="front-end-general-settings-expander"></a>前端一般設定展開工具
 
-若要編輯現有前端集區或 Standard Edition server 的設定，您會看到下列各節：
+若要編輯現有前端集區或 Standard Edition 伺服器的設定，您會看到下列各節：
 
 - 一般設定
 
@@ -50,48 +50,48 @@ ms.locfileid: "51120935"
 
   - **會議**。 包含音訊、影片和應用程式共用。 選取此選項後，您可以選取 [電話撥入 (PSTN) 會議]。 您可以在本節稍後的「轉送伺服器設定」小節中，指定及定義公用交換電話網路 (PSTN) 閘道。
 
-  - **Enterprise Voice**。 對合格的話機和裝置和商務用 Skype 用戶端啟用內部語音 over IP 呼叫。 若要啟用外部呼叫功能，您必須包含轉送伺服器。 如需詳細資訊，請參閱本主題稍後的「轉送伺服器」。
+  - **企業語音**。 對合格的話機和裝置和商務用 Skype 用戶端啟用內部語音 over IP 呼叫。 若要啟用外部呼叫功能，您必須包含轉送伺服器。 如需詳細資訊，請參閱本主題稍後的「轉送伺服器」。
 
 - 在 [ **關聯**] 中，編輯或指定下列專案：
 
-  - **SQL 存放區**。 修改現有的 SQL Server 資料庫或建立新的 SQL Server 資料庫，以存放前端集區資料庫。 您可以從清單中選取新的 SQL Server 實例，或按一下 [ **新增**] 建立新的專案。
+  - **SQL 儲存區**。 修改現有的 SQL Server 資料庫，或建立新的 SQL Server 型資料庫以保留前端集區資料庫。 您可以從清單中選取 SQL Server 的新實例，或按一下 [**新增**] 建立新的專案。
 
-    選取 [ **啟用 SQL Server 儲存區鏡像**]，然後選取要用於鏡像的伺服器。 按一下 [ **新增** ] 建立新的 SQL Server 儲存區。
+    選取 [**啟用 SQL Server 儲存區鏡像**]，然後選取要用於鏡像的伺服器。 按一下 [**新增**] 建立新的 SQL Server 儲存區。
 
-    選取 **[使用 SQL Server 鏡像見證啟用自動容錯移轉** ]，以選取要用來做為鏡像見證的伺服器。 按一下 [ **新增** ] 建立新的 SQL Server 儲存區。
+    選取 [**使用 SQL Server 鏡像見證] 以啟用自動容錯移轉**，以選取要用來做為鏡像見證的伺服器。 按一下 [**新增**] 建立新的 SQL Server 儲存區。
 
   - **檔共用**。 修改前端集區所使用的檔案存放區。 您可以從清單中選取已定義的檔案存放區，以從清單中選取新的檔案存放區。 您可以按一下 [ **新增**] 來建立新的檔案存放區。
 
     > [!IMPORTANT]
     > 在發佈新定義的拓撲之前，您指定的伺服器必須存在並加入網域中。
 
-  - 封存。 建立封存伺服器存放區與前端集區的關聯。 您可以從清單中選取伺服器，以選取已定義的封存 SQL Server 儲存區，或按一下 [ **新增** ] 以指定新的封存伺服器。
+  - 封存。 建立封存伺服器存放區與前端集區的關聯。 您可以從清單中選取伺服器，以選取已定義的封存 SQL Server 儲存區，或按一下 [**新增**] 以指定新的封存伺服器。
 
     > [!IMPORTANT]
     > 在發佈新定義的拓撲之前，您指定的伺服器必須存在並加入網域中。
 
-    選取 [ **啟用 SQL Server 儲存區鏡像**]，然後選取要用於鏡像的伺服器。 按一下 [ **新增** ] 建立新的 SQL Server 儲存區。
+    選取 [**啟用 SQL Server 儲存區鏡像**]，然後選取要用於鏡像的伺服器。 按一下 [**新增**] 建立新的 SQL Server 儲存區。
 
-    選取 **[使用 SQL Server 鏡像見證啟用自動容錯移轉** ]，以選取要用來做為鏡像見證的伺服器。 按一下 [ **新增** ] 建立新的 SQL Server 儲存區。
+    選取 [**使用 SQL Server 鏡像見證] 以啟用自動容錯移轉**，以選取要用來做為鏡像見證的伺服器。 按一下 [**新增**] 建立新的 SQL Server 儲存區。
 
-  - **監視 (CDR 和 QoE 度量)**。 選取可將監控 SQL Server 儲存區與前端集區產生關聯。 您可以從清單中選取伺服器，以選取已定義的監控伺服器，或按一下 [ **新增** ] 以指定新的監控伺服器。
+  - **監視 (CDR 和 QoE 度量)**。 選取以將監視 SQL Server 儲存區與前端集區產生關聯。 您可以從清單中選取伺服器，以選取已定義的監控伺服器，或按一下 [ **新增** ] 以指定新的監控伺服器。
 
-    選取 [ **啟用 SQL Server 儲存區鏡像**]，然後選取要用於鏡像的伺服器。 按一下 [ **新增** ] 建立新的 SQL Server 儲存區。
+    選取 [**啟用 SQL Server 儲存區鏡像**]，然後選取要用於鏡像的伺服器。 按一下 [**新增**] 建立新的 SQL Server 儲存區。
 
-    選取 **[使用 SQL Server 鏡像見證啟用自動容錯移轉** ]，以選取要用來做為鏡像見證的伺服器。 按一下 [ **新增** ] 建立新的 SQL Server 儲存區。
+    選取 [**使用 SQL Server 鏡像見證] 以啟用自動容錯移轉**，以選取要用來做為鏡像見證的伺服器。 按一下 [**新增**] 建立新的 SQL Server 儲存區。
 
   - [**建立媒體元件的 Edge 集區 (])**。 建立 Edge Server 或集區與前端集區的關聯。 您可以從清單中選取伺服器，以選取已定義的 Edge Server 或集區，或按一下 [ **新增** ] 以指定新的 edge server 或集區。
 
-  - **建立集區與 Office Web Apps Server 的關聯**。 選取這個選項，將 Office Web Apps Server 與前端集區產生關聯。 從清單中選取現有的伺服器，或按一下 [ **新增** ] 建立新的 Office Web Apps server。
+  - **建立集區與 Office Web Apps Server 的關聯**。 選取這個選項，使 Office Web 應用程式伺服器與前端集區產生關聯。 從清單中選取現有的伺服器，或按一下 [**新增**] 以建立新的 Office Web Apps server。
 
 ### <a name="resiliency"></a>彈性
 
 恢復功能提供集區的嚴重損壞修復和高可用性。 提供備份，如果主伺服器失敗，則備份伺服器可以接管，讓使用者能夠進行登入和通訊。 根據主要伺服器失敗的系統，使用者可能會降低使用者的功能。
 
-從清單中，選取要充當集區之備份伺服器的前端集區或 Standard Edition server。 您也可以選取啟用容錯移轉和回退時間間隔。 啟用容錯移轉和回退時間設定 (指定的秒數) 可啟用自動偵測失敗的伺服器，以及允許自動判斷主要備份的回退時間。
+從清單中，選取要充當集區之備份伺服器的前端集區或 Standard Edition 伺服器。 您也可以選取啟用容錯移轉和回退時間間隔。 啟用容錯移轉和回退時間設定 (指定的秒數) 可啟用自動偵測失敗的伺服器，以及允許自動判斷主要備份的回退時間。
 
 > [!IMPORTANT]
-> 在定義失敗偵測和回退間隔時，您應該注意不要輸入一個間隔，當伺服器無法回應一小段時間時，就會發生容錯移轉和回退。 根據集區或伺服器的載入，主伺服器可能會在短時間內無法回應。 Pool to pool 或 pool to Standard Edition server 的容錯移轉和回退的預設值是300秒和600秒。 在 Survivable Branch 裝置或網站中的 Survivable 分支伺服器事件到集區或 Standard Edition server 時，預設值為120秒的容錯移轉和240秒以供回退。
+> 在定義失敗偵測和回退間隔時，您應該注意不要輸入一個間隔，當伺服器無法回應一小段時間時，就會發生容錯移轉和回退。 根據集區或伺服器的載入，主伺服器可能會在短時間內無法回應。 「集區至集區」或「集區至 Standard Edition 伺服器的容錯移轉和回退的預設值為300秒和600秒。 在 Survivable Branch 裝置或網站中的 Survivable 分支伺服器到集區或 Standard Edition 伺服器的情況下，預設值為120秒的容錯移轉和240秒用於回退。
 
 > [!CAUTION]
 > **容錯移轉間隔** 的最小值不應該設定為低於90秒。 如果您將值設定為小於90秒，則會使用90秒的值。 Intercluster ping time 為30秒，設定小於90秒時，可能會造成主要和備份伺服器迴圈啟動和關閉，造成對生產的不良影響，因為伺服器會嘗試解析另一種可行的狀態。 小於90秒不允許足夠的時間來判斷主伺服器是否實際無法使用。
@@ -131,13 +131,13 @@ ms.locfileid: "51120935"
 
 ## <a name="standard-edition-server"></a>Standard Edition Server
 
-對於 Standard Edition server，您可以設定一般、恢復性、web 服務及轉送伺服器設定。 如需詳細資訊，請參閱下列小節中的資訊。 如需定義及設定 Standard Edition server 之設定的詳細資訊，請參閱 [定義及設定拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology) 及 [部署轉送伺服器及定義對等](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。
+若為 Standard Edition server，您可以設定一般、恢復性、web 服務及轉送伺服器設定。 如需詳細資訊，請參閱下列小節中的資訊。 如需定義及設定 Standard Edition 伺服器之設定的詳細資訊，請參閱[定義及設定拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)及[部署轉送伺服器及定義對等](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。
 
 ### <a name="general-settings"></a>一般設定
 
 您可以設定下列一般設定：
 
-- **FQDN**。 請注意，FQDN 無法變更。 您必須移除並重新定義 Standard Edition server，以變更與其相關聯的 FQDN。
+- **FQDN**。 請注意，FQDN 無法變更。 您必須移除並重新定義 Standard Edition 伺服器以變更與其相關聯的 FQDN。
 
 - 選取 [ **使用所有設定的 ip 位址** ]，或將 **服務使用方式限制為選取的 ip 位址**。 如果您選取將服務限制為定義的 IP 位址，將會定義伺服器用於所有通訊（PSTN 除外）的主要 IP 位址。 您可以為 PSTN 使用定義個別的 IP 位址。 您也可以選取 [ **啟用 IPv6** 以啟用此伺服器的 IPv6。
 
@@ -147,36 +147,36 @@ ms.locfileid: "51120935"
 
   - **會議**。 包含音訊、影片和應用程式共用。 選取此選項後，您可以選取 [ **電話撥入 (PSTN) 會議**]。 您可以稍後在 [轉送伺服器設定] 底下指定及定義 PSTN 閘道。
 
-  - **Enterprise Voice**。 對合格的話機和裝置和商務用 Skype 用戶端啟用內部語音 over IP 呼叫。 若要啟用外部呼叫功能，您必須包含轉送伺服器。 如需詳細資訊，請參閱本主題稍後的「轉送伺服器」。
+  - **企業語音**。 對合格的話機和裝置和商務用 Skype 用戶端啟用內部語音 over IP 呼叫。 若要啟用外部呼叫功能，您必須包含轉送伺服器。 如需詳細資訊，請參閱本主題稍後的「轉送伺服器」。
 
 - 在 [ **關聯** ] 中，您可以編輯或指定下列專案：
 
-  - 選取 **[Sql server 儲存區** ]，將 sql server 儲存區與前端伺服器產生關聯。 您也可以啟用鏡像並選取鏡像見證伺服器。
+  - 選取 [ **SQL Server 儲存區**]，將 SQL Server 儲存區與前端伺服器產生關聯。 您也可以啟用鏡像並選取鏡像見證伺服器。
 
   - **檔共用**。 修改 Standard Edition server 所使用的檔案存放區。 您可以從清單中選取已定義的檔案存放區，以從清單中選取新的檔案存放區。 您可以按一下 [ **新增**] 來建立新的檔案存放區。
 
     > [!IMPORTANT]
     > 在發佈新定義的拓撲之前，您指定的伺服器必須存在並加入網域中。
 
-  - 封存。 將封存 SQL Server 儲存區與 Standard Edition Server 產生關聯。 您可以從清單中選取伺服器，以選取已定義的封存儲存區，或按一下 [ **新增** ] 以指定新的封存存放區。
+  - 封存。 將封存 SQL Server 存放區與 Standard Edition 伺服器建立關聯。 您可以從清單中選取伺服器，以選取已定義的封存儲存區，或按一下 [ **新增** ] 以指定新的封存存放區。
 
     > [!IMPORTANT]
     > 在發佈新定義的拓撲之前，您指定的伺服器必須存在並加入網域中。
 
-  - **監視 (CDR 和 QoE 度量**。 將監控 SQL Server 儲存區與 Standard Edition Server 產生關聯。 您可以從清單中選取伺服器，以選取已定義的監控伺服器，或按一下 [ **新增** ] 以指定新的監控伺服器。
+  - **監視 (CDR 和 QoE 度量**。 將監視 SQL Server 存放區與 Standard Edition 伺服器產生關聯。 您可以從清單中選取伺服器，以選取已定義的監控伺服器，或按一下 [ **新增** ] 以指定新的監控伺服器。
 
-  - **建立集區與 Office Web Apps Server 的關聯**。 選取這個選項，將 Office Web Apps Server 與前端集區產生關聯。 從清單中選取現有的伺服器，或按一下 [ **新增** ] 建立新的 Office Web Apps server。
+  - **建立集區與 Office Web Apps Server 的關聯**。 選取這個選項，使 Office Web 應用程式伺服器與前端集區產生關聯。 從清單中選取現有的伺服器，或按一下 [**新增**] 以建立新的 Office Web Apps server。
 
-  - **建立 Edge 集** 區的關聯。 將 Edge Server 或集區與 Standard Edition server 產生關聯。 您可以從清單中選取伺服器，以選取已定義的 Edge Server 或集區，或按一下 [ **新增** ] 以指定新的 edge server 或集區。
+  - **建立 Edge 集** 區的關聯。 將 Edge server 或集區與 Standard Edition 伺服器建立關聯。 您可以從清單中選取伺服器，以選取已定義的 Edge Server 或集區，或按一下 [ **新增** ] 以指定新的 edge server 或集區。
 
 ### <a name="resiliency"></a>彈性
 
 恢復功能提供伺服器的嚴重損壞修復和高可用性。 透過提供備份，如果主伺服器失敗，則備份可以接管，讓使用者能夠進行登入和通訊。 根據系統也失敗的情況，使用者可能會有較少的功能。
 
-從清單中，選取將充當伺服器備份的前端集區或 Standard Edition server。 您也可以選取啟用容錯移轉和回退時間間隔。 啟用容錯移轉和回退時間設定 (指定的秒數) 可啟用自動偵測失敗的註冊程式，以及允許自動判斷主要備份的回退時間。
+從清單中，選取要充當伺服器備份的前端集區或 Standard Edition 伺服器。 您也可以選取啟用容錯移轉和回退時間間隔。 啟用容錯移轉和回退時間設定 (指定的秒數) 可啟用自動偵測失敗的註冊程式，以及允許自動判斷主要備份的回退時間。
 
 > [!IMPORTANT]
-> 在定義失敗偵測和回退間隔時，如果伺服器應該在一小段時間內無法回應，請小心不要輸入會導致容錯移轉和回退發生的間隔。 根據集區或伺服器的載入，主伺服器可能會在短時間內無法回應。 Pool to pool 或 pool to Standard Edition server 的容錯移轉和回退的預設值是300秒和600秒。 在 Survivable Branch 裝置或網站中的 Survivable 分支伺服器事件到集區或 Standard Edition server 時，預設值為120秒的容錯移轉和240秒以供回退。
+> 在定義失敗偵測和回退間隔時，如果伺服器應該在一小段時間內無法回應，請小心不要輸入會導致容錯移轉和回退發生的間隔。 根據集區或伺服器的載入，主伺服器可能會在短時間內無法回應。 「集區至集區」或「集區至 Standard Edition 伺服器的容錯移轉和回退的預設值為300秒和600秒。 在 Survivable Branch 裝置或網站中的 Survivable 分支伺服器到集區或 Standard Edition 伺服器的情況下，預設值為120秒的容錯移轉和240秒用於回退。
 
 ### <a name="web-services"></a>Web 服務
 
@@ -184,7 +184,7 @@ ms.locfileid: "51120935"
 
 針對 [ **內部 Web 服務**]，您可以指定下列專案：
 
-- 如果您選取 [覆寫 FQDN]，您可以為伺服器上的內部 Web 服務身分識別指定不同的 FQDN。 根據預設，設定為 Standard Edition server 所定義的目前伺服器名稱。
+- 如果您選取 [覆寫 FQDN]，您可以為伺服器上的內部 Web 服務身分識別指定不同的 FQDN。 根據預設，此設定是為 Standard Edition 伺服器定義的目前伺服器名稱。
 
 - 您的部署所需之 HTTP 和 HTTPS 的聽取和發行埠。 HTTPS 的埠80的預設設定和 HTTPS 的埠443是最常見的設定，除非您在組織和基礎結構設計中有特定需求，否則通常不需要加以變更。
 
@@ -206,4 +206,4 @@ ms.locfileid: "51120935"
 
 - 如果您有多個閘道與轉送伺服器相關聯，您可以選取閘道，然後按一下 [ **成為預設**]，以指定預設閘道。 若要取消選取成為預設的閘道，請按一下 [取消預設]。
 
-如需定義及設定 Standard Edition server 之設定的詳細資訊，請參閱 [定義及設定拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology) 及 [部署轉送伺服器及定義對等](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。
+如需定義及設定 Standard Edition 伺服器之設定的詳細資訊，請參閱[定義及設定拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology)及[部署轉送伺服器及定義對等](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)。

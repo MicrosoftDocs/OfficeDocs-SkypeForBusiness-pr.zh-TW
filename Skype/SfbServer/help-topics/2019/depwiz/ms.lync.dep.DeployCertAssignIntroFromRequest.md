@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[憑證指派] 頁面會開始將憑證指派給角色服務器上要求的使用方式的程式。 按一下 [檢視憑證詳細資料] 來檢視憑證。 您可以選取 [一般] 索引標籤、[詳細資料] 索引標籤或 [憑證路徑] 索引標籤。[一般] 索引標籤會顯示憑證的基本資訊，例如憑證頒發機構單位和私密金鑰的狀態。 [詳細資料] 索引標籤會顯示憑證資訊，例如主體名稱、主體替代名稱和其他詳細資料。 [憑證路徑] 索引標籤會透過任何發證或中級憑證授權單位單位)  (，顯示 trustfrom 憑證的 certificatechain。'
-ms.openlocfilehash: e209f1469da7988254f7fd92fbe87dd195b161bf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 678f956724cd42aa9d0d320e76c38b95e5405eedfc70d0e18d9343d0ac6158c3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820483"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291891"
 ---
 # <a name="certificate-assignment-from-request"></a>憑證指派 (從要求)
  

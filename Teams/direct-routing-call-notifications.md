@@ -1,5 +1,5 @@
 ---
-title: 電話系統直接路由
+title: Teams：管理通話通知
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,16 +18,16 @@ description: 直接路由通話通知
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 0dea709f77cb971f8027bb848087f2da820f8007277abb227d2130da3e6a9058
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b251040f9433d9ac51b388d12fa530b7c982e0773580d6ac69d41825fbba1ae6
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848318"
 ---
 # <a name="manage-call-notifications"></a>管理來電通知
 
-本文將說明如何管理使用者的通話通知。 您可以將呼叫端點設定為協力廠商Teams或協力廠商私人分支 Exchange (PBX) 或會話邊界控制器 (SBC) 。  例如，如果您想要同時將電話傳送至使用者的行動電話和電話機，這項功能就很有用。   
+本文將說明如何管理使用者的通話通知。 您可以設定呼叫端點至協力廠商Teams或協力廠商私人分支 Exchange (PBX) 或會話邊界控制器 (SBC) 。  例如，如果您想要同時將電話傳送至使用者的行動電話和電話機，這項設定就很有用。   
 
 在下列圖表中，使用者 Irena 有兩個端點：
 
@@ -45,9 +45,9 @@ ms.locfileid: "54284194"
 
 原因：SIP;cause=200;text"通話在其他地方完成」 
 
-請注意，系統不會將通話詳細Microsoft 電話記錄中註冊為成功的通話。 通話會以 「嘗試」註冊為「嘗試」，包含 「487」、「540200」的最終 Microsoft 子代碼，以及「在其他地方完成通話」的最後 SIP 程式碼片語。   (若要查看通話詳細資料記錄，請前往 [Teams 系統管理入口網站、分析與報告、使用方式報告，然後選取 [PSTN 使用方式) 
+通話不會在系統通話詳細Microsoft 電話記錄中註冊為成功的通話。 通話會以「嘗試」註冊為「嘗試」，包含 「487」、Final Microsoft 子代碼「540200」，以及「在其他地方完成通話」的最後 SIP 程式碼片語。   (若要查看通話詳細資料記錄，請前往 [Teams 管理入口網站、[分析與報告Teams使用方式報告，然後選取 [PSTN 使用方式) 
 
 
 下圖說明 Fork 1 的 SIP 梯級，說明通話流程，以及取消訊息中的預期原因。 
 
-![顯示分叉端點Teams圖表](media/direct-routing-call-notification-2.png)
+![圖表顯示分叉Teams端點](media/direct-routing-call-notification-2.png)

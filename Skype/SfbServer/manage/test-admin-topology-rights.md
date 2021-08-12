@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中測試系統管理員拓撲許可權
+title: 測試商務用 Skype Server 中的系統管理員拓撲權力
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,28 +10,28 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 如何在商務用 Skype Server 中測試拓撲許可權
-ms.openlocfilehash: d9c0ec5560dcb6f1a6872f0b38f2930e46b2364c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 如何在商務用 Skype Server 中測試拓撲權力
+ms.openlocfilehash: 9503476c5c97e692624a8c2535adaeabc14c0e88fc6be583927cdf048cf1ee2f
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848098"
 ---
-# <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>在商務用 Skype Server 中測試系統管理員拓撲許可權
+# <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>測試商務用 Skype Server 中的系統管理員拓撲權力
 
-| | |
+|&nbsp; |&nbsp; |
 |--|--|
-|驗證排程|初次進行商務用 Skype Server 部署之後。 在發生許可權相關的問題時，視需要進行。|
+|驗證排程|初始商務用 Skype Server 部署之後。 在發生許可權相關的問題時，視需要進行。|
 |測試控管|Windows PowerShell|
-|必要的權限|使用商務用 Skype Server 管理命令介面在本機執行時，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。<br/><br/>使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行 Test-CsSetupPermission Cmdlet 許可權的 RBAC 角色。 若要查看可使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell prompt 中執行下列命令：<br/><br/>Get-CsAdminRole \| Where-Object {$ _。Cmdlet-符合 "Test-CsSetupPermission"}|
+|必要的權限|當您使用商務用 Skype Server 管理命令介面在本機執行時，使用者必須是 RTCUniversalServerAdmins 安全性群組的成員。<br/><br/>使用 Windows PowerShell 的遠端實例執行時，必須為使用者指派具有執行 Test-CsSetupPermission Cmdlet 許可權的 RBAC 角色。 若要查看可使用此 Cmdlet 的所有 RBAC 角色清單，請從 Windows PowerShell 提示中執行下列命令：<br/><br/>Get-CsAdminRole \| Where-Object {$ _。Cmdlet-符合 "Test-CsSetupPermission"}|
 |||
 
 ## <a name="description"></a>描述
 
-根據預設，只有網域管理員可以啟用商務用 Skype 伺服器拓撲，並對商務用 Skype 伺服器基礎結構進行大型變更。 只要您的網域管理員和商務用 Skype 伺服器管理員都是相同的，這就不是問題。 在許多組織中，商務用 Skype 伺服器管理員不會保留整個網域的系統管理許可權。 根據預設，這表示這些系統管理員 (定義為 RTCUniversalServerAdmins 群組的成員) 無法進行商務用 Skype 伺服器拓撲變更。 若要授與 RTCUniversalServerAdmins 群組的成員進行拓撲變更，您必須使用 [Grant-CsSetupPermission](/powershell/module/skype/Grant-CsSetupPermission) Cmdlet 指派必要的 Active Directory 許可權。
+根據預設，只有網域管理員可以啟用商務用 Skype Server 拓撲，並對商務用 Skype Server 基礎結構進行大型變更。 只要您的網域管理員和您的商務用 Skype Server 管理員是同一個，這就不是問題。 在許多組織中，商務用 Skype Server 管理員不會保留整個網域的系統管理許可權。 根據預設，這表示這些管理員 (定義為 RTCUniversalServerAdmins 群組的成員) 無法進行商務用 Skype Server 的拓撲變更。 若要授與 RTCUniversalServerAdmins 群組的成員進行拓撲變更，您必須使用 [Grant-CsSetupPermission](/powershell/module/skype/Grant-CsSetupPermission) Cmdlet 指派必要的 Active Directory 許可權。
  
-Test-CsSetupPermission Cmdlet 會驗證安裝商務用 Skype 伺服器或其其中一個元件所需的必要許可權是否已在指定的 Active Directory 容器上進行設定。 若未指派許可權，您可以執行 Grant-CsSetupPermission 指令程式，給 RTCUniversalServerAdmins 群組的成員提供安裝及啟用商務用 Skype 伺服器的權利。
+Test-CsSetupPermission Cmdlet 會驗證安裝商務用 Skype Server 或其元件之一所需的必要許可權是否已在指定的 Active Directory 容器上進行設定。 若未指派許可權，您可以執行 Grant-CsSetupPermission 指令指令，讓 RTCUniversalServerAdmins 群組的成員可以安裝及啟用商務用 Skype Server 的許可權。
 
 ## <a name="running-the-test"></a>執行測試
 
@@ -45,7 +45,7 @@ Test-CsSetupPermission Cmdlet 會驗證安裝商務用 Skype 伺服器或其其�
 
 如果 Test-CsSetupPermission 判斷已經在 Active Directory 容器上設定必要的許可權，則 Cmdlet 會傳回值 True：
 
-對 
+是 
 
 如果未設定許可權，Test-CsSetupPermission 會傳回值 False。 請注意，此值通常會包含在許多警告訊息中。 例如：
 

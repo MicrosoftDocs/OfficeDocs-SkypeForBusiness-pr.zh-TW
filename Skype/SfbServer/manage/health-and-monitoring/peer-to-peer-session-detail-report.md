@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中 Peer-to-Peer 會話詳細資料包告
+title: 商務用 Skype Server 中的 Peer-to-Peer 會話詳細資料包告
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer 會話詳細資料包告。
-ms.openlocfilehash: 4dfa2b87b1fbba72282b52fa2ca58ca0f1e70630
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 14df5ae82706a719086c31a3c8582009ed48d85b825057ab49ce6e92fa258116
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816763"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286802"
 ---
-# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>在商務用 Skype Server 中 Peer-to-Peer 會話詳細資料包告
+# <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 Peer-to-Peer 會話詳細資料包告
  
 **摘要：** 深入瞭解商務用 Skype Server 中的 Peer-to-Peer 會話詳細資料包告。
   
@@ -37,7 +37,7 @@ Peer-to-Peer 會話詳細資料包告會傳回點對點工作階段的詳細資�
     
 - 失敗清單報告 
     
-在 [Peer-to-Peer 會話詳細資料包告] 中，按一下 [診斷報告 (詳細資料]) 指標，即可存取 [商務用 Skype Server 中的診斷報告](diagnostic-report.md) 。 您也可以按一下下列兩個度量，以存取最上層失敗報告：
+在 [Peer-to-Peer 會話詳細資料包告] 中，按一下 [診斷報告 (詳細資料]) 度量，即可存取[商務用 Skype Server 中的診斷報告](diagnostic-report.md)。 您也可以按一下下列兩個度量，以存取最上層失敗報告：
   
 - 回應
     

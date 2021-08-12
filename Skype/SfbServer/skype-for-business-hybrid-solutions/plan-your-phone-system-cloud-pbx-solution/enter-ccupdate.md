@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
-description: CcUpdate Cmdlet 會將商務用 Skype 雲端連接器 Edition 主機伺服器加入維護模式，以進行更新程式。 裝置會立即停止所有服務、結束任何正在進行的通話，並拒絕任何新的呼叫。
-ms.openlocfilehash: 25d2fbc56bd4de6a08985de18c178d5a8f993492
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Enter-CcUpdate Cmdlet 會以維護模式來準備更新程式的商務用 Skype Cloud Connector Edition 主機伺服器。 裝置會立即停止所有服務，結束任何進行中的呼叫，並拒絕任何新的呼叫。
+ms.openlocfilehash: 75be5933e31f3966ab36f9957b78cd89c21a4a31df23b5761000a6e96cd9806e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41802173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303646"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
 
-CcUpdate Cmdlet 會將商務用 Skype 雲端連接器 Edition 主機伺服器加入維護模式，以進行更新程式。 裝置會立即停止所有服務、結束任何正在進行的通話，並拒絕任何新的呼叫。
+Enter-CcUpdate Cmdlet 會以維護模式來準備更新程式的商務用 Skype Cloud Connector Edition 主機伺服器。 裝置會立即停止所有服務，結束任何進行中的呼叫，並拒絕任何新的呼叫。
   
 ```powershell
 Enter-CcUpdate
@@ -37,7 +37,7 @@ Enter-CcUpdate
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會進入 [維護] 模式，為更新程式準備裝置：
+下列範例會進入維護模式，為更新程式準備裝置：
   
 ```powershell
 Enter-CcUpdate 
@@ -46,19 +46,19 @@ Enter-CcUpdate
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-CcUpdate Cmdlet 會立即停止所有結束進行中通話的服務，而裝置將拒絕任何新的呼叫，傳送到其他生產裝置。 您必須確保剩餘的生產裝置擁有足夠的容量，才能處理您準備更新之裝置的通話。
+Enter-CcUpdate Cmdlet 會立即停止所有即將進行中通話的服務，裝置會拒絕任何新的來電，而這些呼叫會轉接至其他生產裝置。 您必須確定其餘的實際執行裝置具有足夠的容量，可以處理您準備更新之裝置的呼叫。
   
-如果您的裝置已啟用自動更新（例如，Microsoft 發行重要的熱修復程式），維護模式就很有用。 如果您決定要關閉自動更新，但是您會在一致的基礎上執行手動更新，維護模式也很有用。
+例如，如果裝置啟用自動更新，維護模式就很有用，而且 Microsoft 會發佈重要的修復程式。 如果您決定關閉自動更新，也可以使用維護模式，但是您會以一致的原則執行手動更新。
   
-安裝更新之後，裝置可以執行 CcUpdate Cmdlet，回到生產模式。
+安裝更新之後，裝置可以執行 Exit-CcUpdate Cmdlet 以回到實際執行模式。
   
 > [!NOTE]
-> 如果您決定手動更新雲端連接器裝置，您必須在 Microsoft 發行下一個版本之後的60天內更新。 在發行新版本之後，Microsoft 支援舊版雲端連接器60天 
+> 如果您決定手動更新雲端連接器裝置，您必須在 Microsoft 發行下一個版本後的60天內更新。 發行新版本後，Microsoft 支援先前發行的雲端連接器版本60天。 
   
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>
 
-無。 CCUpdate Cmdlet 不接受流水線輸入。
+無。 Enter-CCUpdate Cmdlet 不接受管線傳送的輸入。
   
 ## <a name="return-types"></a>傳回類型
 <a name="ReturnTypes"> </a>

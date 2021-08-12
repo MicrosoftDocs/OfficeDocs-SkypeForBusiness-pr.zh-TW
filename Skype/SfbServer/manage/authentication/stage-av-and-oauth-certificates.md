@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中的階段 AV 和 OAuth 憑證 Set-CsCertificate 中使用-擲入
+title: 在 Set-CsCertificate 中使用-擲出商務用 Skype Server 階段 AV 和 OAuth 憑證
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
-description: 摘要：為商務用 Skype Server 階段 AV 和 OAuth 憑證。
-ms.openlocfilehash: 87527d4bb51a5c38e0f85f72b299b67f235f2cf8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：階段 AV 和 OAuth 商務用 Skype Server 的憑證。
+ms.openlocfilehash: f030dfd4a8958fe4efdc20c350b0e3b377da6cf2762604a57eecd3adca3e3430
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119562"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319166"
 ---
-# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>在商務用 Skype Server 中的階段 AV 和 OAuth 憑證 Set-CsCertificate 中使用-擲入
+# <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>在 Set-CsCertificate 中使用-擲出商務用 Skype Server 階段 AV 和 OAuth 憑證
  
 **摘要：** 階段 AV 和 OAuth 商務用 Skype Server 的憑證。
   
-Audio/Video (A/V) 通訊是商務用 Skype Server 的主要元件。 「應用程式共用」和「音訊」及「視訊會議」等功能會依賴指派給 A/V Edge service 的憑證，尤其是 A/V 驗證服務。
+Audio/Video (A/V) 通訊是商務用 Skype Server 的一個重要元件。 「應用程式共用」和「音訊」及「視訊會議」等功能會依賴指派給 A/V Edge service 的憑證，尤其是 A/V 驗證服務。
   
 > [!IMPORTANT]
 > 這項新功能的設計目的是用於 A/V Edge service 和 OAuthTokenIssuer 憑證。 其他憑證類型可以搭配「A/V Edge service」和「OAuth 憑證」類型進行布建，但不會受益于 A/V Edge service 憑證所用的共存行為。
   
-商務用 Skype Server 管理命令介面 PowerShell 用來管理商務用 Skype Server 憑證的指令程式是指 A/V Edge service 憑證作為 AudioVideoAuthentication 憑證類型和 Microsoft.rtc.management.writableconfig.settings.ssauth.oauthserver 憑證做為 typeOAuthTokenIssuer。 如需本主題的其餘部分，以及唯一識別憑證，則會使用相同的識別碼類型，AudioVideoAuthentication andOAuthTokenIssuer。
+用來管理商務用 Skype Server 憑證的商務用 Skype Server 管理命令介面 PowerShell Cmdlet 是指 A/V Edge service 憑證為 AudioVideoAuthentication 憑證類型，而將 microsoft.rtc.management.writableconfig.settings.ssauth.oauthserver 憑證視為 typeOAuthTokenIssuer。 如需本主題的其餘部分，以及唯一識別憑證，則會使用相同的識別碼類型，AudioVideoAuthentication andOAuthTokenIssuer。
   
-A/V 驗證服務是專用來核發 Token，以供用戶端和其他 A/V 取用者使用。 Token 是依據憑證上的屬性而產生，因此當憑證到期、連線中斷或必須重新加入時，就會導致新的憑證產生新的 Token。 商務用 Skype Server 中的新功能會緩解這項問題，也就是在舊憑證即將到期，並且允許兩個憑證在一段時間內繼續運作的能力。 此功能使用 Set-CsCertificate 商務用 Skype Server 管理命令介面 Cmdlet 中的更新功能。 新的參數滾（-EffectiveDate 現有的參數）會將新的 AudioVideoAuthentication 憑證放置於憑證存放區中。 舊的 AudioVideoAuthentication 憑證仍會保留給已核發的 Token，以免其失效。 只要一將新的 AudioVideoAuthentication 憑證準備就緒，就會發生下列一系列的事件：
+A/V 驗證服務是專用來核發 Token，以供用戶端和其他 A/V 取用者使用。 Token 是依據憑證上的屬性而產生，因此當憑證到期、連線中斷或必須重新加入時，就會導致新的憑證產生新的 Token。 商務用 Skype Server 中的新功能可減輕這項問題，也就是在舊憑證即將到期的情況下進行，並允許兩個憑證在一段時間內繼續運作。 此功能使用 Set-CsCertificate 商務用 Skype Server 管理命令介面 Cmdlet 中的更新功能。 新的參數滾（-EffectiveDate 現有的參數）會將新的 AudioVideoAuthentication 憑證放置於憑證存放區中。 舊的 AudioVideoAuthentication 憑證仍會保留給已核發的 Token，以免其失效。 只要一將新的 AudioVideoAuthentication 憑證準備就緒，就會發生下列一系列的事件：
   
 > [!TIP]
-> 使用商務用 Skype Server 管理命令介面 Cmdlet 來管理憑證，您可以針對 Edge Server 上的每個用途要求個別且獨特的憑證。 在商務用 Skype 伺服器部署中使用憑證嚮導可協助您建立憑證，但通常是將 Edge Server 所有憑證使用的 **預設** 類型，放在單一憑證上。 若您要使用彙總的憑證，建議的做法是將 AudioVideoAuthentication 憑證從其他憑證用途中獨立出來。 您可以佈建和臨時發出預設類型的憑證，但只有組合憑證的 AudioVideoAuthentication 部分可以臨時發出。  (中的使用者，例如，當憑證到期時，立即訊息交談) 需要登出和登入，以利用與 Access Edge service 相關聯的新憑證。 在使用 Web 會議 Edge service 的 Web 會議中，使用者會發生類似行為。 OAuthTokenIssuer 憑證是一種特殊類型的憑證，在所有伺服器中都可以共用。 您可以在一個位置建立及管理憑證，並將憑證儲存在所有其他伺服器的中央管理存放區中。
+> 使用商務用 Skype Server 管理命令介面 Cmdlet 來管理憑證，您可以針對 Edge Server 上的每個用途要求個別和不同的憑證。 使用商務用 Skype Server 部署嚮導中的憑證嚮導可協助您建立憑證，但通常是將 Edge Server 所有憑證使用的 **預設** 類型，放入單一憑證。 若您要使用彙總的憑證，建議的做法是將 AudioVideoAuthentication 憑證從其他憑證用途中獨立出來。 您可以佈建和臨時發出預設類型的憑證，但只有組合憑證的 AudioVideoAuthentication 部分可以臨時發出。  (中的使用者，例如，當憑證到期時，立即訊息交談) 需要登出和登入，以利用與 Access Edge service 相關聯的新憑證。 在使用 Web 會議 Edge service 的 Web 會議中，使用者會發生類似行為。 OAuthTokenIssuer 憑證是一種特殊類型的憑證，在所有伺服器中都可以共用。 您可以在一個位置建立及管理憑證，並將憑證儲存在所有其他伺服器的中央管理存放區中。
   
 在使用 Set-CsCertificate Cmdlet 以及在目前的憑證過期前利用其來臨時發出憑證時，您也需要全盤理解您的選項和需求。 -擺參數很重要，但實質上只是單一用途。 如果您將它定義為參數，您會告訴 Set-CsCertificate，您將會提供受影響之憑證的相關資訊，例如 AudioVideoAuthentication 和 OAuthTokenIssuer) ，當憑證將會在-EffectiveDate 中所定義時，將會 (受到影響。
   
@@ -87,7 +87,7 @@ A/V 驗證服務是專用來核發 Token，以供用戶端和其他 A/V 取用�
 |**Callout**|**Stage**|
 |:-----|:-----|
 |1  <br/> |開始： 7/22/2015 12:00:00 AM  <br/> 目前的 AudioVideoAuthentication 憑證是由於7/22/2015 于 2:00:00 PM 到期。 這取決於憑證上到期的時間戳記。 規劃您的憑證取代和翻轉，以計算8小時的重疊 (預設權杖存留期) 在現有憑證達到到期時間之前。 在此範例中，會使用 2:00:00 AM 前置時間，讓系統管理員有足夠的時間來預先設定新憑證，並在6:00:00 上午的時間前進行布建。  <br/> |
-|2   <br/> |7/22/2015 2:00:00 AM-7/22/2015 5:59:59 AM  <br/> 在 Edge Server 上設定憑證，有效期為 6:00:00 AM (4 小時內推時間為此範例，但可使用 Set-CsCertificate 類型 \<certificate usage type\> 的指紋-EffectiveDate) 更長的時間。 \<thumbprint of new certificate\>\<datetime string of the effective time for new certificate\>  <br/> |
+|第  <br/> |7/22/2015 2:00:00 AM-7/22/2015 5:59:59 AM  <br/> 在 Edge Server 上設定憑證，有效期為 6:00:00 AM (4 小時內推時間為此範例，但可使用 Set-CsCertificate 類型 \<certificate usage type\> 的指紋-EffectiveDate) 更長的時間。 \<thumbprint of new certificate\>\<datetime string of the effective time for new certificate\>  <br/> |
 |3   <br/> |7/22/2015 6:00 AM-7/22/2015 2:00 下午  <br/> 若要驗證權杖，請先嘗試新的憑證，如果新的憑證無法驗證權杖，就會嘗試舊的憑證。 此程式適用于8小時 (預設權杖存留期) 重疊期間內的所有標記。  <br/> |
 |4   <br/> |結束： 7/22/2015 2:00:01 PM  <br/> 舊憑證已過期，且已取得新憑證。 舊憑證可以安全地移除，使用 Remove-CsCertificate 類型 \<certificate usage type\> 先前版本  <br/> |
    

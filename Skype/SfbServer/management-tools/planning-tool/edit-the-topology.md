@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 在完成最初的面試問題之後，您可以編輯該網站的 (FQDN) 和 IP 位址的完整功能變數名稱。 若要這麼做，請在 [全域拓撲] 頁面上，連按兩下您要編輯的網站。
-ms.openlocfilehash: 9a345c753195c32907d078d5ee4a267b8b96d6b0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 017b1e9e04851d321c9fd6f08508c8ffeccb4b4b558a3b0668c7e6f0efdd1f15
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093181"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347908"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中編輯拓撲
 
@@ -31,7 +31,7 @@ ms.locfileid: "51093181"
 
 - 網站拓撲-目前顯示的頁面，如建議使用拓撲的視覺概況。
 
-- Edge Network 圖表-Edge Network 框圖頁面是設計人員在規劃工具中大部分工作的地方。 此圖表顯示建議的商務用 Skype Server 2015 拓撲的網路設定，以及伺服器、集區的可編輯專案，以及硬體和網域名稱系統 (DNS) 負載平衡器。
+- Edge Network 圖表-Edge Network 框圖頁面是設計人員在規劃工具中大部分工作的地方。 此圖表顯示建議的商務用 Skype Server 2015 拓撲的網路設定，其中包含伺服器、集區的 IP 位址和 fqdn 的可編輯專案，以及硬體和網域名稱系統 (DNS) 負載平衡器。
 
 - Edge 管理報告-Edge 系統管理員報告總共包含四個報告：
 
@@ -53,7 +53,7 @@ ms.locfileid: "51093181"
 ## <a name="edit-the-network-configuration-diagram"></a>編輯網路設定圖表
 <a name="Edit_Network_diagram"> </a>
 
-在商務用 Skype Server 2015 規劃工具中，設計人員大部分的工作，都是由為網狀圖上專案的 IP 位址和完整功能變數名稱定義 (Fqdn) 所組成。 在此頁面上輸入的資訊會包含在規劃工具中的報告及其他資訊中。
+在商務用 Skype Server 2015 規劃工具中，設計人員大部分的工作，都是由為網狀圖上專案的 IP 位址和完整功能變數名稱定義 (fqdn) 所組成。 在此頁面上輸入的資訊會包含在規劃工具中的報告及其他資訊中。
 
 ![規劃工具的網狀圖表](../../media/Planning_Tool_Network_Diagram.png)
 

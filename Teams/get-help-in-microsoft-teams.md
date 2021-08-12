@@ -17,21 +17,20 @@ description: 瞭解說明主題、影片、版本資訊及意見回饋論壇，�
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3cf562ae3ead64d263681cb29bc97264af1e319bd5be36610468182c721a1b54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 50026fba70ae817eb8325d52c3bcf1bd0153e2c803ee7d7c76935570c6e45420
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848368"
 ---
-<a name="get-help-in-microsoft-teams"></a>取得Microsoft Teams
-============================================
+# <a name="get-help-in-microsoft-teams"></a>取得Microsoft Teams
 
-您的使用者和Microsoft Teams中的協助按鈕，可在這裡找到他們在使用Teams。
+您的使用者和Microsoft Teams中的協助按鈕，可在這裡找到他們在使用 Teams 時可能需要的所有Teams。
 
 Teams為説明內容提供當地語系化語言支援。 有關支援語言最新清單，請參閱Microsoft Teams[語言以尋找協助內容](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)。
 
- - **流覽主題**- 這可協助內容按照Teams整理。 簡單且直接的指引，可協助使用者從Teams。 
+ - **流覽主題**- 此功能可協助您整理Teams內容。 簡單且直接的指引，可協助使用者從Teams。 
 
  - **影片** - 我們的點播影片內容可讓使用者快速瞭解特定工作。 我們會持續製作新的影片，因此請經常回來查看。 當然，需要網際網路存取。 
 

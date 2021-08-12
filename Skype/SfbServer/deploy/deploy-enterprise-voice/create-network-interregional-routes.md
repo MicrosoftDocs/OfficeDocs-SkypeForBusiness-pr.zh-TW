@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
-description: 在商務用 Skype Server 中建立或修改網路 interregional 路由，以供 Enterprise Voice 通話許可控制使用。
-ms.openlocfilehash: d9ea8def930a075c93effede73ddb3f12d999334
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 建立或修改商務用 Skype Server 中企業語音通話許可控制所使用的網路 interregional 路由。
+ms.openlocfilehash: 4d3451d43d364e5b9506289e7909456c8bdc657b8ac575dfea360a960352b8d8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093121"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294890"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>在商務用 Skype Server 中建立網路 interregional 路由
  
-在商務用 Skype Server 中建立或修改網路 interregional 路由，以供 Enterprise Voice 通話許可控制使用。 
+建立或修改商務用 Skype Server 中企業語音通話許可控制所使用的網路 interregional 路由。 
   
 網路 interregional 路由會定義一對網路地區之間的路由。 通話許可控制部署中的每一對網路地區都需要網路 interregional 路由。 這可讓部署中的每一個網路地區都可以存取所有其他的地區。
   
@@ -35,9 +35,9 @@ ms.locfileid: "51093121"
   
 ### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面建立網路 interregional 路由
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
-2. 執行 **New-CsNetworkInterRegionRoute** Cmdlet 以定義所需的路由。 例如，執行：
+2. 執行 **New-CsNetworkInterRegionRoute** Cmdlet 以定義所需的路由。例如，執行：
     
    ```powershell
    New-CsNetworkInterRegionRoute -Identity NorthAmerica_EMEA_Route -NetworkRegionID1 NorthAmerica -NetworkRegionID2 EMEA -NetworkRegionLinkIDs "NA-EMEA-LINK"
@@ -56,7 +56,7 @@ ms.locfileid: "51093121"
   
 ### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台建立網路 interregional 路由
 
-1. 開啟商務用 Skype Server 控制台。
+1. 開啟商務用 Skype Server 控制台]。
     
 2. 在左導覽列中，按一下 **[網路組態]**。
     

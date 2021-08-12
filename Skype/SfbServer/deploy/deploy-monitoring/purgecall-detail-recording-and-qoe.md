@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
-description: 摘要：瞭解如何從 CDR 和商務用 Skype Server 所使用的 QoE 資料庫，手動清除記錄。
-ms.openlocfilehash: 2d36af2d06b6d6951e436ea456d4036478278600
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解如何從 CDR 和商務用 Skype Server 所使用的 QoE 資料庫中，手動清除記錄。
+ms.openlocfilehash: 11f528d142512ec8e0536d16181f50b5756d09f0f4daf7509d25ca82895b53e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802143"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294880"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>在商務用 Skype Server 中手動清除詳細通話記錄與經驗品質資料庫
  
-**摘要：** 瞭解如何從 CDR 和商務用 Skype Server 所使用的 QoE 資料庫，手動清除記錄。
+**摘要：** 瞭解如何從 CDR 和商務用 Skype Server 所使用的 QoE 資料庫中，手動清除記錄。
   
 CDR 和 QoE 資料庫可以手動或自動清除記錄。 清除記錄可能很重要，所以資料不會變得陳舊，也不需要重設起始基準的報表。
   
@@ -35,7 +35,7 @@ CDR 和 QoE 資料庫可以手動或自動清除記錄。 清除記錄可能很�
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10
 ```
 
-在上述命令中，會從 atl-sql-001.litwareinc.com 上的監視資料庫刪除詳細通話記錄及超過10天的診斷資料記錄。  (詳細通話記錄是使用者/會話報告。 診斷資料記錄是用戶端應用程式（例如商務用 Skype Server）上傳的診斷記錄。 ) 
+在上述命令中，會從 atl-sql-001.litwareinc.com 上的監視資料庫刪除詳細通話記錄及超過10天的診斷資料記錄。  (詳細通話記錄是使用者/會話報告。 診斷資料記錄是由用戶端應用程式（例如商務用 Skype Server）上傳的診斷記錄。 ) 
   
 如上所示，執行 Invoke-CsCdrDatabasePurge Cmdlet 時，必須同時包括 PurgeCallDetaiDataOlderThanDays 及 PurgeDiagnosticDataOlderThanDays 參數。 不過，這些參數不需要設為相同的值。 例如，可以清除資料庫中超過 10 天的詳細通話記錄，但同時保留所有的診斷資料記錄。 若要這麼做，請將 PurgeCallDetailDataOlderThanDays 設定為10，並將 PurgeDiagnosticDataOlderThanDays 設定為0。 例如：
   

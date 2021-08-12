@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[執行命令] 會顯示執行來部署伺服器角色的工作執行摘要。 完成工作之後-部署和啟動，或停用和卸載-摘要隨即顯示。 此外，在下拉式清單中，您可以選取在執行命令時建立的任何記錄檔。 使用下拉式清單以選取您要檢視的記錄檔，然後按一下 [檢視記錄檔]。'
-ms.openlocfilehash: 0e6638e9eaf8fc9d6f17bb204a5e97d386d8956e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e7549ace91fb9c736cfcba18026179a74e52b381d4f7b5c40366dcf305de027c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49820513"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291931"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>安裝或移除商務用 Skype Server 元件 (叫用)
  

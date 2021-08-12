@@ -1,5 +1,5 @@
 ---
-title: 電話系統直接路由
+title: 電話系統直接路由Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -15,22 +15,22 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: 深入瞭解直接路由，例如組態、必要的核心部署決策，以及語音路由考慮。
+description: 瞭解直接路由組態、必要的核心部署決策，以及語音路由考慮。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6cfa0f6aecf2dfeb708d51ff6ebd98f13a36167125f295329f3e37b2e39c0daf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55676d855d3e15c3f767203da981a4fae241f3128a270f5656d770a229f00059
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848068"
 ---
-# <a name="phone-system-direct-routing"></a>電話系統直接路由
+# <a name="phone-system-direct-routing"></a>電話直接路由
 
-您已完成[開始使用](get-started-with-teams-quick-start.md)。 您已使用[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)在組織中推出 Teams。 您可能已經部署會議 [&會議](deploy-meetings-microsoft-teams-landing-page.md)。 現在，您已準備好新增雲端語音工作負載，而您決定使用自己的電話電信業者使用公用交換式電話網絡 (PSTN) 直接路由電話系統連接。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
+您已完成[開始使用](get-started-with-teams-quick-start.md)。 您已使用[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)在組織中推出 Teams。 您可能已經部署會議 [&會議](deploy-meetings-microsoft-teams-landing-page.md)。 現在，您已準備好新增雲端語音工作負載，而且決定使用您自己的電話電信業者來使用 (PSTN) 直接路由電話系統連接。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
 
 本文將說明直接路由的核心部署決策，以及您可能想要根據貴組織的需求考慮的其他考慮。 您也應該在[Microsoft Teams中](cloud-voice-landing-page.md)閱讀雲端語音，以瞭解更多關於 Microsoft 雲端語音服務的資訊。
 
@@ -48,7 +48,7 @@ ms.locfileid: "54280906"
 -  [設定多個租用戶的工作階段邊界控制器](direct-routing-sbc-multiple-tenants.md)
 -  [移轉至直接路由](direct-routing-migrating.md)
 -  [含有 PSTN 連線功能的混合式環境中的使用者帳戶](direct-routing-user-accounts-in-a-hybrid-environment.md)
-- 觀看下列會話以深入瞭解直接路由：直接[路由Microsoft Teams](https://aka.ms/teams-direct-routing)
+- 觀看下列會話以深入瞭解直接路由：[直接路由Microsoft Teams](https://aka.ms/teams-direct-routing)
 
 ## <a name="core-deployment-decisions"></a>核心部署決策
 
@@ -72,7 +72,7 @@ ms.locfileid: "54280906"
 
 ### <a name="voice-routing-considerations"></a>語音路由考慮
 
-您必須設定通話電話系統將通話路由至特定的 SBC。
+您必須設定電話電話系統將通話路由至特定的 SBC。
 
 |問問自己|動作 |
 |:------------|:-------|
@@ -82,11 +82,11 @@ ms.locfileid: "54280906"
 
 ### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>使用 TeamsUpgradePolicy 確保Teams用戶端內接來電
 
-直接路由僅支援Microsoft Teams。 若要透過直接路由接收 PSTN 通話，您必須設定 TeamsUpgradePolicy，以確保在 Teams。 使用者必須進入 Teams模式，您可以指派 TeamsUpgradePolicy 的 「UpgradeToTeams」 實例給他們。 
+直接路由僅支援Microsoft Teams。 若要透過直接路由接收 PSTN 通話，您必須設定 TeamsUpgradePolicy，以確保在 Teams。 使用者必須進入Teams模式，您可以指派 TeamsUpgradePolicy 的 「UpgradeToTeams」 實例給他們。 
 
 |問問自己|動作 |
 |:------------|:-------|
-|僅Teams模式是什麼意思？ | 有關詳細資訊，請參閱將應用程式與 Teams一起使用 商務用 Skype 的組織[移](./migration-interop-guidance-for-teams-with-skype.md)商務用 Skype。|
+|僅Teams模式是什麼意思？ | 有關詳細資訊，請參閱將應用程式與 Teams一起使用 商務用 Skype 的組織[移商務用 Skype。](./migration-interop-guidance-for-teams-with-skype.md)|
 |||
 
 ## <a name="additional-deployment-considerations"></a>其他部署考慮
@@ -96,5 +96,5 @@ ms.locfileid: "54280906"
 | 問問自己| 動作 |
 | :------------|:-------|
 | 您是否有已商務用 Skype Server混合式連接的現有部署？ |  若要瞭解混合式環境中使用者帳戶的部署與管理方式，請參閱使用 PSTN 連接的混合 [式環境中的使用者帳戶](direct-routing-user-accounts-in-a-hybrid-environment.md)。| 
-| 您是否從通話方案或內部部署商務用 Skype直接路由？ | 若要進一瞭解從現有環境移遷移到直接路由，請參閱 [移移至直接路由](direct-routing-migrating.md)。 |
+| 您是否從通話方案或內部部署商務用 Skype直接路由？ | 若要進一瞭解從現有環境移向直接路由，請參閱 [移遷移到直接路由](direct-routing-migrating.md)。 |
 |||

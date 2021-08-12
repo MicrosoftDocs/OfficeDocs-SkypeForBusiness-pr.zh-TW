@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: 摘要：瞭解如何在商務用 Skype Server 中刪除會議配置設定。
-ms.openlocfilehash: b0c739f0149b4e28ca23df1437caab0505e1118d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 04bfcf23467adc89f14b8d74d515de36c2dce1f2740265eac6664aace314c489
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119492"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286822"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除會議配置設定
  
 **摘要：** 瞭解如何在商務用 Skype Server 中刪除會議配置設定。
   
-您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面來刪除會議配置設定。
+您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面來刪除會議設定設定。
   
 您可以刪除網站或使用者設定，但無法刪除全域設定。 如果您嘗試刪除全域設定，它會自動重設為預設值。
   
@@ -31,13 +31,13 @@ ms.locfileid: "51119492"
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [ **會議**]，然後按一下 [ **會議** 設定]。
     
 4. 在會議設定清單中，按一下您要刪除的網站或集區設定，然後按一下 [ **編輯**]，再按一下 [ **刪除**]。
     
-## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面刪除會議設定設定
+## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面刪除會議配置設定
 
 若要刪除會議設定，請使用 **Remove-CsMeetingConfiguration** Cmdlet。
   

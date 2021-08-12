@@ -13,17 +13,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 閱讀此主題以瞭解如何使用 Microsoft Operations Management Suite (OMS) 來監視您的雲端連接器版本2.1 和更新版本。
-ms.openlocfilehash: 55685aae01bdcc3c7c979627dbba910bb33203fa
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1e2156ec8cff777b7bbad595b9792972508edbd455d6a1d27a65b95ad01c5def
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098539"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339989"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>使用 Operations Management Suite (OMS) 監控 Cloud Connector
 
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會在2021年7月31日和商務用 Skype 線上時終止。 當您的組織升級至 Teams 後，請瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話網絡連線至 Teams。
 
 閱讀此主題以瞭解如何使用 Microsoft Operations Management Suite (OMS) 來監視您的雲端連接器版本2.1 和更新版本。
 
@@ -31,7 +31,7 @@ ms.locfileid: "51098539"
 
 本主題包含下列各節：
 
-- 先決條件
+- 必要條件
 
 - 設定 Cloud Connector 以使用 OMS
 
@@ -41,7 +41,7 @@ ms.locfileid: "51098539"
 
 - 建議的監控集
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 您必須先具備下列各項，您才能使用 OMS 來監視您的雲端連接器部署：
 
@@ -53,7 +53,7 @@ ms.locfileid: "51098539"
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>設定 Cloud Connector 以使用 OMS
 
-您必須將雲端連接器內部部署環境設定為使用 OMS。 若要這麼做，您將需要 OMS 工作區識別碼和金鑰，您可以使用 OMS 入口網站，如下所示：設定-- \> 連線的來源-- \> Windows server：
+您必須將雲端連接器內部部署環境設定為使用 OMS。 若要這麼做，您將需要 oms 工作區識別碼和金鑰，您可以使用 oms 入口網站來尋找，如下所示： \> \> Windows 伺服器的設定：
 
 ![雲端連接器 OMS 的螢幕擷取畫面](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
@@ -86,7 +86,7 @@ ms.locfileid: "51098539"
 
 - **在所有情況下，請確認代理程式已連接，如下所示：**
 
-    在 [OMS] 入口網站中，移至 [設定]-[ \> 連線的來源- \> Windows 伺服器]。 您會看到已連線的電腦清單。 
+    在 [OMS] 入口網站中，移至設定 \> 連接的來源- \> Windows 伺服器。 您會看到已連線的電腦清單。 
 
 ## <a name="configure-oms"></a>設定 OMS
 
@@ -100,7 +100,7 @@ ms.locfileid: "51098539"
 
 在 OMS 入口網站中，您必須指定事件記錄檔和效能計數器的相關資訊，如下所示：
 
-1. 移至 [設定]-[ \> 資料- \> Windows] 事件記錄檔，並新增下列專案的事件記錄： 
+1. 移至設定 \> 資料 \> Windows 事件記錄檔，並新增下列專案的事件記錄： 
 
    - Lync Server
 
@@ -109,9 +109,9 @@ ms.locfileid: "51098539"
      > [!NOTE]
      > 您必須在文字方塊中手動輸入 Lync Server。 它不會出現在下拉式清單中的選項。 
 
-     如需詳細資訊，請參閱 [記錄分析中的 Windows 事件記錄檔資料來源](/azure/log-analytics/log-analytics-data-sources-windows-events)
+     如需詳細資訊，請參閱[在記錄分析中 Windows 事件記錄檔資料來源](/azure/log-analytics/log-analytics-data-sources-windows-events)
 
-2. 移至 [設定]-[ \> 資料- \> Windows 效能計數器]，然後新增下列專案的效能計數器： 
+2. 移至設定 \> 資料 Windows 的 \> 效能計數器，並新增下列專案的效能計數器： 
 
    - **作業系統層級計數器**。 您可以新增作業系統層級計數器（如處理器使用量、記憶體使用量、網路使用量），也可以使用現有的解決方案（如容量和效能）、網路效能監視器（不需要明確新增計數器）。 不論您決定如何進行監視，Microsoft 建議您監視這些作業系統計數器。
 
@@ -132,7 +132,7 @@ ms.locfileid: "51098539"
      > [!NOTE]
      > 您必須在文字方塊中手動輸入效能計數器。 它們不會顯示為下拉式清單中的選項。 
 
-     如需詳細資訊，請參閱 [記錄分析中的 Windows 和 Linux 效能資料來源](/azure/log-analytics/log-analytics-data-sources-performance-counters)
+     如需詳細資訊，請參閱[記錄分析中的 Windows 和 Linux 效能資料來源](/azure/log-analytics/log-analytics-data-sources-performance-counters)
 
 ### <a name="create-alerts"></a>建立提醒
 
@@ -256,4 +256,4 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 - [瞭解記錄分析中的警示](/azure/log-analytics/log-analytics-alerts)
 
-- [將 Windows 電腦連線到 Azure 中的 Log Analytics 服務](/azure/log-analytics/log-analytics-windows-agents)
+- [在 Azure 中連線 Windows 電腦到記錄分析服務](/azure/log-analytics/log-analytics-windows-agents)

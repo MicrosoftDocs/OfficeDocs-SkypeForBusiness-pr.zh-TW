@@ -17,17 +17,16 @@ description: 針對在舊版系統上接收訊息和通話相關問題進行疑�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1c209d1acc83e63792722b00b63be5a6b9f3721a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b013817ab363b91f7041d285616f7bd919dc84b9afd1298ec74d8e9dc64046a5
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848378"
 ---
-<a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>在舊版系統上接收訊息和通話的問題
-==============================================================
+# <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>在舊版系統上接收訊息和通話的問題
 
-如果使用者使用舊版的手機或已登入其他應用程式Teams收到訊息或通話時可能有問題。
+如果使用者使用舊版的手機或已與其他應用程式Teams，則接收郵件或通話時可能有問題。
 
 ## <a name="legacy-adu-setups"></a>舊版 ADU 設定
 
@@ -40,7 +39,7 @@ ms.locfileid: "51120604"
 > [!NOTE]
 > 針對以「.local」或「.corp」結尾的使用者名稱，略過或忽略使用者名稱預先填入的功能預設為開啟，因此您不需要設定登錄機碼就能關閉預先填入。
 
-請參閱[使用新式驗證Microsoft Teams以使用新式](sign-in-teams.md)驗證來登錄，以瞭解更多資訊。
+請參閱[使用新式驗證Microsoft Teams以使用新式](sign-in-teams.md)驗證來驗證，以瞭解更多資訊。
 
 ## <a name="skype-token-revocation"></a>Skype權杖吊銷
 
