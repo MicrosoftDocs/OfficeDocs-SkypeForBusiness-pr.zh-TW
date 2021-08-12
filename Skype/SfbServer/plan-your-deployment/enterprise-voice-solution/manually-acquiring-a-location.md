@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
-description: 在商務用 Skype Server Enterprise Voice 中使用 SIP 主幹提供者，在 E9-1-1 部署中規劃漫遊使用者。
-ms.openlocfilehash: dd43d78b4c139b4fb30a0b4ba379d96150314332
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在商務用 Skype Server 企業語音中使用 SIP 主幹提供者，在 E9-1-1 部署中規劃漫遊使用者。
+ms.openlocfilehash: cf0f023b352f27d38ceea8f9ee07b295b91ed7b3373e22f0258fea3874a9a7d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825423"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286452"
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>定義在商務用 Skype Server 中手動取得位置的使用者體驗
  
-在商務用 Skype Server Enterprise Voice 中使用 SIP 主幹提供者，在 E9-1-1 部署中規劃漫遊使用者。
+在商務用 Skype Server 企業語音中使用 SIP 主幹提供者，在 E9-1-1 部署中規劃漫遊使用者。
   
 如果用戶端位於網路之外，或是未定義的子網中，使用者可以手動輸入位置。 不過，在緊急通話期間，來電會先路由傳送到國家/地區 E9-1-1 緊急呼叫回應中心 (ECRC) dispatcher，再路由傳送至公用安全回應點 (PSAP) 。 ECRC 會口頭查詢位置的來電者，然後根據提供的資訊，將通話轉寄給適當的 PSAP。 
   

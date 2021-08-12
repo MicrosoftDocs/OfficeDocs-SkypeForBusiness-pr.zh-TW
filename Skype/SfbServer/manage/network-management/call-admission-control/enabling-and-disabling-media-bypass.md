@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 使用本文中的程式，透過使用商務用 Skype Server 控制台來啟用或停用媒體旁路。
-ms.openlocfilehash: cb8bb06c0e15d39733e92f26867917bb4f8e6989
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 使用本文中的程式，透過「商務用 Skype Server 控制台」來啟用或停用媒體旁路。
+ms.openlocfilehash: ffad0889d048bf1bd806b5211c42af1c9224e2451ebb6a25633c31f378d23499
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816493"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313051"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用及停用媒體旁路
 
-使用本文中的程式，透過使用商務用 Skype Server 控制台來啟用或停用媒體旁路。
+使用本文中的程式，透過「商務用 Skype Server 控制台」來啟用或停用媒體旁路。
 
 ## <a name="enable-network-media-bypass"></a>啟用網路媒體旁路 
 
@@ -33,7 +33,7 @@ ms.locfileid: "49816493"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **通用**]。
 
@@ -43,7 +43,7 @@ ms.locfileid: "49816493"
 
 6.  在 [ **編輯通用設定** ] 頁面上，按一下 [ **啟用媒體旁路** ] 核取方塊。
 
-7.  請選取下列任一選項：
+7.  選取下列其中一個選項：
     
       - **永遠略過**   選取此選項，可在所有呼叫時嘗試媒體旁路。 如果已啟用 (CAC) 的通話許可控制，此選項將無法使用。 如果未啟用 CAC，請在下列情況下選取此選項：
         
@@ -67,7 +67,7 @@ ms.locfileid: "49816493"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **通用**]。
 

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: " 將通話許可控制設定 (CAC) 網路之後，您必須啟用 CAC 以強制執行頻寬限制。"
-ms.openlocfilehash: 090b19282ce85289b0e79e09d58646c5bf5e81e2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 86a3cbead644ac265fc29d15c4ee9167bb214925c9176f9dfd11efe89df12079
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118572"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313001"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用通話許可控制
 
@@ -27,14 +27,14 @@ ms.locfileid: "51118572"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **網路** 設定]，然後按一下 [ **通用**]。
 
 4.  在 **[全域]** 頁面上，按一下 **[全域]** 設定。
    
     > [!NOTE]  
-    > 只能為任何商務用 Skype Server 部署設定一個網路，所以清單中永遠不會有一個以上的網路設定。 您無法重新命名 [全域] 設定。
+    > 任何商務用 Skype Server 部署只能設定一個網路，所以清單中永遠不會有一個以上的網路設定。 您無法重新命名 [全域] 設定。
 
 5.  在 **[編輯]** 功能表上，按一下 **[顯示詳細資料]**。
 

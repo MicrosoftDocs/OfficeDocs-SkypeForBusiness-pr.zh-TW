@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 中的 MN 主幹
+title: 商務用 Skype Server 中的主幹 MN
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
-description: 商務用 Skype Server Enterprise Voice 支援轉送伺服器與元件之間的 M:N 中繼，例如 PSTN 閘道、會話邊界控制器和 IP-PBX。
-ms.openlocfilehash: 9e51eb1a19904f45abdcab47af719a3ac14867bf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 商務用 Skype Server 企業語音支援轉送伺服器與元件之間的 M:N 中繼，例如 PSTN 閘道、會話邊界控制器及 IP-PBX。
+ms.openlocfilehash: dc140847e26860716e4beea5abe873f58bd63e90449fb93610329187321d18e9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825483"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286472"
 ---
-# <a name="mn-trunk-in-skype-for-business-server"></a>在商務用 Skype Server 中 M:N 主幹
+# <a name="mn-trunk-in-skype-for-business-server"></a>商務用 Skype Server 中的 M:N 主幹
  
-商務用 Skype Server Enterprise Voice 支援轉送伺服器與元件之間的 M:N 中繼，例如 PSTN 閘道、會話邊界控制器和 IP-PBX。
+商務用 Skype Server 企業語音支援轉送伺服器與元件之間的 M:N 中繼，例如 PSTN 閘道、會話邊界控制器及 IP-PBX。
   
-商務用 Skype 伺服器支援來自先前版本之通話路由的主幹定義的更大彈性。 主幹是轉送伺服器和接聽埠號碼與閘道和聆聽埠號碼之間的邏輯關聯。 這表示下列幾點：轉送伺服器可以有多個主幹至同一個閘道;轉送伺服器可以有多個主幹至不同的閘道;反過來，閘道也可以有多個主幹至不同的轉送伺服器。
+商務用 Skype Server 支援從先前版本進行呼叫路由的主幹定義的更大彈性。 主幹是轉送伺服器和接聽埠號碼與閘道和聆聽埠號碼之間的邏輯關聯。 這表示下列幾點：轉送伺服器可以有多個主幹至同一個閘道;轉送伺服器可以有多個主幹至不同的閘道;反過來，閘道也可以有多個主幹至不同的轉送伺服器。
   
-當您使用拓撲產生器來新增拓撲的閘道時，您還是必須建立根主幹。 指定的轉送伺服器可以處理的閘道數目取決於峰值忙碌時間內伺服器的處理能力。 如果您在硬體上部署超過商務用 Skype Server 最低硬體需求的轉送伺服器（如 [商務用 Skype server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)所述），則在獨立轉送伺服器可以處理的使用中非旁路呼叫數目大約為1000通話的估計值。 當您在符合這些規格的硬體上部署時，轉送伺服器應該會執行轉碼，但即使閘道不支援媒體旁路，還是仍會路由傳送多個閘道的來電。
+當您使用拓撲產生器來新增拓撲的閘道時，您還是必須建立根主幹。 指定的轉送伺服器可以處理的閘道數目取決於峰值忙碌時間內伺服器的處理能力。 如果您在超過商務用 Skype Server 的最低硬體需求的硬體上部署轉送伺服器（如[商務用 Skype Server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)所述），則在獨立轉送伺服器可以處理的非使用中非旁路呼叫數目上，估計大約是1000的呼叫。 當您在符合這些規格的硬體上部署時，轉送伺服器應該會執行轉碼，但即使閘道不支援媒體旁路，還是仍會路由傳送多個閘道的來電。
   
 在定義呼叫路由時，您會指定與該路由相關聯的主幹，但不會指定哪些轉送伺服器與該路由相關聯。 相反地，您可以使用拓撲產生器，將主幹與轉送伺服器相關聯。 換句話說，路由會決定要用於通話的主幹，然後再為與該主幹相關聯的轉送伺服器傳送該通話的信號。
   

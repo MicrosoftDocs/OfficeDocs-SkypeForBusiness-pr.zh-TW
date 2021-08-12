@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于日本Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 07163f6aa252bb0ec3e8976a8ed54bba914f4ae9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 896759b447523efaca7cc67a90157cc1bb83e6b1d1b852c08c1159b2366b4e2c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122307"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286012"
 ---
 # <a name="availability-in-japan"></a>日本的可用性
 
@@ -67,7 +67,7 @@ ms.locfileid: "51122307"
 
 > [!IMPORTANT]
 > 若要刪除使用者 (或) 由 SoftBank (所提供的電話號碼) 請直接與 SoftBank 聯繫。
-> 若要更新由 SoftBank 提供的 (使用者) 電話號碼的緊急 (，請) 與 SoftBank 聯繫。
+> 若要更新由 SoftBank (提供的) 使用者 (的緊急) 資訊，請直接與 SoftBank 聯繫。
 > 詳細資訊，請參閱適用于[Office 365 的 SoftBank Office 365。](https://aka.ms/SoftBankVoicePlan)
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼

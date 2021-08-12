@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 1f0238e177e74dc1263208f9a6a350158825d825
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 83c548f948c4c368ba1d8186fbdc9f212b9fb67b463f8eaec845f7698f4c0720
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817353"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313171"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用或停用傳送封存免責聲明至同盟合作夥伴的功能
 
@@ -34,7 +34,7 @@ ms.locfileid: "49817353"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **外部使用者存取**]，然後按一下 [ **Access Edge** 設定]。
 
@@ -44,12 +44,12 @@ ms.locfileid: "49817353"
 
 6.  按一下 **[認可]**。
 
-若要讓同盟使用者與商務用 Skype Server 部署中的使用者共同作業，您必須至少設定一個外部存取原則，以支援同盟使用者存取。 如需控制特定同盟網域存取權的詳細資訊，請參閱 [Configure support for 允許的外部網域](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)。
+若要讓同盟使用者能夠與您的商務用 Skype Server 部署中的使用者共同作業，您必須同時設定至少一個外部存取原則，以支援同盟使用者存取。 如需控制特定同盟網域存取權的詳細資訊，請參閱 [Configure support for 允許的外部網域](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)。
 
 
 ## <a name="enabling-or-disabling-the-archiving-disclaimer-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 來啟用或停用封存免責聲明
 
-您可以使用 Windows PowerShell 和 Set-CsAccessEdgeConfiguration Cmdlet 來管理封存免責聲明。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 
+您可以使用 Windows PowerShell 和 Set-CsAccessEdgeConfiguration Cmdlet 來管理封存免責聲明。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話執行此 Cmdlet。 
 
 ## <a name="to-enable-the-archiving-disclaimer"></a>啟用封存免責聲明
 

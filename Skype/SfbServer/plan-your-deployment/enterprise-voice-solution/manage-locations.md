@@ -15,30 +15,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
-description: 在商務用 Skype Server Enterprise Voice 中，針對使用 SIP 主幹提供者的 E9-1-1 部署規劃位置資訊資料庫或類似外部資料庫所需的決策。
-ms.openlocfilehash: b175c2cc3d0ed02a124a365787c8cb5d7cd37d10
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 若要使用 SIP 主幹提供者規劃 E9-1-1 部署的位置資訊資料庫或類似外部資料庫，請在商務用 Skype Server 企業語音中作出必要的決策。
+ms.openlocfilehash: cd62ad46fc592f8ea5357d44b65bf94809c858e74472a6f2830047a5f37f5aba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101439"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286492"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>在商務用 Skype Server 中管理 SIP 主幹服務提供者的位置
 
-在商務用 Skype Server Enterprise Voice 中，針對使用 SIP 主幹提供者的 E9-1-1 部署規劃位置資訊資料庫或類似外部資料庫所需的決策。
+若要使用 SIP 主幹提供者規劃 E9-1-1 部署的位置資訊資料庫或類似外部資料庫，請在商務用 Skype Server 企業語音中作出必要的決策。
 
-若要將商務用 Skype 伺服器設定為自動在網路中尋找用戶端，您必須使用網路線路圖填滿位置資訊服務資料庫，併發布位置，或連結至已經包含正確對應的外部資料庫。 在此程式中，您必須使用 E9-1-1 服務提供者驗證位置的市政位址。 如需詳細資訊，請參閱部署檔中 [的 Configure Location 資料庫](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) 。
+若要設定商務用 Skype Server 自動在網路中尋找用戶端，您必須使用網路線路圖填入位置資訊服務資料庫，併發布位置，或連結至已經包含正確對應的外部資料庫。 在此程式中，您必須使用 E9-1-1 服務提供者驗證位置的市政位址。 如需詳細資訊，請參閱部署檔中 [的 Configure Location 資料庫](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) 。
 
 您可以使用 ERL) （包含市政位址及大樓內的特定位址） (的 [緊急回應] 位置，填入位置資訊服務資料庫。 位置資訊服務 **位置** 欄位是大樓內的特定位置，其最大長度為20個字元 (包含空格) 。 在此有限長度內，嘗試包含下列專案：
 
 - 易於辨識的名稱，可識別911呼叫者的位置，以協助確保緊急回應程式在到達市政位址時立即找到特定位置。 此位置名稱可以包含大樓編號、底價編號、翼標示符、會議室編號等等。 避免只有員工知道的昵稱，這可能會造成緊急回應程式進入錯誤的位置。
 
-- 一個位置識別碼，可協助使用者輕鬆查看其商務用 Skype 用戶端是否已挑選正確的位置。 商務用 Skype 用戶端會自動連接並顯示其頁首中已探索的 **位置** 和 **城市** 欄位。 最佳作法是將大樓的街道位址新增至每個位置識別碼 (例如，"第一層 <street number> " ) 。 沒有街道位址，「第一層」等一般位置識別碼可以套用到城市中的任何辦公樓。
+- 可協助使用者輕鬆查看其商務用 Skype 用戶端是否已挑選正確位置的位置識別碼。 商務用 Skype 用戶端會自動連接並顯示其頁首中已探索的 **位置** 和 **城市** 欄位。 最佳作法是將大樓的街道位址新增至每個位置識別碼 (例如，"第一層 <street number> " ) 。 沒有街道位址，「第一層」等一般位置識別碼可以套用到城市中的任何辦公樓。
 
 - 如果該位置是由無線存取點所決定，您可以新增 **[near]** (例如，「接近第一層1234」 ) 。
 
 > [!NOTE]
-> 在使用商務用 Skype Server 管理命令介面命令來發佈至中央位置資料庫時，這些位置會無法供用戶端使用，而且會複製到集區的本機存放區。 如需詳細資訊，請參閱部署檔中 [的發佈位置資料庫](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database) 。
+> 新增至中央位置資料庫的位置直到使用商務用 Skype Server 管理命令介面命令加以發佈，而且會複製到集區的本機存放區，才可供用戶端使用。 如需詳細資訊，請參閱部署檔中 [的發佈位置資料庫](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database) 。
 
 下列各節討論在填充及維護位置資料庫時，需要考慮的考慮事項。
 
@@ -52,9 +52,9 @@ ms.locfileid: "51101439"
 
  **您是否有已包含位置對應的協力廠商資料庫？**
 
-使用 [次要位置資訊服務] 選項來連線至協力廠商資料庫，您可以使用離線平臺來分組和管理位置。 這種方法的好處是，除了將位置與網路識別碼相關聯之外，也可以將位置與使用者產生關聯。 這表示位置資訊服務可以傳回多個來自次要位置資訊服務的位址到商務用 Skype 用戶端。 然後，使用者可以選擇最適合的位置。
+使用 [次要位置資訊服務] 選項來連線至協力廠商資料庫，您可以使用離線平臺來分組和管理位置。 這種方法的好處是，除了將位置與網路識別碼相關聯之外，也可以將位置與使用者產生關聯。 這表示位置資訊服務可以傳回多個來自次要位置資訊服務的位址給商務用 Skype 用戶端。 然後，使用者可以選擇最適合的位置。
 
-若要與位置資訊服務整合，協力廠商資料庫必須遵循 Lync Server 位置要求/回應架構。 如需詳細資訊，請參閱  [[E911WS]： E911 支援通訊協定規格的 Web 服務]](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd)。 如需部署次要位置資訊服務的詳細資訊，請參閱部署檔中的 [在商務用 Skype Server 中設定次要位置資訊服務](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) 。
+若要與位置資訊服務整合，協力廠商資料庫必須遵循 Lync Server 位置要求/回應架構。 如需詳細資訊，請參閱  [[E911WS]： E911 支援通訊協定規格的 Web 服務]](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd)。 如需部署次要位置資訊服務的詳細資訊，請參閱部署檔[中的商務用 Skype Server 設定次要位置資訊服務](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)。
 
 如需有關填充位置資料庫的詳細資訊，請參閱部署檔中 [的 Configure Location 資料庫](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) 。
 

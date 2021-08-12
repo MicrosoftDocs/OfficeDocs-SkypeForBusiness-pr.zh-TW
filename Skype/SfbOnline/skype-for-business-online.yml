@@ -1,6 +1,6 @@
 ### YamlMime:Landing
 title: 商務用 Skype Online 系統管理員
-summary: 商務用 SkypeOnline 將于 2021 年 7 月 31 日終止服務存取權。 我們鼓勵客戶開始升級至 Microsoft Teams 中心 ，Microsoft 365。
+summary: 商務用 SkypeOnline 將于 2021 年 7 月 31 日停用，此時將結束服務存取權。 我們鼓勵客戶開始升級至 Microsoft Teams 中心 ，Microsoft 365。
 metadata:
   title: 商務用 Skype Online 系統管理員
   description: 瞭解如何為貴商務用 Skype管理線上帳戶。
@@ -17,12 +17,12 @@ metadata:
   ms.custom:
   - ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
   ms.date: 06/24/2020
-  ms.openlocfilehash: 46c5502a9dbcdb06f16845cbaf36c04db6021393
-  ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+  ms.openlocfilehash: 597193f959522f2a40a4fdb3eeda2797f9ca04dfb8c1f2f3a8a887f50d30a5be
+  ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 03/23/2021
-  ms.locfileid: "51118922"
+  ms.lasthandoff: 08/05/2021
+  ms.locfileid: "54283895"
 landingContent:
 - title: 關於 商務用 Skype Online
   linkLists:

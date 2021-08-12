@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9f757377-ab79-4795-aaa9-1163cb9c8a59
 description: MediationServers 表格是支援的表格。 每筆記錄都儲存在具有資料庫中記錄之通話所涉及的一個轉送伺服器的相關資訊。
-ms.openlocfilehash: e498409087ee5cf41b32b29ec5f66a147290e1ad
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: ef980b18aece83b26619efc375f232040745a7b20d3dca4745e0ffcd60d6e57b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814763"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286252"
 ---
 # <a name="mediationservers-table"></a>MediationServers 表格
  

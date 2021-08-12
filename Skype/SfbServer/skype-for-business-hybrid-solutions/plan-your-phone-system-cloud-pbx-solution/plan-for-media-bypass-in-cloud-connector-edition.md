@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: 閱讀此主題以查看使用雲端連接器 Edition 版本2.0 和更新版本執行媒體旁路的規劃考慮。 如需部署媒體旁路的詳細資訊，請參閱在雲端連接器 Edition 中部署媒體旁路。
-ms.openlocfilehash: bae10c77a6b382eaca7189ed6ae52960a6fb1bf9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 622bb6cbc4acf5987d28a2c4823bdfd0e495445cba84ed01762423c8e65de576
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096197"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339889"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>規劃 Cloud Connector Edition 中的媒體旁路
  
@@ -37,15 +37,15 @@ ms.locfileid: "51096197"
 
 當信號使用或不具有媒體旁路的相同路徑時，媒體流程會有所不同。 下列圖表顯示使用和不使用媒體旁路的拓撲中的媒體和信號路徑。 
   
-例如，在下列拓撲中（不採用媒體旁路）：商務用 Skype 用戶端將 PSTN 通話加入外部號碼，SIP 信號會移至 Microsoft 365 或 Office 365，這會根據使用者語音原則來指示信號流量。 對於 Cloud Connector 使用者，語音原則會將信號流量指引至雲端連接器 Edge Server，然後透過雲端連接器轉送伺服器將信號流量路由傳送至 PSTN 會話邊界控制器 (SBC) 或閘道。 媒體會從商務用 Skype 用戶端傳送至雲端連接器轉送伺服器，然後再流向 SBC 或閘道，如下圖所示：
+例如，在下列拓撲中（不使用媒體旁路）-商務用 Skype 用戶端將 PSTN 通話撥打至外部號碼，SIP 信號會移至 Microsoft 365 或 Office 365，這會根據使用者語音原則來指示信號流量。 對於 Cloud Connector 使用者，語音原則會將信號流量指引至雲端連接器 Edge Server，然後透過雲端連接器轉送伺服器將信號流量路由傳送至 PSTN 會話邊界控制器 (SBC) 或閘道。 媒體會從商務用 Skype 用戶端流向 Cloud Connector 轉送伺服器，然後再流向 SBC 或閘道，如下圖所示：
   
 **沒有媒體旁路的媒體和信號路徑**
 
 ![沒有媒體旁路的信號](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
-從 PSTN 傳入的呼叫會以相反方向使用相同的信號路徑。 針對內部使用者，媒體仍會在商務用 Skype 用戶端和雲端連接器轉送伺服器之間流動，然後是 SBC 或閘道。
+從 PSTN 傳入的呼叫會以相反方向使用相同的信號路徑。 針對內部使用者，媒體仍會流過商務用 Skype 用戶端與雲端連接器轉送伺服器之間，然後是 SBC 或閘道。
   
-在下一個拓撲中（會使用媒體旁路）-信號會採用相同的路徑，但媒體會直接在商務用 Skype 用戶端與 SBC 或閘道之間流動，如下列圖表所示：
+在下一個拓撲中（會使用媒體旁路）-信號會採用相同的路徑，但媒體會直接在商務用 Skype 用戶端和 SBC 或閘道之間流動，如下圖所示：
   
 **媒體和使用媒體旁路的信號路徑**
 
@@ -59,13 +59,13 @@ ms.locfileid: "51096197"
 
 ![Cloud Connector Multisite 範例](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
-1. SIP 流量會從蘇黎世的使用者流向 Microsoft 365 或 Office 365。
+1. SIP 流量會從蘇黎世中的使用者流向 Microsoft 365 或 Office 365。
     
 2. 然後，流量會依照使用者語音路由原則中所指定的阿姆斯特丹，路由傳送至雲端連接器裝置。
     
 3. 在阿姆斯特丹中的雲端連接器裝置會將 SIP 流量傳送至中央閘道，單位為阿姆斯特丹。
     
-4. 位於阿姆斯特丹的中央閘道會進行適當的路由決策，然後將流量傳送至位於蘇黎世的 SBC 或閘道，而媒體會直接在商務用 Skype 用戶端和 SBC 或閘道之間流動。
+4. 位於阿姆斯特丹的中央閘道會進行適當的路由決策，然後將流量傳送至蘇黎世中的 SBC 或閘道，而媒體會直接在商務用 Skype 用戶端和 SBC 或閘道之間以阿姆斯特丹的形式流動。
     
    這種方法可讓您在每一個雲端連接器部署中為多個使用者服務提供更多使用者。 即使從媒體路徑中消除雲端連接器，在集中式的多網站案例中，也可能會根據需要將 WAN 傳遞到兩倍，以流過集中式 SBC 或閘道。
   
@@ -75,18 +75,18 @@ ms.locfileid: "51096197"
   
 ## <a name="supported-clients-for-media-bypass"></a>支援的媒體旁路用戶端
 
-使用第一次發行的媒體旁路時，唯一支援的用戶端是商務用 Skype 2016 Windows 用戶端，其為企業版、版本16.0.7870.2020 或更新版本的 Microsoft 365 應用程式的一部分。 客戶可以使用任何通道： Current、延期或 First Release 延期。 
+在第一次發行的媒體旁路中，唯一支援的用戶端是 Microsoft 365 Apps 企業版、版本16.0.7870.2020 或更新版本 Windows 用戶端的商務用 Skype 2016 用戶端。 客戶可以使用任何通道： Current、延期或 First Release 延期。 
   
 > [!NOTE]
-> 如果您使用的是用戶端 VPN 方案，並結合商務用 Skype 用戶端，則只有 VPN 分割隧道設定支援媒體旁路。 
+> 如果您使用的是用戶端 VPN 解決方案與商務用 Skype 用戶端搭配使用，則只有 VPN 分割隧道設定支援媒體旁路。 
   
-如需發行通道的詳細資訊，請參閱 [適用于企業的 Microsoft 365 應用程式更新通道](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)。
+如需發行通道的詳細資訊，請參閱[Microsoft 365 Apps 企業版的更新通道概述](https://support.office.com/article/Overview-of-update-channels-for-Office-365-ProPlus-9ccf0f13-28ff-4975-9bd2-7e4ea2fefef4?ui=en-US&amp;rs=en-US&amp;ad=US)。
   
-如需不同通道之用戶端的目前發行版本本資訊，請參閱適用 [于企業的 Microsoft 365 應用程式更新版本資訊](/officeupdates/release-notes-office365-proplus)。 
+如需不同通道之用戶端的目前發行版本本，請參閱[版本資訊以取得 Microsoft 365 Apps 企業版的更新](/officeupdates/release-notes-office365-proplus)。 
   
 ## <a name="cloud-connector-capacity-considerations-with-media-bypass"></a>媒體旁路的雲端連接器容量考慮
 
-沒有媒體旁路，而且視硬體而定，雲端連接器裝置可以處理從50到500同時通話，以要求透過轉送伺服器進行媒體傳送。 如需詳細資訊，請參閱 [Plan For 商務用 Skype Cloud Connector Edition](./plan-skype-for-business-cloud-connector-edition.md)。 
+沒有媒體旁路，而且視硬體而定，雲端連接器裝置可以處理從50到500同時通話，以要求透過轉送伺服器進行媒體傳送。 如需詳細資訊，請參閱[Plan for 商務用 Skype Cloud Connector Edition](./plan-skype-for-business-cloud-connector-edition.md)。 
   
 啟用媒體旁路時，支援的版本上的內部用戶端不會使用轉送伺服器，因此內部用戶端的數目會大幅增加。 
   
@@ -100,7 +100,7 @@ Always 旁路表示對內部用戶端的所有 PSTN 來電嘗試媒體旁路，�
   
 Always 旁路要求使用者與 PSTN 網站中的 PSTN 閘道之間有沒有障礙的連線能力。 
   
-如需詳細資訊，請參閱 [Plan For 商務用 Skype Cloud Connector Edition](./plan-skype-for-business-cloud-connector-edition.md)。 
+如需詳細資訊，請參閱[Plan for 商務用 Skype Cloud Connector Edition](./plan-skype-for-business-cloud-connector-edition.md)。 
   
 例如，在下圖中，歐洲使用者必須順利連線至三個會話邊界控制器 (SBCs) 在阿姆斯特丹中，我們的西部使用者必須順利連接至西雅圖的兩個 SBCs。 已正確連接表示它們是位於與 SBCs 或閘道相同的網站，或透過具有適當頻寬的 WAN 連結。
   

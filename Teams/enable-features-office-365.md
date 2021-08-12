@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3368fde246e61c7e006d9223a37283f2953945f
-ms.sourcegitcommit: 50111653f72f6758a3491a4dc3e91160ab75022c
+ms.openlocfilehash: 1e08ad6cb5962c447b3fb42e3ab4aa3c02f50fa1fa6f07e0348714f380b670cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51506660"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322575"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>管理組織的 Microsoft Teams 設定
 
@@ -91,7 +91,7 @@ Microsoft Teams 中的 **來賓存取** 可將團隊和頻道的存取權授與�
 
 #### <a name="search-by-name"></a>依名稱搜尋
 
-Microsoft Teams 範圍目錄搜尋使用 Exchange 通訊錄原則 (APB) 來允許組織建立虛擬邊界，以控制使用者可以如何尋找組織中的其他使用者並與其通訊。 在下列情況下，您可能會想要使用範圍目錄搜尋：
+Microsoft Teams 範圍目錄搜尋使用 Exchange 通訊錄原則 (APB) 來允許組織建立虛擬邊界，此邊界能控制使用者可以如何尋找組織中的其他使用者並與其通訊。在下列情況下，您可能會想要使用範圍目錄搜尋：
 
 - 貴組織的租用戶中有多家公司，您想要將其分開。 
 - 學校需要限制教職員與學生之間的交談。

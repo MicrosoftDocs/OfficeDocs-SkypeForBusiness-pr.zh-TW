@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 瞭解如何自訂 Microsoft 365 商務語音，以滿足組織的特定需求。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f72aac2f14e68022a673ee45585e9184814418f
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 6a15b3ff90d6656fc662ea69f9a54f8b0af50a969626a876b341d230d74cdef3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130222"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286072"
 ---
 # <a name="customize-microsoft-365-business-voice"></a>自訂 Microsoft 365 商務語音
 

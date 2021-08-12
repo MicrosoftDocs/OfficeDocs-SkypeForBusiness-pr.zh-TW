@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于斯里蘭卡Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 4e7f7b767df2f7b4baa89dd15b4d81195ba6d2be
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 以下是適用于斯里蘭卡Microsoft 365 Office 365及商務用 Skype Microsoft Teams的Microsoft Teams及服務。
+ms.openlocfilehash: e59a77caca6b168da5cea493b7293a79955a150e944b97aa2ee348255dce88f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096463"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54285992"
 ---
 # <a name="availability-in-sri-lanka"></a>斯里蘭卡的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于斯里蘭卡Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+以下是適用于斯里蘭卡Microsoft 365 Office 365及商務用 Skype Microsoft Teams的Microsoft Teams及服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

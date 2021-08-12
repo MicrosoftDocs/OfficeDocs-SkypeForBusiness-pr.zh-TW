@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: c8af86cd81b469eaa1e4d180edd407affaf9719d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f295eee0160df40a78886d34493a7fab491a7b217a0a3ba9b8f4d146a8ec7240
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099269"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331325"
 ---
 # <a name="topology-trusted-application"></a>拓撲：信任的應用程式
 
@@ -28,4 +28,4 @@ ms.locfileid: "51099269"
 
 - [查看信任的應用程式清單](/previous-versions/office/lync-server-2013/lync-server-2013-view-a-list-of-trusted-applications)
 
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。

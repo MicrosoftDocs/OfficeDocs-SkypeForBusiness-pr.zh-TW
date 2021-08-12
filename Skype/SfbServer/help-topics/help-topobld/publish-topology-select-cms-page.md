@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 description: 您可以使用拓撲產生器，發佈已設定的拓撲。 系統會要求您從清單中選取前端伺服器或前端集區，以擔當存放中央管理存放區的角色。 在任何指定時間，只有一部前端伺服器或前端集區可以持有此角色。
-ms.openlocfilehash: c55cd337e7c49f943705671983a436397bf4e4e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5cdc82b85bdebedf2ace94b98296990cf6fbfb4c7e239ad91116d961e27dfbb6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104399"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346529"
 ---
 # <a name="publish-topology-select-cms-page"></a>發行拓撲選取 CMS 頁面
 

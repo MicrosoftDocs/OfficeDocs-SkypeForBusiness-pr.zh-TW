@@ -15,22 +15,22 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
-description: 閱讀此主題以瞭解如何在商務用 Skype Server Enterprise Voice 中規劃增強型緊急服務 (E9-1-1) 部署的位置原則。
-ms.openlocfilehash: 3d9c574d18351594d9773f02770e960c993ae401
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 閱讀此主題以瞭解如何在商務用 Skype Server 企業語音中規劃增強型緊急服務 (E9-1-1) 部署的位置原則。
+ms.openlocfilehash: 2007e0a530d82dc6b14dee9758c4eeeee75588ca2a81597e18f6a777093f0cf5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101449"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286612"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>規劃商務用 Skype Server 的位置原則
  
-閱讀此主題以瞭解如何在商務用 Skype Server Enterprise Voice 中規劃增強型緊急服務 (E9-1-1) 部署的位置原則。 
+閱讀此主題以瞭解如何在商務用 Skype Server 企業語音中規劃增強型緊急服務 (E9-1-1) 部署的位置原則。 
   
 > [!NOTE]
-> 商務用 Skype 伺服器現在支援為用戶端設定多個緊急號碼。 如果您想要設定多個緊急號碼，必須遵循在商務用 skype [Server 中規劃多個緊急](multiple-emergency-numbers.md) 號碼的資訊，並 [在商務用 skype 中設定多個緊急號碼](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)。 
+> 商務用 Skype Server 現在支援用戶端的多個緊急號碼的設定。 如果您想要設定多個緊急號碼，您必須遵循在[商務用 Skype Server 中規劃多個緊急](multiple-emergency-numbers.md)號碼的資訊，並在[商務用 Skype 中設定多個緊急號碼](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)。 
   
-您可以使用商務用 Skype 控制台或使用 [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) Cmdlet 來建立位置原則。 如需詳細資訊，請參閱 [在商務用 Skype Server 中建立位置原則](../../deploy/deploy-enterprise-voice/create-location-policies.md)。
+您可以使用商務用 Skype 控制台] 或使用[New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) Cmdlet 來建立位置原則。 如需詳細資訊，請參閱[在商務用 Skype Server 中建立位置原則](../../deploy/deploy-enterprise-voice/create-location-policies.md)。
   
 每個位置原則都包含下列資訊：
   
@@ -55,18 +55,18 @@ ms.locfileid: "51101449"
   
  **增強型緊急服務免責聲明**
   
-此設定指定使用者在其取消提示的位置時所看到的免責聲明。 在商務用 Skype Server 中，您可以使用位置原則，針對不同的地區設定或不同的使用者組設定不同的免責聲明。
+此設定指定使用者在其取消提示的位置時所看到的免責聲明。 在商務用 Skype Server 中，您可以使用位置原則為不同的地區設定或不同的使用者集合設定不同的免責聲明。
   
  **緊急撥號字串 (E9-1-1 撥號號碼)**
   
 此撥號字串 (較少的前置 "+"，但包含使用者撥號對應表所完成的任何正規化) 表示通話是緊急通話。 [ **緊急撥號] 字串** 會使用戶端在通話中包含位置和回呼資訊。
   
 > [!NOTE]
-> 如果您的組織未使用外部線路存取首碼，您不需要建立對應的撥號對應表正規化規則，可在執行商務用 Skype 伺服器的伺服器上的呼叫輸出路由傳送呼叫之前，將 "+" 新增至911字串。由於位置原則的結果，商務用 Skype 用戶端會自動前置 "+"。 不過，如果您的網站使用外部存取前置詞，您必須將正規化規則新增至適用的撥號對應表原則，以去掉外部存取前置詞並新增 "+"。 例如，如果您的位置使用外部存取前置詞9，而且使用者可撥打 9 911 撥打緊急電話，用戶端會使用其撥號對應表原則，在來電者位置設定檔中的路由評估撥號號碼之前，先將此值標準化為 + 911。 
+> 如果您的組織未使用外部線路存取首碼，您不需要建立對應的撥號對應表正規化規則，可在執行商務用 Skype Server 的伺服器上的呼叫輸出路由傳送呼叫之前，將 "+" 新增至911字串。「+」會因位置原則而自動加上商務用 Skype 用戶端。 不過，如果您的網站使用外部存取前置詞，您必須將正規化規則新增至適用的撥號對應表原則，以去掉外部存取前置詞並新增 "+"。 例如，如果您的位置使用外部存取前置詞9，而且使用者可撥打 9 911 撥打緊急電話，用戶端會使用其撥號對應表原則，在來電者位置設定檔中的路由評估撥號號碼之前，先將此值標準化為 + 911。 
   
  **緊急撥號字串遮罩 (E9-1-1 撥號遮罩)**
   
-以分號分隔的撥號字串清單，可轉譯成指定的 **緊急撥號字串**。 例如，您可能想要新增112，也就是歐洲大多數的緊急服務號碼。 從歐洲訪問商務用 Skype 使用者可能不會知道911是美國的緊急電話號碼，但可以撥打112並取得相同的結果。 如使用緊急撥號字串，請勿在每個號碼前加上 "+"，而且如果您使用外部行存取碼，請確定使用者的撥號對應表原則中有正規化規則可去掉存取碼位。
+以分號分隔的撥號字串清單，可轉譯成指定的 **緊急撥號字串**。 例如，您可能想要新增112，也就是歐洲大多數的緊急服務號碼。 來自歐洲的來訪商務用 Skype 使用者可能不會知道911是美國的緊急電話號碼，但可以撥打112並取得相同結果。 如使用緊急撥號字串，請勿在每個號碼前加上 "+"，而且如果您使用外部行存取碼，請確定使用者的撥號對應表原則中有正規化規則可去掉存取碼位。
   
  **PSTN 使用方式**
   

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37bd749e44c2020d35a927491553662c74bff01f
-ms.sourcegitcommit: fa567451f8f7af6d915e33809d88f26b415db54c
+ms.openlocfilehash: 0b5aed539e7d32db7650bb1b9778c912d0065b411832337438c251177d88e809
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "44610972"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286062"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>針對 Business Voice 檢查您的網際網路連線
 
@@ -65,7 +65,7 @@ Business Voice 位於 Microsoft 365 的雲端中。 使用 Microsoft Teams 和 B
 3. 在 **[網路規劃]** 底下，選取 **[新增]**。 為您的規劃輸入名稱，然後選取 **[套用]**。 您的網路規劃應看起來如下：
 
     ![網路規劃中心主畫面](../media/network-planner-main.png)
-1. 選取網路規劃名稱。 (上圖的**總公司**)。
+1. 選取網路規劃名稱。 (上圖的 **總公司**)。
 2. 在下一頁，於 **[網站]** 索引標籤底下選取 **[新增網路站台]**。
 3. 只填寫以下螢幕擷取畫面中所指定的欄位，然後選取 **[儲存]**。 讓這個畫面上的其他欄位保留空白，且不要選取 **[ExpressRoute]** 或 **[連線至 WAN]** 選項。
 
@@ -77,7 +77,7 @@ Business Voice 位於 Microsoft 365 的雲端中。 使用 Microsoft Teams 和 B
 
 ### <a name="find-your-minimum-internet-connection-speed"></a>找到您的最低網際網路連線速度
 
-選取 [產生報告]**** 時，Microsoft 365 或 Office 365 會建立一個看起來如下的報告：
+選取 [產生報告] 時，Microsoft 365 或 Office 365 會建立一個看起來如下的報告：
 
 ![網路規劃中心報告詳細資料](../media/network-planner-report.png)
 
@@ -91,7 +91,7 @@ Business Voice 位於 Microsoft 365 的雲端中。 使用 Microsoft Teams 和 B
 
 ## <a name="make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365"></a>確定您網路上的電腦和裝置能夠連線至 Microsoft 365
 
-使用 Business Voice 的電腦和裝置必須使用特定網路連接埠與 Microsoft 365 伺服器通訊。 這些連接埠本質上是門戶，裝置經由它透過網路或網際網路交互通訊。 您的防火牆需要允許您網路上的裝置透過下列*輸出*網路連接埠來連線至 Microsoft 365：
+使用 Business Voice 的電腦和裝置必須使用特定網路連接埠與 Microsoft 365 伺服器通訊。 這些連接埠本質上是門戶，裝置經由它透過網路或網際網路交互通訊。 您的防火牆需要允許您網路上的裝置透過下列 *輸出* 網路連接埠來連線至 Microsoft 365：
 
 * **TCP 連接埠** 80 和 443
 * **UDP 連接埠** 3478、3479、3480 和 3481
@@ -106,7 +106,7 @@ Business Voice 位於 Microsoft 365 的雲端中。 使用 Microsoft Teams 和 B
 
    * 如果通話可連線，且您聽見訊息，表示防火牆已正確設定。
    * 如果通話可連線，但您無法聽見指示或訊息，請確定您的喇叭和麥克風已正確設定，然後再試一次。
-   * 如果通話未連線，或如果通話可連線但您無法聽見訊息，則可能需要更新您的防火牆，以允許存取所需的網路連接埠。 請參閱您的防火牆文件，或連絡 IT 專家以取得協助。
+   * 如果通話未連線，或如果通話可連線但您無法聽見訊息，則可能需要更新您的防火牆，以允許存取所需的網路連接埠。請參閱您的防火牆文件，或連絡 IT 專家以取得協助。
 
  如果您是 IT 專業人員，想要深入了解如何準備更大型或更複雜的網路來支援 Business Voice 的資訊，請參閱[評估我的環境](../3-envision-evaluate-my-environment.md)。 本文提供關於頻寬、Proxy 和防火牆需求，以及如何使用[網路評估工具](../3-envision-evaluate-my-environment.md#test-the-network)測試網路的更多資訊。
 

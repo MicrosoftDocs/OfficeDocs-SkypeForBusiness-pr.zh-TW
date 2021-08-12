@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
-description: 在商務用 Skype Server 中規劃 Enterprise Voice 的 PSTN 連線能力。
-ms.openlocfilehash: 492f4e2cc71644cb1e9957f407a549cce5dbc31d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在商務用 Skype Server 的企業語音中規劃 PSTN 連線性。
+ms.openlocfilehash: c4a621bfbe8a7296828818fa652b0bdb24338ed0035a62152cb796beed4bd5ab
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813563"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286442"
 ---
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃 PSTN 連線能力
  
-在商務用 Skype Server 中規劃 Enterprise Voice 的 PSTN 連線能力。
+在商務用 Skype Server 的企業語音中規劃 PSTN 連線性。
   
-企業等級的 VoIP 解決方案必須提供與公用交換電話網路 (PSTN) 之間的往來通話，且不犧牲任何服務品質 (QoS)。 撥打和接聽電話的使用者應該不會注意到基礎技術：從使用者的觀點來看，在企業語音基礎結構和 PSTN 之間的呼叫似乎只是另一次通話。
+企業等級的 VoIP 解決方案必須提供與公用交換電話網路 (PSTN) 之間的往來通話，且不犧牲任何服務品質 (QoS)。 撥打和接聽電話的使用者應該不會察覺基礎技術：從使用者的觀點來看，在企業語音基礎結構與 PSTN 之間的呼叫，就好像只是另一個電話。
   
-商務用 Skype 伺服器透過使用下列選項，提供可靠、可伸縮的 PSTN 連線能力：
+商務用 Skype Server 會使用下列選項，提供可靠且可擴展的 PSTN 連線能力：
   
 - 網際網路電話語音服務提供者 (ITSP) 的 **SIP 主幹**
     
@@ -43,9 +43,9 @@ ms.locfileid: "49813563"
 
 - [商務用 Skype Server 中的 SIP 主幹](sip-trunking.md)
     
-- [在商務用 Skype Server 中的直接 SIP 連線](direct-sip.md)
+- [商務用 Skype Server 中的直接 SIP 連線](direct-sip.md)
     
-- [在商務用 Skype Server 中 M:N 主幹](m-n-trunk.md)
+- [商務用 Skype Server 中的 M:N 主幹](m-n-trunk.md)
     
 - [商務用 Skype Server 中的轉譯規則](translation-rules.md)
     

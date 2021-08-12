@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
-description: 商務用 Skype Server 管理命令介面提供伺服器管理和管理的命令列介面。 它是以 Windows PowerShell 為基礎，包含一組完整的 Skype 和舊版 Lync server 產品特有的管理和管理 Cmdlet。
-ms.openlocfilehash: 24da9ac341129239399ea17218be8547f3549d6f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 商務用 Skype Server 管理命令介面提供伺服器管理和管理的命令列介面。 它是以 Windows PowerShell 為基礎，包含一組完整的管理和管理 Cmdlet，專門針對 Skype 和舊版 Lync server 產品。
+ms.openlocfilehash: 7213941b6f664375a6c51c3decb3080321e916d231fea3d93e5a933e4f0281f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118582"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313141"
 ---
 # <a name="skype-for-business-server-management-shell"></a>商務用 Skype Server 管理命令介面
  
-商務用 Skype Server 管理命令介面提供伺服器管理和管理的命令列介面。 它是以 Windows PowerShell 為基礎，包含一組完整的 Skype 和舊版 Lync server 產品特有的管理和管理 Cmdlet。
+商務用 Skype Server 管理命令介面提供伺服器管理和管理的命令列介面。 它是以 Windows PowerShell 為基礎，包含一組完整的管理和管理 Cmdlet，專門針對 Skype 和舊版 Lync server 產品。
   
-Windows PowerShell 可讓您從命令列管理 Microsoft 應用程式。 它包括命令列環境、產品特定命令，以及完整指令碼語言。 Windows PowerShell 第一次是在2006中新增為 Windows 作業系統的可下載版本，已融入為 Microsoft Exchange Server 2007 的可管理性命令列介面。 它已整合至大多數的 Microsoft Server 產品，包括從 Lync Server 2010 開始的 Lync 和 Skype 伺服器。 商務用 Skype Server 管理命令介面中提供超過700的 Lync 和 Skype 特有 Cmdlet。
+Windows PowerShell 可讓您從命令列管理 Microsoft 應用程式。 它包括命令列環境、產品特定命令，以及完整指令碼語言。 Windows PowerShell 是第一次在2006中新增為 Windows 作業系統的可下載版本，而且已融入為命令列介面，以 Microsoft Exchange Server 2007 的可管理性。 它已整合至大多數的 Microsoft 伺服器產品，包括從 lync Server 2010 開始的 lync server 和 Skype server。 商務用 Skype Server 管理命令介面中提供超過700的 Lync 和 Skype 特定 Cmdlet。
   
 > [!NOTE]
-> 商務用 Skype Cmdlet 參考已移至 docs.microsoft.com。 按一下下列連結將會帶您前往 [新增 docs.microsoft.com] 頁面。 內容現在已開啟，且可透過 GitHub 進行社區貢獻。 對共同作業感興趣？ 請參閱下列位置的讀我檔案： [https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
+> 商務用 Skype Cmdlet 參照已移至 docs.microsoft.com。 按一下下列連結將會帶您前往 [新增 docs.microsoft.com] 頁面。 內容現在已開啟，且可透過 GitHub 進行社區貢獻。 對共同作業感興趣？ 請參閱下列位置的讀我檔案： [https://github.com/MicrosoftDocs/office-docs-powershell](https://github.com/MicrosoftDocs/office-docs-powershell)
   
-商務用 skype 伺服器隨附超過700個 Cmdlet，可讓系統管理員使用商務用 Skype Server 管理命令介面來管理商務用 Skype 伺服器。 您可以輸入類似如下的命令，直接從命令列取得 Cmdlet 的說明：
+商務用 Skype Server 隨附700個以上的 Cmdlet，讓系統管理員可以使用商務用 Skype Server 管理命令介面管理商務用 Skype Server。 您可以輸入類似如下的命令，直接從命令列取得 Cmdlet 的說明：
   
 ```PowerShell
 Get-Help New-CsVoicePolicy -Full
@@ -37,7 +37,7 @@ Get-Help New-CsVoicePolicy -Full
 
 上述命令會檢索可用於 **New-CsVoicePolicy** Cmdlet 的完整説明。 若要查看其他 Cmdlet 的說明，請以您想要取得 help 之 Cmdlet 的名稱取代 **New-CsVoicePolicy** 。
   
-若要取得可用於管理商務用 Skype 伺服器的完整 Cmdlet 清單，請在命令介面命令提示字元處輸入下列命令： 
+若要取得可用於管理商務用 Skype Server 的完整 Cmdlet 清單，請在命令介面命令提示字元處輸入下列命令： 
   
 ```PowerShell
 Get-Command * -Module SkypeforBusiness -CommandType cmdlet
@@ -45,24 +45,24 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
 
 
 
-在商務用 Skype Server 中瞭解 Windows PowerShell 的相關事項：
+商務用 Skype Server 中 Windows PowerShell 的相關須知：
   
 - 若要執行商務用 Skype Server Cmdlet，請開啟商務用 Skype Server 管理命令介面。
     
     > [!CAUTION]
-    > 如果您開啟 Windows PowerShell 視窗，而不是商務用 Skype Server 管理命令介面，預設可能無法執行 Skype Cmdlet。 若要在 Windows PowerShell 中執行商務用 Skype Server Cmdlet，請先在 Windows PowerShell 命令提示字元處輸入下列命令： >  `Import-Module SkypeforBusiness`
+    > 如果您開啟 Windows PowerShell 視窗，而不是商務用 Skype Server 管理命令介面，則預設可能無法執行 Skype Cmdlet。 若要從 Windows PowerShell 中執行商務用 Skype Server Cmdlet，請先在 Windows PowerShell 命令提示字元處輸入下列命令： >`Import-Module SkypeforBusiness`
   
-- 商務用 skype Server 管理命令介面會自動安裝在每家商務用 Skype Server Enterprise Edition 前端伺服器或 Standard Edition server 上。
+- 商務用 Skype Server管理命令介面會自動安裝在每一部商務用 Skype Server Enterprise Edition 前端伺服器或 Standard Edition 伺服器上。
     
-- 您可以執行 [Update-Help](/powershell/module/microsoft.powershell.core/update-help) Cmdlet 來更新商務用 Skype Server 管理命令介面說明內容。 Update-Help Cmdlet 會下載並安裝適用于電腦上所有模組的最新説明檔案，包括商務用 Skype Cmdlet 的更新。
+- 您可以執行[Update-Help](/powershell/module/microsoft.powershell.core/update-help) Cmdlet 來更新商務用 Skype Server 管理命令介面說明內容。 Update-Help Cmdlet 會下載並安裝適用于電腦上所有模組（包括商務用 Skype Cmdlet 的更新）的最新說明檔。
     
-    根據預設， **Update-Help** Cmdlet 會更新所有安裝在商務用 Skype Server 上的模組。 如果您只想更新特定的模組，您可以使用 _Module_ 參數來限制 Cmdlet 的範圍。 下列範例只會更新商務用 Skype 模組。
+    根據預設， **Update-Help** Cmdlet 會更新您商務用 Skype Server 上安裝的所有模組。 如果您只想更新特定的模組，您可以使用 _Module_ 參數來限制 Cmdlet 的範圍。 下列範例只會更新商務用 Skype 模組。
     
   ```PowerShell
   Update-Help -Module SkypeforBusiness
   ```
 
-    如果您需要更新未連接至網際網路之伺服器上的說明，您可以使用 [Save-Help](/powershell/module/microsoft.powershell.core/save-help) Cmdlet 來取得最新版本的說明，並將其儲存至您指定的位置。 然後，您可以在未連線至網際網路的伺服器上使用 _-SourcePath_ 參數的 **Update-Help** Cmdlet，以從選取的位置取得更新的說明。 下列範例顯示如何將說明檔案儲存至網路檔案共用，然後從檔案共用更新商務用 Skype 模組的說明。
+    如果您需要更新未連接至網際網路之伺服器上的說明，您可以使用 [Save-Help](/powershell/module/microsoft.powershell.core/save-help) Cmdlet 來取得最新版本的說明，並將其儲存至您指定的位置。 然後，您可以在未連線至網際網路的伺服器上使用 _-SourcePath_ 參數的 **Update-Help** Cmdlet，以從選取的位置取得更新的說明。 下列範例會示範如何將說明檔案儲存至網路檔案共用，然後從檔案共用更新商務用 Skype 模組的說明。
     
   ```PowerShell
   // Save the help files

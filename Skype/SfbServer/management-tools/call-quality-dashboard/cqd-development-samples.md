@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
-description: 摘要：檢查通話品質儀表板的教學課程和開發範例。 通話品質儀表板是商務用 Skype 伺服器的工具。
-ms.openlocfilehash: 193a03662d6f771b19c57017d909cc6574a755ef
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：檢查通話品質儀表板的教學課程和開發範例。 通話品質儀表板是商務用 Skype Server 的工具。
+ms.openlocfilehash: b0b4811e38d50f871e023757220a2a3f0108be349c55eaf78e39ab243954c5dd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832723"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331285"
 ---
 # <a name="cqd-development-samples"></a>CQD 開發範例
 
-**摘要：** 回顧通話品質儀表板的教學課程和開發範例。 通話品質儀表板是商務用 Skype 伺服器的工具。
+**摘要：** 回顧通話品質儀表板的教學課程和開發範例。 通話品質儀表板是商務用 Skype Server 的工具。
 
 本文提供在通話品質儀表板 (CQD) 上開發的教學課程和範例。
 
@@ -34,9 +34,9 @@ ms.locfileid: "49832723"
 
 CQD 提供對內部部署商務用 Skype Server 部署的匯總通話品質資訊的快速快捷的存取。 CQD 由三個元件組成： QoE 封存資料庫、Cube 及入口網站。 入口網站為主要簡報層，可進一步分為下列三個元件：
 
-1. 資料服務，可透過 [商務用 Skype Server 中的「呼叫品質」儀表板 (CQD) 中的「資料 API](data-api.md)」來存取驗證的使用者。
+1. 資料服務，可透過[商務用 Skype Server 中的「通話品質」儀表板 (CQD) 中的資料 API](data-api.md)來存取驗證的使用者。
 
-2. 存放庫服務，可透過 [商務用 Skype Server 中的「儲存庫 (API」 CQD) ](repository-api.md)來存取已驗證的使用者。
+2. 存放庫服務，可透過[商務用 Skype Server 中的「呼叫品質」儀表板 (CQD) 中的 [儲存庫 API](repository-api.md)]，存取已驗證的使用者。
 
 3. 網頁入口網站，也就是 CQD 使用者所看到及與其互動的 HTML5 基礎介面。 這可供已驗證的使用者存取。
 

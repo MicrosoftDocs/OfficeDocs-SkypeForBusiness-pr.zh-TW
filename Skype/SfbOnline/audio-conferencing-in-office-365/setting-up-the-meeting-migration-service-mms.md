@@ -22,18 +22,18 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 會議移 (MMS) 是一種在背景中執行的服務，並自動更新商務用 Skype Microsoft Teams會議。 MMS 的設計目的是讓使用者無需執行會議移移工具，以更新商務用 Skype Microsoft Teams會議。
-ms.openlocfilehash: db4889bb30ec453a64bfcf760a1233fbc7c1e2f5
-ms.sourcegitcommit: 32e3bb588abcbeded2d885483384c06706b280eb
+ms.openlocfilehash: 71fefa3986d9daf3a9eb7cd1403ba9490cbbf7ff687853a7876f05cd0a75eed1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/08/2021
-ms.locfileid: "52282110"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298873"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>使用會議移 (MMS) 
 
-會議移 (MMS) 是一項服務，可更新使用者在下列情況下的現有會議：
+會議移 (MMS) 是一種在下列情況下更新使用者現有會議的服務：
 
-- 當使用者從內部部署移至雲端時， (是移商務用 Skype或 TeamsOnly) 。
+- 當使用者從內部部署移至雲端時， (連線商務用 Skype TeamsOnly) 。
 - 當系統管理員變更使用者的音訊會議設定時 
 - 當線上使用者升級Teams，或當 TeamsUpgradePolicy 中的使用者模式設定為 SfBwithTeamsCollabAndMeetings 時
 - 當您使用 PowerShell 時 
@@ -50,7 +50,7 @@ ms.locfileid: "52282110"
 
 ## <a name="how-mms-works"></a>MMS 運作方式
 
-當為給定使用者觸發 MMS 時，該使用者的移入要求會置於佇列中。 為了避免任何競賽條件，排入佇列的要求至少 90 分鐘之後才會刻意處理。 MMS 處理要求後，會執行下列工作：
+當為給定使用者觸發 MMS 時，該使用者的移入要求會置於佇列中。 為了避免任何競賽條件，排入佇列的要求會經過至少 90 分鐘之後，才會刻意處理。 MMS 處理要求後，會執行下列工作：
 
 1. 它會搜尋該使用者的信箱，以搜尋該使用者組織並在未來排程的所有現有會議。
 2. 根據使用者信箱中的資訊，它會更新或排程該使用者在 Teams 或 商務用 Skype Online 中的新會議，視確切的案例。
@@ -64,8 +64,8 @@ ms.locfileid: "52282110"
 **附注：**
 
 - 當會議移移時，MMS 會取代線上會議資訊區塊中的所有專案。 因此，如果使用者已編輯該區塊，其變更將會被覆蓋。 他們在線上會議資訊區塊以外的會議詳細資料中擁有的任何內容都不受影響。 這表示任何附加至會議邀請的檔案仍然會包含在內。 
-- 只有商務用 Skype或 Microsoft Teams 會議，方法是按一下 Outlook 網頁中的新增 Skype會議按鈕，或是使用 Outlook 的 Skype 會議附加元件來排程的會議。 如果使用者複製並Skype將線上會議資訊從一個會議複製到新會議，新會議將不會更新，因為原始服務中沒有任何會議。
-- 建立或附加至會議的會議內容 (白板、投票等內容) MMS 執行之後不會保留。 如果您的會議召集人事先將內容附加至會議，則 MMS 執行之後，必須重新重新組織內容。
+- 只有商務用 Skype或 Microsoft Teams 會議，方法是按一下 Outlook 網頁中的新增 Skype會議按鈕，或是使用 Outlook 的 Skype 會議附加元件來排程的會議。 如果使用者複製並Skype將線上會議資訊從一個會議複製到新會議，新會議將不會更新，因為原始服務沒有會議。
+- 建立或附加至會議的會議內容 (白板、投票等) MMS 執行之後不會保留。 如果您的會議召集人事先將內容附加至會議，則 MMS 執行之後，必須重新重新組織內容。
 - 在日曆專案以及會議內部共用會議筆記的連結Skype也會被覆蓋。 請注意，儲存在 OneNote 中的實際會議記事仍然會存在;只有已覆蓋之共用筆記的連結。
 - 超過 250 位出席者的會議 (包括) 將不會移移。
 - 邀請內文中的某些 UNICODE 字元可能無法正確更新為下列其中一個特殊字元：1、1/2、。
@@ -74,7 +74,7 @@ ms.locfileid: "52282110"
 
 本節說明在下列每一種情況下觸發 MMS 時會發生什麼情況：
 
-- 當使用者從內部部署移至雲端時
+- 當使用者從內部部署移向雲端時
 - 當系統管理員變更使用者的音訊會議設定時 
 - 當使用者在 TeamsUpgradePolicy 中的模式設定為 TeamsOnly 或 SfBWithTeamsCollabAndMeetings (使用 Powershell 或 Teams 系統管理入口網站) 
 - 當您使用 PowerShell Cmdlet 時，請Start-CsExMeetingMigration
@@ -91,19 +91,19 @@ ms.locfileid: "52282110"
 
 ### <a name="updating-meetings-when-a-users-audio-conferencing-settings-change"></a>當使用者的音訊會議設定變更時更新會議
 
-在下列情況下，MMS 會更新現有的商務用 Skype Microsoft Teams會議，以新增、移除或修改撥入座標：
+在下列情況下，MMS 會更新現有的商務用 Skype Microsoft Teams，以新增、移除或修改撥入座標：
 
 - 當您指派或移除 Microsoft Audio 會議服務授權給使用者時，且該使用者並未為協力廠商音訊會議提供者啟用。
 - 當您將使用者的音訊會議提供者從任何其他提供者變更為 Microsoft 時，只要該使用者獲得 Microsoft 音訊會議授權。 詳細資訊，請參閱指派 [Microsoft 做為音訊會議提供者](./assign-microsoft-as-the-audio-conferencing-provider.md)。 另請注意，如先前宣佈的，協力廠商音訊會議提供者 [ACP] 的支援計畫在 2019 年 4 月 1 日[結束。](../legal-and-regulatory/end-of-integration-with-3rd-party-providers.md)
 - 當您為使用者啟用或停用音訊會議時。
 - 當您變更或重設已設定為使用公用會議之使用者的會議 ID 時。
 - 當您將使用者移至新的音訊會議橋接器時。
-- 當音訊會議橋接器的電話號碼未指定時。 這是需要額外步驟的複雜案例。 詳細資訊，請參閱變更音訊會議橋接器 [上的電話號碼](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
+- 當音訊會議橋接器的電話號碼未指定時。 這是需要額外步驟的複雜案例。 詳細資訊，請參閱 [變更音訊會議橋接器上的電話號碼](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
 
 並非所有使用者的音訊會議設定變更都觸發 MMS。 具體來說，下列兩項變更不會導致 MMS 更新會議：
 
 - 當您變更會議召集人的 SIP 位址時 (SIP 使用者名稱或 SIP 網域) 
-- 當您使用命令變更組織的會議 `Update-CsTenantMeetingUrl` URL 時。
+- 當您使用命令變更貴組織的會議 `Update-CsTenantMeetingUrl` URL 時。
 
 
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>指派 TeamsUpgradePolicy 時更新會議
@@ -112,7 +112,7 @@ ms.locfileid: "52282110"
 
 另請注意下列事項：
 
-- 只有在您為特定使用者授予時，才能 `TeamsUpgradePolicy` 啟用會議移移。 如果您以租使用者範圍為基礎或以租使用者為基礎授予，則系統 `TeamsUpgradePolicy` `mode=TeamsOnly` `mode=SfBWithTeamsCollabAndMeetings` 不會援用會議移移。 
+- 只有在您授予特定使用者時，才能 `TeamsUpgradePolicy` 啟用會議移移。 如果您以 `TeamsUpgradePolicy` 租使用者為基礎或以租使用者為基礎授予，則會議 `mode=TeamsOnly` 移移 `mode=SfBWithTeamsCollabAndMeetings` 不會被援用。 
 - 使用者只有在使用者位於線上時，才能獲得 TeamsOnly 模式。 內部部署使用者必須使用先前所述 `Move-CsUser` 移動。
 - 授予 TeamsOnly 或 SfBWithTeamsCollabAndMeetings Teams會議商務用 Skype模式。
 
@@ -128,10 +128,10 @@ ms.locfileid: "52282110"
 **SourceMeetingType：**
 - 使用表示只有商務用 Skype會議 (內部部署或線上) `SourceMeetingType SfB` 更新。
 - 使用 `SourceMeetingType Teams` 表示只有Teams會議應該更新。
-- 使用 `SourceMeetingType All` 表示會議商務用 Skype會議Teams會議應更新。 這是 SourceMeetingType 的預設值。
+- 使用 `SourceMeetingType All` 表示應該商務用 Skype會議Teams會議。 這是 SourceMeetingType 的預設值。
     
 
-以下範例顯示如何針對使用者啟動會議移 ashaw@contoso.com，讓所有會議移Teams：
+下列範例顯示如何針對使用者啟動會議移 ashaw@contoso.com，讓所有會議移至Teams：
 
 ```PowerShell
 Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
@@ -193,7 +193,7 @@ MMS 預設會針對所有組織啟用，但可以停用，如下所示：
 
 例如，您可能會想要手動遷移所有會議，或暫時停用 MMS，同時大幅變更貴組織的音訊會議設定
 
-若要查看貴組織是否已啟用 MMS，請執行下列命令。 如果參數為 ，MMS `MeetingMigrationEnabled` 即會啟用 `$true` 。
+若要查看貴組織是否已啟用 MMS，請執行下列命令。 如果參數為 ，MMS `MeetingMigrationEnabled` 會啟用 `$true` 。
 ```PowerShell
 Get-CsTenantMigrationConfiguration
 ```
@@ -202,7 +202,7 @@ Get-CsTenantMigrationConfiguration
 ```PowerShell
 Set-CsTenantMigrationConfiguration -MeetingMigrationEnabled $false
 ```
-如果組織中已啟用 MMS，而且您想要檢查是否已啟用音訊會議更新，請檢查 輸出中的參數 `AutomaticallyMigrateUserMeetings` 值 `Get-CsOnlineDialInConferencingTenantSettings` 。 若要啟用或停用音訊會議用 MMS，請使用 `Set-CsOnlineDialInConferencingTenantSettings` 。 例如，若要停用音訊會議用 MMS，請執行下列命令：
+如果組織中已啟用 MMS，而且您想要檢查音訊會議更新是否已啟用 MMS，請檢查 輸出中的 `AutomaticallyMigrateUserMeetings` 參數值 `Get-CsOnlineDialInConferencingTenantSettings` 。 若要啟用或停用音訊會議用 MMS，請使用 `Set-CsOnlineDialInConferencingTenantSettings` 。 例如，若要停用音訊會議用 MMS，請執行下列命令：
 
 ```PowerShell
 Set-CsOnlineDialInConferencingTenantSettings  -AutomaticallyMigrateUserMeetings $false

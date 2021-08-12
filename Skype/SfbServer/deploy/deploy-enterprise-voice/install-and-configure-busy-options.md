@@ -1,5 +1,5 @@
 ---
-title: 為商務用 Skype Server 安裝及設定忙碌選項
+title: 安裝及設定商務用 Skype Server 的繁忙選項
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,21 +14,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
-description: 閱讀如何在商務用 Skype Server 中安裝及設定忙碌選項。
-ms.openlocfilehash: 04690e9f2c7fbf16b67432526fe5c8fd6e5b95af
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 請參閱如何在商務用 Skype Server 中安裝及設定忙碌選項。
+ms.openlocfilehash: aa7dc18d2c535b96cfca06a28aff85f8ab5bc738c4eef94babd9048450bfb897
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322395"
 ---
-# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>為商務用 Skype Server 安裝及設定忙碌選項
+# <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>安裝及設定商務用 Skype Server 的繁忙選項
 
-閱讀如何在商務用 Skype Server 中安裝及設定忙碌選項。
+請參閱如何在商務用 Skype Server 中安裝及設定忙碌選項。
 
 「忙碌選項」是在2016累積更新中引進的新語音原則，可讓您設定使用者已在通話或會議中，或有來電暫止的情況下，如何處理來電。 您可以使用繁忙的信號或轉接至語音信箱來拒絕新的或來電的來電。
 
-如果為組織啟用忙碌選項，企業中的所有使用者（Enterprise Voice 和非企業語音使用者）都可以使用下列設定選項：
+如果為組織啟用 [忙碌] 選項，則 Enterprise 中的所有使用者（企業語音和非企業語音使用者）均可使用下列設定選項：
 
 - 忙於忙碌-當使用者忙碌時，將會以忙碌信號拒絕新的來電。
 
@@ -36,11 +36,11 @@ ms.locfileid: "51106309"
 
 不論其忙碌選項的設定方式為何，通話或會議中的使用者或是具有保留狀態的使用者，都不會被禁止撥打新的通話或會議。
 
-如需「忙碌選項」功能的相關資訊，請參閱 [Plan For 商務用 Skype Server 的繁忙選項](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)。
+如需「忙碌選項」功能的相關資訊，請參閱[Plan for 商務用 Skype Server 的閑選項](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)。
 
 ## <a name="install"></a>安裝
 
-請確定您已安裝最新版的商務用 Skype Server，且已安裝最新版的修補程式。 若要執行此動作，請先停止所有服務，然後執行商務用 Skype Server 更新安裝程式，如下所示：
+請確定已安裝最新版的商務用 Skype Server，且已安裝最新版的修補程式。 若要執行此動作，請先停止所有服務，然後執行商務用 Skype Server 更新安裝程式，如下所示：
 
 1. 執行 Stop-CsWindowsService 命令。
 
@@ -91,7 +91,7 @@ ms.locfileid: "51106309"
    Update-CsAdminRole
    ```
 
-5. 最後，使用執行 [Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps) 命令，在已安裝及啟用 [忙碌] 選項的所有集區中，啟動所有前端伺服器上的商務用 Skype Server Windows 服務：
+5. 最後，請執行[Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps)命令，在所有已安裝或啟用忙碌選項的集區中，啟動所有前端伺服器上的商務用 Skype Server Windows 服務：
 
    ```powershell
    Start-CsWindowsService
@@ -154,4 +154,4 @@ ScriptName :
 Script     :
 </pre>
 
-您也可以使用 Windows 事件檢視器，確認「忙碌選項」安裝順利完成，且商務用 Skype Server 成功載入繁忙選項。 若要驗證忙碌選項，請開啟 [ **事件檢視器- \> 應用程式及服務記錄檔- \> Skype (] 或 [Lync) Server** ]，然後搜尋事件 ID= 30253。
+您也可以使用 Windows 事件檢視器，確認「忙碌選項」安裝順利完成，且商務用 Skype Server 成功載入忙碌選項。 若要驗證忙碌選項，請開啟 [**事件檢視器- \> 應用程式及服務記錄- \> Skype (或 Lync) Server** ，並搜尋 ID= 30253 的事件。

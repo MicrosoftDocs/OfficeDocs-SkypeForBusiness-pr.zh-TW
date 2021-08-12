@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中規劃企業語音解決方案
+title: 規劃商務用 Skype Server 中的企業語音解決方案
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,40 +16,40 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 摘要：瞭解在商務用 Skype Server 中規劃整合語音和通訊解決方案的選項。
-ms.openlocfilehash: 7f335fd3fe954e7a0e66381da9dad0748ee02905
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3ac268b69cc125ee6327244c8b7b9777b9886a16763f9831a2582a935f931432
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825723"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54286692"
 ---
-# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃企業語音解決方案
+# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>規劃商務用 Skype Server 中的企業語音解決方案
  
 **摘要：** 深入瞭解在商務用 Skype Server 中規劃整合語音和通訊解決方案的選項。
   
-商務用 skype 伺服器提供兩個內部部署企業語音選項：企業語音和通話（透過運作），讓您能夠將組織的電話系統與商務用 Skype Server 部署整合，以進行真正的整合通訊解決方案。 這兩個選項可讓使用者使用商務用 Skype 用戶端，在組織內部和外部，使用其他使用者來撥打語音通話。
+商務用 Skype Server 提供兩個內部部署企業語音選項（企業語音和呼叫透過工作），讓您將組織的電話系統與您的商務用 Skype Server 部署整合，以進行真正的整合通訊解決方案。 這兩個選項可讓使用者使用商務用 Skype 用戶端，在組織內部和外部，使用其他使用者來啟動語音電話。
   
-您也可以透過共同作業一起使用 Enterprise Voice 和 Call。
+您也可以同時使用企業語音及呼叫透過合作。
   
-- Enterprise Voice 是最完整的語音服務。 它是軟體供電的 Voice over IP (VoIP) 解決方案，提供非常豐富的功能集，包括與 Outlook 和 Exchange 的豐富整合，以及許多強大的功能，例如回應群組、通話駐留、小組通話、群組通話收取，以及增強的緊急 E9-1-1 支援。 透過企業語音，使用者可以使用像是耳機的音訊裝置，或已啟用 VoIP 的電話，而不是傳統 PSTN 或 PBX 電話。
+- 企業語音是最完整的語音服務。 它是軟體供電的 Voice over IP (VoIP) 解決方案，提供非常豐富的功能集，包括與 Outlook 及 Exchange 的豐富整合，以及許多強大的功能，例如回應群組、通話駐留、小組通話、群組通話收取及增強的應急 E9-1-1 支援。 透過企業語音，使用者可以使用像是耳機的音訊裝置，或已啟用 VoIP 的電話，而不是傳統 PSTN 或 PBX 電話。
     
-- 「透過公司通話」為您提供一種方法，讓您可以整合商務用 Skype 解決方案與現有的 PBX 電話系統。 啟用透過工作呼叫的使用者可以按一下商務用 Skype 呼叫另一個使用者，不論是在您的部署中或外部使用者。 使用使用者的 PBX 電話完成通話。 此外，這些使用者可以在商務用 Skype 中按一下以加入會議。
+- 「透過公司通話」為您提供整合您的商務用 Skype 解決方案與現有 PBX 電話系統的方法。 啟用通過工作呼叫的使用者可以按一下商務用 Skype，撥打您的部署或外部使用者的其他使用者。 使用使用者的 PBX 電話完成通話。 此外，這些使用者可以按一下商務用 Skype 加入會議。
     
-    若使用者仍有 PBX 電話，但正將其轉換為企業語音，則從公司部署通話也是一項好處，因為這可讓使用者使用商務用 Skype 用戶端來控制其電話。
+    若使用者仍有 PBX 電話，但正將其轉換成企業語音，則透過工作來部署通話也是一種好處，因為這可讓使用者使用商務用 Skype 用戶端來控制其電話通話。
     
      「透過公司通話」提供一組較有限的語音功能 thanEnterprise Voice。 例如，它不支援委派、小組通話、回應群組或增強型 E9-1-1。
     
-當然，當其他使用者使用 PBX 電話時，您可以讓部分使用者啟用 Enterprise Voice。 此外，當您轉換為完整的 Enterprise Voice 解決方案時，您可以讓仍具有 Enterprise Voice 之 PBX 電話的使用者。 這些使用者可以在其書桌使用 PBX 電話，也可以使用企業語音，在其他地方使用 VoIP 裝置撥打或接聽電話。 如果這些使用者已啟用透過工作進行呼叫，他們可以使用商務用 Skype 用戶端來控制其位於其書桌的 PBX 電話。
+當然，當其他使用者使用 PBX 電話時，您可以讓部分使用者啟用企業語音。 此外，當您轉換為完整的企業語音解決方案時，您可以讓仍有 PBX 電話的使用者能夠使用企業語音。 這些使用者可以在其書桌使用 PBX 電話，也可以使用企業語音，在其他位置使用 VoIP 裝置撥打或接聽來電。 如果使用者已啟用透過工作撥打的電話，他們可以使用其商務用 Skype 用戶端來控制其位於其書桌的 PBX 電話。
   
 > [!NOTE]
-> 遠端呼叫控制是舊版 Lync Server 中提供的一項功能，可讓使用者使用商務用 Skype 用戶端，在 PBX 電話上撥打和接聽電話。 位於商務用 Skype Server Server 上的使用者不支援遠端呼叫控制，但在具有商務用 Skype 之用戶端的使用者，也支援仍位於執行 Lync Server 2013 的伺服器上。 
+> 遠端呼叫控制是舊版 Lync Server 中提供的一項功能，可讓使用者在其 PBX 電話上使用其商務用 Skype 用戶端撥打和接聽電話。 在商務用 Skype Server server 上的使用者不支援遠端呼叫控制，但是如果使用者的商務用 Skype 用戶端仍位於執行 Lync Server 2013 的伺服器上，則為使用者提供支援。 
   
 ## <a name="see-also"></a>另請參閱
 
 
-[在商務用 Skype Server 中規劃 Enterprise Voice](enterprise-voice.md)
+[規劃商務用 Skype Server 中的企業語音](enterprise-voice.md)
   
-[透過商務用 Skype Server 中的工作規劃通話](call-via-work.md)
+[規劃商務用 Skype Server 中的工作通話](call-via-work.md)
   
 [在商務用 Skype 中規劃遠端呼叫控制](remote-call-control.md)
 
