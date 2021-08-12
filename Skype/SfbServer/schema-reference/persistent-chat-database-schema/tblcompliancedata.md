@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
 description: tblComplianceData 包含法規相符性介面卡尚未處理的規範事件。
-ms.openlocfilehash: e4ceda662b2f601660c144319a4231cebeea39ad
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 70929cd85499fb015489054d11e11d492fe00e145e7da32dbf7477deb5e7c60d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809853"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284463"
 ---
 # <a name="tblcompliancedata"></a>tblComplianceData
  
@@ -38,7 +38,7 @@ tblComplianceData 包含法規相符性介面卡尚未處理的規範事件。
 |cmplUserUri  <br/> |nvarchar (255)，非 null  <br/> |使用者 URI。  <br/> |
 |cmplMessage  <br/> |nvarchar (max)  <br/> |訊息 (編碼取決於 cmplType)。  <br/> |
    
-**Key**
+**機碼**
 
 |**欄**|**描述**|
 |:-----|:-----|

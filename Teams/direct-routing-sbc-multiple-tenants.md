@@ -17,16 +17,16 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何在 SBC 中設定一個會話 (，) Microsoft 合作夥伴和/或 PSTN 電信公司的多個租使用者。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8ff378d55f551cfb11bd6f185840407e20095035
-ms.sourcegitcommit: 272e8cf0075a566f055801433c9eb0313050530f
+ms.openlocfilehash: c313ee09db068fca512a7f1c9c3478fad465ff4f9d64381f4f62790da4208ad2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "52486377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293910"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>設定多個租用戶的工作階段邊界控制器
 
-直接路由支援將一個會話邊界控制器 (SBC) 多個租使用者。
+直接路由支援將一個會話邊界控制器 (SBC) 服務多個租使用者。
 
 > [!NOTE]
 > 此案例是專為 Microsoft 合作夥伴和/或 PSTN 電信公司所設計，本文稍後稱為電信公司。 電信業者會銷售傳送給客戶Microsoft Teams電話語音。 
@@ -38,7 +38,7 @@ ms.locfileid: "52486377"
 - 管理電話品質端對端。
 - PSTN 服務另行收費。
 
-Microsoft 不會管理電信公司。 Microsoft 提供 PBX (Microsoft 電話 System) 和 Teams用戶端。 Microsoft 也會認證電話，並認證 SBCs，這些 SBCs 可與 Microsoft 電話系統一Microsoft 電話使用。 選擇電信業者之前，請確定您的選擇具有經過認證的 SBC，並可以端對端管理語音品質。
+Microsoft 不會管理電信公司。 Microsoft 提供 PBX (Microsoft 電話 System) 和 Teams用戶端。 Microsoft 也會認證電話，並認證 SBCs 可與 Microsoft 電話 系統一Microsoft 電話使用。 選擇電信業者之前，請確定您的選擇具有經過認證的 SBC，並可以端對端管理語音品質。
 
 以下是設定案例的技術實現步驟。
 
@@ -87,7 +87,7 @@ Microsoft 不會管理電信公司。 Microsoft 提供 PBX (Microsoft 電話 Sys
 
 ![顯示網域和連絡人標題需求的圖表](media/direct-routing-1-sbc-requirements.png)
 
-SBC 需要憑證來驗證連接。 針對 SBC 主機案例，電信業者必須要求具有 CN 和/或 SAN .base_domain (的憑證，例如 *\* \* .customers.adatum.biz) 。* 此憑證可用來驗證從單一 SBC 送達多個租使用者的連接。
+SBC 需要憑證來驗證連接。 針對 SBC 主機案例，電信業者需要要求具有 CN 和/或 SAN .base_domain (的憑證，例如 *\* \* .customers.adatum.biz) 。* 此憑證可用來驗證從單一 SBC 送達多個租使用者的連接。
 
 
 下表是一組配置的範例。
@@ -112,15 +112,15 @@ SBC 需要憑證來驗證連接。 針對 SBC 主機案例，電信業者必須�
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>確定您擁有電信租使用者的適當許可權
 
-您必須以全域系統管理員的Microsoft 365系統管理中心，才能新增網域。 
+如果您以全域系統管理員的Microsoft 365 系統管理中心，才能新增網域。 
 
-若要驗證您擁有的角色，請Microsoft 365系統管理中心 (，前往使用者作用中使用者，然後確認您具有全域 https://portal.office.com)   >  系統管理員角色。 
+若要驗證您擁有的角色，請Microsoft 365 系統管理中心 (，前往使用者作用中使用者，然後確認您擁有全域 https://portal.office.com)   >  系統管理員角色。 
 
 有關系統管理員角色以及如何在管理員角色或Microsoft 365指派Office 365，請參閱關於[系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>新增基本網域至租使用者並驗證
 
-1. 在系統管理Microsoft 365，請 **前往設定**  >  **網域**  >  **新增網域**。
+1. 在 Microsoft 365 系統管理中心，請前往 **設定**  >  **網域**  >  **新增網域**。
 2. 在輸入 **您擁有之網域的** 方塊中，輸入基本網域的 FQDN。 在下列範例中，基本網域 *customers.adatum.biz。*
 
     ![顯示新增網域頁面的螢幕擷取畫面](media/direct-routing-2-sbc-add-domain.png)
@@ -128,9 +128,9 @@ SBC 需要憑證來驗證連接。 針對 SBC 主機案例，電信業者必須�
 3. 按一下 **[下一步**。
 4. 在範例中，租使用者已經 adatum.biz 驗證功能變數名稱。 精靈不會要求其他驗證，因為 customers.adatum.biz 已註冊名稱的子域。 不過，如果您新增之前尚未驗證的 FQDN，您必須完成驗證程式。 驗證程式如下 [所述](#add-a-subdomain-to-the-customer-tenant-and-verify-it)。
 
-    ![顯示確認已驗證功能變數名稱的螢幕擷取畫面](media/direct-routing-3-sbc-verify-domain.png)
+    ![顯示驗證功能變數名稱確認的螢幕擷取畫面](media/direct-routing-3-sbc-verify-domain.png)
 
-5. 按一下 **[下** 一步設定更新 **DNS** 記錄頁面，選取 [我要自己新增 **DNS** 記錄，然後按一下 [下 **一步**。
+5. 按一下 **[下** 一步設定更新 **DNS** 記錄頁面，選取 [我要自己新增 **DNS** 記錄，然後按一下 [**下一步**。
 6. 在下一頁中，清除所有值 (，除非您要使用 Exchange、SharePoint 或 Teams/商務用 Skype) 的功能變數名稱，請按一下 [下一步，然後按一下 [**完成**。  請確定您的新網域已達設定完成狀態。
 
     ![顯示完成設定狀態的網域的螢幕擷取畫面](media/direct-routing-14-sbc-setup-complete.png)
@@ -156,14 +156,14 @@ SBC 需要憑證來驗證連接。 針對 SBC 主機案例，電信業者必須�
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>確定您擁有客戶租使用者的適當許可權
 
-您必須以全域系統管理員的Microsoft 365系統管理中心，才能新增網域。 
+如果您以全域系統管理員的Microsoft 365 系統管理中心，才能新增網域。 
 
-若要驗證您擁有的角色，請Microsoft 365系統管理中心 (，前往使用者作用中使用者，然後確認您具有全域 https://portal.office.com)   >  系統管理員角色。 
+若要驗證您擁有的角色，請Microsoft 365 系統管理中心 (，前往使用者作用中使用者，然後確認您擁有全域 https://portal.office.com)   >  系統管理員角色。 
 
 有關系統管理員角色以及如何在管理員角色或Microsoft 365指派Office 365，請參閱關於[系統管理員角色](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)。
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>新增子域至客戶租使用者並驗證
-1. 在系統管理Microsoft 365，請 **前往設定**  >  **網域**  >  **新增網域**。
+1. 在 Microsoft 365 系統管理中心，請前往 **設定**  >  **網域**  >  **新增網域**。
 2. 在輸入 **您擁有之網域** 的方塊中，輸入此租使用者子域的 FQDN。 在下列範例中，子域 sbc1.customers.adatum.biz。
 
     ![新增網域頁面的螢幕擷取畫面](media/direct-routing-5-sbc-add-customer-domain.png)
@@ -183,7 +183,7 @@ SBC 需要憑證來驗證連接。 針對 SBC 主機案例，電信業者必須�
 
     若要詳細資訊，請參閱在任何 [DNS](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166)主機服務提供者建立 DNS 記錄。
 
-7. 返回客戶的系統管理Microsoft 365，然後按一下 [**驗證**。 
+7. 返回客戶的帳戶，Microsoft 365 系統管理中心 [**驗證**> 。 
 8. 在下一頁中，選取 **[我要自己新增 DNS 記錄** ，然後按一下 [下 **一步**> 。
 
     ![更新 DNS 設定頁面上選項的螢幕擷取畫面](media/direct-routing-9-sbc-update-dns.png)
@@ -205,7 +205,7 @@ SBC 需要憑證來驗證連接。 針對 SBC 主機案例，電信業者必須�
 
 ### <a name="activate-the-subdomain-name"></a>啟用子功能變數名稱稱
 
-註冊功能變數名稱之後，您必須新增至少一個使用者，並指派 SIP 位址與客戶租使用者中已建立子域符合之 SIP 位址的 FQDN 部分來啟用功能變數名稱。 子域啟用之後，使用者 (最多可能需要 24 小時) 。
+註冊功能變數名稱之後，您必須新增至少一個使用者，並指派 SIP 位址與客戶租使用者中已建立子域符合之 SIP 位址的 FQDN 部分來啟用。 子域啟用之後，使用者 (最多可能需要 24 小時) 。
 
 *如需在組織Microsoft 365 [或](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef)Office 365中新增使用者Microsoft 365，請參閱取得Office 365協助。*
 
@@ -215,11 +215,11 @@ SBC 需要憑證來驗證連接。 針對 SBC 主機案例，電信業者必須�
 
 ### <a name="create-a-trunk-and-provision-users"></a>建立主幹並配置使用者
 
-隨著直接路由的初次發行，Microsoft 需要使用 New-CSOnlinePSTNGateway 將主幹新 (每個服務租使用者) 租使用者。
+在直接路由的初次發行中，Microsoft 需要使用 New-CSOnlinePSTNGateway 將主幹新 (每個服務租使用者) 租使用者。
 
 不過，有兩個原因並未證明這是最佳結果：
  
-- **間接費用管理**。 例如，卸載或排空 SBC 會變更一些參數，例如啟用或停用媒體旁路。 變更埠需要執行 Set-CSOnlinePSTNGateway (變更多個租使用者中的參數，) 實際上是相同的 SBC。 
+- **間接費用管理**。 例如，卸載或排空 SBC 會變更一些參數，例如啟用或停用媒體旁路。 變更埠需要執行 Set-CSOnlinePSTNGateway (變更多個租使用者的參數，) 實際上也是相同的 SBC。 
 
 -  **負荷處理**。 收集及監控主幹健康情況資料 - 從多個邏輯主幹收集的 SIP 選項，實際上，相同的 SBC 和相同的實體主幹，會降低路由資料的處理速度。
  
@@ -232,14 +232,14 @@ SBC 需要憑證來驗證連接。 針對 SBC 主機案例，電信業者必須�
 
 **置備邏輯和範例**
 
--    電信公司只需要使用 (命令，在電信) 中設定及管理Set-CSOnlinePSTNGateway主幹。 在上方範例中，這是 adatum.biz;
+-    電信公司只需要使用 (命令，在電信) 中設定和管理單一Set-CSOnlinePSTNGateway主幹。 在上方範例中，這是 adatum.biz;
 -    在客戶租使用者中，電信公司只需要將衍生主幹 FQDN 新加到使用者的語音路由策略。 不需要執行主幹New-CSOnlinePSTNGateway程式。
--    如名稱所建議，衍生主幹會繼承或衍生電信母線的所有組組參數。 例子：
+-    如名稱所示，衍生主幹會繼承或衍生電信母線的所有組組參數。 例子：
 -    Customers.adatum.biz – 需要在電信租使用者中建立之電信母線。
 -    Sbc1.customers.adatum.biz – 客戶租使用者中的衍生主幹，不需要在 PowerShell 中建立。  您可以直接在線上語音路由策略的客戶租使用者中新增衍生主幹的名稱，而不必建立。
 -   電信公司必須設定 DNS 記錄，將衍生主幹 FQDN 解析為電信公司 SBC IP 位址。
 
--    在電信 (租使用者) 上進行的任何變更，都會自動適用于衍生的主幹。 例如，電信公司可以變更電信母線上的 SIP 埠，這項變更會適用于所有衍生的主幹。 設定主幹的新邏輯簡化了管理，因為您不需要前往每個租使用者並變更每個主幹上的參數。
+-    在電信 (租使用者) 上進行的任何變更，都會自動適用于衍生的主幹。 例如，電信公司可以變更電信母線上的 SIP 埠，而這項變更會適用于所有衍生的主幹。 設定主幹的新邏輯簡化了管理，因為您不需要前往每個租使用者並變更每個主幹上的參數。
 -    選項只會送到電信母線 FQDN。 電信母線的健康狀態會適用于所有衍生主幹，並用於路由決策。 進一瞭解直接 [路由選項](./direct-routing-monitor-and-troubleshoot.md)。
 -    電信母線可以排空電信母線，而所有衍生的主幹也會排空。 
  
@@ -248,7 +248,7 @@ SBC 需要憑證來驗證連接。 針對 SBC 主機案例，電信業者必須�
 
 **從上一個模型移往電信母線**
  
-若要從目前由電信主機模型所實施的移向新模型，電信公司必須為客戶租使用者重新配置主幹。 從客戶租使用者移除主幹，Remove-CSOnlinePSTNGateway (將主幹留在電信租使用者) -
+若要從電信企業託管模型目前的實現移向新模型，電信公司必須為客戶租使用者重新配置主幹。 從客戶租使用者移除主幹，Remove-CSOnlinePSTNGateway (將主幹留在電信租使用者) -
 
 我們強烈建議您儘快移移至新解決方案，因為我們會使用電信母線和衍生主幹模型加強監控與部署。
  

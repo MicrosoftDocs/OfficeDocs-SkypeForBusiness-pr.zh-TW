@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: '瞭解如何設定商務用 Skype，以便查看同事的可用性。 '
-ms.openlocfilehash: 5eec57f295dbb45649fea6590147798881297a1b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 0675d9c24f85fa66e3d1eec2e470af2ffcf3d3e6a77719c63130320ce7e89fbe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239963"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303337"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>設定商務用 Skype Online 的顯示狀態
 
@@ -34,11 +34,11 @@ ms.locfileid: "52239963"
 > [!IMPORTANT]
 > 系統Microsoft Teams系統管理中心已取代 商務用 Skype 系統管理中心 (舊版) 。 系統管理中心商務用 Skype所有管理Teams設定。 您必須指派全域系統管理員或系統管理員的[Azure AD](/azure/active-directory/roles/permissions-reference)系統管理員角色商務用 Skype，才能商務用 Skype系統管理中心Teams功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
 
-根據預設，任何能使用網路通訊功能與貴組織其中一商務用 Skype也可以查看該人員是否線上。 商務用 Skype顯示人員是否可以在線上、會議、離線或其他標記中使用。
+根據預設，任何能與貴組織中其中一個人使用 商務用 Skype通訊的人，也可以查看該人員是否線上。 商務用 Skype顯示人員是否可以在線上、會議、離線或其他標記中使用。
 
 ![某人在 商務用 Skype 中的線上商務用 Skype。](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
 
-作為 **[您公司](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 中每個人的系統管理員，您可以選擇誰在 商務用 Skype。
+做 **[為公司](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 中每個人的系統管理員，您可以選擇誰在 商務用 Skype。
 
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 

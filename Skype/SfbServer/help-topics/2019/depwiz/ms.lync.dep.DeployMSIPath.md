@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 81aaa294-aca1-4ff6-894e-de8098b6eb17
 ROBOTS: NOINDEX, NOFOLLOW
-description: 如需使用部署嚮導來安裝商務用 Skype 伺服器的詳細資訊，請參閱安裝商務用 Skype Server。
-ms.openlocfilehash: c63b3bc1dde6fb156c06d84fa9f90a083bf7e052
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 如需使用部署嚮導安裝商務用 Skype Server 的詳細資訊，請參閱 install 商務用 Skype Server。
+ms.openlocfilehash: ee477914b612197fb63adaca462195414e4601f54c34b031a57b843e1329aefc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825083"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303007"
 ---
 # <a name="deployment-wizard-path-to-msi-installer"></a>部署精靈：MSI 安裝程式路徑
  
-如需使用部署嚮導來安裝商務用 Skype 伺服器的詳細資訊，請參閱 [安裝商務用 Skype server](../../../deploy/install/install.md)。
+如需使用部署嚮導安裝商務用 Skype Server 的詳細資訊，請參閱[install 商務用 Skype Server](../../../deploy/install/install.md)。
   
 

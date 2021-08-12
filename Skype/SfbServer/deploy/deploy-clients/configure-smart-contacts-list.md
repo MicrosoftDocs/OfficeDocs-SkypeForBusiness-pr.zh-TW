@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype 用戶端中設定智慧連絡人清單
+title: 設定商務用 Skype 用戶端中的智慧連絡人清單
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: 摘要：瞭解如何在商務用 Skype 用戶端中開啟智慧連絡人清單功能。
-ms.openlocfilehash: 1f049493d591cd561b87611f8a34f9176ace165a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 99658b9f4460970f00da829327c85227637ffbab9d5ffeb0a5c3f071a889d91d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095797"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303147"
 ---
-# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>在商務用 Skype 用戶端中設定智慧連絡人清單
+# <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>設定商務用 Skype 用戶端中的智慧連絡人清單
 
 **摘要：** 瞭解如何在商務用 Skype 用戶端中開啟智慧連絡人清單功能。
 
-[智慧連絡人清單] 功能可讓您的使用者自動填入連絡人清單。 在您第一次使用商務用 Skype 時，您的使用者將會自動查看其主管和其小組中的其他人員。 Microsoft 365 和 Office 365 使用者預設會開啟此功能，但您必須透過設定用戶端原則設定，明確為您的內部部署使用者啟用此功能。
+[智慧連絡人清單] 功能可讓您的使用者自動填入連絡人清單。 在您第一次使用商務用 Skype 時，您的使用者將會自動查看其主管和其小組中的其他人員。 預設會為 Microsoft 365 和 Office 365 使用者開啟此功能，但您必須透過設定用戶端原則設定，明確為內部部署使用者啟用此功能。
 
 設定此功能時，請牢記下列事項：
 
@@ -82,8 +82,8 @@ Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 
 - 確認已填入 AD 組織資訊。
 
-- 在新的使用者上收集商務用 Skype 用戶端記錄以進行進一步分析。
+- 收集新使用者的商務用 Skype 用戶端記錄，以便進一步分析。
 
 - 確認商務用 Skype 用戶端 UI 不會顯示無法連接到通訊錄的訊息。 若要確認通訊錄連通性，請在商務用 Skype 用戶端搜尋列中執行使用者搜尋。
 
-- 當使用者第一次登入商務用 Skype 時，AD DS 複寫問題可能會導致連絡人無法解析。
+- 當使用者第一次登入商務用 Skype 時，AD DS 複寫問題可能會造成連絡人無法解析。

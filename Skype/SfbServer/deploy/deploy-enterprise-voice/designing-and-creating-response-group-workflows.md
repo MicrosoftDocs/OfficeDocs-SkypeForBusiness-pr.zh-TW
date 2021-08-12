@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
-description: 在商務用 Skype Server Enterprise Voice 中，設計及建立回應群組工作流程。 同時也涵蓋群組搜尋工作流程和互動式工作流程。
-ms.openlocfilehash: 678dcb25f5f802f101016a2a289015a60e48ba88
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在商務用 Skype Server 企業語音中，設計及建立回應群組工作流程。 同時也涵蓋群組搜尋工作流程和互動式工作流程。
+ms.openlocfilehash: ac77753e82acc2a7733fb5d273a55b4c9fd0d0fd5466262fec6fdc9a2c223030
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105779"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303117"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>在商務用 Skype 中設計及建立回應群組工作流程
 
-在商務用 Skype Server Enterprise Voice 中，設計及建立回應群組工作流程。 同時也涵蓋群組搜尋工作流程和互動式工作流程。
+在商務用 Skype Server 企業語音中，設計及建立回應群組工作流程。 同時也涵蓋群組搜尋工作流程和互動式工作流程。
 
 工作流程會定義從電話鈴聲開始響起到有人接聽該通電話這段時間的呼叫行為。 工作流程會指定用於進行通話的佇列，並指定用來搜尋群組工作流程的路由方法，或用於互動式回應群組工作流程的問題和解答。
 
@@ -40,7 +40,7 @@ ms.locfileid: "51105779"
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分登入，或是以支援回應群組之其中一個預先定義的系統管理角色的成員身分登入。
 
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。
 
 3. 在左側導覽列中，按一下 **[回應群組]**，然後按一下 **[工作流程]**。
 
@@ -65,10 +65,10 @@ ms.locfileid: "51105779"
 8. 若要允許同盟使用者撥打群組，請選取 **[針對同盟啟用]** 核取方塊。 您也必須具有適用于同盟設定之回應群組應用程式的外部存取原則。
 
     > [!NOTE]
-    > 全域外部存取原則會套用至回應群組應用程式。 您可以使用商務用 Skype Server 控制台或使用 **get-csexternalaccesspolicy** 指令程式將 EnableOutsideAccess 參數設定為 True，設定回應群組同盟的全域原則。 請記住，除非將站台原則或使用者原則指派給使用者，否則通用原則設定適用於所有使用者。 因此在變更回應群組的此設定之前，請確認同盟設定符合您組織的需求。 如需有關如何將原則套用至使用者的詳細資訊，請參閱 [管理組織的外部存取原則](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)。 如需同盟設定的詳細資訊，請參閱 [Set-get-csexternalaccesspolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps)。
+    > 全域外部存取原則會套用至回應群組應用程式。 您可以使用商務用 Skype Server 控制台] 或使用 **get-csexternalaccesspolicy** 指令程式將 EnableOutsideAccess 參數設定為 True，設定回應群組同盟的全域原則。 請記住，除非將站台原則或使用者原則指派給使用者，否則通用原則設定適用於所有使用者。 因此在變更回應群組的此設定之前，請確認同盟設定符合您組織的需求。 如需有關如何將原則套用至使用者的詳細資訊，請參閱 [管理組織的外部存取原則](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)。 如需同盟設定的詳細資訊，請參閱 [Set-get-csexternalaccesspolicy](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps)。
 
     > [!NOTE]
-    > 在商務用 Skype Online 中主控的使用者無法將呼叫放入內部部署中所主控的回應群組。 這在混合式部署中，以及內部部署與商務用 Skype Online 部署的同盟情況皆為 true。
+    > 在商務用 Skype Online 中主控的使用者無法將呼叫放入內部部署中所主控的回應群組。 這在混合式部署中，以及內部部署與商務用 Skype 線上部署的同盟情況皆為 true。
 
 9. 若要在通話期間隱藏代理人的身分識別，請選取 **[啟用代理人匿名]** 核取方塊。
 
@@ -89,7 +89,7 @@ ms.locfileid: "51105779"
 
 13. 在 **[顯示號碼]** 中，輸入想要針對回應群組顯示的號碼 (例如，+1 (425) 555-0165)。
 
-14.  (選用) 在 [ **描述**] 中，輸入您想要在商務用 Skype 中的連絡人卡片上顯示之工作流程的描述。
+14.  (選用) 在 [**描述**] 中，輸入您想要在商務用 Skype 中的連絡人卡片上顯示之工作流程的描述。
 
 15. 在 [ **工作流程類型**] 中，選取 [ **受** 回應群組管理員管理此工作流程]。 請執行下列動作，將回應群組管理員指派給工作流程：
 
@@ -124,7 +124,7 @@ ms.locfileid: "51105779"
     - 若要使用預先定義的上班時間排程，請按一下 **[使用預設排程]**，然後從下拉式清單中選取想要使用的排程。
 
       > [!NOTE]
-      > 您至少先前必須已定義一個預設排程，才能選取此選項。 您可以使用 **New-CSRgsHoursOfBusiness** Cmdlet，來定義預設排程。 如需詳細資訊，請參閱 [ (選用) 在商務用 Skype 中定義回應群組上班時間](optional-define-response-group-business-hours.md)。
+      > 您至少先前必須已定義一個預設排程，才能選取此選項。 您可以使用 **New-CSRgsHoursOfBusiness** Cmdlet，來定義預設排程。 如需詳細資訊，請參閱[商務用 Skype 中的 (選用) 定義回應群組上班時間](optional-define-response-group-business-hours.md)。
 
       > [!NOTE]
       > 當您選取預設排程時，**[日]**、**[開啟]** 及 **[關閉]** 會自動填入回應群組可用的日及時數。
@@ -163,7 +163,7 @@ ms.locfileid: "51105779"
 24. 在 **[步驟 5 指定您的假日]** 下，按一下可定義回應群組沒上班之天數的一或多個假日集的核取方塊。
 
     > [!NOTE]
-    > 您需要先定義假日及假日集，再設定工作流程。 使用 **New-CsRgsHoliday** 及 **New-CsRgsHolidaySet** Cmdlet，可定義假日及假日集。 如需詳細資訊，請參閱 [ (選用) 在商務用 Skype 中定義回應群組假日集](optional-define-response-group-holiday-sets.md)。
+    > 您需要先定義假日及假日集，再設定工作流程。 使用 **New-CsRgsHoliday** 及 **New-CsRgsHolidaySet** Cmdlet，可定義假日及假日集。 如需詳細資訊，請參閱[商務用 Skype 中的 (選用) 定義回應群組假日集](optional-define-response-group-holiday-sets.md)。
 
 25. 如果您想要在假日時播放訊息，請選取 **[在假日期間播放訊息]** 核取方塊，然後執行下列其中一項，以指定要播放的訊息：
 
@@ -200,11 +200,11 @@ ms.locfileid: "51105779"
 
 29. 按一下 **[部署]**。
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>使用商務用 Skype Server 管理命令介面來建立或修改群組搜尋工作流程
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>使用商務用 Skype Server 管理命令介面建立或修改群組搜尋工作流程
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分登入，或是以支援回應群組之其中一個預先定義的系統管理角色的成員身分登入。
 
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
 
 3. 建立要對歡迎使用的訊息播放的提示，並將其儲存在變數中。 在命令列中執行：
 
@@ -244,7 +244,7 @@ ms.locfileid: "51105779"
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. 若要定義上班時間和假日，您必須在建立或修改工作流程之前加以建立。 如需詳細資訊，請參閱 [ (Optional) 在商務用 skype 中定義回應群組上班時間](optional-define-response-group-business-hours.md) 和 [ (選用) 在商務用 Skype 中定義回應群組假日集](optional-define-response-group-holiday-sets.md)。
+6. 若要定義上班時間和假日，您必須在建立或修改工作流程之前加以建立。 如需詳細資訊，請參閱[ (選用) 定義回應群組上班時間商務用 Skype](optional-define-response-group-business-hours.md)和[ (選用) 在商務用 Skype 中定義回應群組假日集](optional-define-response-group-holiday-sets.md)。
 
 7. 如果您想要在上班時間或假期內收到來電的提示，請使用 **New-CsRgsPrompt** Cmdlet 來定義提示，然後使用 **New-CsRgsCallAction** 來定義要在提示之後採取的動作。 如需詳細資訊，請參閱 [New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps) 和 [New-CsRgsCallAction](/powershell/module/skype/new-csrgscallaction?view=skype-ps)。
 
@@ -278,12 +278,12 @@ ms.locfileid: "51105779"
 
 ### <a name="overview-of-ivr-features"></a>IVR 功能的概覽
 
-回應群組應用程式可提供26種語言的語音辨識及文字到語音功能。 您可以使用文字語音轉換或 wave ( .wav) 或 Windows Media 音訊 ( wma) 檔案輸入 IVR 問題。 來電者可以使用語音或雙音訊式訊號 (DTMF) 回應來回應。
+回應群組應用程式可提供26種語言的語音辨識及文字到語音功能。 您可以使用文字語音轉換或波浪形 ( .wav) 或 Windows 媒體音訊 ( .wma) 檔案輸入 IVR 問題。 來電者可以使用語音或雙音訊式訊號 (DTMF) 回應來回應。
 
 互動工作流程最多支援兩層的問題，而每個問題最多會有四個可能的答案。 IVR 會詢問來電者一個問題，視來電者的回應而定，將來電者路由傳送到佇列或提出第二個問題。 第二個問題最多也有四個可能的答案。 根據來電者對第二層問題的答案，可將來電者路由傳送到適當的佇列。
 
 > [!NOTE]
-> 當您使用商務用 Skype Server 管理命令介面來設計通話流程時，您可以定義任何數目的 IVR 問題和任何數目的答案。 不過，對於來電者的可用性，我們建議您不要使用三個以上的問題，每個層次都不會有五個以上的答案。 此外，如果您設計的通話流程中有兩個以上的問題，每個層次都有四個以上的答案，您就無法使用商務用 Skype Server 控制台來編輯通話流程。
+> 當您使用商務用 Skype Server 管理命令介面設計通話流程時，您可以定義任何數目的 IVR 問題和任何數目的答案。 不過，對於來電者的可用性，我們建議您不要使用三個以上的問題，每個層次都不會有五個以上的答案。 此外，如果您設計的通話流程中有兩個以上的問題，每個層次都有四個以上的答案，您就無法使用商務用 Skype Server 控制台編輯通話流程。
 
 IVR 問題及來電者的回應會提供給接受通話的回應代理人。
 
@@ -373,7 +373,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分登入，或是以支援回應群組之其中一個預先定義的系統管理角色的成員身分登入。
 
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。
 
 3. 在左側導覽列中，按一下 **[回應群組]**，然後按一下 **[工作流程]**。
 
@@ -398,10 +398,10 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
 8. 若要允許同盟使用者撥打群組，請選取 **[針對同盟啟用]** 核取方塊。 您也必須具有適用于同盟設定之回應群組應用程式的外部存取原則。
 
     > [!NOTE]
-    > 全域外部存取原則會套用至回應群組應用程式。 您可以使用商務用 Skype Server 控制台或使用 **get-csexternalaccesspolicy** 指令程式將 EnableOutsideAccess 參數設定為 True，設定回應群組同盟的全域原則。 請記住，除非將站台原則或使用者原則指派給使用者，否則通用原則設定適用於所有使用者。 因此在變更回應群組的此設定之前，請確認同盟設定符合您組織的需求。 如需有關如何將原則套用至使用者的詳細資訊，請參閱 [管理組織的外部存取原則](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)。 如需同盟設定的詳細資訊，請參閱檔中 **的 get-csexternalaccesspolicy** 。
+    > 全域外部存取原則會套用至回應群組應用程式。 您可以使用商務用 Skype Server 控制台] 或使用 **get-csexternalaccesspolicy** 指令程式將 EnableOutsideAccess 參數設定為 True，設定回應群組同盟的全域原則。 請記住，除非將站台原則或使用者原則指派給使用者，否則通用原則設定適用於所有使用者。 因此在變更回應群組的此設定之前，請確認同盟設定符合您組織的需求。 如需有關如何將原則套用至使用者的詳細資訊，請參閱 [管理組織的外部存取原則](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization)。 如需同盟設定的詳細資訊，請參閱檔中 **的 get-csexternalaccesspolicy** 。
 
     > [!NOTE]
-    > 在商務用 Skype Online 中主控的使用者無法將呼叫放入內部部署中所主控的回應群組。 這在混合式部署中，以及內部部署與商務用 Skype Online 部署的同盟情況皆為 true。
+    > 在商務用 Skype Online 中主控的使用者無法將呼叫放入內部部署中所主控的回應群組。 這在混合式部署中，以及內部部署與商務用 Skype 線上部署的同盟情況皆為 true。
 
 9. 若要在通話期間隱藏代理人的身分識別，請選取 **[啟用代理人匿名]** 核取方塊。
 
@@ -419,7 +419,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
 
 13. 在 **[顯示號碼]** 中，輸入想要針對回應群組顯示的號碼 (例如，+1 (425) 555-0165)。
 
-14.  (選用) 在 [ **描述**] 中，輸入您想要在商務用 Skype 的連絡人卡片上顯示之工作流程的描述。
+14.  (選用) 在 [**描述**] 中，輸入您要顯示在商務用 Skype 中連絡人卡片上之工作流程的描述。
 
 15. 在 [ **工作流程類型**] 中，選取 [ **受** 回應群組管理員管理此工作流程]。 請執行下列動作，將回應群組管理員指派給工作流程：
 
@@ -454,7 +454,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
     - 若要使用預先定義的上班時間排程，請按一下 **[使用預設排程]**，然後從下拉式清單中選取想要使用的排程。
 
       > [!NOTE]
-      > 您至少先前必須已定義一個預設排程，才能選取此選項。 您可以使用 **CsRgsHoursOfBusiness 指令程式** 來定義預設排程。 如需詳細資訊，請參閱 [ (選用) 在商務用 Skype 中定義回應群組上班時間](optional-define-response-group-business-hours.md)。 當您選取預設排程時，**[日]**、**[開啟]** 及 **[關閉]** 會自動填入回應群組可用的日及時數。
+      > 您至少先前必須已定義一個預設排程，才能選取此選項。 您可以使用 **CsRgsHoursOfBusiness 指令程式** 來定義預設排程。 如需詳細資訊，請參閱[商務用 Skype 中的 (選用) 定義回應群組上班時間](optional-define-response-group-business-hours.md)。 當您選取預設排程時，**[日]**、**[開啟]** 及 **[關閉]** 會自動填入回應群組可用的日及時數。
 
     - 若要使用只套用至此工作流程的自訂排程，請按一下 **[使用自訂排程]**。
 
@@ -490,7 +490,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
 24. 在 **[步驟 5 指定您的假日]** 下，按一下可定義回應群組沒上班之天數的一或多個假日集的核取方塊。
 
     > [!NOTE]
-    > 您需要先定義假日及假日集，再設定工作流程。 使用 **New-CsRgsHoliday** 及 **New-CsRgsHolidaySet** Cmdlet，可定義假日及假日集。 如需詳細資訊，請參閱 [ (選用) 在商務用 Skype 中定義回應群組假日集](optional-define-response-group-holiday-sets.md)。
+    > 您需要先定義假日及假日集，再設定工作流程。 使用 **New-CsRgsHoliday** 及 **New-CsRgsHolidaySet** Cmdlet，可定義假日及假日集。 如需詳細資訊，請參閱[商務用 Skype 中的 (選用) 定義回應群組假日集](optional-define-response-group-holiday-sets.md)。
 
 25. 如果您想要在假日時播放訊息，請選取 **[在假日期間播放訊息]** 核取方塊，然後執行下列其中一項，以指定要播放的訊息：
 
@@ -533,7 +533,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
     > [!NOTE]
     > 文字轉語音引擎會將 "#" 符號轉譯為「號碼」一詞。 如果需要在提示中提及 # 鍵，則應該使用按鍵名稱，而非使用該符號。 例如，「與銷售人員交談，按井字鍵。」
 
-    - 若要使用包含問題的預錄音訊檔案，請按一下 **[選取錄音]**，然後按一下 **[一筆記錄]** 連結以上傳檔案。 在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取音訊檔案，然後按一下 **[開啟]**。 按一下 **[上傳** ] 以載入檔案，然後選擇性地在文字方塊中輸入問題 (此動作可讓您將問題及來電者的回應，轉送到回應的代理人) 。
+    - 若要使用包含問題的預錄音訊檔案，請按一下 **[選取錄音]**，然後按一下 **[一筆記錄]** 連結以上傳檔案。 在新的瀏覽器視窗中按一下 **[瀏覽]**，並選取音訊檔案，然後按一下 **[開啟]**。 按一下 [ **Upload** ] 以載入檔案，然後選擇性地在文字方塊中輸入問題 (這可讓您將問題及來電者的回應，轉送到回應的代理程式) 。
 
       > [!NOTE]
       > 所有使用者提供的音訊檔案都必須符合特定要求。 如需支援的檔案格式的詳細資訊，請參閱 [回應群組的技術需求](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)。
@@ -560,11 +560,11 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
 
 32. 按一下 **[部署]**。
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>使用商務用 Skype Server 管理命令介面來建立或修改互動式工作流程
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-an-interactive-workflow"></a>使用商務用 Skype Server 管理命令介面建立或修改互動式工作流程
 
 1.  以 RTCUniversalServerAdmins 群組成員的身分登入，或是以支援回應群組之其中一個預先定義的系統管理角色的成員身分登入。
 
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
 
 3. 取得回應群組服務的服務名稱，並將其指派給變數。 在命令列中執行：
 
@@ -572,69 +572,69 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
-4. 互動式工作流程需要兩個以上的佇列以及兩個以上的代理人群組。 首先，建立代理人群組。 執行：
+4. 互動式工作流程需要兩個以上的佇列以及兩個以上的代理人群組。 首先，建立代理人群組。 運行：
 
    ```powershell
    $AGSupport = New-CsRgsAgentGroup -Parent $serviceId -Name "Technical Support" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:agent1@contoso.com", "sip:agent2@contoso.com")]
    $AGSales = New-CsRgsAgentGroup -Parent $serviceId -Name "Sales Team" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:bob@contoso.com", "sip:alice@contoso.com")]
    ```
 
-5. 建立佇列。 執行：
+5. 建立佇列。 運行：
 
    ```powershell
    $QSupport = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Support" -AgentGroupIDList($AG-Support.Identity)
    $QSales = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Sales" -AgentGroupIDList($AG-Sales.Identity)
    ```
 
-6. 建立第一個回應群組提示。 執行：
+6. 建立第一個回應群組提示。 運行：
 
    ```powershell
    $SupportPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please be patient while we connect you with Contoso Technical Support."
    ```
 
-7. 然後建立在提示後要執行的動作。 執行：
+7. 然後建立在提示後要執行的動作。 運行：
 
    ```powershell
    $SupportAction = New-CsRgsCallAction -Prompt $SupportPrompt -Action TransferToQueue -QueueID $QSupport.Identity
    ```
 
-8. 建立第一個回應群組答案。 執行：
+8. 建立第一個回應群組答案。 運行：
 
    ```powershell
    $SupportAnswer = New-CsRgsAnswer -Action $SupportAction [-DtmfResponse 1]
    ```
 
-9. 現在，建立第二個提示、通話動作和答案。 請先建立提示。 執行：
+9. 現在，建立第二個提示、通話動作和答案。 請先建立提示。 運行：
 
    ```powershell
    $SalesPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please hold while we connect you with Contoso Sales."
    ```
 
-10. 建立第二個通話動作。 執行：
+10. 建立第二個通話動作。 運行：
 
     ```powershell
     $SalesAction = New-CsRgsCallAction -Prompt $SalesPrompt -Action TransferToQueue -QueueID $QSales.Identity
     ```
 
-11. 建立第二個回應群組答案。 執行：
+11. 建立第二個回應群組答案。 運行：
 
     ```powershell
     $SalesAnswer = New-CsRgsAnswer -Action $SalesAction [-DtmfResponse 2]
     ```
 
-12. 建立最高層級提示。 執行：
+12. 建立最高層級提示。 運行：
 
     ```powershell
     $TopLevelPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Thank you for calling Contoso. For Technical Support, press 1. For a Sales Representative, press 2."
     ```
 
-13. 建立最上層問題。 執行：
+13. 建立最上層問題。 運行：
 
     ```powershell
     $TopLevelQuestion = New-CsRgsQuestion -Prompt $TopLevelPrompt [-AnswerList ($SupportAnswer, $SalesAnswer)]
     ```
 
-14. 現在建立工作流程。 執行：
+14. 現在建立工作流程。 運行：
 
     ```powershell
     $IVRAction = New-CsRgsCallAction -Action TransferToQuestion [-Question $Question]
@@ -646,7 +646,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
 
 ## <a name="see-also"></a>另請參閱
 
-[ (選用) 在商務用 Skype 中定義回應群組假日集](optional-define-response-group-holiday-sets.md)
+[ (選用) 定義回應群組假日集商務用 Skype](optional-define-response-group-holiday-sets.md)
 
 [ (選用) 在商務用 Skype 中定義回應群組上班時間](optional-define-response-group-business-hours.md)
 

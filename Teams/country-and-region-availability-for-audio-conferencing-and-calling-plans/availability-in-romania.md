@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是羅馬尼亞的 商務用 Skype 和 Microsoft Teams 服務。
-ms.openlocfilehash: c094a08cd748adac8cd07b406cce3e43cf4ae17c
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: 4d9bfd3b0d6f5dc13b6922b12b4c005fd86130889b5c923ecf9955a12852fc01
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130172"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337531"
 ---
 # <a name="availability-in-romania"></a>羅馬尼亞的可用性
 
@@ -61,7 +61,7 @@ ms.locfileid: "52130172"
 |:-----|:-----|
 |可以購買通話方案嗎？  <br/> |是  <br/> |
 |通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li></ul>[Prezentare general Microsoft Teams的協助工具支援， accesibilitate Microsoft Teams - Asistență Office](https://support.microsoft.com/ro-ro/office/prezentare-general%C4%83-accesibilitate-a-microsoft-teams-2d4009e7-1300-4766-87e8-7a217496c3d5?ui=ro-RO&rs=ro-RO&ad=RO)<br>[MicrosoftOnlineServicesTerms ()  (羅馬尼亞文)  (2021 年 2 月) ](https://www.microsoft.com/licensing/terms/productoffering/AudioServices/EAEAS#GeneralServiceTerms)|
-|可以撥打付費號碼外接電話嗎？  <br/> | 目前不支援。 <br/> |
+|可以撥打付費號碼的外接電話嗎？  <br/> | 目前不支援。 <br/> |
 |可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼

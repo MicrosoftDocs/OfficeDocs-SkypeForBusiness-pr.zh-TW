@@ -1,5 +1,5 @@
 ---
-title: 讓使用者錄製會議名稱
+title: 允許使用者錄製會議名稱
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 瞭解如何啟用或停用使用者是否可在加入會議時錄製其Microsoft Teams。
-ms.openlocfilehash: 8b92e0d4a73cc18ceaf374f1a05102e51752c083
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 瞭解如何啟用或停用使用者加入會議時，是否可以在 Microsoft Teams。
+ms.openlocfilehash: 6be6dda125ed10df894d5040563e5316fc4cef06229a5043b66010576aba682b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092691"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337401"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>讓使用者在加入會議時記錄其Microsoft Teams
 

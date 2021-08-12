@@ -18,20 +18,20 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
-description: 使用商務用 Skype Server 混合式管理性嚮導，協助您設定環境，以與商務用 Skype Online 混合。
-ms.openlocfilehash: de92361474a81141a00fec3c2342d74fc36a3655
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 使用商務用 Skype Server 混合式管理性嚮導，協助您設定環境，以搭配商務用 Skype 線上的混合環境。
+ms.openlocfilehash: e77fbb172e947c7381d7655ac9253f768c9719614dafd5ddb4c0f766b0b2b3bb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302967"
 ---
 # <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>混合式嚮導：登入 Microsoft 365 或 Office 365
 
-使用商務用 Skype Server 混合式管理性嚮導，協助您設定環境，以與商務用 Skype Online 混合。
+使用商務用 Skype Server 混合式管理性嚮導，協助您設定環境，以搭配商務用 Skype 線上的混合環境。
 
 ## <a name="sign-in-to-microsoft-365-or-office-365"></a>登入 Microsoft 365 或 Office 365
 
-輸入您的 Microsoft 365 或 Office 365 組織的使用者名稱和密碼，以登入您的內部部署與您的 Microsoft 365 或 Office 365 組織。 當您註冊 Microsoft 365 或 Office 365 時（例如，admin@contoso.onmicrosoft.com），您必須使用為 name.onmicrosoft.com17 網域所建立的系統管理員帳戶。
+輸入 Microsoft 365 或 Office 365 組織的使用者名稱和密碼，以登入您的內部部署和 Microsoft 365 或 Office 365 組織。 當您註冊 Microsoft 365 或 Office 365 時（例如，admin@contoso.onmicrosoft.com），您必須使用為 name.onmicrosoft.com17 網域所建立的系統管理員帳戶。
 
 如需如何設定環境混合式環境的詳細資訊，請參閱 [混合式部署的概述](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-hybrid-deployments)。

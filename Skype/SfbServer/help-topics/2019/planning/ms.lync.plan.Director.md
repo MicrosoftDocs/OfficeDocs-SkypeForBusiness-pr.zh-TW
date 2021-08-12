@@ -15,17 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
-description: Director 是一部執行商務用 Skype 伺服器通訊軟體的伺服器，可驗證使用者要求，但不會家用任何使用者帳戶。
-ms.openlocfilehash: 0c76fb5290715bb394b4c84ffadad3a2e9dd74db
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: Director 是一部執行商務用 Skype Server 通訊軟體的伺服器，可驗證使用者要求，但不會家用任何使用者帳戶。
+ms.openlocfilehash: 6ab7231aabdfead417b61324cfffa2bc8cc621999515da8964be749f3c1f5574
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801093"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294700"
 ---
 # <a name="director-planning-tool"></a>Director (規劃工具) 
  
-Director 是一部執行商務用 Skype 伺服器通訊軟體的伺服器，可驗證使用者要求，但不會家用任何使用者帳戶。 
+Director 是一部執行商務用 Skype Server 通訊軟體的伺服器，可驗證使用者要求，但不會家用任何使用者帳戶。 
   
 這個角色是選用的，您可以選擇在下列兩個案例中部署 Director：
   

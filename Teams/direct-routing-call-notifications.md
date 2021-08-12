@@ -18,12 +18,12 @@ description: 直接路由通話通知
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 0320ebc6abfc0e3f3d720fbab03abc698b26849c
-ms.sourcegitcommit: 6cfaadec5782ca7316db36472bd0be20217da693
+ms.openlocfilehash: 0dea709f77cb971f8027bb848087f2da820f8007277abb227d2130da3e6a9058
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341803"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284194"
 ---
 # <a name="manage-call-notifications"></a>管理來電通知
 
@@ -45,7 +45,7 @@ ms.locfileid: "42341803"
 
 原因：SIP;cause=200;text"通話在其他地方完成」 
 
-請注意，通話不會在系統通話詳細Microsoft 電話記錄中註冊為成功的通話。 通話會以 「嘗試」註冊為「嘗試」，包含 「487」、「540200」的最終 Microsoft 子代碼，以及「在其他地方完成通話」的最後 SIP 程式碼片語。   (若要查看通話詳細資料記錄，請前往 [Teams 系統管理入口網站、分析與報告、使用方式報告，然後選取 [PSTN 使用方式) 
+請注意，系統不會將通話詳細Microsoft 電話記錄中註冊為成功的通話。 通話會以 「嘗試」註冊為「嘗試」，包含 「487」、「540200」的最終 Microsoft 子代碼，以及「在其他地方完成通話」的最後 SIP 程式碼片語。   (若要查看通話詳細資料記錄，請前往 [Teams 系統管理入口網站、分析與報告、使用方式報告，然後選取 [PSTN 使用方式) 
 
 
 下圖說明 Fork 1 的 SIP 梯級，說明通話流程，以及取消訊息中的預期原因。 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
 ROBOTS: NOINDEX, NOFOLLOW
 description: 基底 URL 是 URL 的 Web 服務識別身分，去除 https://。 例如，如果集區的 Web 服務完整 URL 為 https://pool01.contoso.net ，則基本 url 為 pool01.contoso.net。
-ms.openlocfilehash: 481fe9d0a63af723346f7fac5f04e8a9b9bb7edd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5b96d6a6cfde753a06a6ef321b33c4d27515172b4c940058751da9c94ad7fbe8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807743"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294680"
 ---
 # <a name="add-director-web-service"></a>新增 Director Web 服務
  

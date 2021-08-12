@@ -14,20 +14,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: 商務用 Skype Server 2015 拓撲變更或布建，以允許使用者成功執行壓力和效能工具。
-ms.openlocfilehash: 8d422497d11c9e56e4d5b205269a09f96dffc136
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 750a53882344d4a1df357b049fbd1dcbf01c3368fb903552bc5f398761cce66a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814933"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328108"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>在壓力和效能案例中布建拓撲以執行負載
  
 商務用 Skype Server 2015 拓撲變更或布建，以允許使用者成功執行壓力和效能工具。
   
-根據您現有的商務用 Skype Server 2015 部署設定和設定，您可能需要在環境中進行一些變更。 以下是這些變更的清單：
+根據您部署商務用 Skype Server 2015 的現有設定和設定，您可能需要在環境中進行一些變更。 以下是這些變更的清單：
   
-1. 設定 Windows PowerShell 執行原則為無限制。 如果您不確定目前的設定，您可以開啟商務用 Skype Server 管理命令介面，並執行下列命令：
+1. 將 Windows PowerShell 執行原則設定為無限制。 如果您不確定目前所設定的設定，您可以開啟商務用 Skype Server 管理命令介面，並執行下列命令：
     
    ```PowerShell
    Get-ExecutionPolicy
@@ -41,7 +41,7 @@ ms.locfileid: "49814933"
 
 2. 若要有效地設定商務用 Skype Server，您必須：
     
-    - 熟悉商務用 Skype Server 2015 拓撲 (例如電腦名稱稱、服務實例、網站名稱和原則) 。
+    - 熟悉商務用 Skype Server 2015 拓撲 (如電腦名稱稱、服務實例、網站名稱和原則) 。
     
     - 將一些建立的使用者指派給群組，例如回應群組搜尋群組 (例如，SIP URIs) 。
     

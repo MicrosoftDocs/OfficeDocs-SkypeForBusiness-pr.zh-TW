@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 摘要：在規劃商務用 Skype Server 時，複查行動用戶端的功能支援。
-ms.openlocfilehash: cdd6e5d5afc95fe6488ee89ed96739963b5f5ac0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 790bcb217e90b4b24422a3f2b76ebb6f8915cc0f8c25eb302d2fb2193d8d299a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825993"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293980"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>商務用 Skype 的行動用戶端功能比較
  
 **摘要：** 在規劃商務用 Skype Server 時，請複查行動用戶端的功能支援。
   
-本文將比較商務用 Skype mobile 用戶端和商務用 Skype 桌面用戶端之間的功能和功能，其種類如下：
+本文將商務用 Skype 行動用戶端與商務用 Skype 桌面用戶端之間的功能與功能進行比較，以下列類別：
   
 - 登入、推播通知及一般功能
     
@@ -38,7 +38,7 @@ ms.locfileid: "49825993"
     
 - 立即訊息 (IM) 
     
-- 商務用 skype 的商務用 skype 音訊和影片
+- 商務用 Skype 商務用 Skype 音訊和影片
     
 - 會議
     
@@ -50,36 +50,36 @@ ms.locfileid: "49825993"
     
 -  新式驗證
     
-下表列出商務用 Skype 伺服器的內部部署中，商務用 Skype 使用者可以使用的功能。 除非表格註腳中另有指出，否則您也可以使用商務用 Skype Online 和 Microsoft 365 或 Office 365 使用者的相同功能。
+下表列出商務用 Skype 商務用 Skype Server 中內部部署的使用者可用的功能。 商務用 Skype 線上及 Microsoft 365 或 Office 365 使用者也可以使用相同的功能，除非表格註腳中另有指示。
   
 > [!NOTE]
-> 如需使用者的線上說明和資源，請參閱 [探索商務用 Skype](https://go.microsoft.com/fwlink/p/?LinkId=528686)。 
+> 如需使用者的線上說明和資源，請參閱[探索商務用 Skype](https://go.microsoft.com/fwlink/p/?LinkId=528686)。 
   
 > [!NOTE]
-> 若要比較其他商務用 Skype 用戶端中可用的功能，請參閱 [商務用 skype 的桌面用戶端功能比較](desktop-feature-comparison.md)。 
+> 若要比較其他商務用 Skype 用戶端中可用的功能，請參閱[商務用 Skype 的桌面用戶端功能比較](desktop-feature-comparison.md)。 
 
 > [!NOTE]
-> MCX (行動服務) 支援舊版行動用戶端，商務用 Skype Server 2019 不再提供支援。 所有目前的商務用 Skype mobile 用戶端都已經使用整合通訊網頁 API (UCWA) 以支援立即訊息 (IM) 、目前狀態及連絡人。 具有使用 MCX 之舊版用戶端的使用者，必須升級至目前的用戶端。
+> 商務用 Skype Server 2019 不再提供舊版行動用戶端的 MCX (行動服務) 支援。 所有目前商務用 Skype 的行動裝置都已經使用整合通訊 Web API (UCWA) 以支援立即訊息 (IM) 、目前狀態及連絡人。 具有使用 MCX 之舊版用戶端的使用者，必須升級至目前的用戶端。
   
 ## <a name="sign-in-push-notifications-and-general-features"></a>登入、推播通知及一般功能
 
  
  | 功能/功能  | 商務用 Skype 桌面用戶端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|商務用 Skype 會話仍保持登入狀態  <br/> |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|
+|商務用 Skype 會話仍保持簽入狀態  <br/> |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|
 |對推播通知的支援  <br/> |&#x2714; &#x2778; |&#x2714;|&#x2714; &#x2779; |&#x2714; &#x2779; |
 |多個使用者的帳戶資訊可在相同裝置上快取  <br/> |&#x2714;||||
 |螢幕閱讀器/語音 over  <br/> |&#x2714;|僅 &#x2714; &#x2777;           英文  <br/> |&#x2714;|&#x2714;|
 |使用外部鍵盤進行協助工具  <br/> |&#x2714;||&#x2714;|&#x2714;|
 |Microsoft 客戶經驗改進計畫支援  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
- 在 Windows Phone 上 &#x2776;，商務用 Skype 會在一段時間內自動登出，如下所示：
+ &#x2776; 在 Windows Phone 上，商務用 Skype 會在非使用中的一段時間後自動登出，如下所示：
   
-- 如果使用者已啟用推播通知，商務用 Skype 會在空閒10天之後登出。
+- 如果使用者已啟用推播通知，商務用 Skype 會在空閒10天后簽出。
     
-- 如果使用者未啟用推播通知，當使用者離開應用程式時，商務用 Skype 即會登出。
+- 如果使用者未啟用推播通知，商務用 Skype 會在使用者離開應用程式時立即登出。
     
-在 iOS 裝置上，商務用 Skype 會在行動用戶端未連接至伺服器10天后自動登出，因為網路連線或其他問題中斷。
+在 iOS 裝置上，商務用 Skype 在行動用戶端因網路連線中斷或其他問題而未連接至伺服器10天后，就會自動登出。
   
  &#x2777; 僅限應用程式。
   
@@ -87,8 +87,8 @@ ms.locfileid: "49825993"
  
  &#x2779; Google/Android/GCNS 和 Apple/APNS 行動通知服務使用 HTTPS/TLS 加密來傳遞通知。 通知提供者會以純文字處理通知的負載。
  
--   適用于 Android 的商務用 Skype 會透過 GCNS) 傳送簡單的 (通知，而不需客戶資料。
--   IOS 的商務用 Skype 會透過 APNS) （可能包含通話或訊息的客戶資料） (傳遞的通知。
+-   Android 版商務用 Skype 會接收透過 GCNS) （沒有客戶資料） (所傳遞的簡單通知。
+-   商務用 Skype 用於 iOS 接收透過 APNS)  (傳遞的通知，其中可能包含通話或訊息的客戶資料。
  
   
 ## <a name="enhanced-presence-support"></a>增強型顯示支援
@@ -98,7 +98,7 @@ ms.locfileid: "49825993"
 |:-----|:-----|:-----|:-----|:-----|
 |發佈和查看狀態  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |根據行事曆空閒/忙碌資訊來查看狀態  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|查看狀態記事和不在辦公室的郵件  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|查看狀態記事及 Office 郵件的  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |新增自訂位置  <br/> |&#x2714;||||
 |新增自訂附注  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |以行事曆空閒/忙碌資訊為基礎的發行狀態  <br/> |&#x2714; &#x2776; ||||
@@ -125,7 +125,7 @@ ms.locfileid: "49825993"
 |顯示或隱藏連絡人相片  <br/> |&#x2714;|&#x2714;|||
 |將連絡人固定至您的主畫面  <br/> ||&#x2714;|||
    
- &#x2776; 商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者無法使用。
+ &#x2776; 商務用 Skype 線上和/或 Microsoft 365 或 Office 365 使用者無法使用。
   
 ## <a name="instant-messaging-support"></a>立即訊息支援
 
@@ -145,13 +145,13 @@ ms.locfileid: "49825993"
    
  &#x2776; 此裝置 vibrates 每次收到 im 時，即使 IM 交談中的目前郵件會顯示
   
-## <a name="skype-for-business-to-skype-for-business-audio-and-video"></a>商務用 skype 的商務用 skype 音訊和影片
+## <a name="skype-for-business-to-skype-for-business-audio-and-video"></a>商務用 Skype 商務用 Skype 音訊和影片
 
 
  | 功能/功能  | 商務用 Skype 桌面用戶端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
-|商務用 skype for business voice  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|商務用 skype 影片的商務用 skype 影片  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|商務用 Skype 對商務用 Skype 語音  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|商務用 Skype 對商務用 Skype 影片  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
    
 > [!NOTE]
 > 移動裝置上的影片預設需要 WiFi 連線。 
@@ -174,14 +174,14 @@ ms.locfileid: "49825993"
 |共用桌面或程式  <br/> |&#x2714;||||
 |View shared desktop 或 program (VbSS 或 RDP)   <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
 |View shared PowerPoint files  <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777;&#x2778; |&#x2714; &#x2777; &#x2778;|
-|上傳及呈現 PowerPoint 檔案  <br/> |&#x2714;||&#x2714; &#x2777; |&#x2714; &#x2777; |
+|Upload 及呈現 PowerPoint 檔案  <br/> |&#x2714;||&#x2714; &#x2777; |&#x2714; &#x2777; |
 |使用會議工具 (使用白板、執行投票、共用檔)   <br/> |&#x2714;||||
 |流覽您的會議清單  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|即使您沒有商務用 Skype 帳戶也可加入會議  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
+|加入會議，即使您沒有商務用 Skype 帳戶  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |查看有關會議參與者的詳細資訊  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |從您的用戶端或裝置直接啟動與多個參與者的非定時群組交談  <br/> |&#x2714;|&#x2714;|&#x2714;||
    
- 針對 Microsoft 365 或 Office 365 使用者的 &#x2776;，此功能需要 Enterprise Voice，也就是 E5 授權的一部分。
+ &#x2776; 針對 Microsoft 365 或 Office 365 的使用者，此功能需要企業語音，也就是 E5 授權的一部分。
   
  &#x2777; 預設需要 WiFi 連接。
  
@@ -204,11 +204,11 @@ ms.locfileid: "49825993"
 |處理另一個連絡人的來電（若設定為代理人）  <br/> |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714; &#x2776; |
 |使用從公司通話  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
 |存取語音信箱  <br/> |&#x2714;|&#x2714;|&#x2714;||
-|在商務用 Skype 中使用小數位  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
+|使用商務用 Skype 中的小數位  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
    
- &#x2776; 可用於商務用 Skype Online 和/或 Office 365 E5 使用者，以及位於啟用 Enterprise Voice 之商務用 Skype Server 或 Lync Server 2013 的使用者。
+ &#x2776; 可用於商務用 Skype 線上和/或 Office 365 E5 使用者，以及位於商務用 Skype Server 或 Lync Server 2013 的使用者啟用企業語音。
   
- &#x2777; 商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者，這項功能是 Microsoft 合作夥伴所支援。
+ &#x2777; 針對商務用 Skype 線上和/或 Microsoft 365 或 Office 365 的使用者，這項功能是 Microsoft 合作夥伴所支援。
   
  僅 &#x2778; Windows 桌面用戶端。
   
@@ -231,7 +231,7 @@ ms.locfileid: "49825993"
  | 功能/功能  | 商務用 Skype 桌面用戶端  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |呼叫裝置通訊錄連絡人  <br/> ||&#x2714;|&#x2714;|&#x2714;|
-|將商務用 Skype 呼叫直接從裝置通訊錄傳送給連絡人  <br/> ||||&#x2714;|
+|直接從裝置通訊錄撥打對連絡人的商務用 Skype  <br/> ||||&#x2714;|
    
 ## <a name="archiving-and-compliance-support"></a>封存和規範支援
 
@@ -241,13 +241,13 @@ ms.locfileid: "49825993"
 |提供用戶端封存  <br/> |&#x2714;||||
 |提供用戶端錄製  <br/> |&#x2714; &#x2776; ||||
    
- &#x2776; 商務用 Skype Online 和/或 Microsoft 365 或 Office 365 使用者無法使用。
+ &#x2776; 商務用 Skype 線上和/或 Microsoft 365 或 Office 365 使用者無法使用。
   
 ## <a name="modern-authentication"></a>新式驗證
 
 此表格涵蓋需要新式驗證支援的功能。
   
-新式驗證也需要 [與新式驗證支援之商務用 Skype 拓撲](../../plan-your-deployment/modern-authentication/topologies-supported.md)中所述的拓撲。
+新式驗證也需要商務用 Skype 拓撲中所述的拓撲，也就是[新式驗證所支援](../../plan-your-deployment/modern-authentication/topologies-supported.md)的拓撲。
   
 
  | 功能/功能  | 商務用 Skype 桌面用戶端  | Windows Phone  | iOS  | Android |

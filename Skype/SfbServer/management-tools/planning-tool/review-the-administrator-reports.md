@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 2015 中複查管理員報告
+title: 在商務用 Skype Server 2015 中查看系統管理員報告
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: 系統管理員報告包含部署和作業的詳細資訊。 會根據設計網站中標示的選取專案產生報告。 設計師可以編輯網路圖，以及定義伺服器、集區和負載平衡器的完整 IP 位址和完整網域名稱 (FQDN)，提升系統管理員報告的價值。
-ms.openlocfilehash: dbef33351e7032e769e1d5ee68c5f0d582317eb6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c74237f5d92d54a1a421ede7707565bba59582141e00d1a944a88c2e8c096c88
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104319"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293970"
 ---
-# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中複查管理員報告
+# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中查看系統管理員報告
 
 系統管理員報告包含部署和作業的詳細資訊。 會根據 **設計網站** 中標示的選取專案產生報告。 設計師可以編輯網路圖，以及定義伺服器、集區和負載平衡器的完整 IP 位址和完整網域名稱 (FQDN)，提升系統管理員報告的價值。
 
@@ -38,7 +38,7 @@ ms.locfileid: "51104319"
 ## <a name="review-the-summary-report"></a>審閱摘要報告
 <a name="Summary_report"> </a>
 
-商務用 Skype 系統管理員報告是四個重要報告中的第一個，以詳細記錄您的設計。 在此報告中的資訊，以及其他三個相關聯的報告，對您的資訊技術小組非常有用：
+商務用 Skype 管理員報告是四個重要報告中的第一個，可將您的設計詳細記錄。 在此報告中的資訊，以及其他三個相關聯的報告，對您的資訊技術 Teams 非常有用：
 
 ![一般摘要管理員報告](../../media/General_Summary_Report_Admin_Report.png)
 
@@ -70,7 +70,7 @@ ms.locfileid: "51104319"
 ## <a name="review-the-firewall-report"></a>複查防火牆報告
 <a name="Firewall_report"> </a>
 
-商務用 Skype Server 2015 有一組可能很複雜的防火牆規則。 規劃工具會根據設計人員的輸入準則，產生定義以詳細說明所有防火牆需求的報告，以降低這項複雜性。 IT 防火牆管理員可以運用這項報告，設定與定義必要的規則。
+商務用 Skype Server 2015 有可能的一組可能很複雜的防火牆規則。 規劃工具會根據設計人員的輸入準則，產生定義以詳細說明所有防火牆需求的報告，以降低這項複雜性。 IT 防火牆管理員可以運用這項報告，設定與定義必要的規則。
 
 從防火牆管理的觀點來看，應仔細檢查報告，確定沒有任何與現有防火牆規則的衝突，而且沒有任何可能違反的原則或程式。
 

@@ -1,5 +1,5 @@
 ---
-title: 透過商務用 Skype Server 中的工作部署通話
+title: 從商務用 Skype Server 中的工作部署通話
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -14,35 +14,35 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: 摘要：瞭解如何在部分或所有使用者的商務用 Skype Server 中部署呼叫。
-ms.openlocfilehash: 41a0ae8462b12cabf735a2501e5b22eac64abe42
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解如何在部分或所有使用者的商務用 Skype Server 中，部署通話的功能。
+ms.openlocfilehash: ce4c49a1ba8766dbec6efbfe2b04ea91702eadf40c91cb6108f027765609cac4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825003"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303157"
 ---
-# <a name="deploy-call-via-work-in-skype-for-business-server"></a>透過商務用 Skype Server 中的工作部署通話
+# <a name="deploy-call-via-work-in-skype-for-business-server"></a>從商務用 Skype Server 中的工作部署通話
  
-**摘要：** 瞭解如何在部分或所有使用者的商務用 Skype Server 中，部署通話的功能。
+**摘要：** 瞭解如何在商務用 Skype Server 中為部分或所有使用者部署通話的功能。
   
-使用下列步驟，為您的使用者部署「透過運作」的呼叫。 規劃透過 [商務用 Skype Server 中的工作進行通話](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)的規劃考慮。 在舊版的 Lync Server 遠端呼叫控制中，有一個功能可讓使用者透過 Lync Server 控制其 PBX 電話。 在商務用 Skype Server 中，此功能已由「透過公司來電」取代。 
+使用下列步驟，為您的使用者部署「透過運作」的呼叫。 規劃[從商務用 Skype Server 中的工作進行通話](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)時，會討論規劃的考慮。 在舊版的 Lync Server 遠端呼叫控制中，有一個功能可讓使用者透過 Lync Server 控制其 PBX 電話。 在商務用 Skype Server 中，此功能已由「透過運作」的呼叫取代。 
   
 ## <a name="prerequisites-for-call-via-work"></a>從公司通話的必要條件
 
-「透過公司通話」使用整合通訊網頁 API (UCWA) ，它會自動安裝在所有商務用 Skype Server 前端伺服器上。 若要讓使用者能夠透過公司通話，您也必須具備下列必要條件： 
+「透過公司通話」使用整合通訊 Web API (UCWA) ，它會自動安裝在所有商務用 Skype Server 前端伺服器上。 若要讓使用者能夠透過公司通話，您也必須具備下列必要條件： 
   
 - 您必須已部署轉送伺服器，既可以作為前端伺服器的一部分，也可以是獨立的角色。 您也必須部署 IP-PBX 閘道。
     
 - 所有可透過工作進行呼叫的使用者，都必須在 PBX 電話系統上) 直接向內撥號 (。 
     
-- 您必須啟用透過企業語音之工作使用者的所有呼叫。 當您執行此動作時，您必須將每位使用者的商務用 Skype 的號碼，設定為對應之 PBX 電話系統的對應號碼。 
+- 您必須啟用企業語音的所有使用者呼叫。 當您執行此動作時，您必須將每位使用者的商務用 Skype 的號碼，設定為對應之 PBX 電話系統的對應號碼。 
     
-- 所有將使用「從公司撥號」的使用者，都必須在其 [商務用 Skype] 用戶端的 [ **Advanced Connections** ] 選項中，選取 [**自動** 設定]。 這可讓用戶端探索 UCWA URLs。 [**自動** 設定] 是預設的選取範圍。
+- 所有將使用「從公司撥號」的使用者，都必須在其商務用 Skype 用戶端的 [ **Advanced Connections** ] 選項中選取 **自動** 設定。 這可讓用戶端探索 UCWA URLs。 [**自動** 設定] 是預設的選取範圍。
     
 - 針對每位使用者的通話，啟用來電轉接和同時響鈴。 
     
-- 針對透過工作使用者的每一個呼叫，請確定已啟用電話撥入式會議和會議撥出功能。 這可讓這些使用者進入及離開商務用 Skype 會議。
+- 針對透過工作使用者的每一個呼叫，請確定已啟用電話撥入式會議和會議撥出功能。 這可讓這些使用者進入和商務用 Skype 會議。
     
 - 確定已透過工作使用者的每一個呼叫停用委派、小組通話及回應群組。
     
@@ -50,7 +50,7 @@ ms.locfileid: "49825003"
 
 準備好必要條件後，請執行下列動作：
   
-- 為您的部署建立全域電話號碼，商務用 Skype 會顯示在透過通話通話之使用者的 PBX 來電者 ID 上。 
+- 為您的部署建立全域電話號碼，商務用 Skype 會在 PBX 來電者 ID 上顯示，以供透過通話通話的使用者使用。 
     
 - 透過工作原則建立一或多個通話
     
@@ -100,5 +100,5 @@ ms.locfileid: "49825003"
 
 ## <a name="see-also"></a>另請參閱
 
-[透過商務用 Skype Server 中的工作規劃通話](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[規劃商務用 Skype Server 中的工作通話](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

@@ -1,5 +1,5 @@
 ---
-title: 設定商務用 Skype Server 中的電話撥入式會議
+title: 在商務用 Skype Server 中設定電話撥入式會議
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 中設定電話撥入式會議。
-ms.openlocfilehash: 5f618e22cc45585baddf1e8d6090b9e211dc5681
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5e6540b926d3b632fdff21f8fb645667068ca2e362260131dcd2b6379d5ef0b4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103849"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303127"
 ---
-# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>設定商務用 Skype Server 中的電話撥入式會議
+# <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>在商務用 Skype Server 中設定電話撥入式會議
  
 **摘要：** 閱讀此主題以瞭解如何在商務用 Skype Server 中設定電話撥入式會議。
   
-在您建立包含會議工作負載的拓撲，以及所選的電話撥入式會議之後，您必須執行額外的步驟來設定電話撥入式會議。 在閱讀本主題之前，請確定您已在商務用 skype server 中的 [電話撥入式會議](../../plan-your-deployment/conferencing/dial-in-conferencing.md)、 [硬體和軟體需求](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)，以及 [電話撥入式會議的部署流程圖及檢查清單](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)中，進行了閱讀計畫。 
+在您建立包含會議工作負載的拓撲，以及所選的電話撥入式會議之後，您必須執行額外的步驟來設定電話撥入式會議。 在閱讀本主題之前，請確定您已在[商務用 Skype Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)商務用 Skype Server 中取得[電話撥入式會議的對應計畫](../../plan-your-deployment/conferencing/dial-in-conferencing.md)，以及[電話撥入式會議的部署流程圖及檢查清單](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)。 
   
 若要設定電話撥入式會議，您必須執行下列工作：
   
@@ -37,7 +37,7 @@ ms.locfileid: "51103849"
     
 - [將行 URI 指派給使用者帳戶](dial-in-conferencing.md#BKMK_AssignaLineURI)
     
-此外，您也可以執行下列選擇性工作。 如需這些選用任務的詳細資訊，請參閱 [在商務用 Skype Server 中管理電話撥入式會議](../../manage/conferencing/dial-in-conferencing.md)。
+此外，您也可以執行下列選擇性工作。 如需這些選用任務的詳細資訊，請參閱[在商務用 Skype Server 中管理電話撥入式會議](../../manage/conferencing/dial-in-conferencing.md)。
   
 - 管理電話撥入式會議的 PIN 原則
     
@@ -60,13 +60,13 @@ ms.locfileid: "51103849"
   
 若要設定電話撥入式會議的撥號對應表：
   
-- 不論您是部署企業語音，請修改全域撥號對應表，以加入電話撥入式會議區域，並確定正規化規則正確地轉換您的撥入存取號碼。 如需詳細指示，請參閱 [在商務用 Skype Server 中建立或修改撥號對應](../../deploy/deploy-enterprise-voice/dial-plans.md)表。
+- 不論是否要部署企業語音，請修改全域撥號對應表以加入電話撥入式會議區域，並確定正規化規則正確地轉換您的撥入存取號碼。 如需詳細指示，請參閱[在商務用 Skype Server 中建立或修改撥號](../../deploy/deploy-enterprise-voice/dial-plans.md)對應表。
     
-- 如果您未部署企業語音，請建立電話撥入式會議存取號碼的撥號對應表。 請務必加入電話撥入式會議區域。 如需詳細指示，請參閱 [在商務用 Skype Server 中建立或修改撥號對應](../../deploy/deploy-enterprise-voice/dial-plans.md)表。
+- 如果您未部署企業語音，請建立電話撥入式會議存取號碼的撥號對應表。 請務必加入電話撥入式會議區域。 如需詳細指示，請參閱[在商務用 Skype Server 中建立或修改撥號](../../deploy/deploy-enterprise-voice/dial-plans.md)對應表。
     
-- 如果您部署了企業語音，請視需要修改 Enterprise Voice 撥號對應表，以包含地區，並使用適當的正規化規則來撥打撥入存取號碼。 您也可以建立專用的撥號對應表，只用于撥入存取號碼。 如需詳細指示，請參閱 [在商務用 Skype Server 中建立或修改撥號對應](../../deploy/deploy-enterprise-voice/dial-plans.md)表。
+- 如果您已部署企業語音，請視需要修改企業語音撥號對應表，以包含區域，並使用適當的正常化規則來撥打撥入存取號碼。 您也可以建立專用的撥號對應表，只用于撥入存取號碼。 如需詳細指示，請參閱[在商務用 Skype Server 中建立或修改撥號](../../deploy/deploy-enterprise-voice/dial-plans.md)對應表。
     
-如需建立正規化規則的詳細資訊，請參閱 [在商務用 Skype 中建立或修改正規化規則](../../deploy/deploy-enterprise-voice/normalization-rules.md)。
+如需建立正規化規則的詳細資訊，請參閱[在商務用 Skype 中建立或修改正規化規則](../../deploy/deploy-enterprise-voice/normalization-rules.md)。
   
 ## <a name="configure-dial-in-conferencing-regions"></a>設定電話撥入式會議區域
 <a name="BKMK_ConfigureDialInRegions"> </a>
@@ -75,13 +75,13 @@ ms.locfileid: "51103849"
   
 由於為所有的撥號對應表指定區域很重要，因此建議您確認所有的撥號對應表都有會議地區。 
   
-若要確認是否已設定所有電話撥入式會議撥號對應表的區域，請使用 **Get-CsDialPlan** Cmdlet。 如果撥號對應表缺少區域，您可以使用 **Set-CsDialPlan** Cmdlet 來設定區域。 您也可以使用商務用 Skype Server 控制台更新現有撥號對應表中的區域。 如需使用商務用 Skype Server 控制台的詳細資訊，請參閱 [在商務用 Skype server 中建立或修改撥號對應](../../deploy/deploy-enterprise-voice/dial-plans.md)表。
+若要確認是否已設定所有電話撥入式會議撥號對應表的區域，請使用 **Get-CsDialPlan** Cmdlet。 如果撥號對應表缺少區域，您可以使用 **Set-CsDialPlan** Cmdlet 來設定區域。 您也可以使用商務用 Skype Server 控制台更新現有撥號對應表中的區域。 如需使用商務用 Skype Server 控制台的詳細資訊，請參閱[在商務用 Skype Server 中建立或修改撥號](../../deploy/deploy-enterprise-voice/dial-plans.md)對應表。
   
 ### <a name="to-verify-whether-dial-plans-have-the-region-property-set"></a>若要確認撥號對應表是否已設定區域屬性
 
 1. 以 RTCUniversalServerAdmins 群組成員或 **Cs-VoiceAdministrator**、**Cs-ServerAdministrator**、**CsAdministrator** 角色成員的身分登入電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 在命令提示字元中執行下列命令：
     
@@ -105,7 +105,7 @@ ms.locfileid: "51103849"
 
 1. 以 RTCUniversalServerAdmins 群組成員或 **Cs-VoiceAdministrator**、**Cs-ServerAdministrator**、**CsAdministrator** 角色成員的身分登入電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 針對任何缺少電話撥入式會議區域的撥號對應表，執行：
     
@@ -126,9 +126,9 @@ ms.locfileid: "51103849"
 ## <a name="configure-dial-in-access-numbers"></a>設定撥入存取號碼
 <a name="BKMK_ConfigureDialInAccessNumbers"> </a>
 
-當您部署電話撥入式會議時，您必須設定使用者可以從公用交換電話網路 (PSTN) 撥打的電話號碼，以加入會議的音訊部分。 這些撥入存取號碼會顯示在會議邀請和電話撥入式會議設定網頁上。
+當您部署電話撥入式會議時，您必須設定使用者可以從公用交換電話網路 (PSTN) 撥打的電話號碼，以加入會議的音訊部分。 這些撥入存取號碼會顯示在會議邀請中和電話撥入式會議設定網頁上。
   
-在您可以建立撥入存取號碼之前，您必須先規劃撥入式會議區域，然後使用地區設定撥號對應表。 如需地區的詳細資訊，請參閱 [在商務用 Skype Server 中規劃撥入式會議](../../plan-your-deployment/conferencing/dial-in-conferencing.md)。 如需設定電話撥入式會議的撥號對應表的詳細資訊，請參閱 [在商務用 Skype Server 中建立或修改撥號對應](../../deploy/deploy-enterprise-voice/dial-plans.md)表。
+在您可以建立撥入存取號碼之前，您必須先規劃撥入式會議區域，然後使用地區設定撥號對應表。 如需地區的詳細資訊，請參閱[商務用 Skype Server 中的計畫撥入式會議](../../plan-your-deployment/conferencing/dial-in-conferencing.md)。 如需設定電話撥入式會議的撥號對應表的詳細資訊，請參閱[在商務用 Skype Server 中建立或修改撥號](../../deploy/deploy-enterprise-voice/dial-plans.md)對應表。
   
 > [!NOTE]
 > 您無法使用新的撥入存取號碼，除非 Active Directory 網域服務 (AD DS) 該存取號碼的複寫已完成。 複寫可能需要數小時才能完成。 
@@ -140,7 +140,7 @@ ms.locfileid: "51103849"
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 開啟商務用 Skype Server 控制台。
+2. 開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 **[會議]**，然後按一下 **[撥入存取號碼]**。
     
@@ -155,7 +155,7 @@ ms.locfileid: "51103849"
   
 5. 在 [ **顯示號碼**] 中，輸入公用交換電話網路 (PSTN) 電話使用者撥號以加入會議的電話號碼。 此號碼會顯示在會議邀請中和電話撥入式會議設定網頁上。
     
-6. 在 [ **顯示名稱**] 中，輸入撥入存取號碼的描述。 這是商務用 Skype 搜尋結果中與撥入存取號碼相關聯的名稱。 當使用者呼叫存取號碼時，此名稱會顯示在用戶端中。 
+6. 在 [ **顯示名稱**] 中，輸入撥入存取號碼的描述。 這是與商務用 Skype 搜尋結果中的撥入存取號碼相關聯的名稱。 當使用者呼叫存取號碼時，此名稱會顯示在用戶端中。 
     
 7. 在 [ **行 uri**] 中，輸入電話 uri 格式的撥入存取號碼的 e.164 號碼，包含號碼前面的 + 符號，並排除空格。 例如電話： + 14255550200。
     
@@ -169,16 +169,16 @@ ms.locfileid: "51103849"
      > [!NOTE]
      > 其他電話撥入式會議存取號碼無法重複使用相同的 SIP URI。 建立存取號碼之後，便無法修改 SIP URI。 變更 SIP URI 的唯一方法是刪除並重新建立存取號碼。 
   
-   - 在下拉式清單方塊中，按一下支援此撥入存取號碼之會議應答應用程式的網域。
+   - 在下拉式清單方塊中，按一下支援此撥入存取號碼之會議語音應答應用程式的網域。
     
-9. 在 [ **集** 區] 中，按一下執行支援此撥入存取號碼之會議助理實例的集區。
+9. 在 [**集** 區] 中，按一下執行支援此撥入存取號碼之會議語音應答實例的集區。
     
     > [!NOTE]
     > 如果您在建立存取號碼之後需要變更集區，則必須使用 [Move-CsApplicationEndpoint](/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) Cmdlet，或刪除並重新建立存取號碼。
   
 10. 在 [ **主要語言**] 中，按一下為此撥入存取號碼播放提示時所使用的語言。 
     
-    主要語言是會議助理用來接聽通話的語言。 在 [電話撥入式會議設定] 網頁上的每一個存取電話號碼旁會顯示支援的語言。
+    主要語言是會議語音應答用來接聽通話的語言。 支援的語言會顯示在電話撥入式會議設定網頁上的每個存取電話號碼旁邊。
     
 11.  (選用) 在 **次要語言中 (最多四個)**，請按一下 [ **新增**]，選取您要支援的來電者撥打此撥入存取號碼的一或多個其他語言，然後按一下 **[確定]**。 
     
@@ -195,28 +195,28 @@ ms.locfileid: "51103849"
 
 會議原則是一種使用者帳戶設定，可指定參與者的會議體驗。 您可以建立具有網站範圍或使用者範圍的會議原則。 會議原則設定涵蓋許多會議排程和參與的層面。 數個會議原則設定支援參與者的電話撥入式會議。 當您設定電話撥入式會議時，應確認您的組織已正確設定這些欄位，並視需要加以修改。 
   
-如需設定會議原則的詳細資訊，請參閱 [在商務用 Skype Server 中管理會議原則](../../manage/conferencing/conferencing-policies.md)。
+如需設定會議原則的詳細資訊，請參閱[在商務用 Skype Server 中管理會議原則](../../manage/conferencing/conferencing-policies.md)。
   
 ## <a name="assign-a-line-uri-to-a-user-account"></a>將行 URI 指派給使用者帳戶
 <a name="BKMK_AssignaLineURI"> </a>
 
-撥入使用者輸入他們的電話號碼或分機號碼，以及將會議加入已驗證使用者的 PIN 碼。 驗證需要在商務用 Skype Server 使用者帳戶上指定的電話語音 **行 URI** 。
+撥入使用者輸入他們的電話號碼或分機號碼，以及將會議加入已驗證使用者的 PIN 碼。 驗證需要商務用 Skype Server 使用者帳戶上指定的電話語音 **行 URI** 。
   
 本主題中的程式說明如何為單一使用者帳戶指派 **行 URI** 。 如果您需要為多個使用者帳戶指派 **行 URI** ，您可以建立使用 **Set-CsUser** Cmdlet 的腳本。 如需使用範例腳本將 **行 URI** 指派給多個使用者帳戶的詳細資訊，請參閱 [指派行 URIs 給多位使用者](https://go.microsoft.com/fwlink/p/?linkId=196945)。
   
 1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 **Cs-UserAdministrator** 或 **CsAdministrator** 角色的成員身分登入電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 **[使用者]**。
     
 4. 在 [搜尋] 欄位中，輸入您要設定電話撥入式會議的使用者名稱，或按一下 [ **新增篩選** ] 以指定搜尋欄位，然後按一下 [ **尋找**]。
     
-5. 連按兩下使用者名稱，以開啟 [ **編輯商務用 Skype Server 使用者** ] 對話方塊。
+5. 按兩下使用者名稱，以開啟 [**編輯商務用 Skype Server 使用者**] 對話方塊。
     
 6. 在 [ **電話語音**] 下的 [ **線路 URI** ] 欄位中，輸入唯一且正規化的電話號碼 (例如電話： + 14255550200) 。
     
     > [!NOTE]
-    > 只有在 **電話語音** 設定為 **僅限 pc 對電腦**、 **Enterprise Voice**、**遠端呼叫控制** 或 **遠端呼叫控制** 時，您才可以指定 **行 URI** 。 
+    > 只有在 **電話語音** 設定為 **僅限 pc 對 pc**、**企業語音**、**遠端呼叫控制** 或 **遠端呼叫控制** 時，才能指定 **行 URI** 。 
   
 7. 按一下 **[認可]**。

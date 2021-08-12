@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通話駐留號碼範圍定義在有人接聽或下班時，寄存通話保留的臨時號碼。
-ms.openlocfilehash: af2762f94800ef0db0d4e04fac6949be49104250
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7c4050ebf09d2b0f533aee9fecb4eda3c4f383b9a914886a125f150740cea07f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097059"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54294730"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>通話駐留：建立新的或編輯現有
 
@@ -48,4 +48,4 @@ ms.locfileid: "51097059"
 
 - **目的地伺服器的 FQDN** 選取主控通話駐留應用程式之應用程式服務的完整功能變數名稱 (FQDN) 或服務識別碼。 所有寄存在號碼範圍中的 start 編號和結束編號所指定之範圍內的通話，將會路由傳送至此伺服器或集區。
 
-如需通話駐留功能及功能的詳細資訊，請參閱 [在商務用 Skype 中規劃通話駐留](../../../plan-your-deployment/enterprise-voice-solution/call-park.md)。 如需使用通話駐留號碼範圍的詳細資訊，請參閱 [設定寄存通話的電話號碼分機號碼](/previous-versions/office/lync-server-2013/lync-server-2013-configure-phone-number-extensions-for-parking-calls)。
+如需通話駐留功能及功能的詳細資訊，請參閱[Plan for 通話駐留 in 商務用 Skype](../../../plan-your-deployment/enterprise-voice-solution/call-park.md)。 如需與通話駐留號碼範圍搭配使用的詳細資訊，請參閱[Configure 電話號碼分機的停車電話](/previous-versions/office/lync-server-2013/lync-server-2013-configure-phone-number-extensions-for-parking-calls)。

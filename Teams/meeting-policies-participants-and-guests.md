@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
-description: 瞭解如何在會議Teams中管理會議政策設定。
-ms.openlocfilehash: bec3f82c66984147f109dc68cc97376c502dd9a6
-ms.sourcegitcommit: f5b6a0fe055e42e06eee21ce311813b5127474ea
+description: 瞭解如何在會議Teams中管理會議策略設定。
+ms.openlocfilehash: 30ef20368adeb7b0f14ff0c811a1c6ec9d4ce29b6debeeb198f0b74ae75d441d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52741052"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293270"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>會議原則設定 - 參與者與來賓
 

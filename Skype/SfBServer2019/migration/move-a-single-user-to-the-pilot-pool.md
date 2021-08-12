@@ -10,39 +10,39 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 您可以使用商務用 Skype Server 2019 控制台或商務用 Skype Server 2019 管理命令介面，將舊版集區中的使用者移至您的商務用 skype server 2019 試驗集區。 在下列範例中，在 [報名者集區] 欄中，pool01.contoso.net 為舊版集區，所有六個使用者都連接至此集區。 使用下列程式，透過商務用 Skype Server 2019 控制台和商務用 Skype Server 管理命令介面，將使用者移至商務用 Skype Server 2019 集區。
-ms.openlocfilehash: 6be30f37987cc31835a12178d32a8337d9fc5cae
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 您可以使用商務用 Skype Server 2019 控制台或商務用 Skype Server 2019 管理命令介面，將使用者從舊版集區移至商務用 Skype Server 2019 試驗集區。 在下列範例中，在 [報名者集區] 欄中，pool01.contoso.net 為舊版集區，所有六個使用者都連接至此集區。 使用下列程式，使用商務用 Skype Server 2019 控制台和商務用 Skype Server 管理命令介面，將使用者移至商務用 Skype Server 2019 集區。
+ms.openlocfilehash: 98fd1ce168cf5b44a85c1b0a93ee90634a84f885ced3cb3ffaaca8cee836a620
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303387"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>將單一使用者移至試驗集區
 
-您可以使用商務用 Skype Server 2019 控制台或商務用 Skype Server 2019 管理命令介面，將舊版集區中的使用者移至您的商務用 skype server 2019 試驗集區。 在下列範例中，在 [**報名者集**區] 欄中， **pool01.contoso.net**為舊版集區，所有六個使用者都連接至此集區。 使用下列程式，透過商務用 Skype Server 2019 控制台和商務用 Skype Server 管理命令介面，將使用者移至商務用 Skype Server 2019 集區。 
+您可以使用商務用 Skype Server 2019 控制台或商務用 Skype Server 2019 管理命令介面，將使用者從舊版集區移至商務用 Skype Server 2019 試驗集區。 在下列範例中，在 [ **報名者集** 區] 欄中， **pool01.contoso.net** 為舊版集區，所有六個使用者都連接至此集區。 使用下列程式，使用商務用 Skype Server 2019 控制台和商務用 Skype Server 管理命令介面，將使用者移至商務用 Skype Server 2019 集區。 
   
 ## <a name="to-move-a-user-by-using-the-skype-for-business-server-2019-control-panel"></a>使用商務用 Skype Server 2019 控制台移動使用者
   
 1. 使用 RTCUniversalServerAdmins 群組的成員帳戶、CsAdministrator 成員帳戶或 CsUserAdministrator 系統管理角色的成員帳戶，登入前端伺服器。
     
-2. 開啟**商務用 Skype Server 控制台**。
+2. 開啟 **商務用 Skype Server 控制台**]。
     
-3. 按一下 [**使用者**]，按一下 [**搜尋**]，然後按一下 [**尋找**]。
+3. 按一下 [ **使用者**]，按一下 [ **搜尋**]，然後按一下 [ **尋找**]。
     
 4. 選取您要移至商務用 Skype Server 2019 集區的使用者。 在這個範例中，將移動使用者 Sara Davis。
     
-5. 在 [執行]**** 功能表上，選取 [將選取的使用者移至集區]****。
+5. 在 [執行] 功能表上，選取 [將選取的使用者移至集區]。
     
-6. 從下拉式清單中，選取商務用 Skype Server 2019 集區。
+6. 從下拉式清單中，選取 [商務用 Skype Server 2019 集區]。
     
-7. 按一下 [動作]****，然後按一下 [將選取的使用者移至集區]****。 按一下 [確定]****。
+7. 按一下 [動作]，然後按一下 [將選取的使用者移至集區]。 按一下 ****[確定]。
   
-8. 確認使用者的 [**報名者集**區] 欄現在包含商務用 Skype Server 2019 集區，表示使用者已順利移動。 
+8. 確認使用者的 [**報名者集** 區] 欄現在包含商務用 Skype Server 2019 集區，這表示使用者已順利移動。 
     
 ## <a name="to-move-a-user-by-using-the-skype-for-business-server-2019-management-shell"></a>使用商務用 Skype Server 2019 管理命令介面移動使用者
 
-1. 開啟商務用 Skype Server 管理命令介面。
+1. 開啟 [商務用 Skype Server 管理命令介面]。
     
 2. 在命令列輸入下列命令： 
     
@@ -56,9 +56,9 @@ ms.locfileid: "44752505"
    Get-CsUser -Identity "David Pelton"
    ```
 
-4. **RegistrarPool**身分識別現在會指向商務用 Skype Server 2019 集區。 這個身分識別的出現表示已成功移動使用者。 
+4. **RegistrarPool** 身分識別現在會指向商務用 Skype Server 2019 集區。 這個身分識別的出現表示已成功移動使用者。 
 
     > [!NOTE]
-    > 如需**Get-CsUser** Cmdlet 的詳細資訊，請執行： **Get-Help Get-CsUser 詳細**
+    > 如需 **Get-CsUser** Cmdlet 的詳細資訊，請執行： **Get-Help Get-CsUser 詳細**
   
 

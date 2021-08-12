@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1535e676-a647-4606-bc56-e8bfde5ca823
 description: Servers 表格是一種支援資料表，可儲存各種伺服器的相關資訊。 資料表中的每一筆記錄都代表一部伺服器。
-ms.openlocfilehash: acbc929c1c47ebf86e1b58f4c008f4351de35496
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 580dd74bee7526020bef7a884bf93ead673fdf79e53df33c80eacfa33283dff1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809943"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284533"
 ---
 # <a name="servers-table"></a>Servers 表格
  

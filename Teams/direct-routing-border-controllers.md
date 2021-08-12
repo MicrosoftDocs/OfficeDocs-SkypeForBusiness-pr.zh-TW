@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 系統管理員可以了解哪些工作階段邊界控制器 (SBC) 已通過直接路由認證。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 13d7103ecb4183674fe1e92c7d7e3a37182c0d50
-ms.sourcegitcommit: beb66bc2ce70edbaf6c77eee6d8c050c5cb37fe1
+ms.openlocfilehash: 1a672bb436b24e49391ec637c40597611764ef6fd6a301af1128976c044a90bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "53515168"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284214"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器清單
 

@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 2015 應力和效能工具的效能案例
+title: 商務用 Skype Server 2015 壓力和效能工具的效能案例
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,22 +13,22 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
-description: 使用壓力和效能工具，將商務用 Skype Server 2015 設定為執行效能和負載測試時所需執行的工作。
-ms.openlocfilehash: e0a3cc3767cf7652bda9bfacb14ced6632e32d87
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 使用壓力和效能工具，將商務用 Skype Server 2015 設定為執行效能及負載測試所需的工作。
+ms.openlocfilehash: cb018f4c12ad967acf9364dabb62ce5eabf07412a46abe912dbffba5fe656422
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105369"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328098"
 ---
-# <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>商務用 Skype Server 2015 應力和效能工具的效能案例
+# <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>商務用 Skype Server 2015 壓力和效能工具的效能案例
  
-使用壓力和效能工具，將商務用 Skype Server 2015 設定為執行效能和負載測試時所需執行的工作。
+使用壓力和效能工具，將商務用 Skype Server 2015 設定為執行效能及負載測試所需的工作。
   
-若要執行商務用 Skype Server 2015 應力和效能工具 (LyncPerfTool) ，必須先針對與您相關的案例，設定商務用 Skype Server 2015 拓撲。 如果未設定商務用 Skype Server 2015，或設定不正確，您的負載模擬很可能會失敗。 透過商務用 Skype Server 2015 應力和效能工具，我們會在 [下載工具](https://www.microsoft.com/download/details.aspx?id=50367)時，供應商務用 Skype Server 管理命令介面腳本和基本資源檔案的範例。 這些可以做為設定商務用 Skype Server 部署的開始點。 本文說明所提供的 Windows PowerShell 範例。
+若要執行商務用 Skype Server 2015 的壓力和效能工具 (LyncPerfTool) ，必須先針對與您相關的案例，設定商務用 Skype Server 2015 拓撲。 如果未設定商務用 Skype Server 2015，或設定不正確，您的負載模擬很可能會失敗。 使用商務用 Skype Server 2015 的壓力和效能工具，我們會提供範例商務用 Skype Server 管理命令介面腳本和基本資源檔，作為[工具下載](https://www.microsoft.com/download/details.aspx?id=50367)的一部分。 這些可以做為設定商務用 Skype Server 部署的開始點。 本文說明所提供的 Windows PowerShell 範例。
   
 > [!NOTE]
-> 本主題不會協助您說明如何設定商務用 Skype Server 2015。一般而言，我們有其他的規劃及部署主題。 如需在商務用 Skype Server 2015 中使用 Windows PowerShell 的詳細資訊，請參閱此處的插入簡介中的商務用 Skype Server 管理命令介面檔。 
+> 本主題不會協助您說明如何設定商務用 Skype Server 2015 一般而言，我們有其他的規劃及部署主題。 如需在商務用 Skype Server 2015 中使用 Windows PowerShell 的詳細資訊，請參閱此處的 [插入簡介] 中的商務用 Skype Server 管理命令介面檔。 
   
 ## <a name="about-running-skype-for-business-server-management-shell-scripts"></a>關於執行商務用 Skype Server 管理命令介面腳本
 

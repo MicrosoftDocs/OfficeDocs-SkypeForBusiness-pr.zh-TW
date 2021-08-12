@@ -11,12 +11,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: 使用者可以瞭解如何在會議室中Microsoft Teams
-ms.openlocfilehash: 820380517a7f56a8a9738e02705ba68a5b6f8048
-ms.sourcegitcommit: 99bd62ea8a11b0068231e7b8335790323912cb9e
+ms.openlocfilehash: 77646dad78459b108f39803bb4927d849bce703f92e36c832d8606dbc3e15e94
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "49727709"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345112"
 ---
 # <a name="using-breakout-rooms-in-microsoft-teams"></a>在會議室中Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "49727709"
 
 如果參與者離開分組討論區，召集人可以選取參與者名稱旁的省略號 **[...]** ，然後選取 [要求加入] ，將參與者移回分組討論 **會議室**。
 
-如果參與者在分組討論會議室開啟後延遲加入主要會議，召集人可以將參與者新增到分組討論會議室。 如果參與者錯過加入聊天室的通知，請選取 **邀請加入**。
+如果參與者在分組討論會議室開啟後較晚加入主要會議，召集人可以將參與者新增到分組討論會議室。 如果參與者錯過加入聊天室的通知，請選取 **邀請加入**。
 
 ## <a name="send-announcements"></a>傳送公告
 
@@ -54,7 +54,7 @@ ms.locfileid: "49727709"
 例如，提醒@mention需要協助時，請提醒會議@mention，或在將參與者拉回主會議室之前，先倒數五分鐘。
 參與者在分組討論會議室的聊天中收到公告。
 
-## <a name="close-rooms-and-pull-participants-back-to-the-main-meeting"></a>關閉會議室，將參與者拉回主要會議
+## <a name="close-rooms-and-pull-participants-back-to-the-main-meeting"></a>關閉會議室，讓參與者回到主要會議
 
 選取 **關閉會議室** ，將所有參與者拉回主會議室。
 

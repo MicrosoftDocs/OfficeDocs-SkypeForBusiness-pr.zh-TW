@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 針對位於商務用 Skype Server 上之使用者執行雲端式語音信箱的指示。
-ms.openlocfilehash: 76d65efcc0df59396942c8a38ebc22006427a0f0
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 8a0c04d90d77b0843ef8b9097abec91c04ee7bb336bf04e0cbfcc9c7fe5fe38a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510574"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337253"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>為內部部署使用者設定雲端語音信箱服務
 

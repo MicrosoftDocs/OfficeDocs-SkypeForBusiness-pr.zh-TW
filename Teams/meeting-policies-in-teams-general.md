@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理一般會議Teams。
-ms.openlocfilehash: fb5f537e5cc96ba363fb4aa68bbfff2af513db6b
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: ecbdceefa5d60ca3c7d5b09aaa094054b88f60f915b17934a734fa07bdf3da23
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598709"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54293290"
 ---
 # <a name="meeting-policy-settings---general"></a>會議原則設定 - 一般
 
@@ -43,7 +43,7 @@ ms.locfileid: "51598709"
 
 ## <a name="allow-meet-now-in-channels"></a>允許在頻道中立即開會
 
-這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在頻道中Teams會議。 如果您開啟此功能，使用者可以按一下 [開會>按鈕，開始臨時會議或在頻道中排程會議。 預設值為 True。
+這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在頻道中啟動Teams會議。 如果您開啟此功能，使用者可以按一下 [開會>按鈕，開始臨時會議或在頻道中排程會議。 預設值為 True。
 
 [![顯示訊息下方的現在開會圖示的螢幕擷取畫面 ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -75,7 +75,7 @@ ms.locfileid: "51598709"
   ![顯示選取您想要排程會議之頻道的日曆選項的螢幕擷取畫面。](media/schedule-meeting-disabled-in-chat2.png)
   
 - 頻道標題上的 [排程會議 **]** 按鈕。
-  ![螢幕擷取畫面顯示選取您想要排程會議之頻道的日曆選項。](media/schedule-now-in-header.png)
+  ![螢幕擷取畫面顯示選取您想要透過哪個頻道排程會議之日曆選項的螢幕擷取畫面。](media/schedule-now-in-header.png)
 
 在頻道行事曆中：
 
@@ -100,7 +100,7 @@ ms.locfileid: "51598709"
 
 ## <a name="allow-meet-now-in-private-meetings"></a>允許在私人會議中立即開會
 
-這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否能啟動臨時私人會議。  此設定預設會開啟。
+這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以啟動臨時私人會議。  此設定預設會開啟。
 
 ## <a name="designated-presenter-role-mode"></a>指定的簡報者角色模式
 

@@ -14,28 +14,28 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: 使用商務用 Skype Server 2015 規劃工具的指導方針。
-ms.openlocfilehash: aef46fac65ba1d5651cada81bc79cfc21021bf54
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 36dca20371ced46d9a4e75d3bd086f23127ef307e6cc8473e706d3b26580b8df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318856"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>商務用 Skype Server 2015 規劃工具
  
 使用商務用 Skype Server 2015 規劃工具的指導方針。
   
-商務用 Skype Server 2015 規劃工具是一個嚮導導向的類似面試工具，它會詢問有關您所設計之商務用 Skype Server 2015 拓撲的問題。 規劃工具會使用所提供的資訊，結合拓撲設計和容量的慣用慣例，根據提供的答案呈現建議的拓撲。 您可以從 [商務用 Skype Server 2015 規劃工具](https://go.microsoft.com/fwlink/p/?LinkID=282725)下載規劃工具。
+商務用 Skype Server 2015 規劃工具是一個以嚮導為導向的工具，它會詢問有關所設計之商務用 Skype Server 2015 拓撲的問題。 規劃工具會使用所提供的資訊，結合拓撲設計和容量的慣用慣例，根據提供的答案呈現建議的拓撲。 您可以從[商務用 Skype Server 2015 規劃工具](https://go.microsoft.com/fwlink/p/?LinkID=282725)下載規劃工具。
   
 最後，規劃工具的目標是減輕設計完整商務用 Skype Server 2015 拓撲的潛在複雜性。 工具也會提供工具內規劃和部署檔的上下文參考，但前提是網際網路連線可以連接至 Microsoft 網站。
   
 在使用基礎結構的 TCP/IP 位址和完整功能變數名稱（ () Fqdn）自訂拓撲之後，規劃工具可提供一系列涵蓋網域名稱系統的報告 (DNS) 命名、防火牆規則、憑證等等。 
   
-使用此工具是規劃實施的第一步。 下一步是在 [商務用 Skype server 2015 容量計算機](https://www.microsoft.com/download/details.aspx?id=51196)中輸入網站資訊，並視需要調整，然後使用 [商務用 Skype Server 2015 壓力和效能工具](https://www.microsoft.com/download/details.aspx?id=50367) 來模擬及驗證實施是否可滿足您的需求。
+使用此工具是規劃實施的第一步。 下一個步驟是將網站資訊詳細資料輸入[商務用 Skype Server 2015 容量計算機](https://www.microsoft.com/download/details.aspx?id=51196)中，視需要調整，然後使用[商務用 Skype Server 2015 壓力和效能工具](https://www.microsoft.com/download/details.aspx?id=50367)來模擬及驗證實施是否可滿足您的需求。
   
 規劃工具也提供以兩種格式匯出資訊的功能：
   
-- Microsoft Excel ( .xml 試算表) 
+- Microsoft Excel (.xml 試算表) 
     
 - Microsoft Visio ( vdx) 
     
@@ -47,15 +47,15 @@ ms.locfileid: "49832383"
     
 - [選用軟體](install.md#Optional_Software)
     
-- [在商務用 Skype Server 2015 中流覽規劃工具](navigate.md)
+- [流覽商務用 Skype Server 2015 中的規劃工具](navigate.md)
     
-- [為商務用 Skype Server 2015 建立初始拓撲設計](create-the-initial-design.md)
+- [建立商務用 Skype Server 2015 的初始拓撲設計](create-the-initial-design.md)
     
 - [在商務用 Skype Server 2015 中編輯拓撲](edit-the-topology.md)
     
 - [編輯網路設定圖表](edit-the-topology.md#Edit_Network_diagram)
     
-- [在商務用 Skype Server 2015 中複查管理員報告](review-the-administrator-reports.md)
+- [在商務用 Skype Server 2015 中查看系統管理員報告](review-the-administrator-reports.md)
     
 ## <a name="see-also"></a>另請參閱
 

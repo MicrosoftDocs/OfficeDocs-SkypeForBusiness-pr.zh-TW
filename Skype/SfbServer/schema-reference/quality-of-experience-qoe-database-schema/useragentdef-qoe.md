@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
-description: UserAgentDef 表會將使用者代理程式識別碼對應到代理程式的描述性名稱。 使用者代理程式是用來連線至商務用 Skype 伺服器的軟體用戶端。
-ms.openlocfilehash: 2398601df248310a9482c797fcd8e98cef8f7e76
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: UserAgentDef 表會將使用者代理程式識別碼對應到代理程式的描述性名稱。 使用者代理程式是用來連接至商務用 Skype Server 的軟體用戶端。
+ms.openlocfilehash: 9bba40cf33aa69203499ddcbe3555b41d563394f6d7ef12d7b34ca8b2b7db846
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799923"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337541"
 ---
 # <a name="useragentdef-table-qoe"></a>UserAgentDef table (QoE) 
  
-UserAgentDef 表會將使用者代理程式識別碼對應到代理程式的描述性名稱。 使用者代理程式是用來連線至商務用 Skype 伺服器的軟體用戶端。
+UserAgentDef 表會將使用者代理程式識別碼對應到代理程式的描述性名稱。 使用者代理程式是用來連接至商務用 Skype Server 的軟體用戶端。
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
-|1   <br/> |MediationServer  <br/> |MediationServer  <br/> |
-|2   <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
+|1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
+|第  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
 |4   <br/> |Oc  <br/> |Oc  <br/> |
 |8   <br/> |OCPhone  <br/> |OCPhone  <br/> |
 |16   <br/> |LMC  <br/> |LMC  <br/> |

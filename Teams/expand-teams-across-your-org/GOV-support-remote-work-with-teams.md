@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助政府組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3196796e702a458d7bbf813e5bed8166b764b0de
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7e132251623de86ad9635b03b13b9eb6dbc0aed40752fb916fcff23b9fd4ede1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121381"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284114"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端政府工作者
 

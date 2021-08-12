@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找取得及管理英國電話號碼Microsoft Teams。
-ms.openlocfilehash: 5fca02529ac7e6237e47fd788a647663c09f3e32
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 2e222d5db5d5bd2825bc759ce939ec7ebefefb844fae545122a27a8591d32d99
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510754"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54337371"
 ---
 # <a name="phone-number-management-for-the-united-kingdom"></a>電話英國號碼管理
 

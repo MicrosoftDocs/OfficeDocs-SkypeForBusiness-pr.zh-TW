@@ -20,12 +20,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何設定 Microsoft 電話直接路由，將您的內部部署電話基礎結構連接到Microsoft Teams。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ecd8579ccd092e6b82deb06aa670901cdfc3b023
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f903511dd4adc439705513f6ef10ed9648d1bbb4aab42ac6dec1aa7bef6064e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122237"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284174"
 ---
 # <a name="configure-direct-routing"></a>設定直接路由
 
@@ -38,7 +38,7 @@ Microsoft 電話系統直接路由可讓您將內部部署電話基礎結構連�
 
 若要完成本文說明的步驟，系統管理員需要熟悉 PowerShell Cmdlet。 有關使用 PowerShell 的資訊，請參閱設定您的電腦[Windows PowerShell。](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 
 
-在執行這些文章中的步驟之前，Microsoft 建議您確認您的 SBC 已按照 SBC 廠商的建議進行配置： 
+在執行這些文章中的步驟之前，Microsoft 建議您確認 SBC 已按照 SBC 廠商的建議進行配置： 
 
 - [AudioCodes 部署檔](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams)
 - [Oracle 部署檔](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)

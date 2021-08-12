@@ -13,30 +13,30 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
-description: 在非實際執行或測試環境中進行容量規劃和效能調整時，會使用商務用 Skype Server 2015 的壓力和效能工具。
-ms.openlocfilehash: 551e4e5f985fc18439a4f277685034e86c7cdfb6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在非生產或測試環境中進行容量規劃和效能調整時，會使用商務用 Skype Server 2015 的壓力和效能工具。
+ms.openlocfilehash: 1dff13905145752c57b02795e9aab07737d51b33d94d6355ce5f8c55fa62e7ea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814923"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328018"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>商務用 Skype Server 2015 應力和效能工具
  
-在非實際執行或測試環境中進行容量規劃和效能調整時，會使用商務用 Skype Server 2015 的壓力和效能工具。
+在非生產或測試環境中進行容量規劃和效能調整時，會使用商務用 Skype Server 2015 的壓力和效能工具。
   
-商務用 Skype Server 2015 應力和效能工具組含的工具可以簡化您的商務用 Skype Server 2015 的容量規劃。 商務用 Skype Server 2015 應力和效能工具可協助您：
+商務用 Skype Server 2015 的壓力和效能工具組含的工具可以簡化商務用 Skype Server 2015 的容量規劃。 商務用 Skype Server 2015 的壓力和效能工具可協助您：
   
-- 簡化商務用 Skype 伺服器的硬體規劃
+- 簡化商務用 Skype Server 的硬體規劃
     
 - 提供更多有關效能調整的知識和最佳作法
     
-- 度量商務用 Skype 伺服器部署的效能
+- 衡量商務用 Skype Server 部署的效能
     
-您通常會在您使用 [商務用 Skype server 2015 規劃工具](../../management-tools/planning-tool/planning-tool.md) 來設計拓撲，並使用 [商務用 Skype Server 2015 容量規劃計算機](../../management-tools/capacity-planning-calculator.md)來精煉拓撲之後，使用此工具。 
+在您使用[商務用 Skype Server 2015 規劃工具](../../management-tools/planning-tool/planning-tool.md)來設計拓撲，並使用[商務用 Skype Server 2015 容量規劃計算機](../../management-tools/capacity-planning-calculator.md)來精煉拓撲時，通常會使用此工具。 
 
 > [!NOTE]
-> 不會更新商務用 Skype Server 2019 的工具。
+> 將不會更新商務用 Skype Server 2019 的此工具。
   
 ## <a name="tests"></a>測試
 
@@ -52,9 +52,9 @@ ms.locfileid: "49814923"
 |重視  <br/> |資料共同作業  <br/> |
 |行動性  <br/> ||
    
-## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>商務用 Skype Server 2015 應力和效能工具隨附的應用程式和檔案
+## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>商務用 Skype Server 2015 壓力和效能工具隨附的應用程式和檔案
 
-這些應用程式是商務用 Skype Server 壓力和效能工具的一部分：
+這些應用程式屬於商務用 Skype Server 壓力和效能工具的一部分：
   
 |**工具**|**描述**|
 |:-----|:-----|
@@ -68,16 +68,16 @@ ms.locfileid: "49814923"
 
 若需要深入瞭解，請參閱下列文章：
   
-- [Skype for Busines 應力和效能工具的必要條件和設定](prerequisites-and-setup.md)
+- [Busines 應力和效能工具的 Skype 必要條件和設定](prerequisites-and-setup.md)
     
-- [商務用 Skype Server 2015 應力和效能工具的效能案例](scenarios.md)
+- [商務用 Skype Server 2015 壓力和效能工具的效能案例](scenarios.md)
     
   - [在壓力和效能案例中布建拓撲以執行負載](provisioning-the-topology-to-run-load.md)
     
-  - [設定商務用 Skype Server 2015 應力和效能工具的原則](configuring-policies.md)
+  - [設定商務用 Skype Server 2015 壓力和效能工具的原則](configuring-policies.md)
     
 - [使用商務用 Skype Server 2015 應力和效能工具](using-the-tool.md)
     
-- [商務用 Skype Server 2015 的常見問題解答和效能工具](faq.md)
+- [商務用 Skype Server 2015 壓力和效能工具的常見問題](faq.md)
     
 

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于巴基斯坦Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: fffe7a36d457953045bec415cd436d70c51f8b73
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 以下是適用于巴基斯坦Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
+ms.openlocfilehash: 26b37d3b1120aea14ca06b44f2282a065ee4ff1bf76dd171f666b9e6cf733c62
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284374"
 ---
 # <a name="availability-in-pakistan"></a>巴基斯坦的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于巴基斯坦Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+以下是適用于巴基斯坦Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
