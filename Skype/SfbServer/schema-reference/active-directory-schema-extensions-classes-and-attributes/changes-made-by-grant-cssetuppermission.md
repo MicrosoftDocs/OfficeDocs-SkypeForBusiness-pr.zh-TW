@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中 Grant-CsSetupPermission 所做的變更
+title: 商務用 Skype Server 中 Grant-CsSetupPermission 所做的變更
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c5801f48-14e3-4fdd-8f14-d52e7af07a57
-description: 若要委派設定，您可以將許可權授與特定 Active Directory 組織單位 (OU) 的 RTCUniversalServerAdmins 通用群組，啟用該 OU 中 RTCUniversalServerAdmins 群組的成員，以在指定的網域中安裝商務用 Skype Server，而不是 Domain Admins 群組的成員。
-ms.openlocfilehash: 3f6de30e7068f9f44ca6d958f8ca30af866b536a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 若要委派設定，您可以將許可權授與特定 Active Directory 組織單位 (OU) 的 RTCUniversalServerAdmins 通用群組，啟用該 ou 中 RTCUniversalServerAdmins 群組的成員，以在不是 domain Admins 群組成員的情況下，在指定的網域中安裝商務用 Skype Server。
+ms.openlocfilehash: 32c0d48c5b6c63a38ff48e7808b8009c3ef265e6f0b6eb739094f797e47ace4d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831833"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349705"
 ---
-# <a name="changes-made-by-grant-cssetuppermission-in-skype-for-business-server"></a>在商務用 Skype Server 中 Grant-CsSetupPermission 所做的變更
+# <a name="changes-made-by-grant-cssetuppermission-in-skype-for-business-server"></a>商務用 Skype Server 中 Grant-CsSetupPermission 所做的變更
  
-若要委派設定，您可以將許可權授與特定 Active Directory 組織單位 (OU) 的 RTCUniversalServerAdmins 通用群組，啟用該 OU 中 RTCUniversalServerAdmins 群組的成員，以在指定的網域中安裝商務用 Skype Server，而不是 Domain Admins 群組的成員。 
+若要委派設定，您可以將許可權授與特定 Active Directory 組織單位 (OU) 的 RTCUniversalServerAdmins 通用群組，啟用該 ou 中 RTCUniversalServerAdmins 群組的成員，以在不是 domain Admins 群組成員的情況下，在指定的網域中安裝商務用 Skype Server。 
   
 **Grant-CsSetupPermission** Cmdlet 會授與組織單位上的 RTCUniversalServerAdmins 群組許可權，如下表所指定：
   

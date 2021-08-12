@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: '瞭解如何為企業中需要使用電話加入電話會議的人員設定撥入或音訊會議。 '
-ms.openlocfilehash: ba022bd8af5a8b1eb2e445e6034b4d318dec72b5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9045ae734eabdbb38af812610348f2e915b5a07ab481799215824f524b5ed756
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332555"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>設定 Microsoft Teams 的音訊會議
 
@@ -53,7 +53,7 @@ ms.locfileid: "51117141"
     >[!NOTE] 
     > 音訊會議包含在 Office 365 企業版 E5 授權中的附加元件。
         
-2. 購買音訊會議授權之後，您必須將授權指派給組織中要排程或主持會議的人員。 請參閱[指派授權](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)給Microsoft 365或Office 365商務用使用者給組織中要排程或主導會議的人。
+2. 購買音訊會議授權之後，您必須將授權指派給組織中要排程或主持會議的人員。 請參閱[將您](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)購買的商務Microsoft 365或Office 365授權指派給組織中要排程或主導會議的人。
     
 3. 我們也建議您將通訊點數授權 (不需付費) 指派給您在在上一個步驟中指派授權的人員。 若要了解如何設定通訊點數，請參閱[設定貴組織的通訊點數](set-up-communications-credits-for-your-organization.md)。
     

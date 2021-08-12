@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 取得將電話號碼移植至Microsoft Teams。
-ms.openlocfilehash: bb63e22b7cc3aa787ddb984f82180937c5aaf9fc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 17ceb8270d9474a64b2a4f2a55e7f015585dacd5ba376708092f1fcf96f57722
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802513"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296710"
 ---
 # <a name="more-information-about-porting"></a>有關移植的更多資訊
 
@@ -36,7 +36,7 @@ ms.locfileid: "49802513"
 
 ## <a name="port-order-account-information"></a>埠訂單帳戶資訊
 
-當您在移植精靈的新增帳戶資訊頁面提交埠訂單時，您將在 LOA 中輸入幾乎所有相同的資訊，包括：
+當您位於移植精靈的新增帳戶資訊頁面以提交埠訂單時，您將在 LOA 中輸入幾乎所有相同的資訊，包括：
   
 - 服務提供者或電信服務提供者的帳戶號碼
     
@@ -56,7 +56,7 @@ ms.locfileid: "49802513"
   
 - 服務位址
   
-若要輕鬆提交埠訂單並避免錯誤，請確定您執行下列操作：
+若要輕鬆提交埠訂單並避免錯誤，請確認您執行下列操作：
   
 - 移除任何與 (相關聯的功能，例如) 群組。 請確定這些電話號碼上沒有啟用進位的通話控制功能，例如通話搜尋或特殊鈴聲。
     
@@ -64,7 +64,7 @@ ms.locfileid: "49802513"
     
 - 請確定所有號碼都來自同一個電信電信公司與同一個帳戶。
     
-- 請確定您提供的帳戶資訊與手機電信公司記錄中完全相同。 不一致的資訊是錯誤最常見的原因，而且可能會延遲您的埠訂單。
+- 請確定您提供的帳戶資訊與手機電信公司記錄中完全相同。 資訊不一致是錯誤最常見的原因，而且可能會延遲您的埠訂單。
     
 > [!CAUTION]
 > 請勿中斷與服務提供者或電信業者的服務。 您必須保持先前的服務有效，才能將電話號碼Teams。 請勿凍結服務提供者或電信服務提供者的帳戶。 凍結帳戶可防止帳戶上的電信公司變更。 授權使用者必須提交訂單給目前的電信公司，才能移除凍結。 此程式可能需要一到三周的時間，視電信公司不同。

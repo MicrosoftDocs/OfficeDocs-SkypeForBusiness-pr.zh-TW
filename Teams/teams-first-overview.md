@@ -15,12 +15,12 @@ description: 使用此指南，將Microsoft Teams作為您的第一Microsoft 365
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 89fb1ac43e199b3c8081735705a7d05bfcae710b
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: ddc107db668a582ad164e20f3b3ded169bd5d86125d949fe45d4d2f89090a8f7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587362"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312571"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>首先Microsoft Teams推出
 
@@ -37,7 +37,7 @@ Microsoft Teams能協助員工保持聯繫並彼此共同作業，尤其是在�
 
 若要開始使用您的Teams部署，您至少必須滿足一些先決條件。 下列清單會顯示您必須先為貴組織就地擁有哪些專案，Teams啟用：
 
-1.  使用Microsoft 365或Office 365網功能變數名稱稱所配置的組織
+1.  使用Microsoft 365或Office 365功能變數名稱所配置的組織
 
 2.  Azure Active Directory連接 (AAD) 或類似的雲端身分識別同步處理解決方案 -所有所需的屬性都與租使用者同步處理  
     若要瞭解與 AAD 同步處理同步處理的屬性，請閱讀[Azure AD 連線同步處理：](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)同步處理Azure Active Directory
@@ -51,10 +51,10 @@ Microsoft Teams能協助員工保持聯繫並彼此共同作業，尤其是在�
 5.  允許網路存取 Exchange、Sharepoint 和 商務用 OneDrive 或 Microsoft 365 中的 Office 365：Office 365 URL 和[IP 位址範圍](/office365/enterprise/urls-and-ip-address-ranges)。
 
 > [!NOTE]
-> 2019 年 9 月 1 日之後建立Teams模式。
+> 在 2019 年 9 月 1 日之後建立租使用者會以 Teams 模式進行配置。
 > 
 > [!IMPORTANT]
-> 如果您已經商務用 Skype Server，而且您的租使用者是在 2019 年 9 月 1 日之後部署，請聯絡支援人員，以啟用 Teams。 將任何授權指派給使用者之前，請確定您的'全組織升級Teams設定<span class="underline"></span>為'島模式'。
+> 如果您已經商務用 Skype Server，而且您的租使用者是在 2019 年 9 月 1 日之後部署，請聯絡支援人員，以啟用 Teams。 將任何授權指派給使用者之前，請確定您的'全組織升級政策'<span class="underline"></span>設定為'島模式Teams'。
 
 ## <a name="migration-starting-points"></a>移移起點
 
@@ -68,14 +68,14 @@ Microsoft Teams能協助員工保持聯繫並彼此共同作業，尤其是在�
 
 **通話功能 VoIP / PSTN** 在 Teams： 通話可以是語音 ip (VoIP) 或公用交換電話網絡 (PSTN) 。 VoIP 連接會原生地Teams用戶端之間，而 PSTN 連接則發生在使用者撥打外部電話號碼時。  
 
-Teams兩種類型的 PSTN 連接。 Microsoft 通話方案：當 Microsoft 提供電話基礎結構 ，包括使用者的電話號碼或直接路由組式時，客戶會以會話邊界控制器 (SBC) 為 Teams 使用者提供電話連接。  
+Teams兩種類型的 PSTN 連接。 Microsoft 通話方案：當 Microsoft 提供電話基礎結構 ，包括使用者的電話號碼，或直接路由組式時，客戶會以會話邊界控制器 (SBC) 為 Teams 使用者提供電話連接。  
 若要深入瞭解，請參閱哪一種通話方案適合[您？電話系統](calling-plan-landing-page.md)[路由](direct-routing-landing-page.md)。
 
-**Teams和** 頻道共同作業Teams：Teams團隊是一群為了工作、專案或共同興趣而共同作業的人。 Teams由頻道所決定。 每個頻道都是圍繞主題建立，例如「小組活動」、部門名稱，或只是為了好玩。 頻道是您可以召開會議、進行交談，以及共同處理檔案的地方。 在共同合作期間
+**Teams和** 頻道共同作業Teams：在 Teams 中，團隊是一群為了工作、專案或共同興趣而彙集在一起的人。 Teams由頻道所決定。 每個頻道都是圍繞主題建立，例如「小組活動」、部門名稱，或只是為了好玩。 頻道是您可以召開會議、進行交談，以及共同處理檔案的地方。 在共同合作期間
 
-**商務用 OneDrive (p2P** 檔案共用) 在 Teams： Teams 和 Channels 之外，Teams 使用者可以使用 OneDrive 商務用或其他 P2P 共用檔案程式 ，例如思克檔案、DropBox、Box 和 Google 雲端硬碟 進行對等共用檔案。 針對OneDrive，使用者必須擁有SharePoint線上授權。
+商務用 OneDrive (Teams 中的 **p2P** 檔案共用) ：Teams 使用者可以在 Teams 和 Channel 之外，使用 OneDrive 商務用或其他 P2P 共用檔案程式 ，例如思克檔案、DropBox、Box 和 Google 雲端硬碟 對等共用檔案。 針對OneDrive，使用者必須擁有SharePoint線上授權。
 
-**應用程式平臺**：應用程式提供開箱即用的工具，讓貴組織能更Teams。 這些應用程式結合由 Microsoft、協力廠商或貴組織的開發人員提供的定位停駐點、訊息擴充功能、連接器和 Bot 功能。
+**應用程式平臺**：應用程式提供開箱即用的工具，讓貴組織獲得更多Teams。 這些應用程式會結合 Microsoft 提供、由協力廠商或貴組織的開發人員提供的定位停駐點、訊息擴充功能、連接器和 Bot 功能。
 
 安全性 **與** 合規性功能：Teams 提供豐富的資訊，可協助您處理合規性領域，包括保留政策、資料遺失保護 (DLP) 、電子檔探索和頻道、聊天和檔案的法律保留、稽核記錄搜尋。 若要深入瞭解，請參閱安全性與合規性[Microsoft Teams。](security-compliance-overview.md)  
 
@@ -84,7 +84,7 @@ Teams兩種類型的 PSTN 連接。 Microsoft 通話方案：當 Microsoft 提�
 
 [比較授權選項](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)。
 
-請參閱[Exchange Microsoft Teams](exchange-teams-interact.md)互動，以瞭解哪些合規性功能可在您的案例使用。
+請參閱[Exchange Microsoft Teams](exchange-teams-interact.md)互動，以瞭解您的案例提供哪些合規性功能。
 
 ## <a name="organizations-span-classunderlinewithoutspan-skype-for-business-or-lync-server"></a>沒有 **<span class="underline">或</span>** Lync server 商務用 Skype組織
 
@@ -131,7 +131,7 @@ VoIP / PSTN Teams</td>
 </tr>
 <tr class="even">
 <td>商務用 OneDrive (P2P 檔案共用) </td>
-<td>商務用 OneDrive使用者必須指派線上SharePoint授權。 沒有此授權，無法進行對等檔案共用。</td>
+<td>商務用 OneDrive使用者必須指派線上SharePoint授權。 沒有此授權，將無法進行對等檔案共用。</td>
 </tr>
 <tr class="odd">
 <td>應用程式平臺</td>
@@ -142,7 +142,7 @@ VoIP / PSTN Teams</td>
 <td>安全性與合規性功能</td>
 <td><ul>
 <li><p>保留政策可供使用。</p></li>
-<li><p>支援 eDiscovery 和法律保留功能，以確保頻道訊息的合規性。</p></li>
+<li><p>支援電子檔探索和法律保留功能，以規範頻道訊息。</p></li>
 <li><p>資料外遺失防護 (DLP) 可用。</p></li>
 </ul>
 <p>完整功能集可供Exchange Online;Exchange內部部署支援大部分的功能。 有關完整清單，請參閱<a href="/MicrosoftTeams/exchange-teams-interact">Exchange Teams互動</a>。</p></td>
@@ -214,13 +214,13 @@ VoIP / PSTN Teams</td>
 <tr class="odd">
 <td>應用程式平臺</td>
 <td>使用者將能夠使用根據貴公司政策所指定的應用程式。<br />
-如需深入瞭解，請<a href="/microsoftteams/admin-settings">在這裡：在</a>Teams</td>
+如需深入瞭解，請在這裡：<a href="/microsoftteams/admin-settings">在</a>Teams</td>
 </tr>
 <tr class="even">
 <td>安全性與合規性功能</td>
 <td><ul>
 <li><p>保留政策可供使用。</p></li>
-<li><p>支援 eDiscovery 和法律保留功能，以確保頻道訊息的合規性。</p></li>
+<li><p>支援電子檔探索和法律保留功能，以規範頻道訊息。</p></li>
 <li><p>資料外遺失防護 (DLP) 可用。</p></li>
 </ul>
 <p>完整功能集可供Exchange Online;Exchange內部部署支援大部分的功能。 有關完整清單，請參閱<a href="/MicrosoftTeams/exchange-teams-interact">Exchange Teams互動。</a></p>
@@ -240,7 +240,7 @@ VoIP / PSTN Teams</td>
 3.  根據貴公司的企業/公司政策設定租使用者  
     [管理組織的 Microsoft Teams 設定](enable-features-office-365.md)
 
-4.  部署Teams用戶端  
+4.  部署 Teams用戶端  
     [取得 Teams 用戶端](get-clients.md)
 
 5.   推動您的採用計畫  
@@ -282,7 +282,7 @@ Teams仰賴 Exchange Online、SharePoint Online、商務用 OneDrive 和 Microso
 
 如需上述每項服務的詳細資訊，請遵循下列連結：
 
-  - Exchange Online用於日曆功能，以及將對等郵件儲存Teams。 若要深入瞭解，請參閱[Exchange Teams互動](exchange-teams-interact.md)
+  - Exchange Online用於日曆功能，以及將對等郵件儲存到 Teams。 若要深入瞭解，請參閱[Exchange Teams互動](exchange-teams-interact.md)
 
 > [!IMPORTANT]
 > 若要Teams與 Exchange 內部部署進行交互操作，您必須設定新的 Exchange OAuth 驗證通訊協定，如在 Exchange 和 Exchange Online 組織之間設定[OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)驗證中所述。

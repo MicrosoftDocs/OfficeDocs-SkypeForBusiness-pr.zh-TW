@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9235bfa4-1697-4375-81e6-37a7403d13af
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: eacc27fc6f535db9ab9302fad33f037a1c6aa18b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e6a248c49495fa8ecd9ad4d9d21c8870ae440f9268af3f633d378ac06ec11016
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115029"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284893"
 ---
 # <a name="voice-route-create-new-or-edit-existing"></a>語音路由：建立新的或編輯現有路由
 
@@ -30,4 +30,4 @@ ms.locfileid: "51115029"
 
 - [修改語音路由](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)
 
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。

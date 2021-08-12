@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中修改 SIP 主幹設定設定
+title: 商務用 SkypeServerModify SIP 主幹設定設定
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段邊界控制器 (SBC) 之間的關係和功能。 '
-ms.openlocfilehash: e426f2d9980f49a5203bec2cb47555f94f7551f3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'SIP 主幹設定設定定義了轉送伺服器和公用交換電話網路閘道、IP 公用分支 exchange (PBX) 或會話邊界控制器 (SBC) 的服務提供者之間的關聯性和功能。 '
+ms.openlocfilehash: 7f6a0d0bd39ff466b279bbef3b5727e1d3ea17e3285e71f646b26ff2689fa760
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849918"
 ---
-# <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中修改 SIP 主幹設定設定
+# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>商務用 SkypeServerModify SIP 主幹設定設定
 
 SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段邊界控制器 (SBC) 之間的關係和功能。這些設定將指定下列項目：
 
@@ -26,9 +26,9 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 - 傳送即時傳輸控制通訊協定 (RTCP) 封包的情況。
 - 每個主幹是否需要安全即時通訊協定 (SRTP) 加密。
 
-當您安裝商務用 Skype Server 時，系統會為您建立一個全域 SIP 主幹設定的集合。 此外，系統管理員可以在網站範圍或服務範圍 (僅限 PSTN 閘道服務) 建立自訂設定集合。 您可以稍後使用商務用 Skype Server 控制台或 Windows PowerShell 修改這些集合中的任何集合。
+當您安裝商務用 Skype Server 時，系統會為您建立一個全域 SIP 主幹設定的集合。 此外，系統管理員可以在網站範圍或服務範圍 (僅限 PSTN 閘道服務) 建立自訂設定集合。 您可以稍後使用商務用 Skype Server 控制台] 或 Windows PowerShell 來修改這些集合中的任何集合。
 
-使用商務用 Skype Server Server [控制台] 修改 SIP 主幹設定設定時，您可以使用下列選項：
+使用商務用 Skype Server Server 控制台修改 SIP 主幹設定設定時，您可以使用下列選項：
 
 |UI 設定 |PowerShell 參數 |描述 |
 |--|--|--|
@@ -53,13 +53,13 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 |||
 
 > [!Note]
-> 商務用 Skype Server Get-cstrunkconfiguration Cmdlet 支援其他屬性，但不會顯示在商務用 Skype Server 控制台中。 如需詳細資訊，請參閱 [Set-CsTrunkConfiguration](/powershell/module/skype/Set-CsTrunkConfiguration) Cmdlet 的 [說明] 主題。 
+> 商務用 Skype Server get-cstrunkconfiguration Cmdlet 支援其他無法在商務用 Skype Server 控制台中顯示的屬性。 如需詳細資訊，請參閱 [Set-CsTrunkConfiguration](/powershell/module/skype/Set-CsTrunkConfiguration) Cmdlet 的 [說明] 主題。 
 
 **使用商務用 Skype Server 控制台修改 SIP 主幹設定設定**
 
-1. 在商務用 Skype Server 控制台中，依序按一下 [ **語音路由**] 和 [ **主幹** 設定]。
+1. 在 [商務用 Skype Server 控制台] 中，按一下 [**語音路由**]，然後按一下 [**主幹** 設定]。
 2. 在 [主幹組態] 索引標籤上，連按兩下要修改的主幹組態設定。請注意，一次只能編輯一個集合的設定。如果要針對多個集合進行相同的變更，請改用 Windows PowerShell。
 3. 在 [ **編輯主幹** 設定] 對話方塊中，進行適當的選擇，然後按一下 **[確定]**。
 4. 集合的 [狀態] 屬性將會更新為 [未認可]。 若要認可變更，並刪除集合，請按一下 [ **認可**]，然後按一下 [ **全部認可**]。
 5. 在 [ **未認可的語音設定] 設定** 對話方塊中，按一下 **[確定**]。
-6. 在 [ **商務用 Skype Server 控制台** ] 對話方塊中，按一下 **[確定**]。
+6. 在 [**商務用 Skype Server 控制台**] 對話方塊中，按一下 **[確定]**。

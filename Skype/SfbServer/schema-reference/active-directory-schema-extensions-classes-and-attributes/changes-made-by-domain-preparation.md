@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
 description: 下表列出 (Ace) 網域準備在網域根目錄上建立的存取控制專案。 除非另有說明，否則會繼承所有的 Ace。
-ms.openlocfilehash: 46eaedb25ca245a5426314a8118be7443fb612e1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0e139174bd711476baf54d0a9ba1d2ed6c848c1a0d47b6f020a6139d34be8a80
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831903"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349755"
 ---
 # <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>商務用 Skype Server 中的網域準備所進行的變更
  

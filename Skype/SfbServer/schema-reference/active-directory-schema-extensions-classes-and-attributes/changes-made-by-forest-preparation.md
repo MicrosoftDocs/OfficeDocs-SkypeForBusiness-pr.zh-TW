@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中進行樹系準備所進行的變更
+title: 商務用 Skype Server 中的樹系準備所進行的變更
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,20 +13,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: 本節將說明樹系準備步驟所建立的全域設定與物件，以及萬用服務和管理群組。
-ms.openlocfilehash: b304dbb12cb7e05e7bc82bdc56ffc330ce0221c7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8a613b4f71d26f06d36543ef4ec10dab39442860b0435ccd84417624d495c9fe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098649"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349725"
 ---
-# <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>在商務用 Skype Server 中進行樹系準備所進行的變更
+# <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>商務用 Skype Server 中的樹系準備所進行的變更
 
 本節將說明樹系準備步驟所建立的全域設定與物件，以及萬用服務和管理群組。
 
 ## <a name="active-directory-global-settings-and-objects"></a>Active Directory 全域設定和物件
 
-如果您將全域設定儲存在設定容器中 () 所有新的商務用 Skype Server 部署的案例，樹系準備會使用現有的服務容器，並在 Configuration\Services 物件底下新增 **RTC 服務** 物件。 在 RTC 服務物件下，樹系準備會新增 msRTCSIP-GlobalContainer 類型的 **Global Settings** 物件。 全域設定物件會包含套用至商務用 Skype Server 部署的所有設定。 如果您將全域設定儲存在「系統」容器中，則樹系準備會使用根網域「系統」容器下的 Microsoft 容器，並在 System\Microsoft 物件下新增 RTC 服務物件。
+如果您將全域設定儲存在設定容器中 (所有新的商務用 Skype Server 部署) 的情況下，樹系準備會使用現有的服務容器，並在 Configuration\Services 物件底下新增 **RTC 服務** 物件。 在 RTC 服務物件下，樹系準備會新增 msRTCSIP-GlobalContainer 類型的 **Global Settings** 物件。 全域設定物件會包含套用至商務用 Skype Server 部署的所有設定。 如果您將全域設定儲存在「系統」容器中，則樹系準備會使用根網域「系統」容器下的 Microsoft 容器，並在 System\Microsoft 物件下新增 RTC 服務物件。
 
 樹系準備也會針對執行程序的根網域，新增 **msRTCSIP-Domain** 物件。
 
@@ -60,9 +60,9 @@ ms.locfileid: "51098649"
 |:-----|:-----|
 |RTCUniversalGlobalWriteGroup  <br/> |授與商務用 Skype Server 之全域設定物件的寫入權限。  <br/> |
 |RTCUniversalGlobalReadOnlyGroup  <br/> |授與商務用 Skype Server 之全域設定物件的唯讀存取權。  <br/> |
-|RTCUniversalUserReadOnlyGroup  <br/> |授與商務用 Skype Server 使用者設定的唯讀存取權。  <br/> |
-|RTCUniversalServerReadOnlyGroup  <br/> |授與商務用 Skype 伺服器設定的唯讀存取權。 這個群組沒有集區層級設定的存取權，只能存取個別伺服器特有的設定。  <br/> |
-|RTCUniversalSBATechnicians  <br/> |授與商務用 Skype 伺服器設定的唯讀存取權，而且會放在安裝期間 survivable 分支裝置的本機系統管理員群組中。  <br/> |
+|RTCUniversalUserReadOnlyGroup  <br/> |授與商務用 Skype Server 使用者設定的唯讀許可權。  <br/> |
+|RTCUniversalServerReadOnlyGroup  <br/> |授與商務用 Skype Server 設定的唯讀存取權。 這個群組沒有集區層級設定的存取權，只能存取個別伺服器特有的設定。  <br/> |
+|RTCUniversalSBATechnicians  <br/> |授與商務用 Skype Server 設定的唯讀存取權，並將其放置在安裝期間 survivable 分支裝置的本機系統管理員群組中。  <br/> |
 
 下表說明服務群組。
 
@@ -70,11 +70,11 @@ ms.locfileid: "51098649"
 
 |**服務群組**|**描述**|
 |:-----|:-----|
-|RTCHSUniversalServices  <br/> |包含用於執行前端伺服器和 Standard Edition 伺服器的服務帳戶。 此群組可讓伺服器能夠讀取/寫入商務用 Skype Server 全域設定和 Active Directory 使用者物件的存取權。  <br/> |
+|RTCHSUniversalServices  <br/> |包含用於執行前端伺服器及 Standard Edition 伺服器的服務帳戶。 這個群組可讓伺服器可讀取/寫入存取商務用 Skype Server 通用設定和 Active Directory 使用者物件。  <br/> |
 |RTCComponentUniversalServices  <br/> |包括用來執行 A/V 會議伺服器、Web 服務、轉送伺服器、封存伺服器及監控伺服器的服務帳戶。  <br/> |
 |RTCProxyUniversalServices  <br/> |包含用來執行商務用 Skype Server Edge server 的服務帳戶。  <br/> |
 |RTCUniversalConfigReplicator  <br/> |包括可參與商務用 Skype Server 中央管理存放區複寫的伺服器。  <br/> |
-|RTCSBAUniversalServices  <br/> |授與商務用 Skype 伺服器設定的唯讀存取權，但可用於設定 survivable branch server 和 survivable branch 裝置部署的安裝。  <br/> |
+|RTCSBAUniversalServices  <br/> |授與商務用 Skype Server 設定的唯讀存取權，但允許設定 survivable branch Server 和 survivable branch 裝置部署的安裝。  <br/> |
 
 接著，樹系準備會將服務和管理群組新增到適當的基礎結構群組，如下所示：
 
@@ -110,7 +110,7 @@ ms.locfileid: "51098649"
 
 如需 RBAC 角色以及各角色可執行的工作的詳細資訊，請參閱規劃文件中的＜[Role-Based Access Control](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control)＞。
 
-樹系準備會同時建立私人與公用 ACE。 它會在商務用 Skype Server 所使用的全域設定容器上建立專用 Ace。 此容器只會由商務用 Skype 伺服器使用，而且可以位於設定容器或根域的系統容器中，視您儲存全域設定的位置而定。 樹系準備所建立的公用 ACE 列於下表。
+樹系準備會同時建立私人與公用 ACE。 它會在商務用 Skype Server 所使用的全域設定容器上建立專用 ace。 這個容器只會由商務用 Skype Server 使用，而且可以位於根域的設定容器或系統容器中，視您儲存全域設定的位置而定。 樹系準備所建立的公用 ACE 列於下表。
 
 **樹系準備建立的公用 ACE。**
 

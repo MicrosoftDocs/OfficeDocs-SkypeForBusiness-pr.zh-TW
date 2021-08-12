@@ -1,5 +1,5 @@
 ---
-title: 管理商務用 Skype Server 中的服務
+title: 在商務用 Skype Server 中管理服務
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,28 +11,28 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 瞭解如何查看服務狀態、啟動和停止服務，以及防止服務的會話。
-ms.openlocfilehash: 34228a7e1b8cf9ef044d2f1f15c4b1219f795d79
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 01190d11339dd3549177964ae766a10668bc07e679ddc1f7580ac2339514e008
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103179"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284673"
 ---
-# <a name="manage-services-in-skype-for-business-server"></a>管理商務用 Skype Server 中的服務
+# <a name="manage-services-in-skype-for-business-server"></a>在商務用 Skype Server 中管理服務
 
-您可以使用商務用 Skype Server 控制台，以查看拓撲中執行商務用 Skype 伺服器的所有電腦清單、查看服務的狀態、啟動或停止服務，以及阻止服務的會話。
+您可以使用商務用 Skype Server 控制台，在拓撲中查看所有執行商務用 Skype Server 的電腦清單、查看服務的狀態、啟動或停止服務，以及阻止服務的會話。
 
-- [查看執行商務用 Skype 伺服器的電腦清單](#view-a-list-of-computers-running-skype-for-business-server)
+- [查看執行商務用 Skype Server 的電腦清單](#view-a-list-of-computers-running-skype-for-business-server)
 - [在商務用 Skype 中查看電腦上執行的服務狀態](#view-the-status-of-services-running-on-a-computer-in-skype-for-business)
 - [啟動或停止商務用 Skype 服務](#start-or-stop-skype-for-business-services)
 - [防止服務的工作階段](#prevent-sessions-for-services)
 
-## <a name="view-a-list-of-computers-running-skype-for-business-server"></a>查看執行商務用 Skype 伺服器的電腦清單
+## <a name="view-a-list-of-computers-running-skype-for-business-server"></a>查看執行商務用 Skype Server 的電腦清單
 
 使用商務用 Skype Server 控制台，以查看拓撲中所有執行商務用 Skype 的電腦清單，並查看每個電腦的服務狀態。 您可以依電腦、集區或網站來排序清單。 
 
-1. 從指派給商務用 Skype Server 之任何預先定義的系統管理角色的使用者帳戶，登入內部部署中的任何電腦。 如需詳細資訊，請參閱 [以角色為基礎的存取控制 (用於商務用 Skype Server 的 RBAC) ](../../plan-your-deployment/security/role-based-access-control-rbac.md)。
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 如需您可以用來啟動商務用 Skype Server 控制台之不同方法的詳細資訊，請參閱 [安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
+1. 從指派為商務用 Skype Server 之任何預先定義之管理角色的使用者帳戶，登入內部部署中的任何電腦。 如需詳細資訊，請參閱[以角色為基礎的存取控制 (RBAC) 商務用 Skype Server](../../plan-your-deployment/security/role-based-access-control-rbac.md)。
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 如需可用於啟動商務用 Skype Server 控制台之不同方法的詳細資訊，請參閱[安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3. 在左導覽列中，按一下 [ **拓撲**]，然後按一下 [ **狀態**]。
 4. 在 [狀態] 頁面上，視需要執行下列其中一項動作：
     - 按一下 **[電腦]**、**[集區]** 或 **[網站]** 欄標題，然後按一下向上箭頭或向下箭頭來排序清單。
@@ -41,10 +41,10 @@ ms.locfileid: "51103179"
    
 ## <a name="view-the-status-of-services-running-on-a-computer-in-skype-for-business"></a>在商務用 Skype 中查看電腦上執行的服務狀態
 
-使用商務用 Skype Server 控制台，以查看在商務用 Skype 伺服器拓撲中的特定電腦上執行的所有服務，並查看每個服務的狀態。
+使用商務用 Skype Server 控制台，以查看您商務用 Skype Server 拓撲中特定電腦上執行的所有服務，並查看每個服務的狀態。
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需您可以用來啟動商務用 Skype Server 控制台之不同方法的詳細資訊，請參閱 [安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
+2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype Server 控制台之不同方法的詳細資訊，請參閱[安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3. 在左側導覽列中，按一下 [拓撲]。
 4. 在 [狀態] 頁面上，視需要排序或搜尋清單，以尋找您所感興趣的電腦，然後按一下電腦名稱稱。
 5. 請執行下列其中一項動作：
@@ -53,11 +53,11 @@ ms.locfileid: "51103179"
 
 ### <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 來查看服務狀態
 
-您也可以使用 Windows PowerShell 和 Get-CsWindowsService Cmdlet 來查看服務狀態。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端工作階段執行此 Cmdlet。 如需詳細資訊，請參閱 [商務用 Skype Server 管理命令](../management-shell.md)介面。
+您也可以使用 Windows PowerShell 和 Get-CsWindowsService Cmdlet 來查看服務狀態。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端工作階段執行此 Cmdlet。 如需詳細資訊，請參閱[商務用 Skype Server 管理命令](../management-shell.md)介面。
 
 **若要查看服務狀態**
 
-若要在電腦上查看服務狀態，請在商務用 Skype Server 管理命令介面中輸入類似下列的命令，然後按 Enter：
+若要在電腦上查看服務狀態，請在商務用 Skype Server 管理命令介面中輸入類似下列的命令，然後按 enter：
 
 ```powershell
 Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status
@@ -81,7 +81,7 @@ RoleName                                  Status
 
 ## <a name="start-or-stop-skype-for-business-services"></a>啟動或停止商務用 Skype 服務
 
-使用商務用 Skype Server 控制台來開始或停止在特定電腦上執行的所有商務用 Skype Server 服務，或是啟動或停止特定的服務。
+使用商務用 Skype Server 控制台，以啟動或停止在特定電腦上執行的所有商務用 Skype Server 服務，或是啟動或停止特定的服務。
 
 ### <a name="start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>啟動或停止電腦上的所有商務用 Skype Server 服務
 
@@ -91,7 +91,7 @@ RoleName                                  Status
     Get-CsAdminRoleAssignment -Identity "kenmyer"`
     ```
 
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 如需您可以用來啟動商務用 Skype Server 控制台之不同方法的詳細資訊，請參閱 [安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 如需可用於啟動商務用 Skype Server 控制台之不同方法的詳細資訊，請參閱[安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3. 在左導覽列中，按一下 [ **拓撲**]，然後按一下 [ **狀態**]。
 4. 在 [狀態] 頁面上，視需要排序或搜尋清單，找到正在執行您要啟動或停止之服務的電腦，然後按一下該電腦。
 5. 按一下 **[動作]**。
@@ -100,7 +100,7 @@ RoleName                                  Status
 ### <a name="start-or-stop-a-specific-service"></a>啟動或停止特定服務
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需您可以用來啟動商務用 Skype Server 控制台之不同方法的詳細資訊，請參閱 [安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
+2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype Server 控制台之不同方法的詳細資訊，請參閱[安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3. 在左導覽列中，按一下 [ **拓撲**]，然後按一下 [ **狀態**]。
 4. 在 [狀態] 頁面上，視需要排序或搜尋整個清單，以尋找目前正在執行您想要啟動或停止服務的電腦，然後按一下該電腦。
 5. 按一下 **[內容]**。
@@ -114,10 +114,10 @@ RoleName                                  Status
 
 使用商務用 Skype 控制台，以防止在特定電腦上執行的所有商務用 Skype Server 服務的新會話，或阻止特定服務的新會話。
 
-### <a name="prevent-new-sessions-for-all--skype-for-business-server-services-on-a-computer"></a>在電腦上阻止所有商務用 Skype Server 服務的新會話
+### <a name="prevent-new-sessions-for-all--skype-for-business-server-services-on-a-computer"></a>防止電腦上所有商務用 Skype Server 服務的新會話
 
 1. 從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需您可以用來啟動商務用 Skype Server 控制台之不同方法的詳細資訊，請參閱 [安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
+2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype Server 控制台之不同方法的詳細資訊，請參閱[安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3. 在左導覽列中，按一下 **[拓樸]**，再按一下 **[狀態]**。
 4. 在 [狀態] 頁面上，視需要排序或搜尋整個清單，以尋找目前正在執行您想要阻止新工作階段之服務的電腦，然後按一下該電腦。
 5. 按一下 **[動作]**。
@@ -126,7 +126,7 @@ RoleName                                  Status
 ### <a name="prevent-new-sessions-for-a-specific-service"></a>防止特定服務的新會話
 
 1. 從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需您可以用來啟動商務用 Skype Server 控制台之不同方法的詳細資訊，請參閱 [安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
+2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype Server 控制台之不同方法的詳細資訊，請參閱[安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3. 在左導覽列中，按一下 [ **拓撲**]，然後按一下 [ **狀態**]。
 4. 按一下 **[內容]**。
 5. 視需要排序服務清單，然後按一下要阻止新工作階段的服務。

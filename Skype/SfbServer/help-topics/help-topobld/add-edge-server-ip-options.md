@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 description: Microsoft Lync Server 2013 可讓您為 Edge Server 和 Edge 集區的每個介面設定 IPv4 和 IPv6 位址。 若要這樣做，請執行下列動作：
-ms.openlocfilehash: d8bfed4d7318133d33d733953cfcf472aa0e88ca
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 713c5030b0ca39555c57bb5ae0d36f873701c54181b46cb845d75012b3a81b65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815203"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284863"
 ---
 # <a name="add-edge-server-ip-options"></a>新增 Edge Server IP 選項
  

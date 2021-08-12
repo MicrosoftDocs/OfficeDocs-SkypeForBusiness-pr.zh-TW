@@ -22,25 +22,25 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f05be30158cf934459f26965d7cef2dafbc708f
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 13cccda1c51e1706cc83b83667dff6e2f00e535e4afd1fd50ea869633199c4d3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240476"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332605"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>使用網路規劃工具Microsoft Teams
 
-網路規劃工具是可在系統管理中心Teams工具。 您可以到規劃網路規劃工具  >  **找到它**。 在幾個步驟中，網路規劃工具可協助您判斷及組織連接Microsoft Teams使用者的網路需求。 提供網路詳細資料和 Teams 使用狀況時，網路規劃中心會計算在組織的實體位置間部署 Teams 與雲端語音的網路需求。
+網路規劃工具是可在系統管理中心Teams工具。 您可以到規劃網路規劃工具  >  **找到它**。 在幾個步驟中，網路規劃工具可協助判斷及組織連接Microsoft Teams使用者的網路需求。 提供網路詳細資料和 Teams 使用狀況時，網路規劃中心會計算在組織的實體位置間部署 Teams 與雲端語音的網路需求。
 
 ![網路規劃工具的螢幕擷取畫面](media/network-planner.png)
 
 網路規劃工具可讓您：
 
-- 使用網站和 Microsoft 建議 (辦公室工作人員、遠端工作人員，以及會議室系統Teams建立) 。
+- 使用網站和 Microsoft 建議角色建立貴組織的 (辦公室工作人員、遠端工作人員，Teams會議室) 。
 
     > [!NOTE]
-    > 建議的人物角色是根據最佳使用案例和一般使用Teams資料所開發。 不過，除了三個建議角色之外，您最多可以建立三個自訂角色。
+    > 建議的人物角色是根據最佳使用Teams和一般使用模式的資料所開發。 不過，除了三個建議角色之外，您最多可以建立三個自訂角色。
 
 - 產生報告並計算使用量Teams頻寬需求。
 
@@ -66,9 +66,9 @@ ms.locfileid: "52240476"
 
 1. 請前往系統管理中心Microsoft Teams規劃工具。
 
-2. 在 [ **網路計畫>** 選項卡上，按一下 **[新增網路方案**> 。
+2. 在 [ **網路計畫」** 選項卡上，按一下 **[新增網路方案**> 。
 
-3. 輸入網路方案的名稱和描述。 網路方案會顯示在可用方案清單中。
+3. 輸入您的網路方案名稱和描述。 網路方案會顯示在可用方案清單中。
 
 4. 按一下計畫名稱以選取新計畫。
 
@@ -107,4 +107,4 @@ ms.locfileid: "52240476"
 
 ## <a name="example-scenario"></a>範例案例
 
-若要瞭解如何使用網路規劃工具設定網路計畫，並使用這些步驟產生報表的範例，請下載網路規劃工具How-To PowerPoint組 (英文[](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)) 。
+若要瞭解如何使用網路規劃工具設定網路計畫，並使用這些步驟產生報表的範例，請下載網路規劃工具[How-To PowerPoint () 。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)

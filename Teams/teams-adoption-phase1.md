@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 53fdf891bf491b8b641b07ad4851d3763c0505c2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9d9f81b222c0b780b6e03d2394c6481f75e648ad88ef8cb1fc0a6498e53240ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312611"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams採用階段 1 - 開始
 
@@ -57,7 +57,7 @@ ms.locfileid: "49806123"
 | 訓練潛在客戶 | 管理及傳達有關Teams。 | IT 或其他 |
 | 部門主管 (專案關係人) <sup>2</sup> | 找出特定部門如何使用Teams並鼓勵互動。 | 任何部門 (管理)  |
 | IT 專家<sup>1</sup> | 監督所有技術層面的執行工作，包括整合。 | IT |
-| 通訊潛在客戶<sup>2</sup> | 監督全公司關於公司Teams。 | 公司通訊、IT 或其他 |
+| 通訊潛在客戶<sup>2</sup> | 監督全公司關於Teams。 | 公司通訊、IT 或其他 |
 | Community經理 | 管理日常網路Yammer活動。 提供指引和最佳做法。 | 多個部門 |
 
 <sup>1</sup>這些角色對於專案的成功至關重要。</br>

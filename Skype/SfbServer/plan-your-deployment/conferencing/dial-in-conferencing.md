@@ -12,20 +12,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 中規劃電話撥入式會議。
-ms.openlocfilehash: 31e422a07c34eaf17c09157c2e12ad843dbacb03
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 963f8dd29cce1e086fd797b2872000ab5cb7b1c80e7c9884675f8a89c43cbebc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814003"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349975"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>規劃商務用 Skype Server 中的電話撥入式會議
  
 **摘要：** 閱讀此主題以瞭解如何在商務用 Skype Server 中規劃電話撥入式會議。
   
-電話撥入式會議是商務用 Skype 伺服器的選用功能，可讓會議出席者使用電話撥入會議，以加入會議的音訊部分。 電話撥入式會議是音訊會議的子集，並且需要額外設定。 本主題說明在為組織部署電話撥入式會議之前，您需要考慮的事項。 
+電話撥入式會議是商務用 Skype Server 選用的功能，可讓會議出席者使用電話撥入會議以加入會議的音訊部分。 電話撥入式會議是音訊會議的子集，並且需要額外設定。 本主題說明在為組織部署電話撥入式會議之前，您需要考慮的事項。 
   
-電話撥入式會議所需的部分元件是用於撥入式會議，有些則是企業語音元件。 雖然電話撥入式會議使用企業語音所用的部分相同元件，但即使您不部署企業語音，也可以部署電話撥入式會議。 本節說明電話撥入式會議所需的元件。 如需規劃完整 Enterprise Voice 解決方案的詳細資訊，請參閱 [在商務用 Skype Server 中規劃企業語音方案](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)。
+電話撥入式會議所需的部分元件是撥入式會議所特有的，有些則是企業語音元件。 雖然電話撥入式會議使用企業語音所使用的部分相同元件，但即使您未部署企業語音，也可以部署電話撥入式會議。 本節說明電話撥入式會議所需的元件。 如需規劃完整企業語音解決方案的詳細資訊，請參閱[商務用 Skype Server 中的規劃企業語音解決方案](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)。
   
 電話撥入式會議需要您透過部署轉送伺服器，為公用交換電話網路 (PSTN) 提供連線能力。 除了部署轉送伺服器之外，您還必須考慮下列專案，以允許貴組織使用電話撥入式會議：
   
@@ -40,17 +40,17 @@ ms.locfileid: "49814003"
 - 支援 enterprise 和匿名使用者
     
 > [!NOTE]
-> 如果您部署電話撥入式會議，則必須在每個部署商務用 Skype Server 會議的集區中部署它。 在每個集區中，您不需要指派存取號碼--參與者加入會議所撥打的號碼，但是您必須在每個集區中部署撥入功能。 當使用者呼叫一個集區中的存取號碼，以在不同的集區加入商務用 Skype Server 會議時，此需求即支援記錄的名稱功能。 
+> 如果您部署電話撥入式會議，則必須在每個部署商務用 Skype Server 會議的集區中部署。 在每個集區中，您不需要指派存取號碼--參與者加入會議所撥打的號碼，但是您必須在每個集區中部署撥入功能。 當使用者呼叫一個集區中的存取號碼，以在不同的集區加入商務用 Skype Server 會議時，此需求即支援記錄的名稱功能。 
   
 ## <a name="plan-for-pstn-connectivity"></a>規劃 PSTN 連線能力
 
 電話撥入式會議至少需要一個轉送伺服器，且至少一部公用交換電話網路 (PSTN) 閘道。 
   
-您可以在中央網站或分支網站中部署轉送伺服器。 在中央網站中，您可以組合前端集區或 Standard Edition server 上的轉送伺服器，也可以將它部署在獨立的伺服器或集區上。 在分支網站中，您可以在獨立伺服器或 Survivable Branch 裝置的元件上部署轉送伺服器。
+您可以在中央網站或分支網站中部署轉送伺服器。 在中央網站中，您可以組合前端集區或 Standard Edition Server 上的轉送伺服器，也可以將它部署在獨立伺服器或集區上。 在分支網站中，您可以在獨立伺服器或 Survivable Branch 裝置的元件上部署轉送伺服器。
   
 您可以在中央網站或分支網站中部署 PSTN 閘道。 在分支網站中，PSTN 閘道可以是獨立或 Survivable 分支裝置的元件。
   
-如需有關轉送伺服器和 PSTN 閘道需求的詳細資訊，請參閱 lync [server component In 商務用 Skype 伺服器](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)、 [在商務](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)用 skype server 的拓撲產生器中部署轉送伺服器，以及 [在商務用 skype server 的拓撲產生器中定義閘道](../../deploy/deploy-enterprise-voice/define-a-gateway.md)。
+如需有關轉送伺服器和 PSTN 閘道需求的詳細資訊，請參閱商務用 Skype Server 中的轉送伺服器[元件](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)，在商務用 Skype Server 中的拓撲產生器中[部署轉送伺服器](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)，並在商務用 Skype Server 中的拓撲產生器中[定義閘道](../../deploy/deploy-enterprise-voice/define-a-gateway.md)。
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>規劃撥號對應表、存取號碼和會議地區
 
@@ -78,19 +78,19 @@ ms.locfileid: "49814003"
     
 - 預設會在會議邀請中包含區域的所有撥入存取號碼。
     
-- 請務必將地區命名為區域，使其清晰辨識。 使用者可以使用地區名稱來變更會議的區域，以邀請中包含不同的存取號碼。  (當使用者使用 Outlook 排程會議時，使用者會使用商務用 Skype 的線上會議增益集來變更地區) 。
+- 請務必將地區命名為區域，使其清晰辨識。 使用者可以使用地區名稱來變更會議的區域，以邀請中包含不同的存取號碼。  (當使用者使用 Outlook 排程會議時，使用者會使用商務用 Skype 的線上會議增益集來變更區域) 。
     
 - 應該設計區域，以便任何想要撥入會議的被邀請者，都可以在會議邀請中看到本機存取號碼。
     
-- 您可以設定地區內的存取號碼顯示在 [電話撥入式會議設定] 頁面 (，也就是透過商務用 Skype Server 管理命令介面 Cmdlet 出現在會議邀請) 中的順序。
+- 您可以設定地區內的存取號碼顯示在 [電話撥入式會議設定] (頁面上的順序，也就是在會議) 邀請中使用商務用 Skype Server 管理命令介面 Cmdlet 顯示的順序。
     
 - 任何位置的任何使用者都可以撥打任何撥入存取號碼，以加入會議。
     
-如需建立撥號對應表的詳細資訊，請參閱 [在商務用 Skype Server 中建立或修改撥號對應](../../deploy/deploy-enterprise-voice/dial-plans.md) 表，以及 [在商務用 skype 中建立或修改正規化規則](../../deploy/deploy-enterprise-voice/normalization-rules.md)。 
+如需建立撥號對應表的詳細資訊，請參閱[在商務用 Skype Server 中建立或修改撥號](../../deploy/deploy-enterprise-voice/dial-plans.md)對應表，並[在商務用 Skype 中建立或修改正規化規則](../../deploy/deploy-enterprise-voice/normalization-rules.md)。 
   
 ## <a name="plan-for-conference-directories"></a>規劃會議目錄
 
-會議目錄會維護參與者在使用商務用 Skype 時加入會議時所用的字母數位會議識別碼之間的對應，以及電話撥入式會議參與者用來加入會議的僅限數位會議識別碼。 會議識別碼的格式如下：
+會議目錄會維護參與者在使用商務用 Skype 時加入會議時使用的字母數位會議識別碼之間的對應，以及電話撥入式會議參與者用來加入會議的僅限數位會議識別碼。 會議識別碼的格式如下：
   
 
 \<housekeeping digit (1 digit)\>\<conference directory (usually 1-2 digits)\>\<conference number (variable number of digits\>\<check digit (1 digit)\>
@@ -106,18 +106,18 @@ ms.locfileid: "49814003"
     
 - 一個或多個 PSTN 存取號碼
     
-- [電話撥入式會議設定] 頁面的連結，其中包含其相關語言的完整存取號碼清單。用來建立、重設或解除封鎖個人識別碼 (Pin 碼的位置) ;和其他資訊，例如雙音調多重頻率 (DTMF) 控制項
+- 電話撥入式會議設定] 頁面的連結，包含與其相關語言完整的存取號碼清單。用來建立、重設或解除封鎖個人識別碼 (Pin 碼的位置) ;和其他資訊，例如雙音調多重頻率 (DTMF) 控制項
     
-如需有關會議原則的詳細資訊，請參閱在商務用 [Skype server 中設定電話撥入式會議](../../deploy/deploy-conferencing/dial-in-conferencing.md) ，以及 [管理商務用 skype server 中的會議原則](../../manage/conferencing/conferencing-policies.md)。  
+如需會議原則的詳細資訊，請參閱[在商務用 Skype Server 中設定電話撥入式會議商務用 Skype Server](../../deploy/deploy-conferencing/dial-in-conferencing.md)和[管理會議原則](../../manage/conferencing/conferencing-policies.md)。  
 
 ## <a name="support-for-enterprise-and-anonymous-users"></a>支援 enterprise 和匿名使用者
 
-電話撥入式會議同時支援企業和匿名使用者。 企業使用者在其組織內有 Active Directory 網域服務認證和商務用 Skype Server 帳戶。 匿名使用者在您組織內沒有企業認證。 在電話撥入式會議內容中，同盟協力廠商組織中使用 PSTN 連接至會議的使用者，會被視為匿名使用者。 與其他環境不同，電話撥入式會議並不會驗證同盟使用者。
+電話撥入式會議同時支援企業和匿名使用者。 Enterprise 使用者在其組織內有 Active Directory 網域服務認證和商務用 Skype Server 帳戶。 匿名使用者在您組織內沒有企業認證。 在電話撥入式會議內容中，同盟協力廠商組織中使用 PSTN 連接至會議的使用者，會被視為匿名使用者。 與其他環境不同，電話撥入式會議並不會驗證同盟使用者。
   
 企業使用者或會議主席欲參加已啟用撥入存取功能的會議時，要撥打其中一個會議存取號碼，然後系統會提示他們輸入會議 ID。 如果主席尚未加入會議，使用者可以輸入整合通訊 (UC) 分機 (或完整電話號碼) 和 PIN，或是等待主席准許加入會議。 會議召集人只要輸入 PIN 即可以主席身分加入會議。 前端伺服器會使用完整的電話號碼或分機和 PIN 碼的組合，將企業使用者唯一對應到其 Active Directory 認證。 因此，在會議中，企業使用者已通過驗證，而且是以名稱識別。 企業使用者也可以擔任由召集人所預先定義的會議角色。
   
 > [!NOTE]
-> 從 office IP 電話撥號或從商務用 Skype 伺服器應答撥號的企業使用者，不會提示他們輸入他們的電話號碼，因為已經過驗證。 
+> 從 office IP 電話撥入或從商務用 Skype Server 語音應答的 Enterprise 使用者，不會提示他們的電話號碼，因為已驗證。 
   
 匿名使用者欲加入電話撥入式會議時，要撥打其中一個會議存取號碼，然後系統會提示他們輸入會議 ID。未經驗證的匿名使用者還會收到提示來記錄其名稱。記錄的名稱可識別會議中未經驗證的使用者。匿名使用者要等到至少有一位主席或已驗證使用者加入會議後，才能加入會議；此外，不能指派預先定義的角色給匿名使用者。
   

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 96c49239-d999-4045-8b64-9d1940cce8ff
 description: UserAgentDef 表會將使用者代理程式識別碼對應到代理程式的描述性名稱。 使用者代理程式是用來連接至商務用 Skype Server 2015 的軟體用戶端。 此表格已引進 Microsoft Lync Server 2013。
-ms.openlocfilehash: df6f0c15f62d4fbf586861a8a6d8fc80b85df7e1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bef3d9755b7475277ed2741541d43ad813a21f14430bf3dc6c939201d011b6dc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831623"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349655"
 ---
 # <a name="useragentdef-table"></a>UserAgentDef 表格
  
@@ -26,8 +26,8 @@ UserAgentDef 表會將使用者代理程式識別碼對應到代理程式的描�
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
-|1   <br/> |MediationServer  <br/> |MediationServer  <br/> |
-|2   <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
+|1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
+|第  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
 |4   <br/> |Oc  <br/> |Oc  <br/> |
 |8   <br/> |OCPhone  <br/> |OCPhone  <br/> |
 |16   <br/> |LMC  <br/> |LMC  <br/> |

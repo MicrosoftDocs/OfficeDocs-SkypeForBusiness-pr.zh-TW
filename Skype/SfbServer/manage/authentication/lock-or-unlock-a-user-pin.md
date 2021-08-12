@@ -1,5 +1,5 @@
 ---
-title: 鎖定或解除鎖定使用者 PIN 碼中的商務用 Skype Server
+title: 鎖定或解除鎖定商務用 Skype Server 中的使用者 PIN
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,25 +12,25 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-description: 摘要：鎖定或解除鎖定使用者的電話撥入式會議 PIN 碼以供商務用 Skype Server 使用。
-ms.openlocfilehash: 46c46d2bffc8d9c0c8d3456192fb506ce754aecd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：鎖定或解除鎖定使用者的電話撥入式會議 PIN 以取得商務用 Skype Server。
+ms.openlocfilehash: d0871622a045555dcd2da49a6bbbd6721a8d3302a6bf3c7800092e4f7e062d32
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119592"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284803"
 ---
-# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>鎖定或解除鎖定使用者 PIN 碼中的商務用 Skype Server
+# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>鎖定或解除鎖定商務用 Skype Server 中的使用者 PIN
  
-**摘要：** 鎖定或解除鎖定使用者的電話撥入式會議 PIN，以供商務用 Skype Server 使用。
+**摘要：** 鎖定或解除鎖定使用者的電話撥入式會議 PIN，以供商務用 Skype Server。
   
-您可以從商務用 Skype Server 控制台的 [ **使用者** ] 區段鎖定或解除鎖定使用者的 PIN。
+您可以從商務用 Skype Server 控制台的 [**使用者**] 區段鎖定或解除鎖定使用者的 PIN。
   
 ### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>在商務用 Skype Server 控制台中鎖定使用者的 PIN
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。  
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。  
     
 3. 在左導覽列中，按一下 **[使用者]**。
     
@@ -61,7 +61,7 @@ ms.locfileid: "51119592"
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。  
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。  
     
 3. 在左導覽列中，按一下 **[使用者]**。
     
@@ -88,9 +88,9 @@ ms.locfileid: "51119592"
     
    f. 按一下使用者、**[動作]**，然後按一下 **[解除鎖定 PIN]**。
     
-## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 鎖定和解除鎖定使用者 Pin
+## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 鎖定和解除鎖定使用者 pin
 
-您可以使用 Windows PowerShell 和 Lock-CsClientPin 及 Unlock-CsClientPin Cmdlet 來鎖定和解除鎖定使用者 Pin。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行這些 Cmdlet。 如需使用遠端 Windows PowerShell 連線到商務用 Skype 伺服器的詳細資訊，請參閱博客文章 [：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。 商務用 Skype Server 中的程式相同。
+您可以使用 Windows PowerShell 和 Lock-CsClientPin 及 Unlock-CsClientPin Cmdlet 來鎖定和解除鎖定使用者 pin。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行這些 Cmdlet。 如需使用遠端 Windows PowerShell 連線到商務用 Skype Server 的詳細資訊，請參閱博客文章[：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。 商務用 Skype Server 中的程式相同。
   
 ### <a name="to-lock-a-user-pin"></a>鎖定使用者 PIN
 

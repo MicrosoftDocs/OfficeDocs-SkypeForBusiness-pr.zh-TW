@@ -13,16 +13,16 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: 瞭解貴組織中Teams使用者與消費者使用者Skype (互通性) 功能。
 localization_priority: Normal
-ms.openlocfilehash: e3203c03043dbcdb04370cf3aa26b435fad4a728
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 42a6631a70156cf150e175b7c5dd1cd661a84c77f0523e61c9d7b9313e4f81e7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093953"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312461"
 ---
 # <a name="teams-and-skype-interoperability"></a>Teams和Skype互通性
 
-本文提供您與消費者使用者Microsoft Teams之間的互通性Skype (概) 。 瞭解Teams使用者Skype使用者如何透過聊天和通話以及適用之系統管理控制項進行溝通。
+本文概觀了消費者與消費者Microsoft Teams之間的互通性Skype () 。 瞭解Teams使用者Skype使用者如何透過聊天和通話，以及所適用之系統管理控制項進行通訊。
 
 Teams中的使用者可以使用Skype與使用者聊天和通話，反之亦然。
 
@@ -53,28 +53,28 @@ Skype使用者可以使用使用者的電子郵件地址，搜尋Teams開始與�
 - 如果使用者選取 Teams，郵件會顯示在Teams 中，這可協助使用者決定是否接受或封鎖交談。
 
 > [!NOTE]
-> 如果您從 商務用 Skype 升級到 Teams，而您的使用者是使用 Teams 模式，Skype 使用者與 Teams 使用者的聊天和通話會傳送到 Teams。 如果您的使用者是群島模式，則來自Skype使用者的聊天和Teams會傳送至商務用 Skype。
+> 如果您從 商務用 Skype 升級到 Teams，而您的使用者是使用 Teams 模式，Skype 使用者與 Teams 使用者的聊天和通話會傳送到 Teams。 如果您的使用者是群島模式，則來自 Skype 使用者的聊天和Teams會傳送商務用 Skype。
 
 ### <a name="teams-user-blocks-or-unblocks-a-skype-user"></a>Teams使用者封鎖或解除封鎖Skype使用者
 
 在Teams使用者接受或封鎖使用者的初始交談Skype，他們可以選擇隨時封鎖或解除封鎖該人員。 他們可以在交談中或在交談中的隱私權設定中Teams。 Skype使用者不會知道他們遭到封鎖。
 
-封鎖Skype使用者，以及其他使用者和公用交換電話網路絡 (PSTN) Teams 使用者封鎖的電話號碼，會列在 Teams 使用者封鎖的連絡人清單中。
+封鎖Skype使用者，以及其他使用者和公用交換電話網路絡 (PSTN) Teams 使用者封鎖的電話號碼，會列在 Teams 中使用者封鎖的連絡人清單中。
 
 ## <a name="limitations"></a>限制
 
-- 交談是純文字的。 這表示沒有豐富的格式、@mentions、表情符號或其他任何原生聊天體驗中可用的聊天Teams[功能](native-chat-for-external-users.md)。
+- 交談是純文字的。 這表示沒有豐富的格式、@mentions、emoji 或其他任何可在原生聊天體驗中Teams[聊天功能](native-chat-for-external-users.md)。
 - 交談是一對一。 不支援群組聊天。
 - Teams使用者Skype使用者無法看到彼此的目前狀態。
 - 不支援Skype使用者使用Skype識別碼或電話號碼來搜尋使用者。
-- Skype使用者無法撥打設定呼叫轉撥至其他使用者號碼、代理人號碼或公用交換電話網路 (PSTN) 號碼的 Teams使用者。  僅支援語音信箱。
+- Skype使用者無法撥打 Teams設定呼叫轉撥至另一個使用者號碼、代理人號碼或公用交換電話網路 (PSTN) 號碼的) 使用者。  僅支援語音信箱。
 - 不支援交互操作升級、群組通話和會議。
 - 不支援代理人代表Skype使用者Teams呼叫使用者的能力。
 - 不支援使用聊天進行螢幕共用。
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>設定Teams使用者是否可以與Skype通訊
 
-做為系統管理員，您可以使用 Microsoft Teams系統管理中心或 PowerShell 來設定外部存取設定，Teams貴組織的使用者是否可以與Skype通訊。 根據預設，此功能會針對新租使用者開啟。 不過，如果網域尚未提供下列 DNS SRV 記錄，例如 _sipfederationtls.contoso.com，則 IT 系統管理員必須配置下列 DNS SRV 記錄。  
+做為系統管理員，您可以使用 Microsoft Teams系統管理中心或 PowerShell 來設定外部存取設定，Teams貴組織的使用者是否可以與Skype通訊。 根據預設，此功能會針對新租使用者開啟。 不過，如果網域尚未提供下列 DNS SRV 記錄 ，例如 _sipfederationtls.contoso.com，則 IT 系統管理員必須配置下列 DNS SRV 記錄。  
 
 **服務**：sipfederationtls<br/>
 **通訊協定**：TCP<br/>
@@ -87,12 +87,12 @@ Skype使用者可以使用使用者的電子郵件地址，搜尋Teams開始與�
 
 ### <a name="in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心
 
-在 Microsoft Teams系統管理中心，前往全 **組織** 設定 外部存取，然後開啟 使用者可以與Skype  >  ******通訊**。 若要取得如何設定此及其他外部存取設定之逐步指南，請參閱在 Teams 中[管理外部Teams。](./manage-external-access.md#allow-or-block-domains)
+在 Microsoft Teams系統管理中心，前往整個組織設定外部存取，然後開啟 使用者可以與Skype  >  ******通訊**。 若要取得如何設定此及其他外部存取設定之逐步指南，請參閱在 Teams 中[管理外部Teams。](./manage-external-access.md#allow-or-block-domains)
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
 請執行下列動作： 
-1. 使用[Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) Cmdlet 與參數一起控制Teams使用者是否能Skype ```EnablePublicCloudAccess``` 通訊。 將參數設定 ```true``` 為Teams使用者與Skype通訊。 您可以使用參數 ```EnablePublicCloudAudioVideoAccess``` 來啟用/停用音訊/視音訊通話。
+1. 使用[Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) Cmdlet 與參數一起控制Teams使用者是否Skype ```EnablePublicCloudAccess``` 通訊。 將參數設定 ```true``` 為Teams使用者與Skype通訊。 您可以使用參數 ```EnablePublicCloudAudioVideoAccess``` 來啟用/停用音訊/視音訊通話。
 
 2. 使用[Set-CsTenantPublicProvider Cmdlet](/powershell/module/skype/Set-CsTenantPublicProvider)與參數集，Teams使用者與Skype ```Provider``` ```"WindowsLive"``` 通訊。
 

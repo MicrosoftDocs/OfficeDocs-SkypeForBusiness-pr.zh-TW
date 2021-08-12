@@ -16,18 +16,18 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文提供螢幕顯示功能Microsoft Teams概觀。
-ms.openlocfilehash: 8b91667265531833920e31a5ab99fca307d151d0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a812aad7b26758ce41052672b20e5031da0729e7d1b1b802513ed2b311353b30
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102169"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322675"
 ---
 # <a name="microsoft-teams-displays"></a>Microsoft Teams顯示
 
-Microsoft Teams是一種一體式專用Teams裝置，具有環境觸控螢幕和 Cortana 提供免手體驗。 本文提供顯示Teams概觀，並可協助規劃、傳遞及管理Teams顯示專案。
+Microsoft Teams顯示器是一種一體式專用Teams裝置，具有環境觸控螢幕和由螢幕Cortana。 本文提供顯示Teams概觀，並可協助規劃、傳遞及管理Teams顯示內容。
 
-Teams顯示功能，將您最愛的Teams聊天、會議、通話、日曆和檔案功能彙集到 &ndash; &ndash; 單一裝置中。 有了Teams，使用者可以使用麥克風、相機和喇叭 (或藍牙耳機) ，獲得可靠的通話和會議體驗。 Teams顯示器會與使用者Windows電腦整合，以帶來可順暢跨裝置互動的配套體驗。
+Teams顯示功能，將您最愛的Teams聊天、會議、通話、日曆和檔案功能彙集到 &ndash; &ndash; 單一裝置中。 有了Teams，使用者可以使用麥克風、相機和喇叭 (耳機藍牙耳機) 通話和會議體驗。 Teams顯示器會與使用者Windows電腦整合，以帶來可順暢跨裝置互動的伴隨體驗。
 
 若要深入瞭解，請查看開始使用[Teams 顯示](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6)。
 
@@ -37,18 +37,18 @@ Teams顯示功能，將您最愛的Teams聊天、會議、通話、日曆和檔�
 
 - **適用于 Teams** 使用者可以存取所有核心Teams功能，包括聊天、會議、通話、團隊和頻道、檔案等。
 - **環境體驗** 使用者可以在主要工作裝置上輕鬆使用隨時開啟且易於流覽的顯示器，隨時查看重要活動和通知，而不需要切換內容。 使用者也可以透過設定Teams個人化顯示內容。
-- **使用 Cortana 免用手** 使用者可以使用語音Teams與顯示器互動，輕鬆加入會議並出席會議、聽寫Teams聊天的回復、查看日曆上有什麼內容等等。
+- **使用免Cortana** 使用者可以使用語音Teams與顯示器互動，輕鬆加入會議並出席會議、聽寫Teams聊天的回復、查看日曆上有什麼內容等等。
 - **在鎖定畫面上保留記事** 來賓可以選擇離開音訊、視視和文字筆記，而使用者可以檢查來賓留下的筆記，並查看誰被誰停過。  
 
 ## <a name="required-licenses"></a>必要的授權
 
-Teams授權可以購買為訂閱[Microsoft 365 Office 365的一部分](/office365/servicedescriptions/teams-service-description)。 若要深入瞭解使用顯示器Teams授權，請參閱使用 Microsoft Teams 的[語音和視Microsoft Teams。](https://products.office.com/microsoft-teams/voice-calling)
+Teams授權可以購買為訂閱和Microsoft 365 Office 365[的一部分](/office365/servicedescriptions/teams-service-description)。 若要深入瞭解使用顯示器所需的授權，請參閱Teams語音和視[Microsoft Teams。](https://products.office.com/microsoft-teams/voice-calling)
 
-若要瞭解如何取得Teams，請參閱如何存取[Microsoft Teams？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+若要瞭解如何取得Teams，請參閱如何[存取Microsoft Teams？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 ## <a name="deploy-teams-displays-using-intune"></a>使用 intune Teams顯示部署
 
-若要深入瞭解如何使用 Intune 部署Teams顯示，請參閱部署Teams[手機Teams顯示](phones-displays-deploy.md)。
+若要深入瞭解如何使用 Intune 部署Teams顯示，請參閱在手機和Teams中部署Teams[顯示](phones-displays-deploy.md)。
 
 ## <a name="manage-teams-displays-in-your-organization"></a>管理Teams顯示
 
@@ -56,7 +56,7 @@ Teams授權可以購買為訂閱[Microsoft 365 Office 365的一部分](/office36
 
 ## <a name="upgrade-teams-phones-to-teams-displays"></a>將Teams手機升級至Teams顯示
 
-Teams顯示的是手機Teams演進。 您可以使用系統管理Teams，將Teams手機升級Microsoft Teams顯示。 此選項僅適用于支援升級至Teams顯示。 若要深入瞭解，請參閱將手機[升級Teams至Teams顯示](upgrade-phones-to-displays.md)。
+Teams顯示的是手機Teams演進。 您可以使用系統管理Teams，將組織中Teams手機升級Microsoft Teams顯示。 此選項僅適用于支援升級至Teams顯示。 若要深入瞭解，請參閱將手機[升級Teams至Teams顯示](upgrade-phones-to-displays.md)。
 
 ## <a name="see-also"></a>另請參閱
 
@@ -70,4 +70,4 @@ Teams顯示的是手機Teams演進。 您可以使用系統管理Teams，將Team
 
 [將 IP 電話升級Teams顯示](upgrade-phones-to-displays.md)
 
-[Cortana 語音協助Teams](../cortana-in-teams.md)
+[Cortana語音協助Teams](../cortana-in-teams.md)

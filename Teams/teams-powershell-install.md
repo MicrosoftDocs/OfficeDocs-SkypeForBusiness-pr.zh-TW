@@ -13,16 +13,16 @@ ms.collection:
 description: 瞭解如何使用 PowerShell 控制項來管理Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a1e969a1310a64a281434a630f4fb608b8cfb30
-ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
+ms.openlocfilehash: feaed3702173061561e09ccc784bbae3173914d1a030052d56a4aaa79f7986a0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52947564"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312451"
 ---
 # <a name="install-microsoft-teams-powershell-module"></a>安裝 Microsoft Teams PowerShell 模組
 
-本文說明如何使用 PowerShell 圖庫Microsoft Teams PowerShell 模組。 所有Microsoft Teams都支援 PowerShell 模組Windows模組。 
+本文將說明如何使用 PowerShell 圖庫Microsoft Teams PowerShell 模組。 所有Microsoft Teams都支援 PowerShell 模組Windows模組。 
 
 ## <a name="requirements"></a>需求
 
@@ -68,7 +68,7 @@ Install-Module -Name MicrosoftTeams -Force -AllowClobber
 
 ## <a name="offline-installation"></a>離線安裝 
 
-在某些環境中，無法連接到 PowerShell 圖庫。 在這些情況下，請遵循這些 [手動安裝步驟](https://aka.ms/psgallery-manualdownload)。  
+在某些環境中，無法連接到 PowerShell 圖庫。 在這些情況下，請遵循這些[手動安裝步驟。](https://aka.ms/psgallery-manualdownload)  
 
 ## <a name="sign-in"></a>登錄
 
@@ -87,7 +87,7 @@ Update-Module MicrosoftTeams
 ```
 
 > [!WARNING]
-> 如果Teams PowerShell 已導入到 PowerShell 會話，更新模組將會失敗。 關閉 PowerShell，然後重新開啟新的提升的 PowerShell 會話。
+> 如果Teams PowerShell 已導入 PowerShell 會話，更新模組將會失敗。 關閉 PowerShell，然後重新開啟新的提升的 PowerShell 會話。
 
 
 ## <a name="uninstall-teams-powershell"></a>卸載 Teams PowerShell
@@ -103,7 +103,7 @@ Uninstall-Module MicrosoftTeams -Allversions
 
 ## <a name="next-steps"></a>後續步驟 
 
-現在，您可以使用 PowerShell Microsoft Teams管理Microsoft Teams應用程式。 請參閱[使用 powerShell Teams管理Teams以](teams-powershell-managing-teams.md)開始使用。 
+現在，您可以使用 PowerShell Microsoft Teams管理Microsoft Teams程式。 請參閱[使用 powerShell Teams管理Teams以](teams-powershell-managing-teams.md)開始使用。 
 
 ## <a name="related-topics"></a>相關主題
 

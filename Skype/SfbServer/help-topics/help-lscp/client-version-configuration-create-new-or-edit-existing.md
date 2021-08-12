@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
-description: 用戶端版本設定的設定可用來開啟或關閉用戶端版本控制。 全域用戶端版本設定會以商務用 Skype 伺服器進行安裝，並可用來啟用或停用整個伺服器部署的用戶端版本控制。 啟用全域設定時，所有既有的用戶端版本原則都會在使用者嘗試登入時生效。 若不想要執行用戶端版本控制，可以停用全域用戶端版本設定。
-ms.openlocfilehash: 173bd8d2eb7ca47811497e07b8824aff6a4e6a20
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 用戶端版本設定的設定可用來開啟或關閉用戶端版本控制。 全域用戶端版本設定會與商務用 Skype Server 一起安裝，用來啟用或停用整個伺服器部署的用戶端版本控制。 啟用全域設定時，所有既有的用戶端版本原則都會在使用者嘗試登入時生效。 若不想要執行用戶端版本控制，可以停用全域用戶端版本設定。
+ms.openlocfilehash: 7b08ccfa700b8d054877645bb0b94f1079b9622d2831f9fdd6f76f217e327264
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095627"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284933"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>用戶端版本組態：建立新的或編輯現有
 
-用戶端版本設定的設定可用來開啟或關閉用戶端版本控制。 全域用戶端版本設定會以商務用 Skype 伺服器進行安裝，並可用來啟用或停用整個伺服器部署的用戶端版本控制。 啟用全域設定時，所有既有的用戶端版本原則都會在使用者嘗試登入時生效。 若不想要執行用戶端版本控制，可以停用全域用戶端版本設定。
+用戶端版本設定的設定可用來開啟或關閉用戶端版本控制。 全域用戶端版本設定會與商務用 Skype Server 一起安裝，用來啟用或停用整個伺服器部署的用戶端版本控制。 啟用全域設定時，所有既有的用戶端版本原則都會在使用者嘗試登入時生效。 若不想要執行用戶端版本控制，可以停用全域用戶端版本設定。
 
 您也可以建立網站專用的用戶端版本設定，讓您能夠依網站啟用或停用用戶端版本控制。網站專用的設定優先於全域設定。
 
@@ -61,4 +61,4 @@ ms.locfileid: "51095627"
 
   - **URL** 如果您選取 [ **封鎖 WITH url** ] 或 [ **允許搭配 url**]，您可以指定要包含在錯誤訊息中的用戶端下載 URL。
 
-如需用戶端和用戶端版本間互通性的詳細資訊，請參閱規劃文件中的＜[Client Interoperability in Lync 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013)＞。 如需使用用戶端版本設定的詳細資訊，請參閱作業文件中的＜[Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted)＞。
+如需用戶端和用戶端版本間互通性的詳細資訊，請參閱規劃文件中的＜[Client Interoperability in Lync 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013)＞。如需使用用戶端版本設定的詳細資訊，請參閱作業文件中的＜[Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted)＞。

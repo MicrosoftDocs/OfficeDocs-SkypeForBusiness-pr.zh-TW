@@ -1,5 +1,5 @@
 ---
-title: 使用應用程式Teams API 提交及核准您的自訂應用程式
+title: 使用 Teams提交 API 來提交及核准您的自訂應用程式
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,19 +17,19 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何核准使用 Teams App 提交 API 提交的自訂Microsoft Teams。
-ms.openlocfilehash: 19d0378376e1abbc57d4a992a37c5c0286b9b29f
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 1a2f387e066913416f43e627456f60563d2eef51e369cd850a20684dc7e79d41
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646624"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332435"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>發佈透過應用程式提交 API Teams的自訂應用程式
 
 ## <a name="overview"></a>概觀
 
 > [!NOTE]
-> 當您發佈自訂 Teams應用程式時，組織 App Store 中的使用者可以使用自訂應用程式。 發佈自訂應用程式的方法有兩種，而您的使用方式取決於您取得應用程式的方式。 **本文著重于如何核准** 和發佈開發人員透過應用程式提交 API Teams的自訂應用程式。 另一種方法 ，即上傳自訂應用程式，是當開發人員以新的格式傳送應用程式套件.zip使用。 若要深入瞭解這個方法，請參閱上傳應用程式套件 <a href="/microsoftteams/upload-custom-apps" target="_blank">來發佈自訂應用程式</a>。 核准應用程式小工具在租使用者中GCC使用。 
+> 當您發佈自訂 Teams應用程式時，組織 App Store 中的使用者可以使用自訂應用程式。 發佈自訂應用程式的方法有兩種，而使用方式取決於您取得應用程式的方式。 **本文著重于如何核准** 和發佈開發人員透過應用程式提交 API Teams的自訂應用程式。 另一種方法 ，即上傳自訂應用程式，是當開發人員以新的格式傳送應用程式套件.zip使用。 若要深入瞭解這個方法，請參閱上傳應用程式套件 <a href="/microsoftteams/upload-custom-apps" target="_blank">來發佈自訂應用程式</a>。 核准應用程式小工具在租使用者中GCC使用。 
 
 > [!IMPORTANT]
 > 這個方法目前不適用於GCC環境。 您必須使用上傳 *自訂應用程式的方法* 。
@@ -52,7 +52,7 @@ ms.locfileid: "53646624"
 
 當應用程式可供生產使用時，開發人員可以使用 Teams App 提交 API 提交應用程式，此 API 可稱為[Graph API、](/graph/api/teamsapp-publish)整合式開發環境 (IDE) 例如 Visual Studio Code 或平臺 ，例如 Power Apps 和 Power Virtual Agents。 這麼做可在系統管理中心的 Microsoft Teams<a href="/microsoftteams/manage-apps" target="_blank"></a>管理應用程式頁面使用，而系統管理員可以在此查看及核准。
 
-Microsoft Teams 建在 Microsoft <a href="/graph/api/teamsapp-publish" target="_blank">Graph</a>上的應用程式提交 API 可讓貴組織在選擇的平臺上開發，並自動化 Teams 上自訂應用程式的提交至核准程式。
+Microsoft Teams 內建的<a href="/graph/api/teamsapp-publish" target="_blank">Graph App</a>提交 API 可讓貴組織在所選擇的平臺上開發，並自動化 Teams 上自訂應用程式的提交至核准程式。
 
 以下範例說明此應用程式提交步驟在應用程式中Visual Studio Code：
 
@@ -83,9 +83,9 @@ Microsoft Teams 建在 Microsoft <a href="/graph/api/teamsapp-publish" target="_
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
 2. 按一下應用程式名稱以前往應用程式詳細資料頁面，然後在 [發佈 **狀態** > 方塊中，選取 [ **發佈**> 。
 
-    發佈應用程式之後，發佈 **狀態會變更****為已發佈**，且 **狀態會自動** 變更為 **允許**。
+    發佈應用程式之後，發佈 **狀態會變更****為已發佈**，而狀態 **會自動** 變更為 **允許**。
 
-## <a name="set-up-and-manage"></a>設定及管理
+## <a name="set-up-and-manage"></a>設定和管理
 
 ### <a name="control-access-to-the-app"></a>控制應用程式的存取權
 
@@ -123,7 +123,7 @@ Microsoft Teams 建在 Microsoft <a href="/graph/api/teamsapp-publish" target="_
 2. 按一下應用程式名稱以前往應用程式詳細資料頁面，然後選取 [可用的更新來查看更新詳細資料。
 
     ![應用程式詳細資料頁面](media/custom-app-lifecycle-update-app.png)
-3. 當您準備好時，請選取 **發佈** 以發佈更新。 這麼做會取代現有的應用程式、更新版本號碼，以及將 **發佈狀態變更** 為 **已發佈**。 對於更新的應用程式，所有應用程式權限原則與應用程式設定策略仍然強制執行。
+3. 當您準備好時，請選取 **發佈** 以發佈更新。 這麼做會取代現有的應用程式、更新版本號碼，以及將 **發佈狀態變更** 為 **已發佈**。 對於更新的應用程式，所有應用程式權限原則與應用程式設定策略仍然會強制執行。
 
     如果您拒絕更新，應用程式的較舊版本會維持發佈狀態。
 

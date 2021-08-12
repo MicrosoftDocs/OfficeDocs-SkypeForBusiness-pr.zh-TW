@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: '瞭解如何為企業中需要使用電話加入電話會議的人員設定撥入或音訊會議。 '
-ms.openlocfilehash: ce5d80b8be0fe2e6983229be8185bcdf02e06ab6
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 48ce96b4b2ab6ad87054784bea93d8a7a45638ee6f2d86938cca1be60f30d442
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237639"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341089"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>設定音訊會議商務用 Skype
 
@@ -75,7 +75,7 @@ ms.locfileid: "52237639"
 
 當您為您的會議橋接器取得您的免費和/或免付費電話號碼後，必須指派電話號碼，以便在會議邀請中使用。  
 
-若要將新電話號碼指派給音訊會議橋接器：
+若要為音訊會議橋接器指派新電話號碼：
 
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心：**
 
@@ -133,7 +133,7 @@ ms.locfileid: "52237639"
 
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心：**
 
-1. 前往舊版 **Microsoft 365系統管理Teams**  >    >  **中心**。
+1. 前往舊  >  **Microsoft 365 系統管理中心Teams**  >  **入口網站**。
 2. 選取 **[音訊會議**  >  **使用者**，然後從清單中選取使用者，然後按一下 [**編輯**。 
 
 如需詳細資訊，請參閱[將 Microsoft 指派為音訊會議提供者](../audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider.md)。

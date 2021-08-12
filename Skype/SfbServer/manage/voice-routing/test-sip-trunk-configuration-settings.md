@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中測試 SIP 主幹設定設定
+title: 商務用 Skype Server-Test SIP 主幹設定設定
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 'SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段邊界控制器 (SBC) 之間的關係和功能。 '
-ms.openlocfilehash: 87f5b8aa07a7545f30f1d0e8b81b33197ea704c1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 'SIP 主幹設定設定可定義轉送伺服器與 PST) 閘道、PBX 或 SBC （位於服務提供者）之間的關聯性和功能。 '
+ms.openlocfilehash: b6154c1f6a608d0cac0084b3c49caf2b7aa630229464d922926f0eeb4ad20f7f
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848988"
 ---
-# <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中測試 SIP 主幹設定設定
+# <a name="skype-for-business-server---test-sip-trunk-configuration-settings"></a>商務用 Skype Server-Test SIP 主幹設定設定
 
 SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段邊界控制器 (SBC) 之間的關係和功能。這些設定將指定下列項目：
 
@@ -28,7 +28,7 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 
 當您安裝商務用 Skype Server 時，系統會為您建立一個全域 SIP 主幹設定的集合。 此外，系統管理員可以在網站範圍或服務範圍 (僅限 PSTN 閘道服務) 建立自訂設定集合。 管理員也可以使用 [Test-CsTrunkConfiguration](/powershell/module/skype/Test-CsTrunkConfiguration) Cmdlet 來驗證主幹是否可將使用者所撥打的號碼轉換為閘道可以處理的號碼。
 
-您只能使用 Windows PowerShell 和 Test-CsTrunkConfiguration Cmdlet 來測試主幹設定設定。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 
+您只能使用 Windows PowerShell 和 Test-CsTrunkConfiguration Cmdlet 來測試主幹設定設定。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話執行此 Cmdlet。 
 
 **測試 SIP 主幹設定設定**
 

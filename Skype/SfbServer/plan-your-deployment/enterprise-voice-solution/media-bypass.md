@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
-description: 在商務用 Skype Server Enterprise Voice 中規劃媒體旁路所需的決策。 包含通話許可控制 (CAC) 的交互操作。
-ms.openlocfilehash: 62a3c1605c7a54043539bc94892fdb8e3923f21a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在商務用 Skype Server 企業語音中規劃媒體旁路所需的決策。 包含通話許可控制 (CAC) 的交互操作。
+ms.openlocfilehash: 386272fd2a20d2d780f146c8eb03d75878cdf69cdfa27145d42c0421ba4ba91f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101389"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54284702"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>在商務用 Skype 中規劃媒體旁路
 
-在商務用 Skype Server Enterprise Voice 中規劃媒體旁路所需的決策。 包含通話許可控制 (CAC) 的交互操作。
+在商務用 Skype Server 企業語音中規劃媒體旁路所需的決策。 包含通話許可控制 (CAC) 的交互操作。
 
 媒體旁路是指當呼叫的轉送伺服器的信號流經轉送伺服器時，從媒體路徑移除轉送伺服器。
 
@@ -41,13 +41,13 @@ ms.locfileid: "51101389"
 
 ![語音 CAC 媒體旁路連接強制](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
-當您想要將已部署的轉送伺服器數目降至最低時，媒體旁路很有用。 一般來說，轉送伺服器集區會部署在中央網站，它會控制分支網站上的閘道。 啟用媒體旁路允許公用交換電話網路的媒體 (PSTN) 來自分支網站用戶端的呼叫，以直接透過這些網站上的閘道來流向。 商務用 Skype 伺服器的撥出電話路由和企業語音原則必須正確設定，才能讓來自分支網站之用戶端的 PSTN 呼叫路由傳送至適當的閘道。
+當您想要將已部署的轉送伺服器數目降至最低時，媒體旁路很有用。 一般來說，轉送伺服器集區會部署在中央網站，它會控制分支網站上的閘道。 啟用媒體旁路允許公用交換電話網路的媒體 (PSTN) 來自分支網站用戶端的呼叫，以直接透過這些網站上的閘道來流向。 您必須正確設定商務用 Skype Server 撥出電話路由和企業語音原則，才能將來自分支網站之用戶端的 PSTN 呼叫路由傳送至適當的閘道。
 
 Wi-Fi 網路通常會比有線網路體驗更大的封包遺失。 從這封包中復原的情況通常不是閘道可容納的內容。 因此，建議您先評估 Wi-Fi 網路的品質，再決定是否應該為無線子網啟用旁路。 延遲延遲與從封包遺失的復原也有折衷。 RTAudio，可供未略過轉送伺服器之呼叫使用的編解碼器，會更適合處理封包遺失。
 
 ## <a name="planning-your-media-bypass-deployment"></a>規劃媒體旁路部署
 
-在您的企業語音結構就緒後，規劃媒體旁路是直接的。
+在您的企業語音結構就緒之後，規劃媒體旁路是直接的。
 
 - 如果您有集中式拓撲，但沒有分支網站的 WAN 連結，您可以啟用全域媒體旁路，因為不需要微調控制項。
 
@@ -104,16 +104,16 @@ Wi-Fi 網路通常會比有線網路體驗更大的封包遺失。 從這封包�
 
     即便 CAC 已經全域停用，如果您想要使用網站與地區組態來控制旁路決策時，還是需要針對每個網站與連結定義頻寬原則。 頻寬限制或其模態的實際值無關緊要。 最終目標是讓系統自動計算不同的旁路 ID 以便和未能順利連接的不同區域產生關聯。 依據定義，定義頻寬限制代表某個連結並未順利連接。
 
-- CAC 已啟用而媒體旁路未啟用。 只有當所有閘道與 IP-PBX 並未順利連接，或是不符合其他媒體旁路需求時，才會套用此設定。 如需媒體旁路需求詳細資料，請參閱＜[Requirements for Media Bypass](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-media-bypass)＞。
+- CAC 已啟用而媒體旁路未啟用。只有當所有閘道與 IP-PBX 並未順利連接，或是不符合其他媒體旁路需求時，才會套用此設定。如需媒體旁路需求詳細資料，請參閱＜[Requirements for Media Bypass](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-media-bypass)＞。
 
 ## <a name="technical-requirements"></a>技術需求
 
-在每次呼叫 PSTN 時，轉送伺服器會判斷來源的商務用 Skype 端點中的媒體是否可以直接傳送給轉送伺服器對等，而不需遍歷轉送伺服器。 對等可以是 PSTN 閘道、IP-PBX 或網際網路電話服務提供者 (ITSP) 上的工作階段邊界控制器 (SBC) 與路由通話之中繼伺服器之間的主幹關聯。
+在每次呼叫 PSTN 時，轉送伺服器會決定是否可以直接將來源商務用 Skype 端點中的媒體傳送給轉送伺服器，而不需遍歷轉送伺服器。 對等可以是 PSTN 閘道、IP-PBX 或網際網路電話服務提供者 (ITSP) 上的工作階段邊界控制器 (SBC) 與路由通話之中繼伺服器之間的主幹關聯。
 
 符合下列需求時，可以使用媒體旁路：
 
 - 轉送伺服器對等必須支援媒體旁路所需的功能，最重要的是處理多個分叉回應 (稱為「早期對話方塊」 ) 。 請連絡閘道或 PBX 製造商或是 ITSP，以取得閘道、PBX 或 SBC 可以接受的早期對話數上限值。
 
-- 轉送伺服器對等必須直接接受來自商務用 Skype 端點的媒體流量。 許多 ITSPs 都允許其 SBC 只從轉送伺服器接收流量。 請與您的 ITSP 聯繫，以判斷其 SBC 是否直接接受來自商務用 Skype 端點的媒體流量。
+- 轉送伺服器對等必須直接接受來自商務用 Skype 端點的媒體流量。 許多 ITSPs 都允許其 SBC 只從轉送伺服器接收流量。 請與您的 ITSP 聯繫，以判斷其 SBC 是否可以直接從商務用 Skype 端點接收媒體流量。
 
-- 商務用 Skype 用戶端和轉送伺服器對等必須已正確連接，這表示它們位於相同網路地區或網路網站，這些連結是以沒有頻寬限制的 WAN 連結連線至區域。
+- 商務用 Skype 用戶端和轉送伺服器對等必須已正確連接，這表示它們要麼位於相同的網路地區，或是透過 WAN 連結（沒有頻寬限制）連接至區域的網路網站。

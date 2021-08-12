@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 系統管理員可以控制使用者可撥打的音訊會議和使用者 PSTN 通話類型。
-ms.openlocfilehash: 86622b493fbb8d31f98f600acb7158afc82e15e5
-ms.sourcegitcommit: 02703e8f9a512848e158a3a4f38d84501ad5f633
+ms.openlocfilehash: bbe2641cfd642e4ffd0cf6af901df059190740bf60ddbb8dfc5d82ba58c98380
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "52526726"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332545"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音訊會議和使用者 PSTN 通話的撥出通話限制原則
 
@@ -107,6 +107,6 @@ Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global
 |    Identity='tag：DialoutCPCDomesticPSTNDisabled'    |    會議中的使用者只能撥出到國內號碼，而且除了緊急號碼之外，此使用者無法撥打任何撥出的 PSTN 號碼。    |
 |    Identity='tag：DialoutCPCDisabledPSTNDomestic'    |    會議中的使用者無法撥出，而且此使用者只能撥打國內 PSTN 號碼。    |
 |    Identity='tag：DialoutCPCandPSTNDisabled'    |    會議中的使用者無法撥出，而且除了緊急號碼之外，此使用者無法撥打任何外撥 PSTN 號碼。    |
-|    Identity='tag：DialoutCPCZoneAPSTNInternational'    |    會議中的使用者只能撥出到 [區域 A](audio-conferencing-zones.md)國家/地區，而且此使用者可以撥打國際和國內號碼。    |
+|    Identity='tag：DialoutCPCZoneAPSTNInternational'    |    會議中的使用者只能撥出至 [區域 A](audio-conferencing-zones.md)國家/地區，而且此使用者可以撥打國際和國內號碼。    |
 |    Identity='tag：DialoutCPCZoneAPSTNDomestic'    |    會議中的使用者只能撥出到 [區域 A](audio-conferencing-zones.md)國家/地區，而且此使用者只能撥打國內 PSTN 號碼。    |
 |    Identity='tag：DialoutCPCZoneAPSTNDisabled'    |    會議中的使用者只能撥出到 [區域 A](audio-conferencing-zones.md)國家/地區，而且除了緊急號碼之外，此使用者無法撥打任何 PSTN 號碼。    |

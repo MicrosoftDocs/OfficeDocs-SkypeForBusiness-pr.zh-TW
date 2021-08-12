@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 這可協助您瞭解如何撥打每個國家/地區的免付費號碼。 選取國家/地區之後，它會將您帶至特定國家/地區頁面，其中包含免付費服務可用之免付費服務的特定詳細資料、限制和限制。 撥號格式或格式會顯示每個國家/地區撥打免付費號碼所需的存取碼。
-ms.openlocfilehash: e8232eb982808e95455d2bba66de2fdf5772f332
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0c857d730259b465092c85cddbcdcc4f9a2bd11dbbbcfa7827af28116b7dd012
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116741"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332355"
 ---
 # <a name="toll-free-dialing-restrictions-in-ecuador"></a>在拉多亞的免付費撥號限制
 

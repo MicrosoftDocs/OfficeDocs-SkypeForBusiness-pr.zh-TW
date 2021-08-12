@@ -17,25 +17,25 @@ f1.keywords:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何Teams Microsoft Power Platform 工具的整合，包括 Power BI、Power App、Power 自動化Power Virtual Agents。
-ms.openlocfilehash: c6442cd654dd8da6e26de048d50b7c80ef95cf26
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 35663c2e16afe26d339b54ba4c093beb2c8a9f7f1ade8ece1204a673cff28fd7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111039"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54312471"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams與 Microsoft Power Platform 的整合
 
-Microsoft Power Platform 可協助使用者使用低程式碼工具加速開發，以使用 **Power BI** 分析資料、使用 Power Apps 建立自訂應用程式、使用 **Power Automate** 自動化程式，以及使用 Power Virtual Agents更快速地建立智慧型 bot。  隨著遠端和混合式工作的轉移，Microsoft Teams讓世界各地的人員能夠繼續建立、共同作業及通訊。 每天使用中使用者超過 7，500 萬Teams，這是人們完成工作的一個有效專案。
+Microsoft Power Platform 可協助使用者使用低程式碼工具加速開發，以使用 **Power BI** 分析資料、使用 **Power Apps** 建立自訂應用程式、使用 **Power Automate** 自動化程式，以及使用 Power Virtual Agents更快速地建立智慧型機器人。 隨著遠端和混合式工作的轉移，Microsoft Teams讓世界各地的人員能夠繼續建立、共同作業及通訊。 每天使用中使用者超過 7，500 萬Teams，這是人們完成工作的一個有效專案。
 
-:::image type="content" source="media/teams-power-platform-integration.png" alt-text="Microsoft Power Platform Teams圖像摘要":::
+:::image type="content" source="media/teams-power-platform-integration.png" alt-text="圖片摘要Teams Microsoft Power Platform":::
 
-Microsoft Power Platform 提供許多與 Teams 的整合功能，您可以在 **Teams** 工作區中內嵌 Power BI 報表、內嵌使用 **Power Apps** 建立的應用程式做為定位字元或個人應用程式、觸發任何訊息的 Power Automate 流程或使用介面卡，以及新增使用 **Power Virtual Agents** 建立 bot 到 Teams，讓貴組織的其他成員互動。
+Microsoft Power Platform 提供許多與 Teams 的整合功能，您可以在Teams 工作區中內嵌 Power BI 報表、內嵌使用 **Power Apps** 建立的應用程式做為定位字元或個人應用程式、觸發任何訊息的 Power Automate 流程或使用介面卡，以及新增使用 **Power Virtual Agents** 建立 bot 到 Teams，讓貴組織的其他成員互動。
 
-從 2020 年 9 月開始，與 Microsoft Power Platform 的整合已改善，讓使用者無需離開 Teams *介面即可執行下列操作*：
+自 2020 年 9 月開始，與 Microsoft Power Platform 的整合已改善，讓使用者無需離開 Teams *介面即可執行下列操作*：
 
 - 使用應用程式建立及共用儀表板、報表 **Power BI，以** 做出資料導向決策。
-- 使用整合 **式 Power Apps** 工作室建立及共用低程式碼、用途型應用程式，透過連接器連接至儲存在新基礎資料平臺 (Microsoft Dataverse Teams) 、Microsoft 365 或其他資料來源中的商務資料。
+- 使用整合 **式 Power Apps** studio 建立及共用低程式碼、用途型應用程式，透過連接器連接到儲存在新基礎資料平臺 (Microsoft Dataverse Teams) 、Microsoft 365 或其他資料來源中的商務資料。
 - 在應用程式和服務之間建立自動化工作流程，以同步處理檔案、取得通知、**收集資料**，以及使用 Power Automate。
 - 使用引導式無程式碼圖形介面Power Virtual Agents建立 bot，輕鬆地在 Teams 中建立數位助理，並可供同事聊天。
 
@@ -50,7 +50,7 @@ Teams、Teams 版[Dataverse](/powerapps/teams/overview-data-platform)的新內�
  
 ## <a name="how-do-i-get-started"></a>如何開始使用？
 
-- [Power BI和Teams](/power-bi/collaborate-share/service-collaborate-microsoft-teams)
-- [Power Apps和Teams](/powerapps/teams/overview)
+- [Power BI Teams](/power-bi/collaborate-share/service-collaborate-microsoft-teams)
+- [Power Apps Teams](/powerapps/teams/overview)
 - [Power Automate Teams](/power-automate/teams/overview)
 - [Power Virtual Agents Teams](/power-virtual-agents/teams/fundamentals-what-is-power-virtual-agents-teams)

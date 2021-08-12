@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: 在本文中，您將瞭解如何進行實驗階段Microsoft Teams採用。
+description: 在本文中，您將瞭解如何進行實驗階段以Microsoft Teams採用。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f5eee1414a7b69a9f2fb03b6819e8269b3c9c62
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c93dbfbb7b3ce6955ad530e13b85fb99b5d1fc01fbbe38b02871e8d7ddae21e1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831213"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296600"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams採用階段 2 - 實驗
 

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: 媒體行檢視會儲存資料庫中每一媒體行的相關資訊。 一個音訊工作階段通常會包含一個音訊媒體行。 一個音訊和視訊 (A/V) 工作階段通常包含一個音訊媒體行和一個視訊媒體行；不過，如果使用會議裝置或使用圖庫檢視，則工作階段可能包含兩個媒體行。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: c31fe1c5b8f6ed97d49c695986ad14fd890ae26f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: fa527c31c1011fdcad38d21534e9ec1c1a4ec96e4a704dd79722313e73a39056
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802743"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296920"
 ---
 # <a name="medialine-view"></a>MediaLine view
  

@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: daro
-description: 適用于 IT 專業人員的指引，Office 365受美國政府法規規範之實體中的部署。
+description: 適用于 IT 專業人員的指引，Office 365受美國政府法規規範之實體的部署。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -19,14 +19,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e5f8df087ca7ad999a9756467925be68c60e96f
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: bf66e1d14ab283839de2b07f584386dbe542a60b20341f129a275a22b75c8e0f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52718054"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296700"
 ---
-# <a name="plan-for-office-365-government---gcc-high-deployments"></a>規劃 Office 365 政府版 - GCC部署
+# <a name="plan-for-office-365-government---gcc-high-deployments"></a>規劃Office 365 政府版 - GCC部署
 
 本指南適用于在美國聯邦政府機構中推動 Office 365 部署的 IT 專業人員，或是處理受政府法規和需求規範之資料的其他實體，而使用 Office 365 政府版 – GCC High 適合符合這些要求。
 
@@ -53,28 +53,28 @@ Office 365 政府版 - GCC高環境提供符合美國政府雲端服務需求的
 
 |    |     |
 |-----------|------------|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定 Office 365 政府版 - GCC高是否適合貴組織。</li><li>確認貴組織符合資格要求。</li></ul> |
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定 Office 365 政府版 - GCC高是否適合貴組織。</li><li>確認您的組織符合資格要求。</li></ul> |
 
 > [!Note]
 > Office 365 政府版 - GCC高僅適用于美國。 非美國政府客戶可以從許多方案Office 365 政府版[選擇](https://products.office.com/en/government/compare-office-365-government-plans)。
 
 ## <a name="step-2-apply-for-office-365-government---gcc-high"></a>步驟 2. 申請Office 365 政府版 - GCC高
 
-決定這項服務適合貴組織後，請開始申請 [這項服務程式](https://products.office.com/government/eligibility-validation)。
+決定這項服務適合貴組織後，請開始 [申請這項服務程式](https://products.office.com/government/eligibility-validation)。
 
 
 ## <a name="step-3-understand-office-365-government---gcc-high-default-security-settings"></a>步驟 3. 瞭解Office 365 政府版 - GCC高預設安全性設定。
 
-建議您在修改管理員和安全性設定之前，先花[](enable-features-office-365.md)一些時間仔細查看，並考慮對合規性的影響，然後再對預設安全性設定進行任何變更。
+我們建議您在修改管理員和安全性設定之前，先花[](enable-features-office-365.md)一些時間仔細查看，並考慮對合規性的影響，然後再對預設安全性設定進行任何變更。
 
 |    |     |
 |-----------|------------|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定是否需要修改任何預設Office 365 政府版 - GCC安全性設定，解決以先瞭解您可能進行的任何變更的影響。</li></ul> |
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>決定是否需要修改任何預設選項 - Office 365 政府版高安全性GCC，解決以先瞭解您可能進行的任何變更的影響。</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---gcc-high"></a>步驟 4. 瞭解Teams中目前提供哪些Office 365 政府版 - GCC功能
 
-為了配合我們的政府雲端客戶的需求，Teams方案中的 Teams - Office 365 政府版 高GCC與 Teams Enterprise有一些差異。 請參閱下表，瞭解哪些功能可供使用。
+為了配合我們政府雲端客戶的需求，Teams方案中的 Teams - Office 365 政府版 高GCC與 Teams之間Enterprise差異。 請參閱下表，瞭解哪些功能可供使用。
 
 [Microsoft Teams服務描述](/office365/servicedescriptions/teams-service-description)
 
@@ -88,6 +88,6 @@ Office 365 政府版 - GCC高環境提供符合美國政府雲端服務需求的
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>步驟 6. 部署Teams共同合作
 
-在您上機至 Office 365 政府版 - GCC之後，請遵循如何推出 Microsoft Teams 中[概述的建議部署Microsoft Teams。](./deploy-overview.md) 請務必與採用與變更管理團隊互動，並Teams領軍者。
+在您上機至 Office 365 政府版 - GCC之後，請遵循如何推出 Microsoft Teams 中[概述的建議部署路徑](./deploy-overview.md)。 請務必與採用與變更管理團隊互動，並Teams領軍者。
 
-您也可以與 [FastTrack](https://www.microsoft.com/fasttrack) 或您選擇的合作夥伴合作，以開始服務。
+您也可以與[合作夥伴或FastTrack](https://www.microsoft.com/fasttrack)合作，以開始服務。
