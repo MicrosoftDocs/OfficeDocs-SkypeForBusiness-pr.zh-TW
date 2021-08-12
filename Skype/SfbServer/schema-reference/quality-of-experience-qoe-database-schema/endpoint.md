@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
 description: 端點表是一種支援資料表，可儲存已參與資料庫中記錄之會話之端點的相關資訊。 資料表中的每一筆記錄都代表一個端點。
-ms.openlocfilehash: 9caa0571e562a84c1678208f0e70c27317deda3c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 821f24ae2be38a699ce1c21255a66ec4a2fa2f17e448a1cc7b69a5a91d91d714
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823063"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302197"
 ---
 # <a name="endpoint-table"></a>Endpoint 表
  

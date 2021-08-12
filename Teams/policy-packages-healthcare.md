@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 瞭解如何使用和管理適用于貴醫療保健組織的 Teams 原則套件。
-ms.openlocfilehash: 19c0fee14138b248c4e25d88a9103df4a5618598
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: 6102d6a2041db445a0a8900bce3a1c60047f33010ab54dc9e0730011c3cdc225
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796807"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316959"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>適用於醫療保健的 Teams 原則套件
 
@@ -87,7 +87,7 @@ Teams 目前包含下列醫療保健原則套件。
 將原則套件指派給使用者。如果使用者已獲指派原則，後來您指派不同的原則，則會優先處理最新的指派。
 
 > [!NOTE]
-> 每個使用者都需要進一步通訊附加元件，才能接收自訂策略套件指派。 若要詳細資訊，請參閱適用于 Microsoft Teams[的 Advanced Communications 附加Microsoft Teams。](/microsoftteams/teams-add-on-licensing/advanced-communications)
+> 每位使用者都需要 [進階通訊] 附加元件，才能接收自訂原則套件指派。 如需詳細資訊，請參閱 [Microsoft Teams 的進階通訊附加元件](/microsoftteams/teams-add-on-licensing/advanced-communications) (部分機器翻譯)。
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>將原則套件指派給一或多個使用者
 

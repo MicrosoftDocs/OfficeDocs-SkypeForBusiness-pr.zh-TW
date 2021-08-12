@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams應用程式許可權和考慮事項
+title: Microsoft Teams應用程式許可權與考慮
 author: rmw2890
 ms.author: rowille
 manager: serdars
@@ -19,23 +19,23 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ae050080814afe12ce2ba791c6b68058d5e4bc58
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4f72dadc6fae9ce77de0f892b89c0c5627779cd8849d5f4c14c8b2d7cc6716e8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120855"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288491"
 ---
-# <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams應用程式許可權和考慮事項
+# <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams應用程式許可權與考慮
 
 Microsoft Teams應用程式是一種將一或多個功能匯總到可安裝、升級和卸載的應用程式套件的方法。 這些功能包括：
 
 - 機器人
 - 訊息擴充功能
 - 索引標籤
-- 連接器
+- 連接
 
-應用程式是由使用者同意，由 IT 從策略角度進行管理。 不過，應用程式的許可權和風險設定檔大部分是由應用程式包含的許可權和風險設定檔所定義。 因此，本文著重說明功能層級的許可權與考慮。
+應用程式是由使用者同意，由 IT 從策略角度進行管理。 不過，應用程式的許可權和風險設定檔大部分是由應用程式包含的許可權和風險設定檔所定義。 因此，本文著重于功能層級的許可權與考慮。
 
 下列以大寫字母列出的許可權 ，例如 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE，不會出現在[Microsoft Teams](/microsoftteams/platform/overview)開發人員檔或 Microsoft Graph[的許可權](/graph/permissions-reference)中。 它們只是本文目的的描述性簡寫。
 
@@ -43,7 +43,7 @@ Microsoft Teams應用程式是一種將一或多個功能匯總到可安裝、�
 | 標題   | 描述    |
 |-----------|------------|
 | ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>使用下表做為指南，瞭解您調查的應用程式要求哪些許可權。</li></ul> |
-| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>研究應用程式或服務本身，決定是否要允許在貴組織中存取它。 例如，Bot 會傳送和接收來自使用者的訊息，而且除了企業自訂 Bot 之外，它們位於合規性邊界之外。 因此，任何包含 Bot 的應用程式都需要這些許可權，而且至少需要具備該風險設定檔。 </li></ul>|
+| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>研究應用程式或服務本身，決定是否要允許在貴組織中存取它。 例如，Bot 會傳送和接收來自使用者的訊息，而且除了企業自訂 Bot 之外，它們位於合規性邊界之外。 因此，任何包含 Bot 的應用程式都需要這些許可權，且至少具備該風險設定檔。 </li></ul>|
 
 另請參閱[要求您的 Microsoft Teams 許可權](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)。
 
@@ -71,7 +71,7 @@ Microsoft Teams應用程式是一種將一或多個功能匯總到可安裝、�
 
 - RECEIVE_MESSAGE，REPLYTO_MESSAGE。 Bot 可以接收使用者的郵件並回復使用者。<sup>1</sup>
 
-- POST_MESSAGE_USER。 在使用者傳送訊息給 Bot 之後，bot 可以傳送使用者直接訊息 (也稱為 *主動* 式訊息。
+- POST_MESSAGE_USER。 在使用者傳送郵件給 Bot 之後，bot 可以傳送使用者直接 (或稱為 *主動* 式訊息。
 
 - GET_CHANNEL_LIST。 新加入團隊的 Bot 可以取得團隊中頻道的名稱和 ID 清單。
 
@@ -107,13 +107,13 @@ Microsoft Teams應用程式是一種將一或多個功能匯總到可安裝、�
 
 - 當檔案送到 Bot 時，檔案會離開公司網路。 傳送和接收檔案需要使用者針對每個檔案核准。 
 
-- 根據預設，Bot 無法代表使用者採取行動，但 Bot 可以要求使用者進行登錄;使用者一旦登錄，Bot 就會有存取權杖，可以執行其他工作。 這些額外專案究竟是什麼，取決於 Bot 和使用者登錄位置：Bot 是註冊在 Azure AD App，而且可以擁有自己的一組 https://apps.dev.microsoft.com/ 許可權。
+- 根據預設，Bot 無法代表使用者採取行動，但 Bot 可以要求使用者進行登錄;使用者一旦登錄，Bot 就會有一個存取權杖，可以執行其他工作。 這些額外專案究竟是什麼，取決於 Bot 以及使用者在何處登錄：Bot 是註冊在 Azure AD 應用程式，而且可以擁有自己的一組 https://apps.dev.microsoft.com/ 許可權。
 
 - 每當使用者新加入或刪除團隊時，就會通知 Bot。
 
 - Bot 不會看到使用者的 IP 位址或其他參考資訊。 所有資訊都來自 Microsoft。  (有一個例外：如果 Bot 實現自己的登錄體驗，則登錄 UI 會看到使用者的 IP 位址和參照者資訊。) 
 
-- 另一方面，訊息擴充功能則會看到使用者的 IP 位址和參照者資訊。
+- 另一方面，訊息擴充功能會看到使用者的 IP 位址和參照者資訊。
 
 - 應用程式指導方針 (我們的 AppSource 審查程式) 需要謹慎處理，才能透過 (許可權POST_MESSAGE_TEAM使用者) 張貼個人聊天訊息。 萬一遭到濫用，使用者可以封鎖 Bot，租使用者系統管理員可以封鎖應用程式，而 Microsoft 可以視需要集中封鎖 Bot。
 
@@ -122,7 +122,7 @@ Microsoft Teams應用程式是一種將一或多個功能匯總到可安裝、�
 <sup>2</sup> 受應用程式檔案中 bot 物件上的支援Files Boolean 屬性manifest.js管理。
 
 > [!NOTE]
-> 如果 Bot 有自己的登錄，使用者第一次登錄時，第二個同意體驗會有所不同。
+> 如果 Bot 擁有自己的登錄，使用者第一次登錄時，第二個同意體驗會有所不同。
 >
 >目前，與 Teams App (Bot、Tab、連接器或訊息延伸模組) 內任何功能相關聯的 Azure AD 許可權與此處所列的 Teams 許可權完全分開。
 
@@ -142,11 +142,11 @@ SEND_AND_RECEIVE_WEB_DATA
 
 - 一個定位停駐點的風險設定檔幾乎與在瀏覽器選項卡中運行的同一個網站相同。 
 
-- 一個定位停駐點也會獲得其執行內容，包括目前使用者的登錄名稱和 UPN、目前使用者的 Azure AD 物件識別碼、其所在 Microsoft 365 群組的識別碼 (如果是團隊) 、租使用者識別碼，以及使用者的目前地區設置。 不過，若要將這些 ID 與使用者的資訊進行比對，該選項卡必須讓使用者登錄 Azure AD。
+- 一個定位停駐點也會獲得其執行內容，包括目前使用者的登錄名稱和 UPN、目前使用者的 Azure AD 物件識別碼、其所在的 Microsoft 365 群組識別碼 (如果是小組) 、租使用者識別碼，以及使用者的目前地區設置。 不過，若要將這些 ID 與使用者的資訊進行比對，該選項卡必須讓使用者登錄 Azure AD。
 
-## <a name="connectors"></a>連接器
+## <a name="connectors"></a>連接
 
-當外部系統發生事件時，連接器會張貼訊息至頻道。
+當外部系統發生事件時，連接器會將訊息張貼到頻道。
 
 ### <a name="required-permissions"></a>必要的許可權
 
@@ -154,11 +154,11 @@ POST_MESSAGE_CHANNEL
 
 ### <a name="optional-permissions"></a>選擇性許可權
 
-REPLYTO_CONNECTOR_MESSAGE。 某些連接器支援可採取動作的郵件，允許使用者將目標回復張貼到連接器郵件，例如新增回復給 GitHub 問題，或新增日期至 Trello 卡片。
+REPLYTO_CONNECTOR_MESSAGE。 某些連接器支援可採取動作的郵件，允許使用者將目標回復張貼到連接器訊息，例如新增回復給 GitHub 問題，或新增日期至 Trello 卡片。
 
 ### <a name="considerations"></a>考量
 
-- 張貼連接器郵件的系統不知道郵件的張貼物件或接收郵件者：不會公開收件者的資訊。  (Microsoft 是實際的收件者，而不是租使用者;Microsoft 會實際張貼到 channel.) 
+- 張貼連接器郵件的系統不知道郵件的張貼物件或接收郵件者：系統不會公開收件者的資訊。  (Microsoft 是實際的收件者，而不是租使用者;Microsoft 會實際張貼到 channel.) 
 
 - 當連接器訊息張貼到頻道時，沒有任何資料會離開公司網路。
 
@@ -177,7 +177,7 @@ REPLYTO_CONNECTOR_MESSAGE。 某些連接器支援可採取動作的郵件，允
 
 ## <a name="outgoing-webhooks"></a>外發網頁連結
 
-*外發網頁連結* 是由團隊擁有者或小組成員在飛航中建立。 它們不是應用程式Teams功能;這項資訊會包含完整性。
+*待發網頁連結* 是由團隊擁有者或小組成員在飛航中建立。 它們不是應用程式Teams功能;這項資訊會包含完整性。
 
 ### <a name="required-permissions"></a>必要的許可權
 

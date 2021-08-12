@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
 description: '[使用者] 表格是支援表格。 資料表中的每一筆記錄都儲存在具有資料庫中記錄的通話或會話中的一個使用者相關資訊。'
-ms.openlocfilehash: 1905efa9b87b0b94c55e3a72e8be86e9ab191661
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 09706bf5b519ce85cd52898911ad6b878b6e5056246c47154f370ae8c75cc774
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831613"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302237"
 ---
 # <a name="users-table"></a>Users 表格
  

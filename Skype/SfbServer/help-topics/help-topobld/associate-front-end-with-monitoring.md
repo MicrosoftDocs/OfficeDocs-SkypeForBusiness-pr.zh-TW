@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 description: 每個前端集區和 Survivable Branch Appliance 只能有一個相關聯的監控伺服器。當網站啟用監控時，監控伺服器會提供詳細通話記錄 (CDR) 和經驗品質 (QoE) 的資料收集與報告。
-ms.openlocfilehash: 8e6a3ce9789c3a26c7f729c76b08c2c57a7701dc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4a6f6561f9af11c2ebd317e09f7a7c5d25266fa90e79ad24969dfbeda36b0ab4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338221"
 ---
 # <a name="associate-front-end-with-monitoring"></a>建立前端與監視的關聯
  

@@ -21,13 +21,13 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
-description: 使用每個使用者的通話分析詳細資料，瞭解裝置、網路和連接能力，以疑難排解使用者Microsoft Teams通話和會議的問題。
-ms.openlocfilehash: 4732cf68624b824a452455fc779b22ae7eb32d56
-ms.sourcegitcommit: ca2230a981a1e3c03437d1ecb8727d66ad6967f9
+description: 使用每個使用者的通話分析詳細資料，瞭解裝置、網路和連線性，以疑難排解使用者Microsoft Teams通話和會議的問題。
+ms.openlocfilehash: c6c95bd5fca4a5c1da84e5eedcc150242d4757adc03d309db66bbcb9fbbe0cef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "51760558"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327369"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通話分析來疑難排解通話品質不佳的問題
 
@@ -39,11 +39,11 @@ ms.locfileid: "51760558"
 
 ## <a name="introduction-to-call-analytics"></a>通話分析簡介
 
-通話分析會顯示您Teams中每個使用者的通話和會議Office 365詳細資訊。 它包含裝置、網路、連接和通話品質 (任何一項資訊都可能是導致通話或會議品質不佳) 。 如果您上傳建築物、網站和租使用者資訊，也會針對每一個通話和會議顯示此資訊。 使用通話分析來説明您瞭解使用者為何通話或會議體驗不佳。
+通話分析會顯示您Teams中每個使用者的通話和Office 365詳細資訊。 它包含裝置、網路、連接和通話品質 (任何一項資訊都可能是導致通話或會議品質不佳) 。 如果您上傳建築物、網站和租使用者資訊，也會針對每一個通話和會議顯示此資訊。 使用通話分析來説明您瞭解使用者通話或會議體驗不佳的原因。
 
-通話分析會顯示通話或會議的每一個區段 ，例如，從一個參與者到另一個參與者。 您可以分析這些詳細資料，Teams管理員可以隔離問題區域，並找出品質不佳的根本原因。
+通話分析會顯示通話或會議的每一段 ，例如，從一位參與者到另一位參與者。 您可以分析這些詳細資料，Teams管理員可以隔離問題區域，並找出品質不佳的根本原因。
 
-作為系統管理員Teams，您可以完全存取每個使用者的所有通話分析資料。 此外，您也可以將Azure Active Directory角色指派給支援人員。 若要深入瞭解這些角色，請參閱授予支援 [與支援服務人員的許可權](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff)。 請勿錯過每個支援[角色Teams的作用？](#what-does-each-teams-support-role-do)
+作為系統管理員Teams，您可以完全存取每個使用者的所有通話分析資料。 此外，您也可以將Azure Active Directory角色指派給支援人員。 若要深入瞭解這些角色，請參閱授予支援 [與技術支援人員的許可權](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff)。 請勿錯過每個支援[角色Teams的作用？](#what-does-each-teams-support-role-do)
 
 ## <a name="where-to-find-per-user-call-analytics"></a>在哪裡可以找到每個使用者的通話分析
 
@@ -57,7 +57,7 @@ ms.locfileid: "51760558"
 
 ## <a name="what-does-each-teams-support-role-do"></a>每個支援Teams角色的作用是什麼？
 
-第 **1 層** Teams通訊支援專家 (能) 基本通話品質問題。 他們不會調查會議的問題。 相反地，他們會收集相關資訊，然後升級為通訊支援工程師。
+第 **1 層** Teams通訊支援專家 () 能處理基本通話品質問題。 他們不會調查會議的問題。 相反地，他們會收集相關資訊，然後升級為通訊支援工程師。
 
 第 **2 層** Teams通訊支援工程師 (第 2 層支援) 查看隱藏在通訊支援專家Teams通話記錄中的資訊。 下表列出每個通訊支援角色Teams的資訊。
 
@@ -66,11 +66,11 @@ ms.locfileid: "51760558"
 |活動|資訊|通訊內容<br>支援 *專家* 查看|通訊內容<br>支援 *工程師* 查看|
 |---|---|---|---|
 |**調用**|來電者名稱|只有代理程式搜尋的使用者名稱。|使用者名稱。|
-||收件者名稱|以內部使用者或外部使用者顯示。|收件者名稱。|
-||來電者電話號碼|除了最後三位數以外，整個電話號碼會以星號符號混淆。 例如，15552823 \* \* \* 。|除了最後三位數以外，整個電話號碼會以星號符號混淆。 例如，15552823 \* \* \* 。|
-||收件者電話號碼|除了最後三位數以外，整個電話號碼會以星號符號混淆。 例如，15552823 \* \* \* 。|除了最後三位數以外，整個電話號碼會以星號符號混淆。 例如，15552823 \* \* \* 。|
+||收件者名稱|顯示為內部使用者或外部使用者。|收件者名稱。|
+||來電者電話號碼|除了最後三位數以外，整個電話號碼會以星號符號混淆。 例如 \* \* \* ，15552823。|除了最後三位數以外，整個電話號碼會以星號符號混淆。 例如 \* \* \* ，15552823。|
+||收件者電話號碼|除了最後三位數以外，整個電話號碼會以星號符號混淆。 例如 \* \* \* ，15552823。|除了最後三位數以外，整個電話號碼會以星號符號混淆。 例如 \* \* \* ，15552823。|
 ||**通話詳細資料** \>**進位** 定位停駐點|未顯示資訊。|顯示的所有詳細資料，例如裝置名稱、IP 位址、子網映射等。|
-||**通話詳細資料** \>**進位** \>**調試** 鍵|未顯示資訊。|顯示的所有詳細資料，例如 DNS 尾碼和 SSID。|
+||**通話詳細資料** \>**進位** \>**調試** 定位停駐點|未顯示資訊。|顯示的所有詳細資料，例如 DNS 尾碼和 SSID。|
 |**會議**|參與者名稱|只有代理程式搜尋的使用者名稱。 識別為內部使用者或外部使用者的其他參與者。|顯示所有名稱。|
 ||參與者計數|參與者人數。|參與者人數。|
 ||會話詳細資料|會話詳細資料以例外顯示。 只會顯示代理程式搜尋的使用者名稱。 識別為內部使用者或外部使用者的其他參與者。 電話號碼的最後三位數會以星號符號混淆。|顯示會話詳細資料。 顯示使用者名稱和會話詳細資料。 電話號碼的最後三位數會以星號符號混淆。|
@@ -80,7 +80,7 @@ ms.locfileid: "51760558"
 
 1. 開啟 Teams系統管理中心 () ，然後使用您的 Teams 通訊支援或Teams <https://admin.teams.microsoft.com> 認證來登錄。
 
-2. 在儀表板 **的** 使用者 **搜尋** 中，開始輸入您想要進行疑難排解之通話之使用者的名稱或 SIP 位址，或選取查看使用者以查看使用者清單。
+2. On the **Dashboard**, in **User Search**, start typing either the name or SIP address of the user whose calls you want to troubleshoot, or select **View users** to see a list of users.
 
 3. 從清單中選取使用者。
 
@@ -97,7 +97,7 @@ ms.locfileid: "51760558"
 |問題|地區|描述|
 |---|---|---|
 |通話設定|會話|錯誤碼 Ms-diag 20-29 表示通話設定失敗。 使用者無法加入通話或會議。|
-|音訊網路分類不良通話|會話|網路品質問題 (例如封包遺失、抖動、核OS 降級、RTT 或隱藏比) 發生。|
+|音訊網路分類不良通話|會話|網路品質問題 (例如封包遺失、抖動、核OS 降級、RTT 或隱藏比) 問題。|
 |裝置無法運作|裝置|裝置無法正常運作。 裝置無法運作的比例為： <p> DeviceRenderNotFunctioningEventRatio >= 0.005 <br>  DeviceCaptureNotFunctioningEventRatio >= 0.005|
 ||||
 

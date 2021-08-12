@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
 description: 對話方塊表格是一種支援資料表，可儲存點對點工作階段之 Dialogid 的相關資訊。
-ms.openlocfilehash: a4f0bb8c63e165985ef09af8f9aafa071529bf1f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 368abb6131367434edbdf1fe142a376fe9a155277eec8b369482545146dbdc3b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816043"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302277"
 ---
 # <a name="dialogs-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的對話方塊表格
  

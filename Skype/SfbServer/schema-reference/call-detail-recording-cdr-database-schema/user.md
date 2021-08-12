@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
 description: 使用者檢視會儲存在資料庫中有記錄之通話或工作階段中所涉及的使用者相關資訊。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 03af849f9185d90d1c7888c1946b47ee2ef38db4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 200280f6a82a50490aee77177464b435e647a0a44852ca0db5b59c64bda836f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831693"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302247"
 ---
 # <a name="user-view"></a>使用者視圖
  

@@ -17,12 +17,12 @@ ms.custom: ''
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用及管理Teams組織的政策套件。
-ms.openlocfilehash: 41ae937323b37948c03128efd565f40c02bbd6a2
-ms.sourcegitcommit: 8ad05b37c0b714adb069bc2503e88366ab75c57d
+ms.openlocfilehash: d9c229e9795a9e93caed37832baf0b03ef58c47305f41d2961420eea485bc608
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "52796867"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316989"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams政府政策套件
 
@@ -45,7 +45,7 @@ Teams目前包含下列政府政策套件。
 
 |Microsoft Teams 系統管理中心所列的套件名稱|最適合用於|描述 |
 |---------|---------|---------|
-|公共安全專員  |貴政府組織的公開安全人員  |建立一組套套用至貴組織的公安人員之原則與原則設定。 |
+|公共安全專員  |貴政府組織的公開安全人員  |建立一組套套用至貴組織的公開安全人員之原則與原則設定。 |
 |前線管理員  |您政府組織的前線管理員 |建立一組原則，並套用這些設定給貴組織的前線管理員。|
 |前線工作人員  |您政府組織的前線工作人員 |建立一組原則，並套用這些設定給貴組織的前線工作人員。|
 
@@ -74,7 +74,7 @@ Teams目前包含下列政府政策套件。
 將原則套件指派給使用者。如果使用者已獲指派原則，後來您指派不同的原則，則會優先處理最新的指派。
 
 > [!NOTE]
-> 每個使用者都需要進一步通訊附加元件，才能接收自訂策略套件指派。 若要詳細資訊，請參閱適用于 Microsoft Teams[的 Advanced Communications 附加Microsoft Teams。](/microsoftteams/teams-add-on-licensing/advanced-communications)
+> 每位使用者都需要 [進階通訊] 附加元件，才能接收自訂原則套件指派。 如需詳細資訊，請參閱 [Microsoft Teams 的進階通訊附加元件](/microsoftteams/teams-add-on-licensing/advanced-communications) (部分機器翻譯)。
 
 #### <a name="assign-a-policy-package-to-one-or-several-users"></a>將原則套件指派給一或多個使用者
 

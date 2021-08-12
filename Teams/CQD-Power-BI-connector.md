@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 安裝 Power BI 連接器，以在 CQD (中) 通話品質儀表板
-ms.openlocfilehash: 388dddc683340238ccff968261595bd46d4bfc65e323cfd1929f699d3c5eed83
-ms.sourcegitcommit: 02485b5f4bc8de106b064adf5c96dfc041f64e34
+ms.openlocfilehash: 535a1d067dff81c8019a1c08d1a2a617019300989f515f97f89f471e845ca885
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "57799054"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288501"
 ---
 # <a name="install-microsoft-call-quality-connector-for-power-bi-to-use-call-quality-dashboard-query-templates"></a>安裝 Microsoft 通話品質連接器Power BI使用通話品質儀表板查詢範本
 
@@ -85,9 +85,6 @@ ms.locfileid: "57799054"
 3. 接下來，選取您想要篩選的任何維度，並將這些維度拖曳到篩選窗格此視覺欄位 *上的篩選。* Microsoft 通話品質連接器目前支援基本篩選 (從可能維度值) 、進位篩選 (清單中選取值以手動指定要篩選的值和運算元，類似通話品質儀表板 *) ，* 以及僅適用于結束時間和開始時間維度) 的相對日期篩選 (。    通話品質儀表板不支援根據 *前 N* 個篩選。
 
     ![螢幕擷取畫面：Power BI連接器](media/CQD-power-bi-connector5-resize.png)
-
-    > [!IMPORTANT]
-    > 只有在適用于維度時，才支援篩選。 通話品質儀表板不支援篩選度量值。
 
 4. 最後，選取視覺效果 *窗格中* 的格式索引鍵，以為查詢設置樣式和格式。
 

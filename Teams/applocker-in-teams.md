@@ -16,12 +16,12 @@ description: 瞭解如何使用 AppLocker 應用程式Teams啟用桌面用戶端
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d6e6040956ba5e5469076b4fbbab337f58268c68
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b68d698ffcb703e70e12f3801ff70fb0719bb17cb09e23facf47121529a86b0b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120845"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54288441"
 ---
 # <a name="applocker-application-control-policies-in-microsoft-teams"></a>應用程式中的 AppLocker 應用程式控制Microsoft Teams
 
@@ -35,7 +35,7 @@ AppLocker 規則會整理成規則集合。 AppLocker 規則會適用于目標�
 
 若要允許Teams，建議您使用發行者條件規則，因為所有[](/windows/security/threat-protection/windows-defender-application-control/applocker/understanding-the-publisher-rule-condition-in-applocker)應用程式Teams都是數位簽章。
   
-我們不建議您使用路徑規則，因為Teams目錄是使用者可寫入的。 我們不建議使用雜湊規則，因為每次更新用戶端應用程式時，規則Teams更新。
+我們不建議您使用路徑規則，因為Teams目錄是使用者可寫入的。 我們不建議使用雜湊規則，因為每次更新用戶端應用程式時，Teams規則必須更新。
 
 由於Teams可執行檔案是數位簽章，因此發行者條件會根據應用程式的數位簽章和內嵌版本屬性來識別應用程式檔案。 數位簽章包含建立應用程式檔案的公司資訊， (發行者) 。 從二進位資源取得的版本資訊，包括檔案屬於其中一部分的產品名稱，以及應用程式檔案的版本號碼。
 

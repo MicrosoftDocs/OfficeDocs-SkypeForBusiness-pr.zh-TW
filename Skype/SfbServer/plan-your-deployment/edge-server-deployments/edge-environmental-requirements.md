@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 摘要：瞭解商務用 Skype Server 中 Edge Server 的環境需求。
-ms.openlocfilehash: 8370fb2c8fa8a9b1d083ba336decd85715e31d25
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c5ca6786d2935209930fe815ea32a24643febb18a7df87f29b26f3c396ca0c66
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095017"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302527"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>商務用 Skype Server 中的 Edge Server 環境需求
  
 **摘要：** 深入瞭解商務用 Skype Server 中的 Edge Server 環境需求。
   
-在商務用 Skype Server Edge Server 環境本身之外，必須進行許多規劃與準備工作。 在本文中，我們將回顧在組織環境中所需進行的準備工作，如下列清單所示：
+您必須在商務用 Skype Server Edge Server 環境本身之外進行許多規劃與準備工作。 在本文中，我們將回顧在組織環境中所需進行的準備工作，如下列清單所示：
   
 - [拓撲規劃](edge-environmental-requirements.md#TopoPlan)
     
@@ -40,7 +40,7 @@ ms.locfileid: "51095017"
 ## <a name="topology-planning"></a>拓撲規劃
 <a name="TopoPlan"> </a>
 
-商務用 Skype Server Edge Server 拓撲可供使用：
+商務用 Skype ServerEdge Server 拓撲可使用：
   
 - 可路由的公用 IP 位址。
     
@@ -53,7 +53,7 @@ ms.locfileid: "51095017"
   
 - 您必須在 **所有三個** 外部介面上使用可路由的私人 IP 位址。
     
-- 您必須針對內送和外送流量設定 **對稱** NAT。 對稱 NAT 是唯一支援的 NAT，可搭配商務用 Skype Server Edge Server 使用。
+- 您必須針對內送和外送流量設定 **對稱** NAT。 「對稱 nat」是唯一支援的商務用 Skype Server Edge Server 所能使用的 nat。
     
 - 將您的 NAT 設定為不變更傳入來源位址。 A/V Edge service 必須能夠接收傳入的來源位址，以找出最佳的媒體路徑。
     
@@ -65,7 +65,7 @@ ms.locfileid: "51095017"
   
 ### <a name="summary-of-edge-server-topology-options"></a>Edge Server 拓撲選項摘要
 
-在商務用 Skype Server Edge Server 部署中，我們有數種拓撲選項可供使用：
+我們有數個可用於商務用 Skype Server Edge Server 部署的拓撲選項：
   
 - 單一合併 Edge （利用私人 IP 位址及 NAT）
     
@@ -87,7 +87,7 @@ ms.locfileid: "51095017"
 |調整式合併 Edge （利用公用 IP 位址 (DNS 負載平衡）)   <br/> |是  <br/> |是  <br/> |是  <br/> |是&sup1;  <br/> |
 |調整式合併 Edge （使用硬體負載平衡器）  <br/> |是  <br/> |否 (每個 VIP 各一個 DNS A 記錄)  <br/> |是  <br/> |是  <br/> |
    
-&sup1;Exchange 整合通訊 (UM) 使用 DNS 負載平衡的遠端使用者容錯移轉需要 Exchange 2013 或更新版本。
+&sup1;Exchange整合通訊 (UM) 使用 DNS 負載平衡的遠端使用者容錯移轉需要 Exchange 2013 或更新版本。
   
 ### <a name="ip-address-requirements"></a>IP 位址需求
 
@@ -102,16 +102,16 @@ ms.locfileid: "51095017"
 
 |**每個集區的 Edge Server 數目**|**DNS 負載平衡所需的 IP 位址數目**|**硬體負載平衡所需的 IP 位址數目**|
 |:-----|:-----|:-----|
-|2   <br/> |6   <br/> |3 (每個 VIP 各 1 個) + 6  <br/> |
+|第  <br/> |6   <br/> |3 (每個 VIP 各 1 個) + 6  <br/> |
 |3   <br/> |9   <br/> |3 (每個 VIP 各 1 個) + 9  <br/> |
 |4   <br/> |12   <br/> |3 (每個 VIP 各 1 個) + 12  <br/> |
-|5   <br/> |15   <br/> |每個 VIP 3 (1) + 15  <br/> |
+|5   <br/> |8  <br/> |每個 VIP 3 (1) + 15  <br/> |
    
 #### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>縮放合併 Edge 的 IP 位址需求所有角色 (單一 IP 位址) 
 
 |**每個集區的 Edge Server 數目**|**DNS 負載平衡所需的 IP 位址數目**|**硬體負載平衡所需的 IP 位址數目**|
 |:-----|:-----|:-----|
-|2   <br/> |2   <br/> |1 (每個 VIP 各 1 個) + 2  <br/> |
+|第  <br/> |第  <br/> |1 (每個 VIP 各 1 個) + 2  <br/> |
 |3   <br/> |3   <br/> |1 (每個 VIP 各 1 個) + 3  <br/> |
 |4   <br/> |4   <br/> |1 (每個 VIP 各 1 個) + 4  <br/> |
 |5   <br/> |5   <br/> |1 (每個 VIP 各 1 個) + 5  <br/> |
@@ -124,7 +124,7 @@ ms.locfileid: "51095017"
     
   - 外部存取 Exchange 2007 或 Exchange 2010 (，但沒有 SP) 整合通訊 (UM) 。
     
-- **Dns 負載平衡**：針對 UM，Exchange 2010 SP1 和更新版本可由 DNS 負載平衡所支援。 請注意，如果您需要與舊版 Exchange 使用 DNS 負載平衡，它會正常運作，但是此項的所有流量都會移至集區中的第一部伺服器; 如果無法使用，則該流量會隨後失敗。
+- **dns 負載平衡**：針對 UM，Exchange 2010 SP1 和更新版本可由 DNS 負載平衡所支援。 請注意，如果您需要為舊版的 Exchange 使用 DNS 負載平衡，它會正常運作，但是此項的所有流量都會移至集區中的第一部伺服器; 如果無法使用，則該流量會隨後失敗。
     
     如果您使用下列方式與公司同盟，也建議使用 DNS 負載平衡：
 - 商務用 Skype Server 2015：
@@ -139,7 +139,7 @@ ms.locfileid: "51095017"
 ## <a name="dns-planning"></a>DNS 規劃
 <a name="DNSPlan"> </a>
 
-當您進入商務用 Skype Server Edge Server 部署時，請務必正確地準備 DNS。 適當的記錄適當時，部署會變得更簡單。 但願您已在上述區段中選擇拓撲，正如我們即將執行概要，然後列出幾個表格，以概括顯示這些案例的 DNS 記錄。 如果您需要，我們也會為 [商務用 Skype 伺服器進行一些高級 Edge SERVER DNS 規劃](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) ，以進行更深入的閱讀。
+商務用 Skype Server Edge Server 部署時，請務必正確地準備 DNS。 適當的記錄適當時，部署會變得更簡單。 但願您已在上述區段中選擇拓撲，正如我們即將執行概要，然後列出幾個表格，以概括顯示這些案例的 DNS 記錄。 如果您需要，我們也會為商務用 Skype Server 的一些[高級 Edge Server DNS 規劃](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md)，以進行更深入的閱讀。
   
 ### <a name="dns-records-for-single-consolidated-edge-server-scenarios"></a>單一合併 Edge Server 案例的 DNS 記錄
 
@@ -148,7 +148,7 @@ ms.locfileid: "51095017"
 - 內部網路介面卡： 172.25.33.10 (未指派任何預設閘道) 
     
     > [!NOTE]
-    > 確定有從包含 Edge 內部介面的網路，路由傳送至任何包含執行商務用 Skype Server 或 Lync Server 2013 用戶端之伺服器的網路 (例如，從172.25.33.0 到 192.168.10.0) 。 
+    > 確定有從包含 Edge 內部介面的網路到包含執行商務用 Skype Server 或 Lync Server 2013 客戶 (端之伺服器的網路的路由，例如從172.25.33.0 到 192.168.10.0) 。 
   
 - 外部網路介面卡：
     
@@ -160,7 +160,7 @@ ms.locfileid: "51095017"
     
   - A/V Edge： 131.107.155.30 (次要) 
     
-  Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv4 (第4版的屬性] 的 [高級] 區段中， (次要) IP 位址的其他的 IP 位址。
+  Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (的 [高級] 區段中的次要) IP 位址，以及 TCP/IPv4 Server 中的局域線上內容之 [internet protocol version 6)  (TCP/IPv6。
     
   - 私人 Ip：
     
@@ -170,22 +170,22 @@ ms.locfileid: "51095017"
     
   - A/V Edge： 10.45.16.30 (次要) 
     
-Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv4 (第4版的屬性] 的 [高級] 區段中， (次要) IP 位址的其他的 IP 位址。
+Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (的 [高級] 區段中的次要) IP 位址，以及 TCP/IPv4 Server 中的局域線上內容之 [internet protocol version 6)  (TCP/IPv6。
   
 > [!TIP]
 >其他可能的設定如下：
   
-- 您可以在外部網路介面卡上使用一個 IP 位址。 建議您不要這麼做，因為接下來，您需要使用不同的埠來區分 thee 服務 (您可以在商務用 Skype Server) ，但是有些防火牆可能會封鎖備用埠。 如需此方面的詳細資訊，請參閱 [埠與防火牆計畫](edge-environmental-requirements.md#PortFirewallPlan) 一節。
+- 您可以在外部網路介面卡上使用一個 IP 位址。 建議您不要這麼) 商務用 Skype Server 做，因為接下來，您將需要使用 (的不同埠來區分 thee 服務，但有些防火牆可能會封鎖備用埠。 如需此方面的詳細資訊，請參閱 [埠與防火牆計畫](edge-environmental-requirements.md#PortFirewallPlan) 一節。
     
 - 您可以有三個外部網路介面卡，而不是一個，而將其中一個服務 Ip 指派給每個。 為何這麼做？ 它會分開服務，如果發生錯誤，則會使疑難排解變得更容易，當您解決問題時，可能會讓其他服務繼續運作。
     
-|**位置**|**Type**|**Port**|**FQDN 或 DNS 記錄**|**IP 位址或 FQDN**|**附註**|
+|**位置**|**類型**|**Port**|**FQDN 或 DNS 記錄**|**IP 位址或 FQDN**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |sip.contoso.com  <br/> |**public：** 131.107.155.10 <br/> **私人：** 10.45.16.10 <br/> |Access Edge service 的外部介面。 您將需要使用商務用 Skype 使用者的每個 SIP 網域的一個。  <br/> |
+|外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |sip.contoso.com  <br/> |**public：** 131.107.155.10 <br/> **私人：** 10.45.16.10 <br/> |Access Edge service 的外部介面。 您將需要商務用 Skype 使用者的每個 SIP 網域的一個。  <br/> |
 |外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**public：** 131.107.155.20 <br/> **私人：** 10.45.16.20 <br/> |Web 會議 Edge service 的外部介面。  <br/> |
 |外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |av.contoso.com  <br/> |**public：** 131.107.155.30 <br/> **私人：** 10.45.16.30 <br/> |A/V Edge service 的外部介面。  <br/> |
-|外部 DNS  <br/> |SRV 記錄  <br/> |443  <br/> |_sip _sip._tls .com  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 商務用 Skype Server、Lync Server 2013 和 Lync Server 2010 用戶端必須使用此 SRV 記錄，才能在外部工作。 您將需要每個網域的一個供商務用 Skype 使用者使用。  <br/> |
-|外部 DNS  <br/> |SRV 記錄  <br/> |5061  <br/> |_sipfederationtls _sipfederationtls._tcp .com  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 自動 DNS 探索稱為「允許的 SIP 網域」的同盟合作夥伴需要此 SRV 記錄。 您將需要每個網域的一個供商務用 Skype 使用者使用。  <br/> |
+|外部 DNS  <br/> |SRV 記錄  <br/> |443  <br/> |_sip _sip._tls .com  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 商務用 Skype Server、lync server 2013 和 lync server 2010 用戶端可以在外部工作時，需要此 SRV 記錄。 您將需要商務用 Skype 使用者的每個網域的一個。  <br/> |
+|外部 DNS  <br/> |SRV 記錄  <br/> |5061  <br/> |_sipfederationtls _sipfederationtls._tcp .com  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 自動 DNS 探索稱為「允許的 SIP 網域」的同盟合作夥伴需要此 SRV 記錄。 您將需要商務用 Skype 使用者的每個網域的一個。  <br/> |
 |內部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10  <br/> |合併 Edge 的內部介面。  <br/> |
    
 ### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>調整式 DNS 和硬體 Edge Server 案例的 DNS 記錄
@@ -199,7 +199,7 @@ Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv
   - 節點2： 172.25.33.11 (未指派任何預設閘道) 
     
     > [!NOTE]
-    > 確定有從包含 Edge 內部介面的網路，路由傳送至任何包含執行商務用 Skype Server 或 Lync Server 2013 用戶端之伺服器的網路 (例如，從172.25.33.0 到 192.168.10.0) 。 
+    > 確定有從包含 Edge 內部介面的網路到包含執行商務用 Skype Server 或 Lync Server 2013 客戶 (端之伺服器的網路的路由，例如從172.25.33.0 到 192.168.10.0) 。 
   
 - 外部網路介面卡：
     
@@ -213,7 +213,7 @@ Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv
     
         - A/V Edge： 131.107.155.30 (次要) 
     
-          Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv4 (第4版的屬性] 的 [高級] 區段中， (次要) IP 位址的其他的 IP 位址。
+          Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (的 [高級] 區段中的次要) IP 位址，以及 TCP/IPv4 Server 中的局域線上內容之 [internet protocol version 6)  (TCP/IPv6。
     
     - 私人 Ip：
     
@@ -223,7 +223,7 @@ Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv
     
          - A/V Edge： 10.45.16.30 (次要) 
     
-      Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv4 (第4版的屬性] 的 [高級] 區段中， (次要) IP 位址的其他的 IP 位址。
+      Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (的 [高級] 區段中的次要) IP 位址，以及 TCP/IPv4 Server 中的局域線上內容之 [internet protocol version 6)  (TCP/IPv6。
     
   - 節點2
     
@@ -235,7 +235,7 @@ Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv
     
       - A/V Edge： 131.107.155.31 (次要) 
     
-      Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv4 (第4版的屬性] 的 [高級] 區段中， (次要) IP 位址的其他的 IP 位址。
+      Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (的 [高級] 區段中的次要) IP 位址，以及 TCP/IPv4 Server 中的局域線上內容之 [internet protocol version 6)  (TCP/IPv6。
     
   - 私人 Ip：
     
@@ -245,43 +245,43 @@ Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv
     
     - A/V Edge： 10.45.16.31 (次要) 
     
-      Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv4 (第4版的屬性] 的 [高級] 區段中， (次要) IP 位址的其他的 IP 位址。
+      Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (的 [高級] 區段中的次要) IP 位址，以及 TCP/IPv4 Server 中的局域線上內容之 [internet protocol version 6)  (TCP/IPv6。
     
 其他可能的設定如下：
   
-- 您可以在外部網路介面卡上使用一個 IP 位址。 建議您不要這麼做，因為接下來，您需要使用不同的埠來區分 thee 服務 (您可以在商務用 Skype Server) ，但是有些防火牆可能會封鎖備用埠。 如需此方面的詳細資訊，請參閱 [埠與防火牆計畫](edge-environmental-requirements.md#PortFirewallPlan) 一節。
+- 您可以在外部網路介面卡上使用一個 IP 位址。 建議您不要這麼) 商務用 Skype Server 做，因為接下來，您將需要使用 (的不同埠來區分 thee 服務，但有些防火牆可能會封鎖備用埠。 如需此方面的詳細資訊，請參閱 [埠與防火牆計畫](edge-environmental-requirements.md#PortFirewallPlan) 一節。
     
 - 您可以有三個外部網路介面卡，而不是一個，而將其中一個服務 Ip 指派給每個。 為何這麼做？ 它會分開服務，如果發生錯誤，則會使疑難排解變得更容易，當您解決問題時，可能會讓其他服務繼續運作。
     
-|**位置**|**Type**|**Port**|**FQDN 或 DNS 記錄**|**IP 位址或 FQDN**|**附註**|
+|**位置**|**類型**|**Port**|**FQDN 或 DNS 記錄**|**IP 位址或 FQDN**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |sip.contoso.com  <br/> |**public：** 131.107.155.10 和131.107.155.11 <br/> **private：** 10.45.16.10 和10.45.16.11 <br/> |Access Edge service 的外部介面。 您將需要使用商務用 Skype 使用者的每個 SIP 網域的一個。  <br/> |
+|外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |sip.contoso.com  <br/> |**public：** 131.107.155.10 和131.107.155.11 <br/> **private：** 10.45.16.10 和10.45.16.11 <br/> |Access Edge service 的外部介面。 您將需要商務用 Skype 使用者的每個 SIP 網域的一個。  <br/> |
 |外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**public：** 131.107.155.20 和131.107.155.21 <br/> **private：** 10.45.16.20 和10.45.16.21 <br/> |Web 會議 Edge service 的外部介面。  <br/> |
 |外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |av.contoso.com  <br/> |**public：** 131.107.155.30 和131.107.155.31 <br/> **private：** 10.45.16.30 和10.45.16.31 <br/> |A/V Edge service 的外部介面。  <br/> |
-|外部 DNS  <br/> |SRV 記錄  <br/> |443  <br/> |_sip _sip._tls .com  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 商務用 Skype Server、Lync Server 2013 和 Lync Server 2010 用戶端必須使用此 SRV 記錄，才能在外部工作。 您將需要每個具有商務用 Skype 之網域的一個。  <br/> |
-|外部 DNS  <br/> |SRV 記錄  <br/> |5061  <br/> |_sipfederationtls _sipfederationtls._tcp .com  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 自動 DNS 探索稱為「允許的 SIP 網域」的同盟合作夥伴需要此 SRV 記錄。 您將需要每個具有商務用 Skype 之網域的一個。  <br/> |
+|外部 DNS  <br/> |SRV 記錄  <br/> |443  <br/> |_sip _sip._tls .com  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 商務用 Skype Server、lync server 2013 和 lync server 2010 用戶端可以在外部工作時，需要此 SRV 記錄。 您將需要每個具有商務用 Skype 的網域的一個。  <br/> |
+|外部 DNS  <br/> |SRV 記錄  <br/> |5061  <br/> |_sipfederationtls _sipfederationtls._tcp .com  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 自動 DNS 探索稱為「允許的 SIP 網域」的同盟合作夥伴需要此 SRV 記錄。 您將需要每個具有商務用 Skype 的網域的一個。  <br/> |
 |內部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10 及 172.25.33.11  <br/> |合併 Edge 的內部介面。  <br/> |
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>所有案例的同盟 (DNS 記錄) 
 
-|**位置**|**Type**|**Port**|**FQDN**|**FQDN 主機記錄**|**附註**|
+|**位置**|**類型**|**Port**|**FQDN**|**FQDN 主機記錄**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|外部 DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp .com  <br/> |sip.contoso.com  <br/> |自動 DNS 探索所需的 SIP 存取 Edge 外部介面。 其他潛在同盟協力廠商使用。 也稱為「允許 SIP 網域」。 使用商務用 Skype 使用者時，您將需要使用其中一種 SIP 網域。  <br/><br/> **附注：** 您將需要此 SRV 記錄的行動性及推播通知結算。 <br/> |
+|外部 DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp .com  <br/> |sip.contoso.com  <br/> |自動 DNS 探索所需的 SIP 存取 Edge 外部介面。 其他潛在同盟協力廠商使用。 也稱為「允許 SIP 網域」。 您將需要與商務用 Skype 使用者一起使用的每個 SIP 網域的其中一個。  <br/><br/> **附注：** 您將需要此 SRV 記錄的行動性及推播通知結算。 <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>可延伸訊息和顯示狀態通訊協定的 DNS 記錄
 
-|**位置**|**Type**|**Port**|**FQDN**|**IP 位址或 FQDN 主機記錄**|**附註**|
+|**位置**|**類型**|**Port**|**FQDN**|**IP 位址或 FQDN 主機記錄**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|外部 DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp .com  <br/> |xmpp.contoso.com  <br/> |您的 Access Edge service 或 Edge 集區上的 XMPP proxy 介面。 您必須針對具有商務用 Skype 伺服器的使用者啟用所有內部 SIP 網域，針對所有內部 SIP 網域重複此動作，以便允許透過下列方式聯繫 XMPP 連絡人：  <br/> •全域原則  <br/> •使用者已啟用的網站原則  <br/> •套用到啟用商務用 Skype Server 之使用者的使用者原則  <br/> 您也需要在 XMPP 同盟使用者原則中設定允許的 XMPP 原則。  <br/> |
+|外部 DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp .com  <br/> |xmpp.contoso.com  <br/> |您的 Access Edge service 或 Edge 集區上的 XMPP proxy 介面。 您必須針對具有商務用 Skype Server 已啟用使用者的所有內部 SIP 網域，依需要重複此動作，以便允許具有已啟用之連絡人的連絡人：  <br/> •全域原則  <br/> •使用者已啟用的網站原則  <br/> •套用至商務用 Skype Server 已啟用使用者的使用者原則  <br/> 您也需要在 XMPP 同盟使用者原則中設定允許的 XMPP 原則。  <br/> |
 |外部 DNS  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |主控 XMPP Proxy 服務之 Edge Server 或 Edge 集區上之 Access Edge service 的 IP 位址  <br/> |這會指向主控 XMPP Proxy 服務之 Edge Server 或 Edge 集區上的 Access Edge service。 一般來說，您建立的 SRV 記錄會指向此主機 (A 或 AAAA) record。  <br/> |
    
 > [!NOTE]
-> XMPP 閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 。
+> XMPP 的閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 。
 
 ## <a name="certificate-planning"></a>憑證規劃
 <a name="CertPlan"> </a>
 
-商務用 Skype 伺服器會在伺服器之間及從伺服器到用戶端的安全、加密通訊使用憑證。 如您所料，您的憑證必須具有伺服器的 DNS 記錄，使其符合您憑證上的任何主體名稱 (SN) 和主體替代名稱 (SAN) 。 這現在會在規劃階段進行，以確保您在 DNS 中為您的憑證註冊 SN 和 SAN 專案的正確 Fqdn。
+商務用 Skype Server 會在伺服器之間和伺服器之間，使用憑證進行安全、加密的通訊。 如您所料，您的憑證必須具有伺服器的 DNS 記錄，使其符合您憑證上的任何主體名稱 (SN) 和主體替代名稱 (SAN) 。 這現在會在規劃階段進行，以確保您在 DNS 中為您的憑證註冊 SN 和 SAN 專案的正確 Fqdn。
   
 我們會個別討論外部和內部的憑證需求，然後查看提供兩者需求的表格。
   
@@ -291,13 +291,13 @@ Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv
   
 您何時需要向 CA 提交此公用憑證的要求，以及您如何執行此動作？ 有幾種方式可以完成此作業：
   
-- 您可以進行商務用 Skype 伺服器的安裝，然後再進行 Edge Server 部署。 商務用 Skype Server 部署嚮導具有一個產生憑證要求的步驟，您可以將此要求傳送給您所選擇的 CA。
+- 您可以逐步執行商務用 Skype Server 的安裝，然後進行 Edge Server 部署。 商務用 Skype Server 部署嚮導具有一個產生憑證要求的步驟，您可以將此要求傳送給您所選擇的 CA。
     
-- 您也可以使用 Windows PowerShell 命令來產生此要求（如果此要求與您的業務需求或部署策略更內嵌）。
+- 您也可以使用 Windows PowerShell 命令來產生此要求（如果這與您的業務需求或部署策略更內聯）。
     
-- 最後，您的 CA 可能會有自己的提交程式，也可能包括 Windows PowerShell 或其他方法。 在此情況下，除了這裡提供的參考資訊之外，您還必須依賴其檔。
+- 最後，您的 CA 可能會有自己的提交程式，也可能包括 Windows PowerShell 或另一種方法。 在此情況下，除了這裡提供的參考資訊之外，您還必須依賴其檔。
     
-當您取得憑證之後，您必須先繼續，然後在商務用 Skype Server 中將其指派給這些服務：
+當您獲得憑證之後，您必須先繼續，然後在商務用 Skype Server 中將其指派給這些服務：
   
 - Access Edge service 介面
     
@@ -342,7 +342,7 @@ Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv
 ## <a name="port-and-firewall-planning"></a>埠與防火牆規劃
 <a name="PortFirewallPlan"> </a>
 
-為商務用 Skype Server Edge Server 部署的埠和防火牆，取得您的規劃許可權，可將您的疑難排解與壓力的天數或周數。 因此，我們會列出兩個表格，以指出我們的通訊協定使用方式，以及您對 NAT 和公用 IP 案例必須具有開啟、輸入和輸出的埠。 我們也會針對硬體負載平衡案例使用不同的表格， (HLB) ，還有一些進一步的指導方針。 為了進一步閱讀，我們也 [在商務用 Skype server 中有一些 Edge server 案例](scenarios.md) ，您可以查看您的特定部署考慮。
+為商務用 Skype Server Edge Server 部署的埠及防火牆取得您的規劃許可權，可在疑難排解與壓力的情況中節約天數或周數。 因此，我們會列出兩個表格，以指出我們的通訊協定使用方式，以及您對 NAT 和公用 IP 案例必須具有開啟、輸入和輸出的埠。 我們也會針對硬體負載平衡案例使用不同的表格， (HLB) ，還有一些進一步的指導方針。 為了進一步閱讀，我們也會[在商務用 Skype Server 中有一些 Edge Server 案例](scenarios.md)，您可以查看您的特定部署考慮。
   
 ### <a name="general-protocol-usage"></a>一般通訊協定用法
 
@@ -350,27 +350,27 @@ Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv
   
 |**Audio/Video 傳輸**|**Usage**|
 |:-----|:-----|
-|Udp  <br/> |音訊和影片的慣用傳輸層通訊協定。  <br/> |
-|TCP  <br/> |音訊和影片的 fallback transport layer 通訊協定。  <br/> 商務用 Skype Server、Lync Server 2013 和 Lync Server 2010 應用程式共用所需的傳輸層通訊協定。  <br/> 商務用 Skype Server、Lync Server 2013 和 Lync Server 2010 所需的傳輸層通訊協定，以進行檔案傳輸。  <br/> |
+|UDP  <br/> |音訊和影片的慣用傳輸層通訊協定。  <br/> |
+|TCP  <br/> |音訊和影片的 fallback transport layer 通訊協定。  <br/> 商務用 Skype Server、lync server 2013 和 lync server 2010 之應用程式共用所需的傳輸層通訊協定。  <br/> 用於商務用 Skype Server、lync server 2013 和 lync server 2010 的檔案轉接所需的傳輸層通訊協定。  <br/> |
    
 ### <a name="external-port-firewall-summary-table"></a>外部埠防火牆摘要表格
 
-來源 IP 位址和目的地 IP 位址會包含使用 NAT 的私人 IP 位址的使用者，以及使用公用 IP 位址的人員資訊。 這會涵蓋我們 [Edge server 案例中的所有在商務用 Skype server 案例中](scenarios.md) 的排列。
+來源 IP 位址和目的地 IP 位址會包含使用 NAT 的私人 IP 位址的使用者，以及使用公用 IP 位址的人員資訊。 這將涵蓋[商務用 Skype Server 區段中的 Edge Server 案例](scenarios.md)中的所有排列。
   
 |**角色或通訊協定**|**TCP 或 UDP**|**目的地埠或埠範圍**|**來源 IP 位址**|**目的地 IP 位址**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Xmpp  <br/> 商務用 Skype Server 2019 不支援 |TCP  <br/> |5269  <br/> |任何  <br/> |XMPP Proxy 服務 (與 Access Edge service 共用 IP 位址  <br/> |XMPP Proxy 服務接受定義之 XMPP 同盟中 XMPP 連絡人的流量。  <br/> |
 |Access/HTTP  <br/> |TCP  <br/> |80  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |任何  <br/> |憑證吊銷和 CRL 檢查和檢索。  <br/> |
 |存取/DNS  <br/> |TCP  <br/> |53  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |任何  <br/> |透過 TCP 的 DNS 查詢。  <br/> |
-|存取/DNS  <br/> |Udp  <br/> |53  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |任何  <br/> |透過 UDP 的 DNS 查詢。  <br/> |
+|存取/DNS  <br/> |UDP  <br/> |53  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |任何  <br/> |透過 UDP 的 DNS 查詢。  <br/> |
 |Access/SIP (TLS)   <br/> |TCP  <br/> |443  <br/> |任何  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |外部使用者存取的用戶端對伺服器 SIP 流量。  <br/> |
 |Access/SIP (MTLS)   <br/> |TCP  <br/> |5061  <br/> |任何  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |適用于使用 SIP 的同盟與公用 IM 連線。  <br/> |
 |Access/SIP (MTLS)   <br/> |TCP  <br/> |5061  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |任何  <br/> |適用于使用 SIP 的同盟與公用 IM 連線。  <br/> |
 |Web 會議/PSOM (TLS)   <br/> |TCP  <br/> |443  <br/> |任何  <br/> |**使用 NAT 的私人 IP：** Edge Server Web 會議 Edge service <br/> **公用 IP：** Edge Server Web 會議 Edge service 公用 IP 位址 <br/> |Web 會議媒體。  <br/> |
 |A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**使用 NAT 的私人 IP：** Edge Server A/V Edge service <br/> **公用 IP：** Edge Server A/V Edge service 公用 IP 位址 <br/> |任何  <br/> |這是用於中繼媒體流量。  <br/> |
-|A/V/RTP  <br/> |Udp  <br/> |50000-59999  <br/> |**使用 NAT 的私人 IP：** Edge Server A/V Edge service <br/> **公用 IP：** Edge Server A/V Edge service 公用 IP 位址 <br/> |任何  <br/> |這是用於中繼媒體流量。  <br/> |
-|A/V/STUN。MSTURN  <br/> |Udp  <br/> |3478  <br/> |**使用 NAT 的私人 IP：** Edge Server A/V Edge service <br/> **公用 IP：** Edge Server A/V Edge service 公用 IP 位址 <br/> |任何  <br/> |3478輸出是：  <br/> •供商務用 Skype Server 使用，以決定所與其通訊之 Edge Server 的版本。  <br/> •用於 Edge Server 之間的媒體流量。  <br/> •與 Lync Server 2010 的同盟所需。  <br/> •在您的組織中部署多個 Edge 集區時需要。  <br/> |
-|A/V/STUN。MSTURN  <br/> |Udp  <br/> |3478  <br/> |任何  <br/> |**使用 NAT 的私人 IP：** Edge Server A/V Edge service <br/> **公用 IP：** Edge Server A/V Edge service 公用 IP 位址 <br/> |在埠3478上 STUN/TURN 以 UDP 協商的候選人。  <br/> |
+|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**使用 NAT 的私人 IP：** Edge Server A/V Edge service <br/> **公用 IP：** Edge Server A/V Edge service 公用 IP 位址 <br/> |任何  <br/> |這是用於中繼媒體流量。  <br/> |
+|A/V/STUN。MSTURN  <br/> |UDP  <br/> |3478  <br/> |**使用 NAT 的私人 IP：** Edge Server A/V Edge service <br/> **公用 IP：** Edge Server A/V Edge service 公用 IP 位址 <br/> |任何  <br/> |3478輸出是：  <br/> •用於商務用 Skype Server 以判斷其所與其通訊之 Edge Server 的版本。  <br/> •用於 Edge Server 之間的媒體流量。  <br/> •與 Lync Server 2010 的同盟所需。  <br/> •在您的組織中部署多個 Edge 集區時需要。  <br/> |
+|A/V/STUN。MSTURN  <br/> |UDP  <br/> |3478  <br/> |任何  <br/> |**使用 NAT 的私人 IP：** Edge Server A/V Edge service <br/> **公用 IP：** Edge Server A/V Edge service 公用 IP 位址 <br/> |在埠3478上 STUN/TURN 以 UDP 協商的候選人。  <br/> |
 |A/V/STUN。MSTURN  <br/> |TCP  <br/> |443  <br/> |任何  <br/> |**使用 NAT 的私人 IP：** Edge Server A/V Edge service <br/> **公用 IP：** Edge Server A/V Edge service 公用 IP 位址 <br/> |STUN/TURN 在埠443上透過 TCP 協商的候選人。  <br/> |
 |A/V/STUN。MSTURN  <br/> |TCP  <br/> |443  <br/> |**使用 NAT 的私人 IP：** Edge Server A/V Edge service <br/> **公用 IP：** Edge Server A/V Edge service 公用 IP 位址 <br/> |任何  <br/> |STUN/TURN 在埠443上透過 TCP 協商的候選人。  <br/> |
    
@@ -378,17 +378,17 @@ Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv
 
 |**Protocol** (通訊協定)|**TCP 或 UDP**|**Port**|**來源 IP 位址**|**目的地 IP 位址**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |任何執行 XMPP 閘道服務的下列專案：  <br/> •前端伺服器  <br/> •前端集區  <br/> |Edge Server 內部介面  <br/> |您的前端伺服器或前端集區上執行的 XMPP 閘道服務的輸出 XMPP 流量。  <br/> **附注：** XMPP 閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 。|
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |任何執行 XMPP 閘道服務的下列專案：  <br/> •前端伺服器  <br/> •前端集區  <br/> |Edge Server 內部介面  <br/> |您的前端伺服器或前端集區上執行的 XMPP 閘道服務的輸出 XMPP 流量。  <br/> **附注：** XMPP 的閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 。|
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |任何：  <br/> • Director  <br/> • Director 集區  <br/> •前端伺服器  <br/> •前端集區  <br/> |Edge Server 內部介面  <br/> |從 Director、Director 集區、前端伺服器或前端集區到 Edge Server 內部介面的輸出 SIP 流量。  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Edge Server 內部介面  <br/> |任何：  <br/> • Director  <br/> • Director 集區  <br/> •前端伺服器  <br/> •前端集區  <br/> |從 Edge Server 內部介面到 Director、Director 集區、前端伺服器或前端集區的輸入 SIP 流量。  <br/> |
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |任何：  <br/> •前端伺服器  <br/> •每一部前端伺服器  <br/>  在前端集區中 <br/> |Edge Server 內部介面  <br/> |前端伺服器或每一部前端伺服器的 Web 會議流量 (若您的 Edge Server 內部介面) 有前端集區。  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |任何：  <br/> •前端伺服器  <br/> •前端集區  <br/> •任何使用此 Edge Server 的 Survivable 分支裝置  <br/> •任何使用此 Edge Server 的 Survivable 分支伺服器  <br/> |Edge Server 內部介面  <br/> |使用 Edge Server 從您的前端伺服器或前端集區，或 Survivable 分支裝置或 Survivable Branch 伺服器驗證 A/V 使用者。  <br/> |
-|STUN/MSTURN  <br/> |Udp  <br/> |3478  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |您的內部及外部使用者與 Survivable 分支裝置或 Survivable Branch 伺服器之間 A/V 媒體傳輸的慣用路徑。  <br/> |
+|STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |您的內部及外部使用者與 Survivable 分支裝置或 Survivable Branch 伺服器之間 A/V 媒體傳輸的慣用路徑。  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |您的內部及外部使用者與 Survivable Branch 裝置或 Survivable Branch 伺服器之間的 A/V 媒體傳輸的回退路徑（如果 UDP 通訊無法運作）。 然後，使用 TCP 進行檔案傳輸和桌面共用。  <br/> |
 |HTTPS:  <br/> |TCP  <br/> |4443  <br/> |任何：  <br/> •具有中央管理存放區的前端伺服器  <br/> •具有中央管理存放區的前端集區  <br/> |Edge Server 內部介面  <br/> |從中央管理存放區對 Edge Server 所做的變更複寫。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 ClsController Cmdlet (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄集合。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 ClsController Cmdlet (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄集合。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50003  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 ClsController Cmdlet (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄集合。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50001  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務指令程式，ClsController 命令列 (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄檔集合。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50002  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務指令程式，ClsController 命令列 (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄檔集合。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50003  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務指令程式，ClsController 命令列 (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄檔集合。  <br/> |
    
 ### <a name="hardware-load-balancers-for-edge-port-tables"></a>Edge 埠表的硬體負載平衡器
 
@@ -396,17 +396,17 @@ Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv
   
 #### <a name="external-port-firewall-summary-table"></a>外部埠防火牆摘要表格
 
-來源 IP 位址和目的地 IP 位址會包含使用 NAT 的私人 IP 位址的使用者，以及使用公用 IP 位址的人員資訊。 這會涵蓋我們 [Edge server 案例中的所有在商務用 Skype server 案例中](scenarios.md) 的排列。
+來源 IP 位址和目的地 IP 位址會包含使用 NAT 的私人 IP 位址的使用者，以及使用公用 IP 位址的人員資訊。 這將涵蓋[商務用 Skype Server 區段中的 Edge Server 案例](scenarios.md)中的所有排列。
   
 |**角色或通訊協定**|**TCP 或 UDP**|**目的地埠或埠範圍**|**來源 IP 位址**|**目的地 IP 位址**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Access/HTTP  <br/> |TCP  <br/> |80  <br/> |Edge Server Access Edge service 公用 IP 位址  <br/> |任何  <br/> |憑證吊銷和 CRL 檢查和檢索。  <br/> |
 |存取/DNS  <br/> |TCP  <br/> |53  <br/> |Edge Server Access Edge service 公用 IP 位址  <br/> |任何  <br/> |透過 TCP 的 DNS 查詢。  <br/> |
-|存取/DNS  <br/> |Udp  <br/> |53  <br/> |Edge Server Access Edge service 公用 IP 位址  <br/> |任何  <br/> |透過 UDP 的 DNS 查詢。  <br/> |
+|存取/DNS  <br/> |UDP  <br/> |53  <br/> |Edge Server Access Edge service 公用 IP 位址  <br/> |任何  <br/> |透過 UDP 的 DNS 查詢。  <br/> |
 |A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |Edge Server A/V Edge service IP 位址  <br/> |任何  <br/> |這是用於中繼媒體流量。  <br/> |
-|A/V/RTP  <br/> |Udp  <br/> |50000-59999  <br/> |Edge Server A/V Edge service 公用 IP 位址  <br/> |任何  <br/> |這是用於中繼媒體流量。  <br/> |
-|A/V/STUN。MSTURN  <br/> |Udp  <br/> |3478  <br/> |Edge Server A/V Edge service 公用 IP 位址  <br/> |任何  <br/> |3478輸出是：  <br/> •供商務用 Skype Server 使用，以決定所與其通訊之 Edge Server 的版本。  <br/> •用於 Edge Server 之間的媒體流量。  <br/> •同盟所需。  <br/> •在您的組織中部署多個 Edge 集區時需要。  <br/> |
-|A/V/STUN。MSTURN  <br/> |Udp  <br/> |3478  <br/> |任何  <br/> |Edge Server A/V Edge service 公用 IP 位址  <br/> |在埠3478上 STUN/TURN 以 UDP 協商的候選人。  <br/> |
+|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |Edge Server A/V Edge service 公用 IP 位址  <br/> |任何  <br/> |這是用於中繼媒體流量。  <br/> |
+|A/V/STUN。MSTURN  <br/> |UDP  <br/> |3478  <br/> |Edge Server A/V Edge service 公用 IP 位址  <br/> |任何  <br/> |3478輸出是：  <br/> •用於商務用 Skype Server 以判斷其所與其通訊之 Edge Server 的版本。  <br/> •用於 Edge Server 之間的媒體流量。  <br/> •同盟所需。  <br/> •在您的組織中部署多個 Edge 集區時需要。  <br/> |
+|A/V/STUN。MSTURN  <br/> |UDP  <br/> |3478  <br/> |任何  <br/> |Edge Server A/V Edge service 公用 IP 位址  <br/> |在埠3478上 STUN/TURN 以 UDP 協商的候選人。  <br/> |
 |A/V/STUN。MSTURN  <br/> |TCP  <br/> |443  <br/> |任何  <br/> |Edge Server A/V Edge service 公用 IP 位址  <br/> |STUN/TURN 在埠443上透過 TCP 協商的候選人。  <br/> |
 |A/V/STUN。MSTURN  <br/> |TCP  <br/> |443  <br/> |Edge Server A/V Edge service 公用 IP 位址  <br/> |任何  <br/> |STUN/TURN 在埠443上透過 TCP 協商的候選人。  <br/> |
    
@@ -414,26 +414,26 @@ Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv
 
 |**Protocol** (通訊協定)|**TCP 或 UDP**|**Port**|**來源 IP 位址**|**目的地 IP 位址**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |任何執行 XMPP 閘道服務的下列專案：  <br/> •前端伺服器  <br/> •前端集區 VIP 位址正在執行 XMPP 閘道服務  <br/> |Edge Server 內部介面  <br/> |您的前端伺服器或前端集區上執行的 XMPP 閘道服務的輸出 XMPP 流量。  <br/><br/> **附注：** XMPP 閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 。 |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |任何執行 XMPP 閘道服務的下列專案：  <br/> •前端伺服器  <br/> •前端集區 VIP 位址正在執行 XMPP 閘道服務  <br/> |Edge Server 內部介面  <br/> |您的前端伺服器或前端集區上執行的 XMPP 閘道服務的輸出 XMPP 流量。  <br/><br/> **附注：** XMPP 的閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 。 |
 |HTTPS:  <br/> |TCP  <br/> |4443  <br/> |任何：  <br/> •具有中央管理存放區的前端伺服器  <br/> •具有中央管理存放區的前端集區  <br/> |Edge Server 內部介面  <br/> |從中央管理存放區對 Edge Server 所做的變更複寫。  <br/> |
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |任何：  <br/> •前端伺服器  <br/> •前端集區中的每一部前端伺服器  <br/> |Edge Server 內部介面  <br/> |前端伺服器或每一部前端伺服器的 Web 會議流量 (若您的 Edge Server 內部介面) 有前端集區。  <br/> |
-|STUN/MSTURN  <br/> |Udp  <br/> |3478  <br/> |任何：  <br/> •前端伺服器  <br/> •前端集區中的每一部前端伺服器  <br/> |Edge Server 內部介面  <br/> |您的內部及外部使用者與 Survivable 分支裝置或 Survivable Branch 伺服器之間 A/V 媒體傳輸的慣用路徑。  <br/> |
+|STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |任何：  <br/> •前端伺服器  <br/> •前端集區中的每一部前端伺服器  <br/> |Edge Server 內部介面  <br/> |您的內部及外部使用者與 Survivable 分支裝置或 Survivable Branch 伺服器之間 A/V 媒體傳輸的慣用路徑。  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |任何：  <br/> •前端伺服器  <br/> •集區中的每一部前端伺服器  <br/> |Edge Server 內部介面  <br/> |您的內部及外部使用者與 Survivable Branch 裝置或 Survivable Branch 伺服器之間的 A/V 媒體傳輸的回退路徑（如果 UDP 通訊無法運作）。 然後，使用 TCP 進行檔案傳輸和桌面共用。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 ClsController Cmdlet (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄集合。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 ClsController Cmdlet (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄集合。  <br/> |
-|MTLS  <br/> |TCP  <br/> |50003  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務 ClsController Cmdlet (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄集合。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50001  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務指令程式，ClsController 命令列 (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄檔集合。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50002  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務指令程式，ClsController 命令列 (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄檔集合。  <br/> |
+|MTLS  <br/> |TCP  <br/> |50003  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |集中式記錄服務控制器使用商務用 Skype Server 管理命令介面和集中式記錄服務指令程式，ClsController 命令列 (ClsController.exe) 或 agent (ClsAgent.exe) 命令和記錄檔集合。  <br/> |
    
 #### <a name="external-interface-virtual-ips"></a>外部介面虛擬 Ip
 
 |**角色或通訊協定**|**TCP 或 UDP**|**目的地埠或埠範圍**|**來源 IP 位址**|**目的地 IP 位址**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Xmpp  <br/> 在 Businesss Server 2019 的 Skype 中不支援 |TCP  <br/> |5269  <br/> |任何  <br/> |XMPP Proxy 服務 (與 Access Edge service 共用 IP 位址)   <br/> |XMPP Proxy 服務接受定義之 XMPP 同盟中 XMPP 連絡人的流量。  <br/> |
-|Xmpp  <br/>在 Businesss Server 2019 的 Skype 中不支援 |TCP  <br/> |5269  <br/> |XMPP Proxy 服務 (與 Access Edge service 共用 IP 位址)   <br/> |任何  <br/> |XMPP Proxy 服務會從已定義 XMPP 同盟中的 XMPP 連絡人傳送流量。  <br/> |
+|Xmpp  <br/> Businesss Server 2019 不支援 Skype |TCP  <br/> |5269  <br/> |任何  <br/> |XMPP Proxy 服務 (與 Access Edge service 共用 IP 位址)   <br/> |XMPP Proxy 服務接受定義之 XMPP 同盟中 XMPP 連絡人的流量。  <br/> |
+|Xmpp  <br/>Businesss Server 2019 不支援 Skype |TCP  <br/> |5269  <br/> |XMPP Proxy 服務 (與 Access Edge service 共用 IP 位址)   <br/> |任何  <br/> |XMPP Proxy 服務會從已定義 XMPP 同盟中的 XMPP 連絡人傳送流量。  <br/> |
 |Access/SIP (TLS)   <br/> |TCP  <br/> |443  <br/> |任何  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |外部使用者存取的用戶端對伺服器 SIP 流量。  <br/> |
 |Access/SIP (MTLS)   <br/> |TCP  <br/> |5061  <br/> |任何  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |適用于使用 SIP 的同盟與公用 IM 連線。  <br/> |
 |Access/SIP (MTLS)   <br/> |TCP  <br/> |5061  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |任何  <br/> |適用于使用 SIP 的同盟與公用 IM 連線。  <br/> |
 |Web 會議/PSOM (TLS)   <br/> |TCP  <br/> |443  <br/> |任何  <br/> |**使用 NAT 的私人 IP：** Edge Server Web 會議 Edge service <br/> **公用 IP：** Edge Server Web 會議 Edge service 公用 IP 位址 <br/> |Web 會議媒體。  <br/> |
-|A/V/STUN。MSTURN  <br/> |Udp  <br/> |3478  <br/> |任何  <br/> |**使用 NAT 的私人 IP：** Edge Server A/V Edge service <br/> **公用 IP：** Edge Server A/V Edge service 公用 IP 位址 <br/> |在埠3478上 STUN/TURN 以 UDP 協商的候選人。  <br/> |
+|A/V/STUN。MSTURN  <br/> |UDP  <br/> |3478  <br/> |任何  <br/> |**使用 NAT 的私人 IP：** Edge Server A/V Edge service <br/> **公用 IP：** Edge Server A/V Edge service 公用 IP 位址 <br/> |在埠3478上 STUN/TURN 以 UDP 協商的候選人。  <br/> |
 |A/V/STUN。MSTURN  <br/> |TCP  <br/> |443  <br/> |任何  <br/> |**使用 NAT 的私人 IP：** Edge Server A/V Edge service <br/> **公用 IP：** Edge Server A/V Edge service 公用 IP 位址 <br/> |STUN/TURN 在埠443上透過 TCP 協商的候選人。  <br/> |
    
 #### <a name="internal-interface-virtual-ips"></a>內部介面虛擬 Ip
@@ -451,5 +451,5 @@ Web 會議和 A/V 邊際公開 IP 位址是在 [網際網路通訊協定 TCP/IPv
 |Access/SIP (MTLS)   <br/> |TCP  <br/> |5061  <br/> |任何：  <br/> • Director  <br/> • Director 集區 VIP 位址  <br/> •前端伺服器  <br/> •前端集區 VIP 位址  <br/> |Edge Server 內部介面  <br/> |從 Director、Director 集區 VIP 位址、前端伺服器或前端集區 VIP 位址到 Edge Server 內部介面的輸出 SIP 流量。  <br/> |
 |Access/SIP (MTLS)   <br/> |TCP  <br/> |5061  <br/> |Edge Server 內部 VIP 介面  <br/> |任何：  <br/> • Director  <br/> • Director 集區 VIP 位址  <br/> •前端伺服器  <br/> •前端集區 VIP 位址  <br/> |從 Edge Server 內部介面到 Director、Director 集區 VIP 位址、前端伺服器或前端集區 VIP 位址的輸入 SIP 流量。  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |任何：  <br/> •前端伺服器的 IP 位址  <br/> •前端集區 IP 位址  <br/> •任何使用此 Edge Server 的 Survivable 分支裝置  <br/> •任何使用此 Edge Server 的 Survivable 分支伺服器  <br/> |Edge Server 內部介面  <br/> |使用 Edge Server 從您的前端伺服器或前端集區，或 Survivable 分支裝置或 Survivable Branch 伺服器驗證 A/V 使用者。  <br/> |
-|STUN/MSTURN  <br/> |Udp  <br/> |3478  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |您的內部與外部使用者之間 A/V 媒體傳輸的慣用路徑。  <br/> |
+|STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |任何  <br/> |Edge Server 內部介面  <br/> |您的內部與外部使用者之間 A/V 媒體傳輸的慣用路徑。  <br/> |
 |STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |任何  <br/> |Edge Server 內部 VIP 介面  <br/> |在您的內部與外部使用者之間，如果 UDP 通訊無法運作，則為 A/V 媒體傳輸的回退路徑。 然後，使用 TCP 進行檔案傳輸和桌面共用。  <br/> |

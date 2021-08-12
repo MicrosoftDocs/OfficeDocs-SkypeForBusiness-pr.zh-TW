@@ -1,5 +1,5 @@
 ---
-title: 遷移至商務用 Skype Server 2019
+title: 商務用 Skype Server 2019 的遷移
 ms.reviewer: ''
 ms.author: serdars
 author: serdarsoysal
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本節中的主題將引導您完成遷移至商務用 Skype Server 2019 的程式。
-ms.openlocfilehash: 860fce550de33ed726bbbe723c8c7677ff09fc1c
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 1014fe5d491823c427eb588aac86757afb997578b519abf2249f481c91a3d4aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752615"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54303397"
 ---
-# <a name="migration-to-skype-for-business-server-2019"></a>遷移至商務用 Skype Server 2019
+# <a name="migration-to-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的遷移
 
-本節中的主題將引導您完成遷移至商務用 Skype Server 2019 的程式。 本文涵蓋如何將 Lync Server 2013 或商務用 Skype Server 2015 遷移至商務用 Skype Server 2019。
+本節中的主題將引導您完成遷移至商務用 Skype Server 2019 的程式。 本文涵蓋如何遷移 Lync Server 2013 或商務用 Skype Server 2015，以商務用 Skype Server 2019。
 
 > [!IMPORTANT]
-> 在整個內容中，我們使用*傳統*的 Lync server 2013 或您要遷移至商務用 skype server 2019 的商務用 skype server 2015。
+> 在整個內容中，我們使用 *舊版* 的 Lync Server 2013 或您要遷移至商務用 Skype Server 2019 的商務用 Skype Server 2015。
   
 > [!IMPORTANT]
 > 本指南說明完成每一階段遷移的一般必要步驟。 它不會解決每一個可能的舊版部署拓撲或每一種可能的遷移案例。 因此，您可能不需要執行所述的每一個步驟，否則您可能需要執行其他步驟，視您的部署而定。 本指南也提供驗證步驟的範例。 提供這些驗證步驟是為了協助您瞭解需要尋找哪些專案，以確保每個階段在您完成遷移時順利完成。 將這些驗證步驟調整為您特定的遷移程式。 
@@ -34,7 +34,7 @@ ms.locfileid: "44752615"
   
 **遷移：** 將實際執行部署從 Lync Server 2013 或商務用 Skype Server 2015 移至商務用 Skype Server 2019。
     
-**共存：** 在遷移過程中，當某些功能已遷移至商務用 Skype Server 2019，而其他功能仍然保留在先前的版本中時，會在遷移期間存在的臨時環境。
+**共存：** 在遷移時所存在的暫時環境，當某些功能已遷移至商務用 Skype Server 2019，而其他功能仍然保留在先前的版本中時。
     
 **互通性：** 您的部署在共存期間順利運作的能力。
 

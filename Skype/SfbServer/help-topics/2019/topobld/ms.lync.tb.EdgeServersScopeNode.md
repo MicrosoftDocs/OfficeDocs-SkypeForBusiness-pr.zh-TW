@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[Edge 集區] 節點會列出您拓撲中的 Edge 集區。 您可以執行下列動作：'
-ms.openlocfilehash: 3f83bd4ed82a89d053b26181dda61855661c9ab2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[Edge 集區] 節點會列出您拓撲中的 Edge 集區。您可以執行下列動作：'
+ms.openlocfilehash: 4782495357c6bee08adb88df5ccac45b75ca4ed79f2e3534c41e9c5a2af48ad3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822503"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54291411"
 ---
 # <a name="edge-servers-scope-node"></a>Edge Server 範圍節點
  

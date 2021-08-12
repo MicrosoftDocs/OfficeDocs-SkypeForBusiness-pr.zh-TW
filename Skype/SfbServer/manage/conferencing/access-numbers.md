@@ -12,30 +12,30 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 摘要：瞭解如何管理商務用 Skype Server 中的電話撥入式會議存取號碼。
-ms.openlocfilehash: 4008293015beaa684f9a3d9fa0ec0dedf05e5b2b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 58e4de5a2c429a5e36a43f90793fc1e12939b1d235b846ae8db372a2b13d8135
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099149"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302497"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>管理商務用 Skype Server 中的電話撥入式會議存取號碼
  
 **摘要：** 瞭解如何管理商務用 Skype Server 中的電話撥入式會議存取號碼。
   
-當您部署電話撥入式會議時，您必須設定使用者可以從公用交換電話網路 (PSTN) 撥打的電話號碼，以加入會議的音訊部分。 這些撥入存取號碼會顯示在會議邀請和電話撥入式會議設定網頁上。 
+當您部署電話撥入式會議時，您必須設定使用者可以從公用交換電話網路 (PSTN) 撥打的電話號碼，以加入會議的音訊部分。 這些撥入存取號碼會顯示在會議邀請中和電話撥入式會議設定網頁上。 
   
-本主題說明如何查看、修改或刪除現有的電話撥入式會議存取號碼。 如需如何建立初始撥入存取號碼的詳細資訊，請參閱 [在商務用 Skype Server 中設定電話撥入式會議](../../deploy/deploy-conferencing/dial-in-conferencing.md)。
+本主題說明如何查看、修改或刪除現有的電話撥入式會議存取號碼。 如需如何建立初始撥入存取號碼的詳細資訊，請參閱[在商務用 Skype Server 中設定電話撥入式會議](../../deploy/deploy-conferencing/dial-in-conferencing.md)。
   
 ## <a name="view-dial-in-conferencing-access-numbers"></a>查看電話撥入式會議存取號碼
 
-您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面來查看電話撥入式會議存取號碼。
+您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面來查看電話撥入式會議存取號碼。
   
 ### <a name="view-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台來查看撥入存取號碼
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [會議]，然後按一下 [撥入存取號碼]。
     
@@ -74,13 +74,13 @@ Regions            : {US}
   
 ## <a name="modify-dial-in-conferencing-access-numbers"></a>修改電話撥入式會議存取號碼
 
-您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面來修改撥入存取號碼。
+您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面來修改撥入存取號碼。
   
 ### <a name="modify-dial-in-access-numbers-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台修改撥入存取號碼
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [會議]，然後按一下 [撥入存取號碼]。
     
@@ -93,7 +93,7 @@ Regions            : {US}
     
     此號碼會顯示在會議邀請中和電話撥入式會議設定網頁上。
     
-6. 在 [ **顯示名稱**] 中，輸入撥入存取號碼的描述。 這是商務用 Skype 搜尋結果中與撥入存取號碼相關聯的名稱。
+6. 在 [ **顯示名稱**] 中，輸入撥入存取號碼的描述。 這是與商務用 Skype 搜尋結果中的撥入存取號碼相關聯的名稱。
     
     當使用者呼叫存取號碼時，此名稱會顯示在用戶端中。 
     
@@ -109,16 +109,16 @@ Regions            : {US}
     > [!NOTE]
     > 其他電話撥入式會議存取號碼無法重複使用相同的 SIP URI。 建立存取號碼之後，便無法修改 SIP URI。 變更 SIP URI 的唯一方法是刪除並重新建立存取號碼。 
   
-   在下拉式清單方塊中，按一下支援此撥入存取號碼之會議應答應用程式的網域。
+   在下拉式清單方塊中，按一下支援此撥入存取號碼之會議語音應答應用程式的網域。
     
-9. 在 [ **集** 區] 中，按一下執行支援此撥入存取號碼之會議助理實例的集區。
+9. 在 [**集** 區] 中，按一下執行支援此撥入存取號碼之會議語音應答實例的集區。
     
     > [!NOTE]
     > 如果您在建立存取號碼之後需要變更集區，則必須使用 **Move-CsApplicationEndpoint** Cmdlet，或刪除並重新建立存取號碼。
   
 10. 在 [ **主要語言**] 中，按一下為此撥入存取號碼播放提示時所使用的語言。 
     
-    主要語言是會議助理用來接聽通話的語言。 在 [電話撥入式會議設定] 網頁上的每一個存取電話號碼旁會顯示支援的語言。
+    主要語言是會議語音應答用來接聽通話的語言。 支援的語言會顯示在電話撥入式會議設定網頁上的每個存取電話號碼旁邊。
     
 11.  (選用) 在 **次要語言中 (最多四個)**，請按一下 [ **新增**]，選取您要支援的來電者撥打此撥入存取號碼的一或多個其他語言，然後按一下 **[確定]**。 
     
@@ -150,13 +150,13 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
   
 ## <a name="delete-a-dial-in-conferencing-access-number"></a>刪除電話撥入式會議存取號碼
 
-您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面來刪除電話撥入式會議存取號碼。
+您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面來刪除電話撥入式會議存取號碼。
   
 ### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台刪除電話撥入式會議存取號碼
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [會議]，然後按一下 [撥入存取號碼]。
     
@@ -164,7 +164,7 @@ Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com
     
 5. 按一下 **[確定]**。
     
-### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來刪除電話撥入式會議存取號碼
+### <a name="delete-a-dial-in-conferencing-access-number-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面刪除電話撥入式會議存取號碼
 
 若要刪除電話撥入式會議存取號碼，請使用 **Remove-CsDialInConferencingAccessNumber**。
   

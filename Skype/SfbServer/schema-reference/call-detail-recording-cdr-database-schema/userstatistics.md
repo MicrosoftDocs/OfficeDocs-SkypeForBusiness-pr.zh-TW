@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
 description: UserStatistics 表格是支援的表格。 資料表中的每一筆記錄都儲存了個別使用者對系統使用方式的相關資訊。 此表格已引進 Microsoft Lync Server 2013。
-ms.openlocfilehash: 65017c9f807b272097b39bac88c80cc81e617ff4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d0d3fde20f7c8c94629f75ff00f310111cac16d386fc0b0373ee07b5c2a35fb5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813103"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54302207"
 ---
 # <a name="userstatistics-table"></a>UserStatistics 表格
  
