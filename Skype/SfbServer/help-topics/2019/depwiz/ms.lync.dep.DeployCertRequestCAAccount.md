@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要送出要求，憑證授權單位 (CA) 可能會要求不同於目前用來登入之使用者身分的認證。
-ms.openlocfilehash: ab3e5f1d15b32e866a0a8a99f54ce8a1b3d81a42
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f10871788dc70ee015db6243603d6b66aad593bcd1750a5ad694f7c9f4b85d33
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830343"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281176"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>憑證要求 (憑證授權帳戶)
  

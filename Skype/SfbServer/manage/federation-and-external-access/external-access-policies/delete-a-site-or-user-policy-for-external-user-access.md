@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 您可以刪除 [外部存取原則] 頁面上的 [商務用 Skype Server] 控制台中所列的任何網站或使用者原則。
-ms.openlocfilehash: 407e90af201055f371dc92485ab258bac851a258
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 您可以刪除 [外部存取原則] 頁面的 [商務用 Skype Server 控制台] 中所列的任何網站或使用者原則。
+ms.openlocfilehash: 154fb4434e074a3585a817994cb6b919a2b755eef8d5a8e6a082cacad4e25aae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099019"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309252"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>刪除外部使用者存取的網站或使用者原則
 
@@ -31,14 +31,14 @@ ms.locfileid: "51099019"
   - 將全域原則重設為預設設定。預設全域原則設定拒絕任何外部使用者存取。全域原則無法刪除。
 
 
-您可以刪除 [ **外部存取原則** ] 頁面上的 [商務用 Skype Server] 控制台中所列的任何網站或使用者原則。 刪除全域原則並不是實際加以刪除，只是將它重設為不支援任何外部使用者存取選項的預設設定。 如需重設全域原則的詳細資訊，請參閱 [重設外部使用者存取的全域原則](reset-the-global-policy-for-external-user-access.md)。
+您可以刪除 [**外部存取原則**] 頁面的 [商務用 Skype Server 控制台] 中所列的任何網站或使用者原則。 刪除全域原則並不是實際加以刪除，只是將它重設為不支援任何外部使用者存取選項的預設設定。 如需重設全域原則的詳細資訊，請參閱 [重設外部使用者存取的全域原則](reset-the-global-policy-for-external-user-access.md)。
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>刪除外部使用者存取的網站或使用者原則
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  按一下 **[外部使用者存取]**，並按一下 **[外部存取原則]**。
 
@@ -49,7 +49,7 @@ ms.locfileid: "51099019"
 
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 移除 PIN 原則
 
-您可以使用 Windows PowerShell 和 Remove-CsExternalAccessPolicy Cmdlet 刪除外部存取原則。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 
+您可以使用 Windows PowerShell 和 Remove-CsExternalAccessPolicy Cmdlet 刪除外部存取原則。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話執行此 Cmdlet。 
 
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>移除特定的外部存取原則

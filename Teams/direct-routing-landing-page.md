@@ -21,18 +21,18 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4298cc34122d6b3bb7d9f9bb1f8698aec864426f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6cfa0f6aecf2dfeb708d51ff6ebd98f13a36167125f295329f3e37b2e39c0daf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122207"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280906"
 ---
 # <a name="phone-system-direct-routing"></a>電話系統直接路由
 
 您已完成[開始使用](get-started-with-teams-quick-start.md)。 您已使用[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)在組織中推出 Teams。 您可能已經部署會議 [&會議](deploy-meetings-microsoft-teams-landing-page.md)。 現在，您已準備好新增雲端語音工作負載，而您決定使用自己的電話電信業者使用公用交換式電話網絡 (PSTN) 直接路由電話系統連接。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
 
-本文將說明直接路由的核心部署決策，以及您可能想要根據貴組織的需求考慮的其他考慮。 您也應該在[Microsoft Teams中](cloud-voice-landing-page.md)閱讀雲端語音，以瞭解更多關於 Microsoft 雲端語音產品的資訊。
+本文將說明直接路由的核心部署決策，以及您可能想要根據貴組織的需求考慮的其他考慮。 您也應該在[Microsoft Teams中](cloud-voice-landing-page.md)閱讀雲端語音，以瞭解更多關於 Microsoft 雲端語音服務的資訊。
 
 ## <a name="learn-more-about-direct-routing"></a>深入瞭解直接路由
 
@@ -48,7 +48,7 @@ ms.locfileid: "51122207"
 -  [設定多個租用戶的工作階段邊界控制器](direct-routing-sbc-multiple-tenants.md)
 -  [移轉至直接路由](direct-routing-migrating.md)
 -  [含有 PSTN 連線功能的混合式環境中的使用者帳戶](direct-routing-user-accounts-in-a-hybrid-environment.md)
-- 觀看下列會話以深入瞭解直接路由：[直接路由Microsoft Teams](https://aka.ms/teams-direct-routing)
+- 觀看下列會話以深入瞭解直接路由：直接[路由Microsoft Teams](https://aka.ms/teams-direct-routing)
 
 ## <a name="core-deployment-decisions"></a>核心部署決策
 
@@ -62,7 +62,7 @@ ms.locfileid: "51122207"
 
 ### <a name="session-border-controller-sbc-considerations"></a>會話邊界控制器 (SBC) 考慮
 
-使用直接路由，您可以直接將您自己的會話邊界控制器 (SBC) 直接電話系統。  有關認證 SBCs 的清單，請參閱 [支援的會話邊界控制器](direct-routing-border-controllers.md)。
+使用直接路由，您將自己的會話邊界控制器 (SBC) 直接電話系統。  有關認證 SBCs 的清單，請參閱 [支援的會話邊界控制器](direct-routing-border-controllers.md)。
 
 |問問自己|動作 |
 |:------------|:-------|
@@ -72,7 +72,7 @@ ms.locfileid: "51122207"
 
 ### <a name="voice-routing-considerations"></a>語音路由考慮
 
-您必須設定電話電話系統將通話路由至特定的 SBC。
+您必須設定通話電話系統將通話路由至特定的 SBC。
 
 |問問自己|動作 |
 |:------------|:-------|
@@ -82,11 +82,11 @@ ms.locfileid: "51122207"
 
 ### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>使用 TeamsUpgradePolicy 確保Teams用戶端內接來電
 
-直接路由僅支援Microsoft Teams。 若要透過直接路由接收 PSTN 通話，您必須設定 TeamsUpgradePolicy，以確保在 Teams。 使用者必須Teams模式，您可以指派 TeamsUpgradePolicy 的 「UpgradeToTeams」實例給他們。 
+直接路由僅支援Microsoft Teams。 若要透過直接路由接收 PSTN 通話，您必須設定 TeamsUpgradePolicy，以確保在 Teams。 使用者必須進入 Teams模式，您可以指派 TeamsUpgradePolicy 的 「UpgradeToTeams」 實例給他們。 
 
 |問問自己|動作 |
 |:------------|:-------|
-|僅Teams模式是什麼意思？ | 有關詳細資訊，請參閱將應用程式與 Teams 一起使用 商務用 Skype 的組織[移](./migration-interop-guidance-for-teams-with-skype.md)商務用 Skype。|
+|僅Teams模式是什麼意思？ | 有關詳細資訊，請參閱將應用程式與 Teams一起使用 商務用 Skype 的組織[移](./migration-interop-guidance-for-teams-with-skype.md)商務用 Skype。|
 |||
 
 ## <a name="additional-deployment-considerations"></a>其他部署考慮

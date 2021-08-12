@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 摘要：瞭解如何為商務用 Skype Server 建立新的封存原則。
-ms.openlocfilehash: fe3a80708d3810a085f1814e6d16ff3cd4c6057c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7793575e75fcee4509c96cd6a569520a4a34576e850818a52dd20518ee725de2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095417"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280976"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中建立新的封存原則
 
@@ -31,7 +31,7 @@ ms.locfileid: "51095417"
   
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。 
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左側導覽列中，依序按一下 **[監控和封存]** 和 **[封存原則]**。
     
@@ -54,7 +54,7 @@ ms.locfileid: "51095417"
 6. 按一下 **[認可]**。
     
     > [!IMPORTANT]
-    > 使用者原則的設定僅能套用至您套用該原則的特定使用者和使用者群組。 如需詳細資訊，請參閱 [將封存原則套用至商務用 Skype Server 中的使用者](apply-a-policy-to-users.md)。 
+    > 使用者原則的設定僅能套用至您套用該原則的特定使用者和使用者群組。 如需詳細資訊，請參閱[將封存原則套用至商務用 Skype Server 中的使用者](apply-a-policy-to-users.md)。 
   
 ## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>使用 Windows PowerShell 建立新的封存原則
 

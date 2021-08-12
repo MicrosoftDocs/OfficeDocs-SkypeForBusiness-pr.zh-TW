@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以在 [編輯記錄檔設定] 頁面中新增裝置記錄檔設定，以決定記錄檔快取大小上限、記錄檔大小上限，或在清除記錄檔之前保留記錄檔的時間長度。 您可以根據組織的需求來變更這些設定。
-ms.openlocfilehash: ac6c341460d0e196548a86620d89f67bc51d7b4d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e1dc3baec529640562b86372cbf3dbb4d797ec946fd1dcb0495613c40fe64b75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830293"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280238"
 ---
 # <a name="device-log-configuration-edit"></a>裝置記錄組態：編輯
  

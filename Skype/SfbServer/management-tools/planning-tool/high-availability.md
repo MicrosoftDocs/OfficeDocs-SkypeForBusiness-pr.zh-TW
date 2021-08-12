@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: 商務用 Skype Server 2015 中大多數伺服器角色的主要高可用性架構，都是透過 pooling server 冗余度為基礎。 如果執行特定伺服器角色的伺服器失敗，則執行相同角色之集區中的其他伺服器將會從該伺服器進行負載。
-ms.openlocfilehash: f1fd56d85b8770a617295db96b01e3566f45f743
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 954fc2be48a17daa11099a5bca179d416ed4d9380689558a9214362ed904568c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646444"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280956"
 ---
 # <a name="high-availability-planning-tool"></a>高可用性規劃工具
  

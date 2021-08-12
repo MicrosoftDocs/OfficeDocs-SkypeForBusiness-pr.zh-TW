@@ -17,16 +17,16 @@ description: 瞭解如何在系統管理中心Teams應用程式使用方式Micro
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 29e51e91cdc42000350a48dd0d83225e7791aea6
-ms.sourcegitcommit: d62e6cefceebe481eb207c59872f1aa67f0fc528
+ms.openlocfilehash: 592b333a8a46e90d6092445a6021341887f1b64ff8f26932f4912a6d9a8e7e56
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "50460593"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308364"
 ---
 # <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams應用程式使用方式報告
 
-系統Teams系統管理中心Microsoft Teams應用程式使用方式報告會提供使用者在應用程式中使用哪些應用程式Teams。  
+系統Teams系統管理中心Microsoft Teams應用程式使用方式報告會提供使用者目前使用哪些應用程式Teams。  
 
 ## <a name="view-the-app-usage-report"></a>查看應用程式使用方式報告
 
@@ -44,13 +44,13 @@ ms.locfileid: "50460593"
 |--------|-------------|
 |**1**   |您可以Teams應用程式使用方式報告，查看過去 7、30 或 90 天內的趨勢。 |
 |**2**   |每個報表都有產生報表的日期。 報告通常會反映從應用程式開啟起 24 小時的延遲。 <br><br>![顯示日期範圍之應用程式使用量報表的螢幕擷取畫面](media/app-usage-report3.png)|
-|**3**    | <ul><li>圖表上的 X 軸是特定報表的選取日期範圍。</li><li>Y 座標軸是將游標暫停留在圖表中的一天、這些使用者至少開啟一次 App 的使用者數目，如此一來，就被視為使用中使用者，並累算到滑鼠游標暫停時所看到的總數。</li></ul>|
+|**3**    | <ul><li>圖表上的 X 軸是特定報表的選取日期範圍。</li><li>Y 軸是將游標暫停留在圖表中的一天、這些使用者至少開啟過一次 App 的使用者數目，如此一來，就被視為使用中使用者，並累算到滑鼠游標暫停時所看到的總數。</li></ul>|
 |**4**   |將游標停留在代表給定日期之應用程式使用量的點上，以查看該 App 在給定日期的總使用中使用者數目。  |
 |**5**   |所有應用程式都會包含在內，但選擇篩選圖示，即可使用其他篩選。  |
-|**6**   |表格會提供使用中使用者和團隊的 App 名稱明細。<br><ul><li>**應用程式名稱** 是應用程式在 Teams 中使用的顯示Teams。</li><li>**使用中** 使用者是在指定的時段內至少開啟應用程式一次的使用者數目。</li><li>**應用程式類型** 是「Microsoft」或「協力廠商」的靜態值。</li><li>**使用中** 團隊是團隊中至少有一個成員在指定的時段內開啟 App 的團隊數目。</li><li>**Publisher** 應用程式的軟體發行者。</li><li>**版本** 是應用程式發行者所提供之應用程式的軟體版本。</li></ul><b> 注意：</b> 目前，僅針對頻道中使用的應用程式計算 'Active 使用者'和 'Active teams'。     
+|**6**   |資料表會提供使用中使用者和團隊的 App 名稱明細。<br><ul><li>**應用程式名稱** 是應用程式在 Teams 中使用的顯示Teams。</li><li>**使用中** 使用者是在指定的時段內至少開啟應用程式一次的使用者數目。</li><li>**應用程式類型** 是「Microsoft」或「協力廠商」的靜態值。</li><li>**使用中** 團隊是團隊中至少有一個成員在指定的時段內開啟 App 的團隊數目。</li><li>**Publisher** 應用程式的軟體發行者。</li><li>**版本** 是應用程式發行者所提供之應用程式的軟體版本。</li></ul><b> 注意：</b> 目前，僅針對頻道中使用的應用程式計算 'Active 使用者'和 'Active teams'。     
 
-<br>![應用程式使用方式報表的 ](media/app-usage-report4.png)  螢幕擷取畫面 **| |7**  |選取 **編輯欄** 以新增或移除表格中的欄。<br><br>![編輯欄頁面的 ](media/app-usage-report5.png)  螢幕擷取畫面 **| |8**  |您可以將報表匯出至 CSV 檔案，進行離線分析。 按一下 **[匯出Excel，** 然後在 [下載>選項卡上，按一下[下載以在報表準備就緒時下載報表。<br>![下載頁面的 ](media/app-usage-report7.png) 螢幕擷取畫面 **| |9** |當您在 Excel中查看報表時，您也會看到代表應用程式識別碼的 **Id** 欄。 團隊識別碼通常是一個數位字串。 如果 **識別碼欄** 顯示為 **\n***，這表示使用者要求刪除其資訊。<br>![下載的報表Excel螢幕擷取畫面](media/app-usage-report8.png)  |
+<br>![應用程式使用方式報表的 ](media/app-usage-report4.png)  螢幕擷取畫面 **| |7**  |選取 **編輯欄** 以新增或移除表格中的欄。<br><br>![編輯欄頁面的 ](media/app-usage-report5.png)  螢幕擷取畫面 **| |8**  |您可以將報表匯出為 CSV 檔案，進行離線分析。 按一下 **[匯出Excel，** 然後在 [下載>選項卡上，按一下[下載以在報表準備就緒時下載報表。<br>![下載頁面的 ](media/app-usage-report7.png) 螢幕擷取畫面 **| |9** |當您在 Excel中查看報表時，您也會看到代表應用程式識別碼的 **Id** 欄。 團隊識別碼通常是一個數位字串。 如果 **識別碼** 欄顯示為 **\n***，這表示使用者要求刪除其資訊。<br>![下載的報表Excel螢幕擷取畫面](media/app-usage-report8.png)  |
 
 ## <a name="related-topics"></a>相關主題
 
-- [Teams分析與報告](teams-reporting-reference.md)
+- [Teams 分析與報告](teams-reporting-reference.md)

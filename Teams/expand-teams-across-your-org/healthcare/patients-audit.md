@@ -16,12 +16,12 @@ ms.collection:
 ms.reviewer: anach
 description: 瞭解為系統管理員稽核病患Teams應用程式
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: a2c5b006384d113dde82f702dee68a82b99685f6
-ms.sourcegitcommit: e6e6a2a85ff376f97a3af3548e13d1273fa84a52
+ms.openlocfilehash: 288877032c662ee03e0fd575a1f9ce2e96d1b4336c290899e98eeef92a11fecf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "52697830"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308732"
 ---
 # <a name="audit-logs-for-patients-app"></a>病患應用程式的稽核記錄
 
@@ -34,7 +34,7 @@ ms.locfileid: "52697830"
 
 ## <a name="meet-hipaa-requirements"></a>符合 HIPAA 需求
 
-根據 HIPAA 指導方針，醫療保健提供者必須保留所有 PHI 存取的記錄，以便對變更進行稽核。 Microsoft 承諾使用 Microsoft Teams企業客戶，並協助他們符合 HIPAA 需求和控制措施。 透過病患 App 存取 PHI 的功能會完全追蹤，Microsoft 365合規性中心提供記錄，如稽核記錄搜尋功能一文[所述](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
+根據 HIPAA 指導方針，醫療保健提供者必須保留所有 PHI 存取的記錄，以便對變更進行稽核。 Microsoft 承諾使用 MICROSOFT TEAMS企業客戶，並協助他們符合 HIPAA 需求和控制措施。 透過病患 App 存取 PHI 的功能會完全追蹤，Microsoft 365合規性中心提供記錄，如稽核記錄搜尋功能一文[所述](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
 > [!IMPORTANT]
 > 根據法律，維護病患隱私權的重任是由醫療保健提供者承擔。 法律賦予病患隱私權，並規定 IT 系統管理員或 HIPAA 控制者能輕鬆判斷哪些護士、醫師或社會工作人員存取或變更病患記錄。 違反 PHI 存取權最常見的範例之一是存取至VIP 病患。 需要稽核記錄功能，才能針對任何 PHI 存取違規進行調查，並符合 HIPAA 需求。
@@ -64,9 +64,9 @@ ms.locfileid: "52697830"
 |:---|:---|:---|
 | 已查看病患清單 | PatientListView | 使用者已查看病患清單。|
 | 已刪除的病患清單 | PatientListDelete | 使用者刪除了病患清單。|
-| 新增病患到清單 | PatientListAddPatient | 一位病患已新加入病患清單。 |
+| 新增病患到清單 | PatientListAddPatient | 病患已新加入病患清單。 |
 | 新增病患記事 | PatientNoteAdd | 已新增記事至病患記錄。 |
-| 建立病患架構 | PatientSchemaCreate | 已建立一組用於病患記錄的欄。 |
+| 建立病患架構 | PatientSchemaCreate | 已建立病患記錄中使用的一組資料行。 |
 | 使用者啟動匯出 | ExportInitiation | 病患資料從病患應用程式匯出至Excel檔案。 檔案會儲存于小組 sharepoint 網站。 |
 | 已建立病患清單 | PatientListCreate | 使用者建立了病患清單。|
 | 設定預設病患清單| PatientListDefaultSet| 使用者將特定清單設定為預設清單。|

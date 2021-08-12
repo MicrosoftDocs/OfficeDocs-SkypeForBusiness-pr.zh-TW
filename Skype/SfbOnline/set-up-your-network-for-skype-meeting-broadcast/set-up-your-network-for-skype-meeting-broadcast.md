@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: 瞭解 Skype Online 的 商務用 Skype 會議廣播功能，此功能可讓您排程、製作會議或活動，以及將會議或活動廣播給最多 10，000 名出席者的大型線上觀眾。
-ms.openlocfilehash: e5248ca2f8b8bb8080eae5eebe44e3d7c5bc01f5
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+description: 瞭解 Skype Online 的 商務用 Skype 會議廣播功能，此功能可讓您排程、製作會議或活動，以及將會議或活動廣播給最多 10，000 位出席者的大型線上觀眾。
+ms.openlocfilehash: 068ff156badaff9231f6e477e2f41668ea8f99fd26531f2a08155c4ee4763c05
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53725356"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308024"
 ---
 # <a name="set-up-your-network-for-skype-meeting-broadcast"></a>為您的 Skype 會議廣播設定網路
 
@@ -91,9 +91,9 @@ ms.locfileid: "53725356"
 
 設定程式的第二個步驟是先新增所需的網域，然後新增讓會議廣播Skype所需的 IP 位址和 URL。
 
-- **在這裡查看商務用 Skype** Web 端點 URL 和 IP 位址，以新增所需的 [連線端點 URL 和 IP 位址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)。
+- **在這裡查看商務用 Skype** 線上端點 URL 和 IP 位址，以新增所需的 [Url 和 IP 位址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_lyo)。
 
-## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>在混合式Skype組織中設定會議廣播
+## <a name="set-up-skype-meeting-broadcast-in-hybrid-deployments-and-organizations"></a>在混合式部署Skype組織中設定會議廣播
 
 如果您有 商務用 Skype Online 組織，以及 Lync Server 2010、Microsoft Lync Server 2013 和 商務用 Skype Server 2015 內部部署，而且有線上和內部部署的使用者，除了上述設定步驟之外，您還需要執行其他設定步驟，讓內部部署組織能夠與 商務用 Skype Online 通訊，並允許所有使用者加入 Skype 會議廣播。 若要瞭解這些要求是什麼，請參閱為會議廣播設定Skype[部署](../../SfbServer/deploy/configure-skype-meeting-broadcast.md)。
 

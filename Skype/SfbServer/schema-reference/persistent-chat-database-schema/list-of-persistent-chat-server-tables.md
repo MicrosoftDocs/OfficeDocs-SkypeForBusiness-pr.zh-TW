@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 26c9e271-3516-4d90-b930-70fec4e359ea
 description: Persistent Chat 資料庫架構是由下清單格所組成。
-ms.openlocfilehash: fc87faee92856f35c1ebd54dae4db1f01cfe646b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bc7189eac8e8fbd42cdaa5786b82d5652c616a69ae3fc4fc180c189416a94468
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813013"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280936"
 ---
 # <a name="list-of-persistent-chat-server-tables"></a>常設聊天室伺服器表格清單
  
@@ -43,7 +43,7 @@ Persistent Chat 資料庫架構是由下清單格所組成。
 |[tblPrincipal](tblprincipal.md) <br/> |內含所有主體，包括使用者、資料夾及群組等。 Persistent Chat Server 會以平坦的異類清單形式處理此。 各欄位會依據每個主體的類型而定。  <br/> 大多數的主體是儲存在 Active Directory 中之物件的快取複本。 在這些 Active Directory 物件的主體表格中建立快取複本，稱為布建。  <br/> 有些主體的建立會比其他主體更主動，而且會完全忽略某些 Active Directory 物件。  <br/> |
 |[tblPrincipalAffiliations](tblprincipalaffiliations.md) <br/> |包含主體隸屬關係，描述 Active Directory 安全性群組、Active Directory 容器等等中的成員資格。  <br/> |
 |[tblNode](tblnode.md) <br/> |包含在 [控制台] 中管理的類別節點。  <br/> |
-|[tblRoleType](tblroletype.md) <br/> |包含角色類型及其相關聯的許可權集。 這個查閱表格是靜態的。  <br/> |
+|[tblRoleType](tblroletype.md) <br/> |是一種靜態查閱表格，含有角色類型與其相關的權限組。  <br/> |
 |[tblScopePrincipal](tblscopeprincipal.md) <br/> |包含指派給節點的範圍。  <br/> |
 |[tblPrincipalRole](tblprincipalrole.md) <br/> |包含指派給節點的角色。  <br/> |
 |[tblSiopWhiteList](tblsiopwhitelist.md) <br/> |包含可與節點相關聯的已註冊增益集。  <br/> |

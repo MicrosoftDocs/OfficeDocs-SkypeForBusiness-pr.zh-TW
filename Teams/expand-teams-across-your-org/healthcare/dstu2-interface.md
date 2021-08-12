@@ -19,12 +19,12 @@ ms.reviewer: anach
 description: 瞭解 DSTU2 介面規格Teams，包括設定或重設 FHIR 伺服器以使用 Microsoft Teams App。
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 12833ea55977cf7e8d18ee5c10b1f17d898b27b3
-ms.sourcegitcommit: beaaee10019f4eda746f348888a4a3c2aaa6f196
+ms.openlocfilehash: 8ec2b1a88d99937e83bc8553f7dbcdd8d92f78b5a8e5708301147a26f0cffe4a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48803481"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308762"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 介面規格
 
@@ -45,13 +45,13 @@ ms.locfileid: "48803481"
 - [位置](#location)
 
 > [!NOTE]
-> 病患資源是唯一的 (資源，如果沒有它，應用程式就完全無法載入。 不過，建議合作夥伴針對以下提供的規格，針對上述所有資源執行支援，以獲得最佳的使用者體驗，Microsoft Teams App。
+> 病患資源是唯一的 (資源，沒有這個資源，應用程式就完全無法載入。 不過，建議合作夥伴針對以下提供的規格，針對上述所有資源執行支援，以在病患應用程式中獲得最佳Microsoft Teams體驗。
 
 從 Microsoft Teams App 查詢多個資源時，會張貼 (BATCH) 到 FHIR 伺服器 URL 的要求。 伺服器會處理每個要求，並回報每個要求相符的資源組合。 有關詳細資訊和範例，請參閱 [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) 。
 
 下列所有 FHIR 資源都應該可由直接資源參照來訪問。
 
-## <a name="conformance-minimum-required-field-set"></a>符合最低要求欄位集
+## <a name="conformance-minimum-required-field-set"></a>符合最低要求的欄位集
 
  FHIR Server 必須實做一致性聲明，以便我們以事實摘要說明其功能。 我們預期 DSTU2 FHIR Server 中的下列參數：
 
@@ -76,7 +76,7 @@ ms.locfileid: "48803481"
  - 生日
  - MRN (識別碼) 
 
-除了 Argonaut 欄位之外，為了提供出色的使用者體驗，病患應用程式也會念出下欄欄位：
+除了 Argonaut 欄位之外，為了獲得出色的使用者體驗，病患應用程式也會念出下欄欄位：
 
  - Name.use
  - Name.首碼
@@ -186,7 +186,7 @@ Response:
  - Code.Code.Code
  - ValueQuantity.Value
 
-除了 Argonaut 欄位之外，為了提供出色的使用者體驗，病患應用程式也會念出下欄欄位：
+除了 Argonaut 欄位之外，為了獲得出色的使用者體驗，病患應用程式也會念出下欄欄位：
 
  - Code.Code.Display
  - ValueQuantity.Unit
@@ -198,7 +198,7 @@ Response:
  - patient=\<patient id\>
  - sort：desc=\<field ex. date\>
 
-目的是要能夠針對病患 ，[VitalSigns.DSTU.saz] 或觀察結果？ (最新的生命) 。
+目標是要能夠針對病患 ，[VitalSigns.DSTU.saz] 和觀察結果？ (最新的生命) 。
 
 ```
 Request:
@@ -363,13 +363,13 @@ Response:
 
 ## <a name="allergyintolerance"></a>抗反性Intolerance
 
-這些是最小必要欄位，這是 Argonaut 的一個 SubsetyIntolerance 設定檔：
+這些是最小必要欄位，這是 Argonaut 的一個 Argonaut AllergyIntolerance 設定檔的子集：
 
  - Code.Text
  - Code.Code[0]。顯示
  - 地位
 
-除了 Argonaut 欄位之外，為了提供出色的使用者體驗，病患應用程式也會念出下欄欄位：
+除了 Argonaut 欄位之外，為了獲得出色的使用者體驗，病患應用程式也會念出下欄欄位：
 
  - RecordedDate
  - 附注.文字
@@ -423,12 +423,12 @@ Response:
 
 請參閱 [https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html](https://www.hl7.org/fhir/DSTU2/AllergyIntolerance.html) 此欄位集的其他詳細資料。
 
-## <a name="medication-order"></a>醫療訂單
+## <a name="medication-order"></a>用藥單
 
 這些是最小必要欄位，這是 Argonaut MedicationOrder 設定檔的子集：
 
  - DateWritten
- - 指定器.Display
+ - 建議器.Display
  - Medication.display (參考) 
  - Medication.text (概念) 
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 您可以透過定義下列內容，來設定 Persistent Chat Server 或 Persistent Chat Server 集區的選項：
-ms.openlocfilehash: acc80c76e79364be730ec56a2b64e5dcd001f661
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 76556335f87a673c5ae6d8df576bd6fd47d140ae9338c27183d58971ebe4a439
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49818423"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281106"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>定義常設聊天室集區的屬性與選項
  
@@ -32,7 +32,7 @@ ms.locfileid: "49818423"
   
  **啟用規範**：如果您計畫要部署及執行選用的持續性聊天規範功能和資料庫，請選取此核取方塊。
   
- **使用備份 SQL Server 儲存區來啟用** 嚴重損壞修復：如果您計畫從另一部 SQL server 上已設定的儲存區儲存備份組，部署及執行 PERSISTENT 聊天 SQL server 儲存區的嚴重損壞修復，請選取此核取方塊。 如需詳細資訊，請參閱 [在商務用 Skype server 2015 中設定 Persistent Chat Server 的高可用性和嚴重損壞修復](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)。
+ **使用 backup SQL Server 儲存以啟用** 嚴重損壞修復：如果您計畫要部署及執行 Persistent SQL Server Chat 的嚴重損壞復原，請從另一個 SQL Server 的儲存區設定備份組內，，選取此核取方塊。 如需詳細資訊，請參閱[在商務用 Skype Server 2015 中設定 Persistent Chat Server 的高可用性和嚴重損壞修復](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)。
   
 > [!NOTE]
 > 此選項僅適用于具有多部伺服器的集區。 

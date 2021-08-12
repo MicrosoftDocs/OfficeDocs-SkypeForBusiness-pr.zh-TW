@@ -1,5 +1,5 @@
 ---
-title: 在聖文西亞的可用性
+title: 在聖露西亞的可用性
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
-ms.openlocfilehash: a84c49b7ce9c2f3693dc1f983a5c2b9a0cad8b39
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cc0970142cdb779d554241b69c4b28708a396d6089474ef6d0570659675aca4a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121481"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308782"
 ---
-# <a name="availability-in-saint-lucia"></a>在聖文西亞的可用性
+# <a name="availability-in-saint-lucia"></a>在聖露西亞的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 

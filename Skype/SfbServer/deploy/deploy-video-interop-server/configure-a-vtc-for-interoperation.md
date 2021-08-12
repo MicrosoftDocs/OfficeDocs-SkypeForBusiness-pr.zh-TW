@@ -1,5 +1,5 @@
 ---
-title: 設定 VTC 以搭配商務用 Skype 伺服器進行交互操作
+title: 設定 VTC 以與商務用 Skype Server 進行交互操作
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
-description: 摘要：將 VTC 裝置設定為搭配商務用 Skype Server 使用。
-ms.openlocfilehash: 7697fd9f33a4fece4871b056a05264ece888d357
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：設定 VTC 裝置與商務用 Skype Server 搭配使用。
+ms.openlocfilehash: 0c96766daf67ff3c8f7872a75423f64f64acba8e51d3fbc4c0edef841cc529e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802073"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307774"
 ---
-# <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>設定 VTC 以搭配商務用 Skype 伺服器進行交互操作
+# <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>設定 VTC 以與商務用 Skype Server 進行交互操作
  
 **摘要：** 設定 VTC 裝置與商務用 Skype Server 搭配使用。
   
-您必須針對將透過 SIP 主幹和 Cisco 整合通訊管理員 (CallManager，或 CUCM) 視頻閘道來連線至商務用 Skype VIS server 的每個 VTC，執行下列設定自訂程式。
+您將需要針對透過 SIP 主幹和 Cisco 整合通訊管理員 (CallManager 或 CUCM) 的視頻閘道，來連接至商務用 Skype VIS server 的每個 VTC 執行下列設定自訂程式。
   
 這裡所述的設定只是 CUCM 如何設定為搭配 VIS 使用的範例。 其他設定和/或替代 CUCM 功能的使用方式也可以用來達到相同的結果。 不建議使用特定案例的最佳設定。
   
@@ -78,14 +78,14 @@ ms.locfileid: "49802073"
 VTC 現在已設定為交互操作。 在服務可以開始之前，請先在 CUCM 側執行一些最後的步驟。
 ### <a name="configure-vtc-devices-on-cucm"></a>在 CUCM 上設定 VTC 裝置
 
-1. 登入 CUCM 並流覽至 Cisco 統一 CM 管理- \> 裝置- \> 電話- \> 尋找。 
+1. 登入 CUCM 並流覽至 Cisco 統一 CM 管理- \> 裝置- \> 電話- \> 找到。 
     
-2. 選取要設定的 VTC 裝置。 在 [電話設定] 畫面上驗證下列設定，並視需要進行修正。 變更或驗證這些設定後，按一下 [ **儲存**]。
+2. 選取要設定的 VTC 裝置。 在 [電話設定] 畫面上，確認下列設定，並視需要進行修正。 變更或驗證這些設定後，按一下 [ **儲存**]。
     
    |**參數**|**建議的設定**|
    |:-----|:-----|
    |裝置資訊-電話按鈕範本  <br/> | 標準 Cisco Telepresence 編解碼器 C40 <br/> |
-   |裝置資訊-常見的電話設定檔  <br/> | 標準通用電話設定檔 <br/> |
+   |裝置資訊-通用電話設定檔  <br/> | 標準通用電話設定檔 <br/> |
    |裝置資訊-呼叫搜尋空間  <br/> | CSS_SfBVideoInterop <br/> |
    |裝置資訊-AAR 呼叫搜尋空間  <br/> | CSS_SfBVideoInterop <br/> |
    |裝置資訊-媒體資源群組清單  <br/> | MRGL_SfBVideoInterop <br/> |
@@ -94,7 +94,7 @@ VTC 現在已設定為交互操作。 在服務可以開始之前，請先在 CU
    |通訊協定特定資訊-訂閱通話搜尋空間  <br/> | CSS_SfBVideoInterop <br/> |
    |通訊協定特定資訊-SIP 設定檔  <br/> | Telepresence 端點的標準 SIP 設定檔 <br/> |
    
-3. 儲存 VTC 設定之後，請重新導覽裝置的電話設定畫面。 在 [關聯] 群組中的畫面頂端，按一下影片交互操作的關聯。 這會顯示 [目錄號碼] 設定畫面。 
+3. 儲存 VTC 設定之後，請重新導覽裝置的「電話設定」畫面。 在 [關聯] 群組中的畫面頂端，按一下影片交互操作的關聯。 這會顯示 [目錄號碼] 設定畫面。 
     
 4. 請確認下列設定，並視需要進行修正： 
     
@@ -104,7 +104,7 @@ VTC 現在已設定為交互操作。 在服務可以開始之前，請先在 CU
    |:-----|:-----|
    | 目錄號碼資訊-路由分割區 <br/> | SfBVideoInterop_RoutePartition <br/> |
    |目錄號碼設定-呼叫搜尋空間  <br/> | CSS_SfBVideoInterop <br/> |
-   |MLPP 備用方和機密存取層級設定-MLPP 呼叫搜尋空間  <br/> | CSS_SfBVideoInterop <br/> |
+   |MLPP 備選方和機密存取層級設定-MLPP 呼叫搜尋空間  <br/> | CSS_SfBVideoInterop <br/> |
    |裝置顯示幕上的第1列 (來電者識別碼)   <br/> | 視需要 <br/> |
    |裝置-ASCII 顯示幕上的第1列 (來電者識別碼)   <br/> | 視需要 <br/> |
    

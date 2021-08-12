@@ -11,19 +11,19 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 瞭解如何使用預先安裝範本，使用不同主題的頻道，使用小組範本建立共同合作空間。
+description: 瞭解如何使用小組範本，使用預先安裝範本建立不同主題的頻道共同合作空間。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf5a601cfe373f1afa995b1dcd8b1f9adff05877
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: ebbc1e2b26fdd5f0ff6816d456e0f2a2dc9d02275b8c81089a0c0a1ef299e64f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856292"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308712"
 ---
 # <a name="get-started-with-team-templates-in-the-admin-center"></a>在系統管理中心開始使用小組範本
 
@@ -32,7 +32,7 @@ ms.locfileid: "52856292"
 > [!NOTE]
 > 小組範本目前不支援私人頻道和敏感度標籤。 範本定義中不包含私人頻道建立功能。 從範本流程 **建立團隊** 中的敏感度標籤選項將不會適用于團隊。
 
-小組範本是專為業務需求或專案所設計的小組結構預先建立的定義。 使用預先建建的範本或建立您自己的範本。 小組範本讓您能利用不同主題的頻道，快速建立豐富的共同合作空間，並預先安裝 App 以利於任務關鍵型內容和服務。 小組範本提供預先定義的小組結構，可協助您輕鬆建立整個組織的一致團隊。 目前，您可以從範本或 Microsoft Teams建立[Graph。](get-started-with-teams-templates.md)
+小組範本是專為業務需求或專案所設計的小組結構預先建立的定義。 使用預先建建的範本或建立您自己的範本。 小組範本讓您能利用不同主題的頻道快速建立豐富的共同合作空間，並預先安裝 App 以使用任務關鍵型內容和服務。 小組範本提供預先定義的小組結構，可協助您輕鬆建立整個組織的一致團隊。 目前，您可以使用 Microsoft Teams 範本建立[Graph。](get-started-with-teams-templates.md)
 
 本文將說明下列功能：
 
@@ -49,11 +49,11 @@ ms.locfileid: "52856292"
 | **小組範本支援的小組屬性** | **小組範本尚未支援的團隊屬性** |
 | ------------------------------------------------ | -------------------------------------------------------- |
 | 範本類型 | 團隊成員資格 |
-| 團隊名稱 | 小組圖片 |
+| 小組名稱 | 小組圖片 |
 | 團隊描述 | 頻道設定 |
-| 團隊可見度 (公開或私人)  | 連接器 |
+| 團隊可見度 (公開或私人)  | 連接 |
 | 團隊設定 (例如成員、來賓、@ 提及)  | 檔案和內容 |
-| Autofavorite 頻道 | |
+| 自動favorite頻道 | |
 | 已安裝的應用程式 | |
 | 釘上定位點 | |
 
@@ -74,15 +74,15 @@ ms.locfileid: "52856292"
 | 採用Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  頻道： <ul><li>一般</li> <li>公告</li> <li>冠軍角</li> <li>小組表單</li><li>行事曆</li></ul> 應用程式： <ul><li>Wiki</li>  <li>頻道日曆</li> |
 | 管理專案 |`com.microsoft.teams.template.ManageAProject`| 頻道： <ul><li>一般</li> <li>公告</li> <li>資源</li> <li>規劃</li></ul> 應用程式：<ul><li>Wiki</li><li>OneNote</li><li>Planner</li><li>清單</li>  </ul> |
 | 管理活動|`com.microsoft.teams.template.ManageAnEvent` | 頻道： <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與公關</li></ul> 應用程式：<ul><li>Wiki</li><li>網站</li> <li>YouTube</li> <li>Planner</li> <li>OneNote</li> <li>員工的想法</li> <li>問題報訊者</li></ul> |
-|員工上機|`com.microsoft.teams.template.OnboardEmployees` | 頻道： <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用程式：<ul><li>Wiki</li><li>社區</li><li>Planner</li><li>員工的想法</li></ul>|
-|組織服務台| `com.microsoft.teams.template.OrganizeHelpDesk`|頻道：<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用程式：<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>稱讚</li><li>問題報者</li></ul> |
+|上載員工|`com.microsoft.teams.template.OnboardEmployees` | 頻道： <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用程式：<ul><li>Wiki</li><li>社區</li><li>Planner</li><li>員工的想法</li></ul>|
+|組織服務台| `com.microsoft.teams.template.OrganizeHelpDesk`|頻道：<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用程式：<ul><li>Wiki</li><li>OneNote</li><li>Planner </li><li>稱讚</li><li>問題報訊者</li></ul> |
 | 病患照護| `healthcareWard`| 頻道：<ul><li>一般</li><li>公告</li><li>過程中討論</li><li>輪次</li><li>人員</li><li>訓練</li></ul> 應用程式： <ul><li>Wiki</li><li>清單  </li><li>批准</li></ul>|
-| 在全球危機或事件上共同合作 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 頻道： <ul><li>一般<li>公告</li><li>世界新訊</li><li>業務連續性</li><li>遠端工作</li><li>內部通訊</li><li>外部通訊</li><li>核准要求</li><li>客戶抱怨</li><li>榮譽</li><li>主管更新</li></ul>應用程式： <ul><li>稱讚</li><li>Wiki</li><li>網站</li><li>Planner</li><li>問題報者</li></ul>|
-|銀行分行| `com.microsoft.teams.template.CollaborateWithinABankBranch`|頻道： <ul><li>一般<li>公告</li><li>過程中討論</li><li>客戶會議</li><li>核准要求 </li><li>教練</li><li>技能開發</li><li>貸款處理</li><li>客戶抱怨</li><li>榮譽</li><li>有趣的專案</li><li>合規性</li></ul>應用程式：<ul><li>稱讚 </li><li>問題報者</li></ul>|
+| 在全球危機或事件上共同合作 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 頻道： <ul><li>一般<li>公告</li><li>世界新聞</li><li>業務連續性</li><li>遠端工作</li><li>內部通訊</li><li>外部通訊</li><li>核准要求</li><li>客戶抱怨</li><li>榮譽</li><li>主管更新</li></ul>應用程式： <ul><li>稱讚</li><li>Wiki</li><li>網站</li><li>Planner</li><li>問題報訊者</li></ul>|
+|銀行分行| `com.microsoft.teams.template.CollaborateWithinABankBranch`|頻道： <ul><li>一般<li>公告</li><li>過程中討論</li><li>客戶會議</li><li>核准要求 </li><li>教練</li><li>技能開發</li><li>貸款處理</li><li>客戶抱怨</li><li>榮譽</li><li>有趣的專案</li><li>合規性</li></ul>應用程式：<ul><li>稱讚 </li><li>問題報訊者</li></ul>|
 |事件回應| `com.microsoft.teams.template.CoordinateIncidentResponse`|頻道： <ul><li>一般<li>公告</li><li>物流</li><li>規劃</li><li>恢復</li><li>緊急</li></ul> 應用程式： <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Planner</li> <li>批准</li> <li>檢驗</li> </ul>|
 |醫院| `healthcareHospital` |頻道： <ul><li>一般</li><li>公告</li><li>合規性</li><li>監管</li><li>人力資源</li><li>藥品部</li></ul> 應用程式： <ul><li>Wiki</li><li>清單  </li></ul>|
 |組織商店| `retailStore` |頻道： <ul><li>一般<li>班次交班</li><li>學習</li></ul> 應用程式： <ul><li>Wiki</li><li>Planner</li></ul>|
-|品質和安全性 |`com.microsoft.teams.template.QualitySafety`|頻道： <ul><li>一般<li>公告</li><li>第 1 行</li><li>第 2 行</li><li>第 3 行</li><li>安全</li><li>訓練</li><li>維護</li><li>有趣的專案</li></ul> 應用程式： <ul><li>Wiki</li><li>Planner</li> <li>問題報者</li> <li>檢驗</li> </ul>|
+|品質和安全性 |`com.microsoft.teams.template.QualitySafety`|頻道： <ul><li>一般<li>公告</li><li>第 1 行</li><li>第 2 行</li><li>第 3 行</li><li>安全</li><li>訓練</li><li>維護</li><li>有趣的專案</li></ul> 應用程式： <ul><li>Wiki</li><li>Planner</li> <li>問題報訊者</li> <li>檢驗</li> </ul>|
 |適用于主管的零售| `retailManagerCollaboration` |頻道： <ul><li>一般<li>營運</li><li>學習</li></ul> 應用程式： <ul><li>Wiki</li><li>Planner</li></ul>|
 ||||
 

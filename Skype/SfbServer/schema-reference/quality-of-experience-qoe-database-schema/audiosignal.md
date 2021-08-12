@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: 每筆記錄代表一個端點的音訊信號計量。 通常，每個呼叫都有兩筆記錄，一個用於來電者，另一個則用於被叫用方。
-ms.openlocfilehash: ab918941357b85c6bcb25dcbaeb93a7be9c55f2d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 36ece4a9481400c3fae9e248d00cc59f3ec161b21aa03d8e824fc4d21931d04f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809653"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309202"
 ---
 # <a name="audiosignal-table"></a>AudioSignal 表格
  

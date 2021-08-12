@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于智利Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: e1d871b5107e2bfba7b25e47d60f36c2a7484b34
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0eeb31498115c5399cae62c195a5a8c1811fe6cf2d6a72a18eed8e2e9ed01b1c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118252"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308912"
 ---
 # <a name="availability-in-chile"></a>智利的可用性
 

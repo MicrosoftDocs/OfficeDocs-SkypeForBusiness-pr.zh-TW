@@ -15,25 +15,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ublic 立即訊息 (IM) 連線能力，讓組織中的使用者能夠使用 IM 與公用 IM 服務提供者所提供的 IM 服務的使用者進行通訊。
-ms.openlocfilehash: 28bb1c94cb42068fe99f07a6608a3ac1c50991ad
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 33efe5c5c48dc84a29f642de9e8d2445ad3cd02c1ee82089e26e532c52dbf3c9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823585"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309382"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>在商務用 Skype Server 中設定原則以控制公用使用者存取
 
 公用立即訊息 (IM) 連線能力，讓組織中的使用者能夠使用 IM 與公用 IM 服務提供者所提供的 IM 服務的使用者進行通訊。 您可以設定一或多個外部使用者存取原則，以控制公用使用者是否可以與內部商務用 Skype Server 使用者共同作業。 公用立即訊息連線功能是一項附加的功能，可依賴您的部署和使用者的設定。 它也取決於公用 IM 提供者的服務布建。 
 
-若要控制公用使用者存取權，您可以在全域、網站和使用者層級設定原則。 在一個原則層級套用的商務用 Skype 伺服器原則設定，可以覆寫在另一個原則層級套用的設定。 商務用 Skype Server 原則優先順序為：使用者原則 (影響最大) 會覆寫網站原則，然後網站原則會覆寫全域原則 (影響最小)。 也就是說，原則設定愈接近原則影響的物件，對物件所造成的影響也越大。
+若要控制公用使用者存取權，您可以在全域、網站和使用者層級設定原則。 商務用 Skype Server 于一個原則層級套用的原則設定，會覆寫在其他原則層級套用的設定。 商務用 Skype Server 原則優先順序為：使用者原則 (影響最大) 會覆寫網站原則，然後網站原則會覆寫全域原則 (影響最小)。 也就是說，原則設定愈接近原則影響的物件，對物件所造成的影響也越大。
 
 在 IM 邀請方面，回應將視用戶端軟體而定。除非使用者設定的規則 (亦即，在使用者用戶端的 [允許] 和 [封鎖] 清單中) 明確封鎖外部傳送者，否則會接受要求。另外，如果使用者已選擇封鎖所有不在其 [允許] 清單內的 IM 使用者，IM 邀請也會遭到封鎖。
 
 
 
 > [!NOTE]  
-> 即便您並未對所屬組織啟用同盟關係，仍可設定原則來控制公用使用者存取。 不過，只有當您為組織啟用同盟關係時，所設定的原則才會生效。 如需啟用同盟的詳細資訊，請參閱 [啟用或停用遠端使用者存取](../access-edge/enable-or-disable-remote-user-access.md)。 此外，如果您指定使用者原則以控制公用使用者存取，則此原則只適用于已啟用商務用 Skype 伺服器的使用者，且設定為使用原則。 如需指定可登入商務用 Skype Server 之公用使用者的詳細資訊，請參閱 [指派外部使用者存取原則](assign-an-external-user-access-policy.md)。
+> 即便您並未對所屬組織啟用同盟關係，仍可設定原則來控制公用使用者存取。 不過，只有當您為組織啟用同盟關係時，所設定的原則才會生效。 如需啟用同盟的詳細資訊，請參閱 [啟用或停用遠端使用者存取](../access-edge/enable-or-disable-remote-user-access.md)。 此外，如果您指定使用者原則以控制公用使用者存取，則原則只適用于已啟用商務用 Skype Server 的使用者，且設定為使用原則。 如需指定可登入商務用 Skype Server 之公用使用者的詳細資訊，請參閱[指派外部使用者存取原則](assign-an-external-user-access-policy.md)。
 
 
 請使用下列步驟來設定原則，以支援一個或多個公用 IM 提供者的使用者存取。
@@ -42,7 +42,7 @@ ms.locfileid: "49823585"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，依序按一下 [外部使用者存取] 及 [外部存取原則]。
 
@@ -66,7 +66,7 @@ ms.locfileid: "49823585"
 
 7.  按一下 **[認可]**。
 
-若要啟用公用使用者存取功能，則您必須同時對組織啟用同盟關係支援。 如需詳細資訊，請參閱 [在商務用 Skype Server 中設定控制同盟使用者存取的原則](configure-policies-to-control-federated-user-access.md)。
+若要啟用公用使用者存取功能，則您必須同時對組織啟用同盟關係支援。 如需詳細資訊，請參閱[在商務用 Skype Server 中設定控制同盟使用者存取的原則](configure-policies-to-control-federated-user-access.md)。
 
 如果這是使用者原則，您也必須將該原則套用至您希望能夠與公用使用者共同作業的公用使用者。 
 

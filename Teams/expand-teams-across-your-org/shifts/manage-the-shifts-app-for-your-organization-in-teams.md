@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7af23cf4586074420f7f95b916ababaf797cdb4b
-ms.sourcegitcommit: 330b5c3e299ddad5168958e4722d1e0b987372e2
+ms.openlocfilehash: 27bb2e6e336bb09bffc9bc79c25e864964562a97820b3e37c462ec153eed108b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53536759"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308722"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [班次] 應用程式
 
@@ -78,7 +78,7 @@ Teams內建的 FirstLineWorker 應用程式設定策略，您可以指派給貴�
 
 若要查看 FirstLineWorker 政策，在系統管理中心的左側導Microsoft Teams，請前往 Teams   >  **App 設定政策**。
 
-![FirstLineWorker 應用程式設定策略的螢幕擷取畫面](../../media/firstline-worker-app-setup-policy.png "系統管理中心中 FirstLineWorker 應用程式設定Microsoft Teams螢幕擷取畫面")
+![FirstLineWorker 應用程式設定策略的螢幕擷取畫面](../../media/firstline-worker-app-setup-policy.png "系統管理中心中 FirstLineWorker 應用程式設定Microsoft Teams的螢幕擷取畫面")
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>指派 FirstLineWorker 應用程式設定策略給使用者
 

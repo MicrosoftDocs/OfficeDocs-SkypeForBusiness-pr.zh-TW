@@ -16,16 +16,16 @@ description: 針對 Microsoft Teams 用戶端的連線問題進行疑難排解�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f9ef787a5e103649c1526fab321cc8a9a088254c
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 524a78f5a588b0a3a233385f7892624c46e5bac541f7e8a13f647e541b0ffbff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856162"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308952"
 ---
 # <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>針對 Microsoft Teams 用戶端的連線問題進行疑難排解
 
-Microsoft Teams 用戶端所發現的問題大多可以追溯到防火牆或 Proxy 連線。 確認防火牆或 Proxy 中已開啟必要的 URL、IP 位址和連接埠，將會讓不必要的疑難排解工作降到最低。 如需特定 URL 和 IP Microsoft Teams，請參閱MICROSOFT 365及Office 365 URL 與[IP 位址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)支援文章。 下列案例需要在防火牆中開啟特定的 URL 和連接埠。
+Microsoft Teams 用戶端所發現的問題大多可以追溯到防火牆或 Proxy 連線。 確認防火牆或 Proxy 中已開啟必要的 URL、IP 位址和連接埠，將會讓不必要的疑難排解工作降到最低。 如需有關 URL 和 IP 所需的特定Microsoft Teams，請參閱MICROSOFT 365及Office 365 URL 與[IP 位址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)支援文章。 下列案例需要在防火牆中開啟特定的 URL 和連接埠。
 
 - 驗證
 

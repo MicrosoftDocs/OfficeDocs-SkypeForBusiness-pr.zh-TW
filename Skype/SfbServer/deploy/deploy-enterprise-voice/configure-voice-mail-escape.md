@@ -16,24 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 摘要：瞭解如何使用商務用 Skype Server 管理命令介面，在商務用 Skype Server 中設定語音信箱轉義。
-ms.openlocfilehash: c74142cf3b0f6c9d5a871e116d8e163a095ad3cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f94a9e78d5f1b88644691d43b7c24169e6122e6188f7ee45c095521230b6be3f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106369"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279421"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>在商務用 Skype 中設定語音信箱轉義
 
 **摘要：** 瞭解如何使用商務用 Skype Server 管理命令介面，在商務用 Skype Server 中設定語音信箱轉義。
 
-當使用者設定同時響鈴的行動電話時，如果行動電話關閉、電池計量不足或超出範圍，則通常會將來電者路由傳送至使用者的個人語音信箱。 在商務用 Skype Server 中，使用者可以選擇讓業務相關的來電路由傳送至其公司語音信箱系統。 具體而言，您可以設定 timer，而且當電信公司的語音信箱在所定義的時間範圍內接聽來電時，商務用 Skype 伺服器會中斷與電信公司的語音信箱系統的連線 (和使用者的個人語音信箱) ，而使用者在公司系統中的剩餘端點會繼續振鈴。 如此一來，來電者就會自動路由傳送至使用者的公司語音信箱。
+當使用者設定同時響鈴的行動電話時，如果行動電話關閉、電池計量不足或超出範圍，則通常會將來電者路由傳送至使用者的個人語音信箱。 使用商務用 Skype Server 時，使用者可以選擇要將與業務相關的來電路由傳送至其公司語音信箱系統。 具體而言，您可以設定 timer，如果在所定義的時間範圍內，電信公司的語音信箱接聽來電，商務用 Skype Server 會中斷與載波語音信箱系統的連線 (和使用者的個人語音信箱) ，但使用者在公司系統中的剩餘端點會繼續振鈴。 如此一來，來電者就會自動路由傳送至使用者的公司語音信箱。
 
-使用商務用 Skype Server 管理命令介面 Cmdlet **Set-CsVoicePolicy**，使用下列參數，在語音原則層級執行此設定。
+使用下列參數，在語音原則層級上使用商務用 Skype Server 管理命令介面 Cmdlet **Set-CsVoicePolicy**，來執行此設定。
 
 ### <a name="to-configure-voice-mail-escape"></a>設定語音信箱轉義
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
 
 2. 指定下列要 **Set-CsVoicePolicy** 的參數：
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5957e8900a9b3d9915a88e3ad8bf5e18c7a08b3
-ms.sourcegitcommit: d77104d5606ff93a792e8712d6c7780ae247b536
+ms.openlocfilehash: 6fc66dda7b4c7c87b3b0dd97846f5e45aae20c4c70daa870f0cdb2adb2373529
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2021
-ms.locfileid: "53126899"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308942"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>通訊合規性Microsoft Teams
 
@@ -50,11 +50,11 @@ Teams系統管理員可以在下列層級設定通訊合規性政策：
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>在郵件中處理不當Microsoft Teams
 
-在您針對郵件已建立策略並收到Microsoft Teams通訊合規性通知之後，組織中的合規性審查者可以針對這些郵件採取行動。 校閱者可以檢查通訊合規性通知，並移除已標有標Microsoft Teams。
+當您已針對這些郵件Microsoft Teams並收到通訊合規性通知之後，貴組織的合規性審查者可以針對這些郵件採取行動。 校閱者可以檢查通訊合規性通知，並移除已標有標Microsoft Teams。
 
 ![移除郵件Teams](./media/communication-compliance-remove-teams-message.png)
 
-移除的郵件和內容會以通知取代，讓檢視器瞭解郵件或內容已移除，以及哪些政策適用于移除。 移除的郵件或內容的寄件者也會收到移除狀態的通知，並且提供原始郵件內容，以瞭解其移除相關內容。 寄件者也可以查看適用于郵件移除的特定原則條件。
+移除的郵件和內容會以通知取代，讓檢視器瞭解郵件或內容已移除，以及哪些政策適用于移除。 已移除郵件或內容的寄件者也會收到移除狀態的通知，並且提供原始郵件內容，以瞭解其移除相關內容。 寄件者也可以查看適用于郵件移除的特定原則條件。
 
 寄件者看到之策略提示範例：
 

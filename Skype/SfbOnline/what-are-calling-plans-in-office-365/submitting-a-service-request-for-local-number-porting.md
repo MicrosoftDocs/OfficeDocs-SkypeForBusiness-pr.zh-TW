@@ -22,18 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderQuickViewPanelO365Support
 description: '如果您有超過 999 個電話號碼要轉接到 商務用 Skype，請瞭解如何提交移轉訂單服務要求，以將它們移動。 '
-ms.openlocfilehash: e7b3b5b5a0ffdfa57fd1c61284b52dfda17b0204
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: ec95b6e49ccfafa3d0b320236543c4874be1f4c0dce53ec4112892c5dcece1e7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237989"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281306"
 ---
 # <a name="submitting-a-service-request-for-local-number-porting"></a>提交當地號碼移植的服務要求
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-如果您需要將超過 999 個電話號碼 (使用者，或包括付費或免付費) 在內的服務號碼轉接到 商務用 Skype Online，請參閱管理貴組織[的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。
+如果您需要將超過 999 個電話號碼 (或包括付費或免付費) 在內的服務號碼轉接到 商務用 Skype Online，請參閱管理貴組織[的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。
 
 > [!NOTE]
 > 如果您需要取得更多電話號碼，請聯絡商務產品支援人員 [- 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)

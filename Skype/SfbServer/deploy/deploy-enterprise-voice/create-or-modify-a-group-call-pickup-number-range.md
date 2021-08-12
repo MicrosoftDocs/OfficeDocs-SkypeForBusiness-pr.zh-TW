@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
-description: 在商務用 Skype Server Enterprise Voice 中建立或修改群組呼叫收取號碼範圍。
-ms.openlocfilehash: e71915519014b1fa4cfffa3172327e9949ed73a2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在商務用 Skype Server 企業語音中建立或修改群組呼叫收取號碼範圍。
+ms.openlocfilehash: 73c2c0b74c27fd59d94d97c5ee05e0da88219601e839d42dc12e0ec659db0aa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100419"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307874"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>在商務用 Skype 中建立或修改群組呼叫收取號碼範圍
 
-在商務用 Skype Server Enterprise Voice 中建立或修改群組呼叫收取號碼範圍。
+在商務用 Skype Server 企業語音中建立或修改群組呼叫收取號碼範圍。
 
 群組呼叫收取是以通話駐留應用程式為基礎。 當您部署群組呼叫收取時，您必須使用指定為呼叫收取群組號碼的電話號碼範圍來設定通話駐留軌道表格。 這些群組號碼是使用者在撥打其他使用者所撥打之來電時所撥打的號碼。
 
@@ -34,7 +34,7 @@ ms.locfileid: "51100419"
 使用下列程式可建立或修改通話駐留軌道表格中的呼叫收取群組號碼範圍。
 
 > [!NOTE]
-> 您必須使用商務用 Skype Server 管理命令介面來建立、修改、移除及查看通話駐留軌道表格中的群組呼叫收取號碼範圍。 在商務用 Skype Server [控制台] 中無法使用群組呼叫收取號碼範圍。
+> 您必須使用商務用 Skype Server 管理命令介面，來建立、修改、移除和查看「通話駐留軌道」表格中的群組呼叫收取號碼範圍。 在商務用 Skype Server 控制台中無法使用群組呼叫收取號碼範圍。
 
 呼叫收取群組號碼範圍必須符合下列規則：
 
@@ -50,9 +50,9 @@ ms.locfileid: "51100419"
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>若要建立或修改呼叫收取群組範圍
 
-1. 登入安裝商務用 Skype Server 管理命令介面的電腦，並將其安裝為 RTCUniversalServerAdmins 群組的成員，或使用 **委派安裝許可權** 中所述的必要使用者權限。
+1. 以 **委派安裝許可權** 中所述，以 RTCUniversalServerAdmins 群組成員的身分或必要使用者權限的方式，登入安裝商務用 Skype Server 管理命令介面的電腦。
 
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
 
 3. 使用 **get-cscallparkorbit** 來建立新的呼叫收取群組號碼範圍。 使用 **get-cscallparkorbit** 可修改現有的呼叫收取號碼範圍。
 

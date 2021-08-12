@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 description: 摘要：瞭解如何在商務用 Skype Server 中設定語音原則、PSTN 使用方式記錄和語音路由。
-ms.openlocfilehash: f8c9f75f24a06b210a1c17ed11a1485ab5158f3d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 586aad64ae7585a275b0cce0e91497e0dea183d200693bbbf84e95e123bb392d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830443"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54279331"
 ---
 # <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>在商務用 Skype 中設定語音原則、PSTN 使用方式記錄和語音路由
  
@@ -48,6 +48,6 @@ ms.locfileid: "49830443"
     
 - [在商務用 Skype 中匯出或匯入語音路由設定檔](voice-route-configuration-import-export.md)
     
-- [在商務用 Skype 中將擱置的變更發佈至語音路由設定](voice-route-config-changes.md)
+- [在商務用 Skype 中發佈語音路由設定的擱置變更](voice-route-config-changes.md)
     
 

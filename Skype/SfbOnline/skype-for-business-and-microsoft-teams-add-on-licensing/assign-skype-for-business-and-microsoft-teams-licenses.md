@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: '瞭解如何為 商務用 Skype、音訊電話系統、通話方案及通訊信用額度指派授權。 '
-ms.openlocfilehash: 41f1788e4c562f3b4cc1f43d7875b64805b19ed8
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 61d8eca21fec85f7f729e0d0de9cc5d43fd5ca96567e2abe49cf7b6b5f651500
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237489"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281326"
 ---
 # <a name="assign-skype-for-business-licenses"></a>指派商務用 Skype 授權
 
@@ -38,9 +38,9 @@ ms.locfileid: "52237489"
 > 請參閱[商務用 Skype](skype-for-business-and-microsoft-teams-add-on-licensing.md)附加元件授權，瞭解您需要購買哪些授權，以及如何購買授權 ，視您的 Microsoft 365 或 Office 365 方案而不同，讓使用者取得音訊會議、免付費號碼，以及撥打公司外電話號碼的能力。
 
 
-## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>電話系統和通話方案：提示授權指派的腳本和腳本
+## <a name="phone-system-and-calling-plans-tips-and-scripts-for-assigning-licenses"></a>電話系統和通話方案：提示授權之使用者和腳本
 
-指派音訊會議、電話系統通話方案授權之前，您需要知道什麼
+指派音訊會議、電話電話系統方案授權之前，您需要知道什麼
 
 - **使用混合式使用者內部部署 PSTN 連接嗎？** 如果是這樣，您只需要指派 **授權電話系統授權**。 您不應該 **指派** 通話方案。
 
@@ -48,7 +48,7 @@ ms.locfileid: "52237489"
 
 - **錯誤訊息**：如果您沒有購買正確的授權數量，就會收到錯誤訊息。 如果您需要購買更多通話方案授權，請選擇 購買 **更多**。
     
-- **下一** 個步驟：將通話方案授權指派給使用者之後，您必須取得貴組織的電話號碼，然後將這些號碼指派給貴組織的人。 有關逐步指示，請參閱 [設定通話方案](/microsoftteams/set-up-calling-plans)。
+- **下一** 個步驟：將通話方案授權指派給使用者之後，您必須取得貴組織的電話號碼，然後將那些號碼指派給貴組織的人。 有關逐步指示，請參閱 [設定通話方案](/microsoftteams/set-up-calling-plans)。
     
 ### <a name="how-to-assign-a-phone-system-and-calling-plan-license-to-one-user"></a>如何將通話和電話系統方案授權指派給一位使用者
 
@@ -131,7 +131,7 @@ ms.locfileid: "52237489"
 
 1. 下載並安裝 [Microsoft Online Services Sign-In IT 專業人員 RTW 小幫手](https://go.microsoft.com/fwlink/?LinkId=625123)。
 
-2. 下載並安裝 Windows Azure Active Directory **模組。** 請參閱[使用工具管理 Azure AD Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100))下載指示和 Cmdlet 語法。
+2. 下載並安裝 Windows Azure Active Directory **模組。** 請參閱[使用帳戶管理 Azure AD Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100))下載指示和 Cmdlet 語法。
 
     安裝模組之後，請使用 Windows PowerShell命令提示和下列語法來指派授權給使用者：
 

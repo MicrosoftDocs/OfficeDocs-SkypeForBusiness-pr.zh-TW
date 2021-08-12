@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
-description: 摘要：在為商務用 Skype Server 實施 DNS 記錄之前，請參閱本主題中的簡易 URL 考慮。
-ms.openlocfilehash: d1c4213e1fe28c6f42cd4fa14f48bc8ce9b7bdf1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：在為商務用 Skype Server 執行 DNS 記錄之前，請參閱本主題中的簡易 URL 考慮。
+ms.openlocfilehash: 11e3b5222e7ec1929580049f355525c40884b8d3aa9a55ccfbbdc18264a24500
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834583"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280946"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>商務用 Skype Server 中簡易 URLs 的 DNS 需求
 
-**摘要：** 在為商務用 Skype Server 實施 DNS 記錄之前，請參閱本主題中的簡易 URL 考慮。
+**摘要：** 在執行商務用 Skype Server 的 DNS 記錄之前，請參閱本主題中的簡易 URL 考慮。
 
-簡單 URLs 使您的使用者加入會議變得更容易，並讓系統管理員更輕鬆取得商務用 Skype Server 的系統管理工具。 簡易 URLs 會使用自己的網域，而不能比對任何您定義的 SIP 網域。 
+簡單 URLs 使您的使用者加入會議變得更容易，並讓系統管理員更容易商務用 Skype Server 系統管理工具。 簡易 URLs 會使用自己的網域，而不能比對任何您定義的 SIP 網域。 
 
-商務用 Skype 伺服器支援下列三個簡單 URLs：「開會」、「Dial-In」和「系統管理」。您必須設定「符合」和「Dial-In」的簡易 URLs，且 Admin 簡易 URL 是選用的。 需要用來支援簡單 URL 的網域名稱系統 (DNS) 記錄，視您定義這些簡單 URL 的方式而定，以及是否要支援簡單 URL 的災害復原。 
+商務用 Skype Server 支援下列三個簡單 URLs：「符合」、「Dial-In」和「系統管理」。您必須設定「符合」和「Dial-In」的簡易 URLs，且 Admin 簡易 URL 是選用的。 需要用來支援簡單 URL 的網域名稱系統 (DNS) 記錄，視您定義這些簡單 URL 的方式而定，以及是否要支援簡單 URL 的災害復原。 
 
 ## <a name="simple-url-scope"></a>簡單 URL 範圍
 
@@ -40,7 +40,7 @@ ms.locfileid: "49834583"
 ## <a name="simple-url-naming-and-validation-rules"></a>簡單 URL 命名和驗證規則
 <a name="BK_Valid"> </a>
 
-拓撲產生器和商務用 Skype Server 管理命令介面指令程式會針對您的簡易 URLs 執行數種驗證規則。 您必須為符合和撥入設定簡單的 URLs，但為 Admin 設定一個是選用的。 每個 SIP 網域都必須有個別的符合簡單 URL，但是您只需要一個撥入簡易 URL 和一個系統管理員簡易 URL 給整個組織。
+拓撲產生器和商務用 Skype Server 管理命令介面 Cmdlet 會針對您的簡單 URLs 強制執行數種驗證規則。 您必須為符合和撥入設定簡單的 URLs，但為 Admin 設定一個是選用的。 每個 SIP 網域都必須有個別的符合簡單 URL，但是您只需要一個撥入簡易 URL 和一個系統管理員簡易 URL 給整個組織。
 
 組織中的每個簡易 URL 都必須有唯一的名稱，而且不能是另一個簡單 URL 的首碼 (例如，您無法將 SfB2015.contoso.com/Meet 設定為您的 [SfB2015.contoso.com/Meet/Dialin] 簡單 url，而為您的撥入簡易 URL) 。 簡單 URL 名稱不能包含任何集區的 FQDN，或任何埠資訊 (例如， https://FQDN:88/meet 不允許) 。 所有的簡單 URLs 都必須以 HTTPs://前置詞開頭。 
 

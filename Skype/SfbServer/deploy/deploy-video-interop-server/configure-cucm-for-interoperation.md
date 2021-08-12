@@ -1,5 +1,5 @@
 ---
-title: 設定 CUCM 以搭配商務用 Skype 伺服器進行交互操作
+title: 設定 CUCM 以與商務用 Skype Server 進行交互操作
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
-description: 摘要：設定 CUCM 以搭配商務用 Skype Server 使用。
-ms.openlocfilehash: 82fa48a185b22973d35bc19484e733e6436ba43e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：設定 CUCM 以使用商務用 Skype Server。
+ms.openlocfilehash: c414e14feb29dc834ebcd6a62221e3ae5e6706e5ee5c265f155d6ea512a91423
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49837113"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307754"
 ---
-# <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>設定 CUCM 以搭配商務用 Skype 伺服器進行交互操作
+# <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>設定 CUCM 以與商務用 Skype Server 進行交互操作
  
-**摘要：** 設定 CUCM 以與商務用 Skype Server 搭配使用。
+**摘要：** 設定 CUCM 以使用商務用 Skype Server。
   
 > [!CAUTION]
 > 這項功能是透過 Cisco 整合通訊管理員 (CallManager，或是 CUCM) 版本10.5，只使用主幹安裝 over TCP 進行測試。 在繼續之前，請確認 CUCM 環境符合這些準則。 
@@ -47,22 +47,22 @@ ms.locfileid: "49837113"
     
    |**參數**|**建議的設定**|
    |:-----|:-----|
-   |姓名  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
+   |名稱  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
    |裝置安全性模式  <br/> |不安全  <br/> |
    |傳入傳輸類型  <br/> |TCP + UDP  <br/> |
    |外寄傳輸類型  <br/> |TCP  <br/> |
    |傳入埠  <br/> |5060  <br/> |
    
-7. 流覽 Cisco 統一 CM 管理- \> 裝置- \> 裝置設定- \> SIP 設定檔。
+7. 流覽 Cisco 統一 CM 管理- \> 裝置- \> 裝置設定 \> SIP 設定檔。
     
 8. 在 [SIP 設定檔設定] 畫面中，設定 SIP 設定檔資訊選項（如圖所示）。 
     
    |**參數**|**建議的設定**|
    |:-----|:-----|
-   |姓名  <br/> |SfBVideoInterop_SIPProfile  <br/> |
+   |名稱  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    |描述  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    
-9. 在同一個畫面上，向下滾動至 [SDP 設定檔資訊] 區段。 「 **早期提供」和「重新邀請」選項的 SDP 工作階段層級頻寬修正** 程式預設會設定為 TIAS 和 AS。 將此選項改為 [僅限 TIAS]。 如果您保留此選項的預設值，則商務用 Skype 伺服器將不會瞭解 SIP 郵件中的頻寬修正資訊。 TIAS 表示特定的傳輸獨立應用程式，也就是應用程式特定的應用程式。 這些是 RFC3890 中指定的 SIP 選項。
+9. 在同一個畫面上，向下滾動至 [SDP 設定檔資訊] 區段。 「 **早期提供」和「重新邀請」選項的 SDP 工作階段層級頻寬修正** 程式預設會設定為 TIAS 和 AS。 將此選項改為 [僅限 TIAS]。 如果您保留此選項的預設值，商務用 Skype Server 將不會瞭解 SIP 郵件中的頻寬修正資訊。 TIAS 表示特定的傳輸獨立應用程式，也就是應用程式特定的應用程式。 這些是 RFC3890 中指定的 SIP 選項。
     
 10. 在同一個畫面上，再向下滾動。 在 [SIP 設定檔的主幹特定設定] 底下，選取 [ **為語音和影片通話預先提供支援** ]，並將其設定為 **強制 (在必要時插入 MTP)** ] 選項。 這可讓 CUCM 使用早期的提供來設定外寄的 SIP 呼叫。 CUCM 8.5 中的一項新功能是支援外寄通話設定，但不需要 (MTP) 的媒體終止點。
     
@@ -76,9 +76,9 @@ ms.locfileid: "49837113"
     
 15. 在 [裝置資訊] 底下，將裝置名稱和描述設定 (可能是 SfBVideoInterop_SIPTrunk) 之類的專案，並將媒體資源群組清單設為包含適當媒體資源的 MRGL。 
     
-16. 進一步向下方滾動。 不需要 (MTP) 的媒體終止點，如果尚未取消核取，請將其取消勾選。 請選取在所有使用中的 **整合 CM 節點上執行** 的選項。 請注意，您應該將所有的 CUCM 節點新增至商務用 Skype 伺服器設定。
+16. 進一步向下方滾動。 不需要 (MTP) 的媒體終止點，如果尚未取消核取，請將其取消勾選。 請選取在所有使用中的 **整合 CM 節點上執行** 的選項。 請注意，您應該將所有的 CUCM 節點新增至商務用 Skype Server 設定。
     
-17. 進一步向下方滾動。 如圖所示，設定來電和連接的通訊雙方設定選項。
+17. 進一步向下方滾動。 如圖所示，設定來電和連接方設定選項。
     
     |**參數**|**建議的設定**|
     |:-----|:-----|
@@ -131,7 +131,7 @@ ms.locfileid: "49837113"
     
     |**參數**|**建議的設定**|
     |:-----|:-----|
-    |地區  <br/> |預設  <br/> |
+    |區域  <br/> |預設  <br/> |
     |音訊編解碼器偏好清單  <br/> |系統預設值  <br/> |
     |音訊位元速率上限  <br/> |64 kbps (g.722，g.711)   <br/> |
     |影片通話的最長會話位元速率  <br/> |200000 kbps  <br/> |
@@ -143,4 +143,4 @@ ms.locfileid: "49837113"
   
 ## <a name="see-also"></a>另請參閱
 
-[設定 VTC 以搭配商務用 Skype 伺服器進行交互操作](configure-a-vtc-for-interoperation.md)
+[設定 VTC 以與商務用 Skype Server 進行交互操作](configure-a-vtc-for-interoperation.md)

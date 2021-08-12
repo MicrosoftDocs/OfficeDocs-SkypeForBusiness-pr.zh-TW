@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: 每筆記錄代表一個音訊資料流程。 一個音訊媒體行通常包含兩個音訊資料流程。
-ms.openlocfilehash: e24a5c8611c3f6bf7b56edf342aa2595f6794a90
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 28111f9c97efdc729d13fda824f4236caad97eee1f08ff31eea0b751dda1cb88
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831363"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309192"
 ---
 # <a name="audiostream-table"></a>AudioStream 表格
  
 每筆記錄代表一個音訊資料流程。 一個音訊媒體行通常包含兩個音訊資料流程。
   
-|欄|資料類型|索引鍵/索引|詳細資料|
+|欄位|資料類型|索引鍵/索引|詳細資料|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |datetime  <br/> |主要  <br/> |從 [MediaLine 表格](medialine-0.md)中參照。  <br/> |
 |**SessionSeq** <br/> |int  <br/> |主要  <br/> |從 [MediaLine 表格](medialine-0.md)中參照。  <br/> |
@@ -59,7 +59,7 @@ ms.locfileid: "49831363"
 |**RatioStretchedSamplesAvg** <br/> |十進位 (5，2)   <br/> ||音訊修復所產生之延伸樣本的平均比率為典型範例。  <br/> |
 |**RatioCompressedSamplesAvg** <br/> |十進位 (5，2)   <br/> ||音訊修復所產生之壓縮樣本與一般範例的平均比率。  <br/> |
 |**入境** <br/> |位  <br/> | <br/> |接收接收方的資料流程資料。  <br/> |
-|**出境** <br/> |位  <br/> | <br/> |接收寄件者端的資料流程資料。  <br/> |
+|**出埠** <br/> |位  <br/> | <br/> |接收寄件者端的資料流程資料。  <br/> |
 |**SenderIsCallerPAI** <br/> |位  <br/> | <br/> |1表示資料流程是從來電者流向被呼叫方。  <br/> 0表示資料流程方向從被叫方傳送給來電者。  <br/> |
 |**JitterInterArrivalSD** <br/> |float  <br/> ||抖動到達時間的標準差。  <br/> 此欄是在 Microsoft Lync Server 2013 中引進。  <br/> |
 |**ConcealRatioMax** <br/> |float  <br/> ||修復所隱藏的封包的最大比率。  <br/> 此欄是在 Microsoft Lync Server 2013 中引進。  <br/> |

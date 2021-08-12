@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解撥打新加坡免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
-ms.openlocfilehash: 1bd7449148ead13be1faec7151e384520b48a090
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 922a86fdb8608d5d92e9ed978a732e18af1489de5038a9c7bfe976760f09c51d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097739"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308314"
 ---
 # <a name="toll-free-dialing-restrictions-in-singapore"></a>新加坡免付費撥號限制
 

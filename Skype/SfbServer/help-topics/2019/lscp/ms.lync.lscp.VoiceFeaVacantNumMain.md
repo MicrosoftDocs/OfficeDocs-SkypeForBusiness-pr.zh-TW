@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: 未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。未指派的號碼表可識別您希望用來處理撥打至未指派號碼的方式。
-ms.openlocfilehash: 135072c7128ac14e4073e95297fa2b5e4e1a8e5a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 9dbb95d66fda093d8a094e92a84201b12a3baa6f2b454a75e2e3f7ab7b90a37c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097039"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280158"
 ---
 # <a name="unassigned-phone-number"></a>未指派電話號碼
 
 > [!NOTE]
-> 當您整合商務用 Skype 2019 與 Exchange 2013 或 Exchange 2016 時，Exchange UM 仍可用於商務用 Skype Server 2019。 由於 Exchange 2019 中的支援變更，因此會取消考慮 Exchange UM 整合，以取代雲端語音信箱和雲端自動語音應答功能。
+> Exchange當您將商務用 Skype 2019 與 Exchange 2013 或 Exchange 2016 整合時，UM 仍可用於商務用 Skype Server 2019。 因為 Exchange 2019 的支援變更，所以 Exchange UM 整合的目的是為了取代雲端語音信箱和雲端自動語音應答功能。
 
 未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。未指派的號碼表可識別您希望用來處理撥打至未指派號碼的方式。
 
@@ -56,7 +56,7 @@ ms.locfileid: "51097039"
 
 - **編輯** 開啟所選取的未指派號碼範圍進行編輯、選取清單中所有未指派的號碼範圍，或刪除選取的未指派號碼範圍。
 
-- **上移** 將選取的未指派號碼範圍上移到清單中，以便商務用 Skype 伺服器會儘早找到它，並套用指定的動作，再對清單中的其他範圍套用指定的動作。
+- **上移** 會將選取的未指派號碼範圍上移到清單中，以便商務用 Skype Server 會在清單中對其他範圍套用指定的動作之前，儘早找到它，並套用指定的動作。
 
     > [!NOTE]
     > 商務用 Skype Server 會從上到下搜尋未指派號碼表格，並使用符合未指派號碼的第一個範圍。 例如，如果您有一個範圍指定的是最後不得不採取的動作，請確定該範圍位於清單底部。
@@ -84,4 +84,4 @@ ms.locfileid: "51097039"
 
 - **宣告** 將為此未指派號碼範圍播放的宣告。
 
-如需公告功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype 中規劃宣告應用程式](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) 。 如需使用未指派號碼範圍的詳細資訊，請參閱作業文件中的＜[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)＞。
+如需公告功能及功能的詳細資訊，請參閱規劃檔[中的商務用 Skype 計畫中的宣告應用程式](../../../plan-your-deployment/enterprise-voice-solution/announcement.md)。 如需使用未指派號碼範圍的詳細資訊，請參閱作業文件中的＜[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)＞。

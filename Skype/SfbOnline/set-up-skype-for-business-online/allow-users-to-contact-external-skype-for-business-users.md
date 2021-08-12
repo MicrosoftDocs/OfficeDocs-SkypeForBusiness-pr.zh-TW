@@ -28,12 +28,12 @@ ms.custom:
 - O365P_ShareLync
 - LIL_Placement
 description: '瞭解如何設定商務用 Skype讓使用者與另一個組織的使用者交談，或讓外部連絡人交談。 '
-ms.openlocfilehash: 3b4aeb2b40cf34579d3d584a50664550cd34038c
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 025cb6d430fd4dda2c4b3b7c4d351d9954c97d252456fce73b50df21c5bdf303
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240001"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308056"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>允許使用者連絡外部商務用 Skype 使用者
 
@@ -73,7 +73,7 @@ ms.locfileid: "52240001"
 
 7. 請確定另一組織的系統管理員在系統管理中心執行商務用 Skype **步驟**。 例如，在允許 **的網域** 清單中，他們的系統管理員必須輸入您企業所需的網域。
 
-8. 如果您使用的是防火牆Windows，商務用 Skype開啟所需的埠。
+8. 如果您使用的是防火牆Windows，商務用 Skype自動開啟所需的埠。
 
     如果貴組織使用不同的防火牆解決方案來限制網路上的電腦無法連接到網際網路，請確保您的用戶端電腦能夠存取下列 Office 365 [URL 和 IP 位址範圍](/microsoftteams/office-365-urls-ip-address-ranges)。 這可能需要將 FQDNs 新增到防火牆或 Proxy 基礎結構組配置的外發允許清單 **\* ：.api.skype.com、.users.storage.live.com** \* *__***和 graph.skype.com。** 若要瞭解如何在防火牆中開啟這些埠的指示，請查看它所提供的檔。
 
@@ -83,7 +83,7 @@ ms.locfileid: "52240001"
 
 10. **等候最多 24 小時進行測試**。 當您變更外部通訊設定時，變更最多可能需要 24 小時，才能填入所有資料中心。
 
-![](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png)Skype您可以允許使用者與使用免費消費者應用程式Skype使用者搜尋和 IM！ 若要深入瞭解，請參閱讓使用者[商務用 Skype新增Skype連絡人](let-skype-for-business-users-add-skype-contacts.md)。
+![](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png)Skype您可以允許使用者與使用免費消費者應用程式Skype搜尋和 IM！ 若要深入瞭解，請參閱讓使用者[商務用 Skype新增Skype連絡人](let-skype-for-business-users-add-skype-contacts.md)。
   
 ## <a name="test-and-troubleshoot"></a>測試和疑難排解
 
@@ -101,7 +101,7 @@ ms.locfileid: "52240001"
 
 3. 要求您的商務用 Skype聯絡人傳送聊天邀請。 如果您沒有收到其要求，就表示您的防火牆設定有問題 (假設他們已確認其防火牆設定正確)。
 
-4. 另一個測試問題是否出在防火牆上的方法，就是前往防火牆後面的 Wifi 位置，例如咖啡店。 您可以使用 商務用 Skype傳送要求給聯絡人聊天。 如果郵件經過該區，但在您工作時卻無法傳遞，那麼您就會知道問題出在防火牆上。
+4. 另一個測試問題是否出在防火牆上的方法，就是前往不在防火牆後面的 Wifi 位置，例如咖啡店。 您可以使用 商務用 Skype傳送要求給聯絡人聊天。 如果郵件經過該區，但在您工作時卻無法傳遞，那麼您就會知道問題出在防火牆上。
 
 ## <a name="how-to-find-others-and-be-found-when-connecting-with-another-business"></a>如何尋找其他人，以及如何在與另一個企業聯繫時找到他們
 
@@ -131,9 +131,9 @@ ms.locfileid: "52240001"
   
 1. 使用您的帳戶或Microsoft 365 Office 365帳戶進行登錄。
 
-2. 在系統管理中心，前往 **使用者**  >  **活動使用者**。
+2. 在系統管理中心，前往使用者  >  **活動使用者**。
 
-3. 在使用者清單中，選擇使用者，然後在 [其他 **設定，** 按一下 [編輯商務用 Skype **屬性**。
+3. 在使用者清單中，選擇使用者，然後在 [其他 **設定下，** 按一下 [編輯商務用 Skype **屬性**。
 
     ![選擇 商務用 Skype](../images/2b0f9a7b-3fee-4f4b-968a-68c429eeb395.png)
   

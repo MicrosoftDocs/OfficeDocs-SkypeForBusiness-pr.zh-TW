@@ -14,24 +14,24 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
-description: 您可以選取要為部署建立的資料庫。 根據預設，會在定義的網站中已定義的 SQL Server 上建立資料庫，而且會根據您放置資料庫所在的 SQL Server，自動部署及設定資料庫檔案。
-ms.openlocfilehash: 3e7e2e0aaec55c595a4f538238c431feb9173152
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 您可以選取要為部署建立的資料庫。 根據預設，會在定義的網站的定義的 SQL Server 上建立資料庫，並根據您放置資料庫所在的 SQL Server 自動部署及設定資料庫檔案。
+ms.openlocfilehash: 1a26353ed44529cd19f94b70fdf25f72fbd8f8d4bb81aa0da41c523d3d35a500
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120925"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281056"
 ---
 # <a name="install-and-create-databases"></a>安裝及建立資料庫
 
-您可以選取要為部署建立的資料庫。 根據預設，會在定義的網站中已定義的 SQL Server 上建立資料庫，而且會根據您放置資料庫所在的 SQL Server，自動部署及設定資料庫檔案。
+您可以選取要為部署建立的資料庫。 根據預設，會在定義的網站的定義的 SQL Server 上建立資料庫，並根據您放置資料庫所在的 SQL Server 自動部署及設定資料庫檔案。
 
  **選取要建立的資料庫**：選取要部署及設定之任何資料庫的核取方塊。選取要部署之任何或所有資料庫的核取方塊。
 
 > [!CAUTION]
-> 如果必須開啟任何) 和防火牆埠以容納要部署資料庫的實例，則必須已為實例設定 SQL Server (。 如需詳細資訊，請參閱＜[Configure SQL Server for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server)＞
+> 您必須已為實例 (設定 SQL Server，如果必須開啟任何) 和防火牆埠才能容納要部署資料庫的實例。 如需詳細資訊，請參閱＜[Configure SQL Server for Lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server)＞
 
- **Advanced**：按一下 sql server，然後按一下 [ **高級** ] 按鈕，為 SQL server 上的資料庫檔案位置選擇選項。 如需進階資料庫檔案位置的詳細資訊，請參閱＜[Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell)＞
+ **Advanced**：按一下 SQL Server，然後按一下 [**高級**] 按鈕，選擇您 SQL Server 上的資料庫檔案位置選項。 如需進階資料庫檔案位置的詳細資訊，請參閱＜[Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell)＞
 
  **上一步**：按一下此按鈕可回到上一個畫面 (根據您抵達此對話方塊的方式，有時可能無法使用)。
 

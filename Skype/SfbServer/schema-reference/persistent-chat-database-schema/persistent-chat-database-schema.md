@@ -13,18 +13,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: 這會在商務用 Skype Server 中記錄 Persistent Chat 資料庫的架構。
-ms.openlocfilehash: ba50f4391ce35d8a938318e96e1483bbfe0e3dfa
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: bc314413d2bb7a3d5916396f1e8f281d2217e9058d087dcec8bcc486ee7f172f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809873"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54280926"
 ---
 # <a name="persistent-chat-database-schema"></a>常設聊天室資料庫結構描述
  
 這會在商務用 Skype Server 中記錄 Persistent Chat 資料庫的架構。
   
-Persistent Chat 資料庫是指對應于商務用 Skype Server 後端伺服器角色的資料庫 **PersistentChatStore** (，該資料庫對應于與 mgccomp 資料庫) 相對應的 mgc 資料庫) 和 **PersistentChatComplianceStore** (。 發行此結構描述的目標是讓您能夠建立查詢，並深入了解建立關於交談使用方式、作用中聊天室、前幾名的張貼者等實用報告的資訊。
+Persistent Chat 資料庫是指對應于商務用 Skype Server 後端伺服器角色 **PersistentChatStore** (相對於 mgccomp 資料庫) 的 mgc 資料庫) 和 **PersistentChatComplianceStore** (的資料庫。 發行此結構描述的目標是讓您能夠建立查詢，並深入了解建立關於交談使用方式、作用中聊天室、前幾名的張貼者等實用報告的資訊。
   
 > [!IMPORTANT]
 > 我們保留發展此結構描述的權利。Microsoft 不保證會維持此發行的結構描述之完整回溯相容性。 

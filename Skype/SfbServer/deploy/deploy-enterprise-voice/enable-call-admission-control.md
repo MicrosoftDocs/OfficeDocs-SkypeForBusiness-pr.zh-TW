@@ -1,5 +1,5 @@
 ---
-title: 啟用商務用 Skype Server 中的通話許可控制
+title: 在商務用 Skype Server 中啟用通話許可控制
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
-description: 在商務用 Skype Server Enterprise Voice 中啟用通話許可控制。
-ms.openlocfilehash: 2b8096a9223250cec88e57e68fdc201f5591fd92
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 啟用商務用 Skype Server 企業語音中的通話許可控制。
+ms.openlocfilehash: 65c9ea2e4732ca4c2c069479826f353a9a2dabf82d6eee35c6feaf1c14391ddd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109859"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281196"
 ---
-# <a name="enable-call-admission-control-in-skype-for-business-server"></a>啟用商務用 Skype Server 中的通話許可控制
+# <a name="enable-call-admission-control-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用通話許可控制
  
-在商務用 Skype Server Enterprise Voice 中啟用通話許可控制。 
+啟用商務用 Skype Server 企業語音中的通話許可控制。 
   
 在設定通話許可控制部署的網路設定後，必須啟用 CAC，您的頻寬原則才能生效。
   
 ### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來啟用通話許可控制
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 2. 執行 Set-CsNetworkConfiguration Cmdlet 以在您的網路中啟用 CAC。例如，執行：
     
@@ -45,9 +45,9 @@ ms.locfileid: "51109859"
    Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
    ```
 
-### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台啟用通話許可控制
+### <a name="to-enable-call-admission-control-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台來啟用通話許可控制
 
-1. 開啟商務用 Skype Server 控制台。
+1. 開啟商務用 Skype Server 控制台]。
     
 2. 在左導覽列中，按一下 **[網路組態]**。
     

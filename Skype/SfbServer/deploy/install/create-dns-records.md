@@ -1,5 +1,5 @@
 ---
-title: 建立商務用 Skype 伺服器的 DNS 記錄
+title: 為商務用 Skype Server 建立 DNS 記錄
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,30 +16,30 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
-description: 摘要：瞭解如何設定 DNS，以及如何建立用於安裝商務用 Skype Server 的 DNS 記錄。 從 Microsoft 評估中心下載免費試用版的商務用 Skype Server，網址如下：  https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 3808216e0732d6e3af2f32e27d79d78727ddc105
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解如何設定 dns，以及如何建立商務用 Skype Server 安裝的 dns 記錄。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
+ms.openlocfilehash: 94d4f9d0713c2516e466ae25faf05808a56ac103c0571dd151bdc25e2a892f8e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812133"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307744"
 ---
-# <a name="create-dns-records-for-skype-for-business-server"></a>建立商務用 Skype 伺服器的 DNS 記錄
+# <a name="create-dns-records-for-skype-for-business-server"></a>為商務用 Skype Server 建立 DNS 記錄
  
-**摘要：** 瞭解如何設定 DNS，以及如何建立用於安裝商務用 Skype Server 的 DNS 記錄。 從 Microsoft 評估中心下載免費試用版的商務用 Skype Server，網址如下： [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 。
+**摘要：** 瞭解如何為商務用 Skype Server 安裝設定 dns 及建立 dns 記錄。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 。
   
-為了讓商務用 Skype 伺服器能夠正常運作， (DNS) 設定的網域名稱系統的數目必須設定到位。 如此一來，用戶端就知道如何存取服務，以及讓伺服器瞭解彼此相關的資訊。 每個部署都只需要完成一次這些設定，因為一旦您指派 DNS 專案，它就會可用於整個網域。 您可以依任何循序執行步驟1到5。 不過，您必須依序執行步驟6、7和8，並在步驟1到5之後進行，如圖表中所述。 建立 DNS 記錄包含步驟5之8。 如需規劃 DNS 的詳細資訊，請參閱商務用 skype server 2019 的商務用 Skype 伺服器或[伺服器需求](../../../SfBServer2019/plan/system-requirements.md)[的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。
+為了讓商務用 Skype Server 能夠正常運作，) 設定的網域名稱系統 (DNS 設定必須已到位。 如此一來，用戶端就知道如何存取服務，以及讓伺服器瞭解彼此相關的資訊。 每個部署都只需要完成一次這些設定，因為一旦您指派 DNS 專案，它就會可用於整個網域。 您可以依任何循序執行步驟1到5。 不過，您必須依序執行步驟6、7和8，並在步驟1到5之後進行，如圖表中所述。 建立 DNS 記錄包含步驟5之8。 如需規劃 DNS 的詳細資訊，請參閱[商務用 Skype Server 2019 商務用 Skype Server 或伺服器需求](../../../SfBServer2019/plan/system-requirements.md)[的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。
   
 > [!IMPORTANT]
-> 請務必注意，這只是如何在 Windows Server DNS 環境中建立 DNS 記錄的範例。 商務用 Skype Server 需要許多其他的 DNS 專案，而建立 DNS 記錄的程式則取決於您用來管理組織中 DNS 的系統。 如需 DNS 需求的完整清單，請參閱 [商務用 Skype Server 的 DNS 需求](../../plan-your-deployment/network-requirements/dns.md)。 
+> 請務必注意，這只是如何在 Windows 伺服器 DNS 環境中建立 DNS 記錄的範例。 商務用 Skype Server 還需要許多其他的 dns 專案，而建立 dns 記錄的程式取決於您用來管理組織中 DNS 的系統。 如需 dns 需求的完整清單，請參閱[商務用 Skype Server 的 DNS 需求](../../plan-your-deployment/network-requirements/dns.md)。 
   
 ![一覽表圖表](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
 ## <a name="configure-dns"></a>設定 DNS
 
-商務用 Skype 伺服器必須有 DNS 記錄，才能正常運作，且可供使用者存取。
+商務用 Skype Server 所需的 DNS 記錄，才能正常運作，且可供使用者存取。
   
-此範例使用 DNS 負載平衡的 FQDN，其名稱為「集區. contoso。 此集區由三台執行商務用 Skype Server Enterprise Edition 的伺服器組成。 Standard Edition 前端伺服器只能包含一部伺服器。 使用 Standard Edition 時，在參照前端角色時，只會使用單一 Standard Edition 伺服器的完整功能變數名稱 (FQDN) ，而不是建立伺服器的 DNS 負載平衡集區，如本範例所示。 這種簡單的範例只使用前端角色，包含下表中的 DNS 專案。 若要規劃特定的 DNS 需求，請參閱 [商務用 Skype Server 的 DNS 需求](../../plan-your-deployment/network-requirements/dns.md)。 
+此範例使用 DNS 負載平衡的 FQDN，其名稱為「集區. contoso。 此集區由三台執行商務用 Skype Server Enterprise Edition 的伺服器組成。 Standard Edition 前端伺服器只能包含一部伺服器。 使用 Standard Edition 時，在參照前端角色時，只會使用單一 Standard Edition 伺服器的完整功能變數名稱 (FQDN) ，而不是建立伺服器的 DNS 負載平衡集區，如此範例所示。 這種簡單的範例只使用前端角色，包含下表中的 DNS 專案。 若要規劃特定的 DNS 需求，請參閱[商務用 Skype Server 的 dns 需求](../../plan-your-deployment/network-requirements/dns.md)。 
   
  
 |**描述**|**記錄類型**|**名稱**|**解析為**|**負載平衡類型**|
@@ -51,12 +51,12 @@ ms.locfileid: "49812133"
 |SFB02 FQDN  <br/> |A  <br/> |SFB02  <br/> |伺服器 SFB02 的 IP 位址  <br/> |DNS  <br/> |
 |集區 FQDN  <br/> |A  <br/> |位於本地集區  <br/> |伺服器 SFB03 的 IP 位址  <br/> |DNS  <br/> |
 |SFB03 FQDN  <br/> |A  <br/> |SFB03  <br/> |伺服器 SFB03 的 IP 位址  <br/> |DNS  <br/> |
-|商務用 Skype 自動探索  <br/> |A  <br/> |lyncdiscoverinternal  <br/> |內部 Web 服務的 VIP  <br/> |支援的軟體和硬體  <br/> |
+|商務用 Skype自動探索  <br/> |A  <br/> |lyncdiscoverinternal  <br/> |內部 Web 服務的 VIP  <br/> |支援的軟體和硬體  <br/> |
 |會議簡易 URL  <br/> |A  <br/> |符合 contoso local  <br/> |內部 Web 服務的 VIP  <br/> |支援的軟體和硬體  <br/> |
 |撥入式簡易 URL  <br/> |A  <br/> |contoso. 本機  <br/> |內部 Web 服務的 VIP  <br/> |支援的軟體和硬體  <br/> |
 |Web 排程程式簡易 URL  <br/> |A  <br/> |contoso. local  <br/> |內部 Web 服務的 VIP  <br/> |支援的軟體和硬體  <br/> |
 |管理簡易 URL  <br/> |A  <br/> |contoso. 本機  <br/> |內部 Web 服務的 VIP  <br/> |支援的軟體和硬體  <br/> |
-|舊版探索  <br/> |SRV  <br/> |_sipinternaltls _sipinternaltls._tcp local  <br/> |集區 FQDN (埠 5061)   <br/> |不適用  <br/> |
+|舊版探索  <br/> |SRV  <br/> |_sipinternaltls _sipinternaltls._tcp local  <br/> |集區 FQDN (埠 5061)   <br/> |N/A  <br/> |
    
 ### <a name="create-dns-records"></a>建立 DNS 記錄
 
@@ -64,7 +64,7 @@ ms.locfileid: "49812133"
     
 2. 按一下 [ **工具** ] 下拉式功能表，然後按一下 [ **DNS**]。
     
-3. 在 SIP 網域的主控台樹中，展開 [ **正向對應區域**]，然後展開要安裝商務用 Skype 伺服器的 SIP 網域。
+3. 在 SIP 網域的主控台樹中，展開 [**正向對應區域**]，然後展開商務用 Skype Server 將安裝所在的 SIP 網域。
     
 4. 以滑鼠右鍵按一下 SIP 網域，然後選取 [ **(A 或 AAAA) 新增主機**]，如圖所示。
     
@@ -80,10 +80,10 @@ ms.locfileid: "49812133"
    |SFB02  <br/> |主機 (A)  <br/> |10.0.0.6  <br/> |
    |SFB03  <br/> |主機 (A)  <br/> |10.0.0.7  <br/> |
    
-7. 接下來，建立集區的 DNS 負載平衡專案。 DNS 負載平衡允許 DNS 在使用相同的 DNS 集區名稱時，將要求傳送至集區中的個別伺服器。 如需 DNS 及負載平衡的詳細資訊，請參閱 [商務用 Skype Server 的 DNS 需求](../../plan-your-deployment/network-requirements/dns.md)。 
+7. 接下來，建立集區的 DNS 負載平衡專案。 DNS 負載平衡允許 DNS 在使用相同的 DNS 集區名稱時，將要求傳送至集區中的個別伺服器。 如需 dns 及負載平衡的詳細資訊，請參閱[商務用 Skype Server 的 dns 需求](../../plan-your-deployment/network-requirements/dns.md)。 
     
     > [!NOTE]
-    > 將多部伺服器集在一起，只適用于 Enterprise Edition 部署。 若要部署單一的 Enterprise Server 或 Standard Edition Server，只需要為單一伺服器建立 A 記錄。 
+    > 將多部伺服器集在一起，只適用于 Enterprise Edition 部署。 如果您要部署單一 Enterprise 伺服器或 Standard Edition 伺服器，則只需要為單一伺服器建立 a 記錄。 
   
     例如，如果您有一個集區（即集區）和三台前端伺服器，則會建立下列 DNS 專案：
     
@@ -105,7 +105,7 @@ ms.locfileid: "49812133"
     
 13. 按一下 [ **埠號碼**]，然後輸入 **5061**。
     
-14. 按一下 [ **提供這項服務的主機**]，然後輸入集區或 Standard Edition SERVER 的 FQDN。
+14. 按一下 [**提供這項服務的主機**]，然後輸入集區或 Standard Edition 伺服器的 FQDN。
     
      ![[新增資源記錄] 對話方塊的螢幕擷取畫面。](../../media/54b1aac5-a2ec-41fe-90c0-02eaeaa9d1b4.png)
   

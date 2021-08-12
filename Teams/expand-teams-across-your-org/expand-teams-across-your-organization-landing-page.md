@@ -1,6 +1,6 @@
 ---
 title: 展開Microsoft Teams整個組織
-description: 瞭解可建基於標準部署的資源Teams，協助您將特定組織類型Teams資源。
+description: 瞭解可建基於標準部署Teams的資源，可協助您Teams組織類型的資源。
 ms.topic: conceptual
 author: cichur
 ms.author: v-cichur
@@ -15,16 +15,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6ba2b2724f1a8c58d2776e7aa7b55eb38bf69886
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2e714b72ca8e6a08bd749ed7f21adcc405177a93aa4c149ab2abd728881ba3b0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121361"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308772"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>展開Microsoft Teams整個組織
 
-這些資源以標準部署Teams建立，並專為協助您將特定組織類型Teams資源所設計。 如果您尚未部署Teams，請參閱如何推出 Teams 中的建議[Microsoft Teams。](../deploy-overview.md)
+這些資源以標準部署Teams建立，專為協助您將特定組織類型Teams資源所設計。 如果您尚未部署Teams，請參閱如何推出 Teams 中的建議[Microsoft Teams。](../deploy-overview.md)
 
 |               |               |               |               |               |               | 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 

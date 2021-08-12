@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8fc726dbe05358844c23a3ee90a8885e8b97f54d
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: f821eb2e00725d484f816edcd352f1aa38934acb868b3468d1c7ef984b03b506
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53586962"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54308204"
 ---
 # <a name="enlist-your-project-stakeholders"></a>列出您的專案關係人
 
@@ -36,13 +36,13 @@ ms.locfileid: "53586962"
 從實做專案交付專案到推動責任制，您的專案關係人會掌握專案成功的關鍵。 您需要指派兩組專案關係人： (1) 贊助同盟，其中包括對專案成功有既得興趣並影響專案的主管和專案贊助人;以及 (2) 專案小組，由負責確保技術和使用者整備能力的人組成，他們將完成專案計劃內的各種工作。 這兩個群組之間的共同執行緒是專案經理，負責確保專案工作如期完成，並報告專案狀態回同盟。
 
 > [!Tip]
-> 請花一點時間找出理想的主管贊助者、能協助設定專案語調的人、以範例引導他人，以及讓其他人負責。 這應該是對專案範圍和願景具有許可權的資深主管或高主管。 他們也應該是移除封鎖者和解決衝突的最後決策者，協助保持專案在時間和預算上。
+> 請花一些時間找出理想的主管贊助者、能協助設定專案色調的人、以範例做為潛在客戶，以及讓其他人負責。 這應該是對專案範圍和願景具有許可權的資深主管或主管。 他們也應該是移除封鎖者和解決衝突的最後決策者，協助保持專案在時間和預算上。
 
 您也可以建立一個指導委員會。 有時候，大型或更複雜的專案最後會「廚房中的廚子太多」，導致專案關係人群組之間的中斷。 針對這些專案，您可能會想要建立一個指導委員會。 指導委員會負責推動決策、提供策略性監督、支援專案計劃，以及在必要時移除封鎖者。 您可以在指導委員會指南中，找到有關執行指導委員會 [之詳細資訊](./envision-steering-committee-complete-guide.md)。
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點 | <ul><li>神秘適合做為專案關係人小組的人嗎？</li></ul> |
+| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點 | <ul><li>神秘適合做為此專案的專案關係人小組嗎？</li></ul> |
 | ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟 | <ul><li>考慮專案的範圍，並指派相關的專案關係人。</li><li>請使用下表做為指導方針，但請注意，此清單並非包含所有內容。<br><strong>提示</strong><br>建立負責負責、有諮詢意見的 [ (RACI) 矩陣](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) ，進一步區別負責者與專案特定區域需要隨時獲得資訊的人。</li> |
 | <li>決定是否要建立一個指導委員會，並指派適當的角色。</li></ul> | |
 
@@ -62,8 +62,8 @@ ms.locfileid: "53586962"
 | 非同步共同合作潛在客戶 | 擁有非同步工具，例如SharePoint、OneDrive等 |
 | 電話潛在客戶 | 提供電話設計與實現深入見解 |
 | 服務擁有者/品質冠軍 | 擁有Teams，包括使用者體驗品質 |
-| 桌面與裝置潛在客戶 | 提供用戶端、裝置和桌面應用程式的意見 |
-| IT Pro/租使用者系統管理員 | 確保網路就緒Microsoft 365 系統管理中心已就緒 |
+| 桌面與裝置潛在客戶 | 提供用戶端、裝置和桌面應用程式的輸入 |
+| IT Pro/租使用者系統管理員 | 確保網路就緒Microsoft 365 系統管理中心已準備就緒 |
 | 支援/服務台潛在客戶 | 管理支援服務台的就緒狀態 |
 | 變更管理潛在客戶 | 監督使用者變更管理和採用計畫 |
 | 行銷潛在客戶 | 設計及執行通訊行銷活動 |

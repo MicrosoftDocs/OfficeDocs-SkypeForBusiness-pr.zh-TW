@@ -16,24 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 摘要：瞭解如何使用商務用 Skype Server 中的組建轉譯規則工具來定義轉譯規則。
-ms.openlocfilehash: 3f4754184e69e7b574709d0272afc9989553cfe5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0f8f511996c8d3a578087c9f4252492fa03ef4237688bcaf68a04f09ed944116
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103639"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281286"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改呼叫識別碼簡報的轉譯規則
 
 **摘要：** 瞭解如何使用商務用 Skype Server 中的組建轉譯規則工具來定義轉譯規則。
 
-若要定義轉譯規則，請在 [ **組建轉譯規則** ] 工具中輸入一組值，並啟用商務用 Skype Server 控制台，為您產生對應的相符模式和轉譯規則，以執行下列步驟。 或者，您可以手動寫入正則運算式，以定義符合的模式和轉譯規則。 如需詳細資訊，請參閱 [手動建立或修改轉譯規則](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)。
+若要定義轉譯規則，請在 [**組建轉譯規則**] 工具中輸入一組值，並啟用商務用 Skype Server 控制台，為您產生對應的相符模式和轉譯規則，以執行下列步驟。 或者，您可以手動寫入正則運算式，以定義符合的模式和轉譯規則。 如需詳細資訊，請參閱 [手動建立或修改轉譯規則](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)。
 
 ### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>使用組建轉譯規則工具定義規則
 
-1. 開啟商務用 Skype Server 控制台。
+1. 開啟商務用 Skype Server 控制台]。
 
-2. 若要開始定義轉譯規則，請依照在商務 [用 Skype server 中設定具有媒體旁路](configure-trunk-with-media-bypass.md) 功能的主幹中的步驟，或透過步驟9在 [商務用 Skype server 中設定沒有媒體旁路的主幹](configure-trunk-without-media-bypass.md) 。
+2. 若要開始定義轉譯規則，請遵循在商務用 Skype Server 到步驟10中[設定具有媒體旁路的主幹](configure-trunk-with-media-bypass.md)中的步驟，或在商務用 Skype Server 透過步驟9中[設定沒有媒體旁路的主幹](configure-trunk-without-media-bypass.md)。
 
 3. 在 [**新增轉譯規則**] 或 [**編輯轉譯規則**] 頁面的 [**名稱**] 下，輸入描述所轉譯之號碼模式的名稱。
 
@@ -70,13 +70,13 @@ ms.locfileid: "51103639"
 8. 在 **[主幹組態]** 頁面上，按一下 **[認可]**，再按一下 **[全部認可]**。
 
    > [!NOTE]
-   > 當您建立或修改轉譯規則時，您都必須執行 [全部認可] 命令才能發行組態變更。 如需詳細資訊，請參閱 Operations 檔中的在 [商務用 Skype 中發佈待定的變更至語音路由](voice-route-config-changes.md) 設定。
+   > 當您建立或修改轉譯規則時，您都必須執行 [全部認可] 命令才能發行組態變更。 如需詳細資訊，請參閱操作檔中的[商務用 Skype 發佈擱置變更至語音路由](voice-route-config-changes.md)設定。
 
 ### <a name="to-define-a-translation-rule-manually"></a>若要手動定義轉譯規則
 
 1. 開啟商務用 Skype Server 控制台
 
-2. 若要開始定義轉譯規則，請依照在商務 [用 Skype server 中設定具有媒體旁路](configure-trunk-with-media-bypass.md) 功能的主幹中的步驟，或透過步驟9在 [商務用 Skype server 中設定沒有媒體旁路的主幹](configure-trunk-without-media-bypass.md) 。
+2. 若要開始定義轉譯規則，請遵循在商務用 Skype Server 到步驟10中[設定具有媒體旁路的主幹](configure-trunk-with-media-bypass.md)中的步驟，或在商務用 Skype Server 透過步驟9中[設定沒有媒體旁路的主幹](configure-trunk-without-media-bypass.md)。
 
 3. 在 **[新增轉譯規則]** 或 **[編輯轉譯規則]** 頁面的 **[名稱]** 欄位中，輸入可描述所轉譯號碼模式的名稱。
 
@@ -99,14 +99,14 @@ ms.locfileid: "51103639"
 9. 在 **[主幹組態]** 頁面上，按一下 **[認可]**，再按一下 **[全部認可]**。
 
     > [!NOTE]
-    > 當您建立或修改轉譯規則時，您都必須執行 [全部認可] 命令才能發行組態變更。 如需詳細資訊，請參閱 Operations 檔中的在 [商務用 Skype 中發佈待定的變更至語音路由](voice-route-config-changes.md) 設定。
+    > 當您建立或修改轉譯規則時，您都必須執行 [全部認可] 命令才能發行組態變更。 如需詳細資訊，請參閱操作檔中的[商務用 Skype 發佈擱置變更至語音路由](voice-route-config-changes.md)設定。
 
 ## <a name="see-also"></a>另請參閱
 
-[在商務用 Skype Server 中設定含媒體旁路的主幹](configure-trunk-with-media-bypass.md)
+[在商務用 Skype Server 中設定具有媒體旁路的主幹](configure-trunk-with-media-bypass.md)
 
-[在商務用 Skype Server 中設定無媒體旁路的主幹](configure-trunk-without-media-bypass.md)
+[在商務用 Skype Server 中設定不含媒體旁路的主幹](configure-trunk-without-media-bypass.md)
 
-[在商務用 Skype 中將擱置的變更發佈至語音路由設定](voice-route-config-changes.md)
+[在商務用 Skype 中發佈語音路由設定的擱置變更](voice-route-config-changes.md)
 
 [在商務用 Skype Server 中部署媒體旁路](deploy-media-bypass.md)

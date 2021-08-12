@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
-description: 在商務用 Skype Server Enterprise Voice 中部署通話管理功能。
-ms.openlocfilehash: 02c6669b9cadb952f7ccc71d785416db7414d8a8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在商務用 Skype Server 企業語音中部署通話管理功能。
+ms.openlocfilehash: 61452c8b9f5a072e78d4b85dd17e65ef63c27a0e3daab4f71b0e04d9d13c5a1f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836853"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54307804"
 ---
 # <a name="deploy-call-management-features-in-skype-for-business"></a>在商務用 Skype 中部署通話管理功能
  
-在商務用 Skype Server Enterprise Voice 中部署通話管理功能。
+在商務用 Skype Server 企業語音中部署通話管理功能。
   
-Enterprise Voice 通話管理功能可控制來電的路由傳送與應答方式。 商務用 Skype 伺服器提供下列通話管理功能： 
+Enterprise Voice 通話管理功能可控制來電的路由傳送與應答方式。 商務用 Skype Server 提供下列通話管理功能： 
   
 - **通話駐留**：讓語音使用者暫時駐留通話，然後從相同電話或另一部電話接聽。
     
@@ -43,7 +43,7 @@ Enterprise Voice 通話管理功能可控制來電的路由傳送與應答方式
 
 - [商務用 Skype 中通話駐留的部署程式](deployment-process-for-call-park.md)
     
-- [商務用 Skype 中群組呼叫收取的部署程式](deployment-process-for-group-call-pickup.md)
+- [商務用 Skype 中群組呼叫裝貨的部署程式](deployment-process-for-group-call-pickup.md)
     
 - [商務用 Skype 中回應群組的部署程式](deployment-process-for-response-group.md)
     
