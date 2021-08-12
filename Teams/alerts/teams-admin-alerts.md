@@ -16,18 +16,18 @@ description: 瞭解 Teams系統管理中心提供Microsoft Teams通知和通知�
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: c99cc9af08fb1353e0c94e6f8bf156df04327d49
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 1afe0ae7c8045b6a7e1c8b6eaf6f0e179e76a59e674c3a21b323eb9f123fd810
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684601"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314269"
 ---
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams監控和警示
 
-系統管理中心提供Microsoft Teams監控和提醒Teams功能。 使用系統管理中心中&通知>區段Teams提供Teams規則集，以監控Teams功能並接收通知。 例如，您可以主動監控 ip 電話、共同Teams等裝置在意外離線時的健康情況。  
+系統管理中心提供Microsoft Teams監控和Teams功能。 使用系統管理中心中&通知>區段Teams提供Teams規則集，以監控Teams功能並接收通知。 例如，您可以主動監控 ip 電話、共同Teams等裝置在意外離線時的健康情況。  
 
-貴組織可以使用Teams和警示功能執行下列專案：
+您的組織可以使用監控Teams通知執行下列專案：
 
 - 自動管理Teams功能
 - 如果顯示意外專案，會收到通知。

@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中 Peer-to-Peer 語音和影片報告
+title: Peer-to-Peer 商務用 Skype Server 的語音和影片報告
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer 語音和影片報告。
-ms.openlocfilehash: 7e07c5778f43c3a0cac4ff162ed3d7dd1108eb43
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 66d121965d7046a823e26bff8a14fba6ce8213690fcaa4a21ab7a31f4db9f904
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816613"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324322"
 ---
-# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>在商務用 Skype Server 中 Peer-to-Peer 語音和影片報告
+# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Peer-to-Peer 商務用 Skype Server 的語音和影片報告
  
 **摘要：** 深入瞭解商務用 Skype Server 中的 Peer-to-Peer 語音和影片報告。
   
@@ -27,7 +27,7 @@ Peer-to-Peer 的語音和影片報告可提供一段 (時間內的語音和影�
   
 - 每個集區的通話
     
-- 每個通話類型的來電 (例如，商務用 Skype to 商務用 skype 通話，以及對 PSTN 網路上人員的商務用 Skype 呼叫) 
+- 每個通話類型的來電 (例如，商務用 Skype 以商務用 Skype 通話，以及對 PSTN 網路上的人員撥打商務用 Skype 呼叫) 
     
 - 每一種存取類型 (使用者登入內部網路和使用者登入外部網路時的呼叫) 
     

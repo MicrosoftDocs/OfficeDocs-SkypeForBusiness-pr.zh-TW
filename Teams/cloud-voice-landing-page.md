@@ -24,12 +24,12 @@ search.appverid: MET150
 description: 深入瞭解雲端Microsoft Teams功能，以及您將為貴組織做出部署決策。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad80bbdaa5a51540d8444ca97fa72c087f2f1763
-ms.sourcegitcommit: 79d20fa2c45173d5a990551e79571caff06d7f82
+ms.openlocfilehash: 3b82b858e49040628cd53c06c03be4235b3fdac9fa674cd733bd84f6ba8816cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "53486123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347498"
 ---
 # <a name="plan-your-teams-voice-solution"></a>規劃您的Teams語音解決方案 
 
@@ -50,12 +50,12 @@ ms.locfileid: "53486123"
 - 電話系統通話方案
 - 電話系統具有運算子的 PSTN 電信連線 (目前僅適用于公用 **預覽版)**
 - 電話系統直接路由使用您自己的 PSTN 電信公司
-- 搭配通話方案使用電話系統、電話系統運算子連線和/或電話系統直接路由的組合解決方案
+- 搭配通話方案使用電話系統組合解決方案電話系統運算子連線，以及/或電話系統直接路由
 
 
 ## <a name="what-do-you-need-to-read"></a>您需要閱讀哪些資訊？
 
-**全部為必填專案。** 本文中的部分章節與所有組織有關。 例如，每個人都應該閱讀電話系統並瞭解如何使用 PSTN (公用交換電話網絡) 。 
+**全部為必填專案。** 本文中的部分章節與所有組織有關。 例如，每個人都應該閱讀電話系統並瞭解在 PSTN 中連接至公用交換電話網絡 (選項) 。 
 
 
 | 全部為必填專案 | 描述 |
@@ -72,9 +72,9 @@ ms.locfileid: "53486123"
 | 視您的需求而不同 | 描述 |
 | :------------|:-------|
 | [**電話號碼管理**](pstn-connectivity.md#phone-number-management) | 如何取得和管理電話號碼會根據您的 PSTN 連接選項而不同。 如果您需要取得電話號碼、傳輸現有號碼、取得服務號碼等，請閱讀本節。 |
-| [**通話路由和撥號方案**](pstn-connectivity.md#call-routing-and-dial-plans) | 如何設定及管理將撥號電話號碼轉換成替代格式的撥號方案 (通常是 E.164 格式) 電話授權和呼叫路由。 如果您需要瞭解什麼是撥號方案，以及您是否需要為貴組織指定撥號方案，請閱讀本節。|
+| [**通話路由和撥號方案**](pstn-connectivity.md#call-routing-and-dial-plans) | 如何設定及管理撥號方案，將撥號電話號碼轉換成替代格式 (通常是 E.164 格式) 電話授權和呼叫路由。 如果您需要瞭解什麼是撥號方案，以及您是否需要為貴組織指定撥號方案，請閱讀本節。|
 | [**緊急電話**](pstn-connectivity.md#emergency-calling) | 如何管理及設定緊急電話會根據您的 PSTN 連接選項而不同。 如果您需要瞭解如何管理組織的緊急電話，請閱讀本節。 |
-| [**直接路由的基於位置的路由**](pstn-connectivity.md#location-based-routing-for-direct-routing) |如何使用 LBR Location-Based路由 (，) 根據使用者的地理位置Microsoft Teams付費旁路。 如果貴組織在不允許免付費路的位置使用直接路由，請閱讀本節。
+| [**直接路由的基於位置的路由**](pstn-connectivity.md#location-based-routing-for-direct-routing) |如何使用 LBR Location-Based路由 (，) 使用者根據地理位置Microsoft Teams免付費路。 如果貴組織在不允許免付費路的位置使用直接路由，請閱讀本節。
 | [**雲端語音功能的網路拓撲**](pstn-connectivity.md#network-topology-for-voice-features) | 如果貴組織正在部署 Location-Based路由 (LBR) 直接路由或動態緊急電話，您必須設定網路設定，以在 Microsoft Teams 中與這些功能一Microsoft Teams。 如果您正針對直接路由執行 LBR，或是使用通話方案或直接路由來實施動態緊急電話，請閱讀本節。 |
 | [**遷移現有的語音解決方案**](#migrate-your-existing-voice-solution-to-teams) | 當您將語音解決方案移向 Teams。  如果您要從現有的語音解決方案移向新的語音解決方案，請閱讀Teams。 
 
@@ -149,19 +149,19 @@ ms.locfileid: "53486123"
 
 您也可以選擇選項群組合，以設計複雜環境的解決方案，或管理多步驟移 (移) 。
 
-無論您選擇電話系統 PSTN 連接選項，大部分的功能都是相同的。 不過，功能有一些差異會影響您設定特定電話電話系統，例如通話路由和緊急電話。 有關 PSTN 連接選項和這些組組考慮的詳細資訊，請參閱 [PSTN 連接選項](pstn-connectivity.md)。
+無論您選擇電話系統 PSTN 連接選項，大多數的功能都是相同的。 不過，功能有一些差異會影響您設定特定電話電話系統，例如通話路由和緊急電話。 有關 PSTN 連接選項和這些組組考慮的詳細資訊，請參閱 [PSTN 連接選項](pstn-connectivity.md)。
 
 
 ## <a name="migrate-your-existing-voice-solution-to-teams"></a>將現有的語音解決方案遷移到Teams
 
 > [!NOTE]
-> 有關將 Teams 語音解決方案規劃為從 商務用 Skype Server 升級至 Teams 的整體計畫之一的指引，請參閱從 商務用 Skype 內部部署升級到 Teams 的[PSTN](upgrade-to-teams-on-prem-pstn-considerations.md)考慮。
+> 有關規劃 Teams 語音解決方案做為從 商務用 Skype Server 升級至 Teams 的整體計畫之一的指引，請參閱從 商務用 Skype 內部部署升級到 Teams 的[PSTN](upgrade-to-teams-on-prem-pstn-considerations.md)考慮。
 
 對於升級至 Teams 的組織，最終的目標是將所有使用者移至 TeamsOnly 模式。 只有在電話系統 TeamsOnly Teams，才支援在 Teams 中使用應用程式。 如果您需要升級至 Teams 的基本資訊，請從這裡開始：
 
 - [開始升級您的 Microsoft Teams](upgrade-start-here.md)
 - [關於升級架構](upgrade-framework.md)
-- [適用于 IT 系統管理員的升級策略](upgrade-to-teams-on-prem-implement.md)
+- [IT 系統管理員的升級策略](upgrade-to-teams-on-prem-implement.md)
 
 移移語音解決方案時，移至 TeamsOnly 模式時，有四種可能的通話案例：
 
@@ -169,7 +169,7 @@ ms.locfileid: "53486123"
 
 - **[透過內部商務用 Skype](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-online-with-on-premises-voice)** 或雲端連接器版使用內部部署語音商務用 Skype Online 中的使用者。 使用者的升級至Teams使用者移向直接路由，以確保 TeamsOnly 使用者具有 PSTN 功能。
 
-- 使用 商務用 Skype 內部部署 **[的使用者企業語音，](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)** 他們將移往線上並保持內部部署 PSTN 連線。 將此使用者移Teams需要將使用者的內部部署 商務用 Skype 帳戶移至雲端，並協調使用者移轉至直接路由。 
+- 使用 商務用 Skype 內部部署的使用者 **[企業語音，](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)** 該使用者將會移往線上並保持內部部署 PSTN 連線。 將此使用者移Teams需要將使用者的內部部署 商務用 Skype 帳戶移至雲端，並協調使用者移轉至直接路由。 
 
 - 使用 商務用 Skype 內部部署 **[的使用者企業語音，](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)** 該使用者將會移往線上，並且使用 Microsoft 通話方案。  將該使用者移轉至 Teams 需要將使用者的內部部署 商務用 Skype 帳戶移至雲端，並協調該移動與 A) 將該使用者電話號碼的埠移至 Microsoft 通話方案，或 B) 從可用區域指派新的訂閱者號碼。
 

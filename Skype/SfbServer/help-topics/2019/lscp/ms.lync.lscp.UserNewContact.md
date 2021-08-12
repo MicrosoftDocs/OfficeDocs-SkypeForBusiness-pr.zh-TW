@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 21271d2659d9cffa0ebbc25b036c3d8d512fa504
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: eea59ef42d30a22e2f976883f3fe72325ef878d0dde9d9042f06b106ac65cfd2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120052"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313661"
 ---
 # <a name="users-new-contact-objects"></a>使用者：新連絡人物件
 
@@ -40,7 +40,7 @@ ms.locfileid: "51120052"
 
 - [將位置原則指派給使用者](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-location-policy)
 
-- [在商務用 Skype Server 中啟用使用者的 Enterprise Voice](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [在商務用 Skype Server 中為使用者啟用企業語音](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [設定使用者的同盟、遠端使用者存取和公用 IM 連線能力](/previous-versions/office/lync-server-2013/lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user)
 

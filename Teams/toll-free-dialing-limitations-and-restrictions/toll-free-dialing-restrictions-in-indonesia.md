@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解在印尼撥打免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
-ms.openlocfilehash: 9089e926313d4a7859c006158523ac4aac19b324
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 瞭解在印尼撥打免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
+ms.openlocfilehash: 09438ea5836d0475538d5b15b8b16071b8a79bba3385eb7c0bcce510e4d8902b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116691"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335843"
 ---
 # <a name="toll-free-dialing-restrictions-in-indonesia"></a>印尼免付費撥號限制
 
@@ -45,7 +45,7 @@ ms.locfileid: "51116691"
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |
 |行動網路可用性  <br/> |部分。 查看批註。  <br/> |
-|批註、限制和存取問題  <br/> |提供兩種數位格式，以擴大涵蓋範圍。 數位格式 007 803 CCC XXXX 格式可從 PT Telkom 網路進行，包括 Telkomsel 和 XL Mobile。 數位格式 001 803 CCC XXXX 可從 Indosat 網路進行。 行動：矩陣行動 (首碼 0855、0858、0815 和 0816) 。  <br/> |
+|批註、限制和存取問題  <br/> |提供兩種數位格式，以擴大涵蓋範圍。 數位格式 007 803 CCC XXXX 格式可從 PT Telkom 網路進行，包括 Telkomsel 和 XL Mobile。 數位格式 001 803 CCC XXXX 可從 Indosat 網路進行。 行動：Matrix Mobile (首碼 0855、0858、0815 和 0816) 。  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 

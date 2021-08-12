@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中部署 SRS v1 系統管理 Web 入口網站
+title: 在商務用 Skype Server 中部署 SRS v1 管理網頁入口網站
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
-description: 商務用 Skype Server Skype 聊天室 Systems server v1 (SRS v1 （以前稱為 Lync 會議室系統) 管理網頁入口網站）是一種網頁入口網站，可供組織用來維護其 Skype 室系統會議室。 系統管理員可以使用 SRS v1 管理網頁入口網站來監視裝置健康情況，例如，監控音訊/視頻裝置。 使用此入口網站，系統管理員可以遠端收集診斷資訊以監視會議室健康情況。
-ms.openlocfilehash: 94e163ccbeff3bde78569aa864b44525b267ccd8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 商務用 Skype Server Skype 會議室 Systems (SRS v1 （以前稱為 Lync 會議室系統) 管理網頁入口網站）是一個網頁入口網站，組織可以用來維護其 Skype 的會議室系統會議室。 系統管理員可以使用 SRS v1 管理網頁入口網站來監視裝置健康情況，例如，監控音訊/視頻裝置。 使用此入口網站，系統管理員可以遠端收集診斷資訊以監視會議室健康情況。
+ms.openlocfilehash: c2b576eb79f91c72fdd3f19cad1265c79fd559abf52a97d80ea34a2688263c6e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103879"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313731"
 ---
-# <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 SRS v1 系統管理 Web 入口網站
+# <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 SRS v1 管理網頁入口網站
 
-商務用 Skype Server Skype 聊天室 Systems server v1 (SRS v1 （以前稱為 Lync 會議室系統) 管理網頁入口網站）是一種網頁入口網站，可供組織用來維護其 Skype 室系統會議室。 系統管理員可以使用 SRS v1 管理網頁入口網站來監視裝置健康情況，例如，監控音訊/視頻裝置。 使用此入口網站，系統管理員可以遠端收集診斷資訊以監視會議室健康情況。
+商務用 Skype Server Skype 會議室 Systems (SRS v1 （以前稱為 Lync 會議室系統) 管理網頁入口網站）是一個網頁入口網站，組織可以用來維護其 Skype 的會議室系統會議室。 系統管理員可以使用 SRS v1 管理網頁入口網站來監視裝置健康情況，例如，監控音訊/視頻裝置。 使用此入口網站，系統管理員可以遠端收集診斷資訊以監視會議室健康情況。
 
-若要使用此功能，您必須在每一部商務用 Skype Server 前端伺服器上部署 SRS v1 管理網頁入口網站。 本指南提供系統管理員如何安裝和設定 SRS 管理網頁入口網站的指示。 其適用于具備商務用 Skype Server 管理知識的系統管理員，以及具有管理員使用者許可權，可修改商務用 Skype 伺服器拓撲的系統管理員。
+若要使用此功能，您必須在每一部商務用 Skype Server 前端伺服器上部署 SRS v1 管理網頁入口網站。 本指南提供系統管理員如何安裝和設定 SRS 管理網頁入口網站的指示。 其適用于具備商務用 Skype Server 管理功能的系統管理員，以及具備修改商務用 Skype Server 拓撲的管理員使用者權限。
 
 在伺服器上部署 SRS v1 系統管理 Web 入口網站後，系統管理員可以從自己的電腦或膝上型電腦登入網站，以檢查狀態 SRS v1 裝置。
 
 > [!IMPORTANT]
-> 下載 [適用于商務用 Skype Server 2015 的 Microsoft Skype 聊天室 Systems server V1 管理網頁入口網站](https://www.microsoft.com/download/details.aspx?id=46906)。
+> 下載[適用于商務用 Skype Server 2015 的 Microsoft Skype 機房系統 v1 管理網頁入口網站](https://www.microsoft.com/download/details.aspx?id=46906)。
 
 本主題內容：
 
@@ -47,9 +47,9 @@ ms.locfileid: "51103879"
 > [!IMPORTANT]
 > 如果伺服器設定了 Kerberos 和 NTLM 驗證，而 SRS 是在未加入網域的電腦上執行，則 Kerberos 驗證會失敗，且使用者將不會在系統管理入口網站看到 SRS 的狀態。 若要解決此問題，請使用沒有 Kerberos) 的 ntlm 和 TLS DSK 驗證 (來設定伺服器，或將 SRS 電腦加入網域。
 
-1. 在商務用 Skype 伺服器拓撲中安裝商務用 Skype Server 累計更新。
+1. 在商務用 Skype Server 拓撲中安裝商務用 Skype Server 累計更新。
 
-    若要取得更新或查看其隨附的內容，請參閱 [更新商務用 Skype Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)。
+    若要取得更新或查看其隨附的內容，請參閱[商務用 Skype Server 2015 的更新](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)。
 
 2. 建立 SIP-enabled Active Directory 使用者。
 
@@ -61,13 +61,13 @@ ms.locfileid: "51103879"
 
 4. 使用名稱 LRSFullAccessAdminGroup 建立 Active Directory 安全性群組。
 
-    以「全域」和「群組」類型為安全性的群組範圍建立群組。加入此群組的 SIP 啟用使用者已獲授權，可使用單一 Skype 聊天室上的所有系統管理員入口網站功能。 若要包含對 Skype 會議室大量管理的支援，請參閱步驟5。
+    以「全域」和「群組」類型為安全性的群組範圍建立群組。加入至此群組的 SIP 啟用使用者，可在單一 Skype 會議室上使用所有系統管理員入口網站功能。 若要包含對 Skype 會議室大量管理的支援，請參閱步驟5。
 
      ![具有安全性群組角色的系統管理員群組清單](../../media/LRS_LRSFullAccessAdminGroup.png)
 
 5. 使用名稱 LRSPowerUserAdminsGroup 建立 Active Directory 安全性群組。
 
-    以「全域」和「群組」類型為安全性的群組範圍建立群組。 新增至此群組的 SIP 啟用使用者可使用所有系統管理員入口網站功能（包括大量商務用 Skype 會議室的大量管理）。
+    以「全域」和「群組」類型為安全性的群組範圍建立群組。 加入至此群組的 SIP 啟用使用者，都有權使用所有系統管理員入口網站功能，包括商務用 Skype 會議室的大量管理。
 
 6. 將 LRSFullAccessAdminGroup 新增為 LRSSupportAdminGroup 的成員。
 
@@ -77,12 +77,12 @@ ms.locfileid: "51103879"
 
      ![LRSSupportAdminGroup 屬性成員] 頁面](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
-8. 在 [Visual Studio 2010 SP1 和 Visual Web Developer 2010 SP1 上安裝 ASP.NET MVC 4](https://go.microsoft.com/fwlink/p/?LinkId=323967)。
+8. [針對 Visual Studio 2010 SP1 和 Visual Web Developer 2010 SP1 安裝 ASP.NET MVC 4](https://go.microsoft.com/fwlink/p/?LinkId=323967)。
 
 ## <a name="install-the-srs-v1-administrative-web-portal"></a>安裝 SRS v1 系統管理 Web 入口網站
 <a name="Install_SRS"> </a>
 
-下載 [適用于商務用 Skype Server 2015 的 Microsoft Skype 聊天室 Systems server V1 管理網頁入口網站](https://www.microsoft.com/download/details.aspx?id=46906)。
+下載[適用于商務用 Skype Server 2015 的 Microsoft Skype 機房系統 v1 管理網頁入口網站](https://www.microsoft.com/download/details.aspx?id=46906)。
 
 若要安裝 SRS v1 系統管理 Web 入口網站，請使用下列步驟。
 
@@ -96,7 +96,7 @@ ms.locfileid: "51103879"
 
 3. 從下列位置開啟 Web.config 檔案：
 
-    % Program Files%\Skype for Business Server 2015 \ Web Components\Meeting 聊天室 Portal\Int\Handler\
+    % Program Files% \ 商務用 Skype Server 2015 \ Web 元件 \ 會議室 Portal\Int\Handler\
 
 4. 在 Web.Config 檔案中，將 PortalUserName 變更為在步驟2中建立的使用者名稱，並在 [[設定您的 SRS v1 系統管理 Web 入口網站](room-system-v1-administrative-web-portal.md#Config_Env)」區段下， (步驟中的建議名稱是 LRSApp) ：
 
@@ -155,7 +155,7 @@ ms.locfileid: "51103879"
 
 - **標記** 管理員提供給會議室的自訂名稱。 您可以在入口網站中，按一下會議室名稱以設定標記。
 
-- **健全狀況** 會議室的健全狀況狀態，它是由聊天室的合計健康狀態所組成，它會顯示在 [會議室設定] 頁面的 [健康情況] 區段下。
+- **健全狀況** 會議室的健全狀況狀態，它是以會議室的合計健康狀態所組成，它會顯示在會議室設定] 頁面的 [健全狀況] 區段下。
 
 - **下一個會議** 排定下一個會議的日期和時間。
 
@@ -170,13 +170,13 @@ ms.locfileid: "51103879"
 
 ### <a name="srs-room-information"></a>SRS 聊天室資訊
 
-入口網站的 [聊天室資訊] 區段可讓您查看及設定個別的 SRS 聊天室。 包含四個區段：設定、詳細資料、記錄和健康情況。
+入口網站的 [聊天室資訊] 區段可讓您查看及設定個別的 SRS 聊天室。 包含四個區段： [設定]、[詳細資料]、[記錄] 及 [健全]。
 
 #### <a name="settings"></a>設定
 
 在 [設定] 區段中，您可以設定會議室的密碼、會議室標記和預設磁片區層級。 如果您設定這些設定，則只有在您重新開機 SRS 主控台之後才會複製變更。 您只會看到使用版本15.12 和更新版本之 SRS 裝置的系統更新設定。
 
-![Lync 會議室系統管理入口網站室設定](../../media/LRS_AdminPortal_RoomInfoSettings.png)
+![Lync 會議室系統管理入口網站聊天室設定](../../media/LRS_AdminPortal_RoomInfoSettings.png)
 
 #### <a name="details"></a>詳細資料
 
@@ -190,7 +190,7 @@ ms.locfileid: "51103879"
 
 #### <a name="health"></a>健康情況
 
-「健康情況」區段供應商務用 Skype Server 連線、音訊裝置、影片裝置、恢復狀態及螢幕裝置狀況的視覺指示。
+「健康情況」區段供應商務用 Skype Server connection、音訊裝置、影片裝置、恢復狀態及螢幕裝置狀況的視覺表示。
 
 ![Lync 會議室系統管理入口網站室健康情況](../../media/LRS_AdminPortal_RoomInfoHealth.png)
 
@@ -217,9 +217,9 @@ ms.locfileid: "51103879"
 
 #### <a name="why-cant-i-see-srs-v1-in-the-administrative-web-portal"></a>為什麼我無法看到管理網頁入口網站中的 SRS v1？
 
-- 請確定您的部署中有 SR 帳戶，而且這些帳戶是根據 SRS 管理網頁入口網站部署建議所建立。 請確定已使用商務用 Skype Server 上的 Enable-CsMeetingRoom，而不是啟用 Get-csuser 來布建 SRS 帳戶。
+- 請確定您的部署中有 SR 帳戶，而且這些帳戶是根據 SRS 管理網頁入口網站部署建議所建立。 請確定已使用商務用 Skype Server 上的 Enable-CsMeetingRoom，而不是啟用 get-csuser 來布建 SRS 帳戶。
 
-- 如果您已建立 SR 帳戶，但在管理 web 入口網站中看不到帳戶，請使用已選取 [ **MeetingPortal** ] 元件的商務用 Skype server 記錄工具收集伺服器記錄，然後將其傳送給您的 SRS 支援連絡人。
+- 如果您已建立 sr 帳戶，但在管理 web 入口網站中看不到帳戶，請使用商務用 Skype Server 記錄工具來收集伺服器記錄，並選取 **MeetingPortal** 元件，然後將其傳送至您的 SRS 支援連絡人。
 
 - 如果您已建立 SR 帳戶，但在管理 web 入口網站中看不到這些帳戶，請使用 Fiddler 收集用戶端記錄，並從瀏覽器開發工具複製主控台記錄檔，然後將其傳送至您的 SRS 支援連絡人。 您也可以修改 Web.config 中的追蹤層級值，以取得更詳細的記錄檔。
 
@@ -246,6 +246,6 @@ ms.locfileid: "51103879"
 
 請確定 LRSApp 的使用者帳戶 SIP-enabled，且屬於 LRSPowerUserAdminsGroup 安全性群組的一部分。
 
-#### <a name="does-the-srs-v1-administrative-web-portal-work-with-microsoft-teams-rooms"></a>SRS 的管理網頁入口網站是否與 Microsoft 團隊聊天室一起運作？
+#### <a name="does-the-srs-v1-administrative-web-portal-work-with-microsoft-teams-rooms"></a>SRS 的管理網頁入口網站是否與 Microsoft Teams 會議室搭配運作？
 
-否。
+錯誤。

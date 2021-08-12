@@ -18,16 +18,16 @@ description: 瞭解在 Microsoft Teams 中為使用者和群組指派Microsoft T
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: ce10ead528e2e5615d23bd784131ed04416f1349
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 3b53c887536a3bd033b6c1feaeabae58a609f90e8ecbb0a7197de851173f46cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856312"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314149"
 ---
 # <a name="assign-policies-to-users-and-groups"></a>指派策略給使用者和群組
 
-本文會審查在 Microsoft Teams 中指派策略給使用者和群組的不同Microsoft Teams。 閱讀前，請確定您閱讀過在 Teams[中指派策略 - 開始使用](policy-assignment-overview.md)。
+本文將審查在 Microsoft Teams 中指派策略給使用者和群組Microsoft Teams。 閱讀前，請確定您閱讀過在 Teams[中指派策略 - 開始使用](policy-assignment-overview.md)。
 
 ## <a name="assign-a-policy-to-individual-users"></a>指派策略給個別使用者
 
@@ -51,7 +51,7 @@ ms.locfileid: "52856312"
 4. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
 5. 新增使用者完成後，請選取 **Apply**。
 
-![透過第二種方法，將Teams指派給系統管理中心的使用者](media/assign-policy-user2.png)
+![透過第二種方法指派Teams系統管理中心的使用者](media/assign-policy-user2.png)
 
 ### <a name="use-powershell"></a>使用 PowerShell
 
@@ -60,7 +60,7 @@ ms.locfileid: "52856312"
  如果您尚未[Teams， (](https://www.powershellgallery.com/packages/MicrosoftTeams/)並安裝 PowerShell 公開發行，然後執行下列操作) 以連接。
 
 > [!NOTE]
-> 商務用 Skype線上連接器是目前 PowerShell 模組Teams的一部分。
+> 商務用 Skype Online 連接器目前是最新 Teams PowerShell 模組的一部分。
 >
 > 如果您使用的是最新版[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Teams版本，則不需要安裝 商務用 Skype 連線連接器。
 
@@ -86,11 +86,11 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 建議最多 50，000 個使用者群組使用群組原則指派給群組，但也適用于較大的群組。
 
-當您指派策略時，系統會立即將其指派給群組。 不過，將策略指派傳播給群組成員是做為背景作業，可能需要一些時間，視群組大小而不同。 當未從群組中未指定策略，或成員新加入群組或從群組中移除時，也是如此。
+當您指派策略時，系統會立即將其指派給群組。 不過，將策略指派傳播給群組成員會以背景作業方式執行，視群組大小不同，可能需要一些時間。 當未從群組中未指定策略，或成員新加入群組或從群組中移除時，也是如此。
 
-群群組原則指派只會傳播給群組的直接成員使用者。 指派不會傳播到巢中群組的成員。
+群群組原則指派只會傳播給直接成為群組成員的使用者。 指派不會傳播到巢中群組的成員。
 
-### <a name="what-you-need-to-know-about-policy-assignment-to-groups"></a>關於指派給群組的策略，您需要知道什麼
+### <a name="what-you-need-to-know-about-policy-assignment-to-groups"></a>關於將策略指派給群組時，您需要知道什麼
 
 在您開始使用之前，瞭解優先順序規則和群組作業排名非常重要。
 
@@ -98,7 +98,7 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 對於給定的策略類型，使用者的有效政策會依據下列條件決定：
 
-- 直接指派給使用者的政策優先于指派給群組之相同類型之任何其他政策。 換句話說，如果使用者直接獲派指定類型的策略，該使用者就不會從群組繼承相同類型的策略。 這也表示如果使用者有直接指派給該使用者的指定類型之策略，您必須從使用者移除該策略，才能從群組繼承相同類型的策略。
+- 直接指派給使用者的政策優先于指派給群組之相同類型之任何其他政策。 換句話說，如果使用者直接獲派指定類型的策略，該使用者不會從群組繼承相同類型的策略。 這也表示如果使用者有直接指派給該使用者的指定類型之策略，您必須從使用者移除該策略，才能從群組繼承相同類型的策略。
 - 如果使用者沒有直接指派策略給他們，而且是兩個或多個群組的成員，且每個群組都有指派給該群組的相同類型之策略，則使用者會繼承排名最高的群組指派策略。
 - 如果使用者不是指派原則之任何群組的成員，則該原則類型的全域 (組織) 預設) 原則會適用于該使用者。
 
@@ -123,14 +123,14 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
 
 如果您沒有指定排名，則策略作業會獲得最低的排名。
 
-### <a name="in-the-teams-admin-center"></a>在 Teams系統管理中心
+### <a name="in-the-teams-admin-center"></a>在 Teams 系統管理中心
 
 > [!NOTE]
 > 目前，使用 Microsoft Teams 系統管理中心指派給群組的策略僅適用于 Teams 通話政策、Teams 通話停駐策略、Teams 政策、Teams 即時活動政策、Teams 會議策略和 Teams 傳訊政策。 針對其他策略類型，請使用 PowerShell。
 
 1. 在系統管理中心的左側導Microsoft Teams，請前往策略類型頁面。 例如，請前往 **會議**  >  **會議政策**。
 2. 選取組 **策略工作分派** 選項卡。
-3. 選取 **新增群組**，然後在指派組策略窗格中，執行下列操作：
+3. 選取 **新增群組**，然後在指派策略 **至群組** 窗格中，執行下列操作：
     1. 搜尋並新增要指派該策略的群組。
     2. 設定群組作業的排名。
     3. 選取您想要指派的政策。
@@ -138,14 +138,14 @@ Grant-CsTeamsMeetingPolicy -Identity reda@contoso.com -PolicyName "Student Meeti
     
 ![將策略指派給系統管理中心的Teams群組](media/assign-policy-group.png)
 
-若要移除群組原則作業，請在策略頁面的群組原則工作分派選項卡上，選取群組作業，然後選取 **移除**。
+若要移除群組原則作業，請在策略頁面的群組原則指派選項卡上，選取組作業，然後選取 **移除**。
 
 若要變更群組作業的排名，您首先必須移除群組原則作業。 接著，請遵循上述步驟，將策略指派給群組。
 
 ### <a name="use-the-powershell-option"></a>使用 PowerShell 選項
 
 > [!NOTE]
-> 目前，所有使用 PowerShell 的群群組原則指派不適用於所有Teams類型。 請參閱 [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment) 以尋找支援的策略類型清單。
+> 目前，所有使用 PowerShell 的群群組原則指派不適用於所有Teams類型。 請參閱 [New-CsGroupPolicyAssignment，](/powershell/module/teams/new-csgrouppolicyassignment) 瞭解支援的策略類型清單。
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安裝並連接到 powerShell Microsoft Teams模組
 
@@ -163,7 +163,7 @@ New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -Polic
 
 #### <a name="get-policy-assignments-for-a-group"></a>取得群組的策略指派
 
-使用 [Get-CsGroupPolicyAssignment Cmdlet](/powershell/module/teams/get-csgrouppolicyassignment) 取得指派給群組的所有策略。 請注意，即使已使用群組的 SIP 位址或電子郵件地址來指派策略，群組一直會以群組識別碼列出。
+使用 [Get-CsGroupPolicyAssignment Cmdlet](/powershell/module/teams/get-csgrouppolicyassignment) 取得指派給群組的所有策略。 請注意，即使已使用群組的 SIP 位址或電子郵件地址來指派策略，群組還是會一直以群組識別碼列出。
 
 在此範例中，我們會取回指派給特定群組的所有策略。
 
@@ -171,7 +171,7 @@ New-CsGroupPolicyAssignment -GroupId d8ebfa45-0f28-4d2d-9bcc-b158a49e2d17 -Polic
 Get-CsGroupPolicyAssignment -GroupId e050ce51-54bc-45b7-b3e6-c00343d31274
 ```
 
-在此範例中，我們會退回所有指派會議Teams群組。
+在此範例中，我們會將所有指派給會議Teams群組。
 
 ```powershell
 Get-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy
@@ -215,13 +215,13 @@ Remove-CsGroupPolicyAssignment -PolicyType TeamsMeetingPolicy -GroupId f985e013-
 - 變更給定策略類型的策略
 - 變更給定策略類型的策略和排名
 
-在此範例中，我們將群組的呼叫Teams策略變更為名為 SupportCallPark 且作業排名為 3 的策略。
+在此範例中，我們將群組的呼叫Teams策略變更為名為 SupportCallPark 且作業排名為 3。
 
 ```powershell
 Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -PolicyType TeamsMeetingPolicy -PolicyName SupportCallPark -Rank 3
 ```
 
-#### <a name="change-the-effective-policy-for-a-user"></a>變更使用者的有效政策
+#### <a name="change-the-effective-policy-for-a-user"></a>變更使用者的有效原則
 
 以下是如何變更直接指派策略之使用者之有效原則的範例。
 
@@ -231,7 +231,7 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
 ```
 
-輸出顯示使用者已直接獲指派名為員工事件的 Teams 會議廣播策略，其優先順序高於指派給使用者所屬群組的廠商 Live Events。
+輸出顯示使用者已直接獲指派名為員工事件的 Teams 會議廣播策略，其優先順序會高於指派給使用者所屬群組的廠商 Live Events。
 
 ```console
 AssignmentType PolicyName         Reference
@@ -240,7 +240,7 @@ Direct         Employee Events
 Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 ```
 
-現在，我們會從使用者移除員工事件政策。 這表示使用者不再有直接指派Teams廣播策略，並將繼承指派給使用者所屬群組的廠商 Live Events 政策。
+現在，我們會從使用者移除員工事件政策。 這表示使用者不再有直接指派Teams廣播策略，而且會繼承指派給使用者所屬群組的廠商 Live Events 政策。
 
 在 PowerShell 模組商務用 Skype下列 Cmdlet 執行此操作。
 
@@ -248,7 +248,7 @@ Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
 ```
 
-在 PowerShell 模組中Teams Cmdlet，在批次策略指派中以縮放比例執行此作業，其中 $users是您指定的使用者清單。
+在 PowerShell 模組Teams使用下列 Cmdlet，在批次策略指派中以縮放$users，其中 $users是您指定的使用者清單。
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -PolicyType TeamsMeetingBroadcastPolicy -PolicyName $null -Identity $users  
@@ -261,11 +261,11 @@ New-CsBatchPolicyAssignmentOperation -OperationName "Assigning null at bulk" -Po
 若要大量指派策略給使用者：
 
 1. 在系統管理中心的左側導Microsoft Teams，**選取** 使用者 。
-2. 搜尋您想要將策略指派給使用者的使用者，或篩選該視圖以顯示您想要的使用者。
+2. 搜尋您想要指派策略的使用者，或篩選該視圖以顯示您想要的使用者。
 3. 在 [&#x2713;] (核取方塊) 欄中，選取使用者。 若要選取 [所有使用者]，請按一下表格頂端的 [&#x2713;] (核取方塊)。
 4. 選取 **編輯設定**，進行您想要的變更， **然後選取** Apply 。
 
-若要查看原則作業的狀態，請在選取應用程式以提交原則作業後，于使用者頁面頂端出現的橫幅中，選取活動 **記錄**。 或者，在系統管理中心的左側導Microsoft Teams，前往儀表板，然後在活動記錄下 **，選取** 查看 **詳細資料**。 活動記錄會顯示過去 30 天內透過系統管理中心Microsoft Teams超過 20 個使用者批次的策略指派。 若要深入瞭解，請參閱 [在活動記錄中查看您的策略指派](activity-log.md)。
+若要查看原則作業的狀態，請在選取應用程式以提交原則作業後，于使用者頁面頂端出現的橫幅中，選取活動 **記錄**。 或者，在系統管理中心的左側導Microsoft Teams，前往儀表板，然後在活動記錄下 **，選取** 查看 **詳細資料**。 活動記錄會顯示過去 30 天內透過系統管理中心Microsoft Teams 20 多個使用者的批次策略指派。 若要深入瞭解，請參閱 [在活動記錄中查看您的策略指派](activity-log.md)。
 
 ### <a name="use-powershell-method"></a>使用 PowerShell 方法
 
@@ -315,7 +315,7 @@ $user_ids = Get-Content .\users_ids.txt
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $users_ids -OperationName "Example 1 batch"
 ```
 
-在此範例中，我們會連接到 Azure AD 以取回使用者集合，然後將名為新進員工傳訊政策的訊息原則指派給一批使用 SIP 位址指定的使用者。
+在此範例中，我們會連接到 Azure AD 以取回使用者集合，然後將名為新進員工傳訊策略的訊息策略指派給一批使用 SIP 位址指定的使用者。
 
 ```powershell
 Connect-AzureAD

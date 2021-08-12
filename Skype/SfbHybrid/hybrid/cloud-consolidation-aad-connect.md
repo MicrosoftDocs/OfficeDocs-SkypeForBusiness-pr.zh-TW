@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本附錄包含更新 AAD 連線的詳細步驟，以包含多個樹系做為 Teams 和商務用 Skype 雲端合併的一部分。
-ms.openlocfilehash: 5ca5789ca50f24266ce5fccf16bcf06118e42742
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 885e37b2131d455cc4c114f99bb4a95e7aa4896f2d43b55b398e543dc3674e55
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510524"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295930"
 ---
 # <a name="update-aad-connect-to-include-more-than-one-forest"></a>更新 AAD Connect 以包含多個樹系
 

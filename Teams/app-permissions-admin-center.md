@@ -13,16 +13,16 @@ localization_priority: Normal
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2833a548ccf66b327d9feb71155f1ed33a671f1c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a5dadf59457813f1bd25b43c13d361ca4302aaa7891003f09dd231aced7441f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094655"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314159"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>在系統管理中心中查看應用程式許可權並Microsoft Teams系統管理員同意
 
-系統[管理中心](manage-apps.md)中的Microsoft Teams頁面，就是您查看及管理組織Teams應用程式的地方。 例如，您可以查看應用程式的組織層級狀態和屬性、核准或上傳新的自訂應用程式至組織的 App Store、封鎖或允許組織層級的應用程式，以及管理整個組織的 App 設定。
+系統[管理中心](manage-apps.md)中的Microsoft Teams頁面，就是您查看及管理組織Teams應用程式的地方。 例如，您可以查看應用程式的組織層級狀態和屬性、核准或上傳新的自訂應用程式至組織的 App Store、封鎖或允許組織層級的應用程式，以及管理整個組織的應用程式設定。
 
 在這裡，您也可以將全組織系統管理員同意授權給要求存取資料的許可權，並針對應用程式的許可權來 (資源) 同意。
 
@@ -32,7 +32,7 @@ ms.locfileid: "51094655"
 
 應用程式要求的許可權範例包括讀取儲存在小組的資訊、讀取使用者的設定檔，以及代表使用者傳送電子郵件。 若要深入瞭解，請參閱端點中的許可權[Microsoft 身分識別平臺同意](/azure/active-directory/develop/v2-permissions-and-consent)。 
 
-許可權 **欄** 會指出應用程式是否有需要同意的許可權。 針對在 Azure  AD 中註冊並擁有需要同意的許可權的每個應用程式，您會看到一個 View 詳細資料連結。 請記住，這僅適用于自訂和協力廠商應用程式。 您不會看到此連結，或需要針對 Microsoft 發佈的 App 授予系統管理員同意。
+許可權 **欄** 會指出應用程式是否具有需要同意的許可權。 針對在 Azure  AD 中註冊並擁有需要同意許可權的每個應用程式，您會看到一個 View 詳細資料連結。 請記住，這僅適用于自訂和協力廠商應用程式。 您不會看到此連結，或需要針對 Microsoft 發佈的 App 授予系統管理員同意。
 
 :::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="管理應用程式頁面上的許可權欄螢幕擷取畫面":::
 
@@ -64,7 +64,7 @@ ms.locfileid: "51094655"
 如果貴組織中允許使用者授予同意，且有一或多個使用者已授予特定應用程式同意，您也會看到相同的訊息，讓您知道已授予同意，以及 Azure AD 入口網站中應用程式的 Azure Active Directory 連結。
 
 > [!NOTE]
-> 雖然 Teams服務系統管理員無法使用審查許可權和同意選項，且無法將整個組織系統管理員同意給應用程式，Teams 服務系統管理員可以在應用程式的 "許可權" 選項卡上查看內容。  例如，Teams系統管理員可以按一下 [Azure Active Directory **連結以** 在 Azure AD 入口網站中查看應用程式許可權詳細資料。 
+> 雖然 Teams服務系統管理員無法使用審查許可權和同意選項，而且無法將整個組織系統管理員同意給應用程式，Teams 服務系統管理員可以在應用程式的 "許可權" 選項卡上查看內容。  例如，Teams系統管理員可以按一下 [Azure Active Directory **連結以** 在 Azure AD 入口網站中查看應用程式許可權詳細資料。 
 
 ## <a name="view-resource-specific-consent-permissions-of-an-app"></a>查看應用程式的資源特定同意許可權
 
@@ -84,9 +84,9 @@ RSC 許可權在應用程式清單中定義，而不是在 Azure AD 中定義。
 
 ## <a name="known-issues"></a>已知問題
 
-### <a name="the-view-details-link-isnt-displayed-in-the-permissions-column-for-some-third-party-apps-that-request-permissions"></a>要求許可權的一些協力廠商 App 的 「許可權」 欄不會顯示 「查看詳細資料」連結
+### <a name="the-view-details-link-isnt-displayed-in-the-permissions-column-for-some-third-party-apps-that-request-permissions"></a>部分要求許可權的協力廠商應用程式不會在許可權欄中顯示 「查看詳細資料」連結
 
-目前，在 Azure AD 中註冊的所有要求許可權的協力廠商應用程式，無法審查許可權並授予同意。 除了查看 **詳細資料** 連結外，您也會在許可權欄中 **--** 看到。 我們正在與 ISV 合作，為應用程式啟用此功能。
+目前，在 Azure AD 中註冊的所有要求許可權的協力廠商應用程式，無法審查許可權並授予同意。 除了查看 **詳細資料** 連結外，您也會在許可權欄中 **--** **看到** 。 我們正在與 ISV 合作，為應用程式啟用此功能。
 
 ## <a name="related-topics"></a>相關主題
 

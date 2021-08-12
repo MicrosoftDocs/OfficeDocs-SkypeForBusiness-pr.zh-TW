@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
-description: ErrorCategory 表格包含每個商務用 Skype Server 2015 診斷分類的易記名稱。 依預設，商務用 Skype Server 2015 使用下列類別：
-ms.openlocfilehash: ca3719f6d284cf715be1a87b1c7a5dc04ae84b04
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: ErrorCategory 表格包含每個商務用 Skype Server 2015 診斷分類的易記名稱。 商務用 Skype Server 2015 預設會使用下列類別：
+ms.openlocfilehash: 68114e96e04ca8e2cb45fbb2b9ba0b3934df4e363700f8a872f05cb1aa0e8a37
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813143"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347768"
 ---
 # <a name="errorcategory-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 ErrorCategory 表格
  
-ErrorCategory 表格包含每個商務用 Skype Server 2015 診斷分類的易記名稱。 依預設，商務用 Skype Server 2015 使用下列類別：
+ErrorCategory 表格包含每個商務用 Skype Server 2015 診斷分類的易記名稱。 商務用 Skype Server 2015 預設會使用下列類別：
   
 - 0 -- 成功
     

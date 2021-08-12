@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 在解除委任集區之前，必須對舊版集區中的每個會議目錄執行下列程式。
-ms.openlocfilehash: 8a25b955ae769a712750ff08325b3fa29538be8a
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 7e124a81b8aed561419e5965c930ad64988c122540df6660ae68006fe6af9a55
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752495"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313851"
 ---
 # <a name="move-conference-directories"></a>移動會議目錄
 
@@ -24,7 +24,7 @@ ms.locfileid: "44752495"
   
 ### <a name="to-move-a-conference-directory-to-skype-for-business-server-2019"></a>將會議目錄移至商務用 Skype Server 2019
 
-1. 開啟商務用 Skype Server 管理命令介面。
+1. 開啟 [商務用 Skype Server 管理命令介面]。
     
 2. 若要取得組織中會議目錄的身分識別，請執行下列命令：
     
@@ -32,7 +32,7 @@ ms.locfileid: "44752495"
    Get-CsConferenceDirectory
    ```
 
-    上述命令會傳回組織中的所有會議目錄。 因此，您可能會想要將結果限制在解除委任的集區。 例如，如果您要使用完整功能變數名稱（FQDN） pool01.contoso.net 來解除委任集區，請使用此命令，將傳回的資料限制在該集區的會議目錄中：
+    上述命令會傳回組織中的所有會議目錄。 因此，您可能會想要將結果限制在解除委任的集區。 例如，如果您要將集區的完整功能變數名稱解除委任 (FQDN) pool01.contoso.net，請使用下列命令，將傳回的資料限制為該集區的會議目錄：
     
    ```PowerShell
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"}
@@ -46,7 +46,7 @@ ms.locfileid: "44752495"
    Move-CsConferenceDirectory -Identity <Numeric identity of conference directory> -TargetPool <FQDN of pool where ownership is to be transitioned>
    ```
 
-    例如，若要移動會議目錄3，請使用此命令，指定商務用 Skype Server 2019 集區作為 Microsoft.rtc.management.writableconfig.settings.watchernode.targetpool：
+    例如，若要移動會議目錄3，請使用此命令，指定商務用 Skype Server 2019 集區做為 microsoft.rtc.management.writableconfig.settings.watchernode.targetpool：
     
    ```PowerShell
    Move-CsConferenceDirectory -Identity 3 -TargetPool "pool02.contoso.net"
@@ -58,7 +58,7 @@ ms.locfileid: "44752495"
    Get-CsConferenceDirectory | Where-Object {$_.ServiceID -match "pool01.contoso.net"} | Move-CsConferenceDirectory -TargetPool "pool02.contoso.net"
    ```
 
-針對解除委任舊版集區的逐步指示，下載[卸載 Microsoft 舊版及移除伺服器角色](https://go.microsoft.com/fwlink/p/?linkId=246227)。
+針對解除委任舊版集區的逐步指示，下載 [卸載 Microsoft 舊版及移除伺服器角色](https://go.microsoft.com/fwlink/p/?linkId=246227) 。
   
 移動會議目錄時，您可能會遇到下列錯誤：
   

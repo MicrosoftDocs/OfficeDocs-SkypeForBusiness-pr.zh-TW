@@ -1,5 +1,5 @@
 ---
-title: 應用程式在 Microsoft Teams
+title: 應用程式中應用程式的系統管理Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ritikag, rarang
-description: 瞭解您可以在 Microsoft Teams 中管理貴組織的應用程式Microsoft Teams。
+description: 瞭解您可以在 Microsoft Teams 中為貴組織管理應用程式Microsoft Teams。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -21,27 +21,27 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f78069aea098b6318e49808245f5b17bd90509e0
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: e208f4a8807da6b5a28f79bdcd5cb818483f867767b5371d0b2c7fc0ea40a7f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856052"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314309"
 ---
-# <a name="admin-settings-for-apps-in-microsoft-teams"></a>應用程式在 Microsoft Teams
+# <a name="admin-settings-for-apps-in-microsoft-teams"></a>應用程式中應用程式的系統管理Microsoft Teams
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-應用程式提供開箱即用的工具，讓貴組織能更Teams。 這些應用程式結合由 Microsoft、協力廠商或貴組織的開發人員提供的定位停駐點、訊息擴充功能、連接器和 Bot 功能。
+應用程式提供開箱即用的工具，讓貴組織能更Teams。 這些應用程式會結合 Microsoft 提供、由協力廠商或貴組織的開發人員提供的定位停駐點、訊息擴充功能、連接器和 Bot 功能。
 
-您可以在系統管理中心的 Teams **管理** 貴組織的應用程式。  (請參閱使用[Teams](./using-admin-roles.md)系統管理員角色來管理 Teams 以閱讀取得系統管理員角色和許可權的資訊。) 例如，您可以允許或封鎖組織層級的應用程式、設定策略以控制 Teams 使用者可以使用的應用程式，以及釘住使用者最重要的應用程式來自訂 Teams。
+您可以在系統管理中心的 Teams **管理** 貴組織的應用程式。  (請參閱使用[Teams](./using-admin-roles.md)系統管理員角色來管理 Teams 以閱讀取得系統管理員角色和許可權的資訊。) 例如，您可以允許或封鎖組織層級的應用程式、設定策略以控制 Teams 使用者可以使用哪些應用程式，以及釘住使用者最重要的應用程式來自訂 Teams。
 
-我們會持續改善應用程式體驗，Teams新增功能與功能。 一段時間之後，我們會建立額外的應用程式管理功能，因此請回來查看應用程式政策最新資訊。
+我們會持續改善應用程式體驗，Teams新增功能與功能。 一段時間之後，我們會建立額外的應用程式管理功能，因此請回來查看應用程式政策上最新的資訊。
 
 ## <a name="manage-apps"></a>管理應用程式
 
-使用管理 **應用程式** 頁面來查看及管理Teams應用程式目錄中的所有應用程式。 您可以查看應用程式的組織層級狀態和屬性、封鎖或允許組織層級的應用程式、將新的自訂應用程式上傳到您的租使用者目錄，以及管理整個組織的應用程式設定。
+使用管理 **應用程式** 頁面來查看及管理Teams應用程式目錄中的所有應用程式。 您可以查看應用程式的組織層級狀態和屬性、封鎖或允許組織層級的應用程式、將新的自訂應用程式上傳到租使用者目錄，以及管理整個組織的應用程式設定。
 
 管理 **應用程式頁面** 提供您租使用者目錄中所有可用 App 的視圖，為您提供決定要允許或封鎖整個組織之應用程式所需的資訊。 然後，您可以使用 [應用程式權限原則](#app-permission-policies)、 [應用程式設定](#app-setup-policies)策略，以及 [自訂應用程式策略和](#custom-app-policies-and-settings) 設定，為貴組織的特定使用者設定應用程式體驗。
 
@@ -49,7 +49,7 @@ ms.locfileid: "52856052"
 
 ## <a name="app-permission-policies"></a>應用程式權限原則
 
-使用應用程式許可權政策，您可以控制哪些應用程式可供貴組織的特定使用者使用。 您可以允許或封鎖所有應用程式，或是由 Microsoft、第三方和您的組織發行的特定應用程式。
+使用應用程式權限原則，您可以控制組織中特定使用者可以使用哪些應用程式。 您可以允許或封鎖所有應用程式，或是由 Microsoft、第三方和您的組織發行的特定應用程式。
 
 例如，您可以使用應用程式權限原則：
 

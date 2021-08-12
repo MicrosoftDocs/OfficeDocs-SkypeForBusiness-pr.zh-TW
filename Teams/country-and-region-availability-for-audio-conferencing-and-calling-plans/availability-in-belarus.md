@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于白俄羅斯Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 33b6e7c0048c20a0a512abdf106b301d62d297e1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 14b904c402eb3b14f279bbc81e4b124fb2f115e60e354191ef2f9357f7d7a7f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118372"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314139"
 ---
 # <a name="availability-in-belarus"></a>白俄羅斯的可用性
 
@@ -44,7 +44,7 @@ ms.locfileid: "51118372"
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |是 [，僅按分鐘](../audio-conferencing-pay-per-minute.md) 付費 <br/> |
 |是否會自動為音訊會議指派電話號碼？  <br/> |否  <br/> |
-|使用 [語音來電] 功能的撥出功能  <br/> |使用通訊信用額度每分鐘付款  <br/> |
+|使用 [語音來電] 功能的撥出功能  <br/> |提供通訊信用額度每分鐘付款  <br/> |
    
 ## <a name="phone-system"></a>電話系統
 

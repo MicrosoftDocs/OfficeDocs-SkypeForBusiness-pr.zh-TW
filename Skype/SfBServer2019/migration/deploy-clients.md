@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 如需詳細資訊，請參閱部署檔中的在商務用 Skype Server 2019 中部署用戶端和裝置。
-ms.openlocfilehash: 2263a99d5b6da4d3a354e229c83ff4d6c2e445d6
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 如需詳細資訊，請參閱部署檔中的在商務用 Skype Server 2019 部署用戶端和裝置。
+ms.openlocfilehash: 017ec5d35a48dea07251d5e070c64fea1dab21740435b0997c2bba8458c1f93c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44753913"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296000"
 ---
 # <a name="deploy-skype-for-business-server-clients"></a>部署商務用 Skype Server 用戶端
 

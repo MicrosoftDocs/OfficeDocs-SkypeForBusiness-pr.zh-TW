@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
-description: 瞭解如何在 Teams 中管理一般會議Teams。
-ms.openlocfilehash: ecbdceefa5d60ca3c7d5b09aaa094054b88f60f915b17934a734fa07bdf3da23
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解如何在 Teams 中管理一般Teams。
+ms.openlocfilehash: aaeabbb61879e9e96c6b887a90fb3814fd7a3c4f3462d5e4f943a58b5dfacc56
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850294"
 ---
 # <a name="meeting-policy-settings---general"></a>會議原則設定 - 一般
 
@@ -43,7 +43,7 @@ ms.locfileid: "54293290"
 
 ## <a name="allow-meet-now-in-channels"></a>允許在頻道中立即開會
 
-這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在頻道中啟動Teams會議。 如果您開啟此功能，使用者可以按一下 [開會>按鈕，開始臨時會議或在頻道中排程會議。 預設值為 True。
+這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在頻道中啟動Teams會議。 如果您開啟此功能，使用者可以按一下 [開會>按鈕來啟動臨時會議，或在頻道中排程會議。 預設值為 True。
 
 [![顯示訊息下方的現在開會圖示的螢幕擷取畫面 ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -53,7 +53,7 @@ ms.locfileid: "54293290"
 
 ![顯示能夠排程新會議的螢幕擷取畫面](media/meeting-policies-outlook-add-in.png)
 
-如果您關閉此功能，當使用者在 Teams中建立新會議時，就無法排程Outlook。 例如，在 Windows 上的 Outlook 中，[新增 Teams 會議 **]** 選項不會在功能區中顯示。
+如果您關閉此功能，當使用者在 Teams中建立新會議時，就無法排程會議Outlook。 例如，在 Windows 上的 Outlook 中，[新增 Teams 會議 **]** 選項不會在功能區中顯示。
 
 ## <a name="allow-channel-meeting-scheduling"></a>允許頻道會議排程
 
@@ -75,7 +75,7 @@ ms.locfileid: "54293290"
   ![顯示選取您想要排程會議之頻道的日曆選項的螢幕擷取畫面。](media/schedule-meeting-disabled-in-chat2.png)
   
 - 頻道標題上的 [排程會議 **]** 按鈕。
-  ![螢幕擷取畫面顯示選取您想要透過哪個頻道排程會議之日曆選項的螢幕擷取畫面。](media/schedule-now-in-header.png)
+  ![螢幕擷取畫面顯示選取要排程會議之頻道的日曆選項。](media/schedule-now-in-header.png)
 
 在頻道行事曆中：
 
@@ -96,11 +96,11 @@ ms.locfileid: "54293290"
 
 這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在 Teams 中排程私人會議。 當會議未發佈到小組中的頻道時，會議是私人的。
 
-請注意，如果您 **關閉允許排** 程私人會議和允許頻道會議排程，系統會針對使用者停用新增必要的出席者及新增Teams。  此設定預設會開啟。
+請注意，如果您 **關閉允許排** 程私人會議和允許頻道會議排程，系統即會針對 Teams 中的使用者停用新增必要的出席者及新增Teams。  此設定預設會開啟。
 
 ## <a name="allow-meet-now-in-private-meetings"></a>允許在私人會議中立即開會
 
-這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以啟動臨時私人會議。  此設定預設會開啟。
+這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否能啟動臨時私人會議。  此設定預設會開啟。
 
 ## <a name="designated-presenter-role-mode"></a>指定的簡報者角色模式
 
@@ -124,9 +124,9 @@ ms.locfileid: "54293290"
 
 目前，您僅能使用 PowerShell 來設定此原則設定。 您可以使用 [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的 Teams 會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，並將它指派給使用者。
 
-若要讓會議召集人下載會議出席報告，請將 **AllowEngagementReport** 參數設定為 **Enabled**。 啟用時，下載報告的選項會在 [參與者 **]** 窗格中顯示。
+若要讓會議召集人下載會議出席報告，請設定 **AllowEngagementReport 參數** 為 **啟用**。 啟用時，下載報告的選項會在 [參與者 **]** 窗格中顯示。 根據預設，此設定會啟用。
 
-若要防止會議召集人下載報告，請將參數設定 **Disabled**。 預設會停用此設定，且下載報告的選項無法使用。
+若要防止會議召集人下載報告，請將參數設定 **Disabled**。
 
 ## <a name="meeting-provider-for-islands-mode"></a>群島模式的會議提供者
 

@@ -18,26 +18,25 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cf53c22895df1ad164ef688ad922c78a9c3ec761a6117ddf24eed633fe8e056a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 232c22c4d96796a983c3c65770f3fbabcce7753e5e6a5ae1daba693fa154a630
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850138"
 ---
-<a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>使用Microsoft 365增強現有的Microsoft Teams群組Microsoft Teams
-=======================================================
+# <a name="enhance-existing-microsoft-365-groups-with-microsoft-teams"></a>使用Microsoft 365增強現有的Microsoft Teams
 
 Microsoft Teams使用者可以使用Microsoft 365功能Teams現有的群組。 在研究如何加強公用Microsoft 365群組時，如果成員數目等於或小於 5，000，使用者可以這麼做。
 
-若要這麼做，使用者應該從用戶端執行建立新Microsoft Teams流程。 從 **群組Microsoft 365** 建立，然後選擇您想要使用群組來強化  >  **** Teams。 現有的群組成員會自動新增為團隊的成員。
+若要這麼做，使用者應該從用戶端執行建立Microsoft Teams流程。 從 **群組Microsoft 365** 建立，然後選擇您想要使用  >  **** Teams。 現有的群組成員會自動新增為團隊的成員。
 
 > [!IMPORTANT]
-> 只有Microsoft 365群組擁有者有權使用 Teams 增強現有群組，且該群組必須包含少於 5，000 個使用者。 Teams增強功能的顯示專案不會顯示在清單中。
+> 只有Microsoft 365群組擁有者有權使用 Teams 增強現有群組，且該群組必須包含少於 5，000 個使用者。 Teams功能增強後，系統將不會顯示在清單中。
 >
 >除非符合這些條件，否則Microsoft 365群組建立團隊的選項。
 
-使用者也可以邀請通訊群組清單加入團隊，而該通訊群組清單的成員將會新加入團隊。 這是一次新增功能，之後通訊群組清單中的群組成員資格變更將不會複製或同步Teams。
+使用者也可以邀請通訊群組清單加入團隊，該通訊群組清單的成員會新加入團隊。 這是一次新增功能，之後在通訊群組清單中的群組成員資格變更將不會複製或同步Teams。
 
 ![從群組建立團隊選項的螢幕擷取畫面Microsoft 365螢幕擷取畫面。](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
 
@@ -47,6 +46,6 @@ Microsoft Teams使用者可以使用Microsoft 365功能Teams現有的群組。 �
 
 -   使用者可以搜尋公用群組，並可以自行加入，而不需要團隊擁有者核准。
 
--   私人群組無法搜尋，使用者無法加入，除非團隊擁有者將群組新增為成員。
+-   私人群組無法搜尋，除非團隊擁有者將私人群組新增為成員，否則使用者無法加入。
 
-在 Teams 中建立新團隊時，現有私人 Microsoft 365 群組的擁有者可以選擇使用 Microsoft 365 群組中的成員資格來建立團隊。 使用者可以新增檔案的SharePoint OneNote，併合並檔案SharePoint新增OneNote檔案。
+在 Teams 中建立新團隊時，現有私人 Microsoft 365 群組的擁有者可以選擇使用 Microsoft 365 群組中的成員資格來建立團隊。 使用者可以新增檔案的SharePoint OneNote，併合並檔案，SharePoint檔案OneNote檔案。

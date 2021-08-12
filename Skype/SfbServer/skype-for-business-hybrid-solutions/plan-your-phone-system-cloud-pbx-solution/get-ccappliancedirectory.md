@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
-description: CcApplianceDirectory Cmdlet 會檢索商務用 Skype 雲端連接器 Edition 主機伺服器上的工作目錄。 所有部署檔案都儲存在這個目錄中。
-ms.openlocfilehash: 04764f312138132fb34c0979423da5dc4696ee63
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Get-CcApplianceDirectory Cmdlet 會檢索商務用 Skype Cloud Connector Edition 主伺服器上的工作目錄。 所有部署檔案都會儲存在這個目錄中。
+ms.openlocfilehash: 9be21029aaf582ce080b85af87b8d3f02be11ffea3b615f2b003bb6aeb29002d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800843"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347588"
 ---
 # <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  
-CcApplianceDirectory Cmdlet 會檢索商務用 Skype 雲端連接器 Edition 主機伺服器上的工作目錄。 所有部署檔案都儲存在這個目錄中。 
+Get-CcApplianceDirectory Cmdlet 會檢索商務用 Skype Cloud Connector Edition 主伺服器上的工作目錄。 所有部署檔案都會儲存在這個目錄中。 
   
-此 Cmdlet 適用于商務用 Skype 雲端連接器 Edition 1.4.1，1.4.2。
+此 Cmdlet 適用于商務用 Skype Cloud Connector Edition 1.4.1，1.4.2。
   
 ```powershell
 Get-CcApplianceDirectory
@@ -39,7 +39,7 @@ Get-CcApplianceDirectory
 
 ### <a name="example-1"></a>範例 1
 
-下列範例顯示了儲存雲端連接器元件配置和虛擬機器檔案的目前資料夾：
+下列範例會顯示目前的資料夾，其中儲存 Cloud Connector 元件的設定和虛擬機器檔：
   
 ```powershell
 Get-CcApplianceDirectory
@@ -48,19 +48,19 @@ Get-CcApplianceDirectory
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-CcApplianceDirectory Cmdlet 顯示所有配置和虛擬機器檔案、記錄及外部憑證儲存在雲端連接器裝置上的位置。
+Get-CcApplianceDirectory Cmdlet 會顯示為雲端連接器裝置儲存所有設定和虛擬機器檔案、記錄及外部憑證的位置。
   
-每個雲端連接器裝置都有四個元件：中繼伺服器、集中式管理商店、邊緣伺服器以及網網域控制站。 預設資料夾為 C:\Users\%userprofile%\CloudConnector\ApplianceRoot。 您可以使用 CCApplianceDirectory Cmdlet 變更此資料夾。
+每個雲端連接器裝置都有四個元件：轉送伺服器、中央管理存放區、Edge Server 和網域控制站。 預設資料夾為 C:\Users \% userprofile%\CloudConnector\ApplianceRoot。 您可以使用 Set-CCApplianceDirectory Cmdlet 變更此資料夾。
   
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>
 
-無。 CCApplianceDirectory Cmdlet 不接受流水線輸入。
+無。 Get-CCApplianceDirectory Cmdlet 不接受管線傳送的輸入。
   
 ## <a name="return-types"></a>傳回類型
 <a name="ReturnTypes"> </a>
 
-命令會傳回檔案路徑。
+命令會傳回檔路徑。
   
 ## <a name="see-also"></a>另請參閱
 <a name="ReturnTypes"> </a>

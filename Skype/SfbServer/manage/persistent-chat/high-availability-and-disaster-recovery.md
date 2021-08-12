@@ -13,21 +13,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server 的高可用性和嚴重損壞修復。
-ms.openlocfilehash: 4fb3a38fadf2a8a063715e389718859dcc7ddbdd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b3535d87f939da1e8dc0caf2368ec5de77573639ca362002a097f1b1d9afd6c9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122407"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324282"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中管理 Persistent Chat Server 的高可用性和嚴重損壞修復
  
 **摘要：** 瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server 的高可用性和嚴重損壞修復。
   
-本主題說明如何容錯移轉和容錯回復持久聊天伺服器。 閱讀本主題之前，請務必閱讀 [Plan For Persistent Chat server 的高可用性和嚴重損壞修復方案](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) ，以商務2015用 skype server [2015，設定 persistent chat server 的高可用性和嚴重損壞修復](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)。
+本主題說明如何容錯移轉和容錯回復持久聊天伺服器。 閱讀本主題之前，請務必先閱讀[Plan for persistent chat server in 商務用 Skype Server 2015 的高可用性和嚴重](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)損壞修復，並[在商務用 Skype Server 2015 中設定 persistent chat server 的高可用性和嚴重損壞修復](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)。
 
 > [!NOTE]
-> 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或是繼續使用商務用 Skype Server 2015。 
+> 持續聊天可在商務用 Skype Server 2015 中取得，但在商務用 Skype Server 2019 中已不再支援。 Teams 中提供相同的功能。 如需詳細資訊，請參閱[Microsoft Teams 升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續性聊天，您可以選擇將需要這項功能的使用者遷移至 Teams，或是繼續使用商務用 Skype Server 2015。 
   
 ## <a name="fail-over-persistent-chat-server"></a>容錯移轉 Persistent Chat Server
 
@@ -37,7 +37,7 @@ Persistent Chat Server 的容錯移轉是設計為主要是手動處理常式。
   
 - Persistent Chat Server 主資料庫和 Persistent Chat Server 鏡像資料庫已停機。
     
-- 商務用 Skype Server 前端伺服器已關機。
+- 商務用 Skype Server前端伺服器已關機。
     
 此程序主要有兩個基本步驟：
   
@@ -77,11 +77,11 @@ Persistent Chat 規範資料庫 (mgccomp) 未進行容錯移轉。 此資料庫�
     
    - **restore database mgc with recovery**。
     
-5. 在商務用 Skype Server 管理命令介面中，使用命令 **Set-CsPersistentChatState 身分識別 "服務： atl-cs-001.litwareinc.com"-PoolState FailedOver** ，以容錯移轉至 mgc 備份資料庫。 請務必將 Persistent Chat 集區的完整功能變數名稱取代為 atl-cs-001.litwareinc.com。
+5. 在商務用 Skype Server 管理命令介面中，使用 command **Set-CsPersistentChatState 身分識別 "服務： 001.litwareinc.com"-PoolState FailedOver** 以容錯移轉至 mgc 備份資料庫。 請務必將 Persistent Chat 集區的完整功能變數名稱取代為 atl-cs-001.litwareinc.com。
     
     現在 mgc 備份資料庫已是主要資料庫。
     
-6. 在商務用 Skype Server 管理命令介面中，使用 **Install-CsMirrorDatabase** Cmdlet 來建立現在用作主資料庫之備份資料庫的高可用性鏡像。 使用備份資料庫執行個體作為主要資料庫，而使用備份鏡像資料庫執行個體作為鏡像執行個體。 此鏡像並不是安裝程式期間，最初為主要資料庫設定的鏡像。
+6. 在商務用 Skype Server 管理命令介面中，使用 **Install-CsMirrorDatabase** Cmdlet 為現在用作主資料庫的備份資料庫建立高可用性鏡像。 使用備份資料庫執行個體作為主要資料庫，而使用備份鏡像資料庫執行個體作為鏡像執行個體。 此鏡像並不是安裝程式期間，最初為主要資料庫設定的鏡像。
     
 7. 設定 Persistent Chat Server active server。 從商務用 Skype Server 管理命令介面，使用 **Set-CsPersistentChatActiveServer** Cmdlet 來設定作用中的伺服器清單。
     
@@ -102,10 +102,10 @@ Persistent Chat 規範資料庫 (mgccomp) 未進行容錯移轉。 此資料庫�
   
 災難導致主要伺服去失敗，作業轉移至備份伺服器，因為災難發生前設定就存在，設計這些步驟就是用來還原設定。
   
-1. 使用商務用 Skype Server 管理命令介面中的 **Set-CsPersistentChatActiveServer** Cmdlet，從 Persistent Chat server 作用中伺服器清單清除所有伺服器。 這會在回切期間停止所有持久聊天伺服器連線至 mgc 資料庫和 mgccomp 資料庫。
+1. 使用來自商務用 Skype Server 管理命令介面的 **Set-CsPersistentChatActiveServer** Cmdlet，清除 Persistent Chat Server 作用中伺服器清單中的所有伺服器。 這會在回切期間停止所有持久聊天伺服器連線至 mgc 資料庫和 mgccomp 資料庫。
     
     > [!IMPORTANT]
-    > 次要 Persistent Chat Server 後端伺服器上的 SQL Server 代理程式應以特權帳戶執行。 具體來說，帳戶必須包括： 
+    > 次要 Persistent Chat server 後端伺服器上的 SQL Server 代理程式應以特權帳戶執行。 具體來說，帳戶必須包括： 
   
    - 對備份所在位置之網路共用的讀取存取權。
     
@@ -113,7 +113,7 @@ Persistent Chat 規範資料庫 (mgccomp) 未進行容錯移轉。 此資料庫�
     
 2. 停用備份 MGC 資料庫上的鏡像：
     
-   - 使用 SQL Server Management Studio 連線至備份 mgc 實例。
+   - 使用 SQL Server Management Studio 連接至備份 mgc 實例。
     
    - 用滑鼠右鍵按一下 MGC 資料庫，指向 **[工作]**，然後按一下 **[鏡像]**。
     
@@ -125,7 +125,7 @@ Persistent Chat 規範資料庫 (mgccomp) 未進行容錯移轉。 此資料庫�
     
 3. 備份 MGC 資料庫以便將其還原至新的主要資料庫：
     
-   - 使用 SQL Server Management Studio 連線至備份 mgc 實例。
+   - 使用 SQL Server Management Studio 連接至備份 mgc 實例。
     
    - 用滑鼠右鍵按一下 MGC 資料庫，指向 **[工作]**，然後按一下 **[備份]**。**[備份資料庫]** 對話方塊隨即顯示。
     
@@ -145,7 +145,7 @@ Persistent Chat 規範資料庫 (mgccomp) 未進行容錯移轉。 此資料庫�
     
 4. 使用先前步驟中建立的備份資料庫來還原主要資料庫。
     
-   - 使用 SQL Server Management Studio 連線至主要 mgc 實例。
+   - 使用 SQL Server Management Studio 連接至主要 mgc 實例。
     
    - 以滑鼠右鍵按一下 MGC 資料庫，依序指向 **[工作]** 和 **[還原]**，然後按一下 **[資料庫]**。**[還原資料庫]** 對話方塊隨即顯示。
     
@@ -163,7 +163,7 @@ Persistent Chat 規範資料庫 (mgccomp) 未進行容錯移轉。 此資料庫�
     
    - 按一下 **[確定]** 開始復原程序。
     
-5. 為主資料庫設定 SQL Server 記錄傳送。 請遵循在 [商務用 Skype server 2015 中設定 Persistent Chat server 的高可用性和嚴重損壞修復中](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) 的程式，以建立主要 mgc 資料庫的記錄傳送。
+5. 為主資料庫設定 SQL Server 記錄傳送。 請遵循在[商務用 Skype Server 2015 中設定 Persistent Chat Server 的高可用性和嚴重損壞修復中](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)的程式，以建立主要 mgc 資料庫的記錄傳送。
     
 6. 設定 Persistent Chat Server active server。 從商務用 Skype Server 管理命令介面，使用 **Set-CsPersistentChatActiveServer** Cmdlet 來設定作用中的伺服器清單。
     

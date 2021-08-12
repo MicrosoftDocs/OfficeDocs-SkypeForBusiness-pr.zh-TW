@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c21f7f8ea1ea4f4e9f84e81cd720acfbeccab59
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 052ab1111c2f090b1e0d107b082ffd95c166186e092742f35ef2a88aa7ed327c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726224"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314279"
 ---
 # <a name="tools-for-driving-adoption"></a>推動採用的工具 
 
@@ -40,4 +40,4 @@ ms.locfileid: "50726224"
 請查看採用Teams[手冊](https://aka.ms/teamstoolkit)，這是一本線上指南，可協助Teams公司推出新版。 它包含許多可下載的工具、範本和其他資源，可協助您完成Teams歷程。
 
 ### <a name="teams-customer-success-kit"></a>Teams客戶成功套件
-客戶[Teams套件](https://aka.ms/TeamsCustomerSuccess)提供工具，可協助Teams組織中推出新服務。 它包含公告的電子郵件範本、傳單海報、倒數，以及&秘訣。 它也包含團隊領導者和 IT 系統管理員的入門指南。
+客戶[Teams套件](https://aka.ms/TeamsCustomerSuccess)提供工具，可協助貴Teams推出新服務。 它包含公告的電子郵件範本、傳單海報、倒計時，以及&秘訣。 它也包含團隊領導者和 IT 系統管理員的入門指南。

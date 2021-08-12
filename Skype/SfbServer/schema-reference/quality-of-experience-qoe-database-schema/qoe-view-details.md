@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 description: 檢視涵蓋從 QoE SQL 資料庫傳回資料時最常見的案例。 它是用來建立自訂報告的建議方式，而不是直接存取資料庫資料表;這是因為視圖很可能會讓未來的版本保持向後相容性。
-ms.openlocfilehash: cabe483da624d801b9b87d51ba61caed7a22f7d4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f8d6536522a04623f150ab03ba448af8c55bd401adc8e4484ac47d1cf48ccffa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347718"
 ---
 # <a name="qoe-view-details"></a>QoE 檢視詳細資料
  

@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解撥列印度免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
-ms.openlocfilehash: 3e8dc705b5a8f762899433e0fbd2cc4bfe3aba94
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dae597170f8ea4a56a908087a85a1b12777341ba277e72e3a1ca599037a393e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098078"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335883"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>印度免付費撥號限制
 
@@ -45,7 +45,7 @@ ms.locfileid: "51098078"
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |部分。 查看批註。  <br/> |
 |行動網路可用性  <br/> |部分。 查看批註。  <br/> |
-|批註、限制和存取問題  <br/> |可從下列網路取得存取權：Loop Mobile、BSNL - 已修正 (所有地區，但 Bhopal) 、Vodafone、IDEA/SPICE (所有區域，但旁遮普 Spice) 、MTS India/齊亞姆 (已) ， MTNL - 固定行動版、Reliance (所有地區，但達維達巴 &amp; 、Bhopal、Bhuneswer、Jaipur、Lucknow、Meerut) 、TTML TTSL (固定貼文 &amp; &amp;) 、Tata DoCoMo、HFCL Infotel/Ping Mobile、S-Tel Mobile、未or、Videocon Mobile、BSNL-mobile、Batai/Airtel 網路。  <br/> 下列網路無法存取：TTSL (預付) 、Etisalat DB Telecom 和 Jio。  <br/> |
+|批註、限制和存取問題  <br/> |可從下列網路取得存取權：Loop Mobile、BSNL - 已修正 (所有地區，但 Bhopal) 、Vodafone、IDEA/SPICE (所有區域，但旁遮普 Spice) 、MTS India/齊亞姆 (已) ， MTNL - 固定行動版、Reliance (所有地區，但艾哈達巴 &amp; 、Bhopal、Bhuneswer、Jaipur、Lucknow、Meerut) 、TTML TTSL (固定貼文 &amp; &amp;) 、Tata DoCoMo、HFCL Infotel/Ping Mobile、S-Tel Mobile、未or、Videocon Mobile、BSNL-mobile、Batai/Airtel 網路。  <br/> 下列網路無法存取：TTSL (預付) 、Etisalat DB Telecom 和 Jio。  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 [免付費電話的撥號限制](../toll-free-dialing-limitations-and-restrictions.md)

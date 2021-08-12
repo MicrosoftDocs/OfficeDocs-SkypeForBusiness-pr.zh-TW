@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 本文將瞭解如何在 Microsoft Teams 中建立、編輯及管理資源Microsoft Teams。
-ms.openlocfilehash: 21824c360e26e568ae47a9729960fca01a100ae8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd366e59e99b41386d4f5e7a9373401ca67381cf0cf08f44dae1763e401dff53
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094243"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324103"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
@@ -47,11 +47,11 @@ ms.locfileid: "51094243"
 
 本文稍後將說明如何將授權指派給資源帳戶。
 
-若要取得虛擬使用者授權，請前往 Microsoft 365 系統管理中心，前往帳單購買服務附加元件訂閱，並卷起到最後  >    >  ****-電話系統 *-* 虛擬使用者授權。 選取 **立即購買**。 零成本，但您仍然需要遵循這些步驟取得授權。
+若要取得虛擬使用者授權，請Microsoft 365 系統管理中心到帳單購買服務附加元件訂閱，然後卷起到結尾  >    >  ****-電話系統 - 虛擬 *使用者* 授權。 選取 **立即購買**。 零成本，但您仍然需要遵循這些步驟取得授權。
 
 ### <a name="obtain-service-numbers"></a>取得服務編號
 
-自動語音機和通話佇列的服務號碼是選擇性的，不過您至少需要一個服務號碼，來電者才能撥打您的自動語音通話和通話佇列組。 若要讓服務號碼直接聯繫到任何自動話務員或通話佇列，您必須有具有關聯服務號碼的資源帳戶。
+對於自動語音機和通話佇列，服務號碼是選擇性的，不過，您至少需要一個服務號碼，來電者才能撥打您的自動語音通話和通話佇列組。 若要讓服務號碼直接聯繫到任何自動話務員或通話佇列，您必須有具有關聯服務號碼的資源帳戶。
 
 資源帳戶可以使用付費或免付費服務號碼。 您可以要求新的號碼，或從另一個電信公司埠現有的號碼。
 
@@ -77,17 +77,17 @@ ms.locfileid: "51094243"
 
 ## <a name="assign-a-license"></a>指派授權
 
-針對每個資源帳戶，您必須指派一個 *Microsoft 365 電話系統 - 虛擬使用者**授權或* 電話系統授權。
+針對每個資源帳戶，您必須指派一個 *Microsoft 365 電話系統 - 虛擬使用者* 授權或 *電話系統* 授權。
 
-![系統管理中心指派授權使用者介面的螢幕擷取畫面Microsoft 365螢幕擷取畫面](media/resource-account-assign-virtual-user-license.png)
+![指派授權使用者介面的螢幕擷取畫面Microsoft 365 系統管理中心](media/resource-account-assign-virtual-user-license.png)
 
-1. 在 Microsoft 365系統管理中心中，按一下要指派授權的資源帳戶。
+1. 在 Microsoft 365 系統管理中心中，按一下要指派授權的資源帳戶。
 
 2. 在 "**授權與應用程式"** 選項卡的 **"授權**" 下，選取 Microsoft 365 電話系統 -**虛擬使用者**。
 
-3. 按一下 **[儲存變更**。
+3. 按一下 **[儲存變更]**。
 
-## <a name="assign-a-service-number"></a>指派服務號碼
+## <a name="assign-a-service-number"></a>指派服務編號
 
 如果您打算將資源帳戶與需要服務號碼的自動電話機或通話佇列一起使用，請指派號碼給資源帳戶。
 
@@ -95,7 +95,7 @@ ms.locfileid: "51094243"
 
 1. 在 Teams系統管理中心，在 [資源帳戶> 頁面上，選取要指派服務號碼的資源帳戶，然後按一下 [**指派/取消指派**> 。
 
-2. 在 電話 **數位** 類型下拉式選項中，選擇您想要使用的電話號碼類型。
+2. 在電話 **數位類型** 下拉式下拉清單中，選擇您想要使用的號碼類型。
 
 3. 在 **[已指派的電話號碼** > 方塊中，搜尋您想要使用的號碼，然後按一下 [ **新增**。
 
@@ -120,7 +120,7 @@ ms.locfileid: "51094243"
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>將現有的資源帳戶變更為使用虛擬使用者授權
 
-如果您決定將現有資源帳戶上的授權從 **電話系統** 授權切換為虛擬使用者授權，您必須取得免費的虛擬使用者授權，然後按照 Microsoft 365 系統管理中心中的步驟將使用者移至不同的 [訂閱。](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
+如果您決定將現有資源帳戶上的授權從 **電話系統** 授權切換到虛擬使用者授權，您必須取得免費的虛擬使用者授權，然後按照 Microsoft 365 系統管理中心 中的步驟將使用者移至不同的 [訂閱。](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
 > 永遠移除完整的授權電話系統，並在同一個授權活動中指派虛擬使用者授權。 如果您移除舊授權、儲存帳戶變更、新增授權，然後再次儲存帳戶設定，資源帳戶可能不再如預期運作。 如果發生這種情況，建議您為虛擬使用者授權建立新資源帳戶，並移除中斷的資源帳戶。
@@ -131,11 +131,11 @@ ms.locfileid: "51094243"
 
 建立應用程式實例時，您需使用的應用程式 ID 為：
 
-- **自動助理** ：ce933385-9390-45d1-9512-c8d228074e07
+- **自動總機** ：ce933385-9390-45d1-9512-c8d228074e07
 - **通話佇列** ：11cd3e2e-fcb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> 如果您希望 Skype For Business Server 2019 使用者可以搜尋通話佇列或自動話務員，您應該在 Skype For Business Server 2019 上建立資源帳戶，因為線上資源帳戶不會同步處理至 Active Directory。 當 sipfederationtls 的 DNS SRV 記錄解析為 商務用 Skype Server 2019 時，必須在 Skype for Business Server 2019 使用 SfB Management shell 建立資源帳戶，並同步處理至 Azure AD。 
+> 如果您想要讓 Skype For Business Server 2019 使用者搜尋通話佇列或自動話務員，您應該在 Skype for Business Server 2019 上建立資源帳戶，因為線上資源帳戶不會同步處理至 Active Directory。 當 sipfederationtls 的 DNS SRV 記錄解析為 商務用 Skype Server 2019 時，必須在 Skype for Business Server 2019 使用 SfB Management shell 建立資源帳戶，並同步處理至 Azure AD。 
 
 針對與專案混合的商務用 Skype Server：
 
@@ -148,9 +148,9 @@ ms.locfileid: "51094243"
 
 ## <a name="delete-a-resource-account"></a>刪除資源帳戶
 
-在刪除電話號碼之前，請務必先將電話號碼與資源帳戶解除關聯，以避免您的服務號碼卡在擱置模式。
+刪除電話號碼之前，請務必先將電話號碼與資源帳戶解除關聯，以避免您的服務號碼卡在擱置模式。
 
-完成之後，您可以刪除系統管理Microsoft 365中的資源帳戶，位於使用者選項卡下。
+完成之後，您可以刪除使用者Microsoft 365 系統管理中心中的資源帳戶。
 
 若要從資源帳戶取消關聯直接路由電話號碼，請使用下列 Cmdlet：
 

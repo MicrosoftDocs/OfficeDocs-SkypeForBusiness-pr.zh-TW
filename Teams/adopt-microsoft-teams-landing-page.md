@@ -19,12 +19,12 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4083c0cf50062e69554218dd090a14812b29a6c0
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 80b1799ac64bfd5818c6c53965921696b8e60b9710dbd842594353cee2957998
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856382"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314299"
 ---
 # <a name="adopt-microsoft-teams"></a>採用Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "52856382"
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
 | <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="clock" width="40 px" height="40 px"> | [快速入門](./teams-adoption-quick-start-checklist.md) | <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="chat bubbles" width="40 px" height="40 px"> | [團隊和頻道簡介](./teams-adoption-understand-teams-and-channels.md) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" width="40 px" height="40 px"> | [規劃您的第一個團隊](./teams-adoption-your-first-teams.md) |
-| <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="best practices" width="40 px" height="40 px"> | [賦予您的領獎者權力](./teams-adoption-create-champions-program.md) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="prize ribbon" width="40 px" height="40 px"> | [訓練](./training-microsoft-teams-landing-page.md) | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="wrench" width="40 px" height="40 px"> | [工具和下載](./adopt-tools-and-downloads.md) |
+| <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="best practices" width="40 px" height="40 px"> | [賦予您的領獎人權力](./teams-adoption-create-champions-program.md) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="prize ribbon" width="40 px" height="40 px"> | [訓練](./training-microsoft-teams-landing-page.md) | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="wrench" width="40 px" height="40 px"> | [工具和下載](./adopt-tools-and-downloads.md) |
 
 ### <a name="deeper-adoption-guidance"></a>[更深入的採用指南](#deeper-adoption-guidance)
 

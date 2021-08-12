@@ -8,7 +8,7 @@ audience: ITPro
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: 說明雲端自動回應和通話佇列，並說明如何在 Teams 中接聽這些Teams。
+description: 說明雲端自動回應和通話佇列，並說明如何在 Teams。
 f1.keywords:
 - NOCSH
 localization_priority: Normal
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6e7f20bc34b22449a115b0742a7cfdac88792f4c
-ms.sourcegitcommit: d34dbdc2f71f3d024cb7f1856fc0f8bbc701f66d
+ms.openlocfilehash: 7b9510b3e7c31005c2ec75d6358c1f911daba752298b726e960bf38c63e11e4e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53506392"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314259"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接從 Teams 回答自動語音應答和通話佇列的通話
 
@@ -38,7 +38,7 @@ Teams使用者可以直接從他們的用戶端接收和接聽來自雲端自動
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>處理自動電話機或通話佇列通話
 
-在接聽來電之前，使用者將能夠將來電與自動回應或通話佇列區別。 除了來電者的名稱和/或號碼外，每一個通話都會包含來電者嘗試與誰聯繫的資訊，為使用者提供更好的內容來稱呼來電者。
+在接聽來電之前，使用者將能夠區分來電與自動回應或通話佇列。 除了來電者的名稱和/或號碼外，每一個通話都會包含來電者嘗試與誰聯繫的資訊，為使用者提供更好的內容來稱呼來電者。
 
 下圖顯示來自自動電話機或通話佇列的來電會如何顯示給使用者。
 

@@ -15,31 +15,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-description: 提供在商務用 Skype Server Enterprise Voice 中規劃通話許可控制的詳細範例，包括收集網路網站、地區和頻寬的相關資訊。
-ms.openlocfilehash: 65bf3c07b2186ae8251c570880d54242944ff6e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 提供在商務用 Skype Server 企業語音中規劃通話許可控制的詳細範例，包括收集網路網站、地區及頻寬的相關資訊。
+ms.openlocfilehash: 47f44f6b20779cce80c5499eb792945276fec7144fb7661e8aca8ce97e1e09ae
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101509"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324123"
 ---
-# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>範例：在商務用 Skype Server 中收集通話許可控制需求
+# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>範例：在商務用 Skype Server 中收集通話許可控制的需求
 
-提供在商務用 Skype Server Enterprise Voice 中規劃通話許可控制的詳細範例，包括收集網路網站、地區和頻寬的相關資訊。
+提供在商務用 Skype Server 企業語音中規劃通話許可控制的詳細範例，包括收集網路網站、地區及頻寬的相關資訊。
 
 本範例顯示規劃及實作通話許可控制 (CAC) 的方式。概略而言，其中包含下列幾項活動：
 
 1. 識別您的所有網路中樞與骨幹 (又稱為網路地區)。
 
-2. 識別將為每個網路地區管理 CAC 的商務用 Skype 伺服器中央網站。
+2. 識別將為每個網路地區管理 CAC 的商務用 Skype Server 中央網站。
 
 3. 識別及定義連線至每個網路地區的網站。
 
-4. 針對每個網路與 WAN 的連線受到頻寬限制的網站，請描述 WAN 連線的頻寬容量，以及網路系統管理員為商務用 Skype 伺服器媒體流量所設定的頻寬限制（如果適用）。 WAN 連線的頻寬不受限制的網站無須納入。
+4. 針對每個網路與 WAN 的連線受到頻寬限制的網站，請描述 WAN 連線的頻寬容量，以及網路系統管理員為商務用 Skype Server 媒體流量所設定的頻寬限制（如果適用）。 WAN 連線的頻寬不受限制的網站無須納入。
 
 5. 建立網路中每個子網路與網站間的關聯。
 
-6. 對應網路地區之間的連結。 針對每個連結，請描述其頻寬容量，以及網路系統管理員對商務用 Skype 伺服器媒體流量所放置的任何限制。
+6. 對應網路地區之間的連結。 針對每個連結，請描述其頻寬容量，以及網路系統管理員對商務用 Skype Server 媒體流量所進行的任何限制。
 
 7. 定義每一組網路地區之間的路由。
 
@@ -60,9 +60,9 @@ ms.locfileid: "51101509"
      ![具有3個網路地區的網路拓撲範例](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
-    > Multiprotocol Label Switching (MPLS) 網路應呈現為每個地理位置皆有其對應網站的網路地區。 如需詳細資訊，請參閱 [商務用 Skype 中的通話許可控制元件和拓撲](components-and-topologies.md)。 
+    > Multiprotocol Label Switching (MPLS) 網路應呈現為每個地理位置皆有其對應網站的網路地區。 如需詳細資訊，請參閱[商務用 Skype 中的通話許可控制元件和拓撲](components-and-topologies.md)。 
 
-    在上述的網路拓撲範例中，有三個網路地區，每個地區都有管理 CAC 的商務用 Skype Server 中央網站。 網路地區會依據地理位置鄰近性選出適當的中央網站。 由於媒體流量最大之處是在網路地區內，因此若能位於鄰近之處，此中央網站將保有獨立運作性，且在其他中央網站無法使用時仍能持續運作。 
+    在上述的網路拓撲範例中，有三個網路地區，每個地區都有一個管理 CAC 的商務用 Skype Server 中央網站。 網路地區會依據地理位置鄰近性選出適當的中央網站。 由於媒體流量最大之處是在網路地區內，因此若能位於鄰近之處，此中央網站將保有獨立運作性，且在其他中央網站無法使用時仍能持續運作。 
 
     在此範例中，名為芝加哥的商務用 Skype 部署為北美地區的中央網站。
 
@@ -73,11 +73,11 @@ ms.locfileid: "51101509"
     |**網路地區**|**中央網站**|
     |:-----|:-----|
     |北美地區  <br/> |Chicago  <br/> |
-    |Emea  <br/> |倫敦  <br/> |
+    |EMEA  <br/> |倫敦  <br/> |
     |亞太  <br/> |北京  <br/> |
 
     > [!NOTE]
-    > 根據您的商務用 Skype 伺服器拓撲，相同的中央網站可以指派給多個網路地區。 
+    > 根據商務用 Skype Server 的拓撲，相同的中央網站可以指派給多個網路地區。 
 
 3. 對於各個網路地區，識別 WAN 連線的頻寬不受限制的所有網站 (辦公室或地點)。由於這些網站的頻寬不受限制，因此您無須對其套用 CAC 頻寬原則。
 
@@ -113,11 +113,11 @@ ms.locfileid: "51101509"
 
 5. 為每個頻寬受限的 WAN 連結決定下列項目：
 
-   - 您要為所有的並行音訊工作階段設定的整體頻寬限制。 如果新的音訊會話會導致超過此限制，商務用 Skype 伺服器不允許會話開始。
+   - 您要為所有的並行音訊工作階段設定的整體頻寬限制。 如果新的音訊會話會導致超過此限制，商務用 Skype Server 不允許會話開始。
 
    - 您要為每個個別音訊工作階段設定的頻寬限制。預設的 CAC 頻寬限制為 175 kbps，但系統管理員可加以修改。
 
-   - 您要為所有並行視訊工作階段設定的整體頻寬限制。 如果新的視頻會話會導致超過此限制，商務用 Skype 伺服器不允許會話開始。
+   - 您要為所有並行視訊工作階段設定的整體頻寬限制。 如果新的視頻會話會導致超過此限制，商務用 Skype Server 不允許會話開始。
 
    - 您要為每個個別視訊工作階段設定的頻寬限制。預設的 CAC 頻寬限制為 700 kbps，但系統管理員可加以修改。
 
@@ -140,7 +140,7 @@ ms.locfileid: "51101509"
     > 網路中的每個子網路都必須與一個網站相關聯，即使該網站的頻寬不受限亦然。這是因為「通話許可控制」會使用子網路資訊來判斷端點所在的網站。確認工作階段中雙方的所在位置後，「通話許可控制」即可判斷是否有足夠的頻寬可建立通話。在透過沒有頻寬限制的連結建立工作階段時，將會產生通知。 
 
     > [!IMPORTANT]
-    > 如果您部署了 Audio/Video Edge Server，則每個 Edge Server 的公用 IP 位址都必須與 Edge Server 部署所在的網站相關聯。 A/V Edge Server 的每個公用 IP 位址，都必須在您的網路組態設定中新增為具有子網路遮罩 32 的子網路。 例如，若您在「芝加哥」中部署了 A/V Edge Server，則應為這些伺服器的每個外部 IP 位址建立具有子網路遮罩 32 的子網路，並建立網站「芝加哥」與這些子網路的關聯。 如需公用 IP 位址的詳細資訊，請參閱 [規劃商務用 Skype 的網路需求](../../plan-your-deployment/network-requirements/network-requirements.md)。 
+    > 如果您部署了 Audio/Video Edge Server，則每個 Edge Server 的公用 IP 位址都必須與 Edge Server 部署所在的網站相關聯。 A/V Edge Server 的每個公用 IP 位址，都必須在您的網路組態設定中新增為具有子網路遮罩 32 的子網路。 例如，若您在「芝加哥」中部署了 A/V Edge Server，則應為這些伺服器的每個外部 IP 位址建立具有子網路遮罩 32 的子網路，並建立網站「芝加哥」與這些子網路的關聯。 如需公用 IP 位址的詳細資訊，請參閱[規劃網路需求商務用 Skype](../../plan-your-deployment/network-requirements/network-requirements.md)。 
 
     會引發重要狀態指示器 (KHI) 通知，指定存在於您的網路中，但未與子網路相關聯，或包含 IP 位址的子網路未與網站相關聯的 IP 位址清單。此通知在 8 小時內不會多次引發。以下是相關的通知資訊與範例：
 
@@ -177,11 +177,11 @@ ms.locfileid: "51101509"
 
 7. 在商務用 Skype Server 通話許可控制中，網路地區之間的連線稱為地區連結。 請比照網站的處理方式，為每個地區連結指定下列項目：
 
-   - 您要為所有的並行音訊工作階段設定的整體頻寬限制。 如果新的音訊會話會導致超過此限制，商務用 Skype 伺服器不允許會話開始。
+   - 您要為所有的並行音訊工作階段設定的整體頻寬限制。 如果新的音訊會話會導致超過此限制，商務用 Skype Server 不允許會話開始。
 
    - 您要為每個個別音訊工作階段設定的頻寬限制。預設的 CAC 頻寬限制為 175 kbps，但系統管理員可加以修改。
 
-   - 您要為所有並行視訊工作階段設定的整體頻寬限制。 如果新的視頻會話會導致超過此限制，商務用 Skype 伺服器不允許會話開始。
+   - 您要為所有並行視訊工作階段設定的整體頻寬限制。 如果新的視頻會話會導致超過此限制，商務用 Skype Server 不允許會話開始。
 
    - 您要為每個個別視訊工作階段設定的頻寬限制。預設的 CAC 頻寬限制為 700 kbps，但系統管理員可加以修改。
 
@@ -194,8 +194,8 @@ ms.locfileid: "51101509"
 
    | **地區連結名稱**  | **第一個地區**     | **第二個地區** | **BW 限制**  | **音訊限制** | **音訊工作階段限制** | **視訊限制** | **視訊工作階段限制** |
    |:----------------------|:---------------------|:------------------|:--------------|:----------------|:------------------------|:----------------|:------------------------|
-   | NA-EMEA-LINK  <br/>   | 北美地區  <br/> | Emea  <br/>       | 50,000  <br/> | 20,000  <br/>   | 175  <br/>              | 14000  <br/>   | 700  <br/>              |
-   | EMEA-APAC-LINK  <br/> | Emea  <br/>          | 亞太  <br/>       | 25,000  <br/> | 10,000  <br/>   | 175  <br/>              | 7000  <br/>    | 700  <br/>              |
+   | NA-EMEA-LINK  <br/>   | 北美地區  <br/> | EMEA  <br/>       | 50,000  <br/> | 20,000  <br/>   | 175  <br/>              | 14000  <br/>   | 700  <br/>              |
+   | EMEA-APAC-LINK  <br/> | EMEA  <br/>          | 亞太  <br/>       | 25,000  <br/> | 10,000  <br/>   | 175  <br/>              | 7000  <br/>    | 700  <br/>              |
 
 
 8. 定義每一組網路地區之間的路由。
@@ -208,18 +208,18 @@ ms.locfileid: "51101509"
 
    | **地區路由名稱**  | **第一個地區**     | **第二個地區** | **地區連結**                    |
    |:-----------------------|:---------------------|:------------------|:------------------------------------|
-   | NA-EMEA-ROUTE  <br/>   | 北美地區  <br/> | Emea  <br/>       | NA-EMEA-LINK  <br/>                 |
-   | EMEA-APAC-路由傳送  <br/> | Emea  <br/>          | 亞太  <br/>       | EMEA-APAC-LINK  <br/>               |
+   | NA-EMEA-ROUTE  <br/>   | 北美地區  <br/> | EMEA  <br/>       | NA-EMEA-LINK  <br/>                 |
+   | EMEA-APAC-路由傳送  <br/> | EMEA  <br/>          | 亞太  <br/>       | EMEA-APAC-LINK  <br/>               |
    | NA-APAC-ROUTE  <br/>   | 北美地區  <br/> | 亞太  <br/>       | NA-EMEA-LINK、EMEA-APAC-LINK  <br/> |
 
 
 9. 為每一組由單一連結 (稱為「網站間」連結) 直接連接的網站，指定下列項目：
 
-     - 您要為所有的並行音訊工作階段設定的整體頻寬限制。 如果新的音訊會話會導致超過此限制，商務用 Skype 伺服器不允許會話開始。
+     - 您要為所有的並行音訊工作階段設定的整體頻寬限制。 如果新的音訊會話會導致超過此限制，商務用 Skype Server 不允許會話開始。
 
      - 您要為每個個別音訊工作階段設定的頻寬限制。預設的 CAC 頻寬限制為 175 kbps，但系統管理員可加以修改。
 
-     - 您要為所有並行視訊工作階段設定的整體頻寬限制。 如果新的視頻會話會導致超過此限制，商務用 Skype 伺服器不允許會話開始。
+     - 您要為所有並行視訊工作階段設定的整體頻寬限制。 如果新的視頻會話會導致超過此限制，商務用 Skype Server 不允許會話開始。
 
      - 您要為每個個別視訊工作階段設定的頻寬限制。預設的 CAC 頻寬限制為 700 kbps，但系統管理員可加以修改。
 
@@ -235,7 +235,7 @@ ms.locfileid: "51101509"
 
 ### <a name="next-steps"></a>後續步驟
 
-收集必要資訊之後，您可以使用商務用 Skype Server 管理命令介面或商務用 Skype Server 控制台執行 CAC 部署。
+收集必要資訊之後，您可以使用商務用 Skype Server 管理命令介面或商務用 Skype Server 控制台來執行 CAC 部署。
 
 > [!NOTE]
-> 雖然您可以使用商務用 Skype Server 控制台執行大部分的網路設定工作，但若要建立子網和網站間連結，則必須使用商務用 Skype Server 管理命令介面。 如需詳細資訊，請參閱 [New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) 和 [CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)。
+> 雖然您可以使用商務用 Skype Server 控制台執行大部分的網路設定工作，以建立子網和網站間連結，您必須使用商務用 Skype Server 管理命令介面。 如需詳細資訊，請參閱 [New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) 和 [CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)。

@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
-description: 摘要：瞭解使用者服務，它是「呼叫品質」儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
-ms.openlocfilehash: d9f4b771a1bf5efeece4f8fb87195d8567f0426e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解使用者服務，它是「呼叫品質」儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
+ms.openlocfilehash: 412f7b17e6190a35e79998d47a0d5cfa8459f6934d19761f5d0b5d65e5e91ba2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803073"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324192"
 ---
 # <a name="user-service-for-cqd"></a>CQD 的使用者服務
  
-**摘要：** 深入瞭解使用者服務，此服務是「呼叫品質」儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
+**摘要：** 深入瞭解使用者服務，此服務是「呼叫品質」儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
   
 使用者服務屬於「呼叫品質」儀表板的存放庫 API 的一部分。
   

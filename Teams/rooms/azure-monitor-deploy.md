@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: 本文討論如何使用 Azure 監視器Microsoft Teams 會議室以整合的端對端方式部署裝置管理。
+description: 本文討論如何使用 Azure 監視器以Microsoft Teams 會議室端對端的方式部署管理裝置。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d0f3176f83e57db2203d37f2e65ecd8d54b1ea419367de997730180d27b1ee54
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6fe149f2d2cb0e6e68ad50c0c9cf1d2328439ff8dc0f43f56646e8a0152da7b8
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57850308"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>使用 :::no-loc text="Microsoft Teams Rooms"::: 部署管理 :::no-loc text="Azure Monitor":::
 
 本文將討論如何使用 來設定及部署整合式、端對端管理 :::no-loc text="Microsoft Teams Rooms"::: 裝置 :::no-loc text="Azure Monitor"::: 。
 
-您可以設定 :::no-loc text="Log Analytics"::: 為內部 :::no-loc text="Azure Monitor"::: 提供基本遙測和通知，可協助管理 :::no-loc text="Microsoft Teams Rooms"::: 會議室裝置。 隨著您的管理解決方案成熟，您可能會決定部署額外的資料和管理功能，以建立更詳細的裝置可用性和績效視圖。
+您可以設定 :::no-loc text="Log Analytics"::: 為內部 :::no-loc text="Azure Monitor"::: 提供基本遙測和通知，可協助管理 :::no-loc text="Microsoft Teams Rooms"::: 會議室裝置。 隨著您的管理解決方案逐漸成熟，您可能會決定部署額外的資料和管理功能，以建立更詳細的裝置可用性與績效視圖。
 
 您可以遵循本指南，使用下列範例的儀表板，取得裝置可用性、應用程式和硬體健康情況，以及應用程式和作業系統版本發佈 :::no-loc text="Microsoft Teams Rooms"::: 的詳細狀態報表。
 
@@ -50,7 +50,7 @@ ms.locfileid: "54312681"
 ## <a name="validate-no-loc-textlog-analytics-configuration"></a>驗證 :::no-loc text="Log Analytics"::: 組組
 <a name="validate_LogAnalytics"> </a>
 
-您需要有工作區 :::no-loc text="Log Analytics"::: ，以開始從裝置收集 :::no-loc text="Microsoft Teams Rooms"::: 記錄。 工作區是一個獨一無二的環境，具有自己的資料 :::no-loc text="Log Analytics"::: 存放庫、資料來源和解決方案。 如果您已經有現有的工作區，您可以使用它監控您的部署，或者您也可以建立專屬的工作區，以滿足 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 您的 :::no-loc text="Microsoft Teams Rooms"::: 監控需求。
+您需要有工作區 :::no-loc text="Log Analytics"::: ，以開始從裝置收集 :::no-loc text="Microsoft Teams Rooms"::: 記錄。 工作區是一個獨一無二的環境，具有自己的資料存放庫、 :::no-loc text="Log Analytics"::: 資料來源和解決方案。 如果您已經有現有的工作區，您可以使用它監控您的部署，或者您也可以建立專屬的工作區，以滿足 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 您的 :::no-loc text="Microsoft Teams Rooms"::: 監控需求。
 
 如果您需要建立新工作區，請遵循入口網站中建立工作區一文 :::no-loc text="Log Analytics"::: [ :::no-loc text="Log Analytics"::: 中的 :::no-loc text="Azure"::: 指示](/azure/azure-monitor/learn/quick-create-workspace)
 
@@ -73,11 +73,11 @@ ms.locfileid: "54312681"
 ## <a name="configure-test-devices-for-azure-monitoring"></a>設定 Azure 監控的測試裝置
 <a name="configure_test_devices"> </a>
 
-您必須做好準備， :::no-loc text="Log Analytics"::: 才能監控 :::no-loc text="Microsoft Teams Rooms"::: –相關事件。 首先，您必須將代理程式部署到一或兩個您具有實體存取權的設備，然後讓測試裝置產生一些資料，並推送到 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 工作區。
+您必須做好準備， :::no-loc text="Log Analytics"::: 才能監控 :::no-loc text="Microsoft Teams Rooms"::: –相關事件。 首先，您必須將代理程式部署到一或兩個您具有實體存取權的設備，並取得這些測試裝置會產生一些資料，並推送到 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 工作區。
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>安裝 :::no-loc text="Microsoft Monitoring"::: 代理程式以測試裝置
 
-使用電腦在 中的服務連線將代理程式部署到 :::no-loc text="Microsoft Monitoring"::: [ :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: 測試裝置 :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows)。 本文提供有關部署代理程式的步驟的詳細資訊、取得 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * **工作區識別碼** _ *__* :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: 和 _ 主鍵 * 以將裝置連接到您的部署的指示，以及驗證代理程式與實例之間連接的步驟。
+使用電腦在 中的服務連線將代理程式部署到 :::no-loc text="Microsoft Monitoring"::: [ :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: 測試裝置 :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows)。 本文提供部署代理程式的步驟、取得 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * **工作區識別碼** _ *__* :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: 和 _ 主鍵 * 以將裝置連接到您的部署的指示，以及驗證代理程式與實例之間連接的步驟的詳細資訊。
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>產生 :::no-loc text="Microsoft Teams Rooms"::: 範例事件
 
@@ -95,7 +95,7 @@ ms.locfileid: "54312681"
 3.  請確定查詢會返回包含會議應用程式所產生事件的 :::no-loc text="Microsoft Teams Rooms"::: 記錄。
 
 4.  產生硬體問題，並驗證所需事件是否登入 :::no-loc text="Azure Log Analytics"::: 。
-    1.  拔除測試系統上的其中一個周邊 :::no-loc text="Microsoft Teams Rooms"::: 裝置。 這可能是相機、喇叭、麥克風或前會議室顯示器
+    1.  拔除測試系統上的其中一個周邊 :::no-loc text="Microsoft Teams Rooms"::: 裝置。 這可能是相機、喇叭、麥克風或會議室顯示器
     2.  請等候 10 分鐘，讓事件記錄填入 :::no-loc text="Azure Log Analytics"::: 。
     3.  使用查詢列出硬體錯誤事件： `Event | where Source == "SRS-App" and EventID == 3001`
 
@@ -110,24 +110,24 @@ ms.locfileid: "54312681"
 ## <a name="map-custom-fields"></a>地圖自訂欄位
 <a name="Custom_fields"> </a>
 
-您可以使用自訂欄位從事件記錄中解壓縮特定資料。 您需要定義自訂欄位，稍後會用於磚、儀表板視圖和通知。 在開始[建立自訂欄位 :::no-loc text="Log Analytics"::: ](/azure/azure-monitor/platform/custom-fields)之前，請參閱中的自訂欄位，並熟悉概念。
+您可以使用自訂欄位從事件記錄中解壓縮特定資料。 您需要定義自訂欄位，這些欄位稍後會用於磚、儀表板視圖和通知。 在開始[建立自訂欄位 :::no-loc text="Log Analytics"::: ](/azure/azure-monitor/platform/custom-fields)之前，請參閱中的自訂欄位，並熟悉概念。
 
 若要從捕獲的事件記錄中解壓縮自訂欄位，請遵循下列步驟：
 
 1.  請登錄入口[ :::no-loc text="Microsoft Azure"::: 網站，](https://portal.azure.com)然後 :::no-loc text="Log Analytics"::: 前往並選取您的工作區。
 
 2. 列出裝置產生的 :::no-loc text="Microsoft Teams Rooms"::: 事件：
-   1.  請前往 **記錄** ，然後使用查詢來取回具有自訂欄位的記錄。
+   1.  前往記錄 **，** 然後使用查詢來取回具有自訂欄位的記錄。
    2.  範例查詢： `Event | where Source == "SRS-App" and EventID == 2000`
 
 3. 選取其中一個記錄，選取左側的按鈕，然後啟動欄位提取精靈。
-4. 強調要從 RenderedDescription 中抽選的資料，並提供欄位標題。 您應該使用的功能變數名稱會于表格 1 中提供。
+4. 強調要從 RenderedDescription 中抽選的資料，並提供欄位標題。 您應該使用的功能變數名稱會于資料表 1 中提供。
 5. 使用表格 *1* 中顯示的映射。 :::no-loc text="Log Analytics":::會在您定義 **\_ 新欄位** 時自動附加 CF 字串。
 
 > [!IMPORTANT]
 > 請記住，所有 JSON 和 :::no-loc text="Log Analytics"::: 欄位都是區分大小寫的。
 > 
-> 請注意下表中每個自訂欄位所需的查詢。 您必須使用正確的查詢，以 :::no-loc text="Log Analytics"::: 成功解壓縮自訂域值。
+> 請注意下表中每個自訂欄位所需的查詢。 您必須使用正確的查詢，以成功 :::no-loc text="Log Analytics"::: 解壓縮自訂域值。
 > 
 **表格 1**
 
@@ -163,7 +163,7 @@ ms.locfileid: "54312681"
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>使用Microsoft Teams 會議室建立儀表板
 
-您可以輸入儀表板 :::no-loc text="Microsoft Teams Rooms"::: 並開始快速監控您的裝置。 請執行下列步驟來導入儀表板：
+您可以輸入儀表板 :::no-loc text="Microsoft Teams Rooms"::: 並開始快速監控您的裝置。 請執行下列步驟來輸入儀表板：
 
 1.  取得 [SkypeRoomSystems_v2.omsview](https://go.microsoft.com/fwlink/?linkid=835675) 儀表板檔案。
 2.  請登錄入口[ :::no-loc text="Microsoft Azure"::: 網站，](https://portal.azure.com)然後 :::no-loc text="Log Analytics"::: 前往並選取您的工作區。
@@ -178,7 +178,7 @@ ms.locfileid: "54312681"
 #### <a name="configure-the-overview-tile"></a>設定概觀磚
 
 1.  開啟 **View Designer**。
-2.  選取 **概觀磚****，然後從** 圖庫選取兩個數字。
+2.  選取 **概觀磚**， **然後從圖庫** 選取兩個數字。
 3.  為磚命名 **:::no-loc text="Microsoft Teams Rooms":::** 。
 4.  定義第 **一個磚**：<br>
     **圖例：** 上個月內至少送出一次心跳的裝置<br>
@@ -196,7 +196,7 @@ ms.locfileid: "54312681"
     **群組標題：** 心跳狀態<br>
     **新群組：** 選擇
 4.  定義 **磚** 屬性：<br>
-    **圖例：** 使用中的裝置 (過去 20 分鐘內的心跳) <br>
+    **圖例：** 使用中 (在前 20 分鐘內的心跳) <br>
     **磚查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  定義 **清單** 屬性：<br>
     **清單查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
@@ -214,7 +214,7 @@ ms.locfileid: "54312681"
     **群組標題：** 保留空白<br>
     **新群組：** 未選取
 3.  定義 **磚** 屬性：<br>
-    **圖例：** 非 (裝置) <br>
+    **圖例：** 非 (裝置最近 20 分鐘內沒有發出心跳) <br>
     **磚查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  定義 **清單** 屬性：<br>
     **清單查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
@@ -245,7 +245,7 @@ ms.locfileid: "54312681"
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>建立顯示作業系統 :::no-loc text="Microsoft Teams Rooms"::: 版本的磚
 
-1.  從 **圖庫&** 環圈清單，然後新增磚。
+1.  選取 **圖庫&** 環圈清單，然後新增磚。
 2.  定義 **一般** 屬性：<br>
     **群組標題：** 作業系統詳細資料<br>
     **新群組：** 選擇
@@ -269,7 +269,7 @@ ms.locfileid: "54312681"
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-application-versions"></a>建立顯示應用程式 :::no-loc text="Microsoft Teams Rooms"::: 版本的磚
 
-1.  從 **圖庫&** 環圈清單，然後新增磚。
+1.  選取 **圖庫&** 環圈清單，然後新增磚。
 2.  定義 **一般** 屬性：<br>
     **群組標題：** :::no-loc text="Microsoft Teams Rooms"::: 應用程式詳細資料<br>
     **新群組：** 選擇
@@ -352,7 +352,7 @@ ms.locfileid: "54312681"
 設定提醒規則，檢查過去一小時內發生硬體問題的 :::no-loc text="Microsoft Teams Rooms"::: 裝置。
 1.  請登錄入口[ :::no-loc text="Microsoft Azure"::: 網站，](https://portal.azure.com)然後 :::no-loc text="Log Analytics"::: 前往並選取您的工作區。
 
-2. 流覽至您的 :::no-loc text="Log Analytics"::: 工作區，然後 **選取通知** ，然後選取 **新的通知規則**
+2. 流覽至您的 :::no-loc text="Log Analytics"::: 工作區，然後 **選取通知** ，然後選取 **新增通知規則**
 
 3. 選取 **新增條件** ，然後 **選取自訂記錄搜尋**
 
@@ -366,13 +366,13 @@ ms.locfileid: "54312681"
     ```
 
 5.  設定通知邏輯設定：<br>
-    **根據：** 結果數目<br>
+    **根據：** 結果數<br>
     **條件：** 大於<br>
     **閾值：0**<br>
 
 6. 設定評估設定 **，然後選取** 完成 ： <br>
     **期間 (分鐘) ：60**<br>
-    **以 (分鐘) 頻率：60**<br>
+    **以分鐘 (頻率) ：60**<br>
 
 7. 設定動作群組：
     1.  選取 **建立新**
@@ -394,32 +394,32 @@ ms.locfileid: "54312681"
 
 ### <a name="configure-an-email-alert-for-no-loc-textmicrosoft-teams-rooms-application-issues"></a>設定應用程式問題 :::no-loc text="Microsoft Teams Rooms"::: 的電子郵件通知
 
-重複相同的程式，但使用下列查詢列出過去一小時內發生應用程式問題的裝置。
+重複相同的程式，但使用下列查詢列出過去一小時內遇到應用程式問題的裝置。
 
-    ```
-    Event
-    | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
-    | summarize arg_max(TimeGenerated, *) by Computer
-    | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
-    | sort by TimeGenerated desc
-    ```
+ ```
+ Event
+ | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h)
+ | summarize arg_max(TimeGenerated, *) by Computer
+ | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF
+ | sort by TimeGenerated desc
+ ```
 
 現在，您已完成定義通知。 您可以使用上述範例定義其他警示。
 
-產生通知時，您就會收到一封電子郵件，列出過去一小時內發生問題的裝置。
+產生通知時，您就會收到一封電子郵件，其中列出過去一小時內發生問題的裝置。
 
-![範例 :::no-loc text="Azure Monitor"::: 通知電子郵件] (。/media/Deploy-Azure-Monitor-6.png「範例 :::no-loc text="Azure Monitor"::: 通知電子郵件」) 
+![範例 :::no-loc text="Azure Monitor"::: 通知電子郵件] (。。/media/Deploy-Azure-Monitor-6.png「範例 :::no-loc text="Azure Monitor"::: 通知電子郵件」) 
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>設定所有裝置 :::no-loc text="Azure Monitoring":::
 <a name="configure_all_devices"></a>設定儀表板和通知之後，您可以在所有裝置上設定和設定代理程式， :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: 以完成監控部署。
 
-雖然您可以在每個裝置上手動安裝和設定代理程式，但我們強烈建議您 :::no-loc text="Microsoft Monitoring"::: 運用現有的軟體部署工具和方法。
+雖然您可以在每個裝置上手動安裝和設定代理程式，但我們強烈建議您 :::no-loc text="Microsoft Monitoring"::: 利用現有的軟體部署工具和方法。
 
 如果您是第一次建立裝置，您可能會想要將代理程式設定和設定步驟納入您的建立 :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Microsoft Monitoring"::: 程式。 詳細資訊，請參閱 [使用命令列安裝代理程式](/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line)。
 
 ### <a name="deploying-no-loc-textmicrosoft-monitoring-agent-by-using-a-group-policy-object-gpo"></a>使用 :::no-loc text="Microsoft Monitoring"::: 群組原則物件或 GPO (部署) 
 
-如果您在實施之前已經部署您的裝置，您可以使用提供的腳本，使用群組原則物件來設定 :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitoring"::: :::no-loc text="Active Directory"::: 和設定代理程式。
+如果您已經部署您的裝置，然後再進行部署，您可以使用群組原則物件，使用所提供的腳本來設定 :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitoring"::: :::no-loc text="Active Directory"::: 和設定代理程式。
 
 1.  建立共用網路路徑，並授予網域 **電腦群組的讀取** 存取權。
 
@@ -444,7 +444,7 @@ ms.locfileid: "54312681"
     6.  選取 **新增**， **然後流覽**。
     7.  選取您剛才複製的 ps1 腳本。
 
-7.  :::no-loc text="Microsoft Teams Rooms"::: 裝置應安裝並設定第二次 :::no-loc text="Microsoft Monitoring"::: 重新開機的代理程式。
+7.  :::no-loc text="Microsoft Teams Rooms"::: 裝置應安裝並設定 :::no-loc text="Microsoft Monitoring"::: 第二次重新開機的代理程式。
 
 ```PowerShell
 # Install-MMAgent.ps1
@@ -494,10 +494,10 @@ Stop-Transcript
 ## <a name="additional-solutions"></a>其他解決方案
 <a name="Solutions"> </a>
 
-:::no-loc text="Azure Monitor"::: 透過其解決方案庫提供內建的管理解決方案 [，](/azure/azure-monitor/insights/solutions) 進一步説明您監控環境。 我們強烈建議您新增[通知管理](/azure/azure-monitor/platform/alert-management-solution)與[ :::no-loc text="Azure Log Analytics"::: 代理人員健康](/azure/azure-monitor/insights/solution-agenthealth)狀態解決方案至您的工作區。
+:::no-loc text="Azure Monitor"::: 透過其解決方案庫提供內建的管理解決方案 [，](/azure/azure-monitor/insights/solutions) 以進一步協助您監控環境。 我們強烈建議您同時在工作區[中](/azure/azure-monitor/platform/alert-management-solution)新增通知[ :::no-loc text="Azure Log Analytics"::: ](/azure/azure-monitor/insights/solution-agenthealth)管理和代理健康資料解決方案。
 
 > [!NOTE]
-> 代理程式健康情況解決方案可協助您識別環境中過期或中斷的代理程式，而警示管理解決方案會提供有關特定期間中已提出之通知 :::no-loc text="Microsoft Monitoring"::: 的詳細資訊。
+> 代理程式健康情況解決方案可協助您識別環境中過期或已中斷的代理程式，而警示管理解決方案會提供有關特定期間中已提出之警示 :::no-loc text="Microsoft Monitoring"::: 的詳細資訊。
 
 ## <a name="see-also"></a>另請參閱
 

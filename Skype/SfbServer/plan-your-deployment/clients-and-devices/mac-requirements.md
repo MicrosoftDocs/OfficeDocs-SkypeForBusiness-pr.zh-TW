@@ -1,5 +1,5 @@
 ---
-title: Mac 用戶端需求的商務用 Skype
+title: 商務用 Skype Mac 用戶端需求
 ms.author: v-cichur
 author: cichur
 ms.reviewer: PhillipGarding
@@ -16,49 +16,49 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: 閱讀此主題以瞭解在 Mac 上執行商務用 Skype 的硬體、軟體和基礎結構需求。
-ms.openlocfilehash: 866eda0cc5e82db1da1b69bee3eb4bf26df6d7b2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 71ba17567e9dfe4bafe724ede29aace231ad122105b33eef14550cbc781a79b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109279"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314439"
 ---
-# <a name="skype-for-business-on-mac-client-requirements"></a>Mac 用戶端需求的商務用 Skype
+# <a name="skype-for-business-on-mac-client-requirements"></a>商務用 Skype Mac 用戶端需求
  
 閱讀此主題以瞭解在 Mac 上執行商務用 Skype 的硬體、軟體和基礎結構需求。
   
-[Mac 用戶端的商務用 Skype](https://products.office.com/skype-for-business/download-app?tab=tabs-3#Mac)可供下載。
+[Mac 用戶端上的商務用 Skype](https://products.office.com/skype-for-business/download-app?tab=tabs-3#Mac)可供下載。
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Mac 版商務用 Skype 的硬體和軟體需求
 
-Mac 用戶端上的商務用 Skype 需要 Mac OS X El Capitan 及更高版本，且至少使用磁碟空間的100MB。 我們支援使用內建的音訊及視頻裝置。 外部裝置必須位於商務用 [Skype 方案目錄](https://partnersolutions.skypeforbusiness.com/solutionscatalog)中。 
+mac 用戶端上的商務用 Skype 需要 mac OS X El Capitan 及更高版本，且至少使用磁碟空間100MB。 我們支援使用內建的音訊及視頻裝置。 外部裝置必須位於[商務用 Skype 方案目錄](https://partnersolutions.skypeforbusiness.com/solutionscatalog)中。 
   
 > [!NOTE]
-> 這份清單是初步的，但是某些裝置可能會合格 Lync，但在 Mac 上的商務用 Skype 上不支援。 如需最低硬體需求，請參閱 [系統需求](https://products.office.com/office-system-requirements) 。
+> 這個清單是初步的，有些裝置可能符合 Lync，但不支援 Mac 上的商務用 Skype。 如需最低硬體需求，請參閱 [系統需求](https://products.office.com/office-system-requirements) 。
   
 ### <a name="legacy-mac-clients"></a>舊版 Mac 用戶端
 
-商務用 Skype Server 2015 也支援下列舊版用戶端在執行 Mac OS 10.5.8 或最新 service pack 或版本 (的電腦上，目前不) 支援以 Intel 為基礎的) 作業系統 (Mac 作業系統10.9 作業系統。 如需支援的功能的詳細資訊，請參閱 [適用于商務用 Skype 的桌面用戶端功能比較](desktop-feature-comparison.md)。
+商務用 Skype Server 2015 也支援下列舊版用戶端在執行 Mac os 10.5.8 或最新 service pack 或版本 (Intel) 作業系統 (Mac 作業系統10.9 作業系統的電腦上，) 目前不支援。 如需支援的功能的詳細資訊，請參閱[桌面用戶端的商務用 Skype 的功能比較](desktop-feature-comparison.md)。
   
 - Microsoft Lync for Mac 2011 (請參閱 [Lync For mac 2011 部署指南](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14))) 
     
-- Microsoft Communicator for Mac 2011 (請參閱 [Communicator For mac 2011 Deployment Guide](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14))) 
+- Microsoft Communicator for mac 2011 (請參閱[Communicator for mac 2011 部署指南](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14))) 
  
 商務用 Skype Server 2019 不支援這些用戶端。
    
-## <a name="infrastructure-requirements-for-skype-for-business-on-mac"></a>Mac 版商務用 Skype 的基礎結構需求
+## <a name="infrastructure-requirements-for-skype-for-business-on-mac"></a>Mac 上的商務用 Skype 基礎結構需求
 <a name="Infrastructure"> </a>
 
-Mac 用戶端的商務用 Skype 會利用整合通訊管理平臺 (UCMP) ，以及行動用戶端所使用的整合通訊網頁 API (UCWA) 。
+Mac 用戶端的商務用 Skype 會利用整合通訊管理平臺 (UCMP) ，以及行動用戶端使用的整合通訊網頁 API (UCWA) 。
   
 用戶端與我們的行動用戶端有相同的需求，因為您必須要有部署的 Access Edge Server 和反向 Proxy。 
   
 ### <a name="authentication"></a>驗證
 
-Mac 用戶端的商務用 Skype 支援以 Cert 為基礎的驗證、Microsoft 新式驗證，以及在部署及啟用時 Multi-Factor 驗證。
+Mac 用戶端上的商務用 Skype 支援以憑證為基礎的驗證、Microsoft 新式驗證，以及在部署及啟用時 Multi-Factor 驗證。
   
 > [!NOTE]
-> 由於目前的限制，使用者的 Exchange 認證必須與其商務用 Skype 憑證相同。 
+> 由於目前的限制，使用者的 Exchange 認證必須與其商務用 Skype 認證相同。 
   
 ### <a name="certificates"></a>憑證
 
@@ -68,7 +68,7 @@ Mac 用戶端的商務用 Skype 支援以 Cert 為基礎的驗證、Microsoft �
   
 ### <a name="dns"></a>DNS
 
-行動必須正確部署，Mac 用戶端的商務用 Skype 才能正常運作。 常見的失敗案例是在內部網路上可解析下列兩個 DNS 專案：
+必須正確部署行動，Mac 用戶端上的商務用 Skype 才能正常運作。 常見的失敗案例是在內部網路上可解析下列兩個 DNS 專案：
   
 - lyncdiscoverinternal.\<sipdomain\>
     

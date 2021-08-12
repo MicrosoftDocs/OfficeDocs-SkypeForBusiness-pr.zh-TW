@@ -15,20 +15,20 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
-description: 遵循此主題中的步驟，修改現有商務用 Skype 雲端連接器 Edition 1.4.1 或更新版本的設定。
-ms.openlocfilehash: 7fdfdd5ac5a76ebbc3ac58e12a69e2e3af1330cd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 遵循此主題中的步驟，修改現有商務用 Skype Cloud Connector Edition 1.4.1 或更新版本的部署設定。
+ms.openlocfilehash: 151408d48f7623d72d5af4f8fef605d9dcc7d690a915cc7e8454a91f051dd0f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109169"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324182"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>修改現有 Cloud Connector 部署的組態
 
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會在2021年7月31日和商務用 Skype 線上時終止。 當您的組織升級至 Teams 後，請瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話網絡連線至 Teams。
 
-遵循此主題中的步驟，修改現有商務用 Skype 雲端連接器 Edition 1.4.1 或更新版本的設定。 
+遵循此主題中的步驟，修改現有商務用 Skype Cloud Connector Edition 1.4.1 或更新版本的部署設定。 
   
 ## <a name="modify-the-configuration-of-a-single-site"></a>修改單一網站的設定
 <a name="BKMK_SIngleSite"> </a>
@@ -115,9 +115,9 @@ ms.locfileid: "51109169"
 ## <a name="modify-the-configuration-of-your-microsoft-365-or-office-365-organization-to-enable-automatic-updates"></a>修改 Microsoft 365 或 Office 365 組織的設定以啟用自動更新
 <a name="BKMK_MultipleSites"> </a>
 
-若要啟用作業系統自動更新和 Bits 自動更新，您必須使用商務用 Skype 租使用者系統管理員帳戶進行線上管理，並使用租使用者遠端 PowerShell，如下所示。
+若要啟用作業系統自動更新和 Bits 自動更新，您必須使用商務用 Skype 的承租人系統管理員帳戶進行線上管理，並使用租使用者遠端 PowerShell，如下所示。
   
-如果您停用作業系統自動更新或 Bits 自動更新，您的主機和虛擬機器可能會錯過重要的 Windows 更新，而雲端連接器將無法自動升級為新的版本。 強烈建議您啟用自動更新。
+如果您停用作業系統自動更新或 Bits 自動更新，您的主機和虛擬機器可能會錯過重要的 Windows 更新，而雲端連接器將不會自動升級至新版本。 強烈建議您啟用自動更新。
   
 1. 網站的 EnableAutoUpdate 屬性必須設定為 true (預設值) 。 請執行下列 Cmdlet，確定 EnableAutoUpdate 設定為 true：
     
@@ -164,9 +164,9 @@ ms.locfileid: "51109169"
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>更新專用的租使用者系統管理員認證
 <a name="BKMK_MultipleSites"> </a>
 
-您可以使用具有必要許可權的帳戶，從 Microsoft 365 或 Office 365 組織中的雲端連接器進行管理變更。 在2.0 之前的雲端連接器版本中，該帳戶是專用的全域租使用者管理員帳戶。 在雲端連接器版本2.0 和更新版本中，該帳戶可以是具有商務用 Skype 系統管理員許可權的 Microsoft 365 或 Office 365 帳戶。
+您可以從具有必要許可權的帳戶，在 Microsoft 365 或 Office 365 組織的雲端連接器中進行管理變更。 在2.0 之前的雲端連接器版本中，該帳戶是專用的全域租使用者管理員帳戶。 在雲端連接器版本2.0 和更新版本中，該帳戶可以是具有商務用 Skype 系統管理員許可權的 Microsoft 365 或 Office 365 帳戶。
   
-如果您的系統管理員帳號憑證變更于 Microsoft 365 或 Office 365，您也需要在您已部署的每個雲端連接器裝置上執行下列管理員 PowerShell 命令，以更新雲端連接器中的本機快取認證：
+如果您的系統管理員帳號憑證 Microsoft 365 或 Office 365 中有所變更，您也需要在您部署的每個雲端連接器裝置上執行下列系統管理員 PowerShell 命令，以更新雲端連接器中的本機快取認證：
   
 ```powershell
 Set-CcCredential -AccountType TenantAdmin
@@ -178,7 +178,7 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 本節適用于雲端連接器版本2.0 和更新版本。 
   
-所有雲端連接器認證都儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> 。xml "。 當主伺服器上的密碼變更時，您將需要更新本機儲存的認證。
+所有雲端連接器認證都儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml "。 當主伺服器上的密碼變更時，您將需要更新本機儲存的認證。
   
 若要在雲端連接器裝置上更新本機儲存的認證，請使用 [CcCredential](get-cccredential.md) 和 [CcCredential](set-cccredential.md) 指令程式，然後遵循下列步驟：
   
@@ -194,7 +194,7 @@ Set-CcCredential -AccountType TenantAdmin
     
 3. 重新開機主機伺服器。
     
-4. 刪除下列檔案： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> 。xml "。
+4. 刪除下列檔案： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml "。
     
 5. 以系統管理員身分啟動 PowerShell 主控台，然後執行「Register-CcAppliance-Local」，以在描述之後重新輸入密碼。 請確定輸入的密碼與您在雲端連接器部署之前輸入的密碼相同。
     
@@ -218,13 +218,13 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > 本節適用于雲端連接器2.0.1 版及更新版本。 
   
-雲端連接器服務會執行雲端連接器管理服務。 在雲端連接器版本部署期間建立 CceService 帳戶，並儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\> 。xml "和"% 系統磁片% \Programdata\Cloudconnector\credentials..CceService.xml "。
+雲端連接器服務會執行雲端連接器管理服務。 在雲端連接器版本部署期間建立 CceService 帳戶，並儲存在下列檔案中： "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml "和"% 系統磁片% \Programdata\Cloudconnector\credentials..CceService.xml "。
   
 為了確保所有裝置都可以存取網站目錄共用，CceService 帳戶的密碼在網站中部署的所有裝置上都必須相同。 請記住下列事項：
   
 - 根據預設，CceService 帳戶會設定為「密碼永不到期」。 當您更新密碼時，Microsoft 建議您保留此設定。
     
-- 您應該在非峰值使用期間更新密碼，並在自動更新時間範圍外更新 bits 或 Windows 更新。 當您更新密碼時，裝置必須耗盡並重新啟動，這需要一些時間。 重新開機裝置會中斷自動更新作業。 
+- 您應該在非峰使用期間更新密碼，並在自動更新時間範圍外更新 bits 或 Windows 更新。 當您更新密碼時，裝置必須耗盡並重新啟動，這需要一些時間。 重新開機裝置會中斷自動更新作業。 
     
 - 當您變更 CceService 帳戶密碼時，您必須指定所有的認證，並在本機儲存的檔案中進行更新。 
     
@@ -285,7 +285,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 若要將新的 SIP 網域 (或多個 SIP 網域新增至現有的雲端連接器部署) ，請執行下列操作：
   
-1. 請確認您已完成在 Microsoft 365 或 Office 365 中更新網域的步驟，並且具備新增 DNS 記錄的能力。 如需如何在 Microsoft 365 或 Office 365 中設定網域的詳細資訊，請參閱 [Add a domain To Microsoft 365 Or Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
+1. 請確定您已完成 Microsoft 365 或 Office 365 中的網域更新的步驟，且具有新增 DNS 記錄的能力。 如需如何在 Microsoft 365 或 Office 365 中設定網域的詳細資訊，請參閱[Add a domain to Microsoft 365 or Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
 2. 使用新的 SIP 網域或網域更新雲端連接器的設定檔。
     
@@ -306,7 +306,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 如果您需要在您的雲端連接器部署中變更主要 SIP 網域，請執行下列操作：
   
-1. 請確認您已完成在 Microsoft 365 或 Office 365 中更新網域的步驟，並且具備新增 DNS 記錄的能力。 如需如何在 Microsoft 365 或 Office 365 中設定網域的詳細資訊，請參閱 [Add a domain To Microsoft 365 Or Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
+1. 請確定您已完成 Microsoft 365 或 Office 365 中的網域更新的步驟，且具有新增 DNS 記錄的能力。 如需如何在 Microsoft 365 或 Office 365 中設定網域的詳細資訊，請參閱[Add a domain to Microsoft 365 or Office 365](https://support.office.com/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611)。
     
 2. 使用新的 SIP 網域更新雲端連接器的設定檔。
     
@@ -328,7 +328,7 @@ Set-CcCredential -AccountType TenantAdmin
 
 6. 
     
-    在商務用 Skype Online PowerShell: 中執行下列 Cmdlet，以移除每個網站的網站註冊。
+    在商務用 Skype Online 中執行下列 Cmdlet，以移除每個網站的網站註冊 PowerShell:
     
    ```powershell
    Remove-CsHybridPSTNSite

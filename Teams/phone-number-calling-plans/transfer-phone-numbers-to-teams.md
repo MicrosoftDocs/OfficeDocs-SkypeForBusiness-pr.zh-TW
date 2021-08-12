@@ -19,21 +19,21 @@ localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用移轉精靈將您目前服務提供者的電話號碼移轉Microsoft Teams。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dfc3141eea8d16a86c0f37221e597feac3bb957e
-ms.sourcegitcommit: 6f7b91f573e2a034f8c5474be2c5cb2971f4b5ab
+ms.openlocfilehash: bb098a13b157a7f95e93ab693ad2a83530571316689803069c696eccfede3929
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "50421278"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336013"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>將電話號碼轉接到Microsoft Teams
 
-使用系統管理中心中的移轉Microsoft Teams精靈，將您目前服務提供者的電話號碼移轉Teams。 將電話號碼移植到 Teams之後，Microsoft 就會成為您的服務提供者，並且會針對這些電話號碼向您計費。
+使用系統管理中心Microsoft Teams移轉精靈，將您目前服務提供者的電話號碼移轉Teams。 將電話號碼移植到 Teams之後，Microsoft 會成為您的服務提供者，並且會針對這些電話號碼向您計費。
 
-在開始之前，建議您先查看什麼是埠 [訂單的資訊？](port-order-overview.md) 如果您有電話撥入式會議橋接器的服務號碼、自動語音電話或其他服務號碼、免付費電話號碼，或您需轉接至 Teams 的超過 999 個使用者 (訂閱者) 電話號碼，請參閱管理貴組織的電話號碼以下載正確的表單並傳送[](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)給我們。
+在您開始之前，建議您先查看什麼是埠 [訂單？](port-order-overview.md) 如果您有電話撥入式會議橋接器的服務號碼、自動語音電話或其他服務號碼、免付費電話號碼，或您需轉接至 Teams 的超過 999 個使用者 (訂閱者) 電話號碼，請參閱管理貴組織的電話號碼，以下載正確的表單並[](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)傳送給我們。
 
   > [!NOTE]
-  > 我們只會處理移轉電話號碼的移轉訂單，而不是在公共假日或週末。
+  > 我們只會處理移轉電話號碼的移轉訂單，而不是在公開假日或週末。
 
 ## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>建立移轉訂單，並傳送電話號碼至Teams
 
@@ -62,7 +62,7 @@ ms.locfileid: "50421278"
     - **要求詳細資料的人**  
         - 貴組織名稱和要求移轉人員之連絡人詳細資料。
     - **目前提供者詳細資料**
-        - **計費電話號碼 (BTN)**：您的 BTN 格式為 E.164，這需要 + 符號，以在號碼前。 例如，針對北美號碼，請使用 +1XXXYYZZZZ 格式。
+        - **計費電話號碼 (BTN)**：您的 BTN 格式為 E.164，這需要 + 符號，以在號碼前。 例如，針對北美號碼，請使用 +1XXXYYZZ 格式。
         - 其他詳細資料，包括您目前的服務提供者名稱、您的帳戶號碼和服務位址。
             
 5. 在 [**新增號碼」** 頁面上，按一下 [選取檔案，流覽至並選取包含要傳輸之電話號碼的 CSV 檔案，然後按一下 [下 **一步**。  
@@ -70,14 +70,14 @@ ms.locfileid: "50421278"
     > [!NOTE]
     > CSV 檔案必須只有一個標題為 PhoneNumber 的欄。 每個電話號碼必須位於另一列，而且只能是數位或 E.164 格式。
 
-6. 在 [**完成您的訂單Upload，** 按一下[授權書Upload，上傳已簽署授權書的掃描 (LOA) 。
+6. 在 [**完成您的訂單Upload，** 按一下[授權書Upload上傳已簽署授權書的掃描 (LOA) 。
 
     如果您尚未下載並簽署 LOA，請執行下列操作：
     
     1. 按一下 **[下載範本** 以下載您國家/地區或地區的 LOA。 
     2. 列印 LOA。
     3. 由有權變更帳戶的人員簽署 LOA。
-    4. 掃描已簽署的 LOA，然後按一下 **Upload授權書以** 上傳。
+    4. 掃描已簽署的 LOA，然後按一下 **[Upload授權** 書以上傳。
 
     > [!NOTE]
     > 上傳 LOA 之後，提交您的訂單。 只上傳 LOA 是不夠的。 您還必須提交訂單才能處理。

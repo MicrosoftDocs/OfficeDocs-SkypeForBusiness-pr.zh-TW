@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 每個 Survivable Branch 裝置 (SBA) 都會與前端集區相關聯，以充當 SBA 的備份註冊機。 當前端集區遷移至商務用 Skype Server 2019 時，SBA 必須在集區升級時解除與前端集區的關聯，一旦集區遷移至商務用 Skype Server 2019 後，SBA 就可以與升級的前端集區重新建立關聯。 這包括在拓撲產生器中從舊版拓撲刪除 SBA，然後將 SBA 新增至商務用 Skype Server 2019 拓撲。 位於舊版 SBA 的使用者必須先移至另一個前端集區，然後才能從拓撲中移除 SBA。 將 SBA 新增至商務用 Skype Server 2019 拓撲之後，就可以將這些使用者移回 SBA。 這些步驟的摘要如下：
-ms.openlocfilehash: e56bae1631a315b6f42042fb6a7bedd4f144a1b6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 每個 Survivable Branch 裝置 (SBA) 都會與前端集區相關聯，以充當 SBA 的備份註冊機。 當前端集區遷移至商務用 Skype Server 2019 時，在升級集區時，必須解除 SBA 與前端集區的關聯，將集區遷移至商務用 Skype Server 2019 後，即可將 SBA 重新與已升級的前端集區產生關聯。 這包括在拓撲產生器中從舊版拓撲刪除 SBA，然後將 SBA 新增至商務用 Skype Server 2019 拓撲。 位於舊版 SBA 的使用者必須先移至另一個前端集區，然後才能從拓撲中移除 SBA。 將 SBA 新增至商務用 Skype Server 2019 拓撲之後，就可以將這些使用者移回 SBA。 這些步驟的摘要如下：
+ms.openlocfilehash: 4977868c45b274adea514d84e251f682da02cc8ee486a5a182d984ee652f3ae2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113339"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54313871"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>連線 Survivable Branch Appliance
 
-每個 Survivable Branch 裝置 (SBA) 都與一部前端集區相關聯，以充當 SBA 的備份註冊機。 當前端集區遷移至商務用 Skype Server 2019 時，當集區升級時，SBA 必須與前端集區解除關聯。 將集區遷移至商務用 Skype Server 2019 之後，SBA 可以與已升級的前端集區重新產生關聯。 這包括在拓撲產生器中從舊版拓撲刪除 SBA，然後將 SBA 新增至商務用 Skype Server 2019 拓撲。 位於舊版 SBA 的使用者必須先移至另一個前端集區，然後才能從拓撲中移除 SBA。 將 SBA 新增至商務用 Skype Server 2019 拓撲之後，可以將這些使用者移回 SBA。 這些步驟的摘要如下：
+每個 Survivable Branch 裝置 (SBA) 都與一部前端集區相關聯，以充當 SBA 的備份註冊機。 當前端集區遷移至商務用 Skype Server 2019 時，當集區升級時，SBA 必須與前端集區解除關聯。 將集區遷移至商務用 Skype Server 2019 之後，SBA 可以與已升級的前端集區重新產生關聯。 這包括在拓撲產生器中從舊版拓撲刪除 SBA，然後將 SBA 新增至商務用 Skype Server 2019 拓撲。 位於舊版 SBA 的使用者必須先移至另一個前端集區，然後才能從拓撲中移除 SBA。 將 SBA 新增至商務用 Skype Server 2019 拓撲之後，這些使用者便可移回 SBA。 這些步驟的摘要如下：
   
 1. 將駐留在舊版 SBA 的分支使用者移至另一個前端集區。
     
@@ -40,7 +40,7 @@ ms.locfileid: "51113339"
     
 4.  (選用) 按一下 [ **描述**]，然後為分支網站輸入有意義的描述。
     
-5. 按 [下一步 **]**。
+5. 按一下 **[下一步]**。
     
 6.  (選用) 在下一個 [ **定義新的分支網站** ] 對話方塊中，執行下列其中一項： 
     
@@ -52,7 +52,7 @@ ms.locfileid: "51113339"
     
 7. 按 **[下一步]**，然後在此網站使用 Survivable 分支裝置或伺服器時，請務必清除 [ **當此嚮導關閉時開啟新的 Survivable 嚮導]** 核取方塊。 按一下 **[完成]**。
     
-8. 若要將舊版 SBA 與商務用 Skype Server 2019 前端集區產生關聯：
+8. 若要將舊版 SBA 關聯至商務用 Skype Server 2019 前端集區：
     
     1. 展開已經建立的分支網站。 
     

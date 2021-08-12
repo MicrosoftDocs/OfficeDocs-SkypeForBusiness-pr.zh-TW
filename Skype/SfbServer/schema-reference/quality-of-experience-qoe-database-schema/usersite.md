@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
-description: UserSite 表格是支援的表格。 每筆記錄代表網路設定設定中所定義的一個使用者網站。
-ms.openlocfilehash: 88df08875ea3254ee355a96aa3b12d3ee7f5ccaf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: UserSite 表格是一種支援資料表，其中的每一項記錄都代表網路組態設定中定義的一個使用者網站。
+ms.openlocfilehash: 01ab76218040d37176355d62768c6a8b8f4b7336d22ce7263c61ac9fc8c289ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49799913"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314329"
 ---
 # <a name="usersite-table"></a>UserSite 表格
  

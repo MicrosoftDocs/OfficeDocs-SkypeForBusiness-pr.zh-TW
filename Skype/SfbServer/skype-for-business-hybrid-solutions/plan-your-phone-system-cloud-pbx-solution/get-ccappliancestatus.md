@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ddd80580-59b2-46ba-a8d7-f31b20384ad1
-description: CcApplianceStatus Cmdlet 會供應商務用 Skype 雲端連接器 Edition 裝置的診斷資訊。
-ms.openlocfilehash: 65fc14301d85fd4826479eabcdf238b85dff54ab
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Get-CcApplianceStatus Cmdlet 會供應商務用 Skype Cloud Connector Edition 裝置的診斷資訊。
+ms.openlocfilehash: 5d40c6e4d1d6f18669fdc9fe54954fe8ace386daa1cf0d4d1fc7065e8dcd974f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800583"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54347578"
 ---
 # <a name="get-ccappliancestatus"></a>Get-CcApplianceStatus
  
-CcApplianceStatus Cmdlet 會供應商務用 Skype 雲端連接器 Edition 裝置的診斷資訊。
+Get-CcApplianceStatus Cmdlet 會供應商務用 Skype Cloud Connector Edition 裝置的診斷資訊。
   
-此 Cmdlet 適用于商務用 Skype 雲端連接器 Edition 2.1。
+此 Cmdlet 適用于商務用 Skype Cloud Connector Edition 2.1。
   
 ```
     Get-CcApplianceStatus 
@@ -32,7 +32,7 @@ CcApplianceStatus Cmdlet 會供應商務用 Skype 雲端連接器 Edition 裝置
 
 ## <a name="detailed-description"></a>詳細描述
 
-CcApplianceStatus Cmdlet 在雲端連接器主機電腦上執行時，會供應商務用 Skype 雲端連接器裝置的診斷資訊。
+Get-CcApplianceStatus Cmdlet 會在雲端連接器主機機上執行時，供應商務用 Skype 雲端連接器裝置的診斷資訊。
   
 ## <a name="parameters"></a>參數
 
@@ -40,7 +40,7 @@ CcApplianceStatus Cmdlet 在雲端連接器主機電腦上執行時，會供應�
   
 ## <a name="input-types"></a>輸入類型
 
-無。 CcApplianceStatus Cmdlet 不接受流水線輸入。
+無。 Get-CcApplianceStatus Cmdlet 不接受管線傳送的輸入。
   
 ## <a name="return-types"></a>傳回類型
 
