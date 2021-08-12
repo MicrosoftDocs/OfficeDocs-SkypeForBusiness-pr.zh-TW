@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以透過設定下列項目，來定義 IP 或公用交換電話網路 (PSTN) 的根主幹：
-ms.openlocfilehash: 183787e78fee0fa827bd3cc554fb7d43188014d2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dfd7287cff7c4ae941c5613f5dd031e277957aad83de877f5c2ec7fec0a5a72e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116411"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295430"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>定義新的 IP 或 PSTN 閘道的根主幹
 
@@ -38,8 +38,8 @@ ms.locfileid: "51116411"
 
 ## <a name="see-also"></a>另請參閱
 
-[在商務用 Skype Server 中設定含媒體旁路的主幹](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+[在商務用 Skype Server 中設定具有媒體旁路的主幹](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-[在商務用 Skype Server 中設定無媒體旁路的主幹](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+[在商務用 Skype Server 中設定不含媒體旁路的主幹](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
 [SIP 主幹支援](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunking-support)

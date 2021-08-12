@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 使用 Bookings 應用程式進行 Microsoft Teams 和虛擬會面
-ms.openlocfilehash: e65e0b8c4af7397ebe0b152d2f977b2bf8cbb667
-ms.sourcegitcommit: f0e5da6136656261567ffe0fa3f2fedd901209a8
-ms.translationtype: HT
+ms.openlocfilehash: 9d2c2fe9fd1852d030d512d95bf5c944b8b1e1ed119b97a2bac23569cbb83f69
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2021
-ms.locfileid: "51891260"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295200"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft Teams 和 Bookings 應用程式進行虛擬會面
 
@@ -53,7 +53,7 @@ Microsoft Teams 中的 Bookings 應用程式提供一種簡單的方式，可預
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>控制貴組織中 Bookings 的存取權
 
-有幾種方法可控制能存取 Bookings 應用程式及應用程式特定功能的人員。 如需了解如何在 Microsoft 365 系統管理中心開啟或關閉 Microsoft Bookings，以及如何建立 Bookings 應用程式原則以讓選取的使用者建立 Bookings 行事曆，請參閱[取得 Microsoft Bookings](https://support.microsoft.com/zh-TW/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)。 您也可以了解如何[建立 Teams 應用程式原則，以釘選特定使用者的 Bookings 應用程式](teams-app-setup-policies.md)。
+有幾種方法可控制能存取 Bookings 應用程式及應用程式特定功能的人員。 如需了解如何在 Microsoft 365 系統管理中心開啟或關閉 Microsoft Bookings，以及如何建立 Bookings 應用程式原則以讓選取的使用者建立 Bookings 行事曆，請參閱[取得 Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)。 您也可以了解如何[建立 Teams 應用程式原則，以釘選特定使用者的 Bookings 應用程式](teams-app-setup-policies.md)。
 
 ## <a name="recommended-meeting-policy-settings"></a>建議的會議原則設定
 

@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中匯出封存的資料
+title: 匯出商務用 Skype Server 中的封存資料
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,21 +11,21 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
-description: 摘要：瞭解如何匯出商務用 Skype 伺服器的封存資料。
-ms.openlocfilehash: e69c283304395d697e99ef0607e2aec1eb7960e4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：瞭解如何匯出商務用 Skype Server 的封存資料。
+ms.openlocfilehash: bb23861ea7615584de3ce6247f7281d94b5c60853767aaaa6ae495d3a6264dc7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311081"
 ---
-# <a name="export-archived-data-in-skype-for-business-server"></a>在商務用 Skype Server 中匯出封存的資料
+# <a name="export-archived-data-in-skype-for-business-server"></a>匯出商務用 Skype Server 中的封存資料
 
-**摘要：** 瞭解如何匯出商務用 Skype 伺服器的封存資料。
+**摘要：** 瞭解如何匯出商務用 Skype Server 的封存資料。
   
-封存資料庫中封存的資料無法以可讀取的格式進行搜尋，但是您可以使用 **Export-CsArchivingData** Cmdlet 從資料庫提取記錄，並將其儲存為 Outlook 電子郵件 (.eml) 檔案。
+封存資料庫中封存的資料無法以可讀取的格式進行搜尋，但是您可以使用 **Export-CsArchivingData** Cmdlet 從資料庫中解壓縮記錄，並將其儲存為 Outlook 的電子郵件 (.eml) 檔案。
   
-如果您啟用 Microsoft Exchange 整合，資料會封存在 Exchange 存放區中。 Exchange 中封存的資料是可搜尋且可探索的。 如需存取 Exchange 中已封存資料的詳細資訊，請參閱 Exchange 檔。
+如果您啟用 Microsoft Exchange 整合，資料會封存 Exchange 存放區中。 在 Exchange 中封存的資料可供搜尋和探索。 如需存取 Exchange 中封存之資料的詳細資訊，請參閱 Exchange 檔。
   
 ## <a name="exporting-archiving-data-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 匯出封存資料
 

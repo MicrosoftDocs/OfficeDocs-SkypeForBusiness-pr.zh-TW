@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何使用 API 管理貴Graph頻道。
-ms.openlocfilehash: 263c490156a3dc02ddc8f81233a049ff020c72f8
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 82a9f865099be4012456a1c3a854e08b79d15db432e965a60e32d44c36147b9c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278526"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350505"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>管理私人頻道在 Microsoft Teams
 
@@ -142,7 +142,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
 
 您可以透過您的 Explorer 嘗試Graph[命令](https://developer.microsoft.com/graph/graph-explorer)。
 
-1. 請使用下列專案，group_id是團隊的群組識別碼，channel_id &lt; &gt; 為頻道 &lt; &gt; 識別碼。
+1. 請使用下列專案，group_id是團隊的群組識別碼，channel_id &lt; &gt; &lt; &gt; 為頻道識別碼。
 
     **請求**
 
@@ -179,7 +179,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     }
     ```
 
-2. 使用下列專案將成員升級為擁有者，其中group_id 、channel_id 和 id 會從上一個 &lt; &gt; &lt; &gt; &lt; &gt; 通話中返回。 請注意，從前一個通話中返回的識別碼和 userId 並不相同， &lt; &gt; &lt; &gt; 無法交換。 請確定您用 &lt; 的是識別碼 &gt; 。
+2. 使用下列功能將成員升級為擁有者，其中group_id 、channel_id 和 id 會從上一個 &lt; &gt; &lt; &gt; &lt; &gt; 通話中返回。 請注意，從前一個通話中返回的識別碼和 userId 並不相同， &lt; &gt; &lt; &gt; 無法交換。 請確定您用 &lt; 的是識別碼 &gt; 。
 
     **請求**
 

@@ -15,16 +15,16 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 description: 瞭解如何手動將裝置Microsoft Teams 會議室到特定版本。
-ms.openlocfilehash: 3353758fa36534994336fc81e0a759c8b9f3c678
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2a37a6b1eb349d38d1579bf5c69822db8dac7dd0dd000e60bfdba034cdf62680
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117511"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350465"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>手動更新Microsoft Teams 會議室裝置
 
-此Microsoft Teams 會議室應用程式會透過 Microsoft Store。 應用程式更新會從應用程式Microsoft Store維護期間自動安裝;這是取得更新的建議方法。 不過，在某些情況下，Teams 會議室裝置無法從Microsoft Store。 例如，安全性原則可能不允許裝置連接到網際網路，或可能不允許應用程式從 Microsoft Store。 或者，您可能想要在執行設定之前先更新裝置，Microsoft Store安裝期間無法使用裝置。
+此Microsoft Teams 會議室應用程式會透過 Microsoft Store。 應用程式更新會從應用程式Microsoft Store維護期間自動安裝;這是取得更新的建議方法。 不過，在某些情況下，Teams 會議室裝置無法從Microsoft Store。 例如，安全性原則可能不允許裝置連接到網際網路，或可能不允許應用程式從 Microsoft Store。 或者，在執行設定之前，您可能想要先更新裝置，Microsoft Store無法執行設定。
 
 如果您無法從 Microsoft Store 取得更新，您可以使用離線應用程式更新 PowerShell 腳本，將 Teams 會議室 裝置手動更新至較新版本的 Teams 會議室 App。 請遵循本文中的步驟，手動更新您的Teams 會議室裝置。
 
@@ -44,7 +44,7 @@ ms.locfileid: "51117511"
 
 若要使用 PowerShell 解除封鎖腳本，請參閱 [解除封鎖-檔案](/powershell/module/microsoft.powershell.utility/unblock-file?view=powershell-7.1)。
 
-下載離線應用程式更新腳本之後，將檔案傳輸至Teams 會議室裝置。 您可以在裝置上的系統管理模式中，使用 USB 磁碟機或從網路檔案共用存取檔案，將檔案傳輸至裝置。 請務必記下檔案儲存在裝置上的位置。
+下載離線應用程式更新腳本之後，將檔案傳輸至Teams 會議室裝置。 您可以使用 USB 磁碟機，或在裝置上的系統管理模式中從網路檔案共用存取檔案，將檔案傳輸至裝置。 請務必記下檔案儲存在裝置上的位置。
 
 ## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>步驟 2：執行腳本以更新Teams 會議室應用程式
 

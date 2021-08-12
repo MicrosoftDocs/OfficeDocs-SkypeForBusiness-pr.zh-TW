@@ -15,23 +15,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 您可以刪除 [外部存取原則] 頁面的 [商務用 Skype Server 控制台] 中所列的任何網站或使用者原則。
-ms.openlocfilehash: 154fb4434e074a3585a817994cb6b919a2b755eef8d5a8e6a082cacad4e25aae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79858592b8ba7dbcee692807bba3d2a472a8579cbc843ddeb96c25c811cc6df7
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848678"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>刪除外部使用者存取的網站或使用者原則
 
-如果您已建立或設定不想再使用的外部使用者存取原則，則可以執行下列動作：
+如果您已建立或設定不再想要使用的外部使用者存取原則，您可以執行下列方法：
 
   - 刪除任何已建立的網站或使用者原則。
 
   - 將全域原則重設為預設設定。預設全域原則設定拒絕任何外部使用者存取。全域原則無法刪除。
 
 
-您可以刪除 [**外部存取原則**] 頁面的 [商務用 Skype Server 控制台] 中所列的任何網站或使用者原則。 刪除全域原則並不是實際加以刪除，只是將它重設為不支援任何外部使用者存取選項的預設設定。 如需重設全域原則的詳細資訊，請參閱 [重設外部使用者存取的全域原則](reset-the-global-policy-for-external-user-access.md)。
+您可以刪除 [**外部存取原則**] 頁面的 [商務用 Skype Server 控制台] 中所列的任何網站或使用者原則。 刪除全域原則並不會實際將其刪除，但只會將其重設為預設設定，但不包括對任何外部使用者存取選項的支援。 如需重設全域原則的詳細資訊，請參閱 [重設外部使用者存取的全域原則](reset-the-global-policy-for-external-user-access.md)。
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>刪除外部使用者存取的網站或使用者原則
@@ -54,23 +54,17 @@ ms.locfileid: "54309252"
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>移除特定的外部存取原則
 
-  - 此命令會移除套用至 Redmond 網站的外部存取原則：
-    
-        Remove-CsExternalAccessPolicy -Identity "site:Redmond"
+  - 此命令會移除套用至 Redmond 網站的外部存取原則：<br/><br/>Remove-CsExternalAccessPolicy 身分識別 "site： Redmond"
 
 
 ## <a name="to-remove-all-the-external-access-policies-applied-to-the-per-user-scope"></a>移除所有套用至個別使用者範圍的外部存取原則
 
-  - 此命令會移除在個別使用者範圍內設定的外部存取原則：
-    
-        Get-CsExternalAccessPolicy -Filter "tag:*" | Remove-CsExternalAccessPolicy
+  - 此命令會移除在個別使用者範圍內設定的外部存取原則：<br/><br/>Get-CsExternalAccessPolicy-Filter "tag： *" |Remove-CsExternalAccessPolicy
 
 
 ## <a name="to-remove-all-the-external-access-policies-where-outside-user-access-is-disabled"></a>移除已停用外部使用者存取的所有外部存取原則
 
-  - 此命令會刪除已停用外部使用者存取的所有外部存取原則：
-    
-        Get-CsExternalAccessPolicy | Where-Object {$_.EnableOutsideAccess -eq $False} | Remove-CsExternalAccessPolicy
+  - 此命令會刪除已停用外部使用者存取的所有外部存取原則：<br/><br/>Get-CsExternalAccessPolicy |Where-Object {$ _。EnableOutsideAccess-eq $False} |Remove-CsExternalAccessPolicy
 
 
 如需詳細資訊，請參閱 [get-csexternalaccesspolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) Cmdlet 的 [說明] 主題。

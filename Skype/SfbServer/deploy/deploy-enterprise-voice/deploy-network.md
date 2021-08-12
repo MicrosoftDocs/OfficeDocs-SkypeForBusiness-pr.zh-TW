@@ -15,35 +15,35 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
-description: 在商務用 Skype Server 中建立或修改網路地區、網路網站及建立網路子網。 所有這些皆用於高級 Enterprise Voice 功能：媒體旁路、通話許可控制和位置基礎路由。
-ms.openlocfilehash: adfcf418fd2b1ef607947687afb766fee6b64715
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在商務用 Skype Server 中建立或修改網路地區、網路網站和關聯網路子網。 所有這些都是用於高級企業語音功能：媒體旁路、通話許可控制和位置基礎路由。
+ms.openlocfilehash: e031936fe8f8411f5527812326b751da59c2a05f77b7162a40901588bbc6138e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103519"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320885"
 ---
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>在商務用 Skype 中部署網路地區、網站和子網
 
-在商務用 Skype Server 中建立或修改網路地區、網路網站及建立網路子網。 所有這些皆用於高級 Enterprise Voice 功能：媒體旁路、通話許可控制和位置基礎路由。
+在商務用 Skype Server 中建立或修改網路地區、網路網站和關聯網路子網。 所有這些都是用於高級企業語音功能：媒體旁路、通話許可控制和位置基礎路由。
 
-「高級 Enterprise Voice」功能是 [通話許可控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、 [媒體旁路](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、 [位置基礎路由](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)和 [E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)。 這些功能全部都需要您建立網路地區、網路網站和子網。 例如，所有這些功能都要求拓撲中的每個子網都與特定網路網站相關聯，而且每個網路網站都必須與網路地區產生關聯。 如需這些字詞的詳細資訊，請參閱 [商務用 Skype Server 中的高級 Enterprise Voice 功能網路設定](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)。
+「高級企業語音」功能是[通話許可控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)、[媒體旁路](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)、[位置基礎路由](../../plan-your-deployment/enterprise-voice-solution/location-based-routing.md)和[E9-1-1](../../plan-your-deployment/enterprise-voice-solution/emergency-services.md)。 這些功能全部都需要您建立網路地區、網路網站和子網。 例如，所有這些功能都要求拓撲中的每個子網都與特定網路網站相關聯，而且每個網路網站都必須與網路地區產生關聯。 如需這些術語的詳細資訊，請參閱[商務用 Skype Server 中的「高級企業語音功能的網路設定](../../plan-your-deployment/enterprise-voice-solution/network-settings-for-advanced-features.md)。
 
 通話許可控制及 E9-1-1 具有其他的網站設定需求：
 
-- 通話許可控制需要指定透過 WAN 頻寬限制所限制之每個網站的「頻寬原則設定檔」。 如果您打算部署通話許可控制，您必須先 [在商務用 Skype Server 中建立頻寬原則設定檔](create-bandwidth-policy-profiles.md) ，再設定網路網站。
+- 通話許可控制需要指定透過 WAN 頻寬限制所限制之每個網站的「頻寬原則設定檔」。 如果您打算部署通話許可控制，您必須先[在商務用 Skype Server 中建立頻寬原則設定檔](create-bandwidth-policy-profiles.md)，再設定網路網站。
 
-- E9-1-1 需要指定每個網站的「位置原則」。 如果您打算部署 E9-1-1，您必須先 [在商務用 Skype Server 中建立位置原則](create-location-policies.md) ，再設定網路網站。
+- E9-1-1 需要指定每個網站的「位置原則」。 如果您打算部署 E9-1-1，您必須先[在商務用 Skype Server 中建立位置原則](create-location-policies.md)，然後才能設定網路網站。
 
 ## <a name="create-or-modify-a-network-region"></a>建立或修改網路地區
 
-如果您已經為這些功能之一建立網路地區，則不需要建立新的網路地區;其他的高級 Enterprise Voice 功能會使用相同的網路地區。
+如果您已經為這些功能之一建立網路地區，則不需要建立新的網路地區;其他的「高級企業語音功能會使用相同的網路地區。
 
 不過，您必須修改現有的網路區域定義，以套用功能特定的設定。 例如，您已為 E9-1-1 (其不需要相關的中央網站) 建立網路區域，而您接著要部署通話許可控制，您便必須修改網路區域定義來指定中央網站。
 
 ### <a name="to-create-a-network-region-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面建立網路地區
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
 
 2. 執行 New-CsNetworkRegion Cmdlet 來建立網路地區：
 
@@ -63,7 +63,7 @@ ms.locfileid: "51103519"
 
 ### <a name="to-create-a-network-region-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台建立網路地區
 
-1. 開啟商務用 Skype Server 控制台。
+1. 開啟商務用 Skype Server 控制台]。
 
 2. 在左導覽列中，按一下 **[網路組態]**。
 
@@ -81,9 +81,9 @@ ms.locfileid: "51103519"
 
 9. 若要完成建立拓撲的網路地區，請使用其他地區的設定重複步驟4到8。
 
-### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來修改網路地區
+### <a name="to-modify-a-network-region-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面修改網路地區
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
 
 2. 執行 Set-CsNetworkRegion Cmdlet 以修改現有的網路地區：
 
@@ -103,7 +103,7 @@ ms.locfileid: "51103519"
 
 ### <a name="to-modify-a-network-region-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台修改網路地區
 
-1. 開啟商務用 Skype Server 控制台。
+1. 開啟商務用 Skype Server 控制台]。
 
 2. 在左導覽列中，按一下 **[網路組態]**。
 
@@ -121,11 +121,11 @@ ms.locfileid: "51103519"
 
 ## <a name="create-or-modify-a-network-site"></a>建立或修改網路網站
 
-如果您已建立這些功能的網站，則不需要建立新的網路網站;其他的「高級 Enterprise 語音功能」會使用相同的網路網站。 不過，您可能需要修改現有網站定義，以便套用特定的功能設定。 例如，如果已為 E9-1-1 建立了網站，在部署通話許可控制期間需要修改網站，以便套用頻寬原則設定檔。
+如果您已建立這些功能的網站，則不需要建立新的網路網站;其他的高級企業語音功能會使用相同的網路網站。 不過，您可能需要修改現有網站定義，以便套用特定的功能設定。 例如，如果已為 E9-1-1 建立了網站，在部署通話許可控制期間需要修改網站，以便套用頻寬原則設定檔。
 
 ### <a name="to-create-a-network-site-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面建立網路網站
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
 
 2. 執行 New-CsNetworkSite Cmdlet 建立網站：
 
@@ -148,7 +148,7 @@ ms.locfileid: "51103519"
 
 ### <a name="to-create-a-network-site-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台建立網路網站
 
-1. 開啟商務用 Skype Server 控制台。
+1. 開啟商務用 Skype Server 控制台]。
 
 2. 在左導覽列中，按一下 **[網路組態]**。
 
@@ -178,7 +178,7 @@ ms.locfileid: "51103519"
 
 ### <a name="to-modify-a-network-site-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來修改網路網站
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
 
 2. 執行 Set-CsNetworkSite Cmdlet 以修改網站：
 
@@ -201,7 +201,7 @@ ms.locfileid: "51103519"
 
 ### <a name="to-modify-a-network-site-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台修改網路網站
 
-1. 開啟商務用 Skype Server 控制台。
+1. 開啟商務用 Skype Server 控制台]。
 
 2. 在左導覽列中，按一下 **[網路組態]**。
 
@@ -220,13 +220,13 @@ ms.locfileid: "51103519"
 ## <a name="associate-a-subnet-with-a-network-site"></a>建立子網與網路網站的關聯
 <a name="BKMK_AssociateSubnets"> </a>
 
-您網路中的每個子網都必須與特定網路網站產生關聯，因為子網資訊是用來決定端點所在的網路網站，而啟動新的會話時。 在會話中每一方的位置已知時，「高級 Enterprise 語音功能」可以套用該資訊，決定如何處理通話設定或路由傳送。
+您網路中的每個子網都必須與特定網路網站產生關聯，因為子網資訊是用來決定端點所在的網路網站，而啟動新的會話時。 在會話中每一方的位置已知時，「高級企業語音功能會套用該資訊，以決定如何處理通話設定或路由傳送。
 
 您部署中 Audio/Video Edge Server 的所有已設定公用 IP 位址，都必須新增至您的網路設定。 這兩個 IP 位址會新增為遮罩為32的子網。 相關聯的網路網站應該對應至適當設定的網站。 例如，與中央網站芝加哥的 A/V Edge service 對應的公用 IP 位址，將會 NetworkSiteID 芝加哥。
 
 ### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面建立子網與網路網站的關聯
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
 
 2. 執行 **New-CsNetworkSubnet** Cmdlet 以將子網與網路網站產生關聯：
 
@@ -258,7 +258,7 @@ ms.locfileid: "51103519"
 
      `172.11.15.0, 31, "EMEA:Subnet in Paris", Paris`
 
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
 
 3. 執行下列 Cmdlet 以匯入 **subnet.csv**，然後將其內容儲存在 Lync Server management store 中：
 
@@ -268,7 +268,7 @@ ms.locfileid: "51103519"
 
 ### <a name="to-associate-a-subnet-with-a-network-site-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台建立子網與網路網站的關聯
 
-1. 開啟商務用 Skype Server 控制台。
+1. 開啟商務用 Skype Server 控制台]。
 
 2. 在左導覽列中，按一下 **[網路組態]**。
 

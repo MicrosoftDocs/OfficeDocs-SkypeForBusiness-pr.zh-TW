@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: 使用 [選取服務] 對話方塊，尋找您環境中可用的服務。 若要使用現有的服務，請按一下清單中的服務，然後按一下 [確定]。
-ms.openlocfilehash: 06ee0217a8a495a881c9925c57e33311e4944607
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3f3576594714701d52d192fee88dc983bee91d92b81559b4b8efd0d0a790bb6f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108039"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311142"
 ---
 # <a name="select-a-service"></a>選取服務
 
 使用 [ **選取服務** ] 對話方塊，尋找您環境中可用的服務。 若要使用現有的服務，請按一下清單中的服務，然後按一下 **[確定]**。
 
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
@@ -38,7 +38,7 @@ ms.locfileid: "51108039"
 
 - [以全域方式設定或針對常設聊天室伺服器集區設定常設聊天室伺服器選項](/previous-versions/office/lync-server-2013/lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool)
 
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>設定聊天室的類別
 

@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: a65cd80311aaf1d13d5d9471ff285b94545176d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 如何在商務用 Skype Server 中啟用和停用匿名使用者存取。
+ms.openlocfilehash: c06135c0678309c527ec4bda341c17de2d643ce4d6b947077a3a2d02d71dea55
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848698"
 ---
-# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用或停用匿名使用者存取
+# <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>啟用或停用商務用 Skype Server 中的匿名使用者存取
 
 匿名使用者是指沒有組織的 Active Directory 網域服務或支援的同盟網域中的使用者帳戶的使用者，但可邀請他們在內部部署會議中遠端參與。 透過允許匿名參與會議，您可以啟用匿名使用者 (也就是說，其身分識別透過會議或會議金鑰驗證的使用者，只) 加入會議。 允許匿名參與必須為您的組織啟用它。
 
@@ -35,7 +35,7 @@ ms.locfileid: "51119382"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [ **外部使用者存取**]，然後按一下 [ **Access Edge** 設定]。
 
@@ -52,21 +52,17 @@ ms.locfileid: "51119382"
 
 ## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 來啟用或停用匿名使用者存取
 
-您可以使用 Windows PowerShell 和 **Set-CsAccessEdgeConfiguration** Cmdlet 來管理匿名使用者存取。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 
+您可以使用 Windows PowerShell 和 **Set-CsAccessEdgeConfiguration** Cmdlet 來管理匿名使用者存取。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此指令程式。 
 
 ## <a name="to-enable-anonymous-user-access"></a>啟用匿名使用者存取
 
-  - 若要啟用匿名使用者存取，請將 **AllowAnonymousUsers** 屬性的值設為 True ($True) ：
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
+  - 若要啟用匿名使用者存取，請將 **AllowAnonymousUsers** 屬性的值設為 True ($True) ：<br/><br/>Set-CsAccessEdgeConfiguration-AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>停用匿名使用者存取
 
-  - 若要停用匿名使用者存取，請將 **AllowAnonymousUsers** 屬性值設為 False ($False) ：
-    
-        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
+  - 若要停用匿名使用者存取，請將 **AllowAnonymousUsers** 屬性值設為 False ($False) ：<br/><br/>Set-CsAccessEdgeConfiguration-AllowAnonymousUsers $False
 
 
 ## <a name="see-also"></a>另請參閱
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  

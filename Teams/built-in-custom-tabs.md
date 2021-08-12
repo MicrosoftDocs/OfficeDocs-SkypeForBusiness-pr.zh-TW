@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 瞭解如何使用內建和自訂的定位停駐點來包含交談、檔案、地圖等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f98024b10cf6fc191e9225a447903ff6dc25d6ff
-ms.sourcegitcommit: 3db7c450d3afbc1049e1016d51016442e5764634
+ms.openlocfilehash: f78d4950f6c85910bb5b6c155c63a1048d73022d00ea9447fff3521c3b617fd6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "48203716"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295230"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>使用內建和自訂的Microsoft Teams
 ==================================================
@@ -60,6 +60,6 @@ ms.locfileid: "48203716"
 
 除了內建的定位停駐點之外，您還可以設計及開發自己的定位停駐點，Teams與社群其他人共用。 如需詳細資訊，請參閱我們的[開發人員文件](/microsoftteams/platform/tabs/what-are-tabs)。
 
-![螢幕擷取畫面顯示範例自訂Microsoft Teams。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
+![螢幕擷取畫面顯示其中一個範例自訂Microsoft Teams。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 
 ---

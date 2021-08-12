@@ -12,17 +12,17 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
-description: 摘要：瞭解使用者服務中的「取得使用者」作業。 使用者服務屬於「呼叫品質」儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
-ms.openlocfilehash: dd2bb5e46ddbe3e65faf441a11e39cbc5429e473
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解使用者服務中的「取得使用者」作業。 使用者服務屬於「呼叫品質」儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
+ms.openlocfilehash: bb99ec52cb270bdef51eac65070c1f5204bb03b93c81dd46d31f86a2ffc3b836
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311041"
 ---
 # <a name="get-user"></a>取得使用者
  
-**摘要：** 深入瞭解 User Service 的「取得使用者」作業。 使用者服務屬於「呼叫品質」儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
+**摘要：** 深入瞭解 User Service 的「取得使用者」作業。 使用者服務屬於「呼叫品質」儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
   
 「取得使用者」作業是「用於通話品質」儀表板之存放庫 API 中使用者服務的一部分。
   

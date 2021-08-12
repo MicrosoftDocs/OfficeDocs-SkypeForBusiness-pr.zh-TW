@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bae221b50ef3a033271b5532f780f95f56a44a24
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5464e84526e466bdfaa643e912ecf90ccc252b2070fcffc810374dc6f03b52bb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101269"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295170"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的會議和召集會議
 
@@ -228,4 +228,4 @@ Teams 有兩種方式可供您監視和疑難排解通話品質問題：[通話�
 - 在您的組織中推動會議和召集會議的[採用](adopt-microsoft-teams-landing-page.md)。
 - [新增音訊會議](deploy-audio-conferencing-teams-landing-page.md)
 - [推出雲端語音](cloud-voice-landing-page.md)
-- 在您的 Teams 初始推出中包含精選應用程式，例如 Planner。 在開始推動 Teams 的採用時，則新增其他[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
+- 在您的 Teams 初始推出中請包括精選應用程式，例如 Planner。在開始推動 Teams 的採用時，請新增其他[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。

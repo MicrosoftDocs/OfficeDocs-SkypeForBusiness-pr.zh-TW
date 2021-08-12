@@ -16,24 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 摘要：瞭解如何在商務用 Skype Server 中定義、建立及修改正常化規則。
-ms.openlocfilehash: 3550e27884d125f065c4688fec2ace797f9e8ce2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e491c58951be9c5341927a4edc949f7d119145533d77b9f2cb65d9e6a1a3cc4f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103389"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320845"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>在商務用 Skype 中建立或修改正規化規則
 
 **摘要：** 瞭解如何在商務用 Skype Server 中定義、建立及修改正規化規則。
 
-在商務用 Skype Server 中定義、建立及修改正規化規則。
+在商務用 Skype Server 中定義、建立及修改正常化規則。
 
 ### <a name="to-define-a-normalization-rule-by-using-build-a-normalization-rule"></a>使用組建正常化規則定義正規化規則
 
 1. 開啟商務用 Skype Server 控制台
 
-2.  (選用) 請遵循下列步驟，以在 [商務用 Skype Server 中建立或修改撥號對應表中](dial-plans.md) 的步驟11或修改透過步驟 10 [的撥號](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan) 對應表。
+2.  (選用) 依照步驟11中[建立或修改撥號](dial-plans.md)對應表商務用 Skype Server 中的步驟，或透過步驟 10[修改撥號](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)對應表中的步驟。
 
 3. 在 [ **新增正規化規則** ] 或 [編輯正規化 **規則**] 中，輸入描述 [ **名稱** ] 中正規化的號碼模式的名稱 (例如，5DigitExtension) 。
 
@@ -51,7 +51,7 @@ ms.locfileid: "51103389"
 
      您在這些欄位中輸入的值會反映在模式中， **以符合** 和 **轉譯規則**。 例如，如果您保留空白的 **開始位數** ，請 type7 至 [ **長度** ] 欄位並選取 [ **完全**]，並指定 **要移除的位數** 為0， **模式** 中所產生的正則運算式會比對：
 
-     ^ ( \d {7}) $
+     ^(\d{7})$
 
 6. 在 [ **轉譯規則**] 中，指定轉譯的 e.164 電話號碼格式的模式，如下所示：
 
@@ -75,13 +75,13 @@ ms.locfileid: "51103389"
 11. 在 [ **撥號** 對應表] 頁面上，按一下 [ **認可**]，然後按一下 [ **全部認可**]。
 
     > [!NOTE]
-    > 當您建立或變更正規化規則時，您必須執行 [ **全部認可** ] 命令來發佈設定變更。 如需詳細資訊，請參閱 Operations 檔中的在 [商務用 Skype 中發佈待定的變更至語音路由](voice-route-config-changes.md) 設定。
+    > 當您建立或變更正規化規則時，您必須執行 [ **全部認可** ] 命令來發佈設定變更。 如需詳細資訊，請參閱操作檔中的[商務用 Skype 發佈擱置變更至語音路由](voice-route-config-changes.md)設定。
 
 ### <a name="to-define-a-normalization-rule-manually"></a>手動定義正常化規則
 
 1. 開啟商務用 Skype Server 控制台
 
-2.  (選用) 依照在商務用 [Skype Server 中建立或修改撥號對應](dial-plans.md)表中的步驟進行。
+2.  (選用) 依照在商務用 Skype Server 中[建立或修改撥號](dial-plans.md)對應表中的步驟進行。
 
 3. 在 [ **新增正常化規則** ] 或 [ **編輯正規化規則**] 中，輸入描述 [ **名稱** ] 中正規化的號碼模式的名稱 (例如，將正規化 rule5DigitExtension) 命名為 name。
 
@@ -108,4 +108,4 @@ ms.locfileid: "51103389"
 11. 在 [ **撥號** 對應表] 頁面上，按一下 [ **認可**]，然後按一下 [ **全部認可**]。
 
     > [!NOTE]
-    > 當您建立或變更正規化規則時，您必須執行 [ **全部認可** ] 命令來發佈設定變更。 如需詳細資訊，請參閱 Operations 檔中的在 [商務用 Skype 中發佈待定的變更至語音路由](voice-route-config-changes.md) 設定。
+    > 當您建立或變更正規化規則時，您必須執行 [ **全部認可** ] 命令來發佈設定變更。 如需詳細資訊，請參閱操作檔中的[商務用 Skype 發佈擱置變更至語音路由](voice-route-config-changes.md)設定。

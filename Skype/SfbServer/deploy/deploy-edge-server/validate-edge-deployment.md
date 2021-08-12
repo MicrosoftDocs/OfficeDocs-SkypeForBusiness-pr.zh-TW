@@ -14,23 +14,23 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
-description: 摘要：瞭解如何驗證 Edge server 或 Edge Server 集區的部署在商務用 Skype Server 中是否正常運作。
-ms.openlocfilehash: 1da2bed1bc9df7cb118d47c2b27e190546838e1b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解如何驗證 Edge server 或 edge server 集區的部署在商務用 Skype Server 中是否正常運作。
+ms.openlocfilehash: b2d44018bc43f8335081bcfc961108255240095031983066d54463dabc2538ee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804353"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320925"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>在商務用 Skype Server 中驗證 Edge 部署
  
-**摘要：** 瞭解如何驗證 Edge server 或 Edge Server 集區的部署在商務用 Skype Server 中是否正常運作。
+**摘要：** 瞭解如何驗證 Edge server 或 edge server 集區的部署在商務用 Skype Server 中是否正常運作。
   
-部署 Edge Server 或 Edge Server 集區之後，您必須知道其是否運作正常。 以下是一些可協助您確認 Edge 環境連線至內部伺服器的專案，此外，您的外部使用者還是可以透過 Edge 連線到商務用 Skype Server 環境。
+部署 Edge Server 或 Edge Server 集區之後，您必須知道其是否運作正常。 以下是一些可協助您確認 Edge 環境連線至內部伺服器的一些事項，此外，您的外部使用者還是可以透過 Edge 連接至您的商務用 Skype Server 環境。
   
 ## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>驗證內部伺服器和 Edge server 之間的連線能力
 
-在安裝 Edge Server 時，會自動在 Edge Server 或 Edge Server 集區中進行連線驗證，但您仍然可以使用 Windows PowerShell 加以確認。 在具有中央管理存放區的內部伺服器上，或在已安裝 ( # A0) 之商務用 Skype Server 核心元件的任何已加入網域的電腦上執行 Get-CsManagementStoreReplicationStatus Cmdlet。
+在安裝 Edge Server 時，會自動在 Edge Server 或 Edge Server 集區中進行連線驗證，但您仍然可以使用 Windows PowerShell 對此進行確認。 在具有中央管理存放區的內部伺服器上，或在已安裝商務用 Skype Server 核心元件 (OcsCore.msi) 的任何已加入網域的電腦上執行 Get-CsManagementStoreReplicationStatus Cmdlet。
   
 執行這個命令的初始結果可能會提供錯誤狀態，而非 True 用於複寫。 如果發生這種情況，請執行 Invoke-CsManagementStoreReplication Cmdlet。 請提供一些時間來完成複寫，然後再次執行 Get-CsManagementStoreReplicationStatus Cmdlet。
   
@@ -46,7 +46,7 @@ ms.locfileid: "49804353"
     
 - 匿名使用者。
     
-- 組織中遠端登入商務用 Skype 的使用者，但不會使用 VPN。
+- 組織中從遠端登入商務用 Skype 但不會使用 VPN 的使用者。
     
 這些測試會判斷您的 Edge Server 是否為：
   

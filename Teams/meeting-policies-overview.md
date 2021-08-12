@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
-description: 瞭解如何在會議中管理會議Teams，並使用這些設定來控制提供給會議參與者的功能，供使用者排程的會議使用。
-ms.openlocfilehash: d9f403625225711cb21245ca01262d3c0140063f
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+description: 瞭解如何管理會議中的會議Teams，並使用這些設定來控制提供給會議參與者的功能，供使用者排程的會議使用。
+ms.openlocfilehash: 0b8a7c04140249b2017872857cdcb2b0daa178bf6d70a14cf20133197a1bce8e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598708"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350675"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在 Teams 中管理會議原則
 
@@ -43,7 +43,7 @@ ms.locfileid: "51598708"
 
 |實作類型  |描述  |
 |---------|---------|
-|每一召集人    |當您實作每一召集人原則時，所有會議參與者都會繼承召集人的原則。 例如， **自動** 准許人員是每個召集人的政策，並控制使用者是直接加入會議，還是等候在大廳等候指派該政策的使用者排程的會議。          |
+|每一召集人    |當您實作每一召集人原則時，所有會議參與者都會繼承召集人的原則。 例如， **自動** 准許人員是每個召集人的政策，並控制使用者是否直接加入會議，或是在大廳等候指派該政策的使用者排程的會議。          |
 |每一使用者    |當您實作每一使用者原則時，僅會套用每一使用者原則，以限制召集人和/或會議參與者的某些功能。 例如，[允許在頻道中立即開會 **]** 是每一使用者原則。     |
 |每一召集人和每一使用者     |當您實作每一召集人和每一使用者的原則組合時，系統會根據參與者的原則和召集人的原則，限制會議參與者的某些功能。 例如，**允許雲端錄製** 是每一召集人和每一使用者原則。 開啟此設定，讓會議召集人和參與者開始和停止錄製。
 
@@ -96,7 +96,7 @@ ms.locfileid: "51598708"
 
 ## <a name="meeting-policy-settings"></a>會議原則設定
 
-當您在會議政策頁面上選取現有策略或選取新增以新增策略時，您可以設定下列設定。
+當您在會議政策頁面上選取現有的策略或 **選取新增以** 新增策略時，您可以設定下列設定。
 
 - [一般](meeting-policies-in-teams-general.md)
 - [音訊與視訊](meeting-policies-audio-and-video.md)

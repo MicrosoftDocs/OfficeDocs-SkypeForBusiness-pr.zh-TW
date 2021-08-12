@@ -22,14 +22,14 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中傳送包含其音訊會議資訊Microsoft Teams。
-ms.openlocfilehash: 13c566884c5bc3e8d5de873696541c4b88fcb271
-ms.sourcegitcommit: 8c2093f7a048a9a56b36e4a3b4c48ae1206c52f6
+ms.openlocfilehash: 58524f6a6f4fe8ad8aefb559ae4f9748ffbf506394cf0bf446aa38ae9740d608
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "53004195"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350475"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>將電子郵件傳送給使用者，並將他們的音訊會議資訊傳送Microsoft Teams
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>將電子郵件傳送給使用者，並將他們的音訊會議資訊Microsoft Teams
 
 有時候Microsoft Teams使用者可能需要您傳送音訊會議資訊給他們。 您可以按一下使用者屬性下的透過 **電子郵件** 傳送會議資訊，以執行此操作。 當您傳送此電子郵件時，它會包含所有音訊會議資訊，包括：
   

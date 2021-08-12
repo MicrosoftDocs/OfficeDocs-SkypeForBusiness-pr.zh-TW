@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
 description: UriTypes 表格包含在商務用 Skype Server 2015 中監控的不同 URI (統一資源識別項) 類型。
-ms.openlocfilehash: 622384086dbd1031633b70758cdcea600ad31d43
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1e98bc879e7ddb6e2ca92d4f226284e604d22d312f9e2db8c0ff80cad89c33e5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831683"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295360"
 ---
 # <a name="uritypes-table"></a>UriTypes 表格
  

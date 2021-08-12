@@ -20,17 +20,17 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在波蘭取得及管理波蘭電話號碼Microsoft Teams。
-ms.openlocfilehash: b49ea2281d507f7b7559f95f6f3c7ade9bb45d1fe65b1a013be997a3ab322e08
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f4ed3f403c57b9a66d5febc6c46bff9b6379d3371986cfacaba309cfba244d82
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848528"
 ---
 # <a name="phone-number-management-for-poland"></a>電話波蘭的號碼管理
 
 > [!IMPORTANT]
-> 我們目前面對波蘭在完成新電話號碼訂單和移動訂單時，發生意外的延遲。 您可以繼續下單，但請注意，我們預期此延遲將于 9 月解決，屆時所有掛單都會完成。
+> 我們在波蘭目前面臨無法預期的延遲，無法完成新的電話號碼訂單和移動訂單。 您可以繼續下單，但請注意，我們預期此延遲將于 9 月解決，屆時所有掛單都會完成。
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
@@ -40,11 +40,11 @@ ms.locfileid: "54329118"
   
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。  |在波蘭，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並連上 PTSN 以索取指示，以提交 [新的電話號碼要求](contact-pstn-service-desk.md)。<br/><br/>[波蘭的新電話號碼要求 (v.1.0)  (pl-pl) 。](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf) <br/><br/> 在指派電話號碼之前，您必須下載認識客戶表單、完整填寫，並連連 [PTSN 以尋找指示](contact-pstn-service-desk.md)。<br/><br/>電話數位會以 10 個區塊排序。 客戶只會針對已訂閱的通話方案授權付費。<br/><br/>新訂單可能需要四到六周的時間才能填入這個市場。 |
-|將電話號碼轉接給我們。| 下載此表單。 <br/>[波蘭的 (LOA) 授權書 (所有號碼)  (v.1.0)  (pl-pl) ](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>填寫並連連 [PTSN 以尋找指示](contact-pstn-service-desk.md)。 <br/><br/>在這個市場中，移轉數位可能需要四到六周才能完成。 <br/><br/> 這些號碼目前無法用於會議。    |
-|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需指示，請連連 PTSN，](contact-pstn-service-desk.md) 瞭解您想要發佈/取消發佈的電話號碼清單。 <br/> |
-|將使用者的號碼變更為服務號碼。  <br/> |如需要轉換成服務號碼之使用者號碼清單的指示，請連連[PTSN。](contact-pstn-service-desk.md) <br/> |
-|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請 [連至 PSTN 服務台](contact-pstn-service-desk.md)。 |
+|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。  |在波蘭，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並連至 [PTSN](contact-pstn-service-desk.md)服務台以索取指示，以提交新的電話號碼要求。<br/><br/>[波蘭的新電話號碼要求 (v.1.0)  (pl-pl) 。](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf) <br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單、完整填寫，並連至 [PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。<br/><br/>電話數位會以 10 個區塊排序。 客戶只會針對已訂閱的通話方案授權付費。<br/><br/>新訂單可能需要四到六周的時間才能填入這個市場。 |
+|將電話號碼轉接給我們。| 下載此表單。 <br/>[授權書 (波蘭) LOA (所有號碼)  (v.1.0)  (pl-pl) ](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 <br/><br/>在這個市場中，移轉數位可能需要四到六周才能完成。 <br/><br/> 這些號碼目前無法用於會議。    |
+|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[請連連 PTSN 服務台](contact-pstn-service-desk.md) ，以尋找您想要發佈/取消發佈的電話號碼清單。 <br/> |
+|將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-pstn-service-desk.md) 服務號碼的使用者號碼清單的指示，請連連 PTSN 服務台。 <br/> |
+|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請連連 [PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 |
 
    
 ## <a name="related-topics"></a>相關主題

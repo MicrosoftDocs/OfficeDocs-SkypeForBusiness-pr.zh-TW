@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
-description: 從 Microsoft Office 通訊伺服器 2007 R2 遷移至 Lync Server 2013 使用拓撲產生器的功能來合併現有的拓撲。 [摘要] 畫面會指定在將 Office 通訊伺服器 2007 R2 合併至 Lync Server 2013 拓撲產生器設定期間，您所進行的所有動作和選取專案。
-ms.openlocfilehash: 4505a90a82c7ea4fefe6245700554b663d4b11ee
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 從 Microsoft Office 通訊伺服器 2007 R2 遷移至 Lync Server 2013 使用拓撲產生器的功能來合併現有的拓撲。 [摘要] 畫面會指定您在設定 Office 通訊伺服器 2007 R2 合併至 Lync Server 2013 拓撲產生器設定期間所做的所有動作和選取。
+ms.openlocfilehash: 5ced1007dc8653146858a22ef5cb1a20b55d6d503217af988f6404ed8ca1b974
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106789"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311111"
 ---
 # <a name="legacy-merge-summary-page"></a>舊版合併摘要頁面
 
-從 Microsoft Office 通訊伺服器 2007 R2 遷移至 Lync Server 2013 使用拓撲產生器的功能來合併現有的拓撲。 [摘要] 畫面會指定在將 Office 通訊伺服器 2007 R2 合併至 Lync Server 2013 拓撲產生器設定期間，您所進行的所有動作和選取專案。
+從 Microsoft Office 通訊伺服器 2007 R2 遷移至 Lync Server 2013 使用拓撲產生器的功能來合併現有的拓撲。 [摘要] 畫面會指定您在設定 Office 通訊伺服器 2007 R2 合併至 Lync Server 2013 拓撲產生器設定期間所做的所有動作和選取。
 
 請檢閱摘要並判斷是否正確定義選取。如果對於摘要中反映的選取滿意，請繼續進行合併。
 

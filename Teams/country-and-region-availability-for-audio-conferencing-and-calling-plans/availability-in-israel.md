@@ -1,5 +1,5 @@
 ---
-title: 在以色國家/區的可用性
+title: 在以色列的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 75b40ca0ddb0cb9165eed67d91841879f8ec2c14
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
+ms.openlocfilehash: 05ac117614e67fefa5ef2606e9db95d2bfe4e7e21d361d2059465eb6cc1c21a7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117961"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295180"
 ---
-# <a name="availability-in-israel"></a>在以色國家/區的可用性
+# <a name="availability-in-israel"></a>在以色列的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

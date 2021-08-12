@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中傳送包含其音訊會議資訊Microsoft Teams。
-ms.openlocfilehash: b6a9e8dfba0db32eb4f02f1f4d4e9ea5f2c4be3e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6c3a60bbdde46ae707543e2f28cd936dbbb2fc13dfb3535661a710984c284d75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117041"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350435"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>共用線條外觀Microsoft Teams
 
-共用線路外觀是委派功能中的一部分，讓使用者選擇代理人來代表他們接聽或處理通話。 如果使用者有系統管理助理定期處理使用者的通話，這項功能會很有説明。 在共用線路外觀中，主管是授權代理人代表代理人撥打或接聽電話的人，而代理人可以代表其他人撥打和接聽電話。
+共用線路外觀是委派功能之一，讓使用者選擇代理人來代表他們接聽或處理通話。 如果使用者有一位管理小幫手定期處理使用者的通話，這項功能會很有説明。 在共用線路外觀中，主管是授權代理人代表代理人撥打或接聽電話的人，而代理人可以代表其他人撥打和接聽電話。
 
 > [!IMPORTANT]
 > 此功能僅適用于僅部署Teams模式。 有關部署模式Teams，請參閱瞭解Microsoft Teams及商務用 Skype[互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
@@ -40,7 +40,7 @@ ms.locfileid: "51117041"
 
 使用者必須擁有電話系統 PSTN 連線 (電話方案授權或直接路由 OnlineVoiceRoutingPolicy) 才能成為代理人或設定委派，並讓他人代表他們撥打或接聽電話。
 
-管理員和代理人必須電話系統 PSTN 連線 (通話方案授權或直接路由 OnlineVoiceRoutingPolicy) 。 共用行體驗是委派的一部分，並包含在電話系統。 有關授權模型的其他詳細資料，請參閱Microsoft Teams[描述](/office365/servicedescriptions/teams-service-description)。
+管理員和代理人必須電話系統 PSTN 連線 (通話方案授權或直接路由 OnlineVoiceRoutingPolicy) 。 共用線路體驗是委派的一部分，並包含在電話系統。 有關授權模型的其他詳細資料，請參閱Microsoft Teams[描述](/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>配置委派和共用行外觀
 
@@ -66,13 +66,13 @@ ms.locfileid: "51117041"
 | 查看共用行的系統管理員視圖 | 是 | 是 | 是 | 否 | 否 |
 | 查看管理員通話活動的系統管理員視圖 | 是 | 是 | 是 | 否 | 否 |
 | 查看代理人的管理員視圖 | 是 | 是 | 是 | 否 | 否 |
-| 系統管理員或管理員可以保留或繼續 | 是 | 是 | 是 | 否 | 否 |
+| 系統管理員或主管可以保留或繼續 | 是 | 是 | 是 | 否 | 否 |
 
 ## <a name="limitations"></a>限制
 
 管理員最多可以新增 25 個代理人，而代理人最多可以有 25 名主管。 在租使用者中可以建立委派關係的數量沒有限制。 
  
-如果委派者與代理人不在同一個地理位置，則由 PST (N 提供者代表) 通話，允許代理人從不同的地理位置顯示本機號碼。 
+如果委派者與代理人不在同一個地理位置，則 PSTN 提供者可代表) 通話，允許代理人的本機號碼不同的地理位置 (來電。 
  
 ## <a name="more-information"></a>詳細資訊
 

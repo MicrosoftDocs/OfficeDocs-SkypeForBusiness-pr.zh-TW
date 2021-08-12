@@ -12,21 +12,21 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 摘要：瞭解如何將封存原則指派給商務用 Skype Server 中的使用者。
-ms.openlocfilehash: 1fce0dbd0cc7b0595dcf3cd91baeba9ed364e28a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7dbd8a4222065c2bc53029b75672d6905dcd73b3a79e0d35ebfc6ce980f9865
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095487"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311091"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>將封存原則套用至商務用 Skype Server 中的使用者
 
-**摘要：** 瞭解如何在商務用 Skype Server 中將封存原則指派給使用者。
+**摘要：** 瞭解如何將封存原則指派給商務用 Skype Server 中的使用者。
   
-如果您已為位於商務用 Skype Server 上的使用者建立一或多個使用者原則，您可以將適當的原則套用至那些使用者或使用者群組，以對特定使用者執行封存支援。 例如，如果您建立支援內部通訊封存的原則，您可以將它套用至至少一個使用者或使用者群組，以支援封存使用者的商務用 Skype 伺服器通訊。
+如果您已為位於商務用 Skype Server 的使用者建立一或多個使用者原則，您可以將適當的原則套用至那些使用者或使用者群組，以對特定使用者執行封存支援。 例如，如果您建立原則來支援內部通訊的封存，您可以將它套用至至少一個使用者或使用者群組，以支援封存使用者的商務用 Skype Server 通訊。
   
 > [!NOTE]
-> 如果您已針對您的部署啟用 Microsoft Exchange 整合，Exchange In-Place 保留原則會控制是否為位於 Exchange 上的使用者啟用封存，並將其信箱置於 In-Place 保留狀態。 如需詳細資訊，請參閱 Plan for 封存 [In 商務用 Skype server](../../plan-your-deployment/archiving/archiving.md) 和 [設定與 Exchange storage 的整合（適用于商務用 skype 伺服器](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)）。 
+> 如果您已對部署啟用 Microsoft Exchange 整合，請 Exchange In-Place 保留原則控制是否為位於 Exchange 的使用者啟用封存，並將其信箱置於 In-Place 保留狀態。 如需詳細資訊，請參閱[Plan for 封存 in 商務用 Skype Server](../../plan-your-deployment/archiving/archiving.md)和[設定與 Exchange 儲存體搭配商務用 Skype Server 的整合](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md)。 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>使用控制台套用使用者原則
 
@@ -34,7 +34,7 @@ ms.locfileid: "51095487"
   
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。 
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中，按一下 **[使用者]**，然後搜尋想要設定的使用者帳戶。 
     

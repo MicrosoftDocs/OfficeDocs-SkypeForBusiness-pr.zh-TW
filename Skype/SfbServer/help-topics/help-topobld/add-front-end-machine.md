@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7fe2522-1bd2-416a-9dbb-51cacea9c6e0
-description: 指定您要在此集區中，新增為前端伺服器之每台電腦的完整網域名稱 (FQDN)。 將電腦新增至清單後，您可以在發行拓撲之前，隨時更新電腦的 FQDN，或將它從集區移除。 發行拓撲之後，要變更 FQDN 便需要在拓撲產生器中刪除伺服器，然後用新的 FQDN 將新的伺服器新增到集區。 如需新增前端集區至拓撲的詳細資料，請參閱部署文件中的定義及設定前端集區。
-ms.openlocfilehash: b100cfd933f19c87213fa48d4d030eda52e90dc8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 指定您要在此集區中，新增為前端伺服器之每台電腦的完整網域名稱 (FQDN)。將電腦新增至清單後，您可以在發行拓撲之前，隨時更新電腦的 FQDN，或將它從集區移除。發行拓撲之後，要變更 FQDN 便需要在拓撲產生器中刪除伺服器，然後用新的 FQDN 將新的伺服器新增到集區。如需新增前端集區至拓撲的詳細資料，請參閱部署文件中的定義及設定前端集區。
+ms.openlocfilehash: 912b4599db1882fda9741573ce1ac2637584ca84990d54ca3964037f4e00d396
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342148"
 ---
 # <a name="add-front-end-machine"></a>新增前端機器
 
-指定您要在此集區中，新增為前端伺服器之每台電腦的完整網域名稱 (FQDN)。 將電腦新增至清單後，您可以在發行拓撲之前，隨時更新電腦的 FQDN，或將它從集區移除。 發行拓撲之後，要變更 FQDN 便需要在拓撲產生器中刪除伺服器，然後用新的 FQDN 將新的伺服器新增到集區。 如需新增前端集區至拓撲的詳細資料，請參閱部署文件中的[定義及設定前端集區](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)。
+指定您要在此集區中，新增為前端伺服器之每台電腦的完整網域名稱 (FQDN)。將電腦新增至清單後，您可以在發行拓撲之前，隨時更新電腦的 FQDN，或將它從集區移除。發行拓撲之後，要變更 FQDN 便需要在拓撲產生器中刪除伺服器，然後用新的 FQDN 將新的伺服器新增到集區。如需新增前端集區至拓撲的詳細資料，請參閱部署文件中的[定義及設定前端集區](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)。
 
 > [!IMPORTANT]
 > 請注意，拓撲產生器表示您最多可在集區中有20部前端伺服器。 支援的伺服器數目上限為12。 您最多可以有20個 statefull 伺服器定義在 fabric 中，其中12個可在任何時間使用中和線上。

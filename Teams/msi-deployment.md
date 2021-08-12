@@ -18,19 +18,19 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b31ffca29891a903c68614239bacedabc6729d39
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 17e4e9af148601fa50562b412e5f81c7872741d97cc299e08b8c18aada1a10e4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098109"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350645"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft Teams 安裝Microsoft Endpoint Configuration Manager
 
 > [!Tip]
 > 觀看下列會話以瞭解桌面用戶端Windows、如何規劃及部署它：Teams Windows[用戶端](https://aka.ms/teams-clients)。
 
-若要使用 Microsoft Endpoint Configuration Manager、群組原則或任何協力廠商發佈機制進行廣泛部署，Microsoft 已提供 MSI 檔案 (32 位和 64 位) 系統管理員可用於大量部署 Teams 以選取使用者或電腦。 系統管理員可以使用這些檔案來遠端部署Teams讓使用者不需要手動下載Teams應用程式。 部署之後，Teams將針對所有在該電腦上登錄的使用者自動啟動。  (安裝應用程式之後，您可以停用自動啟動。 [請參閱下方的](#disable-auto-launch-for-the-msi-installer).) 我們建議您將套件部署到電腦，因此所有新使用者也會受益于此部署。
+若要使用 Microsoft Endpoint Configuration Manager、群組原則或任何協力廠商發佈機制進行廣泛部署，Microsoft 已提供 MSI 檔案 (32 位和 64 位) 系統管理員可用於大量部署 Teams 以選取使用者或電腦。 系統管理員可以使用這些檔案來遠端部署Teams讓使用者不需要手動下載Teams應用程式。 部署之後，Teams將針對所有在該電腦上登錄的使用者自動啟動。  (安裝應用程式之後，您可以停用自動啟動。 [請參閱下方的](#disable-auto-launch-for-the-msi-installer).) 我們建議您將套件部署到電腦，因此電腦的所有新使用者也會受益于此部署。
 
 這些是 MSI 檔案的連結：
 
@@ -45,7 +45,7 @@ ms.locfileid: "51098109"
 
 - 在 64 位作業系統上Teams 64 位版本的作業系統。 如果您嘗試在 32 位作業系統上Teams 64 位版本的 Teams，安裝將不會成功，而且您目前不會收到錯誤訊息。
 
-- 如果客戶租使用者位於 GCCH 或 DoD 雲端上，客戶應新增 **CloudType** 值至註冊表中的HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams鍵，以在註冊表中設定初始端點。 CloudType的類型是 **DWORD，** 值為 (0 = 未套用、1 = 商業、2 = GCC、3 = GCCH、4 = DOD) 。 使用登錄鍵設定端點會限制Teams連接到正確的雲端端點，以使用 Teams。
+- 如果客戶租使用者位於 GCCH 或 DoD 雲端上，客戶應新增 **CloudType** 值至註冊表中的HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Teams鍵，以在註冊表 **中** 設定初始端點。 CloudType的類型是 **DWORD，** 值為 (0 = 未套用、1 = 商業、2 = GCC、3 = GCCH、4 = DOD) 。 使用登錄鍵設定端點會限制Teams連接到正確的雲端端點，以使用 Teams。
 
 - Teams，也可以包含在部署 Microsoft 365 Apps 企業版。 詳細資訊，請參閱使用 Microsoft Teams[部署Microsoft 365 Apps 企業版。](/deployoffice/teams-install)
 
@@ -61,12 +61,12 @@ ms.locfileid: "51098109"
 
 ### <a name="pc-installation"></a>電腦安裝
 
-MSI Teams將安裝程式放在程式檔案中。 每當使用者登錄新的 Windows使用者設定檔時，安裝程式就會啟動，Teams應用程式的副本將會安裝在該使用者 `AppData` 的資料夾中。 如果使用者已在資料夾中Teams應用程式 `AppData` ，MSI 安裝程式會略過該使用者的程式。
+MSI Teams將安裝程式放在程式檔案中。 每當使用者登錄新的 Windows使用者設定檔時，安裝程式就會啟動，Teams應用程式的副本會安裝在該使用者 `AppData` 的資料夾中。 如果使用者已在資料夾中Teams應用程式 `AppData` ，MSI 安裝程式會略過該使用者的程式。
 
 請勿使用 MSI 來部署更新，因為當用戶端偵測到可從服務使用新版本時，就會自動更新。 若要重新部署最新的安裝程式，請使用以下所述的重新部署 MSI 程式。 如果您部署舊版 MSI 套件，用戶端會自動更新 (VDI 環境除外) 使用者可能的話。 如果部署非常舊的版本，MSI 會先觸發應用程式更新，使用者才能Teams。
 
 > [!IMPORTANT]
-> 預設位置為 C：\Program Files (x86) \Teams 64 位作業系統上的安裝程式，以及 32 位作業系統上的 C：\Program Files\Teams Installer。
+> 預設位置為 64 位作業系統上的 C：\Program Files (x86) \Teams Installer，以及 32 位作業系統上的 C：\Program Files\Teams Installer。
 > 我們不建議您變更預設安裝位置，因為這樣做可能會中斷更新流程。 版本太舊，最終會封鎖使用者存取服務。
 
 #### <a name="target-computer-requirements"></a>目的電腦需求
@@ -87,7 +87,7 @@ MSI Teams將安裝程式放在程式檔案中。 每當使用者登錄新的 Win
 > [!IMPORTANT]
 > 下列步驟包含如何修改註冊表的資訊。 請務必先備份該註冊表，再進行修改，並瞭解如何在發生問題時還原註冊表。 若要進一步瞭解如何備份、還原及修改登錄，請參閱Windows[使用者的登錄資訊](https://support.microsoft.com/help/256986)。
 
-1. 卸載每個Teams安裝的應用程式。 若要詳細資訊，請參閱卸載[Microsoft Teams。](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)
+1. 卸載Teams設定檔安裝的應用程式。 若要詳細資訊，請參閱卸載[Microsoft Teams。](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)
 2. 在 下遞迴刪除目錄 `%localappdata%\Microsoft\Teams\` 。
 3. 刪除 `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` 註冊表值。
 4. 將 MSI 套件重新部署至該特定電腦。

@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderDetailPanelWhois
 description: '瞭解如果您的電信公司未列在商務用 Skype。 '
-ms.openlocfilehash: 4354cb05aa28b09931f8f2524de2f01c6ef57f3f
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 263e8584179a523934ab76083b601854527bb995bc9f0297bf9bab34a012dd41
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237969"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320967"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>如果我的電話電信公司未列為來源電信公司，該做什麼？
 
@@ -37,7 +37,7 @@ ms.locfileid: "52237969"
   
 範例：
   
-- 如果您是將號碼從 商務用 Skype作為您的電信公司，您可能會看到列出第 3 層。
+- 如果您要將號碼從 商務用 Skype作為您的電信公司，您可能會看到列出第 3 層。
     
   **有關完整的逐步指示，請參閱 [將電話號碼轉接到 Teams。](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)**
 

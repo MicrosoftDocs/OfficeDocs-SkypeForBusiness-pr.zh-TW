@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: 正確使用類別時，建立及管理 Persistent 聊天室的工作會更容易。 Persistent Chat 管理員可以定義每個類別的 AllowedMembers 和建立者，也可以定義將套用到所有在類別中建立之聊天室的預設聊天室設定和行為。 Persistent Chat 系統管理員可以使用控制台或 Windows PowerShell Cmdlet 來建立及管理類別。
-ms.openlocfilehash: 47abbec64f6799a85f3f6123a898eeae00becbdb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3f757d7c25a429279bbde3c63e717af9d1930cb9ea40076ac9aa5b9d9567356a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51107989"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342168"
 ---
 # <a name="select-allowed-members"></a>選取允許的成員
 
@@ -36,7 +36,7 @@ ms.locfileid: "51107989"
 
 - [新的持久聊天伺服器功能](/previous-versions/office/lync-server-2013/lync-server-2013-new-persistent-chat-server-features)
 
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>設定聊天室的類別
 

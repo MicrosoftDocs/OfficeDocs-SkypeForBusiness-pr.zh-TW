@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是孟加拉國Microsoft 365 Office 365及商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 0fa2c72b28ca2bb176a4e076bcd78eee301bd9ef
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8b473d1c48a08b5543b8eb7078c0e6668561d9633db3b244e232252e26ff00a6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118392"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54295190"
 ---
 # <a name="availability-in-bangladesh"></a>孟加拉國的可用性
 
@@ -70,7 +70,7 @@ ms.locfileid: "51118392"
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？   | 非地理位置。 電話號碼不會連結至特定城市或位置。 <br/> |
 |有提供付費電話號碼嗎？  <br/> |根據要求 ([非) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
-|免付費號碼是否可用？  <br/> |否  <br/> |
+|是否提供免付費號碼？  <br/> |否  <br/> |
    
  如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
   

@@ -15,24 +15,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
-description: 摘要：使用商務用 Skype Server 控制台建立或修改語音原則及設定 PSTN 使用方式記錄。
-ms.openlocfilehash: ca97c4c75004849f2ea404c083878da6c726c2e6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：使用商務用 Skype Server 控制台建立或修改語音原則，以及設定 PSTN 使用方式記錄。
+ms.openlocfilehash: f81d54314d60b6dbb69efa84a2fc5bb9cd22123ff2158080ed2878102611b7a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105759"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320835"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>在商務用 Skype 中建立或修改語音原則及設定 PSTN 使用方式記錄
 
-**摘要：** 使用商務用 Skype Server 控制台建立或修改語音原則和設定 PSTN 使用方式記錄。
+**摘要：** 使用商務用 Skype Server 控制台，建立或修改語音原則，以及設定 PSTN 使用方式記錄。
 
 > [!NOTE]
-> 每個語音原則都必須至少有一個相關聯的公用交換電話網路 (PSTN) 使用方式記錄。 若要查看您 Enterprise Voice 部署中所有可用的 PSTN 使用方式記錄清單，並查看其屬性，請參閱 [在商務用 Skype 中查看 PSTN 使用方式記錄](view-pstn-usage-records.md)。
+> 每個語音原則都必須至少有一個相關聯的公用交換電話網路 (PSTN) 使用方式記錄。 若要查看您的企業語音部署中可用的所有 PSTN 使用方式記錄清單，並查看其屬性，請參閱[在商務用 Skype 中查看 PSTN 使用方式記錄](view-pstn-usage-records.md)。
 
 ### <a name="to-create-a-voice-policy"></a>若要建立語音原則
 
-1. 開啟商務用 Skype Server 控制台。
+1. 開啟商務用 Skype Server 控制台]。
 
 2. 在左導覽列中，依序按一下 [ **語音路由** ] 及 [ **語音原則**]。
 
@@ -56,17 +56,17 @@ ms.locfileid: "51105759"
      > [!NOTE]
      > 此功能僅可透過商務用 Skype Server 管理命令介面進行設定
 
-   - **[來電轉接]** 可讓使用者將來電轉接到其他電話和用戶端裝置。 商務用 Skype 伺服器為來電轉接提供了相當廣泛的設定選項。 例如，如果組織不想讓來電向外轉接到 PSTN，系統管理員可套用特殊語音原則以部署此限制。 預設為啟用。
+   - **[來電轉接]** 可讓使用者將來電轉接到其他電話和用戶端裝置。 商務用 Skype Server 為來電轉接提供更為廣泛的設定選項範圍。 例如，如果組織不想讓來電向外轉接到 PSTN，系統管理員可套用特殊語音原則以部署此限制。 預設為啟用。
 
-   - **[委派]** 可讓使用者指定其他使用者，來代表他們撥號和接聽電話。 在商務用 Skype Server 中，代理人可以設定同時震鈴，讓其主管來電撥打所有代理人同時震鈴的目標。 這樣可在回應撥至主管的通話時給予代理人更大的彈性。 預設為啟用。
+   - **[委派]** 可讓使用者指定其他使用者，來代表他們撥號和接聽電話。 在商務用 Skype Server 中，代理人可以設定同時震鈴，讓他或她的主管來電撥打所有代理人同時震鈴的目標。 這樣可在回應撥至主管的通話時給予代理人更大的彈性。 預設為啟用。
 
-   - **[通話轉接]** 可讓使用者將通話轉接給其他使用者。 預設為啟用。
+   - **[通話轉接]** 可讓使用者將通話轉接給其他使用者。預設為啟用。
 
    - **通話駐留** 可讓使用者駐留通話，然後從不同的電話或用戶端挑選來電。 預設為停用。
 
-   - **[同時響鈴]** 可讓來電在更多電話 (例如，行動電話) 或其他端點裝置上發出鈴聲。 商務用 Skype 伺服器為同時震鈴提供大量的設定選項。 預設為啟用。
+   - **[同時響鈴]** 可讓來電在更多電話 (例如，行動電話) 或其他端點裝置上發出鈴聲。 商務用 Skype Server 提供一系列同時震鈴的設定選項。 預設為啟用。
 
-   - **[小組通話]** 可讓所定義小組的使用者接聽該小組其他成員的通話。 預設為啟用。
+   - **[小組通話]** 可讓所定義小組的使用者接聽該小組其他成員的通話。預設為啟用。
 
    - **PSTN 重新路由功能** 可讓指派此原則的使用者所進行的呼叫，如果 WAN 擁塞或無法使用，則會在 PSTN 上進行重新路由傳送。 預設為啟用。
 
@@ -77,7 +77,7 @@ ms.locfileid: "51105759"
 
    - **惡意呼叫追蹤功能** 可讓使用者報告惡意來電 (例如威脅) 使用用戶端 UI，進而將通話詳細資料記錄中的呼叫標記 (cdr) 。 預設為停用。
 
-   - [**忙碌] 選項** 會啟用或停用指定之語音原則的 [忙碌] 選項。 「忙碌選項」允許將來電路由傳送至語音信箱，或在通話的目標使用者在電話上時，使用占線信號來拒絕。 「忙碌選項」是2016年7月累積更新所引進的新語音原則。 檢查此參數可啟用 [忙碌選項]，並取消選中它會停用 [忙碌] 選項。 如需詳細資訊，請參閱 [Plan For 商務用 Skype server 的繁忙選項](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) 及 [安裝及設定商務用 Skype Server 的繁忙選項](install-and-configure-busy-options.md)。
+   - [**忙碌] 選項** 會啟用或停用指定之語音原則的 [忙碌] 選項。 「忙碌選項」允許將來電路由傳送至語音信箱，或在通話的目標使用者在電話上時，使用占線信號來拒絕。 「忙碌選項」是2016年7月累積更新所引進的新語音原則。 檢查此參數可啟用 [忙碌選項]，並取消選中它會停用 [忙碌] 選項。 如需詳細資訊，請參閱[Plan for 商務用 Skype Server 的閑選項](../../plan-your-deployment/enterprise-voice-solution/busy-options.md)及[安裝及設定商務用 Skype Server 的繁忙選項](install-and-configure-busy-options.md)。
 
 7. 若要為此語音原則來關聯及設定 PSTN 使用方式記錄，請執行下列任何一項動作：
 
@@ -100,7 +100,7 @@ ms.locfileid: "51105759"
 
    - 若要從 PSTN 使用方式記錄中移除路由，請反白顯示路由，然後按一下 [ **移除**]。
 
-   - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱 [Create or modify voice route In 商務用 Skype](create-or-modify-a-voice-route.md)。
+   - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱[Create or modify voice route in 商務用 Skype](create-or-modify-a-voice-route.md)。
 
    - 若要編輯已與此 PSTN 使用方式記錄關聯的路由，請反白顯示路由，然後按一下 **[顯示詳細資料]**。
 
@@ -116,7 +116,7 @@ ms.locfileid: "51105759"
 
    - 若要從此 PSTN 使用方式記錄中移除路由，請反白顯示路由，然後按一下 [ **移除**]。
 
-   - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱 [Create or modify voice route In 商務用 Skype](create-or-modify-a-voice-route.md)。
+   - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱[Create or modify voice route in 商務用 Skype](create-or-modify-a-voice-route.md)。
 
    - 若要編輯已與此 PSTN 使用方式記錄相關聯的路由，請反白顯示路由和 lick **顯示詳細資料**。
 
@@ -125,13 +125,13 @@ ms.locfileid: "51105759"
 8. 排列 PSTN 使用方式記錄，以獲得最佳效能。 若要變更記錄在清單中的位置，請反白顯示記錄名稱，然後按一下向上或向下箭號。
 
     > [!IMPORTANT]
-    > PSTN 使用方式記錄列在語音原則中的順序十分重要。 商務用 Skype 伺服器從上而向中取得清單。 建議您依使用頻率來組織清單，例如：RedmondLocal、RedmondLongDist、RedmondInternational 和 RedmondBackup。
+    > PSTN 使用方式記錄列在語音原則中的順序十分重要。 商務用 Skype Server 從上而向中從上至上遍歷清單。 建議您依使用頻率來組織清單，例如：RedmondLocal、RedmondLongDist、RedmondInternational 和 RedmondBackup。
 
 9. 若要針對此語音原則中的來電轉接和同時鈴響建立關聯並設定 PSTN 使用方式記錄，請執行下列其中一項作業：
 
    - 若要依據此語音原則針對來電轉接和同時響鈴使用相同的 PSTN 使用方式記錄，請從下拉式功能表中選取 **[使用通話 PSTN 使用方式的路由]** 選項。
 
-   - 若要允許來電轉接和同時響鈴至內部商務用 Skype 使用者，請選取 [ **僅從下拉式功能表路由傳送至內部商務用 skype 使用者** ] 選項。 通話不會轉接至外部 PSTN 號碼。
+   - 若要僅允許對內部商務用 Skype 使用者進行來電轉接和同時響鈴，請選取 [僅從下拉式功能表 **傳送至內部商務用 Skype 使用者** 的選項]。 通話不會轉接至外部 PSTN 號碼。
 
    - 若要為此語音原則指定不同的 PSTN 使用方式記錄來進行來電轉接和同時響鈴，請從下拉式功能表中選取 [ **使用自訂 PSTN 使用** 方式的選項路由]。 這個選項會顯示一個控制項，以選取現有的 PSTN 使用方式記錄，或專門針對來電轉接和同時響鈴建立新的 PSTN 使用方式記錄。
 
@@ -154,7 +154,7 @@ ms.locfileid: "51105759"
 
    - 若要從 PSTN 使用方式記錄中移除路由，請反白顯示路由，然後按一下 **[移除]**。
 
-   - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱 [Create or modify voice route In 商務用 Skype](create-or-modify-a-voice-route.md)。
+   - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱[Create or modify voice route in 商務用 Skype](create-or-modify-a-voice-route.md)。
 
    - 若要編輯已與此 PSTN 使用方式記錄關聯的路由，請反白顯示路由，然後按一下 **[顯示詳細資料]**。
 
@@ -170,26 +170,26 @@ ms.locfileid: "51105759"
 
    - 若要從此 PSTN 使用記錄移除路由，請反白顯示路由，然後按一下 **[移除]**。
 
-   - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱 [Create or modify voice route In 商務用 Skype](create-or-modify-a-voice-route.md)。
+   - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱[Create or modify voice route in 商務用 Skype](create-or-modify-a-voice-route.md)。
 
    - 若要編輯已與此 PSTN 使用方式記錄關聯的路由，請反白顯示路由，然後按一下 **[顯示詳細資料]**。
 
      c. 按一下 **[確定]**。
 
-10. (選用) 輸入號碼以測試語音原則，然後按一下 **[執行]**。 測試結果會顯示在 **[要測試的轉譯號碼]** 下方。
+10. (選用) 輸入號碼以測試語音原則，然後按一下 **[執行]**。測試結果會顯示在 **[要測試的轉譯號碼]** 下方。
 
 11. 按一下 **[確定]**。
 
 12. 在 **[語音原則]** 頁面上，依序按一下 **[認可]** 和 **[全部認可]**。
 
     > [!NOTE]
-    > 任何時候建立或修改語音原則時，都必須執行「 **認可全部** 」命令，才能發佈設定變更。 如需詳細資訊，請參閱 Operations 檔中的在 [商務用 Skype 中發佈待定的變更至語音路由](voice-route-config-changes.md) 設定。
+    > 任何時候建立或修改語音原則時，都必須執行「 **認可全部** 」命令，才能發佈設定變更。 如需詳細資訊，請參閱操作檔中的[商務用 Skype 發佈擱置變更至語音路由](voice-route-config-changes.md)設定。
 
-13.  (選用) 語音訊息轉義會偵測到使用者的行動電話語音信箱立即接聽通話，並將通話中斷與行動電話語音信箱的通話。 這可讓通話繼續撥打使用者的其他端點，讓使用者接聽通話的機會。 如需如何設定語音信箱原則的詳細資訊，請參閱 [configure voice mail escape In 商務用 Skype](configure-voice-mail-escape.md)。
+13.  (選用) 語音訊息轉義會偵測到使用者的行動電話語音信箱立即接聽通話，並將通話中斷與行動電話語音信箱的通話。 這可讓通話繼續撥打使用者的其他端點，讓使用者接聽通話的機會。 如需如何設定語音信箱原則的詳細資訊，請參閱[configure voice mail escape in 商務用 Skype](configure-voice-mail-escape.md)。
 
 ### <a name="to-modify-a-voice-policy"></a>若要修改語音原則
 
-1. 開啟商務用 Skype Server 控制台。
+1. 開啟商務用 Skype Server 控制台]。
 
 2. 在左導覽列中，依序按一下 **[語音路由]** 和 **[語音原則]**。
 
@@ -207,17 +207,17 @@ ms.locfileid: "51105759"
      > [!NOTE]
      > 此功能僅可透過商務用 Skype Server 管理命令介面進行設定
 
-   - **[來電轉接]** 可讓使用者將來電轉接到其他電話和用戶端裝置。 商務用 Skype 伺服器為來電轉接提供了相當廣泛的設定選項。 例如，如果組織不想讓來電向外轉接到 PSTN，系統管理員可套用特殊語音原則以部署此限制。 預設為啟用。
+   - **[來電轉接]** 可讓使用者將來電轉接到其他電話和用戶端裝置。 商務用 Skype Server 為來電轉接提供更為廣泛的設定選項範圍。 例如，如果組織不想讓來電向外轉接到 PSTN，系統管理員可套用特殊語音原則以部署此限制。 預設為啟用。
 
-   - **[委派]** 可讓使用者指定其他使用者，來代表他們撥號和接聽電話。 在商務用 Skype Server 中，代理人可以設定同時震鈴，讓其主管來電撥打所有代理人同時震鈴的目標。 這樣可在回應撥至主管的通話時給予代理人更大的彈性。 預設為啟用。
+   - **[委派]** 可讓使用者指定其他使用者，來代表他們撥號和接聽電話。 在商務用 Skype Server 中，代理人可以設定同時震鈴，讓他或她的主管來電撥打所有代理人同時震鈴的目標。 這樣可在回應撥至主管的通話時給予代理人更大的彈性。 預設為啟用。
 
    - **[通話轉接]** 可讓使用者將通話轉接給其他使用者。預設為啟用。
 
    - **[通話駐留]** 可讓使用者將通話駐留成保留狀態，然後由不同電話或用戶端接聽通話。預設為停用。
 
-   - **[同時響鈴]** 可讓來電在更多電話 (例如，行動電話) 或其他端點裝置上發出鈴聲。 商務用 Skype 伺服器為同時震鈴提供大量的設定選項。 預設為啟用。
+   - **[同時響鈴]** 可讓來電在更多電話 (例如，行動電話) 或其他端點裝置上發出鈴聲。 商務用 Skype Server 提供一系列同時震鈴的設定選項。 預設為啟用。
 
-   - **[小組通話]** 可讓所定義小組的使用者接聽該小組其他成員的通話。 預設為啟用。
+   - **[小組通話]** 可讓所定義小組的使用者接聽該小組其他成員的通話。預設為啟用。
 
    - **PSTN 重新路由功能** 可讓指派此原則的使用者所進行的呼叫，如果 WAN 擁塞或無法使用，則會在 PSTN 上進行重新路由傳送。 預設為啟用。
 
@@ -249,7 +249,7 @@ ms.locfileid: "51105759"
 
    - 若要從 PSTN 使用方式記錄中移除路由，請反白顯示路由，然後按一下 **[移除]**。
 
-   - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱 [Create or modify voice route In 商務用 Skype](create-or-modify-a-voice-route.md)。
+   - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱[Create or modify voice route in 商務用 Skype](create-or-modify-a-voice-route.md)。
 
    - 若要編輯已與此 PSTN 使用方式記錄關聯的路由，請反白顯示路由，然後按一下 **[顯示詳細資料]**。
 
@@ -265,7 +265,7 @@ ms.locfileid: "51105759"
 
    - 若要從此 PSTN 使用記錄移除路由，請反白顯示路由，然後按一下 **[移除]**。
 
-   - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱 [Create or modify voice route In 商務用 Skype](create-or-modify-a-voice-route.md)。
+   - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱[Create or modify voice route in 商務用 Skype](create-or-modify-a-voice-route.md)。
 
    - 若要編輯已與此 PSTN 使用方式記錄關聯的路由，請反白顯示路由，然後按一下 **[顯示詳細資料]**。
 
@@ -274,13 +274,13 @@ ms.locfileid: "51105759"
 7. 排列 PSTN 使用方式記錄，以獲得最佳效能。 若要變更記錄在清單中的位置，請反白顯示記錄名稱，然後按一下向上或向下箭號。
 
     > [!NOTE]
-    > PSTN 使用方式記錄列在語音原則中的順序十分重要。 商務用 Skype 伺服器從上而向中取得清單。 建議您依使用頻率來組織清單，例如：RedmondLocal、RedmondLongDist、RedmondInternational 和 RedmondBackup。
+    > PSTN 使用方式記錄列在語音原則中的順序十分重要。 商務用 Skype Server 從上而向中從上至上遍歷清單。 建議您依使用頻率來組織清單，例如：RedmondLocal、RedmondLongDist、RedmondInternational 和 RedmondBackup。
 
 8. 若要針對此語音原則中的來電轉接和同時鈴響建立關聯並設定 PSTN 使用方式記錄，請執行下列其中一項作業：
 
    - 若要依據此語音原則針對來電轉接和同時響鈴使用相同的 PSTN 使用方式記錄，請從下拉式功能表中選取 **[使用通話 PSTN 使用方式的路由]** 選項。
 
-   - 若要允許來電轉接和同時響鈴至內部商務用 Skype 使用者，請選取 [僅從下拉式功能表 **路由傳送至內部商務用 skype 使用者** ]。 通話不會轉接至外部 PSTN 號碼。
+   - 若要僅允許對內部商務用 Skype 使用者進行來電轉接和同時響鈴，請選取 [僅從下拉式功能表 **路由傳送至內部商務用 Skype 使用者**]。 通話不會轉接至外部 PSTN 號碼。
 
    - 若要針對用於此語音原則之外的來電轉接和同時響鈴指定其他 PSTN 使用方式記錄，請從下拉式功能表中選取 **[使用自訂 PSTN 使用方式的路由]** 選項。此選項會特別針對來電轉接和同時響鈴顯示控制項，用來選取現有 PSTN 使用方式記錄或建立新的 PSTN 使用方式記錄。
 
@@ -303,9 +303,9 @@ ms.locfileid: "51105759"
 
    - 若要從 PSTN 使用方式記錄中移除路由，請反白顯示路由，然後按一下 **[移除]**。
 
-   - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱 [Create or modify voice route In 商務用 Skype](create-or-modify-a-voice-route.md)。
+   - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱[Create or modify voice route in 商務用 Skype](create-or-modify-a-voice-route.md)。
 
-   - 若要編輯已經與此 PSTN 使用方式記錄建立關聯的路由，請反白顯示路由，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱＜[Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)＞。
+   - 若要編輯已經與此 PSTN 使用方式記錄建立關聯的路由，請反白顯示路由，然後按一下 **[顯示詳細資料]**。如需詳細資訊，請參閱＜[Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)＞。
 
      d. 按一下 **[確定]**。
 
@@ -319,22 +319,22 @@ ms.locfileid: "51105759"
 
      - 若要從此 PSTN 使用方式記錄中移除路由，請反白顯示路由，然後按一下 **[移除]**。
 
-     - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱 [Create or modify voice route In 商務用 Skype](create-or-modify-a-voice-route.md)。
+     - 若要定義新的路由，並將它與此 PSTN 使用方式記錄關聯，請按一下 **[新增]**。 如需詳細資訊，請參閱[Create or modify voice route in 商務用 Skype](create-or-modify-a-voice-route.md)。
 
-     - 若要編輯已與此 PSTN 使用方式記錄關聯的路由，請反白顯示路由，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱＜[Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)＞。
+     - 若要編輯已與此 PSTN 使用方式記錄關聯的路由，請反白顯示路由，然後按一下 **[顯示詳細資料]**。如需詳細資訊，請參閱＜[Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route)＞。
 
      c. 按一下 **[確定]**。
 
-9. (選用) 輸入號碼以測試語音原則，然後按一下 **[執行]**。 測試結果會顯示在 **[要測試的轉譯號碼]** 下方。
+9. (選用) 輸入號碼以測試語音原則，然後按一下 **[執行]**。測試結果會顯示在 **[要測試的轉譯號碼]** 下方。
 
 10. 按一下 **[確定]**。
 
 11. 在 **[語音原則]** 頁面上，依序按一下 **[認可]** 和 **[全部認可]**。
 
     > [!NOTE]
-    > 只要建立或修改語音原則，就必須執行 **[全部認可]** 命令來發行設定變更。 如需詳細資訊，請參閱 Operations 檔中的在 [商務用 Skype 中發佈待定的變更至語音路由](voice-route-config-changes.md) 設定。
+    > 只要建立或修改語音原則，就必須執行 **[全部認可]** 命令來發行設定變更。 如需詳細資訊，請參閱操作檔中的[商務用 Skype 發佈擱置變更至語音路由](voice-route-config-changes.md)設定。
 
-12.  (選用) 語音訊息轉義會偵測到使用者的行動電話語音信箱立即接聽通話，並將通話中斷與行動電話語音信箱的通話。 這可讓通話繼續撥打使用者的其他端點，讓使用者接聽通話的機會。 如需如何設定語音信箱原則的詳細資訊，請參閱 [configure voice mail escape In 商務用 Skype](configure-voice-mail-escape.md)。
+12.  (選用) 語音訊息轉義會偵測到使用者的行動電話語音信箱立即接聽通話，並將通話中斷與行動電話語音信箱的通話。 這可讓通話繼續撥打使用者的其他端點，讓使用者接聽通話的機會。 如需如何設定語音信箱原則的詳細資訊，請參閱[configure voice mail escape in 商務用 Skype](configure-voice-mail-escape.md)。
 
 ## <a name="see-also"></a>另請參閱
 
@@ -342,6 +342,6 @@ ms.locfileid: "51105759"
 
 [在商務用 Skype 中建立或修改語音路由](create-or-modify-a-voice-route.md)
 
-[在商務用 Skype 中將擱置的變更發佈至語音路由設定](voice-route-config-changes.md)
+[在商務用 Skype 中發佈語音路由設定的擱置變更](voice-route-config-changes.md)
 
 [在商務用 Skype 中設定語音信箱轉義](configure-voice-mail-escape.md)

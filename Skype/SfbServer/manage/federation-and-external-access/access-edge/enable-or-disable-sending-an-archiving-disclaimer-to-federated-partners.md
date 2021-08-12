@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: ''
-ms.openlocfilehash: 83c548f948c4c368ba1d8186fbdc9f212b9fb67b463f8eaec845f7698f4c0720
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 開啟或關閉在商務用 Skype Server 中傳送封存免責聲明至同盟合作夥伴。
+ms.openlocfilehash: 5c3e5b864b26977c2d25e534cdb62f9619644587a2b0658a788727ad2cd3fef4
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848858"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用或停用傳送封存免責聲明至同盟合作夥伴的功能
 
@@ -53,14 +53,9 @@ ms.locfileid: "54313171"
 
 ## <a name="to-enable-the-archiving-disclaimer"></a>啟用封存免責聲明
 
-  - 若要啟用封存免責聲明，請將 **EnableArchivingDisclaimer** 屬性的值設為 True ($True) ：
-    
-        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
+  - 若要啟用封存免責聲明，請將 **EnableArchivingDisclaimer** 屬性的值設為 True ($True) ：<br/><br/>Set-CsAccessEdgeConfiguration-EnableArchivingDisclaimer $True
 
 ## <a name="to-disable-the-archiving-disclaimer"></a>停用封存免責聲明
 
-  - 若要停用封存免責聲明，請將 **EnableArchivingDisclaimer** 屬性的值設為 False ($False) ：
-    
-        Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False
-
+  - 若要停用封存免責聲明，請將 **EnableArchivingDisclaimer** 屬性的值設為 False ($False) ：<br/><br/>Set-CsAccessEdgeConfiguration-EnableArchivingDisclaimer $False
 

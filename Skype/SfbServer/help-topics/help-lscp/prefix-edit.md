@@ -15,17 +15,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 description: 若要定義首碼或起始位數，請新增此路由應處理的號碼首碼，包含必要的 +。 例如，您可以符合以 + 123 開頭的所有數位。
-ms.openlocfilehash: 12db5f6f7dfb92769f5c904c2ed412c2de606399
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 67a6598281267c6a36028b6030e0f1b2dd8b9c1adb5b3130ac986cf89e07d82c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829333"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311271"
 ---
 # <a name="prefix-edit"></a>首碼編輯
  
 若要定義首碼或起始位數，請新增此路由應處理的號碼首碼，包含必要的 +。 例如，您可以符合以 + 123 開頭的所有數位。
   
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。
   
 

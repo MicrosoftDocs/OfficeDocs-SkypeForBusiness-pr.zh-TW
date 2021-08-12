@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: bc05be5d107c2394c959b56866b2a5cda143278d
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 7790714434dfa3fb6de6bf5808ec7f8f3097a50fdd79c540e0ef7ee70fc0861b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278666"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350555"
 ---
 # <a name="navigate-microsoft-teams"></a>流覽Microsoft Teams
 
@@ -26,7 +26,7 @@ ms.locfileid: "53278666"
 
 ## <a name="getting-started"></a>開始
 
-使用我們的入門指南，Kaizala開始Teams您輕鬆上手。 若要深入瞭解如何開始您的Microsoft Teams，請參閱[開始使用 Teams。](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)
+使用我們的入門指南，Kaizala開始Teams開始進行。 若要深入瞭解如何開始您的Microsoft Teams，請參閱[開始使用 Teams。](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams&ui=en-us&rs=en-us&ad=us)
 
 ## <a name="starting-new-chats-11-audio-and-video-calls"></a>開始新的聊天、1：1 音訊和視訊通話
 
@@ -46,9 +46,9 @@ ms.locfileid: "53278666"
 
 ### <a name="check-ins"></a>簽入
 
-使用智慧Teams相機來捕獲並共用有批註的影像與小組。 輕鬆精准分享您的位置，讓您的小組隨時瞭解。 需要擁有詳細資訊，以傳達Kaizala功能如何Teams。 在檔上，一定要有來自幻燈片組的資訊。
+使用智慧Teams相機來捕獲並共用有批註的影像與小組。 輕鬆精准分享您的位置，讓您的小組隨時瞭解。 需要擁有詳細資訊，以傳達Kaizala功能如何Teams。 在檔上，我們一定會有來自幻燈片組的資訊。
 
-[使用教職員簽入應用程式](/microsoftteams/platform/samples/app-templates#staff-check-ins)範本，讓前線員工能直接從公司直接在排定或臨時的基礎上，輕鬆提供時間關鍵型資訊和狀態Teams。 應用程式支援即時位置、相片、筆記、提醒通知和自動化工作流程。
+[使用教職員檢查應用程式](/microsoftteams/platform/samples/app-templates#staff-check-ins)範本，讓前線員工直接從公司直接在排定或臨時的基礎上，輕鬆提供時間關鍵型資訊和狀態Teams。 應用程式支援即時位置、相片、筆記、提醒通知和自動化工作流程。
 
 ### <a name="training"></a>訓練
 
@@ -64,9 +64,9 @@ ms.locfileid: "53278666"
 
 若要流覽系統管理中心，請流覽[Microsoft Teams系統管理中心](https://admin.teams.microsoft.com/)。
 
-您可以使用合規性中心和安全性中心Microsoft 365監控[Microsoft 365的安全性](/microsoft-365/compliance/microsoft-365-compliance-center)[與合規性](/microsoft-365/security/defender/overview-security-center)。
+您可以使用合規性中心和安全性中心監控貴組織Microsoft 365的安全性Microsoft 365[合規性](/microsoft-365/security/defender/overview-security-center)。 [](/microsoft-365/compliance/microsoft-365-compliance-center)
 
-在系統管理中心保護您的企業，Azure Active Directory您的使用者[，](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020)您可以在此查看群組、身分識別、授權，以及Microsoft 365。
+在系統管理中心保護您的企業，Azure Active Directory您的使用者[，](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020)您可以在此查看群組、身分識別、授權，以及跨 Microsoft 365。
 
 ### <a name="end-users"></a>使用者
 
@@ -74,9 +74,9 @@ ms.locfileid: "53278666"
 
 透過團隊中的搜尋欄搜尋您組織中任何人。 您也可以使用搜尋欄結果來查看檔案、訊息和文章。
 
-使用內建報告和可下載資料，透過投票[](https://www.office.com/launch/forms?auth=2)、問卷和[](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)檢查清單來享受豐富的分析。 您也可以在 Planner 中的工作協助 [下指派](https://support.microsoft.com/office/manage-tasks-in-planner-ee61ecb0-a0bb-4c39-8682-f47fe7674f05) 工作。
+使用內建報告和可下載的資料，透過投票、[問卷](https://www.office.com/launch/forms?auth=2)和[](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)檢查清單來享受豐富的分析。 您也可以在 Planner 中的工作協助 [下指派](https://support.microsoft.com/office/manage-tasks-in-planner-ee61ecb0-a0bb-4c39-8682-f47fe7674f05) 工作。
 
-若要在 [小組](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) 中啟用擴充功能，請針對任何需要連接器的 (...) 功能表中的連接器選項。
+若要在 [小組](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions) 中啟用擴充功能，請使用功能表上的連接器選項 (...) 連接器所需的任何頻道。
 
 若要查看使用方式、活動和整體採用報告，團隊擁有者可以從功能表 (...) 流覽，以存取其小組的報告，>分析。
 
@@ -104,13 +104,13 @@ ms.locfileid: "53278666"
 
 ## <a name="what-is-guest-access-in-teams"></a>什麼是來賓存取Teams？
 
-使用 [來賓存取](/MicrosoftTeams/guest-access)，您可以為組織外部人員提供團隊、頻道中的檔、資源、聊天和應用程式存取權，同時維持公司資料的控制權。 在來賓中新增來賓不需要Teams。
+使用 [來賓存取](/MicrosoftTeams/guest-access)，您可以為組織外部人員提供團隊、頻道中的檔、資源、聊天和應用程式存取權，同時維持公司資料的控制權。 在來賓中新增來賓不需要額外Teams。
 
-## <a name="who-can-be-a-guest-in-teams"></a>神秘中可以做來賓Teams？
+## <a name="who-can-be-a-guest-in-teams"></a>神秘中的來賓Teams？
 
 來賓不是員工或貴組織的成員。 他們沒有貴組織的工作帳戶。 例如，來賓可能包括有合作夥伴、廠商、供應商或顧問。
 
-任何不是貴組織成員的人，都可以在 Teams 中[新增為來賓](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team)。 這表示任何擁有商務帳戶 (即 Azure Active Directory 帳戶) 或消費者電子郵件帳戶 (例如 outlook.com、gmail.com 等) 的任何人都可以以來賓的存取團隊和頻道體驗參與 Teams。
+任何不是貴組織成員的人，都可以在 Teams 中[新增為來賓](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team)。 這表示任何擁有商務帳戶 (即 Azure Active Directory 帳戶) 或消費者電子郵件帳戶 (例如 outlook.com、gmail.com 等) 的人都可以以來賓的存取團隊和頻道體驗參與 Teams。
 
 >[!NOTE]
 > 在來賓加入團隊之前，來賓存取必須由管理員在 Teams。
