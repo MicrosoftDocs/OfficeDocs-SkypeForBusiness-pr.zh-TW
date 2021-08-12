@@ -11,18 +11,18 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 前端伺服器不能以獨立電腦形式存在。 它必須定義為前端集區，即使集區中只有一部電腦也一樣。
-ms.openlocfilehash: 7675ba119fa2937d765d5f4e497fca0a040b3b62
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: 962948c02e8890fce05db513e4839b4e179d23ebfad83e98003a88122e538d9a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752315"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281356"
 ---
 # <a name="remove-a-front-end-server-from-a-pool"></a>從集區中移除前端伺服器
 
 前端伺服器不能以獨立電腦形式存在。 它必須定義為前端集區，即使集區中只有一部電腦也一樣。
   
-本主題將引導您完成從現有前端集區移除個別前端伺服器的程式。 如果前端伺服器是集區中的最後一部伺服器，或您要完全移除集區，請參閱[移除前端集區或 Standard Edition Server](remove-front-end-pool-or-standard-edition-server.md)。 移除前端集區之前，不需要先移除個別的前端伺服器。 當您移除集區時，會移除每個前端伺服器。
+本主題將引導您完成從現有前端集區移除個別前端伺服器的程式。 如果前端伺服器是集區中的最後一部伺服器，或您要完全移除集區，請參閱[移除前端集區或 Standard Edition 伺服器](remove-front-end-pool-or-standard-edition-server.md)。 移除前端集區之前，不需要先移除個別的前端伺服器。 當您移除集區時，會移除每個前端伺服器。
   
 ### <a name="to-remove-a-front-end-server-from-a-pool"></a>從集區移除前端伺服器
 
@@ -30,6 +30,6 @@ ms.locfileid: "44752315"
     
 2. 流覽至 [舊版安裝] 節點。
     
-3. 展開 [ **Enterprise Edition 前端**集區]，展開要移除前端伺服器的前端集區，以滑鼠右鍵按一下您要移除的前端伺服器，然後按一下 [**刪除**]。
+3. 展開 **Enterprise Edition 前端** 集區，展開要移除前端伺服器的前端集區，以滑鼠右鍵按一下您要移除的前端伺服器，然後按一下 [**刪除**]。
     
 

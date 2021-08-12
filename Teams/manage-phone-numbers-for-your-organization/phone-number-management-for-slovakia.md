@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在斯洛伐克取得及管理斯洛伐克電話號碼Microsoft Teams。
-ms.openlocfilehash: 12042588cc3253e99092961947edac19a75ad775
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 2afbb2f081ef59f086ffeb4543a16f09f05c8eb8118e93c8aeb900d4da19d549
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510384"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281556"
 ---
 # <a name="phone-number-management-for-slovakia"></a>電話斯洛伐克的號碼管理
 

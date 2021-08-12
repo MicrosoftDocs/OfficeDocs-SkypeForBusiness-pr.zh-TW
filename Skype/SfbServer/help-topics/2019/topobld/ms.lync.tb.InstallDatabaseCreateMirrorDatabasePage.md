@@ -15,14 +15,14 @@ localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 ROBOTS: NOINDEX, NOFOLLOW
 description: 這是初步檔，而且可能會變更。 空白主題會以預留位置形式包含。
-ms.openlocfilehash: ead4b6c8a4124e412c34e2d6dcc3bcf4d20fc10c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 41a54454b28644e46a74318aaec8cae3113a9a1dfb7917e6aaea69e56167dfea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829973"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309872"
 ---
 # <a name="install-database-create-mirror-database-page"></a>安裝資料庫建立鏡像資料庫頁面
  
 > [!NOTE]
-> 在商務用 Skype 2015 Server 中可使用 SQL 鏡像，但商務用 Skype Server 2019 已不再支援。 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) ，以及使用商務用 Skype Server 2019 的首選 SQL 容錯移轉叢集方法。
+> SQL鏡像可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) 及 SQL 容錯移轉叢集方法，都是商務用 Skype Server 2019 的首選。

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 商務用 Skype線上可讓您建立其他外部存取策略。 與可以有多個組合的用戶端或會議策略不同，有三種預先定義的外部存取策略可以涵蓋大部分的情況。
-ms.openlocfilehash: f9d99789bdb400cee9b7597bfcdc4079c1d3612d
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 4db20c286f342662adffeeaeae17737651791f56f74be6558138756b7e65e767
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240142"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282386"
 ---
 # <a name="create-custom-external-access-policies"></a>建立自訂外部存取原則
 
@@ -36,9 +36,9 @@ ms.locfileid: "52240142"
     
 - 只有聯合存取 (_標記：FederationOnly )_
     
-- _FederationAndPICDefault (和消費者存取)_
+- Federation And Consumer Access (_FederationAndPICDefault)_
     
-自訂外部策略允許您建立上述設定未涵蓋的其他策略。 當建立策略時，您必須設定所有所需的參數，而且之後無法變更。 建立新的自訂策略可讓您控制功能，例如Skype使用者存取權或停用公用雲端音訊/視像的政策，這是預先定義的設定未涵蓋的內容。 自訂外部存取策略遵循與用戶端、行動和會議策略相同的語法。 您可以在這裡進一瞭解這些 [設定](/previous-versions//mt228132(v=technet.10))。
+自訂外部策略允許您建立上述設定未涵蓋的其他策略。 建立策略時，您必須設定所有所需的參數，之後無法變更。 建立新的自訂策略可讓您控制功能，例如Skype使用者存取權或停用公用雲端音訊/視像的政策，這是預先定義的設定未涵蓋的功能。 自訂外部存取策略遵循與用戶端、行動和會議策略相同的語法。 您可以在這裡進一瞭解這些 [設定](/previous-versions//mt228132(v=technet.10))。
   
 若要執行此作業，使用者必須使用支援的 2016 即用即商務用 Skype應用程式。 需要下列 2016 商務用 Skype隨用用戶端的最低版本：
   
@@ -54,7 +54,7 @@ ms.locfileid: "52240142"
 ## <a name="start-windows-powershell"></a>開始Windows PowerShell
 
 > [!NOTE]
-> 商務用 Skype線上連接器是目前 PowerShell 模組Teams的一部分。 如果您使用的是最新版 PowerShell Teams版本，則不需要安裝 商務用 Skype 連接器。
+> 商務用 Skype Online 連接器目前是最新 Teams PowerShell 模組的一部分。 如果您使用的是最新的 Teams PowerShell 公開發行版本，則不需要安裝商務用 Skype Online 連接器。
 1. 安裝[powerShell Teams模組](/microsoftteams/teams-powershell-install)。
     
 2. 開啟 Windows PowerShell命令提示符，然後執行下列命令： 
@@ -84,15 +84,15 @@ Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
 
-- Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點管理 Microsoft 365 或 Office 365 和 商務用 Skype Online，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+- Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點來管理 Microsoft 365 或 Office 365 和 商務用 Skype Online，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
   - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
   - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell使用系統管理中心時，Microsoft 365在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
+- Windows PowerShell相比于僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
     
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

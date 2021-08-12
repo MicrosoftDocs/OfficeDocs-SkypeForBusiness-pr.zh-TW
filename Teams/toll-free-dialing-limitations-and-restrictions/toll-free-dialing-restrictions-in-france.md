@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解撥打法國免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
-ms.openlocfilehash: 738f513adb66f1cf73c0acf9279defd4aeb00db0
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 瞭解撥打法國的免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
+ms.openlocfilehash: 353bb2f85d701c17c7d8562e1afca892a765e7ed69af45ad7975c4c56e5d412f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116721"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310412"
 ---
 # <a name="toll-free-dialing-restrictions-in-france"></a>法國免付費撥號限制
 
@@ -42,7 +42,7 @@ ms.locfileid: "51116721"
 |撥號格式 ()   <br/> |0 800 9XX XXX  <br/> |
 |國家/地區 ISO 代碼  <br/> |FR  <br/> |
 |涵蓋的島嶼/地區  <br/> | 法國大陸和科西加 <br/> |
-|未涵蓋的島嶼/地區  <br/> |無法從法屬波里尼亞、法屬玻里尼西亞、瓦利斯富圖納、聖皮埃 &amp; -Miquelon、Mayotte、新赫里多尼亞、法屬玻里尼西亞、瓦利斯 &amp; Futuna 存取。  <br/> |
+|未涵蓋的島嶼/地區  <br/> |從法屬波利尼亞、法屬玻里尼西亞、瓦利斯富圖納、聖皮埃-密克隆、馬約特、新赫里多尼亞、 &amp; 法屬玻里尼西亞、瓦利斯富圖納無法存取。 &amp;  <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |
 |行動網路可用性  <br/> |是  <br/> |
 |批註、限制和存取問題  <br/> |行動存取：Airtime 會收費。  <br/> |

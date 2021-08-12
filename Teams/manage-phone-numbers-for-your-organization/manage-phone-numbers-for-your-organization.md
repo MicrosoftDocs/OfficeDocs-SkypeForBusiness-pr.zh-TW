@@ -26,13 +26,13 @@ ms.custom:
 - ms.lync.lac.VASAMissingGeoCodes
 - Calling Plans
 - seo-marvel-apr2020
-description: 瞭解如何取得及管理使用者 (訂閱者) 服務 (付費和免付費) 組織Microsoft Teams電話號碼。
-ms.openlocfilehash: 3979604f281a75a5c3062a1a54630f34253788d0
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+description: 瞭解如何取得及管理使用者 (訂閱者) 服務 (付費和免付費) 電話號碼Microsoft Teams組織。
+ms.openlocfilehash: 534f0d17413e24f221ce04731e0f617355392fec5f08e04814b85c15eb3369ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129632"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310631"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>管理貴組織的電話號碼
 
@@ -41,7 +41,7 @@ ms.locfileid: "52129632"
 - [在系統管理中心取得Microsoft Teams電話號碼](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users)。
 - [在系統管理中心取得Microsoft Teams電話號碼](../getting-service-phone-numbers.md#get-new-service-numbers)。
 - [傳送或 _移_ 轉您現有的電話號碼](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md#create-a-port-order-and-transfer-your-phone-numbers-to-teams)。
-- 針對系統管理中心未列出的新電話號碼，請使用Microsoft Teams表單。
+- 針對系統管理中心未列出的新電話號碼使用Microsoft Teams表單。
 
 > [!IMPORTANT]
 > 有關澳洲的新電話號碼，請參閱 [Telstra Voice Services](https://aka.ms/TelstraVoicePlan)。 有關日本的新電話號碼，請參閱 [SoftBank Voice Services](https://aka.ms/SoftBankVoicePlan)。
@@ -94,7 +94,7 @@ ms.locfileid: "52129632"
 
 ### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers-from-another-service-provider-to-microsoft-teams"></a>授權書 (LOA) 將現有電話號碼從另一個服務提供者移轉/移轉至Microsoft Teams
 
-如果您需要移轉/移轉現有的電話號碼，您必須下載、填入及傳送授權書 (LOA) ，授權書可讓我們代表您要求並將這些現有號碼從不同的服務提供者移轉至 Microsoft Teams。
+如果您需要移轉/移轉現有的電話號碼，您必須下載、填入及傳送授權書 (LOA) ，授權書會授權我們代表您要求並將這些現有號碼從不同的服務提供者移轉至 Microsoft Teams。
 
 如果您目前與另一個電信公司有下列專案，請傳送 **LOA** 給我們：
 
@@ -107,7 +107,7 @@ ms.locfileid: "52129632"
 
 ## <a name="still-need-assistance"></a>仍然需要協助嗎？
 
-[請連上我們的 PSTN 服務台](./contact-pstn-service-desk.md) ，我們會儘快協助您。
+[請連上 PSTN 服務台](./contact-pstn-service-desk.md) ，我們會儘快協助您。
 
 ## <a name="additional-resources"></a>其他資源
 

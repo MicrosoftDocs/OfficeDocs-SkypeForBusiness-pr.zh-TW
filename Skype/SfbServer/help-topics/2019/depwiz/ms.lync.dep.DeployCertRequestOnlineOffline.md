@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要建立延遲要求或離線要求，請選取 [立即準備此要求，但稍後再傳送 (離線憑證要求)]。 若要建立立即要求給線上憑證授權單位單位 (通常是組織公開金鑰基礎結構) 中的內部系統，請選取 [立即將要求傳送到線上憑證授權單位單位]。
-ms.openlocfilehash: a132f24ad3066643695e5d9ecdf0f3b257682cb2
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 96a18d804894bad1b3359d1af33a726b04d3d563724b7b605ae52fbaf5dc5c0b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309972"
 ---
 # <a name="certificate-request-online-offline"></a>憑證要求 (線上/離線)
  

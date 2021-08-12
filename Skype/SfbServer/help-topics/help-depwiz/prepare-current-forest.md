@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: 若要準備 Active Directory 網域服務樹系，您必須順利擴充架構（如執行架構準備的主題中所述），並確定架構已複製。
-ms.openlocfilehash: 94d41a993b2fe976ef7ede885d277c00417ff7dc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6b02ae0139c4ac813dd8562b237022112f76201d79e82b856e5bfe7e8d6972e7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103459"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309642"
 ---
 # <a name="prepare-current-forest"></a>準備目前的樹系
 
@@ -42,4 +42,4 @@ ms.locfileid: "51103459"
 5. 等候 Active Directory 網域服務複寫完成，或是強制複寫到樹系根域控制 **站之 Active Directory 網站和服務** 嵌入式管理單元中列出的所有網域控制站，然後再執行網域準備作業。 強制在所有 Active Directory 網站的網域控制站之間進行複寫，以在幾分鐘內進行網站的複寫。
 
     > [!TIP]
-    > 如果您需要複查由商務用 Skype Server 部署嚮導所建立的記錄檔，您可以在執行該步驟之 Active Directory 網域服務使用者的 [使用者] 目錄中，找到其上執行「部署」嚮導的電腦。 例如，如果使用者登入網域 Contoso.net 中的網域管理員，則記錄檔位於： C:\Users\Administrator.Contoso\AppData\Local\Temp
+    > 如果您需要複查商務用 Skype Server 部署嚮導所建立的記錄檔，您可以在執行該步驟的 Active directory 網域服務使用者的使用者目錄中，找到已執行部署嚮導的電腦上的記錄檔。 例如，如果使用者登入網域 Contoso.net 中的網域管理員，則記錄檔位於： C:\Users\Administrator.Contoso\AppData\Local\Temp

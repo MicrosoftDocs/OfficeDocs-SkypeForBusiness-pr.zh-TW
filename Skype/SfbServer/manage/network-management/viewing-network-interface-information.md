@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 您可以使用 Windows PowerShell 和 Get-CsNetworkInterface Cmdlet 來查看網路介面資訊。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端工作階段執行此 Cmdlet。
-ms.openlocfilehash: 0e72b2550413004038b110292b693dda25affaf8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 482655d36a16158866207e9157d25288e418f7e9ee00dc88ea7a59d653e5c566
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122417"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281796"
 ---
 # <a name="viewing-network-interface-information-in-skype-for-business-server"></a>在商務用 Skype Server 中查看網路介面資訊
 
@@ -24,7 +24,7 @@ ms.locfileid: "51122417"
 
 ## <a name="to-view-network-interface-information"></a>若要查看網路介面資訊
 
-  - 若要查看網路介面資訊，請在商務用 Skype Server 管理命令介面中輸入下列命令，然後按 ENTER 鍵：
+  - 若要查看網路介面資訊，請在商務用 Skype Server 管理命令介面中輸入下列命令，然後按 enter：
     
         Get-CsNetworkInterface
     

@@ -16,28 +16,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
-description: 摘要：瞭解如何在安裝商務用 Skype Server 的過程中建立 Windows Server 檔案共用。 從 Microsoft 評估中心下載免費試用版的商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 63ed4c54154698336bea7adb87db4e81d5fd35b4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解如何在安裝商務用 Skype Server 時建立 Windows 伺服器檔案共用。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
+ms.openlocfilehash: 5b21f2b28c7f4c33105f5cffa96067668a08fbb00978737fd2fbf448cca6a8f7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812233"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310002"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>在商務用 Skype Server 中建立檔案共用
  
-**摘要：** 瞭解如何在安裝商務用 Skype Server 時，建立 Windows Server 檔案共用。 從 Microsoft 評估中心下載免費試用版的商務用 Skype Server，網址如下： [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 。
+**摘要：** 瞭解如何在安裝商務用 Skype Server 中建立 Windows 伺服器檔案共用。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 。
   
-商務用 Skype 伺服器需要檔案共用，使整個拓撲中的電腦可以交換檔案。 建立檔案共用是商務用 Skype 伺服器安裝程式中的步驟2之8。 您可以依任何循序執行步驟1到5。 不過，您必須依序執行步驟6、7和8，並在圖表中所述的步驟1到5之後進行。 如需檔案共用的規劃詳細資料，請參閱商務用 skype server 2019 的 [商務用 Skype 伺服器](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) 或 [伺服器需求](../../../SfBServer2019/plan/system-requirements.md)環境需求。
+商務用 Skype Server 需要檔案共用，使整個拓撲中的電腦可以交換檔案。 建立檔案共用是商務用 Skype Server 安裝程式中的步驟2之8。 您可以依任何循序執行步驟1到5。 不過，您必須依序執行步驟6、7和8，並在圖表中所述的步驟1到5之後進行。 如需檔案共用的規劃詳細資料，請參閱[商務用 Skype Server 2019 商務用 Skype Server 或伺服器需求](../../../SfBServer2019/plan/system-requirements.md)[的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。
   
 ![一覽表圖表](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
   
 ## <a name="create-a-basic-file-share"></a>建立基本檔案共用
 
-本節會逐步引導您建立基本的 Windows Server 檔案共用。 商務用 Skype Server 支援基本 Windows Server 檔案共用。 不過，它並未明確提供高可用性。 在高可用性環境中，建議使用分散式檔案系統 (DFS) 檔案共用。 如需高可用性檔案共用及 DFS 的詳細資訊，請參閱 [在商務用 Skype Server 中規劃高可用性和嚴重損壞修復](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+本節會逐步引導您建立基本的 Windows 伺服器檔案共用。 商務用 Skype Server 支援基本 Windows 伺服器檔案共用。 不過，它並未明確提供高可用性。 在高可用性環境中，建議使用分散式檔案系統 (DFS) 檔案共用。 如需高可用性檔案共用及 DFS 的詳細資訊，請參閱[商務用 Skype Server 中的計畫高可用性和嚴重損壞修復](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
   
 > [!NOTE]
-> Windows Server 2012 R2 已使用 Windows Server 平臺，在提供儲存區域網路 (SAN) 類似的檔案共用解決方案上進行了重大的大幅突破。 與傳統的 SAN 裝置相較時，Windows Server 2012 R2 儲存解決方案可以以極小的效能影響降低成本。 如需有關 Windows Server 2012 R2 中檔案共用選項的詳細資訊，請參閱可下載的白皮書 [Windows Server 2012 R2 Storage](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf)。 
+> Windows Server 2012R2 在提供儲存體區域網路 (SAN) （如使用 Windows 伺服器平臺的檔案共用解決方案）上進行了重大的大幅突破。 與傳統的 SAN 裝置相較時，Windows Server 2012 R2 儲存解決方案可以以極小的效能影響降低成本。 如需 Windows Server 2012 R2 中檔案共用選項的詳細資訊，請參閱可下載的白皮書[Windows Server 2012 R2 儲存體](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf)。 
   
 觀賞 **建立檔案共用** 的影片步驟：
   
@@ -70,7 +70,7 @@ ms.locfileid: "49812233"
 
 >如果您不是檔案伺服器上的系統管理員，或者這是分散式檔案系統 (DFS) 共用，就會發生這種情況。 如果已設定共用許可權，則可以忽略此警告。 如果是新的共用，請參閱檔，以瞭解手動設定共用許可權的詳細資料。
 
->由於無法存取 DFS 共用上的共用許可權，商務用 Skype 伺服器將無法明確設定檔案共用上的群組。 若要確保商務用 Skype Server 元件可以存取具有適當許可權的檔案共用，請確定下列 RTC 群組新增具有「讀取」和「變更層級共用」許可權，除了具有「完全控制」共用許可權的本機管理員之外。
+>由於無法存取 DFS 共用的共用許可權，因此商務用 Skype Server 將無法明確設定檔案共用上的群組。 為了確保商務用 Skype Server 元件可以存取具有適當許可權的檔案共用，請確定下列 RTC 群組新增了「讀取」和「變更層級共用」許可權，除了具備完全控制共用許可權的本機管理員之外。
 * RTCHSUniversalServices
 * RTCComponentUniversalServices
 * RTCUniversalServerAdmins

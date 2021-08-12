@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
-description: 啟用媒體旁路，以在商務用 Skype Server Enterprise Voice 中永遠略過轉送伺服器。
-ms.openlocfilehash: 23d3100e355d100e3dea1932639d70f9290e7ea4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 啟用媒體旁路，以在商務用 Skype Server 企業語音中永遠略過轉送伺服器。
+ms.openlocfilehash: c80b3479546e9154480af8f71417b5ebce43b261510eec19332ecf1cf9287bc4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804213"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310028"
 ---
 # <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>設定商務用 Skype Server 中的媒體旁路，以永遠略過轉送伺服器
  
-啟用媒體旁路，以在商務用 Skype Server Enterprise Voice 中永遠略過轉送伺服器。 
+啟用媒體旁路，以在商務用 Skype Server 企業語音中永遠略過轉送伺服器。 
   
- 如果您使用本主題中的步驟來設定媒體旁路的全域設定，假設您在 [商務用 Skype] 端點和任何對等的使用者之間，您已設定主幹連線上的媒體旁路。
+ 如果您使用本主題中的步驟來設定媒體旁路的全域設定，假設您在商務用 Skype 端點和任何對等的使用者之間，您已設定主幹連線上的媒體旁路。
   
-如果您沒有在商務用 Skype 端點和所有對等機器間都有良好的連線，其各自的主幹連線已啟用媒體旁路，您必須設定全域媒體旁路設定，以在使用媒體旁路時使用網站與地區資訊。 如此可對媒體略過中繼伺服器的時機有更精確的控制。 若要這麼做，請使用在 [商務用 Skype Server 中設定媒體旁路全域設定中的步驟，以使用網站與地區資訊](use-site-and-region-information.md) ，並改為 [將子網與網路網站產生關聯](deploy-network.md#BKMK_AssociateSubnets) 。
+如果您在商務用 Skype 端點和所有對等之間沒有良好的連線能力，且其各自的主幹連線已啟用媒體旁路，您必須設定全域媒體旁路設定，以在使用媒體旁路時使用網站與地區資訊。 如此可對媒體略過中繼伺服器的時機有更精確的控制。 若要這麼做，請使用在[商務用 Skype Server 中設定媒體旁路全域設定中的步驟，使用網站與地區資訊](use-site-and-region-information.md)，並改為[將子網與網路網站產生關聯](deploy-network.md#BKMK_AssociateSubnets)。
   
 ### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>全面啟用媒體旁路以永遠略過中繼伺服器
 
-1. 開啟商務用 Skype Server 控制台。
+1. 開啟商務用 Skype Server 控制台]。
     
 2. 在左導覽列中，按一下 **[網路組態]**。
     

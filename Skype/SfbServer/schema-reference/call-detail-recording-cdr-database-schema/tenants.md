@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
 description: 承租人資料表是一種支援資料表，可儲存各種承租人的清單。 表格中的每筆記錄代表一位承租人。
-ms.openlocfilehash: f22837f21bd431c83848d3b055a36930c9db2fd5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 905e8f3be57601f65d3cb5f6bebff7b4af9ef89dc744a53798f6a6932d269558
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49831713"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281662"
 ---
 # <a name="tenants-table"></a>承租人表格
  
@@ -30,6 +30,6 @@ ms.locfileid: "49831713"
 |**欄**|**資料類型**|**索引鍵/索引**|**詳細資料**|
 |:-----|:-----|:-----|:-----|
 |**TenantId** <br/> |int  <br/> |主要  <br/> |用於識別此租使用者識別碼的唯一號碼。  <br/> |
-|**TenantKey** <br/> |Nvarchar (256)   <br/> || 允許的值： <br/>  00000000-0000-0000-0000-000000000000-企業 <br/>  00000000-0000-0000-0000-000000000001-同盟 <br/>  00000000-0000-0000-0000-000000000002-匿名 <br/>  00000000-0000-0000-0000-000000000003-公用 IM 連線能力 <br/> |
+|**TenantKey** <br/> |Nvarchar (256)   <br/> || 允許的值： <br/>  00000000-0000-0000-0000-000000000000-Enterprise <br/>  00000000-0000-0000-0000-000000000001-同盟 <br/>  00000000-0000-0000-0000-000000000002-匿名 <br/>  00000000-0000-0000-0000-000000000003-公用 IM 連線能力 <br/> |
    
 

@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
-description: 摘要：瞭解商務用 Skype Server 中使用的通話診斷摘要報告。
-ms.openlocfilehash: a0e024abfc083588a755a0d922c0eca23e526058
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解商務用 Skype Server 中所用的通話診斷摘要報告。
+ms.openlocfilehash: 35b6a9ac84bf504b218200ec2ac49e6f19632e520eba90335e9ab0257f4bcfcc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810153"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281836"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>商務用 Skype Server 中的通話診斷摘要報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中使用的通話診斷摘要報告。
+**摘要：** 深入瞭解商務用 Skype Server 所使用的通話診斷摘要報告。
   
 通話診斷摘要報告提供失敗的對等和會議會話的整體外觀。 報告顯示這兩種類型的會話的整體失敗率，並以會話形式的形式進一步打破失敗資訊：
   
@@ -37,7 +37,7 @@ ms.locfileid: "49810153"
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>存取通話診斷摘要報告
 
-通話診斷摘要報告可從監控報告的首頁進行存取。 在 [通話診斷摘要報告] 中，您可以在報告的 [Peer-to-Peer 會話摘要] 區段中，按一下 [失敗率] 區段， [以存取商務用 Skype Server 中的 Peer-to-Peer 活動診斷報告](peer-to-peer-activity-diagnostic-report.md) 。 您也可以 [在商務用 Skype Server 中](conference-diagnostic-report.md) ，按一下下列任何一種會議衡量標準，以存取會議診斷報告：
+通話診斷摘要報告可從監控報告的首頁進行存取。 在 [通話診斷摘要報告] 中，您可以按一下報告之 [Peer-to-Peer 會話摘要] 區段下的 [失敗率]，[以存取商務用 Skype Server 中的 Peer-to-Peer 活動診斷報告](peer-to-peer-activity-diagnostic-report.md)。 您也可以按一下下列任一會議計量，[以在商務用 Skype Server 中存取會議診斷報告](conference-diagnostic-report.md)：
   
 - 整體工作階段失敗率
     
@@ -47,7 +47,7 @@ ms.locfileid: "49810153"
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>通話診斷摘要報告的最佳用法
 
-通話診斷摘要報告包含的圖形會比較用於商務用 Skype Server 之各種形式的失敗率。 這些圖形中的資料行實際上是 hotlinks 的;例如，如果您按一下點對點工作階段的 [立即訊息] 欄，您會 [在商務用 Skype Server 中深入瞭解 Peer-to-Peer 活動診斷報告](peer-to-peer-activity-diagnostic-report.md)的實例，該報告提供 [通話診斷摘要報告] 中所包含之所有立即訊息會話的其他詳細資料。
+通話診斷摘要報告包含的圖形會比較商務用 Skype Server 中所使用之各種形式的失敗率。 這些圖形中的資料行實際上是 hotlinks 的;例如，如果您按一下點對點工作階段的 [立即訊息] 欄，您會[在商務用 Skype Server 中深入瞭解 Peer-to-Peer 活動診斷報告](peer-to-peer-activity-diagnostic-report.md)的實例，該報告提供 [通話診斷摘要報告] 中所包含之所有立即訊息會話的其他詳細資料。
   
 ## <a name="filters"></a>篩選
 

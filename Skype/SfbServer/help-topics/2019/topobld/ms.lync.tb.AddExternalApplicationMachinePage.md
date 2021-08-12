@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e951328e-d06b-4c9d-af21-305b2357188b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在此集區中，指定您要新增為信任的應用程式伺服器之每台電腦的完整功能變數名稱 (FQDN) 。 將電腦新增至清單後，您可以在發行拓撲之前，隨時更新電腦的 FQDN，或將它從集區移除。 發行拓撲之後，要變更 FQDN 便需要在拓撲產生器中刪除伺服器，然後用新的 FQDN 將新的伺服器新增到集區。
-ms.openlocfilehash: a108987a8a9063e51917d4946f4331d3c838c83e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cc1a9028e61aa0c179fbe3f88a399af82b951fc638c12625b37d15bb7a9bc9be
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811833"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281986"
 ---
 # <a name="add-trusted-application-machine"></a>新增信任的應用程式機器
  

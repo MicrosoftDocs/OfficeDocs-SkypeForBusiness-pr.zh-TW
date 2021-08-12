@@ -15,12 +15,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 02afbcc062501a14f0d5d9f3ed905b88b4060992
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5f384baff6aa12b241e69e0214f5aa9561e5c1df68970c949d9448a344b94cb7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108249"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282556"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>工具和研討會：規劃、傳遞及採用Microsoft Teams
 
@@ -29,7 +29,7 @@ ms.locfileid: "51108249"
 
 - [Microsoft Teams客戶成功套件](https://aka.ms/TeamsCustomerSuccess)
 
-    此套件包含各種簡報、電子郵件範本、秘訣&訣竅和海報，可用於在貴組織中推出及推動Teams採用。 它包含兩個適用于系統管理員和小組領導者的快速入門手冊，以及每個部門的使用案例範例。 使用這些資源，充分利用貴Teams的各種功能，包括行銷、銷售、財務、人力資源、IT、工程Project管理。
+    此套件包含各種簡報、電子郵件範本、秘訣&訣竅和海報，可用於在組織中推出和推動Teams採用。 它包含兩個適用于系統管理員和小組領導者的快速入門手冊，以及每個部門的使用案例範例。 使用這些資源來充分利用貴Teams的各種功能，包括行銷、銷售、財務、人力資源、IT、工程Project管理。
 
 - [如何推出 Teams](./deploy-overview.md)
 
@@ -44,7 +44,7 @@ ms.locfileid: "51108249"
 
    您前往Teams，就像我們的企業客戶體驗一樣。 由於Teams租使用者一般可以使用，我們建議您從我們的政府計畫[開始Microsoft 365部署](plan-for-government-gcc.md)文章GCC系統管理快速[入門指南](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)。 我們的[安全性和合規性](security-compliance-overview.md)概觀可協助您Teams環境中的安全性與合規性。
 
-- [Teams教育課程 - 系統管理員快速入門](./teams-quick-start-edu.yml)
+- [Teams 教育版 - 系統管理員快速入門](./teams-quick-start-edu.yml)
 
     使用此教學課程來指導您完成Teams組織的部署。
 

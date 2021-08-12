@@ -15,21 +15,21 @@ appliesto:
 - Microsoft Teams
 f1.keywords: ''
 ms.custom: ''
-description: 瞭解如何從貴組織Teams移除 RestrictedAnonymousAccesss 或會議政策。
-ms.openlocfilehash: aab4b524ee0c9ab5cab3244a0897730fea0361a7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 瞭解如何從貴組織Teams移除 RestrictedAnonymousAccesss 或會議策略。
+ms.openlocfilehash: 347013cff6b704f6eb5f0ac05665b65259e751be645acd16c75c6a0f0cd024a1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121341"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310422"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>從使用者移除 RestrictedAnonymousAccess Teams 會議原則
 
 [會議Microsoft Teams](meeting-policies-in-teams.md)用來控制貴組織中使用者排程會議的會議參與者可用的功能。 
 
-Teams包含名為 RestrictedAnonymousAcces 的內建策略，其中包含預先定義的設定，包括限制匿名使用者啟動會議。  (匿名使用者是尚未通過驗證的使用者。) 系統管理員無法編輯或變更會議策略中的預先定義設定。
+Teams名為 RestrictedAnonymousAccess 的內建策略，其中包含預先定義的設定，包括限制匿名使用者啟動會議。  (匿名使用者是尚未通過驗證的使用者。) 系統管理員無法編輯或變更會議策略中的預先定義設定。
 
-本文將說明如何使用 PowerShell 從指派此策略的使用者移除 RestrictedAnonymousAccess 會議政策。 若要深入瞭解如何使用 PowerShell 管理Teams，請參閱 PowerShell Teams[概觀](teams-powershell-overview.md)。
+本文將說明如何使用 PowerShell 從指派此策略的使用者移除 RestrictedAnonymousAccess 會議策略。 若要深入瞭解如何使用 PowerShell 管理Teams，請參閱[PowerShell Teams概觀](teams-powershell-overview.md)。
 
 ## <a name="before-you-start"></a>在您開始之前
 
@@ -37,7 +37,7 @@ Teams包含名為 RestrictedAnonymousAcces 的內建策略，其中包含預先�
 
 ## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>取得Teams的會議策略指派
 
-請執行下列操作，以取得Teams組織的會議策略指派。
+執行下列操作，以取得Teams組織的會議策略指派。
 
 ```powershell
 Get-CsOnlineUser | Select-Object objectid, TeamsMeetingPolicy | Group-Object TeamsMeetingPolicy
@@ -55,11 +55,11 @@ Count  Name                               Group
 
 ## <a name="unassign-the-restrictedanonymous-meeting-policy-from-users"></a>從使用者取消分配 RestrictedAnonymous 會議策略
 
-若要從使用者移除 RestrictedAnonymous 會議政策，如果您有少數使用者 (例如少於 100 個使用者) ，您可以使用 [Grant-CSTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) Cmdlet。 如果您有大量使用者 (例如超過 100 個使用者) ，使用  [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) Cmdlet 提交批次處理作業會更有效率。
+若要從使用者移除 RestrictedAnonymous 會議政策，如果您有少數使用者 (例如少於 100 個使用者) ，您可以使用 [Grant-CSTeamsMeetingPolicy](/powershell/module/skype/grant-csteamsmeetingpolicy) Cmdlet。 如果您有大量使用者 (例如超過 100 個使用者) ，使用  [New-CsBatchPolicyAssignmentOperation Cmdlet](/powershell/module/teams/new-csbatchpolicyassignmentoperation?view=teams-ps) 提交批次處理作業會更有效率。
 
 ### <a name="use-the-grant-csteamsmeeting-policy-cmdlet"></a>使用 Grant-CsTeamsMeeting Cmdlet
 
-執行下列操作，從使用者移除 RestrictedAnonymous 會議政策。
+執行下列操作，從使用者移除 RestrictedAnonymous 會議策略。
 
 ```powershell
 Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-Object objectid | foreach {Grant-CsTeamsMeetingPolicy -Identity $_.ObjectId -PolicyName $null}

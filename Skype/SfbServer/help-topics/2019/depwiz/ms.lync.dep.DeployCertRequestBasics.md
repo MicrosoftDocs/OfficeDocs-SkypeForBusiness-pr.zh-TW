@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
-description: '[名稱和安全性設定] 頁面提供一個文字方塊，以定義好記的名稱、私密金鑰的位長度的下拉式清單，以及可讓您將憑證的私密金鑰標記為可匯出的核取方塊。'
-ms.openlocfilehash: 5ae91c6fbe1c84d0fee0486dec0ca2efd9717e10
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[名稱與安全性設定] 頁面提供一個文字方塊，以定義好記的名稱、私密金鑰的位長度的下拉式清單，以及可讓您將憑證的私密金鑰標記為可匯出的核取方塊。'
+ms.openlocfilehash: f84e28f6d3e8d067b06cd640e1a532084edc61d9d789f569bae546a6331cae4e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54282219"
 ---
 # <a name="certificate-request-basic"></a>憑證要求 (基本)
  
-[ **名稱和安全性設定** ] 頁面提供一個文字方塊，以定義 **好記的名稱**、私密金鑰的 **位長度** 的下拉式清單，以及可讓您將 **憑證的私密金鑰標記為可匯出** 的核取方塊。
+[**名稱與安全性設定**] 頁面提供一個文字方塊，以定義 **好記的名稱**、私密金鑰的 **位長度** 的下拉式清單，以及可讓您將 **憑證的私密金鑰標記為可匯出** 的核取方塊。
   
 憑證上的易記 (或簡單) 名稱是易於辨識的名稱，可讓檢視憑證的人便於識別。
   

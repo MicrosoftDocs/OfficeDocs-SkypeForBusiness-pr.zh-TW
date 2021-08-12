@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 description: 若要為 Active Directory 網域服務準備架構，您可以在商務用 Skype Server 部署嚮導中執行 [準備架構] 步驟。 按一下 [執行]，開始準備架構。 [準備架構] 步驟會在執行部署嚮導的系統上，于/Program Files/Microsoft Lync Server 2013/部署/安裝目錄中讀取所提供的架構定義檔案。 您也可以在支援/架構目錄的安裝媒體上使用這些檔案。 [準備架構] 步驟會擴充架構並報告程序的狀態。 程序完成時也會通知您。 摘要畫面可讓您檢視程序的記錄。 請檢閱記錄來確定已順利完成準備。
-ms.openlocfilehash: c3279be54ad5f68d5c2ee61d8d3c12c0fc9d9203
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8225b023dec35dc3820e514f19d55100967ce33cd0fd21173e7f92a1b77cb9ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51108619"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54309622"
 ---
 # <a name="prepare-schema"></a>準備架構
  
@@ -29,7 +29,7 @@ ms.locfileid: "51108619"
 > [!IMPORTANT]
 > 若要擴充架構，您必須以 Schema Admins 群組和 Enterprise Admins 群組的成員身分登入網域。 
   
-新增類別和屬性以擴充 Active Directory 網域服務架構，以支援商務用 Skype Server 2015 伺服器、服務和使用者物件。 在擴充架構之前，您應該建立扮演架構主機角色的網域控制站的系統狀態備份。 如需有關 Windows Server 2008 R2 備份程式的詳細資訊 SP1，請參閱 [https://go.microsoft.com/fwlink/p/?linkId=207198](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee849849(v=ws.10)) 。 若為 Windows Server 2003 和 Windows Server 2003 R2，請參閱 [https://go.microsoft.com/fwlink/p/?linkId=207199](/previous-versions/windows/it-pro/windows-server-2003/cc787254(v=ws.10)) 。
+新增類別和屬性以擴充 Active Directory 網域服務架構，以支援商務用 Skype Server 2015 Server、service 及 user 物件。 在擴充架構之前，您應該建立扮演架構主機角色的網域控制站的系統狀態備份。 如需 Windows Server 2008 R2 （含 SP1）備份程式的詳細資訊，請參閱 [https://go.microsoft.com/fwlink/p/?linkId=207198](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee849849(v=ws.10)) 。 如 Windows server 2003 和 Windows Server 2003 R2，請參閱 [https://go.microsoft.com/fwlink/p/?linkId=207199](/previous-versions/windows/it-pro/windows-server-2003/cc787254(v=ws.10)) 。
   
 > [!CAUTION]
 > 擴充架構之後無法還原。 您應該致力限制架構延伸模組失敗可能的影響範圍，並確保架構擴充成功。 在伺服器發生失去通訊或任何其他失敗時，這一點尤其重要。 您應該對架構主機網域控制站執行備份，並執行 Active Directory 的完整備份。 
@@ -47,4 +47,4 @@ ms.locfileid: "51108619"
 5. 在架構擴充失敗的情況下，請使用您先前建立的系統狀態備份，還原網域控制站和 Active Directory 的系統狀態。
     
 > [!NOTE]
-> 如果您需要複查由商務用 Skype Server 部署嚮導所建立的記錄檔，您可以在執行該步驟的 Active Directory 使用者的使用者目錄中，找到執行「部署」嚮導」之電腦上的檔案。 例如，如果使用者登入網域 Contoso.net 中的網域管理員，則記錄檔位於： C:\Users\Administrator.Contoso\AppData\Local\Temp 
+> [！注意] 如果您需要複查商務用 Skype Server 部署嚮導所建立的記錄檔，您可以在執行該步驟的 Active directory 使用者的使用者目錄中，找到執行「部署」嚮導」之電腦上的檔案。 例如，如果使用者登入網域 Contoso.net 中的網域管理員，則記錄檔位於： C:\Users\Administrator.Contoso\AppData\Local\Temp 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯現有 Director 的設定，您會看到下列區段：
-ms.openlocfilehash: 62dc9b855937d360a975e5e4035d662da276ce02
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: c102041c064ee21256264d3a84334e9d2199546daf5cfffa7350325762522d1c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822623"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281976"
 ---
 # <a name="director-general-settings-expander"></a>Director 一般設定展開工具
  

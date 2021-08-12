@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 瞭解如何在 商務用 Skype 中修正系統管理員Microsoft 365 Office 365。
-ms.openlocfilehash: b64cd39cee9a9981c5a5d605953d1e11c5ba06f0
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: 瞭解如何修正系統管理員和使用者商務用 Skype Microsoft 365 Office 365。
+ms.openlocfilehash: da0668c8ead3dee48e1829a0871fe2a175bddc5b722f036c61bc3abc5027cb6a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310102"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>疑難排解線上商務用 Skype問題
 
@@ -77,7 +77,7 @@ ms.locfileid: "52239412"
 ## <a name="still-need-help-contact-support"></a>仍然需要協助嗎？ 請與支援人員聯繫。
 <a name="BK_SupportBridge_1"> </a>
 
-做為系統管理員Microsoft 365 Apps 商務版，您可以免費存取我們知識豐富的支援代理人，以取得售前、帳戶和帳單支援，以及解決技術問題的協助。 您也可以代表[貴組織](/microsoft-365/Admin/contact-support-for-business-products)的使用者Microsoft 365 Office 365客戶支援。
+做為系統管理員Microsoft 365 Apps 商務版，您可以免費存取我們知識豐富的支援代理人，以取得售前、帳戶和帳單支援，以及解決技術問題的協助。 您也可以代表[貴組織中](/microsoft-365/Admin/contact-support-for-business-products)Microsoft 365使用者Office 365客戶支援。
 
 - [從社群論壇Microsoft 365 Office 365取得協助](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 

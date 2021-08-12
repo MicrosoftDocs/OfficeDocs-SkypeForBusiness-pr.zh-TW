@@ -12,22 +12,22 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
-description: 在您部署及操作商務用 Skype Server 之前，您必須透過擴充架構來準備 Active Directory 網域服務。 架構擴充新增商務用 Skype Server 所需的類別和屬性。
-ms.openlocfilehash: 4ca18b0ccfde6b247f1c29e140004804462d0f56
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在您部署和操作商務用 Skype Server 之前，您必須透過擴充架構來準備 Active Directory 網域服務。 架構擴充新增商務用 Skype Server 所需的類別和屬性。
+ms.openlocfilehash: 486d642621869cbb23051d2957614f35aa2c67fcda1c539862b05925787f180d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281656"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>商務用 Skype Server 中的架構變更
  
-在您部署及操作商務用 Skype Server 之前，您必須透過擴充架構來準備 Active Directory 網域服務。 架構擴充新增商務用 Skype Server 所需的類別和屬性。
+在您部署和操作商務用 Skype Server 之前，您必須透過擴充架構來準備 Active Directory 網域服務。 架構擴充新增商務用 Skype Server 所需的類別和屬性。
 
 > [!NOTE]
-> 如果您是從 Lync Server 2013 升級至商務用 Skype Server 2015，則不會進行任何架構變更，因此不會套用這篇文章。
+> 如果您是從 Lync Server 2013 升級為商務用 Skype Server 2015，則不會進行任何架構變更，因此本文也不適用。
   
-商務用 Skype 伺服器需要數個新的類別和屬性，並修改一些現有的類別和屬性。 此外，商務用 Skype 伺服器的大部分設定資訊都會儲存在中央管理存放區，而不是 AD DS 中，就像先前的版本一樣。 下列資訊仍儲存在 AD DS 中的商務用 Skype Server 中：
+商務用 Skype Server 需要數個新的類別和屬性，並修改一些現有的類別和屬性。 此外，商務用 Skype Server 的大部分設定資訊都會儲存在中央管理存放區，而不是在先前的版本中儲存在 AD DS 中。 下列資訊仍儲存在 AD DS 中商務用 Skype Server：
   
 - **架構擴充**：
     
@@ -35,25 +35,25 @@ ms.locfileid: "49813573"
     
   - 用於維護與支援之舊版 Lync Server 的回溯相容性的類別擴充。
     
-- 儲存在商務用 Skype Server 擴充架構和現有架構類別中的 **資料** () ：
+- 儲存在商務用 Skype Server 擴充架構和現有架構類別) 中的 **資料** (：
     
   - 使用者 SIP 統一資源識別項 (URI) 和其他使用者設定
     
-  - 回應群組和會議助理等應用程式的連絡人物件
+  - 回應群組和會議語音應答等應用程式的連絡人物件
     
   - 中央管理存放區的指標
     
   - Kerberos 驗證帳戶 (選用的電腦物件) 
     
-本主題說明商務用 Skype Server 所需的 Active Directory 架構變更。 它不會描述先前版本的 Office 通訊伺服器所引進的架構變更。 如需類別及其描述的清單，請參閱 [在商務用 Skype Server 中的架構類別和描述](schema-classes-and-descriptions.md)。 如需屬性及其描述的清單，請參閱 [商務用 Skype Server 中的架構屬性和描述](schema-attributes-and-descriptions.md)。 如需其屬性可能包含的類別清單，請參閱 [在商務用 Skype Server 中的類別架構屬性依類別](schema-attributes-by-class.md)。
+本主題說明商務用 Skype Server 所需的 Active Directory 架構變更。 它不會描述先前版本的 Office 通訊伺服器所引進的架構變更。 如需類別及其描述的清單，請參閱[商務用 Skype Server 中的架構類別和描述](schema-classes-and-descriptions.md)。 如需屬性及其描述的清單，請參閱[商務用 Skype Server 中的架構屬性和描述](schema-attributes-and-descriptions.md)。 如需可包含其屬性的類別清單，請參閱[Schema attributes in 商務用 Skype Server 中的類別](schema-attributes-by-class.md)。
   
-MsRTCSIP 首碼可識別商務用 Skype Server 專用的類別和屬性。
+msRTCSIP 首碼可識別商務用 Skype Server 特有的類別和屬性。
   
 ## <a name="new-active-directory-attributes"></a>新的 Active Directory 屬性
 
-下表說明商務用 Skype Server 新增的 Active Directory 屬性。
+下表說明商務用 Skype Server 所新增的 Active Directory 屬性。
   
-**商務用 Skype Server 新增的屬性**
+**商務用 Skype Server 所新增的屬性**
 
 |**屬性**|**描述**|
 |:-----|:-----|
@@ -63,7 +63,7 @@ MsRTCSIP 首碼可識別商務用 Skype Server 專用的類別和屬性。
    
 ## <a name="modified-active-directory-classes"></a>修改的 Active Directory 類別
 
-下表說明商務用 Skype Server 所修改的 Active Directory 類別。
+下表說明商務用 Skype Server 修改的 Active Directory 類別。
   
 **商務用 Skype Server 修改的類別**
 

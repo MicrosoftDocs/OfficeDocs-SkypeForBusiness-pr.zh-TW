@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此節點會顯示完整功能變數名稱 (FQDN) 、關聯的轉送伺服器，以及此公用交換電話網路 (PSTN) 閘道的其他基本資訊。 您可以執行下列動作：
-ms.openlocfilehash: 9b9a9b54a52a78aa0f1262dc2c045785304b104c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3d6feb83a76ef1cd1df27e5c03fe7918df0ff7bf8f988e7f2fd1939904e3cc75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281866"
 ---
 # <a name="pstn-gateway-scope-node"></a>PSTN 閘道範圍節點
  

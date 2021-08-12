@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 協助腳本以透過 OAuth 通訊協定設定 Microsoft 365 或 Office 365 的 SFB 2019 控制台驗證。
-ms.openlocfilehash: 76f8444e78dfe31e008ea24be31c0e7b788b3130
-ms.sourcegitcommit: da2a70a9b5e05d0fd7ecc150b451f5805667514c
+description: 協助腳本透過 OAuth 通訊協定設定 Microsoft 365 或 Office 365 的 SFB 2019 控制台驗證。
+ms.openlocfilehash: c52e799740188e85e41af46339f40f4c29b61c037bc1c28b8257b1001a5b43c9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "50756219"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54281496"
 ---
 # <a name="skype-for-business-server-2019-control-panel-authentication-script"></a>商務用 Skype Server 2019 控制台驗證腳本
 
@@ -26,7 +26,7 @@ ms.locfileid: "50756219"
 
 ## <a name="configure-macp-authentication-with-microsoft-365-or-office-365"></a>使用 Microsoft 365 或 Office 365 設定 MACP 驗證
 
-安裝商務用 Skype Server 2019 累積更新1或更新版本時，應執行此腳本，以供您設定新的 [控制台] 的一部分。 
+安裝商務用 Skype Server 2019 累積更新1或更新版本時，應執行此腳本，以供您設定新控制台的一部分。 
 
 ```powershell
 <#
@@ -133,7 +133,7 @@ Set-CsHybridConfiguration -ClientId $azureADApplication.AppId
 ```
 ## <a name="configure-macp-application-in-adfs-farm"></a>在 ADFS 伺服器陣列中設定 MACP 應用程式
 
-安裝商務用 Skype Server 2019 最新的累計更新後，應執行此腳本，以供您設定新控制台的一部分。
+安裝商務用 Skype Server 2019 最新的累計更新後，應執行此腳本，以供您設定新的 [控制台] 的一部分。
 
 ```powershell
 <#
@@ -311,7 +311,7 @@ Get-AdfsNativeClientApplication -Identifier $clientIdentifier
 ```
 ## <a name="configure-oauth-for-macp"></a>設定 MACP 的 OAuth
 
-安裝商務用 Skype Server 2019 最新的累計更新後，應執行此腳本，以供您設定新控制台的一部分。
+安裝商務用 Skype Server 2019 最新的累計更新後，應執行此腳本，以供您設定新的 [控制台] 的一部分。
 
 ```powershell
 <#
