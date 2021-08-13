@@ -12,29 +12,29 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: 本主題討論連接至遠端虛擬桌面時使用商務用 Skype 的部署程式。
-ms.openlocfilehash: 6db05fb3bcd9638a3181eb454de3a3097831b997
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0a1e96db4dd59d57ea89a84624c3a103fb73669179130e82030d00b9943e0fb4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095997"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325510"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>使用商務用 Skype Server 部署 Lync VDI 外掛程式
  
-本主題討論連接至遠端虛擬桌面時使用商務用 Skype 的部署程式。 規劃考慮是在 [VDI 環境中規劃商務用 Skype](../../plan-your-deployment/clients-and-devices/vdi-environments.md)。
+本主題討論連接至遠端虛擬桌面時使用商務用 Skype 的部署程式。 規劃的考慮是在[VDI 環境中規劃商務用 Skype](../../plan-your-deployment/clients-and-devices/vdi-environments.md)。
   
-在安全性與合規性問題尤其敏感的某些組織中，會使用 (VDI) 環境的虛擬桌面基礎結構。 他們的使用者位於本機 Windows 電腦上，並使用虛擬機器上的用戶端。 在需要其他 VDI 外掛程式軟體的連線上使用商務用 Skype。
+在安全性與合規性問題尤其敏感的某些組織中，會使用 (VDI) 環境的虛擬桌面基礎結構。 他們的使用者位於本機 Windows 電腦上，並使用虛擬機器上的用戶端。 在需要其他 VDI 外掛程式軟體的連接上使用商務用 Skype。
   
 有兩個可用於 VDI 外掛程式元件的解決方案，一種是由 Microsoft 提供，另一個是 Citrix 所提供。 Microsoft 建議在新的部署中使用新的 HDX 即時優化套件解決方案，但會繼續支援其生命週期其餘部分的原始 Lync VDI 外掛程式。 
   
-本主題提供有關部署 Microsoft Lync VDI 外掛程式的詳細資料，此外掛程式只支援 Windows 7 和 Windows 8 或 Windows Server 2008，且只支援 Lync 2013 或商務用 Skype 用戶端。 沒有任何計畫可以更新此外掛程式，但是商務用 Skype 的 [CITRIX HDX 即時優化套件](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) 將會視需要更新。
+本主題提供有關部署 Microsoft Lync VDI 外掛程式的詳細資料，該外掛程式只支援 Windows 7 及 Windows 8 或 Windows Server 2008，而且只支援 Lync 2013 或商務用 Skype 用戶端。 沒有任何計畫可以更新此外掛程式，但是會視需要更新商務用 Skype 的[Citrix HDX 即時優化套件](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT)。
   
 ## <a name="prepare-your-environment-for-the-lync-vdi-plug-in"></a>準備您的環境以進行 Lync VDI 外掛程式
 <a name="Prepare_vdi"> </a>
 
-1. 在商務用 Skype Server 中，確定所有 Lync VDI 外掛程式使用者的 EnableMediaRedirection 設定為 TRUE。 如需詳細資訊，請參閱 [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) Cmdlet 及 [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps) Cmdlet 的說明主題。
+1. 在商務用 Skype Server 中，確定所有的 Lync VDI 外掛程式使用者 EnableMediaRedirection 設定為 TRUE。 如需詳細資訊，請參閱 [New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) Cmdlet 及 [Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps) Cmdlet 的說明主題。
     
-2. 在資料中心伺服器上，在所有虛擬機器上安裝商務用 Skype 用戶端。
+2. 在資料中心伺服器上，將商務用 Skype 用戶端安裝在所有虛擬機器上。
     
 3. 在本機電腦上，安裝 Lync VDI 外掛程式。
     
@@ -45,34 +45,34 @@ ms.locfileid: "51095997"
 
 若要準備 Lync VDI 外掛程式的遠端桌面連線，請在本機電腦上執行下列步驟：
   
-1. 如果本機電腦正在執行 Windows 8，請略過此步驟。 如果本機電腦執行的是 Windows 7 與 SP1，請安裝最新的 Windows 8 版的 [遠端桌面服務用戶端](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)。
+1. 如果本機電腦正在 Windows 8 執行，請跳過此步驟。 如果本機電腦使用 SP1 執行 Windows 7，請安裝最新的 Windows 8 版本的[遠端桌面服務用戶端](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)。
     
 2. 按一下 [ **開始**]，然後按一下 [ **遠端桌面** 連線]，以啟動遠端桌面服務用戶端。
     
 3. 按一下 **[選項]**。
     
-4. 按一下 [ **本機資源** ] 索引標籤。在 [ **遠端音訊**] 底下，按一下 [ **設定**]，然後執行下列動作：
+4. 按一下 [**本機資源**] 索引標籤。在 [**遠端音訊**] 底下，按一下 [**設定**]，然後執行下列動作：
     
    - 在 [ **遠端音訊播放**] 底下，選取 [ **在此電腦上播放**]。
     
    - 在 [ **遠端音訊錄製**] 底下，選取 [不 **錄製**]。
     
-   - 按一下 **[確定]**。
+   - 按一下 ****[確定]。
     
 5. 按一下 [ **體驗** ] 索引標籤。在 [ **效能**] 下，清除 [ **持續性點陣圖** 快取] 核取方塊。
     
-6. 按一下 [ **一般** ] 索引標籤。在 [ **電腦**] 中，輸入虛擬機器的名稱，然後按一下 **[連接]**。 
+6. 按一下 [**一般**] 索引標籤。在 [**電腦**] 中，輸入虛擬機器的名稱，然後按一下 [**連線**]。 
     
 ## <a name="sign-in-and-use-skype-for-business-on-the-virtual-desktop"></a>在虛擬機器上登入和使用商務用 Skype
 <a name="SfB_signin"> </a>
 
-啟用 Lync VDI 外掛程式之後，當使用者在虛擬機器上登入商務用 Skype 時，請遵循下列步驟。
+啟用 Lync VDI 外掛程式之後，使用者在虛擬機器上登入商務用 Skype 時請遵循下列步驟。
   
-1. 使用者在虛擬機器上的商務用 Skype 用戶端中輸入其認證。
+1. 使用者在虛擬機器上的商務用 Skype 用戶端中輸入認證。
     
 2. 商務用 Skype 偵測 Lync VDI 外掛程式之後，商務用 Skype 會提示使用者重新輸入認證。 建議使用者在此對話方塊中選取 **[儲存我的密碼]** 核取方塊，這樣在後續的登入中就不需要輸入認證。
     
-3. 商務用 Skype 開始配對 Lync VDI 外掛程式。 在這種情況下，用戶端會在商務用 Skype 狀態列中顯示兩個圖示。 左下方的圖示會指出沒有音訊裝置可用，而右下方的閃爍圖示表示 VDI 配對正在進行中： a。 在 VDI 配對成功後，圖示會變更，以指出將用於通話的音訊裝置和 VDI 配對成功： b。 現在，使用者可以在連接至本機電腦的商務用 Skype 相容裝置上看到其狀態，並照常撥打和接聽電話。
+3. 商務用 Skype 會開始配對 Lync VDI 外掛程式。 在這種情況下，用戶端會在商務用 Skype 狀態列中顯示兩個圖示。 左下方的圖示會指出沒有音訊裝置可用，而右下方的閃爍圖示表示 VDI 配對正在進行中： a。 在 VDI 配對成功後，圖示會變更，以指出將用於通話的音訊裝置和 VDI 配對成功： b。 使用者現在可以在連接至本機電腦的商務用 Skype 相容裝置上看到其狀態，並照常撥打和接聽電話。
     
 ## <a name="troubleshoot-the-lync-vdi-plug-in"></a>Lync VDI 外掛程式疑難排解
 <a name="tshoot_VDI"> </a>
@@ -99,7 +99,7 @@ ms.locfileid: "51095997"
     
 - **有另一個遠端桌面用戶端執行個體正在執行中。**
     
-    如果他們使用 Windows 中的遠端桌面連線，則使用者應該執行下列作業：
+    如果他們使用 Windows 中的遠端桌面連線，使用者應執行下列動作：
     
 1. 啟動工作管理員：按 **Alt+Ctrl+Delete** 鍵，然後按一下 [啟動工作管理員]。
     
@@ -111,7 +111,7 @@ ms.locfileid: "51095997"
     
 - **必要檔案安裝不正確。**
     
-    在本機電腦上安裝外掛程式之後，請檢查這些檔案是否存在於 C:\Program Files\Microsoft Office\Office15 (或適當的磁碟機號) ：
+    在本機電腦上安裝外掛程式之後，請檢查這些檔案是否存在於 C:\Program files \ Microsoft Office \Office15 (或適當的磁碟機號) 上：
     
   - LyncVdiPlugin.dll
     

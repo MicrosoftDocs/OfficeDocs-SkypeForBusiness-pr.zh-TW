@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6656871e2232df82f81bfea4568cf857e4271d79
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 58994b28bbcba6d88637dbd580b822d689a55124d85987e4b50a47400512cdb9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52855902"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310851"
 ---
 # <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>使用者意見回饋方法的最佳作法Microsoft Teams
 
@@ -33,8 +33,8 @@ ms.locfileid: "52855902"
 
 - 您可以使用 Yammer提供開放式社群，以獲得最佳作法和支援體驗。
 
-Community導向的意見回饋方法需要支援者和服務擁有者參與。 我們建議您建立監控排程，以在這些成員之間旋轉。 其中一個提示是，在 Microsoft Teams中建立一個獨立的團隊，讓這些領軍者先共同合作、共用資源及最佳做法，然後再與更廣泛的團隊共用。 支援者會向採用新服務的使用者提供建議角色，為變更提供一個親切且人性化的面容，以及與您的部署小組其他成員共同合作以提出和解決問題。
+Community導向的意見回饋方法需要支援者和服務擁有者參與。 我們建議您建立監控排程，以在這些成員之間旋轉。 其中一個提示是，在 Microsoft Teams中建立一個獨立的團隊，讓這些領軍者先共同合作、共用資源及最佳做法，然後再與更廣泛的團隊共用。 支援者會為採用新服務的使用者提供建議角色、為變更提供親切且人性化的面容，以及與您的部署小組其他成員共同提出和解決問題。
 
 ## <a name="showcases"></a>展示
 
-當您繼續此旅程時，您可以在您自己的員工環境中找到展示，這些員工對Microsoft Teams的創意會令您感到驚喜和愉悅。 廣泛分享這些展示。 這會鼓勵其他人創新、教育可能更早採用曲線的使用者，並獎勵那些花時間思考如何在環境中Microsoft Teams最佳方式的使用者。 設定可測量的目標，以找出每個季度的一組展示專案，有助於維持您的採用動力。
+當您繼續此旅程時，您可以在您自己的員工環境中找到展示，這些員工對Microsoft Teams的創意會令您感到驚喜和愉悅。 廣泛分享這些展示。 這會鼓勵其他人創新，教育採用曲線可能更早的使用者，並獎勵那些花時間思考如何在環境中Microsoft Teams最佳方式的使用者。 設定可測量的目標，以找出每個季度的一組展示專案，有助於維持您的採用動力。

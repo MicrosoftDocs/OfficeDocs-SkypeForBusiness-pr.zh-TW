@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
-description: 如需使用部署嚮導來安裝商務用 Skype Server 2015 的詳細資訊，請參閱安裝商務用 Skype Server 2015。
-ms.openlocfilehash: 35c27279cd532ad0ae6fecb101780f23ed2b8264
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 如需使用部署嚮導安裝商務用 Skype Server 2015 的詳細資訊，請參閱 install 商務用 Skype Server 2015。
+ms.openlocfilehash: 7af1dd1f55d6e28fd26e274a2721a420dced4a76e2ce8e29e60a89cd3d6c73a3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299849"
 ---
 # <a name="deployment-wizard-unified-communications-api"></a>部署精靈：整合通訊 API
  
-如需使用部署嚮導來安裝商務用 Skype Server 2015 的詳細資訊，請參閱 [安裝商務用 Skype server 2015](../../deploy/install/install.md)。
+如需使用部署嚮導安裝商務用 Skype Server 2015 的詳細資訊，請參閱[install 商務用 Skype Server 2015](../../deploy/install/install.md)。
   
 

@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: '瞭解在系統管理中心，以及當您的服務移商務用 Skype另一個 Microsoft 資料中心時，您能夠及無法使用的功能。 '
-ms.openlocfilehash: 725a60be96a2d61bcec6367e1a0a33f2bc5dcee6
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: f00f349a42ddea2de1019d206cc2097f1e7b29eaca78e5e0e19c1996f3782f43
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238914"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300419"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>為什麼我目前無法使用 商務用 Skype管理中心？
 
@@ -48,11 +48,11 @@ ms.locfileid: "52238914"
     
 - **移移** 這和「移動」幾乎一樣。 在這種情況下，這表示我們將您的線上使用者商務用 Skype和設定從一個資料中心移往另一個離您較近的資料中心，以改善您的服務。
     
-- **延遲** 這是您存取系統管理中心Microsoft 365變更設定，然後儲存這些變更所花的時間。
+- **延遲** 這是您存取帳戶、進行Microsoft 365 系統管理中心，然後儲存這些變更所花的時間。
     
 - **相關識別碼** 您可能在剛收到的郵件中看到此訊息。 Microsoft 支援工程師會使用這項資訊來説明您疑難排解錯誤。 如果您與 Microsoft 支援服務聯繫，系統可能會要求您提供相關識別碼。
     
-因此，這一切代表我們正在將您所有的線上商務用 Skype和服務設定移動到離您較近的另一個位置。 越接近越好。 好消息是，經過這一段短時間之後，您的線上商務用 Skype將會改善。
+因此，這一切代表我們正在將您所有的線上使用者商務用 Skype服務設定移動到離您較近的另一個位置。 越接近越好。 好消息是，經過這一段短時間之後，您的線上商務用 Skype將會改善。
   
 ![在 Microsoft 365 或 Office 365 中的服務移Office 365](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   

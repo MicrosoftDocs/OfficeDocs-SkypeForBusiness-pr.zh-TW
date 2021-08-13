@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: 用戶端版本原則是由一組用戶端版本規則所組成。當使用者嘗試以特定用戶端及用戶端版本登入時，這些規則會定義所要採取的動作。
-ms.openlocfilehash: 4c46a93e46e1e07865a466a666a450a766c6897e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: dd35979ce67f33f053e89ea941f5e911733d6f16efa2b6b6a2a10c49d2e63884
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103449"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54314629"
 ---
 # <a name="client-version-rule"></a>用戶端版本規則
 
@@ -43,19 +43,19 @@ ms.locfileid: "51103449"
 
 |**用戶端名稱**|**使用者代理程式**|
 |:-----|:-----|
-|Lync 2013、Lync 2010、Office Communicator  <br/> |Oc  <br/> |
-|Lync Web App、Communicator Web Access  <br/> |NM-CWA-13-NO-VERSION  <br/> |
-|Lync Phone Edition、Office Communicator Phone  <br/> |OCPhone  <br/> |
+|lync 2013、lync 2010 Office Communicator  <br/> |Oc  <br/> |
+|Lync web App （Communicator Web 存取）  <br/> |NM-CWA-13-NO-VERSION  <br/> |
+|Lync 電話 Edition，Office Communicator 電話  <br/> |OCPhone  <br/> |
 |Communicator Phone Edition 平台  <br/> |Cpe  <br/> |
 |Unified Communications 平台  <br/> |UCCP  <br/> |
 |Lync 2010 Attendee  <br/> |Aoc  <br/> |
 |Live Meeting 增益集  <br/> |LiveMeetingAddins  <br/> |
 |Office Live Meeting  <br/> |LMC  <br/> |
-|Windows Messenger  <br/> |Wm  <br/> |
+|Windows信使  <br/> |Wm  <br/> |
 |即時通訊用戶端  <br/> |Rtc  <br/> |
-|Lync 2010 for iPad  <br/> |iPadLync  <br/> |
-|適用于 iPhone 的 Lync 2010  <br/> |iPhoneLync  <br/> |
-|適用于 Windows Phone 的 Lync 2010  <br/> |WPLync  <br/> |
+|iPad 的 Lync 2010  <br/> |iPadLync  <br/> |
+|iPhone 的 Lync 2010  <br/> |iPhoneLync  <br/> |
+|Windows Phone 的 Lync 2010  <br/> |WPLync  <br/> |
 |Lync 2010 for Nokia  <br/> |NokiaLync  <br/> |
 |適用于 Android 的 Lync 2010  <br/> |AndroidLync  <br/> |
 |行動性服務  <br/> |McxService  <br/> |
@@ -88,7 +88,7 @@ ms.locfileid: "51103449"
 
   - **允許** 允許用戶端登入。
 
-  - **允許和升級** 允許用戶端登入和接收來自 Windows Server Update Service 或 Microsoft Update 的更新。 只有在選取 [使用者代理 **OC** ] 時，才可使用此動作。
+  - **允許和升級** 允許用戶端登入或接收 Windows Server Update Service 或 Microsoft Update 的更新。 只有在選取 [使用者代理 **OC** ] 時，才可使用此動作。
 
     > [!NOTE]
     > 選取此動作會在使用者下一次登入商務用 Skype 時顯示通知。 通知指出有可用的更新，即使更新還沒有發佈至 Windows Server Update Service 或 Microsoft Update。 若要避免混淆，您應該僅在更新可用時選擇此動作。
@@ -101,4 +101,4 @@ ms.locfileid: "51103449"
 
   - **以 URL 封鎖** 禁止用戶端登入並且顯示哪裡可以下載其他用戶端版本的訊息。您要在 [URL] 欄位中指定 URL。
 
-如需用戶端和用戶端版本間互通性的詳細資訊，請參閱規劃文件中的＜[Client Interoperability in Lync 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013)＞。 如需使用用戶端版本設定的詳細資訊，請參閱作業文件中的＜[Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted)＞。
+如需用戶端和用戶端版本間互通性的詳細資訊，請參閱規劃文件中的＜[Client Interoperability in Lync 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013)＞。如需使用用戶端版本設定的詳細資訊，請參閱作業文件中的＜[Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted)＞。

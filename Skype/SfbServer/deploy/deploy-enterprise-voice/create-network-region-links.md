@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-description: 在商務用 Skype Server 中建立或修改網路地區連結，以供 Enterprise Voice 通話許可控制使用。
-ms.openlocfilehash: 5fd9657b3919e80552a82912550e7314297182cc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 建立或修改網路地區連結，這些連結是由商務用 Skype Server 中企業語音通話許可控制使用。
+ms.openlocfilehash: a332d3cb966247118d951626ac305c4a9f85e21d4b90b6011a07a1220f01170a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093101"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325460"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>在商務用 Skype Server 中建立網路地區連結
  
-在商務用 Skype Server 中建立或修改網路地區連結，以供 Enterprise Voice 通話許可控制使用。 
+建立或修改網路地區連結，這些連結是由商務用 Skype Server 中企業語音通話許可控制使用。 
   
 網路中的區域是透過實體 WAN 連線相互連結。 網路地區連結會在設定為通話許可控制的兩個地區之間建立連結 (CAC) 並設定這些地區之間音訊和影片流量的頻寬限制。
   
-這個範例拓撲有一個北美和 APAC 地區之間的連結，以及 EMEA 和 APAC 地區之間的連結。 每個地區連結都受 WAN 頻寬限制，如地區連結頻寬資訊表格中所述 [：在商務用 Skype Server 中收集通話許可控制的需求](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
+這個範例拓撲有一個北美和 APAC 地區之間的連結，以及 EMEA 和 APAC 地區之間的連結。 每個地區連結都受 WAN 頻寬限制，如地區連結頻寬資訊表格中所述[：在商務用 Skype Server 中收集通話許可控制的需求](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)。
   
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面建立網路地區連結
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 2. 執行 New-CsNetworkRegionLink Cmdlet 來建立地區連結，並套用適當的頻寬原則設定檔。 例如，執行：
     
@@ -47,7 +47,7 @@ ms.locfileid: "51093101"
 
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台建立網路地區連結
 
-1. 開啟商務用 Skype Server 控制台。
+1. 開啟商務用 Skype Server 控制台]。
     
 2. 在左導覽列中，按一下 **[網路組態]**。
     

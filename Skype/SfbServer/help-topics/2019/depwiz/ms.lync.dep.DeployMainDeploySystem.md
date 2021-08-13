@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要開始安裝，或更新現有商務用 Skype Server 的部署，請按一下 [安裝或更新商務用 Skype 伺服器]。 本節中的步驟會根據拓撲產生器檔，安裝指定伺服器角色特有的元件。 在您開始執行這系列步驟之前，必須先在拓撲產生器中定義部署。 您必須以本機系統管理員身分登入您要部署的電腦，並以伺服器所在網域的 Domain Admins 群組成員身分登入。 完成此步驟之前，電腦必須已加入網域。
-ms.openlocfilehash: 9d1c3fdfd8010649fb913cf792ae11faf0b8dcf5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 若要開始安裝，或更新商務用 Skype Server 的現有部署，請按一下 [安裝或更新商務用 Skype Server]。 本節中的步驟會根據拓撲產生器檔，安裝指定伺服器角色特有的元件。 在您開始執行這系列步驟之前，必須先在拓撲產生器中定義部署。 您必須以本機系統管理員身分登入您要部署的電腦，並以伺服器所在網域的 Domain Admins 群組成員身分登入。 完成此步驟之前，電腦必須已加入網域。
+ms.openlocfilehash: 4b1b925f0fbe6abcd0afb727965e98b9b35271e9076d9778dc423ea9c1ae0bf5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097329"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325340"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>安裝或更新商務用 Skype Server 系統
 
-若要開始安裝，或更新現有商務用 Skype Server 的部署，請按一下 [ **安裝或更新商務用 Skype 伺服器**]。 本節中的步驟會根據拓撲產生器檔，安裝指定伺服器角色特有的元件。 在您開始執行這系列步驟之前，必須先在拓撲產生器中定義部署。 您必須以本機系統管理員身分登入您要部署的電腦，並以伺服器所在網域的 Domain Admins 群組成員身分登入。 完成此步驟之前，電腦必須已加入網域。
+若要開始安裝，或更新商務用 Skype Server 的現有部署，請按一下 [**安裝或更新商務用 Skype Server**]。 本節中的步驟會根據拓撲產生器檔，安裝指定伺服器角色特有的元件。 在您開始執行這系列步驟之前，必須先在拓撲產生器中定義部署。 您必須以本機系統管理員身分登入您要部署的電腦，並以伺服器所在網域的 Domain Admins 群組成員身分登入。 完成此步驟之前，電腦必須已加入網域。
 
 若要更新目前已部署的伺服器，則必須在拓撲產生器中進行所要的變更。
 

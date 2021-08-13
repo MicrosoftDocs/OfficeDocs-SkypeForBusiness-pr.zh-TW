@@ -16,28 +16,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e45732261d7ad9f1298d2aa865f84619bb7bbcd
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 798f9ff2a63291b3f110bf6fedd085609f71585c6b31a10d8afbe2e495f5ac0a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646934"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310831"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>購買、設定及啟用職涯教練Microsoft Teams
 
-職涯教練是由Microsoft Teams 教育版提供個人化LinkedIn，提供個人化指引供高教學生流覽其事業歷程的 App。 職涯教練為教育機構提供統一的生涯解決方案，讓學生探索其事業路徑、培養實際技能，以及將網路全部建在一個地方。
+職涯教練是一Microsoft Teams 教育版由 LinkedIn提供個人化指引的 App，為高教學生流覽其事業歷程提供個人化指引。 職涯教練為教育機構提供統一的生涯解決方案，讓學生探索其事業路徑、培養實際技能，以及將網路全部建在一個地方。
 
 ## <a name="supported-languages"></a>支援的語言
 
 職涯教練語言進行當地語系化：
 
-- 中文 (簡體、大陸) 
+- 中文 (簡體、中國大陸) 
 - 繁 (傳統、臺灣) 
 - 英文 (英文) 
 - 英國 (英文) 
 - 加拿大 (法文) 
 - 法文 (法國) 
-- 德文 (德文) 
+- 德文 (德格蘭) 
 - 日文 (日本) 
 - 巴西 (葡萄牙文) 
 - 西班牙文 (西班牙) 
@@ -50,7 +50,7 @@ ms.locfileid: "53646934"
 
 ## <a name="review-the-requirements"></a>審查需求
 
-若要為職涯教練啟用應用程式，請審查應用程式啟動及運作所需的內容。
+若要為職涯教練啟用應用程式，請審查您需要哪些專案才能讓應用程式啟動並運作。
 
 **技術需求**
 
@@ -97,15 +97,15 @@ ms.locfileid: "53646934"
 
 3. 在使用者 **頁面上** ，選取 使用者 **設定**。
 
-4. 在 **LinkedIn帳戶** 連結下，允許使用者連接其帳戶，以在某些 Microsoft app LinkedIn存取他們的帳戶連結。 使用者同意連接其帳戶之前，不會共用任何資料。
+4. 在 **LinkedIn帳戶** 連結下，允許使用者連接其帳戶，以存取LinkedIn Microsoft App 中的帳戶連結。 使用者同意連接其帳戶之前，不會共用任何資料。
 
    - 選取 **是** ，為教育機構的所有使用者啟用服務
 
-   - 選取 **選取的** 群組，只針對教育機構中一群選取的使用者啟用服務
+   - 選取 **選取的** 群組，只為教育機構中一群選取的使用者啟用服務
 
    - 選取 **No** 以撤銷教育機構中所有使用者的同意
 
-瞭解如何在 LinkedIn[中整合帳戶Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)
+瞭解如何在 LinkedIn[中整合Azure Active Directory](/azure/active-directory/enterprise-users/linkedin-integration)
 
 ## <a name="configure-career-coach-in-the-teams-admin-center"></a>在 職涯教練 系統管理中心Teams帳戶
 
@@ -116,21 +116,21 @@ ms.locfileid: "53646934"
 - 下列各節必須完成，才能職涯教練使用 - 品牌和喜好設定、LinkedIn
 - 課程目錄和學習欄位的 CSV 具有必要的格式，且最大大小為 18 MB
 
-- 如果您在應用程式上看到「職涯教練目前已設定為您即將使用」，職涯教練應用程式尚未完成所需的節。
+- 如果您在應用程式上看到「職涯教練目前正在設定中，職涯教練即將使用」，則所需的節尚未完成。
 
 - 在包含所需欄位的設定頁面上，如果欄位尚未完成，頁面將不會提交
   - 使用者不會看到警告訊息，頁面不會提交
 
 ## <a name="access-the-career-coach-app-settings"></a>存取 職涯教練 應用程式設定
 
-使用管理[應用程式頁面](/microsoftteams/manage-apps)來Teams教育機構應用程式目錄中的 App。
+使用管理[應用程式頁面](/microsoftteams/manage-apps)，Teams教育機構應用程式目錄中的 App。
 
 1. 請Teams **系統管理中心**。
 
 2. 在左側流覽中，選取 **Teams**  >  **應用程式管理應用程式**。  
 
     > [!NOTE]
-    > 您必須是全域系統管理員或Teams系統管理員才能存取頁面。
+    > 您必須是全域系統管理員Teams服務系統管理員才能存取頁面。
 
 3. 搜尋 **或流覽** 職涯教練。  
 
@@ -185,7 +185,7 @@ ms.locfileid: "53646934"
 此LinkedIn組會職涯教練與來自 LinkedIn 的公開LinkedIn。
 
 > [!NOTE]
-> 這是必填區段- 職涯教練未驗證頁面連結LinkedIn啟用。
+> 這是必要的節- 職涯教練未驗證頁面連結LinkedIn啟用。
 
 ##### <a name="add-and-confirm-the-linkedin-page"></a>新增並確認LinkedIn頁面
 
@@ -199,13 +199,13 @@ ms.locfileid: "53646934"
 
     ![LinkedIn搜尋學校](media/career-coach-school-search.png)
 
-3. 新增LinkedIn頁面 URL。 URL 必須是學校頁面，而不是公司頁面，且格式一般為 `https://www.linkedin.com/school/willow-university/` 。
+3. 新增LinkedIn頁面 URL。 URL 必須是學校頁面，而不是公司頁面，而且通常的格式為 `https://www.linkedin.com/school/willow-university/` 。
 
    ![LinkedIn學校頁面範例](media/career-coach-linkedin-page-url.png)
 
 4. 選取 **提交**。
 
-5. 如果成功提交，頁面將會更新以顯示驗證 **連結** 和 **驗證連結到期**。 驗證連結會在 30 天后過期。
+5. 如果成功提交，頁面將會更新以顯示驗證 **連結** 和 **驗證連結到期**。 驗證連結會在 30 天后到期。
 
    ![LinkedIn教練應用程式之間的關聯](media/career-coach-linked-in.png)  
 
@@ -214,7 +214,7 @@ ms.locfileid: "53646934"
 7. 頁面LinkedIn系統管理員，會使用唯一的驗證連結職涯教練學校頁面建立關聯。 [有關頁面驗證LinkedIn檔](https://www.linkedin.com/help/linkedin/answer/102672)。
 
 > [!NOTE]
-> 若要完成LinkedIn頁面的LinkedIn驗證職涯教練。
+> 需要頁面LinkedIn管理員的驗證，才能完成LinkedIn的職涯教練。
 
    ![LinkedIn開發人員入口網站LinkedIn頁面驗證](media/career-coach-linkedin-verification.png)
 
@@ -229,7 +229,7 @@ ms.locfileid: "53646934"
 
 - 課程會作為學習資源的一部分退回。  
 
-- 課程和課程中繼資料 ，例如描述，可用來協助學生在上傳文字記錄時識別其技能。  
+- 課程和課程中繼資料 ，例如描述，可用來協助學生上傳文字記錄時識別其技能。  
 
 若要建立課程目錄，請彙集教育機構所傳授的所有課程清單，並上傳為 CSV 檔案。 應用程式會從課程目錄繪製，以從學生的成績記錄中找出其技能，並建議要參加的課程。
 
@@ -298,7 +298,7 @@ ms.locfileid: "53646934"
 
 #### <a name="customization"></a>定制
 
-職涯教練可自訂為教育機構所獨一無二的。 自訂支援新增體驗至儀表板。 建議您新增工作板、活動、職稱服務辦公室、職稱相關活動、學生俱樂部，以及協助學生取得實際經驗的其他資源的連結。
+職涯教練可自訂為教育機構所獨一無二的。 自訂支援新增體驗至儀表板。 建議您新增工作板、活動、職稱服務辦公室、職稱相關活動、學生俱樂部的連結，以及協助學生取得實際經驗的其他資源。
 
 ##### <a name="add-customized-experiences"></a>新增自訂體驗
 
@@ -341,7 +341,7 @@ ms.locfileid: "53646934"
 
 3. 在安裝的應用程式下，選取新增應用程式。
 
-4. 在新增已安裝的應用程式窗格中，搜尋使用者在開始使用應用程式時，Teams。 您也可以根據應用程式權限原則篩選應用程式。 當您選擇您的應用程式清單時，請選取新增。
+4. 在新增已安裝的應用程式窗格中，搜尋使用者啟動應用程式時要自動安裝Teams。 您也可以根據應用程式權限原則篩選應用程式。 當您選擇您的應用程式清單時，請選取新增。
 
 ### <a name="pin-the-app"></a>釘上應用程式
 

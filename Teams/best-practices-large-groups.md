@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fff84bd660eb19f01c6a7e3388f5289b09896401
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 18c711fbe7a84bffeb5b3e897b72325aae5281a4e0258da5be6f3df6f96ca43c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856342"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310841"
 ---
 # <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>管理大型團隊Microsoft Teams - 最佳做法
 
-Microsoft Teams能促進與數十個成員和數千個成員的大型群組之間的溝通。 針對[小組大小更新Teams](limits-specifications-teams.md)限制和規格。 團隊規模增加會導致獨特的管理和營運挑戰。 本文將說明建立及管理由數千個成員組成的大型團隊的最佳作法。
+Microsoft Teams能促進與數十個成員和數千個成員的大型群組之間的溝通。 針對[團隊大小更新Teams](limits-specifications-teams.md)限制和規格。 團隊規模增加會導致獨特的管理和營運挑戰。 本文將說明建立及管理由數千個成員組成的大型團隊的最佳作法。
 
 ## <a name="value-of-large-teams"></a>大型團隊的價值
 
@@ -36,13 +36,13 @@ Microsoft Teams能促進與數十個成員和數千個成員的大型群組之�
 
 - **員工資源群組中的共同** 作業：組織通常有一大群具有共同興趣的人，他們屬於不同的部門或工作組。 舉個例說，可以有一群對個人財務與投資充滿熱忱的人。 在大型組織中通常難以聯繫。 若要為這類群組開發社群，租使用者系統管理員可以建立大型團隊，做為全公司的公用資源群組，任何人都可以加入並利用。 最後，這些社群會收集新成員和現有成員都可以享有的資訊。
 
-- **內部和外部成員** 之間的共同合作：熱門產品通常會開發一個早期採用者社群，他們急迫嘗試新產品發行，並提供意見回饋。 早期採用者會與產品群組建立關係，協助塑造產品。 在這種情況下，租使用者系統管理員可以設定包含內部產品群組和外部產品評估員的大型小組，以協助豐富的產品開發程式。 這些團隊也可以為一組選取的客戶提供客戶支援。
+- **內部和外部成員** 之間的共同合作：熱門產品通常會開發一個早期採用者社群，他們急迫嘗試新產品發行，並提供意見回饋。 早期採用者會與產品群組建立關係，協助塑造產品。 在這種情況下，租使用者系統管理員可以設定包含內部產品群組和外部產品評估員的大型小組，以促進豐富的產品開發程式。 這些團隊也可以為一組選取的客戶提供客戶支援。
 
 ## <a name="create-teams-from-existing-groups"></a>從現有的群組建立團隊
 
 使用連絡人群組、安全性群組或Office群組來快速啟動您的小組。 您可以輸入群組來建立團隊，或從群組建立Office團隊。
 
-將 **群組** 輸入成團隊：當您將最多 3，500 個成員的群組Teams，Teams會自動計算群組中的成員總數。 這是一次導入，群組中未來的變更將不會在 Teams。
+將 **群組** 輸入成團隊：當您將最多 3，500 個成員的群組Teams，Teams會自動計算群組中的成員總數。 此為一次導入，且群組中的未來變更不會在 Teams。
 
 **從大型群組建立** Microsoft 365：當您從大型群組Microsoft 365團隊時，成員會自動成為群組 **Microsoft 365團隊的** 一部分。 日後，當小組成員加入或離開Microsoft 365群組時，系統會自動新增或移除他們。
 
@@ -58,7 +58,7 @@ Azure 入口網站允許使用者大量匯出/匯出/移除群組Microsoft 365�
 
 ## <a name="restrict-channel-creation"></a>限制頻道建立
 
-如果允許任何團隊成員建立頻道，該團隊可以擴大頻道。 團隊擁有者應在成員許可權中關閉成員頻道的建立、更新、刪除 **設定 >還原**。 請參閱 [團隊和頻道概觀](teams-channels-overview.md)。
+如果允許任何團隊成員建立頻道，該團隊可以擴大頻道。 團隊擁有者應關閉成員許可權中成員的頻道建立、更新、刪除 **設定 >還原**。 請參閱 [團隊和頻道概觀](teams-channels-overview.md)。
 
 ![顯示系統管理主控台中成員許可權區段的螢幕設定畫面。](media/no-channel-creation.png "系統管理主控台中成員許可權區段的螢幕設定畫面。未取消勾選允許成員建立或刪除頻道選項。")
 
@@ -80,7 +80,7 @@ Azure 入口網站允許使用者大量匯出/匯出/移除群組Microsoft 365�
 
 ## <a name="regulate-team-and-channel-mentions"></a>規範團隊和頻道提及
 
-小組和頻道提及可以用來吸引整個團隊對特定頻道文章的注意。 在文章使用提及後，通知會發送給數千名小組成員。 如果通知過於頻繁，則小組成員可能會超載，並可能會向團隊擁有者抱怨。 若要避免團隊或頻道提及，請取消勾選團隊或頻道窗格中的 **設定 > @mentions提及。**
+小組和頻道提及可以用來吸引整個團隊對特定頻道文章的注意。 在文章使用提及後，通知會發送給數千名小組成員。 如果通知過於頻繁，則小組成員可能會超載，並可能會向團隊擁有者抱怨。 若要避免團隊或頻道提及，請取消勾選團隊或窗格中的 **設定 > @mentions提及。**
 
 ![Screen image that shows the at Mentions section of the Settings pane.](media/no-at-mentions.png "顯示窗格的 <提及> 區段的設定圖像。未勾選顯示和給予成員提及存取權的選項。")
 

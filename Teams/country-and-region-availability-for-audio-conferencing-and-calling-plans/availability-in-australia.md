@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于澳洲Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: afe7f5cf0cdb3758f107cee2801ccf07779c747f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1e6b99f955f0f095a36351b85ad4526608b53e412e071072f6eda3c87a1eca2f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310821"
 ---
 # <a name="availability-in-australia"></a>澳洲的可用性
 
@@ -76,7 +76,7 @@ ms.locfileid: "51118422"
 |---------|---------|
 |美洲地區    |美國、美國外島      |
 |亞太     |孟加拉國、緬甸、汶萊、柬埔寨、香港、印尼、老島、澳門、馬來西亞、馬累斯、緬甸、尼泊爾、菲律賓、新加坡、斯里蘭卡、泰國、印尼、越南|
-|Emea    |奧蘭群島、安道爾、奧地利、比利時、 布維埃島、保加利亞、克羅地亞、賽普勒斯、捷克共和國、丹麥、愛沙尼亞、法羅群島、芬蘭、法國、德國、西班牙、希臘、格陵蘭、根西島、匈牙利、冰島、愛爾蘭、曼城島、義大利、Jan Mayen、澤西島、拉脫維亞、列支敦斯登、立陶宛、盧森堡、馬爾他、葡萄牙、羅馬尼亞、挪威、波蘭、葡萄牙、羅馬尼亞、聖馬利諾、斯洛伐克、斯洛維尼亞、西班牙、斯瓦爾巴德、瑞典、瑞士、英國、梵蒂岡城  |
+|Emea    |奧蘭群島、安道爾、奧地利、比利時、 布維島、保加利亞、克羅地亞、賽普勒斯、捷克共和國、丹麥、愛沙尼亞、法羅群島、芬蘭、法國、德國、西班牙、希臘、格陵蘭、根西島、匈牙利、冰島、愛爾蘭、曼城島、義大利、Jan Mayen、澤西島、拉脫維亞、列支敦斯登、立陶宛、盧森堡、馬爾他、法國、羅馬尼亞、挪威、波蘭、葡萄牙、羅馬尼亞、聖馬利諾、斯洛伐克、斯洛維尼亞、西班牙、斯瓦爾巴德、瑞典、瑞士、英國、梵蒂岡城  |
 
 請注意，一旦由 Telstra 提供，Telstra 通話只會針對位於澳洲及上述國家/地區的使用者顯示為附加元件。 對於其他地理位置的使用者，他們會視情況繼續附加 Microsoft 通話方案或直接路由。 詳細資訊，請參閱 [Telstra 通話](https://aka.ms/TelstraVoicePlan)。
 

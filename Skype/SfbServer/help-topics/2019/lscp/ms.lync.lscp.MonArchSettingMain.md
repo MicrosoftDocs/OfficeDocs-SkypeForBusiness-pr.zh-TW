@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用封存設定來控制商務用 Skype Server 部署的封存選項，包含啟用及停用下列選項：
-ms.openlocfilehash: 56ab256d79a22ce8b08efc9ad135d4c8309ff5d4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f59d096ac00d2247b36aae4f3395f78d16ed0bc366e8e60da6a1dc31a3797641
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833593"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325250"
 ---
 # <a name="archiving-configuration"></a>封存組態
  
@@ -28,20 +28,20 @@ ms.locfileid: "49833593"
   
 - 封存失敗時封鎖立即訊息 (IM) 或會議會話
     
-- 與 Exchange 儲存區整合，供位於 Exchange 的使用者使用
+- 與駐留在 Exchange 上之使用者的 Exchange 儲存區整合
     
 - 清除封存的資料
     
 封存設定包括全域設定，以及選擇性地包含一或多個網站與集區封存設定：
   
-- **通用** 設定預設會在所有商務用 Skype Server 部署中建立全域設定。 您可以編輯全域設定，但無法刪除此封存設定。 若嘗試將其刪除，所有選項都會重設為預設值。
+- **通用** 設定預設會在所有的商務用 Skype Server 部署中建立全域設定。 您可以編輯全域設定，但無法刪除此封存設定。 若嘗試將其刪除，所有選項都會重設為預設值。
     
 - **網站設定 (選用)** 您可以指定一或多個網站封存設定，每個網站封存設定可用於控制特定網站的封存選項。 網站設定會覆寫全域設定，但僅限於在封存網站設定中指定的網站。 您可以編輯或刪除網站設定。
     
 - **集區設定 (選用)** 您可以指定一或多個集區封存設定，以控制特定集區的封存選項。 集區設定優先於全域設定與網站設定，但僅限於封存集區設定中所指定的集區。 您可以編輯或刪除集區設定。
     
 > [!NOTE]
-> 封存設定會套用至位於商務用 Skype Server 上的使用者，而且如果您使用 Exchange 將封存資料儲存在 Microsoft Exchange 中，但在 Exchange 上的使用者卻以稍有不同的方式實施，但使用者卻是在 Exchange 上進行的使用者。 其差異會在下一節中說明。 
+> 封存設定會套用至位於商務用 Skype Server 上的使用者，而且如果您使用 Exchange 將 Microsoft Exchange 中的封存資料儲存在 Exchange 上，但為位於 Exchange 的使用者以稍有不同的方式執行，則為使用者。 其差異會在下一節中說明。 
   
 [ **封存** 設定] 頁面會列出為您的部署設定的每個封存原則。 它也會顯示原則名稱、範圍 (全域、網站或集區) ，以及針對每個封存設定啟用的封存選項。 在 [封存設定 **] 頁面上** ，您可以使用下列選項：
 - **新** 您可以新增一或多個下列選用的封存設定。
@@ -68,5 +68,5 @@ ms.locfileid: "49833593"
     
 - **Refresh** 您可以重新整理「封存設定 **」頁面，** 以確認所有封存設定之選項的狀態。
     
-如需有關封存功能及功能（包括 Exchange 整合）的詳細資訊，請參閱 [在商務用 Skype server 中規劃](../../../plan-your-deployment/archiving/archiving.md)封存、 [部署商務用 skype 伺服器](../../../deploy/deploy-archiving/deploy-archiving.md)的封存，以及 [管理商務用 skype server 中](../../../manage/archiving/archiving.md)的封存。
+如需封存功能及功能的詳細資料，包括 Exchange 整合，請參閱[在商務用 Skype Server 中規劃](../../../plan-your-deployment/archiving/archiving.md)封存、[部署商務用 Skype Server 的](../../../deploy/deploy-archiving/deploy-archiving.md)封存，以及[管理商務用 Skype Server 中](../../../manage/archiving/archiving.md)的封存。
 

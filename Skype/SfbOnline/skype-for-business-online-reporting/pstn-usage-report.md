@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新的系統管理商務用 Skype報告區域會顯示貴組織的通話和音訊會議活動。 它可讓您深入瞭解報表，以進一步深入瞭解每個使用者的活動。 例如，您可以使用 PSTN 商務用 Skype詳細資料包表，查看這些通話在輸入/外接通話中的通話分鐘數和費用。 您可以查看音訊會議 PSTN 使用方式詳細資料，包括通話費用，以便了解您的使用量和通話帳單詳細資料，以判斷貴組織的使用量。
-ms.openlocfilehash: 2c6a0410611919662f5eaf37a03bfcca11b543be
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: 511065a4371ae4f9521022a27c2fdf6804736d48ccc807ee1d3aa0d0148fe3a8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278446"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300439"
 ---
 # <a name="pstn-usage-report"></a>PSTN 使用報告
 
@@ -43,7 +43,7 @@ ms.locfileid: "53278446"
 
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
-- 請前往系統管理中心>系統管理商務用 Skype ****  >    >  **報告**  >  **PSTN 使用方式詳細資料**。
+- 前往系統管理中心>**系統** 管理商務用 Skype  >    >  **報告**  >  **PSTN 使用方式詳細資料**。
     
     > [!NOTE]
     > 視您Microsoft 365訂閱Office 365，您可能不會看到此處顯示的所有產品與報表。
@@ -78,11 +78,11 @@ ms.locfileid: "53278446"
 
      **UCAP (統一通訊應用程式)** 
      *    **ucap_in (** 傳入 PSTN 通話至 UC 應用程式，例如自動電話機或通話佇列)  
-     *    **ucap_out (** UC 應用程式撥打出站 PSTN 通話，例如自動電話機或通話佇列) 
+     *    **ucap_out (** 從 UC 應用程式撥打出站 PSTN 通話，例如自動電話機或通話佇列) 
          > [!NOTE]
          > 從 UC 應用程式傳輸給使用者的通話 ，例如自動語音機或通話佇列，不會出現在 PSTN 使用方式報告中，因為這些通話支線是對等 (P2P) 音訊通話。 您可以在 商務用 Skype 系統管理中心的 「工具 > 商務用 Skype 通話分析」下存取 P2P 通話，並依據使用者名稱或 SIP 位址搜尋，以日期/時間與/或原始 CLID (通話線路識別碼) 關聯。 
 
-     根據使用者的位置，國內 **/** 國際會告訴您所撥打的來電是否被視為國家/地區 (國內) 或國際 (國家/地區) 以外的國家/地區。 
+     根據使用者的位置，國內 **/** 國際會告訴您所撥打的通話 (是否被視為國家/地區) 或 (國家/地區) 以外的國際通話。 
 *    **已撥號的** 目的地是撥打的國家/地區目的地名稱，例如法國、德國或美國 (美國) 。 
 *    **號碼** 類型是使用者電話號碼、服務或免付費號碼的電話號碼類型。  
 *    **UTC (開始時間)** 是通話開始或撥打的時間。 
@@ -105,7 +105,7 @@ ms.locfileid: "53278446"
 > 您可能也會在某些欄位中看到「無資料」。 「無資料」表示該欄位不適用於通話類型或功能。 
 
 > [!NOTE]
-> 如果您有 Telstra 或 Softbank 通話方案，將不會在 PSTN 使用方式報告中看到任何通話詳細資料記錄。 如需您的報告需求，請聯絡 Telstra 或 Softbank。 
+> 如果您有 Telstra 或 Softbank 通話方案，將不會在 PSTN 使用方式報告中看到任何通話詳細資料記錄。 如需報告需求，請聯絡 Telstra 或 Softbank。 
 ***
 ![數位 2](../images/sfbcallout2.png)<br/>若要將欄拖曳到按特定欄分組，如果您想要建立將一或多個資料行中所有資料組成群組的視圖，請在這裡拖放欄標題。
  ***
@@ -118,7 +118,7 @@ ms.locfileid: "53278446"
 
 匯出程式可能需要幾秒鐘到幾分鐘才能完成，視資料量而不同。 當伺服器完成匯出時，您會收到名為「**通話.匯出」的 zip 檔案 `identifier` 。.zip，** 識別碼是匯出的唯一識別碼，可用於疑難排解。
 
-如果您同時擁有通話方案與直接路由，匯出的檔案可能包含這兩種產品的資料。 PSTN 使用方式報告檔案將會有檔案名 「**PSTN.calls.] `UTC date`.csv"。** 除了 PSTN 和直接路由檔案之外，該parameters.js包含檔案 **"on"，** 其中選取的匯出時間範圍和功能 (任何) 。
+如果您同時擁有通話方案與直接路由，匯出的檔案可能包含這兩種產品的資料。 PSTN 使用方式報告檔案將會有檔案名"**PSTN.calls.] `UTC date`.csv"。** 除了 PSTN 和直接路由檔案之外，檔案也包含 **[parameters.js** 上的檔案，其中選取的匯出時間範圍和功能會 (任何) 。
 
 匯出的檔案是 CSV (分隔值) ，符合 [RFC 4180](https://tools.ietf.org/html/rfc4180) 標準。 檔案可以在任何符合Excel編輯器中開啟，而不需要任何轉換。
 
@@ -129,7 +129,7 @@ CSV 的第一列包含欄名稱。
 匯出的檔案包含線上報告中沒有的其他欄位。 這些可用於疑難排解和自動化工作流程。
 
 > [!div class="has-no-wrap"]  
-> | #  | 名稱 | [資料類型 (SQL Server) ](/sql/t-sql/data-types/data-types-transact-sql) | 說明 |
+> | #  | 名稱 | [資料類型 (SQL Server) ](/sql/t-sql/data-types/data-types-transact-sql) | 描述 |
 > | :-: | :-: | :-: |:------------------- |
 > | 0 | UsageId | `uniqueidentifier` | 唯一通話識別碼 |
 > | 1 | 通話識別碼 | `nvarchar(64)` | 通話識別碼。 不保證是唯一的 |
@@ -150,7 +150,7 @@ CSV 的第一列包含欄名稱。
 > | 16 | 連線費用 | `numeric(16, 2)` | 連線費用價格 |
 > | 17 | 負責 | `numeric(16, 2)` | 向您的帳戶收取的金額或通話費用 |
 > | 18 | 貨幣 | `nvarchar(3)` | 用來計算 ISO [4217 (通話費用的貨幣](https://en.wikipedia.org/wiki/ISO_4217))  |
-> | 19 | 功能 | `nvarchar(32)` | 通話使用授權 |
+> | 19 | 功能 | `nvarchar(32)` | 通話所使用的授權 |
 
     
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他商務用 Skype報表？
@@ -161,13 +161,13 @@ CSV 的第一列包含欄名稱。
     
 - [商務用 Skype會議召集人活動報告](conference-organizer-activity-report.md)您可以查看使用者組織使用 IM、音訊/視像、應用程式共用、Web、/dial out - 協力廠商和 /dial out - Microsoft 的會議。
     
-- [商務用 Skype會議參與者活動報告](conference-participant-activity-report.md)您可以查看有多少 IM、音訊/視像、應用程式共用、Web 和撥出音訊會議參與。
+- [商務用 Skype參與者活動報告](conference-participant-activity-report.md)您可以查看有多少 IM、音訊/視像、應用程式共用、Web 和撥出音訊會議參與。
     
 - [商務用 Skype對等活動報表](peer-to-peer-activity-report.md)您可以瞭解使用者正在使用 IM、音訊/視像、應用程式共用和傳輸檔案。
     
 - [商務用 Skype使用者封鎖報表](users-blocked-report.md)您可以看見貴組織中遭到封鎖的使用者，無法撥打 PSTN 通話。
 
-- [商務用 Skype PSTN 分鐘](pstn-minute-pools-report.md)數庫報表，您可以查看組織內當月使用的分鐘數。
+- [商務用 Skype PSTN 分鐘](pstn-minute-pools-report.md)數庫報表，您可以查看貴組織內當月所耗用分鐘數。
 
 - [商務用 Skype會話詳細資料包表](session-details-report.md)您可以查看個別使用者的通話體驗詳細資料。
     

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: 下列主題詳述每個 Persistent Chat database schema tables 中的欄。
-ms.openlocfilehash: 71cec482d5b799eefc1817b84993a9fbe3ca884a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4419f9e5b0735aee8d2aae5ae9804cc7f93a7dc9403a1419a4247afca3f23ddb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812993"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341678"
 ---
 # <a name="persistent-chat-server-table-details"></a>常設聊天室伺服器表格詳細資料
  

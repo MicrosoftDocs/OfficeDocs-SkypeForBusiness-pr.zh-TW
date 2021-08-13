@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于波士尼亞Microsoft 365 Office 365波士尼亞和商務用 Skype Microsoft Teams的Microsoft Teams服務。
-ms.openlocfilehash: 7415b8c387b325f370f02e296f45dee4de7e8c6e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 以下是波士尼亞Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
+ms.openlocfilehash: 9c483f4670d3fdfc201f61269bf64fe5e3e9c779b7f9c7fac6b0a5875cb4846f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118322"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326169"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>波士尼亞黑塞哥維納 &amp; 的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于波士尼亞Microsoft 365 Office 365波士尼亞和商務用 Skype Microsoft Teams的Microsoft Teams服務。
+以下是波士尼亞Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

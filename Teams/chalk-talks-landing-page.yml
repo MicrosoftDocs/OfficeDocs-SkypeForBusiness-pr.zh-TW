@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Microsoft Teams粉筆交談
-summary: 專為 IT 專業人員和決策者所設計Teams粉筆交談提供一個獨一無二的機會，以學習有關 Teams 中一些最熱門且令人信服案例的最佳作法和實用Teams。
+summary: 專為 IT 專業人員和決策者設計的粉筆Teams粉筆交談提供一個獨一無二的機會，以學習有關 Teams 中一些最熱門且令人信服案例的最佳作法和實用Teams。
 brand: teams
 metadata:
   title: Microsoft Teams粉筆交談
-  description: 專為 IT 專業人員和決策者所設計Teams粉筆交談提供一個獨一無二的機會，以學習有關 Teams 中一些最熱門且令人信服案例的最佳作法和實用Teams。 這些線上互動式研討會受到主題專家的協助，可為您提供深入見解，Teams強化您的專案執行，並為使用者提供額外的價值。 按一下下方的任何研討會標題以查看可用的日期和時間，並立即註冊！
+  description: 專為 IT 專業人員和決策者設計的粉筆Teams粉筆交談提供一個獨一無二的機會，以學習有關 Teams 中一些最熱門且令人信服案例的最佳作法和實用Teams。 這些線上互動式研討會受到主題專家的協助，可為您提供深入見解，Teams強化您的專案執行，並為使用者提供額外的價值。 按一下下方的任何研討會標題以查看可用的日期和時間，並立即註冊！
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -38,7 +38,7 @@ productDirectory:
       url: 'https://aka.ms/ChalkTalkCalling'
     - title: 使用即時活動來Microsoft Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-teams.svg'
-      summary: 使用大型線上虛擬活動來吸引觀眾並Microsoft Teams。 瞭解最佳做法，確保您的活動成功。
+      summary: 使用大型線上虛擬活動來吸引觀眾，並Microsoft Teams。 瞭解最佳做法，確保您的活動成功。
       url: 'https://aka.ms/ChalkTalksVirtualEvents'
     - title: 基本Teams中的應用程式
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'

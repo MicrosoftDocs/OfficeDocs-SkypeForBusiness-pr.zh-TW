@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 7755abf1c8bf6bc6f02664317c112d85936e6e37
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4fbbb396733733b2bc44a3665f50f32cf9ea52df5494d8e2f2782b6548206d5a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121006"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311421"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>PIN 原則：建立新的或編輯現有
 
@@ -38,4 +38,4 @@ ms.locfileid: "51121006"
 
 - [刪除站台或使用者群組的電話撥入式會議 PIN 設定](/previous-versions/office/lync-server-2013/lync-server-2013-delete-dial-in-conferencing-pin-settings-for-a-site-or-group-of-users)
 
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。

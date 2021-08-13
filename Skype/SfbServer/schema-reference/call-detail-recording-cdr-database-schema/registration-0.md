@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: '[註冊] 視圖會儲存使用者註冊的相關資訊。 此視圖已引進 Lync Server 2013。'
-ms.openlocfilehash: 12508e7efcd96bdb9e3956b4e62c1065235a3f60
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a28b094fd78f0a5d8b339edc372acf4503ba854d7e59e8cc81fff942e22cdcfc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54341698"
 ---
 # <a name="registration-view"></a>註冊視圖
  
@@ -26,8 +26,8 @@ ms.locfileid: "49823123"
   
 |**欄**|**資料類型**|**詳細資料**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |工作階段要求的時間。 與 SessionIdSeq 搭配使用，以唯一識別工作階段。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中的對話方塊表格](dialogs.md) 。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |識別工作階段的 ID 號碼。 與 SessionIdTime 搭配使用，以唯一識別工作階段。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中的對話方塊表格](dialogs.md) 。 <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |工作階段要求的時間。 與 SessionIdSeq 搭配使用，以唯一識別工作階段。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中的對話方塊表格](dialogs.md)。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |識別工作階段的 ID 號碼。 與 SessionIdTime 搭配使用，以唯一識別工作階段。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中的對話方塊表格](dialogs.md)。 <br/> |
 |**RegisterTime** <br/> |datetime  <br/> |發生註冊的時間。  <br/> |
 |**UserUri** <br/> |Nvarchar (450)   <br/> |註冊之使用者的 URI。  <br/> |
 |**UserUriType** <br/> |Nvarchar (256)   <br/> |註冊之使用者的 URI 類型。 如需詳細資訊，請參閱 [UriTypes 表格](uritypes.md) 。 <br/> |
@@ -50,7 +50,7 @@ ms.locfileid: "49823123"
 |**IsUserServiceAvailable** <br/> |位  <br/> |會指出註冊時是否可使用 UserService。  <br/> |
 |**IsPrimaryRegistrar** <br/> |位  <br/> |會指出註冊是否與主要註冊機。  <br/> |
 |**DeviceMacAddress** <br/> |Bigint  <br/> |已登錄裝置的 MAC 位址。  <br/> |
-|**DeviceManufacturer** <br/> |Nvarchar (256)   <br/> |已登錄裝置的製造商。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中的製造商表格](manufacturers.md) 。 <br/> |
-|**DeviceHardwareVersion** <br/> |Nvarchar (256)   <br/> |已登錄裝置的硬體版本。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中的 HardwareVersions 表格](hardwareversions.md) 。 <br/> |
+|**DeviceManufacturer** <br/> |Nvarchar (256)   <br/> |已登錄裝置的製造商。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中的製造商表格](manufacturers.md)。 <br/> |
+|**DeviceHardwareVersion** <br/> |Nvarchar (256)   <br/> |已登錄裝置的硬體版本。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中的 HardwareVersions 表格](hardwareversions.md)。 <br/> |
    
 

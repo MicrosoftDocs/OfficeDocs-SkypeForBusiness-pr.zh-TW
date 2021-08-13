@@ -19,13 +19,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Phone System
-description: 瞭解部署步驟以取得正確的固件、如果需要更新、指派授權，以及設定一般地區電話的設定。
-ms.openlocfilehash: 4fd45f446d71e581305f7e596c7eacc62f54f8ca
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: 瞭解部署步驟以取得正確的固件、如有必要更新、指派授權，以及設定一般地區電話的設定。
+ms.openlocfilehash: a73de696e8ac7410e9cccbca99dbabb74df392f58a8bf0ad82e5bdf1ec9ccd75
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237349"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300399"
 ---
 # <a name="set-up-common-area-phones"></a>設定公共區域電話
 
@@ -36,10 +36,10 @@ ms.locfileid: "52237349"
 
 您要做的第一件事是確認您擁有下列專案：
 
-- 購買共同電話授權和通話方案。
+- 購買公用電話授權和通話方案。
 - 搜尋及購買核准的電話 (在這裡[查看清單) 。](deploying-skype-for-business-online-phones.md)
 - 更新您手機上的 (請參閱本主題[中的支援) 。](getting-phones-for-skype-for-business-online.md)  您可以執行以下方法檢查手機上的固件：
-  - **Polycom VVX 電話**：**前往** 設定  >  **Status**  >  **Platform**  >  **Application**  >  **Main**。
+  - **Polycom VVX 手機**：**前往** 設定  >  **Status**  >  **Platform**  >  **Application**  >  **Main**。
   - **Yealink 手機****：前往主要** 電話畫面上的狀態。
   - **音訊代碼手機****：從開始** 畫面前往功能表  >  **裝置**  >  狀態固件版本。
   - **Lync 電話版本 (LPE**) 手機：從開始畫面系統資訊  >  功能表功能表。
@@ -66,7 +66,7 @@ ms.locfileid: "52237349"
 ### <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>步驟 2 - 為手機建立新使用者帳戶並指派授權
 1. 在系統管理中心，前往 **使用者**  >  **活動使用者**  >  **新增使用者**。
 2. 輸入使用者名稱 **，** 例如名字的「主」，第二個名稱為「接收」。
-3. 如果顯示名稱 **無法** 像「主要接收」一樣自動生成，請輸入顯示名稱。
+3. 如果顯示 **名稱無法** 像「主要接收」一樣自動生成，請輸入顯示名稱。
 4. 輸入使用者 **名稱，** 例如「MainReception」或「Mainlobby」。
 5. 對於一般地區電話，您可能會想要手動設定密碼，或針對所有常見的地區電話設定相同的密碼。 此外，您可能會考慮取消選擇 讓此使用者在首次登出 **時變更其密碼**。
 6. 如果您仍然在那裡，請指派授權給此使用者。 在同一頁上，按一下 以展開 **[產品授權>**。 開啟下列功能：
@@ -115,14 +115,14 @@ ms.locfileid: "52237349"
     2. 接著，請前往設定 **，商務用 Skype****設定選項中**，選取 **共同區域電話。**
     3. 按一下 **[是** 」 以儲存您的設定。
 
-- 現在已啟用 CAP 模式，使用手機的顯示器來設定手機。 顯示器應該會顯示 **已啟用 CaAP。** 然後執行下列操作：
+- 現在已啟用 CAP 模式，請用手機的顯示器設定電話。 顯示器應該會顯示 **已啟用 CaAP。** 然後執行下列操作：
 
-    1. 按一下 **[設定。**
+    1. 按一下 **設定**。
     2. 選取 **進位**。
     3. 輸入密碼。
     4. 在 **系統管理設定** 中，選取 **共同區域電話 設定。**
     5. 啟用 **CAP** 和 **CAP 系統管理模式**。
-    6. 按一下 **[儲存 Config.**
+    6. 按一下 **[儲存 Config>**。
 
 - 現在您的手機已準備就緒，因此您可以在主畫面上登錄。
 
@@ -136,11 +136,11 @@ ms.locfileid: "52237349"
 
     5. 在配對程式碼視窗中，輸入手機上顯示的代碼，然後按一下 [ **備入**。
 
-        按照最後一個步驟，電話應該會自動登入。
+        遵循最後一個步驟，電話應該會自動登入。
 
 
 > [!NOTE]
-> CAP 設定網站指出，它會將 CAP 帳戶的密碼重設為隨機密碼。 請注意，CAP 所參照的帳戶是 AAD Azure Active Directory (帳戶) 帳戶。 如果您只在 AAD 中建立帳戶，則程式非常簡單。 如果您將內部部署 Active Directory 同步到 AAD，而且使用協力廠商 IDP 或 ADFS，則 CAP 置備將會失敗。 在這種情況下，您只需要使用 Microsoft 365 或 Office 365/Azure Active Directory 帳戶 (，例如擁有 **onmicrosoft.com** 網域) 的帳戶，才能使用 CAP 資源配置。
+> CAP 設定網站指出，它會將 CAP 帳戶的密碼重設為隨機密碼。 請注意，CAP 所參照的帳戶是 AAD Azure Active Directory (帳戶) 帳戶。 如果您只在 AAD 中建立帳戶，則程式很簡單。 如果您將內部部署 Active Directory 同步到 AAD，而且使用協力廠商 IDP 或 ADFS，則 CAP 置備將會失敗。 在這種情況下，您只需要使用 Microsoft 365 或 Office 365/Azure Active Directory 帳戶 (，例如擁有 **onmicrosoft.com** 網域) 的帳戶，才能使用 CAP 資源配置。
 
 
 ### <a name="related-topics"></a>相關主題

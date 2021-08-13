@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
-description: 若要準備網域以主控執行商務用 Skype Server 2015 或商務用 Skype 伺服器使用者的伺服器，您必須完成步驟5：準備目前的網域，如使用安裝程式執行網域準備主題的主題所述。 若要完成此步驟，您必須以您準備的網域中的 Domain Admins 群組成員身分登入，或以網域所屬樹系的 Enterprise Admins 群組成員身分登入。 若要準備網域：
-ms.openlocfilehash: c9c33e466b7b0fcc7c2711603c284e5f419960a1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 若要準備網域以裝載執行商務用 Skype Server 2015 或商務用 Skype Server 使用者的伺服器，您必須完成「步驟5：準備目前的網域」（如使用「安裝程式執行網域準備」主題中所述）。 若要完成此步驟，您必須以您準備的網域中的 domain Admins 群組成員身分登入，或以網域所屬樹系的 Enterprise Admins 群組成員身分登入。 若要準備網域：
+ms.openlocfilehash: 5c9dca22bc0c9d633521b58fdc47effc72a20b2ef9871bd7f4330ed2edd39118
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096869"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54311481"
 ---
 # <a name="prepare-current-domain"></a>準備目前網域
 
-若要準備網域以主控執行商務用 Skype Server 2015 或商務用 Skype 伺服器使用者的伺服器，您必須完成 **步驟5：準備目前的網域**，如 [使用安裝程式執行網域準備](/previous-versions/office/lync-server-2013/lync-server-2013-running-domain-preparation)主題的主題所述。 若要完成此步驟，您必須以您準備的網域中的 Domain Admins 群組成員身分登入，或以網域所屬樹系的 Enterprise Admins 群組成員身分登入。 若要準備網域：
+若要準備網域以裝載執行商務用 Skype Server 2015 或商務用 Skype Server 使用者的伺服器，您必須完成「**步驟5：準備目前的網域**」（如 [使用「安裝程式執行網域準備](/previous-versions/office/lync-server-2013/lync-server-2013-running-domain-preparation)」主題中所述）。 若要完成此步驟，您必須以您準備的網域中的 domain Admins 群組成員身分登入，或以網域所屬樹系的 Enterprise Admins 群組成員身分登入。 若要準備網域：
 
 1. 從商務用 Skype Server 2015 安裝資料夾或媒體，執行 Setup.exe 以啟動商務用 Skype Server 部署嚮導。
 
@@ -37,4 +37,4 @@ ms.locfileid: "51096869"
 5. 在 [ **動作** ] 欄下，依序展開 [ **網域準備**]、[尋找 **\<Success\>** 執行結果]，以驗證網域準備順利完成，請關閉記錄檔，然後按一下 **[完成]**。
 
 > [!TIP]
-> 如果您需要複查由商務用 Skype Server 部署嚮導所建立的記錄檔，您可以在執行該步驟之 Active Directory 網域服務使用者的使用者目錄中，找到執行「部署」嚮導的電腦。 例如，如果使用者登入網域 Contoso.net 中的網域管理員，則記錄檔位於： C:\Users\Administrator.Contoso\AppData\Local\Temp。
+> [！注意] 如果您需要複查商務用 Skype Server 部署嚮導所建立的記錄檔，您可以在執行該步驟之 Active directory 網域服務使用者的使用者目錄中，找到執行部署嚮導的電腦。 例如，如果使用者登入網域 Contoso.net 中的網域管理員，則記錄檔位於： C:\Users\Administrator.Contoso\AppData\Local\Temp。

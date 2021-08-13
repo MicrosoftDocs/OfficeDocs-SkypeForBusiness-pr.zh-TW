@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 選取您要用於電話撥入式會議存取號碼的語言。 如需詳細資訊，請參閱建立或修改電話撥入式會議存取號碼。
-ms.openlocfilehash: 9a7c1022ed5e4f2a4831a4150d232b6264f3a504
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2af5e0e8e656197979cc229f17901fcb006c08676d4e02ca3f11a987391b24fd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100499"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325310"
 ---
 # <a name="select-languages"></a>選取語言
 

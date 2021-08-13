@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是汶萊Microsoft 365 Office 365及商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: ef8d96157a814ed6fe94170c7e63bb42b9936568
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 以下是汶萊Microsoft 365 Office 365的商務用 Skype及Microsoft Teams服務。
+ms.openlocfilehash: 2a35186ad5b062a16754332fff2f55a2828303df9f54d100845c2bf3eba3cf06
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118302"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310801"
 ---
 # <a name="availability-in-brunei"></a>汶萊的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是汶萊Microsoft 365 Office 365及商務用 Skype Microsoft Teams服務。
+以下是汶萊Microsoft 365 Office 365的商務用 Skype及Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

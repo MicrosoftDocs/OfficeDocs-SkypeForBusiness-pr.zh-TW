@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
-description: 在商務用 Skype Server Enterprise Voice 中為使用者啟用通話駐留功能。
-ms.openlocfilehash: e9bbc42f5940af0cfc94ab83eae981dd023c9fcd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在商務用 Skype Server 企業語音中為使用者啟用通話駐留。
+ms.openlocfilehash: 6ff85008481a1742fd0092aa83361917fd4cbf0795ec52304acc10631f00d621
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830953"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300319"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>為商務用 Skype 中的使用者啟用通話駐留
  
-在商務用 Skype Server Enterprise Voice 中為使用者啟用通話駐留功能。
+在商務用 Skype Server 企業語音中為使用者啟用通話駐留。
   
 預設會停用所有使用者的通話駐留。 使用者在語音原則中為通話駐留啟用電話時，無法寄存通話或取得寄存的通話。
   
@@ -35,7 +35,7 @@ ms.locfileid: "49830953"
 
 1. 以 **RTCUniversalServerAdmins** 群組成員的身分，或是 **CsVoiceAdministrator**、 **CsServerAdministrator** 或 **CsAdministrator** 系統管理角色的成員身分登入電腦。
     
-2. 開啟商務用 Skype Server 控制台。
+2. 開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 **[語音路由]**。
     
@@ -51,7 +51,7 @@ ms.locfileid: "49830953"
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 系統管理角色的成員身分登入電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 運行：
     
