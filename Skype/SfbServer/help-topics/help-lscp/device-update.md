@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
-description: Microsoft 會定期為商務用 Skype Phone Edition 發行一組新的裝置固件更新，您可以將其匯入伺服器並散佈給使用者。 您可以移至 Microsoft 網站上的 [說明與支援] 頁面，並搜尋 forPhone Edition，以取得最新的裝置更新規則集合。下載最新的更新套件，並將檔案解壓縮至要上傳更新的電腦資料夾。 解壓縮檔案後，接著可以使用 Import-CsDeviceUpdate Cmdlet 匯入解壓縮後之 .CAB 檔案 (其名稱為 UCUpdates.cab) 中的裝置更新規則。 如需詳細資訊，請參閱 Import-CsDeviceUpdate。
-ms.openlocfilehash: e98d414c66c6d4400d1bf2de88158859e57b93a9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Microsoft 會定期為商務用 Skype 電話 Edition 發行一組新的裝置固件更新，您可以匯入伺服器並將其散佈給使用者。 您可以移至 Microsoft 網站上的 [說明與支援] 頁面，並搜尋 forPhone Edition，以取得最新的裝置更新規則集合。下載最新的更新套件，並將檔案解壓縮至要上傳更新的電腦資料夾。 解壓縮檔案後，接著可以使用 Import-CsDeviceUpdate Cmdlet 匯入解壓縮後之 .CAB 檔案 (其名稱為 UCUpdates.cab) 中的裝置更新規則。 如需詳細資訊，請參閱 Import-CsDeviceUpdate。
+ms.openlocfilehash: a418080393d27fdbabbc31a0a7bf5dc9c43aede23b75f6344921f596086fb78b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115271"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330107"
 ---
 # <a name="device-update"></a>裝置更新
 
-Microsoft 會定期為商務用 Skype Phone Edition 發行一組新的裝置固件更新，您可以將其匯入伺服器並散佈給使用者。 前往 Microsoft 網站的「說明及支援」頁面並搜尋 "Phone Edition" 可取得最新的裝置更新規則組合。 下載最新的更新套件，將檔案解壓縮至要上載之更新所在的電腦資料夾內。 解壓縮檔案後，接著可以使用 **Import-CsDeviceUpdate** Cmdlet 匯入解壓縮後之 .CAB 檔案 (其名稱為 UCUpdates.cab) 中的裝置更新規則。 如需詳細資訊，請參閱 [Import-CsDeviceUpdate](/powershell/module/skype/import-csdeviceupdate?view=skype-ps)。
+Microsoft 會定期為商務用 Skype 電話 Edition 發行一組新的裝置固件更新，您可以匯入伺服器並將其散佈給使用者。 前往 Microsoft 網站的「說明及支援」頁面並搜尋 "Phone Edition" 可取得最新的裝置更新規則組合。 下載最新的更新套件，將檔案解壓縮至要上載之更新所在的電腦資料夾內。 解壓縮檔案後，接著可以使用 **Import-CsDeviceUpdate** Cmdlet 匯入解壓縮後之 .CAB 檔案 (其名稱為 UCUpdates.cab) 中的裝置更新規則。 如需詳細資訊，請參閱 [Import-CsDeviceUpdate](/powershell/module/skype/import-csdeviceupdate?view=skype-ps)。
 
 在匯入裝置更新規則之後，您可以使用「 **裝置更新** 」頁面，為您組織的裝置查看及管理這些規則。
 

@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 description: 商務用 Skype Server 2015 支援與 Exchange 整合通訊的整合，以結合語音訊息與電子郵件訊息到單一郵件基礎結構。
-ms.openlocfilehash: 149655d4146c46b147fac5c79bf354d5d44fd273
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: b0822fb9139d9e68146c0df0727500448ecd8a544bb37ab054771a264f0e3a5f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646594"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344692"
 ---
 # <a name="exchange-unified-messaging-settings-planning-tool"></a>Exchange整合通訊設定規劃工具
 

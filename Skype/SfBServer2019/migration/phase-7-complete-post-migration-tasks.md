@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 本節中的主題說明在完成遷移至商務用 Skype Server 2019 之後，需要執行的工作。
-ms.openlocfilehash: c0c5c73212ab6f5ecb85383032ea9bdc97703eee
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+description: 本節中的主題說明在完成商務用 Skype Server 2019 的遷移後，您將需要執行的工作。
+ms.openlocfilehash: 8a27bbe42f64088833eb4349dde2e2249343dd8ef6ffad0577e3f405fbc6358c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752295"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298903"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>階段 7：完成移轉後的工作
 
-本節中的主題說明在完成遷移至商務用 Skype Server 2019 之後，需要執行的工作。
+本節中的主題說明在完成商務用 Skype Server 2019 的遷移後，您將需要執行的工作。
   
 ## <a name="in-this-section"></a>本節內容
 

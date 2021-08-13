@@ -14,18 +14,18 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ae1f6ed7-08da-41e1-b327-50e4a22992e6
-description: 使用 [從 Active Directory 選取] 對話方塊，尋找您要啟用商務用 Skype 伺服器的使用者。 在搜尋方塊中，輸入您要尋找之使用者的 SIP 位址或顯示名稱。 若要取得所有可用的使用者，請不要在搜尋方塊中輸入任何內容。
-ms.openlocfilehash: a238658a6e33c6178562874baaae7a390ebac14f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 使用 [從 Active Directory 選取] 對話方塊，尋找您要啟用商務用 Skype Server 的使用者。 在搜尋方塊中，輸入您要尋找之使用者的 SIP 位址或顯示名稱。 若要取得所有可用的使用者，請不要在搜尋方塊中輸入任何內容。
+ms.openlocfilehash: 653c2f85bcc52f09b1347a52746d1158739fd5d45c0e6ed80b33192112873395
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821903"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330017"
 ---
 # <a name="select-from-active-directory"></a>從 Active Directory 選取
  
-使用 [ **從 Active Directory 選取** ] 對話方塊，尋找您要啟用商務用 Skype 伺服器的使用者。 在搜尋方塊中，輸入您要尋找之使用者的 SIP 位址或顯示名稱。 若要取得所有可用的使用者，請不要在搜尋方塊中輸入任何內容。
+使用 [**從 Active Directory 選取**] 對話方塊，尋找您要啟用商務用 Skype Server 的使用者。 在搜尋方塊中，輸入您要尋找之使用者的 SIP 位址或顯示名稱。 若要取得所有可用的使用者，請不要在搜尋方塊中輸入任何內容。
   
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。
   
 

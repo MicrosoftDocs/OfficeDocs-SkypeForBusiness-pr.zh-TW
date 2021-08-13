@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 中的失敗散佈報告
+title: 商務用 Skype Server 的失敗散佈報告
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: 摘要：瞭解商務用 Skype Server 中的失敗散佈報告。
-ms.openlocfilehash: 251cf8e2017312d9e42e0d1aebcfe5d1d9bd3568
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6b6bedff59f73befbaa70dbc0eb4bf1b04b100022a7ca20c41245a07a082d4e3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823523"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344722"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>商務用 Skype Server 中的失敗散佈報告
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>商務用 Skype Server 的失敗散佈報告
  
 **摘要：** 深入瞭解商務用 Skype Server 中的失敗散佈報告。
   
@@ -47,13 +47,13 @@ ms.locfileid: "49823523"
 
 您可以按一下 **[預期失敗次數]** 或 **[未預期失敗次數]** 計量，從下列任一個報告存取失敗散佈報告：
   
-- [商務用 Skype Server 中的最大失敗報告](top-failures-report.md)
+- [商務用 Skype Server 的最大失敗報告](top-failures-report.md)
     
 - [商務用 Skype Server 中的會議診斷報告](conference-diagnostic-report.md)
     
-- [在商務用 Skype Server 中 Peer-to-Peer 活動診斷報告](peer-to-peer-activity-diagnostic-report.md)
+- [商務用 Skype Server 中的 Peer-to-Peer 活動診斷報告](peer-to-peer-activity-diagnostic-report.md)
     
-在 [失敗散佈報告] 中，您可以按一下下列任何度量，以 [在商務用 Skype Server 中查看失敗清單報告](failure-list-report.md)：
+在 [失敗散佈報告] 中，您可以按一下下列任何度量，以[在商務用 Skype Server 中查看失敗清單報告](failure-list-report.md)：
   
 - 前幾名診斷原因 (工作階段)
     

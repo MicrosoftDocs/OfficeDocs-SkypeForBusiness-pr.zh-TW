@@ -21,12 +21,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解附加元件授權、功能，以及如何購買 Office 365 企業版、E1、E3 和 E4 方案。 '
-ms.openlocfilehash: 2d228889c38cac925f82a5e8e4c024052e220969
-ms.sourcegitcommit: 3f1635d1915561798ea764c3e33d7db55f7e49da
+ms.openlocfilehash: 16752a076b84bc8ad8fe65251732af65993cb73784e7589c275fd42ac71c4352
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/23/2021
-ms.locfileid: "53574268"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316449"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 企業版 E1、E3 及 E4
 
@@ -67,7 +67,7 @@ E3 方案是您的動作套件的一部分。 若要購買 **電話系統****和
 
 2. 請登錄系統管理中心，然後前往帳單訂閱  >    >  **附加元件**。
 
-    現在，您將看到購買電話電話系統 **音訊** 會議附加元件的價格和選項。
+    現在，您將看到購買電話和音訊 **電話系統附加元件** 的價格和選項。 
 
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>為什麼我看不到購買附加元件的選項？
 <a name="bkmk_how"> </a>

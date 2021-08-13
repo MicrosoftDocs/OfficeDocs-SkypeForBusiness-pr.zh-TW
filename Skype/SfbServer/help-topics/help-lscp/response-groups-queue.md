@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: 回應群組中包含代理群組、佇列及工作流程。 回應群組佇列會將呼叫保留到回應群組，直到代理接聽來電為止。
-ms.openlocfilehash: 4b0b4e4f34c8297702b110fea2c8aae55bb39d2a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 875a76febbee305e8e2f25c6efee087575fac8d0736bd4405557795bff38e04a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122537"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298363"
 ---
 # <a name="response-groups-queue"></a>回應群組佇列
 
@@ -56,4 +56,4 @@ ms.locfileid: "51122537"
 
 - **描述** 佇列的描述。
 
-如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔中的在 [商務用 Skype Server 2015 中規劃回應群組應用程式](../../plan-your-deployment/enterprise-voice-solution/response-group.md) 。 如需使用回應群組佇列的詳細資訊，請參閱 Operations 檔中的 [管理回應群組佇列](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) 。
+如需有關回應群組功能及功能的詳細資訊，請參閱規劃檔中的在[商務用 Skype Server 2015 中規劃回應群組應用程式](../../plan-your-deployment/enterprise-voice-solution/response-group.md)。 如需使用回應群組佇列的詳細資訊，請參閱 Operations 檔中的 [管理回應群組佇列](/previous-versions/office/lync-server-2013/lync-server-2013-managing-response-group-queues) 。

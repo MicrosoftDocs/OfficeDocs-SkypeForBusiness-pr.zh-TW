@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 [拓撲產生器] 中，您可以編輯執行封存之個別伺服器的屬性，方法是在主控台樹中以滑鼠右鍵按一下執行封存的伺服器，然後按一下工具列中的 [動作]，或是按一下 [動作] 窗格中的工作，然後按一下 [編輯內容] 並變更下列任一選項：
-ms.openlocfilehash: 841343a54ac3681659614a8ab89c02990290d9d6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 11eb80527065ea10336282f97b36e2327dbb2d65a57c6c864ddcafbef9be9810
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800743"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330317"
 ---
 # <a name="archiving-server-general-settings-expander"></a>封存伺服器一般設定展開工具
  

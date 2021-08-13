@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 設定商務用 Skype 的混合模式，以規劃在商務用 Skype Server 和 Teams 之間執行混合連線。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: fee78cf4532ff1cb0be7a24fc29e407001647f452cdef5fbb5e60859989f8112
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c52edf0fa8e90f0fc6a86f0d87192fdbba6a24c8ef540f18607645a82d7badfe
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849268"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>規劃商務用 Skype Server 和 Teams 之間的混合式連線
 
@@ -45,7 +45,7 @@ ms.locfileid: "54287882"
 ## <a name="implications-of-the-upcoming-retirement-of-skype-for-business-online"></a>即將推出的商務用 Skype 線上退休的影響
 請務必記住，在商務用 Skype 線上退休之前和之後，位於內部部署商務用 Skype Server 的使用者可以使用 Teams，但無法 TeamsOnly。  (預設使用者處於孤島模式) 。 在 TeamsOnly 模式下，使用者只會體驗 Teams 的全部優點，尤其是在特定同盟及 PSTN 支援。 
 
-即將退休的商務用 Skype 線上，對商務用 Skype Server 或 Lync Server 2013 的現有支援週期沒有影響。  不過，即將淘汰的商務用 Skype 線上，將會影響客戶如何使用內部部署商務用 Skype Server 或 Lync Server 2013 （包括現有的混合式組織、轉換為雲端）的某些 apsects。 停用之後，將不會變更的功能是使用混合式來從內部部署轉換為雲端的方式，保持不變。
+即將退休的商務用 Skype 線上，對商務用 Skype Server 或 Lync Server 2013 的現有支援週期沒有影響。  不過，即將退休的商務用 Skype 線上會影響客戶如何使用內部部署商務用 Skype Server 或 Lync Server 2013 （包括現有的混合式組織）的某些方面，以轉換至雲端。 停用之後，將不會變更的功能是使用混合式來從內部部署轉換為雲端的方式，保持不變。
 
 目前及向上，直到商務用 Skype 線上退休為止，混合式組織才可以包含三種基本類型的使用者： 
 - 內部部署使用者 (可能或不使用 Teams （但不是以 Teams 唯一模式）的使用者)  
@@ -53,7 +53,7 @@ ms.locfileid: "54287882"
 - TeamsOnly 使用者。
 
 在線上退休商務用 Skype 後，混合式組織只能由兩種基本類型的使用者所組成： 
-- 內部部署使用者 (神秘可能使用或可能使用 Teams，但無法在 TeamsOnly 模式) 
+- 內部部署使用者 (神秘可能使用或不使用 Teams，但在 TeamsOnly 模式中則不會) 
 - Teams僅限使用者。 
 
 若要讓組織從商務用 Skype Server 或 Lync Server 2013 移至 Teams，他們仍然必須使用相同的工具組來設定和設定混合（*完全如同退休之前*）。 變更的方式是將使用者從內部部署移至 Teams 時，您不再需要在 `-MoveToTeams` 中指定切換 `Move-CsUser` 以將使用者直接從內部部署移至 TeamsOnly。 先前若未指定此參數，則會將使用者轉換為位於商務用 Skype Server 內部部署，以商務用 Skype 線上，而且其模式仍保持不變。 在準備淘汰時，當您將使用者從內部部署移至雲端時， `Move-CsUser` 使用者現在會自動被指派 TeamsOnly 模式，而來自內部部署的會議則會自動轉換為 Teams 會議，就如同 `-MoveToTeams` 已指定參數，不論該參數是否實際指定一樣。  (這包括從 Lync Server 2013 進行遷移，其絕對不會有 `MoveToTeams` switch。 )  

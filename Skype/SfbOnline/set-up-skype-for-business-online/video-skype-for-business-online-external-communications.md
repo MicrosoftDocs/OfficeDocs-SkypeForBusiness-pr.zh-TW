@@ -1,5 +1,5 @@
 ---
-title: 線上商務用 Skype通訊影片
+title: 影片商務用 Skype線上外部通訊
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -19,18 +19,18 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '瞭解如何設定商務用 Skype線上外部通訊，以便使用者與外部連絡人Skype通訊。 '
-ms.openlocfilehash: 4ac480ff162b61db7bff4d71f9915f059838c65d
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b363814066e8a9bb0169baa3a41e81d10fb69ba3ecca862530292d73b5e94b65
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238979"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297649"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>視訊：商務用 Skype Online 外部通訊
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-設定 商務用 Skype線上外部通訊，讓使用者與外部連絡人商務用 Skype Lync Skype通訊。
+設定 商務用 Skype Online 外部通訊，讓使用者與外部連絡人商務用 Skype Lync Skype通訊。
 
  **物件：Microsoft 365 Office 365** 管理員
 

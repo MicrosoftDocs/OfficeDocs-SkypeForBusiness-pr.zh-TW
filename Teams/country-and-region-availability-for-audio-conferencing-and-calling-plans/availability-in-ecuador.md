@@ -1,5 +1,5 @@
 ---
-title: 在 2010 年 12 月
+title: 在哥倫比亞的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -25,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
-ms.openlocfilehash: f48dca13ecfb3af4364f6c888c94e01781edcf9d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 965856014c4e9ca25b2e5dd4de18b99ab1d7f496e7e81608fd31aa87d9a7e9cd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118172"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344362"
 ---
-# <a name="availability-in-ecuador"></a>在 2010 年 12 月
+# <a name="availability-in-ecuador"></a>在哥倫比亞的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 

@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 摘要：瞭解商務用 Skype Server 中的裝置報表。
-ms.openlocfilehash: 2471f232256e4715f271cd310f0b1415555ca4c5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 129511daf296018bda5f727d4cdb567bdc93dddfafa6b7c48f7a20a5bcf14567
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344732"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>商務用 Skype Server 中的裝置報表
  
-**摘要：** 深入瞭解商務用 Skype Server 中的裝置報告。
+**摘要：** 深入瞭解商務用 Skype Server 中的裝置報表。
   
-裝置報告可能更好的名稱是麥克風和揚聲器報告;這是因為裝置報表會檢索與通話相關的計量，例如通話百分比、迴響和語音切換時間) 依通話中使用的麥克風群組所進行的 (。 如果您想要使用 IP 電話 (也通常稱為 "裝置" ) ，請改用商務用 [Skype Server 中的 IP 電話清查報告](ip-phone-inventory-report.md) 。
+裝置報告可能更好的名稱是麥克風和揚聲器報告;這是因為裝置報表會檢索與通話相關的計量，例如通話百分比、迴響和語音切換時間) 依通話中使用的麥克風群組所進行的 (。 如果您想要使用 IP 電話 (也通常稱為 "裝置" ) ，請改用[商務用 Skype Server 中的 IP 電話清查報告](ip-phone-inventory-report.md)。
   
 裝置報告對於判斷特定類型的裝置是否有超過其他的高品質通話時，對系統管理員非常有用。 反過來，這可能會影響購買新裝置或更換現有裝置時必須進行的任何決策。
   
@@ -54,13 +54,13 @@ ms.locfileid: "49826413"
    
 ## <a name="accessing-the-device-report"></a>存取裝置報告
 
-裝置報告通常是從監控報告首頁進行存取。 不過，如果您要 [在商務用 Skype Server 中查看 [通話詳細資料包告](call-detail-report.md) ]，您可以按一下下列其中一個計量，以深入查看特定裝置的裝置報告：
+裝置報告通常是從監控報告首頁進行存取。 不過，如果您要[在商務用 Skype Server 中查看 [通話詳細資料包告](call-detail-report.md)]，您可以按一下下列其中一個計量，向下流覽特定裝置的裝置報告：
   
 - 捕獲裝置
     
 - Render 裝置
     
-在裝置報告中，您可以按一下下列其中一個計量，以深入查看 [商務用 Skype Server 中的通話清單報告](call-list-report-0.md) ：
+在裝置報告中，您可以按一下下列其中一個計量，以深入查看[商務用 Skype Server 中的通話清單報告](call-list-report-0.md)：
   
 - 通話數量
     
@@ -107,9 +107,9 @@ ms.locfileid: "49826413"
 - Aastra 6725ip 麥克風 (USB 音訊裝置) -V0
     
 > [!NOTE]
-> 請記住，如果您正在執行商務用 Skype Server 的當地語系化版本，則捕獲裝置名稱可能不會相同。 名為 Aastra 6725ip 麥克風 (Aastra 6725ip 的裝置會以法文或西班牙文以不同的名稱) -V0。 
+> 請記住，如果您執行的是當地語系化版本的商務用 Skype Server，則捕獲裝置名稱可能不會相同。 名為 Aastra 6725ip 麥克風 (Aastra 6725ip 的裝置會以法文或西班牙文以不同的名稱) -V0。 
   
-您經常會想要此層級的詳細資料。不過，在其他時間，您可能只會對使用任何 Aastra 麥克風的來電數目感興趣，不論型號為何。 取得資訊的一種方式是將裝置報表資料匯出至 Microsoft Excel，然後將該資料儲存到逗號分隔值檔案 (例如，C:\Data\Devices_Report.csv) 。 然後，您可以使用類似下列的一組命令，匯入。CSV 檔案至 Windows PowerShell 並傳回使用 Aastra capture device 進行的呼叫總數：
+您經常會想要此層級的詳細資料。不過，在其他時間，您可能只會對使用任何 Aastra 麥克風的來電數目感興趣，不論型號為何。 取得資訊的方法之一，例如，將裝置報表資料匯出至 Microsoft Excel，然後將該資料儲存到逗號分隔值檔案 (例如，C:\Data\Devices_Report.csv) 。 然後，您可以使用類似下列的一組命令，將 .CSV 檔案匯入 Windows PowerShell，然後傳回使用 Aastra capture device 進行的呼叫總數：
   
 ```PowerShell
 $devices = Import-Csv "C:\Data\Device_Report.csv
@@ -141,7 +141,7 @@ $x
 |**裝置類型** <br/> |會指出裝置的類型。 選取下列其中一項：  <br/> Capture device Render device Capture/Render device 成對 |
 |**裝置名稱** <br/> |Capture 或 render 裝置的名稱。 您可以輸入完整的裝置名稱或任何部分的裝置名稱。 例如，若要在 Microsoft LifeCam VX-1000 ) 中尋找裝置麥克風 (，您可以輸入完整的裝置名稱，如下所示：  <br/> 麥克風 (Microsoft LifeCam VX-1000。 )   <br/> 或者，您可以只輸入名稱的一部分。 例如：  <br/> LifeCam  <br/> 請注意，前述的篩選會傳回名稱中包含字串 "LifeCam" 任何位置的任何裝置。  <br/> |
    
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>度量
 
 下表列出裝置報告中提供的資訊。
   

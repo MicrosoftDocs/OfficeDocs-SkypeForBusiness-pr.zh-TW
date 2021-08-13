@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 瞭解如何從內部部署Microsoft Teams組織商務用 Skype內部部署。
+description: 瞭解如何從內部部署Microsoft Teams組織商務用 Skype組織。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0585f0ad829f19334d5a970461f1f3248a107e9d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1bf5529cf37ca3217c5af0411a1d12f0e752c583cb869273f9ba5b068d5633da
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115551"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298993"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>從內部部署商務用 Skype升級至Teams
 
 ![升級歷程的階段，強調部署與執行階段](media/upgrade-banner-deployment.png "升級歷程的階段，強調部署與執行階段")
 
-本文是升級歷程的部署與執行階段的一部分。 繼續進行之前，請確認您已完成下列活動：
+本文是升級歷程的部署與執行階段之一。 繼續進行之前，請確認您已完成下列活動：
 
 - [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
 - [已定義專案範圍](./upgrade-define-project-scope.md)
@@ -54,7 +54,7 @@ ms.locfileid: "51115551"
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>步驟 2：為貴組織執行您所選擇的升級歷程
 
-完成混合式設定之後，您可以規劃將使用者移至 Microsoft 365 或 Office 365。
+完成混合式設定之後，您可以規劃將使用者移至Microsoft 365或Office 365。
 
 詳細資訊，請參閱：
 
@@ -66,6 +66,6 @@ ms.locfileid: "51115551"
 
 從內部部署電話系統轉換至 Teams 將允許您使用 電話系統 直接路由 ("直接路由") 或 Microsoft 提供的 Microsoft 365 或 Office 365 通話方案。
 
-如果您不是使用通話方案，您必須將企業語音部署切換至 電話系統直接路由，作為升級至 Teams。
+如果您不是使用通話方案，您必須在升級至 電話系統時，將企業語音部署轉換為 電話系統 直接Teams。
 
-詳細資訊，請參閱[直接路由的其他電話系統考慮](./direct-routing-landing-page.md)。 如果您打算使用通話方案，請參閱我們的指引，將電話號碼轉接到[Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+詳細資訊，請參閱直接路由[的其他電話系統考慮](./direct-routing-landing-page.md)。 如果您打算使用通話方案，請參閱我們的指引，將電話號碼轉接到[Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

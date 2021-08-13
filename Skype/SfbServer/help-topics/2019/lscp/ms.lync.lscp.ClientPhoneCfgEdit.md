@@ -14,17 +14,17 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 ROBOTS: NOINDEX, NOFOLLOW
-description: 在「新增裝置設定」或「編輯裝置設定」頁面上，您可以建立或修改用以管理商務用 Skype Phone Edition 的設定集合。 這些設定可讓您設定諸如所需的安全性模式、裝置記錄等級、語音服務品質 (QoS) 設定，以及電話是否應該在指定的非使用期限後自動鎖定等事項。
-ms.openlocfilehash: 47805db474169631b722cbd8e2af95ec42bc8fa6
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在「新增裝置設定」或「編輯裝置設定」頁面上，您可以建立或修改用以管理商務用 Skype 電話 Edition 的設定集合。 這些設定可讓您設定諸如所需的安全性模式、裝置記錄等級、語音服務品質 (QoS) 設定，以及電話是否應該在指定的非使用期限後自動鎖定等事項。
+ms.openlocfilehash: f19a3d6018252fd0abc1ca717b50230aa5f063516e018e2b5b1745fa06a60388
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51100559"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316329"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>裝置組態：建立新的或編輯現有組態
  
-在「 **新增裝置** 設定」或「 **編輯裝置** 設定」頁面上，您可以建立或修改用以管理商務用 Skype Phone Edition 的設定集合。 這些設定可讓您設定諸如所需的安全性模式、裝置記錄等級、語音服務品質 (QoS) 設定，以及電話是否應該在指定的非使用期限後自動鎖定等事項。
+在「**新增裝置** 設定」或「**編輯裝置** 設定」頁面上，您可以建立或修改用以管理商務用 Skype 電話 Edition 的設定集合。 這些設定可讓您設定諸如所需的安全性模式、裝置記錄等級、語音服務品質 (QoS) 設定，以及電話是否應該在指定的非使用期限後自動鎖定等事項。
   
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
@@ -42,7 +42,7 @@ ms.locfileid: "51100559"
     
 - **名稱** 您可以新增或修改裝置設定的名稱。
     
-- **SIP 安全性** 您可以為商務用 Skype Phone Edition 裝置設定傳輸和驗證需求。 您可以從下列選項中選取：
+- **SIP 安全性** 您可以設定商務用 Skype 電話 Edition 裝置的傳輸和驗證需求。 您可以從下列選項中選取：
     
   - **低** 允許任何類型的授權或傳輸。
     
@@ -52,7 +52,7 @@ ms.locfileid: "51100559"
     
 - **記錄等級** 您可以在 UC 裝置上啟用記錄功能。 有效的值為： Off;低大中型和高。 預設值為 Off。
     
-- **語音服務品質 (QoS)** 您可以指定指派給語音流量 emanating 從商務用 Skype Phone Edition 裝置的 DSCP 值。 預設值為40。 不過，40不是一般用於音訊流量的值;相反地，音訊流量幾乎都是以 DSCP 碼46標示。 為了維持整個網路的一致性，您可能想要將此值變更為46。
+- **語音服務品質 (QoS)** 您可以指定從商務用 Skype 電話 Edition 裝置指派給語音流量 emanating 的 DSCP 值。 預設值為40。 不過，40不是一般用於音訊流量的值;相反地，音訊流量幾乎都是以 DSCP 碼46標示。 為了維持整個網路的一致性，您可能想要將此值變更為46。
     
 - **電話鎖定** 您可以指定 UC 電話是否會在經過指定的閒置期限後自動鎖定自身。 您可以設定下列設定：
     
@@ -60,7 +60,7 @@ ms.locfileid: "51100559"
     
   - **最小 PIN 碼長度** 您可以指定用於解除電話鎖定之個人識別碼 (PIN) 的最小長度。 PIN 碼的長度範圍是四到15位數。 預設長度為六位數。
     
-  - **電話鎖定超時** 您可以指定電話鎖定自身之前的最短時間長度。 -超時的範圍是0到60分鐘;預設值為10分鐘。 輸入值，格式為 HH： MM： SS。
+  - **電話鎖定** 超時您可以指定電話鎖定自身之前的最短時間長度。 -超時的範圍是0到60分鐘;預設值為10分鐘。 輸入值，格式為 HH： MM： SS。
     
 ## <a name="see-also"></a>另請參閱
 

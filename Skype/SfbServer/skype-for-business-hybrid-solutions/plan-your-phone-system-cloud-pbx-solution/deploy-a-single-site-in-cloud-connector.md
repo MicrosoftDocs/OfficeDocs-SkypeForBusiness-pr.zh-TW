@@ -16,23 +16,23 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: 瞭解如何在雲端連接器 Edition 中部署單一 PSTN 網站。
-ms.openlocfilehash: 32c981b0f7de3d596dc25c3336000871db9fee65
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 52c10b8c5e386f72415ce5a379b68b0b469f825f5cf52be9b225f28dcf8232b6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094831"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298123"
 ---
 # <a name="deploy-a-single-site-in-cloud-connector"></a>在 Cloud Connector 中部署單一網站
  
 > [!Important]
-> 雲端連接器 Edition 會于2021年7月31日和商務用 Skype Online 終止。 當您的組織升級至小組後，請瞭解如何使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線到小組。
+> 雲端連接器 Edition 會在2021年7月31日和商務用 Skype 線上時終止。 當您的組織升級至 Teams 後，請瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話網絡連線至 Teams。
 
 瞭解如何在雲端連接器 Edition 中部署單一 PSTN 網站。
   
-您可以使用或不具有高可用性 (HA) 支援，部署商務用 Skype 雲端連接器 Edition。 如果您想要啟用 HA，您必須在網站中部署兩部以上的裝置。 您也可以在部署現有裝置後，將其轉換為支援 HA。
+您可以部署具有或不具有高可用性 (HA) 支援的商務用 Skype Cloud Connector Edition。 如果您想要啟用 HA，您必須在網站中部署兩部以上的裝置。 您也可以在部署現有裝置後，將其轉換為支援 HA。
   
-## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>部署第一個商務用 Skype 雲端連接器 Edition 裝置
+## <a name="deploy-the-first-skype-for-business-cloud-connector-edition-appliance"></a>部署第一個商務用 Skype Cloud Connector Edition 裝置
 
 若要部署網站中的第一個裝置，請以系統管理員身分開啟 PowerShell 主控台，然後執行下列 Cmdlet 來註冊裝置：
   
@@ -58,7 +58,7 @@ Install-CcAppliance
   
 1. 遵循 [準備雲端連接器裝置](prepare-your-cloud-connector-appliance.md)中所述的步驟，以準備您的雲端連接器裝置。 請注意，只有部署中的第一個裝置需要一些步驟。 確認網站目錄存在，且已正確設定 HA 支援。
     
-2. 請僅在新加入的主伺服器上執行下列 Cmdlet，以更新 Microsoft 365 或 Office 365 組織設定中的拓撲資訊。 如果您想要同時新增多個裝置，請逐一在新加入的主機伺服器上執行 Cmdlet：
+2. 請僅在新加入的主伺服器上執行下列 Cmdlet，以更新 Microsoft 365 中的拓撲資訊，或 Office 365 組織設定。 如果您想要同時新增多個裝置，請逐一在新加入的主機伺服器上執行 Cmdlet：
     
    ```powershell
    Register-CcAppliance
@@ -83,7 +83,7 @@ Install-CcAppliance
 
 若要從現有的網站移除裝置：
   
-1. 請僅在您想要從網站移除的主伺服器上執行下列 Cmdlet，以更新 Microsoft 365 或 Office 365 組織設定中的拓撲資訊。
+1. 請僅在您想要從網站中移除的主伺服器上執行下列 Cmdlet，以更新 Microsoft 365 中的拓撲資訊，或 Office 365 組織設定。
     
    ```powershell
    Unregister-CcAppliance

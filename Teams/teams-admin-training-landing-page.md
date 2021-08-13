@@ -1,7 +1,7 @@
 ---
 title: 系統管理訓練Microsoft Teams
 ms.reviewer: ''
-description: 取得管理貴組織中所有人員所需的系統管理員Microsoft Teams支援。
+description: 取得您管理組織中帳戶所需的系統管理員訓練Microsoft Teams支援。
 author: cichur
 manager: serdars
 audience: admin
@@ -20,12 +20,12 @@ f1.keywords:
 search.appverid: MET150
 ms.topic: landing-page
 ms.author: v-cichur
-ms.openlocfilehash: 5e4c866935fe9ddb15f598ba6540fe8ed266f447
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4f2d6e2b096e5220c0dffd6f04103ea65fd9ce0aa77eef6f845f0b99f306b9cf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49822713"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299043"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>系統管理訓練Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "49822713"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NEW：由講師帶領的訓練課程Teams</h3>
+                        <h3>新增：由講師帶領的訓練課程Teams</h3>
                     </div>
                 </div>
             </div>

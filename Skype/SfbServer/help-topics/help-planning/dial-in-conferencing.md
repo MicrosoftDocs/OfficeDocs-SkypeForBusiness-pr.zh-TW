@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 description: 商務用 Skype Server 2015 電話撥入式會議可讓使用者使用公用交換電話網路 (PSTN) 電話加入商務用 Skype Server 2015 會議的音訊部分，而不需要協力廠商音訊會議提供者。
-ms.openlocfilehash: 538141da2f3b1ff6239079f6255a6f73d687fe62
+ms.openlocfilehash: 835b28d8cd3e6b35e9500982cc27ffd77711033c5289c596a13024d25e15ff74
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/05/2021
-ms.locfileid: "53772894"
+ms.locfileid: "54315869"
 ---
 # <a name="skype-for-business-server-dial-in-conferencing-planning-tool"></a>商務用 Skype Server電話撥入式會議計畫工具
  

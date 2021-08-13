@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要設定 Microsoft 推播通知和 Apple 推播通知，您必須建立原則來定義您需要的推播通知類型。
-ms.openlocfilehash: 693b954fffbbce56a2d95ce29128482937b6fa05
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 1400fe60ba9c0accad602a968a646a0f6a8aabe06ac7418dbdaf7d8cd492dc84
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836673"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316269"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>行動用戶端：推播通知設定
  

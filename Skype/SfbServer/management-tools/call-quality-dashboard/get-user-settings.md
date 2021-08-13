@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
-description: 摘要：瞭解「使用者設定」作業，這是使用者設定服務的一部分。 使用者設定服務是用於通話品質儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
-ms.openlocfilehash: e2ebf39ba5a7de5d36a8b1ea0441808b6e71f97b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解 User 設定 Service 的「取得使用者設定」作業。 使用者設定服務是用於通話品質儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
+ms.openlocfilehash: b541cacf3c777ca5991640f3bff05265cf6eeeb5c88f59f9731d46318247c171
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298143"
 ---
 # <a name="get-user-settings"></a>取得使用者設定
  
-**摘要：** 深入瞭解 user settings Service 的「取得使用者設定」作業。 使用者設定服務是用於通話品質儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype 伺服器的工具。
+**摘要：** 深入瞭解 user 設定 Service 的「取得使用者設定」作業。 使用者設定服務是用於通話品質儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
   
-「取得使用者設定」作業是用於通話品質儀表板之存放庫 API 中使用者設定服務的一部分。
+[取得使用者設定] 作業是「儲存庫 API 的呼叫品質」儀表板中使用者設定服務的一部分。
   
 ## <a name="get-user-settings"></a>取得使用者設定
 

@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
-description: 若要開始進行商務用 Skype Server 2015 的架構擴充，您可以在 [準備架構] 頁面上開始。 按 [下一步] 繼續準備架構。
-ms.openlocfilehash: 4bb09f91bec77169a73c3392f5490eb3188287de
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 若要啟動工作以擴充商務用 Skype Server 2015 的架構，您可以在 [準備架構] 頁面上開始。 按 [下一步] 繼續準備架構。
+ms.openlocfilehash: 9a61d83dfb354eae77a889717feaab2a79b5df497df85770c0a9a2d886f342c6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49829843"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315939"
 ---
 # <a name="prepare-schema-intro"></a>準備架構 (簡介)
  
-若要開始進行商務用 Skype Server 2015 的架構擴充，您可以在 [ **準備架構** ] 頁面上開始。 按 **[下一步]** 繼續準備架構。
+若要啟動工作以擴充商務用 Skype Server 2015 的架構，您可以在 [**準備架構**] 頁面上開始。 按 **[下一步]** 繼續準備架構。
   
 

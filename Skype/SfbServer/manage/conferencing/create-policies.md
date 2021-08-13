@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 摘要：瞭解如何在商務用 Skype Server 中建立會議原則。
-ms.openlocfilehash: 81fcaa15c7b12b499c833ac012ef6d999da683ad
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2cce451135c82894d9d82c89e6a62682d95526d31082d209bcaf8144752426b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119522"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344742"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中建立會議原則
  
 **摘要：** 瞭解如何在商務用 Skype Server 中建立會議原則。
   
-您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面來建立會議原則。
+您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面來建立會議原則。
   
 ## <a name="create-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台建立會議原則
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 開啟商務用 Skype Server 控制台。
+2. 開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [ **會議**]，然後按一下 [ **會議原則**]。
     
@@ -84,7 +84,7 @@ ms.locfileid: "51119522"
     
     - 若要防止進行檔案傳輸，請清除 **[允許參與者傳輸檔案]** 核取方塊。根據預設，使用者可以傳輸檔案。
     
-    - 若要防止使用註釋，請清除 **[啟用註釋]** 核取方塊。 若要使用共用 PowerPoint 簡報中的批註，請清除 [ **啟用 PowerPoint 批註**]。 預設允許使用註釋。
+    - 若要防止使用註釋，請清除 **[啟用註釋]** 核取方塊。 若要使用共用 PowerPoint 簡報中的批註，請清除 [**啟用 PowerPoint 批註**]。 預設允許使用註釋。
     
     - 若要防止使用投票，請清除 **[啟用投票]** 核取方塊。預設允許使用投票。
     

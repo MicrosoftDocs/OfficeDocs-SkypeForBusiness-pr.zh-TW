@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: 若要編輯已定義之信任的應用程式伺服器的屬性，請遵循下列指示。
-ms.openlocfilehash: 55f6bfee68370f8f341080e54953120e48f628f8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: cbc1d58c3e4ecf5a3db6efd26cd66879c75f18b1b24baa036a4266a14bf0878b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49804763"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329767"
 ---
 # <a name="external-application-general-settings-expander"></a>外部應用程式一般設定展開工具
  

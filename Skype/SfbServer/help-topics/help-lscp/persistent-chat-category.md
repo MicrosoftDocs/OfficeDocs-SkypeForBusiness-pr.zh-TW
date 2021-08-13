@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: 您可以使用 [Persistent Chat] 頁面的 [類別] 區段來設定類別。 Persistent 聊天室類別是用來組織聊天室的邏輯結構。 類別會定義一組預設的存取控制清單 (ACLs)，用於控制可建立或加入聊天室的使用者及使用者群組。 您可以利用類別在組織內不同的子部門之間強制執行道德管束。
-ms.openlocfilehash: f7718a5d6cc92c0036f28843d21c4c349c0bc38d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 009cc7ef5cd35b7637f687043a0a5c5ddd24fa2f228c95a8bb4660b4c9140b47
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803743"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299819"
 ---
 # <a name="persistent-chat-category"></a>常設聊天室類別
  
@@ -28,7 +28,7 @@ ms.locfileid: "49803743"
   
 聊天室類別可包含聊天室，但不可包含其他類別。 每個類別都會使用中繼資料來描述其內容，例如  _Name_ 及 _Description_。 此外，類別的屬性也可以設定，以控制屬於該類別之聊天室的行為，例如，聊天室允許  _邀請_ 或檔案上 _傳_，或包含  _聊天記錄_。
   
-若要建立新的類別，請參閱 [在商務用 Skype server 2015 中管理 Persistent Chat Server](../../manage/persistent-chat/categories.md)中的類別。 如果您是 Persistent Chat Administrator，您可以使用 [控制台] 或 [Windows PowerShell Cmdlet 來建立類別。
+若要建立新的類別，請參閱[在2015商務用 Skype Server 中管理 Persistent Chat Server 中的類別](../../manage/persistent-chat/categories.md)。 如果您是 Persistent Chat Administrator，您可以使用 [控制台] 或 Windows PowerShell Cmdlet 來建立類別。
   
 ## <a name="tasks-that-you-can-perform"></a>您可以執行的工作
 
@@ -44,7 +44,7 @@ ms.locfileid: "49803743"
 
 1. 使用指派給 CsPersistentChatAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任一部電腦。
     
-2. 從 [ **開始** ] 功能表中，選取商務用 Skype Server 控制台或開啟瀏覽器視窗，然後輸入管理 URL。
+2. 從 [**開始**] 功能表中，選取 [商務用 Skype Server 控制台] 或開啟瀏覽器視窗，然後輸入管理 URL。
     
 3. 在左導覽列中，按一下 [常設聊天室]，然後按一下 [類別]。
     
@@ -65,7 +65,7 @@ ms.locfileid: "49803743"
 10. 如果要控制屬於此類別的聊天室中的檔案上傳，請選取或清除 **[啟用檔案上傳]** 核取方塊。如果選取，此類別的聊天室就可以啟用或停用檔案上傳；如果清除，則不允許此類別的聊天室有檔案上傳。
     
      > [!IMPORTANT]
-     > 因為自訂應用程式或舊版群組聊天用戶端使用 Office 通訊伺服器 2007 R2 群組聊天伺服器或 Lync Server 2010，所以群組聊天可將檔案張貼至聊天室，因此會在伺服器上強制執行此設定。 Lync 2013 用戶端沒有檔案上傳/下載功能，因此，如果您有純 Lync 2013 部署或 Lync 2013 用戶端，則無法在 Persistent Chat Server 聊天室中張貼檔案。 
+     > 因為自訂應用程式或舊版群組聊天用戶端使用 Office 通訊伺服器 2007 R2 群組聊天伺服器或 Lync server 2010，所以群組聊天可將檔案張貼至聊天室，因此會在伺服器上強制執行此設定。 Lync 2013 用戶端沒有檔案上傳/下載功能，因此，如果您有純 Lync 2013 部署或 Lync 2013 用戶端，則無法在 Persistent Chat Server 聊天室中張貼檔案。 
   
 11. 若要控制聊天記錄，請選取或清除 [ **啟用聊天記錄** ] 核取方塊。 如果選取，聊天內容會持續存在；如果清除，聊天訊息就不會存在。 如果啟用規範，將會依規範儲存聊天內容，但是使用者無法存取較早的訊息。 此選項可用於為不需要保留聊天記錄的即時、點對點共同作業的會議室所指派。
     
@@ -81,6 +81,6 @@ ms.locfileid: "49803743"
     
 ## <a name="see-also"></a>另請參閱
 
-如需 Persistent Chat Server 功能及功能的詳細資訊，請參閱 [Plan For Persistent Chat server In 商務用 skype server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、 [在商務用 skype server 2015 中部署 persistent chat](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)Server，以及 [在商務用 Skype Server 2015 中管理 persistent chat server](../../manage/persistent-chat/persistent-chat.md)。
+如需 Persistent chat server 功能及功能的詳細資訊，請參閱[在商務用 Skype Server 2015 中規劃 persistent chat server](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、[在商務用 Skype Server 2015 中部署 persistent chat](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)server，以及[在商務用 Skype Server 2015 中管理 persistent chat server](../../manage/persistent-chat/persistent-chat.md)。
   
 

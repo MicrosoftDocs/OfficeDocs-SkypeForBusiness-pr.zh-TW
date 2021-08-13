@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
-description: 您可以將測試裝置新增至 [測試裝置] 頁面，然後使用此裝置來確認新更新的功能，再將更新部署至實際執行裝置。 您可以在整個環境) 或單一網站內，測試裝置全域 (。 您可以透過媒體存取控制來識別測試裝置 (MAC) 位址或序號。 當您新增裝置時，它會顯示在商務用 Skype Server [控制台] 的 [測試裝置] 頁面上的清單中。
-ms.openlocfilehash: e48c76237f8d9cafb1642e8ec1e598dcc24453c3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 您可以將測試裝置新增至 [測試裝置] 頁面，然後使用此裝置來確認新更新的功能，再將更新部署至實際執行裝置。 您可以在整個環境) 或單一網站內，測試裝置全域 (。 您可以透過媒體存取控制來識別測試裝置 (MAC) 位址或序號。 當您新增裝置時，它會顯示在商務用 Skype Server 控制台的 [測試裝置] 頁面上的清單中。
+ms.openlocfilehash: b893e5673f79aa034959c93b28269c874c03f23603edfd1c94922330fc090da7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099349"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299730"
 ---
 # <a name="test-device"></a>測試裝置
 
-您可以將測試裝置新增至 [ **測試裝置** ] 頁面，然後使用此裝置來確認新更新的功能，再將更新部署至實際執行裝置。 您可以在整個環境) 或單一網站內，測試裝置全域 (。 您可以透過媒體存取控制來識別測試裝置 (MAC) 位址或序號。 當您新增裝置時，它會顯示在商務用 Skype Server [控制台] 的 [ **測試裝置** ] 頁面上的清單中。
+您可以將測試裝置新增至 [ **測試裝置** ] 頁面，然後使用此裝置來確認新更新的功能，再將更新部署至實際執行裝置。 您可以在整個環境) 或單一網站內，測試裝置全域 (。 您可以透過媒體存取控制來識別測試裝置 (MAC) 位址或序號。 當您新增裝置時，它會顯示在商務用 Skype Server 控制台的 [**測試裝置**] 頁面上的清單中。
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 

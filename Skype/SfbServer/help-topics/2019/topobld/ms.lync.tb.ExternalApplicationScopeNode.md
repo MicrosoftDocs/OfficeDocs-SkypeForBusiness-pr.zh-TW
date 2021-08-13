@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此節點會顯示此信任的應用程式集區的集區完整功能變數名稱 (FQDN) 、複寫設定和下一個躍點集區。 您可以執行下列動作：
-ms.openlocfilehash: e28aab7db916615b1c5a07125f37c33ea0ba52d7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 62c837aef82c9063d3df3ffc8a0e6920909f52c3e2b3bccfd31309373097a052
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815483"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330297"
 ---
 # <a name="external-application-scope-node"></a>外部應用程式範圍節點
  

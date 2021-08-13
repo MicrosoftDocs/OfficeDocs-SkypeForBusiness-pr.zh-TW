@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解在智利撥打免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
-ms.openlocfilehash: 3b3affb2168c821e11d8aa526815384776c7971c
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 瞭解在智利撥打免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
+ms.openlocfilehash: 09aa1fc71208048d5a1665f43b9e9f067e1b47e5503a4541b938723725e96925
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116801"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297759"
 ---
 # <a name="toll-free-dialing-restrictions-in-chile"></a>智利免付費撥號限制
 

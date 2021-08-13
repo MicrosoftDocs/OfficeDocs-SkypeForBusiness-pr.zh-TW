@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: cd2889c4-0eb1-4752-9274-93a5a68a8080
-description: 當商務用 Skype 雲端連接器版本接近到期或已到期時，更新-CcServerCertificate Cmdlet 會重新計算憑證。
-ms.openlocfilehash: da52efcd3fdf6a0793e085098bf6f72725115e9c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: 當商務用 Skype Cloud Connector Edition 接近到期或已到期時，Update-CcServerCertificate Cmdlet 會為更新憑證。
+ms.openlocfilehash: 0545f4923a4f1abd654674024313c6f22665cb7123d87d9d21c3676452bd8fcf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824107"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344522"
 ---
 # <a name="update-ccservercertificate"></a>Update-CcServerCertificate
  
-當商務用 Skype 雲端連接器版本接近到期或已到期時，更新-CcServerCertificate Cmdlet 會重新計算憑證。 
+當商務用 Skype Cloud Connector Edition 接近到期或已到期時，Update-CcServerCertificate Cmdlet 會為更新憑證。 
   
 ```powershell
 Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
@@ -33,7 +33,7 @@ Update-CcServerCertificate [[-Roles] <array> {Cms | MS | Edge}]
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會在憑證接近到期或已到期時，續約中央管理商店、中繼伺服器和 Edge 伺服器的憑證：
+下列範例會在憑證接近到期或已到期時，續訂中央管理存放區、轉送伺服器和 Edge Server 的憑證：
   
 ```powershell
 Update-CcServerCertificate
@@ -41,7 +41,7 @@ Update-CcServerCertificate
 
 ### <a name="example-2"></a>範例 2
 
-下個範例會在伺服器和 Edge 伺服器接近到期或過期時，續約的憑證：
+下一個範例會在接近到期或已到期時，續訂轉送伺服器和 Edge Server 的憑證：
   
 ```powershell
 Update-CcServerCertificate-Roles @("MS", "Edge")
@@ -50,21 +50,21 @@ Update-CcServerCertificate-Roles @("MS", "Edge")
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-向中央管理商店、中繼伺服器和 Edge 伺服器頒發的雲端連接器內部憑證，在來自憑證授權單位服務的兩年後有效。 如果證書接近到期或已過期，請執行 CcServerCertificate Cmdlet 來更新證書。 
+對中央管理存放區、轉送伺服器和 Edge Server 簽發的雲端連接器內部憑證，在從憑證授權單位服務發出後的兩年內有效。 如果憑證接近到期或已到期，請執行 Update-CcServerCertificate Cmdlet 以更新憑證。 
   
-這個命令會取代雲端連接器2.0 和更新版本中的 CcServerCertificate Cmdlet。
+此命令會取代 Cloud Connector 2.0 和更新版本中的 Renew-CcServerCertificate Cmdlet。
   
 ## <a name="parameters"></a>參數
 <a name="DetailedDescription"> </a>
 
-|**參數**|**必要**|**類型**|**說明**|
+|**參數**|**Required**|**Type**|**描述**|
 |:-----|:-----|:-----|:-----|
-|角色  <br/> |選用  <br/> |System.object  <br/> | 雲端連接器伺服器角色的陣列。 <br/> |
+|角色  <br/> |選用  <br/> |System.object  <br/> | Cloud Connector server role 的陣列。 <br/> |
    
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>
 
-無。 CcServerCertificate Cmdlet 不接受流水線輸入。
+無。 Update-CcServerCertificate Cmdlet 不接受管線傳送的輸入。
   
 ## <a name="return-types"></a>傳回類型
 <a name="ReturnTypes"> </a>

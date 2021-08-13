@@ -12,21 +12,21 @@ ms.collection:
 description: 瞭解如何從線上連接器商務用 Skype到 powerShell 模組Teams以管理Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b08505ca97672d5285c8ff46b0e5d3cf58e9f84
-ms.sourcegitcommit: 56bebf42f545af57fdf387faa90e555abc8acd40
+ms.openlocfilehash: 9dd03b414eba2ebc10dcfdbbb4e0ea2712fff73ca2cb0eb643aa132936ab1470
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "52513866"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299003"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>從線上連接器商務用 Skype移Teams PowerShell 模組
 
-TeamsPowerShell 模組提供一組完整的 Cmdlet，Teams直接從 PowerShell 命令列管理資料。 系統管理員在系統管理時Skype商務用 Online 連接器Teams。
+TeamsPowerShell 模組提供一組完整的 Cmdlet，Teams直接從 PowerShell 命令列管理資料。 系統管理員不需要Skype商務用 Online 連接器進行Teams管理。
 
 > [!NOTE]
 > Teams已于 2021 年 3 月 16 (MC244740 郵件中心張貼公告通知系統管理員;MC250940 于 2021 年 4 月 16 日) 此變更。
 >
-> TeamsPowerShell 模組使用新式驗證，但必須Windows遠端系統管理 (WinRM) 用戶端以允許基本驗證。 請參閱[下載並安裝Windows PowerShell，](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1)以取得如何啟用 WinRM for Basic 驗證的指示。
+> TeamsPowerShell 模組使用新式驗證，Windows遠端系統管理 (WinRM) 用戶端必須配置為允許基本驗證。 請參閱[下載並安裝Windows PowerShell，](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1)以取得如何啟用 WinRM for Basic 驗證的指示。
 
 > [!WARNING]
 > 商務用 Skype線上連接器連線將于 2021 年 5 月 17 日拒絕。 如需移至 PowerShell 模組的協助和支援，Teams Microsoft 支援服務。
@@ -45,7 +45,7 @@ TeamsPowerShell 模組提供一組完整的 Cmdlet，Teams直接從 PowerShell �
 
     例如，變更 `Import-Module -Name SkypeOnlineConnector` 為 `Import-Module -Name MicrosoftTeams` 。
 
-4. 使用 Teams PowerShell 模組 2.0 或更新版本時，請更新您參照的 `New-CsOnlineSession` 腳本 `Connect-MicrosoftTeams` 。 `Import-PsSession`不再需要建立線上遠端 PowerShell 會話商務用 Skype，因為使用 時隱含完成 `Connect-MicrosoftTeams` 。
+4. 使用 Teams PowerShell 模組 2.0 或更新版本時，請更新您參照的 `New-CsOnlineSession` 腳本 `Connect-MicrosoftTeams` 。 `Import-PsSession`不再需要建立線上遠端 powerShell 會話商務用 Skype，因為使用 時隱含完成 `Connect-MicrosoftTeams` 。
 
     ```powershell
        # When using the Skype for Business online connector
@@ -94,7 +94,7 @@ TeamsPowerShell 模組提供一組完整的 Cmdlet，Teams直接從 PowerShell �
 
 [在 PowerShell Microsoft Teams安裝](teams-powershell-install.md)
 
-[使用 powerShell Teams管理Teams資料](teams-powershell-managing-teams.md)
+[使用 powerShell Teams管理Teams管理](teams-powershell-managing-teams.md)
 
 [TeamsPowerShell 版本資訊](teams-powershell-release-notes.md)
 

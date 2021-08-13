@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
 description: 推播通知及推播通知的 (PNCH) 是行動功能的兩個重要部分。 推播通知是郵件傳送至 PNCH 的處理常式。 郵件會在這裡保留，直到傳遞給行動用戶端，或超時期限到期為止。
-ms.openlocfilehash: 3c72c5b123a906d74cfeb0a1fef5c1e765fe030c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7e214b9fa92db420b0451d2a32e8158df2d5212c4394fb7307a7198ff733c425
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808743"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316289"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>行動用戶端：建立或編輯推播通知設定
  
@@ -38,9 +38,9 @@ ms.locfileid: "49808743"
   
 2. 按一下下列的核取方塊，以選取您要啟用的推播通知服務：
     
-   - [**啟用 Microsoft 推播通知**] 會針對使用商務用 Skype 應用程式的雲端式 PNCH，啟用 Windows Phone 的推播通知
+   - [**啟用 Microsoft 推播通知**] 會針對使用商務用 Skype 應用程式的 Windows Phone，啟用以雲端為基礎之 PNCH 的推播通知。
     
-   - [**啟用 apple 推播通知**] 會針對執行 apple iOS (的裝置，啟用 apple PNCH 的推播通知，例如，IPhone、iPad) 和使用商務用 Skype 應用程式
+   - [**啟用 apple 推播通知**] 會針對執行 apple iOS (的裝置，啟用 apple PNCH 的推播通知，例如，iPhone、iPad) 以及使用商務用 Skype 應用程式。
     
 3. 當您完成對原則的編輯時，請按一下 [ **認可** ] 以儲存變更。 如果您需要刪除您所做的變更，請選取 [ **取消**]。 不會將變更儲存至原則。
     

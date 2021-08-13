@@ -22,17 +22,17 @@ ms.custom:
 - Reporting
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
-description: 瞭解 CQD (儀表板) ，以及如何使用它來查看會議與通話品質Microsoft Teams。
-ms.openlocfilehash: d262449394d9ad880d13897988e40e26dd98578c
-ms.sourcegitcommit: f223b5f3735f165d46bb611a52fcdfb0f4b88f66
+description: 瞭解通話品質儀表板 (CQD) ，以及如何使用它來查看會議與通話品質Microsoft Teams。
+ms.openlocfilehash: 097a12c0e2a7104abe9a6214a24c958b5c3f6b6e2430f78b05aeef6e0f79736f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51593831"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344482"
 ---
 # <a name="what-is-call-quality-dashboard-cqd"></a>什麼是通話品質儀表板 (CQD) ？
 
-Microsoft 通話品質儀表板 (CQD) - 顯示 Microsoft Teams、商務用 Skype Online 和 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) 商務用 Skype Server 2019 全組織層級的通話和商務用 Skype Server品質。  
+Microsoft 通話品質儀表板 (CQD) - 顯示 Microsoft Teams、商務用 Skype Online 和 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) 商務用 Skype Server 2019 全組織層級的通話和會議品質。  
 
   
 最新版本的 CQD 具有接近即時 [的 (NRT) ](CQD-data-and-reports.md)資料摘要，這表示通話記錄可在通話結束的 30 分鐘內在 CQD 中提供。
@@ -45,7 +45,7 @@ CQD 是專為協助Teams管理員、商務用 Skype系統管理員和網路工�
   
 ![通話品質儀表板的螢幕擷取畫面。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image3.png)
 
-在 CQD 中，我們鼓勵您上傳建築物和端點資訊，讓您使用 Location-Enhanced 報表來分析使用者建築物內的通話品質和可靠性。 您可以評估資料，以判斷問題是否與單一使用者隔離，或影響較大的使用者區段。 若要在 CQD 中開啟建築物或端點特定視圖，系統管理員必須在 [](CQD-upload-tenant-building-data.md)CQD 租使用者資料頁面上傳建築物或 **端點Upload** 資訊。
+在 CQD 中，我們鼓勵您上傳建築物和端點資訊，讓您使用 Location-Enhanced 報表來分析使用者建築物內的通話品質和可靠性。 您可以評估資料，判斷問題是否與單一使用者隔離，或影響較大使用者區段。 若要在 CQD 中開啟建築物或端點特定視圖，系統管理員必須在 [](CQD-upload-tenant-building-data.md)CQD 租使用者資料頁面上傳建築物或 **端點Upload** 資訊。
 
 ![通話品質儀表板的螢幕擷取畫面Location-Enhanced報表。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 瞭解您所需的專案，以及會議召集人如何使用會議商務用 Skype。
-ms.openlocfilehash: 814d753570fd2337a8e443f93c3d58748711b964
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9b87fb911cf4e010a82aba8b9874b25efa60d1b6b795502cc7f0d56cd58eea12
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238498"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298893"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>從會議撥出商務用 Skype其他人可以加入會議
 

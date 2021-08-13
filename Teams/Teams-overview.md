@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e0e20b4b9b696d7fc23c227afcd67d2132c5952
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 0f146bca1268d370f53009b332aba15c86c9fab3ea24003c29a062ab80a88be8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598392"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54298103"
 ---
 # <a name="welcome-to-microsoft-teams"></a>歡迎使用 Microsoft Teams
 如果您是組織中 Microsoft Teams 的系統管理員，那您便是正確的人選。 當您準備好開始使用 Teams 時，請從[如何推出 Teams](./deploy-overview.md) 和[使用 Microsoft 365 和 Microsoft Teams 設定安全的共同作業](/microsoft-365/solutions/setup-secure-collaboration-with-teams)開始。
@@ -79,7 +79,7 @@ Teams 是 Microsoft 365 和 Office 365 中用於智慧通訊的主要用戶端�
 如果您是執行商務用 Skype 且準備好要升級為 Teams，或是並存執行商務用 Skype 和 Teams 且準備好要完全移至 Teams，我們有工具、秘訣和指導方針可協助您順利轉換。 若要深入了解，請參閱[升級至 Teams](upgrade-start-here.md)。
 
 ## <a name="teamwork"></a>團隊合作
-每個團隊都是不同的；針對共同作業，沒有一體適用的方法。 Microsoft 365 及 Office 365 的設計可滿足每個團隊的獨特需求，讓人員能夠透過專門建置且整合的應用程式來進行通訊、共同作業，並實現更多功能。
+每個團隊都不同; 沒有一個適合所有共同作業的方法。Microsoft 365 和 Office 365 是為滿足每個團隊的獨特需求所設計，讓人員能夠使用專門建置且整合的應用程式來進行通訊、共同作業, 及實現更多目標。
 
 決定要使用的 Microsoft 365 或 Office 365 應用程式和服務時，請考慮組織的工作方式和您的組織必須擁有的交談類型。 
 
