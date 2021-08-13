@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
-description: '[PSTN 閘道] 節點會列出您拓撲中的公用交換電話網路 (PSTN) 閘道。 您可以執行下列動作：'
-ms.openlocfilehash: 815bf2b30c678a0e0c5c39b3bc5df31cd9172102
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[PSTN 閘道] 節點會列出您拓撲中的公用交換電話網路 (PSTN) 閘道。您可以執行下列動作：'
+ms.openlocfilehash: 1db59e5bcd542f20ee58b8f14cc0bb61439519bdf78f8e4fa0f6516ac88e8afb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823713"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335023"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN 閘道範圍節點
  

@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解在肯亞撥打免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
-ms.openlocfilehash: 5a503270b2ed9ad1943492c498a9a605e47356cc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 818d7667a2d9e788f9ff81abc0ed5bcfdb6b29c284ed2890f69f0b80f79d49ee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321115"
 ---
 # <a name="toll-free-dialing-restrictions-in-kenya"></a>肯亞的免付費撥號限制
 

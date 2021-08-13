@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 description: 摘要：在商務用 Skype Server 中修改現有的 PIN 原則。
-ms.openlocfilehash: d97d535c8930c1b9155da4f8c35171f2b70692e9
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7770e34315dc0e407ecc4523fc133fce696d9c5b5eadba35979937761230b0cf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828353"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297339"
 ---
 # <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中修改現有的 PIN 原則
  
 **摘要：** 在商務用 Skype Server 中修改現有的 PIN 原則。
   
-您可以使用 [ **PIN 原則** ] 索引標籤，提供個人識別碼 (PIN) 驗證，以供使用 IP 電話連線至商務用 Skype 的使用者使用。 若要使用 PIN 驗證，請確定已在 Web 服務設定中選取了 [啟用 PIN 驗證]。
+您可以使用 [ **PIN 原則**] 索引標籤，提供個人識別碼 (PIN) 驗證，以供使用 IP 電話連線至商務用 Skype 的使用者使用。 若要使用 PIN 驗證，請確定已在 Web 服務設定中選取了 [啟用 PIN 驗證]。
   
 請遵循下列步驟來修改使用者層級或網站層級的 PIN 原則。 
   
@@ -32,7 +32,7 @@ ms.locfileid: "49828353"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中，依序按一下 [安全性] 和 [PIN 原則]。
     

@@ -19,19 +19,19 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: bbad8813d9f417643d48a0f1807c2e4c2ccb39cf
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: ba7d381b106cd23c0c89f9013659bd8875c8bcbca5eb5139398e61db7dd97f9b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646304"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346150"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>管理應用程式中的應用程式設定Microsoft Teams
 
 如果您是系統管理員，您可以使用應用程式設定策略來安裝及釘釘應用程式，以宣傳貴組織中最常用的應用程式，以及決定是否要讓使用者將自訂應用程式上傳到 Teams。
 
-- 釘 **選** 應用程式：應用程式設定政策讓您選擇要釘選的 App、設定其顯示給使用者的順序，以及控制使用者是否可以將自己的應用程式釘選到 Teams欄。 詳細資訊，請參閱釘 [上應用程式](#pin-apps)。
-- **安裝應用程式：** 應用程式設定政策讓您在使用者啟動應用程式時，代表使用者Teams在會議期間安裝 App。 詳細資訊，請參閱安裝 [應用程式](#install-apps)。
+- 釘 **選** 應用程式：應用程式設定政策讓您選擇要釘選的 App、設定其顯示給使用者的順序，以及控制使用者是否可以將自己的應用程式釘選到 Teams App 欄。 詳細資訊，請參閱釘 [上應用程式](#pin-apps)。
+- **安裝應用程式：** 應用程式設定政策讓您在使用者啟動應用程式時，Teams會議期間安裝 App。 詳細資訊，請參閱安裝 [應用程式](#install-apps)。
 - **Upload自訂應用程式**：App 設定政策讓您允許使用者將自訂應用程式上傳至Teams。 詳細資訊，請參閱自訂[Upload應用程式](#upload-custom-apps)。
 
 ## <a name="pin-apps"></a>釘上應用程式
@@ -50,7 +50,7 @@ ms.locfileid: "53646304"
 |![桌面Teams用戶端](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![手機Teams用戶端](media/mobile-app-ui.png)      |
 
 > [!NOTE]
-> 如果您有Teams 教育版，必須知道全域原則中預設會釘上作業應用程式，即使目前，您不會在全域原則中看到它。 它會是用戶端上釘上應用程式清單中的第四Teams App。
+> 如果您有Teams 教育版，必須知道全域原則中的作業應用程式預設為釘上，即使目前未在全域原則中列出。 它會是用戶端上釘上應用程式清單中的第四Teams App。
 
 若要建立 App 設定策略以釘上應用程式，請執行下列步驟：
 
@@ -65,9 +65,9 @@ ms.locfileid: "53646304"
    > [!NOTE]
    > **Microsoft 365 政府社群雲端 (GCC) 、 (GCC** GCC高和 DoD Teams系統管理中心提供允許使用者釘) 設定，但目前沒有作用。
 
-5. 在 **已釘選的 App** 下，選取 新增 **應用程式**。
+5. 在 **釘選的 App** 下，選取 新增 **應用程式**。
 
-6. 在新增 **釘選的應用程式窗格中** ，搜尋您想要新增的應用程式，然後選取 **新增**。 您也可以根據應用程式權限原則篩選應用程式。
+6. 在新增 **釘選的 App** 窗格中，搜尋您想要新增的應用程式，然後選取 **新增**。 您也可以根據應用程式權限原則篩選應用程式。
 
 7. 選取 [新增 **]**。
 
@@ -98,7 +98,7 @@ ms.locfileid: "53646304"
 
 3. 輸入原則的名稱和描述。
 
-4. 在 **安裝的應用程式下**，選取 **新增應用程式**。
+4. 在 **安裝的應用程式下**，選取 新增 **應用程式**。
 
 5. 在新增 **已安裝的應用程式窗格中** ，搜尋您想要為使用者自動安裝的應用程式。 您也可以根據應用程式權限原則篩選應用程式。
 
@@ -152,7 +152,7 @@ ms.locfileid: "53646304"
 
 ## <a name="faq"></a>常見問題集
 
-### <a name="working-with-app-setup-policies"></a>使用應用程式設定政策
+### <a name="working-with-app-setup-policies"></a>使用應用程式設定策略
 
 #### <a name="can-i-assign-an-app-setup-policy-to-a-group"></a>我可以將應用程式設定策略指派給群組嗎？
 
@@ -162,7 +162,7 @@ ms.locfileid: "53646304"
 
 - **全域 (全組織的預設) ：** 除非您指派其他原則，否則此預設原則會適用于貴組織中的所有使用者。 編輯全域原則以釘上使用者最重要的應用程式。
 
-- **FrontlineWorker：** 此政策適用于前線工作者。 您可以將它指派給貴組織的前線工作人員。 您必須知道，就像您建立自訂策略一樣，您必須將策略指派給使用者，讓設定保持有效。 For more information, go to the [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users) section of this article.
+- **FrontlineWorker：** 此政策適用于前線工作者。 您可以將它指派給貴組織的前線工作人員。 您必須知道，就像您建立自訂策略一樣，您必須將策略指派給使用者，讓設定保持為使用中。 For more information, go to the [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users) section of this article.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>為什麼我在新增釘上的應用程式窗格中找不到應用程式
 
@@ -188,18 +188,18 @@ ms.locfileid: "53646304"
 
 #### <a name="how-can-users-see-all-their-pinned-apps-in-teams"></a>使用者如何在應用程式中查看所有已釘Teams
 
-若要查看已釘住使用者的所有 App，使用者可能需要根據已安裝的應用程式數量及其用戶端視窗Teams執行下列操作。
+若要查看已釘住使用者的所有應用程式，使用者可能需要根據已安裝的應用程式數量及其用戶端視窗Teams執行下列操作。
 
 |Teams 桌面用戶端 |Teams 行動用戶端 |
 |---------|---------|
-|在應用程式欄的 Teams 中，選取 **...更多應用程式**。| 在靠近應用程式底部的應用程式Teams向上滑動。|
+|在應用程式欄的 Teams中，選取 **...更多應用程式**。| 在靠近應用程式底部的應用程式Teams向上滑動。|
 |![桌面用戶端Teams更多應用程式](media/app-setup-policies-desktop-more-apps.png)<br>   |![行動用戶端中的Teams應用程式](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>我需要知道行動Teams體驗
 
 iOS Teams Android (的手機用戶端) 靜態選項卡支援個人 App。 固定至桌面Teams的應用程式會顯示在Teams用戶端中。 個人 Bot 會顯示在行動用戶端上的聊天中。
 
-協力廠商應用程式 (可從 Store Teams下載) ，才能在行動版上顯示。 如果系統管理員釘釘了未經 Microsoft for Mobile Teams的應用程式，它會顯示在桌上出版上，但不會顯示在行動版上。 請參閱 [行動用戶端](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) 以瞭解更多資訊。
+協力廠商應用程式 (可從 Store Teams下載) ，才能在行動版上顯示。 如果系統管理員釘釘了未由 Microsoft for Mobile Teams的應用程式，它會顯示在桌面Teams，但不會顯示在行動版上。 請參閱 [行動用戶端](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) 以瞭解更多資訊。
 
 有了Teams用戶端，使用者會看到核心 Teams 應用程式，例如活動、聊天和 Teams，而且您可以釘上 Microsoft 的一些第一方應用程式，例如 Shifts。
 
@@ -209,7 +209,7 @@ iOS Teams Android (的手機用戶端) 靜態選項卡支援個人 App。 固定
 
 #### <a name="does-user-pinning-take-precedence"></a>使用者釘點是否優先
 
-系統管理圖釘永遠優先。 如果開啟 **了允許使用者釘選** 選項，使用者就會在系統管理員釘選的 App 下方保留已釘選的應用程式。 如果 **關閉允許使用者** 釘選選項，則使用者將失去其預先存在的圖釘，且只有系統管理員釘選的應用程式會存在於應用程式欄中。
+系統管理圖釘永遠優先。 如果開啟 **了允許使用者釘選** 選項，則使用者將保留其已釘選的應用程式在系統管理員釘選的 App 下方。 如果 **關閉允許使用者** 釘選選項，則使用者將失去其預先存在的圖釘，且只有系統管理員釘選的應用程式會存在於應用程式欄中。
 
 ### <a name="custom-teams-apps"></a>自訂Teams應用程式
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: ''
 description: 請閱讀本主題，瞭解如何將 Lync Room System 裝置Microsoft Teams 會議室軟體。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7e850b5f5f0f210abf7defc2e53cc510c5c0b0c2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: a700e66a966035b52a3036210e39c09612ed18b5df34430545987c51c40575f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117521"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301069"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>將 Lync 會議室系統 (LRS) 裝置Microsoft Teams 會議室
 
@@ -58,8 +58,8 @@ Cresron 會針對所有非 [Crsron](https://www.crestron.com/products/featured-s
 
 ## <a name="what-should-you-do"></a>您應該怎麼做？
 
-我們建議您使用上述升級選項，在 TLS 1.0/1.1 Microsoft Teams 會議室之前，將 Lync Room System 裝置更新為最新版。 此外，您也可以考慮將現有裝置取代為經過認證的新裝置Microsoft Teams 會議室。 請參閱[會議室裝置](https://aka.ms/roomdevices)以瞭解詳細資料，並查看Microsoft Teams 會議室[需求](/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)。  
+我們建議您在 TLS 1.0/1.1 使用上述升級選項Microsoft Teams 會議室更新 Lync Room System 裝置至更新版本。 此外，您也可以考慮將現有裝置取代為經過認證的新裝置Microsoft Teams 會議室。 請參閱[會議室裝置](https://aka.ms/roomdevices)以瞭解詳細資料，並查看Microsoft Teams 會議室[需求](/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)。  
 
 
 > [!NOTE]
-> Microsoft Teams 會議室支援自 2018 年 12 月 14 日起使用 App 版本 4.0.64.0 的 TLS 1.2 通訊協定。 對於內部部署客戶，Microsoft Teams 會議室 的 TLS 1.2 啟用通訊需要 商務用 Skype Server 2015 累積更新 9 (CU9) 或 商務用 Skype Server 2019 累積更新 1 (CU1) 。 變更不應影響線上商務用 Skype，因為用戶端變更是向前和向後相容。
+> Microsoft Teams 會議室軟體支援自 2018 年 12 月 14 日起使用 App 版本 4.0.64.0 的 TLS 1.2 通訊協定。 針對內部部署客戶，啟用 Microsoft Teams 會議室 版 TLS 1.2 上的通訊需要 商務用 Skype Server 2015 累積更新 9 (CU9) 或 商務用 Skype Server 2019 累積更新 1 (CU1) 。 變更不應影響線上商務用 Skype，因為用戶端變更是向前和向後相容。

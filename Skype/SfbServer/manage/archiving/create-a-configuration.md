@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
-description: 摘要：瞭解如何為商務用 Skype 伺服器建立封存設定。
-ms.openlocfilehash: f00e5b2b9254b53760351c162ea86cd195473788
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：瞭解如何為商務用 Skype Server 建立封存設定。
+ms.openlocfilehash: c171b0ec86a8b29ede72b5dc0c577c890fcc497d4850148469d5ba64756ce472
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095427"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335013"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>在商務用 Skype Server 中建立封存設定
 
-**摘要：** 瞭解如何為商務用 Skype 伺服器建立封存設定。
+**摘要：** 瞭解如何為商務用 Skype Server 建立封存設定。
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>使用控制台設定封存選項
 
@@ -29,7 +29,7 @@ ms.locfileid: "51095427"
   
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。 
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中 **，按一下 [****監視與** 封存]，然後按一下 [封存設定]。
     
@@ -51,7 +51,7 @@ ms.locfileid: "51095427"
     
    - 若要在封存無法使用時封鎖活動，請選取 **[封存失敗時封鎖立即訊息 (IM) 和 Web 會議工作階段]** 核取方塊。
     
-   - 若要使用 Microsoft Exchange Server 儲存封存資料，請按一下 [ **Microsoft exchange 整合** ] 核取方塊。
+   - 若要使用 Microsoft Exchange Server 儲存封存資料，請按一下 [ **Microsoft Exchange 整合**] 核取方塊。
     
    - 若要啟用資料清除，請選取 **[啟用封存資料的清除]** 核取方塊，然後執行下列其中一項作業：
     

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 您可以透過設定下列屬性來編輯 Edge Server 或 Edge 集區的設定：
-ms.openlocfilehash: f77eb71948bbbe6d2fe3e24b400d29e3bf5fd5a5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5b4f9e2f6b4c5b74b0c1eadb8d48bc5a4ade0375e48dfdf1ecf399032db5693e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49803293"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335173"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>編輯 Edge 設定展開工具 (適用於 Lync Server 2010)
  
@@ -35,7 +35,7 @@ ms.locfileid: "49803293"
     > [!IMPORTANT]
     > 您只能為同盟定義一部 Edge Server 或 Edge 集區。 關聯的螢幕擷取畫面所顯示的設定會指出已經為同盟設定其他 Edge Server 或 Edge 集區。 同盟 (_sipfederationtls ._tcp 的外部 DNS SRV 記錄。 \<external domain name\>) 會指向同盟的 Edge Server 或 Edge 集區。 
   
-- 內部設定複寫 **埠 (HTTPS)**（預設在 TCP 埠4443上）是本機 (的埠，也就是對中央管理存放區) 副本的本機伺服器進行複製。 中央管理存放區的本機複本位於每一部電腦上的 SQL Server 中的 **RTCLOCAL** 資料庫。 複製是從中央管理伺服器 (，或是將中央管理伺服器角色) 至 Edge server 的前端伺服器或前端集區，也是一個內部介面埠。
+- 內部設定複寫 **埠 (HTTPS)**（預設在 TCP 埠4443上）是本機 (的埠，也就是對中央管理存放區) 副本的本機伺服器進行複製。 中央管理存放區的本機複本位於每一部電腦 SQL Server 的 **RTCLOCAL** 資料庫中。 複製是從中央管理伺服器 (，或是將中央管理伺服器角色) 至 Edge server 的前端伺服器或前端集區，也是一個內部介面埠。
     
   **下一個躍點選取範圍**
   

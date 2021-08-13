@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
-description: 摘要：瞭解如何使用商務用 Skype Server 控制台建立新的主幹設定設定集合。
-ms.openlocfilehash: e11a372573655bb2a381b81352c20e05fd54db08
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：瞭解如何使用商務用 Skype Server 控制台來建立主幹設定設定的新集合。
+ms.openlocfilehash: 2fc0a939a5f321254378ae93afe56015135d4f9873482d8489e06568651913e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103319"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297559"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中建立主幹設定的新集合 
 
-**摘要：** 瞭解如何使用商務用 Skype Server 控制台建立新的主幹設定設定集合。
+**摘要：** 瞭解如何使用商務用 Skype Server 控制台來建立主幹設定設定的新集合。
   
 SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) 閘道、IP-Public 分支 eXchange (PBX) 或會話邊界控制器（在服務提供者上 (SBC) ）之間的關聯性和功能。 這些設定將指定下列項目：
   
@@ -37,7 +37,7 @@ SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) �
     
 當您安裝商務用 Skype Server 時，系統會為您建立一個全域 SIP 主幹設定的集合。 此外，系統管理員可以在網站範圍或服務範圍 (僅限 PSTN 閘道服務) 建立自訂設定集合。
   
-使用商務用 Skype Server 控制台建立 SIP 主幹設定設定時，您可以使用下列選項。
+當您使用商務用 Skype Server 控制台建立 SIP 主幹設定設定時，可以使用下列選項。
   
 |**UI 設定**|**PowerShell 參數**|**描述**|
 |:-----|:-----|:-----|
@@ -53,19 +53,19 @@ SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) �
 |啟用轉寄 P-Asserted-Identity 資料  <br/> |ForwardPAI  <br/> |指出 P-Asserted-Identity (PAI) 標頭是否會和通話一起轉寄。PAI 標頭提供確認來電者身分識別的方法。  <br/> |
 |啟用輸出路由容錯移轉計時器  <br/> |EnableFastFailoverTimer  <br/> |指出閘道未在 10 秒內接聽的撥出電話將會被路由傳送到下一個可用的主幹；如果沒有其他主幹，就會自動捨棄此電話。在網路和閘道回應速度緩慢的組織中，這可能會造成電話平白遭到捨棄。  <br/> |
 |關聯的 PSTN 使用方式  <br/> |PSTNUsages  <br/> |指派給主幹的 PSTN 使用方式集合。  <br/> |
-|要測試的轉譯號碼  <br/> |不適用  <br/> |可用於進行主幹組態設定臨機測試的電話號碼。  <br/> |
+|要測試的轉譯號碼  <br/> |N/A  <br/> |可用於進行主幹組態設定臨機測試的電話號碼。  <br/> |
 |關聯的轉譯規則  <br/> |OutboundTranslationRulesList  <br/> |套用到由「輸出路由」處理的電話 (路由傳送到 PBX 或 PSTN 目的地的電話) 的電話號碼轉譯規則集合。  <br/> |
 |撥打號碼轉譯規則  <br/> |OutboundCallingNumberTranslationRulesList  <br/> |指派給主幹的撥出電話號碼轉譯規則集合。  <br/> |
-|測試的電話號碼  <br/> |不適用  <br/> |可用於進行轉譯規則臨機測試的電話號碼。  <br/> |
-|撥打號碼  <br/> |不適用  <br/> |指出要測試的電話號碼是來電者的電話號碼。  <br/> |
-|撥打的號碼  <br/> |不適用  <br/> |指出要測試的電話號碼是受話者的電話號碼。  <br/> |
+|測試的電話號碼  <br/> |N/A  <br/> |可用於進行轉譯規則臨機測試的電話號碼。  <br/> |
+|撥打號碼  <br/> |N/A  <br/> |指出要測試的電話號碼是來電者的電話號碼。  <br/> |
+|撥打的號碼  <br/> |N/A  <br/> |指出要測試的電話號碼是受話者的電話號碼。  <br/> |
    
 > [!NOTE]
-> 商務用 Skype Server Get-cstrunkconfiguration Cmdlet 支援其他屬性，但不會顯示在商務用 Skype Server 控制台中。 如需詳細資訊，請參閱 [get-cstrunkconfiguration](/powershell/module/skype/new-cstrunkconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
+> 商務用 Skype Server get-cstrunkconfiguration Cmdlet 支援商務用 Skype Server 控制台中未顯示的其他屬性。 如需詳細資訊，請參閱 [get-cstrunkconfiguration](/powershell/module/skype/new-cstrunkconfiguration?view=skype-ps) Cmdlet 的 [說明] 主題。
   
 ### <a name="to-create-new-trunk-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台建立新的主幹設定設定
 
-1. 在商務用 Skype Server 控制台中，依序按一下 [ **語音路由**] 和 [ **主幹** 設定]。
+1. 在商務用 Skype Server 控制台] 中，按一下 [**語音路由**]，然後按一下 [**主幹** 設定]。
     
 2. 在 **[主幹組態]** 索引標籤上，按一下 **[新增]**，然後按一下 **[站台主幹]** 以建立在網站範圍的新設定，或按一下 **[集區主幹]** 以建立在服務範圍的新設定。
     
@@ -77,4 +77,4 @@ SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) �
     
 6. 在 **[未認可的語音組態設定]** 對話方塊中，按一下 **[確定]**。
     
-7. 在 [ **商務用 Skype 伺服器控制台** ] 對話方塊中，按一下 **[確定**]。
+7. 在 [**商務用 Skype Server 控制台**] 對話方塊中，按一下 **[確定]**。

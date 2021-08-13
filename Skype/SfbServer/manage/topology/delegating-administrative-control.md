@@ -11,20 +11,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: eb78fc7e0f831bae1c5dd6e207791e27aa4c68d1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e6238e51051586ffb579947f6c6c3b6693a1c0aebba40e56915c67b016190997
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832793"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334974"
 ---
 # <a name="delegate-administrative-control-of-skype-for-business-server"></a>委派商務用 Skype Server 的管理控制權 
 
-在商務用 Skype Server 中，系統會使用以角色為基礎的存取控制 (RBAC) 功能，將系統管理工作委派給使用者。 當您安裝商務用 Skype Server 時，會為您建立許多 RBAC 角色。 這些角色會對應至 Active Directory 網域服務中的通用安全性群組。 例如，RBAC 角色 CsHelpDesk 會對應至 Active Directory 網域服務中使用者容器內找到的 CsHelpDesk 群組。 此外，每個 RBAC 角色會與一組商務用 Skype Server Windows PowerShell Cmdlet 相關聯。 這些 Cmdlet 代表已獲指派指定 RBAC 角色之使用者可以執行的工作。 例如，CsHelpDesk role 已獲指派 Lock-CsClientPin 和 UnlockCsClientPin Cmdlet。 這表示已獲指派 CsHelpDesk 角色的使用者可鎖定和解除鎖定使用者 PIN 碼。 不過，CsHelpDesk 角色尚未獲指派 New-CsVoicePolicy Cmdlet。 這表示已獲指派 CsHelpDesk 角色的使用者無法建立新的語音原則。
+在商務用 Skype Server 中，系統會使用以角色為基礎的存取控制 (RBAC) 功能，將系統管理工作委派給使用者。 當您安裝商務用 Skype Server 時，會為您建立許多 RBAC 角色。 這些角色會對應至 Active Directory 網域服務中的通用安全性群組。 例如，RBAC 角色 CsHelpDesk 會對應至 Active Directory 網域服務中使用者容器內找到的 CsHelpDesk 群組。 此外，每個 RBAC 角色都與一組商務用 Skype Server Windows PowerShell Cmdlet 相關聯。   這些 Cmdlet 代表已獲指派指定 RBAC 角色之使用者可以執行的工作。 例如，CsHelpDesk role 已獲指派 Lock-CsClientPin 和 UnlockCsClientPin Cmdlet。 這表示已獲指派 CsHelpDesk 角色的使用者可鎖定和解除鎖定使用者 PIN 碼。 不過，CsHelpDesk 角色尚未獲指派 New-CsVoicePolicy Cmdlet。 這表示已獲指派 CsHelpDesk 角色的使用者無法建立新的語音原則。
 
 ## <a name="viewing-information-about-rbac-roles"></a>查看 RBAC 角色的相關資訊
 
-您可以從商務用 Skype Server 管理命令介面中執行下列命令，以取得有關 RBAC 角色的基本資訊：
+您可以從商務用 Skype Server 管理命令介面內執行下列命令，以取得有關 RBAC 角色的基本資訊：
 
 `Get-CsAdminRole`
 
@@ -46,6 +46,6 @@ ms.locfileid: "49832793"
 6. 在 [ **選取使用者、電腦、連絡人或群組** ] 對話方塊中，輸入要新增至群組的使用者名稱或顯示名稱 (例如，Ken Myer) 在 [ **輸入物件名稱來選取** ] 方塊中，然後按一下 **[確定]**。
 7. 在 [內容] 對話方塊中，按一下 [確定]。
 
-若要確認已指派 RBAC 角色，請使用 Get-CsAdminRoleAssignment Cmdlet，將此 Cmdlet 傳遞給使用者 SamAccountName (Active Directory 登入名稱) 。 例如，在商務用 Skype Server 管理命令介面中執行下列命令：
+若要確認已指派 RBAC 角色，請使用 Get-CsAdminRoleAssignment Cmdlet，將此 Cmdlet 傳遞給使用者 SamAccountName (Active Directory 登入名稱) 。 例如，在商務用 Skype Server 管理命令介面內執行下列命令：
 
 `Get-CsAdminRoleAssignment  -Identity "kenmyer"`

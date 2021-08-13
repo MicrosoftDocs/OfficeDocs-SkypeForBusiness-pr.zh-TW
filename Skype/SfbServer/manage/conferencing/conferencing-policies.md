@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: 摘要：瞭解如何在商務用 Skype Server 中管理會議原則。
-ms.openlocfilehash: 39855aac09b88852d0931c9b8fbdb8e2e9187c71
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e3d1e9c3ef3ef50cadd5f1cce03508896cbb3950a03a889092e9fbf7d2d5b93b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51099099"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301399"
 ---
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議原則
  
 **摘要：** 瞭解如何在商務用 Skype Server 中管理會議原則。
   
-本主題說明如何管理會議原則。 如需如何規劃及部署會議的詳細資訊，請參閱在商務用 skype server 中 [規劃會議](../../plan-your-deployment/conferencing/conferencing.md) ，以及 [在商務用 Skype server 中部署會議](../../deploy/deploy-conferencing/deploy-conferencing.md)。
+本主題說明如何管理會議原則。 如需如何規劃及部署會議的詳細資訊，請參閱[商務用 Skype Server 中的會議計畫](../../plan-your-deployment/conferencing/conferencing.md)商務用 Skype Server 中的[部署會議](../../deploy/deploy-conferencing/deploy-conferencing.md)。
   
 會議原則可讓您定義各種各樣的排程和參與選項，範圍是從會議是否可包含 IP 音訊和影片到可參加會議的人員人數上限。 您可以使用會議原則來管理會議的安全性、頻寬和法律方面。
   
@@ -37,11 +37,11 @@ ms.locfileid: "51099099"
   
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [ **會議**]，然後按一下 [ **會議原則**]。
     
-## <a name="manage-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來管理會議原則
+## <a name="manage-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面管理會議原則
 
 若要使用商務用 Skype Server 管理命令介面來管理會議，請使用下列 Cmdlet：
   

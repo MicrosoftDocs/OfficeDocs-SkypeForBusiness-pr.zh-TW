@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 79eff02f-4bc1-4e3a-bac5-2043e19f781a
-description: 如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱管理商務用 Skype Server 2015。
-ms.openlocfilehash: 671852a267c9c7f04e531c5961f10df55651a10d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱 Manage 商務用 Skype Server 2015。
+ms.openlocfilehash: a8a1dcbe1cd620807f1eb9f2af34fdcbae60784038fbaff9f0c0841ea81224d2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826753"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335203"
 ---
 # <a name="use-the-skype-for-business-server-2015-control-panel"></a>使用商務用 Skype Server 2015 控制台
  
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。
   
 

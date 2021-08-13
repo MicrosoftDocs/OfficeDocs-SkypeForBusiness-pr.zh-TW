@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要要求、指派、移除或查看憑證，請使用憑證嚮導。 您必須以 RTCUniversalServerAdmins 群組的成員身分登入。 若要向公用憑證授權單位 (CA) 要求憑證，您不需要任何其他群組成員資格。 若要 (PKI) 向組織的公開金鑰基礎結構要求憑證，您必須確認所需的群組成員資格（若有的話）。 在要求工作期間，您可以輸入將用來從 PKI 的發證 CA 要求憑證的替代認證。
-ms.openlocfilehash: 21ffd71ab649892b912d139afe5cd295ef5fec61
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 16b49874302e7756558537b93637100ed82229bbd0d6976b6efed395486060fe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801723"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297529"
 ---
 # <a name="certificate-wizard"></a>憑證精靈
  
@@ -45,7 +45,7 @@ ms.locfileid: "49801723"
 若要匯入憑證存放區中不存在的憑證，請按一下 **[匯入憑證]**。
   
 > [!NOTE]
-> **[匯入憑證]** 通常用來處理透過其他程序而非 [憑證精靈] 中的要求所接收的憑證。 例如，PKI 系統管理員建立憑證並提供給您。 使用 [匯 **入憑證** ]，將憑證匯入至電腦的憑證存放區，並使其可供商務用 Skype 伺服器進行指派。
+> **[匯入憑證]** 通常用來處理透過其他程序而非 [憑證精靈] 中的要求所接收的憑證。 例如，PKI 系統管理員建立憑證並提供給您。 使用 [匯 **入憑證**]，將憑證匯入至電腦的憑證存放區，以供商務用 Skype Server 指派。
   
 若要完成向組織中的 CA 要求憑證的要求程序 (需要 CA 系統管理員核准)，請按一下 [處理擱置的要求]。憑證要求會傳回擱置狀態，也會顯示擱置的要求的識別碼。若要繼續處理擱置狀態的憑證，請按一下 [重新整理]，以啟用 [處理擱置的要求] 按鈕。[處理擱置的要求] 按鈕將可供使用 (不再呈現灰色)。接著，您可以嘗試擷取擱置的要求，但在 CA 系統管理員發出或拒絕憑證之前，要求的狀態仍為擱置。如果 [憑證精靈] 未建立有效的擱置要求，則無法使用此按鈕。
   

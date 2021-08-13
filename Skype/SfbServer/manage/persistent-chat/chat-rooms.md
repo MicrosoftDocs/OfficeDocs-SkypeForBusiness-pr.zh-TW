@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 2015 中管理 Persistent Chat Server 中的聊天室
+title: 在商務用 Skype Server 2015 中管理 Persistent chat Server 中的聊天室
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,28 +12,28 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
-description: 摘要：瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server 聊天室。
-ms.openlocfilehash: 2b1b2e3bdc3411a4bacae5f1dc81b626abb92a91
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解如何在商務用 Skype Server 2015 中管理 Persistent chat Server 聊天室。
+ms.openlocfilehash: 4723dc4edd19b72197f42b7d5a649b4903a7a077ca5b3dd51d3eb65ccfc1b9d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815103"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54334993"
 ---
-# <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中管理 Persistent Chat Server 中的聊天室
+# <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中管理 Persistent chat Server 中的聊天室
  
-**摘要：** 瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server 聊天室。
+**摘要：** 瞭解如何在商務用 Skype Server 2015 中管理 Persistent 聊天室伺服器聊天室。
   
-正確使用類別時，建立及管理聊天室的工作會更容易。 類別定義誰可以建立或加入聊天室。 在您嘗試管理聊天室之前，請務必閱讀 [商務用 skype server 2015 中的持續聊天類別、聊天室和使用者角色](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) ，以及在 [商務用 skype Server 2015 中管理 persistent chat server](categories.md)中的類別。
+正確使用類別時，建立及管理聊天室的工作會更容易。 類別定義誰可以建立或加入聊天室。 在您嘗試管理聊天室之前，請務必閱讀[商務用 Skype Server 2015 中的持續聊天類別、聊天室和使用者角色](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)，並在[商務用 Skype Server 2015 中管理 persistent chat Server](categories.md)中的類別。
   
 > [!NOTE]
-> 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或是繼續使用商務用 Skype Server 2015。 
+> 持續聊天可在商務用 Skype Server 2015 中取得，但在商務用 Skype Server 2019 中已不再支援。 Teams 中提供相同的功能。 如需詳細資訊，請參閱[Microsoft Teams 升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續性聊天，您可以選擇將需要這項功能的使用者遷移至 Teams，或是繼續使用商務用 Skype Server 2015。 
 
-您可以使用 [Windows PowerShell] 命令列介面，或是使用商務用 Skype 用戶端（如果您是聊天室的成員）來設定及管理聊天室。 本主題說明如何使用 [Windows PowerShell] 命令列介面來管理聊天室。 如果您想要使用商務用 Skype 用戶端管理聊天室，請參閱 client help。 
+您可以使用 Windows PowerShell 命令列介面，或使用商務用 Skype 用戶端（如果您是聊天室的成員）來設定及管理聊天室。 本主題說明如何使用 Windows PowerShell 命令列介面來管理聊天室。 如果您想要使用商務用 Skype 用戶端來管理聊天室，請參閱 client help。 
   
 聊天室可以是兩種類型之一： Normal 和視聽中心。 一般聊天室允許所有成員張貼和讀取郵件。 視聽中心是一種聊天室，只有簡報者可以張貼，但每個人都可以讀取。
   
-誰可以存取和管理聊天室取決於使用者角色，如下所示：
+神秘可以存取及管理聊天室取決於使用者角色，如下所示：
   
 - 使用者必須是聊天室的成員，才能張貼和閱讀郵件。
     
@@ -79,7 +79,7 @@ ms.locfileid: "49815103"
     
 - 主持人。 可讓您將簡報者指派至視聽中心聊天室。 
     
-  如需語法（包括所有參數）的詳細資訊，請參閱 [商務用 Skype Server 2015 管理命令](../management-shell.md)介面。
+  如需語法（包括所有參數）的詳細資訊，請參閱[商務用 Skype Server 2015 管理命令](../management-shell.md)介面。
   
 ## <a name="create-a-new-room"></a>建立新聊天室
 
@@ -123,7 +123,7 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
 
 如果已不再相關的持久聊天室主題，您可以停用聊天室，讓使用者無法使用它。 停用聊天室時，所有成員都會立即中斷與聊天室的連線。 停用聊天室之後，使用者就無法在聊天室搜尋中重新加入或尋找。
   
-如果聊天室的記錄依然存在，則會在停用聊天室時保留內容。 不過，在聊天室保持停用狀態時，搜尋中不會顯示該內容。 如果您稍後啟用聊天室，使用者可以搜尋停用聊天室之前所張貼的郵件。 如需設定聊天室記錄的詳細資訊，請參閱 [在商務用 Skype server 2015 中管理 Persistent Chat Server](categories.md)中的類別。 
+如果聊天室的記錄依然存在，則會在停用聊天室時保留內容。 不過，在聊天室保持停用狀態時，搜尋中不會顯示該內容。 如果您稍後啟用聊天室，使用者可以搜尋停用聊天室之前所張貼的郵件。 如需設定聊天室記錄的詳細資訊，請參閱[在商務用 Skype Server 2015 中的 Persistent chat Server 中管理類別](categories.md)。 
   
 停用聊天室時，其中的成員資格清單與其他設定仍會保留。 您可以以系統管理員身分啟用已停用的會議室，而且不需要手動重新建立設定。
   

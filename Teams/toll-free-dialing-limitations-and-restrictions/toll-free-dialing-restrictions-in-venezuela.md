@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解在委內瑞拉撥打免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
-ms.openlocfilehash: afe84adf4329163567359894a23baeda87a256a4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 1239c2352c729a66538f97de22ef0257f196598e8b2784a0c175f0d45e644c6f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097569"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346050"
 ---
 # <a name="toll-free-dialing-restrictions-in-venezuela"></a>在委內瑞拉免付費撥號限制
 

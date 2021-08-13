@@ -15,30 +15,30 @@ localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以透過設定下列內容，來定義 [監控 SQL Server 儲存區]：
-ms.openlocfilehash: e867ec998e1380e70125d0ad743f83b06737758e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3d60acc1f6c02a4f94482de84d1165fee4dfdfb2f003d8d9a6b6511fa485489d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811663"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297459"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>新增前端監控儲存區頁面
  
 您可以透過設定下列內容，來定義 [監控 SQL Server 儲存區]：
   
-- **監視 SQL server 儲存區**：選取 sql server 完整功能變數名稱 (，並選擇性地從清單中) 實例。
+- **監視 SQL Server 儲存區**：選取 SQL Server 完整功能變數名稱 (，並選擇性地從清單中) 實例。
     
-    按一下 [ **新增** ] 建立新的 SQL Server FQDN 定義，並選擇性地建立監控伺服器存放區的實例名稱。
+    按一下 [**新增**] 建立新的 SQL Server FQDN 定義，並選擇性地建立監控伺服器存放區的實例名稱。
     
-- 如果您想要新增監控伺服器的資料庫鏡像，請選取 [ **啟用 SQL Server 儲存區鏡像** ] 核取方塊。
+- 如果您想要新增監控伺服器的資料庫鏡像，請選取 [**啟用 SQL Server 儲存區鏡像**] 核取方塊。
     
     從清單中選取現有的 [監控 SQL Server 儲存區鏡像]。
     
-    按一下 [ **新增** ] 建立新的 SQL Server FQDN 定義，並選擇性地建立鏡像儲存區的實例名稱。
+    按一下 [**新增**] 建立新的 SQL Server FQDN 定義，並選擇性地建立鏡像儲存區的實例名稱。
     
-- 如果您選取 **[啟用 Sql server 儲存區鏡像**]，請選擇 [ **使用 sql server 鏡像見證啟用自動容錯移轉** ]，從清單中選取 SQL server 鏡像見證存放區。
+- 如果您選取 [**啟用 SQL Server 儲存區鏡像**]，請選擇 [**使用 SQL Server 鏡像見證] 以啟用自動容錯移轉**，以從清單中選取 SQL Server 鏡像見證存放區。
     
-    按一下 [ **新增** ] 建立新的 SQL Server FQDN 定義，並選擇性地建立鏡像見證儲存區的實例名稱。
+    按一下 [**新增**] 建立新的 SQL Server FQDN 定義，並選擇性地建立鏡像見證儲存區的實例名稱。
     
 按 [上一步] 回到上一個集區定義對話方塊。
   
@@ -50,4 +50,4 @@ ms.locfileid: "49811663"
   
 ## <a name="see-also"></a>另請參閱
 
-[在商務用 Skype Server 中建立監控儲存區與前端集區的關聯](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)
+[在商務用 Skype Server 中將監控存放區與前端集區產生關聯](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

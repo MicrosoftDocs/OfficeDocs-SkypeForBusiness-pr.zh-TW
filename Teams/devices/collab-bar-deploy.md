@@ -15,26 +15,26 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 請閱讀本文以瞭解在 Android Microsoft Teams 會議室部署應用程式。
-ms.openlocfilehash: 3da0192ee3676f5ff7294ba719c778ea7b1cc7b2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3ea15b8d242c9aa4685b91cdffb13c7c3a55a752f8a1c9d387f7c858f04845ca
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120795"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321495"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>在 Android Microsoft Teams 會議室部署應用程式
 
 Android Microsoft Teams 會議室部署應用程式可以分成下列階段：
 
 - **網站準備就緒** 確認您的會議室 (位置) 部署需求。
-- **服務就緒** 建立資源帳戶並指派給裝置 (請參閱使用系統管理中心Microsoft 365 [建立](resource-account-ui.md)資源) 。 雖然我們建議您使用專用聊天室授權，但擁有適當授權的使用者帳戶也可以在 Android 上Teams 會議室帳戶。
+- **服務就緒** 建立資源帳戶並指派給裝置 (請參閱使用資源帳戶 [Microsoft 365 系統管理中心) 。](resource-account-ui.md) 雖然我們建議您使用專用聊天室授權，但擁有適當授權的使用者帳戶也可以在 Android Teams 會議室帳戶。
 - **組組和部署** 設定Teams 會議室並連接您需要的 (請參閱製造商的檔，以) 。
 
 若要管理Teams 會議室，您必須是全域系統管理員、Teams系統管理員，或Teams系統管理員。有關系統管理員角色的資訊，請參閱使用 Microsoft Teams[系統管理員角色來管理Teams。](../using-admin-roles.md)
 
 ## <a name="site-readiness"></a>網站準備就緒
 
-當訂購的裝置傳送給貴組織時，請與網路、設施及音訊-視覺小組合作，以確保符合部署需求，且每個網站和會議室在電源、網路和顯示方面已準備就緒。
+當訂購的裝置傳送到貴組織時，請與網路、設施及音訊-視覺小組合作，以確保符合部署需求，且每個網站和會議室在電源、網路和顯示方面已準備就緒。
 
 我們針對共同合作欄網站的建議為：
 
@@ -58,7 +58,7 @@ Android Microsoft Teams 會議室部署應用程式可以分成下列階段：
 
 ## <a name="service-readiness"></a>服務整備
 
-在部署Teams 會議室，您必須決定它們是否Microsoft 365資源帳戶、使用者帳戶，或兩者混合使用。 Microsoft 365資源帳戶是專門Teams資源 ，例如會議室、投影機等的信箱和信箱帳戶。 這些資源帳戶可以使用您建立會議邀請時定義的規則，自動回應會議邀請。 除非Teams 會議室專屬於特定個人供其私人使用，否則我們建議您為Microsoft 365設定資源帳戶。
+在部署Teams 會議室，您必須決定它們是否Microsoft 365資源帳戶、使用者帳戶，或兩者混合使用。 Microsoft 365資源帳戶是Teams專用帳戶，例如會議室、投影機等。 這些資源帳戶可以使用您建立會議邀請時定義的規則，自動回應會議邀請。 除非Teams 會議室專屬於特定個人供其私人使用，否則建議您為Microsoft 365設定資源帳戶。
 
 ### <a name="using-a-resource-account"></a>使用資源帳戶
 
@@ -70,7 +70,7 @@ Android Microsoft Teams 會議室部署應用程式可以分成下列階段：
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
-若要進一Microsoft 365資源帳戶，請參閱使用系統管理中心建立Microsoft 365[帳戶](resource-account-ui.md)。
+若要進一Microsoft 365資源帳戶，請參閱使用 Microsoft 365 系統管理中心[建立資源Microsoft 365 系統管理中心。](resource-account-ui.md)
 
 |    |     |
 |-----------|------------|
@@ -89,7 +89,7 @@ Android Microsoft Teams 會議室部署應用程式可以分成下列階段：
 
 ### <a name="account-provisioning"></a>帳戶資源配置
 
-如果您打算使用 Microsoft 365 資源帳戶讓使用者預約共同合作橫條圖，請遵循使用[Microsoft 365](resource-account-ui.md)系統管理中心建立資源帳戶中的指示，為每個需要共同管理欄的 Microsoft 365 資源帳戶建立一個 Microsoft 365 資源帳戶。 這也是您需要在資源帳戶新增 會議室 授權的地方，如果您想要撥打或接聽來自外部電話號碼的通話，請加入通話方案或商務語音授權，如果貴組織並未使用直接路由。
+如果您打算使用 Microsoft 365 資源帳戶讓使用者預約共同合作橫條圖，請遵循使用 Microsoft 365 系統管理中心 建立資源帳戶[中的](resource-account-ui.md)指示，為每個需要共同協作的Microsoft 365資源帳戶建立一個 Microsoft 365 資源帳戶。 這也是您需要在資源帳戶新增 會議室 授權的地方，如果您想要撥打或接聽外部電話號碼的通話方案或商務語音授權 ，如果貴組織並未使用直接路由。
 
 如果您想要將帳戶Teams 會議室個別使用者供其私人使用，則不需要設定任何其他帳戶。 使用者可以使用個人帳戶來登錄共同合作橫條圖。
 
@@ -103,7 +103,7 @@ Android Microsoft Teams 會議室部署應用程式可以分成下列階段：
 
 ### <a name="device-deployment"></a>裝置部署
 
-接下來，您需要建立方案，將裝置及其指派的周邊裝置傳送至您的會議室，然後繼續進行安裝和安裝。
+接下來，您需要建立方案，將裝置及其指派的周邊裝置傳送至您的會議室，然後繼續進行安裝和組組。
 
 |    |     |
 |-----------|------------|
@@ -112,7 +112,7 @@ Android Microsoft Teams 會議室部署應用程式可以分成下列階段：
 
 ### <a name="testing"></a>測試
 
-部署之後，Teams 會議室測試它們。 請Teams 會議室並檢查預期功能是否正常。 強烈建議您確認它們會顯示在系統管理中心的裝置Microsoft Teams區段。  您還必須進行數次測試通話和會議，以檢查品質與績效。
+部署之後，Teams 會議室測試它們。 請Teams 會議室並檢查預期功能是否正常。 我們強烈建議您確認它們出現在系統管理中心的裝置Microsoft Teams欄區段。  您還必須進行數次測試通話和會議，以檢查品質與績效。
 
 我們建議您在推出一般 Microsoft Teams 時，為通話品質儀表板 (CQD) 設定建庫檔案、監控品質趨勢，以及參與體驗品質檢閱程式。 詳細資訊，請參閱體驗 [品質檢閱指南](../quality-of-experience-review-guide.md)。
 

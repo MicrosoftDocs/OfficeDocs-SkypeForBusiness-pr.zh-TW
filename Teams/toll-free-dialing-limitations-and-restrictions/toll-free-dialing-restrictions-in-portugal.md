@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 這可協助您瞭解如何撥打每個國家/地區的免付費號碼。 選取國家/地區之後，它會將您帶至特定國家/地區頁面，其中包含免付費服務可用之免付費服務的特定詳細資料、限制和限制。 撥號格式或格式會顯示每個國家/地區撥打免付費號碼所需的存取碼。
-ms.openlocfilehash: 8f3487838f8104539e0251049ee6f61f0abfaa4e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 621178f2587bda62815ed932ce11a766d25211324597bfcb7e90964bce91986d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116671"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321085"
 ---
 # <a name="toll-free-dialing-restrictions-in-portugal"></a>葡萄牙免付費撥號限制
 

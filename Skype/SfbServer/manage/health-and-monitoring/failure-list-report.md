@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 中的失敗清單報告
+title: 商務用 Skype Server 的失敗清單報告
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 摘要：瞭解商務用 Skype Server 中的失敗清單報告。
-ms.openlocfilehash: 48654ee827f0d7efcb50bcccc4e1d2f3fdb5422e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b132982af91f81af1ac1d151853a3f7fdc597ff31476e6a5484fc04b9d9efa4d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816843"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54301349"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a>商務用 Skype Server 中的失敗清單報告 
+# <a name="failure-list-report-in-skype-for-business-server"></a>商務用 Skype Server 的失敗清單報告 
  
 **摘要：** 深入瞭解商務用 Skype Server 中的失敗清單報告。
   
@@ -27,7 +27,7 @@ ms.locfileid: "49816843"
   
 ## <a name="accessing-the-failure-list-report"></a>存取失敗清單報告
 
-若要存取失敗清單報告，請 [在 [商務用 Skype 伺服器] 的 [失敗散佈報告] 中](failure-distribution-report.md)按一下下列任一度量：
+若要存取失敗清單報告，請按一下 [[失敗散佈報告] 中](failure-distribution-report.md)的下列任一度量（商務用 Skype Server：
   
 - 前幾名診斷原因 (工作階段)
     
@@ -45,7 +45,7 @@ ms.locfileid: "49816843"
     
 - 最常見來源使用者代理程式 (工作階段)
     
-在 [失敗清單] 報告中，您可以透過按一下點對點工作階段的會話詳細資料計量，存取 [商務用 Skype Server 中的 Peer-to-Peer 會話詳細資料包告](peer-to-peer-session-detail-report.md) 。 您也可以按一下會議的會議度量來存取會議詳細資料包告。
+在 [失敗清單] 報告中，您可以按一下點對點工作階段的會話詳細資料計量，[以存取商務用 Skype Server 中的 Peer-to-Peer 會話詳細資料包告](peer-to-peer-session-detail-report.md)。 您也可以按一下會議的會議度量來存取會議詳細資料包告。
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>讓 [失敗清單] 報告的最佳用法
 
@@ -53,7 +53,7 @@ ms.locfileid: "49816843"
   
 為使用者建立媒體時發生內部伺服器錯誤。
   
-請務必注意，失敗清單報告並未提供直接找回至少參與一則失敗之會話之所有使用者的清單，也不會提供一種方法來判斷失敗的會話中最常參與的使用者。  (一件事，失敗清單報告沒有篩選功能。 ) 不過，如果您匯出資料，然後將其轉換成逗號分隔值檔案，您可以使用 Windows PowerShell 尋找類似問題的答案。 例如，假設您將資料儲存到。名為 C:\Data\Failure_List.csv 的 CSV 檔案。 根據儲存在該檔案中的資料，此命令會列出至少包含一個失敗會話的所有使用者： 
+請務必注意，失敗清單報告並未提供直接找回至少參與一則失敗之會話之所有使用者的清單，也不會提供一種方法來判斷失敗的會話中最常參與的使用者。  (一件事，失敗清單報告沒有篩選功能。 ) 不過，如果您匯出資料，然後將其轉換成逗號分隔值檔案，您可以使用 Windows PowerShell 來找出類似問題的答案。 例如，假設您將資料儲存到名為 C:\Data\Failure_List.csv 的 .CSV 檔案中。 根據儲存在該檔案中的資料，此命令會列出至少包含一個失敗會話的所有使用者： 
   
 ```PowerShell
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"
@@ -95,7 +95,7 @@ Count    Name
 
 無。 您無法篩選失敗清單報告。
   
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>度量
 
 下表列出每個失敗通話的失敗清單報告中提供的資訊。
   

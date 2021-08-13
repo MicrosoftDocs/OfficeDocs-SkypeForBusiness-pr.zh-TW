@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: 摘要：瞭解如何使用控制台或管理命令介面來啟用或停用商務用 Skype Server 中的電話撥入式會議。
-ms.openlocfilehash: ade7753f480856d68535daadda40eac6296a5d6e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 335252904ea015046e9caf5689fe31e4b0a9b8c3569b6c7d233fb8c4e74857ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119462"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297289"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>啟用或停用商務用 Skype Server 中的電話撥入式會議
  
-**摘要：** 瞭解如何使用控制台或管理命令介面，在商務用 Skype Server 中啟用或停用電話撥入式會議。
+**摘要：** 瞭解如何使用控制台或管理命令介面來啟用或停用商務用 Skype Server 中的電話撥入式會議。
   
-您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面來啟用電話撥入式會議。
+您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面來啟用電話撥入式會議。
   
 ## <a name="enable-or-disable-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台來啟用或停用電話撥入式會議
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [ **會議**]，然後按一下 [ **會議原則**]。
     

@@ -14,23 +14,23 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: 以滑鼠右鍵按一下 [Office Web Apps Servers]，然後選取 [新增 Office Web Apps Server] 以開啟嚮導。
-ms.openlocfilehash: 38aee5489caaf6d7eea2b0b0e76d3febabe9b78e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 以滑鼠右鍵按一下 [Office 網頁應用程式伺服器]，然後選取 [新增 Office web apps Server] 以開啟該嚮導。
+ms.openlocfilehash: 39c25e6644ec9e21f41e5e90edd61ee2b1bee2cb7aa03b655542fec7ba50ade7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119622"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335193"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Server 範圍節點
 
-以滑鼠右鍵按一下 [ **Office Web Apps Servers** ]，然後選取 [ **新增 Office web apps Server** ] 以開啟嚮導。
+以滑鼠右鍵按一下 [ **Office 網頁應用程式伺服器**]，然後選取 [**新增 Office web apps Server** ] 以開啟該嚮導。
 
 ![OfficeWebApps 伺服器範圍節點](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 
 - **拓撲**。 您可以使用此選項來定義新的拓撲，開啟現有的拓撲，下載目前的拓撲，儲存拓撲的複本，發佈拓撲，安裝資料庫，從舊版中合併元件，或移除部署。
 
-- **説明**。 您可以使用這個選項，存取作用中節點的說明。
+- **說明**。您可以使用這個選項，存取作用中節點的說明。
 
 ## <a name="see-also"></a>另請參閱
 

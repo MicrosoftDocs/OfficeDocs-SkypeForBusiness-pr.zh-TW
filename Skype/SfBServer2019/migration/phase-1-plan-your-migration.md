@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本節涵蓋遷移至商務用 Skype Server 2019 的規劃主題。
-ms.openlocfilehash: 312a8ef1dcf5beb1a0d23fe0df58a3916d66981f
-ms.sourcegitcommit: 62946d7515ccaa7a622d44b736e9e919a2e102d0
+ms.openlocfilehash: b7e6b72de69dafbf6218196c23eec82cbb7ad33c2996185e6cbbc70cd16fd0d1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "44752455"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54300589"
 ---
 # <a name="phase-1-plan-your-migration"></a>階段 1：規劃移轉
 

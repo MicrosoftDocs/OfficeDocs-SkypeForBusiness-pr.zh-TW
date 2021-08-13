@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: 瞭解如何在組織中使用及管理團隊策略，以控制使用者在團隊和頻道中可以執行的工作。
-ms.openlocfilehash: 81541c08ac963f0bcef18ba589b2341915c20d5d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 4c980f6881a1ec73131e35cae1f04bf33f844026dccb1c14045d8310e2c755a5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094203"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321105"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>管理團隊Microsoft Teams
 
