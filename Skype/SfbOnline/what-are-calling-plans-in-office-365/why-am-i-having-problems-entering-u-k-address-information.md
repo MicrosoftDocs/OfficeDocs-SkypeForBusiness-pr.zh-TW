@@ -22,12 +22,12 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressGBSyntaxError
 description: 以下是在英法兩國取得正確驗證位址 (問題) 。
-ms.openlocfilehash: 7751f2b23ecb15140fc5ff67aa3ede90fadfaf06
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 7b3cd80b351c64d3d9f5911d0854a215ba1b407d6e4b2b439d1f28d68d06db7d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237929"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324642"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>為什麼我在輸入英國時遇到問題。 位址資訊？
 
@@ -62,7 +62,7 @@ ms.locfileid: "52237929"
     
 ## <a name="whats-wrong-with-the-house-name"></a>房屋名稱有什麼問題？
 
-如果輸入房屋名稱時發生問題，請記得：
+如果您在輸入房屋名稱時發生問題，請記得：
   
 - 它可以有字母、數位及下列特殊字元：、/ - + 。 ' &amp; " _
     
@@ -98,7 +98,7 @@ ms.locfileid: "52237929"
     
 - 它必須包含 8 個或 8 個以下的字母，包括數位和空格。
     
-- 請記住，如果您在英國 (英國 **) ，** 您必須將郵遞區號放在下列其中一種格式中，其中字母 A = 字元 A-Z、# 符號 = 0-9 中的數位，以及 _ (強調符號) = 空格。 以下是一些範例：
+- 請記住，如果您在英國 **(** 英國 ) ，您必須將郵遞區號放在下列其中一種格式中，其中字母 A = 字元 A-Z、# 符號 = 0-9 中的數位，以及 _ (反線) = 空格。 以下是一些範例：
     
 |**格式**|**範例**|
 |:-----|:-----|

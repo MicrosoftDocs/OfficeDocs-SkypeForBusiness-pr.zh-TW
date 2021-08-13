@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 如何在商務用 Skype Server 中測試系統管理員許可權
-ms.openlocfilehash: 1c828eeb965ee98aae72b00c7da9fa65016d2ed90e56c7cc982a59763c2703ae
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 7dd9e1b95df35cb363617690cb9667c1a16ef904
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590767"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232618"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>測試商務用 Skype Server 中的系統管理員許可權
 
@@ -52,7 +52,7 @@ Test-CsOUPermission Cmdlet 會驗證管理使用者、電腦及其他物件所�
 
 如果已設定必要的許可權，Test-CsOUPermission 會傳回一個單字回應：
 
-True
+是
 
 如果未設定必要的許可權，Test-CsOUPermission 會傳回值 False。 您可能需要搜尋一會兒，以找出此值。 它通常會內嵌在數個伴隨的警告內。 例如：
 

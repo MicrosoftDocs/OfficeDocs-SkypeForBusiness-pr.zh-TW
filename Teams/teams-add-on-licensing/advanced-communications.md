@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 446a9d5abab6f7302a46d6a8fca43f642fcea2d6
-ms.sourcegitcommit: 4d76837f9481ca2cda437afdf11de5eaf7a57d99
+ms.openlocfilehash: 16a17bb867ef30d58dc55bd3fcf9545894097120d284ba7b1f7ac95e177a18fc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "50726374"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324802"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>適用于您的進一Microsoft Teams
 
@@ -34,19 +34,19 @@ ms.locfileid: "50726374"
 
 - **量身訂做及自訂會議**：使用自訂品牌會議大廳等功能，為您的內部和自訂案例推動會議標準化。 在貴組織的部門中彈性地執行。
 - **管理組織通訊**：監控、追蹤及分析使用者和裝置上的資料，以確保順暢的體驗。
-- **自訂策略套件的量身打造體驗**：您可以為組織中具有類似角色的使用者提供您自己的一群組原則。 新增您想要使用系統管理中心或 PowerShell Teams套用的政策類型與政策，以建立您自己的Teams套件。 每個使用者都需要授權才能接收自訂策略套件指派。 
+- **自訂策略套件的量身打造體驗**：您可以為組織中具有類似角色的使用者提供您自己的一群組原則。 您可以新增您想要使用系統管理中心或 PowerShell Teams套用的政策類型與政策，以建立您自己的Teams套件。 每個使用者都需要授權才能接收自訂策略套件指派。 
 
 進一Microsoft 365通訊可在所有付費訂閱或Microsoft 365訂閱Office 365附加元件。 進給通訊中包含的功能不會新Microsoft 365或Office 365方案，且無法另行購買。 若要取得功能，您必須購買附加元件。
 
 > [!NOTE]
-> 功能將在可用時發佈。 請流覽[Microsoft 365公用藍圖](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams)，瞭解最新功能時間。
+> 功能將在可用時發佈。 請流覽[Microsoft 365公用藍圖](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams)，瞭解最新的功能時間。
 
 > [!NOTE]
 > 在 DoD 或 DoD 環境中Microsoft 365 GCC進 (通訊) 使用。
 
 ## <a name="trial-offer"></a>試用版優惠
 
-2020 年 8 月 4 日提供 60 天試用。 您可以透過系統管理中心Microsoft 365試用版。
+2020 年 8 月 4 日提供 60 天的試用版。 您可以透過試用程式Microsoft 365 系統管理中心。
 
 ## <a name="related-articles"></a>相關文章
 

@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a8d657e2cbc12695453e26ef0e4bf9ad55070bf
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 12ddd59e1bb126e69557ba69fc34113c69f31868600414f9c686665f9b546bd9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122357"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336433"
 ---
 # <a name="cloud-video-interop-for-microsoft-teams"></a>Microsoft Teams 雲端視訊 Interop。
 
@@ -33,15 +33,15 @@ ms.locfileid: "51122357"
  
 有了Microsoft Teams，您可以在會議取得豐富的線上內容共同功能，包括音訊、視像和內容共用。 您可以透過桌面和 Web 用戶端，以及透過許多原生與網路整合的合作夥伴裝置Microsoft Teams。 不過，許多客戶已經投資在視距電話會議和個人視像通訊裝置上，升級可能會非常貴。 雲端視像交互操作提供簡單的解決方案，讓您持續使用現有的解決方案，直到您準備好升級。
 
-使用雲端視Microsoft Teams，所有參與者都享有原生會議體驗 ，包括會議室或用戶端Teams會議體驗。
+使用雲端視Microsoft Teams交互操作，所有參與者都享有原生會議體驗 ，包括會議室或用戶端Teams體驗。
 
 ### <a name="is-cloud-video-interop-for-me"></a>我是否適合使用雲端視像交互操作？
 
-雲端視像交互功能提供中間服務，同時使用Microsoft Teams解決方案轉換至完整的原生Teams服務。 提供的服務應該是移移路徑的一部分。
+雲端視像交互操作提供中間服務，而您則使用Microsoft Teams解決方案轉換至Teams解決方案。 提供的服務應該是移移路徑的一部分。
 
 雲端視訊交互操作適用于符合下列準則的客戶：
 
-- 在超過 50 個裝置 (部署會議室裝置和個人視) ，且無法直接與 Microsoft Teams
+- 有大型會議室裝置和個人視 (部署，) 超過 50 個Microsoft Teams直接整合Microsoft Teams
 - 我們的其中一個雲端視像交互操作合作夥伴支援
 - 在移向原生會議室解決方案期間，想要保留目前會議室裝置和個人視Microsoft Teams價值
 
@@ -49,7 +49,7 @@ ms.locfileid: "51122357"
 
 ### <a name="office-365-us-government-and-third-party-services"></a>Office 365美國政府和協力廠商服務
 
-Office 365 提供將協力廠商應用程式整合至 SharePoint Online 網站、商務用 Skype、Teams、Office Microsoft 365 Apps 企業版 (中包含的應用程式，例如 Word、Excel、PowerPoint 和 Outlook) 和 Outlook Web App。 此外，Office 365支援協力廠商服務提供者的整合。 這些協力廠商應用程式和服務可能涉及在 Office 365 基礎結構外的協力廠商系統上儲存、傳送及處理貴組織的客戶資料，因此不在 Office 365 合規性和資料保護承諾涵蓋範圍。 **建議您在評估貴組織適當使用這些服務時，審查協力廠商所提供的隱私權與合規性聲明。**
+Office 365 提供將協力廠商應用程式整合至 SharePoint Online 網站、商務用 Skype、Teams、Office Microsoft 365 Apps 企業版 (中包含的應用程式，例如 Word、Excel、PowerPoint 和 Outlook) 和 Outlook Web App。 此外，Office 365支援協力廠商服務提供者的整合。 這些協力廠商應用程式和服務可能涉及在 Office 365 基礎結構以外的協力廠商系統上儲存、傳送及處理貴組織的客戶資料，因此不在 Office 365 合規性和資料保護承諾涵蓋範圍。 **建議您在評估貴組織適當使用這些服務時，審查協力廠商所提供的隱私權和合規性聲明。**
 
 
 
@@ -83,9 +83,9 @@ Cloud Video Interop 是一項協力廠商服務，由我們的合作夥伴提供
 
 ### <a name="plan"></a>規劃
 
-在規劃階段期間，您應該找出無法以原生 Teams 取代的裝置，並尋找可支援這些裝置的雲端視像交互操作合作夥伴。  
+在規劃階段期間，您應該找出不會以原生 Teams 取代的裝置，並尋找可支援這些裝置的雲端視像交互操作合作夥伴。  
 
-另外，您必須瞭解，每位將排程會議的使用者都需要授權，才能讓啟用雲端視像交互操作功能的裝置加入會議。 請注意，確切的授權需求可以從雲端視像交互操作合作夥伴取得。 在您開始部署之前，請確保清除這項功能。
+另外，您必須瞭解，每位將排程會議的使用者都需要授權，才能讓啟用雲端視像交互操作功能的裝置加入會議。 請注意，確切的授權需求可以從雲端視像交互操作合作夥伴取得。 在您開始部署之前，請確保清除這一點。
 
 ### <a name="configure"></a>配置
 
@@ -93,7 +93,7 @@ Cloud Video Interop 是一項協力廠商服務，由我們的合作夥伴提供
 
 ### <a name="provision"></a>提供  
 
-在部署階段期間，您將根據合作夥伴組組指南指派授權給適當的使用者。 您也需要執行 Azure 同意程式，才能讓合作夥伴存取您的Teams環境。 有關[Azure 同意](/azure/active-directory/develop/v2-permissions-and-consent)程式Microsoft 身分識別平臺，請參閱在 Microsoft 身分識別平臺 端點中的許可權與同意。
+在供應階段期間，您將根據合作夥伴組組指南指派授權給適當的使用者。 您也需要執行 Azure 同意程式，才能讓合作夥伴存取您的Teams環境。 有關[Azure 同意程式Microsoft 身分識別平臺，](/azure/active-directory/develop/v2-permissions-and-consent)請參閱在 Microsoft 身分識別平臺 端點中的許可權與同意。
 
 ### <a name="schedule"></a>附表
 
@@ -111,15 +111,15 @@ Cloud Video Interop 是一項協力廠商服務，由我們的合作夥伴提供
 - 單鍵撥號 
   - 如果您有整合式Teams，您可以使用合作夥伴提供的單鍵撥號功能 (不需要輸入任何撥號字串) 。
 
-## <a name="manage-cloud-video-interop"></a>管理雲端視像交交互操作
+## <a name="manage-cloud-video-interop"></a>管理雲端視像交互操作
 
-部署雲端視像交互操作之後，您可以使用合作夥伴提供的解決方案來管理裝置。 每個合作夥伴都會提供一個包含授權和裝置管理的管理介面。 
+部署雲端視像交互操作之後，您可以使用合作夥伴提供的解決方案來管理裝置。 每個合作夥伴都會提供包含授權和裝置管理的管理介面。 
 
 報告也可以直接從合作夥伴系統管理介面使用。 如需報告功能詳細資訊，請聯絡您所選擇的合作夥伴。 
 
-### <a name="troubleshooting-cloud-video-interop"></a>雲端視像交互操作疑難排解
+### <a name="troubleshooting-cloud-video-interop"></a>疑難排解雲端視像交互操作
 
-雲端視像交互操作是合作夥伴提供的服務。 如果您遇到問題，第一個步驟是連接已安裝 Teams 用戶端的裝置，並連接到與造成問題的雲端視像交互操作裝置相同的區段。 
+雲端視像交互操作是合作夥伴提供的服務。 如果您遇到問題，第一個步驟是連接已安裝 Teams 用戶端的裝置，並連接到造成問題的雲端視像交互操作裝置相同的區段。 
 
 如果Teams功能正確，而且您也遵循合作夥伴提供的所有網路和組組指導方針，您必須與合作夥伴聯繫以進一步疑難排解。 
 
@@ -130,6 +130,6 @@ Cloud Video Interop 是一項協力廠商服務，由我們的合作夥伴提供
 - **Get-CsTeamsVideoInteropServicepolicy：Microsoft** 會針對每個支援的合作夥伴提供預先建構的策略，讓您指定要用於雲端視訊交互 () 的合作夥伴。<br>此 Cmdlet 可讓您識別可在貴組織中使用的預先建構策略。 您可以使用 Cmdlet，將這個Grant-CsTeamsVideoInteropServicePolicy指派給一Grant-CsTeamsVideoInteropServicePolicy使用者。
 - **Grant-CsTeamsVideoInteropServicePolicy：** 此 Cmdlet 可讓您指派預先建構的策略，供貴組織使用，或將策略指派給特定使用者。
 - **New-CsVideoInteropServiceProvider：** 使用此 Cmdlet 來指定貴組織想使用之支援的 CVI 合作夥伴相關資訊。
-- **Set-CsVideoInteropServiceProvider：** 使用此 Cmdlet 更新貴組織使用之支援 CVI 合作夥伴的資訊。
+- **Set-CsVideoInteropServiceProvider：** 使用此 Cmdlet 更新貴組織使用之支援的 CVI 合作夥伴相關資訊。
 - **Get-CsVideoInteropServiceProvider：** 使用此 Cmdlet 取得組織中所有已配置的提供者。
 - **Remove-CsVideoInteropServiceProvider：** 使用此 Cmdlet 移除貴組織不再使用之提供者的所有提供者資訊。

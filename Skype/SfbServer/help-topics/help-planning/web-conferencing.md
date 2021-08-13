@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: 商務用 Skype Server 2015 web 會議包含檔共同作業、應用程式共用和桌面共用。
-ms.openlocfilehash: c7e899f0131fbc478264d811a890763ac8b012b36868973ae49a9cb67613bb85
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: cdf85a0ef4f59f8b4773ce39e7bb5ffe35dc64c7
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590747"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232868"
 ---
 # <a name="skype-for-business-server-web-conferencing-planning-tool"></a>商務用 Skype ServerWeb 會議規劃工具
  

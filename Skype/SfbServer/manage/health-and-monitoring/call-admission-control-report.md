@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: 摘要：瞭解用在商務用 Skype Server 中的通話許可控制報告。
-ms.openlocfilehash: ce7f8e622ece066d58cbc2c23a6423e19b084622
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解商務用 Skype Server 中使用的通話許可控制報告。
+ms.openlocfilehash: 36dfe7c15948ea8405558d9e97fa4de4ac4a8081a22aa7e6bd83256a40c8c9f5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826523"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336623"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>商務用 Skype Server 中的通話許可控制報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中使用的通話許可控制報告。
+**摘要：** 深入瞭解商務用 Skype Server 所使用的通話許可控制報告。
   
 通話許可控制報告可提供對等和會議會話的相關資訊，這些會話是在「通話許可控制」設定的限制下進行的。 通話許可控制提供一種方法，讓系統管理員可以根據頻寬限制，允許 (或不允許) 通訊會話。 例如，系統管理員可以建立原則限制可用於語音和影片通話的頻寬量。 如果已達到頻寬限制，則直到其中一個目前的通話結束並釋放必要的網路資源時，才可以放入新的語音或視頻通話。
   

@@ -22,18 +22,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: '瞭解 911 (緊急服務) 與傳統電話語音的不同，以及如何進行通話。 '
-ms.openlocfilehash: 3fd78707fc822b008eaca4046ff1d974b1ad1e06
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3bceef7d98cb2598422bb30a827bd9a0608a515887f6f3963291c06f6e8505a6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51092641"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336283"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>緊急通話條款及條件
 
 ## <a name="important-information"></a>重要資訊
 
-緊急服務通話的運作方式與傳統電話語音Microsoft 365 Office 365方案不同。 您必須瞭解這些差異，並告知所有使用者，在 Microsoft 365 或 Office 365。 您確認並同意您閱讀並瞭解我們緊急服務通話的差異，並將于 Microsoft 365 或 Office 365 中提供此通知給每個使用者。
+緊急服務通話的運作方式與傳統電話語音Microsoft 365 Office 365方案不同。 您必須瞭解這些差異，並告知所有使用者，在 Microsoft 365 或 Office 365。 您確認並同意您閱讀並瞭解我們的緊急服務通話的差異，並將于 Microsoft 365 或 Office 365 中提供此通知給每個使用者。
   
 我們緊急服務通話功能的差異包括下列各項： (i) 商務用 Skype 和 Teams 可能不知道撥打緊急服務電話的來電者的實際位置，這可能會導致呼叫被路由到錯誤的緊急服務電話中心和/或緊急服務被分派到錯誤的位置; (ii) 如果使用者的 Teams 用戶端離線，或使用者的裝置因任何原因無法存取網際網路 ，例如網路中斷或電源中斷，則不支援 Microsoft 365 或 Office 365 中的 電話系統 撥打緊急服務電話，且預期無法工作; (iii) 雖然 Microsoft 365 或 Office 365 中的通話方案可在網際網路可用的任何位置使用，但使用者不應該從其國家/地區以外的位置撥打緊急服務電話，因為電話可能不會路由至該國家/地區的適當電話中心。
   

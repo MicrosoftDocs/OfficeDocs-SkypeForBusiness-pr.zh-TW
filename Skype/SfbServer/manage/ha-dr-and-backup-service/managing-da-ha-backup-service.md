@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 深入瞭解災難修復作業的程式，以及維護備份服務，以同步處理成對前端集區中的資料。
-ms.openlocfilehash: e486a71203b64b4fc351888869ac64a24689ba7b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a6740f5ebc0cc05982a5ad14efb5b2c10a8e06c22124aae331725d4c74a5aac2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817153"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336653"
 ---
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>管理商務用 Skype Server 的嚴重損壞修復、高可用性及備份服務
 

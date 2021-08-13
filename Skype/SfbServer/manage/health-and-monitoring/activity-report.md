@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
-description: 摘要：瞭解在商務用 Skype Server 中使用的會議活動報告。
-ms.openlocfilehash: 74cc303fc4347b81e66d855a3ca5a71e58cb9649
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解商務用 Skype Server 中使用的會議活動報告。
+ms.openlocfilehash: ebee49f78d7f3ed83c5d8218357181d457fe04b73f638b4a70191bc975ba38de
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817133"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336633"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>商務用 Skype Server 中的會議活動報告
  
-**摘要：** 瞭解在商務用 Skype Server 中使用的會議活動報告。
+**摘要：** 深入瞭解商務用 Skype Server 中使用的會議活動報告。
   
 「會議活動報告」可讓您輕鬆回答下列問題：每天舉行了幾場會議？ 這些會議的舉行時間為何？ 這類資訊不只具備本質的意義，也是非常實用的疑難排解工具。 在會議活動報告中，您可能會建議一個可能的原因：目前在 10:00 AM 和 2:00 PM 的下班時間之間排程的會議，在任何其他時間。
   
@@ -29,7 +29,7 @@ ms.locfileid: "49817133"
   
 ## <a name="accessing-the-conference-activity-report"></a>存取會議活動報告
 
-您可以按一下下列其中一個計量， [以在商務用 Skype Server 中從會議摘要報告](conference-summary-report.md) 存取會議活動報告：
+您可以按一下下列其中一個計量，從[商務用 Skype Server 的會議摘要報告中](conference-summary-report.md)存取會議活動報告：
   
 - 會議總數
     

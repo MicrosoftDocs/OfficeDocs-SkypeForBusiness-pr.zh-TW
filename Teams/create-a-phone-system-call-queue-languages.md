@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams通話佇列支援的語言
-ms.openlocfilehash: 59f65a6ef2e1ab92f234ab9ebb9a717b5ae5ebc7fa2b380522f0f34cab1e3956
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd16ef64facfca51d8d2a456d1e5bba877e1e1c0
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305075"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233078"
 ---
 # <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams通話佇列支援的語言
 
@@ -36,12 +35,12 @@ ms.locfileid: "54305075"
 |語言                                |
 |:---------------------------------------|
 |阿拉伯 (埃及)                           |
-|Catalan (加泰羅尼亞)                        |
+|Catalan (Catalan)                        |
 |中文 (簡體，中國)                |
 |繁 (繁體中文、香港)         |
 |繁 (傳統、臺灣)            |
 |克羅地亞 (克羅地亞)                       |
-|捷克 (捷克共和國)                   |
+|捷克共和國 (捷克共和國)                   |
 |丹麥 (丹麥)                         |
 |荷蘭 (荷蘭)                      |
 |澳洲 (英文)                      |
@@ -59,7 +58,7 @@ ms.locfileid: "54305075"
 |義大利 (義大利)                          |
 |日文 (日本)                         |
 |韓國 (韓國)                           |
-|挪威博克 (挪威)                |
+|挪威博克馬 (挪威)                |
 |波蘭 (波蘭)                          |
 |巴西 (葡萄牙文)                      |
 |葡萄牙文 (葡萄牙)                    |

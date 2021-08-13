@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 2015 中流覽規劃工具
+title: 流覽商務用 Skype Server 2015 中的規劃工具
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,29 +13,29 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
-description: 您可以使用工具列、頁面特定按鈕和連結的組合，以及內容特有的窗格，流覽商務用 Skype Server 2015 規劃工具。 內容特有的窗格提供規劃與容量相關的設計資訊，與特定頁面上的選取選項有關。
-ms.openlocfilehash: 80e455abcd1534cc37ed9747e801b81fd778cf25
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 您可以使用工具列、頁面特定按鈕和連結的組合，以及內容特有的窗格，來流覽商務用 Skype Server 2015 規劃工具。 內容特有的窗格提供規劃與容量相關的設計資訊，與特定頁面上的選取選項有關。
+ms.openlocfilehash: ea73545643b8023ea0e6866b78669757bd663d60327ec614e6d1a256542fd595
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104369"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320138"
 ---
-# <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中流覽規劃工具
+# <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>流覽商務用 Skype Server 2015 中的規劃工具
 
-您可以使用工具列、頁面特定按鈕和連結的組合，以及內容特有的窗格，流覽商務用 Skype Server 2015 規劃工具。 內容特有的窗格提供規劃與容量相關的設計資訊，與特定頁面上的選取選項有關。
+您可以使用工具列、頁面特定按鈕和連結的組合，以及內容特有的窗格，來流覽商務用 Skype Server 2015 規劃工具。 內容特有的窗格提供規劃與容量相關的設計資訊，與特定頁面上的選取選項有關。
 
-開始規劃工具時，設計人員會先看到 [ **歡迎使用商務用 Skype Server 2015 的規劃工具** ] 頁面。
+開始規劃工具時，設計人員會先看到 [**歡迎使用商務用 Skype Server 2015] 頁面的規劃工具**。
 
 ![規劃工具歡迎頁面](../../media/Planning_Tool_Welcome.png)
 
-在 [歡迎] 頁面上，設計工具會選擇 [ **開始**]、[ **設計網站**] 或 [ **顯示**]。 如需詳細資訊，請參閱 [建立商務用 Skype Server 2015 的初始拓撲設計](create-the-initial-design.md)。
+在 [歡迎] 頁面上，設計工具會選擇 **入門**、**設計網站** 或 **顯示**。 如需詳細資訊，請參閱[建立商務用 Skype Server 2015 的初始拓撲設計](create-the-initial-design.md)。
 
 在規劃工具的最上層是一個工具列，可讓您輕鬆存取常用的功能。 工具列會顯示為參考，而每個函數將會在相關主題中討論。
 
 ![規劃工具工具列](../../media/Planning_Tool_Toolbar_Annotated.jpg)
 
-規劃工具在工具的左側有一個 [外部連結] 區段。 設計人員可以透過此區段，輕易存取規劃和部署資訊，以及其他技術資源 (例如，訓練、技術部落格、論壇及其他可下載的資訊)。 此外，[外部連結] 區段是商務用 Skype Server 2015 規劃工具小組的意見反應連結。
+規劃工具在工具的左側有一個 [外部連結] 區段。 設計人員可以透過此區段，輕易存取規劃和部署資訊，以及其他技術資源 (例如，訓練、技術部落格、論壇及其他可下載的資訊)。 此外，在 [外部連結] 區段中，為商務用 Skype Server 2015 規劃工具小組的意見反應連結。
 
 ![規劃工具的 [外部連結] 對話方塊](../../media/Planning_Tool_External_Links_Dialog.jpg)
 
@@ -47,7 +47,7 @@ ms.locfileid: "51104369"
 
 ## <a name="see-also"></a>另請參閱
 
-[為商務用 Skype Server 2015 建立初始拓撲設計](create-the-initial-design.md)
+[建立商務用 Skype Server 2015 的初始拓撲設計](create-the-initial-design.md)
 
 [編輯設計](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)
 

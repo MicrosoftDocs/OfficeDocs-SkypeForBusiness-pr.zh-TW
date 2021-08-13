@@ -1,5 +1,5 @@
 ---
-title: 此商務用 Skype線上功能未啟用
+title: 此商務用 Skype未啟用 Online 功能
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -21,14 +21,14 @@ ms.custom:
 - Setup
 - ms.lync.lac.FeatureNotEnabled
 description: '當您收到線上功能未啟用商務用 Skype尋找可能的原因和行動建議。 '
-ms.openlocfilehash: ffe80aa252eecf88a5ef8c3e5b4bc7a294b463d7
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 89920c366d9465534279bd8fe2e31f6a3140027a4ed8e21697ad489da8ab552d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332305"
 ---
-# <a name="this-skype-for-business-online-feature-isnt-enabled"></a>此商務用 Skype線上功能未啟用
+# <a name="this-skype-for-business-online-feature-isnt-enabled"></a>此商務用 Skype未啟用 Online 功能
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -36,9 +36,9 @@ ms.locfileid: "52239422"
   
 |**可能的原因**|**建議的動作**|
 |:-----|:-----|
-|您擁有可用的授權，但您尚未為此使用者開啟此功能。  <br/> |請前往 Microsoft 365 **系統管理中心**  >  **活動使用者授權** 此使用者。 <br/> |
-|使用者位於無法使用此功能的位置。  <br/> |如果可能的話，請前往 **Microsoft 365** 系統管理中心 Active 使用者，並將此使用者指派給提供  >  此功能的位置。 <br/> |
-|貴組織尚未開啟此功能。  <br/> |請Microsoft 365 **系統管理中心**  >  **商務用 Skype，** 並開啟整個組織的功能。 <br/> |
+|您擁有可用的授權，但您尚未為此使用者開啟此功能。  <br/> |請 **前往Microsoft 365 系統管理中心**  >  **使用者授權** 此使用者。 <br/> |
+|使用者位於無法使用此功能的位置。  <br/> |如果可能的話，請前往 **Microsoft 365 系統管理中心** 使用者，並將此使用者指派給可以使用  >  此功能的位置。 <br/> |
+|貴組織尚未開啟此功能。  <br/> |請前往  >  **Microsoft 365 系統管理中心商務用 Skype，** 並開啟整個組織的功能。 <br/> |
    
 ## <a name="related-topics"></a>相關主題
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)

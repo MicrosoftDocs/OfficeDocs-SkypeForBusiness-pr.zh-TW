@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: 商務用 Skype Server 2015 中的行動功能可支援行動裝置上商務用 Skype 功能。
-ms.openlocfilehash: c1f71592d0ef24c15ee728ab8a0d15442e43bf8ec0fce5238a0aa1d4e4afc1e1
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: ead5ddb6d4a5272d4d4e172bc8d344be4d0501c0
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590917"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58232898"
 ---
 # <a name="skype-for-business-server-mobility-planning-tool"></a>商務用 Skype Server：行動計畫工具
  

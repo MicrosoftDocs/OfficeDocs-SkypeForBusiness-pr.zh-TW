@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
 description: Pool 表格是一種支援資料表，可儲存各種集區的資訊。 資料表中的每一筆記錄都代表一個集區。
-ms.openlocfilehash: bb0b794c38617d20b9a718fc9a44ec17c3a9ec66
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b134fca33b49e466227b812e49cd74d5052d106bea640cf3e7f5e5eb24952002
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823213"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351962"
 ---
 # <a name="pools-table"></a>Pool 表格
  

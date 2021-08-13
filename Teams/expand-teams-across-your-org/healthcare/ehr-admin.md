@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 使用 Microsoft Teams 設定您的虛擬就診系統
-ms.openlocfilehash: 9c002a90cd91014ca4887386ca5834a4b5b41266
-ms.sourcegitcommit: d73dc8505a5cc5af29635a50cbbf0f25bbb17eac
+ms.openlocfilehash: 24df1df8ad7aaa05e3738b6c963475dc1366fe01e2fcb90b6962c9cd78c7916a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/29/2021
-ms.locfileid: "52705247"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336273"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>使用 Teams 虛擬就診 - 整合至 EHR
 
@@ -37,7 +37,7 @@ Teams 的通訊和共同作業平台讓臨床醫生能輕鬆消除零碎系統�
 
 - 從Teams EHR 系統，以整合的臨床工作流程啟動虛擬訪問。
 - 讓病患從Teams入口網站加入虛擬訪問。
-- 將中繼資料寫回 EHR 系統，Teams出席者連接和中斷連接時進行虛擬訪問記錄，並啟用自動稽核和記錄保留功能。
+- 將中繼資料寫回 EHR 系統，Teams出席者連接和中斷連接時進行虛擬訪問，並啟用自動稽核和記錄保留。
 
   觀看如何從 EHR 入口網站管理虛擬就診的影片。
 
@@ -79,7 +79,7 @@ Teams 的通訊和共同作業平台讓臨床醫生能輕鬆消除零碎系統�
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>[啟動 EHR 連接器組式入口網站](#launch-the-ehr-connector-configuration-portal)
 
-啟動 EHR 連接器組Microsoft Teams開始將醫療保健組織配置為使用虛擬Microsoft Teams啟動虛擬訪問。 您可以設定單一或多個組織來測試整合。 在組態入口網站中設定測試與生產 URL。 在移至生產環境之前，先從 Epic 的測試環境測試整合。
+首先啟動 EHR 連接器組Microsoft Teams，將醫療保健組織配置為使用虛擬Microsoft Teams啟動虛擬訪問。 您可以設定單一或多個組織來測試整合。 在組態入口網站中設定測試與生產 URL。 在移至生產環境之前，先從 Epic 的測試環境測試整合。
   
 - EHR 連接器組態 URL：[https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 
@@ -99,7 +99,7 @@ Teams 的通訊和共同作業平台讓臨床醫生能輕鬆消除零碎系統�
 
 ### <a name="approve-or-view-configuration"></a>[核准或檢視組態](#approve-or-view-configuration)
 
-已新增為核准者之醫療保健組織的重要客戶分析師現在必須使用上一個步驟中的相同 EHR 連接器 URL，才能使用其 Microsoft 365 認證進行登錄。 成功驗證之後，系統會要求核准者使用他們的 Epic 認證來驗證 Epic 組織。
+已新增為核准者之醫療保健組織的Epic客戶分析師現在必須使用上一個步驟中的相同 EHR 連接器 URL，才能使用Microsoft 365認證進行登錄。 成功驗證之後，系統會要求核准者使用他們的 Epic 認證來驗證 Epic 組織。
 
 > [!Note]
 > 貴組織的 Microsoft 365 系統管理員和 Epic 客戶分析師可以是相同的人員。 在這種情況下，將您自己的使用者名稱新增為核准者。 您仍然需要登入 Epic 以驗證您的存取權。 Epic 登入僅用於驗證您的 FHIR 基底 URL。 Microsoft 不會透過這個登入來儲存認證或存取 EHR 資料。

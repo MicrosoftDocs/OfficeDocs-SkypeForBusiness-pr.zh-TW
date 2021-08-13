@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: 您可以使用 Persistent 聊天群組的持續聊天原則頁面，管理全域、集區、網站或使用者層級的原則，包括設定預設全域原則，以及為您的部署建立一或多個額外的使用者和網站原則。 如果使用者依原則為使用者啟用 Persistent Chat Server，則 Persistent Chat Server 環境會出現在其用戶端中。
-ms.openlocfilehash: e7148530f571a46937ee8d8a3bf44315ac692eb6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 0f8092afcb296ff1606769623ee52f5293eefa2b5bcf22f552f797f447f52f71
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819293"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335343"
 ---
 # <a name="persistent-chat-policy"></a>常設聊天室原則
  
@@ -31,7 +31,7 @@ ms.locfileid: "49819293"
 您可以建立及設定多個網站和使用者原則，以及全域原則，讓使用者能夠使用 Persistent Chat Server。 Pool 和 site Persistent Chat Server policy 會覆寫全域 Persistent Chat Server policy，但僅限於該網站的使用者。 對於獲指派指使用原則的使用者，使用者原則會優先於其全域、集區和網站原則。
   
 > [!NOTE]
-> 若要設定及使用 Persistent Chat Server，您必須先使用拓撲產生器，將 Persistent Chat Server 支援新增至拓撲，然後發行拓撲。 如需詳細資訊，請參閱 [將 Persistent Chat Server 新增至您的商務用 Skype server 2015 拓撲](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)。 
+> 若要設定及使用 Persistent Chat Server，您必須先使用拓撲產生器，將 Persistent Chat Server 支援新增至拓撲，然後發行拓撲。 如需詳細資訊，請參閱[將 Persistent Chat Server 新增至您的商務用 Skype Server 2015 拓撲](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)。 
   
 ## <a name="tasks-that-you-can-perform"></a>您可以執行的工作
 
@@ -41,9 +41,9 @@ ms.locfileid: "49819293"
 
 1. 使用指派到 CsPersistentChatAdministrator、CsAdministrator 或 CsUserAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 從 [ **開始** ] 功能表中，選取商務用 Skype Server 控制台或開啟瀏覽器視窗，然後輸入管理 URL。
+2. 從 [**開始**] 功能表中，選取 [商務用 Skype Server 控制台] 或開啟瀏覽器視窗，然後輸入管理 URL。
     
-3. 在商務用 Skype Server 控制台中，按一下 [ **Persistent chat**]，然後按一下 [ **persistent chat Policy**]。
+3. 在商務用 Skype Server 控制台] 中，按一下 [ **persistent chat**]，然後按一下 [ **persistent chat Policy**]。
     
 4. 依序按一下原則清單中的 [全域]、[編輯] 及 [顯示詳細資料]。
     
@@ -65,7 +65,7 @@ ms.locfileid: "49819293"
   
 1. 使用指派到 CsPersistentChatAdministrator、CsAdministrator 或 CsUserAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 從 [ **開始** ] 功能表中，選取商務用 Skype Server 控制台或開啟瀏覽器視窗，然後輸入管理 URL。
+2. 從 [**開始**] 功能表中，選取 [商務用 Skype Server 控制台] 或開啟瀏覽器視窗，然後輸入管理 URL。
     
 3. 在左導覽列中，按一下 [常設聊天室]，然後按一下 [常設聊天室原則]。
     
@@ -85,13 +85,13 @@ ms.locfileid: "49819293"
     
 ## <a name="to-create-a-user-policy-for-persistent-chat"></a>若要建立持久聊天的使用者原則
 
-在商務用 Skype Server 控制台中，您可以定義可指派 **給使用者使用者** 的使用者原則。
+在 [商務用 Skype Server 控制台] 中，您可以定義可指派給使用者使用者的使用者 **原則。**
   
 使用者原則會覆寫全域與網站原則，但僅限於指派?特定使用者的使用者原則。
   
 1. 使用指派到 CsPersistentChatAdministrator、CsAdministrator 或 CsUserAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 從 [ **開始** ] 功能表中，選取商務用 Skype Server 控制台或開啟瀏覽器視窗，然後輸入管理 URL。
+2. 從 [**開始**] 功能表中，選取 [商務用 Skype Server 控制台] 或開啟瀏覽器視窗，然後輸入管理 URL。
     
 3. 在左導覽列中，按一下 [常設聊天室]，然後按一下 [常設聊天室原則]。
     
@@ -115,7 +115,7 @@ ms.locfileid: "49819293"
   
 1. 使用指派到 CsPersistentChatAdministrator、CsAdministrator 或 CsUserAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 從 [ **開始** ] 功能表中，選取商務用 Skype Server 控制台或開啟瀏覽器視窗，然後輸入管理 URL。
+2. 從 [**開始**] 功能表中，選取 [商務用 Skype Server 控制台] 或開啟瀏覽器視窗，然後輸入管理 URL。
     
 3. 在左導覽列中，按一下 **[使用者]**，然後搜尋想要設定的使用者帳戶。
     

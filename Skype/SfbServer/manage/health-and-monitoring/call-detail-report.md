@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: 摘要：瞭解用在商務用 Skype Server 中的通話詳細資料包告。
-ms.openlocfilehash: 9b02722c8dd872b5703d6b459c2cd48568e39f94
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解商務用 Skype Server 中所用的通話詳細資料包告。
+ms.openlocfilehash: 42a0dd40bb32005fcae49464f5ebfc6570055f7078c22b6a8b5be6004793158b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826513"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336583"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>商務用 Skype Server 中的詳細通話報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中使用的詳細通話報告。
+**摘要：** 深入瞭解商務用 Skype Server 所用的通話詳細資料包告。
   
-[通話詳細資料包告] 提供個別通話的詳細資訊，請參閱報告中包含的所有經驗品質計量和商務用 Skype Server 收集的統計資料，劃分成報表區段，例如：
+[通話詳細資料包告] 提供個別通話的詳細資訊，請參閱報告中包含幾乎所有的經驗品質統計資料，以及商務用 Skype Server 所收集的統計資料，劃分成下列報告區段：
   
 - 通話資訊 
     
@@ -51,17 +51,17 @@ ms.locfileid: "49826513"
 
 您可從下列報告中存取 [通話詳細資料報告]：
   
-- [商務用 Skype 伺服器 (location-report.md 中的 [位置報告])  (按一下 [通話量] 或 [低通話百分比] 計量，) 
+- 您可以按一下 [通話量] 或 [不良通話百分比] 計量，商務用 Skype Server (location-report.md 中的 [位置報告])  () 
     
-- [商務用 Skype Server 中的媒體質量摘要報告] (summary.md)  (按一下 [通話量] 或 [不良通話百分比] 度量，) 
+- 商務用 Skype Server (summary.md 中的 [Media Quality Summary Report)  (，請按一下 [通話量] 或 [不良通話百分比] 度量值) 
     
-- 商務用 Skype server 中的 [媒體質量比較報告](comparison.md) (按一下 [ [商務用 skype 伺服器中的通話清單報告](call-list-report-0.md) ]，然後按一下 [詳細資料] 度量) 。
+- [商務用 Skype Server (中的媒體質量比較報表](comparison.md)，按一下[商務用 Skype Server 中的 [通話清單報告](call-list-report-0.md)]，然後按一下 [詳細資料度量) ]。
     
-- [商務用 Skype server (中的伺服器效能報告](server-performance.md)，請按一下 [通話量] 或 [不良通話百分比] 度量值) 
+- [商務用 Skype Server (中的伺服器效能報告](server-performance.md)，請按一下 [通話量] 或 [不良通話百分比] 計量，) 
     
-- [商務用 Skype Server (中的通話清單報告](call-list-report-0.md)，請按一下詳細資料度量) 
+- [商務用 Skype Server (中的通話清單報告](call-list-report-0.md)，請按一下 [詳細資料] 度量) 
     
-從 [通話詳細資料包告] 中，按一下下列其中一個計量，即可存取 [商務用 Skype Server 中的裝置報告](device-report.md) ：
+從 [通話詳細資料包告] 中，您可以按一下下列其中一個計量，[以在商務用 Skype Server 中存取裝置報告](device-report.md)：
   
 - 擷取裝置
     
@@ -81,7 +81,7 @@ ms.locfileid: "49826513"
 
 無。您無法篩選詳細通話報告。
   
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>度量
 
 下表列出每個通話的詳細通話報告。
   

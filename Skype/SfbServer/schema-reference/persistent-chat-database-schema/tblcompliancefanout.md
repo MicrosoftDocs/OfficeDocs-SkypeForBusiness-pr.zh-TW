@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f5d9f342-a7cb-4b54-baa6-e656256b75ad
 description: tblComplianceFanout 包含處理符合性事件的所有伺服器。
-ms.openlocfilehash: 75e232cd464a2199b490e555c0fab79ded119c94
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 81ee29e5b25080f841ab578214694f563c7cc6b14fe791b1c6b26dc5ea741859
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49809793"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351932"
 ---
 # <a name="tblcompliancefanout"></a>tblComplianceFanout
  
@@ -31,7 +31,7 @@ tblComplianceFanout 包含處理符合性事件的所有伺服器。
 |fanoutEventID  <br/> |int  <br/> |事件識別碼。  <br/> |
 |fanoutServerID  <br/> |int  <br/> |與 tblServerIdentity.serverID table) 相對應的伺服器身分識別 (。  <br/> |
    
-**Key**
+**機碼**
 
 |**欄**|**描述**|
 |:-----|:-----|

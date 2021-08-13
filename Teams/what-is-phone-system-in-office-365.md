@@ -22,12 +22,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 在本文中，您將瞭解 電話系統 和 Microsoft 365 Office 365。
-ms.openlocfilehash: a0b05c5e0f3fe0f684f160e75e62cec2f36fc86b
-ms.sourcegitcommit: 70f47cc2333e790c15c3f9f209302afdbb5a07d7
+ms.openlocfilehash: e7dd305596468edc224db0f4bff679a7233762e8261164b328c4674df660414d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53333087"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324772"
 ---
 # <a name="what-is-phone-system"></a>什麼是電話系統？
 
@@ -68,7 +68,7 @@ PBX Exchange (私人分支) 是公司中的電話系統。 電話系統 PBX 功�
 
 - **語音** 信箱 - 當您取得使用者電話系統授權時，該使用者可以取得來電者留下的語音信箱。 雲端語音信箱指派授權和電話號碼給使用者之後，系統會自動為使用者設定電話系統並設定。 請參閱[設定雲端語音信箱。](set-up-phone-system-voicemail.md)
 
-如要取得功能詳細資訊，請參閱[以下](here-s-what-you-get-with-phone-system.md)這些功能電話系統。 如果您準備好要開始使用，請參閱在電話系統[中設定帳戶](setting-up-your-phone-system.md)。
+有關功能詳細資訊，請參閱[以下](here-s-what-you-get-with-phone-system.md)這些功能電話系統。 如果您準備好要開始使用，請參閱在電話系統[中設定帳戶](setting-up-your-phone-system.md)。
 
 ## <a name="related-topics"></a>相關主題
 

@@ -25,16 +25,16 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是哥斯大黎加Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
-ms.openlocfilehash: 07b132d7d921d237e197e73e8d6d7e22bb666ad9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bfb23ad0b0d4b79ba13de1204f96f30b9450c3d5a425957dc9c44abedee8ba30
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118222"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336443"
 ---
 # <a name="availability-in-costa-rica"></a>在哥斯大黎加的可用性
 
-[尋找其他國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入瞭解音訊會議與通話方案的國家/地區可用性。音訊會議與通話方案。
+[尋找另一個國家/](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)地區，或深入瞭解音訊會議與通話方案的國家/地區可用性。音訊會議與通話方案。
 
 以下是哥斯大黎加Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
   

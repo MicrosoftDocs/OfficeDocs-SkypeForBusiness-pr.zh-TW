@@ -23,13 +23,13 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解撥打英國免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
-ms.openlocfilehash: 6e27a73724fc272ff2b870cf32d2b97fb2a2c156
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 瞭解撥打英國免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
+ms.openlocfilehash: 1dd248f015eecc17cd4fc5fad6b224ef2ce29ae4539841b6fc6b9c21d2fdb161
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116571"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324792"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-kingdom-uk"></a>英國和英國/地區免付費撥號 (限制) 
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 7d51493a-1b7a-43ad-b562-49e45f899796
 ROBOTS: NOINDEX, NOFOLLOW
 description: 指定您要在此集區中，新增為 Director 之每台電腦的完整網域名稱 (FQDN)。將電腦新增至清單後，您即可更新電腦的 FQDN 或在發行拓撲前，隨時將其從集區中移除。發行拓撲後，若要變更 FQDN，就必須在拓撲產生器中刪除伺服器，然後再用新的 FQDN 將新伺服器新增至集區。
-ms.openlocfilehash: 6b9f5e82c83d554257c059b8a8feed7363d9d0e8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9f76b7c22b4546a25b00350bca3fa8b6262130855a45e38fc8ddd03b129bb1e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49811863"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54335553"
 ---
 # <a name="add-director-machine"></a>新增 Director 電腦
  

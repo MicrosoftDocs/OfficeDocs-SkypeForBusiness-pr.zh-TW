@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 04510a827e9343010c756b14590e9800354c71e9
-ms.sourcegitcommit: f979c491af5210e6ceb1d1c00e000767f1a8311d
+ms.openlocfilehash: 972368de75f38ef1ad1d3f268bfa21526eda261658792b67ce8b0d51c3281b2e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "51623128"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324812"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>為您的使用者設定語音來電功能
 
@@ -39,7 +39,7 @@ ms.locfileid: "51623128"
 
 ### <a name="join-a-meeting-by-using-phone-for-audio"></a>使用電話進行音訊加入會議
 
-按一下 **[** 加入以加入會議電話 **選擇您的** 視音訊選項畫面上的音訊，然後按一下 [**立即加入**。 使用者可以在這裡進行會議通話並加入會議，或手動撥入會議。
+按一下 **[** 加入以加入會議電話 **選擇** 您的視音訊選項畫面上的音訊，然後按一下 [**立即加入**。 使用者可以在這裡進行會議通話並加入會議，或手動撥入會議。
 
 ![音訊選項電話螢幕擷取畫面](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
@@ -51,7 +51,7 @@ ms.locfileid: "51623128"
 
 **手動撥入**
 
-另一個加入的方式是直接撥入會議。 在 **[使用電話進行音訊** 播放的畫面上，按一下 [手動撥入以取得要撥入會議的電話號碼清單。
+另一個加入的方式是直接撥入會議。 在 **[使用電話進行音訊** 播放的畫面上，按一下 [手動撥入>，以取得要撥入會議的電話號碼清單。
 
 ![手動撥入選項的螢幕擷取畫面](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
 
@@ -63,13 +63,13 @@ ms.locfileid: "51623128"
 
 ![返回選項的螢幕擷取畫面](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
-使用者按一下 **呼叫我，** 這可顯示使用 **電話進行音訊** 畫面。 在這裡，他們可以輸入其電話號碼，並Teams會議通話，並加入會議，或手動撥入會議。
+使用者按一下 **滑鼠回電話**，這可顯示使用 **電話進行音訊** 畫面。 在這裡，他們可以輸入其電話號碼，並Teams會議通話，並加入會議，或手動撥入會議。
 
 ## <a name="set-up-the-call-me-feature"></a>設定呼叫我功能
 
 若要為貴組織的使用者啟用呼叫我功能，必須配置下列專案：
 
-- 貴組織中排程會議的使用者會啟用音訊會議 (會議) 。 若要深入瞭解，請參閱[在](set-up-audio-conferencing-in-teams.md)Teams 中為使用者設定音訊會議[Teams。](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+- 貴組織中排程會議的使用者， (會議) 。 若要深入瞭解，請參閱[在](set-up-audio-conferencing-in-teams.md)Teams 中為使用者設定音訊會議[Teams。](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 - 會議召集人可以從會議撥出。 若要深入瞭解，請參閱在 Teams 中[管理使用者的音訊會議Teams。](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 

@@ -16,25 +16,25 @@ ms.reviewer: mikedav
 description: 瞭解如何將附加Teams授權指派給使用者，以使用音訊會議、電話系統和通話方案等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b30df309412d159b878b4b57655787c9b4b292a8
-ms.sourcegitcommit: 5c68298474d1782e69bde8c0940be7150cb93f6e
+ms.openlocfilehash: 36b644f983bc24304ff35f8ada0f8628e3b99e56974a8e434345a2c9e2c3c26d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "53095577"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324782"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>指派Teams附加元件授權給使用者
 
 附加元件授權是特定功能Teams，例如音訊會議、電話系統和通話方案。 本文將說明如何將附加元件授權指派給個別使用者和大量大型使用者。
 
 > [!NOTE]
-> 請參閱[Teams附加元件授權](./microsoft-teams-add-on-licensing.md)Teams附加元件授權提供的功能。 您也可以根據您的方案) 找到您需要購買哪些授權以及如何購買授權的資訊 (以便使用者可以取得音訊會議、免付費號碼等功能，以及撥打組織外電話號碼的功能。 決定要為使用者提供哪些功能之後，請指派授權給他們。
+> 請參閱[Teams附加元件授權](./microsoft-teams-add-on-licensing.md)Teams附加元件授權提供的功能。 您也可以根據您的方案) 找到您需要購買哪些授權以及如何購買授權 (的資訊，讓使用者能夠取得音訊會議、免付費號碼等功能，以及撥打組織外部電話號碼的功能。 決定要為使用者提供哪些功能之後，請指派授權給他們。
 
 您可以使用應用程式或 PowerShell Microsoft 365 系統管理中心指派授權給貴組織的使用者。 您必須是全域系統管理員或使用者管理系統管理員，才能管理授權。
 
 ## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>指派授權、通話方案電話系統通訊信用額度授權之前，您需要知道什麼
 
-在您開始使用之前，請先檢查下列需求：
+在您開始使用之前，請審查下列需求：
 
 - 如果您是使用內部部署公用交換電話網絡 (PSTN) 混合式使用者，則只需要指派電話系統授權。 請勿指派通話方案授權。
 
@@ -44,11 +44,11 @@ ms.locfileid: "53095577"
 
 - 即使您的使用者被指派Enterprise E5 授權，如果您想要撥打或接聽 PSTN[](../what-are-communications-credits.md)的通話，您仍然需要指派通訊信用額度授權給他們。
 
-- 將通話方案或通訊信用額度授權指派給使用者之後，您必須取得貴組織的電話號碼，然後將這些號碼指派給使用者。 有關逐步指示，請參閱設定 [通話方案](../set-up-calling-plans.md)。
+- 將通話方案或通訊信用額度授權指派給使用者之後，您必須取得貴組織的電話號碼，然後將這些號碼指派給使用者。 有關逐步指示，請參閱 [設定通話方案](../set-up-calling-plans.md)。
 
 ## <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365 系統管理中心
 
-使用 Microsoft 365 系統管理中心，一次指派授權給個別使用者或少數使用者。 您可以在授權頁面 (一次指派最多 20 個使用者) 或活動使用者頁面 (一次最多 40 個使用者指派授權) 。  您選擇的方法取決於您要管理特定使用者的產品授權，或管理特定產品的使用者授權。
+使用 Microsoft 365 系統管理中心，一次指派授權給個別使用者或少數使用者。 您一次在 (授權頁面為最多 20 個使用者指派授權) 或在活動使用者頁面 (一次指派最多 40 個使用者) 。 您選擇的方法取決於您要管理特定使用者的產品授權，或管理特定產品的使用者授權。
 
 有關逐步指示，請參閱指派 [授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
@@ -71,7 +71,7 @@ ms.locfileid: "53095577"
         ```
     3. 如果系統提示您安裝 NuGet，請輸入 **Y，** 然後按 Enter。
     4. 如果系統提示您從 PSGallery 安裝模組，請輸入 **Y，** 然後按 Enter。
-3. 在 Windows PowerShell命令提示字元中，執行下列腳本來指派授權給使用者，其中您的組織名稱和要指派之授權識別碼 \<CompanyName:License> 在哪裡。 例如，litwareinc：MCOMEETADV。
+3. 在 Windows PowerShell命令提示字元中，執行下列腳本來指派授權給使用者，您的組織名稱和要指派之授權識別碼在哪裡 \<CompanyName:License> 。 例如，litwareinc：MCOMEETADV。
 
     識別碼與授權好用的名稱不同。 例如，音訊會議識別碼為 MCOMEETADV。 若要深入瞭解，請參閱 [授權的產品名稱和 SKU 識別碼](#product-names-and-sku-identifiers-for-licensing)。
 
@@ -142,13 +142,13 @@ ms.locfileid: "53095577"
 | Microsoft Business Voice (加拿大) | BUSINESS_VOICE_MED  |
 | Microsoft Business Voice (英國)  | BUSINESS_VOICE  |
 | Microsoft Business Voice (美國)  | BUSINESS_VOICE_MED2  |
-| Microsoft Business Voice (通話方案)  | BUSINESS_VOICE_DIRECTROUTING  |
+| Microsoft Business Voice (沒有通話方案)  | BUSINESS_VOICE_DIRECTROUTING  |
 | Microsoft Business Voice (美國) 方案| BUSINESS_VOICE_DIRECTROUTING _MED |
 | 音訊會議 | MCOMEETADV | 
 | 使用音訊會議時， (按分鐘付費) </br>*需要設定並啟用通訊信用額度。* | MCOMEETACPEA |
 | 電話系統 | MCOEV |
 | 國內和國際通話方案 | MCOPSTN2 |
-| 美國/ (/CA 的國內通話方案為每個使用者/月 3000 分鐘，歐盟國家/地區為每個使用者/月 1200 分鐘)  | MCOPSTN1 |
+| 美國/ (/CA 的國內通話方案為每個使用者/月 3000 分鐘，歐盟國家/地區則為每個使用者/月 1200 分鐘)  | MCOPSTN1 |
 | 國內通話方案 (每個國家/地區/月 120 分鐘)  </br>*此方案不適用於美國。* | MCOPSTN5 |
 | 國內通話方案 (每個國家/地區/月 240 分鐘)  </br>*此方案不適用於美國。* | MCOPSTN6 |
 | 通訊點數 | MCOPSTNPP |
@@ -157,6 +157,6 @@ ms.locfileid: "53095577"
 
 - [Teams 附加元件授權](./microsoft-teams-add-on-licensing.md)
 - [管理使用者對 Teams 的存取權](../user-access.md)
-- [使用 PowerShell 查看授權和服務](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
+- [使用 PowerShell 來查看授權和服務](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [用於授權的產品名稱和服務方案識別碼](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
 - [教育用 SKU 參考](../sku-reference-edu.md)

@@ -11,20 +11,20 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: .
-ms.openlocfilehash: 547a71f44fa81f9ba12a1c661465c7b8604b3fa1
-ms.sourcegitcommit: 414d077b16a0ae4ea6a49e3b3d0082858174cacb
+ms.openlocfilehash: 55dd80e5c71dd52dacd82f3fb12e1141a8bff470000280b582eccde7581231b1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "50278673"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336663"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>在商務用 Skype Server 中容錯移轉和失敗回復集區
 
-請使用下列程式如果單一 Front-End 集區失敗且需要容錯移轉，或發生災難的集區回到線上，且您必須將部署還原為一般的工作狀態。 瞭解如何容錯移轉和容錯移轉回用於商務用 Skype 同盟或 XMPP 同盟的 Edge 集區，或是變更與 Front-End 集區相關聯的 Edge 集區。
+請使用下列程式如果單一 Front-End 集區失敗且需要容錯移轉，或發生災難的集區回到線上，且您必須將部署還原為一般的工作狀態。 瞭解如何容錯移轉和容錯移轉回用於商務用 Skype 同盟或 XMPP 同盟的 edge 集區，或是變更與 Front-End 集區相關聯的 edge 集區。
 
 - [容錯移轉前端集區](#fail-over-a-front-end-pool)
 - [容錯回復集區](#fail-back-a-pool)
-- [容錯移轉用於商務用 Skype 伺服器同盟的 Edge 集區](#fail-over-the-edge-pool-used-for-skype-for-business-server-federation)
+- [容錯移轉用於商務用 Skype Server 同盟的 Edge 集區](#fail-over-the-edge-pool-used-for-skype-for-business-server-federation)
 - [容錯移轉用於商務用 Skype Server 中用於 XMPP 同盟的 Edge 集區](#fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server)
 - [容錯回復用於商務用 Skype Server 同盟或 XMPP 同盟的 Edge 集區](#fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation)
 - [變更與前端集區相關聯的 Edge 集區](#change-the-edge-pool-associated-with-a-front-end-pool)
@@ -59,7 +59,7 @@ Datacenter1 包含 Pool1，但 Pool1 失敗。 您會失敗轉移至 Pool2 （�
 
     此 Cmdlet 的結果會顯示目前主控中央管理伺服器的集區。 在此程式的其餘部分中，此集區稱為 CMS \_ 集區。
 
-2. 使用拓撲產生器來尋找在 CMS 集區上執行之商務用 Skype Server 的版本 \_ 。 若執行商務用 Skype Server，請使用下列 Cmdlet 來尋找集區1的備份組區。
+2. 使用拓撲產生器來尋找 CMS 集區上執行的商務用 Skype Server 版本 \_ 。 若執行商務用 Skype Server，請使用下列 Cmdlet 來尋找集區1的備份組區。
 
         Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
 
@@ -71,9 +71,9 @@ Datacenter1 包含 Pool1，但 Pool1 失敗。 您會失敗轉移至 Pool2 （�
 
     此 Cmdlet 應該會顯示 ActiveMasterFQDN 和 ActiveFileTransferAgents 都指向 CMS 集區的 FQDN \_ 。 如果它們是空的，則中央管理伺服器無法使用，而且您必須進行容錯移轉。
 
-4.  若中央管理存放區無法使用，或者中央管理存放區正在 Pool1 上執行 (也就是) 失敗的集區，則必須先容錯移轉中央管理伺服器，再進行集區容錯移轉。 如果您需要容錯移轉中央管理伺服器（位於執行商務用 Skype Server 的集區上），請使用此程式步驟5的指令程式。 如果您不需要透過中央管理伺服器進行容錯移轉，請跳至此程式的步驟7。
+4.  若中央管理存放區無法使用，或者中央管理存放區正在 Pool1 上執行 (也就是) 失敗的集區，則必須先容錯移轉中央管理伺服器，再進行集區容錯移轉。 如果您需要容錯移轉中央管理伺服器（位於執行商務用 Skype Server 的集區上），請使用此程式步驟5中的 Cmdlet。 如果您不需要透過中央管理伺服器進行容錯移轉，請跳至此程式的步驟7。
 
-5.  若要在執行商務用 Skype 伺服器的集區上容錯移轉中央管理存放區，請執行下列操作：
+5.  若要在執行商務用 Skype Server 的集區上容錯移轉中央管理存放區，請執行下列操作：
 
       - 首先，請輸入下列命令，檢查備份組區中的哪個 Back-End 伺服器 \_ 執行中央管理存放區的主體實例：
 
@@ -156,9 +156,9 @@ Datacenter1 包含 Pool1，但 Pool1 失敗。 您會失敗轉移至 Pool2 （�
 
 無需其他步驟。 如果您已對中央管理伺服器進行容錯移轉，您可以將它保留在 Pool2 中。
 
-## <a name="fail-over-the-edge-pool-used-for-skype-for-business-server-federation"></a>容錯移轉用於商務用 Skype 伺服器同盟的 Edge 集區 
+## <a name="fail-over-the-edge-pool-used-for-skype-for-business-server-federation"></a>容錯移轉用於商務用 Skype Server 同盟的 Edge 集區 
 
-如果您已設定商務用 Skype Server 同盟的 Edge 集區中斷，您必須將同盟變更為使用不同的 Edge 集區，同盟才能正常運作。
+如果您已設定商務用 Skype Server 同盟的 Edge 集區為低，您必須將同盟變更為使用不同的 Edge 集區，同盟才能正常運作。
 
 1.  在前端伺服器上，開啟 [拓撲產生器]。 展開 [ **edge** 集區]，然後在目前針對同盟設定的 edge Server 或 edge server 集區上按一下滑鼠右鍵。 選取 **[編輯內容]**。
 
@@ -170,9 +170,9 @@ Datacenter1 包含 Pool1，但 Pool1 失敗。 您會失敗轉移至 Pool2 （�
 
 5.  選取 [ **動作**]，選取 [ **拓撲**]，然後選取 [ **發佈**]。 當系統提示您 **發佈拓撲** 時，請選取 **[下一步]**。 當發佈完成時，選取 **[完成]**。
 
-6.  在 Edge server 上，開啟商務用 Skype 伺服器部署嚮導。 選取 [ **安裝或更新商務用 Skype Server 系統**]，然後選取 [ **安裝或移除商務用 skype server 元件**]。 選取 [ **再次執行**]。
+6.  在 Edge server 上，開啟 [商務用 Skype Server 部署] 嚮導。 選取 [**安裝或更新商務用 Skype Server 系統**]，然後選取 [**安裝] 或 [移除商務用 Skype Server 元件**]。 選取 [ **再次執行**]。
 
-7.  選取 [下一步]。 摘要畫面會隨著動作的執行顯示各個動作。 完成部署後，請選取 [ **View log** ] （查看）以查看可用的記錄檔。 選取 **[完成]** 以完成部署。
+7.  選取 **[下一步]**。 摘要畫面會隨著動作的執行顯示各個動作。 完成部署後，請選取 [ **View log** ] （查看）以查看可用的記錄檔。 選取 **[完成]** 以完成部署。
     
     如果包含失敗 Edge 集區的網站包含仍在執行的前端伺服器，則您必須更新這些 Front-End 集區上的 Web 會議服務和 A/V 會議服務，以在仍在執行的遠端網站中使用 Edge 集區。 
 
@@ -211,7 +211,7 @@ Datacenter1 包含 Pool1，但 Pool1 失敗。 您會失敗轉移至 Pool2 （�
 
 ## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>容錯回復用於商務用 Skype Server 同盟或 XMPP 同盟的 Edge 集區 
 
-在用來主控同盟的失敗 Edge 集區回到線上後，請使用此程式來回複商務用 Skype Server federation route 和/或 XMPP 同盟路由，以再次使用此還原的 Edge 集區。
+在用來主控同盟的失敗 Edge 集區回到線上後，請使用此程式來對商務用 Skype Server 同盟路由和/或 XMPP 同盟路由進行容錯回復，以再次使用此還原的 Edge 集區。
 
 1.  在現在可以使用的 Edge 集區上，啟動 Edge Services。
 
@@ -227,9 +227,9 @@ Datacenter1 包含 Pool1，但 Pool1 失敗。 您會失敗轉移至 Pool2 （�
     
       - 選取 [ **動作**]，選取 [ **拓撲**]，然後選取 [ **發佈**]。 當系統提示您 **發佈拓撲** 時，請選取 **[下一步]**。 當發佈完成時，選取 **[完成]**。
     
-      - 在 Edge server 上，開啟商務用 Skype 伺服器部署嚮導。 選取 [ **安裝或更新商務用 Skype 伺服器系統**]，然後選取 [ **安裝或移除商務用 skype server 元件**]。 選取 [ **再次執行**]。
+      - 在 Edge server 上，開啟 [商務用 Skype Server 部署] 嚮導。 選取 [**安裝或更新商務用 Skype Server 系統**]，然後選取 [**安裝] 或 [移除商務用 Skype Server 元件**]。 選取 [ **再次執行**]。
     
-      - 選取 [下一步]。 摘要畫面會隨著動作的執行顯示各個動作。 完成部署後，請選取 [ **View log** ] （查看）以查看可用的記錄檔。 選取 **[完成]** 以完成部署。
+      - 選取 **[下一步]**。 摘要畫面會隨著動作的執行顯示各個動作。 完成部署後，請選取 [ **View log** ] （查看）以查看可用的記錄檔。 選取 **[完成]** 以完成部署。
 
 3.  如果您想要容錯回復 XMPP 同盟路由以使用還原的 Edge Server，請執行下列操作：
     

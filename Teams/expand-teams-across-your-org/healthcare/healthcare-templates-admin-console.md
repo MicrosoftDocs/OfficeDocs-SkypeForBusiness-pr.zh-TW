@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: 在系統管理中心或 Microsoft Graph使用小組範本，提供預先定義的設定、頻道和應用程式範本，以快速且輕鬆地建立團隊。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f90ddfa9682c7000c4698977c51a39c9631ff9b1
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 050ddd4e9efabe3433257f0497081758767e1cfa38c16aa1102ff17554ce3391
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684350"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336253"
 ---
 # <a name="use-a-healthcare-team-templates"></a>使用醫療保健小組範本
 
@@ -67,7 +67,7 @@ Microsoft Teams管理員可以使用 Teams系統管理中心，使用小組範�
 
 ## <a name="use-the-team-templates-with-the-microsoft-graph"></a>使用小組範本與 Microsoft Graph
 
-開發人員可以使用 Microsoft Graph小組範本來建立團隊。 我們目前提供兩種第一方醫療保健範本，可用於各種情況。 若要深入瞭解一般小組範本，請參閱 [開始使用小組範本](../../get-started-with-teams-templates.md)。 有關小組範本和 Microsoft 範本Graph，請參閱MICROSOFT TEAMS API[概觀和](/graph/teams-concept-overview?view=graph-rest-1.0) [teamsTemplate 資源類型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
+開發人員可以使用 Microsoft Graph小組範本來建立團隊。 我們目前提供兩種第一方醫療保健範本，可用於各種情況。 若要深入瞭解一般小組範本，請參閱 [開始使用小組範本](../../get-started-with-teams-templates.md)。 此外，有關小組範本和 Microsoft 範本Graph，請參閱MICROSOFT TEAMS [API 概觀和](/graph/teams-concept-overview?view=graph-rest-1.0) [teamsTemplate 資源類型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
 
 ### <a name="ward-template"></a>Word 範本
 
