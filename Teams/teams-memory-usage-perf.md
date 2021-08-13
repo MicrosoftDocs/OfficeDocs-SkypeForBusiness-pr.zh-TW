@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: d3e694dcba73cd90b2faa131776210c5d3faf4d5
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 84a6b7fa894ead7d0504c768adc2eedc47b20f3b88efae88c9fd1fbdc9c7119f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587312"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296490"
 ---
 # <a name="how-microsoft-teams-uses-memory"></a>Microsoft Teams 如何使用記憶體
 
@@ -30,11 +30,11 @@ ms.locfileid: "53587312"
 
 ## <a name="how-teams-works"></a>如何Teams運作
 
-Teams電子版設計，可以加快開發速度，而且在不同作業系統 Teams、Mac 和 Linux (Windows 之間維持 Teams 版本之間的) 。 這個奇偶性是有可能的，因為電子Chromium在所有版本上維持類似的程式碼基礎。 此架構的另一個優點，是 Web 應用程式與桌上出版Teams記憶體使用量設定檔類似。 Web App 和桌上出版使用記憶體的方式與瀏覽器的使用方式類似。 有關電子的更多資訊，請流覽 [他們的網站](https://electronjs.org/)。
+Teams電子版設計，可以加快開發速度，而且在不同作業系統 Teams、Mac 和 Linux (Windows 之間維持 Teams 版本之間的) 。 這個奇偶性是有可能的，因為電子Chromium在所有版本之間維持相似的程式碼基礎。 此架構的另一個優點，是 Web 應用程式與桌上出版Teams記憶體使用量設定檔類似。 Web App 和桌上出版使用記憶體的方式與瀏覽器的使用方式類似。 有關電子的更多資訊，請流覽 [他們的網站](https://electronjs.org/)。
 
 請參閱[Chromium Chrome](https://www.chromium.org/developers/memory-usage-backgrounder)記憶體中的儲存體使用量和[主要](https://chromium.googlesource.com/chromium/src.git/+/master/docs/memory/key_concepts.md)概念，以瞭解更多資訊。
 
-下圖顯示 Windows 版 Teams 桌面應用程式與此範例中的 Teams Web 應用程式 (在 Google Chrome) 中的並排記憶體使用量。
+下圖顯示 Windows 版 Teams 桌面應用程式與此範例中的 Teams Web 應用程式 (在 Google Chrome) 中同時使用) 。
 
 ![Teams應用程式與 Web 應用程式的記憶體使用量](media/teams-memory-clientweb.png)
 
@@ -66,4 +66,4 @@ Teams電子版設計，可以加快開發速度，而且在不同作業系統 Te
 
 ![Teams管理員中的記憶體使用量視圖](media/teams-memory-high-mem-process-list.png)
 
-![Teams管理器中的記憶體使用量圖表](media/teams-memory-high-mem-process-list2.png)
+![Teams Manager 中的記憶體使用量圖表](media/teams-memory-high-mem-process-list2.png)

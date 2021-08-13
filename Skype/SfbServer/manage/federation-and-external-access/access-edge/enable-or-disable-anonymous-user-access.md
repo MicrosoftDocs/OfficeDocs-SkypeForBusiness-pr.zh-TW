@@ -14,13 +14,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 如何在商務用 Skype Server 中啟用和停用匿名使用者存取。
-ms.openlocfilehash: c06135c0678309c527ec4bda341c17de2d643ce4d6b947077a3a2d02d71dea55
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: ''
+ms.openlocfilehash: 5489eec7d94e1914fd4211927d65705fea08daae9770d4ed8bf3165ebe75e553
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848698"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297239"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>啟用或停用商務用 Skype Server 中的匿名使用者存取
 
@@ -56,13 +56,17 @@ ms.locfileid: "57848698"
 
 ## <a name="to-enable-anonymous-user-access"></a>啟用匿名使用者存取
 
-  - 若要啟用匿名使用者存取，請將 **AllowAnonymousUsers** 屬性的值設為 True ($True) ：<br/><br/>Set-CsAccessEdgeConfiguration-AllowAnonymousUsers $True
+  - 若要啟用匿名使用者存取，請將 **AllowAnonymousUsers** 屬性的值設為 True ($True) ：
+    
+        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
 ## <a name="to-disable-anonymous-user-access"></a>停用匿名使用者存取
 
-  - 若要停用匿名使用者存取，請將 **AllowAnonymousUsers** 屬性值設為 False ($False) ：<br/><br/>Set-CsAccessEdgeConfiguration-AllowAnonymousUsers $False
+  - 若要停用匿名使用者存取，請將 **AllowAnonymousUsers** 屬性值設為 False ($False) ：
+    
+        Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
 
 ## <a name="see-also"></a>另請參閱
 
-[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy)  
+[Set-CsClientPolicy](/powershell/module/skype/Set-CsClientPolicy?view=skype-ps)  

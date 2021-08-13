@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: 本節說明商務用 Skype Server 所使用的所有架構類別。
-ms.openlocfilehash: 6c4b5d12baf85a1e9f168940fc889f6f18063616
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9b7e22b6950728804986ea662659f04484834e0d65e6d9bd755c0138dc09e5e1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813553"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297070"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>商務用 Skype Server 中的架構類別和描述
  
@@ -28,7 +28,7 @@ ms.locfileid: "49813553"
 
 |**類別**|**描述**|**Comments**|
 |:-----|:-----|:-----|
-|Mail-Recipient  <br/> |Exchange 整合通訊 (UM) 電子郵件收件者。  <br/> |此輔助類別與 Exchange UM 共用。  <br/> |
+|Mail-Recipient  <br/> |Exchange整合通訊 (UM) 電子郵件收件者。  <br/> |此輔助類別與 Exchange UM 共用。  <br/> |
 |msRTCSIP ApplicationContacts  <br/> |此類別是多個應用程式連絡人的容器，本身不包含任何屬性。  <br/> |Microsoft Office 通訊伺服器 2007 R2 中的新功能。  <br/> |
 |msRTCSIP-ApplicationServer  <br/> |此類別包含一個項目，代表整合通訊應用程式服務 (UCAS) 的服務控制點。  <br/> |Office 通訊伺服器 2007 R2 中的新功能。  <br/> |
 |msRTCSIP ApplicationServerService  <br/> |此類別提供從特定集區到其應用程式服務的關聯。  <br/> |通訊伺服器 2007 R2 中的新功能。  <br/> |
@@ -37,20 +37,20 @@ ms.locfileid: "49813553"
 |msRTCSIP-ArchivingServer (過時的)  <br/> |此類別代表單一立即訊息封存伺服器。將電腦當做立即訊息封存伺服器 (例如，已安裝「立即訊息封存服務」的電腦) 啟動時，就會建立此類別的執行個體。  <br/> |在 Lync Server 2010 中已過時。  <br/> |
 |msRTCSIP Microsoft.rtc.management.writableconfig.settings.pstnconf.conferencedirectories  <br/> |此類別是多個會議目錄執行個體的容器，本身不包含任何屬性。  <br/> |通訊伺服器 2007 R2 中的新功能。  <br/> |
 |msRTCSIP ConferenceDirectory  <br/> |這個類別包含代表特定會議目錄設定的屬性。  <br/> |通訊伺服器 2007 R2 中的新功能。  <br/> |
-|msRTCSIP-ConnectionPoint  <br/> |一般服務控制點 (SCP) 將電腦指定為執行商務用 Skype 伺服器的伺服器。  <br/> |Lync 2010 中的新功能。  <br/> |
-|msRTCSIP DefaultCWABank  <br/> |此輔助類別包含商務用 Skype Web App 銀行的設定。  <br/> |通訊伺服器 2007 R2 中的新功能。  <br/> |
+|msRTCSIP-ConnectionPoint  <br/> |一般服務控制點 (SCP) 將電腦指定為執行商務用 Skype Server 的伺服器。  <br/> |Lync 2010 中的新功能。  <br/> |
+|msRTCSIP DefaultCWABank  <br/> |此輔助類別包含商務用 Skype Web 應用程式銀行的設定。  <br/> |通訊伺服器 2007 R2 中的新功能。  <br/> |
 |msRTCSIP-Domain  <br/> |此類別包含的屬性可定義 SIP 登錄器所設定的網域。  <br/> |-  <br/> |
 |msRTCSIP EdgeProxy  <br/> |此類別容器代表單一 Access Edge service。 由於 Access Edge service 是部署在周邊網路中，而且客戶通常不允許來自周邊網路的 Active Directory 網域服務存取，所以 Access Edge service 的實例不會加入內部網路的 Active Directory 網路。 因此 AD DS 中不會自動註冊存取 Proxy。 管理員必須手動設定 AD DS 中每個 Access Edge service 實例的存在。  <br/> |-  <br/> |
-|msRTCSIP EnterpriseMCUSettings  <br/> |msRTCSIP-MCU 的這個輔助類別包含代表會議伺服器設定的屬性。  <br/> |Microsoft Office 通訊伺服器2007的新增功能。  <br/> |
-|msRTCSIP EnterpriseMediationServerSettings  <br/> |msRTCSIP-MediationServer 的這個輔助類別包含代表中繼伺服器設定的屬性。  <br/> |Office 通訊伺服器2007的新增功能。  <br/> |
+|msRTCSIP EnterpriseMCUSettings  <br/> |msRTCSIP-MCU 的這個輔助類別包含代表會議伺服器設定的屬性。  <br/> |Microsoft Office 通訊伺服器2007中的新功能。  <br/> |
+|msRTCSIP EnterpriseMediationServerSettings  <br/> |msRTCSIP-MediationServer 的這個輔助類別包含代表中繼伺服器設定的屬性。  <br/> |Office 通訊伺服器2007中的新功能。  <br/> |
 |msRTCSIP EnterpriseServerSettings  <br/> |msRTCSIP-Server 的這個輔助類別包含代表 SIP 伺服器設定的屬性。  <br/> |-  <br/> |
 |msRTCSIP-同盟  <br/> |msRTCSIP-GlobalContainer 的這個輔助類別包含與同盟相關的所有設定。  <br/> |-  <br/> |
-|msRTCSIP-GlobalContainer  <br/> |此類別包含適用于商務用 Skype Server 部署的所有設定。  <br/> |-  <br/> |
+|msRTCSIP-GlobalContainer  <br/> |此類別包含所有在商務用 Skype Server 部署中套用的設定。  <br/> |-  <br/> |
 |msRTCSIP-GlobalUserPolicy (過時的)  <br/> |此類別代表單一 Office 通訊伺服器會議原則。  <br/> |在 Lync Server 2010 中已過時。  <br/> |
 |msRTCSIP GlobalTopologySetting  <br/> |本機全域拓撲設定物件。  <br/> |Lync Server 2010 的新增功能。  <br/> |
 |msRTCSIP GlobalTopologySettings  <br/> |用以存放全域拓撲設定物件的容器。  <br/> |Lync Server 2010 的新增功能。  <br/> |
 |msRTCSIP LocalNormalization  <br/> |此類別是代表一個位置正規化規則執行個體的容器。  <br/> |-  <br/> |
-|msRTCSIP LocationContactMapping  <br/> |此類別是由會議應答應用程式所建立，可保留用來依地區歸類會議電話號碼的屬性。  <br/> |通訊伺服器 2007 R2 中的新功能。  <br/> |
+|msRTCSIP LocationContactMapping  <br/> |此類別是由會議語音應答應用程式所建立，並保留用來依地區分類會議電話號碼的屬性。  <br/> |通訊伺服器 2007 R2 中的新功能。  <br/> |
 |msRTCSIP LocationContactMappings  <br/> |此類別是多個位置連絡人對應執行個體的容器，本身不包含任何屬性。  <br/> |通訊伺服器 2007 R2 中的新功能。  <br/> |
 |msRTCSIP Microsoft.rtc.management.writableconfig.policy.voice.locationprofile  <br/> |此類別是代表特定位置設定檔的容器。  <br/> |-  <br/> |
 |msRTCSIP-LocationProfiles (過時的)  <br/> |此類別是多個位置設定檔的容器，本身不包含任何屬性。  <br/> |在 Lync Server 2010 中已過時。  <br/> |
@@ -66,22 +66,22 @@ ms.locfileid: "49813553"
 |msRTCSIP-PhoneRoute (過時的)  <br/> |此類別是代表一個或一組閘道之最低成本路由執行個體的容器。這項資訊供所有 Enterprise Pool 或執行 Standard Edition 的伺服器，用於將傳出通話以最符合成本效益的方式路由到公用交換電話網路 (PSTN)。  <br/> |在 Lync Server 2010 中已過時。  <br/> |
 |msRTCSIP-PhoneRoutes (過時的)  <br/> |此類別是多個最低成本路由的容器，本身不包含任何屬性。  <br/> |在 Lync Server 2010 中已過時。  <br/> |
 |msRTCSIP-Policies (過時的)  <br/> |此類別包含多個 Lync Server policy 類別，本身沒有任何屬性。  <br/> |在 Lync Server 2010 中已過時。  <br/> |
-|msRTCSIP 集區  <br/> |此類別代表單一商務用 Skype 伺服器集區。  <br/> |-  <br/> |
-|msRTCSIP-Pools  <br/> |此類別包含多部商務用 Skype Server 集區，本身沒有任何屬性。  <br/> |-  <br/> |
+|msRTCSIP 集區  <br/> |此類別代表單一商務用 Skype Server 集區。  <br/> |-  <br/> |
+|msRTCSIP-Pools  <br/> |此類別包含多個商務用 Skype Server 集區，本身沒有任何屬性。  <br/> |-  <br/> |
 |msRTCSIP PoolService  <br/> |此類別代表集區的服務控制點連線點。位於集區內的使用者擁有自己的 msRTCSIP-PrimaryHomeServer 屬性，指向此類別的執行個體。  <br/> |-  <br/> |
 |msRTCSIP-目前狀態  <br/> |用以儲存全域顯示狀態設定的容器。  <br/> |-  <br/> |
 |msRTCSIP-註冊機構  <br/> |msRTCSIP-GlobalContainer 的這個輔助類別包含代表 SIP 登錄器伺服器所維護使用者設定的屬性。  <br/> |-  <br/> |
 |msRTCSIP-RouteUsage (過時的)  <br/> |此類別是代表電話路由使用方式執行個體的容器。電話路由使用方式類別由一個屬性欄位和一個描述欄位組成。屬性欄位定義使用方式類型，描述欄位則讓系統管理員能夠描述此屬性在電話路由中的使用方式。  <br/> |在 Lync Server 2010 中已過時。  <br/> |
 |msRTCSIP-RouteUsages (過時的)  <br/> |此類別包含 msRTCSIP-RouteUsage 類別的多個執行個體，本身沒有任何屬性。  <br/> |在 Lync Server 2010 中已過時。  <br/> |
 |msRTCSIP-搜尋  <br/> |msRTCSIP-GlobalContainer 的這個輔助類別，包含限制並控制搜尋結果範圍的屬性。  <br/> |-  <br/> |
-|msRTCSIP-Server  <br/> |此類別代表執行商務用 Skype 伺服器的單一伺服器。  <br/> |-  <br/> |
+|msRTCSIP-Server  <br/> |此類別代表執行商務用 Skype Server 的單一伺服器。  <br/> |-  <br/> |
 |msRTCSIP 服務  <br/> |此類別包含全域設定容器和 msRTCSIP-Domain 物件。  <br/> |-  <br/> |
 |msRTCSIP-TrustedMCU  <br/> |這個類別包含代表受信任會議伺服器相關設定的屬性。  <br/> |通訊伺服器2007的新增功能。  <br/> |
 |msRTCSIP TrustedMCUs  <br/> |此類別包含 msRTCSIP-TrustedMCU 類別的多個執行個體，本身沒有任何屬性。  <br/> |通訊伺服器2007的新增功能。  <br/> |
 |msRTCSIP TrustedProxies  <br/> |此類別包含多個 msRTCSIP-TrustedProxy 類別，本身不包含任何屬性。  <br/> |通訊伺服器2007的新增功能。  <br/> |
-|msRTCSIP-TrustedProxy  <br/> |此類別是代表執行 Proxy 伺服器之伺服器的容器。 每當在加入 AD DS 的電腦上啟動新的 Proxy 伺服器時，就會建立此類別的執行個體。  <br/> |通訊伺服器2007的新增功能。  <br/> |
+|msRTCSIP-TrustedProxy  <br/> |此類別是代表執行 Proxy 伺服器之伺服器的容器。每當在加入 AD DS 的電腦上啟動新的 Proxy 伺服器時，就會建立此類別的執行個體。  <br/> |通訊伺服器2007的新增功能。  <br/> |
 |msRTCSIP TrustedServer  <br/> |此類別包含代表受信任伺服器相關設定的屬性。  <br/> |-  <br/> |
-|msRTCSIP TrustedService  <br/> |此類別是代表受信任服務的容器，這類服務可使用「可全域路由傳送使用者代理程式 URI」(GRUU) 位址進行路由。 當啟用商務用 Skype Server 所信任的新伺服器時，就會建立此類別的實例。 這個受信任的伺服器必須加入 Active Directory 網域。  <br/> |通訊伺服器2007的新增功能。  <br/> |
+|msRTCSIP TrustedService  <br/> |此類別是代表受信任服務的容器，這類服務可使用「可全域路由傳送使用者代理程式 URI」(GRUU) 位址進行路由。 此類別的實例會在啟用商務用 Skype Server 所信任的新伺服器時建立。 這個受信任的伺服器必須加入 Active Directory 網域。  <br/> |通訊伺服器2007的新增功能。  <br/> |
 |msRTCSIP TrustedServices  <br/> |此類別是多部 GRUU 伺服器的容器，本身不包含任何屬性。  <br/> |通訊伺服器2007的新增功能。  <br/> |
 |msRTCSIP TrustedWebComponentsServer  <br/> |此類別包含代表受信任 Web 元件相關設定的屬性。  <br/> |通訊伺服器2007的新增功能。  <br/> |
 |msRTCSIP TrustedWebComponentsServers  <br/> |此類別包含 msRTCSIP-TrustedWebComponentServer 類別的多個執行個體，本身沒有任何屬性。  <br/> |通訊伺服器2007的新增功能。  <br/> |

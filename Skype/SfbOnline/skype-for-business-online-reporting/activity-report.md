@@ -20,25 +20,25 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BActivity
 description: '瞭解如何取得活動商務用 Skype、包含哪些內容，以及如何解譯資料。 '
-ms.openlocfilehash: 094d947088b1a1fea4a8585e09bdedfa6ffe2a2b
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 559e29abc72600df1a13e2cf8077796d505d726557370e406894fba8c00d6b6e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332095"
 ---
 # <a name="activity-report"></a>活動報告
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-報表 **儀表板** 會顯示您組織中所有Microsoft 365 Office 365活動概觀。 它可讓您深入瞭解個別的產品層級報告，以更細緻地深入瞭解每個產品內的活動。 例如，**您可以使用 商務用 Skype** 活動報告來查看使用者使用對等或有組織的會議會話，或是他們參與會議會話的量。 
+報表 **儀表板** 會顯示您組織中所有Microsoft 365 Office 365活動概觀。 它可讓您深入查看個別的產品層級報告，以進一步深入瞭解每個產品內的活動。 例如，**您可以使用 商務用 Skype** 活動報告來查看使用者使用對等或有組織的會議會話，或是他們參與會議會話的量。 
 
 如需深入瞭解 [，請查看報告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 概觀。
   
 此報告與其他報表商務用 Skype一起，提供您整個組織活動的詳細資訊。 當您調查、規劃及為貴組織做出其他商務決策時，這些詳細資料非常實用。
   
 > [!NOTE]
-> 當您以系統管理員商務用 Skype登入時，可以看到所有Microsoft 365報表。 
+> 當您以系統管理員在 商務用 Skype 登入時，可以看到所有Microsoft 365 系統管理中心。 
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>如何取得活動商務用 Skype報表
 
@@ -114,7 +114,7 @@ ms.locfileid: "52238309"
     
 - [商務用 Skype PSTN 使用方式報告](pstn-usage-report.md)您可以看見用於內/外通話的分鐘數，以及這些通話的成本。
 
-- [商務用 Skype PSTN 分鐘](pstn-minute-pools-report.md)數庫報表，您可以查看貴組織內當月所耗用分鐘數。
+- [商務用 Skype PSTN 分鐘](pstn-minute-pools-report.md)數庫報表，您可以查看組織內當月使用的分鐘數。
 
 - [商務用 Skype會話詳細資料包表](session-details-report.md)您可以查看個別使用者的通話體驗詳細資料。
 

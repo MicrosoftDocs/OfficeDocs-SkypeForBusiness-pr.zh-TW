@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7090aac3c5e7ff724a079e7f9d9ffe9d712cd447
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d15dabb0b81f86d41540eda7e580c588a0d921bad88eb5fa322fd2103b0cac61
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119092"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296460"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams遠端桌面服務中的
 
@@ -30,7 +30,7 @@ ms.locfileid: "51119092"
 
 ## <a name="what-is-rds"></a>什麼是 RDS？
 
-遠端桌面 (RDS) 是建立虛擬化解決方案，滿足每個客戶需求的首選平臺。 RDS 可讓您提供個別的虛擬化應用程式、提供安全的行動和遠端桌面存取，以及提供使用者從雲端執行其應用程式和桌面的能力。
+遠端桌面 (RDS) 是建立虛擬化解決方案以適合每個最終客戶需求的平臺。 RDS 可讓您提供個別的虛擬化應用程式、提供安全的行動和遠端桌面存取，以及提供使用者從雲端執行其應用程式和桌面的能力。
 
 RDS 提供部署彈性、成本效益和擴充性。 RDS 會透過各種部署選項提供，包括Windows Server 2016部署、Microsoft Azure部署方案，以及強大的合作夥伴解決方案陣列。
 視您的環境和喜好設定，您可以將會話型虛擬化的 RDS 解決方案設定為虛擬桌面基礎結構 (VDI) 
@@ -39,13 +39,13 @@ RDS 提供部署彈性、成本效益和擴充性。 RDS 會透過各種部署�
 
 ## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teams聊天和共同合作使用 RDS
 
-如果貴組織只想在 Teams 中使用聊天和共同Teams，您可以設定使用者層級政策，以在 Teams 中關閉通話和Teams。
+如果貴組織只想在 Teams 中使用聊天和共同Teams，您可以設定使用者層級策略，以在 Teams 中關閉通話和Teams。
 
 ### <a name="set-policies-to-turn-off-calling-and-meeting-functionality"></a>設定關閉通話和會議功能的政策
 
 您可以使用系統管理中心或 PowerShell Microsoft Teams設定策略。 可能需要幾個小時 (，) 策略變更才能傳播。 如果您沒立即看到給定帳戶的變更，請在幾個小時後再試一次。
 
-[**通話策略**](teams-calling-policy.md)：Teams包括內建的 DisallowCalling 通話政策，其中所有通話功能都已關閉。 將 DisallowCalling 政策指派給組織中在虛擬化環境中Teams使用者。
+[**通話策略**](teams-calling-policy.md)：Teams包括內建的 DisallowCalling 通話政策，其中所有通話功能都已關閉。 將 DisallowCalling 政策指派給組織中在虛擬化環境中Teams的所有使用者。
 
 [**會議政策**](meeting-policies-in-teams.md)：Teams包含內建的 AllOff 會議政策，其中會關閉所有會議功能。 將 AllOff 政策指派給組織中在虛擬化環境中Teams所有使用者。
 
@@ -66,7 +66,7 @@ RDS 提供部署彈性、成本效益和擴充性。 RDS 會透過各種部署�
 若要一次將原則指派給多位使用者：
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽中，移至 [使用者]，然後搜尋使用者或篩選檢視畫面，以顯示您想要的使用者。
-2. 在 [&#x2713;] (核取方塊) 欄中，選取使用者。 若要選取所有使用者，請選取&#x2713; (表格) 上方的核取方塊。
+2. 在 [&#x2713;] (核取方塊) 欄中，選取使用者。 若要選取所有使用者，請選取&#x2713; (表格) 的核取方塊。
 3. 選取 **編輯設定**，進行您想要的變更， **然後選取** Apply 。
 
 或者，您也可以執行下列步驟：

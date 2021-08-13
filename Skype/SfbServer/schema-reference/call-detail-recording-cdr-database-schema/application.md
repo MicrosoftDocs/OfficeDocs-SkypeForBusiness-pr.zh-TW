@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 中的應用程式表格2015
+title: 商務用 Skype Server 2015 中的應用程式表格
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 30938426-e2f9-4735-a7f4-59baf7a7d7e6
 description: 此表格會儲存與路由及連線有關之商務用 Skype Server 2015 內之各種處理常式的資訊。
-ms.openlocfilehash: 4f387ca5be7f376d5056b40050ce1c49218e02c5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2fc9eeeba91749495ea977db22c28c0db8b56ce08728023c57860f8b68275c72
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813503"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297060"
 ---
-# <a name="application-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 中的應用程式表格2015
+# <a name="application-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的應用程式表格
  
 此表格會儲存與路由及連線有關之商務用 Skype Server 2015 內之各種處理常式的資訊。
   

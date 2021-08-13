@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 摘要：瞭解商務用 Skype Server 中的診斷報告。
-ms.openlocfilehash: b7739214cf176336e47a5d2e11b36b52ea87eca7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ef930870e918cd11f2525914e6f5716d7d685bfec224480c1eb88b3a280e3fa3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095237"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297219"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>商務用 Skype Server 中的診斷報告
  
@@ -33,7 +33,7 @@ ms.locfileid: "51095237"
     
 ## <a name="accessing-the-diagnostic-report"></a>存取診斷報告
 
-您可以在 [商務用 Skype 伺服器] 或 [會議詳細資料] 報告中，按一下 [ [Peer-to-Peer 會話詳細資料](peer-to-peer-session-detail-report.md) ] 報告上的 [診斷報告] (詳細資料) 指標，即可存取診斷報告。
+您可以在商務用 Skype Server 或會議詳細資料包告的 [ [Peer-to-Peer 會話詳細資料](peer-to-peer-session-detail-report.md)] 報告中，按一下 [診斷報告] (詳細資料) 度量，即可存取診斷報告。
   
 ## <a name="filters"></a>篩選
 
@@ -45,7 +45,7 @@ ms.locfileid: "51095237"
   
 **診斷報告計量**
 
-|**Name**|**可以排序這個項目嗎？**|**描述**|
+|**名稱**|**可以排序這個項目嗎？**|**描述**|
 |:-----|:-----|:-----|
 |**報告時間** <br/> |否  <br/> |報告的記錄日期與時間。  <br/> |
 |**回應碼** <br/> |否  <br/> |會話失敗時傳送的 SIP 回應碼。  <br/> |

@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
-description: 在商務用 Skype Server Enterprise Voice 中部署 E9-1-1。 包含必要條件和部署程式檢查清單。
-ms.openlocfilehash: 8aed5b6462ecf9d5d9fecfb0ffdc5573ca4f2352
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在商務用 Skype Server 企業語音中部署 E9-1-1。 包含必要條件和部署程式檢查清單。
+ms.openlocfilehash: cc30316ed9bdf993df9b9bd06e2a271ec488c2ef7bea6f0cce6401cf98deb43d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49812523"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331895"
 ---
 # <a name="deploy-emergency-services-in-skype-for-business-server"></a>在商務用 Skype Server 中部署緊急服務
  
-在商務用 Skype Server Enterprise Voice 中部署 E9-1-1。 包含必要條件和部署程式檢查清單。
+在商務用 Skype Server 企業語音中部署 E9-1-1。 包含必要條件和部署程式檢查清單。
   
 增強型 9-1-1 (E9-1-1) 是緊急通知功能，可將通話方的電話號碼與市政或街道位址產生關聯。 使用這項資訊，公共安全勤務中心 (PSAP) 可以立即派遣緊急服務人員到需要幫助的來電者所在處。
   
-若要支援 E9-1-1，商務用 Skype 伺服器必須能夠正確地將位置與用戶端產生關聯，並確定此資訊是用來將緊急通話路由傳送至最近的 PSAP。
+若要支援 E9-1-1，商務用 Skype Server 必須能夠正確地將某個位置與用戶端產生關聯，並確定此資訊是用來將緊急通話路由傳送至最近的 PSAP。
   
 ## <a name="deployment-prerequisites-for-e9-1-1"></a>E9-1-1 的部署必要條件
 
-在您部署 E9-1-1 之前，您必須已部署商務用 Skype 伺服器內部伺服器，包括中央管理存放區、前端集區或 Standard Edition Server。 您也必須部署一或多部轉送伺服器（獨立或組合前端伺服器）。 此外，E9-1-1 部署需要 SIP 主幹給合格的 E9-1-1 服務提供者或緊急位置識別號碼 (ELIN) 閘道至您公用交換電話網路 (PSTN) 。
+在您部署 E9-1-1 之前，您必須已部署商務用 Skype Server 內部伺服器（包括中央管理存放區、前端集區或 Standard Edition 伺服器）。 您也必須部署一或多部轉送伺服器（獨立或組合前端伺服器）。 此外，E9-1-1 部署需要 SIP 主幹給合格的 E9-1-1 服務提供者或緊急位置識別號碼 (ELIN) 閘道至您公用交換電話網路 (PSTN) 。
   
 ## <a name="deployment-process"></a>部署程式
 

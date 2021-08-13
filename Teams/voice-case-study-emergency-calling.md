@@ -16,12 +16,12 @@ f1.keywords:
 description: Teams多國公司的語音案例研究：緊急電話
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69231adb4588039012cceec1063571ddc201c2bb
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 409293fd463b5cbc2792f6e6f485df6212fa6746f1ac445bd5ebd71aa01e87ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587472"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296410"
 ---
 # <a name="contoso-case-study-emergency-calling"></a>Contoso 案例研究：緊急電話
 
@@ -29,7 +29,7 @@ ms.locfileid: "53587472"
 
 在 Office 365，系統會自動啟用通話方案使用者進行緊急通話。 但只有美國的通話方案使用者可以使用動態位置路由緊急電話。 
 
-對於直接路由，Contoso 瞭解路由緊急電話時，可能需要其他組組，並可能還需要合作夥伴連接。 系統管理員必須為緊急位置識別號碼 (ELIN) 應用程式設定與緊急路由服務提供者 (ERSP)  () 或設定會話邊界控制器 (SBC) 的連接。
+對於直接路由，Contoso 瞭解路由緊急電話時，可能需要進行其他組組，並可能還需要合作夥伴連接。 系統管理員必須為緊急位置識別號碼 (ELIN) 應用程式設定與緊急路由服務提供者 (ERSP)  () ) 或設定會話邊界控制器 (SBC) 的連接。
 
 Contoso 在美國及美國以外地區設有辦公室：
 
@@ -50,7 +50,7 @@ Contoso 在美國及美國以外地區設有辦公室：
 
 ### <a name="calling-plan-user-in-the-united-states"></a>美國的通話方案使用者  
 
-當電話號碼需要與緊急位置相關聯時，有一些需求。 為了瞭解這些要求，Contoso 已審查 [通話方案考慮](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans)。 
+電話號碼需要與緊急位置相關聯時，有一些需求。 為了瞭解這些要求，Contoso 已審查 [通話方案考慮](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-calling-plans)。 
 
 根據這些需求，Contoso 決定在將號碼指派給美國使用者時，將位置與電話號碼關聯。
 
@@ -64,7 +64,7 @@ Contoso 在美國及美國以外地區設有辦公室：
 
 ### <a name="user-who-connects-to-phone-system-through-direct-routing"></a>透過直接路由電話系統使用者 
 
-為了針對此使用案例規劃緊急路由，Contoso 已審查 [直接路由的考慮](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing)。 由於直接路由使用者不會以與通話方案使用者相同的方式接收緊急電話，因此 Contoso 必須決定如何提供緊急電話。 直接路由可以連接到緊急路由服務提供者 (ERSP) 。 直接路由也可以有包含緊急位置識別號碼的 SBC (ELIN) 。   
+為了針對此使用案例規劃緊急路由，Contoso 已審查 [直接路由的考慮](what-are-emergency-locations-addresses-and-call-routing.md#considerations-for-direct-routing)。 由於直接路由使用者無法以與通話方案使用者相同的方式接收緊急電話，因此 Contoso 必須決定如何提供緊急電話。 直接路由可以連接到緊急路由服務提供者 (ERSP) 。 直接路由也可以有包含緊急位置識別號碼的 SBC (ELIN) 。   
 
 #### <a name="emergency-routing-service-provider-ersp-considerations"></a>緊急路由服務提供者 (ERSP) 考慮
 
@@ -79,7 +79,7 @@ Contoso 在美國及美國以外地區設有辦公室：
 
 如果 SBC ELIN 應用程式已整合至直接路由部署，則需要執行其他組組步驟，將緊急位址與電話號碼建立關聯。  
 
-Contoso 決定使用會話邊界控制器，其中包括 ELIN (緊急) 號碼。  
+Contoso 決定在 ELIN 應用程式中使用包含緊急位置識別碼 (會話) 控制器。  
 
 ## <a name="security-desk-notification"></a>安全電話台通知
 

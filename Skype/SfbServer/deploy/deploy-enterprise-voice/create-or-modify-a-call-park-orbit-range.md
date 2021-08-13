@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
-description: 在商務用 Skype Server Enterprise Voice 中建立或修改通話駐留軌道範圍表。
-ms.openlocfilehash: eab1c3e6e53eaa878546b5fe4a9684147a00c583
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在商務用 Skype Server 企業語音中建立或修改通話駐留軌道範圍表。
+ms.openlocfilehash: 135a04d5e36a7a0590bd1809f8119360d549071627716605f7f7e13994561dbe
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51106319"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332005"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>在商務用 Skype 中建立或修改通話駐留軌道範圍
 
-在商務用 Skype Server Enterprise Voice 中建立或修改通話駐留軌道範圍表。
+在商務用 Skype Server 企業語音中建立或修改通話駐留軌道範圍表。
 
-通話駐留使用軌道進行停車通話。 您必須先設定通話駐留軌道表格，使用者才能駐留及取回通話。 您必須指定您的組織將保留用於停車通話的分機號碼範圍 (的軌道式) ，並指定處理每個範圍的通話駐留集區，以定義這些範圍的路由。 當您定義軌道範圍時，目標是具有足夠的軌道，因此，任何一個軌道都不會很快地重複使用，但卻不是這麼多的軌道來限制使用者或其他服務可使用的延伸數目。 您可以針對部署通話駐留應用程式的每個商務用 Skype 伺服器集區，建立多個通話駐留軌道範圍。 每個通話駐留軌道範圍必須具有全域唯一名稱和一組唯一的延伸。
+通話駐留使用軌道進行停車通話。 您必須先設定通話駐留軌道表格，使用者才能駐留及取回通話。 您必須指定您的組織將保留用於停車通話的分機號碼範圍 (的軌道式) ，並指定處理每個範圍的通話駐留集區，以定義這些範圍的路由。 當您定義軌道範圍時，目標是具有足夠的軌道，因此，任何一個軌道都不會很快地重複使用，但卻不是這麼多的軌道來限制使用者或其他服務可使用的延伸數目。 您可以針對部署通話駐留應用程式的每個商務用 Skype Server 集區，建立多個通話駐留軌道範圍。 每個通話駐留軌道範圍必須具有全域唯一名稱和一組唯一的延伸。
 
 > [!IMPORTANT]
 > 軌道範圍通常會包含100或更少的軌道。 每個範圍都可以大量增加，只要小於每個範圍的10000軌道的最大值，且每個集區的每個集數目小於50000的軌道。 如果範圍太小，則軌道的重複使用速度變快。
@@ -39,11 +39,11 @@ ms.locfileid: "51106319"
 
 使用下列其中一個程序來建立或修改通話駐留軌道範圍。
 
-### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>使用商務用 Skype Server 控制台建立或修改駐留通話的號碼範圍
+### <a name="to-use-skype-for-business-server-control-panel-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>若要使用商務用 Skype Server 控制台建立或修改駐留通話的號碼範圍
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱＜**Delegate Setup Permissions**＞。
 
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。
 
 3. 在左導覽列中，依序按一下 **[語音功能]**、**[通話駐留]**。
 
@@ -76,11 +76,11 @@ ms.locfileid: "51106319"
 
 ### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-range-of-numbers-for-parking-calls"></a>若要使用商務用 Skype Server 管理命令介面來建立或修改駐留通話的號碼範圍
 
-1. 登入安裝商務用 Skype Server 管理命令介面的電腦，並將其安裝為 RTCUniversalServerAdmins 群組的成員，或使用 **委派安裝許可權** 中所述的必要使用者權限。
+1. 以 **委派安裝許可權** 中所述，以 RTCUniversalServerAdmins 群組成員的身分或必要使用者權限的方式，登入安裝商務用 Skype Server 管理命令介面的電腦。
 
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
 
-3. 使用 **New-CsCallParkOrbit** 來建立新的軌道號碼範圍。 使用 **Set-CsCallParkOrbit** 來修改現有的軌道號碼範圍。
+3. 使用 **New-CsCallParkOrbit** 來建立新的軌道號碼範圍。使用 **Set-CsCallParkOrbit** 來修改現有的軌道號碼範圍。
 
     在命令列中執行：
 

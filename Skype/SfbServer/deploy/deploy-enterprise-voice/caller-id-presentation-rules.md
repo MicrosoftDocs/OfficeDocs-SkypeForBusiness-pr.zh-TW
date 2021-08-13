@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中建立或修改呼叫者識別碼簡報的轉譯規則
+title: 在商務用 Skype Server 中建立或修改來電者識別碼簡報的轉譯規則
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
-description: 摘要：瞭解如何使用商務用 Skype Server [控制台] 設定來電者識別碼。
-ms.openlocfilehash: 2ffe547927c9f4d6df16a06cc8c95dff9814fc7f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：瞭解如何使用商務用 Skype Server 控制台設定來電者識別碼。
+ms.openlocfilehash: 039fe9181bad8edbb587a1b3739679137cf0cb8e98d9ce79859ae7a5e73a4e0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113029"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332025"
 ---
-# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改呼叫者識別碼簡報的轉譯規則
+# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改來電者識別碼簡報的轉譯規則
 
-**摘要：** 瞭解如何使用商務用 Skype Server [控制台] 設定來電者識別碼。
+**摘要：** 瞭解如何使用商務用 Skype Server 控制台設定來電者識別碼。
 
-在商務用 Skype Server 中，被叫方的電話號碼 (也就是說，稱為) 的電話號碼可以從 e.164 格式轉譯成  _主幹對等_ (（即相關聯的閘道、專用交換機 (PBX) 或 SIP 主幹) ）所需的本機撥號格式。 若要執行此項作業，您必須定義一或多個轉譯規則，以在將其路由傳送至主幹對等之前轉譯要求 URI。
+在商務用 Skype Server 中，被叫方的電話號碼 (也就是說，稱為) 的電話號碼可以從 e.164 格式轉譯成 _主幹對等_ (所需的本機撥號格式，也就是關聯的閘道、專用分支 exchange (PBX) 或 SIP 主幹) 。 若要執行此項作業，您必須定義一或多個轉譯規則，以在將其路由傳送至主幹對等之前轉譯要求 URI。
 
-商務用 Skype 伺服器也可讓您選擇翻譯通話方的電話號碼 (也就是說，來電者撥打的電話號碼會從) （e.164 格式）為主幹對等項所需的本機撥號格式。 例如，您可撰寫轉譯規則，來將撥號字串開頭的 +44 移除，並以 0144 來取代。
+商務用 Skype Server 也可讓您選擇是否要將呼叫者的電話號碼轉譯 (也就是呼叫者撥打的電話號碼，) 從 e.164 格式到主幹對等項所需的本機撥號格式。 例如，您可撰寫轉譯規則，來將撥號字串開頭的 +44 移除，並以 0144 來取代。
 
 ### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台設定來電者識別碼
 
-1. 開啟商務用 Skype Server 控制台。
+1. 開啟商務用 Skype Server 控制台]。
 
 2. 在左導覽列中，按一下 **[語音路由]**，然後按一下 **[主幹組態]**。
 
@@ -41,13 +41,13 @@ ms.locfileid: "51113029"
 
 4. 若要設定來電者 ID 呈現方式：
 
-   - 若要從 Enterprise Voice 部署中所有可用轉譯規則的清單中選擇一個或多個規則，請按一下 [ **選取**]。 在 **[來電號碼轉譯規則]** 中，按一下您想要與主幹建立關聯的規則，然後按一下 **[確定]**。
+   - 若要從企業語音部署中可用之所有轉譯規則的清單中選擇一個或多個規則，請按一下 [**選取**]。 在 **[來電號碼轉譯規則]** 中，按一下您想要與主幹建立關聯的規則，然後按一下 **[確定]**。
 
    - 若要定義新的轉譯規則並將其與主幹建立關聯，請按一下 **[新增]**。 如需定義新規則的詳細資訊，請參閱部署檔中的  [定義轉譯規則](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules) 。
 
-   - 若要編輯已與主幹建立關聯的轉譯規則，按一下規則名稱，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱部署文件中的[Defining Translation Rules](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)。
+   - 若要編輯已與主幹建立關聯的轉譯規則，按一下規則名稱，然後按一下 **[顯示詳細資料]**。如需詳細資訊，請參閱部署文件中的 [Defining Translation Rules](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)。
 
-   - 若要複製現有轉譯規則，以用來作為定義新規則時的起點，請按一下規則名稱，再按一下 **[複製]**，然後按一下 **[貼上]**。 如需詳細資訊，＜[Defining Translation Rules](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)＞。
+   - 若要複製現有轉譯規則，以用來作為定義新規則時的起點，請按一下規則名稱，再按一下 **[複製]**，然後按一下 **[貼上]**。如需詳細資訊，＜[Defining Translation Rules](/previous-versions/office/lync-server-2013/lync-server-2013-defining-translation-rules)＞。
 
    - 若要從主幹移除轉譯規則，請反白顯示該規則名稱並按一下 **[移除]**。
 

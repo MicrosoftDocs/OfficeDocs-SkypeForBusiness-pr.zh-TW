@@ -18,16 +18,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17520645f23500550c6bc991c9d25ad2f72b2b6e
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: 87f1be3a538d708c62aef46dd673e7fd3ed5c1156c3e50c986fc9ec0753cad39
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299242"
 ---
 # <a name="help-for-low-bandwidth-situations-for-teams-for-edu"></a>協助解決 Teams 教育版的低頻寬情況。
 
-在使用 Microsoft Teams 時，有許多可能會影響效能的網路元素。 而低頻寬正是可能會讓您覺得完全失控的其中一種情況。 請考慮下列狀況：
+使用 Microsoft Teams 時，有許多網路元素可能會影響效能，低頻寬正是可能會讓您覺得完全失控的其中一種情況: 
 
 - 學校的低速網際網路連線。
 - 一或多個學生的低速網際網路連線。
@@ -42,7 +42,7 @@ ms.locfileid: "51598422"
 
 ## <a name="resolving-low-bandwidth-issues-for-admins"></a>為 IT 系統管理員解決低頻寬問題
 
-身為 IT 系統管理員，請務必記得，儘管您擁有廣泛解決的低頻寬問題的解決方案，可以迅速解決問題，但應仔細考慮解決方案。 在老師甚至學生/家長層面上，可能可以更集中地解決某些問題。
+請務必牢記，身為 IT 系統管理員，雖然您有很多能迅速解決此廣泛出現的低頻寬問題的解決方案，但使用前請先仔細思考，因為有些問題或許以教育者或甚至學生/家長層級採用的更小焦點就能夠解決。
 
 簡言之，如果是眾多學生遇到低頻寬問題，那麼以 IT 系統管理員的角色來採取行動便很合理，同樣地，如果在學生/老師層級採取行動沒有用，則以 IT 系統管理員的角色來採取行動也很合理。
 
@@ -51,7 +51,7 @@ ms.locfileid: "51598422"
 
 ### <a name="meetings-and-video"></a>會議與視訊
 
-低頻寬問題的主要焦點在會議，尤其是會議中進行的視訊。 在處理學生或老師報告的，有關在教育環境中獲得最佳會議體驗的問題時，IT 系統管理員應考慮以下動作。
+低頻寬問題的主要焦點是會議; 特別是會議中的視訊。IT 系統管理員在處理學生或教育者所報告有關在教育環境中獲得最佳會議體驗的問題時，應考慮下列動作。
 
 #### <a name="meeting-policies"></a>會議原則
 
@@ -91,6 +91,6 @@ ms.locfileid: "51598422"
 
 也有一些情況是您應該主動與老師討論的，因為頻寬問題可能是出在學生這邊 (例如，大量學生能夠正常觀看影片課程，但少數學生卻會發生問題)。
 
-預期許多家長能夠疑難排解這些問題並不合理。 低頻寬問題可能不是學生或家長能夠控制的 (其住家可能無法存取高頻寬、其附近可能有很多人使用頻寬而影響其可以採取的行動、網際網路可能不穩定等等)。
+希望許多家長有能力排解這些問題並不合理，而且低頻寬問題可能不是學生或家長能夠控制的 (其住家可能沒有高頻寬、其附近可能有很多人使用頻寬而影響其可以採取的行動、網際網路可能不穩定等等)。
 
 我們也將家長和學生的指導方針一起放在[在低頻寬時使用 Teams 來完成學校作業](https://support.office.com/article/use-teams-for-schoolwork-when-bandwidth-is-low-5c5675f7-1b55-471a-9daa-ec1e6df38262)一文內供您檢閱，如果遇到任何問題，則可以嘗試這些建議。

@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
-description: 在商務用 Skype Server 中建立或修改頻寬原則，以供 Enterprise Voice 通話許可控制使用。
-ms.openlocfilehash: 9458c5576d2c89254c4ee6477ede33c010cb4a21
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 建立或修改商務用 Skype Server 中企業語音通話許可控制所使用的頻寬原則。
+ms.openlocfilehash: 9a0cbbb4f398872504eea38bda7a3a4e79a62ac00331946b73a62bbf9c57a2df
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332035"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>在商務用 Skype Server 中建立頻寬原則設定檔 
  
-在商務用 Skype Server 中建立或修改頻寬原則，以供 Enterprise Voice 通話許可控制使用。 
+建立或修改商務用 Skype Server 中企業語音通話許可控制所使用的頻寬原則。 
   
 頻寬原則定義即時音訊和影片形式的頻寬使用量限制。 頻寬原則會套用至 tobandwidth 原則設定檔，可套用至多個網站以取得通話許可控制。
   
-如需您在 CAC 部署中應該設定什麼頻寬限制的指導方針，請參閱 [在商務用 Skype Server 中規劃通話許可控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
+如需您在 CAC 部署中應該設定什麼頻寬限制的指導方針，請參閱[商務用 Skype Server 中的計畫通話許可控制](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md)。
   
 下列程式中建立的範例原則，會設定整體音訊流量、個別音訊會話、整體影片流量和個別影片的限制。 例如，5Mb_Link 頻寬原則設定檔會設定下列限制： 
   
@@ -46,7 +46,7 @@ ms.locfileid: "51093241"
   
 ### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面建立頻寬原則設定檔
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 2. 針對您要建立的每個頻寬原則設定檔，執行 New-CsNetworkBandwidthPolicyProfile Cmdlet。 例如，執行：
     
@@ -68,7 +68,7 @@ ms.locfileid: "51093241"
 
 ### <a name="to-create-bandwidth-policy-profiles-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台建立頻寬原則設定檔
 
-1. 開啟商務用 Skype Server 控制台。
+1. 開啟商務用 Skype Server 控制台]。
     
 2. 在左導覽列中，按一下 **[網路組態]**。
     

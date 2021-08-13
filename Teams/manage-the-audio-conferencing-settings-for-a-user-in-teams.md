@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 系統管理員Microsoft 365或Office 365編輯 Teams 音訊會議設定，包括提供者、預設付費或免付費號碼、會議 ID 或使用者的 PIN。
-ms.openlocfilehash: 80f8627efddae70388c17ed7585c74f6b4d97cc3
-ms.sourcegitcommit: 57fddb045f4a9df14cc421b1f6a228df91f334de
+ms.openlocfilehash: 859e0c1751ca8573fafcece386ae17439166eeb048ff136257f004136254094d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "49031659"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343986"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-microsoft-teams"></a>管理使用者的音訊會議設定Microsoft Teams
 
@@ -46,10 +46,10 @@ ms.locfileid: "49031659"
 |:-----|:-----|
 |**音訊會議**|若要為使用者開啟或關閉音訊會議，請按一下 [音訊會議>旁的 [編輯>，然後在[音訊會議> 窗格中，切換 [音訊會議 **開啟** 或關閉>。|
 |**以電子郵件傳送會議資訊**  |只有在您想要立即傳送包含其會議 ID 和電話號碼的電子郵件給使用者時，才能按一下此連結。  (此電子郵件不包含 PIN。) 請參閱使用音訊會議資訊傳送 [電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md)。  |
-|**會議 ID**  |如果您需要 **重** 設使用者的會議 ID，請按一下 [重設會議 ID。 詳細資訊，請參閱重[設使用者的會議 ID。](reset-a-conference-id-for-a-user-in-teams.md)  |
-|**針** |如果您需要 **重** 設使用者的 PIN，請按一下 [重設 PIN 碼。 詳細資訊，請參閱重設[音訊會議 PIN。](reset-the-audio-conferencing-pin-in-teams.md) |
+|**會議 ID**  |如果您需要 **重** 設使用者的會議 ID，請按一下 [重設會議 ID。 詳細資訊，請參閱[重設使用者的會議 ID。](reset-a-conference-id-for-a-user-in-teams.md)  |
+|**針** |如果您需要 **重** 設使用者的 PIN，請按一下 [重設 PIN。 詳細資訊，請參閱重設[音訊會議 PIN。](reset-the-audio-conferencing-pin-in-teams.md) |
 |**預設會議付費電話號碼 (** 電話號碼)  |這些號碼會設定在音訊會議橋接器上。 將數位格式化為您想要顯示在會議商務用 Skype Microsoft Teams中。 若要變更預設的付費號碼，請按一下[音訊會議」 旁的 [編輯>，在 [音訊會議> 窗格中，選取 [付費號碼>**下的號碼**。 |
-|**此使用者的邀請可以包含免付費號碼**|若要變更此設定，請按一下[音訊會議」 旁的[編輯>，在[音訊會議> 窗格中，切換 [在此使用者的會議要求中加入免付費號碼開啟或關閉>。  |
+|**此使用者的邀請可以包含免付費號碼**|若要變更此設定，請按一下音訊會議旁邊的[編輯>，在[音訊會議>窗格中，切換 [在此使用者的會議要求中加入免付費號碼開啟或關閉。  |
 |**未經驗證的使用者可以是會議的第一人**|若要變更此設定，請切換未驗證的使用者 **可以是** 會議的第一個人開啟或關閉。
 |**撥出許可權**|若要變更此設定，請按一下 [音訊會議」 旁的[編輯>，在 [音訊會議> 窗格中，選擇 [從會議撥出 **> 下的選項**。 |
 

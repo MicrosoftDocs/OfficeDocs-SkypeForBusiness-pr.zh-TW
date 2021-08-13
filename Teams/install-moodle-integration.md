@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: ''
 search.appverid: MET150
-description: 瞭解如何在 LMS (中安裝及設定 Moodle) 學習管理系統Microsoft Teams。
+description: 瞭解如何在 LMS Learning中安裝及設定 Moodle Learning系統管理 () 應用程式Microsoft Teams。
 keywords: TeamsMoodle App 整合外掛程式
 localization_priority: Normal
 f1.keywords:
@@ -20,18 +20,18 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3d547d3c811f499faee5727634068a7807566293
-ms.sourcegitcommit: a731226d62d8b23fe73bd7bf61654e16367fbd90
+ms.openlocfilehash: fca7bc34eeaf0f7b2c6bd552038b9b2567c872351d91c264936ec9072957bc2b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "51948709"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344016"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>安裝 Moodle 與 Microsoft Teams
 
 > [!VIDEO https://www.youtube.com/embed/OHlPt22nKoE]
 
-[Moodle](https://moodle.org/)是 LMS (中最熱門的) ，現在已與 Microsoft Teams 整合！ 此整合可協助授課者和教師在 Moodle 課程中共同作業、詢問成績和作業相關問題，以及隨時更新通知 ，Teams！
+[Moodle](https://moodle.org/)是 LMS Learning中最熱門的 (管理系統) ，現在已與 Microsoft Teams 整合！ 此整合可協助授課者和教師在 Moodle 課程中共同作業、詢問成績和作業相關問題，以及隨時更新通知 ，Teams！
 
 為了協助 IT 系統管理員輕鬆設定此整合，我們已使用下列功能更新開放來源 Moodle 外掛程式：
 
@@ -39,7 +39,7 @@ ms.locfileid: "51948709"
 * 一鍵將 Moodle 小幫手 Bot 部署到 Azure。
 * 針對所有團隊自動提供團隊和自動同步處理團隊註冊，或選取 Moodle 課程。
 * 自動將 Moodle 定位停駐點和 Moodle 小幫手 Bot 自動安裝至每個同步的團隊。  (即將推出) 
-* 按一下即可將 Moodle 應用程式發佈到您的私人 Teams App Store。  (即將推出) 
+* 一鍵將 Moodle App 發佈至您的私人 Teams App Store。  (即將推出) 
 
 若要深入瞭解此整合提供的功能，請參閱安裝[Moodle](/microsoftteams/platform/resources/moodleinstructions)與 Microsoft Teams。
 
@@ -69,13 +69,13 @@ ms.locfileid: "51948709"
 
 **重要注意事項：** 在個別Microsoft 365中Office 365開啟您的新版或新版 Moodle 外掛程式設定頁面，因為您將在整個過程中回到這組頁面。
 
-*還沒有 Moodle 網站？* 您可能會想要查看 Azure 上的 Moodle，[](https://github.com/azure/moodle)您可以在 Azure 上快速部署 Moodle 實例，並根據您的需求進行自訂。
+*還沒有 Moodle 網站？* 您可能會想要查看 Azure 上的 [Moodle，](https://github.com/azure/moodle) 您可以在 Azure 上快速部署 Moodle 實例，並根據您的需求進行自訂。
 
 ## <a name="step-2-configure-the-connection-between-the-microsoft-365-or-office-365-plugin-and-azure-active-directory"></a>步驟 2：設定外掛程式或Microsoft 365 Office 365與Azure Active Directory
 
 > [!VIDEO https://www.youtube.com/embed/FpGEezaJ3SA]
 
-接下來，您需要將 Moodle 註冊為應用程式，Azure Active Directory。 我們已提供 PowerShell 腳本，可協助您完成此程式。 PowerShell Script 會為您的組織或組織Microsoft 365新的 Azure AD 應用程式Office 365 Moodle 外掛程式將會使用。 腳本會針對您的 Microsoft 365 租使用者Office 365應用程式，設定所配置應用程式的所有必要的回復 URL 和許可權，並退回 AppID 和 Key。 您可以在 Moodle 外掛程式設定頁面中使用產生的 AppID 和 Key，以 Azure AD 設定您的 Moodle 伺服器。 如果您想要查看 PowerShell 腳本自動化的詳細手動步驟，您可以在外掛程式的完整檔中 [找到這些步驟](https://docs.moodle.org/34/en/Office365#Register_your_Moodle_instance_as_an_Application)。
+接下來，您需要將 Moodle 註冊為應用程式，Azure Active Directory。 我們已提供 PowerShell 腳本，可協助您完成此程式。 PowerShell Script 會為您的組織或組織Microsoft 365新的 Azure AD Office 365應用程式，由 Moodle 外掛程式使用。 腳本會針對您的 Microsoft 365 或 Office 365 租使用者設定應用程式、設定所配置應用程式的所有必要的回復 URL 和許可權，並退回 AppID 和 Key。 您可以在 Moodle 外掛程式設定頁面中使用產生的 AppID 和 Key，以 Azure AD 設定您的 Moodle 伺服器。 如果您想要查看 PowerShell 腳本自動化的詳細手動步驟，您可以在外掛程式的完整檔中 [找到這些步驟](https://docs.moodle.org/34/en/Office365#Register_your_Moodle_instance_as_an_Application)。
 
 ### <a name="moodle-tab-for-microsoft-teams-information-flow"></a>用於資訊流程Microsoft Teams Moodle 定位停駐點
 
@@ -102,7 +102,7 @@ ms.locfileid: "51948709"
     * 在快顯視窗Microsoft 365或Office 365系統管理員帳戶登入。
     * 輸入 Azure AD 應用程式的名稱 (Ex。 Moodle/Moodle 外掛程式) 。
     * 輸入您的 Moodle 伺服器的 URL。
-    * 複製 **腳本產生的****應用程式** 識別碼和應用程式金鑰，然後儲存它們。
+    * 複製 **腳本產生的****應用程式** 識別碼和應用程式金鑰，然後儲存。
 1. 接下來，您需要在 Moodle 外掛程式中新增 Id 和 Key。 返回網站管理與 (外掛程式>管理> Microsoft 365頁面) 。
 1. 在 [**設定」** 選項卡上，新增您先前複製的應用程式 **識別碼** 和應用程式金鑰，然後按一下 [**儲存變更**。
 1. 頁面重新建立之後，您應該會看到新的一節選擇 **連接方法**。 按一下標示為 [預設值」 **的核取方塊** ，然後再按一下 **[儲存** 變更。
@@ -112,7 +112,7 @@ ms.locfileid: "51948709"
     * 在 URL **旁商務用 OneDrive** 按一下 [**偵測>** 按鈕。
     * 欄位填入後，再次按一下 [ **儲存變更** > 按鈕。
 1. 按一下 [ **更新>** 按鈕以驗證安裝，然後儲存 **變更**。
-1. 接下來，您需要在 Moodle 伺服器和伺服器之間同步Azure Active Directory。 視您的環境，您可以在此階段選取不同的選項。 請注意，您在這裡設定的配置會隨著每一個 Moodle cron 執行 (一天執行一次) 讓所有專案保持同步。若要開始使用：
+1. 接下來，您需要在 Moodle 伺服器和伺服器之間同步Azure Active Directory。 視您的環境，您可以在此階段選取不同的選項。 請注意，您在這裡設定的配置會隨著每一個 Moodle cron 執行， (一天執行一次) 讓所有專案保持同步。若要開始使用：
     * 切換到同步 **設定選項卡**
     * 在與 **Azure AD 同步** 處理使用者區段，選取適用于您環境的核取方塊。 一般來說，您至少會選取：
         * 在 Azure AD 中為使用者在 Moodle 中建立帳戶
@@ -121,11 +121,11 @@ ms.locfileid: "51948709"
     * 使用者 **欄位映射** 區段將允許您自訂 Azure AD 到 Moodle 使用者設定檔欄位的映射。
     * 在 Teams **同步** 處理區段，您可以選擇自動 (群組，Teams) 或所有現有 Moodle 課程的群組。
 1. 若要驗證 cron 工作 (如果您想要第一次執行，請手動執行) 請按一下 [同步處理使用者與 Azure  **AD>** 區段的 [排定的工作管理頁面> 連結。 這會將您帶至排 **程工作** 頁面。
-    * 向下卷起並尋找將使用者 **與 Azure AD 工作同步** 處理的工作，然後按一下 **[立即執行**> 。
+    * 向下卷起並尋找將使用者與 **Azure AD 工作同步** 處理的工作，然後按一下 **[立即執行**> 。
     * 如果您選擇根據現有的課程建立群組，您也可以在作業中執行建立 **Office 365** 群組。
 1. 返回外掛程式管理頁面 (管理>外掛程式> Microsoft 365整合) ，然後選取 **Teams 設定頁面**。 您需要設定一些安全性設定，才能啟用Teams整合。
     * 若要啟用 OpenID 連線，請按一下 [管理驗證> 連結，然後按一下 **OpenId** 連線上眼睛圖示 ，如果顯示為灰色。
-    * 接下來，您需要啟用框架內嵌。 按一下 **HTTP 安全性** 連結，然後按一下 [允許內嵌框架 **> 旁的核取方塊**。
+    * 接下來，您需要啟用框架內嵌。 按一下 **HTTP 安全性** 連結，然後按一下 [允許內嵌 **框架> 旁的核取方塊**。
     * 下一個步驟是啟用 Web 服務，以啟用 Moodle API 功能。 按一下 **[進一步功能** > 連結，然後確認已勾選 [啟用 Web 服務> **旁的** 核取方塊。
     * 最後，您必須啟用外部服務才能Microsoft 365 Office 365。 接著 **，按一下 [外部服務** 連結：
         * 按一下 **[Moodle** Office 365 **Webservices 列上的 [編輯**。
@@ -136,11 +136,11 @@ ms.locfileid: "51948709"
 
 > [!VIDEO https://www.youtube.com/embed/gbkJxf8FlfY]
 
-免費的 Moodle Assistant Bot Microsoft Teams協助教師和學生回答在 Moodle 中課程、作業、成績和其他資訊的問題。 Bot 也會在 Teams 內傳送 Moodle 通知給學生和Teams。 此 Bot 是由 Microsoft 維護的開放來源專案，可在[GitHub。](https://github.com/microsoft/Moodle-Teams-Bot)
+免費的 Moodle Assistant Bot Microsoft Teams協助教師和學生回答有關其課程、作業、成績及其他 Moodle 資訊的問題。 Bot 也會在 Teams 內傳送 Moodle 通知給學生和Teams。 此 Bot 是由 Microsoft 維護的開放來源專案，可在[GitHub。](https://github.com/microsoft/Moodle-Teams-Bot)
 
 > [!NOTE]
 > 在此區段，您將部署資源至 Azure 訂閱，而所有資源都會使用免費 **層級** 進行配置。 視您 Bot 的使用量，您可能需要縮放這些資源。
-> 如果您想要直接使用沒有 Bot 的 Moodle 定位停駐點，請跳至[步驟 4。](#step-4-deploy-your-microsoft-teams-app)
+> 如果您只想使用不含 Bot 的 Moodle Tab，請跳至 [步驟 4](#step-4-deploy-your-microsoft-teams-app)。
 
 ### <a name="moodle-bot-information-flow"></a>Moodle Bot 資訊流程
 
@@ -153,10 +153,10 @@ ms.locfileid: "51948709"
 1. 按一下 **Microsoft 應用程式註冊入口網站** 連結，然後使用 Microsoft Id 登入。
 1. 輸入應用程式的名稱，例如 (名稱。 MoodleBot) 並按一下 [ **建立>** 按鈕。
 1. 複製應用程式 **識別碼，** 並貼到小組頁面的 Bot 應用程式識別碼 **設定** 欄位。
-1. 按一下 [ **產生新密碼>** 按鈕。 複製產生的密碼，並貼到小組頁面的 Bot 應用程式密碼 **設定** 欄位中。
+1. 按一下 [ **產生新密碼>** 按鈕。 複製產生的密碼，並貼 **到小組頁面** 的 Bot 應用程式密碼 **設定** 欄位中。
 1. 卷起至表單底部，然後按一下 [ **儲存變更**。
 
-現在，您產生了應用程式識別碼和密碼，是時候將 Bot 部署到 Azure 了。 按一下 [部署至 **Azure>** 按鈕，並填寫表單中的必要資訊 (Bot 應用程式識別碼、Bot 應用程式密碼和 Moodle 機密位於小組 **設定** 頁面上，而 Azure 資訊位於 [設定) > 頁面上。 填寫好表單之後，請按一下核取方塊以同意條款與條件，然後按一下 [購買 (所有 Azure 資源都部署到免費層級) 。
+現在，您產生了應用程式識別碼和密碼，是時候將 Bot 部署到 Azure 了。 按一下 [部署到 **Azure>** 按鈕，然後填寫表單中的必要資訊 (Bot 應用程式識別碼、Bot 應用程式密碼和 Moodle 密碼位於小組 **設定** 頁面上，而 Azure 資訊位於 [設定) > 頁面上。  填寫好表單之後，請按一下核取方塊以同意條款與條件，然後按一下 [購買 (所有 Azure 資源都部署到免費層級) 。
 
 資源部署到 Azure 後，您必須設定具有其訊息端點的 Moodle 外掛程式。 首先，您必須從 Azure 中的 Bot 取得端點。 若要這麼做：
 
@@ -164,7 +164,7 @@ ms.locfileid: "51948709"
 2. 在左窗格中選取 **資源群組**。
 3. 從清單中選取您部署 Bot 時 (或) 的資源群組。
 4. 從群組中的資源清單中選取 **WebApp** Bot 資源。
-5. 從 **概觀區段** 複製訊息 **端點** 。
+5. 從概 **觀區段** 複製訊息 **端點** 。
 6. 在 Moodle 中，開啟您 **Moodle 外掛程式設定** 小組頁面。
 7. 在 **Bot 端點欄位中** 貼上您剛才複製的 URL，然後將郵件 *一* 詞變更為 *web上。* URL 現在應該看起來像 `https://botname.azurewebsites.net/api/webhook`
 8. 按一下 **[儲存變更**
@@ -174,9 +174,9 @@ ms.locfileid: "51948709"
 
 > [!VIDEO https://www.youtube.com/embed/2rMb7gtM_ZM]
 
-現在，您的 Bot 已部署至 Azure，且已配置為與 Moodle 伺服器進行交談，現在該是部署您的 Microsoft Teams 應用程式的時間。 若要這麼做，您將在上一個步驟的 設定 載入從 Moodle 外掛程式小組下載的清單檔案。
+現在，您的 Bot 已部署至 Azure，且已配置為與 Moodle 伺服器交談，現在該是部署您的 Microsoft Teams 應用程式。 若要這麼做，您將在上一個步驟的 設定載入您從 Moodle 外掛程式小組下載的清單檔案。
 
-安裝應用程式之前，您必須確認已啟用外部 App 和側載應用程式。 若要這麼做，您可以遵循[下列步驟。](./admin-settings.md) 一旦確定已啟用外部應用程式後，您可以遵循下列步驟來部署您的應用程式。
+安裝應用程式之前，您必須確認已啟用外部 App 和側載應用程式。 若要這麼做，您可以遵循[下列步驟。](./admin-settings.md) 一旦確定已啟用外部應用程式後，您可以遵循下列步驟來部署應用程式。
 
 1. 開啟Microsoft Teams。
 2. 按一下 **流覽** 欄左下角的 [市集」 圖示。

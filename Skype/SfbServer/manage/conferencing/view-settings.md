@@ -12,25 +12,25 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: 摘要：瞭解如何在商務用 Skype Server 中查看會議配置設定。
-ms.openlocfilehash: 81f5ef1bc0ce28c7741aa99529e7ba107ff4127f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6bca4edebe82cfee421ed3163006b6bbe272f41ea1da2b9a2a0aa020f503fc7f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096699"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54299480"
 ---
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中查看會議配置設定
  
 **摘要：** 瞭解如何在商務用 Skype Server 中查看會議配置設定。
   
-您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面來查看會議設定設定。
+您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面來查看會議配置設定。
   
 ## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台來查看會議設定設定
 <a name="BKMK_ViewJoinSettings"> </a>
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [ **會議**]，然後按一下 [ **會議** 設定]。
     
@@ -40,9 +40,9 @@ ms.locfileid: "51096699"
     
     **編輯會議設定- \<policy\>** 開啟顯示選取原則的設定。
     
-    如需設定設定的詳細資訊，請參閱 [在商務用 Skype Server 中建立會議配置設定](create-settings.md)。
+    如需設定設定的詳細資訊，請參閱[在商務用 Skype Server 中建立會議配置設定](create-settings.md)。
     
-## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來查看會議配置設定
+## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來查看會議設定設定
 <a name="BKMK_ViewJoinSettings"> </a>
 
 若要查看所有會議設定設定的相關資訊，請使用 **Get-CsMeetingConfiguration** Cmdlet：

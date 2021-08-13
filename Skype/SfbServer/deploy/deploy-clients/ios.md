@@ -1,5 +1,5 @@
 ---
-title: 安裝及測試 iOS 的商務用 Skype
+title: 針對 iOS 安裝及測試商務用 Skype
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,20 +12,20 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 摘要：如何安裝及測試 iOS 應用程式的商務用 Skype。
-ms.openlocfilehash: d05c95230d23e3b223fb79edb0bc88b9dcf944bd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 28f91bccd32421c2442bfedb12eb5181311ed0ed990ebf4f3174898ddefff610
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332015"
 ---
-# <a name="install-and-test-skype-for-business-for-ios"></a>安裝及測試 iOS 的商務用 Skype
+# <a name="install-and-test-skype-for-business-for-ios"></a>針對 iOS 安裝及測試商務用 Skype
  
-**摘要：** 如何在 iOS 應用程式中安裝及測試商務用 Skype。
+**摘要：** 如何安裝及測試 iOS 應用程式的商務用 Skype。
   
-IOS 應用程式的商務用 Skype 會將商務用 skype 狀態、立即訊息 (IM) 和語音和影片呼叫傳送到 iOS 裝置。 具有 Lync 2013 的使用者會自動取得更新的應用程式，或視使用者設定手動更新它。 新的使用者可以從 Apple 應用程式存放區下載。 IOS 應用程式的商務用 Skype 只適用于 iOS 版本8.0 和更新版本。
+iOS 應用程式的商務用 Skype 會為) 裝置供應商務用 Skype 顯示狀態、立即訊息 (IM iOS，以及語音和影片呼叫。 具有 Lync 2013 的使用者會自動取得更新的應用程式，或視使用者設定手動更新它。 新的使用者可以從 Apple 應用程式存放區下載。 iOS 應用程式的商務用 Skype 只適用于 iOS 版本8.0 和更新版本。
   
-## <a name="installing-skype-for-business-for-ios"></a>在 iOS 中安裝商務用 Skype
+## <a name="installing-skype-for-business-for-ios"></a>針對 iOS 安裝商務用 Skype
 
 1. 在您的 iOS 裝置中，按下 [ **App Store**]，然後搜尋 **iOS 的商務用 Skype**。
     
@@ -35,7 +35,7 @@ IOS 應用程式的商務用 Skype 會將商務用 skype 狀態、立即訊息 (
     
 ## <a name="verifying-mobile-client-installation"></a>驗證行動用戶端安裝
 
-成功登入後，請使用下列測試來確認您的 iOS 裝置上的商務用 Skype 安裝是否正常運作。 
+成功登入後，請使用下列測試來確認您的商務用 Skype 安裝在您的 iOS 裝置上可以正常運作。 
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>在公司目錄中搜尋連絡人
 
@@ -51,7 +51,7 @@ IOS 應用程式的商務用 Skype 會將商務用 skype 狀態、立即訊息 (
     
 ### <a name="test-dial-out-conferencing"></a>測試電話撥出式會議
 
-1. 在 Outlook 中排程商務用 Skype 會議。 
+1. 在 Outlook 中，排程商務用 Skype 會議。 
     
 2. 在行動裝置上，開啟會議邀請。 
     
@@ -61,7 +61,7 @@ IOS 應用程式的商務用 Skype 會將商務用 skype 狀態、立即訊息 (
     
 ### <a name="test-push-notifications"></a>測試推播通知
 
-1. 在使用者 A 的行動裝置上，使用使用者 A 的帳戶登入商務用 Skype。 
+1. 在使用者 a 的行動裝置上，使用使用者 a 的帳戶登入商務用 Skype。 
     
 2. 在行動裝置上開啟另一個應用程式。 
     

@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用系統管理中心提供預先定義的設定、頻道和預先安裝的 App，以使用一般小組範本建立小組結構。
+description: 瞭解如何使用系統管理中心提供預先定義的設定、頻道和預先安裝的應用程式，以使用一般小組範本建立小組結構。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,18 +19,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e068e1ef9144bdb09a7f6009495ad1b89ce7accf
-ms.sourcegitcommit: f781600a40e174cfc522e29375a4820b1142e23a
+ms.openlocfilehash: c68e3efd00e0f9204f507b4c63977837076bb3beb75a958a0629f1e5da64f69e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/27/2021
-ms.locfileid: "53596381"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344026"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>在系統管理中心使用一般小組範本
 
 小組範本提供預先定義的設定、頻道和預先安裝應用程式範本，讓您快速且輕鬆地建立團隊。
 
-小組範本有預先建立的團隊結構定義，專為財務需求所設計。 您也可以擴充小組範本，以建立根據您的特定組織需求量身打造的團隊。
+小組範本有預先建立的團隊結構定義，專為財務需求所設計。 您也可以擴充小組範本，以建立符合您特定組織需求的團隊。
 
 本文介紹每個小組範本，並建議如何使用這些範本。
 
@@ -40,12 +40,12 @@ ms.locfileid: "53596381"
 
 ## <a name="global-crisis-or-event"></a>全球危機或事件
 
-集中處理各業務單位的小組共同處理問題，協助建立業務連續性計畫、共用遠端工作秘訣、追蹤客戶通訊，以及讓每個人隨時瞭解公告和新聞。
+集中處理各業務單位的針對您的危機小組共同合作，協助建立業務連續性計畫、共用遠端工作秘訣、追蹤客戶通訊，以及讓每個人隨時瞭解公告和新聞。
 
 > [!div class="mx-tdBreakAll"]
 > | 範本類型 |baseTemplateId| 此基本範本提供的屬性 |
 > | ------------------ |--|----------------------------------------------------------|
-> | 在全球危機或事件上共同合作 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` | 頻道： <ul><li>一般<li>公告</li><li>世界新訊</li><li>業務連續性</li><li>外部通訊</li><li>核准要求</li><li>遠端工作</li><li>內部通訊</li><li>外部通訊</li><li>客戶抱怨</li><li>榮譽</li><li>主管更新</li></ul>應用程式： <ul><li>稱讚</li><li>Wiki</li><li>網站</li><li>Planner</li></ul>|
+> | 在全球危機或事件上共同合作 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` | 頻道： <ul><li>一般<li>公告</li><li>世界新聞</li><li>業務連續性</li><li>外部通訊</li><li>核准要求</li><li>遠端工作</li><li>內部通訊</li><li>外部通訊</li><li>客戶抱怨</li><li>榮譽</li><li>主管更新</li></ul>應用程式： <ul><li>稱讚</li><li>Wiki</li><li>網站</li><li>Planner</li></ul>|
 > ||||
 
 ## <a name="adopt-office-365"></a>採用Office 365

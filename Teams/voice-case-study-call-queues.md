@@ -16,12 +16,12 @@ f1.keywords:
 description: Teams多國公司的語音案例研究：自動語音語音和通話佇列
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0251c4baa9aca86f871b7c1dc1af44695bd1585
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: bf1d7a5457af0d7463207c0bdbc9d50433b3142e2f72e7efc7f8c89ade82bc93
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587162"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54296420"
 ---
 # <a name="contoso-case-study-auto-attendants-and-call-queues"></a>Contoso 案例研究：自動電話機和通話佇列
 
@@ -41,7 +41,7 @@ Contoso 熟悉內部部署和部署中的自動商務用 Skype佇列。 為了�
 
 - 網站類型 C：商務用 Skype 企業語音 &傳統傳統電話系統 
 
-  Site Type C 有現有的自動語音機，這些自動語音機位於傳統的傳統電話系統中。 此網站的決策和組組與網站類型 A 相同。   
+  網站類型 C 有現有的自動語音機，這些自動語音機位於傳統的傳統電話系統中。 此網站的決策和組組與網站類型 A 相同。   
 
 - 針對所有網站類型，Contoso 詢問下列問題：
 
@@ -55,7 +55,7 @@ Contoso 熟悉內部部署和部署中的自動商務用 Skype佇列。 為了�
     答：Contoso 決定使用 Attendant 路由， 
 
   - 問：我們會如何判斷使用者何時應該或不應該接到來電？ 
-    答：Contoso 決定使用呼叫處理選項來判斷代理人是否可用：目前狀態路由。 
+    答：Contoso 決定使用通話處理選項來判斷代理人是否可用：目前狀態路由。 
 
 
 ## <a name="configuration"></a>配置
@@ -81,7 +81,7 @@ Contoso 熟悉內部部署和部署中的自動商務用 Skype佇列。 為了�
 
 Contoso 必須設定當地電信公司提供的電話號碼，做為 Office 365。 
 
-- 若要設定透過直接路由提供的電話號碼，Contoso 會遵循管理資源帳戶 [中的指示](manage-resource-accounts.md)。 由於Office 365不知道內部部署電話號碼，Contoso 使用 PowerShell 來完成設定。   
+- 若要設定透過直接路由提供的電話號碼，Contoso 會遵循管理資源帳戶 [中的指示](manage-resource-accounts.md)。 由於Office 365內部部署電話號碼，Contoso 使用 PowerShell 來完成設定。   
 
 - 若要設定雲端自動話務員，Contoso 會遵循設定雲端自動話務員中概述 [的步驟](create-a-phone-system-auto-attendant.md)。 
 

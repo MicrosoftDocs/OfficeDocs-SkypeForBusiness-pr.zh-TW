@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中建立或修改未指派號碼範圍
+title: 在商務用 Skype Server 中建立或修改未指派的號碼範圍
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
-description: 在商務用 Skype Server Enterprise Voice 中建立、修改或刪除未指派的號碼範圍給宣告應用程式。 這會影響如何處理未指派號碼的呼叫。
-ms.openlocfilehash: 72c9ec5b6b1e3d4577507ede0a5ed61560928f03
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在商務用 Skype Server 企業語音中建立、修改或刪除宣告應用程式的未指派號碼範圍。 這會影響如何處理未指派號碼的呼叫。
+ms.openlocfilehash: ab6573b618782434e18bebc3d47dd52fc1fbd4055f13464c7121fbafb2b08aba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093051"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54331995"
 ---
-# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改未指派號碼範圍
+# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改未指派的號碼範圍
  
-在商務用 Skype Server Enterprise Voice 中建立、修改或刪除未指派的號碼範圍給宣告應用程式。 這會影響如何處理未指派號碼的呼叫。
+在商務用 Skype Server 企業語音中建立、修改或刪除宣告應用程式的未指派號碼範圍。 這會影響如何處理未指派號碼的呼叫。
   
-商務用 Skype Server 可讓您瞭解對您的組織有效的電話號碼，但未指派給使用者或電話的來電。 若要處理這類通話，您可以設定未指派的號碼表。 您可以使用表格將通話路由傳送至宣告應用程式或 Exchange UM 伺服器。
+商務用 Skype Server 可讓您瞭解對您的組織有效但未指派給使用者或電話之電話號碼的來電所發生的情況。 若要處理這類通話，您可以設定未指派的號碼表。 您可以使用表格將通話路由傳送至宣告應用程式或 Exchange UM 伺服器。
   
 設定未指派號碼表的方式取決於其使用方式。 您可以設定包含組織所有有效分機號碼、只包含未指派的分機號碼，或包含結合這兩種類型之號碼的表格。 未指派號碼表可以同時包含已指派和未指派的號碼，但是只有在來電者撥打目前未指派的號碼時才會叫用。 如果您在未指派號碼表中納入所有有效的分機號碼，可以指定每次某人離開組織時要執行的動作，而不必重新設定表格。 如果您在表格中包含未指派的副檔名，您可以修改針對特定數位所發生的動作。 例如，如果您變更客戶服務服務台的分機號碼，您可以在資料表中包含舊的客戶服務號碼，然後將其指派給提供新號碼的宣告。
   
@@ -39,13 +39,13 @@ ms.locfileid: "51093051"
 > 在您設定未指派的號碼表之前，您的系統必須已定義宣告，或是已設定 Exchange 整合通訊 (UM) 自動語音應答。 
   
 > [!TIP]
-> 當某人呼叫未指派的號碼時，商務用 Skype 伺服器會從上到下搜尋未指派號碼表格，並使用第一個相符的範圍。 因此，應為表格中的最後一個範圍指定您想要執行做為最後一個手段的動作。 
+> 當某人呼叫未指派的號碼時，商務用 Skype Server 會從上到下搜尋未指派號碼表格，並使用第一個相符的範圍。 因此，應為表格中的最後一個範圍指定您想要執行做為最後一個手段的動作。 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>使用商務用 Skype Server 控制台設定未指派的電話號碼
+### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>若要使用商務用 Skype Server 控制台設定未指派的電話號碼
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱＜**Delegate Setup Permissions**＞。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。  
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。  
     
 3. 在左導覽列中，依序按一下 [ **語音功能**] 和 [ **未指派的號碼**]。
     
@@ -89,11 +89,11 @@ ms.locfileid: "51093051"
   
 11. 當您以您想要的順序排列未指派的號碼範圍時，請按一下 [ **全部認可**]。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>使用商務用 Skype Server 管理命令介面設定未指派的電話號碼
+### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>若要使用商務用 Skype Server 管理命令介面設定未指派的電話號碼
 
-1. 登入安裝商務用 Skype Server 管理命令介面的電腦，並將其安裝為 RTCUniversalServerAdmins 群組的成員，或使用 **委派安裝許可權** 中所述的必要使用者權限。
+1. 以 **委派安裝許可權** 中所述，以 RTCUniversalServerAdmins 群組成員的身分或必要使用者權限的方式，登入安裝商務用 Skype Server 管理命令介面的電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 使用 **New-CsUnassignedNumber** 建立新的未指派號碼範圍。 使用 **Set-CsUnassignedNumber** 修改現有的未指派號碼範圍。
     
@@ -108,7 +108,7 @@ ms.locfileid: "51093051"
      New-CsUnassignedNumber -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range> -AnnouncementName <announcement name> -AnnouncementService <FQDN or service ID of the Announcement service>
      ```
 
-   - 或者，若要建立 Exchange UM 自動語音應答的號碼範圍，請執行：
+   - 或者，若要為 Exchange UM 自動語音應答建立號碼範圍，請執行：
     
      ```powershell
      New-CsUnassignedNumber -ExUmAutoAttendantPhoneNumber <phone number> -Identity <unique identifier for unassigned number range> -NumberRangeStart <first number in range> -NumberRangeEnd <last number in range>
@@ -134,11 +134,11 @@ ms.locfileid: "51093051"
 
 ## <a name="delete-an-unnasigned-number-range"></a>刪除 unnasigned 號碼範圍
 
-### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>使用商務用 Skype Server 控制台刪除未指派的號碼範圍
+### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>若要使用商務用 Skype Server 控制台刪除未指派的號碼範圍
 
 1.  以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱＜**Delegate Setup Permissions**＞。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。  
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。  
     
 3. 在左側導覽列中，依序按一下 **[語音功能]** 和 **[未指派的號碼]**。
     
@@ -150,9 +150,9 @@ ms.locfileid: "51093051"
     
 ### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>若要使用商務用 Skype Server 管理命令介面來刪除未指派的號碼範圍
 
-1. 登入安裝商務用 Skype Server 管理命令介面的電腦，並將其安裝為 RTCUniversalServerAdmins 群組的成員，或使用 **委派安裝許可權** 中所述的必要使用者權限。
+1. 以 **委派安裝許可權** 中所述，以 RTCUniversalServerAdmins 群組成員的身分或必要使用者權限的方式，登入安裝商務用 Skype Server 管理命令介面的電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 在命令列中輸入：
     

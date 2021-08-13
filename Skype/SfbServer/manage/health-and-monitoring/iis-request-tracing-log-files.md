@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 2015 中監控 IIS 要求的追蹤記錄檔
+title: 監視商務用 Skype Server 2015 中的 IIS 要求追蹤記錄檔
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,24 +11,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
-description: 摘要：瞭解適用于舊版用戶端的商務用 Skype Server 2015 支援的行動服務 (Mcx) 。
-ms.openlocfilehash: 7d0d15b4c3db3d768117d73ed610b38c7a819196
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：瞭解 Mcx) 中的行動服務 (的商務用 Skype Server 2015 支援舊版用戶端。
+ms.openlocfilehash: 74aaca832bc7f6cfa1b9e3afbc08942ac0eceee3a655f36abb1347eab9ea5cfd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118632"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297149"
 ---
-# <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中監控 IIS 要求的追蹤記錄檔
+# <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>監視商務用 Skype Server 2015 中的 IIS 要求追蹤記錄檔
  
-**摘要：** 瞭解適用于舊版用戶端的商務用 Skype Server 2015 支援的行動服務 (Mcx) 。
+**摘要：** 深入瞭解 Mcx) 中的行動服務 (商務用 Skype Server 2015 支援舊版用戶端。
   
 本主題僅適用于支援 Lync 2010 Lync 行動用戶端的部署，且適用于行動服務 (Mcx) 。
 
 > [!NOTE]
-> MCX (行動服務) 支援舊版行動用戶端，商務用 Skype Server 2019 不再提供支援。 所有目前的商務用 Skype mobile 用戶端都已經使用整合通訊網頁 API (UCWA) 以支援立即訊息 (IM) 、目前狀態及連絡人。 具有使用 MCX 之舊版用戶端的使用者，必須升級至目前的用戶端。
+> 商務用 Skype Server 2019 不再提供舊版行動用戶端的 MCX (行動服務) 支援。 所有目前商務用 Skype 的行動裝置都已經使用整合通訊 Web API (UCWA) 以支援立即訊息 (IM) 、目前狀態及連絡人。 具有使用 MCX 之舊版用戶端的使用者，必須升級至目前的用戶端。
   
-當您為商務用 Skype Server 行動服務 (Mcx) 啟用 Internet Information Services (IIS) 要求追蹤時，所產生的記錄檔可能會消耗最多三 gb 的磁碟空間。 預設會啟用 IIS 追蹤記錄。 您應該監視前端伺服器，確定其磁碟空間不足。 
+當您為商務用 Skype Server 行動服務 (Mcx) 啟用 Internet Information Services (IIS) 要求追蹤時，所產生的記錄檔會每日消耗最多三 gb 的磁碟空間。 預設會啟用 IIS 追蹤記錄。 您應該監視前端伺服器，確定其磁碟空間不足。 
   
 根據預設，IIS 會將記錄檔儲存在%SystemDrive%\inetpub\logs\LogFiles。
   

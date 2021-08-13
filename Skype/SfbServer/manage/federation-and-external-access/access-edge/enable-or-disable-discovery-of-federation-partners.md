@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 當您部署 Edge Server 並為組織啟用同盟時，您應該會指定是否支援同盟協力廠商網域的自動探索。
-ms.openlocfilehash: c66dd9750c8fdd36af5fad75f40b6939a04b0971cec4c9e57fe97bd06047ed9d
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 4877472ca48f5fc6dc166f5f4cbcab8b7441d7ff8eb3a0f8c5b914242da686ff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849188"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54297229"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>啟用或停用商務用 Skype Server 中的同盟協力廠商探索
 
@@ -53,10 +53,14 @@ ms.locfileid: "57849188"
 
 ## <a name="to-enable-discovery-of-federation-partners"></a>啟用同盟協力廠商的探索
 
-  - 若要啟用同盟協力廠商的探索，請將 **EnablePartnerDiscovery** 屬性的值設為 True ($True) 。 請注意，您必須啟用 DNS SRV 路由才能變更此屬性值。<br/><br/>Set-CsAccessEdgeConfiguration-UseDnsSrvRouting EnablePartnerDiscovery $True
+  - 若要啟用同盟協力廠商的探索，請將 **EnablePartnerDiscovery** 屬性的值設為 True ($True) 。 請注意，您必須啟用 DNS SRV 路由才能變更此屬性值。
+    
+        Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
 
 
 ## <a name="to-disable-discovery-of-federation-partners"></a>停用同盟協力廠商的探索
 
-  - 若要停用同盟協力廠商的探索，請將 **EnablePartnerDiscovery** 屬性的值設為 False ($False) ：<br/><br/>Set-CsAccessEdgeConfiguration-UseDnsSrvRouting EnablePartnerDiscovery $False
+  - 若要停用同盟協力廠商的探索，請將 **EnablePartnerDiscovery** 屬性的值設為 False ($False) ：
+    
+        Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
 

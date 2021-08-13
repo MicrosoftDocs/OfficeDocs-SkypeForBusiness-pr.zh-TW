@@ -17,18 +17,18 @@ f1.keywords:
 description: Teams多國公司的語音案例研究：語音移移概觀
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae8a09ab48215b1915c06e46b3d6a3a693958621
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: fa9c4e3e8468723d4e0fce7f2fa5a61646213260fe16a3c137b6c8fe7e01a635
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587172"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319626"
 ---
 # <a name="contoso-case-study-teams-voice-migration-overview"></a>Contoso 案例研究：Teams語音移移概觀
 
 本文介紹一個案例分析，瞭解一家虛構的多國公司 Contoso 如何為組織Teams語音解決方案。
 
-Contoso 已部署 Microsoft 365 企業版，並解決下列主要設計決策和實現詳細資料：網路、身分識別、Windows 10 企業版、Office 365 專業增強版、行動裝置管理、資訊保護、安全性、從 商務用 Skype 升級至 Teams、電話系統 和音訊會議。  
+Contoso 已部署 Microsoft 365 企業版，並針對下列專案解決主要設計決策和實現詳細資料：網路、身分識別、Windows 10 企業版、Office 365 專業增強版、行動裝置管理、資訊保護、安全性、從 商務用 Skype 升級至 Teams、電話系統 和音訊會議。  
 
 本文著重說明 Contoso 如何將內部部署使用者移Teams統一通訊、共同合作和語音。 有關 Contoso 如何使用 Microsoft 雲端服務加速其數位轉換的背景資訊，請參閱從 [Contoso](/microsoft-365/enterprise/contoso-case-study)案例研究概觀開始的所有核心文章。
 
@@ -79,8 +79,8 @@ Contoso 已部署 Microsoft 365 企業版，並解決下列主要設計決策和
 
 - Local Media 優化 
 
-  Contoso 在有一個直接路由主幹至遠端網站所Microsoft 電話系統的位置，運用了 Local Media 優化。 詳細資訊，請參閱規劃本地[媒體優化和](direct-routing-media-optimization.md)[設定本地媒體優化](direct-routing-media-optimization-configure.md)。
+  Contoso 在有一個直接路由主幹至遠端網站所Microsoft 電話系統的位置，利用 Local Media 優化。 詳細資訊，請參閱規劃本地[媒體優化和](direct-routing-media-optimization.md)[設定本地媒體優化](direct-routing-media-optimization-configure.md)。
 
 - 自動電話機和通話佇列
 
-  由於 Covid-19，Contoso 想要在員工遠端工作期間提供接待員支援。 Contoso 使用自動電話機和通話佇列來管理接收者電話號碼的來電。 詳細資訊，請參閱 [Contoso 案例研究：自動總機和通話佇列](voice-case-study-call-queues.md)。
+  由於 Covid-19，Contoso 想要在員工遠端工作期間提供接待員支援。 Contoso 使用自動電話機和通話佇列來管理來電到其接收者的電話號碼。 詳細資訊，請參閱 [Contoso 案例研究：自動總機和通話佇列](voice-case-study-call-queues.md)。

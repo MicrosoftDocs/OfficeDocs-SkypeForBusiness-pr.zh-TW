@@ -16,12 +16,12 @@ f1.keywords:
 description: Teams多國公司的語音案例研究：位置式路由
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9c63cfc4df61303ce5181c09e7e8b949ffb51b1
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 974053f3e438ecaee3f9eb876eb99e2cf6e40d151be802acb31183620eabc583
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319636"
 ---
 # <a name="contoso-case-study-location-based-routing"></a>Contoso 案例研究：Location-Based路由
 
@@ -29,17 +29,17 @@ Location-Based路由 (LBR) 是一項功能，可依據撥打或接收通話時�
 
 ## <a name="overview"></a>概觀
 
-Contoso 在一個國家/地區有兩個辦公室，而忽略公用交換電話網絡 (PSTN) ，以降低長途通話成本。 主辦公室有由主要辦公室和第二個辦公室使用的網際網路連接。 每個辦公室都有自己的會話邊界控制器 (SBC) PSTN 電信公司。  
+Contoso 在一個國家/地區有兩個辦公室，而忽略公用交換電話網路 (PSTN) 以降低長途電話費用是違法的。 主辦公室有由主要辦公室和第二個辦公室使用的網際網路連接。 每個辦公室都有自己的會話邊界控制器 (SBC) PSTN 電信公司。  
  
-在這個國家/地區，Contoso 已針對他們的部署商務用 Skype LBR。 若要決定如何設定 LBR Teams，Contoso 請閱讀直接路由Location-Based[路由方案](location-based-routing-plan.md)。 Contoso 決定 Teams 和 商務用 Skype 在何時可以撥打、何時可以接收、PSTN 通話可以轉接給 Teams 使用者，以及何時可以將另一個 Teams 使用者轉接到 PSTN 通話時，遵循相同的案例。  
+在這個國家/地區，Contoso 已針對他們的部署商務用 Skype LBR。 若要決定如何設定 LBR Teams，Contoso 請閱讀直接路由Location-Based[路由方案](location-based-routing-plan.md)。 Contoso 決定 Teams 和 商務用 Skype 在何時可以撥打通話、何時可以接收、PSTN 通話可以轉接給 Teams 使用者，以及何時可以將另一個 Teams 使用者轉接到 PSTN 通話時，遵循相同的案例。  
 
-針對商務用 Skype，LBR 是使用會話邊界控制器 (SBC) SIP 主幹連接到 PSTN 電信電信公司。 針對此 SBC，Contoso 已審查認證 [SBC](direct-routing-border-controllers.md) 清單，並判定所部署的 SBC 已通過直接路由認證，但未通過媒體旁路認證。 若要支援 LBR，直接路由必須配置至 SBC 現場，需要有一個本地網際網路出口，而 SBC 必須針對媒體旁路進行配置。 根據這項資訊，Contoso 決定下列專案：
+針對商務用 Skype，LBR 已使用會話邊界控制器 (SBC) SIP 主幹連接到 PSTN 電信電信公司。 針對此 SBC，Contoso 已審查認證 [SBC](direct-routing-border-controllers.md) 清單，並判定部署的 SBC 已通過直接路由認證，但未通過媒體旁路認證。 若要支援 LBR，直接路由必須配置至 SBC 現場，需要有一個本地網際網路出口，而 SBC 必須針對媒體旁路進行配置。 根據這項資訊，Contoso 決定下列專案：
 
 - 若要延遲啟用 LBR Teams，直到現有 SBC 通過媒體旁路認證。   
 
 - Contoso 決定使用主要網站 SBC 作為直接路由Office 365。  主網站 SBC 是遠端網站的 Proxy SBC。  
 
-- Contoso 使用印度的協力廠商顧問，協助國內電話公司認證 LBR 組組。  
+- Contoso 使用印度的協力廠商顧問，協助國內電話公司進行 LBR 組組認證。  
 
 - 為了支援在辦公室外工作的使用者撥打 PSTN 電話，公司已發行行動電話提供給員工。 
 

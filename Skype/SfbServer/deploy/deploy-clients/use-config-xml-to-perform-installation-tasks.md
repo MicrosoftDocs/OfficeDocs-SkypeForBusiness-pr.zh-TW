@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype 用戶端中使用 Config.xml 執行安裝工作
+title: 使用 Config.xml 在商務用 Skype 用戶端中執行安裝工作
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 摘要：如何使用 Config.xml 檔案指定其他安裝指示。
-ms.openlocfilehash: dbf4c4ba4e652f4b777e0c901fee4ffb0ad68af3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b7c04a9c08f6a5dd51c21a189ce3a07d81a589cf694e5020a75cf6f646bd1cef
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121137"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54332045"
 ---
-# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>在商務用 Skype 用戶端中使用 Config.xml 執行安裝工作
+# <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>使用 Config.xml 在商務用 Skype 用戶端中執行安裝工作
 
 **摘要：** 如何使用 Config.xml 檔案指定其他安裝指示。
 
@@ -37,11 +37,11 @@ ms.locfileid: "51121137"
 
 - 在安裝中新增或移除語言。
 
-建議您使用 Config.xml 檔案來設定商務用 Skype 無訊息安裝。 
+建議您使用 Config.xml 檔案，設定商務用 Skype 無訊息安裝。 
 
 根據預設，儲存在核心產品資料夾中的 Config.xml 檔案 (例如，- _product_。WW) 指示安裝程式安裝該產品。 例如，下列資料夾中的 Config.xml 檔會安裝商務用 Skype：
 
-- \\server\share\Skype15\Skype.WW \Config.xml
+- \\server\share\Skype15\ Skype。WW \Config.xml
 
 下表列出最常用於商務用 Skype 安裝的 Config.xml 元素。
 
@@ -50,8 +50,8 @@ ms.locfileid: "51121137"
 
 | **元素**              | **描述**                                                                                                                                                                                                                                                                                         |
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 組態  <br/>     | 最上層元素 (必要)。 包含 Product 屬性，例如： Product = Lync (此功能會針對商務用 Skype 用戶端運作)   <br/>                                                                                                                                                          |
-| OptionState  <br/>       | 指定在安裝期間如何處理特定的產品功能。 使用下列屬性可防止安裝 Business Connectivity Services，其中包含干擾 Outlook 的共用元件： <br/>  識別碼 = "LOBiMain" <br/>  State = "不存在" <br/>  子系 = "Force" <br/> |
+| 組態  <br/>     | 最上層元素 (必要)。 包含 product 屬性，例如： product = Lync (此功能適用于商務用 Skype 用戶端)   <br/>                                                                                                                                                          |
+| OptionState  <br/>       | 指定在安裝期間如何處理特定的產品功能。 使用下列屬性可防止安裝 Business Connectivity 服務，其中包含干擾 Outlook 的共用元件： <br/>  識別碼 = "LOBiMain" <br/>  State = "不存在" <br/>  子系 = "Force" <br/> |
 | 顯示器  <br/>           | 安裝程式向使用者顯示的 UI 層級。一般屬性包括： <br/>  CompletionNotice= "Yes"                                                                                                                                                                                |
 | 記錄  <br/>           | 安裝程式執行之記錄類型的選項。一般屬性包括： <br/>  Type = "Off"                                                                                                                                                                                       |
 | 設定  <br/>           | 指定 Windows Installer 內容的值。一般屬性包括：<br/>  設定識別碼 = " *name*" (Windows Installer 屬性的名稱)   <br/>  Value = " *value*" (要指派給屬性的值)   <br/>                                                             |

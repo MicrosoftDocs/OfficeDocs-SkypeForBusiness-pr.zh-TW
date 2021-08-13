@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：瞭解如何設定內部部署與 Teams 之間的互通性。
-ms.openlocfilehash: a0e33c781e307785456698b20738dec2db02b8b4
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 8a5d40ea56ca4cfdce6f748bea1d276bbb2727eb2669390e6ee6fb006bfd22ed
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510554"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319566"
 ---
 # <a name="configure-skype-for-business-hybrid"></a>設定商務用 Skype 混合式
 
@@ -35,11 +35,11 @@ ms.locfileid: "53510554"
 - [設定您的內部部署環境，以信任 Teams 並啟用共用 SIP 位址空間](#configure-your-on-premises-environment-to-enable-shared-sip-address-space-with-teams)。
 - [在您的 Teams 組織中啟用共用 SIP 位址空間](#enable-shared-sip-address-space-in-your-organization)。
 
-如果您有 Exchange 內部部署，您可能想要設定 Exchange 內部部署與商務用 Skype 線上環境之間的 OAuth。 如需詳細資訊，請參閱[Manage server to server authentication in 商務用 Skype Server](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md)及[Plan to 整合商務用 Skype 和 Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。 
+如果您有 Exchange 內部部署，您可能想要設定 Exchange 內部部署和線上環境之間的 OAuth。 如需詳細資訊，請參閱[Manage server to server authentication in 商務用 Skype Server](../../SfbServer/manage/authentication/server-to-server-and-partner-applications.md)及[Plan to 整合商務用 Skype 和 Exchange](../../SfbServer/plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)。 
   
 ## <a name="configure-your-on-premises-edge-service-to-federate-with-teams"></a>設定內部部署 Edge service 與 Teams 同盟
 
-同盟可讓內部部署中的使用者與 Teams 和商務用 Skype 組織中的線上使用者進行通訊。 若要設定同盟，請在商務用 Skype Server 管理命令介面中執行下列 Cmdlet：
+同盟可讓內部部署中的使用者與組織中的 Teams 使用者進行通訊。 若要設定同盟，請在商務用 Skype Server 管理命令介面中執行下列 Cmdlet：
   
 ```PowerShell
 Set-CSAccessEdgeConfiguration -AllowOutsideUsers $True -AllowFederatedUsers $True -EnablePartnerDiscovery $True -UseDnsSrvRouting
@@ -80,7 +80,7 @@ Set-CsTenantFederationConfiguration -SharedSipAddressSpace $true
 > [!NOTE]
 > SharedSipAddressSpace 屬性必須保留為 "True"，直到移動至線上狀態為終稿，且沒有使用者保留內部部署。 
   
-若要使用 Teams (或商務用 Skype 線上) 建立遠端 PowerShell 會話，您必須先安裝[Teams PowerShell 模組](/microsoftteams/teams-powershell-install)。 Teams PowerShell 模組會取代已撤銷的 Busines Online 連接器模組 Skype。
+若要使用 Teams 建立遠端 PowerShell 會話，您必須先安裝[Teams PowerShell 模組](/microsoftteams/teams-powershell-install)。 Teams PowerShell 模組會取代已撤銷的 Busines Online 連接器模組 Skype。
   
 安裝模組之後，您可以建立具有下列 Cmdlet 的遠端會話：
    ```powershell

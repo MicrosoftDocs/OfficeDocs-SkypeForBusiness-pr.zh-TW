@@ -17,12 +17,12 @@ localization_priority: Normal
 f1.keywords:
 - NOCSH
 description: 瞭解如何在用戶端中設定撥號鍵Teams，讓使用者能夠存取公用交換電話網絡 (PSTN) 功能。
-ms.openlocfilehash: 44fcbb766cadaa4b31aa065fae80fdcd48c5453f
-ms.sourcegitcommit: a94a267c421a78587b0dbbea5fa167aad2882e9b
+ms.openlocfilehash: 848e52859be3b2339e1e1968631c6d55fc7a8df79dc3a691fd47e9613f7f583d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "45012412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344312"
 ---
 # <a name="dial-pad-configuration"></a>撥號鍵台組
 
@@ -63,9 +63,9 @@ Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 ```
 
 
-## <a name="user-has-microsoft-calling-plan-or-is-enabled-for-direct-routing"></a>使用者已啟用 Microsoft 通話方案或已啟用直接路由
+## <a name="user-has-microsoft-calling-plan-or-is-enabled-for-direct-routing"></a>使用者有 Microsoft 通話方案 OR 已啟用直接路由
 
-**如果使用者有 Microsoft 通話方案**，您必須確定 **CapabilityStatus** 屬性設定為啟用，且功能方案已設定為 **MCOPSTN。** 您可能會看到 MCOPSTN1、MCOPSTN2 等。 只要功能計畫以 MCOPSTN 開頭，所有專案都可接受。
+**如果使用者有 Microsoft 通話方案**，您必須確定 **CapabilityStatus** 屬性設定為啟用，且功能方案已設定為 **MCOPSTN。** 您可能會看到 MCOPSTN1、MCOPSTN2 等。 只要功能計畫以 MCOPSTN 開始，所有功能都可接受。
 
 若要檢查屬性，請使用下列命令：
 
@@ -122,7 +122,7 @@ EnterpriseVoiceEnabled
  
 ## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>使用者位於線上，而不是商務用 Skype內部部署
 
-若要確保使用者位於線上，而非內部商務用 Skype，RegistrarPool 不得為 Null，HostingProvider 必須包含以「sipfed.online」開頭的值。  若要檢查值，請使用下列命令：
+若要確保使用者位於線上，而非內部商務用 Skype，RegistrarPool 不得為 Null，HostingProvider 必須包含以 「sipfed.online」開頭的值。  若要檢查值，請使用下列命令：
 
 ```
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider
