@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 description: '[指定替代憑證範本] 頁面可讓您定義預設使用 WebServer 憑證範本以外的憑證範本。 選取 [對選取的憑證授權單位單位使用其他憑證範本] 核取方塊，然後在文字方塊憑證範本名稱中定義備用憑證範本的名稱。 您必須使用 [憑證授權單位單位 (CA) 中所定義的範本名稱。 按 [上一步] 回到前一頁。 按一下 [取消] 結束憑證要求程序。'
-ms.openlocfilehash: 18617077c6e8633db5e6a05b214c922985d14898
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 5f57efe3d04949f6f22c0f63cd26b037fb5d66f02560f577d2820bd62b85d53d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49805123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342288"
 ---
 # <a name="certificate-request-specify-termplate"></a>憑證要求 (指定範本)
  

@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
 description: 每個記錄在影片通話中包含一個端點的用戶端事件。 通常，一個呼叫有兩筆記錄，一個用於來電者，另一個用於呼叫者。
-ms.openlocfilehash: bb4a9feca562bed7bdb0080e7f9181003952f5d4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2ccecd731df3b41fbd7c2ce5f2dda3ac298900ec866a995e36398edfeba1c1cd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821393"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340789"
 ---
 # <a name="videoclientevent-table"></a>VideoClientEvent 表格
  

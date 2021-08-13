@@ -21,13 +21,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: '尋找每個國家/地區電話撥入式會議語言，以及指派給 (en-US、da-DK、de-DE 等) '
-ms.openlocfilehash: 9486996a2d951d8ba5ad4790fd2dc792f69f1b1d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: '尋找每個國家/地區電話撥入式會議語言，以及指派 (en-US、da-DK、de-DE 等帳戶的) '
+ms.openlocfilehash: 5bd81e85f3944ce1a38bed2c1dc4110f3d3eaf9d7c59f3e0b3180c911d513f5b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098509"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340509"
 ---
 # <a name="audio-conferencing-supported-languages"></a>音訊會議的支援語言
 
@@ -99,7 +99,7 @@ ms.locfileid: "51098509"
     
   - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell使用系統管理中心時，Microsoft 365在速度、簡易性及生產力方面有許多優點，例如一次變更許多使用者的設定。 請從下列主題瞭解這些優點： 
+- Windows PowerShell比使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如一次對許多使用者進行設定變更。 請從下列主題瞭解這些優點： 
     
   - [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     

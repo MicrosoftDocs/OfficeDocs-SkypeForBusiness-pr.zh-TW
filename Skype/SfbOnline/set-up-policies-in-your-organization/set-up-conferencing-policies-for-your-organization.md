@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 會議是線上商務用 Skype的一項重要內容：會議可讓使用者群組在線上共同查看幻燈片和視訊、共用應用程式、交換檔案，以及以其他方式通訊和共同合作。
-ms.openlocfilehash: 84037d571bf6f9dc3451793678a6d1b650492bd9
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: b0a6eff8c275bc94efe3a9f7e25d7ddbf423d33ebad4558f25a7f18885756dce
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240075"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340299"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>設定組織的會議原則
 
@@ -46,7 +46,7 @@ ms.locfileid: "52240075"
 ### <a name="start-windows-powershell"></a>開始Windows PowerShell
 
  > [!Note]
-> 商務用 Skype線上連接器是目前 PowerShell 模組Teams的一部分。 如果您使用的是最新版 PowerShell Teams版本，則不需要安裝 商務用 Skype 連接器。
+> 商務用 Skype Online 連接器目前是最新 Teams PowerShell 模組的一部分。 如果您使用的是最新的 Teams PowerShell 公開發行版本，則不需要安裝商務用 Skype Online 連接器。
 1. 安裝[powerShell Teams模組](/microsoftteams/teams-powershell-install)。
     
 2. 開啟 Windows PowerShell命令提示符，然後執行下列命令： 
@@ -67,7 +67,7 @@ ms.locfileid: "52240075"
    ```powershell
    New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
    ```
-   請參閱 [New-CsConferencingIngPolicy](/powershell/module/skype/New-CsConferencingPolicy) Cmdlet。
+   請參閱 [New-CsConferencingPolicy](/powershell/module/skype/New-CsConferencingPolicy) Cmdlet。
     
 - 若要將您建立的新政策授予貴組織的所有使用者，請執行：
    
@@ -85,7 +85,7 @@ ms.locfileid: "52240075"
    ```powershell
    New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
    ```
-   請參閱 [New-CsConferencingIngPolicy](/powershell/module/skype/New-CsConferencingPolicy) Cmdlet。
+   請參閱 [New-CsConferencingPolicy](/powershell/module/skype/New-CsConferencingPolicy) Cmdlet。
     
 - 若要將您建立的新政策授予 Amos Marble，請執行：
    
@@ -103,7 +103,7 @@ ms.locfileid: "52240075"
    ```powershell
    New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
    ```
-   請參閱 [New-CsConferencingIngPolicy](/powershell/module/skype/New-CsConferencingPolicy) Cmdlet。
+   請參閱 [New-CsConferencingPolicy](/powershell/module/skype/New-CsConferencingPolicy) Cmdlet。
     
 - 若要將您建立的新政策授予貴組織中所有使用者，請執行：
     
@@ -124,13 +124,13 @@ ms.locfileid: "52240075"
     
   - [您可能會想要使用 Windows PowerShell 管理Microsoft 365或Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell使用系統管理中心時，Microsoft 365在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
+- Windows PowerShell相比于僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
     
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用Windows PowerShell執行線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
 ## <a name="related-topics"></a>相關主題
 [建立自訂外部存取原則](create-custom-external-access-policies.md)

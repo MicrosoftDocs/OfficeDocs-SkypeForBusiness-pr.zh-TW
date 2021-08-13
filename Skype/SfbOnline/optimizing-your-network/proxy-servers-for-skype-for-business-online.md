@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 本文提供有關在用戶端使用 proxy 伺服器商務用 Skype。
-ms.openlocfilehash: 09ed98c5f69d6e244a5f87125e4ad607e4d16226
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: c6c094bad366cf6a7febb092d471dd0723ce219b90664963a5e58a2ce64d70ba
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240412"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323515"
 ---
 # <a name="proxy-servers-for-skype-for-business-online"></a>適用于 商務用 Skype Online 的 Proxy 伺服器
 
@@ -37,7 +37,7 @@ ms.locfileid: "52240412"
 
 當涉及代理商務用 Skype流量時，Microsoft 建議忽略代理。 由於流量已加密商務用 Skype代理不會讓資料更安全。
   
-而擁有 Proxy 可能會導致問題。 透過延遲和封包遺失，可能會將與績效相關的問題引入環境。 這類問題會導致音訊和視Teams或商務用 Skype等情況下的負面體驗，而即時資料流是不可或缺的。
+而擁有 Proxy 可能會導致問題。 與績效相關的問題可能會透過延遲和封包遺失而引入環境。 這類問題會導致音訊和視Teams或商務用 Skype等情況下的負面體驗，而即時資料流是不可或缺的。
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>如果您需要使用 Proxy 伺服器
 

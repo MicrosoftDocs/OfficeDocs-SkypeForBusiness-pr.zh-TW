@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
-description: '[還原 Cc-認證] Cmdlet 會還原目前商務用 Skype 雲端連接器版本部署的所有認證。'
-ms.openlocfilehash: b2cd35b284bcd7e49aabbaa3055c397915565d09
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Restore Cc-Credentials Cmdlet 會還原目前商務用 Skype Cloud Connector Edition 部署的所有認證。
+ms.openlocfilehash: 95b93e28bb109c26927a940324edef20479bed8c193efea6923c74058995a5bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824239"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340669"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
-[還原 Cc-認證] Cmdlet 會還原目前商務用 Skype 雲端連接器版本部署的所有認證。 
+Restore Cc-Credentials Cmdlet 會還原目前商務用 Skype Cloud Connector Edition 部署的所有認證。 
   
-此 Cmdlet 適用于商務用 Skype 雲端連接器 Edition 2.1。
+此 Cmdlet 適用于商務用 Skype Cloud Connector Edition 2.1。
   
 ```powershell
 Restore-CcCredentials 
@@ -32,7 +32,7 @@ Restore-CcCredentials
 
 ## <a name="detailed-description"></a>詳細描述
 
-Restore-CcCredentials Cmdlet 會清除所有認證，並提示您重新輸入目前商務用 Skype 雲端連接器部署所使用的所有認證。
+Restore-CcCredentials Cmdlet 會清除所有認證，並提示您重新輸入用於目前商務用 Skype 雲端連接器部署的所有認證。
   
 ## <a name="parameters"></a>參數
 
@@ -40,7 +40,7 @@ Restore-CcCredentials Cmdlet 會清除所有認證，並提示您重新輸入目
   
 ## <a name="input-types"></a>輸入類型
 
-無。 Restore-CcCredentials Cmdlet 不接受流水線輸入。
+無。 Restore-CcCredentials Cmdlet 不接受管線傳送的輸入。
   
 ## <a name="return-types"></a>傳回類型
 
@@ -48,7 +48,7 @@ Restore-CcCredentials Cmdlet 會清除所有認證，並提示您重新輸入目
   
 ## <a name="example"></a>範例
 
-下列範例會還原目前雲端連接器部署的所有認證：
+下列範例會還原目前 Cloud Connector 部署的所有認證：
   
 ```powershell
     PS C:\>Restore-CcCredentials

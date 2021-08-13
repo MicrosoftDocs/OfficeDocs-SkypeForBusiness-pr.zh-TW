@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 description: 以下各節將詳細說明 (QoE) 資料庫架構表格中的每個經驗品質各欄。
-ms.openlocfilehash: a7bb3324e1e2143f06a3f8c6bd910de55b9e202c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 42085494d2d302742c2a18b5af17506ba8f79a3ff9812f86b817506ea401d98f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815753"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321595"
 ---
 # <a name="qoe-table-details"></a>QoE 表格詳細資料
  

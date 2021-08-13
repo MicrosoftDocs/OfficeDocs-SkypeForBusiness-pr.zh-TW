@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
 ROBOTS: NOINDEX, NOFOLLOW
-description: 若要開始進行商務用 Skype 伺服器的架構擴充，您可以在 [準備架構] 頁面上開始。 按 [下一步] 繼續準備架構。
-ms.openlocfilehash: bc78b854de98a86def5c06787292b174629b2ac7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 若要啟動工作以擴充商務用 Skype Server 的架構，請從 [準備架構] 頁面開始。 按 [下一步] 繼續準備架構。
+ms.openlocfilehash: f5a98b05ed2ead2bdcbf954d003111f5a4d0fff61eaa09eba024beed20b710a6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49836713"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54324462"
 ---
 # <a name="prepare-schema-intro"></a>準備架構 (簡介)
  
-若要開始進行商務用 Skype 伺服器的架構擴充，您可以在 [ **準備架構** ] 頁面上開始。 按 **[下一步]** 繼續準備架構。
+若要啟動工作以擴充商務用 Skype Server 的架構，請從 [**準備架構**] 頁面開始。 按 **[下一步]** 繼續準備架構。
   
 

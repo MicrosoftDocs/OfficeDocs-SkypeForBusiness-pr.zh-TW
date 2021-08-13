@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - PowerShell
 description: 使用 Get-CsOnlineUser 中的 Cmdlet Windows PowerShell取得貴組織線上使用者商務用 Skype相關資訊。
-ms.openlocfilehash: fa647a7ba80fc649146e2278fb2041343354dead
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 943a3030c8012d56fb5082c5d85cf58aafa228b662f2b045d90c9d3ba97d80aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238538"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323545"
 ---
 # <a name="manage-user-accounts-using-the-online-connector"></a>使用線上連接器管理使用者帳戶
 
@@ -43,7 +43,7 @@ ms.locfileid: "52238538"
 - [在 商務用 Skype 中商務用 Skype清單](manage-user-accounts-using-the-online-connector.md#BKListofUsers)
 
 > [!NOTE]
-> **Set-CsUser** Cmdlet 也包含在一組可供線上系統管理員商務用 Skype Cmdlet。 不過，除了設定 _AudioVideoDisabled_ 參數之外 **，Set-CsUser** 目前無法用來管理 商務用 Skype Online。 如果您嘗試使用任何其他參數執行 Cmdlet，它會失敗，出現錯誤訊息，類似：無法設定「SipAddress」。 此參數在遠端租使用者 PowerShell 中受到限制。
+> **Set-CsUser** Cmdlet 也包含在一組可供線上系統管理員商務用 Skype Cmdlet。 不過，除了設定 _AudioVideoDisabled_ 參數之外 **，Set-CsUser** 目前無法用來管理 商務用 Skype Online。 如果您嘗試使用任何其他參數執行 Cmdlet，它會失敗，出現錯誤訊息類似：無法設定「SipAddress」。 此參數在遠端租使用者 PowerShell 中受到限制。
 
 ### <a name="return-information-about-all-your-skype-for-business-online-users"></a>傳回所有 Lync Online 使用者的相關資訊
 <a name="BKAllUsers"> </a>

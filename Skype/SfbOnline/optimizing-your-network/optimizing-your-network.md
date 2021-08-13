@@ -18,19 +18,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
-description: 下列需求對於確保您為組織所設定之所有線上功能商務用 Skype健康狀態和成功非常重要。 我們知道有些人很技術，這份檔是適合您的，但有些則不是。 如果您需要協助設定線上商務用 Skype，您應該閱讀這份檔，以熟悉您需要考慮的內容。 當您與 Microsoft FastTrack 中心、您的 Microsoft Services 和帳戶小組合作，或與 Microsoft 合作夥伴合作時，或與 Microsoft 合作夥伴合作，瞭解如何符合這些需求時，它也提供您討論的問題。
-ms.openlocfilehash: a32e7864a15945fc9bad64c12466aa376cb924f9
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+description: 下列需求對於確保您為組織設定的所有線上商務用 Skype健康狀態和成功非常重要。 我們知道，您有些人非常技術性-這份檔是適合您的，但有些則不是。 如果您需要協助設定線上商務用 Skype，您應該閱讀這份檔，以熟悉您需要考慮的內容。 當您與 Microsoft FastTrack 中心、您的 Microsoft Services 與帳戶小組合作，或與 Microsoft 合作夥伴合作時，或與 Microsoft 合作夥伴合作，瞭解您如何符合這些需求時，也會為您提供一些可討論的資訊。
+ms.openlocfilehash: 048efdec25b1a84221adb6e765d21918e48c109c2e18ab8f501bae757348c792
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52240223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323655"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>優化您的網路以商務用 Skype Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-下列需求對於確保您為組織所設定之所有線上功能商務用 Skype健康狀態和成功非常重要。 我們知道有些人很技術，這份檔是適合您的，但有些則不是。 如果您需要協助設定線上商務用 Skype，您應該閱讀這份檔，以熟悉您需要考慮的內容。 當您與 [Microsoft FastTrack](https://fasttrack.microsoft.com/office)中心、您的 Microsoft Services 和帳戶小組合作，或與 Microsoft 合作夥伴合作時，或與 [Microsoft](https://partnercenter.microsoft.com/pcv/search) 合作夥伴合作時，也會提供您一些可以討論的問題。
+下列需求對於確保您為組織設定的所有線上商務用 Skype健康狀態和成功非常重要。 我們知道，您有些人非常技術性-這份檔是適合您的，但有些則不是。 如果您需要協助設定線上商務用 Skype，您應該閱讀這份檔，以熟悉您需要考慮的內容。 當您與 Microsoft FastTrack 中心、您的 Microsoft Services[和](https://fasttrack.microsoft.com/office)帳戶小組合作，或與 Microsoft 合作夥伴合作時，或與[Microsoft](https://partnercenter.microsoft.com/pcv/search)合作夥伴合作時，也會提供您一些可以討論的問題。
 
 ## <a name="a-quick-overview"></a>快速概觀
 
@@ -44,7 +44,7 @@ ms.locfileid: "52240223"
 
 - 設定會議的產業強度安全性。
 
-- 線上廣播給大量觀眾。
+- 在線上廣播給大量觀眾。
 
 - 在會議期間展示您的螢幕畫面，或將控制權授予其他人。
 
@@ -52,9 +52,9 @@ ms.locfileid: "52240223"
 
 ## <a name="why-is-this-all-so-important"></a>為什麼這一切這麼重要？
 
-即時媒體的品質 (IP 上) 音訊、視視及應用程式共用的品質受到端對端網路連接品質的嚴重影響。 若要商務用 Skype線上媒體質量，請務必確定公司網路與線上媒體之間商務用 Skype連線。 最好的方法就是根據網路容量來設定內部網路和雲端連線，以容納所有連線中 商務用 Skype Online 的尖峰流量。
+即時媒體的品質 (IP 上) 音訊、視視及應用程式共用的品質受到端對端網路連接品質的嚴重影響。 若要商務用 Skype線上媒體質量，請務必確定公司網路與線上媒體之間商務用 Skype連線。 最好的方法就是根據網路容量來設定內部網路和雲端連線，以容納所有連線中 商務用 Skype Online 的高峰流量。
 
-您可以與[Microsoft](https://partnercenter.microsoft.com/pcv/search)合作夥伴合作，將各種 Microsoft 365 或 Office 365 應用程式 ，包括雲端中的 商務用 Skype Online 連線到您的網路，而 商務用 Skype 即時語音和視訊通訊功能則要求網路服務必須特別配置，以支援這些 Microsoft 365 和 Office 365 即時工作負載。 這包括頻寬足以承載所需流量的網路，且能夠支援服務品質 (QoS) ，為使用者供應商務課程體驗。
+您可以與[Microsoft](https://partnercenter.microsoft.com/pcv/search)合作夥伴合作，將各種 Microsoft 365 或 Office 365 應用程式 ，包括雲端中的 商務用 Skype Online 連線到您的網路，而 商務用 Skype 即時語音和視訊通訊功能則要求網路服務必須特別配置，以支援這些 Microsoft 365 和 Office 365 即時工作負載。 這包括頻寬足以承載所需流量的網路，而且能夠支援服務品質 (QoS) ，為使用者供應商務課程體驗。
 
 除了此處的資訊，還有其他資源可協助您成功規劃及部署商務用 Skype線上服務和功能，並確保您的網路服務符合這些要求：
 
@@ -66,11 +66,11 @@ ms.locfileid: "52240223"
 
 ## <a name="implement-quality-of-service-qos-for-skype-for-business"></a>針對服務 (QoS) 服務品質商務用 Skype
 
-在移商務用 Skype Online 之前，您應該先看看您的網路處理音訊、視視和共用會話流量的能力。 與其他Microsoft 365 Office 365服務一樣，Microsoft 也提供下載[商務用 Skype](https://www.microsoft.com/download/details.aspx?id=19011)頻寬計算機，用來判斷每個公司網站所需的網路流量。 您應該執行使用方式模型，包括建立即時通訊流量媒體流量模型，以及每個公司位置的 商務用 Skype 流量量、計算流量，以及分析流量如何影響整體網路。 完成之後，分析此資料應提供網路需要改善的位置建議，並建議佇列大小，以提供絕佳的使用者體驗。
+在移商務用 Skype Online 之前，您應該先瞭解網路處理音訊、視視和共用會話流量的能力。 與其他Microsoft 365 Office 365服務一樣，Microsoft 也提供下載[商務用 Skype](https://www.microsoft.com/download/details.aspx?id=19011)頻寬計算機，用來判斷每個公司網站所需的網路流量。 您應該執行使用方式模型，包括建立即時通訊流量媒體流量模型，以及每個公司位置的 商務用 Skype 流量量、計算流量，以及分析流量如何影響整體網路。 完成之後，分析此資料應提供網路需要改善的位置建議，並建議佇列大小，以提供絕佳的使用者體驗。
 
 商務用 Skype流量對封包遺失、延遲和抖動十分敏感，這些在塞塞網路中經常發生。 服務品質 (QoS) 也稱為服務類別 -也必須部署在受管理的外部 WAN、受管理的內部 LANs 和企業型 WiFi 網路上。 這可協助正確商務用 Skype即時流量的優先順序，例如音訊和視音訊，而超過本地網路和 WAN 的其他非即時流量，為使用者創造更好的體驗。
 
-商務用 Skype音訊必須部署在 EF (快速轉轉 - DSCP 46) 佇列和 商務用 Skype 影片中必須部署在 AF41 (保證轉轉 - DSCP 34) 佇列中。 即使對等和會議流量也是如此，無論 電話系統 或 Microsoft 365 Office 365 或其他電話功能是否部署。
+商務用 Skype音訊必須部署在 EF (快速轉轉 - DSCP 46) 佇列和 商務用 Skype 影片中，必須部署在 AF41 (保證轉轉 - DSCP 34) 佇列中。 即使對等和會議流量也是如此，無論 電話系統 或 Microsoft 365 Office 365 或其他電話功能是否部署。
 
 雖然其他 IP 電話產品的 LAN 和 WAN 中可能已經有現有的 QoS 政策，商務用 Skype 可讓使用者在使用服務時行動，以及從位置移至不同位置。 因此，QoS 策略必須在 LAN、WAN 和無線網路上標示，以確保所有流量商務用 Skype管理網路優先處理。
 
@@ -82,7 +82,7 @@ ms.locfileid: "52240223"
 
 ## <a name="bypass-proxies-and-wan-optimization-devices"></a>忽略代理和 WAN 優化裝置
 
-所有Microsoft 365或Office 365線上商務用 Skype加密，通常無法由 Proxy 裝置檢查。 基於這些原因，我們建議您忽略所有 Microsoft 365 和 Office 365 的 Proxy 裝置，定義為使用者與 Office 365 URL 和 IP 位址[範圍之間的連結](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。 由於 Proxy 裝置可能會延遲即時商務用 Skype線上媒體流，我們強烈建議您至少忽略該流量的 Proxy 裝置。
+所有Microsoft 365或Office 365線上商務用 Skype加密，通常無法由 Proxy 裝置檢查。 基於這些原因，我們建議您忽略所有 Microsoft 365 和 Office 365 網路流量的 Proxy 裝置，定義為使用者與 Office 365 URL 和[IP](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)位址範圍之間的連結。 由於 Proxy 裝置可能會延遲即時商務用 Skype線上媒體流，我們強烈建議您至少忽略該流量的 Proxy 裝置。
 
 Microsoft 建議排除Microsoft 365 Office 365使用 PAC 檔案傳送Microsoft 365 Office 365流量到防火牆的 URL。
 
@@ -90,7 +90,7 @@ Microsoft 建議排除Microsoft 365 Office 365使用 PAC 檔案傳送Microsoft 3
 
 - [Microsoft 365比較Office 365比較基準與績效歷程記錄來調整或調整績效](https://support.office.com/article/1492cb94-bd62-43e6-b8d0-2a61ed88ebae)
 
-- [適用于或移Microsoft 365的網路Office 365](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
+- [網路與移Microsoft 365移Office 365](https://support.office.com/article/f5ee6c33-bcd7-4b0b-b0f8-dc1d9fb8d132)
 
 - [Office 365Proxy Pac 產生器](https://gallery.technet.microsoft.com/Office-365-Proxy-Pac-60fb28f7)
 
@@ -105,7 +105,7 @@ Microsoft 建議排除Microsoft 365 Office 365使用 PAC 檔案傳送Microsoft 3
 防止流量商務用 Skype VPN 管道的其中一個選項是分割管道。 若要執行分割-分流，客戶應諮詢其 VPN 廠商如何在其軟體中執行此操作的具體資料。
 
 > [!NOTE]
-> 這僅適用于商務用 Skype工作負載，不適用於其他Microsoft 365或Office 365服務。
+> 這僅適用于媒體商務用 Skype，不適用於其他Microsoft 365或Office 365服務。
 
 其他資源：
 
@@ -119,7 +119,7 @@ Microsoft 建議排除Microsoft 365 Office 365使用 PAC 檔案傳送Microsoft 3
 
 客戶必須確保服務或服務所需的 URL 和 IP 位址Microsoft 365 Office 365。 有關線上版的所有 IP 位址和 URL 的完整商務用 Skype，請參閱OFFICE 365 URL 和[IP 位址範圍](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2)。
 
-商務用 Skype用戶端會使用各種埠和通訊協定。 商務用 Skype 會話的網路流量方向和流程會因互動類型 (對等與多方) 以及內容共用和語音/視像的使用而有所差異。 您必須檢查並開啟埠和通訊協定清單，並特別注意來源和目的地埠。 例如，音訊流量在用戶端只使用 20 個埠 (50000-50019 TCP/UDP) ，但目的地埠可能位於 10K 埠範圍 (50000-59999 TCP/UDP) 服務端的任何位置。 這也包括在防火牆上開啟 TCP 443 和 UDP 3478。
+商務用 Skype用戶端會使用各種埠和通訊協定。 商務用 Skype 會話的網路流量方向和流程會因互動類型 (對等與多方) 以及內容共用和語音/視像的使用而有所差異。 您必須檢查並開啟埠和通訊協定清單，並特別注意來源和目的地埠。 例如，音訊流量在用戶端只使用 20 個埠 (50000-50019 TCP/UDP) ，但目的地埠可能位於服務端 10K 埠範圍 (50000-59999 TCP/UDP) 的任何位置。 這也包括在防火牆上開啟 TCP 443 和 UDP 3478。
 
 可能需要其他網路組組才能支援 商務用 Skype Online。
 
@@ -128,9 +128,9 @@ Microsoft 建議排除Microsoft 365 Office 365使用 PAC 檔案傳送Microsoft 3
 
 在即時媒體會話中，所有參與者使用的媒體裝置 ，例如耳機和網路相機，對整體音訊和視音訊品質有很大的影響。 品質較低的裝置或裝置，如果裝置磁碟機不正確，則會產生較低的音訊整體音效品質，以及較低的視像品質。 另一方面，經過認證的裝置或品質良好的裝置可協助消除回音、雜訊篩選、視像解析度並減少延遲。
 
-手機和裝置對於使用者的音訊和視音訊品質有極大的影響。 商務用 Skype認證計畫是「Lync 相容」計畫的演進，並驗證裝置是否符合 Microsoft 的音訊和視音訊標準。 Microsoft 已測試並認證許多 IP 電話、USB 音訊和視像裝置、電腦和會議室裝置。 您應該查看針對 商務用 Skype 優化的裝置清單，並努力提供不同的裝置，以滿足貴組織中使用者的各種需求和個人喜好設定。
+手機和裝置對於使用者的音訊和視音訊品質有極大的影響。 商務用 Skype認證計畫是「Lync 相容」計畫的演進，並驗證裝置是否符合 Microsoft 的音訊和視音訊標準。 Microsoft 已經測試並認證許多 IP 電話、USB 音訊和視像裝置、電腦和會議室裝置。 您應該查看針對 商務用 Skype 優化的裝置清單，並努力提供不同的裝置，以滿足貴組織中使用者的各種需求和個人喜好設定。
 
-請參閱下列內容，以進一步瞭解支援與認證裝置的資訊：  
+請參閱下列內容，以進一步瞭解有關支援與認證裝置的資訊：  
 
 - [取得商務用 Skype Online 的電話](../what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md)
 

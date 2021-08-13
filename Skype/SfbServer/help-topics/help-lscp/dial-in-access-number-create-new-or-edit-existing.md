@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 2430352629fe55d5f3ad1037c08e667fb3987bea
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 29592126ae2d62b74c164374215fbc69a4d34801f6a24196639cfe377507cd6d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115261"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54321925"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>電話撥入式會議存取號碼：建立新的或編輯現有
 

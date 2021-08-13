@@ -21,12 +21,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92a103262c0d6f997ace41fa0f1d6240452bb8d1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: de08e353a64d2b82c5d13baaeac54fcb7b2c70e0ca7a94eff31c22f01d1fb93a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51094369"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340459"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音訊會議
 
@@ -69,7 +69,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 
 ### <a name="conferencing-bridges-and-phone-numbers"></a>會議橋接器和電話號碼
 
-會議橋接器可讓與會者使用電話撥入會議。 您可以使用會議橋接器的預設設定，或變更電話號碼 (付費和免付費) 以及其他設定，例如 PIN 或使用的語言。
+會議橋接可讓人員使用電話撥入會議。您可使用會議橋接的預設設定，或變更電話號碼 (付費及免付費電話) 與其他設定，例如 PIN 或所使用的語言。
 
 如需詳細資訊，請參閱[音訊會議](audio-conferencing-in-office-365.md)。
 
@@ -92,7 +92,7 @@ Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
 
 ### <a name="conferencing-bridge-settings"></a>會議橋接器設定 
 
-設定會議橋接 (包括預設和替代語言) 後，您應確認預設設定 (例如，進入/退出通知和 PIN 長度) 就是您要使用的設定。 如果不是，您可加以變更。 
+設定會議橋接 (包括預設和替代語言) 後，您應確認預設設定 (例如，進入/退出通知和 PIN 長度) 就是您要使用的設定。如果不是，您可加以變更。 
 
 |問問自己|動作 |
 |------------|-------|
@@ -161,4 +161,4 @@ Teams 有兩種方式可供您監視和疑難排解通話品質問題：[通話�
 ## <a name="next-steps"></a>後續步驟
 - 組織中音訊會議的[驅動採用率](adopt-microsoft-teams-landing-page.md)。
 - [推出雲端語音](cloud-voice-landing-page.md)
-- 在您的 Teams 初始推出中包含精選應用程式，例如 Planner。 在開始推動 Teams 的採用時，則新增其他[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
+- 在您的 Teams 初始推出中請包括精選應用程式，例如 Planner。在開始推動 Teams 的採用時，請新增其他[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。

@@ -24,22 +24,22 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: '瞭解如何設定您的網域、使用者、IM 和目前狀態，讓貴組織安裝商務用 Skype。 另請參閱如何設定音訊會議、電話系統通話方案，以及Skype廣播。 '
-ms.openlocfilehash: fcca1a3181ca0f5753fd53811290d710e8030064
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 9d8c68468cbceb1e7ab7e2c5d3a9a268b382fa13ec42d78d03269dc9764fb770
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52239805"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340289"
 ---
 # <a name="set-up-skype-for-business-online"></a>設定商務用 Skype Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-您必須擁有全域系統管理員許可權，才能設定商務用 Skype。 如果您有限制網頁部分存取的防火牆或 Proxy 伺服器，請考慮雇用[Microsoft](https://go.microsoft.com/fwlink/?linkid=391089)合作夥伴來商務用 Skype帳戶。
+您必須擁有全域系統管理員許可權，才能設定商務用 Skype。 如果您的防火牆或 Proxy 伺服器會限制對網頁部分的存取權限，請考慮雇用[Microsoft](https://go.microsoft.com/fwlink/?linkid=391089)合作夥伴來商務用 Skype帳戶。
 
 ## <a name="setting-up-skype"></a>設定Skype
 
-您似乎需要協助Skype訂閱Microsoft 365 Office 365帳戶。 您可以按照本文中的步驟完成設定。
+您似乎需要協助設定Skype訂閱Microsoft 365 Office 365帳戶。 您可以按照本文中的步驟完成設定。
 
 ## <a name="1-plan-for-skype-for-business"></a>1. 規劃商務用 Skype
 
@@ -56,7 +56,7 @@ ms.locfileid: "52239805"
 ## <a name="2-sign-in-to-office-365"></a>2. Office 365
 <a name="bkmk_signin"> </a>
 
-商務用 SkypeOnline 是服務Office 365的一部分。 若要設定 商務用 Skype Online，您必須在 Office 365。 以下是您執行此工作的原因：
+商務用 SkypeOnline 是服務Office 365的一部分。 若要在 商務用 Skype線上設定，您必須Office 365。 以下是您執行此工作的原因：
 
 1. 尋找您的Microsoft 365或Office 365使用者識別碼 (例如<em>，rob@fourthcoffee.com) 。</em> 您收到來自 Microsoft Online Services 小組的電子郵件，其中包含您Microsoft 365或Office 365購買線上版時所建立商務用 Skype識別碼。 郵件看起來像這樣：
 
@@ -73,16 +73,16 @@ ms.locfileid: "52239805"
 
 2. [檢查您的網域和 DNS 連接](https://support.office.com/article/2b54e1b0-47a7-4018-a1e4-c2b924e7c5a0)：使用我們的工具 -網域疑難排解員 -檢查您的網域和 DNS 設定是否正確。 現在這麼做有助於日後找出任何設定問題，因為您可以排除 DNS 設定做為未來問題的來源。
 
-3. Office 365 URL 和[IP 位址範圍](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO)：大部分小型企業不需要執行此步驟。 **但是，如果您有防火牆或** Proxy 伺服器限制對網頁部分的存取權限，您必須建立規則，以允許存取線上商務用 Skype端點。 這是一個進一步步驟，最好由具有防火牆和 Proxy 伺服器組組經驗的人執行。 如果您之前尚未這麼做，請考慮雇用[Microsoft 合作夥伴](https://go.microsoft.com/fwlink/?linkid=391089)來商務用 Skype您的帳戶。
+3. Office 365 URL 和[IP 位址範圍](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2#BKMK_LYO)：大多數小型企業不需要執行此步驟。 **但如果您有防火牆或** Proxy 伺服器限制對網頁部分的存取權限，您必須建立規則，允許存取線上商務用 Skype端點。 這是一個進一步步驟，最好由具有防火牆和 Proxy 伺服器組組經驗的人執行。 如果您之前尚未這麼做，請考慮雇用[Microsoft 合作夥伴](https://go.microsoft.com/fwlink/?linkid=391089)來商務用 Skype您的帳戶。
 
 ## <a name="4-set-up-im-and-presence-in-your-organization"></a>4. 在貴組織中設定 IM 和目前狀態
 <a name="bkmk_IM"> </a>
 
-立即訊息 (IM) 和目前狀態 ([控制](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)在 商務用 Skype) 中您目前狀態資訊的存取權是 商務用 Skype。 根據預設，企業中的人員可以Skype和 IM。
+立即訊息 (IM) 和目前狀態 ([控制](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)您目前狀態資訊在 商務用 Skype) 中存取權是 商務用 Skype。 根據預設，企業中的人員可以Skype和 IM。
 
 1. **選擇您的其他商務用 Skype使用者可以與誰通訊：**
 
-   - [允許使用者與外部使用者商務用 Skype聯絡](allow-users-to-contact-external-skype-for-business-users.md)您 *和其他* 企業都需要設定系統。
+   - [允許使用者與外部使用者商務用 Skype聯絡](allow-users-to-contact-external-skype-for-business-users.md)您 *和其他* 企業都需要設定您的系統。
 
      **重要**：如果您的企業有兩個網域，例如 rob@contosowest.com 和 ina@contosoeast.com，您必須執行此步驟，讓所有使用者能夠彼此通訊。
 
@@ -98,14 +98,14 @@ ms.locfileid: "52239805"
 
    - 只向連絡人顯示某人的線上目前狀態
 
-有關指示，請參閱在 商務用 Skype [Online 中設定目前狀態](configure-presence-in-skype-for-business-online.md)。
+有關指示，請參閱在線上[商務用 Skype目前狀態](configure-presence-in-skype-for-business-online.md)。
 
 ## <a name="5-download-and-install-skype-for-business"></a>5. 下載並安裝商務用 Skype
 <a name="bkmk_download"> </a>
 
 若要在商務用 Skype Mac 或行動裝置上使用，您和公司中的其他人必須先在裝置上商務用 Skype下載。
 
-- [安裝商務用 Skype：](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)如何從系統管理中心下載應用程式Microsoft 365，以及如何在 PC 或 Mac 上安裝。
+- [安裝商務用 Skype：](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)說明如何從應用程式下載應用程式Microsoft 365 系統管理中心，並安裝在您的電腦或 Mac 上。
 
 - [在 商務用 Skype 部署](deploy-the-skype-for-business-client-in-office-365.md)Office 365 用戶端：在大型企業中部署應用程式的指示。
 
@@ -131,11 +131,11 @@ ms.locfileid: "52239805"
 
 ### <a name="set-up-audio-conferencing"></a>設定音訊會議
 
-有時候，貴組織的人需要使用電話來加入會議。 商務用 Skype音訊會議功能， 使用者可以使用電話商務用 Skype會議，而不是在行動裝置商務用 Skype或 PC 上使用應用程式。
+有時候，貴組織中的人需要使用電話來加入會議。 商務用 Skype音訊會議功能， 使用者可以使用電話商務用 Skype會議，而不是在行動裝置商務用 Skype或 PC 上使用應用程式。
 
-### <a name="set-up-phone-system-and-the-calling-plans-in-office-365"></a>在 電話系統中設定通話和通話Office 365
+### <a name="set-up-phone-system-and-the-calling-plans-in-office-365"></a>在 電話系統中設定通話方案Office 365
 
-電話系統的Office 365功能，可為您供應商務用電話系統。 您可以免費商務用 Skype組織的其他人員通話，而且您的員工可以接收彼此和外部來電者的語音信箱。 以下是您取得電話系統。
+電話系統的Office 365功能，提供您商務用的電話系統。 您可以免費商務用 Skype組織的其他人員通話，而且您的員工可以接收彼此和外部來電者的語音信箱。 以下是您取得電話系統。
 
 當您新增通話方案服務時，您的員工會于 商務用 Skype。 他們可以撥打和接聽公司外的電話。 他們可以在 VoIP 電話、電腦和行動裝置上撥打語音通話。 萬一發生緊急事件，他們可以撥打 911 以尋找協助。
 
@@ -158,7 +158,7 @@ Skype會議廣播功能可讓您製作、主持及廣播多達 10，000 位出�
 ## <a name="learn-about-network-connectivity-requirements"></a>瞭解網路連接需求
 <a name="bkmk_more"> </a>
 
-網路中音訊、視商務用 Skype和應用程式共用的品質受到端對端網路連接品質的嚴重影響。 為了獲得最佳體驗，請務必確定公司網路與線上網路之間商務用 Skype連線。 有關網路和調整資訊，請參閱調整[商務用 Skype線上績效](https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802)。
+網路中音訊、視商務用 Skype和應用程式共用的品質受到端對端網路連接品質的嚴重影響。 為了獲得最佳體驗，請務必確保您的公司網路與線上商務用 Skype連線。 有關網路和調整資訊，請參閱調整[商務用 Skype線上績效](https://support.office.com/article/beec23c2-c5d6-4e84-a8af-e82aefca7802)。
 
 ## <a name="all-done-setting-up-getting-started-using-skype-for-business"></a>全部設定完成嗎？ 開始使用商務用 Skype
 <a name="bkmk_more"> </a>

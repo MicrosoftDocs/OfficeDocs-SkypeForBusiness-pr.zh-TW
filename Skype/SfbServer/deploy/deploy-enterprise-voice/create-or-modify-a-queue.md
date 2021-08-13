@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
-description: 在商務用 Skype Server Enterprise Voice 中建立或修改回應群組佇列。
-ms.openlocfilehash: b355cde0d8a99938538488152276a6c8eb4c6d4b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在商務用 Skype Server 企業語音中建立或修改回應群組佇列。
+ms.openlocfilehash: d8b875063d37d38ece7a6ec59c9b0bffbb16ee091e31f67087eb2cc0b52616e6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103579"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338741"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>在商務用 Skype 中建立或修改佇列
  
-在商務用 Skype Server Enterprise Voice 中建立或修改回應群組佇列。
+在商務用 Skype Server 企業語音中建立或修改回應群組佇列。
   
 佇列會使來電者等候，直到代理接聽電話為止。 當回應群組應用程式搜尋可用的代理程式時，它會依照列出的順序來搜尋代理人群組。 您可以選取指派給佇列的代理群組，並指定佇列行為，例如限制佇列中可以包含的電話數目，以及限制在代理接聽電話之前，電話等候的時間長度。
   
@@ -38,7 +38,7 @@ ms.locfileid: "51103579"
     > [!NOTE]
     > 如果您是受管理工作流程的其中一位委派回應群組管理員，您可以建立或修改回應群組佇列，並將其指派給您管理的工作流程。 
   
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。  
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。  
     
 3. 在左導覽列中，按一下 **[回應群組]**，然後按一下 **[佇列]**。
     
@@ -99,14 +99,14 @@ ms.locfileid: "51103579"
     
 10. 按一下 **[認可]**。
     
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>使用商務用 Skype Server 管理命令介面來建立或修改佇列
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-queue"></a>若要使用商務用 Skype Server 管理命令介面來建立或修改佇列
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分登入，或是以支援回應群組之其中一個預先定義的系統管理角色的成員身分登入。
     
     > [!NOTE]
     > 如果您是受管理工作流程的其中一位委派回應群組管理員，則可以建立代理人群組和佇列，並將代理群組指派給佇列。 
   
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 建立當達到佇列的超時臨界值時要播放的提示，並將它儲存在變數中。 在命令列中執行：
     
@@ -195,7 +195,7 @@ ms.locfileid: "51103579"
    $q = New-CsRgsQueue -Parent $serviceId -Name "Help Desk" -Description "Contoso Help Desk" -TimeoutThreshold 300 -TimeoutAction $actionTO -OverflowThreshold 10 -OverflowCandidate NewestCall -OverflowAction $actionOV -AgentGroupIDList($agid.Identity;
    ```
 
-10. 確認已建立佇列。 執行：
+10. 確認已建立佇列。 運行：
     
     ```powershell
     Get-CsRgsQueue -Name "Help Desk"

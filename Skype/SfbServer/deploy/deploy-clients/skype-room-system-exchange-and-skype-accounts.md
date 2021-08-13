@@ -1,5 +1,5 @@
 ---
-title: 布建 Skype 室系統交換和 Skype 帳戶的布建
+title: 布建 Skype 房間系統 Exchange 和 Skype 帳戶
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
-description: 請閱讀下列主題，以瞭解如何布建 Skype 會議室系統的 Exchange 和 Skype 帳戶。
-ms.openlocfilehash: 0e8c73bc83a62465dc711b4a6f2725f1d9c576f8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 請閱讀下列主題，以瞭解如何布建 Exchange 和 Skype 帳戶 Skype 的會議室系統。
+ms.openlocfilehash: bee430c434a710f0560e78eef9ebce31d198549fdb4ee9a88861afb5ab9e8760
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113059"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338881"
 ---
-# <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>布建 Skype 室系統交換和 Skype 帳戶的布建
+# <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>布建 Skype 房間系統 Exchange 和 Skype 帳戶
  
-請閱讀下列主題，以瞭解如何布建 Skype 會議室系統的 Exchange 和 Skype 帳戶。 
+請閱讀下列主題，以瞭解如何布建 Exchange 和 Skype 帳戶 Skype 的會議室系統。 
 
 > [!NOTE]
-> Microsoft 團隊聊天室是不同的產品，具有不同的相依性和部署程式。 如需 Microsoft 小組聊天室的詳細資訊，請參閱 Microsoft 團隊聊天室 [部署概述](/MicrosoftTeams/rooms/rooms-deploy)。
+> Microsoft Teams 會議室不同的產品，具有不同的相依性和部署程式。 如需 Microsoft Teams 會議室的詳細資訊，請參閱 Microsoft Teams 會議室[部署概述](/MicrosoftTeams/rooms/rooms-deploy)。
   
 > [!NOTE]
-> Skype 會議室系統帳戶布建取決於您的組織所擁有的拓撲類型。 若要瞭解 Active Directory 拓撲的詳細資訊，請參閱 [商務用 Skype Server 2015 的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。 
+> Skype會議室系統帳戶布建取決於您的組織所擁有的拓撲類型。 若要瞭解 Active Directory 拓撲的詳細資訊，請參閱[商務用 Skype Server 2015 的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。 
   
-## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>布建 Skype 室系統 Exchange &amp; 商務用 Skype 帳戶的布建
+## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Exchange 商務用 Skype 帳戶布建 Skype 房間系統 &amp;
 
-下列主題說明如何布建及管理 Skype 室系統交換和商務用 Skype 帳戶：
+下列主題說明如何布建及管理 Skype 的會議室系統 Exchange 和商務用 Skype 帳戶：
   
 - 單一樹系內部部署
     
@@ -42,6 +42,6 @@ ms.locfileid: "51113059"
     
 - 混合式部署
     
-- Skype 會議室系統和商務用 Skype 同盟合作夥伴
+- Skype會議室系統和商務用 Skype 同盟合作夥伴
     
 - 管理 Skype 會議室系統帳戶

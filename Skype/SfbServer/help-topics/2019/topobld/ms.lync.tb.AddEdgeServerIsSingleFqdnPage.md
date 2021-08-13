@@ -15,17 +15,17 @@ localization_priority: Normal
 ms.assetid: 44d98453-cb41-49cd-99cb-52b6ebd2d559
 ROBOTS: NOINDEX, NOFOLLOW
 description: Edge Server 單一 FQDN 頁面上的資訊。
-ms.openlocfilehash: 90107da2587f4eb8e6cfeaa6eeb6a39a26ba5adb
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 69b16b0d7d7bfeff174cd001be3693a13aa2f221b2e39bdadfc89cd7edc75c15
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800993"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338551"
 ---
 # <a name="add-edge-server-with-single-fqdn-page"></a>透過單一 FQDN 頁面新增 Edge Server
  
 Edge Server 單一 FQDN 頁面上的資訊。
   
-如需 Edge 部署的詳細資訊，請參閱 [在商務用 Skype server 中部署 Edge server](../../../deploy/deploy-edge-server/deploy-edge-server.md)
+如需 Edge 部署的詳細資訊，請參閱[Deploy edge Server in 商務用 Skype Server](../../../deploy/deploy-edge-server/deploy-edge-server.md)
   
 

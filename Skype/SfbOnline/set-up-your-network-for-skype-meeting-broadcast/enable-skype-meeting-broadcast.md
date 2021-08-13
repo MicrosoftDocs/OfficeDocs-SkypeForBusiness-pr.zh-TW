@@ -19,19 +19,19 @@ f1.keywords:
 ms.custom:
 - SMB
 description: 在貴組織中人員使用會議廣播Skype之前，您必須啟用它。 若要這麼做，您必須知道如何使用Windows PowerShell。 如果您不知道Windows PowerShell，請考慮雇用 Microsoft 合作夥伴來執行此步驟。
-ms.openlocfilehash: 6cdd7f12483025697b139203907f87f9cd3dc764
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 99e5464ac092f30edf2667dbfd772b11c41ca4a795893e1e3415a54cf566ee44
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237009"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54339261"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>啟用 Skype 會議廣播
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> 商務用 SkypeOnline 將于 2021 年 7 月 31 日終止服務存取權。 我們鼓勵客戶開始升級至 Microsoft Teams 中通訊和團隊合作的核心用戶端 Microsoft 365。
+> 商務用 SkypeOnline 將于 2021 年 7 月 31 日停用，此時將結束服務存取權。 我們鼓勵客戶開始升級至 Microsoft Teams 中通訊和團隊合作的核心用戶端 Microsoft 365。
 
 在貴組織中人員使用會議廣播Skype之前，您必須啟用它。 若要這麼做，您必須知道如何使用Windows PowerShell。 如果您不知道Windows PowerShell，請考慮雇用[Microsoft 合作夥伴](https://go.microsoft.com/fwlink/?linkid=391089)來執行此步驟。
 

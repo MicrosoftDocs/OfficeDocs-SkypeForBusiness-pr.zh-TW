@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
-description: CcCACertificate Cmdlet 會更新接近到期或已到期的商務用 Skype 雲端連接器版本根 CA 憑證。 此命令已在雲端連接器2.0 和更新版本中變更為 CcCACertificate。
-ms.openlocfilehash: e92709cd1da0ffccd2b356000dbd2345ba56a1d9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Renew-CcCACertificate Cmdlet 會更新接近到期或已到期的商務用 Skype Cloud Connector Edition 根 CA 憑證。 在雲端連接器2.0 和更新版本中，此命令已變更為 Update-CcCACertificate。
+ms.openlocfilehash: 49b58e18d6393d5a3f9665fea98cba73f22d9c3259f0036dc93dce9dbf67e567
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824269"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54340779"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
-CcCACertificate Cmdlet 會更新接近到期或已到期的商務用 Skype 雲端連接器版本根 CA 憑證。 此命令已在雲端連接器2.0 和更新版本中變更為 CcCACertificate。
+Renew-CcCACertificate Cmdlet 會更新接近到期或已到期的商務用 Skype Cloud Connector Edition 根 CA 憑證。 在雲端連接器2.0 和更新版本中，此命令已變更為 Update-CcCACertificate。
   
 ```powershell
 Renew-CcCACertificate
@@ -37,7 +37,7 @@ Renew-CcCACertificate
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會續約根 CA 憑證： 
+下列範例會續訂根 CA 憑證： 
   
 ```powershell
 Renew-CcCACertificate 
@@ -46,18 +46,18 @@ Renew-CcCACertificate
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-雲端連接器根 CA 憑證的有效期是從已安裝憑證授權單位服務的日期起五年後才能生效。
+雲端連接器根 CA 憑證的有效期為從安裝憑證授權服務的日期起五年。
   
-如果根憑證接近到期或已到期，請執行 CcCACertificate Cmdlet 來更新憑證。 更新根憑證之後，AD Server、管理中心儲存區和 Edge 伺服器將會自動頒發新的憑證。
+如果根憑證接近到期或已到期，請執行 Renew-CcCACertificate Cmdlet 以更新憑證。 在續訂根憑證之後，就會自動為 AD 伺服器、中央管理存放區和 Edge Server 發出新的憑證。
   
-如果同一個 PSTN 網站中有多個裝置，請在相同 PSTN 網站的所有裝置中執行 CcCACertificate Cmdlet。
+如果同一 PSTN 網站有多個裝置，請在相同 PSTN 網站的所有裝置中執行 Renew-CcCACertificate Cmdlet。
   
-最後一個步驟是執行 Export CcRootCertificate，將根憑證匯出到第一個裝置中的本機檔案，然後將匯出的憑證複製並安裝到 PSTN 閘道。
+最後一個步驟是執行 Export-CcRootCertificate，將根憑證匯出至第一個裝置中的本機檔案，然後將匯出的憑證複製並安裝至您的 PSTN 閘道。
   
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>
 
-無。 CcCACertificate Cmdlet 不接受流水線輸入。
+無。 Renew-CcCACertificate Cmdlet 不接受管線傳送的輸入。
   
 ## <a name="return-types"></a>傳回類型
 <a name="ReturnTypes"> </a>

@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: 在商務用 Skype Server Enterprise Voice 中建立或修改回應群組的上班時間。
-ms.openlocfilehash: d4a8101749e7fde06fc4c3d88ab343eb6e4d0f1d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 在商務用 Skype Server 企業語音中建立或修改回應群組的上班時間。
+ms.openlocfilehash: 37195633064ab04f3d24f56b09760fb44b2ddd473da316898d1106cc13ef4bc3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51103669"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338701"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a> (選用) 在商務用 Skype 中定義回應群組上班時間 
  
-在商務用 Skype Server Enterprise Voice 中建立或修改回應群組的上班時間。
+在商務用 Skype Server 企業語音中建立或修改回應群組的上班時間。
   
 ## <a name="defining-business-hours"></a>定義上班時間
 
 上班時間設定定義工作流程何時可以接聽來電，並指定要對上班時間以外的來電採取的動作。 回應群組管理員可以使用 **CsRgsHoursOfBusiness** 指令程式來建立您可以用於任何回應群組數目的預先定義排程。
   
 > [!TIP]
-> 當您建立或修改工作流程時，您可以指定僅適用于該工作流程的自訂排程。 如需詳細資訊，請參閱 [在商務用 Skype 中設計及建立回應群組工作流程](designing-and-creating-response-group-workflows.md)。 
+> 當您建立或修改工作流程時，您可以指定僅適用于該工作流程的自訂排程。 如需詳細資訊，請參閱[在商務用 Skype 中設計及建立回應群組工作流程](designing-and-creating-response-group-workflows.md)。 
   
 > [!NOTE]
 > 如果工作流程定義為受管理的工作流程，則獲指派 CsResponseGroupManager 角色的任何使用者都可以為其管理的工作流程設定及修改自訂的上班時間。 
@@ -41,7 +41,7 @@ ms.locfileid: "51103669"
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分登入，或是以支援回應群組之其中一個預先定義的系統管理角色的成員身分登入。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 對於您要定義的每個唯一時間範圍，請執行：
     

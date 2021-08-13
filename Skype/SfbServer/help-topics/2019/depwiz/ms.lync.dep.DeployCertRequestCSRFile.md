@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要建立離線要求，您必須先 (CSR) 建立憑證簽署要求。 在 [檔案名] 文字方塊中，輸入 CSR 的路徑和檔案名。 您可以按一下 [流覽] 來選擇建立 CSR 的位置。 按 [下一步] 繼續。
-ms.openlocfilehash: b100737e230a5ea627cfbe1759d010da88fb3eca
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 7883380ecf17c5fdb514c249f598fa231110fac4773af179b4c908ca8a70b8ea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801893"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338681"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>憑證要求 (憑證簽署要求)
  

@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
-description: 摘要：瞭解如何刪除商務用 Skype 伺服器的封存原則。
-ms.openlocfilehash: 2baad7d862b1b6739019a4459492bfb3b67e04cc
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：瞭解如何刪除商務用 Skype Server 的封存原則。
+ms.openlocfilehash: bee5cb3d48c079f0c918e15c607c163f3f67aea9e1dfed92309700b1795c699d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095387"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320245"
 ---
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除現有的封存原則
 
-**摘要：** 瞭解如何刪除商務用 Skype 伺服器的封存原則。
+**摘要：** 瞭解如何刪除商務用 Skype Server 的封存原則。
   
-您可以刪除使用者原則或網站原則，但不能刪除全域原則。 如果您刪除全域原則，商務用 Skype 伺服器會自動將原則重設為預設值。
+您可以刪除使用者原則或網站原則，但不能刪除全域原則。 如果您刪除全域原則，商務用 Skype Server 會自動重設為預設值的原則。
   
 ## <a name="delete-a-policy-by-using-the-control-panel"></a>使用控制台刪除原則
 
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。 
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左側導覽列中，依序按一下 **[監控和封存]** 和 **[封存原則]**。
     

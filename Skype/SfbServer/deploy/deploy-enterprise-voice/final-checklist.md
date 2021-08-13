@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
-description: 在商務用 Skype Server Enterprise Voice 中 (CAC) 部署通話許可控制的最終檢查清單。
-ms.openlocfilehash: d3a6484e35225627c8f22002823eff7fd5939694
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在商務用 Skype Server 企業語音中 (CAC) 部署通話許可控制的最終檢查清單。
+ms.openlocfilehash: 89893e846d37a2a10cbf33de53b8426a0b9d3d642846455e1415991903b0f3e3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830833"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338731"
 ---
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>通話許可控制部署：商務用 Skype Server 的最終檢查清單
  
-在商務用 Skype Server Enterprise Voice 中 (CAC) 部署通話許可控制的最終檢查清單。 
+在商務用 Skype Server 企業語音中 (CAC) 部署通話許可控制的最終檢查清單。 
   
 使用下列檢查清單，確認您已完成所有必要的設定工作，以將通話許可控制部署 (CAC) 。
   
@@ -34,11 +34,11 @@ ms.locfileid: "49830833"
     > [!NOTE]
     > 不需要 Edge Server 來執行 CAC。 
   
-- 確定已啟用 CAC，如在 [商務用 Skype Server 中的 [啟用通話許可控制](enable-call-admission-control.md)] 中所指定。
+- 確定已啟用 CAC，如在[商務用 Skype Server 中啟用通話許可控制](enable-call-admission-control.md)中所指定。
     
 - 確定所有中央網站皆已啟用 CAC。 這可以透過拓撲產生器來完成。 如果您發佈時產生警告，  *請勿*  略過。
     
-- 請確定 [網路設定] 中已設定商業網路中所管理的所有子網。 將每個子網與網路網站相關聯也是必要的，如在 [商務用 Skype 中部署網路地區、網站和子網](deploy-network.md)所述。
+- 請確定 [網路設定] 中已設定商業網路中所管理的所有子網。 將每個子網與網路網站相關聯也是必要的，如在[商務用 Skype 中部署網路地區、網站和子網](deploy-network.md)所述。
     
 - 請確定所有前端伺服器、Survivable 分支裝置 (Sba) 、Audio/Video 會議服務器 (如在不同的集區) 中，以及在 [網路設定] 中設定轉送伺服器時的子網或 IP 位址。
     

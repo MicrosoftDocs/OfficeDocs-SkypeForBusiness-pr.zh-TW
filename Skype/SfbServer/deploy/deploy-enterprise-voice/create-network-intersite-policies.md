@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中建立網路網站間原則
+title: 在商務用 Skype Server 中建立網路間原則
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: 建立網路間原則，以供商務用 Skype Server 中的企業語音通話許可控制使用。
-ms.openlocfilehash: 7c0ca45c691ab1ef70d3660c3d49a08c40bdd40d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8e5fb020ece1762868f9d943eb2aad955903b91329d636a981e644b2e9892b67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51093081"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338751"
 ---
-# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中建立網路網站間原則
+# <a name="create-network-intersite-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中建立網路間原則
  
 建立網路間原則，以供商務用 Skype Server 中的企業語音通話許可控制使用。 
   
@@ -36,7 +36,7 @@ ms.locfileid: "51093081"
   
 ### <a name="to-create-a-network-inter-site-policy"></a>建立網路間網站原則
 
-1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype 2015**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+1. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 2. 執行 New-CsNetworkInterSitePolicy Cmdlet 來建立網路間原則，並為具有直接交叉連結的兩個網站套用適當的頻寬原則設定檔。 例如，執行：
     

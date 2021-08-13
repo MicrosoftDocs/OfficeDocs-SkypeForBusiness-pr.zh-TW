@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本文說明實施 Microsoft 雲端語音信箱服務的優點、規劃考慮和需求。 如需設定雲端語音信箱的詳細資訊，請參閱設定雲端語音信箱。
-ms.openlocfilehash: cfde9867bcdd4c2b7492f8b50df782a5ca6fe34b
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: f12bd29c51b2ce08c0b4d29a6bce56e3dc22dddca7188cb046e59daaba7cf329
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509834"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323675"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>規劃內部部署使用者的雲端語音信箱服務
 

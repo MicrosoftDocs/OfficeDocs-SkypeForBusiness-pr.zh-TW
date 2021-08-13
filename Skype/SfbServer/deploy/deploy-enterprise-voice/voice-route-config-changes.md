@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype 中將擱置的變更發佈至語音路由設定
+title: 在商務用 Skype 中發佈語音路由設定的擱置變更
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
-description: 摘要：瞭解如何使用商務用 Skype Server 控制台複查、發佈或取消商務用 Skype Server 中的語音路由設定變更。
-ms.openlocfilehash: 6b75b6a1135cf9abde9551112fc9c29579862a8b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解如何使用商務用 Skype Server 控制台，在商務用 Skype Server 中查看、發佈或取消語音路由設定變更。
+ms.openlocfilehash: 9c9cfd1cfdf1cf58f58cfcbf77abb54f9068609414a3b141b4fb643abcf4ac83
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49830393"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338691"
 ---
-# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>在商務用 Skype 中將擱置的變更發佈至語音路由設定
+# <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>在商務用 Skype 中發佈語音路由設定的擱置變更
  
-**摘要：** 瞭解如何使用商務用 Skype Server 控制台，查看、發佈或取消商務用 Skype Server 中的語音路由設定變更。
+**摘要：** 瞭解如何使用商務用 Skype Server 控制台，在商務用 Skype Server 中查看、發佈或取消語音路由設定變更。
   
 變更 [ **語音路由** ] 群組中的任何設定設定後，請執行此程式以複查、發佈或取消暫止的變更。
   
@@ -36,13 +36,13 @@ ms.locfileid: "49830393"
 > 所有擱置的變更都必須同時發佈，只要執行 [ **全部認可** ] 命令即可。 您無法選擇性發行暫止的變更。 在您發佈暫止的變更之前，請執行 [ **檢查未** 認可的變更] 命令，並取消您不想發佈的任何設定變更。
   
 > [!NOTE]
-> 如果您在提交暫止的變更之前，移離 **語音路由** 群組中的頁面，所有擱置的變更將會遺失。 不過，您可以將目前的設定 (包括任何擱置的變更) 至語音設定檔，然後匯入併發行更新的設定。 如需詳細資訊，請參閱 [Export or import voice route configuration file In 商務用 Skype](voice-route-configuration-import-export.md)。 
+> 如果您在提交暫止的變更之前，移離 **語音路由** 群組中的頁面，所有擱置的變更將會遺失。 不過，您可以將目前的設定 (包括任何擱置的變更) 至語音設定檔，然後匯入併發行更新的設定。 如需詳細資訊，請參閱[Export or import a voice route configuration file in 商務用 Skype](voice-route-configuration-import-export.md)。 
   
 ### <a name="to-review-publish-or-cancel-voice-routing-configuration-changes"></a>若要檢查、發佈或取消語音路由設定變更
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 **CsVoiceAdministrator**、 **CsServerAdministrator** 或 **CsAdministrator** 系統管理角色的成員身分登入電腦。
     
-2. 開啟商務用 Skype Server 控制台。
+2. 開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 **[語音路由]**。
     
@@ -58,8 +58,8 @@ ms.locfileid: "49830393"
     
 7. 在您檢查所有擱置的變更並取消任何不想發佈的變更之後，請按一下 [ **認可**]，然後按一下 [ **全部認可**]。
     
-8. 在 [ **未認可的語音設定** ] 對話方塊中，顯示所有擱置變更的清單，按一下 **[確定]**。 
+8. 在 [**未** 認可的語音設定設定] 對話方塊中，顯示所有擱置變更的清單，按一下 **[確定]**。 
     
-    當商務用 Skype Server 控制台認可變更時，就會出現 [ **成功發行的語音路由** 設定] 訊息。
+    當商務用 Skype Server 控制台認可變更時，就會出現 [**成功發行的語音路由** 設定] 訊息。
     
 

@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要設定網站同盟路由指派，您必須先在 Edge Server 或 Edge Server 集區上啟用同盟。如果 Edge Server 或集區上未啟用同盟，則無法修改網站的同盟路由指派設定。
-ms.openlocfilehash: 9e453eae2ca44b0e6f406aa6767bc44b741bd3b6
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 58013888042eb7b793bea416724e4e75149d656259e40753173e01866fbd1861
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819463"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322075"
 ---
 # <a name="federation-route-settings-expander"></a>同盟路由設定展開工具
  
@@ -35,6 +35,6 @@ ms.locfileid: "49819463"
 - **啟用 XMPP 同盟** 選取此選項可啟用 XMPP 同盟路由，然後選取 Director 或 Edge 集區作為同盟路由。
 - 
   > [!NOTE]
-  > XMPP 閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) 。
+  > XMPP 的閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) 。
     
 

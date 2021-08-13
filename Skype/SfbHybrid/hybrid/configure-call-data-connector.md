@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 設定呼叫資料連線器的指示，可讓遙測從商務用 Skype 內部部署，使用商務用 Skype 線上工具進行查看。
-ms.openlocfilehash: 28a9ba2f00a071ff5b1c0781240cf54a2de929e8
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: bc9346919e3f70d8fe8fe3e43e61a0e715cf0eb9bf52534a2beb2f8604b920f8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510594"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54323685"
 ---
 # <a name="configure-call-data-connector"></a>設定通話資料連接器
 
@@ -118,7 +118,7 @@ Set-CsCloudCallDataConnectorConfiguration -Identity "site:Dublin" -EnableCallDat
 
 下表顯示「呼叫資料連線器」所使用之最常使用設定的值：  
 
-|屬性|描述|預設值|
+|屬性	|描述|預設值|
 |:-----|:-----|:-----|
 |EnableCallDataConnector  <br/> |會指出是否已啟用呼叫資料連線器。 如果為 True，則監控記錄會轉寄至線上監控。  <br/> |$False  <br/> |
 | 身分識別 | 決定命令的範圍層級：全域或網站。   | 全球  |

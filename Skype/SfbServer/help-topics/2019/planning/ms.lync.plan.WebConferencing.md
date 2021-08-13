@@ -16,25 +16,25 @@ localization_priority: Normal
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 商務用 Skype Server web 會議包含檔共同作業、應用程式共用和桌面共用。
-ms.openlocfilehash: 93516608bfac05e5d2ffbdce271bb3475bded15b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f7257a030ef1033bd32d65804f2aa867ac77d9dbb25c08a07583152c7d204c1a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116471"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54322107"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web 會議 (規劃工具) 
  
 商務用 Skype Server web 會議包含檔共同作業、應用程式共用和桌面共用。
   
 > [!NOTE]
-> 商務用 Skype 伺服器使用 Office Web Apps 與 Office Web apps Server 來處理 PowerPoint 簡報的共用及呈現。 Web 會議功能的運作方式與 Microsoft Lync 2013 中的功能完全相同。 如需安裝及設定 Office Web Apps Server 的詳細資訊，請參閱設定 [Office Web Apps server 與 Lync server 2013 的整合](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)。 
+> 商務用 Skype Server 會使用 Office web 應用程式和 Office 網頁應用程式伺服器來處理 PowerPoint 簡報的共用及呈現。 Web 會議功能的運作方式與 Microsoft Lync 2013 中的功能完全相同。 如需安裝及設定 Office web apps server 的詳細資訊，請參閱設定[與 Office Web apps server 和 Lync Server 2013 的整合](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)。 
   
 如需在組織中啟用 web 會議的規劃詳細資料，請參閱下列主題： 
   
 - [在商務用 Skype Server 中規劃會議](../../../plan-your-deployment/conferencing/conferencing.md)
     
-- [商務用 Skype Server 中的會議硬體和軟體需求](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
+- [商務用 Skype Server 中會議的硬體和軟體需求](../../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)
     
 - [規劃商務用 Skype Server 中的電話撥入式會議](../../../plan-your-deployment/conferencing/dial-in-conferencing.md)
     
