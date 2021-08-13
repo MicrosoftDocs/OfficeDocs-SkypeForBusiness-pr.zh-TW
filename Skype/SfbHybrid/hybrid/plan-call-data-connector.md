@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 使用商務用 Skype 線上遙測工具來監視混合式案例中的內部部署實施，以瞭解如何使用線上遙測工具。
-ms.openlocfilehash: 5d14e5000b18680592084c45c798f7eead82a917
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 803c8051087eff5c2101ce554bda948c829402c56f874a2a7c823be2ba323d67
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53509764"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318068"
 ---
 # <a name="plan-call-data-connector"></a>規劃通話資料連接器
 

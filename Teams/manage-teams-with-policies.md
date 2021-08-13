@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77afc1cbb71fff9cb54decbbf6e5cfd10d6c4e59
-ms.sourcegitcommit: 2bb8556650120b4f7cf509d8ff93d7e4d058829b
+ms.openlocfilehash: 75a2da0b4b949195f5660991eca130249bc1e75ae52e95ef7c221449a8e72821
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "51574182"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319946"
 ---
 # <a name="manage-teams-with-policies"></a>使用Teams管理
 
@@ -42,7 +42,7 @@ ms.locfileid: "51574182"
 
 使用系統管理中心Microsoft Teams使用[PowerShell 管理原則](./teams-powershell-managing-teams.md#manage-policies-via-powershell)。
 
-例如，應用程式設定策略可以允許使用者上傳自訂應用程式、代表使用者安裝應用程式，以及將應用程式釘Teams欄。 這些策略在系統管理中心Teams中。
+例如，應用程式設定策略可允許您讓使用者上傳自訂應用程式、代表使用者安裝應用程式，以及將應用程式釘Teams工具列。 這些策略在系統管理中心Teams中。
 
 ![應用程式設定策略的螢幕擷取畫面。](media/app-setup-policy.png)
 
@@ -52,9 +52,9 @@ ms.locfileid: "51574182"
 
 ### <a name="teams-for-education"></a>適用於教育的 Teams
 
-您也可以使用教育Teams精靈[](easy-policy-setup-edu.md)，輕鬆設定和管理學習環境的政策。
+您也可以使用學習Teams 教育版精靈[](easy-policy-setup-edu.md)，輕鬆設定和管理學習環境的政策。
 
-![教育Teams精靈的螢幕擷取畫面。](media/easy-policy-setup-quick-setup.png)
+![系統Teams 教育版精靈的螢幕擷取畫面。](media/easy-policy-setup-quick-setup.png)
 
 ## <a name="types-of-policies"></a>政策類型
 
@@ -74,4 +74,4 @@ ms.locfileid: "51574182"
 * [管理意見Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [管理團隊Microsoft Teams](teams-policies.md)
 * [在 Microsoft Teams 中設定即時活動](teams-live-events/set-up-for-teams-live-events.md)
-* [Teams教育政策與政策套件](policy-packages-edu.md)
+* [Teams 教育版和策略套件](policy-packages-edu.md)

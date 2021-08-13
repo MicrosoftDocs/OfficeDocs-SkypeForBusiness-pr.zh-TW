@@ -19,16 +19,16 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 本文將說明來賓Microsoft Teams使用的功能。
-ms.openlocfilehash: e0efaaf036816980f5e104efebda253411827258
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: e0bfd3cf10660b95b0a6ff40fa82bdb40a1b9cec6981aa207bb8dc1f709c4ee6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52129722"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54349056"
 ---
 # <a name="guest-experience-in-teams"></a>來賓在 Teams
 
-當來賓受邀加入團隊時，他們會收到歡迎電子郵件訊息。 此訊息包含團隊的一些相關資訊，以及他們成為成員後預期的結果。 來賓必須先在電子郵件訊息中選取 Microsoft Teams **，才能** 存取團隊及其頻道，以接受邀請。
+當來賓受邀加入團隊時，他們會收到歡迎電子郵件訊息。 此訊息包含團隊的一些相關資訊，以及他們成為成員後預期的結果。 來賓必須先選取電子郵件訊息中的開啟 **Microsoft Teams，才能** 存取團隊及其頻道。
     
 ![顯示歡迎電子郵件訊息範例的螢幕擷取畫面](media/guest-experience-image1.png)
     
@@ -44,7 +44,7 @@ ms.locfileid: "52129722"
 
 下表比較Teams小組成員及其來賓可用的功能。 Teams系統管理員控制來賓可用的功能。
 
-| 功能Teams | Teams組織中的使用者 | 客人 |
+| 在 Teams | Teams組織中的使用者 | 客人 |
 |:-----|:-----|:-----|
 |建立頻道  <br/>  *團隊擁有者控制此設定。*  <br/> |&#x2713;|&#x2713;|
 |參與私人聊天  <br/> |&#x2713;|&#x2713;|
@@ -100,7 +100,7 @@ ms.locfileid: "52129722"
 <sup>1</sup> 這項功能即將推出。
 
 > [!NOTE]
-> Azure **AD Azure Active Directory (** 中的來賓使用者存取限制) 決定目錄中來賓的許可權。 有三個原則選項。
+> Azure **AD 中來賓使用者** 存取限制Azure Active Directory (決定) 目錄中來賓的許可權。 有三個原則選項。
 >  - **[來賓使用者的存取權和成員相同 (最包容)]** 設定表示來賓擁有的目錄資料存取權，與目錄中的一般使用者相同。
 >  - **[來賓使用者對目錄物件的屬性和成員資格擁有有限的存取權]** 設定表示來賓沒有特定目錄工作的權限，例如列舉使用者、群組，或使用 Microsoft Graph 的其他目錄資源。
 >  - **[來賓使用者存取權受限於其自身目錄物件的屬性和成員資格 (最受限制)]** 設定表示來賓只能存取自己的目錄物件。

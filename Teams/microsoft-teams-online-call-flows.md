@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 description: 瞭解Teams如何使用Office 365拓撲中的流程，以及用於對等媒體通訊的唯一小組流程。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 27a2c68483c3d54cb3f3572bbed3a06a53ccc67e
-ms.sourcegitcommit: 1ee9b1857f472a5b95352f7471c0cf21be6ea0c3
+ms.openlocfilehash: ebe6de7773ca77964619f5d90d1c189ea8d731c8d7c242c2a04a619a33c55414
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "52059207"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319856"
 ---
 # <a name="microsoft-teams-call-flows"></a>Microsoft Teams 通話流程
 
@@ -32,7 +32,7 @@ ms.locfileid: "52059207"
 
 ## <a name="overview"></a>概觀
 
-本文將說明如何在各種拓撲Teams Microsoft 365 Office 365通話流程。 此外，本文說明Teams對等媒體通訊的唯一流程。 檔說明這些流程、其用途，以及其來源和網路上終止。 為了本文的目的，請假設下列各項：
+本文將說明如何在各種拓撲Teams Microsoft 365或Office 365呼叫流程。 此外，本文說明Teams對等媒體通訊的唯一流程。 檔說明這些流程、其用途，以及其來源和網路上終止。 為了本文的目的，請假設下列各項：
 
 - Flow內部部署用戶端會使用 X 與雲端Microsoft 365或Office 365服務通訊。 它來自客戶網路，並終止為 Microsoft 365 或 Office 365。
 
@@ -42,7 +42,7 @@ ms.locfileid: "52059207"
 
 - **背景**。 提供背景資訊，例如流程可能經過的網路、流量類型、從客戶網路到 Microsoft 365 或 Office 365 服務端點的連接指引、協力廠商元件的互通性，以及 Teams 用來選取媒體流程的原則。
 
-- **各種拓撲中的通話流程**。 說明各種拓撲中通話流的使用方式。 針對每個拓撲，該區段會列舉所有支援流程，並說明這些流程在數個使用案例中的使用方式。 針對每個使用案例，它會使用流程圖說明流程的順序和選取範圍。
+- **各種拓撲中的通話流程**。 說明各種拓撲中通話流的使用方式。 針對每個拓撲，該節會列舉所有支援流程，並說明這些流程在數個使用案例中的使用方式。 針對每個使用案例，它會使用流程圖說明流程的順序和選取範圍。
 
 - **Teams快速路由優化 。** 說明如何在部署 Express Route 進行優化時使用這些流程，以簡單拓撲說明。
 
@@ -52,7 +52,7 @@ ms.locfileid: "52059207"
 
 **客戶網路**。 這是您控制和管理的網路區段。 這包括客戶辦公室內的所有客戶連結，無論是有線或無線網路、辦公室大樓之間的連接、內部部署資料中心的連線，以及您與網際網路提供者、Express Route 或任何其他私人對等互連的關聯。
 
-一般來說，客戶網路具有數個網路周邊與防火牆和/或 Proxy 伺服器，會強制執行貴組織的安全性原則，而且只允許您設定和設定的某些網路流量。 由於您管理此網路，因此您可以直接控制網路的表現，因此我們建議您完成網路評定，以驗證網路內的網站，以及從網路到 Microsoft 365 或 Office 365 網路之間的績效。
+一般來說，客戶網路具有數個網路周邊與防火牆和/或 Proxy 伺服器，會強制執行貴組織的安全性原則，而且只允許您設定和設定的某些網路流量。 由於您管理此網路，因此您可以直接控制網路績效，因此我們建議您完成網路評定，以驗證網路網站內部以及網路到 Microsoft 365 或 Office 365 網路之間的績效。
 
 **網際網路**。 這是網路區段，屬於您整體網路的一部分，由從客戶網路外部Microsoft 365或Office 365使用者使用。 一些來自客戶網路的流量也會使用Microsoft 365 Office 365。
 
@@ -61,27 +61,27 @@ ms.locfileid: "52059207"
 > [!NOTE]
 > 與Microsoft 365或Office 365的連接也適用于這些網路。
 
-**Microsoft 365 或 Office 365。** 這是支援服務或Microsoft 365 Office 365區段。 它在全球分佈，大部分位置的邊緣都靠近客戶網路。 函數包括傳輸轉場、會議服務器和媒體處理器。
+**Microsoft 365 或 Office 365。** 這是支援服務或Microsoft 365 Office 365區段。 它在全球發佈，在大多數位置，邊緣會靠近客戶網路。 函數包括傳輸轉場、會議服務器和媒體處理器。
 
-**Express Route (選) 。** 這是您整體網路的一部分網路區段，可為您提供專用、私人的網Microsoft 365或Office 365連接。
+**Express Route (選) 。** 這是您整體網路的一部分，網路區段會提供您與網路或Microsoft 365專用Office 365連接。
 
 ### <a name="types-of-traffic"></a>流量類型
 
-**即時媒體**。 封裝在即時傳輸通訊通訊協定 (RTP) 支援音訊、視視和螢幕共用工作負載的資料。 一般而言，媒體流量對延遲高度敏感，因此您希望此流量採用盡可能最直接的路徑，並使用 UDP 與 TCP 做為傳輸層通訊協定，這是從品質角度分析互動式即時媒體的最佳傳輸方式。  (請注意，媒體可以使用 TCP/IP，也可以在 HTTP 通訊協定內進行加密，但因為品質影響不佳，不建議使用 ) RTP 流程，因為 SRTP 只會加密有效負載。
+**即時媒體**。 封裝在即時傳輸通訊通訊協定 (RTP) 支援音訊、視視和螢幕共用工作負載的資料。 一般而言，媒體流量對延遲高度敏感，因此您希望此流量採用最直接的路徑，並使用 UDP 與 TCP 做為傳輸層通訊協定，這是從品質角度分析互動式即時媒體的最佳傳輸方式。  (請注意，媒體可以使用 TCP/IP，也可以在 HTTP 通訊協定內進行加密，但因為品質影響不佳，不建議使用 ) RTP 流程，因為 SRTP 只會加密有效負載。
 
-**訊號**。 用戶端與伺服器之間的通訊連結，或其他用來控制活動的用戶端 (例如，在通話) 傳送立即訊息。 大多數訊號流量使用 HTTPS 型 REST 介面，但在某些情況下 (例如 Microsoft 365 或 Office 365 與會話邊界控制器之間的) 使用 SIP 通訊協定。 請注意，此流量對於延遲的敏感性要低得多，但如果端點之間的延遲超過數秒，可能會導致服務中斷或通話超時。
+**訊號**。 用戶端與伺服器之間的通訊連結，或其他用來控制活動的用戶端 (例如，在呼叫啟動) 傳送立即訊息。 大多數訊號流量會使用 HTTPS 型 REST 介面，但在某些情況下 (例如 Microsoft 365 或 Office 365 與會話邊界控制器之間的) 使用 SIP 通訊協定。 請注意，此流量對於延遲的敏感性要低得多，但如果端點之間的延遲超過數秒，可能會導致服務中斷或通話超時。
 
 ### <a name="connectivity-to-microsoft-365-or-office-365"></a>與 Microsoft 365 或 Office 365
 
 Teams[需要網際網路的網際網路連接](/office365/enterprise/assessing-network-connectivity)。 Teams URL 和 IP 位址範圍列于 Office 365 [URL 和 IP 位址範圍中](/office365/enterprise/urls-and-ip-address-ranges)。  (請注意，您必須開啟 TCP 埠 80 和 443 以及 UDP 埠 3478 到 3481 的連線。) 此外，Teams 與 商務用 Skype Online 有相依性，也必須連線至網際網路。
 
-Teams使用標準 IETF 互動式連接建立 (ICE) 流程連接。
+Teams使用標準 IETF 互動式連接建立和 ICE (流程) 連接。
 
 ### <a name="interoperability-restrictions"></a>互通性限制
 
 **協力廠商媒體轉場**。 一Teams媒體流程 (，也就是說，其中一個媒體端點Teams) 只可Teams或商務用 Skype原生媒體轉場。 不支援協力廠商媒體轉場的互通性。  (請注意，與 PSTN 邊界上的協力廠商 SBC 必須終止 RTP/RTCP 資料流程，使用 SRTP 保護，不得轉傳至下一個躍點。) 
 
-**協力廠商 SIP Proxy 伺服器**。 使用Teams SBC 和/或閘道來傳訊 SIP 對話方塊時，可能會Teams或商務用 Skype SIP 代理。 不支援協力廠商 SIP Proxy 的互通性。
+**協力廠商 SIP Proxy 伺服器**。 第Teams SBC 和/或閘道的 SIP 訊號對話方塊可能會Teams或商務用 Skype SIP 代理。 不支援協力廠商 SIP Proxy 的互通性。
 
 **協力廠商 B2BUA (或 SBC) 。** 第Teams SBC 會終止來自 PSTN 的媒體流程。 不過，不支援協力廠商 SBC 在 Teams 網路 (中與協力廠商 SBC 之間的互通性Teams或 商務用 Skype端點) 。
 
@@ -96,7 +96,7 @@ Teams使用標準 IETF 互動式連接建立 (ICE) 流程連接。
 
 ### <a name="principles"></a>原則
 
-有四項一般原則可協助您瞭解通話流程Microsoft Teams：
+有四個一般原則可協助您瞭解通話流程Microsoft Teams：
 
 - 會議Microsoft Teams由第一Microsoft 365 Office 365參與者加入之同一地區的人員主持。  (請注意，如果某些拓撲中此規則有例外，將在本檔中說明這些例外，並以適當的通話流程說明。) 
 
@@ -126,17 +126,17 @@ Teams使用標準 IETF 互動式連接建立 (ICE) 流程連接。
 您可以在本文稍後找到下列選擇性拓撲的更多相關資訊：
 
 - 商務用 Skype混合拓撲中說明內部部署 **Teams部署**。
-- 電話系統PSTN (的直接路由) 描述于 Teams **路由拓撲中**。
+- 電話系統PSTN (的直接路由) 在 [直接路由Teams **拓撲中描述**。
 - Express Route 在 Teams **快速路由優化中描述**。
 
 **Flow描述**：
 
 - **Flow 2** – 代表客戶網路上使用者啟動到網際網路的流量，作為使用者體驗Teams一部分。 這些流程的範例為 DNS 和對等媒體。
-- **Flow 2'** – 代表由遠端行動Teams使用者所發起的流程，使用 VPN 到客戶網路。
+- **Flow 2'** – 代表遠端行動Teams使用者啟動流程，使用 VPN 到客戶網路。
 - **Flow 3** – 代表由遠端行動Teams使用者啟動Microsoft 365或Office 365/Teams流程。
 - **Flow 4** – 代表客戶網路上使用者啟動以Microsoft 365或Office 365/Teams流程。
 - **Flow 5** – 代表客戶網路內使用者與另Teams使用者Teams或商務用 Skype之間的對等媒體流程。
-- **Flow 6** – 代表遠端行動Teams使用者與另一個遠端行動Teams或商務用 Skype使用者之間的對等媒體流程。
+- **Flow 6** – 代表遠端行動使用者Teams與另一個遠端行動Teams或商務用 Skype使用者之間的對等媒體流程。
 
 #### <a name="use-case-one-to-one"></a>使用案例：一對一
 
@@ -155,7 +155,7 @@ Teams使用標準 IETF 互動式連接建立 (ICE) 流程連接。
 1. Teams使用者 B 使用流程 4 在傳輸轉Teams上配置媒體轉場埠。
 1. Teams使用者 B 使用流程 4 傳送「answer」給 ICE 候選者，然後使用 Teams 4 轉Flow回使用者 A。
 1. Teams使用者 A Teams使用者 B 會調用 ICE 連接測試，且已選取最佳的可用媒體路徑 (請參閱下方圖表，瞭解各種使用案例) 。
-1. Teams使用者使用流程 4 傳送遙測Microsoft 365或Office 365傳送遙測。
+1. Teams使用者使用流程 4 Microsoft 365或Office 365傳送遙測。
 
 **在客戶網路中：**
 
@@ -175,7 +175,7 @@ Teams使用標準 IETF 互動式連接建立 (ICE) 流程連接。
 
 在步驟 7 中，會選取流程 4，從客戶網路到 Microsoft 365 或 Office 365，以及流程 3，從遠端行動Teams使用者到 Microsoft 365 或 Office 365。 這些流程會由 Teams 傳輸轉Microsoft 365或Office 365。
 
-媒體是雙向的，其中方向會指出哪一端會從連接角度啟動通訊。 在此案例中，這些流程會使用不同的傳輸通訊協定和位址，用於訊號和媒體。
+媒體是雙向的，其中方向會指出哪一端從連接角度啟動通訊。 在此案例中，這些流程會使用不同的傳輸通訊協定和位址，用於訊號與媒體。
 
 **直接使用媒體 (外部使用者) ：**
 
@@ -183,7 +183,7 @@ Teams使用標準 IETF 互動式連接建立 (ICE) 流程連接。
 
 *圖 4 - 客戶網路與外部使用者 (媒體)*
 
-在步驟 7 中，已選取流程 2，從客戶網路 (用戶端對等) 網際網路。
+在步驟 7 中，已選取流程 2，從客戶網路 (用戶端的對等) 網際網路。
 
 - 使用遠端行動使用者直接 (不透過Microsoft 365或Office 365) 媒體是選擇性的。 換句話說，客戶可能會封鎖此路徑，以透過傳輸轉場或Microsoft 365 Office 365。
 
@@ -193,7 +193,7 @@ Teams使用標準 IETF 互動式連接建立 (ICE) 流程連接。
 
 [![Microsoft Teams線上通話流程圖 05](media/microsoft-teams-online-call-flows-figure05-thumbnail.png)](media/microsoft-teams-online-call-flows-figure05.png)
 
-*圖 5 - 由傳輸轉 (轉Teams內部使用者的 VPN 使用者)*
+*圖 5 - VPN 使用者到內部使用者 (傳輸轉Teams轉)*
 
 VPN 與客戶網路之間的訊號是使用 flow 2'。 客戶網路與客戶或Microsoft 365之間的Office 365使用流程 4。 不過，媒體會忽略 VPN，並且使用流程 3 和 4 路由至 Teams 或 Microsoft 365 媒體轉Office 365。
 
@@ -201,7 +201,7 @@ VPN 與客戶網路之間的訊號是使用 flow 2'。 客戶網路與客戶或M
 
 [![Microsoft Teams線上通話流程圖 06](media/microsoft-teams-online-call-flows-figure06-thumbnail.png)](media/microsoft-teams-online-call-flows-figure06.png)
 
-*圖 6 - 將 VPN 使用者內部使用者 (媒體)*
+*圖 6 - VPN 使用者至內部使用者 (媒體)*
 
 VPN 與客戶網路之間的訊號是使用 flow 2'。 客戶網路與客戶或Microsoft 365之間的Office 365使用流程 4。 不過，媒體會忽略 VPN，並且使用流程 2 從客戶網路路由至網際網路。
 
@@ -211,9 +211,9 @@ VPN 與客戶網路之間的訊號是使用 flow 2'。 客戶網路與客戶或M
 
 [![Microsoft Teams通話流程圖 07](media/microsoft-teams-online-call-flows-figure07-thumbnail.png)](media/microsoft-teams-online-call-flows-figure07.png)
 
-*圖 7 - VPN 使用者到外部使用者 (媒體)*
+*圖 7 - VPN 使用者對外部使用者 (媒體)*
 
-VPN 使用者與客戶網路之間的訊號是使用 flow 2' ，並且使用流程 4 Microsoft 365或Office 365。 不過，媒體會忽略 VPN，而且會使用流程 6 路由。
+VPN 使用者與客戶網路之間的訊號是使用 flow 2' ，並且使用流程 4 來Microsoft 365或Office 365。 不過，媒體會忽略 VPN，而且會使用流程 6 路由。
 
 媒體是雙向的。 流程 6 對遠端行動使用者的方向表示一端從連接角度啟動通訊。
 
@@ -227,13 +227,13 @@ Microsoft 365 Office 365具有電話系統，可讓您從公用交換電話網�
 
 #### <a name="use-case-teams-meeting"></a>使用案例：Teams會議
 
-會議服務器中的音訊/視 (/螢幕) 是Microsoft 365 Office 365。 其公用 IP 位址必須可從客戶網路取得，而且必須從 Nomadic Cloud 用戶端取得。 每個用戶端/端點必須能夠連接到會議服務器。
+會議服務器中的音訊/視 (/螢幕) 是Microsoft 365 Office 365。 其公用 IP 位址必須從客戶網路取得，而且必須從 Nomadic Cloud 用戶端取得。 每個用戶端/端點必須能夠連接到會議服務器。
 
-內部用戶端會以與一對一通話相同的方式取得本地、反身及轉傳候選者。 用戶端會以邀請將這些候選者傳送至會議服務器。 會議服務器不會使用轉接，因為它有可公開到達的 IP 位址，因此會以其本地 IP 位址候選者回應。 用戶端和會議服務器會以一對一通話所述的方式檢查連接。
+內部用戶端會以與一對一通話相同的方式取得本地、反身及轉傳候選者。 用戶端會以邀請將這些候選者傳送至會議服務器。 會議服務器不會使用轉接，因為它有可公開到達的 IP 位址，因此會以其本地 IP 位址候選者回應。 用戶端和會議服務器會以與一對一通話相同的方式檢查連接。
 
 請注意：
 
-- Teams無法加入商務用 Skype，而且商務用 Skype無法加入Teams會議。
+- Teams無法加入商務用 Skype，商務用 Skype無法加入Teams會議。
 
 - PSTN 使用者視會議的召集人 PSTN 通話和/或會議布備而選擇「撥入」或「撥出」。
 
@@ -243,7 +243,7 @@ Microsoft 365 Office 365具有電話系統，可讓您從公用交換電話網�
 
 *圖 9 - Teams會議*
 
-#### <a name="use-case-federation-with-skype-for-business-on-premises"></a>使用案例：與內部商務用 Skype的聯盟
+#### <a name="use-case-federation-with-skype-for-business-on-premises"></a>使用案例：與內部部署商務用 Skype聯合
 
 **在傳送或Teams傳輸轉Microsoft 365轉Office 365**
 
@@ -253,13 +253,13 @@ Microsoft 365 Office 365具有電話系統，可讓您從公用交換電話網�
 
 請注意：
 
-- 根據定義，聯合是兩個租使用者之間的通訊。 在此案例中，租使用者 A 使用 Teams，會與租使用者 B 進行聯盟，商務用 Skype內部部署。 如果租使用者 B 也使用 Microsoft 365 或 Office 365，則 商務用 Skype 用戶端會使用 flow 3 與 Microsoft 365 或 Office 365。
+- 根據定義，聯合是兩個租使用者之間的通訊。 在此案例中，租使用者 A 使用 Teams，會與租使用者 B 進行聯盟，商務用 Skype內部部署。 如果租使用者 B 也使用 Microsoft 365 或 Office 365，則 商務用 Skype 用戶端會使用流程 3 與 Microsoft 365 或 Office 365。
 
 - 從聯合用戶端商務用 Skype到內部部署商務用 Skype Server的訊號與媒體超出本檔的範圍。 不過，此處說明清楚。
 
 - 閘道會Teams商務用 Skype之間的訊號。
 
-- 在此案例中，媒體會使用流程 4 Teams傳輸轉接至客戶網路和遠端商務用 Skype用戶端。
+- 在此案例中，媒體會使用流程 4，Teams傳輸轉傳至客戶網路和遠端商務用 Skype用戶端。
 
 **在聯盟租使用者中商務用 Skype媒體轉場的媒體**
 
@@ -269,7 +269,7 @@ Microsoft 365 Office 365具有電話系統，可讓您從公用交換電話網�
 
 請注意：
 
-- 從聯合用戶端商務用 Skype到內部部署商務用 Skype Server的訊號和媒體超出本檔的範圍。 不過，此處說明清楚。
+- 從聯合用戶端到商務用 Skype用戶端的訊號商務用 Skype Server媒體超出本檔的範圍。 不過，此處說明清楚。
 
 - 閘道會Teams商務用 Skype之間的訊號。
 
@@ -293,7 +293,7 @@ Microsoft 365 Office 365具有電話系統，可讓您從公用交換電話網�
 
 - Teams與 商務用 Skype並排部署，因此用戶端會顯示為「Teams/SFB 使用者」。
 
-拓撲 (上方的其他Teams流程) ：
+其他流程 (拓撲Teams上方) ：
 
 - **Flow 5A** – 代表客戶網路中 Teams 使用者之間的對等媒體流程，以及客戶網路邊緣的 商務用 Skype 內部部署媒體轉場。
 
@@ -321,7 +321,7 @@ Microsoft 365 Office 365具有電話系統，可讓您從公用交換電話網�
 
 - 媒體會透過傳輸轉Teams透過流程 4 傳送至客戶網路。
 
-**與外部使用者商務用 Skype混合式客戶網路 – 由內部部署 Edge 轉用**
+**與外部使用者商務用 Skype混合式客戶網路 - 由內部部署 Edge 轉用**
 
 [![Microsoft Teams線上通話流程圖 16](media/microsoft-teams-online-call-flows-figure16-thumbnail.png)](media/microsoft-teams-online-call-flows-figure16.png)
 
@@ -339,7 +339,7 @@ Microsoft 365 Office 365具有電話系統，可讓您從公用交換電話網�
 
 此拓撲包含Teams路由電話系統拓撲。
 
-直接路由可讓您將支援的內部部署客戶擁有會話邊界控制器 (SBC) 硬體裝置配對至 Microsoft 365 或 Office 365，然後將電話主幹連接到該裝置，以使用協力廠商公用交換電話網絡 (PSTN) 服務提供者。
+直接路由可讓您將支援的內部部署客戶擁有的會話邊界控制器 (SBC) 硬體裝置配對至 Microsoft 365 或 Office 365，然後將電話主幹連接到該裝置，以使用協力廠商公用交換電話網絡 (PSTN) 服務提供者。
 
 若要支援此案例，客戶必須從 Microsoft 的其中一個認證合作夥伴部署經過認證的 SBC 以直接路由。 SBC 必須按照廠商的建議進行配置，並且可路由至 Microsoft 365 或 Office 365 UDP 流量。 媒體可能會直接從 Teams 和/或 商務用 Skype 用戶端流向 SBC (，而忽略 Teams 閘道) 或Teams閘道。 當主幹已配置為跳過 Teams 閘道時，與 SBC 的連線性是以 ICE 為基礎，其中 SBC 支援 ICE-Lite，而 Teams/商務用 Skype 媒體端點則支援 ICE Full Form。
 
@@ -371,7 +371,7 @@ Microsoft 365 Office 365具有電話系統，可讓您從公用交換電話網�
 
 - 從 SBC 到 Microsoft 365 或 Office 365 訊號和媒體使用流程 4 和/或流程 4'。
 
-- 從客戶網路內的用戶端將訊號和媒體Microsoft 365或Office 365使用流程 4。
+- 使用流程 4 從客戶網路內的用戶端Microsoft 365或Office 365媒體。
 
 **使用直接路由或 (的遠端使用者會透過媒體伺服器或 MP (路由) )**
 
@@ -423,7 +423,7 @@ Microsoft 365 Office 365具有電話系統，可讓您從公用交換電話網�
 
 [![Microsoft Teams線上通話流程圖 22](media/microsoft-teams-online-call-flows-figure22-thumbnail.png)](media/microsoft-teams-online-call-flows-figure22.png)
 
-*圖 22 - 遠端使用者直接路由 (直接)*
+*圖 22 - 遠端使用者直接路由 (直接路由)*
 
 請注意：
 
@@ -433,17 +433,17 @@ Microsoft 365 Office 365具有電話系統，可讓您從公用交換電話網�
 
 - 從用戶端在網際網路上接收Microsoft 365或Office 365使用 flow 3。
 
-- 從網際網路用戶端到客戶網路中 SBC 的媒體使用流程 2。
+- 從網際網路用戶端到客戶網路中 SBC 的媒體使用 flow 2。
 
-**直接路由 (媒體旁) - PSTN 髮夾 (由於來電轉接/轉接)**
+**直接路由 (媒體) - PSTN 髮夾 (因為來電轉接/轉接)**
 
 [![Microsoft Teams線上通話流程圖 23](media/microsoft-teams-online-call-flows-figure23-thumbnail.png)](media/microsoft-teams-online-call-flows-figure23.png)
 
-*圖 23 - 直接路由 (媒體) - PSTN 髮夾 (由於來電轉接/轉接)*
+*圖 23 - (媒體旁) - PSTN 髮夾 (來電轉接/轉接)*
 
 請注意：
 
-- SBC 必須有一個公用 IP 位址，可路由自 Microsoft 365 或 Office 365。
+- SBC 必須有一個公用 IP 位址，從 Microsoft 365 或 Office 365。
 
 - 從 SBC 到 Microsoft 365 或 Office 365 訊號使用流程 4 和/或流程 4'。
 
@@ -455,11 +455,11 @@ Microsoft 365 Office 365具有電話系統，可讓您從公用交換電話網�
 
 [![Microsoft Teams線上通話流程圖 24](media/microsoft-teams-online-call-flows-figure24-thumbnail.png)](media/microsoft-teams-online-call-flows-figure24.png)
 
-*圖 24 - 透過 (或 Microsoft 365 直接路由Office 365) - 跨兩個租使用者撥打 PSTN 發釘電話*
+*圖 24 - 透過 (或 Microsoft 365 直接路由Office 365) - 跨兩個租使用者撥打 PSTN 發釘通話*
 
 請注意：
 
-- SBC 必須有一個公用 IP 位址，可路由自 Microsoft 365 或 Office 365。
+- SBC 必須有一個公用 IP 位址，從 Microsoft 365 或 Office 365。
 
 - 從 SBC 到 Microsoft 365 或 Office 365 訊號使用流程 4 和/或流程 4'。
 
@@ -473,7 +473,7 @@ Microsoft 365 Office 365具有電話系統，可讓您從公用交換電話網�
 
 *圖 25 - Teams快速路由優化*
 
-如果 Express Route 是對齊並部署，Teams流程可以重新路由從流程 4 到流程 1，以及從流程 4' 到流程 1'。 不過，Teams應用程式會與其他使用流程 4 和 4'的網際網路Microsoft 365或Office 365流量有硬性相依性;因此，這些流程不得被封鎖。
+如果 Express Route 是對齊並部署，Teams流程可能會從流程 4 重新路由到流程 1，以及從流程 4' 到流程 1'。 不過，Teams應用程式會與其他使用流程 4 和 4'的網際網路Microsoft 365或Office 365流量有硬性相依性;因此，這些流程不得封鎖。
 
 請注意，商務用 Skype混合式 Edge 流量會路由至網際網路，而非 Express Route 來與外部使用者通訊，並與其他租使用者進行聯盟。
 
@@ -488,13 +488,13 @@ Microsoft 365 Office 365具有電話系統，可讓您從公用交換電話網�
 
 **高層級步驟：**
 
-1. Teams客戶網路內的使用者會使用 flow2 解析 DNS (名稱) URL 功能變數名稱。
+1. Teams客戶網路內的使用者會使用 flow2 解析 DNS (功能變數名稱) URL 功能變數名稱。
 1. Teams客戶網路內的使用者會使用流程 1 在 Teams 傳輸轉場上配置媒體轉場埠。
 1. Teams客戶網路內的使用者會使用流程 1 傳送「邀請」給 ICE 求職者，Microsoft 365或Office 365。
 1. Microsoft 365或Office 365使用流程 3 將通知傳送Teams外部使用者。
 1. Teams使用者使用流程 3 在傳輸轉Teams上配置媒體轉場埠。
 1. Teams使用流程 3 傳送「answer」給 ICE 候選者，而流程 3 會使用第 1 個Teams傳送回Flow A。
-1. Teams使用者 A 和 Teams 使用者 B 會調用 ICE 連接測試，並選取流程 1 和 3，這兩個流程會由 Teams轉傳。
+1. Teams使用者 A 和 Teams使用者 B 會調用 ICE 連接測試，並選取流程 1 和 3，這兩個流程會由傳輸轉Teams轉。
 1. Teams使用者使用流程 1 和 Microsoft 365 3 Office 365傳送遙測至或傳送資料。
 
 > [!NOTE]

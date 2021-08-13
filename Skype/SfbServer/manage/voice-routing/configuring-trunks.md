@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 在企業語音部署中，您可以設定轉送伺服器與一或多位對等之間的主幹，為組織中的 Enterprise Voice 用戶端和裝置提供公用交換電話網路 (PSTN) 連線能力。
-ms.openlocfilehash: 57b8635d635c0fd0b8c41c95f92af768ff84dfd4
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 82491d566e36ce819456c3d2a8983f97dd6c4f17d4d7cece71a066342d48efea
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49800113"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333455"
 ---
 # <a name="configuring-trunks-in-skype-for-business-server"></a>在商務用 Skype Server 中設定主幹
 

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d65238a-d255-4b13-abe8-e4301b44c21c
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 1acdebd7b6357b6d4497fdcd9463467973dcfa82
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 224493e188ef09d364e6f2dccacd4d2e33495e5b280ad46d2c41072d7f6c48bd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119942"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348298"
 ---
 # <a name="configure-a-network-site"></a>設定網路站台
 
@@ -28,4 +28,4 @@ ms.locfileid: "51119942"
 
 - [設定網路網站](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)
 
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。

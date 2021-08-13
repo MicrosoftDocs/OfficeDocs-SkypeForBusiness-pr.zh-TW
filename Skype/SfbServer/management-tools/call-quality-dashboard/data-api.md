@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 中的通話品質儀表板 (CQD) 的資料 API
+title: 通話品質儀表板的資料 API (CQD) 商務用 Skype Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,19 +12,19 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: 摘要：瞭解通話品質儀表板的資料 API。 通話品質儀表板是商務用 Skype 伺服器的工具。
-ms.openlocfilehash: 367aa1bf1103863fff37fbcd4f8d9fa379de7c1d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解通話品質儀表板的資料 API。 通話品質儀表板是商務用 Skype Server 的工具。
+ms.openlocfilehash: cadb726714816f80fa818d9a706640fa52bd75529e6fc58d39ab63fe907b3bb8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49832693"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333325"
 ---
-# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>商務用 Skype Server 中的通話品質儀表板 (CQD) 的資料 API
+# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>通話品質儀表板的資料 API (CQD) 商務用 Skype Server
  
-**摘要：** 深入瞭解通話品質儀表板的資料 API。 通話品質儀表板是商務用 Skype 伺服器的工具。
+**摘要：** 深入瞭解通話品質儀表板的資料 API。 通話品質儀表板是商務用 Skype Server 的工具。
   
-Data API 為商務用 Skype 伺服器提供通話品質儀表板的程式設計存取。
+Data API 為商務用 Skype Server 提供通話品質儀表板的程式設計存取。
   
 ## <a name="data-api-for-call-quality-dashboard"></a>通話品質儀表板的資料 API
 

@@ -13,22 +13,22 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 的統計資料管理員。
-ms.openlocfilehash: cdc536abcbd1bd98c4a3c7ce974247a716865582
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 045586a1fd6c53ff1985602b20e390416142fd3dc9d3ddc3f6b9384d8d9955ec
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821823"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333265"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>商務用 Skype Server 統計資料的規劃
 
 **摘要：** 閱讀此主題以瞭解商務用 Skype Server 的統計資料管理員。
 
- 商務用 Skype Server 的統計資料管理員是一種強大的工具，可讓您即時查看商務用 Skype 伺服器的健康情況和效能資料。 您可以每隔幾秒輪詢每數百部伺服器上的效能資料，並在統計資料管理員網站上立即查看結果。
+ 商務用 Skype Server 的統計資料管理員是一種強大的工具，可讓您即時查看商務用 Skype Server 狀況和效能資料。 您可以每隔幾秒輪詢每數百部伺服器上的效能資料，並在統計資料管理員網站上立即查看結果。
 
 您可以使用 [統計資料管理員] 來找出持續效能問題、查看對環境所做的計畫變更，追蹤中斷的解決方式，以及其他更多的結果。 現成的統計資料管理員會使用重要健康情況指示器 (KHI) 閾值來設定，而且可以自訂以符合您的部署的獨特需求。
 
-在內部部署中，您可以在單一伺服器主控所有伺服器端統計資料管理員元件的內部部署中部署統計資料管理員。 如需部署統計資料管理員的詳細資訊，請參閱 [部署統計資料管理員以取得商務用 Skype Server](deploy.md)。 如果您已有統計資料管理員的現有部署，但尚未升級為版本2.0，請參閱 [release 2.0 的新功能](plan.md#BKMK_WhatsNew) 和 [升級統計資料管理員以取得商務用 Skype Server](upgrade.md)。
+在內部部署中，您可以在單一伺服器主控所有伺服器端統計資料管理員元件的內部部署中部署統計資料管理員。 如需部署統計資料管理員的詳細資訊，請參閱[部署統計資料管理員以取得商務用 Skype Server](deploy.md)。 如果您已有統計資料管理員的現有部署，但尚未升級為版本2.0，請參閱[release 2.0 的新功能](plan.md#BKMK_WhatsNew)和[升級統計資料管理員的商務用 Skype Server](upgrade.md)。
 
 本主題包含下列各節：
 
@@ -82,11 +82,11 @@ ms.locfileid: "49821823"
 ## <a name="whats-new-in-release-20"></a>版本2.0 的新功能
 <a name="BKMK_WhatsNew"> </a>
 
-下列說明版本2.0 中的新功能。 如果您有現有的統計資料管理員部署，但尚未升級，請參閱 [升級統計資料管理員以取得商務用 Skype Server](upgrade.md)。
+下列說明版本2.0 中的新功能。 如果您有現有的統計資料管理員部署，但尚未升級，請參閱[升級統計資料管理員以取得商務用 Skype Server](upgrade.md)。
 
 - 已針對 Edge Media、Fabric Health、集區容錯移轉和註冊案例新增方案視圖。
 
-- 已為 SQL server 新增許多新的計數器、商務用 Skype 使用計數器等等。
+- 已新增許多新的計數器，供 SQL 伺服器、更商務用 Skype 使用計數器等等。
 
 - 與統計資料管理員代理程式的監看員節點整合–如果在監看員節點上安裝代理程式，它會將綜合交易統計資料包告為計數器傳回統計資料管理員。
 
@@ -94,7 +94,7 @@ ms.locfileid: "49821823"
 
 若要驗證您正在執行的統計資料管理員網站版本：
 
-- 在檔案瀏覽器中，開啟 (的預設目錄) C:\Program Files\Skype for Business Server StatsMan WebSite\bin
+- 在檔案資源管理器中，開啟 (預設目錄) C:\Program 檔案 \ 商務用 Skype Server StatsMan WebSite\bin
 
 - 在 StatsManHubWebSite.dll 上按一下滑鼠右鍵，並查看其屬性
 
@@ -120,7 +120,7 @@ ms.locfileid: "49821823"
 
 在內部部署中，單一伺服器會裝載所有伺服器端統計資料管理員元件。
 
-下圖顯示內部部署，其中的統計資料管理員網站、Hub、接聽程式和 Redis 快取系統會主控于單一機器上。 統計資料管理員監控三個商務用 Skype 伺服器，每個伺服器都有一個代理程式將資料傳送至監聽器。 使用者連線到單一網站，以查看統計資料管理員匯總的所有資料：
+下圖顯示內部部署，其中的統計資料管理員網站、Hub、接聽程式和 Redis 快取系統會主控于單一機器上。 統計資料管理員監控三台商務用 Skype 伺服器，每個伺服器都有一個代理程式將資料傳送至監聽器。 使用者連線到單一網站，以查看統計資料管理員匯總的所有資料：
 
 ![內部部署的統計管理員](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
@@ -142,7 +142,7 @@ ms.locfileid: "49821823"
 - PSExec-需要進行遠端代理程式部署
 
 - .NET 4.5 (隨附于 2012 R2) -代理程式和伺服器端元件所需的元件
-- 下載 [商務用 Skype 伺服器、Real-Time 統計資料管理員 (64 位) ](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
+- 下載[商務用 Skype Server、Real-Time 統計資料管理員 (64 位) ](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
 
 ### <a name="networking-requirements"></a>網路需求
 

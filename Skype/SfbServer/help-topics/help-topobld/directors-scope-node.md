@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
-description: '[Director 集區] 節點會列出您的拓撲中的 Director 集區。 您可以執行下列動作：'
-ms.openlocfilehash: f63d37df66f0c439138fc578d412374053a88a6d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: '[Director 集區] 節點會列出您的拓撲中的 Director 集區。您可以執行下列動作：'
+ms.openlocfilehash: b3adafa86270b027b08f9108a793624a3305bbda6e32675d5cc211573baa9bee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49810313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333645"
 ---
 # <a name="directors-scope-node"></a>Director 範圍節點
  

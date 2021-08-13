@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: 瞭解如何為組織或Microsoft Teams開啟Microsoft 365 Office 365使用者授權以控制個別存取權，以及允許或封鎖內容來源。
+description: 瞭解如何為貴組織或Microsoft Teams開啟Microsoft 365 Office 365使用者授權以控制個別存取權，以及允許或封鎖內容來源。
 localization_priority: Normal
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78dbd966abec7b2b5c1c398b497f20e65d4fb8e8
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c0879c4ff2af21ec91856eddd0afcc94a2de9edd083b30ed98285fca040b0522
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51113679"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318556"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>開啟組織中的 Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "51113679"
 
 
  
-若要深入瞭解管理個別授權，請閱讀Microsoft Teams[描述](/office365/servicedescriptions/teams-service-description)。 
+若要深入瞭解如何管理個別授權，請閱讀Microsoft Teams[描述](/office365/servicedescriptions/teams-service-description)。 
 
  
 ## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>為整個組織開啟或關閉 Teams 

@@ -25,29 +25,29 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解如何設定通話方案，包括查看您地區可用的方案、&指派授權、取得電話號碼，以及新增緊急&位址。
-ms.openlocfilehash: a06ec3b71933e8e6ea640b6377581243140ef672
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0eedd72947c4969fc7f42d75d5241ca38c69e0c2e22172444a0d349b6a77b611
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117121"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348658"
 ---
 # <a name="set-up-calling-plans"></a>設定通話方案
 
 撥打給Teams使用者是免費的，但如果您希望使用者能夠撥打公司外的電話，請于 Microsoft 365 或 Office 365 取得國內通話方案或國際通話方案。 輕鬆設定商務用通話方案。  有關通話方案的資訊，請參閱哪一種通話方案 [適合您？](calling-plan-landing-page.md)。
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>步驟 1：瞭解您的國家/地區是否提供通話方案
-前往音訊[](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)會議與通話方案的國家/地區可用性，然後選取您的國家/地區以取得通話方案的可用性資訊，以及音訊會議、電話系統、免付費電話和通訊信用額度的資訊。
+前往音訊[](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)會議與通話方案的國家/地區可用性，然後選取您的國家/地區以取得通話方案的可用性資訊，以及音訊會議、電話系統、付費和免付費號碼，以及通訊信用額度的資訊。
 
 如果您的國家/地區無法使用通話方案，請考慮使用直接路由將您的內部部署電話基礎結構電話系統。  詳細資訊請參閱直接路由[電話系統。](direct-routing-landing-page.md)
   
 ## <a name="step-2-buy-and-assign-licenses"></a>步驟 2：購買及指派授權
-1. 如果您的電話系統或方案不包含Microsoft 365 Office 365，**您可能需要** 購買電話系統附加元件授權。 在您擁有授權 **電話系統，** 請購買適用于 Microsoft 365 [或 Office 365 的通話Office 365。](calling-plans-for-office-365.md) 請參閱[Microsoft Teams附加元件授權，](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)並購買授權和計畫。 
+1. 如果您的電話系統方案或方案不包含Microsoft 365 Office 365，**您可能需要** 購買電話系統附加元件授權。 在您擁有授權 **電話系統，** 請購買適用于 Microsoft 365 [或 Office 365 的通話Office 365。](calling-plans-for-office-365.md) 請參閱[Microsoft Teams附加元件授權，](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)並購買授權和計畫。 
     
     > [!TIP]
     > **電話系統** 或Microsoft 365通話方案Office 365一起，因此若要查看購買通話方案的選項，您必須先擁有 **電話系統授權。**
   
-2. 首先指派授權，然後將通話方案指派給貴組織的人。 請參閱[指派Microsoft Teams附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+2. 首先指派授權，然後指派通話方案給貴組織的人。 請參閱[指派Microsoft Teams附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
 ## <a name="step-3-get-phone-numbers"></a>步驟 3：取得電話號碼
 取得新使用者號碼的方法有三種：
@@ -74,7 +74,7 @@ ms.locfileid: "51117121"
 
 ## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>步驟 6：告知使用者他們的新電話號碼
 
-Microsoft 建議您傳送郵件，或使用您企業偏好的通訊方式，告知人員他們的新電話號碼。
+Microsoft 建議傳送郵件，或使用您企業偏好的通訊方式，告知人員他們的新電話號碼。
  
 在 **Microsoft Teams** 中，使用者可以按一下左側流覽 **中的通話來** 查看其電話號碼。 電話號碼會顯示在撥號鍵臺上方。
 

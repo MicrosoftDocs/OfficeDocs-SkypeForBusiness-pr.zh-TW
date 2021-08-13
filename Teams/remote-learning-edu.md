@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b69e7567ac68ada95261894ffe3aa8d219e95367
-ms.sourcegitcommit: 2d725b9925696e61e3e7338f890f086e009c28f2
+ms.openlocfilehash: a312a15af363fc796f88d5743950ea97c300a35422a691a2d00406d922f74dbd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "51598572"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319816"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -230,7 +230,7 @@ SDS 會透過兩個步驟建立團隊。 第一個步驟會在 Azure Active Dire
 
 #### <a name="recommended-best-practices"></a>建議的最佳做法
 
-- 盡早部署！ 盡早部署，以確保各個項目都能可靠運作，且備妥供學校的第一天使用。
+- 盡早部署！盡早部署，以確保各個項目都能可靠地運作，且備妥供學校的第一天使用。
 - 如果您有超過 50 萬個團隊，建議您使用[由授課者引導的團隊建立方法](#educator-led-team-creation-from-office-365-class-groups)。 透過只建立相關且需要的班級團隊，該方法能夠減少未使用的團隊和雜亂。  
 - 如果 SDS 自動化建立團隊發生任何問題 (例如班級遺失)，而授課者立即需要使用這些團隊，則可以使用[由授課者引導的團隊建立方法](#educator-led-team-creation-from-office-365-class-groups)來重試。 [手動建立團隊](#manual-team-creation)是另一個解決方案，但是無法保持更新您的團隊成員資格。  
 - 租用戶團隊的限制為 50 萬個團隊。 因此，系統管理員應積極嘗試減少未使用的團隊數量，以避免到達這些限制並延長其設定時間。 如需有關限制的詳細資訊，請參閱 [Microsoft Teams 的限制和規格](limits-specifications-teams.md)。  

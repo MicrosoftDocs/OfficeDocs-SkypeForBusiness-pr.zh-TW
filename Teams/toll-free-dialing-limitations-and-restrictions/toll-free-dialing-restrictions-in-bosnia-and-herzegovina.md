@@ -1,5 +1,5 @@
 ---
-title: 波士尼亞和黑塞哥維納免付費撥號限制
+title: 波士尼亞和黑塞哥維納的免付費撥號限制
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,14 +24,14 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 這可協助您瞭解如何撥打每個國家/地區的免付費號碼。 選取國家/地區之後，它會將您帶至特定國家/地區頁面，其中包含免付費服務可用之免付費服務的特定詳細資料、限制和限制。 撥號格式或格式會顯示每個國家/地區撥打免付費號碼所需的存取碼。
-ms.openlocfilehash: 6adfcba7d369cde4ddb45c211eb1a59b2c701873
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 0d1af78f04a0ed526b02f299e1b456550b6a37daec280fa122153229d3fcca5c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116841"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348588"
 ---
-# <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a>波士尼亞和黑塞哥維納免付費撥號限制
+# <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a>波士尼亞和黑塞哥維納的免付費撥號限制
 
 [尋找其他國家/地區](../toll-free-dialing-limitations-and-restrictions.md)，或深入瞭解免付費撥號限制與限制。
 

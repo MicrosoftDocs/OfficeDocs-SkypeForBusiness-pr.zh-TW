@@ -23,12 +23,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 這可協助您瞭解如何撥打每個國家/地區的免付費號碼。 選取國家/地區之後，它會將您帶至特定國家/地區頁面，其中包含免付費服務可用之免付費服務的特定詳細資料、限制和限制。 撥號格式或格式會顯示每個國家/地區撥打免付費號碼所需的存取碼。
-ms.openlocfilehash: afc9a69a6e8f065ecfbd6b1b672d56e87d5b4dce
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 6203aa8a46a1c3940a542bf60a7ffb3833d8aa14a94aba1bbd5b2acd3271646b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097769"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318227"
 ---
 # <a name="toll-free-dialing-restrictions-in-qatar"></a>在沙烏地阿拉伯免付費撥號限制
 
@@ -43,7 +43,7 @@ ms.locfileid: "51097769"
 |涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |僅從 Qtel。  <br/> |
-|行動網路可用性  <br/> |僅從 Qtel &amp; Vodafone。  <br/> |
+|行動網路可用性  <br/> |僅從 &amp; Qtel Vodafone。  <br/> |
 |批註、限制和存取問題  <br/> |無  <br/> |
    
 ## <a name="related-topics"></a>相關主題

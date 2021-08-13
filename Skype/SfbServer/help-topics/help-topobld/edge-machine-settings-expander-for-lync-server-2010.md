@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 若要以單一 Edge Server 或 Edge 集區中的成員電腦的身分編輯 Edge Server 電腦的屬性，請設定伺服器名稱及 IP 位址設定設定：
-ms.openlocfilehash: e25f68ec510cf15cd58872a8c584dc71aa939f48
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 6a66c84be19636410259eac953b099942dc3c1a41b6d3f75faf926d469795e5e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807133"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333635"
 ---
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Edge 電腦設定展開工具 (適用於 Lync Server 2010)
  

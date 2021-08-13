@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
-description: CcApplianceLogDirectory Cmdlet 會顯示目前的目錄，其中儲存商務用 Skype 雲端連接器 Edition 裝置的記錄。
-ms.openlocfilehash: 284846bbc305d76602ae1e2f065fcdd571c9deb2
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Get-CcApplianceLogDirectory Cmdlet 會顯示存放商務用 Skype Cloud Connector Edition 裝置之記錄檔的目前目錄。
+ms.openlocfilehash: 75f3ba3a5de5198456e053bd51ef567df1a0ae43461e9888e87294d3af406288
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800823"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318656"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
-CcApplianceLogDirectory Cmdlet 會顯示目前的目錄，其中儲存商務用 Skype 雲端連接器 Edition 裝置的記錄。
+Get-CcApplianceLogDirectory Cmdlet 會顯示存放商務用 Skype Cloud Connector Edition 裝置之記錄檔的目前目錄。
   
-此 Cmdlet 適用于商務用 Skype 雲端連接器 Edition 1.4.1，1.4.2。
+此 Cmdlet 適用于商務用 Skype Cloud Connector Edition 1.4.1，1.4.2。
   
 ```powershell
 Get-CcApplianceLogDirectory
@@ -39,7 +39,7 @@ Get-CcApplianceLogDirectory
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會顯示儲存雲端連接器目前裝置記錄的目前資料夾：
+下列範例會顯示目前的雲端連接器裝置儲存裝置記錄的目前資料夾：
   
 ```powershell
 Get-CcApplianceLogDirectory
@@ -48,21 +48,21 @@ Get-CcApplianceLogDirectory
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-CcApplianceLogDirectory Cmdlet 會顯示目前的目錄，其中儲存雲端連接器裝置的記錄。 預設資料夾為 C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs。 
+Get-CcApplianceLogDirectory Cmdlet 會顯示儲存雲端連接器裝置記錄檔的目前目錄。 預設資料夾為 C:\Users \% userprofile%\CloudConnector\ApplianceRoot\Logs。 
   
-您可以使用 CcApplianceDirectory Cmdlet 變更目錄。 
+您可以使用 Set-CcApplianceDirectory Cmdlet 變更目錄。 
   
-注意：沒有變更 [記錄] 資料夾位置，而不會變更裝置目錄的任何 Cmdlet。
+附注：沒有任何可變更記錄檔資料夾位置的指令程式，而不會變更裝置目錄。
   
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>
 
-無。 CcApplianceLogDirectory Cmdlet 不接受流水線輸入。
+無。 Get-CcApplianceLogDirectory Cmdlet 不接受管線傳送的輸入。
   
 ## <a name="return-types"></a>傳回類型
 <a name="ReturnTypes"> </a>
 
-這個命令會傳回檔案路徑。
+這個命令會傳回檔路徑。
   
 ## <a name="see-also"></a>另請參閱
 <a name="ReturnTypes"> </a>

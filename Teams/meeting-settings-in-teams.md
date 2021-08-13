@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: a8fe3f0c2375e7322397fabfeb1d3f5456d7c55b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c859cfe3b062bcf8ad379544078684624a6586cc6d528ac0dce6493de8004a0d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117891"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319866"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -74,7 +74,7 @@ ms.locfileid: "51117891"
 
 ## <a name="customize-meeting-invitations"></a>自訂會議邀請
 
-您可以自訂 Teams 會議邀請來滿足組織的需求。 您可以新增組織的標誌，並提供實用的資訊，例如支援網站和法律免責聲明的連結，以及純文字的頁尾。
+您可以自訂 Teams 會議邀請來滿足組織的需求。您可以新增組織的標誌，並提供實用的資訊，例如支援網站和法律免責聲明的連結，以及純文字的頁尾。
 
 ### <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>建立會議邀請標誌的秘訣  
 
@@ -82,7 +82,7 @@ ms.locfileid: "51117891"
 2. 將影像儲存為 JPG 或 PNG 格式。
 3. 將影像儲存在收到邀請的每個人都可以存取的位置，例如公用網站。
 
-    現在您可以將它新增至會議邀請。 請參閱後續的步驟。
+    現在您可以將其新增至會議邀請。請參閱後續步驟。
 
 ### <a name="customize-your-meeting-invitations"></a>自訂您的會議邀請
 

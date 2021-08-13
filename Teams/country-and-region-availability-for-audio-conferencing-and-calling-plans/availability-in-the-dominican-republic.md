@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于多明尼加共和國Microsoft 365 Office 365和商務用 Skype Microsoft Teams及服務。
-ms.openlocfilehash: 8866188f177344035dc33533c2e4f61465f6281b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 以下是適用于多明尼加共和國Microsoft 365 Office 365和商務用 Skype Microsoft Teams和Microsoft Teams服務。
+ms.openlocfilehash: af2ea42f9356bc35ebb681add6bc63c5d0ca1b650e77c0c5fdbeb4b4aa782850
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121431"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318496"
 ---
 # <a name="availability-in-the-dominican-republic"></a>多明尼加共和國的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于多明尼加共和國Microsoft 365 Office 365和商務用 Skype Microsoft Teams及服務。
+以下是適用于多明尼加共和國Microsoft 365 Office 365和商務用 Skype Microsoft Teams和Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

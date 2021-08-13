@@ -13,23 +13,23 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要：閱讀此主題以瞭解如何部署商務用 Skype Server 的統計資料管理員。
-ms.openlocfilehash: 406f4188347d32111bea4952815237b7f1015574
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e5ace82602ef6443331470a3fd3deda69e3fc797f0446749780436b14b4a7b82
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51105379"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333255"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>部署商務用 Skype Server 統計資料
  
 **摘要：** 閱讀此主題以瞭解如何部署商務用 Skype Server 的統計資料管理員。
   
- 商務用 Skype Server 的統計資料管理員是一種強大的工具，可讓您即時查看商務用 Skype 伺服器的健康情況和效能資料。 您可以每隔幾秒輪詢每數百部伺服器上的效能資料，並在統計資料管理員網站上立即查看結果。
+ 商務用 Skype Server 的統計資料管理員是一種強大的工具，可讓您即時查看商務用 Skype Server 狀況和效能資料。 您可以每隔幾秒輪詢每數百部伺服器上的效能資料，並在統計資料管理員網站上立即查看結果。
   
-在您嘗試安裝統計資料管理員之前，請確定您已熟悉軟體、網路及硬體需求。 如需詳細資訊，請參閱 [規劃商務用 Skype Server 的統計資料管理員](plan.md)。
+在您嘗試安裝統計資料管理員之前，請確定您已熟悉軟體、網路及硬體需求。 如需詳細資訊，請參閱[規劃統計資料管理員的商務用 Skype Server](plan.md)。
   
 > [!NOTE]
-> 若要從舊版的統計資料管理員升級，請參閱 [升級統計資料管理員以取得商務用 Skype Server](upgrade.md)。 
+> 若要從舊版的統計資料管理員升級，請參閱[升級統計資料管理員以取得商務用 Skype Server](upgrade.md)。 
   
 > [!NOTE]
 > 在 Internet Explorer 11 +、Edge 20.10240 + 和 Chrome 46 + (目前的長綠版本) 上，已測試並正確地處理統計資料管理員網站。 
@@ -55,12 +55,12 @@ ms.locfileid: "51105379"
     
 3. 在主機電腦上安裝網站。
     
-4. 在您想要監視的每一部商務用 Skype Server 電腦上安裝代理人。
+4. 在您要監視的每一部商務用 Skype Server 機器上安裝代理人。
     
 5. 匯入所監控之伺服器的拓撲。
     
 > [!NOTE]
-> Redis、攔截器服務和網站必須全部安裝在相同的主機電腦上。 請確定主機電腦沒有安裝商務用 Skype 伺服器。 
+> Redis、攔截器服務和網站必須全部安裝在相同的主機電腦上。 確定主機電腦未安裝商務用 Skype Server。 
   
 ### <a name="prepare-the-listener-host-machine"></a>準備監聽器主機電腦
 
@@ -108,7 +108,7 @@ ms.locfileid: "51105379"
     
    - **AppData 目錄：** 這是用來儲存記錄檔資料夾及其他資料的目錄。 您可以從預設值變更它。 卸載時不會將其刪除。
     
-3. 按一下 **[安裝]**。
+3. 按一下 **安裝**。
     
 若要驗證安裝，請執行下列步驟：
   
@@ -126,7 +126,7 @@ ms.locfileid: "51105379"
     
 ### <a name="install-the-website"></a>安裝網站
 
-執行 StatsManWebSite.msi (隨附于 [商務用 Skype Server，Real-Time 統計資料管理員 (64 位) ](https://www.microsoft.com/en-in/download/details.aspx?id=57518) ，並指定下列專案，以在主機機器上安裝網站：
+執行商務用 Skype Server 隨附的 StatsManWebSite.msi ([，Real-Time 統計資料管理員 (64 位) ](https://www.microsoft.com/en-in/download/details.aspx?id=57518) ，並指定下列專案，以在主機機器上安裝網站：
   
 1. 請參閱授權合約，如果同意，請選取 [ **我接受授權合約中的條款**]，然後按 **[下一步]**。 
     
@@ -138,7 +138,7 @@ ms.locfileid: "51105379"
     
    - **AppData 目錄：** 這是用來儲存記錄檔資料夾及其他資料的目錄。 您可以從預設值變更它。 卸載時不會將其刪除。
     
-3. 按一下 **[安裝]**。
+3. 按一下 **安裝**。
     
 若要查看網站，請開啟瀏覽器，然後流覽至： http://localhost ，webport \> /。
   
@@ -150,7 +150,7 @@ Web 安裝程式會新增稱為 StatsManWebSiteUsers 的本機安全性群組。
   
 ### <a name="install-the-agents"></a>安裝代理程式
 
-執行 StatsManPerfAgent.msi 並指定下列專案，以在每個要監視的商務用 Skype 伺服器上安裝代理程式：
+執行 StatsManPerfAgent.msi 並指定下列專案，以在每個要監視的商務用 Skype Server 上安裝代理人：
   
 1. 請參閱授權合約，如果同意，請選取 [ **我接受授權合約中的條款**]，然後按 **[下一步]**。 
     
@@ -168,7 +168,7 @@ Web 安裝程式會新增稱為 StatsManWebSiteUsers 的本機安全性群組。
     
    - **AppData 目錄：** 這是儲存 Logs 資料夾及加密 password.txt 檔案的目錄。 您可能會多謝從預設值變更。 卸載時不會將其刪除。
     
-3. 按一下 **[安裝]**。
+3. 按一下 **安裝**。
     
 若要在許多機器上安裝代理程式，您可能想要在自動模式中執行這項作業。 例如： 
   
@@ -179,11 +179,11 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>匯入拓撲
 <a name="BKMK_ImportTopology"> </a>
 
-在安裝並執行統計資料管理員之後，您必須匯入商務用 Skype 伺服器拓撲，使統計資料管理員知道每一部伺服器的網站、集區和角色。 若要匯入商務用 Skype 伺服器拓撲，您將會使用 [Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps) Cmdlet，以取得組織中所使用之每個集區的相關資訊，然後將此資訊匯入至統計資料管理員。
+在安裝並執行統計資料管理員之後，您必須匯入商務用 Skype Server 拓撲，使統計資料管理員知道每個伺服器的網站、集區和角色。 若要匯入您的商務用 Skype Server 拓撲，您將會使用[Get-CsPool](/powershell/module/skype/get-cspool?view=skype-ps)指令程式，來取得組織中所使用之每個集區的相關資訊，然後將此資訊匯入統計資料管理員。
   
-若要匯入商務用 Skype 伺服器拓撲，請遵循下列步驟：
+若要匯入商務用 Skype Server 拓撲，請遵循下列步驟：
   
-1. 在具有商務用 Skype 伺服器的主機上 PowerShell Cmdlet：
+1. 在具有商務用 Skype Server PowerShell Cmdlet 的主機上：
     
     a. 執行下列命令： 
     
@@ -220,7 +220,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
 .\Get-StatsManServerInfo.ps1
 ```
 
-如果您想要監視不在商務用 Skype 伺服器拓撲中的伺服器--Exchange 伺服器，您可以在執行監聽器的主機上進行單一伺服器匯入。 若要進行單一伺服器匯入，請遵循下列步驟：
+如果您想要監視不在商務用 Skype Server 拓撲中的伺服器--Exchange Server （例如，您可以在執行攔截器的主機上進行單一伺服器匯入）。 若要進行單一伺服器匯入，請遵循下列步驟：
   
 1. 流覽至安裝攔截器的目錄。 預設值為： 
     
@@ -243,7 +243,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
     
     1. 請確認您已遵循匯入拓撲的指示。 請參閱匯 [入拓撲](deploy.md#BKMK_ImportTopology)。
         
-    2. 如果代理程式位於拓撲中未列出的伺服器上 (例如，SQL AlwaysOn 叢集中的節點) ，您必須遵循匯 [入拓撲](deploy.md#BKMK_ImportTopology)中的指示手動新增代理程式。
+    2. 如果代理程式位於拓撲中未列出的伺服器上 (例如，SQL AlwaysOn 叢集) 中的節點，您必須遵循匯[入拓撲](deploy.md#BKMK_ImportTopology)中的指示手動新增代理程式。
     
 - 代理程式是否可以與監聽器聯繫？
     
@@ -267,7 +267,7 @@ Get-Help .\Update-StatsManServerInfo.ps1 -Detailed
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-如需您可能會在應用程式事件記錄檔中看到之所有事件的詳細資訊，請參閱 [統計資料管理員以取得商務用 Skype 伺服器的疑難排解](troubleshoot.md)。
+如需您可能會在應用程式事件記錄檔中看到之所有事件的詳細資訊，請參閱[統計資料管理員的商務用 Skype Server 疑難排解](troubleshoot.md)。
   
 ## <a name="create-a-self-signed-certificate"></a>建立自我簽署憑證
 <a name="BKMK_SelfCert"> </a>
@@ -286,17 +286,17 @@ Microsoft 強烈建議您使用受信任的憑證授權單位單位所簽署的�
     
 4. 以滑鼠右鍵按一下 [ **StatsManListener- \> 所有工作- \> 管理私密金鑰]。**
     
-5. 按一下 **[新增]**。
+5. 點擊 **[新增]**。
     
 6. 在 [ **輸入物件名稱來選取** ] 方塊中，輸入下列專案：網路服務
     
-7. 按一下 **[確定]**。
+7. 按一下 ****[確定]。
     
 8. 在 [ **完全控制**] 底下，取消勾選 [ **允許** ] 核取方塊。 只需要 (讀取權。 ) 
     
-9. 按一下 **[確定]**。
+9. 按一下 ****[確定]。
     
-## <a name="for-more-information"></a>如需詳細資訊
+## <a name="for-more-information"></a>相關資訊
 <a name="BKMK_SelfCert"> </a>
 
 如需詳細資訊，請參閱下列各主題：
@@ -305,4 +305,4 @@ Microsoft 強烈建議您使用受信任的憑證授權單位單位所簽署的�
     
 - [升級商務用 Skype Server 統計資料](upgrade.md)
     
-- [商務用 Skype Server β的統計資料管理員疑難排解](troubleshoot.md)
+- [疑難排解商務用 Skype Server 的統計資料管理員](troubleshoot.md)β

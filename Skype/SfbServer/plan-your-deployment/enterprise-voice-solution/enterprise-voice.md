@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中規劃 Enterprise Voice
+title: 規劃商務用 Skype Server 中的企業語音
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
-description: 商務用 Skype Server 中的企業語音規劃基礎知識，包括網站、地區、網站間的網路連結，以及評估語音使用流量。
-ms.openlocfilehash: 8f10eed8dfcfa7a8878b673ab76fd4d1fd40cc29
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 在商務用 Skype Server 中企業語音規劃基礎，包括網站、地區、網站之間的網路連結，以及評估語音使用流量。
+ms.openlocfilehash: 0989fb3fad94a7bb376ee009d4a387b5148965f644c793f65eeb511260c9d620
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49825673"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54320016"
 ---
-# <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃 Enterprise Voice
+# <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>規劃商務用 Skype Server 中的企業語音
  
-商務用 Skype Server 中的企業語音規劃基礎知識，包括網站、地區、網站間的網路連結，以及評估語音使用流量。
+在商務用 Skype Server 中企業語音規劃基礎，包括網站、地區、網站之間的網路連結，以及評估語音使用流量。
   
-Enterprise Voice 的部署程式取決於您現有的拓撲、基礎結構，以及您想要支援的 Enterprise Voice 功能。 必要的程式取決於您選擇的功能，但是還有其他的規劃考慮，您必須以高層次進行。
+企業語音的部署程式取決於您現有的拓撲、基礎結構，以及您要支援的企業語音功能。 必要的程式取決於您選擇的功能，但是還有其他的規劃考慮，您必須以高層次進行。
   
-一般來說，請考慮您要部署的網站類型和數目、每個網站的通話量、每個網站的網路連結類型、連接網站的網路連結類型、您是否想要為每個網站提供冗余及容錯移轉語音功能，以及是否要使用現有的 PBX 裝置。 在規劃商務用 Skype 伺服器做為整體時，您應該考慮下列一些事項（如高可用性）。 您會視需要在本節的主題中討論這些考慮。
+一般來說，請考慮您要部署的網站類型和數目、每個網站的通話量、每個網站的網路連結類型、連接網站的網路連結類型、您是否想要為每個網站提供冗余及容錯移轉語音功能，以及是否要使用現有的 PBX 裝置。 在您規劃整體商務用 Skype Server 時，應考慮下列事項（如高可用性）。 您會視需要在本節的主題中討論這些考慮。
   
 ## <a name="sites-and-regions"></a>網站與地區
 
@@ -37,7 +37,7 @@ Enterprise Voice 的部署程式取決於您現有的拓撲、基礎結構，以
   
 ## <a name="network-links-between-sites"></a>網站間的網路連結
 
-您也需要考慮您期望在中央網站與其分支網站之間之網路連結的頻寬使用量。 如果您有或想要在網站之間部署彈性的 WAN 連結，建議您在每個分支網站上部署閘道，以提供本機直接向內撥號 (已) 使用者在這些網站上終止。 如果您有彈性的 WAN 連結，但 WAN 連結的頻寬可能受限，請為該連結設定通話許可控制。 如果您沒有可恢復的 WAN 連結，請在分支網站上裝載低於1000的使用者，而且沒有本機訓練有素的商務用 Skype 伺服器管理員，我們建議您在分支網站上部署 Survivable 分支裝置。 如果您在分支網站上主持1000和5000使用者、缺乏彈性的 WAN 連線，且有訓練有素的商務用 Skype 伺服器管理員，建議您在分支網站上使用小型閘道部署 Survivable 分支伺服器。 如果您有支援媒體旁路的閘道對等，也請考慮對受限的連結啟用媒體旁路。
+您也需要考慮您期望在中央網站與其分支網站之間之網路連結的頻寬使用量。 如果您有或想要在網站之間部署彈性的 WAN 連結，建議您在每個分支網站上部署閘道，以提供本機直接向內撥號 (已) 使用者在這些網站上終止。 如果您有彈性的 WAN 連結，但 WAN 連結的頻寬可能受限，請為該連結設定通話許可控制。 如果您沒有可恢復的 WAN 連結，請在分支網站上裝載低於1000的使用者，而且沒有本機訓練有素的商務用 Skype Server 系統管理員，我們建議您在分支網站上部署 Survivable 分支裝置。 如果您在分支網站上主持1000和5000使用者、缺乏彈性的 WAN 連線，且有訓練有素的商務用 Skype Server 管理員，我們建議您在分支網站上部署 Survivable 分支伺服器搭配小型閘道。 如果您有支援媒體旁路的閘道對等，也請考慮對受限的連結啟用媒體旁路。
   
 ## <a name="estimating-voice-usage-and-traffic"></a>評估語音使用方式和流量
 
@@ -53,15 +53,15 @@ Microsoft Lync Server 2013，規劃工具使用下列度量，評估每個網站
   
 例如，有 10,000 位使用者及中型流量的組織需要 1000 個連接埠。需要的閘道數目會等於閘道總容量所決定的必要連接埠總數。
   
-## <a name="components-features-and-options-of-enterprise-voice"></a>Enterprise Voice 的元件、功能及選項
+## <a name="components-features-and-options-of-enterprise-voice"></a>企業語音的元件、功能及選項
 
 如需規劃企業語音部署的詳細資訊，請參閱下列各節。
   
-- [商務用 Skype Server 中的 Enterprise Voice 所需元件](components-required-for-enterprise-voice.md)
+- [商務用 Skype Server 中企業語音所需的元件](components-required-for-enterprise-voice.md)
     
 - [在商務用 Skype Server 中規劃 PSTN 連線能力](pstn-connectivity-0.md)
     
-- [商務用 Skype Server 中的高級 Enterprise Voice 功能的網路設定](network-settings-for-advanced-features.md)
+- [商務用 Skype Server 中的高級企業語音功能的網路設定](network-settings-for-advanced-features.md)
     
 - [在商務用 Skype Server 中規劃通話許可控制](call-admission-control.md)
     
@@ -75,6 +75,6 @@ Microsoft Lync Server 2013，規劃工具使用下列度量，評估每個網站
     
 - [在商務用 Skype 中規劃通話管理功能](call-management-features.md)
     
-- [在商務用 Skype Server 中規劃 Enterprise Voice 韌性](enterprise-voice-resiliency.md)
+- [在商務用 Skype Server 中規劃企業語音恢復功能](enterprise-voice-resiliency.md)
     
 

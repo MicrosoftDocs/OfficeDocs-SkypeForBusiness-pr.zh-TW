@@ -10,34 +10,34 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 商務用 Skype Server 正規化規則使用 .NET Framework 正則運算式，將撥打的電話號碼轉譯為 e.164 格式;換句話說，正規化規則可讓使用者撥打的電話號碼，並將該號碼轉換為商務用 Skype 伺服器內部所用的格式。 每個撥號對應表都必須被指派一或多個正常化規則。
-ms.openlocfilehash: 1be34e5c40a4da4e9def4de294ece134f2fe229d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 商務用 Skype Server 正規化規則使用 .NET Framework 正則運算式，將撥打的電話號碼轉譯成 e.164 格式;換句話說，正規化規則可讓使用者撥打的電話號碼，並將該號碼轉換成商務用 Skype Server 在內部使用的格式。 每個撥號對應表都必須被指派一或多個正常化規則。
+ms.openlocfilehash: bb229760bd8f41086211245e8e7090453fa8985abb72dc721b249c5c5df81238
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120915"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333435"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>在商務用 Skype Server 中定義正常化規則
 
-商務用 Skype Server 正規化規則使用 .NET Framework 正則運算式，將撥打的電話號碼轉譯為 e.164 格式;換句話說，正規化規則可讓使用者撥打的電話號碼，並將該號碼轉換為商務用 Skype 伺服器內部所用的格式。 每個撥號對應表都必須被指派一或多個正常化規則。
+商務用 Skype Server 正規化規則使用 .NET Framework 正則運算式，將撥打的電話號碼轉譯成 e.164 格式;換句話說，正規化規則可讓使用者撥打的電話號碼，並將該號碼轉換成商務用 Skype Server 在內部使用的格式。 每個撥號對應表都必須被指派一或多個正常化規則。
 
 如需正規化規則的詳細資訊，請參閱撥號對應表 [和正常化規則](/previous-versions/office/lync-server-2013/lync-server-2013-dial-plans-and-normalization-rules)。
 
-如需如何撰寫正則運算式的詳細資訊，請參閱 [.Net Framework 正則運算式](/dotnet/standard/base-types/regular-expressions)。
+如需如何撰寫正則運算式的詳細資訊，請參閱[.NET Framework 正則運算式](/dotnet/standard/base-types/regular-expressions)。
 
 您可以使用下列其中一種方法來定義或編輯正規化規則：
-- [使用 [ **建立正規化規則** ] 工具](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule) 來指定起始數位、長度、要移除的數位和要新增的數位的值，然後讓商務用 Skype Server 控制台產生對應的符合模式和轉譯規則。
+- [使用 [**建立正規化規則**] 工具](#create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule)來指定起始數位、長度、要移除的數位和要新增的數位的值，然後讓商務用 Skype Server 控制台產生對應的符合模式和轉譯規則。
 - [手動寫入正則運算式](#create-or-modify-a-normalization-rule-manually) ，以定義相符的模式和轉譯規則。 
 
 ## <a name="create-or-modify-a-normalization-rule-by-using-build-a-normalization-rule"></a>使用組建正常化規則建立或修改正規化規則
 
-如果您想要在商務用 Skype Server [控制台] 中建立或修改正規化規則，請完成下列步驟。 
+如果您想要在商務用 Skype Server 控制台中建立或修改正規化規則，請完成下列步驟。 
 
 **使用組建正常化規則定義規則**
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [委派設定許可權](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)。
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype 控制台之不同方法的詳細資訊，請參閱 [Install and open the 系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
+2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype 控制台之不同方法的詳細資訊，請參閱[安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3.  (選用) 遵循步驟 11 [建立撥號](../../deploy/deploy-enterprise-voice/dial-plans.md#to-create-a-dial-plan) 對應表中的步驟，或透過步驟 10 [修改撥號](../../deploy/deploy-enterprise-voice/dial-plans.md#to-modify-a-dial-plan) 對應表。 
 4. 在 [ **新增正規化規則** ] 或 [編輯正規化 **規則**] 中，輸入描述 [ **名稱** ] 中正規化的號碼模式的名稱 (例如， **5DigitExtension**) 。
 5.  (選用) 在 [ **描述**] 中，輸入正規化規則的描述 (例如，「轉譯5位數分機」 ) 。
@@ -75,7 +75,7 @@ ms.locfileid: "51120915"
 **手動定義正常化規則**
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [委派設定許可權](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)。
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype 控制台之不同方法的詳細資訊，請參閱 [Install and open the 系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
+2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype 控制台之不同方法的詳細資訊，請參閱[安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3.  (選用) 遵循步驟 11 [建立撥號](GET LINK AFTER MIGRATION) 對應表中的步驟，或透過步驟 10 [修改撥號](GET LINK AFTER MIGRATION) 對應表。  
 4. 在 [ **新增正規化規則** ] 或 [編輯正規化 **規則**] 中，輸入描述 [ **名稱** ] 中正規化的號碼模式的名稱 (例如，將正規化規則名稱 **5DigitExtension**) 。
 5.  (選用) 在 [ **描述**] 中，輸入正規化規則的描述 (例如，「轉譯5位數分機」 ) 。

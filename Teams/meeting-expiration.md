@@ -17,16 +17,16 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 瞭解如何使用會議策略設定來控制會議Microsoft Teams。
-ms.openlocfilehash: e201348ba1734539844a76b0fee2e2f072757e87
-ms.sourcegitcommit: 1c5608e6b539e90e42f48212d038f861ecf8136b
+ms.openlocfilehash: ee93aeb3b341ce9d046443675e3c6404e370bd00dd3f9589b6a96bc87917c2ad
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "53337812"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318300"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>會議政策與會議到期Microsoft Teams
 
-[會議Microsoft Teams](meeting-policies-in-teams.md)用來控制貴組織中使用者是否可以開始和排程會議，以及會議參與者對於使用者排程的會議可用的功能。 您可以使用全域 (全組織預設值) 原則，或建立並指派自訂原則。 您可以在系統管理中心管理會議Microsoft Teams，或是使用 Get、New、Set、Remove、Grant [ ](/powershell/module/skype/remove-csteamsmeetingpolicy)-CsTeamsMeetingPolicy PowerShell Cmdlet。 [](/powershell/module/skype/get-csteamsmeetingpolicy) [](/powershell/module/skype/new-csteamsmeetingpolicy) [](/powershell/module/skype/set-csteamsmeetingpolicy) [](/powershell/module/skype/grant-csteamsmeetingpolicy)
+[會議Microsoft Teams](meeting-policies-in-teams.md)用來控制貴組織中使用者是否可以開始和排程會議，以及會議參與者對於使用者排程的會議可用的功能。 您可以使用全域 (全組織預設值) 原則，或建立並指派自訂原則。 您可以在系統管理中心Microsoft Teams使用 Get、New、Set、Remove、Grant [ ](/powershell/module/skype/new-csteamsmeetingpolicy)-CsTeamsMeetingPolicy PowerShell Cmdlet 來管理會議政策。 [](/powershell/module/skype/get-csteamsmeetingpolicy) [](/powershell/module/skype/set-csteamsmeetingpolicy) [](/powershell/module/skype/remove-csteamsmeetingpolicy) [](/powershell/module/skype/grant-csteamsmeetingpolicy)
 
 控制使用者是否可以開始和排程會議，以及控制使用者排程的會議到期的會議策略設定。 當會議加入連結和會議 ID 到期時，沒有人可以加入會議。 下列會議策略設定會決定使用者是否可以在 Teams 中開始和排程Teams。 本文討論會議設定。
 
@@ -36,19 +36,19 @@ ms.locfileid: "53337812"
 - [允許Outlook](meeting-policies-in-teams-general.md#allow-the-outlook-add-in)：控制使用者是否可以從 Outlook 排程私人Outlook。 當會議未發佈到小組中的頻道時，會議是私人的。
 - [允許現在在私人會議中開會](meeting-policies-in-teams-general.md#allow-meet-now-in-private-meetings)：控制使用者是否能啟動即席私人會議。
 
-根據預設，這些設定為啟用狀態。 當其中任一設定關閉時，指派該策略的任何使用者都無法開始或排程該類型的新會議。 同時，會議會加入使用者先前啟動或排定到期之所有類型之所有現有會議的連結和會議 ID。
+根據預設，這些設定為啟用狀態。 當其中任一設定關閉時，指派該策略的任何使用者都無法開始或排程該類型的新會議。 同時，使用者先前啟動或排定到期之所有類型之會議的會議加入連結和會議 ID。
 
-例如，如果使用者已指派會議策略，其中這些會議策略設定設定為 **開啟**，然後您關閉頻道中的立即開會設定，該使用者就無法再在頻道中啟動即席會議，而使用者先前建立的會議現在加入連結的頻道已過期。 使用者仍然可以開始和排程其他會議類型，並加入由其他人組織的會議。
+例如，如果使用者已指派會議策略，其中這些會議策略設定設定為 **開啟**，然後您關閉頻道中的立即開會設定，該使用者便無法再在頻道中啟動即席會議，而使用者先前建立之頻道的立即開會連接連結已過期。 使用者仍然可以開始和排程其他會議類型，並加入由其他人組織的會議。
 
-## <a name="what-happens-when-the-meeting-join-link-and-conference-id-expire"></a>當會議加入連結和會議 ID 到期時會發生什麼情況？
+## <a name="what-happens-when-the-meeting-join-link-and-conference-id-expire"></a>當會議加入連結和會議 ID 到期時，會發生什麼情況？
 
-當會議加入連結和會議 ID 到期時，沒有人可以加入會議。 當使用者嘗試透過連結或電話加入會議時，會收到一則訊息，指出會議已不再提供。 交談、檔案、白板、錄製、文字記錄及其他與會議相關的內容會保留，使用者仍可存取這些內容。
+當會議加入連結和會議 ID 到期時，沒有人可以加入會議。 當使用者嘗試透過連結或電話加入會議時，會收到一則訊息，指出會議已不再提供。 交談、檔案、白板、錄製、文字記錄及其他與會議相關的內容會保留，使用者仍然可以存取這些內容。
 
 ## <a name="what-happens-when-you-turn-on-and-turn-off-a-meeting-policy-setting"></a>當您開啟並關閉會議策略設定時，會發生什麼情況？
 
 ### <a name="switch-a-meeting-policy-setting-from-on-to-off"></a>將會議策略設定從開啟切換為關閉
 
-當會議策略設定設為 **On** 時，指派該策略的使用者可以開始或排程該類型的會議，而且每個人都可以加入。 當您將會議策略設定切換為 **關閉** 時，指派該策略的使用者無法開始或排程該類型的新會議，而使用者先前排定的會議加入連結和會議 ID 已過期。
+當會議策略設定設為 **On** 時，指派該策略的使用者可以開始或排程該類型的會議，而且每個人都可以加入。 當您將會議策略設定切換為 **關閉** 時，指派該策略的使用者無法開始或排程該類型的新會議，而且使用者先前排程的現有會議的會議加入連結和會議 ID 已過期。
 
 請記住，使用者仍然可以加入由其他人組織的會議。
 
@@ -63,8 +63,8 @@ ms.locfileid: "53337812"
 |如果您想要...&nbsp;&nbsp; |執行此&nbsp;&nbsp;&nbsp;&nbsp;  |會議加入行為&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
 |到期私人會議現在由使用者啟動的會議&nbsp;&nbsp;|關閉允許 **現在在私人會議中開會。**&nbsp;&nbsp;|現在沒有人可以 **加入由使用者** 啟動的私密會議。|
-|將使用者排程的私人會議到期&nbsp;&nbsp;|關閉 允許 **排程私人會議**_，並_ 關閉 允許Outlook **附加元件**。 &nbsp;&nbsp;|沒有人可以加入使用者排程的私人會議。 這可防止人員加入下列會議：<ul><li>過去發生的私人會議。</li><li>已排程為未來的私人會議，但尚未進行。</li><li>未來的週期性私人會議實例。</li></ul><br>允許 **排程私人會議** 與允許Outlook **必須** 關閉，使用者排程的私人會議必須結束。 如果其中一個設定關閉，另一個設定為已啟用，則現有會議的會議加入連結和會議 ID 會維持為使用中狀態，且不會過期。|
-|頻道到期 **開會現在** 由使用者開始的會議&nbsp;&nbsp;|關閉頻道 **中的允許會議**_，並關閉_ 允許 **頻道會議排程**。&nbsp;&nbsp;|沒有人可以加入頻道 **會議現在** 由使用者啟動的會議。|
+|將使用者排程的私人會議到期&nbsp;&nbsp;|關閉 允許 **排程私人會議**_，並_ 關閉 允許Outlook **附加元件**。 &nbsp;&nbsp;|沒有人可以加入使用者排程的私人會議。 這可防止人員加入下列會議：<ul><li>過去發生的私人會議。</li><li>已排程為未來的私人會議，但尚未進行。</li><li>未來的週期性私人會議實例。</li></ul><br>允許 **排程私人會議** 與允許Outlook **必須** 關閉，使用者排程的私人會議必須到期。 如果其中一個設定已關閉，另一個設定為已啟用，則現有會議的會議加入連結和會議 ID 會維持為使用中狀態，且不會過期。|
+|頻道到期 **會議現在** 由使用者啟動的會議&nbsp;&nbsp;|關閉頻道 **中的允許會議**_，並關閉_ 允許 **頻道會議排程**。&nbsp;&nbsp;|沒有人可以加入頻道 **會議現在** 由使用者啟動的會議。|
 |使用者排程的頻道會議到期&nbsp;&nbsp;|關閉 允許 **頻道會議排程**。&nbsp;&nbsp;|沒有人可以加入使用者排程的頻道會議。 這可防止人員加入下列會議：<ul><li>過去發生的頻道會議。</li><li>已排程為未來的頻道會議，但尚未進行。</li><li>未來週期性頻道會議的實例。</li></ul>|
 
 如果您希望人員存取先前由特定使用者排程或啟動的會議，您可以：

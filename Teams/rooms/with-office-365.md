@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 請參閱本主題，瞭解如何使用 Microsoft Teams 會議室 或 Microsoft 365 部署Office 365，其中 Teams 或 商務用 Skype 和 Exchange 都位於線上。
-ms.openlocfilehash: 64567cd9925a0a11d9e9b896c522a2c4bfe13f40
-ms.sourcegitcommit: 3840d72f9ad1c0c7803dc3662a0318f558fe92ab
+ms.openlocfilehash: 5f700dfd839515cd34a1fec864994867055b11ec184bc0f70b4ea2107ddd16f0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "52739643"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54318267"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>使用 Microsoft Teams 會議室 或 Microsoft 365 部署Office 365
 
 請閱讀本主題，瞭解如何使用 Microsoft Teams 會議室 或 Microsoft 365 部署Office 365，其中 Microsoft Teams 或 商務用 Skype Exchange都位於線上。
 
-設定使用者帳戶最簡單的方法是使用遠端Windows PowerShell。 Microsoft 提供[SkypeRoomProvisioningScript.ps1，](https://go.microsoft.com/fwlink/?linkid=870105)此腳本可協助建立新的使用者帳戶，或驗證您現有的資源帳戶，以便協助您將這些帳戶轉換為相容的Microsoft Teams 會議室使用者帳戶。 您可以按照下列步驟來設定您的裝置Microsoft Teams 會議室帳戶。
+設定使用者帳戶最簡單的方法是使用遠端Windows PowerShell。 Microsoft 提供[SkypeRoomProvisioningScript.ps1，](https://go.microsoft.com/fwlink/?linkid=870105)此腳本可協助建立新的使用者帳戶，或驗證您現有的資源帳戶，以便協助您將這些帳戶轉換為Microsoft Teams 會議室使用者帳戶。 您可以按照下列步驟來設定您的裝置Microsoft Teams 會議室帳戶。
 
 ## <a name="requirements"></a>需求
 
@@ -40,13 +40,13 @@ ms.locfileid: "52739643"
 
 - 您的租使用者使用者必須擁有Exchange信箱。
 
-- 您的Microsoft Teams 會議室帳戶至少需要 商務用 Skype 方案 2 (授權) ，但不需要授權Exchange Online授權。 請參閱[Microsoft Teams 會議室授權](rooms-licensing.md)的詳細資訊。
+- 您的Microsoft Teams 會議室帳戶至少需要 商務用 Skype 方案 2 (授權) ，但不需要授權Exchange Online授權。 請參閱[Microsoft Teams 會議室授權](rooms-licensing.md)以瞭解詳細資料。
 
 有關線上方案商務用 Skype詳細資料，請參閱 商務用 Skype[線上服務描述](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。
 
 ### <a name="add-a-device-account"></a>新增裝置帳戶
 
-1. 連線 PowerShell Exchange Online PowerShell。 有關指示，請參閱連線[powerShell Exchange Online。](/powershell/exchange/connect-to-exchange-online-powershell)
+1. 連線 PowerShell Exchange Online PowerShell。 有關指示，請參閱連線[PowerShell Exchange Online。](/powershell/exchange/connect-to-exchange-online-powershell)
 
 2. 在 Exchange Online PowerShell 中，建立新會議室信箱或修改現有的會議室信箱。 根據預設，會議室信箱沒有關聯的帳戶，因此當您建立或修改會議室信箱時，您必須新增帳戶，以便使用 Skype 會議室系統 v2 進行驗證。
 
@@ -147,9 +147,9 @@ ms.locfileid: "52739643"
    ```  -->
 
     > [!NOTE]
-    > 如果密碼未設定為永不過期，當帳戶到達到期日時，該帳戶將不再在裝置上登錄。 然後，帳戶的密碼必須變更，並且也會在900-900-19999-20100-20100-201199-2013-46-46-46
+    > 如果密碼未設定為永不過期，當帳戶到達到期日時，該帳戶將不再在裝置上登錄。 然後，帳戶的密碼必須變更，並且也會在當地更新的一個 。。
 
-6. 裝置帳戶必須擁有有效的授權Microsoft 365授權Office 365，Exchange Microsoft Teams或商務用 Skype將無效。 如果您有授權，您必須將使用位置指派給裝置帳戶，這決定您的帳戶可以使用哪些授權 SKUs。 您可以使用 `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 以如下方式為貴組織或Microsoft 365 Office 365可用的 SKUS 清單：
+6. 裝置帳戶必須擁有有效的授權Microsoft 365授權Office 365，Exchange Microsoft Teams或商務用 Skype將無效。 如果您有授權，您必須指派使用位置至您的裝置帳戶，這決定您的帳戶可以使用哪些授權 SKUs。 您可以使用 `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 以如下方式為貴組織或Microsoft 365 Office 365可用的 SKUS 清單：
 
    ```Powershell
    Get-MsolAccountSku
@@ -175,7 +175,7 @@ ms.locfileid: "52739643"
 
    有關詳細指示，請參閱使用 PowerShell 指派授權[Office 365使用者帳戶](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)。
 
-   您也可以新增電話系統功能至此帳戶，但您必須先進行設定。 請參閱[什麼是電話系統？](../what-is-phone-system-in-office-365.md)以進一步查看詳細資料。 此範例新增 PSTN 國內及國際通話方案：
+   您也可以新增電話系統功能至此帳戶，但您必須先進行設定。 請參閱[什麼是電話系統？](../what-is-phone-system-in-office-365.md)以進一步瞭解詳細資料。 此範例新增 PSTN 國內及國際通話方案：
 
    ```PowerShell
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
@@ -189,7 +189,7 @@ ms.locfileid: "52739643"
    啟動遠端[Windows PowerShell會話](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)， (請務必在 商務用 Skype [PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)元件) ：
 
    > [!NOTE]
-   > 商務用 Skype線上連接器是目前 PowerShell 模組Teams的一部分。
+   > 商務用 Skype Online 連接器目前是最新 Teams PowerShell 模組的一部分。
    >
    > 如果您使用的是最新版[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)Teams版本，則不需要安裝 商務用 Skype 連線連接器。
 

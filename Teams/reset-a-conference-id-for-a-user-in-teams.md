@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解在 Microsoft Teams 中重設使用者會議 ID 的步驟，並取得會議更新和移Microsoft Teams工具的連結。
-ms.openlocfilehash: edccab5da883c1707ade75519e96615ed3524bf3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 3c266b59bab4c51293d429d4698b3c79fe8b84232d519499f8a1bfa27a0c0d94
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117641"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54319776"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>重設使用者的會議 ID Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "51117641"
 
 3. 在 **[音訊會議>** 下，按一下 **[重設會議 ID>**。
 
-2. 在 [ **重設會議 ID>** 視窗中，按一下 [ **重設**。 系統會自動建立會議 ID，並且會以新的會議 ID 將電子郵件寄給使用者。 根據預設，電子郵件會寄給使用者，但可以關閉此功能。   
+2. 在 [ **重設會議 ID>** 視窗中，按一下 [ **重設**。 系統會自動建立會議 ID，並且會以新的會議 ID 將電子郵件寄給使用者。 根據預設，電子郵件會寄給使用者，但可以關閉。   
 
     
 > [!NOTE]
@@ -58,7 +58,7 @@ ms.locfileid: "51117641"
 
 - 您可以在包含會議 ID 和撥入電話號碼的電子郵件中，為使用者傳送所有會議資訊，方法是在音訊會議區段按一下以電子郵件傳送 **會議資訊。** 它不會傳送 PIN。
     
-- 7- 9 位數的會議 ID 是由服務Teams建立。 無法變更長度。
+- 7- 9 位數的會議 ID 是由服務Teams建立。 您無法變更其長度。
     
 - 重設之後，您可以在會議 ID 下看到新的會議 **ID。**
     
@@ -66,7 +66,7 @@ ms.locfileid: "51117641"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
 
-Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 有了Windows PowerShell，您可以使用單一Microsoft 365管理Office 365管理，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
   - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

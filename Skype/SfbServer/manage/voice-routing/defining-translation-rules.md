@@ -10,32 +10,32 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 商務用 Skype Server Enterprise Voice 會根據標準化為 e.164 格式的電話號碼，進行呼叫。 這表示所有撥打的字串都必須正常化為 e.164 格式，以執行反向號碼查閱 (RNL) ，使其可轉譯成比對其相符的 SIP URI。 商務用 Skype Server 可讓您操縱所叫的識別碼及來電者識別碼簡報。
-ms.openlocfilehash: f3a37a48ec2e4497d644e2051a6e6d37ccef9707
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 商務用 Skype Server 企業語音會根據標準化為 e.164 格式的電話號碼，進行路由呼叫。 這表示所有撥打的字串都必須正常化為 e.164 格式，以執行反向號碼查閱 (RNL) ，使其可轉譯成比對其相符的 SIP URI。 商務用 Skype Server 提供的功能，可以操縱所叫的識別碼及來電者識別碼簡報。
+ms.openlocfilehash: f297ca2d2f6aea52494557083b1b7d3206276ba40fbdf1a5c018716bccc55e25
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120905"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333365"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>在商務用 Skype Server 中定義轉譯規則
 
-商務用 Skype Server Enterprise Voice 會根據標準化為 e.164 格式的電話號碼，進行呼叫。 這表示所有撥打的字串都必須正常化為 e.164 格式，以執行反向號碼查閱 (RNL) ，使其可轉譯成比對其相符的 SIP URI。 商務用 Skype Server 可讓您操縱所叫的識別碼及來電者識別碼簡報。
+商務用 Skype Server 企業語音會根據標準化為 e.164 格式的電話號碼，進行路由呼叫。 這表示所有撥打的字串都必須正常化為 e.164 格式，以執行反向號碼查閱 (RNL) ，使其可轉譯成比對其相符的 SIP URI。 商務用 Skype Server 提供的功能，可以操縱所叫的識別碼及來電者識別碼簡報。
 
-在商務用 Skype Server 中，被叫方的電話號碼 (也就是說，稱為) 的電話號碼可以從 e.164 格式轉譯成主幹對等 (（即相關聯的閘道、專用交換機 (PBX) 或 SIP 主幹) ）所需的本機撥號格式。 若要執行此項作業，您必須定義一或多個轉譯規則，以在將其路由傳送至主幹對等之前轉譯要求 URI。
+在商務用 Skype Server 中，被叫方的電話號碼 (也就是說，稱為) 的電話號碼可以從 e.164 格式轉譯成主幹對等 (所需的本機撥號格式，也就是關聯的閘道、專用分支 exchange (PBX) 或 SIP 主幹) 。 若要執行此項作業，您必須定義一或多個轉譯規則，以在將其路由傳送至主幹對等之前轉譯要求 URI。
 
 ## <a name="caller-id-presentation"></a>來電者識別碼簡報
 
-商務用 Skype 伺服器提供的選項也可轉譯呼叫者的電話號碼 (也就是說，來電者) 撥打的電話號碼是由 e.164 格式所要求的，也就是主幹對等項所需的本機撥號格式。 例如，您可撰寫轉譯規則，來將撥號字串開頭的 +44 移除，並以 0144 來取代。
+商務用 Skype Server 提供的選項可將呼叫者的電話號碼轉譯 (也就是呼叫者撥打的電話號碼，) 從 e.164 格式，到主幹對等所需的本機撥號格式。 例如，您可撰寫轉譯規則，來將撥號字串開頭的 +44 移除，並以 0144 來取代。
 
 **使用商務用 Skype Server 控制台設定來電者識別碼**
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [委派設定許可權](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)。
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype 控制台之不同方法的詳細資訊，請參閱 [Install and open the 系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
+2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype 控制台之不同方法的詳細資訊，請參閱[安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3. 在左導覽列中，按一下 **[語音路由]**，然後按一下 **[主幹組態]**。
 4. 在 [主幹組態] 頁面上，按兩下現有的主幹 (例如 **[通用]** 主幹)，顯示 **[編輯主幹組態]** 對話方塊。
 5. 若要設定來電者 ID 呈現方式：
-    - 若要從 Enterprise Voice 部署中所有可用轉譯規則的清單中選擇一個或多個規則，請按一下 [ **選取**]。 在 **[來電號碼轉譯規則]** 中，按一下您想要與主幹建立關聯的規則，然後按一下 **[確定]**。
+    - 若要從企業語音部署中可用之所有轉譯規則的清單中選擇一個或多個規則，請按一下 [**選取**]。 在 **[來電號碼轉譯規則]** 中，按一下您想要與主幹建立關聯的規則，然後按一下 **[確定]**。
     - 若要定義新的轉譯規則並將其與主幹建立關聯，請按一下 **[新增]**。 
     - 若要編輯已與主幹建立關聯的轉譯規則，按一下規則名稱，然後按一下 **[顯示詳細資料]**。
     - 若要複製現有的轉譯規則，以做為定義新規則的起點，請按一下規則名稱，按一下 [ **複製**]，然後按一下 [ **貼** 上]。
@@ -55,7 +55,7 @@ ms.locfileid: "51120905"
 - [手動寫入正則運算式](#create-or-modify-a-translation-rule-manually) ，以定義相符的模式和轉譯規則。
 
 > [!Note]
-> 如需如何撰寫正則運算式的詳細資訊，請參閱 [.Net Framework 正則運算式](/dotnet/standard/base-types/regular-expressions)。 
+> 如需如何撰寫正則運算式的詳細資訊，請參閱[.NET Framework 正則運算式](/dotnet/standard/base-types/regular-expressions)。 
 
 ### <a name="create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool"></a>使用組建轉譯規則工具建立或修改轉譯規則
 
@@ -64,7 +64,7 @@ ms.locfileid: "51120905"
 **使用組建轉譯規則工具定義規則**
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [委派設定許可權](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)。
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype 控制台之不同方法的詳細資訊，請參閱 [Install and open the 系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
+2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype 控制台之不同方法的詳細資訊，請參閱[安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3. 若要開始定義轉譯規則，請遵循透過步驟 10 [設定具有媒體旁路的主幹](GET LINK AFTER MIGRATION)中的步驟，或在步驟9中 [設定無媒體旁路的主幹](GET LINK AFTER MIGRATION) 。
 4. 在 [**新增轉譯規則**] 或 [**編輯轉譯規則**] 頁面的 [**名稱**] 下，輸入描述所轉譯之號碼模式的名稱。
 5.  (選用) 在 [ **描述**] 底下，輸入轉譯規則的描述，例如 **美國國際長途撥號**。
@@ -99,7 +99,7 @@ ms.locfileid: "51120905"
 **若要手動定義轉譯規則**
 
 1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [委派設定許可權](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)。
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype 控制台之不同方法的詳細資訊，請參閱 [Install and open the 系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
+2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype 控制台之不同方法的詳細資訊，請參閱[安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3. 若要開始定義轉譯規則，請遵循透過步驟 10 [設定具有媒體旁路的主幹](GET LINK AFTER MIGRATION)中的步驟，或在步驟9中 [設定無媒體旁路的主幹](GET LINK AFTER MIGRATION) 。
 4. 在 **[新增轉譯規則]** 或 **[編輯轉譯規則]** 頁面的 **[名稱]** 欄位中，輸入可描述所轉譯號碼模式的名稱。
 5.  (選用) 在 [ **描述**] 中，輸入轉譯規則的描述;例如， **美國國際長途撥號**。

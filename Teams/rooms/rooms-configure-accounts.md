@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 請閱讀本主題，瞭解如何在 Microsoft Teams 會議室 中Exchange商務用 Skype。
-ms.openlocfilehash: 26879b2c07b859e65255ed84bedd4897b75d5caa
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: d66e495fd4e1e75227b162974891cda9876fef28c9f809dead001af1a95b099a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117471"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348798"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>設定帳戶Microsoft Teams 會議室
  
@@ -30,13 +30,13 @@ ms.locfileid: "51117471"
   
 - 線上部署：貴組織的環境完全部署在 Microsoft 365 或 Office 365。 詳細資訊，請參閱使用 Microsoft Teams 會議室[或 Microsoft 365 部署Office 365。](with-office-365.md)
     
-- 內部部署：貴組織有它所控制的伺服器，其中 Active Directory、Exchange和商務用 Skype Server是託管。 詳細資訊，請參閱使用Microsoft Teams 會議室[部署商務用 Skype Server](with-skype-for-business-server-2015.md)
+- 內部部署：貴組織有它所控制的伺服器，其中 Active Directory、Exchange 和 商務用 Skype Server是託管。 詳細資訊，請參閱使用Microsoft Teams 會議室[部署商務用 Skype Server](with-skype-for-business-server-2015.md)
     
-- 混合式部署：貴組織有混合式服務，其中一些是內部部署，有些則透過Microsoft 365或Office 365。 使用 Microsoft Teams 會議室，支援下列混合式案例：
+- 混合式部署：貴組織有混合式服務，有些是內部部署，有些則透過Microsoft 365或Office 365。 使用 Microsoft Teams 會議室，支援下列混合式案例：
     
   - Exchange Online內部商務用 Skype Server中。 詳細資訊，請參閱使用混合[式Microsoft Teams 會議室部署Exchange Online () 。](with-exchange-online.md)
     
-  - Exchange內部部署使用 Microsoft Teams 或 商務用 Skype Online。 詳細資訊，請參閱在內部部署[Microsoft Teams 會議室部署Exchange混合式 (部署) 。](with-exchange-on-premises.md)
+  - Exchange內部部署，Microsoft Teams或 商務用 Skype Online。 詳細資訊，請參閱在內部部署[Microsoft Teams 會議室部署Exchange混合式 (部署) 。](with-exchange-on-premises.md)
     
 您擁有哪些設定將會影響您準備裝置設定時如何進行。
   
@@ -62,7 +62,7 @@ Microsoft Teams 會議室 Active Directory、Exchange和 商務用 Skype。 該�
   
 使用 Microsoft Azure其他組組時，您可以如規劃 Microsoft Teams 會議室 管理與[Azure 監視器](azure-monitor-plan.md)、使用 Azure 監視器部署[Microsoft Teams 會議室](azure-monitor-deploy.md)管理，以及使用 Azure 監視器管理 Microsoft Teams 會議室 裝置中所述，使用 Microsoft Teams 會議室 監視器進行遠端[管理](azure-monitor-manage.md)。 
   
-## <a name="basic-configuration"></a>基本組組
+## <a name="basic-configuration"></a>基本組
 
 這些屬性代表裝置帳戶使用Microsoft Teams 會議室。 您的裝置帳戶可能需要進一步設定。
   
@@ -78,7 +78,7 @@ Microsoft Teams 會議室 Active Directory、Exchange和 商務用 Skype。 該�
   
 |**屬性**|**目的**|
 |:-----|:-----|
-|憑證式驗證  <br/> |系統可能需要憑證才能Exchange商務用 Skype Server。 若要部署憑證，您可以在以系統管理員登入時載入憑證。  <br/> |
+|憑證式驗證  <br/> |您可能需要憑證才能Exchange商務用 Skype Server。 若要部署憑證，您可以在以系統管理員登入時載入憑證。  <br/> |
    
 設定裝置帳戶最簡單的方法是使用遠端Windows PowerShell。 Microsoft 提供[SkypeRoomProvisioningScript.ps1，](https://go.microsoft.com/fwlink/?linkid=870105)此腳本可協助建立新裝置帳戶，或驗證您現有的資源帳戶，以便協助您將這些帳戶轉換為Microsoft Teams 會議室帳戶。
   

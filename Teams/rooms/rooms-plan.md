@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 本文將說明部署新一代會議室系統Microsoft Teams 會議室相關規劃考慮Skype考慮。
-ms.openlocfilehash: d07783e2e3df7b4a8c2563b39fb702369751d139
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 6112e341d9a76b77d2c8f1a93d27c2c24d0d86cd7c17a499e0e55cfa7d2e1b23
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646984"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348778"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>規劃Microsoft Teams 會議室
 
@@ -30,7 +30,7 @@ ms.locfileid: "53646984"
 
 ## <a name="overview-of-microsoft-teams-rooms"></a>概觀Microsoft Teams 會議室
 
-Microsoft Teams 會議室提供完整的會議體驗，將 HD 視音訊、音訊和內容共用帶到各種大小的會議，從小型活動區域到大型會議室。
+Microsoft Teams 會議室提供完整的會議體驗，將 HD 視音訊、音訊和內容共用帶到各種大小的會議，從小型會議區域到大型會議室。
 
 ![安裝在會議室牆上的主機、麥克風和大型螢幕會說明設定範例Microsoft Teams 會議室元素。](../media/room-systems-image1.png "安裝在會議室牆上的主機、麥克風和大型螢幕會說明設定範例Microsoft Teams 會議室元素。")
 
@@ -43,7 +43,7 @@ Microsoft Teams 會議室包含下列關鍵元件，以提供出色的使用者�
 - 觸控螢幕控制台
 - 計算
 - Microsoft Teams 會議室應用程式
-- 擴充座/擴充程式
+- 擴充座/擴充器
 - 外接裝置 (、麥克風、喇叭) 
 - 外部畫面 (最多兩) 
 - HDMI 輸入
@@ -59,16 +59,16 @@ Microsoft Teams 會議室包含下列關鍵元件，以提供出色的使用者�
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
 |![決定部署](../media/audio_conferencing_image7.png) <br/>決策點|<ul><li>您是否將部署Microsoft Teams 會議室組織？ </li><li>您將如何取得您的Microsoft Teams 會議室系統—以個別元件或整合式裝置進行整合？</li></ul> |
-| ![識別活動](../media/audio_conferencing_image9.png)<br/>後續步驟 | <ul><li>識別誰將在整個部署期間進行重要活動。</li><li>查看您 (會議室，並規劃設定) ，以瞭解您想要在哪裡部署 Microsoft Teams 會議室 以及適合會議室大小的周邊裝置。</li></ul> |
+| ![識別活動](../media/audio_conferencing_image9.png)<br/>後續步驟 | <ul><li>識別誰將在整個部署期間進行重要活動。</li><li>查看您 (會議室，並規劃設定) ，以瞭解您想要在哪裡部署 Microsoft Teams 會議室，以及適合會議室大小的周邊裝置。</li></ul> |
 | | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment&quot;></a>識別誰將在整個部署期間進行重要活動
 
 請使用下列說明的方法，引導您完成部署，並根據您的組織需要自訂這些文章中提供的範例輸出。
 
-首先瞭解您擁有哪些會議室，並構想未來最適合您的會議室，然後選取並購買您所需的設備、準備網站、配置及部署服務、管理變更和使用者採用，以及開發作業和維護程式。
+首先瞭解您擁有哪些會議室，並構想未來最適合您的會議室，然後選取並購買所需的設備、準備網站、配置及部署服務、管理變更和使用者採用，以及開發作業和維護程式。
 
-![首先瞭解您擁有的內容，並構想最適合您的專案，然後選取並購買您所需的設備、準備網站、配置及部署服務、管理變更及使用者採用，以及開發作業和維護程式。](../media/room-systems-image2.png &quot;首先瞭解您擁有的內容，並構想最適合您的專案，然後選取並購買您所需的設備、準備網站、配置及部署服務、管理變更及使用者採用，以及開發作業和維護程式。")
+![首先瞭解您擁有的內容，並構想最適合您的專案，然後選取並購買您所需的設備、準備網站、配置及部署服務、管理變更及使用者採用，以及開發作業和維護程式。](../media/room-systems-image2.png &quot;首先瞭解您擁有的內容，並構想最適合您的專案，然後選取並購買您所需的設備、準備網站、配置及部署服務、管理變更和使用者採用，以及開發作業和維護程式。")
 
 您可能需要跨多個小組協調這些活動。 我們會提供您應涵蓋之主要活動的高層級視圖，以及一般參與部署和管理會議室系統的團隊建議，説明您決定需要處理哪些人。
 
@@ -80,7 +80,7 @@ Microsoft Teams 會議室包含下列關鍵元件，以提供出色的使用者�
 | 採購                | IT Project團隊 / AV 團隊              |             | [採購](#procurement)                      |
 | 網站準備就緒             | 設施/ AV 小組 / IT Project小組 |             | [網站準備就緒](rooms-deploy.md#site-readiness)                      |
 | 服務整備          | IT Project小組                        |             | [服務整備](rooms-deploy.md#service-readiness)                      |
-| 配置              | IT Project小組                        |             | [組組和部署](rooms-deploy.md#configuration-and-deployment)                      |
+| 配置              | IT Project小組                        |             | [組配置與部署](rooms-deploy.md#configuration-and-deployment)                      |
 | Deployment                 | 設施/ AV 小組 / IT Project小組 |             | [部署檢查清單](console.md#microsoft-teams-rooms-deployment-checklist)                      |
 | 採用                   | 設施/ AV 小組 / IT Project小組 |             | [採用](#plan-for-adoption-and-change-management)                      |
 | 維護和作業 | AV 小組/IT Project小組              |             | [管理概觀](rooms-manage.md)                      |
@@ -88,11 +88,11 @@ Microsoft Teams 會議室包含下列關鍵元件，以提供出色的使用者�
 
 ## <a name="room-inventory-and-capability-planning"></a>會議室庫存與功能規劃
 
-第一個步驟是清點貴組織現有的會議室，以瞭解其環境、會議室大小、版面配置及用途，以及找出您希望未來範圍內每個會議室擁有的功能，例如會議室中將啟用哪些更豐富的共同功能。 
+第一個步驟是清點貴組織現有的會議室，以瞭解其環境、會議室大小、版面配置及用途，以及找出您希望未來範圍內每個會議室擁有的功能，例如會議室中將啟用哪些更豐富的共同合作功能。 
 
-建立每個現有會議室之設備與功能的庫存之後，該會議室的需求會進入您的裝置選擇規劃，以建立豐富的會議解決方案。 除了會議室 (用途) ，每個會議室所需的音訊、視) 模式，在決定最適合每個會議室的解決方案時，都扮演重要角色。 
+建立每個現有會議室之設備與功能的庫存之後，該會議室的需求會進入您的裝置選擇規劃，以建立豐富的會議解決方案。 除了會議室 (用途之外) 每個會議室所需的音訊、視) 模式，在決定哪個解決方案最適合每個會議室時，都扮演重要角色。 
 
-做為探索的一部分，考慮會議室的隔音和版面配置是一項關鍵。 例如，檢查會議室中的椅子是否無法封鎖相機的視野。 確認會議室沒有過度回音或吵雜的空調，而且其螢幕和Microsoft Teams 會議室。 有許多因素可考慮您的視 (視) 小組或合作夥伴可以提供意見。 
+做為探索的一部分，考慮會議室的隔音和版面配置是一項關鍵。 例如，檢查會議室中的椅子是否無法封鎖相機的視野。 確認會議室沒有過度回音或吵雜的空調，而且螢幕和螢幕是否有足夠的Microsoft Teams 會議室。 有許多因素可考慮您的視 (視) 小組或合作夥伴可以提供意見。 
 
 | &nbsp;   | &nbsp;    |
 |-----------|------------|
@@ -109,9 +109,9 @@ _範例會議/會議室庫存_
 
 根據Microsoft Teams 會議室會議室的未來功能，評估哪一種解決方案最適合每個會議室。 根據會議室大小和版面配置，決定最適合的 AV 周邊裝置。 
 
-有關如何根據會議室類型和大小來瞭解系統與周邊裝置類型的指南，請參閱Microsoft Teams 會議室[一文](requirements.md)。 
+有關根據會議室類型和大小來瞭解系統與周邊裝置類型之指南，請參閱Microsoft Teams 會議室[需求一](requirements.md)文。 
 
-根據您偏好的廠商，使用需求文章中提供的資訊，定義每個會議室類型的 Microsoft Teams 會議室 和支援的周邊裝置組組，並使用此範本做為部署範本。 
+根據您偏好的廠商，使用需求文章所提供的資訊，為每個會議室類型定義您的 Microsoft Teams 會議室 和支援的周邊裝置組組，並使用此範本做為您的部署範本。 
 
 **Pro提示**- 某些會議室類型可能不適用於您的部署。
 
@@ -148,9 +148,9 @@ _貴Microsoft Teams 會議室部署範本範例_
 
 貴組織必須持續執行監控、系統管理及管理工作，且必須同意誰在部署初期承擔這些工作。 
 
-許多組織都有一個音視小組或合作夥伴，負責管理其會議室和裝置。 此小組應參與同意由誰管理Microsoft Teams 會議室裝置，以監控Microsoft Teams 會議室，以及部署軟體更新和 hotfix。 
+許多組織都有一個 AV 小組或合作夥伴，負責管理其會議室和裝置。 此小組應參與同意由誰管理Microsoft Teams 會議室裝置，以監控Microsoft Teams 會議室，以及部署軟體更新和 Hotfix。 
 
-請考慮您將路由的 Microsoft Teams 會議室Microsoft Teams 會議室</DICT__Microsoft⚐Teams⚐人員議室>以及他們可以採取的主要疑難排解步驟。 此常見問題的一個好起點是[使用者説明和](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)[已知問題](known-issues.md)。
+請考慮您將路由的 Microsoft Teams 會議室Microsoft Teams 會議室</DICT__Microsoft⚐Teams⚐人員議，> 以及他們可採取的主要疑難排解步驟。 此常見問題的一個好起點是[使用者説明和](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)[已知問題](known-issues.md)。
 
 |  &nbsp;  |  &nbsp;   |
 |-----------|------------|
@@ -160,6 +160,6 @@ _貴Microsoft Teams 會議室部署範本範例_
 
 ## <a name="plan-for-adoption-and-change-management"></a>規劃採用與變更管理
 
-Microsoft Teams 會議室系統會為使用者介紹新功能。 您必須瞭解這將會為使用者帶來變更，而且您應該確保您的行銷活動找出新系統將給使用者帶來的好處，以及主要討論重點潛在客戶可以用來與小組討論。 
+Microsoft Teams 會議室系統會為使用者介紹新功能。 您必須瞭解這將會為使用者帶來變更，而且您應該確保您的行銷活動找出新系統將給使用者帶來的好處，以及潛在客戶可以用來與小組討論的關鍵重點。 
 
 請考慮在每個網站排程顯示與通知活動與海報丟包，以告知使用者新功能。 您也可以在聊天室中建立「快速入門手冊」。 請考慮在每個網站上尋找會議支援者，協助其他人快速上手並開始使用裝置。

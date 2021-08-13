@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 若要編輯現有 Director 的設定，您會看到下列區段：
-ms.openlocfilehash: b7478779e54a7860726ae967eb1e203625c8b17b
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f928061059ac17ccebf06705f3862440f19e8e06632dcfdfbbf4e01581fa8e6d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835333"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54333675"
 ---
 # <a name="director-general-settings-expander"></a>Director 一般設定展開工具
  

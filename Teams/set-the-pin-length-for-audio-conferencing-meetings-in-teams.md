@@ -22,18 +22,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解 PIN 長度和需求的參數，並瞭解如何在 Microsoft Teams 中設定會議Microsoft Teams。
-ms.openlocfilehash: 68dc1f3ea5508dc88bc168a5f3fbed837bbee04f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: cab8976ab0c92a3594dbf881426606288fb611a4dbc286ba0c3d36a1c2096133
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51117161"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348728"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>在會議中設定音訊會議會議的 PIN 長度Microsoft Teams
 
 當您為會議設定音訊會議Microsoft Teams，您就會獲得音訊會議橋接器。 一個會議橋接器可以包含一或多個電話號碼。 您設定的電話號碼會包含在應用程式的會議邀請Microsoft Teams中。
   
-音訊會議橋接器可接聽電話使用手機撥入會議人員的電話。 它會使用自動語音應答的語音提示來接聽來電者，然後視您的設定播放通知，並要求來電者錄製其名稱。 **Microsoft 橋接器** 設定允許您變更會議通知和會議加入體驗的設定，並設定會議召集人所使用的 PIN 長度。 如果會議召集人無法使用應用程式加入會議，請使用 PIN Microsoft Teams會議。
+音訊會議橋接器可接聽電話使用手機撥入會議人員的電話。 它以自動語音應答的語音提示回答來電者，然後視您的設定播放通知，並要求來電者錄製其名稱。 **Microsoft 橋接器** 設定允許您變更會議通知和會議加入體驗的設定，並設定會議召集人所使用的 PIN 長度。 如果會議召集人無法使用應用程式加入會議，請使用 PIN Microsoft Teams會議。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

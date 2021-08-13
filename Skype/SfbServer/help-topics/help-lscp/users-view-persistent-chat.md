@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: CsPersistentChatAdministrator 角色的成員 (Persistent Chat Administrators) 可將聊天室管理員權力和許可權授與其他使用者及自身。
-ms.openlocfilehash: 9af0467d278855a6cb07d5e5ebc77697f838c0ef
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 96bb8c4924fad3709d756696bb8965cafcbce676f8ac44865671cbbb895f9ca6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115079"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54348228"
 ---
 # <a name="users-view-persistent-chat"></a>使用者：檢視常設聊天室
 
@@ -48,4 +48,4 @@ Persistent Chat 系統管理員可以執行下列作業：
 
 - [瞭解 Persistent Chat 成員資格](/previous-versions/office/lync-server-2013/understanding-persistent-chat-membership)
 
-如需您可以使用商務用 Skype Server 控制台執行的不同程式的詳細資訊，請參閱 [管理商務用 Skype server 2015](../../manage/manage.md)。
+如需使用商務用 Skype Server 控制台可執行之不同程式的詳細資訊，請參閱[Manage 商務用 Skype Server 2015](../../manage/manage.md)。
