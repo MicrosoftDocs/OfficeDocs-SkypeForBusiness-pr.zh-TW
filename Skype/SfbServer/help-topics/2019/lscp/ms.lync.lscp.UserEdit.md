@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 5d0f8b0039b12bca19dbfc90adbc6065e7bf9f87
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 8ccd11709a5a024fa428e37bef7e0f8b191c81f2ed45db19e8a10a42638fb86e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51120102"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304255"
 ---
 # <a name="users-edit-user"></a>使用者：編輯使用者
 
@@ -28,7 +28,7 @@ ms.locfileid: "51120102"
 
 - [啟用或停用使用者](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server)
 
-- [在商務用 Skype Server 中啟用使用者的 Enterprise Voice](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
+- [在商務用 Skype Server 中為使用者啟用企業語音](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
 - [指派會議原則來修改使用者的預設會議體驗](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-conferencing-policy)
 

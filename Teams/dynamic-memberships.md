@@ -17,23 +17,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74974f7b94a5d1bcadb340e132dae9e3b39a7704
-ms.sourcegitcommit: 36bc47b2b9ee0e738fa814c31accacfe816da4a3
+ms.openlocfilehash: 2bec8b60385185cf1e7417fb5396ef164eb585bad03d003eb174d0bb9cf30c4e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "52856322"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315299"
 ---
 # <a name="overview-of-dynamic-membership-for-teams"></a>小組的動態成員資格概觀
 
-Microsoft Teams使用動態成員資格，支援Microsoft 365群組 *相關聯的團隊*。 動態成員資格可讓團隊的成員資格由一或多個規則定義，這些規則會檢查 Azure AD Azure Active Directory (中的特定) 。 使用者屬性變更或使用者加入並離開租使用者時，系統會自動將使用者新增或移除至正確的團隊。
+Microsoft Teams使用動態成員資格Microsoft 365與群組相關聯的 *團隊*。 動態成員資格可讓團隊成員資格由一或多個規則定義，這些規則會檢查 Azure AD Azure Active Directory (中的特定) 。 使用者屬性變更或使用者加入並離開租使用者時，系統會自動將使用者新增或移除至正確的團隊。
 
 有了動態成員資格，您可以為貴組織中特定群組的使用者設定團隊。 可能的情況包括：
 - 醫院可以建立不同的團隊，讓護士、醫生和醫生廣播通訊。 如果醫院仰賴臨時員工，這一點特別重要。
 - 大學可以為特定學院內的所有教職員建立一個團隊，包括經常變更的教職員。
-- 一家航空公司想要為每個航班建立一個團隊 (例如星期二下午從芝加哥直飛芝加哥到) 並需要自動指派或移除經常變更的乘務員。
+- 航空公司想要為每個航班建立一個團隊 (例如星期二下午從芝加哥到芝加哥的直達航班) 並需要自動指派或移除經常變更的乘務員。
 
-使用這項功能，指定小組成員會根據一組特定的準則自動更新，而不是手動管理成員資格。 若要這麼做，進階版租使用者系統管理員可以將 Azure AD 授權和小組成員資格[](/azure/active-directory/users-groups-roles/groups-dynamic-membership)指派給任何使用者的 Azure AD 屬性，只要具備租使用者和系統管理員帳戶。
+使用這項功能時，特定小組成員會根據一組特定的準則自動更新，而不是手動管理成員資格。 若要這麼做Azure AD Premium P1租使用者系統管理員可以將授權和團隊成員資格指派給[](/azure/active-directory/users-groups-roles/groups-dynamic-membership)任何使用者的 Azure AD 屬性，只要具備租使用者和系統管理員帳戶。
 
 Microsoft Teams可能需要幾分鐘到最多 2 小時的時間，以反映動態成員資格變更一旦在團隊的 Microsoft 365 群組中生效。
 

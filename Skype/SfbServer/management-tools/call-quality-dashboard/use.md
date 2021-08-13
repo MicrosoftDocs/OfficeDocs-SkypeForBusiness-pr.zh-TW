@@ -12,23 +12,23 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: 摘要：瞭解如何使用 [通話品質] 儀表板。 通話品質儀表板是商務用 Skype 伺服器的工具。
-ms.openlocfilehash: d4787671955159d2bef0144872c50caccbbbb8eb
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：瞭解如何使用 [通話品質] 儀表板。 通話品質儀表板是商務用 Skype Server 的工具。
+ms.openlocfilehash: a2f5cbe503f914fe32b42119397be44ab82617cddd9951ab7064a2d08c0289f4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317578"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>使用商務用 Skype Server 的通話品質儀表板
 
-**摘要：** 瞭解如何使用通話品質儀表板。 通話品質儀表板是商務用 Skype 伺服器的工具。
+**摘要：** 瞭解如何使用通話品質儀表板。 通話品質儀表板是商務用 Skype Server 的工具。
 
 通話品質儀表板 (CQD) 可讓 IT 專業人員使用匯總資料，透過比較使用者群組的統計資料來識別產生媒體質量問題的問題，以識別趨勢和模式。 CQD 不會專注于解決個別通話問題，但可識別適用于許多使用者的問題和解決方案。
 
 ## <a name="call-quality-dashboard-user-guide"></a>通話品質儀表板使用者指南
 
-CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建立及組織報表。 CQD 會部署一個 SSAS cube，以匯總 QoE 度量資料庫中的資料，並可讓系統管理員即時建立及修改報告或進行調查。 雖然您可以使用 Excel 直接連線到 cube，但已針對包含 QoE 資料的數個工作流程優化入口網站。 資料包括：
+CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建立及組織報表。 CQD 會部署一個 SSAS cube，以匯總 QoE 度量資料庫中的資料，並可讓系統管理員即時建立及修改報告或進行調查。 雖然可以使用 Excel 直接連線到 cube，但已針對包含 QoE 資料的數個工作流程優化入口網站。 資料包括：
 
 - 快速存取的快取報告資料
 - 資訊共用及發佈的報告頁面深層連結
@@ -55,7 +55,7 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 
 在最上層，「音訊資料流程每月趨勢」報告會顯示所有音訊資料流程的每月趨勢。 將滑鼠移到柱狀圖中的橫條圖上方，以顯示柱狀圖所代表的資料更詳細的視圖。 按一下 [音訊資料流程每月趨勢報告] 的標題，以流覽至「受管理的 vs 音訊流量」報告，該報告會在受管理和非管理的呼叫間分割。 受管理的來電是透過有線連線從公司防火牆內部撥打的電話。 未管理的呼叫包括從公司防火牆外撥出的電話，以及透過 Wi-Fi 所進行的所有通話。
 
-其他最上層的報表稱為「使用者報告的通話品質分級長條圖」。 通話品質評級是通話結束時，商務用 Skype 使用者提供的數位，用來表示通話的品質。 分級編號範圍介於1到5、1是最差值和5。 長條圖會顯示在一個月中指定分級的音訊通話數目。
+其他最上層的報表稱為「使用者報告的通話品質分級長條圖」。 通話品質評級是指在來電結束時商務用 Skype 使用者指定的數位，用以指出通話的品質。 分級編號範圍介於1到5、1是最差值和5。 長條圖會顯示在一個月中指定分級的音訊通話數目。
 
 按一下任何報告的標題，以流覽至資料中具有更多篩選的報表。 在系統報告中，每個子報表會顯示其父報表中可用的資料子集。 解決問題的模型很簡單：調查哪個子報表會限制問題的資料或趨勢，並逐步縮小問題空間。 建立子報表的功能可讓您針對特定資料趨勢的原因，調查您自己的猜測。
 
@@ -103,7 +103,7 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 
 **CqdBuilding**
 
-|欄|資料類型|允許 Null？|詳細資料|
+|欄位|資料類型|允許 Null？|詳細資料|
 |:-----|:-----|:-----|:-----|
 |BuildingKey |int |否 |CqdBuilding 表格的主鍵。 |
 |BuildingName |Varchar (80)  |否 |大樓名稱。 |
@@ -118,12 +118,12 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 |StateProvinceCode |Varchar (3)  |是 |組建所在之州/省的三個字母縮寫。 |
 |InsideCorp |位 |是 |Bit 表示組建是否屬於公司網路的一部分。 |
 |BuildingOfficeType |Nvarchar (150)  |是 |建立 office 類型的描述。 |
-|地區 |Varchar (25)  |是 |組建所在的地區。 |
+|區域 |Varchar (25)  |是 |組建所在的地區。 |
 |||||
 
 **CqdNetwork**
 
-|欄|資料類型|允許 Null？|詳細資料|
+|欄位|資料類型|允許 Null？|詳細資料|
 |:-----|:-----|:-----|:-----|
 |網路 |Varchar (25)  |否 |子網位址。 |
 |NetworkRange |Tinyint |是 |子網路遮罩。 |
@@ -136,7 +136,7 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 
 **CqdBuildingType**
 
-|欄|資料類型|允許 Null？|詳細資料|
+|欄位|資料類型|允許 Null？|詳細資料|
 |:-----|:-----|:-----|:-----|
 |BuildingTypeId |int |否 |CqdBuildingType 表格的主鍵。 |
 |BuildingTypeDesc |char (18)  |否 |大樓類型描述。 |
@@ -146,7 +146,7 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 
 **CqdBuildingOwnershipType**
 
-|欄|資料類型|允許 Null？|詳細資料|
+|欄位|資料類型|允許 Null？|詳細資料|
 |:-----|:-----|:-----|:-----|
 |OwnershipTypeId |int |否 |CqdBuildingOwnershipType 表格的主鍵。 |
 |OwnershipTypeDesc |Varchar (25)  |否 |擁有權類型描述。 |
@@ -158,7 +158,7 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 
 **CqdBssid**
 
-|欄|資料類型|允許 Null？|詳細資料|
+|欄位|資料類型|允許 Null？|詳細資料|
 |:-----|:-----|:-----|:-----|
 |Bss |Nvarchar (50)  |否 |CqdBssid 表格的主鍵。 為 WiFi 存取點的 BSSID。 |
 |Ess |Nvarchar (50)  |是 |Wifi 存取點控制器資訊。 |
@@ -222,7 +222,7 @@ CQD 不使用來電者/被叫用方欄位，而是使用 "First" 和 "Second"，
 
 - 測量
 - 維度
-- 篩選
+- 篩選器
 
 例如，格式正確的查詢將會是「使用子網的「顯示不良資料流程」（Dimension）」（Filter）。
 

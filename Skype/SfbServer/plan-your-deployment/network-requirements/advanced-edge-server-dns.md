@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 商務用 Skype Server 部署選項的查看案例。 不管您是想要單一伺服器或喜歡使用 DNS 或 HLB 的伺服器集區，本主題都應該有所説明。
-ms.openlocfilehash: 49a0af504833a30154c54e90f595b972712a530f
-ms.sourcegitcommit: f3c2559a89e1c4b3514e102cf94c38a697b4bc57
+ms.openlocfilehash: d7f3847cb538dcdfbb09809b6313a9aa9b4f42e5431aa279d411a97bb0979752
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/04/2021
-ms.locfileid: "53724586"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315469"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>商務用 Skype Server 的高級 Edge Server DNS 規劃
  

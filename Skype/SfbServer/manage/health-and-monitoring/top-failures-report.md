@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 中的最大失敗報告
+title: 商務用 Skype Server 的最大失敗報告
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,28 +12,28 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: 摘要：瞭解商務用 Skype Server 中的最上層失敗報告。
-ms.openlocfilehash: bd03dc921e8df122f4e1ac3ca5cf15195a84b13e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 04088bce640ec19675afb1513645639a59ed4351ab581280bbec4904d57f835e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816683"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317551"
 ---
-# <a name="top-failures-report-in-skype-for-business-server"></a>商務用 Skype Server 中的最大失敗報告
+# <a name="top-failures-report-in-skype-for-business-server"></a>商務用 Skype Server 的最大失敗報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的最上層失敗報告。
+**摘要：** 深入瞭解商務用 Skype Server 中的最熱門失敗報告。
   
 Top Failures 報告列出最常發生的失敗及其在一段時間後的趨勢。
   
 - **診斷 ID**。附加在 SIP 訊息中的唯一識別碼 (採用 ms-diagnostics 標頭的格式)。診斷 ID 可以在疑難排解通話相關錯誤時提供實用的資訊。
     
-- **回應碼**。 回應碼用於 SIP 通訊會話中，以回應 SIP 要求。 例如，當 Ken 將 INVITE 要求傳送給 Pilar Ackerman (也就是說，假設 Ken Myer 呼叫 Pilar Ackerman) 。 如果 Pilar 答案，她的電話會傳送回應碼 200 (確定) ，讓 Ken 電話知道 Pilar 已應答。 最上層失敗報告只包含回應通話失敗時傳送的回應碼。商務用 Skype 伺服器不會追蹤通話期間發出的所有回應碼。
+- **回應碼**。 回應碼用於 SIP 通訊會話中，以回應 SIP 要求。 例如，當 Ken 將 INVITE 要求傳送給 Pilar Ackerman (也就是說，假設 Ken Myer 呼叫 Pilar Ackerman) 。 如果 Pilar 答案，她的電話會傳送回應碼 200 (確定) ，讓 Ken 電話知道 Pilar 已應答。 最上層失敗報告只包含回應通話失敗時傳送的回應碼。商務用 Skype Server 不會追蹤通話期間發出的所有回應碼。
     
 資訊回報內容不僅有發生失敗的工作階段總數，還有因失敗受到影響的使用者總數。
   
 ## <a name="accessing-the-top-failures-report"></a>存取最大失敗報告
 
-可以從監視報告首頁存取最大失敗報告。 按一下已報告的會話度量會帶您前往 [商務用 Skype Server 中的失敗散佈報告](failure-distribution-report.md)。
+可以從監視報告首頁存取最大失敗報告。 按一下 [報告的會話] 度量會帶您前往[商務用 Skype Server 的失敗散佈報告](failure-distribution-report.md)。
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>善用最大失敗報告
 
@@ -66,7 +66,7 @@ Top Failures 報告列出最常發生的失敗及其在一段時間後的趨勢�
 |**回應碼** <br/> |會議失敗時所傳送的 SIP 回應碼。請輸入完整的回應碼，例如：  <br/> 400  <br/> |
 |**診斷識別碼** <br/> |附加在 SIP 訊息中的唯一識別碼 (採用 ms-diagnostics 標頭的格式)，常可以在疑難排解錯誤時提供實用的資訊。診斷標頭為選用 (也可能有 SIP 工作階段不包含這些標頭)。只有發生特定問題的工作階段才會回報診斷識別碼。  <br/> |
    
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>度量
 
 下表列出前幾名失敗報告提供的資訊。
   

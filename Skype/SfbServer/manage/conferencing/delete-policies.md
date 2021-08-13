@@ -12,24 +12,24 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: 摘要：瞭解如何在商務用 Skype Server 中刪除會議原則。
-ms.openlocfilehash: 9aadaf82aea7f057cf1969f06d4257992b64a86a
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 76648fed55f01790e2e81f8683dedde4c24ac0cdfcff956f7813735872c801eb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119502"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315619"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除會議原則
  
 **摘要：** 瞭解如何在商務用 Skype Server 中刪除會議原則。
   
-您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面來刪除會議原則。
+您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面來刪除會議原則。
   
 ## <a name="delete-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台刪除會議原則
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [ **會議**]，然後按一下 [ **會議原則**]。
     

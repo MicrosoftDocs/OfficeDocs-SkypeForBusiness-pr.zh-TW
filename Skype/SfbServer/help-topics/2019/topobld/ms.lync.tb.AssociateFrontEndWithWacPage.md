@@ -14,23 +14,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
-description: Office Web Apps Server 提供的服務類似于簡報者上傳檔，以用於會議，但是會啟用先前版本沒有的其他功能。
-ms.openlocfilehash: 566bd3f6137c3f8c52557218bd9251b8123f74c1
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: Office 網頁應用程式伺服器提供的服務類似于簡報者上傳檔，以用於會議，但是會啟用先前版本沒有的其他功能。
+ms.openlocfilehash: 73637639988d80ece99cdc7519b2e50abce4b354929ded1f3b9e78cdf4591e97
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122624"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304135"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>建立前端與 Office Web Apps Server 的關聯頁面
 
-Office Web Apps Server 提供的服務類似于簡報者上傳檔，以用於會議，但是會啟用先前版本沒有的其他功能。
+Office 網頁應用程式伺服器提供的服務類似于簡報者上傳檔，以用於會議，但是會啟用先前版本沒有的其他功能。
 
-如果您已選擇會議做為商務用 Skype Server 設定的其中一個功能選項，請選取您部署的 Office Web Apps Server。
+如果您已選擇會議做為您商務用 Skype Server 設定的其中一個功能選項，請為您的部署選取 Office Web Apps Server。
 
 此對話方塊的選項提供您下列選擇：
 
-1. **建立集區與 Office Web Apps server 的關聯** -如果您將為會議使用者提供及部署 Office Web apps server，請選取此核取方塊。
+1. **建立集區與 Office Web Apps server 的關聯**-如果您將為會議使用者提供及部署 Office Web apps server，請選取此核取方塊。
 
 2. 如果未選取此核取方塊，您可以使用清單選取已定義的 Office Web Apps Server。
 

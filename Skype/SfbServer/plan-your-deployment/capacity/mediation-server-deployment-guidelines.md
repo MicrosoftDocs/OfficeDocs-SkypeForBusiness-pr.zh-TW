@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: 本主題說明轉送伺服器部署的規劃指導方針。
-ms.openlocfilehash: ffb60abaf3027541f13fe73294eafda51e5d1d0f
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 693a24f6e71b2eee0a3b2881295b65087fe50bf25b03a2647df6df970509f26e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118532"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317458"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>商務用 Skype Server 中轉送伺服器的部署指導方針
  
@@ -26,7 +26,7 @@ ms.locfileid: "51118532"
   
 ## <a name="collocated-or-stand-alone-mediation-server"></a>組合或獨立轉送伺服器？
 
-根據預設，轉送伺服器是組合在 Standard Edition server 或前端伺服器上，位於中央網站的前端集區中。 可以處理之公用交換電話網路 (PSTN) 通話的數目，以及集區中所需的機器數目會取決於下列專案：
+「轉送伺服器」預設會在中央網站的前端集區中的 Standard Edition 伺服器或前端伺服器上組合。 可以處理之公用交換電話網路 (PSTN) 通話的數目，以及集區中所需的機器數目會取決於下列專案：
   
 - 轉送伺服器集區所控制的閘道對等數目。
     
@@ -49,9 +49,9 @@ ms.locfileid: "51118532"
  中央網站上的中繼伺服器可用來路由分支網站上 IP-PBX 或 PSTN 閘道的電話。 不過，如果您部署 SIP 主幹，您必須在每個主幹終止的網站上部署轉送伺服器。 在分支網站上的 IP-PBX 或 PSTN 閘道的中央網站路由呼叫轉送伺服器，不需要使用媒體旁路，但建議使用媒體旁路。 這是因為，如果您可以啟用媒體旁路，它會縮短媒體路徑延遲時間，因此，由於沒有必要使用媒體路徑來追蹤信號路徑，因此會改善媒體質量。 媒體旁路也可減少集區上的處理負載。
   
 > [!NOTE]
-> 媒體旁路不會與每個 PSTN 閘道、IP-PBX 及 SBC 互動。 Microsoft 已測試一組 PSTN 閘道，並與認證的協力廠商 SBCs，並利用 Cisco IP PBXs 進行一些測試。 媒體旁路只支援整合通訊開啟互通性計畫中所列的產品和版本。在 [探索已測試的裝置、基礎結構，以及支援和擴充商務用 Skype 體驗的工具](http://partnersolutions.skypeforbusiness.com/solutionscatalog)時，會支援 Lync Server。 
+> 媒體旁路不會與每個 PSTN 閘道、IP-PBX 及 SBC 互動。 Microsoft 已測試一組 PSTN 閘道，並與認證的協力廠商 SBCs，並利用 Cisco IP PBXs 進行一些測試。 媒體旁路只支援整合通訊開啟互通性計畫中所列的產品和版本。在[探索已測試的裝置、基礎結構，以及支援和擴充您的商務用 Skype 經驗的工具](http://partnersolutions.skypeforbusiness.com/solutionscatalog)時，會支援 Lync Server。 
   
-如果需要分支網站恢復功能，則必須在分支網站上部署 Survivable 分支裝置或前端伺服器、轉送伺服器和閘道的組合。  (以分支網站恢復的設想，其目前狀態和會議不會在網站上復原。 ) 如需適用于通話的分支網站規劃指引，請參閱 [Plan For Enterprise voice 韌性 In 商務用 Skype Server](../enterprise-voice-solution/enterprise-voice-resiliency.md)。
+如果需要分支網站恢復功能，則必須在分支網站上部署 Survivable 分支裝置或前端伺服器、轉送伺服器和閘道的組合。  (以分支網站恢復的設想，其目前狀態和會議不會在網站上恢復。 ) 如需有關如何進行語音規劃的分支網站的指導，請參閱[Plan for 企業語音韌性 in 商務用 Skype Server](../enterprise-voice-solution/enterprise-voice-resiliency.md)。
   
 在與 IP-PBX 互動的情況下，如果 IP-PBX 無法正確支援與多個早期對話方塊和 RFC 3960 互動的早期媒體互動，則可以從 IP-PBX 至 Lync 端點的來電中，將問候語的前幾個字裁剪。 如果中央網站上的中繼伺服器是為其整條路由是終止於分支網站的 IP-PBX 來路由電話，前述行為可能會更嚴重，因為需要更多時間來完成訊號。 如果您遇到此行為，請在分支網站上部署轉送伺服器，以減少前幾個字的裁剪。
   

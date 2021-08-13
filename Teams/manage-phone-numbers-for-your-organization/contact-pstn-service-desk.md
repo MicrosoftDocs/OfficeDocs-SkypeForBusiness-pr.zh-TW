@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 當您取得貴組織的電話號碼或移轉 (傳輸) 號碼時，您可能需要在 PSTN 服務台取得協助和支援。
-ms.openlocfilehash: b3925fbd473094b06133fb7cfe31479396434b80
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
-ms.translationtype: MT
+ms.openlocfilehash: 4fa1a72c68c43f82715fb5f54a77a2e3a2181445f37afeb4f1bf640bb2766de6
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510274"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54310671"
 ---
 # <a name="pstn-service-desk"></a>PSTN 服務台 
 
@@ -48,7 +48,7 @@ ms.locfileid: "53510274"
 > [!NOTE]
 > 只允許來自相同租使用者的人員建立案例。 也就是說，來自 @fabrikam.com 的某人無法代表 @contoso.com 建立案例。 
 
-您可以在 [電話號碼服務中心] 建立新案例、查看現有案例、與服務台通訊，以及管理您的使用者設定檔。 下列各節會詳細說明這些工作。
+您可以從 [電話號碼服務中心] 建立新案例、查看現有案例、與服務台通訊，以及管理您的使用者設定檔。下列各節會詳細說明這些工作。
 
 - **[電話號碼服務中心]** – 瀏覽至 [入口網站] 首頁。 
 

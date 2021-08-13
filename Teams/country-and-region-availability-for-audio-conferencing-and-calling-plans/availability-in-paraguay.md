@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于Microsoft 365 Office 365的商務用 Skype Microsoft Teams及Microsoft Teams服務。
-ms.openlocfilehash: ecd2ea5501b17b030e8aedf1b12835cd26b82cf4
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
+ms.openlocfilehash: aa9e5c065bd7086d43041719eb91fae0a8c3c2e8c698def2c6e6320c07dcbe42
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51111189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317438"
 ---
 # <a name="availability-in-paraguay"></a>在拉森達的可用狀態
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于Microsoft 365 Office 365的商務用 Skype Microsoft Teams及Microsoft Teams服務。
+以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

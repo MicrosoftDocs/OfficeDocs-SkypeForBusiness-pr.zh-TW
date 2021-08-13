@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要確認在樹系準備過程中，通用類別目錄的複寫和物件的建立已成功，請執行下列操作：
-ms.openlocfilehash: 299b738bbfa14ad13825e5c08e87c03167c9f4cc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 08447b011ba16aadbda39b2ff89edc47db56c714d6933d5467757e2c45abde7a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801593"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317828"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>驗證樹系準備中的複寫
  
@@ -35,6 +35,6 @@ ms.locfileid: "49801593"
 4. 如果群組 (s) 尚未存在，您可以強制複寫或等候15分鐘，然後重新整理右側窗格。 當群組存在時，就會完成複寫。
     
 > [!TIP]
-> 如果您想要查看由商務用 Skype Server 部署嚮導所建立的記錄檔，您可以在執行該步驟的 Active Directory 網域服務使用者的使用者目錄中，找到這些記錄檔所執行的部署嚮導所在的電腦。 例如，如果使用者登入網域 Contoso.net 中的網域管理員，則記錄檔位於： C:\Users\Administrator.Contoso\AppData\Local\Temp 
+> 如果您想要查看由商務用 Skype Server 部署嚮導所建立的記錄檔，您可以在執行該步驟的 Active directory 網域服務使用者的使用者目錄中，找到執行部署嚮導之電腦上的記錄檔。 例如，如果使用者登入網域 Contoso.net 中的網域管理員，則記錄檔位於： C:\Users\Administrator.Contoso\AppData\Local\Temp 
   
 

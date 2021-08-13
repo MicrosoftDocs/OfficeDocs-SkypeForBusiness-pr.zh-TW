@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
-description: 如果您有 MPLS 網路、SIP 主幹或協力廠商 PSTN 閘道或 PBX，請規劃通話許可控制 (CAC) 。 適用于商務用 Skype Server Enterprise Voice。
-ms.openlocfilehash: 771b98e10c28248bc917bff2b8128b6258c140c5
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 如果您有 MPLS 網路、SIP 主幹或協力廠商 PSTN 閘道或 PBX，請規劃通話許可控制 (CAC) 。 適用于商務用 Skype Server 企業語音。
+ms.openlocfilehash: 33e13853e4c2ed9ab9cab328092f7bc44147607187c8f221993d88cb4114a6d5
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51109189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315545"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>商務用 Skype 中通話許可控制的元件和拓撲
 
-如果您有 MPLS 網路、SIP 主幹或協力廠商 PSTN 閘道或 PBX，請規劃通話許可控制 (CAC) 。 適用于商務用 Skype Server Enterprise Voice。
+如果您有 MPLS 網路、SIP 主幹或協力廠商 PSTN 閘道或 PBX，請規劃通話許可控制 (CAC) 。 適用于商務用 Skype Server 企業語音。
 
 本節中的主題提供部署通話許可控制 (CAC) 並搭配各種網路拓撲之特殊考量的相關資訊。
 
@@ -55,12 +55,12 @@ ms.locfileid: "51109189"
 
 若要在 SIP 主幹上設定 CAC，您必須在 CAC 部署期間執行下列工作：
 
-1. 建立代表 ITSP 的網路網站。 讓此網路網站與適當的網路地區相關聯，並為此網路網站的音訊與視訊功能配置零的頻寬。 如需詳細資訊，請參閱部署文件中的＜[Configure Network Sites for CAC](/previous-versions/office/lync-server-2013/lync-server-2013-configure-network-sites-for-cac)＞。
+1. 建立代表 ITSP 的網路網站。讓此網路網站與適當的網路地區相關聯，並為此網路網站的音訊與視訊功能配置零的頻寬。如需詳細資訊，請參閱部署文件中的＜[Configure Network Sites for CAC](/previous-versions/office/lync-server-2013/lync-server-2013-configure-network-sites-for-cac)＞。
 
     > [!NOTE]
-    > 對 ITSP 而言，此網路網站組態沒有作用。 頻寬原則值實際是在步驟 2 套用。
+    > 對 ITSP 而言，此網路網站組態沒有作用。頻寬原則值實際是在步驟 2 套用。
 
-2. 針對您在步驟 1 建立的網站使用相關的參數值，建立 SIP 主幹的網站間連結。 例如，您可以使用企業中網路網站的名稱作為 NetworkSiteID1 參數的值，並以 ITSP 網路網站作為 NetworkSiteID2 參數的值。 如需詳細資訊，請參閱部署檔中的在 [商務用 Skype Server 中建立網路網站間原則](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) ，以及 [新的-CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)。
+2. 針對您在步驟 1 建立的網站使用相關的參數值，建立 SIP 主幹的網站間連結。 例如，您可以使用企業中網路網站的名稱作為 NetworkSiteID1 參數的值，並以 ITSP 網路網站作為 NetworkSiteID2 參數的值。 如需詳細資訊，請參閱部署檔中的[商務用 Skype Server 建立網路站間原則](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md)，以及[新的-CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)。
 
 3. 從 ITSP 取得會話邊界控制器的 (SCB) 媒體端接點的 IP 位址。 將該子網路遮罩為32的 IP 位址，新增至代表 ITSP 的網路網站。 如需詳細資訊，請參閱 [建立子網與網路網站的關聯](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site)。
 
@@ -76,7 +76,7 @@ CAC 可以從轉送伺服器閘道介面到協力廠商 PBX 或 PSTN 閘道的 W
 
 ![案例1：轉送伺服器 PSTN 閘道之間的 CAC](../../media/CAC_gateways_1.jpg)
 
-在此範例中，轉送伺服器和 PSTN 閘道之間會套用 CAC。 如果位於網路 Site 1 的商務用 Skype 用戶端使用者，透過網路 Site 2 中的 PSTN 閘道撥打 PSTN 通話，該媒體會透過 WAN 連結進行流量。 因此，每個 PSTN 會話會執行兩個 CAC 檢查：
+在此範例中，轉送伺服器和 PSTN 閘道之間會套用 CAC。 如果網路 site 1 上的商務用 Skype 用戶端使用者在網路 site 2 中透過 pstn 閘道撥打 pstn 電話，媒體會透過 WAN 連結進行流量。 因此，每個 PSTN 會話會執行兩個 CAC 檢查：
 
 - 商務用 Skype 用戶端應用程式與轉送伺服器之間
 
@@ -101,7 +101,7 @@ CAC 可以從轉送伺服器閘道介面到協力廠商 PBX 或 PSTN 閘道的 W
 
 ![案例2：轉送伺服器 PBX 與 MTP 之間的 CAC](../../media/CAC_gateways_2.jpg)
 
-在此範例中，轉送伺服器和 PBX/MTP 之間會套用 CAC。 如果位於網路網站1的商務用 Skype 用戶端使用者，透過位於網路 Site 2 的 PBX/MTP 來撥打 PSTN 通話，媒體會透過 WAN 連結進行流量。 因此，每個 PSTN 會話都會執行兩個 CAC 檢查：
+在此範例中，轉送伺服器和 PBX/MTP 之間會套用 CAC。 如果網路 site 1 上的商務用 Skype 用戶端使用者會透過位於網路 site 2 的 PBX/MTP 來撥打 PSTN 電話，媒體會透過 WAN 連結進行。 因此，每個 PSTN 會話都會執行兩個 CAC 檢查：
 
 - 商務用 Skype 用戶端應用程式與轉送伺服器之間
 
@@ -126,7 +126,7 @@ Case 3 與前兩個案例稍有不同。 如果在協力廠商 PBX 上沒有 MTP
 
 ![案例3：轉送伺服器 PBX 之間的 CAC 無 MTP](../../media/CAC_gateways_3.jpg)
 
-在此範例中，如果網路 Site 1 上的商務用 Skype 用戶端使用者透過 PBX 撥打給使用者，則轉送伺服器只能在商務用 Skype 用戶端應用程式與轉送伺服器) 之間，于 proxy 腿 (執行 CAC 檢查。 因為在要求會話時，轉送伺服器沒有端點裝置的相關資訊，所以在建立通話之前，無法在轉送伺服器和協力廠商) 端點之間的 WAN 連結 (上執行 CAC 檢查。 在建立會話後，轉送伺服器會為主幹使用的頻寬進行會計核算。
+在此範例中，如果網路 Site 1 的商務用 Skype 用戶端使用者透過 PBX 呼叫使用者，則轉送伺服器只能在商務用 Skype 用戶端應用程式與轉送伺服器) 之間的 proxy 支線 (上執行 CAC 檢查。 因為在要求會話時，轉送伺服器沒有端點裝置的相關資訊，所以在建立通話之前，無法在轉送伺服器和協力廠商) 端點之間的 WAN 連結 (上執行 CAC 檢查。 在建立會話後，轉送伺服器會為主幹使用的頻寬進行會計核算。
 
 針對來自協力廠商端點的呼叫，在會話要求時可使用該端點裝置的相關資訊，同時也可以在轉送伺服器的兩側執行 CAC 檢查。
 

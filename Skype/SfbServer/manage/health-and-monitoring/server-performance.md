@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 description: 摘要：瞭解商務用 Skype Server 中的伺服器效能報告。
-ms.openlocfilehash: 75927ec23ec7a004e70733d9371462def3731fb8
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d635e1bd3cc76c9e1d2218c142b58b588a35330c4b132998060d31e40424ea48
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49814273"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317608"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>商務用 Skype Server 中的伺服器效能報告
  
 **摘要：** 深入瞭解商務用 Skype Server 中的伺服器效能報告。
   
-「伺服器性能報告」供應商務用 Skype 伺服器伺服器的清單，其最高的通話百分比很高。 報告依伺服器類型分解伺服器，報告下列類型的個別統計資料：
+「伺服器性能報告」提供一份清單，列出最高的通話不佳率的商務用 Skype Server 伺服器。 報告依伺服器類型分解伺服器，報告下列類型的個別統計資料：
   
 - 中繼伺服器
     
@@ -43,7 +43,7 @@ ms.locfileid: "49814273"
   
 ## <a name="accessing-the-server-performance-report"></a>存取伺服器效能報告
 
-伺服器效能報告可從監控報告的首頁進行存取。 您可以按一下下列其中一個計量，以深入查看 [商務用 Skype Server 中的通話清單報告](call-list-report-0.md) ：
+伺服器效能報告可從監控報告的首頁進行存取。 您可以按一下下列其中一個計量，以深入查看[商務用 Skype Server 中的通話清單報告](call-list-report-0.md)：
   
 - 通話數量
     
@@ -75,7 +75,7 @@ ms.locfileid: "49814273"
 |**網路類型** <br/> |指出當撥打電話時，用戶端連線的網路類型。請選取下列其中一項：  <br/> 一切有線無線 |
 |**VPN** <br/> |指出當撥打電話時，外部用戶端是否使用虛擬私人網路 (VPN) 連線。請選取下列其中一項：  <br/> 一切VPN 非 VPN |
    
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>度量
 
 下表列出伺服器效能報告中提供的資訊。
   

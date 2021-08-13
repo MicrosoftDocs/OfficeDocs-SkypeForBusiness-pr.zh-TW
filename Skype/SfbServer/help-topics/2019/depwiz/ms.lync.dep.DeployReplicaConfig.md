@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要開始安裝儲存中央管理存放區之本機唯讀副本的資料庫，請選取 [從已安裝及已設定的中央管理存放區中使用拓撲產生器所發佈的定義設定]，或從其他媒體讀取已定義的設定。 針對組織內部網路上的機器，選取 [自動從中央管理存放區取回設定]。
-ms.openlocfilehash: f8f9aeaccb510de4efec0020a8993d56851d0544
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 80de342cae5cd4feb713c5f52a26bd1fccdd2c43d37f1077925c73812053f244
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49801543"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54317798"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>安裝本機設定存放區叫用 (設定)
  
@@ -29,7 +29,7 @@ ms.locfileid: "49801543"
 若要在 Edge Server 上安裝中央管理存放區的複本，請選取從便攜媒體（例如 USB 快閃記憶體磁片磁碟機、USB 硬碟、CD-ROM 或其他媒體）讀取設定檔的匯出副本。 
   
 > [!IMPORTANT]
-> 若要在 Edge Server 上安裝本機設定存放區，則設定資訊必須採用從中央管理存放區匯出的格式，方法是執行 Windows PowerShell Cmdlet：  `Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`
+> 若要在 Edge Server 上安裝本機設定存放區，則設定資訊必須採用從中央管理存放區匯出的格式，方法是執行 Windows PowerShell Cmdlet：`Export-CsConfiguration -FileName <ConfigurationFilePath.zip>`
   
 選取適當的選項後，請按 **[下一步]**。
   

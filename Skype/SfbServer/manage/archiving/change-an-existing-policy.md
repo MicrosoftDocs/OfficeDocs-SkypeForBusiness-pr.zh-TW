@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中變更現有的封存原則
+title: 變更商務用 Skype Server 中的現有封存原則
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
-description: 摘要：瞭解如何變更適用于商務用 Skype Server 的使用者封存原則。
-ms.openlocfilehash: 47c9d5938c22b93db48c96265831cbf24ecc24d7
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解如何變更使用者的商務用 Skype Server 的封存原則。
+ms.openlocfilehash: 571f32a4cf5fb0bddd006719f3a9886c852df3f7196adf774f554cda216ea0a2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817703"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315709"
 ---
-# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中變更現有的封存原則
+# <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>變更商務用 Skype Server 中的現有封存原則
  
-**摘要：** 瞭解如何變更使用者封存原則，以供商務用 Skype Server。
+**摘要：** 瞭解如何變更使用者的商務用 Skype Server 的封存原則。
   
-當您第一次部署商務用 Skype Server 時，您會設定初始封存原則，以決定如何對部署中的使用者執行封存。 本主題說明如何管理和修正原則。 
+當您第一次部署商務用 Skype Server 時，您會設定初始封存原則，以決定部署中使用者的封存實施方式。 本主題說明如何管理和修正原則。 
   
 ## <a name="change-archiving-policies-by-using-the-control-panel"></a>使用控制台變更封存原則
 
 1. 使用指派到 CsArchivingAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。 
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左側導覽列中，依序按一下 **[監控和封存]** 和 **[封存原則]**。
     
@@ -50,7 +50,7 @@ ms.locfileid: "49817703"
 6. 按一下 **[認可]**。
     
     > [!IMPORTANT]
-    > 使用者原則的設定僅能套用至您套用該原則的特定使用者和使用者群組。 如需詳細資訊，請參閱 [將封存原則套用至商務用 Skype Server 中的使用者](apply-a-policy-to-users.md)。 
+    > 使用者原則的設定僅能套用至您套用該原則的特定使用者和使用者群組。 如需詳細資訊，請參閱[將封存原則套用至商務用 Skype Server 中的使用者](apply-a-policy-to-users.md)。 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>使用 Windows PowerShell 變更封存原則
 

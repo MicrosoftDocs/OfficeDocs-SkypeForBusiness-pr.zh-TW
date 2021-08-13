@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 如何使用加拿大的 IP 中繼帳戶。
-ms.openlocfilehash: b7f276bdf921fdc721ef1df883d3c5d714e4a94f
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: ac3ac8b480f1759437fa74572544d85f17542e9288c925ebd07bfaea9a25e0de
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238665"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54316509"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>加拿大 IP 轉送 - 使用者指南
 
@@ -33,7 +33,7 @@ ms.locfileid: "52238665"
 Microsoft 的 IP 訊息轉遞服務描述：
 
 ## <a name="scenario-a"></a>案例 A
-如果聽力受損或語音受損者想要與非受損個人聯繫，他們透過特殊的 Web 用戶端與稱為通話接受者之代理人「聊天」。
+如果聽力受損或語音受損者想要與非受損個人聯繫，他們透過特殊的網路用戶端與稱為通話接受者之代理人「聊天」。
 
 通話接受者接著會透過聊天會話與聽力受損或語音受損人員通訊，並視需要透過加拿大或美國任何地方的電話網絡與非受損人員聯繫。
 
@@ -47,7 +47,7 @@ Microsoft 的 IP 訊息轉遞服務描述：
 ## <a name="scenario-c"></a>案例 C
 如果聽力受損或語音受損人士需要緊急協助，他/她可能會選取適當的按鈕：911 - 警用 / 911 – Fire / 911 – 醫療車。
 
-這會傳送緊急通知給北部 IP 轉送業者，他們接著會存取為此目的設計的 911 帳戶。 通話接受者確認其位址後，就會與適當的 PSAP 聯繫，並隨時線上。
+這會傳送緊急通知給北部 IP 轉送業者，他們接著會存取為此目的設計的 911 帳戶。 通話接受者確認其位址後，就會與適當的 PSAP 聯繫，並盡可能保持線上。
 
 ## <a name="how-to-place-a-text-chat-to-voice-call"></a>如何將文字聊天放置到語音通話
 
@@ -72,7 +72,7 @@ https://aka.ms/IPRelay
 
 ![緊急按鈕](../images/ip-relay-emergency-buttons.png)
 
-IP 訊息轉送接線員會與 911 聯絡、確認您的位址，然後與各種緊急中心進行翻譯，直到他/她不再需要，且已分派適當的部門到您的位置。
+IP 訊息轉送接線員會與 911 聯絡、確認您的位址，然後與各種緊急中心進行翻譯，直到不再需要他/她，且已分派適當的部門到您的位置。
 
 > [!WARNING]
 > 請勿測試這項服務，因為即使您指出只是測試，也會連上並可能派送適當的機構，而且您可能會向緊急機構收取誤派費用。

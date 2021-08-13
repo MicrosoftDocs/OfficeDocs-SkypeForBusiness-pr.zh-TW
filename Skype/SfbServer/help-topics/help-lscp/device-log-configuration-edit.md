@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: 您可以在 [編輯記錄檔設定] 頁面中新增裝置記錄檔設定，以決定記錄檔快取大小上限、記錄檔大小上限，或在清除記錄檔之前保留記錄檔的時間長度。 您可以根據組織的需求來變更這些設定。
-ms.openlocfilehash: 694729b74209715bd87bed0c3bd59d80f31fff59
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a2900d452dd0342ddd60813e35d4611b6ea6ccca6cad114237d87bd915243191
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304045"
 ---
 # <a name="device-log-configuration-edit"></a>裝置記錄組態：編輯
  

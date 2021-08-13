@@ -11,25 +11,25 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
-description: 摘要：瞭解如何將監控報告與商務用 Skype Server 所使用的鏡像資料庫產生關聯。
-ms.openlocfilehash: 4ce6d420f6b29a5c6160b9b220e5fd190a977f9d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解如何將監控報告與商務用 Skype Server 所使用的鏡像資料庫相關聯。
+ms.openlocfilehash: 99b30eaf7388bfec71f55e2e3f1f784271a3258d1280953426291b1dbfe14750
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49802163"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54304355"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>在商務用 Skype Server 中將監控報告與鏡像資料庫相關聯 
  
-**摘要：** 瞭解如何將監控報告與商務用 Skype Server 所使用的鏡像資料庫產生關聯。
+**摘要：** 瞭解如何將監控報告與商務用 Skype Server 所使用的鏡像資料庫相關聯。
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>監視含鏡像資料庫的報表
 
-[！注意] 如果您為監控資料庫設定鏡像，則在發生容錯移轉時，鏡像資料庫將會以主資料庫的方式接管。 不過，如果您使用商務用 Skype Server 監控報告，而且發生容錯移轉，您可能會發現監控報告未連接至鏡像資料庫。 這是因為，當您安裝監控報告時，只會指定主要資料庫的位置;您不會指定鏡像資料庫的位置。
+[！注意] 如果您為監控資料庫設定鏡像，則在發生容錯移轉時，鏡像資料庫將會以主資料庫的方式接管。 不過，如果您使用商務用 Skype Server 監控報告，且發生容錯移轉，您可能會發現監控報告未連接至鏡像資料庫。 這是因為，當您安裝監控報告時，只會指定主要資料庫的位置;您不會指定鏡像資料庫的位置。
   
 若要取得監控報告自動容錯移轉至鏡像資料庫，您必須將鏡像資料庫新增為「容錯移轉協力廠商」，以供監視報告 (一個資料庫用於通話詳細資料記錄資料，另一個用於 (經驗品質 QoE) 資料) 。  (請注意，安裝監控報告之後，應該執行此步驟。 ) 您可以手動編輯這兩個資料庫所使用的連線字串值，以新增容錯移轉夥伴資訊。 若要執行這項作業，請完成下列程序：
   
-1. 使用 Internet Explorer 開啟 [ **SQL Server Reporting Services** ] 首頁。 Reporting Services 首頁 URL 包含：
+1. 使用 Internet Explorer 開啟「 **SQL Server Reporting Services** 首頁」頁面。 Reporting Services 首頁 URL 包含：
     
    - **Http：** 前置詞。
     
@@ -39,11 +39,11 @@ ms.locfileid: "49802163"
     
    - 安裝監視報告的資料庫實例名稱 (例如， **而 archinst**) 。
     
-     例如，如果已在電腦 atl-sql-001.litwareinc.com 上安裝 SQL Server Reporting Services，且監控報告使用資料庫實例而 archinst，則首頁 URL 會如下所示：
+     例如，如果 SQL Server Reporting Services 已安裝在電腦 atl-sql-001.litwareinc.com，且監控報告使用資料庫實例而 archinst，則首頁 URL 會類似如下：
     
      **http://atl-sql-001.litwareinc.com/Reports_archinst**
     
-2. 存取 Reporting Services 首頁之後，請按一下 [ **ServerReports**]，然後按一下 [ **Reports_Content**]。 這將帶您前往商務用 Skype Server Monitoring Reports 的 **Reports_Content** 頁面。
+2. 存取 Reporting Services 首頁之後，請按一下 [ **ServerReports**]，然後按一下 [ **Reports_Content**]。 這將帶您前往商務用 Skype Server 監控報告的 **Reports_Content** 頁面。
     
 3. 在 [ **Reports_Content** ] 頁面上，按一下 [ **CDRDB** ] 資料來源。
     
@@ -65,7 +65,7 @@ ms.locfileid: "49802163"
     
     資料來源 = (local) \archinst;容錯移轉夥伴 = atl-mirror-001\archinst; 初始目錄 = QoEMetrics
     
-8. 按一下 **[套用]**。
+8. 按一下 ****[套用]。
     
 ## <a name="see-also"></a>另請參閱
 

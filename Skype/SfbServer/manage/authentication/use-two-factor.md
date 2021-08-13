@@ -12,27 +12,27 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
-description: 摘要：搭配商務用 Skype Server 和商務用 Skype 使用雙要素驗證。
-ms.openlocfilehash: 72ec3570d632eecefd28ebfd0aa50eb70c54ff99
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：搭配商務用 Skype Server 和商務用 Skype 使用雙因素驗證。
+ms.openlocfilehash: deb5e3333c3138138a7bb3889ff515cfc1092576c1174082ef6b5553a1ec7540
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49806535"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315679"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>搭配商務用 Skype 用戶端和商務用 Skype Server 使用雙因素驗證
  
-**摘要：** 搭配商務用 Skype Server 和商務用 Skype 使用雙要素驗證。
+**摘要：** 搭配商務用 Skype Server 和商務用 Skype 使用雙因素驗證。
   
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>第一次登入商務用 Skype
 
-安裝商務用 Skype 時，通常會自動設定您的登入資訊。 不過，您第一次使用商務用 Skype 時，您可能需要手動啟動用戶端。
+您的登入資訊通常會在安裝商務用 Skype 時自動設定。 不過，您第一次使用商務用 Skype 時，您可能需要手動啟動用戶端。
   
 ### <a name="to-sign-in-for-the-first-time"></a>第一次登入
 
 1. 登入您組織的網路。
     
-2. 選取 [**啟動**  >  商務用  >  **Skype 的** 所有程式]。
+2. 選取 [**啟動**  >  **所有程式**]  >  **商務用 Skype**。
     
     您應該會看到登入畫面。
     
@@ -46,13 +46,13 @@ ms.locfileid: "49806535"
     
 ## <a name="sign-out-of-skype-for-business"></a>登出商務用 Skype
 
-當您完成使用商務用 Skype 時，您可以從 [檔案] 功能表中關閉顯示、登出您的會話，或從程式中退出。 下表說明選項的差異。
+當您完成使用商務用 Skype 時，您可以從 [檔案] 功能表中關閉顯示、登出您的會話或從程式中退出。 下表說明選項的差異。
   
 |**選項**|**功能**|**執行方法**|
 |:-----|:-----|:-----|
-|關閉  <br/> |會關閉您的顯示器，但讓使用您的使用者識別碼識別的商務用 Skype 會話繼續執行。 如此一來，您就可以繼續取得通知並與其他人互動。 <br/> <br/> 您可以隨時按一下工作列上的 [商務用 Skype] 圖示或螢幕底部的通知區域，以取回顯示。  <br/> | 在商務用 Skype 主視窗中，執行下列其中一項操作： <br/> 1. 選取 [**選項**] 按鈕，然後選取 [**檔**  >  **關閉**]。  <br/> 2. 按一下視窗右上角 (X) 的 [ **關閉** ] 按鈕。 <br/> |
-|登出  <br/> |結束與您的使用者識別碼相關聯的會話，但商務用 Skype 仍會繼續在後臺執行。 當您登出時，即會出現登入視窗。  <br/> **秘訣：** 當您登出時，請選取 [ **刪除我的登入資訊** ]，以移除電腦上的登入識別碼和密碼記錄。 這樣做可能會讓支援人員更容易疑難排解登入問題。 它也可以讓未經授權的使用者難以登入您的認證，以協助確保您的登入資訊更安全。 <br/> |在商務用 Skype 主視窗中，選取 [**選項**] 按鈕，然後 **選取 [** 檔案] [  >  **登出**]。  <br/> |
-|結束  <br/> |結束商務用 Skype 會話，並關閉電腦上的商務用 Skype。 退出後，如果您想要重新開機，請選取 [**啟動**  >  **所有程式**> 商務用 Skype]。 <br/> |在商務用 Skype 主視窗中，選取 [**選項**] 按鈕，然後 **選取 [** 檔案] [結束]  >  ****。  <br/> |
+|關閉  <br/> |會關閉您的顯示器，但讓識別為您的使用者識別碼的商務用 Skype 會話繼續執行。 如此一來，您就可以繼續取得通知並與其他人互動。 <br/> <br/> 您可以隨時按一下工作列上的商務用 Skype 圖示或螢幕底部的通知區域，以播放畫面。  <br/> | 在商務用 Skype 主視窗上，執行下列其中一項操作： <br/> 1. 選取 [**選項**] 按鈕，然後選取 [**檔**  >  **關閉**]。  <br/> 2. 按一下視窗右上角 (X) 的 [ **關閉** ] 按鈕。 <br/> |
+|登出  <br/> |結束與您的使用者識別碼相關聯的會話，但商務用 Skype 會繼續在後臺執行。 當您登出時，即會出現登入視窗。  <br/> **秘訣：** 當您登出時，請選取 [ **刪除我的登入資訊** ]，以移除電腦上的登入識別碼和密碼記錄。 這樣做可能會讓支援人員更容易疑難排解登入問題。 它也可以讓未經授權的使用者難以登入您的認證，以協助確保您的登入資訊更安全。 <br/> |在商務用 Skype 主視窗上，選取 [**選項**] 按鈕，然後 **選取 [** 檔案] [  >  **登出**]。  <br/> |
+|結束  <br/> |結束您的商務用 Skype 會話，並在電腦上關閉商務用 Skype。 退出後，如果您想要重新開機，請選取 [**啟動**  >  **所有程式**] > 商務用 Skype]。 <br/> |在商務用 Skype 主視窗上，選取 [**選項**] 按鈕，然後 **選取 [** 檔案] [結束]  >  ****。  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>使用智慧卡登入商務用 Skype
 
@@ -64,21 +64,21 @@ ms.locfileid: "49806535"
     
 ### <a name="enroll-your-smart-card"></a>註冊您的智慧卡
 
-在您可以使用智慧卡登入時，必須先「登記」智慧卡，也就是您的使用者認證必須透過卡片加以識別。 這種情況是由卡為實體或虛擬的情形所決定。 您的商務用 Skype 伺服器管理員可能已執行此程式。 如果您不確定是否已完成，請與其核對。
+在您可以使用智慧卡登入時，必須先「登記」智慧卡，也就是您的使用者認證必須透過卡片加以識別。 這種情況是由卡為實體或虛擬的情形所決定。 此程式可能已由您的商務用 Skype Server 系統管理員執行。 如果您不確定是否已完成，請與其核對。
   
 > [!NOTE]
-> 因為每個虛擬智慧卡只會與其安裝裝置相關聯，所以需要為您使用的每一部 Windows 8 電腦登記個別的卡。 
+> 因為每個虛擬智慧卡只會與其安裝所在的裝置相關聯，所以需要為您使用的每一部 Windows 8 電腦登記個別的卡。 
   
 ### <a name="to-manually-enroll-your-smart-card"></a>手動註冊您的智慧卡
 
-1. 登入您要執行商務用 Skype 的電腦。
+1. 登入您將在商務用 Skype 執行的電腦。
     
 2. 使用 Internet Explorer，流覽至組織的 [憑證授權單位網站] [註冊] 頁面。 
     
-    如果您還沒有這個資源的網址，請向您的商務用 Skype Server 管理員索要。 URL 會如下所示： https://MyCA 。 [yourcompanyname] .com/certsrv。
+    如果您還沒有這個資源的網址，請向您的商務用 Skype Server 系統管理員求助。 URL 會如下所示： https://MyCA 。 [yourcompanyname] .com/certsrv。
     
     > [!NOTE]
-    > 如果您使用的是 Internet Explorer 10，您可能需要在相容性模式中查看此網站。 
+    > 如果您正在使用 Internet Explorer 10，您可能需要以相容性模式查看此網站。 
   
 3. 當系統提示您登入憑證頁面時，請使用您的網域帳戶登入 (，而不是) 的電腦系統管理員。
     
@@ -126,7 +126,7 @@ ms.locfileid: "49806535"
     
 ### <a name="sign-in-to-skype-for-business-with-your-smart-card-credentials"></a>使用您的智慧卡認證登入商務用 Skype
 
-在您第一次使用智慧卡之前，建議您在 [商務用 Skype 登錄] 頁面上按一下 [ **刪除我的登入資訊** ]。 這樣做會清除儲存在電腦上的任何登入認證，並消除可能的錯誤來源。
+在您第一次使用智慧卡之前，建議您按一下 [商務用 Skype 登入] 頁面上的 [**刪除我的登入資訊**]。 這樣做會清除儲存在電腦上的任何登入認證，並消除可能的錯誤來源。
   
 ### <a name="to-sign-in-to-skype-for-business-with-your-smart-card-credentials"></a>使用您的智慧卡認證登入商務用 Skype
 

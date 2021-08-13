@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 若要定義中繼伺服器，請為中繼伺服器指定設定，以與前端伺服器和 Edge Server 或集區建立關聯。若要將中繼伺服器或集區與 Edge Server 或 Edge Server 集區建立關聯，請執行下列動作：
-ms.openlocfilehash: ffd369c76db96185e76665728a88ed8d8419a03d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 20a6e3de81bae13fd14683af62a6c79627a148cf00d50d7584c15ca27d8da0ee
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49835473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54315809"
 ---
 # <a name="associate-mediation-server-with-edge"></a>建立中繼伺服器與 Edge 的關聯
  
@@ -33,6 +33,6 @@ ms.locfileid: "49835473"
 > [!NOTE]
 > 如果您尚未在部署中定義 Edge Server 或 Edge Server 集區，則下拉式清單將不含任何項目。將 Edge Server 或集區新增至部署之後，您可以按 **[下一步]** 繼續編輯中繼伺服器的設定。
   
-如需其他詳細資料，請參閱 [在商務用 Skype server 2015 的拓撲產生器中部署轉送伺服器](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)。
+如需其他詳細資料，請參閱在[商務用 Skype Server 2015 的拓撲產生器中部署轉送伺服器](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)。
   
 
