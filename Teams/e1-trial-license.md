@@ -15,18 +15,16 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fbc1e51c22fbc2efc5ab286b1082f1169c14e89c2abae573ae810a8be04dd63
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e7e1b8eb064b273bbc41b823fba6dae40a83bedbc3085a156cd6770578cd3c53
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57849348"
 ---
-<a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 試用版
-==============================
+# <a name="manage-the-office-365-e1-trial"></a>管理 Office 365 E1 試用版
 
-2020 年 7 月 1 日起，我們已不再提供 Office 365 E1 試用版授權。 如果您授權使用者使用 Microsoft Teams，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)，取得包括 Teams 的付費訂閱清單。 或者，符合資格的組織可以使用 **[ Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或員工可以啟用 **[Teams 探索](teams-exploratory.md)** 體驗。
-
+自 2020 年 7 月 1 日起，我們已不再提供 Office 365 E1 試用版授權。 如果您授權使用者使用 Microsoft Teams，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)，取得包括 Teams 的付費訂閱清單。 或者，符合資格的組織可以使用 **[ Teams 免費版](https://support.office.com/article/Welcome-to-Microsoft-Teams-free-6d79a648-6913-4696-9237-ed13de64ae3c)**，或員工可以啟用 **[Teams 探索](teams-exploratory.md)** 體驗。
 
 如果您是 Teams 教育版客戶，請參閱免費 [Office 365 A1 授權](teams-edu-licensing.md)。
 
@@ -39,7 +37,7 @@ ms.locfileid: "54315289"
 啟用 Office 365 E1 試用版後，請為需要它的任何使用者開啟授權。 若要了解做法，請參閱[管理使用者對 Teams 的存取權](user-access.md)。
 
 
-一旦您為需要它的使用者開啟 E1 試用版，您就可以如同管理擁有付費授權的使用者一般，管理這些使用者。 如需詳細資訊，請參閱[管理組織的 Teams 設定](enable-features-office-365.md)。
+一旦您為需要它的使用者開啟 E1 試用版，您就可以如同管理擁有付費授權的使用者一般，管理這些使用者。如需詳細資訊，請參閱[管理貴組織的 Teams 設定](enable-features-office-365.md)。
 
 
 

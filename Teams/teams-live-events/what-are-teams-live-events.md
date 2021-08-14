@@ -13,7 +13,7 @@ ms.collection:
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
-description: 瞭解即時活動如何讓使用者在 Teams、Yammer 和 Stream 中將影片和內容廣播給大量線上觀眾。
+description: 了解即時活動如何讓使用者在 Teams、Yammer 和 Stream 中將影片和內容廣播給更多線上觀眾。
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,18 +22,18 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: 83a1311df59ccad264951e8eeffa5052ac2231c15b000e4c25b1a36de227bca9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f18a6963c59aa371715d35b40137946d1b29b163b905d3ef842e8b3ddc434d63
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848258"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>什麼是 Microsoft Teams 即時活動
 
 ## <a name="overview"></a>概觀
 
-透過 Teams 即時活動，組織中的使用者可將影片和會議內容廣播給廣大的線上觀眾。
+透過 Teams 即時活動，組織中的使用者可將影片和會議內容廣播給更多的線上觀眾。
 
 Microsoft 365 即時活動將即時影片串流帶到新的層次。 即時活動鼓勵與出席者在即時期間和之後建立整個參與期間的聯繫。 不論觀眾、小組或社群身處何處，您都可以使用 Microsoft Stream、Teams 或 Yammer 來建立即時活動。  
 
@@ -43,7 +43,7 @@ Teams 即時活動被視為下一版的 Skype 會議廣播，而且最終會取�
 
 讓我們開始吧。首先，請看一下下圖，其中顯示與 Microsoft 365 即時活動有關的高層級元件，以及其連線方式。
 
-![即時活動的主要元件](../media/live-event-flow-diagram.png  "即時活動、排程、產生、Stream 平台、認證的協力廠商 eCDN 提供者的主要元件")
+![即時活動的主要元件](../media/live-event-flow-diagram1.png  "即時活動、排程、產生、Stream 平台、認證的協力廠商 eCDN 提供者的主要元件")
 
 > [!Note]
 > 我們想強調，由於廣播技術的本質，Teams 即時活動通常超過一般 (內部) 會議人數。

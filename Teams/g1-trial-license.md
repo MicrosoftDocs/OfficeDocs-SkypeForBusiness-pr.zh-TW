@@ -15,15 +15,14 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b10c62ddee396128b6622303906c6a37a10adec3f62ac386b55c084c3feb4a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f249f48c143d727175f97fb0929b383643e7595fb74327371fecd661f7514ce3
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848558"
 ---
-<a name="manage-the-office-365-g1-trial-for-us-government"></a>管理適用於美國政府的 Office 365 G1 試用版 
-==============================
+# <a name="manage-the-office-365-g1-trial-for-us-government"></a>管理適用於美國政府的 Office 365 G1 試用版 
 
 自 2020 年 7 月 1 日起，我們已不再提供 Office 365 E1 試用版授權。 如果您授權使用者使用 Microsoft Teams，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)，取得包括 Teams 的付費訂閱清單。 
 
@@ -35,7 +34,7 @@ ms.locfileid: "54304925"
 
 啟用 Office 365 G1 試用版後，請為需要的任何使用者開啟授權。 若要了解做法，請參閱[管理使用者對 Teams 的存取權](user-access.md)。
 
-一旦您為需要的使用者開啟 G1 試用版，就可以如同管理擁有付費授權的使用者一般地管理這些使用者。 如需詳細資訊，請參閱[管理貴組織的 Teams 設定](enable-features-office-365.md)。
+一旦您為需要它的使用者開啟 G1 試用版，您就可以如同管理擁有付費授權的使用者一般，管理這些使用者。如需詳細資訊，請參閱[管理貴組織的 Teams 設定](enable-features-office-365.md)。
 
 ### <a name="upgrade-users-from-the-office-365-g1-trial-license"></a>從 Office 365 G1 試用版授權升級使用者
 

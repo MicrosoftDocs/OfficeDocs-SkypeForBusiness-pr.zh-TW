@@ -1,5 +1,5 @@
 ---
-title: 在 Microsoft Teams 系統管理中心管理團隊
+title: 在 Microsoft Teams 系統管理中心管理 Microsoft Teams 團隊
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95a9769fad45917515a27b0f3d726d2eb3dbc931efbfa4fd26af19eced92d190
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 86feedbb0212908ebd61f89c6e62e6d468813bd14ed1d86edec3abc00bf1d582
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848188"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理團隊
 
@@ -37,7 +37,7 @@ ms.locfileid: "54306345"
 - 全域系統管理員
 - Teams 系統管理員
 
-您可以在 [使用 Microsoft Teams 系統管理員角色以管理 Teams](using-admin-roles.md) 中深入瞭解 Microsoft Teams 中的系統管理員角色，而且您可以在 [Microsoft Teams Cmdlet 參考](/powershell/teams/?view=teams-ps) 中深入了解如何使用 PowerShell Cmdlet 管理團隊。
+您可以在 [使用 Microsoft Teams 系統管理員角色以管理 Teams](using-admin-roles.md) 中深入瞭解 Microsoft Teams 中的系統管理員角色，而且您可以在 [Microsoft Teams Cmdlet 參考](/powershell/teams/) 中深入了解如何使用 PowerShell Cmdlet 管理團隊。
 
 
 
@@ -121,7 +121,7 @@ Teams 概觀格線內的團隊清單中遺失您的部分團隊。
 
 **解決方案：透過 MS Graph 將屬性手動設為正確的值**
 
-使用 **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps)"** Cmdlet 取代查詢中的 **{groupid}**，以取得您透過 Exchange Online PowerShell 取得的有問題之實際 GroupId，並作為 "**ExternalDirectoryObjectId**" 屬性。
+使用 **"[Get-UnifiedGroup](/powershell/module/exchange/users-and-groups/get-unifiedgroup)"** Cmdlet 取代查詢中的 **{groupid}**，以取得您透過 Exchange Online PowerShell 取得的有問題之實際 GroupId，並作為 "**ExternalDirectoryObjectId**" 屬性。
 
 1. 存取 [Graph 總管](https://developer.microsoft.com/graph/graph-explorer)。
 
@@ -137,6 +137,6 @@ Teams 概觀格線內的團隊清單中遺失您的部分團隊。
 
 ## <a name="learn-more"></a>深入了解
 
-- [Teams cmdlet 參考資料](/powershell/teams/?view=teams-ps)  
+- [Teams cmdlet 參考資料](/powershell/teams/)  
 - [使用 Teams 系統管理員角色以管理 Teams](using-admin-roles.md)
 - [Teams 中的生命週期管理方案](plan-teams-lifecycle.md)

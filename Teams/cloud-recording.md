@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4688c0a7d86e09b8114ddd00c85996c6a7c917e10e561013b1a3e902ce98c0ac
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9664cbad906149eccfce3f93d366f93b53e77798be0c080c3b57c3e46d3114d6
+ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "57848968"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -262,6 +262,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > 本文內容中的自動到期功能尚未啟動。 請參閱[藍圖（功能識別碼： 84580）](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580)以瞭解有關其傳遞日期的詳細資訊。 
 > 
 > 我們會提供此功能在未來如何執行的資訊，因此您可以事先規劃這項變更並修改 Teams 原則設定。 
+>
+> 尚未提供 CMD 預先變更 Teams 中的 MeetingExpirationDays 設定。 在 9 月 1 日前 (到期功能啟用之前)，所有租用戶都可以進行設定。
+>
+> 您可以使用 PowerShell 以修改 “ MeetingRecordingExpirationDays。” 這項功能可以在 9 月 1 日之後完成，一旦設定在 PowerShell 中出現，即使該功能尚未啟用。 範例命令為："Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50。”
+>
 
 請參閱系統管理員和使用者的常見問題，以收集 Teams 會議錄製的自動到期如何運作的深入見解、您現在可採取的動作，以及此功能啟動後可以採取的動作。 
   
@@ -287,16 +292,40 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 我們相信，幾乎所有客戶都會從租用戶降低的儲存空間負載獲益，由於移除 60 天後可能永遠不會重看的錄製內容。 我們的目標是藉由預設, 儘可能為所有客戶提供乾淨的體驗。 
   
+**即使存取或下載資料，它也會在 30 天之後自動刪除嗎？**
+  
+存取文件是無法變更到期日。 
+  
+**到期日是否以清單中的欄顯示？**
+
+在檔案到期的 14 天前，擁有存取權的所有人都會在 OneDrive 或 SharePoint 資料夾中的檔案旁邊看到紅色圖示。 目前沒有任何方法可以將欄新增到具有到期日的清單。
+  
 **到期日如何計算？**
   
 到期日的計算方式為建立會議錄製的日期，加上系統管理員在 Teams 設定中設定的預設天數。 
   
+**可以變更每個 TMR 的到期日，例如資料 A 到期日為 30 天，資料 B 到期日為 60 天？**
+
+是，到期日依每個檔案設定。 使用者可以在 OneDrive 或 SharePoint 中選取檔案的詳細資訊窗格中修改到期日。
+
 **系統管理員如何變更到期日?**
   
 系統管理員今天可以在 PowerShell 中變更預設到期設定。 當此功能啟動時，系統管理員可以在 Teams 系統管理中心變更此設定。 變更到期設定只會從該時間點起影響新建立之 TMR。 這不會影響該日期之前進行的任何錄製。 
 
 系統管理員可申請的到期天數上限設定為 99，999 天或 273 年。 在此功能釋出之前，系統管理員無法變更已上傳至 OneDrive 或 SharePoint 的現有 TMR 到期日。 這可保護擁有 TMR 的使用者意圖。 
+  
+**播放錄製內容會變更到期日嗎？**
 
+否，播放不會影響到期日。
+  
+**如果下載 TMR 後再重新上傳，到期日會發生什麼情況？**
+
+無論使用者的 SKU 是什麼，重新上傳時都會清除到期日。
+  
+**如果複製或移動 TMR 到不同的位置或網站，會發生什麼情況？**
+
+僅有移動的 TMR 檔案會保留日期。 複製的檔案沒有到期日，就如同重新上傳的 TMR 一樣。
+  
   PowerShell 命令範例： 
   
   ```powershell
