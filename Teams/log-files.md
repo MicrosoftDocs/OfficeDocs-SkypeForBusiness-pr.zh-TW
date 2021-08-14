@@ -16,16 +16,16 @@ search.appverid: MET150
 description: 瞭解由 Microsoft Teams 產生的 Debug、Media 和桌面記錄、可以在哪裡找到記錄，以及這些記錄如何協助監控和疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eba1acc94f87e59991230a85054cad14678efc9c92b8efa96567b81ef4e65ed6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a39078371ffa30caab6ee43df90bc825c4c081a3
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350895"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235318"
 ---
-# <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用記錄檔案來監控和疑難排解Microsoft Teams
+# <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用記錄檔案監控和疑難排解Microsoft Teams
 
-用戶端自動產生的記錄檔案有三種類型，可運用這些記錄檔案以協助監控和疑難排解Teams：
+用戶端自動產生的記錄檔案類型有三種，可協助您監控和疑難排解Teams：
 
 -   [調試記錄](#debug-logs)
 
@@ -40,7 +40,7 @@ ms.locfileid: "54350895"
 
 ## <a name="collect-and-enable-logging"></a>收集和啟用記錄
 
-發生問題時，收集記錄非常重要。 只要按幾下滑鼠，就能將記錄收集在一起。
+發生問題時，收集記錄非常重要。 只要按幾下滑鼠，就能收集記錄。
 
 Windows：以滑鼠右鍵按一下系統Teams中的 [收集支援 **檔案**> 圖示。 
 
@@ -52,7 +52,7 @@ Windows：Ctrl + Alt + Shift + 1
 
 Mac：Option + Command + Shift + 1
 
-媒體記錄預設為關閉。 若要啟用媒體記錄，使用者必須在用戶端中開啟Teams選項。 請前往 **設定** 一般，然後選取啟用會議診斷記錄， ( >  ******重新開機Teams) 。** 您必須Teams用戶端，才能開始記錄。
+媒體記錄預設為關閉。 若要啟用媒體記錄，使用者必須在用戶端中開啟Teams選項。 請前往 **設定** 一般，然後選取啟用會議診斷記錄  >  **** **， (重新開機Teams) 。** 您必須Teams用戶端，才能開始記錄。
 
 > [!NOTE]
 > 如果已啟用媒體記錄功能，會議資料夾中會包含其他檔案，這是調查音訊和視音訊問題的必要檔案。 如果未啟用媒體記錄，則可用的記錄數量會受到限制。
@@ -73,7 +73,7 @@ Mac：Option + Command + Shift + 1
 
 ## <a name="debug-logs"></a>調試記錄
 
-請參閱收集和 _啟用記錄_ 一節，Windows Mac 指示。 調試記錄是由 Windows Mac 桌面用戶端，以及瀏覽器型用戶端所產生。 記錄以文字為基礎，由下而上讀取。 您可以使用任何文字型編輯器來讀取，登入用戶端時會建立新記錄。
+請參閱收集和 _啟用記錄_ 一節，Windows Mac 指示。 調試記錄是由 Windows Mac 桌面用戶端，以及瀏覽器型用戶端所產生。 記錄是以文字為基礎，由下而上讀取。 您可以使用任何文字型編輯器來讀取，登入用戶端時會建立新記錄。
 
 調試記錄會顯示下列資料流程：
 
@@ -89,19 +89,19 @@ Mac：Option + Command + Shift + 1
 
 ## <a name="media-logs"></a>媒體記錄
 
-請參閱收集和 _啟用記錄_ 一節，Windows Mac 指示。 媒體記錄包含會議中音訊、視像和螢幕Teams資料。 當支援案例與通話相關問題連結時，這些案例是必填專案。
+請參閱收集和 _啟用記錄_ 一節，Windows Mac 指示。 媒體記錄包含會議音訊、視像和螢幕Teams資料。 當支援案例與通話相關問題連結時，這些案例是必填專案。
 
-媒體記錄預設為關閉。 若要記錄會議Teams診斷資料，使用者必須在用戶端中開啟Teams選項。 請 **設定** 一般，選取啟用會議診斷記錄 (需要重新開機  >  **** **Teams)** 核取方塊、重新開機 Teams，然後重現問題。 
+媒體記錄預設為關閉。 若要記錄Teams診斷資料，使用者必須在用戶端中開啟Teams選項。 請 **設定** 一般，選取啟用會議診斷 (需要重新開機  >  **** **Teams)** 核取方塊、重新開機 Teams，然後重現問題。 
 
 當您將記錄檔案傳送給 Microsoft 支援人員時，請確認記錄檔案的時間戳記，以確保記錄在您重現問題時涵蓋時間範圍。
 
 若要收集 Linux 的記錄：檔案可在 ~/.config/microsoft/Microsoft Teams/media-stack/ .blog 和 *~/.config/Microsoft/Microsoft Teams/skylib/*.blog 中提供。
 
-以下是產生的記錄檔案及其包含的資訊清單。
+以下是產生的記錄檔案清單及其包含的資訊。
 
 |記錄檔案名  |描述  |
 |---------|---------|
-|Teams.msrtc-0-s1039525249.blog     | 包含媒體堆疊相關資訊。 這包括頻道狀態，例如解析度、使用的解碼器及編碼器，以及接收和接收的畫面數量，以及視 (VBSS) 會話狀態。         |
+|Teams.msrtc-0-s1039525249.blog     | 包含媒體堆疊相關資訊。 這包括頻道狀態，例如解析度、使用的解碼和編碼器，以及已送出和接收的畫面數目，以及視 (視) 會話狀態。         |
 |rtmcontrol.msrtc-0-2415069487.blog      |記錄與遠端控制動作相關的資訊，例如提供控制項時時間戳記，以及滑鼠指標資訊。          |
 |Teams_MediaStackETW-2-U-xr-U.etl      |記錄媒體堆疊追蹤事件。         |
 |Debug-0-s2790420889.blog    | 包含媒體代理程式相關資訊，包括呈現品質。          |
@@ -114,14 +114,13 @@ Mac：Option + Command + Shift + 1
 若要收集 Linux 的記錄：按一下系統Microsoft Teams中的 [取得記錄記錄>**圖示。**
 檔案可在 ~/.config/microsoft/Microsoft Teams/logs.txt。  
 
-
 ## <a name="browser-trace"></a>瀏覽器追蹤
 
-針對某些類別的錯誤，Microsoft 支援服務可能會要求您收集瀏覽器追蹤。 這項資訊可提供發生錯誤時Teams用戶端狀態的重要詳細資料。
+針對某些錯誤類別，Microsoft 支援服務可能會要求您收集瀏覽器追蹤。 這項資訊可提供發生錯誤時Teams用戶端狀態的重要詳細資料。
 
-在啟動瀏覽器追蹤之前，請確認您已Teams。 在啟動追蹤之前，執行這項工作非常重要，這樣追蹤就不包含敏感性的登錄資訊。
+啟動瀏覽器追蹤之前，請確認您已Teams。 在啟動追蹤之前，執行這項工作非常重要，這樣追蹤就不包含敏感性的登錄資訊。
 
-在您登錄後，請選取下列其中一個連結 ，以適合您的瀏覽器使用，然後遵循所提供的步驟。 
+在您登錄後，請選取下列其中一個連結 ，以適合您的瀏覽器使用，然後按照提供的步驟進行。 
 
 -   [Chrome & Edge (Chromium) ](/azure/azure-portal/capture-browser-trace#google-chrome-and-microsoft-edge-chromium?preserve-view=true#resolution)
 
@@ -132,7 +131,22 @@ Mac：Option + Command + Shift + 1
 -   [火狐](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
 
 > [!NOTE]
-> 在步驟中，將 Azure 入口網站的所有參照取代為Teams用戶端。 
+> 在步驟中，將 Azure 入口網站的所有參照取代為 Teams用戶端。
+  
+## <a name="webrtc-logs-in-browsers"></a>網頁RTC 在瀏覽器中記錄
+WebRTC 記錄可提供音訊和視音訊通話的連線詳細資料，以協助 Microsoft 支援服務。 請按照步驟在 Edge (Chromium) 或 Chrome 中存取 WebRTC 記錄： 
+  
+1.  開啟新的定位停駐點，然後前往下列其中一個 URL：
+    -   Edge (Chromium) ： "edge://webrtc-internals/"
+    -   Chrome："chrome://webrtc-internals/"
+  
+2.  開啟 Teams Web 應用程式並重現問題。
+  
+3.  回到步驟 1 中存取的定位停駐點，您至少會看到兩個定位停駐點：
+    -   GetUserMedia 要求
+    -   https://teams.microsoft.com/url
+
+4.  選擇包含應用程式名稱的Teams，然後儲存頁面內容。
 
 ## <a name="related-topics"></a>相關主題
 

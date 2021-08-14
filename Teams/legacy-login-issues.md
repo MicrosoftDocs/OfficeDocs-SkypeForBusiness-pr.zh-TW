@@ -17,17 +17,16 @@ description: 針對在舊版系統上接收訊息和通話相關問題進行疑�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4626f7d675f5b6d5f4899f9b0f1cd6d8eb81776de383c3a0c573e2fd78967cb5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 002354418c06980600f5cebef035b8480d0f1bef
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348976"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234998"
 ---
-<a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>在舊版系統上接收訊息和通話的問題
-==============================================================
+# <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>在舊版系統上接收訊息和通話的問題
 
-如果使用者使用舊版的手機或已登入其他應用程式Teams收到訊息或通話時可能有問題。
+如果使用者使用舊版的手機或已與其他應用程式Teams，則接收郵件或通話時可能有問題。
 
 ## <a name="legacy-adu-setups"></a>舊版 ADU 設定
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2088272756886b210ae99b32f8c3148d237b10ccb367702745f0327cc4e2896
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 167c6534fbb8cade9c45b0d4d44441c3a385fd19
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590777"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235388"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 和 Microsoft Teams 如何互動
 
@@ -70,7 +70,7 @@ ms.locfileid: "54590777"
 
 <sup>9</sup>亦須至少Exchange Online方案 1 授權。 詳細資訊，請參閱[搜尋Teams使用者的聊天資料](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
 
-<sup>10</sup>個內部部署使用者可以Teams更新其設定檔圖片，即使 web 信箱Outlook設定為 `SetPhotoEnabled` `false` 。
+<sup>10</sup>個內部部署使用者Teams更新其設定檔圖片，即使 web 信箱Outlook設定為 `SetPhotoEnabled` `false` 。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft Teams 的需求
 
@@ -104,18 +104,18 @@ Microsoft Teams 與多個 Microsoft 365 和 Office 365 服務合作，為使用�
   > [!NOTE]
   > Exchange信 任來自 Teams 服務 (稱為 EvoSTS) 的 OAuth 權杖。 第 1 步應該足够了，但是只有 EvoSTS；ACS 用於行事曆中的空閒/忙碌查閲。
 
-- 已設定 Azure AD Connect 中 Exchange 混合式部署功能的核取方塊。 詳細資訊，請參閱混合[式Exchange回寫](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback)。
+- 已設定 Azure AD Connect 中 Exchange 混合式部署功能的核取方塊。 詳細資訊請參閱混合[式Exchange回寫](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback)。
 
 - 對於行事曆應用程式支援和 Mac 版 Teams Outlook 增益集，Exchange Web 服務 URL 必須設定為 Exchange 服務主體的租用戶 Azure AD 中的 SPN。 這一步是透過混合組態精靈完成的，或者遵循[混合式新式驗證的手動步驟](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad)來完成的。
 
 要為這些使用者啟用行事曆委派，請執行以下操作：
 
-- 您也必須完成步驟，如在 商務用 Skype Online 和 Exchange Server 之間設定整合和[OAuth 中所述](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises);這些步驟會提供Teams排程應用程式以確認代理人許可權所需的許可權。
+- 您也必須完成在 Online 和 商務用 Skype 之間設定整合[和 OAuth 中所述Exchange Server;](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)這些步驟會提供Teams應用程式所需的許可權，以確認代理人許可權。
  
   > [!NOTE]
   > 步驟 2 包括 ArchiveApplication 的角色指派，這不是委派所必需的。
 
-- 代表Teams排程會議時，Outlook需要 Exchange 2013 CU19 或更新時間。 這是為了支援我們服務對郵箱進行未驗證的的探索，以檢查委派者郵箱的委派權限。 代理人和委派者位置可以是 Exchange 2013 或更高版本，或 Exchange online，但自動探索必須解析為 Exchange 2013 CU19 或更高版本。
+- 代表Teams排程會議時Outlook需要 Exchange 2013 CU19 或更新時間。 這是為了支援我們服務對郵箱進行未驗證的的探索，以檢查委派者郵箱的委派權限。 代理人和委派者位置可以是 Exchange 2013 或更高版本，或 Exchange online，但自動探索必須解析為 Exchange 2013 CU19 或更高版本。
 
 ## <a name="additional-considerations"></a>其他考量因素
 

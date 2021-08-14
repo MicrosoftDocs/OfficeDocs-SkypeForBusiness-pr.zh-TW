@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 摘要：在商務用 Skype Server 中管理雙因素驗證。
-ms.openlocfilehash: d73f088798938da6f5a87a8d21fa2922188f3bdc35e589dcda32b3f62747f0d2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: db40d3c2f899ec40ba01e0a45304e147513b9c03
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297299"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235508"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>在商務用 Skype Server 中管理雙因素驗證
  
@@ -36,7 +36,7 @@ Lync Server 2013 的累計更新：7月2013的桌面用戶端和商務用 Skype 
   
 ## <a name="topology-requirements"></a>拓撲需求
 
-強烈建議客戶使用具有 Edge、Director 和使用者集區的專屬商務用 Skype Server，部署雙因素驗證。 若要為使用者啟用被動式驗證，其他角色和服務必須停用其他驗證方法，包括下列專案：
+客戶鼓勵使用具有 Edge、Director 和使用者集區的專屬商務用 Skype Server，部署兩要素驗證。 若要為使用者啟用被動驗證，其他角色和服務必須停用其他驗證方法，包括下列各項：
   
 |**配置類型**|**服務類型**|**伺服器角色**|**要停用的驗證類型**|
 |:-----|:-----|:-----|:-----|
@@ -53,7 +53,7 @@ Lync Server 2013 的累計更新：7月2013的桌面用戶端和商務用 Skype 
   
 ## <a name="exchange-authentication"></a>Exchange認證
 
-已部署 Microsoft Exchange 的雙因素驗證的客戶可能會發現用戶端中的某些功能無法使用。 這是目前的設計，因為商務用 Skype 用戶端不支援依存于 Exchange 整合的功能的兩個要素驗證。
+已部署 Microsoft Exchange 的雙因素驗證的客戶可能會發現用戶端中的某些功能無法使用。 這種行為是設計所設計，因為商務用 Skype 用戶端不支援依存于 Exchange 整合的功能的兩個要素驗證。
   
 ## <a name="contacts"></a>連絡人
 
@@ -81,11 +81,11 @@ Lync Server 2013 的累計更新：7月2013的桌面用戶端和商務用 Skype 
   
 若要防止其他提示輸入認證，請在本機工作站上建立下列登錄專案，或使用商務用 Skype 系統管理範本，套用至使用群組原則的指定集區的所有使用者：
   
-    HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
   
-    REG_DWORD: DisableNTCredentials
-  
-    Value: 0x0
+REG_DWORD： DisableNTCredentials
+
+值：0x0
   
 ### <a name="savepassword"></a>SavePassword
 
@@ -93,11 +93,11 @@ Lync Server 2013 的累計更新：7月2013的桌面用戶端和商務用 Skype 
   
 當商務用 Skype 設定為支援雙因素驗證時，應停用 **SavePassword** 登錄設定。 若要防止使用者儲存其密碼，請變更本機工作站上的下列登錄專案，或使用商務用 Skype 系統管理範本，以套用至使用群組原則的指定集區的所有使用者：
   
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
+HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync
   
-    REG_DWORD: SavePassword
+REG_DWORD： SavePassword
   
-    Value: 0x0
+值：0x0
   
 ## <a name="ad-fs-20-token-replay"></a>AD FS 2.0 權杖重新播放
 
@@ -105,7 +105,7 @@ AD FS 2.0 提供的功能稱為「權杖重新顯示偵測」，可以偵測出�
   
 在安全性非常重要的情況下，例如使用亭時，應啟用此功能。 如需權杖重新顯示偵測的相關資訊，請參閱 [安全規劃及部署 AD FS 2.0 的最佳作法](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ff630160(v=ws.10))。
   
-## <a name="external-user-access"></a>外部使用者存取
+## <a name="guest-user-access"></a>來賓使用者存取
 
 在下列主題中，設定 ADFS proxy 或反向 Proxy，以支援來自外部網路的商務用 Skype 雙因素驗證。
   

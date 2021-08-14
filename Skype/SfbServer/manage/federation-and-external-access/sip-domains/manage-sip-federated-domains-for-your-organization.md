@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 瞭解如何管理及設定您可以同盟的 SIP 網域，
-ms.openlocfilehash: 7b04225542387d52a36533c9639b02f773731e9f
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 61313082b9581a0024895dd79e3c533c5cf778cd836d82d12c654549d78d7b63
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817213"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336703"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>在商務用 Skype Server 中管理組織的 SIP 同盟網域
 
@@ -41,7 +41,7 @@ ms.locfileid: "49817213"
 ### <a name="to-add-an-external-domain-to-the-list-of-allowed-domains"></a>若要將外部網域新增至允許網域清單
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 3.  在左導覽列中，依序按一下 **[外部使用者存取]** 和 **[同盟網域]**。
 4.  在 **[同盟網域]** 頁面上，依序按一下 **[新增]** 和 **[允許的網域]**。
 5.  在 **[新增同盟網域]** 中，執行下列動作：
@@ -49,7 +49,7 @@ ms.locfileid: "49817213"
       - 在 **[網域名稱 (或 FQDN)]** 中，輸入同盟協力廠商網域的名稱。       
 
         > [!NOTE]  
-        > 此名稱必須是唯一的，而且不能已存在作為這個執行 Access Edge Service 的伺服器的允許網域。此外，名稱長度不可超過 256 個字元。<BR><br>搜尋同盟協力廠商網域名稱時會執行尾碼比對。例如，如果輸入 **contoso.com**，搜尋也會傳回網域 **it.contoso.com**。<BR><br>不能同時封鎖又允許同一個同盟協力廠商網域。 商務用 Skype Server 避免發生這種情況，因此您不需要同步處理清單。
+        > 此名稱必須是唯一的，而且不能已存在作為這個執行 Access Edge Service 的伺服器的允許網域。此外，名稱長度不可超過 256 個字元。<BR><br>搜尋同盟協力廠商網域名稱時會執行尾碼比對。例如，如果輸入 **contoso.com**，搜尋也會傳回網域 **it.contoso.com**。<BR><br>不能同時封鎖又允許同一個同盟協力廠商網域。 商務用 Skype Server 避免發生這種情況，所以您不需要同步處理清單。
     
       - 如果您要將同盟網域的存取限制於執行 Access Edge Service 之特定伺服器的使用者，可以在 **[Access Edge Service (FQDN)]** 中輸入執行 Access Edge Service 之同盟網域伺服器的 FQDN。    
       - 如果您要提供其他資訊，請在 **[註解]** 中輸入您想與其他系統管理員分享有關此設定的資訊。
@@ -71,7 +71,7 @@ ms.locfileid: "49817213"
 ### <a name="to-add-an-external-domain-to-the-list-of-blocked-domains"></a>將外部網域新增至封鎖網域清單
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 3.  在左導覽列中，按一下 **[外部使用者存取]**。
 4.  依序按一下 **[同盟網域]**、**[新增]** 和 **[封鎖網域]**。
 5.  在 **[新增同盟網域]** 中，執行下列動作：
@@ -79,7 +79,7 @@ ms.locfileid: "49817213"
       - 在 **[網域名稱 (或 FQDN)]** 中，輸入您要封鎖的同盟協力廠商網域名稱。
 
         > [!NOTE]  
-        > 名稱長度不可超過 256 個字元。<BR><br>搜尋同盟協力廠商網域名稱時會執行尾碼比對。例如，如果輸入 **contoso.com**，搜尋也會傳回網域 **it.contoso.com**。<BR><br>不能同時封鎖又允許同一個同盟協力廠商網域。 商務用 Skype Server 避免發生這種情況，因此您不需要同步處理清單。
+        > 名稱長度不可超過 256 個字元。<BR><br>搜尋同盟協力廠商網域名稱時會執行尾碼比對。例如，如果輸入 **contoso.com**，搜尋也會傳回網域 **it.contoso.com**。<BR><br>不能同時封鎖又允許同一個同盟協力廠商網域。 商務用 Skype Server 避免發生這種情況，所以您不需要同步處理清單。
    
       - (選用) 在 **[註解]** 中，輸入您想與其他系統管理員分享的此設定相關資訊。
 

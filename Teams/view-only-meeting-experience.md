@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76348dcbc71c706915db3d8ad9a21e65ad6abdd7d661a8bace6c6e6d349ae116
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d12f09fe5043093b55e57d32bb70d9c332157511
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292880"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234428"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 僅供檢視會議體驗
 
@@ -29,22 +29,22 @@ ms.locfileid: "54292880"
 > 在 Microsoft 365 E3/E5 和 Microsoft 365 A3/A5 中提供僅供檢視廣播。 此功能將於 2021 年 3 月 1 日啟用，但預設為關閉。 Microsoft 365 政府社群雲端 (GCC) 中的功能將於 2021 年 3 月底開始推出。 政府社群雲端 High (GCCH) 和美國國防部 (DoD) 將於稍後推出。 如果您想要將功能設定為預設開啟，您必須在此日期之後變更預設原則。 使用 PowerShell 啟用原則 `Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Enabled`。
 
 > [!Note]
-> 如果您的會議達到容量，Teams可順暢縮放，以容納 10，000 人只能觀看的廣播體驗。 此外，在遠端工作數量增加的這段時間裡，到今年年底，請利用 20,000 人的更大廣播容量。
+> 如果您的會議達到容量，Teams可順暢縮放，以容納 10，000 人只能觀看的廣播體驗。 此外，在遠端工作數量增加的這段時間裡，到今年年底，請利用 20,000 人的更大廣播容量。 網路研討會目前不支援僅觀看的廣播體驗。
 
-Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 在達到主要會議容量之後 (1000 個使用者進入會議) 其他出席者會以僅查看體驗加入會議。
+Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 達到主會議容量之後 (1000 個使用者進入會議) ，其他出席者會以僅查看體驗加入。
 
-第一次加入會議的出席者，最多可取得主要會議Teams會議體驗。 他們可以分享音訊和視訊、查看分享的視訊以及參與會議聊天。
+第一次加入會議的出席者，最多可取得主要會議Teams完整的會議體驗。 他們可以分享音訊和視訊、查看分享的視訊以及參與會議聊天。
 
 主要會議容量到達後加入的出席者將擁有僅供檢視體驗。
 
-出席者將能透過 Android 和 iOS Teams和 iOS (使用桌面、web 和) 。
+出席者將能透過 Android 和 iOS Teams和 iOS (加入只有) 。
 
 > [!Note]
-> 「主要會議」或也就是說，完全互動使用者數目的目前限制容量為 1000 個，包括GCC。
+> 「主要會議」或換句話說，完全互動使用者數目的目前限制為 1000 個，包括GCC網路研討會。
 
 ## <a name="teams-view-only-experience-controls"></a>Teams只顯示體驗控制項
 
-您可以使用 [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) [SkypeForBusiness PowerShell](/powershell/module/skype/?view=skype-ps) 模組或至少版本 2.0.0 [的 MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams)模組中的 Cmdlet 來啟用僅查看體驗。
+您可以使用 [`Set-CsTeamsMeetingPolicy`](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) [SkypeForBusiness PowerShell](/powershell/module/skype/?view=skype-ps) 模組或至少版本 2.0.0 [的 MicrosoftTeams](https://www.powershellgallery.com/packages/MicrosoftTeams)模組中的 Cmdlet 啟用僅查看體驗。
 
 若要使用建議 `MicrosoftTeams` 模組：
 
@@ -84,9 +84,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
   ![Teams 加入前畫面以及顯示給參與者的訊息，告知他們將以僅供檢視模式加入](media/view-only-pre-join-screen.png)
 
-如果有空間，使用者一律可以加入主要會議。 達到主要會議容量限制後，如果一或多位出席者離開主要會議，則主要會議會釋出容量可供加入。 加入 (或重新加入) 會議的出席者將加入主要會議，直到再次達到容量限制。 只有觀看體驗的出席者不會自動升級至主要會議，且無法手動升級至主要會議。
+如果有空間，使用者一律可以加入主要會議。 達到主要會議容量限制後，如果一或多位出席者離開主要會議，則主要會議會釋出容量可供加入。 加入 (或重新加入) 會議的出席者將加入主要會議，直到再次達到容量限制。 只有使用模式體驗的出席者不會自動升級至主要會議，且無法手動升級至主要會議。
 
-如果簡報者與出席者角色已設定，且簡報者在主要會議達到容量後嘗試加入會議，他們將以僅觀看出席者的方式加入，而且與其他僅查看出席者有相同的限制。 支援確保所有簡報者加入主要會議，稍後推出。 主會議一定會保證召集人有空間。
+如果已設定簡報者與出席者角色，且簡報者在主要會議達到容量後嘗試加入會議，則他們將以只觀看的出席者加入，且與其他僅查看出席者有相同的限制。 支援確保所有簡報者加入主要會議，稍後推出。 主會議一定會保證召集人有空間。
 
 ## <a name="impact-to-meeting-presenters-and-organizers"></a>對會議簡報者和召集人的影響
 
@@ -115,14 +115,14 @@ Teams 僅供檢視體驗可讓出席者：
 - 無法分享他們的音訊或視訊。
 - 無法查看或參與會議聊天。
 - 無法觀看會議參與者的視訊摘要，除非參與者是目前的主講人。
-- 請參閱PowerPoint即時功能或個別應用程式共用PowerPoint桌面或螢幕共用功能 (共用檔案) 。
+- 請參閱PowerPoint使用即時功能共用PowerPoint個別應用程式共用檔案 (桌面或螢幕共用功能) 。
 - 在會議中舉手。
 - 傳送或查看反應。
 - 與整合至會議的任何 3P App 互動Teams包括投票。
 
 ## <a name="view-only-feature-limitations"></a>僅供檢視功能限制
 
-- 僅能觀看的出席者只能在桌面和 Web 上看到即時字幕。 目前僅支援英文字輔助字幕。
+- 只有只能觀看的出席者才能在桌面和 Web 上看到即時字幕。 目前僅支援英文字輔助字幕。
 - 串流技術將支援僅供檢視出席者。
 - 出席報告中不會包含僅供檢視出席者。
 - 僅供檢視出席者將擁有單一視訊體驗。 他們可以看到目前主講人或正在共用的內容，但不能同時看到兩者。

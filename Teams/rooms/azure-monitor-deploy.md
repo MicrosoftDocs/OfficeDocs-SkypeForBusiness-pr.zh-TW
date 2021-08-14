@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: 本文討論如何使用 Azure 監視器以Microsoft Teams 會議室端對端的方式部署管理裝置。
+description: 本文討論如何使用 Azure 監視器Microsoft Teams 會議室以整合的端對端方式部署裝置管理。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6fe149f2d2cb0e6e68ad50c0c9cf1d2328439ff8dc0f43f56646e8a0152da7b8
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 0031b94f988cb300803617ce75df2d3afebf74e1
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850308"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234238"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>使用 :::no-loc text="Microsoft Teams Rooms"::: 部署管理 :::no-loc text="Azure Monitor":::
 
@@ -100,7 +100,7 @@ ms.locfileid: "57850308"
     3.  使用查詢列出硬體錯誤事件： `Event | where Source == "SRS-App" and EventID == 3001`
 
 5.  產生應用程式問題，並驗證記錄所需的事件。
-    1.  修改應用程式組式，然後輸入不正確的會話初始通訊協定 (SIP) :::no-loc text="Microsoft Teams Rooms"::: 位址/密碼組。
+    1.  修改 :::no-loc text="Microsoft Teams Rooms"::: 應用程式組式，然後輸入不正確的會話初始通訊協定 (SIP) 位址/密碼組。
     2.  請等候 10 分鐘，讓事件記錄填入 :::no-loc text="Azure Log Analytics"::: 。
     3.  使用查詢列出應用程式錯誤事件： `Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
@@ -214,7 +214,7 @@ ms.locfileid: "57850308"
     **群組標題：** 保留空白<br>
     **新群組：** 未選取
 3.  定義 **磚** 屬性：<br>
-    **圖例：** 非 (裝置最近 20 分鐘內沒有發出心跳) <br>
+    **圖例：** 非 (裝置) <br>
     **磚查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  定義 **清單** 屬性：<br>
     **清單查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
@@ -245,7 +245,7 @@ ms.locfileid: "57850308"
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>建立顯示作業系統 :::no-loc text="Microsoft Teams Rooms"::: 版本的磚
 
-1.  選取 **圖庫&** 環圈清單，然後新增磚。
+1.  從 **圖庫&** 環圈清單，然後新增磚。
 2.  定義 **一般** 屬性：<br>
     **群組標題：** 作業系統詳細資料<br>
     **新群組：** 選擇
@@ -269,7 +269,7 @@ ms.locfileid: "57850308"
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-application-versions"></a>建立顯示應用程式 :::no-loc text="Microsoft Teams Rooms"::: 版本的磚
 
-1.  選取 **圖庫&** 環圈清單，然後新增磚。
+1.  從 **圖庫&** 環圈清單，然後新增磚。
 2.  定義 **一般** 屬性：<br>
     **群組標題：** :::no-loc text="Microsoft Teams Rooms"::: 應用程式詳細資料<br>
     **新群組：** 選擇
@@ -408,7 +408,7 @@ ms.locfileid: "57850308"
 
 產生通知時，您就會收到一封電子郵件，其中列出過去一小時內發生問題的裝置。
 
-![範例 :::no-loc text="Azure Monitor"::: 通知電子郵件] (。。/media/Deploy-Azure-Monitor-6.png「範例 :::no-loc text="Azure Monitor"::: 通知電子郵件」) 
+![範例 :::no-loc text="Azure Monitor"::: 通知電子郵件] (。/media/Deploy-Azure-Monitor-6.png「範例 :::no-loc text="Azure Monitor"::: 通知電子郵件」) 
 
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>設定所有裝置 :::no-loc text="Azure Monitoring":::
 <a name="configure_all_devices"></a>設定儀表板和通知之後，您可以在所有裝置上設定和設定代理程式， :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: 以完成監控部署。

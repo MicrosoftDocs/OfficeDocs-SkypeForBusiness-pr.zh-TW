@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解在巴托馬撥打免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
-ms.openlocfilehash: f1dca1950854c5fc8b78b97fea3278018062f243
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: e00830c9ee740ddd1108bc4952cff9349ba7c13d1b47edc7a7c8f9dd0bb9f84e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51097849"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330837"
 ---
 # <a name="toll-free-dialing-restrictions-in-panama"></a>在巴托馬省免付費撥號限制
 
@@ -45,7 +45,7 @@ ms.locfileid: "51097849"
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |僅從 C &amp; W。  <br/> |
 |行動網路可用性  <br/> |否  <br/> |
-|批註、限制和存取問題  <br/> |客戶必須先撥打 011 (國際長途電話代碼) 撥打免費號碼。  <br/> |
+|批註、限制和存取問題  <br/> |客戶必須先撥打 011 (國際長途電話的) 號碼之後再撥打免付費號碼。  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 

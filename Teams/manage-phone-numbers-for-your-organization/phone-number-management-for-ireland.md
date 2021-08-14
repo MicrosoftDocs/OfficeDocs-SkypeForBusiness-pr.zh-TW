@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在愛爾蘭取得及管理愛爾蘭地區電話號碼Microsoft Teams。
-ms.openlocfilehash: 54e1e99dbcebdc68113370ed4a06199c38a73dfdfa99314a1dcd50d5d94ce3c3
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 1d0cccb8301d46401719b1014b61452343d9c293
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849738"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234458"
 ---
 # <a name="phone-number-management-for-ireland"></a>愛爾蘭的電話號碼管理
 

@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本附錄包含更新 edge 憑證的詳細步驟，以供 Teams 和商務用 Skype 雲端合併的一部分。
-ms.openlocfilehash: aa360d1c481b2a05b1282ca7538e5cf7b8f8de71
-ms.sourcegitcommit: 9879bc587382755d9a5cd63a75b0e7dc4e15574c
+ms.openlocfilehash: 7370fe6949c471a6aad9b45ee246f1565b43bdb465eba2110a03f53afa69fe28
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/21/2021
-ms.locfileid: "53510414"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330627"
 ---
 # <a name="update-the-edge-certificate"></a>更新 Microsoft Edge 憑證
 

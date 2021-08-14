@@ -19,24 +19,24 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c996df5c0253f3eee02a2b76297952ccf9cf56d3
-ms.sourcegitcommit: b387296c043fcf10fba7b9ef416328383e54a565
+ms.openlocfilehash: 6fab726d5c9e25664259addf726436358d294ac18e9c6cd24a150725e8255744
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2021
-ms.locfileid: "53587482"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328798"
 ---
 # <a name="manage-user-access-to-teams"></a>管理使用者對 Teams 的存取權
 
 您可以指派或移除Teams，以管理使用者層級的Microsoft Teams存取權。 除了以匿名Teams加入會議之外，貴組織的每個使用者都必須擁有Teams授權，才能使用Teams。 您可以在建立Teams使用者帳戶時指派授權給新使用者，或指派給擁有現有帳戶的使用者。
 
-根據預設，當授權方案 (例如 Microsoft 365 企業版 E3 或 Microsoft 365 商務進階版) 指派給使用者時，系統會自動指派 Teams 授權，而且使用者已啟用 Teams。 您隨時都可以Teams或指派授權，為使用者停用或啟用授權。
+根據預設，當授權方案 (例如 Microsoft 365 企業版 E3 或 Microsoft 365 商務進階版) 指派給使用者時，系統會自動指派 Teams 授權，且使用者已啟用 Teams。 您隨時都可以Teams或指派授權，為使用者停用或啟用授權。
 
 使用從系統管理中心管理Teams訊息<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a>策略，控制哪些聊天和頻道訊息功能可供 Teams。 您可以使用預設策略，或為貴組織人員建立一或多個自訂訊息策略。 若要深入瞭解，請參閱在 Teams[中管理Teams。](messaging-policies-in-teams.md)
-您可以在 Teams中管理Microsoft 365 系統管理中心授權，或使用 PowerShell。 您必須是全域系統管理員或使用者管理系統管理員，才能管理授權。
+您可以在 Teams中管理Microsoft 365 系統管理中心或使用 PowerShell。 您必須是全域系統管理員或使用者管理系統管理員，才能管理授權。
 
 > [!NOTE]
-> 我們建議您為所有使用者啟用Teams，讓團隊可以針對專案和其他動態計畫以組織方式組成。 即使您進行試驗，保持所有使用者Teams，但只將通訊目標鎖定至試驗使用者群組可能還是很有説明。
+> 我們建議您為所有使用者啟用Teams，讓團隊可以針對專案和其他動態計畫以組織方式組成。 即使您進行試驗，保持所有使用者Teams，但只將通訊目標鎖定到試驗使用者群組，可能還是很有説明。
 
 ## <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365 系統管理中心
 
@@ -44,7 +44,7 @@ Teams使用者層級授權會透過使用者管理介面Microsoft 365 系統管�
 
 > [!IMPORTANT]
 > 系統管理員必須擁有全域系統管理員或使用者管理系統管理員許可權，才能管理Microsoft Teams授權。
-使用 Microsoft 365 系統管理中心管理Teams個別使用者或小型使用者組的使用者授權。 您可以在授權Teams或使用中使用者 (管理最多20 個使用者) **授權**。 您選擇的方法取決於您要管理特定使用者的產品授權，或管理特定產品的使用者授權。
+使用 Microsoft 365 系統管理中心管理Teams個別使用者或小型使用者組的使用者授權。 您可以在授權Teams或活動 (頁面上管理最多20 位) **授權**。 您選擇的方法取決於您要管理特定使用者的產品授權，或管理特定產品的使用者授權。
 
 如果您需要管理大量使用者的 Teams 授權 ，例如數百或數千個使用者，請使用[PowerShell](#using-powershell)或[Azure Active Directory (Azure AD ](/azure/active-directory/users-groups-roles/licensing-groups-assign)) 。 
 
@@ -65,11 +65,11 @@ Teams使用者層級授權會透過使用者管理介面Microsoft 365 系統管�
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![使用者已停用Teams之 1 的螢幕擷取畫面](media/remove-teams-licenses-1.png)    | ![使用者已停用Teams之 2 的螢幕擷取畫面](media/remove-teams-licenses-2.png)        |
+|![使用者已停用Teams之 1 的螢幕擷取畫面](media/remove-teams-licenses-1.png)    | ![使用者已停用Teams之授權之 2 的螢幕擷取畫面](media/remove-teams-licenses-2.png)        |
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
-使用 PowerShell 大量Teams使用者授權。 您透過 PowerShell Teams與任何其他服務方案授權相同的方式啟用和停用此授權。 您需要服務方案識別碼Teams，如下所示：
+使用 PowerShell 大量Teams使用者授權。 您透過 PowerShell Teams和停用其他服務方案授權的方式，來啟用和停用。 您需要服務方案識別碼Teams，如下所示：
 
 - Microsoft Teams：TEAMS1
 - Microsoft Teams： GCC： TEAMS_GOV
@@ -81,7 +81,7 @@ Teams使用者層級授權會透過使用者管理介面Microsoft 365 系統管�
 
 ### <a name="remove-teams-licenses-in-bulk"></a>大量Teams移除授權
 
-有關詳細步驟，請參閱停用 [PowerShell](/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) 服務存取權，以及指派使用者授權 [時停用服務存取權](/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)。
+有關詳細步驟，請參閱 [停用 PowerShell](/office365/enterprise/powershell/disable-access-to-services-with-office-365-powershell) 服務存取權，以及指派使用者授權 [時停用服務存取權](/office365/enterprise/powershell/disable-access-to-services-while-assigning-user-licenses)。
 
 #### <a name="example"></a>範例 
 
@@ -97,7 +97,7 @@ Teams使用者層級授權會透過使用者管理介面Microsoft 365 系統管�
 Get-MsolAccountSku
 ```
 
-執行下列命令，即貴組織的名稱，以及您先前步驟所提取之授權計畫的 \<CompanyName:License> 識別碼。 例如，ContosoSchool：ENTERPRISEPACK_STUDENT。
+執行下列命令，即貴組織的名稱，以及您先前步驟中所提取之授權計畫的 \<CompanyName:License> 識別碼。 例如，ContosoSchool：ENTERPRISEPACK_STUDENT。
 
 ```powershell
 $acctSKU="<CompanyName:License>
@@ -114,6 +114,6 @@ Get-MsolUser | Where-Object {$_.licenses[0].AccountSku.SkuPartNumber -eq  ($acct
 
 - [Teams附加元件授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [指派Teams附加元件授權](teams-add-on-licensing/assign-teams-add-on-licenses.md)
-- [使用 PowerShell 查看授權和服務](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
+- [使用 PowerShell 來查看授權和服務](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)
 - [用於授權的產品名稱和服務方案識別碼](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)
 - [教育用 SKU 參考](sku-reference-edu.md)

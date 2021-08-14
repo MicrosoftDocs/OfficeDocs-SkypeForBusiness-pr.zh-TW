@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 您無法完全刪除全域原則。 在全域原則上使用 [ **刪除** ] 選項，只會將全域原則重設為預設設定，但不包括對任何外部使用者存取選項的支援。
-ms.openlocfilehash: ebdd18d85570156a00cb4b31d36ec5660365223318ed748b799e9100c1deaaa5
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: a60516ce3eef125eb754d8d9635b3112d91d51dd
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848668"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234818"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>在商務用 Skype Server 中重設外部使用者存取的全域原則 
 

@@ -21,16 +21,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55676d855d3e15c3f767203da981a4fae241f3128a270f5656d770a229f00059
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: b83e7ea9fd93787f71828141c3e9e3b681d9557b
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848068"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234258"
 ---
 # <a name="phone-system-direct-routing"></a>電話直接路由
 
-您已完成[開始使用](get-started-with-teams-quick-start.md)。 您已使用[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)在組織中推出 Teams。 您可能已經部署會議 [&會議](deploy-meetings-microsoft-teams-landing-page.md)。 現在，您已準備好新增雲端語音工作負載，而且決定使用您自己的電話電信業者來使用 (PSTN) 直接路由電話系統連接。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
+您已完成[開始使用](get-started-with-teams-quick-start.md)。 您已使用[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)在組織中推出 Teams。 您可能已經部署會議 [&會議](deploy-meetings-microsoft-teams-landing-page.md)。 現在，您已準備好新增雲端語音工作負載，而且您決定使用自己的電話電信業者使用公用交換式電話網絡 (PSTN) 直接路由電話系統連接。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
 
 本文將說明直接路由的核心部署決策，以及您可能想要根據貴組織的需求考慮的其他考慮。 您也應該在[Microsoft Teams中](cloud-voice-landing-page.md)閱讀雲端語音，以瞭解更多關於 Microsoft 雲端語音服務的資訊。
 
@@ -62,7 +62,7 @@ ms.locfileid: "57848068"
 
 ### <a name="session-border-controller-sbc-considerations"></a>會話邊界控制器 (SBC) 考慮
 
-使用直接路由，您將自己的會話邊界控制器 (SBC) 直接電話系統。  有關認證 SBCs 的清單，請參閱 [支援的會話邊界控制器](direct-routing-border-controllers.md)。
+使用直接路由，您可以直接將您自己的會話邊界控制器 (SBC) 直接電話系統。  有關認證 SBCs 的清單，請參閱 [支援的會話邊界控制器](direct-routing-border-controllers.md)。
 
 |問問自己|動作 |
 |:------------|:-------|
@@ -82,7 +82,7 @@ ms.locfileid: "57848068"
 
 ### <a name="ensure-incoming-calls-land-in-the-teams-client-using-teamsupgradepolicy"></a>使用 TeamsUpgradePolicy 確保Teams用戶端內接來電
 
-直接路由僅支援Microsoft Teams。 若要透過直接路由接收 PSTN 通話，您必須設定 TeamsUpgradePolicy，以確保在 Teams。 使用者必須進入Teams模式，您可以指派 TeamsUpgradePolicy 的 「UpgradeToTeams」 實例給他們。 
+直接路由僅支援Microsoft Teams。 若要透過直接路由接收 PSTN 通話，您必須設定 TeamsUpgradePolicy，以確保在 Teams。 使用者必須Teams模式，您可以指派 TeamsUpgradePolicy 的 「UpgradeToTeams」 實例給他們。 
 
 |問問自己|動作 |
 |:------------|:-------|

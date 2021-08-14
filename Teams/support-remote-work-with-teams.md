@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77b40518379fd0334bce54362b07d129efe6f1a9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 72f5f353f09df16512cefa3efc700fb254d8d1b385f76c5b3d3bd9e6030e7999
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116941"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328958"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -84,7 +84,7 @@ ms.locfileid: "51116941"
 
 1. 確定您的員工擁有足夠的網際網路存取權和頻寬供 Teams 使用。 使用 [針對 Teams 準備組織的網路](prepare-network.md) 中的指導方針，以了解如何確保具有適當的頻寬。
 
-   - 有限的頻寬會影響 Teams 會議中的音訊品質。 為了確保在低頻寬條件下的最佳會議體驗，請鼓勵使用者限制視訊通話，並對通話和會議音訊使用 PSTN。 
+   - 有限的頻寬可能會影響 Teams 會議中的音訊品質。為了確保在低頻寬條件下獲得最佳會議體驗，請鼓勵使用者限制視訊，並對通話和會議音訊使用 PSTN。 
 
    - 請閱讀這篇最新的部落格 (2020 年 3 月 6 日)，[如何快速優化遠端員工的 Microsoft 365 或 Office 365 流量，並降低基礎結構負載](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571)。
 

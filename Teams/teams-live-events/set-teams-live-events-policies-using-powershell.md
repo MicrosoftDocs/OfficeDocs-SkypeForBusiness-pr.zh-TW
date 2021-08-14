@@ -14,16 +14,16 @@ f1.keywords:
 localization_priority: Normal
 ms.collection:
 - M365-collaboration
-description: 如何使用 PowerShell 在 Teams中設定策略的範例，以控制哪些人可以舉辦貴組織的即時活動，以及活動中可用的功能。
+description: 如何使用 PowerShell 在 Teams中設定策略的範例，以控制哪些人可以舉辦貴組織的即時活動，以及活動提供的功能。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 95b78b520b6978c85715e6dc1c1314ed279a305b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2b55589a3cabf1b696c1034ce4e20cd7a56af3444f7fa51e0f81f44430ead6bb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119142"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328928"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams
 

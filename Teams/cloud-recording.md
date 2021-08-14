@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b66a65f9c3c5bf42911062d1af0a68b975363cfa
-ms.sourcegitcommit: d0fb9035903d9e1ce184417250913db10608b1a9
+ms.openlocfilehash: 4688c0a7d86e09b8114ddd00c85996c6a7c917e10e561013b1a3e902ce98c0ac
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53660741"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54329278"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -323,7 +323,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
  
 **在安全性與合規性 (S+C) 中心設定的保留和/或刪除原則是否會取代 TMR 到期設定？**
   
-是，您於 S+C 中心設定的任何原則將擁有完整優先順序。 例如： 
+是，您於 S+C 中心設定的任何原則將擁有完整優先順序。例如： 
   
 - 如果您擁有一個原則，指出網站中所有檔案都必須保留 100 天，而 TMR 的到期設定是 30 天，則記錄檔案會保留 100 天整。  
 - 如果您的刪除原則是, 所有 TMR 將在 5 天後刪除，而且您的錄製檔案有 30 天的到期設定，則該檔案將在五天後刪除。 
@@ -342,7 +342,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 **這項功能需要哪些 SKUs ?**
   
-根據預設，所有 SKU 都會有此功能。 A1 使用者將預設為 30 天到期期間，且無法修改到期日
+根據預設，所有 SKU 都會有此功能。A1 使用者將預設為 30 天到期，且無法修改到期日
   
 **檔案到期是已稽核事件，我可以在稽核記錄中看見它嗎？**
   

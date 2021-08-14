@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解如何使用 PowerShell 控制項來管理Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e91a200ee79cb8906b6f9fce210d965ea0f42a8f
-ms.sourcegitcommit: 1b057bfcc3207960b956962845fd5051afe91722
+ms.openlocfilehash: c3a1bb503ca759835f34220aa8a963f162b73f36d879d4cf3e8a6321e6f5775e
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "52947555"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328918"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Microsoft TeamsPowerShell 概觀
 
@@ -39,7 +39,7 @@ PowerShell Microsoft Teams模組包含下列功能：
 
 ##  <a name="data-collection"></a>資料收集 
 
-Microsoft TeamsPowerShell 模組預設設定會收集遙測資料。 Microsoft 會匯總收集資料，以識別使用模式和常見問題 ，例如成功率較低的 Cmdlet，協助我們優先處理工作，Teams PowerShell 體驗。 Microsoft TeamsPowerShell 模組不會收集任何私人或個人資料。  
+Microsoft TeamsPowerShell 模組預設設定會收集遙測資料。 Microsoft 會匯總收集的資料，以找出使用模式和常見問題 ，例如成功率較低的 Cmdlet，協助我們優先處理工作，Teams PowerShell 體驗。 Microsoft TeamsPowerShell 模組不會收集任何私人或個人資料。  
 
 ## <a name="related-topics"></a>相關主題
 

@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013：管理商務用 Skype Server 的同盟與外部存取
+title: Lync Server 2013：管理對商務用 Skype Server 的同盟與外部存取
 ms.reviewer: ''
 ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
@@ -15,34 +15,34 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 您可以啟用和設定外部使用者存取，以控制是否支援的外部使用者能夠與內部商務用 Skype Server 使用者共同作業。
-ms.openlocfilehash: df8ca25dcaffb9ee563691eb327dc9ea6e9a229c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f783e0744443a7efb4f59c218789fb05241aa158eaa9fbf6de673a0cd959ff90
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826603"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336833"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>管理商務用 Skype Server 的同盟與外部存取
 
-支援外部使用者的首要步驟，是部署 Edge Server 或 Edge 集區。 如需部署 Edge 伺服器的詳細資訊，請參閱 [在商務用 Skype server 中部署 Edge server](../../deploy/deploy-edge-server/deploy-edge-server.md)。
+支援外部使用者的首要步驟，是部署 Edge Server 或 Edge 集區。 如需部署 edge server 的詳細資訊，請參閱[Deploy edge Server in 商務用 Skype Server](../../deploy/deploy-edge-server/deploy-edge-server.md)。
 
-在安裝及設定商務用 Skype Server 的內部部署之後，組織內部使用者可以與其他內部使用者共同作業，而這些使用者在您的 Active Directory 網域服務中有 SIP 帳戶 (AD DS) 。 共同作業可包含傳送和接收立即訊息，以及會議中目前狀態與參加情況的更新。 您可以啟用和設定外部使用者存取，以控制是否支援的外部使用者能夠與內部商務用 Skype Server 使用者共同作業。 外部使用者可以包含您部署的遠端使用者，同盟使用者 (包括支援的公用立即訊息使用者 (IM) 服務提供者) 及會議中的匿名參與者。
+在安裝和設定商務用 Skype Server 的內部部署之後，您組織中的內部使用者可以與在您的 Active Directory 網域服務中具有 SIP 帳戶的其他內部使用者進行共同作業。 (AD DS) 。 共同作業可包含傳送和接收立即訊息，以及會議中目前狀態與參加情況的更新。 您可以啟用和設定外部使用者存取，以控制是否支援的外部使用者能夠與內部商務用 Skype Server 使用者共同作業。 外部使用者可以包含您部署的遠端使用者，同盟使用者 (包括支援的公用立即訊息使用者 (IM) 服務提供者) 及會議中的匿名參與者。
 
-如果您的部署包含安裝商務用 Skype Server Edge Server 或 Edge 集區，則可能的通訊類型的範圍會極大地擴充，具有許多選項可供外部使用者存取、與其他 SIP 同盟網域和 SIP 同盟提供者的成員進行通訊。 在設定 Edge Server 或 Edge 集區之後，請啟用您要提供的外部使用者存取類型，並設定原則以控制外部存取。 在商務用 Skype Server 中，您可以根據任務需求，使用商務用 Skype Server 控制台、 [商務用 Skype Server 管理命令](../management-shell.md)介面或兩者來啟用及設定外部使用者存取和原則。 
+如果您的部署包含安裝的商務用 Skype Server Edge Server 或 Edge 集區，則可能的通訊類型的範圍會極大地擴充，具有許多選項可供外部使用者存取、與其他 sip 同盟網域和 sip 同盟提供者的成員進行通訊。 在設定 Edge Server 或 Edge 集區之後，請啟用您要提供的外部使用者存取類型，並設定原則以控制外部存取。 在商務用 Skype Server 中，您可以根據任務需求，使用商務用 Skype Server 控制台、[商務用 Skype Server 管理命令](../management-shell.md)介面或兩者來啟用及設定外部使用者存取和原則。 
 
 
 
 > [!IMPORTANT]  
-> 當您設計外部使用者存取的組態和原則時，必須知道原則的優先順序以及原則的套用方式。 在一個原則層級套用的商務用 Skype 伺服器原則設定，可以覆寫在另一個原則層級套用的設定。 商務用 Skype Server 原則優先順序為：使用者原則 (影響最大) 會覆寫網站原則，然後網站原則會覆寫全域原則 (影響最小)。 也就是說，原則設定愈接近原則影響的物件，對物件所造成的影響也越大。
+> 當您設計外部使用者存取的組態和原則時，必須知道原則的優先順序以及原則的套用方式。 商務用 Skype Server 于一個原則層級套用的原則設定，會覆寫在其他原則層級套用的設定。 商務用 Skype Server 原則優先順序為：使用者原則 (影響最大) 會覆寫網站原則，然後網站原則會覆寫全域原則 (影響最小)。 也就是說，原則設定愈接近原則影響的物件，對物件所造成的影響也越大。
 
 
 根據預設，沒有原則是設定為支援外部使用者存取 (包括遠端使用者存取、同盟網域使用者存取)，即使您已為組織啟用外部使用者存取也一樣。若要控制外部使用者存取的使用，您必須設定一個或多個原則，並在每個原則指定支援的外部使用者存取類型。這包括下列外部存取原則：
 
-  - **全域原則**   當您部署 Edge Server 時，就會建立全域原則。 根據預設，全域原則中不會啟用任何外部使用者存取選項。 若要在全域層級支援外部使用者存取，您可以設定全域原則來支援一或多個類型的外部使用者存取選項。 全域原則適用於組織中的所有使用者，但是網站原則和使用者原則會覆寫全域原則。 如果您刪除全域原則，不會將它移除。 而是會將它重設為預設值。
+  - **全域原則**   全域原則是在您部署 Edge Server 時建立。根據預設，全域原則中不會啟用任何外部使用者存取選項。若要在全域層級支援外部使用者存取，您必須設定全域原則為支援一或多個外部使用者存取類型選項。全域原則會套用至組織內所有使用者，但網站原則和使用者原則會覆寫全域原則。如果刪除全域原則，並不代表將其移除，而是將其重設回預設設定。
 
-  - **網站原則**   您可以建立及設定一或多個網站原則，以限制對特定網站的外部使用者存取的支援。 網站原則中的設定會覆寫全域原則，但僅限於該網站原則所涵蓋的特定網站。 例如，如果您在全域原則中啟用了遠端使用者存取，您可以指定網站原則以對特定網站停用遠端使用者存取。 根據預設，網站原則會套用至該網站的所有使用者，但您可以指派使用者原則給個別使用者，以覆寫網站原則設定。
+  - **網站原則**   您可以建立並設定一或多個網站原則，以對特定網站限制外部使用者存取支援。網站原則中的設定會覆寫全域原則，但僅限於該網站原則所涵蓋的特定網站。例如，如果您在全域原則中啟用了遠端使用者存取，您可以指定網站原則以對特定網站停用遠端使用者存取。根據預設，網站原則會套用至該網站的所有使用者，但您可以指派使用者原則給個別使用者，以覆寫網站原則設定。
 
-  - **使用者原則**   您可以建立及設定一或多個使用者原則，以限制對特定使用者的遠端使用者存取的支援。 使用者原則中的設定會覆寫全域與網站原則，但僅限於該使用者原則指派的特定使用者。 例如，如果您在全域原則和網站原則中啟用了遠端使用者存取，您可以指定使用者原則以停用遠端使用者存取，然後將該使用者原則指派給特定使用者。 如果您建立使用者原則，必須將其套用至一或多個使用者，該原則才能生效。
+  - **使用者原則**   您可以建立並設定個或多個使用者原則，以對特定使用者限制遠端使用者存取支援。使用者原則中的設定會覆寫全域與網站原則，但僅限於該使用者原則指派的特定使用者。例如，如果您在全域原則和網站原則中啟用了遠端使用者存取，您可以指定使用者原則以停用遠端使用者存取，然後將該使用者原則指派給特定使用者。如果您建立使用者原則，必須將其套用至一或多個使用者，該原則才能生效。
 
 若要決定需要建立或編輯哪些組態設定及原則，請參閱下列決策要點：
 
@@ -72,7 +72,7 @@ ms.locfileid: "49826603"
 設定各主題的詳細資訊設定 [原則以控制公用使用者存取](external-access-policies/configure-policies-to-control-public-user-access.md)、 [啟用或停用同盟和公用 IM](access-edge/enable-or-disable-federation-and-public-im-connectivity.md)連線，以及 [建立或編輯公用 SIP 同盟提供者](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-public-sip-federated-providers-in-skype-for-business-server)
 
 
-**您是否要允許使用者與裝載 Microsoft 365 或 Office 365 和商務用 Skype Online 之提供者的 SIP 同盟提供者通訊？**
+**您是否要允許使用者與執行 Microsoft 365 或 Office 365 並商務用 Skype 線上之主機的 SIP 同盟提供者通訊？**
 
 設定各主題的詳細資訊。 [啟用或停用同盟和公用 IM](access-edge/enable-or-disable-federation-and-public-im-connectivity.md) 連線，並 [建立或編輯主控的 SIP 同盟提供者](sip-providers/manage-sip-federated-providers-for-your-organization.md#create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server)。
 

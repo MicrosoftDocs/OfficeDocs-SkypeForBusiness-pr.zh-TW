@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.voice.dialplans.overview
 - Calling Plans
-description: '瞭解 PSTN 撥號方案 (PSTN 撥號) 提供哪些Teams，以及如何為貴組織選擇。  '
-ms.openlocfilehash: 7d5c004a8ea7d4ce851cfa6717abc2483102ed26b5526b49bcbf69f6d495f2b7
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: '瞭解 PSTN 撥號方案 (PSTN 撥號方案) 哪些Teams，以及如何為貴組織選擇。  '
+ms.openlocfilehash: cfe90a65fb7e1bbc0aae30cd5d0a0dc052f86cb4
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848718"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234408"
 ---
 # <a name="what-are-dial-plans"></a>什麼是撥號對應表？
 
@@ -39,7 +39,7 @@ ms.locfileid: "57848718"
 
 ## <a name="tenant-dial-plan-scope"></a>租使用者撥號方案範圍
 
-撥號方案的範圍會決定可適用撥號計畫的階層階層。 用戶端會透過設定設定取得適當的撥號方案，這些設定會在使用者登錄時自動Teams。 做為系統管理員，您可以使用系統管理中心或遠端 PowerShell 管理Microsoft Teams撥號方案範圍層級。
+撥號方案的範圍會決定可適用撥號計畫的階層階層。 用戶端會透過設定設定來取得適當的撥號方案，這些設定會在使用者登錄時自動Teams。 做為系統管理員，您可以使用系統管理中心或遠端 PowerShell 管理Microsoft Teams撥號方案範圍層級。
 
 在 Teams，有兩種撥號方案類型：服務範圍和租使用者範圍 (適用于貴組織) 。 服務範圍撥號方案會針對每個提供服務的國家/地區電話系統定義。 系統會自動為每個使用者指派符合指派給使用者的使用位置的服務國家/地區撥號方案。 您無法變更服務國家/地區撥號方案，但您可以建立租使用者範圍撥號方案，增加服務國家/地區撥號方案。 在布備用戶端時，客戶會取得「有效的撥號方案」，這是服務國家/地區撥號方案與適當範圍租使用者撥號方案的組合。 因此，不需要定義租使用者撥號方案的所有標準化規則，因為規則可能已經存在於服務國家/地區撥號計畫中。
 
@@ -111,7 +111,7 @@ ms.locfileid: "57848718"
 ### <a name="creating-normalization-rules"></a>建立標準化規則
 <a name="createrule"> </a>
 
-正規化規則.NET Framework正則運算式來指定伺服器用來將撥號字串轉換為 E.164 格式的數值比對模式。 您可以指定符合的正則運算式，以及找到相符專案時要進行的翻譯，以建立正規化規則。 完成後，您可以輸入測試編號，確認標準化規則是否如預期般運作。
+正規化規則.NET Framework正則運算式來指定伺服器用來將撥號字串轉換成 E.164 格式的數值比對模式。 您可以指定符合的正則運算式，以及找到相符專案時要進行的翻譯，以建立正規化規則。 完成後，您可以輸入測試編號，確認標準化規則是否如預期般運作。
 
 有關使用正則運算式.NET Framework詳細資料，請參閱[.NET Framework運算式](/dotnet/standard/base-types/regular-expressions)。
 
@@ -123,20 +123,20 @@ ms.locfileid: "57848718"
 
 ### <a name="sample-normalization-rules"></a>範例標準化規則
 
-下表顯示以正則運算式.NET Framework規則範例。 範例僅供範例使用，不做為建立您自己的標準化規則的規範參照。
+下表顯示以正則運算式.NET Framework正規化規則範例。 範例僅供範例使用，不做為建立您自己的標準化規則的規範參照。
 
 <a name="regularexpression"></a> 
  **使用正則運算式.NET Framework正規化規則**
 
 | 規則名稱<br/> | 描述<br/> | 數位模式<br/> | 翻譯<br/> | 範例<br/> |
 |:-----|:-----|:-----|:-----|:-----|
-|4digitExtension  <br/> |翻譯 4 位數的分機。  <br/> |^ (\\ d {4}) $  <br/> |+1425555$1  <br/> |0100 會翻譯成 +14255550100  <br/> |
+|4digitExtension  <br/> |翻譯 4 位數的分機。  <br/> |^ (\\ d) {4} $  <br/> |+1425555$1  <br/> |0100 會翻譯成 +14255550100  <br/> |
 |5digitExtension  <br/> |翻譯 5 位數的分機。  <br/> |^5 (\\ d) {4} $  <br/> |+1425555$1  <br/> |50100 會翻譯成 +14255550100  <br/> |
-|7digitcallingRedmond  <br/> |將 7 位數的數位轉換成 Redmond 當地號碼。  <br/> |^ (\\ d {7}) $  <br/> |+1425$1  <br/> |5550100 會翻譯成 +14255550100  <br/>|
-|RedmondOperator  <br/> |將 0 翻譯成 Redmond 運算子。  <br/> |^0$  <br/> |+14255550100  <br/> |0 會翻譯成 +14255550100  <br/> |
-|RedmondSitePrefix  <br/> |將具有網內首碼的號碼 (6) Redmond 網站代碼 (222) 。  <br/> |^6222 (\\ d) {4} $  <br/> |+1425555$1  <br/> |62220100翻譯為 +14255550100  <br/> |
+|7digitcallingRedmond  <br/> |將 7 位數的數位轉換成 Redmond 當地號碼。  <br/> |^ (\\ d) {7} $  <br/> |+1425$1  <br/> |5550100 會翻譯成 +14255550100  <br/>|
+|RedmondOperator  <br/> |將 0 翻譯成 Redmond 運算子。  <br/> |^0$  <br/> |+14255550100  <br/> |0 會轉換成 +14255550100  <br/> |
+|RedmondSitePrefix  <br/> |翻譯 222 (6) 和 Redmond 網站 (首碼) 。  <br/> |^6222 (\\ d) {4} $  <br/> |+1425555$1  <br/> |62220100翻譯為 +14255550100  <br/> |
 |5digitRange  <br/> |從包含 3 到 7 之間的位數範圍開始，翻譯 5 位數的分機。  <br/> |^ ( [3-7] \\ d) {4} $  <br/> |+142555$1 <br/> |54567 會翻譯成 +14255554567  <br/> |
-|首碼Added  <br/> |在 9 位數數位前面加上國家/地區首碼，第一位數和第三位數有限制。  <br/> |^ ([2-9] \\ \\ d d[2-9] \\ d) {6} $  <br/> |1$1  <br/> |4255554567會翻譯成 14255554567  <br/> |
+|首碼Added  <br/> |在 9 位數數位前面加上國家/地區首碼，第一位數和第三位數有限制。  <br/> |^ ([2-9] \\ d \\ [2-9] \\ d) {6} $  <br/> |1$1  <br/> |4255554567會翻譯成 14255554567  <br/> |
 |NoTranslation  <br/> |比對 5 位數，但無法翻譯。  <br/> |^ (\\ d {5}) $  <br/> |$1  <br/> |34567 會翻譯成 34567  <br/> |
 
  **根據上述的標準化規則，雷德蒙撥號方案。**

@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 如果已為使用者啟用商務用 Skype Server，您可以將適當的原則套用至特定使用者，以在商務用 Skype Server 控制台中設定 SIP 同盟、遠端使用者存取及公用立即訊息 (IM) 連線能力。
-ms.openlocfilehash: dbb4c89fd67f128fff0707e1190e8720ad2a166b72b861bb4510496ac0cd5744
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 32c97e38da6887e5caf078394e784f835458911a
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320195"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234628"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>將外部使用者存取原則指派給已啟用商務用 Skype 使用者
 
@@ -56,24 +56,17 @@ ms.locfileid: "54320195"
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-a-single-user"></a>將個別使用者外部存取原則指派給單一使用者
 
-  - 此命令可將個別使用者外部存取原則 RedmondExternalAccessPolicy 指派給使用者 Ken Myer。
-    
-        Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName "RedmondExternalAccessPolicy"
+  - 此命令可將個別使用者外部存取原則 RedmondExternalAccessPolicy 指派給使用者 Ken Myer。<br/><br/>Grant-CsExternalAccessPolicy-Identity "Ken Myer"-PolicyName "RedmondExternalAccessPolicy"
 
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-multiple-users"></a>將個別使用者外部存取原則指派給多個使用者
 
-  - 此命令可將個別使用者外部存取原則 USAExternalAccessPolicy，指派給所有具有 Active Directory 中之 UnitedStates OUto 帳戶的使用者。 如需此命令中所使用之 OU 參數的詳細資訊，請參閱 [Get-CsUser](/powershell/module/skype/Get-CsUser) Cmdlet 的檔。
-    
-        Get-CsUser -OU "ou=UnitedStates,dc=litwareinc,dc=com" | Grant-CsExternalAccessPolicy -PolicyName "USAExternalAccessPolicy"
+  - 此命令可將個別使用者外部存取原則 USAExternalAccessPolicy，指派給所有具有 Active Directory 中之 UnitedStates OUto 帳戶的使用者。 如需此命令中所使用之 OU 參數的詳細資訊，請參閱 [Get-CsUser](/powershell/module/skype/Get-CsUser) Cmdlet 的檔。<br/><br/>Get-CsUser-OU "OU = 美國，dc = litwareinc，dc = com" |Grant-CsExternalAccessPolicy PolicyName "USAExternalAccessPolicy"
 
 
 ## <a name="to-unassign-a-per-user-external-access-policy"></a>取消指派個別使用者外部存取原則
 
-  - 此命令可將任何先前指派給 Ken Myer 的個別使用者外部存取原則予以解除指派。一旦解除指派個別使用者原則，即會自動使用全域原則或其本機網站原則 (如果存在的話) 來管理 Ken Myer。網站原則的優先順序高於全域原則。
-    
-        Grant-CsExternalAccessPolicy -Identity "Ken Myer" -PolicyName $Null
-
+  - 此命令可將任何先前指派給 Ken Myer 的個別使用者外部存取原則予以解除指派。一旦解除指派個別使用者原則，即會自動使用全域原則或其本機網站原則 (如果存在的話) 來管理 Ken Myer。網站原則的優先順序高於全域原則。<br/><br/>Grant-CsExternalAccessPolicy-Identity 「Ken Myer」-PolicyName $Null
 
 
 如需詳細資訊，請參閱 [get-csexternalaccesspolicy](/powershell/module/skype/Grant-CsExternalAccessPolicy) Cmdlet 的 [說明] 主題。

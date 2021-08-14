@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 瞭解如何為 SIP 同盟提供者的使用者設定支援。
-ms.openlocfilehash: 8d4c6224a66454f8fb28bb4f991faf6ad672f596
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d356dd5fa4e8b98c3435d834b554d4b60b0269532737535d64e1a6c78557fec7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49823563"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336693"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>在商務用 Skype Server 中管理組織的 SIP 同盟提供者
 
@@ -36,7 +36,7 @@ ms.locfileid: "49823563"
 
 公用立即訊息 (IM) 連線能力，讓組織中的使用者能夠使用 IM 與公用提供者所提供的 IM 服務使用者通訊。
 
-商務用 Skype 伺服器具有立即訊息的公用提供者設定。 每個公用提供者都會使用提供者的 Edge Server 完整網域名稱，以及預設驗證層級 **[僅允許使用者與其連絡人清單上使用此提供者的人通訊]** 來設定。
+商務用 Skype Server 具有立即訊息的公用提供者設定。 每個公用提供者都會使用提供者的 Edge Server 完整網域名稱，以及預設驗證層級 **[僅允許使用者與其連絡人清單上使用此提供者的人通訊]** 來設定。
 
 預設設定為不啟用任何公用提供者。 在啟用公用提供者之前，您應該先完成授權合約及佈建工作。 您可以在完成授權和佈建工作之前啟用提供者。 在必要工作完成之前，使用者將無法與這些提供者的連絡人通訊。 如需授權及布建公用提供者的詳細資訊，請參閱 [設定原則以控制公用使用者](../external-access-policies/configure-policies-to-control-public-user-access.md)訪問。
 
@@ -47,7 +47,7 @@ ms.locfileid: "49823563"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，依序按一下 **[同盟和外部存取]** 和 **[SIP 同盟提供者]**。
 
@@ -61,7 +61,7 @@ ms.locfileid: "49823563"
     
       - **提供者名稱：**    必要內容，請輸入提供者的名稱，其將反映在 SIP 同盟提供者清單中。
     
-      - **Access Edge service (FQDN) ：**   必要的屬性，請輸入您要設定之提供者的 Access Edge service 的完整功能變數名稱。 此資訊是以預設專案提供，只在公用提供者對公用提供者的 Access Edge service 的 FQDN 進行變更時，才應變更。
+      - **[Access Edge Service (FQDN):]**    必要屬性，鍵入您設定的提供者的 Access Edge Service 完整網域名稱。此資訊的提供是預設項目，只有在公用提供者變更其 Access Edge Service 的 FQDN 時才能變更。
     
       - **[預設驗證層級：]**    預設設定，**[僅允許使用者與其連絡人清單上使用此提供者的人通訊]** 會限制與您已接受並且在您的連絡人清單中的連絡人通訊。
         
@@ -81,7 +81,7 @@ ms.locfileid: "49823563"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
 
 3.  在左導覽列中，按一下 [同盟及外部存取]，然後按一下 [SIP 同盟提供者]。
 
@@ -95,7 +95,7 @@ ms.locfileid: "49823563"
     
       - **提供者名稱：**    必要內容，請輸入提供者的名稱，其將反映在 SIP 同盟提供者清單中。
     
-      - **Access Edge service (FQDN) ：**   必要的屬性，請輸入您要設定之主控提供者的 Access Edge service 的完整功能變數名稱。 此資訊應由主控的提供者提供，而且只有在主控提供者對主控提供者的 Access Edge service 的 FQDN 進行變更時，才應變更此資訊。
+      - **Access Edge Service (FQDN)：**    必要內容，請輸入您要設定之裝載提供者的 Access Edge Service 完整網域名稱。此資訊應由裝載提供者提供，而唯有當裝載提供者對裝載提供者的 Access Edge Service FQDN 進行變更時，才能變更。
     
       - **預設驗證層級：**    預設設定，[允許使用者僅與其連絡人清單中使用此提供者的人通訊] 會將通訊範圍限制為您已接受並且在連絡人清單中的連絡人。
         

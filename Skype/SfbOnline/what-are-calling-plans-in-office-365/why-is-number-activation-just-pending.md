@@ -22,18 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
 description: 位址驗證是設定通話方案的重要一部分。 它會為貴組織的使用者提供緊急電話位址，由緊急回應服務使用。
-ms.openlocfilehash: aaf94d1c2536fd96c7162eb29b9cf4b7c7e1a1b3
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 8e80d272c08aada8020ab39caab0290ef45199f00663c73b1c269318e9b3518b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52237909"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54330587"
 ---
 # <a name="why-is-number-activation-just-pending"></a>為什麼號碼啟用只是擱置中？
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-位址驗證是設定通話方案的重要一部分。 如果因為某種原因，電話號碼未啟用，且因為位址驗證而列為擱置中，您必須建立並提交服務要求。 如何執行此工作，取決於貴組織的大小。
+位址驗證是設定通話方案的重要一部分。 如果因為某種原因，電話號碼未啟用，且因為位址驗證而列為擱置中，您必須建立並提交服務要求。 您執行此工作是以貴組織的大小為基礎。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>針對組織 150 或以下組織，請遵循下列步驟
 1. 在系統管理中心中，選擇需要 **協助** 嗎？
@@ -48,7 +48,7 @@ ms.locfileid: "52237909"
     
 2. 在系統管理中心左側的流覽中，按一下 [**支援**  >  **新服務要求**。
     
-3. 在 **[服務要求」** 下，按一下 [ **新增**。
+3. 在 **[服務要求>** 下，按一下 [ **新增**。
     
 4. 在 [ **建立服務要求」** 頁面上，按一下 [ **線上共同合作>**。
     
@@ -71,7 +71,7 @@ ms.locfileid: "52237909"
       - 國家或地區
     
      > [!IMPORTANT]
-     > **將我們提供通話方案的國家/地區放在您指派電話號碼時嘗試驗證緊急位址的國家/地區。**
+     > **在您指派電話號碼時，將我們提供通話方案的國家/地區置於您嘗試驗證緊急位址的國家/地區。**
   
       - 郵遞區號
     
@@ -96,7 +96,7 @@ ms.locfileid: "52237909"
 8. 請閱閱資訊，然後按一下 [ **提交要求**> 。
     
 > [!TIP]
-> 參考號碼會列在系統管理中心的服務 **要求Microsoft 365頁面上**。
+> 參考編號會列在服務要求 **頁面的** Microsoft 365 系統管理中心。
 
 
 > [!NOTE]

@@ -17,12 +17,12 @@ f1.keywords:
 description: hHw 直接路由支援媒體旁路，同時啟用 ICE Lite 的會話邊界控制器。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 15ec422b59cfb19e63acb0c8b2768792d0e4387dc3200db720ec9c0d8d00f67b
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: c32838d282d6f5fff5eb1e85c36d78eee8828d41
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849528"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234568"
 ---
 # <a name="overview"></a>概觀
 
@@ -34,9 +34,9 @@ ms.locfileid: "57849528"
 
 - First Hello – 來電者與受話者所說出的第一個字。 必須做出一切努力，確保從端點傳送的第一個封包在大部分使用方式下都能夠可靠地傳遞。
 
-- Forking – 如果受叫者可在多個裝置上 (例如，Teams 使用者可能會針對 Windows 和 Teams for Android 或 iPhone) 登錄 Teams，則來電者所提供的優惠可能會傳送到多個受叫者端點。
+- Forking – 如果受叫者可在多個裝置上 (例如，Teams 使用者可能會針對 Teams Windows 和 Teams for Android 或 iPhone) ，將來電者的優惠傳送至多個受叫者端點。
 
-- 暫 (183) – 呼叫者端點可傳送答案，以加快通話設定速度，並傳送要建立媒體流程所需的候選項和按鍵。 這是在預期使用者可能從該特定受電話 (200OK) 接聽來電時所完成。 使用點名時，來電者應該可以接收多個臨時答案。
+- 暫 (183) – 呼叫者端點可傳送答案，以建立媒體流程所需的候選項和按鍵來設定通話。 這是在預期使用者可能從該特定受電話 (200OK) 接聽來電時所完成。 使用點名時，來電者應該可以接收多個臨時答案。
 
 - Re-Invite – 由 ICE 控制端點選取最終候選人的優惠。 這會有 a=remote-candidate 屬性，以解決處理多個分叉時的任何競賽條件。
 
@@ -71,7 +71,7 @@ ICE 完整實現端點一直是控制端點，並遵循 「一般」的提名，
 
 #### <a name="converging-for-forking"></a>針對點點進行匯合
 
-如果從 SBC 分叉到多個Teams，Teams端點可能會以暫時答案回應，並開始進行連接檢查。 SBC 必須準備好接收連接檢查，並回應來自多個對等端點的連接檢查。 例如，Teams使用者可以同時在桌面和行動電話上登錄。 這兩個裝置都會收到來電通知，並嘗試與 SBC 進行連接檢查。
+如果從 SBC 分叉到多個Teams，Teams端點可能會以暫時答案回應，並啟動連接檢查。 SBC 必須準備好接收連接檢查，並回應來自多個對等端點的連接檢查。 例如，Teams使用者可以同時在桌面和行動電話上登錄。 這兩個裝置都會收到來電通知，並嘗試與 SBC 進行連接檢查。
 
 最終只有其中一個端點會接聽 (200OK) 。 收到 200OK 後，SBC 可以設定處理媒體封包的合適上下文。
 
@@ -95,9 +95,9 @@ SBC 必須回應從完整 ICE 端點收到的所有有效連接檢查要求。 �
 
 ### <a name="outbound-call-to-sbc"></a>到 SBC 的外發通話
 
-Teams端點是此案例的來電者，且會為控制端點。 收到暫定答案 (183) 或最終答案 (200OK) 時，Teams 端點會啟動連接檢查，然後繼續進行「一般」的提名，以完成連接檢查。
+Teams端點是此案例的來電者，且會為控制端點。 收到暫定答案 (183) 或 200OK (200OK) 時，Teams 端點會開始進行連接檢查，然後繼續進行「一般」的提名，以完成連接檢查。
 
-注意：如果 SBC 傳送暫定答案 (183) ，SBC 必須準備好接收連接檢查要求，並有可能在 SBC 傳送 200OK 之前完成提名。 如果在收到 200OK 之前已完成檢查和/或提名，則收到 200OK 之後，將不會再次執行檢查和/或提名。 SBC 不得變更 ICE 候選者、密碼和 ufrag (介於 183) 200 之間的使用者名稱片段。
+注意：如果 SBC 傳送暫定答案 (183) ，SBC 必須準備好接收連接檢查要求，並有可能完成提名，然後 SBC 才能傳送 200OK。 如果在收到 200OK 之前已完成檢查和/或提名，則收到 200OK 之後，將不會再次執行檢查和/或提名。 SBC 不得變更 ICE 候選者、密碼和 ufrag (介於 183) 200 之間的使用者名稱片段。
 
 為了支援早期媒體，SBC 可能會開始串流媒體至對等 ICE 候選者，最高優先順序會根據收到的連接檢查來決定，甚至在由 Teams 完成之前。 SBC 應預期媒體Teams任何候選人，直到完成提名為止。 一旦候選人被提名，SBC 必須重設至正確的上下文，以傳送和接收媒體封包。
 
@@ -125,7 +125,7 @@ MKI 和 Length 參數是不需要的。
 
 - 如果忽略非媒體，即使用戶端僅支援 DTLS，媒體處理器也會轉換成 SDES。
 
-- 在媒體旁路時，如果用戶端是 DTLS (未來的 Google Chrome 狀態) ，則直接路由會將 MP 插入路徑中，將媒體旁路的通話轉換成非媒體旁路。 在直接路由的 SBC 和媒體處理器元件之間，一直使用 SDES。
+- 如果媒體旁路，如果用戶端是 DTLS (未來的 Google Chrome 狀態) ，則直接路由會將 MP 插入路徑中，將媒體旁路的通話轉換成非媒體旁路。 在直接路由的 SBC 和媒體處理器元件之間，一直使用 SDES。
 
 目前，沒有任何用戶端Teams只提供 DTLS;不過，Google 已宣佈在一段時間停止支援 SDES。
 
@@ -153,7 +153,7 @@ a=rtcp-mux
 
 ```
 
-## <a name="format-for-offer-from-teams-to-sbc"></a>從 sBC Teams優惠的格式 
+## <a name="format-for-offer-from-teams-to-sbc"></a>優惠格式從 Teams到 SBC 
 
 ### <a name="format-for-sdes-only-offer-to-sbc"></a>SDES 格式僅適用于 SBC
 

@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
-description: 瞭解如何在 Teams 中管理一般Teams。
-ms.openlocfilehash: aaeabbb61879e9e96c6b887a90fb3814fd7a3c4f3462d5e4f943a58b5dfacc56
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: 瞭解如何在 Teams 中管理一般會議Teams。
+ms.openlocfilehash: 944f909dcbc3e1eb0592a73ad299358294958721
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850294"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235208"
 ---
 # <a name="meeting-policy-settings---general"></a>會議原則設定 - 一般
 
@@ -53,7 +53,7 @@ ms.locfileid: "57850294"
 
 ![顯示能夠排程新會議的螢幕擷取畫面](media/meeting-policies-outlook-add-in.png)
 
-如果您關閉此功能，當使用者在 Teams中建立新會議時，就無法排程會議Outlook。 例如，在 Windows 上的 Outlook 中，[新增 Teams 會議 **]** 選項不會在功能區中顯示。
+如果您關閉此功能，當使用者在 Teams 中建立新會議時，就無法排程Outlook。 例如，在 Windows 上的 Outlook 中，[新增 Teams 會議 **]** 選項不會在功能區中顯示。
 
 ## <a name="allow-channel-meeting-scheduling"></a>允許頻道會議排程
 
@@ -96,7 +96,7 @@ ms.locfileid: "57850294"
 
 這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在 Teams 中排程私人會議。 當會議未發佈到小組中的頻道時，會議是私人的。
 
-請注意，如果您 **關閉允許排** 程私人會議和允許頻道會議排程，系統即會針對 Teams 中的使用者停用新增必要的出席者及新增Teams。  此設定預設會開啟。
+請注意，如果您 **關閉允許排** 程私人會議和允許頻道會議排程，系統會針對使用者停用新增必要的出席者及新增Teams。  此設定預設會開啟。
 
 ## <a name="allow-meet-now-in-private-meetings"></a>允許在私人會議中立即開會
 

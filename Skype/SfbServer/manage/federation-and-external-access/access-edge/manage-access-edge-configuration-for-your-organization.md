@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 部署一或多部 Edge Server 之後，您必須透過您組織支援的 Edge Server，啟用外部網域或提供者存取的類型、遠端使用者存取和匿名使用者對會議的存取。
-ms.openlocfilehash: ffad5a6ed75e5d9e0476497182bd1d1dafe65675c1fb948ca98543858846512f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 08d29371284d6e23eec3115aad71e7c82352f7e3
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333525"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234378"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>管理貴組織的 Access Edge 設定
 
@@ -53,23 +53,23 @@ ms.locfileid: "54333525"
     
     如此將傳回類似如下的資訊：
     
-        Identity                               : Global
-        AllowAnonymousUsers                    : False
-        AllowFederatedUsers                    : False
-        AllowOutsideUsers                      : True
-        BeClearingHouse                        : False
-        EnablePartnerDiscovery                 : False
-        EnableArchivingDisclaimer              : False
-        EnableUserReplicator                   : True
-        KeepCrlsUpToDateForPeers               : True
-        MarkSourceVerifiableOnOutgoingMessages : True
-        OutgoingTlsCountForFederatedPartners   : 4
-        DiscoveredPartnerStandardRate          : 20
-        EnableDiscoveredPartnerContactsLimit   : True
-        MaxContactsPerDiscoveredPartner        : 1000
-        DiscoveredPartnerReportPeriodMinutes   : 60
-        MaxAcceptedCertificatesStored          : 1000
-        MaxRejectedCertificatesStored          : 500
-        CertificatesDeletedPercentage          : 20
-        RoutingMethod                          : UseDnsSrvRouting
+    身分識別：全域<br/>
+    AllowAnonymousUsers： False<br/>
+    AllowFederatedUsers： False<br/>
+    AllowOutsideUsers： True<br/>
+    BeClearingHouse： False<br/>
+    EnablePartnerDiscovery： False<br/>
+    EnableArchivingDisclaimer： False<br/>
+    EnableUserReplicator： True<br/>
+    KeepCrlsUpToDateForPeers： True<br/>
+    MarkSourceVerifiableOnOutgoingMessages： True<br/>
+    OutgoingTlsCountForFederatedPartners：4<br/>
+    DiscoveredPartnerStandardRate：20<br/>
+    EnableDiscoveredPartnerContactsLimit： True<br/>
+    MaxContactsPerDiscoveredPartner：1000<br/>
+    DiscoveredPartnerReportPeriodMinutes：60<br/>
+    MaxAcceptedCertificatesStored：1000<br/>
+    MaxRejectedCertificatesStored：500<br/>
+    CertificatesDeletedPercentage：20<br/>
+    RoutingMethod： UseDnsSrvRouting<br/>
 

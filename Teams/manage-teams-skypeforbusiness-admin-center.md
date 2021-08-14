@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: ef613b992f11ca8ab53ed03292480021c554661c701efc60e5eaa2e9f0206f76
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 83066f98eac9efd22558848b8ae12a06ff1e5d5b
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850108"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235308"
 ---
 # <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在轉換至新 Microsoft Teams 系統管理中心期間管理 Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "57850108"
 
 ![系統管理中心Microsoft Teams螢幕擷取畫面。](media/manage-teams-skype-for-business-admin-center-portal.png)
 
-## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>設定新系統管理Microsoft Teams中心
+## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>設定移至新的系統管理Microsoft Teams中心
 
 下表識別已移Teams體驗的區段，並顯示新系統管理入口網站中目前設定與策略之間的關係。
 
@@ -77,7 +77,7 @@ ms.locfileid: "57850108"
 |訊息中心     |允許使用者刪除自己的郵件         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
 |訊息中心     |允許使用者私下聊天         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
 
-<sup>1</sup> 來賓已棄用。 現在可以在系統管理中心管理啟用/停用來賓Microsoft Teams管理。 啟用/停用商務Teams、Enterprise、Edu Student 和 Edu 教職員的商務用軟體即將被停用。 這應該會以指派授權的方式管理Microsoft 365 系統管理中心。 請參閱[管理使用者對 Microsoft Teams](user-access.md)的存取權。
+<sup>1</sup> 來賓已棄用。 現在可以在系統管理中心管理啟用/停用來賓Microsoft Teams管理。 啟用/停用商務Teams、Enterprise、Edu Student 和 Edu 教職員的商務用軟體即將被停用。 這應該會以指派授權的方式Microsoft 365 系統管理中心。 請參閱[管理使用者對 Microsoft Teams](user-access.md)的存取權。
 <br><br>
 <sup>2</sup> Sideloading 分割方式如下：
 
@@ -87,11 +87,11 @@ ms.locfileid: "57850108"
 <sup>3</sup> 在 TeamsAppPermissionPolicy 的使用者層級，可以啟用和停用預設應用程式和外部應用程式。 此外，您可以在整個組織的應用程式設定中，在租使用者層級封鎖應用程式，以取代任何使用者和租使用者層級設定。
 
 > [!NOTE]
-> 您會繼續使用群組儀表板Microsoft 365 系統管理中心與頻道和頻道Teams相關。 設定應用程式清單會保留在 Teams的 Microsoft 365 系統管理中心區域，稍後將會移移。
+> 您會繼續使用群組儀表板Microsoft 365 系統管理中心組和Teams相關的組。 設定應用程式將會保留在 Teams 的 Microsoft 365 系統管理中心 區域，並稍後移移。
 
 ## <a name="manage-settings-during-the-migration"></a>在移移期間管理設定
 
-您可以繼續修改系統管理Microsoft 365 系統管理中心系統管理商務用 Skype中的設定，直到您的租使用者完成節的移移。
+您可以繼續修改系統管理中心Microsoft 365 系統管理中心系統管理商務用 Skype，直到您的租使用者完成區段的移移。
 
 下表顯示您可以在移移期間管理功能的地方。
 
@@ -114,4 +114,4 @@ ms.locfileid: "57850108"
 
 ## <a name="manage-settings-after-the-migration"></a>移移之後管理設定
 
-這些設定移移完成後，我們將在 Microsoft 365 系統管理中心 和 商務用 Skype 系統管理中心停用這些設定，然後可以在新的系統管理中心Microsoft Teams管理。
+這些設定移移完成後，我們會于 Microsoft 365 系統管理中心 和 商務用 Skype 系統管理中心停用這些設定，然後可以在新的系統管理中心Microsoft Teams管理。

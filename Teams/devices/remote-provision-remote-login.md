@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Android 裝置上遠端Teams和登錄
-ms.openlocfilehash: b0c2658bac556febb9a4289fc5053c38feec32c343901ee679a744641f9f1144
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4bfc7485ae208a31c59051811d9271323fbf798e
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337971"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235378"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>在 Android 裝置上遠端Teams和登錄
 
@@ -43,6 +43,8 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 |Teams手機|  Poly Trio C60|  7.0.2.1071|
 |Teams手機|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams手機|  音訊代碼 C448HD/C450HD/C470HD|   1.10.120|
+|Teams面板|  Cresron 770/1070|  1.004.0115|
+
 
 ## <a name="add-a-device-mac-address"></a>新增裝置 MAC 位址
 
@@ -50,7 +52,7 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 1. 登入 Teams 系統管理中心。
 2. 展開 **裝置**。
-3. 從 **動作選項卡中選取** 置 **備新** 裝置。
+3. 從 **動作選項卡選取** 置 **備新** 裝置。
 
 在安裝 **新裝置** 視窗中，您可以手動新增 MAC 位址或上傳檔案。
 
@@ -58,7 +60,7 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 1. 從等待 **啟用的** 選項卡中，選取 **新增 MAC 識別碼**。
 
-   ![手動新增裝置 mac 位址](../media/remote-provision-6.png)
+   ![手動新增裝置 Mac 位址](../media/remote-provision-6.png)
 
 1. 輸入 MAC 識別碼。
 1. 輸入位置，協助技術人員識別安裝裝置的位置。
@@ -84,7 +86,7 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 當裝置已電源開啟並連接至網路時，技術人員會配置裝置。 這些步驟在裝置上Teams完成。
 
-1. 技術人員 **會從裝置** 上選取 **設定。**  
+1. 技術人員會從裝置 **上** 選取 **設定。**  
 
    ![從動作選項卡中置備新裝置選項](../media/provision-device1.png)
   
@@ -98,13 +100,13 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 ## <a name="sign-in-remotely"></a>遠端登入
 
-已置備的裝置會出現在等待 **登錄的選項卡** 中。選取個別裝置以啟動遠端登入程式。
+已置備的裝置會顯示在等待 **登錄的選項卡** 中。選取個別裝置以啟動遠端登入程式。
 
 1. 從等待登錄的 **選項卡中選取** 裝置。
 
-   ![已準備要登錄之裝置清單的視窗。](../media/remote-device1.png)
+   ![已準備好要登錄之裝置清單的視窗。](../media/remote-device1.png)
 
-2. 請遵循使用者 **登錄中的指示，** 然後選取 **關閉**。
+2. 請遵循使用者登錄 **中的指示，** 然後選取 **關閉**。
 
    ![個別裝置的使用者視窗](../media/sign-in-user.png)
 

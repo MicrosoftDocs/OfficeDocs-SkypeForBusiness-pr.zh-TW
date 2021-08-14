@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何使用直接路由規劃媒體電話系統，這可讓您縮短媒體流量的路徑，並改善績效。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6806af0889f3667e85cc49856e605bbe0334d1be3ea3601a844a3b9f568e7619
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: cc499d779af2e5eea765e9cf858b170241095e82
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848938"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234778"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>媒體旁路搭配直接路由方案
 
@@ -34,7 +34,7 @@ ms.locfileid: "57848938"
 
 下圖說明通話流程與媒體旁路和無媒體旁路的差異。
 
-若沒有媒體旁路，當用戶端撥打或接收來電時，SBC、Microsoft 電話 System 和 Teams 用戶端之間的訊號和媒體流程，如下圖所示：
+若沒有媒體旁路，當用戶端撥打或接收通話時，SBC、Microsoft 電話 System 和 Teams 用戶端之間的訊號和媒體流程，如下圖所示：
 
 > [!div class="mx-imgBorder"]
 > ![顯示沒有媒體旁路的訊號和媒體流程](media/direct-routing-media-bypass-1.png)
@@ -42,7 +42,7 @@ ms.locfileid: "57848938"
 
 但假設使用者與 SBC 位於同一棟大樓或網路中。 例如，假設一位位於德國慕尼克大樓的使用者打電話給 PSTN 使用者： 
 
-- **若沒有媒體旁** 路，媒體會透過 (，將 Microsoft 資料中心部署至) ，然後回到位於德國的 SBC。 
+- **若沒有媒體** 旁路，媒體會透過 (或布建 Microsoft 資料中心的) ，並回到位於德國的 SBC。 
 
   已選取歐洲資料中心，因為 SBC 位於歐洲，而 Microsoft 會使用最接近 SBC 的資料中心。 雖然這個方法不會因為 Microsoft 網路內部流量優化而影響通話品質，但流量有不必要的回路。     
 
@@ -51,7 +51,7 @@ ms.locfileid: "57848938"
   > [!div class="mx-imgBorder"]
   > ![使用媒體旁路顯示訊號和媒體流程](media/direct-routing-media-bypass-2.png)
 
-媒體旁路會利用稱為互動式 (建立) 的通訊協定Teams用戶端和 SBC 上的 ICE lite。 這些通訊協定可讓直接路由使用最直接的媒體路徑，以獲得最佳品質。 ICE 和 ICE Lite 是 WebRTC 標準。 有關這些通訊協定的詳細資訊，請參閱 RFC 5245。
+媒體旁路會利用 SBC 上 (的 ICE) 協定Teams ICE lite。 這些通訊協定可讓直接路由使用最直接的媒體路徑，以獲得最佳品質。 ICE 和 ICE Lite 是 WebRTC 標準。 有關這些通訊協定的詳細資訊，請參閱 RFC 5245。
 
 
 ## <a name="call-flow-and-firewall-planning"></a>通話流程與防火牆規劃
@@ -62,7 +62,7 @@ ms.locfileid: "57848938"
 
 如果使用者能直接存取 SBC 的公用 IP 位址，則通話流程如下所示：
 
-- 對於媒體旁Teams，用戶端必須能存取 SBC 的公用 IP 位址，即使從內部網路也一樣。 如果不需要直接媒體，媒體可以透過傳輸轉場流程。
+- 對於媒體旁Teams，即使來自內部網路，用戶端也必須能夠存取 SBC 的公用 IP 位址。 如果不需要直接媒體，媒體可以透過傳輸轉場流程。
 
 - 當使用者與 SBC 位於同一棟大樓和/或網路中時，建議使用這個解決方案：從媒體路徑移除 Microsoft Cloud 元件。
 
@@ -72,7 +72,7 @@ ms.locfileid: "57848938"
 
 - 路徑的箭號和數值與通話Microsoft Teams[一樣](./microsoft-teams-online-call-flows.md)。
 
-- SIP 訊號一直採用 4' 和 4' (視流量方向) 。 媒體保持為本地，並採用路徑 5b。
+- SIP 訊號一直採用 4' 和 4' 路徑 (視流量方向) 。 媒體保持為本地，並採用路徑 5b。
 
 > [!div class="mx-imgBorder"]
 > ![顯示已啟用媒體旁通的通話流程，用戶端為內部](media/direct-routing-media-bypass-3.png)
@@ -104,11 +104,11 @@ ms.locfileid: "57848938"
 > [!NOTE]
 > 這不是建議的配置，因為它不會利用傳輸轉Teams的優點。 相反地，您應該考慮使用者無法存取 SBC 公用 IP 位址的上一個案例。 
 
-下圖顯示啟用媒體旁路時通話流程、用戶端為外部，且用戶端可以到達 SBC (媒體) 。
+下圖顯示啟用媒體旁路時通話流程、用戶端為外部，且用戶端可以到達 SBC (媒體的公用 IP 位址) 。
 
-- 路徑的箭號和數值與通話流程Microsoft Teams[一](./microsoft-teams-online-call-flows.md)樣。
+- 路徑的箭號和數值與通話流程Microsoft Teams[一樣](./microsoft-teams-online-call-flows.md)。
 
-- SIP 訊號一定採用路徑 3' 和 3' (視流量方向) 。 使用路徑 2 的媒體流程。
+- SIP 訊號一直採用路徑 3 和 3' (視流量方向) 。 使用路徑 2 的媒體流程。
 
 > [!div class="mx-imgBorder"]
 > ![如果使用者無法存取 SBC 的公用 IP，則顯示通話流程](media/direct-routing-media-bypass-5.png)
@@ -131,9 +131,9 @@ Microsoft Cloud 中的兩個元件可能位在媒體流量路徑中：媒體處�
 > [!NOTE]
 > 圖表只會說明來自使用者或目的地使用者的流量。  
 
-- 媒體控制器是 Azure 中的微服務，可指派媒體處理器，並建立 SDP (會話) 通訊協定。
+- 媒體控制器是 Azure 中的一項微服務，可指派媒體處理器，並建立 SDP (會話) 通訊協定。
 
-- SIP Proxy 是一個元件，將用於 SIP 的 HTTP REST Teams轉換為 SIP。    
+- SIP Proxy 是一個元件，可轉換用於 SIP 的 HTTP REST Teams SIP。    
 
 > [!div class="mx-imgBorder"]
 > ![顯示已啟用和停用媒體旁路的通話流程](media/direct-routing-media-bypass-6.png)
@@ -174,7 +174,7 @@ Teams媒體處理器一直在下列情況下插入媒體路徑中：
 
 針對 SIP 訊號，FQDN 和防火牆需求與非旁路案例相同。 
 
-直接路由提供于下列Microsoft 365或Office 365環境：
+直接路由提供于下列Microsoft 365或Office 365環境中：
 - Microsoft 365或Office 365
 - Office 365 GCC
 - Office 365 GCC高
@@ -188,7 +188,7 @@ Teams媒體處理器一直在下列情況下插入媒體路徑中：
 
 - **sip2.pstnhub.microsoft.com** – 次要 FQDN – 地理上會繪製至第二個優先順序區域。
 
-- **sip3.pstnhub.microsoft.com** – 三級 FQDN – 地理上會與第三個優先順序區域進行地圖。
+- **sip3.pstnhub.microsoft.com** - 三級 FQDN – 地理上會與第三個優先順序區域進行地圖。
 
 您必須放置這三個 FQDNs，才能：
 
@@ -197,7 +197,7 @@ Teams媒體處理器一直在下列情況下插入媒體路徑中：
 - 當從 SBC 建立到發生暫時問題的資料中心的連接時，提供容錯移轉。 詳細資訊，請參閱下方的容錯移轉機制。
 
 
-FQDNs **sip.pstnhub.microsoft.com** **、sip2.pstnhub.microsoft.com** 和 sip3.pstnhub.microsoft.com 會從下列子網解析為 IP 位址：
+FQDNs  **sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com** 和sip3.pstnhub.microsoft.com 會從下列子網解析為 IP 位址：
 - 52.112.0.0/14
 - 52.120.0.0/14
 
@@ -219,7 +219,7 @@ FQDN sip.pstnhub.dod.teams.microsoft.us 會從下列子網解析為 IP 位址：
 
 直接路由的連接點為下列 FQDN：
 
-**sip.pstnhub.gov.teams.microsoft.us** - 全域 FQDN。 由於GCC高環境僅存在於美國資料中心，因此沒有次要和三級 FQDNs。
+**sip.pstnhub.gov.teams.microsoft.us** – 全域 FQDN。 由於GCC高環境僅存在於美國資料中心，因此沒有次要和三級 FQDNs。
 
 FQDN sip.pstnhub.gov.teams.microsoft.us 會從下列子網解析為 IP 位址：
 
@@ -245,11 +245,11 @@ SIP/TLS| SIP Proxy | Sbc | 1024 - 65535 | 在 SBC 上定義 |
 
 ## <a name="media-traffic-ip-and-port-ranges"></a>媒體流量：IP 和埠範圍
 
-媒體流量在 SBC 和 Teams用戶端之間流動，如果用戶端無法使用公用 IP 位址Teams則透過 Teams 傳輸轉場。
+媒體流量會從 SBC Teams用戶端之間流動，如果有直接連接可用，或透過 Teams 傳輸轉場，如果用戶端無法使用公用 IP 位址到達 SBC。
 
 ### <a name="requirements-for-direct-media-traffic-between-the-teams-client-and-the-sbc"></a>用戶端與 SBC (之間Teams媒體流量的需求)  
 
-用戶端必須能夠存取指定的埠 (請參閱) SBC 公用 IP 位址上的資料表。 
+用戶端必須能存取指定的埠 (請參閱) SBC 公用 IP 位址上的資料表。 
 
 > [!NOTE]
 > 如果用戶端位於內部網路中，媒體會流向 SBC 的公用 IP 位址。 您可以在 NAT 裝置上設定發釘，讓流量永遠不會離開商業網路設備。
@@ -265,7 +265,7 @@ UDP/SRTP | 用戶端 | Sbc | 3478-3481 和 49152 – 53247| 在 SBC 上定義 |
 
 ### <a name="requirements-for-using-transport-relays"></a>使用傳輸轉場的需求
 
-傳輸轉場與媒體處理器的範圍相同 (非旁路情況下) ： 
+傳輸轉場與媒體處理器在非 (情況下的傳輸) ： 
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365及Office 365 GCC環境
 
@@ -280,7 +280,7 @@ UDP/SRTP | 用戶端 | Sbc | 3478-3481 和 49152 – 53247| 在 SBC 上定義 |
 - 52.127.88.0/21
 
 
-適用于所有Teams傳輸轉 (的埠範圍) 如下表所示：
+適用于所有Teams傳輸轉 (的埠) 如下表所示：
 
 
 | 交通 | 從 | 自 | 來源埠 | 目的地埠|
@@ -302,12 +302,12 @@ UDP/SRTP | 傳輸轉場 | Sbc | 50 000 -59 999    | 在 SBC 上定義 |
 
 ### <a name="requirements-for-using-media-processors"></a>使用媒體處理器的需求
 
-媒體處理器一直位於語音應用程式和 Web 用戶端的媒體路徑中，例如 (Edge 或 Google Chrome Teams用戶端) 。 需求與非旁路組組相同。
+媒體處理器一直位於語音應用程式和 Web 用戶端的媒體路徑 (例如 Edge 或 Google Chrome Teams用戶端) 。 需求與非旁路組組相同。
 
 
 媒體流量的 IP 範圍為 
 
-### <a name="office-365-and-office-365-gcc-environments"></a>Office 365和Office 365 GCC環境
+### <a name="office-365-and-office-365-gcc-environments"></a>Office 365 Office 365 GCC環境
 
 - 52.112.0.0 /14 (IP 位址從 52.112.0.1 到 52.115.255.254) 
 
@@ -365,7 +365,7 @@ UDP/SRTP | 媒體處理器 | Sbc | 3478-3481 和 49 152 – 53 247    | 在 SBC 
 
 所有獨立電腦用戶端、Android 和 iOS 用戶端Teams裝置都支援媒體Teams 電話旁路。 
 
-對於不支援媒體旁路的所有其他端點，我們會將通話轉換為非旁路，即使它以旁路通話開始。 這會自動發生，而且不需要系統管理員執行任何動作。 這包括 商務用 Skype 3PIP 電話，以及 Teams支援在 Microsoft Edge、Google Chrome、Mozilla Firefox) 上直接路由通話 (WebRTC 用戶端的 (Web 用戶端。 
+對於不支援媒體旁路的所有其他端點，我們會將通話轉換為非旁路，即使它以旁路通話開始。 這會自動發生，而且不需要系統管理員執行任何動作。 這包括 商務用 Skype 3PIP 電話和 Teams Web 用戶端，支援在 Microsoft Edge、Google Chrome、Mozilla Firefox) 上直接路由通話 (WebRTC 用戶端。 
  
 ## <a name="see-also"></a>另請參閱
 

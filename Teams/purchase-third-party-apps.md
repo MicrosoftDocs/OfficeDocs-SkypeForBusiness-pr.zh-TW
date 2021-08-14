@@ -16,12 +16,12 @@ description: 瞭解如何在系統管理中心Teams第三Microsoft Teams應用�
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-ms.openlocfilehash: 5fa6c57b009ce7a7d6fef7ce1dd353ae32521a690fda254e469159cf0661dcd0
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: c87b81fecd1e6624f8c36b1eebbe74a79994b7db
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849674"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235188"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>購買協力廠商應用程式Teams
 
@@ -38,7 +38,7 @@ Teams應用程式可免費安裝，有些應用程式可能需要購買服務訂
 
 ## <a name="search-for-and-purchase-services-for-a-third-party-app"></a>搜尋及購買協力廠商應用程式的服務
 
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。 您必須是全域系統管理員Teams服務系統管理員才能存取頁面。
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。 您必須是全域系統管理員或Teams系統管理員才能存取頁面。
 2. 搜尋您想要的應用程式。 若要識別擁有付費 SaaS 訂閱的應用程式，請查看授權 **欄** 。 每個應用程式都會有下列其中一個值：
     - **現在購買**：應用程式提供 SaaS 訂閱，可供購買。  
     - **已** 購買：應用程式提供 SaaS 訂閱，而且您已購買其授權。
@@ -70,5 +70,5 @@ Teams應用程式可免費安裝，有些應用程式可能需要購買服務訂
 
 ## <a name="related-topics"></a>相關主題
 
-- [在系統管理中心Microsoft Teams您的應用程式](manage-apps.md)
+- [在系統管理中心管理Microsoft Teams應用程式](manage-apps.md)
 - [建立 SaaS 優惠](/azure/marketplace/partner-center-portal/create-new-saas-offer)

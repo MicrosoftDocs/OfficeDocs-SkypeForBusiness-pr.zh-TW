@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: '商務用 Skype Server 提供基本的會話管理，其支援主幹間路由。 '
-ms.openlocfilehash: 917f6bb1eb114202f06e1f1d2be0c7c126f42d8cf1614c2a05dcce0dde6bb9a6
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 694fc707711ae804bade0935e0fb9f34e89dbb93
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850168"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234368"
 ---
 # <a name="skype-for-business-server-inter-trunk-routing"></a>商務用 Skype Server：主幹間路由
 

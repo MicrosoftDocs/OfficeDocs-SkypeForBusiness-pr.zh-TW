@@ -1,5 +1,5 @@
 ---
-title: 管理商務用 Skype Server 中的註冊器設定設定
+title: 管理商務用 Skype Server 中的註冊器設定
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 摘要：管理商務用 Skype Server 的註冊機設定設定。
-ms.openlocfilehash: a1cd1048ea37a249126ec892560312a482459d44
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: c4dfe9ab3fb8694cf17ef7e4da18d0e8add8b80aabc074bce404947864bd68f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119572"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54336863"
 ---
-# <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>管理商務用 Skype Server 中的註冊器設定設定
+# <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>管理商務用 Skype Server 中的註冊器設定
  
 **摘要：** 管理商務用 Skype Server 的註冊機設定設定。
   
@@ -30,18 +30,18 @@ ms.locfileid: "51119572"
     
 - **NTLM** 這是以密碼為基礎的驗證，可供在密碼上使用挑戰回應雜湊配置的用戶端使用。 這是唯一可供用戶端使用的驗證表單，但不連接到金鑰發佈中心 (Kerberos 網域控制站) （例如遠端使用者）。 如果伺服器只驗證遠端使用者，您應該選擇 [NTLM]。
     
-- **憑證驗證** 當伺服器需要從 Lync Phone Edition 用戶端、公共區域電話、商務用 Skype 和 Lync Windows Store 應用程式取得憑證時，這是一種新的驗證方法。 在 Lync Phone Edition 用戶端上，使用者登入並透過提供個人識別碼 (PIN) 來成功驗證之後，商務用 Skype 伺服器便會將 SIP URI 布建到電話，並布建商務用 Skype Server 簽署憑證，或是識別 Joe (Ex： SN=joe@contoso.com ) 至電話的使用者憑證。 此憑證用來驗證註冊機構和 Web 服務。
+- **憑證驗證** 當伺服器需要從 lync 電話 Edition 用戶端、公共區域電話、商務用 Skype 和 Lync Windows Store 應用程式取得憑證時，這是一種新的驗證方法。 在 Lync 電話 Edition 用戶端上，使用者登入並透過提供個人識別碼 (PIN) 來成功驗證之後，商務用 Skype Server 接著將 SIP URI 布建到電話，然後布建商務用 Skype Server 簽署憑證或識別 Joe (Ex： SN=joe@contoso.com ) 到電話的使用者憑證。 此憑證用來驗證註冊機構和 Web 服務。
     
 > [!NOTE]
 > 當伺服器同時支援遠端和企業用戶端的驗證時，建議您啟用 Kerberos 和 NTLM。 Edge Server 和內部伺服器會進行通訊，以確保只會向遠端用戶端提供 NTLM 驗證。 如果這些伺服器上只啟用 Kerberos，則無法驗證遠端使用者。 如果企業使用者也會驗證服務器，則會使用 Kerberos。 
   
-如果您要使用 Lync Windows Store 應用程式用戶端，則必須啟用憑證驗證。
+如果您將使用 Lync Windows Store 應用程式用戶端，則必須啟用憑證驗證。
   
 ### <a name="to-create-new-registrar-configuration-settings"></a>若要建立新的註冊機配置設定
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。  
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。  
     
 3. 在左導覽列中，按一下 [ **安全性** ]，然後按一下 [ **註冊**]。
     
@@ -72,7 +72,7 @@ ms.locfileid: "51119572"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。  
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。  
     
 3. 在左導覽列中，按一下 [ **安全性** ]，然後按一下 [ **註冊**]。
     
@@ -92,7 +92,7 @@ ms.locfileid: "51119572"
 
 1. 從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中，按一下 [ **安全性** ]，然後按一下 [ **註冊**]。
     
@@ -100,11 +100,11 @@ ms.locfileid: "51119572"
     
 5. 在清單中，按一下您想要的註冊機構，按一下 [ **編輯**]，然後按一下 [ **刪除**]。
     
-6. 按一下 **[確定]**。
+6. 按一下 ****[確定]。
     
 ## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 移除註冊機設定設定
 
-您可以使用 Windows PowerShell 和 **set-csproxyconfiguration** Cmdlet 來刪除註冊機設定設定。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端工作階段執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線到商務用 Skype 伺服器的詳細資訊，請參閱博客文章 [：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。 商務用 Skype Server 中的程式相同。
+您可以使用 Windows PowerShell 和 **set-csproxyconfiguration** Cmdlet 來刪除註冊機設定設定。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端工作階段執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線到商務用 Skype Server 的詳細資訊，請參閱博客文章[：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。 商務用 Skype Server 中的程式相同。
   
 ### <a name="to-remove-a-specific-set-of-registrar-security-settings"></a>移除一組特定的註冊機構安全性設定
 

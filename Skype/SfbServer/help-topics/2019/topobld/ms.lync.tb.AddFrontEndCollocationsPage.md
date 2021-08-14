@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 以 Enterprise Edition 部署而言，音訊/視訊會議服務是在前端集區上組合。您也可以在前端集區上組合中繼伺服器，或將其部署為獨立伺服器。如果啟用會議，則一律會組合音訊/視訊會議服務。
-ms.openlocfilehash: f4513d8545b9dcbf55b702d3002547fefead8a78
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5ee77ad297e0313355dd5546f37c0345076d0e316e14b635824e42c9f3d32dd1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122644"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328548"
 ---
 # <a name="add-front-end-server-collocations"></a>新增前端伺服器組合
 
@@ -37,4 +37,4 @@ ms.locfileid: "51122644"
 
 您可以使用規劃工具來評估您想要組合轉送伺服器的前端集區是否可以處理負載。 如果環境無法符合這些需求，則您必須部署獨立的中繼伺服器集區。
 
-一般而言，如果組織具有高可用性和延展性需求，則不建議組合中繼伺服器。 如需在 Enterprise Edition 部署中的前端集區中組合這些伺服器角色的詳細資訊，請參閱部署文件中的＜[Define and Configure a Front End Pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)＞。 如需 A/V 會議功能和元件的詳細資訊，請參閱規劃文件中的＜[Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing)＞。 如需有關 Enterprise Voice 功能和元件（包括轉送伺服器）的詳細資訊，請參閱規劃檔中的在 [商務用 Skype Server 中規劃 Enterprise Voice](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) 。
+一般而言，如果組織具有高可用性和延展性需求，則不建議組合中繼伺服器。 如需在 Enterprise Edition 部署中的前端集區中組合這些伺服器角色的詳細資訊，請參閱部署文件中的＜[Define and Configure a Front End Pool](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)＞。 如需 A/V 會議功能和元件的詳細資訊，請參閱規劃文件中的＜[Planning for Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-conferencing)＞。 如需企業語音功能和元件（包括轉送伺服器）的詳細資訊，請參閱規劃檔中的商務用 Skype Server 中的[企業語音](../../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)。

@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中設定具有媒體旁路的主幹
+title: 商務用 Skype Server-設定含媒體旁路的主幹
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: '請遵循下列步驟，設定啟用媒體旁路的主幹。 '
-ms.openlocfilehash: 861a57c50aa7092bf654fb626d4f1e94e3b3449539d33ead72b4925f8b102f4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 如何使用啟用媒體旁路設定主幹。 "
+ms.openlocfilehash: 72d0e4b3197fab76c0ac2963f3b1517e812862e9
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349245"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233978"
 ---
-# <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>在商務用 Skype Server 中設定具有媒體旁路的主幹
+# <a name="skype-for-business-server---configure-a-trunk-with-media-bypass"></a>商務用 Skype Server-設定含媒體旁路的主幹 
 
 請遵循下列步驟，設定啟用媒體旁路的主幹。 若要設定停用媒體旁路的主幹，請參閱[在商務用 Skype Server 中設定不含媒體旁路的主幹](configure-a-trunk-without-media-bypass.md)。 當您想要將已部署的轉送伺服器數目降至最低時，媒體旁路很有用。 一般來說，轉送伺服器集區會部署在中央網站，它會控制分支網站上的閘道。 啟用媒體旁路允許公用交換電話網路的媒體 (PSTN) 來自分支網站用戶端的呼叫，以直接透過這些網站上的閘道來流向。 您必須正確設定商務用 Skype Server 撥出電話路由和企業語音原則，才能將來自分支網站之用戶端的 PSTN 呼叫路由傳送至適當的閘道。
 

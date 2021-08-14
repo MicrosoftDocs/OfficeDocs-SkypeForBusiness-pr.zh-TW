@@ -18,21 +18,21 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 使用此表格可尋找在日本取得及管理電話號碼Microsoft Teams。
-ms.openlocfilehash: 6a5922c866113523a54f55aee823c7529da3d4ac6cb45034354292524a8d9582
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+description: 使用此表格可尋找在日本取得及管理日本電話號碼Microsoft Teams。
+ms.openlocfilehash: 713897cbaf38e2e411db67e7b28358a4bd11d9d4
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849708"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234978"
 ---
 # <a name="phone-number-management-for-japan"></a>電話日本號碼管理
 
-在日本，我們已與 SoftBank 合作，為在日本有帳單位址的客戶購買及布用通話方案。 SoftBank 會銷售其通話方案、提供日本的使用者號碼，並提供電話號碼管理支援。 不過，音訊會議、自動語音機和通話佇列的服務號碼和授權，仍然會由Microsoft 365 Office 365。
+在日本，我們已與 SoftBank 合作，為在日本有帳單位址的客戶購買及布用通話方案。 SoftBank 會銷售其通話方案、提供日本的使用者號碼，並提供電話號碼管理支援。 不過，音訊會議、自動語音機和通話佇列的服務號碼和授權，仍然會由Microsoft 365和Office 365。
 
 有關 [SoftBank 通話的更多資訊](https://aka.ms/SoftBankVoicePlan)。
 
-使用此表格可尋找在日本取得及管理電話號碼Microsoft Teams。
+使用此表格可尋找在日本取得及管理日本電話號碼Microsoft Teams。
 
 詳細資訊，請參閱  [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)。
   

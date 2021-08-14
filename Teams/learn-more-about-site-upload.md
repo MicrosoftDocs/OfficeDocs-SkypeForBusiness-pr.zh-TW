@@ -22,20 +22,19 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0a617cdabba70a836327f6b2153ccecacb5d695040c99007845c79e776e478a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 20204d0c766a9ff248ff8354d9367a9903149d46
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321325"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235008"
 ---
-<a name="add-and-update-reporting-labels"></a>新增和更新報告標籤
-============================
+# <a name="add-and-update-reporting-labels"></a>新增和更新報告標籤
 
-貴組織中會使用報表標籤來表示辦公室、建築物或組織網站實際位置。 系統管理中心中的 Microsoft Teams 標籤頁面可讓您提供文字檔 (.csv 或 .tsv) ，其中包含實體位置清單及其相關聯的網路子網。 這個檔案是由通話分析用來產生報告。 當您上傳子網地圖時，這些服務所提供的報告也會包含位置名稱，讓報表更容易理解及用於補救任何潛在問題。
+貴組織中會使用報表標籤來表示辦公室、建築物或組織網站實際位置。 系統管理中心中的 Microsoft Teams 標籤頁面可讓您提供文字檔 (.csv 或 .tsv) ，其中包含實體位置及其相關聯的網路子網清單。 這個檔案是由通話分析用來產生報告。 當您上傳子網地圖時，這些服務所提供的報告也會包含位置名稱，讓報表更容易理解及用於補救任何潛在問題。
 
 > [!IMPORTANT]
-> 您上傳的報表標籤會依照您的Office 365 協定處理為支援資料，包括否則視為客戶 *資料* 或 *個人資料的任何資訊*。 請不要將您不想提供的資料納入 Microsoft 做為支援資料，因為 Microsoft 工程師會為了支援目的看到此資訊。
+> 您上傳的報表標籤會依照您Office 365，以支援資料的方式處理，包括否則視為客戶 *資料* 或 *個人資料的任何資訊*。  請不要包含您不想以支援資料提供給 Microsoft 的資料，因為Microsoft 工程師會為了支援目的看到此資訊。
 
 您提供的報表標籤和位置資料是單一的資料結構，目前沒有任何介面可供個別編輯資料。
 
@@ -43,8 +42,8 @@ ms.locfileid: "54321325"
 
 1. 在系統管理中心的左側導Microsoft Teams，按一下 **[位置**  >  **報告標籤**> 。
 2. 按一下 **[Upload資料**。
-3. 在 **[Upload** 窗格中，按一下 [選取檔案，然後流覽並上傳您編輯的檔案.csv .tsv 檔案。
-4. 按一下 **[Upload。**
+3. 在 [Upload **窗格中**，按一下 [選取檔案，然後流覽並上傳您編輯的檔案.csv .tsv 檔案。
+4. 按一下 **Upload**。
 
 您可以在這裡下載範例 [範本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true)。
 
@@ -55,10 +54,10 @@ ms.locfileid: "54321325"
 
 |網路|網路名稱|網路範圍|建築物名稱|擁有類型|建築物類型|建立Office類型|城市|郵遞區號|國家|狀態|地區|內部公司|快速路由|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0    |SVC-1|32|USCAMTV001|Contoso 租用 RE&F|Office|RE&F|山脈景觀|94043|我們|約|我們|1|1|
-|10.0.130.0    |SVC-1|32|USCAMTV001|Contoso 租用 RE&F|Office|RE&F|山脈景觀|94043|我們|約|我們|1|1|
-|10.0.131.0    |SVC-1|32|USCAMTV001|Contoso 租用 RE&F|Office|RE&F|山脈景觀|94043|我們|約|我們|1|1|
-|10.0.132.0    |SVC-1|32|USCAMTV001|Contoso 租用 RE&F|Office|RE&F|山脈景觀|94043|我們|約|我們|1|1|
+|10.0.128.0    |SVC-1|32|USCAMTV001|Contoso 租用 RE&F|Office|RE&F|山脈視圖|94043|我們|約|我們|1|1|
+|10.0.130.0    |SVC-1|32|USCAMTV001|Contoso 租用 RE&F|Office|RE&F|山脈視圖|94043|我們|約|我們|1|1|
+|10.0.131.0    |SVC-1|32|USCAMTV001|Contoso 租用 RE&F|Office|RE&F|山脈視圖|94043|我們|約|我們|1|1|
+|10.0.132.0    |SVC-1|32|USCAMTV001|Contoso 租用 RE&F|Office|RE&F|山脈視圖|94043|我們|約|我們|1|1|
 
 有關格式化資料檔案的資訊，請參閱租使用者 [資料檔案格式和建立資料檔案結構](CQD-upload-tenant-building-data.md#upload-building-data-file)。
 

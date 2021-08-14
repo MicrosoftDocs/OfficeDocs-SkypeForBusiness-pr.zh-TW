@@ -1,5 +1,5 @@
 ---
-title: 電話系統直接路由
+title: Teams電話系統直接路由：定義和 RFC 標準
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -14,15 +14,15 @@ ms.reviewer: nmurav
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 直接路由通訊協定
+description: 系統Microsoft 電話路由如何實現 RFC 標準通訊協定。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 015b07f538ad33079bbe04649849d22bfebbfb081feb30cea154cb30f9f10fd9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 26178fa52105f43ce9f7f18c0058a2ead3ef1c02
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347169"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58235338"
 ---
 # <a name="direct-routing---definitions-and-rfc-standards"></a>直接路由 - 定義和 RFC 標準
 
@@ -30,12 +30,12 @@ ms.locfileid: "54347169"
 
 客戶 SBC 會與後端的下列Microsoft Teams介面： 
 
-- **用於訊號的 SIP** Proxy。 這是直接路由的網際網路元件，可處理 SIP (TLS) SBCs 和直接路由之間的連接。
+- **用於訊號的 SIP** Proxy。 這是直接路由的網際網路元件，可處理 SIP (TLS) SBCs 與直接路由之間的連接。
 
 - **媒體的** 媒體處理器。 這是直接路由的網際網路元件，可處理媒體流量。 此元件使用 SRTP 和 SRTCP 通訊協定。
 
 
-有關直接路由詳細資訊，請參閱電話系統[路由](direct-routing-landing-page.md)。
+有關直接路由的資訊，請參閱電話系統[路由](direct-routing-landing-page.md)。
 
 有關直接路由如何實現 SIP 通訊協定之詳細資訊，請參閱直接 [路由 - SIP 通訊協定](direct-routing-protocols-sip.md)。
 
@@ -48,10 +48,10 @@ ms.locfileid: "54347169"
 下列標準適用于僅支援非媒體旁路模式的裝置：
 
 - [RFC 3261 SIP](https://tools.ietf.org/html/rfc3261)：會話初始通訊協定
-- [RFC 3325](https://www.ietf.org/rfc/rfc3325)。 受信任網路內已確認身分識別的會話初始通訊協定私人擴充功能-關於處理 P-確認-身分識別標頭的章節。 直接路由會傳送具有隱私權識別碼標頭的 P-Identity。 
+- [RFC 3325](https://www.ietf.org/rfc/rfc3325)。 會話初始通訊協定的私人擴充功能，用於信任網路內的已確認身分識別-關於處理 P-Identity 標頭的章節。 直接路由會傳送具有隱私權識別碼標頭的 P-Identity。 
 - [RFC 4244](https://www.ietf.org/rfc/rfc4244.txt) SIP 的會話初始通訊協定 (擴展) 所需的歷程記錄資訊。 另請參閱：路由 SIP 通訊協定描述以瞭解更多資訊。
 - [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt) 會話初始通訊協定Referred-By機制
-- [RFC 3891](https://www.ietf.org/rfc/rfc3891.txt) SIP 中的會話初始 (") 取代」標頭 
+- [RFC 3891](https://www.ietf.org/rfc/rfc3891.txt) SIP 中的會話初始 (「) 取代」標頭 
 - [RFC 6337](https://tools.ietf.org/html/rfc6337) 會話初始通訊 (SIP) 方案/Answer 模型的使用狀況。
   請參閱「RFC 的偏差」一節。
 - [RFC 3711](https://tools.ietf.org/html/rfc3711) 和 [RFC 4771](https://tools.ietf.org/html/rfc4771)。 使用 SRTP 保護 RTP 流量。 SBC 必須能夠使用 SDES 建立金鑰。 
@@ -63,11 +63,11 @@ ms.locfileid: "54347169"
 
 - [RFC 5245 互動式連接建立 (ICE) 媒體旁路。](https://tools.ietf.org/html/rfc5245)  SBC 必須支援下列專案：
   - ICE Lite - Teams是完整的 ICE 用戶端
-  - [ICE 會重新開機](https://tools.ietf.org/html/rfc5245#section-9.1.1.1)。 查看有關 ICE 重新開機使用案例和範例的更多資訊：媒體旁路通話轉接到不支援媒體旁路的端點   
-- [RFC RFC 5589 會話初始通訊協定 (SIP) 呼叫控制 – 傳輸](https://tools.ietf.org/html/rfc5589)。 
+  - [ICE 會重新開機](https://tools.ietf.org/html/rfc5245#section-9.1.1.1)。 在 ICE 重新開機中查看更多有關 ICE 重新開機使用案例和範例：媒體旁路通話轉接到不支援媒體旁路的端點   
+- [RFC RFC 5589 會話初始通訊協定](https://tools.ietf.org/html/rfc5589) (SIP) 呼叫控制 – 傳輸。 
 - [在會話初始通訊協定 (SIP) 中，RFC 3960 ](https://tools.ietf.org/html/rfc3960)早期媒體和鈴聲產生，請參閱第 3.1 節、Forking 和 3.2 節 ，鈴聲產生 
 - [RFC 5389 會話橫向公用程式適用于 NAT (STUN) ](https://tools.ietf.org/html/rfc5389)
-- [RFC 5766 在 NAT (TURN) 周圍使用轉接：將延伸模組轉用至 NAT (STUN) ](https://tools.ietf.org/html/rfc5766)
+- [RFC 5766 在 NAT 周圍使用轉 (轉) ：將延伸模組轉用至 NAT (STUN) ](https://tools.ietf.org/html/rfc5766)
 
 ### <a name="standards-applicable-to-support-conveying-location-information-to-e911-providers"></a>適用于支援將位置資訊傳達給 E911 提供者的標準
 
@@ -75,12 +75,12 @@ ms.locfileid: "54347169"
 
 ### <a name="deviations-from-the-rfcs"></a>與 RFC 的偏差
 
-下表列出 RFC 協定 (的) ，其中 Microsoft 的 SIP 或媒體堆疊的實現與標準有偏差：
+下表列出 RFC (的) ，其中 Microsoft 的 SIP 或媒體堆疊的實現與標準有偏差：
 
 | RFC 和節 | 描述 | 偏差 |
 | :---------------------  |:---------------------- |:-----------------------|
-| [RFC 6337，第 5.3 節媒體保留與履歷表](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC 允許使用"a=非使用中"、"a=sendonly"、a=recvonly"來保留通話。 |SIP Proxy 僅支援「a=非使用中」，且不了解 SBC 是傳送「a=sendonly」或「a=revonly」。
-| [RFC 6337，第 5.4 節「使用 c=0.0.0.0.0 接收 SDP 的行為](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) 要求代理程式能夠接收連接位址為 0.0.0.0 的 SDP，在這種情況下，這表示不應將 RTP 或 RTCP 送往對等電腦。 | SIP Proxy 不支援此選項。 |
+| [RFC 6337，第 5.3 節媒體保留與履歷表](https://tools.ietf.org/html/rfc6337#section-5.3) | RFC 允許使用"a=非使用中"、"a=sendonly"、a=recvonly"來保留通話。 |SIP Proxy 僅支援「a=非使用中」，且不了解 SBC 是傳送「a=sendonly」或「a=recvonly」。
+| [RFC 6337，第 5.4 節「使用 c=0.0.0.0.0 接收 SDP 的行為](https://tools.ietf.org/html/rfc6337#section-5.4) | [RFC3264](https://tools.ietf.org/html/rfc3264) 要求代理程式能夠接收具有 0.0.0.0.0 之連接位址的 SDP，在這種情況下，這表示不應將 RTP 或 RTCP 送往對等電腦。 | SIP Proxy 不支援此選項。 |
 
 ## <a name="operational-modes"></a>操作模式
 

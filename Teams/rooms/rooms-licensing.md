@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解在 Microsoft Teams 會議室 中提供不同類型的通話和會議功能Microsoft Teams 會議室。
-ms.openlocfilehash: 03557d1e833241b36bb1bc5df3a5ef36ff2ca450
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: ff6c36d0ded93ffa2231b6fd54a32658ce477d143c2fab4812446c4b88d50cd0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646684"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328968"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams 會議室授權更新
 
@@ -57,7 +57,7 @@ Microsoft 有兩個專用的 SKUs，可針對會議室裝置使用每個裝置�
 > 如果您目前使用 E1、E3、E4、E5 SKUS，以及 商務用 Skype 方案 2 與音訊會議或 Office 365 電話系統 和通話方案，這些將會繼續使用。 不過，您應該考慮在目前的授權到期後，在上表中，移往更簡單的授權模型。
 
 > [!IMPORTANT]
-> 如果您使用的是 商務用 Skype方案 2，則只能在 Microsoft Teams 會議室 模式中使用 商務用 Skype，這表示所有會議都會商務用 Skype會議。 為了啟用會議室Microsoft Teams會議，建議您購買會議室授權。 
+> 如果您使用的是 商務用 Skype方案 2，則只能在 Microsoft Teams 會議室 模式中商務用 Skype，也就是說，所有會議都會商務用 Skype會議。 為了啟用會議室以Microsoft Teams會議，建議您購買會議室授權。 
 
 下表列出在 Microsoft Teams 會議室 中提供的功能，以及您需要購買哪些授權才能取得這些功能。
   
@@ -69,7 +69,7 @@ Microsoft 有兩個專用的 SKUs，可針對會議室裝置使用每個裝置�
 |加入排定的會議  | Microsoft Teams 會議室標準或進階版  |商務用 Skype Server標準 CAL  |
 |啟動臨時會議 | Microsoft Teams 會議室標準或進階版  |商務用 Skype Server標準 CAL  <br/> 商務用 Skype Server Enterprise CAL|
 |啟動臨時會議，然後從會議撥出電話號碼 |  Microsoft Teams 會議室標準或進階版 |商務用 Skype標準 CAL  <br/> 商務用 Skype Server Enterprise CAL|
-|為會議室提供電話號碼，然後使用電話號碼撥打或接聽來自會議室的電話，或加入音訊會議  | 使用直接路由：Microsoft Teams 會議室標準或進階版<br/>沒有直接路由：國內或國際通話方案<br/>Microsoft 365 Business Voice  |商務用 Skype Server標準 CAL  <br/> 商務用 Skype Server加 CAL  |
+|為會議室提供電話號碼，然後撥打或接聽會議室的來電，或使用電話號碼加入音訊會議  | 使用直接路由：Microsoft Teams 會議室標準或進階版<br/>沒有直接路由：國內或國際通話方案<br/>Microsoft 365 Business Voice  |商務用 Skype Server標準 CAL  <br/> 商務用 Skype Server加 CAL  |
 |使用手機管理Microsoft Intune |Microsoft Teams 會議室標準或進階版  |Microsoft Intune內部部署 MDM[訂閱](/configmgr/mdm/plan-design/plan-on-premises-mdm) |
 |Microsoft Teams 會議室Managed Services | Microsoft Teams 會議室 進階版 ||
 | |||
@@ -77,6 +77,6 @@ Microsoft 有兩個專用的 SKUs，可針對會議室裝置使用每個裝置�
 > [!NOTE]
 > 如果您為會議室系統指派了現有的授權，這些授權將會繼續使用，而不會中斷。 您應該在現有的授權到期會議室使用新版 SKU。  
 
- **使用正確的版本** Windows 10：針對想要將影像部署到Windows 10的客戶，請參閱設定Microsoft Teams 會議室 [主機](./console.md)。 您可以從大量授權服務中心 [取得副本](https://www.microsoft.com/Licensing/servicecenter/)。 
+ **使用正確的版本** Windows 10：針對想要將Windows 10部署至其裝置的客戶，請參閱設定Microsoft Teams 會議室 [主機](./console.md)。 您可以從大量授權服務中心 [取得副本](https://www.microsoft.com/Licensing/servicecenter/)。 
  
  另請參閱[很棒的會議室體驗：符合新的標準Microsoft Teams 會議室標準進階版。](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)

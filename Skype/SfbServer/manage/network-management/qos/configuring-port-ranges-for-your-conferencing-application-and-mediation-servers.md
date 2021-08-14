@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 本文說明如何針對會議、應用程式及轉送伺服器設定埠範圍和服務品質原則。
-ms.openlocfilehash: 14a9bd1b4e32ab68b01746edaca77337654ea391737f38129c7e482fdcd49324
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 52612e1cd4d8990f32b741538b8023ab1f8afabe
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54591077"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234948"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>針對會議、應用程式及轉送伺服器設定埠範圍和服務品質原則
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: 新的系統管理商務用 Skype報告區域會顯示貴組織的通話和音訊會議活動。 它可讓您深入瞭解報表，以進一步深入瞭解每個使用者的活動。 例如，您可以使用 PSTN 商務用 Skype分鐘數報告，查看貴組織內當月所耗用分鐘數。
-ms.openlocfilehash: dae86688a5fb0204802f62d28504c3454613bb3d7f7d23f17d09972b94303390
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: 8c69a0555c95a7cb700b31db04103a0f7f502729
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57850248"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58234038"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 分鐘集區報告
 
@@ -37,7 +37,7 @@ ms.locfileid: "57850248"
   
 請查看報告 [概觀以](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 查看更多可用的報告。
   
-此報告與其他報告商務用 Skype一起，提供您整個組織活動的詳細資訊。 這些詳細資料在調查、規劃及為貴組織做出其他商務決策，以及設定通訊信用額度時非常[實用](/microsoftteams/what-are-communications-credits)。
+此報告與其他報表商務用 Skype一起，提供您整個組織活動的詳細資訊。 這些詳細資料在調查、規劃及為貴組織做出其他商務決策，以及設定通訊信用額度時非常[實用](/microsoftteams/what-are-communications-credits)。
   
 > [!NOTE]
 > 當您以系統管理員的商務用 Skype登入時，可以看到所有Microsoft 365 系統管理中心。 
@@ -87,7 +87,7 @@ ms.locfileid: "57850248"
     
 - [商務用 Skype會議參與者活動報告](conference-participant-activity-report.md)您可以查看有多少 IM、音訊/視像、應用程式共用、Web 和撥出音訊會議參與。
     
-- [商務用 Skype對等活動報表](peer-to-peer-activity-report.md)您可以瞭解使用者正在使用 IM、音訊/視像、應用程式共用和傳輸檔案。
+- [商務用 Skype對等活動報告](peer-to-peer-activity-report.md)您可以瞭解使用者正在使用 IM、音訊/視像、應用程式共用和傳輸檔案。
     
 - [商務用 Skype封鎖報表的使用者](users-blocked-report.md)您可以看見貴組織中遭到封鎖的使用者，無法撥打 PSTN 通話。
 
