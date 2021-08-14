@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 中的媒體質量比較報告
+title: 媒體質量比較報告商務用 Skype Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,14 +12,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 description: 摘要：瞭解商務用 Skype Server 中的媒體質量比較報告。
-ms.openlocfilehash: bb8a14ae9685e53ed2441201b25449bdde3f9b0c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 4ce020e923d66d5d5ee3b8757f3259e35c65ecbb306cbce238d68e8c05351039
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49817053"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345630"
 ---
-# <a name="media-quality-comparison-report-in-skype-for-business-server"></a>商務用 Skype Server 中的媒體質量比較報告
+# <a name="media-quality-comparison-report-in-skype-for-business-server"></a>媒體質量比較報告商務用 Skype Server
  
 **摘要：** 深入瞭解商務用 Skype Server 中的媒體質量比較報告。
   
@@ -43,7 +43,7 @@ ms.locfileid: "49817053"
 |**與通話比較** <br/> | 要用來做為次要比較專案的呼叫類型。 允許的值為： <br/>  一切 <br/>  外部 <br/>  內部 <br/>  VPN <br/>  非 VPN <br/>  有線 <br/>  無線 <br/>  外部和有線 <br/>  外部和無線 <br/>  外部和 VPN <br/>  外部和非 VPN <br/>  內部和有線 <br/>  內部和無線 <br/> |
 |**Interval** <br/> | 時間間隔。請選取下列其中一項： <br/>  每小時 (最多可以顯示 25 個小時) <br/>  每日 (最多可以顯示 31 天) <br/>  每週 (最多可以顯示 12 週) <br/>  若開始與結束日期超出所選間隔允許的上限值，將只會顯示上限值 (從開始日期開始顯示)。 例如，如果您選取 [開始日期 7/7/2015] 和 [結束2/28/2015 日期] 的 [每日間隔]，將會顯示 8/7/2015 12:00 AM 到 9/7/2015 12:00 AM (的資料，也就是有31天的資料) 總計。 <br/> |
    
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>度量
 
 下表列出媒體質量比較報告中提供的資訊。
   
@@ -52,7 +52,7 @@ ms.locfileid: "49817053"
 |**名稱**|**可以排序這個項目嗎？**|**描述**|
 |:-----|:-----|:-----|
 |**通話數量** <br/> |否  <br/> |通話總數。  <br/> |
-|**MOS) 降級 (** <br/> |否  <br/> |平均 MOS 金額 (平均平均觀點) 通話期間的效能。 降級值的範圍從低0.0 到高 5.0;值0.5 或更少代表可接受的降級。 從過去開始，平均觀點是透過讓使用者以1到5的比例來評分呼叫的品質來計算。 商務用 Skype Server 使用一組演算法來預測使用者對通話的評分方式。  <br/> 嚴重降級值可能是由於擁塞所造成;缺乏頻寬;無線擁塞或干擾，或超載的媒體伺服器或端點。 高降級導致音訊失真或遺失。  <br/> |
+|**MOS) 降級 (** <br/> |否  <br/> |平均 MOS 金額 (平均平均觀點) 通話期間的效能。 降級值的範圍從低0.0 到高 5.0;值0.5 或更少代表可接受的降級。 從過去開始，平均觀點是透過讓使用者以1到5的比例來評分呼叫的品質來計算。 商務用 Skype Server 會使用一組演算法來預測使用者對通話的評分方式。  <br/> 嚴重降級值可能是由於擁塞所造成;缺乏頻寬;無線擁塞或干擾，或超載的媒體伺服器或端點。 高降級導致音訊失真或遺失。  <br/> |
 |**通話百分比不佳** <br/> |否  <br/> |分類為不良的呼叫總數。 不佳的來電是指至少有一個衡量的衡量值超出允許的值 (例如，來電已有過高的抖動) 。  <br/> |
 |**來回行程 (毫秒)** <br/> |否  <br/> |Real-Time 傳輸通訊協定封包傳送到另一個端點後再回的平均 (量（毫秒）) 所需。 在200毫秒或更少的來回行程時間，會考慮可接受的品質。  <br/> 高來回行程值可能是由國際通話路由所造成;路由傳送錯誤;或重載的媒體伺服器。 較高的往返時間會導致使用雙向即時音訊交談的困難。  <br/> |
 |**封包遺失** <br/> |否  <br/> | (RTP) 封包遺失 Real-Time 傳輸通訊協定的平均速率。 當 RTP 封包（用於透過網際網路傳送音訊和影片的通訊協定）無法抵達目的地時，就會發生 (封包遺失。 ) 高遺失率通常是由擁塞所造成;缺乏頻寬;無線擁塞或干擾;或重載的媒體伺服器。 封包遺失通常會導致音訊失真或遺失。  <br/> |

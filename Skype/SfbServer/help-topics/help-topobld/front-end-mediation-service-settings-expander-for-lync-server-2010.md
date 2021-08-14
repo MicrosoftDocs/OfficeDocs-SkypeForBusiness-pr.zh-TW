@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
-description: 您可以在此對話方塊中，編輯 [中繼伺服器 PSTN 閘道] 設定的屬性。 您可以定義下列設定：
-ms.openlocfilehash: ad6aab0ce528db01621b1d43a62624d96649e66a
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 您可以在此對話方塊中，編輯 [中繼伺服器 PSTN 閘道] 設定的屬性。您可以定義下列設定：
+ms.openlocfilehash: a4220a9134917ded867b639bb019594be5e21b9191e636503ae8883a5be39d77
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807053"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344812"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>前端中繼服務設定展開工具 (適用於 Lync Server 2010)
  
-您可以在此對話方塊中，編輯 [中繼伺服器 PSTN 閘道] 設定的屬性。 您可以定義下列設定：
+您可以在此對話方塊中，編輯 [中繼伺服器 PSTN 閘道] 設定的屬性。您可以定義下列設定：
   
 - 如果您想要使用此前端伺服器或前端集區來組合轉送伺服器，請選取 [ **已啟用的組合轉送伺服器** ]。
     

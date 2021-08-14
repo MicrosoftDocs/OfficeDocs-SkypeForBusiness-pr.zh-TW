@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
 description: 摘要：瞭解商務用 Skype Server 中的 P2P 摘要子報表。
-ms.openlocfilehash: 518047fbca3c46cdc9b99299b8222d4f4fbd48ff
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 07d354ba14c8503571459081aaaf3445ec540fdb9a5caecc4b40576f6662f038
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345550"
 ---
 # <a name="p2p-summary-subreport-in-skype-for-business-server"></a>商務用 Skype Server 中的 P2P 摘要子報表
  
@@ -37,7 +37,7 @@ P2P 摘要子報表可提供失敗的對等通訊會話的整體觀點。
 |**To** <br/> |時間範圍的結束日期和時間。若要按照小時檢視資料，請輸入結束日期和時間，如下所示：  <br/> 7/7/2015 1:00 PM  <br/> 如果您未輸入結束時間，報告會自動在指定日期凌晨 12 點結束。若要按照日期檢視資料，只要輸入日期即可：  <br/> 7/7/2015  <br/> 若要按星期或月份檢視，請輸入當週或該月您想檢視的日期 (您不必輸入當週或該月的第一天)：  <br/> 7/3/2015  <br/> 星期永遠是從星期日開始星期六結束。  <br/> |
 |**集區** <br/> |登錄器集區或 Edge Server 的完整網域名稱 (FQDN)。您可以選取個別的集區，或是按一下 [全部] 檢視所有集區的資料。此下拉式清單會自動將資料庫內的資料填入。<br/> |
    
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>度量
 
 下表列出 P2P 摘要子報表中提供的資訊。
   

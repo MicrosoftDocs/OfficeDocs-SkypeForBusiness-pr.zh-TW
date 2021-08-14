@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: 檢視讓您可以輕鬆取得從 CDR 資料庫傳回資料時最常見情況的資訊。 建議您使用 [視圖] 來建立自訂報表，而不是使用實際的 CDR 資料庫資料表;這是因為資料庫檢視很可能會與未來的版本保持向後相容性。
-ms.openlocfilehash: 0a3b40c9b31bb521075e78a1a8d46479200249d5
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 3e0598c33dac7fb139166a8dd9b82deed134a59e24d59cbe8c1884778cb627a8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813153"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343237"
 ---
 # <a name="list-of-cdr-views"></a>CDR 檢視清單
  
@@ -38,7 +38,7 @@ ms.locfileid: "49813153"
 |[Mcus view](mcus-0.md) <br/> |傳回會議伺服器的資訊。  <br/> |
 |[媒體視圖](media-0.md) <br/> |傳回對等通訊工作階段中使用的媒體類型資訊。  <br/> |
 |[ProgressReport view](progressreport-0.md) <br/> |傳回已完成之工作階段的資訊。  <br/> |
-|[註冊視圖](registration-0.md) <br/> |傳回與商務用 Skype Server 2015 有關的註冊資訊。  <br/> |
+|[註冊視圖](registration-0.md) <br/> |傳回含商務用 Skype Server 2015 的註冊資訊。  <br/> |
 |[SessionDetails view](sessiondetails-0.md) <br/> |傳回對等工作階段的資訊，包含 VoIP 對 VoIP 電話、雙方 IM 工作階段，或其他對等通訊工作階段。  <br/> |
 |[使用者視圖](user.md) <br/> |傳回已加入通訊工作階段之使用者的資訊。  <br/> |
 |[VoIPDetails view](voipdetails.md) <br/> |傳回至少包含一位 VoIP 使用者之對等工作階段的資訊。  <br/> |

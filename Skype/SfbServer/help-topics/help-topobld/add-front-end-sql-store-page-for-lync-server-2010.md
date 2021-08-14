@@ -15,27 +15,27 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
 description: 您可以為所要設定的新前端集區定義 SQL Server 存放區的屬性。
-ms.openlocfilehash: 4a7dca6a9cb3d33a63d65e82459fb5cdab86703d
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 06f48b4f515db23980fb5aedbd701a43cb8c5854bff630586f059bc52e9de6f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49824063"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343587"
 ---
 # <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>新增 Lync Server 2010 的前端 SQL 存放區頁面
  
 您可以為所要設定的新前端集區定義 SQL Server 存放區的屬性。
   
 > [!IMPORTANT]
-> 如果您正在設定 Standard Edition server，則會顯示此對話方塊，但您將無法設定設定。 按 **[下一步]** 繼續。
+> 如果您正在設定 Standard Edition 伺服器，則會顯示此對話方塊，但您將無法設定設定。 按 **[下一步]** 繼續。
   
 您可以設定的設定：
   
-- **使用先前定義的 Sql server 儲存區**：從前端集區存放區的清單中，選取現有的 sql server 儲存區。
+- **使用先前定義的 SQL Server 儲存區**：從前端集區存放區的清單中選取現有的 SQL Server 存放區。
     
-- 選取 **[定義新的 Sql server 儲存區** ] 以建立新的 sql server 儲存區。
+- 選取 [**定義新的 SQL Server 儲存區**] 以建立新的 SQL Server 存放區。
     
-    在 **[Sql SERVER FQDN** ] 中輸入 sql server 的完整功能變數名稱
+    在 **SQL Server FQDN** 中輸入 SQL Server 的完整功能變數名稱
     
     最初會選取 **預設實例** 。 如果您想要定義實例，請選取 [ **命名實例** ]，然後輸入您需要建立的實例名稱。
     

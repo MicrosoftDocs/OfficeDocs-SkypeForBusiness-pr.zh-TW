@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 2015 中的 CDR 表格清單
+title: 商務用 Skype Server 2015 的 CDR 表格清單
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: 詳細通話記錄 (CDR) 資料庫結構描述包含下列表格。
-ms.openlocfilehash: 7bd76a4cf374e72582c585908309605c4845454e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 27381a95a5de2613845fa831e8730a1bc06d374ae7936eaedb31d239b3dbb0cf
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827593"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343247"
 ---
-# <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 CDR 表格清單
+# <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的 CDR 表格清單
  
 詳細通話記錄 (CDR) 資料庫結構描述包含下列表格。 
   
@@ -43,10 +43,10 @@ ms.locfileid: "49827593"
 |[商務用 Skype Server 2015 中的 ClientVersions 表格](clientversions.md) <br/> |儲存通話方之每個用戶端的用戶端 (用戶端類型與版本號碼) 以及此資料庫中擷取的資訊。  <br/> |
 |[商務用 Skype Server 2015 中的 ConferenceUris 表格](conferenceuris.md) <br/> |儲存會議相關通話中所使用的 ConferenceURI 清單。  <br/> |
 |[商務用 Skype Server 2015 中的 ContentTypes 表格](contenttypes.md) <br/> |儲存工作階段初始通訊協定 (SIP) 內容類型清單，這些類型是用於對等式通話和電話會議。  <br/> |
-|[商務用 Skype Server 中的裝置表格2015](devices.md) <br/> |儲存裝置清單 (包括，製造商、硬體版本以及 MAC 位址)。  <br/> |
+|[商務用 Skype Server 2015 的裝置表格](devices.md) <br/> |儲存裝置清單 (包括，製造商、硬體版本以及 MAC 位址)。  <br/> |
 |[商務用 Skype Server 2015 中的對話方塊表格](dialogs.md) <br/> |儲存資料庫中每個工作階段的對話方塊 ID 相關資訊。  <br/> |
 |[商務用 Skype Server 2015 中的 EdgeServers 表格](edgeservers.md) <br/> |儲存用於撥打外線的 Edge Server 清單。  <br/> |
-|[商務用 Skype Server 中的閘道表格2015](gateways.md) <br/> |儲存用於 Voice over Internet Protocol (VoIP) 通話的閘道清單。  <br/> |
+|[商務用 Skype Server 2015 的閘道表格](gateways.md) <br/> |儲存用於 Voice over Internet Protocol (VoIP) 通話的閘道清單。  <br/> |
 |[商務用 Skype Server 2015 中的 HardwareVersions 表格](hardwareversions.md) <br/> |儲存裝置 (電話機) 硬體版本清單。  <br/> |
 |[商務用 Skype Server 2015 中的製造商表格](manufacturers.md) <br/> |儲存裝置 (電話機) 製造商清單。  <br/> |
 |[商務用 Skype Server 2015 中的 Mcus 表格](mcus.md) <br/> |儲存各種 A/V 會議伺服器及其 URI 的資訊。  <br/> |
@@ -54,8 +54,8 @@ ms.locfileid: "49827593"
 |[電話表格](phones.md) <br/> |儲存用於已封存或其通話詳細資料已記錄之 VoIP 通話中的所有電話號碼。  <br/> |
 |[Pool 表格](pools.md) <br/> |儲存擷取 IM 訊息的集區名稱。  <br/> |
 |[Servers 表格](servers.md) <br/> |儲存通話方的伺服器名稱。  <br/> |
-|[承租人表格](tenants.md) <br/> |儲存目前部署支援的承租人。 企業使用者、同盟使用者、公用 IM 連線使用者和匿名使用者都有部分內建承租人。  <br/> |
-|[UserAgentDef 表格](useragentdef.md) <br/> |將使用者代理程式識別碼對應到代理程式的描述性名稱。  <br/> |
+|[承租人表格](tenants.md) <br/> |儲存目前部署支援的租用戶；包括企業使用者、同盟使用者、公共 IM 連線使用者以及匿名使用者的部分內建租用戶。  <br/> |
+|[UserAgentDef 表格](useragentdef.md) <br/> |地圖使用者代理程式的識別碼命名為代理程式的描述性名稱。  <br/> |
 |[Users 表格](users.md) <br/> |儲存資料庫中所記錄或封存的工作階段之使用者的使用者 URI。  <br/> |
 |[UserStatistics 表格](userstatistics.md) <br/> |儲存個別使用者對系統使用狀況的相關資訊。  <br/> |
    
@@ -63,7 +63,7 @@ ms.locfileid: "49827593"
 
 |**Table**|**描述**|
 |:-----|:-----|
-|[商務用 Skype Server 中的會議表格（2015）](conferences.md) <br/> |儲存已封存或其詳細資料已記錄之所有會議的資訊，包括 ConferenceURI，以及開始時間和結束時間。  <br/> |
+|[商務用 Skype Server 2015 中的會議表格](conferences.md) <br/> |儲存已封存或其詳細資料已記錄之所有會議的資訊，包括 ConferenceURI，以及開始時間和結束時間。  <br/> |
 |[商務用 Skype Server 2015 中的 ConferenceSessionDetails 表格](conferencesessiondetails-0.md) <br/> |儲存每個 SIP 型會議工作階段的相關資訊，包括每個工作階段的開始時間和結束時間、使用者識別碼、回應碼以及診斷 ID。  <br/> |
 |[商務用 Skype Server 2015 中的 FocusJoinsAndLeaves 表格](focusjoinsandleaves.md) <br/> |儲存會議加入和葉子的資訊，包括使用者的角色和用戶端版本。  <br/> |
 |[商務用 Skype Server 2015 中的 McuJoinsAndLeaves 表格](mcujoinsandleaves.md) <br/> |儲存參與會議的 A/V 會議伺服器以及使用者加入或離開時間之資訊。  <br/> |
@@ -96,7 +96,7 @@ ms.locfileid: "49827593"
 
 |**Table**|**描述**|
 |:-----|:-----|
-|[商務用 Skype Server 中的位置表格2015](locations.md) <br/> |會針對每個緊急電話，如增強型 9-1-1 (E9-1-1) 通話，儲存通話的位置資訊。 指的是通話開始/結束時間和回應碼的 [SessionDetails 表格](sessiondetails.md) 。 <br/> |
+|[商務用 Skype Server 2015 的位置表格](locations.md) <br/> |會針對每個緊急電話，如增強型 9-1-1 (E9-1-1) 通話，儲存通話的位置資訊。 指的是通話開始/結束時間和回應碼的 [SessionDetails 表格](sessiondetails.md) 。 <br/> |
    
 > [!NOTE]
 > 此表格僅包含針對 E9-1-1 通話的位置二進位大型物件。請參考 SessionDetails 表格以取得通話的其他詳細資訊。 
@@ -105,12 +105,12 @@ ms.locfileid: "49827593"
 
 |**Table**|**描述**|
 |:-----|:-----|
-|[商務用 Skype Server 中的應用程式表格2015](application.md) <br/> |儲存與路由及連線有關之商務用 Skype Server 2015 內之各種處理常式的資訊。  <br/> |
+|[商務用 Skype Server 2015 中的應用程式表格](application.md) <br/> |儲存與路由及連線相關的商務用 Skype Server 2015 內各種程式的資訊。  <br/> |
 |[商務用 Skype Server 2015 中的 CallType 表格](calltype.md) <br/> |儲存通話類型的相關資訊，例如「音訊」、「立即訊息」、「音訊和影片」和「應用程式共用」。  <br/> |
 |[商務用 Skype Server 2015 中的 ErrorCategory 表格](errorcategory.md) <br/> |儲存每個商務用 Skype Server 2015 診斷分類的易記名稱。  <br/> |
 |[商務用 Skype Server 2015 中的 ErrorDef 表格](errordef.md) <br/> |儲存錯誤類型與其定義的相關資訊。  <br/> |
 |[商務用 Skype Server 2015 中的 ErrorReport 表格](errorreport.md) <br/> |儲存所發生錯誤的相關資訊。  <br/> |
-|[ProgressReport 表格](progressreport.md) <br/> |儲存商務用 Skype Server 2015 程式中相關之各個步驟的進度報告相關資訊。  <br/> |
+|[ProgressReport 表格](progressreport.md) <br/> |儲存與商務用 Skype Server 2015 處理常式相關之各個步驟的進度報告相關資訊。  <br/> |
    
 下列清單中的表格是由商務用 Skype Server 2015 內部使用。 本文件不提供其詳細資料。
   

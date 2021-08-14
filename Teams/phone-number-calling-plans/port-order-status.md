@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: '瞭解如何取得您的埠訂單狀態，以及您可以對訂單採取哪些不同動作。 '
-ms.openlocfilehash: 8290ffba7be56f3ede0e275c801110f8c9d9539e
-ms.sourcegitcommit: 693205da865111380b55c514955ac264031eb2fd
+ms.openlocfilehash: 607e5680c180f8440f6e09dc28a8de0b069f98e996ccb9c5e6c1b45cbb0753f3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "44205684"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342888"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>您的移轉訂單狀態為何？
 
@@ -32,7 +32,7 @@ ms.locfileid: "44205684"
 
 |**地位**|**您可以查看訂單嗎？**|**您可以編輯訂單嗎？**|**您可以取消訂單嗎？**|**您可以刪除訂單嗎？**|**描述**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**處理** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |系統管理員已建立訂單，且 Microsoft 已收到訂單。  <br/> |
+|**處理** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |系統管理員已建立訂單，且 Microsoft 已收到該訂單。  <br/> |
 |**正在與電信公司聯繫** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |Microsoft 已收到並核准訂單，我們正在與損失的電信公司合作，以取得核准。  <br/> |
 |**已核准移轉** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |已由損失的電信公司接受訂單，並且已設定 FOC (訂單) 承諾。  <br/> |
 |**傳輸擱置中** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |移轉時間不到 24 小時，因此無法再編輯或取消訂單。  <br/> |

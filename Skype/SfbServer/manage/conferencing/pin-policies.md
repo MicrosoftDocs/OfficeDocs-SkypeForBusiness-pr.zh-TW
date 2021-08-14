@@ -1,5 +1,5 @@
 ---
-title: 為商務用 Skype Server 中的電話撥入式會議管理 PIN 碼原則
+title: 在商務用 Skype Server 中管理電話撥入式會議的 PIN 原則
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
-description: 摘要：瞭解如何為商務用 Skype Server 中的電話撥入式會議管理 PIN 碼原則。
-ms.openlocfilehash: 34b006b54242c25fb9afcd3fc9fd6e6692e9cbd2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 摘要：瞭解如何在商務用 Skype Server 中管理電話撥入式會議的 PIN 原則。
+ms.openlocfilehash: d803e7d21be9743704402e2d9532fcfee413d804296cade2e56cbb875c965361
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096745"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343437"
 ---
-# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>為商務用 Skype Server 中的電話撥入式會議管理 PIN 碼原則
+# <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>在商務用 Skype Server 中管理電話撥入式會議的 PIN 原則
  
 **摘要：** 瞭解如何在商務用 Skype Server 中管理電話撥入式會議的 PIN 原則。
   
-在您組織中 (AD DS) 認證的商務用 Skype 伺服器使用者，您可以使用個人識別碼 (PIN) ，將電話撥入式會議當作已驗證的使用者加入電話撥入式會議。 PIN 原則可定義電話撥入式會議 PIN 的運作方式規則。
+在您組織中具有 Active Directory 網域服務 (AD DS) 認證的商務用 Skype Server 使用者，您可以使用個人識別碼 (PIN) ，將電話撥入式會議加入為已驗證的使用者。 PIN 原則可定義電話撥入式會議 PIN 的運作方式規則。
   
  如果您要對整個組織使用相同的 PIN 原則，您可以使用全域 PIN 原則，並視需要加以修改。 全域 PIN 原則可在樹系層級上定義電話撥入式會議 PIN 的規則。 您可以修改全域 PIN 原則，但無法加以刪除。
   
@@ -33,19 +33,19 @@ ms.locfileid: "51096745"
   
 ## <a name="view-information-about-pin-policies"></a>查看有關 PIN 原則的資訊
 
-您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面，查看 PIN 原則的相關資訊。
+您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面，查看 PIN 原則的相關資訊。
   
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台，查看 PIN 原則的相關資訊
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [會議] 再按一下 [PIN 原則]。
     
 4. 在 [ **PIN 原則** ] 頁面上，按一下您要查看的 PIN 原則，按一下 [ **編輯**]，然後按一下 [ **顯示詳細資料**]。
     
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來查看 PIN 原則的相關資訊
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面，查看 PIN 原則的相關資訊
 
 若要查看有關 PIN 原則的資訊，請使用 **Get-CsPinPolicy** Cmdlet。 例如，下列命令會傳回 Identity 為 site： Redmond 的單一 PIN 原則資訊：
   
@@ -57,13 +57,13 @@ Get-CsPinPolicy -Identity "site:Redmond"
   
 ## <a name="modify-the-global-pin-policy"></a>修改通用 PIN 原則
 
-您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面，修改全域 PIN 原則。
+您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面，修改全域 PIN 原則。
   
 ### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台修改全域電話撥入式會議 PIN 原則
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [會議] 再按一下 [PIN 原則]。
     
@@ -88,7 +88,7 @@ Get-CsPinPolicy -Identity "site:Redmond"
   
 12. 按一下 **[認可]**。
     
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來修改全域電話撥入式會議 PIN 原則
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面，修改全域電話撥入式會議 PIN 原則
 
 若要修改全域電話撥入式會議 PIN 原則，請使用 **Set-CsPinPolicy** Cmdlet。
   
@@ -102,13 +102,13 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
   
 ## <a name="create-a-user-or-site-pin-policy"></a>建立使用者或網站 PIN 原則
 
-您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面來建立使用者或網站 PIN 原則。
+您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面，來建立使用者或網站 PIN 原則。
   
 ### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台建立使用者或網站 PIN 原則
 
 1. 從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [會議] 再按一下 [PIN 原則]。
     
@@ -139,7 +139,7 @@ Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
   
 13. 按一下 **[認可]**。
     
-### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來建立使用者或網站 PIN 原則
+### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面建立使用者或網站 PIN 原則
 
 若要建立使用者或網站 PIN 原則，請使用 **get-cspinpolicy** Cmdlet。
   
@@ -153,13 +153,13 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>修改使用者或網站 PIN 原則
 
-您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面，修改使用者或網站 PIN 原則。
+您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面，修改使用者或網站 PIN 原則。
   
 ### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台修改使用者或網站 PIN 原則
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [會議] 再按一下 [PIN 原則]。
     
@@ -169,7 +169,7 @@ New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
     
 6. 按一下 **[認可]**。
     
-### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來修改使用者或網站 PIN 原則
+### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面修改使用者或網站 PIN 原則
 
 若要修改電話撥入式會議 PIN 原則，請使用 **Set-CsPinPolicy** Cmdlet。
   
@@ -183,19 +183,19 @@ Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>刪除使用者或網站 PIN 原則
 
-您可以使用商務用 Skype Server 控制台或使用商務用 Skype Server 管理命令介面來刪除使用者或網站 PIN 原則。
+您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面來刪除使用者或網站 PIN 原則。
   
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台刪除使用者或網站 PIN 原則
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
     
-2.  開啟商務用 Skype Server 控制台。
+2.  開啟商務用 Skype Server 控制台]。
     
 3. 在左導覽列中，按一下 [會議] 再按一下 [PIN 原則]。
     
 4. 在 [ **PIN 原則** ] 頁面上，按一下您要變更的 PIN 原則，按一下 [ **編輯**]，然後按一下 [ **刪除**]。
     
-### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面來刪除使用者或網站 PIN 原則
+### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>使用商務用 Skype Server 管理命令介面刪除使用者或網站 PIN 原則
 
 若要刪除使用者或網站 PIN 原則，請使用 **get-cspinpolicy** Cmdlet。
   

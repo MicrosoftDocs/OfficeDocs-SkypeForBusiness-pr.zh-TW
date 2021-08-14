@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 您可以在拓撲產生器中，以滑鼠右鍵按一下 Persistent Chat 集區，以執行下列作業：
-ms.openlocfilehash: 974340d7e852525295cdf03838fc2164e8cacd3c
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 2d6d49548ad34b6015ef81be37639ede60192720ba9c6b59a24a711b470a1a0c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49833073"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343567"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>建立常設聊天室伺服器範圍節點
  
@@ -32,7 +32,7 @@ ms.locfileid: "49833073"
   
 - **拓撲**。 您可以使用此選項來定義新的拓撲、開啟現有的拓撲、下載目前的拓撲、儲存拓撲的複本、發行拓撲、從舊版的 Lync Server 合併元件，或移除部署。
     
-- **説明**。 您可以使用這個選項，存取作用中節點的說明。
+- **說明**。您可以使用這個選項，存取作用中節點的說明。
     
 ## <a name="see-also"></a>另請參閱
 

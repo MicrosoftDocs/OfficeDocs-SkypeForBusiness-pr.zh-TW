@@ -12,18 +12,18 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 摘要：瞭解商務用 Skype Server 中的監控儀表板。
-ms.openlocfilehash: 83a04a60e63deb39666ee4d042f74973b7d16d0b
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: f731030d3534af9494a4d70d29b27cc8b3ec95bcd5eede97d3ab3c65c2a54b9f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51118602"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345570"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>在商務用 Skype Server 中使用監控儀表板
  
 **摘要：** 深入瞭解商務用 Skype Server 中的監控儀表板。
   
-監控儀表板為系統管理員供應商務用 Skype Server 系統健康情況與系統使用狀況的快速綜述。 儀表板的設計目的是顯示主要系統計量的匯總視圖，並顯示下列其中一項：
+監控儀表板可讓系統管理員快速流覽其商務用 Skype Server 系統健康情況和系統使用方式。 儀表板的設計目的是顯示主要系統計量的匯總視圖，並顯示下列其中一項：
   
 - 當天的合計。 請注意，目前所顯示之天的值表示從午夜直到目前時間為止的資料 (，取決於報表伺服器的本機時間) 。 這表示您通常會在一天中查看資料，而不是24小時的期間。 例如，如果伺服器的本地時間是 8:00 AM，您會看到8小時的資料，因為介於午夜和目前的 8:00 AM 之間有八小時的時間。
     
@@ -31,7 +31,7 @@ ms.locfileid: "51118602"
     
 - 每月的總數，以及過去六個月的趨勢總計 (僅限系統使用量) 。
     
-請注意，您可以使用 [Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) Cmdlet 來傳回用來存取商務用 Skype Server Monitoring REPORTS 的 URL：
+請注意，您可以使用[Get-CsReportingConfiguration](/powershell/module/skype/get-csreportingconfiguration?view=skype-ps) Cmdlet 來傳回用來存取商務用 Skype Server 監控報告的 URL：
   
 ```PowerShell
 Get-CsReportingConfiguration
@@ -179,7 +179,7 @@ Get-CsReportingConfiguration
     
 - Word
     
-若要匯出目前的儀表板 view (及其值) ，請按一下所需的匯出選項。 商務用 Skype 伺服器會以指定的格式產生報表，然後提供開啟該報表或儲存該報表的選項。 請注意，根據預設，商務用 Skype 伺服器標題為 [報表 **監控] 儀表板** ，並將其儲存至 [下載] 資料夾。 若要讓報表使用不同的名稱，或將它儲存在不同的資料夾中，請按一下 [ **儲存** ] 按鈕旁的箭號，然後按一下 [ **另存** 新檔]。 如果您很熟悉名稱 **監控儀表板** ，且已將報告儲存在 [下載] 資料夾中，您只需要按一下 [ **儲存** ] 按鈕即可。
+若要匯出目前的儀表板 view (及其值) ，請按一下所需的匯出選項。 商務用 Skype Server 會以指定的格式產生報表，然後提供開啟該報表或儲存該報表的選項。 請注意，根據預設，商務用 Skype Server 標題的報表 **監控儀表板**，並將其儲存至您的 [下載] 資料夾。 若要讓報表使用不同的名稱，或將它儲存在不同的資料夾中，請按一下 [ **儲存** ] 按鈕旁的箭號，然後按一下 [ **另存** 新檔]。 如果您很熟悉名稱 **監控儀表板** ，且已將報告儲存在 [下載] 資料夾中，您只需要按一下 [ **儲存** ] 按鈕即可。
   
 當您嘗試匯出儀表板資料時，可能會出現 [ **安全性警示** ] 對話方塊，並顯示「目前的設定不允許下載這個檔案」訊息。 如果發生這種情況，請執行下列操作：
   
@@ -187,7 +187,7 @@ Get-CsReportingConfiguration
     
 - 在 [ **網際網路選項** ] 對話方塊的 [ **安全性** ] 索引標籤上，按一下 [ **信任的網站** ]，然後按一下 [ **網站**]。
     
-- 在 [ **信任的網站** ] 對話方塊中，按一下 [ **新增** ]，將執行商務用 Skype 伺服器報告的商務用 skype 伺服器新增至信任的網站集合。
+- 在 [**信任的網站**] 對話方塊中，按一下 [**新增**]，將執行商務用 Skype Server 報告的商務用 Skype Server 新增至信任的網站集合。
     
 - 按一下 [ **關閉** ]，然後按一下 **[確定]**。
     

@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 description: 您可以使用 [Persistent Chat] 頁面的 [類別] 區段來設定類別。 Persistent 聊天室類別是用來組織聊天室的邏輯結構。 類別會定義一組預設的存取控制清單 (ACLs)，用於控制可建立或加入聊天室的使用者及使用者群組。 您可以利用類別在組織內不同的子部門之間強制執行道德管束。
-ms.openlocfilehash: 18456a5f0b58939acfe994180765fffd6fc3a0f1
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 55957313854b4578fabf8fd4e0c49b2e8533ff1f87f5156af9abf2d07aefa780
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49807285"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54338401"
 ---
 # <a name="persistent-chat-category-main-page"></a>常設聊天室類別主頁面
  
@@ -28,7 +28,7 @@ ms.locfileid: "49807285"
   
 聊天室類別可包含聊天室，但不可包含其他類別。 每個類別都會使用中繼資料來描述其內容，例如  _Name_ 及 _Description_。 此外，類別的屬性也可以設定，以控制屬於該類別之聊天室的行為，例如，聊天室允許  _邀請_ 或檔案上 _傳_，或包含  _聊天記錄_。
   
-若要建立新的類別，請參閱 [在商務用 Skype server 2015 中管理 Persistent Chat Server](../../manage/persistent-chat/categories.md)中的類別。 如果您是 Persistent Chat Administrator，您可以使用 [控制台] 或 [Windows PowerShell Cmdlet 來建立類別。
+若要建立新的類別，請參閱[在2015商務用 Skype Server 中管理 Persistent Chat Server 中的類別](../../manage/persistent-chat/categories.md)。 如果您是 Persistent Chat Administrator，您可以使用 [控制台] 或 Windows PowerShell Cmdlet 來建立類別。
   
 ## <a name="tasks-that-you-can-perform"></a>您可以執行的工作
 
@@ -44,7 +44,7 @@ ms.locfileid: "49807285"
 
 1. 使用指派給 CsPersistentChatAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任一部電腦。
     
-2. 從 [ **開始** ] 功能表中，選取商務用 Skype Server 控制台或開啟瀏覽器視窗，然後輸入管理 URL。 .
+2. 從 [**開始**] 功能表中，選取 [商務用 Skype Server 控制台] 或開啟瀏覽器視窗，然後輸入管理 URL。 .
     
 3. 在左導覽列中，按一下 [常設聊天室]，然後按一下 [類別]。
     
@@ -78,6 +78,6 @@ ms.locfileid: "49807285"
     
 ## <a name="see-also"></a>另請參閱
 
-如需 Persistent Chat Server 功能及功能的詳細資訊，請參閱 [Plan For Persistent Chat server In 商務用 skype server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、 [在商務用 skype server 2015 中部署 persistent chat](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)Server，以及 [在商務用 Skype Server 2015 中管理 persistent chat server](../../manage/persistent-chat/persistent-chat.md)。
+如需 Persistent chat server 功能及功能的詳細資訊，請參閱[在商務用 Skype Server 2015 中規劃 persistent chat server](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)、[在商務用 Skype Server 2015 中部署 persistent chat](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)server，以及[在商務用 Skype Server 2015 中管理 persistent chat server](../../manage/persistent-chat/persistent-chat.md)。
   
 

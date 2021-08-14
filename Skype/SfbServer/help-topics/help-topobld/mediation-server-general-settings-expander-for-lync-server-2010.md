@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 您可以在此對話方塊中編輯轉送伺服器的屬性。 左側是可前往 [一般] 設定、[下一個躍點] 設定及 [ PSTN 閘道] 設定的一組快速連結。 每個區段包含下列設定：
-ms.openlocfilehash: 6c8c238ce7d89db53f3b92a0f513c080976a3bab
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 87eda891ae5c9e19a9a54e000b85b62e46c077d6a4c90318c9372fe6e887ecaa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114189"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54344782"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>中繼伺服器一般設定展開工具 (適用於 Lync Server 2010)
 

@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中的直接 SIP 連線
+title: 商務用 Skype Server 中的直接 SIP 連線
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
-description: 商務用 Skype Server 和兩部 PSTN 閘道和 Enterprise Voice IP-PBX 都支援直接 SIP 連線。
-ms.openlocfilehash: 7a70a6f3afd303ef5847993240b26b47d1b4ceac
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 企業語音中商務用 Skype Server 和兩部 PSTN 閘道和 IP-PBX 都支援直接 SIP 連線。
+ms.openlocfilehash: cac0cf06843ed3bf623bd2d3bbe9e92cf6b32a091fd434ac4d422812cc59e60f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51096413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343367"
 ---
-# <a name="direct-sip-connections-in-skype-for-business-server"></a>在商務用 Skype Server 中的直接 SIP 連線
+# <a name="direct-sip-connections-in-skype-for-business-server"></a>商務用 Skype Server 中的直接 SIP 連線
 
-商務用 Skype Server 和兩部 PSTN 閘道和 Enterprise Voice IP-PBX 都支援直接 SIP 連線。
+企業語音中商務用 Skype Server 和兩部 PSTN 閘道和 IP-PBX 都支援直接 SIP 連線。
 
-您可以使用直接 SIP 連線，將商務用 Skype 伺服器連線至下列其中一項：
+您可以使用直接 SIP 連線，將商務用 Skype Server 連接至下列其中一項：
 
 - IP-PBX
 
@@ -40,58 +40,58 @@ ms.locfileid: "51096413"
 ### <a name="skype-for-business-server-stand-alone"></a>商務用 Skype Server Stand-Alone
 <a name="BKMK_CommunicationsServerStand-Alone"> </a>
 
-如果您的組織使用本節所述的其中一個部署，您可以使用商務用 Skype 伺服器做為組織的一部分或所有組織的唯一電話語音解決方案。 本節詳細說明下列部署：
+如果您的組織使用本節所述的其中一個部署，您可以使用商務用 Skype Server 做為組織部分或全部組織的唯一電話語音解決方案。 本節詳細說明下列部署：
 
-- **漸進式部署：** 此選項假設您有現有的私人分公司 exchange (PBX) 基礎結構，而您想要將 Enterprise Voice 逐步引入組織中較小的群組或小組。
+- **漸進式部署：** 此選項假設您有現有的專用交換機 exchange (PBX) 基礎結構，而您想要將企業語音增量引入組織中較小的群組或小組。
 
-- **僅限 VoIP 部署：** 此選項假設您考慮在沒有傳統電話語音基礎結構的網站上部署 Enterprise Voice。
+- **僅限 VoIP 部署：** 此選項假設您考慮在沒有傳統電話語音基礎結構的網站上部署企業語音。
 
 #### <a name="incremental-deployment"></a>漸進式部署
 
-在漸進式部署中，商務用 Skype 伺服器是個別小組或部門的唯一電話語音解決方案，而組織中的其他使用者仍會繼續使用 PBX。 這項增量部署策略提供一種方法，透過控制的試驗計畫，將 IP 電話語音引入您的企業。 Microsoft 整合通訊最適合使用其通訊的工作組會移至 Enterprise Voice，其他使用者仍會保留在現有的 PBX 上。 其他的工作組可以視需要遷移至 Enterprise Voice。
+在「增量部署」中，商務用 Skype Server 是個別小組或部門的唯一電話語音解決方案，而組織中的其他使用者仍會繼續使用 PBX。 這項增量部署策略提供一種方法，透過控制的試驗計畫，將 IP 電話語音引入您的企業。 Microsoft 整合通訊最適合採用其通訊需求的工作組會移至企業語音，其他使用者仍會保留在現有的 PBX 上。 其他的工作組可以視需要，遷移至企業語音。
 
 如果您明確定義的使用者群組具有共同的通訊需求，且其本身適用于集中式管理，則建議使用 [累加] 選項。 如果您擁有遍佈地理區域的團隊或部門，而且在長途計費中的節約成本可能很大，此選項也會有效。 實際上，此選項對於建立其成員可能分散在全球的虛擬小組非常有用。 您可以建立、修改或 disband 這類團隊，以快速回應轉向的業務需求。
 
-下圖顯示在 PBX 背後部署 Enterprise Voice 的一般拓撲。 這是增量部署的建議拓撲。
+下圖顯示在 PBX 背後部署企業語音的一般拓撲。 這是增量部署的建議拓撲。
 
 **漸進式部署選項**
 
 ![部門遷移選項圖表](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
-> 如果您要將商務用 Skype Server 部署連接至認可的 Direct SIP 夥伴，則不需要在轉送伺服器和 PBX 之間使用公用交換電話網路 (PSTN) 閘道。 如需認證直接 SIP 夥伴的清單，請參閱  [Microsoft 整合通訊開啟互通性計畫](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
+> 如果您要將商務用 Skype Server 部署連接至認可的 Direct SIP 夥伴，轉送伺服器和 PBX 之間不需要有公用交換電話網路 (PSTN) 閘道。 如需認證直接 SIP 夥伴的清單，請參閱  [Microsoft 整合通訊開啟互通性計畫](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
 
 > [!NOTE]
 > 在此圖中所示的媒體路徑已啟用媒體旁路 (建議的設定) 。 如果您選用停用媒體旁路，媒體路徑會透過轉送伺服器進行路由傳送。
 
-在此拓撲中，會為企業語音啟用選取的部門或工作組。 PSTN 閘道會將 Voice over Internet Protocol (VoIP 已啟用) 的 workgroup 連結至 PBX。 已啟用 Enterprise Voice （包括遠端工作者）的使用者在 IP 網路之間進行通訊。 由 Enterprise Voice 使用者對 PSTN 及未啟用 Enterprise Voice 的同事進行呼叫會路由傳送至適當的 PSTN 閘道。 來自位於 PBX 系統或 PSTN 之來電者的同事的來電會路由傳送至 PSTN 閘道，而該閘道會將通話轉寄給用於路由傳送的商務用 Skype Server。
+在此拓撲中，會為企業語音啟用選取的部門或工作組。 PSTN 閘道會將 Voice over Internet Protocol (VoIP 已啟用) 的 workgroup 連結至 PBX。 為企業語音啟用的使用者（包括遠端工作者）會在 IP 網路之間進行通訊。 企業語音使用者對 pstn 和未啟用企業語音的合作者的呼叫會路由傳送至適當的 PSTN 閘道。 來自位於 PBX 系統或 pstn 之來電者的同事的來電會路由傳送至 pstn 閘道，而該閘道會將通話轉寄給商務用 Skype Server 以進行路由傳送。
 
-有兩個建議設定，可將 Enterprise Voice 連接至現有的 PBX 基礎結構，以進行互通性：在 PBX 前端和 Enterprise Voice 之後的 Enterprise voice。
+有兩個建議設定可將企業語音連接至現有的 pbx 基礎結構，以進行互通性：在 pbx 背後企業語音，並在 pbx 前面企業語音。
 
-#### <a name="enterprise-voice-behind-the-pbx"></a>PBX 背後的 Enterprise Voice
+#### <a name="enterprise-voice-behind-the-pbx"></a>企業語音PBX 背後
 
-當 Enterprise Voice 部署在 PBX 背後時，所有來自 PSTN 的呼叫都會到達 PBX，這會將呼叫傳送至 Enterprise Voice 使用者到 PSTN 閘道，並呼叫 PBX 使用者至 PBX。
+當企業語音部署在 pbx 背後時，所有來自 PSTN 的呼叫都會到達 pbx，這會將呼叫傳送給企業語音使用者到 PSTN 閘道，並將 pbx 使用者呼叫至 pbx。
 
-#### <a name="enterprise-voice-in-front-of-the-pbx"></a>PBX 前端的 Enterprise Voice
+#### <a name="enterprise-voice-in-front-of-the-pbx"></a>PBX 前部的企業語音
 
-當 Enterprise Voice 部署在 PBX 的前方時，所有呼叫都會到達 PSTN 閘道，這會將 Enterprise Voice 使用者的通話路由傳送至商務用 Skype Server，並將 PBX 使用者叫用到 PBX。 從 Enterprise Voice 和 PBX 使用者呼叫 PSTN 會透過 IP 網路路由傳送至最具成本效益的 PSTN 閘道。 下表顯示此設定的優點和缺點。
+當企業語音部署在 PBX 前端時，所有呼叫都會到達 PSTN 閘道，而該閘道會將企業語音使用者的電話路由傳送給 pbx，以商務用 Skype Server 和呼叫 pbx 使用者。 從企業語音和 PBX 使用者呼叫 pstn，都是透過 IP 網路路由傳送至最具成本效益的 PSTN 閘道。 下表顯示此設定的優點和缺點。
 
-**在 PBX 前面部署企業語音的優缺點**
+**在 PBX 之前部署企業語音的優點和缺點**
 
 |**優點**|**缺點**|
 |:-----|:-----|
-|PBX 仍可為未啟用 Enterprise Voice 的使用者提供服務。  <br/> |現有的閘道可能不支援您想要的功能或容量。  <br/> |
+|PBX 仍可用於企業語音未啟用的使用者。  <br/> |現有的閘道可能不支援您想要的功能或容量。  <br/> |
 |PBX 處理所有舊版裝置。  <br/> |需要從閘道到 PBX 的主幹，以及從閘道到轉送伺服器。 您可能需要從服務提供者獲得更多主幹。  <br/> |
-|Enterprise Voice 使用者保留相同的電話號碼。  <br/> | <br/> |
+|企業語音使用者保留相同的電話號碼。  <br/> | <br/> |
 
 #### <a name="voip-only-deployment"></a>VoIP-Only 部署
 
-Enterprise Voice 可提供新的企業，以及現有公司的新 office 網站，並有機會實施功能齊全的 VoIP 解決方案，而不需要擔心 PBX 整合或產生 IP-PBX 基礎結構的實際部署及維護成本。 此解決方案同時支援現場和遠端工作者。
+企業語音提供新的企業，也是現有公司的新 office 網站，可讓您執行完整功能的 VoIP 解決方案，而不必擔心 PBX 整合或產生 IP-PBX 基礎結構的實際部署及維護成本。 此解決方案同時支援現場和遠端工作者。
 
-在此部署中，所有呼叫都會透過 IP 網路路由傳送。 PSTN 的來電會路由傳送至適當的 PSTN 閘道。 商務用 Skype 或 Lync Phone Edition 是做為 softphone 的服務。 因為沒有 PBX 電話供使用者控制，所以遠端呼叫控制無法使用且不需要。 語音信箱和自動語音應答服務可透過選用 Exchange 整合通訊 (UM) 進行部署。
+在此部署中，所有呼叫都會透過 IP 網路路由傳送。 PSTN 的來電會路由傳送至適當的 PSTN 閘道。 商務用 Skype 或 Lync 電話 Edition 是做為 softphone 的服務。 因為沒有 PBX 電話供使用者控制，所以遠端呼叫控制無法使用且不需要。 語音信箱和自動語音應答服務可透過選用的 Exchange 整合通訊 (UM) 進行部署。
 
 > [!NOTE]
-> 除了支援商務用 Skype Server 所需的網路結構之外，僅 VoIP 部署也可以使用小型的合格閘道來支援傳真機器和類比裝置。
+> 除了支援商務用 Skype Server 所需的網路結構之外，僅限 VoIP 部署也可以使用小型的合格閘道來支援傳真機器和類比裝置。
 
 下圖顯示僅限 VoIP 部署的一般拓撲。
 
@@ -110,7 +110,7 @@ Enterprise Voice 可提供新的企業，以及現有公司的新 office 網站�
 
 具有多個網站的企業通常會在每個網站上部署一或多個閘道。 分支網站可以透過閘道或透過 Survivable 分支裝置連接至 PSTN，此裝置會將閘道和伺服器結合到單一方塊中。 如果分支網站使用閘道，則網站上必須有註冊機構和轉送伺服器，除非 WAN 連結可復原。 在前端伺服器上組合的一或多個轉送伺服器，可在每個網站上路由傳送一或多個閘道的來電。 建議將網站上的註冊機構、轉送伺服器和閘道部署為 Survivable 分支裝置。
 
-決定 PSTN 閘道的數量、大小和位置可能是規劃企業語音基礎結構時必須進行的最重要且昂貴的決策。
+在規劃企業語音基礎結構時，決定其數目、大小和位置的 PSTN 閘道可能是您必須作出的最重要和昂貴的決策。
 
 以下是需要考慮的主要問題。 請記住，這些問題的答案都是相互依賴的
 
@@ -126,7 +126,7 @@ Enterprise Voice 可提供新的企業，以及現有公司的新 office 網站�
 
 轉送伺服器可以透過多個閘道、會話邊界控制器 (SBCs) Internet 電話語音服務提供者所提供的電話，或是二者的組合，進行路由傳送。 此外，集區中的多個轉送伺服器可以與多個閘道互動。 在轉送伺服器與閘道之間定義的邏輯路由稱為主幹。 當內部使用者加入 PSTN 通話時，前端集區上的輸出路由邏輯會選擇哪一個主幹可路由傳送該特定通話的所有可能可使用的組合。 使用 DNS 負載平衡，如果呼叫因集區中的特定轉送伺服器問題而無法抵達閘道，則會將此呼叫重試至集區中的替代轉送伺服器。
 
-如需規劃多個閘道的詳細資訊，請參閱 [M:N 主幹 In 商務用 Skype Server](m-n-trunk.md)。
+如需規劃多個閘道的詳細資訊，請參閱[M:N 主幹 in 商務用 Skype Server](m-n-trunk.md)。
 
 如需其他輸出路由增強功能的詳細資訊，請參閱 [通話路由](/previous-versions/office/lync-server-2013/lync-server-2013-voice-routes)。
 
@@ -134,7 +134,7 @@ Enterprise Voice 可提供新的企業，以及現有公司的新 office 網站�
 
 當您考慮閘道部署的基本問題時，請遵循下列步驟：
 
-1. 使用 Enterprise Voice，計算您想要提供 PSTN 連線的網站數目。
+1. 使用企業語音，計算您想要提供 PSTN 連線的網站數目。
 
 2. 評估每個網站的流量 (使用者數目，以及每個使用者) 每小時平均通話數目。
 

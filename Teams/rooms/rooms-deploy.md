@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 請閱讀本文，瞭解如何部署Microsoft Teams 會議室部署階段。
-ms.openlocfilehash: 86564c8b90b0c7c8269d5de258c31d140eca7dc4
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 6c35b8c8456659c10f444defc9ff9f4809c032965f01a85c59d41cc67e6fa367
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646694"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342808"
 ---
 # <a name="deployment-overview"></a>部署概觀
 
 部署Microsoft Teams 會議室階段：
 
-- 確認您的會議室 (位置) 部署相依性
+- 確認您的部署位置 (會議室) 部署相依性
 - 建立Microsoft Teams或商務用 Skype Exchange帳戶，並將這些帳戶指派給主機裝置 (請參閱設定[Microsoft Teams 會議室) ](rooms-configure-accounts.md)
 - 重新設定 Microsoft Surface 平板電腦以在主機Microsoft Teams 會議室使用 (請參閱設定主機Microsoft Teams 會議室[](console.md)或部署大量部署Microsoft Teams 會議室[指南](rooms-scale.md)) 
 -  (選) 為系統設定 Microsoft Operations Management Suite (請參閱使用[Azure 監視器](azure-monitor-deploy.md)部署Microsoft Teams 會議室管理
@@ -45,7 +45,7 @@ AV 技術可用於上一個工作，但貴組織的 IT 部門必須執行程式�
 -   [證書](rooms-prep.md#certificates)
 -   [代理](rooms-prep.md#proxy)
 
-**Pro提示**- 如果您打算使用 Proxy 伺服器提供連線或 Teams 或 商務用 Skype 的存取權，請首先閱讀 [本文](../proxy-servers-for-skype-for-business-online.md)。 當涉及 proxy 伺服器商務用 Skype流量時，建議您完全忽略 Proxy 伺服器。 商務用 Skype流量已加密，因此 Proxy 伺服器不會使其更安全。 在更廣泛的部署中，建議您遵循準備網路Teams頻寬規劃及評估網路[](../prepare-network.md)適合即時流量的指南。
+**Pro提示**- 如果您想要使用 Proxy 伺服器提供連線或 Teams 或 商務用 Skype的存取權，請首先閱讀 [本文](../proxy-servers-for-skype-for-business-online.md)。 當涉及 proxy 伺服器商務用 Skype流量時，建議您完全忽略 Proxy 伺服器。 商務用 Skype流量已加密，因此 Proxy 伺服器不會使其更安全。 在更廣泛的部署中，建議您遵循準備網路Teams頻寬規劃及評估網路[](../prepare-network.md)適合即時流量的指南。
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|
@@ -97,7 +97,7 @@ _範例 Microsoft Teams 會議室服務帳戶規劃資料表_
 
 建立指派給包含您帳戶之組織單位的群組原則Microsoft Teams 會議室物件。 請使用這個功能： 
 
--   [設定 Power 和 local account 設定](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms)。
+-   [設定 Power 和 Local 帳戶設定](rooms-operations.md#configuring-group-policy-for-microsoft-teams-rooms)。
 -   啟用Windows更新。
 -   啟用 PowerShell 重處理。 您可以設定啟動腳本以執行腳本：Enable-PSRemoting -Force
 
@@ -129,7 +129,7 @@ _範例 Microsoft Teams 會議室服務帳戶規劃資料表_
 
 ### <a name="device-software-installation"></a>裝置軟體安裝 
 
-規劃部署Microsoft Teams 會議室，您有許多選項可考慮安裝所需的軟體。 下表說明常見案例與方法。 
+規劃部署Microsoft Teams 會議室時，有許多選項可考慮安裝所需的軟體。 下表說明常見案例與方法。 
 
 | **案例**            | **方法**         |
 |-------------------------|-----------------------|   
@@ -138,7 +138,7 @@ _範例 Microsoft Teams 會議室服務帳戶規劃資料表_
 | 部署超過 50 Microsoft Teams 會議室裝置、部署來自多個廠商的裝置，或需要組織專用代理程式做為部署的一部分。 | 使用以工作順序程式為基礎的軟體建立和發佈平臺，例如[Microsoft Endpoint Configuration Manager。](rooms-scale.md)  |
 
 
-**Pro提示**- Microsoft Teams 會議室網路上必須有有效且唯一的機器名稱。 許多監控和警示系統將電腦名稱稱顯示為金鑰識別碼，因此必須針對 Microsoft Teams 會議室 部署開發命名慣例，讓支援人員輕鬆找到已標為需要動作的 Microsoft Teams 會議室。 範例可能是使用一種模式，即使用一種由一種模式所建立的網站聊天室名稱 - ** (的一種) 。 
+**Pro提示**- Microsoft Teams 會議室網路上必須有有效且唯一的機器名稱。 許多監控和警示系統將電腦名稱稱顯示為金鑰識別碼，因此必須針對 Microsoft Teams 會議室 部署開發命名慣例，讓支援人員輕鬆找到已標為需要動作的 Microsoft Teams 會議室。 範例可能是使用一種模式，即使用一種由一種模式所建立 - ** (-LON-CURIE) 。 
 
 在部署中，您也需要考慮管理及配置由應用程式安裝程式所建立之Microsoft Teams 會議室策略。 [](/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts)
 
@@ -154,7 +154,7 @@ _範例 Microsoft Teams 會議室服務帳戶規劃資料表_
 
 ### <a name="device-deployment"></a>裝置部署
 
-將軟體部署到 Microsoft Teams 會議室 裝置之後，請建立您的方案，將裝置及其指派的周邊裝置出貨到您的會議室，然後繼續進行安裝和組組。 
+將軟體部署到 Microsoft Teams 會議室 裝置之後，請建立您的方案，將裝置及其指派的周邊裝置運送到您的會議室，然後繼續進行安裝和配置。 
 
 
 |  &nbsp;  |   &nbsp;  |
@@ -169,7 +169,7 @@ _範例部署資料表_
 | 倫敦總部 | 居裡         | 中型        |                                   |                  |                                          |                                             |
 | 雪梨總部 | 山          | 大型         |                                   |                  |                                          |                                             |
 
-### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Microsoft Teams 會議室應用程式和周邊裝置組組 
+### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Microsoft Teams 會議室應用程式和周邊裝置組 
 
 每個 Microsoft Teams 會議室 系統已實際部署並連接支援的周邊裝置之後，您必須設定 Microsoft Teams 會議室 應用程式，以指派先前建立之 Microsoft Teams 會議室 資源帳戶和密碼，讓 Microsoft Teams 會議室 系統能夠登錄 Microsoft Teams 或 商務用 Skype 和 Exchange。 利用檔其他位置連結的經過認證的 USB 音訊和視像周邊設備是一項關鍵。 否則可能會導致無法預測的行為。 
 
@@ -188,7 +188,7 @@ _範例部署資料表_
 
 部署Microsoft Teams 會議室系統之後，您應該測試它。 檢查已部署Microsoft Teams 會議室[中所列的](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)功能是否可正常使用。 我們強烈建議部署小組確認Microsoft Teams 會議室已記錄至 Microsoft Operations Management Suite (是否) 。 您還必須進行數次測試通話和會議，以檢查品質。 詳細資訊，請參閱此 [實用的部署檢查清單](console.md#microsoft-teams-rooms-deployment-checklist)。
 
-我們建議您在一般 Teams 或 商務用 Skype 推出時，設定通話品質儀表板 (CQD) 的建庫檔案、監控品質趨勢，以及參與體驗品質檢閱程式。 詳細資訊，請參閱改善及[監控通話品質Teams。](../monitor-call-quality-qos.md) 
+我們建議您在推出一般 Teams 或 商務用 Skype 時，設定通話品質儀表板 (CQD) 的建庫檔案、監控品質趨勢，以及參與體驗品質檢閱程式。 詳細資訊，請參閱改善及[監控通話品質Teams。](../monitor-call-quality-qos.md) 
 
 ### <a name="asset-management"></a>資產管理
 

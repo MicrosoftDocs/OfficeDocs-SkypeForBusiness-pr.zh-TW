@@ -14,27 +14,27 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: 您無法完全刪除全域原則。 在全域原則上使用 [ **刪除** ] 選項，只會將全域原則重設為預設設定，但不包括對任何外部使用者存取選項的支援。
-ms.openlocfilehash: a60516ce3eef125eb754d8d9635b3112d91d51dd
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+description: 您無法完全刪除全域原則。使用全域原則的 **[刪除]** 選項只會將全域原則重設為預設設定，而預設設定不包含對任何外部使用者存取選項的支援。
+ms.openlocfilehash: 824d9f6c924a197a379f668263a23a6df89c27a980c82ea4d13abdd8621968da
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234818"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343427"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>在商務用 Skype Server 中重設外部使用者存取的全域原則 
 
-如果您已建立或設定不再想要使用的外部使用者存取原則，您可以使用下列方法：
+如果您已建立或設定不想再使用的外部使用者存取原則，則可以執行下列動作：
 
   - 刪除任何已建立的網站或使用者原則。
 
-  - 將全域原則重設為預設設定。 預設全域原則設定拒絕任何外部使用者存取。 無法刪除全域原則。
+  - 將全域原則重設為預設設定。預設全域原則設定拒絕任何外部使用者存取。全域原則無法刪除。
 
-您無法完全刪除全域原則。 全域原則上的 **Delete** 選項只會將全域原則重設為預設設定，但不包括對任何外部使用者存取選項的支援。
+您無法完全刪除全域原則。使用全域原則的 **[刪除]** 選項只會將全域原則重設為預設設定，而預設設定不包含對任何外部使用者存取選項的支援。
 
 ## <a name="to-reset-the-global-policy-to-the-default-settings"></a>若要將全域原則重設為預設設定
 
-1.  從屬於 RTCUniversalServerAdmins 群組成員或具有同等使用者權限的使用者帳戶，或是指派給 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
+1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
 2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。
 
@@ -51,6 +51,8 @@ ms.locfileid: "58234818"
 
 ## <a name="to-reset-the-global-external-access-policy"></a>重設全域外部存取原則
 
-  - 這個命令可重設全域外部存取原則：<br/><br/>Remove-CsExternalAccessPolicy 身分識別 "global"
+  - 這個命令可重設全域外部存取原則：
+    
+        Remove-CsExternalAccessPolicy -Identity "global"
 
 如需詳細資訊，請參閱 [get-csexternalaccesspolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) Cmdlet 的 [說明] 主題。

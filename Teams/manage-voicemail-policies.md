@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 管理使用者的語音信箱政策。
-ms.openlocfilehash: aa6b08cba7118a5e43f7f2bd3baea7fb3bc7f158
-ms.sourcegitcommit: 2419348e964cfe97b72d533f267c5d7055d5366f
+ms.openlocfilehash: 112a2ac98ee22c46cb78c579ead947f70a1d6d447ac81ace3aef224304a281dd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/12/2021
-ms.locfileid: "52910055"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342967"
 ---
 # <a name="setting-voicemail-policies-in-your-organization"></a>在組織中設定語音信箱政策
 

@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 description: 當您設定商務用 Skype Server 2015 中的 ip 位址時，有三個選項可供您設定商務用 Skype Server 2015 只支援 ip 版本 4 (IPv4) 、只有 ip 版本 6 (IPv6) ，或是兩個 (稱為雙重堆疊) 的組合。
-ms.openlocfilehash: 5621e10420505b82c04fde2ae4116b9f5b22b324
-ms.sourcegitcommit: 5c59f9bf5a9477607b378c23fa3c8670930dc428
+ms.openlocfilehash: 7147c4c9c6df797ddfaf8340faaf53168be2301877c75e20b6f8d956afe21481
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2021
-ms.locfileid: "53646084"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343397"
 ---
 # <a name="ip-version-planning-tool"></a>IP 版本規劃工具
  

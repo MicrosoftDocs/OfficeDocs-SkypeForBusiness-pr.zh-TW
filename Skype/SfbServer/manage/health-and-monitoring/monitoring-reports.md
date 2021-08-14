@@ -11,33 +11,33 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
-description: 摘要：瞭解如何在商務用 Skype Server 中監控報告。
-ms.openlocfilehash: 32e16d02f458ca36fb18b52790966c68a354503e
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解商務用 Skype Server 中的監控報告。
+ms.openlocfilehash: 8a1dd4e75b813f2208eb59f7608622b757d4f3ac58c93a012722afbc051a6de1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827763"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345560"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>在商務用 Skype Server 中使用監控報告 
  
 **摘要：** 深入瞭解商務用 Skype Server 中的監控報告。
   
-商務用 Skype 伺服器包含一組 Microsoft SQL Server Reporting Service 所發佈的標準報告。 這些可透過網頁瀏覽器存取的報告，會根據詳細通話記錄 (CDR) 和經驗品質 (QoE) 資料庫中儲存的 CDR 和 QoE 記錄，提供使用情況、通話診斷資訊況及媒體品質資訊。
+商務用 Skype Server 包括一組 Microsoft SQL Server 報表服務所發佈的標準報表。 這些可透過網頁瀏覽器存取的報告，會根據詳細通話記錄 (CDR) 和經驗品質 (QoE) 資料庫中儲存的 CDR 和 QoE 記錄，提供使用情況、通話診斷資訊況及媒體品質資訊。
   
 若要使用這些報告，您必須在執行 SQL Server 實例的電腦上安裝監控報告。
   
 ## <a name="in-this-section"></a>本章節內容
 
-- [在商務用 Skype Server 中使用監控儀表板](monitoring-dashboard.md) 為系統管理員提供系統健康情況和系統使用狀況的快速綜述。
+- [在商務用 Skype Server 中使用監控儀表板](monitoring-dashboard.md)為系統管理員提供系統健康情況和系統使用狀況的快速綜述。
     
-- [商務用 Skype Server 中的系統使用狀況報告](system-usage-reports.md) 提供以商務用 Skype Server 所收集的 CDR 資料為基礎的系統使用狀況資訊。
+- [商務用 Skype Server 中的系統使用狀況報告](system-usage-reports.md)根據商務用 Skype Server 所收集的 CDR 資料，提供系統使用狀況資訊。
     
-- [在商務用 Skype Server 中 (每位使用者) 的通話診斷報告](call-diagnostic-reports-per-user.md) 提供失敗的對等和會議會話的每一使用者相關資訊。
+- [ (每位使用者) 中的通話診斷報告商務用 Skype Server](call-diagnostic-reports-per-user.md)提供失敗的對等和會議會話的每一使用者相關資訊。
     
-- [在商務用 Skype Server 中通話診斷報告](call-diagnostic-reports.md) 提供失敗的對等和會議會話的摘要資訊和診斷資料。
+- [商務用 Skype Server 中的通話診斷報告](call-diagnostic-reports.md)提供失敗的對等和會議會話的摘要資訊和診斷資料。
     
-- [商務用 Skype Server 中的媒體質量診斷報告](media-quality-diagnostic-reports.md) 提供通話品質的相關資訊，以及失敗通話的診斷與疑難排解資訊。
+- [商務用 Skype Server 中的媒體質量診斷報告](media-quality-diagnostic-reports.md)提供通話品質的相關資訊，以及失敗通話的診斷與疑難排解資訊。
     
 ## <a name="locating-records"></a>找出記錄
 

@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 2015 中設定持久聊天室的增益集
+title: 在商務用 Skype Server 2015 中設定 Persistent 聊天室的增益集
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,24 +12,24 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
-description: 摘要：瞭解如何在商務用 Skype Server 2015 中設定持久聊天伺服器聊天室的增益集。
-ms.openlocfilehash: 1aca54f3db1229527256d1e2801cb057f4f79387
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解如何在商務用 Skype Server 2015 中設定 Persistent 聊天室伺服器聊天室的增益集。
+ms.openlocfilehash: 0c5b32d01c4464c367cb6c7332ca279fa23c8b4b1fc80e36bc12dd2161812dcd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49815074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345540"
 ---
-# <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定持久聊天室的增益集
+# <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定 Persistent 聊天室的增益集
  
-**摘要：** 瞭解如何在商務用 Skype Server 2015 中設定持久聊天伺服器聊天室的增益集。
+**摘要：** 瞭解如何在商務用 Skype Server 2015 中設定 Persistent 聊天室伺服器聊天室的增益集。
   
 增益集是用來將 URLs 與聊天室產生關聯，以擴充會議室體驗。 這些 URLs 會出現在用戶端交談擴充窗格中。 一般增益集可能會包含指向 Silverlight 應用程式的 URL，該應用程式會在將股市代號傳送至聊天室時進行截獲，並在 [擴充性] 窗格中顯示 stock 記錄。 其他範例還包括在聊天室中嵌入 OneNote 2013 URL 做為增益集，以包含一些分享內容，例如「第一印象」或「本日熱門話題」。
   
  在使用者可以在用戶端中看到增益集之前，您必須將增益集新增至已註冊的增益集清單，而聊天室管理員或建立者必須與增益集產生關聯。
   
 > [!NOTE]
-> 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或是繼續使用商務用 Skype Server 2015。 
+> 持續聊天可在商務用 Skype Server 2015 中取得，但在商務用 Skype Server 2019 中已不再支援。 Teams 中提供相同的功能。 如需詳細資訊，請參閱[Microsoft Teams 升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續性聊天，您可以選擇將需要這項功能的使用者遷移至 Teams，或是繼續使用商務用 Skype Server 2015。 
 
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>使用控制台設定聊天室的增益集
 
@@ -37,7 +37,7 @@ ms.locfileid: "49815074"
   
 1. 使用指派給 CsPersistentChatAdministrator 或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任一部電腦。
     
-2. 從 [ **開始** ] 功能表中，選取商務用 Skype Server 控制台或開啟瀏覽器視窗，然後輸入管理 URL。
+2. 從 [**開始**] 功能表中，選取 [商務用 Skype Server 控制台] 或開啟瀏覽器視窗，然後輸入管理 URL。
     
 3. 在左導覽列中，按一下 [常設聊天室]，然後按一下 [增益集]。
     
@@ -57,7 +57,7 @@ ms.locfileid: "49815074"
     
 ## <a name="configure-add-ins-by-using-windows-powershell"></a>使用 Windows PowerShell 設定增益集
 
-您可以使用下列 Windows PowerShell Cmdlet 來設定聊天室的增益集。 如需語法的詳細資訊（包括所有可用參數），請參閱 [商務用 Skype Server 2015 管理命令](../management-shell.md)介面。
+您可以使用下列 Windows PowerShell Cmdlet 來設定聊天室的增益集。 如需語法的詳細資訊（包括所有可用參數），請參閱[商務用 Skype Server 2015 管理命令](../management-shell.md)介面。
   
 
 |**指令程式**|**描述**|

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是塞爾維亞Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 9689c821c1901513483145f5cf6917ab61f68d08
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b0d6928b216cf53343c956401d217fddaeccf3bae6f84b96d771f54f5ba011aa
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51119302"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343087"
 ---
 # <a name="availability-in-serbia"></a>塞爾維亞的可用性
 

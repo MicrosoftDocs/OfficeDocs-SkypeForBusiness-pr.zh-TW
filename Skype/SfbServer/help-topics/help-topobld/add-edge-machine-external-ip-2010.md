@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17906fc5-1b5c-4819-849d-bebf0496a763
 description: 您可以在此頁面上設定屬性，將 Edge Server 指向 Access Edge service、Web 會議 Edge service 和 A/V Edge service 的外部位置。
-ms.openlocfilehash: 0e472bf49da43faaaa87c037025fc89c71f6ac69
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: b2d73fd7e5857175cd67db2b6a016ae17d8e4a052c80c6c3ec4a196b5441c4e2
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51114289"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343627"
 ---
 # <a name="add-edge-machine-external-ip-2010"></a>新增 Edge 電腦外部 IP 2010
 

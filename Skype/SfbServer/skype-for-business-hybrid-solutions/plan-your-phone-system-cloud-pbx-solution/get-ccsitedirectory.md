@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
-description: CcSiteDirectory Cmdlet 會顯示網站層級設定檔的目前儲存目錄。 該資料夾包含基本 VHD 和商務用 Skype 雲端連接器版本安裝檔案。 此資料夾應與雲端連接器網站的所有其他裝置共用。
-ms.openlocfilehash: 6722b66f6c71feec158adaf442f9e57ef9943c84
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Get-CcSiteDirectory Cmdlet 會顯示儲存網站層級設定檔的目前目錄。 資料夾包含基本 VHD 和商務用 Skype Cloud Connector Edition 安裝檔案。 此資料夾應與雲端連接器網站的所有其他裝置共用。
+ms.openlocfilehash: 279afabbb88aab162be8445007772e24d24d06d935130d5f4f27a8755a2fd25c
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799863"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343187"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
-CcSiteDirectory Cmdlet 會顯示網站層級設定檔的目前儲存目錄。 該資料夾包含基本 VHD 和商務用 Skype 雲端連接器版本安裝檔案。 此資料夾應與雲端連接器網站的所有其他裝置共用。
+Get-CcSiteDirectory Cmdlet 會顯示儲存網站層級設定檔的目前目錄。 資料夾包含基本 VHD 和商務用 Skype Cloud Connector Edition 安裝檔案。 此資料夾應與雲端連接器網站的所有其他裝置共用。
   
-這個 Cmdlet 適用于雲端連接器 Edition 1.4.1，1.4.2。
+此 Cmdlet 適用于 Cloud Connector Edition 1.4.1，1.4.2。
   
 ```powershell
 Get-CcSiteDirectory
@@ -39,7 +39,7 @@ Get-CcSiteDirectory
 
 ### <a name="example-1"></a>範例 1
 
-下列範例顯示了儲存雲端連接器元件之配置和虛擬機器檔案的目前資料夾：
+下列範例會顯示目前的資料夾，其中儲存 Cloud Connector 元件的設定和虛擬機器檔案：
   
 ```powershell
 Get-CcSiteDirectory
@@ -48,17 +48,17 @@ Get-CcSiteDirectory
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-若要提供閘道關聯性與高可用性，可以將雲端連接器裝置合併在網站中。 使用者已指派給網站，而不是雲端連接器裝置。 每個網站都有儲存基本 VHD 和雲端連接器安裝檔案的共用資料夾。 裝置會在部署期間使用此資料夾。 預設資料夾為 C:\Users\%userprofile%\CloudConnector\SiteRoot。 您可以使用 CcSiteDirectory Cmdlet 變更路徑。
+若要提供閘道親近性和高可用性，可以在網站中結合雲端連接器裝置。 使用者會指派給網站，而不是雲端連接器裝置。 每個網站都有儲存基本 VHD 和 Cloud Connector 安裝檔案的共用資料夾。 裝置會在部署期間使用此資料夾。 預設資料夾為 C:\Users \% userprofile%\CloudConnector\SiteRoot。 您可以使用 Set-CcSiteDirectory Cmdlet 變更路徑。
   
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>
 
-無。 CcSiteDirectory Cmdlet 不接受流水線輸入。
+無。 Get-CcSiteDirectory Cmdlet 不接受管線傳送的輸入。
   
 ## <a name="return-types"></a>傳回類型
 <a name="ReturnTypes"> </a>
 
-這個命令會傳回檔案路徑。
+這個命令會傳回檔路徑。
   
 ## <a name="see-also"></a>另請參閱
 <a name="ReturnTypes"> </a>

@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: 在您使用商務用 Skype Server 2015 規劃工具開始設計及規劃商務用 Skype Server 2015 基礎結構之前，您必須先安裝規劃工具。 規劃工具不需要部署到屬於您計畫安裝商務用 Skype Server 2015 的網域或基礎結構中的工作站或伺服器上。 規劃工具附帶的讀我檔案詳細說明安裝及使用此工具的重要資訊。 為了清楚起見，自述檔中的部分資訊是重複的。
-ms.openlocfilehash: 29a3bd35191cf326cafd1f4ad4f14fab50e47ea3
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: ffa1bceca3e59e42276718b5f139ac6525d36f85face94c762ceebe3013c7487
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51122377"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54343407"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中安裝規劃工具
 
@@ -42,9 +42,9 @@ ms.locfileid: "51122377"
 
 - Windows 7、32位版本
 
-- 使用 Windows on Win32 的 windows 7、64位版本 (WOW) 
+- Windows 7、64位 edition 使用 Win32 上 Windows (WOW) 
 
-- Windows Server 2008 R2，使用 WOW
+- Windows伺服器 2008 R2，使用 WOW
 
 此外，規劃工具需要 Microsoft .NET Framework 4.5。
 
@@ -58,13 +58,13 @@ ms.locfileid: "51122377"
 
 2. 使用 Windows Explorer 或命令視窗，找到您下載規劃工具安裝檔的目錄。
 
-3. 找出 SkypeForBusinessPlanningTool.msi。 在 [Windows Explorer] 中，按兩下檔案。 在命令視窗中，輸入檔案名，然後按 **enter** 執行該檔案。
+3. 找出 SkypeForBusinessPlanningTool.msi。 在 Windows Explorer 中，按兩下檔案。 在命令視窗中，輸入檔案名，然後按 **enter** 執行該檔案。
 
-4. 在 [商務用 Skype 伺服器 2015] 的 [歡迎] 頁面上，按一下 [ **規劃工具安裝精靈]** 的 [ **下一步**]。
+4. 在 [**商務用 Skype Server 2015，規劃工具安裝精靈]** 的 [歡迎] 頁面上，按 **[下一步]**。
 
 5. 檢查 **End-User 授權合約**，如果您選擇接受授權合約中的使用條款，請選取 [ **我接受授權合約中的條款** ]，然後按 **[下一步]**。
 
-6. 選擇安裝規劃工具檔案的位置。 預設位置是 \Skype (x86) for Business Server 2015 \ 規劃工具的 C:\Program 檔案。 若要變更安裝位置，請按一下 [ **變更**]。 在 [ **變更目的地資料夾**] 中，流覽或輸入要安裝盤案的位置，按一下 **[確定]**，然後按 **[下一步**]。
+6. 選擇安裝規劃工具檔案的位置。 預設位置是 (x86) \ 商務用 Skype Server 2015 \ 規劃工具 C:\Program 檔案。 若要變更安裝位置，請按一下 [ **變更**]。 在 [ **變更目的地資料夾**] 中，流覽或輸入要安裝盤案的位置，按一下 **[確定]**，然後按 **[下一步**]。
 
 7. 安裝程式現在已準備好安裝規劃工具。 按一下 [ **安裝** ] 以開始安裝程式。
 
@@ -75,11 +75,11 @@ ms.locfileid: "51122377"
 ## <a name="optional-software"></a>選用軟體
 <a name="Optional_Software"> </a>
 
-商務用 Skype Server 2015 規劃工具是設計用來匯出至 Microsoft Excel 和 Microsoft Visio。 雖然不需要在規劃工具作業時執行這些應用程式，但是會為部署和設計的檔增加重要的價值。
+商務用 Skype Server 2015 規劃工具的設計目的是要匯出至 Microsoft Excel 和 Microsoft Visio。 雖然不需要在規劃工具作業時執行這些應用程式，但是會為部署和設計的檔增加重要的價值。
 
 ### <a name="microsoft-excel"></a>Microsoft Excel
 
-將設計匯出至 Microsoft Excel 會建立一個報告，該報告會顯示試算表中的七個索引標籤：
+將您的設計匯出為 Microsoft Excel 會在試算表中建立顯示七個索引標籤的報告：
 
 - 摘要-顯示網站設定的資訊，包括使用者計數、容量設定和伺服器設定檔資訊。
 
@@ -97,14 +97,14 @@ ms.locfileid: "51122377"
 
 ### <a name="microsoft-visio"></a>Microsoft Visio
 
-將您的設計匯出至 Microsoft Visio，會建立圖表，以供您設定的拓撲和基礎結構的檔目的使用。 您可以編輯並重新排列已匯入的圖表，以符合您的檔需求。 典型的 Visio 圖表會包含：
+將您的設計匯出至 Microsoft Visio 會建立圖表，以供您設定的拓撲和基礎結構的檔目的使用。 您可以編輯並重新排列已匯入的圖表，以符合您的檔需求。 一般的 Visio 圖表會包含：
 
 > [!NOTE]
-> 如果您的設計足夠大，需要超過三部前端伺服器，則會為前端集區、前端伺服器、執行 SQL Server 的電腦、IP 位址和 Fqdn 建立額外的頁面。
+> 如果您的設計足夠大，需要超過三部前端伺服器，則會為前端集區、前端伺服器、執行 SQL Server 的電腦、IP 位址和 fqdn 建立額外的頁面。
 
-- 已設定之商務用 Skype Server 2015 網站的全域拓撲圖表。
+- 已設定商務用 Skype Server 2015 網站的全域拓撲圖表。
 
-- [網站名稱] 索引標籤-顯示具有 Edge Server 的網站設定拓撲，防火牆，公用交換電話網路 (PSTN) 與閘道和內部伺服器部署。 內部部署包含已設定的伺服器及集區，包括前端集區、SQL Server 型伺服器、Active Directory 網域服務、Director、Exchange 整合通訊 (UM) 伺服器、Exchange 信箱伺服器、Office Web Apps Server、轉送伺服器及 Persistent Chat Server。
+- [網站名稱] 索引標籤-顯示具有 Edge Server 的網站設定拓撲，防火牆，公用交換電話網路 (PSTN) 與閘道和內部伺服器部署。 內部部署包含已設定的伺服器及集區，包括前端集區、SQL Server 型伺服器、Active Directory 網域服務、director、Exchange 整合通訊 (UM) 伺服器、Exchange 信箱伺服器、Office Web 應用程式伺服器、轉送伺服器及 Persistent Chat server。
 
 - Edge Network 圖表-詳述具有關聯之 IP 位址和 Fqdn 之 Edge Server 設定的圖表。 此外，也包含 DNS 負載平衡與硬體負載平衡器。 此外，會顯示 Director 和前端伺服器或前端集區，並有相關聯的 DNS LB 或 HLB，以及已指派的 IP 位址 (規劃工具可同時支援 IPv4 和 IPv6 位址) 和 FQDN。
 

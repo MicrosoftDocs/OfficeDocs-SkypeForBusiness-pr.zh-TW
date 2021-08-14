@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: 摘要：在商務用 Skype Server 中建立新的 PIN 原則。
-ms.openlocfilehash: b0d1be74e509fbaddfc59250f4f5ce05a2021260
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: a4bacce5d6a3bcaae2d2c114b6b4dd7dfda5bf6147da4ba51c14abd4d10ed1d4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49828403"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345700"
 ---
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中建立新的 PIN 原則
  
 **摘要：** 在商務用 Skype Server 中建立新的 PIN 原則。
   
-您可以使用 [ **PIN 原則** ] 頁面提供個人識別碼 (PIN) 驗證，以供使用 IP 電話連線至商務用 Skype 的使用者使用。 若要使用 PIN 驗證，請確定已在 Web 服務設定中選取了 [啟用 PIN 驗證]。
+您可以使用 [ **PIN 原則**] 頁面，提供個人識別碼 (PIN) 驗證，以供使用 IP 電話連線至商務用 Skype 的使用者使用。 若要使用 PIN 驗證，請確定已在 Web 服務設定中選取了 [啟用 PIN 驗證]。
   
 請遵循下列步驟建立使用者層級或網站層級的 PIN 原則。 
   
@@ -32,7 +32,7 @@ ms.locfileid: "49828403"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中，依序按一下 [安全性] 和 [PIN 原則]。
     

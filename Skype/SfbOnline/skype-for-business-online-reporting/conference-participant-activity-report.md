@@ -20,25 +20,25 @@ ms.custom:
 - Reporting
 - O365E_ReportsS4BPartActivity
 description: '瞭解如何取得會議商務用 Skype活動報告，以及如何解譯及自訂報告。 '
-ms.openlocfilehash: 012450cca19d34457d9b66598dec566e5a11b93d
-ms.sourcegitcommit: 7ebcff93ecbdc064414d7110e182b29371ca4f1f
+ms.openlocfilehash: 75e19e665cef14c2b06202368948b0ab19e2836a987552634d72e84bf6e6527a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "52238248"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54342688"
 ---
 # <a name="conference-participant-activity-report"></a>會議參與者活動報告
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-報表 **儀表板** 會顯示您組織中Microsoft 365 Office 365使用方式的資料。 您可以使用會議商務用 Skype活動報告，查看貴組織中使用者參與的 IM、音訊/視像、應用程式共用、Web 和撥入/撥出會議數量。
+報表 **儀表板** 會顯示您組織中Microsoft 365 Office 365使用方式的資料。 您可以使用 商務用 Skype參與者活動報告，查看貴組織中使用者參與的 IM、音訊/視像、應用程式共用、Web 和撥入/撥出會議數量。
 
 如需深入瞭解 [，請查看報告](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 概觀。
   
 此報告與其他報告商務用 Skype一起，提供貴組織會議活動的詳細資訊。 當您調查、規劃及為貴組織做出其他商務決策時，這些詳細資料非常實用。
   
 > [!NOTE]
-> 當您以系統管理員商務用 Skype登入系統管理中心時，Microsoft 365報告。 
+> 當您以系統管理員的商務用 Skype登入時，可以看到所有Microsoft 365 系統管理中心。 
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-participant-report"></a>如何取得會議商務用 Skype報告
 
@@ -82,7 +82,7 @@ ms.locfileid: "52238248"
 *    **IM** 顯示參與的 IM 會議總數。 
 *    **音訊/視** 視顯示參與的音訊/視訊會議總數。
 *    **應用程式共用** 會顯示參與的應用程式共用會議總數。
-*    **Web** 會顯示參與的網頁會議總數。 
+*    **Web** 顯示參與的網頁會議總數。 
 *    **撥入/撥出 - 第三** 方會顯示使用協力廠商音訊會議提供者所組織的撥入/撥出會議總數。 
 *    **音訊/視音訊分鐘** 數顯示參與使用音訊/視像的會議時所使用的總分鐘數。 
 
@@ -94,7 +94,7 @@ ms.locfileid: "52238248"
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>想要查看其他商務用 Skype報表？
 
-- [商務用 Skype活動報告](activity-report.md)您可以瞭解使用者使用對等、組織及參與會議會話的多少。
+- [商務用 Skype活動報告](activity-report.md)您可以查看使用者使用對等、組織及參與會議會話的多少。
     
 - [商務用 Skype裝置使用方式報告](device-usage-report.md)您可以查看裝置，包括Windows型作業系統，以及已安裝應用程式商務用 Skype且用於 IM 和會議的行動裝置。
     
