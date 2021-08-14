@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中 Peer-to-Peer 活動診斷報告
+title: 商務用 Skype Server 中的 Peer-to-Peer 活動診斷報告
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,22 +12,22 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer 活動診斷報告。
-ms.openlocfilehash: 1988dbbc6cf1e2bc54eeafee95756e7633d0ffde
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: d303bd820a7494be2061eb4e36c5413787b83ffcd4fc794f8e98ac3a8d806261
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49827733"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325100"
 ---
-# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>在商務用 Skype Server 中 Peer-to-Peer 活動診斷報告
+# <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 Peer-to-Peer 活動診斷報告
  
 **摘要：** 深入瞭解商務用 Skype Server 中的 Peer-to-Peer 活動診斷報告。
   
-對等活動診斷報告提供對等通訊工作階段成功與失敗的資訊。 請注意，商務用 Skype 伺服器會區別不同的失敗類型：
+對等活動診斷報告提供對等通訊工作階段成功與失敗的資訊。 請注意，商務用 Skype Server 會區別不同類型的失敗：
   
-- **預期的失敗**。 預期的失敗通常是指技術上預期會有的失敗。 例如，假設您撥打電話給某人，但是該名人員不在辦公室，而無法接聽電話。 由於無人接聽電話，該通話在技術上會視為失敗。 另一方面，這是預期的失敗：商務用 Skype 伺服器不會期望您在接聽電話時接聽電話。 同樣地，如果您嘗試將立即訊息傳送給離線的使用者，或傳送給只登入到不支援立即訊息之電話的使用者，則會發生預期的失敗。
+- **預期的失敗**。 預期的失敗通常是指技術上預期會有的失敗。 例如，假設您撥打電話給某人，但是該名人員不在辦公室，而無法接聽電話。 由於無人接聽電話，該通話在技術上會視為失敗。 另一方面，這是預期的失敗：如果您無法接聽電話，商務用 Skype Server 不會期望您接聽電話。 同樣地，如果您嘗試將立即訊息傳送給離線的使用者，或傳送給只登入到不支援立即訊息之電話的使用者，則會發生預期的失敗。
     
-- **未預期的失敗**。 未預期的錯誤正如其名稱所指：在不同的情況下，所發生的未預期錯誤。 例如，假設您撥打某人，該人員可以接聽來電;不過，當商務用 Skype 伺服器嘗試將通話路由傳送至語音信箱時，呼叫失敗，因為 Exchange 整合通訊的連線功能已經遺失。 這是未預期的錯誤：您預期來電永遠會路由到語音信箱。 一般而言，未預期的失敗是真正的失敗：這些失敗可能是無法透過教育使用者或類似措施加以補救的問題。
+- **未預期的失敗**。 未預期的錯誤正如其名稱所指：在不同的情況下，所發生的未預期錯誤。 例如，假設您撥打某人，該人員可以接聽來電;不過，當商務用 Skype Server 嘗試將通話路由傳送至語音信箱時，呼叫會失敗，因為已遺失 Exchange 整合通訊的連線。 這是未預期的錯誤：您預期來電永遠會路由到語音信箱。 一般而言，未預期的失敗是真正的失敗：這些失敗可能是無法透過教育使用者或類似措施加以補救的問題。
     
 請注意，「成功」、「預期的失敗」及「未預期的失敗」計量的總和不一定等於「工作階段總數」計量。例如，在以上說明中，我們有下列值：
   
@@ -39,7 +39,7 @@ ms.locfileid: "49827733"
   
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>存取對等活動診斷報告
 
-對等診斷報告是透過監視報告首頁來存取。 您可以按一下下列其中一個計量， [以在商務用 Skype Server 中存取失敗散佈報告](failure-distribution-report.md) ：
+對等診斷報告是透過監視報告首頁來存取。 您可以按一下下列其中一個計量，[以在商務用 Skype Server 中存取失敗散佈報告](failure-distribution-report.md)：
   
 - 未預期失敗次數
     

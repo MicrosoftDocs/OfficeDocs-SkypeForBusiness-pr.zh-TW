@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 中的依類別分類的架構屬性
+title: 商務用 Skype Server 中的類別的架構屬性
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,23 +12,23 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
-description: 本節列出可包含在每個商務用 Skype Server 類別中的架構屬性，以及可以包含在其他類別中的類別。 如需所有類別及其描述的清單，請參閱在商務用 Skype Server 中的架構類別和描述。 如需所有屬性及其描述的清單，請參閱商務用 Skype Server 中的架構屬性和描述。
-ms.openlocfilehash: 00f524fce7e786c9d30c9442eb964c5356db5e16
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 本節列出可以包含在每個商務用 Skype Server 類別中的架構屬性，以及可以包含在其他類別中的類別。 如需所有類別及其描述的清單，請參閱商務用 Skype Server 中的架構類別和描述。 如需所有屬性及其描述的清單，請參閱商務用 Skype Server 中的架構屬性和描述。
+ms.openlocfilehash: 75ca1dea65462d97cdef8053ab24274646408dd135890592a7c93e2654638685
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813583"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326289"
 ---
-# <a name="schema-attributes-by-class-in-skype-for-business-server"></a>商務用 Skype Server 中的依類別分類的架構屬性
+# <a name="schema-attributes-by-class-in-skype-for-business-server"></a>商務用 Skype Server 中的類別的架構屬性
  
-本節列出可包含在每個商務用 Skype Server 類別中的架構屬性，以及可以包含在其他類別中的類別。 如需所有類別及其描述的清單，請參閱 [在商務用 Skype Server 中的架構類別和描述](schema-classes-and-descriptions.md)。 如需所有屬性及其描述的清單，請參閱 [商務用 Skype Server 中的架構屬性和描述](schema-attributes-and-descriptions.md)。
+本節列出可以包含在每個商務用 Skype Server 類別中的架構屬性，以及可以包含在其他類別中的類別。 如需所有類別及其描述的清單，請參閱[商務用 Skype Server 中的架構類別和描述](schema-classes-and-descriptions.md)。 如需所有屬性及其描述的清單，請參閱[商務用 Skype Server 中的架構屬性和描述](schema-attributes-and-descriptions.md)。
   
 ## <a name="attributes-by-class"></a>屬性 (依類別)
 
 |**Class**|**可能包含這些屬性**|
 |:-----|:-----|
-|連絡人  <br/> |msDS-SourceObjectDN  <br/> msRTCSIP AcpInfo  <br/> msRTCSIP ApplicationDestination  <br/> msRTCSIP ApplicationOptions  <br/> msRTCSIP ApplicationPrimaryLanguage  <br/> msRTCSIP ApplicationSecondaryLanguages  <br/> msRTCSIP ArchivingEnabled  <br/> msRTCSIP DeploymentLocator  <br/> msRTCSIP FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP InternetAccessEnabled  <br/> msRTCSIP 線  <br/> msRTCSIP LineServer  <br/> msRTCSIP OptionFlags  <br/> msRTCSIP OriginatorSid  <br/> msRTCSIP OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP ProxyAddresses  <br/> msRTCSIP SourceObjectType  <br/> msRTCSIP TargetHomeServer  <br/> msRTCSIP TargetUserPolicies  <br/> msRTCSIP TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP UserExtension  <br/> msRTCSIP UserLocationProfile  <br/> msRTCSIP UserPolicies  <br/> msRTCSIP UserPolicy  <br/> msRTCSIP UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
+|連絡人  <br/> |msDS-SourceObjectDN  <br/> msRTCSIP AcpInfo  <br/> msRTCSIP ApplicationDestination  <br/> msRTCSIP ApplicationOptions  <br/> msRTCSIP ApplicationPrimaryLanguage  <br/> msRTCSIP ApplicationSecondaryLanguages  <br/> msRTCSIP ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP InternetAccessEnabled  <br/> msRTCSIP-Line  <br/> msRTCSIP LineServer  <br/> msRTCSIP OptionFlags  <br/> msRTCSIP OriginatorSid  <br/> msRTCSIP OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP ProxyAddresses  <br/> msRTCSIP SourceObjectType  <br/> msRTCSIP TargetHomeServer  <br/> msRTCSIP TargetUserPolicies  <br/> msRTCSIP TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP UserExtension  <br/> msRTCSIP UserLocationProfile  <br/> msRTCSIP UserPolicies  <br/> msRTCSIP UserPolicy  <br/> msRTCSIP UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
 |Mail-Recipient  <br/> |msExchUCVoiceMailSettings  <br/> msExchUserHoldPolicies  <br/> |
 |msRTCSIP ApplicationServerService  <br/> |msRTCSIP ApplicationServerBL  <br/> |
 |msRTCSIP ApplicationServerSettings  <br/> |msRTCSIP ApplicationList  <br/> msRTCSIP ApplicationServerPoolLink  <br/> msRTCSIP ExtensionData  <br/> msRTCSIP ServerVersion  <br/> |
@@ -57,7 +57,7 @@ ms.locfileid: "49813583"
 |msRTCSIP TrustedWebComponentsServer  <br/> |msRTCSIP TrustedWebComponentsServerData  <br/> msRTCSIP TrustedWebComponentsServerFQDN  <br/> msRTCSIP TrustedServerVersion  <br/> |
 |msRTCSIP WebComponentsService  <br/> |msRTCSIP-WebComponentsServers  <br/> |
 |msRTCSIP WebComponentSettings  <br/> |msRTCSIP WebComponentsData  <br/> msRTCSIP-WebComponentsPoolAddress  <br/> msRTCSIP ServerVersion  <br/> |
-|使用者  <br/> |msRTCSIP AcpInfo  <br/> msRTCSIP ApplicationOptions  <br/> msRTCSIP ArchivingEnabled  <br/> msRTCSIP DeploymentLocator  <br/> msRTCSIP FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP InternetAccessEnabled  <br/> msRTCSIP 線  <br/> msRTCSIP LineServer  <br/> msRTCSIP OptionFlags  <br/> msRTCSIP OriginatorSid  <br/> msRTCSIP OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP TargetHomeServer  <br/> msRTCSIP TargetUserPolicies  <br/> msRTCSIP TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP UserExtension  <br/> msRTCSIP UserLocationProfile  <br/> msRTCSIP UserPolicies  <br/> msRTCSIP UserPolicy  <br/> msRTCSIP UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
+|使用者  <br/> |msRTCSIP AcpInfo  <br/> msRTCSIP ApplicationOptions  <br/> msRTCSIP ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP InternetAccessEnabled  <br/> msRTCSIP-Line  <br/> msRTCSIP LineServer  <br/> msRTCSIP OptionFlags  <br/> msRTCSIP OriginatorSid  <br/> msRTCSIP OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP TargetHomeServer  <br/> msRTCSIP TargetUserPolicies  <br/> msRTCSIP TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP UserExtension  <br/> msRTCSIP UserLocationProfile  <br/> msRTCSIP UserPolicies  <br/> msRTCSIP UserPolicy  <br/> msRTCSIP UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
    
 ### <a name="classes-contained-in-other-classes"></a>包含在其他類別中的類別
 

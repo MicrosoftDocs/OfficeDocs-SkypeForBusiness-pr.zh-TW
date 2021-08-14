@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 1499e33c-6a7c-46b9-b9a1-f78d7853b45d
-description: Export-CcRootCertificate Cmdlet 會將根 CA 憑證匯出到商務用 Skype 雲端連接器 Edition 主機伺服器上的本機檔案。
-ms.openlocfilehash: 2b252eba4688deb790d85b0c3663b09a9e85e7b9
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Export-CcRootCertificate Cmdlet 會將根 CA 憑證匯出至商務用 Skype Cloud Connector Edition 主機伺服器上的本機檔案。
+ms.openlocfilehash: 04ba7af5801f124a76e515b311a0507e3cbb764a6f2769d9f1d9080ec8c7d9d9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41800913"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326249"
 ---
 # <a name="export-ccrootcertificate"></a>Export-CcRootCertificate
  
-Export-CcRootCertificate Cmdlet 會將根 CA 憑證匯出到商務用 Skype 雲端連接器 Edition 主機伺服器上的本機檔案。 
+Export-CcRootCertificate Cmdlet 會將根 CA 憑證匯出至商務用 Skype Cloud Connector Edition 主機伺服器上的本機檔案。 
   
 ```powershell
 Export-CcRootCertificate [[-Path] <string>]
@@ -33,7 +33,7 @@ Export-CcRootCertificate [[-Path] <string>]
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會將 Path 參數設定為目錄路徑，而不是檔案路徑。 它會產生檔案 c:\test\CCERootCertificates.p7b。
+下列範例會將 Path 參數設定為目錄路徑，而不是檔路徑。 它會產生檔 c:\test\CCERootCertificates.p7b。
   
 ```powershell
 Export-CcRootCertificate -Path "C:\test" 
@@ -42,19 +42,19 @@ Export-CcRootCertificate -Path "C:\test"
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-Export CcRootCertificate Cmdlet 可讓您將根及中間憑證儲存至檔案路徑。 在災難復原案例中，這會很有用。 
+Export-CcRootCertificate Cmdlet 可讓您將根和中級憑證儲存至檔案路徑。 在發生嚴重損壞修復案例時，這會很有用。 
   
 ## <a name="parameters"></a>參數
 <a name="DetailedDescription"> </a>
 
-|**參數**|**必要**|**類型**|**說明**|
+|**參數**|**Required**|**Type**|**描述**|
 |:-----|:-----|:-----|:-----|
-|路徑  <br/> |必要  <br/> |System.String  <br/> |要儲存憑證的檔案路徑。  <br/> |
+|路徑  <br/> |必要  <br/> |System.String  <br/> |用來儲存憑證的檔案路徑。  <br/> |
    
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>
 
-無。 Export CcRootCertificate Cmdlet 不接受流水線輸入。 
+無。 Export-CcRootCertificate Cmdlet 不接受管線傳送的輸入。 
   
 ## <a name="return-types"></a>傳回類型
 <a name="ReturnTypes"> </a>

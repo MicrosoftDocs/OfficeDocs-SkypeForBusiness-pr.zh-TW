@@ -20,12 +20,12 @@ ms.custom:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在管理使用者群組Microsoft Teams，以簡化、簡化及協助提供一致性。
-ms.openlocfilehash: 02d9b7c21f8c79c5314ac600eec09cfffe29e3157c692eed8bedccd3c4636de4
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: e70002590f3b1335e2c1ea0d8208c9685c803f17
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "58190987"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58243587"
 ---
 # <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams：管理原則套件
 
@@ -42,7 +42,7 @@ Microsoft Teams 中的 原則套件 是預先定義的原則和原則設定的�
 
 ## <a name="what-is-a-policy-package"></a>什麼是策略套件？
 
-策略套件可Teams或限制貴組織特定一組人員使用的功能。 每個策略套件Teams使用者角色所設計，並包含預先定義的策略和策略設定，可支援該角色常見的共同合作與通訊活動。
+策略套件可Teams貴組織特定人員集合所允許或限制的功能。 每個策略套件Teams使用者角色所設計，並包含預先定義的策略和策略設定，可支援該角色常見的共同合作與通訊活動。
 
 策略套件支援下列Teams類型：
 
@@ -52,7 +52,7 @@ Microsoft Teams 中的 原則套件 是預先定義的原則和原則設定的�
 - 通話原則
 - 即時活動原則
 
-## <a name="policy-packages-included-in-teams"></a>包含在其中的政策套件Teams
+## <a name="policy-packages-included-in-teams"></a>包含在 Teams
 
 Teams目前包含下列策略套件。
 
@@ -62,7 +62,7 @@ Teams目前包含下列策略套件。
 |教育 (中學生)    |建立套用至主要學生的一組原則與原則設定。|
 |教育 (中學生)     |建立套用至中學生的一組原則與原則設定。         |
 |教育 (教師)     |建立套用至教師的一組原則與原則設定。      |
-|使用 (遠端學習工具的小學教師)     |建立適用於小學教師的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。      |
+|教育 (使用遠端學習工具)     |建立適用於小學教師的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。      |
 |使用 (遠端學習的中學生)     |建立適用於學生的一組原則，以便在使用遠端學習時將學生安全性和共同作業最大化。      |
 |前線管理員 |建立一組原則，並套用這些設定給貴組織的前線管理員。 |
 |前線工作人員 |建立一組原則，並套用這些設定給貴組織的前線員工。 |
@@ -70,11 +70,11 @@ Teams目前包含下列策略套件。
 |醫療保健資訊工作者  |建立一組原則與原則設定，讓資訊工作者 (例如 IT 人員、資訊人員、財務人員及法規人員) 能夠完整存取聊天、通話和會議。|
 |醫療保健病房  |建立一組原則與原則設定，適用於貴醫療保健組織的病房。|
 |中小企業使用者 (商務語音)  |建立包含商務語音體驗應用程式的應用程式設定策略。|
-|沒有 Business Voice (的中小型企業)  |建立適用于中小型企業的應用程式設定策略，Teams非商務 (語音體驗) 。
+|中小企業使用者無需商務 (語音)  |建立適用于中小型企業的應用程式設定策略，Teams非商務 (語音體驗) 。
 |公共安全專員   |建立一組套套用至貴組織的公安人員之原則與原則設定。|
 
 > [!NOTE]
-> 我們會在未來版本中新增更多Teams套件，因此請回來查看最新資訊。  
+> 我們會在未來發行新版中新增更多Teams套件，因此請回來查看最新資訊。  
 
 每個個別原則都會被賦予原則套件的名稱，以便輕鬆識別連結至原則套件的原則。
 例如，當您將教育 (教師) 策略套件指派給學校中的教師時，會針對套件中每個策略建立名為 Education_Teacher 的策略。
@@ -89,7 +89,7 @@ Teams目前包含下列策略套件。
 
 若要建立新的自訂策略套件：
 
-1. 在系統管理中心的左側導Microsoft Teams，選取 [政策 **套件**，然後按一下 [**新增**。
+1. 在系統管理中心的左側導Microsoft Teams，選取 [政策 **套件**，然後按一下 [**新增**> 。
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="系統管理中心之策略套件頁面上的新增按鈕螢幕擷取畫面":::
 
@@ -128,7 +128,7 @@ Teams目前包含下列策略套件。
 
 ### <a name="customize-policies-in-a-policy-package"></a>自訂策略套件中的策略
 
-您可以透過策略套件頁面或直接進入系統管理中心中的Microsoft Teams設定。
+您可以透過策略套件頁面或直接到系統管理中心中的Microsoft Teams設定。
 
 1. 在系統管理中心的左側導Microsoft Teams，執行下列其中一項操作：
     - 按一下 **[策略套件**，然後按一下套件名稱左側以選取該策略套件。

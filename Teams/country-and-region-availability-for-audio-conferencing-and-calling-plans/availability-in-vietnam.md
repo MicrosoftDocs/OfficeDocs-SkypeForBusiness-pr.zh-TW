@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365 Office 365和商務用 Skype Microsoft Teams的越南。
-ms.openlocfilehash: ffdb7009b8b57754c3ac9797ef23709a26173b86
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: bef354a60840983e62cff158aad907951a33a59279b9fb14af63ce00ef5d8fe9
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104029"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327778"
 ---
 # <a name="availability-in-vietnam"></a>在 越南
 
@@ -69,7 +69,7 @@ ms.locfileid: "51104029"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> |<ul><li>根據[ (，) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>胡志明 ([要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul>  <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |<ul><li>根據[ (，) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>胡志明 ([應要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul>  <br/> |
 |有提供付費電話號碼嗎？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
    

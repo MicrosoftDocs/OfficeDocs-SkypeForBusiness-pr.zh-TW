@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中設定不含媒體旁路的主幹
+title: 商務用 Skype Server-設定不含媒體旁路的主幹
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,15 +10,15 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 localization_priority: Normal
-description: '請遵循下列步驟，設定啟用媒體旁路的主幹。 '
-ms.openlocfilehash: c96e540cbb390f61279979d6a01cc29c69ab9fa5d879468c2361e03da8f472ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: '如何使用啟用媒體旁路設定主幹。 '
+ms.openlocfilehash: 1f129abf44cf35f0c76e026861ba6b0fba1e551e
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333485"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233938"
 ---
-# <a name="configure-a-trunk-without-media-bypass-in-skype-for-business-server"></a>在商務用 Skype Server 中設定不含媒體旁路的主幹
+# <a name="skype-for-business-server---configure-a-trunk-without-media-bypass"></a>商務用 Skype Server-設定不含媒體旁路的主幹
 
 如果您想將主幹設定為停用媒體旁路，請遵循下列步驟。 如果您想要設定具有媒體旁路功能的主幹，請參閱[在商務用 Skype Server 中使用媒體旁路設定主幹](configure-a-trunk-with-media-bypass.md)。
 

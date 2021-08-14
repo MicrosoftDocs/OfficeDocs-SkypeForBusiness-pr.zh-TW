@@ -12,19 +12,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
-description: Export-CcConfigurationSampleFile Cmdlet 會將商務用 Skype 雲端連接器版本範例設定檔（.ini）匯出到雲端連接器裝置的裝置目錄。 您可以修改並重新命名檔案，以用於您的部署。
-ms.openlocfilehash: a29a3db8e77ee239263d015bd7a3efcf4f3f7c5c
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Export-CcConfigurationSampleFile Cmdlet 會將商務用 Skype Cloud Connector Edition 範例設定檔 (.ini) 匯出至雲端連接器裝置的裝置目錄。 您可以修改和重新命名檔案，以用於部署。
+ms.openlocfilehash: f59e93cf241ca762dcb41cf23d617017a62581b453cb84cebc915b1703f5a019
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41801003"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326259"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
-Export-CcConfigurationSampleFile Cmdlet 會將商務用 Skype 雲端連接器版本範例設定檔（.ini）匯出到雲端連接器裝置的裝置目錄。 您可以修改並重新命名檔案，以用於您的部署。
+Export-CcConfigurationSampleFile Cmdlet 會將商務用 Skype Cloud Connector Edition 範例設定檔 (.ini) 匯出至雲端連接器裝置的裝置目錄。 您可以修改和重新命名檔案，以用於部署。
   
-此 Cmdlet 適用于商務用 Skype 雲端連接器 Edition 1.4.1，1.4.2。
+此 Cmdlet 適用于商務用 Skype Cloud Connector Edition 1.4.1，1.4.2。
   
 ```powershell
 Export-CcConfigurationSampleFile
@@ -39,7 +39,7 @@ Export-CcConfigurationSampleFile
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會從 Microsoft 網站下載範例設定檔，並將它寫入雲端連接器裝置的裝置目錄：
+下列範例會從 Microsoft 網站下載範例設定檔，並將它寫入 Cloud Connector 裝置的裝置目錄中：
   
 ```powershell
 Export-CcConfigurationSampleFile
@@ -48,14 +48,14 @@ Export-CcConfigurationSampleFile
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-目前的雲端連接器版本需要您在 .ini 檔案中提供數個參數;例如，參數（例如雲端連接器元件的虛擬機器 IP 位址、元件名稱、閘道參數等）。
+目前的雲端連接器版本必須提供 .ini 檔案中的數個參數;例如，諸如雲端連接器元件、元件名稱、閘道參數等虛擬機器的 IP 位址等參數。
   
-這個 Cmdlet 是在雲端連接器的主機電腦上執行時，從 Microsoft 網站下載含配置範例的示範 .ini 檔案。 這個 Cmdlet 會將檔案寫入雲端連接器裝置的裝置目錄中。 裝置目錄是使用 CcApplianceDirectory Cmdlet 來指定。
+在雲端連接器的主機電腦上執行此 Cmdlet 時，會從 Microsoft 網站中的設定範例下載範例 .ini 檔案。 Cmdlet 會將檔案寫入 Cloud Connector 裝置的裝置目錄。 裝置目錄是使用 Set-CcApplianceDirectory Cmdlet 來指定。
   
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>
 
-無。 Export CcConfigurationSampleFile Cmdlet 不接受流水線輸入。 
+無。 Export-CcConfigurationSampleFile Cmdlet 不接受管線傳送的輸入。 
   
 ## <a name="return-types"></a>傳回類型
 <a name="ReturnTypes"> </a>

@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 信任的應用程式是以 Microsoft 整合通訊 Managed API (UCMA) 3.0 核心 SDK 為基礎的應用程式，該應用程式是由商務用 Skype Server 所信任。
-ms.openlocfilehash: 2025e8cf51852caeaebd96273c918764c58ce146d87bd4673854514c78b0794f
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: b174c0b45c3a90a1f0af53f31d7c507ffaca85cd
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57848468"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233988"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>在商務用 Skype Server 中管理信任的應用程式
 

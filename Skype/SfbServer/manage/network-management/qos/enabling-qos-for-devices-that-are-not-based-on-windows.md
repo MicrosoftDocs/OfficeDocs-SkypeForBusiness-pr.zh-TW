@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 瞭解如何為組織中使用非 Windows 作業系統的裝置啟用 QoS。
-ms.openlocfilehash: 81350ae252252a85bd3f88a000d6cd78d85408e43ca56335517de7b50bb6fd49
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: 85e63df1ba96ff77d586d3c4e71130509a869d51
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590927"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233998"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>針對不是以 Windows 為基礎的裝置啟用商務用 Skype Server 中的 QoS
 

@@ -1,5 +1,5 @@
 ---
-title: 直接路由國碼
+title: 直接路由國家/地區代碼
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 請閱讀本文，找出直接路由的媒體路徑國家/地區代碼，以便選取最佳的媒體路徑。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 330d178c7bfa969020ffc8c26b1e05283c182ae8
-ms.sourcegitcommit: 90615674e9703aa5ea32be64ab3638aa30e83127
+ms.openlocfilehash: 0d51a3a5d6b878a607d9e5ee6b71d75319c9802fa48b3192f2023df179db3b49
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "52717994"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327738"
 ---
 # <a name="direct-routing-media-path-country-codes"></a>直接路由媒體路徑國家/地區代碼
 
@@ -293,7 +293,7 @@ Set-CSOnlinePSTNGateway -身分識別 sbc1.contoso.com –MediaRelayRoutingLocat
 | 梵蒂岡城    | Va |
 | 委內瑞拉       | VE |
 | 越南         | VN |
-| 瓦利斯和福圖納 | WF |
+| 瓦利斯和富圖納 | WF |
 | 葉門           | 你們 |
 | 尚比亞          | Zm |
 | 辛巴威        | ZW |

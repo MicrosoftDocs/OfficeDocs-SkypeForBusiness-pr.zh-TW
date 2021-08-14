@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是挪威Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: a115834d56a2c68d3c7fd9652cd81537b4d6dfac
-ms.sourcegitcommit: 49cdcf344c63c805bcb6365804c6f5d1393e926a
+ms.openlocfilehash: fb414917908f5a70b040ea113eb83801026b42c7dcc29f99930c7d028761161d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2021
-ms.locfileid: "52130182"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351063"
 ---
 # <a name="availability-in-norway"></a>挪威的可用性
 
@@ -61,7 +61,7 @@ ms.locfileid: "52130182"
 |:-----|:-----|
 |可以購買通話方案嗎？  <br/> |是  <br/> |
 |通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li></ul>|
-|可以撥打付費號碼外接電話嗎？  <br/> | 目前不支援。 <br/> |
+|可以撥打付費號碼的外接電話嗎？  <br/> | 目前不支援。 <br/> |
 |可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼

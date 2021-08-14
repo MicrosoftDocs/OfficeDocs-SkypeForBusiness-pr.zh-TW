@@ -21,16 +21,16 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 瞭解如何使用系統管理中心Microsoft Teams或Windows PowerShell PSTN 撥號方案 (撥號方案) 。
-ms.openlocfilehash: 9a1ec745a08848106d6f5c6c55543874703b82d8240608ec144dfcbd888c43c3
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: bb5574893ec940129a0669608d2bb89d474fb0b6
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849198"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233298"
 ---
 # <a name="create-and-manage-dial-plans"></a>建立和管理撥號對應表
 
-規劃組織的撥號方案，並找出語音路由需要建立的所有標準化規則之後，就可以建立撥號方案了。 使用具有有效授權Teams系統管理員帳戶，您可以使用 Microsoft Teams或Windows PowerShell建立和管理撥號方案。  
+規劃組織的撥號方案，並找出語音路由需要建立的所有標準化規則之後，就可以建立撥號方案了。 使用具有有效授權Teams系統管理員帳戶，您可以使用 Microsoft Teams或Windows PowerShell來建立和管理撥號方案。  
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
@@ -39,7 +39,7 @@ ms.locfileid: "57849198"
 1. 在系統管理中心的左側導Microsoft Teams，請前往 **語音**  >  **撥號方案**。
 2. 按一下 **[新增**」，然後輸入撥號方案的名稱和描述。
     ![顯示建立撥號方案之新增頁面的螢幕擷取畫面](media/create-dial-plan.png)
-3. 在 **撥號方案詳細資料** 下，指定外部撥號首碼，如果使用者需要撥打一或多個額外的前導 (，例如 9) 以取得外部線路。 若要這麼做：
+3. 在 **撥號方案詳細資料** 下，指定外部撥號首碼，如果使用者需要撥打一或多個額外的前導 (例如 9) 以取得外部線路。 若要這麼做：
     1. 在外部 **撥號首碼** 方塊中，輸入外部撥號首碼。 首碼最多四個字元 (#，*，以及 0-9) 。
     2. 開啟優化 **的裝置撥號**。 如果您指定外部撥號首碼，您也必須開啟此設定，才能使用首碼，才能在組織外撥打電話。
 4. 在 **標準化規則** 下，為撥號方案設定一 [或多個標準化](what-are-dial-plans.md#normalization-rules) 規則並關聯。 每個撥號方案都必須至少有一個與其相關聯的標準化規則。  若要這麼做，請執行下列一或多個操作：
@@ -194,7 +194,7 @@ Get-CsOnlineUser -Filter {HostingProvider -eq "sipfed.online.lync.com"} | Grant-
 
 執行這些操作，將名為 OPDP1 的現有內部部署撥號方案新增為貴組織的租使用者撥號方案。 您需要先將內部部署撥號方案儲存到.xml，然後使用它來建立新的租使用者撥號方案。
   
-執行此操作，將內部部署撥號方案儲存到.xml檔案。
+請執行此操作，將內部部署撥號方案儲存到.xml檔案。
   
 ```PowerShell
 $DPName = "OPDP1"

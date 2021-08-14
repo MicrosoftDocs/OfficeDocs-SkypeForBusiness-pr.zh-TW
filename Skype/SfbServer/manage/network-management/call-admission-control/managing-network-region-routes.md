@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 網路地區路由會定義一對網路地區之間的路由。 在您的通話許可控制部署中的每一對網路地區都需要網路地區路由。
-ms.openlocfilehash: 822785657020e9f1f071623f844766cfb1a12dd1b5cee1c20c23edcf584addad
-ms.sourcegitcommit: 0e9516c51105e4d89c550d2ea2bd8e7649a1163b
+ms.openlocfilehash: da9145f44765009659bbf648bc082e06d806ab60
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "54590757"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233638"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>管理商務用 Skype Server 中的網路地區路由
 

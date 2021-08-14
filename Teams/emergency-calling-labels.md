@@ -21,18 +21,18 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: 當您在 Microsoft 365 或 Office 365 中使用通話方案時，您可以下載並列印這些用於緊急Office 365。
-ms.openlocfilehash: 30286acb1d1b91f52287d50eab7a72d7efe94915
-ms.sourcegitcommit: 1807ea5509f8efa6abba8462bce2f3646117e8bf
+ms.openlocfilehash: 3dcfa43cfa1540621702e03408e9e38ada4f9b625945bddf9580ccdcd1e0fb8d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2020
-ms.locfileid: "44691459"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54350915"
 ---
 # <a name="emergency-calling-labels"></a>緊急通話標籤
 
-這些是緊急電話 (911) 免責聲明標籤或貼圖，可用於 Avery 5160 位址標籤 (1" x 2 5/8") ，或者如果您想要使用其他類型的標籤，也可以調整大小。
+這些是緊急電話 (911) 免責聲明標籤或貼圖，可用於 Avery 5160 位址標籤 (1" x 2 5/8" ) ，或者如果您想要使用其他類型的標籤，也可以調整大小。
 
-[按一下 以在 .zip ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)中下載緊急電話 (的) 。
+[按一下以下載.zip電話標籤的檔案 (en-us) 。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
 ## <a name="related-topics"></a>相關主題
 

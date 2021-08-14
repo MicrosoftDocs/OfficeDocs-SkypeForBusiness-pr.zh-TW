@@ -16,23 +16,23 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 瞭解如何將手機Teams到 Teams系統管理中心Microsoft Teams顯示。
-ms.openlocfilehash: 9e08d0056c82c3ad37eb3479822d40d4190fcf1d
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 7d32703a2990c61eb7fdfaea06b6151baa4c638846c5fffbcc2a11077edf6dff
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51115581"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54327758"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>將Teams手機升級至Teams顯示
 
 > [!IMPORTANT]
 > 升級至 Teams只有在 Lenovo ThinkSmart View 裝置上才能使用。 本文中的資訊僅適用于此裝置模型。  
 
-本文提供如何將手機升級至 Teams系統管理中心Teams顯示Microsoft Teams概觀。 這麼做可讓裝置在顯示裝置上為使用者提供豐富的Teams體驗。
+本文提供如何將手機升級至 Teams 系統管理中心Teams顯示Microsoft Teams概觀。 這麼做可讓裝置在顯示裝置上為使用者提供豐富的Teams體驗。
 
-Teams是一種一體式專用Teams裝置，具有由 Cortana 提供的環境觸控螢幕和免手操作體驗。 Teams顯示手機Teams演進。 除了手機[支援的功能](phones-for-teams.md#features-supported-by-teams-phones)Teams，Teams顯示器也包含一直顯示等功能，所有 Teams 活動及共同作業選項隨時可供使用。 若要深入瞭解顯示功能Teams功能，請參閱Microsoft Teams[顯示](teams-displays.md)。
+Teams顯示器是一種一體式專用Teams裝置，具有環境觸控螢幕和由螢幕Cortana。 Teams顯示手機Teams演進。 除了手機[支援的功能](phones-for-teams.md#features-supported-by-teams-phones)Teams，Teams顯示器也包含一直顯示等功能，所有 Teams 活動及共同作業選項隨時可供使用。 若要深入瞭解螢幕顯示Teams功能，請參閱Microsoft Teams[顯示](teams-displays.md)。
 
-## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>升級至螢幕Teams資訊
+## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>升級至顯示器Teams資訊
 
 ### <a name="which-teams-phones-can-be-upgraded"></a>哪些Teams手機可以升級？
 
@@ -46,7 +46,7 @@ Lenovo ThinkSmart View 裝置可以升級至Teams顯示。
 
 ### <a name="what-happens-after-the-upgrade"></a>升級之後會發生什麼情況？
 
-將手機Teams到 Teams顯示裝置後，裝置會列在系統管理中心的 Teams 顯示頁面上，Microsoft Teams區段。  管理方式與管理任何其他裝置Teams相同。 若要深入瞭解，請參閱在 Teams[中管理您的Teams。](device-management.md)
+將手機Teams到 Teams顯示裝置後，裝置會列在系統管理中心的 **Teams** 顯示頁面上，Microsoft Teams區段。  管理方式與管理任何其他裝置Teams相同。 若要深入瞭解，請參閱在 Teams[中管理您的Teams。](device-management.md)
 
 請記住，將手機升級Teams到Teams裝置後，動作無法反轉。 建議您先與一群早期採用者進行試驗，然後再升級整個組織。 
 
@@ -90,4 +90,4 @@ Lenovo ThinkSmart View 裝置可以升級至Teams顯示。
 
 [IP 電話已Microsoft Teams](teams-ip-phones.md)
 
-[Cortana 語音協助Teams](../cortana-in-teams.md)
+[Cortana語音協助Teams](../cortana-in-teams.md)

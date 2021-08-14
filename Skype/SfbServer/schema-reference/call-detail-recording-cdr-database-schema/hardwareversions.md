@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: ca05582b-082c-4bab-9233-36fc9434dbca
 description: HardwareVersions 表格是支援的表格。 每個記錄儲存一個裝置硬體版本的相關資訊。
-ms.openlocfilehash: 2b9ac6b31f0af30e896d2943eaa4065aecdd4de3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: e98028a6d5dc434683e9f9190a67f4263738d3dd89e01af00f92bc1a443aec24
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49821573"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351293"
 ---
 # <a name="hardwareversions-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 HardwareVersions 表格
  

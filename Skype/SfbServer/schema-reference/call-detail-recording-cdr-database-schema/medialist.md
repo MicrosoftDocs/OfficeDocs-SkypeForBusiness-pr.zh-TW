@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: MediaList 表格是一種靜態表格，其中儲存了各種媒體類型清單。
-ms.openlocfilehash: 6f593876a1b42163b6f2e75dbe44c1eb26b2ff16
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9242f20b3c2192fb1f5cd48c84784a3e8d283f6e91587aee408a9286d291add7
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813133"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326269"
 ---
 # <a name="medialist-table"></a>MediaList 表格
  

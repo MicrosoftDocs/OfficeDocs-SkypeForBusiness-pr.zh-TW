@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 description: 'SIP 主幹設定設定定義了轉送伺服器和公用交換電話網路閘道、IP 公用分支 exchange (PBX) 或會話邊界控制器 (SBC) 的服務提供者之間的關聯性和功能。 '
-ms.openlocfilehash: 7f6a0d0bd39ff466b279bbef3b5727e1d3ea17e3285e71f646b26ff2689fa760
-ms.sourcegitcommit: 2a76435beaac1e5daa647e93f693ea8672ec0135
+ms.openlocfilehash: befb9aac46d815cd89b25104c11a08ef2653a7ab
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/11/2021
-ms.locfileid: "57849918"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233428"
 ---
 # <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>商務用 SkypeServerModify SIP 主幹設定設定
 

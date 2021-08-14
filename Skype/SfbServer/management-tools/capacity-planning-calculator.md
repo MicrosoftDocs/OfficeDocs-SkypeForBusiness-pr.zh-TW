@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 摘要：如何使用容量計算機工具。
-ms.openlocfilehash: cc78e9d5cbf22a9cc194f0a434f246a8560f5382
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 5dc9376e9bfae238370d690eede975b8bf834baf1bd96cdd0265d6f09b7bc6d0
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51098879"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325090"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>商務用 Skype Server 容量規劃電腦
  
@@ -30,29 +30,29 @@ ms.locfileid: "51098879"
 > - 商務用 Skype Server 2019。
 > - 商務用 Skype Server 2015。
   
-[商務用 Skype server 2015 容量計算機](https://www.microsoft.com/download/details.aspx?id=51196)和[商務用 Skype Server 2019 容量計算機](https://www.microsoft.com/download/details.aspx?id=57509)會增強商務用 skype[規劃工具](https://www.microsoft.com/download/details.aspx?id=50357)和部署檔 (規劃商務用 skype server [2015 部署](../plan-your-deployment/plan-your-deployment.md)，並[為您的商務用 skype 伺服器2019部署分別規劃](../../SfBServer2019/plan/plan-your-deployment-2019.md)) 。 在您複習指南並使用規劃工具建立建議的拓撲之後，使用計算機。
+[商務用 Skype Server 2015 容量計算機](https://www.microsoft.com/download/details.aspx?id=51196)和[商務用 Skype Server 2019 容量計算機](https://www.microsoft.com/download/details.aspx?id=57509)會增強[商務用 Skype 規劃工具](https://www.microsoft.com/download/details.aspx?id=50357)和部署檔， ([商務用 Skype Server 2015 部署的計畫](../plan-your-deployment/plan-your-deployment.md)，並分別[規劃商務用 Skype Server 的) 2019 部署](../../SfBServer2019/plan/plan-your-deployment-2019.md)。 在您複習指南並使用規劃工具建立建議的拓撲之後，使用計算機。
   
-商務用 Skype 伺服器容量計算機可協助您根據使用者人數及組織使用的通訊工具，來判斷伺服器的需求。 判斷您的使用者設定檔以及您要為使用者啟用的功能之後，請使用計算機判斷所需的伺服器、記憶體及頻寬數目。 此版本的計算機不會提供磁片 I/O 需求的指導方針。
+商務用 Skype Server 容量計算機可協助您根據使用者人數及組織所使用的通訊工具，來判斷伺服器的需求。 判斷您的使用者設定檔以及您要為使用者啟用的功能之後，請使用計算機判斷所需的伺服器、記憶體及頻寬數目。 此版本的計算機不會提供磁片 I/O 需求的指導方針。
   
 如果您有特定使用者設定檔的確切詳細資訊，您可以從計算機獲得最大益處。 例如，啟用語音功能的使用者數目、每位使用者每小時平均通話量、通話持續時間，以及會議中並行使用者的百分比，都可能會對伺服器的需求造成極大的影響。 計算機所建立之建議的準確性取決於您提供的資訊準確性。
   
-當您使用規劃工具和容量規劃計算機之後，您應該模擬建議和計畫的負載，以確保已正確布建商務用 Skype 伺服器。 若要在模擬負載下執行壓力測試，請使用商務用[Skype server 壓力和效能工具](./stress-and-performance-tool/stress-and-performance-tool.md)中所記錄的[商務用 skype 伺服器壓力和效能工具](https://www.microsoft.com/download/details.aspx?id=50367)。
+當您使用規劃工具和容量規劃計算機之後，您應該類比建議和計畫的負載，以確保充分佈建商務用 Skype Server。 若要在模擬負載下執行壓力測試，請使用[商務用 Skype Server 壓力和效能工具](./stress-and-performance-tool/stress-and-performance-tool.md)記錄的[商務用 Skype Server 應力和效能工具](https://www.microsoft.com/download/details.aspx?id=50367)。
   
 ## <a name="using-the-capacity-calculator"></a>使用容量計算機
 
-計算機是 Microsoft Excel 試算表。 您的輸入儲存格是彩色的橙色。 在 [商務用 skype Server 80000 2015] 的 [儲存格] (中輸入預設值，而在具有十二部前端伺服器的一個集區中，則會輸入預設值，但對於商務用 Skype Server 2019，一個集區中有十六部前端伺服器的106000使用者) ，但您應該變更這些值，以符合組織的需求。
+計算機是 Microsoft Excel 試算表。 您的輸入儲存格是彩色的橙色。 在具有十二部前端伺服器的一個集區中， (商務用 Skype Server 2015、80000使用者的儲存格內輸入預設值，但在商務用 Skype Server 2019 中，有一個集區中有十六個前端伺服器的106000使用者) ，但您應該變更這些值，以符合組織的需求。
   
 使用模型包含下列章節。 若要計算您的容量需求，請輸入資料，如以下所述：從工作表頂端開始，並依列工作列： 
   
  **立即訊息與顯示狀態**
   
-- 在 [ **使用者數目**] 底下，輸入將同時登入的使用者人數。 此數位通常是布建使用者總數的80%。 在大多數情況下，會為您的並行使用者啟用100% 的 IM 和目前狀態。 預設值為80000（適用于商務用 Skype Server 2015）和106000使用者的商務用 Skype Server 2019。
+- 在 [ **使用者數目**] 底下，輸入將同時登入的使用者人數。 此數位通常是布建使用者總數的80%。 在大多數情況下，會為您的並行使用者啟用100% 的 IM 和目前狀態。 商務用 Skype Server 2015 的預設值為80000，而106000使用者商務用 Skype Server 2019。
     
 - **連絡人清單中的連絡人數目平均** 會指出我們所用的連絡人數目，以驗證您的系統需求。 此號碼是固定的，而不是您應該變更的專案。
     
   **企業語音**
   
-- 在 [ **企業語音啟用的使用者**] 中，輸入已啟用 enterprise voice 的使用者百分比。 預設值為60%。 
+- 在 [**企業語音啟用的使用者**] 中，輸入為企業語音啟用的使用者百分比。 預設值為60%。 
     
 - 在 [ **每位使用者每小時平均通話數目] (峰值)** 中，輸入您預期平均使用者在尖峰負載的時間內參與平均使用者的每小時通話數目。 預設值為4。 
     
@@ -60,7 +60,7 @@ ms.locfileid: "51098879"
     
 - 在 **UC-PSTN 通話的語音使用者百分比** 中，輸入您組織通話的百分比 UC-PSTN 電話。 預設值為60%。
     
-- 與 **UC-UC 通話相關之語音使用者的百分比**，會顯示已啟用 Enterprise voice 之使用者的百分比，只適用于 UC-UC 通話。 這個數位是根據您為 **UC-PSTN 通話啟用之語音使用者百分比** 所輸入的專案而計算。 
+- 與 **UC-UC 通話相關之語音使用者的百分比**，顯示為只會啟用 UC-UC 通話之企業語音啟用的使用者百分比。 這個數位是根據您為 **UC-PSTN 通話啟用之語音使用者百分比** 所輸入的專案而計算。 
     
   **會議**
   
@@ -78,13 +78,13 @@ ms.locfileid: "51098879"
     
   - 如果50% 的語音會議也會包含應用程式共用，請選取 [ **包括應用程式共用** ] 核取方塊。
     
-  - 如果20% 的語音會議包含資料上傳，例如 PowerPoint 簡報，請選取 [ **包含 web 會議** ] 核取方塊。
+  - 如果20% 的語音會議包含資料上傳，例如 PowerPoint 簡報，請選取 [**包含 web 會議**] 核取方塊。
     
   **行動性**
   
-- 在 [ **啟用行動的使用者百分比**] 中，輸入使用行動裝置啟用以連線至商務用 Skype 伺服器的使用者百分比。 預設值為40%。 
+- 在 [**啟用行動的使用者百分比**] 中，輸入使用行動裝置啟用以連線至商務用 Skype Server 之使用者的百分比。 預設值為40%。 
     
-當您輸入所有必要資訊之後，容量計算機會估計您的需求。 黃色儲存格會根據商務用 Skype Server performance labs 中所執行的測試，顯示 CPU、記憶體及頻寬需求的計算值。 這些數位是以指導方針提供，並非每個單一變化都會經過測試及驗證。 計算下列值： 
+當您輸入所有必要資訊之後，容量計算機會估計您的需求。 黃色儲存格會根據商務用 Skype Server 性能實驗室中執行的測試，顯示 CPU、記憶體及頻寬需求的計算值。 這些數位是以指導方針提供，並非每個單一變化都會經過測試及驗證。 計算下列值： 
   
 - **前端 CPU**： cpu 使用量百分比如果整個負載的處理方式與測試中所用伺服器的規格相同，請參閱本文最後的描述) 中 (。
     
@@ -94,7 +94,7 @@ ms.locfileid: "51098879"
     
 綠色儲存格會顯示您輸入的使用模式建議。 
   
-- **前端伺服器總數**：所需的物理伺服器數目為以含雙處理器的商務用 skype server 2015 （含雙處理器，hex 核心，含2260的兆周期，或商務用 skype server 2019 搭配 Intel 強 2673 v3，雙處理器，hex-核心）為基礎的專用伺服器。
+- **前端伺服器總數**：所需的物理伺服器數目為以雙處理器、hex 核心、2260兆周期的專用伺服器，或以英特爾 2673 v3 E5-v3、雙處理器、hex 核心為商務用 Skype Server 2019 的專用2015商務用 Skype Server 伺服器。
     
     請注意，建議啟用超執行緒，並已驗證，以提升支援音訊/視頻之伺服器的效能。
     
@@ -114,6 +114,6 @@ ms.locfileid: "51098879"
     
 ### <a name="adjusting-for-your-processors"></a>調整您的處理器
 
-試算表中的所有 CPU 使用量圖假設每一部商務用 Skype Server 2015 伺服器都有雙處理器、hex 核心和 2.26 GHz，至少有 32 GB 的記憶體，以及8個或更多的 10000 RPM 硬碟，至少有 72 GB 的可用磁碟空間。 針對每個商務用 Skype Server 2019 server，試算表中的所有 CPU 使用狀況圖表都會假定每個伺服器都有雙處理器、hex 核心與 Intel 強 E5 2673 v3，至少 64 GB 的記憶體，以及8個或更多的 10000 RPM 硬碟，至少有 72 GB 的可用磁碟空間。
+試算表中的所有 CPU 使用量圖假設每個商務用 Skype Server 2015 伺服器都有雙處理器、hex 核心（含2.26） GHz、至少有 32 GB 的記憶體，以及8個或更多的 10000 RPM 硬碟，至少有 72 gb 的可用磁碟空間。 針對每個商務用 Skype Server 2019 伺服器，試算表中的所有 CPU 使用狀況圖表都會假設每一部伺服器都有雙處理器、十六進位的 2673 v3，至少 64 GB 的記憶體，以及8個或更多的 10000 RPM 硬碟磁碟機，至少有 72 GB 的可用磁碟空間。
   
 如果您的伺服器具有不同的處理器，您可以調整這些圖形，使其符合您的硬體。

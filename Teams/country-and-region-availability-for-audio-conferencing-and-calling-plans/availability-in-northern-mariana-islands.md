@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于北馬里Microsoft 365 Office 365群島商務用 Skype及Microsoft Teams的Microsoft Teams及服務。
-ms.openlocfilehash: 39801ec52b40621f212e04aca876f2a27302cf89
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 775e1e65844a7244ee98979056435467c0d32ad3e2d7d3d62af0526562f1d8cd
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51102339"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351073"
 ---
 # <a name="availability-in-northern-mariana-islands"></a>北馬里安納群島的可用性
 
@@ -70,7 +70,7 @@ ms.locfileid: "51102339"
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？   | 不適用 <br/> |
 |有提供付費電話號碼嗎？  <br/> |否 <br/> |
-|免付費號碼是否可用？  <br/> |是 <br/> |
+|是否提供免付費號碼？  <br/> |是 <br/> |
    
  如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
   

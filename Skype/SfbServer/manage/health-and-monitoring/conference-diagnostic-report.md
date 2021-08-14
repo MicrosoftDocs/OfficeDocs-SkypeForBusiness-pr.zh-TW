@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
-description: 摘要：瞭解在商務用 Skype Server 中使用的會議診斷報告。
-ms.openlocfilehash: e3a22e55a106713d1db108a5571df883c673dcde
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：瞭解商務用 Skype Server 中使用的會議診斷報告。
+ms.openlocfilehash: 31410ec98e3902e3ab64967061611e5c94a132258fca0a87a5332efdf0057a21
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826483"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54328148"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>商務用 Skype Server 中的會議診斷報告
  
-**摘要：** 瞭解在商務用 Skype Server 中使用的會議診斷報告。
+**摘要：** 深入瞭解商務用 Skype Server 中所用的會議診斷報告。
   
-會議診斷報告可提供所有會議會話成功和失敗的相關資訊。 請注意，商務用 Skype 伺服器會區別不同的失敗類型：
+會議診斷報告可提供所有會議會話成功和失敗的相關資訊。 請注意，商務用 Skype Server 會區別不同類型的失敗：
   
 - **預期的失敗**。 預期的失敗通常是指技術上預期會有的失敗。 例如，假設某人開始參加會議，但在任何人都可以加入之前便會掛斷。 技術上的失敗：會議已啟動，但尚未完成。 不過，這是您預期會發生的失敗：如果召集人在使用者可以加入之前取消會議，您就不會期望會議順利完成。
     
@@ -39,7 +39,7 @@ ms.locfileid: "49826483"
   
 ## <a name="accessing-the-conference-diagnostic-report"></a>存取會議診斷報告
 
-您可以從監控報告首頁存取會議診斷報告。 您可以按一下下列其中一個計量， [以在商務用 Skype Server 中存取失敗散佈報告](failure-distribution-report.md) ：
+您可以從監控報告首頁存取會議診斷報告。 您可以按一下下列其中一個計量，[以在商務用 Skype Server 中存取失敗散佈報告](failure-distribution-report.md)：
   
 - 未預期失敗次數
     
@@ -47,7 +47,7 @@ ms.locfileid: "49826483"
     
 ## <a name="making-the-best-use-of-the-conference-diagnostic-report"></a>會議診斷報告的最佳用法
 
-會議診斷報告包含一系列的圖表。 圖表中所顯示的每一欄實際上都是超連結。 如果您按一下某欄，您會在該時段及該會議類型深入查看 [商務用 Skype Server 中的失敗散佈報告](failure-distribution-report.md) 。
+會議診斷報告包含一系列的圖表。 圖表中所顯示的每一欄實際上都是超連結。 如果您按一下某欄，您會在商務用 Skype Server 中向下流覽該時段及該會議類型的[失敗散佈報告](failure-distribution-report.md)。
   
 ## <a name="filters"></a>篩選
 
@@ -65,7 +65,7 @@ ms.locfileid: "49826483"
 |**集區** <br/> |登錄器集區或 Edge Server 的完整網域名稱 (FQDN)。您可以選取個別的集區，或是按一下 [全部] 檢視所有集區的資料。此下拉式清單會自動將資料庫內的資料填入。<br/> |
 |**會議會話** <br/> | 會指出會議會話的類型。 請選取下列其中一項： <br/>  一切 <br/>  焦點工作階段 <br/>  所有 MCU 會話 <br/>  IM 會議 <br/>  應用程式共用 <br/>  A/V 會議 <br/> |
    
-## <a name="metrics"></a>指標
+## <a name="metrics"></a>度量
 
 下表列出會議診斷報告中針對每種會議會話類型所提供的資訊。
   

@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 摘要：在實施商務用 Skype Server 之前，複查下列的 IP 位址類型考慮。
-ms.openlocfilehash: ba10dd223e7e099d27e31bddce478603f50e49a7
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 2af34980f4a06189fdae996d01bfdf13a8fee7ac769f022b4dc1bc1e03d94a81
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51101249"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351333"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>設定商務用 Skype 中的 IP 位址類型
 
-**摘要：** 在執行商務用 Skype Server 之前，請複查下列的 IP 位址類型考慮。
+**摘要：** 在實施商務用 Skype Server 之前，請複查下列的 IP 位址類型考慮。
 
 您可以使用拓撲產生器中所設定的拓撲設定來部署 IP 位址類型。 本節說明如何在前端伺服器、轉送伺服器和 Edge Server 上部署 IP 位址類型。
 
@@ -35,7 +35,7 @@ ms.locfileid: "51101249"
 
 ### <a name="to-deploy-ip-address-types-on-a-front-end-server"></a>若要在前端伺服器上部署 IP 位址類型
 
-1. 在 [ **Enterprise Edition 前端** 集區] 底下的集區中，以滑鼠右鍵按一下伺服器，然後選取 [ **編輯屬性**]。  (或者，選取伺服器，然後按一下 [**動作**] 功能表中的 [**編輯屬性**]。 ) 
+1. 在 [ **Enterprise Edition 前端** 集區] 底下，以滑鼠右鍵按一下集區中的伺服器，然後選取 [**編輯屬性**]。  (或者，選取伺服器，然後按一下 [**動作**] 功能表中的 [**編輯屬性**]。 ) 
 
 2. 在 **[編輯內容]** 對話方塊中，選取您想要設定的 IP 位址類型。 針對雙堆疊設定，請選取 [ **啟用 IPv4** 並 **啟用 IPv6**]。
 
@@ -53,7 +53,7 @@ ms.locfileid: "51101249"
    - **PSTN IP 位址**。當中繼伺服器在前端伺服器上組合時，請定義 PSTN IP 位址。此位址必須符合所選位址類型的格式。
 
 > [!NOTE]
-> 安裝額外的網路介面卡 (Nic) 以支援 PSTN IP 位址設定 (或其他任何) 在前端伺服器上的原因，都不受支援。 如需商務用 Skype Server 支援的 NIC 設定的詳細資訊，請參閱 [伺服器硬體平臺的 Lync server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)。
+> 安裝額外的網路介面卡 (Nic) 以支援 PSTN IP 位址設定 (或其他任何) 在前端伺服器上的原因，都不受支援。 如需商務用 Skype Server 支援之 NIC 設定的詳細資訊，請參閱[伺服器硬體平臺的 Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)。
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>在轉送伺服器上部署 IP 位址類型
 
@@ -81,8 +81,8 @@ ms.locfileid: "51101249"
 > 僅支援 *專用* 轉送伺服器上的兩個網卡。 如果前端的中繼 Sserver 角色是組合，則不支援雙網卡。 
 
 > [!NOTE]
-> - 如需商務用 Skype Server 2015 支援的 NIC 設定的詳細資訊，請參閱 [商務用 Skype server 2015 的硬體](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
-> - 如需商務用 Skype Server 2019 支援的 NIC 設定的詳細資訊，請參閱 [商務用 Skype server 2019 的硬體](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
+> - 如需商務用 Skype Server 2015 支援的 NIC 設定的詳細資訊，請參閱[商務用 Skype Server 2015 的硬體](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
+> - 如需商務用 Skype Server 2019 支援的 NIC 設定的詳細資訊，請參閱[商務用 Skype Server 2019 的硬體](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
 
 
 

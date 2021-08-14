@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: 資料庫結構描述由下列表格所組成。
-ms.openlocfilehash: 291d2ddefefc264aa283480362a6f57cda9161cd
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 02471ddc936c5dc0522e5ea3c9ad3c5f2859c6cd612b2618ace5d1dbe6be1078
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834483"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351283"
 ---
 # <a name="list-of-qoe-tables"></a>QoE 表格清單
  
@@ -34,7 +34,7 @@ ms.locfileid: "49834483"
 |[NetworkConnectionDetail 表格](networkconnectiondetail.md) <br/> |將網路連線類型對應至用在經驗品質資料庫其他地方的網路連線識別碼。  <br/> |
 |[PurgeSettings table (QoE) ](purgesettings-qoe.md) <br/> |儲存指定是否 (何時) 要從 QoE 資料庫中自動刪除過期經驗品質記錄的資訊。  <br/> |
 |[TraceRoute 表格](traceroute.md) <br/> |儲存通話的路由資訊。  <br/> |
-|[UserAgentDef table (QoE) ](useragentdef-qoe.md) <br/> |將使用者代理程式識別碼對應到代理程式的描述性名稱。  <br/> |
+|[UserAgentDef table (QoE) ](useragentdef-qoe.md) <br/> |地圖使用者代理程式的識別碼命名為代理程式的描述性名稱。  <br/> |
 |[VideoMetricsThreshold 表格](videometricsthreshold.md) <br/> |針對用於視訊通話的經驗品質計量，儲存最佳且可接受的值。  <br/> |
 |[UserAgent 表格](useragent.md) <br/> |儲存音訊和視訊工作階段中所用的工作階段初始通訊協定 (SIP) 使用者代理程式 (UA) 字串與 UA 類型。  <br/> |
 |[使用者表格](user-0.md) <br/> |儲存音訊和視訊工作階段中所用的使用者、會議以及電話 URI。  <br/> |
@@ -61,10 +61,10 @@ ms.locfileid: "49834483"
 |**Table**|**描述**|
 |:-----|:-----|
 |[AppSharingStream 表格](appsharingstream.md) <br/> |儲存用於應用程式共用之網路串流的經驗品質計量。用於應用程式共用之網路串流的經驗品質計量。  <br/> |
-|[Session 表格](session.md) <br/> |儲存音訊或音訊/視訊工作階段的整體資訊。 工作階段定義為兩個端點之間的音訊或視訊 SIP 對話。  <br/> |
+|[Session 表格](session.md) <br/> |儲存音訊或音訊/視訊工作階段的整體資訊。工作階段定義為兩個端點之間的音訊或視訊 SIP 對話。  <br/> |
 |[MediaLine 表格](medialine-0.md) <br/> |儲存工作階段中每個媒體行的相關資訊。媒體行為一或多個音訊及視訊資料流的集合。一般來說，單一媒體行會有兩個音訊或視訊資料流。  <br/> |
 |[AudioStream 表格](audiostream.md) <br/> |儲存媒體行中每個音訊資料流的音訊媒體品質計量。  <br/> |
-|[AudioSignal 表格](audiosignal.md) <br/> |儲存媒體行中音訊媒體品質計量。 這包括柔和式迴音效果取消 (AEC) 以及自動增益控制 (AGC) 計量。  <br/> |
+|[AudioSignal 表格](audiosignal.md) <br/> |儲存媒體行中音訊媒體品質計量。這包括柔和式迴音效果取消 (AEC) 以及自動增益控制 (AGC) 計量。  <br/> |
 |[VideoStream 表格](videostream.md) <br/> |儲存媒體行中每個音訊資料流的視訊媒體品質計量。  <br/> |
 |[AudioClientEvent 表格](audioclientevent.md) <br/> |儲存從用戶端事件收集到的音訊媒體品質計量。  <br/> |
 |[VideoClientEvent 表格](videoclientevent.md) <br/> |儲存從用戶端事件收集到的視訊媒體品質計量。  <br/> |

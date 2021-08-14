@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft Teams 和 Bookings 應用程式進行虛擬會面
-author: msdmaguire
-ms.author: dmaguire
+author: cichur
+ms.author: v-cichur
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 使用 Bookings 應用程式進行 Microsoft Teams 和虛擬會面
-ms.openlocfilehash: 9d2c2fe9fd1852d030d512d95bf5c944b8b1e1ed119b97a2bac23569cbb83f69
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2ef4708cfcbdda5ba55c1aa7069e6e1e6babebc2
+ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295200"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58233398"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft Teams 和 Bookings 應用程式進行虛擬會面
 
@@ -41,7 +41,7 @@ Microsoft Teams 中的 Bookings 應用程式提供一種簡單的方式，可預
 
 - 必須為組織開啟 Microsoft Bookings。
 
-- 使用者必須擁有適當的授權。 支援 Office 365 A3、A5、E3 和 E5，以及 Microsoft 365 商務進階版、Microsoft 365 商務標準版、A3、A5、E3 和 E5。
+- 使用者必須擁有適當的授權。 Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5、商務標準版。
 
 - Bookings 應用程式的所有使用者，以及所有參與會議的員工都必須擁有支援 Teams 會議排程授權。
 

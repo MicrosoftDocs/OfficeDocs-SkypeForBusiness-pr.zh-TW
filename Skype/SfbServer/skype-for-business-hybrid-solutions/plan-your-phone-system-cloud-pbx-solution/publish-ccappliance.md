@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
-description: CcAppliance Cmdlet 會從線上租使用者配置取得高可用性資訊，並將它發佈到主機伺服器上的商務用 Skype 雲端連接器 Edition 裝置。
-ms.openlocfilehash: 159247614733261cac4b3381e35d8dd297cf9a23
-ms.sourcegitcommit: e64c50818cac37f3d6f0f96d0d4ff0f4bba24aef
+description: Publish-CcAppliance Cmdlet 會從線上承租人設定取得高可用性資訊，並將其發佈至主伺服器上的商務用 Skype Cloud Connector Edition 裝置。
+ms.openlocfilehash: 83b0a7e3806a271a358085bb0cca2a2ef6a518e67e124f0be97c1ff4616e3dcc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41824309"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54326179"
 ---
 # <a name="publish-ccappliance"></a>Publish-CcAppliance
  
-CcAppliance Cmdlet 會從線上租使用者配置取得高可用性資訊，並將它發佈到主機伺服器上的商務用 Skype 雲端連接器 Edition 裝置。 
+Publish-CcAppliance Cmdlet 會從線上承租人設定取得高可用性資訊，並將其發佈至主伺服器上的商務用 Skype Cloud Connector Edition 裝置。 
   
 ```powershell
 Publish-CcAppliance
@@ -37,7 +37,7 @@ Publish-CcAppliance
 
 ### <a name="example-1"></a>範例 1
 
-下列範例會從線上租使用者配置中取得高可用性資訊，並將它發佈到主機伺服器上的雲端連接器裝置：
+下列範例會從線上承租人設定取得高可用性資訊，並將其發佈至主伺服器上的雲端連接器裝置：
   
 ```powershell
 Publish-CcAppliance
@@ -46,12 +46,12 @@ Publish-CcAppliance
 ## <a name="detailed-description"></a>詳細描述
 <a name="DetailedDescription"> </a>
 
-高可用性資訊包含 PSTN 網站的中繼伺服器 Fqdn 和 IP 位址。 新的 DNS A 記錄會新增至在中繼伺服器 IP 位址的 AD 伺服器中。 新的拓撲專案會更新到中繼伺服器 Fqdn 和 IP 位址的中央管理儲存體。 
+高可用性資訊包含 PSTN 網站的轉送伺服器 Fqdn 和 IP 位址。 新的 DNS A 記錄會新增至轉送伺服器 IP 位址的 AD Server。 已將新的拓撲專案更新至轉送伺服器 Fqdn 和 IP 位址的中央管理存放區。 
   
 ## <a name="input-types"></a>輸入類型
 <a name="InputTypes"> </a>
 
-無。 CcAppliance Cmdlet 不接受流水線輸入。
+無。 Publish-CcAppliance Cmdlet 不接受管線傳送的輸入。
   
 ## <a name="return-types"></a>傳回類型
 <a name="ReturnTypes"> </a>

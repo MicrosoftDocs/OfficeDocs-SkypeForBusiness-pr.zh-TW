@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 下列說明音訊會議的網路。
-ms.openlocfilehash: b7851bd2457debe8ee0de3144e24a15edb521222
-ms.sourcegitcommit: b39bd1de0219a9e3a3b0c97fc485c9578ddb643c
+ms.openlocfilehash: 63a76bd8cb7765816c417d60640d931acbe856bae7c1c7c3531e9598524e59c3
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "53230560"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351223"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>音訊會議的網路會議
 

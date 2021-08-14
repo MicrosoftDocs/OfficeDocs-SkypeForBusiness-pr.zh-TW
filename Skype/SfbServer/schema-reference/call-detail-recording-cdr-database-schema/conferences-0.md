@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 description: 會議視圖會儲存會議的相關資訊。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: b31b0baa7a33b28ab9df8d78d2b49e569dfef831
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b7cf9300ca574773b4ffb08a8c32108155a18786d8fec3ae80ddc77398d41ccc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49813253"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351303"
 ---
 # <a name="conferences-view"></a>會議視圖
  
@@ -26,8 +26,8 @@ ms.locfileid: "49813253"
   
 |**欄**|**資料類型**|**詳細資料**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |工作階段要求的時間。 與 SessionIdSeq 搭配使用，以唯一識別工作階段。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中的對話方塊表格](dialogs.md) 。 <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |識別工作階段的 ID 號碼。 與 SessionIdTime 搭配使用，以唯一識別工作階段。 如需詳細資訊，請參閱 [商務用 Skype Server 2015 中的對話方塊表格](dialogs.md) 。 <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |工作階段要求的時間。 與 SessionIdSeq 搭配使用，以唯一識別工作階段。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中的對話方塊表格](dialogs.md)。 <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |識別工作階段的 ID 號碼。 與 SessionIdTime 搭配使用，以唯一識別工作階段。 如需詳細資訊，請參閱[商務用 Skype Server 2015 中的對話方塊表格](dialogs.md)。 <br/> |
 |**ConferenceUri** <br/> |Nvarchar (450)   <br/> |會議的 URI。  <br/> |
 |**ConferenceUriType** <br/> |Nvarchar (256)   <br/> |會議 URI 的類型。 如需詳細資訊，請參閱 [UriTypes 表格](uritypes.md) 。 <br/> |
 |**ConfInstance** <br/> |唯一  <br/> |用於週期性會議。 每個週期性會議實例都具有相同的 ConferenceUri，但不同 ConfInstance。  <br/> |
