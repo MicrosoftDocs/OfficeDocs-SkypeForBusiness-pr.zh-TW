@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解撥打巴西的免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
-ms.openlocfilehash: 689be527186f51ebe24178eb11e015c01bc5ab1e
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 24d5ed2ae333a3188e5921ad2c23f72d99c1994d77c30380cf3d09aa854a4a8a
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51116831"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351723"
 ---
 # <a name="toll-free-dialing-restrictions-in-brazil"></a>巴西免付費撥號限制
 
@@ -44,7 +44,7 @@ ms.locfileid: "51116831"
 |涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |
-|行動網路可用性  <br/> |部分但以進位率計算。 查看批註。  <br/> |
+|行動網路可用性  <br/> |部分但以進位費率計算。 查看批註。  <br/> |
 |批註、限制和存取問題  <br/> |行動存取：不收取空時費用。  <br/> |
    
 

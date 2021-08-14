@@ -15,39 +15,39 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: 使用 Teams使用方式Power BI報表Microsoft Teams通話品質儀表板 (CQD) ，以追蹤Microsoft Teams使用方式。
-ms.openlocfilehash: 719f02ce7a5cd36e96ed7fd563c259c6e77764fd
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+description: 使用 Teams使用方式Power BI報表Microsoft Teams通話品質儀表板 (CQD) 資料，以追蹤Microsoft Teams使用方式。
+ms.openlocfilehash: e32d321383621b4a961856ad091ba0497e41d7b27fa32925987a8bb093c7fc91
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51095037"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352501"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>使用 CQD Microsoft Teams在 Power BI中查看使用方式
 
-新增于 2020 年 3 月，我們已新增 Teams 使用方式報表至可下載的[CQD Power BI查詢範本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 
+新增于 2020 年 3 月，我們已新增 Teams 使用方式報告至可下載的[CQD Power BI查詢範本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 
 
 這個新Teams使用方式報告可讓您存取 Teams 通話品質儀表板 (CQD) 資料，來瞭解 (以及您的) 使用者使用 Microsoft Teams 量。 這些報告是一個集中式位置，系統管理員和商務領導者都可以快速前往此資料。
 
 使用Teams報告Power BI兩個主要報告：通話 **[計數摘要](#call-count-summary-report)** 和 **[音訊分鐘摘要](#audio-minutes-summary-report)**。 當使用者[利用](#daily-usage)[下列描述所述](#regional-audio-details)之向下切[](#conference-details)入報表時[](#user-list)，會使用每日使用量、地區音訊詳細資料、會議詳細資料及使用者清單報告。
 
 > [!NOTE]
-> 必須填上建築物和子網資料，以提供地區和網路篩選功能。
+> 必須填填建築物和子網資料，以提供地區和網路篩選功能。
 
 ## <a name="call-count-summary-report"></a>通話計數摘要報表
 
-通話 (摘要) 首頁會如章節標題所述，立即提供過去 30 天和 90 天內的音訊、視視和螢幕共用會話數目。 最初顯示的資料適用于整個組織，而且可以使用頁面左側的分析篩選器下拉式選項進行篩選。
+通話 (摘要) 首頁會立即提供過去 30 和 90 天內的音訊、視視和螢幕共用會話數目，如章節標題所述。 最初顯示的資料適用于整個組織，而且可以使用頁面左側的分析篩選器下拉式選項進行篩選。
 
 ![螢幕擷取畫面：Teams使用方式報告](media/CQD-teams-utilization-report1.png)
 
-1. 在分析分析片下拉式下拉清單的右側，媒體類型的通話數會細分為過去 30 天內的內部/外部視圖。 我們可以透過上述螢幕擷取畫面，看到組織外部位置發生更多通話，考慮到目前的全域環境，這很合理。
+1. 在分析分析片下拉式下拉清單的右側，媒體類型的通話次數會細分為過去 30 天內的內部/外部視圖。 我們可以透過上述螢幕擷取畫面，看到組織外部位置發生更多通話，考慮到目前的全域環境，這很合理。
   ![螢幕擷取畫面：Teams使用方式報告](media/CQD-teams-utilization-report2.png)
 
 1. 在媒體類型計數方塊的右側，我們有過去 90 天的按媒體類型計算每月通話計數。 每一欄和媒體類型都可以停留在上方，以顯示前一個月或目前月份至今的計數，並提供使用趨勢資訊。
   ![螢幕擷取畫面：Teams使用方式報告](media/CQD-teams-utilization-report3.png)
  
 
-1. 中間圖形的作用與 90 天圖形一樣，不過它提供過去 30 天的每日使用量視圖，並允許使用者以滑鼠右鍵按一下並向下向下切入特定日期的詳細資訊。
+1. 中間圖形的作用與 90 天圖形一樣，不過它提供過去 30 天的每日使用狀況視圖，並允許使用者以滑鼠右鍵按一下並向下向下深入查看特定日期的詳細資訊。
   ![螢幕擷取畫面：Teams使用方式報告](media/CQD-teams-utilization-report4.png)
 
 在頁面左下區段，您可以找到一個表格，提供過去一年每種媒體類型的總計值。 
@@ -63,11 +63,11 @@ ms.locfileid: "51095037"
 
 在音訊分鐘使用量報告中，總分鐘使用量會透過幾個不同的視圖提供。 
 
-我們有三十天的使用量摘要顯示在分析分析器旁邊，因為很容易使用文字方塊。 頂端數位會顯示三十天總計，其內部和外部明細低於該數位。
+我們有三十天的使用量摘要顯示在分析分析器旁邊，因為很容易使用文字方塊。 頂端數位會顯示三十天總計，其內部和外部明細低於該總計。
 
 ![螢幕擷取畫面：Teams使用方式報告](media/CQD-teams-utilization-report9.png)
 
-右上方的橫條圖提供會議音訊使用量的一年模式。 將游標停留在月份上以顯示會議音訊分鐘數。
+右上方的橫條圖提供會議音訊使用量的一年模式。 將游標停留在一個月內以顯示會議音訊分鐘數。
 
 若要顯示 P2P 和會議音訊的差異，左下角圖表會採用過去一年的所有音訊，並分為兩種類型。
 
@@ -84,19 +84,19 @@ ms.locfileid: "51095037"
 
 ### <a name="daily-usage"></a>每日使用量
 
-每日使用量報告可讓系統管理員識別一天中的尖峰消費期間。 除了使用方式之外，我們也能夠收集當天的整體使用者情緒和意見。
+每日使用量報告可讓系統管理員識別一天中的最大使用量期間。 除了使用方式之外，我們也能夠收集當天的整體使用者情緒和意見。
 
 ![螢幕擷取畫面：Teams使用方式報告](media/CQD-teams-utilization-report12.png)
 
-每日使用量報告會顯示所選日的音訊、視音訊和螢幕畫面共用數量，並新增了區分內部和外部連接的能力。 會議與對等分解位於模式總計方塊的右方。 報表的右上方會提供一份會議清單，包含其相關聯的 ID 和當天的參與者。 會議清單也提供另一個向下切入至會議詳細資料包表。 取代圖形
+每日使用量報告會顯示所選日的音訊、視像和螢幕共用數量，並新增了區分內部和外部連接的能力。 會議與對等分解位於模式總計方塊的右方。 報表的右上方會提供一份會議清單，包含其相關聯的 ID 和當天的參與者。 會議清單也提供另一個向下切入至會議詳細資料包表。 取代圖形
 
 ![螢幕擷取畫面：Teams使用方式報告](media/CQD-teams-utilization-report13.png)
 
-中央區域中的橫條圖可讓使用者識別一天中的尖峰消費期間。 使用者可以向下向下切入圖形上代表的小時，該小時會呈現使用者清單報表。
+中央區域中的橫條圖可讓使用者識別一天中的尖峰消費期間。 使用者可以向下向下切入圖形上代表的小時，以呈現該小時的使用者清單報告。
 
-在橫條圖右側，使用者意見回饋會以視覺格式呈現。 雖然使用者情緒可能有些不一樣，但它提供深入見解，可用來識別潛在問題。
+在橫條圖的右側，使用者意見回饋會以視覺格式呈現。 雖然使用者情緒可能有些不一樣，但它提供深入見解，可用來識別潛在問題。
 
-底端表格提供一天的度量範圍。 不佳的百分比與失敗率可以為系統管理員提供潛在的改進領域。 每小時也可以個別選取，如下所示。
+底端表格提供一天的度量範圍。 不佳的百分比與失敗率可以為系統管理員提供可能的改進領域。 每小時也可以個別選取，如下所示。
 
 此資料可用來識別在尖峰消費期間發生問題的區域。
 
@@ -104,7 +104,7 @@ ms.locfileid: "51095037"
 按一下該天的欄以顯示該小時的度量。
 ![螢幕擷取畫面：Teams使用方式報告](media/CQD-teams-utilization-report14.png)
   
-  1.  圖表下方的表格會顯示該小時的度量單位。 這可排序任何欄標題;不過，我們有興趣尋找有問題的區域。  
+  1.  圖表下方的表格會顯示該小時的度量。 這可排序任何欄標題;不過，我們有興趣尋找有問題的區域。  
     ![螢幕擷取畫面：Teams使用方式報告](media/CQD-teams-utilization-report15.png)
     
   2.  我們看到 IND 區域在這段期間，在會議中遇到不佳的視像效果。 接著，當已識別地區與時間範圍時，CQD QER Microsoft 報告可用來縮小有問題的位置。
@@ -113,7 +113,7 @@ ms.locfileid: "51095037"
 
 會議詳細資料包告提供會議的其他深入資訊，從出席者清單到會話期間使用的媒體類型。
 
-以滑鼠右鍵按一下 [每日使用狀況」 頁面上會議 ID 圖表中的參與者欄，以向下向下切入會議詳細資料。
+以滑鼠右鍵按一下會議 ID 圖表中的 [每日使用狀況圖> 中的參與者欄，以向下深入查看會議詳細資料。
 
 ![螢幕擷取畫面：Teams使用方式報告](media/CQD-teams-utilization-report24.png)
 

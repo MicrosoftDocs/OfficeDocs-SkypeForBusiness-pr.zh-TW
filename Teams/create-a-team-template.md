@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e4fc9b8ace3cec2161008cffe61a8b312e61f39
-ms.sourcegitcommit: 3704577b1424c063fd925a58a6f6d0b3ff2c8148
+ms.openlocfilehash: abbfd257297475ee059ca80ca854fc1372cf51b26cc6afdf96a00b1abce9fde4
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "53278456"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346319"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>在範本中建立Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "53278456"
 
 3. 選取 [新增 **]**。
 
-    ![[小組範本> 對話方塊的影像，其中已加上 [新增> 的顯示畫面。](media/team-templates-new.png)
+    ![[小組範本> 對話方塊的影像，其中已強調 [新增> 。](media/team-templates-new.png)
 
 4. 在小組 **範本區** 段，選取 **建立全新的範本**。
 
@@ -53,12 +53,12 @@ ms.locfileid: "53278456"
 
     ![小組範本設定命名對話方塊的影像。](media/template-add-a-name.png)
 
-6. 在 **頻道、定位字元和應用程式** 區段，新增小組所需的任何頻道和應用程式。
+6. 在頻道 **、定位字元和應用程式** 區段，新增小組所需的任何頻道和應用程式。
 
     1. 在頻道 **區** 段 **，選取** 新增 。
     2. 在 [ **新增」** 對話方塊中，為頻道命名。
     3. 新增描述。
-    4. 決定是否應該預設顯示頻道。
+    4. 決定是否預設應該顯示頻道。
     5. 搜尋要新加入頻道的應用程式名稱。
     6. 完成 **時選取 Apply。**
 
@@ -96,7 +96,7 @@ ms.locfileid: "53278456"
 
 ## <a name="known-issues"></a>已知問題
 
-**問題**：如果您從包含其他自訂選項卡的自訂範本建立團隊，您可能會在自訂的選項卡 App 中看到空白的定位停駐點。 您的預設 (，例如文章、**檔案** 和 **Wiki**) 都會如預期顯示。 
+**問題**：如果您從包含其他自訂定位字元的自訂範本建立團隊，您可能會在自訂的選項卡 App 中看到空白的定位停駐點。 您的預設 (，例如文章、**檔案** 和 **Wiki**) 都會如預期顯示。 
 
 **解決方案**：若要修正此問題，請移除自訂定位點，並使用相同的應用程式新增定位點。 如果您沒有移除自訂定位停駐點並新增新定位停駐點的許可權，請聯絡團隊擁有者以尋求協助。
 

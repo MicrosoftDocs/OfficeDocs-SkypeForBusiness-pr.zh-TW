@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d57f01887961ad0c458b13db20ba79023272bcdf
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: f082f0fdfe7217025a8b9124e4445f35168ffeb413e14ed68a1c9af098ab4bfb
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49808993"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345970"
 ---
 # <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南
 
-![強調升級歷程中卓越營運階段的圖表](media/upgrade-banner-op-excellence.png "升級旅程的階段，強調營運優化階段")
+![強調升級過程中營運優化階段的圖表](media/upgrade-banner-op-excellence.png "升級歷程的階段，強調營運優化階段")
 
-本文是升級過程中營運優化階段的一部分，一旦完成從 商務用 Skype 升級至 Teams。
+本文是升級過程中營運優化階段的一部分，一旦完成從 商務用 Skype 升級到 Teams。
 
 ## <a name="improve-and-monitor-call-quality"></a>改善及監控通話品質
 

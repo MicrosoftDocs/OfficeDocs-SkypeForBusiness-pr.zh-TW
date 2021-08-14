@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: 您可以使用本節中的程式來修改個別的使用者帳戶屬性。
-ms.openlocfilehash: 6f2c3a76f9047da0a5d78695518cfb8355ab82e3
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: b1c3bc75a59834c63f97c9425a775d902f246b299f76318ed890d060caf7e01b
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49826263"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351523"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>自訂商務用 Skype Server 的使用者帳戶屬性
  
@@ -32,23 +32,23 @@ ms.locfileid: "49826263"
 ## <a name="configure-telephony-options-for-a-specific-user-account"></a>設定特定使用者帳戶的電話語音選項
 <a name="Tel_Op"> </a>
 
-只要個別使用者已啟用商務用 Skype Server，且該組織支援電話語音) ，您就可以自訂特定使用者 (的電話語音設定。
+您可以自訂特定使用者 (的電話語音設定，只要個別使用者已啟用商務用 Skype Server 且組織支援電話語音) 。
   
-商務用 Skype Server 使用者電話語音選項包含下列專案：
+商務用 Skype Server 使用者電話語音選項包括下列各項：
   
 - **已停用音訊/視頻** 使用者無法使用音訊和影片進行通話。
     
 - **僅限電腦對電腦** 使用者只能進行電腦對電腦音訊或視頻通話。
     
-- **Enterprise Voice** 使用者可以使用商務用 Skype 伺服器基礎結構路由傳送所有來電和撥出電話。 使用者也可以進行電腦對電腦呼叫。
+- **企業語音** 使用者可以使用商務用 Skype Server 基礎結構路由傳送所有來電和撥出電話。 使用者也可以進行電腦對電腦呼叫。
     
-- **遠端呼叫控制** 使用者可以使用商務用 Skype 伺服器來控制桌面電話，也可以撥打 PC 對電腦通話。
+- **遠端呼叫控制** 使用者可以使用商務用 Skype Server 來控制桌面電話，也可以進行電腦對電腦的呼叫。
     
-如需設定組織之電話語音的詳細資訊，請參閱部署檔中的 [Enable Enterprise voice in](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md) 商務用 skype Server 和 [Deploy enterprise voice](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) 。
+如需設定組織之電話語音的詳細資訊，請參閱部署檔中的在[商務用 Skype Server 中啟用企業語音](../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)和[部署企業語音中商務用 Skype Server](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) 。
   
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中，按一下 **[使用者]**。
     
@@ -64,23 +64,23 @@ ms.locfileid: "49826263"
     
    - 若要啟用使用者的電腦對電腦音訊通訊，但不啟用遠端呼叫控制或 Enterprise Voice，請按一下 **[僅限電腦對電腦]**。針對使用者用於電腦對電腦音訊通訊的電話，指定 **[線路 URI]** 值。
     
-   - 若要依照服務原則類別（包括 PC 對電腦音訊通訊）使用商務用 Skype 基礎結構來路由傳送使用者的電話，請按一下 [ **Enterprise Voice**]。 在 **[線路 URI]** 中，指定 Enterprise Voice 的電話號碼。 在 **[撥號對應表原則]** 和 **[語音原則]** 中，指定使用者的適當原則。 若要指定將使用者撥打的電話號碼轉譯為 E.164 格式時的正規化規則，請在 **[位置原則]** 中選取適當的位置設定檔。
+   - 若要依照服務原則類別（包括 pc 對電腦音訊通訊）使用商務用 Skype 基礎結構來路由傳送使用者的電話，請按一下 [**企業語音**]。 在 **[線路 URI]** 中，指定 Enterprise Voice 的電話號碼。 在 **[撥號對應表原則]** 和 **[語音原則]** 中，指定使用者的適當原則。 若要指定將使用者撥打的電話號碼轉譯為 E.164 格式時的正規化規則，請在 **[位置原則]** 中選取適當的位置設定檔。
     
-   - 若要啟用遠端呼叫控制，可讓使用者從商務用 Skype 伺服器控制其桌面電話線，以進行 PC 對電腦通話和 PC 對電話的呼叫，請按一下 [ **遠端呼叫控制**]。 在 **[線路 URI]** 中，指定遠端呼叫控制的電話號碼。 使用者必須有桌上電話和用於電話路由的專用交換機 (PBX) 連線。
+   - 若要啟用遠端呼叫控制，可讓使用者從商務用 Skype Server 控制其桌面電話線，以進行 pc 對電腦通話和 pc 對電話的呼叫，請按一下 [**遠端呼叫控制**]。 在 **[線路 URI]** 中，指定遠端呼叫控制的電話號碼。 使用者必須有桌上電話和用於電話路由的專用交換機 (PBX) 連線。
     
 ## <a name="move-users-to-another-pool"></a>將使用者移至另一個集區
 <a name="Move_Users"> </a>
 
-您可以使用商務用 Skype Server 控制台，將使用者指派至特定的伺服器或集區。
+您可以使用商務用 Skype Server 控制台將使用者指派至特定的伺服器或集區。
   
 > [!TIP]
-> 將所有現有使用者從執行 Lync Server 2010 或更早版本的來源集區移至複雜的 Active Directory 環境中的商務用 Skype Server 目的地集區，可能會導致 Active Directory 複寫速度變慢。 若要避免這種情況，您可以使用搜尋篩選器，從執行 Lync Server 2010 或更早版本的集區中移動使用者，也可以使用商務用 Skype Server 管理命令介面，移動使用者與 Cmdlet。 此外，篩選功能可搭配商務用 Skype Server 使用者使用。 
+> 將所有現有使用者從執行 Lync Server 2010 或更早版本的來源集區移至複雜性 active directory 環境中的商務用 Skype Server 目的地集區，可能會導致 Active directory 複寫速度變慢。 若要避免這種情況，您可以使用搜尋篩選器，從執行 Lync Server 2010 或更早版本的集區中移動使用者，也可以使用商務用 Skype Server 管理命令介面，透過 Cmdlet 移動使用者。 此外，篩選功能可與商務用 Skype Server 使用者搭配使用。 
   
 ### <a name="to-move-selected-users-to-a-different-server-or-pool"></a>將選取的使用者移至不同的伺服器或集區
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。  
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。  
     
 3. 在左導覽列中，按一下 **[使用者]**。
     
@@ -101,7 +101,7 @@ ms.locfileid: "49826263"
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。  
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。  
     
 3. 在左導覽列中，按一下 **[使用者]**。
     
@@ -120,7 +120,7 @@ ms.locfileid: "49826263"
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中，按一下 **[使用者]**。
     
@@ -144,13 +144,13 @@ ms.locfileid: "49826263"
   
 ### <a name="to-move-users-from-one-pool-to-another-using-windows-powershell-cmdlets"></a>使用 Windows Powershell Cmdlet 將使用者從一個集區移至另一個集區
 
-1. 根據您執行 Windows PowerShell 命令的方式 (（本機或遠端) ），您必須以正確商務用 Skype Server 系統管理角色的成員身分登入，如下所示：
+1. 根據您執行 Windows PowerShell 命令 (（本機或遠端) ）的方式，您必須以正確商務用 Skype Server 系統管理角色的成員身分登入，如下所示：
     
    a. 如果您是在本機電腦上執行命令 (例如，您可以直接登入前端伺服器) ：以 RTCUniversalServerAdmins 群組成員的身分或必要使用者權限的方式，登入安裝商務用 Skype Server 管理命令介面的電腦（如 **委派安裝許可權** 中所述）。
     
-   b. 如果您是在另一部電腦上遠端執行命令 (例如，登入您的電腦，然後從遠端的 Standard Edition 前端伺服器上執行命令) ：從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
+   b. 如果您是在另一部電腦上遠端執行命令 (例如，您登入您的電腦，並從 Standard Edition 前端伺服器遠端執行命令) ：從指派給 CsUserAdministrator 角色的使用者帳戶或 CsAdministrator 角色，登入內部部署中的任何電腦。
     
-2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [ **開始**]、[ **所有程式**]、[ **商務用 skype**]，然後按一下 [ **商務用 skype 伺服器管理命令** 介面]。
+2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
 3. 若要移動單一使用者，請使用 Move-CsUser Cmdlet，如下所示：
     

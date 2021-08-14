@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype 2015 Server 中的持續性聊天類別、聊天室和使用者角色
+title: 商務用 Skype Server 2015 中的持續性聊天類別、聊天室和使用者角色
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
-description: 摘要：閱讀此主題以瞭解商務用 Skype Server 2015 中的持續性聊天伺服器的類別、聊天室和使用者與系統管理員角色。
-ms.openlocfilehash: 50b5cd6df9cbaa8958d0f1036fe5474f2d7e47dc
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+description: 摘要：閱讀此主題以瞭解商務用 Skype Server 2015 中的 Persistent chat Server 的類別、聊天室和使用者和系統管理員角色。
+ms.openlocfilehash: 9724daf78114ede5d46ae690f2ab41cc36c170d2dd73c3664718e7ac4bb995f1
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49834563"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352601"
 ---
-# <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>商務用 Skype 2015 Server 中的持續性聊天類別、聊天室和使用者角色
+# <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的持續性聊天類別、聊天室和使用者角色
  
-**摘要：** 閱讀此主題以瞭解商務用 Skype Server 2015 中的持續性聊天伺服器的類別、聊天室及使用者和系統管理員角色。
+**摘要：** 閱讀此主題以瞭解商務用 Skype Server 2015 中的 Persistent chat Server 的類別、聊天室和使用者與系統管理員角色。
   
 您可以建立聊天室類別，然後指定類別中的類別和聊天室的存取權，以控制對聊天室的存取。 您也可以指定各種系統管理員角色。 本主題說明下列事項： 
   
@@ -33,7 +33,7 @@ ms.locfileid: "49834563"
 - 系統管理員角色
 
 > [!NOTE] 
-> 商務用 Skype Server 2015 仍提供持續聊天，但商務用 Skype Server 2019 已不再支援。 小組中提供相同的功能。 如需詳細資訊，請參閱 [Microsoft 團隊升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續聊天，您可以選擇將需要這項功能的使用者遷移至小組，或是繼續使用商務用 Skype Server 2015。 
+> 持續聊天可在商務用 Skype Server 2015 中取得，但在商務用 Skype Server 2019 中已不再支援。 Teams 中提供相同的功能。 如需詳細資訊，請參閱[Microsoft Teams 升級快速](/microsoftteams/upgrade-start-here)入門。 如果您需要使用持續性聊天，您可以選擇將需要這項功能的使用者遷移至 Teams，或是繼續使用商務用 Skype Server 2015。 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>用於組織聊天室的類別
 
@@ -68,11 +68,11 @@ ms.locfileid: "49834563"
 
 以下是 Persistent Chat Server 的系統管理員角色：
   
-- **Persistent Chat administrator**： Persistent chat administrator role 可管理聊天室 (修改所有內容，包括成員資格、經理、類別、以停用的會議室做為停用) ，以及建立及管理聊天室類別，以定義誰可以建立和存取聊天室。 系統管理員也可以將聊天室標記為停用以及清理不再使用的聊天室。 系統管理員不受「建立者」或「允許的成員」之限制。 系統管理員可以建立任何類型的聊天室，以及將本身新增為任何聊天室的成員。 系統管理員也可以修改和管理持續聊天設定 (集區屬性、全域設定及規範設定) ，也可以從舊版的群組聊天伺服器部署規劃及執行遷移，以商務用 Skype server 2015 Persistent Chat Server。
+- **Persistent Chat administrator**： Persistent chat administrator role 可管理聊天室 (修改所有內容，包括成員資格、經理、類別、以停用的會議室做為停用) ，以及建立及管理聊天室類別，以定義誰可以建立和存取聊天室。 系統管理員也可以將聊天室標記為停用以及清理不再使用的聊天室。 系統管理員不受「建立者」或「允許的成員」之限制。 系統管理員可以建立任何類型的聊天室，以及將本身新增為任何聊天室的成員。 系統管理員也可以修改和管理持續聊天設定 (集區屬性、全域設定及規範設定) ，也可以從較舊的群組聊天伺服器部署規劃及執行遷移，以商務用 Skype Server 2015 Persistent chat server。
     
-    Persistent Chat 系統管理員可以使用 Windows PowerShell Cmdlet 從遠端 (（從 Persistent Chat Server) 以外的電腦）管理 Persistent Chat Server。 Persistent Chat Server 會檢查 Persistent chat Administrator 是否為 Persistent Chat Server 前端伺服器上 RTC 本機系統管理員本機群組的成員。
+    persistent chat 管理員可以從遠端 Windows PowerShell Cmdlet (（從 Persistent chat server) 以外的電腦）管理 persistent chat Server。 Persistent Chat Server 會檢查 Persistent chat Administrator 是否為 Persistent Chat Server 前端伺服器上 RTC 本機系統管理員本機群組的成員。
     
-- **商務用 Skype server 2015 管理員**：負責部署之商務用 skype server 2015 的整體企業系統管理員。
+- **商務用 Skype Server 2015 系統管理員**：商務用 Skype Server 2015 的整體企業系統管理員負責部署。
     
 - **營運管理員**：負責管理日常營運作業的使用者。
     
@@ -86,6 +86,6 @@ ms.locfileid: "49834563"
     
 - [在商務用 Skype Server 2015 中管理 Persistent Chat Server 中的類別](../../manage/persistent-chat/categories.md)
     
-- [在商務用 Skype Server 2015 中管理 Persistent Chat Server 中的聊天室](../../manage/persistent-chat/chat-rooms.md)
+- [在商務用 Skype Server 2015 中管理 Persistent chat Server 中的聊天室](../../manage/persistent-chat/chat-rooms.md)
     
 

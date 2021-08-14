@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何使用系統管理中心提供預先定義的設定、頻道和預先安裝的應用程式，以使用小組範本建立專為製造需求設計的團隊結構。
+description: 瞭解如何使用系統管理中心提供預先定義的設定、頻道和預先安裝的應用程式，以使用小組範本建立專為製造需求設計的小組結構。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec27cba4336d86f51a32582440d5d7902ffca2b9
-ms.sourcegitcommit: 36924dc54fe7b09607b07d7543fe7e39eb4d2483
+ms.openlocfilehash: 017656b0bacce810f26ac2821e07ba4dd8f08c9efad47717a94d6b3d95e4278f
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "52684480"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351872"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>在系統管理中心使用製造小組範本
 

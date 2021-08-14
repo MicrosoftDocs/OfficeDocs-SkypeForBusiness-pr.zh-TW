@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 00ad7893d7bddca6a08b85390d59b1a0553363e2
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 679ead0e7f919364e1930d001d38b0bbfef9928207fa9aac16b92067a44014cc
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121783"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345840"
 ---
 # <a name="pstn-usage-create-new-or-edit-existing"></a>PSTN 使用方式：建立新的或編輯現有
 

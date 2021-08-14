@@ -13,12 +13,12 @@ f1.keywords:
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: tblEnumValue 是包含在節點表格中所使用之屬性的 Visibility 和行為值的硬編碼表格。
-ms.openlocfilehash: a13bfbe79d1eb118f0727f390816a26d35a508d0
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 732fe5f32a9a92fd3e17098382102433d4c8fa135dbf97cedbf8b3e3e0074b84
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49816023"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54346349"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
@@ -43,11 +43,11 @@ tblEnumValue 是包含在節點表格中所使用之屬性的 Visibility 和行�
 
 |**valueID**|**attributeID:**|**attributeValue**|
 |:-----|:-----|:-----|
-|2   <br/> |1   <br/> |私人  <br/> |
-|3   <br/> |1   <br/> |範圍  <br/> |
-|4   <br/> |2   <br/> |正常  <br/> |
-|5   <br/> |2   <br/> |禮堂  <br/> |
-|6   <br/> |1   <br/> |打開  <br/> |
+|第  <br/> |1  <br/> |私人  <br/> |
+|3   <br/> |1  <br/> |範圍  <br/> |
+|4   <br/> |第  <br/> |正常  <br/> |
+|5   <br/> |第  <br/> |禮堂  <br/> |
+|6   <br/> |1  <br/> |打開  <br/> |
    
 ## <a name="see-also"></a>另請參閱
 

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于臺灣Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
-ms.openlocfilehash: 3c7c07273953b5b32d212bf33c2f106f2ff45ec9
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 84621398fd8e82ff5a0a6412bfd868e137cff56b11f496a408eb31ef14743986
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51104119"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352341"
 ---
 # <a name="availability-in-taiwan"></a>台灣適用的功能
 

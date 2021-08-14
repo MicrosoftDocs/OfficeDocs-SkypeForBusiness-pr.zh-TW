@@ -18,22 +18,22 @@ f1.keywords:
 - NOCSH
 description: '瞭解如何在系統管理中心新增、變更或移除組織的緊急Microsoft Teams位置。 '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b918cbcbebf8edb2cd54d08e0e4a3177867fa623
-ms.sourcegitcommit: 01087be29daa3abce7d3b03a55ba5ef8db4ca161
+ms.openlocfilehash: 69ac20583d2f90b3aab4359478f067d2df7b86d2733f6452172430566781ea7d
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "51121521"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54352481"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>新增、變更或移除貴組織的緊急位置
 
 緊急位置必須與電話號碼相關聯，但發生這種情況時，可能會因國家/地區而異。 例如，在美國，當您將電話號碼指派給使用者時，您必須建立緊急位置的關聯。 在英國，當您從 Microsoft 365 或 Office 365 取得電話號碼，或從目前的服務提供者移轉電話號碼時，您必須將緊急位置與電話號碼建立關聯。
 
-無論您位於哪個國家/地區，都可以在緊急位置新增地點或地點，並移除緊急位置。 根據貴組織實體位置的數量，您可以建立建築物、樓層和辦公室的位置。 請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)。
+無論您位於哪個國家/地區，都可以在緊急位置新增地點或地點，並移除緊急位置。 根據貴組織中實際位置的數量，您可以建立建築物、樓層和辦公室的位置。 請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)。
   
 若要瞭解如何取得通話方案及其費用，請參閱Teams[授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-您可以在系統管理中心或使用 PowerShell Microsoft Teams組織的緊急位置。
+您可以在系統管理中心或使用 PowerShell 管理Microsoft Teams組織的緊急位置。
   
 ## <a name="add-an-emergency-location"></a>新增緊急位置
 
@@ -45,7 +45,7 @@ ms.locfileid: "51121521"
 4. 選取國家/地區，然後輸入位址。
 
    > [!NOTE]
-   > 在比利時、法國、德國、愛爾蘭、荷蘭和西班牙，必須瞭解，若要在 Microsoft 365 或 Office 365 中成功啟用電話號碼，緊急位置中用來取得號碼的位址必須與電話號碼的區碼相符。
+   > 在比利時、法國、德國、愛爾蘭、荷蘭和西班牙，您必須瞭解，若要在 Microsoft 365 或 Office 365 中成功啟用電話號碼，緊急位置中用來取得號碼的位址必須與電話號碼的區碼相符。
 
 5. 如果找不到位址，而您想要手動編輯位址，請開啟手動 **編輯位址**。
 6. 按一下 [儲存]。

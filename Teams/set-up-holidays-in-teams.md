@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams中設定假日，以與自動乘務員一起使用。
-ms.openlocfilehash: ff87a3888bc98e1794f8074052aae4c0bbe3545d
-ms.sourcegitcommit: 247b2587a60b1609947310ec82d51f47cf829703
+ms.openlocfilehash: c7fa5d44f836e35022acab24c2d4b7ad6c60536295bba7adba8fc568b1560443
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "48993469"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54351743"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>在 Microsoft Teams
 
@@ -51,10 +51,10 @@ ms.locfileid: "48993469"
 
 7. 在 **結束時間** 下，選取日曆圖示，然後選擇要結束假日的日期。
 
-8. 使用下拉式清單來選取假日的結束時間。 結束 **時間** 必須于開始時間 **之後**。  
+8. 使用下拉式清單來選取假日的結束時間。 結束 **時間** 必須在開始時間 **之後**。  
 
    > [!NOTE]
-   > 如果假日是一整天 (即 24 小時期間) ，則結束時間應設為第二天，而時間應設為上午 12：00。 例如，如果貴組織在 1 月 1 日為元月 1 日關閉，請設定開始時間為 1 月 1日上午 12：00，並設定結束時間為 1 月 2 日 @ 上午 12：00。 
+   > 如果假日是一整天 (即 24 小時期間) ，則結束時間應設為第二天，而時間應設為上午 12：00。 例如，如果貴組織于 1 月 1 日為元月 1 日關閉，請設定開始時間為 1 月 1日上午 12：00，並設定結束時間為 1 月 2 日 @ 上午 12：00。 
 
 9. 或者，為週期性假日新增更多日期。
 
@@ -76,7 +76,7 @@ ms.locfileid: "48993469"
 
 5. 在 **結束時間** 下，選取日曆圖示，然後選擇要結束假日的日期。 
 
-6. 使用下拉式清單來選取假日的結束時間。 結束 **時間** 必須于開始時間 **之後**。  
+6. 使用下拉式清單來選取假日的結束時間。 結束 **時間** 必須在開始時間 **之後**。  
 
 7. 選取 [儲存 **]**。
 

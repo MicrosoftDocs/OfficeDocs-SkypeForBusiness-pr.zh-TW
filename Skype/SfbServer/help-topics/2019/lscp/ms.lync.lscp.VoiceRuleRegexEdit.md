@@ -15,12 +15,12 @@ localization_priority: Normal
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 ROBOTS: NOINDEX, NOFOLLOW
 description: '在 [比對此模式] 欄位，指定將用來比對要轉譯之數字的模式。 在 [轉譯規則] 欄位中，指定轉譯數字格式的模式。 '
-ms.openlocfilehash: a1e04cc94c004b520c077816ae535ca4154047ee
-ms.sourcegitcommit: c528fad9db719f3fa96dc3fa99332a349cd9d317
+ms.openlocfilehash: 9b5a28f07689a83c9f5b35cfe6ba3ef6f80f396fa60d6fe3917f3a5e378ec2c8
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "49819983"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54345920"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>轉譯規則：輸入規則運算式
  

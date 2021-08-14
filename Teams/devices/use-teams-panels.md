@@ -1,6 +1,6 @@
 ---
 title: 如何使用Microsoft Teams面板裝置
-ms.author: serdars
+ms.author: v-mdhiman
 author: ManikaDhiman
 manager: serdars
 ms.reviewer: weizxue
@@ -16,28 +16,28 @@ ms.collection:
 search.appverid: MET150
 localization_priority: Normal
 description: 本文提供如何使用面板Teams指南。
-ms.openlocfilehash: f00136f5ef7b448531c16d388ac879a26b53c2cc
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 28026f53f53fcb7b489abe3cf7d12a82d25f335907b1044591f92d4884853e03
+ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233048"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "54325060"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>如何使用Microsoft Teams面板
 
-Microsoft Teams面板是安裝在會議空間外部的精簡數字顯示裝置，通常位於入口旁邊。 這些觸控螢幕面板Microsoft Teams專用裝置，可提供會議空間和排定會議一目了然的視野。 使用生動的色彩編碼 LED 和首頁螢幕指示器，您可以判斷空間是否可用或保留距離。 您可以使用Teams面板，為當場召開臨時會議保留可用的會議空間。
+Microsoft Teams面板是安裝在會議空間外部的精簡數字顯示裝置，通常位於入口旁邊。 這些觸控螢幕面板Microsoft Teams專用裝置，可提供會議空間和排定會議一目了然的視野。 使用生動的色彩編碼 LED 和首頁螢幕指示器，您可以判斷空間是否可用或保留距離。 您可以使用Teams面板，為臨時會議保留可用的會議空間。
 
-Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 Teams 排程的會議詳細資料。
+Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過或Outlook或Teams排程的會議詳細資料。
 
 本文為使用者和系統管理員提供如何使用面板Teams指南。 它也提供有關使用這些裝置 [之](#frequently-asked-questions) 常見問題的解答。
 
-有關面板裝置概觀，以及如何在貴組織中規劃、傳遞和管理面板的指引，請參閱部署Microsoft Teams[面板](teams-panels.md)。
+有關面板裝置概觀，以及如何在貴組織中規劃、傳遞和管理這些裝置，請參閱部署Microsoft Teams[面板](teams-panels.md)。
 
 有關快速入門，請查看開始使用[Teams面板](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)。
 
 ## <a name="teams-panels-end-user-experience"></a>Teams面板的使用者體驗
 
-探索[會議面板裝置Teams](#explore-teams-panels-home-screen)畫面，以查看會議空間和會議詳細資料。 或者，點一下觸控螢幕面板並捲動以執行其他動作。
+探索[會議面板Teams](#explore-teams-panels-home-screen)的首頁畫面，以查看會議空間和會議詳細資料。 或者，點一下觸控螢幕面板並捲動以執行其他動作。
 
 使用您的Teams面板裝置：
 
@@ -50,7 +50,7 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 T
 
 主畫面是螢幕面板裝置的主要視覺Teams介面。  
 
-您可以在主畫面中查看位置和會議詳細資料、保留空間、查看預定，以及識別目前的可用性狀態。
+您可以在主畫面中查看位置和會議詳細資料、保留空間、查看預定專案，以及識別目前的可用性狀態。
 
 下列螢幕擷取畫面顯示主畫面上不同的元件Teams磚：
 
@@ -61,7 +61,7 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 T
 瓦 | 描述
 :---|:---
 **1-目前時間、日期、日期和會議空間詳細資料** | 顯示目前的時間、日期、日期和會議空間名稱。 會議空間名稱是已登錄面板的資源帳戶名稱。
-**2-會議空間可用性和會議詳細資料** | 指出會議空間的可用性，並顯示會議詳細資料。 請參閱 [會議空間可用性和會議詳細資料磚](#meeting-space-availability-and-meeting-details-tile)。
+**2-會議空間可用性和會議詳細資料** | 指出會議空間可用性並顯示會議詳細資料。 請參閱 [會議空間可用性和會議詳細資料磚](#meeting-space-availability-and-meeting-details-tile)。
 **3-即將推出的日曆** | 顯示會議空間的日曆和目前時間起最多 24 小時的可用時間。 向上或向下卷起以判斷哪些時段可用，哪些時段是保留的。
 **4-設定** | 顯示設定 **圖示**。 點一下以報告問題或更新可用的裝置設定。
 
@@ -69,32 +69,32 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 T
 
 此磚的外觀及其功能會視會議空間可用性和預約類型而異。
 
-#### <a name="meeting-space-is-reserved-for-a-scheduled-meeting"></a>已為排定的會議保留會議空間
+#### <a name="meeting-space-is-reserved-for-a-scheduled-meeting"></a>會議空間為排定的會議所保留
 
-該磚會以紫色顯示，以紫色表示會議空間，而會議空間是透過 (或 Outlook 排定的會議Teams) 。 它會以醒目的文字顯示會議標題、會議開始時間和結束時間，以及會議召集人的名稱。 對於會議Teams，Teams標誌也會出現。 當會議詳細資料醒目顯示時，出席者可以輕鬆地確認他們位於正確的會議空間、正確的時間，以及適合的會議。
+該磚會以紫色顯示，用於透過會議或 (排定的會議空間Outlook Teams) 。 它會以醒目的文字、會議開始時間和結束時間，以及會議召集人的名稱來顯示會議標題。 對於會議Teams，Teams標誌也會出現。 當會議詳細資料醒目顯示時，出席者可以輕鬆地確認他們位於正確的會議空間、正確的時間，以及適合的會議。
 
-:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams面板首頁畫面，顯示會議空間已保留為排定的會議":::
+:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams顯示已排程會議的會議空間已保留的首頁畫面":::
 
 > [!NOTE]
 >
 > - 排程會議之後，最多可能需要 90 秒的時間，才能同步的日曆，並反映在面板畫面上。
-> - 針對 [標示為私人的](https://support.microsoft.com/office/make-an-appointment-or-meeting-private-dc3898f0-22f5-45c6-8cc8-b4d4db84111d)排定會議，會顯示私人 **會議** ，而不是實際會議標題。
+> - 針對 [標示為私人的](https://support.microsoft.com/office/make-an-appointment-or-meeting-private-dc3898f0-22f5-45c6-8cc8-b4d4db84111d)排定會議，會顯示私人 **會議** ，而不是實際的會議標題。
 
 #### <a name="meeting-space-is-reserved-for-an-ad-hoc-meeting"></a>為臨時會議保留會議空間
 
-為臨時會議保留的會議空間，磚會以紫色 [顯示](#reserve-meeting-spaces-for-ad-hoc-meetings)。 它會以 **醒目** 的文字顯示保留，以及會議開始時間和結束時間。 臨時會議會自動排程為Teams，因此Teams標誌永遠會出現在螢幕上。
+為臨時會議保留的會議空間，磚會以紫色 [顯示](#reserve-meeting-spaces-for-ad-hoc-meetings)。 它會以 **醒目** 的文字顯示保留，以及會議開始時間和結束時間。 臨時會議會自動排程為Teams，因此Teams標誌一直會出現在螢幕上。
 
 :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams面板首頁畫面，顯示會議空間已保留為臨時會議":::
 
 #### <a name="meeting-space-is-available"></a>會議空間可供使用
 
-磚會以綠色顯示，以表示可用的會議空間。 它會以 **醒目** 的文字顯示可用，而且也會顯示一個保留按鈕，您可以點選以保留臨時會議 [的會議空間](#reserve-meeting-spaces-for-ad-hoc-meetings)。 您可以檢查會議空間的近期 (右下) ，以決定臨時會議結束時間。
+磚會以綠色顯示，以尋找可用的會議空間。 它會以 **醒目** 的文字顯示可用，而且也會顯示一個保留按鈕，您可以點選以保留臨時會議 [的會議空間](#reserve-meeting-spaces-for-ad-hoc-meetings)。 您可以檢查會議空間的近期 (右下) ，以決定臨時會議結束時間。
 
 :::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="此螢幕擷取畫面顯示Teams會議室可用時，主畫面的顯示方式":::
 
 ## <a name="reserve-meeting-spaces-for-ad-hoc-meetings"></a>為臨時會議保留會議空間
 
-您可以直接從面板 [為](#meeting-space-is-available) 臨時會議保留可用的會議空間。 所有臨時會議都會自動排程為Teams會議。 不過，一旦保留之後，您無法透過面板釋出或取消保留會議空間。 只有裝置資源帳戶的系統管理員可以透過 (或 Outlook Teams取消) 臨時會議) 取消空間。
+您可以直接從面板 [為](#meeting-space-is-available) 臨時會議保留可用的會議空間。 所有臨時會議都會自動排程為Teams會議。 不過，一旦保留之後，您無法透過面板釋放或取消保留會議空間。 只有裝置資源帳戶的系統管理員可以透過 (或 Outlook Teams取消) 臨時會議) 取消空間。
 
 對於直接從面板預約的臨時會議：
 
@@ -119,7 +119,7 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 T
 
     確認視窗會以大拇指顯示圖釋、會議開始時間和結束時間，以及會議空間名稱。
     :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="臨時會議確認訊息":::
-現在，主畫面上的右側磚會以紫色顯示，並顯示保留文字和 Teams標誌。 這表示會議空間現在已保留為臨時Teams會議。
+現在，主畫面上的右側磚會以紫色顯示，並顯示保留文字和 Teams標誌。 這表示會議空間現在為臨時會議Teams空間。
   
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="顯示會議空間為臨時會議保留的主畫面":::
 
@@ -138,7 +138,7 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 T
 3. 從輸入 **下** 拉式清單中選擇要求類型。
 4. 從問題 **下** 拉清單選取類別。
 5. 在標題 **文字** 欄位中，使用面板鍵盤輸入標題。
-6. 如有需要，在 **標題** 下方的文字欄位中輸入其他詳細資料。
+6. 如有需要 **，在標題** 下方的文字欄位中輸入其他詳細資料。
 
     > [!NOTE]
     > 請勿包含任何個人識別資訊。
@@ -152,27 +152,27 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 T
 若要查看或更新裝置設定：
 
 1. 點設定 **畫面** 上的圖示。
-2. 在畫面 **設定，** 點一下 **裝置設定**。
+2. 在畫面設定，點一下 **裝置設定**。
 3. 在裝置 **設定** 畫面中，點一下您想要查看或更新的設定。
 4. 請遵循畫面上的提示來查看或更新設定。
 
 ## <a name="teams-panels-admin-experience"></a>Teams面板系統管理員體驗
 
-如果您是面板資源帳戶Teams系統管理員，[](teams-panels.md\#resource-account-provisioning)則您也是裝置上的 **Panels App** 系統管理員。 作為 **Panels App** 系統管理員，除了管理裝置上的 **Panels** App [](#teams-panels-end-user-experience)設定之外，您還可以執行使用者經驗區段提及的所有功能。
+如果您是該Teams資源帳戶的系統管理員 [](teams-panels.md\#resource-account-provisioning)，則您也是裝置上的 **Panels App** 系統管理員。 作為 **Panels App** 系統管理員，除了管理裝置上的 **Panels** App [](#teams-panels-end-user-experience)設定之外，您還可以執行使用者經驗區段提及的所有功能。
 
 您的面板裝置提供兩種類型的系統管理設定。 您必須是裝置系統管理員才能存取可用的系統管理員設定。 使用者無法存取這些設定。
 
 - 裝置特有的系統管理設定，例如顯示、時間和日期、語言、藍牙、WiFi 等。 請參閱 OEM 檔以進一瞭解這些設定。
-- 您裝置上的 **[面板應用程式** 」 特有的系統管理設定，例如牆紙和 LED 指示器色彩。 只有 **Panels App 的系統管理員** 才能存取這些設定。 由於 **Panels App** 設定是系統管理設定的一部分，因此您必須擁有裝置和 **面板** App 的系統管理員登錄認證，才能存取 **面板 App** 設定。
+- 您裝置上的 **[面板應用程式** 」 特有的系統管理設定，例如牆紙和 LED 指示器色彩。 只有 **Panels App 的系統管理員** 才能存取這些設定。 由於 **Panels App** 設定是系統管理設定的一部分，因此您必須擁有裝置和 **面板** App 的系統管理員登錄認證，才能存取 **面板應用程式** 設定。
 
 > [!NOTE]
-> 透過裝置對 **Panels App** 設定所做的任何更新僅適用于該特定裝置。 這些更新不會影響貴組織的其他面板裝置。 例如，如果您從 [面板應用程式設定> 變更[主畫面畫面圖片影像，只會針對該特定裝置變更牆紙影像。
+> 透過裝置對 **Panels App** 設定所做的任何更新僅適用于該特定裝置。 這些更新不會影響貴組織的其他面板裝置。 例如，如果您從 [面板應用程式設定中變更主畫面牆紙影像，則只會針對該特定裝置變更牆紙影像。
 
 ### <a name="access-panels-app-settings"></a>Access Panels App 設定
 
-您可以使用系統管理 **設定** 下的面板應用程式設定面板 **應用程式** 選項存取特定設定。 存取 **Panels App** 應用程式設定可能會根據您的裝置 OEM 而不同。
+您可以使用系統管理 **設定** 下的面板應用程式設定面板 **應用程式** 選項來存取特定設定。 存取 **Panels App** 應用程式設定可能會根據您的裝置 OEM 而不同。
 
-若要存取 **面板應用程式設定** 選項：
+若要存取面板 **應用程式設定** 選項：
 
 1. 點設定 **畫面** 上的圖示。
 2. 在畫面 **設定，** 點一下 **裝置設定**。
@@ -181,11 +181,11 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 T
     > [!NOTE]
     > 視您裝置 OEM 的不同，您可能需要在現在或下一個步驟之後輸入裝置系統管理員密碼。
 
-4. 向下卷起以尋找 **面板應用程式設定** 選項。 點一下。
-5. 點選 **右設定** 上的面板應用程式按鈕。
+4. 向下卷起以尋找面板 **應用程式設定** 選項。 點一下。
+5. 點選 **右設定** 的面板應用程式按鈕。
     畫面會顯示可用的 **面板應用程式** 設定。
 
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="此螢幕擷取畫面顯示幕幕，以及可用的面板應用程式設定":::
+    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="此螢幕擷取畫面顯示幕幕，並顯示可用的面板應用程式設定":::
 
     使用此螢幕來更新您裝置下列 **的面板** 應用程式設定：
 
@@ -194,7 +194,7 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 T
 
 #### <a name="update-the-wallpaper"></a>更新牆紙
 
-變更主畫面的牆紙影像。
+變更 [主畫面牆紙影像。
 
 1. [Access **Panels App 設定。**](#access-panels-app-settings)
 2. 點 **一下 [牆紙**> 。
