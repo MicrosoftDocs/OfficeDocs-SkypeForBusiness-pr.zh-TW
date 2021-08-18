@@ -365,7 +365,7 @@ items:
                 href: guest-experience.md
               - name: 開啟來賓存取或關閉
                 href: set-up-guests.md
-              - name: 將來賓新增至團隊
+              - name: 在團隊中檢視來賓
                 href: view-guests.md
               - name: 編輯來賓資訊
                 href: edit-guests-information.md
@@ -915,7 +915,7 @@ items:
                 href: direct-routing-landing-page.md
               - name: 規劃直接路由
                 href: direct-routing-plan.md
-              - name: 通過直接路由認證的工作階段邊界控制器清單
+              - name: 通過直接路由認證的工作階段邊界控制器
                 href: direct-routing-border-controllers.md
               - name: 設定直接路由
                 items:
@@ -1015,7 +1015,7 @@ items:
                 href: phone-number-calling-plans/port-order-status.md
           - name: 支援的額定中心及涵蓋範圍
             href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
-      - name: 通話路由
+      - name: 語音路由
         items:
           - name: 什麼是撥號對應表？
             href: what-are-dial-plans.md
@@ -1049,7 +1049,7 @@ items:
                 href: emergency-calling-labels.md
           - name: 管理緊急通話原則
             href: manage-emergency-calling-policies.md
-          - name: 管理直接路由的緊急電話路由原則
+          - name: 管理直接路由的緊急語音路由原則
             href: manage-emergency-call-routing-policies.md
       - name: 管理 Teams 中的語音和通話原則
         href: voice-and-calling-policies.md
@@ -1481,8 +1481,6 @@ items:
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: Teams 教育版系統管理員的資源
             href: resources-teams-edu.md
-          - name: 教育版 Teams 裝置
-            href: devices-for-education.md
           - name: 適用於系統管理員的 Microsoft 教育版控管常見問題集
             href: plan-teams-governance-edu.md
           - name: 安裝 Moodle 整合
@@ -1495,10 +1493,14 @@ items:
         items:
           - name: 前線員工快速入門手冊
             href: flw-quickstart.yml
+          - name: 前線員工上線精靈
+            href: flw-onboarding-wizard.md
           - name: 前線員工編寫指令碼部署
             href: flw-scripted-deployment.md
           - name: 為前線員工管理以班次為基礎的存取
             href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
+          - name: 管理班次管理的排程擁有者
+            href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
           - name: 適用於 Microsoft Teams 的 RealWear
             href: flw-realwear.md
           - name: 對講機
@@ -1574,6 +1576,8 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: SharePoint Online 和商務用 OneDrive 如何與 Teams 互動
             href: sharepoint-onedrive-interact.md
+      - name: 教育版 Teams 裝置
+        href: devices-for-education.md
       - name: 支援的裝置
         items:
           - name: 在 Teams 中管理裝置
