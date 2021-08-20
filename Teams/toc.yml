@@ -269,7 +269,7 @@ items:
             href: /microsoft-365/security/office-365-security/atp-safe-links-for-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: AppLocker 應用程式控制原則
             href: applocker-in-teams.md
-          - name: 封鎖對 Sharepoint 的存取
+          - name: 封鎖對 SharePoint 的存取
             href: block-access-sharepoint.md
       - name: 合規性
         items:
@@ -305,7 +305,7 @@ items:
             href: location-of-data-in-teams.md
           - name: Microsoft Teams 意見反應隱私權
             href: teams-privacy-feedback.md
-          - name: 封鎖特定使用者對 Sharepoint Online 的存取
+          - name: 封鎖特定使用者對 SharePoint Online 的存取
             href: block-access-sharepoint.md
           - name: 原則控制概覽
             href: policy-control-overview.md
@@ -515,6 +515,8 @@ items:
         items:
           - name: 在系統管理中心中使用團隊範本
             href: get-started-with-teams-templates-in-the-admin-console.md
+          - name: 使用 Microsoft Graph 開始使用小組範本
+            href: get-started-with-teams-templates.md
           - name: 內建於 Graph，適用於中小型企業的團隊範本
             href: smb-templates.md
           - name: 建立自訂團隊範本
@@ -1405,8 +1407,6 @@ items:
         href: expand-teams-across-your-org/expand-teams-across-your-organization-landing-page.md
       - name: 所有行業
         items:
-          - name: 開始使用團隊範本
-            href: get-started-with-teams-templates.md
           - name: Teams 中的班次
             href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
             items:
