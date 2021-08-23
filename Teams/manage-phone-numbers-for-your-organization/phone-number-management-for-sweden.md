@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在瑞典取得及管理瑞典電話號碼Microsoft Teams。
-ms.openlocfilehash: f15b918536ff20f8baeeccbb5a11364346a173d3
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 85d6d4c35acfa8a9768444d07f23d929227a934f
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233028"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380587"
 ---
 # <a name="phone-number-management-for-sweden"></a>電話瑞典的號碼管理
 
@@ -34,8 +34,8 @@ ms.locfileid: "58233028"
   
 |**您想要做什麼？**|**下載正確的表單並傳送給我們**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。   <br/> |下載其中一個表單。 <br/>  [瑞典的新電話號碼要求 (v.5.0)  (sv-se) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf?raw=true) <br/>  [瑞典的新電話號碼要求 (v.5.0)  (en-us) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf?raw=true)<br/>  <br/>填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。|
-將電話號碼轉接給我們。  <br/> |下載此表單。 <br/>[瑞典 (LOA) 授權書 (所有號碼)  (v.5.0)  (sv-se) ](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> 填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 <br/> |
+|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。   <br/> |下載其中一個表單。 <br/>  [瑞典的新電話號碼要求 (v.5.0)  (sv-se) ](https://download.microsoft.com/download/5/e/3/5e3b17c3-9cc3-4098-8b03-4235dd42e724/new-phone-number-request-for-sweden-(v.5.0)-(sv-se).pdf) <br/>  [瑞典的新電話號碼要求 (5.0)  (en-us) ](https://download.microsoft.com/download/a/3/0/a30b10be-42db-458d-bda2-adb320f2e2f3/new-phone-number-request-for-sweden-(v.5.0)-(en-us).pdf)<br/>  <br/>填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。|
+將電話號碼轉接給我們。  <br/> |下載此表單。 <br/>[瑞典的 (LOA) 授權書 (所有號碼)  (v.5.0)  (sv-se) ](https://download.microsoft.com/download/b/d/0/bd030c0c-67c5-40fb-a148-d12a4675aa79/letter-of-authorization-(loa)-for-sweden-(all-numbers)-(v.5.0)-(sv-se).pdf)<br/><br/> 填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 <br/> |
 |發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需有關要](contact-pstn-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請連連 PTSN 服務台。      <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-pstn-service-desk.md) 服務號碼的使用者號碼清單的指示，請連連 PTSN 服務台。 <br/> |
 |讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請連連 [PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 |

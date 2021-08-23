@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：設定商務用 Skype Server 綜合交易的測試使用者帳戶和監視程式節點設定。
-ms.openlocfilehash: ea85990cbec89ee872a00350cf23ef9f3d01cdfb3e80fb195db168e7f426039e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 777381be79811973f189b25bc533baa986a4f8c6
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277468"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372093"
 ---
-# <a name="configure-watcher-node-test-users-and-settings"></a>設定監視節點測試使用者和設定
+# <a name="skype-for-business-server-configure-watcher-node-test-users-and-settings"></a>商務用 Skype Server：設定觀察者節點測試使用者和設定
  
 **摘要：** 為商務用 Skype Server 綜合交易設定測試使用者帳戶和監視節點設定。
   
@@ -35,7 +35,7 @@ ms.locfileid: "54277468"
 
 測試帳戶不需要表示實際人員，但必須是有效的 Active Directory 帳戶。 此外，必須為商務用 Skype Server 啟用這些帳戶，他們必須具有有效的 SIP 位址，而且應為企業語音啟用這些帳戶， (才能使用 Test-CsPstnPeerToPeerCall 綜合交易) 。 
   
-如果您使用的是 TrustedServer 驗證方法，您需要做的所有工作是確定這些帳戶都存在，並加以設定。 您應為每個要測試的集區至少指派三個測試使用者。 如果您使用 Negotiate 驗證方法，您也必須使用 Set-CsTestUserCredential Cmdlet 和商務用 Skype Server 管理命令介面，讓這些測試帳戶能夠搭配綜合交易。 執行下列命令，以執行類似下列的命令 (這些命令會假設已建立三個 Active Directory 使用者帳戶，且已啟用這些帳戶商務用 Skype Server) ：
+如果您使用的是 TrustedServer 驗證方法，您需要做的所有工作是確定這些帳戶都存在，並加以設定。 為每個您要測試的集區至少指派三個測試使用者。 如果您使用 Negotiate 驗證方法，您也必須使用 Set-CsTestUserCredential Cmdlet 和商務用 Skype Server 管理命令介面，讓這些測試帳戶能夠搭配綜合交易。 執行下列命令，以執行類似下列的命令 (這些命令會假設已建立三個 Active Directory 使用者帳戶，且已啟用這些帳戶商務用 Skype Server) ：
   
 ```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -43,7 +43,7 @@ Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "li
 Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 ```
 
-您不僅必須包含 SIP 位址，也包含使用者名稱和密碼。 如果您未加入密碼，Set-CsTestUserCredential Cmdlet 會提示您輸入該資訊。 您可以使用上述程式碼區塊中所示的功能變數名稱 \ 功能變數名稱格式來指定使用者名稱。
+不僅包含 SIP 位址，也包含使用者名稱和密碼。 如果您未加入密碼，Set-CsTestUserCredential Cmdlet 會提示您輸入該資訊。 您可以使用上述程式碼區塊中所示的功能變數名稱 \ 功能變數名稱格式來指定使用者名稱。
   
 若要確認是否已建立測試使用者認證，請從商務用 Skype Server 管理命令介面執行下列命令：
   
@@ -77,7 +77,7 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 ### <a name="configuring-extended-tests"></a>設定擴充測試
 
-如果您想要啟用 PSTN 測試，以驗證與公用交換電話網路的連線，您必須在設定監看員節點時執行一些其他設定。 首先，您必須從商務用 Skype Server 管理命令介面中執行類似如下的命令，以將測試使用者與 PSTN 測試類型產生關聯：
+如果您想要啟用 PSTN 測試，它會驗證與公用交換電話網路的連線，則在設定監看員節點時，您需要執行其他一些設定。 首先，您必須從商務用 Skype Server 管理命令介面中執行類似下列的命令，以將測試使用者與 PSTN 測試類型關聯：
   
 ```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
@@ -158,11 +158,11 @@ Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Ad
 Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Add="PersistentChatMessage","DataConference","UnifiedContactStore"}
 ```
 
-例如，如果其中一或多個測試 (（例如，DataConference) 已在監看員節點上啟用），便會發生錯誤。 在此情況下，您會收到類似下列的錯誤訊息：
+例如，如果其中一或多個測試 (（例如，DataConference) 已在監看員節點上啟用），便會發生錯誤。 在此情況下，您會收到類似下列訊息的錯誤訊息：
   
 Set-CsWatcherNodeConfiguration： ' urn： schema： DataConference ' 是重複的 key sequence ' '。設定。WatcherNode。2010： TestName ' 鍵或唯一識別碼限制。
   
-發生此錯誤時，將不會套用任何變更。 已移除重複的測試，應重新執行命令。
+發生此錯誤時，將不會套用任何變更。 在移除重複的測試時，應重新執行該命令。
   
 若要移除來自觀察者節點的綜合交易，請使用 Remove 方法。 例如，下列命令會從監看員節點中移除 ABWQ 測試：
   
@@ -186,7 +186,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" -Tests @{Re
 Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Object -ExpandProperty Tests
 ```
 
-根據指派給節點的綜合交易，此命令會傳回類似以下的資訊：
+根據指派給節點的綜合交易，此命令會傳回類似下列的資訊：
   
 註冊 IM GroupIM P2PAV AvConference 顯示狀態 PersistentChatMessage DataConference
 > [!TIP]
@@ -306,7 +306,7 @@ $cred2 = Get-Credential "contoso\testUser2"
 Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip:testUser1@contoso.com -SenderCredential $cred1 -ReceiverSipAddress sip:testUser2@contoso.com -ReceiverCredential $cred2 -TestUser1SipAddress sip:testUser1@contoso.com -TestUser2SipAddress sip:testUser2@contoso.com -Setup $true
 ```
 
-您必須執行此設定工作，您必須從企業內部執行：
+從企業內部執行此設定工作：
   
 - 如果從非伺服器電腦執行，則執行 Cmdlet 的使用者必須是 CsPersistentChatAdministrators 角色的成員，Role-Based 存取控制 (RBAC) 。
     
@@ -369,7 +369,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
 
 [！注意] VIS) 綜合交易的「影片互通性 (伺服器」會要求您下載並安裝綜合交易支援檔案 ([VISSTSupportPackage.msi](https://www.microsoft.com/download/details.aspx?id=46921)) 。 
   
-若要安裝 VISSTSupportPackage.msi 請確定已安裝 msi 的 [系統需求]) 的相依性 (。 執行 VISSTSupportPackage.msi 以執行簡單安裝。 .msi 會安裝下列路徑中的所有檔案：「%ProgramFiles%\VIS 綜合交易支援套件」。
+若要安裝 VISSTSupportPackage.msi，請確定已安裝 msi 的 [系統需求]) 的相依性 (。 執行 VISSTSupportPackage.msi 以執行簡單安裝。 .msi 會安裝下列路徑中的所有檔案：「%ProgramFiles%\VIS 綜合交易支援套件」。
   
 如需如何執行 VIS 綜合交易的詳細資訊，請參閱 [CsP2PVideoInteropServerSipTrunkAV](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV) Cmdlet 的檔。
   
@@ -378,7 +378,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
 
 根據預設，綜合交易將會以設定的使用者每隔15分鐘執行。 綜合交易會依序在一組使用者中執行，以避免兩個綜合交易彼此衝突。 需要較長的時間間隔，以提供所有綜合交易完成的時間。
   
-若要更經常執行綜合交易，請減少使用一組指定使用者執行的綜合交易，這樣測試就能在所需的時間範圍內完成，使測試能夠在所需的時間範圍內完成，而不需要偶爾的網路延遲。 如果需要執行更多綜合交易，請建立更多使用者集，以執行其他綜合交易。
+若要更經常執行綜合交易，請減少使用一組指定使用者執行的綜合交易，這樣測試就能在所需的時間範圍內完成，使測試能夠在所需的時間範圍內完成，而不需要偶爾的網路延遲。 如果需要執行更多綜合交易，請建立更多使用者集，以執行更多綜合交易。
   
 若要變更綜合交易的執行頻率，請遵循下列步驟：
   
@@ -386,7 +386,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
     
 2. 在 [規則] 區段中，尋找名稱為「主要綜合交易處理常式效能收集規則」的規則
     
-3. 以滑鼠右鍵按一下該規則，然後選取 [覆寫]，選取 [覆寫規則]，然後選取 [適用于 class：集區觀察器的所有物件]
+3. 以滑鼠右鍵按一下該規則，然後選取 [覆寫]，選取 [覆寫規則]，然後選取 [針對 class：集區觀察程式的所有物件]
     
 4. 在 [覆寫屬性] 視窗中，選取 [參數名稱] [Frequency]，然後將覆寫值設定為所需的值。
     
@@ -395,7 +395,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>使用綜合交易的豐富記錄
 <a name="special_synthetictrans"> </a>
 
-綜合交易會證明在協助識別系統問題方面非常有用。 例如，Test-CsRegistration 指令程式可能會提醒系統管理員使用者在向商務用 Skype Server 註冊時遇到問題。 不過，您可能會需要其他詳細資料，以判斷失敗的實際原因。
+綜合交易可用於協助識別系統中的問題。 例如，Test-CsRegistration 指令程式可能會提醒系統管理員使用者在向商務用 Skype Server 註冊時遇到問題。 不過，您可能需要更多詳細資料，以判斷失敗的實際原因。
   
 因此，綜合交易會提供豐富的記錄。 使用豐富記錄，針對綜合交易 undertakes 的每個活動，會記錄下列資訊：
   

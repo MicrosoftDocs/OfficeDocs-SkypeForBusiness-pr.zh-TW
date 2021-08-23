@@ -16,17 +16,16 @@ search.appverid: MET150
 description: 瞭解如何使用內建和自訂的定位停駐點來包含交談、檔案、地圖等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f78d4950f6c85910bb5b6c155c63a1048d73022d00ea9447fff3521c3b617fd6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5eb82e322f8e8f28c7e1afc8c3c0b76ce277a36
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295230"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372063"
 ---
-<a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>使用內建和自訂的Microsoft Teams
-==================================================
+# <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>使用內建和自訂的Microsoft Teams
 
-使用定位停駐點，小組成員可以存取頻道或聊天中專用空間中的服務和內容。 這可讓小組直接使用工具和資料，並且與工具和資料進行交談，而所有內容都位於頻道或聊天中。
+使用定位停駐點，小組成員可以存取頻道或聊天中專用空間中的服務和內容。 這可讓小組直接使用工具和資料，以及就工具和資料進行交談，而所有內容都位於頻道或聊天中。
 
 擁有者與團隊成員可以在頻道、私人聊天和群組聊天中新增索引標籤，協助整合其雲端服務。 您可以新增定位停駐點，協助使用者輕鬆存取及管理所需的資料，或與大部分使用者互動。 這可以是一個Power BI、儀表板，甚至是[您發佈](https://go.microsoft.com/fwlink/?linkid=855785)訓練影片的 Microsoft Stream 影片頻道。
 
@@ -39,14 +38,14 @@ ms.locfileid: "54295230"
 
 - 根據預設，每一個新頻道都會提供兩個選項卡：交談和檔案。
 
-    ![行銷小組的交談區段螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
+    ![行銷小組的交談區段的螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
 - 根據預設，每一個私人聊天都會提供四個選項卡：交談、檔案、組織和活動。
 
     ![聊天中選項卡的螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
 - 擁有者和小組成員可以按一下新增 Tab 按鈕的 Tab 螢幕快照，顯示 +符號，以在頻道或聊天中新增 ![ 更多定位停駐點。](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) 位於頻道或聊天頂端。
 
-- Excel、PowerPoint、Word 和 PDF 檔案必須上傳到檔案標籤，才能轉換成定位字元。 只要按一下即可將任何現有的上傳檔案轉換成定位停駐點，如下所示。
+- Excel、PowerPoint、Word 和 PDF 檔案必須上傳到檔案標籤，才能轉換成定位字元。 只要按一下，任何現有的上傳檔案都可以轉換成定位停駐點，如下所示。
 
     ![已選取檔案的檔案PowerPoint螢幕擷取畫面。](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 

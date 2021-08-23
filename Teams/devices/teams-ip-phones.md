@@ -21,18 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: a10ff4c99508530b300ddb19546686763d38d458
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 68cc104c1e50aeac5de2a88d44b1cba4bbaa54aa
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234808"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372253"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認證的裝置
 
 這些Microsoft Teams認證計畫可確保使用經過認證的電話機和會議電話的客戶，能體驗高品質的音訊通話和會議體驗。
 
-Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以滿足此較高層次的需求，並符合認證要求的裝置。 我們的一些合作夥伴也正在努力在電話商務用 Skype硬體上，為Teams服務提供支援。 來自認證Microsoft Teams裝置的好處包括：
+Microsoft Teams認證程式可確保品質較高的資料條具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以滿足此較高層次的需求，並符合認證要求的裝置。 我們的部分合作夥伴也正在努力在電話商務用 Skype硬體上，為Teams服務提供支援。 來自認證Microsoft Teams裝置的好處包括：
 
 - 硬體Teams整合和 LED 通知的原生體驗
 - 日曆整合和一鍵式會議加入
@@ -71,12 +71,14 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 | Yealink CP 960| 73.15.0.20 | 2018 年 12 月|
 | Yealink T58 & T56 系列 | 58.15.0.20 | 2018 年 12 月 |
 
-## <a name="currently-certified-teams-rooms-on-android"></a>目前通過 Android Teams 會議室認證
+## <a name="currently-certified-teams-rooms-on-android"></a>目前 Android Teams 會議室認證
 
 下列裝置在 Android 認證計畫Microsoft Teams 會議室認證：
 
 | 裝置模型 | 固件版本 | 發行日期  | 會議室大小                                        |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|
+| Logitech Tap Device     | 1.2.982     |      2021 年 8 月   | 相容 Logitech 拉力杆和拉力杆迷你 |
+| Logitech 拉力杆迷你 | 1.2.982     |      2021 年 8 月   |    小型會議室 (4.5m x 4.5m)  |
 | Logitech 拉力杆      | 1.2.788     |       2021 年 6 月    |    中型會議室 (4.5m x 6m)        |
 | AudioCodes RXV80 | 1.9.155        |   2021 年 5 月  | 焦點會議室 (3m x 3m)  </br> 小型會議室 (4.5m x 4.5m)  |
 | EPOS EXPAND Vision 3T       | 1.2.0.21102.03    | 2021 年 4 月 | 焦點會議室 (3m x 3m)  </br> 小型會議室 (4.5m x 4.5m)  |
@@ -125,7 +127,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以判斷應用程式、Microsoft Teams和系統管理公司入口網站的安裝版本。 在包含的產品發行欄中尋找產品版本，然後在前述 **的 App** 版本資料表中尋找產品版本。
+當您在裝置上安裝新的固件版本時，您可以判斷應用程式、Microsoft Teams和系統管理代理公司入口網站的安裝版本。 在包含的產品發行欄中尋找產品版本，然後在前述 **的 App** 版本資料表中尋找產品版本。
 
 | 裝置模型        | 固件版本     | 已包含產品發行  |
 |:--------------------|:---------------------|:-------------------------|
@@ -157,13 +159,13 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 | Yealink VP59        | 91.15.0.54         | 2020 更新#7           |
 | Yealink CP960       | 73.15.0.115      | 2020 更新#7           |
 
-請參閱[Microsoft Teams](phones-for-teams.md)手機功能集，以瞭解這些裝置支援的功能。
+請參閱[Microsoft Teams手機](phones-for-teams.md)功能集，以瞭解這些裝置支援的功能。
 
 請參閱[Microsoft Teams顯示](teams-displays.md)。
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版 Teams 會議室產品發行資訊
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版產品Teams 會議室資訊
 
-以下是 Android App 和Teams 會議室版本的最新功能。
+以下是 Android 應用程式Teams 會議室的最新版本。
 
 #### <a name="app-versions"></a>應用程式版本
 
@@ -179,7 +181,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。  然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行 |
 |:--------------|:-----------------|:-------------------------|
@@ -247,11 +249,11 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 ## <a name="more-resources"></a>更多資源
 
-請參閱[Microsoft Teams](phones-for-teams.md)手機功能集，以瞭解這些裝置支援的功能。
+請參閱[Microsoft Teams](phones-for-teams.md)手機功能集，以瞭解這些裝置支援的功能相關資訊。
 
 請參閱 [尋找行動裝置上的固件版本](phones-for-teams.md) ，以判斷行動裝置上的裝置固件版本。
 
-Microsoft Teams授權可以在訂閱或訂閱中[Microsoft 365 Office 365購買](/office365/servicedescriptions/teams-service-description)。 若要深入瞭解在手機上使用手機Microsoft Teams授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft Teams授權可以在訂閱或訂閱中[Microsoft 365 Office 365購買](/office365/servicedescriptions/teams-service-description)。 若要深入瞭解在手機上使用Microsoft Teams所需的授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
 
 若要進一Teams，請參閱如何[存取Microsoft Teams？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
@@ -259,4 +261,4 @@ Microsoft Teams授權可以在訂閱或訂閱中[Microsoft 365 Office 365購買]
 
 [探索Microsoft Teams手機和認證裝置。](https://products.office.com/microsoft-teams/across-devices/devices)
 
-[Teams和Skype互通性](../teams-skype-interop.md)
+[Teams Skype互通性](../teams-skype-interop.md)

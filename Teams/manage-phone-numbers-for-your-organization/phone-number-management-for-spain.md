@@ -20,27 +20,27 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 使用此表格可尋找西班牙地區取得及管理電話號碼Microsoft Teams。
-ms.openlocfilehash: 3a584a2417d465fd8f8776f4699d0675ffb74ad5dba5699a4c3f2b48a5a82377
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 使用此表格可尋找有關在西班牙取得及管理西班牙地區電話號碼Microsoft Teams。
+ms.openlocfilehash: c09e2aa42bfeb9799f6c0ec5fc2a5143ed4b9e06
+ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350885"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "58380427"
 ---
 # <a name="phone-number-management-for-spain"></a>西班牙的電話號碼管理
 
-使用此表格可尋找西班牙地區取得及管理電話號碼Microsoft Teams。
+使用此表格可尋找有關在西班牙取得及管理西班牙地區電話號碼Microsoft Teams。
   
 詳細資訊，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)。
   
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。   <br/> | 下載其中一個表單。</br> [es-es (es-es)  (5.0) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.5.0)-(es-es).pdf?raw=true) <br/>  [西班牙的新電話號碼要求 (5.0)  (en-us) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-spain-(v.5.0)-(en-us).pdf?raw=true)<br/><br/>    填寫並連連 [PTSN 以尋找指示](contact-pstn-service-desk.md)。  <br/> |
-|將電話號碼轉接給我們。  <br/> |下載此表單。 <br/>[西班牙的授權 (LOA) 所有 (es-es)  (v.5.0)  (es-es) ](https://download.microsoft.com/download/e/8/b/e8bd034a-c5fa-4da2-8fd6-3dd13988b834/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.5.0)-(es-es).pdf)<br/><br/> 填寫並連連 [PTSN 以尋找傳送](contact-pstn-service-desk.md)[給我們的指示](mailto:ptneu@microsoft.com)。 <br/> |
-|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |如需有關要發佈/取消發佈之電話號碼清單的指示，請連連[PTSN。](contact-pstn-service-desk.md) <br/> |
-|將使用者的號碼變更為服務號碼。  <br/> |如需要轉換成服務號碼之使用者號碼清單的指示，請連連[PTSN。](contact-pstn-service-desk.md) <br/> |
-|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請 [連至 PSTN 服務台](contact-pstn-service-desk.md)。 |
+|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。   <br/> | 下載其中一個表單。</br> [es-es (es-es)  (5.0) ](https://download.microsoft.com/download/a/b/3/ab310e4a-2d25-4cf1-a413-cfb84d66c7ad/new-phone-number-request-for-spain-(v.5.0)-(es-es).pdf) <br/>  [西班牙的新電話號碼要求 (v.5.0)  (en-us) ](https://download.microsoft.com/download/9/e/8/9e8bef13-808d-418b-aafa-af36d1e76984/new-phone-number-request-for-spain-(v.5.0)-(en-us).pdf)<br/><br/>    填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。  <br/> |
+|將電話號碼轉接給我們。  <br/> |下載此表單。 <br/>[授權書 (LOA)  (所有號碼)  (v.5.0)  (es-es) ](https://download.microsoft.com/download/e/8/b/e8bd034a-c5fa-4da2-8fd6-3dd13988b834/letter-of-authorization-(loa)-for-spain-(all-numbers)-(v.5.0)-(es-es).pdf)<br/><br/> 填寫並連連 [PTSN 服務台，以尋找傳送](contact-pstn-service-desk.md)[給我們的指示](mailto:ptneu@microsoft.com)。 <br/> |
+|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需有關要](contact-pstn-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請連連 PTSN 服務台。 <br/> |
+|將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-pstn-service-desk.md) 服務號碼的使用者號碼清單的指示，請連連 PTSN 服務台。 <br/> |
+|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請連連 [PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相關主題
 

@@ -1,5 +1,5 @@
 ---
-title: 協助工具聲明一致性 - 法國
+title: 一致性的協助工具宣告 - 法國
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,19 +20,19 @@ ms.custom:
 - seo-marvel-mar2020
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif d'Office 365 qui intègre toutes les personnes， contenus et outils 不 votre équipe a besoin pour être plus impliquée et efficace. "
-ms.openlocfilehash: aeb76f4dca50fe3aad3ab5fb77b66d160102eeff02fcbdafbf48661e47f6766f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 92a982857f3530a5f03c2efafb2efbce83bfd23a
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286192"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372223"
 ---
-# <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d'accessibilité
+#  <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 Déclaration de conformité en matière d'accessibilité
 
 
 ### <a name="section-1-champ-dapplication"></a>第 1 節的查普 d'application
 
-La présente 證明de conformité à la norme [EN 301 549](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) 相對 à l'accessibilité des produits [précise les exigences fonctionnelles en matière d'accessibilitéé](http://mandate376.standards.eu/standard/scope) applicables aux produits et services TIC de Microsoft.
+La présente 證明de conformité à la norme [EN 301 549](http://www.etsi.org/deliver/etsi_en/301500_301599/301549/01.01.02_60/en_301549v010102p.pdf) 相對 à l'accessibilité des produits [précise les exigences fonctionnelles en matière d'accessibilité](http://mandate376.standards.eu/standard/scope) applicables aux produits et services TIC de Microsoft.
 
 ### <a name="section-2-rfrences"></a>第 2 節 Références
 
@@ -62,7 +62,7 @@ Définitions et abréations [EN 301 549](http://mandate376.standards.eu/standard
 > 
 > [4.2.8 使用 avec une](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=44&functional_statements_submitted=true) portée limitée
 > 
-> [4.2.9 小影影](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=46&functional_statements_submitted=true)
+> [4.2.9 在照片上分享相片](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=46&functional_statements_submitted=true)
 > 
 > [4.2.10 使用 avec 認知限制](http://mandate376.standards.eu/standard/technical-requirements?functional_statements=48&functional_statements_submitted=true)
 > 
@@ -87,13 +87,13 @@ Définitions et abréations [EN 301 549](http://mandate376.standards.eu/standard
 </tr>
 <tr class="odd">
 <td><h3 id="activation-des-fonctionnalités-daccessibilité">5.2 啟用 fonctionnalités d'accessibilité</h3>
-<p>Dans le cas o à la TIC présente des fonctionnalités d'accessibilité documentées， il est possible d'activer les fonctionnalités qui sont requises pour répondre à un besoin spécifique sans faire appel à une méthode qui ne prend pas en charge ce besoin.</p></td>
+<p>Dans le cas o à la TIC présente des fonctionnalités d'accessibilité documentées， il est possible d'activer les fonctionnalités qui sont requises pour répondre à un besoin spécifique Sans faire appel à une méthode qui ne prend pas en charge ce besoin.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="biométrie">5.3Bibimétrie</h3>
-<p>Dans le cas o à la TIC fait Appel à des caractéristiques 子項， elle ne fait pas de l'utilisation d'une caractéristiqueique le seul moyen d'identification de l'utilisateur ou de contrôle de la TIC.</p></td>
+<p>Dans le cas o à la TIC fait Appel à des caractéristiques iqueiques， elle ne fait pas de l'utilisation d'une caractéristiqueique le seul moyen d'identification de l'utilisateur ou de contrôle de la TIC.</p></td>
 <td>不適用</td>
 <td></td>
 </tr>
@@ -105,13 +105,13 @@ Définitions et abréations [EN 301 549](http://mandate376.standards.eu/standard
 </tr>
 <tr class="even">
 <td><h3 id="mode-de-fonctionnement">5.5.1 Mode de fonctionnement</h3>
-<p>Dans le cas oê la TIC présente des éléments actionnables qui doivent être Actionnés en les prenant， en les pinçant ou en exerçant une torsion du poignet， un autre mode de fonctionnement accessibl qui ne nécesite pas ces gestes estes esté.</p></td>
+<p>Dans le cas oê la TIC présente des éléments actionnables qui doivent être actionnés en les prenant， en les pinçant ou en exerçant une torsion du poignet， un autre mode de fonctionnement accessibl qui ne nécesite pas ces gestes estes esté.</p></td>
 <td>不適用</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="discernabilité-des-éléments-actionnables">5.5.2 Discernabilité des éléments Actionnables </h3>
-<p>Dans le cas o à la TIC a des éléments actionnables， elle 建議 un moyen de discerner élément actionnable sans que la vision ne soit nécessaire et sans accomplir le geste associé à cet élément actionnable.</p></td>
+<p>Dans le cas o à la TIC a des éléments actionnables， elle 建議 un moyen de discerner élément actionnable sans que la vision ne soit nécesaire et sans accomplir le geste associé à cet élément actionnable.</p></td>
 <td>不適用</td>
 <td></td>
 </tr>
@@ -123,7 +123,7 @@ Définitions et abréations [EN 301 549](http://mandate376.standards.eu/standard
 </tr>
 <tr class="odd">
 <td><h3 id="statut-visuel">5.6.2 Statut visuel</h3>
-<p>Dans le cas o à la TIC EST dotée d'une commande de verrouillage et oette commande n'est pas présentée visuellement à l'utilisateur， la TIC 建議 au moins un mode de fonctionnement avec lequel il est possible de déterminer visuellement le statut de la commande lorsque la commande est présentée.</p></td>
+<p>Dans le cas o à la TIC EST dotée d'une commande de verrouillage et o à cette commande n'est pas présentée visuellement à l'utilisateur， la TIC 建議 au moins un mode de fonctionnement avec lequel il est de déterminer visuellement le statut de la commande lorsque la commande est présentée.</p></td>
 <td>不適用</td>
 <td></td>
 </tr>
@@ -161,7 +161,7 @@ Définitions et abréations [EN 301 549](http://mandate376.standards.eu/standard
 <td><strong>重新分類及解說</strong></td>
 </tr>
 <tr class="even">
-<td><h3 id="bande-passante-audio-pour-la-parole-recommandation-pour-information">6.1 Bande Passante audio pour la 假釋 (重新命令傾注) </h3>
+<td><h3 id="bande-passante-audio-pour-la-parole-recommandation-pour-information">6.1 Bande Passante audio pour la 假釋 (重新命令傾注資訊) </h3>
 <p>Dans le cas o à TIC permet la communication voix bidirectionnelle， elle doit être 功能， pour donner une bonne qualité audio， de chiffrer et de déchiffrer la communication voix bidirectionnelle dans une bande de fréquence plafonnée à au moins 7 000 Hz.</p></td>
 <td>Pris en charge</td>
 <td></td>
@@ -180,7 +180,7 @@ Définitions et abréations [EN 301 549](http://mandate376.standards.eu/standard
 </tr>
 <tr class="odd">
 <td><h3 id="affichage-visuellement-distinguable">6.2.2.1 Affichage visuellement disuable</h3>
-<p>Dans le cas oui la TIC EST dotée de capacités d'envoi et de réception en RTT， l'affichage du texte est visuellement différencié de celui du texte reçu.</p></td>
+<p>Dans le cas oui la TIC est dotée de capacités d'envoi et de réception en RTT， l'affichage du texte est visuellement différencié de celui du texte reçu.</p></td>
 <td>Pas pris en charge</td>
 <td></td>
 </tr>
@@ -192,9 +192,9 @@ Définitions et abréations [EN 301 549](http://mandate376.standards.eu/standard
 </tr>
 <tr class="odd">
 <td><h3 id="interopérabilité">6.2.3 Interopérabilité</h3>
-<p>Dans le cas o出 TIC dotée de la fonctionnalité RTT affiche une interopérabilité avec d'autres TIC dotées de la fonctionnalité RTT (comme l'exige le 6.2.1.1) ， elles sont 相容 avec au moins un des quatre mécanismes d'interopérabilité RTT décrits ci-dessous ：</p>
+<p>Dans le cas où une TIC dotée de la fonctionnalité RTT affiche une interopérabilité avec d'autres TIC dotées de la fonctionnalité RTT (comme l'exige le 6.2.1.1) ， elles sont 相容 avec au moins un des quatre mécanismes d'interopérabilité RTT décrits ci-dessous ：</p>
 <p>a) TIC-opérant sur le Résau Téléphonique Public (RTC) avec une autre TIC qui se connecte directement au RTC comme décrit dans la Recommandation ITU-T V.18 [i.23] ou l'une de ses 附件 pour les signaux de téléphonie en mode texte sur l'interface RTC ;</p>
-<p>b) TIC 內部 opérant avec une autre TIC 利用者 la VoIP SIP et utilisant une technologie RTT conforme au document RFC 4103 ;</p>
+<p>b) TIC 內部 opérant avec une autre TIC 利用者 la VoIP SIP et utilisant une 技術 RTT conforme au document RFC 4103 ;</p>
 <p>c) TIC 內部 opérant avec une autre TIC 使用 une 技術 RTT 符合 à l'ensemble des protocoles IP 多媒體 Sub-System (IMS) spécifiés dans les documents TS 126 114， TS 122 173 et TS 134 229;</p>
 <p>d) TIC 內部 opérant avec une autre TIC 使用 une spécification 鄉/鎮/區 adaptée et applicable pour l'échange RTT qui qui est publiée et peut être consultée. Cette spécification 公國 comprend une méthode pour indiquer la perte ou de la corruption de caractères.</p></td>
 <td>Pas pris en charge</td>
@@ -202,7 +202,7 @@ Définitions et abréations [EN 301 549](http://mandate376.standards.eu/standard
 </tr>
 <tr class="even">
 <td><h3 id="réactivité-de-la-rtt">6.2.4 Réactivité de la RTT</h3>
-<p>Dans le cas o 4 la TIC 使用 la sasie RTT， cette sasie RTT est transmise au résau TIC 相容 RTT dans la seconde qui suit sa sa sasie.</p></td>
+<p>Dans le cas o 4 la TIC 使用 la sasie RTT， cettesie RTT est transmise au résau TIC 相容 RTT dans la seconde qui suit sa sa sasie.</p></td>
 <td>Pas pris en charge</td>
 <td></td>
 </tr>
@@ -229,7 +229,7 @@ Définitions et abréations [EN 301 549](http://mandate376.standards.eu/standard
 <tr class="even">
 <td><h3 id="taux-de-trame-vitesse-dimages">6.5.3 Taux de (vitesse d'images) </h3>
 <p>Lorsqu'une TIC qui 建議 la communication voix bidirectionnelle est dotée d'une fonctionnalité de vidéo en temps réel， cette TIC ：</p>
-<p>a) charge un taux de 12 images par seconde (IPS) ;</p>
+<p>a) charge un taux de au moins 12 影像 par seconde (IPS) ;</p>
 <p>b) doit de préférence prendre en charge un taux de ére d'au moins 20 images par par seconde (IPS) avec ou sans langue des signes dans le flux de données vidéo.</p></td>
 <td>Pris en charge</td>
 <td></td>
@@ -242,10 +242,10 @@ Définitions et abréations [EN 301 549](http://mandate376.standards.eu/standard
 </tr>
 <tr class="even">
 <td><h3 id="alternatives-aux-services-vidéo">6.6 備用服務 vidéo</h3>
-<p>Dans le cas o à la TIC 建議 la communication vidéo en temps réel et également des fonctions de répondeur， de réception automatique ou de réponse interactive， la TIC doit 建議者 aux utilisateurs un moyen d'accéder aux informations et d'accomplir les tâches associées à ces fonctions：</p>
+<p>Dans le cas oux la TIC 建議 la communication vidéo en temps réel et également des fonctions de répondeur， de réception automatique ou de réponse interactive， la TIC doit 建議者 aux utilisateurs un moyen d'accéder aux informations et d'accomplir les tâches associées à ces fonctions：</p>
 <p>a) les informations audibles， sans utilisation de l'audition;</p>
 <p>b) les commandes 聲樂，sans utilisation de la voix;</p>
-<p>c) 資訊 visuelles， sans utilisation de la vision.</p></td>
+<p>c) les informations visuelles， sans utilisation de la vision.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -286,7 +286,7 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 <p>Media limité dans le temps： Si le contenu 非 textuel est un media limité dans le temps， alors les équivalents textuels donnent au moins une 識別描述 de ce contenu non textuel.</p>
 <p>測試：Si le contenu 非 textuel est un test ou un exercice qui serait invalide s'il était présenté sous forme de texte， alors des équivalents textuels donnent au moins une 識別描述性 du contenu non textuel.</p>
 <p>Contenu 感應器： Si le contenu 非 textuel pour principal objectif de créer une expérience sensorielle spécifique， alors des équivalents textuels donnent au moins une 識別描述 de ce contenu non textuel.</p>
-<p>CAPTCHA：Si le contenu non textuel sert à confirmer que c'est une personne et non unurur qui accède au contenu， alors des équivalents textuels qui identifient et décrivent à àqui sert ce contenu non textuel sont fournis， et des formes alternatives de CAPTCHA utilisant différents 模式 de sortie pour les différents 類型 de sensor sensorielle sont fournies afin de répondre aux besoins des différents 差值.</p>
+<p>CAPTCHA ：Si le contenu non textuel sert à confirmer que c'est une personne et non unurur qui accède au contenu， alors des équivalents textuels qui identifient et décrivent à àqui sert ce contenu non textuel sont fournis， et des formes alternatives de CAPTCHA utilisant différents 模式 de sortie pour les différents types de sensorielle sont fournies afin de répondre aux besoins des différents 差值.</p>
 <p>裝飾、格式、隱形：Si le contenu 非 textuel est purement 裝飾裝飾atif， s'il n'est utilisé que pour le formatage visuel ou s'il n'est pas présenté aux utilisateurs， alors il est mis en être ignoré par la technologie d'assistance.</p></td>
 <td>Pris en charge</td>
 <td></td>
@@ -296,14 +296,14 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 <p>Dans le cas oux la TIC est un logiciel non web qui est doté d'une 介面 utilisateur et qui prend en charge l'accès aux 技術 d'assistance pour la lecture d'écran et oucune information sonore préenregistrée n'est nécesaire pour permettre l'utilisation des fonctions fermées de la TIC， elle remplit les Critères de Succès indiqués dans le Tableau 11.2： Audio seulement et vidéo seulement (préenregistré) ：</p>
 <p>Pour les médias audio seulement préenregistrés et vidéo seulement préenregistrés， les principes ci-après se vérifient sauf lorsque l'audio ou la vidéo est un média de remplacement du texte et est clairement identifié comme tel：</p>
 <p>音訊 seulement préenregistré： Une alternative au media limité dans le temps， qui présente des informations équivalentes pour le contenu audio seulement préenregistré， est fournie.</p>
-<p>Vidéo seulement préenregistrée ： Une alternative au media limité dans le temps ou une piste audio， qui présente des informations équivalentes pour le contenu vidéo seulement préenregistré， est fournie.</p></td>
+<p>Vidéo seulement préenregistrée： Une alternative au media limité dans le temps ou une piste audio， qui présente des informations équivalentes pour le contenu vidéo seulement préenregistré， est fournie.</p></td>
 <td>不適用</td>
 <td></td>
 </tr>
 <tr class="even">
 <td><h3 id="sous-titres-préenregistrés">11.2.1.3 Sous-titres (préenregistrés) </h3>
 <p>Dans le cas o 4 la TIC est un logiciel non web qui est doté d'une 介面 utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.3 ： Sous-titres (préenregistrés) ：</p>
-<p>Des sous-titres sont fournis pour tout le contenu audio préenregistré en média synchrairesé， sauf quand le média est une alternative au texte et est clairement identifié comme tel.</p></td>
+<p>Des sous-titres sont fournis pour tout le contenu audio préenregistré en média synchronisé， sauf quand le média est une alternative au texte et est clairement identifié comme tel.</p></td>
 <td>不適用</td>
 <td></td>
 </tr>
@@ -316,13 +316,13 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 </tr>
 <tr class="even">
 <td><h3 id="sous-titres-en-direct">11.2.1.5 Sous-titres (en en) </h3>
-<p>Dans le cas oè la TIC est un logiciel non web qui est doté d'une 介面 utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.5. Sous-titres (en en) ：</p>
+<p>Dans le cas o4 la TIC est un logiciel non web qui est doté d'une 介面 utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.5. Sous-titres (en en) ：</p>
 <p>Des sous-titres sont fournis pour tout le contenu audio en en direct se se présentant sous la forme d'un média synchronisé.</p></td>
 <td>不適用</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><h3 id="audio-description-préenregistrée">11.2.1.6 préenregistrée (音訊) </h3>
+<td><h3 id="audio-description-préenregistrée">11.2.1.6 音訊描述 (préenregistrée) </h3>
 <p>Dans le cas o 4 la TIC est un logiciel non web qui est doté d'une 介面 utilisateur， elle remplit les Critères de Succès indiqués dans le Tableau 11.6： Audio-description (préenregistrée) ：</p>
 <p>L'audio 描述 est fournie pour tout le contenu vidéo préenregistré sous forme de média synchronisé.</p></td>
 <td>不適用</td>
@@ -330,14 +330,14 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 </tr>
 <tr class="even">
 <td><h3 id="informations-et-relations">11.2.1.7 資訊與關係</h3>
-<p>Dans le cas oè la TIC est un logiciel non web qui est doté d'une 介面 utilisateur et qui prend en charge l'accès aux 技術 d'assistance pour la lecture d'écran， elle remplit les Critères de Succès indiqués dans le Tableau 11.7： Informations et relations：</p>
+<p>Dans le cas o 4 la TIC est un logiciel non web qui est doté d'une 介面 utilisateur et qui prend en charge l'accès aux 技術 d'assistance pour la lecture d'écran， elle remplit les Critères de Succès indiqués dans le Tableau 11.7： Informations et relations：</p>
 <p>Les Informations， la structure et les 關係 véhiculées par la présentation peuvent être déterminés par un 方案 informatique ou sont disponibles sous forme de texte.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="ordre-séquentiel-logique">11.2.1.8 Ordre séquentiel logique</h3>
-<p>Dans le cas oè la TIC est un logiciel non web qui est doté d'une 介面 utilisateur et qui prend en charge l'accès aux 技術 d'assistance pour la lecture d'écran， elle remplit les Critères de Succès indiqués dans le Tableau 11.8 ： Ordre séquentiel logique：</p>
+<p>Dans le cas o 4 la TIC est un logiciel non web qui est doté d'une 介面 utilisateur et qui prend en charge l'accès aux 技術 d'assistance pour la lecture d'écran， elle remplit les Critères de Succès indiqués dans le Tableau 11.8 ： Ordre séquentiel logique：</p>
 <p>Lorsque l'ordre de présentation du contenu 影響 sa 符號， un ordre de lecture correct peut être déterminé par un programme informatique.</p></td>
 <td>Pris en charge</td>
 <td></td>
@@ -394,7 +394,7 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 <p>Dans le cas o à la TIC est un logiciel non web qui est doté d'une 介面 utilisateur et qui permet l'accès aux claviers ou à une 介面 clavier， elle remplit les Critères de Succès indiqués dans le Tableau 11.1 ： Clavier ：</p>
 <p>Toutes les fonctionnalités du contenu peuvent être activées depuis une 介面 clavier sans que l'individu n'ait à appuyer un nombre spécifique de fois sur le clavier， sauf dans le cas ou la fonction en question nécesite une sasie qui dépend de la trajectoire du mouvement effectué par l'utilisateur et pas seulement du point de départ et du point d'arrivée de cette trajectoire.</p></td>
 <td>Pris en charge avec des exceptions</td>
-<td>1) Les utons 全螢幕和挑選版面配置上 haut à droite de la fenêtre Réunion ne bénéficient pas du focus clavier.<br />
+<td>1) Les 00ons 全螢幕及挑選版面配置位置 en haut à droite de la fenêtre Réunion ne bénéficient pas du focus clavier.<br />
 2) Certaines 命令 dans Poll， Q &amp; A et Whiteboard ne peuvent bénéficier du focus clavier.<br />
 3)Les commandes de la visionneuse PowerPoint ne sont pas accessibles depuis le clavier.<br />
 4) Les touches de modification du clavier s'arrtent parfois de fonctionner lorsctionner lorsque vous donnez ou prenez le contrôle de votre écran partagé.</td>
@@ -408,7 +408,7 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 </tr>
 <tr class="even">
 <td><h3 id="réglage-du-délai">11.2.1.17 Réglage du délai</h3>
-<p>Dans le cas o 4 la TIC est un logiciel non web qui est doté d'une 介面 utilisateur， elle remplit les Critères de Succès indiqués dans le tableau 11.17 ： Réglage du délai ：</p>
+<p>Dans le cas oè la TIC est un logiciel non web qui est doté d'une 介面 utilisateur， elle remplit les Critères de Succès indiqués dans le tableau 11.17 ： Réglage du délai ：</p>
 <p>Pour chaque délai qui est fixé par le logiciel， au moins l'un des points suivants est vrai ：</p>
 <p>抑制：l'utilisateur est autorisé à sup上r la limite de temps avant de la dépasser;ou</p>
 <p><strong>Ajustement：</strong> l'utilisateur est autorisé à ajuster la limite de temps avant de la dépasser dans un intervalle d'au moins dix fois la durée paramétrée par défaut </p>
@@ -422,7 +422,7 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 <tr class="odd">
 <td><h3 id="mettre-sur-pause-arrêter-masquer">11.2.1.18 Mettre sur pause， arrêter， masquer</h3>
 <p>Dans le cas o 4 la TIC est un logiciel non web qui est doté d'une 介面 utilisateur， elle remplit les Critères de Succès indiqués dans le tableau 11.18 ： Mettre sur pause， arrêter， masquer ：</p>
-<p>倒入資訊 en mouvement， clignotante， défilante ou mise à jour automatiquement， tous les points suivants sont vrais：</p>
+<p>Pour toute information en mouvement， clignotante， défilante ou mise à jour automatiquement， tous les points suivants sont vrais：</p>
 <p>Déplacement， clignotement， défilement： pour toute information en mouvement， clignotante ou défilante qui (1) démarre automatiquement， (2) dure plus de cinq secondes et (3) est présentée conjointement avec un autre contenu， l'utilisateur 處置 d'un mécanisme pour la mettre en pause， l'arrêter ou la masquer， à moins que le movement， le clignotement ou le défilement s'avère un élément essentiel au bon déroulement de l'activité;Et</p>
 <p>Mise à jour automatique： pour toute information à jour automatiquement qui (1) démarre automatiquement et (2) est présentée conjointement avec un autre contenu， l'utilisateur 處置 d'un mécanisme pour la mettre en pause， l'arrêter ou pour contrôler la fréquence des mises à jour à moins que la mise à jour automatique s'avère essentielle au bon déroulement de l'activité.</p></td>
 <td>Pris en charge</td>
@@ -431,7 +431,7 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 <tr class="even">
 <td><h3 id="pas-plus-de-trois-flashs-ou-sous-le-seuil-critique">11.2.1.19 Pas plus de trois Flashs ou sous le seuil Critique</h3>
 <p>Dans le cas oplus la TIC est un logiciel non web qui est doté d'une 介面 utilisateur， elle remplit les critères de succès indiqués dans le tableau 11.19 ： Pas plus de trois flashs ou sous le seuil critique：</p>
-<p>Le logiciel est exempt de tout élément qui flashe plus de trois fois fois dans n'importe quel intervalle d'une seconde ou ce flash doit se seieler sous le seuil de Flash générique et le seuil de Flash rouge.</p></td>
+<p>Le logiciel est exempt de tout élément qui flashe plus de trois fois dans n'importe quel intervalle d'une seconde ou ce flash doit se se 代發器 sous le seuil de flash générique et le seuil de Flash rouge.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -525,7 +525,7 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 <tr class="odd">
 <td><h3 id="nom-rôle-et-valeur">11.2.1.38 Nom，rôle et valeur</h3>
 <p>Dans le cas o à la TIC est un logiciel non web qui est doté d'une 介面 utilisateur et qui l'accès à des technologies d'assistance， elle remplit les Critères de Succès indiqués dans le tableau 11.38 ： Nom， rôle et valeur ：</p>
-<p>Pour tout composant d'une 介面 utilisateur (et notamment des éléments de formulaire， liens et composants générés par des scripts) ， le nom et le rôle peuvent être déterminés par un programme informatique;les états， les propriétéés et les valeurs qui peuvent être paramétrés par l'utilisateur peuvent être définis par un programme informatique ;et la 通知 des changements de ces éléments est mise à la des agents utilisateurs， et notamment des technologies d'assistance.</p></td>
+<p>Pour tout composant d'une 介面 utilisateur (et notamment des éléments de formulaire， liens et composants générés par des scripts) ， le nom et le rôle peuvent être déterminés par un programme informatique;les états， les propriétéés et les valeurs qui peuvent être paramétrés par l'utilisateur peuvent être définis par un programme informatique;et la 通知 des changements de ces éléments est mise à la des agents utilisateurs， et notamment des technologies d'assistance.</p></td>
 <td>Pris en charge avec des exceptions</td>
 <td>1) Pas d'accès de 程式化 Dans Poll， Q &amp; A et Whiteboard.<br />
 2)Le contenu des fichiers PowerPoint partagé n'est pas exposé par 程式化。<br />
@@ -544,7 +544,7 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 <td></td>
 </tr>
 <tr class="even">
-<td><h3 id="prise-en-charge-des-services-daccessibilité-de-la-plate-forme-pour-les-technologies-dassistance">11.3.2.2 Prise en charge des services d'accessibilité de la plate-forme pour less d'assistance</h3>
+<td><h3 id="prise-en-charge-des-services-daccessibilité-de-la-plate-forme-pour-les-technologies-dassistance">11.3.2.2 Prise en charge des services d'accessibilité de la plate-forme pour less technologie d'assistance</h3>
 <p>Le logiciel de la plate-forme fournit unensemble de services d'accessibilité de la plate-forme documentés qui permettent à la 技術 d'assistance d'interagir avec logiciel qui est doté d'une 介面 utilisateur fonctionnant sur le logiciel de la plate-forme.</p>
 <p>Le logiciel de la plate-forme doit répondre aux exigences des clause 11.3.2.5 à 11.3.2.17 étant toutefois entendu que， dans le cas o à le concept d'une 介面 utilisateur qui correspond à l'une des clauses11.3.2.5 à 11.3.2.17 n'est pas 相容 avec l'compatibleronnement logiciel， ces exigences ne'appliquent pas.</p></td>
 <td>不適用</td>
@@ -564,7 +564,7 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 </tr>
 <tr class="odd">
 <td><h3 id="informations-relatives-à-lobjet">11.3.2.5 資訊親屬 à l'objet</h3>
-<p>Dans le cas o 4 le logiciel présente une 介面 utilisateur il rendra， en utilisant les services décrits dans la clause 11.3.2.3， le rôle， l'état ou les états， la frontière， le nom et la description des éléments de l'interface utilisateur déterminables par un programme informatique par les technologies d'assistance.</p></td>
+<p>Dans le cas o 4 le logiciel présente une 介面 utilisateur il rendra， en utilisant les décrits dans la clause 11.3.2.3， le rôle， l'état ou les états， la frontière， le nom et la description des éléments de l'interface utilisateur déterminables par un programme informatique par les technologies d'assistance.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -582,7 +582,7 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 </tr>
 <tr class="even">
 <td><h3 id="relations-des-étiquettes">11.3.2.8 關係</h3>
-<p>Dans le cas oé le logiciel présente une 介面 utilisateur， il exposera la relation qu'un élément de l'interface utilisateur en tant qu'étiquete d'un autre élément， ou en tant qu'élément étiqueté par un autre élément， à l'aide des services décrits dans la clause 11.3.2.3， de sorte que ces informations soient déterminables par un programme informatique par les technologies d'assistance.</p></td>
+<p>Dans le cas oh le logiciel présente une 介面 utilisateur， il exposera la relation qu'un élément de l'interface utilisateur en tant qu'étiquete d'un autre élément， ou en tant qu'élément étiqueté par un autre élément， à l'aide des services décrits dans la clause 11.3.2.3， de sorte que ces informations soient déterminables par un programme informatique par les technologies d'assistance.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -594,13 +594,13 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 </tr>
 <tr class="even">
 <td><h3 id="texte">11.3.2.10 Texte</h3>
-<p>Dans le cas o à le logiciel présente une 介面 utilisateur， il rendra， à l'aide des services décrits dans la clause 11.3.2.3， les contenus textuels， les attributs textuels et la frontière du texte qui appara à à l'écran， déterminables par un programme informatique par less d'assistance.</p></td>
+<p>Dans le cas o à logiciel présente une 介面 utilisateur， il rendra， à l'aide des services décrits dans la clause 11.3.2.3， les contenus textuels， les attributs textuels et la frontière du texte qui appara à à l'écran， déterminables par un programme informatique par less d'assistance.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
 <tr class="odd">
 <td><h3 id="liste-des-actions-disponibles">11.3.2.11 清單取消刪除動作</h3>
-<p>Dans le cas o à le logiciel présente une 介面 utilisateur， il rendra， à l'aide des services décrits dans la clause 11.3.2.3， une liste des actions disponibles qui peuvent être exécutées sur un élément de l'interface utilisateur déterminable par un programme informatique par less d'assistance.</p></td>
+<p>Dans le cas o à logiciel présente une 介面 utilisateur， il rendra， à l'aide des services décrits dans la clause 11.3.2.3， une liste des actions disponibles qui peuvent être exécutées sur un élément de l'interface utilisateur déterminable par un programme informatique par less d'assistance.</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -654,7 +654,7 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 </tr>
 <tr class="even">
 <td><h3 id="préférences-de-lutilisateur">11.5 Préférences de l'utilisateur</h3>
-<p>Dans le cas o 4 le logiciel est doté d'une 介面 utilisateur， il 建議 des 模式 d'utilisation suffisants qui utilisent les préférences de l'utilisateur pour les paramètres de la plate-forme (couleur， contraste， police， taille de la police et taille de focus) ， à l'exception des logiciels qui sont destinés à être isolés de la plate-forme à laquelle ils Appartiennent.</p></td>
+<p>Dans le cas o 4 le logiciel est doté d'une 介面 utilisateur， il 建議 des 模式 d'utilisation suffisants qui utilisent les préférences de l'utilisateur pour les paramètres de la plate-forme (couleur， contraste， police， taille de la police et tailur de focus) ， à l'exception des logiciels qui sont destinés à être isolés de la plate-forme à laquelle ils Appartiennent.</p></td>
 <td>不適用</td>
 <td></td>
 </tr>
@@ -665,7 +665,7 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 <td></td>
 </tr>
 <tr class="even">
-<td><p><strong>11.6.3 Préservation des informations sur l'accessibilité dans le cadre des 轉換</strong></p>
+<td><p><strong>11.6.3 Préservation des information sur l'accessibilité dans le cadre des transformations</strong></p>
 <p>Si le système auteur 可確保 des 轉換 de restructuration ou des transformations de recodage， alors les information sur l'accessibilité sont préservées dans le résultat s'il existe des mécanismes équivalents dans la technologie du contenu du résultat.</p></td>
 <td>不適用</td>
 <td></td>
@@ -678,7 +678,7 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 </tr>
 <tr class="even">
 <td><p><strong>11.6.5 Modèles</strong></p>
-<p>Quand un système auteur 建議 des modèles， au moins un modèle prenant en charge la création de contenu conformux exigences des clauses 9 (Web contenu) ou 10 (documents) ， selon le cas， est disponible et identifié comme tel.</p></td>
+<p>Quand un système auteur 建議 des modèles， au moins un modèle prenant en charge la création de contenu conformes aux exigences des clauses 9 (Web contenu) ou 10 (documents) ， selon le cas， est disponible et identifié comme tel.</p></td>
 <td>不適用</td>
 <td></td>
 </tr>
@@ -705,7 +705,7 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 <td><h3 id="documentation-accessible">12.1.2 便於使用的檔 </h3>
 <p>La documentation produit fournie avec la TIC est mise à disposition dans au moins un des formats élecroniques suivants：</p>
 <p>取消) 網頁 qui est 符合 à la 子句 9， ou</p>
-<p>b) 非網頁 qui est 符合 à la 子句 10 的格式。</p></td>
+<p>b) 未格式化非網頁 qui est 符合 à la 子句 10。</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -725,7 +725,7 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 <td><h3 id="documentation-accessible-1">12.2.4 便於使用的檔 </h3>
 <p>La documentation fournie par les services d'assistance est mise à disposition dans au moins un des formats élecroniques suivants：</p>
 <p>取消) Web qui est 符合 à la 子句 9， ou</p>
-<p>b) 非網頁 qui est 符合 à la 子句 10 的格式。</p></td>
+<p>b) 未格式化非網頁 qui est 符合 à la 子句 10。</p></td>
 <td>Pris en charge</td>
 <td></td>
 </tr>
@@ -734,17 +734,16 @@ Cette section ne'applique pas à à Skype Entreprise 2016.
 
 ### <a name="section-13-tic-assurant-le-relais-ou-laccs--des-services-durgence"></a>第 13 節 TIC assurant le relais ou l'accès à des services d'緊急
 
-Cette section ne'applique pas à à Skype Entreprise2016。
+Cette section ne'applique pas à à Skype Entreprise2016.
 
-## 
 
 © 2017 Microsoft Corporation。 Tous droits réservés. Les noms des sociétés et des produits mentionnés dans le présent document peuvent être les marques de leurs propriéqueres respectifs. Les Informations qui figurent dans le présent 檔組成 l'opinion actuelle de Microsoft Corporation sur les thèmes concernés à la date de publication.
-Microsoft ne peut garantir l'exactitude d'une information présentée après la date de publication. Microsoft 認識 régulièrement à jour ses sites Internet et publie de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.
+Microsoft ne peut garantir l'exactitude d'une Information présentée après la date de publication. Microsoft 認識 régulièrement à jour ses sites Internet et publie de nouvelles informations sur l'accessibilité de ses produits dès qu'elles sont disponibles.
 
-La personnalation du produit annule la présente déclaration de conformité de Microsoft. Les 客戶 ont la possibilité de faire de déclarations de conformité indépendantes s'ils ont contrôlé avec toute la 玟玟獒 raisonnable nécesaire que les mesures de personnalation qu'ils ont prises remplissent toutes les exigences.
+La personnalation du produit annule la présente déclaration de conformité de Microsoft. Les 客戶 ont la possibilité de faire de déclarations de conformité indépendantes s'ils ont contrôlé avec toute la 玟玟獒 raisonnable nécessaire que les mesures de personnalation qu'ils ont prises remplissent toutes les exigences.
 
 Pour en savoir plus sur les spécifications de compatibilité de produits de technologie d'assistance spécifiques， consultez vos fournisseurs de technologies d'assistance.
 
 Le présent 檔 n'est pas la norme EN 301 549 v 1.1.2 (2015-04) et ne doit pas être utilisé en remplacement de celle-ci. Les extraits de la norme EN 301 549 v 1.1.2 qu'il contient ne sont référencés que pour décrire la conformité de Microsoft avec certaines de ses 處置. Un exemplaire 完成 de la norme EN 301 549 v 1.1.2 (2015-04) est disponible dans ce PDF émanant de l'European Telecommunications Standards Institute， du Comité Européen de Normalisation et du Comité Européen de Normalisation Électrotechnique.
 
-Le présent 檔 est fourni à titre 指出if。 MICROSOFT NE FOURNIT AUCUNE GARANTIE， EXPRESSE OU TACITE， DANS LE PRÉSENT 檔。
+Le présent 檔 est fourni à titre 指出if。 MICROSOFT NE FOURNIT AUCUNE GARANTIE，EXPRESSE OU TACITE， DANS LE PRÉSENT 檔。

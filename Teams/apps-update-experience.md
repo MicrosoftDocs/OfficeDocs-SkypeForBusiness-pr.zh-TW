@@ -17,26 +17,24 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
-description: 瞭解如何更新應用程式中的應用程式Microsoft Teams。
-ms.openlocfilehash: e271af73800e87ddf5c0f83009fbd85002fc059e8da3f2479198de9ae64ea698
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解如何更新應用程式Microsoft Teams。
+ms.openlocfilehash: a1a5cc6d926e7bc183db9950f1d11c1e3ffcd06c
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288401"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359140"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>更新應用程式Microsoft Teams
 
 在大多數情況下，應用程式開發人員發佈 App 更新後，新版本會自動顯示給使用者。 不過，系統對 Microsoft Teams<a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">清單</a>有一些更新需要使用者接受才能完成：
 
 * 已新增或移除 Bot
-* 現有 Bot 的「botId」屬性已變更
+* 現有 Bot 的 「botId」 屬性已變更
 * 已變更現有 Bot 的 "isNotificationOnly" 屬性
-* Bot 的「支援檔」屬性已變更
-* 已新增或移除訊息擴充功能
+* 已新增 Bot 的支援Calling、支援Video 和 SupportsFiles 功能
+* 已新增訊息擴充功能
 * 已新增連接器
-* 已新增靜態定位停駐點
-* 已新增可配置的選項卡
 * 「webApplicationInfo」中的屬性已變更
 
 ![提供新版本](media/manage-your-custom-apps-update1.png)

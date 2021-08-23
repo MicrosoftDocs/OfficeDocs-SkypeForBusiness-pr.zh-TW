@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：在商務用 Skype Server 2019 電腦上安裝 Operations Manager 代理程式檔案，以加以監控，並設定電腦成為 System Center proxy。
-ms.openlocfilehash: 2c049edf37395197abd46744d67eced8781b3c15cf56e4308cafffb63435083c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1d723ba13e7db91a8f6b22a48c5f0eeb87333e1e
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277578"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372033"
 ---
-# <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>設定所要監視的商務用 Skype Server 電腦
+# <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>將商務用 Skype Server 電腦設定為 monitore
 
 **摘要：** 在商務用 Skype Server 2019 電腦上安裝 Operations Manager 代理程式檔案，以加以監控，並設定電腦成為 System Center proxy。
 

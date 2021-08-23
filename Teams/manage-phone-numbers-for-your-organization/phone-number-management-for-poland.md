@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在波蘭取得及管理波蘭電話號碼Microsoft Teams。
-ms.openlocfilehash: 0c67e4766391f87269dcdad6073b12a3ba9b6157
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: fcfcc032e32a62d8e982c0ee37d93636b063960b
+ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232808"
+ms.locfileid: "58348475"
 ---
 # <a name="phone-number-management-for-poland"></a>電話波蘭的號碼管理
 
@@ -40,7 +40,7 @@ ms.locfileid: "58232808"
   
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。  |在波蘭，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並連至 [PTSN](contact-pstn-service-desk.md)服務台以索取指示，以提交新的電話號碼要求。<br/><br/>[波蘭的新電話號碼要求 (v.1.0)  (pl-pl) 。](https://download.microsoft.com/download/d/f/3/df3648a4-4254-45b8-a9d7-6ba774a7caa7/know-your-customer-for-poland-(v1.0)-(pl-PL).pdf) <br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單、完整填寫，並連至 [PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。<br/><br/>電話數位會以 10 個區塊排序。 客戶只會針對已訂閱的通話方案授權付費。<br/><br/>新訂單可能需要四到六周的時間才能填入這個市場。 |
+|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。  |在波蘭，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並連至 [PTSN](contact-pstn-service-desk.md)服務台以索取指示，以提交新的電話號碼要求。<br/><br/>[波蘭的新電話號碼要求 (v.1.0)  (pl-pl ](https://download.microsoft.com/download/a/1/3/a130f4bd-3d48-4918-aea2-62cc24874c78/new-phone-number-request-for-poland-(v1.0)-(pl-PL).pdf)) 。 <br/><br/> 在指派電話號碼之前，您必須下載認識您的客戶表單、完整填寫，並連連 [PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。<br/><br/>電話數位會以 10 個區塊排序。 客戶只會針對已訂閱的通話方案授權付費。<br/><br/>新訂單可能需要四到六周的時間才能填入這個市場。 |
 |將電話號碼轉接給我們。| 下載此表單。 <br/>[波蘭 (LOA) 授權書 (所有號碼)  (v.1.0)  (pl-pl) ](https://download.microsoft.com/download/e/3/a/e3a60111-9fb6-4df3-9fbf-68a8cb5c401e/letter-of-authorization-(loa)-for-poland-(all-numbers)-(v1.0)-(pl-pl).pdf) <br/> <br/>填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 <br/><br/>在這個市場中，移轉數位可能需要四到六周才能完成。 <br/><br/> 這些號碼目前無法用於會議。    |
 |發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[請連連 PTSN 服務台](contact-pstn-service-desk.md) ，以尋找您想要發佈/取消發佈的電話號碼清單。 <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-pstn-service-desk.md) 服務號碼的使用者號碼清單的指示，請連連 PTSN 服務台。 <br/> |

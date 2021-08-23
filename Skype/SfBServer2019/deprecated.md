@@ -12,12 +12,12 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：這些功能已從商務用 Skype Server 2019 中移除。
-ms.openlocfilehash: 43fa8bae64e65fcba1aaf21c75e06d396d3c47eee8df40cec0db0eb1d5d646eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c6ba9d9945ae5dde2a9898fe5adfd44192faceb5
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282466"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372053"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>商務用 Skype Server 2019 已被取代的功能
 
@@ -27,7 +27,7 @@ ms.locfileid: "54282466"
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>商務用 Skype Server 2019 中已被取代的功能 
 
-    The following features and functionality have been deprecated in Skype for Business Server 2019.
+下列功能在商務用 Skype Server 2019 中已被取代。
 
 ### <a name="xmpp-gateways-for-skype-for-business-server"></a>商務用 Skype Server 的 XMPP 閘道
 
@@ -45,11 +45,9 @@ SQL無法使用商務用 Skype Server 2019 部署鏡像。 仍支援其他提供
 
 ### <a name="in-place-upgrades"></a>就地升級 
 
-就地升級可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 支援並排升級和 coexistance，請參閱[遷移至商務用 Skype Server 2019](migration/migration-to-skype-for-business-server-2019.md)以取得詳細資訊。
+就地升級可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 支援並列升級和共存。 如需詳細資訊，請參閱[遷移至商務用 Skype Server 2019](migration/migration-to-skype-for-business-server-2019.md)。
 
 ### <a name="mobility-service-mcx"></a>行動服務 (Mcx) 
-
-舊版行動用戶端所使用的行動服務支援已不再供應商務用 Skype Server 2019。 這先前在商務用 Skype Server 2015 中宣佈。
 
 所有目前商務用 Skype 的行動裝置都已經使用整合通訊 Web API (UCWA) 以支援立即訊息 (IM) 、目前狀態及連絡人。 具有使用 Mcx 之舊版用戶端的使用者，必須升級至目前的用戶端。
 
@@ -57,7 +55,7 @@ SQL無法使用商務用 Skype Server 2019 部署鏡像。 仍支援其他提供
 
 ## <a name="tools"></a>工具
 
-在最初版本的商務用 Skype Server 2019 上，將無法使用下列工具：
+下列工具在第一次發行的商務用 Skype Server 2019 時不可用：
 
 - 商務用 Skype Server 容量規劃電腦
 - 商務用 Skype Server調試工具

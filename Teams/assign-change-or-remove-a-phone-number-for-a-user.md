@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何指派、變更或移除您的公司電話號碼Teams讓外部企業和客戶可以來電。
-ms.openlocfilehash: 443fdb5833e657c3f45c0f53d1d4ce6744bd67b0b83247e72084e3d29f6c1bc7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79323338a901cf587b590b7930a11f6c296271e1
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320026"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372243"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>指派、變更或移除使用者的電話號碼 (方案) 
 
@@ -44,46 +44,46 @@ ms.locfileid: "54320026"
  
 ![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
     
-1. 在左側流覽中，按一下 **[語音**  >  **電話號碼**。
-2. 在 [數位 **電話** 頁面上，選取清單中的未指定號碼，然後按一下 [**編輯**。  
+1. 在左側流覽中，按一下 **[語音**  >  **電話數位**。
+2. 在 **[電話** 編號頁面上，選取清單中的未指定號碼，然後按一下 [**編輯**。  
 3. 在 [ **編輯窗格** 的 **[** 已指派至中） 下，依據顯示名稱或使用者名稱搜尋使用者，然後按一下 [ **指派**。
 4. 若要指派或變更相關聯的緊急位置，請在緊急位置下搜尋，然後選取該位置。
 5. 根據您是否要傳送包含其電話號碼資訊的電子郵件給使用者，請關閉或開啟包含電話號碼 **資訊的電子郵件使用者**。 根據預設，這會是啟用狀態。 
 6. 按一下 [儲存]。
 
-有關 PowerShell 範例，請參閱 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)。
+有關 PowerShell 範例，請參閱 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)。
 
-    > [!NOTE]
-    > Because of the latency between Microsoft 365 or Office 365 and Teams, it can take up to 24 hours for users to be enabled. If the phone number isn't assigned correctly after 24 hours, [contact support for business products - Admin Help](/microsoft-365/admin/contact-support-for-business-products). We're here to help!
+> [!NOTE]
+> 由於 Microsoft 365 或 Office 365 Teams 之間的延遲，使用者最多可能需要 24 小時才能啟用。 如果 24 小時後電話號碼未正確指派，請聯絡商務產品 [支援人員 - 系統管理協助](/microsoft-365/admin/contact-support-for-business-products)。 我們在此提供協助！
 
   
 ## <a name="change-a-phone-number-for-a-user"></a>變更使用者的電話號碼
  
 ![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
     
-1. 在左側導圖中，按一下 [使用者」，找出並按兩下您想要的使用者，按一下[帳戶」，然後在 [一般資訊」 下記下指派給使用者的電話號碼。 
-2. 在左側流覽中，按一下 **[語音**  >  **電話號碼**。
-3. 在 [電話 **編號** 頁面上，選取您于步驟 1 中識別的數位，然後按一下 [**編輯**。  
+1. 在左側導航中，按一下 [使用者」，找出並按兩下您想要的使用者，按一下[帳戶」，然後在 [一般資訊> 下，記下指派給使用者的電話號碼。 
+2. 在左側流覽中，按一下 **[語音**  >  **電話數位**。
+3. 在 [數位 **電話** 頁面上，選取您于步驟 1 中識別的數位，然後按一下 [**編輯**。  
 4. 在 [ **編輯窗格** 的 **[指派給** 的> 下，按一下 **[X** 以移除使用者。
 5. 按一下 [儲存]。
-6. 在 [數位 **電話** 頁面上，選取清單中的未指定號碼，然後按一下 [**編輯**。  
+6. 在 **[電話** 編號頁面上，選取清單中的未指定號碼，然後按一下 [**編輯**。  
 7. 在 [ **編輯窗格** 的 **[** 已指派至中） 下，依據顯示名稱或使用者名稱搜尋使用者，然後按一下 [ **指派**。
 8. 若要指派或變更相關聯的緊急位置，請在緊急位置下搜尋，然後選取該位置。
 9. 按一下 [儲存]。
 
-如需 PowerShell 範例，請參閱 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)。
+如需 PowerShell 範例，請參閱 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)。
 
 ## <a name="remove-a-phone-number-from-a-user"></a>移除使用者的電話號碼
  
 ![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導圖中，按一下 [使用者」，找出並按兩下您想要的使用者，按一下[帳戶」，然後在 [一般資訊」 下記下指派給使用者的電話號碼。 
-2. 在左側流覽中，按一下 **[語音**  >  **電話號碼**。
+1. 在左側導航中，按一下 [使用者」，找出並按兩下您想要的使用者，按一下[帳戶」，然後在 [一般資訊> 下，記下指派給使用者的電話號碼。 
+2. 在左側流覽中，按一下 **[語音**  >  **電話數位**。
 3. 在 [數位 **電話** 頁面上，選取您于步驟 2 中識別的數位，然後按一下 [**編輯**。  
 4. 在 [ **編輯窗格** 的 **[指派給** 的> 下，按一下 **[X** 以移除使用者。
 5. 按一下 [儲存]。
 
-如需 PowerShell 範例，請參閱 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)。
+如需 PowerShell 範例，請參閱 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -95,6 +95,6 @@ ms.locfileid: "54320026"
 
 [緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
+[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
 
 [通話方案Microsoft 365](./calling-plans-for-office-365.md)

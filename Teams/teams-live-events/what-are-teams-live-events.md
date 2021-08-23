@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 localization_priority: Priority
-ms.openlocfilehash: d4a4e57acf5987d670ebb75385bdcfc4406ba505
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2b445c44fa7517c7ffbc6bdefdb0505cff88c999
+ms.sourcegitcommit: 85017cf88789c750836780dad2ef707c1c6c39b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233238"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "58359210"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>什麼是 Microsoft Teams 即時活動
 
@@ -43,7 +43,7 @@ Teams 即時活動被視為下一版的 Skype 會議廣播，而且最終會取�
 
 讓我們開始吧。首先，請看一下下圖，其中顯示與 Microsoft 365 即時活動有關的高層級元件，以及其連線方式。
 
-![即時活動的主要元件](../media/live-event-flow-diagram1.png  "即時活動、排程、產生、Stream 平台、認證的協力廠商 eCDN 提供者的主要元件")
+![即時活動的主要元件](../media/live-events-flow-diagram.png  "即時活動、排程、產生、Stream 平台、認證的協力廠商 eCDN 提供者的主要元件")
 
 > [!Note]
 > 我們想強調，由於廣播技術的本質，Teams 即時活動通常超過一般 (內部) 會議人數。

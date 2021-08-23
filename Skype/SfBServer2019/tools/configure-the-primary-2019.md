@@ -13,14 +13,14 @@ f1.keywords:
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 摘要：設定您的主要管理伺服器、安裝 System Center Operations Manager，以及匯入商務用 Skype Server 2019 的管理元件。
-ms.openlocfilehash: 2606c87d5874bdec4e6dded494b024bc7810de70db000c2c65892e0d80e5a6d1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7fd7350cb4cf5a9697e789806c963f4fbe46636
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277528"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372233"
 ---
-# <a name="configure-the-primary-management-server"></a>設定主要管理伺服器
+# <a name="skype-for-business-server-configure-the-primary-management-server"></a>商務用 Skype Server：設定主要管理伺服器
 
 **摘要：** 設定您的主要管理伺服器、安裝 System Center Operations Manager，然後匯入商務用 Skype Server 2019 的管理元件。
 

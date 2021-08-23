@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 摘要：使用本主題準備您的商務用 Skype Server 2015 server。 硬體、作業系統、資料庫、軟體、所有系統需求與建議，以協助確保成功安裝及部署您的伺服器陣列。
-ms.openlocfilehash: 8dd32e9d27120e4809cb2f5ce557657e0b4864d60d7095a5e2eb799dc7fdfc83
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c709dbc3afa2290cc9260dd71b73ab5da898d88
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276608"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372073"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的伺服器需求
  
@@ -68,7 +68,7 @@ Edge Server、獨立轉送伺服器、影片 Interop 伺服器及 Director 的�
 
 硬體就緒之後，您必須在作業系統 (作業系統) 上安裝作業系統。 這些是可讓您安裝及順利使用商務用 Skype Server 2015 的作業系統。
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
 |Windows伺服器 2019 (您需要商務用 Skype 累積更新9或更新版本) 。 <br/> |Windows Server 2016 (需要商務用 Skype 累計更新5或更新版本。 如需詳細資訊，請檢查 [KB4015888](https://support.microsoft.com/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))   <br/> ||
 |Windows Server 2012已安裝所有必要更新的 R2 資料中心作業系統。  <br/> |Windows Server 2012已安裝所有必要更新的 R2 Standard 作業系統。  <br/> |
@@ -98,7 +98,7 @@ Edge Server、獨立轉送伺服器、影片 Interop 伺服器及 Director 的�
   
 商務用 Skype Server 2015 Enterprise Edition 稍複雜一些，但支援的清單如下 (所有是64位版本，您會注意到，請勿使用32位版本) ：
   
-||||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|:-----|
 |Microsoft SQL Server 2019 Enterprise (64-位版本) ，我們建議使用最新的 service pack 來執行。 <br/> |Microsoft SQL Server 2017 Enterprise (64-位版本) ，我們建議使用最新的 service pack 來執行。 <br/> |Microsoft SQL Server 2016 Enterprise (64-位版本) Service Pack 1 或更新版本，且您必須使用商務用 Skype 累計更新7或更新版本執行 ([下載商務用 Skype 累計更新](https://support.microsoft.com/help/3061064)) 。  <br/> |Microsoft SQL Server 2014 Enterprise (64-位版本) ，您必須以累積更新6或更新版本執行 ([下載累計更新 6](https://support.microsoft.com/kb/3031047/)) 。  <br/> |Microsoft SQL Server 2012 Enterprise (64-位版本) ，我們建議使用最新的 service pack 來執行。  <br/> |
 |Microsoft SQL Server 2019 Standard (64-bit edition) ，我們建議使用最新的 service pack 來執行。 <br/> |Microsoft SQL Server 2017 Standard (64-bit edition) ，我們建議使用最新的 service pack 來執行。 <br/> |Microsoft SQL Server 2016 Standard (64-bit edition) Service Pack 1 或更新版本，且您必須商務用 Skype 累積更新7或更新版本執行 ([下載商務用 Skype 累計更新](https://support.microsoft.com/help/3061064)) 。  <br/> |Microsoft SQL Server 2014 Standard (64-bit edition) ，必須以累積更新6或更新版本執行 ([下載累計更新 6](https://support.microsoft.com/kb/3031047/)) 。  <br/> |Microsoft SQL Server 2012 Standard (64-bit edition) ，我們建議使用最新的 service pack 來執行。  <br/> |
@@ -112,7 +112,7 @@ Edge Server、獨立轉送伺服器、影片 Interop 伺服器及 Director 的�
 ### <a name="microsoft-exchange-storage"></a>Microsoft Exchange 儲存
 會議內容檔案（例如 PowerPoint 簡報）會封存為附件。 如果您想要將商務用 Skype 封存資料儲存 Exchange 相容性資料，您必須使用 Exchange 進行 Exchange 部署，並確保儲存大小上限支援會議內容檔案的儲存。 使用 Microsoft Exchange 整合選項部署及啟用封存之前，必須先部署 Exchange。 
     
-    If you choose to use Exchange storage, you do not need to deploy separate SQL Server databases for archiving, unless you have Skype for Business users who are not homed on your Exchange servers. If you deploy archiving using the Microsoft Exchange integration option, Skype for Business archive data is stored with Exchange compliance data only for the users who are homed on your Exchange servers. 
+如果您選擇使用 Exchange 儲存區，除非您有商務用 Skype 的使用者不在 Exchange 伺服器上，否則不需要部署個別的 SQL Server 資料庫進行封存。 如果您使用 Microsoft Exchange 整合選項部署封存，商務用 Skype 封存資料只會儲存在 Exchange 伺服器上之使用者的 Exchange 相容性資料。 
   
 ## <a name="hardware-and-software-requirements-for-archiving-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中封存的硬體和軟體需求
   

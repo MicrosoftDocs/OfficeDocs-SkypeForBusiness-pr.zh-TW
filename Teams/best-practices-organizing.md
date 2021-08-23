@@ -17,15 +17,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8abb6718fe79b4ee15a679e768711fde8310536e67d34ccea440684717e03596
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff8aede350f132d28ffed9b09e7bc776553e4c0a
+ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305085"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58372043"
 ---
-<a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中組織小組的最佳做法
-======================================================
+# <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中組織小組的最佳做法
 
 小組是人員的集合，因為共同目標而聚集在一起。 這個人員群組可能在部門內，或在組織中。 將他們聚在一起的就是致使他們前進的結果。 小組成員可以不同節奏工作，或以不同的方式建立資產，但是在我們的經驗中，通常會快速地與彼此共同作業，我們稱為「高速團隊合作」。  
 
