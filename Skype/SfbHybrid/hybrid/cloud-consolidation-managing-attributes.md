@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 description: 本文說明如何在解除委任您的內部部署環境之後管理屬性。
-ms.openlocfilehash: 7a2e1f7337462b948d28d85582460d924941d9ce139a6c026553d44a9cbcd7c7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f130cce4a464a2e7a7c1823d6b3d297931d02ab
+ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315181"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "58365810"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>決定解除授權後如何管理屬性
 
@@ -72,7 +72,7 @@ ms.locfileid: "54315181"
 > 此程式最簡單的情況是具有相符 sip 位址及 UserPrincipalName 的使用者。 如果組織的使用者在這兩個屬性之間具有非符合性值，請特別注意，以順利進行轉換。
 
 > [!NOTE]
-> 如果您已設定自動語音應答或通話佇列的內部部署混合應用程式端點，請務必在解除委任商務用 Skype Server 之前，將這些端點移至 Microsoft 365。
+> 如果您已設定自動語音應答或通話佇列的內部部署混合應用程式端點，請務必在解除委任商務用 Skype Server 之前，將這些端點移至 Microsoft 365。 如需詳細資訊，請參閱 [在解除您的內部部署環境之前遷移混合應用程式端點](decommission-move-on-prem-endpoints.md)。  
 
 
 1. 確認下列內部部署商務用 Skype PowerShell Cmdlet 會傳回空的結果。 空的結果表示沒有使用者位於內部部署，且已移至 Microsoft 365 或已停用：

@@ -11,7 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - M365-voice
-- m365initiative-voice
 audience: Admin
 appliesto:
 - Skype for Business
@@ -22,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams自動翻譯支援的語言
-ms.openlocfilehash: 85b472a274789b4358afebf0293b303e8f49b4efe9176e010e25faeca673fbae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 18a2f54eea4fb0f4090b76bddd92da40263c6db0
+ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276548"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "58339841"
 ---
 # <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams自動翻譯支援的語言
 
@@ -37,11 +36,11 @@ ms.locfileid: "54276548"
 |:---------------------------------------|:-----------------------:|:-------------------------------------:|
 |阿拉伯 (埃及)                           |Y                        |                                       |
 |Catalan (加泰羅尼亞)                        |Y                        |Y                                      |
-|中文 (簡體，中國)                |Y                        |Y                                      |
+|中文 (簡體、中國)                |Y                        |Y                                      |
 |繁 (繁體中文、香港)         |Y                        |                                       |
 |繁 (傳統、臺灣)            |Y                        |                                       |    
 |克羅地亞 (克羅地亞)                       |Y                        |                                       |    
-|捷克 (捷克共和國)                   |Y                        |                                       |    
+|捷克共和國 (捷克共和國)                   |Y                        |                                       |    
 |丹麥 (丹麥)                         |Y                        |                                       |    
 |荷蘭 (荷蘭)                      |Y                        |                                       |    
 |澳洲 (英文)                      |Y                        |Y                                      |
@@ -57,9 +56,9 @@ ms.locfileid: "54276548"
 |匈牙利 (匈牙利)                      |Y                        |                                       |
 |印尼 (印尼)                   |Y                        |                                       |
 |義大利 (義大利)                          |Y                        |Y                                      |
-|日文 (日本)                         |Y                        |Y                                      |
+|日本 (日本)                         |Y                        |Y                                      |
 |韓國 (韓國)                           |Y                        |                                       |    
-|挪威博克 (挪威)                |Y                        |                                       |    
+|挪威博克馬 (挪威)                |Y                        |                                       |    
 |波蘭 (波蘭)                          |Y                        |                                       |    
 |巴西 (葡萄牙文)                      |Y                        |Y                                      |
 |葡萄牙文 (葡萄牙)                    |Y                        |                                       |    

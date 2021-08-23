@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 使用商務用 Skype 線上遙測工具來監視混合式案例中的內部部署實施，以瞭解如何使用線上遙測工具。
-ms.openlocfilehash: 803c8051087eff5c2101ce554bda948c829402c56f874a2a7c823be2ba323d67
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a0288f07c942f003cfece5aceaddf4139af84569
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318068"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407172"
 ---
 # <a name="plan-call-data-connector"></a>規劃通話資料連接器
 
@@ -40,7 +40,7 @@ ms.locfileid: "54318068"
 
 使用呼叫資料連線器時，商務用 Skype Server 會將資料推送至雲端服務，以便您可以利用商務用 Skype 線上呼叫分析 (CA) 及通話品質儀表板 (CQD) 工具，如下圖所示：
 
-![SfB 雲端語音信箱](../../sfbserver2019/media/call-data-connector-plan-1.png)
+![SfB 雲端語音信箱圖表。](../../sfbserver2019/media/call-data-connector-plan-1.png)
 
 伺服器會將經驗品質 (QoE) 和詳細通話記錄 (CDR) 資料到線上服務。
 
@@ -50,7 +50,7 @@ ms.locfileid: "54318068"
 
 - 通話品質儀表板側重于整個組織的網路效能和問題。 商務用 Skype 系統管理員和網路工程師使用此工具來疑難排解及優化網路效能。
 
-如需詳細資訊，請參閱 [Call Analytics 和通話品質儀表板](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)。
+如需詳細資訊，請參閱[通話分析和通話品質儀表板圖表（含監控伺服器詳細資料）。](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
 
 當然，您可能想要在內部部署中保留一些通話品質資料。 例如，如果您要使用協力廠商的解決方案與自訂的報表和工作流程，便會發生這種情況。  呼叫資料連線器可讓您設定將資料傳送到線上服務，同時在內部部署伺服器上保留資料的複本，如下圖所示：
 

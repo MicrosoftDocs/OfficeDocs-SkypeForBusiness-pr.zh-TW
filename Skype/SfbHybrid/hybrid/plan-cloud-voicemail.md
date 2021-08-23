@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 本文說明實施 Microsoft 雲端語音信箱服務的優點、規劃考慮和需求。 如需設定雲端語音信箱的詳細資訊，請參閱設定雲端語音信箱。
-ms.openlocfilehash: f12bd29c51b2ce08c0b4d29a6bce56e3dc22dddca7188cb046e59daaba7cf329
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7a2fea02417a271e3858adff435a2406fda8c5ae
+ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323675"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "58407162"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>規劃內部部署使用者的雲端語音信箱服務
 
@@ -95,7 +95,7 @@ ms.locfileid: "54323675"
 
 下表列出雲端語音信箱的版本互通性及支援的拓撲，可比較使用者可能所在的商務用 Skype Server 版本，也就是提供其 Exchange 信箱的可能版本。 如果您想要使用商務用 Skype 2019 搭配 Exchange Online 或 Exchange Server 2019，您必須使用雲端語音信箱。
 
-| | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
+| Skype/Lync 版本 | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
 | 商務用 Skype Server 2019 | Exchange ServerUM | Exchange ServerUM | 雲端語音信箱 | 雲端語音信箱 |
 | 商務用 Skype Server 2015 | Exchange ServerUM | Exchange ServerUM | 不支援 | 雲端語音信箱 |
