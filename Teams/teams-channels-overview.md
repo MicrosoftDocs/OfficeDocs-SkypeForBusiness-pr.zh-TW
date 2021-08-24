@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b257b8e2e12c4b6408f43e21b92e0904971ddc4032da075bac7cae93659ad8f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 190204ac352567458e1e19c5d06179950c1188be
+ms.sourcegitcommit: 3884bd3a849e92cde5980c3185d53bd4287fe764
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321255"
+ms.lasthandoff: 08/21/2021
+ms.locfileid: "58455948"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的團隊和頻道概覽
 
@@ -79,7 +79,12 @@ Teams 中的兩個主要角色如下：
 
 根據預設，所有使用者都有建立團隊的權限。 若要修改此內容，請參閱[在 Teams 中指派角色和權限](assign-roles-permissions.md)。
 
-為了讓使用者與 Teams 接觸而建立早期規劃活動的其中一個重點是，這可協助使用者思考並了解 Teams 可如何加強他們日常生活中的共同作業。 藉由與其他人交談，協助他們選取目前以零碎方式進行共同作業的商務案例。 透過相關索引標籤將他們聚集在頻道中，以協助他們完成工作。 Teams 最強的使用案例之一就是任何跨組織的程序。 
+為了讓使用者與 Teams 接觸而建立早期規劃活動的其中一個重點是，這可協助使用者思考並了解 Teams 可如何加強他們日常生活中的共同作業。 藉由與其他人交談，協助他們選取目前以零碎方式進行共同作業的商務案例。 透過相關索引標籤將他們聚集在頻道中，以協助他們完成工作。 Teams 最強的使用案例之一就是任何跨組織的程序。
+
+> [!NOTE]
+> 在 Microsoft Teams 中建立新團隊或私人頻道時，會自動在 SharePoint 中建立小組網站。 若要編輯此小組網站的網站描述或分類，請前往對應頻道的 [Microsoft Teams 中的設定](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d)。
+>
+> 深入了解如何管理 [Microsoft Teams 連線的小組網站](/SharePoint/teams-connected-sites)。
 
 ## <a name="example-teams"></a>團隊範例
 
