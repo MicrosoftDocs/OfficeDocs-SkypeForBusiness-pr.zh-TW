@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: 瞭解如何在 Android 裝置上遠端Teams和登錄
-ms.openlocfilehash: 4bfc7485ae208a31c59051811d9271323fbf798e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 8866079fa02edb8dabbfe36d724194858d16553d
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235378"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483110"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>在 Android 裝置上遠端Teams和登錄
 
@@ -44,7 +44,17 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 |Teams手機|  CCX400/CCX500/CCX600    |7.0.2.1072|
 |Teams手機|  音訊代碼 C448HD/C450HD/C470HD|   1.10.120|
 |Teams面板|  Cresron 770/1070|  1.004.0115|
-
+|Teams 會議室 Android 上的應用程式|Logitech 拉力杆迷你|1.2.982|
+|Teams 會議室 Android 上的應用程式|Logitech 拉力杆|1.2.982|
+|Teams 會議室 Android 上的應用程式|AudioCodes RXV80|1.13.361|
+|Teams 會議室 Android 上的應用程式|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|Teams 會議室 Android 上的應用程式|Yealink MeetingBar A30|133.15.0.60|
+|Teams 會議室 Android 上的應用程式|Yealink MeetingBar A20|133.15.0.60|
+|Teams 會議室 Android 上的應用程式|Yealink CTP18 觸控主控台|137.15.0.37|
+|Teams 會議室 Android 上的應用程式|Poly Studio X30|3.5.0.344025|
+|Teams 會議室 Android 上的應用程式|Poly Studio X50|3.5.0.344025|
+|Teams 會議室 Android 上的應用程式|Poly TC8 觸控主控台 |3.5.0.210489|
+|Teams 會議室 Android 上的應用程式|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>新增裝置 MAC 位址
 
@@ -52,7 +62,7 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 1. 登入 Teams 系統管理中心。
 2. 展開 **裝置**。
-3. 從 **動作選項卡選取** 置 **備新** 裝置。
+3. 從 **動作選項卡中選取** 置 **備新** 裝置。
 
 在安裝 **新裝置** 視窗中，您可以手動新增 MAC 位址或上傳檔案。
 
@@ -60,7 +70,7 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 1. 從等待 **啟用的** 選項卡中，選取 **新增 MAC 識別碼**。
 
-   ![手動新增裝置 Mac 位址](../media/remote-provision-6.png)
+   ![手動新增裝置 mac 位址](../media/remote-provision-6.png)
 
 1. 輸入 MAC 識別碼。
 1. 輸入位置，協助技術人員識別安裝裝置的位置。
@@ -86,7 +96,7 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 當裝置已電源開啟並連接至網路時，技術人員會配置裝置。 這些步驟在裝置上Teams完成。
 
-1. 技術人員會從裝置 **上** 選取 **設定。**  
+1. 技術人員 **會從裝置** 上選取 **設定。**  
 
    ![從動作選項卡中置備新裝置選項](../media/provision-device1.png)
   
@@ -100,13 +110,13 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 ## <a name="sign-in-remotely"></a>遠端登入
 
-已置備的裝置會顯示在等待 **登錄的選項卡** 中。選取個別裝置以啟動遠端登入程式。
+已置備的裝置會出現在等待 **登錄的選項卡** 中。選取個別裝置以啟動遠端登入程式。
 
 1. 從等待登錄的 **選項卡中選取** 裝置。
 
-   ![已準備好要登錄之裝置清單的視窗。](../media/remote-device1.png)
+   ![已準備要登錄之裝置清單的視窗。](../media/remote-device1.png)
 
-2. 請遵循使用者登錄 **中的指示，** 然後選取 **關閉**。
+2. 請遵循使用者 **登錄中的指示，** 然後選取 **關閉**。
 
    ![個別裝置的使用者視窗](../media/sign-in-user.png)
 
