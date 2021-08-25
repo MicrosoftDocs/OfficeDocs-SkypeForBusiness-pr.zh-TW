@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: 本文討論如何使用 Azure 監視器Microsoft Teams 會議室以整合的端對端方式部署裝置管理。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0031b94f988cb300803617ce75df2d3afebf74e1
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 84251e329645c6722125f21b4fe3cd146a1e3701
+ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234238"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "58505401"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>使用 :::no-loc text="Microsoft Teams Rooms"::: 部署管理 :::no-loc text="Azure Monitor":::
 
@@ -100,7 +100,7 @@ ms.locfileid: "58234238"
     3.  使用查詢列出硬體錯誤事件： `Event | where Source == "SRS-App" and EventID == 3001`
 
 5.  產生應用程式問題，並驗證記錄所需的事件。
-    1.  修改 :::no-loc text="Microsoft Teams Rooms"::: 應用程式組式，然後輸入不正確的會話初始通訊協定 (SIP) 位址/密碼組。
+    1.  修改應用程式組式，然後輸入不正確的會話初始通訊協定 (SIP) :::no-loc text="Microsoft Teams Rooms"::: 位址/密碼組。
     2.  請等候 10 分鐘，讓事件記錄填入 :::no-loc text="Azure Log Analytics"::: 。
     3.  使用查詢列出應用程式錯誤事件： `Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
@@ -160,16 +160,9 @@ ms.locfileid: "58234238"
 
 > [!NOTE]
 > 本指南中的先前步驟應該已經完成，儀表板磚可以正常運作。
-
-### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>使用Microsoft Teams 會議室建立儀表板
-
-您可以輸入儀表板 :::no-loc text="Microsoft Teams Rooms"::: 並開始快速監控您的裝置。 請執行下列步驟來輸入儀表板：
-
-1.  取得 [SkypeRoomSystems_v2.omsview](https://go.microsoft.com/fwlink/?linkid=835675) 儀表板檔案。
-2.  請登錄入口[ :::no-loc text="Microsoft Azure"::: 網站，](https://portal.azure.com)然後 :::no-loc text="Log Analytics"::: 前往並選取您的工作區。
-3.  開啟 **View Designer**。
-4.  選取 **[匯出**，然後選取 **SkypeRoomSystems_v2.omsview** 檔案。
-5.  選取 [儲存 **]**。
+>
+> [!IMPORTANT]
+> [Azure Monitor 中的 View Designer 將于 2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/) 年 8 月 31 日停用，而建立和複製功能已在 2020 年 11 月 30 日停用。 您可以改為使用活頁簿。 有關視圖設計工具轉換指南至活頁簿之詳細資訊，請參閱使用預先設定的 [視圖設計工具範本快速入門](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates)。
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>手動建立Microsoft Teams 會議室儀表板
 
@@ -196,7 +189,7 @@ ms.locfileid: "58234238"
     **群組標題：** 心跳狀態<br>
     **新群組：** 選擇
 4.  定義 **磚** 屬性：<br>
-    **圖例：** 使用中 (在前 20 分鐘內的心跳) <br>
+    **圖例：** 使用中的裝置 (過去 20 分鐘內的心跳) <br>
     **磚查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  定義 **清單** 屬性：<br>
     **清單查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
@@ -245,7 +238,7 @@ ms.locfileid: "58234238"
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>建立顯示作業系統 :::no-loc text="Microsoft Teams Rooms"::: 版本的磚
 
-1.  從 **圖庫&** 環圈清單，然後新增磚。
+1.  選取 **圖庫&** 環圈清單，然後新增磚。
 2.  定義 **一般** 屬性：<br>
     **群組標題：** 作業系統詳細資料<br>
     **新群組：** 選擇
@@ -269,7 +262,7 @@ ms.locfileid: "58234238"
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-application-versions"></a>建立顯示應用程式 :::no-loc text="Microsoft Teams Rooms"::: 版本的磚
 
-1.  從 **圖庫&** 環圈清單，然後新增磚。
+1.  選取 **圖庫&** 環圈清單，然後新增磚。
 2.  定義 **一般** 屬性：<br>
     **群組標題：** :::no-loc text="Microsoft Teams Rooms"::: 應用程式詳細資料<br>
     **新群組：** 選擇
@@ -372,7 +365,7 @@ ms.locfileid: "58234238"
 
 6. 設定評估設定 **，然後選取** 完成 ： <br>
     **期間 (分鐘) ：60**<br>
-    **以分鐘 (頻率) ：60**<br>
+    **以 (分鐘) 頻率：60**<br>
 
 7. 設定動作群組：
     1.  選取 **建立新**
