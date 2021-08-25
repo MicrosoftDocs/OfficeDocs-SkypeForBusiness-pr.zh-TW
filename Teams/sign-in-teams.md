@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec7796d27f6606c4738d3ce415a32a6f966af6cead1a090dd053df293fcfadfb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d8f77e1050e90821f8d99996022b4c97042a5f63
+ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332495"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "58483130"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>登入 Microsoft Teams
 
@@ -34,7 +34,7 @@ Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。若要瞭�
 
 ### <a name="how-modern-authentication-works"></a>新式驗證的運作方式
 
-新式驗證是一種程序，可讓 Teams 知道使用者已經在別處輸入其認證 (例如，他們的工作電子郵件和密碼)，因此不需要再次輸入就能啟動應用程式。 這項體驗會根據幾項因素而有所不同，例如使用者是在 Windows 或在 Mac 上工作。 它也會根據您的組織啟用單要素驗證或多重要素驗證而有所不同。 多重要素驗證通常涉及透過手機驗證認證、提供唯一的代碼、輸入 PIN，或顯示指紋。 以下是每個新式驗證案例的摘要。
+新式驗證是一種程序，可讓 Teams 知道使用者已經在別處輸入其認證 (例如，他們的工作電子郵件和密碼)，因此不需要再次輸入就能啟動應用程式。 這項體驗會根據幾項因素而有所不同，例如使用者是在 Windows 或在 Mac 上工作。 它也會根據您的組織啟用單一要素驗證或多重要素驗證而有所不同。 多重要素驗證通常涉及透過手機驗證認證、提供唯一的代碼、輸入 PIN，或出示指紋。 以下是每個新式驗證案例的摘要。
 
 使用 Teams 的每一個組織都能使用新式驗證。 如果使用者無法完成此程序，則表示貴組織的 Azure AD 設定可能有基礎問題。 如需詳細資訊，請參閱[為何我無法登入 Microsoft Teams？](https://support.office.com/article/why-am-i-having-trouble-signing-in-to-microsoft-teams-a02f683b-61a3-4008-9447-ee60c5593b0f)
 
@@ -42,7 +42,7 @@ Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。若要瞭�
 
 - Microsoft 建議使用 Windows 10 版本 1903 或更新版本，以獲得最佳的單一登入體驗。
 
-- 如果使用者未登入他們的 Microsoft 公司或學校帳戶，當他們啟動 Teams 時，系統會要求他們提供單一要素或多重要素驗證 (SFA 或 MFA)。此程序取決於您的組織已決定他們希望登入程序要求的條件。
+- 如果使用者未登入他們的 Microsoft 公司或學校帳戶，當他們啟動 Teams 時，系統會要求他們提供單一要素或多重要素驗證 (SFA 或 MFA)。此程序取決於您的組織決定他們所希望的登入程序要求。
 
 - 如果使用者登入加入網域的電腦，當他們啟動 Teams 時，系統可能會要求他們執行一個進一步的驗證步驟，視您的組織是否選擇要求 MFA 或他們的電腦是否要求 MFA 才能登入而定。如果他們的電腦已經要求 MFA 才能登入，則當他們開啟 Teams 時，應用程式會自動啟動。
 
@@ -55,17 +55,13 @@ Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。若要瞭�
     > [!NOTE]
     > 針對以「.local」或「.corp」結尾的使用者名稱，略過或忽略使用者名稱預先填入的功能預設為開啟，因此您不需要設定登錄機碼就能關閉預先填入。
 
-### <a name="signing-out-of-teams-after-completing-modern-authentication"></a>完成新式驗證後登出 Teams
-
-若要登出 Teams，使用者可以選取應用程式頂端的個人檔案圖片，然後選取 **[登出]**，也可以在其工作列中的應用程式圖示上按一下滑鼠右鍵，然後選取 **[登出]**。登出 Teams 之後，必須再次輸入認證，才能啟動應用程式。
-
 ### <a name="signing-in-to-another-account-on-a-domain-joined-computer"></a>在加入網域的電腦上登入另一個帳戶
 
 在加入網域的電腦上的使用者可能無法使用在同一 Active Directory 網域中的另一個帳戶登入 Teams。
 
 ## <a name="macos-users"></a>macOS 使用者
 
-在 macOS 上，Teams 會提示使用者輸入其使用者名稱和認證，並根據貴組織的設定，可能會提示多重要素驗證。 使用者輸入認證後，就不需要再次提供這些認證。 從這時起，只要他們在同一部電腦上工作，Teams 就會自動啟動。
+在 macOS 上，Teams 會提示使用者輸入其使用者名稱和認證，並根據組織的設定，可能會提示多重要素驗證。 使用者輸入認證後，就不需要再次提供這些認證。 從這時起，只要他們在同一部電腦上工作，Teams 就會自動啟動。
 
 ## <a name="teams-on-ios-and-android-users"></a>iOS 和 Android 版 Teams 使用者
 
@@ -73,7 +69,7 @@ Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。若要瞭�
 
 1. 如果選取的帳戶目前已登入其他 Office 365 或 Microsoft 365 應用程式，系統會將該使用者直接登入 Teams。使用者不需輸入認證。
 
-2. 如果使用者未登入其 Microsoft 365 帳戶的其他位置，系統會要求他們提供單一要素或多重要素驗證 (SFA 或 MFA)，視貴組織針對 [行動裝置登入原則] 設定的內容而定。
+2. 如果使用者未登入其 Microsoft 365 帳戶的其他位置，系統會要求他們提供單一要素或多重要素驗證 (SFA 或 MFA)，視組織針對 [行動裝置登入原則] 設定的內容而定。
 
 > [!NOTE]
 > 若要讓使用者體驗本節所述的 [登入體驗]，他們的裝置必須是能夠執行 iOS 版2.0.13 （組建2020061704）或更新版本，或為 Android 版的 Teams 版本 1416/1.0.0.2020061702 或更新版本。
@@ -88,7 +84,7 @@ iOS 和 Android 版 Teams 支援多個公司、學校和多個個人帳戶並行
 
 ## <a name="restrict-sign-in-to-teams"></a>限制登入 Teams
 
-組織可能會想要限制在受管理的裝置上使用公司核准應用程式的方式，例如，限制學生或員工從其他組織存取資料，或將公司核准的應用程式用作個人使用的情況。可以透過設定 Teams 應用程式識別的 [裝置原則]，以強制執行這些限制。   
+組織可能會想要限制在受管理的裝置上使用公司核准應用程式的方式，例如，限制學生或員工從其他組織存取資料，或將公司核准的應用程式用作個人使用的情況。可以透過設定 Teams 應用程式識別的 [裝置原則]，以強制執行這些限制。
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>如何在行動裝置上限制登入
 
@@ -113,11 +109,13 @@ iOS 和 Android 版 Teams 提供 IT 系統管理員將帳戶設定推入 Microso
 若要為受管理的 Android 裝置建立應用程式設定原則，請參閱[新增受管理的 Android 裝置應用程式設定原則](/mem/intune/apps/app-configuration-policies-use-android)。
 
 ### <a name="how-to-restrict-sign-in-on-desktop-devices"></a>如何限制在桌面裝置上登入
+
 Windows 和 macOS 上的 Teams 應用程式可支援限制登入組織的裝置原則。 這些原則可以透過一般的裝置管理解決方案 (例如 MDM (行動裝置管理) 或 GPO (群組原則物件)) 進行設定。 
 
 當您在裝置上設定此原則時，使用者只能使用位於 Azure AD 租用戶 (包含於原則中定義的「租用戶允許清單」) 中的帳戶登入。 原則會套用至所有的登入，包括第一個和其他的帳戶。 如果您的組織包括多個 Azure AD 租用戶，您可以在允許清單中包含多個租用戶識別碼。 新增另一個帳戶的連結可能會持續顯示在 Teams 應用程式中，但無法操作。
 
 > [!NOTE]
+> 
 >1. 原則只會限制登入。它不會限制使用者在其他 Azure AD 租用戶中受邀為來賓，或切換到其他租用戶 (其中使用者已受邀為來賓)。
 >2. 原則需要 Windows 版 Teams 版本 1.3.00.30866 或更新版本，以及 macOS 版 Teams 版本 1.3.00.30882 (於 2020 年 11 月中發行)。
 
@@ -139,21 +137,11 @@ Windows 和 macOS 上的 Teams 應用程式可支援限制登入組織的裝置�
 - 資料類型：字串
 - 註解：輸入以逗號分隔的 Azure AD 租用戶識別碼清單
 
+### <a name="global-sign-in"></a>全域登入
 
-## <a name="sign-out-on-mobile-devices"></a>在行動裝置上登出
+Teams Android 應用程式現在支援全域登入，為第一線員工提供輕鬆便利的登入體驗。 員工可以從共用裝置集區中挑選一部裝置，並執行單一登入，以在其班次期間將之作為自己的裝置。 在班次結束時，他們應該能夠執行登出，以便在裝置上全域登出。 請參閱[登出 Teams](sign-out-of-teams.md) 以深入了解。 這會自裝置移除其個人與公司資訊，他們便能將裝置歸還回裝置集區。 若要取得這項功能，裝置必須處於共用模式。 若要瞭解如何設定共用裝置，請參閱 [如何在 Android 上使用共用裝置模式](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
 
-行動使用者可以移至功能表，選取 **[更多]** 功能表，然後選取 **[登出]**，以登出 Teams。一旦登出，使用者則需在下一次啟動該應用程式時，重新輸入認證。
-
-> [!NOTE]
-> Android 版 Teams 使用單一登入（SSO）來簡化登入體驗。 使用者除了 Team 以外，還應務必登出 **所有** 的 Microsoft 應用程式，以便完全登出 Android 平臺。
-
-### <a name="global-sign-in-and-sign-out"></a>全域登入和登出
-
-Teams Android 應用程式現在支援全域登入和登出，為第一線員工提供輕鬆便利的登入和登出體驗。 員工可以從共用裝置集區中挑選一部裝置，並執行單一登入，以在其班次期間將之作為自己的裝置。 在班次結束時，他們應該能夠執行登出，以便在裝置上全域登出。 這會自裝置移除其個人與公司資訊，他們便能將裝置歸還回裝置集區。 若要取得這項功能，裝置必須處於共用模式。 若要瞭解如何設定共用裝置，請參閱 [如何在 Android 上使用共用裝置模式](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
-
-登入體驗看起來類似我們的標準 Teams 登入體驗，而登出則看來像以下兩個圖片：
-
-![顯示登出的行動電話](media/global-SignOut.png)  
+登入體驗看起來類似我們的標準 Teams 登入體驗。
 
 ## <a name="urls-and-ip-address-ranges"></a>URL 和 IP 位址範圍
 
