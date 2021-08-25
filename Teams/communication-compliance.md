@@ -16,28 +16,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fc66dda7b4c7c87b3b0dd97846f5e45aae20c4c70daa870f0cdb2adb2373529
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b697f83ce568004cfd94340d3d2d50f0e8dda54b
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308942"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523804"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>通訊合規性Microsoft Teams
 
-通訊合規性是公司內部的Microsoft 365風險解決方案，可協助偵測、捕獲及處理貴組織中不當的郵件，協助將通訊風險降到最低。
+通訊合規性是公司內部的一Microsoft 365風險解決方案，可協助偵測、捕獲及處理貴組織中不當的郵件，協助將通訊風險降到最低。
 
 針對 Microsoft Teams，通訊合規性可協助識別 Teams[](/microsoft-365/compliance/communication-compliance-feature-reference)頻道、私人 Teams 頻道或 1：1 和群組聊天中的下列不當內容類型：
 
 - 令人反感、褻褻和騷擾的語言
-- 成人、狂犬和 Gory 影像
+- 成人、雷斯和 gory 影像
 - 共用敏感性資訊
 
-有關通訊合規性以及如何為貴組織設定策略之詳細資訊，請參閱在[Microsoft 365。](/microsoft-365/compliance/communication-compliance)
+有關通訊合規性以及如何為貴組織設定策略[Microsoft 365。](/microsoft-365/compliance/communication-compliance)
 
 ## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>如何使用通訊合規性Microsoft Teams
 
-通訊合規性Microsoft Teams緊密整合，有助於將貴組織的通訊風險降到最低。 在您建立第一個通訊合規性政策之後，您可以主動管理Microsoft Teams自動在通知中標記的郵件和內容。
+通訊合規性Microsoft Teams緊密整合，有助於將貴組織的通訊風險降到最低。 在您已建立第一個通訊合規性政策之後，您可以主動管理在Microsoft Teams中自動標記的郵件和內容。
 
 ### <a name="getting-started"></a>快速入門
 
@@ -45,16 +45,16 @@ ms.locfileid: "54308942"
 
 Teams系統管理員可以在下列層級設定通訊合規性政策：
 
-- **使用者層級**：此層級原則適用于個別使用者Teams或可能適用于Teams使用者。 這些策略涵蓋這些使用者可能會以 1：1 或群組聊天傳送的郵件。 使用者聊天通訊會自動監控使用者Microsoft Teams使用者的所有位置。
-- **Teams層級**：此層級原則適用于 Microsoft 小組頻道，包括私人頻道。 這些方針僅涵蓋在頻道Teams的郵件。
+- **使用者層級**：此層級原則適用于個別使用者Teams，或可能適用于Teams使用者。 這些策略涵蓋這些使用者可能會以 1：1 或群組聊天傳送的郵件。 使用者聊天通訊會自動監控使用者Microsoft Teams使用者的所有位置。
+- **Teams層級**：此層級原則適用于 Microsoft Teams頻道，包括私人頻道。 這些策略僅涵蓋在 Teams中送出的郵件。
 
 ### <a name="act-on-inappropriate-messages-in-microsoft-teams"></a>在郵件中處理不當Microsoft Teams
 
-當您已針對這些郵件Microsoft Teams並收到通訊合規性通知之後，貴組織的合規性審查者可以針對這些郵件採取行動。 校閱者可以檢查通訊合規性通知，並移除已標有標Microsoft Teams。
+在您已針對 Microsoft Teams 郵件已建立策略並收到通訊合規性通知之後，組織中的合規性審查者可以針對這些郵件採取行動。 校閱者可以檢查通訊合規性通知，並移除已標出的郵件，從 Microsoft Teams。
 
 ![移除郵件Teams](./media/communication-compliance-remove-teams-message.png)
 
-移除的郵件和內容會以通知取代，讓檢視器瞭解郵件或內容已移除，以及哪些政策適用于移除。 已移除郵件或內容的寄件者也會收到移除狀態的通知，並且提供原始郵件內容，以瞭解其移除相關內容。 寄件者也可以查看適用于郵件移除的特定原則條件。
+移除的郵件和內容會以通知取代，讓檢視器瞭解郵件或內容已移除，以及哪些政策適用于移除。 移除的郵件或內容的寄件者也會收到移除狀態的通知，並且提供原始郵件內容，以瞭解其移除相關內容。 寄件者也可以查看適用于郵件移除的特定原則條件。
 
 寄件者看到之策略提示範例：
 

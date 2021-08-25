@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rafarhi, jmorrow
 audience: admin
-description: 瞭解如何在虛擬桌面基礎結構Microsoft Teams VDI (中執行) 程式。
+description: 瞭解如何在虛擬桌面基礎結構Microsoft Teams虛擬桌面基礎結構 (VDI) 執行。
 localization_priority: Normal
 search.appverid: MET150
 f1.keywords:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3782d05697b602375385342d9f2a1248bbd95e3
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: eabb53932dcc9892632e0e2ae58b7a4506595343
+ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58406952"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "58523834"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -34,14 +34,14 @@ ms.locfileid: "58406952"
 
 Microsoft Teams環境中，支援聊天和共同合作。 此外，使用 Azure 虛擬桌面、Citrix 和 V Azure 平臺，通話和會議功能也受到支援。
 
-Teams環境中，系統支援多種配置。 這些包括 VDI、專用、共用、永久和非持續性模式。 功能正在持續開發中，並且會定期新增，而功能將會于未來幾個月和數年內擴充。
+Teams環境中，系統支援多個配置。 這些包括 VDI、專用、共用、永久和非持續性模式。 功能正在持續開發中，並且會定期新增，且功能將會于未來幾個月和數年內擴充。
 
 在Teams環境中使用應用程式可能與在非虛擬化Teams環境中使用應用程式稍有不同。 例如，某些進位功能可能無法在虛擬化環境中使用，而且視像解析度可能會有所不同。
 
 若要確保最佳的使用者體驗，請遵循本文中的指引。
 
 > [!Note]
-> 有關在不同平臺上Teams VDI 的詳細資訊，請參閱[Teams提供的功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
+> 有關在不同平臺上Teams VDI 的詳細資訊，請參閱[Teams功能。](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
 
 ## <a name="teams-on-vdi-components"></a>Teams VDI 元件上的
 
@@ -78,7 +78,7 @@ Azure 虛擬桌面提供 VDI Teams AV 優化。 若要深入瞭解及需求及�
 
 在 VDI 上 (XenApp 和 XenDesktop) 提供視Teams優化。 有了 Citrix 虛擬 App 和桌面Teams，VDI 上的應用程式除了支援聊天和共同合作之外，還支援通話和會議功能。
 
-您可以在 Citrix 下載網站下載最新版本的 [Citrix](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)虛擬 App 和桌面。  (您必須先登錄。) 根據預設，必要元件會綁定至 Citrix Workspace 應用程式 [ (CWA) ](https://www.citrix.com/downloads/workspace-app/) 和虛擬傳遞代理程式 (VDA) 。 您不需要在 CWA 或 VDA 上安裝任何其他元件或外掛程式。
+您可以在 Citrix 下載網站下載最新版本的 [Citrix](https://www.citrix.com/downloads/citrix-virtual-apps-and-desktops/)虛擬 App 和桌面。  (您必須先登錄。) 根據預設，必要元件會套件到 [Citrix Workspace 應用程式 (CWA) ](https://www.citrix.com/downloads/workspace-app/) 和虛擬傳遞代理程式 (VDA) 。 您不需要在 CWA 或 VDA 上安裝任何其他元件或外掛程式。
 
 有關最新的伺服器和用戶端需求，請參閱 [此 Citrix 網站](https://docs.citrix.com/en-us/citrix-virtual-apps-desktops/multimedia/opt-ms-teams.html)。
 
@@ -88,13 +88,13 @@ V Azure Horizon 是一個現代化平臺，可安全地跨混合式雲端傳遞�
 
 您可以從 V 試用版下載頁面下載[最新版本的 V3 Horizon。](https://my.vmware.com/web/vmware/downloads/#all_products) 根據預設，所需的媒體優化元件是 Horizon Agent 和 Horizon Client 的一部分，因此不需要安裝任何其他外掛程式，以使用 Teams。
 
-若要取得有關如何設定媒體優化功能的最新需求Teams指示，請參閱[此 V3 網站](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html)。
+若要取得有關如何設定媒體優化功能的最新需求Teams，請參閱[此 V3 網站](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html)。
 
 ## <a name="install-or-update-the-teams-desktop-app-on-vdi"></a>在 VDI 上Teams或更新桌面應用程式
 
-您可以使用每部Teams安裝或使用 MSI 套件的每個使用者安裝來部署適用于 VDI 的桌面應用程式。 決定使用哪種方法取決於您是使用持續性或非持續性設定，以及貴組織的關聯功能需求。
+您可以使用每Teams安裝或使用 MSI 套件的每個使用者安裝來部署適用于 VDI 的桌面應用程式。 決定使用哪種方法取決於您是使用持續性或非持續性設定，以及貴組織的關聯功能需求。
 
-對於專用的永久設定，任一方法都會使用。 不過，對於非持續性設定，Teams需要每部電腦安裝，才能有效率地運作。 請參閱 [非持續性設定一](#non-persistent-setup) 節。
+對於專用的永久設定，任一方法都適合使用。 不過，對於非持續性設定，Teams需要每部電腦安裝，才能有效率地運作。 請參閱 [非持續性設定一](#non-persistent-setup) 節。
 
 每部電腦安裝時，自動更新會停用。 這表示若要更新 Teams應用程式，您必須卸載目前的版本，以更新至較新版本。 每使用者安裝時，自動更新會啟用。 針對大部分的 VDI 部署，建議您使用Teams部署。
 
@@ -118,21 +118,21 @@ V Azure Horizon 是一個現代化平臺，可安全地跨混合式雲端傳遞�
 
 在非持續性設定中，使用者登出後不會保留使用者的當地作業系統變更。 這類設定是一般共用的多使用者會話。 VM 組式會依據使用者數量和可用的實體方塊資源而不同。
 
-對於非持續性設定，Teams桌面應用程式必須每部電腦安裝至金色影像。  (若要深入瞭解，請參閱在[VDI 上安裝](#install-or-update-the-teams-desktop-app-on-vdi)或更新 Teams 桌面應用程式一節。) 這可確保在使用者會話期間有效率地啟動 Teams 應用程式。
+對於非持續性設定，Teams桌面應用程式必須安裝在每部電腦上，以至金色影像。  (若要深入瞭解，請參閱在[VDI](#install-or-update-the-teams-desktop-app-on-vdi)上安裝或更新 Teams 桌面應用程式一節。) 這可確保在使用者會話期間有效率地啟動 Teams 應用程式。
 
-在Teams設定中使用資料庫也需要設定檔-緩存管理員，Teams執行時間資料同步處理。 有效的資料同步處理可確保在使用者會話期間 (使用者的資料、設定檔或設定等適當的使用者特定) 資訊。 確認這兩個資料夾中的資料已同步處理：<br>
+在Teams設定中使用資料庫也需要設定檔-緩存管理員，Teams執行時間資料同步處理。 有效的資料同步處理可確保在使用者會話期間 (適當的使用者特定資訊，例如使用者的資料、設定檔或) 設定。 確認這兩個資料夾中的資料已同步處理：<br>
 
 - C：\Users\username\AppData\Local\Microsoft\IdentityCache (%localAppdata%\Microsoft\IdentityCache) 
 - C：\Users\username\AppData\Roaming\Microsoft\Teams (%appdata%\Microsoft\Teams) 
 
 > [!NOTE]
-> 漫遊資料夾 (，或者如果您使用的是資料夾重新導向，則需要快用管理員) 才能確保 Teams App 具有執行應用程式所需的執行時間資料和檔案。 這是為了減少網路延遲問題或網路問題所必須的，否則會造成應用程式錯誤，以及因數據與檔案無法使用而造成緩慢的體驗。
+> 漫遊資料夾 (，或者如果您使用的是資料夾重新導向，則需要快處理管理員) 才能確保 Teams 應用程式具有執行應用程式所需的執行時間資料和檔案。 這是為了減少網路延遲問題或網路問題所必須的，否則會造成應用程式錯誤，以及因數據與檔案無法使用而造成緩慢的體驗。
 
 有許多可用的緩存管理員解決方案。 例如 [，FSLogix](/fslogix/overview)。 請參閱您的緩存管理員提供者，以獲得特定組組指示。
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>Teams非持續性設定之緩存內容排除清單
 
-將下列專案排除在 Teams 資料夾 %appdata%/Microsoft/Teams。 排除這些專案有助於減少使用者緩存大小，進一步優化非持續性設定。
+將下列專案排除在 Teams 、%appdata%/Microsoft/Teams。 排除這些專案有助於減少使用者緩存大小，進一步優化非持續性設定。
 
 - .txt檔案
 - 媒體堆疊資料夾
@@ -140,25 +140,25 @@ V Azure Horizon 是一個現代化平臺，可安全地跨混合式雲端傳遞�
 
 ### <a name="microsoft-365-apps-for-enterprise-considerations"></a>Microsoft 365 Apps 企業版考慮
 
-當您在 VDI 上使用 Teams 部署Microsoft 365 Apps 企業版時，請考慮下列事項。
+當您在 VDI 上使用 Teams 部署Microsoft 365 Apps 企業版請考慮下列事項。
 
-#### <a name="new-deployments-of-teams-through-microsoft-365-apps-for-enterprise"></a>透過 Teams 新部署Microsoft 365 Apps 企業版
+#### <a name="new-deployments-of-teams-through-microsoft-365-apps-for-enterprise"></a>新部署Teams到Microsoft 365 Apps 企業版
 
-在透過 Teams部署Microsoft 365 Apps 企業版，您必須先卸載任何預先Teams應用程式 ，如果它們是使用每部電腦安裝部署。
+在透過 Teams部署Microsoft 365 Apps 企業版，您必須先卸載任何預先Teams應用程式 ，如果他們是使用每部電腦安裝進行部署。
 
 Teams每個Microsoft 365 Apps 企業版安裝一次。 若要深入瞭解，請參閱在[VDI 上安裝Teams更新桌面應用程式](#install-or-update-the-teams-desktop-app-on-vdi)一節。
 
-#### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>Teams更新Microsoft 365 Apps 企業版部署
+#### <a name="teams-deployments-through-microsoft-365-apps-for-enterprise-updates"></a>Teams更新來Microsoft 365 Apps 企業版部署
 
-Teams也會新增到現有的 Microsoft 365 Apps 企業版。 由於Microsoft 365 Apps 企業版使用者Teams安裝，請參閱在[VDI](#install-or-update-the-teams-desktop-app-on-vdi)上安裝或Teams桌面應用程式一節。
+Teams也會新增到現有的 Microsoft 365 Apps 企業版。 由於Microsoft 365 Apps 企業版使用者Teams安裝，請參閱在[VDI](#install-or-update-the-teams-desktop-app-on-vdi)上安裝或Teams桌面應用程式>一節。
 
 #### <a name="using-teams-with-per-machine-installation-and-microsoft-365-apps-for-enterprise"></a>使用Teams機器安裝及Microsoft 365 Apps 企業版
 
-Microsoft 365 Apps 企業版不支援每部電腦安裝 Teams。 若要使用每部電腦安裝，您必須將Teams排除Microsoft 365 Apps 企業版。 請參閱[將桌面Teams應用程式部署到虛擬機器](#deploy-the-teams-desktop-app-to-the-vm)，以及如何透過 Teams[排除Microsoft 365 Apps 企業版](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise)部署。
+Microsoft 365 Apps 企業版不支援每部電腦安裝 Teams。 若要使用每部電腦安裝，您必須將Teams排除Microsoft 365 Apps 企業版。 請參閱[將桌面Teams應用程式部署到虛擬機器](#deploy-the-teams-desktop-app-to-the-vm)，以及如何透過 Teams[區段Microsoft 365 Apps 企業版](#how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise)部署。
 
 #### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>如何透過Teams排除Microsoft 365 Apps 企業版
 
-若要深入瞭解Teams Microsoft 365 Apps 企業版，請參閱如何將 Teams 排除在 Microsoft 365 Apps 企業版[的新安裝](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)中[，](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus)以及使用群組原則來控制 Teams。
+若要深入瞭解Teams Microsoft 365 Apps 企業版，請參閱如何將 Teams 排除在 Microsoft 365 Apps 企業版[的新安裝](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus)，以及使用群組原則來控制[Teams。](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams)
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>將桌面Teams應用程式部署到虛擬機器
 
@@ -168,7 +168,7 @@ Microsoft 365 Apps 企業版不支援每部電腦安裝 Teams。 若要使用每
     - [64 位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
 
     > [!NOTE]
-    > 有關政府雲端，[請參閱Microsoft Teams安裝](msi-deployment.md)Microsoft Endpoint Configuration Manager MSI 檔案的下載連結。
+    > 有關政府雲端，請參閱Microsoft Teams[安裝Microsoft Endpoint Configuration Manager](msi-deployment.md) MSI 檔案的下載連結。
 
     桌面應用程式的最低Teams版本為版本 1.3.00.4461。  (版本不支援 PSTN 保留) 
 
@@ -180,7 +180,7 @@ Microsoft 365 Apps 企業版不支援每部電腦安裝 Teams。 若要使用每
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSERS=1
         ```
 
-        此程式是預設安裝，Teams %AppData% 使用者資料夾。 此時，金色影像設定已完成。 Teams非持續性設定上的每個使用者安裝無法正常運作。
+        此程式是預設安裝，Teams %AppData% 使用者資料夾。 此時，金色影像設定已完成。 Teams無法與非持續性設定上的每個使用者安裝一起正常運作。
 
     - 每部電腦安裝
 
@@ -194,13 +194,13 @@ Microsoft 365 Apps 企業版不支援每部電腦安裝 Teams。 若要使用每
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        此程式會Teams 64 位作業系統上的 (x86) 資料夾，以及 32 位作業系統上的程式檔案資料夾。 此時，金色影像設定已完成。 非Teams安裝需要每部電腦安裝一次。
+        此程式會Teams 64 位作業系統上的程式檔案 (x86) 資料夾，以及 32 位作業系統上的程式檔案資料夾。 此時，金色影像設定已完成。 非Teams安裝需要每部電腦安裝一次。
 
-        下一個互動式登入會話Teams並詢問認證。
+        下一個互動式登入會話Teams並要求認證。
 
         > [!NOTE]
-        > 這些範例也會使用 **ALLUSERS=1** 參數。 當您設定此參數時，Teams Machine-Wide安裝程式會顯示在控制台中的程式和功能中，&應用程式Windows 設定所有電腦使用者的功能。 然後所有使用者都可以卸載Teams，如果他們有系統管理員認證。
-        瞭解 **ALLUSERS=1** 與 **ALLUSER=1 的差異非常重要**。 **ALLUSERS=1** 參數可用於非 VDI 和 VDI 環境，而 **ALLUSER=1** 參數只能在 VDI 環境中使用，以指定每部電腦安裝。
+        > 這些範例也會使用 **ALLUSERS=1** 參數。 當您設定此參數時，Teams Machine-Wide安裝程式會顯示在控制台中的程式和功能中，&應用程式會顯示Windows 設定適用于電腦的所有使用者。 然後所有使用者都可以卸載Teams管理員認證。
+        瞭解 **ALLUSERS=1** 與 **ALLUSER=1** 的差異非常重要。 **ALLUSERS=1** 參數可用於非 VDI 和 VDI 環境，而 **ALLUSER=1** 參數僅適用于 VDI 環境，以指定每部電腦安裝。
 
 3. 從 VDI VM 卸載 MSI。 有兩種方法可以卸載Teams。
 
@@ -215,7 +215,7 @@ Microsoft 365 Apps 企業版不支援每部電腦安裝 Teams。 若要使用每
 
 ## <a name="teams-on-vdi-performance-considerations"></a>Teams VDI 的績效考慮
 
-有各種不同的虛擬化設定設定，每個設定都有不同的優化焦點。 例如，組組可能會著重于使用者密度。 規劃時，請考慮下列專案，以根據貴組織的工作量需求來協助優化您的設定。
+有各種不同的虛擬化設定設定，每個設定都有不同的優化焦點。 例如，組組可能會著重于使用者密度。 規劃時，請考慮下列專案，協助根據貴組織的工作量需求優化您的設定。
 
 - 最低需求：某些工作負載可能需要使用高於最低需求的資源進行設定。 例如，針對使用需要更多計算資源之應用程式之開發人員的工作負載。
 - 相依性：這些包括基礎結構、工作負載和其他環境考慮的相依性，Teams應用程式。
@@ -377,9 +377,9 @@ Grant-CsTeamsMeetingPolicy -PolicyName AllOn -Identity "user email id"
 
 若要停用退後模式，將值設為 **1。** 若要僅啟用音訊，請設定為 **2。** 如果值不存在或設為 0 (**0，)** 會啟用退後模式。
 
-這項功能可在 Teams 1.3.00.13565 及更新版本中使用。
+此功能可在版本 1.3.00.13565 Teams版本 1.3.00.13565 及更新版本中提供。
 
-## <a name="disable-audio-and-video-settings-for-vdi"></a>停用 VDI 的音訊和視音訊設定
+## <a name="disable-audio-and-video-settings-for-vdi"></a>停用 VDI 的音訊和視像設定
 
 TeamsVDI 政策可在 Microsoft Teams模組中提供。 這些策略在未優化的 VDI 環境中是使用中且強制執行的。
 
@@ -435,11 +435,11 @@ Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 <#
 ```
 
-使用 VDI 策略設定 -DisableAudioVideoInCallsAndMeetings $true在 VDI 登Teams時，他們應該能夠：
+使用 VDI 策略設定 -DisableAudioVideoInCallsAndMeetings $true在 VDI 上登Teams時，他們應該能夠：
 
 - 從聊天執行螢幕分享。
 - 加入會議並共用螢幕。 將音訊移至手機。
-- 使用者不應該能夠從 VDI 進行人員對人的音訊和視音訊通話。
+- 使用者不應該從 VDI 進行人員對人的音訊和視像通話。
 
 > [!NOTE]
 > 這僅適用于未優化的環境。
@@ -467,11 +467,11 @@ if($cleanup){
 
 ### <a name="client-deployment-installation-and-setup"></a>用戶端部署、安裝和設定
 
-- 每部電腦安裝Teams VDI 上的更新不會以非 VDI 用戶端Teams的方式自動更新。 您必須安裝新的 MSI，以更新 VM 映射，如在[VDI](#install-or-update-the-teams-desktop-app-on-vdi)上安裝或更新Teams桌面應用程式一節中所述。 您必須解除安裝目前的版本，以更新至較新的版本。
-- 在 Citrix 環境中，如果使用者在 Teams 執行時與虛擬機器中斷連接，Teams 更新可能會導致使用者重新連接時，AV 的狀態未優化。 我們建議您在使用者從Teams中斷連接前先退出，以避免發生此情況。
+- 每部電腦安裝Teams VDI 上的更新不會以非 VDI 用戶端Teams的方式自動更新。 您必須安裝新的 MSI 以更新 VM 映射，如在[VDI](#install-or-update-the-teams-desktop-app-on-vdi)上安裝或更新Teams桌面應用程式中所述。 您必須解除安裝目前的版本，以更新至較新的版本。
+- 在 Citrix 環境中，如果使用者在 Teams 執行時與虛擬機器中斷連接，Teams 更新可能會導致使用者重新連接時，AV 狀態未優化。 建議您在使用者從Teams中斷連接之前先退出此帳戶，以避免發生此情況。
 - Teams使用者或每部電腦部署。 不支援Teams使用者和每部電腦同時部署用戶端。 若要從每部電腦或每個使用者遷移到其中一種模式，請遵循卸載程式，然後重新調配至任一模式。
 - Azure 虛擬桌面目前不支援 macOS 和 Linux 型用戶端。
-- 快速租使用者切換可能會導致 VDI 上的通話相關問題，例如螢幕畫面無法共用、顯示不正確的參與者清單等。重新開機用戶端將會減輕這些問題。
+- 快速租使用者切換可能會導致 VDI 上的通話相關問題，例如螢幕畫面共用無法提供。 重新開機用戶端將會減輕這些問題。
 
 ### <a name="calling-and-meetings"></a>通話和會議
 
@@ -499,10 +499,10 @@ if($cleanup){
 - 僅支援來自內接相機或螢幕共用流的一個視音訊流。 當有傳入的螢幕共用時，畫面共用會顯示，而不是主要喇叭的視像。
 - Teams切換為使用使用者選取的最後一個音訊裝置 ，如果裝置已中斷連接，然後重新連接。
 - 即時活動未優化。
-- 外發畫面分享：
+- 外發畫面共用：
     - 不支援應用程式共用。
 - 提供控制權並控制：
-    - 在螢幕共用或應用程式共用會話期間不支援。
+    - 在螢幕畫面共用或應用程式共用會話期間不支援。
     - 在共用會話PowerPoint支援。
 - 僅以黃水晶為限的限制
    - 不支援 CWA 上的高 DPI 縮放比例。
@@ -519,10 +519,10 @@ if($cleanup){
 
 HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\CtxHook\AppInit_Dlls\SfrHook\Teams.exe
 
-接著，重新開機 VDA。 若要深入瞭解，請參閱此關於針對 系統進行[HDX](https://support.citrix.com/article/CTX253754)優化的疑難排解的此小Teams。
+接著，重新開機 VDA。 若要深入瞭解，請參閱此關於針對 系統執行[HDX](https://support.citrix.com/article/CTX253754)優化進行疑難排解的此小Teams。
 
 ## <a name="related-topics"></a>相關主題
 
 - [使用 MSI Microsoft Teams安裝](msi-deployment.md)
 - [Teams PowerShell 概觀](teams-powershell-overview.md)
-- [在 azure Microsoft Teams桌上出版上使用](/azure/virtual-desktop/teams-on-wvd)
+- [在 Azure Microsoft Teams桌面使用](/azure/virtual-desktop/teams-on-wvd)
