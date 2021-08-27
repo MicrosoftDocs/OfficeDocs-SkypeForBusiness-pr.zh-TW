@@ -10,18 +10,18 @@ ms.reviewer: dstrome
 description: 了解 Microsoft Teams 與各種 Exchange 設定 (如建立和加入小組、建立頻道等) 之間存在哪些功能。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 167c6534fbb8cade9c45b0d4d44441c3a385fd19
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 01335cce21a4550158f3c87da12c8a23166a39de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235388"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624805"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 和 Microsoft Teams 如何互動
 
@@ -70,7 +70,7 @@ ms.locfileid: "58235388"
 
 <sup>9</sup>亦須至少Exchange Online方案 1 授權。 詳細資訊，請參閱[搜尋Teams使用者的聊天資料](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
 
-<sup>10</sup>個內部部署使用者Teams更新其設定檔圖片，即使 web 信箱Outlook設定為 `SetPhotoEnabled` `false` 。
+<sup>10</sup>個內部部署使用者可以Teams個人檔案圖片，即使 Web 信箱Outlook設定為 `SetPhotoEnabled` `false` 。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft Teams 的需求
 
@@ -110,12 +110,12 @@ Microsoft Teams 與多個 Microsoft 365 和 Office 365 服務合作，為使用�
 
 要為這些使用者啟用行事曆委派，請執行以下操作：
 
-- 您也必須完成在 Online 和 商務用 Skype 之間設定整合[和 OAuth 中所述Exchange Server;](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)這些步驟會提供Teams應用程式所需的許可權，以確認代理人許可權。
+- 您也必須完成步驟，如在 商務用 Skype Online 和 Exchange Server 之間設定整合和[OAuth 中所述](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises);這些步驟會提供Teams排程應用程式以確認代理人許可權所需的許可權。
  
   > [!NOTE]
   > 步驟 2 包括 ArchiveApplication 的角色指派，這不是委派所必需的。
 
-- 代表Teams排程會議時Outlook需要 Exchange 2013 CU19 或更新時間。 這是為了支援我們服務對郵箱進行未驗證的的探索，以檢查委派者郵箱的委派權限。 代理人和委派者位置可以是 Exchange 2013 或更高版本，或 Exchange online，但自動探索必須解析為 Exchange 2013 CU19 或更高版本。
+- 代表Teams排程會議Outlook需要 Exchange 2013 CU19 或更新時間。 這是為了支援我們服務對郵箱進行未驗證的的探索，以檢查委派者郵箱的委派權限。 代理人和委派者位置可以是 Exchange 2013 或更高版本，或 Exchange online，但自動探索必須解析為 Exchange 2013 CU19 或更高版本。
 
 ## <a name="additional-considerations"></a>其他考量因素
 

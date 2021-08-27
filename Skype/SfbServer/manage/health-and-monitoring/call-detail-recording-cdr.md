@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: 摘要：瞭解商務用 Skype Server 中所使用之 CDR) 記錄 (的詳細通話記錄。
-ms.openlocfilehash: 8559104bffb4e1062f926e70972c0654522670887488740a2c9589d48b104959
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0453bbe4e8bbd4a9bf8c2fe06b33599375171280
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336613"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610650"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>商務用 Skype Server 中的詳細通話記錄 (CDR) 
  

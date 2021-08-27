@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在匈牙利取得及管理匈牙利電話號碼Microsoft Teams。
-ms.openlocfilehash: 2be6aae220be6c38fbef203c9cc1487dd409071a
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: ce6f5bee548ba1169d424304027e2fcef7b6a270
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348305"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617289"
 ---
 # <a name="phone-number-management-for-hungary"></a>電話匈牙利的號碼管理
 
@@ -37,7 +37,7 @@ ms.locfileid: "58348305"
   
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。<br/> |在匈牙利，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並連上 PTSN 以索取指示，以提交 [新的電話號碼要求](contact-pstn-service-desk.md)。<br/><br/>[匈牙利的新電話號碼要求 (1.0)  (hu-hu) 。](https://download.microsoft.com/download/4/d/3/4d3a57e0-c092-492c-a9dc-7a5376e30414/New%20phone%20number%20request%20for%20Hungary.pdf)<br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單，完整完成，然後傳送給我們。<br/><br>新訂單可能需要兩到三周的時間才能填入這個市場。  |
+|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。<br/> |在匈牙利，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並連上 PTSN 以索取指示，以提交 [新的電話號碼要求](contact-pstn-service-desk.md)。<br/><br/>[匈牙利的新電話號碼要求 (v.1.0)  (hu-hu) 。](https://download.microsoft.com/download/4/d/3/4d3a57e0-c092-492c-a9dc-7a5376e30414/New%20phone%20number%20request%20for%20Hungary.pdf)<br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單，完整完成，然後傳送給我們。<br/><br>新訂單可能需要兩到三周的時間才能填入這個市場。  |
 |將電話號碼轉接給我們。<br/> | 下載此表單。 <br/>[匈牙利 (LOA) 授權書 (所有)  (v.1.0)  (hu-hu) ](https://download.microsoft.com/download/f/b/1/fb17b2df-b5cf-45b7-89f0-0cbf250df1f7/letter-of-authorization-(loa)-for-hungary-(all-numbers)-(v1.0)-(hu-hu)%20(1).pdf) <br/> <br/>填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 <br/><br/>在這個市場中，移轉數位可能需要兩到三周才能完成。 <br/><br/>這些號碼目前無法用於會議。   |
 |發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[傳送您想要](mailto:ptneu@microsoft.com) 發佈/取消發佈的電話號碼清單給我們。 <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-pstn-service-desk.md) 服務號碼的使用者號碼清單的指示，請連連 PTSN 服務台。 <br/> |

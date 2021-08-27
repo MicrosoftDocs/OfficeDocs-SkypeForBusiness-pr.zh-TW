@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 如果舊版部署包含封存伺服器或監控伺服器，在遷移至商務用 Skype Server 2019 後，只要所有使用者都已從其餘的舊版集區中移除，這些伺服器便可以從舊版環境中移除。 您可以依任何順序移除封存伺服器或監控伺服器。 重要的一點是，所有的使用者都已經從其他的舊版集區中移除。
-ms.openlocfilehash: 204c68a50585bae033149ea75077ab0801b0bcc4aecb642c52fa96442bfc42ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 94ea83f767327d2c53cf6125a9c439753637e7dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304715"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582097"
 ---
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>移除舊版封存和監控伺服器
 

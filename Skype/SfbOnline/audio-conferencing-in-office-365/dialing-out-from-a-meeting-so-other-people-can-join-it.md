@@ -15,33 +15,33 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 瞭解您所需的專案，以及會議召集人如何使用會議商務用 Skype。
-ms.openlocfilehash: 9b87fb911cf4e010a82aba8b9874b25efa60d1b6b795502cc7f0d56cd58eea12
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解您需要什麼，以及會議召集人如何使用會議商務用 Skype。
+ms.openlocfilehash: 295c3ee75718faad070a2e4e9eb26d3c9bfdae7e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298893"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581977"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>從會議撥出商務用 Skype其他人可以加入會議
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
-> 如果您要尋找從會議撥出Teams的資訊，請參閱從會議撥出Teams其他人可以[加入會議](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)。
+> 如果您要尋找從會議撥出Teams的資訊，請參閱從會議撥出Teams讓其他人加入[會議](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)。
 
-作為會議召集人，您可以使用 商務用 Skype應用程式撥出，讓其他人使用他們的電話加入同一個會議。 雖然不需要，但當您撥出給某人時，建議您撥打完整號碼，包括國家/地區代碼。 若要使用撥出功能：
+作為會議召集人，您可以使用 商務用 Skype 應用程式撥出，讓其他人使用他們的電話加入同一個會議。 雖然不需要，但當您撥出給某人時，建議您撥打完整號碼，包括國家/地區代碼。 若要使用撥出功能：
   
-- 您必須使用應用程式加入會議，才能撥出商務用 Skype電話。
+- 只有在使用應用程式加入會議時，才能商務用 Skype撥出。
     
 - 您作為會議召集人已啟用音訊會議功能。
 
-若要透過撥出功能將其他參與者新增到貴組織的會議，您組織 () 必須至少有一位來自同一組織的已驗證使用者加入會議，才能允許透過撥出新增其他參與者。 
+若要透過撥出功能將其他參與者新增到貴組織的會議，必須至少有一位與召集人 (貴組織) 相同的組織經過驗證的使用者出席會議，才能允許透過撥出新增其他參與者。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

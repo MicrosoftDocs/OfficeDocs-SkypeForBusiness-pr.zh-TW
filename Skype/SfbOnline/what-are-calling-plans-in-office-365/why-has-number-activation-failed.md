@@ -14,31 +14,31 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStateFailed
-description: 位址驗證是設定通話方案的重要一部分。 它會為貴組織的使用者提供緊急電話位址，由緊急回應服務使用。
-ms.openlocfilehash: b1f9f8269028d81e7819972472bb7efb8054fc671fe1cf08e3f643f668449498
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 位址驗證是設定通話方案的重要部分。 它會為貴組織的使用者提供緊急電話位址，由緊急回應服務使用。
+ms.openlocfilehash: bb4ed67bd0447b17cfe8e0bd4f9b181aceddda7c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312271"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581917"
 ---
 # <a name="why-has-number-activation-failed"></a>為什麼號碼啟用失敗？
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
-位址驗證是設定通話方案的重要一部分。 如果因為某種原因，電話號碼因為位址驗證而未啟用，您必須建立服務要求。 您執行此工作是以貴組織的大小為基礎。
+位址驗證是設定通話方案的重要部分。 如果因為某種原因，電話號碼因為位址驗證而未啟用，您必須建立服務要求。 您執行此工作是以貴組織的大小為基礎。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>針對組織 150 或以下組織，請遵循下列步驟
 1. 在系統管理中心中，選擇需要 **協助** 嗎？
 2. 在 " **需要協助嗎？"** 窗格中，告訴我們您需要哪些協助，然後選擇取得 **協助**。
 3. 如果 View **解決方案** 區段的結果沒有説明，請選擇下列其中一項：
-    - **讓我們打電話給您 (建議**) ：確認您的聯絡人號碼，然後按 **Call me。** 回電的預期等候時間會以需要說明 **？** 窗格表示。
+    - **讓我們打電話給您 (建議) ：** 確認您的聯絡人號碼，然後按 **Call me。** 回電的預期等候時間會以需要說明 **？** 窗格表示。
     - **傳送電子郵件給我們**：確認您的電子郵件地址， **然後選擇傳送**。 通話回應時間會以需要說明 **？** 窗格表示。
 
 ## <a name="for-organizations-with-more-than-150-users-create-a-service-request-to-validate-an-emergency-address"></a>針對使用者超過 150 的組織，建立服務要求以驗證緊急位址
@@ -47,9 +47,9 @@ ms.locfileid: "54312271"
     
 2. 在系統管理中心左側的流覽中，按一下 [**支援**  >  **新服務要求**。
     
-3. 在 **[服務要求>** 下，按一下 [ **新增**。
+3. 在 **[服務要求」** 下，按一下 [ **新增**。
     
-4. 在 [ **建立服務要求」** 頁面上，按一下 [ **線上共同合作>**。
+4. 在 [ **建立服務要求>** 頁面上，按一下 [ **線上共同合作>**。
     
 5. 在識別 **問題頁面上** ，選取並輸入下列專案：
     
@@ -74,7 +74,7 @@ ms.locfileid: "54312271"
   
       - 郵遞區號
     
-6. 按一下 **[下** 一頁>，按一下 **[是，繼續** 繼續>。
+6. 按一下 **[下** 一頁， **按一下 [是，繼續** 繼續>。
     
 7. 在新增 **詳細資料** 頁面上，選取並輸入下列專案：
     

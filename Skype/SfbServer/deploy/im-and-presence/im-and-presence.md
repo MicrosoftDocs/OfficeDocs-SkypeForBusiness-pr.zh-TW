@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ad792bb2-aee0-4986-a070-116ff3c10fe7
 description: 摘要：瞭解立即訊息和目前狀態的部署步驟商務用 Skype Server。
-ms.openlocfilehash: d0f90f017bbd246b198df31d2c33bf97bcdea887c608457b0b267bae79f0b8d8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f4eb4d7215005d7d22a0d844105cb785fff9c22e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300309"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588945"
 ---
 # <a name="deploy-instant-messaging-and-presence-in-skype-for-business-server"></a>在商務用 Skype Server 中部署立即訊息和目前狀態
  

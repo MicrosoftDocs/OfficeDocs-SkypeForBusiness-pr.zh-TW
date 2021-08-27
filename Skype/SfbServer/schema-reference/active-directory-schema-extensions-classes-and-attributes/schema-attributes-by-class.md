@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: 本節列出可以包含在每個商務用 Skype Server 類別中的架構屬性，以及可以包含在其他類別中的類別。 如需所有類別及其描述的清單，請參閱商務用 Skype Server 中的架構類別和描述。 如需所有屬性及其描述的清單，請參閱商務用 Skype Server 中的架構屬性和描述。
-ms.openlocfilehash: 75ca1dea65462d97cdef8053ab24274646408dd135890592a7c93e2654638685
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55975ac452c4bfde173bfbe75f1c9f0fee642372
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326289"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578627"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>商務用 Skype Server 中的類別的架構屬性
  

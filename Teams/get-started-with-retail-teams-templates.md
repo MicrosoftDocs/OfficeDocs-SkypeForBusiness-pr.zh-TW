@@ -9,9 +9,9 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何使用小組範本，提供預先定義的設定、頻道和預先安裝的應用程式，以建立專為零售商需求設計的小組結構。
+description: 瞭解如何使用小組範本，提供預先定義的設定、頻道和預先安裝的應用程式，以建立專為零售商需求設計的團隊結構。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,18 +19,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0193ab42a898cb8fca1e860120d663517fd0e16acd7ea2e687821b2bcd91a44
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 83c96d5ec3a05bf5840a21a67ae732c176e3d6b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276498"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624615"
 ---
 # <a name="create-a-team-using-retail-team-templates"></a>使用零售小組範本建立團隊
 
 Microsoft 小組範本提供預先定義的設定、頻道和預先安裝應用程式範本，讓您快速且輕鬆地建立團隊。
 
-小組範本有預先建立的團隊結構定義，專為零售商需求所設計。 您可以使用小組範本，快速建立適合零售商的團隊類型，並在整個組織中部署。 您也可以擴充小組範本，以建立根據您的特定組織需求量身打造的團隊。
+小組範本有預先建立的團隊結構定義，專為零售商需求所設計。 您可以使用小組範本，快速建立適合零售商的團隊類型，並在整個組織中部署。 您也可以擴充小組範本，以建立符合您特定組織需求的團隊。
 
 本文將介紹每個小組範本，並建議如何使用這些範本。
 
@@ -56,7 +56,7 @@ Microsoft 小組範本提供預先定義的設定、頻道和預先安裝應用�
 
 ### <a name="manager-collaboration"></a>主管共同作業
 
-管理員共同合作範本非常適合建立團隊，讓一組主管跨市/地區共同合作。例如，如果貴組織有地區，您可以為加州地區建立管理員共同合作小組，並包含該區域的所有商店管理員，以及該地區的地區管理員。
+管理員共同合作範本是建立團隊，讓一組主管跨市/地區共同合作的理想範本。例如，如果貴組織有地區，您可以為加州地區建立管理員共同合作小組，並包含該區域的所有商店管理員，以及該地區的地區管理員。
 
 | 範本類型| baseTemplateId | 此基本範本提供的屬性 |
 | ------------------|- |----------------------------------------------------- |
@@ -82,7 +82,7 @@ Microsoft 小組範本提供預先定義的設定、頻道和預先安裝應用�
 
 ### <a name="manager-collaboration-template"></a>主管共同作業範本
 
-Manager 共同合作範本是另一個團隊範本，專為零售商需求所設計。 主管共同作業範本很適合建立團隊，讓一組主管跨商店/地區共同作業等等。 例如，如果您的組織有不同地區，您可以為加州地區建立主管共同作業團隊，並包含該區域的所有商店主管，以及該地區的地區主管。
+管理員共同合作範本是另一個團隊範本，專為零售商需求所設計。 主管共同作業範本很適合建立團隊，讓一組主管跨商店/地區共同作業等等。 例如，如果您的組織有不同地區，您可以為加州地區建立主管共同作業團隊，並包含該區域的所有商店主管，以及該地區的地區主管。
 
 | 基礎範本類型 | baseTemplateId | 此基礎範本提供的屬性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
@@ -95,7 +95,7 @@ Manager 共同合作範本是另一個團隊範本，專為零售商需求所設
 
 ## <a name="how-to-use-first-party-templates"></a>如何使用第一方範本
 
-若要使用這些範本，請將要求主體中的 'template@odata.bind' 屬性從 'standard' 變更為上述的 TemplateDs。  若要瞭解如何部署小組範本，請參閱 Microsoft Graph如何[建立小組一](/graph/api/team-post?view=graph-rest-beta)文。
+若要使用這些範本，請將要求主體中的 'template@odata.bind' 屬性從 'standard' 變更為上述的 TemplateDs。  若要瞭解如何部署小組範本，請參閱 Microsoft Graph如何[建立小組一文](/graph/api/team-post?view=graph-rest-beta)。
 
 > [!NOTE]
 > 範本中的頻道會自動在 [一般] 索引標籤下建立。

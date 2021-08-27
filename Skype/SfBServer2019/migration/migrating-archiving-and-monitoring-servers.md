@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 如果您已在舊版環境中部署封存伺服器和監控伺服器，您可以在遷移前端集區之後，在商務用 Skype Server 2019 環境中部署這些伺服器。 不過，如果封存和監控功能對您的組織而言很重要，您應該先在您的商務用 Skype Server 2019 試驗集區中新增封存與監控，以便在遷移程式期間使用該功能。
-ms.openlocfilehash: b1f497019d2043a7ea43c1134af615ae4db6183cd3d16593bfab6e835fa4db32
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5b839a1eb7d460a57d6adf36901c50479f203ad
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303547"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596167"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>移轉封存伺服器和監控伺服器
 

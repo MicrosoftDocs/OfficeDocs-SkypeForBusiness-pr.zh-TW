@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 摘要：閱讀此主題以瞭解如何設定商務用 Skype 使用者的用戶端體驗。
-ms.openlocfilehash: 4cdfc0a44f07de5488d9b6a27019af0cd9fc03a74476367367b9e23170313fb6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 61bb5e83378215561be2e073883b2e573d141000
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332065"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581827"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>使用商務用 Skype 2015 設定用戶端體驗
  
@@ -133,10 +133,10 @@ Lync
 |**伺服器版本**|**EnableSkypeUI 設定**|**用戶端經驗**|
 |:-----|:-----|:-----|
 |商務用 Skype Server |預設  <br/> |商務用 Skype  <br/> |
-|商務用 Skype Server  |對  <br/> |商務用 Skype  <br/> |
+|商務用 Skype Server  |True  <br/> |商務用 Skype  <br/> |
 |商務用 Skype Server  |錯  <br/> |使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true 時，切換至商務用 Skype)   <br/> |
 |使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |預設  <br/> |使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true 時，切換至商務用 Skype)   <br/> |
-|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |對  <br/> |商務用 Skype  <br/> |
+|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |True  <br/> |商務用 Skype  <br/> |
 |使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |錯  <br/> |使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true 時，切換至商務用 Skype)   <br/> |
 |不含修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |預設  <br/> |使用者要求切換至 Lync 模式 (使用者無法在稍後切換商務用 Skype)   <br/> |
    
@@ -145,9 +145,9 @@ Lync
 
 |**伺服器版本**|**EnableSkypeUI 設定**|**用戶端 UI = Lync**|**用戶端 UI = 商務用 Skype**|
 |:-----|:-----|:-----|:-----|
-|商務用 Skype Server |對  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
+|商務用 Skype Server |True  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
 |商務用 Skype Server |錯  <br/> |Lync 模式  <br/> |使用者要求切換至 Lync 模式  <br/> |
-|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |對  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
+|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |True  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
 |使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |錯  <br/> |Lync 模式  <br/> |使用者要求切換至 Lync 模式  <br/> |
 |不含修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |預設  <br/> |Lync 模式 (無法切換成商務用 Skype)   <br/> |Lync 模式 (無法切換成商務用 Skype)   <br/> |
    

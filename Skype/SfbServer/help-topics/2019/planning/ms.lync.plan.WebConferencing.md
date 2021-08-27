@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.WebConferencing
 - ms.lync.plan.WebConferencing
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 商務用 Skype Server web 會議包含檔共同作業、應用程式共用和桌面共用。
-ms.openlocfilehash: f7257a030ef1033bd32d65804f2aa867ac77d9dbb25c08a07583152c7d204c1a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cc6f04d3ab116b4bfcd86e808bae177a9883a9fd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322107"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588855"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web 會議 (規劃工具) 
  

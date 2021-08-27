@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: 在系統管理中心或 Microsoft Graph使用小組範本，提供預先定義的設定、頻道和應用程式範本，以快速且輕鬆地建立團隊。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 050ddd4e9efabe3433257f0497081758767e1cfa38c16aa1102ff17554ce3391
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c5da6c5df17dacbfb38e519ca4f1f751ed40fc02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336253"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596177"
 ---
 # <a name="use-a-healthcare-team-templates"></a>使用醫療保健小組範本
 
@@ -44,7 +44,7 @@ ms.locfileid: "54336253"
 
 ## <a name="use-the-team-templates-in-the-admin-center"></a>在系統管理中心使用小組範本
 
-Microsoft Teams管理員可以使用 Teams系統管理中心，使用小組範本建立團隊。 我們目前提供兩種第一方醫療保健範本，可用於各種情況。 若要深入瞭解一般小組範本，請參閱在系統管理中心開始使用 [小組範本](../../get-started-with-teams-templates-in-the-admin-console.md)。
+Microsoft Teams系統管理員可以使用 Teams管理中心，使用小組範本建立團隊。 我們目前提供兩種第一方醫療保健範本，可用於各種情況。 若要深入瞭解一般小組範本，請參閱在系統管理中心開始使用 [小組範本](../../get-started-with-teams-templates-in-the-admin-console.md)。
 
 ### <a name="collaborate-on-patient-care"></a>在病患照護上共同作業
 
@@ -67,7 +67,7 @@ Microsoft Teams管理員可以使用 Teams系統管理中心，使用小組範�
 
 ## <a name="use-the-team-templates-with-the-microsoft-graph"></a>使用小組範本與 Microsoft Graph
 
-開發人員可以使用 Microsoft Graph小組範本來建立團隊。 我們目前提供兩種第一方醫療保健範本，可用於各種情況。 若要深入瞭解一般小組範本，請參閱 [開始使用小組範本](../../get-started-with-teams-templates.md)。 此外，有關小組範本和 Microsoft 範本Graph，請參閱MICROSOFT TEAMS [API 概觀和](/graph/teams-concept-overview?view=graph-rest-1.0) [teamsTemplate 資源類型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
+開發人員可以使用 Microsoft Graph小組範本來建立團隊。 我們目前提供兩種第一方醫療保健範本，可用於各種情況。 若要深入瞭解一般小組範本，請參閱 [開始使用小組範本](../../get-started-with-teams-templates.md)。 此外，有關小組範本和 Microsoft Graph的資訊，請參閱MICROSOFT TEAMS [API 概觀和](/graph/teams-concept-overview?view=graph-rest-1.0) [teamsTemplate 資源類型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
 
 ### <a name="ward-template"></a>Word 範本
 
@@ -93,7 +93,7 @@ Microsoft Teams管理員可以使用 Teams系統管理中心，使用小組範�
 
 ### <a name="how-to-use-first-party-templates"></a>如何使用第一方範本
 
-若要使用這些範本，只需將要求主體中的 'template@odata.bind' 屬性從 'standard' 變更為上述的 TemplateDs。  若要瞭解如何部署小組範本，請參閱 Microsoft Graph如何[建立小組一](/graph/api/team-post?view=graph-rest-beta)文。
+若要使用這些範本，只需將要求主體中的 'template@odata.bind' 屬性從 'standard' 變更為上述的 TemplateDs。  若要瞭解如何部署小組範本，請參閱 Microsoft Graph如何[建立小組一文](/graph/api/team-post?view=graph-rest-beta)。
 
 > [!NOTE]
 > 範本中的頻道會自動在 [一般] 索引標籤下建立。

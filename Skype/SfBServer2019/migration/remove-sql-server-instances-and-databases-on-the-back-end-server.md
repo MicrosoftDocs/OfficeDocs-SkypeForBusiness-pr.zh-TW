@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 移除所依賴的伺服器之後，或重新設定伺服器以使用另一個資料庫之後，就會移除 Microsoft SQL Server 的資料庫和實例。 當您淘汰目前的 SQL Server 或重新設定目前的伺服器時，您必須執行本主題中的程式，使其呈現資料庫已過時或無法使用。
-ms.openlocfilehash: f9e942f1f5516c0bf3437dd3fc9e2dc25b4cc4236e3cffabbf07ff08dde1e404
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dafd1589bc4d1624a71998813fe785841cbfb713
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306206"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582027"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>移除後端伺服器上的 SQL Server 執行個體與資料庫
 

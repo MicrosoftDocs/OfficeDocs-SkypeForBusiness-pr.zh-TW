@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 「線上憑證要求狀態」頁面會顯示因成功建立和發行線上憑證要求而產生的重要資訊。 此頁面提供可唯一識別憑證的憑證指紋。 依預設，此核取方塊會選取此憑證，以選取 [商務用 Skype Server 憑證使用方式]。 如果您按一下 [完成]，會自動將憑證指派給商務用 Skype Server，以供您在建立憑證要求的步驟期間定義的目的。 根據預設，指派憑證的用途如下：
-ms.openlocfilehash: 8665053e3f625f39ec2843467a448f6620d9f7d0110e931ee6298f2be5c72193
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e181bc5389bc981eed0e3181d4fd5d5f02c179d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285493"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581777"
 ---
 # <a name="certificate-request-returned"></a>憑證要求 (已傳回)
  

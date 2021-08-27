@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是馬來西亞Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
-ms.openlocfilehash: 58248ace718e075e2ca7b4bebe4500bcdd3da02fb7c44bdbe04f0dd51d246939
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是馬來西亞Microsoft 365 Office 365及商務用 Skype Microsoft Teams服務。
+ms.openlocfilehash: 5608ca151dbd587e723dc459f1f700b6cabe8f1c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352351"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624755"
 ---
 # <a name="availability-in-malaysia"></a>馬來西亞的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是馬來西亞Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
+以下是馬來西亞Microsoft 365 Office 365及商務用 Skype Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

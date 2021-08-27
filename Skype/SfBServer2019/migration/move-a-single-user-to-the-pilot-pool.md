@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 您可以使用商務用 Skype Server 2019 控制台或商務用 Skype Server 2019 管理命令介面，將使用者從舊版集區移至商務用 Skype Server 2019 試驗集區。 在下列範例中，在 [報名者集區] 欄中，pool01.contoso.net 為舊版集區，所有六個使用者都連接至此集區。 使用下列程式，使用商務用 Skype Server 2019 控制台和商務用 Skype Server 管理命令介面，將使用者移至商務用 Skype Server 2019 集區。
-ms.openlocfilehash: 98fd1ce168cf5b44a85c1b0a93ee90634a84f885ced3cb3ffaaca8cee836a620
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 987eeec96d28257b995b5e27ce02e282df019980
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303387"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596157"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>將單一使用者移至試驗集區
 
@@ -36,7 +36,7 @@ ms.locfileid: "54303387"
     
 6. 從下拉式清單中，選取 [商務用 Skype Server 2019 集區]。
     
-7. 按一下 [動作]，然後按一下 [將選取的使用者移至集區]。 按一下 ****[確定]。
+7. 按一下 [動作]，然後按一下 [將選取的使用者移至集區]。 按一下 [確定]。
   
 8. 確認使用者的 [**報名者集** 區] 欄現在包含商務用 Skype Server 2019 集區，這表示使用者已順利移動。 
     

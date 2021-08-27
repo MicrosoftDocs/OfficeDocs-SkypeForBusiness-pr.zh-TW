@@ -14,26 +14,26 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressGBSyntaxError
-description: 以下是在英法兩國取得正確驗證位址 (問題) 。
-ms.openlocfilehash: 7b3cd80b351c64d3d9f5911d0854a215ba1b407d6e4b2b439d1f28d68d06db7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是在英法兩國取得正確驗證位址時 (一些) 。
+ms.openlocfilehash: 0222a7d228405e745b1f6704cb9e03f1af3c2868
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324642"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581937"
 ---
 # <a name="why-am-i-having-problems-entering-uk-address-information"></a>為什麼我在輸入英國時遇到問題。 位址資訊？
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-以下是在英法兩國取得正確驗證位址 (問題) 。
+以下是在英法兩國取得正確驗證位址時 (一些) 。
   
 ## <a name="whats-wrong-with-the-company-name"></a>公司名稱有什麼問題？
 
@@ -62,7 +62,7 @@ ms.locfileid: "54324642"
     
 ## <a name="whats-wrong-with-the-house-name"></a>房屋名稱有什麼問題？
 
-如果您在輸入房屋名稱時發生問題，請記得：
+如果輸入房屋名稱時發生問題，請記得：
   
 - 它可以有字母、數位及下列特殊字元：、/ - + 。 ' &amp; " _
     
@@ -98,7 +98,7 @@ ms.locfileid: "54324642"
     
 - 它必須包含 8 個或 8 個以下的字母，包括數位和空格。
     
-- 請記住，如果您在英國 **(** 英國 ) ，您必須將郵遞區號放在下列其中一種格式中，其中字母 A = 字元 A-Z、# 符號 = 0-9 中的數位，以及 _ (反線) = 空格。 以下是一些範例：
+- 請記住，如果您在英國 (英國 **) ，** 您必須將郵遞區號放在下列其中一種格式中，其中字母 A = 字元 A-Z、# 符號 = 0-9 中的數位，以及 _ (反線) = 空格。 以下是一些範例：
     
 |**格式**|**範例**|
 |:-----|:-----|

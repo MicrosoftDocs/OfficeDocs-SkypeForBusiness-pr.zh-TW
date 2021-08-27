@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 摘要：在實施商務用 Skype Server 之前，請先複查本主題中的 DNS 考慮。
-ms.openlocfilehash: 9f9e06de1f90659308dfb07f66fdac98c24a330e031beac7c7531655120d49d1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d065ad5d893cd42b853a3510bbda1c8449c6e970
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289701"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610620"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>商務用 Skype Server 的 DNS 需求
 
