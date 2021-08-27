@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.MediationCollocation
 - ms.lync.plan.MediationCollocation
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 根據預設，轉送伺服器會與前端伺服器組合。 轉送伺服器也可以部署在獨立的集區中以取得效能原因，或者，如果您要部署 SIP 主幹，建議使用獨立集區。 商務用 Skype Server 功能中的組合，就像在 Lync Server 2013 中一樣。 如需詳細資料，請參閱下列主題：
-ms.openlocfilehash: 94596d62e95061e44e8fbf9b621abc64edbb1216270b442d7ddab349d644a436
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f2bb68a4369e82fe6ffdf6d095e17b2ae8c0d27
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320139"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581347"
 ---
 # <a name="mediation-collocation-planning-tool"></a>中繼組合規劃工具
  

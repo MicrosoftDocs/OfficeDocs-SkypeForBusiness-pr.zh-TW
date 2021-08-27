@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 將使用者移至商務用 Skype Server 2019 集區之後，您可以遷移回應群組。 遷移回應群組包括從舊版部署到商務用 Skype Server 2019 集區的複製代理程式群組、佇列、工作流程、音訊檔案，以及移動回應群組連絡人物件。 在您遷移舊版回應群組之後，回應群組的呼叫會由商務用 Skype Server 2019 集區中的回應群組應用程式來處理。 舊版集區不會再處理對回應群組的通話。
-ms.openlocfilehash: 83edbfd97fac08aded66ce042adecda9fee7b539588e717323eeaeda36003041
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 96eecb0ad10a900a9d00d26383e149ceec4cbfe8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303557"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588025"
 ---
 # <a name="migrate-response-groups"></a>移轉回應群組
 
@@ -57,7 +57,7 @@ ms.locfileid: "54303557"
     
 2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[ **Microsoft 商務用 Skype Server 2019**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
-3. 運行：
+3. 執行：
     
    ```PowerShell
    Move-CsRgsConfiguration -Source <source pool FQDN> -Destination <destination pool FQDN>
@@ -97,7 +97,7 @@ ms.locfileid: "54303557"
    Get-Help <cmdlet name> -Detailed
    ```
 
-3. 運行：
+3. 執行：
     
    ```PowerShell
    Get-CsRgsAgentGroup
@@ -105,7 +105,7 @@ ms.locfileid: "54303557"
 
 4. 確認您的舊版環境中的所有代理程式群組都包含在清單中。
     
-5. 運行：
+5. 執行：
     
    ```PowerShell
    Get-CsRgsQueue
@@ -113,7 +113,7 @@ ms.locfileid: "54303557"
 
 6. 確認您的舊版環境中的所有佇列都包含在清單中。
     
-7. 運行：
+7. 執行：
     
    ```PowerShell
    Get-CsRgsWorkflow

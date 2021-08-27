@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceRoutePrefixEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 description: 若要定義首碼或起始位數，請新增此路由應處理的號碼首碼，包含必要的 +。 例如，您可以符合以 + 123 開頭的所有數位。
-ms.openlocfilehash: 67a6598281267c6a36028b6030e0f1b2dd8b9c1adb5b3130ac986cf89e07d82c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5603b70b35144412446dcc1433c0be6dd8b40cb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311271"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581557"
 ---
 # <a name="prefix-edit"></a>首碼編輯
  

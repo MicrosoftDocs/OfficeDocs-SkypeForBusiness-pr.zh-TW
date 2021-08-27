@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 系統管理員可以控制召集人如何為會議使用免付費號碼。
-ms.openlocfilehash: aabc72f5e413b8f760981b8fac364afc836be5ce058d5999e2c19f96109141b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5ae82a1eef27793f700c50936e9dec37cd6c9ddd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310272"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587933"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>停用特定線上使用者的免付費商務用 Skype號碼
 
@@ -42,7 +42,7 @@ ms.locfileid: "54310272"
  - 免付費號碼將不再包含在其會議邀請中。 
  - 免付費號碼將不再列在其會議邀請中參照的「尋找當地號碼」頁面上。 
  - 如果參與者撥打組織的任何免付費號碼，他們將無法加入該召集人的會議。 
- - 召集人的所有會議都會自動重新排期，免付費號碼也會從它們中移除。  
+ - 召集人的所有會議都會自動重新排期，免付費號碼也會從這些會議中移除。  
 
     > [!IMPORTANT]
     > 這會將召集人的所有電子郵件邀請重新發回給這些會議的所有參與者。 
@@ -57,7 +57,7 @@ ms.locfileid: "54310272"
 
 2. 在 [ **音訊會議」 旁**，按一下 [ **編輯>**。
 
-3. 將 **此使用者的會議要求包含** 免付費號碼設定為 **關閉**。 
+3. 將 **此使用者的會議要求包含** 免付費號碼設為 **關閉**。 
 
 4. 按一下 **[儲存。** 
  

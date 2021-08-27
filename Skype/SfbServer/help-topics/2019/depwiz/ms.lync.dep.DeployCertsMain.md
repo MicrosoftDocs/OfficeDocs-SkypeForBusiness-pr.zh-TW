@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要要求、指派、移除或查看憑證，請使用憑證嚮導。 您必須以 RTCUniversalServerAdmins 群組的成員身分登入。 若要向公用憑證授權單位 (CA) 要求憑證，您不需要任何其他群組成員資格。 若要 (PKI) 向組織的公開金鑰基礎結構要求憑證，您必須確認所需的群組成員資格（若有的話）。 在要求工作期間，您可以輸入將用來從 PKI 的發證 CA 要求憑證的替代認證。
-ms.openlocfilehash: 16b49874302e7756558537b93637100ed82229bbd0d6976b6efed395486060fe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9d966786f65311920370890a7091012929af7fa3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297529"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621685"
 ---
 # <a name="certificate-wizard"></a>憑證精靈
  

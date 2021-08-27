@@ -11,20 +11,20 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: 瞭解如何手動將裝置Microsoft Teams 會議室到特定版本。
-ms.openlocfilehash: 2a37a6b1eb349d38d1579bf5c69822db8dac7dd0dd000e60bfdba034cdf62680
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36d5477ef84eb97971727314aa39ab19e4139488
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350465"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578247"
 ---
 # <a name="manually-update-a-microsoft-teams-rooms-device"></a>手動更新Microsoft Teams 會議室裝置
 
-此Microsoft Teams 會議室應用程式會透過 Microsoft Store。 應用程式更新會從應用程式Microsoft Store維護期間自動安裝;這是取得更新的建議方法。 不過，在某些情況下，Teams 會議室裝置無法從Microsoft Store。 例如，安全性原則可能不允許裝置連接到網際網路，或可能不允許應用程式從 Microsoft Store。 或者，在執行設定之前，您可能想要先更新裝置，Microsoft Store無法執行設定。
+此Microsoft Teams 會議室應用程式會透過 Microsoft Store。 應用程式更新會從應用程式Microsoft Store維護期間自動安裝;這是取得更新的建議方法。 不過，在某些情況下，Teams 會議室裝置無法從Microsoft Store。 例如，安全性原則可能不允許裝置連接到網際網路，或可能不允許應用程式從 Microsoft Store。 或者，在執行設定之前，您可能會想要先更新裝置，Microsoft Store無法使用。
 
 如果您無法從 Microsoft Store 取得更新，您可以使用離線應用程式更新 PowerShell 腳本，將 Teams 會議室 裝置手動更新至較新版本的 Teams 會議室 App。 請遵循本文中的步驟，手動更新您的Teams 會議室裝置。
 
@@ -48,7 +48,7 @@ ms.locfileid: "54350465"
 
 ## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>步驟 2：執行腳本以更新Teams 會議室應用程式
 
-離線應用程式更新腳本必須從提升的命令提示符執行，Skype使用者 (應用程式執行) 的使用者仍然會登錄。 若要進一步瞭解如何登入系統管理員帳戶，以在 Skype 使用者仍登入時使用提升的命令提示，請參閱切換至系統管理模式，[](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)以及當 Microsoft Teams 會議室 應用程式執行時返回 。
+離線應用程式更新腳本必須從提升的命令提示符執行，Skype使用者 (應用程式執行) 的使用者仍然會登錄。 若要進一步瞭解如何登入系統管理員帳戶，以在 Skype 使用者仍登入時使用提升的命令提示，請參閱切換至系統管理模式，以及當 Microsoft Teams 會議室 應用程式執行[時](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running)返回 。
 
 執行下列操作，從提升的命令提示符執行腳本：
 

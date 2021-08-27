@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: 瞭解您可以在預設系統訊息商務用 Skype語音信箱問候語中設定的語言。
-ms.openlocfilehash: 3e19c01703ac1078bf6913b52aa1ca2dbfee9fc923184ab076791e234278ff0e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解您可以在預設系統訊息商務用 Skype語音信箱問候語中設定哪些語言。
+ms.openlocfilehash: 4138af4dfd73fd419416b76bc5e3e5bb3997be15
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295760"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607410"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>語音信箱問候語和訊息的語言
 
@@ -37,7 +37,7 @@ ms.locfileid: "54295760"
 
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**語言** <br/> |**國家/地區** <br/> |**語言代碼** <br/> |**使用者可以在電子郵件中查看嗎？** <br/> |**使用者來電時可以使用嗎？** <br/> |**可以使用文字翻譯嗎？** <br/> |
+|**語言** <br/> |**國家/地區** <br/> |**語言代碼** <br/> |**使用者可以在電子郵件中查看嗎？** <br/> |**使用者來電時可以使用嗎？** <br/> |**可進行文字翻譯嗎？** <br/> |
 |阿拉伯文 <br/> |埃及  <br/> |ar-EG  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |加泰隆語  <br/> |加泰隆語  <br/> |ca-ES  <br/> |是  <br/> |是  <br/> |否  <br/> |
 |簡 (中文)   <br/> |中國  <br/> |zh-hans  <br/> |是  <br/> |是  <br/> |是  <br/> |
@@ -53,7 +53,7 @@ ms.locfileid: "54295760"
 |英語  <br/> |英國  <br/> |en-GB  <br/> |是，但使用美國 (英文) 英文。  <br/> |是  <br/> |是，但使用美國 (英文) 英文。  <br/> |
 |英語  <br/> |美國  <br/> |en-US  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |芬蘭文  <br/> |芬蘭  <br/> |Fi-Fl  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|法語  <br/> |加拿大  <br/> |fr-CA  <br/> |是，但法國法文 (fr-FR) 使用。  <br/> |是  <br/> |是，但法國法文 (fr-FR) 使用。  <br/> |
+|法語  <br/> |加拿大  <br/> |fr-CA  <br/> |是，但使用法國法文 (fr-FR) fr-FR。  <br/> |是  <br/> |是，但使用法國法文 (fr-FR) fr-FR。  <br/> |
 |法語  <br/> |法國  <br/> |fr-FR  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |德語  <br/> |德國  <br/> |de-DE  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |希臘文 <br/> |希臘  <br/> |el-GR  <br/> |是  <br/> |是  <br/> |否  <br/> |
