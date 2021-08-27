@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: 本節說明商務用 Skype Server 所使用的所有架構類別。
-ms.openlocfilehash: 9b7e22b6950728804986ea662659f04484834e0d65e6d9bd755c0138dc09e5e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec9c4a7612455df6d004289f88ccdb7efb3d6334
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297070"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596437"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>商務用 Skype Server 中的架構類別和描述
  
@@ -26,7 +26,7 @@ ms.locfileid: "54297070"
   
 ## <a name="schema-classes-and-descriptions"></a>架構類別和描述
 
-|**類別**|**描述**|**Comments**|
+|**類別**|**描述**|**註解**|
 |:-----|:-----|:-----|
 |Mail-Recipient  <br/> |Exchange整合通訊 (UM) 電子郵件收件者。  <br/> |此輔助類別與 Exchange UM 共用。  <br/> |
 |msRTCSIP ApplicationContacts  <br/> |此類別是多個應用程式連絡人的容器，本身不包含任何屬性。  <br/> |Microsoft Office 通訊伺服器 2007 R2 中的新功能。  <br/> |

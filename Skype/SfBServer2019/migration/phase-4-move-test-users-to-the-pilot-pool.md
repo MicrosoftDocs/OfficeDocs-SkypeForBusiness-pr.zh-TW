@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 您可以使用下列兩種方法，將單一使用者或使用者群組移至新的 Microsoft 商務用 Skype Server 2019 部署：商務用 Skype Server 控制台和商務用 Skype Server 管理命令介面。 本節中的主題描述您必須在試驗部署期間完成的工作，以及將商務用 Skype Server 2019 的部署從試驗部署移至實際執行層級部署之前的工作。
-ms.openlocfilehash: 612ec4dd77821a6ad36d6bb06feddd1c59f9cb3b0c78836db3b4133741aa3262
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f6cb406ede12ec6580ec1bcae6e1e22099196cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300539"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589257"
 ---
 # <a name="phase-4-move-test-users-to-the-pilot-pool"></a>階段4：將測試使用者移至試驗集區
 

@@ -14,15 +14,15 @@ appliesto:
 - Microsoft Teams
 f1.keywords: ''
 ms.custom: ''
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何使用及管理Teams組織的政策套件。
-ms.openlocfilehash: d9c229e9795a9e93caed37832baf0b03ef58c47305f41d2961420eea485bc608
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解如何使用和管理您Teams組織的政策套件。
+ms.openlocfilehash: 4f796a2fc3c7e359f311f2a709f058e172f8f454
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316989"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582167"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams政府政策套件
 
@@ -45,7 +45,7 @@ Teams目前包含下列政府政策套件。
 
 |Microsoft Teams 系統管理中心所列的套件名稱|最適合用於|描述 |
 |---------|---------|---------|
-|公共安全專員  |貴政府組織的公開安全人員  |建立一組套套用至貴組織的公開安全人員之原則與原則設定。 |
+|公共安全專員  |貴政府組織的公開安全人員  |建立一組套套用至貴組織的公安人員之原則與原則設定。 |
 |前線管理員  |您政府組織的前線管理員 |建立一組原則，並套用這些設定給貴組織的前線管理員。|
 |前線工作人員  |您政府組織的前線工作人員 |建立一組原則，並套用這些設定給貴組織的前線工作人員。|
 

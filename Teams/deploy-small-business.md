@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: dstrome
 description: 在您的小型企業中設定 Teams，讓使用者能夠使用聊天和檔案共用進行共同作業、設定與參加小型和大型會議，以及透過影片和語音進行交談。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 92bd4ef4d53cbae8902719da3ce55a5b88a270c4b18d43bfe75ab89578fe204a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a7e15a8a327d40ea11412229205fca6e856e9f7b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322695"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596317"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>在小型企業中設定 Microsoft Teams
 

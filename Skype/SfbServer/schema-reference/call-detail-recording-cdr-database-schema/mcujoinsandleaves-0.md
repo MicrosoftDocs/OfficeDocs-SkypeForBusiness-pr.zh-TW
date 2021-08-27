@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: McuJoinsAndLeaves 檢視會儲存使用者加入或離開一個會議伺服器的相關資訊。 這個檢視中的每筆記錄都包含一組使用者加入或離開會議伺服器的通話詳細資料。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 50213655ad1dc48e85015d47ac4bd5bb450e05559556e0d6b4123dc2c9c32d69
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1b37d0609c82c40e65beb0e58bffc639b738487f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318716"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617729"
 ---
 # <a name="mcujoinsandleaves-view"></a>McuJoinsAndLeaves view
  

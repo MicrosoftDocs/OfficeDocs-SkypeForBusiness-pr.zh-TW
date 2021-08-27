@@ -1,5 +1,5 @@
 ---
-title: 在聖露西亞的可用性
+title: 在聖文西亞的可用性
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
-ms.openlocfilehash: cc0970142cdb779d554241b69c4b28708a396d6089474ef6d0570659675aca4a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是適用于Microsoft 365 Office 365的商務用 Skype及Microsoft Teams服務。
+ms.openlocfilehash: 7acf43d510fac2cf0eeb38006835bf2eecfa147b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308782"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617489"
 ---
-# <a name="availability-in-saint-lucia"></a>在聖露西亞的可用性
+# <a name="availability-in-saint-lucia"></a>在聖文西亞的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
+以下是適用于Microsoft 365 Office 365的商務用 Skype及Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 摘要：瞭解如何在商務用 Skype Server 中新增、移除、修補或更新前端伺服器。
-ms.openlocfilehash: b091f1fd74cfd2c3d93ee14e9ea6f1b584ec4111443b99f881786e94e038d8b2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4a58eb7ab54102d1287a61a9f736b9d0c1a87108
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290301"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578787"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>在商務用 Skype Server 中管理前端伺服器
  

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 摘要：瞭解商務用 Skype Server 中的使用者活動報告。
-ms.openlocfilehash: df120a5b16843d15555e5e53ef7f1102a8c7724e5e75c739e672b0e7bee0794f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d2f303751219c0ba156f45d792196673a4283159
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347958"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617869"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>商務用 Skype Server 中的使用者活動報告
 

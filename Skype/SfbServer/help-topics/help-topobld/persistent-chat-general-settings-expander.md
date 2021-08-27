@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PersistentChatGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 您可以透過設定或定義下列內容，來編輯 Persistent Chat Server 或 Persistent Chat Server 集區的一般設定：
-ms.openlocfilehash: 5e226ac2a70783b6944b81a7932fd9605ea3a0230029b17ebcbfd1f3e53331e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 25208b2d4c7e4bc04e648998254406ff4e299d4f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320315"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610760"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>常設聊天室一般設定展開工具
  

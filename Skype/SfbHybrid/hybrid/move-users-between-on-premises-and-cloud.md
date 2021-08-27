@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：在內部部署中為混合式啟用的商務用 Skype Server，您可以在內部部署環境與雲端之間移動使用者。
-ms.openlocfilehash: 31695b7fa21f4fc873afa6b94bbefa58bbfbdb7b7d22f6da5c6eb972627c8cb8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0c13f29cf2773afb170bb7be20bb2f95c5d13e6c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334535"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589215"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>在內部部署和雲端之間移動使用者
 
@@ -36,7 +36,7 @@ ms.locfileid: "54334535"
 
 *Teams 使用者本身就擁有商務用 Skype 首頁，不論他們是否使用商務用 Skype。* 如果您有內部部署商務用 Skype 同時使用 Teams (並排) 的使用者，則這些使用者位於內部部署。 在內部部署商務用 Skype 的 Teams 使用者無法從其 Teams 用戶端與商務用 Skype 使用者互動，也不能從 Teams 與同盟組織中的使用者通訊。 這類功能只有在使用者從商務用 Skype 內部部署移至線上，且進行 TeamsOnly 時，才會完全可用。 強烈建議您將使用者移至 TeamsOnly 模式，以確保所有傳入聊天和通話的路由都位於其 Teams 用戶端。 如需詳細資訊，請參閱[使用 Teams 搭配商務用 Skype 之組織的商務用 Skype 和遷移與互通性指南](/microsoftteams/migration-interop-guidance-for-teams-with-skype) [Teams 共存](/microsoftteams/coexistence-chat-calls-presence)。
 
-## <a name="prerequisites"></a>先決條件
+## <a name="prerequisites"></a>必要條件
 
 將使用者移至 TeamsOnly 模式的必要條件：
 

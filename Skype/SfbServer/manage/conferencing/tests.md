@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 摘要：瞭解如何在商務用 Skype Server 中測試電話撥入式會議。
-ms.openlocfilehash: 6ed82ac33fc9fc63bab127834c039d045e585c9efd4ea2c15b5dba2fdaf8edbe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f02796fff9e610e20751e4e1ca3094d89435a98f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283345"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578827"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>測試商務用 Skype Server 中的電話撥入式會議
  

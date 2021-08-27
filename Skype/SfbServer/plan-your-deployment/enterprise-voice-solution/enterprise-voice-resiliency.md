@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: 瞭解如何在中央網站和分支網站商務用 Skype Server 企業語音中支援語音彈性。 分支網站選項包括部署 Survivable 分支裝置或 Survivable Branch Server。
-ms.openlocfilehash: ed5a410c30d1091a335e3c3ce3e4c7a5523f28399281f3a3f6f4686de08024a4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 08bfa774b52a59dcb9b88cdf9b41d11035f09417
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280034"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617739"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃企業語音恢復功能
 

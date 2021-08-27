@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -19,12 +19,12 @@ ms.reviewer: anach
 description: 瞭解如何將電子健康記錄整合到 Microsoft Teams App 和 STU3 介面規格中。
 ms.custom: seo-marvel-apr2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e51372f2c44bdd5bdeea8e4a7699d3f46881564e0c98f3049b95dcbd21eb66c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 64fc61072510942b67d51542095a927e7e67c697
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344038"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582327"
 ---
 # <a name="stu3-interface-specification"></a>STU3 介面規格
 
@@ -33,7 +33,7 @@ ms.locfileid: "54344038"
 >
 >使用清單，您的醫療保健組織照護小組可以針對各種案例建立病患清單，範圍從會診和跨學科小組會議到一般病患監視。 請查看清單中的病患範本以開始使用。 若要深入了解如何在組織中管理清單應用程式，請參閱[管理清單應用程式](../../manage-lists-app.md)。
 
-若要設定或重新設定 FHIR 伺服器以使用 Microsoft Teams病患應用程式，必須瞭解 App 需要存取哪些資料。 FHIR 伺服器必須使用下列資源套件支援 POST 要求：
+設定或重新設定 FHIR 伺服器以使用 Microsoft Teams 病患應用程式時，必須瞭解應用程式需要存取哪些資料。 FHIR 伺服器必須使用下列資源套件支援 POST 要求：
 
 - [病人](#patient)
 - [觀察](#observation)
@@ -42,16 +42,16 @@ ms.locfileid: "54344038"
 - [防發性偏執](#allergyintolerance)
 - [覆蓋](#coverage)
 - [藥物聲明](#medication-request) (取代 DSTU2 版本的 PatientsApp) 
-- 位置 (此資源所需資訊的位置，可以包含在 <遇到) 
+- 位置 (此資源所需資訊的位置，可包含在 <遇到) 
 
 > [!NOTE]
-> 病患資源是唯一的 (資源，若沒有此資源，應用程式就完全無法載入) ;不過，建議合作夥伴針對以下提供的規格，針對上述所有資源執行支援，以在病患應用程式中獲得最佳Microsoft Teams體驗。
+> 病患資源是唯一的 (資源，沒有此資源，應用程式就完全無法載入) ;不過，建議合作夥伴針對以下提供的規格，針對上述所有資源執行支援，以在病患應用程式中獲得最佳Microsoft Teams體驗。
 
-來自多個Microsoft Teams之病患應用程式的查詢，應張貼 (BATCH) 到 FHIR 伺服器 URL 的要求。 伺服器應處理每個要求，並退回與每個要求相符的資源套件。 有關詳細資訊和範例，請參閱 [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) 。
+如果來自 Microsoft Teams App 的查詢超過一個資源，應張貼一個 (BATCH) 到 FHIR 伺服器 URL 的要求。 伺服器應處理每個要求，並退回與每個要求相符的資源套件。 如要詳細資訊和範例，請參閱 [https://www.hl7.org/fhir/STU3/http.html#transaction](https://www.hl7.org/fhir/STU3/http.html#transaction) 。
 
 ## <a name="capability-statement"></a>功能語句
 
-這些是最小必要欄位：
+這些是最小的必要欄位：
 
  - 休息
 
@@ -78,12 +78,12 @@ ms.locfileid: "54344038"
 
  - Name.use
  - Name.首碼
- - [GeneralPractitioner] - GeneralPractitioner 參照應包含在 [病患] 資源中， (只包含) 
+ - [GeneralPractitioner] - GeneralPractitioner 參照應包含在 [病患] 資源中， (僅顯示) 
 
 資源搜尋使用 /Patient/_search的 POST 方法，以及下列參數：
 
  - Id
- - family= (搜尋所有其姓氏包含) 
+ - family= (會搜尋所有其姓氏包含) 
  - given=\<substring>
  - birthdate= (完全相符) 
  - gender= (是其中一個系統管理性別) 
@@ -241,9 +241,9 @@ Response:
 
 ## <a name="observation"></a>觀察
 
-這些是最小必要欄位，這是 [Argonaut](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html)設定檔的Vital-Signs欄位。
+這些是最小必要欄位，這是 [Argonaut](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-vitalsigns.html)設定檔Vital-Signs子集。
 
- - 自 (日期時間或期間起) 
+ -  (日期時間或期間) 
  - Code.Code.Code
  - ValueQuantity.Value
 
@@ -381,7 +381,7 @@ Response:
  - 地位
  - 輸入[0]。編碼[0]。顯示
 
-此外，下欄欄位來自美國核心會議設定檔的「必須支援」欄位：
+此外，以下欄位來自美國核心會議設定檔的「必須支援」欄位：
 
  - Period.Start
  - 位置[0]。位置.顯示
@@ -398,7 +398,7 @@ Response:
 
 ## <a name="allergyintolerance"></a>抗反性Intolerance
 
-這些是最小必要欄位，這是 [Argonaut 的一個 Argonaut AllergyIntolerance 設定檔](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) 的子集：
+這些是最小必要欄位，這是 [Argonaut 的一個 Argonaut 但Intolerance 設定檔](https://www.fhir.org/guides/argonaut/r2/StructureDefinition-argo-allergyintolerance.html) 的子集：
 
  - Code.Text
  - Code.Code[0]。顯示
@@ -409,7 +409,7 @@ Response:
  - 已聲明
  - 附注.文字
  - 反應
-    - 實體 (一個編碼元素) 
+    - 一個 (元素的) 
     - 顯示 (一個編碼元素) 
 
 資源搜尋使用 GET 方法及下列參數：
@@ -493,11 +493,11 @@ Response:
 
 ## <a name="coverage"></a>覆蓋
 
-這些是最低需要欄位，但美國核心或 Argonaut 設定檔未涵蓋：
+這些是最低要求欄位，但美國核心或 Argonaut 設定檔未涵蓋：
 
  - 群組，至少有一個元素
     - 群組顯示
-    - PlanDisplay
+    - 方案顯示
  - 時期
  - 訂閱者Id
 

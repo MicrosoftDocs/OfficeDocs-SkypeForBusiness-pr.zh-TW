@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -18,14 +18,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 瞭解如何設定 Microsoft 電話直接路由，將您的內部部署電話基礎結構連接到Microsoft Teams。
+description: 瞭解如何設定 Microsoft 電話直接路由，將您的內部部署電話基礎結構連接到 Microsoft Teams。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f903511dd4adc439705513f6ef10ed9648d1bbb4aab42ac6dec1aa7bef6064e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f2e0277afeb7fefc3715aef00138fab3b3ff62bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284174"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582357"
 ---
 # <a name="configure-direct-routing"></a>設定直接路由
 
@@ -48,9 +48,9 @@ Microsoft 電話系統直接路由可讓您將內部部署電話基礎結構連�
 
 有關支援 SBC 的完整清單，請參閱通過直接路由認證的會話 [邊界控制器清單](direct-routing-border-controllers.md)。
 
-若要設定 Microsoft 電話，並讓使用者使用直接路由，請遵循下列步驟： 
+若要設定 Microsoft 電話並讓使用者使用直接路由，請遵循下列步驟： 
 
-- **步驟 1。** [連線系統Microsoft 電話 SBC 並驗證連接](direct-routing-connect-the-sbc.md)
+- **步驟 1.** [連線系統Microsoft 電話 SBC 並驗證連接](direct-routing-connect-the-sbc.md)
 - **步驟 2.** [啟用使用者進行直接路由、語音和語音信箱](direct-routing-enable-users.md)
 - **步驟 3.** [設定語音路由](direct-routing-voice-routing.md)
 - **步驟 4.** [將數位轉換成替代格式](direct-routing-translate-numbers.md) 

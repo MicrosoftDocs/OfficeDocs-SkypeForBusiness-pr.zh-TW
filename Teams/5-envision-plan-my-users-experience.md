@@ -9,29 +9,29 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: 選擇 Teams應用程式、規劃端點品質、取得部署端點Wi-Fi以及選擇音訊裝置的建議。
+description: 選擇 Teams應用程式、規劃端點品質、取得部署端點Wi-Fi建議，以及選擇音訊裝置。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2a0557603c0086fdcc561dec3257b9f9bd1bef32b7db6d680a018202f0aa59aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f6482baa6738d4f7c3495085f86ae9b9a054d0eb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338011"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624835"
 ---
 # <a name="plan-my-users-experience"></a>規劃使用者的體驗
 
-本文提供正確識別雲端語音服務部署元素的需求概觀，這些元素會直接影響使用者的體驗。 在部署前準備這些專案，將提高您成功為使用者提供高品質、可靠體驗的機會。 
+本文提供正確識別雲端語音服務部署元素的需求概觀，這些元素會直接影響使用者的體驗。 在部署前準備這些專案，會增加成功為使用者提供高品質、可靠體驗的機會。 
 
 ## <a name="client-deployment"></a>用戶端部署
 
-Microsoft Teams Android 和 iOS (Windows Mac) ，以及行動 (Android 和 iOS) 。 有關桌上型電腦和 Mac (Windows和) 用戶端的安裝詳細資料，請參閱取得用戶端[Microsoft Teams。](./get-clients.md)
+Microsoft Teams Android 和 iOS (Windows Mac) ，以及行動 (用戶端) 。 有關如何安裝桌上型電腦 (Windows Mac) 手機用戶端的其他詳細資料，請參閱取得用戶端[Microsoft Teams。](./get-clients.md)
 
 ## <a name="client-updates"></a>用戶端更新
 
@@ -45,27 +45,27 @@ Microsoft Teams Android 和 iOS (Windows Mac) ，以及行動 (Android 和 iOS) 
 
 ![描述品質三個要素的圖表](media/plan-my-users-experience-image1.png "描述品質的三個元件，以及服務管理如何與這三個元件重迭的圖表。將焦點放在端點上。")
 
-Teams端點可在許多裝置上執行，包括 PC、Mac、平板電腦和行動裝置。 部分體驗不僅包含裝置，還包括使用者如何連接到裝置，例如使用裝置內建的麥克風/喇叭、耳塞或優化的耳機。 使用優化的耳機可豐富整體使用者體驗。
+Teams端點可以在許多裝置上執行，包括電腦、Mac、平板電腦和行動裝置。 部分體驗不僅包含裝置，還包括使用者如何連接到裝置，例如，使用裝置內建的麥克風/喇叭、耳塞或優化的耳機。 使用優化的耳機可豐富整體使用者體驗。
 
-下列端點規劃指南可協助確保貴組織能順利使用Teams。
+以下端點規劃指南可協助確保貴組織擁有成功與 Teams。
 
 ## <a name="endpoint-capability"></a>端點功能
 
-規劃的第一部分，是確保貴組織的所有電腦和其他裝置都可以Teams。 這不只涉及查看硬體需求，還涉及瞭解電腦在背景中執行哪些其他操作。 許多組織會執行其他軟體，包括入侵偵測系統和反惡意軟體，這可能會影響裝置的基本性能。
+規劃的第一部分，是為了確保貴組織的所有電腦和其他裝置都可以Teams。 這不只涉及查看硬體需求，也涉及瞭解電腦在背景中執行哪些其他操作。 許多組織會執行其他軟體，包括入侵偵測系統和反惡意軟體，這可能會影響裝置的基本性能。
 
 有關 Web、桌面Teams行動 (每個平臺用戶端的軟體需求) ，請參閱取得用戶端[Microsoft Teams。](./get-clients.md)
 
 ## <a name="endpoint-firewalls"></a>端點防火牆
 
 用戶端防火牆會對使用者體驗有重大的影響。
-除了防止建立通話之外，用戶端防火牆也會影響通話品質。 根據 URL 或 IP 位址範圍中的 Microsoft 365 或 ip 位址範圍Office 365用戶端防火牆上的[適當排除專案](/microsoft-365/enterprise/urls-and-ip-address-ranges)。 您的協力廠商廠商將擁有如何建立排除專案的特定指引。
+除了防止建立通話之外，用戶端防火牆也會影響通話品質。 根據 URL 或 IP 位址範圍中Microsoft 365或Office 365防火牆上設定適當的[排除。](/microsoft-365/enterprise/urls-and-ip-address-ranges) 您的協力廠商廠商將擁有如何建立排除專案的特定指引。
 
 >[!NOTE]
-> Microsoft Teams會以適當的防火牆Windows防火牆的自動更新。
+> Microsoft Teams會以適當的防火牆Windows自動更新防火牆。
 
 ## <a name="wi-fi-recommendations-for-endpoints"></a>Wi-Fi端點的建議
 
-部署優化的Wi-Fi網路，以支援即時工作負載，需要Microsoft Teams。 下列各節提供一些一般指南，可協助避免規劃端點時常見的錯誤。
+部署優化的網路需要Wi-Fi規劃，以支援即時工作負載Microsoft Teams。 下列各節提供一些一般指南，可協助避免規劃端點時常見的錯誤。
 
 ### <a name="wi-fi-drivers"></a>Wi-Fi驅動程式
 
@@ -74,16 +74,16 @@ Teams端點可在許多裝置上執行，包括 PC、Mac、平板電腦和行動
 
 ### <a name="wi-fi-bands"></a>Wi-Fi帶
 
-現今在設備中使用的頻帶Wi-Fi種，2.4 GHz 和 5.0 GHz。 如果貴組織同時提供這兩個頻帶，您應設定驅動程式設定以偏好 5.0 GHz 頻帶。 此頻帶在輸送量方面密度更高，且受 2.4 GHz 頻帶的干擾影響較小。
+現今在設備中使用的頻帶Wi-Fi種，2.4 GHz 和 5.0 GHz。 如果貴組織同時提供這兩個頻帶，您應該設定驅動程式設定，以偏好 5.0 GHz 頻帶。 此頻帶在輸送量方面密度更高，且受 2.4 GHz 頻帶的干擾影響較小。
 此建議假設您已正確優化 5.0 GHz 網路帶。
 
-### <a name="wi-fi-radio-type"></a>Wi-Fi廣播類型
+### <a name="wi-fi-radio-type"></a>Wi-Fi單選類型
 
-規劃支援較新廣播類型的Wi-Fi裝置。 如果您在您撥備的裝置Wi-Fi 802.11ac 或更新版本，就可以獲得很好的使用效果。
+規劃支援較新無線Wi-Fi裝置。 如果您在您撥備的裝置Wi-Fi 802.11ac 或更新版本，就可以獲得很好的使用效果。
 
 ### <a name="wireless-avoidance"></a>無線避免
 
-有些組織偏好完全避免Wi-Fi問題。 有時候，這項指引會透過建議提供給使用者，讓使用者直接連接到有線網路。 在某些情況下，網路綁定順序可能偏好使用無線網路連接，即使電腦已連接到有線連接，仍繼續使用該連接。 若要避免此非預期行為，請設定綁定順序以避免此情況。
+有些組織偏好完全避免Wi-Fi使用。 有時候，這項指引會透過建議提供給使用者，讓使用者直接連接到有線網路。 在某些情況下，網路綁定順序可能偏好使用無線網路連接，即使電腦已連接到有線連接，仍繼續使用該連接。 若要避免此非預期行為，請設定綁定順序以避免此情況。
 
 ### <a name="80211-power-save-protocol"></a>802.11 Power Save 通訊協定
 
@@ -108,13 +108,13 @@ Microsoft Teams會議或電話系統。 使用這些功能時，用於Teams介�
 選取裝置之後，請將其納入試驗測試計劃，以完成驗證。 在試驗期間運用問卷收集意見，以確保您的裝置策略最佳。
 
 > [!NOTE]
-> 目前，我們建議您使用通過認證計畫商務用 Skype裝置。 若要尋找此計畫所認證的裝置，請參閱[Microsoft Teams裝置和](https://products.office.com/microsoft-teams/across-devices/devices)USB[音訊及視像裝置](/SkypeForBusiness/certification/devices-usb-devices)。
+> 目前，我們建議您使用通過認證計畫商務用 Skype裝置。 若要尋找此計畫所認證的裝置，請參閱[Microsoft Teams裝置和](https://products.office.com/microsoft-teams/across-devices/devices)USB[音訊與視音訊裝置](/SkypeForBusiness/certification/devices-usb-devices)。
 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>決定貴組織的使用者和會議室體驗整體裝置策略。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>後續步驟</td><td><ul><li>為貴組織完成人員對裝置映射練習。</li><li>記錄取得使用者和會議室裝置的過程。</li><li>記錄使用者和會議室的部署和組組裝置程式。</li><li>取得初始裝置以開始部署。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>決定貴組織的使用者和會議室體驗的整體裝置策略。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>後續步驟</td><td><ul><li>為貴組織完成人員對裝置映射練習。</li><li>記錄取得使用者和會議室裝置的過程。</li><li>記錄使用者和會議室的部署和組組裝置程式。</li><li>購買初始裝置以開始部署。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

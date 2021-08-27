@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: 包含逐步指導，以在 Microsoft Teams 中為聊天、團隊、應用程式和頻道設定 Teams 設定。
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 - m365initiative-deployteams
@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: c4a5997de66f9b78280ba14837ffc64a64dd7bc1ecbdfce9a054b434f9b6c05b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e7ebfeea83a34bec241c5de29f8d8445410a97d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346329"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617449"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 

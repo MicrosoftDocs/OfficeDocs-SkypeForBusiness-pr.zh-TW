@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于北馬里Microsoft 365 Office 365群島商務用 Skype及Microsoft Teams的Microsoft Teams及服務。
-ms.openlocfilehash: 775e1e65844a7244ee98979056435467c0d32ad3e2d7d3d62af0526562f1d8cd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是適用于北馬里Microsoft 365 Office 365群島商務用 Skype Microsoft Teams的Microsoft Teams及服務。
+ms.openlocfilehash: 0924e44c075adffd61b3d3a5dd397598a576bcd2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351073"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582397"
 ---
 # <a name="availability-in-northern-mariana-islands"></a>北馬里安納群島的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于北馬里Microsoft 365 Office 365群島商務用 Skype及Microsoft Teams的Microsoft Teams及服務。
+以下是適用于北馬里Microsoft 365 Office 365群島商務用 Skype Microsoft Teams的Microsoft Teams及服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

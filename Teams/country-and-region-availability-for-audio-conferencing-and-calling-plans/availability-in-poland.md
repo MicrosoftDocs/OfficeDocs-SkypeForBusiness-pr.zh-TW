@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是波蘭Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 40b300016a6d747614fec8ddae26780ec6ca39903dd239b93d0d0f1ec39046a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 93296a036a1c5f145267e508dacd6f43b147838e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334724"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617529"
 ---
 # <a name="availability-in-poland"></a>波蘭的可用性
 
@@ -58,13 +58,13 @@ ms.locfileid: "54334724"
 ## <a name="calling-plans"></a>通話方案
 
 > [!IMPORTANT]
-> 我們目前面對波蘭在完成新電話號碼訂單和移動訂單時，發生意外的延遲。 您可以繼續下單，但請注意，我們預期此延遲將于 9 月解決，屆時所有掛單都會完成。
+> 我們在波蘭目前面臨無法預期的延遲，無法完成新的電話號碼訂單和移動訂單。 您可以繼續下單，但請注意，我們預期此延遲將于 9 月解決，屆時所有掛單都會完成。
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |可以購買通話方案嗎？  <br/> |是  <br/> |
 |通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li></ul>|
-|可以撥打付費號碼的外接電話嗎？  <br/> | 目前不支援。 <br/> |
+|可以撥打付費號碼外接電話嗎？  <br/> | 目前不支援。 <br/> |
 |可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
