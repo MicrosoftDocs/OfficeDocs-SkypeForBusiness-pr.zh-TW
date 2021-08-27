@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 摘要：瞭解如何在商務用 Skype Server 中建立、發佈和匯出 Edge Server 拓撲。
-ms.openlocfilehash: da0ec9709f53e22122a911015e94484fc673c6741ba5122fa796e7dded0105b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: db5c4c2f9c68803d0e6823070c83c654df542035
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322465"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584347"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>為商務用 Skype Server 建立 Edge 拓撲
  
@@ -108,7 +108,7 @@ ms.locfileid: "54322465"
     
 13. [下一屏向上] 是 **定義下一個躍點**。 在 [ **下一個躍點集區]** 方塊中，選取您的內部集區名稱，其可能是前端集區或獨立集區。 如果您的環境中有 Director，您應該選擇 Director。 然後按一下 **下一步**。
     
-14. 在 [**建立前端** 集區] 畫面上，您必須指定一或多個要與此 Edge Server 產生關聯的內部集區（包括前端集區和 Standard Edition 伺服器）。 只需選擇您要使用此 Edge Server 與支援的外部使用者進行通訊的內部集區名稱。 按一下 **[下一步]**。
+14. 在 [**建立前端** 集區] 畫面上，您必須指定一或多個要與此 Edge Server 產生關聯的內部集區（包括前端集區和 Standard Edition 伺服器）。 只需選擇您要使用此 Edge Server 與支援的外部使用者進行通訊的內部集區名稱。 按 **[下一步]**。
     
     > [!NOTE]
     > 請注意，請注意，如果您的內部集區或獨立伺服器已使用不同的商務用 Skype Server Edge Server，則其不能有多個關聯。 如果您選擇的內部集區或獨立伺服器在該情況下，您將會看到警告，告知您其他 Edge Server，您可以決定是否要繼續。 如果您要繼續進行這個新的關聯，其他 Edge Server 的連線將停止。 
@@ -176,7 +176,7 @@ ms.locfileid: "54322465"
     
 16. [下一屏向上] 是 **定義下一個躍點**。 在 [ **下一個躍點集區]** 方塊中，選取您的內部集區名稱，其可能是前端集區或獨立集區。 如果您的環境中有 Director，您應該選擇 Director。 然後按一下 **下一步**。
     
-17. 在 [**建立前端** 集區] 畫面上，您必須指定一或多個要與此 Edge Server 產生關聯的內部集區（包括前端集區和 Standard Edition 集區）。 只需選擇您要使用此 Edge Server 與支援的外部使用者進行通訊的內部集區名稱。 按一下 **[下一步]**。
+17. 在 [**建立前端** 集區] 畫面上，您必須指定一或多個要與此 Edge Server 產生關聯的內部集區（包括前端集區和 Standard Edition 集區）。 只需選擇您要使用此 Edge Server 與支援的外部使用者進行通訊的內部集區名稱。 按 **[下一步]**。
     
     > [!NOTE]
     > 請注意，請注意，如果您的內部集區或獨立伺服器已使用不同的商務用 Skype Server Edge Server，則其不能有多個關聯。 如果您選擇的內部集區或獨立伺服器在該情況下，您將會看到警告，告知您其他 Edge Server，您可以決定是否要繼續。 如果您要繼續進行這個新的關聯，其他 Edge Server 的連線將停止。 
@@ -245,7 +245,7 @@ ms.locfileid: "54322465"
     
 15. [下一屏向上] 是 **定義下一個躍點**。 在 [ **下一個躍點集區]** 方塊中，選取您的內部集區名稱，其可能是前端集區或獨立集區。 如果您的環境中有 Director，您應該選擇 Director。 然後按一下 **下一步**。
     
-16. 在 [**建立前端** 集區] 畫面上，您必須指定一或多個要與此 Edge Server 產生關聯的內部集區（包括前端集區和 Standard Edition 集區）。 只需選擇您要使用此 Edge Server 與支援的外部使用者進行通訊的內部集區名稱。 按一下 **[下一步]**。
+16. 在 [**建立前端** 集區] 畫面上，您必須指定一或多個要與此 Edge Server 產生關聯的內部集區（包括前端集區和 Standard Edition 集區）。 只需選擇您要使用此 Edge Server 與支援的外部使用者進行通訊的內部集區名稱。 按 **[下一步]**。
     
     > [!NOTE]
     > 請注意，請注意，如果您的內部集區或獨立伺服器已使用不同的商務用 Skype Server Edge Server，則其不能有多個關聯。 如果您選擇的內部集區或獨立伺服器在該情況下，您將會看到警告，告知您其他 Edge Server，您可以決定是否要繼續。 如果您要繼續進行這個新的關聯，其他 Edge Server 的連線將停止。 

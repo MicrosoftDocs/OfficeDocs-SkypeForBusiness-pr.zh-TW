@@ -16,20 +16,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解撥打西班牙的免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
-ms.openlocfilehash: a0e66b49178709aa7db6540e7901bdb3f2c27693feab3436ede1270b5b9050ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解撥打西班牙的免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
+ms.openlocfilehash: e467eb8c5e93ebda9f40d78bbf926fc7f800f8e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345152"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577767"
 ---
 # <a name="toll-free-dialing-restrictions-in-spain"></a>西班牙免付費撥號限制
 
@@ -41,7 +41,7 @@ ms.locfileid: "54345152"
 |免付費通話是否可用？  <br/> |是  <br/> |
 |撥號格式 ()   <br/> |900 XXX XXX  <br/> |
 |國家/地區 ISO 代碼  <br/> |ES  <br/> |
-|涵蓋的島嶼/地區  <br/> |巴厘亞裡島和卡內利島  <br/> |
+|涵蓋的島嶼/地區  <br/> |巴厘阿利島和卡內利島  <br/> |
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |
 |行動網路可用性  <br/> |是的。 以進位費率提供。  <br/> |

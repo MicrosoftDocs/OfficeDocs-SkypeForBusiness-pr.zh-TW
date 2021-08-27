@@ -10,22 +10,22 @@ audience: admin
 description: 使用此 PowerShell 腳本為每位主管建立一個團隊，並擔任團隊成員。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 939b18a5f3dc137fb3953f48d9289a007933baca6c1975c91764bcfe999c833a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f30bab1e96fc16b135b178a1933bbfd08289e861
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341199"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577793"
 ---
 # <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell 腳本範例 - 建立新的人員管理員團隊
 
-使用此 PowerShell 腳本為每位主管建立一個團隊，並擔任團隊成員。 執行此腳本之前，請執行匯出[](powershell-script-create-teams-from-managers-export-managers.md)管理員腳本， (Active Directory 匯出) 管理員及其組織主管清單。
+使用此 PowerShell 腳本為每位主管建立一個團隊，並擔任團隊成員。 執行此腳本之前，請執行匯出[](powershell-script-create-teams-from-managers-export-managers.md)管理員腳本， (Active Directory 匯出) 管理員及其主管清單來匯出您的組織。
 
 若要瞭解此 PowerShell 腳本，請參閱 [建立人員管理員團隊](../create-manager-directs-teams.md)。
 

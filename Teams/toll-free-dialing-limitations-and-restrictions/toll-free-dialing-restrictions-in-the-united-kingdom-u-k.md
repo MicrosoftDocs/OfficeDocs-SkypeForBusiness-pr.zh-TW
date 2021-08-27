@@ -16,20 +16,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解撥打英國免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
-ms.openlocfilehash: 1dd248f015eecc17cd4fc5fad6b224ef2ce29ae4539841b6fc6b9c21d2fdb161
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解撥打英國免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
+ms.openlocfilehash: cf114e61866e775b0379b925e97ade71f0bf0e0f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324792"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577757"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-kingdom-uk"></a>英國和英國/地區免付費撥號 (限制) 
 
@@ -40,7 +40,7 @@ ms.locfileid: "54324792"
 |:-----|:-----|
 |免付費通話是否可用？  <br/> |是  <br/> |
 |撥號格式 ()   <br/> | 0 800 XXX XXXX <br/>  0 808 XXX XXXX <br/> |
-|國家/地區 ISO 代碼  <br/> |G b  <br/> |
+|國家/地區 ISO 代碼  <br/> |G B  <br/> |
 |涵蓋的島嶼/地區  <br/> |英格蘭、根西島、曼城島、北愛爾蘭、蘇格蘭、維爾斯和通道群島  <br/> |
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |

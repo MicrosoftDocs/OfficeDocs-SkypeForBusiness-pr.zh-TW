@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a07b6f46d24679b4e05ce826059958e0404ba084
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 45eb669dd83f2c66d556da82043e076b84ae370e
+ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398972"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58531013"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -263,9 +263,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > 
 > 我們會提供此功能在未來如何執行的資訊，因此您可以事先規劃這項變更並修改 Teams 原則設定。 
 >
-> 尚無法設定 CMD 預先變更 Teams 中的 MeetingExpirationDays 設定。  當設定可以進行修改時，我們會發佈更新的郵件中心文章。
+> 尚未提供預先變更 Teams （Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays） 中 MeetingExpirationDays 設定的 CMD。  當設定可以進行修改時，我們會發佈更新的訊息中心文章。
 >
-> 您可以使用 PowerShell 以修改 “ MeetingRecordingExpirationDays。” 這項功能可以在 9 月 1 日之後完成，一旦設定在 PowerShell 中出現，即使該功能尚未啟用。 範例命令為："Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50。”
 >
 
 請參閱系統管理員和使用者的常見問題，以收集 Teams 會議錄製的自動到期如何運作的深入見解、您現在可採取的動作，以及此功能啟動後可以採取的動作。 
@@ -310,9 +309,18 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 **系統管理員如何變更到期日?**
   
-系統管理員可以在功能發行前變更 PowerShell 或 Teams 系統管理中心的預設到期設定。 這項設定尚無法進行修改。 當設定可以進行修改時，我們會發佈更新的郵件中心文章。 當此功能啟動時，系統管理員可以在 Teams 系統管理中心變更此設定。 變更到期設定只會從該時間點起影響新建立之 TMR。 這不會影響該日期之前進行的任何錄製。 
+系統管理員可以在功能發行前，變更 PowerShell （Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays） 或 Teams 系統管理中心中的預設到期設定。 這項設定尚無法進行修改。 當設定可以進行修改時，我們會發佈更新的郵件中心文章。 當此功能啟動時，系統管理員可以在 Teams 系統管理中心變更此設定。 變更到期設定只會從該時間點起影響新建立之 TMR。 這不會影響該日期之前進行的任何錄製。 
 
-系統管理員可申請的到期天數上限設定為 99，999 天或 273 年。 在此功能釋出之前，系統管理員無法變更已上傳至 OneDrive 或 SharePoint 的現有 TMR 到期日。 這可保護擁有 TMR 的使用者意圖。 
+到期日值可設定如下:
+  
+- 值可以從 1 到 99,999 （最大值為 273 年）。
+- 值也可以是 -1，以將 TMR 設為永不過期。 
+ 
+在此功能釋出之前，系統管理員無法變更已上傳至 OneDrive 或 SharePoint 的現有 TMR 到期日。 這可保護擁有 TMR 的使用者意圖。 
+  
+**系統管理員可以設定 TMR 永不過期嗎？**
+  
+ 是，系統管理員可以透過下列 PowerShell Cmdlet 將 TMR 設定為永不過期: （Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1）
   
 **播放錄製內容會變更到期日嗎？**
 

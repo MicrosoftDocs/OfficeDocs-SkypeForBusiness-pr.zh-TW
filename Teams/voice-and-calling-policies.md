@@ -7,20 +7,20 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: 瞭解語音Teams通話政策。
+description: 瞭解Teams語音和通話政策。
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b3cea712fee971ce441e5406bc32c1304c4a53374baf290046945595d3bea1f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2c5207f9bbfc7212d09394f5b507559c715e561b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335803"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577737"
 ---
 # <a name="manage-voice-and-calling-policies-in-microsoft-teams"></a>管理語音和通話Microsoft Teams
 
@@ -34,19 +34,19 @@ ms.locfileid: "54335803"
 
 ## <a name="emergency-call-routing-policies"></a>緊急通話路由策略
 
-如果貴組織已電話系統直接路由，您可以使用緊急呼叫路由策略來判斷[](manage-emergency-call-routing-policies.md)緊急電話的路由位置、是否已啟用增強的緊急服務，以及用於緊急服務的號碼。 這些策略是使用 PowerShell 或系統管理中心Microsoft Teams管理。
+如果貴組織已電話系統直接路由，您可以使用緊急呼叫路由策略來判斷緊急[](manage-emergency-call-routing-policies.md)電話的路由位置、是否已啟用增強的緊急服務，以及用於緊急服務的電話號碼。 這些策略是使用 PowerShell 或系統管理中心Microsoft Teams管理。
 
 ![緊急通話路由策略的螢幕擷取畫面。](media/emergency-call-routing-policy.png)
 
 ## <a name="caller-id-policies"></a>本機號碼政策
 
-[本機號碼策略](caller-id-policies.md) 是用來變更或封鎖本機號碼。
+[本機號碼政策](caller-id-policies.md) 是用來變更或封鎖本機號碼。
 
 ![本機號碼策略的螢幕擷取畫面。](media/caller-id-policy.png)
 
 ## <a name="voice-routing-policies"></a>語音路由策略
 
-語音 [路由策略](manage-voice-routing-policies.md) 是公用交換電話網絡 (PSTN) 的容器。 如果您的組織已部署直接路由，您可以使用 **電話系統策略**。 語音路由策略可以使用 PowerShell 或系統管理中心Teams管理。
+語音 [路由策略](manage-voice-routing-policies.md) 是公用交換電話網絡 (PSTN) 容器。 如果您的組織已部署直接路由，**您可以使用電話系統策略**。 語音路由策略可以使用 PowerShell 或系統管理中心Teams管理。
 
 ![語音路由策略的螢幕擷取畫面。](media/voice-routing-policy.png)
 

@@ -14,25 +14,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 系統管理員可以瞭解如何在會議或會議開啟或Microsoft Teams公告。
-ms.openlocfilehash: e6ac81e861d8a079c9e8a8c2dcc3a8824695ab5bc50ef58b4fad34781425a204
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f3705284745d6fa470835d45369239b3a22f9713
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346020"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604322"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>開啟或關閉會議在 Microsoft Teams
 
 當您在 Microsoft 365 或 Office 365 中設定音訊會議時，會取得音訊會議橋接器。 會議橋接器可以包含一或多個電話號碼，使用者會使用該電話號碼來Microsoft Teams會議。
   
-會議橋接器會針對使用電話撥入會議的使用者接聽電話。 會議橋接器會使用來自會議自動語音應答的語音提示來接聽來電者，然後視您的設定播放通知、要求來電者錄製其名稱，以及設定 PIN 安全性。 PIN 會提供給會議Microsoft Teams，如果會議召集人無法使用應用程式啟動會議，可以Microsoft Teams會議。 不過，您可以將其設定為不需要 PIN 才能開始會議。
+會議橋接器會針對使用電話撥入會議的使用者接聽電話。 會議橋接器會從會議自動語音應答接聽來電者語音提示，然後視您的設定播放通知、要求來電者錄製其名稱，以及設定 PIN 安全性。 PIN 會提供給會議Microsoft Teams，如果會議召集人無法使用應用程式啟動會議，可以Microsoft Teams會議。 不過，您可以將其設定為不需要 PIN 才能開始會議。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -56,7 +56,7 @@ ms.locfileid: "54346020"
    > [!NOTE]
    > 根據預設，外部參與者看不到撥入參與者的電話號碼。 如果您想要維護這些電話號碼的隱私權，請選取 [進入/退出宣告類型] 的 [音調] (這可避免 Teams 將號碼朗讀出來)。
 
-6. 如果您選擇名稱 **或電話號碼**，請啟用或停用要求來電者在加入會議前先 **錄製其名稱**。
+6. 如果您選擇名稱 **或電話號碼**，請啟用或停用要求來電者在加入會議前 **記錄其名稱**。
 
 7. 按一下 [儲存]。
 
@@ -64,9 +64,9 @@ ms.locfileid: "54346020"
 
 Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 有了Windows PowerShell，您可以使用單一Microsoft 365管理Office 365管理，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
 
-- [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [為什麼您需要使用 powerShell Microsoft 365或Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 如要進一Windows PowerShell，請參閱[powerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams以瞭解更多資訊。
   

@@ -14,26 +14,26 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
-description: 本主題定義 Microsoft Teams 服務的一組網路績效需求，以及您根據網路連接性評估，選擇使用網際網路或 ExpressRoute 在您的網路與 Microsoft Teams 之間建立連接。 如果您決定將 Azure ExpressRoute 的專用連線部署到 Microsoft 365 或 Office 365，本檔也會提供如何在不同的部署情境中規劃 ExpressRoute Microsoft Teams指南。
-ms.openlocfilehash: c73922af3befc9070127d9b9937a82f8b8d94e0b
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+description: 本主題定義 Microsoft Teams 服務的一組網路績效需求，以及如何選擇使用網際網路或 ExpressRoute 來在您的網路與 Microsoft Teams 之間建立連線性。 如果您決定將 Azure ExpressRoute 的專用連線部署到 Microsoft 365 或 Office 365，本檔也會提供如何在不同的部署情境中規劃 ExpressRoute Microsoft Teams指南。
+ms.openlocfilehash: 3699e225f69deda5fd69b2308dc50337a1d0b228
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407032"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618239"
 ---
-# <a name="media-quality-and-network-connectivity-performance-in-microsoft-teams"></a>媒體質量和網路中網路Microsoft Teams
+# <a name="media-quality-and-network-connectivity-performance-in-microsoft-teams"></a>媒體質量和網路Microsoft Teams
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-本主題定義 Microsoft Teams 服務的一組網路績效需求，以及您根據網路連接性評估，選擇使用網際網路或 ExpressRoute 在您的網路與 Microsoft Teams 之間建立連接。 如果您決定將 Azure ExpressRoute 的專用連線部署到 Microsoft 365 或 Office 365，本檔也會提供如何在不同的部署情境中規劃 ExpressRoute Microsoft Teams指南。
+本主題定義 Microsoft Teams 服務的一組網路績效需求，以及如何選擇使用網際網路或 ExpressRoute 來在您的網路與 Microsoft Teams 之間建立連線性。 如果您決定將 Azure ExpressRoute 的專用連線部署到 Microsoft 365 或 Office 365，本檔也會提供如何在不同的部署情境中規劃 ExpressRoute Microsoft Teams指南。
   
-IP Real-Time媒體 (音訊、視) 和應用程式共用的品質受到端對端網路連接品質的嚴重影響。 若要Microsoft Teams媒體質量，請務必確定公司網路與媒體之間Microsoft Teams。 最好的方法就是根據網路容量來設定內部網路和雲端連接，以容納所有Microsoft Teams流量的高峰流量。
+IP Real-Time媒體 (音訊、視) 應用程式共用的品質受到端對端網路連接品質的嚴重影響。 若要Microsoft Teams媒體質量，請務必確定公司網路與媒體之間Microsoft Teams。 最好的方法就是根據網路容量來設定內部網路和雲端連接，以容納所有Microsoft Teams流量的高峰流量。
   
 Azure ExpressRoute 不要求使用包括 Microsoft 365 在內的Office 365服務Microsoft Teams。 不過，Azure ExpressRoute 是可用的部署選項之一，可協助確保 Microsoft 365 或 Office 365 的連接子合 Microsoft Teams 網路性能需求，並確保最佳的 Microsoft Teams 媒體質量體驗。
   
@@ -50,18 +50,18 @@ Azure ExpressRoute 不要求使用包括 Microsoft 365 在內的Office 365服務
 
 在Real-Time會話中，所有參與者使用的媒體捕獲和呈現裝置 ，例如耳機和 Web 相機，對整體音訊和視音訊品質有很大的影響。 品質較低的裝置或裝置，如果裝置磁碟機不正確，則會產生較低的音訊整體音效品質，以及較低的視像品質。 經過認證的裝置或品質良好的裝置可協助消除回音、雜訊篩選、視像解析度，並減少延遲。
   
-雖然不需要經過認證的音訊和視視媒體裝置，但強烈建議您Microsoft Teams，以獲得最佳媒體體驗。 有關所有通過認證的Microsoft Teams的清單，請參閱手機和裝置[商務用 Skype。](../../SfbPartnerCertification/certification/devices-ip-phones.md) 您可以使用 Microsoft Teams[](/microsoftteams/turning-on-and-using-call-quality-dashboard)系統管理中心商務用 Skype的通話品質儀表板，驗證使用中的裝置是否正常，並監控音訊和視音訊媒體質量。
+雖然不需要經過認證的音訊和視視媒體裝置，但強烈建議您使用經過 Microsoft Teams 認證的裝置，以獲得最佳媒體體驗。 有關所有已Microsoft Teams裝置的清單，請參閱手機和裝置[商務用 Skype。](../../SfbPartnerCertification/certification/devices-ip-phones.md) 您可以使用 Microsoft Teams[](/microsoftteams/turning-on-and-using-call-quality-dashboard)系統管理中心商務用 Skype的通話品質儀表板，來驗證使用中的裝置是否正常，並監控音訊和視音訊媒體質量。
   
 > [!TIP]
 > **需要經過認證的裝置，才能獲得最佳商務用 Skype品質體驗**。
   
-請記住，任何媒體裝置、Microsoft Teams用戶端，以及商務用 Skype伺服器，Real-Time媒體流程時，都Real-Time延遲。 裝置和軟體處理延遲，以及網路延遲，對端對端整體延遲和使用者體驗有極大的影響，並有助於其影響。
+請記得，任何媒體裝置、Microsoft Teams用戶端，以及商務用 Skype伺服器，Real-Time媒體流程時，都Real-Time延遲。 裝置和軟體處理延遲，以及網路延遲，對端對端整體延遲和使用者體驗有極大的影響，並有助於其影響。
   
 #### <a name="environment"></a>環境
 
 使用者開會及使用音訊和視像裝置的環境及周圍區域是音訊和視音訊品質的另一大因素。 從吵雜環境通話的使用者會聽到回音、雜音和不清楚的音訊。 在深色或低亮度環境中，使用者無法為視片產生明亮、清楚的影像品質。 在會議室設定中，麥克風和視像裝置的位置會直接影響參與者會收到的聲音和影像品質。
   
-若要更清楚地瞭解使用者的音訊和視音訊體驗，請使用 商務用 Skype **App** 工具選項 音訊裝置或視像裝置來變更使用中的裝置，並自訂  >    >  其設定。 
+若要更清楚地瞭解使用者的音訊和視音訊體驗，請使用 商務用 Skype **App** 工具選項 音訊裝置或視像裝置，對使用中的裝置進行變更，並自訂  >    >  其設定。 
 
 #### <a name="network"></a>網路
 
@@ -71,18 +71,18 @@ IP 網路Real-Time媒體的品質會受到網路連接品質的嚴重影響，�
     
 - **封包遺失** 這通常定義為在給定時段內遺失的封包百分比。 封包遺失會直接影響音訊品質，包括小型、個別遺失的封包幾乎沒有影響，以及造成音訊完全中斷的背對背斷流損失。
     
-- **封包間到達的抖動或只是抖動** 這是連續封包之間延遲的平均變化。 大部分的新式 VoIP 軟體Microsoft Teams透過緩衝來適應某些層級的抖動。 只有當抖動超過緩衝時，參與者才能注意到抖動的影響。
+- **封包間到達的抖動或只是抖動** 這是連續封包之間延遲的平均變化。 大部分的新式 VoIP 軟體 ，Microsoft Teams透過緩衝來適應某些層級的抖動。 只有當抖動超過緩衝時，參與者才能注意到抖動的影響。
     
 > [!NOTE]
 >  針對抖動進行緩衝會增加端對端延遲。
   
-由於有許多同時Microsoft Teams Real-Time 媒體會話，以及其他 Microsoft 365 或 Office 365 服務及其他商務應用程式產生的其他網路流量，因此，確定將您的網路連接到 Microsoft Teams 服務的整個網路路徑有足夠的頻寬，對於避免網路塞塞，並確保媒體 Real-Time 媒體 (音訊、視視和應用程式共用) 品質至關重要。 
+由於有許多同時Microsoft Teams Real-Time 媒體會話，以及其他 Microsoft 365 或 Office 365 服務及其他商務應用程式產生的其他網路流量，因此請確定將您的網路連接到 Microsoft Teams 服務的整個網路路徑有足夠的頻寬，對於避免網路塞塞和確保出色的媒體 Real-Time 媒體 (音訊、視視和應用程式共用) 品質至關重要。 
   
 #### <a name="implementing-quality-of-service-qos-across-congested-networks"></a>跨塞網路 (QoS) 服務品質
 
-此外，整個網路的流量塞塞會大幅影響媒體質量。 若要讓音訊和視訊封包能更快速地傳輸網路，並優先處理擁擠網路的其他網路流量，可以使用服務品質 (QoS) ，協助為音訊和視訊通訊提供最佳的使用者體驗。
+此外，整個網路的流量塞塞會大幅影響媒體質量。 若要讓音訊和視訊封包能更快速地流覽網路，並優先處理塞塞網路的其他網路流量，可以使用服務品質 (QoS) 協助為音訊和視訊通訊提供最佳的使用者體驗。
   
-QoS 提供一種方法，您可以為包含音訊或視像資料的網路封包指派較高的優先順序。 將較高優先順序指派給這些封包後，音訊和視訊通訊可能會比涉及檔案傳輸、網頁流覽或資料庫備份等內容的網路會話更快速地在網路間傳輸，且干擾更少。 這是因為根據預設，用於檔案傳輸或資料庫備份的網路封包會獲派「最大努力」做為優先順序，而網路擠塞也不會有太大的影響。 如果您沒有將較高的優先順序指派給媒體 (音訊、視視和應用程式共用) 封包，並將這些封包指派為「盡力」，這些封包也會連同所有其他網路流量一起處理。 視網路塞塞量而不同，這可能會導致使用者的整體音訊和視音訊品質體驗降低。
+QoS 提供一種方式，您可以為包含音訊或視像資料的網路封包指派較高的優先順序。 將較高優先順序指派給這些封包後，音訊和視訊通訊可能會比涉及檔案傳輸、網頁流覽或資料庫備份等內容的網路會話更快速地在網路間傳輸，且干擾較少。 這是因為根據預設，用於檔案傳輸或資料庫備份的網路封包會獲派「最大努力」做為優先順序，而網路擠塞也不會有太大的影響。 如果您沒有將較高的優先順序指派給媒體 (音訊、視視及應用程式共用) 封包，並將這些封包指派為「盡力」，這些封包也會連同所有其他網路流量一起處理。 視網路塞塞量而不同，這可能會導致使用者的整體音訊和視音訊品質體驗降低。
   
 強烈建議您于網路上執行 QoS，以確保網路內的網路塞塞不會受到影響。 不過，若要達到最大影響，所有網路端點都必須支援 QoS，這表示所有端點都必須遵守 QoS 標記和封包優先順序。 Microsoft Teams Microsoft 網路中遵守 QoS 標記和優先順序。 不過，從貴公司網路路由到 Microsoft 網路等公用連接的流量，不會保留 QoS 標記和封包優先順序。 使用[Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/)從網路到 Microsoft 365 或 Office 365 的私人連結提供可保留 QoS 標記和封包優先順序的部署解決方案，進而提升使用者的整體音訊和視訊品質。
   
@@ -147,7 +147,7 @@ QoS 提供一種方法，您可以為包含音訊或視像資料的網路封包�
 ### <a name="network-performance-requirements-from-your-network-edge-to-microsoft-network-edge"></a>從網路 Edge 到 Microsoft 網路 Edge 的網路績效需求
 <a name="bkYourNetworkEdge"> </a>
 
-以下是網路 Edge 與 Microsoft 網路 Edge 之間連接所需的網路績效目標或臨界值。 此網路區段排除客戶的內部網路或 WAN，並用於測試透過網際網路或 ExpressRoute 合作夥伴網路所送出網路流量時，以及可用來與 ExpressRoute 提供者進行績效服務等級協定 (SLA) 的議價時提供指引。
+以下是網路 Edge 與 Microsoft 網路 Edge 之間連接所需的網路績效目標或臨界值。 此網路區段排除客戶的內部網路或 WAN，且用於測試透過網際網路或 ExpressRoute 合作夥伴網路所送出網路流量時，以及可用來與 ExpressRoute 提供者進行績效服務等級協定 (SLA) 的議價時，提供指引。
   
 > [!CAUTION]
 > **貴公司網路 Edge 與 Microsoft 網路邊緣之間的連接必須符合下列網路績效需求和閾值。**
@@ -156,8 +156,8 @@ QoS 提供一種方法，您可以為包含音訊或視像資料的網路封包�
 |:-----|:-----|
 |單向 (延遲)   <br/> |< 30 毫秒  <br/> |
 |RTT (延遲)   <br/> |< 60 毫秒  <br/> |
-|突發封包遺失  <br/> |<200 毫秒間隔期間增加 1%  <br/> |
-|封包遺失  <br/> |<15 個間隔期間，0.1%  <br/> |
+|突發封包遺失  <br/> |<200 毫秒間隔期間增加 1%。  <br/> |
+|封包遺失  <br/> |<15 個間隔期間增加 0.1%。  <br/> |
 |封包間延遲  <br/> |<15 個間隔內，超過 15 毫秒  <br/> |
 |封包重新排序  <br/> |<0.01% 的無序封包  <br/> |
    
@@ -173,7 +173,7 @@ QoS 提供一種方法，您可以為包含音訊或視像資料的網路封包�
 若要測量從任何公司網路網站到網路 Edge 的實際網路績效，尤其是延遲和封包遺失，您可以使用 ping 等工具，針對一組從 Microsoft Edge 和資料中心網站執行的 商務用 Skype 媒體轉送服務進行測試。 
 
 >[!NOTE]
-> 透過 ping 或 ICMP (測量網路) 無法有效。 基於這個原因，以下任何廣播 IP 公開將會停止回應 ICMP 要求，從 2020 年 1 月開始。 為了有效測量網路執行，Microsoft 建議使用 [網路 Assesment 工具](https://www.microsoft.com/download/details.aspx?id=53885)。
+> 透過 ping 或 ICMP (測量) 無法有效。 基於這個原因，以下任何廣播 IP 公開將會停止回應 ICMP 要求，從 2020 年 1 月開始。 為了有效測量網路執行，Microsoft 建議使用 [網路 Assesment 工具](https://www.microsoft.com/download/details.aspx?id=53885)。
   
 若要測試 Microsoft 網路的網際網路連接，建議您針對下列媒體轉商務用 Skype測試。 *Anycast 的VIP* 會解析為最接近測試位置的 Microsoft 網路 Edge 網站中媒體轉場的 IP 位址。
   
@@ -186,11 +186,11 @@ QoS 提供一種方法，您可以為包含音訊或視像資料的網路封包�
   
 - 您應該評估內部網路，以及您Microsoft 365或Office 365。
     
-- 您應評估並收集您所有網路在很長一段時間的資料。 我們建議您至少執行一周的網路績效測試，以便查看所有工作天與小時的使用模式。 這會顯示高峰時間。
+- 您應評估並收集您所有網路在很長一段時間的資料。 我們建議您至少執行一周的網路績效測試，以便查看所有工作天和小時的使用模式。 這會顯示高峰時間。
     
 - 您應該採取多個網路績效度量的範例。 建議您在收集資料的整個期間，每隔 10 分鐘從公司網站進行測量。 為了比較網路Microsoft Teams需求，請從此範例資料集中取第 90 個百分位數測量值。 
     
-- 您應該持續評估網路的表現。 由於使用模式變更、使用大量頻寬的新企業型應用程式，以及組織或實體公司位置的變更，網路使用量會隨著時間而改變。 請務必根據這些網路性能需求和目標/閾值持續監控網路績效，並及時進行調整，以確保媒體質量Real-Time最佳狀態。 
+- 您應該持續評估網路的表現。 由於使用模式變更、使用大量頻寬的新企業型應用程式，以及組織或實體公司位置的變更，網路使用量會隨著時間而改變。 請務必根據這些網路性能需求和目標/閾值持續監控網路績效，並及時進行調整，以確保媒體質量Real-Time最佳。 
     
 ## <a name="measuring-network-performance-using-azure-vms"></a>使用 Azure VM 測量網路績效
 <a name="bkNetworkPerf"> </a>
@@ -199,7 +199,7 @@ QoS 提供一種方法，您可以為包含音訊或視像資料的網路封包�
   
 針對那些以 Azure 託管測試服務為基礎的網路評定解決方案。 我們建議您在國與/或地區內執行網路評估。 例如，針對美國東部的客戶網站，應針對 Azure 美國東部資料中心地區的測試服務實例執行評定。 
   
-以下是 Azure 服務型 (網路) 設定之 RTT 目標之延遲。 單向延遲目標為對應 RTT 目標的一半。 封包遺失和抖動目標與針對媒體轉送測試所定義的Skype相同。
+以下是 Azure 服務型 (網路) 設定之 RTT 的延遲時間。 單向延遲目標為對應 RTT 目標的一半。 封包遺失和抖動目標與針對媒體轉送測試所定義的Skype相同。
   
 
 
@@ -293,23 +293,23 @@ Microsoft 在 BGP 社群支援下，會根據 BGP 社群所屬的服務，以適
 
 如果您的所有使用者都使用 Microsoft Teams 服務，如果您的辦公室集中在單一實體位置，而您決定部署 Azure ExpressRoute，您應該在公司網站之間設定單一 ExpressRoute 連接，以最接近[的 ExpressRoute](/azure/expressroute/expressroute-locations)對等位置。
   
-下圖顯示此類型的部署範例。 在此範例中，Contoso 是一所位於美國佛羅里達州的大學。 Contoso 有 10，000 位教職員成員和學生。 從位置到網站的網際網路測試Microsoft Edge在尖峰課程時段期間，封包遺失超過 5%。 他們決定使用 ExpressRoute 與過度布Microsoft 365或 Office 365 建立專用連線，以避免 Microsoft 365 或 Office 365 的網路塞塞，尤其是 Microsoft Teams Real-Time 流量。 他們透過位於佐治亞州 、GA MeetMe 網站的 ExpressRoute 來連接到 Microsoft 雲端。
+下圖顯示此類型的部署範例。 在此範例中，Contoso 是一所位於美國佛羅里達州的大學。 Contoso 有 10，000 位教職員成員和學生。 從位置到網站的網際網路測試Microsoft Edge在尖峰時段期間，封包遺失超過 5%。 他們決定使用 ExpressRoute 與過度布Microsoft 365或 Office 365 建立專用連線，以避免 Microsoft 365 或 Office 365 的網路塞塞，尤其是 Microsoft Teams Real-Time 流量。 他們透過位於佐治亞州、GA MeetMe 網站的 ExpressRoute，連接至 Microsoft 雲端。
   
 ![ExpressRoute 單一網站。](../images/59fbca3c-a3ea-4568-8da5-3281096a7453.png)
   
 ### <a name="online-only-deployment---multiple-sites-on-the-same-continent"></a>僅線上部署 - 同一洲上的多個網站
 
-如果您的公司使用來自同一地區或洲多個辦公室的 Microsoft Teams 服務，而您選擇執行 Azure ExpressRoute，建議您透過 ExpressRoute 連結您的主網站，然後選擇性地為不符合建議網路績效目標的其他位置新增額外的 ExpressRoute 對等。
+如果您的公司使用來自同一地區或洲中多個辦公室的 Microsoft Teams 服務，而您選擇執行 Azure ExpressRoute，建議您透過 ExpressRoute 連結您的主網站，然後選擇性地為不符合建議網路績效目標的其他位置新增額外的 ExpressRoute 對等。
   
-在下列範例中，Contoso 是一家美國旅遊服務公司，總部位於紐約，但在美國有其他辦公室。 他們的辦公室會透過 WAN 進行相互連結，該 WAN 會使用 MPLS 來Microsoft 365或Office 365。 他們最初從他們在紐澤西州Hoboken的網際網路路由器設定 ExpressRoute 連接至紐約 MeetMe 網站。 
+在下列範例中，Contoso 是一家美國旅遊服務公司，總部位於紐約，但在美國有其他辦公室。 他們的辦公室會透過 WAN 進行相互連結，該 WAN 會使用 MPLS 來Microsoft 365或Office 365。 他們最初會從他們在紐澤西州Hoboken的網際網路路由器設定 ExpressRoute 連接至紐約 MeetMe 網站。 
   
-有了這項設定，從大多數網站到 Microsoft Network (紐約 Edge 網站) 的網路流量，就可以符合 商務用 Skype 用戶端到 Microsoft 網路 Edge 的網路績效需求中所述的[商務用 Skype](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)用戶端連接網路績效目標。 不過，Contoso 西岸辦公室到紐約之間的延遲會單向超過 50 毫秒。 此外，Honolulu 是 Contoso 的第二大辦公室，從 Honolulu 到紐約的延遲單向超過 80 毫秒。 為了確保這些辦公室的使用者有良好的媒體質量，Contoso 決定在聖約瑟網站與矽谷 ExpressRoute MeetMe 網站之間新增西岸 ExpressRoute 連接。
+有了這項設定，從大多數網站到 Microsoft Network (紐約 Edge 網站) 的網路流量，就可以符合 商務用 Skype 用戶端至 Microsoft 網路 Edge 的網路績效需求中所述的[商務用 Skype](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)用戶端連接網路績效目標。 不過，Contoso 西岸辦公室到紐約之間的延遲會單向超過 50 毫秒。 此外，Honolulu 是 Contoso 的第二大辦公室，從 Honolulu 到紐約的延遲單向超過 80 毫秒。 為了確保這些辦公室的使用者有良好的媒體質量，Contoso 決定在聖約瑟網站與矽谷 ExpressRoute MeetMe 網站之間新增西岸 ExpressRoute 連接。
   
-![同一洲上的 Express 路由器多重網站。](../images/bf57a473-01e1-4271-9675-385767bc58e1.png)
+![同一洲上的 Express 路由器多網站。](../images/bf57a473-01e1-4271-9675-385767bc58e1.png)
   
 ### <a name="online-only-deployment---multiple-sites-on-different-continents"></a>僅線上部署 - 不同洲的多個網站
 
-如果您的所有使用者都使用 Microsoft Teams 服務，如果您的辦公室位於多個洲的多個實體位置，如果您決定部署 Azure ExpressRoute，您應該在每個洲的主要網站與最接近的[ExpressRoute](/azure/expressroute/expressroute-locations)對等位置之間，針對每個洲設定至少一個 ExpressRoute 連接。 根據成本與收益，您可以選擇從未達網路績效目標的網站部署額外的 ExpressRoute 連接。
+如果您的所有使用者都使用 Microsoft Teams 服務，如果您的辦公室位於多個洲的多個實體位置，如果您決定部署 Azure ExpressRoute，您應該在每個洲的主要網站之間，針對每個洲，在其最接近的[ExpressRoute](/azure/expressroute/expressroute-locations)對等位置之間，設定至少一個 ExpressRoute 連接。 根據成本與收益，您可以選擇從未達網路績效目標的網站部署額外的 ExpressRoute 連接。
   
 在下列範例中，Contoso 是一家大型企業律師事務所，其辦公室遍佈北美和歐洲的大城市。 根據網際網路連接及其內部網路績效評定，Contoso 決定在北美部署兩個 ExpressRoute 連接，並針對所有歐洲辦公室部署單一 ExpressRoute 回路。
   
@@ -317,9 +317,9 @@ Microsoft 在 BGP 社群支援下，會根據 BGP 社群所屬的服務，以適
   
 ### <a name="hybrid-deployment"></a>混合式部署
 
-如果您有內部部署 Lync 或 Microsoft Teams 部署，並選擇執行混合式 Microsoft Teams 整合，我們建議您決定部署 Azure ExpressRoute，則每個內部部署 Lync 或 Microsoft Teams Edge 網站至少必須擁有一個 ExpressRoute 連接，以及每個洲與辦公室的至少一個 ExpressRoute 連接。 根據成本與效益，您可以選擇從未達網路績效目標的辦公室部署額外的 ExpressRoute 連接。
+如果您有內部部署 Lync 或 Microsoft Teams 部署，並選擇執行混合式 Microsoft Teams 整合，我們建議您決定部署 Azure ExpressRoute，則每個內部部署 Lync 或 Microsoft Teams Edge 網站必須至少有一個 ExpressRoute 連接，且每個洲與辦公室之間至少要有一個 ExpressRoute 連接。 根據成本與效益，您可以選擇從未達網路績效目標的辦公室部署額外的 ExpressRoute 連接。
   
-如果您有內部部署部署Microsoft Teams，您必須遵循[Edge Server 規劃與部署指南](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md)。 具體來說，Edge 伺服器必須從您的網路外部進行。 這通常是將可路由的公用 IP 位址指派給 Edge 伺服器，或是使用網路位址翻譯 (NAT) 。
+如果您有內部部署部署Microsoft Teams，則必須遵循[Edge Server 規劃與部署指南](../../SfbServer/plan-your-deployment/edge-server-deployments/edge-server-deployments.md)。 具體來說，Edge 伺服器必須從您的網路外部進行。 這通常是將可路由的公用 IP 位址指派給 Edge 伺服器，或是使用網路位址翻譯 (NAT) 。
   
 在下列範例中，Contoso 有現有的內部部署Microsoft Teams 企業語音部署。 他們想要將內部部署使用者遷移到Microsoft 365或Office 365線上服務。 他們也決定使用混合式部署，以便繼續針對所有內部部署和線上使用者使用現有的 PSTN 基礎結構。 Contoso 內部部署資料中心和商務用 Skype Edge Servers 位於芝加哥。 針對他們的部署，Contoso 決定在芝加哥資料中心與芝加哥 ExpressRoute 之間設定一個 ExpressRoute 連接。 他們也新增了西岸的 ExpressRoute 連接，以更好的服務其 Honolulu 辦公室。
   
@@ -327,13 +327,13 @@ Microsoft 在 BGP 社群支援下，會根據 BGP 社群所屬的服務，以適
   
 ### <a name="online-deployment-with-cloud-connector-edition"></a>使用雲端連接器版進行線上部署
 
-商務用 Skype Cloud Connector Edition混合式方案，包含一組封裝的虛擬機器 (虛擬機器) 內部部署 PSTN 連接。 在虛擬化環境中商務用 Skype Server最小拓撲結構，您就能透過現有的內部部署 PSTN 語音基礎結構，使用有線電話和行動電話來傳送和接聽電話。
+商務用 Skype Cloud Connector Edition混合式方案，包含一組封裝虛擬機器 (虛擬機器) 內部部署 PSTN 連接。 透過在虛擬商務用 Skype Server部署最小拓撲結構，您就能透過現有的內部部署 PSTN 語音基礎結構，使用有線電話和行動電話來傳送和接聽電話。
   
 如果您決定部署 Azure ExpressRoute 和雲端連接器版本，我們建議您在每個洲的主要網站與最接近 [的 ExpressRoute](/azure/expressroute/expressroute-locations)對等位置之間，針對每個洲設定至少一個 Express Route 連接。 根據成本與效益，您可以選擇從未達網路績效目標的網站部署額外的 ExpressRoute 連接。
   
 如果您有內部部署部署Microsoft Teams，您必須遵循規劃[指南進行商務用 Skype Cloud Connector Edition。](../../SfbServer/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition.md) 具體來說，Access Edge 和 A/V Edge 服務應指派公用 IP 位址，並且可Microsoft 365或Office 365資料中心。
   
-在下列範例中，Contoso 是一家歐洲會計公司，在幾個主要的歐洲國家/地區與城市有業務。 當他們註冊 Microsoft Teams所有共同需求時，他們決定為各自擁有實際位置的每個國家/地區安裝一個雲端連接器，以繼續使用其 PSTN 基礎結構和已經存在的電信公司合約。 根據他們從所有網站和 Microsoft 網路 Edge 的測試，他們決定倫敦的單一 ExpressRoute 連接可協助符合 商務用 Skype 用戶端至 Microsoft 網路 Edge 的網路績效需求中所述的[Microsoft Teams](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)用戶端連接網路績效目標。
+在下列範例中，Contoso 是一家歐洲會計公司，在幾個主要的歐洲國家/地區與城市有業務。 當他們註冊 Microsoft Teams所有共同需求時，他們決定為各自擁有實體位置的每個國家/地區安裝一個雲端連接器，以繼續使用其 PSTN 基礎結構和已經存在的電信公司合約。 根據他們從所有網站和 Microsoft 網路 Edge 的測試，他們決定倫敦的單一 ExpressRoute 連接可協助符合 商務用 Skype 用戶端至 Microsoft 網路 Edge 的網路績效需求中所述[的 Microsoft Teams](media-quality-and-network-connectivity-performance.md#bkSfBClienttoEdge)用戶端連接網路績效目標。
   
 ![ExpressRoute Cloud Connector One。](../images/ebdc96e5-b22a-4bf2-b668-062460b4b890.png)
   

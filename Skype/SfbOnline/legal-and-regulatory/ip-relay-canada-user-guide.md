@@ -12,19 +12,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 如何使用加拿大的 IP 中繼帳戶。
-ms.openlocfilehash: ac3ac8b480f1759437fa74572544d85f17542e9288c925ebd07bfaea9a25e0de
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf8d63dddea1d26e6fcdf6ffd8701745d50d7385
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316509"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618259"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>加拿大 IP 轉送 - 使用者指南
 
@@ -38,7 +38,7 @@ Microsoft 的 IP 訊息轉遞服務描述：
 通話接受者接著會透過聊天會話與聽力受損或語音受損人員通訊，並視需要透過加拿大或美國任何地方的電話網絡與非受損人員聯繫。
 
 ## <a name="scenario-b"></a>案例 B
-如果非受損使用者想要與註冊的聽力受損或語音受損使用者交談，他們會撥打 Microsoft 提供的免付費電話號碼。
+如果非受損使用者想要與註冊的聽力受損或語音受損使用者交談，他們會撥打 Microsoft 提供的免付費號碼。
 
 通話接受者接著會透過聊天與聽力受損或語音受損者通訊，並來回通訊。
 
@@ -75,7 +75,7 @@ https://aka.ms/IPRelay
 IP 訊息轉送接線員會與 911 聯絡、確認您的位址，然後與各種緊急中心進行翻譯，直到不再需要他/她，且已分派適當的部門到您的位置。
 
 > [!WARNING]
-> 請勿測試這項服務，因為即使您指出只是測試，也會連上並可能派送適當的機構，而且您可能會向緊急機構收取誤派費用。
+> 請不要測試這項服務，因為即使您指出這只是測試，也會連上並可能派送適當的機構，而且您可能會向緊急機構收取誤派費用。
 
 #### <a name="customer-support"></a>客戶支援：
 請于 222-1733 specialprojects@northern911.com 或 (705) 特殊專案。 [](mailto:specialprojects@northern911.com)

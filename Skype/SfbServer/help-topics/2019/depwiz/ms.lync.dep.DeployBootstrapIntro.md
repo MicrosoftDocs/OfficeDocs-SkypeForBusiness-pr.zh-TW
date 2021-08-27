@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e87b2255-3a00-4c74-b3d0-e0c3da702e3a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您準備安裝及啟動或停用並卸載商務用 Skype Server 元件。 將執行的進程是由發佈至中央管理存放區之定義的目前設定所定義。 若要順利完成工作，您必須以本機系統管理員群組成員的身分登入，而且至少必須能夠讀取 Active Directory 網域服務。
-ms.openlocfilehash: fcf2052fa7de5b1cd5718f5d77b8ea64f29ff9efe0c2aba698dda8c3ccbaf5b6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 296fafb194d77ec8707e6d3344ec4f8c64925951
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291941"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604182"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-intro"></a>安裝或移除商務用 Skype Server 元件 (簡介)
  

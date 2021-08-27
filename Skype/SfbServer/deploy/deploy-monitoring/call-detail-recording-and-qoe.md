@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: 摘要：瞭解如何在商務用 Skype Server 中設定 CDR 和 QoE。
-ms.openlocfilehash: 7c7cd1efefb2cfc52e6cf40d3b78cbc87774b40db4e4d2b012e79d1f657994cd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5e04ac3fcf269ba9520e874e123f165f2fd4269a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304365"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604232"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>設定商務用 Skype Server 中的詳細通話記錄及經驗品質設定
  
@@ -37,8 +37,8 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
   
 |**屬性**|**描述**|**預設值**|
 |:-----|:-----|:-----|
-|EnableCDR  <br/> |表示是否啟用 CDR。若為 True，則會收集所有 CDR 記錄並寫入監控資料庫。  <br/> |對  <br/> |
-|EnablePurging  <br/> |表示是否要從資料庫定期刪除 CDR 記錄。若為 True，則會在過了 KeepCallDetailForDays (適用於 CDR 記錄) 和 KeepErrorReportForDays (適用於 CDR 錯誤) 屬性指定的期間之後刪除記錄。若為 False，則會無限期保留 CDR 記錄。  <br/> |對  <br/> |
+|EnableCDR  <br/> |表示是否啟用 CDR。若為 True，則會收集所有 CDR 記錄並寫入監控資料庫。  <br/> |True  <br/> |
+|EnablePurging  <br/> |表示是否要從資料庫定期刪除 CDR 記錄。若為 True，則會在過了 KeepCallDetailForDays (適用於 CDR 記錄) 和 KeepErrorReportForDays (適用於 CDR 錯誤) 屬性指定的期間之後刪除記錄。若為 False，則會無限期保留 CDR 記錄。  <br/> |True  <br/> |
 |KeepCallDetailForDays  <br/> |表示在資料庫保留 CDR 記錄的天數；任何超過指定天數的記錄都將自動刪除。但是，只有在啟用清除功能時，才會發生此情況。  <br/> 您可以將 KeepCallDetailForDays 設為 1 到 2562 天 (大約 7 年) 之間的任何整數值。  <br/> |60 天  <br/> |
 |KeepErrorReportForDays  <br/> |表示保留 CDR 錯誤報告的天數；任何超過指定天數的報告都將自動刪除。 CDR 錯誤報表是由用戶端應用程式（例如商務用 Skype Server）上傳的診斷報告。  <br/> 您可以將此屬性設為 1 到 2562 天之間的任何整數值。  <br/> |60 天  <br/> |
    
@@ -46,8 +46,8 @@ Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
   
 |**屬性**|**描述**|**預設值**|
 |:-----|:-----|:-----|
-|EnableQoE  <br/> |表示是否啟用 QoE 監控。若為 True，則會收集所有 QoE 記錄並寫入監控資料庫。  <br/> |對  <br/> |
-|EnablePurging  <br/> |表示是否要從資料庫定期刪除 QoE 記錄。若為 True，則會在過了 KeepQoEDataForDays 屬性指定的期間之後刪除記錄。若為 False，則會無限期保留 QoE 記錄。  <br/> |對  <br/> |
+|EnableQoE  <br/> |表示是否啟用 QoE 監控。若為 True，則會收集所有 QoE 記錄並寫入監控資料庫。  <br/> |True  <br/> |
+|EnablePurging  <br/> |表示是否要從資料庫定期刪除 QoE 記錄。若為 True，則會在過了 KeepQoEDataForDays 屬性指定的期間之後刪除記錄。若為 False，則會無限期保留 QoE 記錄。  <br/> |True  <br/> |
 |KeepQoEDataForDays  <br/> |表示在資料庫保留 QoE 記錄的天數；任何超過指定天數的記錄都將自動刪除。但是，只有在啟用清除功能時，才會發生此情況。  <br/> 您可以將 KeepCallDetailForDays 設為 1 到 2562 天之間的任何整數值。  <br/> |60 天  <br/> |
    
 如果您需要修改這些全域設定，可以使用 Set-CsCdrConfiguration 和 Set-CsQoEConfiguration Cmdlet 執行這項操作。 例如，此命令 (從商務用 Skype Server 管理命令介面內執行) 停用全域範圍內的 CDR 監控;這是透過將 EnableCDR 屬性設定為 False ($False) 進行的：

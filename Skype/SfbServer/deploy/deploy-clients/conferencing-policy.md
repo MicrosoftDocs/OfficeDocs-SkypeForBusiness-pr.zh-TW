@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: 閱讀此主題以瞭解如何為 Skype 的會議室系統帳戶指派會議原則。
-ms.openlocfilehash: 7f9d1e349563e20d29736d33900b4afce99f39c10b9222b23d291f5a9fa417b7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 202440953aedaa54ac69a7bd4549bf7dcbd8d865
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306015"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618199"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype 會議室系統帳戶的會議原則
  
@@ -27,7 +27,7 @@ ms.locfileid: "54306015"
 
 指派給 Skype 房間系統帳戶的會議原則必須具有某些特性。 在大部分情況下，Skype 的會議室系統用戶端加入排程的會議，因此會議召集人的會議原則會影響會議。 不過，在商務用 Skype Server 中，某些功能取決於參與者的設定。 例如，如果參與者的原則允許最大的影片解析度為1080p，即使召集人的原則不允許，參與者還是會在會議中體驗這項較高解析度的視頻功能。 下表說明為組織中 Skype 會議室系統帳戶設定會議原則時，應注意的一些設定。 
   
-|功能  <br/> |值  <br/> |Comment  <br/> |
+|功能  <br/> |值  <br/> |留言  <br/> |
 |:-----|:-----|:-----|
 |AllowIPAudio  <br/> |TRUE  <br/> |Skype 房間系統音訊必須為 true  <br/> |
 |AllowIPVideo  <br/> |TRUE  <br/> |若要在 [立即開會] 中運作的 Skype 會議室系統音訊 () Skype 會議室系統中的特定白板會話，則必須是 true。  <br/> |
@@ -53,7 +53,7 @@ ms.locfileid: "54306015"
 |EnableP2PVideo  <br/> |TRUE  <br/> |讓 Skype 的會議室系統用戶端參與對等的視頻會話  <br/> |
 |AllowLargeMeetings  <br/> |假  <br/> |N/A  <br/> |
 |EnableDataCollaboration  <br/> |TRUE  <br/> |影響 Skype 會議室系統中的 [立即開會] (特定) 白板會話  <br/> |
-|MaxVideoConferenceResolution  <br/> |Vga  <br/> |商務用 Skype Server 忽略，Skype 會議室系統會使用 HD1080  <br/> |
+|MaxVideoConferenceResolution  <br/> |VGA  <br/> |商務用 Skype Server 忽略，Skype 會議室系統會使用 HD1080  <br/> |
 |MaxMeetingSize  <br/> |250  <br/> |影響 Skype 會議室系統中的 [立即開會] (特定) 白板會話  <br/> |
 |AudioBitRateKb  <br/> |200  <br/> |請參閱表格結尾的記事\*  <br/> |
 |VideoBitRateKb  <br/> |5000  <br/> |這是允許的輸出影片位元速率上限。 Skype在此位元速率) 使用 RoundTable 時，會議室系統可以隨同 pano (傳送 1 1080 資料流程。 \*  <br/> |

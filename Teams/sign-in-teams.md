@@ -10,19 +10,19 @@ search.appverid: MET150
 ms.reviewer: anwara
 description: 了解新式驗證如何運作、如何切換帳戶，以及如何疑難排解新式驗證。包含如何在登入時告訴 Teams 忽略預先填入的使用者名稱 (UPN)。
 ms.custom: seo-marvel-apr2020
-localization_priority: Priority
+ms.localizationpriority: high
 ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8f77e1050e90821f8d99996022b4c97042a5f63
-ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
+ms.openlocfilehash: 4f259b77e5d572adde2dcaea1eb4ffb0555ae36c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483130"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577827"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>登入 Microsoft Teams
 

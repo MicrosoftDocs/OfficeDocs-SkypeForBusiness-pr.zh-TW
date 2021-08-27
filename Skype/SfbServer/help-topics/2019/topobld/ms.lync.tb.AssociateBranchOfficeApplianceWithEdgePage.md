@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 如果您已部署 Edge Server，且必須提供供外部使用的媒體服務，請選擇下拉式清單中選取將與 Survivable Branch 裝置或 Survivable Branch 伺服器關聯的 Edge Server 或集區。 按 [下一步] 繼續。
-ms.openlocfilehash: eaaebf18bcee74dc822df4972df5d63cfb3d3954684765e1a365b555092b5be4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2082e7bed462ab1c527d0ffce3190c79d70085be
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309832"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584137"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>建立 Branch Office Appliance 與 Edge 的關聯
  

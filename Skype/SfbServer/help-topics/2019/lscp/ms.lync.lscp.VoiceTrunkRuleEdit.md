@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 8d1712f0348e03017fcac2e6c6eda20b9896047d08807fd193f02d1974e2fa95
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ed09668e64e86097ac8df20e8bc094982c94cc00
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291467"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597497"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>轉譯規則：建立新的或編輯現有規則
 

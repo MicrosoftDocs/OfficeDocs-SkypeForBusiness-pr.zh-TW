@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 通話駐留應用程式的遷移包含在舊版安裝中上傳的任何自訂音樂暫止檔案中布建商務用 Skype Server 2019 集區、還原服務等級設定，以及 retargeting 所有通話駐留軌道至商務用 Skype Server 2019 集區。 如果已在集區中設定自訂的已等候音樂檔案，則需要將這些檔案複製到新的商務用 Skype Server 2019 集區。 此外，建議您將所有通話駐留自訂的待進行音樂檔案，備份至另一個目的地，以保留針對通話保留所上傳之任何自訂待等候音樂檔案的個別備份副本。 通話駐留應用程式的自訂等候音樂檔案會儲存在集區的檔案存放區中。 若要將音訊檔從集區檔案存放區複製到商務用 Skype Server 2019 檔案存放區，請使用具有下列參數的 Xcopy 命令：
-ms.openlocfilehash: f83e1095361ddd272a35bf9100171c0d06caf003dfae84f19c01b2aa53de7977
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b8d2c5a898ca9ce4c2c1e8be4b9cbf3e7355a8cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312321"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597537"
 ---
 # <a name="migrate-call-park-application-settings"></a>移轉通話駐留應用程式設定
 

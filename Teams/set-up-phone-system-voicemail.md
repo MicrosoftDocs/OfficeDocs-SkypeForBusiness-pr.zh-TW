@@ -1,7 +1,7 @@
 ---
 title: 設定 [雲端語音信箱]
-author: dstrome
-ms.author: dstrome
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: wasseemh, phans
 ms.topic: article
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '瞭解如何為使用者雲端語音信箱帳戶。 '
-ms.openlocfilehash: eb1d3d054cf1109ddb9ba048c69dc3dda665aa1e8e0d3e2b1d72926835389a39
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 477bc16de7953033bafb0b32d0ac3d2eac74f90a
+ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316699"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58548298"
 ---
 # <a name="set-up-cloud-voicemail"></a>設定 [雲端語音信箱]
 
@@ -39,20 +39,17 @@ ms.locfileid: "54316699"
 > [!NOTE]
 > 當代理人代表委派者接聽來電時，雲端語音信箱。 使用者可以接收未接來電的通知。
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail-for-online-phone-system-users"></a>雲端環境：設定適用于雲端語音信箱使用者電話系統設定
+## <a name="cloud-voicemail-for-teams-users"></a>雲端語音信箱使用者Teams
 
-針對 Online 電話系統使用者，雲端語音信箱指派授權給使用者之後，系統會自動為使用者設定 **電話系統** 並設定。 
+針對Teams，系統會自動雲端語音信箱設定和設定使用者。 請注意，電話系統不需要授權雲端語音信箱。 
 
-> [!NOTE]
-> 針對 Online 商務用 Skype 電話系統內部部署提供電話號碼的使用者，您可能需要使用[Set-CsUser -HostedVoicemail](/powershell/module/skype/set-csuser?view=skype-ps)$True。 
+## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>為信箱雲端語音信箱設定Exchange Server使用者
 
-## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>設定雲端語音信箱信箱Exchange Server使用者
-
-下列資訊說明如何雲端語音信箱線上的使用者使用電話系統但信箱位於Exchange Server。 
+下列資訊說明如何雲端語音信箱線上的使用者使用電話系統他們的信箱位於Exchange Server。 
   
 1. 語音信箱訊息會透過透過 Exchange 路由的 SMTP 傳送到使用者的信箱Exchange Online Protection。 若要順利傳遞這些郵件，請確定已正確Exchange伺服器與伺服器之間的連接器Exchange連接器Exchange Online Protection;[使用連接器設定郵件Flow。](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 
 
-2. 若要啟用語音信箱功能，例如自訂 商務用 Skype 用戶端中的問候語和視覺語音信箱，必須透過 Microsoft 365 web Services 從 Microsoft 365 或 Office 365 連接到 Exchange Exchange 伺服器信箱。 若要啟用此連接，您必須設定 Exchange 與 Exchange Online 組織之間設定[OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)驗證中所述的新 Exchange 的致法驗證通訊協定，或執行 Exchange 2013 CU5 或更大的 Exchange 混合式精靈。 此外，您必須在 商務用 Skype Online 和 Exchange 伺服器之間設定整合和小Exchange在 商務用 Skype Online 和[Exchange Server 之間設定整合和 OAuth。](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) 
+2. 若要啟用語音信箱功能，例如自訂 商務用 Skype 用戶端中的問候語和視覺語音信箱，必須透過 Microsoft 365 web Services 從 Microsoft 365 或 Office 365 連接到 Exchange Exchange 伺服器信箱。 若要啟用此連接，您必須設定 Exchange 與 Exchange Online 組織之間設定[OAuth](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)驗證中所述的新 Exchange 的致法驗證通訊協定，或執行 Exchange 2013 CU5 或更大的 Exchange 混合式精靈。 此外，您必須在 商務用 Skype Online 和 Exchange 伺服器之間設定整合和小Exchange在 商務用 Skype Online 和[Exchange Server。](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) 
 
 ## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>設定雲端語音信箱使用者商務用 Skype Server設定
 
@@ -60,16 +57,16 @@ ms.locfileid: "54316699"
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>在貴組織中啟用受保護的語音信箱
 
-當某人為貴組織的使用者留下語音信箱訊息時，語音信箱會以電子郵件訊息附件形式傳送到使用者的信箱。 您可以使用郵件流程規則來申請郵件加密，以防止這些語音信箱訊息轉寄給其他收件者。 當您啟用受保護的語音信箱時，使用者可以在 Android 或 iOS 版 Outlook、Outlook 網頁版 或 Outlook 中撥打語音信箱來聆聽受保護的語音信箱訊息。 受保護的語音信箱訊息無法于 商務用 Skype 或 Microsoft Teams。
+當某人為貴組織的使用者留下語音信箱訊息時，語音信箱會以電子郵件訊息附件形式傳送到使用者的信箱。 您可以使用郵件流程規則來申請郵件加密，以防止這些語音信箱訊息轉寄給其他收件者。 當您啟用受保護的語音信箱時，使用者可以在 android 或 iOS 版 Outlook、Outlook 網頁版 或 Outlook 中撥打語音信箱來聆聽受保護的語音信箱訊息。 受保護的語音信箱訊息無法商務用 Skype Microsoft Teams。
 
 有關郵件加密的資訊，請參閱 [電子郵件加密](/microsoft-365/compliance/email-encryption?view=o365-worldwide)。
 
 若要設定受保護的語音信箱，請執行下列操作：
 
 1. 使用 https://admin.microsoft.com 具有全域系統管理員許可權的帳戶前往並登錄。
-2. 選取 **顯示全部**，然後前往系統管理  >  **中心Exchange。**
+2. 選取 **顯示全部**，然後前往系統 **管理**  >  **中心Exchange。**
 3. 在系統管理Exchange，選取 **郵件流程**  >  **規則**。
-4. 選取 **+** **新增**，然後選取 Office 365 郵件加密 **郵件的適用和許可權保護**。
+4. 選取 **+** **新增**，然後選取 **Office 365 郵件加密郵件的許可權保護**。
 5. 提供新郵件流程規則的名稱，然後在下列的下列條件中選取郵件屬性 ：包括  >    >  **語音信箱的郵件類型**。 選取 **確定**。
 6. 在 **執行下列操作下**，選取 Office 365 郵件加密郵件的適用許可權保護，然後選取選取 **其中一個**。 在 **RMS 範本下**，選取 **不要轉出**。 選取 **確定** ，然後 **儲存**。
     > [!NOTE]
@@ -88,7 +85,7 @@ ms.locfileid: "54316699"
 
 我們有訓練資訊和文章，可協助使用者成功使用語音信箱商務用 Skype語音信箱。 指向下列文章：
 
-- 檢查[商務用 Skype](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)和選項：本文說明如何在 商務用 Skype 中聆聽語音信箱、變更語音信箱問候語、變更語音信箱設定，以及以不同速度聆聽語音信箱。
+- [檢查商務用 Skype](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)和選項：本文說明如何在 商務用 Skype 中聆聽語音信箱、變更語音信箱問候語、變更語音信箱設定，以及以不同速度聆聽語音信箱。
 
 - [商務用 Skype 2016 年訓練](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 

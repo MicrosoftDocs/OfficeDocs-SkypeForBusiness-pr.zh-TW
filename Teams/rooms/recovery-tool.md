@@ -11,22 +11,22 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 本文討論如何使用復原工具Microsoft Teams 會議室，您將使用此工具將過期的系統帶至支援的狀態。
-ms.openlocfilehash: 65cb123de9284d4b65b461390a325ce413d069f381b2c075a137cedfb0121aca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b5f61ef3ebfc1ef08a1db6667159ff97c2cdd78
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280688"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597577"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用 Microsoft Teams 會議室修復工具
 
-本文討論如何使用復原工具Microsoft Teams 會議室，您將使用此工具將過期的系統帶至支援的狀態。 當主機主機顯示「系統Microsoft Teams 會議室已過期」錯誤，或在執行按鈕重設出廠還原之前，應該會使用[此工具](./rooms-operations.md#microsoft-teams-rooms-reset-factory-restore)。
+本文討論如何使用復原工具Microsoft Teams 會議室，您將使用此工具將過期的系統帶至支援的狀態。 當主機顯示「系統Microsoft Teams 會議室已過期」錯誤，或在執行按鈕重設出廠還原之前，應該會使用[此工具](./rooms-operations.md#microsoft-teams-rooms-reset-factory-restore)。
 
 ## <a name="prerequisites"></a>必要條件
 
-下載最新的[Microsoft Teams 會議室套件](https://go.microsoft.com/fwlink/?linkid=851168)，然後解壓縮到 USB 記憶棒或可供裝置Microsoft Teams 會議室的網路共用。
+下載最新的[Microsoft Teams 會議室套件](https://go.microsoft.com/fwlink/?linkid=851168)，然後解壓縮到 USB 記憶棒或可供裝置Microsoft Teams 會議室網路共用。
 
 > [!NOTE]
 > 從 MSI 解壓縮檔案有許多方法可以完成。 任何能解壓縮所有檔案並保留其目錄結構的機制都是可接受的。 其中一個方法就是使用命令，其中代表 Microsoft Teams 會議室安裝套件的完整路徑，並代表要解壓縮檔案之資料夾的完整 `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` 路徑。
@@ -45,7 +45,7 @@ ms.locfileid: "54280688"
       3. 在 **重設此電腦** 底下，選取 **開始**
       4. 選取 **移除所有專案**，然後選取下 **一步** 和 **重設**
         > [!WARNING]
-        > 如果在Microsoft Teams 會議室重設程式期間選取了保留我的檔案 **-** 移除應用程式和設定，但保留您的個人檔案選項，Windows無法使用。 請勿選取此選項。
+        > 如果Microsoft Teams 會議室重設程式期間，選取了保留我的檔案 **-** 移除應用程式與設定，但保留您的個人檔案選項，Windows無法使用。 請勿選取此選項。
       5. 系統會重新開機多次。 重設完成後，系統會位於 OOBE Windows畫面的 「開箱 (」) 畫面。
 
 

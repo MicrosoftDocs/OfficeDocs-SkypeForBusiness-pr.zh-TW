@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 48bf9dad-bc51-4996-9417-8f15c1d476ad
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 [移動使用者] 對話方塊中，您可以選取來源和目的地集區，將使用者帳戶從一個集區移到部署中的另一個集區。
-ms.openlocfilehash: db8a60ade945cdb412ad012d14ddc2b1e7565e810cebeaabbd797354ff5f7a7e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65c4ca9498511aa64b2795a87c4bd0e7fd66aef5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324342"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577997"
 ---
 # <a name="move-all-users"></a>移動所有使用者
 

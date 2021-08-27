@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 在遷移至 Microsoft 商務用 Skype Server 2019 之後，您必須完成一些工作以設定商務用 Skype Server 2019，以與 System Center Operations Manager 搭配使用。
-ms.openlocfilehash: 477fbd3c405328ffac4aa70a722120d375e95b295bf5a23d19882248d1ece54e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 756e83ad0a8c964954f43518dc8603802d45c40d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279611"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590657"
 ---
 # <a name="configure-scom-monitoring"></a>設定 SCOM 監控
 

@@ -10,18 +10,18 @@ audience: admin
 description: 使用此 PowerShell 腳本來匯出貴組織的主管及其主管清單，以準備為每位主管建立一個團隊，並且將主管的直接人員當做小組成員。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 120ee0fe4b0211d929722685700b3bbdbc4df2231b0bf5c9e3f53c5d423c2f75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a25e743f1f8191db8323b29bf33c3fed75261fa1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345332"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58577817"
 ---
 # <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell 腳本範例 - 匯出管理員及其指示
 

@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 摘要：瞭解如何在 Windows Phone 上安裝及測試商務用 Skype。
-ms.openlocfilehash: bbb1947ac1982b54ab8cd2e0005cdf4c7aec62ff69e88f8f32df881616c7d11f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f912c1f5bd3c0bd5f8c3cc553c64ee3b7850f63e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338861"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618149"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>安裝及測試 Windows Phone 版商務用 Skype
  

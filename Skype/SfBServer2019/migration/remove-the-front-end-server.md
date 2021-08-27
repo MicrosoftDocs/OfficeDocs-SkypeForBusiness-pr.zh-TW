@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 本主題中所述的程式是專門用來引導您完成移除 Enterprise Edition 前端集區或 Standard Edition 前端伺服器的程式。 在遷移至商務用 Skype Server 2019 後，這是解除舊版環境的第一步。
-ms.openlocfilehash: 4a0240d185bfbc715a7d9b9f42bd15df04e81337642b4f5697083a6b5b8f02cd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a325855ea18055f9ab082062c46f445b95a59338
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300529"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597517"
 ---
 # <a name="remove-the-front-end-server"></a>移除前端伺服器
 

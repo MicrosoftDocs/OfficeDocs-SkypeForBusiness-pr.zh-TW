@@ -1,5 +1,5 @@
 ---
-title: 安全性和合規性概觀
+title: 安全性與合規性概觀
 author: laurawi
 ms.author: laurawi
 manager: laurawi
@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: anwara
 audience: admin
 description: 安全性與Microsoft Teams功能概觀，包括隱私權和加密、稽核與報告等。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25786377c85286820f7e1c475b6f37ff5e7b9174592b557d39b610d700ab7991
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 03a4192a753a834c6af99927370b2856ff4d817d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312641"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590767"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>安全性與合規性Microsoft Teams
 
@@ -34,25 +34,25 @@ ms.locfileid: "54312641"
 > 若要瞭解如何在 **COVID-19** 疫情期間，以最佳方式確保每個人在家工作時的安全性，請閱讀以下文章：
 >  - [安全性團隊支援在家工作最常見的 12 項工作](/microsoft-365/security/top-security-tasks-for-remote-work)
 >  - [使用 VPN 分割通道最佳化遠端使用者的 Microsoft 365 或 Office 365 連線能力](/Office365/Enterprise/office-365-vpn-split-tunnel)
->  - 更新日期：Teams[指南](teams-security-guide.md)
+>  - 更新日期：2020 年 4 月 2 日[：Teams安全指南](teams-security-guide.md)
 
 
-Microsoft Teams建在超大規模Microsoft 365 Office 365雲端上，提供客戶預期進位的安全性與合規性功能。 若要進一Microsoft 365或Office 365安全性規劃，安全性藍圖是一個很好的起點。 [](/microsoft-365/security/office-365-security/security-roadmap) 如要進一Microsoft 365或Office 365合規性規劃，您可以從安全性與合規性規劃[&開始](/microsoft-365/compliance/plan-for-security-and-compliance)。
+Microsoft Teams建在超大規模Microsoft 365 Office 365雲端上，提供客戶預期進位的安全性與合規性功能。 若要進一Microsoft 365或Office 365安全性規劃，安全性藍圖是一個很好的起點。 [](/microsoft-365/security/office-365-security/security-roadmap) 如要進一Microsoft 365或Office 365的合規性規劃，您可以從安全性與合規性&[開始](/microsoft-365/compliance/plan-for-security-and-compliance)。
 
 
 本文將提供有關特定安全性Teams合規性的進一步資訊。 千萬不要錯過以下有關安全性與合規性的 Microsoft 技術員影片：
 
-- Microsoft Teams IT 基本功能[： (](https://youtu.be/91lHNKVVvQ4) 12：42 分鐘) 
+- [Microsoft Teams IT 基本功能： (](https://youtu.be/91lHNKVVvQ4) 12：42) 
 - [Microsoft Teams](https://www.youtube.com/watch?v=Km4T4hMM__k) 10：54 分鐘 (安全性與合規性控制) 
 
 > [!IMPORTANT]
-> 做為客戶或Microsoft 365 Office 365，您擁有並控制您的資料。 除了提供您訂閱的服務外，Microsoft 不會將您的資料用於其他用途。 作為服務提供者，我們不會掃描您的電子郵件、檔或小組，以用於廣告或與服務不相關的用途。 Microsoft 沒有上傳內容的存取權限。 就像OneDrive中的SharePoint和Microsoft 365，客戶資料會保留在租使用者內。 您可以在 Microsoft 信任中心查看我們的信任和安全性 [相關資訊](https://microsoft.com/trustcenter)。 Teams Microsoft 信任中心遵循相同的指引和原則。
+> 做為Microsoft 365或Office 365的客戶，您擁有並控制您的資料。 除了提供您訂閱的服務外，Microsoft 不會將您的資料用於其他用途。 作為服務提供者，我們不會掃描您的電子郵件、檔或小組，以用於廣告或與服務不相關的用途。 Microsoft 沒有上傳內容的存取權限。 就像OneDrive中的SharePoint和Microsoft 365，客戶資料會保留在租使用者內。 您可以在 Microsoft 信任中心查看我們的信任和安全性 [相關資訊](https://microsoft.com/trustcenter)。 Teams Microsoft 信任中心遵循相同的指引和原則。
 
 ## <a name="security"></a>安全性
 
-Teams強制執行全小組和全組織的雙因素驗證、透過 Active Directory 單一登入，以及傳輸中和靜態資料加密。 檔案會儲存在SharePoint中，並受到加密SharePoint備份。 筆記會儲存在OneNote中，並受到加密OneNote備份。 資料OneNote儲存在小組或SharePoint中。 Wiki 定位停駐點也可以用來記錄筆記，其內容也會儲存在小組SharePoint網站。
+Teams強制執行全小組和全組織的雙因素驗證、透過 Active Directory 單一登入，以及傳輸中和靜態資料加密。 檔案會儲存在SharePoint中，並受到加密SharePoint備份。 筆記會儲存在OneNote中，並受到加密OneNote備份。 OneNote資料會儲存在小組SharePoint網站。 Wiki 定位停駐點也可以用來記錄筆記，其內容也會儲存在小組SharePoint網站。
 
-請閱讀[身分識別模型](identify-models-authentication.md)和驗證，以深入瞭解驗證Teams，以及新式驗證如何運作[](sign-in-teams.md)，尤其有助於新式驗證。
+請閱讀[身分識別模型](identify-models-authentication.md)和驗證，以深入瞭解驗證Teams，以及新式驗證如何運作[](sign-in-teams.md)，尤其是新式驗證。
 
 由於Teams與 SharePoint、OneNote、Exchange 等專案共同運作，因此您應該能輕鬆管理 Microsoft 365 或 Office 365 安全性。 若要深入瞭解，請參閱如何設定您的Microsoft 365[或Office 365組織，以提升安全性](/office365/securitycompliance/tenant-wide-setup-for-increased-security)。
 
@@ -61,21 +61,21 @@ Teams強制執行全小組和全組織的雙因素驗證、透過 Active Directo
 
 ### <a name="advanced-threat-protection-atp"></a>ATP (進) 
 
-進 (ATP) 適用于 Microsoft Teams，以及 SharePoint 和 OneDrive，這些應用程式與 Teams 整合進行內容管理。 ATP 可讓您判斷這些應用程式中的內容是否具有惡意性質，並封鎖此內容以禁止使用者存取。
+進 (ATP) 適用于 Microsoft Teams，以及 SharePoint 和 OneDrive 整合至 Teams 內容管理的應用程式。 ATP 可讓您判斷這些應用程式中的內容是否具有惡意性質，並封鎖此內容以禁止使用者存取。
 
-偵測後，受影響的內容管理方式，會以您選取的設定Microsoft 365或Office 365。 我們強烈建議您在配置 ATP 時考慮所有應用程式，而若要進一步閱讀，SharePoint、OneDrive 和 Microsoft Teams 的[ATP](/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)將會提供如何開始使用的詳細資訊。
+偵測後，受影響的內容管理方式，會由您選取的設定Microsoft 365或Office 365。 我們強烈建議您在配置 ATP 時考慮所有應用程式，而若要進一步閱讀[，SharePoint、OneDrive](/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams)和 Microsoft Teams 的 ATP 將會提供如何開始使用的詳細資訊。
 
 ### <a name="safe-links"></a>保管庫連結
 
-雖然目前 Microsoft Teams 中無法提供進一步威脅防護 (ATP) 安全連結，但現在透過我們的技術採用計畫 ([](/microsoft-365/security/office-365-security/atp-safe-links-for-teams) TAP) 提供公開預覽，而尚未設定一般可用性的發行日期，我們將在該時間到達時更新本文。 同時，如需連結或連結Microsoft 365 Office 365 保管庫，請參閱[ATP 保管庫連結](/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。 ATP 保管庫 ATP 方案 1 和 ATP 方案[2](/microsoft-365/security/office-365-security/office-365-atp)提供連結。
+雖然目前 Microsoft Teams 中無法提供進一步威脅防護 (ATP) 安全連結，但現在透過我們的技術採用計畫 (TAP [](/microsoft-365/security/office-365-security/atp-safe-links-for-teams)) 提供公開預覽，而尚未設定一般可用性的發行日期，我們將在該時間到達時更新本文。 同時，如需連結或連結Microsoft 365 Office 365 保管庫，請參閱[ATP 保管庫連結](/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection)。 ATP 保管庫 ATP 方案 1 和 ATP 方案[2](/microsoft-365/security/office-365-security/office-365-atp)提供連結。
 
 ### <a name="safe-attachments"></a>保管庫附件
 
-保管庫附件是一項專為檢查及偵測惡意附件來增強使用者安全性的功能。 全域或安全性系統管理員會建立處理[](/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies)這些可疑惡意附件的策略，以防止這些可疑的惡意附件被送出給使用者、按一下附件及採取行動。 保管庫附件保護適用于 SharePoint、OneDrive 和 Microsoft Teams，Microsoft 365 或 Office 365 進威脅防護方案 1 和[2](/microsoft-365/security/office-365-security/office-365-atp)則具備此功能。 進一保管庫附件，以及如何在 Microsoft Defender for 保管庫 附件中協助[保護Office 365。](/microsoft-365/security/office-365-security/atp-safe-attachments)
+保管庫附件是一項設計來檢查及偵測惡意附件，以增強使用者安全性的功能。 全域或安全性系統管理員會建立處理[](/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies)這些可疑惡意附件的策略，以防止這些可疑的惡意附件送出給使用者、按一下附件及採取行動。 保管庫附件保護適用于 SharePoint、OneDrive 和 Microsoft Teams，Microsoft 365 或 Office 365 進威脅防護方案 1 和[2](/microsoft-365/security/office-365-security/office-365-atp)則具備此功能。 進一保管庫附件，以及如何在 Microsoft Defender for 保管庫 附件中協助[保護您的組織](/microsoft-365/security/office-365-security/atp-safe-attachments)Office 365。
 
 ### <a name="secure-score"></a>安全分數
 
-Microsoft Secure Score 是組織安全性狀態度量單位，數位越高，表示已採取更多改進動作。 您可以在安全中心找到[Microsoft 365。](https://security.microsoft.com/securescore) 遵循安全分數建議可保護貴組織不受威脅。 組織可以在安全Microsoft 365集中式儀表板監控及處理其Microsoft 365、應用程式和裝置的安全性。 Microsoft Teams安全分數的建議，並鼓勵系統管理員監控他們在平臺上的安全性。
+Microsoft Secure Score 是組織安全性狀態的度量單位，較高的數位表示已採取更多改進動作。 您可以在安全中心[找到Microsoft 365。](https://security.microsoft.com/securescore) 遵循安全分數建議可保護貴組織不受威脅。 組織可以從中央Microsoft 365儀表板監控及處理其Microsoft 365、應用程式和裝置的安全性。 Microsoft Teams安全分數的建議，並鼓勵系統管理員監控他們在平臺上的安全性。
 
 安全分數可協助組織：
 - 報告組織安全性狀態目前的狀態。
@@ -83,11 +83,11 @@ Microsoft Secure Score 是組織安全性狀態度量單位，數位越高，表
 - 比較基準並建立 KPI (關鍵) 。
 
 
-### <a name="how-conditional-access-policies-work-for-teams"></a>條件式 Access 政策如何適用于Teams
+### <a name="how-conditional-access-policies-work-for-teams"></a>條件式 Access 政策如何Teams
 
-Microsoft Teams大量仰賴 Exchange Online、SharePoint 和 商務用 Skype Online 的核心生產力案例，例如會議、日曆、交互操作聊天和檔案共用。 針對這些雲端應用程式所設定的條件式存取原則Microsoft Teams使用者直接在任何用戶端上Microsoft Teams時，會套用此原則。
+Microsoft Teams大量仰賴 Exchange Online、SharePoint 和 商務用 Skype Online 的核心生產力案例，例如會議、日曆、交互操作聊天和檔案共用。 針對這些雲端應用程式所設定的條件式存取原則Microsoft Teams使用者直接在任何用戶端上Microsoft Teams時套用。
 
-Microsoft Teams條件式存取策略中，系統以雲端應用程式Azure Active Directory支援。 為雲端應用程式設定的條件式存取原則Microsoft Teams套用至Microsoft Teams使用者登錄時所設定的條件式存取原則。 不過，如果沒有其他 App 上的正確Exchange Online和SharePoint，使用者可能仍然能夠直接存取這些資源。 有關在 Azure 入口網站中設定條件式存取策略Azure Active Directory[快速入門](/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)。
+Microsoft Teams條件式存取策略中，系統以雲端應用程式Azure Active Directory支援。 為雲端應用程式設定的條件式Microsoft Teams原則會套用至Microsoft Teams使用者登錄時。 不過，如果沒有其他 App 上的正確Exchange Online SharePoint，使用者可能仍然能夠直接存取這些資源。 有關在 Azure 入口網站中設定條件式存取策略Azure Active Directory[快速入門](/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)。
 
 Microsoft Teams和 Mac 版桌面Windows支援新式驗證。 新式驗證會根據 ADAL Azure Active Directory驗證庫 (ADAL) 跨Microsoft Office用戶端應用程式。
 
@@ -99,33 +99,33 @@ Teams 提供豐富的資訊，可協助您處理合規性領域，包括頻道�
 
 ### <a name="information-barriers"></a>資訊障礙
 
-資訊障礙是由 Teams 系統管理員所套用，以執行一些操作，例如禁止人員或群組彼此通訊 (當他們不需要進行此作業時 (或法規理由禁止他們這麼做) ，它也可讓您設定與) 下方涵蓋的尋找和 eDiscovery (等相關政策。 這些策略可能會影響 1：1 聊天、群組聊天或小組層級的使用者。 資訊隔層功能可在公用雲端使用，自 2021 年 1 月開始已推出至 GCC 雲端。
+資訊障礙是由 Teams 系統管理員所套用，以執行一些操作，例如禁止人員或群組彼此通訊 (而不需要他們這麼做，或是法規上的理由禁止他們這麼做) ，它也可讓您設定與) 下方涵蓋的尋找和 eDiscovery (等相關政策。 這些策略可能會影響 1：1 聊天、群組聊天或小組層級的使用者。 資訊隔層功能可在公用雲端使用，自 2021 年 1 月開始，這項功能已推出至 GCC雲端。
 
-若要進一步閱讀本主題，請前往 中的資訊[Microsoft Teams。](information-barriers-in-teams.md)
+若要進一步閱讀本主題，請參閱本文中的資訊[Microsoft Teams。](information-barriers-in-teams.md)
 
 ### <a name="communication-compliance"></a>通訊合規性
 
-Microsoft 365中的通訊合規性可讓您將使用者新加入範圍內政策，這些策略可配置為檢查 Microsoft Teams 通訊中的攻擊性語言、敏感性資訊，以及與內部及法規標準相關的資訊。 您可以掃描公用和私人聊天Teams頻道、個別聊天和附件中的聊天通訊和相關附件，協助將貴組織的通訊風險降到最低。 若要進一步瞭解如何設定策略，協助偵測、捕獲不當通訊並採取行動Teams，請參閱在[Microsoft 365。](/microsoft-365/compliance/communication-compliance)
+Microsoft 365中的通訊合規性可讓您將使用者新加入範圍內政策，這些策略可針對 Microsoft Teams 通訊檢查攻擊性語言、敏感性資訊，以及與內部及法規標準相關的資訊。 您可以掃描公用和私人聊天Teams頻道、個別聊天和附件中的聊天通訊和相關附件，協助將貴組織的通訊風險降到最低。 若要進一步瞭解如何設定策略，協助偵測、捕獲不當通訊並採取行動Teams，請參閱在[Microsoft 365。](/microsoft-365/compliance/communication-compliance)
 
 ### <a name="retention-policies"></a>保留原則
 
-Microsoft Teams 中的保留政策可讓您同時保留貴組織為法規、法律、商務或其他原因保留的重要資料，以及移除與保留不相關的內容和通訊。 您也可以使用保留原則將資料保留一段時間，然後將其刪除。 如需要詳細資訊，請參閱在 Microsoft Teams 中[保留Microsoft Teams。](retention-policies.md)
+Microsoft Teams 中的保留政策可讓您同時保留貴組織為法規、法律、商務或其他原因保留的重要資料，以及移除與保留不相關的內容和通訊。 您也可以使用保留原則將資料保留一段時間，然後將其刪除。 進一步的資訊，請參閱[中的保留Microsoft Teams。](retention-policies.md)
 
 ## <a name="sensitivity-labels"></a>敏感度標籤
 
-使用 [敏感度標籤](/microsoft-365/compliance/sensitivity-labels) ，以保護及規範在團隊內共同合作期間所建立之機密組織內容的存取權。 例如，請用標籤來設定 (或) 的隱私權、控制來賓存取和外部共用，以及管理來自未管理裝置的存取權限。 進一步的資訊，請參閱中的敏感度[Microsoft Teams。](sensitivity-labels.md)
+使用 [敏感度標籤](/microsoft-365/compliance/sensitivity-labels) ，以保護及規範在團隊內共同合作期間所建立之機密組織內容的存取權。 例如，請貼上標籤，設定 (或) 團隊的隱私權、控制來賓存取和外部共用，以及管理來自未管理裝置的存取權限。 進一步的資訊，請參閱中的敏感度[Microsoft Teams。](sensitivity-labels.md)
 
 ### <a name="data-loss-prevention-dlp"></a>DLP (資料外) 
 
- () 中的 Microsoft Teams資料外) DLP，以及 Microsoft 365 或 Office 365 的更大 DLP 案例，都圍繞著保護機密檔和資料的商務準備狀態。 無論您對郵件或檔中的敏感性資訊有疑慮，DLP 政策都能協助確保您的使用者不會與錯誤人員共用此機密資料。
+ ( (DLP) 中的 DLP Microsoft Teams，以及 Microsoft 365 或 Office 365 的更大 DLP 案例，圍繞保護機密檔和資料的商務準備。 無論您對郵件或檔中的敏感性資訊有疑慮，DLP 政策都能協助確保您的使用者不會與錯誤人員共用此機密資料。
 
-如需在 Teams 中防止資料外Teams，請參閱[DLP Microsoft Teams。](/microsoft-365/compliance/dlp-microsoft-teams) 適用于 O365 DLP 疑慮的一篇好文章是 [資料外遺失防護概觀](/microsoft-365/compliance/data-loss-prevention-policies)。
+如需有關資料遺失防護功能Teams，請參閱[DLP Microsoft Teams。](/microsoft-365/compliance/dlp-microsoft-teams) 適用于 O365 DLP 疑慮的一篇好文章是 [資料外遺失防護概觀](/microsoft-365/compliance/data-loss-prevention-policies)。
 
 ### <a name="ediscovery"></a>電子文件探索
 
-電子探索或電子檔探索是識別、收集及產生電子儲存的資訊 (ESI) 以回應訴訟或調查之生產要求的電子層面。 功能包括案例管理、保留、搜尋、分析和匯出Teams資料。 這包括聊天、傳訊和檔案、會議與通話摘要。 針對Teams通話，會建立會議和通話中事件發生的摘要，並可在 eDiscovery 中取得。
+電子探索或 eDiscovery 是識別、收集和產生電子儲存資訊 (ESI) 以回應訴訟或調查之生產要求的電子層面。 功能包括案例管理、保留、搜尋、分析和匯出Teams資料。 這包括聊天、傳訊和檔案、會議與通話摘要。 針對Teams通話，會建立會議和通話中事件發生的摘要，並可在 eDiscovery 中取得。
 
-如需如何在安全性中心與合規性中心執行 Microsoft 365 或 Office 365 電子檔探索，以及針對 Teams 內容執行合規性內容搜尋的詳細資訊，請前往下列連結：
+如需如何在安全性中心與合規性中心Microsoft 365或Office 365電子檔探索，以及針對 Teams 內容執行合規性內容搜尋的詳細資訊，請前往下列連結：
 
  - [電子文件探索](/microsoft-365/compliance/manage-legal-investigations)
 
@@ -133,7 +133,7 @@ Microsoft Teams 中的保留政策可讓您同時保留貴組織為法規、法�
 
 我們有一Teams特定文章，以進一瞭解更多資訊，例如來賓對來賓聊天的[eDiscovery](eDiscovery-investigation.md)。
 
-客戶可以運用 eDiscovery 或[Advanced eDiscovery](/microsoft-365/compliance/office-365-advanced-ediscovery)需求。 下表概述兩者之間的差異：
+客戶可以運用電子資料探索或[Advanced eDiscovery](/microsoft-365/compliance/office-365-advanced-ediscovery)需求。 下表概述兩者之間的差異：
 
 |&nbsp; |電子文件探索  |Advanced eDiscovery  |
 |---------|---------|---------|
@@ -148,39 +148,39 @@ Microsoft Teams 中的保留政策可讓您同時保留貴組織為法規、法�
 
 ### <a name="legal-hold"></a>法律保留
 
-在訴訟期間，您可能需要保留與使用者 (監護) 或小組相關聯的所有資料，以保存為不可變數據，以便做為案件證據。 您可以將使用者置於使用者信箱 (，) 將小組置於法律保留狀態。 對於團隊法律保留，團隊的信箱可以置於下列保留狀態：
+在訴訟期間，您可能需要保留與使用者 (監護者) 或小組相關聯的所有資料，以保留為不可變數據，以便做為案件證據。 您可以將使用者置於使用者信箱 (或) 保留小組，以執行此作業。 對於團隊法律保留，團隊的信箱可以置於下列保留狀態：
 
-- In-Place透過 (查詢或篩選的內容，將信箱或網站集合的子集保留) 保留，或
-- 訴訟 (將保留整個信箱或網站集合) 。
+- In-Place透過 () 查詢或篩選的內容保留信箱或網站集合的子集，或
+- 訴訟保留 (整個信箱或網站集合會保留) 。
 
 在這兩種情況下，一旦設定保留狀態，可確保即使使用者刪除或編輯群組信箱中的頻道訊息，該內容的不可變複本仍維持不變，並透過 eDiscovery 搜尋提供。 法律保留通常適用于電子檔探索案例。
 
-請參閱[保留原則](/microsoft-365/compliance/retention-policies)概觀，以進一Microsoft 365 合規性中心。 如需Teams保留狀態的特定資訊，我們也會Microsoft Teams保留使用者或小組，以[](legal-hold.md)深入瞭解。
+請參閱[保留原則](/microsoft-365/compliance/retention-policies)概觀，以進一瞭解保留和保留Microsoft 365 合規性中心。 如需Teams保留狀態的特定資訊，我們也會Microsoft Teams保留使用者或小組，以[](legal-hold.md)深入瞭解。
 
 ### <a name="compliance-content-search"></a>合規性內容搜尋
 
-內容搜尋可用來透過豐富的篩選功能Teams所有資料。 產生的資料可以匯出至特定容器，以用於合規性和訴訟支援。 您可以執行此作業，也可以不使用 eDiscovery 案例。 這可讓合規性系統管理員收集Teams所有使用者的資料，並檢查並匯出資料以便進一步處理。 請參閱內容[搜尋](/microsoft-365/compliance/content-search)以深入瞭解如何執行合規性內容搜尋，以搜尋 Microsoft Teams 和其他Microsoft 365或Office 365內容Microsoft 365 合規性中心。
+內容搜尋可用來透過豐富的篩選功能Teams所有資料。 產生的資料可以匯出至特定容器，以用於合規性和訴訟支援。 您可以執行此作業，也可以不使用 eDiscovery 案例。 這可讓合規性系統管理員收集Teams所有使用者的資料，並檢查並匯出資料以便進一步處理。 請參閱內容[搜尋](/microsoft-365/compliance/content-search)以深入瞭解如何執行合規性內容搜尋Microsoft Teams搜尋Microsoft 365或Office 365內容Microsoft 365 合規性中心。
 
 > [!TIP]
-> 使用內容搜尋，您可以向下篩選Microsoft Teams內容，例如聊天和頻道訊息、會議和通話 ，如有需要。
+> 使用內容搜尋，您可以篩選Microsoft Teams內容，例如聊天和頻道訊息、會議和通話 ，如有需要。
 
-如果您想要進一步Teams內容搜尋的特定資訊，請于 中查看內容[Microsoft Teams。](content-search.md)
+如果您想要進一步Teams內容搜尋的特定資訊，請參閱在 Microsoft Teams 中[搜尋](content-search.md)內容。
 
 ### <a name="auditing-and-reporting"></a>稽核與報告
 
-稽核記錄搜尋功能會直接插入 Microsoft 365 合規性中心，讓您能設定警示，以及報告稽核事件，允許匯出特定工作負載或一般事件集，供系統管理員使用，並跨無限稽核時程表進行調查。 您可以在系統內設定所有稽核記錄資料的Microsoft 365 合規性中心，並篩選及匯出這些資料以進一步分析。 請參閱搜尋[稽核](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)記錄以深入瞭解如何執行稽核記錄搜尋Microsoft 365或Office 365。 若要深入瞭解在 Microsoft Teams中搜尋Microsoft 365 合規性中心事件，我們也會在 Teams 中開啟稽核功能，Teams來查看。 [](audit-log-events.md)
+稽核記錄搜尋功能會直接插入 Microsoft 365 合規性中心，讓您能設定通知，以及報告稽核事件，允許匯出特定工作負載或一般事件集，供系統管理員使用，並跨無限稽核時程表進行調查。 您可以在系統內設定所有稽核記錄資料的Microsoft 365 合規性中心，並篩選及匯出這些資料以進一步分析。 請參閱搜尋[稽核](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)記錄以深入瞭解如何執行稽核記錄搜尋Microsoft 365或Office 365。 若要深入瞭解在 Microsoft Teams中搜尋Microsoft 365 合規性中心事件，我們也會在 Teams 中開啟稽核功能[，Teams](audit-log-events.md)來查看。
 
 ## <a name="customer-key"></a>客戶金鑰
 
 Microsoft 365提供額外一層加密功能，並針對內容提供服務加密。 使用您提供的金鑰，Customer Key 會加密多個不同類型的Microsoft Teams。 在應用程式層級使用 Customer Key，Customer Key 會Teams儲存在 SharePoint Online 中的檔案。 詳細資訊，請參閱使用 [Customer Key 進行服務加密](/microsoft-365/compliance/customer-key-overview)。 
 
-在租使用者層級使用客戶金鑰時，Customer Key 會加密：
+在租使用者層級使用客戶金鑰，客戶金鑰會加密：
 - Teams聊天訊息 (1：1 聊天、群組聊天、會議聊天和頻道交談) 
-- Teams媒體訊息 (圖像、程式碼段、影片和 Wiki 影像) 
+- Teams媒體訊息 (影像、程式碼段、影片和 Wiki 影像) 
 - Teams儲存在儲存空間中的通話Teams錄製
 - Teams聊天通知
 - Teams聊天建議Cortana
-- Teams狀態訊息 的詳細資訊，請參閱租使用者層級的[Microsoft 365](/microsoft-365/compliance/customer-key-tenant-level)客戶金鑰概觀，並閱讀涵蓋 Microsoft Teams 客戶金鑰支援的 Microsoft Teams 部落格[。](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893) 有關租使用者層級Microsoft 資訊保護客戶金鑰的新版本相關資訊，請參閱宣告新的Microsoft 資訊保護功能，以知道並保護您的[機密資料](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)。
+- Teams狀態訊息 的詳細資訊，請參閱租使用者層級的[Microsoft 365](/microsoft-365/compliance/customer-key-tenant-level)客戶金鑰概觀，並閱讀涵蓋 Microsoft Teams 部落格的 Microsoft Teams 部落格，該部落格涵蓋目前公開預覽版中的 Microsoft Teams 客戶金鑰[支援。](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893) 有關租使用者層級Microsoft 資訊保護客戶金鑰的新版本相關資訊，請參閱宣告新的Microsoft 資訊保護功能，以知道[並保護您的機密資料](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)。
 
 ## <a name="privacy"></a>隱私權
 
@@ -192,7 +192,7 @@ Microsoft 365提供額外一層加密功能，並針對內容提供服務加密�
 
 ## <a name="information-protection-architecture"></a>資訊保護架構
 
-下圖指出檔案和郵件Teams資料Exchange SharePoint和Teams的接收流程。
+下圖指出檔案和郵件Teams資料Exchange SharePoint的Teams流程。
 
 > [!div class="mx-imgBorder"]
 > ![將資料Teams到Exchange SharePoint](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
@@ -221,11 +221,11 @@ Teams 中的資料位於與 Microsoft 365 或 Office 365 組織關聯的地理�
 如果您需要查看租使用者的資料是哪個區域，請前往 [Microsoft 365 系統管理中心設定](https://portal.office.com/adminportal/home)  >    >  **設定檔**。 向下捲動到 **資料位置**。
 
 > [!div class="mx-imgBorder"]
-> ![系統管理中心資料位置資料表的螢幕擷取畫面Teams資料位置資料表](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+> ![系統管理中心中包含 Teams資料位置資料表的螢幕擷取畫面](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 
 ## <a name="compliance-standards"></a>合規性標準
 
-Teams使用下列標準[：ISO 27001、ISO](/microsoft-365/compliance/offering-iso-27001) [27018、SSAE18](/microsoft-365/compliance/offering-iso-27018) [SOC 1 和 SOC 2、HIPAA](/microsoft-365/compliance/offering-soc)和歐盟示範條款[ (EUMC) 。](/microsoft-365/compliance/offering-eu-model-clauses) [](/microsoft-365/compliance/offering-hipaa-hitech) 在 Microsoft 合規性架構中，Microsoft 將Microsoft 365與Office 365應用程式與服務分成四個類別。 每個類別是由特定合規性承諾所定義，這些承諾必須Microsoft 365或Office 365服務或相關的 Microsoft 服務，以列在該類別中。
+Teams使用下列標準[：ISO 27001、ISO](/microsoft-365/compliance/offering-iso-27001) [27018、SSAE18](/microsoft-365/compliance/offering-iso-27018) [SOC 1 和 SOC 2、HIPAA](/microsoft-365/compliance/offering-soc)和歐盟示範條款[ (EUMC) 。](/microsoft-365/compliance/offering-eu-model-clauses) [](/microsoft-365/compliance/offering-hipaa-hitech) 在 Microsoft 合規性架構中，Microsoft Microsoft 365 Office 365應用程式與服務分成四個類別。 每個類別是由特定合規性承諾所定義，這些承諾必須Microsoft 365服務Office 365或相關的 Microsoft 服務，以列在該類別中。
 
 詳細資料請參閱資料保護 [資源](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=b7d05b86-c69b-41ba-8245-21161b9febf9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_Compliance_Guides)。 Teams也支援雲端安全聯盟合規性。
 

@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: 瞭解如何啟用或停用商務用 Skype Server 中的離線立即訊息 (IM) 。
-ms.openlocfilehash: ba9045f0e161b4056142fc69528a4f1e7c01a11637c1bff42ec7cc14fe7610a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 31c27a84965e3b75515c206f8dc984b2eaa178eb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294860"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578037"
 ---
 # <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>啟用或停用商務用 Skype Server 中的離線立即訊息 (IM) 
  

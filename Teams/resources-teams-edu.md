@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: olbesede
 description: 教育系統管理員可以瞭解遠端Microsoft Teams中可用的資源。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0960d48ab493b36067b8640cf1da3d0659865314
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 9ff0509cf38851ac38e20a13cc6c1016bba1b738
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233228"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597637"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>適用於 Microsoft Teams 教育版管理員的資源
 
@@ -46,7 +46,7 @@ ms.locfileid: "58233228"
 
 ### <a name="digital-assets"></a>數位資產
 
-請務必查看數位工具套件[指南](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true)，以最大化您的Teams啟動！ 
+請務必查看數位工具套件[指南，](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-toolkit-guidance.zip?raw=true)以最大化您的Teams啟動！ 
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
@@ -57,9 +57,9 @@ ms.locfileid: "58233228"
 ## <a name="call-to-action"></a>行動信號
 
 - 請流覽[](https://www.microsoft.com/en-us/education/products/teams/default.aspx) Teams 教育版 頁面以觀看訓練、影片和互動式示範
-- 在 Teams 中開啟[Microsoft 365 系統管理中心 (](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)以系統管理員Office 365登錄) 
+- 在系統Teams開啟Microsoft 365 系統管理中心 (以系統管理員[](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)Office 365) 
 - 下載Teams用戶端[：在所有Teams上取得](https://teams.microsoft.com/downloads)
-- 在教育Office 365中心深入瞭解[教育課程](https://support.office.com/education)
+- 在教育Office 365中心深入瞭解[教育用教育課程](https://support.office.com/education)
 
 ## <a name="additional-resources"></a>其他資源
 
@@ -67,6 +67,6 @@ ms.locfileid: "58233228"
 - 使用我們的 Tech Community[部落格Community最新](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
 - [Teams PowerShell 概觀](teams-powershell-overview.md)
 - [傳送建議](https://aka.ms/eduuservoice)
-- [請與支援人員聯繫](https://aka.ms/o365portal)
+- [與支援人員聯繫](https://aka.ms/o365portal)
 - [詢問Teams社群](https://aka.ms/msteamscommunity)
 - [尋找更多教育資源](https://education.microsoft.com/)

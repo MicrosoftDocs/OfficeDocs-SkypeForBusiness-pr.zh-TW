@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceTrunkSelCallingRule
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: '[選取呼叫號碼轉譯規則] 對話方塊會顯示針對您的部署設定的轉譯規則。 如需轉譯規則的詳細資訊，請參閱下列主題：'
-ms.openlocfilehash: 44559b33519c38ba85946b604bc880f9779ab8b182ae3e8694f20b01a4e0aa69
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29abcdfb2f707c607035b71c7861f72969b1acfd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338341"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625335"
 ---
 # <a name="select-calling-number-rules-translation"></a>選取來電號碼規則轉譯
 

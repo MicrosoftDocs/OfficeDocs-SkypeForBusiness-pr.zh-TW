@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: 瞭解您可以在預設系統訊息商務用 Skype語音信箱問候語中設定的語言。
-ms.openlocfilehash: f8e16be05b5c6001be8a9c37b6e0e23dac0525a16938c8c378450439f57aee88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解您可以在預設系統訊息商務用 Skype語音信箱問候語中設定哪些語言。
+ms.openlocfilehash: 78c3bd30da636bb9a38d413275e2d5b1ae59f0c5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348996"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590797"
 ---
 # <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams語音信箱問候語和訊息的語言
 
@@ -34,7 +34,7 @@ Teams語音信箱問候語支援下列語言。
   
 ||||||
 |:-------------|:------------------|:--------------------------------------------|:-------------------------------------|:-----------------------------|
-|**語言**  |**國家/地區** |**使用者可以在電子郵件中查看嗎？** |**使用者來電時可以使用嗎？** |**可以使用文字翻譯嗎？**  |
+|**語言**  |**國家/地區** |**使用者可以在電子郵件中查看嗎？** |**使用者來電時可以使用嗎？** |**可進行文字翻譯嗎？**  |
 |阿拉伯文        |埃及              |是                                          |是                                   |否  |
 |阿拉伯文        |沙烏地阿拉伯       |是，但會 (阿拉伯) 文字。             |否                                    |否  |
 |保加利亞文     |保加利亞           |是                                          |是                                   |否  |
@@ -83,7 +83,7 @@ Teams語音信箱問候語支援下列語言。
 |斯洛伐克文        |斯洛伐克           |是                                          |是                                   |否  |
 |斯洛維尼亞文     |斯洛維尼亞           |是                                          |是                                   |否  |
 |西班牙文       |西班牙              |是                                          |是                                   |是 |
-|西班牙文       |墨西哥             |是                                          |是                                   |是，但會 (西班牙) 西班牙文。   |
+|西班牙文       |墨西哥             |是                                          |是                                   |是，但會 (西班牙文) 西班牙文。   |
 |瑞典文       |瑞典             |是                                          |是                                   |否  |
 |泰語          |泰國           |是                                          |是                                   |否  |
 |土耳其文       |土耳其             |是                                          |是                                   |否  |
