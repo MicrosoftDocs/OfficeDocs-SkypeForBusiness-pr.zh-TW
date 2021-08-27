@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 您可以使用商務用 Skype Server 管理命令介面命令來設定及監視備份服務。
-ms.openlocfilehash: 27d73088fbf4214777d9eb010e0074073517a35220cdd5137ee794addda0c983
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df0e7d985e9941e4af41a4cec5456774e5a3a4dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336673"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612292"
 ---
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>在商務用 Skype Server 中設定及監視備份服務
 
@@ -27,21 +27,15 @@ ms.locfileid: "54336673"
 
 ## <a name="to-see-the-backup-service-configuration"></a>若要查看備份服務設定
 
-執行下列 Cmdlet：
-
-    Get-CsBackupServiceConfiguration
+執行下列 Cmdlet：<br/><br/>Get-CsBackupServiceConfiguration
 
 SyncInterval 的預設值是兩分鐘。
 
 ## <a name="to-set-the-backup-service-sync-interval"></a>設定備份服務同步處理間隔
 
-執行下列 Cmdlet：
+執行下列 Cmdlet：<br/><br/>Set-CsBackupServiceConfiguration SyncInterval 間隔
 
-    Set-CsBackupServiceConfiguration -SyncInterval interval
-
-例如，下列會將間隔設定為3分鐘。
-
-    Set-CsBackupServiceConfiguration -SyncInterval 00:03:00
+例如，下列會將間隔設定為3分鐘。<br/><br/>Set-CsBackupServiceConfiguration-SyncInterval 00:03:00
 
 
 > [!IMPORTANT]  
@@ -49,24 +43,18 @@ SyncInterval 的預設值是兩分鐘。
 
 ## <a name="to-get-the-backup-service-status-for-a-particular-pool"></a>取得特定集區的備份服務狀態
 
-執行下列 Cmdlet：
-
-    Get-CsBackupServiceStatus -PoolFqdn <pool-FQDN>
+執行下列 Cmdlet：<br/><br/>Get-CsBackupServiceStatus PoolFqdn \<pool-FQDN>
 
 > [!NOTE]  
 > 備份服務同步處理狀態是從 (P1) 集區 unidirectionally 至其備份組區 (P2) 所定義。 從 P1 到 P2 的同步處理狀態可能不同于從 P2 到 P1 的狀態。 若為 P1，當 P1 中所做的所有變更都會在同步處理間隔內完全複寫至 P2 時，備份服務處於「穩定」狀態。 如果沒有其他要從 P1 同步處理的變更，則為 "final" 狀態。 這兩種狀態都會指出執行 Cmdlet 時備份服務的快照。 這並不表示傳回的狀態會在此後保留。 特別是，當執行 Cmdlet 後，如果 P1 不會產生任何變更，則 "final" 狀態會繼續保留。 當 p1 成為 **CsPoolfailover** 執行邏輯的一部分時，p1 被置於唯讀模式後，就會發生失敗的情況。
 
 ## <a name="to-get-information-about-the-backup-relationship-for-a-particular-pool"></a>若要取得特定集區之備份關係的相關資訊
 
-執行下列 Cmdlet：
-
-    Get-CsPoolBackupRelationship -PoolFQDN <poolFQDN>
+執行下列 Cmdlet：<br/><br/>Get-CsPoolBackupRelationship PoolFQDN \<poolFQDN>
 
 ## <a name="to-force-a-backup-service-sync"></a>強制執行備份服務同步處理
 
-執行下列 Cmdlet：
-
-    Invoke-CsBackupServiceSync -PoolFqdn <poolFqdn> [-BackupModule  {All|PresenceFocus|DataConf|CMSMaster}]
+執行下列 Cmdlet：<br/><br/>Invoke-CsBackupServiceSync PoolFqdn \<poolFqdn> [-BackupModule {All |PresenceFocus |DataConf |CMSMaster}]
 
 ## <a name="restore-conference-contents-using-the-backup-service"></a>使用備份服務還原會議內容 
 
@@ -74,12 +62,8 @@ SyncInterval 的預設值是兩分鐘。
 
 如果整個集區失敗，而必須將使用者容錯移轉至備份集區，也必須執行此工作。當這些使用者容錯移轉回原始集區時，也必須使用此程序，將會議內容複製回原始集區。
 
-假設 Pool1 與 Pool2 配對，而 Pool1 中的會議資料遺失。 您可以使用下列 Cmdlet 來調用備份服務，以還原內容：
+假設 Pool1 與 Pool2 配對，而 Pool1 中的會議資料遺失。 您可以使用下列 Cmdlet 來調用備份服務，以還原內容：<br/><br/>Invoke-CsBackupServiceSync PoolFqdn \<Pool2 FQDN> BackupModule ConfServices。 DataConf
 
-    Invoke-CsBackupServiceSync -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
-
-視會議內容的大小而定，還原會議內容可能需要一些時間。可以使用下列 Cmdlet 檢查處理狀態：
-
-    Get-CsBackupServiceStatus -PoolFqdn <Pool2 FQDN> -BackupModule ConfServices.DataConf
+視會議內容的大小而定，還原會議內容可能需要一些時間。可以使用下列 Cmdlet 檢查處理狀態：<br/><br/>Get-CsBackupServiceStatus PoolFqdn \<Pool2 FQDN> BackupModule ConfServices。 DataConf
 
 當此 Cmdlet 傳回資料會議模組的「穩定狀態」值時，處理就已完成。

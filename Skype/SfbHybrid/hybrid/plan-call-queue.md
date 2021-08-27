@@ -9,15 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: 使用雲端自動語音應答與商務用 Skype Server 2019 的概覽。
-ms.openlocfilehash: fa1807c272c8d9bba8ae406a87dc55589560d870da5b59fc093c2d9d1a2933e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1dffa2e0b92f9888fc9b24323c7fa638468c8b1b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300509"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578167"
 ---
 # <a name="plan-cloud-call-queues"></a>規劃雲端通話佇列
 

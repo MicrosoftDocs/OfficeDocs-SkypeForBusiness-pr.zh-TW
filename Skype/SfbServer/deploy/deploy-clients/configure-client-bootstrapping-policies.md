@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: 摘要：如何管理群組原則。
-ms.openlocfilehash: 8bf4d1eb07f2386d07c3cc9e4d529b06a392631ba5cea2d66cf02cc7742ed1f5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3fccd578b18686ea6c9ce1a5686042f5c25c4f54
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294940"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578147"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>設定用戶端啟動載入原則
  
@@ -51,8 +51,8 @@ ms.locfileid: "54294940"
 
 |**Precedence**|**設定的位置或方法**|
 |:-----|:-----|
-|1  <br/> |商務用 Skype Server 頻帶內布建  <br/> |
-|第  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|1   <br/> |商務用 Skype Server 頻帶內布建  <br/> |
+|2   <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |3   <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |4   <br/> |商務用 Skype 中的 [選項] 對話方塊  <br/> |
    

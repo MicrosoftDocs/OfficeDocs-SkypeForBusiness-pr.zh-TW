@@ -7,7 +7,7 @@ audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 f1.keywords:
@@ -17,27 +17,27 @@ appliesto:
 ms.reviewer: lavenkat
 description: 使用Microsoft Teams Microsoft Graph內建的預先定義範本，以快速且輕鬆地為中小型企業建立團隊。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 971b7b0d3be009938a05b7b8fd38105cc273d6158309c69c30cb7c22c51d3fce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80ebae188ce6b6f00186a9e97a25eb4c006930da
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323935"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625945"
 ---
-# <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Teams Microsoft Graph中小企業版中內建的範本
+# <a name="teams-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>Teams Microsoft Graph中小企業版內建的範本
 
 Microsoft Teams 範本提供預先定義的設定、頻道和預先安裝應用程式範本，讓您快速且輕鬆地建立團隊。
 
 對於中小型企業而言，範本可能特別強大，因為它們可協助系統管理員快速Teams整個組織。 範本也可以協助引導使用者，並開始使用Teams功能。 如果您負責規劃、部署及管理整個組織的多個團隊，本文適合您閱讀。
 
-我們目前提供三個第一方 SMB 範本，您可以針對各種情況使用。 所有範本都會建立 *私人* Teams。 一旦建立Teams準備好要推出至貴組織，您可以設定隱私權為 *組織* 範圍或公用 *，並* 在適當時設定。 如需深入了解一般小組範本，請參閱 [Teams 範本入門](get-started-with-teams-templates.md)。
+我們目前提供三個第一方 SMB 範本，您可以針對各種情況使用。 所有範本都會建立 *私人* Teams。 一旦建立Teams準備好要推出至貴組織後，您可以設定隱私權為 *組織* 範圍或公用 *，並* 在適當時設定。 如需深入了解一般小組範本，請參閱 [Teams 範本入門](get-started-with-teams-templates.md)。
 
 ## <a name="company-wide-template"></a>Company-Wide範本
-Company-Wide範本適用于與整個公司相關的通訊和共同合作。 您可以使用一般頻道來發佈全公司的公告、產業新聞或主管文章。 人力資源頻道是整合所有人力資源相關活動的地方，例如職位、新員工入職、訓練及發展。 Fun Stuff 頻道提供所有隨機且有趣的文章的社交平臺。
+此Company-Wide範本適用于與整個公司相關的通訊和共同合作。 您可以使用一般頻道來發佈全公司的公告、產業新聞或主管文章。 人力資源頻道是整合所有人力資源相關活動的地方，例如職位、新員工入職、訓練及發展。 Fun Stuff 頻道提供所有隨機且有趣的文章的社交平臺。
 
 | 範本類型  | baseTemplateId | 此基本範本提供的屬性 |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
-| SMB - <br>全公司 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| 頻道 <ul><li>一般\*</li><li>人力資源\*</li><li>有趣的專案\*</li></ul><br> 應用程式<ul><li>公司入口網站 (固定到人力資源頻道連結)  </li> </UL><br>團隊屬性 <ul><li>團隊可見度設定為私人</li></ul> |
+| SMB - <br>全公司 | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| 頻道 <ul><li>一般\*</li><li>人力資源\*</li><li>有趣的專案\*</li></ul><br> 應用程式<ul><li>公司入口網站 (釘到人力資源頻道連結)  </li> </UL><br>團隊屬性 <ul><li>團隊可見度設定為私人</li></ul> |
 
 *自動最愛的頻道 
 
@@ -57,7 +57,7 @@ Content-Type: application/json
 
 ## <a name="executive-team-template"></a>主管小組範本
 
-執行小組範本是建立一個團隊，讓公司高主管在年度優先順序、財務預算、策略計畫及頂級客戶等公司計畫上溝通及共同合作的理想範本。 此範本隨附私人 *頻道* ，可邀請特定主題的選取使用者。
+執行小組範本是建立一個團隊，讓公司高主管在年度優先順序、財務預算、策略計畫及主要客戶等公司計畫上溝通和共同合作的理想範本。 此範本隨附私人 *頻道* ，可邀請特定主題的選取使用者。
 
 | 範本類型  | baseTemplateId | 此基本範本提供的屬性 |
 | :------------------ | :-------------- | :----------------------------------------------------- | 

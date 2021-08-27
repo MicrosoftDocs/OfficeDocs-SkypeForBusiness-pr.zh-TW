@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.OfficeWebAppsServerSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以編輯已設定 Office Web Apps Server 的屬性。 您可以編輯下列內容：
-ms.openlocfilehash: d5e791e8f405941c706c20e855b63a47113c68ca33c4233ccacbc7a35d445c90
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 907892ba2644bd85a559c1afbce1e01c9de9742f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320785"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585187"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>編輯 Office Web Apps Server 設定
 

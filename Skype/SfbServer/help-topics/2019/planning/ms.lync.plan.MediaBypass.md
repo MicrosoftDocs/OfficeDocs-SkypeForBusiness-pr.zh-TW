@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.MediaBypass
 - ms.lync.plan.MediaBypass
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 媒體旁路是指當呼叫的轉送伺服器的信號流經轉送伺服器時，從媒體路徑移除轉送伺服器。 如需詳細資訊，請參閱 Plan for media 旁路 in 商務用 Skype。
-ms.openlocfilehash: 39f8e76222d13e698fcb518aa40bb891a3c00d0617b7798169a18b83b4f372f3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b6cbfb86eae9a62cd8937be59630d9a88bc672e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294690"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605322"
 ---
 # <a name="media-bypass-planning-tool"></a>媒體旁路 (規劃工具) 
  

@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在系統管理中心管理小組範本
-ms.openlocfilehash: a8fa2833f00c1d943bfa1b935492a80bd98444d1780eff1382b0952781aa471e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8acff1891c112ef9db8fbc9d652949786a524550
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310402"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578187"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>在系統管理中心管理小組範本
 
@@ -54,15 +54,15 @@ ms.locfileid: "54310402"
 
     ![已選取的範本，並突顯隱藏](media/template-policies-2.png)
 
-    您可以在隱藏範本資料表中看到您選取要 **隱藏的範本。**
+    您可以在隱藏範本資料表中看到您選取要 **隱藏的** 範本。
 
 1. 若要取消隱藏特定範本，請卷起至隱藏 **範本** 資料表。
 
-2. 選取要取消隱藏的範本， **然後選取** 顯示 。
+2. 選取要取消隱藏的範本，然後選取 **顯示**。
 
    ![未隱藏的所選範本](media/template-policies-3.png)
 
-   選取的範本會顯示在可查看 **的範本資料** 表中。
+   選取的範本會顯示在可查看的 **範本資料** 表中。
 3. 選取 [儲存 **]**。
 
    您的新範本策略會顯示在範本 **策略清單中** 。
@@ -71,7 +71,7 @@ ms.locfileid: "54310402"
 
 指派給策略的使用者只能查看該策略內的可查看範本。
 
-1. 從 **範本策略** 中，選取一個策略，然後選取管理 **使用者**。
+1. 從 **範本政策** 中，選取一個策略，然後選取管理 **使用者**。
 
 2. 輸入要指派給此策略的使用者。
 
@@ -80,7 +80,7 @@ ms.locfileid: "54310402"
 3. 選取 **Apply**。
 
 > [!Note]
-> 您的新政策最多可能需要 24 小時，使用者才能生效。
+> 您的新政策最多可能需要 24 小時，才能對使用者生效。
 
 ## <a name="size-limits-for-template-policies"></a>範本策略的大小限制
 
@@ -138,7 +138,7 @@ ms.locfileid: "54310402"
 
 - [建立自訂小組範本](./create-a-team-template.md)
 
-- [從現有的小組建立範本](./create-template-from-existing-team.md)
+- [從現有小組建立範本](./create-template-from-existing-team.md)
 
 - [從現有的小組範本建立小組範本](./create-template-from-existing-template.md)
 

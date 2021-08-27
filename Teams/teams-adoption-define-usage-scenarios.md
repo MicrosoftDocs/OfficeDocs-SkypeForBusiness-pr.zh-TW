@@ -1,5 +1,5 @@
 ---
-title: 定義 Microsoft Teams
+title: 定義適用于您的Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何選擇最適合您採用之實驗階段適用的使用Teams案例。
 f1.keywords:
@@ -21,14 +21,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3578b855745bde964825e265e871a27e4dacc4246b17cfe27f2892d26d7ecea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 189ceea1b1b3450968610bef5034a97114b40085
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318257"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625915"
 ---
-# <a name="define-usage-scenarios-for-microsoft-teams"></a>定義 Microsoft Teams
+# <a name="define-usage-scenarios-for-microsoft-teams"></a>定義適用于您的Microsoft Teams
 
 請確定您瞭解商務專案 (，) 此階段將適用于您的執行範圍。 請看看這份範例案例清單，這些案例是早期採用者計畫最適合的候選項目。 您可以開始使用簡單的勝局，例如：
 
@@ -47,11 +47,11 @@ ms.locfileid: "54318257"
 
 ![每個案例Teams使用案例的圖例](media/teams-adoption-use-cases.png)
 
-將此案例現代化動作想像為累加的過程，讓事情以更基本的情況進行，以這個新的工作方式建立熱忱、熟悉度與可信度。 接著，移至更具有影響力的方面。 隨著對Microsoft Teams的更多影響向商務同事示範，他們中的更多人將會參與，而動力將會建立。 對於我們的許多客戶來說，一旦完成此程式之後，他們發現業務關係人瞭解同事如何從公司獲得Microsoft Teams。
+將此案例現代化動作想像為累加程式，讓事情以更基本的情況進行，以這個新的工作方式建立熱忱、熟悉度與可信度。 接著，移至更具有影響力的方面。 隨著對Microsoft Teams的更多影響向商務同事示範，他們中的更多人將會參與，而且會建立動力。 對於我們的許多客戶來說，一旦完成此程式之後，他們發現企業專案關係人瞭解同事如何從公司獲得Microsoft Teams。
 
 ## <a name="interview-business-stakeholders"></a>與業務關係人面談
 
-若要確認這些早期專案的選取範圍，我們建議您直接與您在此程式先前所識別的利害關係人開會。 此時，您的目標就是聆聽並瞭解其業務的其他資訊。 請考慮下列問題來推動交談：
+若要確認這些早期專案的選取範圍，我們建議您直接與您在此程式先前識別的利害關係人開會。 您此時的目標是聆聽並瞭解其業務的其他資訊。 請考慮下列問題來推動交談：
 
 - 組織與通訊和共同合作相關的一些挑戰或痛點是什麼？
 - 貴組織希望改善哪些領域？
@@ -70,6 +70,6 @@ ms.locfileid: "54318257"
 ![顯示案例影響與難度的圖例](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> 我們一直希望瞭解我們的客戶如何使用Teams創新方式使用。 在我們的駕駛#TeamsStories論壇中與我們 [分享您的建議](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)。 在 **文章#TeamsStories雜湊** 標記。 我們一直對貴組織Teams資訊感興趣。
+> 我們一直希望瞭解我們的客戶如何使用Teams創新的方式使用。 在我們的駕駛#TeamsStories論壇中與我們 [分享您的建議](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)。 在 **文章#TeamsStories雜湊** 標記。 我們一直對貴組織使用Teams感興趣。
 
-![代表下一個步驟的 ](media/teams-adoption-next-icon.png) 圖示：加入早期[採用者並收集意見。](teams-adoption-onboard-early-adopters.md)
+![代表下一個步驟的 ](media/teams-adoption-next-icon.png) 圖示下一步：[加入早期採用者並收集意見。](teams-adoption-onboard-early-adopters.md)

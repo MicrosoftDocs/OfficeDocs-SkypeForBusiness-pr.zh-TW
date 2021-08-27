@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解 GOV、EDU 和非營利組織計畫的附加元件授權和功能。 '
-ms.openlocfilehash: 1f3f8e1e545e3eb4bd0a4d39f0a339b529ddfdafce771e3878803d00abeada98
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4b8aa7dfe3e73693ef271aeb1d40ff06afed6717
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304545"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591987"
 ---
 # <a name="gov-edu-and-non-profit-organizations"></a>政府機關、教育界、非營利組織
 
@@ -41,4 +41,4 @@ ms.locfileid: "54304545"
 |Office 365 電話系統  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
 |Office 365通話方案  <br/> |是  <br/> |是  <br/> |是  <br/> |是  <br/> |
    
-請參閱這篇部落格文章[：Office 365](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)客戶現在可以使用進政府社群雲端功能。
+請參閱這篇部落格文章[：Office 365客戶](https://blogs.office.com/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/)現在可以使用進政府社群雲端功能。

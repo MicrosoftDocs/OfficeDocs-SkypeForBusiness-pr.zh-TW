@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsSelRegionLink
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 description: 使用 [地區連結] 對話方塊，尋找您環境中可用的地區連結。 若要使用現有的地區連結，請按一下清單中的地區連結，然後按一下 [確定]。
-ms.openlocfilehash: d493093e55ae1ce1c53061ae616c98459bc6e806c147eb8cca1157b407a39610
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1af8db1402d9fd54768f904024acb178faaa4094
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302697"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58578987"
 ---
 # <a name="select-a-region-link"></a>選取地區連結
  

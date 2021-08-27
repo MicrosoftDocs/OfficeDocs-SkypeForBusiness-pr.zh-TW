@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.ClientCapacity
 - ms.lync.plan.ClientCapacity
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 description: 商務用 Skype Server 2015 中的行動功能可支援行動裝置上商務用 Skype 功能。 如需詳細資訊，請參閱規劃行動性。
-ms.openlocfilehash: 36f3821de9f0a3866ab61cb85ab474630b88b3f86af5c7526f19b3eb434089cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aae3575abe2b1165846217783d8ffe89b6ffdce8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325080"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598787"
 ---
 # <a name="client-settings-planning-tool"></a>用戶端設定規劃工具
 

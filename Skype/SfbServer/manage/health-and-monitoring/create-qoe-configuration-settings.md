@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 64f05569-07c7-4f76-a96b-ea4125a510d5
 description: 摘要：瞭解商務用 Skype Server 的 (QoE) 設定的經驗品質。
-ms.openlocfilehash: 2f9c233b46588bd70566606f538451063802f5f3d35c4ffef59a8d0f7e6d85f9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 564ab88b349b578cf577893e4119e5e1ebf26fb1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305435"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585097"
 ---
 # <a name="create-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中建立經驗品質配置設定
  

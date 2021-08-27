@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddDirectorMonitoringPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 description: 您可以透過設定下列內容，來定義監視 SQL Server 存放區：
-ms.openlocfilehash: 02b388cde25cafee3ed10cbf17c01e0aa1dfbb0004d8093f27bd76000083e642
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8db72c50708e21cbdf378f9a7da7d78408ba8e85
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346669"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585137"
 ---
 # <a name="add-director-monitoring"></a>新增 Director 監視
  

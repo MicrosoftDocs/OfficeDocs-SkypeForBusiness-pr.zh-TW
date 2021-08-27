@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.UsersCountLimitationWarning
 description: '瞭解如何在線上系統管理員顯示商務用 Skype限制內工作。 '
-ms.openlocfilehash: d2a5903f2ce5fb5671123e7b8fca090826f39a69a8f98f5c628d0351a4b73bd9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e05a07bbf4cca57a8f5c983dedec159956250cc0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334465"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592077"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>商務用 Skype線上系統管理中心使用者頁面限制
 

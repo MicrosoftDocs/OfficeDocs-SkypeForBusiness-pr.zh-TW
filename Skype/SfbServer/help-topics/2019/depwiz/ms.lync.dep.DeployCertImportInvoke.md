@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在「執行命令 」頁面上，檢閱匯入憑證的摘要資訊。在下拉式清單中，選取匯入憑證記錄檔。確定在下拉式清單中，可以看到匯入憑證記錄檔。按一下 [檢視記錄檔]，檢閱憑證匯入的詳細資訊。當您檢閱完摘要和記錄檔時，請按一下 [完成]。
-ms.openlocfilehash: 80c121023a4a59ec8cece97a4aaedbc070b27a9170338a05b842409e061fa38f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b43f57d4737a874c838e3889aa68a36ce91668d0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325450"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626135"
 ---
 # <a name="import-certificate-invoke"></a>匯入憑證 (叫用)
  
