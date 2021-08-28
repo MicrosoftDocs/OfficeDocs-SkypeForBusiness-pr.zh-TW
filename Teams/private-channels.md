@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的私人頻道。
-ms.openlocfilehash: 1a39d3f13239cd97b90fdf247c62ec5d7da0598b
-ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
+ms.openlocfilehash: 30fafae99505c685a4042a4a79a6a30ff084d8f3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483120"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579613"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人頻道
 
@@ -74,13 +74,13 @@ Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空�
 
 |動作  |小組擁有者|小組成員|小組來賓|私人頻道擁有者|私人頻道成員|私人頻道來賓|
 |---------|---------|---------|---------|---------|---------|---------|
-|建立私人頻道|系統管理員控制|系統管理員和小組擁有者控制|否|不適用|不適用|N/A|
+|建立私人頻道|系統管理員控制|系統管理員和小組擁有者控制|否|不適用|N/A|N/A|
 |刪除私人頻道|是|否|否|是|否|否|
 |離開私人頻道|N/A|不適用|不適用|是，除非他們是最後一個擁有者|是|是|
-|編輯私人頻道|否|不適用|不適用|是|否|否|
+|編輯私人頻道|否|不適用|N/A|是|否|否|
 |還原已刪除的私人頻道|是|否|否|是|否|否|
-|新增成員|否|不適用|不適用|是|否|否|
-|編輯設定|否|不適用|不適用|是|否|否|
+|新增成員|否|不適用|N/A|是|否|否|
+|編輯設定|否|不適用|N/A|是|否|否|
 |管理索引標籤和應用程式|否|不適用|不適用|是，必須為小組安裝應用程式|頻道擁有者控制|否|
 
 ## <a name="manage-the-lifecycle-of-private-channels"></a>管理私人頻道的生命週期

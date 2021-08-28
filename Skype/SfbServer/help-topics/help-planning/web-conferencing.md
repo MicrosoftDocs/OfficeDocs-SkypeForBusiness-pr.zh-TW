@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.WebConferencing
 - ms.lync.plan.WebConferencing
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: 商務用 Skype Server 2015 web 會議包含檔共同作業、應用程式共用和桌面共用。
-ms.openlocfilehash: cdf85a0ef4f59f8b4773ce39e7bb5ffe35dc64c7
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: d298f13b788d3f154e2ebca0b33fb61797837eda
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232868"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628125"
 ---
 # <a name="skype-for-business-server-web-conferencing-planning-tool"></a>商務用 Skype ServerWeb 會議規劃工具
  

@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: 了解應用於各種需求 (例如財務、活動規劃和銷售等) 的不同團隊、頻道和應用程式。
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 190204ac352567458e1e19c5d06179950c1188be
-ms.sourcegitcommit: 3884bd3a849e92cde5980c3185d53bd4287fe764
+ms.openlocfilehash: b760d5fad3a694fd0dd41c34116d09297d25dd22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2021
-ms.locfileid: "58455948"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579577"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的團隊和頻道概覽
 

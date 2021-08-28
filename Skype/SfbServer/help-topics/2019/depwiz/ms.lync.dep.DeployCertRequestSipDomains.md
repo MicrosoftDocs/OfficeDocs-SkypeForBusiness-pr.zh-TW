@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在「主體別名 (SAN) 上的 SIP 網域設定」頁面上，請選取主要工作階段初始通訊協定 (SIP) 網域與其他任何 SIP 網域的核取方塊 (前提是您的基礎結構與部署符合列示的條件)。
-ms.openlocfilehash: f2eed7e7c0c886647bd8d85b37997474abfbecfaa5f6bec7de85b2d8a5dac5ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 49d125baa2bfbf5c2363473ebfd6c60cd497474d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340139"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579927"
 ---
 # <a name="certificate-request-sip-domains"></a>憑證要求 (SIP 網域)
  

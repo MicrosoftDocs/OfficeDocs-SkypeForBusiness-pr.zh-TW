@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台設定來電者識別碼。
-ms.openlocfilehash: 039fe9181bad8edbb587a1b3739679137cf0cb8e98d9ce79859ae7a5e73a4e0d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7accfe11c22a8b453ac767c80a0c9269fe638c45
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332025"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605592"
 ---
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改來電者識別碼簡報的轉譯規則
 

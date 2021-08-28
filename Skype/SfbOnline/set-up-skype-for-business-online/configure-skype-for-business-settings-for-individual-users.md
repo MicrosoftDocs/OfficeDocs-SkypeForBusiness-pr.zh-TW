@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,30 +22,30 @@ ms.custom:
 - ms.lync.lac.UsersExternalAccess
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
-description: '瞭解如何變更個別商務用 Skype的使用者設定，例如：音訊和視訊會議、錄製通話和會議。 '
-ms.openlocfilehash: 54dc4e1ee649fff28ac1c7d0729bfbddae521622d76d07e1723ddcc7fd0bdbf1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: '瞭解如何變更個別商務用 Skype的通話設定，例如：音訊和視訊會議、錄製通話和會議。 '
+ms.openlocfilehash: 89fce818a73455aeca9a9ba668554d59daf85248
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312297"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579397"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>系統管理員：設定商務用 Skype使用者的設定
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> 系統Microsoft Teams系統管理中心已取代 商務用 Skype 系統管理中心 (舊版) 。 系統管理中心商務用 Skype所有管理Teams設定。 您必須指派全域系統管理員或系統管理員的[Azure AD](/azure/active-directory/roles/permissions-reference)系統管理員角色商務用 Skype，才能商務用 Skype系統管理中心Teams功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
+> 系統Microsoft Teams系統管理中心已商務用 Skype系統管理中心 (舊版) 。 系統管理中心商務用 Skype所有管理Teams設定。 您必須指派全域系統管理員或系統管理員的[Azure AD](/azure/active-directory/roles/permissions-reference)系統管理員商務用 Skype，才能商務用 Skype系統管理中心Teams功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
 
 本文將說明系統管理員如何為商務用 Skype使用者設定帳戶。 若要大量執行這些步驟，我們已提供您Windows PowerShell Cmdlet 的連結。
   
 若要允許 (或封鎖) 企業中的每個人與外部人員通訊，請參閱：
   
-- [](allow-users-to-contact-external-skype-for-business-users.md)允許使用者與外部 商務用 Skype 使用者聯繫：您可以讓貴組織使用進商務用 Skype 功能 (共用桌面、尋找誰在線上等 ) 來與特定信任的 () 企業中的人員通訊。 本文也會說明如何封鎖與特定網域的通訊。
+- [](allow-users-to-contact-external-skype-for-business-users.md)允許使用者與外部 商務用 Skype 使用者聯繫：您可以讓貴組織使用進商務用 Skype 功能 (共用桌面、尋找誰在線上等 ) 來與特定信任的 (聯盟) 企業中的人員通訊。 本文也會說明如何封鎖與特定網域的通訊。
     
-- [讓使用者商務用 Skype連絡人Skype連絡人](let-skype-for-business-users-add-skype-contacts.md)。 您可以讓貴組織使用 商務用 Skype來搜尋及 IM Skype免費應用程式。
+- [讓使用者商務用 Skype新增Skype連絡人](let-skype-for-business-users-add-skype-contacts.md)。 您可以讓貴組織使用 商務用 Skype來搜尋及 IM Skype免費應用程式。
     
-## <a name="configure-general-settings-for-one-user"></a>為一個使用者設定一般設定
+## <a name="configure-general-settings-for-one-user"></a>設定一位使用者的一般設定
 <a name="__toc325019204"> </a>
 
 您必須擁有 [系統管理員許可權，才能](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 執行這些步驟。
@@ -79,13 +79,13 @@ ms.locfileid: "54312297"
 ## <a name="block-external-communications"></a>封鎖外部通訊
 <a name="__toc325019206"> </a>
 
-在您[允許商務用 Skype為](let-skype-for-business-users-add-skype-contacts.md)Skype所有人新增連絡人之後，您可以使用這些步驟選擇性地封鎖特定人員的外部通訊。
+在您[允許商務用 Skype](let-skype-for-business-users-add-skype-contacts.md)為Skype所有人新增連絡人之後，您可以使用這些步驟選擇性地封鎖特定人員的外部通訊。
   
 1. 選擇 **使用者**，選取您想要停用其設定的使用者，然後選擇 **編輯編輯** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 。
     
 2. 選擇 **外部通訊**，然後適當清除選項：
     
-   - **外部商務用 Skype** 使用者：如果您不希望使用者能夠與商務用 Skype網域的使用者通訊，請清除此方塊。
+   - **外部商務用 Skype** 使用者：如果您不希望使用者能夠與聯盟網域商務用 Skype使用者通訊，請清除此方塊。
     
    - **外部Skype** 使用者：如果您不希望使用者能夠與使用 freeSkype 應用程式的使用者通訊，請清除此方塊。
     
@@ -98,7 +98,7 @@ ms.locfileid: "54312297"
 
 1. 選擇 **使用者**，選取要編輯其音訊會議設定的使用者， **然後選擇編輯** ![ 編輯 ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 。
     
-2. 選擇 **[音訊會議」，** 選取您的音訊會議提供者，輸入或變更要求的資訊，然後按一下 [ **儲存**。
+2. 選擇 **[音訊會議，** 選取您的音訊會議提供者，輸入或變更要求的資訊，然後按一下 [ **儲存**。
     
 |**音訊會議設定**|**描述**|
 |:-----|:-----|

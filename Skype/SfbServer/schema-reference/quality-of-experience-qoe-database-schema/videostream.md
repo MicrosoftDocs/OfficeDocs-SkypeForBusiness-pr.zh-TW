@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: 每筆記錄代表一個視頻資料流程。 一個影片媒體行通常包含兩個影片。
-ms.openlocfilehash: fde5036803bd02bed4b766ca9e6d2419d9b4cca92d78968867e18e9e4083897e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: af8ae55e805019b91e9c1750d7bb036bcf79c6f7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322905"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628515"
 ---
 # <a name="videostream-table"></a>VideoStream 表格
  

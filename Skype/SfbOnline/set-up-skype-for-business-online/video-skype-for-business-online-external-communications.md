@@ -1,5 +1,5 @@
 ---
-title: 影片商務用 Skype線上外部通訊
+title: 線上商務用 Skype通訊影片
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: '瞭解如何設定商務用 Skype線上外部通訊，以便使用者與外部連絡人Skype通訊。 '
-ms.openlocfilehash: b363814066e8a9bb0169baa3a41e81d10fb69ba3ecca862530292d73b5e94b65
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1d4fdfb996b3294637474bfef78caae647ddc4e8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297649"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605662"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>視訊：商務用 Skype Online 外部通訊
 

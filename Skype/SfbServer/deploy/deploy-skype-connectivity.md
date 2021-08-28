@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 摘要：瞭解如何使用 Skype 消費者來連接商務用 Skype Server。 也稱為 Skype 連線性。
-ms.openlocfilehash: 752bae0797da1129d677dd962ad9dc6e4b9a6e99123babcf30ab8bd11bdbf668
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 962915a21b89a1d99fa6d788c677832bb470076b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307784"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605542"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>部署商務用 Skype Server 中的 Skype 連線能力
 
@@ -52,7 +52,7 @@ Skype目錄搜尋功能可讓商務用 Skype 使用者能夠搜尋 Skype 連絡�
 下表概述 Skype 目錄搜尋的支援。
   
 
-||**商務用 Skype Server前端**|**Lync Server 2013 (或舊版) 前端**|**Comments**|
+||**商務用 Skype Server前端**|**Lync Server 2013 (或舊版) 前端**|**註解**|
 |:-----|:-----|:-----|:-----|
 |商務用 Skype Server邊緣  <br/> |支援  <br/> |不支援  <br/> |商務用 Skype Server 和 Edge 是 Skype 目錄搜尋的必要條件  <br/> |
 |商務用 Skype ServerEdge + Lync Server 2013 Edge 已並行部署  <br/> |支援  <br/> |不支援  <br/> |Skype目錄搜尋流量流經商務用 Skype Server Edge server。 同盟流量會透過系統管理員設定的 edge 進行。 例如，管理員可以選擇繼續透過 Lync Server 2013 Edge server 傳送同盟流量，這不會支援 Skype 目錄搜尋。  <br/> |
@@ -126,13 +126,13 @@ Skype連線也是商務用 Skype 線上的功能，也就是 Microsoft 365 和 O
 在2006中部署的公用 IM (PIC) 布建機制 (pic.lync.com) 已無法繼續維護，且會在8/15/2019 時關閉。 相反地，公用 IM 同盟會假設商務用 Skype Online （稱為「夥伴探索」）所使用的相同同盟模型，因此內部部署部署會透過其同盟 DNS SRV 記錄 (s) 加以公開探索。
 
 **這種變更意味著公用 IM 同盟被取代？**
-錯誤。 公用 IM 同盟將繼續支援許多年，直到商務用 Skype 的內部部署產品到達生命週期結束時為止。
+否。 公用 IM 同盟將繼續支援許多年，直到商務用 Skype 的內部部署產品到達生命週期結束時為止。
 
 **我們公司有 (共用位址空間的混合式關聯) 商務用 Skype 線上，我們會受到影響嗎？**
 不需要，因為您已與商務用 Skype 線上，所以此變更不會影響您。
  
 **這種變更是否意味著公司必須啟用與商務用 Skype 線上的同盟？**
-錯誤。 如果您的 edge server proxy 設定沒有啟用與商務用 Skype Online 主機服務提供者的同盟 (sipfed.online.lync.com) 則此變更不會影響。 不過，與商務用 Skype Online 進行同盟的相同 DNS 和憑證需求現在也適用于與 Skype 使用者的聯盟。
+否。 如果您的 edge server proxy 設定沒有啟用與商務用 Skype Online 主機服務提供者的同盟 (sipfed.online.lync.com) 則此變更不會影響。 不過，與商務用 Skype Online 進行同盟的相同 DNS 和憑證需求現在也適用于與 Skype 使用者的聯盟。
  
 **我們公司很大，無法變更其 edge 設定，因為規定/合規性/etc 原因 .。。我們可以做什麼？**
 任何內部部署組織若不能根據指定變更其 edge server 設定，應儘早到達產品支援服務。
@@ -141,7 +141,7 @@ Skype連線也是商務用 Skype 線上的功能，也就是 Microsoft 365 和 O
 
 現在著重于設定 Skype 連線所需的商務用 Skype Server 環境和系統管理工作。 在本節中，我們假設系統管理員已部署商務用 Skype Server 和設定的外部存取（也稱為 Edge server）。 
   
-有三個主要步驟必須啟用同盟和 PIC。 例如：
+有三個主要步驟必須啟用同盟和 PIC。 如下所述：
   
 1. 設定同盟和 PIC
     

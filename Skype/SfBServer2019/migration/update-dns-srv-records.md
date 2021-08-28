@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 若要順利完成此程式，您應該以 Domain Admins 群組成員或 DnsAdmins 群組成員的身分登入伺服器或網域。
-ms.openlocfilehash: 0c3454bd4fbf8ecdc28730da378357e9d50efec3c12ba5b3926abb61010979ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1b88ada924cbf2cf7f4153acda54584d81946cb0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327049"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579417"
 ---
 # <a name="update-dns-srv-records"></a>更新 DNS SRV 記錄
 
@@ -34,7 +34,7 @@ ms.locfileid: "54327049"
     
 4. 在 [**提供這項服務的主機**] 中，更新主機 FQDN 以指向商務用 Skype Server 2019 集區。
     
-5. 按一下 ****[確定]。
+5. 按一下 [確定]。
     
 ## <a name="to-verify-that-the-fqdn-of-the-front-end-pool-or-standard-edition-server-can-be-resolved"></a>驗證前端集區或 Standard Edition 伺服器的 FQDN 是否可以解析
 

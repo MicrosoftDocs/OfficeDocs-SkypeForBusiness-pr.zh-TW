@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 摘要：使用商務用 Skype Server 控制台建立或修改語音原則，以及設定 PSTN 使用方式記錄。
-ms.openlocfilehash: f81d54314d60b6dbb69efa84a2fc5bb9cd22123ff2158080ed2878102611b7a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80e19ed7c271df8b27f53062d4647a39fd6e7491
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320835"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605572"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>在商務用 Skype 中建立或修改語音原則及設定 PSTN 使用方式記錄
 

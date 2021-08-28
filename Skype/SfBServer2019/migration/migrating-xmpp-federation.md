@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 舊版本提供了可延伸的訊息和顯示狀態通訊協定 (XMPP) 閘道，可部署為個別的伺服器角色，以允許與 XMPP 部署的聯盟。 商務用 Skype Server 2019 中 & 已被取代的 XMPP 功能已不再可用。 如果您想要繼續使用 XMPP 功能，可以在 coexitence 環境中 availed 舊版 (商務用 Skype Server 2015/Lync Server 2013) 。 XMPP 功能是以兩個部分安裝：作為執行于舊版 Edge Server 上的 XMPP proxy，以及舊版前端伺服器上執行的 XMPP 閘道。
-ms.openlocfilehash: f1dc49a9f93d87bf2b253963cf0955594b337f9bd186c3034ac7780cb50ccddb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a0c3eeaa6218c6e3b3726f755adcca6083a9ac3f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303427"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580127"
 ---
 # <a name="migrating-xmpp-federation"></a>移轉 XMPP 同盟
 

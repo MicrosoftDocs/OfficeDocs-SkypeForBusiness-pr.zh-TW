@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 請閱讀本主題，以瞭解如何部署共同Microsoft Teams。
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ce5fe8fa0066ea613cdee1dbea6cf7fb2e385e2694ae9b84bbd99901c999f69b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3388e2eb1e086cd347769a50bb9603f4a0832402
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334714"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605812"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>使用 PowerShell Microsoft 365建立資源帳戶
 
@@ -72,7 +72,7 @@ ms.locfileid: "54334714"
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     此範例啟用具有 HuddleRoom02 別名的現有會議室信箱的帳戶，並且將密碼設定為 808P@$$W 0rd。 請注意，由於現有的別名 HuddleRoom02@contoso.onmicrosoft.com 帳戶將會無法使用。
+     此範例啟用具有 HuddleRoom02 別名的現有會議室信箱的帳戶，並且將密碼設定為 808P@$$W 0rd。 請注意，由於現有的別名值 HuddleRoom02@contoso.onmicrosoft.com 帳戶將會更新。
 
      ``` PowerShell
      Set-Mailbox -Identity HuddleRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '808P@$$W0rd' -AsPlainText -Force)
@@ -108,7 +108,7 @@ ms.locfileid: "54334714"
 4. 連線 MS Online PowerShell，以使用 `Connect-MsolService -Credential $cred` Powershell Cmdlet 來設定 Active Directory。   有關 Active Directory 的詳細資訊，請參閱 [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
 
    > [!NOTE]
-   > [Azure Active Directory PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0)不支援。 
+   > [Azure Active Directory不支援 PowerShell 2.0。](/powershell/azure/active-directory/overview?view=azureadps-2.0) 
 
 5. 使用下列語法 huddleroom01@contoso.onmicrosoft.com 密碼，讓密碼不會過期：
 
@@ -116,7 +116,7 @@ ms.locfileid: "54334714"
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true
       ```
     
-6. 資源帳戶需要有有效的授權Office 365，最好是會議室 SKU。 您也需要為裝置帳戶指派使用位置，這決定您的帳戶可以使用哪些授權 SKUs。 您可以使用來為租使用者Office 365 `Get-MsolAccountSku` SKUS 清單。
+6. 資源帳戶需要有有效的授權Office 365，最好是會議室 SKU。 您也需要為裝置帳戶指派使用位置，這決定您的帳戶可以使用哪些授權 SKUs。 您可以使用來為您的租使用者Office 365 `Get-MsolAccountSku` SKUS 清單。
 
       ``` Powershell
       Get-MsolAccountSku

@@ -15,28 +15,28 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: Microsoft Teams自動翻譯支援的語言
-ms.openlocfilehash: 18a2f54eea4fb0f4090b76bddd92da40263c6db0
-ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
+ms.openlocfilehash: 52dc175b5c8d7379d538c3a80b28b763279c7c41
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58339841"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605832"
 ---
 # <a name="microsoft-teams-auto-attendant-supported-languages"></a>Microsoft Teams自動翻譯支援的語言
 
-自動語音機支援 TTS (及語音辨識) 文字到語音辨識的語言：
+自動語音機支援 TTS (語音) 語言：
 
 |語言                                |文字到語音 (TTS)      |語音辨識                     |
 |:---------------------------------------|:-----------------------:|:-------------------------------------:|
 |阿拉伯 (埃及)                           |Y                        |                                       |
-|Catalan (加泰羅尼亞)                        |Y                        |Y                                      |
-|中文 (簡體、中國)                |Y                        |Y                                      |
+|Catalan (Catalan)                        |Y                        |Y                                      |
+|中文 (簡體，中國)                |Y                        |Y                                      |
 |繁 (繁體中文、香港)         |Y                        |                                       |
 |繁 (傳統、臺灣)            |Y                        |                                       |    
 |克羅地亞 (克羅地亞)                       |Y                        |                                       |    
@@ -67,14 +67,14 @@ ms.locfileid: "58339841"
 |斯洛伐克 (斯洛伐克)                        |Y                        |                                       |    
 |斯洛 (斯洛)                     |Y                        |                                       |    
 |墨西哥 (西班牙文)                         |Y                        |Y                                      |
-|西班牙文 (西班牙，國際)           |Y                        |Y                                      |
+|西班牙 (西班牙，國際)           |Y                        |Y                                      |
 |瑞典文 (瑞典)                         |Y                        |                                       |    
 |泰國 (泰國)                          |Y                        |                                       |    
 |土耳其 (土耳其)                         |Y                        |                                       |    
 |越南文 (越南)                     |Y                        |                                       |    
 
 > [!NOTE]
-> 選擇不支援語音辨識的語言會停用功能表中的語音輸入選項，而按名稱撥號將僅限於使用鍵盤 (DTMF) 專案。 如需詳細資訊，請參閱 [DTMF (鍵盤) 撥號](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) 。
+> 選擇不支援語音辨識的語言會停用功能表中的語音輸入選項，而按名稱撥號將僅限於使用鍵盤 (DTMF) 專案。 如需詳細資訊， [請參閱 DTMF (鍵盤) 撥號](dial-voice-reference.md#dial-by-name---keypad-dtmf-entry) 。
 
 > [!NOTE]
 > 使用文字轉換語音時，系統無法執行翻譯，因此必須以所選語言輸入文字。

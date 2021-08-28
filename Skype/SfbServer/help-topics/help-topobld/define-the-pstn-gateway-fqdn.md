@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPstnGatewayFqdnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: 您可以指定公用交換電話網路 (PSTN) 閘道的完整功能變數名稱 (FQDN) ，該閘道會將您的企業語音元件連線至 PSTN 或專用交換機 (PBX) 。
-ms.openlocfilehash: c3fbc1aabb29d06c3b4006078864839dd587f80c653771ac63fe2dd11d1746ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 78c1ca11b4194585ba62675a8c17ed7893865c5b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290811"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605052"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>定義 PSTN 閘道 FQDN
 

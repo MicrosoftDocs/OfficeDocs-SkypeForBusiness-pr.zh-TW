@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: e3035065a52279d090ae394217ccaa1bdd3576288b1c2d7e67c9262b3c5ec2ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
+ms.openlocfilehash: 89d753251641a8e5f059128a21f1a394ca6e62ee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347218"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605882"
 ---
 # <a name="availability-in-qatar"></a>在卡達達的可用時間
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
+以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

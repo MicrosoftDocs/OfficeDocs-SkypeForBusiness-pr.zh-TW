@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 公共區域電話為最常在共用工作區或公共區域 (例如大廳、廚房或工廠) 的 IP 電話。 一般區域電話不需要連線到電腦，就能供應商務用 Skype Server 的整合通訊 (UC) 功能。 將部署遷移至商務用 Skype Server 2019 之後，您還必須遷移與舊版通用區域相關聯的連絡人物件電話。 使用商務用 Skype Server 管理命令介面您會先取得與舊版公用區域電話相關聯的所有連絡人物件，然後將這些物件移至商務用 Skype Server 2019 集區。
-ms.openlocfilehash: 808e874216fac97b01face6efa7aae00e269b74ee0f009b106f872a33a6d6261
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dabb91925b2d5271ba2760f62dd962ed7fa7a24c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340429"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579527"
 ---
 # <a name="migrate-common-area-phones"></a>移轉公共區域電話
 

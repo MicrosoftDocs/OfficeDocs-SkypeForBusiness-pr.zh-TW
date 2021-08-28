@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[步驟 3：要求、安裝或指派憑證] 會在您按一下 [執行] 時啟動 [憑證精靈]。 透過嚮導所設定的憑證是以拓撲產生器所設定及發行的商務用 Skype Server 拓撲的定義為中心管理存放區。 為了順利對組織中的線上憑證授權單位 (CA) 執行 [憑證精靈]，您必須以電腦本機系統管理員群組的成員身分登入電腦。 在電腦和 CA 所在的網域中，您也必須是經過驗證的網域使用者。 憑證嚮導可讓您指定用來存取組織之 CA 的替代認證。'
-ms.openlocfilehash: 44eb8c3ca1361742a114b3763bde911842734c1ced498dfae73c1f8a7c3c3d45
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 63581c0a24d8bef811d77a5473326d17e404b8d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282176"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605442"
 ---
 # <a name="request-install-or-assign-certificates"></a>要求、安裝或指派憑證
  

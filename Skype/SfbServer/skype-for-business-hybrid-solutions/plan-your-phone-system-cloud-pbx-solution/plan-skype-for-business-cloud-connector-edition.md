@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 在商務用 Skype Cloud Connector Edition 上尋找一組封裝虛擬機器，以 (vm) 執行內部部署 PSTN 連線與電話系統 (Cloud PBX) 。
-ms.openlocfilehash: 147fabd9866386b67c17022a37369149273de3caeecf40e471abbed40e0e33cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65e1d78a894b967391f44d6859c7fe50f42a7145
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288851"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628455"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>規劃商務用 Skype Cloud Connector Edition
 
@@ -97,7 +97,7 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 
 - [雲端連接器媒體流程](plan-skype-for-business-cloud-connector-edition.md#BKMK_MediaFlow)
 
-- [監視和疑難排解](plan-skype-for-business-cloud-connector-edition.md#BKMK_Monitor)
+- [監控及疑難排解](plan-skype-for-business-cloud-connector-edition.md#BKMK_Monitor)
 
 - [相關資訊](plan-skype-for-business-cloud-connector-edition.md#BKMK_MoreInfo)
 
@@ -128,7 +128,7 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 
 - **網域控制站** -Cloud Connector Active Directory 網域服務，用來儲存部署雲端連接器元件所需的所有全域設定和群組。 每個雲端連接器裝置都會建立一個樹系。 網域控制站不能與實際執行 Active Directory 的任何連接。 Active Directory 服務包括：
 
-  - Active Directory 網域服務
+  - Active Directory Domain Services
 
   - 發行內部憑證的 Active Directory 憑證服務
 
@@ -350,7 +350,7 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 |SBC/PSTN 閘道  <br/> |雲端連接器轉送元件  <br/> |任何  <br/> |TCP 5068/TLS 5067  <br/> |
 |雲端連接器轉送元件  <br/> |SBC/PSTN 閘道  <br/> |UDP 49 152-57 500  <br/> |任何\*\*\*  <br/> |
 |SBC/PSTN 閘道  <br/> |雲端連接器轉送元件  <br/> |任何\*\*\*  <br/> |UDP 49 152-57 500  <br/> |
-|雲端連接器轉送元件  <br/> |內部用戶端  <br/> |TCP 49 152-57 500\*  <br/> |TCP 50000 50019  <br/> （選用）  <br/> |
+|雲端連接器轉送元件  <br/> |內部用戶端  <br/> |TCP 49 152-57 500\*  <br/> |TCP 50000 50019  <br/> (選用)  <br/> |
 |雲端連接器轉送元件  <br/> |內部用戶端  <br/> |UDP 49 152-57 500\*  <br/> |UDP 50000 50019  <br/> |
 |內部用戶端  <br/> |雲端連接器轉送元件  <br/> |TCP 50000 50019  <br/> |TCP 49 152-57 500\*  <br/> |
 |內部用戶端  <br/> |雲端連接器轉送元件  <br/> |UDP 50000 50019  <br/> |UDP 49 152-57 500\*  <br/> |
@@ -458,7 +458,7 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 首先，您必須定義下列常見的部署參數：
 
 
-|**Item**|**描述**|**附註**|
+|**項目**|**描述**|**附註**|
 |:-----|:-----|:-----|
 |SIP 網域  <br/> |公司使用者使用的 SIP URI。 提供此部署將服務的所有 SIP 網域。 您可以擁有一個以上的 SIP 網域。  <br/> ||
 |PSTN 網站數目  <br/> |您將部署的 PSTN 網站數目。  <br/> ||
@@ -486,7 +486,7 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 |SiteName  <br/> |商務用 Skype 網站名稱;例如，西雅圖。  <br/> .ini 檔案名中的名稱： "SiteName"  <br/> 針對發行1.4.1 及更新版本，每個網站的網站名稱必須不同，且名稱必須符合 PSTN 網站（如果存在），且已在 Microsoft 365 或 Office 365 中定義。 請注意，註冊網站中的第一個裝置時，系統會自動建立 PSTN 網站。  <br/> ||
 |HardwareType  <br/> 發行1.4.1 及更新版本  <br/> |硬體類型。 預設值為 Normal。 您也可以設定為 [最小值]。  <br/> ||
 |國碼  <br/> |用於撥號的國家/地區號碼。  <br/> .ini 檔案名中的名稱： "CountryCode"  <br/> ||
-|城市  <br/> |城市 (選用) 。  <br/> .ini 檔案名中的名稱： "City"  <br/> ||
+|鄉/鎮/市/區  <br/> |城市 (選用) 。  <br/> .ini 檔案名中的名稱： "City"  <br/> ||
 |狀態  <br/> |狀態 (選用) 。  <br/> .ini 檔案名中的名稱： "State"  <br/> ||
 |基底 VM IP 位址  <br/> |將用來建立所有雲端連接器虛擬機器之 VHDX 的臨時基底 VM 的 IP 位址。 這個 IP 必須在下一個步驟中定義的周邊公司網路子網中，且需要網際網路存取權。 請務必定義公司的預設閘道和可路由傳送至網際網路的 DNS。  <br/> .ini 檔案名中的名稱： "BaseVMIP"  <br/> ||
 |WSUSServer  <br/> WSUSStatusServer  <br/> 發行1.4.1 及更新版本  <br/> |Windows Server Update Services (WSUS) （內部網路伺服器）以從 Microsoft Update 中主控更新的位址。  <br/> 如果不需要 WSUS，您可以保留空白。  <br/> ||

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[主體名稱 / 主體別名] 頁面會顯示主體名稱及所有會填入至憑證中的主體替代名稱的摘要。 在定義檔中收集的主體名稱和主體替代名稱所呈現的名稱是在拓撲產生器中定義部署時所建立的。'
-ms.openlocfilehash: 24f47214797224ac0907c5478deef7db819fd57ec84bba87de256c6f5360c36c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 929d8611ce5040d93ab6f7f1a68a0c34957ab364
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325320"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605452"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>憑證要求 (主體別名)
  

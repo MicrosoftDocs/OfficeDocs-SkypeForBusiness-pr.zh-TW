@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddAvMcuPoolPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 description: 中央網站裡，沒有配置音訊/視訊會議服務的所有 Enterprise Edition 前端伺服器，可以使用相同的獨立式 A/V 會議集區。針對每個 A/V 會議集區，您必須指定集區的完整網域名稱 (FQDN)，以及它是否將只有單一 A/V 會議伺服器，還是多個負載平衡的 A/V 會議伺服器。
-ms.openlocfilehash: ce3ffed642a8cafe6e913ee053a6a2d71787c181b1c704a3e4429df33e7cfed4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 212b9294a1e1d3578652e595cccb72088d859685
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348188"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628105"
 ---
 # <a name="add-av-mcu-pool"></a>新增 A/V MCU 集區
  

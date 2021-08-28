@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于波多黎各Microsoft 365 Office 365和商務用 Skype Microsoft Teams的Microsoft Teams及服務。
-ms.openlocfilehash: cff19fdfe3379b510997a771ee7ff0d77abe2bf3660724c884715563bfed93d9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是適用于波多黎各Microsoft 365 Office 365和商務用 Skype Microsoft Teams和服務。
+ms.openlocfilehash: 63c4ce78cb45483118c05d935fb6ade300d51d16
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344342"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605912"
 ---
 # <a name="availability-in-puerto-rico"></a>波多黎各的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于波多黎各Microsoft 365 Office 365和商務用 Skype Microsoft Teams的Microsoft Teams及服務。
+以下是適用于波多黎各Microsoft 365 Office 365和商務用 Skype Microsoft Teams和服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -61,7 +61,7 @@ ms.locfileid: "54344342"
 |:-----|:-----|
 |可以購買通話方案嗎？  <br/> |是  <br/> |
 |通話方案可用的分鐘數  <br/> |國內 3000 分鐘或 600 分鐘國際 (以每個日曆月的第一次到達者為准) 。 美國國內通話包括美國所有 50 個州和波多黎各的通話。 指派授權使用位置為美國和/或波多黎各的使用者共用相同的分鐘數。  <br/> |
-|可以撥打付費號碼的外接電話嗎？ <br/> | 目前不支援。 <br/> |
+|可以撥打付費號碼外接電話嗎？ <br/> | 目前不支援。 <br/> |
 |可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼

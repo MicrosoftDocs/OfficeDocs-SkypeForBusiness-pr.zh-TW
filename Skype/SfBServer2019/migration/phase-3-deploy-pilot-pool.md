@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
 description: 本節涵蓋部署商務用 Skype Server 2019 的試驗集區所需的步驟。 部署商務用 Skype Server 2019 需要使用拓撲產生器來定義您的拓撲及您要部署的元件、準備部署商務用 Skype Server 2019 元件的環境、在第一部前端伺服器上發行拓撲設計，然後為部署的元件安裝及設定商務用 Skype Server 2019 軟體。 完成後，您的商務用 Skype Server 2019 試驗集區部署會與現有舊版集區共存。
-ms.openlocfilehash: e4ff2f9c28e01ada82fd827644e46542e18581bf8f1ff2e511883bc6bb27e96f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aec5e0dd645c4f09cdcc971274a4fac6fcf06958
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300569"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579437"
 ---
 # <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>階段3：部署商務用 Skype Server 2019 試驗集區
 
