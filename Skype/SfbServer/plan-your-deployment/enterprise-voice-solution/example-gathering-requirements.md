@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: 提供在商務用 Skype Server 企業語音中規劃通話許可控制的詳細範例，包括收集網路網站、地區及頻寬的相關資訊。
-ms.openlocfilehash: 47f44f6b20779cce80c5499eb792945276fec7144fb7661e8aca8ce97e1e09ae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 88af4148bbdd4063f3897d246a7c56795928ad01
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324123"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590988"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>範例：在商務用 Skype Server 中收集通話許可控制的需求
 

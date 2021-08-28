@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 摘要：瞭解商務用 Skype Server 中的 PSTN 會議摘要報告。
-ms.openlocfilehash: 4fdcac31c5f674ca3289a275cc253f798fabdf5fb9ab221e5872e8b5d82fccb2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c1f652e6c99db1e011624ee368244795555b61f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286762"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591147"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 PSTN 會議摘要報告
  
@@ -75,7 +75,7 @@ Tag:DublinDialInUsers                                       True
 
 |**名稱**|**可以排序這個項目嗎？**|**描述**|
 |:-----|:-----|:-----|
-|**每小時** <br/> **每日** <br/> **每週** <br/> **每月** <br/> |否  <br/> |指示所選的時間間隔。 在適用的情況下，只要按一下指定的時間間隔，即可檢視該間隔的詳細資訊。 例如，如果您使用的是每日間隔，而您按一下 [7/7/2015]，就會看到該日期的使用者註冊活動的每小時細目。  <br/> |
+|**每小時** <br/> **日常** <br/> **每週** <br/> **每月** <br/> |否  <br/> |指示所選的時間間隔。 在適用的情況下，只要按一下指定的時間間隔，即可檢視該間隔的詳細資訊。 例如，如果您使用的是每日間隔，而您按一下 [7/7/2015]，就會看到該日期的使用者註冊活動的每小時細目。  <br/> |
 |**PSTN 會議總數** <br/> |否  <br/> |允許撥入存取的會議總數。  <br/> |
 |**參與者總數** <br/> |否  <br/> |參與允許撥入存取之會議的人員總數。  <br/> |
 |**A/V 會議總分鐘數** <br/> |否  <br/> |音訊/視訊會議的總時數。  <br/> |

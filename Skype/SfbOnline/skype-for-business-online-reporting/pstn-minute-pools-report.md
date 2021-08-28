@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 description: 新的系統管理商務用 Skype報告區域會顯示貴組織的通話和音訊會議活動。 它可讓您深入瞭解報表，以進一步深入瞭解每個使用者的活動。 例如，您可以使用 PSTN 商務用 Skype分鐘數報告，查看貴組織內當月所耗用分鐘數。
-ms.openlocfilehash: 02f2d2bad1bbf948dfe9b39c49c389423437fd05877811c647220df41502c558
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3c9999a642480442f25dddad9daca503ade7851a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342568"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592897"
 ---
 # <a name="pstn-minute-pools-report"></a>PSTN 分鐘集區報告
 
@@ -33,31 +33,29 @@ ms.locfileid: "54342568"
 >[!NOTE]
 >此報表僅適用于預覽客戶。
 
-新的系統管理商務用 Skype **報告** 區域會顯示貴組織的通話和音訊會議活動。 它可讓您深入瞭解報表，以進一步深入瞭解每個使用者的活動。 例如，您可以使用 **PSTN** 商務用 Skype分鐘數庫報表，查看貴組織內當月所耗用分鐘數。
+新的系統管理商務用 Skype **報告** 區域會顯示貴組織的通話和音訊會議活動。 它可讓您深入瞭解報表，以進一步深入瞭解每個使用者的活動。 例如，您可以使用 **PSTN** 商務用 Skype分鐘數報告，查看貴組織內當月所耗用分鐘數。
   
 請查看報告 [概觀以](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) 查看更多可用的報告。
   
-此報告與其他報表商務用 Skype一起，提供您整個組織活動的詳細資訊。 這些詳細資料在調查、規劃及為貴組織做出其他商務決策，以及設定通訊信用額度時非常 [實用](/microsoftteams/what-are-communications-credits)
+此報告與其他報表商務用 Skype一起，提供您整個組織活動的詳細資訊。 這些詳細資料在調查、規劃及為貴組織做出其他商務決策，以及設定通訊信用額度時非常[實用](/microsoftteams/what-are-communications-credits)。
   
 > [!NOTE]
 > 當您以系統管理員的商務用 Skype登入時，可以看到所有Microsoft 365 系統管理中心。 
   
-## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>如何取得 PSTN 商務用 Skype分鐘數報表
+## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>如何取得 PSTN 分鐘商務用 Skype報告
 
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
-- 請前往系統管理中心>**系統管理** 商務用 Skype  >    >  **報告**  >  **PSTN 分鐘數庫**。
+- 請前往系統管理中心>系統管理商務用 Skype ****  >    >  **報告**  >  **PSTN 分鐘數庫**。
     
 > [!NOTE]
 > 視您Microsoft 365訂閱Office 365，您可能不會在這裡看到所有相同的詳細資料。 
   
 ## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>解譯商務用 Skype PSTN 分鐘數庫報告
 
-您可以查看顯示的每一欄，商務用 Skype查看使用者的分鐘數庫。
+您可以查看顯示的每一欄，商務用 Skype查看使用者的分鐘數。
   
 這就是報表的外觀。
-  
-## 
 
 ![商務用 SkypePSTN 分鐘數庫報告](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
@@ -65,14 +63,14 @@ ms.locfileid: "54342568"
 ![數位 1](../images/sfbcallout1.png)<br/>下表顯示授權和使用位置 (分鐘) 明細。 
 *    **功能** 是通話所使用的授權/服務方案。 您可能會在此報告中看到授權/服務方案包括：
      * MCOPSTN1 - 國內通話方案 (3000 分鐘美國/1200 分鐘的歐盟方案
-     * MCOPSTN2 - 國內 & (國際通話方案，您可從該計畫看到 3000 分鐘美國/加拿大/PR、1200 分鐘的歐洲國家 /地區) 以及 600 分鐘的 (國際電話) 。 每當在日曆月份內達到國內 -OR- 國際上限時，即會達到分鐘數上限。 
+     * MCOPSTN2 - 國內 & (國際通話方案，您可從該計畫看到 3000 分鐘的美國/加拿大/PR、1200 分鐘的歐洲國家 /地區) 以及 600 分鐘的 (國際泳池) 。 每當在日曆月份內達到國內 -OR- 國際上限時，即會達到分鐘數上限。 
      * MCOPSTN5 - 國內通話方案 (120 分鐘的通話方案) 
      * MCOPSTN6 - 國內通話方案 (240 分鐘的通話方案) 
      * MCOMEETADD - 音訊會議
 *    **功能描述** 是通話所使用之授權類型的描述。
 *    **國家/地區分鐘** 數庫是共用分鐘 () 使用者之授權使用位置。 
 *    **使用分鐘** 數是每個月使用的分鐘數。
-*    **總分鐘** 數是一個月的總可用分鐘數。 
+*    **總分鐘** 數是月份的總可用分鐘數。 
 *    **使用百分比** 是當月使用的分鐘數百分比。 
 ***
 ![數位 2](../images/sfbcallout2.png)<br/>若要將欄拖曳到按特定欄分組，如果您想要建立將一或多個資料行中所有資料組成群組的視圖，請在這裡拖放欄標題。 
@@ -85,7 +83,7 @@ ms.locfileid: "54342568"
     
 - [商務用 Skype裝置使用方式報告](device-usage-report.md)您可以查看裝置，包括Windows型作業系統，以及已安裝應用程式商務用 Skype且用於 IM 和會議的行動裝置。
     
-- [商務用 Skype會議召集人活動報告](conference-organizer-activity-report.md)您可以查看使用者組織使用 IM、音訊/視像、應用程式共用、Web、/dial out - 協力廠商和 /dial out - Microsoft 的會議。
+- [商務用 Skype會議召集人活動報告](conference-organizer-activity-report.md)您可以查看使用者組織使用 IM、音訊/視像、應用程式共用、Web、/撥出 - 協力廠商和 /dial out - Microsoft 的會議。
     
 - [商務用 Skype會議參與者活動報告](conference-participant-activity-report.md)您可以查看有多少 IM、音訊/視音訊、應用程式共用、Web 和撥出音訊會議參與。
     

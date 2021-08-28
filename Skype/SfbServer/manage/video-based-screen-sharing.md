@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: '商務用 Skype Server 以影片為基礎的螢幕共用 (VbSS 的規劃和設定資訊) '
-ms.openlocfilehash: 0dacf7372a0c72d8cdaf01c1e3b12564fb5580a4526738f401d2227983c25c01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d4f7b7d9cee9cb87c24c8c78da8e6bf92eac039c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349275"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591127"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>商務用 Skype Server 視訊的螢幕畫面分享 
  
@@ -103,8 +103,8 @@ KB3061064 中的2015商務 Skype 用影片畫面 (VbSS) 現在可供下載：[�
   
 |**1080p 內容**|**RDP 平均**|**RDP 峰值**|**平均 VbSS**|**VbSS 峰**|
 |:-----|:-----|:-----|:-----|:-----|
-|Ppt  <br/> |200kbps  <br/> |12mbps  <br/> |100kbps  <br/> |3mbps  <br/> |
-|Cad  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
+|PPT  <br/> |200kbps  <br/> |12mbps  <br/> |100kbps  <br/> |3mbps  <br/> |
+|CAD  <br/> |3mbps  <br/> |7mbps  <br/> |1mbps  <br/> |3mbps  <br/> |
 |影片  <br/> |5mbps  <br/> |7mbps  <br/> |1.3 mbps  <br/> |2.2 mbps  <br/> |
    
 ### <a name="network-bandwidth-requirements-for-media-traffic"></a>媒體流量的網路頻寬需求

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddVisUsagePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: db402ac4-4c30-405e-b322-6aae5df81f46
 description: 在拓撲產生器中定義新的 VIS 或視頻閘道所需的步驟，將在商務用 Skype Server 2015 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: 7f4e93cacbd8d9744e5131cbe8308320cf2ea8efc320fd7423c0972c3c4c9268
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8cc1b3297bad6260d8ea1582458733999d024099
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313341"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592607"
 ---
 # <a name="add-vis-usage"></a>新增 VIS 使用
  

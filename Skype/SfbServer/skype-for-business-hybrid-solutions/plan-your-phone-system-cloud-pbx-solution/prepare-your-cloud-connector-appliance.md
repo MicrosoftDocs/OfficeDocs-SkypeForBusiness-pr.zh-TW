@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: 瞭解如何準備 cloud Connector 裝置以進行部署，並搭配電話系統 (Cloud PBX) 使用。
-ms.openlocfilehash: 58f9765f211a3961db8baf5929956feecf1eb4fd7e7744490cb21f1967dcb46f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 255b276ebb0d192f876d07e318cf94ccf3698a1f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340809"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589997"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>準備 Cloud Connector 設備
 

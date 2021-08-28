@@ -1,5 +1,5 @@
 ---
-title: 作業Teams
+title: 適用于Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,28 +18,28 @@ ms.custom:
 - ms.teamsadmincenter.assignments.tooltip.makecode
 - ms.teamsadmincenter.assignments.tooltip.turnitin
 description: 瞭解如何在 Microsoft Teams 系統管理中心管理Teams 教育版。
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93cf5efd46170bf345fc098c8775e145e5b204c83b6c38434f485f2ccea9a994
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cd8aef1a8d84a77f14824379383c5f77679f8c6f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337391"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592289"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的作業
 
 課程的作業和成績功能Teams 教育版教師將工作、工作或測驗指派給學生。 教師可以管理作業時程表、指示、新增資源以上交、以成績評分等等。 他們也可以追蹤課程和個別學生的進度在 "成績" 選項卡中。
 
-[深入瞭解作業和成績在 Teams 教育版。](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
+[深入瞭解作業和成績Teams 教育版。](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
 > [!Note]
-> 有關不同平臺上Teams作業的詳細資訊，請參閱[Teams平臺的功能。](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+> 有關不同Teams作業的詳細資訊，請參閱[Teams功能。](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
 
 ## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>系統管理中心中的作業Microsoft Teams整合
 
-您可以使用系統管理中心Microsoft Teams設定，為貴組織及其學生中的教育人員開啟或關閉功能。 以下是與作業相關的設定：
+使用系統管理中心中的Microsoft Teams設定，您可以開啟或關閉貴組織內部教育人員及其學生的功能。 以下是與作業相關的設定：
 
 <a name="#bkemaildigest"> </a>
 ### <a name="weekly-guardian-email-digest"></a>每週監護人電子郵件摘要
@@ -52,7 +52,7 @@ ms.locfileid: "54337391"
 2. 在系統管理中心Microsoft Teams監護人設定，因為設定預設為關閉。 這可讓教師每週傳送摘要。
 
    > [!NOTE]
-   > 教師可以退出宣告摘要，在他們自己的個人班級小組中取消選擇設定 (作業設定 >家長 **/** 監護人電子郵件) 。
+   > 教師可以退出宣告摘要，在他們自己的個人班級小組中取消選擇設定 (指派設定 >家長 **/** 監護人電子郵件) 。
 
 若要確認家長會收到電子郵件，下列三個專案必須正確：
 
@@ -75,7 +75,7 @@ MakeCode 是 Microsoft 產品，受 Microsoft[使用條款和](https://go.micros
 
 若要在 Teams中啟用 MakeCode 作業，請Teams系統管理 **中心**、流覽至作業區段，然後將 MakeCode 切換選項切換到 **開啟**。 按一下 [儲存]。 允許幾個小時讓這些設定生效。
 
-有關此功能運作方式的資訊，請參閱這段 [影片示範](https://makecode.com/blog/teams/teams-assignments)。
+有關此功能運作方式的更多相關資訊，請參閱此 [影片示範](https://makecode.com/blog/teams/teams-assignments)。
 
 [深入瞭解 MakeCode](https://aka.ms/makecode)。
 
@@ -111,6 +111,6 @@ MakeCode 是 Microsoft 產品，受 Microsoft[使用條款和](https://go.micros
 ### <a name="removing-assignments-and-grades"></a>移除作業和成績
 您可以使用這些Teams移除特定使用者或整個租使用者的工作分派和成績。 
 
-若要移除個別使用者的作業和成績，請Teams系統管理中心，然後流覽至 Teams 應用程式>**許可權** 策略，以建立新的應用程式許可權政策定義。  建立新策略定義時，請設定 **Microsoft 應用程式** 政策以封鎖 _特定應用程式_，並允許所有其他應用程式，並新增作業到封鎖的應用程式清單中。 儲存新策略定義後，請將其指派給適當的使用者。
+若要移除個別使用者的作業和成績，請Teams系統管理中心，然後流覽至 Teams 應用程式>**許可權政策，以** 建立新的應用程式許可權政策定義。  建立新策略定義時，請設定 **Microsoft 應用程式** 政策以封鎖 _特定應用程式_，並允許所有其他應用程式，並新增作業到封鎖的應用程式清單中。 儲存新策略定義後，請將其指派給適當的使用者。
 
-若要移除整個租使用者的工作分派和成績，請前往 **Teams 系統** 管理中心，流覽至 Teams 應用程式 **>管理應用程式**，然後從應用程式清單中搜尋並選取作業。 將作業應用程式設定頁面中的狀態設定變更為 _已封鎖_。 
+若要移除整個租使用者的工作分派和成績，請前往Teams 系統管理中心，流覽至 Teams 應用程式 **>管理應用程式**，然後從應用程式清單中搜尋並選取作業。 將作業應用程式設定頁面中的狀態設定變更為 _已封鎖_。 

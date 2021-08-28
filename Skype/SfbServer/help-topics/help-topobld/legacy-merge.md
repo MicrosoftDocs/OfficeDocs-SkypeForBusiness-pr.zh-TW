@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeAddPicPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 description: '[Web 會議外部 FQDN] 允許外部使用者加入內部會議。請輸入舊有 Edge Server 之 Web 會議外部介面的完整網域名稱 (FQDN)。'
-ms.openlocfilehash: 9e39d14ab59ab32e74162bdfa00447fddb68fa613fd33ccce445b11c0ae85ac6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b0d58d900e0dcd14b947e3a6d0328a7a1edb1ff1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333605"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591377"
 ---
 # <a name="legacy-merge"></a>舊版合併
 

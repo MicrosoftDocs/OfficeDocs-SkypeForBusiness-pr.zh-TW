@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 將同盟路由轉換為商務用 Skype Server 2019 Edge Server 之後，您應該執行一些功能測試，以確認同盟如預期般執行。 外部使用者存取的測試應該包含組織支援的每種外部使用者類型，包括下列任一項或所有項目。
-ms.openlocfilehash: 80a7e5042fb9473e3bbd07438c1f0a57026b1bc5454784973870a695946c0cd7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef6e41242462f218ab96db94dd8a2b5df1b388bb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303327"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592957"
 ---
 # <a name="verify-federation-and-remote-access-for-external-users"></a>驗證同盟及外部使用者的遠端存取
 

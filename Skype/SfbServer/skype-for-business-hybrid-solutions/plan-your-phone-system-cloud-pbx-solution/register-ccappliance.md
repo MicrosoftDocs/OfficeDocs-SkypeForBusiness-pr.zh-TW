@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: Register-CcAppliance Cmdlet 會在線上承租人設定中向 PSTN 網站註冊裝置資訊。 裝置必須先進行註冊，才可由商務用 Skype Cloud Connector Edition management service 進行部署和管理。
-ms.openlocfilehash: 5b63ce38b358d41fea15551df1e8134d1b56db00851317cbc5c81ac8f3aea058
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 159e74f91ca26cd0f8bdd214c9cd6ac45b5c1196
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288801"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589957"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  

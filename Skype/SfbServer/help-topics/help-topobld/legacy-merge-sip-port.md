@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeSipPortPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 description: 與用戶端、舊版的前端集區及伺服器進行通訊的預設傳輸控制通訊協定 (TCP) SIP 連接埠為連接埠 5061。如果沒有使用預設值，則選取 [所有集區和伺服器的 SIP 連接埠:] 並輸入新值。
-ms.openlocfilehash: 09aa79b81bd2198ed973f2f593ecbdcc42138cb1ac6b6ceaf78184eccf9c8d96
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8787ea2a191fbd4baad11f369df59e8bf3dab979
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344772"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591427"
 ---
 # <a name="legacy-merge-sip-port"></a>舊版合併 SIP 連接埠
  

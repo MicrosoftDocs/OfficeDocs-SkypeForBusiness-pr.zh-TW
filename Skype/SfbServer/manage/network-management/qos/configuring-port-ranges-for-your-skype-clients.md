@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 本文說明如何為您的用戶端設定埠範圍，以及如何為在 Windows 10 上執行的用戶端設定商務用 Skype Server 的服務品質原則。
-ms.openlocfilehash: 4d8736c9249bbef25438be7232d7802f3ddb3e9a
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: d43b79d82e3099cbc471b12fba5ad7155de43e77
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234018"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591157"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>設定商務用 Skype Server 中用戶端的埠範圍和服務品質原則
 

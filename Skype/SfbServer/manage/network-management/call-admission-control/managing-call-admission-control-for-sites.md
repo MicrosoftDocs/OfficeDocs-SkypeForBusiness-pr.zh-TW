@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 網站是指通話許可控制 (CAC)、E9-1-1 和媒體旁路部署的每一個網路地區內的辦公室或位置。
-ms.openlocfilehash: fd353980e7ac2a367b05c0f0be6ce760b7102fcc
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c391c75b4434412e055403d621e884706c30dee5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233668"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590127"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>在商務用 Skype Server 中的網站管理通話許可控制
 
