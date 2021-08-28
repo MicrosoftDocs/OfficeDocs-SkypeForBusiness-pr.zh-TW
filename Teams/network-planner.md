@@ -8,8 +8,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 audience: admin
-description: 系統管理員可以瞭解如何使用網路規劃器來判斷網路Microsoft Teams。
-localization_priority: Normal
+description: 系統管理員可以瞭解如何使用網路規劃工具來判斷網路Microsoft Teams。
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -22,22 +22,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13cccda1c51e1706cc83b83667dff6e2f00e535e4afd1fd50ea869633199c4d3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 55fc461a2dd005d454a2b964bb3774c5ac17dbc1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332605"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594607"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>使用網路規劃工具Microsoft Teams
 
-網路規劃工具是可在系統管理中心Teams工具。 您可以到規劃網路規劃工具  >  **找到它**。 在幾個步驟中，網路規劃工具可協助判斷及組織連接Microsoft Teams使用者的網路需求。 提供網路詳細資料和 Teams 使用狀況時，網路規劃中心會計算在組織的實體位置間部署 Teams 與雲端語音的網路需求。
+網路規劃工具是可在系統管理中心Teams工具。 您可以到規劃網路規劃工具  >  **找到它**。 只要幾個步驟，網路規劃工具就可以説明您判斷及組織連接Microsoft Teams使用者的網路需求。 提供網路詳細資料和 Teams 使用狀況時，網路規劃中心會計算在組織的實體位置間部署 Teams 與雲端語音的網路需求。
 
 ![網路規劃工具的螢幕擷取畫面](media/network-planner.png)
 
 網路規劃工具可讓您：
 
-- 使用網站和 Microsoft 建議角色建立貴組織的 (辦公室工作人員、遠端工作人員，Teams會議室) 。
+- 使用網站和 Microsoft 建議的人 (辦公室工作人員、遠端工作人員，以及會議室系統Teams建立) 。
 
     > [!NOTE]
     > 建議的人物角色是根據最佳使用Teams和一般使用模式的資料所開發。 不過，除了三個建議角色之外，您最多可以建立三個自訂角色。
@@ -48,7 +48,7 @@ ms.locfileid: "54332605"
 
 ## <a name="create-a-custom-persona"></a>建立自訂角色
 
-請遵循下列步驟建立自訂角色：
+請遵循下列步驟來建立自訂角色：
 
 1. 請前往系統管理中心Microsoft Teams規劃工具。
 
@@ -97,7 +97,7 @@ ms.locfileid: "54332605"
 
 2. 針對您建立的每個網站，將使用者人數分散到可用的角色。 如果您使用 Microsoft 建議的人物角色，系統會自動 (80% 的 office 員工和 20% 的遠端) 。
 
-3. 完成發佈後，按一下 [ **產生報表**> 。
+3. 完成發佈之後，按一下 [ **產生報表**> 。
 
     產生的報表會以數種不同的視圖顯示頻寬需求，以便清楚瞭解輸出：
     - 包含個別計算的表格會顯示每個允許活動的頻寬需求。
@@ -107,4 +107,4 @@ ms.locfileid: "54332605"
 
 ## <a name="example-scenario"></a>範例案例
 
-若要瞭解如何使用網路規劃工具設定網路計畫，並使用這些步驟產生報表的範例，請下載網路規劃工具[How-To PowerPoint () 。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)
+若要瞭解如何使用網路規劃工具設定網路計畫，並使用這些步驟產生報表的範例，請下載網路規劃工具How-To PowerPoint ([組](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)) 。

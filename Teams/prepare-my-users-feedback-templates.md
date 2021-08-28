@@ -9,29 +9,29 @@ ms.service: msteams
 ms.reviewer: rowille
 audience: admin
 description: 收集使用者意見，以改善雲端語音在 Microsoft Teams 或 商務用 Skype。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1d12d859f2d6d828db0ad5cfb9aa474143d89c94ddfa4a0b6ccc0d9233fb256c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f08760e7af5b40a063f0dd43c1b728444884bb9d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312711"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594515"
 ---
 # <a name="user-feedback-surveys"></a>使用者意見回饋問卷 
 
-使用意見回饋問卷，在部署後收集使用者的體驗和深入見解。 問題應該會徵求使用者對於變更的接受力、訓練資源的有效性、支援計畫準備程度，以及使用者整體體驗的意見反應。 評估問卷回應，以根據您 (規劃期間所定義的特定、可測量、可達成、相關、有) 目標來測量，並判斷任何其他所需的動作。
+使用意見回饋問卷，在部署後收集使用者的體驗和深入見解。 問題應該會徵求使用者對於變更的接受力、訓練資源的有效性、支援計畫準備程度，以及使用者整體體驗的意見反應。 評估問卷回應，以根據您 (規劃期間所定義的特定、可測量、可達到、相關、有) 目標來測量，並判斷任何其他所需的動作。
 
 自訂下列問題，然後將這些問題轉移到問卷工具 ，SharePoint輕鬆發佈和分析。
 
 針對這些問卷的目的，*新的* 電話系統是指在 Microsoft Teams 或 商務用 Skype 中使用通話功能，以及媒體電話或行動電話等裝置。 這些問卷Microsoft Teams所有參照內容也適用于商務用 Skype。
 
-指出您對於下列聲明的一致程度，因為與將手機Teams相關。 
+表示您對於下列聲明的一致程度，因為與將手機Teams相關。 
 
 |     &nbsp;                              | 完全同意 | 有點同意 | 中性 | 有點不同意 | 完全不同意 | N/A 或不使用 |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
@@ -42,7 +42,7 @@ ms.locfileid: "54312711"
 | 新的電話系統符合我的所有通話需求， (轉接、保留、語音信箱等)                                       |                      |                    |             |                       |                         |                        |
 | 我發現將手機系統與手機系統整合Teams。                                                 |                      |                    |             |                       |                         |                        |
 | 使用 Teams做為我的電話，讓我更容易完成工作。                                          |                      |                    |             |                       |                         |                        |
-| 我的音訊體驗Teams我們舊手機系統一樣好或更好。                   |                      |                    |             |                       |                         |                        |
+| 我的音訊體驗Teams我們的舊電話系統一樣好或更好。                   |                      |                    |             |                       |                         |                        |
 
 如果您選擇上述 **任何** 陳述，請稍稍不同意或完全不同意，請解釋。  (開啟文字) 
 

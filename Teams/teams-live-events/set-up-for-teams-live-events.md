@@ -10,22 +10,22 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-description: 在 Teams 中設定即時事件，包括設定您的網路、指派授權、啟用即時活動功能與排程，以及影片發佈解決方案。
+description: 在 Teams中設定即時事件，包括設定您的網路、指派授權、啟用即時活動功能與排程，以及影片發佈解決方案。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 30dd21b106c68aaad2760800184bc3daf4dd1741c86a19a1ce1f583186d5c3cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 81b86121aceb0b0044f8b7dca422437331803689
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282516"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636617"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中設定即時活動
 
@@ -44,13 +44,13 @@ ms.locfileid: "54282516"
 即時活動原則是用來控制組織中的哪些人員可以舉辦即時活動，以及在他們所建立活動中可用的功能。 您可以使用預設原則或建立一或多個自訂即時活動原則。 建立自訂原則之後，請將它指派給組織中一個或一組使用者。
 
 > [!NOTE]
-> 除非您建立並指派自訂 (，否則貴組織中的使用者將) 整個組織的預設策略。 依預設在全域原則中，會為 Teams 使用者啟用即時活動排程，關閉即時的輔助字幕和翻譯字幕 (謄寫)，組織中的每個人都可以加入即時活動，且錄製設定設為永遠錄製。
+> 除非您建立及指派自訂 (，否則貴組織中的使用者將) 整個組織的預設策略。 依預設在全域原則中，會為 Teams 使用者啟用即時活動排程，關閉即時的輔助字幕和翻譯字幕 (謄寫)，組織中的每個人都可以加入即時活動，且錄製設定設為永遠錄製。
 
 ### <a name="create-or-edit-a-live-events-policy"></a>建立或編輯即時活動原則
 
 <a name="bkcreatepolicy"> </a>
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往會議 Live ****  >  **事件政策**。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 **會議**  >  **Live 事件政策**。
 2. 執行下列其中一個選項：
 
     - 如果要編輯現有的預設原則，請選擇 **[全域 (全組織預設值)]**。
@@ -80,7 +80,7 @@ ms.locfileid: "54282516"
 
 若要讓使用者排程使用外部 App 或裝置所產生事件，您也必須執行下列步驟：
 
-1. 為組織中的使用者啟用 Microsoft Stream。 Stream 可做為合格訂閱或Microsoft 365訂閱Office 365或獨立服務的一部分。 Stream 未包含在商務基本版或商務進階版方案中。 如需詳細資訊，請參閱 [Stream 授權概觀](/stream/license-overview)。
+1. 為組織中的使用者啟用 Microsoft Stream。 Stream 是合格訂閱或Microsoft 365訂閱Office 365或獨立服務的一部分。 Stream 未包含在商務基本版或商務進階版方案中。 如需詳細資訊，請參閱 [Stream 授權概觀](/stream/license-overview)。
 
    >[!Note]
    > 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 OneDrive 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 初期的某時間，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行新的會議錄製。 深入瞭解如何指派 [**授權給使用者**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) ，讓使用者能夠存取 Stream。 確保未針對本文定義的使用者封鎖 [**Stream。**](/stream/disable-user-organization)

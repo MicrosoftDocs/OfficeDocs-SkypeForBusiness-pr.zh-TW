@@ -1,5 +1,5 @@
 ---
-title: 斯洛伐克免付費撥號限制
+title: 斯洛伐克的免付費撥號限制
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,22 +16,22 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解在斯洛伐克撥打免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
-ms.openlocfilehash: 6242443e32660f8a106c5b0642076968f2f41b3f2a17096ad1fa72a062e90217
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解在斯洛伐克撥打免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
+ms.openlocfilehash: d487f9601b1f4ea8afba817acd856922653727b8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285612"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636497"
 ---
-# <a name="toll-free-dialing-restrictions-in-slovakia"></a>斯洛伐克免付費撥號限制
+# <a name="toll-free-dialing-restrictions-in-slovakia"></a>斯洛伐克的免付費撥號限制
 
 [尋找其他國家/地區](../toll-free-dialing-limitations-and-restrictions.md)，或深入瞭解免付費撥號限制與限制。
 
@@ -40,7 +40,7 @@ ms.locfileid: "54285612"
 |:-----|:-----|
 |免付費通話是否可用？  <br/> |是  <br/> |
 |撥號格式 ()   <br/> | 0 800 0XX XXX <br/> |
-|國家/地區 ISO 代碼  <br/> |Sk  <br/> |
+|國家/地區 ISO 代碼  <br/> |SK  <br/> |
 |涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |

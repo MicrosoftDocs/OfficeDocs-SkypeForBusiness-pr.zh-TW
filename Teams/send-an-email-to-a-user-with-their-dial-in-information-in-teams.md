@@ -14,20 +14,20 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 瞭解如何在 Microsoft Teams 中傳送包含其音訊會議資訊Microsoft Teams。
-ms.openlocfilehash: 58524f6a6f4fe8ad8aefb559ae4f9748ffbf506394cf0bf446aa38ae9740d608
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解如何在 Microsoft Teams 中傳送包含其音訊會議資訊的電子郵件。
+ms.openlocfilehash: 7b92cfd6b030dab4dcf823abc17baeb048a0dc42
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350475"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594495"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>將電子郵件傳送給使用者，並將他們的音訊會議資訊Microsoft Teams
 
@@ -57,7 +57,7 @@ ms.locfileid: "54350475"
 
 ## <a name="what-else-should-you-know-about-this-email"></a>關於此電子郵件，您還需要知道什麼？
 
-- 啟用音訊會議後，會向貴組織的使用者數封電子郵件：
+- 啟用音訊會議後，會將數封電子郵件寄給貴組織的使用者：
     
   - 當 **音訊會議授權** 指派給他們時。
     

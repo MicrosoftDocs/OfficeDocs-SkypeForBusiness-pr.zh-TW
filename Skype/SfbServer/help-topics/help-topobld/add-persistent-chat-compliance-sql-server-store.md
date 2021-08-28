@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPersistentChatComplianceStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 description: 您可以設定規范 SQL Server 儲存區，將會為 persistent chat server 或 persistent chat server 相容性功能提供資料庫。
-ms.openlocfilehash: c3a045e8a8489bce7c333ade7a133afbc80016a7db81239c5df5292854a76870
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 09138c2e6a5fb23b6745a5594c231d29c13b911b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309412"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615759"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>新增常設聊天室規範 SQL Server 存放區
  
