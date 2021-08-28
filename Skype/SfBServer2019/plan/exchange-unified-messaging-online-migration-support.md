@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Microsoft 正在撤銷2020年2月28日的 Exchange 整合通訊線上 (ExchUMO) 服務。 本文摘要說明哪些受影響客戶應知道哪些專案，以及應如何規劃其業務持續性。
-ms.openlocfilehash: 933ba625506496c01242b26712e9b6d5b020dbb199c5f515444f7a8734fb84b9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 66a3446b667d000e3cd0a043e60e2f0ea0eae183
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279591"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606822"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合通訊線上移轉支援
 
@@ -129,53 +129,53 @@ Microsoft 365 和 Office 365 組織管理員都必須在 Microsoft 雲端自動�
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO 和 Azure 雲端式服務功能矩陣
 
-| 服務 | 功能層級 | 功能 | 附註  | 雲端 VM/AA  | ExUMO |
+| Service | 功能層級 | 功能 | 附註  | 雲端 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| Vm  | 服務功能| 支援協力廠商 PBX    | 包括協力廠商 PBX 所提供的所有功能，例如 MWI (郵件等候指示器) 使用 SIP 線上 Exchange UM 通知訊息 | N   | Y    |
-| Vm | 服務功能  | 支援商務用 Skype Server   |  | Y | Y    |
-| Vm | 服務功能 | 支援 Microsoft Teams|  | Y | N    |
-| Vm | 服務功能 | eDiscovery 和保留  | 出於安全性和合規性  | Y | Y    |
-| Vm | 服務功能 | Exchange規則支援 | 出於安全性和合規性  | Y | Y    |
-| Vm | 使用者功能 | PSTN 撥入式存取  | 使用者存取  | N | Y    |
-| Vm | 使用者功能 | 委託  | 未接來電電子郵件  | N | Y    |
-| Vm | 使用者功能 | PSTN Outlook 語音存取   | 使用者存取  | N | Y    |
-| Vm | 使用者功能 | 使用已驗證端點撥入 | 呼叫語音信箱服務收聽語音訊息及變更語音信箱設定| Y | Y    |
-| Vm | 使用者功能 | 停用語音信箱的使用者設定   |  | Y | Y    |
-| Vm | 使用者功能 | 變更個人問候語的使用者設定  |  | Y | Y    |
-| Vm | 使用者功能 | 建立 OOF 問候語的使用者設定  |  | Y | Y    |
-| Vm | 使用者功能 | 變更預設語言的使用者設定  |  | Y | Y    |
-| Vm | 使用者功能 | 使用 TTS 覆寫預設問候語的使用者設定  |  | Y | N    |
-| Vm | 使用者功能 | 記錄個人問候語 (已驗證裝置)  |  | Y | Y    |
-| Vm | 使用者功能 | 在電話上播放 (PSTN) 上錄製個人問候語（play） |  | N | Y    |
-| Vm | 使用者功能 | 停用的使用者設定 |  | N | Y    |
-| Vm | 使用者功能 | 謄寫  |  | Y | Y    |
-| Vm | 使用者功能 | MWI (郵件等候指示器) 使用 SIP 通知訊息 |  | N | Y    |
-| Vm | 使用者功能 | Outlook 中 MP3 音訊檔案格式    |  | Y | Y    |
-| Vm | 使用者功能 | 變速播放控制 |  | Y | Y    |
-| Vm | 使用者功能 | 轉寄語音信箱  | 將收到的語音信箱轉寄給其他使用者 | Y | Y    |
-| Vm | 使用者功能 | 傳送語音訊息給使用者群組  |語音信箱廣播   | N | Y   |
-| Vm | 使用者功能 | 使用 SMS 的語音信箱通知    | 當使用者有新的語音信箱時，可以接收短信    | N | Y    |
-| Vm | 使用者功能 | 支援的問候語語言 | 詳細資料： https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
-| Vm | 使用者功能 | 自動答錄規則 |  | Y | Y    |
-| Vm | 使用者功能 | 在電話上播放 (PSTN) -播放郵件 | 在我的儲存格呼叫我收聽語音訊息  | N | Y    |
-| Vm | 使用者功能 | 在電話上播放 (Auth) -播放郵件 | 在我的已驗證裝置上呼叫我  | N | Y    |
-| Vm | 使用者功能 | 多個使用者間的共用信箱 |  | Y | Y    |
-| Vm | 來電者功能  | 來電者體驗-受保護的語音信箱 | 來電者可以選擇將錄製的郵件標記為受保護的選項| N | Y    |
-| Vm | 來電者功能  | 來電者體驗-私人語音信箱 | 來電者可以選擇將錄製的郵件標記為私人的選項  | N | Y    |
-| Vm | 來電者功能  | 靜音偵測   |  | N | Y    |
-| Vm | Tenant-Admin 功能 | 伺服器層級的受保護語音信箱    | 租使用者-系統管理員可以設定服務層級規則，將輸入的語音信箱標記為受保護 | Y | Y    |
-| Vm | Tenant-Admin 功能 | 變更錄製持續時間限制  |     | Y | Y    |
-| Vm | Tenant-Admin 功能 | 變更靜音偵測超時    |  | N/A    | Y    |
-| Vm | Tenant-Admin 功能 | 變更輸入失敗的次數 | CVM：硬編碼為3 | N | Y    |
-| Vm | Tenant-Admin 功能 | 變更預設語言 |  | Y | Y    |
-| Vm | Tenant-Admin 功能 | 停用/啟用功能 |  | Y | Y    |
-| Vm | Tenant-Admin 功能 | 停用/啟用未接來電通知 |  | N | Y    |
-| Vm | Tenant-Admin 功能 | 協助 Microsoft 改善語音信箱預覽   這些選項可讓 Microsoft 改善語音信箱預覽的品質。    |  | Y | Y    |
-| Vm | Tenant-Admin 功能 | 自訂已啟用使用者的文字訊息|  | N/A    | Y    |
-| Vm | Tenant-Admin 功能 | 應對猥褻遮罩|  | Y | N    |
-| Vm | Tenant-Admin 功能 | 語音信箱原則    |   | Y | Y    |
-| Vm | Tenant-Admin 功能 | 網頁入口網站管理   |  | CY19   | Y    |
-| Vm | Tenant-Admin 功能 | PowerShell   |  | Y | Y    |
+| VM  | 服務功能| 支援協力廠商 PBX    | 包括協力廠商 PBX 所提供的所有功能，例如 MWI (郵件等候指示器) 使用 SIP 線上 Exchange UM 通知訊息 | N   | Y    |
+| VM | 服務功能  | 支援商務用 Skype Server   |  | Y | Y    |
+| VM | 服務功能 | 支援 Microsoft Teams|  | Y | N    |
+| VM | 服務功能 | eDiscovery 和保留  | 出於安全性和合規性  | Y | Y    |
+| VM | 服務功能 | Exchange規則支援 | 出於安全性和合規性  | Y | Y    |
+| VM | 使用者功能 | PSTN 撥入式存取  | 使用者存取  | N | Y    |
+| VM | 使用者功能 | 委託  | 未接來電電子郵件  | N | Y    |
+| VM | 使用者功能 | PSTN Outlook 語音存取   | 使用者存取  | N | Y    |
+| VM | 使用者功能 | 使用已驗證端點撥入 | 呼叫語音信箱服務收聽語音訊息及變更語音信箱設定| Y | Y    |
+| VM | 使用者功能 | 停用語音信箱的使用者設定   |  | Y | Y    |
+| VM | 使用者功能 | 變更個人問候語的使用者設定  |  | Y | Y    |
+| VM | 使用者功能 | 建立 OOF 問候語的使用者設定  |  | Y | Y    |
+| VM | 使用者功能 | 變更預設語言的使用者設定  |  | Y | Y    |
+| VM | 使用者功能 | 使用 TTS 覆寫預設問候語的使用者設定  |  | Y | N    |
+| VM | 使用者功能 | 記錄個人問候語 (已驗證裝置)  |  | Y | Y    |
+| VM | 使用者功能 | 在電話上播放 (PSTN) 上錄製個人問候語（play） |  | N | Y    |
+| VM | 使用者功能 | 停用的使用者設定 |  | N | Y    |
+| VM | 使用者功能 | 謄寫  |  | Y | Y    |
+| VM | 使用者功能 | MWI (郵件等候指示器) 使用 SIP 通知訊息 |  | N | Y    |
+| VM | 使用者功能 | Outlook 中 MP3 音訊檔案格式    |  | Y | Y    |
+| VM | 使用者功能 | 變速播放控制 |  | Y | Y    |
+| VM | 使用者功能 | 轉寄語音信箱  | 將收到的語音信箱轉寄給其他使用者 | Y | Y    |
+| VM | 使用者功能 | 傳送語音訊息給使用者群組  |語音信箱廣播   | N | Y   |
+| VM | 使用者功能 | 使用 SMS 的語音信箱通知    | 當使用者有新的語音信箱時，可以接收短信    | N | Y    |
+| VM | 使用者功能 | 支援的問候語語言 | 詳細資料： https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
+| VM | 使用者功能 | 自動答錄規則 |  | Y | Y    |
+| VM | 使用者功能 | 在電話上播放 (PSTN) -播放郵件 | 在我的儲存格呼叫我收聽語音訊息  | N | Y    |
+| VM | 使用者功能 | 在電話上播放 (Auth) -播放郵件 | 在我的已驗證裝置上呼叫我  | N | Y    |
+| VM | 使用者功能 | 多個使用者間的共用信箱 |  | Y | Y    |
+| VM | 來電者功能  | 來電者體驗-受保護的語音信箱 | 來電者可以選擇將錄製的郵件標記為受保護的選項| N | Y    |
+| VM | 來電者功能  | 來電者體驗-私人語音信箱 | 來電者可以選擇將錄製的郵件標記為私人的選項  | N | Y    |
+| VM | 來電者功能  | 靜音偵測   |  | N | Y    |
+| VM | Tenant-Admin 功能 | 伺服器層級的受保護語音信箱    | 租使用者-系統管理員可以設定服務層級規則，將輸入的語音信箱標記為受保護 | Y | Y    |
+| VM | Tenant-Admin 功能 | 變更錄製持續時間限制  |     | Y | Y    |
+| VM | Tenant-Admin 功能 | 變更靜音偵測超時    |  | N/A    | Y    |
+| VM | Tenant-Admin 功能 | 變更輸入失敗的次數 | CVM：硬編碼為3 | N | Y    |
+| VM | Tenant-Admin 功能 | 變更預設語言 |  | Y | Y    |
+| VM | Tenant-Admin 功能 | 停用/啟用功能 |  | Y | Y    |
+| VM | Tenant-Admin 功能 | 停用/啟用未接來電通知 |  | N | Y    |
+| VM | Tenant-Admin 功能 | 協助 Microsoft 改善語音信箱預覽   這些選項可讓 Microsoft 改善語音信箱預覽的品質。    |  | Y | Y    |
+| VM | Tenant-Admin 功能 | 自訂已啟用使用者的文字訊息|  | N/A    | Y    |
+| VM | Tenant-Admin 功能 | 應對猥褻遮罩|  | Y | N    |
+| VM | Tenant-Admin 功能 | 語音信箱原則    |   | Y | Y    |
+| VM | Tenant-Admin 功能 | 網頁入口網站管理   |  | CY19   | Y    |
+| VM | Tenant-Admin 功能 | PowerShell   |  | Y | Y    |
 | UM | 使用者功能 | 商務用 Skype 認證的電話上的郵件等候指示器 (MWI)    |可由電話合作夥伴提供  | 否 | 是    |
 | 機 管 局 | 服務功能 | AA 支援協力廠商 PBX    |  | N | Y    |
 | 機 管 局 | 服務功能 | 支援商務用 Skype Server   |  | Y | Y    |

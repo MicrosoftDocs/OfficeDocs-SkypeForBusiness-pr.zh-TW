@@ -9,15 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: 設定呼叫資料連線器的指示，可讓遙測從商務用 Skype 內部部署，使用商務用 Skype 線上工具進行查看。
-ms.openlocfilehash: bc9346919e3f70d8fe8fe3e43e61a0e715cf0eb9bf52534a2beb2f8604b920f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e064e26ce7b8bfb97793666808b0b8a88ab2efc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323685"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581147"
 ---
 # <a name="configure-call-data-connector"></a>設定通話資料連接器
 

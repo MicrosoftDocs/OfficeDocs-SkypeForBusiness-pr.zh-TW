@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: 因為商務用 Skype Server 是企業級的通訊系統，所以應注意可能影響其基礎結構和通訊的常見安全性攻擊。
-ms.openlocfilehash: 20f8ee917141d56ef1d775afe9868b0f4bb68d5e2aa016487528c8a39bb1ab4d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04fa1eb040c1e208781d862da0bd92bc68a77dbd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297090"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629506"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>現代的日期計算中的常見安全性威脅
  

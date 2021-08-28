@@ -7,18 +7,18 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: anblak
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 整合式聯絡人中心服務概觀 (CCaaS) 解決方案Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b12b28f4898b3b6dc722086d22c616e3938f4580b5f9c4956367663ea841d305
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec4dc5dceccaa515223d3a53255258e190da8788
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321145"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606932"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>連絡人中心整合Microsoft Teams
 
@@ -26,7 +26,7 @@ ms.locfileid: "54321145"
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>什麼是連絡人中心整合功能Microsoft Teams？
 
-Microsoft Teams可在整個通訊模式中 ，包括聊天、視訊會議和通話，做為內部和外部客戶連結的中樞，支援客戶互動的資料流程。 針對部分組織，Microsoft Teams雲端語音功能[，包括](./cloud-voice-landing-page.md)[自動語音語音](./what-are-phone-system-auto-attendants.md)和[通話佇列](./create-a-phone-system-call-queue.md)，符合其需求。
+Microsoft Teams客戶互動的資料流程，可在其通訊模式中 ，包括聊天、視訊會議和通話，做為內部和外部客戶連結的中樞。 針對部分組織，Microsoft Teams雲端語音功能[，包括](./cloud-voice-landing-page.md)[自動語音語音](./what-are-phone-system-auto-attendants.md)和通話[佇列](./create-a-phone-system-call-queue.md)，符合其需求。
 
 針對想要使用商務工具和工作流程的解決方案來推動客戶歷程的組織，Microsoft Teams 的連絡人中心整合可讓連絡人中心成為服務 (CCaaS) 解決方案提供者，將其解決方案整合到 Teams。
 

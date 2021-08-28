@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PublishTopologyStartPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2ea9613d-e74f-434b-aa51-eaaab206ff1e
 description: 當您開始發行程式時，就會顯示 [發行拓撲] 頁面。 請閱讀並確認所列的工作已完成，再繼續進行。 當您準備好要繼續時，請按 [下一步]。 如果您必須關閉發佈程式，請按一下 [取消]。
-ms.openlocfilehash: c4a49437b23416c7abca9431786a1e932e5419f1289fbfe759051f2dce700c16
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a9e61566e7cd0800ef8dba99d89734f6c1545f73
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299520"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629715"
 ---
 # <a name="publish-topology"></a>發行拓撲
  

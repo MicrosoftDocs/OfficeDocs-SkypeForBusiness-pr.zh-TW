@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.DirectorScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此節點會顯示此 Director 集區的完整網域名稱 (FQDN)、連接埠及關聯的檔案存放區。您可以執行下列動作：
-ms.openlocfilehash: 784c8893da62873657840f4ae4f09616e21e1ae2e6982f2fa87b0da9fb70eb83
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3ae2bec8a07cc07ed9cc97e1147abf8def0daf92
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335433"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580937"
 ---
 # <a name="director-scope-node"></a>Director 範圍節點
  

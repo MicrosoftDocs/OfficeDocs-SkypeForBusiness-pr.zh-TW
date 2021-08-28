@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 這可協助您瞭解如何撥打每個國家/地區的免付費號碼。 選取國家/地區之後，它會將您帶至特定國家/地區頁面，其中包含免付費服務可用之免付費服務的特定詳細資料、限制和限制。 撥號格式或格式會顯示每個國家/地區撥打免付費號碼所需的存取碼。
-ms.openlocfilehash: 22e399cede789d6702965a035583827a7ac88fff087a7dd75c450bfe0edd4e61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d79e56fde79b42cd75af8766ac239abb57388838
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323785"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581167"
 ---
 # <a name="toll-free-dialing-restrictions-in-moldova"></a>在摩爾多瓦免付費撥號限制
 
@@ -39,7 +39,7 @@ ms.locfileid: "54323785"
 |:-----|:-----|
 |免付費通話是否可用？  <br/> |是  <br/> |
 |撥號格式 ()   <br/> | 0 800 6XXXX <br/> |
-|國家/地區 ISO 代碼  <br/> |Md  <br/> |
+|國家/地區 ISO 代碼  <br/> |MD  <br/> |
 |涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |

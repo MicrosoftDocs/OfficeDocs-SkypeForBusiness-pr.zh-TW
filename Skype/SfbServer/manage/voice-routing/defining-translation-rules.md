@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 商務用 Skype Server 企業語音會根據標準化為 e.164 格式的電話號碼，進行路由呼叫。 這表示所有撥打的字串都必須正常化為 e.164 格式，以執行反向號碼查閱 (RNL) ，使其可轉譯成比對其相符的 SIP URI。 商務用 Skype Server 提供的功能，可以操縱所叫的識別碼及來電者識別碼簡報。
-ms.openlocfilehash: f297ca2d2f6aea52494557083b1b7d3206276ba40fbdf1a5c018716bccc55e25
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ca51ef7cbb1619877abf1291ffaa2c76087ec6d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333365"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629635"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>在商務用 Skype Server 中定義轉譯規則
 

@@ -13,27 +13,27 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - SMB
-description: 很抱歉，當使用者前往會議廣播並想要使用會議廣播時，某些使用者授權 https://broadcast.skype.com Skype封鎖。 如果使用者看到這則訊息，他們擁有指派給他們的其中一個封鎖授權。 如果您仍希望他們使用它，請指派另一個授權Office 365授權。
-ms.openlocfilehash: d60b945cdcbf050fd869520c0fa9ff86d39d88f0a41d29e34d4be03f0b3bfc2b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 很抱歉，當使用者前往會議廣播並想要使用會議廣播時，某些使用者授權Skype https://broadcast.skype.com 封鎖。 如果使用者看到這則訊息，表示他們已指派其中一個封鎖授權給他們。 如果您仍希望他們使用它，請指派另一個授權給他們Office 365授權。
+ms.openlocfilehash: f8a31a6584020d24bbd4c05d2fe7aeedf6d75d1b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339271"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606732"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>已封鎖託管會議廣播Skype授權
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> 商務用 SkypeOnline 將于 2021 年 7 月 31 日停用，此時將結束服務存取權。 我們鼓勵客戶開始升級至 Microsoft Teams 中通訊和團隊合作的核心用戶端 Microsoft 365。
+> 商務用 SkypeOnline 將于 2021 年 7 月 31 日終止服務存取權。 我們鼓勵客戶開始升級至 Microsoft Teams，這是公司通訊和團隊合作的核心Microsoft 365。
 
-很抱歉，當使用者前往並想要主持會議廣播時，某些使用者授權Skype https://broadcast.skype.com 封鎖。 如果使用者看到這則訊息，他們擁有指派給他們的其中一個封鎖授權。 如果您仍希望他們使用它，請指派另一個授權Office 365授權。
+很抱歉，當使用者前往並想要主持會議廣播時，某些使用者授權Skype https://broadcast.skype.com 封鎖。 如果使用者看到這則訊息，表示他們已指派其中一個封鎖授權給他們。 如果您仍希望他們使用它，請指派另一個授權給他們Office 365授權。
   
  *「您的公司政策不允許您Skype廣播。請與系統管理員確認服務已啟用，且您擁有正確的授權。」* 
   

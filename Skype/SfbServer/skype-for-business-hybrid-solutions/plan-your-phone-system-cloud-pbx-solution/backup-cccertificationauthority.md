@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 47ed4559-fb63-42cd-8ecd-b7d1617e91d3
 description: Backup-CcCertificationAuthority Cmdlet 會將商務用 Skype Cloud Connector Edition 的憑證授權單位服務備份至檔案，並將其儲存至網站共用目錄下的 CA 資料夾。
-ms.openlocfilehash: abf94977abe2a0c3548b549ae0101ae399e124769eaaa9f05aabf203c69656a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f7803a1c773ca3561b13ef5a263002cc4b8e049a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282955"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582527"
 ---
 # <a name="backup-cccertificationauthority"></a>Backup-CcCertificationAuthority
  

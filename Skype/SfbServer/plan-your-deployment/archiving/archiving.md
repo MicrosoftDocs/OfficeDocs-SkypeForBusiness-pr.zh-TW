@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 中規劃封存。
-ms.openlocfilehash: 87a408bd4decfcd4f1f0d1ca7806391ecb3900e8821031efec116d86a0847c3f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9ebe5aa0b2e4e84d436d24f9d8b7db3b450825d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331125"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629575"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃封存
  

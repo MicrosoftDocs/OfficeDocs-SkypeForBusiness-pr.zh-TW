@@ -11,44 +11,44 @@ audience: Admin
 ms.reviewer: roykuntz
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: ff1dfa87d6b88cdcab46a6ea080b2aa8b61d3ba757ab922ae04f2b4b2d2aa70d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b4c26fb1f0a34c2dd0b7fb5159398e7eaf54df3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342538"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58581127"
 ---
 # <a name="block-inbound-calls"></a>封鎖來電
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-商務用 Skype線上通話方案現在支援封鎖從公用交換電話網路或 PSTN (來電) 。 此功能可定義租使用者全域號碼模式清單，以便針對相符專案清單檢查每個傳入 PSTN 通話的本機號碼給租使用者。 如果相符，來電會遭到拒絕。
+商務用 Skype線上通話方案現在支援封鎖從公用交換電話網路或 PSTN (來電) 。 此功能可讓您定義租使用者全域號碼模式清單，以便針對相符專案清單檢查每個傳入 PSTN 通話的本機號碼給租使用者。 如果相符，來電會遭到拒絕。
 
 此來電封鎖功能僅適用于來自 PSTN 的來電，且僅適用于租使用者全域。 它無法以每個使用者為基礎使用。  
 
-這項功能尚未用於直接路由。
+這項功能目前還不適用於直接路由。
 
 >[!NOTE]
 > 封鎖的來電者在遭到封鎖時，可能會遇到稍有不同的行為。 此行為是根據封鎖來電者的電信公司如何處理不允許成功完成通話的通知所決定。 範例可能包括電信公司訊息，指出通話無法以撥號完成，或只是放棄通話。
 
-## <a name="call-blocking-admin-controls-and-information"></a>通話封鎖系統管理控制項和資訊
+## <a name="call-blocking-admin-controls-and-information"></a>通話封鎖系統管理員控制項和資訊
 
 封鎖號碼的系統管理員控制項僅使用 PowerShell 提供。 數位區塊模式定義為正則運算式模式。 運算式的順序是不重要的，清單中符合的第一個模式會導致通話遭到封鎖。 在封鎖的來電者清單中新增或移除的新號碼或模式最多可能需要 24 小時，模式才能變成使用中狀態。
 
 ## <a name="call-blocking-powershell-commands"></a>封鎖 PowerShell 命令的通話
 
-數位模式會透過 ```CsInboundBlockedNumberPattern``` 命令 ```New``` ```Get``` 、、和 進行管理 ```Set``` ```Remove``` 。 您可以使用這些 Cmdlet 來管理一個給定的模式，包括切換啟用給定模式的能力。
+數位模式會透過 ```CsInboundBlockedNumberPattern``` 命令 ```New``` 、和 ```Get``` 進行管理 ```Set``` ```Remove``` 。 您可以使用這些 Cmdlet 來管理一個給定的模式，包括切換啟用給定模式的能力。
 - [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) 會針對每個清單，會返回新到租使用者清單的所有封鎖數位模式清單，包括名稱、描述、已啟用 (True/False) 和 Pattern。
 - [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) 會新增封鎖的號碼模式至租使用者清單。
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) 會從租使用者清單中移除封鎖的號碼模式。
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) 會修改租使用者清單中封鎖之數位模式的一或多個參數。
 
-檢視及啟用整個通話封鎖功能是由命令 ```CsTenantBlockingCallingNumbers``` 和 ```Get``` ```Set``` 管理。
+檢視及啟用整個通話封鎖功能是由命令 ```CsTenantBlockingCallingNumbers``` 和 ```Get``` 管理 ```Set``` 。
 
-- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) 會返回全域封鎖數位清單的參數，包括啟用 (True/False) 。 除了開啟或關閉功能外，無法手動修改單一全域租使用者策略。
-- [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) 可讓您修改全域租使用者封鎖的通話，以在租使用者層級開啟和關閉。
+- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) 會返回全域封鎖數位清單的參數，包括啟用的 (True/False) 。 除了開啟或關閉功能外，無法手動修改單一全域租使用者策略。
+- [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) 允許修改全域租使用者封鎖的通話，以在租使用者層級開啟和關閉。
 
 ### <a name="examples"></a>範例
 
@@ -68,7 +68,7 @@ New-CsInboundBlockedNumberPattern -Name “<name>” -Enabled $True -Description
 
 #### <a name="allow-a-number"></a>允許數位
 
-在此範例中 ```-Identity``` ，參數為必填項：
+在此範例中， ```-Identity``` 參數為必填項：
 
 ```powershell
 Remove-CsInboundBlockedNumberPattern -Identity “<identity>”
@@ -90,7 +90,7 @@ Get-CsInboundBlockedNumberPattern
 
 ## <a name="add-number-exceptions"></a>新增數位例外
 
-您可以透過命令、和 來新增例外，以封鎖的編號 ```CsTenantBlockNumberExceptionPattern``` ```New``` ```Get``` ```Set``` 模式 ```Remove``` 。
+您可以透過命令、和 來新增例外情形到封鎖的編號 ```CsTenantBlockNumberExceptionPattern``` ```New``` ```Get``` ```Set``` 模式 ```Remove``` 。
 
 - [New-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/new-cstenantblockednumberexceptionpattern) 會將數位例外模式新增到租使用者清單中。 
 - [Get-CsTenantBlockedNumberExceptionPattern](/powershell/module/skype/get-cstenantblockednumberexceptionpattern) 會返回新加入租使用者清單的所有數位例外模式清單。
