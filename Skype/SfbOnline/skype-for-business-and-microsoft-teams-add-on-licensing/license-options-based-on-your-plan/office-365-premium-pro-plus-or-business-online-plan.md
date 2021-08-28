@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 瞭解附加元件授權、功能，以及如何購買Microsoft 365 Apps 企業版或線上商務用 Skype方案 2。
-ms.openlocfilehash: a873a35c9550d218fac56294d7b65006602cc5887b5ebba43535beb6bf2570e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解附加元件授權、功能，以及如何購買Microsoft 365 Apps 企業版或商務用 Skype獨立方案 2。
+ms.openlocfilehash: 09f925201ea2d4d3d0248d57476b3b625349aa7d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316389"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619219"
 ---
 # <a name="microsoft-365-apps-for-enterprise-or-skype-for-business-online-standalone-plan-2"></a>Microsoft 365 Apps 企業版或商務用 Skype線上獨立方案 2
 
@@ -35,7 +35,7 @@ ms.locfileid: "54316389"
 如果您已經購買Microsoft 365 Apps 企業版或[](https://products.office.com/en/business/office-365-proplus-business-software)商務用 Skype線上獨立方案[2，](https://products.office.com/skype-for-business/online)以下是您需要購買的附加元件授權，以取得更多商務用 Skype功能。
 
 > [!IMPORTANT]
-> 雖然可以使用 商務用 Skype 電話系統 Online 方案 2 購買音訊會議、電話和通話方案，以啟用語音通話功能，但我們建議您評估 Enterprise E5 方案，看看其是否更具成本效益。
+> 雖然您可以使用 商務用 Skype Online 方案 2 購買音訊會議、電話系統 和通話方案，以啟用語音通話功能，但我們建議您評估 Enterprise E5 方案，看看是否更具成本效益。
 
 |||
 |:-----|:-----|

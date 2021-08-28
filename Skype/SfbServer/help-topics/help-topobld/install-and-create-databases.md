@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.InstallDatabaseCreateDatabasePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 description: 您可以選取要為部署建立的資料庫。 根據預設，會在定義的網站的定義的 SQL Server 上建立資料庫，並根據您放置資料庫所在的 SQL Server 自動部署及設定資料庫檔案。
-ms.openlocfilehash: 1a26353ed44529cd19f94b70fdf25f72fbd8f8d4bb81aa0da41c523d3d35a500
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f79ac80aac6133396ab2c8dd1a008d82c33c4176
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281056"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618859"
 ---
 # <a name="install-and-create-databases"></a>安裝及建立資料庫
 

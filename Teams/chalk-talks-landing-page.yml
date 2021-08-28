@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Microsoft Teams粉筆交談
-summary: 專為 IT 專業人員和決策者設計的粉筆Teams粉筆交談提供一個獨一無二的機會，以學習有關 Teams 中一些最熱門且令人信服案例的最佳作法和實用Teams。
+summary: 專為 IT 專業人員和Teams所設計，粉筆交談提供一個獨一無二的機會，以學習有關 Teams 中一些最熱門且令人信服案例的最佳作法和實用Teams。
 brand: teams
 metadata:
   title: Microsoft Teams粉筆交談
-  description: 專為 IT 專業人員和決策者設計的粉筆Teams粉筆交談提供一個獨一無二的機會，以學習有關 Teams 中一些最熱門且令人信服案例的最佳作法和實用Teams。 這些線上互動式研討會受到主題專家的協助，可為您提供深入見解，Teams強化您的專案執行，並為使用者提供額外的價值。 按一下下方的任何研討會標題以查看可用的日期和時間，並立即註冊！
+  description: 專為 IT 專業人員和Teams所設計，粉筆交談提供一個獨一無二的機會，以學習有關 Teams 中一些最熱門且令人信服案例的最佳作法和實用Teams。 這些線上互動式研討會受到主題專家的協助，可為您提供深入見解，Teams強化您的專案執行，並為使用者提供額外的價值。 按一下下方的任何研討會標題以查看可用的日期和時間，並立即註冊！
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -15,7 +15,7 @@ metadata:
   audience: admin
   f1.keywords:
     - NOCSH
-  localization_priority: Normal
+  ms.localizationpriority: medium
   ROBOTS: 'NOINDEX, NOFOLLOW'
   ms.collection:
     - Teams_ITAdmin_JourneyFromSfB
@@ -30,11 +30,11 @@ productDirectory:
   items:
     - title: 負責音訊/視Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/health-teams.svg'
-      summary: 想要確保使用者擁有會議與語音功能的最佳體驗嗎？ 我們將討論可協助您管理服務品質的工具、報告和最佳做法 ，從建立主動式策略到解決常見問題。
+      summary: 想要確保使用者擁有會議與語音功能的最佳體驗嗎？ 我們會討論可協助您管理服務品質的工具、報告和最佳做法 ，從建立主動式策略到解決常見問題。
       url: 'https://aka.ms/ChalkTalkAVQuality'
     - title: 所以。。。您想要使用電話Teams？
       imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
-      summary: 請加入我們，深入瞭解將 PSTN 通話功能新增到您的Teams部署。 我們會一起介紹通話術語、重要概念和組組。
+      summary: 請加入我們，深入瞭解如何新增 PSTN 通話功能至您的Teams部署。 我們會一起介紹通話術語、重要概念和組組。
       url: 'https://aka.ms/ChalkTalkCalling'
     - title: 使用即時活動來Microsoft Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-teams.svg'
@@ -46,11 +46,11 @@ productDirectory:
       url: 'https://aka.ms/ChalkTalkApps'
     - title: 在應用程式中使用應用程式來Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg'
-      summary: 連線，將貴組織所仰賴的應用程式納入您的Teams。
+      summary: 連線將貴組織所仰賴的應用程式納入您的系統，提高自動化程度，並為使用者提供改良Teams。
       url: 'https://aka.ms/ChalkTalkKeyApps'
     - title: 讓您的前線員工能使用Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/devices-2-teams.svg'
-      summary: 探索最佳做法，以規劃及實作簡化的體驗，為前線員工進行生產力交談、資訊共用及排程管理。
+      summary: 探索最佳做法，以規劃及實作簡化的體驗，為前線員工進行有效率的交談、資訊共用及排程管理。
       url: 'https://aka.ms/TeamsFLW'
 additionalContent:
   sections:
@@ -59,7 +59,7 @@ additionalContent:
           summary: 請查看我們的升級研討會系列。
           url: 'https://aka.ms/upgradeworkshops'
         - title: 準備您的使用者
-          summary: 使用即時訓練來Teams使用者。
+          summary: 使用即時訓練讓使用者Teams運作。
           url: ./instructor-led-training-teams-landing-page.yml
         - title: Teams 的新使用者嗎？
           summary: 深入瞭解如何開始使用Teams。

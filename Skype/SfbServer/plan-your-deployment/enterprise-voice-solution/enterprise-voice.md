@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: 在商務用 Skype Server 中企業語音規劃基礎，包括網站、地區、網站之間的網路連結，以及評估語音使用流量。
-ms.openlocfilehash: 0989fb3fad94a7bb376ee009d4a387b5148965f644c793f65eeb511260c9d620
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bfd7d4b1491b83c6ad3ab65836777e805689c21f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320016"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618809"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>規劃商務用 Skype Server 中的企業語音
  

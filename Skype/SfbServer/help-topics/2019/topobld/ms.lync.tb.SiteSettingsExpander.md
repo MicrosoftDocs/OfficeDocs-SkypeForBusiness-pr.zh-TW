@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SiteSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯現有網站的屬性，請執行下列操作：
-ms.openlocfilehash: 24d5982c39fdb3228c73adb80e2a3e3728b62a163d55b68a9508a57cf5abf154
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cffb93e47d28ae85a70cbbaa70a0f1bf9285c1f3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311701"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619089"
 ---
 # <a name="lync-server-site-settings-expander"></a>Lync Server 網站設定展開工具
 

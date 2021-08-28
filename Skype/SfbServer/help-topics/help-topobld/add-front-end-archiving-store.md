@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndArchivingStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 description: 封存需要支援的64位版本的 Microsoft SQL Server 資料庫軟體才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫，以用於封存，或透過指定 SQL Server 資料庫所在之伺服器 (FQDN) 來定義新的 SQL Server 資料庫，除了您想要用於新 SQL Server 資料庫的 SQL Server 實例之外（也就是您指定 (的命名實例）。
-ms.openlocfilehash: 46f1d06994ce88800432ca9e653555b05c5756710127ad90d70e624e35bdd8dc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 60b30d9395b6b81174b0e037325280e2919fb231
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321735"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601518"
 ---
 # <a name="add-front-end-archiving-store"></a>新增前端封存存放區
 

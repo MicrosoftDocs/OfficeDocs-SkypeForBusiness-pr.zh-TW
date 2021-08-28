@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: 規劃商務用 Skype Server 企業語音中的 E9-1-1 部署時所需的決策。
-ms.openlocfilehash: 0fb334f612c2e63a7c2e47779ee4f02ee0e543741a460933cb632bdd8e54d279
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5ca67f86d9e8ee5a3a26dde86ff9cd25a3c94e4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290061"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635227"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>在商務用 Skype Server 中定義 E9-1-1 部署的範圍
 

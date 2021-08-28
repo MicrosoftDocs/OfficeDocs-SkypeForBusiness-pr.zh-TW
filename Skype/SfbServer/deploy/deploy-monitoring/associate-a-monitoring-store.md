@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 摘要：瞭解如何將前端集區與商務用 Skype Server 所使用的監控存放區產生關聯。
-ms.openlocfilehash: 92713d8b6940011c97507a7138e05e80e1d119b302f9f58843b90bb9861005e9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cff7c2d7bc85916e7e79f4f78005c81f798bcbf7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307794"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601888"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>在商務用 Skype Server 中將監控存放區與前端集區產生關聯 
 **摘要：** 瞭解如何將前端集區與商務用 Skype Server 所使用的監控存放區產生關聯。

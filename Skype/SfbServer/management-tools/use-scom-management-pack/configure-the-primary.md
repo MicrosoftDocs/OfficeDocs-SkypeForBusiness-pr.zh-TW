@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 摘要：設定您的主要管理伺服器、安裝 System Center Operations Manager，以及匯入商務用 Skype Server 2015 的管理元件。
-ms.openlocfilehash: c9a55c44dddbe542fc53e9e047d1309a02bacfaaceee04920d5b63a1f7e25e79
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 926236d673a6988d36699ce0c307441b4aef3357
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343387"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635257"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>如何設定主要管理伺服器
 

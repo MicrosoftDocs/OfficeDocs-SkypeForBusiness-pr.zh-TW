@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 用戶端政策可協助判斷商務用 Skype Online 的可用功能;例如，您可以給予部分使用者傳輸檔案的權利，同時拒絕將這項權利授予其他使用者。
-ms.openlocfilehash: 5f5d0d0cb6f404c7c1bb26f763ba15a402db966fd07c4471d0d7ce115cfbf791
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5fe976e3adb566c469d2c58a5d2b6a976776ac3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282376"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619249"
 ---
 # <a name="set-up-client-policies-for-your-organization"></a>設定組織的用戶端原則
 
@@ -37,13 +37,13 @@ ms.locfileid: "54282376"
 ## <a name="set-your-client-policies"></a>設定用戶端策略
 
 > [!NOTE]
-> 對於 商務用 Skype Online 中所有的用戶端商務用 Skype設定，您必須使用 Windows PowerShell，而且您不得使用 商務用 Skype  **系統管理中心**。 
+> 針對 商務用 Skype Online 中所有的用戶端Windows PowerShell設定，您不得使用 商務用 Skype **系統管理中心**。  
   
 ### <a name="start-windows-powershell"></a>開始Windows PowerShell
 
 > [!NOTE]
 > 商務用 Skype Online 連接器目前是最新 Teams PowerShell 模組的一部分。 如果您使用的是最新的 Teams PowerShell 公開發行版本，則不需要安裝商務用 Skype Online 連接器。
-1. 安裝[powerShell Teams模組](/microsoftteams/teams-powershell-install)。
+1. 安裝 Teams [PowerShell 模組](/microsoftteams/teams-powershell-install)。
     
 2. 開啟 Windows PowerShell命令提示符，然後執行下列命令： 
 
@@ -54,7 +54,7 @@ ms.locfileid: "54282376"
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   如果您想要啟動 Windows PowerShell 功能連線，請參閱在單一 Microsoft 365 視窗中Office 365所有 Microsoft 365 或 Office 365 [Windows PowerShell](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)服務，或設定您的電腦[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+   若要進一Windows PowerShell，請參閱連線視窗中連線所有 Microsoft 365 或 Office 365 [Windows PowerShell](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)服務，或設定您的電腦[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
  
 ### <a name="disable-emoticons-and-presence-notifications-and-prevent-saving-of-ims"></a>停用圖釋和目前狀態通知，並防止保存 IMS
 
@@ -122,7 +122,7 @@ ms.locfileid: "54282376"
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
 
-- Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點管理 Microsoft 365 或 Office 365 和 商務用 Skype Online，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+- Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理Microsoft 365或 Office 365 商務用 Skype管理線上，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
   - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -130,11 +130,11 @@ ms.locfileid: "54282376"
     
 - Windows PowerShell相比于僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
     
-  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用Windows PowerShell執行線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [使用 Windows PowerShell執行線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="related-topics"></a>相關主題
 [建立自訂外部存取原則](create-custom-external-access-policies.md)

@@ -13,15 +13,15 @@ ms.custom:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: 商務用 Skype Server 功能概述規劃工具的相關資訊。
-ms.openlocfilehash: 3729efd7269680ae9186cf498eb7df21fe1abc959344fac2207a6bd5e02e3903
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 74436290cfade5993a466b1e444d81a256e5882e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338291"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618869"
 ---
 # <a name="skype-for-business-server-feature-overview-planning-tool"></a>商務用 Skype Server功能概述規劃工具
  

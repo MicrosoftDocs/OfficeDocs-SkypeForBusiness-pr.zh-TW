@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
 description: 閱讀此主題以瞭解如何管理 Skype 的會議室系統帳戶。
-ms.openlocfilehash: 416a211ec9954dd2c2a8c856a67c72226209f3e7dd6114536574e63c5520b841
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a92a9058ea884e8be5a0a89eab0dccebc15f05e1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279461"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601928"
 ---
 # <a name="manage-skype-room-system-accounts"></a>管理 Skype 會議室系統帳戶
  

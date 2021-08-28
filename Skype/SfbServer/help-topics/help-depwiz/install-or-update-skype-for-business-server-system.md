@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainDeploySystem
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 description: 若要開始安裝，或更新商務用 Skype Server 2015 的現有部署，請按一下 [安裝或更新商務用 Skype Server]。 本節中的步驟會根據拓撲產生器檔，安裝指定伺服器角色特有的元件。 在您開始執行這系列步驟之前，必須先在拓撲產生器中定義部署。 您必須以本機系統管理員身分登入您要部署的電腦，並以伺服器所在網域的 Domain Admins 群組成員身分登入。 完成此步驟之前，電腦必須已加入網域。
-ms.openlocfilehash: a088a700695bca1ceea05411003b48c1f6aa2ca6836d6628b84157a99c3305bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 08574a5f4816eeb9a0e15a28c6e84180cf3af0e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313541"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601618"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>安裝或更新商務用 Skype Server 系統
 

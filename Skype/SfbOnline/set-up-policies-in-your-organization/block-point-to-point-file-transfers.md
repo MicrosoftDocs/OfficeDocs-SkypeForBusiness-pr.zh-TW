@@ -13,24 +13,24 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 在 商務用 Skype Online 中，您可以控制點到點 (P2P) 檔案傳輸，做為現有會議策略設定之一部分。 不過，無論使用者是否要將檔案傳輸給同一個組織的使用者，或是將檔案傳輸給另一個組織的聯盟使用者，這都允許或阻止使用者的檔案傳輸。 按照下列步驟，您可以封鎖與聯盟組織或合作夥伴的 P2P 檔案傳輸。
-ms.openlocfilehash: f09f67793303d393b24cb40077fd3dd3b16d38f278460a2f4d747ef67b97aa96
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 在 商務用 Skype Online 中，您可以控制點到點 (P2P) 檔案傳輸，做為現有會議策略設定之一部分。 不過，無論使用者是否要將檔案傳輸給同一組織的使用者，或將檔案傳輸給另一個組織的聯盟使用者，這都允許或阻止使用者的檔案傳輸。 按照下列步驟，您可以封鎖與聯盟組織或合作夥伴的 P2P 檔案傳輸。
+ms.openlocfilehash: 0e5dc2f2407d5d510ec6dc559a8192d91ac3260f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306196"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619279"
 ---
 # <a name="block-point-to-point-file-transfers"></a>封鎖點對點檔案傳輸
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-在 商務用 Skype Online 中，您可以控制點到點 (P2P) 檔案傳輸，做為現有會議策略設定之一部分。 不過，無論使用者是否要將檔案傳輸給同一個組織的使用者，或是將檔案傳輸給另一個組織的聯盟使用者，這都允許或阻止使用者的檔案傳輸。 按照下列步驟，您可以封鎖與聯盟組織或合作夥伴的 P2P 檔案傳輸。
+在 商務用 Skype Online 中，您可以控制點到點 (P2P) 檔案傳輸，做為現有會議策略設定之一部分。 不過，無論使用者是否要將檔案傳輸給同一組織的使用者，或將檔案傳輸給另一個組織的聯盟使用者，這都允許或阻止使用者的檔案傳輸。 按照下列步驟，您可以封鎖與聯盟組織或合作夥伴的 P2P 檔案傳輸。
   
  一種很常見的情況是，您想要允許內部使用者使用 P2P 檔案傳輸，但封鎖與聯盟合作夥伴的檔案傳輸。 針對此案例，您必須執行以下工作：
   
@@ -40,7 +40,7 @@ ms.locfileid: "54306196"
     
 您可以在這裡進一瞭解這些 [設定](/previous-versions//mt228132(v=technet.10))。
   
-如果貴組織外部的聯盟使用者嘗試將檔案傳送給已採用原則的使用者，他們會收到傳輸 **失敗** 錯誤。 如果使用者嘗試傳送檔案，他們會收到關閉檔案 **傳輸的錯誤。**
+如果貴組織外部的聯盟使用者嘗試將檔案傳送給已採用原則的使用者，他們會收到傳輸 **失敗** 錯誤。 如果使用者嘗試傳送檔案，他們會收到檔案傳輸 **已關閉** 的錯誤。
   
 若要執行此作業，使用者必須使用支援的 2016 即用即用商務用 Skype應用程式。 需要下列 2016 商務用 Skype隨用用戶端的最低版本：
   
@@ -57,7 +57,7 @@ ms.locfileid: "54306196"
 
 > [!NOTE]
 > 商務用 Skype Online 連接器目前是最新 Teams PowerShell 模組的一部分。 如果您使用的是最新的 Teams PowerShell 公開發行版本，則不需要安裝商務用 Skype Online 連接器。
-1. 安裝[powerShell Teams模組](/microsoftteams/teams-powershell-install)。
+1. 安裝 Teams [PowerShell 模組](/microsoftteams/teams-powershell-install)。
     
 2. 開啟 Windows PowerShell命令提示符，然後執行下列命令： 
 
@@ -69,7 +69,7 @@ ms.locfileid: "54306196"
    Connect-MicrosoftTeams -Credential $credential
    ```
    
-   如果您想要啟動 Windows PowerShell 功能連線，請參閱在單一 Microsoft 365 視窗中Office 365所有 Microsoft 365 或 Office 365 [Windows PowerShell](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)服務，或設定您的電腦[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+   若要進一Windows PowerShell，請參閱連線視窗中連線所有 Microsoft 365 或 Office 365 [Windows PowerShell](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)服務，或設定您的電腦[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="disable-p2p-file-transfers-for-your-organization"></a>停用貴組織的 P2P 檔案傳輸
 
@@ -95,15 +95,15 @@ Grant-CsExternalUserCommunicationPolicy -PolicyName BlockExternalFT -Identity am
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
 
-- Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點來管理 Microsoft 365 或 Office 365 和 商務用 Skype Online，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+- Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理Microsoft 365或 Office 365 商務用 Skype管理線上，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
   - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [為什麼您需要使用 powerShell Microsoft 365或Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell相比于僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
+- Windows PowerShell比只使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
     
-  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

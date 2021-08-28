@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 摘要：設定商務用 Skype Server 2015 的非伺服器需求。 進行部署之前，您需要先設定許多專案，包括 Active Directory、DNS、證書和 Fileshares。
-ms.openlocfilehash: a7e71fb74180223f2dec76ac29c5b7c4b8f85f18f953762db383f43812bfd5e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dfaf19ac3c34a13055cd496ad25d02cd4b89c783
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341858"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601328"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的環境需求
  
@@ -280,7 +280,7 @@ ms.locfileid: "54341858"
     
 Standard Edition 伺服器的憑證：
   
-|**認證**|**主體名稱/一般名稱**|**主體替代名稱**|**範例**|**Comments**|
+|**認證**|**主體名稱/一般名稱**|**主體替代名稱**|**範例**|**註解**|
 |:-----|:-----|:-----|:-----|:-----|
 |預設  <br/> |集區的 FQDN  <br/> |伺服器集區的 FQDN 和伺服器的 FQDN  <br/> 如果您擁有多個 SIP 網域，且已啟用用戶端自動設定，則憑證精靈會偵測並新增每個支援的 SIP 網域 FQDN  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格網域名稱系統 (DNS) 比對，則您也需要 sip.sipdomain (對於您具有的每個 SIP 網域) 的項目。  <br/> |SN = se01，SAN = se01  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格 DNS 比對，則您也需要 SAN=sip.contoso.com；SAN=sip.fabrikam.com  <br/> |在 Standard Edition Server，伺服器 FQDN 與集區 FQDN 相同。  <br/> 嚮導會偵測您在安裝期間指定的任何 SIP 網域，並自動將其新增為主體替代名稱。  <br/> 您也可以使用此憑證進行 Server-to-Server 驗證。  <br/> |
 |Web 內部  <br/> |伺服器的 FQDN  <br/> |下列每一項：  <br/> •內部 web FQDN (，其與伺服器的 FQDN)   <br/> 和  <br/> •符合簡易 URLs  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> 或  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = se01，SAN = se01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com;SAN = contoso .com  <br/> 使用萬用字元憑證：  <br/> SN = se01，SAN = se01;SAN = \* contoso.com  <br/> |您無法在拓撲產生器中覆寫內部 web FQDN。  <br/> 如果您有多個符合簡易的 URLs，您必須將它們全部包含為 SANs。  <br/> 簡單 URL 項目支援萬用字元項目。  <br/> |
@@ -288,7 +288,7 @@ Standard Edition 伺服器的憑證：
    
 Enterprise Edition 前端集區中的前端伺服器憑證：
   
-|**認證**|**主體名稱/一般名稱**|**主體替代名稱**|**範例**|**Comments**|
+|**認證**|**主體名稱/一般名稱**|**主體替代名稱**|**範例**|**註解**|
 |:-----|:-----|:-----|:-----|:-----|
 |預設  <br/> |集區的 FQDN  <br/> |伺服器集區的 FQDN 和伺服器的 FQDN  <br/> 如果您擁有多個 SIP 網域，且已啟用用戶端自動設定，則憑證精靈會偵測並新增每個支援的 SIP 網域 FQDN  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格網域名稱系統 (DNS) 比對，則您也需要 sip.sipdomain (對於您具有的每個 SIP 網域) 的項目。  <br/> |SN = eepool，SAN = eepool;SAN = ee01  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格 DNS 比對，則您也需要 SAN=sip.contoso.com；SAN=sip.fabrikam.com  <br/> |精靈會偵測任何您在安裝期間指定的 SIP 網域，並將之自動新增到主體別名。  <br/> 您也可以使用此憑證進行 Server-to-Server 驗證。  <br/> |
 |Web 內部  <br/> |集區的 FQDN  <br/> |下列每一項：  <br/> •內部 web FQDN (，其與伺服器的 FQDN 不同)   <br/> •伺服器 FQDN  <br/> •商務用 Skype 集區 FQDN  <br/> 和  <br/> •符合簡易 URLs  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> 或  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = ee01，SAN = ee01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com;SAN = contoso .com  <br/> 使用萬用字元憑證：  <br/> SN = ee01，SAN = ee01;SAN = \* contoso.com  <br/> |如果您有多個符合簡易的 URLs，您必須將它們全部包含為主體替代名稱。  <br/> 簡單 URL 項目支援萬用字元項目。  <br/> |

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: Convert-CcIsoToVhdx Cmdlet 會使用客戶提供的 Windows Server 2012 R2 ISO 檔案，建立 (VHDX) 的基本虛擬硬碟檔案。 在部署商務用 Skype Cloud Connector Edition 期間會使用 VHDX 檔案。
-ms.openlocfilehash: d168155c918ba1e8a3a576e543eed6693d0fb6faa5bd4fc23efd8c95b2b50fa1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcbe1b4939fd99d6200217925bc52b72f6868873
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349545"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635067"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  

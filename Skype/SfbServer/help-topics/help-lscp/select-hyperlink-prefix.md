@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ImpChooseImSchema
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 description: 使用 [選取超連結首碼] 對話方塊，選取您要封鎖的超連結類型、傳送警告訊息，或是允許您選取 [ (] 以封鎖或傳送警告訊息) 或清除 [ (] 允許) 來自超連結首碼的類別中的副檔名核取方塊。 按一下箭號展開類別，並查看該類別的所有超連結首碼。 如果您想要選取類別的所有超連結首碼，請選取類別名稱。
-ms.openlocfilehash: ba1301bc8c659b4be4a4e8a8a0c2cf8c2c4df2d66aa337dd8853e2d2b7eaf501
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1cdbaad047fbac4f18509ec035bd2ffb2f1d15fd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329997"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619059"
 ---
 # <a name="select-hyperlink-prefix"></a>選取超連結首碼
  

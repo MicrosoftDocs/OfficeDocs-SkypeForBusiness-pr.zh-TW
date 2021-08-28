@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: 閱讀此主題以瞭解如何在商務用 Skype Server 企業語音中規劃增強型緊急服務 (E9-1-1) 部署的位置原則。
-ms.openlocfilehash: 2007e0a530d82dc6b14dee9758c4eeeee75588ca2a81597e18f6a777093f0cf5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b250108fb20a9a1d75069b1036ab7c2fba332443
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286612"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601408"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>規劃商務用 Skype Server 的位置原則
  
@@ -38,7 +38,7 @@ ms.locfileid: "54286612"
   
 啟用此值時，會為用戶端啟用增強型緊急服務， (E9-1-1) 。 當用戶端註冊時，它會嘗試從 Location 資訊服務取得位置，並將位置資訊包含在緊急通話的一部分中。
   
- **位置**
+ **Location**
   
 只有在啟用 **增強型 9-1-1** 時，才會使用此設定。
   

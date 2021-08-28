@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 2015 中設定 Persistent Chat Server 的高可用性和嚴重損壞修復。
-ms.openlocfilehash: d7f7863a6f1a7ccc6310b8b60f7fc7cc233c29d500d01c06d6143489705306f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 265065a5b4ff52dc65dccb4b0e045e3d9e21c452
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314899"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601878"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定 Persistent Chat Server 的高可用性和嚴重損壞修復
  

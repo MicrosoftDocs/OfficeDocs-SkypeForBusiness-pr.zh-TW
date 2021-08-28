@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SelectAllowedMembers
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: 正確使用類別時，建立及管理 Persistent 聊天室的工作會更容易。 Persistent Chat 管理員可以定義每個類別的 AllowedMembers 和建立者，也可以定義將套用到所有在類別中建立之聊天室的預設聊天室設定和行為。 Persistent Chat 系統管理員可以使用控制台或 Windows PowerShell Cmdlet 來建立及管理類別。
-ms.openlocfilehash: 3f757d7c25a429279bbde3c63e717af9d1930cb9ea40076ac9aa5b9d9567356a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e6abad4444624101dd1971ce1525abaebdfc491a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342168"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601538"
 ---
 # <a name="select-allowed-members"></a>選取允許的成員
 

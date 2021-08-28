@@ -9,19 +9,19 @@ manager: serdars
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 摘要：瞭解商務用 Skype Server 中 Edge Server 的環境需求。
-ms.openlocfilehash: c5ca6786d2935209930fe815ea32a24643febb18a7df87f29b26f3c396ca0c66
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 492a4c2ec5a90ea8e2c3eb55ea48a4afec16c67f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302527"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635237"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>商務用 Skype Server 中的 Edge Server 環境需求
  
@@ -102,16 +102,16 @@ ms.locfileid: "54302527"
 
 |**每個集區的 Edge Server 數目**|**DNS 負載平衡所需的 IP 位址數目**|**硬體負載平衡所需的 IP 位址數目**|
 |:-----|:-----|:-----|
-|第  <br/> |6   <br/> |3 (每個 VIP 各 1 個) + 6  <br/> |
+|2   <br/> |6   <br/> |3 (每個 VIP 各 1 個) + 6  <br/> |
 |3   <br/> |9   <br/> |3 (每個 VIP 各 1 個) + 9  <br/> |
 |4   <br/> |12   <br/> |3 (每個 VIP 各 1 個) + 12  <br/> |
-|5   <br/> |8  <br/> |每個 VIP 3 (1) + 15  <br/> |
+|5   <br/> |15   <br/> |每個 VIP 3 (1) + 15  <br/> |
    
 #### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>縮放合併 Edge 的 IP 位址需求所有角色 (單一 IP 位址) 
 
 |**每個集區的 Edge Server 數目**|**DNS 負載平衡所需的 IP 位址數目**|**硬體負載平衡所需的 IP 位址數目**|
 |:-----|:-----|:-----|
-|第  <br/> |第  <br/> |1 (每個 VIP 各 1 個) + 2  <br/> |
+|2   <br/> |2   <br/> |1 (每個 VIP 各 1 個) + 2  <br/> |
 |3   <br/> |3   <br/> |1 (每個 VIP 各 1 個) + 3  <br/> |
 |4   <br/> |4   <br/> |1 (每個 VIP 各 1 個) + 4  <br/> |
 |5   <br/> |5   <br/> |1 (每個 VIP 各 1 個) + 5  <br/> |
@@ -179,7 +179,7 @@ Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (�
     
 - 您可以有三個外部網路介面卡，而不是一個，而將其中一個服務 Ip 指派給每個。 為何這麼做？ 它會分開服務，如果發生錯誤，則會使疑難排解變得更容易，當您解決問題時，可能會讓其他服務繼續運作。
     
-|**位置**|**類型**|**Port**|**FQDN 或 DNS 記錄**|**IP 位址或 FQDN**|**附註**|
+|**Location**|**類型**|**Port**|**FQDN 或 DNS 記錄**|**IP 位址或 FQDN**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |sip.contoso.com  <br/> |**public：** 131.107.155.10 <br/> **私人：** 10.45.16.10 <br/> |Access Edge service 的外部介面。 您將需要商務用 Skype 使用者的每個 SIP 網域的一個。  <br/> |
 |外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**public：** 131.107.155.20 <br/> **私人：** 10.45.16.20 <br/> |Web 會議 Edge service 的外部介面。  <br/> |
@@ -253,7 +253,7 @@ Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (�
     
 - 您可以有三個外部網路介面卡，而不是一個，而將其中一個服務 Ip 指派給每個。 為何這麼做？ 它會分開服務，如果發生錯誤，則會使疑難排解變得更容易，當您解決問題時，可能會讓其他服務繼續運作。
     
-|**位置**|**類型**|**Port**|**FQDN 或 DNS 記錄**|**IP 位址或 FQDN**|**附註**|
+|**Location**|**類型**|**Port**|**FQDN 或 DNS 記錄**|**IP 位址或 FQDN**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |sip.contoso.com  <br/> |**public：** 131.107.155.10 和131.107.155.11 <br/> **private：** 10.45.16.10 和10.45.16.11 <br/> |Access Edge service 的外部介面。 您將需要商務用 Skype 使用者的每個 SIP 網域的一個。  <br/> |
 |外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**public：** 131.107.155.20 和131.107.155.21 <br/> **private：** 10.45.16.20 和10.45.16.21 <br/> |Web 會議 Edge service 的外部介面。  <br/> |
@@ -264,13 +264,13 @@ Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (�
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>所有案例的同盟 (DNS 記錄) 
 
-|**位置**|**類型**|**Port**|**FQDN**|**FQDN 主機記錄**|**附註**|
+|**Location**|**類型**|**Port**|**FQDN**|**FQDN 主機記錄**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |外部 DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp .com  <br/> |sip.contoso.com  <br/> |自動 DNS 探索所需的 SIP 存取 Edge 外部介面。 其他潛在同盟協力廠商使用。 也稱為「允許 SIP 網域」。 您將需要與商務用 Skype 使用者一起使用的每個 SIP 網域的其中一個。  <br/><br/> **附注：** 您將需要此 SRV 記錄的行動性及推播通知結算。 <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>可延伸訊息和顯示狀態通訊協定的 DNS 記錄
 
-|**位置**|**類型**|**Port**|**FQDN**|**IP 位址或 FQDN 主機記錄**|**附註**|
+|**Location**|**類型**|**Port**|**FQDN**|**IP 位址或 FQDN 主機記錄**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |外部 DNS  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp .com  <br/> |xmpp.contoso.com  <br/> |您的 Access Edge service 或 Edge 集區上的 XMPP proxy 介面。 您必須針對具有商務用 Skype Server 已啟用使用者的所有內部 SIP 網域，依需要重複此動作，以便允許具有已啟用之連絡人的連絡人：  <br/> •全域原則  <br/> •使用者已啟用的網站原則  <br/> •套用至商務用 Skype Server 已啟用使用者的使用者原則  <br/> 您也需要在 XMPP 同盟使用者原則中設定允許的 XMPP 原則。  <br/> |
 |外部 DNS  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |主控 XMPP Proxy 服務之 Edge Server 或 Edge 集區上之 Access Edge service 的 IP 位址  <br/> |這會指向主控 XMPP Proxy 服務之 Edge Server 或 Edge 集區上的 Access Edge service。 一般來說，您建立的 SRV 記錄會指向此主機 (A 或 AAAA) record。  <br/> |
@@ -359,7 +359,7 @@ Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (�
   
 |**角色或通訊協定**|**TCP 或 UDP**|**目的地埠或埠範圍**|**來源 IP 位址**|**目的地 IP 位址**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Xmpp  <br/> 商務用 Skype Server 2019 不支援 |TCP  <br/> |5269  <br/> |任何  <br/> |XMPP Proxy 服務 (與 Access Edge service 共用 IP 位址  <br/> |XMPP Proxy 服務接受定義之 XMPP 同盟中 XMPP 連絡人的流量。  <br/> |
+|XMPP  <br/> 商務用 Skype Server 2019 不支援 |TCP  <br/> |5269  <br/> |任何  <br/> |XMPP Proxy 服務 (與 Access Edge service 共用 IP 位址  <br/> |XMPP Proxy 服務接受定義之 XMPP 同盟中 XMPP 連絡人的流量。  <br/> |
 |Access/HTTP  <br/> |TCP  <br/> |80  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |任何  <br/> |憑證吊銷和 CRL 檢查和檢索。  <br/> |
 |存取/DNS  <br/> |TCP  <br/> |53  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |任何  <br/> |透過 TCP 的 DNS 查詢。  <br/> |
 |存取/DNS  <br/> |UDP  <br/> |53  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |任何  <br/> |透過 UDP 的 DNS 查詢。  <br/> |
@@ -427,8 +427,8 @@ Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (�
 
 |**角色或通訊協定**|**TCP 或 UDP**|**目的地埠或埠範圍**|**來源 IP 位址**|**目的地 IP 位址**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Xmpp  <br/> Businesss Server 2019 不支援 Skype |TCP  <br/> |5269  <br/> |任何  <br/> |XMPP Proxy 服務 (與 Access Edge service 共用 IP 位址)   <br/> |XMPP Proxy 服務接受定義之 XMPP 同盟中 XMPP 連絡人的流量。  <br/> |
-|Xmpp  <br/>Businesss Server 2019 不支援 Skype |TCP  <br/> |5269  <br/> |XMPP Proxy 服務 (與 Access Edge service 共用 IP 位址)   <br/> |任何  <br/> |XMPP Proxy 服務會從已定義 XMPP 同盟中的 XMPP 連絡人傳送流量。  <br/> |
+|XMPP  <br/> Businesss Server 2019 不支援 Skype |TCP  <br/> |5269  <br/> |任何  <br/> |XMPP Proxy 服務 (與 Access Edge service 共用 IP 位址)   <br/> |XMPP Proxy 服務接受定義之 XMPP 同盟中 XMPP 連絡人的流量。  <br/> |
+|XMPP  <br/>Businesss Server 2019 不支援 Skype |TCP  <br/> |5269  <br/> |XMPP Proxy 服務 (與 Access Edge service 共用 IP 位址)   <br/> |任何  <br/> |XMPP Proxy 服務會從已定義 XMPP 同盟中的 XMPP 連絡人傳送流量。  <br/> |
 |Access/SIP (TLS)   <br/> |TCP  <br/> |443  <br/> |任何  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |外部使用者存取的用戶端對伺服器 SIP 流量。  <br/> |
 |Access/SIP (MTLS)   <br/> |TCP  <br/> |5061  <br/> |任何  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |適用于使用 SIP 的同盟與公用 IM 連線。  <br/> |
 |Access/SIP (MTLS)   <br/> |TCP  <br/> |5061  <br/> |**使用 NAT 的私人 IP：** Edge Server Access Edge service <br/> **公用 IP：** Edge Server Access Edge service 公用 IP 位址 <br/> |任何  <br/> |適用于使用 SIP 的同盟與公用 IM 連線。  <br/> |

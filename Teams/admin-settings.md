@@ -8,8 +8,8 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ritikag, rarang
-description: 瞭解您可以在 Microsoft Teams 中為貴組織管理應用程式Microsoft Teams。
-localization_priority: Normal
+description: 瞭解您可以在 Microsoft Teams 中管理貴組織應用程式Microsoft Teams。
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e208f4a8807da6b5a28f79bdcd5cb818483f867767b5371d0b2c7fc0ea40a7f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f53de9b5cd8d7ef4cb4df29afeac43f73187519b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314309"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635037"
 ---
 # <a name="admin-settings-for-apps-in-microsoft-teams"></a>應用程式中應用程式的系統管理Microsoft Teams
 
@@ -37,11 +37,11 @@ ms.locfileid: "54314309"
 
 您可以在系統管理中心的 Teams **管理** 貴組織的應用程式。  (請參閱使用[Teams](./using-admin-roles.md)系統管理員角色來管理 Teams 以閱讀取得系統管理員角色和許可權的資訊。) 例如，您可以允許或封鎖組織層級的應用程式、設定策略以控制 Teams 使用者可以使用哪些應用程式，以及釘住使用者最重要的應用程式來自訂 Teams。
 
-我們會持續改善應用程式體驗，Teams新增功能與功能。 一段時間之後，我們會建立額外的應用程式管理功能，因此請回來查看應用程式政策上最新的資訊。
+我們會持續改善應用程式體驗，Teams新增功能與功能。 一段時間之後，我們會建立額外的應用程式管理功能，因此請回來查看應用程式政策最新資訊。
 
 ## <a name="manage-apps"></a>管理應用程式
 
-使用管理 **應用程式** 頁面來查看及管理Teams應用程式目錄中的所有應用程式。 您可以查看應用程式的組織層級狀態和屬性、封鎖或允許組織層級的應用程式、將新的自訂應用程式上傳到租使用者目錄，以及管理整個組織的應用程式設定。
+使用管理 **應用程式** 頁面來查看及管理Teams應用程式目錄中的所有應用程式。 您可以查看應用程式的組織層級狀態和屬性、封鎖或允許組織層級的應用程式、將新的自訂應用程式上傳到您的租使用者目錄，以及管理整個組織的應用程式設定。
 
 管理 **應用程式頁面** 提供您租使用者目錄中所有可用 App 的視圖，為您提供決定要允許或封鎖整個組織之應用程式所需的資訊。 然後，您可以使用 [應用程式權限原則](#app-permission-policies)、 [應用程式設定](#app-setup-policies)策略，以及 [自訂應用程式策略和](#custom-app-policies-and-settings) 設定，為貴組織的特定使用者設定應用程式體驗。
 

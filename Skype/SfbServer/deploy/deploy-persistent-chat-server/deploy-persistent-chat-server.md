@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8373c93b-92a7-4932-bc1f-00fc08955426
 description: 摘要：閱讀此主題以瞭解如何部署商務用 Skype Server 2015 Persistent Chat Server。
-ms.openlocfilehash: bfe287184426fd1dc856d8dc29bf1f13cb0720bffcdf392791bb75b9813b383e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ad0b78366613355859f8fec512d427ef3e3d5bdb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314889"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619199"
 ---
 # <a name="deploy-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中部署 Persistent Chat Server
  

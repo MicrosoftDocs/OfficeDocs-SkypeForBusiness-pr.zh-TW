@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainForestPrep
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: 若要準備 Active Directory 網域服務樹系，您必須順利擴充架構（如執行架構準備的主題中所述），並確定架構已複製。
-ms.openlocfilehash: 6b02ae0139c4ac813dd8562b237022112f76201d79e82b856e5bfe7e8d6972e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b4473eaf12133ca5f643c98778133a99a64e5a44
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309642"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619069"
 ---
 # <a name="prepare-current-forest"></a>準備目前的樹系
 

@@ -19,14 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 本文包含停用混合成 Teams 和商務用 Skype 之雲端合併的一部分的詳細步驟。
-ms.openlocfilehash: eb7e72644bf5f69a763540c1c256d7aabb5f9f6f474d1d570071f68a4c2584e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 06d8980a14944004b22fbacc0aecef453d49123e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330697"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619309"
 ---
 # <a name="disable-your-hybrid-configuration-to-complete-migration-to-teams-only"></a>停用混合式設定，僅完成 Teams 的遷移 
 

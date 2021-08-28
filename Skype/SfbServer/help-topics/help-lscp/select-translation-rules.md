@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceTrunkSelRule
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 55776a94-4888-4436-a3b6-0e6f8252e392
 description: 企業語音需要將所有撥號字串正常化為 e.164 格式，以執行反向號碼查閱 (RNL) 。 主幹對等 (亦即，關聯的閘道、PBX 或 SIP 主幹) 可能要求號碼要為當地撥號格式。 為了將號碼從 E.164 格式轉譯成當地撥號格式，您可以選用定義一或多個轉譯規則，先操作要求 URI 再將它遞送給主幹對等。 例如，您可以撰寫轉譯規則，從撥號字串的開頭移除 +44 並替換成 0144。
-ms.openlocfilehash: 15e3970b82cc0018d379133085bac7ba5fb78d835d7767557b91d1228af4c7ce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f8c59f3fda1f22a1d792e1c99c015ff974550c1e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287082"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618929"
 ---
 # <a name="select-translation-rules"></a>選取轉譯規則
  

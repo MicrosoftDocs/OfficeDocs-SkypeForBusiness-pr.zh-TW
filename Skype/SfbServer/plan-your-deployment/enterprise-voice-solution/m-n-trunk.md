@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: 商務用 Skype Server 企業語音支援轉送伺服器與元件之間的 M:N 中繼，例如 PSTN 閘道、會話邊界控制器及 IP-PBX。
-ms.openlocfilehash: dc140847e26860716e4beea5abe873f58bd63e90449fb93610329187321d18e9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c63c01609e35be014aae9c3019c8f96c9b95b41
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286472"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601338"
 ---
 # <a name="mn-trunk-in-skype-for-business-server"></a>商務用 Skype Server 中的 M:N 主幹
  

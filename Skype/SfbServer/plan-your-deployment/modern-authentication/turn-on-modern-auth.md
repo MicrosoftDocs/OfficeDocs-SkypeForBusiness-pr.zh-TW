@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: 本文概述的 Cmdlet 可讓系統管理員更深入地控制企業內部及外部使用的驗證方法。 管理員可以在內部或外部開啟或關閉驗證方法。
-ms.openlocfilehash: c9d4cce512ebb296cb442c6a78482f19bf7062aaceb8fe8704cbca3c277e4e92
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7bad18e79e1595c7dfe4518d73b6dd764e313e22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306874"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601358"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>規劃在內部和外部關閉舊版驗證方法。
 
