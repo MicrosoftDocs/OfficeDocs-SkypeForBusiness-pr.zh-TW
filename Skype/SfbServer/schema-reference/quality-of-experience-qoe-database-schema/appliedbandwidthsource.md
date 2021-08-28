@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 24fb3caf-19b3-4c0a-90d7-ca5d53de32ad
 description: AppliedBandwidthSource 表格是一種支援資料表，其中的每一項記錄都代表一種來源。
-ms.openlocfilehash: fcb0323b1e6775b20a8ca4d269bcc8eecdc055b73d5a93a490e97f8a1af44b11
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2daa4d35d11c000503fa83c79963df14886f50cd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305345"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633467"
 ---
 # <a name="appliedbandwidthsource-table"></a>AppliedBandwidthSource 表格
  

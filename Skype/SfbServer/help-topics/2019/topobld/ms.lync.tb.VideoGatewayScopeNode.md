@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.VideoGatewayScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2071b375-4978-4ff5-ae38-5e4a621bf6a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 [拓撲產生器] 中定義新的 VIS 或視頻閘道所需的步驟，在商務用 Skype Server 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: 878153bc4907754b7a8e95d07df02126fa96274f2beef26017b65d004edb545a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f36bcc1fc816cadcbb22e7c0f95f68f5398e45ef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278971"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633177"
 ---
 # <a name="video-gateway-scope"></a>視訊閘道範圍
  

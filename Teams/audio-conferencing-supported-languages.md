@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
-description: '尋找每個國家/地區電話撥入式會議語言，以及指派 (en-US、da-DK、de-DE 等帳戶的) '
-ms.openlocfilehash: 5bd81e85f3944ce1a38bed2c1dc4110f3d3eaf9d7c59f3e0b3180c911d513f5b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: '尋找每個國家/地區電話撥入式會議語言，以及指派給 (en-US、da-DK、de-DE 等語言的) '
+ms.openlocfilehash: 4ecdcf951fde12af53b64cdafd4028e5638f6f27
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340509"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633427"
 ---
 # <a name="audio-conferencing-supported-languages"></a>音訊會議的支援語言
 
@@ -87,7 +87,7 @@ ms.locfileid: "54340509"
    
 如果您正在尋找可以購買音訊會議的國家/地區，請參閱音訊會議與通話方案的國家/地區 [可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
-如果您正在尋找具有音訊會議電話號碼的特定國家/地區，請參閱 Microsoft Teams 中的[電話](phone-numbers-for-audio-conferencing-in-teams.md)音訊會議號碼，或[商務用 Skype Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)的音訊會議 電話 號碼。
+如果您正在尋找具有音訊會議電話號碼的特定國家/地區，請參閱 Microsoft Teams 中的[電話](phone-numbers-for-audio-conferencing-in-teams.md)音訊會議號碼，或 商務用 Skype [Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)的音訊會議 電話 號碼。
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想要瞭解如何使用 Windows PowerShell？
 
@@ -97,9 +97,9 @@ ms.locfileid: "54340509"
     
   - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell比使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如一次對許多使用者進行設定變更。 請從下列主題瞭解這些優點： 
+- Windows PowerShell比只使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如，當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點： 
     
   - [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
@@ -108,7 +108,7 @@ ms.locfileid: "54340509"
   - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
     
     > [!NOTE]
-    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell[模組商務用 Skype Online。](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell Online 模組商務用 Skype[下載。](https://go.microsoft.com/fwlink/?LinkId=294688)
   
 ## <a name="related-topics"></a>相關主題
 

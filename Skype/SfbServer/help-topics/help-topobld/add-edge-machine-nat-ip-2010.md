@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeMachineNatIpPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 592496a5-4e03-496e-9b54-2ce3e4ce6733
 description: 如果由網路位址轉譯 (NAT) 來轉譯此 Edge 集區的公用 IP 位址，您必須提供要轉譯的公用 IP 位址。這應該是 A/V Edge Service 的外部 IP 位址。
-ms.openlocfilehash: e90d2d45b76627823b416bab16d2bd25faeeb1bc5914f957bf778399ecc43735
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 247a02cafe84ee522bb95d2ef4076950bd983443
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320515"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634467"
 ---
 # <a name="add-edge-machine-nat-ip-2010"></a>新增 Edge 電腦 NAT IP 2010
  

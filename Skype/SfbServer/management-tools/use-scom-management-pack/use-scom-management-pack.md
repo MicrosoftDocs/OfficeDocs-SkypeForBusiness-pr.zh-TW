@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 摘要：瞭解如何設定您的商務用 Skype Server 2015 基礎結構，以與 System Center Operations Manager 搭配使用。
-ms.openlocfilehash: d2a026de164a58365377f697aa88cf91b728722875aa9cdf8733444055742ce1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5dc5a4c01cd4e45c6b1145725b17073d910e66f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283215"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627975"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>使用 SCOM 管理元件管理商務用 Skype Server 2015
  
@@ -45,10 +45,10 @@ ms.locfileid: "54283215"
   
 |設定|支援？|
 |:-----|:-----|
-|Windows Server 2008 R2 operating system  <br/> Windows Server 2012R2 作業系統  <br/> |是的。 在商務用 Skype Server 2015 伺服器及綜合交易觀察程式節點上。  <br/> |
+|Windows Server 2008 R2 operating system  <br/> Windows Server 2012R2 作業系統  <br/> |是。 在商務用 Skype Server 2015 伺服器及綜合交易觀察程式節點上。  <br/> |
 |聚簇伺服器  <br/> |不支援。  <br/> |
 |無代理監控  <br/> |不支援。  <br/> |
-|虛擬環境  <br/> |是的。  <br/> |
+|虛擬環境  <br/> |是。  <br/> |
 |加入網域的伺服器角色  <br/> |所有內部商務用 Skype Server 2015 伺服器角色必須已加入網域。  <br/> |
 |獨立伺服器角色  <br/> |商務用 Skype Server 2015 Edge server 不一定要加入網域。  <br/> |
 |拓撲限制  <br/> |部署中的所有伺服器角色都必須從相同的 Operations Manager 管理群組進行監視。  <br/> |
@@ -128,8 +128,8 @@ ms.locfileid: "54283215"
 
 |註冊、目前狀態及連絡人支援的綜合交易|||
 |:-----|:-----|:-----|
-|1  <br/> |註冊 (使用者登入)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
-|第  <br/> |通訊錄服務 (檔案下載)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
+|1   <br/> |註冊 (使用者登入)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
+|2   <br/> |通訊錄服務 (檔案下載)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
 |3   <br/> |通訊錄 Web 查詢  <br/> |可用的 Lync Server 2010 及以上  <br/> |
 |4   <br/> |目前狀態  <br/> |可用的 Lync Server 2010 及以上  <br/> |
 |5   <br/> |整合聯絡資料儲存  <br/> |可用的 Lync Server 2013 及以上  <br/> |
@@ -149,11 +149,11 @@ ms.locfileid: "54283215"
 |:-----|:-----|:-----|
 |9   <br/> |音訊和視訊會議  <br/> |可在 Lync Server 2010 和之後使用  <br/> |
 |10   <br/> |資料會議  <br/> |可在 Lync Server 2013 和之後使用  <br/> |
-|第  <br/> |立即訊息會議  <br/> |可在 Lync Server 2010 和之後使用  <br/> |
+|11   <br/> |立即訊息會議  <br/> |可在 Lync Server 2010 和之後使用  <br/> |
 |12   <br/> | 常設聊天室 <br/> |可在 Lync Server 2013 和之後使用  <br/> |
-|13  <br/> |加入 Launcher (排程的會議)   <br/> |可在 Lync Server 2013 和之後使用  <br/> |
+|13   <br/> |加入 Launcher (排程的會議)   <br/> |可在 Lync Server 2013 和之後使用  <br/> |
 |14   <br/> |電話撥入式會議  <br/> |商務用 Skype Server 2015 的新功能  <br/> |
-|8  <br/> |應用程式共用會議  <br/> |商務用 Skype Server 2015 的新功能  <br/> |
+|15   <br/> |應用程式共用會議  <br/> |商務用 Skype Server 2015 的新功能  <br/> |
 |16   <br/> |UCWA 會議 (web 會議加入)   <br/> |商務用 Skype Server 2015 的新功能  <br/> |
 ||||
 

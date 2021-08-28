@@ -16,25 +16,25 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft Teams 中為大型組織設定和測試自動Microsoft Teams。
-ms.openlocfilehash: 6db2dd5b63e26c74de09b8d4b563fe48393a3a37
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 16a26cd3384ddaaa3003649a3026bbe876a38399
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398902"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634867"
 ---
-# <a name="set-up-an-auto-attendant"></a>設定自動機務員
+# <a name="set-up-an-auto-attendant"></a>設定自動話務員
 
 自動話務員可讓人打電話給您的組織，並流覽功能表系統，與正確的部門、通話佇列、人員或接線生通話。 您可以使用系統管理中心或 PowerShell 為貴組織Microsoft Teams自動助理。
 
 > [!TIP]
-> 本文適用于大型組織。 如果貴組織是小型企業，請改為閱讀設定自動話務員 [- 小型企業](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 教學課程。
+> 本文適用于大型組織。 如果貴組織是小型企業，請改為閱讀設定 [自動話務](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 員 - 小型企業教學課程。
 
 請務必先閱讀自動Teams[](plan-auto-attendant-call-queue.md)和通話佇列方案，並遵循開始使用的步驟，然後再遵循本文中的程式[](plan-auto-attendant-call-queue.md#getting-started)。
 
@@ -45,12 +45,12 @@ ms.locfileid: "58398902"
 - **語音應用程式** - 另一個自動語音留言機或通話佇列。  (選擇此目的地時，選擇與自動電話機或通話佇列相關聯的資源帳戶。) 
 - **語音** 信箱 - 與您指定的Microsoft 365群組相關聯的語音信箱。 您可以選擇是否要語音信箱字幕和「請在語音信箱後留言」。 系統提示。
 - **外部電話號碼** - 任何電話號碼。  (請參閱[外部移轉技術詳細資料) 。](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
-- **公告 (音訊)** - 播放音訊檔案。 您上傳的已錄製公告訊息，儲存為音訊。WAV、.MP3或 。WMA 格式。 錄製內容不能大於 5 MB。 系統會播放公告，然後返回自動助理功能表。
+- **公告 (音訊)** - 播放音訊檔案。 您上傳的錄製公告訊息，儲存為音訊。WAV、.MP3或 。WMA 格式。 錄製內容不能大於 5 MB。 系統會播放公告，然後返回自動助理功能表。
 - **公告 (輸入)** - 在郵件中輸入。 您希望系統讀取的文字。 您最多可以輸入 1000 個字元。 系統會播放公告，然後返回自動助理功能表。
 
 當您設定自動語音機時，系統會提示您于各個階段選擇其中一個選項。
 
-若要設定自動語音Teams，請在系統管理中心展開 **語音**，選取自動語音，然後 **選取新增**。 
+若要設定自動語音Teams，請在系統管理中心展開 **語音**，選取自動語音 **留言，然後****選取新增**。
 
 ## <a name="video-demonstration"></a>影片示範
 
@@ -83,9 +83,9 @@ ms.locfileid: "58398902"
 
 選擇當自動回應接聽來電時，是否要播放問候語。
 
-如果您選取 **播放音訊檔案**，您可以使用 Upload **按鈕** 上傳儲存為音訊的錄製問候語訊息。WAV、.MP3或 。WMA 格式。 錄製內容不能大於 5 MB。
+如果您選取 **播放音訊檔案**，您可以使用 Upload **按鈕上傳** 儲存為音訊的錄製問候語訊息。WAV、.MP3或 。WMA 格式。 錄製內容不能大於 5 MB。
 
-如果您選取輸入 **問候語訊息** ，當自動 (接聽來電時，系統會朗讀您輸入) 最多 1000 個字元的文字。
+如果您選取輸入 **問候語訊息** ，當自動 (接聽來電時，系統會朗讀您輸入 (最多 1000 個字元的文字) 自動回應接聽來電。
 
 ![通話路由設定螢幕擷取畫面](media/auto-attendant-call-flow-route-call-message.png)
 
@@ -143,10 +143,10 @@ ms.locfileid: "58398902"
 - 範例 2：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
 - 範例 3：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-您可以在系統管理中心或 Microsoft 365 系統管理中心[中Azure Active Directory](https://admin.microsoft.com/)[副檔名](https://aad.portal.azure.com)。 自動電話機和通話佇列最多可能需要 12 小時才能進行變更。
+您可以在系統管理中心或 Microsoft 365 系統管理中心[設定](https://admin.microsoft.com/)[Azure Active Directory副檔名](https://aad.portal.azure.com)。 自動電話機和通話佇列最多可能需要 12 小時才能進行變更。
 
 > [!NOTE]
-> 如果您想要同時使用名稱撥號和分機撥號功能，您可以在主自動電話機上指派撥號鍵，以到達啟用名稱撥號 **的自動總機**。 您可以在該自動話務員中指派 1 個按鍵 (沒有與其關聯的字母，) **分機自動** 總機撥號。
+> 如果您想要同時使用名稱撥號和分機撥號功能，您可以在主自動電話機上指派撥號鍵，以到達啟用名稱撥號 **的自動總機**。 您可以在該自動話務員中指派 1 個按鍵 (沒有與其關聯的字母) **分機自動** 總機撥號。
 
 選取目錄搜尋 **選項之後，** 請選取 下 **一步**。
 
@@ -194,11 +194,11 @@ ms.locfileid: "58398902"
 
 ## <a name="dial-scope"></a>撥號範圍
 
-![撥號範圍包含和排除選項的螢幕擷取畫面](media/auto-attendant-dial-scope.png)
+![撥號範圍包含及排除選項的螢幕擷取畫面](media/auto-attendant-dial-scope.png)
 
 撥號 *範圍* 會定義當來電者使用撥號名稱或撥號分機時，哪些使用者可在目錄中使用。 預設為 **所有線上使用者**，包括貴組織的所有使用者，這些使用者都是線上使用者，或是由內部部署使用者商務用 Skype Server。
 
-您可以選取包含或排除下的自訂使用者群組，並選擇一或多個Microsoft 365群組、通訊群組清單或安全性群組。  例如，您可能會想要將貴組織的主管排除在撥號目錄中。  (如果使用者同時位於這兩個清單中，就會被排除在目錄中。) 
+您可以選取在包含或排除下的自訂使用者群組，並選擇一或多個Microsoft 365群組、通訊群組清單或安全性群組，以包含或排除特定使用者。  例如，您可能會想要將貴組織的主管排除在撥號目錄中。  (如果使用者同時在兩個清單中，就會被排除在目錄中。) 
 
 > [!NOTE]
 > 新使用者最多可能需要 36 小時，才能將名稱列在目錄中。
@@ -215,17 +215,17 @@ ms.locfileid: "58398902"
 
 ![顯示資源帳戶與已指派服務編號的資源帳戶清單螢幕擷取畫面](media/auto-attendant-resource-account-assigned.png)
 
-當您完成新增資源帳戶後，請選取 **提交** 以完成自動總機配置。
+當您完成新增資源帳戶後，請選取 **提交** 以完成自動話務組組。
 
-請參閱[管理Teams資源](manage-resource-accounts.md)帳戶以瞭解更多資訊。
+請參閱[管理Teams資源帳戶](manage-resource-accounts.md)以瞭解更多資訊。
 
 ## <a name="external-phone-number-transfers---technical-details"></a>外部電話號碼傳輸 - 技術詳細資料
 
 請參閱先決條件 [，](plan-auto-attendant-call-queue.md#prerequisites) 以便允許自動電話機在外部轉接通話。  另外：
 
-- 對於具有通話方案授權的資源[](calling-plans-for-office-365.md)帳戶，外部轉接電話號碼必須以 E.164 格式輸入 (+[國碼][區碼][電話號碼]) 。
+- 對於具有通話方案授權的資源[](calling-plans-for-office-365.md)帳戶，外部轉接電話號碼必須以 E.164 格式輸入 (+[國家/地區代碼][區碼][電話號碼]) 。
 
-- 對於具有授權電話系統直接路由線上語音路由策略的資源帳戶，外部傳輸電話號碼格式取決於會話邊界控制器[ (SBC](direct-routing-connect-the-sbc.md)) 設定。
+- 對於具有授權和電話系統路由線上語音路由策略的資源帳戶，外部傳輸電話號碼格式取決於會話邊界控制器[ (SBC](direct-routing-connect-the-sbc.md)) 設定。
 
 顯示的外發電話號碼如下：
 

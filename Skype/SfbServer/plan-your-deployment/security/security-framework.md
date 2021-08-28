@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 description: 本節提供組成商務用 Skype Server 安全性框架之基礎元素的概述。 瞭解這些元素的運作方式，對於保證特定商務用 Skype Server 部署的安全決策是必要的。
-ms.openlocfilehash: a0f6513f86d7416f546c6a744fc1b40df7c7137a18dae5d76fcf18166a4f2eb1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 27c5cdd1e9ff662a2a7d39ded04782af666ddb29
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337711"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627905"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>商務用 Skype Server 的安全性框架
  

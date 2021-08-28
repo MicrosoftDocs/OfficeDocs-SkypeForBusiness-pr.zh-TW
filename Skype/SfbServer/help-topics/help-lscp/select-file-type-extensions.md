@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ImpChooseFileType
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 description: 使用 [選取副檔名] 對話方塊，選取 (封鎖) 或清除 (允許) [副檔名] 底下的副檔名旁邊的核取方塊，即可選取您要封鎖或允許的副檔名。按一下箭頭即可展開類別，並檢視該類別的所有副檔名。如果您想要選取類別的所有副檔名，請選取類別名稱。
-ms.openlocfilehash: 337016f01b3fc9aea0559572d3d21c8cbbaa76f49cae6b17faf8010a97f5265a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 18339e11b60e232ed3a85c4708976111ad0a11bb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330047"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634507"
 ---
 # <a name="select-file-type-extensions"></a>選取副檔名類型
  

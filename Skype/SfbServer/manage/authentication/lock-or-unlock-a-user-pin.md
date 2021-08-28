@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 摘要：鎖定或解除鎖定使用者的電話撥入式會議 PIN 以取得商務用 Skype Server。
-ms.openlocfilehash: d0871622a045555dcd2da49a6bbbd6721a8d3302a6bf3c7800092e4f7e062d32
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8348685e925d9726c43ecd54b6116b9b40652208
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284803"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633637"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>鎖定或解除鎖定商務用 Skype Server 中的使用者 PIN
  

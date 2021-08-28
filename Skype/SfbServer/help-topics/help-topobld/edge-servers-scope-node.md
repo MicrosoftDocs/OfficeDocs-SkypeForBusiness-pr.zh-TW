@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeServersScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
 description: '[Edge 集區] 節點會列出您拓撲中的 Edge 集區。您可以執行下列動作：'
-ms.openlocfilehash: 490d24a99c64d5fe0263bd8e8eabe8074ff2d2af3cb162482252bf86f356ffeb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a3a61c5405b9298a10bfc72ff6d7167c574aecc6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286892"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633657"
 ---
 # <a name="edge-servers-scope-node"></a>Edge Server 範圍節點
  

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于德國Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 53a775c6fa661c7222acb1370cd9426c0536890496c03eed128e2446788c5968
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5d0ef40f401643b15ffce62a94fc1685161480ee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308892"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633317"
 ---
 # <a name="availability-in-germany"></a>德國的可用性
 
@@ -61,7 +61,7 @@ ms.locfileid: "54308892"
 |:-----|:-----|
 |可以購買通話方案嗎？  <br/> |是  <br/> |
 |通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內通話或 600 分鐘的國際通話 (以在一個日曆月份內) </li></li>|
-|可以撥打付費號碼的外接電話嗎？ <br/> | 目前不支援。 <br/> |
+|可以撥打付費號碼外接電話嗎？ <br/> | 目前不支援。 <br/> |
 |可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼

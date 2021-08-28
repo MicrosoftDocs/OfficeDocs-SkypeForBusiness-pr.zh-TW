@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithMonitoringPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ea4474a-7453-49a9-ba38-2c7dc4337b05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 每個前端集區和 Survivable Branch Appliance 只能有一個相關聯的監控伺服器。當網站啟用監控時，監控伺服器會提供詳細通話記錄 (CDR) 和經驗品質 (QoE) 的資料收集與報告。
-ms.openlocfilehash: f338cd75d44c1c90dc57092b3e7ea06261b964900c9e3625ee4092fbd041b75c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 046a7e333c777d2c5b6abf7e6af1616de9625a71
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285263"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633247"
 ---
 # <a name="associate-front-end-with-monitoring"></a>建立前端與監視的關聯
  

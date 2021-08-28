@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: 商務用 Skype Server 取決於伺服器驗證的憑證，並在用戶端與伺服器之間，以及不同的伺服器角色間建立信任鏈。 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2 及 Windows Server 2008 公開金鑰基礎結構 (PKI) 提供基礎結構，用以建立及驗證此信任鏈。
-ms.openlocfilehash: 7b955aa07143cead900a0140ac8ee64fa02ba34ed3945553e376123c7260909d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 733b1bb946147edd184a7b0fecb16ffab2adba51
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329487"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627925"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>商務用 Skype Server 的公用金鑰基礎結構
  

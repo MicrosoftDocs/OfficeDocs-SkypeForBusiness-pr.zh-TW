@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: 規劃從 商務用 Skype 升級Microsoft Teams
-summary: Microsoft Teams專為協助人員保持聯繫、順暢地共同作業，以及以安全且規範的方式簡化工作而設計 ，這一切都在一個地方完成。 您可以在這裡找到指引、訓練和資源，以從 商務用 Skype 成功升級Teams。
+summary: Microsoft Teams專為協助人員保持聯繫、順暢地共同作業，以及以安全且規範的方式簡化工作而設計，這一切都在一個地方完成。 您可以在這裡找到指引、訓練和資源，以從 商務用 Skype 成功Teams。
 brand: teams
 metadata:
   title: 規劃從 商務用 Skype 升級Microsoft Teams
-  description: Microsoft Teams專為協助人員保持聯繫、順暢地共同作業，以及以安全且規範的方式簡化工作而設計 ，這一切都在一個地方完成。 您可以在這裡找到指引、訓練和資源，以從 商務用 Skype 成功升級Teams。
+  description: Microsoft Teams專為協助人員保持聯繫、順暢地共同作業，以及以安全且規範的方式簡化工作而設計，這一切都在一個地方完成。 您可以在這裡找到指引、訓練和資源，以從 商務用 Skype 成功Teams。
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -15,7 +15,7 @@ metadata:
   audience: admin
   f1.keywords:
     - NOCSH
-  localization_priority: Priority
+  ms.localizationpriority: high
   ms.collection:
     - Teams_ITAdmin_JourneyFromSfB
     - M365-collaboration
@@ -30,11 +30,11 @@ highlightedContent:
     - title: 註冊免費升級規劃研討會
       itemType: learn
       url: 'https://aka.ms/upgradeworkshops'
-    - title: 瞭解百& Veatch 在八周Teams轉Teams轉場
+    - title: 瞭解 Veatch &在八周內如何Teams轉場
       itemType: video
       url: 'https://play.vidyard.com/uc42D4WD4byc3sHTiKEEEk'
 productDirectory:
-  title: 規劃成功升級及Teams的資源
+  title: 規劃成功升級Teams資源
   summary: 健康的技術環境、持續採用使用者，以及達成您的商業目標，都是從適當的規劃開始。
   items:
     - title: Teams升級故事
@@ -43,7 +43,7 @@ productDirectory:
         - url: 'https://customers.microsoft.com/story/813525-dsm-discrete-manufacturing-technical-teams'
           text: 英國 DSM – 商務用 Skype Server Teams
         - url: 'https://customers.microsoft.com/story/799203-ikea-retailers-teams'
-          text: 宜家 – 商務用 Skype Server Teams
+          text: 2010 - 商務用 Skype Server至Teams
         - url: 'https://customers.microsoft.com/story/782385-williams-energy-teams'
           text: Williams – 商務用 Skype Server Teams
         - url: 'https://customers.microsoft.com/story/765513-trek-retailers-teams'
@@ -70,11 +70,11 @@ productDirectory:
       url: ./instructor-led-training-teams-landing-page.yml
     - title: 展開您的Teams案例
       imageSrc: 'https://docs.microsoft.com/office/media/icons/best-practices-teams.svg'
-      summary: 我們的 Teams粉筆課程線上研討會是專為協助 IT 專業人員從公司獲得最大Teams。
+      summary: 我們的Teams粉筆課程線上研討會是專為協助 IT 專業人員從Teams。
       url: ./chalk-talks-landing-page.yml
     - title: 終止對商務用 Skype Online 的支援
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-teams.svg'
-      summary: 準備于 2021 年 7 月 31 日商務用 Skype線上服務，並瞭解如何規劃成功轉換至 Teams。
+      summary: 準備在 2021 年 7 月 31 日結束 商務用 Skype Online 服務，並瞭解如何規劃成功轉換至 Teams。
       url: ./skype-for-business-online-retirement.md
     - title: Microsoft Teams部落格
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blog-site-teams.svg'
@@ -89,11 +89,11 @@ additionalContent:
     - title: 需要其他協助嗎？
     - items:
         - title: 使用 FastTrack以尋求部署協助
-          summary: 當Teams專案需要更多參與協助時，具有合格訂閱的客戶可以FastTrack尋求支援。
+          summary: 當Teams專案需要更多參與協助時，具有合格訂閱的客戶可以FastTrack取得支援。
           url: 'https://www.microsoft.com/fasttrack'
         - title: 尋找 Microsoft 合作夥伴
           summary: 需要其他指引嗎？ Microsoft 解決方案提供者可協助您管理升級的技術與物流。
           url: 'https://www.microsoft.com/solution-providers/home'
         - title: Microsoft Teams方案與價格
-          summary: 尋找適合Microsoft Teams的合適目標。
+          summary: 尋找適合Microsoft Teams企業使用。
           url: 'https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options'

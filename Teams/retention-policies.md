@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 description: 使用 Microsoft Teams 保留原則，以保留有關貴組織需要遵守的內部原則、產業法規或法律要求的訊息，並刪除視為有責任或沒有法律商業價值的郵件。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a122bd1d0bb3c8cba450293b43f7532f36c510831bd301ed30d9955a9a1f8d31
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1385f190c0bcf35c89576695911853c88ef7d1d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296690"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634837"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>管理 Microsoft Teams 的保留原則
 
@@ -67,13 +67,13 @@ Microsoft Teams 支援適用於聊天和頻道訊息的保留原則，所以身�
 
 - 針對私人聊天分別 (1：1 或 1：) 聊天、標準頻道的郵件或私人頻道的郵件。
 
-- 僅將原則適用于貴組織的特定使用者或團隊。 若要Teams聊天和私人頻道，您可以選取原則所適用的使用者。 如果是使用 Teams 頻道訊息，您可以選取原則要套用到哪些小組。
+- 僅將原則適用于貴組織的特定使用者或團隊。 針對Teams和私人頻道，您可以選取原則所適用的使用者。 如果是使用 Teams 頻道訊息，您可以選取原則要套用到哪些小組。
 
 例如，針對標準頻道訊息：為貴組織的特定團隊建立保留原則，並設定該策略 1 年後的刪除動作。 然後為所有其他團隊的標準通道訊息建立另一個保留原則，然後在 3 年後使用刪除動作設定該策略。
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>建立和管理 Microsoft Teams 保留原則
 
-若要建立或編輯郵件的保留Teams，請使用保留原則中的指示[Teams位置](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)。
+若要建立或編輯郵件的保留Teams，請使用保留政策中的指示[Teams位置](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)。
 
 該頁面提供有關為 Microsoft 365 中的其他工作負載，建立和管理保留原則的其他資訊。 例如，您可能也想要為 Microsoft 365 群組建立保留原則，以保留和刪除在 Teams 中存取並儲存於 OneDrive 或 SharePoint 中的檔案。  
 

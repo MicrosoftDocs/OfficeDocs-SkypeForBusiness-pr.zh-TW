@@ -12,7 +12,7 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何管理自訂應用程式策略和設定，以控制組織中誰可以在 Microsoft Teams 中上傳自訂Microsoft Teams。
 f1.keywords:
@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 3e148a554e525530fd660433b7fc56379f3a7fa2db8354908bd9ba5b387a1662
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c00c06f86e55ed0f2c8b28315c6d83cc36ef3c25
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327499"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634827"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在應用程式中管理自訂應用程式Microsoft Teams
 
@@ -47,7 +47,7 @@ ms.locfileid: "54327499"
 
 三個元件可決定使用者是否可以將自訂應用程式上傳至團隊，讓您精細控制誰可以新增自訂應用程式至團隊，以及哪些團隊自訂應用程式可以新增到：
 
-- [使用者自訂應用程式策略](#user-custom-app-policy)
+- [使用者自訂應用程式政策](#user-custom-app-policy)
 - [小組自訂應用程式設定](#team-custom-app-setting)
 - [全組織自訂應用程式設定](#org-wide-custom-app-setting)
 
@@ -55,7 +55,7 @@ ms.locfileid: "54327499"
 
 ### <a name="user-custom-app-policy"></a>使用者自訂應用程式策略
 
-在 [應用程式設定政策](teams-app-setup-policies.md)中，系統管理員可以使用策略設定 ，Upload **自訂應用程式**，以控制使用者是否可以將自訂應用程式上傳到 Teams。
+在 App [](teams-app-setup-policies.md)設定政策中，系統管理員可以使用策略設定 ，Upload **自訂應用程式**，以控制使用者是否可以將自訂應用程式上傳到 Teams。
  
 如果此設定已關閉：
 
@@ -84,17 +84,17 @@ ms.locfileid: "54327499"
  
 如果此設定已關閉：
 
-- 如果團隊擁有者的自訂應用程式策略允許，可以新增自訂應用程式。
+- 團隊擁有者可以新增自訂應用程式 ，如果他們的自訂應用程式策略允許的話。
 - 不是團隊擁有者的小組成員無法新增自訂應用程式至團隊。
 
 如果已開啟此設定：
 
-- 團隊擁有者可以新增自訂應用程式 ，如果他們的自訂應用程式策略允許的話。
+- 如果團隊擁有者的自訂應用程式政策允許，可以新增自訂應用程式。
 - 如果團隊成員的自訂應用程式策略允許，不是團隊擁有者的小組成員可以新增自訂應用程式。
 
 #### <a name="configure-the-team-custom-app-setting"></a>設定小組自訂應用程式設定
 
-1. 在 Teams，請前往團隊，按一下 [**更多選項 1 12 月 13**  >  **日管理小組**。
+1. 在 Teams，請前往團隊，按一下 [更多選項 **1 12 月 13**  >  **日管理小組**。
 2. 按一下 **設定**，然後展開 **[成員許可權**> 。
 3. 選取或清除允許 **成員上傳自訂應用程式** 核取方塊。
 
@@ -118,9 +118,9 @@ ms.locfileid: "54327499"
 
 例如，假設您想要只允許團隊擁有者將自訂應用程式上傳至特定團隊。 您可以設定下列專案：
 
-- 開啟 **系統管理中心** 中的允許與自訂應用程式Microsoft Teams設定。
+- 開啟系統管理 **中心** 中的允許與自訂應用程式Microsoft Teams設定。
 - 關閉允許 **成員針對** 您想要限制存取的每一個團隊上傳自訂應用程式。
-- 在系統管理中心建立並Microsoft Teams自訂應用程式設定，Upload **自訂** 應用程式設定，並將它指派給團隊擁有者。
+- 在系統管理中心建立Microsoft Teams自訂應用程式設定，Upload **自訂** 應用程式設定，並將它指派給團隊擁有者。
 
 |全組織自訂應用程式設定 |小組自訂應用程式設定 |使用者自訂應用程式策略 |影響  |
 |---------|---------|---------|---------|

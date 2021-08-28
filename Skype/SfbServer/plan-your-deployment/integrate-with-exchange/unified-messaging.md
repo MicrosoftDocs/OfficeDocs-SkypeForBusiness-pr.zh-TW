@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 摘要：在規劃將商務用 Skype Server 與 Exchange 2013 或2016整合時，請參閱本主題。
-ms.openlocfilehash: 68ae17e7a7c5f3b427323f1ea571337de264529fbee954c61f40fb8afe20d1a2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 382d432947ea099db35831a5db0d9ba649796b88
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349935"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633527"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>規劃商務用 Skype 中的 Exchange 整合通訊整合
 

@@ -17,7 +17,7 @@ audience: admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -25,12 +25,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: 瞭解音訊會議Microsoft 365 Office 365使用者如何從他們的電話撥打會議。
-ms.openlocfilehash: 46c3c1c7e2fde92d2c8fa37978c9c3c19928dadd
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ffb24b35171e59ec99d9145362a51c51cd5f2ecb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232818"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633437"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>音訊會議Microsoft 365
 音訊會議Microsoft 365 Office 365使用者可以從他們的電話撥打會議。 音訊會議最多允許 1000 個電話出席者。
@@ -69,7 +69,7 @@ ms.locfileid: "58232818"
   
  **專用電話號碼** 是只有在組織內部使用者才可以使用的電話號碼。 您可以變更某人撥入其中一個號碼時所使用的語言。 您必須取得這些語言的服務電話號碼。
   
- **共用電話號碼** 是可與其他 365 Microsoft 365共用Office電話號碼。 您無法變更某人撥入其中一個號碼時所使用的語言。
+ **共用電話號碼** 是可與其他 365 或 365 Microsoft 365 Office的電話號碼。 您無法變更某人撥入其中一個號碼時所使用的語言。
   
 雖然指派給召集人的預設音訊會議號碼只會包含在會議邀請中，呼叫者可以使用指派給您的會議橋接器的任何電話號碼加入會議。 您可以使用每個會議邀請中包含的 [尋找當地電話號碼] 連結，來取得可用來加入會議的電話號碼清單。
 
@@ -91,7 +91,7 @@ ms.locfileid: "58232818"
 
 - **使用商務用 Skype 系統管理中心。** 針對某些國家/地區，您可以使用商務用 Skype 系統管理中心來為您的會議橋接器取得號碼。 請參閱[取得服務電話號碼](./getting-service-phone-numbers.md)。
     
-- **轉移現有的號碼。** 您可以將現有號碼從目前的服務提供者或電信電信公司移轉或移轉Microsoft 365或Office 365。 如需詳細資訊，請參閱[將電話號碼轉接至 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，協助您完成此作業。  
+- **轉移現有的號碼。** 您可以將現有號碼從目前的服務提供者或電話電信公司移轉或移轉Microsoft 365或Office 365。 如需詳細資訊，請參閱[將電話號碼轉接至 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)，協助您完成此作業。  
   
 - **使用表單要求新號碼。** 有時候 (視您的國家/地區而定) 您無法使用商務用 Skype 系統管理中心取得新的電話號碼，或者您將需要特定的電話號碼或區碼。 若是如此，您將需要下載表單並將它傳送給我們。 如需詳細資訊，請參閱[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 

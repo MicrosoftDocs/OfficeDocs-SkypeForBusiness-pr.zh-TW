@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是菲律賓Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
-ms.openlocfilehash: dcc3e23c628866f125fb6926d7f0349d77b30e8e1a8dc4ba3073d564bebae17c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 071bad707b51a0d455dbccb02c72922c904b5ab2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339805"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634877"
 ---
 # <a name="availability-in-the-philippines"></a>菲律賓的可用性
 
