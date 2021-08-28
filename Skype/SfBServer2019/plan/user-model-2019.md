@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: 本節中的主題可協助您瞭解如何規劃及部署商務用 Skype Server，使您可以充分規劃組織中的使用者人數，並規劃其活動所產生的伺服器負載。
-ms.openlocfilehash: aaa34d4ec935735215da36d888ab3c5155f158b89fd366546eac14b3f6259482
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 090d209d1b60d866ddabe976ffb8b04394712525
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277638"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600888"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的容量規劃
 
@@ -182,9 +182,9 @@ Microsoft 使用下表中的硬體，以在其效能測試期間監控和封存�
 |**Drive** <br/> |**RAID 設定** <br/> |**磁片數目** <br/> |
 |:-----|:-----|:-----|
 |單一磁片磁碟機上的 CDR、QoE 及封存資料庫資料檔案  <br/> |1 + 0  <br/> |16   <br/> |
-|CDR 資料庫記錄檔  <br/> |1  <br/> |第  <br/> |
-|QoE 資料庫記錄檔  <br/> |1  <br/> |第  <br/> |
-|封存資料庫記錄檔  <br/> |1  <br/> |第  <br/> |
+|CDR 資料庫記錄檔  <br/> |1   <br/> |2   <br/> |
+|QoE 資料庫記錄檔  <br/> |1   <br/> |2   <br/> |
+|封存資料庫記錄檔  <br/> |1   <br/> |2   <br/> |
 
 ## <a name="video-interop-server-capacity"></a>影片 Interop 伺服器容量
 

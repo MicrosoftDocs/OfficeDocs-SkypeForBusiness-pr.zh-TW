@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - Ent_O365_Hybrid_Top
@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 瞭解電話系統 (雲端 PBX) 搭配內部部署 PSTN 連線的規劃考慮。
-ms.openlocfilehash: efaba8aae1175db526d9607e2eb8c7e382dbaf1f95ec948a0c34758a055d5c1e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9715a04eaa4955ca1ccb4d9bef56b3502039c225
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339869"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601258"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃含有內部部署 PSTN 連線功能的電話系統
 

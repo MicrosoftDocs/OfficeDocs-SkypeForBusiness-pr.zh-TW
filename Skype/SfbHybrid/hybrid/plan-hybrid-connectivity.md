@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 設定商務用 Skype 的混合模式，以規劃在商務用 Skype Server 和 Teams 之間執行混合連線。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 090aab3d376a228915779c8bf55864484cee715d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: c1faef42d6c5842649bfb8b8bf79531ac2e367b0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234048"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600878"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>規劃商務用 Skype Server 和 Teams 之間的混合式連線
 
