@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在斯洛伐克取得及管理斯洛伐克電話號碼Microsoft Teams。
-ms.openlocfilehash: 119fe5257fd98560e1b28eeacf19271474196b2e
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f3d108d5e2c28c86ff5c6104f18dc9c5095a5b10
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233248"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611662"
 ---
 # <a name="phone-number-management-for-slovakia"></a>電話斯洛伐克的號碼管理
 
@@ -38,7 +38,7 @@ ms.locfileid: "58233248"
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
 |取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。 |在斯洛伐克，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並連至 [PTSN](contact-pstn-service-desk.md)服務台以索取指示，以提交新的電話號碼要求。<br/><br/>[適用于斯洛伐克的新電話號碼要求 (v.1.0)  (en-sk) 。](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf) <br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單、完整填寫，並連至 [PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。<br/><br/>新訂單可能需要兩到三周的時間才能填入這個市場。  |
-|將電話號碼轉接給我們。   | 下載此表單。 <br/>[斯洛伐克 (LOA (LO) A (所有號碼)  (v.1.1)  (en-sk) 。](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf) <br/> <br/>斯洛伐克 (LOA) 授權書 (所有號碼[)  (v.1.0)  (sk-sk) 。](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf) <br/><br/>填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 <br/><br/>在這個市場中，移轉數位可能需要四到五周才能完成。 <br/><br/>這些號碼目前無法用於會議。 |
+|將電話號碼轉接給我們。   | 下載此表單。 <br/>斯洛伐克 (LOA) 授權書 (所有號碼)  ([v.1.1)  (en-sk) 。](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf) <br/> <br/>斯洛伐克的授權 (LOA) 授權書 (所有)  ([v.1.0)  (sk-sk) 。](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf) <br/><br/>填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 <br/><br/>在這個市場中，移轉數位可能需要四到五周才能完成。 <br/><br/>這些號碼目前無法用於會議。 |
 |發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需有關要](contact-pstn-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請連連 PTSN 服務台。 <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-pstn-service-desk.md) 服務號碼的使用者號碼清單的指示，請連連 PTSN 服務台。 <br/> |
 |讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請連連 [PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 |

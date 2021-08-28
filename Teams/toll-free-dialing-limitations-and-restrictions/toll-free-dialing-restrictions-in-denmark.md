@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 這可協助您瞭解如何撥打每個國家/地區的免付費號碼。 選取國家/地區之後，它會將您帶至特定國家/地區頁面，其中包含免付費服務可用之免付費服務的特定詳細資料、限制和限制。 撥號格式或格式會顯示每個國家/地區撥打免付費號碼所需的存取碼。
-ms.openlocfilehash: 137c8b21d5446e733282a8533205e6ee2f190c610f6ca843c5c5d2beda7a2df7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3937ec6401177b666f7596e9cb392db9875427b4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296470"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611542"
 ---
 # <a name="toll-free-dialing-restrictions-in-denmark"></a>丹麥免付費撥號限制
 
@@ -38,7 +38,7 @@ ms.locfileid: "54296470"
 |:-----|:-----|
 |免付費通話是否可用？  <br/> |是  <br/> |
 |撥號格式 ()   <br/> | 801<br/>  802<br/>  803<br/>804<br/>8060<br/>8061<br/>8062<br/>8063<br/>807<br/>808<br/>809<br/> |
-|國家/地區 ISO 代碼  <br/> |Dk  <br/> |
+|國家/地區 ISO 代碼  <br/> |DK  <br/> |
 |涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |未涵蓋的島嶼/地區  <br/> | 法羅群島或格陵蘭島無法存取。 <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |

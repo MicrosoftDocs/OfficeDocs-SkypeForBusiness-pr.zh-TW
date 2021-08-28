@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPersistentChatFqdnPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 description: 您可以使用 [定義新的持久聊天集區] 嚮導來建立新的 Persistent Chat Server 或 Persistent Chat Server 集區。 選取 [多部電腦集區] 或 [單一電腦集區]。 如果您選取單一電腦集區，後來需要多部電腦集區，則必須移除單一電腦集區，然後再定義多部電腦集區。
-ms.openlocfilehash: 8c900574b84f2780bc3556242949bf7dce4e72b499acc53e514b1924b99ecabb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2136d740a451670fe01d3123c48c63f3d7de0cc1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305455"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622455"
 ---
 # <a name="define-persistent-chat-fqdn"></a>定義常設聊天室 FQDN
  

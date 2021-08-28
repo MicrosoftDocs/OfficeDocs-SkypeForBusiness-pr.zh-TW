@@ -15,18 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 瞭解如何根據國家/地區及城市來搜尋可指派給使用者的電話號碼，並指定您需要的電話號碼數量。
-ms.openlocfilehash: 732f2128be87e71c2ce4e7d1a2ff618b5bf4960d07080bf0fa23218a736e9ad7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解如何根據國家/地區及城市搜尋可指派給使用者的電話號碼，並指定您需要的電話號碼數量。
+ms.openlocfilehash: 4fcc5d43ec232d57437cabdc09d38a75910b03f8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275969"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602108"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>搜尋使用者的電話號碼
 
@@ -40,36 +40,36 @@ ms.locfileid: "54275969"
 
 **為使用者搜尋電話號碼**
 
-![使用系統管理中心Teams ](media/teams-logo-30x30.png) **圖示Microsoft Teams標誌**
+![使用系統管理中心Teams ](media/teams-logo-30x30.png) **標誌的圖示Microsoft Teams圖示**
   
 1. 請前往 Microsoft Teams **系統管理中心**。
 
 2. 在左側流覽中選取 **語音**  >  **電話**  >  **號碼 取得新號碼**。
   
     > [!IMPORTANT]
-    > 若要在 Microsoft Teams系統管理中心左側流覽中查看語音選項，您必須先購買至少一 **個 Enterprise E5** 授權、一個 **電話系統** 附加元件授權或一個音訊會議附加元件授權。   
+    > 若要在 Microsoft Teams系統管理中心的左側流覽中查看語音選項，您必須先購買至少一個 **Enterprise E5** 授權、一個 **電話系統** 附加元件授權或一個音訊會議附加元件授權。  
 
 3. 在選取 **位置和數量** 頁面上，從國家/地區下拉式清單中選取位置。
 
 4. 從數位類型下拉式 **清單中選取數位** 類型。
 
-5. 在 **位置** 方塊中，輸入使用者所在的城市名稱，然後從清單中選取位置。 如果 **清單中沒有** 顯示您想要的位置，請按一下 [新增位置。
+5. 在 **位置** 方塊中，輸入使用者所在的城市名稱，然後從清單中選取位置。 如果 **您想要的位置** 未出現在清單中，請按一下 [新增位置。
 
 6. 選取位置的區碼。
 
 7. 在 **[數量**」 下，輸入貴組織想要的電話號碼數目，然後按一下 [下 **一步**。 您還有 10 分鐘的時間來選取電話號碼。 如果您花的時間超過 10 分鐘，號碼會回到電話號碼的集中。
 
     > [!NOTE]
-    > 您可以看見可用電話號碼 (這是根據授權數量，) 數量 **旁邊列出**。 
+    > 您可以根據授權數量來查看可用的電話號碼 (數量旁邊所列的授權) **號碼**。 
   
 8. 在 [ **取得號碼>** 頁面上，選取您想要的電話號碼，按一下 [ **取得號碼**，然後按一下 [下 **一步**。
 
     > [!IMPORTANT]
-    > 您可以取得比您擁有授權更多的電話號碼。 若要決定您可以取得的電話號碼數目，請取得授權數目、新增 10% 的授權數量，然後新增 10 個。 例如，如果您有 100 個國內通話方案及/或國際通話方案授權，您可以保留 120 個電話號碼，假設您尚未為這 100 個使用者取得部分電話號碼。 有關詳細資料，請參閱您可以 [取得多少電話號碼？](./how-many-phone-numbers-can-you-get.md)
+    > 您可以取得比您擁有授權更多的電話號碼。 若要決定您可以取得的電話號碼數目，請取得授權數目、新增 10% 的授權數量，然後新增 10 個。 例如，如果您有 100 個國內通話方案及/或國際通話方案授權，您可以保留 120 個電話號碼，假設您尚未為這 100 個使用者取得一些電話號碼。 有關詳細資料，請參閱您可以 [取得多少電話號碼？](./how-many-phone-numbers-can-you-get.md)
 
 9. 在 [**確認」** 頁面上，確認您的選擇，然後按一下 **[下單。**
 
-10. 當您返回 [電話號碼頁面時，選取要指派的電話號碼或號碼，然後按一下 [編輯以將其指派給使用者。   
+10. 當您回到 [電話號碼頁面時，選取要指派的電話號碼或號碼，然後按一下 [編輯以將其指派給使用者。   
 
 ## <a name="related-topics"></a>相關主題
 [移轉電話號碼的常見問題](./phone-number-calling-plans/port-order-overview.md)

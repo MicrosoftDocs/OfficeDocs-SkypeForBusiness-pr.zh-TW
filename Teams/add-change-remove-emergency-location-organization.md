@@ -13,23 +13,23 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: '瞭解如何在系統管理中心新增、變更或移除組織的緊急Microsoft Teams位置。 '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 69ac20583d2f90b3aab4359478f067d2df7b86d2733f6452172430566781ea7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62604fc26f91baa77bd205869bbe4251d1a46a8a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352481"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602298"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>新增、變更或移除貴組織的緊急位置
 
 緊急位置必須與電話號碼相關聯，但發生這種情況時，可能會因國家/地區而異。 例如，在美國，當您將電話號碼指派給使用者時，您必須建立緊急位置的關聯。 在英國，當您從 Microsoft 365 或 Office 365 取得電話號碼，或從目前的服務提供者移轉電話號碼時，您必須將緊急位置與電話號碼建立關聯。
 
-無論您位於哪個國家/地區，都可以在緊急位置新增地點或地點，並移除緊急位置。 根據貴組織中實際位置的數量，您可以建立建築物、樓層和辦公室的位置。 請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)。
+無論您位於哪個國家/地區，都可以在緊急位置新增地點或地點，並移除緊急位置。 根據貴組織實體位置的數量，您可以建立建築物、樓層和辦公室的位置。 請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)。
   
 若要瞭解如何取得通話方案及其費用，請參閱Teams[授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 

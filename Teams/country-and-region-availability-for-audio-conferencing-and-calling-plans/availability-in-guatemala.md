@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: a9e22fe4eba58922377bcc08ed1e8f762f93fea742693c4f4b4c3ac300d88b64
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
+ms.openlocfilehash: 437250e1805515ada7dd1d668d47374456e72f24
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336363"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610370"
 ---
 # <a name="availability-in-guatemala"></a>在馬格達的可用狀態
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
+以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -72,7 +72,7 @@ ms.locfileid: "54336363"
 |有提供付費電話號碼嗎？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> 付費號碼只能從國家/地區內撥打。|
 |是否提供免付費號碼？  <br/> |否  <br/> |
 
- 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
+ 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得 商務用 Skype 和[Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通訊點數
 

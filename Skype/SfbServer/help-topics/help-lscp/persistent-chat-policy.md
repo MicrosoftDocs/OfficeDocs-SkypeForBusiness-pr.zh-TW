@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatPolicy
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: 您可以使用 Persistent 聊天群組的持續聊天原則頁面，管理全域、集區、網站或使用者層級的原則，包括設定預設全域原則，以及為您的部署建立一或多個額外的使用者和網站原則。 如果使用者依原則為使用者啟用 Persistent Chat Server，則 Persistent Chat Server 環境會出現在其用戶端中。
-ms.openlocfilehash: 0f8092afcb296ff1606769623ee52f5293eefa2b5bcf22f552f797f447f52f71
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6145740717ca4e240cde767535c91040c336cb90
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335343"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621389"
 ---
 # <a name="persistent-chat-policy"></a>常設聊天室原則
  

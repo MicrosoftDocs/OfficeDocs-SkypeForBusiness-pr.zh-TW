@@ -14,18 +14,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在比利時取得及管理Microsoft Teams。
-ms.openlocfilehash: a11e33d8cccb955e59d6784a845e43952ce0fd95
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+ms.openlocfilehash: 0d359f20e56b626657201b6b3640a1fdc59fdea9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348515"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602228"
 ---
 # <a name="phone-number-management-for-belgium"></a>比利時的電話號碼管理
 
@@ -35,8 +35,8 @@ ms.locfileid: "58348515"
   
 |**您想要做什麼？**|**下載正確的表單並傳送給我們**|
 |:-----|:-----|
-|取得系統管理中心未列出的新使用者Microsoft Teams電話號碼。   <br/> |在比利時，您不得使用系統管理中心取得貴Microsoft Teams的電話號碼，您必須提交新的電話號碼要求。 <br/><br/>下載以下其中一個表單： <br/>  [針對比利時的新電話號碼要求 (v.5.0)  (取消) ](https://download.microsoft.com/download/7/a/2/7a200ded-8377-48af-be13-672e32f9ed6b/new-phone-number-request-for-belgium-(v.5.0)-(de-be).pdf) <br/> [針對比利時的新電話號碼要求 (v.5.0)  (fr-be) ](https://download.microsoft.com/download/6/8/9/689c1af5-b7cc-4f38-bade-02343172efcc/new-phone-number-request-for-belgium-(v.5.0)-(fr-be).pdf) <br/> [針對比利時的新電話號碼要求 (v.5.0)  (nl-be) ](https://download.microsoft.com/download/3/0/0/300dbedd-a6cc-49c1-a6c0-a8653ac8e869/new-phone-number-request-for-belgium-(v.5.0)-(nl-be).pdf) <br/>   [在 en-us (5.0)  (5.0) ](https://download.microsoft.com/download/9/e/4/9e4f9a33-5a29-4409-a601-f489c84a3c32/new-phone-number-request-for-belgium-(v.5.0)-(en-us).pdf)<br/><br/>填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 <br/>|
-|將電話號碼轉接給我們。  <br/> | 下載其中一個表單。 <br/>[比利時的 (LOA) 授權書 (所有號碼)  (v.5.0)  (取消) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(de-be).pdf) <br/> [比利時 (LOA) 授權書 (所有號碼)  (v.6.1)  (fr-be) ](https://download.microsoft.com/download/d/f/3/df304a78-db38-41f9-98d2-0b590cf8c68f/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.6.1)-(fr-be).pdf)<br/> [比利時的 (LOA) 授權書 (所有號碼)  (v.6.2)  (nl-be) ](https://download.microsoft.com/download/4/b/a/4bacc856-3bf2-45f7-ade2-8b1d81fc09c6/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v6.2)-(nl-be).pdf) <br/>   <br/>   填寫並連連 [PTSN 以尋找指示](contact-pstn-service-desk.md)。 <br/> |
+|取得系統管理中心未列出的新使用者Microsoft Teams電話號碼。   <br/> |在比利時，使用系統管理中心Microsoft Teams組織的電話號碼，您必須提交新的電話號碼要求。 <br/><br/>下載以下其中一個表單： <br/>  [針對比利時的新電話號碼要求 (v.5.0)  (取消) ](https://download.microsoft.com/download/7/a/2/7a200ded-8377-48af-be13-672e32f9ed6b/new-phone-number-request-for-belgium-(v.5.0)-(de-be).pdf) <br/> [針對比利時的新電話號碼要求 (v.5.0)  (fr-be) ](https://download.microsoft.com/download/6/8/9/689c1af5-b7cc-4f38-bade-02343172efcc/new-phone-number-request-for-belgium-(v.5.0)-(fr-be).pdf) <br/> [針對比利時的新電話號碼要求 (v.5.0)  (nl-be) ](https://download.microsoft.com/download/3/0/0/300dbedd-a6cc-49c1-a6c0-a8653ac8e869/new-phone-number-request-for-belgium-(v.5.0)-(nl-be).pdf) <br/>   [在 en-us (5.0)  (5.0) ](https://download.microsoft.com/download/9/e/4/9e4f9a33-5a29-4409-a601-f489c84a3c32/new-phone-number-request-for-belgium-(v.5.0)-(en-us).pdf)<br/><br/>填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 <br/>|
+|將電話號碼轉接給我們。  <br/> | 下載其中一個表單。 <br/>[授權書 (LOA)  (所有號碼)  (v.5.0)  (取消) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/LOA-forms/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.5.0)-(de-be).pdf) <br/> [比利時 (LOA (LOA) 授權書 (所有號碼)  (v.6.1)  (fr-be) ](https://download.microsoft.com/download/d/f/3/df304a78-db38-41f9-98d2-0b590cf8c68f/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v.6.1)-(fr-be).pdf)<br/> [授權書 (LOA)  (所有號碼)  (v.6.2)  (nl-be) ](https://download.microsoft.com/download/4/b/a/4bacc856-3bf2-45f7-ade2-8b1d81fc09c6/letter-of-authorization-(loa)-for-belgium-(all-numbers)-(v6.2)-(nl-be).pdf) <br/>   <br/>   填寫並連連 [PTSN 以尋找指示](contact-pstn-service-desk.md)。 <br/> |
 |發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需有關要](contact-pstn-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請連連 PTSN 服務台。      <br/> |
 |將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-pstn-service-desk.md) 服務號碼的使用者號碼清單的指示，請連連 PTSN 服務台。 <br/> |
 |讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請連連 [PSTN 服務台以尋找指示](contact-pstn-service-desk.md)。 |

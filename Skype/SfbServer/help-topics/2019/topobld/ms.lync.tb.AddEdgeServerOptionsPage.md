@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerOptionsPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 ROBOTS: NOINDEX, NOFOLLOW
 description: 選取您要為 Edge 集區啟用的每一項功能。 根據預設，Edge 集區支援組織中從防火牆外部登入的遠端使用者，方法是使用虛擬私人網路 (VPN) 。 此外，您還可選擇下列 Edge 集區功能：
-ms.openlocfilehash: 05064cebbaf99a024df15e76b5ac294edb1e9a98efaab63920ddc249bec394a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 449520b41a8badf9ce3f2b852314445c6d16aff9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325110"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622715"
 ---
 # <a name="add-edge-server-options"></a>新增 Edge Server 選項
 

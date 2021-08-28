@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 44e2e620df7898988cb85f810d85f6201e74d378699d73f4e13c23dfcb577751
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 66480a74096ad4f1dd61347180ef056fed99c175
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320805"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622805"
 ---
 # <a name="network-configuration-global-setting"></a>網路組態：通用設定
 

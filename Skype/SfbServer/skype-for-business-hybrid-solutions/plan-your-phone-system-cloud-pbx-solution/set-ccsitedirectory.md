@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: Set-CcSiteDirectory Cmdlet 會設定用來儲存商務用 Skype Cloud Connector Edition 之網站層級設定檔的目錄。 資料夾將會包含基本 VHD 和雲端連接器設定檔。
-ms.openlocfilehash: 9642c91e811e62b08f2b0e219b5eaa7b9ac7359fcdb6114c028735851280da59
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5685ac8c203338365141a4a7ba59daa82a06ef0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286242"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610530"
 ---
 # <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  

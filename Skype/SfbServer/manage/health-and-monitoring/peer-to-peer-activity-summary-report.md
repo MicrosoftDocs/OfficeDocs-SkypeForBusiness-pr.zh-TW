@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer 活動摘要報表。
-ms.openlocfilehash: da8d23a0a51b23ccfbe0e15b7e2c79f81c88bf3559deb7005dc5d4f75f512ad2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cd228175d0b254e70d4df0019566ee7e8784b2de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286792"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622255"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 Peer-to-Peer 活動摘要報表
  
@@ -77,7 +77,7 @@ Peer-to-Peer 活動摘要報告可協助您回答如下問題：
 
 |**名稱**|**可以排序這個項目嗎？**|**描述**|
 |:-----|:-----|:-----|
-|**每小時** <br/> **每日** <br/> **每週** <br/> **每月** <br/> |否  <br/> |指出在篩選工具列上所選取的時間間隔。 在適用的情況下，只要按一下指定的時間間隔，即可檢視該間隔的詳細資訊。 例如，如果您使用的是每日間隔，而您按一下 [7/17/12015]，就會看到該日期的使用者註冊活動的每小時細目。  <br/> |
+|**每小時** <br/> **日常** <br/> **每週** <br/> **每月** <br/> |否  <br/> |指出在篩選工具列上所選取的時間間隔。 在適用的情況下，只要按一下指定的時間間隔，即可檢視該間隔的詳細資訊。 例如，如果您使用的是每日間隔，而您按一下 [7/17/12015]，就會看到該日期的使用者註冊活動的每小時細目。  <br/> |
 |**點對點工作階段總數** <br/> |否  <br/> |進行中的點對點工作階段總數（不論會話類型為何）。  <br/> |
 |**對等 IM 工作階段總數** <br/> |否  <br/> |對等立即訊息 (IM) 會話的總數。 當您按一下此專案時，報表會顯示所選取時段的 Peer-to-Peer IM 報告。  <br/> |
 |**對等 IM 訊息總數** <br/> |否  <br/> |在點對點工作階段中傳送的立即訊息總數。 當您按一下此專案時，報表會顯示所選取時段的 Peer-to-Peer IM 報告。  <br/> |

@@ -11,17 +11,17 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 - remotework
 ms.reviewer: dansteve, anmich
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: 使用本指導方針來協助組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 72f5f353f09df16512cefa3efc700fb254d8d1b385f76c5b3d3bd9e6030e7999
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: daf2ee6e537936893c45fe15d296bef268db3d5a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328958"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602088"
 ---
 # <a name="support-remote-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端工作者
 
@@ -74,7 +74,7 @@ ms.locfileid: "54328958"
    - [Microsoft 如何讓員工使用 Microsoft Teams 遠端工作](https://www.microsoft.com/itshowcase/blog/how-microsoft-enables-its-employees-to-work-remotely/)
    - [協助中小型企業能夠使用 Teams 遠端工作](https://www.microsoft.com/microsoft-365/blog/2020/03/17/helping-smb-customers-work-remotely-microsoft-teams/)
 
-   - [Microsoft IT 為其員工啟用遠端作業最熱門的九種方式](https://www.microsoft.com/zh-TW/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
+   - [Microsoft IT 為其員工啟用遠端作業最熱門的九種方式](https://www.microsoft.com/en-us/microsoft-365/blog/2020/03/12/top-9-ways-microsoft-it-enabling-remote-work-employees/)
 
 
 1. 適用於教育的 Teams 

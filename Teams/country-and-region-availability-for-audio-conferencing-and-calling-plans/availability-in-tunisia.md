@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
-ms.openlocfilehash: a1c57233dd904d23e25bf24f53dda10b9488120ea4ad69417609b52b8dc4c20f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 84385fa01e70f4e59c11198b1163470e54f2bbcf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303636"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610340"
 ---
 # <a name="availability-in-tunisia"></a>在突尼西亞的可用性
 
@@ -68,11 +68,11 @@ ms.locfileid: "54303636"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？   | 非地理位置。 電話號碼不會連結至特定城市或位置。 <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？   | 非地理位置。 電話數位不會連結至特定城市或位置。 <br/> |
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費號碼？  <br/> |否  <br/> |
    
- 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
+ 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得 商務用 Skype 和[Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通訊點數
 

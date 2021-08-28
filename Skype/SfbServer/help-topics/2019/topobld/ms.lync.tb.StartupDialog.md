@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.StartupDialog
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 啟動拓撲產生器以設定部署的屬性和設定。 在啟動時，拓撲產生器會顯示一個對話方塊，詢問拓撲檔的來源。 您可以選取下列三個選項之一：
-ms.openlocfilehash: 8259d8f552f0706d83f809c17802f54229d455910bf6da54eb14373e21f49a02
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 07747193ba46d3159693991a9d304cb0aaec57d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335403"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621439"
 ---
 # <a name="topology-builder-startup-dialog"></a>拓撲產生器啟動對話方塊
  

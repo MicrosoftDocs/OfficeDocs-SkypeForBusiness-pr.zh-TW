@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainADPrep
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
 description: 若要開始安裝商務用 Skype Server 2015，您必須準備要主控伺服器和使用者之 Active Directory 網域服務架構、樹系和網域。 商務用 Skype Server 部署嚮導會引導您逐步完成準備 Active Directory 的步驟（從架構開始，然後再到樹系準備）。 確認 Active Directory 複寫成功後，您就可以準備要主控使用者或伺服器的每個網域。
-ms.openlocfilehash: 415cd3287eacbb820c8dc3e896805b3250ca7e105db5233056ad4df96b6a25aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1a50936858c2a6d40b92fca3c5fc6e6663a00bb3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311511"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602828"
 ---
 # <a name="prepare-active-directory"></a>準備 Active Directory
 
