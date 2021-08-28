@@ -1,5 +1,5 @@
 ---
-title: 在線上或線上Microsoft 365或Office 365商務用 Skype音訊會議
+title: 試用或購買適用于 Microsoft 365 或 Office 365 商務用 Skype的音訊商務用 Skype會議
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,25 +15,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - ms.lync.lac.CpcGettingStarted
 ms.custom:
 - Audio Conferencing
 description: '瞭解如何嘗試或購買 PSTN (音訊會議) 授權Office 365以設定人員可以撥入的電話會議。 '
-ms.openlocfilehash: 15d412bb91cf6a65aa642f88ae183ad24bcb2148e53a42f36aac9d01d54f312f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80b3dafce07298d2ca84cec94aa0c8a54020d9d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332315"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597427"
 ---
-# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>在線上或線上Microsoft 365或Office 365商務用 Skype音訊會議
+# <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>試用或購買適用于 Microsoft 365 或 Office 365 商務用 Skype的音訊商務用 Skype會議
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 有關音訊會議在 Microsoft Teams 中的資訊，請參閱在 Microsoft 365 或 Office 365 中試用或購買音訊Skype [Microsoft Teams。](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)
+> 有關音訊會議在 Microsoft Teams 中的資訊，請參閱試用或購買 Microsoft 365 或 Office 365 Skype [Microsoft Teams。](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams)
 
 
 貴組織內的人員有時會需要透過電話來加入會議。 商務用 Skype音訊會議功能， 使用者可以使用電話商務用 Skype會議，而不是在行動裝置商務用 Skype或 PC 上使用 商務用 Skype應用程式。
@@ -58,7 +58,7 @@ ms.locfileid: "54332315"
 
 3. [將您購買Microsoft 365 Apps 商務版](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc)指派或移除授權給組織中要排程或主導會議的人。
 
-4. 如果您購買音訊會議附加元件授權及通訊信用額度授權，也請指派這些授權。 有關指示，請參閱[指派商務用 Skype及Microsoft Teams授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+4. 如果您購買音訊會議附加元件授權及通訊信用額度授權，請同時指派這些授權。 有關指示，請參閱指派[商務用 Skype及Microsoft Teams授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
 
 ### <a name="to-buy-and-assign-pay-per-minute-audio-conferencing-licenses"></a>若要購買並指派每分鐘付費的音訊會議授權：
 
@@ -68,17 +68,17 @@ ms.locfileid: "54332315"
     
 2. 取得 **音訊會議** 授權。 若要取得每分鐘付費授權，請聯絡您的帳戶代表。
     
-3. [為貴組織設定組織的](/microsoftteams/set-up-communications-credits-for-your-organization) 通訊信用額度。 若要設定通訊信用額度，請參閱 [什麼是通訊信用額度？](/microsoftteams/what-are-communications-credits)
+3. [為貴組織](/microsoftteams/set-up-communications-credits-for-your-organization) 設定組織的通訊信用額度。 若要設定通訊信用額度，請參閱 [什麼是通訊信用額度？](/microsoftteams/what-are-communications-credits)
     
     > [!IMPORTANT]
-    > 如果尚未設定通訊信用額度，音訊會議將無法適用于擁有每分鐘付費授權的任何使用者。 此外，如果您有音訊會議按分鐘付費授權，則不必將通訊信用額度授權個別指派給每個使用者，專門用於音訊會議使用方式，但您可能還需要指派其他服務。
+    > 如果尚未設定通訊信用額度，音訊會議將無法適用于擁有每分鐘付費授權的任何使用者。 此外，如果您有音訊會議按分鐘付費授權，則不必將通訊信用額度授權個別指派給每個使用者，特別是音訊會議使用量，但您可能還需要為另一個服務指派授權。
 
 4. [將您購買Microsoft 365 Apps 商務版](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)指派或移除授權給組織中要排程或主導會議的人。
 
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>步驟 2：設定引導或排程會議之人員的音訊會議提供者
 
-當您將音訊 **會議** 授權指派給組織中負責領導或排程會議的人時，這些人員已全部設定好並準備就緒！  (您不需要設定其音訊會議提供者。) 
+當您將音訊 **會議** 授權指派給組織中負責領導或排程會議的人時，這些人員已設定好並準備就緒！  (您不需要設定其音訊會議提供者。) 
 
 ## <a name="step-3-other-admin-tasks"></a>步驟 3：其他系統管理員工作
 
@@ -88,7 +88,7 @@ ms.locfileid: "54332315"
 
 2. [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。 這是使用者排程的會議會顯示的電話號碼。
 
-3. [設定音訊會議自動](set-auto-attendant-languages-for-audio-conferencing.md) 語音回應的自動語音服務語言，當來電者撥入音訊會議電話號碼時，該語言會用來問候來電者。 此步驟僅適用于使用 Microsoft 做為音訊會議提供者的情況。
+3. [設定音訊會議自動](set-auto-attendant-languages-for-audio-conferencing.md) 語音回應的自動語音服務語言，當來電者撥入音訊會議電話號碼時，該語言會用來問候來電者。 此步驟僅適用于您使用 Microsoft 做為音訊會議提供者的情況。
 
 4. [設定音訊會議 PIN 的長度](set-the-pin-length-for-audio-conferencing-meetings.md)。
 

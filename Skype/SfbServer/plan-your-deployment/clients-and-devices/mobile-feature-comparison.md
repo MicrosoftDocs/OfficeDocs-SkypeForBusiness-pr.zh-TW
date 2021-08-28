@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 摘要：在規劃商務用 Skype Server 時，複查行動用戶端的功能支援。
-ms.openlocfilehash: 790bcb217e90b4b24422a3f2b76ebb6f8915cc0f8c25eb302d2fb2193d8d299a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 576947499c506052c5204d4826489ae9a2a60037
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293980"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614123"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>商務用 Skype 的行動用戶端功能比較
  

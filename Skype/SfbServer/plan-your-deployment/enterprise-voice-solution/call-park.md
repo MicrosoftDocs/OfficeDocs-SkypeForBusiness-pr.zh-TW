@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: 在商務用 Skype Server 企業語音中規劃通話駐留，讓通話保持通話，並將通話轉接至部門。 包括容量規劃、支援的通話，以及支援的用戶端。
-ms.openlocfilehash: 40f6b08512bd76401a8bb881429737f0da53be952e2774099e82396522b79aeb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8bc69bedfd3abf7745ce25133ae8ac32d1eda032
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306864"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625175"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>在商務用 Skype 中規劃通話駐留
  

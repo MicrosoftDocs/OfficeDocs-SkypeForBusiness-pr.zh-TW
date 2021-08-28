@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ExternalApplicationScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: 此節點會顯示此信任的應用程式集區的集區完整功能變數名稱 (FQDN) 、複寫設定和下一個躍點集區。 您可以執行下列動作：
-ms.openlocfilehash: c55311345fadc2598d83aa1d3c3ace9242192c77903e39a70d891c2329dc9b4a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0a3073b636dbf4680a36f6194a5d514dd11a2fa8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329717"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600268"
 ---
 # <a name="external-application-scope-node"></a>外部應用程式範圍節點
  

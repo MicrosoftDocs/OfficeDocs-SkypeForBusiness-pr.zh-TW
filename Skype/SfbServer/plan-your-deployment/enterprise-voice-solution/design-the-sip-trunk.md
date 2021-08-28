@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: 規劃使用 sip 主幹提供者的 E9-1-1 部署的 SIP 主幹拓撲，商務用 Skype Server 企業語音中。
-ms.openlocfilehash: 5e669f8fc3149ac362e265a8e850e145f95c72567be99946fe0e37c0faa82130
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b9a270a63ebfeb1e8132d84f270b72d6cd47710e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283055"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625165"
 ---
 # <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>在商務用 Skype Server 中設計 E9-1-1 的 SIP 主幹
  

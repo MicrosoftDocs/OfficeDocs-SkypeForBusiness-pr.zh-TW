@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 您可以編輯或設定下列屬性，以編輯前端伺服器或前端集區的屬性。 設定頁面可分成下列區段：
-ms.openlocfilehash: c0174d6a0badadc217119b5b2ea1028bc01367278739d5b6b03bb4ae83c0f21d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 60f926a796ce38ecc17e033a4eef3dcd10ae1904
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315759"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600128"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>前端一般設定展開工具 (適用於 Lync Server 2010)
 

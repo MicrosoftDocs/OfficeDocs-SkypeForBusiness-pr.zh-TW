@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: ErrorReport view 會儲存所報告錯誤的相關資訊。 每個記錄是一個錯誤發生。 這兩個錯誤是由前端伺服器上執行的 CDR 代理程式所捕獲，或是從用戶端傳送。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 324c22f58883207d49c0224043b8672560f1cf6e64551ca93b9ac43540d46ceb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b1461b8ee8657033802763cfa9d38b94448f93ea
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295380"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613853"
 ---
 # <a name="errorreport-view"></a>ErrorReport view
  

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: 本節將說明樹系準備步驟所建立的全域設定與物件，以及萬用服務和管理群組。
-ms.openlocfilehash: 8a613b4f71d26f06d36543ef4ec10dab39442860b0435ccd84417624d495c9fe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c21e6dfac6cd3b6a9bb3c0b6b040138e6d8f8a52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349725"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613993"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>商務用 Skype Server 中的樹系準備所進行的變更
 
@@ -115,7 +115,7 @@ ms.locfileid: "54349725"
 **樹系準備建立的公用 ACE。**
 
 
-| **Ace**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
+| **ACE**                                                                 | **RTCUniversalGlobalReadOnlyGroup** |
 |:------------------------------------------------------------------------|:------------------------------------|
 | 讀取根網域系統容器 (未繼承) **\\**\* <br/>        | X  <br/>                            |
 | 未繼承讀取設定的 DisplaySpecifiers 容器 ()   <br/> | X  <br/>                            |

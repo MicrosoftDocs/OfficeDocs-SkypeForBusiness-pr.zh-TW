@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 您可以設定一或多個外部使用者存取原則，以控制遠端使用者是否可以與內部商務用 Skype Server 使用者共同作業。 若要控制遠端使用者存取，您可以在全域、網站及使用者層級設定原則。
-ms.openlocfilehash: 205ff2cf39a28630677390d5ee39e4dfe4beffad8be3155dd686d50fede40865
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3400544e39941aca408ca99f4c323f97e8c2cd0b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309372"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625185"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>在商務用 Skype Server 中設定控制遠端使用者存取的原則
 

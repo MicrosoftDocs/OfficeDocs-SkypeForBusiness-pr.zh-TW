@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: SessionDetails view 儲存點對點工作階段的資訊，這可能是 VoIP-VoIP 電話、兩方 IM 會話或其他類型的會話。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 7b8822766b885ea729bed28e3191846281033225383faada0120b14d00e1a1ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 454cefc905409e0488121addab2cac5df55ef34d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284513"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625125"
 ---
 # <a name="sessiondetails-view"></a>SessionDetails view
  
@@ -73,7 +73,7 @@ SessionDetails view 儲存點對點工作階段的資訊，這可能是 VoIP-VoI
 |**FromUserFlag** <br/> |Smallint  <br/> |會指出啟動會話之使用者的屬性。 以下為允許的屬性定義：  <br/> 0x01 - 與桌上電話整合  <br/> |
 |**ToUserFlag** <br/> |Smallint  <br/> |會指出啟動會話之使用者的屬性。 以下為允許的屬性定義：  <br/> 0x01 - 與桌上電話整合  <br/> |
 |**CallFlag** <br/> |Smallint  <br/> |指出通話屬性。以下為允許的屬性定義：  <br/> 0x01 - 重試工作階段 1  <br/> 0x02-代理程式代表回應群組所撥打的通話  <br/> |
-|**位置** <br/> |Varchar (max)   <br/> |緊急電話的位置。  <br/> |
+|**Location** <br/> |Varchar (max)   <br/> |緊急電話的位置。  <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> |供監控服務內部使用。  <br/> 此欄位是在商務用 Skype Server 2015 中引入。  <br/> |
    
 

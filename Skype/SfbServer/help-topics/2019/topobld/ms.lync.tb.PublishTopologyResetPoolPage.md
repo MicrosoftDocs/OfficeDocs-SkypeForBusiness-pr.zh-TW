@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PublishTopologyResetPoolPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 這是初步檔，而且可能會變更。 空白主題會以預留位置形式包含。
-ms.openlocfilehash: c4dea580cfd7c44e5221a2af17abee126c360dd127f9c95bafd259afcdc19ddc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cedf28847dd8dd6c727784131e0155f93caa8536
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335413"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626835"
 ---
 # <a name="publish-topology-reset-pool-page"></a>發行拓撲重設集區頁面
  

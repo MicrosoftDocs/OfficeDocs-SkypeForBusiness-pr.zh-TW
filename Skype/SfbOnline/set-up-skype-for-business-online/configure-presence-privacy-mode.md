@@ -13,33 +13,33 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - ms.lync.lac.OrgPresencePrivacy
 description: '瞭解如何為使用者設定隱私權模式，以便他們更好控制人員看到其可用性的方式。 '
-ms.openlocfilehash: 29eb3baad5ee270d594d283ba51cb1cde75222d8ad66e34ca4df33676aeab2da
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6ef0bf1ef5256f3753b3ca161b3ee9c0a9f18559
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339317"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597357"
 ---
 # <a name="configure-presence-privacy-mode"></a>設定目前狀態隱私權模式
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> 系統Microsoft Teams系統管理中心已取代 商務用 Skype 系統管理中心 (舊版) 。 系統管理中心商務用 Skype所有管理Teams設定。 您必須指派全域系統管理員或系統管理員的[Azure AD](/azure/active-directory/roles/permissions-reference)系統管理員角色商務用 Skype，才能商務用 Skype系統管理中心Teams功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
+> 系統Microsoft Teams系統管理中心已商務用 Skype系統管理中心 (舊版) 。 系統管理中心商務用 Skype所有管理Teams設定。 您必須指派全域系統管理員或系統管理員的[Azure AD](/azure/active-directory/roles/permissions-reference)系統管理員商務用 Skype，才能商務用 Skype系統管理中心Teams功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
 
-商務用 Skype線上目前狀態設定可給予人員更多控制權，讓使用者可以在會議或辦公室外查看他們是否可用。 有關目前狀態商務用 Skype隱私權設定的詳細資訊，請參閱在 商務用 Skype [Online 中設定目前狀態](configure-presence-in-skype-for-business-online.md)。 
+商務用 Skype線上目前狀態設定，讓人員能更控制誰可以看到他們是否可以在會議或辦公室外使用。 有關目前狀態商務用 Skype隱私權設定的詳細資訊，請參閱在 商務用 Skype [Online 中設定目前狀態](configure-presence-in-skype-for-business-online.md)。 
   
 ## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>為貴組織中每個人選擇預設的線上目前狀態設定
 <a name="__top"> </a>
 
-1. 請前往 商務用 Skype 組織管理中心>**一>中心**。
+1. 請前往組織商務用 Skype管理中心>**一>中心**。
     
 2. 在 **[目前狀態隱私權模式**> 下，選擇設定，然後按一下 [ **儲存**。
     

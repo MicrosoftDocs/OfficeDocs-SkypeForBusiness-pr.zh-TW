@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此節點會顯示此 Microsoft SQL Server 的完整功能變數名稱 (FQDN) ，以及該伺服器上 SQL Server 的實例，以及使用此 SQL Server 的集區或伺服器。 您可以執行下列動作：
-ms.openlocfilehash: 4412cacf94a39341ffc73878ffff9280193847454dc27e8c9d1d7637854b5f27
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9019c2c7486ab4aa27011cb1df778f01d7625829
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311681"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626815"
 ---
 # <a name="sql-instance-scope-node"></a>SQL 執行個體範圍節點
  

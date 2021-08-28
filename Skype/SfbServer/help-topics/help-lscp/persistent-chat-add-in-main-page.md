@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatAddinMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: 您可以使用 [Persistent Chat] 頁面的 [增益集] 區段，將 URLs 與 Persistent 聊天室產生關聯。 這些 URLs 會出現在交談擴充性窗格中的聊天室中的用戶端。 管理員必須將增益集加入至已註冊的增益集清單中，且聊天室管理員/創作者必須與其中一個已註冊的增益集產生關聯，使用者才能在用戶端看到此升級。
-ms.openlocfilehash: c6f29cd9c9bf2b70b88a3ca3e5e1ac230b56e2a111cc34cc405261d3947e003b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d3f09ee5f2ab130a54d60424ee2966d36e54142
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343687"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614343"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>常設聊天室增益集主要頁面
 

@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: '您可以將兩個網路地區間的連結設定為通話許可控制 (CAC) 的一部分。 '
-ms.openlocfilehash: 641d7b896c540301af1adaca24cb8e1057179262
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 56e94f6cc9e9bf0bd43c607eef53561a6129d468
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233678"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600068"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>連結商務用 Skype Server 中的網路地區
 

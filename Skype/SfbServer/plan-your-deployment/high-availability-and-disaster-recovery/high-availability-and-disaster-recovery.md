@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
 description: 商務用 Skype Server 提供高可用性與伺服器集區、具有集區配對的嚴重損壞復原，以及後端伺服器高可用性的數種模式，包括 AlwaysOn 可用性群組、資料庫鏡像及 SQL 容錯移轉叢集。
-ms.openlocfilehash: c210e5b5db5470ac275bfe845c0c7c6700bfa96c73187cebdcf2785f8e19d85b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ac829249a6d75c020af2d3d3085b0bda72fe6d2c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286302"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614023"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃高可用性和嚴重損壞修復
  

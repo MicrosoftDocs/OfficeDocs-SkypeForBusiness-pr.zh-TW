@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8f48b87f-a57f-4ed8-8c79-5c75b316b696
 description: 摘要：閱讀此主題以瞭解如何設定商務用 Skype Server 中的 Exchange 儲存裝置的整合。
-ms.openlocfilehash: e33c5fcfb4ff059a266abbd06f31674e753ba1efb16b094244cba4e1f333c098
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 18d5c5ddc822866b8c3b0e157fddf34382980aaf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312091"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597297"
 ---
 # <a name="configure-integration-with-exchange-storage-for-skype-for-business-server"></a>設定商務用 Skype Server 的 Exchange 儲存裝置的整合
  

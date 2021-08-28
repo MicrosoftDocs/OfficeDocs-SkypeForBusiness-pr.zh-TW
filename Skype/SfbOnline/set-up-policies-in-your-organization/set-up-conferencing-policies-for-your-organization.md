@@ -13,24 +13,24 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 會議是線上商務用 Skype的一項重要內容：會議可讓使用者群組在線上共同查看幻燈片和視訊、共用應用程式、交換檔案，以及以其他方式通訊和共同合作。
-ms.openlocfilehash: b0a6eff8c275bc94efe3a9f7e25d7ddbf423d33ebad4558f25a7f18885756dce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 會議是線上商務用 Skype的一項重要內容：會議可讓使用者群組在線上共同觀看幻燈片和視訊、共用應用程式、交換檔案，以及以其他方式通訊和共同合作。
+ms.openlocfilehash: 6c940a7d06d05f9584ee3ac1c2e88b78b6275ada
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340299"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597387"
 ---
 # <a name="set-up-conferencing-policies-for-your-organization"></a>設定組織的會議原則
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-會議是線上商務用 Skype的一項重要內容：會議可讓使用者群組在線上共同查看幻燈片和視訊、共用應用程式、交換檔案，以及以其他方式通訊和共同合作。
+會議是線上商務用 Skype的一項重要內容：會議可讓使用者群組在線上共同觀看幻燈片和視訊、共用應用程式、交換檔案，以及以其他方式通訊和共同合作。
   
 您必須維持對會議與會議設定的控制。 在某些情況下，可能有安全性考慮：根據預設，任何人 ，包括未經驗證的使用者，都可以參與會議，並儲存這些會議期間散發的任何幻燈片或講義。 此外，可能偶爾也會有法律上的問題。 例如，根據預設，會議參與者可以針對共用內容進行注釋;不過，這些注釋不會在會議儲存時儲存。 如果貴組織需要保留所有電子通訊的記錄，您可能會想要停用注釋。 
   
@@ -41,7 +41,7 @@ ms.locfileid: "54340299"
 ## <a name="set-your-conferencing-policies"></a>設定您的會議策略
 
 > [!NOTE]
-> 對於 商務用 Skype Online 中所有的會議Windows PowerShell，您不得使用 商務用 Skype **系統管理中心**。  
+> 針對 商務用 Skype Online 中所有的會議Windows PowerShell，您不得使用 商務用 Skype **系統管理中心**。  
 
 ### <a name="start-windows-powershell"></a>開始Windows PowerShell
 
@@ -58,7 +58,7 @@ ms.locfileid: "54340299"
    $credential = Get-Credential
    Connect-MicrosoftTeams -Credential $credential
    ```
-   如果您想要啟動 Windows PowerShell 功能連線，請參閱在單一 Microsoft 365 視窗中Office 365所有 Microsoft 365 或 Office 365 [Windows PowerShell](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)服務，或設定您的電腦[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+   若要進一Windows PowerShell，請參閱連線視窗中連線所有 Microsoft 365 或 Office 365 [Windows PowerShell](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window)服務，或設定您的電腦[Windows PowerShell。](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
       
 ### <a name="block-file-transfers-and-desktop-sharing-during-meetings"></a>在會議期間封鎖檔案傳輸和桌面共用
 
@@ -67,7 +67,7 @@ ms.locfileid: "54340299"
    ```powershell
    New-CsConferencingPolicy -Identity DesktopConferencingPolicy -EnableAppDesktopSharing None  $true -EnableFileTransfer $false
    ```
-   請參閱 [New-CsConferencingPolicy](/powershell/module/skype/New-CsConferencingPolicy) Cmdlet。
+   請參閱 [New-CsConferencingIngPolicy](/powershell/module/skype/New-CsConferencingPolicy) Cmdlet。
     
 - 若要將您建立的新政策授予貴組織的所有使用者，請執行：
    
@@ -85,7 +85,7 @@ ms.locfileid: "54340299"
    ```powershell
    New-CsConferencingPolicy -Identity ConferencingPolicy -AllowAnonymousParticipantsInMeetings  $false -AllowConferenceRecording $false
    ```
-   請參閱 [New-CsConferencingPolicy](/powershell/module/skype/New-CsConferencingPolicy) Cmdlet。
+   請參閱 [New-CsConferencingIngPolicy](/powershell/module/skype/New-CsConferencingPolicy) Cmdlet。
     
 - 若要將您建立的新政策授予 Amos Marble，請執行：
    
@@ -96,14 +96,14 @@ ms.locfileid: "54340299"
     
 如果您已經建立原則，您可以使用 [Set-CsConferencingPolicy](/powershell/module/skype/Set-CsConferencingPolicy) Cmdlet 對現有原則進行變更，然後使用 [Grant-CsConferencingPolicy](/powershell/module/skype/Grant-CsConferencingPolicy) Cmdlet 將設定套用給使用者。
   
-### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>封鎖匿名參與者錄製會議，並禁止外部使用者保存會議內容
+### <a name="block-anonymous-participants-from-recording-meetings-and-external-users-from-saving-meeting-content"></a>封鎖匿名參與者錄製會議，以及禁止外部使用者保存會議內容
 
 - 若要為這些設定建立新策略，請執行：  
    
    ```powershell
    New-CsConferencingPolicy -Identity BlockedConferencingPolicy  -AllowExternalUsersToRecordMeeting  $false -AllowExternalUsersToSaveContent $false 
    ```
-   請參閱 [New-CsConferencingPolicy](/powershell/module/skype/New-CsConferencingPolicy) Cmdlet。
+   請參閱 [New-CsConferencingIngPolicy](/powershell/module/skype/New-CsConferencingPolicy) Cmdlet。
     
 - 若要將您建立的新政策授予貴組織中所有使用者，請執行：
     
@@ -118,15 +118,15 @@ ms.locfileid: "54340299"
   
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
 
-- Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點管理 Microsoft 365 或 Office 365 和 商務用 Skype Online，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+- Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理Microsoft 365或 Office 365 商務用 Skype管理線上，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
   - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
   - [您可能會想要使用 Windows PowerShell 管理Microsoft 365或Office 365](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell相比于僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
+- Windows PowerShell比只使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
     
-  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

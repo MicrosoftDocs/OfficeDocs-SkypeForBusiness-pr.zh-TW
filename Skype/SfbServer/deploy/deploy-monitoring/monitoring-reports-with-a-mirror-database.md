@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 摘要：瞭解如何將監控報告與商務用 Skype Server 所使用的鏡像資料庫相關聯。
-ms.openlocfilehash: 99b30eaf7388bfec71f55e2e3f1f784271a3258d1280953426291b1dbfe14750
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 723d01f732259098c714eaac330eeaf8c686acac
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304355"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600658"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>在商務用 Skype Server 中將監控報告與鏡像資料庫相關聯 
  
@@ -65,7 +65,7 @@ ms.locfileid: "54304355"
     
     資料來源 = (local) \archinst;容錯移轉夥伴 = atl-mirror-001\archinst; 初始目錄 = QoEMetrics
     
-8. 按一下 ****[套用]。
+8. 按一下 **[套用]**。
     
 ## <a name="see-also"></a>另請參閱
 
