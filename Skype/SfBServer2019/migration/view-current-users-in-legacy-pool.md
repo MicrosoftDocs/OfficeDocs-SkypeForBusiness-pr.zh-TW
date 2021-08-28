@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 在深入瞭解您可以在集區之間移動使用者的各種方式之前，必須先判斷舊版集區中存在哪些使用者。 [註冊區集區] 欄可識別為舊版集區設定的使用者。 這些是我們將要移至商務用 Skype Server 2019 集區的測試使用者。
-ms.openlocfilehash: 16d8796099356b927482a7e0d7eb395ebb4f03e76f9de83a386cfc2f8d5bd9a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 739a6dc22b9fe73cdaf316ce5ccd70d4dbeca729
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285503"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599678"
 ---
 # <a name="view-current-users-in-legacy-pool"></a>檢視舊版集區的目前使用者
 

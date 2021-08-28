@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,18 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderDetailPanelWhois
 description: '瞭解如果您的電信公司未列在商務用 Skype。 '
-ms.openlocfilehash: 263e8584179a523934ab76083b601854527bb995bc9f0297bf9bab34a012dd41
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c9916c38496365884e75e8777f42958c45bb0e59
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320967"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599618"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>如果我的電話電信公司未列為來源電信公司，該做什麼？
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-當您看到未列出您的電信公司名稱時，這有點令人困惑。 在大多數的情況下，如果服務提供者或電信業者不同，您轉接的電話號碼可能由不同的服務提供者或電信業者所擁有。 有時候列出的服務提供者或電信服務提供者可能會與目前的服務提供者不同，因為您目前的服務提供者可能正與協力廠商服務提供者合作。 
+當您看到未列出您的電信公司名稱時，這有點令人困惑。 在大多數的情況下，如果服務提供者或電信業者不同，您傳輸的電話號碼可能由不同的服務提供者或電信業者所擁有。 有時候列出的服務提供者或電信服務提供者可能會與目前的服務提供者不同，因為您目前的服務提供者可能正與協力廠商服務提供者合作。 
   
 範例：
   

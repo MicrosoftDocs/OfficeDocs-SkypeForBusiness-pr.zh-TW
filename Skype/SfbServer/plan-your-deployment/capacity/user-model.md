@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: 本文根據商務用 Skype Server 中使用者模型所述的使用方式，針對網站上的使用者人數，提供您在網站上的多少伺服器所需的指導方針。
-ms.openlocfilehash: b7222390f379bca79dfee7ab2e9f2c081118b22d635a1ef2edb2f1fc9ac0b70b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eaf5318e78761143d1c711b1603797b3b8e699f3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338111"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599928"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>商務用 Skype Server 的容量規劃使用者模型使用狀況
 
@@ -186,9 +186,9 @@ Microsoft 使用下表中的硬體，以在其效能測試期間監控和封存�
 |**Drive** <br/> |**RAID 設定** <br/> |**磁片數目** <br/> |
 |:-----|:-----|:-----|
 |單一磁片磁碟機上的 CDR、QoE 及封存資料庫資料檔案  <br/> |1 + 0  <br/> |16   <br/> |
-|CDR 資料庫記錄檔  <br/> |1  <br/> |第  <br/> |
-|QoE 資料庫記錄檔  <br/> |1  <br/> |第  <br/> |
-|封存資料庫記錄檔  <br/> |1  <br/> |第  <br/> |
+|CDR 資料庫記錄檔  <br/> |1   <br/> |2   <br/> |
+|QoE 資料庫記錄檔  <br/> |1   <br/> |2   <br/> |
+|封存資料庫記錄檔  <br/> |1   <br/> |2   <br/> |
 
 ## <a name="video-interop-server-capacity"></a>影片 Interop 伺服器容量
 

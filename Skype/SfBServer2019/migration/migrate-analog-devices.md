@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 商務用 Skype Server 提供類比裝置的支援。 具體而言，支援的類比裝置為類比語音電話與類比傳真機。 您可以設定合格的閘道，以支援在商務用 Skype Server 環境中使用類比裝置。 在您將商務用 Skype Server 2019 遷移後，您也必須遷移與類比裝置相關聯的連絡人物件。 使用商務用 Skype Server 管理命令介面，先取得與舊版類比裝置相關聯的所有連絡人物件，然後將這些物件移至商務用 Skype Server 2019 集區。
-ms.openlocfilehash: 464531fcffbe251d6a0868e86b1b9edccc898fdeeb0963ed0f10c2b653dfe93b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d64552a53b5cb37187a25febe5ce6171d1c64ec9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337263"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599688"
 ---
 # <a name="migrate-analog-devices"></a>移轉類比裝置
 

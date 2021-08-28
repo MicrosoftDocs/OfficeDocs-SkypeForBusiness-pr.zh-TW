@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 如何設定商務用 Skype Server 綜合交易的測試使用者帳戶和監視程式節點設定。
-ms.openlocfilehash: e5ae16702ca5659cc196086a108f65acb03d032a2901344afc1f3e2238211b2f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7e7c318f6e9176c46a7dbbab6c8d1833f74911e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283245"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599938"
 ---
 # <a name="how-to-configure-watcher-node-test-users-and-settings"></a>如何設定監視節點測試使用者和設定
  

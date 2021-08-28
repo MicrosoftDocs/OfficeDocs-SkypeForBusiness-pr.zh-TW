@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom: httpsfix
 description: 下列主題提供更新 DNS 專案、移動內容管理伺服器、解除委任集區，以及從舊版部署停用和移除伺服器及集區的指導方針。 本節所列的程序並非全為必要程序。 請閱讀文件並判斷應使用哪些解除委任程序。
-ms.openlocfilehash: 7b96639b07ee8788f109a08f38265f4c0c27e0f035b1a7729488d4064ec31208
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7285ffd7c4d4087dba3b9fe9bf7ff2fadba2b62e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285513"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613302"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>階段 8：解除委任舊版集區
 

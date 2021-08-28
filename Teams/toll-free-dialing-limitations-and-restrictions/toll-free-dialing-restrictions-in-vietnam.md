@@ -16,20 +16,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: 瞭解如何在 越南撥打免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
-ms.openlocfilehash: 533f221518c422ab1d0bcb132cca2cfddf737d1f7a956dc1c560052b5a68af66
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解撥打免付費號碼越南，包括可用性、有線/固定電話和行動網路可用性，以及限制。
+ms.openlocfilehash: 1c967b9202729ffeb75a635a2a4104fdeee122b0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335833"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613442"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>免付費撥號限制越南
 
@@ -45,7 +45,7 @@ ms.locfileid: "54335833"
 | 未涵蓋的島嶼/地區  <br/>              | 不適用  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
 | 有線/固定線路可用性  <br/>             | 部分。 查看批註。  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | 行動網路可用性  <br/>               | 部分。 查看批註。  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
-| 批註、限制和存取問題  <br/> | 120 XX XXX 號碼格式會從 越南 Telecom International (VTI) 和 VNPT (越南 郵電) 固定及行動網路使用。 <br/> <br/> 自 2018 年 6 月起，120 XX XXX 號碼格式無法從 Mobifone 行動網路進行叫用。 <br/> <br/>**注意：** Mobifone &amp; Vinaphone 是 VNPT 的一部分。 數位格式 122 XXX XX 網路涵蓋範圍：越南電信 (固定) 。 根據電信越南，允許的通話持續時間上限為 2 小時。 |
+| 批註、限制和存取問題  <br/> | 120 XX XXX 數位格式會從 越南 Telecom International (VTI) 和 VNPT (越南 郵電) 固定及行動網路使用。 <br/> <br/> 自 2018 年 6 月起，120 XX XXX 號碼格式無法從 Mobifone 的移動網路進行叫用。 <br/> <br/>**注意：** Mobifone &amp; Vinaphone 是 VNPT 的一部分。 數位格式 122 XXX XX 網路涵蓋範圍：越南電信 (固定) 。 根據電信越南，允許的通話持續時間上限為 2 小時。 |
    
 ## <a name="related-topics"></a>相關主題
 

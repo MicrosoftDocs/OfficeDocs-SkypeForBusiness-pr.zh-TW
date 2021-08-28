@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用 [Persistent Chat] 頁面的 [增益集] 區段，將 URLs 與 Persistent 聊天室產生關聯。 這些 URLs 會出現在交談擴充性窗格中的聊天室中的用戶端。 管理員必須將增益集加入至已註冊的增益集清單中，且聊天室管理員/創作者必須與其中一個已註冊的增益集產生關聯，使用者才能在用戶端看到此升級。
-ms.openlocfilehash: a2f52b673ed14f95181e0b75863f407803ebd86facf6802cb980cd9669698187
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 62b3a2fae3f4baaab707c2af73def6d9ce1ae4c5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283565"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599374"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>常設聊天室增益集主要頁面
 

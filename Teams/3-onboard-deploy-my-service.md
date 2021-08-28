@@ -14,45 +14,45 @@ ms.reviewer: rowille
 description: 下載網站啟用手冊以規劃您的Teams，並加速及優化使用者採用、品質感知和滿意度。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35ac2d0b8158a089e3f002108172066dcf6853c3525c6358dcdd2c8c57d19fa0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d79e1431d6743f60092acbfab82154037a4c5720
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288691"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624935"
 ---
 # <a name="deploy-my-service"></a>部署我的服務
 
-本文概述正確部署雲端語音服務的需求。 遵循部署雲端語音服務的規定性指引，您可以確定您成功符合所有需求，並交付可重複的結果。
+本文概述正確部署雲端語音服務的需求。 遵循部署雲端語音服務的規範性指引，您可以確定您已成功考慮到所有需求，並交付可重複的結果。
 
 ## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>適用于語音工作負載的網站啟用Microsoft Teams手冊
 
 使用此手冊可協助貴組織成功規劃並執行Microsoft Teams以網站為基礎推出語音功能。
 
-包含所有必要的活動、建議的時程表，以及每個活動對應指南的連結，本手冊涵蓋端對端指南，可協助確保為一個給定網站成功部署 Teams 語音，並著重于使用者重要的因素。
+包含所有必要的活動、建議的時程表，以及每個活動對應指南的連結，本手冊涵蓋端對端指南，可協助確保為給定網站成功部署 Teams 語音，並著重于使用者重要的因素。
 
 貴組織可以完成此遊戲手冊中的活動：
 
 -   有效規劃並排程您的Teams推出。
 
--   加速並優化使用者採用。
+-   加速及優化使用者採用。
 
 -   減少支援需求，提高使用者滿意度。
 
 > [!NOTE]
-> 本文和相關遊戲手冊並非用來描述服務啟用或提供撥號音至特定網站所需的每一個技術組組步驟。 相反地，他們專注于建議使用者輕鬆上電的活動和工作，並讓他們透過快速且順暢的轉換，以高採用率Teams開始耗用 Teams 語音工作負載，同時將支援需求最小化。 有關如何最佳設定 Teams 語音環境的技術指南，請參閱設定[Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)語音工作負載、在[Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)中設定直接路由[、Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)核心功能、Teams 的網路，以及啟用 Microsoft 365 或[Office 365](onboarding-checklist-enable-office-365.md)的上線檢查清單[](prepare-network.md)。
+> 本文和相關遊戲手冊並非用來描述服務啟用或提供撥號音至特定網站所需的每一個技術組組步驟。 相反地，他們會專注于建議使用者輕鬆上電的活動和工作，讓他們能透過快速且順暢的轉換，以高採用率Teams開始耗用 Teams 語音工作負載，同時將支援需求最小化。 有關如何最佳設定 Teams 語音環境的技術指南，請參閱設定[Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)語音工作負載、在[Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)中設定直接路由[、Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)核心功能、Teams 的網路，以及啟用 Microsoft 365 或 Office 365 的上線檢查[清單](onboarding-checklist-enable-office-365.md)。 [](prepare-network.md)
 
 <!--ENDOFSECTION-->
 
 ## <a name="playbook-focus-areas"></a>Playbook 焦點區域
 
-遊戲手冊的焦點是解決影響使用者對語音部署Teams的因素。 活動和工作會分組到下列焦點區域：
+遊戲手冊的焦點是解決影響使用者對語音部署Teams因素。 活動和工作會分組到下列焦點區域：
 
 -   服務就緒性驗證
     - 音訊會議
@@ -78,23 +78,23 @@ Voice[和 Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness
 
 ## <a name="how-to-use-the-playbook"></a>如何使用遊戲手冊
 
-無論位置大小與複雜度如何，啟用每個網站都需要您及早規劃工作與活動，並在實際服務推出之前、期間及之後以最佳循序執行。 我們建議您在規劃並執行自己的語音體驗時，遵循Microsoft Teams步驟。
+無論位置大小與複雜度如何，啟用每個網站都需要您及早規劃工作與活動，並在實際服務推出之前、期間及之後以最佳循序執行。 我們建議您在規劃並執行自己的語音語音Microsoft Teams步驟。
 
 1. 下載適用于 Voice 的 Voice ([Playbook) 工具Microsoft Teams](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)手冊。
 
 2. 為每個網站建立另一份遊戲手冊。
 
-3. 在 **{SiteName-Code}** 的名為 Playbook 的工作表的 Tab 上，將 **{SiteName-Code}** 取代為相關的網站名稱和/或網站代碼。
+3. 在 **{SiteName-Code}** 的名為 Playbook 的工作表的卷點中，將 **{SiteName-Code}** 取代為相關的網站名稱和/或網站代碼。
 
-4. 輸入 **網站名稱、網站代碼** 和 **計畫啟動日期**，如下圖所示。 這是一個至關重要的步驟，因為它會調整手冊中每個活動的建議期限。
+4. 輸入 **網站名稱、網站代碼** 和計畫啟動 **日期**，如下圖所示。 這是一個至關重要的步驟，因為它會調整手冊中每個活動的建議期限。
 
-   ![包含網站名稱、網站代碼和計畫啟動日期的範例](media/deploy-my-service-image2.png "包含紐約網站名稱、網站代碼 NY01 和 20-Mar-18 的計畫啟動日期的範例")
+   ![包含網站名稱、網站代碼和計畫啟動日期的範例](media/deploy-my-service-image2.png "包含紐約網站名稱、網站代碼 NY01，以及 20-Mar-18 的計畫啟動日期的範例")
 
 5. 在流覽時程表時，檢查每個活動、採取必要動作並更新狀態。 狀態以圖形表示，如下所述：
   
-   - ![綠色核取方塊的圖例是或不適用 (綠色 ](media/deploy-my-service-image3.png) **) ：** 活動已經完成，或不適用於此網站，因此不需要執行其他動作。</li>
-   - ![黃色驚嘆號圖例 活動尚未完成 (黃色 ](media/deploy-my-service-image4.png) <strong>) ：</strong> 活動尚未完成，且必須在排程上更新為是或否。</li>
-   - ![紅色 X 的圖例， (紅色) ：活動因問題無法完成，必須帶至專案 ](media/deploy-my-service-image5.png) <strong></strong>狀態會議。</li></ul>
+   - ![綠色核取方塊的圖例是或不適用 (綠色 ](media/deploy-my-service-image3.png) **) ：** 活動已完成，或不適用於此網站，且不需要執行其他動作。</li>
+   - ![黃色驚嘆號的圖例：活動尚未完成 (黃色 ](media/deploy-my-service-image4.png) <strong>) ：</strong> 活動尚未完成，且必須在其排程上更新為是或否。</li>
+   - ![紅色 X 的圖例，表示 (否) ：活動因問題無法完成，必須帶至專案 ](media/deploy-my-service-image5.png) <strong></strong>狀態會議。</li></ul>
 
 6. 狀態會在每個區段內匯總，且節標題的格式會以其中一個狀態指示器的格式。 **每週狀態** 也會自動更新。
 

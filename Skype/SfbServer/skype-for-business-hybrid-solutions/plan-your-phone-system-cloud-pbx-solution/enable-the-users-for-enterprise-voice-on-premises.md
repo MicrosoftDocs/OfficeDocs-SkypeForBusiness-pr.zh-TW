@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: 若要讓使用者在 (雲端 PBX) 上使用電話系統，您必須先將它們啟用企業語音並為其指派電話號碼。 您可以使用內部部署來執行這項作業，而使用者仍會駐留在內部部署中。
-ms.openlocfilehash: aef74877d1a12d136bddc7eedc2a414dfad100830a88bb9a21695004be91d1a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 28943670a0919d80c96c97b7574cdc82ac68cfde
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289081"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613692"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>在內部部署上啟用使用者企業語音
  

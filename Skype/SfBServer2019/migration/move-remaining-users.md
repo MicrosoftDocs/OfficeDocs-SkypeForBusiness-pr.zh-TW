@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 您可以使用商務用 Skype Server 控制台或商務用 Skype Server 管理命令介面，將使用者移至新的商務用 Skype Server 2019 部署。 您必須符合某些需求，以確保順利轉換為商務用 Skype Server 2019。 如需完成本主題中程式之必要條件的詳細資訊，請參閱設定用戶端進行遷移。 如需移動使用者的詳細步驟，請參閱第4階段：將測試使用者移至試驗集區。
-ms.openlocfilehash: a2742acf32899aca71c28da733c723640a8c1e9200f26f793a918eac04714f15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 60742068bc684470d181593e94615da2a8d79ff6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300629"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623105"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>將剩餘的使用者移至商務用 Skype Server 2019
 

@@ -1,5 +1,5 @@
 ---
-title: 為什麼號碼啟用只是擱置中？
+title: 為什麼號碼啟用擱置中？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,31 +14,31 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - ms.lync.lac.NumberActivationStatePending
-description: 位址驗證是設定通話方案的重要一部分。 它會為貴組織的使用者提供緊急電話位址，由緊急回應服務使用。
-ms.openlocfilehash: 8e80d272c08aada8020ab39caab0290ef45199f00663c73b1c269318e9b3518b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 位址驗證是設定通話方案的重要部分。 它會為貴組織的使用者提供緊急電話位址，由緊急回應服務使用。
+ms.openlocfilehash: 62558171dc8f6fb93d140995d3ce7cff56227519
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330587"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599568"
 ---
-# <a name="why-is-number-activation-just-pending"></a>為什麼號碼啟用只是擱置中？
+# <a name="why-is-number-activation-just-pending"></a>為什麼號碼啟用擱置中？
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-位址驗證是設定通話方案的重要一部分。 如果因為某種原因，電話號碼未啟用，且因為位址驗證而列為擱置中，您必須建立並提交服務要求。 您執行此工作是以貴組織的大小為基礎。
+位址驗證是設定通話方案的重要部分。 如果因為某種原因，電話號碼未啟用，且因為位址驗證而列為擱置中，您必須建立並提交服務要求。 如何執行此工作，取決於貴組織的大小。
   
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>針對組織 150 或以下組織，請遵循下列步驟
 1. 在系統管理中心中，選擇需要 **協助** 嗎？
 2. 在 " **需要協助嗎？"** 窗格中，告訴我們您需要哪些協助，然後選擇取得 **協助**。
-3. 如果 View **解決方案** 區段的結果沒有説明，請選擇下列其中一項：
+3. 如果 View **solutions** 區段的結果沒有説明，請選擇下列其中一項：
     - **讓我們打電話給您 (建議**) ：確認您的聯絡人號碼，然後按 **Call me。** 回電的預期等候時間會以需要說明 **？** 窗格表示。
     - **傳送電子郵件給我們**：確認您的電子郵件地址， **然後選擇傳送**。 通話回應時間會以需要說明 **？** 窗格表示。
  
@@ -50,7 +50,7 @@ ms.locfileid: "54330587"
     
 3. 在 **[服務要求>** 下，按一下 [ **新增**。
     
-4. 在 [ **建立服務要求」** 頁面上，按一下 [ **線上共同合作>**。
+4. 在 [ **建立服務要求>** 頁面上，按一下 [ **線上共同合作>**。
     
 5. 在識別 **問題頁面上** ，選取並輸入下列專案：
     
@@ -71,11 +71,11 @@ ms.locfileid: "54330587"
       - 國家或地區
     
      > [!IMPORTANT]
-     > **在您指派電話號碼時，將我們提供通話方案的國家/地區置於您嘗試驗證緊急位址的國家/地區。**
+     > **將我們提供通話方案的國家/地區放在您指派電話號碼時嘗試驗證緊急位址的國家/地區。**
   
       - 郵遞區號
     
-6. 按一下 **[下** 一頁>，按一下 **[是，繼續** 繼續>。
+6. 按一下 **[下** 一頁， **按一下 [是，繼續** 繼續>。
     
 7. 在新增 **詳細資料** 頁面上，選取並輸入下列專案：
     
@@ -96,7 +96,7 @@ ms.locfileid: "54330587"
 8. 請閱閱資訊，然後按一下 [ **提交要求**> 。
     
 > [!TIP]
-> 參考編號會列在服務要求 **頁面的** Microsoft 365 系統管理中心。
+> 參考編號會列在服務要求頁面的Microsoft 365 系統管理中心。
 
 
 > [!NOTE]

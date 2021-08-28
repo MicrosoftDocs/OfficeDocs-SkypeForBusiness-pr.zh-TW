@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: 使用 Windows PowerShell 和 Get-CsTenant Get-CsTenantLicensingConfiguration Cmdlet 來取得您的線上租使用者商務用 Skype相關資訊。
-ms.openlocfilehash: 733d7e30bc25f15bcf05c2746ef1eb2cb8aa5cfd8e7e780356c4a972ef97a183
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 使用 Windows PowerShell 和 Get-CsTenant Get-CsTenantLicensingConfiguration Cmdlet 來取得有關您的 商務用 Skype Online 租使用者的資訊。
+ms.openlocfilehash: e45f1bdd2c14aea34e07183dde86031a8c503476
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298743"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623085"
 ---
 # <a name="manage-skype-for-business-online-organizations"></a>管理商務用 Skype線上組織
 
@@ -36,7 +36,7 @@ ms.locfileid: "54298743"
   
 ## <a name="manage-skype-for-business-online-tenants"></a>管理 商務用 Skype Online 租使用者
 
-若要返回您的線上租使用者商務用 Skype相關資訊，請撥打[Get-CsTenant](/powershell/module/skype/Get-CsTenant) Cmdlet，而不使用任何其他參數。
+若要返回您的線上租使用者商務用 Skype相關資訊，請撥打[Get-CsTenant](/powershell/module/skype/Get-CsTenant) Cmdlet，而不需要任何其他參數。
   
 ```PowerShell
 Get-CsTenant
@@ -50,7 +50,7 @@ Get-CsTenant | Select-Object Name, TenantID
 
 執行  _Cmdlet_ 時，需要 TenantID 參數的值，例如 [Set-CsTenantPublicProvider](/powershell/module/skype/Set-CsTenantPublicProvider) 和 [Set-CsTenantFederationConfiguration](/powershell/module/skype/Set-CsTenantFederationConfiguration)。
   
-若要尋找指定租使用者的授權資訊是否可在 商務用 Skype Online 系統管理中心取得，請使用[Get-CsTenantLicensingConfiguration](/powershell/module/skype/Get-CsTenantLicensingConfiguration) Cmdlet。
+若要在 商務用 Skype Online 系統管理中心尋找指定租使用者的授權資訊，請使用[Get-CsTenantLicensingConfiguration](/powershell/module/skype/Get-CsTenantLicensingConfiguration) Cmdlet。
   
 ## <a name="related-topics"></a>相關主題
 [使用電腦設定商務用 skype 線上管理Windows PowerShell](set-up-your-computer-for-windows-powershell.md)

@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: 瞭解如何在雲端連接器 Edition 中部署多個 PSTN 網站。
-ms.openlocfilehash: cccef5ee25ec5f902ea40e39c923bf0c7394631cf8508d6b178e166f08aff709
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f771875605ffef130b430fd7c7a00d9d1a63873
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289381"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613763"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>在 Cloud Connector 中部署多個網站
 
@@ -82,10 +82,10 @@ ExternalMRPublicIPs=104.42.226.134
 
 下表列出具有 HA 支援的單一網站與多個網站部署之間的差異。
   
-|**類別**|**Item**|**具有高可用性的單一網站**|**多網站**|
+|**類別**|**項目**|**具有高可用性的單一網站**|**多網站**|
 |:-----|:-----|:-----|:-----|
 |設定  <br/> |裝置主機名稱 <br/> |各裝置 **不同** <br/> |各 PSTN 網站 **不同** <br/> |
-|設定  <br/> |共用資料夾  <br/> |跨裝置需要 **相同** 的共用資料夾 <br/> |需要跨裝置使用 **不同** 的共用資料夾 <br/> |
+|安裝程式  <br/> |共用資料夾  <br/> |跨裝置需要 **相同** 的共用資料夾 <br/> |需要跨裝置使用 **不同** 的共用資料夾 <br/> |
 |設定  <br/> |VirtualMachineDomain  <br/> |需要跨裝置的 **相同** 網域 <br/> |需要跨 PSTN 網站的 **相同** 網域 <br/> |
 |設定  <br/> |SIPDomains  <br/> |跨裝置的功能變數名稱和順序應該 **相同** <br/> |各 PSTN 網站的功能變數名稱和順序應該 **相同** <br/> |
 |設定  <br/> |網站名稱  <br/> |**相同** 跨裝置的網站名稱 <br/> |**不同** PSTN 網站上的網站名稱 <br/> |
@@ -96,6 +96,6 @@ ExternalMRPublicIPs=104.42.226.134
 |設定  <br/> |外部 Ip  <br/> |各裝置 **不同** <br/> |各 PSTN 網站 **不同** <br/> |
 |設定  <br/> |PSTN GW 設定  <br/> |跨裝置 **相同** <br/> |各 PSTN 網站 **不同** <br/> |
 |設定  <br/> |DNS 記錄  <br/> |新增具有 **相同** 外部存取 fqdn 和 **不同** IP 位址的記錄 <br/> |使用 **不同** 的外部存取 fqdn 和 **不同** 的 IP 位址新增記錄 <br/> |
-|設定  <br/> |混合租使用者  <br/> |設定 HybridPSTNSite  <br/> 設定 PeerDestination 為 fallback  <br/> |設定 HybridPSTNSite  <br/> 設定 PeerDestination 為 fallback  <br/> |
-|設定  <br/> |閘道  <br/> |此網站中的 MS GW **M:N** 對應 <br/> |PSTN 閘道 (s) 在每個 PSTN 網站中應該只連接至相同網站的轉送伺服器 (s)   <br/> |
-|設定  <br/> |使用者  <br/> |設定 UserPSTNSettings  <br/> |設定 UserPSTNSettings  <br/> |
+|安裝程式  <br/> |混合租使用者  <br/> |設定 HybridPSTNSite  <br/> 設定 PeerDestination 為 fallback  <br/> |設定 HybridPSTNSite  <br/> 設定 PeerDestination 為 fallback  <br/> |
+|安裝程式  <br/> |閘道  <br/> |此網站中的 MS GW **M:N** 對應 <br/> |PSTN 閘道 (s) 在每個 PSTN 網站中應該只連接至相同網站的轉送伺服器 (s)   <br/> |
+|安裝程式  <br/> |使用者  <br/> |設定 UserPSTNSettings  <br/> |設定 UserPSTNSettings  <br/> |

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 執行 Move-CsUser Cmdlet 時，可能會發生失敗，因為 Active Directory 網域服務 (AD DS) 和商務用 Skype Server 2019 資料庫之間的使用者資訊因初始複寫不完整而不同步。 成功完成商務用 Skype Server 2019 使用者複寫器服務的初始同步處理所需的時間，取決於主控商務用 Skype Server 2019 集區之 Active Directory 樹系中主控的網域控制站數目。 當第一次啟動商務用 Skype Server 2019 前端伺服器時，就會發生商務用 Skype Server 2019 User 複寫器服務初始同步處理常式。 完成後，則是根據使用者複寫器間隔來進行同步化。 在執行 Move-CsUser Cmdlet 之前，請完成下列步驟來確認已完成使用者複寫。
-ms.openlocfilehash: 0fe1c205b04ed32f5ac4281e555d5a44262905aa23b74eb69148d447337b59f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 893702b18b376edc32e946998aeead122bf3ed68
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325680"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599698"
 ---
 # <a name="verify-user-replication-has-completed"></a>確認已完成使用者複製
 

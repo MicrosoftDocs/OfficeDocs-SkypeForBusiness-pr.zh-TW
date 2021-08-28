@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8eccc6e885cef67d4f6240483d3995df88d7cfc
-ms.sourcegitcommit: 25fd720c008dcf1573344e50d736131a20c3ac7d
+ms.openlocfilehash: b9233f3a807846261a563d11b46d0fea59092780
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58683307"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613472"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "58683307"
 1. 在左側流覽中，前往 **會議**  >  **即時活動設定**。
 2. 在 **支援 URL** 下，輸入貴組織的支援 URL。
 
-    ![系統管理中心即時活動的支援 URL 設定](../media/teams-live-events-settings-supporturl.png "即時活動支援 URL 設定Teams螢幕擷取畫面")
+    ![系統管理中心即時活動的支援 URL 設定](../media/teams-live-events-settings-supporturl.png "即時活動支援 URL Teams螢幕擷取畫面")
 
 ### <a name="using-windows-powershell"></a>使用Windows PowerShell
 
@@ -90,10 +90,6 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 **Ramp** 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
-```
-**Peer5**
-```PowerShell
-Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName peer5 -SdnLicenseId {peer5CustomerId}
 ```
 
 詳細資訊，請參閱 [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)。

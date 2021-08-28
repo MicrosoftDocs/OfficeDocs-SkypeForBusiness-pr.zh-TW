@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 「線上憑證要求狀態」頁面會傳回憑證的目前狀態。如果憑證在憑證授權單位系統管理員那邊仍處於等待核准狀態 (亦即，如果憑證未獲核准)，則狀態會指出憑證仍在處理中。
-ms.openlocfilehash: 90e5a7fad323319faf837af2112334e230196648fe3ac24310fabc115390dc89
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65a97828988a59cb45005423c00288dc9b566bfe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54291791"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599518"
 ---
 # <a name="pending-certificate-returned"></a>擱置的憑證 (已傳回)
  

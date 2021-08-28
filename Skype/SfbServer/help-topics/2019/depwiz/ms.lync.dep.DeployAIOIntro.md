@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要開始安裝會保留中央管理存放區和您所選取之其他組合服務的商務用 Skype Server Standard Edition 伺服器，您必須以將要成為 Standard Edition 伺服器之伺服器上的本機系統管理員群組成員的身分登入。 [準備單一 Standard Edition 伺服器] 頁面詳述初始安裝的需求。 電腦必須是您要部署它所在之網域的成員，而且您必須已成功完成樹系的架構、樹系和網域準備工作。
-ms.openlocfilehash: 352b4ece936d609ed73540370313d21e83b9034c5efdbbdefb40528921bf8e34
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 219f8c9b4ae982626bcafaf4942caa133a89b272
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292241"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622995"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>準備單一 Standard Edition Server (簡介)
  

@@ -10,23 +10,23 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: 瞭解即時活動錄製政策。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 77bfb6f3d57b885a11574f08f21da5f8c1c488a9832aeae1ffe602c4a922d227
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bd9f800ed85d994f797c5e49d64ae0e84f90885c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319656"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613452"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>即時活動錄製Microsoft Teams
 
-您有幾個選項可以錄製即時Microsoft Teams活動。 錄製選項是使用錄製策略來設定。 本文將說明各種設定。
+您有幾個錄製即時活動Microsoft Teams選項。 錄製選項是使用錄製策略來設定。 本文將說明各種設定。
 
 錄製選項是使用 PowerShell 命令 [Set-CsTeamsMeetingBroadcastPolicy 來設定](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)。
 
@@ -56,7 +56,7 @@ ms.locfileid: "54319656"
 
 ## <a name="storage-and-persistence-behavior"></a>儲存體和持續性行為
 
-| 選項                                       | 狀態   | Dvr                                                   | Vod                                                     | 錄製                |
+| 選項                                       | 狀態   | DVR                                                   | VOD                                                     | 錄製                |
 | ------------------------------------------------ | ------------ | --------------------------------------------------------- | ----------------------------------------------------------- | ---------------------------- |
 | 出席者可以使用錄製 | 選擇     | DVR 可供使用，AZURE 媒體服務 (AMS) 資產儲存 180 天 | 出席者可以存取並觀看活動                     |                              |
 |                                                  | 未選取 | DVR 可供使用，且 AMS 資產儲存 180 天 | 活動結束後，出席者無法存取活動 |                              |
@@ -69,4 +69,4 @@ ms.locfileid: "54319656"
 - [什麼是 Teams 即時活動？](what-are-teams-live-events.md)
 - [Teams 即時活動的方案](plan-for-teams-live-events.md)
 - [在 Teams 中設定即時活動設定](configure-teams-live-events.md)
-- [Teams雲端會議錄製](../cloud-recording.md)
+- [Teams雲會議錄製](../cloud-recording.md)
