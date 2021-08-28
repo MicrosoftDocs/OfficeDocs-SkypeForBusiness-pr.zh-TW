@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 摘要：在商務用 Skype Server 中啟用整合連絡人存放區。
-ms.openlocfilehash: 6311b760daf2c397cfc5c75ddeb5e28fd2fb6503c0c2db11ef9ed6de71a7562e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 181c23b9dc7ab1c4361e3406a9f1f61b4bcf5057
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310012"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609930"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>在商務用 Skype Server 中部署整合連絡人存放區
  

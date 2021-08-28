@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 瞭解如何使用現有的小組在 Microsoft Teams。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40eae307d4ec98f37f9ee88e986194ffe99600ae2d6b74430a7b3edfcee66b53
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 05fd28f19b5733ad34bcd12efa21be675cecfd31
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282686"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588225"
 ---
 # <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>從現有的小組在 Microsoft Teams
 
@@ -39,7 +39,7 @@ Microsoft Teams可讓您從現有的小組建立範本，該範本可以儲存�
 
 4. 選取 **使用現有的團隊做為範本**，然後選取 下 **一步**。
 
- ![使用現有團隊做為範本的小組範本起始畫面影像。](media/team-existing-team-as-template.png)
+ ![小組範本起點畫面的影像，其中以現有團隊做為範本為強調顯示。](media/team-existing-team-as-template.png)
 
 5. 選取團隊名稱旁的以做為起點的小組，然後選取下一 **步**。
 
@@ -50,7 +50,7 @@ Microsoft Teams可讓您從現有的小組建立範本，該範本可以儲存�
     - 範本簡短和長描述
     - 地區設置可見度  
   
-7. 在頻道 **、定位字元和應用程式** 區段，新增小組所需的任何頻道和應用程式。
+7. 在 **頻道、定位字元和應用程式** 區段，新增小組所需的任何頻道和應用程式。
 
     1. 在頻道 **區** 段 **，選取** 新增 。
     2. 在 [ **新增」** 對話方塊中，為頻道命名。
@@ -61,7 +61,7 @@ Microsoft Teams可讓您從現有的小組建立範本，該範本可以儲存�
 
 8. 選取 **提交** 以儲存您的變更。
 
-您的新範本會顯示在小組 **範本** 清單中。 範本可用來在 Teams 中建立Teams。
+您的新範本會顯示在小組 **範本** 清單中。 範本可用於在 Teams 中建立Teams。
 
 > [!Note]
 > 團隊使用者最多可能需要 24 小時，才能在圖庫中查看自訂範本。

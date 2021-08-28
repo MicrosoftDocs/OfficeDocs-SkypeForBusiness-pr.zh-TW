@@ -9,22 +9,22 @@ ms.reviewer: ''
 search.appverid: ''
 description: 瞭解Teams政策。
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 75a2da0b4b949195f5660991eca130249bc1e75ae52e95ef7c221449a8e72821
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 307eccf1d6e919593cdfadaf2b902a7a15c7b4cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319946"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588145"
 ---
 # <a name="manage-teams-with-policies"></a>使用Teams管理
 
-策略是管理系統管理的重要Teams。 使用本文流覽如何使用策略來為貴組織帶來好處。
+策略是管理Teams。 使用本文流覽如何使用策略來為貴組織帶來好處。
 
 ## <a name="what-you-use-policies-for"></a>您用於策略的
 
@@ -32,7 +32,7 @@ ms.locfileid: "54319946"
 
 ## <a name="how-to-assign-policies"></a>如何指派策略
 
-您可以根據貴組織嘗試完成的工作，以多種方式指派策略。 您可以在系統管理中心進行Teams作業。
+根據貴組織嘗試完成的工作，可以數種不同的方式指派策略。 您可以在系統管理中心進行Teams作業。
 
 ![群群組原則作業的螢幕擷取畫面。](media/group-policy-assignment.png)
 
@@ -42,7 +42,7 @@ ms.locfileid: "54319946"
 
 使用系統管理中心Microsoft Teams使用[PowerShell 管理原則](./teams-powershell-managing-teams.md#manage-policies-via-powershell)。
 
-例如，應用程式設定策略可允許您讓使用者上傳自訂應用程式、代表使用者安裝應用程式，以及將應用程式釘Teams工具列。 這些策略在系統管理中心Teams中。
+例如，應用程式設定策略可以允許使用者上傳自訂應用程式、代表使用者安裝應用程式，以及將應用程式釘Teams工具列。 這些策略在系統管理中心Teams中。
 
 ![應用程式設定策略的螢幕擷取畫面。](media/app-setup-policy.png)
 
@@ -52,7 +52,7 @@ ms.locfileid: "54319946"
 
 ### <a name="teams-for-education"></a>適用於教育的 Teams
 
-您也可以使用學習Teams 教育版精靈[](easy-policy-setup-edu.md)，輕鬆設定和管理學習環境的政策。
+您也可以使用Teams 教育版精靈，[](easy-policy-setup-edu.md)輕鬆設定和管理學習環境的政策。
 
 ![系統Teams 教育版精靈的螢幕擷取畫面。](media/easy-policy-setup-quick-setup.png)
 
@@ -70,7 +70,7 @@ ms.locfileid: "54319946"
 
 ## <a name="related-topics"></a>相關主題
 
-* [在 Teams 中指派Teams - 開始使用](policy-assignment-overview.md)
+* [在中指派Teams - 開始使用](policy-assignment-overview.md)
 * [管理意見Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [管理團隊Microsoft Teams](teams-policies.md)
 * [在 Microsoft Teams 中設定即時活動](teams-live-events/set-up-for-teams-live-events.md)

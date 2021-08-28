@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.EdgeNetwork
 - ms.lync.plan.EdgeNetwork
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 大部分的 Edge 元件都是部署在周邊網路中。 下列元件組成周邊網路的 Edge 拓撲。 除了另有說明之外，元件是 Edge Server 案例的一部分，在商務用 Skype Server 2015 中，且位於周邊網路中。 Edge 元件包括：
-ms.openlocfilehash: 8123d1a4c04e4f1c21cc432295b2424572594d1a701d5e5199a08e21094a486c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1eb17f98e4c5b5b1bb15dea9fbaabc57ebb32975
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280018"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632787"
 ---
 # <a name="edge-network-planning-tool"></a>Edge 網路規劃工具
  

@@ -13,23 +13,23 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 本文將瞭解如何為貴組織的使用者指派或變更緊急位置。
+description: 在本文中，您將瞭解如何為貴組織的使用者指派或變更緊急位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8045120f6a74a536b3fcbe420278ad847b3108f38161d6e23f3eecfd5788224c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36be65ef14cfe0fc97ce49dfa9227fe50daa18f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309142"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588375"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>指派或變更使用者的緊急位置
 
 當您設定通話方案時，您必須為每個電話號碼或使用者指派緊急位置。 在歐盟國家/地區，當您從 Microsoft 365 或 Office 365 取得電話號碼，或將電話號碼轉接到 Microsoft 365 或 Office 365 時，緊急位置會與電話號碼相關聯。 在美國，緊急位置會與指派給使用者的電話號碼相關聯。 如果指派給緊急位址的使用者移至新位置，可以變更緊急位址。 有關緊急位址和位置的更多資訊，請參閱什麼是緊急位置、地點 [和通話路由？](./what-are-emergency-locations-addresses-and-call-routing.md)。
   
-若要瞭解如何取得通話方案及其費用，請參閱Teams[授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+若要瞭解如何取得通話方案及其費用，請參閱Teams[附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 您可以在系統管理中心指派或變更使用者的緊急Microsoft Teams，或使用 PowerShell。
 

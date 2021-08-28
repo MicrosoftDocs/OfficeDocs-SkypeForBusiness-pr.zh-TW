@@ -16,7 +16,7 @@ search.appverid: MET150
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解撥列印度免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
-ms.openlocfilehash: dae597170f8ea4a56a908087a85a1b12777341ba277e72e3a1ca599037a393e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9650991d6d1f39915d978515c6afa36f556eed08
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335883"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631947"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>印度免付費撥號限制
 
@@ -45,7 +45,7 @@ ms.locfileid: "54335883"
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |部分。 查看批註。  <br/> |
 |行動網路可用性  <br/> |部分。 查看批註。  <br/> |
-|批註、限制和存取問題  <br/> |可從下列網路取得存取權：Loop Mobile、BSNL - 已修正 (所有地區，但 Bhopal) 、Vodafone、IDEA/SPICE (所有區域，但旁遮普 Spice) 、MTS India/齊亞姆 (已) ， MTNL - 固定行動版、Reliance (所有地區，但艾哈達巴 &amp; 、Bhopal、Bhuneswer、Jaipur、Lucknow、Meerut) 、TTML TTSL (固定貼文 &amp; &amp;) 、Tata DoCoMo、HFCL Infotel/Ping Mobile、S-Tel Mobile、未or、Videocon Mobile、BSNL-mobile、Batai/Airtel 網路。  <br/> 下列網路無法存取：TTSL (預付) 、Etisalat DB Telecom 和 Jio。  <br/> |
+|批註、限制和存取問題  <br/> |可從下列網路取得存取權：Loop Mobile、BSNL - 已修正 (所有地區，但 Bhopal) 、Vodafone、IDEA/SPICE (所有區域，但旁遮普 Spice) 、MTS India/齊達姆 (已) 、 MTNL - 固定行動版、Reliance (所有地區，但艾哈達巴 &amp; 、Bhopal、Bhuneswer、Jaipur、Lucknow、Meerut) 、TTML TTSL (固定貼文 &amp; &amp;) 、Tata DoCoMo、HFCL Infotel/Ping Mobile、S-Tel Mobile、Inor、Videocon Mobile、BSNL-mobile、Batai/Airtel 網路。  <br/> 下列網路無法存取：TTSL (預付) 、Etisalat DB Telecom 和 Jio。  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 [免付費電話的撥號限制](../toll-free-dialing-limitations-and-restrictions.md)

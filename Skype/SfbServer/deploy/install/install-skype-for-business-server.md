@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 摘要：瞭解如何在拓撲中的每一部伺服器上安裝商務用 Skype Server 系統元件。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 8fdeb6d2023a205ee39291714c94ee4fa0f38ddf4eafcced46f331a9478f3fa0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 89c158243a0cc33faaa1a3b3181dfc1f39094d63
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343827"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609860"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>在拓撲中的伺服器上安裝商務用 Skype Server
  
@@ -163,7 +163,7 @@ ms.locfileid: "54343827"
     
 16. 在 [ **線上憑證要求狀態** ] 頁面上，複查傳回的資訊。 您應注意，已簽發憑證並將其安裝至本機憑證儲存區。 若報告為已簽發並已安裝，但無效，請確定伺服器的根信任 CA 存放區中已安裝 CA 的根憑證。 請參閱您的 CA 檔，瞭解如何取得信任的根 CA 憑證。 如果您需要查看已檢索的憑證，請按一下 [ **查看憑證詳細資料**]。 預設會選取 [**指派憑證給商務用 Skype Server 憑證使用** 情況] 核取方塊。 若要手動指派憑證，請清除核取方塊，然後按一下 **[完成]**。
     
-17. 如果您在上一個頁面上，清除 [**指派憑證給商務用 Skype Server 憑證使用** 情況] 核取方塊，您就會看到 [**憑證指派**] 頁面。 按一下 **[下一步]**。
+17. 如果您在上一個頁面上，清除 [**指派憑證給商務用 Skype Server 憑證使用** 情況] 核取方塊，您就會看到 [**憑證指派**] 頁面。 按 **[下一步]**。
     
 18. 在 [ **憑證存放區** ] 頁面上，選取您要求的憑證。 如果您想要查看憑證，請按一下 [ **查看憑證詳細資料**]，然後按 **[下一步]** 繼續。
     

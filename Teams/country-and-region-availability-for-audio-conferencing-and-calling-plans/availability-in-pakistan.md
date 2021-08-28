@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于巴基斯坦Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
-ms.openlocfilehash: 26b37d3b1120aea14ca06b44f2282a065ee4ff1bf76dd171f666b9e6cf733c62
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
+ms.openlocfilehash: d3c43e6fe4f73fc00e61c229b40060dd1c1bc69f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284374"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588255"
 ---
 # <a name="availability-in-pakistan"></a>巴基斯坦的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于巴基斯坦Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
+以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -73,7 +73,7 @@ ms.locfileid: "54284374"
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費電話號碼？  <br/> |否  <br/> |
    
- 請注意，在巴基斯坦，服務號碼只能用於音訊會議。 因此，如果您想要取得音訊會議付費和免付費號碼，請參閱取得電話和商務用 Skype服務[Microsoft Teams。](../getting-service-phone-numbers.md)
+ 請注意，在巴基斯坦，服務號碼只能用於音訊會議。 因此，如果您想要取得音訊會議付費和免付費號碼，請參閱取得電話和[商務用 Skype Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通訊點數
 

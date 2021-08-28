@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -23,18 +23,18 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 查看 EHR 連接器Teams管理員報告
-ms.openlocfilehash: 96f0efac9e1293197e92768e24cbd15187127410f75e70abbd77afa50d0baacf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cebd427096baae564f020694e18fc6023a560790
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299232"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588165"
 ---
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft TeamsEHR 連接器系統管理報告
 
-[Microsoft Teams EHR (連接器系統管理報告) 中的電子健康情況記錄對話方塊提供使用狀況資料的快速且容易閱讀的視圖。
+[Microsoft Teams EHR (連接器系統管理報告) 中的電子健康情況記錄，提供使用狀況資料快速且容易閱讀的視圖。
 
-您可以流覽 [Microsoft Teams系統管理中心儀表板Microsoft Teams檢視對話方塊，查看 EHR 連接器系統管理報告。
+您可以到系統管理中心儀表板Microsoft Teams檢視對話方塊，Microsoft Teams EHR 連接器系統管理員報告。
 
 從系統管理中心儀表板Microsoft Teams報表。
 

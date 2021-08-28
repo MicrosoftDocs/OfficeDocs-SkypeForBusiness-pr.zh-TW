@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 本節中的主題說明如何將商務用 Skype Server 2019 Edge Server 新增至試驗集區部署。 主題會在執行 [部署新 Edge 集區] 嚮導時，提供設定和驗證指導方針。
-ms.openlocfilehash: a646b5400c9448349eacb06da67001c9d2ed4e1e0d7716ad83d74e29deb5bfb7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8f6be3bbe4a62c958c6b1619b7e897b87caa93f4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315059"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610210"
 ---
 # <a name="phase-5-add-skype-for-business-server-2019-edge-server-to-pilot-pool"></a>階段5：將商務用 Skype Server 2019 Edge Server 新增至試驗集區
 

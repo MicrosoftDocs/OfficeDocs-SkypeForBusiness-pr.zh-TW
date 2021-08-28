@@ -15,24 +15,24 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 - seo-marvel-mar2020
-description: 瞭解哪些國家/地區有電話撥入式會議號碼，以及如何自動指派電話撥入式會議號碼。
-ms.openlocfilehash: f72a8929ae9d685642857764e7c0d4541f762ce875adafdd0a46a6de1b471483
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解哪些國家和地區有電話撥入式會議號碼，以及如何自動指派電話撥入式會議號碼。
+ms.openlocfilehash: 30cbc91f4f9a5fd47c9e8469781abb3ac67b0c1e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276129"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632027"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-microsoft-teams"></a>Microsoft Teams 音訊會議的電話號碼
 
-當您為 **會議設定音訊** 會議Microsoft Teams，撥入電話號碼會自動指派給貴組織。 若要查看指派給音訊會議橋接器的電話號碼，請前往 Microsoft Teams 系統管理中心，前往會議  >  **會議橋接器**。 若要詳細資訊，請前往 [查看音訊會議號碼清單](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
+當您為 **會議設定音訊** 會議Microsoft Teams，撥入電話號碼會自動指派給貴組織。 若要查看指派給音訊會議橋接器的電話號碼，請前往 Microsoft Teams 系統管理中心，前往會議  >  **橋接器**。 若要詳細資訊，請前往 [查看音訊會議號碼清單](see-a-list-of-audio-conferencing-numbers-in-teams.md)。
   
   
 ## <a name="audio-conferencing-coverage-and-pricing"></a>音訊會議涵蓋範圍和價格
@@ -41,7 +41,7 @@ ms.locfileid: "54276129"
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>會議邀請中的撥入電話號碼
 
-當Microsoft Teams在 Outlook 或 Outlook Web App 排程會議時，為使用者設定的預設音訊會議號碼會包含在會議邀請中。 如果您想要為一或多個使用者選取不同的預設號碼，您可以變更該號碼，方法為：到使用者、選取使用者，以及編輯使用者的音訊會議設定。 請參閱 [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)。
+當使用者Microsoft Teams在 Outlook 或 Outlook Web App 排程會議時，為使用者設定的預設音訊會議號碼會包含在會議邀請中。 如果您想要為一或多個使用者選取不同的預設號碼，您可以變更該號碼，方法為：到使用者、選取使用者，以及編輯使用者的音訊會議設定。 請參閱 [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)。
   
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>音訊會議橋接器上設定的撥入電話號碼
@@ -50,7 +50,7 @@ ms.locfileid: "54276129"
   
 - **專用電話號碼** 是只有在組織內部使用者才可以使用的電話號碼。 您可以變更某人撥入其中一個號碼時所使用的語言。
   
-- **共用電話號碼** 是可與其他使用者或Microsoft 365共用Office 365。 您無法變更某人撥入其中一個號碼時所使用的語言。
+- **共用電話號碼** 是可與其他電話號碼或Microsoft 365 Office 365。 您無法變更某人撥入其中一個號碼時所使用的語言。
   
 雖然指派給召集人的預設音訊會議號碼只會包含在會議邀請中，呼叫者可以使用指派給您的會議橋接器的任何電話號碼加入會議。 您可以使用每個會議邀請中包含的 [尋找當地電話號碼] 連結，來取得可用來加入會議的電話號碼清單。
   

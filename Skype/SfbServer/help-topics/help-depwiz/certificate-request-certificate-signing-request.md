@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestCSRFile
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: 若要建立離線要求，您必須先 (CSR) 建立憑證簽署要求。 在 [檔案名] 文字方塊中，輸入 CSR 的路徑和檔案名。 您可以按一下 [流覽] 來選擇建立 CSR 的位置。 按 [下一步] 繼續。
-ms.openlocfilehash: 791687342bcb2951845eca992e93520f18b91af4f01bb98130d54ac29b1addda
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5f4ebd3c52cc569ffcfcafe8ac62a56aad00be0e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278851"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587525"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>憑證要求 (憑證簽署要求)
  

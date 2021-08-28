@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 瞭解如何修正系統管理員和使用者商務用 Skype Microsoft 365 Office 365。
-ms.openlocfilehash: da0668c8ead3dee48e1829a0871fe2a175bddc5b722f036c61bc3abc5027cb6a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 99c50759cea77e98f239adf8cea265941ce7f704
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310102"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609970"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>疑難排解線上商務用 Skype問題
 
@@ -46,17 +46,17 @@ ms.locfileid: "54310102"
 
 - [商務用 Skype Lync 疑難排解指南 (下載的 PDF) ](https://gallery.technet.microsoft.com/office/Skype-for-Business-and-7857597d/view/Discussions)
 
-- [診斷及解決 PowerShell 連線問題與 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+- [診斷及解決 PowerShell 連線問題與 商務用 Skype線上](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-## <a name="help-your-skype-for-business-online-users"></a>協助您的商務用 Skype線上使用者
+## <a name="help-your-skype-for-business-online-users"></a>協助您的線上商務用 Skype使用者
 
-線上使用者所面臨的大部分商務用 Skype與忘記密碼有關。 您可以遵循這兩個主題中的指示來解決大部分的登錄問題：
+線上使用者所面臨的大部分問題商務用 Skype與忘記的密碼有關。 您可以遵循這兩個主題中的指示來解決大部分的登錄問題：
 
 - [需要協助您商務用 Skype？](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05)
 
 - [需要協助您商務用 Skype？](https://support.office.com/article/448b8ea7-5b33-444a-afd4-175fc9930d05#bkmk-reset-password)
 
-## <a name="additional-resources-to-help-your-skype-for-business-online-users"></a>其他資源，可協助您的線上商務用 Skype使用者
+## <a name="additional-resources-to-help-your-skype-for-business-online-users"></a>其他資源，可協助商務用 Skype線上使用者
 
 - [卸載商務用 Skype](https://support.office.com/article/28c4a036-7f22-406c-b7f4-87894cbaf902)
 
@@ -77,14 +77,14 @@ ms.locfileid: "54310102"
 ## <a name="still-need-help-contact-support"></a>仍然需要協助嗎？ 請與支援人員聯繫。
 <a name="BK_SupportBridge_1"> </a>
 
-做為系統管理員Microsoft 365 Apps 商務版，您可以免費存取我們知識豐富的支援代理人，以取得售前、帳戶和帳單支援，以及解決技術問題的協助。 您也可以代表[貴組織中](/microsoft-365/Admin/contact-support-for-business-products)Microsoft 365使用者Office 365客戶支援。
+做為系統管理員Microsoft 365 Apps 商務版，您可以免費存取我們經驗豐富的支援代理人，以取得售前、帳戶和帳單支援，以及解決技術問題的協助。 您也可以代表[貴組織中](/microsoft-365/Admin/contact-support-for-business-products)Microsoft 365使用者Office 365客戶支援。
 
 - [從社群論壇Microsoft 365 Office 365取得協助](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 
 - [系統管理員：打電話給支援人員](/microsoft-365/Admin/contact-support-for-business-products)
 
 > [!NOTE]
-> 如果您使用的是中國 21Vianet Office 365，請聯絡[21Vianet 支援小組](/microsoft-365/Admin/contact-support-for-business-products)。
+> 如果您使用的是中國 21vianet Office 365，請聯絡[21Vianet 支援小組](/microsoft-365/Admin/contact-support-for-business-products)。
 
 ## <a name="related-topics"></a>相關主題
 [設定商務用 Skype Online](set-up-skype-for-business-online.md)

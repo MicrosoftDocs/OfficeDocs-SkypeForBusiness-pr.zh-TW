@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: 此表格中的每一筆記錄都包含有關一位使用者的加入的 CDR 資訊，並留下一次會議的資訊。 每個會議都會在每次使用者加入和離開會議時，以一筆記錄呈現在此表格中。
-ms.openlocfilehash: 879c4df8dce048820e2d1a23f62ff5c7070611a7e0331cb496a50363aa98f3b9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80f4d9f93b840b4c76e28c295356ebd85cc88979
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352082"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632667"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 FocusJoinsAndLeaves 表格
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateDirectorWithMonitoringPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4ad77291-832d-41ee-9ffc-61132691363b
 description: 若要設定監控伺服器並與 Director 或 Director 集區建立關聯：
-ms.openlocfilehash: d8edad120b8f2d8e90e32cfd23beca597e08ecd513a688b4a1a65323cf9c6547
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6d636f58818a8271df8dd676f170d287823e4f37
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346569"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633037"
 ---
 # <a name="associate-director-with-monitoring-page-for-lync-server-2010"></a>建立 Director 與監控的關聯頁面 (適用於 Lync Server 2010)
  

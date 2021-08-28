@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 description: 摘要：瞭解商務用 Skype Server 中的伺服器效能報告。
-ms.openlocfilehash: d635e1bd3cc76c9e1d2218c142b58b588a35330c4b132998060d31e40424ea48
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2e51832cf3d5d4b7dca816aa17ded0483dc88efd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317608"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632857"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>商務用 Skype Server 中的伺服器效能報告
  

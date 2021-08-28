@@ -10,7 +10,7 @@ ms.reviewer: rafarhi
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Teams_ITAdmin_GuestAccess
 - M365-collaboration
@@ -19,16 +19,16 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 本文將說明來賓Microsoft Teams使用的功能。
-ms.openlocfilehash: e0bfd3cf10660b95b0a6ff40fa82bdb40a1b9cec6981aa207bb8dc1f709c4ee6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2469fe840d09708187c47671335992021c4b60b0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349056"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632137"
 ---
 # <a name="guest-experience-in-teams"></a>來賓在 Teams
 
-當來賓受邀加入團隊時，他們會收到歡迎電子郵件訊息。 此訊息包含團隊的一些相關資訊，以及他們成為成員後預期的結果。 來賓必須先選取電子郵件訊息中的開啟 **Microsoft Teams，才能** 存取團隊及其頻道。
+當來賓受邀加入團隊時，他們會收到歡迎電子郵件訊息。 此訊息包含團隊的一些相關資訊，以及他們成為成員後預期的結果。 來賓必須先選取電子郵件訊息中的 Microsoft Teams **，才能** 存取團隊及其頻道，以接受邀請。
     
 ![顯示歡迎電子郵件訊息範例的螢幕擷取畫面](media/guest-experience-image1.png)
     
@@ -36,7 +36,7 @@ ms.locfileid: "54349056"
 
 ![顯示標記的螢幕擷取畫面，指出團隊中的來賓人數](media/guest-experience-image2.png)
 
-請觀看以下有關來賓體驗的影片，Teams：
+請觀看以下影片，瞭解以下Teams：
 - [以來賓的名次加入團隊](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
 - [與來賓Teams會議](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
 
@@ -44,7 +44,7 @@ ms.locfileid: "54349056"
 
 下表比較Teams小組成員及其來賓可用的功能。 Teams系統管理員控制來賓可用的功能。
 
-| 在 Teams | Teams組織中的使用者 | 客人 |
+| 在 Teams | Teams組織中使用者 | 客人 |
 |:-----|:-----|:-----|
 |建立頻道  <br/>  *團隊擁有者控制此設定。*  <br/> |&#x2713;|&#x2713;|
 |參與私人聊天  <br/> |&#x2713;|&#x2713;|
@@ -100,7 +100,7 @@ ms.locfileid: "54349056"
 <sup>1</sup> 這項功能即將推出。
 
 > [!NOTE]
-> Azure **AD 中來賓使用者** 存取限制Azure Active Directory (決定) 目錄中來賓的許可權。 有三個原則選項。
+> Azure **AD Azure Active Directory (** 中的來賓使用者存取限制) 決定目錄中來賓的許可權。 有三個原則選項。
 >  - **[來賓使用者的存取權和成員相同 (最包容)]** 設定表示來賓擁有的目錄資料存取權，與目錄中的一般使用者相同。
 >  - **[來賓使用者對目錄物件的屬性和成員資格擁有有限的存取權]** 設定表示來賓沒有特定目錄工作的權限，例如列舉使用者、群組，或使用 Microsoft Graph 的其他目錄資源。
 >  - **[來賓使用者存取權受限於其自身目錄物件的屬性和成員資格 (最受限制)]** 設定表示來賓只能存取自己的目錄物件。

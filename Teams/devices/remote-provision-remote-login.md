@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Android 裝置上遠端Teams和登錄
-ms.openlocfilehash: 8866079fa02edb8dabbfe36d724194858d16553d
-ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
+ms.openlocfilehash: 31a247f7716d1e97ed3ed1e4b9b7f8d20d0881f8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483110"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632197"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>在 Android 裝置上遠端Teams和登錄
 
@@ -62,7 +62,7 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 1. 登入 Teams 系統管理中心。
 2. 展開 **裝置**。
-3. 從 **動作選項卡中選取** 置 **備新** 裝置。
+3. 從 **動作選項卡選取** 置 **備新** 裝置。
 
 在安裝 **新裝置** 視窗中，您可以手動新增 MAC 位址或上傳檔案。
 
@@ -110,13 +110,13 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 ## <a name="sign-in-remotely"></a>遠端登入
 
-已置備的裝置會出現在等待 **登錄的選項卡** 中。選取個別裝置以啟動遠端登入程式。
+已置備的裝置會顯示在等待 **登錄的選項卡** 中。選取個別裝置以啟動遠端登入程式。
 
 1. 從等待登錄的 **選項卡中選取** 裝置。
 
-   ![已準備要登錄之裝置清單的視窗。](../media/remote-device1.png)
+   ![已準備好要登錄之裝置清單的視窗。](../media/remote-device1.png)
 
-2. 請遵循使用者 **登錄中的指示，** 然後選取 **關閉**。
+2. 請遵循使用者登錄 **中的指示，** 然後選取 **關閉**。
 
    ![個別裝置的使用者視窗](../media/sign-in-user.png)
 

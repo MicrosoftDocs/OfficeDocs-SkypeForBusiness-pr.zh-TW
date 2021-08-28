@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: 瞭解如何使用現有的小組範本在 Microsoft Teams。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80450257158a3a65da5f0fffe05d48239e42cd33d538544a6363befffce842bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 56af8756282a4d2cc40ebf33a620855785c67306
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282676"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588215"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>從現有的小組範本在 Microsoft Teams
 
@@ -35,7 +35,7 @@ Microsoft Teams提供預先建建的範本，您可以儲存及修改範本，�
 
 3. 在小組 **範本區** 段，選取您想要複製的團隊範本旁，以將其突顯。
 
-4. 選取 **複製**。
+4. 選取 **重複**。
 
 ![[小組範本> 對話方塊的影像，其中已強調 [新增> 。](media/template-duplicate.png)
 
@@ -43,7 +43,7 @@ Microsoft Teams提供預先建建的範本，您可以儲存及修改範本，�
 
 ![小組範本起點畫面的影像，畫面上會以強調現有範本的開始畫面顯示。](media/template-start-existing-template.png)
 
-5. 在選取 **要作為起點的** 範本畫面中，選取 下 **一步**。
+5. 在選取 **要作為起點的** 範本畫面中，選取下 **一步**。
 
     複製的範本隨即開啟， **而複製一** 詞會附加到名稱中。
 
@@ -57,12 +57,12 @@ Microsoft Teams提供預先建建的範本，您可以儲存及修改範本，�
     1. 選取要編輯的頻道， **然後選取** 編輯 。
     2. **完成** 時，請申請變更。
 
-8. 新增小組需要的任何頻道或應用程式。
+8. 新增小組所需的任何頻道或應用程式。
 
     1. 在頻道 **區** 段 **，選取** 新增 。
     2. 在 [ **新增」** 對話方塊中，為頻道命名。
     3. 新增描述。
-    4. 決定是否預設應該顯示頻道。
+    4. 決定是否應該預設顯示頻道。
     5. 搜尋要新加入頻道的應用程式名稱。
     6. 完成 **時選取 Apply。**
 
@@ -76,5 +76,5 @@ Microsoft Teams提供預先建建的範本，您可以儲存及修改範本，�
 ## <a name="related-articles"></a>相關文章
 
 - [在系統管理中心開始使用小組範本](get-started-with-teams-templates-in-the-admin-console.md)
-- [從現有的小組建立範本](create-template-from-existing-team.md)
+- [從現有小組建立範本](create-template-from-existing-team.md)
 - [建立小組範本](create-a-team-template.md)

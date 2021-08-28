@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是孟加拉國Microsoft 365 Office 365及商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 8b473d1c48a08b5543b8eb7078c0e6668561d9633db3b244e232252e26ff00a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5fa7b189ecb0eec3807e5b382a6ff063edb1b11f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295190"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632617"
 ---
 # <a name="availability-in-bangladesh"></a>孟加拉國的可用性
 

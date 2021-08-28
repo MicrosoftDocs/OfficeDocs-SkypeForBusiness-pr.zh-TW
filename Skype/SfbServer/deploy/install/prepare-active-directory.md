@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 摘要：瞭解如何準備您的 Active Directory 網域，以安裝商務用 Skype Server。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 40225e6efdf848c34d2b7184e4d8863182ef78494e179e27c4fa8ca322f7349d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a4a224da84d1e6b4b001e9c561529b1c64b0e995
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300289"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609810"
 ---
 # <a name="skype-for-business-server-prepare-active-directory"></a>商務用 Skype Server：準備 Active Directory
  
@@ -161,7 +161,7 @@ ms.locfileid: "54300289"
     
     d. 在 [成員] 索引標籤上，按一下 [新增]。 在 [選取使用者、連絡人、電腦、服務帳戶或群組] 中，找到 [輸入要選取的物件名稱]。 輸入要新增到 CSAdministrators 群組的使用者名稱或群組名稱。 按一下 [確定]。
     
-    e. 在 [ **成員** ] 索引標籤上，確認您選取的使用者或群組是否存在。 按一下 ****[確定]。
+    e. 在 [ **成員** ] 索引標籤上，確認您選取的使用者或群組是否存在。 按一下 [確定]。
     
     > [!CAUTION]
     > 商務用 Skype Server 控制台是以角色為基礎的存取控制工具。 CsAdministrator 群組中的成員資格會提供使用者使用商務用 Skype Server 控制台完全控制權，以供所有可用的配置功能使用。 有些其他的角色是針對特定功能而設計。 如需可用角色的詳細資訊，請參閱[商務用 Skype Server 2019 商務用 Skype Server 或伺服器需求](../../../SfBServer2019/plan/system-requirements.md)[的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。 請注意，您不需要為商務用 Skype Server 啟用使用者，就能成為管理群組的成員。 

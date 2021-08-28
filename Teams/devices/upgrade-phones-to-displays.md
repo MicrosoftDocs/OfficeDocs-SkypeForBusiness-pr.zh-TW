@@ -14,25 +14,25 @@ f1.keywords:
 ms.collection:
 - M365-voice
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 瞭解如何將手機Teams到 Teams系統管理中心Microsoft Teams顯示。
-ms.openlocfilehash: 7d32703a2990c61eb7fdfaea06b6151baa4c638846c5fffbcc2a11077edf6dff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e504bde3b291deb0d38821a0551e70f1f7ac1d4d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327758"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588185"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>將Teams手機升級至Teams顯示
 
 > [!IMPORTANT]
 > 升級至 Teams只有在 Lenovo ThinkSmart View 裝置上才能使用。 本文中的資訊僅適用于此裝置模型。  
 
-本文提供如何將手機升級至 Teams 系統管理中心Teams顯示Microsoft Teams概觀。 這麼做可讓裝置在顯示裝置上為使用者提供豐富的Teams體驗。
+本文提供如何將手機升級至 Teams系統管理中心Teams顯示裝置Microsoft Teams概觀。 這麼做可讓裝置在顯示裝置上為使用者提供豐富的Teams體驗。
 
-Teams顯示器是一種一體式專用Teams裝置，具有環境觸控螢幕和由螢幕Cortana。 Teams顯示手機Teams演進。 除了手機[支援的功能](phones-for-teams.md#features-supported-by-teams-phones)Teams，Teams顯示器也包含一直顯示等功能，所有 Teams 活動及共同作業選項隨時可供使用。 若要深入瞭解螢幕顯示Teams功能，請參閱Microsoft Teams[顯示](teams-displays.md)。
+Teams顯示器是一種一體式專用Teams裝置，具有環境觸控螢幕和由螢幕Cortana。 Teams顯示手機Teams演進。 除了手機[支援的功能](phones-for-teams.md#features-supported-by-teams-phones)Teams，Teams顯示功能包括一直顯示等功能，所有 Teams 活動及共同作業選項隨時可供使用。 若要深入瞭解螢幕顯示Teams功能，請參閱Microsoft Teams[顯示](teams-displays.md)。
 
-## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>升級至顯示器Teams資訊
+## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>升級至螢幕Teams資訊
 
 ### <a name="which-teams-phones-can-be-upgraded"></a>哪些Teams手機可以升級？
 
@@ -40,31 +40,31 @@ Lenovo ThinkSmart View 裝置可以升級至Teams顯示。
 
 ### <a name="how-can-i-prepare-users"></a>我要如何準備使用者？
 
-若要讓使用者做好準備，請與使用者[](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6)Teams開始使用顯示器，協助使用者熟悉Teams顯示。 我們建議您在升級前先執行這項操作。
+若要讓使用者做好準備[，請與](https://support.microsoft.com/office/get-started-with-teams-displays-ff299825-7f13-4528-96c2-1d3437e6d4e6)使用者共用Teams開始使用顯示器，協助使用者熟悉使用Teams顯示。 我們建議您在升級前先執行這項操作。
 
-請讓他們知道升級之後，他們的資料或喜好設定沒有變更。 例如，使用者可以存取所有會議、未接來電，以及顯示Teams語音信箱。 
+請讓他們知道升級之後，他們的資料或喜好設定沒有變更。 例如，使用者可以存取所有會議、未接來電和語音信箱，Teams顯示。 
 
 ### <a name="what-happens-after-the-upgrade"></a>升級之後會發生什麼情況？
 
-將手機Teams到 Teams顯示裝置後，裝置會列在系統管理中心的 **Teams** 顯示頁面上，Microsoft Teams區段。  管理方式與管理任何其他裝置Teams相同。 若要深入瞭解，請參閱在 Teams[中管理您的Teams。](device-management.md)
+將手機Teams到 Teams顯示裝置後，裝置會列在系統管理中心的 **Teams** 顯示頁面的 Microsoft Teams 區段。  管理方式與管理任何其他裝置Teams相同。 若要深入瞭解，請參閱在 Teams 中[管理您的Teams。](device-management.md)
 
 請記住，將手機升級Teams到Teams裝置後，動作無法反轉。 建議您先與一群早期採用者進行試驗，然後再升級整個組織。 
 
-## <a name="upgrade-your-teams-phones-to-teams-displays"></a>將手機Teams到Teams顯示
+## <a name="upgrade-your-teams-phones-to-teams-displays"></a>將手機Teams至Teams顯示
 
 1. 在系統管理中心的左側導Microsoft Teams，請前往 **裝置**  >  **電話**。
-2. 選取Teams的手機，**然後選取** 升級 。
+2. 選取Teams手機，然後選取 **升級**。
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="螢幕擷取畫面顯示Teams已選取要升級至Teams手機":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="螢幕擷取畫面Teams已選取要升級至Teams顯示":::
 
 3. 在升級 **至Teams顯示** 對話方塊，選取排程升級以設定升級或現在 **升級的日期和時間**。
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="顯示升級至Teams對話方塊的螢幕擷取畫面":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="顯示升級至 Teams對話方塊的螢幕擷取畫面":::
 
 > [!NOTE]
 > 如果您收到訊息指出您選取的電話無法升級，請檢查以確保您選取支援升級的電話，然後再試一次。 [](#which-teams-phones-can-be-upgraded)
 
-在升級程式期間，裝置Teams更新至顯示裝置，裝置會重新開機，並可供使用。 升級完成後，您就會在系統管理中心Teams **顯示** 頁面上Microsoft Teams裝置。
+在升級程式期間，裝置的Teams會更新為顯示裝置，裝置會重新開機，並且可供使用。 升級完成後，您就會在系統管理中心Teams **顯示** 頁面上Microsoft Teams裝置。
 
 升級最多可能需要一小時才能完成。 如果程式在一小時後尚未完成，請重試升級。 您也可以前往裝置詳細資料頁面的歷程記錄標籤，查看狀態。
 
