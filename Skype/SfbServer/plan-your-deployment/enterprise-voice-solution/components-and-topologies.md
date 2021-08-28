@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: 如果您有 MPLS 網路、SIP 主幹或協力廠商 PSTN 閘道或 PBX，請規劃通話許可控制 (CAC) 。 適用于商務用 Skype Server 企業語音。
-ms.openlocfilehash: 33e13853e4c2ed9ab9cab328092f7bc44147607187c8f221993d88cb4114a6d5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 42fa61908ff13b6323215f2760b113e5d104553d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315545"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631637"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>商務用 Skype 中通話許可控制的元件和拓撲
 

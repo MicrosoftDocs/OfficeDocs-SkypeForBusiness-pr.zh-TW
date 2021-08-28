@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 5ba5493f62d9745a17436f98ab8497a684806b874ecafcac1afb29a217a16a7b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是肯亞Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
+ms.openlocfilehash: f7ec89f4508b383d14b51e36775e5b12a1c6a06f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337991"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586651"
 ---
 # <a name="availability-in-kenya"></a>在肯亞的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
+以下是肯亞Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -69,7 +69,7 @@ ms.locfileid: "54337991"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> |根據[ (，) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |根據[ (，請) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
 |有提供付費電話號碼嗎？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
    

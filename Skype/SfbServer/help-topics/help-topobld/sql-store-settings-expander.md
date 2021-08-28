@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlStoreSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: 若要編輯 SQL Server 資料庫的屬性，您必須變更 SQL Server 的資料庫實例。 您無法使用 [編輯屬性] 對話方塊來執行將封存伺服器資料庫從一部電腦移至另一部的工作。 此外，您無法使用 [編輯屬性] 對話方塊來變更主控中央管理存放區的 SQL Server 實例。
-ms.openlocfilehash: bb89251ac2f29ee15aa10caadf942a9d0896156aedf39394a763b44d6ce9e8d2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 83bf11af40e8c51693b2b1768f1d71c9bc2f37f9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341918"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609370"
 ---
 # <a name="sql-store-settings-expander"></a>SQL 存放區設定展開工具
  

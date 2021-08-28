@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 摘要：選擇商務用 Skype Server 的拓撲。 深入瞭解商務用 Skype Server 的伺服器組合。
-ms.openlocfilehash: 922bc26ee6eeea720c62cbbc744953aa5edecf4c03a792fac56ee7910806b6e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff527bc35f534de5a7c8830bbc4359626f8f09b9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349865"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609210"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>商務用 Skype Server 的拓撲基礎
 
@@ -251,7 +251,7 @@ Standard Edition 伺服器具有下列角色組合 (其他設定) ，但在 Ente
 
 - 任何 Enterprise Edition 前端集區的後端資料庫
 
-#### <a name="enterprise"></a>Enterprise
+#### <a name="enterprise"></a>企業
 
 下列資料庫可在相同的後端 SQL Server 上組合：
 

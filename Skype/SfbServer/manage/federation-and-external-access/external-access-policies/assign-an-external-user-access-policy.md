@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 如果已為使用者啟用商務用 Skype Server，您可以將適當的原則套用至特定使用者，以在商務用 Skype Server 控制台中設定 SIP 同盟、遠端使用者存取及公用立即訊息 (IM) 連線能力。
-ms.openlocfilehash: 32c97e38da6887e5caf078394e784f835458911a
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 4a5f6bfe13c27360c535957cefcfd4093b6a1bad
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234628"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587017"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>將外部使用者存取原則指派給已啟用商務用 Skype 使用者
 

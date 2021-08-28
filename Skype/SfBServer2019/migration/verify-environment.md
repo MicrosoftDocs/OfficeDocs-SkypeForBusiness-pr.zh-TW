@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 在共存狀態中部署商務用 Skype Server 2019 之前，您必須確認已設定並啟動舊版服務。 在部署商務用 Skype Server 2019 試驗集區之前，請務必先識別舊環境中存在的重要服務和功能。 在使用舊版 XMPP 部署的共存狀態中部署 Microsoft 商務用 Skype Server 2019 XMPP 之前，您必須確認舊版 XMPP 服務已設定並啟動，並識別舊版 XMPP 設定所支援的同盟合作夥伴。
-ms.openlocfilehash: 67583f875a8da0e58cc2c380352a0e1a96415003a9f493ee4f3172f8942972ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c81686f77d42f855f61699d3f141ffcaa463bc9a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277648"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586237"
 ---
 # <a name="verify-the-legacy-environment"></a>驗證舊版環境
 

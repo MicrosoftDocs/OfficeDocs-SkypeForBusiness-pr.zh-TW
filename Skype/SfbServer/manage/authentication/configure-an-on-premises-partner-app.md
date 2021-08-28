@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 摘要：設定商務用 Skype Server 的內部部署夥伴應用程式。
-ms.openlocfilehash: 794960a454d1028845820218d04b85e7faef17296417118217628d725e4dc815
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4bc1461f01c60ba1f151cfca28c979b69e08a761
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315689"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587175"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>設定商務用 Skype Server 的內部部署夥伴應用程式
  

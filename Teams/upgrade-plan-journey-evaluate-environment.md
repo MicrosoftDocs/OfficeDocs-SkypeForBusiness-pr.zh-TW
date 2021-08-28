@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 瞭解正確評估您目前環境以升級到 Teams。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57bf9c10638fa9d037927eb38e604ab75a17ee1f989f5114b4e1c27606b71cfe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d5fdbf1d81383dc00ca6e6d39db72446ca6a3012
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323755"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586307"
 ---
 # <a name="evaluate-your-environment-before-upgrading-to-teams"></a>升級至 Teams
 
@@ -44,9 +44,9 @@ ms.locfileid: "54323755"
 
 您將技術風險識別為環境評估與採用準備評估的一部分，並針對每個已識別的風險制定緩解計畫。 您應該在風險註冊簿中加入這項資訊。
 
-所有與現有共同作業基礎結構Microsoft 365或Office 365組織、網路、端點、作業、採用和準備相關的事項，都包含在環境探索問卷中。 請與專案小組合作，盡可能提供要求的資訊，以利規劃活動。
+所有與現有的共同作業基礎結構和Microsoft 365或組織Office 365、網路、端點、作業、採用和準備相關的事項，都包含在環境探索問卷中。 請與專案小組合作，盡可能提供要求的資訊，以利規劃活動。
 
-[問卷分為](upgrade-plan-journey-discovery-questionnaire.md)下列各節，以確認貴組織在幾個主要Teams部署準備就緒：
+[問卷](upgrade-plan-journey-discovery-questionnaire.md)分為下列各節，以確認貴組織在幾個主要Teams部署準備就緒：
 
 - Microsoft 365或Office 365組織詳細資料
 - 現有的共同合作平臺摘要
@@ -60,13 +60,13 @@ ms.locfileid: "54323755"
 > 首先，您可以將問卷複製到Microsoft Word檔中。 嘗試回答所有問題，並捕獲所有詳細資料。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>決策點</td><td><ul><li>神秘負責完成環境評定嗎？</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>決策點</td><td><ul><li>神秘負責完成環境評估嗎？</li></ul></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next step"/><br/>後續步驟</td><td><ul><li>記錄環境評定的結果。</li></ul></td></tr>
 </table>
 
 
 ## <a name="project-team"></a>Project小組
 
-請確保您已與專案小組的合適人員合作。 驗證在招募專案專案關係人 [中完成的步驟](upgrade-enlist-stakeholders.md)。
+請確保您已與專案小組的合適人員合作。 驗證在招募專案專案關係 [人中完成的步驟](upgrade-enlist-stakeholders.md)。
 
 評估您的環境之後，請繼續進行下一個步驟： [準備您的服務](upgrade-prepare-environment-prepare-service.md)。

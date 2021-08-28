@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: 若要執行商務用 Skype Server 2015 的壓力和效能工具，您必須能夠管理使用者、連絡人和使用者設定檔、設定執行的工具，然後查看工具所產生的輸出或結果。
-ms.openlocfilehash: c80f623476bcfd33979256185d87786e2cf92d6b48bc0467dc61c1773569e0fe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6db23c259aa19e8ec9e590218ff233461c677aa0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283265"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586875"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>使用商務用 Skype Server 2015 應力和效能工具
  

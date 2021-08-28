@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cfaf803b-1679-4169-92d3-533fad3e56ed
 description: UserStatistics 表格是支援的表格。 資料表中的每一筆記錄都儲存了個別使用者對系統使用方式的相關資訊。 此表格已引進 Microsoft Lync Server 2013。
-ms.openlocfilehash: d0d3fde20f7c8c94629f75ff00f310111cac16d386fc0b0373ee07b5c2a35fb5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c05277c5999866ea7ba63befeef9e1198436642c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302207"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609180"
 ---
 # <a name="userstatistics-table"></a>UserStatistics 表格
  

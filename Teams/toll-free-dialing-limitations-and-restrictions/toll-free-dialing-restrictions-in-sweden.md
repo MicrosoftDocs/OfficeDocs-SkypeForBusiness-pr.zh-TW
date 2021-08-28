@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 這可協助您瞭解如何撥打每個國家/地區的免付費號碼。 選取國家/地區之後，它會將您帶至特定國家/地區頁面，其中包含免付費服務可用之免付費服務的特定詳細資料、限制和限制。 撥號格式或格式會顯示每個國家/地區撥打免付費號碼所需的存取碼。
-ms.openlocfilehash: 27ffa841bbe7020da8c0d920ae3558d34633268017281e1c3ae3aec78c232a9a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a0a6cd375c06fa352ac351daf11de54d91f6625f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308294"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631917"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>瑞典免付費撥號限制
 

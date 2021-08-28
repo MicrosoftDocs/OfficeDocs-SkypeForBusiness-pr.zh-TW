@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: 摘要：瞭解如何使用控制台或管理命令介面來啟用或停用商務用 Skype Server 中的電話撥入式會議。
-ms.openlocfilehash: 335252904ea015046e9caf5689fe31e4b0a9b8c3569b6c7d233fb8c4e74857ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ebdc13d94a840b3eaceb37332a6775e5d725bb9a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297289"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609280"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>啟用或停用商務用 Skype Server 中的電話撥入式會議
  

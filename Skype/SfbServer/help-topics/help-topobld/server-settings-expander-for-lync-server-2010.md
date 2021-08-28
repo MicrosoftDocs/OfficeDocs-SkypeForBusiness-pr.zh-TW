@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
 description: 若要編輯這部電腦的屬性，請執行下列動作：
-ms.openlocfilehash: ee413857ce3b1961887ed48de514c622ba0a6916425899ac387723b734323ef6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3baadf960fb585869af505c3115300783d368417
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345740"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587225"
 ---
 # <a name="server-settings-expander-for-lync-server-2010"></a>伺服器設定展開工具 (適用於 Lync Server 2010)
  

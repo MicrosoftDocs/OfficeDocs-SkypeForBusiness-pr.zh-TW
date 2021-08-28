@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: 在商務用 Skype Server 企業語音中規劃回應群組，可讓您設定使用者群組的呼叫路由。 包括音訊檔需求。
-ms.openlocfilehash: 6efc867a38ef919488786da908facb840e40725eaf36e60a3acbad3b72b4a3ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 41decf3e61e32867dd6b1d726bb551f8c2ae38f0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290081"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631577"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃回應群組應用程式
 
@@ -209,7 +209,7 @@ Windows 媒體音訊檔案格式要求在執行 Windows Server 2008 R2 和 Windo
 
 |**計量**|**每 Enterprise Edition <br/> 包含8部前端伺服器的集區 ()**|**根據 Standard Edition 伺服器**|
 |:-----|:-----|:-----|
-|每秒來電數  <br/> |16   <br/> |第  <br/> |
+|每秒來電數  <br/> |16   <br/> |2   <br/> |
 |連線至 IVR 或 MoH 的並行通話  <br/> |480  <br/> |60  <br/> |
 | (沒有 IM) 的併發匿名會話  <br/> |224  <br/> |日  <br/> |
 |使用 IM)  (同時匿名會話  <br/> |64  <br/> |8   <br/> |

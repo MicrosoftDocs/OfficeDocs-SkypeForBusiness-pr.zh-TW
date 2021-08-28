@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: 商務用 Skype Server 會使用 TLS 及 MTLS 來加密立即訊息。 不論流量是限制在內部網路或越過內部網路周邊，所有伺服器對伺服器的流量都需要 MTLS。 將商務用 Skype Server 連接至協力廠商 IPPBX 系統或 SIP 主幹 TLS 是選用的，但是強烈建議在轉送伺服器和媒體閘道之間進行。 如果在此連結上設定 TLS，則需要 MTLS。 因此，閘道必須使用來自轉送伺服器所信任之 CA 的憑證加以設定。
-ms.openlocfilehash: a315b26f14db16759eb2c6c6fc9d6d6562060221efdd1b642f259aeecffadc7b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ec87f7d2a32e02e8dcd4a4c489b77d2add3ac43a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289531"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586855"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>商務用 Skype Server 的加密
  
@@ -50,6 +50,6 @@ ms.locfileid: "54289531"
 > [!NOTE]
 > 如需設定混合式的詳細資訊，請參閱 [規劃混合](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)式連線。
   
-## <a name="fips"></a>Fips
+## <a name="fips"></a>FIPS
 
 商務用 Skype Server 和 Microsoft Exchange Server 2016 的運作方式，支援聯邦資訊處理標準 (FIPS) 140-2 演算法（如果 Windows 伺服器作業系統設定為使用 FIPS 140-2 演算法進行系統加密）。 若要實施 FIPS 支援，您必須設定每台執行商務用 Skype Server 的伺服器以支援它。

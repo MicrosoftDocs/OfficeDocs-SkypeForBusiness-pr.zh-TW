@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 建立商務用 Skype Server 2019 集區時，會使用與舊版安裝相關聯的中央管理存放區。 當您在第一次使用時啟動拓撲產生器和後續的編輯會話時，系統會提示您輸入您想要拓撲產生器載入目前設定檔的位置。 因為您已定義拓撲，且已建立中央管理存放區，所以您應該選擇從現有的部署下載拓撲。 拓撲產生器會讀取資料庫，並取得目前的定義。
-ms.openlocfilehash: e20b6fbf8c65d7b59678c0061eee45b21a8e4130132da320494c0d230fffcb1d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 124a1bbb09307edc50842bb5ce6461766e151114
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339331"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586247"
 ---
 # <a name="download-topology-from-existing-deployment"></a>從現有部署下載拓撲
 

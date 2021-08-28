@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceTrunkEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 1cd113fe26b440f07dcd2921d6d020e8fc6cdaf9c4c05d243f075eebf0a8e91a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67a6e0ff495b7e6b567c0c5209e5c0ce734da425
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342138"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587399"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>主幹組態：建立新的或編輯現有組態
 

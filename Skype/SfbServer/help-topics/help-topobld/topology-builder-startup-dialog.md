@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.StartupDialog
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 啟動拓撲產生器以設定 Microsoft Lync Server 2013 部署的屬性和設定。 在啟動時，拓撲產生器會顯示一個對話方塊，詢問拓撲檔的來源。 您可以選取下列三個選項之一：
-ms.openlocfilehash: 41f8b5520e548793d6be34f49aea6ecaaf65fe31ed8ba2d0b65e73248e7e6224
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6a856bec579ddbc551a4bf11e83fa754bc29adda
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276878"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587235"
 ---
 # <a name="topology-builder-startup-dialog"></a>拓撲產生器啟動對話方塊
 

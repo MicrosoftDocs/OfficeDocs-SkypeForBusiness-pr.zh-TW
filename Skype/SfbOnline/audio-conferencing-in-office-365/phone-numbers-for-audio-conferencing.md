@@ -15,19 +15,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 瞭解哪些國家/地區有電話撥入式會議號碼，以及如何自動指派電話撥入式會議號碼。
-ms.openlocfilehash: a0984a4bab89724f0dd00a50a1dbe0161ad837555180086f807f099396c9445e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ad8f10a35ff712d8ee80822343c5098f0b2a907
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306226"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586141"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>商務用 Skype Online 中音訊會議的電話號碼
 
@@ -47,13 +47,13 @@ ms.locfileid: "54306226"
   
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>會議邀請中的撥入電話號碼
 
-當線上商務用 Skype使用者排程 Outlook 或 Outlook Web App 中的會議時，會議邀請中會包含為該使用者設定的預設音訊會議號碼。 如果您想要為一或多個使用者選取不同的預設號碼，您可以到系統管理中心音訊會議使用者商務用 Skype變更  >    >  **。** 請參閱 [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。
+當 商務用 Skype Online 使用者排程 Outlook 或 Outlook Web App 中的會議時，為使用者設定的預設音訊會議號碼會包含在會議邀請中。 如果您想要為一或多個使用者選取不同的預設號碼，您可以到系統管理中心音訊會議使用者商務用 Skype變更  >    >  **。** 請參閱 [設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。
   
 按一下會議邀請中的尋找當地號碼連結，即可看到其他撥入號碼。
   
 ## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>音訊會議橋接器上設定的撥入電話號碼
 
-可指派給您的會議橋接器的音訊會議電話號碼有兩個類型：**共用** 和 **專用**。 任何來電者都可以使用這兩種號碼來加入貴組織進行的音訊會議。
+可指派給您的會議橋接器的音訊會議電話號碼有兩個類型：**共用** 和 **專用**。 任何來電者都可以使用這兩種號碼來加入貴組織中進行的音訊會議。
   
  **專用電話號碼** 是只有在組織內部使用者才可以使用的電話號碼。 您可以變更某人撥入其中一個號碼時所使用的語言。
   
@@ -66,10 +66,10 @@ ms.locfileid: "54306226"
 組織若已啟用音訊會議功能，系統便會自動將共用的音訊會議電話號碼指派給組織。 指派電話號碼時，系統會將電話號碼指派為會議橋接器的預設電話號碼。 指派為橋接器預設號碼的電話號碼，將會是來自組織的國家/地區的電話號碼。
   
 > [!NOTE]
-> 您可以在組織設定檔下，以登錄或Microsoft 365 系統管理中心找到貴組織的國家/地區 **位置**。 
+> 您可以在組織設定檔下，以登錄或查看組織Microsoft 365 系統管理中心或地區 **位置**。 
   
 > [!CAUTION]
-> 由於在委內瑞拉、印尼、越南 和阿拉伯聯合大公國 (EMIRATE) 的付費電話號碼有限，來自這些國家/地區的組織不會自動指派音訊會議付費號碼給他們。 來自這些位置的免付費電話號碼是否可供使用，視可用庫存而定。 
+> 由於在委內瑞拉、印尼、越南 和阿拉伯聯合大公國 (阿拉伯聯合大公國) 的付費電話號碼有限，來自這些國家/地區的組織不會自動指派音訊會議付費號碼給他們。 來自這些位置的免付費電話號碼是否可供使用，視可用庫存而定。 
   
 專用音訊會議電話號碼是您可以取得並接著指派給組織的服務號碼。 您可以使用系統管理中心找到商務用 Skype **號碼**。 詳細資料請參閱 [取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
   
@@ -85,7 +85,7 @@ ms.locfileid: "54306226"
     
 - 您可以針對每個音訊會議電話號碼設定最多四種語言 -一個主要和三個次要電話號碼。 您也可以在專用音訊會議電話號碼上設定語言。
     
-- 若要設定使用者的撥入電話號碼，請參閱設定邀請 [中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。
+- 若要設定使用者的撥入電話號碼，請參閱設定 [邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites.md)。
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    

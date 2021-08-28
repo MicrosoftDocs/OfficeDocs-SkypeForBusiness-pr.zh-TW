@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientMobilityPolicyMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 description: 「用戶端行動性原則」頁面會顯示您可在部署中使用的行動性原則。
-ms.openlocfilehash: 20012db7c679e3145f8fda348afc2b242bc3531420675abe31eec068b1b5980a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7962919d0b57284e2d99fa2741f77dbe0ca4d283
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307415"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609530"
 ---
 # <a name="clients-mobility-policy"></a>用戶端：行動性原則
 

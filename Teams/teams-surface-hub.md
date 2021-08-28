@@ -9,7 +9,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: jatpatel
 description: 瞭解如何安裝及設定 Teams 應用程式Surface Hub，Teams通話和會議應用程式。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a4e1786064f0f87d153d3167c9d2eceed3126f9df97e5e6deb77e55c6b1691e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b3856dd7cd88626236e370b633663c1e3182bba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292920"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586475"
 ---
 # <a name="deploy-microsoft-teams-for-surface-hub"></a>部署 Microsoft Teams Surface Hub
 
@@ -34,7 +34,7 @@ ms.locfileid: "54292920"
  □確認硬體、作業系統和其他需求都符合。 詳細資訊，請參閱管理Microsoft Surface Hub[指南](/surface-hub/)。<br>
  □請確定已安裝適用于 Teams 的最低作業系統更新 - [KB4343889](https://support.microsoft.com/help/4343889)。<br>
  □指派授權Teams中心裝置帳戶。<br>
- □如果您是從 商務用 Skype Online 轉場，請確認Teams授權已指派給使用者。
+ □如果您是從 商務用 Skype Online 轉換，請確認Teams指派授權給使用者。
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>從 Teams Surface Hub安裝Microsoft Store 
 
@@ -51,7 +51,7 @@ ms.locfileid: "54292920"
 
 ## <a name="make-teams-the-default-calling-and-meetings-application"></a>使用Teams通話和會議應用程式
  
-有兩個選項可針對預設通話和會議應用程式策略進行配置： 
+有兩個選項可配置預設的通話和會議應用程式策略： 
 
 - **選項 1：** 透過 USB 鍵設定。 
 - **選項 2：** 透過 MDM 設定 ，例如 Intune。
@@ -66,7 +66,7 @@ ms.locfileid: "54292920"
 |1     | Teams畫面上的偏好應用程式，Skype會議        |
 |2     | Teams畫面上的專屬應用程式 (Skype應用程式無法)         |
  
-1. 將 USB 鍵附加至Surface Hub裝置。 
+1. 將 USB 鍵連接到Surface Hub裝置。 
 2. 在 **設定** 開啟 Surface Hub 應用程式。 
 3. 開啟 **Surface Hub帳戶管理**。
 4. 開啟 **裝置管理**。 
@@ -75,7 +75,7 @@ ms.locfileid: "54292920"
 7. 從 **下拉式功能表選取** 移除媒體選項。 
 8. 新增先前複製到 USB 金鑰的適當 <strong>TeamsRTMode*.ppkg</strong> 套件。 
 9. 重新開機Surface Hub裝置。 
-10. 裝置重新開機後，您應該可以啟動 Teams應用程式，然後從日曆加入會議。 
+10. 裝置重新開機後，您應該可以啟動 Teams畫面中的應用程式，然後從日曆加入會議。 
 
 ### <a name="option-2-configure-via-mdm-such-as-intune"></a>選項 2：透過 MDM 設定 ，例如 Intune 
 
@@ -90,7 +90,7 @@ ms.locfileid: "54292920"
 |設定   |值    |
 |----------|---------|
 |路徑      | ./廠商/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
-|資料類型 | string - 設定字串Teams應用程式套件識別碼做 **為Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe！Teams** |
+|資料類型 | string - 將字串設為Teams套件識別碼做 **為Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe！Teams** |
 |營運| 取得、設定        |
 
-重新開機Surface Hub裝置。 裝置重新開機後，您應該可以啟動 Teams應用程式，然後從日曆加入會議。
+重新開機Surface Hub裝置。 裝置重新開機後，您應該可以啟動 Teams畫面中的應用程式，然後從日曆加入會議。

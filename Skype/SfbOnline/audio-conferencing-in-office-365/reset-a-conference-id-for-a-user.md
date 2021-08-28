@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: '瞭解在 商務用 Skype Online 中重設使用者會議 ID 的步驟，並取得會議更新和移移工具的連結。 '
-ms.openlocfilehash: 57523cfc0186120c42fffe01961cd71f623bfa964ecf0c8251a26e518a31abd4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: '瞭解在 商務用 Skype Online 中重設使用者會議 ID 的步驟，並取得會議更新和移商務用 Skype工具的連結。 '
+ms.openlocfilehash: b2f816cf423a25016a67176d6b1479f585ee14e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310262"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58586131"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>在線上重設使用者商務用 Skype ID
 
@@ -42,9 +42,9 @@ ms.locfileid: "54310262"
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>為使用者重設會議 ID
    
-1. 在 **商務用 Skype管理** 中心中，按一下 [音訊會議使用者，選取使用者，然後在 [動作窗格的 [會議 ID> 下按一下  >  ****[**重設**。 
+1. 在 **[商務用 Skype** 管理中心中，按一下[音訊會議使用者，選取使用者，然後在 [動作窗格的 [會議 ID> 下按一下  >  ****[**重設**。 
     
-2. 在 [ **重設會議 ID？ 視窗中** ，按一下 **[是**。 系統會自動建立會議 ID，並且會以新的會議 ID 將電子郵件寄給使用者。 根據預設，電子郵件會寄給使用者，但可以關閉。
+2. 在 [ **重設會議 ID？ 視窗中** ，按一下 **[是**。 系統會自動建立會議 ID，並且會以新的會議 ID 將電子郵件寄給使用者。 根據預設，電子郵件會寄給使用者，但可以關閉此功能。
     
 > [!NOTE]
 > 重設會議 ID 之後，系統就會將一封包含新會議 ID 的電子郵件寄給使用者。 在許多情況下，此電子郵件會寄到主要電子郵件地址，Microsoft 365或Office 365信箱。 電子郵件包含新的會議 ID、預設撥入 (電話號碼) 以及使用 商務用 Skype 更新工具更新現有會議的指示。 
@@ -72,15 +72,15 @@ ms.locfileid: "54310262"
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想要瞭解如何使用 Windows PowerShell？
 
-- 當要Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理點來管理 Microsoft 365 或 Office 365 和 商務用 Skype Online，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+- 當需要Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理Microsoft 365或 Office 365 商務用 Skype管理線上，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
   - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
   - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
  
-- Windows PowerShell相比于僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
+- Windows PowerShell比只使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
     
-  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
