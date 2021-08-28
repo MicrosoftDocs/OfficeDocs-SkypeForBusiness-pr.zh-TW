@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台，在商務用 Skype Server 中建立或修改語音路由。
-ms.openlocfilehash: a9ae7d0e1cff6f4fa49346b67c08253c108e026ec352606cf4f73fc0dc6a7640
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8b1ca3dc6120fb4e8432736672ee4821e894da56
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279341"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611238"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>在商務用 Skype 中建立或修改語音路由
  
@@ -116,7 +116,7 @@ ms.locfileid: "54279341"
   
 11.  (選用) 在 [ **輸入要測試的轉譯的號碼** ] 欄位中輸入值，然後按一下 [ **移至**]。 測試結果會顯示在欄位底下。
     
-12. 按一下 ****[確定]。
+12. 按一下 [確定]。
     
 13. 在 [ **路由** ] 頁面上，按一下 [ **認可**]，然後按一下 [ **全部認可**]。 
     

@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: 瞭解如何在共用內容Teams管理會議策略設定。
-ms.openlocfilehash: 6fc70359c8ef2dc06c02b68ce35977e5e45ef686cd8b44de558a1868ce7cb47e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8a44d7cf9d28f67d14d60388e729db0c060a625b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285822"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592227"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>會議原則設定 - 內容共用
 
@@ -127,7 +127,7 @@ Daniela 可以將共用桌面或視窗的控制權授予由巴可克組織之會
 
 ## <a name="allow-shared-notes"></a>允許共用記事
 
-此設定是每個使用者的策略。 此設定可控制使用者是否可以在會議中建立和共用記事。 外部使用者 (包括匿名、B2B 和同盟使用者) 會繼承會議召集人的原則。 目前 **只有** 少於 20 個參與者的會議才支援會議筆記選項卡。
+此設定是每個使用者的策略。 此設定可控制使用者是否可以在會議中建立和共用記事。 外部使用者 (包括匿名、B2B 和同盟使用者) 會繼承會議召集人的原則。 目前 **只有** 少於 20 個參與者的會議支援會議筆記選項卡。
 
 讓我們看看下列範例。
 

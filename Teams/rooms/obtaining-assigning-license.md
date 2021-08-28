@@ -13,16 +13,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解帳戶Microsoft Teams 會議室如何取得存取進Microsoft Teams 會議室服務授權。
 f1keywords: ''
-ms.openlocfilehash: 78ec170f329d6fdfdabaf7a6fc10f13ec1517b78
-ms.sourcegitcommit: 3ebf9c5d27263b7e92163f1a61844a5367a4744f
+ms.openlocfilehash: d37824c0cf496f7c059e081b73f6f8590b8b0429
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58449020"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637028"
 ---
 # <a name="getting-started-with-microsoft-teams-rooms-premium-managed-service"></a>開始使用Microsoft Teams 會議室 進階版管理服務
 

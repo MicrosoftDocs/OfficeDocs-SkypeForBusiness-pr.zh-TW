@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 本主題包含您在遷移至商務用 Skype Server 2019 之前所應採取的建議用戶端部署步驟。 您應該在 Lync Server 2013 或商務用 Skype Server 2015 上進行這些設定變更。
-ms.openlocfilehash: 2eae39832a88e0dcbc9b56308718478ab801d5efc262cbfe78e5be756e08970b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fc2c791f2133c4136dac162fe8f35965f2a23925
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281376"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611492"
 ---
 # <a name="configure-clients-for-migration"></a>設定用戶端以進行移轉
 

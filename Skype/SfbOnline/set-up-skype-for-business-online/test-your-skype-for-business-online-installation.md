@@ -13,32 +13,32 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: '瞭解如何設定測試帳戶和電腦，以及測試電話撥入式會議、線上功能 ，例如人員對人通話、會議及登出，以節省時間、支援通話並增加滿意度。 '
-ms.openlocfilehash: 5afc5ec98e12ac0a30e6bf7974e17b1cb4552e90322a894407decbde4c94ca17
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12622339c6a09c5bd651a712ff5210df92d04e52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310142"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611462"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>測試您的商務用 Skype Online 安裝
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-先測試您的線上商務用 Skype，再為貴組織的每個人設定，以節省時間、減少支援電話，以及提高使用者滿意度。
+先測試您的線上商務用 Skype，然後再為貴組織所有人設定，以節省時間、減少支援電話，以及提高使用者滿意度。
 
 以下是您需要的：
 
-- 至少有三Microsoft 365或Office 365帳戶 (帳戶，至少有兩個帳戶) 。
+- 至少有三Microsoft 365或Office 365帳戶 (，至少有兩個帳戶) 。
 
 - 每個測試帳戶的電腦。 設定它們就像貴組織中一般電腦一樣。
 
-- 具有適用于線上音訊會議提供者商務用 Skype帳戶。
+- 具有線上音訊會議提供者商務用 Skype帳戶。
 
 ## <a name="what-do-you-want-to-do"></a>您要做什麼？
 
@@ -66,16 +66,16 @@ ms.locfileid: "54310142"
 
 1. 前往首頁Microsoft 365或Office 365，然後使用其中一個測試帳戶的認證來登錄。
 
-2. 請設定設定：更新您的設定檔、安裝軟體，然後將它連接到雲端，然後按一下 [安裝軟體並連結至 ![ ](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) **雲端**。
+2. 前往 **[設定設定：** 更新您的設定檔、安裝軟體並連結至雲端，然後按一下 [安裝軟體並連結至 ![ ](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) **雲端**。
 
 ## <a name="set-up-audio-conferencing"></a>設定音訊會議
 <a name="__toc328126912"> </a>
 
-若要提供線上會議商務用 Skype，請設定音訊會議提供者的帳戶。 以下是您取得：
+若要提供線上會議商務用 Skype電話存取權，請設定音訊會議提供者的帳戶。 以下是您取得：
 
 - 付費撥入號碼，以及免付費號碼 （如果有）。
 
-- 針對組織中排程或領導會議的每個使用者，使用 PIN (會議) 。
+- 針對組織中排程或帶領會議的每一位使用者，會議代碼和個人識別碼碼 (PIN) 。
 
 設定您的使用者進行音訊會議後，他們會收到包含撥入號碼和會議代碼的自動電子郵件訊息。 這項資訊也會自動新商務用 Skype會議要求。
 
@@ -103,29 +103,29 @@ ms.locfileid: "54310142"
 
 |**工作**|**預期結果**|
 |:-----|:-----|
-|[在 Lync Online 中及登出](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |系統商務用 Skype主視窗，顯示您登錄時指定的目前狀態  <br/> |
-|[在 Lync Online 中及登出](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |系統商務用 Skype登錄畫面  <br/> |
-|[在 Lync Online 中及登出](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |商務用 Skype視窗會關閉，商務用 Skype圖示不會再出現在通知Windows區域中。  <br/> |
+|[登出 Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |系統商務用 Skype主視窗，顯示您登錄時指定的目前狀態  <br/> |
+|[登出 Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |系統商務用 Skype顯示登錄畫面  <br/> |
+|[登出 Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |系統商務用 Skype視窗會關閉，商務用 Skype圖示不會再出現在通知Windows區域中。  <br/> |
 
-無法登錄？ 請參閱[如何疑難排解線上商務用 Skype問題](https://support.microsoft.com/kb/2541980)。
+無法登錄？ 請參閱[如何在 商務用 Skype Online 中疑難排解商務用 Skype問題](https://support.microsoft.com/kb/2541980)。
 
  **連絡人、目前狀態和立即訊息**
 
 |**工作**|**預期結果**|
 |:-----|:-----|
-|[在郵件中傳送 IM 商務用 Skype](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |系統商務用 Skype交談視窗會出現，您輸入了內容，而且您會收到您連絡人的回復。  <br/> |
-|[在郵件中傳送 IM 商務用 Skype](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |系統商務用 Skype交談視窗，您輸入內容，交談中的每個人都會回應。  <br/> |
+|[在郵件中商務用 Skype](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |系統商務用 Skype交談視窗會出現，您輸入了內容，而且您會收到您連絡人的回復。  <br/> |
+|[在郵件中商務用 Skype](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |系統商務用 Skype視窗，您輸入內容，交談中的每個人都會回應。  <br/> |
 |[使用連絡人的名字或姓氏搜尋連絡人](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |一開始輸入，您的搜尋結果就會開始顯示。  <br/> |
 |[Lync for Microsoft 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |您新增的連絡人會出現在您選取的連絡人群組中。  <br/> |
 |[變更 Lync 中的目前狀態](https://support.office.com/article/ef8998cc-7801-4b62-81ba-9a2c1630f9e5) <br/> |您的新目前狀態會反映在其他人的連絡人清單中。  <br/> |
-|[使用連絡人卡片](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |連絡人的連絡人卡片會出現在連絡人姓名附近。  <br/> |
+|[使用連絡人卡片](https://support.office.com/article/19870880-FC90-46B0-9C60-C398518E9FBC) <br/> |連絡人卡片會顯示在連絡人姓名附近。  <br/> |
 
  **人員對人員通話**
 
 |**工作**|**預期結果**|
 |:-----|:-----|
 |[撥打和接收 Lync 音訊通話](https://support.office.com/article/39342f16-4d16-44de-a806-0b2b566f3886) <br/> |交談視窗會出現，而且您聽到通話響鈴。 您通話的人會收到桌面通知並接受通話，交談視窗在連接時會更新。  <br/> |
-|[在 Lync 立即訊息交談中新增音訊](https://support.office.com/article/21a098b2-63f1-4205-a9aa-532b6a67ea92) <br/> |通話已接通，您可以進行 IM，並與其他人員交談。  <br/> |
+|[在 Lync 立即訊息交談中新增音訊](https://support.office.com/article/21a098b2-63f1-4205-a9aa-532b6a67ea92) <br/> |通話已接通，您可以用 IM 與對方交談。  <br/> |
 |[在 Lync 中共用桌面或程式](https://support.office.com/article/33aaa965-eb32-42a9-8a9b-cdfffa364842) <br/> |其他人可以看到您共用的桌面或程式。  <br/> |
 
  **會議**
@@ -136,7 +136,7 @@ ms.locfileid: "54310142"
 |[變更 Lync 會議的參與者設定](https://support.office.com/article/cee2aa78-d878-4a63-ad33-9c249fceced9) <br/> |視選項而異。  <br/> **秘訣：** 在 **Access 和簡報者** 下，您可以嘗試不同的神秘 **會忽略大廳** 選項。 <br/> |
 |[加入 Lync 會議](https://support.office.com/article/538716dc-f4f2-48c2-af96-587c62387b87) <br/> |交談視窗隨即開啟，且您的名稱會在您連接後出現在會議參與者清單中。  <br/> |
 |[在會議或通話中將麥克風設為靜音商務用 Skype靜音或取消靜音](https://support.office.com/article/47399948-db7f-4ee5-8e61-53a94bb97704) <br/> |會議參與者清單中所有人的名稱旁會出現靜音圖示。 只有當您說話時，才能聽到您的聲音。  <br/> |
-|[在 Lync PowerPoint中展示幻燈片](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |您的PowerPoint簡報會顯示在會議階段視窗中的商務用 Skype電腦上。  <br/> |
+|[在 lync PowerPoint中展示幻燈片](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |您的PowerPoint簡報會顯示在會議階段視窗中的每個人商務用 Skype電腦上。  <br/> |
 |[在 Lync 會議傳輸檔案](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |上傳之後，會議中的其他人都可以查看並下載附件。  <br/> |
 
 ## <a name="related-topics"></a>相關主題

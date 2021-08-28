@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceFeaCallParkMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: 當來電停用時，會將通話轉移至暫留的臨時號碼，直到有人將通話轉移或下班時為止。您必須使用保留用於寄存通話的分機號碼範圍來設定表格。 這些分機號碼必須是虛擬分機 (亦即，未指派使用者或電話的分機) 。 每個執行通話駐留應用程式的集區，都可以有一個或多個範圍的分機。 在您的部署中，這些範圍必須是全域唯一的。
-ms.openlocfilehash: 025dc470a31fef85f28df9fed5ec611880547d609e461eb7a6ce485b7ffb646e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c054d3814376ca62063dedc5d08db00d22876cef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334215"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588745"
 ---
 # <a name="call-park"></a>通話駐留
 

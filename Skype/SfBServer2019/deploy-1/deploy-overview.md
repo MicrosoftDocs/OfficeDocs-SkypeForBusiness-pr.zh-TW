@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
 description: 摘要：流覽下列連結，以瞭解如何安裝和設定商務用 Skype Server 2019。
-ms.openlocfilehash: 71458d532166b7877a23639955b86d15b913b9ec950b4b620c642ff1c8733725
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5a37015e9688274b53fb9b9f72b21d7ad04f150
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281506"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592147"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>部署商務用 Skype Server 2019
  

@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: 瞭解如何在 Teams 中設定呼叫我功能，讓使用者在將電腦用於音訊時，使用電話加入音訊部分。
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 f1.keywords:
@@ -17,16 +17,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 972368de75f38ef1ad1d3f268bfa21526eda261658792b67ce8b0d51c3281b2e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ffdd467f73b590aae153cb8606c225258ef384c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324812"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618439"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>為您的使用者設定語音來電功能
 
-在 Microsoft Teams中 **，通話給我** 功能可讓使用者以電話加入會議的音訊部分。 在可能無法將電腦用於音訊的情況下，這項功能非常實用。 使用者透過行動電話或陸上線路取得會議的音訊部分，以及會議的內容部分，例如當另一個會議參與者共用其螢幕或透過電腦播放 &mdash; &mdash; 影片時。
+在 Microsoft Teams中 **，通話給我** 功能可讓使用者以電話加入會議的音訊部分。 在可能無法使用音訊電腦的情況下，這項功能非常實用。 使用者透過行動電話或陸上線路取得會議的音訊部分，以及會議的內容部分，例如當另一個會議參與者共用其螢幕或透過電腦播放 &mdash; &mdash; 影片時。
 
 > [!IMPORTANT]
 > 
@@ -63,13 +63,13 @@ ms.locfileid: "54324812"
 
 ![返回選項的螢幕擷取畫面](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
-使用者按一下 **滑鼠回電話**，這可顯示使用 **電話進行音訊** 畫面。 在這裡，他們可以輸入其電話號碼，並Teams會議通話，並加入會議，或手動撥入會議。
+使用者按一下 **呼叫我，** 這可顯示使用 **電話進行音訊** 畫面。 在這裡，他們可以輸入其電話號碼，並Teams會議通話，並加入會議，或手動撥入會議。
 
 ## <a name="set-up-the-call-me-feature"></a>設定呼叫我功能
 
 若要為貴組織的使用者啟用呼叫我功能，必須配置下列專案：
 
-- 貴組織中排程會議的使用者， (會議) 。 若要深入瞭解，請參閱[在](set-up-audio-conferencing-in-teams.md)Teams 中為使用者設定音訊會議[Teams。](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+- 貴組織中排程會議的使用者會啟用音訊會議 (會議) 。 若要深入瞭解，請參閱在[](set-up-audio-conferencing-in-teams.md)Teams 中為使用者設定音訊會議[Teams。](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 - 會議召集人可以從會議撥出。 若要深入瞭解，請參閱在 Teams 中[管理使用者的音訊會議Teams。](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 

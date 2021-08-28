@@ -14,20 +14,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
-description: '當您的埠訂單已接受時，代表什麼，以及您接下來需要執行哪些工作，才能完成商務用 Skype設定。 '
-ms.openlocfilehash: 78c10a340fd1b00fb29a1c28c638e2421adc4713809a73933a33611ef17c71ef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: '當您的埠訂單已接受時，代表什麼，以及完成您的訂單設定商務用 Skype步驟。 '
+ms.openlocfilehash: c99c1feef78e4f28b6edff5e0cbf232c02ce15b5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334405"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611382"
 ---
 # <a name="your-port-order-was-accepted"></a>您的埠訂單已接受
 
@@ -35,13 +35,13 @@ ms.locfileid: "54334405"
 
 您的埠訂單已核准！ 在系統管理中心中尋找商務用 Skype ****  >  **語音電話**  >  **號碼**。
   
- **重要**：若要在 商務用 Skype系統管理中心的左側流覽中查看語音選項，您必須先購買至少一個 **Enterprise E5** 授權、一個 **電話系統** 附加元件授權或一個音訊會議附加元件授權。 
+ **重要**：若要在 商務用 Skype系統管理中心的左側流覽中查看語音選項，您必須先購買至少一個 **Enterprise E5** 授權、一個 **電話系統** 附加元件授權或一個音訊會議附加元件授權。
   
 現在已經核准，而且您的電話號碼已準備就緒，您必須執行一些操作來設定所有專案。
   
 - 請確定您[商務用 Skype Microsoft Teams附加元件授權](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)。 您需要一個 **電話系統****國內通話方案** 或 **國際通話方案**。
     
-- 為 [貴](/MicrosoftTeams/add-change-remove-emergency-location-organization) 組織建立新增或移除緊急位址，如果您想要的話，您可以新增、變更或移除貴組織[ (](/MicrosoftTeams/add-change-remove-emergency-place-organization) 在部分國家/地區中的緊急位置，然後取得具有電話號碼的緊急位址) 。
+- 為 [貴](/MicrosoftTeams/add-change-remove-emergency-location-organization) 組織建立新增或移除緊急位址，如果您想要的話，您可以新增、變更或移除貴組織[ (](/MicrosoftTeams/add-change-remove-emergency-place-organization) 在一些國家/地區中的緊急位置，然後取得具有電話號碼的緊急位址) 。
     
 - 請繼續為使用者指派、變更或 [移除電話號碼](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user)。
 

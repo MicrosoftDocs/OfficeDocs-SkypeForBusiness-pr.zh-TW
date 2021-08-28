@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: 摘要：瞭解如何刪除商務用 Skype Server 的經驗品質 (QoE) 設定。
-ms.openlocfilehash: 8f97ed5fc1a59b68a4087406c14ad4414cc106ad25401322f025101f09aabe4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f4200916920042bba021a423d33d8088da2fd3d0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305425"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598980"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除經驗品質設定設定
  
@@ -41,7 +41,7 @@ ms.locfileid: "54305425"
     
 4. 在 [ **經驗品質資料** ] 頁面上，按一下您要的原則，按一下 [ **編輯**]，然後按一下 [ **刪除**]。
     
-5. 按一下 ****[確定]。
+5. 按一下 [確定]。
     
 ## <a name="removing-qoe-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 移除 QoE 設定設定
 

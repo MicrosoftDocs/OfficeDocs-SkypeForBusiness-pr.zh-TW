@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是聖基Microsoft 365 Office 365聖基商務用 Skype和Microsoft Teams的Microsoft Teams及服務。
-ms.openlocfilehash: 0aa5104bf7c8e141a4e0326a8f3c011794cf8978a116dc9cb0b299ed298077ff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7c3bf480c8d705f94b681e7b939724b8caa8d290
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337491"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618549"
 ---
 # <a name="availability-in-saint-kitts-and-nevis"></a>聖基茨和尼維斯的可用性
 
@@ -72,7 +72,7 @@ ms.locfileid: "54337491"
 |有提供付費電話號碼嗎？  <br/> |否 <br/> |
 |是否提供免付費號碼？  <br/> |是  <br/> |
    
- 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
+ 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得 商務用 Skype 和[Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通訊點數
 

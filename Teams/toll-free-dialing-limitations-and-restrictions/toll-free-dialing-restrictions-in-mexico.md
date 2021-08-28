@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解撥打墨西哥的免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
-ms.openlocfilehash: bce8f3f008f8639f51cd1e0a9cacf52784c2d3f2b9fc3f6714b806ac801eaeeb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5b9ffcc08b92fe83c2d8228faac50b109698a275
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330847"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592157"
 ---
 # <a name="toll-free-dialing-restrictions-in-mexico"></a>墨西哥免付費撥號限制
 
@@ -39,7 +39,7 @@ ms.locfileid: "54330847"
 |:-----|:-----|
 |免付費通話是否可用？  <br/> |是  <br/> |
 |撥號格式 ()   <br/> | 844<br/>833<br/>855<br/>800<br/>866<br/>877<br/>888<br/>|
-|國家/地區 ISO 代碼  <br/> |Mx  <br/> |
+|國家/地區 ISO 代碼  <br/> |MX  <br/> |
 |涵蓋的島嶼/地區  <br/> |美屬薩摩亞、波地安那、安地安達和巴布達、巴塞羅群島、巴塞哥維納、巴塞哥維達、巴塞哥維達、開曼群島、多明尼加、多明尼加共和國、格瑞那達、關島、牙買加、波塞羅群島、波多黎各、聖基茨和尼維斯、聖文森特和格林納丁斯群島St.Vincent、聖文森特、特立達和托巴哥、土克斯及開科斯群島、美國、美屬維爾京群島 <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |
 |行動網路可用性  <br/> |是  <br/> |
@@ -49,14 +49,14 @@ ms.locfileid: "54330847"
 > **撥號格式**：
 >
 > - 800-389 是特殊專案，且適用于巴哈群島
-> - 800-534 是特殊專案，而適用于巴布達
+> - 800-534 是特殊專案，適用于巴布達
 > - 800-623 為特殊，且適用于百慕達
 > - 800-415 或 907 或 751 適用于 Dom Republic
 > - 800-271 是特殊的，且適用于立達
 > - 800-555 是聽障線範圍
 
 > [!IMPORTANT]
-> **北美號碼方案免付費號碼**：北美號碼方案免付費號碼的每分鐘費率是由來源國家/地區決定。 從美國撥打的免付費每分鐘費率，會與定義為「北美」的費率進行比對。 不過，來自其他北美國家 ，例如加拿大、波多黎各等的通話有特定的免付費費率。
+> **北美號碼方案免** 付費號碼：北美號碼方案免付費號碼的每分鐘費率是由來源國家/地區決定。 從美國撥打的免付費每分鐘費率，會與定義為「北美」的費率進行比對。 不過，來自加拿大、波多黎各等其他北美國家/地區的通話有特定的免付費費率。
 
 ## <a name="related-topics"></a>相關主題
 

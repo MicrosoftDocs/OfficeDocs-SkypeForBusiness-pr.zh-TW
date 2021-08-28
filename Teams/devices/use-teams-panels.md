@@ -1,6 +1,6 @@
 ---
 title: 如何使用Microsoft Teams面板裝置
-ms.author: v-mdhiman
+ms.author: serdars
 author: ManikaDhiman
 manager: serdars
 ms.reviewer: weizxue
@@ -14,30 +14,30 @@ f1.keywords:
 ms.collection:
 - M365-voice
 search.appverid: MET150
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 本文提供如何使用面板Teams指南。
-ms.openlocfilehash: 28026f53f53fcb7b489abe3cf7d12a82d25f335907b1044591f92d4884853e03
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0fccd3e733cdeec2cfe84b721cbade5834b05b03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325060"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626265"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>如何使用Microsoft Teams面板
 
-Microsoft Teams面板是安裝在會議空間外部的精簡數字顯示裝置，通常位於入口旁邊。 這些觸控螢幕面板Microsoft Teams專用裝置，可提供會議空間和排定會議一目了然的視野。 使用生動的色彩編碼 LED 和首頁螢幕指示器，您可以判斷空間是否可用或保留距離。 您可以使用Teams面板，為臨時會議保留可用的會議空間。
+Microsoft Teams面板是安裝在會議空間外部的精簡數字顯示裝置，通常位於入口旁邊。 這些觸控螢幕面板是Microsoft Teams專用裝置，可提供會議空間和排定會議的概覽。 使用生動的色彩編碼 LED 和首頁螢幕指示器，您可以判斷空間是否可用或保留距離。 您可以使用Teams面板，為臨時會議保留可用的會議空間。
 
-Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過或Outlook或Teams排程的會議詳細資料。
+Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 Teams 排程的會議詳細資料。
 
 本文為使用者和系統管理員提供如何使用面板Teams指南。 它也提供有關使用這些裝置 [之](#frequently-asked-questions) 常見問題的解答。
 
-有關面板裝置概觀，以及如何在貴組織中規劃、傳遞和管理這些裝置，請參閱部署Microsoft Teams[面板](teams-panels.md)。
+若要概觀面板裝置，以及如何在貴組織中規劃、傳遞和管理這些裝置，請參閱部署Microsoft Teams[面板](teams-panels.md)。
 
 有關快速入門，請查看開始使用[Teams面板](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)。
 
 ## <a name="teams-panels-end-user-experience"></a>Teams面板的使用者體驗
 
-探索[會議面板Teams](#explore-teams-panels-home-screen)的首頁畫面，以查看會議空間和會議詳細資料。 或者，點一下觸控螢幕面板並捲動以執行其他動作。
+探索[會議面板裝置Teams](#explore-teams-panels-home-screen)畫面，以查看會議空間和會議詳細資料。 或者，點一下觸控螢幕面板並捲動以執行其他動作。
 
 使用您的Teams面板裝置：
 
@@ -61,7 +61,7 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過或Outlook或T
 瓦 | 描述
 :---|:---
 **1-目前時間、日期、日期和會議空間詳細資料** | 顯示目前的時間、日期、日期和會議空間名稱。 會議空間名稱是已登錄面板的資源帳戶名稱。
-**2-會議空間可用性和會議詳細資料** | 指出會議空間可用性並顯示會議詳細資料。 請參閱 [會議空間可用性和會議詳細資料磚](#meeting-space-availability-and-meeting-details-tile)。
+**2-會議空間可用性和會議詳細資料** | 指出會議空間的可用性，並顯示會議詳細資料。 請參閱 [會議空間可用性和會議詳細資料磚](#meeting-space-availability-and-meeting-details-tile)。
 **3-即將推出的日曆** | 顯示會議空間的日曆和目前時間起最多 24 小時的可用時間。 向上或向下卷起以判斷哪些時段可用，哪些時段是保留的。
 **4-設定** | 顯示設定 **圖示**。 點一下以報告問題或更新可用的裝置設定。
 
@@ -69,16 +69,16 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過或Outlook或T
 
 此磚的外觀及其功能會視會議空間可用性和預約類型而異。
 
-#### <a name="meeting-space-is-reserved-for-a-scheduled-meeting"></a>會議空間為排定的會議所保留
+#### <a name="meeting-space-is-reserved-for-a-scheduled-meeting"></a>已為排定的會議保留會議空間
 
-該磚會以紫色顯示，用於透過會議或 (排定的會議空間Outlook Teams) 。 它會以醒目的文字、會議開始時間和結束時間，以及會議召集人的名稱來顯示會議標題。 對於會議Teams，Teams標誌也會出現。 當會議詳細資料醒目顯示時，出席者可以輕鬆地確認他們位於正確的會議空間、正確的時間，以及適合的會議。
+該磚會以紫色顯示，用於透過會議或會議 (排定的會議空間Outlook Teams) 。 它會以醒目的文字顯示會議標題、會議開始時間和結束時間，以及會議召集人的名稱。 對於會議Teams，Teams標誌也會出現。 當會議詳細資料醒目顯示時，出席者可以輕鬆地確認他們位於正確的會議空間、正確的時間，以及適合的會議。
 
-:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams顯示已排程會議的會議空間已保留的首頁畫面":::
+:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams面板首頁畫面，顯示會議空間已保留為排定的會議":::
 
 > [!NOTE]
 >
 > - 排程會議之後，最多可能需要 90 秒的時間，才能同步的日曆，並反映在面板畫面上。
-> - 針對 [標示為私人的](https://support.microsoft.com/office/make-an-appointment-or-meeting-private-dc3898f0-22f5-45c6-8cc8-b4d4db84111d)排定會議，會顯示私人 **會議** ，而不是實際的會議標題。
+> - 針對 [標示為私人的](https://support.microsoft.com/office/make-an-appointment-or-meeting-private-dc3898f0-22f5-45c6-8cc8-b4d4db84111d)排定會議，會顯示私人 **會議** ，而不是實際會議標題。
 
 #### <a name="meeting-space-is-reserved-for-an-ad-hoc-meeting"></a>為臨時會議保留會議空間
 
@@ -90,11 +90,11 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過或Outlook或T
 
 磚會以綠色顯示，以尋找可用的會議空間。 它會以 **醒目** 的文字顯示可用，而且也會顯示一個保留按鈕，您可以點選以保留臨時會議 [的會議空間](#reserve-meeting-spaces-for-ad-hoc-meetings)。 您可以檢查會議空間的近期 (右下) ，以決定臨時會議結束時間。
 
-:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="此螢幕擷取畫面顯示Teams會議室可用時，主畫面的顯示方式":::
+:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="此螢幕擷取畫面顯示Teams會議室時，主畫面的顯示方式":::
 
 ## <a name="reserve-meeting-spaces-for-ad-hoc-meetings"></a>為臨時會議保留會議空間
 
-您可以直接從面板 [為](#meeting-space-is-available) 臨時會議保留可用的會議空間。 所有臨時會議都會自動排程為Teams會議。 不過，一旦保留之後，您無法透過面板釋放或取消保留會議空間。 只有裝置資源帳戶的系統管理員可以透過 (或 Outlook Teams取消) 臨時會議) 取消空間。
+您可以直接從面板 [為](#meeting-space-is-available) 臨時會議保留可用的會議空間。 所有臨時會議都會自動排程為Teams會議。 不過，一旦保留之後，您無法透過面板釋出或取消保留會議空間。 只有裝置資源帳戶的系統管理員可以透過 (或 Outlook Teams取消) 臨時會議) 取消空間。
 
 對於直接從面板預約的臨時會議：
 
@@ -112,14 +112,14 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過或Outlook或T
     > [!Note]
     >
     > - 結束時間選項會以一小時的 15 分鐘間隔顯示。
-    > - 結束時間預設為目前時間之後至少五分鐘的下一個 15 分鐘間隔。 例如，如果目前的時間是下午 1：57，則預設結束時間會顯示為下午 2：15，而不是下午 2：00。 這可防止使用者預約 5 分鐘以內的空間。 在上方螢幕擷取畫面中，預設結束時間會顯示為下午 2：00，這是目前時間 (1：53 pm) 之後至少 15 分鐘的間隔。
+    > - 結束時間預設為目前時間之後至少五分鐘的下一個 15 分鐘間隔。 例如，如果目前的時間是下午 1：57，則預設結束時間會顯示為下午 2：15，而不是下午 2：00。 這可防止使用者預約 5 分鐘以內的空間。 在上一個螢幕擷取畫面中，預設結束時間會顯示為下午 2：00，這是目前時間 (下午 1：53) 之後至少五分鐘的 15 分鐘間隔。
     > - 上述規則的例外是，下一個會議開始時間從目前時間起不到五分鐘。 在這種情況下，您可以預約空間，直到下一個會議開始時間。 例如，如果目前的時間是下午 1：57，而下一個會議開始時間是下午 2：00，則 2：00 PM 會顯示為唯一的結束時間選項，您可以將空間保留三分鐘。
 
 3. 點一下所需的結束時間間隔， **然後點一** 下保留 。
 
     確認視窗會以大拇指顯示圖釋、會議開始時間和結束時間，以及會議空間名稱。
     :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="臨時會議確認訊息":::
-現在，主畫面上的右側磚會以紫色顯示，並顯示保留文字和 Teams標誌。 這表示會議空間現在為臨時會議Teams空間。
+現在，主畫面上的右側磚會以紫色顯示，並顯示保留文字和Teams標誌。 這表示會議空間現在已保留為臨時Teams會議。
   
     :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="顯示會議空間為臨時會議保留的主畫面":::
 
@@ -138,7 +138,7 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過或Outlook或T
 3. 從輸入 **下** 拉式清單中選擇要求類型。
 4. 從問題 **下** 拉清單選取類別。
 5. 在標題 **文字** 欄位中，使用面板鍵盤輸入標題。
-6. 如有需要 **，在標題** 下方的文字欄位中輸入其他詳細資料。
+6. 如有需要，在 **標題** 下方的文字欄位中輸入其他詳細資料。
 
     > [!NOTE]
     > 請勿包含任何個人識別資訊。
@@ -152,7 +152,7 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過或Outlook或T
 若要查看或更新裝置設定：
 
 1. 點設定 **畫面** 上的圖示。
-2. 在畫面設定，點一下 **裝置設定**。
+2. 在畫面 **設定，** 點一下 **裝置設定**。
 3. 在裝置 **設定** 畫面中，點一下您想要查看或更新的設定。
 4. 請遵循畫面上的提示來查看或更新設定。
 
@@ -170,9 +170,9 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過或Outlook或T
 
 ### <a name="access-panels-app-settings"></a>Access Panels App 設定
 
-您可以使用系統管理 **設定** 下的面板應用程式設定面板 **應用程式** 選項來存取特定設定。 存取 **Panels App** 應用程式設定可能會根據您的裝置 OEM 而不同。
+您可以使用系統管理 **設定** 下的面板應用程式選項設定 **面板** 應用程式特定設定。 存取 **Panels App** 應用程式設定可能會根據您的裝置 OEM 而不同。
 
-若要存取面板 **應用程式設定** 選項：
+若要存取 **面板應用程式設定** 選項：
 
 1. 點設定 **畫面** 上的圖示。
 2. 在畫面 **設定，** 點一下 **裝置設定**。
@@ -194,7 +194,7 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過或Outlook或T
 
 #### <a name="update-the-wallpaper"></a>更新牆紙
 
-變更 [主畫面牆紙影像。
+變更主畫面的牆紙影像。
 
 1. [Access **Panels App 設定。**](#access-panels-app-settings)
 2. 點 **一下 [牆紙**> 。
@@ -219,7 +219,7 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過或Outlook或T
 **我未來可以看到會議空間的排程詳細資料有多遠？**  
 在主畫面 (右下) 的即將到來的日曆磚中，您可以看見會議空間的排程詳細資料，從目前時間起，未來最多 24 小時。
 
-**我可以從面板裝置為日後的會議Teams空間嗎？**  
+**我可以從面板裝置為Teams空間嗎？**  
 否，您無法從面板保留未來時間的會議空間。 開始時間一直是從面板排程的臨時會議目前時間。
 
 **我可以為臨時會議保留可用會議空間多久？**  

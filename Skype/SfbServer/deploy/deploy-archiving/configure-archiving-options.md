@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: 摘要：閱讀此主題以瞭解如何設定商務用 Skype Server 的初始封存選項。 您在部署封存時，您必須先設定封存設定，但是您可以在部署後變更、新增和刪除設定。
-ms.openlocfilehash: d3bc24edc4c4b130094541eb6bde00c63c8977910f8a45106c43032be32c2fb3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 186c6f656931b4ef5c1ad04363bc8bef132f1108
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312131"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611302"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>設定商務用 Skype Server 的封存選項
  

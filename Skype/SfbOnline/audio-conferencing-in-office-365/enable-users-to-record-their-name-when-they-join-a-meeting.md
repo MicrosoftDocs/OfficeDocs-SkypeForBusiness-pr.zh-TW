@@ -15,25 +15,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 瞭解如何啟用或停用使用者加入線上會議時，是否可以商務用 Skype名稱。
-ms.openlocfilehash: 53d57583004a143f78900b7e195084465f3344bc2617c4682709cf223a1860e9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cad0f5a904fbec064fd07080b43af7ee6a8a9671
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335723"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626255"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>讓使用者在加入線上會議時商務用 Skype名稱
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 如果您想要允許使用者在 Teams 中記錄其名稱，請參閱允許使用者在 Microsoft Teams 中加入會議時[Microsoft Teams。](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams)
+> 如果您想要允許使用者在 Teams 中記錄其名稱，請參閱允許使用者在 Microsoft Teams 中加入會議時記錄[Microsoft Teams。](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams)
 
 當您在 Microsoft 365 或 Office 365 中設定音訊會議時，您會收到電話號碼和所謂的音訊會議橋接器。 會議橋接器可以包含一或多個電話號碼，可以是專用或共用的電話號碼。
   
@@ -43,13 +43,13 @@ ms.locfileid: "54335723"
     
 1. 在 商務用 Skype **系統管理中心**，在左側流覽中，前往 **音訊會議** Microsoft  >  **橋接器設定**。
     
-2. 在 **會議加入體驗下**，請參閱標示為啟用會議 **進入和離開通知的核取方塊**。
+2. 在 **會議加入體驗** 下，請參閱標示為啟用會議 **進入和離開通知的核取方塊**。
     
    - **已選取** 來電者在進入會議之前，會要求他們先記錄他們的名稱。 這是預設選取的。
     
-   - **已清除** 來電者在進入會議之前，不會被要求記錄他們的名稱。
+   - **已清除** 在來電者進入會議之前，系統不會要求他們記錄其名稱。
     
-3. 進行變更後，按一下 [**儲存。**
+3. 進行變更之後，請按一下 [**儲存。**
     
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -60,9 +60,9 @@ ms.locfileid: "54335723"
     
 - Windows PowerShell管理使用者，以及允許使用者做什麼。 有了Windows PowerShell，您可以使用單一Microsoft 365管理Office 365管理，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
-  - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [為什麼您需要使用 powerShell Microsoft 365或Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell比僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點： 
     
@@ -70,10 +70,10 @@ ms.locfileid: "54335723"
     
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用Windows PowerShell執行線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell[模組商務用 Skype Online。](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援 64 位電腦，可從 Microsoft 下載中心下載，Windows PowerShell Online 商務用 Skype[模組。](https://go.microsoft.com/fwlink/?LinkId=294688)
   
 ## <a name="related-topics"></a>相關主題
 

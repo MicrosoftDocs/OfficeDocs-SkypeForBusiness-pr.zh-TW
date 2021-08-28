@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[名稱與安全性設定] 頁面提供一個文字方塊，以定義好記的名稱、私密金鑰的位長度的下拉式清單，以及可讓您將憑證的私密金鑰標記為可匯出的核取方塊。'
-ms.openlocfilehash: f84e28f6d3e8d067b06cd640e1a532084edc61d9d789f569bae546a6331cae4e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 051c883525582559756a4c3ec3b03e921314e9ef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282219"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591877"
 ---
 # <a name="certificate-request-basic"></a>憑證要求 (基本)
  

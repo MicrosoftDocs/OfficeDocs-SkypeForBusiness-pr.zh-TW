@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddPstnGatewayTrunkPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以透過設定下列項目，來定義 IP 或公用交換電話網路 (PSTN) 的根主幹：
-ms.openlocfilehash: dfd7287cff7c4ae941c5613f5dd031e277957aad83de877f5c2ec7fec0a5a72e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 347650d696358780a0285d49f5f6724aae460d1d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295430"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588795"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>定義新的 IP 或 PSTN 閘道的根主幹
 
