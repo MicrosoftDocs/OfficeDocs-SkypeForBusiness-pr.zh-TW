@@ -10,15 +10,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 摘要：瞭解如何在商務用 Skype Server 2015 的全域、網站或集區層級設定 Persistent Chat Server 選項。
-ms.openlocfilehash: 8b9e351e32b0a255cfca0f0996961075c94b17b3b9c0ab45704b27d10b709a23
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 73ed46368041cab611576f4d8fadb9b586165dfc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337123"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620109"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定 Persistent Chat Server 選項
  

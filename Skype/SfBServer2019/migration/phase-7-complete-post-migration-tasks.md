@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 本節中的主題說明在完成商務用 Skype Server 2019 的遷移後，您將需要執行的工作。
-ms.openlocfilehash: 8a27bbe42f64088833eb4349dde2e2249343dd8ef6ffad0577e3f405fbc6358c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 69925a59b2ad34e57d24a86af21b36be76a3e571
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298903"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620629"
 ---
 # <a name="phase-7-complete-post-migration-tasks"></a>階段 7：完成移轉後的工作
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddOfficeWebAppsServerPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 description: 在您的部署中，[定義新的 Office Web apps server] 嚮導會定義新的 Office web apps server。 您填寫下列資訊：
-ms.openlocfilehash: e72ff910b0ad299de9bbd5599aa64c338531024d0c1a41182567a67c8373ec3d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 830156c8e3f77baa1a63bf90b190a5929e0401af
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343597"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621285"
 ---
 # <a name="add-office-web-apps-server"></a>新增 Office Web Apps Server
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FrontEndGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 若要編輯現有前端集區或 Standard Edition 伺服器的設定，您會看到下列各節：
-ms.openlocfilehash: c2dc27177898c4ec8dbd260b6539e877d5eaf4ede8f402e44f09c5d4e095f1f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5c662bf22ea59bb58637622556881afa07e9ba4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348068"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621259"
 ---
 # <a name="front-end-general-settings-expander"></a>前端一般設定展開工具
 

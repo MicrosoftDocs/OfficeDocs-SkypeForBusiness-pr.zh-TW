@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于美國Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
-ms.openlocfilehash: ecfb6d3ccf33c45a7fb5a34baf2745ef48e291f45159822ed19051a32d17b02f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是適用于Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
+ms.openlocfilehash: e03c9c9a2499822a53aa0dc5d122771fda957488
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296910"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620689"
 ---
 # <a name="availability-in-the-united-states-us"></a>美國及美國 (的可用性) 
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于美國Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。 請參閱 [如何購買通話方案](../calling-plans-for-office-365.md) 以瞭解更多資訊。
+以下是適用于Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。 請參閱 [如何購買通話方案](../calling-plans-for-office-365.md) 以瞭解更多資訊。
 
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -61,10 +61,10 @@ ms.locfileid: "54296910"
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 可以購買通話方案嗎？  <br/>   | 是  <br/>                                                                                                                                                                                                                                                                                                                      |
 | 通話方案可用的通話分鐘數。              | 每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 (限制) </li><li>240 分鐘的國內通話方案 (僅限) </li></li><li>3000 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：3000 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li> |
-| 可以撥打付費號碼的外接電話嗎？ <br/> | 目前不支援。 <br/>                                                                                                                                                                                                                                                                                               |
+| 可以撥打付費號碼外接電話嗎？ <br/> | 目前不支援。 <br/>                                                                                                                                                                                                                                                                                               |
 | 可以向外撥打電話嗎？  <br/>                | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/>                                                                                                                                                                                                                      |
 > [!Note]
-> 當美國國內 (國內或國際電話) 美國使用者撥打加拿大的電話號碼時，該號碼會視為國內通話。 這也是加拿大使用者撥打美國電話號碼時的情況。不過，如果您也使用通話方案政策將使用者撥出範圍限制為「國內」，則美國使用者將無法撥打加拿大，同樣地，加拿大使用者也將無法撥打美國使用者。
+> 當美國國內 (國內或國際) 使用者撥打加拿大的電話號碼時，電話方案會視為國內通話。 這也是加拿大使用者撥打美國電話號碼時的情況。不過，如果您也使用通話方案政策，將使用者的撥出範圍限制為「國內」，則美國使用者將無法撥打加拿大，同樣地，加拿大使用者將無法撥打美國使用者。
 
 >[!Note]
 > 美國國內通話包括美國所有 50 個州和波多黎各的通話。 指派授權使用位置為美國和/或波多黎各的使用者共用相同的分鐘數。
@@ -73,7 +73,7 @@ ms.locfileid: "54296910"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> |<ul><li>亞拉巴馬，阿伯林漢 <li>  亞利桑那，費尼克斯 <li>  阿肯色州，小岩 <li> 加州、洛杉磯 <li> 加州、聖迭加 <li>  科羅拉多，福拉多 <li>  哥倫比亞，華盛頓州 <li>  康乃格，哈克福 <li>  特拉華州，威明頓 <li>福羅裡達，美國 <li>  佐治亞州，亞特蘭大 <li> 夏威夷，火奧魯魯 <li> 愛達荷州，波伊西 <li> 伊利諾州，極光 <li> 伊利諾州、芝加哥 <li> 伊利諾州，西塞羅<li>  印地安那州、印地安那州 <li>  愛荷華州，愛荷華州 <li>  肯斯，威奇托 <li> 肯塔基，路易斯維爾 <li>  路易斯安那州、紐奧良 <li> 緬因州，波特蘭 <li> 馬里蘭州、巴的摩 <li>  馬塞諸塞、波士頓 <li> 密西根，龐提亞克 <li> 明尼阿波利斯，明尼阿波里 <li> 明尼達、聖保爾 <li> 密西西比，傑克遜 <li>  密斯裡那州，肯斯市 <li>聖路易斯的密斯古裡 <li>  蒙大拿州，帳單 <li> 北卡，北卡，沙洛<li>北達科他州，法戈 <li> 內布拉斯加州，奧瑪哈 <li> 內華達、拉斯維加斯 <li>  新漢普郡，曼賈斯特 <li> 紐澤西，紐華州 <li> 新墨西哥州，Albuquerque <li>  紐約，紐約市 <li>俄裡俄，哥倫拜斯 <li>俄沙馬州，奧克拉荷馬市 <li> 俄勒岡州，波特蘭 <li> 法西法尼亞州，費裡達 <li> 羅德島，維登斯 <li>  南卡，查爾斯頓 <li>南達科他州、Sioux Falls <li>  田納西州，文菲斯 <li> 德克薩斯，達拉斯 <li>  休士頓，休士頓 <li> Utah， Salt Lake City <li> 佛蒙特，Brattleboro<li> 維吉尼亞、里士滿 <li> 華盛頓州、西雅圖 <li>  西維吉尼亞州，查爾斯頓<li>  威斯康辛州、密爾沃基 <li> Wyoming， Laramie</ul> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |<ul><li>亞拉巴馬，阿伯林漢 <li>  亞利桑那，費尼克斯 <li>  阿肯色州，小岩 <li> 加州、洛杉磯 <li> 加州、聖迭科 <li>  科羅拉多，福拉多 <li>  哥倫比亞，華盛頓州 <li>  康乃格，哈克福 <li>  特拉華州，威明頓 <li>福羅裡達，美國 <li>  佐治亞州，亞特蘭大 <li> 夏威夷，火奧魯魯 <li> 愛達荷州，波伊西 <li> 伊利諾州，極光 <li> 伊利諾州、芝加哥 <li> 伊利諾州，西塞羅<li>  印地安那州、印地安那州 <li>  愛荷華州，愛荷華州 <li>  肯斯，威奇托 <li> 肯塔基，路易斯維爾 <li>  路易斯安那州、紐奧良 <li> 緬因州，波特蘭 <li> 馬里蘭州、巴的摩 <li>  馬塞諸塞、波士頓 <li> 密西根，龐提亞克 <li> 明尼阿波利斯，明尼阿波里 <li> 明尼達、聖保爾 <li> 密西西比，傑克遜 <li>  密斯裡那州，肯薩斯市 <li>聖路易斯的密斯古裡 <li>  蒙大拿州，帳單 <li> 北卡、北卡、沙洛特<li>北達科他州，法戈 <li> 內布拉斯加州，奧瑪哈 <li> 內華達、拉斯維加斯 <li>  新漢普郡，曼賈斯特 <li> 紐澤西，紐華州 <li> 新墨西哥，Albuquerque <li>  紐約，紐約市 <li>俄裡俄，哥倫比亞 <li>俄沙馬州，奧克拉荷馬市 <li> 俄勒岡州，波特蘭 <li> 法西法尼亞州，費裡達 <li> 羅德島，維登斯 <li>  南卡，查爾斯頓 <li>南達科他州、Sioux Falls <li>  田納西州，漢菲斯 <li> 德克薩斯，達拉斯 <li>  休士頓，休士頓 <li> Utah， Salt Lake City <li> 佛蒙特，Brattleboro<li> 維吉尼亞、里士滿 <li> 華盛頓州、西雅圖 <li>  西維吉尼亞州，查爾斯頓<li>  威斯康辛州、密爾沃基 <li> Wyoming， Laramie</ul> |
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
 

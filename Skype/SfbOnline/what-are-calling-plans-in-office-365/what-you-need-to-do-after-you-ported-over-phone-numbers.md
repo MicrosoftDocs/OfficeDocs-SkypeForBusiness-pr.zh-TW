@@ -1,5 +1,5 @@
 ---
-title: 在行動電話號碼之後，您需要執行哪些工作？
+title: 在將電話號碼進行移植之後，您需要執行什麼工作？
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,14 +22,14 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderFinish
 description: 查看將電話號碼移植到新號碼之後，接下來商務用 Skype。
-ms.openlocfilehash: b4a3a3f680b1618798e3bb28f529dbf0a706b3225661fadb028f3690aaf5847d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ded25bcbe650344dcd40c6f6ed34c82eb70cefeb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326639"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620559"
 ---
-# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>在行動電話號碼之後，您需要執行哪些工作？
+# <a name="what-do-you-need-to-do-after-you-have-ported-over-your-phone-numbers"></a>在將電話號碼進行移植之後，您需要執行什麼工作？
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 

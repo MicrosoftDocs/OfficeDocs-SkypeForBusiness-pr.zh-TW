@@ -1,5 +1,5 @@
 ---
-title: 在阿根廷的可用性
+title: 在秘魯的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
-ms.openlocfilehash: 38a761dd4696d0b958ab4635ec243a4b6fa916c4a5e6380261f330de4712832c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c6575df81607b534b0b3d22c76890d91ec7b7ffd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281636"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620679"
 ---
-# <a name="availability-in-uruguay"></a>在阿根廷的可用性
+# <a name="availability-in-uruguay"></a>在秘魯的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 

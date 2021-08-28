@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: 摘要：瞭解如何啟用或停用商務用 Skype Server 中的封存。
-ms.openlocfilehash: 83ed391ed482d3bd744e963e1589726729a52b6e3f1c65a776b213a809eabed4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8384c751cbcd7d5d357ca2bdefbb8821b7e282d0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283375"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621089"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>啟用或停用商務用 Skype Server 中的封存
 

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 330367f2-22b0-43e3-b8fb-3e0d2e3b330e
 description: Enter-CcUpdate Cmdlet 會以維護模式來準備更新程式的商務用 Skype Cloud Connector Edition 主機伺服器。 裝置會立即停止所有服務，結束任何進行中的呼叫，並拒絕任何新的呼叫。
-ms.openlocfilehash: 75be5933e31f3966ab36f9957b78cd89c21a4a31df23b5761000a6e96cd9806e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 26f1874ca6c0b92836716d66031945adc864d0ff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303646"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620759"
 ---
 # <a name="enter-ccupdate"></a>Enter-CcUpdate
 

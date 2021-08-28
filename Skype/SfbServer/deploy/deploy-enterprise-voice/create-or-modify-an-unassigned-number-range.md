@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 在商務用 Skype Server 企業語音中建立、修改或刪除宣告應用程式的未指派號碼範圍。 這會影響如何處理未指派號碼的呼叫。
-ms.openlocfilehash: ab6573b618782434e18bebc3d47dd52fc1fbd4055f13464c7121fbafb2b08aba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eb20f43729c29911cb9f45888564c8ab5a0ac739
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331995"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620239"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改未指派的號碼範圍
  

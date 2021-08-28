@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: vikramju
 description: 本文將瞭解如何使用匯出 API Teams匯出Microsoft Teams內容。
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f69a46404278a86ef17a18398c9eb8e62c3ef7eb46acb3f39ec075d553ac7383
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b9d298ad18c6ed63c269c5f31b923a89e63a9f96
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299222"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620639"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>使用匯出 API Microsoft Teams內容
 
-Teams匯出 API 允許您從 Microsoft Teams 匯出 1：1、群組聊天、會議聊天和Microsoft Teams。 如果貴組織需要匯出Microsoft Teams，您可以使用匯出 API 來Teams郵件。 *聊天訊息* 代表頻道或 [聊天中的個別](/graph/api/resources/channel?view=graph-rest-beta) 聊天 [訊息](/graph/api/resources/chat?view=graph-rest-beta)。 聊天訊息可以是根聊天訊息，或由 **聊天訊息中的 replyToId** 屬性定義的回復對話的一部分。
+Teams匯出 API 可允許您從 Microsoft Teams 匯出 1：1、群組聊天、會議聊天和Microsoft Teams。 如果貴組織需要匯出Microsoft Teams，您可以使用匯出 API 來Teams郵件。 *聊天訊息* 代表頻道或 [聊天中的個別](/graph/api/resources/channel?view=graph-rest-beta) 聊天 [訊息](/graph/api/resources/chat?view=graph-rest-beta)。 聊天訊息可以是根聊天訊息，或由 **聊天訊息中的 replyToId** 屬性定義的回復對話的一部分。
 
 以下是一些如何使用這些匯出 API 的範例：
 
@@ -37,7 +37,7 @@ Teams匯出 API 允許您從 Microsoft Teams 匯出 1：1、群組聊天、會�
 ## <a name="what-is-supported-by-the-teams-export-apis"></a>匯出 API 支援哪些Teams？
 
 - 大量匯出 **Teams** 訊息：Teams 匯出 API 可支援每個租使用者最多 200 個 RPS 和 600 個應用程式 RPS，這些限制應能大量匯出 Teams 封郵件。
-- **應用程式上下文**：若要Graph Microsoft 帳戶，您的應用程式必須從 Microsoft 身分識別平臺。 存取權杖包含您的應用程式相關資訊，以及它對於透過 Microsoft 帳戶提供的資源和 API 的許可權Graph。 若要取得存取權杖，您的應用程式必須向 Microsoft 身分識別平臺 註冊，並經過使用者或系統管理員的授權，才能存取所需的 Microsoft Graph資源。
+- **應用程式上下文**：若要Graph Microsoft 帳戶，您的應用程式必須從應用程式取得Microsoft 身分識別平臺。 存取權杖包含您的應用程式相關資訊，以及它對於透過 Microsoft 帳戶提供之資源和 API 的許可權Graph。 若要取得存取權杖，您的應用程式必須向 Microsoft 身分識別平臺 註冊，並經過使用者或系統管理員的授權，才能存取 microsoft Graph所需的資源。
 
     如果您已經熟悉將應用程式與應用程式整合Microsoft 身分識別平臺取得權杖，請參閱下一個步驟一節，以取得[](/graph/auth/auth-concepts?view=graph-rest-1.0#next-steps)Microsoft Graph。
 - **混合式環境：** 匯出 API 支援在混合式環境中部署的使用者所 (內部部署Exchange Teams) 。 任何為混合式環境所配置的使用者所送出的郵件，都可以使用匯出 API 來訪問。
@@ -69,7 +69,7 @@ Teams匯出 API 允許您從 Microsoft Teams 匯出 1：1、群組聊天、會�
 
 ## <a name="prerequisites-to-access-teams-export-apis"></a>存取匯出 API Teams先決條件 
 
-- Teams匯出 API 目前處於預覽狀態。 只有擁有 API 所需授權的使用者和租 [使用者才能使用](/graph/teams-licenses) 。 未來，Microsoft 可能會要求您或您的客戶根據透過 API 存取的資料量支付額外費用。
+- Teams匯出 API 目前處於預覽狀態。 只有擁有 API 所需授權的使用者和租使用者[才能使用。](/graph/teams-licenses) 未來，Microsoft 可能會要求您或您的客戶根據透過 API 存取的資料量支付額外費用。
 - Microsoft TeamsMicrosoft 中的 API Graph存取敏感性資料被視為受保護的 API。 匯出 API 需要您擁有許可權和同意以外的其他驗證，才能使用這些驗證。 若要要求存取這些受保護的 API，請完成 [要求表單](https://aka.ms/teamsgraph/requestaccess)。
 - 應用程式許可權會由在沒有已登錄使用者展示的情況下執行的應用程式使用;應用程式許可權必須經系統管理員同意。 需要下列許可權：
 

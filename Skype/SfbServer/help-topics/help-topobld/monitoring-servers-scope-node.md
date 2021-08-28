@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MonitoringServersScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 description: '[監控伺服器] 節點會列出您拓撲中的監控伺服器。您可以執行下列動作：'
-ms.openlocfilehash: 763fe3f877b4a32708e278684d961208ba1fac9e1053d99f675e1b48ff7478ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d0c3463a779aaa9213875c78c51300f57d89d740
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328278"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619829"
 ---
 # <a name="monitoring-servers-scope-node"></a>監控伺服器範圍節點
  

@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 摘要：階段 AV 和 OAuth 商務用 Skype Server 的憑證。
-ms.openlocfilehash: 61b37b7e4edc41c73d27a85432f1328215ca84e58d4906c0a825071f5f6669ef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 82dd1e88330bec6af7a9832fbb23429fbe457d04
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286842"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619839"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中指派每個使用者的 PIN 原則
 

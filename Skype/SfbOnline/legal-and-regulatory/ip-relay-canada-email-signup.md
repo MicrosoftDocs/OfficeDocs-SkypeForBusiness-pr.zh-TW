@@ -12,19 +12,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: None
+ms.localizationpriority: ''
 f1.keywords:
 - NOCSH
 ms.custom:
 - Legal
 hideEdit: true
 description: 如何為加拿大的 IP 轉場帳戶松一口氣。
-ms.openlocfilehash: 1ed95651ab006cfff5c59e22d5d14f083116872d
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: d062ec96a35d01fc5986af24a2bc52adf8138440
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58406962"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620541"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>加拿大 IP 轉送 - 註冊
 
@@ -32,7 +32,7 @@ ms.locfileid: "58406962"
 
 若要為加拿大設定 IP 轉送帳戶，請完成下列所述資訊，然後以電子郵件傳送[ptn@microsoft.com。](mailto:ptn@microsoft.com)
 
-- 名字&名字：
+- 姓氏&名字：
 
 - Microsoft 365或Office 365組織功能變數名稱： (範例：Contoso.com)    
 
@@ -59,7 +59,7 @@ ms.locfileid: "58406962"
 > [!NOTE]
 > 如果某人透過 IP 轉場電話來呼叫您，則上述電子郵件地址會在您不在線上時，收到您留下的郵件。 
 
-一旦您的帳戶在 (24 個工作時間內) ，我們會以使用者名稱和密碼以電子郵件將您送回。 
+一旦您的帳戶在 (24 個工作小時內) ，我們會以使用者名稱和密碼以電子郵件將您送回。 
 
 
 接下來，請參閱 [加拿大 IP 轉場 - 使用者指南](ip-relay-canada-user-guide.md) 以開始使用。 

@@ -12,19 +12,19 @@ ms.collection:
 - m365initiative-meetings
 ms.reviewer: nakulm
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Teams 會議和群組通話，以擷取音訊、視訊和螢幕畫面分享活動。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 45eb669dd83f2c66d556da82043e076b84ae370e
-ms.sourcegitcommit: dcba13777a03780e5dfb3938d9cf6b1d861a2fff
+ms.openlocfilehash: 4024ca2b061f6fb2db463b2eebf5951da2f19304
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58531013"
+ms.locfileid: "58620699"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -240,7 +240,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 會議錄製可能會中止在暫存空間中的原因如下：
 
-- 對於非頻道會議，若使用者錄製內容不具有商務用 OneDrive 設定或商務用 OneDrive 已達到儲存空間配額
+- 對於非頻道會議，若使用者錄製內容未設定商務用 OneDrive 設定或商務用 OneDrive 已達到儲存空間配額
 - 對於頻道會議，若 Microsoft Office SharePoint Online 網站已達到其儲存空間配額或尚未佈建該網站
 - 如果已啟用特定的商務用 OneDrive 和 SharePoint Online 原則，就會則限制使用者上傳檔案的功能 (在使用非特定 IP 範圍時)。
 
@@ -263,7 +263,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > 
 > 我們會提供此功能在未來如何執行的資訊，因此您可以事先規劃這項變更並修改 Teams 原則設定。 
 >
-> 尚未提供預先變更 Teams （Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays） 中 MeetingExpirationDays 設定的 CMD。  當設定可以進行修改時，我們會發佈更新的訊息中心文章。
+> 用來先佔式變更 Teams 中 MeetingExpirationDays 設定的 CMD (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) 尚無法設定。  當設定可以供修改時，我們會發佈一則更新的訊息中心文章。
 >
 >
 
@@ -291,7 +291,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 我們相信，幾乎所有客戶都會從租用戶降低的儲存空間負載獲益，由於移除 60 天後可能永遠不會重看的錄製內容。 我們的目標是藉由預設, 儘可能為所有客戶提供乾淨的體驗。 
   
-**即使存取或下載資料，它也會在 30 天之後自動刪除嗎？**
+**即使存取或下載該資料，也會將它自動刪除嗎？**
   
 存取文件是無法變更到期日。 
   
@@ -309,18 +309,18 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 **系統管理員如何變更到期日?**
   
-系統管理員可以在功能發行前，變更 PowerShell （Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays） 或 Teams 系統管理中心中的預設到期設定。 這項設定尚無法進行修改。 當設定可以進行修改時，我們會發佈更新的郵件中心文章。 當此功能啟動時，系統管理員可以在 Teams 系統管理中心變更此設定。 變更到期設定只會從該時間點起影響新建立之 TMR。 這不會影響該日期之前進行的任何錄製。 
+在功能釋出前，系統管理員將可以在 PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) 或 Teams 系統管理中心變更預設的到期設定。 這項設定尚無法進行修改。 當設定可以進行修改時，我們會發佈更新的郵件中心文章。 當此功能啟動時，系統管理員可以在 Teams 系統管理中心變更此設定。 變更到期設定只會從該時間點起影響新建立之 TMR。 這不會影響該日期之前進行的任何錄製。 
 
-到期日值可設定如下:
+到期日值可如以下方式設定：
   
-- 值可以從 1 到 99,999 （最大值為 273 年）。
-- 值也可以是 -1，以將 TMR 設為永不過期。 
+- 值可以是從 1 到 99,999 (最大值為 273 年)。
+- 值也可以是 -1，將 TMR 設為永不過期。 
  
 在此功能釋出之前，系統管理員無法變更已上傳至 OneDrive 或 SharePoint 的現有 TMR 到期日。 這可保護擁有 TMR 的使用者意圖。 
   
-**系統管理員可以設定 TMR 永不過期嗎？**
+**系統管理員可以將 TMR 設定為永不過期嗎？**
   
- 是，系統管理員可以透過下列 PowerShell Cmdlet 將 TMR 設定為永不過期: （Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1）
+ 是的，系統管理員可以透過下列 PowerShell Cmdlet 將 TMR 設定為永不過期：(Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1)
   
 **播放錄製內容會變更到期日嗎？**
 

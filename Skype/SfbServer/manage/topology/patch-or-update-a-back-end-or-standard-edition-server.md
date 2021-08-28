@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 摘要：瞭解如何在商務用 Skype Server 中的後端伺服器上安裝更新或修補程式。
-ms.openlocfilehash: 6da04dda24400e8dfa00bcaac5d3620cbf6509a5f4bef2d7d988682597b732f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2b7292b71f57d7396c5b90bce3746b73b98f6f43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290281"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619749"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>在商務用 Skype Server 中修補或更新後端伺服器或 Standard Edition 伺服器
  

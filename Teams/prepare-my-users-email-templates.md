@@ -8,26 +8,26 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 使用範本將電子郵件傳送給使用者，以在 Teams 或 商務用 Skype 中Teams。
-localization_priority: Normal
+description: 使用範本將電子郵件傳送給使用者，以在 Teams 或 商務用 Skype。
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 03a770ddcc9806fdd21199da2661710acc7ca0cb10ab6bc0143267299754ac1b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 34e15e3b9fccd466905572e6cd234da2f498216b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276109"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617199"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>協助使用者採用新的線上電話系統
 
 手機可以是使用者的命脈。 從傳統電話系統切換到線上電話系統，代表使用者工作方式的大幅變更，可能會對生產力造成負面影響。 透過這項變更，花時間通知、引導和支援使用者，可協助確保良好的使用者體驗，並最大化您的投資回報。
 
-本文包含可自訂的電子郵件範本，可協助使用者瞭解其新電話系統。 自訂並傳送適當的電子郵件，以配合您的特定語音部署。 我們已使用方括弧指出可輕鬆個人化的節，但建議您新增組織特定的訊息，讓公告最適用于您的使用者。 如果適用于您的部署，請將 「Teams」的所有參照取代為「商務用 Skype」。
+本文包含可自訂的電子郵件範本，可協助使用者瞭解其新電話系統。 自訂並傳送適當的電子郵件，以配合您的特定語音部署。 我們已使用方括弧指出可輕鬆個人化的節，但我們建議您新增組織特定的訊息，讓公告最適用于您的使用者。 如果適用于您的部署，請將 「Teams」的所有參照取代為「商務用 Skype」。
 
 ## <a name="email-number-1-send-three-weeks-before-launch"></a>電子郵件號碼 1：在啟動前三周傳送
 

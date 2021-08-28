@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
 description: 疑難排解如何建立遠端 PowerShell 會話以連線至 商務用 Skype Online，包括 Import-Module、並行 shell、Live ID 和許可權錯誤。
-ms.openlocfilehash: 9635d2a4ff8ecf17fd9d1bb4717fad98a9795292
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 9157c556eaa2952adf2b67a514eebfb1a9d3abff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407192"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617089"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>診斷商務用 Skype Online 連接器的連線問題
 
@@ -92,13 +92,13 @@ PowerShell 執行策略可協助判斷哪些組組檔案可以載入至 PowerShe
 <a name="BKMKFailedConnect"> </a>
 
 > [!WARNING] 
-> 商務用線上連接器已Skype即時識別碼驗證。 使用 powerShell Teams模組來管理線上租使用者。 管理混合式環境時，請升級至最新的累積更新或使用 oAuth 驗證。
+> 商務用線上連接器的 Live ID 驗證Skype已遭到使用。 使用 powerShell 模組Teams管理線上租使用者。 管理混合式環境時，請升級至最新的累積更新或使用 oAuth 驗證。
 
 您的連接嘗試失敗的原因通常有三種，原因如下：
 
   - **錯誤***：Get-CsWebTicket：無法連接即時識別碼伺服器。請確定 Proxy 已啟用，或電腦已與即時識別碼伺服器建立網路連接。*
 
-- **解決** 方式：此錯誤通常表示 Microsoft Online Services 登入小幫手並未運作。 您可以從 PowerShell 提示執行下列命令，以驗證此服務的狀態： 
+- **解決** 方式：此錯誤通常表示 Microsoft Online Services 登入小幫手並未進行。 您可以從 PowerShell 提示執行下列命令，以驗證此服務的狀態： 
     ```PowerShell
     Get-Service "msoidsvc"
     ```
@@ -107,14 +107,14 @@ PowerShell 執行策略可協助判斷哪些組組檔案可以載入至 PowerShe
     Start-Service "msoidsvc"
     ```
 
-    如果服務執行中，您可能會遇到電腦與 Microsoft Live ID 驗證服務器之間的網路連接問題。 若要檢查這項功能，請開啟 Internet Explorer 並流覽至[ https://login.microsoftonline.com/ 。](https://login.microsoftonline.com/.) 請嘗試從Microsoft 365登Office 365或登Office 365登陸。 如果失敗，您可能遇到網路連接問題。
+    如果服務執行中，您可能會遇到電腦與 Microsoft Live ID 驗證服務器之間的網路連接問題。 若要檢查這項功能，請開啟 Internet Explorer 並流覽至[ https://login.microsoftonline.com/ 。](https://login.microsoftonline.com/.) 請嘗試從Microsoft 365登Office 365或登陸。 如果失敗，您可能遇到網路連接問題。
   
-    較不常見的是，可能是 Microsoft Live ID 驗證服務器的連接 URI 已配置為錯誤的值。 如果您已經判斷系統Sign-In小幫手，而且您沒有遇到網路連接問題，這可能是問題。 在這種情況下，請聯絡 Microsoft 支援服務。
+    較不常見的是，可能是 Microsoft Live ID 驗證服務器的連接 URI 已配置為錯誤的值。 如果您已經判斷系統正在Sign-In小幫手，而且您沒有遇到網路連接問題，這可能是問題。 在這種情況下，請聯絡 Microsoft 支援服務。
   
 ## <a name="failed-to-load-live-id-module"></a>載入 Live ID 模組失敗
 <a name="BKMKFailedLoad"> </a>
 
-使用 PowerShell 管理線上商務用 Skype其中一個先決條件是安裝 Microsoft Online Services 登入小幫手。 如果尚未安裝登錄小幫手，當您嘗試在線上建立遠端會話時，您會收到商務用 Skype訊息：
+使用 PowerShell 管理 商務用 Skype Online 的先決條件之一是安裝 Microsoft Online Services 登入小幫手。 如果尚未安裝登錄小幫手，當您嘗試在線上建立遠端會話時，您會收到商務用 Skype訊息：
 
 - **錯誤***：Get-CsWebTicket：無法載入 Live ID 模組。確認已安裝正確版本的 Live Id 登錄小幫手。*
 
@@ -123,7 +123,7 @@ PowerShell 執行策略可協助判斷哪些組組檔案可以載入至 PowerShe
 ## <a name="logon-failed-for-the-user"></a>使用者登入失敗
 <a name="BKMKLogonFailed"> </a>
 
-當您嘗試進行遠端連線至 商務用 Skype線上時，您必須提供有效的線上使用者帳戶商務用 Skype使用者名稱和密碼。 如果沒有，登入會失敗，以及類似此訊息的錯誤訊息：
+當您嘗試進行遠端連線至線上商務用 Skype，您必須提供線上使用者帳戶的有效使用者名稱和商務用 Skype密碼。 如果沒有，登入會失敗，以及類似此訊息的錯誤訊息：
 
 - **錯誤***：Get-CsWebTicket：登入失敗的使用者'kenmyer@litwareinc.com'。建立新的 PSCredential 物件，確定您所使用的使用者名稱和密碼正確無誤。*
 
@@ -135,7 +135,7 @@ PowerShell 執行策略可協助判斷哪些組組檔案可以載入至 PowerShe
 
 除非您是租使用者系統管理員群組的成員，否則您無法與商務用Skype Online 進行遠端 PowerShell 連線。 如果沒有，您的連接嘗試將會失敗，而且您會收到下列錯誤訊息：
 
-- 錯誤：New-PSSession：[admin.vdomain.com] 從遠端伺服器 admin.vdomain.com 處理資料失敗，出現下列錯誤訊息：使用者 'user@foo.com' 沒有管理此租使用者的許可權 *。您可以將使用者指派給適當的 RBAC 角色，以授予許可權。詳細資訊，請參閱遠端 [疑難排解](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting )。*
+- 錯誤：New-PSSession：[admin.vdomain.com] 從遠端伺服器 admin.vdomain.com 處理資料失敗，出現下列錯誤訊息：使用者 'user@foo.com' 沒有管理此租使用者 *的許可權。您可以將使用者指派給適當的 RBAC 角色，以授予許可權。詳細資訊，請參閱遠端 [疑難排解](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting )。*
 
 - **解決方法**：如果您認為自己是或應該是租使用者系統管理員群組的成員，您必須與 Microsoft 支援服務聯繫。
   

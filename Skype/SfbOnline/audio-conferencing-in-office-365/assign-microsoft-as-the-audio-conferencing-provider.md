@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 瞭解如何指派 Microsoft 電話撥入式會議提供者商務用 Skype。
-ms.openlocfilehash: 5e02103dcd84bcbbaf60ccbc1a9fcd29555c241d4e05fd5e0f535b296d965748
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 982d0515468109d1adf8ac2d7f00cce36732faf7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340309"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620299"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>將 Microsoft 指派為音訊會議提供者
 
@@ -35,7 +35,7 @@ ms.locfileid: "54340309"
 
 若要在 Microsoft 365 或 Office 365 使用音訊會議商務用 Skype Microsoft Teams，貴組織的使用者必須指派音訊會議授權給他們。 請參閱[在 Microsoft 365](try-or-purchase-audio-conferencing-in-office-365.md)或 Office 365中試用或購買音訊會議，以取得授權和費用詳細資訊。
 
-Microsoft 音訊會議提供撥入電話號碼、PIN 和會議編號，會議參與者可以使用這些號碼加入貴組織的會議。 您只需要將 Microsoft 指派為音訊會議提供者給打算排程或帶領商務用 Skype或Microsoft Teams提供者。
+Microsoft 音訊會議提供撥入電話號碼、PIN 和會議編號，會議參與者可以使用這些號碼加入貴組織的會議。 您只需要將 Microsoft 指派為音訊會議提供者給打算排程或商務用 Skype或Microsoft Teams會議。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -85,14 +85,14 @@ Script.ps1 -UserList <List of users>
 ./Script.ps1 -UserList "user01@constoso.com, user02@contoso.com, user03@contoso.com"
   ```
 
-**範例 2：** 您可以執行此腳本，.csv包含電子郵件地址 (別名) 每個使用者的別名。
+**範例 2：** 您可以執行此腳本，.csv包含電子郵件地址 (別名) 更新每個使用者的別名。
    
   ```PowerShell
 Script.ps1 -CsvFile <Path of the csv file>
 ./Script.ps1 -CsvFile ".\\CsvFile.csv"
   ```
 
-**範例 3：** 在此範例中，您可以使用此腳本，將音訊會議提供者從 Intercall (或另一) 提供者變更為 **Microsoft，** 供貴組織中大量使用者使用。
+**範例 3：** 在此範例中，您可以使用此腳本，將貴組織中大量使用者的音訊會議提供者從 Intercall (或其他) 變更為 **Microsoft。**
     
   ```PowerShell
   Script.ps1 -ACPProviderName <Provider>

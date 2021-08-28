@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeMachineExternalIPv6Page
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e901509e-f667-41ef-96f5-67251b05a167
 description: 在 [外部 IPv6 位址] 中，輸入指向「Access Edge service」、「Web 會議 Edge service」及「A/V Edge service」的外部 IP 位址。
-ms.openlocfilehash: d5a794f162829145bbaa6f44ba1e6124307f8a320695054278d9b0fded86b91c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef3f2416567e389cb85d36f102d44e0d29152c1e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343607"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621279"
 ---
 # <a name="add-edge-machine-external-ipv6"></a>新增 Edge 電腦外部 IPv6
  
