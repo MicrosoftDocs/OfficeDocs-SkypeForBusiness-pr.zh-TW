@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: 摘要：瞭解如何設定商務用 Skype Server 的封存選項。
-ms.openlocfilehash: b2ed0644e64df1606141b94157920d98599fb020db7bdf39d522699fb88555ef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c38142f9a3c4e0db6c856bb1c75846399e9d62dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338141"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616609"
 ---
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>管理商務用 Skype Server 中的封存選項
 

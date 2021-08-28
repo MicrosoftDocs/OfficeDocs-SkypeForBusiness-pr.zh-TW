@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 針對嚴重損壞修復，商務用 Skype Server 提供集區配對與容錯移轉，以防一個集區中斷。
-ms.openlocfilehash: a7e658e10718ac45ee6c2122433137ac4a198a459baa0171aec2453963636d32
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 728419a20fe99db004b739e599355c9b64a8844f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276624"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603832"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>商務用 Skype Server 中的前端集區災害復原
  

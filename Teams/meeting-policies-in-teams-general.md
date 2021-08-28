@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理一般Teams。
-ms.openlocfilehash: e9e38f724d5327ed54bad8098c1f7fae0c300e34
-ms.sourcegitcommit: 3650579196d5f340ef32b31ba975285e08ab1848
+ms.openlocfilehash: 72cfbc77b6abcf264ddf96f66d3726031a2e31cb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58392920"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589675"
 ---
 # <a name="meeting-policy-settings---general"></a>會議原則設定 - 一般
 
@@ -45,7 +45,7 @@ ms.locfileid: "58392920"
 
 ## <a name="allow-meet-now-in-channels"></a>允許在頻道中立即開會
 
-這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在頻道中Teams會議。 如果您開啟此功能，使用者可以按一下 [開會>按鈕，開始臨時會議或在頻道中排程會議。 預設值為 True。
+這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在頻道中啟動Teams會議。 如果您開啟此功能，使用者可以按一下 [開會>按鈕，開始臨時會議或在頻道中排程會議。 預設值為 True。
 
 [![顯示訊息下方的現在開會圖示的螢幕擷取畫面 ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
@@ -98,7 +98,7 @@ ms.locfileid: "58392920"
 
 這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在 Teams 中排程私人會議。 當會議未發佈到小組中的頻道時，會議是私人的。
 
-請注意，如果您 **關閉允許排** 程私人會議和允許頻道會議排程，系統即會針對使用者停用新增必要的出席者及新增Teams。  此設定預設會開啟。
+請注意，如果您 **關閉允許排** 程私人會議和允許頻道會議排程，系統會針對使用者停用新增必要的出席者及新增Teams。  此設定預設會開啟。
 
 ## <a name="allow-meet-now-in-private-meetings"></a>允許在私人會議中立即開會
 
@@ -120,7 +120,7 @@ ms.locfileid: "58392920"
 
 請記住，在您設定預設值之後，會議召集人仍然可以在 Teams 中變更此設定，並選擇誰可以在其排程的會議中簡報。
 
-## <a name="allow-engagement-report"></a>允許參與報告
+## <a name="allow-engagement-report"></a>允許互動報告
 
 這是每一使用者原則。 此設定會控制會議召集人是否可以下載[會議出席報告](teams-analytics-and-reports/meeting-attendance-report.md)。
 
@@ -134,7 +134,7 @@ ms.locfileid: "58392920"
 
 ## <a name="allow-meeting-registration"></a>允許會議註冊
 
-這是每一使用者原則。 如果您開啟此功能，貴組織中使用者可以設定網路研討會。 此策略預設為啟用。
+這是每一使用者原則。 如果您開啟此功能，貴組織的使用者可以設定網路研討會。 此策略預設為啟用。
 
 若要在系統管理中心編輯Teams，請前往 **會議**  >  **會議政策**。 若要關閉會議註冊，請設定為關閉 **。**
 
@@ -148,10 +148,10 @@ ms.locfileid: "58392920"
 
 此政策會控制哪些使用者可以註冊並參加網路研討會。 此政策有兩個選項，只有在開啟允許會議註冊 **時才能** 使用。
 
-- 若要 **神秘** 允許每個人 ，包括匿名使用者，註冊並參加貴組織中使用者所設定之網路研討會，請設定為每個人都可以註冊。
+- 若要 **神秘** 允許所有人 ，包括匿名使用者，註冊並參加貴組織中使用者所設定之網路研討會，則設定可註冊至所有人。
 - 如果您 **神秘** 只允許貴組織的使用者註冊並參加網路研討會，請設定為可以註冊至組織的所有人。
 
-根據預設 **，神秘可以註冊** 設定為 **。。** 若要在系統管理中心編輯Teams，請前往 **會議**  >  **會議政策**。
+根據預設 **，神秘可以** 註冊設為 **。。** 若要在系統管理中心編輯Teams，請前往 **會議**  >  **會議政策**。
 
 您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的 Teams 會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，並將它指派給使用者。
 

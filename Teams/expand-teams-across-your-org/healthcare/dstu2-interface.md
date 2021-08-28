@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -19,12 +19,12 @@ ms.reviewer: anach
 description: 瞭解 DSTU2 介面規格Teams，包括設定或重設 FHIR 伺服器以使用 Microsoft Teams App。
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8ec2b1a88d99937e83bc8553f7dbcdd8d92f78b5a8e5708301147a26f0cffe4a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d4b8e1d965cd3b0704885d6f86e376cfc3c9316
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308762"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589727"
 ---
 # <a name="dstu2-interface-specification"></a>DSTU2 介面規格
 
@@ -33,7 +33,7 @@ ms.locfileid: "54308762"
 >
 >使用清單，您的醫療保健組織照護小組可以針對各種案例建立病患清單，範圍從會診和跨學科小組會議到一般病患監視。 請查看清單中的病患範本以開始使用。 若要深入了解如何在組織中管理清單應用程式，請參閱[管理清單應用程式](../../manage-lists-app.md)。
 
-若要設定或重新設定 FHIR 伺服器以使用 Microsoft Teams病患應用程式，必須瞭解 App 需要存取哪些資料。 FHIR 伺服器必須使用下列資源套件支援 POST 要求：
+設定或重新設定 FHIR 伺服器以使用 Microsoft Teams 病患應用程式時，必須瞭解應用程式需要存取哪些資料。 FHIR 伺服器必須使用下列資源套件支援 POST 要求：
 
 - [病人](#patient)
 - [觀察](#observation)
@@ -47,11 +47,11 @@ ms.locfileid: "54308762"
 > [!NOTE]
 > 病患資源是唯一的 (資源，沒有這個資源，應用程式就完全無法載入。 不過，建議合作夥伴針對以下提供的規格，針對上述所有資源執行支援，以在病患應用程式中獲得最佳Microsoft Teams體驗。
 
-從 Microsoft Teams App 查詢多個資源時，會張貼 (BATCH) 到 FHIR 伺服器 URL 的要求。 伺服器會處理每個要求，並回報每個要求相符的資源組合。 有關詳細資訊和範例，請參閱 [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) 。
+從 Microsoft Teams App 查詢多個資源後， (BATCH) 要求到 FHIR 伺服器的 URL。 伺服器會處理每個要求，並回報每個要求相符的資源組合。 如要詳細資訊和範例，請參閱 [https://www.hl7.org/fhir/DSTU2/http.html#transaction](https://www.hl7.org/fhir/DSTU2/http.html#transaction) 。
 
 下列所有 FHIR 資源都應該可由直接資源參照來訪問。
 
-## <a name="conformance-minimum-required-field-set"></a>符合最低要求的欄位集
+## <a name="conformance-minimum-required-field-set"></a>符合最低要求欄位集
 
  FHIR Server 必須實做一致性聲明，以便我們以事實摘要說明其功能。 我們預期 DSTU2 FHIR Server 中的下列參數：
 
@@ -124,7 +124,7 @@ ms.locfileid: "54308762"
 資源搜尋使用 /Patient/_search的 POST 方法，以及下列參數：
 
  - Id
- - family：contains= (搜尋所有姓氏包含值) 
+ - family：contains= (搜尋所有其姓氏包含值) 
  - given=\<substring>
  - name=\<substring>
  - birthdate= (完全相符) 
@@ -182,7 +182,7 @@ Response:
 
 這些是最小必要欄位，這是 Argonaut 生命符號設定檔的子集：
 
- - 自 (日期時間或期間起) 
+ -  (日期時間或期間) 
  - Code.Code.Code
  - ValueQuantity.Value
 
@@ -198,7 +198,7 @@ Response:
  - patient=\<patient id\>
  - sort：desc=\<field ex. date\>
 
-目標是要能夠針對病患 ，[VitalSigns.DSTU.saz] 和觀察結果？ (最新的生命) 。
+目的是要能夠針對病患 ，[VitalSigns.DSTU.saz] 或觀察結果 (最新的) 。
 
 ```
 Request:
@@ -428,8 +428,8 @@ Response:
 這些是最小必要欄位，這是 Argonaut MedicationOrder 設定檔的子集：
 
  - DateWritten
- - 建議器.Display
- - Medication.display (參考) 
+ - 指定器.Display
+ - 藥物。 (顯示) 
  - Medication.text (概念) 
 
 除了 Argonaut 欄位之外，為了獲得出色的使用者體驗，病患應用程式也可以讀取下欄欄位：

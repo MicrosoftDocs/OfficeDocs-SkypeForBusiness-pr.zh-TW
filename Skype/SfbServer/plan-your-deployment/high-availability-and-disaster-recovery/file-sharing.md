@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: 瞭解使用 DFS，以確保商務用 Skype Server 中檔案共用的高可用性。
-ms.openlocfilehash: c707a1049bf1c54302c4dde270856379e4731fd4e23b1e886b3144445b4e2aaf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6abdf9656ddca5148c9b04c6dbe11cdc5da7e840
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337761"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603812"
 ---
 # <a name="file-sharing-high-availability-in-skype-for-business-server"></a>檔共用的高可用性商務用 Skype Server
  

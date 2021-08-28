@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: 使用 ELIN 閘道為 E9-1-1 的部署規劃位置資訊資料庫或類似的外部資料庫，在商務用 Skype Server 企業語音中所需的決策。
-ms.openlocfilehash: e3843735006460792f414e685c15552c54a64e1c7896b02b1b0922b31a84e106
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb0656909866a793bc8d64635b17785020dd646d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323075"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596503"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>在商務用 Skype Server 中管理 ELIN 閘道的位置
 
@@ -62,10 +62,10 @@ ms.locfileid: "54323075"
 
 **範例位置和 ELIN 指派**
 
-|**組建區域**|**位置**|**愛琳**|
+|**組建區域**|**Location**|**愛琳**|
 |:-----|:-----|:-----|
-|第一層  <br/> |1  <br/> |425-555-0100  <br/> |
-|第二個基底  <br/> |第  <br/> |425-555-0111  <br/> |
+|第一層  <br/> |1   <br/> |425-555-0100  <br/> |
+|第二個基底  <br/> |2   <br/> |425-555-0111  <br/> |
 |第三個地板  <br/> |3   <br/> |425-555-0123  <br/> |
 
 您定義的位置應符合下列需求：

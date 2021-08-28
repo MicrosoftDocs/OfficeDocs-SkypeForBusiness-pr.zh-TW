@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 信任的應用程式是以 Microsoft 整合通訊 Managed API (UCMA) 3.0 核心 SDK 為基礎的應用程式，該應用程式是由商務用 Skype Server 所信任。
-ms.openlocfilehash: f01ac47641dac417efc57b91d59ce3b6ef1c006f273ce41c29eae675db5129eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef03aa21b64ec305829ed5da8ef84a0d5b8bfd92
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351693"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596557"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>在商務用 Skype Server 中管理信任的應用程式
 
@@ -84,24 +84,21 @@ ms.locfileid: "54351693"
 
 若要查看您的所有信任的應用程式，請在商務用 Skype Server 管理命令介面中輸入下列命令，然後按 enter：
     
-        Get-CsConferenceDisclaimer
+   **Get-CsConferenceDisclaimer**
     
    對於各個信任的應用程式，這個命令將傳回類似下列的資訊：
     
-        Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
-                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
-        RegistrarPool          : 487279971
-        HomeServer             : CN=Lc Services,CN=Microsoft,CN=co1:2,CN=Pools,CN=RTC
-                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
-        OwnerUrn               : urn:application:helpdesk
-        SipAddress             : sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com
-        DisplayName            :
-        DisplayNumber          :
-        LineURI                :
-        PrimaryLanguage        : 0
-        SecondaryLanguages     : {}
-        EnterpriseVoiceEnabled : True
-        ExUmEnabled            : False
-        Enabled                : True
+   Identity： CN = {5dedf4b0-a590-49b3-80cf-f16f914bbef9}，CN = Application Contacts，CN = RTC Service，CN=Services，CN=Configuration，DC = litware，DC=com<br/>
+   RegistrarPool：487279971<br/>
+   HomeServer： CN = Lc Services，CN=Microsoft，CN = co1：2，CN = Pool，CN = RTC Service，CN=Services，CN=Configuration，DC = litware，DC=com OwnerUrn： urn： application：<br/>
+   SipAddress： sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com<br/>
+   DisplayName：<br/>
+   DisplayNumber：<br/>
+   LineURI<br/>
+   PrimaryLanguage：0<br/>
+   SecondaryLanguages： {}<br/>
+   EnterpriseVoiceEnabled： True<br/>
+   ExUmEnabled： False<br/>
+   Enabled： True<br/>
     
    如需詳細資訊，請參閱＜[Get-CsTrustedApplication](/powershell/module/skype/Get-CsTrustedApplication)＞。

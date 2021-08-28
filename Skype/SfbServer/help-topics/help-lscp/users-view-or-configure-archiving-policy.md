@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.UserViewArch
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: b1773ec6d6e8f7da8ba41e70ed704b72228658ad93caddff17908181ba836a63
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eaa117ad4334bc0002192e18e23f0e38542fedd7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311121"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623955"
 ---
 # <a name="users-view-or-configure-archiving-policy"></a>使用者：檢視或設定封存原則
 

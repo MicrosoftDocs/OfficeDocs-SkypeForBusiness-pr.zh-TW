@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解撥打美國免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
-ms.openlocfilehash: b46823d7ee88b980e1da3babb6aaa6e54384e8348ebe9b17d54f29e2a77a2394
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7513bd868b5c61735869a009c5570134c5545096
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335823"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589503"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-unites-states"></a>統一州免付費撥號限制
 
@@ -49,14 +49,14 @@ ms.locfileid: "54335823"
 > **撥號格式**：
 >
 > - 800-389 是特殊專案，且適用于巴哈群島
-> - 800-534 是特殊專案，而適用于巴布達
+> - 800-534 是特殊專案，適用于巴布達
 > - 800-623 為特殊，且適用于百慕達
 > - 800-415 或 907 或 751 適用于 Dom Republic
 > - 800-271 是特殊的，且適用于立達
 > - 800-555 是聽障線範圍
 
 > [!IMPORTANT]
-> **北美號碼方案免付費號碼**：北美號碼方案免付費號碼的每分鐘費率是由來源國家/地區決定。 從美國撥打的免付費每分鐘費率，會與定義為「北美」的費率進行比對。 不過，來自其他北美國家 ，例如加拿大、波多黎各等的通話有特定的免付費費率。
+> **北美號碼方案免** 付費號碼：北美號碼方案免付費號碼的每分鐘費率是由來源國家/地區決定。 從美國撥打的免付費每分鐘費率，會與定義為「北美」的費率進行比對。 不過，來自加拿大、波多黎各等其他北美國家/地區的通話有特定的免付費費率。
 
 ## <a name="related-topics"></a>相關主題
 

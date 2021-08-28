@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此節點顯示集區的完整網域名稱 (FQDN) 與此 Edge 集區的其他基本設定。您可以執行下列動作：
-ms.openlocfilehash: fa03fd60ca6bc0efe7a8baa9089f8a0f8bf90ed1d7cc95cd3ad4c5078e258fdb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dbd5201860f7173590b191e50bdf4ff201f07163
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311811"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616789"
 ---
 # <a name="edge-server-scope-node"></a>Edge Server 範圍節點
  

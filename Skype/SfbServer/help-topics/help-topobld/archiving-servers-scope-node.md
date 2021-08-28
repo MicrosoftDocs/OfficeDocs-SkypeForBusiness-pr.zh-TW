@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ArchivingServersScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 description: 在 [拓撲產生器] 中，您可以執行與個別封存伺服器相關的工作，方法是在主控台樹中，以滑鼠右鍵按一下 [封存伺服器]，按一下工具列中的 [動作]，或是按一下 [動作] 窗格中的工作，再按一下下列封存伺服器選項。
-ms.openlocfilehash: add77a823e4ca17ce51828959b1b3b402693463dcf77be58f873d13bbfb1fb36
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f134aec2155fb574828e4c5389e43ab8569ca874
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320415"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603982"
 ---
 # <a name="archiving-servers-scope-node"></a>封存伺服器範圍節點
  

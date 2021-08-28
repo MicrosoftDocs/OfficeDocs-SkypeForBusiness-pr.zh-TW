@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientPushNotificationCfgMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: 若要設定 Microsoft 推播通知和 Apple 推播通知，您必須建立原則來定義您需要的推播通知類型。
-ms.openlocfilehash: 2b018a6274d3e6a446a8bace17259ecf515423733c972b702c6413adec67167a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 20b7602abc518f68b0ecb7866b99025fca8cb543
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320595"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595827"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>行動用戶端：推播通知設定
  
