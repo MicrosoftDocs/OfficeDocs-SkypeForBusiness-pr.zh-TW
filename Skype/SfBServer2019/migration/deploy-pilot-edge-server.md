@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 本主題強調在部署商務用 Skype Server 2019 Edge Server 之前，應注意的設定設定。 商務用 Skype Server 2019 的部署和設定程式非常類似商務用 Skype Server 2015。 本節只著重在部署試驗集區時應該考量的要點。 如需詳細步驟，請參閱部署檔中的商務用 Skype Server 2019 部署外部使用者存取，它會說明部署程式，也會提供外部使用者存取的設定資訊。
-ms.openlocfilehash: 24202bc84be67453eeff321b268f44769d5b11a8eafcd6d93098db7c7b8537fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c76d517bd5130c2babc41e0072ae7450b9838a64
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315079"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615007"
 ---
 # <a name="deploy-pilot-edge-server"></a>部署試驗 Edge Server
 

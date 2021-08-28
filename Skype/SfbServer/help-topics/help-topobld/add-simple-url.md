@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddSimpleUrlPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: 若要將其他簡單 URL 新增至部署的定義，請指定新簡單 URL 的 URL。
-ms.openlocfilehash: a85f5268e6d66b06ae1110d1a00004535bb12da7c70f131dbd09026e37106857
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a91fee84df2442c11c71a5760fba57b39b44255c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299590"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634407"
 ---
 # <a name="add-simple-url"></a>新增簡單 URL
  

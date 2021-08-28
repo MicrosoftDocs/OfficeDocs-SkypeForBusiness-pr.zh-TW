@@ -9,9 +9,9 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何使用系統管理中心提供預先定義的設定、頻道和預先安裝的應用程式，以使用一般小組範本建立小組結構。
+description: 瞭解如何使用系統管理中心提供預先定義的設定、頻道和預先安裝的 App，以使用一般小組範本建立小組結構。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c68e3efd00e0f9204f507b4c63977837076bb3beb75a958a0629f1e5da64f69e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3427a14da3d994b10bf8d83f5d03f76769401670
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344026"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634047"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>在系統管理中心使用一般小組範本
 
@@ -45,12 +45,12 @@ ms.locfileid: "54344026"
 > [!div class="mx-tdBreakAll"]
 > | 範本類型 |baseTemplateId| 此基本範本提供的屬性 |
 > | ------------------ |--|----------------------------------------------------------|
-> | 在全球危機或事件上共同合作 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` | 頻道： <ul><li>一般<li>公告</li><li>世界新聞</li><li>業務連續性</li><li>外部通訊</li><li>核准要求</li><li>遠端工作</li><li>內部通訊</li><li>外部通訊</li><li>客戶抱怨</li><li>榮譽</li><li>主管更新</li></ul>應用程式： <ul><li>稱讚</li><li>Wiki</li><li>網站</li><li>Planner</li></ul>|
+> | 在全球危機或事件上共同合作 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` | 頻道： <ul><li>一般<li>公告</li><li>世界新訊</li><li>業務連續性</li><li>外部通訊</li><li>核准要求</li><li>遠端工作</li><li>內部通訊</li><li>外部通訊</li><li>客戶抱怨</li><li>榮譽</li><li>主管更新</li></ul>應用程式： <ul><li>稱讚</li><li>Wiki</li><li>網站</li><li>Planner</li></ul>|
 > ||||
 
 ## <a name="adopt-office-365"></a>採用Office 365
 
-宣傳並協助您的同儕使用新技術，協助建立、成長及維持您的支援者社群推出。
+宣傳並協助您的同儕使用新技術，協助建立、成長及維持您的冠軍社群推出。
 
 > [!div class="mx-tdBreakAll"]
 > | 範本類型 |baseTemplateId| 此基本範本提供的屬性 |
@@ -72,7 +72,7 @@ ms.locfileid: "54344026"
 
 管理工作、檔和共同作業，處理您所需的一切，以舉辦引人注目的活動。 邀請來賓使用者在公司內外安全地共同合作。
 
-根據應用程式權限原則，您可能無法存取特定應用程式。
+根據應用程式許可權政策，您可能無法存取特定應用程式。
 
 > [!div class="mx-tdBreakAll"]
 > | 範本類型 | baseTemplateId| 此基本範本提供的屬性 |

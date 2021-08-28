@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 這可協助您瞭解如何撥打每個國家/地區的免付費號碼。 選取國家/地區之後，它會將您帶至特定國家/地區頁面，其中包含免付費服務可用之免付費服務的特定詳細資料、限制和限制。 撥號格式或格式會顯示每個國家/地區撥打免付費號碼所需的存取碼。
-ms.openlocfilehash: 7bdc0594076f4eddbd3e35e71d57e324047522de15e1f423f8ca3ccda06c76bb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a13e1adabc3a587e8e107e83f6f26dad31849e1c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350315"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615159"
 ---
 # <a name="toll-free-dialing-restrictions-in-cyprus"></a>在賽普勒斯免付費撥號限制
 

@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 系統管理員可以瞭解監控系統品質及使用方式所需的工作Microsoft Teams。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f082f0fdfe7217025a8b9124e4445f35168ffeb413e14ed68a1c9af098ab4bfb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b4bb596cd7903ec7ff9afdecac1436b4b4e2653c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345970"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633937"
 ---
 # <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南
 
@@ -35,9 +35,9 @@ ms.locfileid: "54345970"
 
 ## <a name="improve-and-monitor-call-quality"></a>改善及監控通話品質
 
-[改善及](monitor-call-quality-qos.md)監控Teams包括一組活動，評估及提供對改善使用者體驗影響最大之關鍵地區的補救指引，如下圖所示。
+[改善及](monitor-call-quality-qos.md)監控通話品質Teams包括一組活動，評估及提供對改善使用者體驗影響最大之關鍵地區的補救指引，如下圖所示。
 
-![在審查期間要檢查的重要區域圖例。](media/plan-my-service-management-image2.png "在體驗品質檢閱期間要檢查的重要區域：音訊、可靠性及使用者問卷結果。")
+![在審查期間要檢查的重要區域圖例。](media/plan-my-service-management-image2.png "在體驗品質檢閱期間要檢查的主要領域：音訊、可靠性及使用者問卷結果。")
 
 您可以持續評估及補救指南所述區域，以降低其潛在性，對使用者體驗造成負面影響。 部署中遇到的大多數使用者體驗問題可以分成下列類別：
 
@@ -47,7 +47,7 @@ ms.locfileid: "54345970"
 
 - 頻寬不足
 
-- Vpn
+- VPN
 
 - 使用非初始化或內建的音訊裝置
 

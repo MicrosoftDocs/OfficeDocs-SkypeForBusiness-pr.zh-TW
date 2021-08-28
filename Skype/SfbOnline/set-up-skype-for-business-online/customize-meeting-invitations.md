@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,18 +21,18 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: '使用Skype標誌、說明和法律 URL 及頁腳文字自訂會議邀請。 '
-ms.openlocfilehash: c7c642d13eb2e0ac76d4565a977faebe08c52b378f50e1e5193486002056c4ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 14a544d5a28fc9a0b64cda573245f2e232e0d901
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306176"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614935"
 ---
 # <a name="customize-meeting-invitations"></a>自訂會議邀請
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-做為系統管理員，您可以確保所有 商務用 Skype 會議邀請包含使用者可能需要的一些實用資訊，例如支援網站與法律免責聲明的連結、公司標誌，以及您想要包含的其他文字。 
+做為系統管理員，您可以確保所有 商務用 Skype 會議邀請包含使用者可能需要的實用資訊，例如支援網站與法律免責聲明的連結、公司標誌，以及您想要包含的其他文字。 
   
 ## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>建立會議邀請標誌的秘訣
 <a name="__top"> </a>
@@ -43,7 +43,7 @@ ms.locfileid: "54306176"
     
 3. 將影像儲存在企業中每個人都能存取的中央位置，例如網路共用、共用商務用 OneDrive資料夾、Dropbox等。
     
-    現在您可以將它新增至會議邀請。 請參閱後續的步驟。
+    現在您可以將其新增至會議邀請。請參閱後續步驟。
     
 ## <a name="customize-your-meeting-invitations"></a>自訂您的會議邀請
 <a name="__top"> </a>
@@ -52,7 +52,7 @@ ms.locfileid: "54306176"
 
 1. 使用公司或學校帳戶來登錄。
     
-2. 從系統管理中心選擇系統 **管理中心**  >  **商務用 Skype。**
+2. 從系統管理中心，選擇系統 **管理**  >  **中心商務用 Skype。**
     
 3. 在系統管理商務用 Skype，選擇 **線上會議**。 
     
@@ -71,7 +71,7 @@ ms.locfileid: "54306176"
    
 5. 選擇 **儲存**。
     
-6. 等候一小時左右，讓變更在所有服務或Microsoft 365 Office 365填中。 接著，前往Outlook並排程Skype會議，以查看您的變更外觀。 
+6. 等候一小時左右，讓變更在所有服務或Microsoft 365 Office 365填中。 接著，前往 Outlook並排程Skype會議，以查看您的變更外觀。 
     
     ![以下是自訂邀請的外觀，不含圖形](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   

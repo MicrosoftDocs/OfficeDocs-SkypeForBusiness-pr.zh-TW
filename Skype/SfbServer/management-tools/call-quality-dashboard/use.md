@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 摘要：瞭解如何使用 [通話品質] 儀表板。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: a2f5cbe503f914fe32b42119397be44ab82617cddd9951ab7064a2d08c0289f4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 398550c80e77950d27be9160dd4f45c2f04acfff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317578"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634237"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>使用商務用 Skype Server 的通話品質儀表板
 
@@ -222,7 +222,7 @@ CQD 不使用來電者/被叫用方欄位，而是使用 "First" 和 "Second"，
 
 - 測量
 - 維度
-- 篩選器
+- 篩選
 
 例如，格式正確的查詢將會是「使用子網的「顯示不良資料流程」（Dimension）」（Filter）。
 

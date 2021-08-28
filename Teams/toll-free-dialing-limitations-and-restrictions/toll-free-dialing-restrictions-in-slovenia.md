@@ -1,5 +1,5 @@
 ---
-title: 斯洛維尼亞的免付費撥號限制
+title: 斯洛維尼亞免付費撥號限制
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,21 +16,21 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 這可協助您瞭解如何撥打每個國家/地區的免付費號碼。 選取國家/地區之後，它會將您帶至特定國家/地區頁面，其中包含免付費服務可用之免付費服務的特定詳細資料、限制和限制。 撥號格式或格式會顯示每個國家/地區撥打免付費號碼所需的存取碼。
-ms.openlocfilehash: bbcb117e2392f403df34d9b5a98565cf6f14d066f327a8321b8a6e3c9577cc70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2495ce6a6fc5be8ba068d0354109060d656cb314
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350265"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615149"
 ---
-# <a name="toll-free-dialing-restrictions-in-slovenia"></a>斯洛維尼亞的免付費撥號限制
+# <a name="toll-free-dialing-restrictions-in-slovenia"></a>斯洛維尼亞免付費撥號限制
 
 [尋找其他國家/地區](../toll-free-dialing-limitations-and-restrictions.md)，或深入瞭解免付費撥號限制與限制。
 

@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: 瞭解 Microsoft Online 的商務用 Skype方案，以及 Microsoft 如何協助客戶遷移到 Teams。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_JourneyFromSfB
@@ -18,32 +18,32 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 53eada98b5a52e5e943731e0037a064f37e50bd2
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 46bdd1c8e045d7046850cf7178e5682bc686b29d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372023"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615179"
 ---
 # <a name="skype-for-business-online-retirement"></a>終止對商務用 Skype Online 的支援
 
-2019 年 7 月，我們宣佈 商務用 Skype Online 將于 **2021** 年 7 月 31 日停用，讓我們的客戶有兩年規劃升級至 Microsoft 365 中通訊和共同合作的核心應用程式 Microsoft Teams。 由於 商務用 Skype Online 已停用，我們想要確保客戶擁有規劃並執行成功升級至 Teams 所需的資訊和資源。
+2019 年 7 月，我們宣佈 商務用 Skype Online 將于 **2021** 年 7 月 31 日停用，讓我們的客戶有兩年規劃升級至 Microsoft 365 中通訊和共同處理的核心應用程式 Microsoft Teams。 由於 商務用 Skype Online 已停用，我們想要確保客戶擁有規劃並執行成功升級至 Teams 所需的資訊和資源。
 
 ## <a name="why-is-skype-for-business-online-retiring"></a>為什麼線上商務用 Skype淘汰？
 
-自推出以來，商務用 Skype Online 一直是全球數百萬人的寶貴工具。 將立即訊息、通話和視訊合併成一個應用程式，商務用 Skype Online 為商務通訊建立了新的可能性。 Microsoft Teams是該願景的下一章。
+自推出以來，商務用 Skype Online 一直是全球數百萬人的寶貴工具。 將立即訊息、通話和視訊合併到單一應用程式中，商務用 Skype Online 為商務通訊建立了新的可能性。 Microsoft Teams是該願景的下一章。
 
-除了線上Microsoft Teams之外，商務用 Skype功能。 將聊天、視訊、通話、檔共同合作和應用程式整合結合到單一體驗，Teams提供全新的工作方式。 而持續平臺創新與開發Teams使用者受益于更豐富的性能、功能、彈性和安全性。
+除了線上Microsoft Teams之外，商務用 Skype功能。 將聊天、視訊、通話、檔共同合作及應用程式整合合併成單一體驗，Teams提供全新的工作方式。 而持續平臺創新與開發Teams讓使用者受益于更豐富的性能、功能、彈性和安全性。
 
-Teams不只是 商務用 Skype Online 的升級，也是一項功能強大的工具，可讓公司、學校和組織變得更敏捷，並提升關鍵工作流程的效率。 若要深入瞭解組織Teams之潛在效益，請于 Microsoft Teams 的 Forrester 白皮書中™經濟[影響Microsoft Teams。](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1)
+Teams不只是 商務用 Skype Online 的升級，也是一項功能強大的工具，可讓公司、學校和組織變得更加敏捷，並提升關鍵工作流程的效率。 在 Forrester 白皮書中，深入瞭解 Teams 企業對組織的潛在[™影響](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1)Microsoft Teams。
 
-若要進一步瞭解線上商務用 Skype，請參閱常見問題 - 從 商務用 Skype[升級到 Microsoft Teams。](FAQ-journey.yml)
+若要進一步瞭解線上商務用 Skype，請參閱常見問題 - 從 商務用 Skype 升級至[Microsoft Teams。](FAQ-journey.yml)
 
 ## <a name="what-this-means-for-skype-for-business-customers"></a>這對客戶商務用 Skype代表什麼
 
-在 商務用 Skype 2021 年 7 月 31 日停用 Online 之後，服務將無法再使用。 在那之前，目前商務用 Skype Online 客戶不會在服務上發生任何變更。 自 2019 年 9 月 1 日Microsoft 365，所有新客戶都直接Teams聊天、會議和通話。
+在 商務用 Skype 2021 年 7 月 31 日停用之後，服務將無法再使用。 在那之前，目前商務用 Skype Online 客戶不會在服務上發生任何變更。 自 2019 年 9 月 1 Microsoft 365起，所有新客戶都直接Teams聊天、會議和通話。
 
-完全升級至 Teams所需時間會視組織的獨特特性而不同，包括使用者數目、技術複雜度，以及變更的內部適適性。 我們強烈建議您立即開始升級至 Teams版本。 從今天開始升級，您將有足夠的時間在停用日期之前完成升級。 從 8 月開始，Microsoft 會提供輔助升級程式，協助您將線上商務用 Skype使用者移至Teams程式。
+完全升級至 Teams所需時間會根據組織的獨特特性而有所差異，包括使用者數量、技術複雜度和內部可變更的適適性。 我們強烈建議您立即開始升級至Teams版本。 從今天開始升級，您將有足夠的時間在停用日期之前完成升級。 從 8 月開始，Microsoft 會提供輔助升級程式，協助您將線上使用者的剩餘商務用 Skype移Teams使用。
 
 Teams大部分商務Microsoft 365方案Enterprise，而您現有的授權投資會繼續Teams。 目前在商務用 Skype Online 中是進階工作負載的功能，在 Teams 中依然是進階工作負載。 例如，如果您已獨立購買音訊會議，或作為 E5 的一商務用 Skype，音訊會議將在 Teams 中啟用。
 
@@ -75,16 +75,16 @@ Skype消費者服務商務用 Skype Server服務與服務不受線上商務用 S
 
 ## <a name="what-to-expect-post-retirement"></a>退休後預期的結果
 
-Microsoft 將在停用時，為商務用 Skype線上使用者提供Teams升級。 客戶將在系統管理中心Teams和 Microsoft 365 訊息中心收到通知，比他們排定的升級日期提前 90 天，以便進行技術和使用者準備。
+Microsoft 將在停用時，為商務用 Skype線上使用者提供Teams升級。 客戶將在系統管理中心Teams和 Microsoft 365 訊息中心收到通知，比排定的升級日期提前 90 天，以便進行技術和使用者準備。
 
-輔助升級完成之後，所有線上使用者都會Teams模式。 在僅Teams模式中的使用者會收到傳入的聊天和通話，並排程會議，Teams。 在 Teams 模式的使用者將無法在線上啟動聊天或通話或商務用 Skype會議。 Teams只有使用者仍然可以加入商務用 Skype使用者排定的會議商務用 Skype Server。
+輔助升級完成之後，所有線上使用者都會Teams模式。 在僅Teams模式中，使用者會收到傳入的聊天和通話，並排程會議，Teams。 在 Teams模式的使用者將無法在線上啟動聊天或通話或商務用 Skype會議。 Teams只有使用者仍然可以加入商務用 Skype使用者排定的會議商務用 Skype Server。
 
 詳細資訊，請參閱從 商務用 Skype [Online Microsoft Teams。](upgrade-assisted.md)
 
 ## <a name="what-organizations-with-hybrid-configurations-skype-for-business-online-and-on-premises-skype-for-business-server-can-expect-when-skype-for-business-online-retires"></a>使用混合式 (商務用 Skype Online 和內部部署商務用 Skype Server) 當 Online 淘汰時商務用 Skype哪些組織
 
-在 2021 年 7 月 31 日停用日期之前，需要使用線上和內部部署配置的混合式客戶，才能將線上使用者從 商務用 Skype Online 升級至 Microsoft Teams。 Microsoft 將提供輔助升級，協助將線上商務用 Skype使用者的剩餘Teams在停用日期之後升級至僅使用模式。
+在 2021 年 7 月 31 日停用日期之前，需要使用線上和內部部署配置的混合式客戶，才能將線上使用者從 商務用 Skype Online 升級至 Microsoft Teams。 Microsoft 將提供輔助升級，以協助將線上商務用 Skype使用者的剩餘Teams在停用日期之後升級至僅使用模式。
 
-混合式組商務用 Skype組織商務用 Skype並Teams並排使用，直到他們準備好要移至 Teams 模式。 在 商務用 Skype Online 的停用日期之後，商務用 Skype Server使用者移至雲端時，該使用者會進入 Teams模式。
+混合式組商務用 Skype組織Teams並排使用，直到他們準備好移至 Teams 模式。 在 商務用 Skype Online 的停用日期之後，當商務用 Skype Server使用者移至雲端時，該使用者會進入 Teams 模式。
 
 詳細資訊，請參閱即將停用 商務用 Skype [Online](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online)。

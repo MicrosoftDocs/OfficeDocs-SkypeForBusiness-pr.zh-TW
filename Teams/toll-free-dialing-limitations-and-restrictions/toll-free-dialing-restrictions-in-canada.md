@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解撥打加拿大免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
-ms.openlocfilehash: c3b39e327780e2a949a51eb85473714a1875a39a4e80f636bb234140bfedd710
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f9e81f30454d81126dd5db79b8793fda2bc00c14
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339341"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633947"
 ---
 # <a name="toll-free-dialing-restrictions-in-canada"></a>加拿大免付費撥號限制
 
@@ -49,7 +49,7 @@ ms.locfileid: "54339341"
 > **撥號格式**：
 >
 > - 800-389 是特殊專案，且適用于巴哈群島
-> - 800-534 是特殊專案，而適用于巴布達
+> - 800-534 是特殊專案，適用于巴布達
 > - 800-623 為特殊，且適用于百慕達
 > - 800-415 或 907 或 751 適用于 Dom Republic
 > - 800-271 是特殊的，且適用于立達

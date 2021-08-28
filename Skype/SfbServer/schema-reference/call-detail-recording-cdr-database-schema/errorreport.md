@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: ErrorReport 表儲存發生錯誤的相關資訊。 每個記錄是一個錯誤發生。 這兩個錯誤是由前端伺服器上執行的 CDR 代理程式所捕獲，或是從用戶端傳送。
-ms.openlocfilehash: 1cac143f50e361598c7985aa585485bd73c9aa79d3b47bd21fb0b70e75b9377e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d2fccd6f1f99884e9d4412cb9814f24d581248a5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303676"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634177"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 ErrorReport 表格
  

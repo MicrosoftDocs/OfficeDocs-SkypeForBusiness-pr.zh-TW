@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 商務用 Skype Server 2019 遷移所需的第一步是部署試驗集區。 試驗集區是您使用舊版部署來測試商務用 Skype Server 2019 共存的位置。 共存是一種暫時的狀態，會持續進行，直到您將所有使用者和集區移至商務用 Skype Server 2019 為止。
-ms.openlocfilehash: d7e02d1cb921f973d8851cfc3c8bbff0f3e81aa92f1945584ee94fa59a45e9ee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e69e42e95ce7d13d8da88e91d6f1c266d7449f7b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279601"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614987"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>部署商務用 Skype Server 2019 試驗集區
 

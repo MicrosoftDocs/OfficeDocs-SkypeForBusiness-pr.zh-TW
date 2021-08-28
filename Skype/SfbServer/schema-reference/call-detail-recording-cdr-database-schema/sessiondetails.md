@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
 description: 每筆記錄代表一個對等工作階段，可以是 VoIP 對 VoIP 電話、雙方 IM 工作階段或其他工作階段類型。 您可以對 Media 資料表執行表格加入，以找出此會話中所涉及的每個媒體的詳細資料。
-ms.openlocfilehash: eb47c87be69bfc9308c8c641c54a2173ba2ed03eeae7f7543ce6a5cbb97f7092
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 830e6e2266d77487848c4e49daeaa8462460c2dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284483"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615509"
 ---
 # <a name="sessiondetails-table"></a>SessionDetails 表格
  

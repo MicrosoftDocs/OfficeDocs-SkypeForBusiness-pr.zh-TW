@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是希臘Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: a62a7841dcdd6dfc3bf56670961209031cb744b4a85c25c9300d045c1a942787
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 73c62d7c7c3fbbf424e0575c479c5a13004f0ca7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349265"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615389"
 ---
 # <a name="availability-in-greece"></a>希臘的可用性
 

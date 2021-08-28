@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 摘要：在實施商務用 Skype Server 之前，請先複查埠使用方式考慮。
-ms.openlocfilehash: d2e3cf07dbdf7471cd1e2f535d619e8bece74ecc0a9f9e16d416b7cba46548c1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4e991d816ea00a51260b16d7af4cbe7e3f326688
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352621"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615579"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>伺服器的埠與通訊協定需求
  
@@ -154,7 +154,7 @@ ms.locfileid: "54352621"
 
 |元件|連接埠|Protocol (通訊協定)|附註|
 |:-----|:-----|:-----|:-----|
-|用戶端  |67/68  |Dhcp  |由商務用 Skype Server 用來尋找註冊機 FQDN (也就是，如果 DNS SRV 失敗，且未設定手動設定) 。  |
+|用戶端  |67/68  |DHCP  |由商務用 Skype Server 用來尋找註冊機 FQDN (也就是，如果 DNS SRV 失敗，且未設定手動設定) 。  |
 |用戶端  |443  |TCP (TLS)   |用於外部使用者存取的用戶端對伺服器 SIP 流量。  |
 |用戶端  |443  |TCP (PSOM/TLS)   |用於外部使用者存取 web 會議會話。  |
 |用戶端  |443  |TCP (STUN/MSTURN)   |用於外部使用者存取 A/V 會話和媒體 (TCP)   |
@@ -165,7 +165,7 @@ ms.locfileid: "54352621"
 |用戶端  |1024-65535 \*  |TCP/UDP  |影片埠範圍 (至少需要20個埠) 。  |
 |用戶端  |1024-65535 \*  |TCP  |對等檔案傳輸 (若為會議檔案傳輸，用戶端會使用 PSOM) 。  |
 |用戶端  |1024-65535 \*  |TCP  |應用程式共用。  |
-|Aastra 6721ip 公共區域電話  <br/> Aastra 6725ip 電話機  <br/> HP 4110 IP 電話 (公共區域電話)   <br/> HP 4120 IP 電話 (電話機)  <br/> Polycom CX500 IP 公共區域電話  <br/> Polycom CX600 IP 電話機  <br/> Polycom CX700 IP 服務台電話  <br/> Polycom CX3000 IP 會議電話  |67/68  |Dhcp  |由所列裝置使用以尋找商務用 Skype Server 憑證、布建 fqdn 和註冊機 FQDN。  |
+|Aastra 6721ip 公共區域電話  <br/> Aastra 6725ip 電話機  <br/> HP 4110 IP 電話 (公共區域電話)   <br/> HP 4120 IP 電話 (電話機)  <br/> Polycom CX500 IP 公共區域電話  <br/> Polycom CX600 IP 電話機  <br/> Polycom CX700 IP 服務台電話  <br/> Polycom CX3000 IP 會議電話  |67/68  |DHCP  |由所列裝置使用以尋找商務用 Skype Server 憑證、布建 fqdn 和註冊機 FQDN。  |
    
 \* 若要設定這些媒體類型的特定埠，請使用 CsConferencingConfiguration Cmdlet (ClientMediaPortRangeEnabled、ClientMediaPort 及 ClientMediaPortRange 參數) 。
   

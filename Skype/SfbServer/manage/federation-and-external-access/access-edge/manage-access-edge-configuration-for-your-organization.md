@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 部署一或多部 Edge Server 之後，您必須透過您組織支援的 Edge Server，啟用外部網域或提供者存取的類型、遠端使用者存取和匿名使用者對會議的存取。
-ms.openlocfilehash: 08d29371284d6e23eec3115aad71e7c82352f7e3
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: af03dbd058884d0a09b5cb68c5f43e030c84fb06
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234378"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634327"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>管理貴組織的 Access Edge 設定
 

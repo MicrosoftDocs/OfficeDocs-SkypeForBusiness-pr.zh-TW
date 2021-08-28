@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: 閱讀此主題以瞭解如何規劃雲端連接器 Edition PSTN 網站，以確保有效且經濟划算的呼叫路由。
-ms.openlocfilehash: 51bc6c0b7bf536849ebc9d6b1338faa6db8800fee86c4515db4c5f15bf9115b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 54f8ec9f89c6a3ef88b5ac8e70e9eebfd2968d2d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339959"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616329"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>規劃 Cloud Connector Edition PSTN 網站
 

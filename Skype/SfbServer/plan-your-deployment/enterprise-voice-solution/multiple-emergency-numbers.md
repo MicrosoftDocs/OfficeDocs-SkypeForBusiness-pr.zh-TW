@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: 閱讀此主題以瞭解如何在商務用 Skype Server 中規劃多個緊急號碼。
-ms.openlocfilehash: 1db97627ef783e5fa69bb7a186940c589f4aae40039563c3155c7cb29d5166aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 06b65e889c4a1ae9badf84d3d6fc948405ed4db9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329547"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634227"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃多個緊急號碼
  

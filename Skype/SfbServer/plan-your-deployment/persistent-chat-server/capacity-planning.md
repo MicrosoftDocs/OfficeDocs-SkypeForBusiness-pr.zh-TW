@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 2015 中的持續性聊天伺服器容量規劃。
-ms.openlocfilehash: 3b21ce2fdcb05101fb5a3fe1641e766003733fb7675331dbb12c273b1c44d7e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 430bceb547be9208348d61dc919ddb463f2d5ca2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334834"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615569"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中規劃 Persistent Chat Server 的容量
  
@@ -88,8 +88,8 @@ Persistent Chat Server 可以執行可保留以供未來檢索及搜尋的多使
 |所有視聽中心聊天室中的使用者和使用者群組基礎實體  <br/> |0  <br/> |192  <br/> |50  <br/> ||
 |所有聊天室管理員清單中的使用者與使用者群組管理員實體  <br/> |192000  <br/> |6400  <br/> |60  <br/> ||
 |每個聊天室的作用中使用者數  <br/> |大約  <br/> |150  <br/> |16000  <br/> ||
-|每位使用者的聊天室數  <br/> |12   <br/> |第  <br/> |第  <br/> |16   <br/> |
-|每個聊天室的成員資格清單中的使用者群組  <br/> |10   <br/> |10   <br/> |8  <br/> ||
+|每位使用者的聊天室數  <br/> |12   <br/> |2   <br/> |2   <br/> |16   <br/> |
+|每個聊天室的成員資格清單中的使用者群組  <br/> |10   <br/> |10   <br/> |15   <br/> ||
 |以使用者群組管理的聊天室數  <br/> |50%  <br/> |50%  <br/> |50%  <br/> ||
 |所有聊天室的使用者群組型成員資格實體數  <br/> |155200  <br/> |5173  <br/> |68  <br/> ||
 |所有聊天室的使用者型成員資格實體數  <br/> |465600  <br/> |77600  <br/> |72000  <br/> ||
@@ -136,7 +136,7 @@ Persistent Chat Server 可以執行可保留以供未來檢索及搜尋的多使
 |每個會議室 (每日聊天速度)   <br/> |50  <br/> |500  <br/> |100  <br/> |650  <br/> |
 |所有會議室每秒 (的交談率)   <br/> |55.56  <br/> |18.52  <br/> |0.03  <br/> |74  <br/> |
 |模型 2-從每位使用者每天發佈的郵件數目開始  <br/> |||||
-|每天每位使用者的聊天室速度  <br/> |8  <br/> |5   <br/> |0.1  <br/> |共  <br/> |
+|每天每位使用者的聊天室速度  <br/> |15   <br/> |5   <br/> |0.1  <br/> |共  <br/> |
 |每個會議室 (每日聊天速度)   <br/> |38  <br/> |375  <br/> |800  <br/> |1213  <br/> |
 |所有會議室每秒 (的交談率)   <br/> |41.67  <br/> |13.89  <br/> |0.28  <br/> |56  <br/> |
    
@@ -159,8 +159,8 @@ Persistent Chat Server 可以執行可保留以供未來檢索及搜尋的多使
 |大型聊天室數  <br/> |10   <br/> |
 |每位使用者的聊天室總數  <br/> |16   <br/> |
 |每位使用者的小型聊天室數  <br/> |12   <br/> |
-|每位使用者的中型聊天室數  <br/> |第  <br/> |
-|每位使用者的大型聊天室數  <br/> |第  <br/> |
+|每位使用者的中型聊天室數  <br/> |2   <br/> |
+|每位使用者的大型聊天室數  <br/> |2   <br/> |
 |每位使用者加入的會議室數目  <br/> |24  <br/> |
 |尖峰加入速率  <br/> |10/秒  <br/> |
 |總聊天速率  <br/> |24/秒  <br/> |

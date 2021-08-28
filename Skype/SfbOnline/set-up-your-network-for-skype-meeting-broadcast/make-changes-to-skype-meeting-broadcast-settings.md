@@ -13,28 +13,28 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetings
-description: 您可以啟用Skype廣播功能，並變更這些會議的設定和策略。
-ms.openlocfilehash: c942c1f862097f9ccfb7ae67793632b1d02f85ed0ae4995147512698ab54e480
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 您可以啟用Skype廣播，並變更這些會議的設定和策略。
+ms.openlocfilehash: e3b6568e61e3c3fe1e51f3aacb25c7ec1de421e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339231"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614913"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>變更貴Skype的會議廣播設定
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> 系統Microsoft Teams系統管理中心已取代 商務用 Skype 系統管理中心 (舊版) 。 系統管理中心商務用 Skype所有管理Teams設定。 您必須指派全域系統管理員或系統管理員的[Azure AD](/azure/active-directory/roles/permissions-reference)系統管理員角色商務用 Skype，才能商務用 Skype系統管理中心Teams功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
+> 系統Microsoft Teams系統管理中心已商務用 Skype系統管理中心 (舊版) 。 系統管理中心商務用 Skype所有管理Teams設定。 您必須指派全域系統管理員或系統管理員的[Azure AD](/azure/active-directory/roles/permissions-reference)系統管理員商務用 Skype，才能商務用 Skype系統管理中心Teams功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
 
-您可以啟用Skype廣播功能，並變更這些會議的設定和策略。
+您可以啟用Skype廣播，並變更這些會議的設定和策略。
   
 - **啟用Skype廣播** 啟用Skype廣播。 啟用會議廣播Skype之後，您必須設定[您的網路以Skype廣播](set-up-your-network-for-skype-meeting-broadcast.md)。 如果您想要為公司外部人員舉辦網路研討會和其他廣播，請執行此步驟。 
     

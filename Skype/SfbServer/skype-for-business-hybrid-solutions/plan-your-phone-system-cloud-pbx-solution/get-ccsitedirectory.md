@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
 description: Get-CcSiteDirectory Cmdlet 會顯示儲存網站層級設定檔的目前目錄。 資料夾包含基本 VHD 和商務用 Skype Cloud Connector Edition 安裝檔案。 此資料夾應與雲端連接器網站的所有其他裝置共用。
-ms.openlocfilehash: 279afabbb88aab162be8445007772e24d24d06d935130d5f4f27a8755a2fd25c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04b1460b9743c3d19ca4db77f67d057d400f400b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343187"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616369"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  

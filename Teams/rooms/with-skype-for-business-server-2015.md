@@ -9,24 +9,24 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 請閱讀本主題，以瞭解如何使用 Microsoft Teams 會議室 部署商務用 Skype Server。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 14d942e041d11cfd95b38f4cdcc18ad614c135df9d88b3a3e55261236144bffd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2990e1314ee851156bc11430ecf933fe31552117
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296640"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615189"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>使用 Microsoft Teams 會議室 部署商務用 Skype Server
   
 本主題說明當您有單一樹Microsoft Teams 會議室部署時，如何新增裝置帳戶。
   
-如果您有使用 Exchange 2013 SP1 或更新版及 商務用 Skype Server 2015 或更新版的單一林內部部署，您可以使用提供的 Windows PowerShell 腳本來建立裝置帳戶。 如果您使用的是多林部署，您可以使用會產生相同結果的對等 Cmdlet。 本節將說明這些 Cmdlet。
+如果您有使用 Exchange 2013 SP1 或更新版及 商務用 Skype Server 2015 或更新版的單一林內部部署，則您可以使用提供的 Windows PowerShell 腳本來建立裝置帳戶。 如果您使用的是多林部署，您可以使用會產生相同結果的對等 Cmdlet。 本節將說明這些 Cmdlet。
 
   
 在您開始部署Microsoft Teams 會議室，請確定您擁有執行關聯的 Cmdlet 的許可權。
@@ -43,7 +43,7 @@ ms.locfileid: "54296640"
    Import-PSSession $sessLync
    ```
 
-   請注意，$strExchangeServer是 (伺服器) Exchange FQDN) ，$strLyncFQDN 是您 商務用 Skype Server 部署的 FQDN。
+   請注意，$strExchangeServer是 Exchange 伺服器的 FQDN (FQDN) ，而 $strLyncFQDN 是您 商務用 Skype Server 部署的 FQDN。
 
 2. 建立會話之後，您可以建立新信箱，並啟用為 RoomMailboxAccount，或變更現有會議室信箱的設定。 這會允許帳戶驗證Microsoft Teams 會議室。
 
@@ -61,7 +61,7 @@ ms.locfileid: "54296640"
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. 您可以在裝置帳戶Exchange各種資訊屬性，以改善人員的會議體驗。 您可以在屬性區段查看需要設定哪些Exchange屬性。
+3. 您可以在裝置帳戶Exchange各種屬性，以改善人員的會議體驗。 您可以在屬性區段查看需要設定哪些Exchange屬性。
 
    ``` Powershell
    Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -90,7 +90,7 @@ ms.locfileid: "54296640"
 
     您必須使用會話初始通訊協定 (SIP) 位址和網域控制站Project
 
-7. **選。** 您也可以為您的帳戶Microsoft Teams 會議室 PSTN (PSTN) 公用電話交換企業語音網路。 企業語音不是 Microsoft Teams 會議室的一項需求，但如果您想要為 Microsoft Teams 會議室 用戶端使用 PSTN 撥號功能，請執行以下方式：
+7. **選。** 您也可以為您的帳戶Microsoft Teams 會議室 PSTN (PSTN) 或接聽公用電話交換企業語音網路。 企業語音不是用戶端Microsoft Teams 會議室，但如果您想要用戶端的 PSTN 撥號功能Microsoft Teams 會議室，以下是啟用此功能的一些方式：
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"

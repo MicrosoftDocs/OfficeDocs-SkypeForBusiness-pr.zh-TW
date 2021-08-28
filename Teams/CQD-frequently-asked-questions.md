@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 閱讀常見問題 (常見問題) 常見問題Microsoft Teams通話品質儀表板 (CQD) 。
-ms.openlocfilehash: a733abb5f1fb41e149dd0801b5e25dd1bf948bf6
-ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
+ms.openlocfilehash: 11b7691596192dbc96cd9deb7a0b64e363f6af4b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58339851"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616299"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質儀表板 (CQD) 常見問題 (常見問題) 
 
@@ -38,21 +38,21 @@ ms.locfileid: "58339851"
 
 [為什麼我在 CQD 中看不到 EUII？](#why-cant-i-see-euii-in-cqd)
 
-[為什麼我只在篩選商務用 Skype CQD 中看到Teams資訊？](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[當我只篩選商務用 Skype時，為什麼在 CQD 中Teams資訊？](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [為什麼我的自訂報表最多隻會返回 10，000 列，當我知道應該有更多的專案時？](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
-[為什麼 VPN Wi-Fi顯示為有線而非 Wi-Fi？](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
+[為什麼 VPN Wi-Fi顯示為有線，而不是 Wi-Fi？](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>如果一或多個會議參與者體驗不佳，CQD 為何將通話標記為「良好」？
 
 請查看 CQD 用於資料流程分類 [的規則](stream-classification-in-call-quality-dashboard.md)。
  
-對於音訊流，根據通話長度計算平均值的五個分類器之任何一個，可能都位在「良好」參數內。 這不表示使用者沒有遇到導致音訊輸出、靜態或干擾的問題。 
+對於音訊流，根據通話長度計算平均值的五個分類器之任何一個，可能都位於「良好」參數內。 這不表示使用者沒有遇到導致音訊輸出、靜態或干擾的問題。 
 
 若要判斷它是網路問題，請看看會話的平均值與最大值之間的增量。 最大值是會話期間偵測及報告的最大值。
  
-以下是如何針對此情況進行疑難排解的範例。 假設您在通話期間進行網路追蹤，且前 20 分鐘沒有遺失封包，但封包的間隔為 1.5 秒，然後適用于通話的其餘部分。 即使 Wireshark 追蹤 RTP 分析<封包 (0.1，平均) 10%。 什麼是最大封包遺失？ 5 秒期間 1.5 秒為 30%， (0.3 秒) 。 這是否發生在 5 秒的抽樣期間 (，或有可能在 5 秒的抽樣期間分割) ？
+以下是如何針對此情況進行疑難排解的範例。 假設您在通話期間進行網路追蹤，且前 20 分鐘沒有遺失封包，但封包有 1.5 秒的間隔，然後適用于通話的其餘部分。 即使 <Wireshark 追蹤 RTP 分析 (封包) ，平均會減少 10% (0.1。 什麼是最大封包遺失？ 5 秒期間 1.5 秒為 30%， (0.3 秒) 。 這是否發生在 5 秒的抽樣期間 (或可能分割為 5 秒的) ？
  
 如果網路度量在平均值和最大值中看起來不錯，請尋找其他遙測資料： 
 - 檢查 CPU 不足事件比，查看偵測到的可用 CPU 資源是否不足，並造成品質不佳。 
@@ -66,7 +66,7 @@ ms.locfileid: "58339851"
 
 針對背景雜訊，請檢查靜音事件比，以查看參與者靜音的時間長度。
  
-在 CQD 中建立詳細報告，並篩選會議 ID，查看會議中的所有使用者和資料流程，並新增您感興趣的欄位。 報告問題的使用者可能沒有問題。 他們只是報告體驗。
+在 CQD 中建立詳細報告，並篩選會議 ID，查看會議中的所有使用者和資料流程，並新增您感興趣的欄位。 報告問題的使用者可能並非問題出現者。 他們只是報告體驗。
  
 遙測不一定會說明問題，但可協助您進一步瞭解在何處尋找，並告知您的決策。 它是網路、裝置、驅動程式或固件更新、使用方式或使用者？
 

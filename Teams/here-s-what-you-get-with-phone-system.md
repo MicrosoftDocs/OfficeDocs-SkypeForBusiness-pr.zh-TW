@@ -17,18 +17,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: '瞭解功能、可用性，以及如何為Microsoft 電話系統進行規劃與設定。 '
-ms.openlocfilehash: eb39ea455ef298e00982a5ee414415ddbf66207a
-ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
+ms.openlocfilehash: 73f093fa7e8a029ee282a3b4d7cd236553cbc86a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58548288"
+ms.locfileid: "58615349"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>以下是可透過電話系統獲得的功能
 
@@ -66,15 +66,15 @@ ms.locfileid: "58548288"
 |[整合式撥號鍵台](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | 讓使用者在搜尋欄和撥號鍵台中的任何位置，以名稱或號碼撥號，加快撥出通話程式。 <br/> |
 |聯合通話  <br/> |讓使用者安全地與聯盟租使用者中的使用者聯繫、通訊及共同合作。  <br/> |
 |[撥打和接收視音訊通話](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | 如果使用者帳戶已啟用視音訊通話功能，使用者可以與連絡人進行面對面視像通話。 他們只需要相機、電腦的喇叭和麥克風。 如果使用者的電腦沒有內建的音訊裝置，也可以使用耳機。<br/> |
-|[雲端語音信箱](set-up-phone-system-voicemail.md) <br/> | 當使用者收到語音信箱時，語音信箱會以電子郵件Exchange以語音信箱訊息作為附件傳送到他們的信箱。 使用者可以在經過認證的桌面電話，以及所有應用程式或Teams商務用 Skype訊息。 自 2017 年 3 月新增語音信箱字幕支援，且所有組織和使用者預設都啟用此功能。 <br> 請注意，*使用者不需要* 電話系統授權，也不需要啟用語音才能使用雲端語音信箱功能。   <br/> |
+|[雲端語音信箱](set-up-phone-system-voicemail.md) <br/> | 當使用者收到語音信箱時，語音信箱會以電子郵件Exchange將語音信箱訊息作為附件傳送到他們的信箱。 使用者可以在經過認證的桌面電話上，以及所有應用程式或Teams商務用 Skype訊息。 自 2017 年 3 月新增語音信箱字幕支援，且所有組織和使用者預設都啟用此功能。 <br> 請注意，*使用者不需要* 電話系統授權，也不需要啟用語音才能使用雲端語音信箱功能。   <br/> |
 |[雲端語音信箱使用者設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 允許使用者設定語音信箱問候語、通話接聽規則及問候語的用戶端設定，包括公司外問候語。 <br> 請注意，*使用者不需要* 電話系統授權，也不需要啟用語音才能使用雲端語音信箱功能。  |
 |[次要響鈴](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | 連接多部喇叭裝置至其電腦的使用者除了預設喇叭之外，也可以選擇將次要裝置設為響鈴。 例如，將耳機連接到電腦和桌面喇叭的使用者，可以選擇在來電進入時同時讓耳機和桌面喇叭同時響鈴，這樣他們才能不錯過通話。  |
 |[唯一的響](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)鈴 (Teams提醒) <br/> |讓使用者為一般通話、轉呼叫和委派通話選擇不同的鈴聲，以便區別通話類型。  <br/> |
 |[共用線路外觀](shared-line-appearance.md) <br/> | 讓使用者共用其電話線，讓其他使用者可以代表他們撥打和接聽電話。|
-|[忙碌在忙碌 (Teams](teams-calling-policy.md)只有)  <br/> | 通話政策可讓您設定當使用者時如何處理來電： <ul><li>在通話中 </li><li>在會議</li><li>已保留通話。 </li></ul> 來電者會收到下列其中一個回應： <ul><li>當通話物件在電話上時，聽到忙碌訊號</li> <li>會依此路由至使用者的未解說設定。 其中一個選項可讓來電者為已經在通話中的使用者留下語音信箱。</li></ul> 受話者收到未接來電通知，但無法接聽來電。 此功能預設為停用，但租使用者系統管理員可以開啟此功能。|
-|[通話封鎖](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 讓使用者將 PSTN (PSTN) 新號碼新到封鎖的清單，這樣該號碼的下一個通話就禁止撥打使用者。|
-|[一般地區電話](set-up-common-area-phones.md) <br/> | 一般區域電話通常放在大廳或會議室等區域，可供多人使用。 一般區域電話會設定為裝置，而不是使用者，而且可以自動登入網路。|
-|[媒體旁 (](direct-routing-plan-media-bypass.md)支援Teams直接路由)  <br/> | 為了提升績效，媒體會保留在會話邊界控制器 (SBC) 與用戶端之間，而不是透過系統傳送Microsoft 電話媒體。 |
+|[忙碌在忙碌 (Teams](teams-calling-policy.md)只有)  <br/> | 通話政策可讓您設定當使用者時如何處理來電： <ul><li>在通話中 </li><li>在會議</li><li>已保留通話。 </li></ul> 來電者會收到下列其中一個回應： <ul><li>當通話物件在電話上時，聽到忙碌訊號</li> <li>會依此路由至使用者的未解說設定。 其中一個選項可讓來電者為已經在通話中的使用者留下語音信箱。</li></ul> 受話者收到未接來電通知，但無法接聽來電。 此功能預設為停用，但租使用者系統管理員可以開啟。|
+|[通話封鎖](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | 讓使用者將 PSTN (PSTN) 到封鎖的清單，這樣該號碼的下一個通話就禁止撥打使用者。|
+|[一般地區電話](set-up-common-area-phones.md) <br/> | 公用區域電話通常會放在大廳或會議室等區域，讓多人使用。 一般區域電話會設定為裝置，而不是使用者，而且可以自動登入網路。|
+|[媒體旁](direct-routing-plan-media-bypass.md) (支援Teams直接路由)  <br/> | 為了提升績效，媒體會保留在會話邊界控制器 (SBC) 與用戶端之間，而不是透過 Microsoft 電話 系統傳送。 |
 
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>高GCC DoD 雲端的可用性
