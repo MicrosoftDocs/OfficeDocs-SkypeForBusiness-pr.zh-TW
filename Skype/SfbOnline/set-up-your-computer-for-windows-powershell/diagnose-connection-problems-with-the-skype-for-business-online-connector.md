@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: 疑難排解建立遠端 PowerShell 會話以連線至線上商務用 Skype，包括 Import-Module、並行 shell、Live ID 和許可權錯誤。
-ms.openlocfilehash: 81b612b8b3e2ab82f0986110b2aa612fafe6402f
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+description: 針對建立遠端 PowerShell 會話以連線至 商務用 Skype 進行疑難排解，包括 Import-Module、並行 shell、Live ID 和許可權錯誤。
+ms.openlocfilehash: 4834b06b454e621cd6c4c6ea54f55e3a7b191802
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407012"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597877"
 ---
 # <a name="diagnose-connection-problems-in-the-skype-for-business-online-connector"></a>診斷線上連接器中的連線商務用 Skype問題
 
@@ -34,7 +34,7 @@ ms.locfileid: "58407012"
   
 - [由於執行策略Windows PowerShell模組錯誤](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKPowerShellExecutionPolicy)
     
-- [錯誤版本錯誤所造成的 Import-module 錯誤Windows PowerShell](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKIncorrectVersion)
+- [錯誤版本錯誤導致輸入模組錯誤Windows PowerShell](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKIncorrectVersion)
     
 - [無法連接到 Live ID Server](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKFailedConnect)
     
@@ -46,9 +46,9 @@ ms.locfileid: "58407012"
     
 - [連線至租使用者的能力已在 商務用 Skype 中停用](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
 
-- [已超出此使用者在 商務用 Skype 命令的上限](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
+- [已超出此使用者在 商務用 Skype 命令命令的並行命令數目上限](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
 
-- [已超出此租使用者在 商務用 Skype 命令命令的並行命令數目上限](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
+- [超過此租使用者在 商務用 Skype 中並行命令命令數上限](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
 
     
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Import-Module執行Windows PowerShell錯誤
@@ -56,7 +56,7 @@ ms.locfileid: "58407012"
 
 PowerShell 執行策略可協助判斷哪些組組檔案可以載入至 PowerShell 主控台，以及使用者可以從該主控台執行哪些腳本。 除非執行策略設定為 RemoteSigned，否則您至少無法商務用 Skype線上連接器模組。 如果沒有，當您嘗試輸入模組時，將會收到下列錯誤訊息：
   
-- 錯誤：Import-Module：檔案 C：無法載入程式檔案一般檔案<em>Microsoft Lync Server \\ \\ \\ 2013 \\ 模組 \\ LyncOnlineConnector \\ LyncOnlineConnectorStartup.psm1，因為系統已停用執行中的腳本。詳細資訊，請參閱 在 https://go.microsoft.com/fwlink/?LinkID=135170 about_Execution_Policies。</em>
+- 錯誤：Import-Module：檔案 C：無法載入程式檔案一般檔案<em>Microsoft Lync Server \\ \\ \\ 2013 \\ 模組 \\ LyncOnlineConnector \\ LyncOnlineConnectorStartup.psm1，因為系統已停用執行腳本。詳細資訊，請參閱 在 https://go.microsoft.com/fwlink/?LinkID=135170 about_Execution_Policies。</em>
 
 - **解決方法**：若要解決此問題，請以系統管理員的名次啟動 PowerShell，然後執行下列命令：
     ```PowerShell
@@ -69,7 +69,7 @@ PowerShell 執行策略可協助判斷哪些組組檔案可以載入至 PowerShe
 
 商務用 Skype線上連接器模組只能在 3.0 Windows PowerShell下執行。 如果您嘗試在先前版本的 PowerShell 下輸入模組，則導入程式會失敗，並出現類似以下的錯誤訊息：
   
-  - **錯誤***：Import-Module：載入的 PowerShell 版本為 '2.0'。模組 'D：程式檔案共同檔案 \\ \\ Microsoft Lync Server \\ 2013 \\ 模組 \\ LyncOnlineConnector \\LyncOnlineConnector.psd1' 需要執行的最低 PowerShell 版本為 '3.0' 。請確認 PowerShell 的安裝，然後再試一次。*
+  - **錯誤***：Import-Module：載入的 PowerShell 版本為 '2.0'。模組 'D：程式檔案一般 \\ 檔案 Microsoft Lync Server \\ \\ 2013 \\ 模組 \\ LyncOnlineConnector \\LyncOnlineConnector.psd1' 需要執行的最低 PowerShell 版本為 '3.0' 。請確認 PowerShell 的安裝，然後再試一次。*
 
 - **解決方法**：修正此問題的唯一方法，是安裝 3.0 Windows PowerShell 3.0，可從 Microsoft 下載中心在 [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595) .
   
@@ -89,7 +89,7 @@ PowerShell 執行策略可協助判斷哪些組組檔案可以載入至 PowerShe
     Start-Service "msoidsvc"
     ```
 
-    如果服務執行中，您可能會遇到電腦與 Microsoft Live ID 驗證服務器之間的網路連接問題。 若要檢查這項功能，請開啟 Internet Explorer 並流覽至[ https://login.microsoftonline.com/ 。](https://login.microsoftonline.com/.) 請嘗試從Microsoft 365登Office 365或登陸。 如果無法解決問題，可能遇到網路連接問題。
+    如果服務執行中，您可能會遇到電腦與 Microsoft Live ID 驗證服務器之間的網路連接問題。 若要檢查這項功能，請開啟 Internet Explorer 並流覽至[ https://login.microsoftonline.com/ 。](https://login.microsoftonline.com/.) 請嘗試從Microsoft 365 Office 365登陸。 如果無法解決問題，可能遇到網路連接問題。
   
     較不常見的是，可能是 Microsoft Live ID 驗證服務器的連接 URI 已配置為錯誤的值。 如果您已經判斷系統正在Sign-In小幫手，而且您沒有遇到網路問題，則此組組可能是問題。 在這種情況下，請聯絡 Microsoft 支援服務。
   

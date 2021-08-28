@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
 description: MonitoredRegionLink 表格是支援的表格。 每筆記錄代表兩個國家/地區之間的一個連結。
-ms.openlocfilehash: 991cc3b6ce2f442ad13c350d2e37cc7c9d592d40d16da51932975a4907040569
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f026e35dfd0c0cfd0b7a43d62089754b6824cfa8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321625"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604612"
 ---
 # <a name="monitoredregionlink-table"></a>MonitoredRegionLink 表格
  

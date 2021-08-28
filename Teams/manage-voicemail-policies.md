@@ -16,35 +16,35 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: 管理使用者的語音信箱政策。
-ms.openlocfilehash: 112a2ac98ee22c46cb78c579ead947f70a1d6d447ac81ace3aef224304a281dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 275c67cef3a318d15f030f26aa50a74a15748c03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342967"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604422"
 ---
-# <a name="setting-voicemail-policies-in-your-organization"></a>在組織中設定語音信箱政策
+# <a name="setting-voicemail-policies-in-your-organization"></a>在貴組織中設定語音信箱政策
 
 > [!WARNING]
 > 針對商務用 Skype，透過通話Microsoft Teams停用語音信箱，也可能停用您的語音信箱服務商務用 Skype使用者。
 
 ## <a name="voicemail-organization-defaults-for-all-users"></a>所有使用者的語音信箱組織預設值
 - 語音信箱文字翻譯已啟用。
-- 語音信箱語音信箱聽寫不聽的遮罩功能已停用。
+- 語音信箱語音信箱翻譯不聽障遮罩功能已停用。
 - 錄製持續時間上限設定為 5 分鐘。
 
-您可以使用 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) 和 [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) Cmdlet 控制這些預設值。
+您可以使用 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) 和 [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) Cmdlet 來控制這些預設值。
 
-貴組織中使用者收到的語音信箱訊息會轉譯至貴組織或Microsoft 365 Office 365的地區。 您的租使用者所在的區域可能與接收語音信箱訊息的使用者所在的地區不同。 若要查看租使用者託管的地區，請前往 [組織設定檔頁面面 [](https://go.microsoft.com/fwlink/p/?linkid=2067339)，然後按一下 [**資料** 位置旁的 **[查看詳細資料**> 。
+貴組織中使用者收到的語音信箱訊息會轉譯至貴組織或Microsoft 365 Office 365地區。 您的租使用者所在的區域可能與接收語音信箱訊息的使用者所在的地區不同。 若要查看租使用者託管的地區，請前往 [組織設定檔頁面面 [](https://go.microsoft.com/fwlink/p/?linkid=2067339)，然後按一下 [**資料** 位置旁的 **[查看詳細資料**> 。
 
 > [!IMPORTANT]
-> 您無法使用 **New-CsOnlineVoiceMailPolicy** Cmdlet 建立新原則實例進行轉錄和轉錄不全遮罩，而且無法使用 **Remove-CsOnlineVoiceMailPolicy** Cmdlet 移除現有的原則實例。
+> 您無法使用 **New-CsOnlineVoiceMailPolicy** Cmdlet 建立新的原則實例來進行轉錄和轉錄不端遮罩，而且您也無法使用 **Remove-CsOnlineVoiceMailPolicy** Cmdlet 移除現有的原則實例。
 
 您可以使用語音信箱策略管理使用者的抄寫設定。 若要查看所有可用的語音信箱策略實例，您可以使用 [Get-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) Cmdlet。
 
@@ -87,7 +87,7 @@ EnableTranscriptionTranslation      : True
   
 ## <a name="turning-off-transcription-for-your-organization"></a>關閉貴組織的轉錄
 
-由於貴組織的文字翻譯預設設定為已啟用，因此您可能會想要使用 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy)來停用。 若要這麼做，請執行：
+由於貴組織的文字翻譯預設設定為已啟用，因此您可能會想要使用 [Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy)來停用此設定。 若要這麼做，請執行：
 
 ```PowerShell
 Set-CsOnlineVoicemailPolicy -EnableTranscription $false
@@ -119,7 +119,7 @@ Set-CsOnlineVoicemailPolicy -PrimarySystemPromptLanguage en-US -SecondarySystemP
 
 ## <a name="turning-off-transcription-for-a-user"></a>關閉使用者的轉錄
 
-在組織預設設定之前，會先評估使用者政策。 例如，如果所有使用者都已啟用語音信箱轉錄功能，您可以使用 [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) Cmdlet 指派策略來停用特定使用者的轉寫功能。
+在組織預設設定之前，會先評估使用者政策。 例如，如果所有使用者都已啟用語音信箱轉錄功能，您可以使用 [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) Cmdlet 指派一個策略來停用特定使用者的轉寫功能。
 
 若要停用單一使用者的抄寫，請執行：
 
@@ -129,7 +129,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionDisabled -Identity sip:am
 
 ## <a name="turning-on-transcription-profanity-masking-for-a-user"></a>為使用者開啟文字翻譯不全遮罩功能
 
-若要為特定使用者啟用文字翻譯不全遮罩，您可以使用 [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) Cmdlet 指派原則，為特定使用者啟用轉錄不全遮罩。
+若要為特定使用者啟用文字翻譯不全遮罩，您可以使用 [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) Cmdlet 指派原則，為特定使用者啟用轉錄不端遮罩。
 
 若要為單一使用者啟用文字翻譯不全遮罩，請執行：
 

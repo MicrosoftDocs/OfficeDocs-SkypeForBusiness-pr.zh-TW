@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: '瞭解 911 (緊急服務) 與傳統電話語音的不同，以及如何進行通話。 '
-ms.openlocfilehash: 3bceef7d98cb2598422bb30a827bd9a0608a515887f6f3963291c06f6e8505a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5dcc7195e4dc4d02bb6a9fb9dffde5aa044b3a0d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336283"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604472"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>緊急通話條款及條件
 

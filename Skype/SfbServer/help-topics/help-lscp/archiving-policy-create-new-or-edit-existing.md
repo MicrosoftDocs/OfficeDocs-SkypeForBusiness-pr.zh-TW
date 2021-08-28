@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.MonArchPolicyEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: 您可以使用封存原則，針對位於商務用 Skype Server 的使用者，控制部署中內部和外部通訊的封存。 封存原則包含全域原則，並選擇性地包含一或多個網站與使用者原則：
-ms.openlocfilehash: f50288ac1890cf3768b2b14164b9d4b2ddc78eece97767a58f41a2b072c48724
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 58c0fc4c8f480865eba78bdaa1ca6c31e3c6e6c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278821"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635437"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>封存原則：建立新的或編輯現有原則
  

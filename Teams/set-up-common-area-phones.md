@@ -14,21 +14,21 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '瞭解如何設定大廳、接待區和會議室的公用區域電話 '
-ms.openlocfilehash: 6b97c931364ec9a1c589b0a677e0ec82d6288d945b8f0c002e48824921fe3107
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 928c4c2a81f2e19524aa7dc43ac2bd597b1293dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301049"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597957"
 ---
-# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>設定公用區域電話授權Microsoft Teams
+# <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>設定共同區域電話授權Microsoft Teams
 > [!NOTE]
 > 一般地區電話不支援語音信箱。
 
@@ -36,7 +36,7 @@ ms.locfileid: "54301049"
 
 在下列步驟中，我們會協助您設定帳戶電話系統為貴組織部署一般地區電話。 為獲得更完整的會議室體驗 ，包括音訊會議，請考慮使用會議室裝置會議室專用會議室授權。 
 
-首先，您需要購買一般區域電話 (CAP) 授權，並確認您擁有經過認證的電話。 若要搜尋並深入瞭解認證電話，請前往 Microsoft Teams[裝置](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。 
+首先，您需要購買通用區域電話 (CAP) 授權，並確認您擁有經過認證的電話。 若要搜尋並深入瞭解認證電話，請前往[Microsoft Teams裝置](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。 
 
 ## <a name="step-1---buy-the-licenses"></a>步驟 1 - 購買授權
 
@@ -58,7 +58,7 @@ ms.locfileid: "54301049"
 
 有關授權詳細資訊，請參閱Microsoft Teams[附加元件授權。](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-公用區域電話授權支援： 
+共同區域電話授權支援： 
 
 
 | &nbsp;  |  公用區域電話  |
@@ -88,9 +88,9 @@ ms.locfileid: "54301049"
 
 4. 輸入使用者名稱，例如「MainReception」或「Mainlobby」。
 
-5. 對於一般地區電話，您可能會想要手動設定密碼，或針對所有公用區域電話設定相同的密碼。 此外，您可能會考慮清除讓此使用者第一次 **登錄時變更** 其密碼核取方塊。
+5. 對於一般地區電話，您可能會想要手動設定密碼，或針對所有常見的地區電話設定相同的密碼。 此外，您可能會考慮清除讓此使用者第一次 **登錄時變更** 其密碼核取方塊。
 
-6. 指派授權給使用者。 在同一頁上，按一下 以展開 **[產品授權>**。 開啟共同區域電話電話選擇國內通話方案或 **國內及國際通話方案**。  
+6. 指派授權給使用者。 在同一頁上，按一下 以展開 **[產品授權>**。 開啟共同區域電話電話選擇國內通話 **方案或****國內及國際通話方案**。 
 
     ![顯示授權指派的螢幕擷取畫面，其中已強調國內通話方案及國內和國際方案選項](media/set-up-common-area-phone-image2.png)
 
@@ -103,15 +103,15 @@ ms.locfileid: "54301049"
 
 使用 Teams系統管理中心將號碼指派給使用者。
 
-1. 在系統管理Teams，選取 **語音**  >  **電話號碼**。
+1. 在系統管理Teams，選取 **語音電話**  >  **號碼**。
 
 3.    從電話號碼清單中選取一個數位，然後按一下 [ **指派**。
 
-4. 在 **指派** 頁面的語音使用者方塊中，輸入將會使用電話的使用者名稱，然後在選取語音使用者下拉式清單中選取使用者。 
+4. 在指派 **頁面** 的語音使用者方塊中，輸入將會使用電話的使用者名稱，然後在選取語音使用者下拉式清單中選取使用者。 
 
 5. 接下來，您需要新增緊急位址。 選擇 **下拉** 式清單的按城市搜尋、按描述搜尋，或按位置搜尋，然後在文字方塊中輸入城市、描述或位置。 搜尋後，請在選取 **緊急位址** 下尋找，以挑選適合您的位址。
 
-6. 按一下 **[儲存** ，您的使用者看起來應該像這樣：
+6. 按一下 **[儲存** ，您的使用者應該看起來像這樣：
 
    ![螢幕擷取畫面顯示範例使用者授權指派](media/set-up-common-area-phone-image3.png)
 
@@ -120,4 +120,4 @@ ms.locfileid: "54301049"
 
 詳細資訊，請參閱 [取得使用者的電話號碼](getting-phone-numbers-for-your-users.md)。
 
-您也可以將您擁有的電話號碼帶至其他電信公司，然後「移轉」或移轉至Microsoft 365或Office 365。 請參閱[將電話號碼轉接到 Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+您也可以將您擁有的電話號碼帶至其他電信公司，並「移轉」或移轉至Microsoft 365或Office 365。 請參閱[將電話號碼轉接到 Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

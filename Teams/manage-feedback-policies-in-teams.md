@@ -14,28 +14,28 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何使用意見回饋政策來控制貴Teams使用者是否可以將關於Teams的意見回饋提交給 Microsoft。
-ms.openlocfilehash: 749027ae6dcb9766564444b659d5695abfe733210bc11837946bd4b328d3ab47
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解如何使用意見回饋政策來控制Teams使用者是否可以將關於Teams的意見回饋提交給 Microsoft。
+ms.openlocfilehash: 2308b196dfd31f6d6576f57dbe06ed5eda42cb86
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310681"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635677"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>管理意見Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-貴組織的使用者可以直接在桌面Teams用戶端內傳送有關Teams Microsoft 的意見。 我們會持續改善Teams體驗，並使用此意見Teams改善。
+貴組織的使用者可以直接在桌面Teams用戶端內傳送有關您帳戶的意見Teams Microsoft 告訴我們我們目前的工作。 我們會持續改善Teams體驗，並使用此意見Teams改善。
 
 > [!NOTE]
-> 意見回饋政策不適用於GCC、GCC高或 DOD 部署。
+> 意見回饋政策不適用於 GCC 高GCC或 DOD 部署。
 
 **提供意見回饋功能**
 
-使用者可以在 Teams 中提供意見  >  **** Teams。 透過 「意見回饋」所送出的資料，根據您的Microsoft 365或Office 365視為「支援資料」，包括否則會視為「客戶資料」或「個人資料」的資訊。
+使用者可以在 Teams 中協助提供意見  >  **** Teams。 透過提供 **意見** 回饋所送出的資料，Microsoft 365或Office 365視為「支援資料」，包括否則會視為「客戶資料」或「個人資料」的資訊。
 
 ![其中提供意見回饋選項的螢幕擷取畫面Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
@@ -45,9 +45,9 @@ ms.locfileid: "54310681"
 
 ![問卷通知和表單Teams](media/manage-feedback-policies-in-teams-survey.png)
 
-## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>設定使用者是否可以傳送關於Teams的意見回饋給 Microsoft
+## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>設定使用者是否可以傳送關於Teams的意見
 
-做為系統管理員，您可以控制貴組織的使用者是否可透過提供意見Teams意見，以及使用者是否收到問卷，將有關您資料的意見Teams傳送給 Microsoft。 根據預設，貴組織中的所有使用者都會自動指派全域 (全組織的預設) 政策，且系統會在該政策中啟用提供意見回饋功能與問卷。 例外是Teams 教育版，其中功能為教師啟用，學生則停用。
+做為系統管理員，您可以控制貴組織的使用者是否可透過提供意見Teams意見，以及使用者是否收到問卷，將有關資料的意見回饋傳送給 Microsoft。 根據預設，貴組織中的所有使用者都會自動指派全域 (全組織的預設) 政策，且系統會在該政策中啟用提供意見回饋功能與問卷。 例外是Teams 教育版，其中功能為教師啟用，學生則停用。
 
 您可以編輯全域原則，或建立及指派自訂策略。 編輯全域原則或指派自訂策略之後，可能需要幾個小時，變更才能生效。
 
@@ -58,7 +58,7 @@ ms.locfileid: "54310681"
 若要關閉並開啟功能，請設定下列參數：
 
  - **提供意見回饋**：將 **UserInitiatedMode 參數** 設定為 **啟用** ，以允許指派策略的使用者提供意見回饋。 將 **參數設定為** 停用會關閉功能，而指派該策略的使用者沒有提供意見回饋的選項。
- - **問卷**：將 **receiveSurveysMode 參數** 設定為 **啟用** ，以允許獲派策略的使用者接收問卷。 若要讓使用者收到問卷並允許他們退出宣告，請設定參數以 **啟用UserOverride**。 在 Teams中，使用者可以前往 設定  >  **隱私權**，並選擇是否要參與問卷。 將參數設定為 **停用** 會關閉功能，而獲派該策略的使用者將不會收到問卷。
+ - **問卷**：將 **receiveSurveysMode 參數** 設定為 **啟用** ，以允許獲派策略的使用者接收問卷。 若要讓使用者收到問卷並允許他們退出宣告，請設定參數以 **啟用UserOverride**。 在 Teams中，使用者可以前往  >  **設定，** 並選擇是否要參與問卷。 將參數設定為 **停用** 會關閉功能，而獲派該策略的使用者將不會收到問卷。
  - **電子郵件**：使用 **AllowEmailCollection 標** 號來新增電子郵件欄位。
 
 ## <a name="create-a-custom-feedback-policy"></a>建立自訂的意見回饋政策

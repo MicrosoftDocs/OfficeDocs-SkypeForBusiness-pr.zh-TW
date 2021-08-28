@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 摘要：瞭解商務用 Skype Server 中使用的各個使用者呼叫診斷報告。
-ms.openlocfilehash: b04050b2d2efb94781d310983083c2c3b8e86c30965a3467cc5fcabfc2aa00fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c8caf074022514cca1792cedf60f77fae0506dfb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280966"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623665"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a> (每位使用者) 中的通話診斷報告商務用 Skype Server
   

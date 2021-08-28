@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.LoadBalancer
 - ms.lync.plan.LoadBalancer
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: 如果您有前端集區、Director 集區或 Edge Server 集區，則需要為這些集區部署負載平衡。 負載平衡會在集區中的伺服器之間分散流量。
-ms.openlocfilehash: f2204d703c5f70a29b4bde620d5cd3c28839cb8f73a6e51568295be423c87432
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e3652f1a3ee3a04b45e8b328a52168a39f396822
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343377"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616499"
 ---
 # <a name="load-balancer-planning-tool"></a>負載平衡器規劃工具
  

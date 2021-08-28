@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddDirectorPoolPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要定義 Director 集區 FQDN，請選取要包含在負載平衡集區中的兩個或多個 Director 或單一電腦集區的多部電腦集區。 您也必須輸入要用來連接 Director 集區的完整功能變數名稱 (FQDN) 或單一 Director 的 FQDN。 針對 Director 電腦的集區，這會是網域名稱系統 (DNS) 專案，以供硬體負載平衡器的虛擬 IP 或 DNS 負載平衡的共用 DNS 專案使用。
-ms.openlocfilehash: 910ed1cee56a9a7dab395496ec1ce02f91bc2a5f00f8cbb4d8032b4170263854
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a8fdb37fb5a64c9f228a941c36dda7a56c5013d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338561"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590337"
 ---
 # <a name="add-director-pool"></a>新增 Director 集區
  

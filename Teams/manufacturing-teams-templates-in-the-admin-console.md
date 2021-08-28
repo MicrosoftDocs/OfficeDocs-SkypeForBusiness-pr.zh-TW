@@ -9,9 +9,9 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何使用系統管理中心提供預先定義的設定、頻道和預先安裝的應用程式，以使用小組範本建立專為製造需求設計的小組結構。
+description: 瞭解如何使用系統管理中心提供預先定義的設定、頻道和預先安裝的應用程式，以使用小組範本建立專為製造需求設計的團隊結構。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,18 +19,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 017656b0bacce810f26ac2821e07ba4dd8f08c9efad47717a94d6b3d95e4278f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b030b3a9635c0ba3f7737e4b749d47ac93fba862
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351872"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604412"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>在系統管理中心使用製造小組範本
 
 小組範本提供預先定義的設定、頻道和預先安裝應用程式範本，讓您快速且輕鬆地建立團隊。
 
-小組範本有預先建立的團隊結構定義，專為製造需求所設計。 您也可以擴充小組範本，以建立根據您的特定組織需求量身打造的團隊。
+小組範本有預先建立的團隊結構定義，專為製造需求所設計。 您也可以擴充小組範本，以建立符合您特定組織需求的團隊。
 
 本文介紹每個小組範本，並建議如何使用這些範本。
 
@@ -44,5 +44,5 @@ ms.locfileid: "54351872"
 
 | 範本類型|baseTemplateId| 此基本範本提供的屬性 |
 | ------------------|-- |----------------------------------------------------- |
-|品質和安全性|`com.microsoft.teams.template.QualitySafety` |頻道： <ul><li>一般<li>公告</li><li>第 1 行</li><li>第 2 行</li><li>第 3 行</li><li>安全</li><li>訓練</li><li>維護</li><li>有趣的專案</li></ul> 應用程式： <ul><li>Wiki</li><li>Planner</li></ul>|
+|品質和安全性|`com.microsoft.teams.template.QualitySafety` |頻道： <ul><li>一般<li>公告</li><li>第 1 行</li><li>第 2 行</li><li>第 3 行</li><li>安全</li><li>訓練課程</li><li>維護</li><li>有趣的專案</li></ul> 應用程式： <ul><li>Wiki</li><li>Planner</li></ul>|
 ||||

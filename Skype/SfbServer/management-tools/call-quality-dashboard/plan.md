@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 摘要：瞭解在規劃通話品質儀表板時所應考慮的事項。
-ms.openlocfilehash: 314c0c631cda29d23accc39980da25fdad567619797d515b90f31ebff9ccd450
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e93db0e3e297de8eff81cea16fa15ff9c7dd42e0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340889"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588575"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>規劃商務用 Skype Server 的通話品質儀表板 
  

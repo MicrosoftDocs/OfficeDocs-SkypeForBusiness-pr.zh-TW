@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateMediationServerWithEdgePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要定義中繼伺服器，請為中繼伺服器指定設定，以與前端伺服器和 Edge Server 或集區建立關聯。若要將中繼伺服器或集區與 Edge Server 或 Edge Server 集區建立關聯，請執行下列動作：
-ms.openlocfilehash: d4aa86e44c2ae61f9856434313cb419d52e2daa9b01ccd85d0e16b9f1906bc2e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 418715aa100cb0abdfad76c7e4482da422c4be97
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304115"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635597"
 ---
 # <a name="associate-mediation-server-with-edge"></a>建立中繼伺服器與 Edge 的關聯
  

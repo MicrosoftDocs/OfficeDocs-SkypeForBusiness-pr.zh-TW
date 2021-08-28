@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertImportInvoke
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
 description: 在「執行命令 」頁面上，檢閱匯入憑證的摘要資訊。在下拉式清單中，選取匯入憑證記錄檔。確定在下拉式清單中，可以看到匯入憑證記錄檔。按一下 [檢視記錄檔]，檢閱憑證匯入的詳細資訊。當您檢閱完摘要和記錄檔時，請按一下 [完成]。
-ms.openlocfilehash: 40f325a537c052fa2b1dd5bcf7391954bdc19407622040ac353b2a61eecab985
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 70248a410394ea6af9583ba473648a44cc399a0a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285119"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58590197"
 ---
 # <a name="import-certificate-invoke"></a>匯入憑證 (叫用)
  

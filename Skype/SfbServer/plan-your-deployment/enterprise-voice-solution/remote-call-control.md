@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: 遠端呼叫控制是舊版 Lync Server 中的功能，可讓使用者透過 Lync Server 控制其 PBX 電話。 在商務用 Skype Server 中，此功能已由「透過運作」的呼叫取代。 在商務用 Skype Server 2015 的用戶端版本中，接著向前，用戶端的遠端呼叫控制已無法在用戶端中進行設定，已將其移除，可供使用。
-ms.openlocfilehash: c7b4156c90810206824d922af17b83381a64afe17a3a927825eae91445245cfa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bbe98c5aa6a490276f1f317ed208d936920b0c65
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302367"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604732"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>在商務用 Skype 中規劃遠端呼叫控制
  
@@ -31,9 +31,9 @@ ms.locfileid: "54302367"
   
 ||**商務用 Skype已啟用 Skype 使用者介面的用戶端**|**商務用 Skype已啟用 Lync 使用者介面的用戶端**|**商務用 Skype 2016 用戶端**|**Lync 2013 用戶端**|**Lync 2010 用戶端**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-| 商務用 Skype Server <br/> |從公司通話  <br/> |1 <br/> |從公司通話  <br/> |1 <br/> |1 <br/> |
-| Lync Server 2013 <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |1 <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |
-| Lync Server 2010 <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |1 <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |
+| 商務用 Skype Server <br/> |從公司通話  <br/> |1  <br/> |從公司通話  <br/> |1  <br/> |1  <br/> |
+| Lync Server 2013 <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |1  <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |
+| Lync Server 2010 <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |1  <br/> |遠端呼叫控制  <br/> |遠端呼叫控制  <br/> |
    
 1. 這兩項功能都不受支援。
   

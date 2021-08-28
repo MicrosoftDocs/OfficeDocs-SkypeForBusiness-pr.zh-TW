@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: 商務用 Skype Server 的參考拓撲，包括要針對大型、中型及小型組織進行的圖表和決策。
-ms.openlocfilehash: fbc80ddda4a7f208489661e431f83b30d77aea0556a2a21c21144dd437fb4e01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 76866e21c4abcd0defafb8dcdb4b758da2f376cf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349885"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616449"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>商務用 Skype Server 的參考拓撲
 

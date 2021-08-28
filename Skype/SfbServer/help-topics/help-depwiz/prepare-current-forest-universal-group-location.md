@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployForestPrepGroupDomain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
 description: 您必須指出在樹系中需要建立萬用群組的地方。「萬用群組位置」頁面預設會使用您登入的電腦所隸屬的網域。如果您偏好在預設 [本機網域] 以外的其他網域中建立萬用群組，請選取 [網域 FQDN]，然後在提供的文字方塊中輸入完整網域名稱 (FQDN)。當您要在其中執行樹系準備工作的網域不是您想要建立萬用群組的網域時，提供替代網域很有用。按 [下一步] 繼續。
-ms.openlocfilehash: 83b6e1ca80bcf857fa91e5a1f14ff4af54518fb3df409b6878a888160bd9bf14
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 24ce0569128d951007123695209ef2f120838c5a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301619"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635447"
 ---
 # <a name="prepare-current-forest-universal-group-location"></a>準備目前的樹系 (萬用群組位置)
  
