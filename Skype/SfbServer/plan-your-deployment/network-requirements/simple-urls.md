@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 摘要：在為商務用 Skype Server 執行 DNS 記錄之前，請參閱本主題中的簡易 URL 考慮。
-ms.openlocfilehash: 11e3b5222e7ec1929580049f355525c40884b8d3aa9a55ccfbbdc18264a24500
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a36805566b7bdb9f95ef14b572a8efdccdeb916b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280946"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622135"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>商務用 Skype Server 中簡易 URLs 的 DNS 需求
 

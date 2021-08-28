@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,18 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.CivicAddressValidationOpenSupportTicket
 description: 位址驗證是設定通話方案的重要部分。 它會為貴組織的使用者提供緊急電話位址，由緊急回應服務使用。
-ms.openlocfilehash: 7129398a661a1b89e4f7cbfe51e8a770d45b3714d60df679600d0c70ac6a5491
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: df94bdd2f69338ae6085a4d0c35f9a0f907c72c9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334425"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621845"
 ---
 # <a name="how-do-i-create-a-support-ticket-for-address-validation"></a>如何建立位址驗證的支援票證？
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]?
 
-位址驗證是設定通話方案的重要部分。 它會為貴組織的使用者提供緊急電話位址，由緊急回應服務使用。 如何執行此工作，取決於貴組織的大小。
+位址驗證是設定通話方案的重要部分。 它會為貴組織的使用者提供緊急電話位址，由緊急回應服務使用。 您執行此工作是以貴組織的大小為基礎。
 
 > [!NOTE]
 > 如果您需要取得更多電話號碼，請聯絡商務產品支援人員 [- 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
@@ -42,7 +42,7 @@ ms.locfileid: "54334425"
 ## <a name="for-organizations-150-or-less-follow-these-steps"></a>針對組織 150 或以下組織，請遵循下列步驟
 1. 在系統管理中心中，選擇需要 **協助** 嗎？
 2. 在 " **需要協助嗎？"** 窗格中，告訴我們您需要哪些協助，然後選擇取得 **協助**。
-3. 如果 View **解決方案** 區段的結果沒有説明，請選擇下列其中一項：
+3. 如果 View **solutions** 區段的結果沒有説明，請選擇下列其中一項：
     - **讓我們打電話給您 (建議**) ：確認您的聯絡人號碼，然後按 **Call me。** 回電的預期等候時間會以需要說明 **？** 窗格表示。
     - **傳送電子郵件給我們**：確認您的電子郵件地址， **然後選擇傳送**。 通話回應時間會以需要說明 **？** 窗格表示。
 
@@ -64,7 +64,7 @@ ms.locfileid: "54334425"
     
    - **問題摘要：** 輸入 **位址驗證**。
     
-   - **問題詳細資料：** 輸入您想要驗證之 (位址) ，例如：
+   - **問題詳細資料：** 輸入您想要驗證之 (位址) 詳細資料，例如：
     
       - 街道號碼
     

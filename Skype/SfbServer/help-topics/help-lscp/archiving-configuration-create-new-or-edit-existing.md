@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.MonArchSettingEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 您可以使用封存設定來控制部署的封存選項。 封存組態除了包含全域設定之外，也可能包含一或多個網站設定與集區設定：
-ms.openlocfilehash: e74f5013bce13e014ef422f4dd8322396a8db5256b1ebb771e1f3fa25965e7ee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 411f9622706faa3388d611b3ae50a14fce739ff3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313511"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596907"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>封存組態：建立新的或編輯現有
  

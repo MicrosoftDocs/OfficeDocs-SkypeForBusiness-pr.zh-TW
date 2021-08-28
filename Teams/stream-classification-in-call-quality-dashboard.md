@@ -14,22 +14,22 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: 瞭解串流品質如何分類在 (電話品質儀表板) Microsoft Teams 商務用 Skype中。
-ms.openlocfilehash: a717597151f0d933a8bbea49e6e71d070b063885
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+description: 瞭解如何將串流品質分類在 (電話品質儀表板中) 線上Microsoft Teams商務用 Skype中。
+ms.openlocfilehash: f4c4fb72d15ce79c60c2400b068898ad463f1b07
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505421"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598337"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>通話品質儀表板和 CQD (串流分類) 
 
-適用于 (和 Microsoft Teams Online 的通話品質儀表板) CQD 商務用 Skype 可讓您深入瞭解使用 Microsoft Teams 和 商務用 Skype 服務撥打的通話品質。 本主題提供有關媒體流品質分類的詳細資訊。 若要深入瞭解 CQD 以及如何設定，請參閱設定 [通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)。
+ (和 Microsoft Teams Online) 通話品質儀表板商務用 Skype可讓您深入瞭解使用 Microsoft Teams 和 商務用 Skype 服務撥打的通話品質。 本主題提供有關媒體流品質分類的詳細資訊。 若要深入瞭解 CQD 以及如何設定，請參閱設定 [通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)。
 
 ## <a name="classifier-definitions"></a>分類器定義
 

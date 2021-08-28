@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatConfig
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3f2891e6-bad3-4a23-a345-b7de4cae3bd9
 description: 您的持久聊天伺服器部署可以主控許多併發的持久聊天室。 聊天室可以在伺服器上組織成一組類別。 每個聊天室各屬於一個類別，並繼承該類別的某些設定。 這樣的組織會建立一個有用的結構，可用於根據其商業用途來識別交談，並促進委派管理功能和簡化管理。
-ms.openlocfilehash: 43f8329a5eb3165671474638d0d9a63d2aa1dc516200c58f306c9ce21317bd4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8336beb24dbd8a159d5079e810c3c842f783803c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346989"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595787"
 ---
 # <a name="persistent-chat-configuration"></a>常設聊天室組態
  

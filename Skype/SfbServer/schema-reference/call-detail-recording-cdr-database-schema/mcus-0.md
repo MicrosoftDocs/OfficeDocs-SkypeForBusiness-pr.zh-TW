@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
 description: Mcus view 會儲存參與會議會話之 MCUs 的相關資訊。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 2f5843a627fa8d4df693fb887c49b6c24df77526cd59668e8395a135771ae78d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6d05c278761614ddd062c81ebd2f668d771864d7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347748"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635907"
 ---
 # <a name="mcus-view"></a>Mcus view
  

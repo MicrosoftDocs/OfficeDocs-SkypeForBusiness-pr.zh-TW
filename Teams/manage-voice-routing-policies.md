@@ -14,15 +14,15 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中建立和管理語音路由Microsoft Teams。
-ms.openlocfilehash: 3dbcd770a4806768e122caa4edb3293a349ea57c4c553434c530b1a2deb80ac9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15e0d14310865244570dee677ac19238e9510628
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350875"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598457"
 ---
 # <a name="manage-voice-routing-policies-for-direct-routing"></a>管理直接路由的語音路由策略
 
@@ -43,7 +43,7 @@ ms.locfileid: "54350875"
 2. 輸入原則的名稱和描述。
 3. 在 **PSTN 使用量記錄下**，按一下 **[新增 PSTN 使用量**，然後選取要新增的記錄。 如果您需要建立新的 PSTN 使用記錄，請按一下 [ **新增**。
 4. 如果您新增了多個 PSTN 使用記錄，請以您想要的順序排列。
-5. 完成後，按一下 **[Apply.**
+5. 完成後，請按一下 **[Apply.**
 6. 按一下 [儲存]。
 
 ### <a name="using-powershell"></a>使用 PowerShell

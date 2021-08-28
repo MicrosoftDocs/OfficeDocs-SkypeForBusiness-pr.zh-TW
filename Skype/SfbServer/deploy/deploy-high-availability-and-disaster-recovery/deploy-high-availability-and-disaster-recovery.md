@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: 商務用 Skype Server 提供高可用性與伺服器集區、具有集區配對的嚴重損壞復原，以及後端伺服器高可用性的數種模式，包括 AlwaysOn 可用性群組、資料庫鏡像及 SQL 容錯移轉叢集。
-ms.openlocfilehash: bb9a4428a1655308ca97fc837a20da799c8c09702c9cb906cf7d0157cda90c15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 168648150a249c92e4b56d4e9d335fbc864cadd3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305875"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598137"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>部署高可用性和災害復原
  

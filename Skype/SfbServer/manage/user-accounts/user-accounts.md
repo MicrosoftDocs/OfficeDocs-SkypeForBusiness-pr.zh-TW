@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: 本文中的各節說明如何啟用、暫時停用或移除 Active Directory 使用者商務用 Skype Server。
-ms.openlocfilehash: 9ff446b6829ed0d6f8e7b36de5b20fe30db5c7ba7fcf426abfd2068ff549a5bc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a604e08ad23f00f8eaf0342254df4563c0a6b864
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351513"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622185"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>管理商務用 Skype Server 的使用者帳戶
 
@@ -74,7 +74,7 @@ ms.locfileid: "54351513"
 
 在 [Active directory 使用者及電腦] 中啟用使用者帳戶之後，您可以使用商務用 Skype Server 控制台，將 Active Directory 使用者新增至商務用 Skype Server，以建立及啟用新的商務用 Skype Server 使用者帳戶。
 
-您也可以使用 Cmdlet，特別是 [Enable-get-csuser](/powershell/module/skype/enable-csuser?view=skype-ps)。
+您也可以使用 Cmdlet，特別是 [Enable-get-csuser](/powershell/module/skype/enable-csuser)。
 
 1. 從指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶，登入內部部署中的任何電腦。
 
@@ -133,7 +133,7 @@ ms.locfileid: "54351513"
   Set-CsUser -Identity "Ken Myer" -Enabled $True
   ```
 
-如需詳細資訊，請參閱 [Set-CsUser](/powershell/module/skype/set-csuser?view=skype-ps) Cmdlet 的 [說明] 主題。
+如需詳細資訊，請參閱 [Set-CsUser](/powershell/module/skype/set-csuser) Cmdlet 的 [說明] 主題。
 
 ## <a name="disable-a-user-for-enterprise-voice"></a>停用企業語音的使用者
 <a name="Disable_EV"> </a>
@@ -195,13 +195,13 @@ ms.locfileid: "54351513"
   Disable-CsUser -Identity "Ken Myer"
   ```
 
-    After this command has run there is no way to re-enable the account and its previous settings. Instead, you will need to use the Enable-CsUser cmdlet to create a brand-new account for Ken Myer.
+執行此命令之後，將無法再重新啟用帳戶及其設定。所以請使用 Enable-CsUser Cmdlet 為 Ken Myer 建立新帳戶。
 
-如需詳細資訊，請參閱 [get-csuser 指令程式](/powershell/module/skype/disable-csuser?view=skype-ps) 的 [說明] 主題。
+如需詳細資訊，請參閱 [get-csuser 指令程式](/powershell/module/skype/disable-csuser) 的 [說明] 主題。
 
 ## <a name="see-also"></a>另請參閱
 <a name="Remove"> </a>
 
-[Enable-Get-csuser](/powershell/module/skype/enable-csuser?view=skype-ps)
+[Enable-Get-csuser](/powershell/module/skype/enable-csuser)
 
-[停用 Get-csuser](/powershell/module/skype/disable-csuser?view=skype-ps)
+[停用 Get-csuser](/powershell/module/skype/disable-csusers)

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: tblPrincipal 包含所有主體，包括使用者、資料夾及群組。
-ms.openlocfilehash: 50d20aee156a4a919effac26ff29c371ec2cf886c12300ecd07268576730ae49
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9a2a48d0cd2dcb6b6ef078fd32625fc022f79c9f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338021"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635857"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  

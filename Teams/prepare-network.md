@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark, kojika
 audience: admin
 description: 了解如何針對 Microsoft Teams 準備組織的網路，包括網路需求、網路最佳化和頻寬需求。
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 282a6646c321d14618b9aaede36918db8db58c774d7bd99ff79f15cac729f83e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 13bc12d5df1139bc76afa48751e7a7cb3c6197c0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312691"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621965"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
 
@@ -281,7 +281,7 @@ ms.locfileid: "54312691"
         不適用
    :::column-end:::
    :::column span="":::
-        不適用
+        N/A
    :::column-end:::
    :::column span="":::
         不適用

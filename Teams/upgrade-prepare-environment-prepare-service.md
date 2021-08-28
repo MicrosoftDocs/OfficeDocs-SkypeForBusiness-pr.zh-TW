@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 瞭解組織準備共同合作和雲端語音服務的需求，Teams。
-localization_priority: Normal
+description: 瞭解組織準備共同合作和雲端語音服務與Teams。
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,31 +20,31 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da6ccd1283eda3bd96fd9b4b2856c6318d79c1f36573a62394d1a4d404123ca5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0a4b417876745042d6805c88de4a5b93cdc275c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337851"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621935"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>準備升級至 Teams
 
 ![升級歷程圖，強調技術準備階段](media/upgrade-banner-tech-readiness.png "升級歷程的階段，強調技術準備階段")
 
-本文是升級過程中技術整備階段的一部分，此階段是您與使用者整備階段同時完成的活動。 繼續進行之前，請確認您已完成上述階段的活動：
+本文是升級過程中技術整備階段的一部分，此階段是您與使用者整備階段同時完成的活動。 在繼續進行之前，請確認您已完成上述階段的活動：
 
 - [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
 - [已定義專案範圍](./upgrade-define-project-scope.md)
-- [瞭解共同使用和商務用 Skype互通性Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [瞭解共同商務用 Skype和Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [已選擇升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-本文概觀說明組織準備共同合作和雲端語音服務Teams。 通過正確準備，您可以確定準備好要提供這些功能給貴組織。
+本文概觀了組織準備共同合作和雲端語音服務Teams。 通過正確準備，您可以確定準備好要提供這些功能給貴組織。
 
 ## <a name="onboarding-checklists-and-landing-pages-for-microsoft-teams-rollout"></a>登陸檢查清單和登陸頁面，Microsoft Teams推出
 
 下列檢查清單和登陸頁面會流覽在組織中部署Microsoft Teams步驟：
 
-- [準備Microsoft 365或Office 365 Teams](onboarding-checklist-enable-office-365.md)
+- [準備Microsoft 365或Office 365 Teams Teams](onboarding-checklist-enable-office-365.md)
 
 - [設定Teams核心功能](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
@@ -61,9 +61,9 @@ ms.locfileid: "54337851"
 
 使用提供的檢查清單來追蹤每個個別活動和工作的狀態，並確保您未略過任何重要步驟。 每個活動包含所需動作的詳細描述，以及可用於完成該活動之額外資訊的參照。
 
-雖然我們建議您依序遵循檢查清單，但確切的順序會視您的部署範圍，以及您環境的組組和複雜度而決定。 他們組織起來可支援「greenfield」Teams部署 (之前沒有 商務用 Skype Online 目前狀態) ，或從 商務用 Skype Online 升級至 Teams。 如果您是從 商務用 Skype Online 升級，您可能已經完成其中一些活動，現在可以忽略這些活動。
+雖然我們建議您依序遵循檢查清單，但確切的順序會視您的部署範圍，以及您環境的組組和複雜度而決定。 他們組織起來支援「greenfield」Teams部署 (之前沒有 商務用 Skype Online 目前狀態) ，或從 商務用 Skype Online 升級至 Teams。 如果您是從 商務用 Skype Online 升級，您可能已經完成其中一些活動，現在可以忽略這些活動。
 
-當您以每個網站為基礎啟動使用者時，強烈建議您使用 Voice [ (Playbook ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)) 網站啟用 Playbook) 做為這些檢查清單的補充指南。
+當您以每個網站為基礎啟動使用者時，我們強烈建議您使用 Voice (Playbook) 網站啟用 [Playbook) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) 做為這些檢查清單的輔助指南。
 
 >[!NOTE]
 >大部分的設定設定在 Teams 和 商務用 Skype 之間商務用 Skype常見。 您可以使用系統管理Microsoft Teams設定這些設定。

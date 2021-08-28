@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestSipDomains
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
 description: 在「主體別名 (SAN) 上的 SIP 網域設定」頁面上，請選取主要工作階段初始通訊協定 (SIP) 網域與其他任何 SIP 網域的核取方塊 (前提是您的基礎結構與部署符合列示的條件)。
-ms.openlocfilehash: 4a561e846b787c92d2ec279e93722372dfe0f5c0520f2be15c487d9d91fced15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 66aa84d56e16739615210660ba58617b6a088056
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334275"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596937"
 ---
 # <a name="certificate-request-sip-domains"></a>憑證要求 (SIP 網域)
  

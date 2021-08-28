@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 瞭解 PIN 長度和需求的參數，並瞭解如何在 商務用 Skype 中設定會議商務用 Skype。
-ms.openlocfilehash: 8cd56ac9a7864fd44ee42d9c86b255a5d7449e3fed140a50033c716a3b53281b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ecd0ef071f790e000aff00820fcd1c5a04403f23
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310282"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598287"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>在線上設定音訊會議會議的 PIN 商務用 Skype長度
 
@@ -34,11 +34,11 @@ ms.locfileid: "54310282"
 
 
 > [!NOTE]
-> 有關在 Microsoft Teams 中設定 PIN 長度的資訊，請參閱在 Microsoft Teams 中設定音訊會議會議的[PIN Microsoft Teams。](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams)
+> 有關在 Microsoft Teams 中設定 PIN 長度的資訊，請參閱在 Microsoft Teams 中設定音訊會議會議的[PIN 長度](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams)Microsoft Teams。
 
 當您為會議設定音訊會議商務用 Skype，您就會獲得音訊會議橋接器。 一個會議橋接器可以包含一或多個電話號碼。 您設定的電話號碼會包含在應用程式的會議邀請商務用 Skype中。
   
-音訊會議橋接器可接聽電話使用手機撥入會議人員的電話。 它會使用自動語音應答的語音提示來接聽來電者，然後視您的設定播放通知，並要求來電者錄製其名稱。 **Microsoft 橋接器** 設定允許您變更會議通知和會議加入體驗的設定，並設定會議召集人所使用的 PIN 長度。 如果會議召集人無法使用應用程式加入會議，請使用 PIN 商務用 Skype會議。
+音訊會議橋接器可接聽電話使用手機撥入會議人員的電話。 它以自動語音應答的語音提示回答來電者，然後視您的設定播放通知，並要求來電者錄製其名稱。 **Microsoft 橋接器** 設定允許您變更會議通知和會議加入體驗的設定，並設定會議召集人所使用的 PIN 長度。 如果會議召集人無法使用應用程式加入會議，請使用 PIN 商務用 Skype會議。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -47,7 +47,7 @@ ms.locfileid: "54310282"
  
 1. 在 商務用 Skype **系統管理中心**，在左側流覽中，前往 **音訊會議** Microsoft  >  **橋接器設定**。
     
-2. 在 **[安全性** PIN 長度」 下，選取要用於 PIN 的位數，  >  然後按一下 [**儲存**。
+2. 在 **[**  >  **安全性 PIN 長度的下**，選取 PIN 的位數，然後按一下 [**儲存**> 。
     
 > [!NOTE]
 > PIN 與會議 ID 不同。 當來電者加入會議時，會使用會議 ID。 它們是用來識別會議。 PIN 是用來驗證來電者為會議召集人。 
@@ -70,9 +70,9 @@ ms.locfileid: "54310282"
     
   - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell比使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如，當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點： 
+- Windows PowerShell比只使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如，當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點： 
     
   - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -83,7 +83,7 @@ ms.locfileid: "54310282"
   - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell[模組商務用 Skype Online。](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell Online 模組商務用 Skype[下載。](https://go.microsoft.com/fwlink/?LinkId=294688)
   
 ## <a name="see-also"></a>另請參閱
 

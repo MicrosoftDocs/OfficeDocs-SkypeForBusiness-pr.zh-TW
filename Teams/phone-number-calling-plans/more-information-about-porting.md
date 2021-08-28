@@ -1,5 +1,5 @@
 ---
-title: 有關移植的更多資訊
+title: 有關移植的資訊
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -12,31 +12,31 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 取得將電話號碼移植至Microsoft Teams。
-ms.openlocfilehash: 17ceb8270d9474a64b2a4f2a55e7f015585dacd5ba376708092f1fcf96f57722
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5ed15432517ae6ba5709e699c89c341dc86f30f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296710"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598387"
 ---
-# <a name="more-information-about-porting"></a>有關移植的更多資訊
+# <a name="more-information-about-porting"></a>有關移植的資訊
 
 您可以在這裡找到將電話號碼Microsoft Teams。
 
-有關完整的逐步指示，請參閱[將電話號碼轉接到 Teams。](transfer-phone-numbers-to-teams.md)
+若要瞭解完整的逐步指示，請參閱[將電話號碼轉接到 Teams。](transfer-phone-numbers-to-teams.md)
 
 如果您需要協助，或需要取得更多電話號碼，請連連 [PSTN 服務台協助](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
 
 ## <a name="port-order-account-information"></a>埠訂單帳戶資訊
 
-當您位於移植精靈的新增帳戶資訊頁面以提交埠訂單時，您將在 LOA 中輸入幾乎所有相同的資訊，包括：
+當您在移植精靈的新增帳戶資訊頁面提交埠訂單時，您將在 LOA 中輸入幾乎所有相同的資訊，包括：
   
 - 服務提供者或電信服務提供者的帳戶號碼
     
@@ -71,21 +71,21 @@ ms.locfileid: "54296710"
 
 ## <a name="authorized-person-on-the-account"></a>帳戶上的授權人員
 
-在埠精靈中，您必須向服務提供者或電信公司輸入有權變更帳戶的人員名稱。 該名稱不會用於處理埠訂單，但用於發生爭議，或數位在埠時不正確。 此人員負責針對埠訂單 (授權書) LOA。
+在埠精靈中，您必須向服務提供者或電信公司輸入有權變更帳戶的人員名稱。 該名稱不會用於處理埠訂單，但用於發生爭議，或數位在埠時不正確。 此人員負責針對埠訂單 (LOA) 授權書。
   
 > [!NOTE]
 > 方塊限制為 15 個字元， (包含空格) 。 在方塊中沒有完整名稱不會延遲或取消埠訂單。
   
 ## <a name="whats-my-billing-telephone-number"></a>我的帳單電話號碼是什麼？
 
-BTN (帳單) 號碼是包含在帳單上且由服務提供者或電信業者計費的主要電話號碼。 如果您從只有一個電話號碼的帳戶移轉電話號碼，您必須輸入此電話號碼。 如果您要從擁有多個帳戶的帳戶移轉電話號碼，您可以查看帳單，或連連您的服務提供者或電信業者，以判斷您帳戶的 BTN 是什麼。
+BTN (帳單) 是包含在帳單上且由服務提供者或電信業者計費的主要電話號碼。 如果您從只有一個電話號碼的帳戶移轉電話號碼，您必須輸入此電話號碼。 如果您要從擁有多個帳戶的帳戶移轉電話號碼，您可以查看帳單，或連連您的服務提供者或電信業者，以判斷您帳戶的 BTN 是什麼。
 
 ## <a name="what-should-i-put-in-for-the-account-number"></a>我應該為帳戶號碼放入什麼？
 
-一般來說，您可以在服務提供者或電信公司的任何帳單或發票上找到帳戶號碼，也可以登入電信公司的網站。 如果您仍然不知道帳戶號碼，您可以與您的服務提供者或電信公司聯繫以取得。
+一般來說，您可以在服務提供者或電信公司的任何帳單或發票上找到帳戶號碼，也可以登入您的電信公司網站。 如果您仍然不知道帳戶號碼，您可以與您的服務提供者或電信公司聯繫以取得。
   
 > [!CAUTION]
->  請務必在輸入服務提供者或電信業者帳戶號碼時，確保不使用空格、破折號或連字號。
+>  請務必在輸入服務提供者或電信業者帳戶號碼時，使用空格、破折號或連字號。
 
 ## <a name="what-should-i-put-in-for-the-organization-name"></a>我應該為組織名稱輸入什麼？
 

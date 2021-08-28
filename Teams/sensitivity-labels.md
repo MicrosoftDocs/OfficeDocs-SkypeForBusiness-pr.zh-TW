@@ -14,25 +14,25 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何使用敏感度標籤來保護團隊Microsoft Teams。
-ms.openlocfilehash: 407b5f09322cf00e4dfe7a29bd513caa7476623cfeac5099019cc2c3ffb6a248
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d00ebe1861596ddb41e852c7e8fe6360df024ab7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275939"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621955"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>自訂的敏感度Microsoft Teams
 
-[敏感度標籤](/microsoft-365/compliance/sensitivity-labels)Teams管理員保護並規範在團隊內共同合作期間所建立之機密組織內容的存取權。 在 Microsoft 合規性中心中設定敏感度標籤及其關聯原則[](/microsoft-365/compliance/go-to-the-securitycompliance-center)之後，這些標籤可以適用于貴組織的小組。
+[敏感度標籤](/microsoft-365/compliance/sensitivity-labels)Teams管理員保護並規範在小組內共同合作期間所建立之機密組織內容的存取權。 在 Microsoft 合規性中心中設定敏感度標籤及其關聯原則[](/microsoft-365/compliance/go-to-the-securitycompliance-center)之後，這些標籤可以適用于貴組織的小組。
 
 對於使用教育用 SKUS 的客戶，課程團隊目前不支援敏感度Teams標籤。 若要深入瞭解授權，請參閱Microsoft Teams[描述](/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>敏感度標籤和分類Teams的差異？
 
-敏感度標籤與分類標籤不同，也稱為 Azure AD 群組分類。 分類標籤是一種文字字串，可以與Microsoft 365群組相關聯，但沒有任何與其相關聯的實際政策。 您可以使用分類標籤做為中繼資料，然後必須使用其他方法 ，例如內部工具和腳本，以強制執行策略。
+敏感度標籤與分類標籤不同，也稱為 Azure AD 群組分類。 分類標籤是一種文字字串，可以與Microsoft 365群組相關聯，但沒有任何實際的相關政策。 您可以使用分類標籤做為中繼資料，然後必須使用其他方法 ，例如內部工具和腳本，以強制執行策略。
 
 使用敏感度標籤的好處，是透過 Microsoft 365 群組平臺、合規性中心及服務的組合，自動強制執行其Teams策略。 敏感度標籤提供強大的基礎結構支援，可保護組織的機密資料，並確保符合您的內部政策或法規。
 
@@ -82,24 +82,24 @@ ms.locfileid: "54275939"
 
 ## <a name="limitations"></a>限制
 
-在您將敏感度標籤用於Teams，請注意下列限制：
+使用敏感度標籤Teams，請注意下列限制：
 
 - **子標記不會顯示父標籤名稱**
     
-    Teams子標籤，但不顯示父標籤的名稱。 例如 **，機密** \\ **所有員工會顯示** 為 **所有員工**。
+    Teams子標記，但不顯示父標籤的名稱。 例如 **，機密** \\ **所有員工會顯示** 為 **所有員工**。
 
-- **API、PowerShell Cmdlet 和範本不支援敏感度標籤Teams Graph Api、PowerShell Cmdlet 和範本**
+- **敏感度標籤不受 api、PowerShell Cmdlet Teams Graph及範本支援**
     
-    使用者無法透過 Teams Graph API、PowerShell Cmdlet 和 Teams建立團隊時指定敏感度標籤Teams標籤。 不過，新式Graph API 和 PowerShell Cmdlet 允許使用標籤建立群組。 因此，使用者可以先使用群組或 powerShell Cmdlet 建立具有標籤的群組Graph，然後將這些群組轉換成 Teams。
+    使用者無法透過 Teams Graph API、PowerShell Cmdlet 和 Teams建立團隊時，指定敏感度Teams標籤。 不過，新式Graph API 和 PowerShell Cmdlet 允許使用標籤建立群組。 因此，使用者可以先使用群組或 PowerShell Cmdlet 使用標籤Graph群組，然後將這些群組轉換成 Teams。
 
 - **支援私人頻道**
     
-    在團隊中建立的私人頻道會繼承已用於團隊的敏感度標籤。 同一個標籤會自動SharePoint專用頻道的網站集合。
+    在團隊中建立的私人頻道會繼承已用於團隊的敏感度標籤。 同一個標籤會自動SharePoint專用頻道的網站集合上。
     
     不過，如果使用者直接變更私人頻道SharePoint網站的敏感度標籤，該標籤變更不會反映在 Teams中。 在此情境中，使用者會繼續在私人頻道標題中看到在小組上所應用的原始敏感度標籤。
 
 ## <a name="how-to-create-and-configure-sensitivity-labels-for-teams"></a>如何建立及設定敏感度標籤Teams
 
-使用檔中提供的指示Microsoft 365建立及設定敏感度標籤Teams： 
+使用檔指示Microsoft 365建立及設定敏感度標籤Teams： 
 
 - [使用敏感度標籤來保護網站Microsoft Teams、Microsoft 365群組SharePoint內容](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。

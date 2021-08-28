@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
 description: NetworkConfigurationSettings 檢視儲存了網路組態的資訊。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 7745a8248568fb488cf30363a4e42227d99a95cb79d22b05168a19a7e9e89829
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b04f425d39b95006765dbc6b8f694624da1ca8d5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315399"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635867"
 ---
 # <a name="networkconfigurationsettings-view"></a>NetworkConfigurationSettings view
  

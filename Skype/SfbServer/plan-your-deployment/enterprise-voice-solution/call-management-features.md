@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: 商務用 Skype Server 企業語音中支援的呼叫管理功能的概覽。
-ms.openlocfilehash: c0cbeb9a659f815c72f36db9ebd426b718b9483d198bd6a65d3f9488701cca19
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e51194792e7b3162c17a9ac2c0a35310f5d60e64
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306894"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622145"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>在商務用 Skype 中規劃通話管理功能
 
