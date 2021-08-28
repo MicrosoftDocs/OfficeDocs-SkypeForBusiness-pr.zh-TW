@@ -12,15 +12,15 @@ ms.custom:
 - ms.lync.plan.Mobility
 - ms.lync.plan.Mobility
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: 商務用 Skype Server 的行動功能支援行動裝置上商務用 Skype 功能。
-ms.openlocfilehash: f8853aedbfcb59f43452c9d48eba9c782255b0005d90a27767dc939f522eb5c4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c03de74d6c67b005938405700ad5331030839001
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342518"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582997"
 ---
 # <a name="skype-for-business-server-mobility-planning-tool"></a>商務用 Skype Server行動計畫工具
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficesScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 description: '[分支網站] 節點會列出與此中央網站關聯的分支網站。您可以執行下列動作：'
-ms.openlocfilehash: af440d91320d50b461bc874030d271cbd2214802f34040fac7e29df818d0436f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f63bc042f311ba866d198b2f2ac63a5ab6293115
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333755"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582777"
 ---
 # <a name="branch-offices-scope-node"></a>Branch Office 範圍節點
  

@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用 [選取企業語音使用者] 對話方塊，尋找已啟用企業語音的使用者。 在搜尋方塊中，輸入您要尋找之使用者的 SIP 位址或顯示名稱，然後按一下 [尋找]。 若要選取使用者，請按一下搜尋結果清單中的使用者，然後按一下 [確定]。 如果您找不到所要尋找的使用者，則該使用者可能未啟用企業語音。
-ms.openlocfilehash: 67ccafdcaa4db3a235fcf4176379ed5cb7647b3ae2a4cfc5c642cca82a991bf7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 25430def4c98cc074ca76058b54df51da9b5a758
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328538"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583127"
 ---
 # <a name="select-enterprise-voice-users"></a>選取企業語音使用者
  

@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Priority
+ms.localizationpriority: high
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 適用 Microsoft 365 Business Voice 的國家與地區。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e56b1c4314989a8f3868aacc613c3742a48f39502d80a3bd9cb8168e8d2549e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a83764b0741dad4859c5faaa3b955a38dbb41257
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332975"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630277"
 ---
 # <a name="country-and-region-availability-for-business-voice"></a>Business Voice 的適用國家與地區
 
@@ -30,7 +30,7 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 
 部分 Business Voice 功能 (特別是通話方案和快速入門精靈) 僅適用於特定國家與地區。 這些功能是否能在租用戶的位置使用決定您是否可以自行設定，或需要由 Microsoft 合作夥伴或轉銷商協助。
 
-在 **** 支援 [通話方案] 的國家和地區，您可以從 Microsoft 購買 Business Voice，然後設定或然後設定或轉移您現有的電話號碼到 Microsoft。 這樣做可讓您在 Microsoft 365 中管理所有電話號碼。 完成移轉至 Business Voice 之後：
+在 **具有** 支援 [通話方案] 的國家和地區，您可以從 Microsoft 購買 [商務語音]，然後設定或然後設定或轉移您現有的電話號碼到 Microsoft。 這樣做可讓您在 Microsoft 365 中管理所有電話號碼。 完成移轉至 Business Voice 之後：
 
 - Microsoft 365 會成為您的電信業者，國內當地和長途電話會隨附於 Business Voice中。 Microsoft 會直接向您收取免費和國際長途電話費用。
 - 您不再需要訂閱協力廠商電信業者來管理您的電話號碼。
@@ -38,7 +38,7 @@ Microsoft 365 Business Voice 可於 70 幾個國家與地區使用。 可使用 
 
 如果您的租用戶位在支援 [通話方案] 國家或地區，請查看 [我需要購買什麼，才能使用具有 [通話方案] 的 Microsoft 365 商務語音？](what-to-buy.md)
 
-在 **不** 支援 [通話方案] 的國家和地區，您需要向 Microsoft 合作夥伴或轉銷商購買 Business Voice。 這會與協力廠商電信業者合作，以在內部部署電話語音硬體和 Microsoft 365 之間設定直接路由。
+在 **不** 支援 [通話方案] 的國家和地區，您需要向 Microsoft 合作夥伴或轉銷商購買 [商務語音]。 這會與協力廠商電信業者合作，以在內部部署電話語音硬體和 Microsoft 365 之間設定直接路由。
 
 - 您的電信業者不會改變。所有當地、長途和免付費電話會由您現有的協力廠商電信業者進行計費。
 - 您的電信業者會繼續管理您的電話號碼。 如果要新增或移除電話號碼，您需要與電信業者協調變更。

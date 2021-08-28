@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 您可以刪除 [外部存取原則] 頁面的 [商務用 Skype Server 控制台] 中所列的任何網站或使用者原則。
-ms.openlocfilehash: 99daff71590c6296a7f3a68405726c2854afae1c
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: dc8ebdd0fc37d638f4d129dd995ebd2f179b0026
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235498"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582757"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>刪除外部使用者存取的網站或使用者原則
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 若要編輯現有 Survivable Branch 裝置或 Survivable Branch 伺服器的設定，您會看到下列區段：
-ms.openlocfilehash: 5c8791661ff32c6cb40b968297d11595f5873bcf0b1cf0ce50078e41e713d68a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 727b0b7c49df5d1478a0b92ee89801fabb18d1f5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276998"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58582827"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Branch Office Appliance 一般設定展開工具
 

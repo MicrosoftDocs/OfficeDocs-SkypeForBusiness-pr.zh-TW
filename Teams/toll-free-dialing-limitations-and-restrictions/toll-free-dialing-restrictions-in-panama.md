@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解在巴托馬撥打免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
-ms.openlocfilehash: e00830c9ee740ddd1108bc4952cff9349ba7c13d1b47edc7a7c8f9dd0bb9f84e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a6c07bb9cd61469bca298c5190f4c68aee5b04d5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330837"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629925"
 ---
 # <a name="toll-free-dialing-restrictions-in-panama"></a>在巴托馬省免付費撥號限制
 
@@ -40,12 +40,12 @@ ms.locfileid: "54330837"
 |:-----|:-----|
 |免付費通話是否可用？  <br/> |是  <br/> |
 |撥號格式 ()   <br/> | 00-800-XXX-XXXX <br/> |
-|國家/地區 ISO 代碼  <br/> |Pa  <br/> |
+|國家/地區 ISO 代碼  <br/> |PA  <br/> |
 |涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |僅從 C &amp; W。  <br/> |
 |行動網路可用性  <br/> |否  <br/> |
-|批註、限制和存取問題  <br/> |客戶必須先撥打 011 (國際長途電話的) 號碼之後再撥打免付費號碼。  <br/> |
+|批註、限制和存取問題  <br/> |客戶必須先撥打 011 (國際長途電話的) 號碼，再撥打免付費號碼。  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 

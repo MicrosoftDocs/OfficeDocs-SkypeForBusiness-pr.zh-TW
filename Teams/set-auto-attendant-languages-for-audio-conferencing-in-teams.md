@@ -15,25 +15,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解如何在 Microsoft Teams 中為音訊會議號碼選取音訊會議自動語音Microsoft Teams。
-ms.openlocfilehash: 1238cebfa9be1c37e6754234338273738f06e07a8e495631361cb76fdcbc63cb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 427510e5026a5812ab14db21a7410c4d9c3e2a8f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280638"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630055"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>在音訊會議中設定自動語音Microsoft Teams
 
-音訊會議自動語音Microsoft Teams語音通話者加入會議時，可以使用多種語言向來電者打招呼。
+音訊會議自動語音Microsoft Teams語音通話者加入會議時，可以使用多種語言向來電者問候。
   
-選擇一種主要語言，最多四種次要語言。 您設定的主要語言會先使用，而次要語言會由自動翻譯使用，以便您選取。 
+選擇一種主要語言，最多四種次要語言。 您設定的主要語言會先使用，而次要語言會由自動翻譯以您選取的順序使用。 
   
 > [!NOTE]
 >  您只可以變更專屬類別之音訊會議號碼的語言。 無法變更共用音訊會議號碼的語言。
@@ -47,7 +47,7 @@ ms.locfileid: "54280638"
 
 1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。
 
-2. 從 **清單中** 選取 [專用音訊會議電話號碼，然後按一下頁面頂端的 [ **編輯**> 。 只能變更專用音訊會議號碼的語言。 只有在 **已** 選取專用音訊會議號碼時，才能顯示編輯選項。
+2. 從 **清單中** 選取專用音訊會議電話號碼，然後按一下頁面頂端的 [ **編輯**。 只能變更專用音訊會議號碼的語言。 只有在 **已** 選取專用音訊會議號碼時，才能顯示編輯選項。
 
 3. 在右側窗格中，選擇您想要的預設語言及任何替代語言。 
  
@@ -63,11 +63,11 @@ ms.locfileid: "54280638"
     
 - 語言可以設定為專用，但不能設定為共用電話號碼。
     
-- 若要查看使用 Microsoft 作為提供者的 Microsoft 365 或 Office 365 音訊會議可用的國家/地區清單，請參閱音訊會議電話[號碼。](phone-numbers-for-audio-conferencing-in-teams.md)
+- 若要查看使用 Microsoft 作為提供者Microsoft 365或Office 365音訊會議的國家/地區清單，[請參閱](phone-numbers-for-audio-conferencing-in-teams.md)音訊會議電話號碼。
     
 ## <a name="want-to-use-windows-powershell"></a>想要使用Windows PowerShell？
 
-請參閱[powerShell Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)參考資料以瞭解更多資訊。
+詳細資訊[Microsoft Teams PowerShell 參考](/powershell/module/teams/?view=teams-ps)。
   
 ## <a name="related-topics"></a>相關主題
 

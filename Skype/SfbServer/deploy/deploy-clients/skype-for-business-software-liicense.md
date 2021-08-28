@@ -9,15 +9,15 @@ ms.topic: quickstart
 f1.keywords:
 - NOCSH
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: 閱讀此主題以瞭解如何檢查您是否有商務用 Skype 的軟體大量授權。
-ms.openlocfilehash: c1294df980a1fca2118e6ca2e9b172904365639900081fad7425b4d850501fdc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 23ea556a8afd7160e20a1ddd0b4e1d044761d4d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297609"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583327"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype會議室系統：商務用 Skype 軟體授權
  

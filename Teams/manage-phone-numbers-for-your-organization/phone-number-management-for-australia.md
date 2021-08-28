@@ -13,18 +13,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在澳洲地區取得及管理電話號碼Microsoft Teams。
-ms.openlocfilehash: c9f74c8f3cb427c0b9870d0892a12ce4770dbb56
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 156fe90556f63aaadc298b2b7c4340f5e9aa1c33
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233838"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630145"
 ---
 # <a name="phone-number-management-for-australia"></a>澳洲的電話號碼管理
 
@@ -41,8 +41,8 @@ ms.locfileid: "58233838"
 |取得澳洲通話方案的新使用者電話號碼。   <br/> |如需 [使用者的新](https://aka.ms/TelstraVoicePlan) 電話號碼，請聯絡 Telstra 通話。 接著，他們會將這些數位新增到貴組織，好讓您可以將這些數位指派給使用者。 <br/>
 |如果您用的是 Telstra 通話，您可能會取得新的服務電話號碼，可與雲端自動電話機和澳洲電信的通話佇列一起使用。 <br/> |如需 [新的電話號碼，](https://aka.ms/TelstraVoicePlan) 請聯絡 Telstra 通話。 接著，他們會將這些數位新增到貴組織，好讓您可以將這些號碼指派給自動電話機和通話佇列。 如果您 **不是使用** Telstra 通話，請聯絡我們的 Microsoft 號碼管理服務台，向 Microsoft 取得服務號碼。 [如需指示，](contact-pstn-service-desk.md) 請連連 PSTN 服務台，我們會儘快協助您。 <br/>|
 |取得澳洲音訊會議的新服務電話號碼。   <br/> |[連上 PSTN 服務台](contact-pstn-service-desk.md)。|
-|為使用者、自動Microsoft 365或Office 365轉接電話號碼。  <br/> | 請 [聯絡 Telstra 通話](https://aka.ms/TelstraVoicePlan) 以轉接電話號碼。 接著，他們會將這些數位新加到貴組織。  <br/> |
-|將電話號碼轉接至Microsoft 365或Office 365電話，以用於音訊會議。  |[如需指示，請連連 PSTN 服務台](contact-pstn-service-desk.md) |
+|為使用者、自動Microsoft 365和Office 365，將電話號碼轉接至電話或通話佇列。  <br/> | 請 [聯絡 Telstra 通話](https://aka.ms/TelstraVoicePlan) 以轉接電話號碼。 接著，他們會將這些數位新加到貴組織。  <br/> |
+|將電話號碼轉接到Microsoft 365或Office 365音訊會議使用。  |[如需指示，請連連 PSTN 服務台](contact-pstn-service-desk.md) |
 |變更指派給有通話方案電話號碼的使用者的緊急位址。 |請 [聯絡 Telstra 通話](https://aka.ms/TelstraVoicePlan) 以變更緊急位址。 他們可以更新這項資訊。|
 |將使用者號碼變更為服務號碼。 |使用 Telstra 通話時支援。|
 |讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請連連 [PSTN 服務台以尋找指示](contact-pstn-service-desk.md)。 |

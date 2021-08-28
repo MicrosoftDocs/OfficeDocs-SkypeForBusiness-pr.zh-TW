@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台建立或修改撥號對應表。
-ms.openlocfilehash: 3b2a1e9189f2e54eff0db79ea11732ba5175f4fc6825bb7a71615422b2f9f4dc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e5e7f7cc0fc2edf0707025ed4b5e901c0a199021
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281266"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58607630"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改撥號對應表
 
@@ -88,7 +88,7 @@ ms.locfileid: "54281266"
 
 11.  (選用) 請輸入號碼以測試撥號對應表，然後按一下 [ **移至**]。 測試結果會顯示在 [ **輸入要測試的號碼**] 底下。
 
-12. 按一下 ****[確定]。
+12. 按一下 [確定]。
 
 13. 在 [ **撥號** 對應表] 頁面上，按一下 [ **認可**]，然後按一下 [ **全部認可**]。
 
@@ -150,7 +150,7 @@ ms.locfileid: "54281266"
     > [!NOTE]
     > 您可以儲存尚未通過測試的撥號對應表，然後再加以重新設定。 如需詳細資訊，請參閱 [測試語音路由](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing)。
 
-12. 按一下 ****[確定]。
+12. 按一下 [確定]。
 
 13. 在 [ **撥號** 對應表] 頁面上，按一下 [ **認可**]，然後按一下 [ **全部認可**]。
 

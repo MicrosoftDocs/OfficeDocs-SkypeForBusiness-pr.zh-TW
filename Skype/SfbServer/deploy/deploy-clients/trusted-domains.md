@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fb63ad4-6eda-4724-be63-10bf5e65cb2b
 description: 閱讀此主題以瞭解如何設定 Skype 會議室系統和商務用 Skype 的信任網域。
-ms.openlocfilehash: 0cdf7806a40dbbe440614e7d9407926cb17a6a2e817a73c6c0026b0d7078ee19
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fae745d1380e8d75d88e446275d7073e92ae5632
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298723"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583267"
 ---
 # <a name="skype-room-system-trusted-domains"></a>Skype會議室系統信任的網域
  

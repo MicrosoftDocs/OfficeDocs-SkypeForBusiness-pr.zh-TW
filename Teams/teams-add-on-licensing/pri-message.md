@@ -1,5 +1,5 @@
 ---
-title: 傳送訊息Teams優先順序通知
+title: 郵件中的優先順序Teams通知
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -14,22 +14,22 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解郵件訊息中的Microsoft Teams通知。
-ms.openlocfilehash: f5d68de25daebe79604d8069966a855e0c5b2db9971c35e973c0a726df92bbcd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b8ee9173aa0b6da0bfc72d8b9ebbf68047c4df69
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316669"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629985"
 ---
 # <a name="messaging-policies-licensing"></a>訊息原則授權
 
-我們聽到全球各地客戶聽到 COVID-19 (冠狀病毒) 大流行如何帶來新的挑戰，因為他們努力處理日常作業中的大幅變化。 在快速變化的狀況中，能夠直接與團隊成員快速聯繫，對於在緊急回應期間維持商務持續性，以及我們中的許多人返回工作場所至關重要。
+我們聽到全球各地客戶聽到 COVID-19 (冠狀病毒) 大流行如何帶來新的挑戰，因為他們努力處理日常作業中的大幅變化。 在快速變化的狀況下，能夠直接與團隊成員快速聯繫，對於在緊急回應期間維持商務持續性，以及我們中的許多人返回工作場所至關重要。
 
 Microsoft Teams 優先順序通知最初于 2019 年 6 月宣佈，可讓使用者持續傳送通知，每兩分鐘重複一次，最多 20 分鐘，所有標示為緊急的郵件。 [](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462) 2020 年下半年之前，優先通知Teams所有客戶進行促銷。
 

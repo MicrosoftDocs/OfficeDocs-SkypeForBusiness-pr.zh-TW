@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 如何解除委任內部部署商務用 Skype 環境的指示。
-ms.openlocfilehash: 0f1b25c6960739992913f31a89a9f554fb180e949df3e6dd213b5fbe14c4af82
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 53ed840c89ab02eff87607f0bdffebcef94fd4e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280348"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583387"
 ---
 # <a name="decommission-your-on-premises-skype-for-business-environment"></a>解除您的內部部署商務用 Skype 環境
 
@@ -35,11 +35,11 @@ ms.locfileid: "54280348"
 
 若要完成從內部部署到雲端的移動，並解除委任您的內部部署商務用 Skype Server 環境，您必須依下列順序完成下列步驟：
 
-- **步驟1。** [將所有必要使用者從內部部署移至線上](decommission-move-on-prem-users.md)。
+- **步驟 1.** [將所有必要使用者從內部部署移至線上](decommission-move-on-prem-users.md)。
 
-- **步驟2。** [停用您的混合](cloud-consolidation-disabling-hybrid.md)式設定。
+- **步驟 2.** [停用您的混合](cloud-consolidation-disabling-hybrid.md)式設定。
 
-- **步驟3。** [將混合應用程式端點從內部部署移至線上](decommission-move-on-prem-endpoints.md)。
+- **步驟 3.** [將混合應用程式端點從內部部署移至線上](decommission-move-on-prem-endpoints.md)。
 
-- **步驟4。** [移除您的內部部署商務用 Skype 部署](decommission-remove-on-prem.md)。
+- **步驟 4.** [移除您的內部部署商務用 Skype 部署](decommission-remove-on-prem.md)。
 
