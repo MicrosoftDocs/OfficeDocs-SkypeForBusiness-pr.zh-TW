@@ -10,15 +10,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: 針對位於商務用 Skype Server 上之使用者執行雲端式語音信箱的指示。
-ms.openlocfilehash: 8a0c04d90d77b0843ef8b9097abec91c04ee7bb336bf04e0cbfcc9c7fe5fe38a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4f38c181c84edb695fce54d6da805482563cfe01
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337253"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625745"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>為內部部署使用者設定雲端語音信箱服務
 

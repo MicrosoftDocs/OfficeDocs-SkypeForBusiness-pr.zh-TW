@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
-description: 瞭解如何在 Microsoft Teams 中準備組織的服務品質 (QoS) 網路。
-localization_priority: Normal
+description: 瞭解如何在 (中準備組織的服務品質) QoS) Microsoft Teams。
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b5bdfb924376170540985c586ac21c17f09ad978303ea9790d63563ec686b727
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3547f23d43f07d8de28ba8ca53626be119de30de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326189"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595285"
 ---
-# <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 (中 (QoS) 服務品質Microsoft Teams
+# <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 (中) QoS Microsoft Teams
 
-Microsoft Teams 中的服務品質 (QoS) 可讓對網路延遲敏感的即時網路流量 (例如語音或視音訊流) 在較不敏感的流量 (例如下載新 App 時，在流量前面「分列」) 。 QoS 會Windows群組原則物件和埠型存取控制清單，以即時資料流識別並標記所有封包。 這可協助您的網路提供語音、視視和螢幕分享的私人網路絡頻寬部分。
+Microsoft Teams 中的服務品質 (QoS) 可讓對網路延遲敏感的即時網路流量 (例如語音或視音訊流) 在較不敏感的流量 (例如下載新 App 時，「直接中斷」流量，因為要下載的第二秒並不大) 。 QoS 會Windows群組原則物件和埠型存取控制清單，以即時資料流識別並標記所有封包。 這可協助您的網路提供語音、視視和螢幕分享的私人網路絡頻寬部分。
 
 如果您支援一大群遇到本文所述之任何問題的使用者，您可能需要執行 QoS。 使用者很少的小型企業可能不需要 QoS，但即使在那裡也應該有説明。
 
@@ -37,7 +37,7 @@ Microsoft Teams 中的服務品質 (QoS) 可讓對網路延遲敏感的即時網
 
 - 抖動 – 以不同費率抵達的媒體封包，可能會導致通話中缺少文字或音節
 - 封包遺失 – 封包遺失，這也會降低語音品質，且難以理解語音
-- RTT (RTT) 延遲的往返時間 – 媒體封包需要很長的時間到達目的地，這會造成交談中的雙方之間明顯延遲，並造成彼此互相交談
+- RTT () 延遲的往返時間 – 媒體封包需要很長的時間到達目的地，這會造成交談中的雙方之間明顯延遲，並造成彼此互相交談
 
 若要解決這些問題，最不復雜的方法就是增加內部與網際網路之間的資料連線大小。 由於這通常成本高，QoS 提供一種更有效地管理您擁有的資源的方式，而不是新增頻寬。 若要解決品質問題，建議您先使用 QoS，然後只在必要時新增頻寬。
 
@@ -58,15 +58,15 @@ _圖 1.組織網路與服務Microsoft 365 Office 365關係_
 1. [針對每個媒體類型選擇初始埠範圍](#choose-initial-port-ranges-for-each-media-type)。
 
 1. 實現 QoS 設定：
-   1. 在用戶端使用群組原則物件 (GPO) 設定 [用戶端裝置埠範圍和標記](QoS-in-Teams-clients.md)。
-   2. 在路由器 (查看製造商檔) 或其他網路裝置。 這可能包括以埠為基礎的存取控制清單 (ACL) 或直接定義 QoS 佇列和 DSCP 標記，或所有這些標記。
+   1. 在使用群組原則物件或 GPO (用戶端) 設定 [用戶端裝置埠範圍和標記](QoS-in-Teams-clients.md)。
+   2. 在路由器 (查看製造商檔) 或其他網路裝置。 這可能包括埠式存取控制清單 (ACL) 或直接定義 QoS 佇列和 DSCP 標記，或所有這些標記。
 
       > [!IMPORTANT]
       > 我們建議您使用用戶端來源埠，以及 「任何」的來源與目的地 IP 位址來執行這些 QoS 策略。 這會在內部網路上同時捕獲傳入和傳出媒體流量。  
 
    3. [設定如何處理會議Teams流量](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)。
 
-5. [分析網路上流量](#validate-your-qos-implementation)Teams驗證您的 QoS 實現。
+5. [分析網路上流量](#validate-your-qos-implementation)Teams您的 QoS 實現。
 
 當您準備執行 QoS 時，請記住下列指導方針：
 
@@ -76,7 +76,7 @@ _圖 1.組織網路與服務Microsoft 365 Office 365關係_
 - 限制躍點數目：
   - 用戶端到網路邊緣 – 3 到 5 個躍點
   - ISP 到 Microsoft 網路邊緣 – 3 躍點
-  - Microsoft 網路邊緣到最終目的地 – 無關
+  - Microsoft 網路邊緣到最終目的地 – 不相關
 
 若要瞭解防火牆埠的組組資訊，請Office 365 [URL 和 IP 範圍](office-365-urls-ip-address-ranges.md)。
 
@@ -94,11 +94,11 @@ QoS 只有在對來電者之間的所有連結上執行時，才能如預期運�
 
 ## <a name="introduction-to-qos-queues"></a>QoS 佇列簡介
 
-若要提供 QoS，網路裝置必須擁有流量分類的方法，而且必須能夠區別語音或視像與其他網路流量。
+若要提供 QoS，網路設備必須擁有流量分類的方法，而且必須能夠區別語音或視像與其他網路流量。
 
 當網路流量進入路由器時，流量會置於佇列中。 如果未配置 QoS 策略，則只有一個佇列，且所有資料會視為優先、優先處理，優先順序相同。 這表示語音 (對於延遲非常) 可能會卡在流量後面，因為延遲幾毫秒不會是問題。
 
-當您實現 QoS 時，您可以使用多種擠塞管理功能之一來定義多個佇列，例如 Cisco 的優先順序佇列和以類別為基礎的加權公平佇列[ (CBWFQ) ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641)以及避免擠塞的功能，例如加權隨機早期偵測[ (WRED) 。](https://en.wikipedia.org/wiki/Weighted_random_early_detection)
+當您實現 QoS 時，您可以使用多種擠塞管理功能之一來定義多個佇列，例如 Cisco 的優先順序佇列和以類別為基礎的加權公平佇列 [ (CBWFQ) ](https://www.cisco.com/en/US/docs/ios/12_0t/12_0t5/feature/guide/cbwfq.html#wp17641) 以及避免擠塞的功能，例如加權隨機早期偵測 [ (WRED) ](https://en.wikipedia.org/wiki/Weighted_random_early_detection)。
 
 _圖 2.QoS 佇列範例_
 
@@ -108,31 +108,31 @@ _圖 2.QoS 佇列範例_
 
 ## <a name="select-a-qos-implementation-method"></a>選取 QoS 實現方法
 
-您可以使用 Access Control Lists (在您的網路路由器上) ACL，透過埠標記來實現 QoS。 埠型標記是最可靠的方法，因為它適用于混合式 Windows Mac 和 Linux 環境，而且最容易實現。 行動用戶端不會提供使用 DSCP 值來標記流量的機制，因此需要使用此方法。  
+您可以使用 Access Control Lists (在您的網路路由器上) ACL，透過埠型標記來實現 QoS。 埠型標記是最可靠的方法，因為它適用于混合式 Windows Mac 和 Linux 環境，而且最容易實現。 行動用戶端不會提供使用 DSCP 值來標記流量的機制，因此需要使用此方法。  
 
-使用埠標記，您的網路路由器會檢查傳入的封包，如果封包是使用特定埠或埠範圍抵達，它會將其識別為特定媒體類型，並置於該類型的佇列中，在 IP 封包標頭中新增預先確定 [DSCP](https://tools.ietf.org/html/rfc2474) 標記，讓其他裝置能夠識別其流量類型，並在其佇列中給予優先順序。
+使用埠標記，您的網路路由器會檢查傳入的封包，如果封包是使用特定埠或埠範圍抵達，它會將其識別為特定媒體類型，並置於該類型的佇列中，在 IP 封包標頭中新增預先確定 [DSCP](https://tools.ietf.org/html/rfc2474) 標記，讓其他裝置可以識別其流量類型，並在其佇列中給予優先順序。
 
 雖然埠型標記可跨平臺運作，但只會標記 WAN 邊緣的流量 (無法一路標記到用戶端電腦) 造成管理負荷。 請參閱路由器製造商提供的檔，以參閱如何執行這個方法的指示。
 
 ### <a name="insert-dscp-markers"></a>插入 DSCP 標記
 
-您也可以使用群組原則物件 (GPO) 來引導用戶端裝置在 IP 封包標頭中插入 DSCP 標記，以將其識別為特定流量類型 (例如語音) 。。 路由器和其他網路裝置可以進行配置，以識別這一點，並將流量放在另一個優先順序較高的佇列中。
+您也可以使用群組原則物件 (GPO) 來引導用戶端裝置在 IP 封包標頭中插入 DSCP 標記，以將其識別為特定流量類型 (例如語音) 。 路由器和其他網路裝置可以進行配置，以識別這一點，並將流量放在另一個優先順序較高的佇列中。
 
 雖然此案例完全有效，但僅適用于已加入網域Windows用戶端。 任何未加入網域的裝置Windows不會啟用 DSCP 標記。 其他用戶端 ，例如執行 macOS 的用戶端，都有硬式編碼標記，而且一定會標記流量。
 
-此外，透過 GPO 控制 DSCP 標記可確保所有加入網域的電腦都收到相同的設定，而且只有系統管理員可以管理這些設定。 可以使用 GPO 的用戶端會標記在原始裝置上，然後所配置的網路設備可以使用 DSCP 程式碼來識別即時資料流，並給予適當的優先順序。
+此外，透過 GPO 控制 DSCP 標記可確保所有加入網域的電腦都收到相同的設定，而且只有系統管理員可以管理這些設定。 可以使用 GPO 的用戶端會標記在原始裝置上，然後所配置的網路裝置可以使用 DSCP 程式碼來識別即時資料流，並給予適當的優先順序。
 
 ### <a name="best-practice"></a>最佳做法
 
-如果可能的話，我們建議在端點和路由器上的埠型 ACL 組合 DSCP 標記。 使用 GPO 來吸引大部分的用戶端，以及使用埠式 DSCP 標記，可確保行動、Mac 和其他用戶端仍獲得 QoS (至少部分) 。
+如果可能，建議您在端點處結合 DSCP 標記，以及路由器上的埠型 ACL。 使用 GPO 來吸引大多數的用戶端，以及使用埠型 DSCP 標記，可確保行動、Mac 和其他用戶端仍獲得 QoS (至少部分) 。
 
-DSCP 標記可以比對為貼上戳記，向郵政業者指出遞送的緊急性，以及如何以最佳方式排序，以快速遞送。 將網路設定為優先處理即時媒體流之後，遺失的封包和延遲的封包應該會大幅減少。
+DSCP 標記可以比對為貼上戳記，向郵政業者指出遞送的急迫性，以及如何以最佳方式排序，以快速遞送。 將網路設定為優先處理即時媒體流之後，遺失的封包和延遲的封包應該會大幅減少。
 
 一旦網路中所有的裝置都使用相同的分類、標記和優先順序，可以變更指派給每個流量類型之佇列的埠範圍大小，以減少或消除延遲、丟包和抖動。 從Teams的觀點，最重要的組組步驟是封包的分類和標記。 不過，若要讓端對端 QoS 成功，您也需要小心將應用程式的組式與基礎網路組組對齊。 完全實作 QoS 之後，持續管理就是根據貴組織的需求和實際使用量調整指派給每個流量類型的埠範圍的問題。
 
 ## <a name="choose-initial-port-ranges-for-each-media-type"></a>針對每種媒體類型選擇初始埠範圍
 
-DSCP 值會告知對應設定的網路要給予封包或資料流程的優先順序，無論 DSCP 標記是由用戶端指派，還是網路本身根據 ACL 設定指派。 每個媒體工作負載會獲得自己唯一的 DSCP 值 (其他服務可能會允許工作負載共用 DSCP 標記，Teams 不會) 以及每個媒體類型所使用的已定義和個別埠範圍。 其他環境可能有現有的 QoS 策略，這可協助您判斷網路工作負載的優先順序。
+DSCP 值會告知對應設定的網路要給予封包或資料流程的優先順序，無論 DSCP 標記是由用戶端指派，還是網路本身根據 ACL 設定指派。 每個媒體工作負載會獲得自己唯一的 DSCP 值 (其他服務可能會允許工作負載共用 DSCP 標記，Teams 不會) 以及每個媒體類型所使用的已定義和個別埠範圍。 其他環境可能有現有的 QoS 策略，可協助您判斷網路工作負載的優先順序。
 
 不同即時串流工作負載的埠範圍相對大小會設定該工作負載可用總頻寬的比例。 若要回到我們之前的郵政類比：一封有「Air Mail」戳記的信件，可能在一小時內取到最近的機場，而標示為「大宗郵件」標記的小包裹可以等候一天，然後再在陸地上的一系列貨車上旅行。
 
@@ -147,7 +147,7 @@ _建議的初始埠範圍_
 
 使用下列設定時，請注意下列事項：
 
-- 如果您打算在未來執行 ExpressRoute，但尚未實現 QoS，建議您遵循指引，讓 DSCP 值從寄件者到收件者之間相同。
+- 如果您打算在未來執行 ExpressRoute，但尚未執行 QoS，建議您遵循指引，讓 DSCP 值在從寄件者到接收者之間相同。
 
 - 所有用戶端 ，包括行動用戶端Teams裝置，都會使用這些埠範圍，並會受到您採用這些來源埠範圍的任何 DSCP 政策影響。 唯一繼續使用動態埠的用戶端是瀏覽器型用戶端， (允許參與者使用瀏覽器加入) 。
 
@@ -157,7 +157,7 @@ _建議的初始埠範圍_
 
 ## <a name="migrate-qos-to-teams"></a>將 QoS Teams
 
-如果您先前已部署 商務用 Skype ，包括 QoS 標記和埠範圍，而且目前正在部署中。 Teams，Teams會尊重現有的組配置，並使用與用戶端相同的埠範圍商務用 Skype標記。 在大多數情況下，不需要其他組組。
+如果您先前已部署 商務用 Skype ，包括 QoS 標記和埠範圍，而且目前正在部署中。 Teams，Teams會遵守現有的組配置，並使用與用戶端相同的埠範圍商務用 Skype標記。 在大多數情況下，不需要其他組組。
 
 > [!NOTE]
 > 如果您透過群組原則使用應用程式名稱 QoS 標記，您必須將 Teams.exe新增為應用程式名稱。
@@ -184,7 +184,7 @@ new-NetQosPolicy -Name "Teams Sharing" -AppPathNameMatchCondition "Teams.exe" -I
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>在系統管理中心管理Teams埠
 
-在 Teams中，應主動管理不同工作負載所使用的 QoS 來源埠，並在必要時進行調整。 參照每個媒體類型 [選擇](#choose-initial-port-ranges-for-each-media-type)初始埠範圍中的資料表，埠範圍可調整，但 DSCP 標記無法進行配置。 一旦實現這些設定，您可能會發現指定媒體類型需要更多或更少的埠。 每[使用者](use-call-analytics-to-troubleshoot-poor-call-quality.md)通話分析與通話品質儀表板[ (CQD) ](turning-on-and-using-call-quality-dashboard.md)應該用於決定在 Teams 已執行之後調整埠範圍，並視需求變更定期調整。
+在 Teams中，應主動管理不同工作負載所使用的 QoS 來源埠，並在必要時進行調整。 參照每個媒體類型 [選擇](#choose-initial-port-ranges-for-each-media-type)初始埠範圍中的資料表，埠範圍可調整，但 DSCP 標記無法進行配置。 一旦完成這些設定，您可能會發現指定媒體類型需要更多或更少的埠。 [](use-call-analytics-to-troubleshoot-poor-call-quality.md)每使用者通話分析與通話品質儀表板[ (CQD) ](turning-on-and-using-call-quality-dashboard.md)應該用於決定在 Teams 已執行之後調整埠範圍，並視需求變更定期調整。
 
 > [!NOTE]
 > 如果您已經根據 商務用 Skype Online 的源埠範圍和 DSCP 標記設定 QoS，相同的設定會套用至 Teams，而且不需要對映射進行進一步的用戶端或網路變更，不過您可能必須設定[Teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings)中使用的範圍，才能符合 商務用 Skype Online 的設定。

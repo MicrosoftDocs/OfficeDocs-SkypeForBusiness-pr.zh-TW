@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndCollocationsPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: 以 Enterprise Edition 部署而言，您可以將音訊/視訊會議服務、中繼伺服器或兩者都組合在前端集區上，或者，也可以將每一項各自部署為獨立伺服器。以 Standard Edition Server 部署而言，如果啟用會議，則一律會組合音訊/視訊會議服務。
-ms.openlocfilehash: dd26cbe684fdf5d5eeecd0a6a1f5b925d98b742a6baf9d081d9451be37afbf1f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c0efab1ee8b388a7d8dfa710c8937f314e83721e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346599"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626645"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>新增前端伺服器組合 2010
 

@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: 在商務用 Skype Server 中，管理工具是使用 Windows PowerShell 來執行。 Windows PowerShell 包括命令列環境、產品特有的命令，以及完整的指令碼語言。 使用 Windows PowerShell 所執行商務用 Skype Server 工具組括下列各項：
-ms.openlocfilehash: ec70b6acba93d2667f297dd17afc50507aa9e105041195ec7ffa34459fa2b878
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff8cafa49f502c14bd9d6f67de35e0109b30e44b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301329"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595325"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell 和商務用 Skype Server 管理工具
  

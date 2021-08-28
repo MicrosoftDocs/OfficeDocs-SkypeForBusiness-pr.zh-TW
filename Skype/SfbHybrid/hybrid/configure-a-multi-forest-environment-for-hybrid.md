@@ -9,7 +9,7 @@ ms.topic: article
 f1.keywords:
 - NOCSH
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 下列各節 descrbie 如何設定資源/使用者樹系模型中有多個樹系的環境，以提供混合式案例中的功能。
-ms.openlocfilehash: d622b225c03002e96c7f613a25d31fc047a52b5d8eb751364c62e9ad608d3edd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 146537c6b2ff51d6e2a68c0f4fbb59dfee55b1b6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277448"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625775"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>部署資源樹系拓撲
 

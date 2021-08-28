@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -17,14 +17,14 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在混合式環境中設定 Azure AD 連線的指示。
-ms.openlocfilehash: e9e043e8cded2e9e55741cd0abe37488c4b621c6fb7cbfc5e9fd1e35917f8b84
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 47c158928a9536b0be40833deaddf3fb9967be73
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54292480"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625785"
 ---
-# <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>針對 Teams 和商務用 Skype 設定 Configure Azure AD Connect
+# <a name="configure-azure-ad-connect-for-teams-and-skype-for-business"></a>為 Teams 和商務用 Skype 設定 Azure AD Connect
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 

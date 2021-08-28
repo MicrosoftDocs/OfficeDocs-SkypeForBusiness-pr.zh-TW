@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: 瞭解如何為貴組織的 IT 員工做好準備，以部署和支援Microsoft Teams。
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,25 +19,25 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dc29f8656b4fdd69d0e6e59338e91341d32cc7e283b4bdd2cfb5680192e248b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 53e0e8e57a7948947878fe93bcf358c83adeac52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343857"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618329"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>準備您的 IT 員工Microsoft Teams
 
 ![升級歷程圖，強調技術準備階段](media/upgrade-banner-tech-readiness.png "升級歷程的階段，強調技術準備階段")
 
-本文是升級過程中技術整備階段的一部分，此階段是您與使用者整備階段同時完成的活動。 繼續進行之前，請確認您已完成上述階段的活動：
+本文是升級過程中技術整備階段的一部分，此階段是您與使用者整備階段同時完成的活動。 在繼續進行之前，請確認您已完成上述階段的活動：
 
 - [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
 - [已定義專案範圍](./upgrade-define-project-scope.md)
 - [瞭解共同使用和商務用 Skype互通性Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [已選擇升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-您的Microsoft 365或Office 365組織系統管理員、技術主管和支援人員負責推動高品質的使用者體驗。 這包括確保您的網路準備好支援Teams、為Teams使用者Teams，以及有效疑難排解及解決可能的問題。
+您的Microsoft 365或Office 365組織系統管理員、技術主管和支援人員負責推動高品質的使用者體驗。 這包括確保您的網路準備好支援Teams、Teams使用者使用，以及有效疑難排解及解決可能的問題。
 
 與 IT 教職員成員共用下列資源，並確認他們已準備好支援使用者，然後再開始升級至Teams：
 

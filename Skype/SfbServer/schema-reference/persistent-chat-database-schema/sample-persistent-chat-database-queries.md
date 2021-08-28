@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 545b1a93-9758-4344-98cc-aa0e559d494f
 description: 本節包含 Persistent Chat 資料庫的範例查詢。
-ms.openlocfilehash: 0b79d7753d6fca7ef27c2274416d17793c9c886ab05bad6b485b899700a3df51
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 041726f4f9e24d9d291d73e119cd62524b0a6288
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337641"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595315"
 ---
 # <a name="sample-persistent-chat-database-queries"></a>範例常設聊天室資料庫查詢
  

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceFeaCallParkEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 description: 通話駐留號碼範圍定義在有人接聽或下班時，寄存通話保留的臨時號碼。
-ms.openlocfilehash: 4942863015f520a2751517c9cc08a4044ce348d1d563868e5dd56aadfa45c365
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cff59c434c88555fffbd3af5d74c70081e006ec0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311451"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618009"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>通話駐留：建立新的或編輯現有
 

@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 摘要：使用啟用商務用 Skype Server 的媒體旁路設定主幹。 這可讓您將轉送伺服器的數目降至最低，presuming 您的 SIP 主幹提供者支援該伺服器。
-ms.openlocfilehash: f009cc15279cde28b531747adf77a7adf89fa407efaa9a30ff731e37f2f23f0e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b7bb6be3e006043a59b833b5f9db26001c699847
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287622"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625625"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>商務用 Skype Server：設定具有媒體旁路的主幹
 
@@ -123,7 +123,7 @@ ms.locfileid: "54287622"
 
    - 若要編輯與此 PSTN 使用方式記錄相關聯的路由，請選取該路由，然後按一下 **[顯示詳細資料]**。
 
-     c. 按一下 ****[確定]。
+     c. 按一下 [確定]。
 
      > [!IMPORTANT]
      > 請務必將 PSTN 使用方式記錄與所設定之主幹相關聯的轉送伺服器對等相關聯。 若轉送伺服器對等是 PSTN 閘道或會話邊界控制器 (SBC) ，強烈建議您不要將主幹設定相關聯至 pstn 使用方式記錄，該記錄會路由傳送至 pstn 目的地或透過商務用 Skype Server 所連接的任何其他下游系統。

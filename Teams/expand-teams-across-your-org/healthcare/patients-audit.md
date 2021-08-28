@@ -9,19 +9,19 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: 瞭解為系統管理員稽核病患Teams應用程式
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dcd72dbe4c9b83b5f23faa0e01b4133e770822d5
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: b65dae205f7f7438482847ceb07e37a64609a534
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380607"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595057"
 ---
 # <a name="audit-logs-for-patients-app"></a>病患應用程式的稽核記錄
 
@@ -34,10 +34,10 @@ ms.locfileid: "58380607"
 
 ## <a name="meet-hipaa-requirements"></a>符合 HIPAA 需求
 
-根據 HIPAA 指導方針，醫療保健提供者必須保留所有 PHI 存取的記錄，以便對變更進行稽核。 Microsoft 承諾使用 MICROSOFT TEAMS，並致力於協助他們符合 HIPAA 需求和控制措施。 透過病患 App 存取 PHI 的功能會完全追蹤，Microsoft 365合規性中心提供記錄，如稽核記錄搜尋功能一文[所述](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
+根據 HIPAA 指導方針，醫療保健提供者必須保留所有 PHI 存取的記錄，以便對變更進行稽核。 Microsoft 致力於使用 MICROSOFT TEAMS 企業客戶，並協助他們符合 HIPAA 需求和控制措施。 透過病患 App 存取 PHI 的功能會完全追蹤，Microsoft 365合規性中心提供記錄，如稽核記錄搜尋功能一文[所述](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
 > [!IMPORTANT]
-> 根據法律，維護病患隱私權的重任是由醫療保健提供者承擔。 法律賦予病患隱私權，並規定 IT 系統管理員或 HIPAA 控制者可以輕鬆地判斷哪些護士、醫師或社會工作人員存取或變更病患記錄。 違反 PHI 存取權最常見的範例之一是存取至VIP 病患。 需要稽核記錄功能，才能針對任何 PHI 存取違規進行調查，並符合 HIPAA 需求。
+> 根據法律，維護病患隱私權的重任是由醫療保健提供者承擔。 法律賦予病患隱私權，並規定 IT 系統管理員或 HIPAA 控制者可以輕鬆地判斷哪些護士、醫師或社會工作人員存取或變更病患記錄。 違反 PHI 存取權最常見的範例之一是存取VIP 病患。 需要稽核記錄功能，才能針對任何 PHI 存取違規進行調查，並符合 HIPAA 需求。
 
 <!-- add an image from the security and compliance center audit log search page showing an event, Ansuman please let me know whether we need to copy an existing screen shot (and which one) or grab a new one -->
 
@@ -46,7 +46,7 @@ ms.locfileid: "58380607"
 稽核取決於幾個先前的配置：
 
 1. 系統管理員必須和 FHIR 服務提供者合作，以病患 App 所使用的格式使用 EMR。 
-2. 醫療保健提供者系統管理員必須啟用系統管理中心Teams App。 請參閱[管理應用程式設定Microsoft Teams](../../teams-app-setup-policies.md)相關文章以瞭解更多資訊。
+2. 醫療保健提供者系統管理員必須啟用系統管理中心Teams App。 請參閱[管理應用程式設定Microsoft Teams](../../teams-app-setup-policies.md)和相關文章以瞭解更多資訊。
 3. 系統管理員必須啟用活動稽核，就像啟用任何活動記錄稽核的方式一樣，如您開始之前和開啟[](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#before-you-begin)或關閉稽核記錄[搜尋](/office365/securitycompliance/turn-audit-log-search-on-or-off#turn-on-audit-log-search)中所述。 如果稽核記錄已經啟動，則病患應用程式不需要任何特殊功能。 每次醫療保健提供者在小組中安裝及執行應用程式時，稽核記錄會記錄其 PHI 活動。
 4. 然後系統管理員必須宣佈病患應用程式的可用性，而醫療保健工作者必須開始產生活動，才能納入稽核。
 
@@ -64,10 +64,10 @@ ms.locfileid: "58380607"
 |:---|:---|:---|
 | 已查看病患清單 | PatientListView | 使用者已查看病患清單。|
 | 已刪除的病患清單 | PatientListDelete | 使用者刪除了病患清單。|
-| 新增病患到清單 | PatientListAddPatient | 一位病患已新加入病患清單。 |
+| 新增病患到清單 | PatientListAddPatient | 病患已新加入病患清單。 |
 | 新增病患記事 | PatientNoteAdd | 已新增記事至病患記錄。 |
 | 建立病患架構 | PatientSchemaCreate | 已建立病患記錄中使用的一組資料行。 |
-| 使用者啟動匯出 | ExportInitiation | 病患資料從病患應用程式匯出至Excel檔案。 檔案會儲存于小組SharePoint網站。 |
+| 使用者啟動匯出 | ExportInitiation | 病患資料從病患應用程式匯出為Excel檔案。 檔案會儲存于小組SharePoint網站。 |
 | 已建立病患清單 | PatientListCreate | 使用者建立了病患清單。|
 | 設定預設病患清單| PatientListDefaultSet| 使用者將特定清單設定為預設清單。|
 | 從清單中移除病患| PatientListRemovePatient | 一位病患已從病患清單中移除。 |

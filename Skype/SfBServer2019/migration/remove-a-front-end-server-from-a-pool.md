@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 前端伺服器不能以獨立電腦形式存在。 它必須定義為前端集區，即使集區中只有一部電腦也一樣。
-ms.openlocfilehash: 962948c02e8890fce05db513e4839b4e179d23ebfad83e98003a88122e538d9a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b52954421034d83191e479e59d1efeeda8972868
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281356"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594997"
 ---
 # <a name="remove-a-front-end-server-from-a-pool"></a>從集區中移除前端伺服器
 

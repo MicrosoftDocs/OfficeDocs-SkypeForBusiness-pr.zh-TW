@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是印尼Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: a75e80f9201166965d09b4a7fdefd12e106c4002e3858862fd1aa5d1cba1a602
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb2f3ea15ca4d0bd4be26e9bcbd28b5c26fa2fc9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299351"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618619"
 ---
 # <a name="availability-in-indonesia"></a>印尼的可用性
 
@@ -69,7 +69,7 @@ ms.locfileid: "54299351"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> |Jakarta ([應要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |Jakarta ([根據要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
 |有提供付費電話號碼嗎？  <br/> |否  <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
    

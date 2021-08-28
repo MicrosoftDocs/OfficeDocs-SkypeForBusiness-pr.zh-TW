@@ -2,7 +2,7 @@
 title: 前線工作者快速入門手冊
 metadata:
   title: 快速入門 - Microsoft Teams前線工作人員
-  description: 根據敏捷原則和反覆運算 (，為前線員工設定有效的試驗，例如輪班、零) 或工廠員工。
+  description: 根據敏捷原則和反覆運算 (，針對第一線員工設定有效的試驗，例如輪班、零) 或工廠員工。
   audience: IT Pro
   level: Intermediate
   displayType: one-column
@@ -12,306 +12,112 @@ metadata:
   ms.service: msteams
   ms.topic: tutorial
   f1.keywords:
-    - NOCSH
-  localization_priority: Normal
+  - NOCSH
+  ms.localizationpriority: medium
   search.appverid: MET150
   ms.collection:
-    - M365-collaboration
-    - Teams_ITAdmin_FLW
-    - remotework
+  - M365-collaboration
+  - Teams_ITAdmin_FLW
+  - remotework
   appliesto:
-    - Microsoft Teams
+  - Microsoft Teams
+  ms.openlocfilehash: 7292284a7378cf7f6d5ed00cb452dbf2d7a3ec36
+  ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+  ms.translationtype: MT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 08/26/2021
+  ms.locfileid: "58603412"
 items:
-  - durationInMinutes: 2
-    content: |
-      在此訓練中，我們將引導您瞭解如何根據敏捷原則和反覆運算方法，為前線員工設定有效的試驗。 前線員工可能是工廠員工、零售專家、醫療保健專家或任何定期代表貴公司與客戶互動的員工。
+- durationInMinutes: 2
+  content: >
+    在此訓練中，我們將引導您瞭解如何根據敏捷原則和反覆運算方法，為前線員工設定有效的試驗。 前線員工可能是工廠員工、零售專家、醫療保健專家或任何定期代表貴公司與客戶互動的員工成員。
 
-      > [!NOTE]
-      > 在開始這項工作之前，請先檢查並完成[Teams環境相](upgrade-plan-journey-prerequisites.md)依性。
 
-      [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
+    > [!NOTE]
 
-      此訓練適用於以下人員：
-      -   IT 專業人員。
-      -   負責規劃或部署前線Teams員工。
+    > 在開始這項工作之前，請先檢查並完成[Teams環境相](upgrade-plan-journey-prerequisites.md)依性。
 
-      我們將討論以下部分：
-      -   讓人員聚在一起
-      -   規劃試驗物流
-      -   技術和試驗小組組組
-      -   溝通
-      -   措施
-      -   Iterate and expand
 
-      以下資訊超出範圍：
-      -   此內容會參考如何為前線Teams試驗做好準備的檔，但整體Teams組配置超出本文的範圍。
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-note.md)]
 
-      [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
 
-      如果您對此訓練有任何疑問或意見，您可以：
+    此訓練適用於以下人員：
 
-      -   張貼在本教程 [下一步] 頁面底部的註解區段。
+    -   IT 專業人員。
 
-      若要針對新功能提供產品Teams，例如新功能的構想，請流覽[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
-  - title: 讓人員聚在一起
-    durationInMinutes: 4
-    content: |
+    -   負責規劃或部署前線Teams員工。
 
-      召集來自企業、IT 和前線社群的一群人員，做為前線員工試驗Teams專案關係人與決策群組。 請務必包含這三個社群中的個人，為自己提供最佳的成功機會：
 
-      接下來，找出您的第 1 階段試驗社群，並確定它包含組織中最小邏輯群組的實際前線工作人員。 例如，一家餐廳、一家百貨商店的一個部門、一個商店、一個診所、一個區、一個植物、一個配送中心等等。 關鍵在於針對只有一個團隊的一般前線員工進行優化。 主管或專家可能超過一個：
+    我們將討論以下部分：
 
-      ### <a name="best-practice"></a>最佳做法
-      在最小的邏輯群組中納入所有角色非常重要，從主管到兼職或季節性員工，以探索寶貴的深入見解，並啟用新式通訊案例。 您最年少的員工會驚訝您！ 在試驗期間與範例客戶一起探索的一些令人愉快且非預期的寶貴案例包括：
-      -   標準化期望與訓練：拍攝乾淨火爐的圖片，向廚房教職員說明清潔是什麼意思。 「如果看起來不是這樣，就不是乾淨了！
+    -   讓人員聚在一起
 
-      -   減少縮減：拍攝已知店面竊工的圖片，並立即通知其他員工。 Teams輪班時，也會看到此圖來降低未來風險。
+    -   規劃試驗物流
 
-      ### <a name="decision-point"></a>決策點
-      在此階段結束時，您應該可以回答這些問題：
-      -   神秘將參與您的試驗？
+    -   技術和試驗小組組組
 
-      -   貴組織最小的邏輯群組是什麼？
-  - title: 規劃試驗物流
-    durationInMinutes: 4
-    content: |
+    -   溝通
 
-      對於前線員工來說，簡單性是成功試驗的關鍵！ 對大多數客戶來說，這個社群通常不會提供任何公司支援的通訊或共同技術，但可能已經運用不支援的消費者工具來完成一些基本需求。 建議的最佳作法是先從使用者目前位置開始，然後模仿他們目前在消費者工具中使用的功能。 隨著試驗進度和疊代程式開始，您可以增加體驗。
+    -   措施
 
-      ### <a name="not-sure-what-consumer-tools-these-users-are-currently-using"></a>不確定這些使用者目前使用哪些消費者工具？
-      第一線員工「在方塊中試驗」中包含的是範例使用者問卷。 利用試驗前問卷來清點工具、功能和案例。
+    -   Iterate and expand
 
-      ### <a name="chat-configuration-options"></a>聊天組組選項
-      在行動聊天中，您可以擁有一般傳統的聊天版面配置Teams或包含聊天中最愛的頻道的版面配置。 第二個簡化的 UI 適用于只有一個團隊的前線員工，也是建議的最佳作法。 設定「在聊天中顯示我的最愛頻道」也會建立一個從前線員工應用程式設定政策移除 「Teams」按鈕的機會，以進一步簡化及簡化使用者體驗，而不會遺失功能。 對於將在多個團隊中的使用者，不建議使用。 幸好，這項功能可以依據每個使用者進行配置，並隨著需求而成長。
 
-      ### <a name="best-practice"></a>最佳做法
-      設定前線體驗的第 1 階段Teams模仿這些使用者已經使用的消費者工具！ 我們建議您開始試驗前線員工使用「在聊天中顯示我的最愛頻道」，以簡化通訊和輪班 (選擇) 。
+    以下資訊超出範圍：
 
-      |  使用 Shifts  |  沒有班次  |
-      |---------------|------------------|
-      |:::image type="content" source="media/firstline-worker-chat-with-shifts.png" alt-text="已新增 Shifts 的電話螢幕擷取畫面":::    |:::image type="content" source="media/firstline-worker-chat-without-shifts.png" alt-text="未新增 Shifts 的電話螢幕擷取畫面":::|
+    -   此內容會參考如何為前線Teams試驗做好準備的檔，但整體Teams組配置超出本文的範圍。
 
-      ### <a name="decision-points"></a>決策點：
 
-      -  前線工作者的試驗階段 1 會提供哪些功能？
-      -  您的前線員工需要輪班嗎？
-      -  您將使用哪種聊天組組？
-  - title: 技術和試驗小組組組
-    durationInMinutes: 25
-    content: |
+    [!INCLUDE [tutorial-disclaimer-note](includes/tutorial-disclaimer-roadmap.md)]
 
-      如果您尚未這麼做，請完成本檔開頭所強調的技術先決條件，以及適用于[Teams。](upgrade-plan-journey-prerequisites.md) 瞭解技術先決條件並配置初始試驗小組，有效率的技術規劃是提供豐富使用者體驗的基礎。 這包括建立團隊並邀請識別的前線工作人員。
 
-      ### <a name="configure-and-assign-an-app-setup-policy-and-a-messaging-policy"></a>設定及指派應用程式設定策略和訊息策略
+    如果您對此訓練有任何疑問或意見，您可以：
 
-      > [!NOTE]
-      > 除了設定和指派個別策略外，您也可以設定並指派策略套件給前線員工和前線管理員。 若要深入瞭解，請參閱本文稍後的「設定及指派策略套件」一節。
 
-      #### <a name="configure-an-app-setup-policy"></a>設定應用程式設定策略
-      根據步驟 2 中的決策建立自訂應用程式設定策略。
+    -   張貼在本教程 [下一步] 頁面底部的註解區段。
 
-      1. 在系統管理中心的左側導 [Microsoft Teams，請](https://admin.teams.microsoft.com/)前往 Teams **設定>應用程式**。
-      1. 選取 **(** 有預設的 FirstLineWorker 策略，您可以選擇使用，而不是建立自訂) 。
-      1. 輸入策略的描述性名稱。 移除並重新排列固定的 App，以符合您想要的狀態。 按一下 **[新增應用程式** 以新增任何協力廠商應用程式或要包含的自訂商務應用程式。
 
-          :::image type="content" source="media/firstline-worker-pinned-apps.png" alt-text="釘上應用程式清單的螢幕擷取畫面":::
+    若要針對新功能提供產品Teams，例如新功能的構想，請流覽[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
+- title: 讓人員聚在一起
+  durationInMinutes: 4
+  content: "\n召集來自企業、IT 和前線社群的一群人員，做為前線員工試驗專案Teams專案關係人與決策群組。 請務必包含這三個社群中的個人，為自己提供最佳的成功機會：\n\n接下來，找出您的第 1 階段試驗社群，並確定它包含組織中最小邏輯群組的實際前線工作人員。 例如，一家餐廳、一家百貨商店的一個部門、一個商店、一個診所、一個區、一個工廠、一個配送中心等等。 關鍵在於針對只有一個團隊的一般前線員工進行優化。 主管或專家可能超過一個：\n\n### <a name=\"best-practice\"></a>最佳做法\n在最小的邏輯群組中納入所有角色非常重要，從主管到兼職或季節性員工，以探索寶貴的深入見解，並啟用新式通訊案例。 您最下級的員工會驚訝您！ 在試驗期間與範例客戶一起探索的一些令人愉快且非預期的寶貴案例包括：\n-   標準化期望與訓練：拍攝乾淨火爐的圖片，向廚房教職員說明清潔是什麼意思。 「如果看起來不像這樣，就表示它並不乾淨！\n\n-   減少縮減：拍攝已知店面竊工的圖片，並立即通知其他員工。 Teams輪班時，也會看到此圖來降低未來風險。\n\n### <a name=\"decision-point\"></a>決策點\n在此階段結束時，您應該可以回答這些問題：\n-   神秘將參與您的試驗嗎？\n\n-   貴組織最小的邏輯群組是什麼？\n"
+- title: 規劃試驗物流
+  durationInMinutes: 4
+  content: "\n對於前線員工來說，簡單性是成功試驗的關鍵！ 對大多數客戶來說，這個社群通常不會提供任何公司支援的通訊或共同技術，但可能已經運用不支援的消費者工具來完成一些基本需求。 建議的最佳作法是先從使用者目前使用的地方開始，然後模仿他們目前在消費者工具中使用的功能。 隨著試驗進度和疊代程式開始，您可以增加體驗。\n\n### <a name=\"not-sure-what-consumer-tools-these-users-are-currently-using\"></a>不確定這些使用者目前使用哪些消費者工具？\n第一線員工「在方塊中試驗」中包含的是範例使用者問卷。 利用試驗前問卷來清點工具、功能和案例。\n\n### <a name=\"chat-configuration-options\"></a>聊天組組選項\n在行動聊天中，您可以擁有一般傳統的聊天版面配置Teams或包含聊天中最愛的頻道的版面配置。 第二個簡化的 UI 適用于只有一個小組的前線員工，也是建議的最佳作法。 設定「在聊天中顯示我的最愛頻道」也會建立一個將 「Teams」 按鈕從前線員工應用程式設定政策移除的機會，以進一步簡化及簡化使用者體驗，而不會遺失功能。 對於將在多個團隊中的使用者，不建議使用。 幸好，這項功能可以依據每個使用者進行配置，並隨著需求而成長。\n\n### <a name=\"best-practice\"></a>最佳做法\n設定前線體驗的第 1 階段Teams模仿這些使用者已經使用的消費者工具！ 我們建議您開始試驗前線員工使用「在聊天中顯示我的最愛頻道」，以簡化通訊和輪班 (選擇) 。\n\n|  使用 Shifts  |  沒有班次  |\n|---------------|------------------|\n|:::image type=\"content\" source=\"media/firstline-worker-chat-with-shifts.png\" alt-text=\"已新增 Shifts 的電話螢幕擷取畫面\":::    |:::image type=\"content\" source=\"media/firstline-worker-chat-without-shifts.png\" alt-text=\"未新增 Shifts 的電話螢幕擷取畫面\":::|\n\n### <a name=\"decision-points\"></a>決策點：\n\n-  前線工作者的試驗階段 1 會提供哪些功能？\n-  您的前線員工需要輪班嗎？\n-  您將使用哪種聊天組組？\n"
+- title: 技術和試驗小組組組
+  durationInMinutes: 25
+  content: "\n如果您尚未這麼做，請完成本檔開頭所強調的技術先決條件，以及適用于[Teams。](upgrade-plan-journey-prerequisites.md) 瞭解技術先決條件並配置初始試驗小組，有效率的技術規劃是提供豐富使用者體驗的基礎。 這包括建立團隊並邀請識別的前線工作人員。\n\n### <a name=\"configure-and-assign-an-app-setup-policy-and-a-messaging-policy\"></a>設定及指派應用程式設定策略和訊息策略\n\n> [!NOTE]\n> 除了設定和指派個別策略外，您也可以設定並指派策略套件給前線員工和前線管理員。 若要深入瞭解，請參閱本文稍後的「設定及指派策略套件」一節。\n\n#### <a name=\"configure-an-app-setup-policy\"></a>設定應用程式設定策略\n根據步驟 2 中的決策建立自訂應用程式設定策略。\n\n1. 在系統管理中心的左側導 [Microsoft Teams，請](https://admin.teams.microsoft.com/)前往 Teams **設定>應用程式**。\n1. 選取 **(** 有預設的 FirstLineWorker 策略，您可以選擇使用，而不是建立自訂) 。\n1. 輸入策略的描述性名稱。 移除並重新排列固定的 App，以符合您想要的狀態。 按一下 **[新增應用程式** 以新增任何協力廠商應用程式或要包含的自訂商務應用程式。\n\n    :::image type=\"content\" source=\"media/firstline-worker-pinned-apps.png\" alt-text=\"釘上應用程式清單的螢幕擷取畫面\":::\n\n#### <a name=\"configure-a-messaging-policy\"></a>設定訊息策略\n根據步驟 2 中的決策建立自訂訊息策略。 如果您選擇啟用優先順序通知、語音留言或「在聊天中顯示我的最愛頻道」設定，則您必須設定前線員工的特定傳訊政策。\n\n1. 在系統管理中心的左側導 [Microsoft Teams，請](https://admin.teams.microsoft.com/)前往 **訊息策略**。\n1. 選取 [新增 **]**。\n1. 輸入策略的描述性名稱，並設定設定以符合步驟 2 中的決策。\n\n### <a name=\"assign-the-app-setup-policy-and-messaging-policy-to-users\"></a>將應用程式設定策略和訊息策略指派給使用者\n\n#### <a name=\"using-the-microsoft-teams-admin-center\"></a>使用 Microsoft Teams 系統管理中心\n\n將應用程式設定策略和訊息策略指派給試驗使用者。\n\n1. 在系統管理中心的左側導 [Microsoft Teams，選取](https://admin.teams.microsoft.com/)**使用者**。\n\n2. 根據名稱搜尋試驗使用者。\n\n    :::image type=\"content\" source=\"media/firstline-worker-users-page.png\" alt-text=\"系統管理中心的使用者頁面Teams螢幕擷取畫面\":::\n\n3. 按一下使用者的顯示名稱以開啟使用者詳細資料頁面。\n4. 在已 **指派之策略旁**， **選取** 編輯 。\n\n    :::image type=\"content\" source=\"media/firstline-worker-user-details-page.png\" alt-text=\"使用者詳細資料頁面的螢幕擷取畫面\":::\n\n5. 在 **[應用程式設定政策>** 下，選取為試驗建立的策略，然後按一下 [ **儲存**。\n6. 在 **[傳訊政策」** 下，選取為試驗建立的策略，然後按一下 [ **儲存**。\n\n    :::image type=\"content\" source=\"media/firstline-worker-edit-user-policies.png\" alt-text=\"編輯使用者政策窗格的螢幕擷取畫面\":::\n\n7. 針對所有試驗使用者重複這些步驟。\n\n#### <a name=\"assign-a-policy-based-on-group-membership-or-at-scale-through-a-batch-assignment\"></a>根據群組成員資格或批次指派的縮放比例指派策略\n\n如果您有許多使用者想要指派策略，您可以指派一個策略給使用者是成員或透過批次工作分派縮放的群組，或\n\n##### <a name=\"assign-a-policy-to-a-group\"></a>將策略指派給群組\n\n將策略指派給群組，讓您將策略指派給一組使用者，例如安全性群組或通訊群組清單。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。 此方法推薦用於最多 50000 個使用者的群組，但也適用於較大的群組。\n\n若要深入瞭解，請參閱 [將策略指派給群組](assign-policies.md#assign-a-policy-to-a-group)。\n\n##### <a name=\"assign-a-policy-to-a-large-set-batch-of-users\"></a>指派一個策略給一組 (大量) 使用者\n\n使用批次策略指派一次指派一組大型使用者。 您可以使用 [New-CsBatchPolicyAssignmentOperation Cmdlet](/powershell/module/teams/new-csbatchpolicyassignmentoperation) 提交一批使用者和您想要指派的政策套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。\n\n批次最多可包含 5000 個使用者。 您可以使用使用者的物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入瞭解，請參閱 [指派一個策略給一批使用者](assign-policies.md#assign-a-policy-to-a-batch-of-users)。\n\n### <a name=\"configure-and-assign-policy-packages\"></a>設定和指派策略套件\n\n> [!NOTE]\n> 除了設定和指派個別策略外，您也可以設定並指派策略套件給前線員工和前線管理員。 \n\n其中[一個](manage-policy-packages.md)Teams套件是預先定義的策略和設定集合，您可以指派給組織中具有類似角色的使用者。 原則套件可簡化原則管理，並有助於達到一致性。\n您可以自訂套件中的原則之設定，以符合使用者的需求。 當您變更原則套件中的原則設定時，指派給該套件的所有使用者會取得更新的設定。 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來管理原則套件。\n\n以下項目的預先定義原則之原則套件，依套件而訂：\n- 會議\n- 即時活動\n- 通話\n- 訊息\n- Teams\n- 應用程式設定\n\nTeams目前包含下列適用于前線員工的政策套件。\n\n|Microsoft Teams 系統管理中心所列的套件名稱  |最適合用於|描述 |\n|---------|---------|---------|\n|前線管理員 |貴組織的前線管理員|建立一組原則，並套用這些設定給貴組織的前線管理員。 |\n|前線工作人員 |貴組織的前線工作人員|建立一組原則，並套用這些設定給貴組織的前線員工。 |\n\n:::image type=\"content\" source=\"media/policy-packages-flw.png\" alt-text=\"前線員工和前線管理員政策套件的螢幕擷取畫面\":::\n\n每個個別原則都會被賦予原則套件的名稱，以便輕鬆識別連結至原則套件的原則。 例如，當您將前線員工政策套件指派給貴組織的前線員工時，會針對套件中的每個Frontline_Worker建立名為 Frontline_Worker 的策略。\n\n:::image type=\"content\" source=\"media/policy-packages-flw-firstline-worker.png\" alt-text=\"前線員工政策套件中之策略的螢幕擷取畫面\":::\n\n#### <a name=\"view-the-policy-settings-in-the-policy-package\"></a>在策略套件中查看策略設定\n\n在指派套件之前，請查看原則套件中每個原則的設定。 在 Microsoft Teams 系統管理中心的左側流覽中，選取 **[原則套件]**，選取套件名稱，然後選取原則名稱。\n决定預先定義的值是否適合貴組織，或者您是否需要根據組織的需求將它們自訂為更嚴格或更寬鬆的值。\n\n#### <a name=\"customize-policy-settings-in-the-policy-package\"></a>自訂策略套件中的策略設定\n\n自訂策略套件中的策略設定，以配合貴組織的需求。 您對原則設定所做的任何變更都會自動套用到已指派套件的使用者。 要編輯原則套件中原則的設定，請在 Microsoft Teams 系統管理中心，選取該原則套件，選取要編輯的原則名稱，然後選取 **[編輯]**。\n\n請記住，您可以在指派原則套件之後變更套件中的原則設定。 若要深入了解，請參閱 [自訂原則套件中的原則](manage-policy-packages.md#customize-policies-in-a-policy-package)。 \n\n#### <a name=\"assign-the-policy-package\"></a>指派策略套件\n\n將原則套件指派給使用者。如果使用者已獲指派原則，後來您指派不同的原則，則會優先處理最新的指派。\n\n##### <a name=\"using-the-microsoft-teams-admin-center\"></a>使用 Microsoft Teams 系統管理中心\n\n1. 在系統管理中心的左側導[](https://admin.teams.microsoft.com/)Microsoft Teams，前往策略套件，然後按一下套件名稱左側，選取您想要指派的政策套件。\n2. 選取 [管理使用者]。\n    :::image type=\"content\" source=\"media/policy-packages-flw-assign.png\" alt-text=\"如何在系統管理中心指派Teams的螢幕擷取畫面\":::\n3. 在 [管理使用者] 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]。 針對每個試驗使用者重複此步驟， (最多 20 位) 。\n4. 新增使用者完成後，請按一下 **[Apply.**\n\n##### <a name=\"assign-a-policy-package-based-on-group-membership-or-at-scale-through-a-batch-assignment\"></a>根據群組成員資格或批次指派的縮放比例指派策略套件\n\n如果您有許多要指派策略套件的使用者，您可以透過批次指派將策略套件大規模指派給使用者是其中一個成員的群組。\n\n###### <a name=\"assign-a-policy-package-to-a-group\"></a>將原則套件指派給群組\n\n透過向群組指派原則套件，可以將多個原則指派給一組使用者，例如安全性群組或通訊群組。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。 此方法推薦用於最多 50000 個使用者的群組，但也適用於較大的群組。\n\n若要深入了解，請參閱 [將原則套件指派到群組](assign-policies.md#assign-a-policy-package-to-a-group)。\n\n###### <a name=\"assign-a-policy-package-to-a-large-set-batch-of-users\"></a>為一大組 (批) 使用者指派原則套件\n\n使用批次原則套件指派，將原則套件一次性指派給大組使用者組。 您可以使用 [CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) Cmdlet 來提交一批使用者和您要指派的原則套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。\n\n批次最多可包含 5000 個使用者。 您可以使用使用者的物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入了解，請參閱 [將原則套件指派到一批使用者](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。\n\n### <a name=\"set-up-your-pilot-team\"></a>設定您的試驗小組\n為步驟 2 中識別的試驗使用者設定初始小組。\n \n1. 在系統管理中心的左側導 [Microsoft Teams，請](https://admin.teams.microsoft.com/)**前往管理** Teams  >  **團隊**。 \n\n2. 從 **管理** 小組頁面選取新增。\n\n3. 完成所需的欄位，包括團隊名稱、描述，並選取適當的團隊擁有者和隱私權等級。 請務必在團隊名稱中描述性，並預期將試驗範圍擴大到數個團隊。 選取 **Apply**。\n\n    :::image type=\"content\" source=\"media/firstline-worker-create-new-team.png\" alt-text=\"新增小組窗格的螢幕擷取畫面\":::\n\n4. 選取您建立的團隊以開啟團隊詳細資料頁面。\n\n    :::image type=\"content\" source=\"media/firstline-worker-team-details-page.png\" alt-text=\"團隊詳細資料頁面的螢幕擷取畫面\":::\n\n5. 選取 **頻道** 以查看目前的頻道清單。\n6. 選取 **新增頻道** ，將任何其他頻道新增到您覺得試驗群組所需的一般頻道。\n\n    :::image type=\"content\" source=\"media/firstline-worker-add-channel.png\" alt-text=\"新增頻道窗格的螢幕擷取畫面\":::\n\n### <a name=\"decision-point\"></a>決策點\n\n-  您的試驗需要多少頻道/交談主題？\n-  哪些主題適合您的案例？\n\n### <a name=\"best-practice\"></a>最佳做法\n**保持頻道簡單**。 我們建議您不要要求為每個可能的交談主題建立頻道，而是讓事情保持簡單。 如果頻道是隨著時間而建立，就大可了。\n  \n:::image type=\"content\" source=\"media/firstline-worker-channels-tab.png\" alt-text=\"頻道的螢幕擷取畫面\":::\n\n#### <a name=\"invite-the-frontline-manager-and-frontline-workers\"></a>邀請前線主管和前線工作人員\n現在團隊結構已就位，且已採用使用者原則，現在該開始邀請前線工作人員了。\n1. 在系統管理中心的左側導 [Microsoft Teams，請](https://admin.teams.microsoft.com/)**前往管理** Teams  >  **團隊**。 \n2. 搜尋在「設定您的試驗小組」階段所建立的團隊。\n3. 選取您建立的團隊以開啟團隊詳細資料頁面。\n\n    :::image type=\"content\" source=\"media/firstline-worker-team-details-page.png\" alt-text=\"團隊詳細資料頁面的螢幕擷取畫面\":::\n\n4. 選取 **新增成員**。\n5. 搜尋試驗成員的名稱，然後按一下 [ **儲存**。\n"
+- title: 溝通
+  durationInMinutes: 1
+  content: "\n告知前線員工他們參與試驗、試驗目標，並在必要時提供基本功能訓練。 對於大多數客戶來說，這可以是這些使用者前往個人行動裝置上的 Google Play 或 Apple Store、下載 Microsoft Teams 應用程式，以及使用公司認證登入的簡單指示。 我們設計Microsoft Teams簡單且便於使用的介面，讓大多數前線員工覺得直覺。\n\n### <a name=\"best-practice\"></a>最佳做法\n別忘了對主管進行輪班訓練！ 如果您要在試驗中納入 Shifts，請務必與主管個別進行一次訓練課程，瞭解如何建立、管理排程，以及將排程發佈給小組。 如果您想要其他訓練教材和通訊範本，您可以在 Box 的前線試驗中找到這些範本。\n"
+- title: 措施
+  durationInMinutes: 1
+  content: "\n增強前線員工的能力，與人員而非技術有關。 若要瞭解員工Teams，請專注于前線員工的體驗。 在試驗前、試驗期間和試驗之後調查他們，以瞭解他們的需求、痛點和反應。 如果您一段時間迴圈試驗並新增新功能，此意見回饋可協助引導訂單、步調，甚至是是否需要其他功能。 為了協助評估試驗的成功，您可以在 Box 的前線試驗中找到這些試驗。\n### <a name=\"best-practice\"></a>最佳做法\n**培養您的冠軍，並突顯您的勝負**。 獎勵前線員工採用這些新工具，並運用與公司業務成果相關的創新方式。 最重要的是，這可確保持續採用Teams和價值。\n"
+- title: 迭 代
+  durationInMinutes: 1
+  content: "\n現在，您與一群第一線員工成功完成了第一次試驗，現在該展開吧！ 現在該回到步驟 1，並列出下列數個展開選項之一。 我們建議您盡可能多次完成此程式，以達成解決方案、一組最佳做法，以及所有前線員工的訓練檔。\n\n-   展開團隊數目\n    -   您可以執行一個區域，而不是單一位置嗎？ 您是否需要一個整個地區的團隊，或每個位置的個別團隊？\n-   展開提供的功能。\n   -   您的前線工作人員是否建議我您的意見回饋表單 ，例如 Shifts 等您未納入初始功能集的重要功能？\n"
+- title: 後續步驟
+  durationInMinutes: 1
+  content: >-
+    在本次訓練中，我們討論了以下關鍵知識：
 
-      #### <a name="configure-a-messaging-policy"></a>設定訊息策略
-      根據步驟 2 中的決策建立自訂訊息策略。 如果您選擇啟用優先順序通知、語音留言或「在聊天中顯示我的最愛頻道」設定，則您必須設定前線員工的特定傳訊政策。
+    -   規劃在 Teams
 
-      1. 在系統管理中心的左側導 [Microsoft Teams，請](https://admin.teams.microsoft.com/)前往 **訊息處理政策**。
-      1. 選取 [新增 **]**。
-      1. 輸入策略的描述性名稱，並設定所需的設定，以符合步驟 2 中的決策。
+    -   正在配置試驗
 
-      ### <a name="assign-the-app-setup-policy-and-messaging-policy-to-users"></a>將應用程式設定策略和訊息策略指派給使用者
+    -   根據試驗實現進行通訊、測量和反覆運算
 
-      #### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-      將應用程式設定策略和訊息策略指派給試驗使用者。
+    ### <a name="next-steps"></a>後續步驟
 
-      1. 在系統管理中心的左側導 [Microsoft Teams，選取](https://admin.teams.microsoft.com/)**使用者**。
 
-      2. 根據名稱搜尋試驗使用者。
+    1.  繼續使用Teams，以滿足您組織不斷變更的前線員工需求。
 
-          :::image type="content" source="media/firstline-worker-users-page.png" alt-text="系統管理中心中使用者頁面Teams螢幕擷取畫面":::
-
-      3. 按一下使用者的顯示名稱以開啟使用者詳細資料頁面。
-      4. 在已 **指派策略旁****，選取** 編輯 。
-
-          :::image type="content" source="media/firstline-worker-user-details-page.png" alt-text="使用者詳細資料頁面的螢幕擷取畫面":::
-
-      5. 在 **[應用程式設定政策>** 下，選取為試驗建立的策略，然後按一下 [ **儲存**。
-      6. 在 **[傳訊政策」** 下，選取為試驗建立的策略，然後按一下 [ **儲存**。
-
-          :::image type="content" source="media/firstline-worker-edit-user-policies.png" alt-text="編輯使用者政策窗格的螢幕擷取畫面":::
-
-      7. 針對所有試驗使用者重複這些步驟。
-
-      #### <a name="assign-a-policy-based-on-group-membership-or-at-scale-through-a-batch-assignment"></a>根據群組成員資格或批次指派的縮放比例指派策略
-
-      如果您有許多要指派策略的使用者，您可以指派一個策略給使用者是成員或透過批次工作分派來縮放的群組，或
-
-      ##### <a name="assign-a-policy-to-a-group"></a>將策略指派給群組
-
-      將策略指派給群組，讓您將策略指派給一組使用者，例如安全性群組或通訊群組清單。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。 此方法推薦用於最多 50000 個使用者的群組，但也適用於較大的群組。
-
-      若要深入瞭解，請參閱 [將策略指派給群組](assign-policies.md#assign-a-policy-to-a-group)。
-
-      ##### <a name="assign-a-policy-to-a-large-set-batch-of-users"></a>指派一個策略給一組 (使用者) 一組
-
-      使用批次策略指派一次指派一組大型使用者。 您可以使用 [New-CsBatchPolicyAssignmentOperation Cmdlet](/powershell/module/teams/new-csbatchpolicyassignmentoperation) 提交一批使用者和您想要指派的政策套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。
-
-      批次最多可包含 5000 個使用者。 您可以使用使用者的物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入瞭解，請參閱 [指派一個策略給一批使用者](assign-policies.md#assign-a-policy-to-a-batch-of-users)。
-
-      ### <a name="configure-and-assign-policy-packages"></a>設定和指派策略套件
-
-      > [!NOTE]
-      > 除了設定和指派個別策略外，您也可以設定並指派策略套件給前線員工和前線管理員。 
-
-      其中[一個](manage-policy-packages.md)Teams套件是預先定義的策略和設定集合，您可以指派給組織中具有類似角色的使用者。 原則套件可簡化原則管理，並有助於達到一致性。
-      您可以自訂套件中的原則之設定，以符合使用者的需求。 當您變更原則套件中的原則設定時，指派給該套件的所有使用者會取得更新的設定。 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來管理原則套件。
-
-      以下項目的預先定義原則之原則套件，依套件而訂：
-      - 會議
-      - 即時活動
-      - 通話
-      - 訊息
-      - Teams
-      - 應用程式設定
-
-      Teams目前包含下列適用于前線員工的政策套件。
-
-      |Microsoft Teams 系統管理中心所列的套件名稱  |最適合用於|描述 |
-      |---------|---------|---------|
-      |前線管理員 |貴組織的前線管理員|建立一組原則，並套用這些設定給貴組織的前線管理員。 |
-      |前線工作人員 |貴組織的前線工作人員|建立一組原則，並套用這些設定給貴組織的前線員工。 |
-
-      :::image type="content" source="media/policy-packages-flw.png" alt-text="前線員工和前線管理員政策套件的螢幕擷取畫面":::
-
-      每個個別原則都會被賦予原則套件的名稱，以便輕鬆識別連結至原則套件的原則。 例如，當您將前線員工政策套件指派給貴組織的前線員工時，會針對套件中的每個Frontline_Worker建立名為 Frontline_Worker 的策略。
-
-      :::image type="content" source="media/policy-packages-flw-firstline-worker.png" alt-text="前線員工政策套件中之政策之螢幕擷取畫面":::
-
-      #### <a name="view-the-policy-settings-in-the-policy-package"></a>在策略套件中查看策略設定
-
-      在指派套件之前，請查看原則套件中每個原則的設定。 在 Microsoft Teams 系統管理中心的左側流覽中，選取 **[原則套件]**，選取套件名稱，然後選取原則名稱。
-      决定預先定義的值是否適合貴組織，或者您是否需要根據組織的需求將它們自訂為更嚴格或更寬鬆的值。
-
-      #### <a name="customize-policy-settings-in-the-policy-package"></a>自訂策略套件中的策略設定
-
-      自訂策略套件中的策略設定，以配合貴組織的需求。 您對原則設定所做的任何變更都會自動套用到已指派套件的使用者。 要編輯原則套件中原則的設定，請在 Microsoft Teams 系統管理中心，選取該原則套件，選取要編輯的原則名稱，然後選取 **[編輯]**。
-
-      請記住，您可以在指派原則套件之後變更套件中的原則設定。 若要深入了解，請參閱 [自訂原則套件中的原則](manage-policy-packages.md#customize-policies-in-a-policy-package)。 
-
-      #### <a name="assign-the-policy-package"></a>指派策略套件
-
-      將原則套件指派給使用者。如果使用者已獲指派原則，後來您指派不同的原則，則會優先處理最新的指派。
-
-      ##### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
-
-      1. 在系統管理中心的左側導[](https://admin.teams.microsoft.com/)Microsoft Teams，前往策略套件，然後按一下套件名稱左側，選取您想要指派的政策套件。
-      2. 選取 [管理使用者]。
-          :::image type="content" source="media/policy-packages-flw-assign.png" alt-text="如何在系統管理中心指派Teams的螢幕擷取畫面":::
-      3. 在 [管理使用者] 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後按一下 [新增]。 針對每個試驗使用者重複此步驟， (最多 20 個使用者加入) 。
-      4. 新增使用者完成後，請按一下 **[Apply.**
-
-      ##### <a name="assign-a-policy-package-based-on-group-membership-or-at-scale-through-a-batch-assignment"></a>根據群組成員資格或批次指派的縮放比例指派策略套件
-
-      如果您有許多要指派策略套件的使用者，您可以透過批次指派將策略套件大規模指派給使用者是其中一個成員的群組。
-
-      ###### <a name="assign-a-policy-package-to-a-group"></a>將原則套件指派給群組
-
-      透過向群組指派原則套件，可以將多個原則指派給一組使用者，例如安全性群組或通訊群組。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。 此方法推薦用於最多 50000 個使用者的群組，但也適用於較大的群組。
-
-      若要深入了解，請參閱 [將原則套件指派到群組](assign-policies.md#assign-a-policy-package-to-a-group)。
-
-      ###### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>為一大組 (批) 使用者指派原則套件
-
-      使用批次原則套件指派，將原則套件一次性指派給大組使用者組。 您可以使用 [CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) Cmdlet 來提交一批使用者和您要指派的原則套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。
-
-      批次最多可包含 5000 個使用者。 您可以使用使用者的物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入了解，請參閱 [將原則套件指派到一批使用者](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
-
-      ### <a name="set-up-your-pilot-team"></a>設定您的試驗小組
-      為步驟 2 中識別的試驗使用者設定初始小組。
-       
-      1. 在系統管理中心的左側導 [Microsoft Teams，請](https://admin.teams.microsoft.com/)**前往管理** Teams  >  **團隊**。 
-
-      2. 從 **管理** 小組頁面選取新增。
-
-      3. 完成所需的欄位，包括團隊名稱、描述，並選取適當的團隊擁有者和隱私權等級。 請務必在團隊名稱中描述性，並預期將試驗範圍擴大到數個團隊。 選取 **Apply**。
-
-          :::image type="content" source="media/firstline-worker-create-new-team.png" alt-text="新增小組窗格的螢幕擷取畫面":::
-
-      4. 選取您建立的團隊以開啟團隊詳細資料頁面。
-
-          :::image type="content" source="media/firstline-worker-team-details-page.png" alt-text="團隊詳細資料頁面的螢幕擷取畫面":::
-
-      5. 選取 **頻道** 以查看目前的頻道清單。
-      6. 選取 **新增頻道** ，將任何其他頻道新增到您覺得試驗群組所需的一般頻道。
-
-          :::image type="content" source="media/firstline-worker-add-channel.png" alt-text="新增頻道窗格的螢幕擷取畫面":::
-
-      ### <a name="decision-point"></a>決策點
-
-      -  您的試驗需要多少頻道/交談主題？
-      -  哪些主題適合您的案例？
-
-      ### <a name="best-practice"></a>最佳做法
-      **保持頻道簡單**。 我們建議您不要要求為每個可能的交談主題建立頻道，而是讓事情保持簡單。 如果頻道是隨著時間而建立，也沒關係。
-        
-      :::image type="content" source="media/firstline-worker-channels-tab.png" alt-text="頻道畫面的螢幕擷取畫面":::
-
-      #### <a name="invite-the-frontline-manager-and-frontline-workers"></a>邀請前線主管和前線工作人員
-      現在團隊結構已就位，且已採用使用者原則，現在該開始邀請前線工作人員了。
-      1. 在系統管理中心的左側導 [Microsoft Teams，請](https://admin.teams.microsoft.com/)**前往管理** Teams  >  **團隊**。 
-      2. 搜尋在「設定您的試驗小組」階段所建立的團隊。
-      3. 選取您建立的團隊以開啟團隊詳細資料頁面。
-
-          :::image type="content" source="media/firstline-worker-team-details-page.png" alt-text="團隊詳細資料頁面的螢幕擷取畫面":::
-
-      4. 選取 **新增成員**。
-      5. 搜尋試驗成員的名稱，然後按一下 [ **儲存**。
-  - title: 溝通
-    durationInMinutes: 1
-    content: |
-
-      告知前線員工他們參與試驗、試驗目標，並在必要時提供基本功能訓練。 對大部分客戶來說，這可以是這些使用者前往個人行動裝置上的 Google Play 或 Apple Store、下載 Microsoft Teams 應用程式，以及使用公司認證登入的簡單指示。 我們設計Microsoft Teams簡單且便於使用的介面，讓大多數前線員工覺得直覺。
-
-      ### <a name="best-practice"></a>最佳做法
-      別忘了對主管進行輪班訓練！ 如果您要在試驗中納入 Shifts，請務必與主管個別進行一次訓練課程，瞭解如何建立、管理和發佈排程至他們的小組。 如果您想要其他訓練教材和通訊範本，您可以在 Box 的前線試驗中找到這些範本。
-  - title: 措施
-    durationInMinutes: 1
-    content: |
-
-      增強前線員工的能力，與人員而非技術有關。 若要瞭解員工Teams，請專注于前線員工的體驗。 在試驗前、試驗期間和試驗之後調查他們，以瞭解他們的需求、痛點和反應。 如果您一段時間迴圈試驗並新增新功能，此意見回饋可協助引導訂單、步調，甚至是是否需要其他功能。 為了協助評估試驗的成功，您可以在 Box 的前線試驗中找到這些試驗。
-      ### <a name="best-practice"></a>最佳做法
-      **培養您的冠軍，並突顯您的勝負**。 獎勵前線員工採用這些新工具，並運用與公司業務成果相關的創新方式。 最重要的是，這可確保公司持續採用Teams價值。
-  - title: 迭 代
-    durationInMinutes: 1
-    content: |
-
-      現在，您與一群第一線員工成功完成了第一次試驗，現在該展開吧！ 現在該回到步驟 1，並列出下列數個展開選項之一。 我們建議您盡可能多次完成此程式，以達成解決方案、一組最佳做法，以及所有前線員工的訓練檔。
-
-      -   展開團隊數目
-          -   您可以執行一個區域，而不是單一位置嗎？ 您是否需要一個整個地區的團隊，或每個位置的個別團隊？
-      -   展開提供的功能。
-         -   您的前線工作人員是否建議我您的意見回饋表單 ，例如 Shifts 等您未納入初始功能集的重要功能？
-  - title: 後續步驟
-    durationInMinutes: 1
-    content: |
-      在本次訓練中，我們討論了以下關鍵知識：
-      -   規劃在 Teams
-      -   正在配置試驗
-      -   根據試驗實現進行通訊、測量和反覆運算
-
-      ### <a name="next-steps"></a>後續步驟
-
-      1.  繼續使用Teams，以滿足您組織不斷變更的前線員工需求。
-      2.  傳送意見反應給我們：
-          - 張貼在本頁底部的註解區段。
-          - 要向我們提供 Teams 產品意見反應或要求新功能，請轉到 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
-      3.  保持最新狀態
-          - 關注 [Teams 部落格](https://aka.ms/teamsblog)。
-          - 閲讀 [Teams 藍圖](https://aka.ms/O365Roadmap)。
-          - 在[版本資訊](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)中了解最新發佈的功能。
-      4.  探索[更多訓練和教學課程](./itadmin-readiness.md)。
+    2.  傳送意見反應給我們：
+        - 張貼在本頁底部的註解區段。
+        - 要向我們提供 Teams 產品意見反應或要求新功能，請轉到 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
+    3.  保持最新狀態
+        - 關注 [Teams 部落格](https://aka.ms/teamsblog)。
+        - 閲讀 [Teams 藍圖](https://aka.ms/O365Roadmap)。
+        - 在[版本資訊](https://support.office.com/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de)中了解最新發佈的功能。
+    4.  探索[更多訓練和教學課程](./itadmin-readiness.md)。

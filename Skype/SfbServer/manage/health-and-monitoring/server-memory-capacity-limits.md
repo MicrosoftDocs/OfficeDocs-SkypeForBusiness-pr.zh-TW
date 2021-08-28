@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 摘要：瞭解如何監視商務用 Skype Server 中的伺服器記憶體容量限制。
-ms.openlocfilehash: d62ae4a7e9eaed4fd866107de276990c3d883d946b2d44035fcac4fa47b69e61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 224de5c2727efe02ba2303a2eeb30e189ed4d67e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314459"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595513"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>監視商務用 Skype Server 中的伺服器記憶體容量限制
  

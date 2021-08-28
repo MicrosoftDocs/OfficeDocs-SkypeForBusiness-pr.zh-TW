@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 description: UserAgentDef 表會將使用者代理程式識別碼對應到代理程式的描述性名稱。 使用者代理程式是用來連接至商務用 Skype Server 的軟體用戶端。
-ms.openlocfilehash: 9bba40cf33aa69203499ddcbe3555b41d563394f6d7ef12d7b34ca8b2b7db846
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c943c0efe26cf6cf63d859dad507765c6cc865d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337541"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595295"
 ---
 # <a name="useragentdef-table-qoe"></a>UserAgentDef table (QoE) 
  
@@ -26,22 +26,22 @@ UserAgentDef 表會將使用者代理程式識別碼對應到代理程式的描�
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
-|1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
-|第  <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
-|4   <br/> |Oc  <br/> |Oc  <br/> |
+|1   <br/> |MediationServer  <br/> |MediationServer  <br/> |
+|2   <br/> |AV-MCU  <br/> |AV-MCU  <br/> |
+|4   <br/> |OC  <br/> |OC  <br/> |
 |8   <br/> |OCPhone  <br/> |OCPhone  <br/> |
 |16   <br/> |LMC  <br/> |LMC  <br/> |
-|32  <br/> |Dvt  <br/> |Dvt  <br/> |
+|32  <br/> |DVT  <br/> |DVT  <br/> |
 |64  <br/> |毫米  <br/> |毫米  <br/> |
-|64  <br/> |Mc  <br/> |毫米  <br/> |
+|64  <br/> |MC  <br/> |毫米  <br/> |
 |128  <br/> |語音應答  <br/> |語音應答  <br/> |
-|256  <br/> |Conferencing_Announcement_Service_1。0  <br/> |Cas  <br/> |
-|512  <br/> |Conferencing_Attendant_1。0  <br/> |Caa  <br/> |
-|512  <br/> |Conference_Auto_Attendant_1。0  <br/> |Caa  <br/> |
+|256  <br/> |Conferencing_Announcement_Service_1。0  <br/> |CAS  <br/> |
+|512  <br/> |Conferencing_Attendant_1。0  <br/> |CAA  <br/> |
+|512  <br/> |Conference_Auto_Attendant_1。0  <br/> |CAA  <br/> |
 |1024  <br/> |Response_Group_Service  <br/> |RG  <br/> |
-|1032  <br/> |Call_Park_Service_1。0  <br/> |Cps  <br/> |
+|1032  <br/> |Call_Park_Service_1。0  <br/> |CPS  <br/> |
 |1040  <br/> |Response_Group_Service Announcement_Service  <br/> |AS  <br/> |
-|2048  <br/> |Ccs 的應用程式  <br/> |Ccs  <br/> |
+|2048  <br/> |Ccs 的應用程式  <br/> |CCS  <br/> |
 |16386  <br/> |CoMo  <br/> |CoMo  <br/> |
 |16387  <br/> |NM-CWA-13-NO-VERSION  <br/> |NM-CWA-13-NO-VERSION  <br/> |
 |16388  <br/> |InboundRouting  <br/> |InboundRouting  <br/> |
@@ -59,7 +59,7 @@ UserAgentDef 表會將使用者代理程式識別碼對應到代理程式的描�
 |16404  <br/> |個人電腦  <br/> |個人電腦  <br/> |
 |16405  <br/> |LWA  <br/> |LWA  <br/> |
 |16406  <br/> |OWA  <br/> |OWA  <br/> |
-|16407  <br/> |Aoc  <br/> |Aoc  <br/> |
+|16407  <br/> |AOC  <br/> |AOC  <br/> |
 |16408  <br/> |GCC  <br/> |GCC  <br/> |
 |16409  <br/> |IMMCU  <br/> |IMMCU  <br/> |
 |16410  <br/> |XmppTGW  <br/> |XmppGateway  <br/> |

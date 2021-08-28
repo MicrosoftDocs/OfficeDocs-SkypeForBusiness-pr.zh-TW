@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何使用系統管理中心提供預先定義的設定、頻道和預先安裝的應用程式，以使用小組範本建立專為政府需求設計的小組結構。
 f1.keywords:
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b915daab744bd764a9ac9e1d0be000357a051a2719e9e544bfff8b5a5c26e5a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f373e2e949d4fe461ef06657e0791f4ff59f4b61
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315249"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603402"
 ---
 # <a name="use-government-team-templates-in-the-admin-center"></a>在系統管理中心使用政府小組範本
 
@@ -40,7 +40,7 @@ ms.locfileid: "54315249"
 
 ## <a name="coordinate-incident-response"></a>協調事件回應
 
-集中溝通和重要資源，以管理您的緊急事件或事件回應小組。 在這個小組中，您可以包含許多不同類型的檔案，協助建立所有檔的集中位置。 使用線上會議改善資訊流程及情境認知度。
+集中溝通和重要資源，以管理您的緊急事件或事件回應小組。 在這個小組中，您可以包含許多不同類型的檔案，協助建立所有檔的中央位置。 使用線上會議改善資訊流程及情境感知。
 
 | 範本類型 |baseTemplateId | 此基本範本提供的屬性 |
 |-------------------|-------|---------------------------------------------------------------------------|

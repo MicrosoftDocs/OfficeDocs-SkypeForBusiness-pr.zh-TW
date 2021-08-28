@@ -19,14 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 本附錄包含更新 AAD 連線的詳細步驟，以包含多個樹系做為 Teams 和商務用 Skype 雲端合併的一部分。
-ms.openlocfilehash: 885e37b2131d455cc4c114f99bb4a95e7aa4896f2d43b55b398e543dc3674e55
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e803ae1e41fd0e68a56e059bbaf398ee30f807f6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295930"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625795"
 ---
 # <a name="update-aad-connect-to-include-more-than-one-forest"></a>更新 AAD Connect 以包含多個樹系
 

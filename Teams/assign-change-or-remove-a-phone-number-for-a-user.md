@@ -14,18 +14,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
 description: 瞭解如何指派、變更或移除您的公司電話號碼Teams讓外部企業和客戶可以來電。
-ms.openlocfilehash: 79323338a901cf587b590b7930a11f6c296271e1
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: 938377f200d31ddaef2338f5c21811150571732e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372243"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595221"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user-calling-plans"></a>指派、變更或移除使用者的電話號碼 (方案) 
 
@@ -35,7 +35,7 @@ ms.locfileid: "58372243"
 
 當您設定使用者以便他們撥打和接聽電話時，您必須先使用 Microsoft Teams系統管理中心並指派電話號碼。 如果需要，您可以變更或移除電話號碼。
   
-若要瞭解如何在 Teams中取得通話方案，Teams附加元件[授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+若要瞭解如何取得通話方案Teams方案的成本，請參閱Teams[附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
 > [!NOTE]
 > 查看使用者是否已指派授權的方法之一，是Microsoft Teams系統管理中心>**使用者**。 如果已指派授權，就會在頁面上顯示授權。  您也可以使用Microsoft 365 系統管理中心。
@@ -45,7 +45,7 @@ ms.locfileid: "58372243"
 ![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
     
 1. 在左側流覽中，按一下 **[語音**  >  **電話數位**。
-2. 在 **[電話** 編號頁面上，選取清單中的未指定號碼，然後按一下 [**編輯**。  
+2. 在 **[電話** 頁中，選取清單中的未分配的號碼，然後按一下 [**編輯**。  
 3. 在 [ **編輯窗格** 的 **[** 已指派至中） 下，依據顯示名稱或使用者名稱搜尋使用者，然後按一下 [ **指派**。
 4. 若要指派或變更相關聯的緊急位置，請在緊急位置下搜尋，然後選取該位置。
 5. 根據您是否要傳送包含其電話號碼資訊的電子郵件給使用者，請關閉或開啟包含電話號碼 **資訊的電子郵件使用者**。 根據預設，這會是啟用狀態。 
@@ -66,7 +66,7 @@ ms.locfileid: "58372243"
 3. 在 [數位 **電話** 頁面上，選取您于步驟 1 中識別的數位，然後按一下 [**編輯**。  
 4. 在 [ **編輯窗格** 的 **[指派給** 的> 下，按一下 **[X** 以移除使用者。
 5. 按一下 [儲存]。
-6. 在 **[電話** 編號頁面上，選取清單中的未指定號碼，然後按一下 [**編輯**。  
+6. 在 **[電話** 頁中，選取清單中的未分配的號碼，然後按一下 [**編輯**。  
 7. 在 [ **編輯窗格** 的 **[** 已指派至中） 下，依據顯示名稱或使用者名稱搜尋使用者，然後按一下 [ **指派**。
 8. 若要指派或變更相關聯的緊急位置，請在緊急位置下搜尋，然後選取該位置。
 9. 按一下 [儲存]。

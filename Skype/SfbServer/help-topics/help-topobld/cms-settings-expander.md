@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.CmsSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 description: 中央管理伺服器的位置可以從一個已定義的前端集區變更到另一個已定義的前端集區。若要變更中央管理伺服器的位置，請從 [要安裝中央管理伺服器的前端伺服器] 下的下拉式清單中，選取前端集區。前端伺服器可以是 Enterprise Edition 前端集區或 Standard Edition 前端伺服器。
-ms.openlocfilehash: 5f7b8d0b438b162bbdf4452cc1b26ecdc10f8906a036bf281b3d7eb22507f05d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 85a3397d0a8378d90f50a1e4078a7218d63ea525
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346539"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595707"
 ---
 # <a name="cms-settings-expander"></a>CMS 設定展開工具
  

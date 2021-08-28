@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: '如何開啟音訊和視訊會議的錄製，並瞭解錄製中包含和不包含哪些內容。 '
-ms.openlocfilehash: c321ac300e9bdf39a727c419e447da88f3cccb5b403b0361361e7e1b59155dab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8aee8991161364eaab29459ae305e6ba4cf37b50
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316469"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625735"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>讓人員錄製音訊和視訊會議
 
@@ -35,7 +35,7 @@ ms.locfileid: "54316469"
 
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
 
-1. 前往系統管理中心 **>商務用 Skype，** 然後按一下 [**使用者**。
+1. 前往系統管理中心 **>商務用 Skype**，然後按一下 [**使用者**。
     
 2. 在 [ **使用者」** 頁面上，從清單中選取使用者或使用者，然後按一下 [ **編輯**。
     
