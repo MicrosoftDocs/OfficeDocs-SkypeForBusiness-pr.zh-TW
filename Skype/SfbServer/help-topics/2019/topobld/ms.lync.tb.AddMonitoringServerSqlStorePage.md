@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddMonitoringServerSqlStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 監控伺服器需要支援的64位版本 SQL Server 資料庫軟體才能儲存監控資料。 您可以選擇要用於監視的先前定義的 SQL Server 資料庫，也可以指定 SQL Server 資料庫所在之伺服器 (FQDN) 的完整功能變數名稱，或定義新的 SQL Server 資料庫，除了您想要用於新 SQL Server 資料庫的 SQL Server 實例之外（也就是您指定 (的命名實例）。
-ms.openlocfilehash: d750b58bce5fb634bc7bb64edd86c79cb5cdb238ec90435f00e3699c15cedf9e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 474259fc1985277b2ac795651d6115ec608a6b40
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328508"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606492"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>新增監控伺服器 SQL Server 存放區
 

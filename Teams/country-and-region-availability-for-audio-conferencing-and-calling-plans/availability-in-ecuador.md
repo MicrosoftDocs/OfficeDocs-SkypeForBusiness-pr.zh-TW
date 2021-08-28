@@ -1,5 +1,5 @@
 ---
-title: 在哥倫比亞的可用性
+title: 在 2010 年 12 月
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
-ms.openlocfilehash: 965856014c4e9ca25b2e5dd4de18b99ab1d7f496e7e81608fd31aa87d9a7e9cd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是適用于Microsoft 365的Office 365及商務用 Skype及Microsoft Teams服務。
+ms.openlocfilehash: d2880ab47fc7d8dc30cc87e0753299c47dfb24c8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344362"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580177"
 ---
-# <a name="availability-in-ecuador"></a>在哥倫比亞的可用性
+# <a name="availability-in-ecuador"></a>在 2010 年 12 月
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
+以下是適用于Microsoft 365的Office 365及商務用 Skype及Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

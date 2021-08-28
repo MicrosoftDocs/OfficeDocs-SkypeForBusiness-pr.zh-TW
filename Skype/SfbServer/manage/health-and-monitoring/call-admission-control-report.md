@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 摘要：瞭解商務用 Skype Server 中使用的通話許可控制報告。
-ms.openlocfilehash: 36dfe7c15948ea8405558d9e97fa4de4ac4a8081a22aa7e6bd83256a40c8c9f5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a48e7aed8c18823a6bae279a1f1484f5f981d279
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336623"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606192"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>商務用 Skype Server 中的通話許可控制報告
  

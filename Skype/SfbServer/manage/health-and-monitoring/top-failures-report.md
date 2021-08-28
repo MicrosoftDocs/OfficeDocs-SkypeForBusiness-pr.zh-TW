@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: 摘要：瞭解商務用 Skype Server 中的最上層失敗報告。
-ms.openlocfilehash: 04088bce640ec19675afb1513645639a59ed4351ab581280bbec4904d57f835e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5b932833aa80d11134133b7b3ed13cdfd2a57e29
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317551"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606152"
 ---
 # <a name="top-failures-report-in-skype-for-business-server"></a>商務用 Skype Server 的最大失敗報告
  

@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 摘要：在規劃商務用 Skype Server 時，複查用戶端的影片需求。
-ms.openlocfilehash: 895345ddee8ac17338977bdb161172bf975de343d7d86be1a053ccac8f4f0e7f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: efd1bfe80f770b62e974fe598d791d7b179a8b48
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293930"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606102"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>商務用 Skype 用戶端影片解析度
  
@@ -103,7 +103,7 @@ Windows 系統評定工具 (WinSAT) 決定 WEI。 當您執行 WinSAT 工具時�
   
 |**功能**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
-|最高解析度的264編碼  <br/> |Vga  <br/> |QVGA： iPhone 4S  <br/> VGA： iPhone 5  <br/> 720p： iPhone 5S 和更新版本  <br/> |VGA： iPad 2 和更新版本/iPad 小型1和更新版本  <br/> 720p： iPad 空氣/iPad 迷你 2/iPad Pro 及更新版本  <br/> |取決於裝置模型，最多 VGA  <br/> |
-|-264 解碼最大解析度  <br/> |Vga  <br/> |QVGA： iPhone 4S  <br/> VGA： iPhone 5  <br/> 720p： iPhone 5S 和更新版本  <br/> |VGA： iPad 2 和更新版本/iPad 小型1和更新版本  <br/> 720p： iPad 空氣/iPad 迷你 2/iPad Pro 及更新版本  <br/> |取決於裝置模型，最多 VGA  <br/> |
+|最高解析度的264編碼  <br/> |VGA  <br/> |QVGA： iPhone 4S  <br/> VGA： iPhone 5  <br/> 720p： iPhone 5S 和更新版本  <br/> |VGA： iPad 2 和更新版本/iPad 小型1和更新版本  <br/> 720p： iPad 空氣/iPad 迷你 2/iPad Pro 及更新版本  <br/> |取決於裝置模型，最多 VGA  <br/> |
+|-264 解碼最大解析度  <br/> |VGA  <br/> |QVGA： iPhone 4S  <br/> VGA： iPhone 5  <br/> 720p： iPhone 5S 和更新版本  <br/> |VGA： iPad 2 和更新版本/iPad 小型1和更新版本  <br/> 720p： iPad 空氣/iPad 迷你 2/iPad Pro 及更新版本  <br/> |取決於裝置模型，最多 VGA  <br/> |
    
 

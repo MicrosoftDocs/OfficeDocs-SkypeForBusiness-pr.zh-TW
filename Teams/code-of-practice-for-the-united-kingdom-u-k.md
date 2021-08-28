@@ -15,28 +15,28 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: 瞭解英國 PSTN 通話方案商務用 Skype，包括在何處取得協助，以及如何提交抱怨及解決爭議。
-ms.openlocfilehash: 822fe58fd072bbb61626b0410876fe6adb3b4790a6db22c97196596f05adf52a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解英國 PSTN 通話方案的做法商務用 Skype包括在何處取得協助，以及如何提交抱怨及解決爭議。
+ms.openlocfilehash: afddab7205572386a616e0dcb07d00f226efda9c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306564"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580197"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Microsoft 365的通話方案 - 英國和英國 (實務) 
 
-本規範適用于在英國 (英國) ) 有 10 名員工或少於) 的小型企業客戶 (組織，適用于 Microsoft 365 或 Office 365 通話方案服務 (根據英國通訊法規 (「服務」) 。 其他商務用 Skype服務受您與 Microsoft 的服務協定以及適用于您使用特定服務之任何其他條款所規範。
+本規範適用于英國 (英國)  (中員工少於 1) 0 名的小型企業客戶，適用于 Microsoft 365 或 Office 365 通話方案服務 (根據英國通訊法規 (「服務」) 。 ( 其他商務用 Skype服務受您與 Microsoft 的服務協定以及適用于您使用特定服務之任何其他條款所規範。
 
 ## <a name="1-about-skype-for-business"></a>1. 關於 商務用 Skype
 
-商務用 Skype由 Microsoft Ireland Operations Limited 在英國提供，其註冊辦公室位於愛爾蘭的布林第 2 區 John JohnGerson's Quay 70 號。
+商務用 Skype由 Microsoft Ireland Operations Limited 在英國提供，其註冊辦公室位於愛爾蘭布林區 2 號的 John John Sirson's Quay 70 號。
 
 ## <a name="2-customer-service"></a>2. 客戶服務
 
@@ -56,7 +56,7 @@ Toll-Free 電話號碼：0800 032 6417
   
 ## <a name="4-number-porting"></a>4. 數位埠
 
-商務用 Skype在某些情況下可能無法移轉客戶的電話號碼，以用於服務。 如果號碼可攜商務用 Skype，則當與客戶目前的服務提供者達成移轉號碼協定後，商務用 Skype 會採取一切合理步驟，確保號碼移轉及後續啟用能立即完成。
+商務用 Skype在某些情況下可能無法移轉客戶的電話號碼，以用於服務。 如果號碼可攜商務用 Skype，則客戶會採取一切合理步驟，確保一旦與客戶目前的服務提供者達成移轉號碼協定，號碼移轉及後續啟用就立即完成。
 
 ## <a name="5-service-reliability"></a>5. 服務可靠性
 
@@ -80,11 +80,11 @@ Microsoft 365或Office 365通話方案仰賴您的寬頻連線。 如果您的�
 
 ## <a name="9-subscription-fees-and-charges"></a>9. 訂閱費用
 
-有關訂閱者案及使用費用 (包括進階版費率服務及國家翻譯服務號碼費用) 請參閱商務用 Skype[網站](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)。
+有關訂閱者案及使用費用 (包括進階版費率服務和國家翻譯服務號碼費用) 請參閱商務用 Skype[網站](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)。
 
 ## <a name="10-directory-listing"></a>10. 目錄清單
 
-如果您想要列出您的電話號碼的目錄查詢 (包括電話書籍) 中的專案，可以支付額外費用。 如需詳細資料，請使用第 2 節所提供的連絡人資訊來聯絡我們。
+如果您想要列出您的電話號碼的目錄查詢 (包括 電話 書籍) 中的專案，可以支付額外費用。 如需詳細資料，請使用第 2 節所提供的連絡人資訊來聯絡我們。
 
 ## <a name="11-users-with-disabilities"></a>11. 殘障使用者
 
@@ -94,9 +94,9 @@ Microsoft 365或Office 365通話方案仰賴您的寬頻連線。 如果您的�
 
 ### <a name="what-are-premium-rate-services"></a>什麼是付費服務？
 
-進階版Rate Services 是一種電話號碼，可呈現向電話帳單收費的資訊和娛樂。 進階版Rate Services 包括但不限於慈善捐贈、投票行 (例如英國 Got Talent) 、目錄查詢、娛樂行和成人服務行 (例如) 。 撥打 進階版費率服務比撥打其他有線電話更貴，且從 0871、0872、0873、118 和 09 開始。
+進階版Rate Services 是一種電話號碼，可呈現向電話帳單收取的資訊和娛樂費用。 進階版Rate Services 包括但不限於慈善捐贈、投票行 (例如英國 Got Talent) 、目錄查詢、娛樂行和成人服務行 (例如) 。 撥打 進階版費率服務比撥打其他有線電話更貴，且從 0871、0872、0873、118 和 09 開始。
 
-進階版費率服務是由服務提供者 (「服務提供者」) 。 服務提供者 (提供) 產品或服務， (b) 代表一些這類提供者做為轉銷商或匯總器。
+進階版費率服務是由服務提供者 (「服務提供者」) 。 服務提供者 () 提供產品或服務， (b) 代表一些這類提供者做為轉銷商或匯總器。
 
 ### <a name="how-do-premium-rate-services-work"></a>進位率服務如何工作？
 
@@ -108,17 +108,17 @@ Microsoft 365或Office 365通話方案仰賴您的寬頻連線。 如果您的�
 
 ### <a name="telephone-preference-service-and-fax-preference-services"></a>電話喜好設定服務和傳真喜好設定服務
 
-電話喜好設定服務 (「TPS」) 是由直接行銷協會代表 Ofcom 所經營，是一種可讓客戶退出宣告接收未經要求的銷售電話的註冊。 如果您想要向 TPS 註冊，您可以撥打或撥打 [https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx](https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx) 0843 005 9576 進行註冊。
+「電話喜好設定服務」 (「TPS」) 是由直接行銷協會代表 Ofcom 所經營，是一種可讓客戶退出宣告接收未經要求的銷售電話的註冊。 如果您想要向 TPS 註冊，您可以撥打或撥打 [https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx](https://www.tpsservices.co.uk/tps-services-for-consumers/register-on-the-tps.aspx) 0843 005 9576 進行註冊。
 
-與 TPS 一樣，傳真喜好 ("FPS") 是一種註冊，企業和個人可能會退出宣告接收未經要求的銷售和市場傳真。 您可以撥打 0843 005 9576 或線上 ，向 FPS 註冊 [https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps](https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps) 。
+與 TPS 一樣，傳真喜好設定服務 ( FPS") 是一種註冊，企業和個人可能會退出宣告接收不請自來的銷售和市場傳真。 您可以撥打 0843 005 9576 或線上電話，向 FPS 註冊 [https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps](https://secure.dma.org.uk/cgi-bin/session.pl?reg_option=fps) 。
 
 ### <a name="internet-dialler-protection"></a>網際網路撥號器保護
 
-網際網路撥號器與電腦病毒類似，是一種可下載到電腦的軟體，可在您不知情或同意的情況下，將電腦連接到 進階版 Rate Services。 為了保護您的電腦，建議您在按一下連結或快顯視窗，並下載未知來源的資料時，請小心。 為了進一步保護，我們可以根據電話或電子郵件的要求，基於內容和成本進階版所有或特定服務。 此外，我們建議您下載所有必要的安全性軟體以保護您的電腦，並經常安裝這類軟體的更新，因為軟體可供使用。 如果您認為您受到網際網路撥號器傷害，請撥打電話或電子郵件來聯絡我們。
+網際網路撥號器與電腦病毒類似，是一種可下載到電腦的軟體，可在您不知情或同意的情況下，將電腦連接到 進階版 Rate Services。 為了保護您的電腦，建議您在按一下連結或快顯視窗，並下載未知來源的資料時，請小心。 為了進一步保護，我們可以根據電話或電子郵件的要求，基於內容和成本進階版所有或特定服務之存取權。 此外，我們建議您下載所有必要的安全性軟體以保護您的電腦，並經常安裝這類軟體的更新，因為軟體可供使用。 如果您認為您受到網際網路撥號器傷害，請撥打電話或電子郵件來聯絡我們。
 
 ### <a name="phonepayplus"></a>PhonepayPlus
 
-所有服務提供者都必須向 PhonepayPlus 註冊，PhonepayPlus 是由 Ofcom 核准的獨立組織。 PhonepayPlus 會規範進階版服務，並調查消費者提起的抱怨。 所有服務提供者必須遵守 PhonepayPlus 的實務規範，請于 找到 [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice) 。 如果服務提供者違反實務規範，PhonepayPlus 可能會：
+所有服務提供者都必須向 PhonepayPlus 註冊，PhonepayPlus 是由 Ofcom 核准的獨立組織。 PhonepayPlus 會規範進階版服務，並調查消費者提起的抱怨。 所有服務提供者必須遵守 PhonepayPlus 的實務規範，請見 [http://www.phonepayplus.org.uk/for-business/code-of-practice](http://www.phonepayplus.org.uk/for-business/code-of-practice) 。 如果服務提供者違反實務規範，PhonepayPlus 可能會：
 
 - 要求一方補救違反行為
 
@@ -140,13 +140,13 @@ Microsoft 365或Office 365通話方案仰賴您的寬頻連線。 如果您的�
 
 ### <a name="dispute-resolution"></a>爭議解決
 
-如果您認為帳單上的 進階版 費率服務費用是 商務用 Skype 的一部分錯誤，而且想退款，您可以根據 商務用 Skype 抱怨處理常式代碼提出訴訟。 如果您向 商務用 Skype 提出訴訟， () 在提交八 () 周或 (b) 之後，您收到一封信，指出我們已做出最後決定，您可將該抱怨提交至由 Ofcom 核准的協力廠商，以處理通訊服務方面的抱怨。
+如果您認為帳單上的 進階版 費率服務費用是 商務用 Skype 的一項錯誤，而且想退款，您可以根據 商務用 Skype 抱怨處理常式代碼提出訴訟。 如果您向 商務用 Skype 提出訴訟， () 在提交八周 (8) 周或 (b) 收到我們信件，指出我們已做出最後決定之後，您才能解決該抱怨，您可以將該抱怨提交至由 Ofcom 核准的協力廠商，以處理通訊服務方面的抱怨。
 
 ## <a name="13-national-translation-services-personal-numbers-and-0870-numbers"></a>13. 國家翻譯服務、個人號碼和 0870 號碼
 
 National Translation Services 是電話號碼，開頭為 08 或 0500 (免費電話) ，並按國家電話號碼編號計畫歸類為「特殊服務號碼」。 個人號碼會以數位 070 為首碼。
 
-我們網站上提供國家翻譯服務、個人號碼和 0870 號碼的費率[](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)，可能會根據您的通話時間和一周中的日子而有所變動。 撥打 0800 號碼是免費的。
+我們網站上提供國家翻譯服務、個人號碼和 0870 號碼的費率[](https://go.microsoft.com/fwlink/?LinkID=820709&amp;clcid=0x809)，可能會根據您的通話時間和一周中的日子而變動。 撥打 0800 號碼是免費的。
 
 
 ## <a name="related-topics"></a>相關主題

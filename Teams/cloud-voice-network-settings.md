@@ -8,8 +8,8 @@ ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 瞭解您必須為直接路由和增強的緊急服務Location-Based路由所必須設定的網路設定。
-localization_priority: Normal
+description: 瞭解您必須針對直接路由的路由Location-Based和增強的緊急服務所必須設定的網路設定。
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 54739ca0f5b1d7191df326ca75f4e868c5e1e65251ebe3c81800fe425a4f5a1e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 425f453e5e1b7f90b1486aa35d09f7919e0c33b4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331055"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580217"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>雲端語音功能的網路設定Microsoft Teams
 
-瞭解網路區域、網路網站、網路子網和受信任的 IP 位址。 這些條款和概念會用於我們的雲端語音檔，用於[](location-based-routing-plan.md)直接路由和動態緊急電話的定位式[路由](configure-dynamic-emergency-calling.md)。 如果您要在組織中部署這些雲端功能，您必須設定網路設定，以在 Microsoft Teams。
+瞭解網路區域、網路網站、網路子網和受信任的 IP 位址。 這些條款和概念會用於我們的雲端語音檔，用於[](location-based-routing-plan.md)直接路由和動態緊急電話的定位式[路由](configure-dynamic-emergency-calling.md)。 如果您要在組織中部署這些雲端功能，您必須設定網路設定，以在 Microsoft Teams 中使用這些Microsoft Teams。
 
 本文提供路由和動態緊急Location-Based常見的網路設定概觀。 根據您部署的雲端語音功能，您可以設定部分或所有設定。 若要瞭解如何設定這些設定的步驟，請參閱在 Teams 中管理雲端[功能的網路拓撲](manage-your-network-topology.md)。
 
@@ -52,7 +52,7 @@ ms.locfileid: "54331055"
 
 子網資訊會用來判斷啟動新會話時端點所在的網路網站。 當會話內每一方的位置為已知時，雲端語音功能可以運用該資訊來決定如何處理通話設定或路由。
 
-針對每個網路網站，請與您的網路系統管理員合作，決定指派給每個網路網站的 IP 子網。 例如，北美地區的紐約網站可以指派下列 IP 子網：172.29.80.0/23、157.57.216.0/25、172.29.91.0/23、172.29.81.0/24。 如果一般在密地安地亞工作的 Bob 前往紐約辦公室接受訓練，開啟電腦並連接到網路，他的電腦就會在四個為紐約配置的範圍之一取得 IP 位址，例如 172.29.80.103。
+針對每個網路網站，請與您的網路系統管理員合作，決定指派給每個網路網站的 IP 子網。 例如，北美地區的紐約網站可以指派下列 IP 子網：172.29.80.0/23、157.57.216.0/25、172.29.91.0/23、172.29.81.0/24。 如果一般在密地安地亞工作的 Bob 前往紐約辦公室接受訓練，開啟電腦並連接到網路，他的電腦會取得配置給紐約之四個範圍之一的 IP 位址，例如 172.29.80.103。
 
 ## <a name="trusted-ip-address"></a>信任的 IP 位址
 

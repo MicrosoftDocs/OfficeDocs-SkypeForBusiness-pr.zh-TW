@@ -12,26 +12,26 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何在會議中Microsoft Teams聊天。
-ms.openlocfilehash: 6962d38eb30a8f94893667d269f35ebe8e251a3df8896d574b2236ca29c91a09
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解如何在會議中進行Microsoft Teams聊天。
+ms.openlocfilehash: 439c62b4993b68ba0c17f83857ad74034fdcd0c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318247"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629195"
 ---
-# <a name="supervised-chats-in-microsoft-teams"></a>在聊天中監督Microsoft Teams
+# <a name="supervised-chats-in-microsoft-teams"></a>在 Microsoft Teams
 
-教育機構提供安全且健康的網際空間給學生。 網際空間包含電子郵件、線上會議和通話，以及郵件Teams。 為了防止不當的傳訊行為，許多學校會停用 Teams。 很抱歉，停用聊天也會讓教師無法私下與學生聯繫，進行個人化學習。 當學生不想在班級團隊中公開張貼訊息時，他們無法與教師聯繫。
+教育機構為學生提供安全且健康的網際空間。 網際空間包括電子郵件、線上會議和通話，以及郵件Teams。 為了防止不當的傳訊行為，許多學校會停用 Teams。 很抱歉，停用聊天也會讓教師無法私下與學生聯繫，進行個人化學習。 當學生不想在班級團隊中公開張貼訊息時，他們無法與教師聯繫。
 
 監督式聊天可讓指定的教育者與學生開始聊天，並阻止學生開始新的聊天，除非有適當的教師出席。 啟用聊天監督時，主管不得離開聊天，而不允許其他參與者移除這些聊天，以確保與學生有關的聊天受到適當的監督。
 
 這些限制僅適用于監督聊天完全啟用後所建立的新私人聊天。 它們不適用於現有的私人聊天、會議聊天或頻道。 若要深入瞭解會議聊天、頻道安全及確保學生安全[的最佳](https://support.microsoft.com/topic/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8?ui=en-us&rs=en-us&ad=us#ID0EBBAAA=For_educators&ID0EDD=For_educators)作法，請觀看使用 Teams。
 
 > [!Note]
-> 受監督的聊天可保護在強制執行功能後建立的新聊天。  它無法保護現有的聊天。
+> 受監督的聊天可保護功能強制執行後建立的新聊天。  它無法保護現有的聊天。
 
 ## <a name="review-use-cases-for-supervised-chats"></a>審查受監督聊天的使用案例
 
@@ -45,10 +45,10 @@ ms.locfileid: "54318247"
 
 - 允許非教職員在受監督的環境中與學生聊天。
 
-## <a name="enable-supervised-chat"></a>啟用監督聊天
+## <a name="enable-supervised-chat"></a>啟用有監督的聊天
 
 > [!Note]
-> 在為機構啟用聊天之前，請確定您設定聊天許可權角色和角色型聊天許可權政策，以避免學生對未監督的聊天進行不必要的存取。
+> 在您為機構啟用聊天之前，請確定您設定聊天許可權角色和角色型聊天許可權政策，以避免學生對未監督的聊天進行不必要的存取。
 
 ### <a name="define-chat-permission-roles-for-each-user-in-your-environment"></a>為環境中每個使用者定義聊天許可權角色
 
@@ -56,19 +56,19 @@ ms.locfileid: "54318247"
 
 - *完整許可權* – 此角色適用于應能完整存取學生和其他教職員成員的教育工作者。 他們可以開始與環境中的任何使用者聊天。 擁有完整許可權的使用者應監督他們參與的聊天。 他們無法離開或移除他們啟動的聊天，或他們在聯盟租使用者中監督的聊天。
 
-- *有限許可權* – 此角色適用于只有學生受監督存取權且能與其他教職員和教師完全存取的員工成員。 他們可以開始與任何完整或受限制的使用者聊天，但無法與受限制的使用者開始聊天。 如果擁有完整許可權的使用者開始與受限制的使用者聊天，可以將受限制的使用者加入交談。 發生此存取是因為擁有完整許可權的使用者目前負責監督受限制和受限制的使用者之間的共同合作。
+- *有限許可權* – 此角色適用于只有學生受監督存取權且能完全存取其他教職員和教育工作者的員工成員。 他們可以開始與任何完整或受限制的使用者聊天，但無法與受限制的使用者開始聊天。 如果擁有完整許可權的使用者開始與受限制的使用者聊天，可以將受限制的使用者加入交談。 發生此存取是因為擁有完整許可權的使用者目前負責監督受限制和受限制的使用者之間的共同合作。
 
 - *限制許可權* – 此角色適用于需要受監管的學生。 他們只能與擁有完整許可權的使用者開始聊天。 他們可以參與擁有完整許可權的使用者邀請他們進行的任何交談。 在聯合聊天案例中，限制使用者只能由擁有來自受限制使用者租使用者之完整許可權的使用者新加入聊天。
 
 若要設定使用者的聊天許可權角色，請使用系統管理入口網站中的訊息Teams中找到的聊天許可權角色策略。 您可以使用 PowerShell 使用 ChatPermissionRole 策略定義角色，其值為完整、限制或限制。 此政策位於 CsTeamsMessagingPolicy 下。
 
-若要深入瞭解設定。 Teams，請參閱Teams教育與指派策略給大量使用者指南的一些政策與政策套件。
+若要深入瞭解設定。 Teams，請參閱Teams和指派策略給大量使用者指南的一些政策與政策套件。
 
-無法將角色指派給租使用者中的來賓。 來賓會指派有限角色。
+角色無法指派給租使用者中的來賓。 來賓會指派有限角色。
 
 ### <a name="allow-supervised-chat"></a>允許有監督的聊天
 
-您的租使用者預設會停用監督聊天。 為使用者設定聊天許可權角色之後，您可以進入全組織設定 Teams 設定，將角色型聊天權限原則設定 &gt; **為 On，** 在租使用者中啟用監督聊天 *。* 您也可以將 AllowRoleBasedChatPermissions 設定為 True，使用 PowerShell 啟用監督聊天。 此 Cmdlet 位於 CsTeamsClientConfiguration 下。
+您的租使用者預設會停用監督聊天。 為使用者設定聊天許可權角色之後，您可以進入全組織設定 Teams 設定，將角色型聊天權限原則設定為 &gt; **On，** 在租使用者中啟用監督聊天 *。* 您也可以將 AllowRoleBasedChatPermissions 設定為 True，使用 PowerShell 啟用監督聊天。 此 Cmdlet 位於 CsTeamsClientConfiguration 下。
 
 必須針對租使用者中的所有使用者啟用受監督的聊天，而且只能為部分使用者啟用。
 
@@ -78,7 +78,7 @@ ms.locfileid: "54318247"
 
 ## <a name="maintain-supervised-chats"></a>維護受監督的聊天
 
-一開始啟用監控聊天后，您必須執行一些操作，以確保您環境中聊天維持受監督狀態：
+在初始啟用有監督的聊天之後，您必須執行一些操作，以確保您環境中聊天維持受監督狀態：
 
 - 指派適當的角色給加入您租使用者的任何新使用者。 根據預設，使用者會指派受限制的角色。
 

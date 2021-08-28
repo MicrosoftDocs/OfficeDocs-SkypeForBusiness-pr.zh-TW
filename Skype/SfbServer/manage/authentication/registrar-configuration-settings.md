@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 摘要：管理商務用 Skype Server 的註冊機設定設定。
-ms.openlocfilehash: c4dfe9ab3fb8694cf17ef7e4da18d0e8add8b80aabc074bce404947864bd68f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d1962bb7f2a8c6205bcc8bc5dee47217c21758f2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336863"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580627"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>管理商務用 Skype Server 中的註冊器設定
  
@@ -100,7 +100,7 @@ ms.locfileid: "54336863"
     
 5. 在清單中，按一下您想要的註冊機構，按一下 [ **編輯**]，然後按一下 [ **刪除**]。
     
-6. 按一下 ****[確定]。
+6. 按一下 [確定]。
     
 ## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 移除註冊機設定設定
 
