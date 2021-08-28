@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: 閱讀此主題以瞭解如何在商務用 Skype Server 企業語音中設定增強型緊急服務 (E9-1-1) 位置原則。
-ms.openlocfilehash: 46bd1167f573f1d43689d5d4ff145823dafa94a2ec64697e9c20a234b341619d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d601fddcb66fd5b963ab24caf3a7289a2188628b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340279"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594737"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中建立位置原則
 
@@ -41,7 +41,7 @@ ms.locfileid: "54340279"
 如需詳細資訊，請參閱[Plan location 商務用 Skype Server 的位置原則](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)。 此程式中的 Cmdlet 使用使用下列值定義的位置原則。 如需 Cmdlet 參數和值的完整說明，請參閱 [New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)。
 
 
-| **元素**                               | **Value**                                                                                                                                                                          |
+| **元素**                               | **值**                                                                                                                                                                          |
 |:------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | EnhancedEmergencyServicesEnabled  <br/>   | **True** <br/>                                                                                                                                                                     |
 | LocationRequired  <br/>                   | **免責聲明** <br/>                                                                                                                                                               |

@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 在本文中，您將瞭解如何進行實驗階段以Microsoft Teams採用。
 f1.keywords:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c93dbfbb7b3ce6955ad530e13b85fb99b5d1fc01fbbe38b02871e8d7ddae21e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a169208d5e59044e4ce8de63098428f9d4e8f085
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296600"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636647"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams採用階段 2 - 實驗
 
-您現在已擁有優秀的專案小組，以及貴組織的重要資訊，而且準備好嘗試Teams。 我們建議您在由您具有正面關係且組織中有足夠的早期採用者提供有意義意見反應的利害關係人所帶領的群組中，試驗 2 到 3 個實際專案。 不論貴組織是大型或小型組織，我們建議您完成此階段，以深入瞭解Teams除了使用聊天和檔案儲存功能之外，如何改善您的共同合作。  
+您現在已擁有優秀的專案小組，以及貴組織的重要資訊，而且準備好嘗試Teams。 我們建議您在由您具有良好關係且組織中有足夠的早期採用者提供有意義意見反應的利害關係人所帶領的群組中，試驗 2 到 3 個實際專案。 不論貴組織是大型或小型組織，我們建議您完成此階段，以深入瞭解Teams除了使用聊天和檔案儲存功能之外，如何改善您的共同合作。  
 
 在此階段中，您將完成下列步驟：
 
@@ -41,4 +41,4 @@ ms.locfileid: "54296600"
 5. [設定您的意見回饋通道](teams-adoption-onboard-early-adopters.md#gather-feedback)。
 6. [讓支援人員上臺](teams-adoption-onboard-support.md)。
 
-![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) 下一步 [：建立您的冠軍計畫](teams-adoption-create-champions-program.md)
+![代表下一個步驟的 ](media/teams-adoption-next-icon.png) 圖示下一步 [：建立您的冠軍計畫](teams-adoption-create-champions-program.md)

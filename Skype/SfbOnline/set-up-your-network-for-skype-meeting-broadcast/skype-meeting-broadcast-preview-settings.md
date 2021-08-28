@@ -13,26 +13,26 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetingsPreview
-description: 客戶商務用 Skype預覽計畫可方便您提早存取新產品和功能。 它可讓貴組織快速瞭解即將推出的產品、測試您環境中的新功能，以及提供意見，然後再將產品建立發佈給一般大眾。 若要瞭解更多內容，請參閱預覽商務用 Skype預覽。
-ms.openlocfilehash: b372fcdbe23ed5fcd663cf7af0a0d4aea1cd684277d670308daab120625d2238
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 客戶商務用 Skype預覽計畫可提早存取新產品和功能。 它可讓貴組織快速瞭解即將推出的產品、測試您環境中的新功能，以及提供意見，然後再將產品建立發佈給一般大眾。 若要瞭解更多內容，請參閱預覽商務用 Skype預覽。
+ms.openlocfilehash: e00135bfd2cdd487b02d21b242d3c634accd0ca0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298733"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594807"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Skype會議廣播預覽設定
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-客戶商務用 Skype預覽計畫可方便您提早存取新產品和功能。 它可讓貴組織快速瞭解即將推出的產品、測試您環境中的新功能，以及提供意見，然後再將產品建立發佈給一般大眾。 若要進一商務用 Skype[預覽](https://www.skypepreview.com/)。
+客戶商務用 Skype預覽計畫可提早存取新產品和功能。 它可讓貴組織快速瞭解即將推出的產品、測試您環境中的新功能，以及提供意見，然後再將產品建立發佈給一般大眾。 若要進一商務用 Skype[預覽](https://www.skypepreview.com/)。
 
 ## <a name="related-topics"></a>相關主題
 [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)

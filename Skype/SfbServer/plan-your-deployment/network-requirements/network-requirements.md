@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 摘要：在實施商務用 Skype Server 之前，請先複查下列網路元件考慮。
-ms.openlocfilehash: dc2e56c1c918a9ebdaf8a40bfcdb6530fae283b6b2733b4def890c6b26630c29
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 272ac60f4322d1d9153a6518e20d02c07e066def
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323005"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623575"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>規劃商務用 Skype 的網路需求
 
@@ -142,7 +142,7 @@ G.722 編解碼器的立體版本是由以 Lync 會議室系統為基礎的系�
 
 |**視訊轉碼器**|**解析度和外觀比例**|**最大影片負載位元速率 (Kbps)**|**最小影片負載位元速率 (Kbps)**|
 |:-----|:-----|:-----|:-----|
-|H-p  <br/> |320x180 (16:9)   <br/> 212x160 (4:3)   <br/> |250  <br/> |8  <br/> |
+|H-p  <br/> |320x180 (16:9)   <br/> 212x160 (4:3)   <br/> |250  <br/> |15   <br/> |
 |上的 264/RTVideo  <br/> |424x240 (16:9)   <br/> 320x240 (4:3)   <br/> |350  <br/> |100  <br/> |
 |H-p  <br/> |480x270 (16:9)   <br/> 424x320 (4:3)   <br/> |450  <br/> |200  <br/> |
 |上的 264/RTVideo  <br/> |640x360 (16:9)   <br/> 640x480 (4:3)   <br/> |800  <br/> |300  <br/> |
@@ -150,7 +150,7 @@ G.722 編解碼器的立體版本是由以 Lync 會議室系統為基礎的系�
 |H-p  <br/> |960x540 (16:9)   <br/> |2000  <br/> |500  <br/> |
 |上的 264/RTVideo  <br/> |1280x720 (16:9)   <br/> |2500  <br/> |700  <br/> |
 |H-p  <br/> |1920x1080 (16:9)   <br/> |4000  <br/> |1500  <br/> |
-|上的 264/RTVideo  <br/> |960x144 (20:3)   <br/> |500  <br/> |8  <br/> |
+|上的 264/RTVideo  <br/> |960x144 (20:3)   <br/> |500  <br/> |15   <br/> |
 |H-p  <br/> |1280x192 (20:3)   <br/> |1000  <br/> |250  <br/> |
 |H-p  <br/> |1920x288 (20:3)   <br/> |2000  <br/> |500  <br/> |
 
@@ -194,7 +194,7 @@ G.722 編解碼器的立體版本是由以 Lync 會議室系統為基礎的系�
 |:-----|:-----|
 |音訊  <br/> |5   <br/> |
 |視訊 (僅傳送/接收 H.264 或 RTVideo)  <br/> |10   <br/> |
-|視訊 (傳送/接收 H.264 或 RTVideo)  <br/> |8  <br/> |
+|視訊 (傳送/接收 H.264 或 RTVideo)  <br/> |15   <br/> |
 
 若要進行容量規劃，請注意下列兩個統計資料：
 

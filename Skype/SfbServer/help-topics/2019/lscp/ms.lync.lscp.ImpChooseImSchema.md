@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用 [選取超連結首碼] 對話方塊，選取您要封鎖的超連結類型、傳送警告訊息，或是允許您選取 [ (] 以封鎖或傳送警告訊息) 或清除 [ (] 允許) 來自超連結首碼的類別中的副檔名核取方塊。 按一下箭號展開類別，並查看該類別的所有超連結首碼。 如果您想要選取類別的所有超連結首碼，請選取類別名稱。
-ms.openlocfilehash: 71e2d018430f61e171f59069e0178e14107ed4338020c8792bdd21ac31d588ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ed42530c8d364a8d09d1ca7711020a5d105bbe78
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334395"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624255"
 ---
 # <a name="select-hyperlink-prefix"></a>選取超連結首碼
  

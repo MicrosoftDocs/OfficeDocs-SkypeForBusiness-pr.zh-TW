@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: 摘要：瞭解商務用 Skype Server 中的回應群組應用程式。
-ms.openlocfilehash: 4b0843d44a9e23756e9f4f8516fcaf1f543b94da45749416deb9f43fca0715ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6d065f8313a770ce05b10925c9c854cec7e256e5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326419"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623625"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server"></a>商務用 Skype Server 的回應群組使用方式報告
 
@@ -116,7 +116,7 @@ Get-CsRgsWorkflow -Name "New Ad Campaign" | Select-Object Name, PrimaryUri
 
 |**名稱**|**可以排序這個項目嗎？**|**描述**|
 |:-----|:-----|:-----|
-|**每小時** <br/> **每日** <br/> **每週** <br/> **每月** <br/> |否  <br/> |指示所選的時間間隔。 在適用的情況下，只要按一下指定的時間間隔，即可檢視該間隔的詳細資訊。 例如，如果您使用的是每日間隔，而您按一下 [7/7/2015]，就會看到該日期的使用者註冊活動的每小時細目。  <br/> |
+|**每小時** <br/> **日常** <br/> **每週** <br/> **每月** <br/> |否  <br/> |指示所選的時間間隔。 在適用的情況下，只要按一下指定的時間間隔，即可檢視該間隔的詳細資訊。 例如，如果您使用的是每日間隔，而您按一下 [7/7/2015]，就會看到該日期的使用者註冊活動的每小時細目。  <br/> |
 |**接收的通話** <br/> |否  <br/> |回應群組應用程式的所有執行個體接收的通話總數。當您按一下此項目，報告即顯示所選取時段的回應群組通話清單報告。  <br/> |
 |**成功的通話** <br/> |否  <br/> |回應群組應用程式接聽的通話總數。當您按一下此項目，報告即顯示所選取時段的回應群組通話清單報告。  <br/> |
 |**提供的通話** <br/> |否  <br/> |轉接至回應群組代理程式的通話總數。當您按一下此項目，報告即顯示所選取時段的回應群組通話清單報告。  <br/> |

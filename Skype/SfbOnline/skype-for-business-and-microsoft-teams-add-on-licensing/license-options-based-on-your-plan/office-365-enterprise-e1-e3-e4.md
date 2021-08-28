@@ -14,19 +14,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: '瞭解附加元件授權、功能，以及如何購買 Office 365 企業版、E1、E3 和 E4 方案。 '
-ms.openlocfilehash: 16752a076b84bc8ad8fe65251732af65993cb73784e7589c275fd42ac71c4352
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 25f45b9bb84a572c23feb33972c39693695f69e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316449"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594797"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 企業版 E1、E3 及 E4
 
@@ -39,10 +39,10 @@ ms.locfileid: "54316449"
 |**音訊會議** <br/> 為要 **排** 程或主持電話撥入式會議的每一個人購買 1 個音訊會議授權。 出席者不需要授權。 |**音訊會議** 附加元件 <br/>購買授權後，Microsoft 就會成為您的音訊會議提供者。 |
 |**可撥入會議免付費號碼，以及從會議撥出以撥打全球任何電話號碼來新增人員的能力** |[通訊點數](/microsoftteams/add-funds-and-manage-communications-credits)|
 |**電話系統** |1. **Office 365 電話系統** 附加元件 <br/> 2. 通話方案：從[](/MicrosoftTeams/calling-plans-for-office-365)Office 365。 <br/>  或者，使用 [現有提供者的電話語音](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md#bkmk_existing)。  |
-|**雲端語音信箱**<sup>1</sup> |針對 E1 和 E4 方案，Exchange Online方案 2。 <br/>或者，切換到 Office方案 2 隨附Exchange Online套件，例如 Office 365 E3。 |
+|**雲端語音信箱**<sup>1</sup> |針對 E1 和 E4 方案，請Exchange Online方案 2。 <br/>或者，切換到 Office方案 2 隨附Exchange Online套件，例如 Office 365 E3。 |
 |**通話方案** |1.**電話系統** 附加元件 <br/> 2.[通話方案](/MicrosoftTeams/calling-plans-for-office-365)：您只有在購買附加元件 **電話系統才能購買**。 |
 
-<sup>1</sup> 適用于內部部署使用者。 詳細資訊，請參閱[規劃雲端語音信箱內部部署使用者的服務](/skypeforbusiness/hybrid/plan-cloud-voicemail)。
+<sup>1</sup> 適用于內部部署使用者。 詳細資訊，請參閱[規劃雲端語音信箱內部部署使用者的服務。](/skypeforbusiness/hybrid/plan-cloud-voicemail)
    
 > [!IMPORTANT]
 > Office 365E4 授權已正式停用。 如需詳細資訊[，請參閱Office 365 企業版 E4重要資訊](https://support.office.com/article/important-information-for-office-365-enterprise-e4-customers-f9572348-43a2-43fa-a3d8-3b6c9c042147)。
@@ -67,7 +67,7 @@ E3 方案是您的動作套件的一部分。 若要購買 **電話系統****和
 
 2. 請登錄系統管理中心，然後前往帳單訂閱  >    >  **附加元件**。
 
-    現在，您將看到購買電話和音訊 **電話系統附加元件** 的價格和選項。 
+    現在，您將看到購買電話電話系統 **音訊** 會議附加元件的價格和選項。
 
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>為什麼我看不到購買附加元件的選項？
 <a name="bkmk_how"> </a>

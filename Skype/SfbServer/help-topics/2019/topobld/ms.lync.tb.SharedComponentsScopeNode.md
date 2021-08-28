@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SharedComponentsScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以在拓撲產生器階層樹狀目錄中，以滑鼠右鍵按一下 [共用元件]，以建立新的共用元件或存取拓撲層級選項。
-ms.openlocfilehash: 638f05c42aa08c172bbd7669d3876c0184b228fdbc2ca13767a5fdd99ebd5c26
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c88eb48da50648894cd1ede4bbcafa2357fc30bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348368"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616119"
 ---
 # <a name="shared-components-scope-node"></a>共用元件範圍節點
  

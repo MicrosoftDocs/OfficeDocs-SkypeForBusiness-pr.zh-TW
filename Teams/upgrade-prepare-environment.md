@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 在開始從新版升級至 商務用 Skype 之前，先驗證您的商務用 Skype Teams。
-localization_priority: Normal
+description: 在開始從新版升級至商務用 Skype之前，先Teams。
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 957f84ca8629dbc9effb440211220465f6be0640633638e70306c6e3dec6d0ec
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b12ed0ad9b662f4cc36a68ae7ee3b4340960517f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300729"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616139"
 ---
 # <a name="prepare-your-environment-for-upgrading-to-teams"></a>準備您的環境以升級到 Teams
 
@@ -44,6 +44,6 @@ ms.locfileid: "54300729"
 
 - [準備您的 IT 員工](upgrade-prepare-IT-pros.md) ，協助確保他們擁有成功升級旅程所需的功能。
 - 確認您的環境符合所有先決條件，[](upgrade-plan-journey-prerequisites.md)並瞭解Microsoft 365或Office 365與Teams。
-- [使用範例問卷](upgrade-plan-journey-evaluate-environment.md)來執行環境探索，以確認貴組織準備好進行成功的升級歷程，以Teams。
+- [使用範例問卷](upgrade-plan-journey-evaluate-environment.md)執行環境探索來評估您的環境，以確認貴組織準備好進行成功的升級歷程，Teams。
 - [透過規劃、](prepare-network.md)準備及採取任何必要的補救步驟，為您的網路做好準備，以支援Teams工作量。
 - [使用登錄檢查](upgrade-prepare-environment-prepare-service.md)清單來準備您的服務，以確保您的 Teams 已準備就緒，可支援將使用者從 商務用 Skype 移Teams。

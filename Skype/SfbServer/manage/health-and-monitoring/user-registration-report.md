@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 摘要：瞭解商務用 Skype Server 中的使用者註冊報告。
-ms.openlocfilehash: 1202c18f831c36fcc4b3ce7073b15c1ee5aa1776060cde5098b41dcb4f635130
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6424d3b0c90bf8b9286f03f7997e286b38193d6d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315589"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593677"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>商務用 Skype Server 中的使用者註冊報告
  
@@ -89,7 +89,7 @@ ms.locfileid: "54315589"
 
 |**名稱**|**可以排序這個項目嗎？**|**描述**|
 |:-----|:-----|:-----|
-|**每小時** <br/> **每日** <br/> **每週** <br/> **每月** <br/> |否  <br/> |指出在篩選工具列上所選取的時間間隔。 在適用的情況下，只要按一下指定的時間間隔，即可檢視該間隔的詳細資訊。 例如，如果您使用的是每日間隔，而您按一下 [7/7/2015]，就會看到該日期的使用者註冊活動的每小時細目。  <br/> |
+|**每小時** <br/> **日常** <br/> **每週** <br/> **每月** <br/> |否  <br/> |指出在篩選工具列上所選取的時間間隔。 在適用的情況下，只要按一下指定的時間間隔，即可檢視該間隔的詳細資訊。 例如，如果您使用的是每日間隔，而您按一下 [7/7/2015]，就會看到該日期的使用者註冊活動的每小時細目。  <br/> |
 |**登入總數** <br/> |否  <br/> |登入工作階段總數。  <br/> |
 |**內部登入** <br/> |否  <br/> |內部網路內的登入總數。  <br/> |
 |**外部登入** <br/> |否  <br/> |使用 Edge Server，來自內部網路以外的登入總數。  <br/> |

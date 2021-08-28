@@ -1,5 +1,5 @@
 ---
-title: 在系統管理單元Microsoft Teams
+title: 使用系統管理單元Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: prasad.ghlove
@@ -8,26 +8,26 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解如何在 Microsoft Teams
-localization_priority: Normal
+description: 瞭解如何在系統管理單元Microsoft Teams
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93add1771e76f6640b6f1fde3ee6e732499aa329
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 556f220c9ca250f014ae604c96cabf9ef0b0ca0f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399350"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636789"
 ---
 # <a name="administrative-unit-functionality-for-device-management-in-teams"></a>裝置管理中的系統管理單元功能Teams
 
 使用系統管理中心，以更精細的角色為基礎存取裝置管理Microsoft Teams存取。 我們已透過系統管理中心，為裝置管理Teams概念。
 
-使用系統管理單元概念，您可確保專屬系統管理員能夠存取一組特定資源。 系統管理單位會限制所有資源的存取權。 您可以為裝置管理擴展Teams功能。
+使用系統管理單元概念，您將確保專屬系統管理員能夠存取一組特定資源。 系統管理單位會限制所有資源的存取權。 您可以為裝置管理擴展相同的Teams功能。
 
 > [!NOTE]
 > 系統管理單元概念目前僅適用于Teams系統管理員角色。
