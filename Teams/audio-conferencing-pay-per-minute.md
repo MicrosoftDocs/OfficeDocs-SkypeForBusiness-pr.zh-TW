@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: 瞭解使用 Microsoft 大量授權為組織啟用音訊會議功能的每分鐘付費選項。
-ms.openlocfilehash: d3aea84ec5686c5ed91dbcd5dbda0d4c9ca8649c2eef7dd3c3a62b4def46688e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef741bfba6667711c03bd90d2018d7da2093eac8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286202"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593157"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音訊會議按分鐘計費
 
@@ -43,7 +43,7 @@ ms.locfileid: "54286202"
   
 ## <a name="need-some-details"></a>需要一些詳細資料嗎？
 
-音訊會議每個使用者授權方案包含撥入使用方式和一些撥出使用量，而音訊會議付費方案可讓您每分鐘支付所有音訊會議使用量，而不需要支付每個使用者的每月授權 **費用。** 這樣一來，所有撥入和撥出電話都會以每分鐘計費，包括：
+音訊會議每使用者授權方案包含電話撥入使用量和部分撥出使用量，而音訊會議按分鐘付費可讓您每分鐘支付所有音訊會議使用量，而不需要支付每個使用者的每月授權 **費用。** 這樣一來，所有撥入和撥出電話都會以每分鐘計費，包括：
   
 - 撥打貴組織音訊會議號碼的來電。
     
@@ -52,17 +52,17 @@ ms.locfileid: "54286202"
 - 從貴組織會議撥打給外部電話號碼的外寄電話。
     
 > [!NOTE]
-> 您可以在音訊會議中查看您想要通話位置的費率區段，以找到與這類通話相關聯的撥入和撥出[費率](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)。
+> 您可以在音訊會議中查看要通話位置的查看費率，以找到與這類通話相關聯的撥入和撥出[費率](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)。 
   
   
 每分鐘付費要求貴組織設定 [通訊](what-are-communications-credits.md) 信用額度。 如果您想要更多詳細資料，請參閱為[](set-up-communications-credits-for-your-organization.md)貴組織設定通訊信用額度和/或Microsoft Teams[附加元件授權](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
 
   
-若要為貴組織的使用者啟用音訊會議每分鐘付費，請參閱在 Microsoft Office 365 或 Office 365 中試用[或購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
+若要為貴組織的使用者啟用音訊會議每分鐘付費，請參閱在 Microsoft Office 365 或 Office 365 中試用[或購買音訊Office 365。](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 ## <a name="why-is-it-best-for-you"></a>為什麼最適合您？
 
-- 每一位出席者在排定會議期間所撥打的每一個來電或外寄電話 (費率會因付費或免付費通話和目的地) 而異，而不是在行動裝置或 PC 中使用 商務用 Skype 或 Teams 應用程式，而只會以每分鐘付費。
+- 每一位出席者在排定會議期間所撥打的每一個傳入或外寄電話 (費率會視通話費用或免付費通話和目的地) 而異，而不是在行動裝置或 PC 中使用 商務用 Skype 或 Teams 應用程式。
 
 - 管理成本的能力，因為系統管理員可以控制從召集人的會議 (國際) 撥出類型。 請參閱[音訊會議與使用者 PSTN](./outbound-calling-restriction-policies.md)通話的外發通話限制政策
 
@@ -70,7 +70,7 @@ ms.locfileid: "54286202"
 
 - 使用通訊信用額度控制及監控每分鐘付費。
 
-- 針對不需要訂閱所有使用者的客戶，在價格方面擁有更大的彈性。 
+- 針對不需要所有使用者訂閱的客戶，在價格方面擁有更大的彈性。 
 
 - 啟用音訊會議按分鐘付費，以及每月訂閱 E5 或獨立音訊會議訂閱，這兩項服務會繼續以相同方式工作。 變更對音訊會議或通訊信用額度的運作沒有影響。
   
@@ -82,7 +82,7 @@ ms.locfileid: "54286202"
     
 - [電話系統的定價](https://www.microsoft.com/microsoft-teams/voice-calling )
     
-- [通話方案價格](https://www.microsoft.com/microsoft-teams/voice-calling)
+- [通話方案的價格](https://www.microsoft.com/microsoft-teams/voice-calling)
     
 ## <a name="related-topics"></a>相關主題
   

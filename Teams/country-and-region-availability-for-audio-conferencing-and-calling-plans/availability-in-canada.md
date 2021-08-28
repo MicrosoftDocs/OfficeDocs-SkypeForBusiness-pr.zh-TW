@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是加拿大Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: b1b28b9caa3479de81d64639a0d638e3d5eada59967e1328f806b55993363472
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 034a9655afad69b90c9195dad5f7f7bceeac4cba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279770"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593137"
 ---
 # <a name="availability-in-canada"></a>加拿大的可用性
 
@@ -61,11 +61,11 @@ ms.locfileid: "54279770"
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 可以購買通話方案嗎？  <br/>    | 是  <br/>                                                                                                                                                                                                                                                                  |
 | 通話方案可用的通話分鐘數。               | 每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>3000 分鐘的國內通話方案</li></li><li>國內及國際通話方案：3000 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li>|
-| 可以撥打付費號碼的外接電話嗎？  <br/> | 目前不支援。<br/>                                                                                                                                                                                                                                            |
+| 可以撥打付費號碼外接電話嗎？  <br/> | 目前不支援。<br/>                                                                                                                                                                                                                                            |
 | 可以向外撥打電話嗎？  <br/>                 | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/>                                                                                                                                                                  |
 
 > [!Note]
-> 當美國國內 (國內或國際電話) 美國使用者撥打加拿大的電話號碼時，該號碼會視為國內通話。 這也是加拿大使用者撥打美國電話號碼時的情況。不過，如果您也使用通話方案政策將使用者撥出範圍限制為「國內」，則美國使用者將無法撥打加拿大，同樣地，加拿大使用者也將無法撥打美國使用者。
+> 當美國 (國內或國內) 使用者撥打加拿大的電話號碼時，該號碼會視為國內通話。 這也是加拿大使用者撥打美國電話號碼時的情況。不過，如果您也使用通話方案政策，將使用者的撥出範圍限制為「國內」，則美國使用者將無法撥打加拿大，同樣地，加拿大使用者將無法撥打美國使用者。
 
 > [!Note]
 > 美國電話會視為國內通話。

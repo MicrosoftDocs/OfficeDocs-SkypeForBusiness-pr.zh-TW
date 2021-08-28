@@ -14,22 +14,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在頻道中設定仲裁Microsoft Teams，包括如何將小組成員新增為頻道仲裁者。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c0aa2035a23a82d0a73009c379b99d34e9ccf7ff1b1b3dd0806dd7d6d0afcdf7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb709d8e618b68fad2bc87dc658eb6f67853e891
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304845"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58593027"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在頻道中設定及管理頻道Microsoft Teams
 
 在 Microsoft Teams中，團隊擁有者可以開啟標準頻道的審核，以控制誰可以開始新文章，以及回復該頻道中的文章。
 
-團隊擁有者也可以將小組成員新增為仲裁者。 團隊擁有者可能沒有頻道層級的主題專業知識，因此無法提供最佳支援通道管理。 允許特定小組成員管理頻道，讓團隊擁有者和頻道仲裁者分擔管理頻道內內容和內容的責任。 例如，團隊擁有者可以將企業擁有者或內容擁有者新增為仲裁者，讓他們控制該頻道的資訊共用。
+團隊擁有者也可以將小組成員新增為仲裁者。 團隊擁有者可能沒有頻道層級的主題專業知識，因此無法提供最佳支援通道管理。 允許特定小組成員管理頻道，讓團隊擁有者和頻道仲裁者分擔管理頻道內容與內容的責任。 例如，團隊擁有者可以將企業擁有者或內容擁有者新增為仲裁者，讓他們控制該頻道的資訊共用。
 
 > [!NOTE]
 > 頻道模式適用于標準頻道。 不適用於一般頻道或私人頻道。
@@ -38,13 +38,13 @@ ms.locfileid: "54304845"
 
 頻道仲裁者可以：
 
-- 在頻道中開始新文章。 當頻道開啟仲裁時，只有仲裁者可以在該頻道中啟動新文章。
+- 在頻道中開始新文章。 當頻道開啟仲裁時，只有仲裁者可以在該頻道中開始新貼文。
 - 將小組成員新增並移除為仲裁者至頻道。 請記住，根據預設，團隊擁有者是頻道仲裁者，無法移除。
 - 控制小組成員是否可以回復現有的頻道訊息，以及 Bot 和連接器是否可以提交頻道訊息。
 
 ## <a name="scenarios"></a>案例
 
-以下範例說明貴組織如何在 Teams。
+以下範例說明貴組織如何在 Teams 中使用通道Teams。
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>使用頻道做為公告頻道
 
@@ -52,7 +52,7 @@ ms.locfileid: "54304845"
 
 在此情境中，團隊擁有者會將行銷潛在客戶新增為仲裁者，這樣他們就可以在頻道中張貼公告，並關閉小組成員回復該頻道中的訊息的能力。
 
-### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>使用頻道在 Teams 教育版
+### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>使用頻道進行課程討論Teams 教育版
 
 在 Teams 教育版中，科學教師想要使用頻道讓學生參與特定課堂主題的專注討論。
 
@@ -76,7 +76,7 @@ ms.locfileid: "54304845"
 
 ### <a name="add-or-remove-channel-moderators"></a>新增或移除頻道仲裁者
 
-在 [神秘是仲裁者 **嗎？** 下，按一下 [管理」，然後新增或移除小組成員做為仲裁者。 團隊擁有者和仲裁者可以新增和移除其他仲裁者。  
+在 **[神秘** 是仲裁者嗎？ 下，按一下 [管理」，然後新增或移除小組成員做為仲裁者。 團隊擁有者和仲裁者可以新增和移除其他仲裁者。  
 
 ### <a name="set-team-member-permissions"></a>設定團隊成員許可權
 
