@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -16,19 +16,19 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何啟用使用者Microsoft 電話直接路由。
-ms.openlocfilehash: e15e73c74b6597f754287077480316a8da98178985ef49603cf0fb3b8dc02bbe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b6eb9bf0930b9b8f78d13deca95349afd78ec5af
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327678"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627585"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>啟用使用者進行直接路由、語音和語音信箱
 
 本文將說明如何啟用使用者進行電話系統路由。  這是下列步驟中的步驟 2，用於配置直接路由：
 
-- 步驟 1。 [連線系統Microsoft 電話 SBC 並驗證連接](direct-routing-connect-the-sbc.md) 
-- **步驟 2.啟用使用者進行直接路由、語音和語音信箱 (**   本文) 
+- 步驟 1. [連線系統Microsoft 電話 SBC 並驗證連接](direct-routing-connect-the-sbc.md) 
+- **步驟 2.啟用使用者進行直接路由、語音**   和語音信箱 (本文) 
 - 步驟 3. [設定語音路由](direct-routing-voice-routing.md)
 - 步驟 4. [將數位轉換成替代格式](direct-routing-translate-numbers.md) 
 
@@ -40,7 +40,7 @@ ms.locfileid: "54327678"
 1. 在使用者或Microsoft 365中Office 365使用者，並指派電話系統授權。 
 2. 確保使用者位於線上商務用 Skype中。 
 3. 設定電話號碼，並啟用企業語音和語音信箱。 
-4. 將Teams模式指派給使用者。
+4. 指派Teams模式給使用者。
 
 ## <a name="create-a-user-and-assign-the-license"></a>建立使用者並指派授權
 
@@ -66,7 +66,7 @@ ms.locfileid: "54327678"
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    如果 OnPremLineUriManuallySet 設定為 False，而 LineUri 會填上 <E.164 電話號碼>，則電話號碼會指派至內部部署並同步處理至 O365。 如果您想要在線上管理電話號碼，請使用內部部署 商務用 Skype 管理命令殼清除參數，然後同步處理至 O365，然後使用 商務用 Skype PowerShell 設定電話號碼。 
+    如果 OnPremLineUriManuallySet 設為 False，而 LineUri 會填上 <E.164 電話號碼>，則電話號碼會指派至內部部署並同步處理至 O365。 如果您想要在線上管理電話號碼，請使用內部部署 商務用 Skype 管理命令殼清除參數，然後同步處理至 O365，然後再使用 商務用 Skype PowerShell 設定電話號碼。 
 
 1. 從 商務用 Skype管理命令命令： 
 
@@ -74,9 +74,9 @@ ms.locfileid: "54327678"
    Set-CsUser -Identity "<User name>" -LineUri $null
     ``` 
  > [!NOTE]
- > 請勿將 EnterpriseVoiceEnabled 設為 False，因為不需要這麼做，如果舊版 商務用 Skype 電話使用中，且租使用者混合式設定已設定為 UseOnPremDialPlan $True，這可能會導致撥號方案標準化問題。 
+ > 請勿將 EnterpriseVoiceEnabled 設為 False，因為不需要這麼做，如果舊版 商務用 Skype 電話使用中，且租使用者混合式設定已設定為 UseOnPremDialPlan $True，則可能會導致撥號方案標準化問題。 
     
-   將變更同步到 Office 365 預期輸出 `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` 為：
+   在將變更同步到 Office 365 預期輸出 `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` 為：
 
    ```console
    RegistrarPool                        : pool.infra.lync.com
@@ -117,22 +117,22 @@ ms.locfileid: "54327678"
     Set-CsUser -Identity "stacy.quinn@contoso.com" -OnPremLineURI "tel:+14255388701;ext=1002" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
     ```
 
-    建議但不需要將所使用的電話號碼配置為包含國家/地區代碼的完整 E.164 電話號碼。 支援使用擴充功能來設定電話號碼，當針對基本號碼進行查詢時，會用來查詢使用者。 這可讓公司以相同的基本號碼和唯一分機來設定電話號碼。 若要成功進行尋找，邀請必須包含具有分機的完整號碼，如下所示：
+    建議但並非必須將所使用的電話號碼配置為包含國家/地區代碼的完整 E.164 電話號碼。 支援使用擴充功能來設定電話號碼，當針對基本號碼進行查詢時，會用來查詢使用者。 這可讓公司以相同的基本號碼和唯一分機來設定電話號碼。 若要成功進行尋找，邀請必須包含具有分機的完整號碼，如下所示：
     ```PowerShell
     To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
     ```
     
     > [!NOTE]
-    > 如果使用者的電話號碼是在內部部署中管理，請使用內部部署管理命令商務用 Skype或控制台來設定使用者的電話號碼。 
+    > 如果使用者的電話號碼是在內部部署中管理，請使用內部部署管理商務用 Skype命令或控制台來設定使用者的電話號碼。 
 
 
 ## <a name="configure-sending-calls-directly-to-voicemail"></a>設定將通話直接傳送至語音信箱
 
 直接路由可讓您結束通話給使用者，並直接傳送至使用者的語音信箱。 如果您想要將通話直接傳送至語音信箱，請將不透明=app：語音信箱附加至要求 URI 標頭。 例如，「sip：user@yourdomain.com;不透明=app：語音信箱」。 在這種情況下，Teams不會收到通話通知，通話會直接連接到使用者的語音信箱。
 
-## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>指派Teams模式給使用者，以確保通話在 Microsoft Teams
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>將Teams只指派給使用者，以確保通話在 Microsoft Teams
 
-直接路由要求使用者進入僅Teams模式，以確保來電會撥入Teams用戶端。 若要將使用者置於Teams模式，請指派他們 TeamsUpgradePolicy 的「UpgradeToTeams」實例。 詳細資訊，請參閱 [IT 系統管理員的升級策略](upgrade-to-teams-on-prem-implement.md)。 如果貴組織使用 商務用 Skype Server 或 商務用 Skype Online，請參閱下列文章，以瞭解 Skype 與 Teams 之間的互通性：移移和與 商務用 Skype 的[互通性](migration-interop-guidance-for-teams-with-skype.md)。
+直接路由要求使用者進入 Teams模式，以確保來電會撥入Teams用戶端。 若要將使用者置於 Teams模式，請指派他們 TeamsUpgradePolicy 的 「UpgradeToTeams」實例。 詳細資訊，請參閱 [IT 系統管理員的升級策略](upgrade-to-teams-on-prem-implement.md)。 如果貴組織使用 商務用 Skype Server 或 商務用 Skype Online，請參閱下列文章，以瞭解 Skype 和 Teams 之間的互通性：移移和與 商務用 Skype 的[互通性](migration-interop-guidance-for-teams-with-skype.md)。
 
 ## <a name="see-also"></a>另請參閱
 

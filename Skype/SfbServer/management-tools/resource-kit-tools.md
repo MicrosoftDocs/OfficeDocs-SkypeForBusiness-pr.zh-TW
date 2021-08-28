@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 本文說明商務用 Skype Server 2015 資源套件中的工具，包含每個工具的目的，以及其用途的範例。 商務用 Skype Server 2015 資源套件可協助 IT 系統管理員部署及管理商務用 Skype Server 2015，使日常工作變得更容易。 例如，網路會議資料工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 SEFAUtil 工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具更有效率地管理商務用 Skype Server 2015。
-ms.openlocfilehash: 421b0cbe3ec7644122d73365159714281a8e425e23392dab96d5b8923f5a8e89
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fe281a83790d42cbb08e4f8b12e07d8f5ffcfcbc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333275"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612102"
 ---
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>商務用 Skype Server 2015 資源套件工具檔
 
@@ -281,7 +281,7 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂商�
 
 ![在頻寬 Utili 中收集的記錄通知](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
-按一下 ****[確定]。 BandwidthUtilizationAnalyzer.xlsm 會自動啟動。 依照訊息方塊中的指示進行。 如需詳細資訊，請參閱下一節中的 **Using BandwidthUtilizationAnalyzer.xlsm** 。
+按一下 [確定]。 BandwidthUtilizationAnalyzer.xlsm 會自動啟動。 依照訊息方塊中的指示進行。 如需詳細資訊，請參閱下一節中的 **Using BandwidthUtilizationAnalyzer.xlsm** 。
 
 
 ### <a name="using-bandwidthutilizationanalyzerxlsm"></a>使用 BandwidthUtilizationAnalyzer.xlsm
@@ -1429,7 +1429,7 @@ SYSPrep.ps1 是 Windows PowerShell 腳本，它會在您的 Windows Server 2008 
 在執行 SYSPrep.ps1 腳本之前，您必須將必要條件檔案複製到 Windows Server 2008 作業系統機 (上的本機資料夾，例如 **D:\Setup)**。 這個資料夾還必須包括商務用 Skype Server 2015 檔案的複本，特別是 **Setup.exe。** 您可以從下列位置下載必要檔：
 
 
-| **先決條件**                                | **位置**                                                            |
+| **先決條件**                                | **Location**                                                            |
 |:------------------------------------------------|:------------------------------------------------------------------------|
 | Microsoft .NET Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
 | Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |

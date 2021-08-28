@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 摘要：閱讀本主題，以疑難排解商務用 Skype Server 的統計資料管理員部署。
-ms.openlocfilehash: 457790514cb769edce6deafc23857a59749b1102cf4c33206eac836d11c75c6a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 622e3fdecc9cbe0def1f87a623692cb93889bb00
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333205"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612052"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>疑難排解商務用 Skype Server 統計資料
  

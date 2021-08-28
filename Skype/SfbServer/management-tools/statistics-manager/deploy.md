@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要：閱讀此主題以瞭解如何部署商務用 Skype Server 的統計資料管理員。
-ms.openlocfilehash: e5ace82602ef6443331470a3fd3deda69e3fc797f0446749780436b14b4a7b82
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 966d6aa71eff93f616ae0eb1a7443aebab600016
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333255"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612092"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>部署商務用 Skype Server 統計資料
  
@@ -286,15 +286,15 @@ Microsoft 強烈建議您使用受信任的憑證授權單位單位所簽署的�
     
 4. 以滑鼠右鍵按一下 [ **StatsManListener- \> 所有工作- \> 管理私密金鑰]。**
     
-5. 點擊 **[新增]**。
+5. 按一下 **[新增]**。
     
 6. 在 [ **輸入物件名稱來選取** ] 方塊中，輸入下列專案：網路服務
     
-7. 按一下 ****[確定]。
+7. 按一下 [確定]。
     
 8. 在 [ **完全控制**] 底下，取消勾選 [ **允許** ] 核取方塊。 只需要 (讀取權。 ) 
     
-9. 按一下 ****[確定]。
+9. 按一下 [確定]。
     
 ## <a name="for-more-information"></a>相關資訊
 <a name="BKMK_SelfCert"> </a>

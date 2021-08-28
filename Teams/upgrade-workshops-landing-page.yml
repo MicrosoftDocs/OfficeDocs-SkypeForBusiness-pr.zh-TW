@@ -15,7 +15,7 @@ metadata:
   audience: admin
   f1.keywords:
     - NOCSH
-  localization_priority: Priority
+  ms.localizationpriority: high
   ms.collection:
     - Teams_ITAdmin_JourneyFromSfB
     - M365-collaboration
@@ -28,11 +28,11 @@ productDirectory:
   items:
     - title: 規劃您的升級 (從這裡開始！)
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
-      summary: '無論您是在 商務用 Skype Online (于 20) 21 年 7 月 31 日停用之前升級至 Teams，或將 商務用 Skype 內部部署環境的情況移轉至 Teams，成功的轉換都解決了技術和使用者的整備狀態。 探索我們經過驗證的架構、最佳做法和資源，這些設計可協助您順利從 Teams、商務用 Skype或混合式商務用 Skype Server轉換至新版。 物件 – (商務贊助者、IT 系統管理員、使用者準備/變更管理員、專案潛在客戶) '
+      summary: '無論您是在 20) 21 年 7 月 31 日 商務用 Skype Online (停用之前升級至 Teams，或將 商務用 Skype 內部部署環境案例移往 Teams，成功的轉場都解決了技術和使用者準備就緒的問題。 探索我們經過驗證的架構、最佳做法和資源，這些設計可協助您順利從 Teams、商務用 Skype或混合式商務用 Skype Server轉換至新版。 物件 – (所有企業贊助者、IT 系統管理員、使用者準備/變更管理員、專案) '
       url: 'https://aka.ms/SfBtoTeamsPlan'
     - title: 執行您的Teams升級
       imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
-      summary: 請加入我們，根據您的目標及您目前的環境，找出並準備執行最佳技術方法，將所有工作負載Teams移至商務用 Skype中。 大部分已完成成功轉換的客戶，Teams目前線上、商務用 Skype或混合式商務用 Skype Server啟用。 此會話會分享重要的考慮事項和寶貴的資源，可協助您為組織定義最佳的移移策略。 物件 - IT 系統管理員
+      summary: 請加入我們，根據您的目標及您目前Teams，找出並準備執行最佳技術方法，將所有工作負載移商務用 Skype中。 已完成成功轉換的多數客戶Teams目前線上、商務用 Skype或混合式商務用 Skype Server啟用。 此會話將分享重要的考慮事項和寶貴的資源，説明您為組織定義最佳的移移策略。 物件 - IT 系統管理員
       url: 'https://aka.ms/SfBtoTeamsImplement'
 additionalContent:
   sections:

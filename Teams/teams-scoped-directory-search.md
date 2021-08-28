@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9602615d0c2217a828a2530564c49f9a1009c96b78ad06e78ba2ca79b9e29c05
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 82fb18f60bf812bcc6b7535cdbf2589e60e1d399
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285622"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627425"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 限域目錄搜尋
 
@@ -35,7 +35,7 @@ Microsoft Teams可讓組織提供目錄的自訂視圖給使用者。 Microsoft 
 > [!NOTE]
 > 在Exchange環境中，此功能僅適用于Exchange Online信箱，而非內部部署信箱。
 
-另請參閱在 Exchange Online[中的通訊錄Exchange Online。](/exchange/address-books/address-book-policies/address-book-policies)
+另請參閱在 Exchange Online 中的[通訊錄Exchange Online。](/exchange/address-books/address-book-policies/address-book-policies)
 
 ## <a name="when-should-you-use-scoped-directory-searches"></a>何時應該使用範圍目錄搜尋？
 
@@ -53,9 +53,9 @@ Microsoft Teams可讓組織提供目錄的自訂視圖給使用者。 Microsoft 
 
 1. 使用資訊隔層策略將貴組織設定為虛擬子組。 詳細資訊，請參閱定義 [資訊障礙政策](/microsoft-365/compliance/information-barriers-policies)。
 
-2. 在 Microsoft Teams系統管理中心中，選取整個 **組織** 範圍的設定  >  **Teams設定**。
+2. 在 Microsoft Teams系統管理中心，選取整個 **組織** 範圍的設定  >  **Teams設定**。
 
-3. 在 **搜尋** 下，在 Teams 中使用 Exchange 通訊錄 **(搜尋** 範圍目錄) ，開啟 **切換開關**。
+3. 在 **搜尋** 下，在 Teams 中使用 Exchange 通訊錄 (**ABP**) 搜尋，開啟切換 **開關**。
 
     ![系統管理中心中的Microsoft Teams目錄搜尋](media/teams-scoped-directory-search-image1.png)
 

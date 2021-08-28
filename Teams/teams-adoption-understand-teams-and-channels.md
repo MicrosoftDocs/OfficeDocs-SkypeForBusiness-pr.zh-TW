@@ -8,7 +8,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 深入瞭解如何組織團隊和頻道Microsoft Teams以及如何使用Teams來推動跨組織共同合作。
 f1.keywords:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 289f684054d3acd8a3801a816286c365ad3a3cced3319ed54845824cb47a5934
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e999bb144a16ffb8963a7a03458fefb98311423b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345302"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627275"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>瞭解團隊和頻道Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "54345302"
 
 - 頻道是團隊內部共同作業的空間，實際工作是在其中完成。 
 
-若要閱讀團隊和頻道的更多資訊，請參閱團隊和頻道概觀[Microsoft Teams。](teams-channels-overview.md) 如要Teams採用指南，請取得Teams[指南](https://aka.ms/teamstoolkit)。 若要深入瞭解群組Teams Microsoft 365群組，請參閱Microsoft 365群組Microsoft Teams，並深入瞭解[](office-365-groups.md)Microsoft 365[群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
+若要閱讀團隊和頻道的更多資訊，請參閱團隊和頻道概觀[Microsoft Teams。](teams-channels-overview.md) 如要Teams採用指南，請取得Teams[指南](https://aka.ms/teamstoolkit)。 若要深入瞭解群組Teams群組Microsoft 365，請參閱Microsoft 365群組Microsoft Teams，並深入瞭解Microsoft 365[群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。 [](office-365-groups.md)
 
 
 | &nbsp; |&nbsp;  |
@@ -51,7 +51,7 @@ ms.locfileid: "54345302"
 
 - *公開* 團隊對組織中任何人開放，使用者可以直接加入。 公開小組很適合針對不同部門人員或處理不同專案之人員所感興趣的主題進行共同合作。 這是非常適合小型組織的預設設定。
 
-## <a name="use-teams-to-drive-cross-organization-collaboration"></a>使用 Teams來推動跨組織共同合作
+## <a name="use-teams-to-drive-cross-organization-collaboration"></a>使用Teams來推動跨組織共同合作
 
 使用團隊改善跨組織共同合作是最佳作法，許多專案都適合使用此模型。 此外，組織內部領導者或部門可能會想要一個專屬團隊供自己的人員使用。 請考慮下圖所示的組織與專案模型。
 

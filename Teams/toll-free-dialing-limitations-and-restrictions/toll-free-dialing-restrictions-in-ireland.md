@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解在愛爾蘭撥打免付費號碼，包括可用性、有線/固定電話和行動網路可用性，以及限制。
-ms.openlocfilehash: 7279312cf231a18d67d3719fbcf2bf1b23daa939ac96d3922e0b9b5337fe7eff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5164a2479e751e0ba079bc4a2c0a938e1224929
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319686"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627005"
 ---
 # <a name="toll-free-dialing-restrictions-in-ireland"></a>愛爾蘭免付費撥號限制
 
@@ -41,11 +41,11 @@ ms.locfileid: "54319686"
 |免付費通話是否可用？  <br/> |是  <br/> |
 |撥號格式 ()   <br/> |1 800 XXX XXX  <br/> |
 |國家/地區 ISO 代碼  <br/> |即  <br/> |
-|涵蓋的島嶼/地區  <br/> |涵蓋愛爾蘭共和國的所有外島。  <br/> |
+|涵蓋的島嶼/地區  <br/> |所有愛爾蘭共和國的遠洋島嶼都包括在內。  <br/> |
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |
 |行動網路可用性  <br/> |是  <br/> |
-|批註、限制和存取問題  <br/> |可透過 Vodafone、O2 Digiphone、星光和 H3G 行動網路進行訪問。  <br/> |
+|批註、限制和存取問題  <br/> |可透過 Vodafone、O2 Digiphone、星雲和 H3G 行動網路進行訪問。  <br/> |
    
 ## <a name="related-topics"></a>相關主題
 

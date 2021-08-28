@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 如果您需要移除目前做為商務用 Skype Server 部署之檔案存放區的檔案伺服器，或者您需要進行其他變更，使目前的檔案存放區無法使用，您必須先建立新的共用。 接著，您必須執行下列步驟：
-ms.openlocfilehash: 47363372b5a54390ff4ba2982ffe17e7c5d32e22728a8d78bdd45c6bba28c44d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 40b5476b432f0549049c9d1bcf46c7c9a921255a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350155"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612132"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>在商務用 Skype Server 中將檔案存放區資料移至新的檔案存放區
 

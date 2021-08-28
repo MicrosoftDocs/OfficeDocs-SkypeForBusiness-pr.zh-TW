@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解如何在會議中管理會議Teams，並使用這些設定來控制提供給會議參與者的功能，供使用者排程的會議使用。
-ms.openlocfilehash: 4db3b935526daad03d3d51281944422b597cbc00
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f471d9513995a13eb32eaacd118cd2f3874cda7c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234758"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627335"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>管理會議Microsoft Teams
 
@@ -96,7 +96,7 @@ ms.locfileid: "58234758"
 
 ## <a name="meeting-policy-settings"></a>會議原則設定
 
-當您在會議政策頁面上選取現有的策略或 **選取新增以** 新增策略時，您可以設定下列設定。
+當您在會議政策頁面上選取現有策略或選取新增以新增策略時，您可以設定下列設定。
 
 - [一般](meeting-policies-in-teams-general.md)
 - [音訊與視訊](meeting-policies-audio-and-video.md)

@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Cloud for Healthcare
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -26,12 +26,12 @@ description: 瞭解 Microsoft Teams 遠距健康、電子健康記錄 (EHR) 整�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: be5f75af292000b108b665391c3b5398ed79bb2c
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: b88edf016ae59eab6f2d92b1671c39996cb38464
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235028"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627565"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Teams
 
@@ -63,7 +63,7 @@ Microsoft Teams 提供許多對醫院和其他健康照護組織實用的遠距�
 | [Teams 範本](#teams-templates-for-healthcare-organizations) | 建立團隊，其中包括預先定義設定和頻道範本及預先安裝的應用程式，以適用於在病房、Pod 或部門間或院內的多個病房、Pod 和各部門間的通訊和共同作業。 | 使用者必須擁有適當的授權*。  |
 | [協調照護與共同作業](#care-coordination-and-collaboration) | 臨床醫生和教職員可以內部協作排程、文件和工作等等。| 使用者必須擁有適當的授權*。 |
 
-*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5、商務標準版。 如需一般 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](../../user-access.md)。
+*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5，支援商務標準。 如需一般 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](../../user-access.md)。
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>虛擬看診與電子健康記錄 (EHR) 整合
 

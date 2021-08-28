@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: 這可協助您瞭解如何撥打每個國家/地區的免付費號碼。 選取國家/地區之後，它會將您帶至特定國家/地區頁面，其中包含免付費服務可用之免付費服務的特定詳細資料、限制和限制。 撥號格式或格式會顯示每個國家/地區撥打免付費號碼所需的存取碼。
-ms.openlocfilehash: e0ecb3c98b777bc17658317b90774ec9e4398c215b8dd800f3eeda5602d806de
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e2a770fe652d765395cb8d8291faa20fab53924c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350295"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627415"
 ---
 # <a name="toll-free-dialing-restrictions-in-romania"></a>羅馬尼亞免付費撥號限制
 
@@ -39,7 +39,7 @@ ms.locfileid: "54350295"
 |:-----|:-----|
 |免付費通話是否可用？  <br/> |是  <br/> |
 |撥號格式 ()   <br/> | 0 800 XXX XXX <br/> |
-|國家/地區 ISO 代碼  <br/> |Ro  <br/> |
+|國家/地區 ISO 代碼  <br/> |RO  <br/> |
 |涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |僅從 Romtelecom。  <br/> |

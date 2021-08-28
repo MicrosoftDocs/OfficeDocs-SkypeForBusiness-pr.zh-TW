@@ -16,33 +16,33 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 會議移 (MMS) 是一種在背景中執行的服務，並自動更新商務用 Skype Microsoft Teams會議。 MMS 的設計目的是讓使用者不需要執行會議移移工具，以更新商務用 Skype Microsoft Teams會議。
-ms.openlocfilehash: 68a3ef384c67835b25ff5db7ee6dfccf8b2ca1a7
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 3fefc7aa45df3323f8c96801bde1cb301ff40572
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523864"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613262"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>使用會議移 (MMS) 
 
-會議移 (MMS) 是一項服務，可更新使用者在下列情況下的現有會議：
+會議移 (MMS) 是一項服務，在下列情況下可更新使用者現有的會議：
 
-- 當使用者從內部部署移至雲端時， (是移商務用 Skype或 TeamsOnly) 。
+- 當使用者從內部部署移至雲端時， (連線商務用 Skype TeamsOnly) 。
 - 當系統管理員變更使用者的音訊會議設定時 
-- 當線上使用者升級Teams，或當 TeamsUpgradePolicy 中的使用者模式設定為 SfBwithTeamsCollabAndMeetings 時
+- 當線上使用者升級Teams或 TeamsUpgradePolicy 中的使用者模式設定為 SfBwithTeamsCollabAndMeetings 時
 - 當您使用 PowerShell 時 
 
 
 根據預設，MMS 會在每一種情況下自動觸發，不過系統管理員可以在租使用者層級停用 MMS。 此外，系統管理員可以使用 PowerShell Cmdlet 為給定使用者手動觸發會議移轉。
 
 
-**限制**：如果適用下列任一項，就無法使用會議移移服務：
+**限制**：如果適用下列任何一項，就無法使用會議移移服務：
 
 - 使用者的信箱是託管在內部Exchange中。
 - 使用者正從雲端移商務用 Skype Server內部部署。
@@ -53,7 +53,7 @@ ms.locfileid: "58523864"
 當為給定使用者觸發 MMS 時，該使用者的移入要求會置於佇列中。 為了避免任何競賽條件，排入佇列的要求會經過至少 90 分鐘之後，才會刻意處理。 MMS 處理要求後，會執行下列工作：
 
 1. 它會搜尋該使用者的信箱，以搜尋該使用者組織並在未來排程的所有現有會議。
-2. 根據使用者信箱中的資訊，它會更新或排程該使用者在 Teams 或 商務用 Skype Online 中的新會議，視確切案例。
+2. 根據使用者信箱中的資訊，它會更新或排程該使用者在 Teams 或 商務用 Skype Online 中的新會議，視確切的案例。
 3. 在電子郵件訊息中，它會取代會議詳細資料中的線上會議區塊。
 4. 它會代表會議召集人，將會議的更新版本傳送給所有會議收件者。 會議受邀者會收到一份會議更新，其電子郵件中會包含更新的會議座標。 
 
@@ -64,9 +64,9 @@ ms.locfileid: "58523864"
 **附注：**
 
 - 當會議移移時，MMS 會取代線上會議資訊區塊中的所有專案。 因此，如果使用者已編輯該區塊，其變更將會被覆蓋。 他們在線上會議資訊區塊以外的會議詳細資料中擁有的任何內容都不受影響。 這表示任何附加至會議邀請的檔案仍然會包含在內。 
-- 只有商務用 Skype或 Microsoft Teams 會議，方法是按一下 Outlook 網頁中的新增 Skype會議按鈕，或是使用 Skype 會議Outlook 的附加元件來排程會議。 如果使用者複製並Skype將線上會議資訊從一個會議複製到新會議，新會議將不會更新，因為原始服務中沒有會議。
-- 建立或附加至會議的會議內容 (白板、投票等專案) MMS 執行之後不會保留。 如果您的會議召集人事先將內容附加至會議，則 MMS 執行之後，必須重新重新組織內容。
-- 在日曆專案以及會議內部，共用會議筆記的連結Skype也會被覆蓋。 請注意，儲存在 OneNote 中的實際會議記事仍然會存在;只有已覆蓋之共用筆記的連結。
+- 只有商務用 Skype或 Microsoft Teams 會議，方法是按一下 Outlook 網頁中的新增 Skype會議按鈕，或是使用 Outlook 的 Skype 會議附加元件來排程會議。 如果使用者複製並Skype將線上會議資訊從一個會議複製到新會議，新會議將不會更新，因為原始服務中沒有會議。
+- 建立或附加至會議的會議內容 (白板、投票等) MMS 執行之後不會保留。 如果您的會議召集人事先將內容附加至會議，則 MMS 執行之後，必須重新重新組織內容。
+- 在日曆專案以及會議內部共用會議Skype也會被覆蓋。 請注意，儲存在 OneNote 中的實際會議記事仍然會存在;只有已覆蓋之共用筆記的連結。
 - 超過 250 位出席者的會議 (包括) 將不會移移。
 - 邀請內文中的某些 UNICODE 字元可能會不正確地更新為下列其中一個特殊字元：1、1/2、。
 
@@ -183,7 +183,7 @@ Start-CsExMeetingMigration -Identity ashaw@contoso.com -TargetMeetingType Teams
     - 讓使用者在會議中Skype會議。
     - [請與支援人員聯繫](/microsoft-365/Admin/contact-support-for-business-products)。
 
-`Get-CsMeetingMigrationStatus`Cmdlet 可用來取回過去 150 天內觸發的移轉狀態。 系統會清除超過 150 天之移移的記錄。
+`Get-CsMeetingMigrationStatus`Cmdlet 可用來取回過去 150 天內觸發的移轉狀態。 系統會清除超過 150 天的移移記錄。
 
 ### <a name="enabling-and-disabling-mms"></a>啟用及停用 MMS
 
@@ -194,7 +194,7 @@ MMS 預設會針對所有組織啟用，但可以停用，如下所示：
 
 例如，您可能會想要手動遷移所有會議，或暫時停用 MMS，同時大幅變更貴組織的音訊會議設定
 
-若要查看貴組織是否已啟用 MMS，請執行下列命令。 如果參數為 ，MMS `MeetingMigrationEnabled` 會啟用 `$true` 。
+若要查看貴組織是否已啟用 MMS，請執行下列命令。 如果參數為 ，MMS `MeetingMigrationEnabled` 即會啟用 `$true` 。
 ```PowerShell
 Get-CsTenantMigrationConfiguration
 ```

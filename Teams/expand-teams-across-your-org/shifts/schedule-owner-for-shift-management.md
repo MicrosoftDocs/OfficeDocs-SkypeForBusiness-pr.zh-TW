@@ -14,7 +14,7 @@ searchScope:
 description: 瞭解如何管理輪班擁有者進行排程管理。 您可以設定一個策略，將團隊成員的許可權提升為排程擁有者。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9c0bc75e15439cf5fa7c3989bb0854521a1c45b8
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 702ca0fd5b392755b1966d16024d5ecf10cdacab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235746"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627535"
 ---
 # <a name="schedule-owner-for-shift-management"></a>輪班管理的排程擁有者
 
@@ -52,13 +52,13 @@ ms.locfileid: "58235746"
 
 您工作在大型組織中，部門主管直接向市管理人員報告。 商店管理員在貴公司中擁有更多權力，且是 Shifts 中的團隊擁有者。 另一方面，部門主管則只會新增為小組成員至 Shifts。 雖然市售經理比部門經理的年長還要高，但部門主管處理小組員工日常排程的方式較為合理。
 
-*若沒有排* 程擁有者，部門主管必須獲得與團隊擁有者完全相同的許可權。 最近，部門主管一直在移動資訊，並變更頻道名稱，這導致商店管理員的工作發生複雜問題。 商店管理員希望部門主管能夠組織其排程，但不希望他們變更小組中班次以外的任何專案。
+*若沒有排* 程擁有者，部門主管必須獲得與團隊擁有者完全相同的許可權。 最近，部門主管一直在移動資訊，並變更頻道名稱，這已造成商店管理員工作的麻煩。 商店管理員希望部門主管能夠組織其排程，但不希望他們變更小組中班次以外的任何專案。
 
 *有了排程* 擁有者，部門主管就可以獲得排程許可權，而不需要任何其他團隊擁有者許可權。
 
 ## <a name="manage-schedule-ownership"></a>管理排程擁有權
 
-做為系統管理員，您可以使用策略來控制組織中排程管理擁有權。 您可以使用下列 PowerShell Cmdlet 管理這些策略：
+做為系統管理員，您可以使用策略來控制貴組織中排程管理的擁有權。 您可以使用下列 PowerShell Cmdlet 管理這些策略：
 
 - [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy?view=teams-ps)
 - [Get-CsTeamsShiftsPolicy](/powershell/module/teams/get-csteamsshiftspolicy?view=teams-ps)
@@ -76,7 +76,7 @@ New-CsTeamsShiftsPolicy –Identity ScheduleOwnerPolicy  -EnableScheduleOwnerPer
 
 ### <a name="example-2"></a>範例 2
 
-在此範例中，我們將名為 ScheduleOwnerPolicy 的策略指派給名為 remy@contoso.com。
+在此範例中，我們會將名為 ScheduleOwnerPolicy 的策略指派給名為 remy@contoso.com。
 
 ```powershell
 Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName ScheduleOwnerPolicy

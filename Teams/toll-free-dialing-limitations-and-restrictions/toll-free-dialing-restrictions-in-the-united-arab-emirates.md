@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解在阿拉伯聯合大公國撥打免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
-ms.openlocfilehash: 324b4e68efdffafa99d678e362d91def535736ab2f89f72edd0a91d8fdf74910
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ddca6e6cb9cf65867adf9c79e0d5dae36f0f3ab3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308214"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612872"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-united-arab-emirates"></a>阿拉伯聯合大公國免付費撥號限制
 
@@ -40,7 +40,7 @@ ms.locfileid: "54308214"
 |:-----|:-----|
 |免付費通話是否可用？  <br/> |是  <br/> |
 |撥號格式 ()   <br/> | 800 014 XXXX <br/>  800 017 XXXX <br/>  800 XX XXX <br/>  800 X XXXX XXXX <br/> |
-|國家/地區 ISO 代碼  <br/> |Ae  <br/> |
+|國家/地區 ISO 代碼  <br/> |AE  <br/> |
 |涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> |是  <br/> |

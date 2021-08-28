@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
@@ -22,18 +22,18 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解在 Microsoft Teams 會議室 中提供不同類型的通話和會議功能Microsoft Teams 會議室。
-ms.openlocfilehash: ff6c36d0ded93ffa2231b6fd54a32658ce477d143c2fab4812446c4b88d50cd0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e1d545b6ea48e7ec9e94a1e5f0c5ba8cd1e41198
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328968"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627155"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams 會議室授權更新
 
 ## <a name="licensing-solutions-for-shared-communication-devices"></a>共用通訊裝置的授權解決方案
 
-Microsoft 有兩個專用的 SKUs，可針對會議室裝置使用每個裝置授權會議和通話 (例如 Microsoft Teams 會議室、Microsoft Surface Hub 和 Microsoft Teams) 共同Microsoft Teams) 。
+Microsoft 有兩個專用的 SKUS，可針對會議室裝置 (例如 Microsoft Teams 會議室、Microsoft Surface Hub 和共同Microsoft Teams) 進行授權會議和通話。
 
 |&nbsp;|Microsoft Teams 會議室標準 |Microsoft Teams 會議室 進階版 |
 |:--- |:---: |:---: |
@@ -54,17 +54,17 @@ Microsoft 有兩個專用的 SKUs，可針對會議室裝置使用每個裝置�
 &sup3;有關詳細資訊和可用性，請參閱[Microsoft Teams 會議室服務](microsoft-teams-rooms-premium.md)。
 
 > [!NOTE]
-> 如果您目前使用 E1、E3、E4、E5 SKUS，以及 商務用 Skype 方案 2 與音訊會議或 Office 365 電話系統 和通話方案，這些將會繼續使用。 不過，您應該考慮在目前的授權到期後，在上表中，移往更簡單的授權模型。
+> 如果您目前使用 E1、E3、E4、E5 SKUS，其中 商務用 Skype 方案 2 具有音訊會議或 Office 365 電話系統 和通話方案，這些將會繼續使用。 不過，您應該考慮在目前的授權到期後，在上表中，移往更簡單的授權模型。
 
 > [!IMPORTANT]
-> 如果您使用的是 商務用 Skype方案 2，則只能在 Microsoft Teams 會議室 模式中商務用 Skype，也就是說，所有會議都會商務用 Skype會議。 為了啟用會議室以Microsoft Teams會議，建議您購買會議室授權。 
+> 如果您使用的是 商務用 Skype方案 2，則只能使用 Microsoft Teams 會議室 模式商務用 Skype，也就是說，所有會議都會商務用 Skype會議。 為了啟用會議室以召開Microsoft Teams，建議您購買會議室授權。 
 
 下表列出在 Microsoft Teams 會議室 中提供的功能，以及您需要購買哪些授權才能取得這些功能。
   
 > [!NOTE]
 > 正在設定聊天室必須成為使用者物件，並指派這些授權給該物件。
 
-| &nbsp; | 您擁有 Microsoft Teams 或 商務用 Skype Online <br/> 以下是您需要購買的東西：   |您商務用 Skype Server 2015/2019 (內部部署或混合式) 。 <br/> 以下是您需要購買的東西：|
+| &nbsp; | 您擁有 Microsoft Teams 或 商務用 Skype Online <br/> 以下是您需要購買的東西：   |您擁有商務用 Skype Server 2015/2019 (內部部署或混合式) 。 <br/> 以下是您需要購買的東西：|
 |:-----|:-----|:-----|
 |加入排定的會議  | Microsoft Teams 會議室標準或進階版  |商務用 Skype Server標準 CAL  |
 |啟動臨時會議 | Microsoft Teams 會議室標準或進階版  |商務用 Skype Server標準 CAL  <br/> 商務用 Skype Server Enterprise CAL|
@@ -77,6 +77,6 @@ Microsoft 有兩個專用的 SKUs，可針對會議室裝置使用每個裝置�
 > [!NOTE]
 > 如果您為會議室系統指派了現有的授權，這些授權將會繼續使用，而不會中斷。 您應該在現有的授權到期會議室使用新版 SKU。  
 
- **使用正確的版本** Windows 10：針對想要將Windows 10部署至其裝置的客戶，請參閱設定Microsoft Teams 會議室 [主機](./console.md)。 您可以從大量授權服務中心 [取得副本](https://www.microsoft.com/Licensing/servicecenter/)。 
+ **使用正確的版本Windows 10：** 針對想要將影像部署到Windows 10的客戶，請參閱設定Microsoft Teams 會議室 [主機](./console.md)。 您可以從大量授權服務中心 [取得副本](https://www.microsoft.com/Licensing/servicecenter/)。 
  
  另請參閱[很棒的會議室體驗：符合新的標準Microsoft Teams 會議室標準進階版。](https://www.microsoft.com/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: 瞭解在菲律賓撥打免付費號碼，包括可用性、有線/固定電話和行動電話網路可用性，以及限制。
-ms.openlocfilehash: debf3e915a1ee246657bb3e470016e5029fa932ccc82e236612184808e02b7bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1566415bc30085293ba576f6dc91d341bc41b7dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341129"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627405"
 ---
 # <a name="toll-free-dialing-restrictions-in-philippines"></a>菲律賓免付費撥號限制
 
@@ -40,11 +40,11 @@ ms.locfileid: "54341129"
 |:-----|:-----|
 |免付費通話是否可用？  <br/> |是  <br/> |
 |撥號格式 ()   <br/> |1 800 XXXX XXXX  <br/> |
-|國家/地區 ISO 代碼  <br/> |Ph  <br/> |
+|國家/地區 ISO 代碼  <br/> |PH  <br/> |
 |涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |未涵蓋的島嶼/地區  <br/> |不適用  <br/> |
 |有線/固定線路可用性  <br/> | 僅從 PLDT。 <br/> |
-|行動網路可用性  <br/> |部分但以進位費率計算。 查看批註。  <br/> |
+|行動網路可用性  <br/> |部分但以進位率計算。 查看批註。  <br/> |
 |批註、限制和存取問題  <br/> |可從 Sun Mobile 和 Smart Mobile 網路使用。  <br/> |
    
 ## <a name="related-topics"></a>相關主題

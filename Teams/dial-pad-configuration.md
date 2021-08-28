@@ -13,20 +13,20 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 瞭解如何在用戶端中設定撥號鍵Teams，讓使用者能夠存取公用交換電話網絡 (PSTN) 功能。
-ms.openlocfilehash: 848e52859be3b2339e1e1968631c6d55fc7a8df79dc3a691fd47e9613f7f583d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解如何在用戶端中設定撥號Teams，讓使用者能夠存取公用交換式電話 (PSTN) 功能。
+ms.openlocfilehash: 6f67aeda059505ec5c1e78d117407f0e9703f732
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344312"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627615"
 ---
 # <a name="dial-pad-configuration"></a>撥號鍵台組
 
-在 Teams 用戶端中，撥號鍵台可讓使用者存取公用交換電話網絡 (PSTN) 功能。 撥號鍵台可供擁有電話系統的使用者使用，但必須正確配置。 撥號鍵台必須符合下列準則才能顯示：
+在 Teams用戶端中，撥號鍵台可讓使用者存取公用交換電話網絡 (PSTN) 功能。 撥號鍵台可供擁有授權電話系統使用者使用，但必須正確配置。 撥號鍵台必須符合下列準則才能顯示：
 
 - 使用者已啟用電話系統 ( MCOEV") 授權
 - 使用者有 Microsoft 通話方案或已啟用直接路由
@@ -34,11 +34,11 @@ ms.locfileid: "54344312"
 - 使用者位於線上，而不是商務用 Skype內部部署
 - 使用者已Teams通話策略
 
-下列各節說明如何使用 PowerShell 檢查準則。 在大多數的情況下，您需要查看 Cmdlet 輸出Get-CsOnlineUser屬性。 範例假設$user為使用者的 UPN 或 sip 位址。
+下列各節說明如何使用 PowerShell 檢查準則。 在大多數情況下，您需要查看 Cmdlet 輸出Get-CsOnlineUser屬性。 範例假設$user為使用者的 UPN 或 sip 位址。
 
 ## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>使用者已啟用電話系統 ( MCOEV") 授權
 
-您必須確定為使用者指派的計畫顯示 **設為啟用的 CapabilityStatus** 屬性，且功能計畫設為 **MCOEV** (電話系統授權) 。 您可能會看到 MCOEV、MCOEV1 等。 只要功能計畫以 MCOEV 開頭，所有專案都可接受。
+您必須確定為使用者指派的計畫顯示設為啟用的 **CapabilityStatus** 屬性，且功能計畫設定為 **MCOEV** (電話系統授權) 。 您可能會看到 MCOEV、MCOEV1 等。 只要功能計畫以 MCOEV 開頭，所有專案都可接受。
 
 若要檢查屬性是否正確設定，請使用下列命令：
 
@@ -46,7 +46,7 @@ ms.locfileid: "54344312"
 Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 ```
 
-輸出看起來會像這樣。 您只需要檢查 **功能Status** 和 **功能計畫** 屬性：
+輸出看起來會像這樣。 您只需要檢查 **功能統計與****功能計畫** 屬性：
 
 ```
 <Plan SubscribedPlanId="2f9eda01-4630-4a5c-bdb3-cf195f22d240"  
@@ -73,7 +73,7 @@ Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 Get-CsOnlineUser -Identity $user|select AssignedPlan|fl
 ```
 
-輸出看起來會像這樣。 您只需要檢查 **功能Status** 和 **功能計畫** 屬性：
+輸出看起來會像這樣。 您只需要檢查 **功能統計與****功能計畫** 屬性：
 
 ```  
 <Plan SubscribedPlanId="71d1258e-a4e6-443f-884e-0f3d6f644bb1" 
@@ -111,7 +111,7 @@ Test_Policy
 Get-CsOnlineUser -Identity $user|Select EnterpriseVoiceEnabled
 ```
 
-輸出看起來應該會像這樣：
+輸出看起來應該類似：
 
 ```
 EnterpriseVoiceEnabled
@@ -122,7 +122,7 @@ EnterpriseVoiceEnabled
  
 ## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>使用者位於線上，而不是商務用 Skype內部部署
 
-若要確保使用者位於線上，而非內部商務用 Skype，RegistrarPool 不得為 Null，HostingProvider 必須包含以 「sipfed.online」開頭的值。  若要檢查值，請使用下列命令：
+若要確保使用者位於線上，而非內部商務用 Skype，RegistrarPool 不得為 Null，HostingProvider 必須包含以「sipfed.online」開頭的值。  若要檢查值，請使用下列命令：
 
 ```
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider
@@ -138,7 +138,7 @@ sippoolbn10M02.infra.lync.com sipfed.online.lync.com
 
 ## <a name="user-has-teams-calling-policy-enabled"></a>使用者已Teams通話策略
 
-使用者的有效 TeamsCallingPolicy 必須設定為 True AllowPrivateCalling。  根據預設，使用者會繼承全域原則，根據預設，全域原則的 AllowPrivateCallingPolicy 設定為 true。
+使用者的有效 TeamsCallingPolicy 必須設為 True AllowPrivateCalling。  根據預設，使用者會繼承全域原則，其中 AllowPrivateCallingPolicy 預設設為 true。
 
 若要取得使用者的 TeamsCallingPolicy，並檢查 AllowPrivateCalling 設定為 true，請使用下列命令：
 
@@ -146,7 +146,7 @@ sippoolbn10M02.infra.lync.com sipfed.online.lync.com
 if (($p=(get-csonlineuser -Identity $user).TeamsCallingPolicy) -eq $null) {Get-CsTeamsCallingPolicy -Identity global} else {get-csteamscallingpolicy -Identity $p}
 ```
 
-輸出看起來應該會像這樣：
+輸出看起來應該類似：
 
 ```
 Identity                   : Global

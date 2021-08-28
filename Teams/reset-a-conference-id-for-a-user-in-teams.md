@@ -1,5 +1,5 @@
 ---
-title: 重設使用者的會議 ID Microsoft Teams
+title: 重設使用者的會議 id Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -14,21 +14,21 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解在 Microsoft Teams 中重設使用者會議 ID 的步驟，並取得會議更新和移Microsoft Teams工具的連結。
-ms.openlocfilehash: 3c266b59bab4c51293d429d4698b3c79fe8b84232d519499f8a1bfa27a0c0d94
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a4a57fb2f52ce2541e4e30794d78c05eb376a853
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319776"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627195"
 ---
-# <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>重設使用者的會議 ID Microsoft Teams
+# <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>重設使用者的會議 id Microsoft Teams
 
 動態會議 ID 會包含在會議邀請的底部，以及來電者可用來撥入會議的撥入電話號碼。 當使用者撥打電話號碼時，會議的自動語音機會要求來電者輸入此會議 ID，以便他們參加會議。
   
@@ -45,7 +45,7 @@ ms.locfileid: "54319776"
 
 3. 在 **[音訊會議>** 下，按一下 **[重設會議 ID>**。
 
-2. 在 [ **重設會議 ID>** 視窗中，按一下 [ **重設**。 系統會自動建立會議 ID，並且會以新的會議 ID 將電子郵件寄給使用者。 根據預設，電子郵件會寄給使用者，但可以關閉。   
+2. 在 [ **重設會議 ID>** 視窗中，按一下 [ **重設**。 系統會自動建立會議 ID，並且會以新的會議 ID 將電子郵件寄給使用者。 根據預設，電子郵件會寄給使用者，但可以關閉此功能。   
 
     
 > [!NOTE]
@@ -66,11 +66,11 @@ ms.locfileid: "54319776"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
 
-Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 有了Windows PowerShell，您可以使用單一Microsoft 365管理Office 365管理，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
   - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 如要進一Windows PowerShell，請參閱[powerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams以瞭解更多資訊。
     
