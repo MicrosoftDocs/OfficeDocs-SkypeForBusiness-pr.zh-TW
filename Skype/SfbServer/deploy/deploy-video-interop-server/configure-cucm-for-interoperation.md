@@ -9,16 +9,16 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 摘要：設定 CUCM 以使用商務用 Skype Server。
-ms.openlocfilehash: c414e14feb29dc834ebcd6a62221e3ae5e6706e5ee5c265f155d6ea512a91423
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a27af30cd4934743f8b83260ffd46fa3c65cbcd8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307754"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58585629"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>設定 CUCM 以與商務用 Skype Server 進行交互操作
  
@@ -47,7 +47,7 @@ ms.locfileid: "54307754"
     
    |**參數**|**建議的設定**|
    |:-----|:-----|
-   |名稱  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
+   |姓名  <br/> |SfBVideoInterop_SecurityProfile  <br/> |
    |裝置安全性模式  <br/> |不安全  <br/> |
    |傳入傳輸類型  <br/> |TCP + UDP  <br/> |
    |外寄傳輸類型  <br/> |TCP  <br/> |
@@ -59,7 +59,7 @@ ms.locfileid: "54307754"
     
    |**參數**|**建議的設定**|
    |:-----|:-----|
-   |名稱  <br/> |SfBVideoInterop_SIPProfile  <br/> |
+   |姓名  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    |描述  <br/> |SfBVideoInterop_SIPProfile  <br/> |
    
 9. 在同一個畫面上，向下滾動至 [SDP 設定檔資訊] 區段。 「 **早期提供」和「重新邀請」選項的 SDP 工作階段層級頻寬修正** 程式預設會設定為 TIAS 和 AS。 將此選項改為 [僅限 TIAS]。 如果您保留此選項的預設值，商務用 Skype Server 將不會瞭解 SIP 郵件中的頻寬修正資訊。 TIAS 表示特定的傳輸獨立應用程式，也就是應用程式特定的應用程式。 這些是 RFC3890 中指定的 SIP 選項。

@@ -12,18 +12,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解使用受管理服務Microsoft Teams 會議室存取控制。
 f1keywords: ''
-ms.openlocfilehash: c73ad1385a0654f3ef50dab46b803debe418b834b6497acfcb27f5a4de736f98
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd6c89f9e391e2ae7234510c26304076bdee5226
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301059"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608810"
 ---
-# <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>使用受管理服務的角色Microsoft Teams 會議室存取控制
+# <a name="role-based-access-control-with-the-microsoft-teams-rooms-managed-service"></a>使用受管理服務Microsoft Teams 會議室存取控制
 
 在受管理的服務 (RBAC) 中Microsoft Teams 會議室角色式存取控制可協助管理使用者對貴組織中會議室資源資料的存取權。 將角色指派給服務入口網站使用者，您可以限制他們可以看到和變更的內容。 每個角色都有一組許可權，可決定哪些具有該角色的使用者可以在貴組織中存取和變更。
 
@@ -32,23 +32,23 @@ ms.locfileid: "54301059"
 - 透過 Azure AD Azure Active Directory (全域系統管理員) 
 - 透過受管理的服務入口網站Microsoft Teams 會議室服務管理員
 
-## <a name="what-is-a-role"></a>什麼是角色？
+## <a name="what-is-a-role"></a>角色是什麼？
 
 角色會定義指派給該角色的使用者所授予的許可權集。 目前，受Microsoft Teams 會議室服務有三個內建角色：Managed **Service 系統管理員**、**網站潛在客戶** 和 **網站技術**。 它們涵蓋組織中可能參與管理您會議室的一些常見案例。
 
-若要查看角色，請在 Microsoft Teams 會議室 管理服務入口網站左側流覽中，前往角色，然後選取任何角色以查看角色的屬性、許可權和指派。  
+若要查看角色，請在 Microsoft Teams 會議室 服務入口網站左側流覽中，前往角色，然後選取任一角色以查看角色的屬性、許可權和指派。  
 
 - **屬性**：名稱、角色類型和描述
 - **許可權**：列出角色有權存取的功能和許可權等級。
-- **工作** 分派：角色指派清單，定義哪些使用者擁有會議室資源帳戶範圍的已配置許可權。 角色可以有多個工作分派，而使用者可以有多個工作分派。
+- **指派**：角色指派清單，定義哪些使用者具有會議室資源帳戶範圍的許可權。 角色可以有多個工作分派，而使用者可以有多個工作分派。
 
 ## <a name="built-in-roles"></a>內建角色
 
 您可以指派內建角色給群組或使用者，而不進行進一步配置。 請記住，您無法刪除或編輯內建角色的名稱、描述、類型或許可權。
 
-- **Managed Service 系統管理員**：擁有會議室Microsoft Teams服務進階版的完整存取權。
+- **Managed Service 系統管理員**：擁有會議室服務Microsoft Teams服務進階版的完整存取權。
 - **網站潛在客戶**：整理會議室、存取報表，以及管理票證。 無法重設註冊金鑰，或變更服務的設定。  
-- **網站技術**：管理特定會議室的票證。 沒有修改服務或整理服務中聊天室的許可權。
+- **網站技術**：管理特定會議室的票證。 沒有修改服務或組織服務中聊天室的許可權。
 
 下表摘要列出每個角色可以執行哪些工作。
 

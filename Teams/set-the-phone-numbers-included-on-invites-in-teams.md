@@ -15,25 +15,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 請按照下列步驟建立預設電話號碼，讓來電者加入Microsoft Teams會議。
-ms.openlocfilehash: 11c9a31d723b5da63152f1a8a79d54938f9ecc31644afbe3421a2bd59f0f5626
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 34fd1592729e18978e1bf5c3aa65e29659092cab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335893"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608800"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>設定邀請中包含的電話號碼Microsoft Teams
 
-Microsoft 365 Office 365中的音訊會議可讓貴組織的使用者Microsoft Teams會議，然後允許使用者使用電話撥入這些會議。
+Microsoft 365 Office 365音訊會議可讓貴組織的使用者Microsoft Teams會議，然後允許使用者使用電話撥入這些會議。
   
-會議橋接器會提供您組織的一組撥入電話號碼。 所有會議都可以用來加入會議召集人已建立的會議，但您可以選取哪些會議邀請會包含在會議邀請中。
+會議橋接器會提供您組織的一組撥入電話號碼。 所有會議都可以用來加入會議召集人所建立的會議，但您可以選取哪些會議邀請會包含在會議邀請中。
   
 > [!NOTE]
 > 會議邀請的會議召集人最多可以有一個付費電話和一個免付費電話號碼，但每個會議邀請底部也有一個連結，可開啟可用來加入會議之所有撥入電話號碼的完整清單。
@@ -47,7 +47,7 @@ Microsoft 365 Office 365中的音訊會議可讓貴組織的使用者Microsoft T
 
 對於新使用者，預設會議付費號碼會根據使用者啟用音訊會議服務時在 Microsoft 365 系統管理中心中設定的使用位置來指派。 如果會議橋接器中的付費號碼符合使用者的國家/地區，該號碼會自動指派為使用者的預設付費號碼。 如果沒有號碼，則定義為會議橋接器預設付費號碼的號碼會指派為使用者的預設付費號碼。  
 
-使用者啟用音訊會議服務後，租使用者系統管理員隨時都可以從使用者的初始值變更使用者的預設付費和免付費電話號碼。
+使用者啟用音訊會議服務後，使用者的預設付費和免付費電話號碼隨時都可以由租使用者系統管理員從初始值變更。
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>設定或變更會議召集人或使用者的預設音訊會議電話號碼
 
@@ -57,7 +57,7 @@ Microsoft 365 Office 365中的音訊會議可讓貴組織的使用者Microsoft T
 
 1. 登入系統管理Microsoft Teams中心。
 
-2. 在左側流覽中，按一下 [**使用者。**
+2. 在左側流覽中，按一下 [ **使用者>**。
 
     ![顯示選取系統管理中心Microsoft Teams使用者](media/Admin-users.png)
 
@@ -70,7 +70,7 @@ Microsoft 365 Office 365中的音訊會議可讓貴組織的使用者Microsoft T
 5. 使用 **付費號碼** 或 **免付費號碼欄位** 輸入使用者的數位。
 
 > [!IMPORTANT]
-> 當您變更使用者的音訊會議設定時，必須更新週期性Microsoft Teams未來的會議，併發送給出席者。
+> 當您變更使用者的音訊會議設定時，週期性Microsoft Teams會議必須更新併發送給出席者。
 
 ## <a name="want-to-use-windows-powershell"></a>想要使用Windows PowerShell
 
@@ -78,10 +78,10 @@ Windows PowerShell管理使用者，以及允許或不允許使用者執行哪�
 
 - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-如要進一Windows PowerShell，請參閱[powerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams以瞭解更多資訊。
-  
+若要使用 [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)設定或變更會議召集人或使用者的預設音訊會議電話號碼，請設定 **`ServiceNumber`** **`TollFreeServiceNumber`** [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) Cmdlet 的或參數至其中一個可用號碼。
+
 ## <a name="related-topics"></a>相關主題
 
 [嘗試或購買音訊會議Microsoft 365或Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

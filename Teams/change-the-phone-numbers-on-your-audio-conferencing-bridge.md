@@ -16,19 +16,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解為會議橋接器指派新服務電話號碼以擴大使用者範圍所需的步驟。
-ms.openlocfilehash: e7b3f441a36ed608f06b0faa92133c0c3cd59c54d07ef86a650cb79bd5d35ec4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4a3896a0d8711d8edfc2ca75492330dc863c27fb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340479"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631397"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>變更音訊會議橋接器的電話號碼
 
@@ -37,7 +37,7 @@ ms.locfileid: "54340479"
 除了已指派給會議橋接器的電話號碼之外，您還可以從其他位置取得用於音訊會議) 的其他服務號碼 [ (](./getting-service-phone-numbers.md) 付費和免付費號碼，然後將這些號碼指派給會議橋接器，以便擴大使用者的涵蓋範圍。
   
 > [!NOTE]
-> 若要指派/取消指派會議橋接器的電話號碼，電話號碼必須是'*服務*'號碼。 您可以流覽至系統管理中心中的 Voice 電話號碼，Microsoft Teams數位類型欄來查看  >  ******號碼** 類型。 Microsoft 365或Office 365通訊信用額度必須先設定，使用者才能撥打免付費號碼撥入橋接器。
+> 若要指派/取消指派會議橋接器的電話號碼，電話號碼必須是'*服務*'號碼。 您可以流覽至系統管理中心中的 Voice 電話號碼，Microsoft Teams數位類型欄  >  來查看 **號碼** 類型。 Microsoft 365或Office 365通訊信用額度必須先設定，使用者才能撥打免付費號碼撥入橋接器。
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>將新服務電話號碼指派給會議橋接器的步驟
 
@@ -49,7 +49,7 @@ ms.locfileid: "54340479"
 
 2. 從清單中選取電話號碼，然後按一下 [ **編輯**。
 
-3. 在編輯 **頁面上****，展開下** 拉式清單的下拉式清單，然後選取 **會議橋接器**  >  **的 Apply**。
+3. 在編輯 **頁面上****，展開下** 拉式清單的下拉式清單，然後選取會議 **橋接器**  >  **的 Apply**。
 
 ### <a name="step-2---change-the-default-phone-number-of-your-conference-bridge-optional"></a>步驟 2 - 變更會議橋接器的預設電話號碼 (選項) 
 
@@ -67,25 +67,25 @@ ms.locfileid: "54340479"
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>步驟 3 - 變更使用者會議邀請中包含的預設電話號碼， () 
 
-使用者的預設電話號碼是排程會議時包含在會議邀請中的號碼。 有關詳細資訊，包括新使用者預設電話號碼的指派方式，請參閱在 Microsoft Teams 中設定邀請中包含的電話號碼，或在[商務用 Skype](set-the-phone-numbers-included-on-invites-in-teams.md) Online 中設定邀請[中包含的電話號碼](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
+使用者的預設電話號碼是排程會議時包含在會議邀請中的號碼。 有關詳細資訊 ，包括新使用者預設電話號碼的指派方式，請參閱在 Microsoft Teams 中設定邀請中包含的電話號碼，或在[商務用 Skype](set-the-phone-numbers-included-on-invites-in-teams.md) Online 中設定邀請[中包含的電話號碼](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
 
 ![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側流覽窗格中，前往 **[使用者** ，然後按一下清單中所需使用者的顯示名稱。
+1. 在左側流覽窗格上，前往 **[使用者** ，然後按一下清單中所需使用者的顯示名稱。
 
 2. 在音訊 **會議旁邊**，按一下 [ **編輯>**。
 
 3. 在 **[付費號碼** 或 **免付費** 號碼> 下，從下拉式清單中選擇號碼，然後按一下 [ **申請**。
 
-在已採用變更之後，新的預設電話號碼會包含在下次安排新會議的召集人的會議邀請中。
+在已採用變更之後，新的預設電話號碼將會包含在下次安排新會議的召集人的會議邀請中。
 
-### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>步驟 4 - 使用會議移移服務更新使用者的現有會議邀請 (選擇性) 
+### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>步驟 4 - 使用會議移移服務更新使用者的現有會議邀請， (選擇) 
 
 接下來兩個步驟，您必須開始Windows PowerShell。
   
-如果您更新了部分或所有使用者的會議邀請中包含的預設電話號碼，您可以選擇更新已寄給貴組織使用者的會議邀請，再使用會議移改服務變更其預設電話號碼。 有關其他資訊，請參閱設定會議移 ([MMS) 。](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
+如果您更新了部分或所有使用者的會議邀請中包含的預設電話號碼，您可以選擇更新已寄給貴組織使用者的會議邀請，然後再使用會議移移服務變更其預設電話號碼。 有關其他資訊，請參閱設定會議移 ([MMS) 。](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
   
-- 針對在步驟 2 中變更 (使用者) MMS 帳戶執行會議移移服務。 若要這麼做，請執行下列命令：
+- 針對在步驟 2 中 (預設電話號碼的使用者) MMS 帳戶執行會議移移服務。 若要這麼做，請執行下列命令：
 
 ```PowerShell
     Start-CsExMeetingMigration user@contoso.com
@@ -100,11 +100,11 @@ ms.locfileid: "54340479"
 ## <a name="steps-when-you-are-unassigning-a-service-phone-number-for-a-conferencing-bridge"></a>取消為會議橋接器未指定服務電話號碼的步驟
 
 
-當您從會議橋接器取消分配電話號碼時，使用者將無法使用該電話號碼加入任何會議。 由於電話號碼正在變更，因此必須更新所有可能以電話號碼作為預設號碼 (如果有) 的使用者，並更新現有的會議邀請，再從音訊會議橋接器中取消分配電話號碼。
+當您從會議橋接器取消分配電話號碼時，使用者將無法使用該電話號碼加入任何會議。 由於電話號碼正在變更，因此必須更新所有可能以電話號碼做為預設號碼 (如果有) 的使用者，並更新現有的會議邀請，再從音訊會議橋接器中取消分配電話號碼。
 
 如果移除電話號碼而不更新使用者及其會議，他們現有的會議邀請可能包含無法加入其會議的電話號碼。
 
-在前三個步驟中，您必須開始Windows PowerShell。 若要瞭解如何執行此操作，請按一下 [[想要瞭解如何使用 Windows PowerShell？](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#about-windows-powershell)
+在前三個步驟中，您必須開始Windows PowerShell。 若要瞭解如何執行此操作，請按一下 [想要瞭解如何使用[Windows PowerShell？](change-the-phone-numbers-on-your-audio-conferencing-bridge.md#about-windows-powershell)
 
 ### <a name="step-1---update-users-who-have-the-phone-number-to-be-unassigned-as-one-of-their-default-numbers"></a>步驟 1 - 更新電話號碼被未指定為其中一個預設號碼的使用者
 
@@ -116,7 +116,7 @@ Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be remove
  > [!IMPORTANT] 
  >您也可以在系統管理中心變更預設付費或免付費Microsoft Teams人數。 不過，這不會自動重新排期他們的會議。 
  
- 有關其他資訊，請參閱在 Microsoft Teams 中設定邀請中包含的電話號碼，[或在](set-the-phone-numbers-included-on-invites-in-teams.md)商務用 Skype [Online 中設定邀請商務用 Skype電話號碼](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
+ 有關其他資訊，請參閱在 Microsoft Teams[中設定](set-the-phone-numbers-included-on-invites-in-teams.md)邀請中包含商務用 Skype[電話號碼](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)。
 
   > [!NOTE]
   > 視貴組織的大小，這可能需要一些時間才能完成。
@@ -131,7 +131,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 
 有關會議移移服務的資訊，請參閱設定會議移 ([MMS) 。](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)
   
-### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>步驟 3 - 從音訊會議橋接器取消分配舊電話號碼
+### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>步驟 3 - 取消從音訊會議橋接器中舊的電話號碼
 
 使用 Unregister-CsOnlineDialInConferencingServiceNumber Cmdlet 從會議橋接器取消註冊付費或免付費號碼
 
@@ -168,7 +168,7 @@ Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll free number t
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber 8005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
 
-  - 若要將所有使用者的預設免付費號碼變更為8005551234免費電話號碼，8005551239並自動重新排定其會議，請執行：
+  - 若要將已8005551234使用者的預設免付費號碼變更為預設免付費號碼8005551239並自動重新排定其會議，請執行：
 
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber 8005551234 -ToNumber 8005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings
@@ -181,13 +181,13 @@ Unregister-CsOnlineDialInConferencingServiceNumber -identity "toll free number t
   ```
 
     > [!NOTE]
-    > 上述使用的位置必須符合使用者在 (中) 的連絡人Microsoft 365 系統管理中心。
+    > 上述使用的位置必須符合使用者 (中) 的連絡人Microsoft 365 系統管理中心。
 
 ## <a name="troubleshooting"></a>疑難排解
 
 **無法使用取消分配按鈕**
 
-您想要取消分配號碼，但該按鈕卻無法使用，如果將游標停留在該號碼上方時，系統會重新導向您，以下列訊息連連支援人員：「無法從橋接器取消分配預設號碼或共用號碼。 _若要取消分配專用付費號碼，請聯絡支援人員_。」。
+您想要取消分配號碼，但該按鈕卻無法使用，如果將游標停留在該號碼上，系統會重新導向您，以下列訊息連連支援人員：「無法從橋接器取消分配預設號碼或共用號碼。」 _若要取消分配專用付費號碼，請聯絡支援人員_。」。
 
 若要取得橋接器和 () 詳細資訊，請執行下列 Powershell：
 ```PowerShell
@@ -203,7 +203,7 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 ## <a name="about-windows-powershell"></a>關於 Windows PowerShell
 
-有了Windows PowerShell，您可以管理使用者及其允許或不允許執行哪些操作。 Windows PowerShell使用單一系統管理Microsoft 365或 Office 365 和 商務用 Skype Online，以簡化您的日常工作，尤其是當您有多個工作需要執行時。 若要開始使用Windows PowerShell，請參閱以下主題：
+有了Windows PowerShell，您可以管理使用者及其允許或不允許執行哪些操作。 Windows PowerShell管理 Microsoft 365或 Office 365 商務用 Skype Online 時，使用單一管理點可簡化您的日常工作，尤其是當您有多個工作需要執行時。 若要開始使用Windows PowerShell，請參閱以下主題：
 
   - [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
@@ -211,11 +211,11 @@ Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridg
 
 Windows PowerShell相比于僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
 
-  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
   - [使用 Windows PowerShell 管理 商務用 Skype Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
-  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+  - [使用 Windows PowerShell執行線上商務用 Skype管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
 ## <a name="related-topics"></a>相關主題
 [變更音訊會議橋接器的設定](change-the-settings-for-an-audio-conferencing-bridge.md)

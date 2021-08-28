@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: 使用此指南來瞭解在組織中部署Teams的先決條件及環境相依性
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -18,33 +18,33 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66a0bdeac2830fc6a3ebe9f5eae2f382187f384538f2d57c9cf27b56fbdd651a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3ade37518da516d219c3c54fd0ce4a280720c373
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323745"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58631147"
 ---
 # <a name="prerequisites-and-environmental-dependencies-for-teams"></a>環境的先決條件及環境相依性Teams
 
 ![升級歷程圖，強調技術準備階段](media/upgrade-banner-tech-readiness.png "升級歷程的階段，強調技術準備階段")
 
-本文是升級過程中技術整備階段的一部分，此階段是您與使用者整備階段同時完成的活動。 繼續進行之前，請確認您已完成上述階段的活動：
+本文是升級過程中技術整備階段的一部分，此階段是您與使用者整備階段同時完成的活動。 在繼續進行之前，請確認您已完成上述階段的活動：
 
 - [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
 - [已定義專案範圍](./upgrade-define-project-scope.md)
-- [瞭解共同使用和商務用 Skype互通性Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [瞭解共同商務用 Skype和Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [已選擇升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Teams合併多個Microsoft 365 Office 365服務，因此取決於這些服務的正確實現與運作。 這些服務包括但不限於線上、SharePoint、Exchange Online和商務用 OneDrive。
+Teams合併多個Microsoft 365和Office 365服務，因此取決於這些服務的正確實現與運作。 這些服務包括但不限於線上、SharePoint、Exchange Online和商務用 OneDrive。
 
-雖然並非所有服務都為必填專案，但強烈建議您全部實現。 如果您選擇不實行特定服務，將會影響貴組織Teams的功能。 例如，雖然您不需要執行 SharePoint Online，Teams 確實會仰賴 SharePoint Online 來使用群組交談中的檔案共用等特定功能，因此不執行此服務將會減少透過用戶端提供的功能。
+雖然並非所有服務都為必填專案，我們強烈建議您全部實現。 如果您選擇不實行特定服務，將會影響貴組織Teams的功能。 例如，雖然不需要執行 SharePoint Online，Teams 確實會仰賴 SharePoint Online 來使用特定功能，例如群組交談中的檔案共用，因此不執行此服務將會減少透過用戶端提供的功能。
 
 請參閱下列文章以瞭解先決條件，以及Teams與其他技術互動的方式：
 
 - 如果貴組織尚未部署任何Microsoft 365或Office 365，請參閱[開始使用](https://support.office.com/article/Get-started-with-Office-365-for-Business-d6466f0d-5d13-464a-adcb-00906ae87029)。
 
-- 如果貴組織尚未新增或為網域新增或Microsoft 365驗證Office 365，請參閱[網域常見問題](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)。
+- 如果貴組織尚未新增或針對 Microsoft 365 網域新增或Office 365驗證網域，請參閱[網域常見問題](https://support.office.com/article/Verify-your-Office-365-domain-to-prove-ownership-nonprofit-or-education-status-or-to-activate-Yammer-87d1844e-aa47-4dc0-a61b-1b773fd4e590)。
 
 - 如果貴組織尚未將身分識別同步Azure Active Directory，請參閱在 Microsoft Teams 中識別[Microsoft Teams。](identify-models-authentication.md)
 
@@ -56,9 +56,9 @@ Teams合併多個Microsoft 365 Office 365服務，因此取決於這些服務的
 
 - 如果貴組織是教育機構，而且您使用學生資訊系統，[請參閱](/schooldatasync)在部署 microsoft 學校資料同步處理之前Microsoft Teams。
 
-- 如果貴組織考慮公用交換電話網路 (PSTN) 通話選項，請參閱語音 - 電話系統 和[PSTN](cloud-voice-landing-page.md)連接、哪[](calling-plan-landing-page.md)一個通話方案適合您，以及 電話系統[路由](direct-routing-landing-page.md)。
+- 如果貴組織考慮公用交換電話網路 (PSTN) 通話選項，請參閱語音 - 電話系統 和[PSTN](cloud-voice-landing-page.md)連接、[哪一](direct-routing-landing-page.md)種通話方案適合您，以及 電話系統 路由。 [](calling-plan-landing-page.md)
 
-- 若要在推出前確保所有網路需求都符合Teams，請參閱準備貴組織的網路[Microsoft Teams。](prepare-network.md)
+- 若要在推出前確保所有網路需求都符合Teams，請參閱準備貴組織的網路以[Microsoft Teams。](prepare-network.md)
 
 - 如果您目前使用 商務用 Skype Online Connector 來管理您的服務，您必須移至 PowerShell 模組Teams並更新現有的 PowerShell 腳本。 請參閱[從線上連接器商務用 Skype移至 powerShell Teams模組以](teams-powershell-move-from-sfbo.md)瞭解更多資訊。
 

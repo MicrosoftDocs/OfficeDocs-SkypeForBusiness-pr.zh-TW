@@ -11,10 +11,10 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: 瞭解如何在組織中為前線員工Teams中設定及管理 Shifts 應用程式。
+description: 瞭解如何在組織中為前線員工Teams並管理 Shifts 應用程式。
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 27bb2e6e336bb09bffc9bc79c25e864964562a97820b3e37c462ec153eed108b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c2e8a8e976e6c92355bc894447353f436b706bc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308722"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608970"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [班次] 應用程式
 
@@ -36,7 +36,7 @@ ms.locfileid: "54308722"
 
 ## <a name="overview-of-shifts"></a>班次概觀
 
-應用程式中的 Shifts 應用程式Microsoft Teams前線員工保持連接與同步。這是專為團隊快速且有效的時間管理與通訊所打造的行動電話。 班次可讓前線員工及其主管使用行動裝置管理排程並保持聯繫。
+此應用程式中的 Shifts Microsoft Teams讓前線員工保持連接與同步。這是專為團隊快速且有效的時間管理與通訊所打造的行動電話。 輪班可讓前線員工及其主管使用行動裝置管理排程並保持聯繫。
 
 - 主管建立、更新及管理團隊的排班表。 主管也可以傳送訊息給單一個人 (「地板上有打翻的液體」) 或整個團隊 (「區域總經理將於 20 分鐘後抵達」)。 主管還可以傳送原則文件、新訊佈告欄或影片。
 - 員工可查看預排的班次、查看當天還有誰已排班、要求調班或調班，以及要求請假。
@@ -78,7 +78,7 @@ Teams內建的 FirstLineWorker 應用程式設定策略，您可以指派給貴�
 
 若要查看 FirstLineWorker 政策，在系統管理中心的左側導Microsoft Teams，請前往 Teams   >  **App 設定政策**。
 
-![FirstLineWorker 應用程式設定策略的螢幕擷取畫面](../../media/firstline-worker-app-setup-policy.png "系統管理中心中 FirstLineWorker 應用程式設定Microsoft Teams的螢幕擷取畫面")
+![FirstLineWorker 應用程式設定策略的螢幕擷取畫面](../../media/firstline-worker-app-setup-policy.png "系統管理中心中 FirstLineWorker 應用程式設定Microsoft Teams螢幕擷取畫面")
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>指派 FirstLineWorker 應用程式設定策略給使用者
 

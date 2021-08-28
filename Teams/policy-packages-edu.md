@@ -18,15 +18,15 @@ appliesto:
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.policypackages.overview
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: 了解教育或教育界設定中的原則，以及如何在 Microsoft Teams 中使用和管理原則套件。
-ms.openlocfilehash: d18f5da05782f808d0a2858ac1a8376f3ce0df896f67b99792ab50c24576031c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8120000599f2e0406d80a7e61b2e5720ffe2fd71
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317029"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608860"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>適用於教育界的 Teams 原則和原則套件
 

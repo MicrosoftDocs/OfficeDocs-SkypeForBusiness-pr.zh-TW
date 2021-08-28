@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于斯里蘭卡Microsoft 365 Office 365及商務用 Skype Microsoft Teams的Microsoft Teams及服務。
-ms.openlocfilehash: e59a77caca6b168da5cea493b7293a79955a150e944b97aa2ee348255dce88f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 以下是適用于斯里蘭卡Microsoft 365 Office 365及商務用 Skype Microsoft Teams服務。
+ms.openlocfilehash: c493199d163b2ffcbb14cd81f63d4ba492e6d044
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285992"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584707"
 ---
 # <a name="availability-in-sri-lanka"></a>斯里蘭卡的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于斯里蘭卡Microsoft 365 Office 365及商務用 Skype Microsoft Teams的Microsoft Teams及服務。
+以下是適用于斯里蘭卡Microsoft 365 Office 365及商務用 Skype Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |是  <br/> |
-|是否會自動為音訊會議指派電話號碼？  <br/> | 電話號碼不會連結至特定城市或位置。 如果您想要專用電話號碼，請參閱取得電話和[商務用 Skype Microsoft Teams。](../getting-service-phone-numbers.md)  <br/> |
+|是否會自動為音訊會議指派電話號碼？  <br/> | 電話號碼不會連結至特定城市或位置。 如果您想要專用電話號碼，請參閱取得適用于 商務用 Skype[和 Microsoft Teams 的服務Microsoft Teams。](../getting-service-phone-numbers.md)  <br/> |
 |使用 [語音來電] 功能的撥出功能  <br/> |需要通訊信用額度  <br/> |
    
 ## <a name="phone-system"></a>電話系統

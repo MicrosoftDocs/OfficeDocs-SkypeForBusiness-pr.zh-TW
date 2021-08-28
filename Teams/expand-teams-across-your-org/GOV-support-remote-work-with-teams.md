@@ -10,17 +10,17 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: aytange
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: 使用本指導方針來協助政府組織中的遠端工作者使用 Microsoft Teams 來提高生產力，尤其是當他們在家中工作 (WFH) 時，以因應 COVID-19 (冠狀病毒) 爆發的情況。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7e132251623de86ad9635b03b13b9eb6dbc0aed40752fb916fcff23b9fd4ede1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 42d4b94a23bb2e3b9003f62a467c07eaf9c328e6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284114"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608980"
 ---
 # <a name="support-remote-government-workers-using-microsoft-teams"></a>支援使用 Microsoft Teams 的遠端政府工作者
 
