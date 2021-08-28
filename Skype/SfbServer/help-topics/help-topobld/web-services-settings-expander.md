@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.WebServicesSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: 您可以從拓撲產生器內，修改用於內部和外部 web 服務的埠設定。 此外，如果您要部署網域名稱系統 (DNS) 負載平衡，您可以使用拓撲產生器，設定集區的完整功能變數名稱 (FQDN) ，以解析為該集區中所有伺服器的實體 IP 位址。
-ms.openlocfilehash: 718d5966d08c923c1ad87360b6337282cf6ec6af432db1f2d13590467db4fbf3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0835e394a10ddedede5191250cf3b4df16daa0f0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347978"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630707"
 ---
 # <a name="web-services-settings-expander"></a>Web 服務設定展開工具
  

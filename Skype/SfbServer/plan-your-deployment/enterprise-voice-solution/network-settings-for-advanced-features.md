@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: 深入瞭解網路地區、網路網站和 IP 子網。 所有這些都必須設定為在商務用 Skype 中部署媒體旁路的計畫、在商務用 Skype Server) 中規劃通話許可控制，或在商務用 Skype Server 企業語音的商務用 Skype Server 中規劃緊急服務。
-ms.openlocfilehash: e502f1ec12628ef0e885d651ba38ed48a712eea0edb38976d7360ad7ac4333d1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 97cf81bb3efa9aa5d4b8717018232d479fcbf2c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326389"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608000"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>商務用 Skype Server 中的高級企業語音功能的網路設定
 

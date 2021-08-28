@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddFrontEndAssociationsPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a01dff6c-50cc-463d-ac08-9f22e044bdc8
 description: 您可以將伺服器角色與前端集區產生關聯，對需要部署其他伺服器的特定功能啟用支援。 您也可以稍後將伺服器角色與前端集區產生關聯。 可與前端集區相關聯的伺服器角色包括下列各項：
-ms.openlocfilehash: c431ed232d3be1532ac4d1598dbe352ef714c7ab0fce43ea1536b731d34ef548
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aaf43da757283779899a9efab5bcff0751ee48cf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290781"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608240"
 ---
 # <a name="add-front-end-associations-2010"></a>新增前端關聯 2010
 

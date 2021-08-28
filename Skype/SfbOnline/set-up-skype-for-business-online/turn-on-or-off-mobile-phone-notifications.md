@@ -13,32 +13,32 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: 瞭解如何開啟或關閉行動電話通知，讓使用者可以接收傳入、語音信箱和未接立即訊息的提醒。
-ms.openlocfilehash: ee558456a5f0ee4c2d59f4780e72ce4a2d2fe604aef5c270bca72665b7a610cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f44daa163dcce9298a43310b9157256c4b44fbb2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54283925"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584417"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>開啟或關閉行動電話通知
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> 系統Microsoft Teams系統管理中心已取代 商務用 Skype 系統管理中心 (舊版) 。 系統管理中心商務用 Skype所有管理Teams設定。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
+> 系統Microsoft Teams系統管理中心已取代 商務用 Skype系統管理中心 (舊版) 。 系統管理中心商務用 Skype所有管理Teams設定。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
 
 在 **[貴](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** 組織的 Microsoft 365 Apps 商務版 中指派系統管理員角色時，您可以選擇您的 商務用 Skype 使用者在行動電話或平板電腦上時，是否收到有關傳入和未接立即訊息的提醒。
   
-在 Android 和 Windows 手機上，商務用 Skype即時顯示通知。 不過Windows Phone、iPhone和 iPad裝置，當您不在手機或平板電腦中主動使用 商務用 Skype 時，會使用推入通知來顯示通知。
+在 Android 和 Windows 手機上，商務用 Skype即時顯示通知。 不過Windows Phone、iPhone和 iPad 裝置，當您不在手機或平板電腦中主動使用 商務用 Skype 時，會使用推入通知來顯示通知。
   
-## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>關閉組織中所有Windows Phone Apple 裝置推入通知
+## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>關閉組織中所有 Windows Phone Apple 裝置推入通知
 <a name="__top"> </a>
 
 ![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
@@ -60,7 +60,7 @@ ms.locfileid: "54283925"
 - 當您關閉推入通知時，使用者無法重新開啟。
     
 > [!IMPORTANT]
->  Microsoft 會使用其他公司為商務用 Skype、Windows Phone、iPhone使用者提供即時iPad通知。 請參閱[Microsoft 商務用 Skype 隱私權聲明](https://go.microsoft.com/fwlink/p/?linkid=247732)。 
+>  Microsoft 會使用其他公司為商務用 Skype使用者提供即時Windows Phone iPhone通知iPad通知。 請參閱[Microsoft 商務用 Skype 隱私權聲明](https://go.microsoft.com/fwlink/p/?linkid=247732)。 
   
 ## <a name="related-topics"></a>相關主題
 

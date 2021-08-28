@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceAdhocTestSelUser
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 description: 使用 [選取企業語音使用者] 對話方塊，尋找已啟用企業語音的使用者。 在搜尋方塊中，輸入您要尋找之使用者的 SIP 位址或顯示名稱，然後按一下 [尋找]。 若要選取使用者，請按一下搜尋結果清單中的使用者，然後按一下 [確定]。 如果您找不到所要尋找的使用者，則該使用者可能未啟用企業語音。
-ms.openlocfilehash: f405214c5f775319c93eeb9fb342f52cf56fad97bb9165106626f29189fb1fce
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d557cf654cd8b573dab7efe34afeebd240f46b5b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330067"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584007"
 ---
 # <a name="select-enterprise-voice-users"></a>選取企業語音使用者
  

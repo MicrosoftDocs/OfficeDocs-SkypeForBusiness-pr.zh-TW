@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 在線上傳送包含其音訊會議資訊的電子郵件商務用 Skype使用者。
-ms.openlocfilehash: 9cc178b64d9c242337717598f41bdcb4018f14620c5fdc3709abcf8c1bbdb0d9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8cb4d51fedc5cd12a3ee7a95b0d83c254526abd8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327039"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584447"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>在線上傳送包含音訊會議資訊的電子郵件商務用 Skype使用者
 
@@ -35,7 +35,7 @@ ms.locfileid: "54327039"
 > [!Note]
 > 有關將音訊會議資訊傳送給使用者Microsoft Teams，請參閱在[Microsoft Teasms](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)中傳送包含音訊會議資訊的電子郵件給使用者。
 
-有時候商務用 Skype使用者可能需要您傳送音訊會議資訊給他們。 您可以使用系統管理中心商務用 Skype，然後按一下使用者內容下的透過 **電子郵件** 傳送會議資訊，即可執行這項操作。 當您傳送此電子郵件時，它會包含所有音訊會議資訊，包括：
+有時候商務用 Skype使用者可能需要您傳送音訊會議資訊給他們。 您可以使用系統管理中心來商務用 Skype，然後按一下使用者內容下的透過 **電子郵件** 傳送會議資訊。 當您傳送此電子郵件時，它會包含所有音訊會議資訊，包括：
   
 - 使用者的會議電話或撥入電話號碼。
     
@@ -51,7 +51,7 @@ ms.locfileid: "54327039"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>傳送包含音訊會議資訊的電子郵件給使用者
 
-1. 在左側導覽中， **按一下 [使用者**，然後從可用使用者清單中選取使用者。
+1. 在左側導覽中， **按一下 [使用者**」，然後從可用使用者清單中選取使用者。
 
 2. 按一下頁面頂端的 [ **編輯>**。
 
@@ -107,11 +107,11 @@ ms.locfileid: "54327039"
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
-- 當涉及Windows PowerShell商務用 Skype，商務用 Skype是管理使用者，以及允許或不允許使用者執行哪些操作。 有了Windows PowerShell，您可以使用單一Microsoft 365管理Office 365管理，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+- 當涉及Windows PowerShell，商務用 Skype是管理使用者，以及使用者允許或不允許執行哪些操作。 有了Windows PowerShell，您可以使用單一Microsoft 365管理Office 365管理，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
-  - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [為什麼您需要使用 powerShell Microsoft 365或Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 - Windows PowerShell比僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點： 
     
@@ -122,7 +122,7 @@ ms.locfileid: "54327039"
   - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell[模組商務用 Skype Online。](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援 64 位電腦，可從 Microsoft 下載中心下載，Windows PowerShell Online 商務用 Skype[模組。](https://go.microsoft.com/fwlink/?LinkId=294688)
   
 ## <a name="related-topics"></a>相關主題
 

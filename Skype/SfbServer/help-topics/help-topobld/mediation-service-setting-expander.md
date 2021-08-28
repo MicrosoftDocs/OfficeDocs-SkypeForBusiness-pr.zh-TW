@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7cfc838f-845b-4b73-bbdf-3c0c9b9aac1b
 description: 使用此頁面來設定中繼伺服器的聆聽連接埠，並設定它與公用交換電話網路 (PSTN) 閘道的關聯。
-ms.openlocfilehash: 18720b396c0ac4b2467d62ebd1401280277ce9161e9f28a2902665d05ebd7118
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 73567f80e9e6ef983cc5ac0ef92cdf1ceac2063b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320355"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583967"
 ---
 # <a name="mediation-service-setting-expander"></a>中繼服務設定展開工具
  

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cf723737-4a75-4352-829b-f4954aa59716
 description: SIPResponseMetaDataTable 包含 SIP 回應碼的清單，以及每個代碼的分類和定義。 這兩個代碼會在回應影響 SIP 裝置和 SIP 通訊會話的事件時產生;例如，回應碼403是在 SIP 裝置提出要求時產生，但是伺服器會謝絕該要求。
-ms.openlocfilehash: 6e4c891aefb41b88fdaae1e9d80a25f878042d14e06c94fe510414f6a24ac1a0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9fb5921b2ff0c371dc8771ce8627bdae23f651dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284493"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630347"
 ---
 # <a name="sipresponsemetadata-table"></a>SIPResponseMetaData 表格
  

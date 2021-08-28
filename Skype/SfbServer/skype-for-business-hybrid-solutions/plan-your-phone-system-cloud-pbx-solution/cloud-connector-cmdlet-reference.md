@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
 description: 下表列出具有簡短描述的商務用 Skype Cloud Connector Edition Cmdlet，以及詳細資訊的連結。
-ms.openlocfilehash: a5a29003db50f79440b6bd0393bce63b8597d90df35cded4b7b6c0114b165b97
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 19fc33912075e7737a4fa7fc242e74dd1de92289
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341488"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583727"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>Cloud Connector Cmdlet 參考
  

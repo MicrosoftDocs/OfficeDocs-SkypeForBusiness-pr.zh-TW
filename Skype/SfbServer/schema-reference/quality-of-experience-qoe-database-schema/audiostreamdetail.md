@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: AudioStreamDetail View 儲存資料庫中每個音訊資料流程的資訊。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 88300d4117a26dd033897d955ae82fb99f7d7b4878cb484caf4bae1fad3f965d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fa3d65c5c4f42bb0ecfe32447b9d8dcab5a10c55
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309182"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583747"
 ---
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail view
  

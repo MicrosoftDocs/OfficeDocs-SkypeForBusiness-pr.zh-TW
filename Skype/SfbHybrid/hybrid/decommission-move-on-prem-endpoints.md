@@ -9,7 +9,7 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Hybrid
 - M365-voice
@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在解除委任商務用 Skype 內部部署環境之前，請先遷移 hyrid 應用程式端點。
-ms.openlocfilehash: f655c232e8502e6309f57ce88af6ca0eebce9a43
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 2968cdb5ecec3bffb22fffaf43c77e97ab8004d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58406972"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583417"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>在解除委任內部部署環境之前遷移混合應用程式端點
 
@@ -32,7 +32,7 @@ ms.locfileid: "58406972"
 
 - 步驟 1. [將所有必要使用者從內部部署移至線上](decommission-move-on-prem-users.md)
 
-- 步驟 2： [停用您的混合](cloud-consolidation-disabling-hybrid.md)式設定。
+- 步驟 2. [停用您的混合](cloud-consolidation-disabling-hybrid.md)式設定。
 
 - **步驟3。從內部部署向線上遷移混合應用程式端點。**  (本文) 
 

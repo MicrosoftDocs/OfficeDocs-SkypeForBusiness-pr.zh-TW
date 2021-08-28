@@ -1,5 +1,5 @@
 ---
-title: 在 商務用 Skype 中設定音訊會議商務用 Skype語言
+title: 在 商務用 Skype Online 中設定音訊會議商務用 Skype語言
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -15,27 +15,27 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 瞭解如何在 商務用 Skype Online 中為音訊會議號碼選取音訊會議自動語音商務用 Skype語言。
-ms.openlocfilehash: 044d05ec8b67f1e7732140a90c47b0666568fafe241fe3a45f2d02c46824e903
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 瞭解如何在 商務用 Skype 中為音訊會議號碼選取音訊會議自動語音商務用 Skype語言。
+ms.openlocfilehash: 15eca114c4f3d108a078642e6af23923fe817f66
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326989"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584427"
 ---
-# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>在 商務用 Skype 中設定音訊會議商務用 Skype語言
+# <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>在 商務用 Skype Online 中設定音訊會議商務用 Skype語言
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 有關在 Microsoft Teams 中設定自動語音語音Microsoft Teams，請參閱在 Microsoft Teams 中設定音訊[會議自動語音Microsoft Teams。](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams)
+> 有關在 Microsoft Teams 中設定自動語音語音Microsoft Teams，請參閱在 Microsoft Teams 中設定音訊會議[自動語音Microsoft Teams。](/MicrosoftTeams/set-auto-attendant-languages-for-audio-conferencing-in-teams)
 
-音訊會議自動語音商務用 Skype語音通話者加入會議時，可以使用多種語言向來電者打招呼。
+音訊會議自動語音商務用 Skype語音通話者加入會議時，可以使用多種語言向來電者問候。
   
 選擇一種主要語言，最多四種次要語言。 您設定的主要語言會先使用，而次要語言會由自動翻譯使用，以便您選取。 
   
@@ -49,9 +49,9 @@ ms.locfileid: "54326989"
 
 您必須是全域[系統管理員](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)或[商務用 Skype才能](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)執行此步驟。
     
-1. 在 商務用 Skype **系統管理中心**，在左側流覽中，前往 **舊版入口網站**。 進入舊版入口網站後，選取 **[音訊會議**，然後按一下 **Microsoft 橋接器**。
+1. 在 商務用 Skype **系統管理中心**，在左側流覽中，前往舊版 **入口網站**。 進入舊版入口網站後，選取 **[音訊會議**，然後按一下 **Microsoft 橋接器**。
     
-2. 從清單中選取音訊會議電話號碼，然後按一下 [動作窗格設定 **語言**> 。 只能變更專用音訊會議號碼的語言。  
+2. 從清單中選取音訊會議電話號碼，然後按一下 [動作窗格的設定 **語言**> 。 只能變更專用音訊會議號碼的語言。  
     
 3. 在 [ **設定語言>** 頁面上，按一下 **[主要** 語言清單> 以查看可用語言的完整清單。 如果需要，請按一下每個次要 **語言清單以** 選取次要語言。
     
@@ -66,13 +66,13 @@ ms.locfileid: "54326989"
     
 - 語言可以設定為專用，但不能設定為共用電話號碼。
     
-- 若要查看使用 Microsoft 作為提供者的 Microsoft 365 或 Office 365 音訊會議可用的國家/地區清單，請參閱音訊會議電話[號碼。](phone-numbers-for-audio-conferencing.md)
+- 若要查看在 Microsoft 365 或 Office 365 使用 Microsoft 作為提供者使用音訊會議的國家/地區清單，請參閱音訊會議電話[號碼。](phone-numbers-for-audio-conferencing.md)
     
 ## <a name="want-to-use-windows-powershell"></a>想要使用Windows PowerShell？
 
 若要自動化此步驟，您可以使用 [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) 和 [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) Cmdlets。
   
-若要深入瞭解，請參閱使用 Windows PowerShell[執行商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+若要深入瞭解，請參閱使用 Windows PowerShell[執行線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="related-topics"></a>相關主題
 

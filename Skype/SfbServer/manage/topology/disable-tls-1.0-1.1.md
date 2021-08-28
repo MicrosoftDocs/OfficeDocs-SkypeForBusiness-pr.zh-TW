@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 在您的環境中準備及執行停用 TLS 1.0 和1.1。
-ms.openlocfilehash: 9bb737466595420770c4374d7d1b76bcc0319e38d188f550fb284b686df7e19f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f10aae3e85e7bcc00aceaf7acf9f22d57e921aa2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337771"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608080"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中停用 TLS 1.0/1。1
 

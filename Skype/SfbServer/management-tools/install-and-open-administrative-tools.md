@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: 本主題說明如何安裝及開啟您部署及管理商務用 Skype 所需的系統管理工具。
-ms.openlocfilehash: 56b92504ab9858e87d63b172bcefcc1e5320259374853e5b9028bc6da8ac97b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 70f7732c9db49f5a089e9d5008a27902e5aac51c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350125"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630477"
 ---
 # <a name="install-and-open-administrative-tools"></a>安裝及開啟系統管理工具
 

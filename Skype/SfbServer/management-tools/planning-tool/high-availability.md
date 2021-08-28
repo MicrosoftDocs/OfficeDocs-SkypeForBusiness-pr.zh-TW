@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.HighAvailability
 - ms.lync.plan.HighAvailability
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: 商務用 Skype Server 2015 中大多數伺服器角色的主要高可用性架構，都是透過 pooling server 冗余度為基礎。 如果執行特定伺服器角色的伺服器失敗，則執行相同角色之集區中的其他伺服器將會從該伺服器進行負載。
-ms.openlocfilehash: 954fc2be48a17daa11099a5bca179d416ed4d9380689558a9214362ed904568c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e39a49b5cef508b5858c564636b575c20f48ac75
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280956"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630447"
 ---
 # <a name="high-availability-planning-tool"></a>高可用性規劃工具
  

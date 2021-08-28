@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中管理 Persistent chat Server 聊天室。
-ms.openlocfilehash: 4723dc4edd19b72197f42b7d5a649b4903a7a077ca5b3dd51d3eb65ccfc1b9d4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 928fef65d63165721957ca0622b959860d82704e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334993"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630567"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中管理 Persistent chat Server 中的聊天室
  

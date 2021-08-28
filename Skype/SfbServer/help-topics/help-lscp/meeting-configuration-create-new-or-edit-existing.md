@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ConfMeetingSettingEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 description: 會議設定設定會為使用者排程的會議定義使用者加入體驗。 這些設定只適用于排程的會議。 在用戶端中按一下 [立即開會] 選項，不會套用至所建立的特定會議。
-ms.openlocfilehash: 290de1525079810b25e7a2f8eac755015be345d32739ccc2e921dd343ff83ca3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 32a1aea2c8cf62f886b1a695efb29d041afe62c9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301569"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608220"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>會議組態：建立新的或編輯現有組態
 

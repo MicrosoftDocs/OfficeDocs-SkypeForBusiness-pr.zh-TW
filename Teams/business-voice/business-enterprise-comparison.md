@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-localization_priority: Priority
+ms.localizationpriority: high
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 深入了解 Microsoft 365 企業語音和 Business Voice 有何不同。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a46a245ddbd9a0e9b8e6dd1d4a3dab7a05cb125023ca938eecc6f519776ae49
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 88310047ab763631091b8b0efa72ff0c2997fb39
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351902"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630307"
 ---
 # <a name="whats-the-difference-between-business-voice-and-enterprise-voice"></a>Business Voice 和企業語音有何不同？
 

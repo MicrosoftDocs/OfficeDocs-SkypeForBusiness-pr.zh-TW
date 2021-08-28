@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要： IT 專業人員應該在規劃商務用 Skype Server 時，複查商務用 Skype Web 應用程式和 Skype 會議應用程式的支援需求。 本文並非適用于這些應用程式的使用者。
-ms.openlocfilehash: 575b1c7a5d335350ade6008cd0713b89b7e14ad07e86f290c98b72fcfdcd7cd4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29464c7dffbeee1a8ae6eed33764453bed948c58
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281696"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608020"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>規劃會議用戶端 (Web 應用程式和會議應用程式) 
  

@@ -8,9 +8,9 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: 選擇早期採用者進行實驗階段，Teams採用，然後收集您專案的意見。
+description: 選擇早期採用者做為您採用Teams階段，然後收集您專案的意見。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60314eb711fdcdf0f48ec607486acc119f3efcac575c10bec79c80c59d65dc22
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dbc7deee746679b4e82b34dae8a0dd89b07ed37d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323925"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583577"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>加入早期採用者並收集Microsoft Teams
 
-返回對早期採用者計畫表示有興趣的員工清單。 決定哪些人應該參與您與實驗Teams。 這可能是所有或部分感興趣的人員。 即使您未針對這些初始專案選取這些專案，請繼續與這些專案溝通，讓他們保持興趣，並願意參與未來。 根據您與商務專案關係人、技術小組的討論，以及上述的優先順序工作，這些將會成為您所選項目的啟動程式之一部分。 
+返回對早期採用者計畫表示有興趣的員工清單。 決定哪些人應該參與您與實驗Teams。 這可能是所有或部分感興趣的人員。 即使您未針對這些初始專案選取這些專案，請繼續與這些專案溝通，讓他們保持興趣，並願意參與未來。 根據您與商務專案關係人、技術小組的討論，以及上方所示的優先順序工作，這些將會成為您所選項目的啟動程式之一部分。 
 
 使用這些早期採用者完成下列步驟：
 
@@ -41,12 +41,12 @@ ms.locfileid: "54323925"
 
 ## <a name="gather-feedback"></a>收集意見反應
 
-使用專案或Microsoft 365 Office 365來收集項目的意見。
+使用專案或Microsoft 365元件Office 365收集項目的意見回饋。
   
-![表示決策點的圖示](media/teams-adoption-decision-icon.png) 決策：如果貴組織已經投資Yammer網路，您可以將它做為早期採用者計畫的意見回饋論壇。 如果沒有，且您的早期採用者計畫的成員少於 5000 人，請Teams小組來收集意見，並提供訓練。
+![表示決策點的圖示](media/teams-adoption-decision-icon.png) 決策：如果貴組織已經投資Yammer網路，您可以將它做為您早期採用者計畫的意見回饋論壇。 如果沒有，且您的早期採用者計畫的成員少於 5000 人，請Teams小組來收集意見，並提供訓練。
   
 > [!Note]
-> 有些組織會結合早期採用者意見回饋的頻道，加入團隊團隊支援計畫小組。 這個方法很好，因為許多早期採用者未來可能會成為領軍者，而且會建立更強大的社群。 
+> 有些組織會結合早期採用者意見回饋的頻道，加入團隊團隊支援計畫小組。 這是一個好方法，因為許多早期採用者未來可能會成為領軍者，而且將會建立更強大的社群。 
 
 
-![代表下一個步驟的 ](media/teams-adoption-next-icon.png) 圖示下一步： [板載支援](teams-adoption-onboard-support.md)。
+![代表下一個步驟的圖示 ](media/teams-adoption-next-icon.png) ： [板載支援](teams-adoption-onboard-support.md)。

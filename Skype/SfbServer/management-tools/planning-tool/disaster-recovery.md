@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.DisasterRecovery
 - ms.lync.plan.DisasterRecovery
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: 商務用 Skype Server 2015 會在兩個資料中心內啟用前端集區配對，以包含嚴重損壞修復措施。
-ms.openlocfilehash: b4867772fdca270cf0d71ee225799406fe1a98f50fe0d626f090f2e42e402db7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bea9b6148468e2b4e36f8aa058811b6864ee1d0e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347918"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583937"
 ---
 # <a name="disaster-recovery-planning-tool"></a>嚴重損壞修復計畫工具
  
