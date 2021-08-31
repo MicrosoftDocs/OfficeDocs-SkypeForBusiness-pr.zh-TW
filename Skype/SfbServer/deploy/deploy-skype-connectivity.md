@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 摘要：瞭解如何使用 Skype 消費者來連接商務用 Skype Server。 也稱為 Skype 連線性。
-ms.openlocfilehash: 962915a21b89a1d99fa6d788c677832bb470076b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 467d87968e7e5b0357e8d23b578a511adb281e27
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605542"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729882"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>部署商務用 Skype Server 中的 Skype 連線能力
 
@@ -158,7 +158,7 @@ Skype連線也是商務用 Skype 線上的功能，也就是 Microsoft 365 和 O
   
 需要同盟才能讓 Skype 使用者與您組織中的商務用 Skype 使用者通訊。 公用立即訊息連線 (PIC) 是同盟的類別，必須加以設定，才能讓商務用 Skype Server 使用者能夠與 Skype 使用者通訊。 同盟和 PIC 的設定方式是使用商務用 Skype Server 控制台的 [Edge 設定] 對話方塊如圖所示。
   
-![定義新的 Edge 集區](../media/32d7f255-c6ad-426d-96c2-2ef4d81f3b51.png)
+![定義新的 Edge 集區。](../media/32d7f255-c6ad-426d-96c2-2ef4d81f3b51.png)
   
 > [!NOTE]
 > EnableSkypeIdRouting 和 EnableSkypeDirectorySearch 屬性必須設定為 true 中的公用提供者設定 (請參閱後續指示) 供搜尋正常運作。 
@@ -178,7 +178,7 @@ Skype連線也是商務用 Skype 線上的功能，也就是 Microsoft 365 和 O
   
 針對新的安裝，您可以使用商務用 Skype Server 控制台來啟用 Skype 公用提供者，以設定 Skype 連線能力，如圖所示。
   
-![SIP 同盟提供者](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
+![SIP 同盟提供者。](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
   
 > [!NOTE]
 > 若要在升級至商務用 Skype Server 時設定 Skype 連線能力，您必須移除並重新新增現有的 Skype 公開提供者。 

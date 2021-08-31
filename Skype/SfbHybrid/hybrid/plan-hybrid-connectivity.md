@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 設定商務用 Skype 的混合模式，以規劃在商務用 Skype Server 和 Teams 之間執行混合連線。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: c1faef42d6c5842649bfb8b8bf79531ac2e367b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 26b837b72769380c3b67e1d24eee54cefc2b7575
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600878"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727012"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>規劃商務用 Skype Server 和 Teams 之間的混合式連線
 
@@ -74,7 +74,7 @@ ms.locfileid: "58600878"
 
 這種類型的設定取決於共用 SIP 位址空間功能，有時也稱為「分割網域」--例如，網域的使用者（如 contoso.com）是在內部部署和 Teams 上使用商務用 Skype Server 進行分割，如下圖所示：
 
-![商務用 Skype 混合式 connectivity-分割網域](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
+![商務用 Skype 混合式 connectivity-分割網域。](../../sfbserver2019/media/plan-hybrid-connectivity-2019-1.png)
 
 設定共用 SIP 位址空間時：
 
@@ -120,7 +120,7 @@ ms.locfileid: "58600878"
   - Lync Server 2013 和商務用 Skype Server 2019
   - Lync Server 2013 和商務用 Skype Server 2015
 
-*如果任何拓撲中需要混合式語音*，則指定為同盟 edge 的 edge server 以及與 SIP 同盟關聯的集區，都必須執行商務用 Skype 2015 或更新版本。 使用者可以保留在 Lync 2013 集區（如果有的話）。 如需詳細資訊，請參閱 [規劃語音解決方案](/MicrosoftTeams/cloud-voice-landing-page.md)。
+*如果任何拓撲中需要混合式語音*，則指定為同盟 edge 的 edge server 以及與 SIP 同盟關聯的集區，都必須執行商務用 Skype 2015 或更新版本。 使用者可以保留在 Lync 2013 集區（如果有的話）。 如需詳細資訊，請參閱 [規劃語音解決方案](/MicrosoftTeams/cloud-voice-landing-page)。
 
 > [!NOTE]
 > Teams 不支援 Lync Server 2010。

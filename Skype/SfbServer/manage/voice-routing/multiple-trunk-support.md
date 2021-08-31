@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 商務用 Skype Server 功能支援閘道和轉送伺服器之間的多重關聯。 這些關聯是透過定義主幹（轉送伺服器集區和公用交換電話網路 (PSTN) 閘道、會話邊界控制器 (SBC) 或 IP-PBX）進行。 使用拓撲產生器，將閘道與轉送伺服器相關聯 (也就是說，主幹) 。
-ms.openlocfilehash: 99a549fddab959681f71d8de124793957ec9d445
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e4bc7d0248fa9116651a1384a17a7a8347b2d8f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635247"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729042"
 ---
 # <a name="multiple-trunk-support-in-skype-for-business-server"></a>商務用 Skype Server 中的多個主幹支援
 
@@ -33,4 +33,4 @@ ms.locfileid: "58635247"
 
 下圖說明為每個轉送伺服器和閘道定義的多個主幹。 
 
-![多重主幹指派](../../media/multiple-trunk-assignments.jpg)
+![多重主幹指派。](../../media/multiple-trunk-assignments.jpg)

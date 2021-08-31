@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: 商務用 Skype Server Skype 會議室 Systems (SRS v1 （以前稱為 Lync 會議室系統) 管理網頁入口網站）是一個網頁入口網站，組織可以用來維護其 Skype 的會議室系統會議室。 系統管理員可以使用 SRS v1 管理網頁入口網站來監視裝置健康情況，例如，監控音訊/視頻裝置。 使用此入口網站，系統管理員可以遠端收集診斷資訊以監視會議室健康情況。
-ms.openlocfilehash: 2451d9892bc15b1b1f189a764823c2f9beb019ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0b52657d33b4da97266a635b53459ed21fd4a944
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618129"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729112"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 SRS v1 管理網頁入口網站
 
@@ -63,7 +63,7 @@ ms.locfileid: "58618129"
 
     以「全域」和「群組」類型為安全性的群組範圍建立群組。加入至此群組的 SIP 啟用使用者，可在單一 Skype 會議室上使用所有系統管理員入口網站功能。 若要包含對 Skype 會議室大量管理的支援，請參閱步驟5。
 
-     ![具有安全性群組角色的系統管理員群組清單](../../media/LRS_LRSFullAccessAdminGroup.png)
+     ![具有安全性群組角色的系統管理員群組清單。](../../media/LRS_LRSFullAccessAdminGroup.png)
 
 5. 使用名稱 LRSPowerUserAdminsGroup 建立 Active Directory 安全性群組。
 
@@ -71,11 +71,11 @@ ms.locfileid: "58618129"
 
 6. 將 LRSFullAccessAdminGroup 新增為 LRSSupportAdminGroup 的成員。
 
-     ![LRSSupportAdminGroup 屬性成員] 頁面](../../media/LRS_Add_LRSSupportAdminGroup.png)
+     ![LRSSupportAdminGroup 屬性成員] 頁面。](../../media/LRS_Add_LRSSupportAdminGroup.png)
 
 7. 使用名稱 LRSSupport 建立啟用 SIP 的 Active Directory 使用者。 將此使用者新增至 LRSSupportAdminGroup。
 
-     ![LRSSupportAdminGroup 屬性成員] 頁面](../../media/LRS_Add_LRS_SIP_SupportUser.png)
+     ![LRSSupportAdminGroup 屬性成員] 頁面。](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
 8. [針對 Visual Studio 2010 SP1 和 Visual Web Developer 2010 SP1 安裝 ASP.NET MVC 4](https://go.microsoft.com/fwlink/p/?LinkId=323967)。
 
@@ -126,7 +126,7 @@ ms.locfileid: "58618129"
 
     您不應該看到任何錯誤，如下圖所示：
 
-     ![Lync 會議室系統管理入口網站登錄畫面](../../media/LRS_AdminPortalSignIn.png)
+     ![Lync 會議室系統管理入口網站登入畫面。](../../media/LRS_AdminPortalSignIn.png)
 
 2. 如果您未看到任何錯誤，請嘗試從拓撲中的任何其他電腦存取下列 URL：
 
@@ -147,7 +147,7 @@ ms.locfileid: "58618129"
 
 2. 輸入 LRSSupport 帳戶的認證，或加入 LRSSupportAdminGroup 安全性群組的帳戶。
 
-![Lync 會議室系統管理入口網站登錄畫面](../../media/LRS_AdminPortalSignIn.png)
+![Lync 會議室系統管理入口網站登入畫面。](../../media/LRS_AdminPortalSignIn.png)
 
 ### <a name="srs-administrative-web-portal-summary-page"></a>SRS 系統管理 Web 入口網站摘要頁面
 
@@ -163,7 +163,7 @@ ms.locfileid: "58618129"
 
 - **上次** 重新整理顯示上次重新整理網頁的時間。
 
-![Lync 會議室系統管理員入口網站摘要視圖](../../media/LRS_AdminPortal_Summary_view.png)
+![Lync 會議室系統管理入口網站摘要視圖。](../../media/LRS_AdminPortal_Summary_view.png)
 
 > [!NOTE]
 > 如果您是 LRSPowerUserAdminsGroup 安全性群組的一部分，您只會看到 [大量管理] 功能表。
@@ -176,13 +176,13 @@ ms.locfileid: "58618129"
 
 在 [設定] 區段中，您可以設定會議室的密碼、會議室標記和預設磁片區層級。 如果您設定這些設定，則只有在您重新開機 SRS 主控台之後才會複製變更。 您只會看到使用版本15.12 和更新版本之 SRS 裝置的系統更新設定。
 
-![Lync 會議室系統管理入口網站聊天室設定](../../media/LRS_AdminPortal_RoomInfoSettings.png)
+![Lync 會議室系統管理入口網站聊天室設定。](../../media/LRS_AdminPortal_RoomInfoSettings.png)
 
 #### <a name="details"></a>詳細資料
 
 詳細資料區段提供 SRS 聊天室設定的唯讀摘要，包括：上次重新整理的時間;下一個會議;上次更新、維護和校準;預設的喇叭、mic 及鈴聲設定;版本SIP URI;每個畫面的畫面數目及詳細資料;狀態和活動。
 
-![Lync 會議室系統管理員入口網站詳細資料檢視](../../media/LRS_AdminPortal_Detail_view.png)
+![Lync 會議室系統管理員入口網站詳細資料檢視。](../../media/LRS_AdminPortal_Detail_view.png)
 
 #### <a name="troubleshooting"></a>疑難排解
 
@@ -192,7 +192,7 @@ ms.locfileid: "58618129"
 
 「健康情況」區段供應商務用 Skype Server connection、音訊裝置、影片裝置、恢復狀態及螢幕裝置狀況的視覺表示。
 
-![Lync 會議室系統管理入口網站室健康情況](../../media/LRS_AdminPortal_RoomInfoHealth.png)
+![Lync 會議室系統管理入口網站室健康情況。](../../media/LRS_AdminPortal_RoomInfoHealth.png)
 
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>關於系統管理 Web 入口網站的其他注意事項
 

@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 瞭解如何評估貴組織是否準備好順利轉換至Microsoft Teams。
+description: 瞭解如何評估貴組織是否準備好順利轉換Microsoft Teams。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,36 +20,36 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4eb739826ffa0523f30fd510aa9cdaec173f30c8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e24a35b2bc62de03d29e5c7ef80f9b6f0d61d266
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586317"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726492"
 ---
 # <a name="assess-organizational-change-readiness"></a>評估組織的變更整備程度
 
-![升級歷程圖，強調使用者準備階段](media/upgrade-banner-user-readiness.png "升級歷程的階段，強調使用者準備階段")
+![升級歷程圖，強調使用者準備階段。](media/upgrade-banner-user-readiness.png "升級歷程的階段，強調使用者準備階段")
 
-本文是升級過程中使用者整備階段的一部分，此階段是您與技術整備階段同時完成的活動。 繼續進行之前，請確認您已完成上述階段的活動：
+本文是升級過程中的使用者整備階段之一部分，此階段是您與技術整備階段同時完成的活動。 在繼續進行之前，請確認您已完成上述階段的活動：
 
 - [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
 - [已定義專案範圍](./upgrade-define-project-scope.md)
 - [瞭解共同使用和商務用 Skype互通性Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [已選擇升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-在您保護專案小組並定義您的願景、範圍和目標之後，升級旅程的下一個步驟是確保您的組織和使用者準備好使用 Teams，這是一項與確保技術準備同步完成的活動。 若要從企業Teams，使用者必須實際使用它。 只要啟用Teams，並無法保證您達成目標。 使用者有不同的使用案例和不同的學習方式，而且會以不同的速度來適應新技術。 好消息是，管理變更並不那麼複雜，但確實需要專注努力。 以下引導式討論是專為説明您瞭解使用者基礎所設計，因此您可以準備適當的教育程度，以促進和加速使用者採用。 您應該以兩種方式查看使用者基礎：
+在您保護專案小組並定義您的願景、範圍和目標之後，升級旅程的下一個步驟是確保您的組織和使用者準備好使用 Teams，這項活動會同時完成，同時確保您的技術準備就緒。 若要從客戶Teams，使用者必須實際使用它。 只要啟用Teams並無法保證您達成目標。 使用者有不同的使用案例和不同的學習方式，而且會以不同的速度來適應新技術。 好消息是，管理變更並不那麼複雜，但確實需要專注努力。 以下引導式討論是專為協助您瞭解使用者基礎所設計，因此您可以準備適當的教育程度，以促進及加快使用者採用。 您應該以兩種方式查看使用者基礎：
 
 - **組織變更準備** 狀況：瞭解 (使用者) 對變更的反應速度。 這項資訊可協助告知您為推動使用者採用所需的認知度、訓練和價值銷售量。
-- **團隊合作案例**：瞭解使用者的工作方式，將Teams工作活動、加快採用速度，以及協助從公司商務用 Skype。
+- **團隊合作案例**：瞭解使用者如何工作，將Teams工作活動、加快採用速度，以及協助您商務用 Skype。
 
 > [!Note]
-> 您可以根據貴組織的任何變更計畫，調整下列評定活動。 只要根據專案範圍來回答問題。 在下列討論中，「新解決方案」可適用于音訊通話、音訊會議，或將您從 商務用 Skype 升級Teams。
+> 您可以根據貴組織的任何變更計畫，調整下列評定活動。 只要根據專案範圍來回答問題。 在下列討論中，「新解決方案」可適用于音訊通話、音訊會議，或將您從商務用 Skype升級Teams。
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>當需要變更時，貴組織的文化是什麼？</li><li>新技術如何優化使用者的工作方式？</li><li>哪些使用者可能需要特別注意，才能讓他們變更其工作方式？</li></ul> |
-| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>使用下列指南和相關活動來捕獲貴組織的使用者準備狀況設定檔。</li></ul>|
+| ![描述決策點的圖示。](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>當需要變更時，貴組織的文化是什麼？</li><li>新技術如何優化使用者的工作方式？</li><li>哪些使用者可能需要特別注意，才能讓他們變更其工作方式？</li></ul> |
+| ![描述下一個步驟的圖示。](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>使用下列指南和相關活動來捕獲貴組織的使用者準備狀況設定檔。</li></ul>|
 
 ## <a name="organizational-change-readiness"></a>組織變更準備
 
@@ -69,7 +69,7 @@ ms.locfileid: "58586317"
 | *Laggards* reject the solution, even when pushed into change. | |
 -->
 
-| 早期採用者 | 通知使用者 | 裡卡德 |
+| 早期採用者 | 通知使用者 | 斯內卡德 |
 |----|----|---|
 | 這些使用者先要求解決方案才能使用。 | 這些使用者一旦顯示其值即接受解決方案。 | 這些使用者拒絕解決方案，即使被推入變更。 |
 
@@ -101,15 +101,15 @@ Microsoft Teams功能，供應商務用 Skype通訊和共同合作解決方案�
 
 瞭解使用者如何共同作業，以及如何共同作業，可協助使用者以視覺化方式Teams，協助使用者從商務用 Skype。 有兩種思考團隊合作案例的核心方式：以人員為中心和以專案為中心。
 
-- **Project以團隊合作** 為核心的特定專案或 (，例如規劃產品啟動活動) 。 從範圍規劃到預算管理，到行銷工作，以專案為中心的團隊合作可協助調整專案作業流程，讓每個人都能隨時瞭解情況。
-- 以 **人員** 為中心的團隊合作會圍繞具有類似責任或屬性的人而進行，他們可能會在同一個小組工作 (例如銷售團隊、道路鬥士) 或跨團隊 (例如同儕) 。 從與同事聊天以取得問題的答案，到參與小組會議，以人員為中心的活動包括資訊共用和建立關係。
+- **Project以團隊合作** 為中心，以特定專案或計畫 (例如規劃產品啟動活動) 。 從範圍規劃到預算管理，到行銷工作，以專案為中心的團隊合作可協助調整專案流程，讓每個人都能隨時瞭解情況。
+- 以 **人員** 為中心的團隊合作會圍繞具有類似責任或屬性的人進行，他們可能會在同一個小組工作 (例如銷售團隊、道路鬥士) 或跨團隊 (例如同儕) 。 從與同事聊天以取得問題的答案，到參與小組會議，以人員為中心的活動包括資訊共用和建立關係。
 
-若要充分利用Teams，請建立包含這兩種案例的團隊合作策略，協助使用者瞭解Teams如何適合他們。
+若要充分利用Teams，請建立包含這兩種案例的團隊合作策略，協助使用者瞭解Teams如何為它們工作。
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>您將採用哪些可相對應的團隊合作案例，以協助加快使用者採用Teams，並方便您從 商務用 Skype？</li></ul> |
-| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>請使用下列範例，協助打造您自己的團隊合作案例。 在升級活頁簿[中記錄。](https://aka.ms/upgradesuccesskit)</li><li>有關其他案例和範例，請前往 [生產力文件庫](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
+| ![描述決策點的圖示。](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>您將採用哪些可相對應的團隊合作案例，以協助加快使用者採用Teams，並方便您從 商務用 Skype？</li></ul> |
+| ![描述下一個步驟的圖示。](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>請使用下列範例，協助打造您自己的團隊合作案例。 將檔記錄在升級 [活頁簿中](https://aka.ms/upgradesuccesskit)。</li><li>有關其他案例和範例，請前往 [生產力文件庫](https://www.microsoft.com/microsoft-365/success/)</li></ul>|
 
 ### <a name="examples"></a>範例
 
@@ -117,33 +117,33 @@ Microsoft Teams功能，供應商務用 Skype通訊和共同合作解決方案�
 
 | 考慮 | 注釋 |
 |----|---|
-| 核心屬性 |<ul><li>具有各種專案資料流程的跨小組專案關係人</li><li>常用目標會議</li><li>許多專案/人員 (預算、排程、簡報、註冊等) </li></ul> |
-| 現今的團隊合作挑戰 |<ul><li>資料流程在孤島中作業，整體專案狀態或跨小組作業的可見度有限：<br><ul><li>中斷交談，且缺少「誰正在做什麼」 </li><li>在沒有任何跨小組可見度的地方追蹤資訊</li></ul><li>將新成員帶上會議室，或因錯過會議而趕上時，生產力時間遺失</li></ul>|
+| 核心屬性 |<ul><li>具有各種專案資料流程的跨小組專案關係人</li><li>經常召開目標會議</li><li>許多專案/人員 (預算、排程、簡報、註冊等) </li></ul> |
+| 現今的團隊合作挑戰 |<ul><li>資料流程在孤島中作業，但整體專案狀態或跨小組工作的可見度有限：<br><ul><li>中斷交談，且缺少「誰正在做什麼」 </li><li>在沒有任何跨小組可見度的地方追蹤資訊</li></ul><li>將新成員帶上會議或趕上錯過會議時，生產力時間遺失</li></ul>|
 | 團隊合作需求 |<ul><li>快速存取專案排程和任務分派</li><li>開啟交談頻道，讓每個人都知道</li><li>目前簡報檔案和其他資源的中央位置</li><li>快速讓新專案小組成員快速上進的能力</li><li>鼓勵和支援彼此保持動力的方式</li></ul>|
-| 在 Teams |<ul><li>小組/頻道來組織專案內容和討論執行緒交談 </li><li>SharePoint PPT 檔案的主機<sup>1</sup></li><li>Planner/Trello 可指派個別專案工作和到期日<sup>1</sup></li><li>Teams線上會議</li><li>Teams行動應用程式進行連接</li></ul> |
+| 在 Teams |<ul><li>小組/頻道來組織專案內容和討論執行緒交談 </li><li>SharePoint PPT 檔案的主機<sup>1</sup></li><li>Planner/Trello 可指派個別專案工作和到期日<sup>1</sup></li><li>Teams線上會議</li><li>Teams行動應用程式進行移動連接</li></ul> |
 
 <sup>1</sup>支援應用程式整合或對齊Teams。
 
-**以人員** 為中心的團隊合作：銷售團隊 (例如：您的地區分散的銷售團隊必須保持與道路的連線、維持在管道上一致，並瞭解可協助推動年度配額目標的關鍵優惠和計畫) 
+**以人員** 為中心的團隊合作：銷售團隊 (例如：您的地區分散的銷售團隊必須保持與道路的連線、保持管道上的一致，並瞭解可協助推動年度配額目標的關鍵優惠和計畫) 
 
 | 考慮 | 注釋 |
 |----|---|
-| 核心屬性 | <ul><li>在 (、旅館、客戶網站和) </li><li>以關係為焦點 – 核心外部</li></ul> |
-| 現今的團隊合作挑戰 |<ul><li>與多個現場代表重複交談 (聊天、通話、會議等) 交談-無法一次讓所有人聚在一起</li><li>錯過從銷售"勝"學習的機會 - 僅分享口碑</li><li>在應用程式之間持續隨機播放：<ul><li>在 Excel</li><li>在 Power BI</li><li>電子郵件的銷售擔保品</li><li>客戶示範資源SharePoint</li><li>1：1 聊天和時間點會議</li><li>銷售社群在 Yammer</li></ul></ul> |
+| 核心屬性 | <ul><li>在 (、旅館、客戶網站或網站上遠端) </li><li>以關係為焦點 – 核心外部</li></ul> |
+| 現今的團隊合作挑戰 |<ul><li>與多個現場代表重複交談 (聊天、通話、會議等) 交談-無法一次將所有人聚在一起</li><li>錯過從銷售"勝"學習的機會 - 僅分享口碑</li><li>在應用程式之間持續隨機播放：<ul><li>在 Excel</li><li>在 Power BI</li><li>電子郵件的銷售擔保品</li><li>客戶示範資源SharePoint</li><li>1：1 聊天和時間點會議</li><li>銷售社群在 Yammer</li></ul></ul> |
 | 團隊合作需求 |<ul><li>快速存取銷售擔保品</li><li>快速與專家聯繫</li><li>快速交回問題和核准 </li><li>銷售會議、管線評論</li><li>銷售訓練資源</li><li>客戶資料庫管理</li></ul> |
-| 在 Teams |<ul><li>Teams地區或客戶所設計來專注內容和交談的頻道/頻道</li><li>SharePoint擔保/資源<sup>1</sup></li><li>管道和Power BI XLS/Power BI<sup>1</sup></li><li>Teams線上會議</li><li>Teams行動應用程式進行連接</li><li>Teams與 CRM 系統<sup>1</sup>的應用程式整合</li><li>Yammer廣泛的中小型企業深入見解和資訊共用*<sup>1</sup></li></ul>|
+| 在 Teams |<ul><li>Teams地區或客戶所設計來專注內容和交談的頻道/頻道</li><li>SharePoint擔保/資源<sup>1</sup></li><li>管道和Power BI XLS/Power BI<sup>1</sup></li><li>Teams線上會議</li><li>Teams行動應用程式進行移動連接</li><li>Teams與 CRM 系統<sup>1</sup>的應用程式整合</li><li>Yammer廣泛的中小型企業深入見解和資訊共用*<sup>1</sup></li></ul>|
 
 <sup>1</sup>支援應用程式整合或對齊Teams。
 
-### <a name="tips-for-identifying-a-good-fit-for-your-teamwork-strategy"></a>提示適合您的團隊合作策略
+### <a name="tips-for-identifying-a-good-fit-for-your-teamwork-strategy"></a>提示找出適合您團隊合作策略的合適專案
 
-您可以輕鬆為每個使用者、每個小組和每個專案建立團隊合作策略。 並非所有專案或小組都需要完整定義的團隊合作策略。 以下是一些開始使用的最佳作法：
+您可以輕鬆為每個使用者、每個小組和每個專案建立團隊合作策略。 並非每個專案或小組都需要完整定義的團隊合作策略。 以下是一些開始使用的最佳作法：
 
 - 請考慮剛開始或即將推出的跨小組專案。
-  - 活動規劃 – 多個小組 (預算、物流、簡報等專案) 
+  - 活動規劃 – 多個團隊 (預算、物流、簡報等專案) 
   - 試驗新產品 - 共用資訊，在受控制的環境中收集意見
 
-- 識別使用者角色和核心工作群組，將使用者彼此互動的各種方式連接到Teams
+- 識別使用者角色和核心工作群組，將使用者彼此互動的各種方式與Teams
 
   - 銷售團隊/地區 – 道路鬥士、輕鬆存取資源、快速回復
   - 人力資源 – 跨所有部門進行標準化程式，採用一致的雇用方式
@@ -153,7 +153,7 @@ Microsoft Teams功能，供應商務用 Skype通訊和共同合作解決方案�
 
   - 從小開始。 檢查團隊模型之後，儲存更大、更複雜的專案。
   - 專注于新專案。 避免變更進行中現有的專案，因為這樣可能會中斷工作流程。
-  - 考慮時機。 在會計年度結束時向銷售推出新的團隊合作策略可能不太理想。
+  - 考慮時機。 在會計年度結束時將新的團隊合作策略推出銷售可能不太理想。
   - 迭 代。 不需要重新建立轉輪。 當您找到可運作的團隊合作結構時，請與其他工作組和專案重複。 定義範本小組並設定指導方針，協助使用者快速融入Teams並提供一致性。
 
 使用您上述收集的資訊來通知您的 [使用者準備計畫](./upgrade-user-readiness.md)。

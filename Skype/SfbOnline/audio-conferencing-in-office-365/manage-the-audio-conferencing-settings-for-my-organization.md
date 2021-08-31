@@ -21,19 +21,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '請參閱商務用 Skype線上步驟，將電話撥入式會議授權和會議 ID 指派給使用者，以及許多其他電話撥入式會議設定。 '
-ms.openlocfilehash: f011dc05f027ad8ec6ef33665050505432a3547e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 68deefd4092d05081ffe8a7aac9a1dc92ea36940
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586173"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726462"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>在線上管理組織的音訊會議商務用 Skype設定
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
-> 如果您想要在 Teams 中管理這些設定，請參閱在 Microsoft Teams 中管理組織的[音訊會議Microsoft Teams。](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams)
+> 如果您想要在 Teams 管理這些設定，請參閱在 Microsoft Teams 中管理組織的[音訊會議Microsoft Teams。](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams)
 
 您可以更輕鬆地在單一位置查看所有商務用 Skype會議設定。
 
@@ -41,13 +41,13 @@ ms.locfileid: "58586173"
 ## <a name="assign-an-audio-conferencing-license"></a>指派音訊會議授權
 
 > [!NOTE]
-> 您無法使用系統管理中心指派 **商務用 Skype授權**。 您必須使用Microsoft 365 系統管理中心。 請參閱[指派商務用 Skype授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
+> 您無法使用系統管理中心 **指派商務用 Skype授權**。 您必須使用Microsoft 365 系統管理中心。 請參閱[指派商務用 Skype授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
 
  **為使用者指派授權**
 
 1. 使用公司或學校帳戶來登錄。
 
-2. 在系統管理中心的左側導覽中，前往 **使用者**  >  **活動使用者**，然後從可用使用者清單中選取使用者。
+2. 在系統管理中心的左側導覽中，前往使用者活動使用者，然後從可用使用者清單中選取  >  使用者。
 
     > [!NOTE]
     > 如果您同時將授權指派給最多 20 個使用者，您可以使用選取視圖下拉式清單，然後選擇其中一個選項，或建立您自己的視圖。 然後按一下 [**編輯，****下** 一步兩次，然後選取授權並 **按一下 [提交**> 。 您也可以使用 Powershell，將授權指派給Windows使用者。 有關指示和 PowerShell 腳本範例，請參閱指派[商務用 Skype授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
@@ -61,19 +61,19 @@ ms.locfileid: "58586173"
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>啟用或停用發送給音訊會議使用者的電子郵件
 
-![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
+![顯示標誌圖示商務用 Skype圖示。](../images/sfb-logo-30x30.png) **使用 商務用 Skype系統管理中心**
 
 1. 使用公司或學校帳戶來登錄。
 
-2. 請前往系統管理中心>商務用 Skype流覽左側的 [音訊 **會議**> 。
+2. 請前往系統管理中心>商務用 Skype **流覽左側** 的 [**音訊會議**> 。
 
-3. 在 **Microsoft 橋接器設定頁面上** ，選取或清除如果使用者的音訊會議設定變更時自動 **傳送電子郵件給使用者**。
+3. 在 **Microsoft 橋接器設定頁面上** ，選取或清除如果使用者的音訊會議設定變更，自動 **傳送電子郵件給使用者**。
 
 4. 按一下 [儲存]。
 
     您也可以使用音訊會議設定傳送電子郵件給使用者，方法是流覽使用者的音訊會議屬性，然後按一下以 **電子郵件傳送會議資訊**。 會議邀請中包含會議 ID 和預設音訊會議電話號碼，但不包含 PIN。
 
-    請參閱 [傳送電子郵件給使用者及其音訊會議資訊](send-an-email-to-a-user-with-their-dial-in-information.md)。
+    請參閱 [傳送包含音訊會議資訊的電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information.md)。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -90,7 +90,7 @@ ms.locfileid: "58586173"
 
 ## <a name="change-the-senders-contact-information-in-email-messages-sent-to-users"></a>在電子郵件訊息中變更寄件者的連絡人資訊
 
-您可以變更自動發送給使用者的電子郵件，包括實際的電子郵件地址和寄件者連絡人資訊的顯示名稱。 根據預設，電子郵件的寄件者為 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell 和[Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) Cmdlet 來變更電子郵件地址和顯示名稱。 若要變更傳送電子郵件給使用者的電子郵件地址，您必須：
+您可以變更自動寄給使用者的電子郵件，包括實際的電子郵件地址和寄件者連絡人資訊的顯示名稱。 根據預設，電子郵件的寄件者為 Microsoft 365 或 Office 365，但您可以使用 Windows PowerShell 和[Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) Cmdlet 來變更電子郵件地址和顯示名稱。 若要變更傳送電子郵件給使用者的電子郵件地址，您必須：
 
 - 在 _SendEmailFromAddress 參數中輸入_ 電子郵件地址。
 
@@ -116,23 +116,23 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 2. 請前往系統管理中心 **>商務用 Skype。**
 
-3. 在 商務用 Skype系統管理中心，在左側流覽中，前往 [音訊會議>，然後按一下 [會議識別碼 **》** 下的 [動作窗格> 中的 [**重設**。 
+3. 在 **商務用 Skype系統** 管理中心，在左側流覽中，前往 [音訊會議>，然後按一下 [會議 **識別碼**》 下的 [動作窗格> 中的 [**重設**。
 
 4. 在 [ **重設會議 ID？ 視窗中** ，按一下 **[是**。 如果已啟用傳送電子郵件給使用者，系統會自動建立會議 ID，並傳送一封具有新會議 ID 的電子郵件給使用者。 預設會啟用此功能。
 
     > [!IMPORTANT]
     >  建立新會議 ID 之後，來電者無法使用舊的會議 ID。 您應該通知使用者重新排期現有的會議邀請，以確保新會議 ID 已新加入邀請中。 使用者可以使用會議移商務用 Skype工具來更新現有的會議。 若要瞭解如何下載、安裝及執行 商務用 Skype 會議更新工具，請參閱：商務用 Skype 和[Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)的會議更新工具、商務用 Skype Online、會議移移工具[ (64](https://go.microsoft.com/fwlink/?LinkID=626047)位) 和 商務用 Skype Online、會議移移工具[ (32](https://www.microsoft.com/download/details.aspx?id=54079)位) 。
 
-請參閱[重設使用者的會議 ID。](reset-a-conference-id-for-a-user.md)
+請參閱[為使用者重設會議 ID。](reset-a-conference-id-for-a-user.md)
 
 ## <a name="reset-a-conference-organizers-pin"></a>重設會議召集人的 PIN
 
-使用者排程的每個會議都會獲得一個唯一的會議 ID。 雖然會自動建立會議 ID 並指派給使用者，但有時候使用者可能不想使用此 ID，而您想要將其設定為特定號碼，或是您的使用者不記得或遺失其會議 ID。 您可以使用系統管理商務用 Skype中心Windows PowerShell，以查看、變更及重設其會議 ID。
+使用者排程的每個會議都會獲得一個唯一的會議 ID。 雖然會自動建立會議 ID 並指派給使用者，但有時候使用者可能不想使用此 ID，而您想要將其設定為特定號碼，或是您的使用者不記得或遺失其會議 ID。 您可以使用系統管理商務用 Skype和Windows PowerShell來查看、變更和重設其會議 ID。
 
 
 1. 使用公司或學校帳戶來登錄。
 
-2. 請前往系統管理中心>商務用 Skype流覽左側的 [音訊 **會議**> 。
+2. 請前往系統管理中心>商務用 Skype **流覽左側** 的 [**音訊會議**> 。
 
 3. 按一下 **[** 使用者，然後選取要重設 PIN 的使用者。
 
@@ -146,7 +146,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 1. 使用公司或學校帳戶來登錄。
 
-2. 請前往系統管理中心>商務用 Skype流覽左側的 [音訊 **會議**> 。
+2. 請前往系統管理中心>商務用 Skype **流覽左側** 的 [**音訊會議**> 。
 
 3. 按一下 **[** 使用者，然後選取要重設 PIN 的使用者。
 
@@ -155,7 +155,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
     > [!NOTE]
     > 當您這麼做時，音訊會議 PIN 不會發送給使用者。
 
-請參閱 [傳送電子郵件給使用者及其音訊會議資訊](send-an-email-to-a-user-with-their-dial-in-information.md)。
+請參閱 [傳送包含音訊會議資訊的電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information.md)。
 
 ## <a name="setting-the-phone-numbers-included-on-invites"></a>設定邀請中包含的電話號碼
 
@@ -213,7 +213,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
 1. 使用公司或學校帳戶來登錄。
 
-2. 請前往系統管理中心>商務用 Skype流覽左側的 [**音訊會議**> 。
+2. 請前往系統管理中心>商務用 Skype **流覽左側** 的 [**音訊會議**> 。
 
 3. 在 **Microsoft 橋接器設定頁面上** ，選取或清除如果使用者的音訊會議設定變更，自動 **傳送電子郵件給使用者**。
 
@@ -225,7 +225,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
     請參閱 [傳送包含音訊會議資訊的電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information.md)。
 
-## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音訊會議橋接器上 (主要) 和次要 (替代) 語言
+## <a name="see-and-set-the-primary-default-and-secondary-alternate-languages-on-an-audio-conferencing-bridge"></a>在音訊會議橋接器上查看 (預設) 次要 (替代) 語言
 
 
 1. 使用公司或學校帳戶來登錄。
@@ -291,7 +291,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
   Set-CsOnlineDialInConferencingTenantSettings -PinLength 7
   ```
 
-- **只設定電話的撥入式會議** 預設 _$false。_
+- **只從電話設定電話撥入會議** 預設 _$false。_
   ```PowerShell
   Set-CsOnlineDialInConferencingTenantSettings -AllowPSTNOnlyMeetingsByDefault $true|$false
   ```
@@ -323,7 +323,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
   - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
-- Windows PowerShell使用系統管理中心時，其速度、簡易性及生產力有許多優點，例如一次對許多使用者進行設定變更。 請從下列主題瞭解這些優點：
+- Windows PowerShell使用系統管理中心時，系統在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
 
   - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
@@ -331,7 +331,7 @@ Set-CsOnlineDialInConferencingTenantSettings -SendEmailOverride $true -SendEmail
 
   - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-    Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell Online 模組商務用 Skype[下載。](https://go.microsoft.com/fwlink/?LinkId=294688)
+    Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell Online 商務用 Skype[模組。](https://go.microsoft.com/fwlink/?LinkId=294688)
 
 ## <a name="related-topics"></a>相關主題
 

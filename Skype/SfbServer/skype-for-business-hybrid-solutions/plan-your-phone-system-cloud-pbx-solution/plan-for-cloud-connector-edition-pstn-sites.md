@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: 閱讀此主題以瞭解如何規劃雲端連接器 Edition PSTN 網站，以確保有效且經濟划算的呼叫路由。
-ms.openlocfilehash: 54f8ec9f89c6a3ef88b5ac8e70e9eebfd2968d2d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 50b30a5071dd14cc0016419d85406b7c50d85387
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616329"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729232"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>規劃 Cloud Connector Edition PSTN 網站
 
@@ -74,7 +74,7 @@ ms.locfileid: "58616329"
   
 因此，使用者 A 和 B，以及 Bellevue 和 Redmond 的雲端連接器主幹可能位於同一個雲端連接器 PSTN 網站，如下圖所示。 一個辦公室中的使用者緊急通話可以路由傳送到另一個辦公室中的主幹。 不過，您應該檢查您的電信公司是否可正常運作。
   
-![如何設定 PSTN 網站](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
+![如何設定 PSTN 網站。](../../media/2659caa7-9c18-4d4f-9c7a-61d0e6a07dc3.png)
   
 請同時考慮下列範例：
   

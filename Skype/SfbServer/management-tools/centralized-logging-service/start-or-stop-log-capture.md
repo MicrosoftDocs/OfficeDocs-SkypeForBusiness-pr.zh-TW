@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中啟動或停止集中式記錄服務記錄捕獲會話。
-ms.openlocfilehash: 8f21b4b63c4261443cf6749f1daf0b905b1adb11
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5ed9630f21e409c240871c981db6346d2d2d9599
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608051"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726952"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中啟動或停止 CLS 記錄捕獲
  
@@ -121,7 +121,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Show-CsClsLogging
    ```
 
-   ![呼叫 Show-CsCl 後 Windows PowerShell 主控台](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![呼叫 Show-CsCl 之後 Windows PowerShell 主控台。](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
    Show-CsClsLogging 的結果是執行中案例及其執行範圍的摘要。如需詳細資訊，請參閱＜[Show-CsClsLogging](/powershell/module/skype/show-csclslogging?view=skype-ps)＞。
     

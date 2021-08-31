@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 下列各節 descrbie 如何設定資源/使用者樹系模型中有多個樹系的環境，以提供混合式案例中的功能。
-ms.openlocfilehash: 146537c6b2ff51d6e2a68c0f4fbb59dfee55b1b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a6ca7c559a2c79979a44d8ca7c8555abf432b4d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625775"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727052"
 ---
 # <a name="deploy-a-resource-forest-topology"></a>部署資源樹系拓撲
 
@@ -32,7 +32,7 @@ ms.locfileid: "58625775"
  
 下列各節說明如何設定資源/使用者樹系模型中有多個樹系的環境，以提供混合式案例中的功能。 
   
-![混合式的多樹系環境](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
+![混合式的多樹系環境。](../../sfbserver/media/5f079435-b252-4a6a-9638-3577d55b2873.png)
   
 ## <a name="topology-requirements"></a>拓撲需求
 
@@ -104,7 +104,7 @@ ms.locfileid: "58625775"
   
 部署之後，您必須編輯宣告規則，使其符合先前所選取的來源錨點。 在 [AD FS MMC] 的 [信賴憑證者信任] 底下，以滑鼠右鍵按一下 [ **Microsoft 365 身分識別平臺**] 或 [ **Microsoft Office 365 身分識別平臺**]，然後選取 [**編輯宣告規則**]。 編輯第一個規則，並將 ObjectSID 變更為 **employeeNumber**。 
   
-![多樹系編輯規則畫面](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
+![多樹系編輯規則畫面。](../../sfbserver/media/f5d485bd-52cc-437f-ba71-217f8902056c.png)
   
 ## <a name="configure-aad-connect"></a>設定 AAD 連線
 
@@ -114,7 +114,7 @@ ms.locfileid: "58625775"
   
 完成和 Azure AD 連線合併時，如果您在元節中查看物件，您應該會看到類似下列的內容： 
   
-![多樹系元節物件畫面](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
+![多樹系元節物件畫面。](../../sfbserver/media/16379880-2de3-4c43-b219-1551f5dec5f6.png)
   
 綠色的醒目提示屬性已從 Microsoft 365 合併，黃色來自使用者樹系，而藍色則來自資源樹系。 
   

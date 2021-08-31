@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: '如何開啟音訊和視訊會議的錄製，並瞭解錄製中包含和不包含哪些內容。 '
-ms.openlocfilehash: 8aee8991161364eaab29459ae305e6ba4cf37b50
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a3e4db64b7703ef4f7373c5607838a707767db78
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625735"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729922"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>讓人員錄製音訊和視訊會議
 
@@ -33,9 +33,9 @@ ms.locfileid: "58625735"
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>為單一使用者或貴組織中所有人選擇預設錄製設定
 
-![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
+![顯示標誌圖示商務用 Skype圖示。](../images/sfb-logo-30x30.png) **使用 商務用 Skype系統管理中心**
 
-1. 前往系統管理中心 **>商務用 Skype**，然後按一下 [**使用者**。
+1. 前往系統管理中心 **>商務用 Skype，** 然後按一下 [**使用者**。
     
 2. 在 [ **使用者」** 頁面上，從清單中選取使用者或使用者，然後按一下 [ **編輯**。
     

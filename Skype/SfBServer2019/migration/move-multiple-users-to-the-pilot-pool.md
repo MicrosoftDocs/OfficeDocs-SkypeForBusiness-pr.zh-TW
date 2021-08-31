@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 您可以使用商務用 Skype Server 2019 控制台或商務用 Skype Server 2019 管理命令介面，將多個使用者從舊版集區移至商務用 Skype Server 2019 試驗集區。
-ms.openlocfilehash: 50525ce139cb324d71ebcdce54ef96463dc933b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc4d14d26a76ff4dbfc690fc7517aba77afd253f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624575"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726312"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>將多個使用者移至試驗集區
 
@@ -40,7 +40,7 @@ ms.locfileid: "58624575"
     
 3. 選取兩個要移至商務用 Skype Server 2019 集區的使用者。 在此範例中，我們會將使用者移 Chen 陽和聖誕老人聖誕 Hansen。
     
-     ![將使用者移至特定的註冊集區](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
+     ![將使用者移至特定的註冊集區。](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
   
 4. 從 [ **動作** ] 功能表中，選取 [ **將選取的使用者移至集** 區]。
     
@@ -48,7 +48,7 @@ ms.locfileid: "58624575"
     
 6. 按一下 [動作]，然後按一下 [將選取的使用者移至集區]。 按一下 [確定]。
     
-     ![移動使用者、目的地註冊集區] 對話方塊](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
+     ![移動使用者、目的地註冊集區] 對話方塊。](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   
 7. 確認使用者的 [**報名者集** 區] 欄現在包含商務用 Skype Server 2019 集區，這表示使用者已順利移動。 
     
@@ -63,7 +63,7 @@ ms.locfileid: "58624575"
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
    ```
 
-    ![PowerShell Get-CsUser Cmdlet 的範例](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
+    ![PowerShell Get-CsUser Cmdlet 的範例。](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
   
 3. 在命令列輸入下列命令： 
     
@@ -73,7 +73,7 @@ ms.locfileid: "58624575"
 
 4. **註冊機構集** 區的身分識別現在應該指向您在上一個步驟中 **pool_FQDN** 指定的集區。 這個身分識別的出現表示已成功移動使用者。 重複步驟以驗證使用者 **2 是否已** 移動。 
     
-     ![PowerShell Get-UsUser 識別指令程式的輸出](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
+     ![PowerShell Get-UsUser 身分 Cmdlet 的輸出。](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
   
 ## <a name="to-move-all-users-at-the-same-time-by-using-the-skype-for-business-server-2019-management-shell"></a>若要使用商務用 Skype Server 2019 管理命令介面同時移動所有使用者
 <a name="sectionSection2"> </a>
@@ -88,7 +88,7 @@ ms.locfileid: "58624575"
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
-     ![在管理命令介面中 PowerShell Cmdlet 及結果](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
+     ![在管理命令介面中 PowerShell Cmdlet 及結果。](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
   
 3. 針對其中一位試驗使用者執行 **Get-CsUser** 。 
     
@@ -100,6 +100,6 @@ ms.locfileid: "58624575"
     
 5. 此外，我們可以在商務用 Skype Server 2019 控制台中查看使用者清單，並確認 [註冊機集區] 值現在是否指向商務用 Skype Server 2019 集區。
     
-     ![商務用 Skype Server 2019 控制台使用者清單](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
+     ![商務用 Skype Server 2019 控制台使用者清單。](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
   
 

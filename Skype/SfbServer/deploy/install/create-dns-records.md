@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 摘要：瞭解如何設定 dns，以及如何建立商務用 Skype Server 安裝的 dns 記錄。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 8584f267f71f2f3af68875c6c2eee28b1d79dbfe
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08a652f3ed2dd19d40aa1830ac91459d205b618a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585529"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726322"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>為商務用 Skype Server 建立 DNS 記錄
  
@@ -33,7 +33,7 @@ ms.locfileid: "58585529"
 > [!IMPORTANT]
 > 請務必注意，這只是如何在 Windows 伺服器 DNS 環境中建立 DNS 記錄的範例。 商務用 Skype Server 還需要許多其他的 dns 專案，而建立 dns 記錄的程式取決於您用來管理組織中 DNS 的系統。 如需 dns 需求的完整清單，請參閱[商務用 Skype Server 的 DNS 需求](../../plan-your-deployment/network-requirements/dns.md)。 
   
-![一覽表圖表](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
+![一覽表圖表。](../../media/d2fc733c-6a80-4d17-a02f-93b8c4bfb999.png)
   
 ## <a name="configure-dns"></a>設定 DNS
 
@@ -68,7 +68,7 @@ ms.locfileid: "58585529"
     
 4. 以滑鼠右鍵按一下 SIP 網域，然後選取 [ **(A 或 AAAA) 新增主機**]，如圖所示。
     
-     ![選取新的記錄](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
+     ![選取 [新增] 記錄。](../../media/f89c5c1f-b5b7-428c-a6e3-2bcd12e878c3.png)
   
 5. 在 [ **名稱** ] 方塊中，輸入主機記錄的名稱 (功能變數名稱將會自動附加) 中。
     

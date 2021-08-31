@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 針對嚴重損壞修復，商務用 Skype Server 提供集區配對與容錯移轉，以防一個集區中斷。
-ms.openlocfilehash: 728419a20fe99db004b739e599355c9b64a8844f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6a2c33c123f70850335ce55aba06071ff4104eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603832"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728832"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>商務用 Skype Server 中的前端集區災害復原
  
@@ -66,7 +66,7 @@ ms.locfileid: "58603832"
   
 如果您將主控中央管理存放區的集區配對，備份組區中會設定備份中央管理存放區資料庫。 在任何時候，都有兩個中央管理存放區資料庫中的其中一個，另一個是待機狀態。 備份服務會將內容從現用資料庫複製到待機狀態。
   
-![顯示兩個前端集區，一個包含作用中的 CMS 存放區，另一個具有被動式備份 CMS 存放區。](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
+![顯示兩個前端集區，一個包含使用中 CMS 存放區，另一個具有被動式備份 CMS 存放區。](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
   
 在包含主控中央管理存放區之集區的集區容錯移轉期間，您必須先容錯移轉中央管理存放區，才可容錯移轉前端集區。
   
@@ -99,6 +99,6 @@ ms.locfileid: "58603832"
 > [!CAUTION]
 >  IPsec 不會做為應用程式層級安全性的取代，例如 SSL/TLS。 使用 IPsec 的其中一個優點是，它可以為現有的應用程式提供網路流量安全性，而不需要加以變更。 只想要將兩個資料中心之間的傳輸安全的企業，應諮詢其各自的網路硬體廠商，以瞭解使用廠商的設備設定安全的 WAN 連線的方式。
   
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>也請參閱
 
 [在商務用 Skype Server 中為嚴重損壞修復部署成對的前端集區](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

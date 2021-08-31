@@ -18,30 +18,30 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f50a5f766740d3d5d8fa9effc0b49ec495c361cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6f3b1942e1d9b6e93d78694c2b02027bf32c5d7d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593187"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726212"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 核准應用程式可用性
 
 核准應用程式可以個人應用程式形式供所有 Microsoft Teams 使用者使用。
 核准應用程式提供一個簡單的方法，將稽核、合規性、責任和工作流程帶到 Teams 中的結構化和非結構化核准。
 
- ![顯示核准應用程式](media/approvals-selection.png)
+ ![顯示核准應用程式。](media/approvals-selection.png)
 
 使用者可以釘選核准應用程式，以將其儲存到功能表列。
 
- ![顯示具有釘選選項的核准應用程式](media/approvalApp-pin.png)
+ ![顯示具有圖釘選項的核准應用程式。](media/approvalApp-pin.png)
 
 從核准應用程式建立的第一個核准，會觸發在預設 Common Data Service (CDS) 環境中提供核准解決方案。 從核准應用程式建立的核准將會儲存在預設的 CDS 環境中。
 
 本文章說明核准應用程式的需求和角色。
 
 > [!NOTE]
-> 這項功能尚未發行至 政府社群雲端 (GCC) 、政府社群雲端 GCCH (，以及) DOD (DOD) 使用者。
+> 這項功能尚未發行至 政府社群雲端 (GCC) 、政府社群雲端 GCCH (，) 以及美國 (DOD) 使用者。
 
 ## <a name="required-permissions-and-licenses"></a>必要的權限和授權
 
@@ -57,7 +57,7 @@ ms.locfileid: "58593187"
 
 - 使用者需要 Microsoft Forms 授權才能設定新的核准範本。
 
-若要使用核准應用程式，您需要授權才能Power Automate，您的帳戶會在您第一次核准指派時自動新增到目標環境中之核准使用者角色。
+若要使用核准應用程式，您需要授權才能Power Automate，您的帳戶會在您第一次核准作業時自動新增到目標環境中的使用者角色。
 
 ## <a name="storage-with-cds"></a>CDS 的儲存空間
 
@@ -102,7 +102,7 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 - 當系統管理員第一次為整個組織建立範本時，系統會自動為租使用者的所有系統管理員 ，包括全域和小組的服務系統管理員Teams建立新的 Teams 小組。 這些系統管理員會新增為團隊的擁有者，以便共同管理組織範本。 小組建立之後，組織的新管理員必須手動新增為團隊擁有者，以便他們擁有管理全組織範本的相同許可權。
 
 > [!Note]
-> 如果系統管理員刪除小組，您可以在 AAD Azure Active Directory (入口網站) 一個月還原該團隊，以還原所有關聯資料。 一個月後，或者如果系統管理員在回收站中刪除此小組，您就會失去所有相關的資料。
+> 如果系統管理員刪除小組，您可以在 AAD Azure Active Directory (入口網站) 還原所有關聯資料。 一個月後，或者如果系統管理員在回收站中刪除此小組，您就會失去所有相關的資料。
 
 ## <a name="disable-the-approvals-app"></a>停用核准應用程式
 
@@ -114,13 +114,13 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
   3. 搜尋核准應用程式。
 
-     ![顯示系統管理中心瀏覽，並強調顯示 [Teams 應用程式] > [管理應用程式]](media/manage-approval-apps.png)
+     ![顯示系統管理中心流覽，Teams應用程式>管理應用程式。](media/manage-approval-apps.png)
 
   4. 選取 [核准]。
 
   5. 選取切換以為組織停用該應用程式。
 
-     ![顯示核准應用程式的詳細資料](media/approvals-details.png)
+     ![顯示核准應用程式的詳細資訊。](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>保留原則
 
@@ -205,8 +205,8 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
 針對核准電子簽章功能，協力廠商簽章合作夥伴預設會顯示Teams核准應用程式。 您可以在系統管理中心存取應用程式設定，以停用Teams提供者。
 
-1. 在 Teams系統管理中心 **，選取管理** 應用程式下的核准 **應用程式**，**然後選擇** 設定。
+1. 在 Teams系統管理中心 **，選取管理** 應用程式下的核准 **應用程式**，然後選擇 **設定。**
 
-2. 每個電子簽章提供者旁邊都有一個切換開關，預設 (右) 位置。 將切換開關向左滑動以停用特定的電子簽名提供者。 如果系統管理員Teams提供者，則建立核准時，使用者不會看到提供者。 使用者也無法查看該提供者提出的任何電子簽章要求。
+2. 每個電子簽章提供者旁邊都有一個開關，根據預設 () 開啟位置。 將切換開關向左滑動以停用特定的電子簽名提供者。 如果系統管理員Teams提供者，則建立核准時，使用者不會看到提供者。 使用者也無法查看該提供者提出的任何電子簽章要求。
 
 從核准應用程式建立電子簽章核准會儲存在所選提供者的雲端。 因此，您必須前往提供者的網站，才能匯出任何電子簽章資料。 請參閱提供者關於匯出及保留這些協定的檔。

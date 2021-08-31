@@ -21,18 +21,18 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: '使用Skype標誌、說明和法律 URL 及頁腳文字自訂會議邀請。 '
-ms.openlocfilehash: 14a544d5a28fc9a0b64cda573245f2e232e0d901
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39ad8a6c6f9bec3a03d68ba532454703c4deb1c6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614935"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729282"
 ---
 # <a name="customize-meeting-invitations"></a>自訂會議邀請
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-做為系統管理員，您可以確保所有 商務用 Skype 會議邀請包含使用者可能需要的實用資訊，例如支援網站與法律免責聲明的連結、公司標誌，以及您想要包含的其他文字。 
+做為系統管理員，您可以確保所有 商務用 Skype 會議邀請都包含使用者可能需要的實用資訊，例如支援網站與法律免責聲明的連結、公司標誌，以及您想要包含的其他文字。 
   
 ## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>建立會議邀請標誌的秘訣
 <a name="__top"> </a>
@@ -48,11 +48,11 @@ ms.locfileid: "58614935"
 ## <a name="customize-your-meeting-invitations"></a>自訂您的會議邀請
 <a name="__top"> </a>
 
-![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
+![顯示標誌圖示商務用 Skype圖示。](../images/sfb-logo-30x30.png) **使用 商務用 Skype系統管理中心**
 
 1. 使用公司或學校帳戶來登錄。
     
-2. 從系統管理中心，選擇系統 **管理**  >  **中心商務用 Skype。**
+2. 從系統管理中心選擇系統 **管理中心**  >  **商務用 Skype。**
     
 3. 在系統管理商務用 Skype，選擇 **線上會議**。 
     
@@ -71,9 +71,9 @@ ms.locfileid: "58614935"
    
 5. 選擇 **儲存**。
     
-6. 等候一小時左右，讓變更在所有服務或Microsoft 365 Office 365填中。 接著，前往 Outlook並排程Skype會議，以查看您的變更外觀。 
+6. 等候一小時左右，讓變更在所有服務或Microsoft 365填Office 365填。 接著前往Outlook並排程Skype會議，以查看您的變更外觀。 
     
-    ![以下是自訂邀請的外觀，不含圖形](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![以下是自訂邀請的外觀，不含圖形。](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## <a name="related-topics"></a>相關主題
 <a name="__top"> </a>

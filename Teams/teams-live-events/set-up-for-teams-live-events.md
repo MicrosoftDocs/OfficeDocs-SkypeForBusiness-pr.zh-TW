@@ -16,16 +16,16 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-description: 在 Teams中設定即時事件，包括設定您的網路、指派授權、啟用即時活動功能與排程，以及影片發佈解決方案。
+description: 在 Teams中設定即時事件，包括設定您的網路、指派授權、啟用即時活動功能和排程，以及視音訊發佈解決方案。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 81b86121aceb0b0044f8b7dca422437331803689
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 261bea1f2abbe4194d0906078977bf870581d31c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636617"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726712"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中設定即時活動
 
@@ -59,7 +59,7 @@ ms.locfileid: "58636617"
 
     以下是您可以根據組織需求變更的設定。
 
-    ![即時活動原則設定的螢幕擷取畫面](../media/teams-live-events-policies.png "Microsoft Teams 系統管理中心即時活動原則設定的螢幕擷取畫面")
+    ![即時事件策略設定螢幕擷取畫面。](../media/teams-live-events-policies.png "Microsoft Teams 系統管理中心即時活動原則設定的螢幕擷取畫面")
 
 |設定  |描述  |
 |---------|---------|
@@ -80,10 +80,10 @@ ms.locfileid: "58636617"
 
 若要讓使用者排程使用外部 App 或裝置所產生事件，您也必須執行下列步驟：
 
-1. 為組織中的使用者啟用 Microsoft Stream。 Stream 是合格訂閱或Microsoft 365訂閱Office 365或獨立服務的一部分。 Stream 未包含在商務基本版或商務進階版方案中。 如需詳細資訊，請參閱 [Stream 授權概觀](/stream/license-overview)。
+1. 為組織中的使用者啟用 Microsoft Stream。 Stream 可做為合格訂閱或Microsoft 365訂閱Office 365或獨立服務的一部分。 Stream 未包含在商務基本版或商務進階版方案中。 如需詳細資訊，請參閱 [Stream 授權概觀](/stream/license-overview)。
 
    >[!Note]
-   > 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 OneDrive 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 初期的某時間，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行新的會議錄製。 深入瞭解如何指派 [**授權給使用者**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) ，讓使用者能夠存取 Stream。 確保未針對本文定義的使用者封鎖 [**Stream。**](/stream/disable-user-organization)
+   > 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 OneDrive 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 初期的某時間，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行新的會議錄製。 深入瞭解如何指派 [**授權給使用者**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) ，讓使用者能夠存取 Stream。 確保 Stream 不會封鎖本文中定義的 [**使用者**](/stream/disable-user-organization)。
 
 2. 確保使用者擁有在 Stream 中建立即時活動的權限。 根據預設，系統管理員可以使用外部應用程式或裝置來建立活動。 Stream 系統管理員可以在 Stream 中[為額外的使用者啟用即時活動建立](/stream/live-event-administration#enabling-and-restricting-users-to-creating)。
 
@@ -103,7 +103,7 @@ ms.locfileid: "58636617"
 
 - **Ramp OmniCache** 提供下一代的網路發佈方式，並確保在全球 WAN 上順暢地傳送視訊內容，協助活動製作人將網路頻寬最佳化，並支援成功的即時活動廣播和隨選串流處理。 針對在 Teams 中所產生即時活動的 Ramp OmniCache 支援近期推出。 [深入了解](https://rampecdn.com)。
 
-- **Riverbed** 是網路優化的產業標準，正在將加速解決方案延伸到 Microsoft Teams Stream。  現在Microsoft 365客戶可以放心地加速 365 流量，包括 Teams 和 Stream，以及其他領先企業 SaaS 服務，隨時隨地提升員工生產力。 Teams Riverbed 的世界級支援與持續投資，輕鬆進行設定，以啟用快速加速和 Stream 加速功能。
+- **Riverbed** 是網路優化的產業標準，正在將加速解決方案延伸到 Microsoft Teams Stream。  現在Microsoft 365客戶可以放心地加速 365 流量，包括 Teams 和 Stream，以及其他領先企業 SaaS 服務，隨時隨地提升員工生產力。 Teams Riverbed 的世界級支援與持續投資的所有保證，輕鬆設定，就可以啟用快速處理和 Stream 加速功能。
 
 > [!NOTE]
 > 您選擇的 SDN 或 eCDN 解決方案受限於選取的 **協力廠商提供者的服務條款和隱私權原則**，其將控管您對提供者解決方案的使用方式。 您對提供者解決方案的使用方式將不受限於 Microsoft 大量授權條款或線上服務條款。 如果您不同意 **協力廠商提供者的條款**，則不要在 Teams 中啟用該解決方案。

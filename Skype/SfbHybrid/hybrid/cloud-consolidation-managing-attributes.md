@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: 本文說明如何在解除委任您的內部部署環境之後管理屬性。
-ms.openlocfilehash: 9f78dbcfaf1c753d18cc2e85a6b209248c2feea8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 64ba4844a1958cfd386a177d91b9c4f2dff89102
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636894"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58736022"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>決定解除授權後如何管理屬性
 
@@ -57,7 +57,7 @@ ms.locfileid: "58636894"
 
 - 若要修改使用者的電話號碼，請修改 `msRTCSIP-Line` *是否已有值*。
 
-  ![Active Directory 使用者和電腦工具](../media/disable-hybrid-1.png)
+  ![[Active Directory 使用者和電腦] 工具。](../media/disable-hybrid-1.png)
   
 -  如果使用者在 `msRTCSIP-Line` 移動之前沒有內部部署的值，您可以使用 `onpremLineUri` Teams PowerShell 模組中[Set-CsUser Cmdlet](/powershell/module/skype/set-csuser?view=skype-ps)中的-參數修改電話號碼。
 

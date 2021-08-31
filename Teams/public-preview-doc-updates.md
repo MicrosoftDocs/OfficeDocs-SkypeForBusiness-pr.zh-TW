@@ -18,12 +18,12 @@ description: 了解 Microsoft Teams 中的公開預覽。嘗試新功能並提�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 84e37bc76fe6c9f52aedae95c3ef01bb49e00cf0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 79d5467bd57900dfe62006a09d5f5cafaf662640
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586547"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726832"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公開預覽
 
@@ -54,7 +54,7 @@ Microsoft Teams 的公開預覽可提供 Teams 中尚未發行功能的早期存
  
    - **未啟用**：使用者可能無法使用 Microsoft Teams 公開預覽功能。
 
-    ![顯示預覽設定對話方塊](media/public-preview-policy.png)  
+    ![顯示預覽設定對話方塊。](media/public-preview-policy.png)  
 
 您也可以使用 PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet 和 `-AllowPublicPreview` 參數設定原則。
 

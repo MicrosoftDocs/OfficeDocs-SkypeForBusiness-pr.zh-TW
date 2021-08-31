@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解在 Microsoft Teams 中重設使用者會議 ID 的步驟，並取得會議更新和移Microsoft Teams工具的連結。
-ms.openlocfilehash: a4a57fb2f52ce2541e4e30794d78c05eb376a853
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6ef5bd8fed266990e5a21edc34e874c218199e87
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627195"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728882"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>重設使用者的會議 id Microsoft Teams
 
@@ -37,9 +37,9 @@ ms.locfileid: "58627195"
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>為使用者重設會議 ID
 
-![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
-1. 在左側導覽中， **按一下 [使用者**，然後從可用使用者清單中選取使用者。
+1. 在左側導覽中， **按一下 [使用者**」，然後從可用使用者清單中選取使用者。
 
 2. 按一下 **[編輯**> 。
 
@@ -49,7 +49,7 @@ ms.locfileid: "58627195"
 
     
 > [!NOTE]
-> 重設會議 ID 之後，系統就會將一封包含新會議 ID 的電子郵件寄給使用者。 在許多情況下，此電子郵件會寄到主要電子郵件地址，Microsoft 365或Office 365信箱。 電子郵件包含新的會議 ID、預設撥入 (電話號碼) 更新現有會議的指示。 
+> 重設會議 ID 之後，系統就會將一封包含新會議 ID 的電子郵件寄給使用者。 此電子郵件會寄到主要電子郵件地址，在許多情況下，會Microsoft 365或Office 365信箱。 電子郵件包含新的會議 ID、預設撥入 (電話號碼) 更新現有會議的指示。 
   
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -58,7 +58,7 @@ ms.locfileid: "58627195"
 
 - 您可以在包含會議 ID 和撥入電話號碼的電子郵件中，為使用者傳送所有會議資訊，方法是在音訊會議區段按一下以電子郵件傳送 **會議資訊。** 它不會傳送 PIN。
     
-- 7- 9 位數的會議 ID 是由服務Teams建立。 您無法變更其長度。
+- 7- 9 位數的會議 ID 是由服務Teams建立。 無法變更長度。
     
 - 重設之後，您可以在會議 ID 下看到新的會議 **ID。**
     

@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 在商務用 Skype Cloud Connector Edition 上尋找一組封裝虛擬機器，以 (vm) 執行內部部署 PSTN 連線與電話系統 (Cloud PBX) 。
-ms.openlocfilehash: 65e1d78a894b967391f44d6859c7fe50f42a7145
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bff341213e9426f72fc0a78a9076b5b784871106
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628455"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728802"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>規劃商務用 Skype Cloud Connector Edition
 
@@ -106,7 +106,7 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 
 使用雲端連接器 Edition，您可以部署一組打包的 vm，其中包含最低的商務用 Skype Server 拓撲，包括 Edge 元件、中繼元件，以及中央管理存放區 (CMS) 角色。 您也會安裝網域控制站，此為雲端連接器的內部運作所需的。 這些服務會設定為與您的 Microsoft 365 或包含商務用 Skype 線上服務的 Office 365 組織混合使用。
 
-![雲端連接器版本元件](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
+![雲端連接器 Edition 元件。](../../media/f2d4b8a7-c2f4-4cfc-8137-f187399c1298.png)
 
 雲端連接器元件提供下列功能：
 
@@ -182,7 +182,7 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 
 下圖顯示單一 PSTN 網站內的單一雲端連接器 Edition 裝置。 請注意，雲端連接器是由四個 Vm 組成，這些 Vm 是安裝在周邊網路中的一部實體主機上，以進行安全性用途。
 
-![具有一個 PSTN 網站的一個雲端連接器](../../media/7ffe6953-8c66-4323-940e-cd2e6c3c2a66.png)
+![具有一個 PSTN 網站的一個雲端連接器。](../../media/7ffe6953-8c66-4323-940e-cd2e6c3c2a66.png)
 
 ### <a name="multiple-cloud-connector-appliances-within-a-single-pstn-site"></a>單一 PSTN 網站中的多個雲端連接器裝置
 
@@ -200,7 +200,7 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 
     若為較小型版本的雲端連接器，N + 2 方塊支援 50 \* N 同時通話，具有99.9% 的可用性。
 
-![1 PSTN 網站中的兩個雲端連接器](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
+![1 PSTN 網站中的兩個雲端連接器。](../../media/fc0dc47f-5595-42cb-9432-9c8ff3e134e9.png)
 
 ### <a name="multiple-pstn-sites-with-one-or-more-cloud-connectors-per-site"></a>每個網站有一個或多個雲端連接器的多個 PSTN 網站
 
@@ -208,7 +208,7 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 
 多個 PSTN 網站也可讓您提供最接近使用者之閘道的連線能力。 例如，假設您在西雅圖和阿姆斯特丹中有 PSTN 閘道。 您可以部署兩部 PSTN 網站（一個在西雅圖，一個在阿姆斯特丹中），並指派使用者使用最接近的 pstn 網站。 西雅圖的使用者將會路由傳送到西雅圖 PSTN 網站和閘道，而將阿姆斯特丹中的使用者路由傳送至阿姆斯特丹 PSTN 網站和閘道：
 
-![兩個 PSTN 網站內的雲端連接器版本](../../media/16ead6d3-67da-4e71-b4d5-d895b4c9384e.png)
+![兩個 PSTN 網站中的雲端連接器 Edition。](../../media/16ead6d3-67da-4e71-b4d5-d895b4c9384e.png)
 
 ## <a name="requirements-for-deployment"></a>部署需求
 <a name="BKMK_Requirements"> </a>
@@ -486,7 +486,7 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 |SiteName  <br/> |商務用 Skype 網站名稱;例如，西雅圖。  <br/> .ini 檔案名中的名稱： "SiteName"  <br/> 針對發行1.4.1 及更新版本，每個網站的網站名稱必須不同，且名稱必須符合 PSTN 網站（如果存在），且已在 Microsoft 365 或 Office 365 中定義。 請注意，註冊網站中的第一個裝置時，系統會自動建立 PSTN 網站。  <br/> ||
 |HardwareType  <br/> 發行1.4.1 及更新版本  <br/> |硬體類型。 預設值為 Normal。 您也可以設定為 [最小值]。  <br/> ||
 |國碼  <br/> |用於撥號的國家/地區號碼。  <br/> .ini 檔案名中的名稱： "CountryCode"  <br/> ||
-|鄉/鎮/市/區  <br/> |城市 (選用) 。  <br/> .ini 檔案名中的名稱： "City"  <br/> ||
+|城市  <br/> |城市 (選用) 。  <br/> .ini 檔案名中的名稱： "City"  <br/> ||
 |狀態  <br/> |狀態 (選用) 。  <br/> .ini 檔案名中的名稱： "State"  <br/> ||
 |基底 VM IP 位址  <br/> |將用來建立所有雲端連接器虛擬機器之 VHDX 的臨時基底 VM 的 IP 位址。 這個 IP 必須在下一個步驟中定義的周邊公司網路子網中，且需要網際網路存取權。 請務必定義公司的預設閘道和可路由傳送至網際網路的 DNS。  <br/> .ini 檔案名中的名稱： "BaseVMIP"  <br/> ||
 |WSUSServer  <br/> WSUSStatusServer  <br/> 發行1.4.1 及更新版本  <br/> |Windows Server Update Services (WSUS) （內部網路伺服器）以從 Microsoft Update 中主控更新的位址。  <br/> 如果不需要 WSUS，您可以保留空白。  <br/> ||
@@ -647,7 +647,7 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 
 6. 轉送元件會將流量傳送至 PSTN 閘道。
 
-![雲端連接器的輸出媒體流程](../../media/c495a2bb-305c-46ef-b16d-b8f9f2b937a8.png)
+![雲端連接器的輸出媒體流程。](../../media/c495a2bb-305c-46ef-b16d-b8f9f2b937a8.png)
 
 在下一個圖表中，內部使用者會接收來電，如下所示：
 
@@ -663,7 +663,7 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 
 6. 媒體流量將會在閘道和中繼元件之間及中繼元件和結束點之間建立。
 
-![雲端連接器的輸入媒體 Flow](../../media/ba5da6f6-e357-43c6-9e8f-4bfdde97c176.png)
+![雲端連接器的輸入媒體 Flow。](../../media/ba5da6f6-e357-43c6-9e8f-4bfdde97c176.png)
 
 ## <a name="monitoring-and-troubleshooting"></a>監視和疑難排解
 <a name="BKMK_Monitor"> </a>

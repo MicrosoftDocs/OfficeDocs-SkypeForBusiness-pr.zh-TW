@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 閱讀此主題以瞭解如何使用 Microsoft Operations Management Suite (OMS) 來監視您的雲端連接器版本2.1 和更新版本。
-ms.openlocfilehash: 43ebfe689e113daa063a2ef2ed0d9b68a9d9d66a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627725"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729022"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>使用 Operations Management Suite (OMS) 監控 Cloud Connector
 
@@ -55,7 +55,7 @@ ms.locfileid: "58627725"
 
 您必須將雲端連接器內部部署環境設定為使用 OMS。 若要這麼做，您將需要 oms 工作區識別碼和金鑰，您可以使用 oms 入口網站來尋找，如下所示： \> \> Windows 伺服器的設定：
 
-![雲端連接器 OMS 的螢幕擷取畫面](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
+![雲端連接器 OMS 的螢幕擷取畫面。](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
 如何設定 Cloud Connector 以使用 OMS 取決於您的案例：
 
@@ -246,7 +246,7 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 - LS： MediationServer 呼出通話 (_Total) 作用中 \- 媒體旁路通話
 
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>也請參閱
 
 如需使用 OMS 的詳細資訊，請參閱下列各項：
 

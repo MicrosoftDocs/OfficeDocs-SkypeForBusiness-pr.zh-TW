@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: 商務用 Skype Server 的參考拓撲，包括要針對大型、中型及小型組織進行的圖表和決策。
-ms.openlocfilehash: 76866e21c4abcd0defafb8dcdb4b758da2f376cf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f6598415627ca48181a6346007704536163ea94
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616449"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729752"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>商務用 Skype Server 的參考拓撲
 
@@ -37,7 +37,7 @@ ms.locfileid: "58616449"
 
 **小型組織的參考拓撲**
 
-![部署三個伺服器圖表的參考拓撲](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
+![部署三個伺服器圖表的參考拓撲。](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
 
 - **部署的 Standard Edition 伺服器成對** 此組織在其中央網站有4000使用者。 他們已部署兩部 Standard Edition 伺服器及成對搭配，以啟用高可用性和嚴重損壞修復。 每個伺服器的住宅2000使用者，但在兩部伺服器之間會同步處理所有使用者的相關資訊。 如果有一項關機，系統管理員可以將其他伺服器的使用者容錯移轉到其他伺服器，並將使用者中斷降至最低。 如需商務用 Skype Server 中高可用性和嚴重損壞修復功能的詳細資訊，請參閱[在商務用 Skype Server 中規劃高可用性和嚴重損壞修復](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
 
@@ -63,7 +63,7 @@ ms.locfileid: "58616449"
 
 **中型組織的參考拓撲**
 
-![單一資料中心圖表的參考拓撲](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology2.jpg)
+![單一資料中心圖表的參考拓撲。](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology2.jpg)
 
 - **新增更多前端伺服器來容納更多使用者。** 此圖中的實際拓撲有三部前端伺服器，可為20000使用者提供支援。 如果您有單一的中央網站和更多使用者，您只需要將多部前端伺服器新增至集區即可。 每個集區的使用者數目上限為80000，含十二部前端伺服器。
 
@@ -101,19 +101,19 @@ ms.locfileid: "58616449"
 
 **具有多個資料中心之大型組織的參考拓撲概述**
 
-![多個資料中心的參考拓撲](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-1-new.jpg)
+![多個資料中心的參考拓撲。](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-1-new.jpg)
 
 **大型組織的參考拓撲：中央網站 A 的詳細視圖**
 
-![拓撲3-2](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-2.jpg)
+![拓撲3-2。](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-2.jpg)
 
 **大型組織的參考拓撲：中央網站 B 的詳細視圖**
 
-![拓撲3-3](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-3.jpg)
+![拓撲3-3。](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-3.jpg)
 
 **大型組織的參考拓撲：中央網站 C 的詳細視圖**
 
-![拓撲3-4](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
+![拓撲3-4。](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology3-4.jpg)
 
 - **前端集區配對以啟用嚴重損壞修復。** 網站 A 和網站 B 的前端集區彼此配對，以提供嚴重損壞修復支援。 如果某個網站上的集區失敗，系統管理員可以從該網站將使用者容錯移轉至另一個網站的配對前端集區，並為使用者最低的服務中斷。 這兩個前端集區共有六部伺服器，也足以用於兩個集區中的所有40000使用者，以防容錯移轉。 如需詳細資訊，請參閱[商務用 Skype Server 中的計畫高可用性和嚴重損壞修復](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
 

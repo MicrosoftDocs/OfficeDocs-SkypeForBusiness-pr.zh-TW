@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: 企業語音中商務用 Skype Server 和兩部 PSTN 閘道和 IP-PBX 都支援直接 SIP 連線。
-ms.openlocfilehash: 40c8f5df636fcb6219af3d428de41c206bae906c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a3a2354074819f40780896897a8e9a2790a9421
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596517"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726262"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>商務用 Skype Server 中的直接 SIP 連線
 
@@ -56,7 +56,7 @@ ms.locfileid: "58596517"
 
 **漸進式部署選項**
 
-![部門遷移選項圖表](../../media/Fig28_Departmental_migration_option.jpg)
+![部門遷移選項圖表。](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
 > 如果您要將商務用 Skype Server 部署連接至認可的 Direct SIP 夥伴，轉送伺服器和 PBX 之間不需要有公用交換電話網路 (PSTN) 閘道。 如需認證直接 SIP 夥伴的清單，請參閱  [Microsoft 整合通訊開啟互通性計畫](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
@@ -97,7 +97,7 @@ ms.locfileid: "58596517"
 
 **僅限 VoIP 部署選項**
 
-![Greenfidle 部署選項](../../media/Fig29_Greenfield_deployment_option.jpg)
+![Greenfidle 部署選項。](../../media/Fig29_Greenfield_deployment_option.jpg)
 
 > [!NOTE]
 > 在此圖中所示的媒體路徑已啟用媒體旁路 (建議的設定) 。 如果您選用停用媒體旁路，媒體路徑會透過轉送伺服器進行路由傳送。

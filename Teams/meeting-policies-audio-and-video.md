@@ -19,14 +19,14 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 瞭解如何在音訊和視Teams中管理會議策略設定。
-ms.openlocfilehash: 2fcfb2525abf935cc8d26e7fe330fa4edff48f90
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4f8de802fd2ddf90555a34ac0b8d66d2d7021f79
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578357"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726562"
 ---
-# <a name="meeting-policy-settings-for-audio--video"></a>音訊和視&的會議&設定
+# <a name="meeting-policy-settings-for-audio--video"></a>音訊和視&設定
 
 <a name="bkaudioandvideo"> </a>
 <a name="ndi"> </a>
@@ -54,7 +54,7 @@ ms.locfileid: "58578357"
 
 組織外部人員 (例如，同盟和匿名使用者) 無法開始錄製。 來賓使用者無法開始或停止錄製。
 
-![顯示錄製選項的螢幕擷取畫面](media/meeting-policies-recording.png)
+![顯示錄製選項的螢幕擷取畫面。](media/meeting-policies-recording.png)
 
 讓我們看看下列範例。
 
@@ -116,7 +116,7 @@ ms.locfileid: "58578357"
 
 | Teams 桌面和 Web 用戶端 |Teams 行動用戶端  |
 |:-------:|:-------:|
-|![螢幕擷取畫面顯示在桌面上加入會議與音訊/視訊設定](media/meeting-policies-audio-video-settings.png)    |![螢幕擷取畫面顯示在行動裝置上加入會議與音訊/視訊設定](media/meeting-policies-mobile-join.png)          |
+|![螢幕擷取畫面顯示桌面使用音訊/視像設定加入會議。](media/meeting-policies-audio-video-settings.png)    |![螢幕擷取畫面顯示在行動裝置上加入會議與音訊/視訊設定](media/meeting-policies-mobile-join.png)          |
 
 讓我們看看下列範例。
 
@@ -161,7 +161,7 @@ ms.locfileid: "58578357"
 
 #### <a name="teams-mobile-clients"></a>Teams 行動用戶端
 
-對於行動Teams上的使用者，在會議期間共用相片和影片的能力也取決於允許 **IP 視** 像或 **IP 視像模式** 設定。 根據設定的優先原則為何，分享視訊和相片的功能均無法使用。 這不會影響螢幕畫面分享，這是您使用個別的 [螢幕畫面分享模式[]](meeting-policies-content-sharing.md#screen-sharing-mode) 設定進行的設定。 此外，您可以設定 [Teams 行動性原則](/powershell/module/skype/new-csteamsmobilitypolicy)，以防止行動裝置使用者透過行動數據連線使用 IP 視訊，這表示他們必須使用 WiFi 連線。
+對於行動Teams上的使用者，在會議期間共用相片和影片的能力，也取決於允許 **IP 視** 像或 **IP 視像模式** 設定。 根據設定的優先原則為何，分享視訊和相片的功能均無法使用。 這不會影響螢幕畫面分享，這是您使用個別的 [螢幕畫面分享模式[]](meeting-policies-content-sharing.md#screen-sharing-mode) 設定進行的設定。 此外，您可以設定 [Teams 行動性原則](/powershell/module/skype/new-csteamsmobilitypolicy)，以防止行動裝置使用者透過行動數據連線使用 IP 視訊，這表示他們必須使用 WiFi 連線。
 
 ### <a name="media-bit-rate-kbs"></a>媒體位元速率 (KB)
 
@@ -186,7 +186,7 @@ ms.locfileid: "58578357"
 |**NoFilters**     |使用者無法自訂其視訊背景。|
 |**BlurOnly**     |使用者可以選擇模糊其視音訊背景。 |
 |**BlurandDefaultBackgrounds**     |使用者可以選擇模糊其視訊背景，或從預設的影像集中選擇，以用作其背景。 |
-|**AllFilters**     |您可以使用選項來模糊其視音訊背景、選擇預設的影像集，或上傳自訂影像做為背景。 |
+|**AllFilters**     |Use 可以選擇模糊其視像背景、選擇預設的影像集，或上傳自訂影像做為背景。 |
 
 > [!NOTE]
 > Teams 不會篩選由使用者上傳的影像。 使用 **AllFilters** 設定時，您應該有內部組織原則，以防止使用者上傳冒犯性或不適當的影像，或組織無權用於 Teams 會議背景的影像。
@@ -199,13 +199,13 @@ ms.locfileid: "58578357"
 
 2. 選取 **會議策略**  >  **自訂會議影像**。
 
-   ![會議政策選取專案，畫面上會以強調的自訂會議影像按鈕](media/custom-background-image-button.png)
+   ![會議政策選取專案會以強調的自訂會議影像按鈕顯示。](media/custom-background-image-button.png)
 
 3. 從 **組織** 背景 **影像選取 On**。
 
 4. 選取 **+ 新增影像**。
 
-5. 在管理背景面板中，選取新增 **影像**。
+5. 在管理背景面板中，選取 新增 **影像**。
 
 6. 確保影像符合以下需求：
   

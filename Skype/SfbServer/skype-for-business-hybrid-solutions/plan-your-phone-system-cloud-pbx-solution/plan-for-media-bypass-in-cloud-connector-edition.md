@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: 閱讀此主題以查看使用雲端連接器 Edition 版本2.0 和更新版本執行媒體旁路的規劃考慮。 如需部署媒體旁路的詳細資訊，請參閱在雲端連接器 Edition 中部署媒體旁路。
-ms.openlocfilehash: 659b735502b6efaabd9167a4b0d820828232f5dd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 182defd3d1fb7acf1fb2ba6fcc4e15e88e24a82c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626405"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729742"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>規劃 Cloud Connector Edition 中的媒體旁路
  
@@ -41,7 +41,7 @@ ms.locfileid: "58626405"
   
 **沒有媒體旁路的媒體和信號路徑**
 
-![沒有媒體旁路的信號](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
+![沒有媒體旁路的信號。](../../media/5cd7e3bf-2565-4bd9-ad5a-f03e13c01060.png)
   
 從 PSTN 傳入的呼叫會以相反方向使用相同的信號路徑。 針對內部使用者，媒體仍會流過商務用 Skype 用戶端與雲端連接器轉送伺服器之間，然後是 SBC 或閘道。
   
@@ -49,7 +49,7 @@ ms.locfileid: "58626405"
   
 **媒體和使用媒體旁路的信號路徑**
 
-![使用媒體旁路的信號](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
+![使用媒體旁路的信號。](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
   
 ## <a name="multi-site-scenario-and-media-bypass"></a>多網站案例和媒體旁路
 
@@ -57,7 +57,7 @@ ms.locfileid: "58626405"
   
 **多網站應用程式**
 
-![Cloud Connector Multisite 範例](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
+![Cloud Connector Multisite 範例。](../../media/ace8dc3c-1082-46a2-b8b4-98cbf678620e.png)
   
 1. SIP 流量會從蘇黎世中的使用者流向 Microsoft 365 或 Office 365。
     
@@ -71,7 +71,7 @@ ms.locfileid: "58626405"
   
 如果用戶端在公司網路外部進行撥出電話，則媒體流量會透過 Cloud Connector 的 Edge 和轉送伺服器，以及蘇黎世和阿姆斯特丹間的 WAN 連結來流動，如下列圖表所示：
   
-![Cloud Connector Multisite 範例2](../../media/ef95839c-4552-440e-9698-7615707a1b50.png)
+![Cloud Connector Multisite 範例2。](../../media/ef95839c-4552-440e-9698-7615707a1b50.png)
   
 ## <a name="supported-clients-for-media-bypass"></a>支援的媒體旁路用戶端
 
@@ -104,7 +104,7 @@ Always 旁路要求使用者與 PSTN 網站中的 PSTN 閘道之間有沒有障�
   
 例如，在下圖中，歐洲使用者必須順利連線至三個會話邊界控制器 (SBCs) 在阿姆斯特丹中，我們的西部使用者必須順利連接至西雅圖的兩個 SBCs。 已正確連接表示它們是位於與 SBCs 或閘道相同的網站，或透過具有適當頻寬的 WAN 連結。
   
-![雲端連接器容量](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
+![雲端連接器容量。](../../media/efb2269b-d44f-474e-aea8-c5158e729cfe.png)
   
 > [!NOTE]
 > 如果來自蘇黎世的使用者已前往西雅圖 office，而您想要使用內部網路來傳遞 (歐洲的旅行使用者與閘道之間的媒體流量，而不是透過網際網路) ，則必須確定西雅圖 office 和阿姆斯特丹 office 所在的歐洲 SBCs 或閘道已正確連接。 
@@ -113,6 +113,6 @@ Always 旁路要求使用者與 PSTN 網站中的 PSTN 閘道之間有沒有障�
 
 啟用媒體旁路時，用戶端與 SBC 或閘道之間的媒體流量會使用 g.711 編解碼器。 
   
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>也請參閱
 
 [在雲端連接器 Edition 中部署媒體旁路](deploy-media-bypass-in-cloud-connector.md)

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: 瞭解如何設定與自動Microsoft 365 商務語音一起使用的資源帳戶。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afc45df5ecf6336d2ddea86581fde67e85a6ab24
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c0cfe87861086105587e58aba178821f4db778c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630237"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726162"
 ---
 # <a name="step-4-set-up-a-business-voice-resource-account"></a>步驟 4：設定商務語音資源帳戶
 
@@ -32,7 +32,7 @@ ms.locfileid: "58630237"
 
 本文中的各節將說明如何設定資源帳戶，然後為其指派電話號碼。 稍後，您將將資源帳戶與自動助理建立關聯。
 
-下列影片將說明如何在系統管理中心完成Teams步驟。
+以下影片將說明如何在系統管理中心完成Teams步驟。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4OFYG]
 
@@ -58,24 +58,24 @@ ms.locfileid: "58630237"
 
 ## <a name="create-a-resource-account"></a>建立資源帳戶
 
-收到您的虛擬使用者授權 *後Microsoft 365 電話系統虛擬使用者* 授權，您可以建立資源帳戶。
+收到您的虛擬使用者Microsoft 365 電話系統 *之後*，您可以建立資源帳戶。
 
-![新增資源帳戶使用者介面的螢幕擷取畫面](../media/resource-account-add.png)
+![新增資源帳戶使用者介面的螢幕擷取畫面。](../media/resource-account-add.png)
 
-1. 開啟 Microsoft Teams系統管理中心，然後使用全域系統管理員使用者登入 (這通常是您用來註冊帳戶Microsoft 365) 。
+1. 開啟 Microsoft Teams系統管理中心，然後使用全域系統管理員使用者登入 (通常是您用來註冊帳戶Microsoft 365) 。
 2. 在左側流覽窗格中，前往 <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**全組織** 設定  >  **資源帳戶**</a>。
 3. 選取 [新增 **]**。
 4. 在新增 **資源帳戶窗格中** ，填寫 **顯示名稱**，然後填入 **使用者名稱**。 選擇描述性顯示名稱 ，例如「主行自動助理」，以描述資源帳戶的用途。
 5. 在 **資源帳戶類型中**，選取自動 **助理**。
 6. 選取 [儲存 **]**。
 
-![資源帳戶清單的螢幕擷取畫面](../media/resource-accounts-auto-attendant-only-page.png)
+![資源帳戶清單的螢幕擷取畫面。](../media/resource-accounts-auto-attendant-only-page.png)
 
 ## <a name="assign-a-license"></a>指派授權
 
 建立資源帳戶之後，您需要指派一個Microsoft 365 電話系統 *- 虛擬* 使用者 *授權或電話系統* 授權。
 
-![指派授權使用者介面的螢幕擷取畫面Microsoft 365 系統管理中心](../media/resource-account-assign-virtual-user-license.png)
+![指派授權使用者介面的螢幕擷取畫面Microsoft 365 系統管理中心。](../media/resource-account-assign-virtual-user-license.png)
 
 1. 開啟 Microsoft 365 系統管理中心，然後使用全域系統管理員的使用者登入 (通常是您用來註冊帳戶Microsoft 365) 。
 1. 在左側流覽窗格中，前往使用者 <a href="https://admin.microsoft.com/Adminportal/Home#/users" target="_blank">****  >  **活動使用者**</a>。
@@ -83,14 +83,14 @@ ms.locfileid: "58630237"
 1. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
 1. 選取 **儲存變更，** 然後 **選取** 關閉 。
 
-## <a name="assign-a-service-number"></a>指派服務號碼
+## <a name="assign-a-service-number"></a>指派服務編號
 
-![指派服務編號使用者介面的螢幕擷取畫面](../media/resource-account-assign-phone-number.png)
+![指派服務編號使用者介面的螢幕擷取畫面。](../media/resource-account-assign-phone-number.png)
 
-1. 開啟 Microsoft Teams系統管理中心，然後使用全域系統管理員使用者登入 (這通常是您用來註冊帳戶Microsoft 365) 。
+1. 開啟 Microsoft Teams系統管理中心，然後使用全域系統管理員使用者登入 (通常是您用來註冊帳戶Microsoft 365) 。
 1. 在左側流覽窗格中，前往 <a href="https://admin.teams.microsoft.com/company-wide-settings/resource-accounts" target="_blank">**全組織** 設定  >  **資源帳戶**</a>。
 1. 選取您剛剛建立的資源帳戶，然後按一下 [ **指派/取消指派**> 。
-1. 在 電話 **數位類型** 下拉式下拉清單中，**選擇** Online 。
+1. 在 電話 **數位類型** 下拉式下拉清單中 **，選擇** Online 。
 1. 在 **[已指派的電話號碼** > 方塊中，搜尋您用的電話號碼，然後按一下 [ **新增**。 請務必包含國家/地區 (，例如 **+1** 250 555 0012) 
 1. 按一下 [儲存]。
 

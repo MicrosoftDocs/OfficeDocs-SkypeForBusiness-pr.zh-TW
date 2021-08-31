@@ -17,16 +17,16 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何使用敏感度標籤來保護團隊Microsoft Teams。
-ms.openlocfilehash: d00ebe1861596ddb41e852c7e8fe6360df024ab7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e4f6f3b790bb84b4d628760548b6ab1115f6326d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621955"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729592"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>自訂的敏感度Microsoft Teams
 
-[敏感度標籤](/microsoft-365/compliance/sensitivity-labels)Teams管理員保護並規範在小組內共同合作期間所建立之機密組織內容的存取權。 在 Microsoft 合規性中心中設定敏感度標籤及其關聯原則[](/microsoft-365/compliance/go-to-the-securitycompliance-center)之後，這些標籤可以適用于貴組織的小組。
+[敏感度標籤](/microsoft-365/compliance/sensitivity-labels)Teams管理員保護並規範在團隊內共同合作期間所建立之機密組織內容的存取權。 在 Microsoft 合規性中心中設定敏感度標籤及其關聯原則[](/microsoft-365/compliance/go-to-the-securitycompliance-center)之後，這些標籤可以適用于貴組織的小組。
 
 對於使用教育用 SKUS 的客戶，課程團隊目前不支援敏感度Teams標籤。 若要深入瞭解授權，請參閱Microsoft Teams[描述](/office365/servicedescriptions/teams-service-description)。
 
@@ -34,9 +34,9 @@ ms.locfileid: "58621955"
 
 敏感度標籤與分類標籤不同，也稱為 Azure AD 群組分類。 分類標籤是一種文字字串，可以與Microsoft 365群組相關聯，但沒有任何實際的相關政策。 您可以使用分類標籤做為中繼資料，然後必須使用其他方法 ，例如內部工具和腳本，以強制執行策略。
 
-使用敏感度標籤的好處，是透過 Microsoft 365 群組平臺、合規性中心及服務的組合，自動強制執行其Teams策略。 敏感度標籤提供強大的基礎結構支援，可保護組織的機密資料，並確保符合您的內部政策或法規。
+使用敏感度標籤的好處，是透過 Microsoft 365 Groups 平臺、合規性中心及服務的組合，自動強制執行其Teams。 敏感度標籤提供強大的基礎結構支援，可保護組織的機密資料，並確保符合您的內部政策或法規。
 
-如果您目前使用分類標籤，請參閱下列檔以進一步瞭解如何將它們遷移到敏感度標籤的資訊和指示： [傳統 Azure AD 群組分類](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)。
+如果您目前使用分類標籤，請參閱下列檔以進一步瞭解如何將它們遷移到敏感度標籤： [傳統 Azure AD 群組分類](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)。
 
 ## <a name="example-scenarios-for-sensitivity-labels"></a>敏感度標籤的範例案例
 
@@ -47,28 +47,28 @@ ms.locfileid: "58621955"
 
 ### <a name="set-the-privacy-level-for-teams"></a>設定團隊的隱私權等級
 
-您可以建立和設定敏感度標籤，在建立小組時，允許使用者建立具有特定隱私權的小組， (公開或) 設定。
+您可以建立及設定敏感度標籤，在建立小組時，允許使用者建立具有特定隱私權的小組， (公開或) 設定。
 
 例如，您建立併發布名為「機密」的敏感度標籤，其標籤隱私權選項已配置為 **「私人」。** 因此，使用此標籤建立的任何團隊都必須是私人團隊。 
 
 當使用者建立新團隊並選取機密標籤時，使用者唯一可用的隱私權選項是 **私人**。 使用者無法選取其他隱私權選項 ，例如公用和全組織：
 
-![機密敏感度標籤的螢幕擷取畫面](media/sensitivity-labels-confidential-example.png)
+![機密敏感度標籤的螢幕擷取畫面。](media/sensitivity-labels-confidential-example.png)
 
 同樣地，您建立併發布名為「一般」的敏感度標籤，其標籤隱私權選項已配置為 **公用**。 當使用者建立新團隊時，他們只有在選取此標籤時，才能建立公用或全組織團隊：
 
-![一般敏感度標籤的螢幕擷取畫面](media/sensitivity-labels-general-example.png)
+![一般敏感度標籤的螢幕擷取畫面。](media/sensitivity-labels-general-example.png)
 
-建立團隊時，敏感度標籤會顯示在團隊中頻道的右上角。 
+建立團隊時，敏感度標籤會顯示在團隊頻道的右上角。 
 
 > [!NOTE]
 > 如果您使用的是階層式父子標籤 ，例如「機密\財務」，則只有父標籤會顯示在頻道標題中。
 
-![小組頻道中敏感度標籤的螢幕擷取畫面](media/sensitivity-labels-channel.png)
+![小組頻道中敏感度標籤的螢幕擷取畫面。](media/sensitivity-labels-channel.png)
 
 團隊擁有者可以隨時變更小組的敏感度標籤和隱私權設定，方法為進入團隊，然後按一下 [ **編輯團隊**。
 
-![小組屬性中敏感度標籤的螢幕擷取畫面](media/sensitivity-labels-edit-team.png)
+![小組屬性中敏感度標籤的螢幕擷取畫面。](media/sensitivity-labels-edit-team.png)
 
 ### <a name="control-guest-access-to-teams"></a>控制團隊的來賓存取權
 
@@ -82,24 +82,24 @@ ms.locfileid: "58621955"
 
 ## <a name="limitations"></a>限制
 
-使用敏感度標籤Teams，請注意下列限制：
+在您將敏感度標籤用於Teams，請注意下列限制：
 
-- **子標記不會顯示父標籤名稱**
+- **子標籤不會顯示父標籤名稱**
     
-    Teams子標記，但不顯示父標籤的名稱。 例如 **，機密** \\ **所有員工會顯示** 為 **所有員工**。
+    Teams子標籤，但不顯示父標籤的名稱。 例如 **，機密** \\ **所有員工會顯示** 為 **所有員工**。
 
-- **敏感度標籤不受 api、PowerShell Cmdlet Teams Graph及範本支援**
+- **API、PowerShell Cmdlet 和範本不支援敏感度標籤Teams Graph Api、PowerShell Cmdlet 和範本**
     
-    使用者無法透過 Teams Graph API、PowerShell Cmdlet 和 Teams建立團隊時，指定敏感度Teams標籤。 不過，新式Graph API 和 PowerShell Cmdlet 允許使用標籤建立群組。 因此，使用者可以先使用群組或 PowerShell Cmdlet 使用標籤Graph群組，然後將這些群組轉換成 Teams。
+    使用者無法透過 Teams Graph API、PowerShell Cmdlet 和 Teams建立團隊時指定敏感度標籤Teams範本。 不過，新式Graph API 和 PowerShell Cmdlet 允許建立具有標籤的群組。 因此，使用者可以先使用群組或 api 或 PowerShell Cmdlet 建立具有標籤Graph群組，然後將這些群組轉換成 Teams。
 
 - **支援私人頻道**
     
-    在團隊中建立的私人頻道會繼承已用於團隊的敏感度標籤。 同一個標籤會自動SharePoint專用頻道的網站集合上。
+    在團隊中建立的私人頻道會繼承已用於團隊的敏感度標籤。 同一個標籤會自動SharePoint專用頻道的網站集合。
     
-    不過，如果使用者直接變更私人頻道SharePoint網站的敏感度標籤，該標籤變更不會反映在 Teams中。 在此情境中，使用者會繼續在私人頻道標題中看到在小組上所應用的原始敏感度標籤。
+    不過，如果使用者直接變更私人頻道SharePoint網站的敏感度標籤，該標籤變更不會反映在 Teams中。 在此情境中，使用者會繼續在私人頻道標題中看到在小組上所使用的原始敏感度標籤。
 
 ## <a name="how-to-create-and-configure-sensitivity-labels-for-teams"></a>如何建立及設定敏感度標籤Teams
 
-使用檔指示Microsoft 365建立及設定敏感度標籤Teams： 
+使用檔中的指示Microsoft 365建立及設定敏感度標籤Teams： 
 
 - [使用敏感度標籤來保護網站Microsoft Teams、Microsoft 365群組SharePoint內容](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)。

@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04c96412e93029858c5444d662e7db3e65224a21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e6bd14eabadc96084973d3e998291a577dbbfc7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578347"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729812"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -158,7 +158,7 @@ SDS 會透過兩個步驟建立團隊。 第一個步驟會在 Azure Active Dire
 
 此混合式方法可讓您使用 SDS 為每個班級建立群組 (建議)，或由您自己使用 [Graph API](/graph/api/educationroot-post-classes) 為他們建立群組。 班級群組備妥之後，授課者就能使用 [建議的班級] 圖示，將其群組轉換成團隊。
 
-:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="顯示建議的班級圖示的螢幕擷取畫面":::
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="螢幕擷取畫面，顯示建議的班級圖示。":::
 
 ##### <a name="benefits"></a>優點
 

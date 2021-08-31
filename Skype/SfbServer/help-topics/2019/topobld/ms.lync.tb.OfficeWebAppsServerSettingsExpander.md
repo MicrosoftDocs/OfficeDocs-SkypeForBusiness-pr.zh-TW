@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以編輯已設定 Office Web Apps Server 的屬性。 您可以編輯下列內容：
-ms.openlocfilehash: 907892ba2644bd85a559c1afbce1e01c9de9742f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 708687ddc191e11d4563445bd2146e928cda1fad
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585187"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726282"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>編輯 Office Web Apps Server 設定
 
@@ -32,8 +32,8 @@ ms.locfileid: "58585187"
 
 如果此伺服器部署在周邊網路或內部防火牆外的其他網路區域 (此防火牆會將周邊網路、不受信任的網路及網際網路與您的內部部署分隔開來)，請選取 [Office Web Apps Server 部署在外部網路上] 核取方塊。
 
-![OfficeWeb 應用程式設定展開器](../../../media/OfficeWebApps_Settings_Expander.jpg)
+![OfficeWeb 應用程式設定展開器。](../../../media/OfficeWebApps_Settings_Expander.jpg)
 
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>也請參閱
 
 [會議的元件和拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)

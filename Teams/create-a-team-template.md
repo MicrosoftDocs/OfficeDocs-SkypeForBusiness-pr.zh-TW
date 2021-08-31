@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8733dde289cfc595d8db7b56652cb28dcc646b8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3c388ab19d74370612531e3ac998ff3e928e0d3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589767"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726892"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>在範本中建立自訂Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "58589767"
 
 3. 選取 [新增 **]**。
 
-    ![[小組範本> 對話方塊的影像，其中已強調 [新增> 。](media/team-templates-new.png)
+    ![[小組範本> 對話方塊的影像，其中已加上 [新增> 的顯示畫面。](media/team-templates-new.png)
 
 4. 在小組 **範本區** 段，選取 **建立全新的範本**。
 
@@ -62,7 +62,7 @@ ms.locfileid: "58589767"
     5. 搜尋要新加入頻道的應用程式名稱。
     6. 完成 **時選取 Apply。**
 
-    ![小組範本頻道、定位停駐點及應用程式畫面的影像。](media/template-channels-tabs-apps.png)
+    ![小組範本頻道、定位停駐點和應用程式畫面的影像。](media/template-channels-tabs-apps.png)
 
 8. 選取 **完成時** 提交。
 
@@ -86,11 +86,11 @@ ms.locfileid: "58589767"
 
 3. 在新增 **此範本的應用程式區** 段，新增網站應用程式。
 
-    ![新增此範本選項的應用程式](media/add-an-app-template.png)
+    ![新增此範本選項的應用程式。](media/add-an-app-template.png)
 
 4. 選取編輯圖示，然後輸入您所選擇的 URL。
 
-    ![新增應用程式 URL](media/add-url-app-template.png)
+    ![新增應用程式 URL。](media/add-url-app-template.png)
 
 5. 選取 **儲存** 您的 Tab 應用程式編輯，然後 **選取應用程式以** 儲存您的變更。
 
@@ -104,9 +104,9 @@ ms.locfileid: "58589767"
 
 **問題**：在瀏覽器中Teams時，某些網站不支援在 Teams 中呈現。
 
-![瀏覽器錯誤訊息](media/browser-error-message.png)
+![瀏覽器錯誤訊息。](media/browser-error-message.png)
 
-解決方案：如果您無法檢視網站選項卡的內容，系統將會重新導向您以另一個網頁開啟該選項卡，或改為在桌面應用程式中開啟 Teams 來檢視您的網站 Tab 應用程式。
+解決方案：如果您無法檢視網站選項卡的內容，系統將會重新導向您以另一個網頁開啟該選項卡，或改為在桌面應用程式中開啟 Teams 來檢視您的網站製表應用程式。
 
 ## <a name="related-topics"></a>相關主題
 

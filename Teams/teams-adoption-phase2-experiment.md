@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 在本文中，您將瞭解如何進行實驗階段以Microsoft Teams採用。
+description: 在本文中，您將瞭解如何執行採用Microsoft Teams階段。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a169208d5e59044e4ce8de63098428f9d4e8f085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9cd56875378d7e38660fd1dfd7a4228e7ce5a7e8
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636647"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726742"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams採用階段 2 - 實驗
 
@@ -41,4 +41,4 @@ ms.locfileid: "58636647"
 5. [設定您的意見回饋通道](teams-adoption-onboard-early-adopters.md#gather-feedback)。
 6. [讓支援人員上臺](teams-adoption-onboard-support.md)。
 
-![代表下一個步驟的 ](media/teams-adoption-next-icon.png) 圖示下一步 [：建立您的冠軍計畫](teams-adoption-create-champions-program.md)
+![代表下一個步驟的圖示。](media/teams-adoption-next-icon.png) 下一 [步：建立您的冠軍計畫](teams-adoption-create-champions-program.md)

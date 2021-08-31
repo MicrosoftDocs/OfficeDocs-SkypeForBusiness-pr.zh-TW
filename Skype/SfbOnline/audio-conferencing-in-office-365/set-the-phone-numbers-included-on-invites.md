@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '取得建立預設電話號碼的步驟，讓來電者加入線上商務用 Skype會議。 '
-ms.openlocfilehash: dc2bbff037a5e35b1fdb2c9b23c03246eee4a25b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7136a8108a5ecd9e55d2def1e4cedd1076b270ff
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594857"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729052"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>在 商務用 Skype Online 中設定邀請商務用 Skype號碼
 
@@ -35,10 +35,10 @@ ms.locfileid: "58594857"
 > [!Note]
 > 有關會議邀請電話號碼Microsoft Teams，請參閱在 Microsoft Teams 中設定邀請[Microsoft Teams。](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)
 
-Microsoft 365或 Office 365中的音訊會議可讓貴組織的使用者商務用 Skype會議，然後允許使用者使用電話撥入這些會議。 在 Microsoft 365 和 Office 365 中，您可以選擇使用由核准音訊會議提供者 (ACP) 託管的 Microsoft 音訊會議橋接器或協力廠商音訊會議橋接器。
+Microsoft 365或 Office 365中的音訊會議可讓貴組織的使用者商務用 Skype會議，然後允許使用者使用電話撥入這些會議。 在 Microsoft 365 和 Office 365 中，您可以選擇使用由核准的音訊會議提供者 (ACP) 託管的 Microsoft 音訊會議橋接器或協力廠商音訊會議橋接器。
   
 > [!NOTE]
-> 沒有任何資源會包含音訊會議的所有撥入號碼清單。 如果您想要查看您的地區或國家/地區是否有可用的撥 **入** 電話號碼，請使用 商務用 Skype 系統管理中心  >  **Voice**  >  **電話 號碼**，然後按一下 [新增服務 **號碼**> 。 使用國家/地區、省 **/** 市 **/** 區及縣/市的清單來篩選您的搜尋。>此外，如果您要尋找免付費服務號碼，請從州 **/** 地區清單中選取免付費。 
+> 沒有任何資源會包含音訊會議的所有撥入號碼清單。 如果您想要查看您的地區或國家/地區是否有可用的撥入電話號碼，請使用 **商務用 Skype** 系統管理中心  >  **Voice**  >  **電話 號碼**，然後按一下 [新增服務 **號碼**> 。 使用國家/地區、省 **/** 市 **/** 區及縣/市的清單來篩選您的搜尋。>此外，如果您要尋找免付費服務號碼，請從州 **/** 地區清單中選取免付費。
   
 會議橋接器會提供您組織的一組撥入電話號碼。 所有會議都可以用來加入會議召集人所建立的會議，但您可以選取哪些會議邀請會包含在會議邀請中。
   
@@ -56,7 +56,7 @@ Microsoft 365或 Office 365中的音訊會議可讓貴組織的使用者商務�
     
 3. 選擇 **使用者**。
     
-    ![顯示選取系統管理商務用 Skype中的使用者](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
+    ![顯示選取系統管理中心商務用 Skype使用者。](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
 4. 選擇您想要編輯的使用者：
     
@@ -77,7 +77,7 @@ Microsoft 365或 Office 365中的音訊會議可讓貴組織的使用者商務�
    - **Microsoft 是提供者**：使用 **預設** 付費號碼和預設免付費 **號碼** 清單來選取使用者的預設號碼。
     
      > [!NOTE]
-     > 至少必須指派一個免付費號碼給會議橋接器，才能將其設定為使用者的預設免付費號碼。 若要取得免付費號碼，請參閱取得適用于 商務用 Skype 的服務[商務用 Skype。](/microsoftteams/getting-service-phone-numbers) 
+     > 至少必須指派一個免付費號碼給會議橋接器，才能將其設定為使用者的預設免付費號碼。 若要取得免付費號碼，請參閱取得適用于[商務用 Skype 的服務商務用 Skype。](/microsoftteams/getting-service-phone-numbers) 
   
    - **協力廠商是** 提供者：使用付費號碼和免付費 **號碼欄位** 來輸入使用者的數位。
 
@@ -116,7 +116,7 @@ Microsoft 365或 Office 365中的音訊會議可讓貴組織的使用者商務�
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber +18005551234 -ToNumber +18005551239 NumberType TollFree -BridgeId <Bridge Id> -RescheduleMeetings 
   ```
 
-  - 若要設定所有使用者的預設免付費號碼，而不需要使用 +18005551234，請執行：
+  - 若要為沒有一個號碼的所有使用者設定預設的免付費18005551234，請執行：
     
   ```PowerShell
   Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber $null -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>  
@@ -134,19 +134,19 @@ Microsoft 365或 Office 365中的音訊會議可讓貴組織的使用者商務�
   Set-CsOnlineDialInConferencingUserDefaultNumber -Country US -ToNumber +18005551234 -NumberType TollFree -BridgeId <Bridge Id>
   ```
   ## <a name="want-to-learn-more-about-windows-powershell"></a>想要深入瞭解Windows PowerShell？
-- 當要Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 有了Windows PowerShell，您可以使用單一管理Office 365商務用 Skype管理線上，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+- 當要Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 有了Windows PowerShell，您可以使用單一系統管理Office 365管理商務用 Skype，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
   - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [為什麼您需要使用 powerShell Microsoft 365或Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell相比于僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
+- Windows PowerShell比只使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
     
   - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用 Windows PowerShell執行線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
 ## <a name="related-topics"></a>相關主題
 

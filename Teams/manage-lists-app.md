@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fa5d9c3f1c74133b96eda81d7c56c3f353265b99
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b8d593d4f3238bb588159290655f1aa241beffc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615339"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727002"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [清單] 應用程式
 
@@ -37,11 +37,11 @@ Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者
 
 在 Teams 中，使用者將 [清單] 視為頻道中的索引標籤加以存取。 按一下 **+** 以開啟索引標籤庫，並將新 [清單] 應用程式索引標籤實例新增至頻道，以開始使用。
 
-![索引標籤庫中的 [清單] 應用程式](media/lists-tab.png)
+![在 Tab 庫中列出應用程式。](media/lists-tab.png)
 
 使用者可以建立新清單，或從同一小組內或他們有存取權的不同 SharePoint 網站釘選現有清單。 可根據現有清單的結構，或從 Excel 活頁簿匯入資料，以從頭、從內建範本來建立新清單。 [清單] 應用程式可在 Teams 的桌上型電腦、Web 和行動用戶端使用。
 
-![如何在 [清單] 應用程式中建立清單](media/lists-create-list.png)
+![如何在清單應用程式中建立清單。](media/lists-create-list.png)
 
 ## <a name="templates"></a>範本
 

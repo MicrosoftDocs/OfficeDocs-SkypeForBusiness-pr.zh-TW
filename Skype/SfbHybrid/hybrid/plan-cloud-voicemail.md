@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: 本文說明實施 Microsoft 雲端語音信箱服務的優點、規劃考慮和需求。 如需設定雲端語音信箱的詳細資訊，請參閱設定雲端語音信箱。
-ms.openlocfilehash: df9675c7ebe36f73190240dc612ce83dd0de2263
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe3cc4cc9a7c009b2291875c6ffb4b9e8df4dbac
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594867"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729292"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>規劃內部部署使用者的雲端語音信箱服務
 
@@ -55,7 +55,7 @@ ms.locfileid: "58594867"
 
 下圖顯示混合式部署中雲端語音信箱：
 
-![SfB 雲端語音信箱](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
+![SfB 雲端語音信箱。](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
 
 未回復的呼叫的處理方式如下：  
 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 摘要：瞭解在規劃升級至商務用 Skype Server 2015 時所應考慮的事項。 從 Microsoft 評估中心下載商務用 Skype Server 2015 的免費試用版，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: a3a36bb7c1acbf5334c108429076aa8126860041
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e503fc555901a78fb2a6cc0fa5b7bc7f112f3eb2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630407"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729242"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>規劃升級為商務用 Skype Server 2015
  
@@ -103,7 +103,7 @@ In-Place 升級的情形有兩種：
   
 下圖顯示此程式的概述。
   
-![Lync 2013 To Offline Skype 使用者](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
+![Lync 2013 以離線 Skype 使用者。](../media/e5511897-77bc-46aa-96be-85b126d7da79.png)
   
 > [!NOTE]
 > 如果您有配對的集區，請不要在升級之前 unpair 這些集區。 

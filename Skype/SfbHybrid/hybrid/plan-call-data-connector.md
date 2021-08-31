@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: 使用商務用 Skype 線上遙測工具來監視混合式案例中的內部部署實施，以瞭解如何使用線上遙測工具。
-ms.openlocfilehash: 9d71a362de36d865ba6595626d971206bdbb974a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a85599ee0db012d3c3fbb55a7d7c12f8516ee962
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608640"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726482"
 ---
 # <a name="plan-call-data-connector"></a>規劃通話資料連接器
 
@@ -54,7 +54,7 @@ ms.locfileid: "58608640"
 
 當然，您可能想要在內部部署中保留一些通話品質資料。 例如，如果您要使用協力廠商的解決方案與自訂的報表和工作流程，便會發生這種情況。  呼叫資料連線器可讓您設定將資料傳送到線上服務，同時在內部部署伺服器上保留資料的複本，如下圖所示：
 
-![SfB 雲端語音信箱](../../sfbserver2019/media/call-data-connector-plan-2.png)
+![SfB 雲端語音信箱。](../../sfbserver2019/media/call-data-connector-plan-2.png)
 
 ## <a name="requirements"></a>需求
 

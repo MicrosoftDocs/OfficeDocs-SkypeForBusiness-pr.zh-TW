@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: 瞭解如何在共用內容Teams管理會議策略設定。
-ms.openlocfilehash: 8a44d7cf9d28f67d14d60388e729db0c060a625b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1fe77b2a8be552e2c156fda8d0b1bd89fa83d4c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592227"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726502"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>會議原則設定 - 內容共用
 
@@ -66,11 +66,11 @@ ms.locfileid: "58592227"
 
 如果已為使用者開啟此設定，則共用工作階段上方列中會顯示 [授與控制權 **]** 選項。
 
-![顯示 [授與控制權] 選項的螢幕擷取畫面](media/meeting-policies-give-control.png)
+![顯示給予控制權選項的螢幕擷取畫面。](media/meeting-policies-give-control.png)
 
 如果已為使用者的關閉該設定，則 [授與控制權 **]** 選項無法使用。
 
-![顯示 [授與控制權] 選項無法使用的螢幕擷取畫面](media/meeting-policies-give-control-not-available.png)
+![螢幕擷取畫面顯示沒有提供控制權選項。](media/meeting-policies-give-control-not-available.png)
 
 讓我們看看下列範例。
 
@@ -88,7 +88,7 @@ Daniela 可以將共用桌面或視窗的控制權授予由巴可克組織之會
 
 ## <a name="allow-an-external-participant-to-give-or-request-control"></a>允許外部參與者授與或要求控制權
 
-此設定是每個使用者的策略。 無論會議召集人已設定什麼專案，組織是否為使用者設定此策略，都無法控制外部參與者可以執行什麼操作。 此參數會根據分享者在其組織的會議原則中所設定的內容，是否可以授與外部參與者控制或要求控制分享者的螢幕畫面。 Teams 會議的外部參與者可依如下分類：  
+此設定是每個使用者的策略。 無論組織是否已為使用者設定此策略，無論會議召集人已設定什麼內容，外部參與者都可以執行哪些操作。 此參數會根據分享者在其組織的會議原則中所設定的內容，是否可以授與外部參與者控制或要求控制分享者的螢幕畫面。 Teams 會議的外部參與者可依如下分類：  
 
 - 匿名使用者
 - 來賓使用者  

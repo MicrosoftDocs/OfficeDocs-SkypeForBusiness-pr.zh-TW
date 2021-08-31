@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 124908362a762a9940f87713dd4e699459443e85
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 041ae19360e5dfc1fbf3ff1158c7f7cfe6cdaaae
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630207"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729222"
 ---
 # <a name="get-started-with-microsoft-teams"></a>開始使用 Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "58630207"
 - [會議和研討會](deploy-meetings-microsoft-teams-landing-page.md)
 - [雲端語音](cloud-voice-landing-page.md)
 
-![圖示說明 Teams 部署路徑](media/get-started-with-teams-quick-start-pathways.png)
+![說明 Teams 部署路徑的圖表。](media/get-started-with-teams-quick-start-pathways.png)
 
 如果您有中型或大型組織， [使用適用於 Microsoft Teams 的建議程式](use-advisor-teams-roll-out.md) 以協助您規劃在整個組織中推出這些工作負載。 建議程式會使用 Teams 本身以建立計畫工作，並將其指派給擁有者、共用文件，以及啟用部署小組之間的討論。
 

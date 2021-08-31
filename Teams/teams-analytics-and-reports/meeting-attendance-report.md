@@ -17,12 +17,12 @@ description: 從 Teams 內部取得會議出席報告。 此報告補充了 Team
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 233a76bf8c3ae2d3cd71aeddd487f606dcdbaea6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93aad3cdee1c3819ee0d524a8538608dbeba1b0c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592183"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726372"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Microsoft Teams 會議出席報告
 

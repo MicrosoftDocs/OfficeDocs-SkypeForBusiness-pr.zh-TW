@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: 瞭解如何為 Google workspace Microsoft Teams會議附加元件。
+description: 瞭解如何設定Microsoft Teams工作區的會議附加元件。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6f4fe6a61dd4891f457656e0659243c75c372142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb5f7574bd5e07598c412cd7d17f02625de2f095
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598537"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729912"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>設定Microsoft Teams工作區的會議附加元件
 
@@ -41,15 +41,15 @@ Microsoft Teams使用者存取應用程式之前，Teams管理員必須啟用 Go
 
 2. 選取 **Enterprise 應用程式**  >  **所有應用程式**。
 
-3. 搜尋 Microsoft Teams工作區 **的會議附加元件**。
+3. 搜尋 **Microsoft Teams工作區的會議附加元件**。
 
-   ![顯示所有應用程式的 Azure 入口網站](media/aad-add-google-workspace.png)
+   ![顯示所有應用程式的 Azure 入口網站。](media/aad-add-google-workspace.png)
 
 4. 選取 **是**。
 
-   ![顯示 Google 工作區屬性的 Azure 入口網站](media/google-workspace-properties.png)
+   ![顯示 Google 工作區屬性的 Azure 入口網站。](media/google-workspace-properties.png)
 
-5.  (選擇性) 若要停用附加元件， **請選取步驟** 4 中的否，而不是 **是** 。
+5.  (選擇性) 若要停用附加元件，請在步驟 4 中選取 **No，而不是****是**。
 
 ## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>停用Microsoft Teams PowerShell 的 Google 工作區會議附加元件
 
