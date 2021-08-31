@@ -20,21 +20,21 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 瞭解如何指派會議 ID 給使用者Microsoft Teams會議識別碼參數應該是什麼。
-ms.openlocfilehash: 0faf91af7cf52dd620015e9ccc772a97f6964cb1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 瞭解如何將會議 ID 指派給使用者Microsoft Teams以及會議 ID 參數應該是什麼。
+ms.openlocfilehash: 62cbb281af4db60db15676b109b2573c03eb7552
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634027"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733252"
 ---
-# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>在會議室中，查看並重設指派給使用者Microsoft Teams
+# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>在系統內查看並重設指派給使用者的會議Microsoft Teams
 
-在 Microsoft 365 或 Office 365 中設定音訊會議並使用 Microsoft 做為音訊會議提供者時，系統會自動將會議 ID 指派給 Microsoft Teams 使用者。 會議排程時，指派的會議 ID 會以會議邀請中送出。 使用者排程的每個會議都會獲得唯一的會議 ID。 
+在 Microsoft 365 或 Office 365 中設定音訊會議並使用 Microsoft 做為音訊會議提供者時，系統會自動將會議 ID 指派給Microsoft Teams使用者。 會議排程時，指派的會議 ID 會以會議邀請中送出。 使用者排程的每個會議都會獲得一個唯一的會議 ID。 
   
-雖然會議 ID 會自動建立並指派給使用者，但有時候使用者可能不想使用此 ID，而您想要將其設定為特定號碼，或是使用者不記得或遺失其會議 ID。 您可以使用系統管理Microsoft Teams或Windows PowerShell來查看、變更和重設其會議 ID。
+雖然會議 ID 會自動建立並指派給使用者，但有時候使用者可能不想使用此 ID，而您想要將其設定為特定號碼，或是使用者不記得或遺失其會議 ID。 您可以使用系統管理Microsoft Teams或Windows PowerShell來查看、變更及重設其會議 ID。
   
-電子郵件會以會議 ID 和預設的音訊會議電話號碼發送給使用者，或者如果您重設會議 ID，將會送出包含會議 ID 但不包含 PIN 的不同電子郵件。 請參閱在 Microsoft Teams 中重設使用者的會議[ID，](reset-a-conference-id-for-a-user-in-teams.md)以瞭解如何重設會議召集人的 PIN。 
+電子郵件會以會議 ID 和預設的音訊會議電話號碼發送給使用者，或者如果您重設會議 ID，將會送出包含會議 ID 但不包含 PIN 的不同電子郵件。 請參閱[在 Microsoft Teams](reset-a-conference-id-for-a-user-in-teams.md)中重設使用者的會議 ID，以瞭解如何重設會議召集人的 PIN。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -43,7 +43,7 @@ ms.locfileid: "58634027"
 
 ### <a name="to-view-the-conference-id"></a>若要查看會議 ID
 
-![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中， **按一下 [使用者**」，然後從可用使用者清單中選取使用者。
 
@@ -56,14 +56,14 @@ ms.locfileid: "58634027"
   
 **使用Windows PowerShell**
 
-詳細資訊[Microsoft Teams PowerShell 參考](/powershell/module/teams/?view=teams-ps)。
+請參閱[powerShell Microsoft Teams，](/powershell/module/teams/?view=teams-ps)以瞭解更多資訊。
     
   
 ### <a name="to-reset-the-conference-id"></a>若要重設會議 ID
 
 例如，如果使用者忘記會議 ID，您可以重設會議 ID。
   
-![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中， **按一下 [使用者**」，然後從可用使用者清單中選取使用者。
 
@@ -75,7 +75,7 @@ ms.locfileid: "58634027"
   
 **使用Windows PowerShell**
 
-詳細資訊[Microsoft Teams PowerShell 參考](/powershell/module/teams/?view=teams-ps)。
+請參閱[powerShell Microsoft Teams，](/powershell/module/teams/?view=teams-ps)以瞭解更多資訊。
 
 
 ## <a name="what-else-should-you-know"></a>您還需要知道什麼？

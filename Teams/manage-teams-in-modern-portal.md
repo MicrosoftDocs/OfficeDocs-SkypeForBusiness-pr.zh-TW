@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 577060d46bea2196c17a42d82827bdcad7062285
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 89f31f586fc7b3839dd5820089528f91dfad7e93
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632037"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733833"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理團隊
 
@@ -45,7 +45,7 @@ ms.locfileid: "58632037"
 
 Teams 的管理工具位於 Microsoft Teams 系統管理中心的 **Teams** 節點下方。 (在系統管理中心，選取 **Teams** > **管理 Teams**。) 每個團隊都會受到一個 Microsoft 365 群組支援，而此節點可提供您的組織中由 Microsoft Teams 啟用之群組的檢視。
 
-![Teams 概觀格線的螢幕擷取畫面](media/manage-teams-in-modern-portal-grid.png)  
+![Teams 概觀格線的螢幕擷取畫面。](media/manage-teams-in-modern-portal-grid.png)  
 
 格線顯示出下列內容：
 
@@ -94,7 +94,7 @@ Teams 的管理工具位於 Microsoft Teams 系統管理中心的 **Teams** 節�
 - 新增或移除頻道 (請注意，您無法移除 [一般] 頻道)。
 - 變更團隊和群組設定。
  
-![範例小組設定檔的螢幕擷取畫面](media/manage-teams-in-modern-portal-team-profile-page.png)
+![範例團隊設定檔的螢幕擷取畫面。](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## <a name="making-changes-to-teams"></a>對團隊進行變更
 

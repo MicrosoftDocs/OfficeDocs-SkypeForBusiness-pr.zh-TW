@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d79e1431d6743f60092acbfab82154037a4c5720
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5c027da20c6c305fd5924cd6483c5cbd63b8ddd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624935"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733538"
 ---
 # <a name="deploy-my-service"></a>部署我的服務
 
@@ -46,7 +46,7 @@ ms.locfileid: "58624935"
 -   減少支援需求，提高使用者滿意度。
 
 > [!NOTE]
-> 本文和相關遊戲手冊並非用來描述服務啟用或提供撥號音至特定網站所需的每一個技術組組步驟。 相反地，他們會專注于建議使用者輕鬆上電的活動和工作，讓他們能透過快速且順暢的轉換，以高採用率Teams開始耗用 Teams 語音工作負載，同時將支援需求最小化。 有關如何最佳設定 Teams 語音環境的技術指南，請參閱設定[Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)語音工作負載、在[Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)中設定直接路由[、Teams](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)核心功能、Teams 的網路，以及啟用 Microsoft 365 或 Office 365 的上線檢查[清單](onboarding-checklist-enable-office-365.md)。 [](prepare-network.md)
+> 本文和相關遊戲手冊並非用來描述啟用服務或提供撥號音至特定網站所需的每一個技術組組步驟。 相反地，他們會專注于建議使用者輕鬆上電的活動和工作，讓他們能透過快速且順暢Teams快速且順暢地轉換語音工作負載，並採用較高的採用率，同時將支援需求最小化。 若要瞭解如何最佳設定 Teams 語音環境的技術指南，請參閱設定[Teams](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)語音工作負載、在[Teams](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)中設定直接路由、Teams 核心功能、Teams 的網路，以及啟用 Microsoft 365[](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)或[Office 365](onboarding-checklist-enable-office-365.md)的上線檢查[](prepare-network.md)清單。
 
 <!--ENDOFSECTION-->
 
@@ -69,7 +69,7 @@ ms.locfileid: "58624935"
 
 Voice[和 Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) (網站啟用) 是一Microsoft Excel。 這五個焦點區域都是活頁簿中的個別工作表，且每個部署任務和活動會分組到其中一個工作表上。
 
-![網站啟用手冊的螢幕擷取畫面](media/deploy-my-service-image1.png "遊戲手冊的螢幕擷取畫面")
+![網站啟用手冊的螢幕擷取畫面。](media/deploy-my-service-image1.png "遊戲手冊的螢幕擷取畫面")
 
 > [!NOTE]
 > 您將針對您的部署範圍中的每個網站，建立另一個Teams實例。
@@ -78,9 +78,9 @@ Voice[和 Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness
 
 ## <a name="how-to-use-the-playbook"></a>如何使用遊戲手冊
 
-無論位置大小與複雜度如何，啟用每個網站都需要您及早規劃工作與活動，並在實際服務推出之前、期間及之後以最佳循序執行。 我們建議您在規劃並執行自己的語音語音Microsoft Teams步驟。
+無論位置大小與複雜度如何，啟用每個網站都需要您及早規劃工作與活動，並在實際服務推出之前、期間及之後以最佳循序執行。 我們建議您在規劃並執行自己的語音體驗時，遵循Microsoft Teams步驟。
 
-1. 下載適用于 Voice 的 Voice ([Playbook) 工具Microsoft Teams](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)手冊。
+1. 下載適用于 Voice 的 Voice ([工具) 工具Microsoft Teams](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)手冊。
 
 2. 為每個網站建立另一份遊戲手冊。
 
@@ -88,28 +88,28 @@ Voice[和 Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness
 
 4. 輸入 **網站名稱、網站代碼** 和計畫啟動 **日期**，如下圖所示。 這是一個至關重要的步驟，因為它會調整手冊中每個活動的建議期限。
 
-   ![包含網站名稱、網站代碼和計畫啟動日期的範例](media/deploy-my-service-image2.png "包含紐約網站名稱、網站代碼 NY01，以及 20-Mar-18 的計畫啟動日期的範例")
+   ![包含網站名稱、網站代碼和計畫啟動日期的範例。](media/deploy-my-service-image2.png "包含紐約網站名稱、網站代碼 NY01，以及 20-Mar-18 的計畫啟動日期的範例")
 
 5. 在流覽時程表時，檢查每個活動、採取必要動作並更新狀態。 狀態以圖形表示，如下所述：
   
-   - ![綠色核取方塊的圖例是或不適用 (綠色 ](media/deploy-my-service-image3.png) **) ：** 活動已完成，或不適用於此網站，且不需要執行其他動作。</li>
-   - ![黃色驚嘆號的圖例：活動尚未完成 (黃色 ](media/deploy-my-service-image4.png) <strong>) ：</strong> 活動尚未完成，且必須在其排程上更新為是或否。</li>
-   - ![紅色 X 的圖例，表示 (否) ：活動因問題無法完成，必須帶至專案 ](media/deploy-my-service-image5.png) <strong></strong>狀態會議。</li></ul>
+   - ![綠色核取方塊的圖例。](media/deploy-my-service-image3.png) **是，或不適用 (綠色) ：** 活動已經完成，或不適用於此網站，因此不需要執行其他動作。</li>
+   - ![黃色驚嘆號的圖例。](media/deploy-my-service-image4.png) <strong>活動尚未完成 (黃色) ：</strong> 活動尚未完成，且必須在排程上更新為是或否。</li>
+   - ![紅色 X 表示否的圖例。](media/deploy-my-service-image5.png) <strong>沒有 (紅色) ：</strong> 由於問題，無法完成活動，因此必須帶至專案狀態會議。</li></ul>
 
 6. 狀態會在每個區段內匯總，且節標題的格式會以其中一個狀態指示器的格式。 **每週狀態** 也會自動更新。
 
-![劇本中每週狀態匯總的螢幕擷取畫面](media/deploy-my-service-image6.png "劇本中每週狀態匯總的螢幕擷取畫面")
+![劇本中每週狀態匯總的螢幕擷取畫面。](media/deploy-my-service-image6.png "劇本中每週狀態匯總的螢幕擷取畫面")
 
 > [!TIP]
 > 針對您擁有的所有位置重複上述步驟。
 
 > [!IMPORTANT]
 > 某些步驟可能不適用於所有位置和網站。 如果特定活動與網站不相關，您必須選取 **不適用** 此活動。 **請勿刪除** 遊戲手冊中任何列;如果您這麼做，狀態匯總公式將無法工作。<br/><br/>
-請注意可能需要超過您計畫時間的活動，例如數位移植和採購活動。 這些活動可能會對網站部署時程表造成負面影響。 請務必每週檢查並更新活動清單和相關時程表，並出席指導性委員會會議，以確保專案關係[](./envision-steering-committee-complete-guide.md)人瞭解每個網站的狀態，以及任何可能的部署排程偏差。
+請注意可能需要超過您計畫時間的活動，例如數位移植和採購活動。 這些活動可能會對網站部署時程表造成負面影響。 請務必每週檢查和更新活動清單和相關時程表，並出席指導性委員會會議，以確保專案關係人[](./envision-steering-committee-complete-guide.md)瞭解每個網站的狀態，以及任何可能與部署排程相背離的情況。
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>決定是否需要網站啟用 Playbook 才能進行部署。</li><li>決定誰將負責針對您部署的每一個網站Microsoft Teams網站啟用 Playbook 進行自訂。</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>後續步驟</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">下載網站啟用手冊</a>。</li><li>自訂第一個網站的網站啟用手冊。</li><li>如果需要，請針對其他網站重複上述步驟。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>決策點</td><td><ul><li>決定是否需要網站啟用 Playbook 才能進行部署。</li><li>決定誰將負責針對您部署的每一個網站Microsoft Teams網站啟用手冊。</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>後續步驟</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">下載網站啟用工具手冊</a>。</li><li>自訂第一個網站的網站啟用手冊。</li><li>如果需要，請針對其他網站重複上述步驟。</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

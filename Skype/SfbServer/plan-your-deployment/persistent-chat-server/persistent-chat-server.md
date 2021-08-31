@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 2015 中規劃 Persistent Chat Server。
-ms.openlocfilehash: e4bce3145c3f2e3974c2f57d75afbe297ce8d304
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cb584fc1b618794d9956c2d91c004b8ecc008aa0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623555"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731092"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中規劃 Persistent Chat Server
  
@@ -45,7 +45,7 @@ Persistent Chat Server 可以協助改善組織內的通訊：
 
 下圖顯示 Persistent Chat Server 架構的高層級視圖。 
   
-![Persistent Chat Server 高層架構](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
+![Persistent Chat Server High-Level 架構。](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
   
 Persistent chat 包含一種前端伺服器角色，可提供持久聊天服務，以及後端 SQL 資料庫元件。 前端和後端元件都包含在專用的持久聊天集區中。 主控 Persistent Chat Server 的每一部電腦都必須能夠存取現有的商務用 Skype Server 2015 拓撲。 在此圖中，有一個 Persistent Chat Server 集區 () ，該取決於商務用 Skype Server 集區 A 來傳送郵件給它。
   
@@ -57,7 +57,7 @@ Persistent chat 包含一種前端伺服器角色，可提供持久聊天服務�
 
 下圖顯示 Persistent Chat Server 前端服務，以及這些服務如何與後端資料庫元件通訊。 前端元件包括持久聊天服務和規範服務。 後端元件包括 Persistent Chat store 和 Persistent Chat 規範存放區。
   
-![Persistent Chat Server 高層服務](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
+![Persistent Chat Server High-Level 服務。](../../media/bcdbadbe-e868-4a46-8a73-36562648fdf7.png)
   
 ### <a name="chat-service"></a>聊天室服務
 

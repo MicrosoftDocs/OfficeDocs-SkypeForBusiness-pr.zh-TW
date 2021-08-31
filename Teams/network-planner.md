@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 audience: admin
-description: 系統管理員可以瞭解如何使用網路規劃工具來判斷網路Microsoft Teams。
+description: 系統管理員可以瞭解如何使用網路規劃器來判斷網路Microsoft Teams。
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
@@ -22,22 +22,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55fc461a2dd005d454a2b964bb3774c5ac17dbc1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08884e7a8cf4aaebf7f2063cec0e80fcf5619ced
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594607"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731312"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>使用網路規劃工具Microsoft Teams
 
-網路規劃工具是可在系統管理中心Teams工具。 您可以到規劃網路規劃工具  >  **找到它**。 只要幾個步驟，網路規劃工具就可以説明您判斷及組織連接Microsoft Teams使用者的網路需求。 提供網路詳細資料和 Teams 使用狀況時，網路規劃中心會計算在組織的實體位置間部署 Teams 與雲端語音的網路需求。
+網路規劃工具是可在系統管理中心Teams工具。 您可以到規劃網路規劃工具  >  **找到它**。 在幾個步驟中，網路規劃工具可協助您判斷及組織連接Microsoft Teams使用者的網路需求。 提供網路詳細資料和 Teams 使用狀況時，網路規劃中心會計算在組織的實體位置間部署 Teams 與雲端語音的網路需求。
 
-![網路規劃工具的螢幕擷取畫面](media/network-planner.png)
+![網路規劃工具的螢幕擷取畫面。](media/network-planner.png)
 
 網路規劃工具可讓您：
 
-- 使用網站和 Microsoft 建議的人 (辦公室工作人員、遠端工作人員，以及會議室系統Teams建立) 。
+- 使用網站和 Microsoft 建議的人 (辦公室工作人員、遠端工作人員，以及會議室Teams建立) 。
 
     > [!NOTE]
     > 建議的人物角色是根據最佳使用Teams和一般使用模式的資料所開發。 不過，除了三個建議角色之外，您最多可以建立三個自訂角色。
@@ -52,7 +52,7 @@ ms.locfileid: "58594607"
 
 1. 請前往系統管理中心Microsoft Teams規劃工具。
 
-2. 在 [**角色」 選項卡** 上，按一下 **[ + 自訂角色。** 
+2. 在 [**角色名稱>** 選項卡上，按一下 **[ + 自訂角色。** 
 
 3. 在新增 **自訂角色窗格中** ，新增新角色的名稱和描述。
 
@@ -66,9 +66,9 @@ ms.locfileid: "58594607"
 
 1. 請前往系統管理中心Microsoft Teams規劃工具。
 
-2. 在 [ **網路計畫」** 選項卡上，按一下 **[新增網路方案**> 。
+2. 在 [ **網路計畫」** 的 [網路計畫> 選項卡上，按一下 **[新增網路方案**> 。
 
-3. 輸入您的網路方案名稱和描述。 網路方案會顯示在可用方案清單中。
+3. 輸入網路方案的名稱和描述。 網路方案會顯示在可用方案清單中。
 
 4. 按一下計畫名稱以選取新計畫。
 
@@ -80,12 +80,12 @@ ms.locfileid: "58594607"
 
     1. 為您的網站新增名稱和描述。
 
-    2. 在 **網路設定** 下，將該網站的網路使用者數目 () 。
+    2. 在 **網路設定** 下，將該網站的網路使用者數目 (所需的) 。
 
     3. 新增網路詳細資料：啟用 WAN、WAN 容量、網際網路出口 (本地或遠端 **) ，** 以及 PSTN 出口 (無、本地或遠端) 。
 
       > [!NOTE]
-      > 您必須新增 WAN 和網際網路容量號碼，以在產生報表時查看特定的頻寬建議。
+      > 您必須新增 WAN 和網際網路容量號碼，以在產生報表時查看特定頻寬建議。
 
     4. 按一下 [儲存]。
 
@@ -95,7 +95,7 @@ ms.locfileid: "58594607"
 
 1. 在 [ **報表>** 選項卡上，按一下 **[開始報表>**。
 
-2. 針對您建立的每個網站，將使用者人數分散到可用的角色。 如果您使用 Microsoft 建議的人物角色，系統會自動 (80% 的 office 員工和 20% 的遠端) 。
+2. 針對您建立的每個網站，將使用者人數分散到可用的角色。 如果您使用 Microsoft 建議的連絡人，系統會自動將數位 (80% 的 office 員工和 20% 的遠端) 。
 
 3. 完成發佈之後，按一下 [ **產生報表**> 。
 
@@ -107,4 +107,4 @@ ms.locfileid: "58594607"
 
 ## <a name="example-scenario"></a>範例案例
 
-若要瞭解如何使用網路規劃工具設定網路計畫，並使用這些步驟產生報表的範例，請下載網路規劃工具How-To PowerPoint ([組](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)) 。
+若要瞭解如何使用網路規劃工具設定網路計畫，並使用這些步驟產生報表的範例，請下載網路規劃工具[How-To PowerPoint () 。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true)

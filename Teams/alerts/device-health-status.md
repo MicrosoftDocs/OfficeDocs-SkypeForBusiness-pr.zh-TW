@@ -16,12 +16,12 @@ description: 瞭解如何在系統管理中心Teams監控和警示功能Microsof
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 844dddfc04e1dc29311a237c3fc4f7ac41a1ce7f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b44b564da4e772fb3e385b03d61be6874baf11c5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636758"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58735350"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams裝置健康情況監控
 
@@ -33,7 +33,7 @@ ms.locfileid: "58636758"
 
 1. 在系統管理中心的左側導Microsoft Teams，選取通知 **&規則**  >  ****。
 
-   ![系統管理中心的規則區段](../media/select-rules.png)
+   ![系統管理中心的規則區段。](../media/select-rules.png)
 
 2. 在規則 **頁面中** ，選取 **裝置狀態規則**。
 
@@ -46,12 +46,12 @@ ms.locfileid: "58636758"
 
 |領域 |描述  |
 |--------|-------------|
-|**規則類型**   |裝置狀態規則可協助您進行有效的管理。 Teams裝置，並歸類為裝置管理類型。 未來，將會有更多的裝置管理類型規則可供監控其他相關功能 (例如：不健康裝置和裝置登錄狀態) 。|
+|**規則類型**   |裝置狀態規則可協助您進行有效的管理。 Teams裝置，並歸類為裝置管理類型。 未來將會有更多的裝置管理類型規則可供監控其他相關功能 (例如：不健康裝置和裝置登錄狀態) 。|
 |**條件**   |您可以監控裝置離線時的健康情況。 [在系統](../devices/device-management.md)管理中心深入瞭解Teams管理。 |
 |**範圍**   |您可以提及規則評估頻率，指定您想要監控裝置健康情況的頻率。 根據預設，如果團隊裝置離線，將會即時監控裝置。 |
 |**裝置使用者**   |您可以根據已登錄的使用者來選取哪些裝置，以指定哪些裝置需要主動離線監控。 請參閱選取 [裝置以進行配置](#select-devices-for-configuration) ，以進一步瞭解詳細資料。 |
-|**動作**  > **頻道通知**   |在動作區段，您可以指定要取得通知的團隊頻道。 目前，系統將會建立一個名為 Admin **Alerts** 和通知的預設小組，以及名為 **MonitoringAlerts** 的頻道，其中會傳送通知。 <BR/> <BR/> 您的租使用者Teams全域系統管理員和管理員會自動新加入這個預設小組。|
-|**動作**  > **Web上手**   |您也可以使用外部網頁連結或選擇性 (功能) 。 指定要送出 JSON 通知負載之網頁搖動區段的外部公用網頁連結 URL。 <BR/> <BR/>  通知有效負載可透過網頁連結，與貴組織的其他系統整合，以建立自訂工作流程。<br/><br/> 
+|**動作**  > **頻道通知**   |在動作區段，您可以指定您想要取得通知的團隊頻道。 目前，系統將會建立一個名為 Admin **Alerts** 和通知的預設小組，以及名為 **MonitoringAlerts** 的頻道，其中會傳送通知。 <BR/> <BR/> 您的租使用者Teams全域系統管理員和管理員會自動新加入這個預設團隊。|
+|**動作**  > **Web上手**   |您也可以使用外部網頁連結或 (功能) 。 指定要送出 JSON 通知負載之網頁搖動區段的外部公用網頁連結 URL。 <BR/> <BR/>  通知有效負載可透過網頁連結，與貴組織的其他系統整合，以建立自訂工作流程。<br/><br/> 
 
 **網頁搖動的 JSON 負載架構：** <BR/><BR/>
 <pre lang="json">{ <br/>    "type": "object",<br>    "properties": { <br/>      "AlertTitle": { "type": "string "} ,<br/>      "DeviceLoggedInUserId": { "type": "string" } ,<br/>      "DeviceId": { "type": "string" } , <br/>      "MetricValues": { <br/>            "type": "object",<br/>            "properties": { <br/>                 "DeviceHealthStatus": { "type": "string"} <br/>            } <br/>       } ,<br/>       "RuleName": { "type": "string"} ,<br/>       "RuleDescription": { "type": "string"} ,<br/>       "RuleFrequency": { "type": "string"} ,<br/>       "RuleType": { "type": "string"} ,<br/>       "TenantId": { "type": "string"} , <br/>       "RuleCondition": { "type": "string"} , <br/>       "AlertRaisedAt": { "type": "string"} <br/>    } <br/>} </pre> <br/> 

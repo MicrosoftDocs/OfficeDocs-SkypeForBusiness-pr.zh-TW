@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 閱讀此主題以瞭解如何在 Microsoft 365 或 Office 365 中布建 Skype 會議室系統帳戶。
-ms.openlocfilehash: d1b116308f091c535beceb5a82994ee155507548
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e3976d5763128354c934f477003532bf6bbcd3f6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585947"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731102"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>在 Microsoft 365 和 Office 365 中布建 Skype 會議室系統帳戶
  
@@ -57,7 +57,7 @@ ms.locfileid: "58585947"
 
 下圖概要說明 Skype 的會議室系統帳戶布建流程。
   
-![Skype會議室系統布建步驟](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype會議室系統布建步驟。](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>識別新的會議室
 

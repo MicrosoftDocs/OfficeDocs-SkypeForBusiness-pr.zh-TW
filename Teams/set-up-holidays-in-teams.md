@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中設定假日，以與自動乘務員一起使用。
-ms.openlocfilehash: 3f914243984c9fef70b1217cce504ffd983263e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b72eec8778577454c55d9b3e2e999900fcb70143
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623225"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733202"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>在 Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "58623225"
 
 4. 選取 **新增日期**。
 
-5. 在 **開始時間** 下，選取日曆圖示，然後選擇要開始假日的日期。
+5. 在 **開始時間下**，選取日曆圖示，然後選擇要開始假日的日期。
 
 6. 使用下拉式清單選取假日的開始時間。
 
@@ -60,7 +60,7 @@ ms.locfileid: "58623225"
 
 10. 選取 [儲存 **]**。
 
-    ![假日使用者介面的螢幕擷取畫面，其中日期設定為三年](media/holidays-set-up.png)
+    ![假日使用者介面的螢幕擷取畫面，其中日期設定為三年。](media/holidays-set-up.png)
 
 ## <a name="change-a-holiday"></a>變更假日
 
@@ -70,7 +70,7 @@ ms.locfileid: "58623225"
 
 2. 從清單中選取假日。
 
-3. 在 **開始時間** 下，選取日曆圖示，然後選擇要開始假日的日期。
+3. 在 **開始時間下**，選取日曆圖示，然後選擇要開始假日的日期。
 
 4. 使用下拉式清單選取假日的開始時間。
 

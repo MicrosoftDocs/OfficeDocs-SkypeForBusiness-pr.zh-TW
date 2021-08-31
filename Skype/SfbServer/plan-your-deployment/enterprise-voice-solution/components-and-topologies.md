@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: 如果您有 MPLS 網路、SIP 主幹或協力廠商 PSTN 閘道或 PBX，請規劃通話許可控制 (CAC) 。 適用于商務用 Skype Server 企業語音。
-ms.openlocfilehash: 42fa61908ff13b6323215f2760b113e5d104553d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6964d57af7f4b1218e502e1b7b8ffc6afee3f5d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631637"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730902"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>商務用 Skype 中通話許可控制的元件和拓撲
 
@@ -35,13 +35,13 @@ ms.locfileid: "58631637"
 
 **MPLS 網路範例**
 
-![具有 MPLS 的 CAC](../../media/CAC_MPLS_1.jpg)
+![具有 MPLS 的 CAC。](../../media/CAC_MPLS_1.jpg)
 
 若要在 MPLS 網路中部署通話許可控制 (CAC)，您可建立網路地區代表 MPLS 雲端，以及建立網路網站代表每個 MPLS 衛星網站。下圖說明如何設定網路地區和網路網站以代表上圖中的 MPLS 網路範例。整體頻寬限制和頻寬工作階段限制都是以從每個網路網站連至代表 MPLS 雲端之網路地區的 WAN 連結為基礎。
 
 **MPLS 網路的網路地區和網路網站**
 
-![具有 MPLS 圖表 (CAC) 的通話許可控制](../../media/CAC_MPLS_2.jpg)
+![與 MPLS 圖表 (CAC) 的通話許可控制。](../../media/CAC_MPLS_2.jpg)
 
 ## <a name="call-admission-control-on-a-sip-trunk"></a>SIP 主幹上的通話許可控制
 
@@ -51,7 +51,7 @@ ms.locfileid: "58631637"
 
 **SIP 主幹上的 CAC 組態**
 
-![通話許可控制 SIP 主幹圖表](../../media/CAC_SIP_trunk_1.jpg)
+![通話許可控制 SIP 主幹圖表。](../../media/CAC_SIP_trunk_1.jpg)
 
 若要在 SIP 主幹上設定 CAC，您必須在 CAC 部署期間執行下列工作：
 
@@ -74,7 +74,7 @@ CAC 可以從轉送伺服器閘道介面到協力廠商 PBX 或 PSTN 閘道的 W
 
 **案例1：轉送伺服器和 PSTN 閘道之間的 CAC**
 
-![案例1：轉送伺服器 PSTN 閘道之間的 CAC](../../media/CAC_gateways_1.jpg)
+![案例1：轉送伺服器 PSTN 閘道之間的 CAC。](../../media/CAC_gateways_1.jpg)
 
 在此範例中，轉送伺服器和 PSTN 閘道之間會套用 CAC。 如果網路 site 1 上的商務用 Skype 用戶端使用者在網路 site 2 中透過 pstn 閘道撥打 pstn 電話，媒體會透過 WAN 連結進行流量。 因此，每個 PSTN 會話會執行兩個 CAC 檢查：
 
@@ -99,7 +99,7 @@ CAC 可以從轉送伺服器閘道介面到協力廠商 PBX 或 PSTN 閘道的 W
 
 **案例2：轉送伺服器和具有 MTP 之協力廠商 PBX 之間的 CAC**
 
-![案例2：轉送伺服器 PBX 與 MTP 之間的 CAC](../../media/CAC_gateways_2.jpg)
+![案例2：轉送伺服器 PBX 與 MTP 之間的 CAC。](../../media/CAC_gateways_2.jpg)
 
 在此範例中，轉送伺服器和 PBX/MTP 之間會套用 CAC。 如果網路 site 1 上的商務用 Skype 用戶端使用者會透過位於網路 site 2 的 PBX/MTP 來撥打 PSTN 電話，媒體會透過 WAN 連結進行。 因此，每個 PSTN 會話都會執行兩個 CAC 檢查：
 
@@ -124,7 +124,7 @@ Case 3 與前兩個案例稍有不同。 如果在協力廠商 PBX 上沒有 MTP
 
 **案例3：轉送伺服器和不具有 MTP 之協力廠商 PBX 之間的 CAC**
 
-![案例3：轉送伺服器 PBX 之間的 CAC 無 MTP](../../media/CAC_gateways_3.jpg)
+![案例3：轉送伺服器 PBX 之間的 CAC 沒有 MTP。](../../media/CAC_gateways_3.jpg)
 
 在此範例中，如果網路 Site 1 的商務用 Skype 用戶端使用者透過 PBX 呼叫使用者，則轉送伺服器只能在商務用 Skype 用戶端應用程式與轉送伺服器) 之間的 proxy 支線 (上執行 CAC 檢查。 因為在要求會話時，轉送伺服器沒有端點裝置的相關資訊，所以在建立通話之前，無法在轉送伺服器和協力廠商) 端點之間的 WAN 連結 (上執行 CAC 檢查。 在建立會話後，轉送伺服器會為主幹使用的頻寬進行會計核算。
 

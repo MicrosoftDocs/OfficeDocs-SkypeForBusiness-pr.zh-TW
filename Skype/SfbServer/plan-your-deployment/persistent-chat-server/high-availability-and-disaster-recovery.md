@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 2015 中規劃 Persistent Chat Server 的高可用性和嚴重損壞修復。
-ms.openlocfilehash: beb1bf01748d9ebb7336238d3ba2d3f1379e7b0f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a07b9e84e390f8d012308895229eb0da369107c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607970"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731432"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中規劃 Persistent Chat Server 的高可用性和嚴重損壞修復
  
@@ -84,7 +84,7 @@ Persistent Chat Server 的高可用性和嚴重損壞復原需要額外的資源
     
 **資料中心具有高頻寬/低延遲時的延伸 Persistent Chat Server 集區**
 
-![具有高頻寬/低延遲的持續性聊天延伸集區](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
+![具有高頻寬/低延遲的持續性聊天延伸集區。](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
   
 圖2顯示資料中心地理位置具有低頻寬/高延遲的延伸持久聊天伺服器集區拓撲。
   
@@ -108,6 +108,6 @@ Persistent Chat Server 的高可用性和嚴重損壞復原需要額外的資源
     
 **資料中心地理位置具有低頻寬/高延遲的延伸 Persistent Chat Server 集區**
 
-![具有低頻寬/高延遲的持續性聊天延伸集區](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
+![具有低頻寬/高延遲的持續性聊天延伸集區。](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
   
 

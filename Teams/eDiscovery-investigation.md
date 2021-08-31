@@ -13,20 +13,20 @@ ms.reviewer: anwara
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解執行電子檔探索時該做什麼，例如當您需要提交所有電子檔儲存的資訊進行訴訟時。
+description: 瞭解執行電子檔探索時該做什麼，例如當您需要提交所有電子化儲存的資訊進行訴訟時。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a895b804d78dd3fe5ff45fac40457eaed2cf9c43d80e85137ad2a570c1e2018d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 95f284211f76017ee4dca85fbbf03c8a454aaa26
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322585"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733882"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在電子郵件中對內容進行電子檔探索Microsoft Teams
 
-大型企業通常會受到高罰訴訟，要求提交所有電子 (ESI) 。 Microsoft Teams內容可在電子檔探索調查期間搜尋及使用。
+大型企業通常會遭受高罰訴訟，要求提交所有電子 (ESI) 。 Microsoft Teams內容可在電子檔探索調查期間搜尋及使用。
 
 ## <a name="overview"></a>概觀
 
@@ -73,18 +73,18 @@ ms.locfileid: "54322585"
 
 以下是參與者在會議期間進行 IM 交談的範例。
 
-![在 Teams 參與者Teams。](media/MeetingIMConversations.png)
+![會議參與者之間的Teams。](media/MeetingIMConversations.png)
 
 > [!div class="mx-imgBorder"]
 > ![eDiscovery 搜尋結果中參與者之間的交談。](media/MeetingImConversation2.png)
 
-有關執行 eDiscovery 調查的資訊，請參閱開始使用 [Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)。
+有關進行電子資料探索調查詳細資訊，請參閱開始使用 [Core eDiscovery](/microsoft-365/compliance/get-started-core-ediscovery)。
 
-Microsoft Teams電子檔探索匯出輸出中，Excel會顯示為 IM 或交談。 您可以在檔案中 `.pst` 開啟Outlook以在匯出郵件後查看這些郵件。
+Microsoft Teams電子檔探索匯出輸出中，資料會顯示為 IM 或Excel交談。 您可以在檔案中 `.pst` 開啟Outlook以在匯出郵件後查看這些郵件。
 
 檢視團隊的 .pst 檔案時，所有交談都位於 [交談記錄> 下的 [小組聊天> 資料夾中。 郵件的標題包含團隊名稱和頻道名稱。 例如，下圖顯示來自 Bob 的訊息，該訊息Project製造規格小組的 7 個標準通道。
 
-![使用者信箱中的小組聊天資料夾螢幕擷取畫面Outlook](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
+![使用者信箱中的小組聊天資料夾螢幕擷取畫面Outlook。](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
 使用者信箱中的私人聊天會儲存在交談記錄下的小組聊天資料夾中。
 
@@ -96,11 +96,11 @@ Microsoft Teams電子檔探索匯出輸出中，Excel會顯示為 IM 或交談�
 
 Teams不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋整個團隊。 若要在私人頻道中執行 eDiscovery 內容搜尋，請搜尋整個小組、與私人頻道關聯的網站集合 (以包含檔案) ，以及私人頻道成員的信箱 (以包含郵件) 。
 
-使用下列步驟來識別私人頻道中的檔案和郵件，以納入您的電子檔探索搜尋。
+請使用下列步驟來識別私人頻道中的檔案和訊息，以納入您的電子檔探索搜尋。
 
 ### <a name="include-private-channel-files-in-an-ediscovery-search"></a>在電子檔探索搜尋中納入私人頻道檔案
 
-執行這些步驟之前，請安裝[SharePoint管理命令殼，然後連線至 SharePoint Online。](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
+執行這些步驟之前，請安裝 SharePoint[管理命令殼並聯機至 SharePoint Online。](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 1. 執行下列操作，以取得小組中SharePoint私人頻道的所有網站集合清單。
 
@@ -139,7 +139,7 @@ Teams不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋整
     Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
     ```
 
-3. 在 [eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery)搜尋查詢中，包含團隊中每個私人頻道所有成員的信箱。
+3. 在 [eDiscovery](/microsoft-365/compliance/search-for-content-in-core-ediscovery)搜尋查詢中，包含團隊中每個私人頻道中所有成員的信箱。
 
 ## <a name="search-for-content-for-guest-users"></a>搜尋來賓使用者的內容
 
@@ -147,7 +147,7 @@ Teams不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋整
 
 若要搜尋來賓使用者的內容：
 
-1. 連線 Azure AD PowerShell。 有關指示，請參閱使用 PowerShell 連線 PowerShell Azure Active Directory>一[連線Microsoft 365>一節](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)。 請務必完成上一個主題中的步驟 1 和步驟 2。
+1. 連線 Azure AD PowerShell。 有關指示，請參閱使用[PowerShell](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)連線 PowerShell Azure Active Directory>一連線>Microsoft 365>一節。 請務必完成上一個主題中的步驟 1 和步驟 2。
 
 2. 成功連接到 Azure AD PowerShell 之後，請執行下列命令，為貴組織的所有來賓使用者 (UPN) 使用者主體名稱。 當您在步驟 4 建立搜尋時，您必須使用來賓使用者的 UPN。
 
@@ -160,7 +160,7 @@ Teams不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋整
 
 3. 在不同的安全Windows PowerShell，請連接到安全性與合規性& PowerShell。 有關指示，[請參閱連線安全&中心 PowerShell。](/powershell/exchange/connect-to-scc-powershell) 您可以使用多重要素驗證進行連接，也可以不使用多重要素驗證。
 
-4. 建立內容搜尋，以執行下列命令 (搜尋所有內容，例如聊天訊息) 電子郵件訊息。其中指定的來賓使用者是參與者。
+4. 建立內容搜尋，以執行下列命令 (搜尋所有內容，例如聊天訊息和電子郵件) 指定來賓使用者是參與者。
 
    ```powershell
    New-ComplianceSearch <search name> -ExchangeLocation <guest user UPN>  -AllowNotFoundExchangeLocationsEnabled $true -IncludeUserAppContent $true
@@ -196,7 +196,7 @@ Teams不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋整
 
 由應用程式在 Teams、1：1 聊天和 1xN 聊天中產生的卡片內容會儲存在信箱中，而且可以搜尋。 卡片 *是* 包含簡短內容的 UI 容器。 卡片可以有多個屬性和附件，而且可以包含可觸發卡片動作的按鈕。 詳細資訊，請參閱 [卡片](/microsoftteams/platform/task-modules-and-cards/what-are-cards)
 
-與其他Teams內容一樣，卡片內容的儲存位置會依據卡片的使用位置。 在頻道中使用的卡片Teams內容會儲存在Teams信箱中。 1：1 和 1xN 聊天的卡片內容會儲存在聊天參與者的信箱中。
+與其他Teams內容一樣，卡片內容的儲存位置會依據卡片的使用位置。 在頻道中使用的卡片Teams內容會儲存在 Teams信箱中。 1：1 和 1xN 聊天的卡片內容會儲存在聊天參與者的信箱中。
 
 若要搜尋卡片內容，您可以使用 或 `kind:microsoftteams` `itemclass:IPM.SkypeTeams.Message` 搜尋條件。 在審查搜尋結果時，Teams頻道中的 Bot 產生的卡片內容具有寄件者 **/作者** 電子郵件屬性，其中產生卡片內容的應用程式名稱在哪裡 `<appname>@teams.microsoft.com` `appname` 。 如果卡片內容是由使用者產生，寄件者 **/作者的值會** 識別使用者。
 
@@ -204,14 +204,14 @@ Teams不支援小組內單一頻道的 eDiscovery 搜尋，因此必須搜尋整
 
 **卡片內容Teams**
 
-![頻道訊息Teams卡片內容](media/CardContentTeams.png)
+![頻道訊息Teams卡片內容。](media/CardContentTeams.png)
 
 **搜尋結果中的卡片內容**
   
-![內容搜尋結果中的卡片內容相同](media/CardContentEdiscoverySearchResults.png)
+![內容搜尋結果中的卡片內容相同。](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> 若要在搜尋結果中顯示來自卡片內容的影像 (例如上一個螢幕擷取畫面) 中的核取方塊，您必須在您用於查看搜尋結果的同一個瀏覽器會話的不同索引點，在 Teams (上登錄。 https://teams.microsoft.com) 否則會顯示影像預留位置。
+> 若要在搜尋結果中顯示來自卡片內容的影像 (例如上一個螢幕擷取畫面) 中的核取方塊，您必須在您用於查看搜尋結果的同一個瀏覽器會話的不同索引點，在 Teams (中登錄。 https://teams.microsoft.com) 否則會顯示影像預留位置。
 
 ## <a name="related-topics"></a>相關主題
 

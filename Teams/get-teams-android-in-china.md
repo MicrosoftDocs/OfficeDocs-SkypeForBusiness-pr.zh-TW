@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 取得從中國下載 Android 版 Microsoft Teams 的連結。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f9d6dfef0d319f7878ec4138860aa3ab52ffd89
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be9edd2cc5147becf360bc7a1b6ad33294c1acdf
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633287"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733772"
 ---
 # <a name="get-microsoft-teams-for-android-in-china"></a>在中國取得 Android 版 Microsoft Teams
 
@@ -29,10 +29,10 @@ ms.locfileid: "58633287"
 
 |商店  |QR 代碼  |
 |---------|---------|
-| Lenovo：https://aka.ms/TeamsLenovo      | ![Lenovo 商店中的 Android 版 Teams QR 代碼](media/get-teams-android-in-china-lenovo.png)        |
-| 小米：https://aka.ms/TeamsXiaomi     |![小米商店中的 Android 版 Teams QR 代碼](media/get-teams-android-in-china-xiaomi.png)         |
-|Huawei：https://aka.ms/TeamsHuawei     | ![Huawei 商店中的 Android 版 Teams QR 代碼](media/get-teams-android-in-china-huawei.png)        |
-|Oppo：在 Oppo 商店中搜尋 "Teams"     | ![Oppo 商店中的 Android 版 Teams QR 代碼](media/get-teams-android-in-china-oppo.png)        |
-|Baidu: https://aka.ms/teams_baidu_direct_dl     | ![Baidu 商店中的 Android 版 Teams QR 代碼](media/get-teams-android-in-china-baidu.png)        |
+| Lenovo：https://aka.ms/TeamsLenovo      | ![Lenovo 商店中的 Android 版 Teams QR 代碼。](media/get-teams-android-in-china-lenovo.png)        |
+| 小米：https://aka.ms/TeamsXiaomi     |![小米商店中的 Android 版 Teams QR 代碼。](media/get-teams-android-in-china-xiaomi.png)         |
+|華為：https://aka.ms/TeamsHuawei     | ![華為商店中的 Android 版 Teams QR 代碼。](media/get-teams-android-in-china-huawei.png)        |
+|歐珀：在 Oppo 商店中搜尋 "Teams"     | ![歐珀商店中的 Android 版 Teams QR 代碼。](media/get-teams-android-in-china-oppo.png)        |
+|百度：https://aka.ms/teams_baidu_direct_dl     | ![百度商店中的 Android 版 Teams QR 代碼。](media/get-teams-android-in-china-baidu.png)        |
 
 如需取得其他 Teams 行動裝置版用戶端的相關資訊，請參閱[取得 Teams 用戶端](get-clients.md#mobile-clients)。

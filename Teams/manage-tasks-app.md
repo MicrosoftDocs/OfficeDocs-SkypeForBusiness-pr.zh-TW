@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41fa4ea8b32b3c8a1b427f95afbc25317933b5cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 875aeeee6d283a97325ef5aa66402b2c112c4bbd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586557"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730632"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [工作] 應用程式
 
@@ -35,7 +35,7 @@ ms.locfileid: "58586557"
 > [!NOTE]
 > 當我們推出 Teams 桌面版用戶端的 [工作] 體驗時，最初向使用者顯示的應用程式名稱為 **Planner**。 然後，會暫時變更為 **Planner 的工作和待辦事項**，之後再將其重新命名為 **工作**。 在 Teams 行動用戶端，使用者將會看到應用程式名稱一直都顯示為 **工作**。 有可用的桌面體驗之後，可能會有短暫的延遲之後才會有行動裝置體驗。
 
-   ![Teams 清單的工作清單視圖的螢幕擷取畫面](media/manage-tasks-app-tasks.png)
+   ![清單上工作的清單Teams螢幕擷取畫面。](media/manage-tasks-app-tasks.png)
 
 對於想要簡化第一線工作者工作管理的組織，[工作] 還包含可讓您在第一線員工間進行大規模鎖定、發佈及追蹤工作的功能。 例如，公司和地區性領導階層可建立並發佈針對相關地點 (例如特定零售商店) 的工作清單，並透過即時報告追蹤進度。 經理人可將工作指派給他們的員工，並指揮在其地點中的活動，而第一線工作者在行動裝置或桌上型電腦中有其指派工作的優先順序清單。 若要啟用 [工作發佈](#task-publishing)，您必須先設定組織的小組目標階層，以定義階層中所有小組間的關聯方式。
 
@@ -90,12 +90,12 @@ ms.locfileid: "58586557"
 使用 [工作發佈]，您的組織可以發佈針對組織內部特定地點 (小組) 的工作清單，以定義及共用將在這些地點完成的工作計畫。
 
 - 發佈小組中的人員 (例如公司或地區性領導階層) 可建立工作清單，並將其發佈給特定小組。<br>
-    ![ [工作發佈] 的螢幕擷取畫面](media/manage-tasks-app-publish.png)
+    ![工作發佈螢幕擷取畫面。](media/manage-tasks-app-publish.png)
 - 收件者小組的主管可查看發佈的工作清單，並將個別的工作指派給小組成員。<br>
-    ![指派工作的螢幕擷取畫面](media/manage-tasks-app-assign.png)
+    ![指派任務的螢幕擷取畫面。](media/manage-tasks-app-assign.png)
 - 第一線工作者可輕鬆透過行動裝置查看指派給他們的工作。 他們可以附加相片以顯示工作 (如適用)，並將其工作標示為已完成。
 - 出版商和管理者可以查看報告，以瞭解每個階層的工作指派和完成狀態，包括依地點 (小組)、工作清單和個別工作。<br>
-    ![行動裝置上指派工作的螢幕擷取畫面](media/manage-tasks-app-reporting.png)
+    ![行動手機上已指派任務的螢幕擷取畫面。](media/manage-tasks-app-reporting.png)
 
 使用者會在 [工作] 應用程式中的 **發佈清單** 索引標籤上建立、管理及發佈工作清單。 只有在貴組織[設定小組目標階層](#set-up-your-team-targeting-hierarchy)且使用者屬於階層所包含的小組時，才會顯示該索引標籤。 階層會決定使用者是否可以發佈或接收工作清單，以及查看已收到清單的報告。
 

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9233f3a807846261a563d11b46d0fea59092780
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dc4321adbbb8073b3ba290ab3236c543ae6bd320
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613472"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733572"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams
 
@@ -35,18 +35,18 @@ ms.locfileid: "58613472"
 
 您可以在系統管理中心輕鬆管理Microsoft Teams設定。 在左側流覽中，前往 **會議**  >  **Live 事件設定**。
 
-![即時活動Teams螢幕擷取畫面](../media/teams-live-events-settings.png "您可以在系統管理中心Teams即時活動設定Microsoft Teams螢幕擷取畫面")
+![即時活動Teams螢幕擷取畫面。](../media/teams-live-events-settings.png "您可以在系統管理中心Teams即時活動設定Microsoft Teams螢幕擷取畫面")
 
 ## <a name="set-up-event-support-url"></a>設定活動支援 URL
 
 此 URL 會顯示給即時活動出席者。 新增貴組織的支援 URL，讓出席者在即時活動期間與支援人員聯繫。
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft Teams 標誌的圖示](../media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示標誌圖示Microsoft Teams圖示。](../media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
 
 1. 在左側流覽中，前往 **會議**  >  **即時活動設定**。
 2. 在 **支援 URL** 下，輸入貴組織的支援 URL。
 
-    ![系統管理中心即時活動的支援 URL 設定](../media/teams-live-events-settings-supporturl.png "即時活動支援 URL Teams螢幕擷取畫面")
+    ![系統管理中心即時活動的支援 URL 設定。](../media/teams-live-events-settings-supporturl.png "即時活動支援 URL Teams螢幕擷取畫面")
 
 ### <a name="using-windows-powershell"></a>使用Windows PowerShell
 
@@ -60,12 +60,12 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 如果您透過 Microsoft 影片傳遞合作夥伴購買並設定軟體定義的網路 (SDN) 解決方案或企業內容傳遞網路 (eCDN) 解決方案，請設定 Teams 中的即時事件提供者。 
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft Teams 標誌的圖示](../media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示標誌圖示Microsoft Teams圖示。](../media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
 
 1. 在左側流覽中，前往 **會議**  >  **即時活動設定**。
 2. 在 **協力廠商視訊發佈提供者下**，完成下列操作： 
 
-    ![系統管理中心的協力廠商視音訊發佈提供者設定](../media/teams-live-events-settings-distribution-provider.png "即時活動的協力廠商視音訊發佈提供者設定螢幕擷取畫面")
+    ![系統管理中心的協力廠商視音訊發佈提供者設定。](../media/teams-live-events-settings-distribution-provider.png "即時活動的協力廠商視音訊發佈提供者設定螢幕擷取畫面")
 
     - **使用協力廠商通訊提供者** 開啟此選項以啟用協力廠商視音訊發佈提供者。
     - **SDN 提供者名稱** 選擇您使用的提供者。
@@ -90,6 +90,10 @@ Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $T
 **Ramp** 
 ```PowerShell
 Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName ramp -SdnRuntimeConfiguration "{Configuration provided by RAMP}"
+```
+**Peer5**
+```PowerShell
+Set-CsTeamsMeetingBroadcastConfiguration -AllowSdnProviderForBroadcastMeeting $True -SdnProviderName peer5 -SdnLicenseId {peer5CustomerId}
 ```
 
 詳細資訊，請參閱 [Set-CsTeamsMeetingBroadcastConfiguration](/powershell/module/skype/set-csteamsmeetingbroadcastconfiguration?view=skype-ps)。

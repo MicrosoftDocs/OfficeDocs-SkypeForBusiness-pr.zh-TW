@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 瞭解如何從內部部署Microsoft Teams組織商務用 Skype組織。
+description: 瞭解如何從內部部署Microsoft Teams組織商務用 Skype內部部署。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 690595338cbf8f6f2689a6bd4d75842b00afaf28
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e8d8b104354e442116dd908b686bc5e1d18f22d2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582123"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731152"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>從內部部署商務用 Skype升級至Teams
 
-![升級歷程的階段，強調部署與執行階段](media/upgrade-banner-deployment.png "升級歷程的階段，強調部署與執行階段")
+![升級歷程的階段，強調部署與執行階段。](media/upgrade-banner-deployment.png "升級歷程的階段，強調部署與執行階段")
 
-本文是升級歷程的部署與執行階段之一。 繼續進行之前，請確認您已完成下列活動：
+本文是升級歷程的部署與執行階段的一部分。 繼續進行之前，請確認您已完成下列活動：
 
 - [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
 - [已定義專案範圍](./upgrade-define-project-scope.md)
@@ -41,7 +41,7 @@ ms.locfileid: "58582123"
 - [準備您的組織](./upgrade-prepare-organization.md)
 - [進行試驗](./pilot-essentials.md)
 
-如果您已經部署 商務用 Skype 或 Microsoft Lync 內部部署，且貴組織想要選擇性地升級至 Microsoft Teams，請遵循本文中的指引，使用多種共存模式或全功能。 
+如果您已經部署 商務用 Skype 或 Microsoft Lync 內部部署，且貴組織想要選擇性地升級至 Microsoft Teams ，請遵循本文中的指引，使用多種共存模式或全功能。 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -66,6 +66,6 @@ ms.locfileid: "58582123"
 
 從內部部署電話系統轉換至 Teams 將允許您使用 電話系統 直接路由 ("直接路由") 或 microsoft 提供的 Microsoft 365 或 Office 365 通話方案。
 
-如果您不是使用通話方案，您必須將企業語音部署轉換為 電話系統直接路由，作為升級至 Teams。
+如果您不是使用通話方案，您必須在升級至 電話系統時，將企業語音部署轉換為 電話系統 直接路由Teams。
 
-詳細資訊，請參閱直接路由[的其他電話系統考慮](./direct-routing-landing-page.md)。 如果您打算使用通話方案，請參閱我們的指引，將電話號碼轉接至[Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+詳細資訊，請參閱直接[路由的其他電話系統考慮](./direct-routing-landing-page.md)。 如果您打算使用通話方案，請參閱我們的指引，將電話號碼轉接至[Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何使用原則精靈Teams 教育版原則，為學生和教師輕鬆適用原則，以保障您的學習環境安全。
+description: 瞭解如何使用原則Teams 教育版，輕鬆為學生和教育工作者適用原則，以保障您的學習環境安全。
 f1keywords: ''
-ms.openlocfilehash: d7e2959b5b824d8b053d9b912d0450c2209b4b1b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54a5371ce0fe0aaca86f57d4004525e3fb9959d0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604592"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733862"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>使用 Teams 教育版精靈，輕鬆將原則用於安全的學習環境
 
@@ -30,13 +30,13 @@ ms.locfileid: "58604592"
 
 Microsoft Teams 教育版策略精靈可簡化學生和教育工作者的管理原則。 使用它輕鬆快速地套用一組最重要的原則，以建立安全且有生產力的學習體驗。
 
-中的Teams讓您控制Teams環境中的行為方式，以及使用者可以使用哪些功能。 例如，有通話政策、會議策略和傳訊政策，舉個例說，每個策略區域都可以自訂，以滿足貴組織的需求。
+在 Teams中，您可以控制Teams中的行為方式，以及使用者可以使用哪些功能。 例如，有通話政策、會議策略和傳訊政策，舉個例說，每個策略區域都可以自訂，以滿足貴組織的需求。
 
 若要維護安全且專注的學習環境，設定策略以控制學生可以在Teams。 例如，您可以使用策略來控制誰可以使用私人聊天和私人通話、誰可以排程會議，以及哪些內容類型可以共用。 您也可以使用政策開啟Teams豐富學習體驗的功能。
 
 學生與教育者都必須調整相關政策，確保學習體驗安全無恙。 學生的政策必須更加嚴格，以降低他們收到不當存取等級的風險。 教育者和教職員需要一組可以更寬鬆且能讓他們成功的個別政策。 例如，允許教育人員排程會議，並限制學生這麼做。
 
-:::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="精靈的螢幕擷取畫面":::
+:::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="精靈的螢幕擷取畫面。":::
 
 本文將逐步引導您瞭解如何執行精靈。
 
@@ -47,16 +47,16 @@ Microsoft Teams 教育版策略精靈可簡化學生和教育工作者的管理�
 
 <a name="polwiz_intro"> </a>
 
-精靈會套用一組核心原則定義給學生，並另外將一組核心原則定義套用給教育工作者和教職員，並針對每個學生套用適當的設定。 以下是執行精靈時會發生的情況。
+精靈會套用一組核心原則定義給學生，另外一組核心原則定義則套用給教育者和教職員，且每個設定都適用。 以下是執行精靈時會發生的情況。
 
-精靈會根據教育機構類型設定 (或中等或大專院校 **) 。** 您選取機構類型，精靈會執行下列操作：
+精靈會根據教育機構類型設定 (中或大專 **院校) 。**  您選取機構類型，精靈會執行下列操作：
 
 - **學生**：精靈會使用適合保護學生安全的新預設設定 (調整精靈涵蓋之每個政策區域之全域 (全組織的預設) 策略定義。 這可確保您目前的學生和所有新學生取得最嚴格的一組政策。
 - **教育者和教** 職員：精靈會針對精靈涵蓋的每一個政策區域建立一組自訂政策定義，並針對教育者和教職員的需求量身訂做設定。 接著，它會將策略定義指派給您選擇的教育者和教職員群組。 如此一來，您的教育者和教職員會取得一組較寬鬆政策，讓他們能夠成功。
 
-您只需要執行精靈一次。 新學生會自動取得精靈所 (全組織的預設) 原則定義，而新進到所選群組的新教職員會自動指派自訂原則。
+您只需要執行精靈一次。 新學生會自動取得精靈 (全組織) 原則定義，而新進到所選群組的新教職員會自動指派自訂原則。
 
-此外，每當新功能新增到 Teams 時，該功能的相關政策的適當 EDU 相關預設值會自動新加到全域 (全組織的預設) ，而不需要任何系統管理員介入。 這有助於確保正確政策到位，確保學生安全且參與。
+此外，每當新增到 Teams 時，該功能的相關 EDU 相關政策預設值會自動新加到全域 (全組織的預設) ，而不需要任何系統管理員介入。 這有助於確保正確的政策能夠確保學生的安全與參與。
 
 > [!NOTE]
 > 請參閱 [精靈所適用原則](#policies-applied-by-the-wizard) ，以瞭解精靈所適用之原則定義的詳細清單。
@@ -69,26 +69,26 @@ Microsoft Teams 教育版策略精靈可簡化學生和教育工作者的管理�
 
 請遵循下列步驟執行精靈。
 
-1. 如果您是新使用者，Teams精靈會自動啟動。 否則，您隨時都可以從儀表板啟動精靈。 在系統管理中心的左側導Microsoft Teams，前往儀表板，然後在安全學習環境簡易策略設定磚中，選取快速 **設定**。
+1. 如果您是新使用者，Teams精靈會自動啟動。 否則，您隨時都可以從儀表板啟動精靈。 在系統管理中心的左側導Microsoft Teams，請前往儀表板，然後在安全學習環境簡易策略設定磚中，選取快速 **設定**。
 
-    :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="儀表板中精靈的螢幕擷取畫面":::
+    :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="儀表板中精靈的螢幕擷取畫面。":::
 
 2. 選取您的教育機構類型 (**中或大** 專院校) ，然後選取下一 **步**。
 
-    :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="精靈中頁面的螢幕擷取畫面，以選取機構類型":::
+    :::image type="content" source="media/easy-policy-setup-institution-type.png" alt-text="精靈中頁面的螢幕擷取畫面，以選取機構類型。":::
 
 3. 搜尋並選取包含您的教育者和教職員的群組，然後選取下 **一步**。 如果您尚未為教師和教職員設定任何群組，請建立群組，然後重新[](/microsoft-365/admin/create-groups/create-groups)執行精靈。 <br/><br/>目前，您只能選取一個群組。 您選取的群組中的教師和教職員會獲得一[](#policies-applied-by-the-wizard)組自訂政策，根據他們的需求量身訂做。 請記住，這組原則與套用至學生的政策是分開的。
 
-    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="精靈中頁面的螢幕擷取畫面，以選取教師和教職員群組":::
+    :::image type="content" source="media/easy-policy-setup-group.png" alt-text="精靈中頁面的螢幕擷取畫面，以選取教師和教職員群組。":::
 
 4. 請閱閱您的選取專案。
 
-    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="精靈中頁面的螢幕擷取畫面，可檢查選取專案":::
+    :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="精靈中頁面的螢幕擷取畫面，可檢查選取專案。":::
 
 5. 選取 **應用程式** 以適用您的變更。 這可能需要幾分鐘才能完成。<br/><br/>全域 (全組織的預設) 原則定義會立即適用于學生。 對於您的教師和教職員來說，自訂政策可能需要數小時的時間，才能指派給所選群組的每個成員，視群組大小而不同。 在您成功完成此步驟之後，此情況會發生在背景中。
 6. 您上路了，但尚未完成！ 還有一些事情要考慮。 接下來，請查看執行本文精靈區段 [後要執行的步驟](#what-to-do-after-running-the-wizard) 。
 
-    :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="精靈中頁面的螢幕擷取畫面，以用於下一個步驟":::
+    :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="精靈中頁面的螢幕擷取畫面，以用於下一個步驟。":::
 
 ## <a name="what-to-do-after-running-the-wizard"></a>執行精靈後該做什麼
 
@@ -97,15 +97,15 @@ Microsoft Teams 教育版策略精靈可簡化學生和教育工作者的管理�
 ### <a name="step-1-remove-existing-policy-assignments-that-conflict-with-policies-applied-by-the-wizard"></a>步驟 1：移除與精靈所適用原則相衝突的現有原則指派
 
 > [!IMPORTANT]
-> **只有在您執行精靈** 之前，已有指派給學生或教育人員的現有政策，才能完成此步驟。 如果您是新使用者，Teams精靈所建立之政策外，沒有任何現有策略，請略過此步驟，然後前往步驟 2。
+> **只有在執行精靈** 之前，您已有指派給學生或教育人員的現有政策，才能完成此步驟。 如果您是新使用者，Teams精靈所建立之政策外，沒有任何現有政策，請略過此步驟，然後前往步驟 2。
 
 在 Teams中，針對給定的原則區域，原則可以下列方式適用于使用者：
 
 - 直接指派給使用者
 - 使用者為成員之群組的作業
-- 如果使用者未直接指派策略，或不是任何指派策略的群組成員，使用者會自動取得全域 (全組織的預設) 規則
+- 如果使用者未直接指派策略，或不是指派策略之任何群組的成員，使用者會自動取得全域 (全組織的預設) 規則
 
-如果使用者有一種以上這些策略指派，Teams使用下列順序來決定哪一個策略指派生效。 詳細資訊，請參閱 [哪個原則優先？](assign-policies.md#which-policy-takes-precedence) 及 [優先順序規則](assign-policies.md#precedence-rules)。
+如果使用者有一種以上這些策略指派，Teams使用下列順序來決定哪些策略指派生效。 詳細資訊，請參閱 [哪個原則優先？](assign-policies.md#which-policy-takes-precedence) 及 [優先順序規則](assign-policies.md#precedence-rules)。
 
 |使用者的策略指派|生效的政策 |
 |---------|---------|
@@ -118,12 +118,12 @@ Microsoft Teams 教育版策略精靈可簡化學生和教育工作者的管理�
 
 針對精靈 [所申請的每個原則區域](#policies-applied-by-the-wizard)，請執行下列操作：
 
-- 從學生移除所有現有的直接作業和群組作業，讓精靈 (的全域 (全組織的預設) 原則定義生效。
-- 移除教師和教職員的任何衝突直接作業，讓精靈所建立之自訂政策定義生效。 使用上表來判斷適用于您的案例。 <br/><br/>請記住，精靈會使用 1 的群組作業排名來指派策略給[](assign-policies.md#group-assignment-ranking)您的教育者和教職員群組，這是最高排名。 如果您的教育者和教職員群組有指派給該教職員的相同政策區域的現有政策，則現有政策會移至較低等級，精靈指派的政策即會生效。
+- 移除學生的所有現有直接作業和群組作業，讓精靈所 (之全域 (全組織的預設) 原則定義生效。
+- 移除教師和教職員的任何衝突直接作業，讓精靈所建立之自訂政策定義生效。 使用上表來判斷適用于您的案例。 <br/><br/>請記住，精靈會使用 1 的群組作業排名指派策略給教師[](assign-policies.md#group-assignment-ranking)和教職員群組，這是最高排名。 如果您的教育者和教職員群組有指派給該教職員的相同政策區域的現有政策，則現有政策會移至較低等級，精靈指派的政策即會生效。
 
 [深入瞭解](batch-group-policy-assignment-edu.md#remove-a-policy-that-was-directly-assigned-to-users) 如何移除直接指派給使用者的政策。
 
-例如，您直接將會議政策指派給教育人員，而您的學生擁有全域 (全組織的預設) 會議政策。 在此情境中，移除您直接指派給教育人員的會議策略，讓精靈所建立之會議策略的自訂策略定義生效。 您不需要使用現有的全域會議 (全組織的預設會議) 執行任何操作，因為沒有任何其他會議政策與它相衝突。
+例如，您直接將會議政策指派給教育人員，而您的學生 (全組織的預設會議) 規則。 在此情境中，移除您直接指派給教育人員的會議策略，讓精靈所建立之會議策略的自訂策略定義生效。 您不需要使用現有的全域會議 (全組織的預設會議) 執行任何操作，因為沒有任何其他會議政策與它相衝突。
 
 <a name="polwiz_addmeasures"> </a>
 
@@ -131,13 +131,13 @@ Microsoft Teams 教育版策略精靈可簡化學生和教育工作者的管理�
 
 精靈會自動調整並適用 [這些原則](#policies-applied-by-the-wizard)。 根據機構保持安全的需求，您可能想要採取一些額外的措施。
 
-請參閱[在使用遠端Teams時](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA)保護學生安全，以進一步提供安全建議。
+請參閱[使用遠端學習Teams保護學生安全](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA)，以提供額外的安全建議。
 
 <a name="polwiz_mc"> </a>
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>步驟 3：檢查訊息中心是否更新政策
 
-目前，精靈在您執行時會採用我們的建議原則。 請注意，隨著 Teams 提供新政策，精靈會自動更新 (全組織) 學生安全的預設設定。 
+目前，當您執行時，精靈會採用我們的建議原則。 請注意，隨著 Teams 提供新政策，精靈會自動更新全域 (全組織) 學生安全的預設設定。 
 
 但請經常查看[](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (訊息中心Microsoft 365 系統管理中心) ，以隨時瞭解新功能及其在 Teams 中Teams。 
 
@@ -148,15 +148,15 @@ Microsoft Teams 教育版策略精靈可簡化學生和教育工作者的管理�
 如果您在執行精靈之後需要進行變更，您可以重新執行它並變更您的選取範圍。
 
 1. 在系統管理中心的左側導Microsoft Teams，請前往儀表板，然後在安全學習環境簡易策略設定磚中，選取 **變更**。
-2. 從這裡繼續流覽精靈的每一頁，進行變更。 您可以變更機構類型、要指派策略的教師和教職員群組，或兩者同時變更。
+2. 從這裡繼續流覽精靈的每一頁，以進行變更。 您可以變更機構類型、要指派策略的教師和教職員群組，或兩者同時變更。
 
 下表摘要列出當您在精靈中進行變更時會發生什麼情況。
 
 |變更類型  |策略行為  |
 |---------|---------|
-|變更教育機構類型與教育者和教職員群組    |<ul><li>**學生**：全域 (全組織的預設) 新教育機構類型為基礎的原則定義會適用于學生。</li><li>**教育者和教** 職員：根據新的教育機構類型建立一組自訂政策定義，並指派給新的教育工作者和教職員群組。 先前的自訂策略定義會從先前的教育者和教職員群組中移除。</li></ul>    |
-|只變更教育機構類型    |<ul><li>**學生**：全域 (全組織的預設) 新教育機構類型為基礎的原則定義會適用于學生。</li><li>**教育者和教** 職員：根據新的教育機構類型建立一組自訂政策定義，並指派給教育者和教職員群組。 先前教育機構類型所建立自訂政策定義會從教育者和教職員群組中移除。</li></ul>         |
-|只變更教育者和教職員群組   |<ul><li>**學生**：不會變更適用于學生 (全域全域) 預設原則定義。</li><li>**教育者和教** 職員：自訂政策定義會指派給新的教育者和教職員群組，並且從先前的教育者和教職員群組中移除。</li></ul>         |
+|變更教育機構類型與教育者和教職員群組    |<ul><li>**學生**：全域 (整個組織的預設) 根據新的教育機構類型將原則定義適用于學生。</li><li>**教育者和教** 職員：根據新的教育機構類型建立一組自訂政策定義，並指派給新的教育工作者和教職員群組。 先前的自訂策略定義會從先前的教育者和教職員群組中移除。</li></ul>    |
+|只變更教育機構類型    |<ul><li>**學生**：全域 (整個組織的預設) 根據新的教育機構類型將原則定義適用于學生。</li><li>**教育者和教** 職員：根據新的教育機構類型建立一組自訂政策定義，並指派給教育者和教職員群組。 先前教育機構類型所建立自訂政策定義會從教育者和教職員群組中移除。</li></ul>         |
+|只變更教育者和教職員群組   |<ul><li>**學生**：不會變更適用于學生 (全域) 全組織的預設定義。</li><li>**教育者和教** 職員：自訂政策定義會指派給新的教育者和教職員群組，並且從先前的教育者和教職員群組中移除。</li></ul>         |
 
 ## <a name="policies-applied-by-the-wizard"></a>精靈所適用原則
 
@@ -253,7 +253,7 @@ Microsoft Teams 教育版策略精靈可簡化學生和教育工作者的管理�
 |應用程式設定政策  |           |Upload自訂應用程式           |關閉         |關閉|
 |  |       |允許使用者釘點 |開啟         |開啟|
 |  |       |已安裝的應用程式         |無         |無|
-|  |       |釘上的應用程式         |活動、日曆、Teams         |活動、聊天、Teams、日曆、通話、檔案
+|  |       |釘上應用程式         |活動、日曆、Teams         |活動、聊天、Teams、日曆、通話、檔案
 |通話原則  |       |可進行私人通話         |關閉        |開啟|
 |  |       |呼叫轉譯和同時撥打給貴組織人員         |關閉         |開啟|
 |  |       |呼叫轉譯和同時撥打到外部電話號碼         |關閉         |開啟|
@@ -333,4 +333,4 @@ Microsoft Teams 教育版策略精靈可簡化學生和教育工作者的管理�
 
 - [適用於教育界的 Teams 原則和原則套件](policy-packages-edu.md)
 - [指派策略給學校中的大量使用者](batch-group-policy-assignment-edu.md)
-- [使用遠端學習Teams保護學生安全](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)
+- [使用遠端Teams保護學生安全](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)

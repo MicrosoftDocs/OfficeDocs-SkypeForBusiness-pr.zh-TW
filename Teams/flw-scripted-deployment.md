@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e50c0c3b7051ec713fff72058a53bd261ab650c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607690"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733432"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何為一線員工大規模佈建 Teams
 
@@ -216,11 +216,11 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至  **[Teams 應用程式]** > **[設定原則]**。
 2. 按一下  **[新增]**。  
 3. 輸入原則的名稱和描述。 例如，一線管理者的應用程式設定原則。
-    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="一線管理者應用程式設定原則範例名稱和描述的螢幕擷取畫面":::
+    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="一線管理者應用程式設定原則範例名稱和描述的螢幕擷取畫面。":::
 
 4. 關閉 **[上傳自訂應用程式]**。
 5. 關閉 **[允許使用者釘選]**。
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="允許使用者釘選設定的螢幕擷取畫面":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="[允許使用者釘選] 設定的螢幕擷取畫面。":::
 
 6. 如果尚未列出，請新增 **Shifts** 應用程式。 如需有關 Shifts 的詳細資訊，請按一下[這裡](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="新增釘選應用程式畫面，並顯示 Shifts 應用程式的 [新增] 按鈕的螢幕擷取畫面":::
@@ -234,7 +234,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
     - 行事曆
     - 班次
 
-    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="依序列出的一線管理者應用程式的螢幕擷取畫面":::
+    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="螢幕擷取畫面，依序列出的一線管理者應用程式。":::
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>建立一線員工的應用程式設定原則
 
@@ -243,11 +243,11 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至  **[Teams 應用程式]** > **[設定原則]**。
 2. 按一下  **[新增]**。
 3. 輸入原則的名稱和描述。 例如，一線員工的應用程式設定原則。
-    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="一線員工應用程式設定原則範例名稱和描述的螢幕擷取畫面":::
+    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="一線員工應用程式設定原則範例名稱和描述的螢幕擷取畫面。":::
 
 4. 關閉 **[上傳自訂應用程式]**。
 5. 關閉 **[允許使用者釘選]**。
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="允許使用者釘選設定的螢幕擷取畫面":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="[允許使用者釘選] 設定的螢幕擷取畫面。":::
 
 6. 如果尚未列出，請新增 **Shifts** 應用程式。 如需有關 Shifts 的詳細資訊，請按一下[這裡](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)。
 
@@ -260,7 +260,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
     - Teams
     - 班次
 
-    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="依序列出的一線員工應用程式的螢幕擷取畫面":::
+    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="螢幕擷取畫面，依序列出的一線管理者應用程式。":::
 
 ### <a name="create-teams-app-permission-policies"></a>建立 Teams 應用程式權限原則
 
@@ -275,7 +275,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至  **[Teams 應用程式]** > **[權限原則]**。
 2. 按一下  **[新增]**。
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="新增應用程式權限原則頁面的螢幕擷取畫面":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="新增應用程式權限原則頁面的螢幕擷取畫面。":::
 
 3. 輸入原則的名稱和描述。 例如，一線管理者的應用程式權限原則。
 4. 在  **[Microsoft 應用程式]** 底下，選取 **[允許所有應用程式]**。
@@ -290,7 +290,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至  **[Teams 應用程式]** > **[權限原則]**。
 2. 按一下  **[新增]**。
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="新增應用程式權限原則頁面的螢幕擷取畫面":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="新增應用程式權限原則頁面的螢幕擷取畫面。":::
 
 3. 輸入原則的名稱和描述。 例如，一線員工的應用程式權限原則。
 4. 在  **[Microsoft 應用程式]** 底下，選取 **[允許所有應用程式]**。

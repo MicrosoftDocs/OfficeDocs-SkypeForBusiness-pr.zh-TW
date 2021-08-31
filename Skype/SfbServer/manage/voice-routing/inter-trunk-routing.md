@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: '商務用 Skype Server 提供基本的會話管理，其支援主幹間路由。 '
-ms.openlocfilehash: 67e22f2727c9ef5f741b71c781084ab8fc2cea27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e8ed3ab7b72474614011e4b9f7aaf49ffd5160b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630507"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730908"
 ---
 # <a name="skype-for-business-server-inter-trunk-routing"></a>商務用 Skype Server：主幹間路由
 
@@ -25,9 +25,9 @@ ms.locfileid: "58630507"
 
 下圖說明在 PSTN 閘道和 IP-PBX 之間提供 interconnectivity 的商務用 Skype Server。
 
-![PSTN 閘道和 IP-PBX 之間的 Interconnectivity](../../media/pstn-gateway-ip-pbx.jpg)
+![PSTN 閘道和 IP-PBX 之間的 Interconnectivity。](../../media/pstn-gateway-ip-pbx.jpg)
 
 下圖說明連接兩個 IP-PBX 系統的商務用 Skype Server。
 
-![連接兩個 IP PGX 系統的商務用 Skype Server](../../media/two-ip-pbx-systems.jpg)
+![連接兩個 PGX 系統的商務用 Skype Server。](../../media/two-ip-pbx-systems.jpg)
 

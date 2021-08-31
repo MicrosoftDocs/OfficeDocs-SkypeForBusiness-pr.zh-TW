@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 如何使用加拿大的 IP 中繼帳戶。
-ms.openlocfilehash: cf8d63dddea1d26e6fcdf6ffd8701745d50d7385
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18b6f356f6d90b4e6a962ef1b7709cb3cf39253c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618259"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730972"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>加拿大 IP 轉送 - 使用者指南
 
@@ -35,7 +35,7 @@ Microsoft 的 IP 訊息轉遞服務描述：
 ## <a name="scenario-a"></a>案例 A
 如果聽力受損或語音受損者想要與非受損個人聯繫，他們透過特殊的網路用戶端與稱為通話接受者之代理人「聊天」。
 
-通話接受者接著會透過聊天會話與聽力受損或語音受損人員通訊，並視需要透過加拿大或美國任何地方的電話網絡與非受損人員聯繫。
+通話接受者接著會透過聊天會話與聽力受損或語音受損者通訊，並視需要透過加拿大或美國任何地方的電話網絡與非受損人員聯繫。
 
 ## <a name="scenario-b"></a>案例 B
 如果非受損使用者想要與註冊的聽力受損或語音受損使用者交談，他們會撥打 Microsoft 提供的免付費號碼。
@@ -64,13 +64,13 @@ https://aka.ms/IPRelay
 
 ### <a name="how-to-receive-a-voice-to-text-call"></a>如何接收語音到文字通話：
 - 語音使用者必須知道您的 IP 訊息轉傳使用者名稱，才能將語音傳送至文字通話。
-- 語音使用者可以撥打 660 (866) 860-8613，以與 IP 訊息轉接運算子進行連接。
+- 語音使用者可以撥打 866 (660-8613) 866，以與 IP 訊息轉接運算子進行連接。
 - 您必須登入 IP 訊息轉遞入口網站，以接聽來電或聊天。
 
 ### <a name="how-to-place-a-911-call"></a>如何撥打 911 電話：
 如果您遇到緊急事件，您可以選取螢幕底部適當的緊急按鈕， (如下所示) 。
 
-![緊急按鈕](../images/ip-relay-emergency-buttons.png)
+![緊急按鈕。](../images/ip-relay-emergency-buttons.png)
 
 IP 訊息轉送接線員會與 911 聯絡、確認您的位址，然後與各種緊急中心進行翻譯，直到不再需要他/她，且已分派適當的部門到您的位置。
 

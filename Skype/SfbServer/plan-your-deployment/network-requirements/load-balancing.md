@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 摘要：在實施商務用 Skype Server 之前，請先複查負載平衡考慮。
-ms.openlocfilehash: 9b47c87fa834de6b0a7b3ddddaf6493a9c95f363
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba8ab3e4659ea7e17e91b4bf725e8bd1fe8b59ca
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623585"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733392"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>商務用 Skype 的負載平衡需求
  
@@ -159,7 +159,7 @@ ms.locfileid: "58623585"
   
 **使用公用 IPv4 位址的 Edge network 圖表**
 
-![DNS 網狀圖表範例](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
+![DNS network 圖表的範例。](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
 相較於將硬體負載平衡器用於全部的流量類型，如果使用 DNS 負載平衡也能讓您購買成本較低的硬體負載平衡器。 您應該使用已通過互通性驗證測試的負載平衡器與商務用 Skype Server。 如需負載平衡器互通性測試的詳細資訊，請參閱 [Lync Server 2010 負載平衡器合作夥伴](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。 套用至商務用 Skype Server 的內容。
   

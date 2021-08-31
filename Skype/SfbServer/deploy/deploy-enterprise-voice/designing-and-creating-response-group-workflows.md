@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 在商務用 Skype Server 企業語音中，設計及建立回應群組工作流程。 同時也涵蓋群組搜尋工作流程和互動式工作流程。
-ms.openlocfilehash: 63069268621ff7f5e2b3783a661e163ff6fe6416
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe5efd7b5ba851055803298dd077009c238fd1f1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603113"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730952"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>在商務用 Skype 中設計及建立回應群組工作流程
 
@@ -317,7 +317,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
 
  **一層級互動通話流程**
 
-![使用互動語音回應設計通話流程](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
+![使用互動語音回應設計通話流程。](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
 
 #### <a name="ivr-with-two-levels-of-questions"></a>IVR 有兩個層級的問題
 
@@ -349,7 +349,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
 
  **雙層互動式通話流程**
 
-![使用互動語音回應設計通話流程](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
+![使用互動語音回應設計通話流程。](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
 
 ### <a name="best-practices"></a>最佳做法
 
@@ -644,7 +644,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
      > [!NOTE]
      > 指定為回應群組管理員的所有使用者，都必須指派 CsResponseGroupManager 角色。 若未指派此角色的使用者，他們就無法管理回應群組。
 
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>也請參閱
 
 [ (選用) 定義回應群組假日集商務用 Skype](optional-define-response-group-holiday-sets.md)
 

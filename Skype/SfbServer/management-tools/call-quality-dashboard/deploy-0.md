@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 摘要：瞭解通話品質儀表板的部署程式。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: af43865c76b565ac126d80193b3b32b0bd870260
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc07bb721c0319d041bd7bbee4a4a327d77f28b9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596567"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733592"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>為商務用 Skype Server 部署通話品質儀表板
  
@@ -34,7 +34,7 @@ ms.locfileid: "58596567"
     
 - **入口網站**，使用者可以在其中輕鬆查詢及顯示 QoE 資料。
     
-![CQD 元件](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
+![CQD 元件。](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
 QoE 封存的設定套裝程式括建立 QoE 封存資料庫、部署 SQL Server 的預存程式，以將來源 QoE 度量資料庫中的資料移至 QoE 封存資料庫，以及設定 SQL Server 代理程式工作以定期執行預存程式。 
   
@@ -146,18 +146,18 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
   
 任何網站或 web 應用程式會繼承針對整個 IIS （通常為「允許所有使用者」）設定的預設 URL 授權。 如果對入口網站的存取需要更嚴格的限制，管理員可以編輯「授權規則」，只授與特定使用者群組的存取權。
   
-![在 IIS 中部署呼叫品質-授權規則](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
+![在 IIS 中部署呼叫品質授權規則。](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
   
 > [!NOTE]
 > [授權規則] 圖示不會與 [ASP.NET] 區段下的「.net 授權」混淆，後者是一種不同的授權機制。 
   
 管理員應該先移除繼承的「允許所有使用者」規則。 這可防止任何未獲授權的使用者存取入口網站。
   
-![部署 CQD](../../media/fa17ad19-d303-40f8-8324-d13fd67936ab.png)
+![部署 CQD。](../../media/fa17ad19-d303-40f8-8324-d13fd67936ab.png)
   
 接下來，管理員應該新增「允許」規則，並為特定使用者授予存取入口網站的許可權。 建議您建立名為 "CQDPortalUsers" 的本機組來管理使用者。
   
-![部署通話品質儀表板](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
+![部署通話品質儀表板。](../../media/8cfdc141-ec89-4552-921b-53196f497cbf.png)
   
 設定詳細資料會儲存在位於入口網站之實體目錄的 web.config。
   
@@ -174,15 +174,15 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
 
 1. 開啟 CQD 的設定編輯器。
     
-     ![部署通話品質儀表板](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
+     ![部署通話品質儀表板。](../../media/544056eb-3090-434e-bae6-321c984029fa.png)
   
 2. 在 [區段] 中，選擇 [ **system.webserver/microsoft.sharepoint.client.serverruntime.dll**]。
     
-     ![部署通話品質儀表板](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
+     ![部署通話品質儀表板。](../../media/b0af0e56-21b0-45dd-b610-5381b39319d3.png)
   
 3. 將 authenticatedUserOverride 變更為 **UseWorkerProcessUser**。
     
-     ![部署通話品質儀表板-設定編輯器](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
+     ![部署通話品質儀表板-設定編輯器。](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
   
 4. 按一下 **頁面** 右側的 [套用]。
     
@@ -213,19 +213,19 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
   
 1. 開啟 [IIS 管理員]，然後流覽至 [預設網站]。
     
-     ![部署通話品質儀表板](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
+     ![部署通話品質儀表板。](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
   
 2. 按一下「驗證」。 如果「匿名驗證」、「ASP.NET 模擬」、「表單驗證」和「Windows 驗證」與下列設定不符，請手動加以變更，以符合下列設定。 應停用所有其他驗證機制。
     
-     ![部署通話品質儀表板](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
+     ![部署通話品質儀表板。](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
   
 3. 針對「Windows 驗證」，按一下右側的 [高級] 設定。
     
-     ![部署通話品質儀表板](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
+     ![部署通話品質儀表板。](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
   
 4. 設定「擴充保護」以接受並檢查「啟用核心模式驗證」方塊。
     
-     ![部署通話品質儀表板](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
+     ![部署通話品質儀表板。](../../media/0ab2dda1-0001-4747-8cfc-072e9368b6cb.png)
   
 5. 針對 "Default Web Site" 底下的每一個 "CQD"、"QoEDataService" 及 "QoERepositoryService" 專案重複上述步驟。
     

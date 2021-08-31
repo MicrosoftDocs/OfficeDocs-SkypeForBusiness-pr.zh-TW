@@ -16,23 +16,23 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 請閱讀本文，瞭解如何在系統直接路由Microsoft 電話使用類比裝置。
-ms.openlocfilehash: 93ce20366cfb29d5719a94af0842285d299e50e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 083c5dd5b577e319a9e5308a4ec3630614254628
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619479"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733492"
 ---
 # <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>如何使用類比裝置電話系統直接路由
 
-本文將說明如何將類比裝置與直接路由電話系統使用。 若要將類比裝置連接到直接路由，您必須使用類比電話轉接器 (ATA) ，且此配接器必須受到認證會話邊界控制器 (SBC) 支援。 
+本文將說明如何將類比裝置與直接路由電話系統使用。 若要將類比裝置連接到直接路由，您必須使用類比電話轉接器 (ATA) ，且此配接器必須受到認證會話邊界控制器 (SBC) 廠商的支援。 
 
-當使用者從類比裝置進行通話時，訊號和媒體會透過 ATA (ATA) 到 SBC。  SBC 會根據內部路由Microsoft Teams，將通話傳送至 (PSTN) 公用交換電話網絡。  當裝置進行通話時，其路由取決於為裝置所建立路由策略。
+當使用者從類比裝置進行通話時，訊號和媒體會透過 ATA (電話轉接器) SBC。  SBC 會根據內部路由Microsoft Teams，將通話傳送至 (PSTN) 公用交換電話網絡。  當裝置進行通話時，其路由取決於為裝置所建立路由策略。
 
-在下列圖表中，直接路由已進行配置，因此任何 Teams 之間與 +1425 4XX XX 和 +1425 5XX XX XX 之間的號碼，都必須使用紅色路由 (虛線) ， 與 +1425 4XX XX XX 和號碼範圍 +1425 5XX XX 以外的任何其他號碼之間的任何 PSTN 通話，都必須使用藍色路由 (實線) 。 
+在下列圖表中，直接路由已進行配置，因此任何 Teams 之間與 +1425 4XX XX 和 +1425 5XX XX XX 之間的號碼，都必須使用紅色路由 (虛線) ， 與 +1425 4XX XX XX 和號碼範圍 +1425 5XX XX 以外的任何其他號碼之間的任何 PSTN 通話，都必須使用藍色 (實線) 。 
 
 > [!div class="mx-imgBorder"]
-> ![顯示直接路由配置的圖表](media/direct-routing-analog-device.png)
+> ![顯示直接路由配置的圖表。](media/direct-routing-analog-device.png)
 
 ## <a name="example--how-to-configure-the-use-of-analog-devices-with-direct-routing"></a>範例：如何設定使用直接路由的類比裝置
 
@@ -63,7 +63,7 @@ ms.locfileid: "58619479"
 - 訊號埠 5068
 - 媒體旁路模式
 - 已轉往 SBC 的通話記錄資訊-
-- P-已確認身分識別 (PAI) 頁標題隨著通話一起轉出 
+- P-已確認身分識別 (PAI) 標題隨著通話一起轉出 
 
 ```powershell
 PS C:\> New-CsOnlinePSTNGateway -FQDN sbc.contoso.com -SIPSignalingPort 5068 -ForwardCallHistory $true -ForwardPAI $true -MediaBypass $true -Enabled $true 
@@ -79,7 +79,7 @@ PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"}
 
 ## <a name="step-3--create-a-voice-route-and-associate-it-with-the-pstn-usage"></a>步驟 3：建立語音路由，並將其與 PSTN 使用量建立關聯：
 
-此命令會為號碼範圍 +1425 XXX XX XX 建立身分識別 「類比交互操作」的新線上語音路由。  語音路由適用于線上閘道清單 sbc.contoso.com 將路由與線上 PSTN 使用方式「Interop」關聯。 語音路由包含一個正則運算式，用來識別哪些電話號碼會透過給定的語音路由路由：
+此命令會為號碼範圍 +1425 XXX XX XX 建立身分識別 「類比交互操作」的新線上語音路由。  語音路由適用于線上閘道清單，sbc.contoso.com 路由與線上 PSTN 使用方式「Interop」關聯。 語音路由包含一個正則運算式，用來識別哪些電話號碼會透過給定的語音路由路由：
 
 ```powershell
 PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7})$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
@@ -95,15 +95,15 @@ PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -Name "An
 
 ## <a name="step-5-enable-the-online-user"></a>步驟 5：啟用線上使用者
 
-此命令會使用身分識別選項修改 exampleuser@contoso.com。 在這種情況下，帳戶會修改為啟用 企業語音 ，即 Microsoft VoIP 的實現，且已啟用語音信箱，並將號碼 +142550000000 指派給此使用者。  此命令應針對每個使用者執行Teams， (公司租使用者中的 ATA 裝置) 使用者除外。
+此命令會使用身分識別選項修改 exampleuser@contoso.com。 在這種情況下，帳戶會修改為啟用 企業語音 ，即 Microsoft VoIP 的實現，並啟用語音信箱，並將號碼 +142550000000 指派給此使用者。  此命令應針對每個使用者執行Teams， (公司租使用者中的 ATA) 使用者除外。
 
 ```powershell
 PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $True -HostedVoiceMail $True -OnPremLineUri "tel:+14255000000"
 ```
 
-## <a name="step-6-assign-the-voice-route-policy-to-a-user"></a>步驟 6：指派語音路由策略給使用者
+## <a name="step-6-assign-the-voice-route-policy-to-a-user"></a>步驟 6：將語音路由策略指派給使用者
 
-此命令會指派每個使用者的線上語音路由策略AdisInteropPolicy給具有身分識別 exampleuser@contoso.com。  此命令應針對每個使用者執行Teams， (公司租使用者中的 ATA 裝置) 使用者除外。
+此命令會指派每個使用者的線上語音路由策略AdisInteropPolicy給具有身分識別 exampleuser@contoso.com。  此命令應針對每個使用者執行Teams， (公司租使用者中的 ATA) 使用者除外。
 
 ```powershell
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 

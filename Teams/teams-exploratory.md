@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8edeb3180710dede90df8cd2bd5ba54c7f2996bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 057ac60f2033336df024b8a26daa6dff963dafa7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627065"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734092"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>管理 Microsoft Teams Exploratory 授權
 
@@ -92,11 +92,11 @@ Teams Exploratory 體驗隨附 Exchange Online 授權，但在系統管理員指
 
 1. 從 [Microsoft 365 系統管理中心]，移至 **[設定]** > **[組織設定]**、選取 **[服務]**，然後選取 **[使用者所擁有的應用程式與服務]**。
 
-    ![系統管理中心的 [服務] 頁面](media/iw-trial-services.png)
+    ![系統管理中心的 [服務] 頁面。](media/iw-trial-services.png)
 
 2. 取消選取 **[讓使用者安裝試用版的應用程式與服務]** 核取方塊。
 
-    ![系統管理中心的 [使用者所擁有的應用程式與服務] 頁面](media/iw-trial-user-owned-apps-services.png)
+    ![系統管理中心的 [使用者所擁有的應用程式與服務] 頁面。](media/iw-trial-user-owned-apps-services.png)
 
     > [!NOTE]
     > 如果貴組織不符合 Teams Exploratory 使用資格，您將不會看到 **[讓使用者安裝試用版的應用程式與服務]** 選項。

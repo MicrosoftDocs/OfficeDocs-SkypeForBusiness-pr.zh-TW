@@ -26,12 +26,12 @@ description: 瞭解 Microsoft Teams 遠距健康、電子健康記錄 (EHR) 整�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: b88edf016ae59eab6f2d92b1671c39996cb38464
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfa67a90a2d6938d6bc2db9d65833c03450b6172
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627565"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730672"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Teams
 
@@ -63,7 +63,7 @@ Microsoft Teams 提供許多對醫院和其他健康照護組織實用的遠距�
 | [Teams 範本](#teams-templates-for-healthcare-organizations) | 建立團隊，其中包括預先定義設定和頻道範本及預先安裝的應用程式，以適用於在病房、Pod 或部門間或院內的多個病房、Pod 和各部門間的通訊和共同作業。 | 使用者必須擁有適當的授權*。  |
 | [協調照護與共同作業](#care-coordination-and-collaboration) | 臨床醫生和教職員可以內部協作排程、文件和工作等等。| 使用者必須擁有適當的授權*。 |
 
-*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5，支援商務標準。 如需一般 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](../../user-access.md)。
+*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5、商務標準版。 如需一般 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](../../user-access.md)。
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>虛擬看診與電子健康記錄 (EHR) 整合
 
@@ -72,7 +72,7 @@ Microsoft Teams 提供許多對醫院和其他健康照護組織實用的遠距�
 - 如果貴組織已經使用電子健康記錄或 EHR，您可以整合 Microsoft Teams 以獲得更順暢的體驗。 Microsoft Teams 電子健康記錄 (EHR) 連接器讓臨床醫生可以直接從 EHR 系統，在 Teams 中啟動虛擬病患就診或諮詢。 若要深入瞭解，請參閱 [Teams 的虛擬看診 - 整合至 EHR](ehr-admin.md)。
 - 如果您未使用受支援的 EHR，您可以使用 Microsoft Bookings 和 Teams 中的 Bookings 應用程式。 若要深入瞭解，請參閱 [Microsoft Teams 中的 Bookings 應用程式和虛擬看診](../../bookings-app-admin.md)。
 
-![使用 Microsoft Teams 進行虛擬看診](../../media/virtual-visits-teams.png)
+![使用虛擬Microsoft Teams。](../../media/virtual-visits-teams.png)
 
 ## <a name="teams-policy-packages"></a>Teams 原則套件
 
@@ -105,7 +105,7 @@ Microsoft Teams 提供許多對醫院和其他健康照護組織實用的遠距�
 
 讓您的健康小組一起協調照護，並與 Microsoft Teams 共同作業。
 
-![醫療保健：在 Teams 中與您的健康小組共同作業](../../media/teams-healthcare-collaborate-in-teams.png)
+![醫療保健：在 Teams 中與您的健康小組Teams。](../../media/teams-healthcare-collaborate-in-teams.png)
 
 Microsoft Teams 可讓醫生、臨床醫生、護士和其他員工更有效率的共同作業，藉由 Microsoft Teams 中包含的協同作業功能，例如：
 
@@ -134,7 +134,7 @@ Microsoft Teams 中的 [清單] 應用程式可協助追蹤資訊和整理工作
 
 以下是針對病患輪班設定的範例清單。
 
-:::image type="content" source="../../media/lists-patients-example.png" alt-text="病患輪班訪視的範例清單螢幕擷取畫面":::
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="病患進位範例清單的螢幕擷取畫面。":::
 
 若要深入了解，請參閱 [在 Teams 中管理貴組織的清單應用程式](../../manage-lists-app.md)。
 

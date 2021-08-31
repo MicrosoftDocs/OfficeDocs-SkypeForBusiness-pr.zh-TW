@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Android 裝置上遠端Teams和登錄
-ms.openlocfilehash: 31a247f7716d1e97ed3ed1e4b9b7f8d20d0881f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632197"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733312"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>在 Android 裝置上遠端Teams和登錄
 
@@ -70,7 +70,7 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 1. 從等待 **啟用的** 選項卡中，選取 **新增 MAC 識別碼**。
 
-   ![手動新增裝置 mac 位址](../media/remote-provision-6.png)
+   ![手動新增裝置 mac 位址。](../media/remote-provision-6.png)
 
 1. 輸入 MAC 識別碼。
 1. 輸入位置，協助技術人員識別安裝裝置的位置。
@@ -96,17 +96,17 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 當裝置已電源開啟並連接至網路時，技術人員會配置裝置。 這些步驟在裝置上Teams完成。
 
-1. 技術人員 **會從裝置** 上選取 **設定。**  
+1. 技術人員會從系統 **選取****設定。**  
 
-   ![從動作選項卡中置備新裝置選項](../media/provision-device1.png)
+   ![從動作選項卡中置備新裝置選項。](../media/provision-device1.png)
   
 2. 技術人員在提供的輸入欄位中輸入裝置專用驗證碼。
 
-   ![提供新裝置驗證](../media/provision-device-verification1.png)
+   ![提供新裝置驗證。](../media/provision-device-verification1.png)
 
    成功配置裝置後，租使用者名稱會顯示在登錄頁面上。
 
-   ![登錄頁面上的租使用者名稱](../media/provision-code.png)
+   ![登錄頁面上的租使用者名稱。](../media/provision-code.png)
 
 ## <a name="sign-in-remotely"></a>遠端登入
 
@@ -118,7 +118,7 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 2. 請遵循使用者登錄 **中的指示，** 然後選取 **關閉**。
 
-   ![個別裝置的使用者視窗](../media/sign-in-user.png)
+   ![個別裝置的使用者視窗。](../media/sign-in-user.png)
 
 ## <a name="related-article"></a>相關文章
 

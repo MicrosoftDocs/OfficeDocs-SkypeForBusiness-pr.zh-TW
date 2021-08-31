@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 841f471d548e26d9eb7eb876433330d3ecd20f67
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3cacf0ef5305ac1e7bc32ba1f0c8c91ab8ec723
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627445"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730832"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式權限原則
 
@@ -35,7 +35,7 @@ ms.locfileid: "58627445"
 
 您可以在 Microsoft Teams 系統管理中心管理應用程式權限原則。 您可以使用全域 (全組織預設值) 原則，或建立並指派自訂原則。 除非您建立並指派自訂原則，否則組織中的使用者將會自動取得全域原則。 編輯或指派原則之後，變更可能需要幾個小時的時間才會生效。
 
-![應用程式權限原則的螢幕擷取畫面](media/app-permission-policies.png)
+![應用程式權限原則的螢幕擷取畫面。](media/app-permission-policies.png)
 
 > [!NOTE]
 > 全組織應用程式設定會覆寫全域原則與您建立並指派給使用者的任何自訂原則。
@@ -53,7 +53,7 @@ ms.locfileid: "58627445"
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [Teams 應用程式 **]**  >  [權限原則 **]**。
 2. 按一下 [新增 **]**。<br>
-    ![新增應用程式權限原則的螢幕擷取畫面](media/app-permission-policies-new-policy.png)
+    ![新應用程式權限原則的螢幕擷取畫面。](media/app-permission-policies-new-policy.png)
 3. 輸入原則的名稱和描述。
 4. 在 [Microsoft 應用程式 **]**、[第三方應用程式 **]** 和 [自訂應用程式 **]** 下，選取下列其中一項：
 
@@ -86,17 +86,17 @@ ms.locfileid: "58627445"
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>管理 Microsoft 365 政府版的全組織應用程式設定  
 
-在 Microsoft 365政府 - GCCH 和 DoD Teams 部署中，瞭解協力廠商應用程式設定非常重要，這些設定是 GCCH 和 DoD 所特有的。
+在 Microsoft 365政府 - GCCH 和 doD Teams 部署中，瞭解協力廠商應用程式設定非常重要，這些設定是 GCCH 和 DoD 所特有的。
 
 在 GCCH 和 DoD 中，所有協力廠商應用程式預設會封鎖。 此外，您會在 Microsoft Teams 系統管理中心的應用程式權限原則頁面上，看到以下關於管理第三方應用程式的說明。
 
-![GCCH 和 DoD 中的應用程式權限原則螢幕擷取畫面](media/app-permission-policies-gcc.png)
+![GCCH 和 DoD 中的應用程式權限原則螢幕擷取畫面。](media/app-permission-policies-gcc.png)
 
 使用全組織應用程式設定來控制使用者是否可以安裝第三方應用程式。 全組織應用程式設定會控管所有使用者的行為，並覆寫指派給使用者的任何其他應用程式權限原則。 您可以使用這些原則來控制惡意或有問題的應用程式。
 
 1. 在 [權限原則 **]** 頁面上，選取 [全組織應用程式設定 **]**。 然後您就可以在面板中設定您要的設定。
 
-    ![全組織應用程式設定的螢幕擷取畫面](media/app-permission-policies-gcc-org-wide.png)
+    ![全組織應用程式設定螢幕擷取畫面。](media/app-permission-policies-gcc-org-wide.png)
     
 2. 在 [第三方應用程式 **]** 下，關閉或開啟這些設定，以控制對第三方應用程式的存取權：
 

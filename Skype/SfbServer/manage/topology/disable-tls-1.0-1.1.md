@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 在您的環境中準備及執行停用 TLS 1.0 和1.1。
-ms.openlocfilehash: f10aae3e85e7bcc00aceaf7acf9f22d57e921aa2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93ebf65101cd3e8ddc36a3a17e945035ad770d49
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608080"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731462"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中停用 TLS 1.0/1。1
 
@@ -462,7 +462,7 @@ Windows Registry Editor Version 5.00
 7. 請回到 Internet Explorer，並停 **用只使用 TLS 1.2** 的選項。
 8. 請再次流覽 SfB 2015 集區的內部 Web 服務 URL (應該會無法連接) 。
 
-![網際網路選項](../../media/internet-options.jpg)
+![網際網路選項。](../../media/internet-options.jpg)
 
 ## <a name="advanced-deployment-scenarios"></a>高級部署案例
 
@@ -521,14 +521,14 @@ Windows Registry Editor Version 5.00
 8. 安裝本機設定存放區 (步驟 1) ： 
      - 開啟部署嚮導，按一下 [安裝或更新商務用 Skype Server 系統]，然後按一下 [步驟1：安裝本機設定存放區] 中的 [**執行**]。
      - 在 [**安裝本機設定存放區**] 對話方塊中，按 **[下一步**]。
-     ![[安裝本機設定存放區] 對話方塊](../../media/local-configuration-store.png)
+     ![安裝本機設定存放區對話方塊。](../../media/local-configuration-store.png)
      - 檢查結果，並確定任務狀態為 [已完成]。 按一下 [ **查看記錄** 檔] 以複查所產生的記錄檔。
-     ![任務狀態顯示為已完成](../../media/local-configuration-task-completed.png)
+     ![工作狀態顯示為 [已完成]。](../../media/local-configuration-task-completed.png)
      - 按一下 **[完成]**。
 9.  (步驟 2) 設定或移除商務用 Skype Server 元件：
     - 開啟部署嚮導，按一下 [**安裝或更新商務用 Skype Server 系統**]，然後按一下 [步驟2：設定或移除商務用 Skype Server 元件] 中的 [**執行**]。
     - 在 [設定商務用 Skype Server 元件] 對話方塊中，按 **[下一步**]。
-    ![設定商務用 Skype Server 元件] 視窗](../../media/set-up-skype-for-business-server-components-window.png)
+    ![設定商務用 Skype Server 元件] 視窗。](../../media/set-up-skype-for-business-server-components-window.png)
     - 使用 View Log 複查記錄檔，並驗證安裝程式是否順利完成。 
     - 按一下 **[完成]**。
 10. 如有需要，繼續進行其他安裝和設定 (您可以在此點繼續正常安裝程式) 。

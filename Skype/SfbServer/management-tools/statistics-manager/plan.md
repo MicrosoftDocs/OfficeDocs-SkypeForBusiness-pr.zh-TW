@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 的統計資料管理員。
-ms.openlocfilehash: 17b01924db7522e2fefc9fbdf399d223429b6c4a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2ba909e5bcc526a40374f5f9fdbbcf15c1cf7c39
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612072"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730752"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>商務用 Skype Server 統計資料的規劃
 
@@ -122,7 +122,7 @@ ms.locfileid: "58612072"
 
 下圖顯示內部部署，其中的統計資料管理員網站、Hub、接聽程式和 Redis 快取系統會主控于單一機器上。 統計資料管理員監控三台商務用 Skype 伺服器，每個伺服器都有一個代理程式將資料傳送至監聽器。 使用者連線到單一網站，以查看統計資料管理員匯總的所有資料：
 
-![內部部署的統計管理員](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
+![內部部署的統計管理員。](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
 ## <a name="requirements"></a>需求
 <a name="BKMK_Requirements"> </a>

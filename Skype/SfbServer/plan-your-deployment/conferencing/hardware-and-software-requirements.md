@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 中會議的硬體和軟體需求。
-ms.openlocfilehash: 4f3eff319165a50aa52108903c5f091415a1018d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfc449abc2e01676a412fc0ead85eeae12aa2610
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603852"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733532"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>商務用 Skype Server 中會議的硬體和軟體需求
 
@@ -29,7 +29,7 @@ ms.locfileid: "58603852"
 
 **會議功能和需求**
 
-![會議元件](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
+![會議元件。](../../media/9359b98b-b3ab-46a1-acf0-93c7bab6fc67.png)
 
  如需拓撲考慮的相關資訊，請參閱[規劃商務用 Skype Server 的會議拓撲](conferencing-topology.md)。
 

@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 瞭解如何在 Microsoft Teams 中傳送包含其音訊會議資訊的電子郵件。
-ms.openlocfilehash: 7b92cfd6b030dab4dcf823abc17baeb048a0dc42
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 瞭解如何在 Microsoft Teams 中傳送包含其音訊會議資訊Microsoft Teams。
+ms.openlocfilehash: 20050f2e4c0e2c8905b552e914c39b72de63c439
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594495"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733232"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>將電子郵件傳送給使用者，並將他們的音訊會議資訊Microsoft Teams
 
@@ -40,16 +40,16 @@ ms.locfileid: "58594495"
    
 以下是所寄電子郵件的範例：
   
-![電話撥入式會議電子郵件訊息範例](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![電話撥入式會議電子郵件訊息的範例。](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>傳送包含音訊會議資訊的電子郵件給使用者
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
+### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
 
-1. 在左側導覽中， **按一下 [使用者**，然後從可用使用者清單中選取使用者。
+1. 在左側導覽中， **按一下 [使用者**」，然後從可用使用者清單中選取使用者。
 
 2. 按一下頁面頂端的 [ **編輯>**。
 

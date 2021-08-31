@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 瞭解如何從內部尋找音訊會議可用的電話撥入式Microsoft Teams。
-ms.openlocfilehash: 3e4e1c80d04cdb07b9d2d7ce993f4cab28de2155
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 瞭解如何在 Microsoft Teams 中尋找音訊會議可用的電話撥入式Microsoft Teams。
+ms.openlocfilehash: ccf10c9ce1a7869f271b781a9f772bffb00934d7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601108"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734012"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在清單中查看音訊會議號碼Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "58601108"
   
  **想要尋找價格嗎？** 請參閱 [音訊會議的價格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
   
-如果貴組織中只有一個電話號碼可用，它會做為所有使用者的預設號碼。 當有多個電話號碼可用時，您可以選取每個使用者的預設電話號碼。 此預設號碼會包含在會議邀請Microsoft Teams中。
+如果貴組織只有一個可用的電話號碼，它會做為所有使用者的預設號碼。 當有多個電話號碼可用時，您可以選取每個使用者的預設電話號碼。 此預設號碼會包含在會議邀請Microsoft Teams中。
   
 您可以看見設定 [邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md) ，以變更單一使用者的撥入電話號碼。
 
@@ -44,7 +44,7 @@ ms.locfileid: "58601108"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>若要查看您的音訊會議電話號碼
 
-![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。 
 2. 查看音訊會議可用的電話號碼。

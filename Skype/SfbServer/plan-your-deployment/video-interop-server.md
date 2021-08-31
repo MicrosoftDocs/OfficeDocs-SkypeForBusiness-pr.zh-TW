@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 摘要：在規劃將商務用 Skype Server 與協力廠商電話會議裝置進行整合時，複查這個主題。
-ms.openlocfilehash: 0e94a7fc84d4174c3fe562355a6550a1b77d909c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0210082f4e505152833b68c182ddfcdd1ea7c2dc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607900"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731422"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃視頻 Interop 伺服器
  
@@ -56,7 +56,7 @@ ms.locfileid: "58607900"
 
 影片 Interop 伺服器的運作 SIP 主幹模式，VTCs 會繼續向現有的 Cisco 基礎結構註冊，例如，Cisco 通話管理員 (CUCM) 。 影片的 SIP 主幹會定義在 CUCM 和 VIS 之間，以便通話可以在兩個系統間路由傳送。 只支援從 VTC 到 VIS 的 SIP 主幹呼叫。 因此，VTCs 可以撥打與自動語音應答) 相關聯的電話號碼，但無法將其拖曳及放入會議中，可以撥打商務用 Skype 會議 (。
   
-![SfB 中的 VIS 圖表](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
+![SfB 中的 VIS 圖表。](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
   
 ## <a name="features"></a>功能
 
@@ -101,7 +101,7 @@ VIS 支援來自透過影片 SIP 主幹的 CUCM 傳入的呼叫。 可能會遺�
   
 1. **VIS 集區容錯移轉** 如果影片閘道指向的主 VIS 集區已停機，當影片閘道已定義主幹至兩個 (或更多) VIS 集區時，可能會復原。 如果影片閘道決定它無法呼叫主要 VIS 集區，它只會將通話路由傳送至次要 VIS 集區。
     
-     ![VIS 集區容錯移轉圖表](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
+     ![VIS 集區容錯移轉圖表。](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
   
     特定的 VIS 集區可以有主幹多個閘道，但通常特定閘道不能有主幹至多個 VIS 集區，因此必須執行一項技巧，以支援此容錯移轉：在 DNS 中定義2個 FDQNs，以解析為一個視頻閘道的 IP 位址。 將每個 FQDN 都表示為拓撲檔中的個別影片閘道，其中每個影片閘道都具有不同 VIS 集區的主幹，而且現在可以進行復原。  (如果使用 TLS，多個名稱將需要位於視頻閘道憑證的 SAN 中。 ) 
     
@@ -110,7 +110,7 @@ VIS 支援來自透過影片 SIP 主幹的 CUCM 傳入的呼叫。 可能會遺�
   
 2. **前端容錯移轉** 如果 VIS 集區接收到來自 CUCM 的呼叫，但無法抵達其主要的下一個躍點註冊機構或前端集區，則會將通話路由傳送至備份前端集區。
     
-     ![前端容錯移轉圖表](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
+     ![前端容錯移轉圖表。](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
   
     VIS 將追蹤其主要前端集區和其備份前端集區的狀態 (此設定會在 [拓撲檔) 中的註冊機服務備份設定中找到。 這兩個集區的每一分鐘都會傳送一次選項，而且如果有五個連續的失敗，VIS 會認為特定前端集區已停機。 如果主要前端集區標示為 [停機]，且有可用的已設定備份，VIS 會將新呼叫從閘道傳送至備份前端集區。 當主要前端集區回到後，VIS 將會繼續使用主要前端集區進行新的呼叫。
     

@@ -18,18 +18,18 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在會議中隱藏Microsoft Teams電話號碼
-ms.openlocfilehash: 1a006450c1d98e6db0b02ceb953682efdbe3fd6a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f9e7fd76f0b9afa9776e554cbde87a0b302c7011
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631987"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733762"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>在會議中遮罩Microsoft Teams電話號碼
 
-為了增加隱私權，使用音訊會議撥入Teams會議的參與者電話號碼會完整顯示給內部參與者。 這些號碼會遮罩組織外部的參與者。 此設定是所有組織的預設值。 遮罩數位會顯示如下圖像所示：
+為了增加隱私權，使用音訊會議撥入Teams會議的參與者電話號碼會完整顯示給內部參與者。 這些號碼會遮罩組織外部的參與者。 這項設定是所有組織的預設值。 遮罩數位會顯示如下圖像所示：
 
-![遮罩電話號碼的範例](media/hiddenPhoneNum.png)
+![遮罩電話號碼的範例。](media/hiddenPhoneNum.png)
 
 針對特定的產業使用案例，系統管理員可以選擇音訊會議參與者的電話號碼在租使用者中組織會議時顯示方式。 系統管理員可以從三個選項中選擇：
 

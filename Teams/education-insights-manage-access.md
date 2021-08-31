@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae8cfa1ea62472255825684d2e168be1411bb643
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604532"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730682"
 ---
 # <a name="manage-user-access-to-education-insights"></a>管理 Education Insights 的使用者存取權
 
@@ -41,7 +41,7 @@ ms.locfileid: "58604532"
 
 * 開啟 Insights 應用程式，按一下 **[設定]**，然後選取 **[使用者權限]**
 
-:::image type="content" source="media/insights-user-permissions.png" alt-text="設定":::
+:::image type="content" source="media/insights-user-permissions.png" alt-text="設定。":::
 
 > [!NOTE]
 > 當您提供組織層級的權限時，使用者可以在其下方查看所有組織單位。
@@ -62,14 +62,14 @@ ms.locfileid: "58604532"
 
   您將可以在您的教育組織中查看角色清單，每個角色階層中的層級、指派給角色的使用者數量，和角色的權限等級。 
   
-  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="角色權限":::
+  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="角色型權限。":::
   
   如果角色具有多個組織層級，該角色會顯示多次，每個層級出現一次。 在螢幕擷取畫面中，我們同時有學校與行政區層級的安全性主體，因此 'principal' 有兩行。
   
 * 針對每個角色，按一下鉛筆圖示以選取權限等級。 預設值為角色沒有查看 Insights 的權限。
 * 選取權限等級 - **檢視其組織的資料** 或 **無**。
 
-  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="角色權限面板":::
+  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="角色型權限面板。":::
   
   如果您在清單上看到需要更細微權限等級的使用者，請在[從 SIS 匯入的資料](education-insights-sis-data-sync.md)調整他們的的角色和/或組織，並[將個別權限授予他們](#grant-individual-permission-to-a-user) (如有需要)。
 
@@ -86,7 +86,7 @@ ms.locfileid: "58604532"
   
   您將看到您教育組織中的使用者已獲授予個別權限。 
   
-  :::image type="content" source="media/insights-individual-permissions.png" alt-text="個別權限":::
+  :::image type="content" source="media/insights-individual-permissions.png" alt-text="個別權限。":::
   
 ### <a name="grant-individual-permission-to-a-user"></a>將個別權限授予使用者
 * 按一下畫面左側的 **授予個別權限**。
@@ -103,6 +103,6 @@ ms.locfileid: "58604532"
   * **特定組織** 表示使用者會看到選取的組織單位，以及其下的所有組織單位。 開始輸入，然後從清單中選取組織單位。
   * **無** 表示使用者只會看到由其角色自動指派的組織單位 (如果有)。
   
-  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="個別權限面板":::
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="個別權限面板。":::
 
 * 按一下 **[儲存變更]** 以儲存。

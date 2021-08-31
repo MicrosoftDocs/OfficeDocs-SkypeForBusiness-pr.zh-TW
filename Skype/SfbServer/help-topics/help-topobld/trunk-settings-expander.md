@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 若要編輯或修改 SIP 主幹的設定，請執行下列動作：
-ms.openlocfilehash: 64db5a170c09a1563797bba27f7c427f73af6a9b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cdbd7a5fc1d49022516298923c61153d78679c0a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599084"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731512"
 ---
 # <a name="trunk-settings-expander"></a>主幹設定展開工具
 
@@ -41,9 +41,9 @@ ms.locfileid: "58599084"
 
  **關聯的轉送伺服器埠**：必要值，此值會設定為轉送伺服器設定為接聽的值。
 
-![主幹設定展開工具](../../media/Trunk_Settings_Expander.jpg)
+![主幹設定展開器。](../../media/Trunk_Settings_Expander.jpg)
 
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>也請參閱
 
 [SIP 主幹部署檢查表](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunk-deployment-checklist)
 

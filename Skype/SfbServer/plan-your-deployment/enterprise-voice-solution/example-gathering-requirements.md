@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: 提供在商務用 Skype Server 企業語音中規劃通話許可控制的詳細範例，包括收集網路網站、地區及頻寬的相關資訊。
-ms.openlocfilehash: 88af4148bbdd4063f3897d246a7c56795928ad01
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 180e62ca2784186c4cd9e646548183ddbcfeac30
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590988"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731452"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>範例：在商務用 Skype Server 中收集通話許可控制的需求
 
@@ -57,7 +57,7 @@ ms.locfileid: "58590988"
 
    **範例企業網路分成三個網路地區**
 
-     ![具有3個網路地區的網路拓撲範例](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
+     ![具有3個網路地區的網路拓撲範例。](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
     > Multiprotocol Label Switching (MPLS) 網路應呈現為每個地理位置皆有其對應網站的網路地區。 如需詳細資訊，請參閱[商務用 Skype 中的通話許可控制元件和拓撲](components-and-topologies.md)。 
@@ -109,7 +109,7 @@ ms.locfileid: "58590988"
 
    **CAC 網路地區「北美地區」，其中有三個網站不受頻寬限制 (芝加哥、紐約與底特律)，三個網站受 WAN 頻寬限制 (波特蘭、雷諾與阿布奎基)**
 
-     ![受 WAN 頻寬限制的網路網站範例](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
+     ![受 WAN 頻寬限制的網路網站範例。](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
 
 5. 為每個頻寬受限的 WAN 連結決定下列項目：
 
@@ -187,7 +187,7 @@ ms.locfileid: "58590988"
 
    **網路地區連結與相關聯的頻寬限制**
 
-     ![3個地區之間的限制範例](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
+     ![3個地區之間的限制範例。](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
 
    **地區連結頻寬資訊 (頻寬以 kbps 為單位)**
 
@@ -225,7 +225,7 @@ ms.locfileid: "58590988"
 
    **CAC 網路地區「北美地區」，顯示雷諾與阿布奎基兩者間之網站間連結的頻寬容量與頻寬限制**
 
-     ![受 WAN 頻寬限制的網路網站範例](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
+     ![受 WAN 頻寬限制的網路網站範例。](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
 
    **兩個網站間之網站間連結的頻寬資訊 (頻寬以 kbps 為單位)**
 
