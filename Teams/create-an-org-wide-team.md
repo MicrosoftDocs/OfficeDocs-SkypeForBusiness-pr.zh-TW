@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解如何在 Teams 中建立及管理全組織團隊，為中小型企業中的每個人提供自動共同合作的方式。
+description: 瞭解如何在組織中建立及管理全組織Teams，為中小型企業中的每個人提供自動共同合作的方式。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6faac9e0c04f71bddb69b0a8bd7748072699edb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a3322c55e61fc674be6647b192aff86e4412975
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589747"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728202"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>在組織中建立全組織Microsoft Teams
 
@@ -34,15 +34,15 @@ ms.locfileid: "58589747"
 
 只有全域系統管理員可以建立全組織團隊。 目前，全組織團隊僅限不超過 10，000 個使用者的組織。 每個租使用者也有五個全組織團隊的限制。 建立團隊時，如果符合這些要求，全域系統管理員在選取從頭開始建立團隊時，會看到全組織 **為選項**。 
 
-![建立全組織團隊之全組織選項的螢幕擷取畫面](media/create-org-wide-team.png "建立全組織團隊之全組織選項的螢幕擷取畫面")
+![建立全組織團隊之全組織選項的螢幕擷取畫面。](media/create-org-wide-team.png "建立全組織團隊之全組織選項的螢幕擷取畫面")
 
-建立全組織團隊時，所有全域系統管理員Teams服務系統管理員會新增為團隊擁有者，所有使用中的使用者會新增為小組成員。 未授權的使用者也會新增至小組。 未授權使用者第一次登Teams時，會指派使用者Microsoft Teams探索授權。 若要深入瞭解探索授權，請查看管理探索Microsoft Teams[授權](teams-exploratory.md)。 
+建立全組織團隊時，所有全域系統管理員Teams服務系統管理員會新增為團隊擁有者，所有使用中的使用者會新增為小組成員。 未授權的使用者也會新增至小組。 未授權使用者第一次登Teams時，系統會指派使用者Microsoft Teams探索授權。 若要深入瞭解探索授權，請查看管理探索Microsoft Teams[授權](teams-exploratory.md)。 
 
 下列類型的帳戶不會新加入整個組織的小組：
 
 - 被封鎖而無法登入的帳戶
 - 來賓使用者
-- 例如，資源 (服務帳戶，例如與自動話務員和通話佇列相關聯的) 
+- 例如，資源 (服務帳戶，例如與自動電話機和通話佇列相關聯的) 
 - 會議室或設備帳戶
 - 共用信箱支援的帳戶
 
@@ -52,7 +52,7 @@ ms.locfileid: "58589747"
 > - 如果您在建立團隊時沒看到全組織選項，而您是全域系統管理員，表示您可能已達到五個全組織團隊限制，或貴組織可能超過目前 10，000 個成員的大小限制。 我們預計在未來增加這個限制。 Teams 教育版目前無法使用全組織小組。
 > - 非會議室清單、設備和資源帳戶的一部分，可能會新增或同步到整個組織的小組。 小組擁有者可輕鬆地從小組移除這些帳戶。
 > - 系統新增或移除成員的所有動作會張貼在 [一般] 頻道。 頻道也會標示為在 Teams 用戶端中有新的活動。
-> - 如果貴組織是新使用者，且使用者不超過 5，000 人Teams我們會自動為貴組織建立全組織團隊。 小組名稱會反映租用戶名稱，並擁有 [一般] 頻道。 全域系統管理員可以像其他任何小組一樣編輯這個小組。
+> - 如果您的組織是新使用者，且使用者不超過 5，000 人，我們會自動為貴組織Teams建立全組織團隊。 小組名稱會反映租用戶名稱，並擁有 [一般] 頻道。 全域系統管理員可以像其他任何小組一樣編輯這個小組。
 
 ## <a name="best-practices"></a>最佳做法
 
@@ -62,7 +62,7 @@ ms.locfileid: "58589747"
 
 只允許小組擁有者張貼到 [一般] 頻道，以減少頻道「紛擾」。 
 
-1. 請前往小組，找出一般頻道，然後選取 **1 100 1000 1000 1000 1000 2013 -2013**-2013-201331331133113311  >   
+1. 請前往小組，找出一般頻道，然後選取 1 1999 年 **12 月 15** 日管理頻道的更多  >  **選項**。 
 2. 在 [**頻道設定」** 選項卡上，按一下 **[許可權**」，然後選取 [只有 **擁有者可以張貼訊息。**
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>關閉 @team 和 @[小組名稱] 提及項目
@@ -93,9 +93,9 @@ ms.locfileid: "58589747"
 
 ## <a name="faq"></a>常見問題集
 
-### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>除了使用用戶端外，還有其他建立全組織Teams的方法嗎？
+### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>除了使用用戶端外，是否有建立整個組織Teams的方法？
 
-全域系統管理員只能使用全域用戶端建立整個Teams團隊。 如果貴組織將建立小組限制為使用 PowerShell，建議的因應措施是將您的全域系統管理員新增至可建立小組的使用者安全性群組。
+全域系統管理員只能使用用戶端建立整個組織Teams團隊。 如果貴組織將建立小組限制為使用 PowerShell，建議的因應措施是將您的全域系統管理員新增至可建立小組的使用者安全性群組。
 
 詳細資訊，請參閱管理 [誰可以建立群組](/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 
@@ -106,11 +106,11 @@ ms.locfileid: "58589747"
 
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-organization-wide-team"></a>是否有將現有團隊轉換成全組織團隊的方法？
 
-全域系統管理員可以在用戶端中編輯現有團隊，將其轉換為全組織Teams團隊。 移至小組名稱，按一下 [更多選項]  >  [編輯小組]。
+全域系統管理員可以在用戶端中編輯現有團隊，將現有團隊轉換成Teams團隊。 移至小組名稱，按一下 [更多選項]  >  [編輯小組]。
 
 ### <a name="can-i-create-an-organization-wide-team-using-a-team-template"></a>我可以使用小組範本建立全組織團隊嗎？
 
-小組範本無法用來建立全組織的小組。 這項功能目前正在使用中。 
+小組範本無法用來建立全組織的小組。 此功能目前正在使用中。 
 
 ## <a name="see-also"></a>另請參閱
 

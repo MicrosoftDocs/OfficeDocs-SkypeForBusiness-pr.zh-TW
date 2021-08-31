@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 摘要：在實施商務用 Skype Server 之前，請先複查本主題中的 DNS 考慮。
-ms.openlocfilehash: d065ad5d893cd42b853a3510bbda1c8449c6e970
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a39cbfc05505e6c53b8874e3611dea8dae9d8c0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610620"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730372"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>商務用 Skype Server 的 DNS 需求
 
@@ -82,7 +82,7 @@ ms.locfileid: "58610620"
 
 **使用公用 IPv4 位址的 Edge network 圖表**
 
-![DNS 網狀圖表範例](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
+![DNS network 圖表的範例。](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
 
 **內部和外部介面 (周邊網路 DNS 對應)**
 

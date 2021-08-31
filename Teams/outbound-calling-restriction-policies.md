@@ -21,18 +21,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 系統管理員可以控制使用者可撥打的音訊會議和使用者 PSTN 通話類型。
-ms.openlocfilehash: 9e7f656cd51131237507cc184e021128a33d9268
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe63a29bf4cde46ee881d7a425839073ed4b4b7f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598407"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730322"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音訊會議和使用者 PSTN 通話的撥出通話限制原則
 
-做為系統管理員，您可以使用輸出通話控制項來限制音訊會議類型，以及使用者公用交換電話網路 (PSTN) 使用者可以撥打的通話。
+做為系統管理員，您可以使用外撥通話控制項來限制音訊會議類型，以及使用者公用交換電話網路絡 (PSTN) 通話類型，讓貴組織的使用者進行通話。
 
-外發通話控制項可以依據每個使用者或租使用者來使用，並提供下列兩種控制項來獨立限制每種類型的外發通話。 根據預設，這兩個控制項都設定為允許國際和國內外發通話。
+外發通話控制項可以依據每個使用者或租使用者來使用，並提供下列兩個控制項來獨立限制每種類型的外發通話。 根據預設，這兩個控制項都設定為允許國際和國內外發通話。
 
 |控制|描述|控制項選項|
 |:-----|:-----|:-----|
@@ -42,14 +42,14 @@ ms.locfileid: "58598407"
 若要瞭解哪些國家和地區被視為區域 A，請參閱音訊會議的國家和地區 [區域](audio-conferencing-zones.md)。
 
    > [!NOTE]
-   > 如果撥打的號碼位於為會議 (的召集人設定 Microsoft 365 或 Office 365 的同一個國家/地區，或是使用者) ，或使用者 (在使用者 PSTN 通話) 的情況下，則呼叫會視為國內通話。
+   > 如果撥打的號碼位於為會議 (的召集人設定 Microsoft 365) 或 Office 365 的同一個國家/地區，或是使用者 (在使用者 PSTN 通話) 的情況下，則電話會視為國內通話。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>限制音訊會議輸出通話
 
-![Microsoft Teams標誌 使用 ](media/teams-logo-30x30.png) **Microsoft Teams系統管理中心**
+![Microsoft Teams標誌。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中， **選取使用者**，然後從可用使用者清單中選取使用者的顯示名稱。
 
@@ -59,7 +59,7 @@ ms.locfileid: "58598407"
 
 5. 選取 [儲存 **]**。
 
-![商務用 Skype 標誌圖示](media/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
+![顯示標誌圖示商務用 Skype圖示。](media/sfb-logo-30x30.png) **使用 商務用 Skype系統管理中心**
 
 1. 在 **商務用 Skype系統** 管理中心，在左側導覽中，前往音訊會議使用者，然後從可用  >  使用者清單中選取使用者。
 
@@ -67,7 +67,7 @@ ms.locfileid: "58598407"
 
 3.  在 **此使用者會議** 撥出的限制下，選取您想要的撥出限制選項。
 
-      ![撥出限制選項](media/restrictions-to-dial-outs.png)
+      ![撥出限制選項。](media/restrictions-to-dial-outs.png)
 
 4. 選取 [儲存 **]**。
 
@@ -78,7 +78,7 @@ ms.locfileid: "58598407"
 
 輸出通話限制是由稱為 OnlineDialOutPolicy 的單一策略控制，每個策略都有一個限制屬性。 無法自訂該策略，而是每個設定組合都有預先定義的策略實例。
 
-您可以使用 Get-CSOnlineDialOutPolicy Cmdlet 來查看外寄通話政策，並使用下列命令進行設定。
+您可以使用 Cmdlet Get-CSOnlineDialOutPolicy Cmdlet 來查看外寄通話政策，並使用下列命令進行設定。
 
 **使用下列 Cmdlet** 將策略設定為每個使用者層級。  (Grant Cmdlet 不包含 「線上」一詞，就像 Get Cmdlet 一樣。) 
 
@@ -86,7 +86,7 @@ ms.locfileid: "58598407"
 Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>    
 ```
 
-**使用下列 Cmdlet 在租使用者層級設定策略**。
+**使用下列 Cmdlet 在** 租使用者層級設定策略。
 
 ```
 Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 摘要：流覽下列連結，以瞭解如何開發概念、邏輯及實體設計，以設定商務用 Skype Server 2019 的功能、伺服器及拓撲。
-ms.openlocfilehash: 3378c8d647230a87fe79cf28eee4614a693e7b66
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f3db20e81646418f6f7a2b49001573155ed3fabd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594957"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728392"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>規劃商務用 Skype Server 2019 部署
  
@@ -35,9 +35,9 @@ ms.locfileid: "58594957"
 
 請查看下列資源，以取得如何規劃商務用 Skype Server 部署的相關資訊。
   
-||內容|描述|
+||內容|說明|
 |:--- |:--- |:--- |
-|![影片圖示](../media/get_started.png)|<UL><LI>[商務用 Skype：快速簡介](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) </li><li>  [商務用 Skype：新增使用者的逐步指南](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)</li></ul>   |探索商務用 Skype 的影片簡報和訓練。    |
+|![影片圖示。](../media/get_started.png)|<UL><LI>[商務用 Skype：快速簡介](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) </li><li>  [商務用 Skype：新增使用者的逐步指南](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)</li></ul>   |探索商務用 Skype 的影片簡報和訓練。    |
    
 ## <a name="articles-about-planning-for-skype-for-business-server"></a>規劃商務用 Skype Server 的相關文章
 
@@ -45,7 +45,7 @@ ms.locfileid: "58594957"
   
 |規劃解決方案|規劃伺服器架構、用戶端和裝置|
 |:-----|:-----|
-|![方案內容的圖示](../media/success.png) <br>  請閱讀下列文章，以判定適合貴組織的解決方案：    |![伺服器架構內容的圖示](../media/get_started.png)  <br> 請閱讀下列文章，以規劃伺服器架構，以及用戶端和裝置支援：    |
+|![方案內容的圖示。](../media/success.png) <br>  請閱讀下列文章，以判定適合貴組織的解決方案：    |![伺服器架構內容的圖示](../media/get_started.png)  <br> 請閱讀下列文章，以規劃伺服器架構，以及用戶端和裝置支援：    |
 |**[在商務用 Skype Server 中規劃立即訊息和目前狀態](../../SfbServer/plan-your-deployment/instant-messaging-and-presence.md)**<br/><br/> 立即訊息 (IM) 及顯示狀態的需求為何？ 雖然立即訊息 (IM) 和目前狀態，並包含在每個商務用 Skype Server 的部署中，但您需要針對技術需求進行決策、與外部使用者的通訊，以及封存。 <br/> | **[商務用 Skype Server 2019 的系統需求](system-requirements.md)**  <br/> **[規劃商務用 Skype 的網路需求](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md)**<br/> <br/>  您將會想要先閱讀這些主題，以判斷商務用 Skype Server 的必要條件。    |
 |**[規劃商務用 Skype Server 中的企業語音](../../SfbServer/plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)** <br/><br/>您的語音需求為何？ 定義如何將貴組織的電話系統與您的商務用 Skype Server 部署整合。 <br/> 企業語音是最完整的語音服務--透過 IP 語音 (VoIP) 解決方案，提供豐富的功能集合，包括與 Outlook 和 Exchange 整合。<br/>「透過公司通話」為您提供整合您的商務用 Skype 解決方案與現有 PBX 電話系統的方法。   |**[商務用 Skype Server 的拓撲基礎](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md)** <br/><br/>準備其他任何專案之前，您會想知道您在規劃商務用 Skype Server 部署的適當拓撲。 您必須決定的第一件事是，如果您要部署商務用 Skype Server 的內部部署，或是您想要將它與混合式部署中的商務用 Skype Server 線上部署結合使用。 請閱讀本節中的主題，以規劃您的拓撲和伺服器組合案例。   |
 |**[在商務用 Skype Server 中規劃視頻 Interop 伺服器](../../SfbServer/plan-your-deployment/video-interop-server.md)** <br/><br/>您的組織有哪些影片需求？ 商務用 Skype Server 的視頻 Interop 伺服器可以與 Cisco 電話會議系統直接整合 (VTCs) 。 <br/>閱讀有關影片功能和技術需求的資訊。   |**[商務用 Skype Server 2019 的遷移](../migration/migration-to-skype-for-business-server-2019.md)** <br/> <br/>您是否從舊版的 Lync Server 或商務用 Skype 升級？ 尋找如何規劃升級的相關資訊。   |
@@ -58,8 +58,8 @@ ms.locfileid: "58594957"
 
 您可以從其他主題專家取得下列有關如何規劃商務用 Skype Server 的資源。 
   
-|&nbsp;&nbsp;&nbsp;|內容|描述|
+|&nbsp;&nbsp;&nbsp;|內容|說明|
 |:--- |:--- |:--- |
-|![DMC 圖示](../media/paragraph_writing.png)| [適用于 IT 專業人員的商務用 Skype Server](../../Hub/index.yml)   |流覽 docs.microsoft.com 和資源中心以存取影片、社區網站、檔、下載等等。    |
-|![開發人員內容的圖示](../media/developer.png)|[Skype開發人員平臺](/skype-sdk/skypedeveloperplatform)   | 尋找商務用 Skype Server 的開發人員資源，包括程式碼範例、訓練與 sdk。    |
-|![新聞、博客等的圖示](../media/blog_site.png) | <UL><LI>[變更管理和採用](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office 部落格](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365技術博客](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype 小組網路](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |從建立及記錄商務用 Skype Server 的小組中追蹤新聞。    |
+|![DMC 圖示。](../media/paragraph_writing.png)| [適用于 IT 專業人員的商務用 Skype Server](../../Hub/index.yml)   |流覽 docs.microsoft.com 和資源中心以存取影片、社區網站、檔、下載等等。    |
+|![開發人員內容的圖示。](../media/developer.png)|[Skype開發人員平臺](/skype-sdk/skypedeveloperplatform)   | 尋找商務用 Skype Server 的開發人員資源，包括程式碼範例、訓練與 sdk。    |
+|![新聞、博客等的圖示。](../media/blog_site.png) | <UL><LI>[變更管理和採用](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office 部落格](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365技術博客](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype 小組網路](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |從建立及記錄商務用 Skype Server 的小組中追蹤新聞。    |

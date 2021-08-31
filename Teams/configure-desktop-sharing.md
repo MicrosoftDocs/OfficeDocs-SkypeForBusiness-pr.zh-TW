@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad66efadda775c11ab653cbe1bc46b2c5a4ab3c3a80edf77265dddabbb71c4a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 973ed6056ae8e73b79d7596b2f325cda8cdc48b1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347278"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732312"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft Teams 中設定桌面共用
 
@@ -39,11 +39,11 @@ ms.locfileid: "54347278"
 
 1. 選取 [會議] > [會議原則]。
 
-    ![已選取會議政策](media/configure-desktop-sharing-image1.png)
+    ![已選取會議政策。](media/configure-desktop-sharing-image1.png)
 
 2. 在會議 **政策頁面上****，選取** 新增 。
 
-    ![會議政策訊息](media/addMeeting.png)
+    ![會議政策訊息。](media/addMeeting.png)
 
 3. 為您的原則指定唯一的標題，然後輸入簡短的描述。
 
@@ -53,7 +53,7 @@ ms.locfileid: "54347278"
    - **單一應用程式**：讓使用者將螢幕畫面分享限制在單一使用中的應用程式。
    - **已停用**：關閉螢幕畫面分享。
 
-    ![共用模式選項](media/configure-desktop-sharing-image3.png)
+    ![共用模式選項。](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
   > 您不需要啟用通話策略，使用者才能從聊天使用螢幕共用。 不過，他們的音訊會關閉，直到他們自行取消靜音。 此外，共用螢幕的使用者可以按一下 [ **新增音訊** > 以啟用音訊。 如果通話政策已停用，使用者將無法從聊天會話將音訊新增到螢幕共用。

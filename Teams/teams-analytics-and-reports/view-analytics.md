@@ -13,15 +13,15 @@ ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-collaboration
-description: 瞭解 Teams 中的跨團隊分析、每個團隊分析，以及每個頻道分析，讓使用者查看他們參與的團隊或頻道的使用狀況資料。
+description: 瞭解 Teams 中的跨小組分析、每個小組分析，以及每個頻道的分析，讓使用者查看他們參與的團隊或頻道的使用狀況資料。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0aa140482188436a08732638196af64402e6ed15
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54abc3545ca6d2935a78e3924cbd62e948c02bf1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606996"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731732"
 ---
 # <a name="view-analytics-in-teams"></a>在 Teams
 
@@ -35,11 +35,11 @@ ms.locfileid: "58606996"
 
 ## <a name="view-cross-team-analytics"></a>查看跨小組分析
 
-1. 在 Teams中，按一下團隊清單底部的 [加入或建立團隊的旁邊，按一下 **[管理團隊>**。
+1. 在 Teams中，按一下團隊清單底部的 [加入或 **建立** 團隊的旁邊，按一下 **[管理團隊**> 。
 2. 按一下 [ **分析>** 選項卡。
 3. 選取日期範圍以顯示您為成員或擁有者之所有團隊的使用狀況資料。
 
-    ![跨小組分析視圖的螢幕擷取畫面](../media/view-analytics-cross-team.png)
+    ![跨小組分析視圖的螢幕擷取畫面。](../media/view-analytics-cross-team.png)
 
     |項目 |描述  |
     |--------|-------------|
@@ -57,7 +57,7 @@ ms.locfileid: "58606996"
 2. 按一下 [ **分析>** 選項卡。
 4. 選取日期範圍以顯示團隊的使用狀況資料。  
 
-    ![每個小組分析視圖的螢幕擷取畫面](../media/view-analytics-per-team.png)
+    ![每個小組分析視圖的螢幕擷取畫面。](../media/view-analytics-per-team.png)
 
     |項目 |描述  |
     |--------|-------------|
@@ -76,7 +76,7 @@ ms.locfileid: "58606996"
 2. 按一下 [ **分析>** 選項卡。
 3. 選取日期範圍以顯示頻道的使用狀況資料。  
 
-    ![每個頻道分析視圖的螢幕擷取畫面](../media/view-analytics-per-channel.png)
+    ![每個頻道分析視圖的螢幕擷取畫面。](../media/view-analytics-per-channel.png)
 
     |項目 |描述  |
     |--------|-------------|

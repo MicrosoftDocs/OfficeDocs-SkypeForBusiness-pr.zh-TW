@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 在商務用 Skype Server 企業語音中規劃會議的位置基礎路由，包括顧問式來電轉接。
-ms.openlocfilehash: e5f49dfcc798f4871ff9ecc1ed2fec1beacad8e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: de074dae5e51156a0926956adcbc2260ed365d8f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629525"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733172"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based 商務用 Skype Server 中的會議路由
 
@@ -67,7 +67,7 @@ Location-Based 路由會議應用程式供應商務用 Skype 會議，以防範 
 > [!NOTE]
 > 使用商務用 Skype 累計更新4時，應遵循下清單格中的行為：
 
-|使用者|其他聚會|動作|結果|
+|User|其他聚會|動作|結果|
 |:-----|:-----|:-----|:-----|
 |商務用 Skype移動  <br/> |PSTN  <br/> |商務用 SkypeMobile 位於 PSTN 通話中。 商務用 Skype行動裝置接著會將通話升級為會議自動語音應答 (CAA) 。  <br/> |通話遭到封鎖，並顯示適當的錯誤訊息。  <br/> |
 |商務用 Skype移動  <br/> |商務用 Skype用戶端或同盟使用者  <br/> |用戶端或同盟使用者在商務用 Skype 行動 Location-Based 路由使用者上的 VoIP 呼叫，並將其中一方升級至 CAA。  <br/> |會封鎖呈報通話，並顯示適當的錯誤訊息。  <br/> |
@@ -78,7 +78,7 @@ Location-Based 路由會議應用程式供應商務用 Skype 會議，以防範 
 
 **諮詢通話轉接通話流程**
 
-![會議圖表的位置基礎路由](../../media/LocationBasedRoutingForConferencing.jpg)
+![會議圖表的位置基礎路由。](../../media/LocationBasedRoutingForConferencing.jpg)
 
 當啟用 Location-Based 路由的使用者啟動對 pstn 端點的諮詢來電轉接時 (如前圖所示) 所示，這會建立兩個使用中的呼叫、pstn 使用者與商務用 Skype 使用者 a 之間的呼叫，以及商務用 Skype 使用者 a 和商務用 Skype 使用者 B 之間的另一個呼叫。下列行為是針對會議應用程式的 Location-Based 路由強制執行：
 

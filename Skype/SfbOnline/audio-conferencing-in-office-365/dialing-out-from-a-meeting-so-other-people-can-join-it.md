@@ -21,27 +21,27 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 瞭解您需要什麼，以及會議召集人如何使用會議商務用 Skype。
-ms.openlocfilehash: 295c3ee75718faad070a2e4e9eb26d3c9bfdae7e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe8102db8306e4651de532b6e00de88ddb46247
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581977"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732382"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>從會議撥出商務用 Skype其他人可以加入會議
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!NOTE]
-> 如果您要尋找從會議撥出Teams的資訊，請參閱從會議撥出Teams讓其他人加入[會議](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)。
+> 如果您正在尋找從會議撥出Teams，請參閱從會議撥出Teams其他人[可以加入會議](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it)。
 
-作為會議召集人，您可以使用 商務用 Skype 應用程式撥出，讓其他人使用他們的電話加入同一個會議。 雖然不需要，但當您撥出給某人時，建議您撥打完整號碼，包括國家/地區代碼。 若要使用撥出功能：
+作為會議召集人，您可以使用 商務用 Skype App 撥出，讓其他人使用他們的電話加入同一個會議。 雖然不需要，但當您撥出給某人時，建議您撥打完整號碼，包括國家/地區代碼。 若要使用撥出功能：
   
-- 只有在使用應用程式加入會議時，才能商務用 Skype撥出。
+- 您只有在使用應用程式加入會議時，才能商務用 Skype撥出。
     
 - 您作為會議召集人已啟用音訊會議功能。
 
-若要透過撥出功能將其他參與者新增到貴組織的會議，必須至少有一位與召集人 (貴組織) 相同的組織經過驗證的使用者出席會議，才能允許透過撥出新增其他參與者。 
+若要透過撥出功能將其他參與者新增到貴組織的會議，必須至少有一位來自貴組織 (組織) 的同一組織的已驗證使用者參與會議，才能透過撥出功能新增其他參與者。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -52,7 +52,7 @@ ms.locfileid: "58581977"
   
  **步驟 2：** 在方塊中輸入完整的電話號碼，包括國家/地區代碼。
   
-![在 商務用 Skype](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![在 商務用 Skype 中撥出商務用 Skype。](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
 ## <a name="supported-countries-and-regions"></a>支援的國家/地區
 

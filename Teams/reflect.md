@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d0800fb4d3f596abaad82a2714d8daaa0234337
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 368c2ea6b3d937bbd126eb056bf4e2db4163f31f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631957"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730102"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>在 Microsoft Teams 中 Reflect 的 IT 系統管理員指南
 
@@ -65,11 +65,11 @@ Reflect 遵循與教育版 Insights 相同的隱私權和安全性標準，以�
 ## <a name="where-do-educators-find-reflect"></a>授課者可以在哪裡找到 Reflect？
 啟用 Reflect 之後，授課者可以前往班級，然後選取 [新增交談 **]**。 然後，他們會選取「**...**」來顯示傳訊擴充功能，然後在搜尋列輸入 **Reflect**。 對話方塊會引導他們定義問題，以及誰可以看到問題。
 
-:::image type="content" source="media/reflect-add-app.png" alt-text="將 Reflect 新增到班級團隊":::
+:::image type="content" source="media/reflect-add-app.png" alt-text="將 Reflect 新增到班級團隊。":::
 
-他們可以用滑鼠右鍵按一下 Reflect 圖示，然後選取 [釘選 **]** 以輕鬆存取。
+他們可以用滑鼠右鍵按一下 Reflect 圖示，然後選取 **[釘選]** 以輕鬆存取。
 
-:::image type="content" source="media/reflect-pin-app.png" alt-text="釘選 Reflect 應用程式":::
+:::image type="content" source="media/reflect-pin-app.png" alt-text="釘選 Reflect 應用程式。":::
 
 > [!TIP]
 > 您也可以透過此連結找到 Reflect 應用程式：[https://aka.ms/getReflect](https://aka.ms/getReflect)

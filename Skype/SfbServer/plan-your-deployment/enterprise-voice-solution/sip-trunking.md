@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: 深入瞭解商務用 Skype Server 企業語音中的 SIP 主幹
-ms.openlocfilehash: a27967f322db816285db100696fa061f339e9f71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d10f14a8c3f65309c52351a0721aa042faad47b6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634197"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728232"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>商務用 Skype Server 中的 SIP 主幹
 
@@ -151,7 +151,7 @@ SIP 主幹連線之服務提供者端的實作方式，會根據 ITSP 而不同�
 
 **SIP 主幹拓撲**
 
-![SIP 主幹拓撲](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
+![SIP Trunk 拓撲。](../../media/669fb55d-7c81-4e21-9421-fabc43d6e064.jpg)
 
 如圖所示，在商業網路和公用交換電話網路 (PSTN) 服務提供者之間的連線中，會使用 IP 虛擬私人網路 (VPN) 。 此私人網路的目的在於提供 IP 連線功能、增強安全性，以及 (選擇性) 取得服務品質 (QoS) 保證。 由於 VPN 的性質，您不需要使用傳輸層安全性 (TLS) 以進行 SIP 信號流量或安全即時傳輸通訊協定 (SRTP) 的媒體流量。 企業和服務提供者之間的連線是由 SIP 和即時即時傳輸通訊協定的純 TCP 連線所組成 (RTP)  (透過 UDP) 透過 IP VPN 傳送媒體隧道。 確定所有 VPN 路由器間的防火牆皆已開啟埠，以允許 VPN 路由器通訊，而且 VPN 路由器外部邊緣的 IP 位址可公開路由傳送。
 
@@ -183,6 +183,6 @@ SIP 主幹連線之服務提供者端的實作方式，會根據 ITSP 而不同�
 
 - 使用一般路由封裝 (GRE) ，加密 VPN 上的資料。
 
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>也請參閱
 
 [分支網站 SIP 主幹 in 商務用 Skype Server](branch-site.md)

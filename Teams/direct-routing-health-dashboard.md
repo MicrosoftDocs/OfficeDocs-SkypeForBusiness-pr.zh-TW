@@ -16,16 +16,16 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何使用健康情況儀表板監控會話邊界控制器與直接路由之間的連接。
-ms.openlocfilehash: aec8a0bb37af02f6103714a26c9d35e18879985c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4927f6473e74a6fc14add9105022fc8efbade260
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592337"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728212"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>直接路由的健康情況儀表板
 
-直接路由健康情況儀表板可讓您監控會話邊界控制器 (SBC) 與直接路由介面之間的連接。  您可以使用健康情況儀表板監控 SBC、電話語音，以及 SBC 與直接路由介面之間的網路參數相關資訊。 這項資訊可協助找出問題，包括通話中斷的原因。 例如，如果 SBC 上的憑證已過期或網路問題，SBC 可能會停止傳送通話。 請參閱 [系統管理員角色](using-admin-roles.md) ，以瞭解誰可以存取健康狀態儀表板。
+直接路由健康情況儀表板可讓您監控會話邊界控制器與 SBC (與) 路由介面之間的連接。  您可以使用健康情況儀表板監控 SBC、電話語音，以及 SBC 與直接路由介面之間的網路參數相關資訊。 這項資訊可協助找出問題，包括通話中斷的原因。 例如，如果 SBC 上的憑證已過期或網路問題，SBC 可能會停止傳送通話。 請參閱 [系統管理員角色](using-admin-roles.md) ，以瞭解誰可以存取健康狀態儀表板。
 
 健康情況儀表板會監控兩層資訊：
 
@@ -38,13 +38,13 @@ ms.locfileid: "58592337"
 
 健康情況儀表板提供與連結 SBCs 整體健康情況相關的下列資訊：
 
- ![顯示健康狀態儀表板統計資料](media/direct-routing-dashboard-stats1.png)
+ ![顯示健康資料儀表板統計資料。](media/direct-routing-dashboard-stats1.png)
 
-- **直接路由摘要** - 顯示在系統中註冊的 SBCs 總數。 註冊表示租使用者系統管理員使用 New-CsOnlinePSTNGateway 新增 SBC。 如果 SBC 是在 PowerShell 中新增，但從未連結過，健康情況儀表板會顯示為不健康狀態。
+- **直接路由摘要** - 顯示在系統中註冊的 SBCs 總數。 註冊表示租使用者系統管理員使用 New-CsOnlinePSTNGateway 命令新增 SBC。 如果 SBC 是在 PowerShell 中新增，但從未連結過，健康情況儀表板會顯示為不健康狀態。
 
 - **SBC** - 配對 SBC 的 FQDN。
 
-- 網路 **效能比 (NER**) - NER 會測量已傳送的通話數與傳送給收件者的通話數，以測量網路進行通話的能力。  
+- 網路 **效能比 (NER)** - NER 會測量已傳送的通話數與傳送給收件者的通話數，以測量網路進行通話的能力。  
 
    NER 會測量網路將通話傳送至遠端終端機的能力，但不包括導致通話拒絕的使用者動作。  如果收件者拒絕通話或將通話傳送至語音信箱，則通話會視為成功傳遞。 這表示接聽訊息、忙碌訊號或沒有接聽的鈴聲都被視為成功通話。
   
@@ -74,7 +74,7 @@ ms.locfileid: "58592337"
 
     - 警告，沒有 SIP 選項 - 會話邊界控制器存在於資料庫中 (系統管理員使用 New-CsOnlinePSTNGateway 命令建立) 。 它已配置為傳送 SIP 選項，但直接路由服務從未看到從此 SBC 返回的 SIP 選項。
 
-    - 警告，未配置 SIP 訊息 - 未開啟使用 SIP 選項的主幹監控。 Microsoft 通話系統使用 SIP 選項和傳輸層安全性 (TLS) 握手監控，以在應用程式層級偵測已連接的會話邊界控制器 (SBC) 健康情況。 如果這個主幹可以在網路層級 (ping) ，但憑證已過期或 SIP 堆疊無法工作，就會發生問題。 為了協助及早找出這類問題，Microsoft 建議啟用傳送 SIP 選項。 檢查您的 SBC 製造商檔以設定傳送 SIP 選項。
+    - 警告，未配置 SIP 訊息 - 未開啟使用 SIP 選項的主幹監控。 Microsoft 通話系統使用 SIP 選項和傳輸層安全性 (TLS) 握手監控，以偵測應用程式層級上已連接的會話邊界控制器 (SBC) 健康情況。 如果在網路層級上 (ping) ，但憑證已過期或 SIP 堆疊無法工作，就會發生問題。 為了協助及早找出這類問題，Microsoft 建議啟用傳送 SIP 選項。 檢查您的 SBC 製造商檔以設定傳送 SIP 選項。
 
 - **同時通話容量** - 您可以使用 -MaxConcurrentSessions 參數的 New 或 Set-CsOnlinePSTNGateway 命令，指定 SBC 可以處理的並行通話限制。 此參數會計算直接路由使用特定 SBC 傳送或接聽的通話數，並將它與限制集進行比較。 注意：如果 SBC 也處理不同 PBX 的通話，此號碼不會顯示實際的同時通話。
 
@@ -82,7 +82,7 @@ ms.locfileid: "58592337"
 
 您也可以查看特定 SBC 的詳細資訊，如下列螢幕擷取畫面所示：
 
-![健康情況儀表板 SBC 詳細資料](media/direct-routing-dashboard-SBC-detail1.png)
+![健康情況儀表板 SBC 詳細資料。](media/direct-routing-dashboard-SBC-detail1.png)
 
 詳細視圖顯示下列其他參數：
 
@@ -100,11 +100,11 @@ ms.locfileid: "58592337"
 
 - **網路參數** - 所有網路參數都是從直接路由介面到會話邊界控制器測量。 有關建議值的資訊，請參閱準備貴組織的網路[Microsoft Teams，並](./prepare-network.md)查看 Customer Edge 以Microsoft Edge建議的值。
 
-   - 抖動 – 是使用 RTCP 在兩個端點之間計算網路傳播延遲時間變化的毫秒 (RTP 控制通訊協定) 。
+   - 抖動 – 是使用 RTCP 或 RTP 控制通訊協定在兩個端點之間計算網路傳播延遲時間變化的毫秒 (量值) 。
 
    - 封包遺失 – 是未送達的封包量值;這是在兩個端點之間計算。
 
-   - 延遲 - (也稱為往返時間) 是訊號的接收時間長度，加上接收該訊號所花的時間長度。 此延遲時間是由訊號兩點之間的傳播時間所組成。
+   - 延遲 - (也稱為往返時間) 是接收訊號所花的時間長度，加上接收該訊號所花的時間長度。 此延遲時間是由訊號兩點之間的傳播時間所組成。
 
    您可以根據天數滑動資料，以及輸入/ (/所有) 。
 

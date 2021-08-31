@@ -1,5 +1,5 @@
 ---
-title: 允許使用者錄製會議名稱
+title: 讓使用者錄製會議名稱
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解如何啟用或停用使用者加入會議時，是否可以在 Microsoft Teams。
-ms.openlocfilehash: b670c6acb32902da56f76ad1cb2e1fd1a47edbf7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fdf3f4dc973c199df7cacbe1f5399d21c5d6f170
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627575"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728192"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>讓使用者在加入會議時記錄其Microsoft Teams
 
@@ -38,7 +38,7 @@ ms.locfileid: "58627575"
   
 ## <a name="set-whether-callers-should-record-their-name"></a>設定來電者是否應該錄製其名稱
 
-![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。 
 
@@ -59,7 +59,7 @@ Windows PowerShell管理使用者，以及允許或不允許使用者執行哪�
     
   - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用Office 365管理Windows PowerShell方法Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 如要進一Windows PowerShell，請參閱[powerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams以瞭解更多資訊。
   

@@ -1,5 +1,5 @@
 ---
-title: 查看、變更及重設在線上版中指派給使用者商務用 Skype ID
+title: 查看、變更及重設指派給使用者的會議 ID 商務用 Skype Online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,24 +20,24 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: '瞭解如何將會議 ID 指派給 商務用 Skype Online 中的使用者，以及會議識別碼參數應該是什麼。 '
-ms.openlocfilehash: c8c3abcf515a0a60046cd2438833467b8be78231
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: '瞭解如何在 商務用 Skype Online 中指派會議 ID 給使用者，以及會議 ID 參數應該是什麼。 '
+ms.openlocfilehash: a400536050ea22d4f841e3b401e30c3c14729093
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607670"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728002"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>在 Online 中查看並重設指派給使用者商務用 Skype ID
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 有關使用者會議識別碼Microsoft Teams，請參閱在 Microsoft Teams 中查看[和重設指派給使用者的會議 id。](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)
+> 有關使用者會議識別碼Microsoft Teams，請參閱在 Microsoft Teams 中查看[和重設指派給使用者的會議 ID。](/MicrosoftTeams/see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams)
 
-在 Microsoft 365 或 Office 365 中設定音訊會議，並使用 Microsoft 做為音訊會議提供者時，系統會自動將會議 ID 指派給 商務用 Skype 使用者。 會議排程時，指派的會議 ID 會以會議邀請中送出。 使用者排程的每個會議都會獲得唯一的會議 ID。
+在 商務用 Skype 或 Microsoft 365 中設定音訊會議並使用 Microsoft 做為音訊會議提供者時，系統會自動將會議 ID 指派給Office 365使用者。 會議排程時，指派的會議 ID 會以會議邀請中送出。 使用者排程的每個會議都會獲得一個唯一的會議 ID。
 
-雖然會議 ID 會自動建立並指派給使用者，但有時候使用者可能不想使用此 ID，而您想要將其設定為特定號碼，或是使用者不記得或遺失其會議 ID。 您可以使用系統 **管理商務用 Skype和** Windows PowerShell來查看、變更和重設其會議 ID。
+雖然會議 ID 會自動建立並指派給使用者，但有時候使用者可能不想使用此 ID，而您想要將其設定為特定號碼，或是使用者不記得或遺失其會議 ID。 您可以使用系統管理中心 **商務用 Skype** 和Windows PowerShell來查看、變更和重設其會議 ID。
 
 電子郵件會以會議 ID 和預設的音訊會議電話號碼發送給使用者，或者如果您重設會議 ID，將會送出包含會議 ID 但不包含 PIN 的不同電子郵件。 有關重設會議召集人 PIN 的資訊， [請前往這裡](reset-a-conference-id-for-a-user.md)。
 
@@ -48,7 +48,7 @@ ms.locfileid: "58607670"
 
 ### <a name="to-view-the-conference-id"></a>若要查看會議 ID
 
-![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
+![顯示標誌圖示商務用 Skype圖示。](../images/sfb-logo-30x30.png) **使用 商務用 Skype系統管理中心**
 
 您可以查看他們的會議 ID，並將它傳送給使用者。
 
@@ -78,13 +78,13 @@ ms.locfileid: "58607670"
 
 例如，如果使用者忘記會議 ID，您可以重設會議 ID。
 
-![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
+![顯示標誌圖示商務用 Skype圖示。](../images/sfb-logo-30x30.png) **使用 商務用 Skype系統管理中心**
 
 1. 使用公司或學校帳戶來登錄。
 
 2. 請前往系統管理中心 **>商務用 Skype。**
 
-3. 在 **[商務用 Skype系統** 管理中心 >  **音訊會議使用者** 中，按一下 [會議識別碼》 下的 [動作窗格>  >  中的 [**重設**。 
+3. 在 **[商務用 Skype系統** 管理中心 >  **音訊會議使用者** 中，按一下 [會議識別碼》 下的 [動作窗格>  >  中的[**重設**。
 
 4. 在 [ **重設會議 ID？ 視窗中** ，按一下 **[是**。 系統會自動建立會議 ID，並且會以新的會議 ID 將電子郵件寄給使用者。
 
@@ -103,22 +103,22 @@ ms.locfileid: "58607670"
 
 - 請參閱 [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) 以深入瞭解 Cmdlet。
 
-- 會議 ID 必須符合音訊會議橋接器上設定的數位長度。 會議 ID 中無法使用字母或特殊字元;只能使用數位。
+- 會議 ID 必須符合音訊會議橋接器上設定的數位長度。 在會議 ID 中，您不能使用字母或特殊字元;只能使用數位。
 
 - 根據預設，所有音訊會議使用者的會議 ID 為 9 位數，而且無法變更位數。
 
 
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想要瞭解如何使用 Windows PowerShell？
 
-- 當要Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 使用 Windows PowerShell，您可以使用單一系統管理Microsoft 365或 Office 365 商務用 Skype管理線上，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+- 當要Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 有了 Windows PowerShell，您可以使用單一系統管理Microsoft 365或 Office 365 管理 商務用 Skype Online，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
 
   - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 
-  - [為什麼您需要使用 powerShell Microsoft 365或Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-- Windows PowerShell相比于僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
+- Windows PowerShell比只使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
 
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用Microsoft 365管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
 

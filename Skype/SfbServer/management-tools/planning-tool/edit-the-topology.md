@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: 在完成最初的面試問題之後，您可以編輯該網站的 (FQDN) 和 IP 位址的完整功能變數名稱。 若要這麼做，請在 [全域拓撲] 頁面上，連按兩下您要編輯的網站。
-ms.openlocfilehash: 6c18b980f7dca770de46a8eaeed01e7c508486b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 75eadc6234c9ac6e4e8a869df2da4d246b60f9ed
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626595"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732322"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中編輯拓撲
 
@@ -27,7 +27,7 @@ ms.locfileid: "58626595"
 
 規劃工具會顯示所選網站的網站拓撲。 在網站頁面的底部有四個索引標籤：
 
-![規劃工具網站拓撲](../../media/Planning_Tool_Site_Topology.png)
+![規劃工具網站拓撲。](../../media/Planning_Tool_Site_Topology.png)
 
 - 網站拓撲-目前顯示的頁面，如建議使用拓撲的視覺概況。
 
@@ -35,7 +35,7 @@ ms.locfileid: "58626595"
 
 - Edge 管理報告-Edge 系統管理員報告總共包含四個報告：
 
-     ![Edge 管理報告頁面](../../media/Planning_Tool_Summary_Report.png)
+     ![Edge 管理報告頁面。](../../media/Planning_Tool_Summary_Report.png)
 
   - 摘要報告-Edge 網路設定的一般設定報告。 如果您將 [ **Edge Network 圖表** ] 頁面上的值編輯為 [拓撲 TCP/IP，並將用於實際部署中的 FQDN 值，則會在此顯示這些位址和名稱。 否則，會顯示預設文字。
 
@@ -55,7 +55,7 @@ ms.locfileid: "58626595"
 
 在商務用 Skype Server 2015 規劃工具中，設計人員大部分的工作，都是由為網狀圖上專案的 IP 位址和完整功能變數名稱定義 (fqdn) 所組成。 在此頁面上輸入的資訊會包含在規劃工具中的報告及其他資訊中。
 
-![規劃工具的網狀圖表](../../media/Planning_Tool_Network_Diagram.png)
+![規劃工具的網狀圖表。](../../media/Planning_Tool_Network_Diagram.png)
 
 規劃工具會以預設的 IP 位址和 Fqdn 來建立網狀圖表和預設文字。
 

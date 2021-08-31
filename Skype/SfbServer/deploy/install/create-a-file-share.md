@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 摘要：瞭解如何在安裝商務用 Skype Server 時建立 Windows 伺服器檔案共用。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: c3ffda81449a3719e6ba3feffba14266b7f79cb3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7d766a38791a7fc21b4e86844684ed174769e60
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595957"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727962"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>在商務用 Skype Server 中建立檔案共用
  
@@ -30,7 +30,7 @@ ms.locfileid: "58595957"
   
 商務用 Skype Server 需要檔案共用，使整個拓撲中的電腦可以交換檔案。 建立檔案共用是商務用 Skype Server 安裝程式中的步驟2之8。 您可以依任何循序執行步驟1到5。 不過，您必須依序執行步驟6、7和8，並在圖表中所述的步驟1到5之後進行。 如需檔案共用的規劃詳細資料，請參閱[商務用 Skype Server 2019 商務用 Skype Server 或伺服器需求](../../../SfBServer2019/plan/system-requirements.md)[的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。
   
-![一覽表圖表](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
+![一覽表圖表。](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
   
 ## <a name="create-a-basic-file-share"></a>建立基本檔案共用
 

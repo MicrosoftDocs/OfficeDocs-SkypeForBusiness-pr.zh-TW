@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 726355c7edf145dec6eeaf9ec1904119c15a3275
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2501c113eb3589ba26d4a9a6932e103f913c9239
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616129"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730152"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>執行升級概觀
 
-![升級歷程的階段，強調部署與執行階段](media/upgrade-banner-deployment.png "升級歷程的階段，強調部署與執行階段")
+![升級歷程的階段，強調部署與執行階段。](media/upgrade-banner-deployment.png "升級歷程的階段，強調部署與執行階段")
 
-本文是升級歷程的部署與執行階段之一。 
+本文是升級歷程的部署與執行階段的一部分。 
 
 
 
@@ -57,7 +57,7 @@ ms.locfileid: "58616129"
 
 - **如果您要從** 商務用 Skype Online 升級至 Teams，請遵循從 商務用 Skype Online [升級至 Teams。](./upgrade-to-teams-execute-skypeforbusinessonline.md)
 
--  如果您是 **從 商務用 Skype** 內部部署環境升級，您必須執行一些額外步驟，才能在內部部署和線上環境之間設定連線，才能將使用者移至 Teams。 詳細資訊，請參閱將[內部商務用 Skype升級至 Teams。](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
+-  如果您要 **從** 商務用 Skype 內部部署環境升級，您必須執行一些額外步驟，才能在內部部署和線上環境之間設定連線，才能將使用者移至 Teams。 詳細資訊，請參閱將[內部商務用 Skype升級至 Teams。](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
 

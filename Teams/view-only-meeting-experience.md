@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bb4eb1c1c681e0c2089ec1258f7729727fdb77f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b2af0ae753357497be6ea54b89534f2220b7cbf6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586297"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732292"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 僅供檢視會議體驗
 
@@ -31,7 +31,7 @@ ms.locfileid: "58586297"
 > [!Note]
 > 如果您的會議達到容量，Teams可順暢縮放，以容納 10，000 人只能觀看的廣播體驗。 此外，在遠端工作數量增加的這段時間裡，到今年年底，請利用 20,000 人的更大廣播容量。 網路研討會目前不支援僅觀看的廣播體驗。
 
-Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 在達到主要會議容量之後 (1000 個使用者進入會議) 其他出席者會以僅查看體驗加入。
+Microsoft Teams 允許最多 10,000 位出席者加入 Teams 會議。 達到主會議容量之後 (1000 個使用者進入會議) ，其他出席者會以僅查看體驗加入。
 
 第一次加入會議的出席者，最多可取得主要會議Teams完整的會議體驗。 他們可以分享音訊和視訊、查看分享的視訊以及參與會議聊天。
 
@@ -78,11 +78,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 
 當達到主要會議的容量時，會議召集人和簡報者會看到橫幅，通知他們新的出席者會以僅觀看的出席者加入。
 
-  ![適用於召集者和簡報者的 Teams 用戶端和橫幅訊息](media/chat-and-banner-message.png)
+  ![Teams和簡報者的用戶端和橫幅訊息。](media/chat-and-banner-message.png)
 
 達到主要會議的容量限制後，系統將在加入前的畫面上通知會議出席者他們正在以僅供檢視模式加入。
 
-  ![Teams 加入前畫面以及顯示給參與者的訊息，告知他們將以僅供檢視模式加入](media/view-only-pre-join-screen.png)
+  ![Teams加入前畫面，以及參與者的訊息，告知他們將以僅以模式加入。](media/view-only-pre-join-screen.png)
 
 如果有空間，使用者一律可以加入主要會議。 達到主要會議容量限制後，如果一或多位出席者離開主要會議，則主要會議會釋出容量可供加入。 加入 (或重新加入) 會議的出席者將加入主要會議，直到再次達到容量限制。 只有使用模式體驗的出席者不會自動升級至主要會議，且無法手動升級至主要會議。
 
@@ -111,18 +111,18 @@ Teams 僅供檢視體驗可讓出席者：
 
 - 如果根據設定的大廳原則或選項，出席者沒有略過大廳的權限，則無法加入會議。
 - 無法使用音訊會議加入僅供檢視會議室。
-- 使用雲端視Microsoft Teams 會議室或使用雲端視 (CVI) 聊天室。
+- 使用雲端視Microsoft Teams 會議室使用雲端視 (CVI) 聊天室。
 - 無法分享他們的音訊或視訊。
 - 無法查看或參與會議聊天。
 - 無法觀看會議參與者的視訊摘要，除非參與者是目前的主講人。
-- 請參閱PowerPoint使用即時功能共用PowerPoint或個別應用程式共用檔案 (桌面或螢幕共用功能) 。
+- 請參閱PowerPoint使用 Live 功能共用PowerPoint或個別應用程式共用檔案 (桌面或螢幕共用功能) 。
 - 在會議中舉手。
 - 傳送或查看反應。
 - 與整合至會議的任何 3P App 互動Teams包括投票。
 
 ## <a name="view-only-feature-limitations"></a>僅供檢視功能限制
 
-- 僅能觀看的出席者只能在桌面和 Web 上看到即時字幕。 目前僅支援英文字輔助字幕。
+- 只有只能觀看的出席者才能在桌面和 Web 上看到即時字幕。 目前僅支援英文字輔助字幕。
 - 只能觀看的出席者無法註冊網路研討會。
 - 串流技術將支援僅供檢視出席者。
 - 出席報告中不會包含僅供檢視出席者。

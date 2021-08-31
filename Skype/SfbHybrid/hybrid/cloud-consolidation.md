@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: 本文說明如何使用內部部署 (s) 商務用 Skype (或 Lync) ，以進行整合，以尋求將其 UC 工作負載移至 Teams 的組織。
-ms.openlocfilehash: b44af6e5229f7bef90fff51d52dd4ff65fc57ed7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 99218c2a629a32d61e9625f8a7808d9f95e9f873
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597907"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731762"
 ---
 # <a name="cloud-consolidation-for-teams-and-skype-for-business"></a>Teams 和商務用 Skype 的雲端整合
 
@@ -58,7 +58,7 @@ ms.locfileid: "58597907"
 |---------|---------|
 |<ul><li>2獨立商務用 Skype 個別 AD 樹系中的內部部署部署<li>最多1個樹系與 Teams 混合在一起 <li> 組織 emc 相互同盟 <li>使用者未同步處理到這些樹系<li> 組織可能會有 Microsoft 365 組織，而且可能會將其目錄同步處理到 Azure AD</ul>|<ul> <li>1 Microsoft 365 組織<li>沒有其他的內部部署，因此不會有其他混合式部署<li>所有來自內部部署的使用者都已移至僅 Teams 模式 <li>商務用 Skype Server 無所不在都沒有內部部署的空間 <li>使用者仍有內部部署驗證</ul> |
 
-![整合兩個不同的同盟內部部署](../media/cloudconsolidationfig1.png)  
+![整合兩個不同的同盟內部部署。](../media/cloudconsolidationfig1.png)  
 
 從原始狀態到所需結束狀態的基本步驟如下。  請注意，有些組織可能會發現，在這些步驟中，有些組織可能會發現其起始點位於下列位置。 請參閱本文稍後的 [其他起始點](#other-starting-points)。 最後，在某些情況下，您可以根據需要調整順序。 稍後會說明[主要限制和限制](#limitations)。
 
@@ -96,21 +96,21 @@ ms.locfileid: "58597907"
 - 所有位於內部部署的使用者。  
 - *尚未設定* 商務用 Skype 混合式。
 - 如果兩個部署中的使用者都使用 Teams，他們將無法彼此同盟 (或任何組織) ，也不會與任何商務用 Skype 使用者進行交互操作。 在此階段中，Microsoft 建議您僅針對通道使用 Teams。<br><br>
-    ![圖](../media/cloudconsolidationfiga.png)
+    ![圖圖表。](../media/cloudconsolidationfiga.png)
 
 ##### <a name="figure-b"></a>圖 B：
 
 - AcquiredCompany。 <span>com 是一種 [已停用](/powershell/module/skype/disable-csonlinesipdomain) 的線上 SIP 網域。 所有使用者都是內部部署。 如果他們使用 Teams 沒有同盟或互通性。 在此階段中，Microsoft 建議您僅針對通道使用 Teams。
 - 已對其中一個內部部署組織啟用商務用 Skype 混合式。
 - 混合組織中的某些使用者已移至雲端，而且只會 Teams (使用者 A，如紫色陰影) 所示。 這些使用者 Teams 只有使用者才能與其他任何商務用 Skype 使用者進行完全互通性及同盟支援。<br><br>
-    ![圖 B 圖表](../media/cloudconsolidationfigb.png)
+    ![圖 B 圖表。](../media/cloudconsolidationfigb.png)
 
 ##### <a name="figure-c"></a>圖 C：
 
 - OriginalCompany 中的所有使用者。 <span>com 現在只會在雲端中 Teams 模式。 
 - 使用 OriginalCompany 商務用 Skype 混合式設定。 <span>已停用 com 部署。 內部部署已消失。
 - 如果 AcquiredCompany。 <span>com 先前未同步處理至 AAD，若要從這裡繼續，必須立即同步處理。 不過，它尚未混合 (共用 SIP 位址空間) ，直到組織準備好移至混合式，純內部部署組織 (AcquiredCompany.com) 的線上 SIP 網域仍會保持停用狀態，以便線上 Teams 使用者可以與內部部署使用者通訊。<br><br>
-    ![圖 C 圖表](../media/cloudconsolidationfigc.png)
+    ![圖 C 圖表。](../media/cloudconsolidationfigc.png)
 
 ##### <a name="figure-d"></a>圖 D：
 
@@ -118,7 +118,7 @@ ms.locfileid: "58597907"
 - 內部部署已更新，可接受 OriginalCompany。 <span>Com。  (允許的網域和 edge 憑證都會) 更新。
 - 在 AcquiredCompany 之間啟用共用 SIP 位址空間。 <span>com 和 Microsoft 365 組織。
 - 混合式組織中的某些使用者可能已經移至雲端，例如， (紫色陰影) 所示的使用者 D。<br><br>
-    ![圖 D 圖表](../media/cloudconsolidationfigd.png)
+    ![圖 D 圖表。](../media/cloudconsolidationfigd.png)
 
 ## <a name="other-starting-points"></a>其他起始點
 
@@ -134,7 +134,7 @@ ms.locfileid: "58597907"
         - 完成現有的混合式組織的遷移，並在步驟10輸入上述順序。  或
         - 若要在完成混合式組織的遷移之前，將其他任何商務用 Skype 樹系同步處理至 aad，組織必須執行步驟 7 (停用任何其他內部部署商務用 Skype 部署中的所有線上 SIP 網域，以同步處理至 AAD) ，然後再繼續步驟10連線解除委任原始混合部署 (。       
                 **圖 E**<br>
-                ![圖 E 圖表](../media/cloudconsolidationfige.png)
+                ![圖 E 圖表。](../media/cloudconsolidationfige.png)
 - 純 Teams 只有與個別內部部署商務用 Skype 組織 federates 的組織。 一旦此組織停用內部部署組織的線上 SIP 網域，並為內部部署商務用 Skype 組織啟用 AAD 連線，它就會類似于已完成步驟1-11 的 **[圖 C](#figure-c)** 所示的假想組織。
 
 ## <a name="limitations"></a>限制

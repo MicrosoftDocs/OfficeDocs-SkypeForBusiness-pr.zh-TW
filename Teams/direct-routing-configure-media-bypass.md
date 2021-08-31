@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 瞭解如何設定媒體旁路電話系統直接路由Microsoft Teams，方法是一次切換所有使用者，或採用建議的逐步 (方法) 。
+description: 瞭解如何設定媒體旁路電話系統直接路由Microsoft Teams，方法是一次切換所有使用者，或執行逐步接近 (建議) 。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dcbc893d3549e491d40268ae3417f5203d755ff6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c0f0ad9d25157058c048b0f12cf72b3755e65e11
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598577"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728682"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>設定媒體旁路搭配直接路由
 
@@ -43,11 +43,11 @@ ms.locfileid: "58598577"
 
 - **一次切換所有使用者。** 如果符合所有條件，您可以開啟旁路模式。 不過，所有生產使用者都會同時切換。 由於您一開始在設定主幹和埠時可能會遇到一些問題，因此您的生產使用者體驗可能會受到影響。 
 
-- **階段方法。 (建議) 。**  使用不同的埠 (為同一個 SBC) 建立新主幹，進行測試，並變更線上語音路由策略，讓使用者指向新的主幹。 
+- **階段方法。 (建議) 。**  使用不同的埠 (為同一個 SBC) 建立新主幹、測試該主幹，並變更使用者指向新主幹的線上語音路由策略。 
 
   這是建議的方法，因為它可讓轉場更順暢，且使用者體驗不受干擾。 此方法需要 SBC 的組組、新的 FQDN 名稱，以及防火牆的組組。 請注意，您必須確定憑證支援這兩個主幹。 在 SAN 中，您必須有兩個名稱 (sbc1.contoso.com，sbc2.contoso.com) 萬用字元憑證。 
 
-![從未忽略的主幹遷移到已啟用旁路的主幹) ](media/direct-routing-media-bypass-8.png)
+![從未忽略的主幹遷移到已啟用旁路的主幹) 。](media/direct-routing-media-bypass-8.png)
 
 有關如何設定主幹並執行移移的指示，請參閱 SBC 廠商提供的檔：
 
@@ -56,7 +56,7 @@ ms.locfileid: "58598577"
 - [功能區通訊部署檔](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions/direct-routing-microsoft-teams-calling)
 - [TE-Systems (任何) 部署檔](https://www.anynode.de/anynode-and-microsoft-teams/)
 
-有關已通過直接路由 (SBC 的會話邊界控制器) ，請參閱通過直接路由認證的 [會話布](direct-routing-border-controllers.md)羅德控制器清單。
+有關已通過直接路由 (SBC 的會話邊界控制) 清單，請參閱通過直接路由認證的 [會話布](direct-routing-border-controllers.md)羅德控制器清單。
 
 
 

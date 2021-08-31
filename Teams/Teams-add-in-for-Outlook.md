@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb1898d5c172c6f0ebc4f56cf9059bbb5986077b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 493d31189c4136799075554343aaddd694922b30
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586749"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728222"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 
@@ -34,7 +34,7 @@ Teams 會議增益集可讓使用者從 Outlook 安排 Teams 會議。 您可以
 
 如果使用者在 Windows 電腦上安裝了 Microsoft Teams 及 Office 2013、Office 2016 或 Office 2019，則系統就會自動為他們安裝 Teams 會議增益集。使用者會在 Outlook 行事曆功能區上看到 Teams 會議增益集。
 
-![Outlook 功能區上的 Teams 會議增益集螢幕擷取畫面](media/Teams-add-in-for-Outlook.png)
+![Outlook 功能區上， Teams 會議增益集的螢幕擷取畫面。](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
 > - **沒有直接的 URL** 可連結至 Teams 增益集。
@@ -53,7 +53,7 @@ Teams 會議增益集可讓使用者從 Outlook 安排 Teams 會議。 您可以
 
 如果使用者使用最新 Outlook 網頁版的早期版本，則 Outlook Web App 中的 Teams 會議按鈕將會在建立新事件時顯示。 請參閱 [Outlook 部落格](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral)，了解使用者如何試用最新 Outlook 網頁版的早期版本。
 
-![Outlook Web App 中 Teams 會議增益集的螢幕擷取畫面](media/teams-meeting-add-in-web.png)
+![Outlook Web App 中 Teams 會議增益集的螢幕擷取畫面。](media/teams-meeting-add-in-web.png)
 
 當使用者按一下 [傳送] 之後，會議座標 (Teams 的加入連結和撥入號碼) 將會新增至會議邀請。  
 
@@ -61,7 +61,7 @@ Teams 會議增益集可讓使用者從 Outlook 安排 Teams 會議。 您可以
 
 Teams 會議按鈕會顯示在 Outlook iOS 和 Android 應用程式的最新組建中。
 
-![Outlook Mobile 中 Teams 會議增益集的螢幕擷取畫面](media/teams-meeting-add-in-mobile.png)
+![Outlook Mobile 中 Teams 會議增益集的螢幕擷取畫面。](media/teams-meeting-add-in-mobile.png)
 
 當使用者按一下 [傳送] 之後，會議座標 (Teams 的加入連結和撥入號碼) 將會新增至會議邀請。  
 

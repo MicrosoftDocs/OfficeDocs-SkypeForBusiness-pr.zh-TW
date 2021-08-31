@@ -13,12 +13,12 @@ search.appverid: MET150
 description: 瞭解如何尋找支援 PIN。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2c222b74a5fb539b3a492aac833070573775a08629025e3a23f71f8ff76905f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9f5acc34efa0d93d1a89edcdec9774fb21e1fb54
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332405"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733182"
 ---
 # <a name="how-to-look-up-your-support-pin"></a>如何尋找支援 PIN
 
@@ -30,7 +30,7 @@ ms.locfileid: "54332405"
 
 3. 您的支援 PIN 會顯示在右下窗格中。 如有必要，您也可以選擇重新產生 PIN。  
 
-   ![顯示支援 PIN 的圖表](media/support-pin.png)
+   ![顯示支援 PIN 的圖表。](media/support-pin.png)
 
 
 

@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: ritikag
 search.appverid: MET150
-description: 瞭解如何指派或移除授權給Teams使用者，以管理使用者對Teams存取權。
+description: 瞭解如何指派或移除授權給Teams使用者，以管理使用者對Teams的存取權。
 f1.keywords:
 - CSH
 - ms.teamsadmincenter.signin.domainerror.nolicensedusers
@@ -19,24 +19,24 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6fab726d5c9e25664259addf726436358d294ac18e9c6cd24a150725e8255744
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e4a83d0da32c11406f76b9bc355ceb666d4ea308
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328798"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728062"
 ---
 # <a name="manage-user-access-to-teams"></a>管理使用者對 Teams 的存取權
 
-您可以指派或移除Teams，以管理使用者層級的Microsoft Teams存取權。 除了以匿名Teams加入會議之外，貴組織的每個使用者都必須擁有Teams授權，才能使用Teams。 您可以在建立Teams使用者帳戶時指派授權給新使用者，或指派給擁有現有帳戶的使用者。
+您可以指派Teams移除產品授權，以管理使用者層級Microsoft Teams存取權。 除了以匿名Teams加入會議之外，貴組織的每個使用者都必須擁有Teams授權，才能使用Teams。 您可以在建立Teams使用者帳戶時指派授權給新使用者，或指派給擁有現有帳戶的使用者。
 
-根據預設，當授權方案 (例如 Microsoft 365 企業版 E3 或 Microsoft 365 商務進階版) 指派給使用者時，系統會自動指派 Teams 授權，且使用者已啟用 Teams。 您隨時都可以Teams或指派授權，為使用者停用或啟用授權。
+根據預設，當授權方案 (例如 Microsoft 365 企業版 E3 或 Microsoft 365 商務進階版) 指派給使用者時，系統會自動指派 Teams 授權，而且使用者已啟用 Teams。 您隨時都可以Teams或指派授權，為使用者停用或啟用授權。
 
-使用從系統管理中心管理Teams訊息<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a>策略，控制哪些聊天和頻道訊息功能可供 Teams。 您可以使用預設策略，或為貴組織人員建立一或多個自訂訊息策略。 若要深入瞭解，請參閱在 Teams[中管理Teams。](messaging-policies-in-teams.md)
+使用從系統管理中心管理Teams訊息<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a>策略，控制哪些聊天和頻道訊息功能可供 Teams。 您可以使用預設策略，或為貴組織人員建立一或多個自訂訊息策略。 若要深入瞭解，請參閱管理 Teams 中的[訊息Teams。](messaging-policies-in-teams.md)
 您可以在 Teams中管理Microsoft 365 系統管理中心或使用 PowerShell。 您必須是全域系統管理員或使用者管理系統管理員，才能管理授權。
 
 > [!NOTE]
-> 我們建議您為所有使用者啟用Teams，讓團隊可以針對專案和其他動態計畫以組織方式組成。 即使您進行試驗，保持所有使用者Teams，但只將通訊目標鎖定到試驗使用者群組，可能還是很有説明。
+> 我們建議您為所有使用者啟用Teams，讓團隊能針對專案和其他動態計畫以組織方式組成。 即使您進行試驗，保持所有使用者Teams，但只將通訊目標鎖定到試驗使用者群組，可能還是很有説明。
 
 ## <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365 系統管理中心
 
@@ -44,7 +44,7 @@ Teams使用者層級授權會透過使用者管理介面Microsoft 365 系統管�
 
 > [!IMPORTANT]
 > 系統管理員必須擁有全域系統管理員或使用者管理系統管理員許可權，才能管理Microsoft Teams授權。
-使用 Microsoft 365 系統管理中心管理Teams個別使用者或小型使用者組的使用者授權。 您可以在授權Teams或活動 (頁面上管理最多20 位) **授權**。 您選擇的方法取決於您要管理特定使用者的產品授權，或管理特定產品的使用者授權。
+使用 Microsoft 365 系統管理中心管理Teams個別使用者或小型使用者組的使用者授權。 您可以在授權Teams或活動使用者頁面 (管理最多20 個使用者) **授權**。 您選擇的方法取決於您要管理特定使用者的產品授權，或管理特定產品的使用者授權。
 
 如果您需要管理大量使用者的 Teams 授權 ，例如數百或數千個使用者，請使用[PowerShell](#using-powershell)或[Azure Active Directory (Azure AD ](/azure/active-directory/users-groups-roles/licensing-groups-assign)) 。 
 
@@ -54,7 +54,7 @@ Teams使用者層級授權會透過使用者管理介面Microsoft 365 系統管�
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![針對使用者啟用Teams之 1 的螢幕擷取畫面](media/assign-teams-licenses-1.png)    | ![針對使用者啟用Teams之 2 的螢幕擷取畫面](media/assign-teams-licenses-2.png)        |
+|![螢幕擷取畫面 1 Teams使用者啟用授權。](media/assign-teams-licenses-1.png)    | ![針對使用者啟用Teams之 2 的螢幕擷取畫面](media/assign-teams-licenses-2.png)        |
 
 ### <a name="remove-a-teams-license"></a>移除Teams授權
 
@@ -65,11 +65,11 @@ Teams使用者層級授權會透過使用者管理介面Microsoft 365 系統管�
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|![使用者已停用Teams之 1 的螢幕擷取畫面](media/remove-teams-licenses-1.png)    | ![使用者已停用Teams之授權之 2 的螢幕擷取畫面](media/remove-teams-licenses-2.png)        |
+|![螢幕擷取畫面 1 Teams使用者停用授權。](media/remove-teams-licenses-1.png)    | ![使用者已停用Teams之授權之 2 的螢幕擷取畫面](media/remove-teams-licenses-2.png)        |
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
-使用 PowerShell 大量Teams使用者授權。 您透過 PowerShell Teams和停用其他服務方案授權的方式，來啟用和停用。 您需要服務方案識別碼Teams，如下所示：
+使用 PowerShell 大量Teams使用者授權。 您透過 PowerShell 啟用Teams停用，方式與任何其他服務方案授權相同。 您需要服務方案識別碼，Teams如下所示：
 
 - Microsoft Teams：TEAMS1
 - Microsoft Teams： GCC： TEAMS_GOV
@@ -85,10 +85,10 @@ Teams使用者層級授權會透過使用者管理介面Microsoft 365 系統管�
 
 #### <a name="example"></a>範例 
 
-以下是如何使用[New-MsolLicenseOptions](/powershell/module/msonline/new-msollicenseoptions)和[Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense) Cmdlet 來停用 Teams 的範例，供擁有特定授權方案的使用者使用。 例如，請遵循下列步驟，針對Teams方案的使用者，先停用授權。 然後針對Teams使用者啟用Teams。
+以下是如何使用[New-MsolLicenseOptions](/powershell/module/msonline/new-msollicenseoptions)和[Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense) Cmdlet 來停用 Teams 的範例，供擁有特定授權方案的使用者使用。 例如，請遵循下列步驟，針對Teams方案的使用者先停用授權。 然後針對Teams使用者啟用Teams。
 
 > [!IMPORTANT]
-> [New-MsolLicenseOptions](/powershell/module/msonline/new-msollicenseoptions) Cmdlet 會啟用先前停用的所有服務，除非您在自訂腳本中明確識別。 例如，如果您想要同時停用 Exchange 和 Sway，同時停用 Teams，您必須在腳本中納入此功能，否則 Exchange 和 Sway 都會針對您識別的使用者啟用。
+> [New-MsolLicenseOptions](/powershell/module/msonline/new-msollicenseoptions) Cmdlet 會啟用先前停用的所有服務，除非您的自訂腳本中明確識別。 例如，如果您想要同時停用 Exchange 和 Sway，同時停用 Teams，您必須在腳本中納入此功能，否則 Exchange 和 Sway 都會針對您識別的使用者啟用。
 
 執行下列命令以顯示貴組織中所有可用的授權方案。 若要深入瞭解，請參閱 [使用 PowerShell 來查看授權和服務](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)。
 
@@ -97,7 +97,7 @@ Teams使用者層級授權會透過使用者管理介面Microsoft 365 系統管�
 Get-MsolAccountSku
 ```
 
-執行下列命令，即貴組織的名稱，以及您先前步驟中所提取之授權計畫的 \<CompanyName:License> 識別碼。 例如，ContosoSchool：ENTERPRISEPACK_STUDENT。
+執行下列命令，即貴組織的名稱，以及您先前步驟所提取之授權計畫的 \<CompanyName:License> 識別碼。 例如，ContosoSchool：ENTERPRISEPACK_STUDENT。
 
 ```powershell
 $acctSKU="<CompanyName:License>

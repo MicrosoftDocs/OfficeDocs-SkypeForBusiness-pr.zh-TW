@@ -1,5 +1,5 @@
 ---
-title: 系統管理員為商務用 Skype設定
+title: 系統管理員設定商務用 Skype使用者的設定
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -22,20 +22,20 @@ ms.custom:
 - ms.lync.lac.UsersExternalAccess
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
-description: '瞭解如何變更個別商務用 Skype的通話設定，例如：音訊和視訊會議、錄製通話和會議。 '
-ms.openlocfilehash: 89fce818a73455aeca9a9ba668554d59daf85248
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: '瞭解如何變更個別使用者的商務用 Skype設定，例如：音訊和視訊會議、錄製通話和會議。 '
+ms.openlocfilehash: e96e33f5a83030f187c6e6c3caaee197c2d81a2f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579397"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731822"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>系統管理員：設定商務用 Skype使用者的設定
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> 系統Microsoft Teams系統管理中心已商務用 Skype系統管理中心 (舊版) 。 系統管理中心商務用 Skype所有管理Teams設定。 您必須指派全域系統管理員或系統管理員的[Azure AD](/azure/active-directory/roles/permissions-reference)系統管理員商務用 Skype，才能商務用 Skype系統管理中心Teams功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
+> 系統Microsoft Teams系統管理中心已商務用 Skype系統管理中心 (舊版) 。 系統管理中心商務用 Skype所有管理Teams設定。 您必須被指派全域系統管理員或系統管理員的[Azure AD](/azure/active-directory/roles/permissions-reference)系統管理員商務用 Skype，才能商務用 Skype系統管理中心Teams功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json)。
 
 本文將說明系統管理員如何為商務用 Skype使用者設定帳戶。 若要大量執行這些步驟，我們已提供您Windows PowerShell Cmdlet 的連結。
   
@@ -43,14 +43,14 @@ ms.locfileid: "58579397"
   
 - [](allow-users-to-contact-external-skype-for-business-users.md)允許使用者與外部 商務用 Skype 使用者聯繫：您可以讓貴組織使用進商務用 Skype 功能 (共用桌面、尋找誰在線上等 ) 來與特定信任的 (聯盟) 企業中的人員通訊。 本文也會說明如何封鎖與特定網域的通訊。
     
-- [讓使用者商務用 Skype新增Skype連絡人](let-skype-for-business-users-add-skype-contacts.md)。 您可以讓貴組織使用 商務用 Skype來搜尋及 IM Skype免費應用程式。
+- [讓使用者商務用 Skype連絡人Skype連絡人](let-skype-for-business-users-add-skype-contacts.md)。 您可以讓貴組織使用 商務用 Skype來搜尋及 IM Skype免費應用程式使用者。
     
-## <a name="configure-general-settings-for-one-user"></a>設定一位使用者的一般設定
+## <a name="configure-general-settings-for-one-user"></a>為一個使用者設定一般設定
 <a name="__toc325019204"> </a>
 
 您必須擁有 [系統管理員許可權，才能](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 執行這些步驟。
 
-![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心**
+![顯示標誌圖示商務用 Skype圖示。](../images/sfb-logo-30x30.png) **使用 商務用 Skype系統管理中心**
   
 1. 使用公司或學校帳戶來登錄。
     
@@ -70,7 +70,7 @@ ms.locfileid: "58579397"
     
 |**選項**|**詳細資料**|
 |:-----|:-----|
-|音訊和 HD 影片  <br/> |允許此人錄製音訊會議、音訊和視訊會議，或不允許他們排程任何 (會議) 。  <br/> |
+|音訊和 HD 影片  <br/> |允許此人錄製音訊會議、音訊和視訊會議，或不允許他們排程任何會議， () 。  <br/> |
 |錄製交談和會議  <br/> |選擇允許此人錄製哪些專案。  <br/> 此選項不適用於基本商務用 Skype選項。  <br/> |
 |針對合規性，請關閉未存檔的功能  <br/> | 如果您依法需要保留以電子方式儲存的資訊，請選擇這個選項。 <br/>  選取此選項會關閉在系統管理中心設定就地保留時Exchange功能。 [](/exchange/security-and-compliance/in-place-and-litigation-holds) 它會關閉下列功能： <br/>  使用立即訊息傳輸檔案 <br/>  共用OneNote頁面 <br/>  PowerPoint注釋 <br/> |
    
@@ -79,9 +79,9 @@ ms.locfileid: "58579397"
 ## <a name="block-external-communications"></a>封鎖外部通訊
 <a name="__toc325019206"> </a>
 
-在您[允許商務用 Skype](let-skype-for-business-users-add-skype-contacts.md)為Skype所有人新增連絡人之後，您可以使用這些步驟選擇性地封鎖特定人員的外部通訊。
+在您[允許商務用 Skype為](let-skype-for-business-users-add-skype-contacts.md)Skype所有人新增連絡人之後，您可以使用這些步驟選擇性地封鎖特定人員的外部通訊。
   
-1. 選擇 **使用者**，選取您想要停用其設定的使用者，然後選擇 **編輯編輯** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 。
+1. 選擇 **使用者**，選取您想要停用其設定的使用者，**然後選擇編輯** ![ 編輯。 ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)
     
 2. 選擇 **外部通訊**，然後適當清除選項：
     
@@ -98,7 +98,7 @@ ms.locfileid: "58579397"
 
 1. 選擇 **使用者**，選取要編輯其音訊會議設定的使用者， **然後選擇編輯** ![ 編輯 ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) 。
     
-2. 選擇 **[音訊會議，** 選取您的音訊會議提供者，輸入或變更要求的資訊，然後按一下 [ **儲存**。
+2. 選擇 **[音訊會議」，** 選取您的音訊會議提供者，輸入或變更要求的資訊，然後按一下 [ **儲存**。
     
 |**音訊會議設定**|**描述**|
 |:-----|:-----|

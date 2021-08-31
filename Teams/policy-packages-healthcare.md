@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 瞭解如何使用和管理適用于貴醫療保健組織的 Teams 原則套件。
-ms.openlocfilehash: e81741e40928ec92717b686773078781b51b73be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d71945508055ddc7b6f6661d93e8918879d59d23
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608840"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731962"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>適用於醫療保健的 Teams 原則套件
 
@@ -52,11 +52,11 @@ Teams 目前包含下列醫療保健原則套件。
 |醫療保健資訊工作者  |貴醫療保健組織的資訊工作者 |建立一組原則與原則設定，讓資訊工作者 (例如 IT 人員、資訊人員、財務人員及法規人員) 能夠完整存取聊天、通話和會議。|
 |醫療保健病房  |病房裝置|建立一組原則與原則設定，適用於貴醫療保健組織的病房。|
 
-![醫療保健原則套件的螢幕擷取畫面](media/policy-packages-healthcare.png)
+![醫療保健政策套件的螢幕擷取畫面。](media/policy-packages-healthcare.png)
 
 每個個別原則都會被賦予原則套件的名稱，以便輕鬆識別連結至原則套件的原則。 例如，當您將醫療保健臨床工作者原則套件指派給貴組織的臨床醫生時，便會為套件中的每個原則建立名為 Healthcare_ClinicalWorker 的原則。
 
-![醫療保健臨床工作者套件中的原則螢幕擷取畫面](media/policy-packages-healthcare-clinical-worker.png)
+![醫療保健診所工作人員套件中之政策之螢幕擷取畫面。](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>開始使用原則套件
 
@@ -93,7 +93,7 @@ Teams 目前包含下列醫療保健原則套件。
 
 若要將原則套件指派給一或多個使用者，請在 Microsoft Teams 系統管理中心的左側流覽窗格中，移至 **原則套件**，然後選取 **管理使用者**。  
 
-![如何在系統管理中心指派原則套件的螢幕擷取畫面](media/policy-packages-healthcare-assign.png)
+![如何在系統管理中心指派策略套件的螢幕擷取畫面。](media/policy-packages-healthcare-assign.png)
 
 若要深入了解，請參閱 [指派原則套件](manage-policy-packages.md#assign-a-policy-package)。
 

@@ -17,18 +17,18 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中建立和管理語音路由Microsoft Teams。
-ms.openlocfilehash: 15e0d14310865244570dee677ac19238e9510628
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1717f1b0400f67346034bd9e92bd698305fdd324
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598457"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727092"
 ---
 # <a name="manage-voice-routing-policies-for-direct-routing"></a>管理直接路由的語音路由策略
 
-如果您在組織中部署[電話系統](direct-routing-landing-page.md)直接路由，您可以使用語音路由策略來允許 Teams 和 商務用 Skype Online 使用者使用您的內部部署電話基礎結構接收及撥打公用交換電話網絡 (PSTN) 。
+如果您在組織中部署[電話系統](direct-routing-landing-page.md)直接路由，您可以使用語音路由策略來允許 Teams 和 商務用 Skype Online 使用者使用您的內部部署電話基礎結構接收及撥打公用交換式電話網絡 (PSTN) 。
 
-語音路由策略是 PSTN 使用方式記錄的容器。 您可以到系統管理中心中的語音語音路由Microsoft Teams使用語音路由  >  **** Windows PowerShell。
+語音路由策略是 PSTN 使用方式記錄的容器。 您可以到系統管理中心中的語音語音路由Microsoft Teams，或使用語音路由  >  **** Windows PowerShell。
 
 您可以使用全域 (全組織預設值) 原則，或建立並指派自訂原則。 除非您建立並指派自訂策略，否則使用者會自動取得全域原則。 請記住，您可以編輯全域原則中的設定，但無法重新命名或刪除。
 
@@ -38,8 +38,8 @@ ms.locfileid: "58598457"
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在系統管理中心的左側導Microsoft Teams，前往 **[語音**  >  **語音路由** 規則，然後按一下 [**新增**。<br>
-    ![系統管理中心中新增語音路由Microsoft Teams的螢幕擷取畫面](media/manage-voice-routing-policies.png) 
+1. 在系統管理中心的左側導Microsoft Teams，前往 **[語音**  >  **語音路由** 規則，然後按一下 [**新增**> 。<br>
+    ![系統管理中心中新增語音路由Microsoft Teams螢幕擷取畫面。](media/manage-voice-routing-policies.png) 
 2. 輸入原則的名稱和描述。
 3. 在 **PSTN 使用量記錄下**，按一下 **[新增 PSTN 使用量**，然後選取要新增的記錄。 如果您需要建立新的 PSTN 使用記錄，請按一下 [ **新增**。
 4. 如果您新增了多個 PSTN 使用記錄，請以您想要的順序排列。

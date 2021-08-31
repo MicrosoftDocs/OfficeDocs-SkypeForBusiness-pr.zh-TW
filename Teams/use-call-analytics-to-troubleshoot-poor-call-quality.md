@@ -1,5 +1,5 @@
 ---
-title: 使用通話分析來疑難排解通話品質不佳的問題
+title: 使用通話分析來疑難排解不良通話品質
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -21,43 +21,43 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
-description: 使用每個使用者的通話分析詳細資料，瞭解裝置、網路和連線性，以疑難排解使用者Microsoft Teams通話和會議的問題。
-ms.openlocfilehash: 32dccd0f02c44e0da54e1c303cccfeca3fd6c624
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 使用每個使用者的通話分析詳細資料，瞭解裝置、網路和連接，以疑難排解使用者Microsoft Teams通話和會議的問題。
+ms.openlocfilehash: 9f61796d83977c9d0782957fe3bafe787f60403b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611502"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731932"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通話分析來疑難排解通話品質不佳的問題
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通話分析來疑難排解不良通話品質
 
-本文說明如何使用通話分析來疑難排解個別使用者Microsoft Teams通話或會議品質不佳的問題，Teams或通訊支援專家Teams工程師。
+本文說明如何使用通話分析針對個別使用者進行Microsoft Teams通話或會議品質不佳的疑難排解，如果您擔任 Teams 系統管理員、Teams 通訊支援專家或 Teams 通訊支援工程師角色。
 
 ## <a name="call-analytics-permissions"></a>通話分析許可權
 
-本文假設您已經設定通話分析。 如果沒有，請參閱[設定通話分析Teams。](set-up-call-analytics.md)
+本文假設您已經設定了通話分析。 如果沒有，請參閱[設定通話分析](set-up-call-analytics.md)Teams。
 
 ## <a name="introduction-to-call-analytics"></a>通話分析簡介
 
-通話分析會顯示您Teams中每個使用者的通話和Office 365詳細資訊。 它包含裝置、網路、連接和通話品質 (任何一項資訊都可能是導致通話或會議品質不佳) 。 如果您上傳建築物、網站和租使用者資訊，也會針對每一個通話和會議顯示此資訊。 使用通話分析來説明您瞭解使用者通話或會議體驗不佳的原因。
+通話分析會顯示您Teams中每個使用者的通話和會議Office 365詳細資訊。 其中包含有關裝置、網路、連接和通話品質的資訊 (其中任何一項都可能是導致通話或會議品質不佳) 。 如果您上傳建築物、網站和租使用者資訊，也會針對每一個通話和會議顯示這項資訊。 使用通話分析來説明您瞭解使用者為何通話或會議體驗不佳。
 
 通話分析會顯示通話或會議的每一個區段 ，例如，從一個參與者到另一個參與者。 您可以分析這些詳細資料，Teams管理員可以隔離問題區域，並找出品質不佳的根本原因。
 
-作為系統管理員Teams，您可以完全存取每個使用者的所有通話分析資料。 此外，您也可以將Azure Active Directory角色指派給支援人員。 若要深入瞭解這些角色，請參閱授予支援 [與技術支援人員的許可權](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff)。 請勿錯過每個支援[角色Teams的作用？](#what-does-each-teams-support-role-do)
+做為Teams管理員，您可以完全存取每個使用者的所有通話分析資料。 此外，您也可以將Azure Active Directory角色指派給支援人員。 若要深入瞭解這些角色，請參閱授予支援 [與支援服務人員的許可權](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff)。 請勿錯過每個支援[角色Teams的作用？](#what-does-each-teams-support-role-do)
 
 ## <a name="where-to-find-per-user-call-analytics"></a>在哪裡可以找到每個使用者的通話分析
 
 若要查看使用者的所有通話資訊和資料，請前往系統管理Teams[中心](https://admin.teams.microsoft.com)。 在 **使用者下**，選取使用者，然後開啟&設定檔頁面面上的會議與通話清單。 您可以在這裡找到該使用者過去 30 天的所有通話和會議。
 
-![所有分析使用者資料的螢幕擷取畫面](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
+![所有分析使用者資料的螢幕擷取畫面。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 若要取得特定會話的其他資訊 ，包括詳細的媒體和網路統計資料，請按一下會話以查看詳細資料。
 
-![通話分析使用者會話資料的螢幕擷取畫面](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
+![通話分析使用者會話資料的螢幕擷取畫面。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
 ## <a name="what-does-each-teams-support-role-do"></a>每個支援Teams角色的作用是什麼？
 
-第 **1 層** Teams通訊支援專家 (第 1 層) 可處理基本通話品質問題。 他們不會調查會議的問題。 相反地，他們會收集相關資訊，然後升級為通訊支援工程師。
+第 **1 層** Teams通訊支援專家 (能) 基本通話品質問題。 他們不會調查會議的問題。 相反地，他們收集相關資訊，然後升級為Teams工程師。
 
 第 **2 層** Teams通訊支援工程師 (第 2 層支援) 查看隱藏在通訊支援專家Teams通話記錄中的資訊。 下表列出每個通訊支援角色Teams的資訊。
 
@@ -66,7 +66,7 @@ ms.locfileid: "58611502"
 |活動|資訊|通訊內容<br>支援 *專家* 查看|通訊內容<br>支援 *工程師* 查看|
 |---|---|---|---|
 |**調用**|來電者名稱|只有代理程式搜尋的使用者名稱。|使用者名稱。|
-||收件者名稱|顯示為內部使用者或外部使用者。|收件者名稱。|
+||收件者名稱|以內部使用者或外部使用者顯示。|收件者名稱。|
 ||來電者電話號碼|除了最後三位數以外，整個電話號碼會以星號符號混淆。 例如 \* \* \* ，15552823。|除了最後三位數以外，整個電話號碼會以星號符號混淆。 例如 \* \* \* ，15552823。|
 ||收件者電話號碼|除了最後三位數以外，整個電話號碼會以星號符號混淆。 例如 \* \* \* ，15552823。|除了最後三位數以外，整個電話號碼會以星號符號混淆。 例如 \* \* \* ，15552823。|
 ||**通話詳細資料** \>**進位** 定位停駐點|未顯示資訊。|顯示的所有詳細資料，例如裝置名稱、IP 位址、子網映射等。|
@@ -76,9 +76,12 @@ ms.locfileid: "58611502"
 ||會話詳細資料|會話詳細資料以例外顯示。 只會顯示代理程式搜尋的使用者名稱。 識別為內部使用者或外部使用者的其他參與者。 電話號碼的最後三位數會以星號符號混淆。|顯示會話詳細資料。 顯示使用者名稱和會話詳細資料。 電話號碼的最後三位數會以星號符號混淆。|
 ||||
 
+> [!NOTE]
+> 在 <調試> 選項卡中包含的資訊包含遙測和服務診斷資料，以協助 Microsoft 支援工程師。 如果沒有可支援工程師的其他資料內容，資料可能顯得多餘、不正確或令人困惑。 雖然我們提供此功能供在電話問題疑難排解中尋找其他詳細資料等級的進一步使用者使用，但我們不建議在沒有 Microsoft 支援的情況下，根據這些資料做出判斷。
+
 ## <a name="troubleshoot-user-call-quality-problems"></a>疑難排解使用者通話品質問題
 
-1. 開啟 Teams系統管理中心 () ，然後使用您的 Teams 通訊支援或Teams <https://admin.teams.microsoft.com> 認證來登錄。
+1. 開啟 Teams系統管理中心 () ，然後使用您的 Teams 或系統管理員Teams <https://admin.teams.microsoft.com> 認證來登錄。
 
 2. 在儀表板 **的** 使用者 **搜尋** 中，開始輸入您想要進行疑難排解之通話之使用者的名稱或 SIP 位址，或選取查看使用者以查看使用者清單。
 
@@ -92,7 +95,7 @@ ms.locfileid: "58611502"
 
 在少數情況下，音訊會話不會收到體驗品質資料。 這通常是由中斷的通話或與用戶端的連線終止所導致。 發生此情況時，會話分級 **無法使用**。
 
-如果音訊會話具有使用者體驗品質 (QoE) 資料，下表說明將會話視為不佳的主要 **問題**。
+如果音訊會話具有體驗品質 (QoE) ，下表說明將會話視為不佳的主要 **問題**。
 
 |問題|地區|描述|
 |---|---|---|

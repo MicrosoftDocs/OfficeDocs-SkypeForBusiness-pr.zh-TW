@@ -12,17 +12,17 @@ ms.service: msteams
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: 瞭解如何在 Android 裝置上設定Teams介面。
-ms.openlocfilehash: 07d8b42de16c71a63efe7a3c18955e457577d60c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 瞭解如何在 Android 裝置上Teams介面。
+ms.openlocfilehash: 4d17158a6d76dd0d735392c8a441ca184968897a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58637079"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732452"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>設定Microsoft Teams Android 裝置使用者介面
 
-Microsoft TeamsAndroid 裝置可以根據指派給已登錄帳戶之授權類型來顯示特定的使用者介面。 您可以重寫此行為，並控制顯示哪個介面。 本文詳細說明預設使用者介面的選用方式，以及如何使用 Powershell 策略變更介面。
+Microsoft TeamsAndroid 裝置可以根據指派給已登錄帳戶之授權類型來顯示特定的使用者介面。 您可以重寫此行為，並控制顯示哪個介面。 本文詳細說明如何選擇預設使用者介面，以及如何使用 Powershell 策略變更介面。
 
 Android 裝置上的使用者介面Teams類型：
 
@@ -30,19 +30,19 @@ Android 裝置上的使用者介面Teams類型：
 2. 共同區域
 3. 會議
 
-如果您[將使用者](/microsoftteams/user-access)授權指派給帳戶 ，例如 E3 或 E5 授權，Teams 裝置會顯示預設使用者介面，此介面會針對大多數的使用者案例提供完整功能。 不過，如果裝置正在執行特定功能 ，例如公用區域電話或會議室，則這些使用方式會提供特定的使用者介面。
+如果您[將使用者](/microsoftteams/user-access)授權指派給帳戶 ，例如 E3 或 E5 授權，Teams 裝置會顯示預設使用者介面，此介面會針對大多數的使用者案例提供完整功能。 不過，如果裝置正在執行特定功能 ，例如公用區域電話或會議室，則這些使用方式有特定的使用者介面。
 
 下列三個影像顯示使用者介面如何根據指派給使用者帳戶授權而變更。 第一個影像為使用者帳戶指派 E5 授權。 這是使用者授權，因此裝置會顯示預設的使用者介面：
 
-:::image type="content" source="../media/TeamsAndroidDevices-UserMode1.jpg" alt-text="使用者模式介面":::
+:::image type="content" source="../media/TeamsAndroidDevices-UserMode1.jpg" alt-text="使用者模式介面。":::
 
 在此影像中，使用者帳戶已指派一般 [地區電話授權](/microsoftteams/set-up-common-area-phones)。 一般地區電話主要用來撥打和接聽電話。 因此，撥號鍵台會顯示在顯示器上：
 
-:::image type="content" source="../media/TeamsAndroidDevices-CAP1.jpg" alt-text="公用區域電話介面":::
+:::image type="content" source="../media/TeamsAndroidDevices-CAP1.jpg" alt-text="公用區域電話介面。":::
 
-最後，此影像顯示已指派標準Microsoft Teams 會議室[使用者帳戶](/MicrosoftTeams/rooms/rooms-licensing)。 Teams 會議室授權應用於會議室或共用空間，因此使用者介面會變更，以便顯示日曆視圖，輕鬆加入會議：
+最後，此影像顯示已指派標準Microsoft Teams 會議室[使用者帳戶](/MicrosoftTeams/rooms/rooms-licensing)。 Teams 會議室授權用於會議室或共用空間，因此使用者介面會變更，以便顯示日曆視圖，輕鬆加入會議：
 
-:::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="會議介面":::
+:::image type="content" source="../media/TeamsAndroidDevices-Meeting.jpg" alt-text="會議介面。":::
 
 > [!NOTE]
 > 變更使用者介面不會影響您使用其他授權功能的能力。 例如，即使小組會議室授權的預設視圖是 [日曆視圖，如果帳戶已正確授權及配置，您仍然可以撥打和接聽公用交換電話網路 (PSTN) 電話。
@@ -61,13 +61,13 @@ Android 裝置上的使用者介面Teams類型：
 
 ### <a name="create-a-new-policy-and-assign-to-user"></a>建立新策略並指派給使用者
 
-1. 啟動遠端Windows PowerShell會話，然後使用下列 Cmdlet Microsoft Teams連接到遠端會話：
+1. 啟動遠端Windows PowerShell會話，然後使用Microsoft Teams Cmdlet 來連接到遠端會話：
 
     ``` Powershell
     Connect-MicrosoftTeams
     ```
 
-2. 建立新的 ip Teams IP 電話，並設定 「MeetingSignIn」的登錄模式：
+2. 建立新的 ip Teams ip 電話，並設定 「MeetingSignIn」的登錄模式：
 
    ``` Powershell
    New-CsTeamsIPPhonePolicy –Identity 'Meeting Sign in' –Description 'Meeting Sign In Phone Policy' -SignInMode 'MeetingSignIn'
@@ -80,4 +80,4 @@ Android 裝置上的使用者介面Teams類型：
    Grant-CsTeamsIPPhonePolicy –Identity 'conf-adams@contoso.com' –PolicyName 'Meeting Sign In'
    ```
 
-將策略授予會議室資源帳戶之後，您必須等待複製該策略指派。 您也需要登出裝置並再次重新登錄。
+將策略授予會議室資源帳戶之後，您必須等候策略指派的複製。 您也需要登出裝置並再次重新登錄。

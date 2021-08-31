@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中使用集中式記錄服務 (CLS) 記錄。
-ms.openlocfilehash: d811fb1f331cb680f1c9645dec669bd7c81db192
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e35375dd1715f2d9b2e64cc42339af7247d098d4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628615"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730232"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的 CLS 記錄器
  
@@ -71,7 +71,7 @@ CLS 記錄器是一種工具，可協助您管理集中式記錄服務所產生�
     
 4. 一旦案例已停止，便會再次啟用使用者介面，該動作的詳細資料也會顯示在 PowerShell 命令輸出區域中。
     
-![CLS 記錄器啟動和停止](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
+![CLS 記錄器啟動和停止。](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
 ## <a name="search-for-logs"></a>搜尋記錄
 
@@ -109,7 +109,7 @@ CLS 記錄器是一種工具，可協助您管理集中式記錄服務所產生�
 > 
 > **略過網路記錄** 在檢查任何網路記錄檔時略過搜尋。
     
-![CLS 記錄器搜尋記錄](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
+![CLS 記錄器搜尋記錄檔。](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
 ## <a name="create-a-scenario"></a>建立案例
 
@@ -124,7 +124,7 @@ CLS 記錄器是一種工具，可協助您管理集中式記錄服務所產生�
     
 ## <a name="modify-a-scenario"></a>修改案例
 
-![CLS 記錄器螢幕擷取畫面、編輯案例](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![CLS 記錄器螢幕擷取畫面，編輯案例。](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
 1. 在 [ **編輯案例** ] 索引標籤中，尋找要修改的所需案例。
     

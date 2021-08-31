@@ -1,6 +1,6 @@
 ---
 title: 適用於醫療保健的 Teams
-description: 瞭解您可用於管理組織中Teams醫療小組的管理員資源。
+description: 瞭解您可用於管理組織中Teams醫療小組的系統管理員資源。
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,19 +17,19 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5c5040ba402a14f87ead8156569552c510db63c
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ce4bf4f19aa9bee13aa41a1a7090172e41cb5851
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233468"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730112"
 ---
 # <a name="teams-for-healthcare"></a>適用於醫療保健的 Teams
 
-Teams提供健康小組和醫療保健專業人員以安全的方式溝通、協調病患照護，並改善營運效率。 您可以在這裡找到管理組織中醫療保健小組Teams所需的系統管理資源。
+Teams健康小組和醫療保健專業人員以安全的方式溝通、協調病患照護，並改善營運效率。 您可以在這裡找到管理組織中醫療保健小組Teams所需的系統管理資源。
 
 |    &nbsp;           |         &nbsp;      |
 | ------------- | ------------- |
-| ![以手指指向箭號圖示的手螢幕擷取畫面](../media/get-started-teams.svg)  |  [開始使用適用於醫療保健組織的 Teams](./healthcare/teams-in-hc.md) |
-| ![地圖圖示的螢幕擷取畫面](../media/walkthrough-map-teams.svg) | [開始使用適用於醫療保健組織的 Teams 範本](./healthcare/healthcare-templates-admin-console.md) |
-| ![對話方塊泡泡圖示的螢幕擷取畫面](../media/chat.svg)  |  [開始使用適用於醫療保健組織的 Secure Messaging](./healthcare/messaging-policies-hc.md) |
+| ![以手指指向箭號圖示的手螢幕擷取畫面。](../media/get-started-teams.svg)  |  [開始使用適用於醫療保健組織的 Teams](./healthcare/teams-in-hc.md) |
+| ![地圖圖示的螢幕擷取畫面。](../media/walkthrough-map-teams.svg) | [開始使用適用於醫療保健組織的 Teams 範本](./healthcare/healthcare-templates-admin-console.md) |
+| ![對話方塊泡泡圖示的螢幕擷取畫面。](../media/chat.svg)  |  [開始使用適用於醫療保健組織的 Secure Messaging](./healthcare/messaging-policies-hc.md) |

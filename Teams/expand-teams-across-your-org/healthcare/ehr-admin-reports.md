@@ -23,22 +23,22 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 查看 EHR 連接器Teams管理員報告
-ms.openlocfilehash: cebd427096baae564f020694e18fc6023a560790
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd1b7577079c65d12fa85cc4098702cb26b2a1da
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588165"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730192"
 ---
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft TeamsEHR 連接器系統管理報告
 
-[Microsoft Teams EHR (連接器系統管理報告) 中的電子健康情況記錄，提供使用狀況資料快速且容易閱讀的視圖。
+[Microsoft Teams EHR (連接器系統管理報告) 中的電子健康情況記錄，提供使用狀況資料的快速且容易閱讀的視圖。
 
-您可以到系統管理中心儀表板Microsoft Teams檢視對話方塊，Microsoft Teams EHR 連接器系統管理員報告。
+您可以流覽 [Microsoft Teams系統管理中心儀表板Microsoft Teams檢視對話方塊，查看 EHR 連接器系統管理報告。
 
 從系統管理中心儀表板Microsoft Teams報表。
 
- ![虛擬訪問分配的對話方塊和限制](../../media/admin-connector-report.png)
+ ![虛擬訪問分配和限制的對話方塊。](../../media/admin-connector-report.png)
 
 對話方塊提供下列資料：
 

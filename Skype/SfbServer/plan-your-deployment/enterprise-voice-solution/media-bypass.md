@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: 在商務用 Skype Server 企業語音中規劃媒體旁路所需的決策。 包含通話許可控制 (CAC) 的交互操作。
-ms.openlocfilehash: 7bf6be9a279d5b5f90da0274b8d271767be87f36
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b931d2415e0ac7563735181e76f539723330fe92
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630437"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733142"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>在商務用 Skype 中規劃媒體旁路
 
@@ -39,7 +39,7 @@ ms.locfileid: "58630437"
 
 **具有和不含媒體旁路的媒體和信號路徑**
 
-![語音 CAC 媒體旁路連接強制](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![語音 CAC 媒體旁路連接強制執行。](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 當您想要將已部署的轉送伺服器數目降至最低時，媒體旁路很有用。 一般來說，轉送伺服器集區會部署在中央網站，它會控制分支網站上的閘道。 啟用媒體旁路允許公用交換電話網路的媒體 (PSTN) 來自分支網站用戶端的呼叫，以直接透過這些網站上的閘道來流向。 您必須正確設定商務用 Skype Server 撥出電話路由和企業語音原則，才能將來自分支網站之用戶端的 PSTN 呼叫路由傳送至適當的閘道。
 

@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b760d5fad3a694fd0dd41c34116d09297d25dd22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6002534362126c2cc16954c7e82c865166776c0b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579577"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731942"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的團隊和頻道概覽
 
@@ -92,7 +92,7 @@ Teams 中的兩個主要角色如下：
 
 Teams 非常適合用來打破組織中的隔閡，以及建立跨功能性的團隊，因此，請鼓勵您的使用者考慮建立打破組織界限的功能性團隊。
 
-|團隊類型  |潛在頻道  |應用程式 (索引標籤 ![描述資料夾及索引標籤的圖示](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/連接器 ![描述連接區塊的圖示](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bot ![描述小機器人的圖示](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|團隊類型  |潛在頻道  |應用程式 (索引標籤 ![描述資料夾及索引標籤的圖示。](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/連接器 ![描述連接區塊的圖示](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bot ![描述小機器人的圖示](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |銷售     |年度銷售會議<br></br> 季度業務審查<br></br> 每月銷售漏斗審查<br></br> 銷售手冊 |Power BI<br></br>Trello<br></br>CRM<br></br>摘要 Bot         |
 |公共關系     |新聞稿<br></br>新聞和更新<br></br>事實查核         |RSS 摘要<br></br>Twitter         |

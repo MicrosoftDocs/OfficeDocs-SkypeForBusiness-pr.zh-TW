@@ -16,13 +16,13 @@ f1.keywords: ''
 ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何使用和管理您Teams組織的政策套件。
-ms.openlocfilehash: 4f796a2fc3c7e359f311f2a709f058e172f8f454
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 瞭解如何使用及管理Teams組織的政策套件。
+ms.openlocfilehash: 8f0b998540121e05f4113b298446dffefc832cb5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582167"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731982"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams政府政策套件
 
@@ -49,11 +49,11 @@ Teams目前包含下列政府政策套件。
 |前線管理員  |您政府組織的前線管理員 |建立一組原則，並套用這些設定給貴組織的前線管理員。|
 |前線工作人員  |您政府組織的前線工作人員 |建立一組原則，並套用這些設定給貴組織的前線工作人員。|
 
-![醫療保健原則套件的螢幕擷取畫面](media/policy-packages-gov.png)
+![醫療保健政策套件的螢幕擷取畫面。](media/policy-packages-gov.png)
 
 每個個別原則都會被賦予原則套件的名稱，以便輕鬆識別連結至原則套件的原則。 例如，當您將公用安全人員政策套件指派給貴組織的使用者時，會針對套件中的每個PublicSafety_Officer建立名為 PublicSafety_Officer 的策略。
 
-![醫療保健臨床工作者套件中的原則螢幕擷取畫面](media/policy-packages-public-safety-officer.png)
+![醫療保健診所工作人員套件中之政策之螢幕擷取畫面。](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>管理原則套件
 
@@ -80,7 +80,7 @@ Teams目前包含下列政府政策套件。
 
 若要將原則套件指派給一或多個使用者，請在 Microsoft Teams 系統管理中心的左側流覽窗格中，移至 **原則套件**，然後選取 **管理使用者**。  
 
-![如何在系統管理中心指派原則套件的螢幕擷取畫面](media/policy-packages-healthcare-assign.png)
+![如何在系統管理中心指派策略套件的螢幕擷取畫面。](media/policy-packages-healthcare-assign.png)
 
 若要深入了解，請參閱 [指派原則套件](manage-policy-packages.md#assign-a-policy-package)。
 

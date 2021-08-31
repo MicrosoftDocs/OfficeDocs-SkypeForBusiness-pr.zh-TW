@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 深入瞭解商務用 Skype Server 中的轉送伺服器，包括其支援的拓撲及其關係，以 M:N 主幹、媒體旁路和通話許可控制。
-ms.openlocfilehash: 6113bf05d788620c2ac0b4e91f74b4e347ecc121
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a41303072866aa47d5e5f45ff157d5812be2febc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608010"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728242"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>商務用 Skype Server 中的轉送伺服器元件
  
@@ -57,7 +57,7 @@ ms.locfileid: "58608010"
   
 **中繼伺服器使用的訊號和媒體通訊協定**
 
-![轉送伺服器通訊協定圖表](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
+![轉送伺服器通訊協定圖表。](../../media/c3d39ba0-e323-4a58-8f07-4e80d3278af2.jpg)
   
 > [!NOTE]
 > 如果您使用 TCP 或 RTP/RTCP (，而不是在 PSTN 閘道和轉送伺服器之間的網路上) SRTP 或 SRTCP，我們建議您採取措施，以協助確保網路的安全性和隱私權。 
@@ -122,13 +122,13 @@ E9-1-1 服務提供者的 SIP 主幹是否可在現有的轉送伺服器集區�
   
 **透過 WAN 連結所連線的網站範例，其中網站1上有轉送伺服器和 Site 2 上的 PSTN 閘道**
 
-![轉送伺服器 WAN 閘道的語音拓撲](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanGwy.jpg)
+![具有轉送伺服器 WAN 閘道的語音拓撲。](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanGwy.jpg)
   
 下圖顯示一種簡單的拓撲，其中的轉送伺服器是在網站1的前端集區組合，且具有網站1上的 IP-PBX 的直接 SIP 連線。 在此圖中，轉送伺服器也會控制網站2上的 PSTN 閘道。 假設商務用 Skype 使用者同時存在於網站1和2。 此外，假設 IP-PBX 有一個相關聯的媒體處理器，必須透過所有來自商務用 Skype 端點的媒體進行遍歷，然後才會將其傳送至 IP-PBX 所控制的媒體端點。 在此拓撲中，會以全域方式啟用媒體旁路，以使用網站與地區資訊，並將主幹至 PBX 和 PSTN 閘道以啟用媒體旁路。
   
 **透過 WAN 連結所連線的網站範例，其中網站1上的轉送伺服器與 Site 2 上的 PBX**
 
-![語音拓撲轉送伺服器 WAN PBX](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
+![語音拓撲轉送伺服器 WAN PBX。](../../media/Plan_LyncServer_Voice_Topo_MedSvrWanPbx.jpg)
   
 本主題的最後一個圖顯示的拓撲，轉送伺服器會連線至網際網路電話語音服務提供者的 SBC。 
   

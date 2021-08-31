@@ -22,22 +22,22 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 重設使用者的音訊會議 PIN，並瞭解 PIN 的重要事實。
-ms.openlocfilehash: cb83c68c4cf6bb6e9acdf3b36678741c2f3a15dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 206d625fdf656af5c4b30fdcc9f87dae760807cd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611652"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730092"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-microsoft-teams"></a>重設音訊會議 PIN Microsoft Teams
 
 PIN 是由每個已啟用音訊會議Microsoft Teams使用者所建立的數位所建立的代碼。 會議召集人會使用音訊會議 PIN 來識別他們是會議召集人，並允許他們以電話開始會議。 如果他們使用 Microsoft Teams應用程式來開始會議，則不需要 PIN。 如果使用者忘記 PIN，卻在啟用音訊會議時，無法于電子郵件中找到 PIN，系統管理員可以重設其 PIN，或重設自己的 PIN。
   
-當經過驗證的使用者使用 Microsoft Teams App 加入時，或當召集人使用他們的 PIN 在電話上加入時，就可以開始會議。 當會議需要 PIN 才能啟動時，使用電話加入的使用者會放在大廳，並聆聽等候音樂，直到召集人准許他們加入。 如果會議召集人不需要 PIN，以在電話上開始會議，則來電者加入會議時不會要求他們提供 PIN。
+當經過驗證的使用者使用 Microsoft Teams App 加入時，或當召集人使用他們的 PIN 在電話上加入時，就可以開始會議。 當會議需要 PIN 才能啟動時，電話加入的使用者會放在大廳，並聆聽等候音樂，直到召集人准許他們加入。 如果會議召集人不需要 PIN，以在電話上開始會議，則來電者加入會議時不會要求他們提供 PIN。
 
 ## <a name="reset-a-users-pin"></a>重設使用者的 PIN
 
-![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中， **按一下 [使用者**」，然後從可用使用者清單中選取使用者。
 
@@ -64,7 +64,7 @@ PIN 是由每個已啟用音訊會議Microsoft Teams使用者所建立的數位�
     
 - 系統預設會啟用自動傳送電子郵件給使用者，當使用者啟用音訊會議或 PIN 重設時，會收到一封包含 PIN 的電子郵件。 但如果您已停用自動傳送電子郵件，PIN 重設電子郵件將不會傳送給使用者，您必須手動將 PIN 資訊傳送給使用者。
     
-- 會議開始時，召集人必須允許大廳的所有 PSTN 使用者加入會議。 例如，如果兩個 PSTN 參與者嘗試在會議開始之前加入會議，則他們會放在大廳中，並聆聽保留中的音樂，當會議召集人透過電話使用 PIN 加入時，會議將會開始，而召集人可以使用會議內命令 (按 *21) 來准許大廳的所有 PSTN 使用者。
+- 會議開始時，召集人必須允許大廳的所有 PSTN 使用者加入會議。 例如，如果兩個 PSTN 參與者嘗試在會議開始之前加入會議，則他們會放在大廳中，並保留聆聽音樂，當會議召集人透過電話使用 PIN 加入時，會議就會開始，而召集人可以使用會議內命令 (按 *21) 以允許大廳的所有 PSTN 使用者。
     
 - 預設設定是不允許匿名來電者啟動會議。
     
@@ -72,7 +72,7 @@ PIN 是由每個已啟用音訊會議Microsoft Teams使用者所建立的數位�
     
 - 當您設定音訊會議時，您可以設定組織中 PIN 所需的位數。 PIN 可以是 4 到 12 位數 -預設值為 5。 如果您變更 PIN 長度設定，該設定只會在新產生的 PIN 上，且不會適用于已啟用音訊會議的現有使用者的 PIN 設定。 請參閱 [設定音訊會議 PIN 的長度](Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams.md)。
     
-- 根據預設，電子郵件會設定為Microsoft 365或Office 365的主要 SMTP 位址。 您可以將電子郵件傳送至非郵件Microsoft 365非Office 365位址，例如 Hotmail 或 MSN 電子郵件地址。 您可以使用預設電子郵件地址來取代Windows PowerShell。 如果使用者在郵件或信箱中Exchange信箱，Microsoft 365 Office 365。
+- 根據預設，電子郵件會設定為Microsoft 365或Office 365的主要 SMTP 位址。 您可以將電子郵件傳送至非Microsoft 365或Office 365位址，例如 Hotmail 或 MSN 電子郵件地址。 您可以使用密碼取代預設Windows PowerShell。 如果使用者在郵件或信箱中Exchange信箱，Microsoft 365 Office 365。
 
     
 

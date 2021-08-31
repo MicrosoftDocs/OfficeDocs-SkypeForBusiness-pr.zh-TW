@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解教育或教育界設定中的原則，以及如何在 Microsoft Teams 中使用和管理原則套件。
-ms.openlocfilehash: 8120000599f2e0406d80a7e61b2e5720ffe2fd71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bda6341afa03e4bfebb2e9a619a42ad0a0b879e3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608860"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728162"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>適用於教育界的 Teams 原則和原則套件
 
@@ -148,7 +148,7 @@ Microsoft Teams 目前包含下列原則套件：
 
 每個個別原則都會被賦予原則套件的名稱，以便輕鬆識別連結至原則套件的原則。 例如，當您將 Education_Teacher 原則套件指派給您教育機構中的教師時，系統就會為套件中的每個原則建立名為 Education_Teacher 的原則。
 
-![Education_Teacher 原則套件的螢幕擷取畫面](media/policy-packages-education_teacher.png)
+![Education_Teacher 原則套件的螢幕擷取畫面。](media/policy-packages-education_teacher.png)
 
 > [!NOTE]
 > 如果您決定教師和行政支援職員需要不同的原則，則可重新設定現有套件的用途：找出您目前未使用的套件，並將設定變更為適合該群組。 您可能需要自行記下哪個群組有哪個套件，但這是重新設定套件用途的唯一障礙。
@@ -178,7 +178,7 @@ Microsoft Teams 目前包含下列原則套件：
 
 若要將原則套件指派給一或多個使用者，請在 Microsoft Teams 系統管理中心的左側流覽窗格中，移至 **原則套件**，然後選取 **管理使用者**。  
 
-![如何在系統管理中心指派原則套件的螢幕擷取畫面](media/policy-packages-healthcare-assign.png)
+![如何在系統管理中心指派原則套件的螢幕擷取畫面。](media/policy-packages-healthcare-assign.png)
 
 若要深入了解，請參閱 [指派原則套件](manage-policy-packages.md#assign-a-policy-package)。
 

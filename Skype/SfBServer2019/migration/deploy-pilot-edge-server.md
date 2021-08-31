@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本主題強調在部署商務用 Skype Server 2019 Edge Server 之前，應注意的設定設定。 商務用 Skype Server 2019 的部署和設定程式非常類似商務用 Skype Server 2015。 本節只著重在部署試驗集區時應該考量的要點。 如需詳細步驟，請參閱部署檔中的商務用 Skype Server 2019 部署外部使用者存取，它會說明部署程式，也會提供外部使用者存取的設定資訊。
-ms.openlocfilehash: c76d517bd5130c2babc41e0072ae7450b9838a64
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39ec659c5099a7be9587c630aa487ddeda1df500
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615007"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728042"
 ---
 # <a name="deploy-pilot-edge-server"></a>部署試驗 Edge Server
 
@@ -31,11 +31,11 @@ ms.locfileid: "58615007"
     
 2. 流覽至商務用 Skype Server 2019 節點。 用滑鼠右鍵按一下 [Edge 集區]，然後按一下 [新增 Edge 集區]。
     
-     ![[定義新的 Edge 集區] 對話方塊](../media/migration_ocs_topo_edgepool_page1.JPG)
+     ![[定義新的 Edge 集區] 對話方塊。](../media/migration_ocs_topo_edgepool_page1.JPG)
   
 3. Edge 集區可以是 [多部電腦集區] 或 [單一電腦集區]。
     
-     ![[定義 Edge 集區 FQDN] 對話方塊](../media/migration_ocs_topo_edgepool_page2.JPG)
+     ![[定義 Edge 集區 FQDN] 對話方塊。](../media/migration_ocs_topo_edgepool_page2.JPG)
   
 4. 在「選取功能」頁面上，請勿啟用同盟或 XMPP 同盟。 同盟和 XMPP 同盟目前是透過舊版 Edge Server 路由傳送。 在移轉的後期階段，將會設定這些功能。 
 
@@ -44,11 +44,11 @@ ms.locfileid: "58615007"
     
 6. 在 [ **定義下一個躍點伺服器** ] 頁面上，選取舊版 Edge 集區的下一個躍點 Director。 
     
-     ![[定義下一個躍點] 對話方塊](../media/migration_ocs_topo_edgepool_page7.JPG)
+     ![[定義下一個躍點] 對話方塊。](../media/migration_ocs_topo_edgepool_page7.JPG)
   
 7. 在 [ **建立前端或** 中繼集區] 頁面上，請勿在此時間建立集區與此 Edge 集區的關聯。 外部媒體流量目前是透過舊版 Edge Server 路由傳送。 這項設定到了移轉的後期階段還會再調整。 
     
-     ![[建立前端集區的關聯] 對話方塊](../media/migration_ocs_topo_edgepool_page8.JPG)
+     ![[建立前端集區的關聯] 對話方塊。](../media/migration_ocs_topo_edgepool_page8.JPG)
   
 8. 按一下 **[完成]**，然後 **發行** 拓撲。 
     

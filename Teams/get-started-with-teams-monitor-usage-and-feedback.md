@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f314d7d9a1a53e47e4e2c9bed02626f229f3f2c9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2def0aef8c7cd90319549b82ef591c42ecf09dbc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580137"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732002"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>在 Microsoft Teams 中監視使用情況和意見反應
 了解使用者使用 Teams 的方式及他們對 Teams 的體驗十分重要。 使用狀況報告可協助您更加了解使用模式，並提供使用者意見反應，讓您深入了解如何向更多人員推出，以及應優先訓練及溝通的人員。
@@ -43,14 +43,14 @@ Microsoft Teams 系統管理中心的 Teams 報告可讓您深入了解 Teams �
 
 - **Teams 使用狀況報告**：此報告提供 Teams 使用活動的概覽，包括作用中使用者和頻道總數，以及每個小組中作用中使用者和頻道、來賓和訊息的數量。 
 
-    ![Teams 使用狀況報告的螢幕擷取畫面](media/teams-reports-teams-usage.png "Microsoft Teams 系統管理中心的 Teams 使用狀況報告螢幕擷取畫面")     
+    ![Teams 使用狀況報告的螢幕擷取畫面。](media/teams-reports-teams-usage.png "Microsoft Teams 系統管理中心的 Teams 使用狀況報告螢幕擷取畫面")     
 - **Teams 使用者活動報告**：此報告可讓您深入了解使用者參與的活動類型，例如透過 1:1 通話來通訊的人數、頻道訊息，以及私人聊天訊息。 
 
-    ![Teams 使用者活動報告的螢幕擷取畫面](media/teams-reports-user-activity.png "Microsoft Teams 系統管理中心的 Teams 使用者活動報告螢幕擷取畫面") 
+    ![Teams 使用者活動報告的螢幕擷取畫面。](media/teams-reports-user-activity.png "Microsoft Teams 系統管理中心的 Teams 使用者活動報告螢幕擷取畫面") 
 `
 - **Teams 裝置使用狀況報告**：此報告會顯示使用者連線至 Teams 的方式，包括外出時在行動裝置上使用 Teams 的人數。 
 
-    ![Teams 裝置使用狀況報告的螢幕擷取畫面](media/teams-reports-device-usage.png "Microsoft Teams 系統管理中心中的 Teams 裝置使用狀況報告螢幕擷取畫面")
+    ![Teams 裝置使用狀況報告的螢幕擷取畫面。](media/teams-reports-device-usage.png "Microsoft Teams 系統管理中心中的 Teams 裝置使用狀況報告螢幕擷取畫面")
 
 若要深入瞭解，請參閱 [Teams 分析與報告](teams-analytics-and-reports/teams-reporting-reference.md)。 
 

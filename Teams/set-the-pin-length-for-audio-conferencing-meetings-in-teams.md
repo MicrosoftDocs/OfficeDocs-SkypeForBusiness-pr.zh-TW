@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 瞭解 PIN 長度和需求的參數，並瞭解如何在 Microsoft Teams 中設定會議Microsoft Teams。
-ms.openlocfilehash: 68297e437bdf0f3be9affa4d5e5518295dd05ab7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 瞭解 PIN 的長度和需求參數，並瞭解如何在 Microsoft Teams 中設定會議長度。
+ms.openlocfilehash: 7030849f59679ff63e71e6013757a1e455fa951d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608780"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731952"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>在會議中設定音訊會議會議的 PIN 長度Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "58608780"
   
 ## <a name="setting-the-pin-length"></a>設定 PIN 長度
 
-![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。 
 

@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解如何在 Microsoft Teams 中為音訊會議號碼選取音訊會議自動語音Microsoft Teams。
-ms.openlocfilehash: 427510e5026a5812ab14db21a7410c4d9c3e2a8f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e96ebaff3c14dc9c7f09ceea63de7bec2d409758
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630055"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731972"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>在音訊會議中設定自動語音Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "58630055"
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>設定會議自動語音服務語言
 
-![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。
 
@@ -63,11 +63,11 @@ ms.locfileid: "58630055"
     
 - 語言可以設定為專用，但不能設定為共用電話號碼。
     
-- 若要查看使用 Microsoft 作為提供者Microsoft 365或Office 365音訊會議的國家/地區清單，[請參閱](phone-numbers-for-audio-conferencing-in-teams.md)音訊會議電話號碼。
+- 若要查看在 Microsoft 365 或 Office 365 使用 Microsoft 作為提供者使用音訊會議的國家/地區清單，請參閱音訊會議電話[號碼。](phone-numbers-for-audio-conferencing-in-teams.md)
     
 ## <a name="want-to-use-windows-powershell"></a>想要使用Windows PowerShell？
 
-詳細資訊[Microsoft Teams PowerShell 參考](/powershell/module/teams/?view=teams-ps)。
+請參閱[powerShell Microsoft Teams，](/powershell/module/teams/?view=teams-ps)以瞭解更多資訊。
   
 ## <a name="related-topics"></a>相關主題
 

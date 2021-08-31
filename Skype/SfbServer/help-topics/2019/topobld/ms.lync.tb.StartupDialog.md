@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 啟動拓撲產生器以設定部署的屬性和設定。 在啟動時，拓撲產生器會顯示一個對話方塊，詢問拓撲檔的來源。 您可以選取下列三個選項之一：
-ms.openlocfilehash: 07747193ba46d3159693991a9d304cb0aaec57d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9f50a5d69de9c22665585eb50dd19ab3b39a9c76
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621439"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732342"
 ---
 # <a name="topology-builder-startup-dialog"></a>拓撲產生器啟動對話方塊
  
@@ -32,5 +32,5 @@ ms.locfileid: "58621439"
     
 - **新的拓撲** 選取這個選項，即可開始設定新的拓撲檔。 此選項會開啟您設定的新拓撲檔，以符合您將設定之部署的需求。
     
-![拓撲產生器啟動對話方塊](../../../media/Topology_Builder_Startup_Dialog.jpg)
+![拓撲產生器啟動對話方塊。](../../../media/Topology_Builder_Startup_Dialog.jpg)
   

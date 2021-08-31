@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26dff7d8-242a-4576-9870-d6d461758a37
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 中部署會議。
-ms.openlocfilehash: 85aa9b28ddcc262ae65700e0b0425ebec3dd0d12
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cded58690f7ecc8481f3f273e0eba5e5ef20f03a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599538"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730032"
 ---
 # <a name="deploy-conferencing-in-skype-for-business-server"></a>在商務用 Skype Server 中部署會議
 
@@ -65,7 +65,7 @@ ms.locfileid: "58599538"
 
 **電話撥入式會議流程圖**
 
-![部署電話撥入式會議流程圖流程圖表](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
+![部署電話撥入式會議流程圖。](../../media/95d2f963-7705-4930-90bc-df6a71a700bf.png)
 
 **電話撥入式會議部署檢查清單**
 

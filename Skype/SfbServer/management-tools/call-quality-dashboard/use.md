@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 摘要：瞭解如何使用 [通話品質] 儀表板。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: 398550c80e77950d27be9160dd4f45c2f04acfff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3bc40cb6b6519b47134fd609854911a2e969655
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634237"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728262"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>使用商務用 Skype Server 的通話品質儀表板
 
@@ -40,7 +40,7 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 
 當您造訪通話品質儀表板時，您會看到下列螢幕：
 
-![使用 CQD](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
+![使用 CQD。](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
 
 1. 「摘要窗格」是指可以找到右側)  (的「報表集」內容。
 2. 在 [摘要 PaneReport] 中按一下 [編輯]，以設定層級屬性 (包括) Y 座標軸的高度）。
@@ -63,7 +63,7 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 
 在報表的 [動作] 功能表中，按一下 [編輯]，以查看報告編輯器。 查詢會將每個報告都備份到 cube。 報表是指其查詢所傳回之資料的形象。 報告編輯器可協助您編輯這些查詢以及報告的顯示選項。 當您開啟報表編輯器時，您會看到：
 
-![使用 CQD](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
+![使用 CQD。](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
 1. 在左窗格中選取維度、量值及篩選。 將游標移至其中一個現有的值，以顯示允許移除值的 "x" 按鈕。 按一下標題旁的 [加號] 按鈕，開啟可以新增維度、量值或篩選的對話方塊。
 2. 圖表自訂的選項會顯示在頂端。
@@ -74,7 +74,7 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 
 當 StartDate 的 Month 新增為維度，而且資料在表格表單中呈現為趨勢時，橫條圖和走勢圖會顯示在表格儲存格內。 將滑鼠指標移到長條圖和走勢圖上方，以顯示個別月的值。
 
-![使用 CQD](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
+![使用 CQD。](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
 
 為了顯示長條圖及顯示的走勢圖，必須勾選報表編輯器頂端的 [顯示股價] 核取方塊。 這會選取 [趨勢] 選項，並將 Month 移至最後一個維度，也可以透過按一下 [月]，然後使用向上鍵和向下鍵來移動 StartDate。上移或下移月。
 
@@ -82,7 +82,7 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 
 [設定] 功能表包含有用頁面的連結，例如「系統健康情況」和「關於頁面」，而且位於儀表板的右上角。
 
-![使用 CQD](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
+![使用 CQD。](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
 
 是否顯示描述和時間戳記是由個別使用者所決定，而且這些設定只會影響儀表板的個別版本，不會修改報告集或其他使用者看到的內容。 清除快取會使所有查詢從 cube 重新載入其資料，而還原預設值會刪除所有使用者建立或修改的報表，並重新建立系統報告集（使用者在第一次登入時會看到哪些專案）。
 
@@ -236,7 +236,7 @@ CQD 不使用來電者/被叫用方欄位，而是使用 "First" 和 "Second"，
 
 如果在內部管理無線，您可以在受管理的桶中重新建立無線報告。
 
-![CQD 報告分解](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
+![CQD 報告細目。](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
 
 ## <a name="operational-processes"></a>運作過程
 

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 摘要：查看這些案例，以協助您規劃商務用 Skype Server 中的 Edge Server 拓撲。
-ms.openlocfilehash: 213081e5e232ff2d033c556fa9e037cdf813da3a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4035418426975b79a35be7ec84c6affac3ab92d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622175"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732078"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>商務用 Skype Server 中的 Edge Server 案例
  
@@ -46,53 +46,53 @@ ms.locfileid: "58622175"
 
 在此案例中，高可用性沒有任何選項可供使用。 這表示您在硬體上花費的時間較少，且部署變得更簡單。 如果有高可用性必須，請參閱下列縮放合併的案例。
   
-![使用 NAT 透過私人 IP 進行單一合併 Edge 的 Edge 案例](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
+![使用 NAT 透過私人 IP 進行單一合併 Edge 的 Edge 案例。](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePrivateIP.jpg)
   
 ### <a name="port-diagram"></a>埠圖表
 
 我們也有一個用於單一合併 Edge Server 之埠的圖表。
   
-![Edge 案例的網路周邊單一合併 Edge](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Edge 案例單一合併 Edge 的網路周邊。](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="single-consolidated-skype-for-business-server-edge-server-with-public-ip-addresses"></a>具有公用 IP 位址的單一合併商務用 Skype Server Edge Server
 
 在此案例中，高可用性沒有任何選項可供使用。 這表示您在硬體上花費的時間較少，且部署變得更簡單。 如果有高可用性必須，請參閱下列縮放合併的案例。
   
-![具有公用 IP 之單一合併 Edge 的 Edge 案例](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
+![具有公用 IP 之單一合併 Edge 的 Edge 案例。](../../media/Plan_LyncServer_Edge_Scenario_SingleConsolidatedEdgePublicIP.jpg)
   
 ### <a name="port-diagram"></a>埠圖表
 
 我們也有一個用於單一合併 Edge Server 之埠的圖表。
   
-![Edge 案例的網路周邊單一合併 Edge](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
+![Edge 案例單一合併 Edge 的網路周邊。](../../media/Plan_LyncServer_Edge_NetPerimeter_SingleConsolidatedEdge.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-private-ip-addresses-and-nat"></a>調整式合併商務用 Skype Server Edge 集區，使用 DNS 負載平衡，以及私人 IP 位址和 NAT
 
 在此案例中，您可以在 Edge 部署中擁有高可用性，這可讓您提高可擴充性和容錯移轉支援的優點。
   
-![調整式合併 Edge 的 Edge 案例（使用 NAT 透過私人 IP 進行 DNS LB）](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
+![調整式合併 Edge （使用 NAT 透過私人 IP 進行 DNS LB）的 Edge 案例。](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPrivateIP.jpg)
   
 ### <a name="port-diagram"></a>埠圖表
 
 我們也會有調整式合併 Edge 集區的圖表，使用 DNS 負載平衡。
   
-![使用 DNS LB 針對 Edge 案例調整的合併 Edge 的網路周邊](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![使用 DNS LB 的 Edge 案例調整式合併 Edge 的網路周邊。](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-public-ip-addresses"></a>調整式合併商務用 Skype Server Edge 集區，使用 DNS 負載平衡和公用 IP 位址
 
 在此案例中，您可以在 Edge 部署中擁有高可用性，這可讓您提高可擴充性和容錯移轉支援的優點。
   
-![調整式合併 Edge 的 Edge 案例，DNS LB with Public IP](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
+![調整式合併 Edge （DNS LB with Public IP）的 Edge 案例。](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeDNSLBPublicIP.jpg)
   
 ### <a name="port-diagram"></a>埠圖表
 
 我們也會有調整式合併 Edge 集區的圖表，使用 DNS 負載平衡。
   
-![使用 DNS LB 針對 Edge 案例調整的合併 Edge 的網路周邊](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![使用 DNS LB 的 Edge 案例調整式合併 Edge 的網路周邊。](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-hardware-load-balancing"></a>調整式合併商務用 Skype Server Edge 集區，使用硬體負載平衡
 
 在此案例中，您可以在 Edge 部署中擁有高可用性，這可讓您提高可擴充性和容錯移轉支援的優點。
   
-![調整式合併 Edge 與 HLB 的 Edge 案例](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
+![以 HLB 調整式合併 Edge 的 Edge 案例。](../../media/Plan_LyncServer_Edge_Scenario_ScaledConsolidatedEdgeHLB.jpg)
  

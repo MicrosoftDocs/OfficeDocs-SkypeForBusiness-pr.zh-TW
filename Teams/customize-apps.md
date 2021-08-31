@@ -1,5 +1,5 @@
 ---
-title: 在應用程式中自訂Microsoft Teams
+title: 自訂應用程式Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在應用程式中自訂Microsoft Teams。
-ms.openlocfilehash: 0a3a6b21b34fba7c45ca272f5eefd3eb047a1f7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 00dbb1105805b524f72ba5925abff7d36e61851b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634057"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730222"
 ---
-# <a name="customize-apps-in-microsoft-teams"></a>在應用程式中自訂Microsoft Teams
+# <a name="customize-apps-in-microsoft-teams"></a>自訂應用程式Microsoft Teams
 
- Microsoft Teams應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂Teams應用程式。管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新 **Teams應用程式屬性**。 您可以自訂的詳細資訊有：
+ Microsoft Teams提供應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂Teams應用程式。管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新 **Teams應用程式屬性**。 您可以自訂的詳細資訊有：
 
 - 簡短名稱
 - 簡短描述
@@ -50,24 +50,24 @@ ms.locfileid: "58634057"
 若要開始自訂應用程式，請完成下列步驟：
 
 1. 登入 Teams 系統管理中心。
-2. 展開 **Teams 應用程式**，然後選取 **管理應用程式**。
+2. 展開 **Teams應用程式**，然後選取 **管理應用程式**。
 3. 檢查應用程式 **清單** 的可自訂欄，並按可自訂的應用程式排序。
 
-   ![已排序的自訂欄](media/customize-column.png)
+   ![已排序的自訂欄。](media/customize-column.png)
 
    有三個進入點可存取自訂功能：
 
-   - 選取要自訂之應用程式旁的 ， **然後選取** 自訂 。
+   - 選取要自訂之應用程式旁邊的 ， **然後選取** 自訂 。
 
-     ![自訂選取選項 1](media/select-app-to-customize1.png)
+     ![自訂選取選項 1。](media/select-app-to-customize1.png)
 
    - 選取應用程式名稱，然後選取可 **自訂**。
 
-     ![自訂選取選項 2](media/app-details-customizable.png)
+     ![自訂選取選項 2。](media/app-details-customizable.png)
 
    - 選取應用程式名稱， **然後從動作** 下拉下拉選取 **自訂** 。
 
-     ![自訂選取選項 3](media/customize-action-menu.png)
+     ![自訂選取選項 3。](media/customize-action-menu.png)
 
 4. 展開詳細 **資料** 區段並自訂下欄欄位：
 
@@ -78,7 +78,7 @@ ms.locfileid: "58634057"
     - 隱私權政策 URL
     - 使用條款 URL
 
-   ![自訂設定](media/customize-settings.png)
+   ![自訂設定。](media/customize-settings.png)
 
 > [!Note]
 > 只有應用程式開發人員已指派為可自訂的欄位才能顯示。
@@ -91,7 +91,7 @@ ms.locfileid: "58634057"
 
    C。 選取符合圖示的應用程式強調色彩。
 
-    ![自訂圖示面板色彩選項](media/customize-app-colors.png)
+    ![自訂圖示面板色彩選項。](media/customize-app-colors.png)
 
 6. 自訂應用程式之後，請選取 **Apply**。
 
@@ -101,7 +101,7 @@ ms.locfileid: "58634057"
 
 現在您的Teams使用者可以開啟其Teams用戶端以查看自訂的應用程式。
 
-   ![用戶端中的自訂Teams應用程式](media/contoso-app.png)
+   ![在用戶端中自訂Teams應用程式。](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>自訂應用程式的特殊考慮
 
@@ -112,7 +112,7 @@ ms.locfileid: "58634057"
 > - 系統管理提供的自訂資料會儲存在最近的地區。
 > - 您負責確保使用條款或隱私權政策的連結有效。
 > - 如果應用程式發行者不再允許欄位可自訂，應用程式詳細資料頁面上會出現一則訊息，通知系統管理員無法再自訂的欄位。 對該欄位進行的所有變更都會還原為原始值。
-> - 我們建議您先在測試租使用者Teams測試應用程式自訂變更，然後再在生產環境中進行這些變更。
+> - 我們建議您在測試租使用者Teams測試應用程式自訂變更，然後再在生產環境中進行這些變更。
 > - 品牌變更最多可能需要 24 小時，使用者才能看到變更。
 
 ## <a name="review-app-details"></a>查看應用程式詳細資料
@@ -127,7 +127,7 @@ ms.locfileid: "58634057"
 
 4. 查看應用程式詳細資料，包括原始應用程式名稱 **Publisher 的簡短名稱**。
 
-   ![自訂圖示面板應用程式名稱](media/original-app-version.png)
+   ![自訂圖示面板應用程式名稱。](media/original-app-version.png)
 
    只有 **您變更了** 應用程式的簡短名稱，才能看到來自發行者欄位的簡短名稱。
 
@@ -137,13 +137,13 @@ ms.locfileid: "58634057"
 
 1. 登入 Teams 系統管理中心。
 
-2. 展開 **Teams 應用程式**，然後選取 **管理應用程式**。
+2. 展開 **Teams應用程式**，然後選取 **管理應用程式**。
 
 3. 選取應用程式名稱。
 
 4. 從 **動作下拉下** 拉選取預設值。
 
-   ![選取重設以預設為已強調](media/select-reset.png)
+   ![選取重設以預設為已強調。](media/select-reset.png)
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 

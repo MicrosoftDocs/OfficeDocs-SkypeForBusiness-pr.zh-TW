@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: ''
 description: 摘要：使用本主題準備您的商務用 Skype Server 2019 伺服器及網域基礎結構。 在這裡，硬體、作業系統、資料庫、軟體、所有系統需求與建議，以及憑證 DNS、檔案共用和 Active Directory 資訊，都是為了協助確保成功安裝及部署您的伺服器陣列。
-ms.openlocfilehash: a994d2546cb6e15830b8cb2439968a53047a6389
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d5714c5606c69d6aba0befa03a6556a5da8ab443
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578207"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728362"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的系統需求
  
@@ -302,17 +302,17 @@ SQL支援 Always On，您可以在[商務用 Skype Server 2019 的後端伺服�
     
 我們有圖表和描述，可協助您判斷環境中所具備的拓撲，或在安裝商務用 Skype Server 2019 之前所需的設定。 為了簡化，我們也包含重要：
   
-![是用於商務用 Skype 拓撲圖之圖示的索引鍵](../../SfbServer/media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
+![是用於商務用 Skype 拓撲圖之圖示的索引鍵。](../../SfbServer/media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
   
 #### <a name="single-forest-with-single-domain"></a>具單一網域的單一樹系
 
-![具有單一網域之 Active Directory 單一樹系圖表](../../SfbServer/media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
+![具有單一網域之 Active Directory 單一樹系的圖表。](../../SfbServer/media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
   
 它不會變得更容易。通用拓撲是單一網域樹系。
   
 #### <a name="single-forest-with-a-single-tree-and-multiple-domains"></a>具單一樹狀結構和多個網域的單一樹系
 
-![單一樹系、單一樹系和 mutiple 網域圖表](../../SfbServer/media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
+![單一樹系、單一樹系和 mutiple 網域圖表。](../../SfbServer/media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
 此圖顯示單一樹系，但也有一個或多個子網域 (此特定範例) 中有三個。 所以使用者建立所在的網域可能與部署的網域商務用 Skype Server 2019 不同。 為什麼要擔心呢？ 請務必記住，當您部署商務用 Skype Server 前端集區時，該集區中的所有伺服器都必須在單一網域中。 您可以透過 Windows 通用管理員群組的商務用 Skype Server 支援，進行跨網域管理。
   
@@ -320,7 +320,7 @@ SQL支援 Always On，您可以在[商務用 Skype Server 2019 的後端伺服�
   
 #### <a name="single-forest-with-multiple-trees-and-disjoint-namespaces"></a>具多重樹狀結構和斷續命名空間的單一樹系
 
-![單一樹系、多樹系和脫節命名空間圖表](../../SfbServer/media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
+![單一樹系、多樹系和脫離的命名空間圖表。](../../SfbServer/media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
   
 您的拓撲可能類似于此圖表，其中您有一個樹系，但在該樹系中是多個網域，具有不同的 AD 命名空間。 在此情況下，此圖表是一個很好的範例，因為它包含三個不同網域存取商務用 Skype Server 2019 的使用者。 實線表示他們正在存取其專屬網域中的商務用 Skype Server 集區，而虛線表示他們只會進入其他樹狀目錄中的集區。
   
@@ -328,7 +328,7 @@ SQL支援 Always On，您可以在[商務用 Skype Server 2019 的後端伺服�
   
 #### <a name="multiple-forests-in-a-central-forest-topology"></a>中央樹系拓撲中的多重樹系
 
-![中央樹系拓撲圖表中的多個樹系](../../SfbServer/media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
+![中央樹系拓撲圖表中的多個樹系。](../../SfbServer/media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
   
 商務用 Skype Server 2019 不支援在中央樹系拓撲中設定多個樹系。 如果您不確定這是您擁有的內容，拓撲中的中央樹系會使用其中的物件來代表其他樹系中的使用者，並為樹系中的任何使用者主控使用者帳戶。
   
@@ -339,7 +339,7 @@ SQL支援 Always On，您可以在[商務用 Skype Server 2019 的後端伺服�
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology"></a>商務用 Skype 資源樹系拓撲中的多個樹系
 <a name="BKMK_multipleforestopology"> </a>
 
-![資源樹系拓撲圖表中的多個樹系](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
+![資源樹系拓撲圖表中的多個樹系。](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
 也支援資源樹系拓撲;這是樹系專用於執行伺服器應用程式的地方，例如 Microsoft Exchange Server 和商務用 Skype Server 2019。 這個資源樹系也會主控作用中使用者物件的同步標記法，但沒有啟用登入的使用者帳戶。 因此，資源樹系是使用者物件所在之其他樹系的共用服務環境，而且與資源樹系具有樹系層級的信任關係。
   
