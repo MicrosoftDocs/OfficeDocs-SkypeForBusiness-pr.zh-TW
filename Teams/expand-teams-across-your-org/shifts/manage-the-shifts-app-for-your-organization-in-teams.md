@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8c2e8a8e976e6c92355bc894447353f436b706bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e58b7452ec3e89ded6f24da17490cf476885d72
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608970"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727832"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [班次] 應用程式
 
@@ -36,7 +36,7 @@ ms.locfileid: "58608970"
 
 ## <a name="overview-of-shifts"></a>班次概觀
 
-此應用程式中的 Shifts Microsoft Teams讓前線員工保持連接與同步。這是專為團隊快速且有效的時間管理與通訊所打造的行動電話。 輪班可讓前線員工及其主管使用行動裝置管理排程並保持聯繫。
+應用程式中的 Shifts 應用程式Microsoft Teams讓前線員工保持連接與同步。這是專為團隊快速且有效的時間管理與通訊所打造的行動電話。 輪班可讓前線員工及其主管使用行動裝置管理排程並保持聯繫。
 
 - 主管建立、更新及管理團隊的排班表。 主管也可以傳送訊息給單一個人 (「地板上有打翻的液體」) 或整個團隊 (「區域總經理將於 20 分鐘後抵達」)。 主管還可以傳送原則文件、新訊佈告欄或影片。
 - 員工可查看預排的班次、查看當天還有誰已排班、要求調班或調班，以及要求請假。
@@ -76,9 +76,9 @@ ms.locfileid: "58608970"
  
 Teams內建的 FirstLineWorker 應用程式設定策略，您可以指派給貴組織的前線工作人員。 根據預設，此原則包含活動、班次、聊天和通話應用程式。
 
-若要查看 FirstLineWorker 政策，在系統管理中心的左側導Microsoft Teams，請前往 Teams   >  **App 設定政策**。
+若要查看 FirstLineWorker 政策，請前往系統管理中心左側導Microsoft Teams，前往 Teams   >  **App 設定政策**。
 
-![FirstLineWorker 應用程式設定策略的螢幕擷取畫面](../../media/firstline-worker-app-setup-policy.png "系統管理中心中 FirstLineWorker 應用程式設定Microsoft Teams螢幕擷取畫面")
+![FirstLineWorker 應用程式設定策略的螢幕擷取畫面。](../../media/firstline-worker-app-setup-policy.png "系統管理中心中 FirstLineWorker 應用程式設定Microsoft Teams螢幕擷取畫面")
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>指派 FirstLineWorker 應用程式設定策略給使用者
 

@@ -19,21 +19,21 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82fb18f60bf812bcc6b7535cdbf2589e60e1d399
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 844681b4941ef19db21d90e9e1bbc9ed7ee1dde9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627425"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733072"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 限域目錄搜尋
 
 Microsoft Teams目錄搜尋功能可讓組織建立虛擬邊界，控制使用者如何尋找及與組織中其他使用者通訊。 
 
-Microsoft Teams可讓組織提供目錄的自訂視圖給使用者。 Microsoft Teams資訊[障礙策略來](/microsoft-365/compliance/information-barriers)支援這些自訂視圖。 啟用該政策後，搜尋其他使用者 (例如啟動聊天或新增成員至小組) 所返回的結果，將會根據已配置的政策進行範圍。 當範圍搜尋生效時，使用者將無法搜尋或探索任何團隊，但這些團隊中的現有成員可以新增使用者，如使用中的資訊障礙政策所允許。
+Microsoft Teams可讓組織提供目錄的自訂視圖給使用者。 Microsoft Teams資訊[障礙策略來](/microsoft-365/compliance/information-barriers)支援這些自訂視圖。 一旦啟用該政策，搜尋其他使用者 (例如啟動聊天或新增成員至小組) 所返回的結果，將會根據已配置的政策進行範圍。 當範圍搜尋生效時，使用者將無法搜尋或探索任何團隊，但這些團隊中的現有成員可以新增使用者，如使用中的資訊障礙政策所允許。
 
 > [!NOTE]
-> 在Exchange環境中，此功能僅適用于Exchange Online信箱，而非內部部署信箱。
+> 在Exchange環境中，這項功能僅適用于Exchange Online信箱，而非內部部署信箱。
 
 另請參閱在 Exchange Online 中的[通訊錄Exchange Online。](/exchange/address-books/address-book-policies/address-book-policies)
 
@@ -53,11 +53,11 @@ Microsoft Teams可讓組織提供目錄的自訂視圖給使用者。 Microsoft 
 
 1. 使用資訊隔層策略將貴組織設定為虛擬子組。 詳細資訊，請參閱定義 [資訊障礙政策](/microsoft-365/compliance/information-barriers-policies)。
 
-2. 在 Microsoft Teams系統管理中心，選取整個 **組織** 範圍的設定  >  **Teams設定**。
+2. 在 Microsoft Teams系統管理中心中，選取整個 **組織** 設定  >  **Teams設定**。
 
-3. 在 **搜尋** 下，在 Teams 中使用 Exchange 通訊錄 (**ABP**) 搜尋，開啟切換 **開關**。
+3. 在 **搜尋** 下，使用 **ABP** Teams通訊錄Exchange搜尋範圍目錄 (，) 開啟 **。**
 
-    ![系統管理中心中的Microsoft Teams目錄搜尋](media/teams-scoped-directory-search-image1.png)
+    ![在系統管理中心Microsoft Teams目錄搜尋。](media/teams-scoped-directory-search-image1.png)
 
 
 > [!IMPORTANT]

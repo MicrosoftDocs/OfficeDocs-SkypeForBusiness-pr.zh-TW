@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 2015 中的 Persistent Chat Server 元件和拓撲。
-ms.openlocfilehash: 67b1e322bd8b367dafdee32f331e597471ba2189
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 63c82eee1a640616aaf8f390a66b2d67678b36ff
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598737"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725942"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>規劃 Persistent Chat Server 拓撲
  
@@ -99,7 +99,7 @@ Persistent Chat Server 包含下列元件：
   
 **單一伺服器拓撲**
 
-![Persistent Chat Server-單一伺服器拓撲](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
+![Persistent Chat Server-單一伺服器拓撲。](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
   
 ### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Enterprise Edition具有多個 Persistent 聊天伺服器的伺服器
 
@@ -109,7 +109,7 @@ Persistent Chat Server 包含下列元件：
   
 **多伺服器拓撲**
 
-![Persistent Chat Server-多部伺服器拓撲](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
+![Persistent Chat Server-多部伺服器拓撲。](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
   
 多伺服器拓撲提供伺服器功能的集區。 在伺服器集區中，Persistent Chat service 會通訊和共用資料。 例如，您可以從系統中的任何 Persistent Chat service 取得最初發佈到某項 Persistent Chat service 的聊天記錄。 任何 Persistent chat service 都可以存取透過某項 Persistent Chat service 上傳的檔案。 使用者可以連線至不同的持久聊天伺服器前端伺服器，也可以相互通訊。 TCP 8011 的預設埠會將伺服器連線至伺服器集區，而 Persistent Chat service 會使用該埠自身進行通訊，或用於管理目的。
   

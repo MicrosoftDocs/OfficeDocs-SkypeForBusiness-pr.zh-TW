@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 摘要：檢查通話品質儀表板的教學課程和開發範例。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: 83fdfdee2b7b55cb9ba0ef0651f8e1994bb182df
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d6c813ea8df6a1b1c9b6c991767c45c85f9fb34
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603872"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727512"
 ---
 # <a name="cqd-development-samples"></a>CQD 開發範例
 
@@ -42,7 +42,7 @@ CQD 提供對內部部署商務用 Skype Server 部署的匯總通話品質資�
 
 網頁入口網站上顯示的報告會分組成「報表集」。 此圖顯示含兩個報告的報表集。 下列儀表板中的每個報告均會顯示查詢結果中的正常通話次數、數個月的通話量和使用各種篩選的低通話百分比。 
 
-![CQD 範例報告](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
+![CQD 範例報告。](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
 CQD 是以通話品質方法 (CQM) 建立，所以預設的報表集是設計為與 CQM 所引進的調查流程對齊。 使用者也可以靈活地編輯或建立自訂報表，以符合其需求。 不過，由於有多種方式可顯示資料，因此 CQD 提供的視覺化效果可能無法完全滿足每一位使用者的需求。 在這種情況下，使用者可以利用資料 APIs 及存放庫 APIs 來建立自訂報表頁面。 我們將在本教學課程中深入一系列的範例。
 
@@ -54,7 +54,7 @@ CQD 是以通話品質方法 (CQM) 建立，所以預設的報表集是設計為
 
 CQD 在自訂報表時已有許多彈性，但在某些情況下，使用者可能會想要將資料匯總到在 CQD 中建立的多個報表上。 例如，您可能需要建立報告，顯示表格中所有可能的有線通話組合的低通話百分比 (結果如圖) 所示：
 
-![CQD 表格](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
+![CQD 表格。](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
 
 使用者可以使用 CQD 提供的入口網站流覽多個報告，以提取並記錄每個報告中的「不良通話」%，如果有許多需要收集的資料點，則可以費力。 資料 APIs 為使用者提供一種程式設計方式，透過從資料服務 (（例如透過 AJAX 通話) ）來檢索資料，以完成此作業。 
 
@@ -62,7 +62,7 @@ CQD 在自訂報表時已有許多彈性，但在某些情況下，使用者可�
 
 請先讓我們做一個簡單的範例。 如果我們想要在 HTML 頁面上顯示音訊良好資料流程，以及在 HTML 頁面上，在2015年2月的資料流程計數不正確，請如下圖所示：
 
-![CQD 範例報告](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
+![CQD 範例報告。](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
 
 我們需要的是使用適當參數傳送資料服務的來電，並以 HTML 表格顯示查詢結果。 下列為 JavaScript 程式碼的範例：
 
@@ -199,7 +199,7 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 在此範例中，我們會建立一個網頁，如下圖所示，使用者可以在其中輸入任何現有報表集的識別碼 (或報表) ，並在網頁上顯示報表集或報表的定義。 然後，使用者可以將每個報告的 JSON 字串插入類似于範例1所示的程式碼，並建立使用者想要的任何自訂報告。 
 
-![CQD 範例](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
+![CQD 範例。](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
 
 若要建立「報告定義檢視器」工具，我們需要傳送呼叫至存放庫服務，以取得所需之每個報告集之定義的 JSON 字串表示。 根據指定的報表集識別碼，存放庫 API 將會傳回報表集定義。 
 

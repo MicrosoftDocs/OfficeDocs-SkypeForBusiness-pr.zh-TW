@@ -19,24 +19,24 @@ ms.custom:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80b1799ac64bfd5818c6c53965921696b8e60b9710dbd842594353cee2957998
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: be0e637d1242cbb60ca95d9fe05113aba6878b97
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314299"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725652"
 ---
 # <a name="adopt-microsoft-teams"></a>採用Microsoft Teams
 
 > [!NOTE]
-> 如需轉換至遠端學習和資源以協助您開始使用的概觀，請參閱我們的[遠端學習首頁](/education/remote-learning)。
+> 若要概觀如何轉換至遠端學習和資源[，以説明您](remote-learning-edu.md)開始使用，請參閱開始使用遠端Microsoft Teams學習。
 
-如果您想要從聊天Teams團隊&頻道和會議開始推出新方案，請使用我們的規範性開始使用指南 ，此指南是專為快速啟動和[](get-started-with-teams-quick-start.md)執行所設計。 如果您是一個擁有混合式或內部部署 商務用 Skype 組態的大型組織，或您想要推出語音功能 (例如 Microsoft 365 或 Office 365 通話方案或電話系統) ，您可以從我們的快速入門手冊開始，但您需要下方的進一步指引，在深入採用指南[下。](#deeper-adoption-guidance)
+如果您想要從聊天Teams團隊&頻道和會議開始推出新方案，請使用我們的規範性開始使用指南 ，此指南是專為快速啟動和執行[](get-started-with-teams-quick-start.md)所設計。 如果您是具有混合式或內部部署 商務用 Skype 組態的大型組織，或您想要推出語音功能 (例如 Microsoft 365 或 Office 365 通話方案或電話系統) ，您可以從我們的快速入門手冊開始，但您需要下方的其他指引，位於深入瞭解指南[下。](#deeper-adoption-guidance)
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
-| <img src="https://docs.microsoft.com/office/media/icons/clock-teams.svg" alt="clock" width="40 px" height="40 px"> | [快速入門](./teams-adoption-quick-start-checklist.md) | <img src="https://docs.microsoft.com/office/media/icons/chat.svg" alt="chat bubbles" width="40 px" height="40 px"> | [團隊和頻道簡介](./teams-adoption-understand-teams-and-channels.md) | <img src="https://docs.microsoft.com/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" width="40 px" height="40 px"> | [規劃您的第一個團隊](./teams-adoption-your-first-teams.md) |
-| <img src="https://docs.microsoft.com//office/media/icons/best-practices-teams.svg" alt="best practices" width="40 px" height="40 px"> | [賦予您的領獎人權力](./teams-adoption-create-champions-program.md) | <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg" alt="prize ribbon" width="40 px" height="40 px"> | [訓練](./training-microsoft-teams-landing-page.md) | <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" alt="wrench" width="40 px" height="40 px"> | [工具和下載](./adopt-tools-and-downloads.md) |
+| <img src="/office/media/icons/clock-teams.svg" alt="clock" width="40 px" height="40 px"> | [快速入門](./teams-adoption-quick-start-checklist.md) | <img src="/office/media/icons/chat.svg" alt="chat bubbles" width="40 px" height="40 px"> | [團隊和頻道簡介](./teams-adoption-understand-teams-and-channels.md) | <img src="/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" width="40 px" height="40 px"> | [規劃您的第一個團隊](./teams-adoption-your-first-teams.md) |
+| <img src="/office/media/icons/best-practices-teams.svg" alt="best practices" width="40 px" height="40 px"> | [賦予您的領獎者權力](./teams-adoption-create-champions-program.md) | <img src="/office/media/icons/education-tutorial-teams.svg" alt="prize ribbon" width="40 px" height="40 px"> | [訓練](./training-microsoft-teams-landing-page.md) | <img src="/office/media/icons/toolbox.svg" alt="wrench" width="40 px" height="40 px"> | [工具和下載](./adopt-tools-and-downloads.md) |
 
 ### <a name="deeper-adoption-guidance"></a>[更深入的採用指南](#deeper-adoption-guidance)
 
@@ -44,4 +44,4 @@ ms.locfileid: "54314299"
 
 |               |               |               |               |               |               |
 | :-------------| :-------------| :-------------| :-------------| :-------------| :-------------|
-| <img src="https://docs.microsoft.com/office/media/icons/circle-number-1-teams.svg" alt="circle number one" width="40 px" height="40 px"> | **[開始使用](./teams-adoption-phase1.md)** <br/> [快速入門](./teams-adoption-get-started.md) <br/><br/> [了解小組和頻道](./teams-adoption-understand-teams-and-channels.md) <br/><br/> [建立您的第一個應用程式](./teams-adoption-your-first-teams.md) <br/><br/> [評估文化與組織準備狀況](./teams-adoption-assess-readiness.md) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-2-teams.svg" alt="circle number 2" width="40 px" height="40 px"> | **[試驗](./teams-adoption-phase2-experiment.md)** <br/> [建立您的風雲人物計畫](./teams-adoption-create-champions-program.md) <br/><br/> [管理快速入門](./teams-adoption-governance-quick-start.md)<br/><br/> [定義使用案例](./teams-adoption-define-usage-scenarios.md) <br/><br/> [讓早期採用者快速上手並收集意見反應](./teams-adoption-onboard-early-adopters.md) <br/><br/> [快速上手的支援](./teams-adoption-onboard-support.md) | <img src="https://docs.microsoft.com/office/media/icons/circle-number-3-teams.svg" alt="circle number 3" width="40 px" height="40 px"> | **[調整](./teams-adoption-phase3-enable.md)** <br/> [定義結果與成功](./teams-adoption-define-outcomes.md) <br/><br/> [最佳化意見反應和報告](./teams-adoption-optimize-feedback-and-reporting.md) <br/><br/> [促進認知和實施訓練](./teams-adoption-drive-awareness.md) <br/><br/> [排程服務健康情況審查](./teams-adoption-schedule-service-health-reviews.md) |
+| <img src="/office/media/icons/circle-number-1-teams.svg" alt="circle number one" width="40 px" height="40 px"> | **[開始使用](./teams-adoption-phase1.md)** <br/> [快速入門](./teams-adoption-get-started.md) <br/><br/> [了解小組和頻道](./teams-adoption-understand-teams-and-channels.md) <br/><br/> [建立您的第一個應用程式](./teams-adoption-your-first-teams.md) <br/><br/> [評估文化與組織準備狀況](./teams-adoption-assess-readiness.md) | <img src="/office/media/icons/circle-number-2-teams.svg" alt="circle number 2" width="40 px" height="40 px"> | **[試驗](./teams-adoption-phase2-experiment.md)** <br/> [建立您的風雲人物計畫](./teams-adoption-create-champions-program.md) <br/><br/> [管理快速入門](./teams-adoption-governance-quick-start.md)<br/><br/> [定義使用案例](./teams-adoption-define-usage-scenarios.md) <br/><br/> [讓早期採用者快速上手並收集意見反應](./teams-adoption-onboard-early-adopters.md) <br/><br/> [快速上手的支援](./teams-adoption-onboard-support.md) | <img src="/office/media/icons/circle-number-3-teams.svg" alt="circle number 3" width="40 px" height="40 px"> | **[調整](./teams-adoption-phase3-enable.md)** <br/> [定義結果與成功](./teams-adoption-define-outcomes.md) <br/><br/> [最佳化意見反應和報告](./teams-adoption-optimize-feedback-and-reporting.md) <br/><br/> [促進認知和實施訓練](./teams-adoption-drive-awareness.md) <br/><br/> [排程服務健康情況審查](./teams-adoption-schedule-service-health-reviews.md) |

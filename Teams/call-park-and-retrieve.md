@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解如何在通話中使用通話保留和Microsoft Teams。
-ms.openlocfilehash: 44884c98f3e98c15106b3d1a341eaa75b2176b0a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e58cf8ead120cb7265665abecc0683ea9a96f559
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628415"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732542"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>呼叫停駐和Microsoft Teams
 
@@ -51,11 +51,11 @@ ms.locfileid: "58628415"
 
 若要啟用通話停駐策略
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往 **語音**  >  **通話停駐區政策**。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 **語音**  >  **通話停駐策略**。
 2. 在 [ **管理原則>** 選項卡上，按一下 [ **新增**。
 3. 為策略命名，然後將允許 **通話停駐切換到****開啟**。  (無法自訂呼叫代答範圍和) 
 
-    ![通話停駐策略設定螢幕擷取畫面](media/call-park-add-policy.png)
+    ![通話停駐策略設定螢幕擷取畫面。](media/call-park-add-policy.png)
 
 4. 選取 [儲存 **]**。
 
@@ -63,20 +63,20 @@ ms.locfileid: "58628415"
 
 為了讓該策略能夠執行，必須將它指派給使用者。 您可以 [個別指派該策略](assign-policies.md) 給使用者，或將使用者指派給群組。
 
-將呼叫停駐策略指派給群組
+將通話停駐策略指派給群組
 
 1. 在 [ **通話停駐點策略>** 頁面上，按一下 [ **群群組原則工作分派** > 選項卡上的 [ **新增群組**> 。
 2. 搜尋您想要使用的群組，然後按一下 [ **新增**。
 3. 選擇與其他群組作業比較的排名。
 4. 在 **選取策略下**，選擇要指派此群組的政策。
 
-    ![Park policies 影像](media/call-park-assign-policy-to-group.png)
+    ![公園政策影像。](media/call-park-assign-policy-to-group.png)
 
 5. 選取 **Apply**。
 
 ## <a name="related-topics"></a>相關主題
 
-[將通話停在 Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
+[將通話Teams](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 
 [將原則指派給 Teams 中的使用者](assign-policies.md)
 

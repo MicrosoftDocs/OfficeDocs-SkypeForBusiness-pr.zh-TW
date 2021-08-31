@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f259b77e5d572adde2dcaea1eb4ffb0555ae36c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c28a79ddd3608e2e10d3e722577fc9e8d49334cb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577827"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727812"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>登入 Microsoft Teams
 
@@ -80,7 +80,7 @@ iOS 和 Android 版 Teams 支援多個公司、學校和多個個人帳戶並行
 
 下列圖片顯示使用者如何在 Teams 行動裝置應用程式中新增多個帳戶。
 
-:::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="在 Teams 中新增多個帳戶":::
+:::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="在 Teams 中新增多個帳戶。":::
 
 ## <a name="restrict-sign-in-to-teams"></a>限制登入 Teams
 

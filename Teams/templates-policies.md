@@ -18,17 +18,17 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在系統管理中心管理小組範本
-ms.openlocfilehash: 8acff1891c112ef9db8fbc9d652949786a524550
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c154cdf60b887d5c934e4f63634691c4b9bfcdbd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578187"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732822"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>在系統管理中心管理小組範本
 
 在系統管理中心建立範本政策，管理使用者看到的團隊範本。 在每個範本策略中，您可以指定顯示或隱藏哪些範本。
-將不同的使用者指派給不同的範本策略，讓使用者只查看指定的小組範本子集。
+將不同的使用者指派給不同的範本策略，這樣您的使用者只會查看指定的小組範本子集。
 
 請觀看這段短片，瞭解如何管理範本策略。
 
@@ -42,7 +42,7 @@ ms.locfileid: "58578187"
 
 3. 選取 [新增 **]**。
 
-    ![已選取範本策略，且已強調新增](media/template-policies-1.png)
+    ![範本策略已選取，且會以強調顯示狀態顯示新增。](media/template-policies-1.png)
 
 1. 在範本 **策略設定** 區段，完成下欄欄位：
 
@@ -52,7 +52,7 @@ ms.locfileid: "58578187"
 
 2. 在可 **查看的範本資料** 表中，選取您想要隱藏的範本， **然後選取** 隱藏 。
 
-    ![已選取的範本，並突顯隱藏](media/template-policies-2.png)
+    ![已選取的範本會以強調隱藏顯示。](media/template-policies-2.png)
 
     您可以在隱藏範本資料表中看到您選取要 **隱藏的** 範本。
 
@@ -60,7 +60,7 @@ ms.locfileid: "58578187"
 
 2. 選取要取消隱藏的範本，然後選取 **顯示**。
 
-   ![未隱藏的所選範本](media/template-policies-3.png)
+   ![選取的範本不會隱藏。](media/template-policies-3.png)
 
    選取的範本會顯示在可查看的 **範本資料** 表中。
 3. 選取 [儲存 **]**。
@@ -69,20 +69,20 @@ ms.locfileid: "58578187"
 
 ## <a name="assign-users-to-the-template-policies"></a>將使用者指派給範本策略
 
-指派給策略的使用者只能查看該策略內的可查看範本。
+指派給策略的使用者只能查看該政策內的可查看範本。
 
 1. 從 **範本政策** 中，選取一個策略，然後選取管理 **使用者**。
 
 2. 輸入要指派給此策略的使用者。
 
-   ![將使用者指派給範本策略](media/template-policies-4.png)
+   ![將使用者指派給範本策略。](media/template-policies-4.png)
 
 3. 選取 **Apply**。
 
 > [!Note]
 > 您的新政策最多可能需要 24 小時，才能對使用者生效。
 
-## <a name="size-limits-for-template-policies"></a>範本策略的大小限制
+## <a name="size-limits-for-template-policies"></a>範本政策的大小限制
 
 每個策略最多可以隱藏 100 個範本。 如果 **已** 隱藏 100 個範本，則停用了隱藏按鈕。
 
@@ -109,7 +109,7 @@ ms.locfileid: "58578187"
 答：是。
 
 1. 在系統管理中心，前往 **使用者**。
-1. 在使用者清單表格中，選取要指派給特定範本策略的使用者。
+1. 在使用者清單表格中，選取您想要指派給特定範本策略的使用者。
 1. 選取編輯設定，然後變更範本政策欄位。
 1. 選取 Apply。
    深入瞭解[在 Microsoft \| Docs](./assign-policies.md#assign-a-policy-to-a-batch-of-users)中指派Microsoft Teams使用者Microsoft Teams。
@@ -118,11 +118,11 @@ ms.locfileid: "58578187"
 
 答：在系統管理中心：
 
-1. 前往使用者 **區** 段。
+1. 前往 **使用者區** 段。
 2. 在使用者清單資料表中選取篩選，然後針對小組範本策略進行篩選。
 3. 選取 **Apply**。
 
-![選取的範本策略和查看使用者](media/template-policies-5.png)
+![選取的範本策略及查看使用者。](media/template-policies-5.png)
 
 **問：我可以透過 PowerShell 管理範本政策嗎？**
 
@@ -144,4 +144,4 @@ ms.locfileid: "58578187"
 
 - [在 Microsoft Docs Microsoft Teams指派Microsoft Teams \| 使用者](./assign-policies.md)
 
-- [批次指派使用者至策略](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [將使用者批次指派給策略](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

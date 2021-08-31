@@ -13,26 +13,26 @@ ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: 在系統管理中心Microsoft Teams PSTN 封鎖的使用者報告，以概觀您組織Teams無法撥打 PSTN 通話的使用者。
+description: 在系統管理中心Microsoft Teams PSTN 封鎖的使用者報告，概觀貴組織Teams無法撥打 PSTN 通話的使用者。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: da60a0005fbccd04e3257f3dd7466d5b1a32a544
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c1f703c672859c68d79a56af754dc087f68407c1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594465"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733092"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft TeamsPSTN 封鎖的使用者報告
 
-系統管理中心中的 PSTN 封鎖使用者Microsoft Teams顯示貴組織中禁止在 Teams 中撥打 PSTN Teams。 您可以查看每個封鎖使用者的資訊，包括他們指派的電話號碼，以及他們無法撥打電話的原因。
+系統管理中心中的 PSTN 封鎖使用者報告Microsoft Teams顯示貴組織中禁止在 Teams 中撥打 PSTN Teams。 您可以查看每個封鎖使用者的資訊，包括他們指派的電話號碼，以及他們無法撥打電話的原因。
 
 ## <a name="view-the-pstn-blocked-users-report"></a>查看 PSTN 封鎖的使用者報告
 
-在系統管理中心的左側導Microsoft Teams，按一下 [**分析&報告**  >  **使用方式報告**。 在 [ **查看報表>** 選項卡的 [ **報表**> 下，選取 **[PSTN 封鎖的使用者**，然後按一下 [ **執行報表**> 。
+在系統管理中心的左側導Microsoft Teams，按一下 [分析&**報告**  >  **使用方式報告**。 在 [ **查看報表>** 選項卡的 [ **報表**> 下，選取 **[PSTN 封鎖的使用者**，然後按一下 [ **執行報表**> 。
 
-![系統管理中心中 PSTN 封鎖的使用者報告報告的螢幕擷取畫面](../media/teams-reports-pstn-blocked-users-with-callouts.png "系統管理中心中 PSTN 封鎖使用者報告的螢幕擷取畫面Microsoft Teams編號圖說說義")
+![系統管理中心中 PSTN 封鎖的使用者報告報告的螢幕擷取畫面。](../media/teams-reports-pstn-blocked-users-with-callouts.png "系統管理中心中 PSTN 封鎖使用者報告的螢幕擷取畫面Microsoft Teams編號圖說說")
 
 ## <a name="interpret-the-report"></a>解譯報表
 
@@ -40,7 +40,7 @@ ms.locfileid: "58594465"
 |--------|-------------|
 |**1**   |每個報表都有產生日期。 報告通常會反映啟用時間起 24 到 48 小時的延遲。 |
 |**2**   |X 軸是日期。 Y 軸是使用者數目。 <br>將游標停留在給定日期的點上方，以查看該日期被封鎖的使用者數目。 |
-|**3**   |下表列出所有禁止進行 PSTN 通話的使用者明細。  它會顯示已指派電話系統或音訊會議的所有使用者，並為您提供每個使用者的更多相關資訊。 <ul><li>**顯示名稱** 是使用者的顯示名稱。 您可以按一下顯示名稱，前往系統管理中心中的使用者Microsoft Teams頁面。 </li> <li>**電話** 是指派給使用者的號碼。</li> <li>**封鎖的原因** 就是使用者被封鎖撥打電話的原因。</li><li>**封鎖的動作** 會告訴您使用者是否已被封鎖或無法在 Teams 中撥打 PSTN。</li> <li>**封鎖時間** 是使用者 (UTC) 的日期和時間。</li></li> </ul>若要在表格中查看您想要的資訊，請務必新增欄至資料表。 |
+|**3**   |下表列出所有禁止進行 PSTN 通話的使用者明細。  它會顯示已指派電話系統或音訊會議的所有使用者，並為您提供每個使用者的更多相關資訊。 <ul><li>**顯示名稱** 是使用者的顯示名稱。 您可以按一下顯示名稱，以前往系統管理中心中的使用者Microsoft Teams頁面。 </li> <li>**電話** 是指派給使用者的號碼。</li> <li>**封鎖的原因** 就是使用者被封鎖撥打電話的原因。</li><li>**封鎖的動作** 會告訴您使用者是否已被封鎖或無法Teams。</li> <li>**封鎖時間** 是使用者 () 的日期和時間。</li></li> </ul>若要在表格中查看您想要的資訊，請務必新增欄至資料表。 |
 |**4**   |選取 **編輯欄** 以新增或移除表格中的欄。|
 |**5**   |選取 **全螢幕** 以全螢幕模式來查看報表。|
 

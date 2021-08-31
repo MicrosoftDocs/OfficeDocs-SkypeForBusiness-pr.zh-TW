@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 深入瞭解通話許可控制，可防止來電發生時不佳的媒體質量商務用 Skype Server 企業語音中。
-ms.openlocfilehash: 16b134e6d775d84be3fff97698d2f03ce7497c87
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b57d9f4d6a26acb33b03ab1befb9132ffebc9a20
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623595"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725962"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃通話許可控制
 
@@ -98,7 +98,7 @@ CAC 僅控制語音及視訊的即時流量。並不控制資料流量。
 
 **PSTN 連線的通話許可控制強制執行**
 
-![語音 CAC 媒體旁路連接強制](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
+![語音 CAC 媒體旁路連接強制執行。](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
 ## <a name="defining-your-requirements-for-call-admission-control"></a>定義通話許可控制的需求
 
@@ -121,7 +121,7 @@ CAC 僅控制語音及視訊的即時流量。並不控制資料流量。
 
 **通話許可控制範例拓撲**
 
-![Litware Inc. 網路拓朴範例](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
+![Litware Inc. 網路拓朴範例。](../../media/Plan_CS_VoiceCAC_Litwarenetworktopo.jpg)
 
 > [!NOTE]
 > 所有網站都與網路地區有關聯。例如，波特蘭、雷諾與阿布奎基都包含在北美洲地區內。本圖只顯示已套用 CAC 原則且具有頻寬限制的 WAN 連結。包含芝加哥、紐約與底特律的網站會顯示在北美洲地區內，而且由於這幾個網站沒有頻寬限制，因此不需要 CAC 原則。

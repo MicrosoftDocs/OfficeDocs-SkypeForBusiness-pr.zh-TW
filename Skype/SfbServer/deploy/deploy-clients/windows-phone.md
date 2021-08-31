@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 摘要：瞭解如何在 Windows Phone 上安裝及測試商務用 Skype。
-ms.openlocfilehash: f912c1f5bd3c0bd5f8c3cc553c64ee3b7850f63e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 53a06d80deb99c5f05a9f7a21ab5a5fd171e2797
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618149"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727322"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>安裝及測試 Windows Phone 版商務用 Skype
  
@@ -76,7 +76,7 @@ Windows Phone 版商務用 Skype 應用程式會將商務用 Skype 顯示狀態�
 
 1. 在 [連絡人] 清單中，按一下連絡人。
     
-2. 在連絡人卡片中，按一下立即訊息 (IM)  ![立即訊息的商務用 Skype 圖示](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png)圖示。
+2. 在連絡人卡片中，按一下立即訊息 (IM)  ![商務用 Skype 中立即訊息的圖示。](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png)圖示。
     
 3. 確認 IM 視窗隨即出現，而且您可以輸入並傳送 IM。
     

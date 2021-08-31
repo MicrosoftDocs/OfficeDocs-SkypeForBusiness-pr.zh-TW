@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: 瞭解如何以 Office 365 系統管理員身份在 Microsoft Teams 中開啟或關閉來賓存取功能。
-ms.openlocfilehash: e9701defbf987d68f2c0ce79a9797064a07111bf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 433d0f3b73da465cdfd11382889b9cd13a1e7b06
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590737"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725522"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>開啟或關閉 Microsoft Teams 的來賓存取
 
@@ -35,7 +35,7 @@ ms.locfileid: "58590737"
 
 > 在 **2021 年 2** 月之前，來賓存取預設為關閉。 在系統管理員或小組擁有者可以新增來賓之前，必須為 Teams 開啟來賓存取。 開啟來賓存取權後，變更可能需要幾個小時才能生效。 如果使用者在嘗試將來賓新到小組時看到訊息，請連上您的系統管理員，可能是來賓存取權尚未開啟，或是設定尚未生效。
 
-> **2021** 年 2 月之後，Microsoft Teams 中的來賓存取預設會針對尚未設定此設定的現有客戶&開啟。 執行此變更時，如果您尚未在 Microsoft Teams 中配置來賓存取功能，該功能就會在租使用者中啟用。 如果您希望貴組織的來賓存取保持停用狀態，您必須確認來賓存取設定已設定為 **關閉，而非****服務預設值**。
+> **2021** 年 2 月之後，Microsoft Teams 中的來賓存取預設會針對尚未設定此設定&現有客戶開啟。 當此變更已執行時，如果您尚未在 Microsoft Teams 中配置來賓存取功能，該功能就會在租使用者中啟用。 如果您希望貴組織的來賓存取保持停用狀態，您必須確認來賓存取設定已設定為 **關閉，而非****服務預設值**。
 
 > [!IMPORTANT]
 > 開啟來賓存取取決於 Azure Active Directory、Microsoft 365、SharePoint 和 Teams 的設定。 如需詳細資訊，請參閱 [在小組中與來賓共同作業](/microsoft-365/solutions/collaborate-as-team)。
@@ -48,7 +48,7 @@ ms.locfileid: "58590737"
 
 3. 將 **[允許 Microsoft Teams 中的來賓存取]** 設定為 **[開啟]**。
 
-    ![允許來賓存取開關設定為開啟 ](media/guest-access-setting.png)
+    ![允許來賓存取開關設定為開啟。](media/guest-access-setting.png)
 
 4. 在 **[通話]**、**[會議]** 和 **[通訊]** 下，根據要允許來賓使用者使用的功能，為每個功能選擇 **[開啟]** 或 **[關閉]**。
 
@@ -70,7 +70,7 @@ ms.locfileid: "58590737"
       - **在交談中使用 Meme** – **[開啟]** 此設定可允許來賓在交談中使用 Meme。
       - **在交談中使用貼圖** – **[開啟]** 此設定可允許來賓在交談中使用貼圖。
 
-    ![Teams 中的來賓權限設定](media/manage-guest-access-image1.png)
+    ![來賓許可權設定在 Teams。](media/manage-guest-access-image1.png)
 
 5. 選取 [儲存 **]**。
 

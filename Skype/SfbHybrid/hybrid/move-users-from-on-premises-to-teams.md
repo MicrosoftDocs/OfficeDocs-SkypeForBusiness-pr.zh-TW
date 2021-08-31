@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：瞭解如何遷移使用者設定，以及將使用者移至 Teams。
-ms.openlocfilehash: ef1de7002bd3c757a9a08f3cbf8414a9cd4c32d9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2206c9b155c26a8559dd32346e1d9ad9e0e54978
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614967"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725482"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>將使用者從內部部署移動至 Teams
 
@@ -39,7 +39,7 @@ ms.locfileid: "58614967"
 - 預定未來的使用者預先存在的會議會從內部部署遷移至 Teams。
 - 在使用者第一次登入之後，就可以在 Teams 中取得已存在內部部署的連絡人。
 - 使用者無法從商務用 Skype 發起通話或交談，也無法在商務用 Skype 中排程新的會議。 如果他們嘗試開啟商務用 Skype 用戶端，將會重新導向為使用 Teams，如下所示。 若未安裝 Teams 用戶端，將會使用瀏覽器將其導向 Teams 的網頁版本。<br><br>
-    ![將使用者重新導向至 Teams 的郵件](../media/go-to-teams-page.png)
+    ![將使用者重新導向至 Teams 的郵件。](../media/go-to-teams-page.png)
 
 移動任何使用者之前，請務必先檢查 [必要條件](move-users-between-on-premises-and-cloud.md#prerequisites) ，將使用者移至雲端。 此外，請務必查看[使用 Teams 搭配商務用 Skype 組織的遷移和互通性指導](/microsoftteams/migration-interop-guidance-for-teams-with-skype)方針。
 
@@ -101,7 +101,7 @@ Move-CsUser -Identity username@contoso.com -Target sipfed.online.lync.com -UseOA
 > [!TIP]
 > 部分伺服器可能需要重新開機，以使用 CU8 商務用 Skype 2015。
 
-![即將到來移至 Teams 的通知](../media/teams-upgrade-notification.png)
+![即將到來移至 Teams 的通知。](../media/teams-upgrade-notification.png)
 
 若要通知內部部署使用者即將升級為 Teams，請使用 NotifySfBUsers = true 建立 TeamsUpgradePolicy 的新實例。 然後，您可以將原則直接指派給使用者，或透過設定網站、集區或全域層級的原則，將該原則指派給您想要通知的使用者。 下列 Cmdlet 會建立並授與使用者層級原則：
 

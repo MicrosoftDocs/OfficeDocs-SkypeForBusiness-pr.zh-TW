@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 深入瞭解商務用 Skype Server 企業語音中的增強型 9-1-1 (E9-1-1) 服務，包括位置取得及呼叫路由。
-ms.openlocfilehash: 2e7e3a2464f7c6e3579a9779a7926be2d87492d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18cb4158e7e7d31772f365711b1ec5e0ed22357a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592507"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732752"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃緊急服務
 
@@ -78,7 +78,7 @@ ms.locfileid: "58592507"
 
 下圖顯示除了協力廠商用戶端 MAC 位址型位置] 方法，商務用 Skype 用戶端如何取得位置 () ：
 
-![用戶端如何取得位置圖表](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
+![用戶端如何取得位置圖表。](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
 
 若要讓用戶端取得位置，必須進行下列步驟：
 
@@ -98,7 +98,7 @@ ms.locfileid: "58592507"
 
 **透過 SIP 主幹路由傳送 E9-1-1 通話**
 
-![從 Lync Server 到 PSAP 的緊急通話路由](../../media/Plan_LyncServer_E911_CallRouting.jpg)
+![從 Lync Server 到 PSAP 的緊急通話路由。](../../media/Plan_LyncServer_E911_CallRouting.jpg)
 
 從相容的商務用 Skype Server 用戶端放置緊急通話時：
 

@@ -21,12 +21,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: a182c825be8d8111533e7cdea8fb127b273173bb57584569f4c3780dad91f178
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 63899180b08e1de9b764ae486bdd07e5e31475ce
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339661"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727232"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的 Shifts
 
@@ -36,18 +36,18 @@ Teams為貴組織的前線員工提供有效溝通和共同合作所需的工具
 
 |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- |
-|![工作檢查清單-規劃-teams](../media/task-checklist-planning-teams-small.svg) | **[管理貴組織的班次](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![設計](../media/Help-small.svg)  | **[第一線員工輪班協助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
+|![任務檢查清單-規劃-teams。](../media/task-checklist-planning-teams-small.svg) | **[管理貴組織的班次](./shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |![設計](../media/Help-small.svg)  | **[第一線員工輪班協助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Specific_apps)** |
 
-### <a name="shifts-extensions"></a>Shifts 擴充功能
+### <a name="shifts-extensions"></a>移轉延伸線
 
 |               |               |
 | ------------- | ------------- |
-| ![Api](../media/api-small.svg) | **[移Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** 移轉Graph API 讓您將 Shifts 資料與外部員工管理系統整合。 您可以在後端彈性地建立自訂的 Shifts 體驗，同時為使用者提供豐富的前端體驗，Teams。             |
-| ![Api](../media/api-small.svg) | **[員工管理整合](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** 如果您使用的是協力廠商員工管理系統 ，例如 Kronos 和 JDA，用於排程、時間和出勤，您可以透過 Shifts Graph API 和 SDK 與開放來源整合，直接與 Shifts 整合。 |
-| ![Api](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate可讓您從 Shifts 中取資訊，並與其他 App 建立自訂工作流程，並大規模執行作業。 使用幾乎不執行任何程式碼來自動化重要程式。 觸發程式與範本支援各種案例，例如，在不需要主管核准時，為輪班要求啟用自動核准。 |
+| ![Api。](../media/api-small.svg) | **[移Graph API](/graph/api/resources/shift?view=graph-rest-1.0)** 移轉Graph API 讓您將 Shifts 資料與外部員工管理系統整合。 您可以在後端彈性地建立自訂的 Shifts 體驗，同時為使用者提供豐富的前端體驗Teams。             |
+| ![Api。](../media/api-small.svg) | **[員工管理整合](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** 如果您是使用協力廠商員工管理系統 ，例如 Kronos 和 JDA 進行排程、時間和出勤，您可以透過 Shifts Graph API 和 SDK 與開放來源整合，直接與 Shifts 整合。 |
+| ![Api。](../media/process-flow-teams-small.svg) | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate可讓您從 Shifts 中取資訊，並與其他 App 建立自訂工作流程，並大規模執行作業。 使用幾乎不執行任何程式碼來自動化重要程式。 觸發程式與範本支援各種案例，例如，在不需要主管核准時，為輪班要求啟用自動核准。 |
 
 ## <a name="featured-training"></a>精選訓練
 
 |               |               |               |               |               |               |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| ![箭頭-向右-2-teams](../media/arrow-right-2-teams-small.svg)  |  [影片：什麼是 Shifts？](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |![時鐘團隊](../media/clock-teams-small.svg)  |  [影片：什麼是 Shifts？](https://support.office.com/article/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |![區塊團隊](../media/blocks-teams-small.svg)  |  [影片：管理班次排程](https://support.office.com/article/manage-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |
+| ![箭號-向右-2-teams。](../media/arrow-right-2-teams-small.svg)  |  [影片：什麼是 Shifts？](https://support.office.com/article/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821) |![時鐘團隊](../media/clock-teams-small.svg)  |  [影片：什麼是 Shifts？](https://support.office.com/article/create-a-shifts-schedule-2b94ca38-36db-4a1c-8fee-f8f0fec9a984) |![區塊團隊](../media/blocks-teams-small.svg)  |  [影片：管理班次排程](https://support.office.com/article/manage-a-shifts-schedule-63acda7b-ea39-441a-b1c6-c404a72e79f7) |

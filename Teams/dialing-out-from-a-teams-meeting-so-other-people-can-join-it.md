@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 會議召集人可以瞭解如何使用 Teams 應用程式撥出，讓其他人使用他們的電話加入同一個會議。
-ms.openlocfilehash: db6d900a5892753eee60c3a150579cffb4dbd258
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 會議召集人可以瞭解如何使用 Teams App 撥出，讓其他人使用他們的電話加入同一個會議。
+ms.openlocfilehash: 690ae9a1597f2d6f1621deb264d9115780d35622
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623315"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725642"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>從會議撥出Microsoft Teams其他人可以加入會議
 
-作為會議召集人，您可以使用 Teams App 撥出，讓其他人使用他們的電話加入同一個會議。
+作為會議召集人，您可以使用 Teams 應用程式撥出，讓其他人使用他們的電話加入同一個會議。
 
 當您撥出給某人時，建議您使用他們的完整電話號碼 (包括國家/地區代碼 - E.164 格式) 。
   
@@ -46,10 +46,10 @@ ms.locfileid: "58623315"
 
 以下是如何讓撥出工作：
 
- **步驟 1：** 在會議中，使用新增 **人員** 按鈕選項的新增人員螢幕擷取畫面 ![ ](media/add-people-button.png) 來撥出到電話號碼。
+ **步驟 1：** 在會議使用新增 **人員** ![ 按鈕的新增人員螢幕擷取畫面。](media/add-people-button.png) 選項以撥出電話號碼。
  **步驟 2：** 在邀請某人或撥打號碼方塊中輸入完整的電話號碼，包括國家/ **地區** 代碼。
   
-![邀請某人或撥打號碼方塊的螢幕擷取畫面](media/invite-someone-box.png)
+![邀請某人或撥打號碼方塊的螢幕擷取畫面。](media/invite-someone-box.png)
     
 ## <a name="supported-countries-and-regions"></a>支援的國家/地區
 

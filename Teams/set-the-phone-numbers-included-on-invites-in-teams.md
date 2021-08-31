@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 請按照下列步驟建立預設電話號碼，讓來電者加入Microsoft Teams會議。
-ms.openlocfilehash: 34fd1592729e18978e1bf5c3aa65e29659092cab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c740147e551dade443852a98c5cdafac047815f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608800"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732712"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>設定邀請中包含的電話號碼Microsoft Teams
 
@@ -51,7 +51,7 @@ Microsoft 365 Office 365音訊會議可讓貴組織的使用者Microsoft Teams�
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>設定或變更會議召集人或使用者的預設音訊會議電話號碼
 
-![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 您必須是 Teams 服務系統管理員才能進行這些變更。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
 
@@ -59,13 +59,13 @@ Microsoft 365 Office 365音訊會議可讓貴組織的使用者Microsoft Teams�
 
 2. 在左側流覽中，按一下 [ **使用者>**。
 
-    ![顯示選取系統管理中心Microsoft Teams使用者](media/Admin-users.png)
+    ![顯示選取系統管理中心Microsoft Teams使用者。](media/Admin-users.png)
 
 3. 從可用使用者清單中按一下使用者名稱。
 
 4. 在 [ **音訊會議」 旁**，按一下 [ **編輯>**。
 
-    ![按一下音訊會議旁的 [編輯](media/teams-set-phone-numbers-on-invites-image3.png)
+    ![按一下音訊會議旁的 [編輯>。](media/teams-set-phone-numbers-on-invites-image3.png)
 
 5. 使用 **付費號碼** 或 **免付費號碼欄位** 輸入使用者的數位。
 

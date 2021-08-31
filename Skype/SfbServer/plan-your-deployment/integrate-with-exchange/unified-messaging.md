@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 摘要：在規劃將商務用 Skype Server 與 Exchange 2013 或2016整合時，請參閱本主題。
-ms.openlocfilehash: 382d432947ea099db35831a5db0d9ba649796b88
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc378579d9d01fe783baa96d5869b3d340588b42
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633527"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725672"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>規劃商務用 Skype 中的 Exchange 整合通訊整合
 
@@ -117,7 +117,7 @@ ms.locfileid: "58633527"
 
 **範例 1：Exchange UM 恢復能力**
 
-![ExchangeUM 恢復圖表](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
+![ExchangeUM 恢復圖表。](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
 
 在範例 1 中，Tukwila 資料中心內的 Exchange UM 伺服器 1 和伺服器 2 均已啟用；Dublin 資料中心內的 Exchange UM 伺服器 3 和伺服器 4 均已啟用。 在 Tukwila 中發生 Exchange UM 中斷的情況時，網域名稱系統 (DNS) 伺服器1和2的記錄應該分別設定為指向 servers 3 和4。 在都柏林中 Exchange UM 中斷的情況下，伺服器3和4的 DNS A 記錄應該設定為分別指向 servers 1 和2。
 
@@ -126,7 +126,7 @@ ms.locfileid: "58633527"
 
 **範例 2：Exchange UM 恢復能力**
 
-![ExchangeUM 恢復圖表](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
+![ExchangeUM 恢復圖表。](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
 
 在範例 2 中，於正常運作情況下，Tukwila 資料中心內的 Exchange UM 伺服器 1 和伺服器 2 均已啟用；Dublin 資料中心內的 Exchange UM 伺服器 3 和伺服器 4 均已啟用。這四部伺服器均包含在 Tukwila 使用者的 SIP URI 撥號對應表中，不過伺服器 3 和 4 均已停用。當 Tukwila 的 Exchange UM 伺服器發生如停止運作等的情況時，應停用 Exchange UM 伺服器 1 和 2 並啟用 Exchange UM 伺服器 3 和 4，以將 Tukwila Exchange UM 的流量路由傳送至 Dublin 的伺服器。
 
@@ -143,6 +143,6 @@ ms.locfileid: "58633527"
 Exchange整合通訊在 Exchange 2019 中不再存在，如果您有 Exchange 2019，而且需要同等的功能，您將需要使用[方案雲端語音信箱服務](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)中所述的雲端語音信箱服務。
 
 
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>也請參閱
 
 [整合內部部署整合通訊和商務用 Skype 的部署程式概述](deployment-overview.md)

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 摘要：瞭解如何在安裝商務用 Skype Server 之前建立、發佈和驗證新的拓撲。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 21c37ee17d6a7fbb1db4cce9716fa84f338e4062
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 322b59a064f15dcd7bada74c0d3d5f563e6b8f64
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619159"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725992"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>在商務用 Skype Server 中建立及發行新的拓撲
  
@@ -30,7 +30,7 @@ ms.locfileid: "58619159"
   
 在拓撲中的每一部伺服器上安裝商務用 Skype Server 系統之前，您必須先建立拓撲並加以發佈。 發行拓撲時，會將拓撲資訊載入至中央管理存放區資料庫。 如果這是 Enterprise Edition 集區，則在第一次發行新的拓撲時，您會建立中央管理存放區資料庫。 如果這是 Standard Edition，您必須先從部署嚮導執行第一 Standard Edition 伺服器處理常式，再發佈拓撲。 這為 Standard Edition 準備安裝 SQL Server Express Edition 實例和建立中央管理存放區。 您可以依任何循序執行步驟1到5。 不過，您必須依序執行步驟6、7和8，並在步驟1到5之後進行，如圖表中所述。 若要建立及發行新的拓撲，請參閱步驟6之8。
   
-![一覽表圖表](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
+![一覽表圖表。](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
   
 ## <a name="create-and-publish-new-topology"></a>建立和發佈新拓撲
 

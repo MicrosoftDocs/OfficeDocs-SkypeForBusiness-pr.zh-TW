@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8f0da7d992e0e6da27d3f6a3cf88d012ec29002
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: deb6c31b6fc32ee205b3e58937a96869f0a38965
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235328"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727222"
 ---
 # <a name="teams-for-government"></a>適用於政府機關的 Teams
 
@@ -27,7 +27,7 @@ ms.locfileid: "58235328"
 
 | &nbsp; |&nbsp; |
 | ------------- | ------------- |
-| ![編號清單圖示的螢幕擷取畫面](../media/list-123-teams.svg)  |  [規劃Microsoft 365 - GCC部署](../plan-for-government-gcc.md) |
-| ![包含工作清單圖示的剪貼簿螢幕擷取畫面](../media/tasks-teams.svg) | [Microsoft 365 政府版的方案 - GCC High](../plan-for-government-gcc-high.md) |
-| ![點符號清單專案圖示的螢幕擷取畫面](../media/task-list-planning-teams.svg)  |  [規劃Microsoft 365 - DOD 部署](../plan-for-government-dod.md) |
-| ![向右鍵圖示的螢幕擷取畫面](../media/arrow-right-2-teams.svg)  |  [適用於 GCC High 和 DoD 的音訊會議搭配直接路由](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |
+| ![編號清單圖示的螢幕擷取畫面。](../media/list-123-teams.svg)  |  [規劃Microsoft 365 - GCC部署](../plan-for-government-gcc.md) |
+| ![包含工作清單圖示的剪貼簿螢幕擷取畫面。](../media/tasks-teams.svg) | [Microsoft 365 政府版的方案 - GCC High](../plan-for-government-gcc-high.md) |
+| ![點符號清單專案圖示的螢幕擷取畫面。](../media/task-list-planning-teams.svg)  |  [規劃Microsoft 365 - DOD 部署](../plan-for-government-dod.md) |
+| ![向右箭號圖示的螢幕擷取畫面。](../media/arrow-right-2-teams.svg)  |  [適用於 GCC High 和 DoD 的音訊會議搭配直接路由](../audio-conferencing-with-direct-routing-for-gcch-and-dod.md) |

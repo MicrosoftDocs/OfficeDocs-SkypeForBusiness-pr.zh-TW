@@ -14,7 +14,7 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何管理自訂應用程式策略和設定，以控制組織中誰可以在 Microsoft Teams 中上傳自訂Microsoft Teams。
+description: 瞭解如何管理自訂應用程式策略和設定，以控制貴組織中誰可以在 Microsoft Teams 中上傳自訂Microsoft Teams。
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: c00c06f86e55ed0f2c8b28315c6d83cc36ef3c25
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c0eae158891648fb061c508b6702f05c1813eeea
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634827"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725732"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在應用程式中管理自訂應用程式Microsoft Teams
 
@@ -39,9 +39,9 @@ ms.locfileid: "58634827"
 
 ## <a name="overview-of-custom-apps"></a>自訂應用程式概觀
 
-使用者可以將自訂應用程式Teams， (應用程式套件.zip檔案) 直接上傳至小組或個人內容。 這和透過應用程式商店新增應用程式的方式Teams不同。 上傳應用程式套件來新增自訂應用程式 ，也稱為側載功能，可讓您在應用程式準備好廣泛發佈之前，先測試正在開發中的應用程式。 它也可讓您建立僅供內部使用的應用程式，並與小組共用，而不將應用程式提交給 Teams 應用程式Teams目錄。
+使用者可以將自訂應用程式Teams， (將應用程式套件.zip檔案) 直接上傳至小組或個人內容。 這和透過應用程式商店新增應用程式的方式Teams不同。 上傳應用程式套件來新增自訂應用程式 ，也稱為側載功能，可讓您在應用程式準備好廣泛發佈之前，先測試正在開發中的應用程式。 它也可讓您建立僅供內部使用的應用程式，並與小組共用，而不將應用程式Teams應用程式目錄Teams應用程式目錄。
 
-![顯示 App Store 中上傳自訂應用程式選項的螢幕擷取畫面](media/teams-custom-app-policy-and-settings-upload-app.png)
+![顯示 App Store 中上傳自訂應用程式選項的螢幕擷取畫面。](media/teams-custom-app-policy-and-settings-upload-app.png)
 
 ## <a name="custom-app-policy-and-settings"></a>自訂應用程式策略和設定
 
@@ -53,7 +53,7 @@ ms.locfileid: "58634827"
 
 這些設定不會影響封鎖協力廠商應用程式的能力。  
 
-### <a name="user-custom-app-policy"></a>使用者自訂應用程式策略
+### <a name="user-custom-app-policy"></a>使用者自訂應用程式政策
 
 在 App [](teams-app-setup-policies.md)設定政策中，系統管理員可以使用策略設定 ，Upload **自訂應用程式**，以控制使用者是否可以將自訂應用程式上傳到 Teams。
  
@@ -68,11 +68,11 @@ ms.locfileid: "58634827"
 - 使用者可以將自訂應用程式上傳至個人內容。 
 - 使用者可以視整個組織自訂應用程式設定，與自訂應用程式互動。
 
-您可以編輯全域應用程式設定策略中的設定，以包含您想要的應用程式。 如果您想要為貴組織Teams使用者群組自訂應用程式，請建立並指派一或多個自訂應用程式設定策略。
+您可以編輯全域應用程式設定策略中的設定，以包含您想要的應用程式。 如果您想要為貴組織Teams使用者群組自訂應用程式，請建立並指派一或多個自訂應用程式設定政策。
 
 #### <a name="set-a-user-custom-app-policy"></a>設定使用者自訂應用程式策略
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往 Teams **設定**  >  **政策**。
+1. 在系統管理中心的左側導Microsoft Teams，請Teams **應用程式**  >  **設定政策**。
 2. 按一下 [新增 **]**。
 3. 開啟或關閉自訂 **Upload應用程式**。
 4. 選擇您想要用於該策略的其他任何設定。
@@ -94,11 +94,11 @@ ms.locfileid: "58634827"
 
 #### <a name="configure-the-team-custom-app-setting"></a>設定小組自訂應用程式設定
 
-1. 在 Teams，請前往團隊，按一下 [更多選項 **1 12 月 13**  >  **日管理小組**。
+1. 在 Teams，請前往團隊，按一下 [**更多選項 1**  >  **管理小組**。
 2. 按一下 **設定**，然後展開 **[成員許可權**> 。
 3. 選取或清除允許 **成員上傳自訂應用程式** 核取方塊。
 
-    ![顯示小組自訂應用程式設定之螢幕擷取畫面](media/teams-custom-app-policy-and-settings-team.png)
+    ![顯示小組自訂應用程式設定之螢幕擷取畫面。](media/teams-custom-app-policy-and-settings-team.png)
 
 ### <a name="org-wide-custom-app-setting"></a>全組織自訂應用程式設定
 
@@ -108,21 +108,21 @@ ms.locfileid: "58634827"
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
 2. 按一下 **[全組織應用程式設定>**。
-3. 在 **自訂應用程式下**，開啟或關閉允許 **與自訂應用程式互動**。
+3. 在 **自訂應用程式下**，開啟或關閉允許 **與自訂應用程式互動。**
 
-    ![顯示全組織自訂應用程式設定之螢幕擷取畫面](media/teams-custom-app-policy-and-settings-org-wide.png)
+    ![顯示全組織自訂應用程式設定之螢幕擷取畫面。](media/teams-custom-app-policy-and-settings-org-wide.png)
 
 ## <a name="how-custom-app-policies-and-settings-work-together"></a>自訂應用程式策略和設定如何共同作業
 
-下表摘要列出自訂應用程式策略和設定、它們如何共同作業，以及它們對於控制組織中誰可以將自訂應用程式上傳至 Teams。
+下表摘要列出自訂應用程式策略和設定、它們如何共同作業，以及它們對於控制貴組織中誰可以將自訂應用程式上傳至 Teams。
 
 例如，假設您想要只允許團隊擁有者將自訂應用程式上傳至特定團隊。 您可以設定下列專案：
 
 - 開啟系統管理 **中心** 中的允許與自訂應用程式Microsoft Teams設定。
 - 關閉允許 **成員針對** 您想要限制存取的每一個團隊上傳自訂應用程式。
-- 在系統管理中心建立Microsoft Teams自訂應用程式設定，Upload **自訂** 應用程式設定，並將它指派給團隊擁有者。
+- 在系統管理中心建立並指派自訂Microsoft Teams設定，Upload **自訂** 應用程式設定開啟，並將它指派給團隊擁有者。
 
-|全組織自訂應用程式設定 |小組自訂應用程式設定 |使用者自訂應用程式策略 |影響  |
+|全組織自訂應用程式設定 |小組自訂應用程式設定 |使用者自訂應用程式政策 |影響  |
 |---------|---------|---------|---------|
 | 關閉    | 關閉    | 關閉     |貴組織會封鎖所有自訂應用程式的互動。 除了服務系統管理員或全域系統管理員之外，Teams無法上傳自訂應用程式。您可以使用 PowerShell 移除自訂應用程式。   |
 | 關閉     | 關閉     | 開啟        |貴組織會封鎖所有自訂應用程式的互動。 除了服務系統管理員或全域系統管理員之外，Teams無法上傳自訂應用程式。您可以使用 PowerShell 移除自訂應用程式。         |

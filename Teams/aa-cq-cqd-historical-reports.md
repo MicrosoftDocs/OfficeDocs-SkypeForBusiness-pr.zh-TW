@@ -1,5 +1,5 @@
 ---
-title: 自動呼叫&通話佇列歷史報告
+title: 呼叫佇列&自動助理
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -21,19 +21,19 @@ ms.custom:
 - Reporting
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
-description: 瞭解如何使用通話品質儀表板和Power BI來查看自動通話和通話佇列歷史資料。
-ms.openlocfilehash: cd32c732162c15cdaf4cfeac4c83cb53ebd5fe10
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 瞭解如何使用通話品質儀表板Power BI報表來查看自動通話和通話佇列歷史資料。
+ms.openlocfilehash: a474b2f8e4acc89a92edcc0b20f1414d8cf38fde
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598617"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732732"
 ---
-# <a name="auto-attendant--call-queue-historical-report"></a>自動呼叫&通話佇列歷史報告
+# <a name="auto-attendant--call-queue-historical-report"></a>呼叫佇列&自動助理
 
-CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告：
+CQD Teams自動&通話佇列歷史Power BI範本提供下列三個報告：
 
-- [自動助理](media/cqd-teams-aa-cq-historical-report-sample-aa.png) – 顯示自動助理來電的分析。
+- [自動助理](media/cqd-teams-aa-cq-historical-report-sample-aa.png) – 顯示自動電話機來電的分析。
 - [通話佇列](media/cqd-teams-aa-cq-historical-report-sample-cq.png) – 顯示來電佇列來電的分析。
 - [代理人時程表](media/cqd-teams-aa-cq-historical-report-sample-at.png) - 顯示在通話佇列通話中作用中的代理人時程表視圖。
 
@@ -64,7 +64,7 @@ CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告�
 
 - 系統會提示您選取 CQD 資料管道區域。 選取租使用者所在的區域。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="選取 CQD 資料管道區域之螢幕擷取畫面":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="選取 CQD 資料管道區域之螢幕擷取畫面。":::
 
 - 您可以使用 [Get-CsTenant Cmdlet](/powershell/module/skype/get-cstenant) 取得租使用者所在的區域。
 
@@ -81,11 +81,11 @@ CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告�
  
  - To see your own data, select **Refresh** in the Home tab under Queries in Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="選取重新更新選項的螢幕擷取畫面":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="選取重新更新選項的螢幕擷取畫面。":::
 
 - 系統隨即會提示您進行登錄。 選取 **組織帳戶**，**然後選取**
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="顯示登入的螢幕擷取畫面":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="顯示登入的螢幕擷取畫面。":::
 
 - 選取 **連線** 並觀看資料重新更新。
 
@@ -108,13 +108,13 @@ CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告�
 執行下列步驟：
 - 選取 **功能區上的** View Tab。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="選取可變更色彩配色的螢幕擷取畫面":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="選取可變更色彩配色的螢幕擷取畫面。":::
 
 - 從下拉式清單中選取色彩架構。
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="顯示各種色彩圖的螢幕擷取畫面":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="顯示各種色彩圖的螢幕擷取畫面。":::
   
-## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>自動通話和通話佇列歷史報告定義
+## <a name="auto-attendant-and-call-queue-historical-reports-definitions"></a>自動電話機和通話佇列歷史報告定義
 
 ### <a name="cloud-auto-attendant-analytics"></a>雲端自動助理分析
 
@@ -124,7 +124,7 @@ CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告�
 |:---------------------------------------|:-----------------------------------------------------------------|
 |來電來源<sup>1</sup>        |按內部/外部通話來源分配通話             |
 |目錄搜尋方法總計          |按搜尋類型分配通話                               |
-|本機號碼動作                           |按電話接收者撥打的通話分配                             |
+|來電者動作                           |按電話接收者撥打的通話分配                             |
 |通話結果                             |按最終通話狀態分配通話                          |
 |來電者動作計數                     |通話期間使用之號碼動作的通話分配        |
 
@@ -138,7 +138,7 @@ CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告�
 
 |報表資料表名稱            |來來源資料表名稱            |處理       |
 |:----------------------------|:----------------------------|:----------------|
-|fAutoAttendant               |自動附加                |Source = AutoAttendant， <br>#"篩選的列" = Table.SelectRows (來源，每個 true) ， <br>#"自動助理" = Table.AddColumn (#"篩選的列"，"AA Name"，每個清單。第一個 (Text.Split ([AAIdentity]，"@") ) ) ， <br>#"已變更類型" = Table.TransformColumnTypes (#"自動助理"，{{"AAStartTime"，輸入 datetime}}) ， <br>#"已移除的欄" = Table.removeColumns (#"Changed Type"，{"AAIdentity"})  |
+|fAutoAttendant               |自動附加                |Source = AutoAttendant， <br>#"篩選的列" = Table.SelectRows (來源，每個 true) ， <br>#"自動助理" = Table.AddColumn (#"篩選的列"，"AA Name"，每個清單。第一個 (Text.split ([AAIdentity]，"@") ) ) ， <br>#"已變更類型" = Table.TransformColumnTypes (#"自動助理"，{{"AAStartTime"，輸入 datetime}}) ， <br>#"已移除的欄" = Table.removeColumns (#"Changed Type"，{"AAIdentity"})  |
 
 
 |報表區段                                  |已 (欄位) 欄位                              |已應用篩選     |
@@ -159,7 +159,7 @@ CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告�
 |:---------------------------------------|:------------------------|:--------------------------------------|
 |AA 名稱                                 |文本                     |附加到自動助理的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **aa_test@microsoft.com** 此值 **為：aa_test** |
 |AACallerActionCount                     |全數位             |摘要：加總<br>通話期間，來電者在自動語音回應中選取的動作計數  |
-|AACallFlow                              |文本                     |封裝自動通話的不同狀態 - 可能的值：<br><br>§ abs_search<br>§ 公告<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
+|AACallFlow                              |文本                     |封裝自動總機通話的不同狀態 - 可能的值：<br><br>§ abs_search<br>§ 公告<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
 |AACallResult                            |文本                     |最終通話結果 -- 可能的值：<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ 未知<br>§ user_terminated |
 |AAChainDuration                         |十進位數           |摘要：加總<br>自動通話的通話持續時間                     |
 |AAChainIndex                            |文本                     |                                                                         |
@@ -183,10 +183,10 @@ CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告�
 |來電來源<sup>1</sup>        |按內部/外部通話來源分配通話              |
 |通話音量                             |按通話佇列分配通話                                |
 |本機號碼結果                           |通話結果的通話分配                                |
-|超時/溢出通話總計動作      |根據通話結果 (未) 呼叫的分配       |
+|超時/溢出通話總計動作      |根據通話結果 (已) 呼叫的未轉) 呼叫分配       |
 |轉移/轉出目標總計          |根據通話結果轉呼叫的分配                      |
 |已放棄通話比率                   |成功與放棄通話計數的比例                        |
-|平均會話長度 (秒)         |以放棄/成功通話分組的通話長度 ，以秒數分組       |
+|平均會話長度 (秒)         |以秒數分組的通話長度，以放棄/成功通話分組       |
 
 #### <a name="report-to-cqd-table-and-field-mapping"></a>報告至 CQD 資料表和欄位映射
 
@@ -197,11 +197,11 @@ CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告�
 |報表資料表名稱            |來來源資料表名稱            |處理       |
 |:----------------------------|:----------------------------|:----------------|
 |日期                        |日期                        |無             |
-|dCQ-CQIdentity               |CallQueueAnalytics           |Source = CallQueueAnalytics， <br>#"已移除的欄" = Table.RemoveColumns (Source，{"通話計數"，"通話佇列通話結果"，"Date"，"PSTN 連線類型"，"通話佇列目標型別"，"PSTN 總計分鐘數"}) ，<br>Distinct = Table.distinct (#"已移除的欄")  |
+|dCQ-CQIdentity               |CallQueueAnalytics           |Source = CallQueueAnalytics， <br>#"已移除的欄" = Table.removeColumns (Source，{"通話計數"，"通話佇列通話結果"，"日期"，"PSTN 連線類型"，"通話佇列目標型別"，"PSTN 總計分鐘數"}) ，<br>Distinct = Table.distinct (#"已移除的欄")  |
 |fCallQueueAnalytics          |CallQueueAnalytics           |無             |
 |fCallQueueFinalStateAction   |CallQueueFinalStateAction    |無             |
 
-|報表區段                      |表格 ->欄位 (欄位) 使用                |已應用篩選       |
+|報表區段                      |表格 ->功能 (欄位) 使用                |已應用篩選       |
 |:-----------------------------------|:-------------------------------------|:---------------------|
 |日期選擇器                       |日期 -> DateTime                     |無                  |
 |通話佇列身分識別                 |dCQ-CQIdentity ->通話佇列身分識別 |無                  |
@@ -229,7 +229,7 @@ CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告�
 |通話佇列身分識別                     |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **cq_test@microsoft.com** 此值 **為：cq_test** |
 |通話佇列目標型別                  |文本                     |***呼叫重新導向目標型別 -- 可能的值：***<br><br>§ ApplicationEndpoint<br>§ 信箱<br>§ 其他<br>§ 使用者 |
 |通話類型<sup>1</sup>                   |文本                     |通話類型 -- 可能的值：<br><br>§ 外部<br>§ 內部           |
-|日期                                    |日期/時間                |呼叫佇列通話開始時間 (UTC)  (時間)                            | 
+|日期                                    |日期/時間                |在 UTC 或 UTC (撥打)  (通話)                            | 
 |IsAbandoned                             |True/false               |如果代理人未接聽來電，則為 True                                   |
 |PSTN 連線類型                  |文本                     |通話類型 -- 可能的值：<br><br>§ ExternalCall<br>§ 內部Call   |
 |PSTN 總分鐘數                      |全數位             |摘要：加總<br>PSTN 通話的總通話分鐘數                       |
@@ -240,7 +240,7 @@ CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告�
 |:---------------------------------------|:------------------------|:----------------------------------------|
 |***已放棄通話百分比***                 |百分比               |量值：TotalCallCount / TotalCallCount / 通話總數<br>成功與放棄通話計數的比例    |
 |通話總數                             |全數位             |量值：加總代理已接聽來電        |
-|TotalCallCount                          |全數位             |量值：加 (通話計數)                  |
+|TotalCallCount                          |全數位             |量值：加 (通話)                  |
 
 #### <a name="fcallqueuefinalstateaction--cqd-fields-description"></a>fCallQueueFinalStateAction CQD 欄位描述
 
@@ -251,7 +251,7 @@ CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告�
 |通話佇列通話結果                  |文本                     |呼叫佇列通話的最後狀態 -- 可能的值：<br><br>§ agent_joined_conference<br>§ 已拒絕<br>§ 已中斷連接<br>§ 錯誤<br>§ 失敗<br>§ 無效<br>§ 溢出<br>§ timed_out<br>§ transferred_to_agent |
 |呼叫佇列最終狀態動作           |文本                     |呼叫佇列最終動作 -- 可能的值：<br><br>§ 中斷連接<br>§ disconnect_with_busy<br>§ failed_to_accept_call<br>§ 轉場<br>§ shared_voicemail<br>§ 其他<br>§ 語音信箱 |
 |通話佇列身分識別                     |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **cq_test@microsoft.com** 此值 **為：cq_test** |
-|日期                                    |日期/時間                |呼叫佇列通話開始時間 (UTC)  (時間)    |
+|日期                                    |日期/時間                |在 UTC 或 UTC (撥打)  (通話)    |
 |IsAbandoned                             |True/false               |如果代理人未接聽來電，則為 True           |
 
 
@@ -262,8 +262,8 @@ CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告�
 |報表區段                                          |描述                                                  |
 |:-------------------------------------------------------|:------------------------------------------------------------|
 |按代理人撥打的電話                                        |呼叫佇列和代理人的通話分配                 |
-|由代理人和 (通話) 通話總通話持續時間   |代理 (通話) 通話的總持續時間     |
-|按代理人名稱 (通話) 通話持續時間平均) 秒數           |代理 (通話) 通話的平均持續時間                  |
+|由代理 (通話) 通話總通話持續時間   |代理 (通話) 通話的總持續時間     |
+|按代理人名稱 (通話) 通話持續時間           |由代理人 (通話) 通話的平均持續時間                  |
 
 #### <a name="report-to-cqd-table-and-field-mapping"></a>報告至 CQD 資料表和欄位映射
 
@@ -282,7 +282,7 @@ CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告�
 |#Calls代理程式                               |代理人名稱<br>通話計數<br>日期      |無                  |
 |由代理人和通話佇列發佈          |代理人名稱<br>通話計數<br>通話持續時間 (分鐘) <br>通話佇列名稱 |無                      |
 |左下角                                   |代理人名稱<br>平均通話持續時間 (秒) <br>通話計數<br>通話持續時間 (分鐘) <br>通話佇列名稱 | 無 |
-|按代理人名稱 (通話持續時間) 秒數 |代理人名稱<br>平均通話持續時間 (秒) <br>通話計數<br>通話持續時間 (分鐘) <br>通話佇列名稱 | 無 |
+|按代理 (的平均通話) 秒數 |代理人名稱<br>平均通話持續時間 (秒) <br>通話計數<br>通話持續時間 (分鐘) <br>通話佇列名稱 | 無 |
 
 #### <a name="fagenttimelineanalytics-cqd-fields-description"></a>fAgentTimelineAnalytics CQD 欄位描述
 
@@ -298,7 +298,7 @@ CQD Teams自動&通話佇列歷史報告Power BI範本提供下列三個報告�
 
 > [!NOTE]
 > 1) 此報表從代理人的角度顯示通話計數，因此此報表上的通話總數通常會高於雲端通話佇列分析報表上的通話總數。  佇列中的每一個通話，在接聽之前，可能會至少呈現一次給一或多個代理人。 呈現給代理人的每一個通話佇列通話都會計入此報告，即使代理人未接聽。 這兩個報表之間的通話計數差異會隨著每一個通話撥打每個代理人的助理路由選項而更加明顯。 
-> 2) 當通話第一次到達第一個通話佇列時，如果已在該佇列中等候的通話數超過呼叫溢出處理限制，而且重新導向選項將呼叫傳送至第二個通話佇列，則第二個通話佇列中的代理人會顯示為此報表的第一個通話佇列。 
+> 2) 當通話第一次到達第一個通話佇列時，如果已在該佇列中等候的通話數量超過呼叫溢出處理限制，而且重新導向選項將呼叫傳送至第二個通話佇列，則第二個通話佇列中的代理人會顯示為位於此報表的第一個通話佇列。 
 
 ## <a name="known-issues"></a>已知問題
 

@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: 本文討論如何使用 Azure 監視器以Microsoft Teams 會議室、端對端的方式部署裝置管理。
+description: 本文討論如何使用 Azure 監視器Microsoft Teams 會議室整合的端對端方式部署裝置管理。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 77b1e18e9f30e13cc209040ab876324afa232766
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6713b8651432766e6858f3376ff9804d638babcc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613022"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726112"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>使用 :::no-loc text="Microsoft Teams Rooms"::: 部署管理 :::no-loc text="Azure Monitor":::
 
@@ -30,7 +30,7 @@ ms.locfileid: "58613022"
 
 您可以遵循本指南，使用下列範例的儀表板，取得裝置可用性、應用程式和硬體健康情況，以及應用程式和作業系統版本發佈 :::no-loc text="Microsoft Teams Rooms"::: 的詳細狀態報表。
 
-![範例記錄分析視圖的螢幕擷取畫面Microsoft Teams 會議室](../media/Deploy-Azure-Monitor-1.png "範例記錄分析視圖Microsoft Teams 會議室")
+![範例記錄分析視圖的螢幕擷取畫面Microsoft Teams 會議室。](../media/Deploy-Azure-Monitor-1.png "範例記錄分析視圖Microsoft Teams 會議室")
 
 在較高層級上，您需要執行下列工作：
 
@@ -65,7 +65,7 @@ ms.locfileid: "58613022"
 
 若要設定 :::no-loc text="Log Analytics"::: 以收集 :::no-loc text="Microsoft Teams Rooms"::: 事件，請參閱[ :::no-loc text="Windows"::: 在 :::no-loc text="Azure Monitor"::: ](/azure/azure-monitor/platform/data-sources-windows-events)
 
-![事件記錄設定螢幕擷取畫面](../media/Deploy-Azure-Monitor-2.png "事件記錄設定")
+![事件記錄設定螢幕擷取畫面。](../media/Deploy-Azure-Monitor-2.png "事件記錄設定")
 
 > [!IMPORTANT]
 > 設定 :::no-loc text="Windows"::: 事件記錄設定並輸入 **:::no-loc text="Skype Room System":::** 為事件記錄名稱，然後選取錯誤、**警告****和資訊** 核取方塊。
@@ -189,7 +189,7 @@ ms.locfileid: "58613022"
     **群組標題：** 心跳狀態<br>
     **新群組：** 選擇
 4.  定義 **磚** 屬性：<br>
-    **圖例：** 使用中裝置 (過去 20 分鐘內的心跳) <br>
+    **圖例：** 使用中的裝置 (過去 20 分鐘內的心跳) <br>
     **磚查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  定義 **清單** 屬性：<br>
     **清單查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
@@ -207,7 +207,7 @@ ms.locfileid: "58613022"
     **群組標題：** 保留空白<br>
     **新群組：** 未選取
 3.  定義 **磚** 屬性：<br>
-    **圖例：** 非 (裝置不會在前 20 分鐘內收到任何心跳) <br>
+    **圖例：** 非 (裝置 (過去 20 分鐘內未送出心跳) <br>
     **磚查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  定義 **清單** 屬性：<br>
     **清單查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
@@ -365,7 +365,7 @@ ms.locfileid: "58613022"
 
 6. 設定評估設定 **，然後選取** 完成 ： <br>
     **期間 (分鐘) ：60**<br>
-    **以 (分鐘) 頻率：60**<br>
+    **分鐘 (頻率) ：60**<br>
 
 7. 設定動作群組：
     1.  選取 **建立新**
@@ -490,7 +490,7 @@ Stop-Transcript
 :::no-loc text="Azure Monitor"::: 透過其解決方案庫提供內建的管理解決方案 [，](/azure/azure-monitor/insights/solutions) 以進一步協助您監控環境。 我們強烈建議您同時在工作區[中](/azure/azure-monitor/platform/alert-management-solution)新增通知[ :::no-loc text="Azure Log Analytics"::: ](/azure/azure-monitor/insights/solution-agenthealth)管理和代理健康資料解決方案。
 
 > [!NOTE]
-> 代理程式健康情況解決方案可協助您識別環境中過期或中斷的代理程式，而警示管理解決方案會提供有關特定期間中已提出之通知 :::no-loc text="Microsoft Monitoring"::: 的詳細資訊。
+> 代理程式健康情況解決方案可協助您識別環境中過期或已中斷的代理程式，而警示管理解決方案會提供有關特定期間中已提出之警示 :::no-loc text="Microsoft Monitoring"::: 的詳細資訊。
 
 ## <a name="see-also"></a>另請參閱
 

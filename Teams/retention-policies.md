@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1385f190c0bcf35c89576695911853c88ef7d1d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1dbd1d7c586c989484fa71b1e0b0e3d1fb47550
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634837"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727402"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>管理 Microsoft Teams 的保留原則
 
@@ -81,16 +81,16 @@ Microsoft Teams 支援適用於聊天和頻道訊息的保留原則，所以身�
 
 對於私人聊天 (1:1 聊天) 或群組聊天，使用者會看到時間早於保留原則組態的聊天遭到刪除，並在在尚未刪除的訊息上方顯示一個自動產生的訊息，表示「我們已因貴組織保留原則而刪除較舊的訊息」。 例如：
 
-:::image type="content" source="media/retention-policies-image1.png" alt-text="使用者在 Teams 中接到通知，表示聊天訊息因 Teams 保留政策而遭刪除":::
+:::image type="content" source="media/retention-policies-image1.png" alt-text="使用者Teams聊天訊息會因為保留Teams而刪除。":::
 
 
-:::image type="content" source="media/retention-policies-image2.png" alt-text="Teams 中的使用者說明訊息因 Teams 保留政策而遭刪除":::
+:::image type="content" source="media/retention-policies-image2.png" alt-text="系統Teams訊息的使用者會因為保留Teams而刪除。":::
 
 對於頻道訊息，使用者 (頻道成員) 會在訊息過期後看到已刪除的訊息在檢視中消失。 如果刪除的訊息是往來交談的父郵件，則會顯示一則訊息，說明「此訊息已因保留原則而遭到刪除」。 例如：
 
-:::image type="content" source="media/retention-policies-image3.png" alt-text="保留前的頻道螢幕擷取畫面":::
+:::image type="content" source="media/retention-policies-image3.png" alt-text="保留前頻道的螢幕擷取畫面。":::
 
-:::image type="content" source="media/retention-policies-image4.png" alt-text="保留後的頻道螢幕擷取畫面":::
+:::image type="content" source="media/retention-policies-image4.png" alt-text="保留後頻道的螢幕擷取畫面。":::
 
 > [!NOTE]
 > 使用者因刪除郵件而看到的訊息顯示為目前無法進行設定。

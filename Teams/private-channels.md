@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的私人頻道。
-ms.openlocfilehash: 30fafae99505c685a4042a4a79a6a30ff084d8f3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0eddd5f7af724d9b981091ea1fca7f95ee1af8d9
+ms.sourcegitcommit: 1904d6a6b91ce613e2cf61af1e784ae046c3d6b3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579613"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58744456"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人頻道
 
@@ -40,7 +40,7 @@ Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空�
 
 私人頻道建立之後，會連結到父系小組，且不能移至其他小組。 此外，私人頻道不能轉換成標準頻道，反之亦然。
 
-![螢幕擷取畫面：小組中的私人頻道](media/private-channels-in-teams.png)
+![團隊私人頻道的螢幕擷取畫面。](media/private-channels-in-teams.png)
 
 ## <a name="private-channel-creation"></a>私人頻道建立
 
@@ -66,7 +66,7 @@ Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空�
 
 私人頻道擁有者可以按一下 [管理頻道]，然後使用 [成員] 和 [設定] 索引標籤來新增或移除成員及編輯設定。
 
-![螢幕擷取畫面：私人頻道設定](media/private-channels-in-teams-channel-settings.png)
+![私人頻道設定的螢幕擷取畫面。](media/private-channels-in-teams-channel-settings.png)
 
 ## <a name="private-channel-owner-and-member-actions"></a>私人頻道擁有者和成員動作
 
@@ -91,13 +91,12 @@ Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空�
 
 每個私人頻道都有自己的 SharePoint 網站。 分隔的網站是為了確保僅限私人頻道的成員才可存取私人頻道檔案。 依預設，這些網站會以文件庫建立，且可以透過[網站管理介面](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)輕鬆地增強為功能完整的網站。 每個網站都在與父系小組的網站相同的地理區域中建立。 這些輕量型網站擁有自訂範本識別碼 TEAMCHANNEL#0，可讓您透過 PowerShell 和圖形 API 更輕鬆地進行管理。 
 
->[!NOTE]
->- 只有具有擁有者或成員權限的 Microsoft Teams 使用者才能存取私人頻道網站的內容。
->- 新 SharePoint 系統管理中心的 [使用中網站] 頁面中不包含私人頻道 SharePoint 網站。
->- 2021 年 6 月 28 日之後建立的私人頻道 SharePoint 網站將會有自訂範本識別碼 TEAMCHANNEL#1。
+> [!NOTE]
+> 只有具有擁有者或成員權限的 Microsoft Teams 使用者才能存取私人頻道網站的內容。
+> 新 SharePoint 系統管理中心的 [使用中網站] 頁面中不包含私人頻道 SharePoint 網站。
+> 2021 年 6 月 28 日之後建立的私人頻道 SharePoint 網站將會有自訂範本識別碼 TEAMCHANNEL#1。
 
-
-私人頻道網站會同步處理資料分類，並繼承父系小組網站中的來賓存取權限。 網站擁有者和成員群組的成員資格，會與 Teams 內私人頻道的成員資格保持同步。 在 SharePoint 中對擁有者或成員群組的成員資格所做的任何變更，都會自動在四小時內還原到私人頻道成員資格。 
+私人頻道網站會同步處理資料分類，並繼承父系小組網站中的來賓存取權限。 網站擁有者和成員群組的成員資格，會與 Teams 內私人頻道的成員資格保持同步。 無法透過 SharePoint 獨立管理私人頻道網站的網站權限。 
 
 Teams 會管理私人頻道網站的生命週期。 如果在 Teams 以外刪除網站，只要私人頻道仍在使用中，背景作業就會在 4 小時內還原網站。 如果網站已永久刪除，將會為私人頻道佈建新網站。
 

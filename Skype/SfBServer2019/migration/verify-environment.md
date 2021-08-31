@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 在共存狀態中部署商務用 Skype Server 2019 之前，您必須確認已設定並啟動舊版服務。 在部署商務用 Skype Server 2019 試驗集區之前，請務必先識別舊環境中存在的重要服務和功能。 在使用舊版 XMPP 部署的共存狀態中部署 Microsoft 商務用 Skype Server 2019 XMPP 之前，您必須確認舊版 XMPP 服務已設定並啟動，並識別舊版 XMPP 設定所支援的同盟合作夥伴。
-ms.openlocfilehash: c81686f77d42f855f61699d3f141ffcaa463bc9a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 208b508eb6b2b5c62da51aa6317cde6e2a95bbb7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586237"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727742"
 ---
 # <a name="verify-the-legacy-environment"></a>驗證舊版環境
 
@@ -36,7 +36,7 @@ ms.locfileid: "58586237"
     
 2. 確認下列服務正在前端伺服器上執行：
     
-     ![前端伺服器上執行的服務清單](../media/migration_lyncserver_config_w14_services.jpg)
+     ![前端伺服器上執行的服務清單。](../media/migration_lyncserver_config_w14_services.jpg)
   
 ## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>在商務用 Skype Server 控制台中檢查舊版拓撲
 
@@ -46,7 +46,7 @@ ms.locfileid: "58586237"
     
 3. 選取 [ **拓撲**]。 確認舊版部署中的各種伺服器都已列出。
     
-     ![控制台拓撲頁面](../media/migration_lyncserver_2010_topology.JPG)
+     ![控制台拓撲頁面。](../media/migration_lyncserver_2010_topology.JPG)
   
 ## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>在商務用 Skype Server 控制台中檢查舊版使用者
 
@@ -56,7 +56,7 @@ ms.locfileid: "58586237"
     
 3. 確認 [ **註冊集** 區] 欄針對所列的每個使用者，指向舊版集區。 
     
-     ![列出使用者的控制台](../media/migration_lyncserver_2010_allusers.JPG)
+     ![清單使用者的控制台。](../media/migration_lyncserver_2010_allusers.JPG)
   
 ## <a name="verify-legacy-edge-and-federation-settings"></a>驗證舊版 Edge 及同盟設定
 
@@ -70,15 +70,15 @@ ms.locfileid: "58586237"
     
 5. 選取 [網站] 節點，並確認已設定 [ **網站同盟路由指派** ] 值。 
     
-     ![拓撲產生器的網站同盟路由](../media/migration_lyncserver_w14_federation.jpg)
+     ![拓撲產生器的網站同盟路由。](../media/migration_lyncserver_w14_federation.jpg)
   
 6. 選取 [Standard Edition 伺服器] 或 [Enterprise Edition 前端集區]。 決定是否已為下列的媒體設定 Edge 集區的 **關聯** 性。 
     
-     ![顯示伺服器和集區的拓撲產生器](../media/migration_lyncserver_w14_edgepool_media.jpg)
+     ![顯示伺服器和集區的拓撲產生器。](../media/migration_lyncserver_w14_edgepool_media.jpg)
   
 7. 選取 Edge 集區，並識別下一個躍點集區是否已在 **下一個躍點選取範圍** 下設定。
     
-     ![拓撲產生器，下一個躍點選取範圍](../media/migration_lyncserver_w14_nexthop.jpg)
+     ![拓撲產生器，下一個躍點選取範圍。](../media/migration_lyncserver_w14_nexthop.jpg)
   
 ## <a name="verify-legacy-xmpp-federated-partner-configuration"></a>驗證舊版 XMPP 同盟協力廠商設定
 
@@ -86,6 +86,6 @@ ms.locfileid: "58586237"
     
 2. 確認已啟動 Office 通訊伺服器 XMPP 閘道服務。 
     
-     ![Office通訊伺服器 XMPP 閘道服務](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
+     ![Office通訊伺服器 XMPP 閘道服務。](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
   
 

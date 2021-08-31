@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 中規劃會議拓撲。
-ms.openlocfilehash: d5a048603e68b020f0aba750a4dd34cfd334f182
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 09d793a75ab72ef96d3ded85156c99a7590e087d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599908"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732632"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>規劃商務用 Skype Server 的會議拓撲
  
@@ -103,7 +103,7 @@ Web 會議需要下列專案：
   
 **大型會議拓撲**
 
-![大型會議拓撲](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
+![大型會議拓撲。](../../media/06858900-a262-4a47-96d0-51abd6827064.png)
   
 主控大型會議的使用者必須擁有位於前端集區中的使用者帳戶。 不過，我們不建議您在此集區中主控其他使用者帳戶。 而只是用於大型會議。 最佳作法是在此集區中建立特殊的使用者帳戶，僅供主控大型會議使用。 因為大型會議設定已經針對效能進行優化，所以以一般使用者的身分使用它時，可能會發生問題，例如，當涉及 PSTN 端點時，無法將 P2P 會話提升為會議。
   

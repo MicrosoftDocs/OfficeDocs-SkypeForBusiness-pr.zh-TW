@@ -1,5 +1,5 @@
 ---
-title: 在線上傳送電子郵件給使用者的音訊商務用 Skype會議
+title: 在 商務用 Skype Online 中傳送電子郵件給使用者
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,21 +21,21 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 在線上傳送包含其音訊會議資訊的電子郵件商務用 Skype使用者。
-ms.openlocfilehash: 8cb4d51fedc5cd12a3ee7a95b0d83c254526abd8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 428ff78fe501200ef9607a03d76c034007517cf0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584447"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727672"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>在線上傳送包含音訊會議資訊的電子郵件商務用 Skype使用者
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>在 商務用 Skype Online 中傳送包含音訊會議資訊的電子郵件給使用者
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
 > 有關將音訊會議資訊傳送給使用者Microsoft Teams，請參閱在[Microsoft Teasms](/MicrosoftTeams/send-an-email-to-a-user-with-their-dial-in-information-in-teams)中傳送包含音訊會議資訊的電子郵件給使用者。
 
-有時候商務用 Skype使用者可能需要您傳送音訊會議資訊給他們。 您可以使用系統管理中心來商務用 Skype，然後按一下使用者內容下的透過 **電子郵件** 傳送會議資訊。 當您傳送此電子郵件時，它會包含所有音訊會議資訊，包括：
+有時候商務用 Skype使用者可能需要您傳送音訊會議資訊給他們。 您可以使用系統管理中心商務用 Skype，然後按一下使用者內容下的透過 **電子郵件** 傳送會議資訊，即可執行此操作。 當您傳送此電子郵件時，它會包含所有音訊會議資訊，包括：
   
 - 使用者的會議電話或撥入電話號碼。
     
@@ -44,7 +44,7 @@ ms.locfileid: "58584447"
    
 以下是所寄電子郵件的範例：
   
-![電話撥入式會議電子郵件](../images/audio-conferencing-info.png)
+![電話撥入式會議電子郵件。](../images/audio-conferencing-info.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -70,7 +70,7 @@ ms.locfileid: "58584447"
 
 ## <a name="what-else-should-you-know-about-this-email"></a>關於此電子郵件，您還需要知道什麼？
 
-- 啟用音訊會議後，會向貴組織的使用者數封電子郵件：
+- 啟用音訊會議後，會將數封電子郵件寄給貴組織的使用者：
     
   - 當 **音訊會議授權** 指派給他們時。
     
@@ -122,7 +122,7 @@ ms.locfileid: "58584447"
   - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援 64 位電腦，可從 Microsoft 下載中心下載，Windows PowerShell Online 商務用 Skype[模組。](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援 64 位電腦，可從 Microsoft 下載中心下載，Windows PowerShell適用于 商務用 Skype [Online。](https://go.microsoft.com/fwlink/?LinkId=294688)
   
 ## <a name="related-topics"></a>相關主題
 

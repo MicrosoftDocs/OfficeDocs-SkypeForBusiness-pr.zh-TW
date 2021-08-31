@@ -14,35 +14,35 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解在 Microsoft Teams 中將策略套件指派給使用者和群組的不同Microsoft Teams。
+description: 瞭解在 Microsoft Teams 中指派策略套件給使用者和群組Microsoft Teams。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 711e0fd321dd9eff16ad37d0f662c9f72159a955
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb7d402ab8a280a724562eec7820f1cad06ea52f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601198"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727192"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>指派策略套件給使用者和群組
 
-本文會審查在 Microsoft Teams 中將策略套件指派給使用者和群組的不同Microsoft Teams。 閱讀之前，請確定您閱讀過在 Teams[中指派策略 - 開始使用](policy-assignment-overview.md)。
+本文將審查將策略套件指派給使用者和群組的不同Microsoft Teams。 閱讀前，請確定您閱讀過在 Teams[中指派策略 - 開始使用](policy-assignment-overview.md)。
 
 > [!NOTE]
 > 每位使用者都需要 [進階通訊] 附加元件，才能接收自訂原則套件指派。 如需詳細資訊，請參閱 [Microsoft Teams 的進階通訊附加元件](/microsoftteams/teams-add-on-licensing/advanced-communications) (部分機器翻譯)。
 
 ## <a name="assign-a-policy-package-to-users"></a>指派策略套件給使用者
 
-其中Teams套件是預先定義的策略和設定集合，您可以指派給組織中具有相同或類似角色的使用者。 每個策略套件都是針對使用者角色所設計，並包含預先定義的策略和策略設定，可支援該角色的一般活動。 一些政策套件範例包括教育 (教師) 方案，以及醫療保健 (診所) 套件。 若要深入瞭解，請參閱在 Teams[中管理Teams。](manage-policy-packages.md)
+其中一個Teams套件是預先定義的策略和設定集合，您可以指派給組織中具有相同或類似角色的使用者。 每個策略套件都是針對使用者角色所設計，並包含預先定義的策略和策略設定，可支援該角色的一般活動。 一些政策套件範例包括教育 (教師) 方案，以及醫療保健 (診所) 套件。 若要深入瞭解，請參閱在 Teams[中管理Teams。](manage-policy-packages.md)
 
 ### <a name="assign-a-policy-package-to-one-user"></a>將策略套件指派給一個使用者
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往 **使用者，然後** 選取使用者。
+1. 在系統管理中心的左側導Microsoft Teams，**請前往使用者**，然後選取使用者。
 2. 在使用者的頁面上，**選取策略**，然後在策略套件 **旁邊，選取****編輯**。
 3. 在指派 **策略套件窗格中** ，選取您想要指派的套件， **然後選取** 儲存 。
 
-![Teams系統管理中心螢幕擷取畫面，以將策略套件指派給使用者](media/assign-policypackages-user.png)
+![Teams系統管理中心螢幕擷取畫面，以將策略套件指派給使用者。](media/assign-policypackages-user.png)
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>指派策略套件給多個使用者
 
@@ -51,7 +51,7 @@ ms.locfileid: "58601198"
 3. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
 4. 新增使用者完成後，請選取 **儲存**。
 
-![Teams系統管理中心螢幕擷取畫面，以將策略套件指派給多個使用者](media/assign-policypackages-multipleusers.png)
+![Teams管理中心螢幕擷取畫面，以將策略套件指派給多個使用者。](media/assign-policypackages-multipleusers.png)
 
 ## <a name="assign-a-policy-package-to-a-group"></a>將原則套件指派給群組
 
@@ -62,7 +62,7 @@ ms.locfileid: "58601198"
 當您指派策略套件時，系統會立即將其指派給群組。 不過，將策略指派傳播給群組成員是做為背景作業，可能需要一些時間，視群組大小而不同。 當未從群組中未指定策略，或成員新加入群組或從群組中移除時，也是如此。
 
 > [!IMPORTANT]
-> 在您開始使用之前，瞭解群組作業 (優先順序規則)  ([優先順序) 。](assign-policies-users-and-groups.md#group-assignment-ranking) [](assign-policies-users-and-groups.md#precedence-rules) 請確定您閱讀並理解本文 (本文中關於指派給[](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)群組之) 中您需要知道的概念。
+> 在您開始使用之前，您必須瞭解 (優先順序規則)  ([群組](assign-policies-users-and-groups.md#group-assignment-ranking)作業) 。 [](assign-policies-users-and-groups.md#precedence-rules) 請確認您閱讀並瞭解本文 (本文中有關指派給群組[](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)之) 之需瞭解的概念。
 
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>將策略套件指派給系統管理中心的一組使用者
 
@@ -79,7 +79,7 @@ ms.locfileid: "58601198"
 
     D。 選取 **Apply**。
 
-![顯示群組原則指派](media/group-pkg-assignment.png)
+![顯示群組原則指派。](media/group-pkg-assignment.png)
 
 5. 若要管理特定策略類型的排名，請流覽至特定策略頁面。
 6. 若要將策略套件重新指派給群組，請先移除群組原則指派。 接著，請遵循上述步驟，將策略套件指派給群組。
@@ -88,7 +88,7 @@ ms.locfileid: "58601198"
 
 #### <a name="get-the-teams-powershell-module"></a>取得 powerShell Teams模組
 
-有關逐步指南，請參閱安裝[powerShell Teams。](teams-powershell-install.md)
+有關逐步指南，請參閱在[PowerShell Teams安裝](teams-powershell-install.md)。
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>將策略套件指派給一組使用者
 
@@ -104,13 +104,13 @@ Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79
 
 使用批次策略套件指派，您可以一次指派一群組原則套件給大型使用者，而不需要使用腳本。 您可以使用 [New-CsBatchPolicyAssignmentOperation Cmdlet](/powershell/module/teams/new-csbatchpolicyassignmentoperation) 提交一批使用者和您想要指派的政策套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。 接著，您可以使用 [Get-CsBatchPolicyAssignmentOperation Cmdlet](/powershell/module/teams/get-csbatchpolicyassignmentoperation) 來追蹤批次中作業的進度和狀態。
 
-根據使用者的物件識別碼或會話初始通訊協定 (SIP) 位址。 使用者的 SIP 位址通常與 UPN 或電子郵件地址的使用者主體名稱 (相同) ，但這不是必要的。 如果使用者是使用 UPN 或電子郵件指定，但其值與 SIP 位址不同，則使用者的策略指派將會失敗。 如果批次包含重複的使用者，則重複專案將在處理前從批次中移除，而狀態只會提供給批次中的唯一使用者。
+根據使用者的物件識別碼或會話初始通訊協定 (SIP) 位址。 使用者的 SIP 位址通常與 UPN 或電子郵件地址的使用者主體名稱 (相同) ，但這不是必要的。 如果使用者是使用 UPN 或電子郵件指定，但其值與 SIP 位址不同，則使用者無法進行策略指派。 如果批次包含重複的使用者，則重複專案將在處理前從批次中移除，而狀態只會提供給批次中的唯一使用者。
 
 批次最多包含 5，000 個使用者。 為了獲得最佳結果，一次不要提交多個批次。 在提交更多批次之前，允許批次完成處理。
 
-### <a name="use-the-teams-powershell-module"></a>使用 powerShell Teams模組
+### <a name="use-the-teams-powershell-module"></a>使用 Teams PowerShell 模組
 
-如果您尚未安裝[PowerShell 模組Microsoft Teams， (](https://www.powershellgallery.com/packages/MicrosoftTeams)執行下列操作以) 。 請確定您安裝版本 1.0.5 或更新版本。
+執行下列操作，Microsoft Teams[安裝 PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模組 (如果您尚未安裝) 。 請確定您安裝版本 1.0.5 或更新版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -134,7 +134,7 @@ New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4
 
 ### <a name="see-the-status-of-a-batch-assignment"></a>查看批次作業的狀態
 
-執行下列操作以取得批次工作分派的狀態，其中 OperationId 是 Cmdlet 針對指定批次所返回 ```New-CsBatchPolicyAssignmentOperation``` 的操作識別碼。
+執行下列操作以取得批次工作分派的狀態，其中 OperationId 是 Cmdlet 針對指定批次所返回 ```New-CsBatchPolicyAssignmentOperation``` 的作業識別碼。
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
@@ -153,4 +153,4 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 - [使用Teams管理](manage-teams-with-policies.md)
 - [在中管理Microsoft Teams](manage-policy-packages.md)
 - [TeamsPowerShell 概觀](teams-powershell-overview.md)
-- [在中指派Teams - 開始使用](policy-assignment-overview.md)
+- [在 Teams 中指派Teams - 開始使用](policy-assignment-overview.md)

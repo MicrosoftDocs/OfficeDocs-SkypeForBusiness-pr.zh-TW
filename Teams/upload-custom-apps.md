@@ -1,5 +1,5 @@
 ---
-title: Upload系統管理中心Microsoft Teams自訂應用程式
+title: Upload系統管理中心中Microsoft Teams自訂應用程式
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -17,27 +17,27 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在系統管理中心將自訂應用程式上傳到Microsoft Teams市。
-ms.openlocfilehash: 2e5eecc0bb5f5ed7c03552057cca6d42f7395ca2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a5f145f32f86f47aac65573303fb4e7a08a8a368
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634697"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727582"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>上傳應用程式套件來發佈自訂應用程式
 
 > [!NOTE]
-> 當您發佈自訂Teams應用程式時，組織 App Store 中的使用者可以使用自訂應用程式。 發佈自訂應用程式的方法有兩種，而使用方式取決於您取得應用程式的方式。 **本文著重瞭解如何發佈自訂** 應用程式，以開發人員傳送 (格式.zip應用程式) 應用程式套件。 當開發人員透過應用程式提交 API 將應用程式直接提交到管理應用程式頁面時，Teams自訂<a href="/microsoftteams/manage-apps" target="_blank"></a>應用程式。 若要深入瞭解這個方法，請參閱發佈透過應用程式提交 API 提交的Teams<a href="/microsoftteams/submit-approve-custom-apps" target="_blank">應用程式</a>。
+> 當您發佈自訂Teams應用程式時，組織 App Store 中的使用者可以使用它。 發佈自訂應用程式的方法有兩種，而使用方式取決於您取得應用程式的方式。 **本文著重瞭解如何** 以開發人員傳送 (格式.zip應用程式套件) 發佈自訂應用程式。 當開發人員透過應用程式提交 API 將應用程式直接提交到管理應用程式頁面時，Teams自訂<a href="/microsoftteams/manage-apps" target="_blank"></a>應用程式。 若要深入瞭解這個方法，請參閱發佈透過應用程式提交 API 提交的Teams<a href="/microsoftteams/submit-approve-custom-apps" target="_blank">應用程式</a>。
 
-本文提供端對端指南，瞭解如何將應用程式從開發Teams部署到探索。 本指南著重于應用程式Teams，適用于系統管理員和 IT 專業人員。 有關開發應用程式Teams，請參閱Teams<a href="/microsoftteams/platform" target="_blank">檔</a>。
+本文提供端對端指南，瞭解如何將應用程式從開發Teams部署到探索。 本指南著重于應用程式Teams，適用于系統管理員和 IT 專業人員。 有關開發應用程式Teams，請參閱開發人員Teams<a href="/microsoftteams/platform" target="_blank">檔</a>。
 
-![從開發到部署的應用程式概觀](media/upload-custom-apps.png)
+![從開發到部署的應用程式概觀。](media/upload-custom-apps.png)
 
 ## <a name="develop"></a>開發
 
 ### <a name="create-your-app"></a>建立您的應用程式
 
-開發人員Microsoft Teams平臺，讓開發人員能輕鬆整合您自己的應用程式和服務，以提高生產力、更快速地做出決策，並圍繞現有內容和工作流程建立共同作業。 建在 Teams 平臺上的應用程式是用戶端Teams服務與工作流程之間的橋樑，直接將其納入共同平臺的背景。 若要詳細資訊，請參閱開發人員Teams<a href="/microsoftteams/platform" target="_blank">檔</a>。
+開發人員Microsoft Teams平臺，讓開發人員能輕鬆整合您自己的應用程式和服務，以提高生產力、更快速地做出決策，並圍繞現有內容和工作流程建立共同作業。 以平臺Teams的應用程式是用戶端Teams服務與工作流程之間的橋樑，直接將其納入您的共同合作平臺中。 若要詳細資訊，請參閱開發人員Teams<a href="/microsoftteams/platform" target="_blank">檔</a>。
 
 ## <a name="validate"></a>驗證
 
@@ -45,26 +45,26 @@ ms.locfileid: "58634697"
 
 當應用程式可供生產使用時，開發人員應產生應用程式套件。 他們可以使用<a href="/microsoftteams/platform/get-started/get-started-app-studio" target="_blank">App Studio。</a> 他們會以新的格式傳送.zip檔案。
 
-Microsoft<a href="/microsoftteams/platform/publishing/office-store-approval" target="_blank">會使用這些指導方針</a>，確保應用程式符合全球應用程式市Teams的品質和安全性標準。
+Microsoft<a href="/microsoftteams/platform/publishing/office-store-approval" target="_blank">會使用這些指導方針</a>，確保應用程式符合全球應用程式存放區的品質和Teams標準。
 
 ### <a name="allow-trusted-users-to-upload-custom-apps"></a>允許信任的使用者上傳自訂應用程式
 
 若要驗證應用程式在生產租使用者中是否正確工作，您必須允許您自己和/或信任的使用者在生產租使用者中上傳自訂應用程式。 您可以使用 <a href="/microsoftteams/teams-app-setup-policies" target="_blank">應用程式設定策略</a> 執行這項操作。
 
 > [!NOTE]
-> 如果您不喜歡將應用程式上傳到生產租使用者進行驗證，即使您自己或信任的使用者也一樣，您可以略過此步驟，並遵循 Upload 和[設定](#upload)及管理節中的步驟，將未驗證的應用程式[](#set-up-and-manage)發佈到組織的 App Store。 接著，將該應用程式的存取許可權制為只有您自己和您信任的使用者。 這些使用者接著可以從貴組織的 App Store 取得應用程式來執行驗證。 應用程式驗證之後，請使用相同的權限原則來開啟存取，並推出應用程式供生產使用。
+> 如果您不喜歡將應用程式上傳至生產租使用者進行驗證，即使您自己或信任的使用者也一樣，您可以略過此步驟，並按照 Upload 和設定及管理節[中的](#upload)步驟，將未驗證的應用程式[](#set-up-and-manage)發佈到組織的 App Store。 接著，將該應用程式的存取許可權制為只有您自己和您信任的使用者。 這些使用者接著可以從貴組織的 App Store 取得應用程式來執行驗證。 應用程式驗證之後，請使用相同的權限原則來開啟存取，並推出應用程式供生產使用。
 
 若要允許信任的使用者上傳自訂應用程式，請遵循下列步驟：
 
 1. 開啟允許 **與自訂應用程式** 全組織 App 互動設定。 若要這麼做：
-    1. 在系統管理中心的左側導Microsoft Teams，請Teams **應用程式** 管理應用程式，然後按一下 [全  >  ******組織應用程式設定**> 。
+    1. 在系統管理中心的左側導Microsoft Teams，請Teams **管理應用程式**，然後按一下 [全組織  >  ******應用程式設定**> 。
     2. 在 **[自訂應用程式」** 下，開啟 [ **允許與自訂應用程式互動**，然後按一下 [ **儲存**> 。
 2. 關閉 **全域Upload** 設定策略中的自訂應用程式設定。 若要這麼做：
     1. 在系統管理中心的左側導Microsoft Teams，前往 [Teams **應用程式** 設定政策，然後按一下 [全域 ( >  ******全組織** 的預設) 規則。
     2. 關閉自訂 **Upload** 應用程式，然後按一下 [**儲存**。
 3. 建立新的應用程式設定策略，允許上傳自訂應用程式，並將它指派給一組信任的使用者。 若要這麼做：
-    1. 在系統管理中心的左側導Microsoft Teams，請Teams **應用程式設定** 政策，然後按一下 [  >  ******新增**。 為新政策命名和描述，開啟自訂 **Upload應用程式，** 然後按一下 [**儲存**。
-    2. 選取您建立的新策略，然後按一下 [ **管理使用者**。 搜尋使用者，按一下 [**新增**，然後按一下 **[Apply.** 重複此步驟，將策略指派給所有信任的使用者。
+    1. 在系統管理中心的左側導Microsoft Teams，請Teams **應用程式** 設定政策，然後按一下 [  >  ******新增**。 為新政策命名和描述，開啟自訂 **Upload應用程式，** 然後按一下 [**儲存**。
+    2. 選取您建立的新政策，然後按一下 [ **管理使用者**。 搜尋使用者，按一下 [**新增**，然後按一下 **[Apply.** 重複此步驟，將策略指派給所有信任的使用者。
 
         ![「新增應用程式設定政策」頁面的螢幕擷取畫面](media/manage-your-lob-apps-new-app-setup-policy.png)
 
@@ -77,9 +77,9 @@ Microsoft<a href="/microsoftteams/platform/publishing/office-store-approval" tar
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
 2. 按一下 **Upload**，按一下 [**選取檔案**，然後選取您從開發人員收到的應用程式套件。
 
-   ![在系統管理中心上傳應用程式的螢幕擷取畫面](media/manage-your-lob-apps-upload-new-app.png) 
+   ![在系統管理中心上傳應用程式的螢幕擷取畫面。](media/manage-your-lob-apps-upload-new-app.png) 
 
-## <a name="set-up-and-manage"></a>設定和管理
+## <a name="set-up-and-manage"></a>設定及管理
 
 ### <a name="control-access-to-the-app"></a>控制應用程式的存取權
 
@@ -99,7 +99,7 @@ Microsoft<a href="/microsoftteams/platform/publishing/office-store-approval" tar
 
 擁有應用程式許可權的使用者可以在貴組織的 App Store 中找到它。 前往 **應用程式頁面上 *的*** 專為您的組織名稱建立，以尋找貴組織的自訂應用程式。
 
-![顯示已發佈應用程式之應用程式之應用程式頁面的螢幕擷取畫面 ](media/custom-app-lifecycle-discovery.png)
+![顯示已發佈應用程式之應用程式之應用程式頁面的螢幕擷取畫面。](media/custom-app-lifecycle-discovery.png)
 
 如果您建立並指派應用程式設定策略，應用程式會釘到 Teams 中的應用程式欄，以便指派該策略的使用者輕鬆存取。
 
@@ -107,25 +107,25 @@ Microsoft<a href="/microsoftteams/platform/publishing/office-store-approval" tar
 
 若要更新應用程式，開發人員應該繼續遵循開發和驗證[區段](#develop)[的步驟](#validate)。
 
-您可以在系統管理中心的管理應用程式頁面上更新Microsoft Teams應用程式。 若要這麼做，在系統管理中心的左側導Microsoft Teams，請前往 Teams App ****  >  **管理應用程式**。 按一下應用程式名稱，然後按一下 [ **更新**。 這麼做會取代現有的應用程式，而且所有應用程式權限原則及應用程式設定策略會持續為更新的應用程式強制執行。
+您可以在系統管理中心的管理應用程式頁面上更新Microsoft Teams應用程式。 若要這麼做，在系統管理中心的左側導Microsoft Teams，請前往管理應用程式Teams ****  >  **應用程式**。 按一下應用程式名稱，然後按一下 [ **更新**。 這麼做會取代現有的應用程式，而且所有應用程式權限原則及應用程式設定策略會持續為更新的應用程式強制執行。
 
 ### <a name="end-user-update-experience"></a>使用者更新體驗
 
-在大多數情況下，完成應用程式更新後，系統會自動為使用者顯示新版本。 不過，系統對 Microsoft Teams<a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">清單有</a>一些更新需要使用者接受才能完成：
+在大多數情況下，完成應用程式更新後，系統會自動為使用者顯示新版本。 不過，系統對 Microsoft Teams<a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">清單</a>有一些更新需要使用者接受才能完成：
 
 * 已新增或移除 Bot
 * 現有 Bot 的 「botId」 屬性已變更
 * 已變更現有 Bot 的 "isNotificationOnly" 屬性
-* Bot 的「支援檔」屬性已變更
+* Bot 的「支援Files」屬性已變更
 * 已新增或移除訊息擴充功能
 * 已新增連接器
 * 已新增靜態定位停駐點
 * 已新增可配置的 Tab
 * 「webApplicationInfo」中的屬性已變更
 
-![應用程式清單的螢幕擷取畫面，顯示提供新版本的應用程式](media/manage-your-custom-apps-update1.png)
+![應用程式清單的螢幕擷取畫面，顯示提供新版本的應用程式。](media/manage-your-custom-apps-update1.png)
 
-![應用程式升級選項的螢幕擷取畫面](media/manage-your-custom-apps-update2.png)
+![應用程式升級選項的螢幕擷取畫面。](media/manage-your-custom-apps-update2.png)
 
 ## <a name="related-topics"></a>相關主題
 

@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7590d2041ed64f62765b33c291414abb618d1699
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1c4c31687e5812c14b4a62deacb16fdd3550969
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625865"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725532"
 ---
-# <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>提高認知度，並針對Microsoft Teams
+# <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>提高認知度，並針對這些人員Microsoft Teams
 
-認知與訓練是整體採用策略的行銷與通訊區段。 這可確保您的員工瞭解 Microsoft Teams 服務與應用程式的Microsoft 365或Office 365新功能。
+認知與訓練是整體採用策略的行銷與通訊區段。 這可確保您的員工瞭解 Microsoft Teams 服務與應用程式的Microsoft 365 Office 365新功能。
    
 對於初始試驗和最終全公司的推出，您的內部通訊應優先處理。 它們應該包括：
 
@@ -45,16 +45,16 @@ ms.locfileid: "58625865"
 
 完成初始試驗後，您可以展開上述工作，以覆蓋整個組織。 視您的大小，這可能需要一些時間，並依地區、使用者設定檔或組織來逐步處理。 在此大規模推出期間，鼓勵貴組織中通訊人員的參與。 我們建議您在使用可用的採用資料或自行設計時，及早且經常參與這些人員。
 
-如果您的公司有一個中央內部網路入口網站，提供新聞、資訊或支援，您可以將它做為發佈相關資訊的中樞。提供廣泛可用的自助資訊、訓練和書面指引，讓使用者快速上手。 許多使用者只要在可用Teams就會跳到其中，我們鼓勵這樣做。 我們也知道每個人都會以不同方式學習;中央資訊入口網站可支援貴組織內的所有學習樣式。
+如果您的公司有一個中央內部網路入口網站，提供新聞、資訊或支援，您可以使用它做為樞紐，以提供有關此推出的資訊。提供廣泛可用的自助資訊、訓練和書面指引，讓使用者快速上手。 許多使用者只要在可用Teams就會跳到其中，我們鼓勵這樣做。 我們也知道每個人都會以不同方式學習;中央資訊入口網站可支援貴組織內的所有學習樣式。
 
 ## <a name="implement-end-user-training"></a>執行使用者訓練
 
-使用我們的資源來提供使用者訓練，因為人員開始使用Microsoft Teams服務Microsoft 365 Office 365訓練。 請流覽我們的資源頁面以深入瞭解：
+使用我們的資源提供使用者訓練，因為使用者開始使用Microsoft Teams服務Microsoft 365 Office 365訓練。 請流覽我們的資源頁面以深入瞭解：
 
 - [由講師帶領的最終使用者訓練課程Teams](instructor-led-training-teams-landing-page.yml)
-- [適用于 Teams](itadmin-readiness.md)
+- [系統管理員訓練Teams](itadmin-readiness.md)
 - [線上使用者影片訓練](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
-- [It 專業人員的雲端線上&咖啡](https://aka.ms/CoffeeintheCloud) 
+- [針對 It 專業人員的雲端線上訓練中的咖啡&咖啡](https://aka.ms/CoffeeintheCloud) 
 - [採用工具](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>衡量並分享成功
@@ -67,8 +67,8 @@ ms.locfileid: "58625865"
 - 訓練影片的觀看
 - 出席學習活動
 
-使用雜湊標記和索引#TeamsStories分享您從意見回饋頻道取得的意見。 每月#TeamsStory內部網路共用活動，以突顯採用這項變更的員工，以提升您環境的生產力和共同作業。 此外，在 Microsoft Technical Community 的駕駛採用論壇中與我們分享這些Community。 在您自己的公司中分享這些實際範例，對於與使用者社群一起實現持續的變化，非常有價值。
+使用雜湊標記和索引#TeamsStories分享您從意見回饋頻道取得的意見。 每月#TeamsStory內部網路共用活動，以突顯採用這項變更的員工，以提升您環境的生產力和共同作業。 此外，在 Microsoft Technical Community 的駕駛採用論壇中與我們Community。 在您自己的公司內分享這些實際範例，對於與使用者社群一起實現持續的變化，非常有價值。
 
 [深入瞭解Microsoft Teams使用方式報告Microsoft 365 系統管理中心。](teams-activity-reports.md)
 
-![描述下一個步驟的 ](media/teams-adoption-next-icon.png) 圖示下一步： [排程服務健康狀態評論](teams-adoption-schedule-service-health-reviews.md)
+![描述下一個步驟的圖示。](media/teams-adoption-next-icon.png) 下一 [步：排程服務健康狀態評論](teams-adoption-schedule-service-health-reviews.md)

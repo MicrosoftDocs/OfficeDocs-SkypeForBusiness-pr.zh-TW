@@ -23,18 +23,18 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: '瞭解如何為企業中需要使用電話加入電話會議的人員設定撥入或音訊會議。 '
-ms.openlocfilehash: 72abf99895924e70f3a57ae0f8d1e1cd8c0f9bcd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d38adf5e1f5d363cb04aa9eb43109ca2ed394a65
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580047"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725972"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>設定音訊會議商務用 Skype
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-貴組織內的人員有時會需要透過電話來加入會議。 商務用 Skype音訊會議功能， 使用者可以使用電話商務用 Skype會議，而不是在行動裝置商務用 Skype或 PC 上使用 商務用 Skype 應用程式。 
+貴組織內的人員有時會需要透過電話來加入會議。 商務用 Skype音訊會議功能， 使用者可以使用電話商務用 Skype會議，而不是在行動裝置商務用 Skype或 PC 上使用 商務用 Skype應用程式。 
   
 您只需要為打算排程或主持會議的人員設定音訊會議即可。 撥入的會議出席者不需獲得任何指派的授權或進行其他設定。
   
@@ -52,7 +52,7 @@ ms.locfileid: "58580047"
     >[!NOTE] 
     > 音訊會議包含在 Office 365 企業版 E5 授權中的附加元件。
         
-2. 購買音訊會議授權之後，您必須將授權指派給組織中要排程或主持會議的人員。 請參閱[指派或移除您](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)Microsoft 365 Apps 商務版授權給組織中要排程或主導會議的人。
+2. 購買音訊會議授權之後，您必須將授權指派給組織中要排程或主持會議的人員。 請參閱[指派或移除](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)您Microsoft 365 Apps 商務版授權給組織中要排程或主導會議的人。
     
 3. 我們也建議您將通訊點數授權 (不需付費) 指派給您在在上一個步驟中指派授權的人員。 若要了解如何設定通訊點數，請參閱[設定貴組織的通訊點數](/microsoftteams/set-up-communications-credits-for-your-organization)。
     
@@ -77,25 +77,25 @@ ms.locfileid: "58580047"
 
 若要將新電話號碼指派給音訊會議橋接器：
 
-![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心：**
+![顯示標誌圖示商務用 Skype圖示。](../images/sfb-logo-30x30.png) **使用 商務用 Skype系統管理中心：**
 
  1. 移至 [Microsoft 365 系統管理中心]  >  [系統管理中心]  >  [Teams]  >  [舊版入口網站]。
  2. 選取 [語音]  >  [電話號碼]。
  3. 選取電話號碼，然後按一下 [指派]。
 
-有關詳細資料，請參閱變更音訊會議橋接器 [上的電話號碼](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
+有關詳細資料，請參閱 [變更音訊會議橋接器上的電話號碼](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge)。
 
 ## <a name="step-5-set-the-default-and-alternate-languages-for-a-conferencing-bridge"></a>步驟 5：設定會議橋接器的預設和替代語言
 <a name="__top"> </a>
 
 接下來，您想要為音訊會議設定自動 [語音](../audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing.md) 語音服務語言，當電話撥入音訊會議的電話號碼時，會議自動語音機會用來問候來電者。 
 
-![Microsoft Teams 標誌圖示](../images/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**：
+![顯示標誌圖示Microsoft Teams圖示。](../images/teams-logo-30x30.png) **使用 Microsoft Teams系統管理中心**：
 
 1. 在儀表板中，移至 [會議]  >  [會議橋接器]。
 2. 選取 [會議橋接電話號碼]，按一下 [編輯]，然後選擇預設語言。
 
-![使用系統管理中心商務用 Skype ](../images/sfb-logo-30x30.png) **標誌的商務用 Skype圖示**：
+![顯示標誌圖示商務用 Skype圖示。](../images/sfb-logo-30x30.png) **使用 商務用 Skype系統管理中心**：
 
 1. 請前往系統管理中心>**系統管理中心**  >  **Teams**  >  **舊版入口網站**。
 2. 選取 **音訊會議**  >  **Microsoft 橋接器**。 
@@ -106,14 +106,14 @@ ms.locfileid: "58580047"
     
 設定會議橋接器後，請確認預設設定 (例如，進入/退出通知、PIN 長度) 就是您要使用的設定。如果不是，可以變更。 
 
-![Microsoft Teams 標誌圖示](../images/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**：
+![顯示標誌圖示Microsoft Teams圖示。](../images/teams-logo-30x30.png) **使用 Microsoft Teams系統管理中心**：
 
 1. 在儀表板中，移至 [會議]  >  [會議橋接器]。
 2. 選取 [橋接器設定]。 會開啟 [橋接器設定] 窗格。 
 
 如需詳細資訊，請參閱[變更音訊會議橋接器的設定](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)。
 
-![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心：**
+![顯示標誌圖示商務用 Skype圖示。](../images/sfb-logo-30x30.png) **使用 商務用 Skype系統管理中心：**
 
 1. 移至 [Microsoft 365 系統管理中心]  >  [系統管理中心]  >  [Teams]  >  [舊版入口網站]。
 2. 選取 **音訊會議**  >  **Microsoft 橋接器設定**。 這會開啟 **Microsoft 橋接器設定** 頁面。 
@@ -126,12 +126,12 @@ ms.locfileid: "58580047"
 
 您必須為貴組織中負責主持或排程會議的所有人員執行此動作。 
 
-![Microsoft Teams 標誌圖示](../images/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**：
+![顯示標誌圖示Microsoft Teams圖示。](../images/teams-logo-30x30.png) **使用 Microsoft Teams系統管理中心**：
 
 1. 在儀表板中，按一下 [使用者]，從清單中選取使用者，然後選取 [編輯]。
 2. 選取 [音訊會議] 旁邊的 [編輯]，然後在 [音訊會議] 窗格中，選擇 [收費電話號碼] 和 [免付費] 電話號碼清單中的電話號碼。
 
-![商務用 Skype 標誌圖示](../images/sfb-logo-30x30.png) **使用商務用 Skype 系統管理中心：**
+![顯示標誌圖示商務用 Skype圖示。](../images/sfb-logo-30x30.png) **使用 商務用 Skype系統管理中心：**
 
 1. 前往舊  >  **Microsoft 365 系統管理中心Teams**  >  **入口網站**。
 2. 選取 **[音訊會議**  >  **使用者**，然後從清單中選取使用者，然後按一下 [**編輯**> 。 

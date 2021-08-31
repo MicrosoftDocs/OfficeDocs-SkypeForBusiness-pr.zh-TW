@@ -18,20 +18,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 239beb9f7b3fcc53ed6870a265c45740d1523db5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b48f06d0a7a380756f391e98103bd0be24179795
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618379"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733022"
 ---
 # <a name="get-the-most-out-of-teams-after-upgrading"></a>升級之後，Teams功能
 
-![升級歷程圖，強調營運優化階段](media/upgrade-banner-op-excellence.png "升級歷程的階段，強調營運優化階段")
+![升級歷程圖，強調營運優化階段。](media/upgrade-banner-op-excellence.png "升級旅程的階段，強調營運優化階段")
 
-本文是升級過程中營運優化階段的一部分，一旦完成從 商務用 Skype 升級到 Teams。
+本文是升級過程中營運優化階段中的一部分，此階段從您完成從 商務用 Skype 升級至 Teams。
 
-本文概觀說明升級後，最Teams作業需求。 您可以持續Teams服務功能，確保為貴組織提供最大的價值。
+本文概觀說明升級後，如何Teams作業需求。 您可以持續Teams服務功能，確保為貴組織帶來最大的價值。
 
 ## <a name="enhance-your-service-overview"></a>強化服務概觀
 

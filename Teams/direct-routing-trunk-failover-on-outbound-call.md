@@ -16,16 +16,16 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 請閱讀本主題，瞭解如何處理從 Teams 到會話邊界控制器或 SBC (的外) 。
-ms.openlocfilehash: 878a4735585ee183f0156b44c253b079c2e6e24c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 83320e93df7cbf476d71b3b9165d50ca387292b9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619449"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727862"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>輸出呼叫上的主幹容錯移轉
 
-本主題說明如何避免外線呼叫上的主幹容錯移轉，從 Teams 到會話邊界控制器 (SBC) 。
+本主題說明如何避免外線通話的主幹容錯移轉，從 Teams 到會話邊界控制器 (SBC) 。
 
 ## <a name="failover-on-network-errors"></a>網路錯誤容錯移轉
 
@@ -34,23 +34,23 @@ ms.locfileid: "58619449"
 
 ## <a name="failover-of-specific-sip-codes-received-from-the-session-border-controller-sbc"></a>從會話邊界控制器接收特定 SIP 代碼的容錯移轉 (SBC) 
 
-如果 Direct Routing 收到回應外發邀請的任何 4xx 或 6xx SIP 錯誤碼，則通話預設會視為已完成。 外撥是指從 Teams 用戶端撥打到公用交換電話網絡 (PSTN) 的通話，流量如下：Teams Client -> 直接路由 -> SBC -> 電話網絡。
+如果 Direct Routing 收到回應外發邀請的任何 4xx 或 6xx SIP 錯誤碼，則通話預設會視為已完成。 外撥是指從 Teams 用戶端撥打到公用交換電話網絡 (PSTN) 的通話，其流量如下：Teams 用戶端 -> 直接路由 -> SBC -> 電話網絡。
 
-SIP 代碼清單可在 SIP ([RFC 的](https://tools.ietf.org/html/rfc3261)會話初始) 中找到。
+SIP 代碼清單可在 SIP ([RFC 的](https://tools.ietf.org/html/rfc3261)會話初始通訊) 找到。
 
 假設 SBC 以「408 要求超時」代碼回復傳入邀請的情況：伺服器無法于適當的時間內產生回應，例如，如果伺服器無法判斷使用者的時間位置。 用戶端稍後可能會重複要求，而不需要修改。」
 
-這個特定的 SBC 可能無法連接到受話者，可能是因為網路設定錯誤或其他錯誤。 不過，路由中可能還有一個 SBC 可以到達通話者。
+這個特定的 SBC 可能無法連接到受話者，可能是因為網路設定錯誤或其他錯誤。 不過，路由中可能還有一個 SBC 可以到達受叫者。
 
-在下列圖表中，當使用者撥打電話號碼時，路由中可能有兩個 SBC 可以傳送此通話。 一開始 SBC1.contoso.com 已選取通話的通話，SBC1.contoso.com 網路問題導致無法連絡 PTSN 網路。
-根據預設，通話此時會完成。 
+在下列圖表中，當使用者撥打電話號碼時，路由中可能有兩個 SBC 可以傳送此通話。 一開始 SBC1.contoso.com 已選取通話，SBC1.contoso.com 網路問題導致無法連絡 PTSN 網路。
+根據預設，通話將于此時完成。 
  
-![顯示 SBC 因網路問題無法連絡 PSTN 的圖表](media/direct-routing-failover-response-codes1.png)
+![顯示 SBC 因網路問題而無法連絡 PSTN 的圖表。](media/direct-routing-failover-response-codes1.png)
 
 但路由中可能還有一個 SBC 可以傳送通話。
 如果您設定參數，將會嘗試第二 `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"` 個 SBC，SBC2.contoso.com 圖表所示：
 
-![顯示路由至第二個 SBC 的圖表](media/direct-routing-failover-response-codes2.png)
+![顯示路由至第二個 SBC 的圖表。](media/direct-routing-failover-response-codes2.png)
 
 設定參數 -FailoverResponseCodes 並指定代碼，可協助微調路由，並避免 SBC 因為網路或其他問題而無法撥打電話時發生潛在問題。
 

@@ -18,16 +18,16 @@ description: 直接路由通話通知
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 27e06a45cef49f2291fdf75a8375026b9a930953
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 80c7c5487d61447a38852ca30328126b19c0499b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617409"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725922"
 ---
 # <a name="manage-call-notifications"></a>管理來電通知
 
-本文將說明如何管理使用者的通話通知。 您可以將呼叫端點設定為 Teams 或協力廠商私人分支 Exchange (PBX) 或會話邊界控制器 (SBC) 。  例如，如果您想要同時將電話傳送至使用者的行動電話和電話機，這項設定就很有用。   
+本文將說明如何管理使用者的通話通知。 您可以將呼叫端點設定為Teams或協力廠商私人分支 Exchange (PBX) 或會話邊界控制器 (SBC) 。  例如，如果您想要同時將電話傳送至使用者的行動電話和電話機，這項設定就很有用。   
 
 在下列圖表中，使用者 Irena 有兩個端點：
 
@@ -37,7 +37,7 @@ ms.locfileid: "58617409"
 當來電到達時，SBC 會電話系統直接路由和協力廠商 SBC 之間的通話。
 
 
-![顯示分叉端點Teams圖表](media/direct-routing-call-notification-1.png)
+![顯示分叉端點Teams圖表。](media/direct-routing-call-notification-1.png)
 
 如果協力廠商 SBC (在 fork 2 上接受) ，Teams就會產生「未接來電」通知。  
 
@@ -45,9 +45,9 @@ ms.locfileid: "58617409"
 
 原因：SIP;cause=200;text"通話在其他地方完成」 
 
-通話不會在系統電話的詳細Microsoft 電話記錄中註冊為成功的通話。 通話會以「嘗試」註冊為「嘗試」，包含 「487」、Final Microsoft 子代碼「540200」，以及「在其他地方完成通話」的最後 SIP 程式碼片語。   (若要查看通話詳細資料記錄，請前往 [Teams 系統管理入口網站、[分析與報告) 
+通話不會在系統通話詳細Microsoft 電話記錄中註冊為成功的通話。 通話會以「嘗試」註冊為「嘗試」，包含 「487」、Final Microsoft 子代碼「540200」，以及「在其他地方完成通話」的最後 SIP 程式碼片語。   (若要查看通話詳細資料記錄，請前往 Teams 系統管理入口網站、[分析與報告、使用方式報告>，然後選取 [PSTN 使用方式) 
 
 
 下圖說明 Fork 1 的 SIP 梯級，說明通話流程，以及取消訊息中的預期原因。 
 
-![圖表顯示分叉Teams端點](media/direct-routing-call-notification-2.png)
+![圖表顯示端點Teams分叉。](media/direct-routing-call-notification-2.png)

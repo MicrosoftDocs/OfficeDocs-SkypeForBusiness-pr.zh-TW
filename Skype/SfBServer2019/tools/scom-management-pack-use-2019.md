@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：瞭解如何設定您的商務用 Skype Server 2019 基礎結構，以與 System Center Operations Manager 搭配使用。
-ms.openlocfilehash: cdb201280afb1419e5b8975b31e3c7725902cd72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 90c40560ef1d39b462ce58b39804006dc7121024
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582007"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727592"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>使用 SCOM 管理元件管理商務用 Skype Server 2019
  
@@ -126,7 +126,7 @@ ms.locfileid: "58582007"
 
 ||||
 |:-----|:-----|:-----|
-|1   <br/> |註冊 (使用者登入)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
+|1  <br/> |註冊 (使用者登入)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
 |2   <br/> |通訊錄服務 (檔案下載)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
 |3   <br/> |通訊錄 Web 查詢  <br/> |可用的 Lync Server 2010 及以上  <br/> |
 |4   <br/> |目前狀態  <br/> |可用的 Lync Server 2010 及以上  <br/> |
@@ -151,7 +151,7 @@ ms.locfileid: "58582007"
 |10   <br/> |資料會議  <br/> |可在 Lync Server 2013 和之後使用  <br/> |
 |11   <br/> |立即訊息會議  <br/> |可在 Lync Server 2010 和之後使用  <br/> |
 |12   <br/> | 常設聊天室 <br/> |可在 Lync Server 2013 和之後使用  <br/> |
-|13   <br/> |加入 Launcher (排程的會議)   <br/> |可在 Lync Server 2013 和之後使用  <br/> |
+|13  <br/> |加入 Launcher (排程的會議)   <br/> |可在 Lync Server 2013 和之後使用  <br/> |
 |14   <br/> |電話撥入式會議  <br/> |可用於商務用 Skype Server 2015 以上的版本 <br/> |
 |15   <br/> |應用程式共用會議  <br/> |可用於商務用 Skype Server 2015 以上的版本 <br/> |
 |16   <br/> |UCWA 會議 (web 會議加入)   <br/> |可用於商務用 Skype Server 2015 以上的版本 <br/> |
@@ -185,13 +185,13 @@ ms.locfileid: "58582007"
 |商務用 Skype Server埠觀察程式  <br/> |針對一個集區執行的埠檢查實例。  <br/> |
 |簡易 URL 觀察程式  <br/> |在部署中執行已設定的簡易 URLs HTTPS 探查。  <br/> |
    
-![SCOM 匯總](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
+![SCOM 匯總。](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
 商務用 Skype Server 集區可以包含多個個別商務用 Skype Server 系統 (具有一個以上商務用 Skype Server 角色、商務用 Skype Server 服務，以及商務用 Skype Server 元件) 。 因此，個別伺服器或元件的失敗對商務用 Skype Server 集區的整體健康情況而言並不很重要，因為相同集區中的其他伺服器也可以為用戶端提供應用程式服務。 健康情況會在百分比層級上向上翻轉至商務用 Skype Server 集區。 
   
 商務用 Skype Server 集區觀察程式會針對商務用 Skype Server 集區執行綜合交易。 連續失敗一或多個綜合交易 (稱為「連續輪詢間隔」的處理常式) 會將嚴重健康狀態狀態累加至集區層級 (最糟的所有綜合交易) ，如下圖所示。 
   
-![SCOM 匯總連續輪詢](../../SfbServer/media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
+![SCOM 匯總連續輪詢。](../../SfbServer/media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
   
 ## <a name="best-practice-create-a-management-pack-for-customizations"></a>最佳作法：建立自訂的管理套件
 
@@ -256,6 +256,6 @@ ms.locfileid: "58582007"
 > [!IMPORTANT]
 > 非 Microsoft 網站上的所有資訊和內容都是由網站的擁有者或使用者所提供。 Microsoft 對本網站的資訊不做任何擔保、明確、暗示或法令。 
   
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>也請參閱
 
 [商務用 Skype Server 2019 管理工具](../management-tools-2019.md)

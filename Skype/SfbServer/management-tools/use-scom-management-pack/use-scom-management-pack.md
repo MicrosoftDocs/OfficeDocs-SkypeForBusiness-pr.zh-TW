@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 摘要：瞭解如何設定您的商務用 Skype Server 2015 基礎結構，以與 System Center Operations Manager 搭配使用。
-ms.openlocfilehash: e5dc5a4c01cd4e45c6b1145725b17073d910e66f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a0473b3cf7c2417636536c9c475a430b09d4e1e6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627975"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725692"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>使用 SCOM 管理元件管理商務用 Skype Server 2015
  
@@ -101,7 +101,7 @@ ms.locfileid: "58627975"
 
 商務用 Skype Server 2015 管理元件利用多種功能來協助您偵測和診斷問題。 這些功能可讓您即時看到商務用 Skype Server 2015 環境的健康情況。
   
-|監控案例|描述|
+|監控案例|說明|
 |:-----|:-----|
 |綜合交易  <br/> | Windows PowerShell Cmdlet，以測試及協助確保案例的高可用性，例如登入、目前狀態、IM 和會議的使用者。 <br/> 綜合交易可以從任何地理位置執行（包括企業內部、企業外及分支辦公室）。  <br/> 當綜合交易失敗時，會建立 HTML 記錄檔，以協助判斷失敗的確切性質。 這包括瞭解哪些動作失敗、每個動作的延遲、用來執行測試的命令列，以及所發生的特定錯誤。  <br/> |
 |通話可靠性警示  <br/> |商務用 Skype Server 2015 server 寫入的詳細通話記錄 (cdr) 會反映使用者是否可以連線至通話或終止通話的原因。 通話可靠性警示會查詢 CDR 資料庫，以產生警示，指出當高數目的使用者遇到對等通話或基本會議功能的連線問題時。  <br/> 案例覆蓋範圍包括音訊通話、對等立即訊息 (IM) 及其他會議功能。  <br/> |
@@ -128,7 +128,7 @@ ms.locfileid: "58627975"
 
 |註冊、目前狀態及連絡人支援的綜合交易|||
 |:-----|:-----|:-----|
-|1   <br/> |註冊 (使用者登入)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
+|1  <br/> |註冊 (使用者登入)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
 |2   <br/> |通訊錄服務 (檔案下載)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
 |3   <br/> |通訊錄 Web 查詢  <br/> |可用的 Lync Server 2010 及以上  <br/> |
 |4   <br/> |目前狀態  <br/> |可用的 Lync Server 2010 及以上  <br/> |
@@ -151,7 +151,7 @@ ms.locfileid: "58627975"
 |10   <br/> |資料會議  <br/> |可在 Lync Server 2013 和之後使用  <br/> |
 |11   <br/> |立即訊息會議  <br/> |可在 Lync Server 2010 和之後使用  <br/> |
 |12   <br/> | 常設聊天室 <br/> |可在 Lync Server 2013 和之後使用  <br/> |
-|13   <br/> |加入 Launcher (排程的會議)   <br/> |可在 Lync Server 2013 和之後使用  <br/> |
+|13  <br/> |加入 Launcher (排程的會議)   <br/> |可在 Lync Server 2013 和之後使用  <br/> |
 |14   <br/> |電話撥入式會議  <br/> |商務用 Skype Server 2015 的新功能  <br/> |
 |15   <br/> |應用程式共用會議  <br/> |商務用 Skype Server 2015 的新功能  <br/> |
 |16   <br/> |UCWA 會議 (web 會議加入)   <br/> |商務用 Skype Server 2015 的新功能  <br/> |
@@ -170,7 +170,7 @@ ms.locfileid: "58627975"
 
 下表顯示商務用 Skype Server 監視套件之物件的健康狀態。
   
-|Management Pack 物件|描述|
+|Management Pack 物件|說明|
 |:-----|:-----|
 |商務用 Skype Server部署  <br/> |代表組織中商務用 Skype Server 2015 的部署。  <br/> |
 |商務用 Skype Server網站  <br/> |代表部署服務的不同地理位置。  <br/> |
@@ -185,13 +185,13 @@ ms.locfileid: "58627975"
 |商務用 Skype Server埠觀察程式  <br/> |針對一個集區執行的埠檢查實例。  <br/> |
 |簡易 URL 觀察程式  <br/> |在部署中執行已設定的簡易 URLs HTTPS 探查。  <br/> |
    
-![SCOM 匯總](../../media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
+![SCOM 匯總。](../../media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
 商務用 Skype Server 集區可以包含多個個別商務用 Skype Server 系統 (具有一個以上商務用 Skype Server 角色、商務用 Skype Server 服務，以及商務用 Skype Server 元件) 。 因此，個別伺服器或元件的失敗對商務用 Skype Server 集區的整體健康情況而言並不很重要，因為相同集區中的其他伺服器也可以為用戶端提供應用程式服務。 健康情況會在百分比層級上向上翻轉至商務用 Skype Server 集區。 
   
 商務用 Skype Server 集區觀察程式會針對商務用 Skype Server 集區執行綜合交易。 連續失敗一或多個綜合交易 (稱為「連續輪詢間隔」的處理常式) 會將嚴重健康狀態狀態累加至集區層級 (最糟的所有綜合交易) ，如下圖所示。 
   
-![SCOM 匯總連續輪詢](../../media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
+![SCOM 匯總連續輪詢。](../../media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
   
 ## <a name="best-practice-create-a-management-pack-for-customizations"></a>最佳作法：建立自訂的管理套件
 
@@ -256,6 +256,6 @@ ms.locfileid: "58627975"
 > [!IMPORTANT]
 > 非 Microsoft 網站上的所有資訊和內容都是由網站的擁有者或使用者所提供。 Microsoft 對本網站的資訊不做任何擔保、明確、暗示或法令。 
   
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>也請參閱
 
 [商務用 Skype Server 2015 管理工具](../../management-tools/management-tools.md)

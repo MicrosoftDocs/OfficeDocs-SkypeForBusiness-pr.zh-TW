@@ -18,12 +18,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a452a4370d980403d9ae82a30b993c7f20e1aca0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a81df4161e0d9d7d9631338e6a159629fc3df75
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607700"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725462"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>在 Microsoft Teams 中建立您的首批團隊和頻道
 
@@ -65,7 +65,7 @@ ms.locfileid: "58607700"
 
 建立團隊後，邀請其他人加入。 您可以新增個別使用者、群組，甚至整個連絡人群組 (先前稱為「通訊群組清單」)。 
 
-![範例團隊的螢幕擷取畫面，顯示團隊名稱和描述](media/get-started-with-teams-create-team.png "範例「了解 Teams」團隊的螢幕擷取畫面，顯示團隊名稱和描述") 
+![範例團隊的螢幕擷取畫面，顯示團隊名稱和描述。](media/get-started-with-teams-create-team.png "範例「了解 Teams」團隊的螢幕擷取畫面，顯示團隊名稱和描述") 
 
 ### <a name="add-a-team-owner"></a>新增團隊擁有者
 尋找您建立的團隊，按一下 **[其他選項˙˙˙]** > **[管理團隊]**。 然後移至 **[成員]** 索引標籤。尋找您要指定為團隊擁有者的人員。 在 **[角色]** 底下，按一下 **[擁有者]**。
@@ -73,7 +73,7 @@ ms.locfileid: "58607700"
 ### <a name="create-a-channel-in-a-team"></a>在團隊中建立頻道
 尋找您建立的團隊，按一下 **[其他選項˙˙˙]** > **[新增頻道]**。 您也可以按一下 **[管理團隊]**，然後在 **[頻道]** 索引標籤中新增頻道。 
 
-![按一下 [其他選項] 時可用的選項的螢幕擷取畫面](media/get-started-with-teams-add-channel.png "[新增頻道] 選項、[管理團隊] 選項，以及其他按一下團隊中 [其他選項] 時可用的選項的螢幕擷取畫面") 
+![按一下 [其他選項] 時可用的選項的螢幕擷取畫面。](media/get-started-with-teams-add-channel.png "[新增頻道] 選項、[管理團隊] 選項，以及其他按一下團隊中 [其他選項] 時可用的選項的螢幕擷取畫面") 
 
 為頻道取一個描述性名稱，讓使用者更容易了解頻道的用途。 
 
@@ -81,7 +81,7 @@ ms.locfileid: "58607700"
 
 以下是「了解 Teams」團隊中的「我要如何」頻道範例，顯示連結至 Teams 網頁的固定索引標籤 &ndash; Teams 影片訓練、Teams 說明中心和 Teams 下載連結。 
 
-![固定到範例團隊的索引標籤螢幕擷取畫面](media/get-started-with-teams-add-tabs.png "固定到範例「了解 Teams」團隊的索引標籤螢幕擷取畫面。") 
+![釘選到範例團隊的索引標籤螢幕擷取畫面。](media/get-started-with-teams-add-tabs.png "固定到範例「了解 Teams」團隊的索引標籤螢幕擷取畫面。") 
 
 ## <a name="next-steps"></a>後續步驟
 移至[讓早期採用者快速上手](get-started-with-teams-onboard-early-adopters.md)。
