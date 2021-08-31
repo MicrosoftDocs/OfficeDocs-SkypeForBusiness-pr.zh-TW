@@ -1628,6 +1628,8 @@ items:
             href: alerts/teams-admin-alerts.md
           - name: Teams 裝置健康情況監視
             href: alerts/device-health-status.md
+          - name: Teams 裝置和周邊裝置
+            href: teams-device-health.md
           - name: 適用於裝置管理的系統管理單位功能
             href: administrative-unit.md
       - name: Teams PowerShell

@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 摘要：瞭解如何準備您的 Active Directory 網域，以安裝商務用 Skype Server。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: a4a224da84d1e6b4b001e9c561529b1c64b0e995
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 928873f44b9cb3ad12069964e1b7f93b410f13de
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609810"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731632"
 ---
 # <a name="skype-for-business-server-prepare-active-directory"></a>商務用 Skype Server：準備 Active Directory
  
@@ -30,7 +30,7 @@ ms.locfileid: "58609810"
   
 商務用 Skype Server 與 Active Directory 密切搭配使用。 您必須準備作用中的 Active Directory 網域，才能使用商務用 Skype Server。 此程式是在部署嚮導中完成，只對網域執行一次。 這是因為程式會建立群組並修改網域，而您只需要執行一次。 您可以依任何循序執行步驟1到5。 不過，您必須依序執行步驟6、7和8，並在步驟1到5之後進行，如圖表中所述。 準備 Active Directory 是步驟4之8。 如需規劃 Active Directory 的詳細資訊，請參閱商務用 Skype Server 2019 商務用 Skype Server 或[伺服器需求](../../../SfBServer2019/plan/system-requirements.md)[的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。
   
-![一覽表圖表](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
+![一覽表圖表。](../../media/2c52d307-7859-4009-9489-024b2e130bb3.png)
   
 ## <a name="prepare-active-directory"></a>準備 Active Directory
 
@@ -176,6 +176,6 @@ ms.locfileid: "58609810"
      ![準備 Active Directory 已完成。](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   
 
-## <a name="see-also"></a>另請參閱
+## <a name="see-also"></a>也請參閱
  
 [商務用 Skype Server 2015 的 Active Directory 網域服務](../../plan-your-deployment/security/active-directory-domain-services.md)

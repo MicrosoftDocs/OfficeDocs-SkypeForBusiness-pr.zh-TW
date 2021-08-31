@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理一般Teams。
-ms.openlocfilehash: 72cfbc77b6abcf264ddf96f66d3726031a2e31cb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be28acd1a343988fef94546f405a1f7a3684d4ce
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589675"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731662"
 ---
 # <a name="meeting-policy-settings---general"></a>會議原則設定 - 一般
 
@@ -45,17 +45,17 @@ ms.locfileid: "58589675"
 
 ## <a name="allow-meet-now-in-channels"></a>允許在頻道中立即開會
 
-這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在頻道中啟動Teams會議。 如果您開啟此功能，使用者可以按一下 [開會>按鈕，開始臨時會議或在頻道中排程會議。 預設值為 True。
+這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在頻道中啟動Teams會議。 如果您開啟此功能，使用者可以按一下 [開會>按鈕來啟動臨時會議，或在頻道中排程會議。 預設值為 True。
 
-[![顯示訊息下方的現在開會圖示的螢幕擷取畫面 ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
+[![顯示訊息下方的現在開會圖示的螢幕擷取畫面。 ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
 
 ## <a name="allow-the-outlook-add-in"></a>允許 Outlook 增益集
 
 這是每一使用者原則，且會在會議開始之前套用。 此設定可控制是否可以從 Outlook (Windows、Mac、Web 及行動裝置) 內排程 Teams 會議。
 
-![顯示能夠排程新會議的螢幕擷取畫面](media/meeting-policies-outlook-add-in.png)
+![螢幕擷取畫面顯示排程新會議的能力。](media/meeting-policies-outlook-add-in.png)
 
-如果您關閉此功能，當使用者在 Teams 中建立新會議時，就無法排程Outlook。 例如，在 Windows 上的 Outlook 中，[新增 Teams 會議 **]** 選項不會在功能區中顯示。
+如果您關閉此功能，當使用者在 Teams中建立新會議時，就無法排程Outlook。 例如，在 Windows 上的 Outlook 中，[新增 Teams 會議 **]** 選項不會在功能區中顯示。
 
 ## <a name="allow-channel-meeting-scheduling"></a>允許頻道會議排程
 
@@ -65,7 +65,7 @@ ms.locfileid: "58589675"
 
 將會停用排程會議。
 
-![螢幕擷取畫面顯示會議中的排程Teams](media/schedule-meeting-option.png)
+![螢幕擷取畫面顯示在 Teams 中排程Teams。](media/schedule-meeting-option.png)
 
 頻道選項已停用。
 
@@ -77,7 +77,7 @@ ms.locfileid: "58589675"
   ![顯示選取您想要排程會議之頻道的日曆選項的螢幕擷取畫面。](media/schedule-meeting-disabled-in-chat2.png)
   
 - 頻道標題上的 [排程會議 **]** 按鈕。
-  ![螢幕擷取畫面顯示選取您想要透過哪個頻道排程會議之日曆選項的螢幕擷取畫面。](media/schedule-now-in-header.png)
+  ![螢幕擷取畫面顯示選取要排程會議之頻道的日曆選項。](media/schedule-now-in-header.png)
 
 在頻道行事曆中：
 
@@ -102,7 +102,7 @@ ms.locfileid: "58589675"
 
 ## <a name="allow-meet-now-in-private-meetings"></a>允許在私人會議中立即開會
 
-這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以啟動臨時私人會議。  此設定預設會開啟。
+這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否能啟動臨時私人會議。  此設定預設會開啟。
 
 ## <a name="designated-presenter-role-mode"></a>指定的簡報者角色模式
 
@@ -148,10 +148,10 @@ ms.locfileid: "58589675"
 
 此政策會控制哪些使用者可以註冊並參加網路研討會。 此政策有兩個選項，只有在開啟允許會議註冊 **時才能** 使用。
 
-- 若要 **神秘** 允許所有人 ，包括匿名使用者，註冊並參加貴組織中使用者所設定之網路研討會，則設定可註冊至所有人。
-- 如果您 **神秘** 只允許貴組織的使用者註冊並參加網路研討會，請設定為可以註冊至組織的所有人。
+- 若要 **神秘** 允許所有人 ，包括匿名使用者，註冊並參加貴組織中使用者所設定之網路研討會，請設定為所有人。
+- 如果您 **神秘** 只允許貴組織的使用者註冊並參加網路研討會，請設定選項可以註冊至組織的所有人。
 
-根據預設 **，神秘可以** 註冊設為 **。。** 若要在系統管理中心編輯Teams，請前往 **會議**  >  **會議政策**。
+根據預設 **，神秘可以註冊** 設為 **。。** 若要在系統管理中心編輯Teams，請前往 **會議**  >  **會議政策**。
 
 您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的 Teams 會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，並將它指派給使用者。
 
