@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: df39e778998d01b31b08ec0f537d4a35905a2ce2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 082657f5d114a7228f5b95e39390a87ccf6d0dcb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622001"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727822"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams 中的生命週期管理方案
 
@@ -153,8 +153,8 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 
 |    |     |
 |-----------|------------|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>團隊的目的為何？</li><li>哪些人屬於團隊？</li><li>小組是私人還是公開的？</li><li>新成員可以自行加入，還是須由小組擁有者將其加入？</li><li>哪些人擁有可以建立頻道或新增索引標籤、Bot 和連接器的權限？</li></ul> |
-| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>建立團隊。</li><li>規劃頻道。</li></ul>|
+| ![描繪決策點的圖示。](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>團隊的目的為何？</li><li>哪些人屬於團隊？</li><li>小組是私人還是公開的？</li><li>新成員可以自行加入，還是須由小組擁有者將其加入？</li><li>哪些人擁有可以建立頻道或新增索引標籤、Bot 和連接器的權限？</li></ul> |
+| ![描繪後續步驟的圖示。](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>建立團隊。</li><li>規劃頻道。</li></ul>|
 
 
 #### <a name="set-up-channels"></a>設定頻道
@@ -167,8 +167,8 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 
 |    |     |
 |-----------|------------|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>團隊中會新增哪些初始頻道？</li><li>如果有的話，系統可以針對新增新頻道提供哪些指引？ (這些頻道的設定依據是專案、主題或是...？)</li></ul> |
-| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>建立初始頻道。</li><li>張貼歡迎訊息。</li><li>開始共同作業。</li></ul>|
+| ![描繪決策點的圖示。](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>團隊中會新增哪些初始頻道？</li><li>如果有的話，系統可以針對新增新頻道提供哪些指引？ (這些頻道的設定依據是專案、主題或是...？)</li></ul> |
+| ![描繪後續步驟的圖示。](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>建立初始頻道。</li><li>張貼歡迎訊息。</li><li>開始共同作業。</li></ul>|
 
 ### <a name="stage-2-middle"></a>階段 2：中期
 
@@ -188,8 +188,8 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 
 |    |     |
 |-----------|------------|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>誰負責監視使用情況以找出問題？</li><li>將使用哪些指標來判斷團隊的健康情況？</li><li>找出任何已到達使用期限的團隊。</li><li>找出狀況不良但仍在使用、而需要重整的團隊。</li></ul> |
-| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>實作一個流程來監視個別團隊的健康情況。</li></ul>|
+| ![描繪決策點的圖示。](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>誰負責監視使用情況以找出問題？</li><li>將使用哪些指標來判斷團隊的健康情況？</li><li>找出任何已到達使用期限的團隊。</li><li>找出狀況不良但仍在使用、而需要重整的團隊。</li></ul> |
+| ![描繪下一個步驟的圖示。](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>實作一個流程來監視個別團隊的健康情況。</li></ul>|
 
 ### <a name="stage-3-end"></a>階段 3：結束
 
@@ -205,8 +205,8 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 
 |    |     |
 |-----------|------------|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>定義團隊生命週期結束的形式。</li><li>決定是否要保留團隊的內容，以及要保留多久。</li></ul> |
-| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>記錄最佳做法和經驗傳承。</li><li>封存資料 (如有需要)。</li></ul>|
+| ![描繪決策點的圖示。](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>定義團隊生命週期結束的形式。</li><li>決定是否要保留團隊的內容，以及要保留多久。</li></ul> |
+| ![描繪後續步驟的圖示。](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>記錄最佳做法和經驗傳承。</li><li>封存資料 (如有需要)。</li></ul>|
 
 ## <a name="related-topics"></a>相關主題
 

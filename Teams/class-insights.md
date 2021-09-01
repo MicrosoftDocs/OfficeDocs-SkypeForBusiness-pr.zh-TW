@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76254b414bd282f75a01decc5016e5ae476a0f21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b09b6c6e42fcdd150d5aa95ebd56c9eaec36e01c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607840"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726662"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 中 Education Insights 的 IT 系統管理員指南
 
@@ -96,11 +96,11 @@ Insights 會呈現來自班級團隊內所有頻道的活動資料，但只能�
 * 搜尋 **Insights** 並選取它。
 * 描述畫面將隨即開啟。 按一下 [新增 **]**。
 
-:::image type="content" source="media/insights-add-personal-app.png" alt-text="將 Insights 新增至 Teams":::
+:::image type="content" source="media/insights-add-personal-app.png" alt-text="將 Insights 新增至 Teams。":::
 
-* 在 Insights 圖示上按一下滑鼠右鍵，然後選取 [釘選 **]**。
+* 在 Insights 圖示上按一下滑鼠右鍵，然後選取 **[釘選]**。
 
-:::image type="content" source="media/insights-pin-app.png" alt-text="釘選 Insights 應用程式":::
+:::image type="content" source="media/insights-pin-app.png" alt-text="釘選 Insights 應用程式。":::
 
 > [!TIP]
 > 您也可以透過以下連結找到 Insights 應用程式：[https://aka.ms/addInsights](https://aka.ms/addInsights)
@@ -112,7 +112,7 @@ Insights 在整個 **學習週期** 支援學習社群。 透過多個維度的�
 *   與學生和學校社群 **討論** 發現的項目，以強化關聯、目標設定、自我檢討、激發共同作業，並改善成果。
 *   **採取行動** 來發展介入，提供有關成長領域的意見反應、修改教學策略，並識別需要的額外支援。
 
-:::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights 在整個學習週期支援學習社群":::
+:::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights 在整個學習週期支援學習社群。":::
 
 ## <a name="how-insights-works"></a>Insights 的運作方式為何？
 Insights 可產生功能強大的分析，以協助授課者提供更完善的學習成果。其做法是透過分析 Teams 內的學生活動，並選擇性地運用您提供的學生資訊系統 (SIS) 資料來協助將活動情境化和分組。 
