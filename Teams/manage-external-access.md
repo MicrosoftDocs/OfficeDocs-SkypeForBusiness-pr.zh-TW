@@ -21,12 +21,12 @@ description: 您的 Teams 或 IT 系統管理員可以設定其他網域的外�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 255b714980db3ac63e9251c8db7af243d91dc72d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2739f1b7f97e39617471ecf292ecf9424a7ac396
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610300"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726862"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部存取
 
@@ -70,13 +70,13 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 
 ### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>步驟 1 - 讓您的組織與其他 Teams 或商務用 Skype 組織通訊
 
-![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示 Microsoft Teams 標誌的圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，移至 [全組織設定]  >  [外部存取]。
 
 2. 開啟 [使用者可以與其他商務用 Skype 和 Teams 使用者通訊] 設定。
 
-     ![螢幕擷取畫面：開啟 [使用者可以與其他商務用 Skype 與 Teams 使用者通訊] 設定](media/manage-external-access-2.png).
+     ![已開啟 [使用者可以與其他商務用 Skype 與 Teams 使用者通訊] 設定的螢幕擷取畫面。](media/manage-external-access-2.png).
 
 3. 如果您想要讓所有 Teams 組織都能與貴組織中的使用者通訊，請直接跳至步驟 5。
 
@@ -109,13 +109,13 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 
 請按照這些步驟，讓貴組織的 Teams 使用者可以和 Skype 使用者聊天和通話。 Teams 使用者便可以搜尋 Skype 使用者，並開始一對一的純文字交談或進行音訊/視訊通話，反之亦然。
 
-![顯示 Microsoft Teams 標誌的圖示](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示 Microsoft Teams 標誌的圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，移至 [全組織設定]  >  [外部存取]。
 
 2. 開啟 [使用者可以與 Skype 使用者通訊] 設定。
 
-    ![螢幕擷取畫面：開啟 [使用者可以與 Skype 使用者通訊] 設定](media/manage-external-access-5.png).
+    ![已開啟 [使用者可以與 Skype 通訊] 設定的螢幕擷取畫面。](media/manage-external-access-5.png).
 
 若要深入瞭解 Teams 使用者和 Skype 使用者的通訊方式 (包括通訊的限制)，請參閱 [Teams 和 Skype 的互通性](teams-skype-interop.md)。
 

@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3affebfebdfb34923fbdff37a71f652077d7aa7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6a8323c2d8dfd6023a9e27de9a6f0d47c87ae67
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596327"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730892"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Microsoft Teams 部署概觀
 
@@ -32,7 +32,7 @@ ms.locfileid: "58596327"
 
 因為 Teams 可支援各式各樣的組織類型和起始點，因此有數個選項可進行設定。 為了協助您找到您需要的資訊，我們已將一些文章分成兩種對象：**小型企業** (少於 50 個使用者) 和 **中型/大型企業版** (超過 50 個使用者)。 閱讀文章時，請選擇最符合您組織的對象索引標籤。 以下是這些索引標籤的外觀：
 
-:::image type="content" source="media/small-large-tabs-example.png" alt-text="顯示出現在某些文章中之小型和大型對象索引標籤的範例":::
+:::image type="content" source="media/small-large-tabs-example.png" alt-text="顯示出現在某些文章中的小型和大型對象索引標籤的範例。":::
 
 以下是您可以在 **開始使用** 章節中選擇的章節清單，以及每個章節的簡短描述。
 

@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df894e5ece2b75bc2168c02d4005b3e522bacab5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 82e1ba3c58dca1326cb942726efa7d0006aa622f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617549"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731232"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>針對 Business Voice 檢查您的網際網路連線
 
@@ -64,22 +64,22 @@ Business Voice 位於 Microsoft 365 的雲端中。 使用 Microsoft Teams 和 B
 2. 開啟 **[規劃]**，並選取 **[網路規劃中心]**。
 3. 在 **[網路規劃]** 底下，選取 **[新增]**。 為您的規劃輸入名稱，然後選取 **[套用]**。 您的網路規劃應看起來如下：
 
-    ![網路規劃中心主畫面](../media/network-planner-main.png)
+    ![網路規劃中心主畫面。](../media/network-planner-main.png)
 1. 選取網路規劃名稱。 (上圖的 **總公司**)。
 2. 在下一頁，於 **[網站]** 索引標籤底下選取 **[新增網路站台]**。
 3. 只填寫以下螢幕擷取畫面中所指定的欄位，然後選取 **[儲存]**。 讓這個畫面上的其他欄位保留空白，且不要選取 **[ExpressRoute]** 或 **[連線至 WAN]** 選項。
 
-    ![網路規劃中心網站資訊](../media/network-planner-site-info.png)
+    ![網路規劃中心網站資訊。](../media/network-planner-site-info.png)
 1. 在 **[報告]** 索引標籤，選取 **[開始報告]**。
 1. 輸入下列資訊，然後選取 **[產生報告]**，以建立顯示 Teams 頻寬需求的報告。 我們會在下一節中示範如何顯示報告。
 
-    ![網路規劃中心報告資訊](../media/network-planner-report-info.png)
+    ![網路規劃中心報告資訊。](../media/network-planner-report-info.png)
 
 ### <a name="find-your-minimum-internet-connection-speed"></a>找到您的最低網際網路連線速度
 
 選取 [產生報告] 時，Microsoft 365 或 Office 365 會建立一個看起來如下的報告：
 
-![網路規劃中心報告詳細資料](../media/network-planner-report.png)
+![網路規劃中心報告詳細資料。](../media/network-planner-report.png)
 
 強調顯示的數字會顯示 Teams 和 Business Voice 使用您的網際網路連線量。 建議這個數字不要超過網際網路連線速度總計的 30%。 例如，如果您的網際網路連線是 60 Mbps，則 Teams 和 Business Voice 不應使用超過 18 Mbps。
 
@@ -87,7 +87,7 @@ Business Voice 位於 Microsoft 365 的雲端中。 使用 Microsoft Teams 和 B
 
 如果 Teams 和 Business Voice 將使用超過網際網路連線速度總計的 30%，則強調顯示的數字會以紅色顯示。 在這種情況下，您可能需要將網際網路連線升級。
 
-![連線速度警告](../media/network-planner-report-speed-warning.png)
+![連線速度警告。](../media/network-planner-report-speed-warning.png)
 
 ## <a name="make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365"></a>確定您網路上的電腦和裝置能夠連線至 Microsoft 365
 

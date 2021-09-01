@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理會議原則設定。 使用原則設定來控制可供使用者排程的會議的會議參與者使用的功能。
-ms.openlocfilehash: 7f981ed6d4397d07dc0aae5bffc6174983e12e52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4809fab0976eda2b109620f2a2716ccb10e80318
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629365"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728418"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在 Teams 中管理會議原則
 
@@ -119,13 +119,13 @@ ms.locfileid: "58629365"
 
 允許 [立即開會 **]** 是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在 Teams 頻道中開始非計畫的會議。 如果您開啟此設定，使用者可以選取 [會議 **]** 按鈕以開始非計畫的會議，或在頻道中排程會議。 預設值為 True。
 
-![訊息下方顯示 [立即開會] 圖示的螢幕擷取畫面](media/meeting-policies-meet-now.png)
+![訊息下方顯示 [立即開會] 圖示的螢幕擷取畫面。](media/meeting-policies-meet-now.png)
 
 ### <a name="allow-the-outlook-add-in"></a>允許 Outlook 增益集
 
 允許 Outlook 增益集是每一使用者原則，且會在會議開始之前套用。 此設定可控制是否可以從 Outlook (Windows、Mac、Web 及行動裝置) 內排程 Teams 會議。
 
-![顯示能夠排程新會議的螢幕擷取畫面](media/meeting-policies-outlook-add-in.png)
+![顯示能夠排程新會議的螢幕擷取畫面。](media/meeting-policies-outlook-add-in.png)
 
 如果您關閉此功能，使用者將無法排程。 使用者在 Outlook 中建立新會議時的 Teams 會議。 例如，在 Windows 上的 Outlook 中，[新增 Teams 會議 **]** 選項不會在功能區中顯示。
 
@@ -137,7 +137,7 @@ ms.locfileid: "58629365"
 
 將會停用排程會議。
 
- ![Teams 中的排程會議選項](media/schedule-meeting-option.png)
+ ![Teams 中的排程會議選項。](media/schedule-meeting-option.png)
 
 頻道選項已停用。
 
@@ -146,15 +146,15 @@ ms.locfileid: "58629365"
 在頻道文章頁面中，將會停用下列功能：
 
 - 頻道回覆撰寫方塊上的 [排程會議 **]** 按鈕。
-  回覆撰寫方塊上的 [排程會議![]](media/schedule-meeting-disabled-in-chat2.png) 按鈕
+  ![回覆撰寫方塊上的 [排程會議] 按鈕。](media/schedule-meeting-disabled-in-chat2.png)
   
-- 頻道標題上的 [排程會議 **]** 按鈕。
-  頻道標題中的 [排程會議![]](media/schedule-now-in-header.png) 按鈕
+- 頻道標頭上的 **[排程會議]** 按鈕。
+  ![頻道標頭中的 [排程會議] 按鈕。](media/schedule-now-in-header.png)
 
 在頻道行事曆中：
 
 - 頻道行事曆上的 [新增活動 **]** 按鈕將會停用。
-  ![頻道行事曆標題上的按鈕已停用](media/add-new-event-disabled.png)
+  ![頻道行事曆標頭上的按鈕已停用。](media/add-new-event-disabled.png)
 
 - 使用者無法拖曳並選取頻道行事曆上的時間區塊，以建立頻道會議。
 
@@ -164,7 +164,7 @@ ms.locfileid: "58629365"
 
 頻道行事曆應用程式會在應用程式權限原則頁面上的 [Microsoft 應用程式 **]** 區段中顯示。
 
- ![Teams 系統管理中心中的應用程式權限原則](media/manage-microsoft-apps-policy.png)
+ ![Teams 系統管理中心中的應用程式權限原則。](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>允許排程私人會議
 
@@ -191,7 +191,7 @@ ms.locfileid: "58629365"
 
 此原則會開啟即時轉錄。 允許轉錄是每一使用者原則。 此設定可控制是否可以轉錄此特定小組的會議。
 
-![會議原則中的轉錄選項](media/live-transcription.png)
+![會議原則中的轉錄選項。](media/live-transcription.png)
 
 即時轉錄會以近乎即時的方式在 Teams 會議期間顯示口語內容的語音轉換文字。 文字會隨著視訊會議顯示，包括演講者名稱和時間戳記。 若要深入了解，請參閱[在 Teams 會議中檢視即時轉錄](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b)。
 
@@ -212,7 +212,7 @@ ms.locfileid: "58629365"
 
 組織外部人員 (例如，同盟和匿名使用者) 無法開始錄製。 來賓使用者無法開始或停止錄製。
 
-![錄製選項](media/meeting-policies-recording.png)
+![錄製選項。](media/meeting-policies-recording.png)
 
 若要深入了解雲端會議錄製，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。
 
@@ -264,7 +264,7 @@ IP 視訊的模式是每一使用者原則。 此設定可控制是否可以在�
 
 | Teams 桌面和 Web 用戶端 |Teams 行動用戶端  |
 |:-------:|:-------:|
-|![螢幕擷取畫面顯示在桌面上加入會議與音訊/視訊設定](media/meeting-policies-audio-video-settings.png)    |![螢幕擷取畫面顯示在行動裝置上加入會議與音訊/視訊設定](media/meeting-policies-mobile-join.png)          |
+|![螢幕擷取畫面顯示在電腦上使用音訊/視訊設定加入會議。](media/meeting-policies-audio-video-settings.png)    |![螢幕擷取畫面顯示在行動裝置上加入會議與音訊/視訊設定](media/meeting-policies-mobile-join.png)          |
 
 讓我們看看下列範例。
 
@@ -358,11 +358,11 @@ IP 視訊的模式是每一使用者原則。 此設定可控制是否可以在�
 
 如果已為使用者開啟此設定，則共用工作階段上方列中會顯示 [授與控制權 **]** 選項。
 
-![顯示 [授與控制權] 選項的螢幕擷取畫面](media/meeting-policies-give-control.png)
+![顯示 [授與控制權] 選項的螢幕擷取畫面。](media/meeting-policies-give-control.png)
 
-如果已為使用者的關閉該設定，則 [授與控制權 **]** 選項無法使用。
+如果已為使用者關閉該設定，則無法使用 **[授與控制權]** 選項。
 
-![顯示 [授與控制權] 選項無法使用的螢幕擷取畫面](media/meeting-policies-give-control-not-available.png)
+![顯示 [授與控制權] 選項無法使用的螢幕擷取畫面。](media/meeting-policies-give-control-not-available.png)
 
 讓我們看看下列範例。
 
@@ -459,7 +459,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 這是每一召集人原則。 此設定可控制人員是直接加入會議，還是在大廳中等候，直到由已驗證的使用者准許其加入會議為止。 此設定不適用撥入使用者。
 
-![螢幕擷取畫面顯示有使用者在大廳中的會議](media/meeting-policies-lobby.png)
+![螢幕擷取畫面顯示有使用者在大廳中的會議。](media/meeting-policies-lobby.png)
 
  會議召集人可以在會議邀請中選取 [會議選項 **]**，以針對其排程的每個會議變更此設定。
 
@@ -489,7 +489,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 這是每一使用者原則，且會於會議期間套用。 此設定可控制使用者是否可使用 [開啟即時輔助字幕 **]** 選項，以在使用者出席的會議中開啟和關閉即時輔助字幕。  
 
-![顯示開啟即時輔助字幕選項的螢幕擷取畫面](media/meeting-policies-live-captions.png)
+![顯示開啟即時輔助字幕選項的螢幕擷取畫面。](media/meeting-policies-live-captions.png)
 
 |設定值 |行為  |
 |---------|---------|
@@ -520,7 +520,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 
 此外，您可以在 Teams 系統管理中心編輯此原則。
 
-![Teams 系統管理中心的螢幕擷取畫面](media/designated-presenter-role.png)
+![Teams 系統管理中心的螢幕擷取畫面。](media/designated-presenter-role.png)
 
 請記住，在您設定預設值之後，會議召集人仍然可以在 Teams 中變更此設定，並選擇誰可以在其排程的會議中簡報。
 

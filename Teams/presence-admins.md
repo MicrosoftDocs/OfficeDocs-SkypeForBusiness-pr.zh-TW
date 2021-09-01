@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66c3aec34baa10dc0cda644d84611800a8e9d97a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 450decb455b35018c2dc4c02951ee542ab212371
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597667"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725822"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中使用者的目前狀態
 
@@ -38,21 +38,21 @@ ms.locfileid: "58597667"
 
 |使用者設定|應用程式設定|
 |:--- |:---|
-| ![實心圓圈綠色核取記號，表示目前狀態為有空](media/Presence_Available.png) 有空|![實心圓圈綠色核取記號，表示目前狀態為有空](media/Presence_Available.png) 有空|
-|| ![空心圓圈綠色核取記號，表示外出並有空](media/Presence_Available_OOF.png) 有空，外出。 附注：在使用者設定「自動回復」的期間內，系統會自動設定為 [外出]。 如果使用者是在這些時段內使用應用程式，可能會顯示雙重顯示 (例如「外出，有空」)。 |
-|  ![紅色實心圓圈，表示忙碌](media/Presence_Busy.png) 忙碌 |  ![紅色實心圓圈，表示忙碌](media/Presence_Busy.png) 忙碌  |
-|| ![紅色實心圓圈，表示通話中忙碌](media/Presence_Busy.png) 電話中|
-|| ![紅色實心圓圈，表示會議中忙碌](media/Presence_Busy.png) 會議中 |
-|| ![紅色空心圓圈，表示忙碌](media/Presence_Busy_OOF.png) 通話中，外出|
-|  ![紅色圓圈加白線，表示請勿打擾](media/Presence_DND.png) 請勿打擾 ||
-|| ![紅色圓圈加白線，表示簡報中](media/Presence_DND.png) 簡報中|
-|| ![紅色圓圈加白線，表示專注](media/Presence_DND.png) 專注。當使用者在行事曆中排程 [MyAnalytics/Insights] 時，就會進入 [專注] 功能。|
-| ![黃色時鐘圖示，表示離開](media/Presence_Away.png) 離開| ![黃色時鐘圖示，表示離開](media/Presence_Away.png) 離開|
+| ![實心綠色核取記號，顯示目前狀態為有空。](media/Presence_Available.png) 有空|![實心圓圈綠色核取記號，表示目前狀態為有空](media/Presence_Available.png) 有空|
+|| ![空心綠色核取記號，表示不在辦公室。](media/Presence_Available_OOF.png) 有空，外出。 附注：在使用者設定「自動回復」的期間內，系統會自動設定為 [外出]。 如果使用者是在這些時段內使用應用程式，可能會顯示雙重顯示 (例如「外出，有空」)。 |
+|  ![紅色實心圓圈，表示忙碌。](media/Presence_Busy.png) 忙碌 |  ![紅色實心圓圈，表示忙碌](media/Presence_Busy.png) 忙碌  |
+|| ![紅色實心圓圈，表示通話中忙碌。](media/Presence_Busy.png) 通話中|
+|| ![紅色實心圓圈，表示會議中忙碌。](media/Presence_Busy.png) 會議中 |
+|| ![紅色空心圓圈，表示忙碌。](media/Presence_Busy_OOF.png) 通話中，外出|
+|  ![紅色圓圈加白線，表示請勿打擾。](media/Presence_DND.png) 請勿打擾 ||
+|| ![紅色圓圈加白線，表示簡報中。](media/Presence_DND.png) 簡報中|
+|| ![紅色圓圈加白線，表示專注。](media/Presence_DND.png) 專注。當使用者在行事曆中排程 [MyAnalytics/Insights] 時，就會進入 [專注] 功能。|
+| ![黃色時鐘圖示，表示離開。](media/Presence_Away.png) 離開| ![黃色時鐘圖示，表示離開。](media/Presence_Away.png) 離開|
 || ![黃色時鐘圖示，表示離開](media/Presence_Away.png)上次看到的 *時間*|
-|![黃色時鐘圖示，表示離開，馬上回來](media/Presence_Away.png) 馬上回來| |
-|![灰色圓圈帶 x，表示離線](media/Presence_Offline.png) 顯示為離線|![灰色圓圈帶 x，表示離線](media/Presence_Offline.png) 離線。當使用者未在任何裝置上登入達數分鐘，便會顯示為 [離線]。 | |
-|| ![空心灰色圓圈，表示狀態不明](media/Presence_Unknown.png) 狀態不明|
-|| ![紫色圓圈加箭號，表示外出](media/Presence_OOF.png) 外出。設定為自動回覆時，會使用 [外出] 功能。 |
+|![黃色時鐘圖示，表示離開，馬上回來。](media/Presence_Away.png) 馬上回來| |
+|![灰色圓圈帶 x，表示離線。](media/Presence_Offline.png) 顯示為離線|![灰色圓圈帶 x，表示離線](media/Presence_Offline.png) 離線。當使用者未在任何裝置上登入達數分鐘，便會顯示為 [離線]。 | |
+|| ![空心灰色圓圈，表示狀態不明。](media/Presence_Unknown.png) 狀態不明|
+|| ![紫色圓圈加箭號，表示外出。](media/Presence_OOF.png) 外出。設定為自動回覆時，會使用 [外出] 功能。 |
 |||
  > [!NOTE]
  > 對於擁有其信箱託管於內部部署的使用者，預期目前狀態延遲為一小時 (最大值)。
