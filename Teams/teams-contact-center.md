@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式聯絡人中心服務概觀 (CCaaS) 解決方案Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec4dc5dceccaa515223d3a53255258e190da8788
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eea312f8943e05b870f7e72409e551869c950c4e
+ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606932"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864203"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>連絡人中心整合Microsoft Teams
 
@@ -26,18 +26,18 @@ ms.locfileid: "58606932"
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>什麼是連絡人中心整合功能Microsoft Teams？
 
-Microsoft Teams客戶互動的資料流程，可在其通訊模式中 ，包括聊天、視訊會議和通話，做為內部和外部客戶連結的中樞。 針對部分組織，Microsoft Teams雲端語音功能[，包括](./cloud-voice-landing-page.md)[自動語音語音](./what-are-phone-system-auto-attendants.md)和通話[佇列](./create-a-phone-system-call-queue.md)，符合其需求。
+Microsoft Teams，可在其通訊模式中，包括聊天、視訊會議和通話，做為內部和外部客戶連結的中心，支援客戶互動的資料流程。 針對部分組織，Microsoft Teams雲端語音功能[，包括](./cloud-voice-landing-page.md)[自動](./what-are-phone-system-auto-attendants.md)語音語音和[通話佇列](./create-a-phone-system-call-queue.md)，符合其需求。
 
 針對想要使用商務工具和工作流程的解決方案來推動客戶歷程的組織，Microsoft Teams 的連絡人中心整合可讓連絡人中心成為服務 (CCaaS) 解決方案提供者，將其解決方案整合到 Teams。
 
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>適用于認證計畫的Microsoft Teams中心
 
-Microsoft 認證計畫的Microsoft Teams中心會驗證每個參與提供者的解決方案都提供他們預期從 Microsoft 解決方案獲得的品質、相容性和可靠性。
+Microsoft 認證計畫的Microsoft Teams中心會驗證每個參與的提供者解決方案都提供他們預期從 Microsoft 解決方案獲得的品質、相容性和可靠性。
 
-如果您是尋找整合式聯絡中心解決方案的組織，請參閱認證解決方案提供者清單的聯絡中心認證[Microsoft Teams](https://cloudpartners.transform.microsoft.com/contact-center-solutions)解決方案，並參閱在認證過程中提供者清單的已連接連絡人[](#connected-contact-center-solutions)中心解決方案。
+如果您是尋找整合式聯絡中心解決方案的組織，請參閱認證解決方案提供者清單的[](https://cloudpartners.transform.microsoft.com/contact-center-solutions)聯絡中心認證 Microsoft Teams 解決方案，並參閱在認證過程中提供者清單的已連接[](#connected-contact-center-solutions)連絡人中心解決方案。
 
-如果您是尋求加入認證計畫之廠商，請 <Teamscategorypartner@microsoft.com> 以電子郵件 。
+如果您是想加入認證計畫的廠商，請 <Teamscategorypartner@microsoft.com> 以電子郵件 。
 
 [!INCLUDE [contact-center-integration-models](./includes/contact-center-integration-models.md)]
 
@@ -57,6 +57,7 @@ Microsoft 認證計畫的Microsoft Teams中心會驗證每個參與提供者的�
 | `ComputerTalk` | https://www.computer-talk.com/product/enterprise-contact-center/ice-contact-center-for-teams         |
 | `Content Guru` | https://www.contentguru.com/microsoft-teams-integration/    |
 | `Enghouse Interactive` | http://www.enghouseteams.com/         |
+| `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 
@@ -67,7 +68,6 @@ Microsoft 認證計畫的Microsoft Teams中心會驗證每個參與提供者的�
 | `Competella` | https://www.competella.com/microsoft-teams-skype-for-business                                  |
 | `ContactCenter4All` | www.contactcenter4all.com |
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
-| `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
