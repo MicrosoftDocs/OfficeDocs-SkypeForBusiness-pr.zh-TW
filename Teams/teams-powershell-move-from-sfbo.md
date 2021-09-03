@@ -9,27 +9,24 @@ audience: admin
 ms.service: msteams
 ms.collection:
 - M365-collaboration
-description: 瞭解如何從線上連接器商務用 Skype到 powerShell 模組Teams以管理Teams。
+description: 瞭解如何從線上連接器商務用 Skype到 Teams PowerShell 模組來管理Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9dd03b414eba2ebc10dcfdbbb4e0ea2712fff73ca2cb0eb643aa132936ab1470
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cdd6460e6a17a15193104a0871a57fa6dbff8105
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299003"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866355"
 ---
 # <a name="migrating-from-skype-for-business-online-connector-to-the-teams-powershell-module"></a>從線上連接器商務用 Skype移Teams PowerShell 模組
 
-TeamsPowerShell 模組提供一組完整的 Cmdlet，Teams直接從 PowerShell 命令列管理資料。 系統管理員不需要Skype商務用 Online 連接器進行Teams管理。
+TeamsPowerShell 模組提供一組完整的 Cmdlet，Teams直接從 PowerShell 命令列管理資料。 系統管理員不需要Skype商務用 Online 連接器，Teams管理。
 
 > [!NOTE]
 > Teams已于 2021 年 3 月 16 (MC244740 郵件中心張貼公告通知系統管理員;MC250940 于 2021 年 4 月 16 日) 此變更。
 >
 > TeamsPowerShell 模組使用新式驗證，Windows遠端系統管理 (WinRM) 用戶端必須配置為允許基本驗證。 請參閱[下載並安裝Windows PowerShell，](/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-windows-powershell-5-1)以取得如何啟用 WinRM for Basic 驗證的指示。
-
-> [!WARNING]
-> 商務用 Skype線上連接器連線將于 2021 年 5 月 17 日拒絕。 如需移至 PowerShell 模組的協助和支援，Teams Microsoft 支援服務。
 
 ## <a name="how-to-migrate"></a>如何遷移
 
@@ -76,25 +73,11 @@ TeamsPowerShell 模組提供一組完整的 Cmdlet，Teams直接從 PowerShell �
          Disconnect-MicrosoftTeams
     ```
 
-## <a name="online-support"></a>線上支援
-
-線上啟動服務要求以節省時間。 我們會協助您尋找解決方案，或將您連至技術支援。
-
-1.  請前往 系統管理中心 [https://admin.microsoft.com](https://admin.microsoft.com) 。 如果您收到一則訊息，指出您沒有存取此頁面或執行此動作的許可權，表示您不是系統管理員。神秘擁有我企業中的系統管理員許可權？
-
-2.  選取需要 **協助** 嗎？按鈕。
-
-3.  在需要 **協助**？窗格，告訴我們您需要哪些協助，然後按 Enter。
-
-4.  如果結果沒有説明，請選取 連絡人 **支援**。
-
-5.  輸入問題的描述、確認您的連絡人號碼和電子郵件地址、選取您偏好的連絡人方法，然後選取 **連絡人給我**。 預期等候時間會以需要協助？窗 格。
-
 ## <a name="related-topics"></a>相關主題
 
 [在 PowerShell Microsoft Teams安裝](teams-powershell-install.md)
 
-[使用 powerShell Teams管理Teams管理](teams-powershell-managing-teams.md)
+[使用 powerShell Teams管理Teams](teams-powershell-managing-teams.md)
 
 [TeamsPowerShell 版本資訊](teams-powershell-release-notes.md)
 
