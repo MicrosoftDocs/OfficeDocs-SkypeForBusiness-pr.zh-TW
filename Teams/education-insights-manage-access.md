@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b69f885eee0b96b87b5f22d04abbd16d0389b904
+ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730682"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864193"
 ---
 # <a name="manage-user-access-to-education-insights"></a>管理 Education Insights 的使用者存取權
 
@@ -64,7 +64,7 @@ ms.locfileid: "58730682"
   
   :::image type="content" source="media/insights-role-based-permissions.png" alt-text="角色型權限。":::
   
-  如果角色具有多個組織層級，該角色會顯示多次，每個層級出現一次。 在螢幕擷取畫面中，我們同時有學校與行政區層級的安全性主體，因此 'principal' 有兩行。
+  如果角色具有多個組織層級，該角色會顯示多次，每個層級出現一次。 在螢幕擷取畫面中，我們在學校、學區和部門層級有主體，因此有三條線表示「主體」。
   
 * 針對每個角色，按一下鉛筆圖示以選取權限等級。 預設值為角色沒有查看 Insights 的權限。
 * 選取權限等級 - **檢視其組織的資料** 或 **無**。
