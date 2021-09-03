@@ -20,12 +20,12 @@ description: 在本文章中，您將瞭解在 Microsoft Teams 中設定即時�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4ff8f1ca2da0fee1f6d2e4b2418b8c66ab0d34bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8996c796d6ab5a2e98c636a115707e6bb2249c6e
+ms.sourcegitcommit: 65964d5079120c900abdba24c08d4cc18d2fde7a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590707"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "58883751"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -106,7 +106,7 @@ ms.locfileid: "58590707"
 > [!IMPORTANT]
 > **Microsoft 365 的即時活動限制增加**
 >
-> **為能持續支援客戶的需求，直到 2021 年 12 月 31 日，我們將延長即時活動的暫時性限制增加**：
+> **為了繼續支援客戶的需求，我們將延長即時活動的暫時限制增加，直到 2022年 1 月 31 日，包括**：
 >
 >- 活動支援最多達 20000 個出席者
 >- 不同租用戶可以同時進行 50 個活動
