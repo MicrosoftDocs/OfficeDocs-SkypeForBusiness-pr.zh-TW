@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b09b6c6e42fcdd150d5aa95ebd56c9eaec36e01c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ec523475d109c5658a3e30d679b2f06425e4ced8
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726662"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866405"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 中 Education Insights 的 IT 系統管理員指南
 
@@ -171,6 +171,8 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 
 ### <a name="licensing"></a>授權
 若要存取 Insights，使用者必須具備適用於 Microsoft 365 的 A1、A3 或 A5 教職員授權。
+
+*教育版 Insights Premium* 是付費的升級，為教育領導者提供教育版 Insights 資料的組織層級檢視，以及教育者對歷史資料檢視的擴充存取權。 合格的教育機構可以購買 *教育版 Insights Premium* 附加元件授權，方法是透過註冊教育版解決方案 (EES)、雲端服務提供者 (CSP) 和 Microsoft 365 系統管理中心 (Web 直接)。
 
 ## <a name="student-information-system-sis-integration"></a>學生資訊系統 (SIS) 整合
 送入 Insights 中的資料越多，授課者更能夠支援其學生，且教育領導者也更能夠支援授課者。
