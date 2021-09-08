@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4024ca2b061f6fb2db463b2eebf5951da2f19304
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4f88345045a24fc664458e3c67eb71243a663287
+ms.sourcegitcommit: 8ea133b6ac867496930efb933e84531e5617fb37
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620699"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "58924077"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -263,7 +263,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > 
 > 我們會提供此功能在未來如何執行的資訊，因此您可以事先規劃這項變更並修改 Teams 原則設定。 
 >
-> 用來先佔式變更 Teams 中 MeetingExpirationDays 設定的 CMD (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) 尚無法設定。  當設定可以供修改時，我們會發佈一則更新的訊息中心文章。
+> 尚無法設定 CMD 預先變更 Teams 中的 MeetingExpirationDays 設定。  當設定可以供修改時，我們會發佈一則更新的訊息中心文章。
 >
 >
 
@@ -309,7 +309,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 **系統管理員如何變更到期日?**
   
-在功能釋出前，系統管理員將可以在 PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) 或 Teams 系統管理中心變更預設的到期設定。 這項設定尚無法進行修改。 當設定可以進行修改時，我們會發佈更新的郵件中心文章。 當此功能啟動時，系統管理員可以在 Teams 系統管理中心變更此設定。 變更到期設定只會從該時間點起影響新建立之 TMR。 這不會影響該日期之前進行的任何錄製。 
+系統管理員可以在功能發行前變更 PowerShell 或 Teams 系統管理中心的預設到期設定。 這項設定尚無法進行修改。 當設定可以進行修改時，我們會發佈更新的郵件中心文章。 當此功能啟動時，系統管理員可以在 Teams 系統管理中心變更此設定。 變更到期設定只會從該時間點起影響新建立之 TMR。 這不會影響該日期之前進行的任何錄製。 
 
 到期日值可如以下方式設定：
   
@@ -320,7 +320,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 **系統管理員可以將 TMR 設定為永不過期嗎？**
   
- 是的，系統管理員可以透過下列 PowerShell Cmdlet 將 TMR 設定為永不過期：(Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays -1)
+ 是，系統管理員可以將 TMR 設為永不過期。
   
 **播放錄製內容會變更到期日嗎？**
 
@@ -332,17 +332,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 **如果複製或移動 TMR 到不同的位置或網站，會發生什麼情況？**
 
-僅有移動的 TMR 檔案會保留日期。 複製的檔案沒有到期日，就如同重新上傳的 TMR 一樣。
-  
-  PowerShell 命令範例： 
-  
-  ```powershell
-  Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays 50
-  ```
-  
-**系統管理原則的控制範圍是什麼？**
-  
-會議和通話都會由相同的 `CsTeamsMeetingPolicy`設定`MeetingRecordingExpirationDays`控制。 
+僅有移動的 TMR 檔案會保留日期。 複製的檔案沒有到期日，就如同重新上傳的 TMR 一樣。 
   
 **使用者如何修改特定 TMR 檔案的到期日？**
   
