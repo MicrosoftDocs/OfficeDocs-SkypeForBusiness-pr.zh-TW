@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 使用 Bookings 應用程式進行 Microsoft Teams 和虛擬會面
-ms.openlocfilehash: be3b4b60f7f4c3860d909757f2be6cdc75bc8491
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cf6154099db5b6c6b52b9d82b4e58cd6c00c07b3
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631417"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935859"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft Teams 和 Bookings 應用程式進行虛擬會面
 
@@ -97,6 +97,8 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 如需傳送意見，請按一下 Teams 左側瀏覽列底部附近的 **[說明]** 按鈕，然後針對 **[所有]** 問題按一下 **[回報問題]**。 請在您的意見反應報告開頭處標註，您傳送的是有關「Bookings」的意見，以便我們識別 Bookings 問題。
 
 ## <a name="related-topics"></a>相關主題
+
+[管理在行動瀏覽器上Teams虛擬流覽的加入體驗](expand-teams-across-your-org/mobile-browser-join.md)
 
 
   [適用於終端使用者的 Bookings 文件](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

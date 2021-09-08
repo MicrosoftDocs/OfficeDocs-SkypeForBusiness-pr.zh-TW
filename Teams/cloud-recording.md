@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f88345045a24fc664458e3c67eb71243a663287
-ms.sourcegitcommit: 8ea133b6ac867496930efb933e84531e5617fb37
+ms.openlocfilehash: 333afdd88313a34b7331617220fa335237a8fbbb
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "58924077"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935879"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -263,7 +263,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > 
 > 我們會提供此功能在未來如何執行的資訊，因此您可以事先規劃這項變更並修改 Teams 原則設定。 
 >
-> 尚無法設定 CMD 預先變更 Teams 中的 MeetingExpirationDays 設定。  當設定可以供修改時，我們會發佈一則更新的訊息中心文章。
+> 尚無法設定 CMD 預先變更 Teams 中的預設到期設定。  當設定可以供修改時，我們會發佈一則更新的訊息中心文章。
 >
 >
 

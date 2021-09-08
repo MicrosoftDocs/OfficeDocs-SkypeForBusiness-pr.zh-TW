@@ -21,24 +21,24 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: 56d08bff329a92b5bf8ac4086e9515522140fa9e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f4049c2b969906e149a2f1a6d7ea5249eb0ed2e9
+ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589737"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "58935829"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認證的裝置
 
 這些Microsoft Teams認證計畫可確保使用經過認證的電話機和會議電話的客戶，能體驗高品質的音訊通話和會議體驗。
 
-Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以滿足此較高層次的需求，並符合認證要求的裝置。 我們的部分合作夥伴也正在努力在電話商務用 Skype硬體上，為Teams服務提供支援。 來自認證Microsoft Teams裝置的好處包括：
+Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以符合此較高的列，且符合認證要求的裝置。 我們的部分合作夥伴也正在努力在電話商務用 Skype硬體上，為Teams服務提供支援。 來自認證Microsoft Teams裝置的好處包括：
 
 - 硬體Teams整合和 LED 通知的原生體驗
 - 日曆整合和一鍵式會議加入
 - 透過整合 Intune Teams系統管理中心部署及管理
 
-## <a name="currently-certified-teams-phones"></a>目前通過手機Teams認證
+## <a name="currently-certified-teams-phones"></a>目前已Teams手機
 
 下列裝置在電話認證計畫Microsoft Teams認證：
 
@@ -54,24 +54,19 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 | AudioCodes C450HD                      | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
 | 音訊代碼 C448HD (CAP 模式)       | C450HD_TEAMS_0.225                                       | 2019 年 3 月                   |
 | Cresron UC-2                          |1.0.1.46                                                  | 2020 年 7 月                    |
-| Cresron M100                          | 此產品已停用。 如要詳細資訊，請流覽[Crsron網站上Crsron M100。](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M100-T) | 已于 2020 (5/11)  |
-| Cresron Flex UC-P100-T & UC-P110-T    | 此產品已停用。 如要詳細資訊，請流覽[電話](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/UC-PHONE-T-PLUS)的 UC 連結。                  | 已于 2020 (5/11)  |
-| Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                                                                                                                                                                                                       | 2020 年 4 月                   |
-| Poly Trio C60， Trio C60 NR， Trio C60 ND | 5.9.3.6155                                                                                                                                                                                                                                 | 2020 年 4 月                   |
-| Poly CCX400                            | 1.0.0.0200                                                                                                                                                                                                                                 | 2020 年 1 月                 |
-| Poly CCX600                            | 5.9.12.1122                                                                                                                                                                                                                                | 2020 年 1 月                 |
-| Poly CCX500                            | 5.9.12.1122                                                                                                                                                                                                                                | 2019 年 12 月                |
-| Poly Trio 8500/8800 (共用模式)  | 5.9.0.10869                                                                                                                                                                                                                                | 2019 年 6 月                    |
+| Lenovo ThinkSmart View                 | CD-18781Y.200410.067                                     | 2020 年 4 月                   |
+| Poly Trio C60， Trio C60 NR， Trio C60 ND | 5.9.3.6155                                              | 2020 年 4 月                   |
+| Poly CCX400                            | 1.0.0.0200                                               | 2020 年 1 月                 |
+| Poly CCX600                            | 5.9.12.1122                                              | 2020 年 1 月                 |
+| Poly CCX500                            | 5.9.12.1122                                              | 2019 年 12 月                |                                                                                                                                                           
 | 支援 T56、T58、MP56、MP58、VP59 的 Yealink EXP50| 針對每個支援的裝置型號，請參閱更新#7版本 | 2021 年 1 月 |
 | Yealink MP58 | 122.15.0.27| 2020 年 12 月 |
 | Yealink MP54 | 122.15.0.27| 2020 年 11 月 |
 | Yealink MP56 | 122.15.0.6 | 2020 年 3 月    |
 | Yealink VP59 | 91.15.0.16 | 2019 年 6 月     |
 | Yealink T55  | 58.15.0.36 | 2019 年 5 月      |
-| Yealink CP 960| 73.15.0.20 | 2018 年 12 月|
-| Yealink T58 & T56 系列 | 58.15.0.20 | 2018 年 12 月 |
 
-## <a name="currently-certified-teams-rooms-on-android"></a>目前 Android Teams 會議室認證
+## <a name="currently-certified-teams-rooms-on-android"></a>目前通過 Android Teams 會議室認證
 
 下列裝置在 Android 認證計畫Microsoft Teams 會議室認證：
 
@@ -127,7 +122,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以判斷應用程式、公司入口網站和系統管理代理程式對應的Microsoft Teams版本。 在包含的產品發行欄中尋找產品版本，然後在前述 **的 App** 版本資料表中尋找產品版本。
+當您在裝置上安裝新的固件版本時，您可以判斷應用程式、公司入口網站和系統管理代理Microsoft Teams安裝的版本。 在包含的產品發行欄中尋找產品版本，然後在前述 **的 App** 版本資料表中尋找產品版本。
 
 | 裝置模型        | 固件版本     | 已包含產品發行  |
 |:--------------------|:---------------------|:-------------------------|
@@ -181,7 +176,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。  然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行 |
 |:--------------|:-----------------|:-------------------------|
@@ -210,7 +205,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 ### <a name="product-release-information-for-teams-displays"></a>顯示器的產品Teams資訊
 
-以下是顯示 app 和Microsoft Teams版本的最新版本。
+以下是顯示應用程式與Microsoft Teams的最新版本。
 
 #### <a name="app-versions"></a>應用程式版本
 
@@ -222,7 +217,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。  然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行|
 |:--------------|:-----------------|:-------------------------|
@@ -241,7 +236,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。  然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行|
 |:--------------|:-----------------|:-------------------------|
@@ -256,7 +251,7 @@ Microsoft Teams認證計畫可確保品質較高的資料條具有更高的績�
 
 請參閱 [尋找行動裝置上的固件版本](phones-for-teams.md) ，以判斷行動裝置上的裝置固件版本。
 
-Microsoft Teams授權可以在訂閱或訂閱中[Microsoft 365 Office 365購買](/office365/servicedescriptions/teams-service-description)。 若要深入瞭解在手機上使用Microsoft Teams所需的授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft Teams授權可以購買為訂閱或訂閱[Microsoft 365 Office 365的一部分](/office365/servicedescriptions/teams-service-description)。 若要深入瞭解在手機上使用手機Microsoft Teams授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
 
 若要進一Teams，請參閱如何[存取Microsoft Teams？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
@@ -264,4 +259,4 @@ Microsoft Teams授權可以在訂閱或訂閱中[Microsoft 365 Office 365購買]
 
 [探索Microsoft Teams手機和認證裝置。](https://products.office.com/microsoft-teams/across-devices/devices)
 
-[Teams Skype互通性](../teams-skype-interop.md)
+[Teams和Skype互通性](../teams-skype-interop.md)
