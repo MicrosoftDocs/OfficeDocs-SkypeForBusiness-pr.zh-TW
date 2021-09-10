@@ -18,13 +18,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
-description: 瞭解如何在會議中管理會議Teams，並使用這些設定來控制提供給會議參與者的功能，供使用者排程的會議使用。
-ms.openlocfilehash: f471d9513995a13eb32eaacd118cd2f3874cda7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 瞭解如何在會議中管理會議Teams，並使用這些設定來控制會議參與者可針對使用者排程的會議使用的功能。
+ms.openlocfilehash: dc2a57daccd9f252abe912892f0475a38859007f
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627335"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973041"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>管理會議Microsoft Teams
 
@@ -96,16 +96,16 @@ ms.locfileid: "58627335"
 
 ## <a name="meeting-policy-settings"></a>會議原則設定
 
-當您在會議政策頁面上選取現有策略或選取新增以新增策略時，您可以設定下列設定。
+當您在會議政策頁面上選取現有的策略或 **選取新增以** 新增策略時，您可以設定下列設定。
 
 - [一般](meeting-policies-in-teams-general.md)
 - [音訊與視訊](meeting-policies-audio-and-video.md)
+- [錄製&文字](meetings-policies-recording-and-transcription.md)
 - [內容共用](meeting-policies-content-sharing.md)
 - [參與者與來賓](meeting-policies-participants-and-guests.md)
-
 
 ## <a name="related-topics"></a>相關主題
 
 - [Teams PowerShell 概觀](teams-powershell-overview.md)
-- [將原則指派給 Teams 中的使用者](assign-policies.md)
+- [將原則指派給 Teams 中的使用者](policy-assignment-overview.md)
 - [從使用者移除 RestrictedAnonymousAccess Teams 會議原則](meeting-policies-restricted-anonymous-access.md)

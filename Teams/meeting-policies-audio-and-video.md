@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 瞭解如何在音訊和視Teams中管理會議策略設定。
-ms.openlocfilehash: 4f8de802fd2ddf90555a34ac0b8d66d2d7021f79
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9b7c2fd2ac98237383b8aaa1dff8fa764c6df2be
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726562"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973031"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音訊和視&設定
 
@@ -33,40 +33,12 @@ ms.locfileid: "58726562"
 
 本文將說明音訊和視音訊特有的會議策略設定。 這些包括下列專案：
 
-- [允許轉錄](#allow-transcription)
-- [允許雲端錄製](#allow-cloud-recording)
 - [IP 音訊的模式](#mode-for-ip-audio)
 - [IP 視訊的模式](#mode-for-ip-video)
 - [允許 IP 視訊](#allow-ip-video)
 - [媒體位元速率 (KB)](#media-bit-rate-kbs)
 - [視像篩選模式](#video-filters-mode)
 - [允許自訂背景設定](#allow-custom-background-settings)
-
-### <a name="allow-transcription"></a>允許轉錄
-
-這是每個召集人和每個使用者策略的組合。 此設定可控制在播放會議錄製內容期間是否提供字幕和謄寫功能。 如果您關閉此功能，則 [**錄製**] 和 [**CC**] 選項在播放會議錄製內容期間無法使用。 開始錄製的人員需要開啟此設定，讓錄製也包含謄寫。
-
-請注意，錄製的會議目前僅支援將語言設定為英文Teams以及會議中使用英文時的使用者。
-
-### <a name="allow-cloud-recording"></a>允許雲端錄製
-
-這是每個召集人和每個使用者策略的組合。 此設定可控制是否可以錄製此使用者的會議。 如果參與者已開啟策略設定，且他們是來自同一個組織的已驗證使用者，會議召集人或其他會議參與者可以開始錄製。
-
-組織外部人員 (例如，同盟和匿名使用者) 無法開始錄製。 來賓使用者無法開始或停止錄製。
-
-![顯示錄製選項的螢幕擷取畫面。](media/meeting-policies-recording.png)
-
-讓我們看看下列範例。
-
-|使用者 |會議原則  |允許雲端錄製 |
-|---------|---------|---------|
-|Daniela | 全域   | 關閉 |
-|Amanda | Location1MeetingPolicy | 開啟|
-|John (外部使用者) | 不適用 | 不適用|
-
-無法錄製由 Daniela 組織的會議，且已啟用策略設定的 Amanda 無法錄製由 Daniela 組織的會議。 不過，您可以錄製由 Amanda 組織的會議，但已停用策略設定且 John 是外部使用者的 Daniela 無法錄製由 Amanda 組織的會議。
-
-若要深入了解雲端會議錄製，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。
 
 ### <a name="mode-for-ip-audio"></a>IP 音訊的模式
 
@@ -77,7 +49,7 @@ ms.locfileid: "58726562"
 |**已啟用傳出和傳入音訊**    |會議中允許傳出和傳入音訊。這是預設設定。 |
 |**已停用**     |會議中已關閉傳出和傳入音訊。     |
 
-如果使用者設為 **已** 停用，該使用者仍然可以排程和組織會議，但他們無法使用音訊。 若要加入會議，他們必須透過公用交換電話網路 (PSTN) 或透過電話加入會議。 未獲指派任何原則的會議參與者 (例如匿名參與者)，預設會將此設定為 [已啟用傳出和傳入音訊 **]**。 在 Teams 行動用戶端上，如果已停用此設定，使用者必須透過 PSTN 撥入會議。
+如果使用者設為 **已** 停用，該使用者仍然可以排程和組織會議，但他們無法使用音訊。 若要加入會議，他們必須透過公用交換電話網路 (PSTN) ，或透過電話加入會議。 未獲指派任何原則的會議參與者 (例如匿名參與者)，預設會將此設定為 [已啟用傳出和傳入音訊 **]**。 在 Teams 行動用戶端上，如果已停用此設定，使用者必須透過 PSTN 撥入會議。
 
 此設定不適用一對一通話。 若要限制一對一通話，請設定 Teams [通話原則 []](teams-calling-policy.md) 並關閉 [撥打私人通話 **]** 設定。 此設定也不適用會議室裝置，例如 Surface Hub 和 Microsoft Teams 會議室裝置。
 
@@ -116,7 +88,7 @@ ms.locfileid: "58726562"
 
 | Teams 桌面和 Web 用戶端 |Teams 行動用戶端  |
 |:-------:|:-------:|
-|![螢幕擷取畫面顯示桌面使用音訊/視像設定加入會議。](media/meeting-policies-audio-video-settings.png)    |![螢幕擷取畫面顯示在行動裝置上加入會議與音訊/視訊設定](media/meeting-policies-mobile-join.png)          |
+|![螢幕擷取畫面顯示在電腦上使用音訊/視訊設定加入會議。](media/meeting-policies-audio-video-settings.png)    |![螢幕擷取畫面顯示在行動裝置上加入會議與音訊/視訊設定](media/meeting-policies-mobile-join.png)          |
 
 讓我們看看下列範例。
 
@@ -228,4 +200,4 @@ ms.locfileid: "58726562"
 ## <a name="related-topics"></a>相關主題
 
 - [Teams PowerShell 概觀](teams-powershell-overview.md)
-- [將原則指派給 Teams 中的使用者](assign-policies.md)
+- [將原則指派給 Teams 中的使用者](policy-assignment-overview.md)

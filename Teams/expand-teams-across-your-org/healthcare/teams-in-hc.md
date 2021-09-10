@@ -26,12 +26,12 @@ description: 瞭解 Microsoft Teams 遠距健康、電子健康記錄 (EHR) 整�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: bfa67a90a2d6938d6bc2db9d65833c03450b6172
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0fa0976c4e69f205feda03a4047a6bbcb26b1183
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730672"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972901"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Teams
 
@@ -63,14 +63,14 @@ Microsoft Teams 提供許多對醫院和其他健康照護組織實用的遠距�
 | [Teams 範本](#teams-templates-for-healthcare-organizations) | 建立團隊，其中包括預先定義設定和頻道範本及預先安裝的應用程式，以適用於在病房、Pod 或部門間或院內的多個病房、Pod 和各部門間的通訊和共同作業。 | 使用者必須擁有適當的授權*。  |
 | [協調照護與共同作業](#care-coordination-and-collaboration) | 臨床醫生和教職員可以內部協作排程、文件和工作等等。| 使用者必須擁有適當的授權*。 |
 
-*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5、商務標準版。 如需一般 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](../../user-access.md)。
+*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5，支援商務標準。 如需一般 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](../../user-access.md)。
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>虛擬看診與電子健康記錄 (EHR) 整合
 
 使用 Microsoft Teams 中的完整會議平臺進行排程、管理及與病患的虛擬看診。
 
 - 如果貴組織已經使用電子健康記錄或 EHR，您可以整合 Microsoft Teams 以獲得更順暢的體驗。 Microsoft Teams 電子健康記錄 (EHR) 連接器讓臨床醫生可以直接從 EHR 系統，在 Teams 中啟動虛擬病患就診或諮詢。 若要深入瞭解，請參閱 [Teams 的虛擬看診 - 整合至 EHR](ehr-admin.md)。
-- 如果您未使用受支援的 EHR，您可以使用 Microsoft Bookings 和 Teams 中的 Bookings 應用程式。 若要深入瞭解，請參閱 [Microsoft Teams 中的 Bookings 應用程式和虛擬看診](../../bookings-app-admin.md)。
+- 如果您未使用受支援的 EHR，您可以使用 Microsoft Bookings 和 Teams 中的 Bookings 應用程式。 若要深入瞭解，請參閱使用 Teams[和 Bookings 應用程式進行虛擬訪問](../bookings-virtual-visits.md)。
 
 ![使用虛擬Microsoft Teams。](../../media/virtual-visits-teams.png)
 
