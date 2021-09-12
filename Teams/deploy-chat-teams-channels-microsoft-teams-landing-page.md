@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: e7ebfeea83a34bec241c5de29f8d8445410a97d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19296d5def314bdd54af25c27401a9bbd0972cf2
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617449"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973011"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -93,7 +93,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 
 ### <a name="external-access"></a>外部存取
 
-外部存取 (之前稱為同盟) 可讓您的 Teams 和商務用 Skype 使用者與組織外部的使用者通訊。藉由將此功能開啟並將網域新增到允許清單，您的使用者即能夠與其他網域和組織中的使用者通訊。外部存取與來賓存取的不同在於，整個網域都會獲授與存取權限，而非個人。外部存取依預設為關閉。
+外部存取 (之前稱為同盟) 可讓您的 Teams 和商務用 Skype 使用者與組織外部的使用者通訊。藉由將此功能開啟並將網域新增到允許清單，您的使用者即能夠與其他網域和組織中的使用者通訊。外部存取與來賓存取的不同在於，整個網域都會獲授與存取權限，而非個人。外部存取依預設為開啟。
 
 |問問自己|動作 |
 |------------|-------|
@@ -102,7 +102,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 
 ### <a name="guest-access"></a>來賓存取
 
-Teams 中的來賓存取可讓組織外部的人員存取 Teams 和頻道。您可以使用來賓存取設定來控制來賓使用者可以或不能使用的功能。來賓存取依預設為關閉。若要深入了解，請參閱 [Teams 中的來賓存取](./guest-access.md)。
+Teams 中的來賓存取可讓組織外部的個人存取團隊和頻道。 您可使用來賓存取設定來控制來賓可否使用的功能。 來賓存取依預設為開啟。 若要深入了解，請參閱 [Teams 中的來賓存取](./guest-access.md)。
 
 > [!NOTE]
 > 若要深入了解外部存取和來賓存取，請參閱這裡 - [在 Microsoft Teams 中與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)。
