@@ -1,7 +1,7 @@
 ---
-title: 在系統管理中心管理Microsoft Teams應用程式
-author: cichur
-ms.author: v-cichur
+title: 在系統管理中心Microsoft Teams您的應用程式
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,27 +13,38 @@ ms.reviewer: vaibhava
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.manageapps.overview
-description: 瞭解如何在系統管理中心的 Teams 管理應用程式頁面管理Microsoft Teams應用程式
+description: 瞭解如何在系統管理中心的 Teams 管理應用程式頁面管理Microsoft Teams應用程式。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 2541f23342613b585622577b3c5ebe2d3a8c97c0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 76b647e5c01d45eac3e634ccbc7e929eccd3dfba
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728642"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432665"
 ---
-# <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在系統管理中心管理Microsoft Teams應用程式
+# <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在系統管理中心Microsoft Teams您的應用程式
 
-系統管理員的系統管理中心Microsoft Teams管理應用程式頁面，就是您查看及管理組織Teams應用程式的地方。 在這裡，您可以查看應用程式的組織層級狀態和屬性、核准或上傳新的自訂應用程式至貴組織的 App Store、封鎖或允許組織層級的應用程式、新增應用程式至團隊、購買協力廠商應用程式的服務、查看應用程式要求的許可權、授予 App 系統管理員同意，以及管理整個組織的 App 設定。
+做為系統管理員，您可以為貴組織Teams和管理所有應用程式。 您可以在系統管理中心的 Teams管理應用程式頁面：
+
+- [允許或封鎖組織層級的應用程式](#allow-and-block-apps)
+- [發行者封鎖的應用程式](#apps-blocked-by-publishers)
+- [新增應用程式至團隊](#add-an-app-to-a-team)
+- [核准或上傳新的自訂應用程式至貴組織的 App Store](#publish-a-custom-app-to-your-organizations-app-store)
+- [查看應用程式要求的許可權](#view-resource-specific-consent-permissions)
+- [授予應用程式同意](#grant-admin-consent-to-apps)
+- [協力廠商應用程式的購買服務](#purchase-services-for-third-party-apps)
+- [查看應用程式組織層級狀態和屬性](#view-apps)
+- [管理全組織的應用程式設定](#manage-org-wide-app-settings)
+- [查看認證應用程式的安全性Microsoft 365資訊](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
 
 管理應用程式頁面提供您所有可用 App 的視圖，為您提供決定要允許或封鎖整個組織之應用程式所需的資訊。 然後，您可以使用 [應用程式權限原則](teams-app-permission-policies.md)、 [應用程式設定](teams-app-setup-policies.md)策略，以及 [自訂應用程式策略和](teams-custom-app-policies-and-settings.md) 設定，為貴組織的特定使用者設定應用程式體驗。
 
 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。 您必須是全域系統管理員或Teams系統管理員才能存取頁面。
 
 > [!NOTE]
-> Microsoft 365 政府社群雲端 GCCH (或美國) DoD (DoD) 尚未提供管理應用程式頁面Teams。
+> Microsoft 365 政府社群雲端 GCCH (或美國) DoD (DoD) 中尚未提供 Teams。
 
 ## <a name="view-apps"></a>查看應用程式
 
@@ -45,16 +56,17 @@ ms.locfileid: "58728642"
 
   ![應用程式詳細資料頁面的螢幕擷取畫面。](media/manage-apps-app-details.png)
   
-- **認證**：如果應用程式已經通過認證，則會看到已認證 **Microsoft 365或Publisher****認證**。 選取連結以查看應用程式的認證詳細資料。 如果您看到 **--** 「」，我們並沒有應用程式的認證資訊。 若要深入瞭解應用程式中的認證應用程式Teams，請參閱[Microsoft 365認證計畫](/teams-app-certification/all-apps)。  
+- **認證**：如果應用程式已經通過認證，則會看到已認證 **Microsoft 365或Publisher****認證**。 選取連結以查看應用程式的認證詳細資料。 如果您看到 **--** 「」，我們並沒有應用程式的認證資訊。 若要深入瞭解應用程式中的認證Teams，請參閱[Microsoft 365認證計畫](/teams-app-certification/all-apps)。  
 - **Publisher**：發行者的名稱。
 - **發佈狀態**：自訂應用程式的發佈狀態。
 - **狀態**：組織層級的應用程式狀態，可以是下列其中一項：
-- **允許**：此應用程式可供貴組織的所有使用者使用。
-- **已封鎖**：應用程式已封鎖，且不適用於貴組織的任何使用者。
-- **封鎖整個組織**：應用程式會封鎖在全組織的應用程式設定中。
+    - **允許**：此應用程式可供貴組織的所有使用者使用。
+    - **已封鎖**：應用程式已封鎖，且不適用於貴組織的任何使用者。
+    - **由發行者封鎖**：App 會由發行者封鎖，且預設會向使用者隱藏。 使用發行者指引設定應用程式之後，您可以允許或封鎖應用程式，讓使用者能夠使用該應用程式。
+    - **封鎖整個組織**：應用程式會封鎖在全組織的應用程式設定中。
       請注意，此欄代表之前位於全 **組織** 設定窗格中之應用程式的允許和封鎖狀態。 現在，您可以在管理應用程式頁面的全組織範圍內，查看、封鎖及 **允許應用程式** 。
 - **授權**：指出應用程式是否提供軟體即服務 (SaaS) 訂閱以購買。 此欄僅適用于協力廠商應用程式。 每個協力廠商應用程式都會有下列其中一個值：
-- **現在購買**：應用程式提供 SaaS 訂閱，可供購買。  
+- **購買**：應用程式提供 SaaS 訂閱，可供購買。  
 - **已** 購買：應用程式提供 SaaS 訂閱，而且您已購買其授權。
 - **- -**：應用程式不會提供 SaaS 訂閱。
 - **自訂應用程式**：應用程式是否為自訂應用程式。
@@ -71,20 +83,20 @@ ms.locfileid: "58728642"
 
 使用管理應用程式頁面來發佈專為貴組織打造的應用程式。 發佈自訂應用程式之後，組織 App Store 中的使用者可以使用它。 有兩種方法可以發佈自訂應用程式至貴組織的 App Store。 使用方式取決於您取得應用程式的方式。
 
-- [核准自訂應用程式](#approve-a-custom-app)：如果開發人員使用應用程式提交 API 將應用程式直接提交到管理應用程式頁面，Teams使用此方法。 然後，您可以直接從應用程式 (頁面) 或拒絕應用程式。
+- [核准自訂應用程式](#approve-a-custom-app)：如果開發人員使用應用程式提交 API 將應用程式直接提交到管理應用程式Teams使用此方法。 然後，您可以直接從應用程式詳細 () 或拒絕應用程式。
 - [Upload應用程式套件](#upload-an-app-package)：如果開發人員以新的格式傳送應用程式套件，.zip方法。 您可以上傳應用程式套件來發佈應用程式。
 
 ### <a name="approve-a-custom-app"></a>核准自訂應用程式
 
 當 **開發人員使用** 應用程式提交 API 提交應用程式時，在管理應用程式頁面上的擱置核准小工具Teams通知您。 新提交的應用程式會列出已提交之發佈狀態和封鎖 **狀態**。  請前往應用程式詳細資料頁面以查看應用程式的詳細資訊，然後發佈，將發佈 **狀態設定** 為 **發佈**。
 
-當開發人員提交更新至自訂應用程式時，您也會收到通知。 然後，您可以在應用程式詳細資料頁面上 (或拒絕) 或拒絕更新。 對於更新的應用程式，所有應用程式權限原則與應用程式設定策略仍然強制執行。
+當開發人員提交更新至自訂應用程式時，您也會收到通知。 然後，您可以在應用程式詳細資料頁面上 (或拒絕) 更新。 對於更新的應用程式，所有應用程式權限原則與應用程式設定策略仍然強制執行。
 
 若要深入瞭解，請參閱發佈透過應用程式提交 API Teams[提交的自訂應用程式](submit-approve-custom-apps.md)。
 
 ### <a name="upload-an-app-package"></a>Upload應用程式套件
 
-開發人員使用 App Studio Teams[應用程式套件](/microsoftteams/platform/get-started/get-started-app-studio)，Teams應用程式套件，然後以 .zip格式傳送。 當您有應用程式套件時，您可以將它上傳到組織的 App Store。
+開發人員使用 App [Studio](/microsoftteams/platform/get-started/get-started-app-studio)Teams應用程式套件，Teams應用程式套件，然後以.zip格式傳送。 當您有應用程式套件時，您可以將它上傳到組織的 App Store。
 
 若要上傳新的自訂應用程式，請選取 **Upload** 上傳應用程式套件。 應用程式上傳後不會顯示，因此您必須在管理應用程式頁面上搜尋應用程式清單，以尋找它。
 
@@ -94,14 +106,22 @@ ms.locfileid: "58728642"
 
 ## <a name="allow-and-block-apps"></a>允許並封鎖應用程式
 
-您可以在組織層級允許或封鎖個別 App 的管理應用程式頁面。 它會顯示每個可用的應用程式及其目前的組織層級應用程式狀態。  (封鎖及允許組織層級的應用程式，已從全 **組織** 應用程式設定窗格移至這裡。) 
+您可以在組織層級允許或封鎖個別 App 的管理應用程式頁面。 它會顯示每個可用的應用程式及其目前的組織層級應用程式狀態。  (組織層級的封鎖和允許應用程式，已從整個組織的應用程式設定窗格移至這裡。) 
 
-若要允許或封鎖應用程式，請選取它，然後選取允許或 **封鎖**。 當您封鎖應用程式時，與該應用程式的所有互動會停用，且應用程式不會顯示在貴Teams的使用者的應用程式中。
+若要允許或封鎖應用程式，請選取它，然後選取允許或 **封鎖**。 當您封鎖應用程式時，與該應用程式的所有互動會停用，且應用程式不會顯示在貴組織Teams的使用者的應用程式中。
 
 當您封鎖或允許管理應用程式頁面上的應用程式時，該應用程式會封鎖或允許貴組織的所有使用者使用。  當您在應用程式許可權Teams中封鎖或允許應用程式時，系統會封鎖或允許指派該策略的使用者使用。 若要讓使用者能夠安裝任何應用程式並與其互動，您必須在組織層級允許應用程式位於管理應用程式頁面，並允許在指派給使用者的應用程式許可權政策中。
 
  > [!NOTE]
  > 若要卸載應用程式，請以滑鼠右鍵按一下應用程式，然後按一下 [**卸載** 或使用左側的 [更多應用程式> 功能表。
+
+## <a name="apps-blocked-by-publishers"></a>發行者封鎖的應用程式
+
+當 ISV 將應用程式發佈至全域 App Store 時，他們可能需要系統管理員來設定或自訂應用程式體驗。 當應用程式完全設定完成時，管理員可以將應用程式提供給使用者。
+
+例如，Contoso 電子業是一種 ISV，專為 Microsoft Teams。 Contoso 電子業希望其客戶設定應用程式的某些屬性，讓使用者與 App 互動時，應用程式會如預期一樣發揮功能。 系統管理員允許或封鎖應用程式之前，應用程式在系統管理中心會顯示為Teams封鎖，且預設會向使用者隱藏。 遵循發行者指引來設定應用程式之後，您可以將應用程式變更為狀態為允許，或將狀態變更為已封鎖，以封鎖使用者使用 **應用程式**。
+
+![Teams 系統管理中心中由發行者狀態封鎖的螢幕擷取畫面。](media/blocked-by-publisher.png)
 
 ## <a name="add-an-app-to-a-team"></a>新增應用程式至小組
 
@@ -134,7 +154,7 @@ ms.locfileid: "58728642"
 使用全組織 App 設定來控制使用者是否可以安裝協力廠商應用程式，以及使用者是否可以上傳或與組織中的自訂應用程式互動。 全組織應用程式設定會控管所有使用者的行為，並覆寫指派給使用者的任何其他應用程式權限原則。 您可以使用這些原則來控制惡意或有問題的應用程式。
 
 > [!NOTE]
-> 若要瞭解如何在 Microsoft 365 政府 - 政府社群雲端 高 GCCH 和國防部 (DoD) Teams 部署中使用全組織應用程式設定，請參閱管理 Teams 中的[應用程式許可權政策](teams-app-permission-policies.md)。
+> 若要瞭解如何在 Microsoft 365 政府 - 政府社群雲端 高 GCCH 和國防部 (DoD) ) Teams 部署中使用全組織應用程式設定，請參閱管理 Teams 中的[應用程式許可權](teams-app-permission-policies.md)政策。
 
 1. 在管理應用程式頁面上，選取 **整個組織的應用程式設定**。 然後您就可以在面板中設定您要的設定。
 
@@ -157,7 +177,7 @@ ms.locfileid: "58728642"
 
 ## <a name="view-security-and-compliance-information-for-microsoft-365-certified-apps"></a>查看認證應用程式的安全性Microsoft 365資訊
 
-當評估其組織的應用程式時，系統管理員可以使用獨立的雲端存取安全性代理程式 (CASB) ，例如 Microsoft Cloud App Security (MCAS) ，來尋找應用程式的安全性和行為相關資訊。 系統Teams系統管理中心包含 MCAS 針對 Microsoft 365 認證應用程式的安全性與合規性資訊，因此您將擁有 App 是否符合您需求之詳細資訊。
+當評估其組織的應用程式時，系統管理員可以使用獨立的雲端存取安全性代理程式 (CASB) ，例如 Microsoft Cloud App Security (MCAS) ，以尋找 App 安全性和行為的資訊。 系統Teams系統管理中心包含 MCAS 針對 Microsoft 365 認證應用程式的安全性與合規性資訊，因此您將擁有 App 是否符合您需求之詳細資訊。
 
 > [!NOTE]
 > 不論貴組織是否有支援 MCAS 的授權，所有系統管理員都可以使用這項功能。
@@ -169,7 +189,7 @@ ms.locfileid: "58728642"
 1. 選擇一Microsoft 365認證應用程式。
 1. 選取安全性 **與合規性選項卡** 。
 
-![系統管理Teams安全性與合規性選項卡的螢幕擷取畫面。](media/mcas.png)
+![系統管理Teams安全性與合規性的螢幕擷取畫面。](media/mcas.png)
 
 您可以在此選項卡上找到安全性、合規性和資料保護的資訊。 您也可以展開每個下拉清單，以取得所選應用程式支援哪些功能的詳細資訊。
 

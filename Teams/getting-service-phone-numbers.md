@@ -1,5 +1,5 @@
 ---
-title: 取得服務電話號碼
+title: 取得通話方案的服務電話號碼
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,17 +21,19 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: 瞭解如何取得新電話號碼，以及移轉或移轉音訊會議、自動語音機和通話佇列的現有號碼， (服務) 號碼Teams。
-ms.openlocfilehash: fb0025796ad9bbb91c5172cf2cb551de6ecf619b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 瞭解如何取得新電話號碼，以及移轉或移轉音訊會議、自動語音電話和通話佇列的現有號碼， (電話) 電話號碼Teams。
+ms.openlocfilehash: 6a065c5661fc4b0a716d2aab31687e20645473fb
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732912"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432495"
 ---
-# <a name="getting-service-phone-numbers"></a>取得服務電話號碼
+# <a name="srvice-phone-numbers-for-calling-plans"></a>通話方案 Srvice 電話號碼
 
-除了取得使用者[](./getting-phone-numbers-for-your-users.md)的電話號碼之外，您還可以取得電話或免付費電話號碼等服務，例如會議橋接器) 的音訊會議 (、自動語音機和通話佇列 (也稱為服務號碼) 。 服務電話號碼的並行通話容量高於使用者或訂閱者電話號碼。 例如，服務號碼可以同時處理數百個通話，而使用者的電話號碼只能同時處理幾個通話。
+**注意：這似乎與通話方案有關。我應該在通話方案節點下移動嗎？**
+
+除了為使用者[](./getting-phone-numbers-for-your-users.md)取得電話號碼之外，您還可以取得電話或免付費電話號碼服務，例如會議橋接器) 的音訊會議 (、自動語音電話和通話佇列 (也稱為服務號碼) 。 服務電話號碼的並行通話容量高於使用者或訂閱者電話號碼。 例如，服務號碼可以同時處理數百個通話，而使用者的電話號碼只能同時處理幾個通話。
   
 > [!NOTE]
 > 您首先必須設定通訊信用額度，才能取得免付費號碼。 若要深入瞭解，請參閱 [為貴組織設定通訊信用額度](./set-up-communications-credits-for-your-organization.md)。
@@ -49,37 +51,39 @@ ms.locfileid: "58732912"
   
 ## <a name="get-new-service-numbers"></a>取得新的服務編號
 
-![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+若要取得新的服務號碼，請Teams系統管理中心：
 
 1. 在左側流覽中，前往 **[語音** 電話  >  **數位**，然後按一下 [**新增**。
+
 2. 輸入訂單名稱並新增描述。
+
 3. 在位置和數量頁面上，執行下列操作：
-    1. 在 **國家/地區** 下，選取某個國家/地區。
-    1. 在 **數位類型** 下，選取您想要的服務號碼類型。
-    1. 在 **位置下**，選取位置。 如果您需要建立新位置，請按一下 [ **新增位置>**。
-    1. 在 **區碼下**，選取區碼。 
-    2. 在 **[數量**」 下，輸入貴組織想要的數位數，然後按一下 **[下** 一步> 以選取您的數位。
+    - 在 **國家/地區** 下，選取某個國家/地區。
+    - 在 **數位類型** 下，選取您想要的服務號碼類型。
+    - 在 **位置下**，選取位置。 如果您需要建立新位置，請按一下 [ **新增位置>**。
+    - 在 **區碼下**，選取區碼。 
+    - 在 **[數量**」 下，輸入貴組織想要的數位數，然後按一下 **[下** 一步> 以選取您的數位。
+
 4. 選取您想要的數位。 您還有 10 分鐘的時間來選取電話號碼並下訂單。 如果您超過 10 分鐘，電話號碼會回到號碼庫。
+
 5. 當您準備好要下單時，請按一下 [ **下單>**。
 
 ## <a name="port-or-transfer-existing-service-numbers"></a>移轉或移轉現有的服務號碼
 
-若要將電話號碼從目前的服務提供者或電信Teams，您可以使用系統管理中心中的移轉Microsoft Teams精靈。 請遵循將電話號碼[轉接至 Teams。](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+若要將您目前服務提供者或電信公司的電話號碼Teams，您可以使用系統管理中心中的移轉Microsoft Teams精靈。 請遵循將電話號碼[轉接到 Teams。](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
 
-如果您的國家/地區未列在埠精靈中，您可以手動提交埠訂單，或[](phone-number-calling-plans/manually-submit-port-order.md)前往管理貴組織的電話號碼、選取您的國家[](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)/地區，然後下載授權書 (LOA) 。 您必須針對每種服務號碼類型提交個別的移轉訂單 (例如，使用 LOA 傳輸的付費與免付費) 。 在 LOA 中，您必須選取正確的服務編號類型。 請確定您指定要傳輸的服務號碼 (而非使用者或訂閱者號碼) ，或並行通話容量可能不足以處理通話量。  
+如果您的國家/地區未列在移植精靈中，您可以手動提交埠訂單，或[](phone-number-calling-plans/manually-submit-port-order.md)前往管理貴組織的電話號碼、選取您的國家[](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)/地區，然後下載授權書 (LOA) 。 您必須針對每種服務號碼類型提交個別的移轉訂單 (例如，使用 LOA 傳輸的付費與免付費) 。 在 LOA 中，您必須選取正確的服務編號類型。 請確定您指定要傳輸的服務號碼 (而非使用者或訂閱者號碼) ，或並行通話容量可能不足以處理通話量。  
 
 > [!NOTE]
 > 如果您需要取得更多電話號碼，請 [連上 PSTN 服務台](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>查看貴組織的電話號碼
 
-![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心** 
-
-在左側流覽中，前往語音電話，以查看貴組織的數位，包括位置、  >  號碼類型和狀態資訊。
+在 Teams系統管理中心左側的流覽中，前往語音電話號碼，以查看貴組織的數位，包括位置、號碼類型和狀態  >  資訊。
 
 ## <a name="assign-service-phone-numbers"></a>指派服務電話號碼
 
-取得服務號碼之後，將每個號碼指派給音訊會議橋接器。 請參閱 [變更音訊會議](./change-the-phone-numbers-on-your-audio-conferencing-bridge.md)橋接器上的付費或免付費號碼。
+取得服務號碼後，將每個號碼指派給音訊會議橋接器。 請參閱 [變更音訊會議](./change-the-phone-numbers-on-your-audio-conferencing-bridge.md)橋接器上的付費或免付費號碼。
 
 ## <a name="related-topics"></a>相關主題
 

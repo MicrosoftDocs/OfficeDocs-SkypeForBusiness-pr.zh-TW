@@ -1,7 +1,7 @@
 ---
-title: 在 Microsoft Teams
-author: cichur
-ms.author: v-cichur
+title: 管理頻道Microsoft Teams
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -23,19 +23,19 @@ ms.custom:
 - ms.teamsadmincenter.teamsandchannelpolicies.overview
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
-description: 瞭解如何在組織中使用及管理團隊策略，以控制使用者在團隊和頻道中可以執行哪些工作。
-ms.openlocfilehash: 92b49a31a4ae8cdedb9243293547c42699fed919
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 瞭解如何在組織中使用及管理團隊通道策略，以控制使用者在團隊和頻道中可以執行的工作。
+ms.openlocfilehash: 727bb8b133d5119cd396c79561dde453281206f0
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725492"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432265"
 ---
-# <a name="manage-teams-policies-in-microsoft-teams"></a>在 Microsoft Teams
+# <a name="manage-channel-policies-in-microsoft-teams"></a>管理頻道Microsoft Teams
 
-做為系統管理員，您可以使用團隊Microsoft Teams以控制貴組織中使用者可以在團隊和頻道中執行哪些工作。 例如，您可以設定是否允許使用者建立私人頻道。
+做為系統管理員，您可以使用團隊Microsoft Teams控制貴組織的使用者可以在團隊和頻道中執行哪些工作。 例如，您可以設定是否允許使用者建立私人頻道。
 
-您可以在系統管理中心 **Teams Teams**  >  **管理Microsoft Teams** 團隊策略。 您可以使用全域 (全組織預設值) 原則，或建立並指派自訂原則。 除非您建立並指派自訂原則，否則組織中的使用者將會自動取得全域原則。
+您可以在系統管理中心Teams Teams ****  >  **管理Microsoft Teams** 團隊策略。 您可以使用全域 (全組織預設值) 原則，或建立並指派自訂原則。 除非您建立並指派自訂原則，否則組織中的使用者將會自動取得全域原則。
 
 您可以編輯全域原則，或建立及指派自訂策略。 編輯全域原則或指派策略後，可能需要數小時的時間，變更才能生效。
 

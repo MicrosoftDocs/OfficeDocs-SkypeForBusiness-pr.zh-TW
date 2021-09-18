@@ -22,18 +22,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中尋找音訊會議可用的電話撥入式Microsoft Teams。
-ms.openlocfilehash: ccf10c9ce1a7869f271b781a9f772bffb00934d7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a65db16f0472c9d743d956baf18f7f1d20028837
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58734012"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432255"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在清單中查看音訊會議號碼Microsoft Teams
 
 當您為使用者設定音訊會議Microsoft Teams，您可以查看他們可用於音訊會議的電話號碼。 此清單會包含貴組織可用的所有音訊會議電話號碼。
   
- **想要尋找價格嗎？** 請參閱 [音訊會議的價格](https://products.office.com/skype-for-business/audio-conferencing#Requirements)。
+ **想要尋找價格嗎？** 在 **音訊會議中查看音訊會議** 費率 [區段](https://www.microsoft.com/microsoft-teams/audio-conferencing)。
   
 如果貴組織只有一個可用的電話號碼，它會做為所有使用者的預設號碼。 當有多個電話號碼可用時，您可以選取每個使用者的預設電話號碼。 此預設號碼會包含在會議邀請Microsoft Teams中。
   
@@ -44,7 +44,7 @@ ms.locfileid: "58734012"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>若要查看您的音訊會議電話號碼
 
-![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+![顯示 Microsoft Teams 標誌的圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。 
 2. 查看音訊會議可用的電話號碼。
@@ -53,13 +53,13 @@ ms.locfileid: "58734012"
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
 
-Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365，使用單一系統管理點，在有多個任務需要執行時簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
   - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-如要進一Windows PowerShell，請參閱[powerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams以瞭解更多資訊。
+有關此Windows PowerShell，請參閱Microsoft Teams [PowerShell 參考](/powershell/module/teams/?view=teams-ps)以瞭解更多資訊。
   
 ## <a name="related-topics"></a>相關主題
 

@@ -1,5 +1,5 @@
 ---
-title: 用於通話方案的電話號碼類型
+title: 用於通話的電話號碼Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,17 +21,19 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
-description: 在本文中，您將瞭解通話方案Microsoft Teams電話號碼類型。
-ms.openlocfilehash: a565ee1cffd9943ee419907c97ef333b9485451d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 在本文中，您將瞭解您Microsoft Teams電話號碼類型。
+ms.openlocfilehash: 0aa75c9052e269d6e45054cdf5b6cf73042c55ac
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619509"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432645"
 ---
-# <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>用於通話方案的各種電話號碼
+# <a name="types-of-phone-numbers"></a>電話號碼類型
 
-Microsoft Teams根據您要使用電話號碼的用途，使用不同的電話號碼類型。 Teams **使用者號碼**，可指派給貴組織的使用者，以及指派給音訊會議、自動語音服務或通話佇列等服務的服務號碼。 服務電話號碼的並行 *通話容量高於*  使用者號碼。 服務電話號碼可供使用，但會依國家/地區及號碼類型 (無論是付費或免付費號碼) 。 如果您需要其他號碼或其他號碼類型，但系統管理中心Microsoft Teams號碼類型，您可以提交電話號碼要求給[PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)服務台協助。
+Microsoft Teams根據您要使用電話號碼的用途，使用不同的電話號碼類型。 
+
+Teams **使用使用者** 號碼，可指派給使用者貴組織的使用者，以及指派給音訊會議、自動語音服務或通話佇列等服務的服務號碼。 服務電話號碼的並行 *通話容量高於*  使用者號碼。 服務電話號碼可供使用，但會依國家/地區及號碼類型 (無論是付費或免付費號碼) 。 如果您需要其他號碼類型或其他號碼類型，Microsoft Teams系統管理中心看到的數位類型，您可以提交電話號碼要求給[PSTN 服務台](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
   
 - **使用者編號**
     
@@ -61,9 +63,7 @@ Microsoft Teams根據您要使用電話號碼的用途，使用不同的電話�
 
 ## <a name="related-topics"></a>相關主題
 
-[移轉電話號碼的常見問題](./phone-number-calling-plans/port-order-overview.md)
-
-[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+[管理貴組織的電話號碼](manage-phone-numbers-landing-page.md)
 
 [緊急通話條款及條件](emergency-calling-terms-and-conditions.md)
 

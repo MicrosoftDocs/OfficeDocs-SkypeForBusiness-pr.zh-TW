@@ -1,7 +1,7 @@
 ---
 title: 搜尋使用者的電話號碼
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark, oscarr
 ms.topic: article
@@ -21,62 +21,59 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何根據國家/地區及城市搜尋可指派給使用者的電話號碼，並指定您需要的電話號碼數量。
-ms.openlocfilehash: 31815ff2877cc487f090600560fe9203c840fe58
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fc7edf9c31f0b934bb2e1dea2fb44437b8092c59
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733562"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432245"
 ---
-# <a name="search-for-phone-numbers-for-users"></a>搜尋使用者的電話號碼
+# <a name="search-for-telephone-numbers-for-users"></a>搜尋使用者的電話號碼
 
-當您在組織中設定使用者撥打 **和接聽** 電話時，您必須使用 Microsoft Teams 系統管理中心，並先取得可指派給使用者的電話號碼。 您指派給使用者的電話號碼，就是您為貴組織選擇的電話號碼，當您編輯使用者屬性並按一下 [指派」 時，就會列在下拉式 **清單中。**
+當您設定貴組織中使用者使用 Microsoft 提供的電話號碼撥打和接聽電話時，您必須先使用 **Microsoft Teams** 系統管理中心，並取得要指派給使用者的電話號碼。 您指派給使用者的電話號碼，就是您先前為貴組織取得的電話號碼;當您編輯使用者的屬性並按一下 [指派時，數位會列在下拉式 **清單中。**
   
-在您可以指派電話號碼給使用者之前，您必須使用取得新號碼頁面來搜尋區域中可用的號碼。 您可以 **根據國家/** 地區、號碼類型 **及位置** 進行搜尋，然後輸入使用者所需的電話號碼數目。 
-  
-如果您需要取得電話號碼的一些協助，請參閱管理貴組織的電話號碼[](/microsoftteams/manage-phone-numbers-for-your-organization)或聯絡商務產品支援人員[- 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
-  
-## <a name="search-for-phone-numbers"></a>搜尋電話號碼
+在您可以將 Microsoft 提供的電話號碼指派給使用者之前，您必須使用取得新號碼頁面來搜尋可用的電話號碼。 您可以根據國家/**地區 (** 市場) 、**號碼類型** 及位置進行搜尋，然後輸入使用者所需的電話號碼數量。頁面會自動根據您仍然可以取得的數量來限制數量。 
 
-**為使用者搜尋電話號碼**
+您取得和管理電話號碼方式會根據您的 PSTN 連接選項而不同：Microsoft 通話方案、連線或直接路由。 
 
-![顯示標誌圖示Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+本文僅適用于 Microsoft 通話方案。 有關所有選項的詳細資訊，請參閱 [管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-landing-page)。
+
+
+  
+## <a name="search-for-telephone-numbers"></a>搜尋電話號碼
+
+若要搜尋使用者的電話號碼： 
   
 1. 請前往 Microsoft Teams **系統管理中心**。
 
-2. 在左側流覽中選取 **語音**  >  **電話**  >  **號碼 取得新號碼**。
+2. 在左側流覽中選取 **語音**  >  **電話**  >  **號碼取得新號碼**。
   
     > [!IMPORTANT]
-    > 若要在 Microsoft Teams系統管理中心左側流覽中查看語音選項，您必須先購買至少一個 **Enterprise E5** 授權、一個 **電話系統** 附加元件授權或一個音訊會議附加元件授權。   
+    > 若要在 Microsoft Teams系統管理中心左側流覽中查看語音選項，您必須先購買至少一個 **Enterprise E5** 授權、一個 **電話系統** 附加元件授權，或一個音訊會議附加元件授權。   
 
-3. 在選取 **位置和數量** 頁面上，從國家/地區下拉式清單中選取位置。
+3. 在選取 **位置和數量** 頁面上，從國家/地區與市場 (下拉式) 中選取位置。
 
-4. 從數位類型下拉式 **清單中選取數位** 類型。
+4. 從 **數位****類型下** 拉式清單中選取使用者。
 
-5. 在位置 **方塊** 中，輸入使用者所在的城市名稱，然後從清單中選取位置。 如果 **您想要的位置** 未出現在清單中，請按一下 [新增位置。
+5. 視您 (國家/地區) ，您現在可以使用不同的選項來尋找您要求的電話號碼。  
 
-6. 選取位置的區碼。
-
-7. 在 **[數量**」 下，輸入貴組織想要的電話號碼數目，然後按一下 [下 **一步**。 您還有 10 分鐘的時間來選取電話號碼。 如果您花的時間超過 10 分鐘，號碼會回到電話號碼的集中。
+6. 在 **[數量**」 下，輸入貴組織想要的電話號碼數目，然後按一下 [下 **一步**。 您還有 10 分鐘的時間來選取電話號碼。 如果您花的時間超過 10 分鐘，號碼會回到電話號碼的集中。
 
     > [!NOTE]
-    > 您可以根據授權數量來查看可用的電話號碼 (數量旁邊所列的授權) 號碼 **。** 
+    > 您可以根據授權數量來查看可用的電話號碼 (數量旁所列的授權數目) **號碼。** 
   
 8. 在 [ **取得號碼>** 頁面上，選取您想要的電話號碼，按一下 [ **取得號碼**，然後按一下 [下 **一步**。
 
     > [!IMPORTANT]
-    > 您可以取得比您擁有授權更多的電話號碼。 若要決定您可以取得的電話號碼數目，請取得授權數目、新增授權數的 10%，然後新增 10 個。 例如，如果您有 100 個國內通話方案及/或國際通話方案授權，您可以保留 120 個電話號碼，假設您尚未為這 100 個使用者取得一些電話號碼。 有關詳細資料，請參閱您可以 [取得多少電話號碼？](./how-many-phone-numbers-can-you-get.md)
+    > 您可以取得比您擁有 Microsoft 授權更多的電話號碼。 若要決定您可以取得的電話號碼數目，請取得 Microsoft 通話方案授權數量，新增 10% 的授權數量，然後新增 10 個，然後移除您已獲得的號碼。 例如，如果您有 100 個 **Microsot** 國內通話方案及/或 Microsoft **國際** 通話方案授權，您可以保留 120 個電話號碼，假設您尚未為這 100 個使用者取得一些電話號碼。 有關詳細資料，請參閱 [您可以取得多少電話號碼？](./how-many-phone-numbers-can-you-get.md)
 
 9. 在 [**確認」** 頁面上，確認您的選擇，然後按一下 **[下單。**
 
-10. 當您回到 [電話號碼頁面時，選取要指派的電話號碼或號碼，然後按一下 [編輯以將其指派給使用者。   
+10. 當您返回 [電話頁時，選取要指派的電話號碼或號碼，然後按一下 [編輯以指派給使用者。   
 
 ## <a name="related-topics"></a>相關主題
-[移轉電話號碼的常見問題](./phone-number-calling-plans/port-order-overview.md)
 
-[用於通話方案的各種電話號碼](./different-kinds-of-phone-numbers-used-for-calling-plans.md)
-
-[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)
+[管理貴組織的電話號碼](manage-phone-numbers-landing-page.md)
 
 [緊急通話條款及條件](./emergency-calling-terms-and-conditions.md)
 
