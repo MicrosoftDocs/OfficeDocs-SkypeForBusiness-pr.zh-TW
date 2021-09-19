@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些工作階段邊界控制器 (SBC) 已通過直接路由認證。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8d3476b5ae1049e207f07d064ca1548e53fd3635
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c2214b13eacbb58d3c8b3fff3b544afcba009b6
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609010"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432655"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器
 
@@ -49,13 +49,14 @@ Microsoft 可與每個廠商合作，以：
 
 |                                                       廠商                                                        |       產品       | 非媒體旁路 | 媒體旁路 | 軟體版本 | 支援 911 服務提供者* | 支援 ELIN |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  支援 7.20A.250 (建議 7.20A.258)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  支援 7.20A.250 (建議 7.20A.258)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  支援 7.20A.250 (建議 7.20A.258)   |   &#10004;   |  &#10004;  |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  支援 7.20A.250 (建議 7.20A.258)   |  &#10004;   |  &#10004;  |
-|                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   待處理     |  支援 7.20A.250 (建議 7.20A.258)  |  &#10004;   |  &#10004;  |
-|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  支援 7.20A.250 (建議 7.20A.258)   | &#10004;     |  &#10004;  |
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  支援 7.20A.250 (建議 7.20A.258) |  &#10004;    |  &#10004;  |
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  支援 7.40A.100 (建議 7.40A.100)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  支援 7.40A.100 (建議 7.40A.100)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  支援 7.40A.100 (建議 7.40A.100)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  支援 7.40A.100 (建議 7.40A.100)   |  &#10004;   |  &#10004;  |
+|                                                                                                                     | Mediant 1000B  SBC  |     &#10004;     |   &#10004;     |  支援 7.20A.250 (建議 7.20A.258)  |  &#10004;   |  &#10004;  |
+|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  支援 7.40A.100 (建議 7.40A.100)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  支援 7.40A.100 (建議 7.40A.100) |  &#10004;    |  &#10004;  |   
+|                                                                                                                     | Mediant Cloud Edition SBC  |     &#10004;     |   &#10004;     |  支援 7.40A.100 (建議 7.40A.100) |  &#10004;    |  &#10004;  |
 |  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       支援 8.2 和 7.2 (建議 9.2)       | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       支援 8.2 和 7.2 (建議 9.2)       |   &#10004; |    |
 |                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       支援 8.2 和 7.2 (建議 9.2)       |   &#10004;  | |
@@ -102,6 +103,8 @@ Microsoft 可與每個廠商合作，以：
 - [頻寬動態位置路由](https://www.bandwidth.com/partners/microsoft-teams-direct-routing/)
 - [Intrado 緊急路由服務 (ERS)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
 - [Intrado 緊急閘道 (EGW)](https://www.west.com/safety-services/enterprise-e911-solutions/microsoft-teams-e911-solutions/)
+- [Inteliquent](https://www.inteliquent.com/services/emergency-services/e911)
+
 <br/>
 
 ## <a name="support-for-local-media-optimization"></a>支援本機媒體最佳化

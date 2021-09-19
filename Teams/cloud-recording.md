@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1e8bc4836cab206389fcc011e4d7a41d2b54f74
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: 22d57e349d22deb6d40227ba15d73a7958bad894
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973061"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432435"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -309,13 +309,13 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 **系統管理員如何變更到期日?**
   
-系統管理員可以在功能發行前變更 PowerShell 或 Teams 系統管理中心的預設到期設定。 這項設定尚無法進行修改。 當設定可以進行修改時，我們會發佈更新的郵件中心文章。 當此功能啟動時，系統管理員可以在 Teams 系統管理中心變更此設定。 變更到期設定只會從該時間點起影響新建立之 TMR。 這不會影響該日期之前進行的任何錄製。
+在功能釋出前，系統管理員將可以在 PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) 或 Teams 系統管理中心變更預設的到期設定。 **這項設定尚無法進行修改**。 當設定可以進行修改時，我們將會發佈更新的郵件中心文章。 當此功能啟動時，系統管理員可以在 Teams 系統管理中心變更此設定。 變更到期設定只會從該時間點起影響新建立之 TMR。 這不會影響該日期之前進行的任何錄製。 
 
 到期日值可如以下方式設定：
   
-- 值可以是從 1 到 99,999 天 (最大值為 273 年)。
-- 值也可以是 -1，將 TMR 設為永不過期。
-
+- 值可以是從 1 到 9,999。
+- 值也可以是 -1，將 TMR 設為永不過期。 
+ 
 在此功能釋出之前，系統管理員無法變更已上傳至 OneDrive 或 SharePoint 的現有 TMR 到期日。 這可保護擁有 TMR 的使用者意圖。
   
 **系統管理員可以將 TMR 設定為永不過期嗎？**
@@ -333,6 +333,11 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 **如果複製或移動 TMR 到不同的位置或網站，會發生什麼情況？**
 
 僅有移動的 TMR 檔案會保留日期。 複製的檔案沒有到期日，就如同重新上傳的 TMR 一樣。
+  
+
+**系統管理原則的控制範圍是什麼？**
+  
+會議和通話都會由相同的 `CsTeamsMeetingPolicy`設定`MeetingRecordingExpirationDays`控制。 
   
 **使用者如何修改特定 TMR 檔案的到期日？**
   
@@ -369,7 +374,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
   
 **這項功能需要哪些 SKUs ?**
   
-根據預設，所有 SKU 都會有此功能。A1 使用者將預設為 30 天到期，且無法修改到期日
+根據預設，所有 SKU 都會有此功能。A1 使用者將預設為 30 天到期。
   
 **檔案到期是已稽核事件，我可以在稽核記錄中看見它嗎？**
   

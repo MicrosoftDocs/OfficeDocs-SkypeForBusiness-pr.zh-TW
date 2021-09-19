@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: 從 Slack 移轉到 Microsoft Teams 的完全指引。
-ms.openlocfilehash: 6877c0daf7d2d86924eefe989b458c671c37f628
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 508224759ccfe741a4d7c6810a3edb4748f9cfa7
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731602"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432635"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>從 Slack 移轉到 Microsoft Teams
 
@@ -55,7 +55,7 @@ ms.locfileid: "58731602"
 ### <a name="assess-your-slack-workspaces"></a>評估您的 Slack 工作區
 在可規劃組織的移轉方案之前，您必須先集結一些與 Slack 工作區相關的資訊。 了解您 Slack 工作區的使用方式將幫助您決定移轉的範圍。 例如，要移轉多少工作區？ 是由某個特定部門、許多部門，還是由整個組織使用？
 
-如果您屬於打算移轉之 Slack 工作區的成員之一，您可以前往 *<your Slack workspace>.slack.com/stats* 來自行分析使用方式。查看 [頻道] 和 [成員] 索引標籤以尋找使用模式。 決定要移轉何種工作區 (以及要留下哪些工作區)。 
+如果您屬於打算移轉之 Slack 工作區的成員之一，您可以前往 *\<your Slack workspace\>.slack.com/stats* 來自行分析使用方式。查看 [頻道] 和 [成員] 索引標籤以尋找使用模式。 決定要移轉何種工作區 (以及要留下哪些工作區)。 
 
 > [!NOTE]
 > 如果您沒有統計資料頁面的存取權，您就不是系統管理員或擁有者。 
@@ -64,7 +64,7 @@ ms.locfileid: "58731602"
 
 在 Slack 中，使用者會加入屬於 Slack 工作區的頻道，然而 Teams 使用者則是加入頻道集合的團隊。 我們建議您使用 Slack 分析，查看每個頻道發生活動的次數，以幫助您決定要移轉的頻道。 您將使用結果清單找出如何將 Slack 頻道分組至 Teams 中的團隊，以及每個團隊應具有的成員。
 
-如果您有付費的 Slack 服務方案 (除了免費以外)，您可以使用 Slack 分析 (<your Slack workspace>.slack.com/admin/stats#channels) 來查看頻道的使用程度、上次使用時間和成員人數。 這可協助您決定是否要移轉頻道。 根據預設，可以匯出公用頻道內容(訊息與檔案)。 根據您的 Slack 服務方案，以及您是否已從 Slack 要求私人頻道和從直接訊息，這些都可以匯出。
+如果您有付費的 Slack 服務方案 (除了免費以外)，您可以使用 Slack 分析 (\<your Slack workspace\>.slack.com/admin/stats#channels) 來查看頻道的使用程度、上次使用時間和成員人數。 這可協助您決定是否要移轉頻道。 根據預設，可以匯出公用頻道內容(訊息與檔案)。 根據您的 Slack 服務方案，以及您是否已從 Slack 要求私人頻道和從直接訊息，這些都可以匯出。
 
 若要深入了解 Slack 的匯出選項，請移至 Slack 網站：https://get.slack.help/hc/articles/204897248-Guide-to-Slack-import-and-export-tools 
 
@@ -80,14 +80,14 @@ ms.locfileid: "58731602"
 
 Slack 中的應用程式就如同 Teams 中的應用程式。當您在工作區中擁有應用程式及其設定清單後，您可以在 Teams 應用程式市集中搜尋，以查看它們是否可於 Teams 中使用*。 
 
-前往 <your Slack workspace>.slack.com/apps/manage 以取得應用程式和自訂整合清單。 此頁面也會顯示每個應用程式使用中的設定數量。 自訂整合按照「移轉能力」而有所不同。 如果是 Web Hook，您通常可以將其傳送到 Microsoft 365 或 Office 365 連接器，以將工作流程轉換至 Teams。 視情況評估 Bot 和其他應用程式，以規劃將其移至 Teams。
+前往 \<your Slack workspace\>.slack.com/apps/manage 以取得應用程式和自訂整合清單。 此頁面也會顯示每個應用程式使用中的設定數量。 自訂整合按照「移轉能力」而有所不同。 如果是 Web Hook，您通常可以將其傳送到 Microsoft 365 或 Office 365 連接器，以將工作流程轉換至 Teams。 視情況評估 Bot 和其他應用程式，以規劃將其移至 Teams。
 
 \* 如果您的系統管理員已限制應用程式使用，您可能不會看到可用應用程式的完整清單。
 
 ### <a name="users"></a>使用者
 您在 Slack 中使用的身分識別模式，可能不會直接對應到 Microsoft 365 或 Office 365。 例如，您的 Slack 使用者電子郵件地址可能不會對應到 Microsoft 365 或 Office 365 的公司或學校帳戶。 開始規劃 Teams 推出前，您應先建立使用者識別碼對應。
 
-如果您使用付費的 Slack 服務方案，您可以移至 *<your Slack workspace>.slack.com/admin/stats#members* 以取得成員詳細資料，例如每位使用者的電子郵件地址和帳戶類型 (如單一與多頻道來賓)。
+如果您使用付費的 Slack 服務方案，您可以移至 *\<your Slack workspace\>.slack.com/admin/stats#members* 以取得成員詳細資料，例如每位使用者的電子郵件地址和帳戶類型 (如單一與多頻道來賓)。
 
 以下是您可以用來比較來自 Slack 匯出和 Azure AD 電子郵件地址的指令碼，以協助解決名稱模稜兩可的情形。 如果啟用 Teams 時也會報告。 如果您需要 PowerShell 的說明，請參閱[開始使用 Azure PowerShell](/powershell/azure/get-started-azureps)。
 
@@ -181,7 +181,7 @@ Write-Host "`n $(Get-Timestamp) Generated SlackToAzureADIdentityMapping.csv. Exi
 Slack 工作區可以代表單一團隊、多個團隊或整個組織。 當您決定結構時，了解工作區的範圍至關重要。 與 Slack 中 Teams 團隊最接近的關係是工作區，而其中包含頻道集合。 下列圖表證明 3 種不同的 Slack 到 Teams 的對應，以及為每個工作區挑選正確對應的指引。
 
 
-|Slack 到 Teams 的對應 |  |
+|Slack 到 Teams 的對應 | 描述 |
 |---------|---------|
 |1 個 Slack 工作區：箭號_右側：1 個團隊   | 針對需要少於 200 個頻道的較小型 Slack 工作區<br>包含成長和私人頻道規劃的緩衝區  |
 |1 個 Slack 工作區：箭號_右側：多個團隊     | 使用您的 Slack 工作區分析資料來建立邏輯頻道群組，其會成為成為您團隊的基礎。        |
@@ -193,7 +193,7 @@ Slack 工作區可以代表單一團隊、多個團隊或整個組織。 當您�
 > 僅保留方法中所必須的項目，以決定要在 Teams 中重新建立哪些頻道。 若要深入了解，請參閱[團隊和頻道概觀](teams-channels-overview.md)。 
 
 #### <a name="team-planning"></a>團隊規劃
-使用您在上述 [規劃] 章節中所編譯的 [頻道庫存]，與您的 Slack 擁有者和系統管理員合作，以找出哪些頻道應成為團隊，以及哪些頻道應成為團隊中的頻道。 使用 Excel 或 PowerBI 來協助本次分析 - 兩種都可以提供額外的深入資訊，以幫助推動有關保留哪些頻道的討論。
+使用您在上述 [規劃] 章節中所編譯的 [頻道庫存]，與您的 Slack 擁有者和系統管理員合作，以找出哪些頻道應成為團隊，以及哪些頻道應成為團隊中的頻道。 使用 Excel 或 Power BI 來協助本次分析 - 兩種都可以提供額外的深入資訊，以幫助推動有關保留哪些頻道的討論。
 
 > [!TIP]
 > Teams 目前有每個團隊 200 個頻道的限制。如果您的頻道清單正接近該限制，請找出將其分割成兩個個別團隊的方法。

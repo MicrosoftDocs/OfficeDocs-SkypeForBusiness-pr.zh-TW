@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理會議原則設定。 使用原則設定來控制可供使用者排程的會議的會議參與者使用的功能。
-ms.openlocfilehash: 4809fab0976eda2b109620f2a2716ccb10e80318
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 92df4086252eb27c47615daafad0179f4c505d95
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728418"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432315"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在 Teams 中管理會議原則
 
@@ -547,7 +547,7 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 - 將參數設定為 **TeamsAndSfB**，以在 Outlook 中同時啟用 Teams 會議附加元件和商務用 Skype 附加元件。 這是預設值。
 - 將參數設定為 **Teams** 以僅在 Outlook 中啟用 Teams 會議附加元件。 此原則設定可確保所有未來的會議都有 Teams 會議加入連結。 它不會將現有的商務用 Skype 會議加入連結移轉至 Teams。 此原則設定不會影響商務用 Skype 中的目前狀態、聊天、PSTN 通話或其他任何功能，這表示使用者將繼續對這些功能使用商務用 Skype。
 
-  如果您將參數設定為 **Teams**，然後切換回 **TeamsAndSfB**，則會同時啟用這兩個會議附加元件。 現有的 Teams 會議加入連結 **無法** 移轉至商務用 Skype。 只有變更後排程的商務用 Skype 會議會擁有商務用 Skype 會議加入連結。
+如果您將參數設定為 **Teams**，然後切換回 **TeamsAndSfB**，則會同時啟用這兩個會議附加元件。 現有的 Teams 會議加入連結 **無法** 移轉至商務用 Skype。 只有變更後排程的商務用 Skype 會議會擁有商務用 Skype 會議加入連結。
 
 ## <a name="meeting-policy-settings---video-filters-mode"></a>會議原則設定 - 視訊篩選模式
 
@@ -581,3 +581,4 @@ AllowMeetingReactions 設定只能使用 PowerShell 來套用。 沒有選項可
 - [Teams PowerShell 概觀](teams-powershell-overview.md)
 - [將原則指派給 Teams 中的使用者](assign-policies.md)
 - [從使用者移除 RestrictedAnonymousAccess Teams 會議原則](meeting-policies-restricted-anonymous-access.md)
+- [在 Microsoft Teams 中設定網路研討會](set-up-webinars.md)
