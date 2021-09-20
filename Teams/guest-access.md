@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 中的來賓存取可將團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。
-ms.openlocfilehash: 83ad01ef738cc8e68d0cfdf41ea082493eb7c7b1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa14fc3a59d893b152f96d31a20c46119f8a71f9
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603392"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456333"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的來賓存取
 
@@ -53,7 +53,7 @@ Teams 中的來賓存取需要設定 Microsoft 365 中的其他設定，包括�
 - 若要為 Teams 設定一般使用的來賓存取，請參閱 [在小組中與來賓共同作業](/microsoft-365/solutions/collaborate-as-team)。
 - 若要與合作夥伴組織共同作業，使用 Azure Active Directory 並允許來賓自行註冊以取得小組存取，請參閱 [使用受管理來賓建立 B2B 外部網路](/microsoft-365/solutions/b2b-extranet)。
 
-Teams 的來賓存取是一項全組織設定，預設為關閉。 您可以透過使用 [敏感性標籤](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)，控制來賓對個別 Teams 的存取。
+Teams 的來賓存取是一項全組織設定，預設為開啟。 您可以透過使用 [敏感性標籤](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)，控制來賓對個別 Teams 的存取。
 
 ### <a name="turning-guest-access-off"></a>關閉來賓存取
 

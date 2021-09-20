@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5975bfc6f0e93580ebdee3ce7f564efa9c380d99
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c33ad827e5d2674f9ecf15b3229979e4bd46ad71
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729952"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456383"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>取得 Microsoft Teams 用戶端
 
@@ -61,7 +61,7 @@ IT 系統管理員可以選擇其偏好的方式，將安裝檔案發佈到組�
 適用於 Windows 的 Microsoft Teams 安裝會提供 32 位元和 64 位元架構的可下載安裝程式。
 
 > [!NOTE]
-> Microsoft Teams 的架構 (32 位元和 64 位元) 並不受限於已安裝的 Windows 和 Office 架構。
+> Microsoft Teams 的架構 (32 位元和 64 位元) 並不受限於已安裝的 Windows 和 Office 架構。 我們建議您在 64 位元系統上使用 64 位元版本的 Microsoft Teams。
 
 Windows 用戶端會部署至使用者設定檔中的 [AppData] 資料夾。 部署至使用者的本機設定檔中，即可在不需要提高權限的情況下安裝用戶端。 Windows 用戶端會利用下列位置：
 

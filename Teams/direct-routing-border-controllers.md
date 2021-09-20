@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些工作階段邊界控制器 (SBC) 已通過直接路由認證。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c2214b13eacbb58d3c8b3fff3b544afcba009b6
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: b02bd27f15b6db4fed2835513d043c7f6561a681
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432655"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456533"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器
 
@@ -75,11 +75,11 @@ Microsoft 可與每個廠商合作，以：
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |   &#10004;   |  &#10004;  |
 |                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      支援 3.20 (建議 4.0)        |  &#10004;    |  &#10004;   |
 |                     [Metaswitch](https://www.metaswitch.com/products/core-network/perimeta-sbc)                               |     Perimeta SBC        |     &#10004;   | &#10004; |      4.7 (4.9 用於媒體旁路)      | &#10004; | &#10004; |  
-|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     適用於 1000 系列整合式服務路由器的 Cisco Unified Border Element (CUBE)        |     &#10004;   | &#10004; |      支援 IOS XE Amsterdam 17.2.1r (建議 17.3.2)         |    &#10004;     |   |  
-|                                   |     適用於 4000 系列整合式服務路由器的 Cisco Unified Border Element (CUBE)        |     &#10004;   | &#10004; |   支援 IOS XE Amsterdam 17.2.1r (建議 17.3.2)         |   &#10004;      |    |  
-|                                   |     適用於 1000V 系列雲端服務路由器的 Cisco Unified Border Element (CUBE)       |     &#10004;   | &#10004; |      支援 IOS XE Amsterdam 17.2.1r (建議 17.3.2)         |    &#10004;     |    |  
-|                                 |     適用於 1000 系列彙總服務路由器的 Cisco Unified Border Element (CUBE)      |     &#10004;   | &#10004; |      支援 IOS XE Amsterdam 17.2.1r (建議 17.3.2)         |    &#10004;     |    |
-|                                 |     適用於 Catalyst 8000 邊緣平台的 Cisco Unified Border Element (CUBE)      |     &#10004;   | &#10004; |      IOS XE Amsterdam 17.3.2      |    &#10004;     |    |
+|                     [Cisco](https://www.cisco.com/c/en/us/solutions/enterprise/interoperability-portal/networking_solutions_products_genericcontent0900aecd805bd13d.html)                               |     適用於 1000 系列整合式服務路由器的 Cisco Unified Border Element (CUBE)        |     &#10004;   | &#10004; |      支援 IOS XE Amsterdam 17.2.1r (建議 17.6.1a)         |    &#10004;     |   |  
+|                                   |     適用於 4000 系列整合式服務路由器的 Cisco Unified Border Element (CUBE)        |     &#10004;   | &#10004; |   支援 IOS XE Amsterdam 17.2.1r (建議 17.6.1a)         |   &#10004;      |    |  
+|                                   |     適用於 1000V 系列雲端服務路由器的 Cisco Unified Border Element (CUBE)       |     &#10004;   | &#10004; |      支援 IOS XE Amsterdam 17.2.1r (建議 17.3.3)         |    &#10004;     |    |  
+|                                 |     適用於 1000 系列彙總服務路由器的 Cisco Unified Border Element (CUBE)      |     &#10004;   | &#10004; |      支援 IOS XE Amsterdam 17.2.1r (建議 17.6.1a)         |    &#10004;     |    |
+|                                 |     適用於 Catalyst 8000 邊緣平台的 Cisco Unified Border Element (CUBE)      |     &#10004;   | &#10004; |      支援 IOS XE Amsterdam 17.3.2 (建議 17.6.1a)      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise ( ASBCE)    |     &#10004;     |       &#10004;     |       8.1.1 版 (8.1.2 用於媒體旁路)      |     |    |
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia 工作階段邊界控制器    |     &#10004;     |           |       19.5 (1908)       |     |    |
 |                     |    Nokia 工作階段邊界控制器    |     &#10004;     |           |       20.8       |      &#10004;        |    |

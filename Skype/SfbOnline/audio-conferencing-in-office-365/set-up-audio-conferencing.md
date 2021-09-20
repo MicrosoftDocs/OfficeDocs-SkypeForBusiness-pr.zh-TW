@@ -23,18 +23,18 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: '瞭解如何為企業中需要使用電話加入電話會議的人員設定撥入或音訊會議。 '
-ms.openlocfilehash: d38adf5e1f5d363cb04aa9eb43109ca2ed394a65
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 55edb015df6e0faf77eb644246677f637b7bace7
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725972"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456553"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>設定音訊會議商務用 Skype
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-貴組織內的人員有時會需要透過電話來加入會議。 商務用 Skype音訊會議功能， 使用者可以使用電話商務用 Skype會議，而不是在行動裝置商務用 Skype或 PC 上使用 商務用 Skype應用程式。 
+貴組織內的人員有時會需要透過電話來加入會議。 商務用 Skype音訊會議功能， 人員可以使用電話商務用 Skype會議，而不是在行動裝置商務用 Skype或 PC 上使用 商務用 Skype應用程式。 
   
 您只需要為打算排程或主持會議的人員設定音訊會議即可。 撥入的會議出席者不需獲得任何指派的授權或進行其他設定。
   
@@ -56,17 +56,17 @@ ms.locfileid: "58725972"
     
 3. 我們也建議您將通訊點數授權 (不需付費) 指派給您在在上一個步驟中指派授權的人員。 若要了解如何設定通訊點數，請參閱[設定貴組織的通訊點數](/microsoftteams/set-up-communications-credits-for-your-organization)。
     
-> [!NOTE]
-> 您也可以設定[按分鐘計費的音訊會議](/microsoftteams/audio-conferencing-pay-per-minute)。
+   > [!NOTE]
+   > 您也可以設定[按分鐘計費的音訊會議](/microsoftteams/audio-conferencing-pay-per-minute)。
 
 ## <a name="step-3-get-service-numbers-for-your-conferencing-bridges"></a>步驟 3：取得會議橋接器的服務號碼
 <a name="__top"> </a>
 
 音訊會議不能使用一般的使用者電話號碼，您必須取得服務號碼。 您可以為您的會議橋接器取得付費或免費的服務號碼。 有三種方法可以取得付費和免付費服務號碼： 
   
-- **使用 商務用 Skype系統管理中心**。 針對部分國家/地區，您可以使用系統管理中心取得會議橋接器商務用 Skype號碼。 請參閱[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
+- **使用 商務用 Skype 系統管理中心**。 針對部分國家/地區，您可以使用系統管理中心取得會議橋接器商務用 Skype號碼。 請參閱[取得服務電話號碼](/microsoftteams/getting-service-phone-numbers)。
     
-- **轉移現有的服務號碼**。 將現有號碼從目前的服務提供者或電話電信公司移轉至Microsoft 365或Office 365。 如需詳細資訊，請參閱[將電話號碼轉移至 Teams ](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)或[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)，協助您完成此作業。  
+- **轉移現有的服務號碼**。 將現有號碼從目前的服務提供者或電話電信公司移轉或移轉Microsoft 365或Office 365。 如需詳細資訊，請參閱[將電話號碼轉移至 Teams ](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams)或[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)，協助您完成此作業。  
   
 - **使用表單要求新號碼**。 有時候 (視您的國家/地區) 您將無法使用 商務用 Skype 系統管理中心取得新的服務號碼，或者您需要特定的電話號碼或區碼。 若是如此，您將需要下載表單並將它傳送給我們。 如需詳細資訊，請參閱[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)。 
     
@@ -92,12 +92,12 @@ ms.locfileid: "58725972"
 
 ![顯示標誌圖示Microsoft Teams圖示。](../images/teams-logo-30x30.png) **使用 Microsoft Teams系統管理中心**：
 
-1. 在儀表板中，移至 [會議]  >  [會議橋接器]。
+1. 從首頁，前往 **會議**  >  **會議橋接器**。
 2. 選取 [會議橋接電話號碼]，按一下 [編輯]，然後選擇預設語言。
 
 ![顯示標誌圖示商務用 Skype圖示。](../images/sfb-logo-30x30.png) **使用 商務用 Skype系統管理中心**：
 
-1. 請前往系統管理中心>**系統管理中心**  >  **Teams**  >  **舊版入口網站**。
+1. 請前往系統管理中心>**系統管理Teams**  >    >  **入口網站**。
 2. 選取 **音訊會議**  >  **Microsoft 橋接器**。 
 3. 選取會議橋接器電話號碼，選取設定 **語言**，然後選擇預設語言。
 
@@ -108,7 +108,7 @@ ms.locfileid: "58725972"
 
 ![顯示標誌圖示Microsoft Teams圖示。](../images/teams-logo-30x30.png) **使用 Microsoft Teams系統管理中心**：
 
-1. 在儀表板中，移至 [會議]  >  [會議橋接器]。
+1. 從首頁，前往 **會議**  >  **會議橋接器**。
 2. 選取 [橋接器設定]。 會開啟 [橋接器設定] 窗格。 
 
 如需詳細資訊，請參閱[變更音訊會議橋接器的設定](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge)。
@@ -128,7 +128,7 @@ ms.locfileid: "58725972"
 
 ![顯示標誌圖示Microsoft Teams圖示。](../images/teams-logo-30x30.png) **使用 Microsoft Teams系統管理中心**：
 
-1. 在儀表板中，按一下 [使用者]，從清單中選取使用者，然後選取 [編輯]。
+1. 在 [首頁中 **，按一下使用者**，從清單中選取使用者，然後選取 **[編輯>**。
 2. 選取 [音訊會議] 旁邊的 [編輯]，然後在 [音訊會議] 窗格中，選擇 [收費電話號碼] 和 [免付費] 電話號碼清單中的電話號碼。
 
 ![顯示標誌圖示商務用 Skype圖示。](../images/sfb-logo-30x30.png) **使用 商務用 Skype系統管理中心：**

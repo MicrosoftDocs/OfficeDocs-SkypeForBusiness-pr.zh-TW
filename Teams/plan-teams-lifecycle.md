@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 082657f5d114a7228f5b95e39390a87ccf6d0dcb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fa4d2cfa493ae6bec4429db9c3d01319d889288e
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727822"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456373"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams 中的生命週期管理方案
 
@@ -65,49 +65,7 @@ _團隊_ 是促進共同作業的人員、內容和工具的集合。 團隊會�
 > [!Note]
 > 若要深入了解團隊擁有者和團隊成員的能力，請參閱[在 Microsoft Teams 中指派角色和權限](assign-roles-permissions.md)。
 
-Teams 系統管理員角色決定每個系統管理員角色持有者所擁有的能力。 下表將說明這些角色。
-
-<table>
- <thead>
-  <tr>
-    <th width="0.5%"></th>
-    <th width="15.5%">角色&nbsp;&nbsp;</th>
-    <th width="25%">說明</th>
-    <th width="60%">可以使用標註的工具執行下列工作</th>
-  </tr>
-</thead>
-<tbody>
-   <tr>
-    <td valign="top" colspan="2">Teams 系統管理員</td>
-    <td valign="top">管理 Teams 服務，建立和管理 Microsoft 365 群組</td>
-    <td valign="top">管理會議，包括會議原則、組態和會議橋接器<sup>1</sup><br><br>管理語音，包括通話原則、電話號碼的庫存和指派、通話佇列以及自動語音應答<sup>1</sup><br><br>管理訊息，包括訊息原則<sup>1</sup><br><br>管理所有的全組織設定，包括同盟、Teams 升級和 Teams 用戶端設定<sup>1</sup><br><br>管理組織中的團隊及其相關設定，包括成員資格<sup>2</sup><br><br>透過使用進階的疑難排解工具組<sup>3</sup>，檢視使用者設定檔頁面，並針對使用者通話品質問題進行疑難排解</td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams 通訊系統管理員</td>
-<td valign="top">管理 Microsoft Teams 服務內的通話和會議功能</td>
-<td valign="top">管理會議，包括會議原則、組態和會議橋接器<sup>1</sup><br><br>管理語音，包括通話原則、電話號碼的庫存和指派、通話佇列以及自動語音應答<sup>1</sup><br><br>透過使用進階的疑難排解工具組<sup>1</sup>，檢視使用者設定檔頁面，並針對使用者通話品質問題進行疑難排解</td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams 通訊專家</td>
-<td valign="top">使用基本工具在 Teams 內針對通訊問題進行疑難排解</td>
-<td valign="top">存取使用者設定檔頁面，以便在通話分析中針對通話進行疑難排解。 針對搜尋所得的特定使用者，僅能檢視使用者資訊。<sup>3</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams 通訊支援工程師</td>
-<td valign="top">使用進階工具針對 Teams 內的通訊問題進行疑難排解</td>
-<td valign="top">存取使用者設定檔頁面，以便在通話分析中針對通話進行疑難排解。 可以檢視完整的通話記錄資訊。<sup>3</sup></td>
-</tr>
-<tr>
-</tbody>
-<tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell - 商務用 Skype 模組</a>或 <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 系統管理中心</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell - Microsoft Teams 模組</a>或 <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 系統管理中心</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3">僅 <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Microsoft Teams 系統管理中心</a></td>
-</tr>
-</tfoot>
-</table>
-
+Teams 系統管理員角色決定每個系統管理員角色持有者所擁有的能力。 以下文章包含這些內容的說明：[使用 Microsoft Teams 系統管理員角色管理 Teams](using-admin-roles.md)。
 
 ## <a name="it-decisions-to-make-before-getting-started"></a>開始使用前必須做出的 IT 決策
 

@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58df214ec15153abcee4275f42c6ae6208b5d4b1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5735d69d45785e63cefbbea646a1780dc3aa4ecf
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731242"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456493"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>在活動記錄中查看您的策略指派
 
-當您在系統管理中心指派Microsoft Teams，您可以在活動記錄中查看那些策略指派的狀態。 活動記錄會顯示過去 30 天內透過系統管理中心Microsoft Teams超過 20 個使用者批次的策略指派。 請記住，活動記錄不會顯示策略套件指派、透過 Microsoft Teams 系統管理中心將策略指派給少於 20 位使用者的批次，或透過 PowerShell 進行策略指派。
+當您在系統管理中心指派Microsoft Teams，您可以在活動記錄中查看那些策略指派的狀態。 活動記錄會顯示過去 30 天內透過系統管理中心Microsoft Teams 20 多個使用者的批次策略指派。 請記住，活動記錄不會顯示策略套件指派、透過 Microsoft Teams 系統管理中心將策略指派給少於 20 個使用者批次，或透過 PowerShell 顯示策略指派。
 
 ![活動記錄頁面的螢幕擷取畫面。](media/activity-log.png)
 
@@ -35,7 +35,7 @@ ms.locfileid: "58731242"
 
 若要在活動記錄中查看您的策略指派：
 
-1. 在系統管理中心的左側導Microsoft Teams，前往儀表板，然後在活動記錄下 **，選取** 查看 **詳細資料**。
+1. 在系統管理中心的左側導Microsoft Teams，請前往首頁，然後在活動記錄 **下，選取** 查看 **詳細資料**。
 2. 您可以查看所有策略指派，或根據狀態篩選清單，只顯示尚未開始、進行中或 **已完成的作業**。  您會看到每個作業的下列資訊：
     - **名稱**：策略指派的名稱。 按一下連結以查看更多詳細資料。 這包括已指派策略的使用者數目，以及已完成、進行中及尚未開始的指派數目。 您也會看到批次中的使用者清單，以及每個使用者的狀態和結果。 以下是範例：
 
