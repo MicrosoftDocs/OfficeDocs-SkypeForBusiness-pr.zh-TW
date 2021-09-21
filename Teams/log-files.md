@@ -13,15 +13,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: 瞭解由 Microsoft Teams 產生的 Debug、Media 和桌面記錄，以及這些記錄可以在哪裡找到，以及如何協助監控和疑難排解。
+description: 瞭解由 Microsoft Teams 產生的 Debug、Media 和桌面記錄、可以在哪裡找到這些記錄，以及這些記錄如何協助監控和疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a82b2e9fe2db41e0609b7483bded813eae29cf92
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 8f29271485024445d3494c0b2ee7213253bd64ca
+ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456523"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460642"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用記錄檔案來監控和疑難排解Microsoft Teams
 
@@ -42,12 +42,11 @@ ms.locfileid: "59456523"
 
 發生問題時，收集記錄非常重要。 只要按幾下滑鼠，就能收集記錄。
 
-Windows：以滑鼠右鍵按一下系統Teams中的 [檔案備份Teams，然後選擇 [**收集支援檔案**> 。 
+Windows：以滑鼠右鍵按一下系統Teams中的 [Teams圖示，然後選擇 [**收集支援檔案**> 。 
 
 Mac：選取説明功能表，然後選擇收集 **支援檔案**。
 
-
-Debug、Desktop 和 Media 記錄會收集到一個名稱為 MSTeams 診斷記錄的資料夾 <local data and time> 。 當您向 Microsoft 支援服務開啟支援要求時，可以壓縮並共用此資料夾。 資料夾會包含桌面、會議 (媒體) 資料夾，以及 (網頁) 。 您可以使用下列鍵盤快速鍵收集檔案：
+Debug、Desktop 和 Media 記錄會收集到一個名稱為 _MSTeams 診斷 \<local data and time\> 記錄的資料夾_。 當您向 Microsoft 支援服務開啟支援要求時，可以壓縮並共用此資料夾。 資料夾會包含適用于桌面、會議 (媒體) ，以及 (網頁) 。 您可以使用下列鍵盤快速鍵收集檔案：
 
 Windows：Ctrl + Alt + Shift + 1
 
@@ -123,14 +122,14 @@ Mac：Option + Command + Shift + 1
 
 請參閱收集和 _啟用記錄_ 一節，Windows Mac 指示。 桌面記錄 ，也稱為 bootstrapper 記錄，包含桌面用戶端與瀏覽器之間發生的記錄資料。 與媒體記錄一樣，這些記錄只有在 Microsoft 要求時才能使用。 記錄是以文字為基礎，而且可以使用由上而下格式的任何文字型編輯器來讀取。
 
-若要收集 Linux 的記錄：按一下系統Microsoft Teams中的 [取得記錄記錄>**圖示。**
+若要收集 Linux 的記錄：按一下系統Microsoft Teams中的 [取得記錄記錄> 圖示 **。**
 檔案可在 ~/.config/microsoft/Microsoft Teams/logs.txt。  
 
 ## <a name="browser-trace"></a>瀏覽器追蹤
 
 針對某些錯誤類別，Microsoft 支援服務可能會要求您收集瀏覽器追蹤。 這項資訊可提供發生錯誤時Teams用戶端狀態的重要詳細資料。
 
-在啟動瀏覽器追蹤之前，請確認您已Teams。 在啟動追蹤之前，執行這項工作非常重要，這樣追蹤就不包含敏感性的登錄資訊。
+開始瀏覽器追蹤之前，請確認您已Teams。 在啟動追蹤之前，執行這項工作非常重要，這樣追蹤就不包含敏感性的登錄資訊。
 
 在您登錄後，請選取下列其中一個連結 ，以適合您的瀏覽器使用，然後按照提供的步驟進行。 
 
@@ -146,7 +145,7 @@ Mac：Option + Command + Shift + 1
 > 在步驟中，將 Azure 入口網站的所有參照取代為 Teams用戶端。
   
 ## <a name="webrtc-logs-in-browsers"></a>網頁RTC 在瀏覽器中記錄
-WebRTC 記錄可提供音訊和視音訊通話的連線詳細資料，以協助 Microsoft 支援服務。 請按照下列步驟在 Edge (Chromium) 或 Chrome 中存取 WebRTC 記錄： 
+WebRTC 記錄可提供音訊和視音訊通話的連線詳細資料，以協助 Microsoft 支援服務。 請按照步驟在 Edge (Chromium) Chrome 中存取 WebRTC 記錄： 
   
 1.  開啟新的定位停駐點，然後前往下列其中一個 URL：
     -   Edge (Chromium) ： "edge://webrtc-internals/"

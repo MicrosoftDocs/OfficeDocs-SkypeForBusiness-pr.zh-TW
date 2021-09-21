@@ -16,18 +16,18 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 瞭解如何設定Microsoft Teams 會議室，包括規劃、部署和管理系統，以建立理想的虛擬會議室。
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: beaae12c62ca39315275df58e4c95b5163a10843
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: cb360bbecb36b8ec10324d05722456cf6bf5636b
+ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432285"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460652"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams 會議室
 
 :::row:::
     :::column span="2":::
-       利用簡單使用、部署和管理的豐富Teams會議空間，從小型擠滿區域到大型會議室，來轉換會議空間。
+       利用豐富且共同Teams，輕鬆使用、部署和管理的會議空間，從小型擠滿區域到大型會議室，進行轉換。
 
        使用單鍵加入功能，及時開始會議，然後立即在會議室中顯示專案，並分享給遠端參與者。
 
@@ -40,7 +40,9 @@ ms.locfileid: "59432285"
     :::column-end:::
 :::row-end:::
 
-|    <img src="https://docs.microsoft.com/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon">           | <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon">              |   <img src="https://docs.microsoft.com/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon">            |
+<!-- The following three links to icon images work with site-relative URLs when published on docs.microsoft.com. -->
+
+|    <img src="/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon">           | <img src="/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon">              |   <img src="/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon">            |
 | ------------- | ------------- | ------------- |
 |  **[規劃](./rooms-plan.md)** |  **[部署](./rooms-deploy.md)** |  **[管理](./rooms-manage.md)** |
 
@@ -55,4 +57,4 @@ ms.locfileid: "59432285"
 這些文章適用于負責規劃、部署和管理這些裝置的使用者，而非系統使用者。 使用者將會對線上Microsoft Teams 會議室[感興趣](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
 
 > [!NOTE]
-> [Skype會議室系統](../rooms/lrs-migration.md) (Lync Room System) 和 Microsoft Teams 會議室是不同的產品，具有不同的相依性與部署程式。
+> [Skype會議室系統](../rooms/lrs-migration.md) (Lync Room System) 和 Microsoft Teams 會議室是不同的產品，具有不同的相依性及部署程式。
