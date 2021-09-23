@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 瞭解由 Microsoft Teams 產生的 Debug、Media 和桌面記錄、可以在哪裡找到這些記錄，以及這些記錄如何協助監控和疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f29271485024445d3494c0b2ee7213253bd64ca
-ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
+ms.openlocfilehash: 04fe77022a6a74084fce2396a3cba53fb1487dea
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460642"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482377"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用記錄檔案來監控和疑難排解Microsoft Teams
 
@@ -42,11 +42,11 @@ ms.locfileid: "59460642"
 
 發生問題時，收集記錄非常重要。 只要按幾下滑鼠，就能收集記錄。
 
-Windows：以滑鼠右鍵按一下系統Teams中的 [Teams圖示，然後選擇 [**收集支援檔案**> 。 
+Windows：以滑鼠右鍵按一下系統Teams中的 [收集支援 **檔案**> 圖示。 
 
 Mac：選取説明功能表，然後選擇收集 **支援檔案**。
 
-Debug、Desktop 和 Media 記錄會收集到一個名稱為 _MSTeams 診斷 \<local data and time\> 記錄的資料夾_。 當您向 Microsoft 支援服務開啟支援要求時，可以壓縮並共用此資料夾。 資料夾會包含適用于桌面、會議 (媒體) ，以及 (網頁) 。 您可以使用下列鍵盤快速鍵收集檔案：
+Debug、Desktop 和 Media 記錄會收集到一個名稱為 _MSTeams 診斷 \<local data and time\> 記錄的資料夾_。 當您向 Microsoft 支援服務開啟支援要求時，可以壓縮並共用此資料夾。 資料夾會包含桌面、會議 (媒體) 資料夾，以及 (網頁) 。 您可以使用下列鍵盤快速鍵收集檔案：
 
 Windows：Ctrl + Alt + Shift + 1
 
@@ -94,28 +94,34 @@ Mac：Option + Command + Shift + 1
 
 -   通話/交談
 
-若要收集 Linux 的記錄：鍵盤快速鍵：Ctrl + Alt + Shift + 1 檔案可在 ~/Downloads 中使用
+若要收集 Linux 的記錄：鍵盤快速鍵：Ctrl + Alt + Shift + 1  
+      檔案將在 ~/Downloads 中提供
 
-若要收集瀏覽器的記錄：鍵盤快速鍵：Ctrl + Alt + Shift + 1 %userprofile%\Downloads 中會提供檔案
+若要收集瀏覽器和瀏覽器的Windows：鍵盤快速鍵：Ctrl + Alt + Shift + 1  
+      檔案將在 %userprofile%\Downloads 中提供
 
 ## <a name="media-logs"></a>媒體記錄
 
-請參閱收集和 _啟用記錄_ 一節，Windows Mac 指示。 媒體記錄包含會議音訊、視像和螢幕Teams資料。 當支援案例與通話相關問題連結時，這些案例是必填專案。
+請參閱收集和 _啟用記錄_ 一節，Windows Mac 指示。 媒體記錄包含會議中音訊、視像和螢幕Teams資料。 當支援案例與通話相關問題連結時，這些案例是必填專案。
 
-媒體記錄預設為關閉。 若要記錄會議Teams診斷資料，使用者必須在用戶端中開啟Teams選項。 請 **設定** 一般，選取啟用會議診斷記錄 (需要重新開機 Teams) 核取方塊、重新開機 Teams，然後重現  >  問題。  
+媒體記錄預設為關閉。 若要記錄會議Teams診斷資料，使用者必須在用戶端中開啟Teams選項。 前往 **設定** 一般，選取啟用會議診斷記錄 (需要重新開機  >  **** **Teams)** 核取方塊、重新開機 Teams，然後重現問題。 
 
 當您將記錄檔案傳送給 Microsoft 支援人員時，請確認記錄檔案的時間戳記，以確保記錄在您重現問題時涵蓋時間範圍。
 
-若要收集 Linux 的記錄：檔案可在 ~/.config/microsoft/Microsoft Teams/media-stack/ .blog 和 *~/.config/Microsoft/Microsoft Teams/skylib/*.blog 中提供。
+若要收集 Linux 的記錄：  
+檔案可在 ~/.config/microsoft/Microsoft Teams/media-stack/ 部落格和 \* \. ~/.config/microsoft/Microsoft Teams/skylib/ \* \. 部落格中使用。
 
-以下是產生的記錄檔案清單及其包含的資訊。
+若要收集記錄Windows：  
+這些檔案可在 %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack \\ \* \. 部落格和 %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib 部落格中 \\ \* \. 提供。  
+
+以下是產生的記錄檔案及其包含的資訊清單。
 
 |記錄檔案名  |描述  |
 |---------|---------|
-|Teams.msrtc-0-s1039525249.blog     | 包含媒體堆疊相關資訊。 這包括頻道狀態，例如解析度、使用的解碼和編碼器，以及已送出和接收的畫面數目，以及視 (VBSS) 會話狀態。         |
+|Teams.msrtc-0-s1039525249.blog     | 包含媒體堆疊相關資訊。 這包括頻道狀態，例如解析度、使用的解碼和編碼器，以及接收和接收的畫面數量，以及視 (VBSS) 會話狀態。         |
 |rtmcontrol.msrtc-0-2415069487.blog      |記錄與遠端控制動作相關的資訊，例如提供控制項時時間戳記，以及滑鼠指標資訊。          |
 |Teams_MediaStackETW-2-U-xr-U.etl      |記錄媒體堆疊追蹤事件。         |
-|Debug-0-s2790420889.blog    | 包含媒體代理程式相關資訊，包括呈現品質。          |
+|Debug-0-s2790420889.blog    | 包含與媒體代理程式有關的資訊，包括呈現品質。          |
 |tscalling-0-2061129496.blog   |在 ts-calling API 中記錄事件。       |
 
 ## <a name="desktop-logs"></a>桌面記錄
@@ -123,7 +129,10 @@ Mac：Option + Command + Shift + 1
 請參閱收集和 _啟用記錄_ 一節，Windows Mac 指示。 桌面記錄 ，也稱為 bootstrapper 記錄，包含桌面用戶端與瀏覽器之間發生的記錄資料。 與媒體記錄一樣，這些記錄只有在 Microsoft 要求時才能使用。 記錄是以文字為基礎，而且可以使用由上而下格式的任何文字型編輯器來讀取。
 
 若要收集 Linux 的記錄：按一下系統Microsoft Teams中的 [取得記錄記錄> 圖示 **。**
-檔案可在 ~/.config/microsoft/Microsoft Teams/logs.txt。  
+檔案可在 ~/.config/microsoft/Microsoft Teams/logs.txt。
+  
+若要收集記錄Windows：按一下系統Microsoft Teams中的 [記錄器Microsoft Teams圖示，然後選取 [**取得記錄** 記錄> 。
+系統logs.txt檔案會自動在 記事本開啟。    
 
 ## <a name="browser-trace"></a>瀏覽器追蹤
 
