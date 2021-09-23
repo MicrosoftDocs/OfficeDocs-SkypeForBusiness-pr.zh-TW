@@ -755,6 +755,8 @@ items:
         items:
           - name: 概觀
             href: rooms/index.md
+          - name: Teams 的會議室指引
+            href: teams-meeting-room-guidance.md
           - name: Microsoft Teams 會議室受管理服務
             items:
               - name: 方案管理
@@ -1608,8 +1610,6 @@ items:
             href: sharepoint-onedrive-interact.md
       - name: 教育版 Teams 裝置
         href: devices-for-education.md
-      - name: Teams 的會議室指引
-        href: teams-meeting-room-guidance.md
       - name: 支援的裝置
         items:
           - name: 在 Teams 中管理裝置

@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 description: 設定商務用 Skype 的混合模式，以規劃在商務用 Skype Server 和 Teams 之間執行混合連線。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: ede3c000bf46cc5b3e1e2a181da2adc6dda93855
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 40d89076973e4667c41676684841e8c35c356396
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482397"
+ms.locfileid: "59491713"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>規劃商務用 Skype Server 和 Teams 之間的混合式連線
 
@@ -64,7 +64,7 @@ ms.locfileid: "59482397"
 
 > [!Important]
 > - 現有的混合式組織，且 TeamsOnly 為位於商務用 Skype Online 中但未的使用者，應著重于升級這些使用者，以便儘快 Teams 模式。 如果您的組織仍然有商務用 Skype 線上中未 TeamsOnly 的使用者，您可以排定 Microsoft 協助升級，將這些使用者轉換為 TeamsOnly。 這不會影響駐留在商務用 Skype Server 內部部署中的使用者。 在這些線上之前，會事先傳送給具有使用者商務用 Skype Online 之使用者的混合式客戶的排程通知，將非 TeamsOnly 使用者升級至 Teams。
-> - 您很快就無法將 TeamsOnly 以外的模式指派給位於線上的使用者。
+> - 您無法再將 TeamsOnly 以外的模式指派給位於線上的使用者。
 
 ## <a name="about-shared-sip-address-space-functionality"></a>關於共用 SIP 位址空間功能
 
