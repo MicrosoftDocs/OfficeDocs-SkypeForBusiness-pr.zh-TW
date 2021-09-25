@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在商務用 Skype Server 和 Teams 之間實施混合式連線的指示。
-ms.openlocfilehash: 272166852ef86da6318aa5fa2908697a93d65e02
-ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
+ms.openlocfilehash: fee7587c641f2fd55cd8b4ac4da72b3944b819a1
+ms.sourcegitcommit: 64b9f7297d33a883506893fb68d1ad5202b4df1a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491693"
+ms.lasthandoff: 09/24/2021
+ms.locfileid: "59682808"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>設定商務用 Skype Server 和 Teams 之間的混合式連線
 
@@ -45,11 +45,11 @@ ms.locfileid: "59491693"
 
 ## <a name="dns-implications-for-on-premises-organizations-that-become-hybrid"></a>成為混合式之內部部署組織的 DNS 含意
 
-承租人預設會建立為 TeamsOnly 模式。 管理員無法變更此設定。 不過，混合式組織一定不能是 TeamsOnly 模式，因為這會中斷其內部部署使用者的同盟。 Teams 具有內建機制，可確保不會對新的混合承租人套用租使用者的 TeamsOnly 設定，也不會將其從成為混合式的現有承租人中移除。 此機制是根據任何已驗證 Microsoft 365 網域 (的 LyncDiscover DNS 記錄值而定，因為在大多數情況下，商務用 Skype Server 內部部署會將該記錄) ，如下所述。
+承租人預設會建立為 TeamsOnly 模式。 管理員無法變更此設定。 不過，混合式組織一定不能是 TeamsOnly 模式，因為這會中斷其內部部署使用者的同盟。 Teams 具有內建機制，以確保不會對新的混合承租人套用租使用者的 TeamsOnly 設定，同時也會 *從成為混合式的現有承租人中移除* 租使用者範圍的 TeamsOnly 設定。 此機制是根據任何已驗證 Microsoft 365 網域 (的 LyncDiscover DNS 記錄值而定，因為在大多數情況下，商務用 Skype Server 內部部署會將該記錄) ，如下所述。
 
 初次處理新的 Microsoft 365 訂閱時，會發生下列情況：
 - 如果尚未驗證 Microsoft 365 網域，則會建立租使用者為 TeamsOnly 模式。 該值是透過 TeamsUpgradeOverridePolicy 進行設定，而這只可由 Microsoft 設定。 如果原則值為 UpgradeToTeams，則其優先順序會高於任何 TeamsUpgradePolicy 的值。
-- 如果已驗證 Microsoft 365 網域，但未偵測到任何公用 DNS lyncDiscover 記錄，或任何已偵測到 Microsoft 365 (sipfed.online.lync.com、sipfed.online.gov.skypeforbusiness.us) 等的任何 lyncDiscover 記錄，則租使用者建立為 TeamsOnly 模式 (透過 TeamsUpgradeOverridePolicy) 。
+- 如果已驗證 Microsoft 365 網域，但未偵測到任何公用 DNS LyncDiscover 記錄，或任何已偵測到 Microsoft 365 (sipfed.online.lync.com、sipfed.online.gov.skypeforbusiness.us) 等的任何 LyncDiscover 記錄，則租使用者會透過 TeamsOnly (建立 TeamsUpgradeOverridePolicy 模式) 。
 - 如果至少有一個已驗證的 Microsoft 365 網域會偵測 LyncDiscover 記錄，而該記錄指向 Microsoft 365 以外的位置，則租使用者建立為孤島模式。
 
 重新布建現有的 Microsoft 365 租使用者時 (通常是因為變更已驗證的網域或訂閱詳細資料) 中的變更，則會發生下列情況：
