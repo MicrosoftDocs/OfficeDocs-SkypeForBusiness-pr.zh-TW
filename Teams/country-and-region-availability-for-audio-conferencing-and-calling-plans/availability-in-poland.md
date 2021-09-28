@@ -1,9 +1,9 @@
 ---
 title: 波蘭的可用性
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: c5dcb36b-9700-46c8-8499-d5cadb218a37
 ms.tgt.pltfrm: cloud
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是波蘭Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 93296a036a1c5f145267e508dacd6f43b147838e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是波蘭Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
+ms.openlocfilehash: 88cfb406eba215b8c0134c0c479532bf50870ad4
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617529"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941836"
 ---
 # <a name="availability-in-poland"></a>波蘭的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是波蘭Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+以下是波蘭Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -57,15 +57,12 @@ ms.locfileid: "58617529"
    
 ## <a name="calling-plans"></a>通話方案
 
-> [!IMPORTANT]
-> 我們在波蘭目前面臨無法預期的延遲，無法完成新的電話號碼訂單和移動訂單。 您可以繼續下單，但請注意，我們預期此延遲將于 9 月解決，屆時所有掛單都會完成。
-
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |可以購買通話方案嗎？  <br/> |是  <br/> |
 |通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li></ul>|
 |可以撥打付費號碼外接電話嗎？  <br/> | 目前不支援。 <br/> |
-|可以向外撥打電話嗎？  <br/> | 到 196 個國家/地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
+|可以向外撥打電話嗎？  <br/> | 到 196 個國家和地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 

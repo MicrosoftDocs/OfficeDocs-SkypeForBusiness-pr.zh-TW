@@ -1,9 +1,9 @@
 ---
 title: 愛沙尼亞的可用性
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: 2c244640-e20a-44fa-a153-515ace1f015b
 ms.tgt.pltfrm: cloud
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于愛沙尼亞Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: d1e6b2caa54b2782e30b7e2d845469ce8eb0eb62
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 29f36d9dd98a6a65216029d81d82d1b124b348ea
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634997"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942538"
 ---
 # <a name="availability-in-estonia"></a>愛沙尼亞的可用性
 
@@ -59,11 +59,10 @@ ms.locfileid: "58634997"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|可以購買通話方案嗎？  <br/> |否  <br/> |
-|通話方案可用的分鐘數  <br/> |不適用  <br/> |
-|可以向外撥打電話嗎？  <br/> |不適用  <br/> |
-
-如果無法購買通話方案，請考慮使用[電話系統直接路由](../direct-routing-landing-page.md)。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
+|可以購買通話方案嗎？  <br/> |是  <br/> |
+|通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li></ul>|
+|可以撥打付費號碼外接電話嗎？  <br/> | 目前不支援。 <br/> |
+|可以向外撥打電話嗎？  <br/> | 到 196 個國家和地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 

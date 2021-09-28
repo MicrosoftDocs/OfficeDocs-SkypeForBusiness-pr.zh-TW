@@ -3,6 +3,41 @@
 
 
 
+## <a name="week-of-september-20-2021"></a>2021 年 9 月 20 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 9/20/2021 | [在系統管理中心的活動記錄中Microsoft Teams作業](/MicrosoftTeams/activity-log) | 改 性 |
+| 9/20/2021 | [Teams 中的核准應用程式可用性](/MicrosoftTeams/approval-admin) | 改 性 |
+| 9/20/2021 | [在 Microsoft Teams 中將原則指派給使用者](/MicrosoftTeams/assign-policies) | 改 性 |
+| 9/20/2021 | [通過直接路由認證的工作階段邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 改 性 |
+| 9/20/2021 | [Teams 教育版原則精靈，輕鬆將原則用於安全學習](/MicrosoftTeams/easy-policy-setup-edu) | 改 性 |
+| 9/20/2021 | [取得 Microsoft Teams 用戶端](/MicrosoftTeams/get-clients) | 改 性 |
+| 9/20/2021 | [Microsoft Teams 中的來賓存取](/MicrosoftTeams/guest-access) | 改 性 |
+| 9/20/2021 | [使用記錄檔案疑難排解Microsoft Teams](/MicrosoftTeams/log-files) | 改 性 |
+| 9/20/2021 | [從 Slack 移轉到 Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | 改 性 |
+| 9/20/2021 | [規劃生命週期管理](/MicrosoftTeams/plan-teams-lifecycle) | 改 性 |
+| 9/20/2021 | [針對 Teams 準備組織的網路](/MicrosoftTeams/prepare-network) | 改 性 |
+| 9/20/2021 | [設定 Microsoft Teams 的音訊會議](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | 改 性 |
+| 9/20/2021 | [在 Microsoft Teams 中設定網路研討會](/MicrosoftTeams/set-up-webinars) | 改 性 |
+| 9/20/2021 | [Microsoft TeamsPowerShell 概觀](/MicrosoftTeams/teams-powershell-overview) | 改 性 |
+| 9/20/2021 | [使用商務用 OneDrive SharePoint錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 改 性 |
+| 9/20/2021 | [Microsoft Teams 會議室](/MicrosoftTeams/rooms/index) | 改 性 |
+| 9/20/2021 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 改 性 |
+| 9/21/2021 | [EDU Microsoft 家長應用程式系統管理員設定](/MicrosoftTeams/edu-parents-app) | 添加 |
+| 9/21/2021 | [Teams：管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 改 性 |
+| 9/22/2021 | [規劃直接路由](/MicrosoftTeams/direct-routing-plan) | 改 性 |
+| 9/22/2021 | [使用記錄檔案疑難排解Microsoft Teams](/MicrosoftTeams/log-files) | 改 性 |
+| 9/22/2021 | [管理音訊和視音訊的會議政策](/MicrosoftTeams/meeting-policies-audio-and-video) | 改 性 |
+| 9/22/2021 | [設定 [雲端語音信箱]](/MicrosoftTeams/set-up-phone-system-voicemail) | 改 性 |
+| 9/23/2021 | [取得通話方案的服務電話號碼](/MicrosoftTeams/getting-service-phone-numbers) | 改 性 |
+| 9/23/2021 | [管理Teams新系統管理中心Teams轉換](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | 改 性 |
+| 9/23/2021 | [搜尋使用者的電話號碼](/MicrosoftTeams/search-for-phone-numbers-for-users) | 改 性 |
+| 9/23/2021 | [自訂的敏感度Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | 改 性 |
+| 9/24/2021 | [Microsoft TeamsPowerShell 版本資訊](/MicrosoftTeams/teams-powershell-release-notes) | 改 性 |
+
+
 ## <a name="week-of-september-13-2021"></a>2021 年 9 月 13 日周
 
 

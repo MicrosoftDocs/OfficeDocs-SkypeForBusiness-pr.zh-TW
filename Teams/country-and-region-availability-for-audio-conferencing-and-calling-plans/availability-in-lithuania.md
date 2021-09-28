@@ -1,9 +1,9 @@
 ---
 title: 立陶宛的可用性
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: c3a51334-fff3-4b31-9618-c150adb53a0c
 ms.tgt.pltfrm: cloud
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是立陶宛Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
-ms.openlocfilehash: b61d09f9e6045580de9161bcca82b0bb811c2ce9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是立陶宛Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+ms.openlocfilehash: 0eb3979986546f9b99437bba568a1d9cd9e69460
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603522"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942066"
 ---
 # <a name="availability-in-lithuania"></a>立陶宛的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是立陶宛Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
+以下是立陶宛Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -59,11 +59,10 @@ ms.locfileid: "58603522"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|可以購買通話方案嗎？  <br/> |否  <br/> |
-|通話方案可用的分鐘數  <br/> |不適用  <br/> |
-|可以向外撥打電話嗎？  <br/> |不適用  <br/> |
-
-如果無法購買通話方案，請考慮使用[電話系統直接路由](../direct-routing-landing-page.md)。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
+|可以購買通話方案嗎？  <br/> |是  <br/> |
+|通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li></ul>|
+|可以撥打付費號碼外接電話嗎？  <br/> | 目前不支援。 <br/> |
+|可以向外撥打電話嗎？  <br/> | 到 196 個國家和地區，包括 [這些](users-can-make-outbound-calls-to-these-countries-and-regions.md)。<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 

@@ -1,7 +1,7 @@
 ---
 title: 管理意見Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: heprecel
 ms.topic: article
@@ -16,50 +16,59 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何使用意見回饋政策來控制貴Teams的使用者是否可以將有關意見Teams Microsoft。
-ms.openlocfilehash: 5aa828a68de40ec369a6b19bf57f065ab1f483a6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 瞭解如何使用意見回饋政策來控制Teams中的使用者是否可以將關於Teams的意見回饋提交給 Microsoft。
+ms.openlocfilehash: 582c5e39fca8dc37cefe8b480b2ff886779f6fa0
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733112"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942098"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>管理意見Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-貴組織的使用者可以直接在桌面Teams用戶端內傳送有關您帳戶的意見Teams Microsoft 告訴我們我們目前執行的工作。 我們會持續改善Teams體驗，並使用此意見Teams改善。
+貴組織的使用者可以傳送有關Microsoft Teams的意見，讓我們知道我們直接從電腦、web 用戶端和行動Teams中執行的工作。 我們會持續改善Teams體驗，並使用此意見Teams改善。
 
 > [!NOTE]
-> 意見回饋政策不適用於GCC、GCC高或 DOD 部署。
+> 意見回饋政策不適用於GCC、GCC或 DOD 部署。
 
-**提供意見回饋功能**
+**提供 **意見回饋** 功能**
 
-使用者可以在 Teams 中提供意見  >  **** Teams。 透過「意見回饋」所送出的資料，會依據您的Microsoft 365或Office 365視為「支援資料」，包括否則會視為「客戶資料」或「個人資料」的資訊。
+使用者可以在桌面Teams網頁版中協助提供意見Teams建議  >  ****。
 
-![螢幕擷取畫面顯示中提供意見Teams。](media/manage-feedback-policies-in-teams-give-feedback.png)
+
+![在中提供意見Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
+
+在行動版 **上存取意見** 設定  >  **協助&傳送**  >  **意見。**
+
+![在行動Teams中提供意見Teams選項](media/feedback3.jpg)
+
+ 根據您的Microsoft 365 或Office 365 協定，透過 「提供意見回饋」和「傳送意見」傳送的資料視為「支援資料」，包括否則會視為「客戶資料」或「個人資料」的資訊。
+
 
 **調查**
 
-使用者也可以評等他們Teams，並傳送他們給予評等的詳細資訊給我們。 此快顯視窗問卷會于 Teams 中即時向使用者Teams。 當使用者在 **通知中選取** 提供意見回饋時，系統會顯示問卷供他們完成。
+使用者也可以評等他們Teams，並傳送他們給予評等的詳細資訊給我們。 此快顯視窗問卷會以即時方式顯示在 Teams。 當使用者在 **通知中選取** 提供意見回饋時，系統會顯示問卷供他們完成。
 
 ![問卷通知和表單Teams。](media/manage-feedback-policies-in-teams-survey.png)
 
-## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>設定使用者是否可以將關於Teams的意見回饋傳送至 Microsoft
+## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>設定使用者是否可以傳送關於Teams意見
 
-做為系統管理員，您可以控制貴組織的使用者是否可透過提供意見Teams意見，以及使用者是否收到問卷，將有關資料的意見回饋傳送給 Microsoft。 根據預設，貴組織中的所有使用者都會自動指派全域 (全組織的預設) 政策，且系統會在該政策中啟用提供意見回饋功能與問卷。 例外是Teams 教育版，其中功能為教師啟用，學生則停用。
+做為系統管理員，您可以控制貴組織的使用者是否可以傳送有關Teams的意見回饋給 Microsoft，以及他們是否收到問卷。 根據預設，貴組織中的所有使用者都會自動指派全域 (全組織的預設) ，且系統會在該政策中啟用意見回饋功能與問卷。 例外是Teams 教育版，其中功能為教師啟用，學生則停用。
 
 您可以編輯全域原則，或建立及指派自訂策略。 編輯全域原則或指派自訂策略之後，可能需要數小時的時間，變更才能生效。
 
-例如，假設您想要允許貴組織的所有使用者透過提供意見回饋傳送意見，並接收問卷，但訓練中的新員工除外。 在此情境中，您建立自訂策略以關閉這兩項功能，並將它指派給新員工。 貴組織中所有其他使用者會開啟功能，以取得全域原則。  
+例如，假設您想要允許貴組織的所有使用者傳送意見，並接收問卷，但訓練中的新員工除外。 在此情境中，您建立自訂策略以關閉這兩項功能，並將它指派給新員工。 貴組織中所有其他使用者會開啟功能，以取得全域原則。  
 
-您可以使用 PowerShell 管理意見回饋政策。 使用 **New-CsTeamsFeedbackPolicy** Cmdlet *[](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)*，您可以在這裡找到它，以建立自訂策略。 使用 **Grant-CsTeamsFeedbackPolicy** Cmdlet 將其指派給一或多個使用者或使用者群組，例如安全性群組或通訊群組。 使用 **Set-CsTeamsFeedbackPolicy** 來設定特定標標。
+您可以使用 PowerShell 管理意見回饋政策。 使用 [**New-CsTeamsFeedbackPolicy** Cmdlet](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell) 建立自訂策略。 使用 **Grant-CsTeamsFeedbackPolicy** Cmdlet 將其指派給一或多個使用者或使用者群組，例如安全性群組或通訊群組。 使用 **Set-CsTeamsFeedbackPolicy** 來設定特定標標。
 
 若要關閉並開啟功能，請設定下列參數：
 
  - **提供意見回饋**：將 **UserInitiatedMode 參數** 設定為 **啟用** ，以允許指派該策略的使用者提供意見回饋。 將 **參數設定為** 停用會關閉功能，而指派該策略的使用者沒有提供意見回饋的選項。
  - **問卷**：將 **receiveSurveysMode 參數** 設定為 **啟用** ，以允許獲派策略的使用者接收問卷。 若要讓使用者收到問卷並讓他們退出宣告，請設定參數以 **啟用UserOverride**。 在 Teams中，使用者可以前往 設定  >  **隱私權**，並選擇是否要參與問卷。 將參數設定為 **停用** 會關閉功能，而獲派該政策的使用者將不會收到問卷。
  - **電子郵件**：使用 **AllowEmailCollection 標** 號來新增電子郵件欄位。
+ - **記錄集合**：使用 **AllowLogCollection 標** 號為使用者新增記錄集合加入宣告。 記錄集合目前僅在行動版上啟用。 如需有關哪些資料透過記錄共用的詳細資訊， [請深入瞭解](https://go.microsoft.com/fwlink/?linkid=2168178)。
 
 ## <a name="create-a-custom-feedback-policy"></a>建立自訂的意見回饋政策
 
