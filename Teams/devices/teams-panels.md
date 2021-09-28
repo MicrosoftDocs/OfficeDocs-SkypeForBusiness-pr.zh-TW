@@ -15,13 +15,13 @@ ms.collection:
 - M365-voice
 search.appverid: MET150
 ms.localizationpriority: medium
-description: 本文提供面板概觀及Microsoft Teams功能。
-ms.openlocfilehash: 5779d9e41cb7adb4a502e590c87babbb277cc33e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 本文提供一個概觀，以及由Microsoft Teams支援的功能。
+ms.openlocfilehash: 217cd39499975668677c0ec452ce2dd299b464bf
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596237"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984578"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams面板
 
@@ -31,7 +31,7 @@ Teams面板是專用的Microsoft Teams裝置，可顯示透過 Teams 或 Outlook
 
 本文提供面板Teams概觀，並可協助規劃、傳遞及管理Teams裝置。
 
-## <a name="features-supported-by-teams-panels"></a>由Teams支援的功能
+## <a name="features-supported-by-teams-panels"></a>面板支援Teams功能
 
 Teams面板支援下列功能：
 
@@ -45,21 +45,21 @@ Teams面板支援下列功能：
 
 ## <a name="partners-certified-for-teams-panels"></a>合作夥伴已Teams面板
 
-您可以從下列Teams取得您的面板裝置：
+您可以從下列其中Teams取得您的面板裝置：
 
 - Cresron
 - Yealink
 
 ## <a name="teams-panels-requirements"></a>Teams面板需求
 
-部署面板裝置的硬體、軟體和網路需求可能會根據您部署的面板裝置類型而不同。 請參閱原始設備製造商 (OEM) 檔，瞭解一組裝置所需的功能。
+部署面板裝置的硬體、軟體和網路需求可能會根據您部署的面板裝置類型而不同。 請參閱原始設備製造商 (OEM) 檔，瞭解一組裝置需要哪些功能。
 
 ## <a name="license-requirement"></a>授權需求
 
-若要使用Teams面板，您需要[Microsoft Teams 會議室授權](../rooms/rooms-licensing.md)。
+若要使用Teams面板，您需要Microsoft Teams 會議室標準版[授權](../rooms/rooms-licensing.md)。
 
 > [!Note]
-> 如果您已經在Microsoft Teams 會議室面板的會議空間中部署Teams，則不需要額外的授權，Teams面板。
+> 如果您已經將Microsoft Teams 會議室部署在安裝 Teams 面板的會議空間中，則不需要額外的授權Teams面板。
 
 ## <a name="deploy-teams-panels-devices"></a>部署Teams面板裝置
 
@@ -67,20 +67,20 @@ Teams面板支援下列功能：
 
 部署Teams面板裝置可以細分為下列工作：
 
-- [會議空間庫存與功能規劃](#inventory-sites-and-meeting-spaces)：建立貴組織網站與會議空間的庫存，以在Teams裝置上部署。
-- [採購](#procurement)：從您選取的裝置合作夥伴購買裝置。  
+- [會議空間庫存與功能規劃](#inventory-sites-and-meeting-spaces)：建立組織網站與會議空間的庫存，以在Teams裝置上部署。
+- [採購](#procurement)：從所選裝置合作夥伴購買裝置。  
 - [網站就緒](#site-readiness)：確認您的部署位置 (會議) 符合部署需求。
 - [組配置與部署](#configuration-and-deployment)：建立資源帳戶，並將其指派給裝置。
 
 ## <a name="inventory-sites-and-meeting-spaces"></a>庫存網站和會議空間
 
-盤點組織中現有的可預約會議空間。 識別部署面板範圍中的網站Teams空間。 請和您的裝置和音訊-視覺小組合作，決定在何處以及如何安裝 Teams 面板裝置，以及安裝面板是否還需要任何其他硬體。
+盤點組織中現有的可預約會議空間。 識別在面板中部署範圍的網站Teams空間。 請和您的裝置和音訊-視覺小組合作，決定在何處以及如何安裝Teams面板裝置，以及安裝面板是否還需要任何其他硬體。
 
 ## <a name="procurement"></a>採購
 
 根據部署面板Teams的會議空間數目，請從其中一個經認證的合作夥伴取得Teams[裝置](#partners-certified-for-teams-panels)。 請流覽合作夥伴的網站，深入瞭解裝置和採購選項。
 
-貴組織的會議空間對於安裝或安裝裝置的硬體需求可能不同。 例如，將裝置安裝在玻璃、灰布、幹牆或木材面板上所需的硬體可能不同。 請參閱裝置合作夥伴的檔，以尋找可用的安裝選項。
+貴組織的會議空間在安裝或安裝裝置時，可能有不同的硬體需求。 例如，將裝置安裝在玻璃、灰布、幹牆或木材面板上所需的硬體可能不同。 請參閱裝置合作夥伴的檔，以尋找可用的安裝選項。
 
 ## <a name="site-readiness"></a>網站準備就緒
 
@@ -89,7 +89,7 @@ Teams面板支援下列功能：
 我們針對Teams網站的建議為：
 
 - 專用資源帳戶
-- 電源 (面板通常支援 Power over 乙太網路， (PoE+) 電源。 請參閱 OEM 檔，以尋找任何裝置特定的電源需求。) 
+- 電源 (面板通常支援 Power over 乙太網路 (PoE+) 電源。 請參閱 OEM 檔，以尋找任何裝置特定的電源需求。) 
 
 
 有關實體安裝考慮，請參閱 OEM 檔，如果您有，請參閱安裝及安裝裝置及執行纜線連接之前，使用音訊-視覺小組的體驗。
@@ -105,27 +105,27 @@ Teams面板支援下列功能：
 
 每個Teams面板裝置都需要Microsoft 365會議室資源帳戶。 您可以使用資源帳戶認證來Microsoft Teams面板裝置上的應用程式。
 
-若要設定Microsoft 365面板Teams資源帳戶，我們建議您購買[Microsoft Teams 會議室 標準授權](#license-requirement)。 若要瞭解如何建立資源帳戶並指派授權給資源帳戶，請參閱使用[Microsoft 365 系統管理中心。](resource-account-ui.md)
+若要設定Microsoft 365面板Teams資源帳戶，我們建議您購買Microsoft Teams 會議室標準版[授權](#license-requirement)。 若要瞭解如何建立資源帳戶並指派授權給資源帳戶，請參閱使用 Microsoft 365 系統管理中心 建立[資源帳戶](resource-account-ui.md)。
 
 > [!NOTE]
 >
->- 如果您已經針對要安裝面板的會議空間設定會議室資源帳戶，請使用相同的會議室資源帳戶來登錄面板裝置。 不過，請確定會議室資源帳戶已Microsoft Teams 會議室標準授權，才能使用它做為面板資源帳戶。
+>- 如果您已經針對要安裝面板的會議空間設定會議室資源帳戶，請使用相同的會議室資源帳戶來登錄面板裝置。 不過，請確定會議室資源帳戶Microsoft Teams 會議室標準版指派授權，才能使用它做為面板資源帳戶。
 >
->- 如果您已經將Microsoft Teams 會議室部署在要安裝 Teams 面板的會議空間中，則不需要購買另一個授權來部署面板。 系統管理員以與主機相同的認證，以相同的認證Microsoft Teams 會議室同一個空間的面板裝置。
+>- 如果您已經將Microsoft Teams 會議室部署在安裝 Teams 面板的會議空間中，則不需要購買個別授權來部署面板。 系統管理員以與主機相同的認證，以相同的Microsoft Teams 會議室登錄面板裝置。
 >
 >- 對於大型會議空間 ，例如會議室或會議室，有多個入口，您可以在每個入口安裝一個面板裝置。 屬於單一會議空間的多個面板會共用相同的資源帳戶，並使用相同的認證來登錄。 您不需要為相同空間的每個面板建立個別的資源帳戶。
 
 > [!TIP]
 > 建議您在實際安裝面板之前先建立資源Teams帳戶。
-> 考慮為面板資源帳戶使用Teams慣例。 讓資源帳戶的顯示名稱Microsoft 365描述性且容易理解。 這些名稱是使用者在搜尋會議空間時，在Outlook或Teams看到的名稱。
+> 請考慮為面板資源帳戶Teams命名慣例。 讓資源帳戶的顯示名稱Microsoft 365描述性且容易理解。 這些名稱是使用者在搜尋會議空間時，在排程會議時，Outlook或Teams的名稱。
 
 ### <a name="testing"></a>測試
 
-部署面板之後，您應該測試這些面板。 檢查面板[支援的功能](#features-supported-by-teams-panels)Teams部署裝置上是否正常使用。 請嘗試透過電腦中的 Teams 或 Outlook 365，為不同的時段建立數個會議。 檢查面板是否正確顯示排定會議的會議詳細資料與可用性。 請嘗試 **使用保留按鈕** 來檢查您是否可以直接從裝置保留可用的會議空間。
+部署面板之後，您應該測試這些面板。 檢查面板[支援的功能Teams部署](#features-supported-by-teams-panels)裝置上是否正常使用。 請嘗試透過電腦中的 Teams 或 Outlook 365，為不同的時段建立數個會議。 檢查面板是否正確顯示排定會議的會議詳細資料與可用性。 請嘗試 **使用保留按鈕** 來檢查您是否可以直接從裝置保留可用的會議空間。
 
-## <a name="manage-teams-panels-in-your-organization"></a>管理Teams中的面板
+## <a name="manage-teams-panels-in-your-organization"></a>管理Teams的面板
 
-若要管理您的Teams面板裝置，在系統管理中心的左側導Microsoft Teams，請前往裝置Teams ****  >  **面板**。 您可以在這裡變更裝置組調設定檔、管理更新、重新開機裝置、新增和移除裝置標記等。 詳細資訊，請參閱在 Teams 中[管理您的Teams。](device-management.md)
+若要管理您的Teams面板裝置，在系統管理中心的左側導Microsoft Teams，請前往 Teams 裝置Teams ****  >  **面板**。 您可以在這裡變更裝置組調設定檔、管理更新、重新開機裝置、新增和移除裝置標記等。 詳細資訊，請參閱在 Teams[中管理您的Teams。](device-management.md)
 
 ## <a name="next-steps"></a>後續步驟
 

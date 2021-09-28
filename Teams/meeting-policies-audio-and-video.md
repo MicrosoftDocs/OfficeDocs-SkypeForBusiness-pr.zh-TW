@@ -19,14 +19,14 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 瞭解如何在音訊和視Teams中管理會議策略設定。
-ms.openlocfilehash: 7dcd3f73d29dcbe635793d4a67db602b8e4c8a1c
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 27153896065d3358927755d3cd1b303c2b1141a0
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482387"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984618"
 ---
-# <a name="meeting-policy-settings-for-audio--video"></a>音訊和視&的會議&設定
+# <a name="meeting-policy-settings-for-audio--video"></a>音訊和視&設定
 
 <a name="bkaudioandvideo"> </a>
 <a name="ndi"> </a>
@@ -49,7 +49,7 @@ ms.locfileid: "59482387"
 |**已啟用傳出和傳入音訊**    |會議中允許傳出和傳入音訊。這是預設設定。 |
 |**已停用**     |會議中已關閉傳出和傳入音訊。     |
 
-如果使用者設為 **已停用** ，該使用者仍然可以排程和組織會議，但他們無法使用音訊。 若要加入會議，他們必須透過公用交換電話網絡 (PSTN) 或透過電話加入會議。 未獲指派任何原則的會議參與者 (例如匿名參與者)，預設會將此設定為 [已啟用傳出和傳入音訊 **]**。 在 Teams 行動用戶端上，如果已停用此設定，使用者必須透過 PSTN 撥入會議。
+如果使用者設為 **已** 停用，該使用者仍然可以排程和組織會議，但他們無法使用音訊。 若要加入會議，他們必須透過公用交換電話網絡 (PSTN) 或透過電話加入會議。 未獲指派任何原則的會議參與者 (例如匿名參與者)，預設會將此設定為 [已啟用傳出和傳入音訊 **]**。 在 Teams 行動用戶端上，如果已停用此設定，使用者必須透過 PSTN 撥入會議。
 
 此設定不適用一對一通話。 若要限制一對一通話，請設定 Teams [通話原則 []](teams-calling-policy.md) 並關閉 [撥打私人通話 **]** 設定。 此設定也不適用會議室裝置，例如 Surface Hub 和 Microsoft Teams 會議室裝置。
 
@@ -64,7 +64,7 @@ ms.locfileid: "59482387"
 |設定值 |行為  |
 |---------|---------|
 |**已啟用傳出和傳入視訊**    | 會議允許外發和傳入視像。 這是預設設定。 |
-|**已停用**     | 會議中已關閉傳出和傳入視訊。 在 Teams 行動用戶端上，使用者無法分享會議中的視訊或相片。 <br><br>請注意，如果 **IP 音訊模式** 已停用， **則 IP 視** 障模式也會維持停用狀態。  |
+|**已停用**     | 會議中已關閉傳出和傳入視訊。 在 Teams 行動用戶端上，使用者無法分享會議中的視訊或相片。 <br><br>請注意，如果 **IP 音訊模式** 已停用，則 **IP 視** 障模式也會維持停用狀態。  |
 
 如果設為 [已停用 **]**，該使用者無法開啟或檢視由其他會議參與者共用的視訊。 未獲指派任何原則的會議參與者 (例如匿名參與者)，預設會將此設定為 [已啟用傳出和傳入視訊 **]**。
 
@@ -133,7 +133,7 @@ ms.locfileid: "59482387"
 
 #### <a name="teams-mobile-clients"></a>Teams 行動用戶端
 
-對於使用Teams用戶端的使用者，會議期間共用相片和影片的能力也取決於允許 **IP 視** 像或 **IP 視像模式** 設定。 根據設定的優先原則為何，分享視訊和相片的功能均無法使用。 這不會影響螢幕畫面分享，這是您使用個別的 [螢幕畫面分享模式[]](meeting-policies-content-sharing.md#screen-sharing-mode) 設定進行的設定。 此外，您可以設定 [Teams 行動性原則](/powershell/module/skype/new-csteamsmobilitypolicy)，以防止行動裝置使用者透過行動數據連線使用 IP 視訊，這表示他們必須使用 WiFi 連線。
+對於行動Teams上的使用者，在會議期間共用相片和影片的能力，也取決於允許 **IP 視** 像或 **IP 視像模式** 設定。 根據設定的優先原則為何，分享視訊和相片的功能均無法使用。 這不會影響螢幕畫面分享，這是您使用個別的 [螢幕畫面分享模式[]](meeting-policies-content-sharing.md#screen-sharing-mode) 設定進行的設定。 此外，您可以設定 [Teams 行動性原則](/powershell/module/skype/new-csteamsmobilitypolicy)，以防止行動裝置使用者透過行動數據連線使用 IP 視訊，這表示他們必須使用 WiFi 連線。
 
 ### <a name="media-bit-rate-kbs"></a>媒體位元速率 (KB)
 
@@ -151,7 +151,7 @@ ms.locfileid: "59482387"
 
 您可以使用系統管理中心Teams PowerShell 來設定此策略。 您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的 Teams 會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，然後將該原則指派給使用者。
 
-若要指定使用者是否可以在會議中自訂視訊背景，請在 Teams 系統管理中心中設定 **VideoFiltersMode** 參數 (選取視訊篩選設定) 如下所示： 
+若要指定使用者是否可以在會議中自訂其視訊背景，請在 Teams 系統管理中心中設定 **VideoFiltersMode** 參數 (選取視訊篩選設定) 如下所示： 
 
 |在 PowerShell 中設定值|在系統管理中心Teams值 |行為  |
 |---------|---------|---------|
@@ -169,7 +169,7 @@ ms.locfileid: "59482387"
 
 1. 登入 Teams 系統管理中心。
 
-2. 選取 **會議策略**  >  **自訂會議影像**。
+2. 選取 **會議**  >  **會議策略**  >  **自訂會議影像**。
 
    ![會議政策選取專案會以強調的自訂會議影像按鈕顯示。](media/custom-background-image-button.png)
 

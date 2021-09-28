@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Android 裝置上遠端Teams和登錄
-ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 20eae8534d06c6f9431b9e9fcb1458812e34cacd
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733312"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984738"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>在 Android 裝置上遠端Teams和登錄
 
@@ -61,7 +61,7 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 完成下列步驟以配置新裝置。
 
 1. 登入 Teams 系統管理中心。
-2. 展開 **裝置**。
+2. 展開 **Teams 裝置**。
 3. 從 **動作選項卡選取** 置 **備新** 裝置。
 
 在安裝 **新裝置** 視窗中，您可以手動新增 MAC 位址或上傳檔案。
@@ -96,7 +96,7 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 當裝置已電源開啟並連接至網路時，技術人員會配置裝置。 這些步驟在裝置上Teams完成。
 
-1. 技術人員會從系統 **選取****設定。**  
+1. 技術人員 **會從裝置** 上選取 **設定。**  
 
    ![從動作選項卡中置備新裝置選項。](../media/provision-device1.png)
   

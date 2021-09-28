@@ -15,31 +15,31 @@ ms.collection:
 - M365-collaboration
 description: 瞭解如何開發和執行持續維護與作業，以確保您的Microsoft Teams 會議室系統可供使用者使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7ab88563b26faef5be188454126f3bb4df484fe4
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 4ee508c923b3241be3ecf6b9fc3234f934153888
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733582"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984668"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 會議室
 
-如果您擁有Microsoft Teams 會議室認證的裝置，則有彈性的管理選項。  您可以在 Teams管理您所有解決方案 、Microsoft Teams 系統管理中心等您所有解決方案的中央位置管理裝置，或者您也可以使用 Microsoft Teams 會議室 服務將管理責任轉移給[Microsoft Teams 會議室專家](https://portal.rooms.microsoft.com)。  您也可以將管理存取權委派給您所選擇的合作夥伴，以取得其中一個選項。
+如果您擁有Microsoft Teams 會議室認證的裝置，您擁有彈性的管理選項。  您可以在管理您所有解決方案 、Teams系統管理中心Microsoft Teams集中管理裝置，或是使用受管理服務將管理責任Microsoft Teams 會議室[專家。](https://portal.rooms.microsoft.com)  您也可以將管理存取權委派給您所選擇的合作夥伴，以取得其中一個選項。
 
-有了 Microsoft Teams系統管理中心，您可以：
+使用 Microsoft Teams系統管理中心，您可以：
 
 - 執行裝置管理，例如重新開機裝置和下載裝置記錄
-- 請Teams特定設定
-- 檢查會議室裝置及其Microsoft Teams的健康情況，包括相機、顯示器、麥克風等
-- 檢閱目前和過去的 (活動，例如通話品質、網路健康情況與連接，以及參與者) 
-- 查看已 (裝置上的) 裝置等Microsoft Teams裝置
+- 將Teams特定設定
+- 檢查會議室裝置Microsoft Teams裝置及其周邊裝置的健康情況，包括相機、顯示器、麥克風等
+- 檢閱目前和過去的會議 (，例如通話品質、網路健康情況與連接，以及參與者) 
+- 查看已 (裝置上的) 或投影機等Microsoft Teams裝置
 
-若要管理Teams 會議室，請開啟 Microsoft Teams [系統管理中心](https://admin.teams.microsoft.com)，然後前往 **裝置**  >  **Teams 會議室。**
+若要管理Teams 會議室裝置，請開啟 Microsoft Teams [系統管理中心](https://admin.teams.microsoft.com)，然後前往 Teams **裝置**  >  **Teams 會議室。**
 
 :::image type="content" source="../media/teams-rooms-summary.png" alt-text="Teams 會議室系統管理中心Teams摘要頁面。":::
 
 > [!IMPORTANT]
-> 若要使用系統管理Teams管理中心管理裝置，您必須指派全域系統管理員、Teams系統管理員或Teams系統管理員角色。
+> 若要使用系統管理中心管理Teams，您必須指派全域系統管理員、Teams系統管理員或Teams系統管理員角色。
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>變更Teams 會議室裝置
 
@@ -47,7 +47,7 @@ ms.locfileid: "58733582"
 
 ### <a name="device-settings"></a>裝置設定
 
-您可以在貴組織的一或多個裝置上變更設定。 若要變更設定，請選取您想要管理的裝置，然後選取編輯 **設定。** 新的窗格將會開啟，並包含您可以在裝置上變更的所有設定。 下表列出您可以使用系統管理中心Teams設定。 某些設定只有在您選取單一裝置時才能使用。
+您可以在貴組織的一或多個裝置上變更設定。 若要變更設定，請選取您想要管理的裝置，然後 **選取編輯** 設定。 新的窗格將會開啟，並包含您可以在裝置上變更的所有設定。 下表列出您可以使用系統管理中心Teams設定。 某些設定只有在您選取單一裝置時才能使用。
 
 如果您選取多個裝置，支援大量編輯的設定會顯示下列兩個選項。
 
@@ -93,8 +93,8 @@ ms.locfileid: "58733582"
 
 只有在裝置重新開機之後，裝置設定變更才能生效。 當您進行需要重新開機的變更時，您可以選擇是否要立即重新開機裝置或排程重新開機。 以下是可用的重新開機選項：
 
-- **立即重新開機** 如果您選擇這個選項，您進行變更的所有裝置都會在選取此選項後重新開機。
-- **排定的重新開機** 如果您選擇這個選項，您可以重新開機要變更的裝置，同時對您的組織影響較小。
+- **立即重新開機** 如果您選擇這個選項，您進行變更的所有裝置都會在選取此選項後立即重新開機。
+- **排定的重新開機** 如果您選擇這個選項，您可以重新開機要變更的裝置，同時對貴組織影響較小。
   - **選取日期和時間** - 選擇重新開機裝置的特定日期和時間。 您選取的日期和時間是重新開機之裝置的本地日期和時間。 
   - **將更新保留為夜間重新開機** 裝置會夜間重新開機以執行維護。 您對裝置進行變更，將會在此重新開機期間進行。
 
@@ -109,7 +109,7 @@ ms.locfileid: "58733582"
 
 若要移除一或多個裝置，請執行下列操作：
 
-1. 前往裝置  >  **Teams 會議室，** 然後選取您想要移除的裝置。
+1. 請Teams **裝置**  >  **Teams 會議室，** 然後選取您想要移除的裝置。
 1. 選取 **移除**。
 
 ## <a name="download-device-logs"></a>下載裝置記錄
@@ -118,13 +118,13 @@ ms.locfileid: "58733582"
 
 若要將記錄從Teams 會議室下載到您的電腦，請執行下列操作：
 
-1. 前往 **裝置Teams 會議室，** 然後選取您想要下載記錄  >  之裝置的名稱。
+1. 請Teams **裝置**  >  **Teams 會議室，** 然後選取要下載記錄之裝置的名稱。
 1. 選取 **下載裝置記錄**。 裝置記錄可能需要數分鐘的時間才能使用。
 1. 選取記錄 **選項卡** ，然後選取診斷檔案下的 **記錄檔案連結**。 包含您裝置診斷記錄檔案的 zip 檔案會下載到瀏覽器的預設下載資料夾。
 
 ## <a name="view-device-information"></a>查看裝置資訊
 
-從 Teams系統管理中心，您可以查看貴組織所有裝置的整體狀態，並個別查看每個裝置的詳細資訊。
+從 Teams系統管理中心，您可以查看組織中所有裝置的整體狀態，並個別查看每個裝置的詳細資訊。
 
 ### <a name="teams-rooms-system-dashboard"></a>Teams 會議室儀表板
 
@@ -145,7 +145,7 @@ ms.locfileid: "58733582"
 
 #### <a name="meeting-activity-details"></a>會議活動詳細資料
 
-會議室 **裝置** 詳細Teams中的活動選項卡會顯示裝置一段時間參與的所有會議之高層級和詳細資訊。 在 **活動** 選項卡中，您可以查看會議召開時間、出席會議的參與者人數，以及會議期間的音訊品質。
+會議室 **裝置** 詳細Teams中的活動選項卡會顯示裝置一段時間參與之所有會議的高層級和詳細資訊。 在 **活動** 選項卡中，您可以查看會議召開時間、出席會議的參與者人數，以及會議期間的音訊品質。
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams會議室裝置活動摘要清單。":::
 
