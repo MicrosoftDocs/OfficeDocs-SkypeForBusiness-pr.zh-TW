@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 073d9ee391b42a476b0657dbf910f8d019699358
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 2c2bda6467bf819bdf9cf82713c24e8e9cd18d9d
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991202"
+ms.locfileid: "60007793"
 ---
 # <a name="use-retail-team-templates"></a>使用零售團隊範本
 
@@ -57,7 +57,7 @@ Teams 中包括專為零售商需求設計的範本。 使用這些預先建立�
 | ------------------|-- |----------------------------------------------------- |
 |組織商店| `retailStore` |頻道： <ul><li>一般<li>班次交班</li><li>存放區整備<ul><li>檢查&sup1;</li></ul></li><li>學習</li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li><li>班次</li><li>檢查</li></ul>|
 
-&sup1;應用程式已做為索引標籤新增到頻道。
+&sup1;應用程式已做為索引標籤新增到頻道
 
 ### <a name="manager-collaboration"></a>主管共同作業
 
@@ -68,7 +68,7 @@ Teams 中包括專為零售商需求設計的範本。 使用這些預先建立�
 |零售管理員|`retailManagerCollaboration` |頻道： <ul><li>一般<li>營運<ul><li>工作 (作業工作)&sup1;</li><li>檢查&sup1;</li></ul></li><li>Learning<ul><li>工作 (Learning 工作)&sup1;</li></ul></li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li><li>檢查</li></ul>|
 ||||
 
-&sup1;應用程式已做為索引標籤新增到頻道。
+&sup1;應用程式已做為索引標籤新增到頻道
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>以 Microsoft Graph 使用團隊範本
 

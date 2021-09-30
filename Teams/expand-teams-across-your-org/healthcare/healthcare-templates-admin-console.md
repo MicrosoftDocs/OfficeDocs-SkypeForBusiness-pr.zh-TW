@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: yinchang
 description: 瞭解如何在 Teams 系統管理中心管理及使用醫療保健小組範本, 以及使用 Microsoft Graph 快速且輕鬆地為醫療保健組織建立團隊。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 00da42e4e573306a3737b1d35e89292b04df4fa4
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 5345f5e9886bbcb9e4a2274d21d2aabb0be373c6
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991122"
+ms.locfileid: "60007803"
 ---
 # <a name="use-healthcare-team-templates"></a>使用醫療保健團隊範本
 
@@ -60,7 +60,7 @@ Teams 中包括專為醫療保健組織設計的範本。 使用這些預先建�
 | 病患照護 |`healthcareWard` | 頻道：<ul><li>一般</li><li>公告<ul><li>布告欄&sup1;</li></ul></li><li>小型會議<ul><li>清單 (病患清單)&sup1;</li></ul></li><li>輪班<ul><li>檢查&sup1;</li></ul></li><li>人員</li><li>訓練</li></ul> 應用程式： <ul><li>Wiki</li><li>清單</li><li>工作</li><li>核准</li><li>班次</li><li>佈告欄</li><li>檢查</li></ul>|
 ||||
 
-&sup1;應用程式已新增到頻道做為索引標籤。
+&sup1;應用程式已做為索引標籤新增到頻道
 ### <a name="hospital"></a>醫院
 
 此範本適用於醫院內多個病房、配藥處或部門的通訊和共同作業。 此範本包含一組用於醫院作業的基本頻道, 且可延伸供進一步自訂。
@@ -70,7 +70,7 @@ Teams 中包括專為醫療保健組織設計的範本。 使用這些預先建�
 |醫院|`healthcareHospital`|頻道： <ul><li>一般<ul><li>清單&sup1;</li></ul></li><li>公告<ul><li>布告欄&sup1;</li></ul></li><li>合規性</li><ul><li>檢查&sup1;</li></ul></li><li>監管</li><li>人力資源<ul><li>構想&sup1;</li></ul></li><li>藥品部</li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li><li>清單</li><li>核准</li><li>班次</li><li>佈告欄</li><li>檢查</li><li>構想</li></ul>|
 ||||
 
-&sup1;應用程式已新增到頻道做為索引標籤。
+&sup1;應用程式已做為索引標籤新增到頻道
 ## <a name="use-team-templates-with-microsoft-graph"></a>以 Microsoft Graph 使用團隊範本
 
 開發人員可以使用 Microsoft Graph 從預先建立的團隊範本建立團隊。 若要深入瞭解以 Microsoft Graph 使用團隊範本, 請參閱[開始用 Microsoft Graph 使用團隊範本](../../get-started-with-teams-templates.md), [Microsoft Teams API 概觀](/graph/teams-concept-overview?view=graph-rest-1.0), 和[團隊範本資源類型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
