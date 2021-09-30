@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 摘要：瞭解如何將監控報告與商務用 Skype Server 所使用的鏡像資料庫相關聯。
-ms.openlocfilehash: 723d01f732259098c714eaac330eeaf8c686acac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ecdf630f6839fa65bf163715e473a3a37cdbcece
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600658"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014397"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>在商務用 Skype Server 中將監控報告與鏡像資料庫相關聯 
  
@@ -33,15 +33,15 @@ ms.locfileid: "58600658"
     
    - **Http：** 前置詞。
     
-   - 安裝 Reporting Services 之電腦的完整功能變數名稱 (FQDN)  (例如， **atl-sql-001.litwareinc.com**) 。
+   - 安裝 Reporting Services 之電腦的完整功能變數名稱 (FQDN)  (例如， `atl-sql-001.litwareinc.com`) 。
     
    - 字元字串 **/Reports_**。
     
    - 安裝監視報告的資料庫實例名稱 (例如， **而 archinst**) 。
     
-     例如，如果 SQL Server Reporting Services 已安裝在電腦 atl-sql-001.litwareinc.com，且監控報告使用資料庫實例而 archinst，則首頁 URL 會類似如下：
+     例如，如果 SQL Server Reporting Services 已安裝在電腦上， `atl-sql-001.litwareinc.com` 且監控報告使用資料庫實例而 archinst，則首頁 URL 會如下所示：
     
-     **http://atl-sql-001.litwareinc.com/Reports_archinst**
+     `http://atl-sql-001.litwareinc.com/Reports_archinst`
     
 2. 存取 Reporting Services 首頁之後，請按一下 [ **ServerReports**]，然後按一下 [ **Reports_Content**]。 這將帶您前往商務用 Skype Server 監控報告的 **Reports_Content** 頁面。
     
@@ -63,7 +63,7 @@ ms.locfileid: "58600658"
     
 7. 在 [ **CDRDB** ] 頁面上，按一下 [ **Reports_Content** ] 連結。 按一下 [ **QMSDB** ] 資料來源，然後編輯 QoE 資料庫的連接字串。 例如：
     
-    資料來源 = (local) \archinst;容錯移轉夥伴 = atl-mirror-001\archinst; 初始目錄 = QoEMetrics
+    `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     
 8. 按一下 **[套用]**。
     

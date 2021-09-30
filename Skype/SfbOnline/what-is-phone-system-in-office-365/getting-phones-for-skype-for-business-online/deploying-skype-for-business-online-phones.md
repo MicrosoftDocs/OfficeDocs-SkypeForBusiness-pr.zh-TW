@@ -21,18 +21,18 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解取得正確固件的部署步驟、如有必要更新、指派授權，以及設定線上電話商務用 Skype設定
-ms.openlocfilehash: d67badf0bd5ff27466315a5731c2ac9a2117f74e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b9724677a3217b73b727a72343f35ebe51a4de09
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728012"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011897"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>部署用商務用 Skype Online 電話
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-此為部署指南，可協助商務用 Skype Online IP 電話。
+此部署指南可協助您部署商務用 Skype IP 電話。
   
 在所有類型的企業中，擁有電話號碼可讓使用者撥打和接聽語音電話，這是進行商務的重要需求。 擁有電話號碼的使用者可以在所有裝置上撥打語音商務用 Skype IP 電話、電腦和行動裝置。 若要深入瞭解 IP 電話商務用 Skype閱讀[取得適用于線上商務用 Skype手機](getting-phones-for-skype-for-business-online.md)。
   
@@ -50,13 +50,13 @@ ms.locfileid: "58728012"
     
 ### <a name="step-2---make-sure-youre-purchasing-or-migrating-a-skype-for-business-supported-ip-phone-and-firmware"></a>步驟 2 - 確認您購買或移商務用 Skype支援的 IP 電話和固件
 
-線上商務用 Skype支援的電話和商務用 Skype Server也相容，但情況並不一定一樣。 若要確定您購買或置備支援的手機和固件，請參閱取得適用于 商務用 Skype [Online 的手機](getting-phones-for-skype-for-business-online.md)。
+線上商務用 Skype支援的電話和商務用 Skype Server也相容，但情況並不一定一樣。 若要確定您購買或置備支援的手機和固件，請參閱取得適用于線上商務用 Skype[手機](getting-phones-for-skype-for-business-online.md)。
   
 ### <a name="step-3---checking-that-the-right-firmware-is-installed-and-update-the-firmware-if-required"></a>步驟 3 - 檢查已安裝正確的固件，並在需要時更新固件
 
 檢查手機上的固件版本。 適用于：
   
-- **Polycom VVX 手機**，請前往 **設定**  >    >  **Status Platform**  >  **Application**  >  **Main**。
+- **Polycom VVX 手機**，請設定  >    >  **狀態平臺**  >  **應用程式**  >  **主。**
     
 - **Yealink 手機**，前往 **主電話** 畫面上的狀態。
     
@@ -70,9 +70,9 @@ ms.locfileid: "58728012"
 ### <a name="step-4---device-update-considerations"></a>步驟 4 - 裝置更新注意事項
 
 > [!NOTE]
-> 5.5.1.X 之前的 Polycom 固件具有製造商專用裝置鎖定機制，以 商務用 Skype "電話-Lock"取代。 使用 "Device-Lock" 保護的手機從 5.4.X.X 升級為 5.5.1.X，而使用 "電話-Lock" 不會繼承 「Device-Lock」的 PIN 碼，因為「裝置鎖定」可能會讓電話不安全。 啟用「Device-Lock」的使用者必須啟用下列 Polycom 裝置設定檔參數，讓使用者控制升級時間 (lync.deviceUpdate.popUpSK.enabled=1) 。 
+> 5.5.1.X 之前的 Polycom 固件具有製造商專用裝置鎖定機制，由 商務用 Skype"電話-Lock"取代。 使用 "device-Lock" 保護的電話從 5.4.X.X 升級為 5.5.1.X，而使用 "電話-Lock" 不會繼承 「Device-Lock」的 PIN 碼，而「裝置鎖定」可能會讓電話不安全。 啟用「Device-Lock」的使用者必須啟用下列 Polycom 裝置設定檔參數，讓使用者控制升級時間 (lync.deviceUpdate.popUpSK.enabled=1) 。 
   
-固件更新是由服務商務用 Skype管理。 每個商務用 Skype認證的手機的固件都會上傳到 商務用 Skype 補救伺服器，而且根據預設，所有手機上都會啟用裝置更新。 根據電話和投票間隔上的非啟用時間，電話會自動下載並安裝最新的認證版本。 您可以使用 [Set-CsIPPhonePolicy](/powershell/module/skype/Set-CsIPPhonePolicy) Cmdlet，將 _EnableDeviceUpdate_ 參數設定為 來停用裝置更新設定 `false` 。
+固件更新是由服務商務用 Skype管理。 每個商務用 Skype認證的手機的固件都會上傳到 商務用 Skype 補救伺服器，且裝置更新預設在所有手機上都會啟用。 根據電話和投票間隔上的非啟用時間，電話會自動下載並安裝最新的認證版本。 您可以使用 [Set-CsIPPhonePolicy](/powershell/module/skype/Set-CsIPPhonePolicy) Cmdlet，將 _EnableDeviceUpdate_ 參數設定為 來停用裝置更新設定 `false` 。
   
 ![顯示部署電話的螢幕擷取畫面。](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
@@ -91,15 +91,15 @@ ms.locfileid: "58728012"
   
 ### <a name="step-5---configuration-and-infrastructure-phone-settings"></a>步驟 5 - 設定與基礎結構電話設定
 
-您可以使用 Cmdlet 的帶內管理，商務用 Skype最常用的電話選項Windows PowerShell政策。 請參閱 [Set-CsIPPhonePolicy，](/powershell/module/skype/Set-CsIPPhonePolicy) 瞭解這些參數和設定的詳細資訊。
+您可以使用 Cmdlet 的帶內商務用 Skype設定最常用的電話選項Windows PowerShell政策。 請參閱 [Set-CsIPPhonePolicy，](/powershell/module/skype/Set-CsIPPhonePolicy) 瞭解這些參數和設定的詳細資訊。
   
-有關網路基礎結構規劃，請參閱[Skype架構](https://www.skypeoperationsframework.com/)。
+有關網路基礎結構規劃，請參閱Skype[架構](https://www.skypeoperationsframework.com/)。
   
 ### <a name="step-6---preparing-for-users-to-sign-in"></a>步驟 6 - 準備讓使用者進行登錄
 
 若要讓使用者順利登錄線上商務用 Skype電話和撥打電話，您必須確認使用者已指派正確的授權。 您至少需要指派授權電話系統通話方案。 有關其他資訊，請參閱商務用 Skype附加Microsoft Teams[授權](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)，以及指派商務用 Skype及Microsoft Teams[授權](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)。
   
-您可以閱讀電話和通話方案，以電話系統[通話方案](/microsoftteams/calling-plan-landing-page)
+您可以閱讀通話和通話方案，以[電話系統通話方案](/microsoftteams/calling-plan-landing-page)
   
 - **線上使用者** 可用的登錄選項為：
     
@@ -120,7 +120,7 @@ ms.locfileid: "58728012"
     > [!NOTE]
     > LPE 和合作夥伴 IP 電話商務用 Skype線上版不支援 PIN 驗證。 
   
-- **使用電腦** 當在乙太網路上 (BToE) 安裝軟體並啟用時，使用者可以使用其應用程式上的驗證視窗登入他們的電話Windows 商務用 Skype。 請參閱 [步驟 7 (選 ](deploying-skype-for-business-online-phones.md#BK_BTOE)) - 如果您有裝置配對，且在乙太網路上更 (BToE) 其他資訊。
+- **使用電腦** 當 BToE (BToE) 軟體安裝在使用者電腦上安裝並啟用時，使用者可以使用其應用程式上的驗證視窗登入他們的電話Windows 商務用 Skype。 請參閱[SOF Skype與 (營運架構) Skype？](https://techcommunity.microsoft.com/t5/skype-for-business-blog/what-is-skype-operations-framework-sof-and-skype-academy/ba-p/30506)以瞭解更多資訊。
     
   > [!NOTE]
   > 使用者必須使用組織的使用者名稱和密碼才能登錄電話。 例如，他們應該使用 UPN  <em>格式，例如</em>  amosm@contoso.com 名稱。
@@ -155,7 +155,7 @@ ms.locfileid: "58728012"
     
      ![顯示登入畫面上輸入代碼的螢幕擷取畫面。](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
-    確認網站顯示「[電話製造商名稱] 商務用 Skype認證電話」，**然後按一下**[**繼續**]。
+    確認網站顯示「[電話製造商名稱] 商務用 Skype **認證** 電話」，然後按一下 [**繼續**]。
     
      ![顯示名稱驗證的螢幕擷取畫面。](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
@@ -171,23 +171,25 @@ ms.locfileid: "58728012"
     > 適用于線上商務用 Skype的 LPE 電話僅能透過 USB 連線來登錄。 
   
 - **支援的部署** 下表顯示目前支援部署模型的支援驗證類型，包括 Exchange 整合、新式驗證與多重要素驗證 (MFA) ，以及 商務用 Skype Online 和內部部署。
-    
-|||||||
+
+  
+ 
+ 
+|商務用 Skype |Exchange |電話 Sign-In方法 |商務用 Skype存取 |Exchange已停用新式驗證和 MFA 的存取 |Exchange啟用新式驗證和 MFA 的存取 |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**商務用 Skype** <br/> |**Exchange** <br/> |**電話 Sign-In方法** <br/> |**商務用 Skype存取** <br/> |**Exchange已停用新式驗證和 MFA 的存取** <br/> |**Exchange啟用新式驗證和 MFA 的存取** <br/> |
-|線上  <br/> |線上  <br/> |Web 登錄  <br/> |是  <br/> |是  <br/> |是  <br/> |
-|線上  <br/> |線上  <br/> |使用者名稱/密碼  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|線上  <br/> |內部部署  <br/> |Web 登錄  <br/> |是  <br/> |否  <br/> |否  <br/> |
-|線上  <br/> |內部部署  <br/> |使用者名稱/密碼  <br/> |是  <br/> |是  <br/> |否  <br/> |
-|內部部署  <br/> |線上/內部部署  <br/> |PIN 驗證  <br/> |是  <br/> |否  <br/> |否  <br/> |
-|內部部署  <br/> |線上/內部部署  <br/> |使用者名稱/密碼  <br/> |是  <br/> |是  <br/> |不適用  <br/> |
-|內部部署  <br/> |線上/內部部署  <br/> |透過 PC (BTOE)   <br/> |是  <br/> |是  <br/> |不適用  <br/> |
+|線上   |線上   |Web 登錄   |是   |是   |是   |
+|線上   |線上   |使用者名稱/密碼   |是   |是   |否   |
+|線上   |內部部署   |Web 登錄   |是   |否   |否   |
+|線上   |內部部署   |使用者名稱/密碼   |是   |是   |否   |
+|內部部署   |線上/內部部署   |PIN 驗證   |是   |否   |否   |
+|內部部署   |線上/內部部署   |使用者名稱/密碼   |是   |是   |不適用   |
+|內部部署   |線上/內部部署   |透過 PC 或 BTOE (登錄)   |是   |是   |不適用   |
    
-- **電話功能** 根據 IP 電話合作夥伴的不同，功能集可能會稍有不同。 有關完整功能集，以及每個手機制造商功能詳細資訊，請參閱取得適用于 商務用 Skype [Online 的手機](getting-phones-for-skype-for-business-online.md)。
+- **電話功能** 根據 IP 電話合作夥伴的不同，功能集可能會稍有不同。 有關完整功能集，以及每個手機制造商功能詳細資訊，請參閱取得適用于 商務用 Skype [Online 的電話](getting-phones-for-skype-for-business-online.md)。
     
-- **電話-Lock** 是最近商務用 Skype認證電話的一項功能，可用來保護電話。 如果已啟用，系統將會要求使用者在驗證成功時建立 PIN。 建立之後，電話會在您定義的閒置超時到期時鎖定、使用者手動鎖定手機，或使用配對功能將手機鎖定與電腦鎖定電話同步處理。 如果電話鎖定 PIN 輸入錯誤數次，電話會登出使用者，或需要系統管理員程式碼才能解除鎖定電話，但這會因電話合作夥伴而異。 使用者的 PIN 應該介於 6 到 15 位數之間。
+- **電話-Lock** 是最近商務用 Skype認證電話的一項功能，可用來保護電話。 如果已啟用，系統將會要求使用者在驗證成功時建立 PIN。 建立之後，電話會在您定義的閒置超時到期時鎖定、使用者手動鎖定手機，或是使用配對功能將手機鎖定與電腦鎖定電話同步處理。 如果電話鎖定 PIN 輸入錯誤數次，電話會登出使用者，或需要系統管理員程式碼才能解除鎖定電話，但這會因電話合作夥伴而異。 使用者的 PIN 應該介於 6 到 15 位數之間。
     
-    您可以針對Phone-Lock停用 (預設為啟用的) 、變更閒置-超時，並選擇使用者是否可以在鎖定時撥打電話，或是否使用 inband-settings。 請參閱 [Set-CsUCPhoneConfiguration，](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps) 以進一步瞭解這些設定的詳細資訊。
+    您可以針對Phone-Lock停用 (預設為啟用的) 、變更空閒-超時，並選擇使用者是否可以在鎖定時撥打電話，或是否使用 inband-settings。 請參閱 [Set-CsUCPhoneConfiguration，](/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps) 以進一步瞭解這些設定的詳細資訊。
     
 ## <a name="step-7-optional---if-you-have-device-pairing-and-better-together-over-ethernet-btoe"></a>步驟 7 (選) - 如果您有裝置配對，且在乙太網路上更 (BToE) 
 <a name="BK_BTOE"> </a>
@@ -200,7 +202,7 @@ BToE 是合作夥伴 IP 電話的一種電話問題機制，可讓使用者的�
     
 - 按一下以撥打
     
-BToE 可以配置為以兩種模式操作：  *自動*  (預設) *手動*  。 您也可以針對使用帶內 (的使用者) /disabl，商務用 Skype此功能。 在手動 *模式中* 操作時，使用者必須執行額外的步驟，以將手機與應用程式配對Windows配對。
+BToE 可配置為以兩種模式操作：*自動* (預設 *) 手動。* 您也可以針對使用帶內 (的使用者) /停用商務用 Skype啟用此功能。 以手動 *模式* 操作時，使用者必須執行額外的步驟，以將手機與應用程式配對Windows配對。
   
  **將 BToE 部署到使用者**
   
@@ -228,4 +230,3 @@ BToE 可以配置為以兩種模式操作：  *自動*  (預設) *手動*  。 �
 
 [音訊會議與通話方案的適用國家/地區](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-  

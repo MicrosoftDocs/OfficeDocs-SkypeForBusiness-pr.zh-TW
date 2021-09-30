@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 摘要：瞭解如何在商務用 Skype Server 中指定 QoE 資料的保留。
-ms.openlocfilehash: 54cb02e17106d2eee61bca8c171f6b16985d0dbc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8480b5deb8007c050968c399ee20eb14755e6ba
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614083"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013947"
 ---
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>修改商務用 Skype Server 中的經驗品質設定
 
@@ -48,7 +48,7 @@ ms.locfileid: "58614083"
 
 ## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 指定 QoE 保留
 
-您可以使用 Windows PowerShell 和 **CsQoEConfiguration** Cmdlet 來建立 QoE 保留設定。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此指令程式。 如需使用遠端 Windows PowerShell 連線到商務用 Skype Server 的詳細資訊，請參閱博客文章[：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。 商務用 Skype Server 中的程式相同。
+您可以使用 Windows PowerShell 和 **CsQoEConfiguration** Cmdlet 來建立 QoE 保留設定。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此指令程式。 如需使用遠端 Windows PowerShell 連線到商務用 Skype Server 的詳細資訊，請參閱[Microsoft Lync remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 商務用 Skype Server 中的程式相同。
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>指定特定位置的 QoE 保留
 

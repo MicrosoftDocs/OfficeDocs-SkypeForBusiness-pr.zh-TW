@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 摘要：流覽下列連結，以瞭解如何開發概念、邏輯及實體設計，以設定商務用 Skype Server 2019 的功能、伺服器及拓撲。
-ms.openlocfilehash: f3db20e81646418f6f7a2b49001573155ed3fabd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 7ffc0941bfa7b98723498d567567005a167e6135
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728392"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013517"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>規劃商務用 Skype Server 2019 部署
  
@@ -35,7 +35,7 @@ ms.locfileid: "58728392"
 
 請查看下列資源，以取得如何規劃商務用 Skype Server 部署的相關資訊。
   
-||內容|說明|
+|&nbsp;|內容|描述|
 |:--- |:--- |:--- |
 |![影片圖示。](../media/get_started.png)|<UL><LI>[商務用 Skype：快速簡介](https://www.youtube.com/watch?v=PRJqMuwW5yc&amp;feature=youtu.be) </li><li>  [商務用 Skype：新增使用者的逐步指南](https://www.youtube.com/watch?v=7_c4zVJ739M&amp;feature=youtu.be)</li></ul>   |探索商務用 Skype 的影片簡報和訓練。    |
    
@@ -58,8 +58,8 @@ ms.locfileid: "58728392"
 
 您可以從其他主題專家取得下列有關如何規劃商務用 Skype Server 的資源。 
   
-|&nbsp;&nbsp;&nbsp;|內容|說明|
+|&nbsp;&nbsp;&nbsp;|內容|描述|
 |:--- |:--- |:--- |
 |![DMC 圖示。](../media/paragraph_writing.png)| [適用于 IT 專業人員的商務用 Skype Server](../../Hub/index.yml)   |流覽 docs.microsoft.com 和資源中心以存取影片、社區網站、檔、下載等等。    |
 |![開發人員內容的圖示。](../media/developer.png)|[Skype開發人員平臺](/skype-sdk/skypedeveloperplatform)   | 尋找商務用 Skype Server 的開發人員資源，包括程式碼範例、訓練與 sdk。    |
-|![新聞、博客等的圖示。](../media/blog_site.png) | <UL><LI>[變更管理和採用](https://go.microsoft.com/fwlink/p/?LinkId=532796) </LI><LI>   [Office 部落格](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365技術博客](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype 小組網路](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |從建立及記錄商務用 Skype Server 的小組中追蹤新聞。    |
+|![新聞、博客等的圖示。](../media/blog_site.png) | <UL><LI>   [Office 部落格](https://go.microsoft.com/fwlink/p/?LinkId=528899) </li><li>[Microsoft 365技術博客](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) </li><li>  [Skype 小組網路](https://go.microsoft.com/fwlink/p/?LinkId=532818) </li></ul>  |從建立及記錄商務用 Skype Server 的小組中追蹤新聞。    |

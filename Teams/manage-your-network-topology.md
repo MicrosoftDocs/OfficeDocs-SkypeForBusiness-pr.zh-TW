@@ -19,20 +19,20 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中設定雲端語音功能的網路Microsoft Teams。
-ms.openlocfilehash: 701e3900980b628f66d9d62d3dade987fee821fe
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 571b2e2f4c502a41604b5e2660d7e59990dd49bb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726572"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015337"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>管理雲端語音功能的網路拓撲Microsoft Teams
 
-如果貴組織正在部署直接[](location-based-routing-plan.md)路由或動態緊急電話的以位置[](configure-dynamic-emergency-calling.md)為基礎的路由，您必須設定網路設定，以在 Microsoft Teams 中使用這些雲端語音功能。 網路設定是用來判斷用戶端的位置，Teams網路區域、網路網站、子網和信任的 IP 位址。 根據您部署的雲端語音功能，您可以設定部分或所有設定。 若要深入瞭解這些條款，請參閱雲端 [語音功能的網路設定](cloud-voice-network-settings.md)。
+如果貴組織正在部署直接[](location-based-routing-plan.md)路由或動態緊急電話的以位置[](configure-dynamic-emergency-calling.md)為基礎的路由，您必須設定網路設定，以在 Microsoft Teams 中使用這些雲端語音功能。 網路設定可用來判斷用戶端Teams包括網路區域、網路網站、子網和信任的 IP 位址。 根據您部署的雲端語音功能，您可以設定部分或所有設定。 若要深入瞭解這些條款，請參閱雲端 [語音功能的網路設定](cloud-voice-network-settings.md)。
 
 您可以在系統管理中心的網路 **拓撲** 頁面上設定網路Microsoft Teams，或使用 Windows PowerShell。
 
-## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>在系統管理中心Microsoft Teams網路設定
+## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>在系統管理中心Microsoft Teams設定
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
@@ -50,7 +50,7 @@ ms.locfileid: "58726572"
 5. 若要將緊急服務政策指派給網站，請執行下列其中一項或兩項操作：
 
     - 如果貴組織使用通話方案或電話系統直接路由，請在緊急通話政策下，選取您想要的策略。
-    - 如果貴組織已電話系統直接路由，請在緊急呼叫 **路由策略** 下，選取您想要的策略。
+    - 如果貴組織已電話系統直接路由，請在緊急呼叫 **路由** 策略下，選取您想要的策略。
 
 6. 若要將子網與網站關聯，請按一下 [ **子網>** 下的 [ **新增子網**> 。 指定 IP 版本、IP 位址、網路範圍、新增描述，然後按一下 **[Apply.** 每個子網都必須與特定網站相關聯。
 7. 按一下 [儲存]。
@@ -63,11 +63,11 @@ ms.locfileid: "58726572"
 
 ### <a name="manage-external-trusted-ip-addresses"></a>管理外部信任的 IP 位址
 
-您可以在系統管理中心的網路拓撲頁面上，在信任 **的 IP** 選項卡上管理Microsoft Teams IP 位址。 您可以新增無限數量的外部信任 IP 位址。
+您可以在系統管理中心的網路拓撲頁面上的 "信任 IP" Microsoft Teams  IP 位址。 您可以新增無限數量的外部信任 IP 位址。
 
 #### <a name="add-a-trusted-ip-address"></a>新增信任的 IP 位址
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往 [位置網路拓撲圖》，然後按一下 [  >  ******信任的 IP>** 定位點。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 [位置網路拓撲圖》，然後按一下 [  >  ******信任的 IP？**
 2. 按一下 **[新增**。
 3. 在 [**新增信任的 IP 位址**> 窗格中，指定 IP 版本、IP 位址、網路範圍、新增描述，然後按一下 **[Apply.**
 
@@ -75,7 +75,7 @@ ms.locfileid: "58726572"
 
 #### <a name="edit-a-trusted-ip-address"></a>編輯信任的 IP 位址
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往 [位置網路拓撲圖》，然後按一下 [  >  ******信任的 IP>** 定位點。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 [位置網路拓撲圖》，然後按一下 [  >  ******信任的 IP？**
 2. 按一下 IP 位址的左側，然後按一下 [編輯>，以 **選取該 IP 位址**。
 3. 在 [**編輯信任的 IP 位址**> 窗格中，進行您想要的變更，然後按一下 **[Apply.**
 
@@ -116,7 +116,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 下表顯示在此範例中定義的網路網站。
 
-||網站 1 |網站 2 |
+|&nbsp;|網站 1 |網站 2 |
 |---------|---------|---------|
 |網站識別碼    |    第 1 (裡)      |  網站 2 (海德拉巴)        |
 |地區識別碼  |     印度 (地區 1)     |   印度 (地區 1)       |
@@ -140,11 +140,11 @@ New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskB
 
 下表顯示此範例中定義的子網。
 
-||網站 1 |網站 2 |
+|&nbsp;|網站 1 |網站 2 |
 |---------|---------|---------|
 |子網識別碼   |    192.168.0.0     |  2001：4898：e8：25：844e：926f：85ad：dd8e     |
 |面具  |     24    |   120      |
-|網站識別碼  | 在 (裡)  | 網站 2 (海德拉巴)  |
+|網站識別碼  | 印度 (裡)  | 網站 2 (海德拉巴)  |
 
 針對多個子網，您可以使用下列腳本來輸入 CSV 檔案。
 
@@ -166,7 +166,7 @@ Identity, Mask, SiteID
 另請參閱 [Set-CsTenantNetworkSubnet](/powershell/module/skype/set-cstenantnetworksubnet)。
 
 
-### <a name="define-external-subnets-external-trusted-ip-addresses"></a>定義外部子網 (外部信任的 IP 位址) 
+### <a name="define-external-subnets-external-trusted-ip-addresses"></a>定義外部子網 (信任的 IP 位址) 
 
 使用 [New-CsTenantTrustedIPAddress Cmdlet](/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) 來定義外部子網，並將其指派給租使用者。 您可以為租使用者定義無限數量的外部子網。
 

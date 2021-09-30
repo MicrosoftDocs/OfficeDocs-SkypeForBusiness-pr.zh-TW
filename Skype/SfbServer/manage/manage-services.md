@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: 本文說明如何管理在商務用 Skype Server 拓朴中執行的服務。
-ms.openlocfilehash: 45af8756feda61d0a0bac06beedddcc693591346
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be613203b9e15640ead1b136ebe1b89f4c4c50ea
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593637"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014177"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>管理商務用 Skype Server 的服務
 
@@ -55,7 +55,7 @@ ms.locfileid: "58593637"
     
 ### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>使用 Windows Powershell Cmdlet 來查看服務狀態
 
-您也可以使用 Windows PowerShell 和 **Get-CsWindowsService** Cmdlet 來查看服務狀態。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端工作階段執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線到商務用 Skype Server 的詳細資訊，請參閱博客文章[：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。 商務用 Skype Server 中的程式相同。
+您也可以使用 Windows PowerShell 和 **Get-CsWindowsService** Cmdlet 來查看服務狀態。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端工作階段執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線到商務用 Skype Server 的詳細資訊，請參閱[Microsoft Lync remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 商務用 Skype Server 中的程式相同。
   
 ### <a name="to-view-service-status"></a>若要查看服務狀態
 

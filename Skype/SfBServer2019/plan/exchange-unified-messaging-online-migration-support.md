@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Microsoft 正在撤銷2020年2月28日的 Exchange 整合通訊線上 (ExchUMO) 服務。 本文摘要說明哪些受影響客戶應知道哪些專案，以及應如何規劃其業務持續性。
-ms.openlocfilehash: 66a3446b667d000e3cd0a043e60e2f0ea0eae183
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e6d24b05b8f1c6b8d2b47533edbd9ad79c5022e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606822"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013287"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Exchange 整合通訊線上移轉支援
 
@@ -49,9 +49,9 @@ Microsoft 已識別出使用 ExchUMO 之功能的各種客戶部署，將會根�
 
 |客戶群組 |時間表  |詳細資料  |
 |---------|---------|---------|
-|準備好遷移的客戶<br><br>要遷移的功能：<br><ul><li>語音信箱</ul>   |   三月份--2019 年5月  |範例：<ul><li>    具有簡單語音信箱部署和使用狀況的客戶<li>已為 Microsoft 建立所有需求，以執行遷移的客戶<ul>|
-|具有必要條件的客戶<br><br>要遷移的功能：<br><ul><li>語音信箱<li>自動語音應答<li>通話佇列</ul> |  可能-12 月2019 |範例： <br><ul><li>混合式設定未完成<li>不會設定混合 PSTN 號碼</ul>|
-|需要系統管理員參與 & 客戶投資的客戶<br><br>要遷移的功能：<ul><li>語音 信箱<li>自動語音應答<li>通話佇列<li>傳真整合</ul>| 2020年2月  | 範例： <br><ul><li>ExchUMO 服務是由協力廠商 PBX 所使用<li>具有 PSTN 訂閱者存取需求的客戶<li>SFB 2010 (的客戶不支援) <li>傳真整合</ul> |
+|準備好遷移的客戶<br><br>要遷移的功能：<br><ul><li>語音信箱</ul>   |   三月份--2019 年5月  |範例:<ul><li>    具有簡單語音信箱部署和使用狀況的客戶<li>已為 Microsoft 建立所有需求，以執行遷移的客戶<ul>|
+|具有必要條件的客戶<br><br>要遷移的功能：<br><ul><li>語音信箱<li>自動語音應答<li>通話佇列</ul> |  可能-12 月2019 |範例: <br><ul><li>混合式設定未完成<li>不會設定混合 PSTN 號碼</ul>|
+|需要系統管理員參與 & 客戶投資的客戶<br><br>要遷移的功能：<ul><li>語音 信箱<li>自動語音應答<li>通話佇列<li>傳真整合</ul>| 2020年2月  | 範例: <br><ul><li>ExchUMO 服務是由協力廠商 PBX 所使用<li>具有 PSTN 訂閱者存取需求的客戶<li>SFB 2010 (的客戶不支援) <li>傳真整合</ul> |
 
 ## <a name="voicemail-migration-guidelines"></a>語音信箱遷移指導方針
 
@@ -113,10 +113,15 @@ Microsoft 365 和 Office 365 組織管理員都必須在 Microsoft 雲端自動�
 我們強烈建議您儘早開始設定新的自動語音應答，以避免過去分鐘的問題，並熟悉雲端自動語音應答服務的功能和經驗。 針對需要一或多個間隙功能的自動語音應答，您可以在有可用的缺口功能準備部署時，建立並測試自動語音應答。 如需差距功能的相關資訊，請參閱 [附錄](#appendix)。
 
 1. 使用 Exchange UMO Cmdlet，透過[Get-UMAutoAttendant](/powershell/module/exchange/unified-messaging/get-umautoattendant)匯出現有自動語音應答的設定。  
+
 2. 在 Exchange Online PowerShell 中使用[export-import-umprompt 指令程式](/powershell/module/exchange/unified-messaging/export-umprompt)來匯出問候語媒體檔 (如果使用) 並將其轉換成 .mp3 格式。
-3. 遵循[規劃雲端自動](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)語音應答中的指示，並[設定雲端自動](/microsoftteams/create-a-phone-system-auto-attendant)語音應答，以使用 Microsoft Teams 系統管理中心或 Powershell 來建立自動語音應答。
+
+3. 遵循[規劃雲端自動](../../SfbHybrid/hybrid/plan-cloud-auto-attendant.md)語音應答中的指示，並使用 Microsoft Teams 系統管理中心或 PowerShell[設定雲端自動](/microsoftteams/create-a-phone-system-auto-attendant)語音應答來建立自動語音應答。
+
 4. 若功能表選項變更，請複查您的問候語。
+
 5. 使用本文的「 [已知問題](#known-issues) 」區段中的「自動語音應答來電轉接至 PSTN」解決方法，設定傳送至回應群組。  
+
 6. 在內部撥打或指派測試電話號碼，以測試新的自動語音應答。  
 
 ### <a name="cutover"></a>系統轉換
@@ -129,7 +134,7 @@ Microsoft 365 和 Office 365 組織管理員都必須在 Microsoft 雲端自動�
 
 ### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>ExchUMO 和 Azure 雲端式服務功能矩陣
 
-| Service | 功能層級 | 功能 | 附註  | 雲端 VM/AA  | ExUMO |
+| 服務 | 功能層級 | 功能 | 注意事項  | 雲端 VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | VM  | 服務功能| 支援協力廠商 PBX    | 包括協力廠商 PBX 所提供的所有功能，例如 MWI (郵件等候指示器) 使用 SIP 線上 Exchange UM 通知訊息 | N   | Y    |
 | VM | 服務功能  | 支援商務用 Skype Server   |  | Y | Y    |
@@ -155,7 +160,7 @@ Microsoft 365 和 Office 365 組織管理員都必須在 Microsoft 雲端自動�
 | VM | 使用者功能 | 轉寄語音信箱  | 將收到的語音信箱轉寄給其他使用者 | Y | Y    |
 | VM | 使用者功能 | 傳送語音訊息給使用者群組  |語音信箱廣播   | N | Y   |
 | VM | 使用者功能 | 使用 SMS 的語音信箱通知    | 當使用者有新的語音信箱時，可以接收短信    | N | Y    |
-| VM | 使用者功能 | 支援的問候語語言 | 詳細資料： https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
+| VM | 使用者功能 | 支援的問候語語言 | 詳細資料：[什麼是雲端自動](/microsoftteams/what-are-phone-system-auto-attendants)語音應答？ | Y | Y    |
 | VM | 使用者功能 | 自動答錄規則 |  | Y | Y    |
 | VM | 使用者功能 | 在電話上播放 (PSTN) -播放郵件 | 在我的儲存格呼叫我收聽語音訊息  | N | Y    |
 | VM | 使用者功能 | 在電話上播放 (Auth) -播放郵件 | 在我的已驗證裝置上呼叫我  | N | Y    |
@@ -165,13 +170,13 @@ Microsoft 365 和 Office 365 組織管理員都必須在 Microsoft 雲端自動�
 | VM | 來電者功能  | 靜音偵測   |  | N | Y    |
 | VM | Tenant-Admin 功能 | 伺服器層級的受保護語音信箱    | 租使用者-系統管理員可以設定服務層級規則，將輸入的語音信箱標記為受保護 | Y | Y    |
 | VM | Tenant-Admin 功能 | 變更錄製持續時間限制  |     | Y | Y    |
-| VM | Tenant-Admin 功能 | 變更靜音偵測超時    |  | N/A    | Y    |
+| VM | Tenant-Admin 功能 | 變更靜音偵測超時    |  | 不適用    | Y    |
 | VM | Tenant-Admin 功能 | 變更輸入失敗的次數 | CVM：硬編碼為3 | N | Y    |
 | VM | Tenant-Admin 功能 | 變更預設語言 |  | Y | Y    |
 | VM | Tenant-Admin 功能 | 停用/啟用功能 |  | Y | Y    |
 | VM | Tenant-Admin 功能 | 停用/啟用未接來電通知 |  | N | Y    |
 | VM | Tenant-Admin 功能 | 協助 Microsoft 改善語音信箱預覽   這些選項可讓 Microsoft 改善語音信箱預覽的品質。    |  | Y | Y    |
-| VM | Tenant-Admin 功能 | 自訂已啟用使用者的文字訊息|  | N/A    | Y    |
+| VM | Tenant-Admin 功能 | 自訂已啟用使用者的文字訊息|  | 不適用    | Y    |
 | VM | Tenant-Admin 功能 | 應對猥褻遮罩|  | Y | N    |
 | VM | Tenant-Admin 功能 | 語音信箱原則    |   | Y | Y    |
 | VM | Tenant-Admin 功能 | 網頁入口網站管理   |  | CY19   | Y    |
@@ -182,7 +187,7 @@ Microsoft 365 和 Office 365 組織管理員都必須在 Microsoft 雲端自動�
 | 機 管 局 | 服務功能 | 支援 Microsoft Teams|  | Y | N    |
 | 機 管 局 | 服務功能 | 依名稱撥號，DTMF 輸入    |  | Y | Y    |
 | 機 管 局 | 服務功能 | 依名稱撥號、語音輸入  |  | Y | Y    |
-| 機 管 局 | 服務功能 | 多語言支援 | 此處為語言詳細資料： https://docs.microsoft.com/microsoftteams/what-are-phone-system-auto-attendants | Y | Y    |
+| 機 管 局 | 服務功能 | 多語言支援 | 語言詳細資料：[什麼是雲端自動](/microsoftteams/what-are-phone-system-auto-attendants)語音應答？ | Y | Y    |
 | 機 管 局 | 服務功能 | 轉接至操作員、CQ 或使用者 |  | Y | Y    |
 | 機 管 局 | 服務功能 | 在內部 RNL)  (轉接至 PSTN 號碼  |  | Y | Y    |
 | 機 管 局 | 服務功能 | 從外部轉接至 PSTN 號碼  |  | 請參閱下列的已知問題一節 | Y    |

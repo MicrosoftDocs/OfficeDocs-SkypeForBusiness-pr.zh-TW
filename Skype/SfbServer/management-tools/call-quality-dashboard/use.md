@@ -12,23 +12,23 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: 摘要：瞭解如何使用 [通話品質] 儀表板。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: b3bc40cb6b6519b47134fd609854911a2e969655
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 摘要：瞭解如何使用 [通話品質] 儀表板。 通話品質儀表板是商務用 Skype 伺服器的工具。
+ms.openlocfilehash: 8bd18b7be66c4ea9b3a69cd81d4c72fb641603eb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728262"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015077"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>使用商務用 Skype Server 的通話品質儀表板
 
-**摘要：** 瞭解如何使用通話品質儀表板。 通話品質儀表板是商務用 Skype Server 的工具。
+**摘要：** 瞭解如何使用通話品質儀表板。 通話品質儀表板是商務用 Skype 伺服器的工具。
 
 通話品質儀表板 (CQD) 可讓 IT 專業人員使用匯總資料，透過比較使用者群組的統計資料來識別產生媒體質量問題的問題，以識別趨勢和模式。 CQD 不會專注于解決個別通話問題，但可識別適用于許多使用者的問題和解決方案。
 
 ## <a name="call-quality-dashboard-user-guide"></a>通話品質儀表板使用者指南
 
-CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建立及組織報表。 CQD 會部署一個 SSAS cube，以匯總 QoE 度量資料庫中的資料，並可讓系統管理員即時建立及修改報告或進行調查。 雖然可以使用 Excel 直接連線到 cube，但已針對包含 QoE 資料的數個工作流程優化入口網站。 資料包括：
+CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建立及組織報表。 CQD 會部署一個 SSAS cube，以匯總 QoE 度量資料庫中的資料，並可讓系統管理員即時建立及修改報告或進行調查。 雖然您可以使用 Excel 直接連線到 cube，但已針對包含 QoE 資料的數個工作流程優化入口網站。 資料包括：
 
 - 快速存取的快取報告資料
 - 資訊共用及發佈的報告頁面深層連結
@@ -55,7 +55,7 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 
 在最上層，「音訊資料流程每月趨勢」報告會顯示所有音訊資料流程的每月趨勢。 將滑鼠移到柱狀圖中的橫條圖上方，以顯示柱狀圖所代表的資料更詳細的視圖。 按一下 [音訊資料流程每月趨勢報告] 的標題，以流覽至「受管理的 vs 音訊流量」報告，該報告會在受管理和非管理的呼叫間分割。 受管理的來電是透過有線連線從公司防火牆內部撥打的電話。 未管理的呼叫包括從公司防火牆外撥出的電話，以及透過 Wi-Fi 所進行的所有通話。
 
-其他最上層的報表稱為「使用者報告的通話品質分級長條圖」。 通話品質評級是指在來電結束時商務用 Skype 使用者指定的數位，用以指出通話的品質。 分級編號範圍介於1到5、1是最差值和5。 長條圖會顯示在一個月中指定分級的音訊通話數目。
+其他最上層的報表稱為「使用者報告的通話品質分級長條圖」。 通話品質評級是通話結束時，商務用 Skype 使用者提供的數位，用來表示通話的品質。 分級編號範圍介於1到5、1是最差值和5。 長條圖會顯示在一個月中指定分級的音訊通話數目。
 
 按一下任何報告的標題，以流覽至資料中具有更多篩選的報表。 在系統報告中，每個子報表會顯示其父報表中可用的資料子集。 解決問題的模型很簡單：調查哪個子報表會限制問題的資料或趨勢，並逐步縮小問題空間。 建立子報表的功能可讓您針對特定資料趨勢的原因，調查您自己的猜測。
 
@@ -119,7 +119,7 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 |InsideCorp |位 |是 |Bit 表示組建是否屬於公司網路的一部分。 |
 |BuildingOfficeType |Nvarchar (150)  |是 |建立 office 類型的描述。 |
 |區域 |Varchar (25)  |是 |組建所在的地區。 |
-|||||
+
 
 **CqdNetwork**
 
@@ -130,7 +130,7 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 |NetworkNameID |int |是 |（選用）對應至 CqdNetworkName table 中的列。 |
 |BuildingKey |int |是 |外鍵，符合 CqdBuilding 表格中的其中一個專案。 |
 |UpdatedDate |datetime |否 |上次更新專案的日期時間。 |
-||||||
+
 
 根據預設，此表格有一個專案 (0，' Unknown ' ) 。
 
@@ -140,7 +140,7 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 |:-----|:-----|:-----|:-----|
 |BuildingTypeId |int |否 |CqdBuildingType 表格的主鍵。 |
 |BuildingTypeDesc |char (18)  |否 |大樓類型描述。 |
-|||||
+
 
 根據預設，此表格有一個專案 (0、' Unknown '、0、null) 。
 
@@ -152,7 +152,7 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 |OwnershipTypeDesc |Varchar (25)  |否 |擁有權類型描述。 |
 |LeaseInd |Tinyint |是 |參照 CqdBuildingOwnershipType 表中另一個資料列的索引，用來識別租的大樓。 |
 |擁有者 |Varchar (50)  |是 |建立擁有者。 |
-|||||
+
 
 根據預設，此表格有一個專案 (0、' Unknown '、0、null) 。
 
@@ -165,7 +165,7 @@ CQD 是一種網頁入口網站，可根據經驗品質 (QoE) 資料，快速建
 |Phy |Nvarchar (50)  |是 |Phy 資訊。 |
 |美聯社 |Nvarchar (50)  |是 |Wifi 存取點名稱。 |
 |建築 |Nvarchar (500)  |是 |WiFi 存取點所在的大樓名稱。 |
-||||
+
 
 ## <a name="cqd-streams"></a>CQD 資料流程
 
@@ -186,7 +186,7 @@ CQD 資料流程被視為好、不良或未分類。 CQM 1.5 現在使用下列 
 |PacketLossRate |大於 0.1 (10% )  |
 |JitterInterArrival |大於30 |
 |RatioConcealedSamplesAvg |大於0.07 |
-|||
+
 
 JPDR definition = 不良通話定義減去 RatioConcealedSamplesAvg
 
@@ -205,7 +205,7 @@ CQD 不使用來電者/被叫用方欄位，而是使用 "First" 和 "Second"，
 |2 (AVMCU)  |4 (商務用 Skype)  |端點1 |端點2 |
 |2 (AVMCU)  |1 (mMediationServer)  |端點2 |端點1 |
 |4 (商務用 Skype)  |4 (商務用 Skype)  |MediaLine 的來電者 |MMediaLine 中的被呼叫者 |
-|||||
+
 
 如果兩個端點都是相同類型，則 CQD 會先將來電者專案和被叫方的第二個端點。 如需端點名稱的詳細資訊，請參閱 [此博客](/archive/blogs/jenstr/call-quality-dashboard-tips-and-tricks)。
 

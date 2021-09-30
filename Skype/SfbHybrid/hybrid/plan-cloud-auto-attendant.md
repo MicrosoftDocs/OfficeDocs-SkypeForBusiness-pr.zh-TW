@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: 使用含商務用 Skype Server 2019 的雲端自動語音應答的概覽
-ms.openlocfilehash: 19be069ac5f61c9fb2b81df76156e6752350073b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ee79c52b8aaf4518511a51cea95b16d32008694c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728432"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011507"
 ---
 # <a name="plan-cloud-auto-attendants"></a>規劃雲端自動語音應答
 
@@ -27,7 +27,7 @@ ms.locfileid: "58728432"
 
 這本身就表示，如果您想要使用整合通訊功能（如自動語音應答），則會有商務用 Skype Server 2019 的混合式實現。 如需詳細資訊，請參閱[設定商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合](configure-hybrid-connectivity.md)式連線。
 
-自動語音應答是一項雲端服務，可接受客戶來電和播放問候語、提供功能表選項，並與使用語音或撥號盤的來電者互動，以將來電路由傳送至正確目的地。 每個自動語音應答都會被指派一個 *資源帳戶* (請參閱設定) 商務用 Skype Server 2019 系統上的 [資源帳戶](configure-onprem-ra.md)，以直接連結到 Microsoft Teams 系統管理中心中的自動語音應答。 請參閱 [什麼是雲端自動](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) 語音應答？如需有關自動語音應答的詳細資訊，以及自動語音應答的選項及功能有哪些。
+自動語音應答是一項雲端服務，可接受客戶來電和播放問候語、提供功能表選項，並與使用語音或撥號盤的來電者互動，以將來電路由傳送至正確目的地。 每個自動語音應答都會被指派一個 *資源帳戶* (請參閱設定) 商務用 Skype Server 2019 系統上的 [資源帳戶](configure-onprem-ra.md)，以直接連結到 Microsoft Teams 系統管理中心中的自動語音應答。 如需自動語音應答的詳細資訊，以及自動語音應答的選項及功能，請參閱 [設定自動](/microsoftteams/create-a-phone-system-auto-attendant) 語音應答。
 
 > [!NOTE]
 > 您可以將多個 Microsoft 服務號碼、直接路由編號或混合號碼指派給自動語音應答。
@@ -37,7 +37,7 @@ ms.locfileid: "58728432"
 ![自動語音應答的圖表。](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via 商務用 Skype Server 2019
-2. 透過 [會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers.md) 和 [直接路由](/MicrosoftTeams/direct-routing-plan.md)
+2. 透過 [會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) 和 [直接路由](/microsoftteams/direct-routing-plan-media-bypass)。
 3. 透過在 Microsoft 365 或 Office 365 中的線上號碼。
 
 另請參閱：
@@ -60,7 +60,7 @@ ms.locfileid: "58728432"
    如需詳細資訊，請參閱[Plan 商務用 Skype Server 和 Microsoft 365 之間的混合](plan-hybrid-connectivity.md)式連線，或 Office 365 和[設定商務用 Skype Server 及 Microsoft 365 或 Office 365 之間的混合](configure-hybrid-connectivity.md)式連線。
 
 - 如果您要將電話號碼指派給您的自動語音應答，則需要[Office 365 企業版 E5](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)授權。
-- 為每個自動語音應答建立線上 [資源帳戶](/MicrosoftTeams/manage-resource-accounts.md) 或內部部署 [資源帳戶](configure-onprem-ra.md) ，並指派電話號碼和授權。 
+- 為每個自動語音應答建立線上 [資源帳戶](/MicrosoftTeams/manage-resource-accounts) 或內部部署 [資源帳戶](configure-onprem-ra.md) ，並指派電話號碼和授權。 
 
 ## <a name="migration-and-interoperability"></a>遷移和互通性
 

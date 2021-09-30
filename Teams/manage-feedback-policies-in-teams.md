@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何使用意見回饋政策來控制Teams中的使用者是否可以將關於Teams的意見回饋提交給 Microsoft。
-ms.openlocfilehash: 582c5e39fca8dc37cefe8b480b2ff886779f6fa0
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: 2357af358dad4407fd401b08ff75dfc2560593a2
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942098"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013007"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>管理意見Microsoft Teams
 
@@ -47,6 +47,7 @@ ms.locfileid: "59942098"
  根據您的Microsoft 365 或Office 365 協定，透過 「提供意見回饋」和「傳送意見」傳送的資料視為「支援資料」，包括否則會視為「客戶資料」或「個人資料」的資訊。
 
 
+
 **調查**
 
 使用者也可以評等他們Teams，並傳送他們給予評等的詳細資訊給我們。 此快顯視窗問卷會以即時方式顯示在 Teams。 當使用者在 **通知中選取** 提供意見回饋時，系統會顯示問卷供他們完成。
@@ -66,7 +67,9 @@ ms.locfileid: "59942098"
 若要關閉並開啟功能，請設定下列參數：
 
  - **提供意見回饋**：將 **UserInitiatedMode 參數** 設定為 **啟用** ，以允許指派該策略的使用者提供意見回饋。 將 **參數設定為** 停用會關閉功能，而指派該策略的使用者沒有提供意見回饋的選項。
+
  - **問卷**：將 **receiveSurveysMode 參數** 設定為 **啟用** ，以允許獲派策略的使用者接收問卷。 若要讓使用者收到問卷並讓他們退出宣告，請設定參數以 **啟用UserOverride**。 在 Teams中，使用者可以前往 設定  >  **隱私權**，並選擇是否要參與問卷。 將參數設定為 **停用** 會關閉功能，而獲派該政策的使用者將不會收到問卷。
+
  - **電子郵件**：使用 **AllowEmailCollection 標** 號來新增電子郵件欄位。
  - **記錄集合**：使用 **AllowLogCollection 標** 號為使用者新增記錄集合加入宣告。 記錄集合目前僅在行動版上啟用。 如需有關哪些資料透過記錄共用的詳細資訊， [請深入瞭解](https://go.microsoft.com/fwlink/?linkid=2168178)。
 

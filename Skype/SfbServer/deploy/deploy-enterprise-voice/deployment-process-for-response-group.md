@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: 商務用 Skype Server 企業語音中的回應群組部署程式與步驟。
-ms.openlocfilehash: 1cb85ac95025b71de8a071758befb5287a6fafa4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef3c5810758d7d3c4df070ca2adf70ef80025ffe
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620179"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015297"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>商務用 Skype 中回應群組的部署程式
 
@@ -77,7 +77,7 @@ ms.locfileid: "58620179"
 
 只有在您的組織需要遵守美國聯邦資訊處理標準 (FIPS) 時，才適用本節內容。
 
-若要遵守 FIPS，您需要修改應用程式層級的 Web.config 檔案，以在安裝 Web 服務後使用不同的密碼編譯演算法。 您需要指定 ASP.NET 使用三重資料加密標準 (3DES) 演算法來處理檢視狀態資料。 針對回應群組應用程式，此需求適用于回應群組設定工具和代理程式登入和登出主控台。 如需此需求的詳細資訊，請參閱 Microsoft 知識庫文章911722：「當您存取從 ASP.NET 1.1 升級為 ASP.NET 2.0 的 ASP.NET 網頁 ViewState 時，可能會收到錯誤訊息，"at] [https://go.microsoft.com/fwlink/p/?linkId=196183](https://go.microsoft.com/fwlink/p/?linkId=196183) 。
+若要遵守 FIPS，您需要修改應用程式層級的 Web.config 檔案，以在安裝 Web 服務後使用不同的密碼編譯演算法。 您需要指定 ASP.NET 使用三重資料加密標準 (3DES) 演算法來處理檢視狀態資料。 針對回應群組應用程式，此需求適用于回應群組設定工具和代理程式登入和登出主控台。
 
 若要修改 Web.config 檔案，請執行下列動作：
 

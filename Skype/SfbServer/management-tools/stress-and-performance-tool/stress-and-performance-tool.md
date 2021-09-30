@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: 在非生產或測試環境中進行容量規劃和效能調整時，會使用商務用 Skype Server 2015 的壓力和效能工具。
-ms.openlocfilehash: 381e6178994ce8d4ce2f3558bd075cf6fc3b6d43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0ce2c4f4a608f6ecba980d7f8fe77fbc2863d81d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611892"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012367"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>商務用 Skype Server 2015 應力和效能工具
  
@@ -42,27 +42,27 @@ ms.locfileid: "58611892"
 
 壓力和效能工具可以模擬下列類型的使用者負載：
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
-|立即訊息 (IM) 和目前狀態  <br/> |音訊會議  <br/> |
-|應用程式共用  <br/> |Voice over IP (VoIP) ，包括公用交換電話網路 (PTSN) 模擬  <br/> |
-|Web Access 用戶端會議  <br/> |會議自動語音應答  <br/> |
-|回應群組  <br/> |通訊群組清單延伸  <br/> |
-|通訊錄下載和通訊錄查詢  <br/> |增強型 911 (E911) 通話和位置設定檔 (撥號對應表)   <br/> |
-|重視  <br/> |資料共同作業  <br/> |
-|行動性  <br/> ||
+|立即訊息 (IM) 和目前狀態   |音訊會議   |
+|應用程式共用   |Voice over IP (VoIP) ，包括公用交換電話網路 (PTSN) 模擬   |
+|Web Access 用戶端會議   |會議自動語音應答   |
+|回應群組   |通訊群組清單延伸   |
+|通訊錄下載和通訊錄查詢   |增強型 911 (E911) 通話和位置設定檔 (撥號對應表)    |
+|重視   |資料共同作業   |
+|行動性   ||
    
 ## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>商務用 Skype Server 2015 壓力和效能工具隨附的應用程式和檔案
 
 這些應用程式屬於商務用 Skype Server 壓力和效能工具的一部分：
   
-|**工具**|**描述**|
+|工具|描述|
 |:-----|:-----|
-|UserProvisioningTool.exe  <br/> |此工具用來建立使用者和連絡人。  <br/> |
-|UserProfileGenerator.exe  <br/> |用來設定所模擬之使用者負載的特性。  <br/> |
-|LyncPerfTool.exe  <br/> |模擬使用者負載的工具。  <br/> |
-|預設的 tmx  <br/> |需要使用商務用 Skype Server 2015 記錄工具。  <br/> |
-|布建腳本範例  <br/> |根據特定案例，用來設定執行負載測試的拓撲。 您可能需要加以修改，使其與您的特定環境相關。  <br/> |
+|UserProvisioningTool.exe   |此工具用來建立使用者和連絡人。   |
+|UserProfileGenerator.exe   |用來設定所模擬之使用者負載的特性。   |
+|LyncPerfTool.exe   |模擬使用者負載的工具。   |
+|預設的 tmx   |需要使用商務用 Skype Server 2015 記錄工具。   |
+|布建腳本範例   |根據特定案例，用來設定執行負載測試的拓撲。 您可能需要加以修改，使其與您的特定環境相關。   |
    
 ## <a name="topics-in-this-section"></a>本節中的主題
 

@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: 在商務用 Skype Cloud Connector Edition 上尋找一組封裝虛擬機器，以 (vm) 執行內部部署 PSTN 連線與電話系統 (Cloud PBX) 。
-ms.openlocfilehash: bff341213e9426f72fc0a78a9076b5b784871106
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f27fdd41978cd686a7019876dedbfe63a29af9e9
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728802"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014147"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>規劃商務用 Skype Cloud Connector Edition
 
@@ -61,7 +61,7 @@ Cloud Connector Edition 是一組混合式服務，包含一組封裝式虛擬�
 
 - 雲端連接器不需要完整內部部署商務用 Skype Server 部署。
 
-    目前，雲端連接器無法與 Lync 或商務用 Skype 內部部署伺服器共存。 如果您想要將現有的 Lync 或商務用 Skype 使用者移 Microsoft 365 並持續提供內部部署的電話語音給使用者，請考慮使用現有商務用 Skype Server 部署的內部部署連線電話系統。 如需詳細資訊，請參閱[plan a 電話系統 (Cloud PBX) 方案](/microsoftteams/cloud-voice-landing-page.md)和[規劃電話系統搭配商務用 Skype Server 中的內部部署 PSTN](plan-phone-system-with-on-premises-pstn-connectivity.md)連線。
+    目前，雲端連接器無法與 Lync 或商務用 Skype 內部部署伺服器共存。 如果您想要將現有的 Lync 或商務用 Skype 使用者移 Microsoft 365 並持續提供內部部署的電話語音給使用者，請考慮使用現有商務用 Skype Server 部署的內部部署連線電話系統。 如需詳細資訊，請參閱[plan a 電話系統 (Cloud PBX) 方案](/microsoftteams/cloud-voice-landing-page)和[規劃電話系統搭配商務用 Skype Server 中的內部部署 PSTN](plan-phone-system-with-on-premises-pstn-connectivity.md)連線。
 
 - 如果您有先前的商務用 Skype 或 Lync Server 部署，而且您已擴充架構，只要您已移除環境中的所有商務用 Skype 或 lync Server 元件，便不需要清除雲端連接器部署的架構。
 
@@ -432,7 +432,7 @@ Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPo
 
 - [Office 365 URLs 和 IP 位址範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)中[URLs 的憑證吊銷清單](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)
 
-- Windows更新：[如何設定軟體更新的防火牆](https://technet.microsoft.com/library/bb693717.aspx)
+- WindowsUpdate：[管理其他 Windows 更新設定](/windows/deployment/update/waas-wu-settings)
 
 - 商務用 Skype線上系統管理員 PowerShell: \* 。 online.lync.com
 
@@ -486,7 +486,7 @@ Edge 元件必須解析 Microsoft 365 或 Office 365 服務的外部名稱，以
 |SiteName  <br/> |商務用 Skype 網站名稱;例如，西雅圖。  <br/> .ini 檔案名中的名稱： "SiteName"  <br/> 針對發行1.4.1 及更新版本，每個網站的網站名稱必須不同，且名稱必須符合 PSTN 網站（如果存在），且已在 Microsoft 365 或 Office 365 中定義。 請注意，註冊網站中的第一個裝置時，系統會自動建立 PSTN 網站。  <br/> ||
 |HardwareType  <br/> 發行1.4.1 及更新版本  <br/> |硬體類型。 預設值為 Normal。 您也可以設定為 [最小值]。  <br/> ||
 |國碼  <br/> |用於撥號的國家/地區號碼。  <br/> .ini 檔案名中的名稱： "CountryCode"  <br/> ||
-|城市  <br/> |城市 (選用) 。  <br/> .ini 檔案名中的名稱： "City"  <br/> ||
+|鄉/鎮/市/區  <br/> |城市 (選用) 。  <br/> .ini 檔案名中的名稱： "City"  <br/> ||
 |狀態  <br/> |狀態 (選用) 。  <br/> .ini 檔案名中的名稱： "State"  <br/> ||
 |基底 VM IP 位址  <br/> |將用來建立所有雲端連接器虛擬機器之 VHDX 的臨時基底 VM 的 IP 位址。 這個 IP 必須在下一個步驟中定義的周邊公司網路子網中，且需要網際網路存取權。 請務必定義公司的預設閘道和可路由傳送至網際網路的 DNS。  <br/> .ini 檔案名中的名稱： "BaseVMIP"  <br/> ||
 |WSUSServer  <br/> WSUSStatusServer  <br/> 發行1.4.1 及更新版本  <br/> |Windows Server Update Services (WSUS) （內部網路伺服器）以從 Microsoft Update 中主控更新的位址。  <br/> 如果不需要 WSUS，您可以保留空白。  <br/> ||

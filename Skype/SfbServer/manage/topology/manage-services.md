@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 瞭解如何查看服務狀態、啟動和停止服務，以及防止服務的會話。
-ms.openlocfilehash: 8c1f527e32d50624fddc1b4b261f6fbd20e97a47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 52d87c8e2f803f31496e773e82d7466a22711550
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604818"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015107"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>在商務用 Skype Server 中管理服務
 
@@ -77,7 +77,7 @@ RoleName                                  Status
 {MediationServer}                         Running
 ```
 
-如需詳細資訊，請參閱 [Get-CsWindowsService](/powershell/module/skype/Get-CsWindowsService)。
+如需詳細資訊，請參閱 [Get-CsWindowsService](/powershell/module/skype/get-cswindowsservice)。
 
 ## <a name="start-or-stop-skype-for-business-services"></a>啟動或停止商務用 Skype 服務
 

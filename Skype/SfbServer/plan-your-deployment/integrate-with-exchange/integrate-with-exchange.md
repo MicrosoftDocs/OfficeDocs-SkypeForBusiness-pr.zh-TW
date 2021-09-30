@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 摘要：請參閱本主題，以取得如何將商務用 Skype Server 與 Exchange Server 2016 或 Exchange Server 2013 整合相關的資訊。
-ms.openlocfilehash: 6c830636b8db5b2a4fba02a1a5f34489e691459c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f2650e8a18767e70ab98e8763e9ec2863e99df90
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609220"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012557"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>規劃整合商務用 Skype 和 Exchange
  
@@ -93,25 +93,25 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 
 下表說明 Exchange 和商務用 Skype 的各項線上或內部部署所支援的功能。
   
-||**Exchange 2016/2013/2010 (內部部署) + 商務用 Skype Server (內部部署)**|**Exchange Online + 商務用 Skype Server (內部部署)**|**Exchange 2010 (內部部署) + 商務用 Skype 線上**|**Exchange 2016/2013 (內部部署) + 商務用 Skype 線上**|**線上 Exchange Online + 商務用 Skype**|
+|&nbsp;|Exchange 2016/2013/2010 (內部部署) + 商務用 Skype Server (內部部署) | (內部部署) 的 Exchange Online + 商務用 Skype Server|* * Exchange 2010 (內部部署) + 商務用 Skype 線上|Exchange 2016/2013 (內部部署) + 商務用 Skype Online * *|* * Exchange Online + 商務用 Skype 線上|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|目前狀態 Outlook  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|透過 IM、PSTN 通話、Skype 通話或從 Outlook 電子郵件的視頻呼叫進行回應  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|透過 Outlook 排程及加入線上會議  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|目前狀態 Outlook Web App  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|利用 OWA 電子郵件的 IM、PSTN 通話、Skype 通話或視頻通話來回應  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|透過 Outlook Web App 排程及加入線上會議  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|行動用戶端中的 IM/目前狀態  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|在行動用戶端加入線上會議  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|根據 Outlook 的行事曆空閒/忙碌資訊發佈狀態  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|透過整合連絡人存放區 (的連絡人清單)   <br/> |Y (需要 Exchange 2016/2013)   <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|高解析度連絡人相片 (至少需要 Lync 2013 或商務用 Skype 用戶端。 不支援 LWA、行動應用程式、Lync 2010、Lync for Mac 及其他舊版用戶端。 )   <br/> |Y (需要 Exchange 2016/2013)   <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
-|會議委派  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|錯過的交談記錄及通話記錄會寫入使用者的 exchange 信箱  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |Y  <br/> |
-|在 Exchange 中封存 (IM 和會議) 中的內容  <br/> |Y (需要 Exchange 2016/2013)   <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|搜尋封存的內容  <br/> |Y (需要 Exchange 2016/2013)   <br/> |Y  <br/> |N  <br/> |N  <br/> |Y  <br/> |
-|ExchangeUM 語音信箱  <br/> |Y  <br/> |Y  <br/> |N  <br/> |N  <br/> |N  <br/> |
-|伺服器端交談記錄  <br/> |Y  <br/> |Y  <br/> |N  <br/> |Y  <br/> |Y  <br/> |
+|目前狀態 Outlook   |Y   |Y   |Y   |Y   |Y   |
+|透過 IM、PSTN 通話、Skype 通話或從 Outlook 電子郵件的視頻呼叫進行回應   |Y   |Y   |Y   |Y   |Y   |
+|透過 Outlook 排程及加入線上會議   |Y   |Y   |Y   |Y   |Y   |
+|目前狀態 Outlook Web App   |Y   |Y   |N   |N   |Y   |
+|利用 OWA 電子郵件的 IM、PSTN 通話、Skype 通話或視頻通話來回應   |Y   |Y   |N   |N   |Y   |
+|透過 Outlook Web App 排程及加入線上會議   |Y   |Y   |N   |N   |Y   |
+|行動用戶端中的 IM/目前狀態   |Y   |Y   |Y   |Y   |Y   |
+|在行動用戶端加入線上會議   |Y   |Y   |Y   |Y   |Y   |
+|根據 Outlook 的行事曆空閒/忙碌資訊發佈狀態   |Y   |Y   |Y   |Y   |Y   |
+|透過整合連絡人存放區 (的連絡人清單)    |Y (需要 Exchange 2016/2013)    |Y   |N   |N   |Y   |
+|高解析度連絡人相片 (至少需要 Lync 2013 或商務用 Skype 用戶端。 不支援 LWA、行動應用程式、Lync 2010、Lync for Mac 及其他舊版用戶端。 )    |Y (需要 Exchange 2016/2013)    |Y   |N   |Y   |Y   |
+|會議委派   |Y   |Y   |Y   |Y   |Y   |
+|錯過的交談記錄及通話記錄會寫入使用者的 exchange 信箱   |Y   |Y   |Y   |Y   |Y   |
+|在 Exchange 中封存 (IM 和會議) 中的內容   |Y (需要 Exchange 2016/2013)    |Y   |N   |N   |Y   |
+|搜尋封存的內容   |Y (需要 Exchange 2016/2013)    |Y   |N   |N   |Y   |
+|ExchangeUM 語音信箱   |Y   |Y   |N   |N   |N   |
+|伺服器端交談記錄   |Y   |Y   |N   |Y   |Y   |
 
 > [!NOTE]
 > 商務用 Skype Online 支援雲端語音信箱服務，商務用 Skype Server 2019、商務用 Skype Server 2015 和 Lync Server 2013。

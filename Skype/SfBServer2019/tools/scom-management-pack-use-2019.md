@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：瞭解如何設定您的商務用 Skype Server 2019 基礎結構，以與 System Center Operations Manager 搭配使用。
-ms.openlocfilehash: 90c40560ef1d39b462ce58b39804006dc7121024
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a58b98790b955953d916b26276e8579fb7989028
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727592"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011587"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>使用 SCOM 管理元件管理商務用 Skype Server 2019
  
@@ -42,25 +42,25 @@ ms.locfileid: "58727592"
 
 管理套件可以與 System Center Operations manager 2007 64 (R2 搭配使用，以供遷移之用 (僅) 或 System Center Operations Manager 2012 SP1 &amp; R2 (64) ) 。 下表顯示商務用 Skype Server 2019 的管理元件支援的設定： 
   
-|**設定**|**是否支援？**|
+|設定|支援？|
 |:-----|:-----|
-|Windows Server 2008 R2 operating system  <br/> Windows Server 2012R2 作業系統  <br/> |是。 在商務用 Skype Server 2019 伺服器及綜合交易觀察程式節點上。  <br/> |
-|聚簇伺服器  <br/> |不支援。  <br/> |
-|無代理監控  <br/> |不支援。  <br/> |
-|虛擬環境  <br/> |是。  <br/> |
-|加入網域的伺服器角色  <br/> |所有內部商務用 Skype Server 2019 伺服器角色必須已加入網域。  <br/> |
-|獨立伺服器角色  <br/> |商務用 Skype Server 2019 Edge server 不一定要加入網域。  <br/> |
-|拓撲限制  <br/> |部署中的所有伺服器角色都必須從相同的 Operations Manager 管理群組進行監視。  <br/> |
-|綜合交易觀察程式節點  <br/> |支援使用綜合交易記錄觀察器節點的監控案例， (需要) 其他設定。 不需要以加入網域的觀察者節點。  <br/> |
+|Windows Server 2008 R2 operating system  <br/> Windows Server 2012R2 作業系統   |是。 在商務用 Skype Server 2019 伺服器及綜合交易觀察程式節點上。   |
+|聚簇伺服器   |不支援。   |
+|無代理監控   |不支援。   |
+|虛擬環境   |是。   |
+|加入網域的伺服器角色   |所有內部商務用 Skype Server 2019 伺服器角色必須已加入網域。   |
+|獨立伺服器角色   |商務用 Skype Server 2019 Edge server 不一定要加入網域。   |
+|拓撲限制   |部署中的所有伺服器角色都必須從相同的 Operations Manager 管理群組進行監視。   |
+|綜合交易觀察程式節點   |支援使用綜合交易記錄觀察器節點的監控案例， (需要) 其他設定。 不需要以加入網域的觀察者節點。   |
    
 下表顯示綜合交易觀察器節點的容量及作業系統需求：
   
-|**硬體元件**|**最低需求**|
+|硬體元件|基本需求|
 |:-----|:-----|
-|CPU  <br/> |下列其中之一：  <br/> 64位處理器、四核心2.33GHz 或更高版本  <br/> 64位2路處理器、雙核2.33GHz 或更高版本  <br/> |
-|記憶體  <br/> |8 GB  <br/> |
-|作業系統  <br/> |Windows Server 2008 R2  <br/> Windows Server 2012 R2  <br/> |
-|網路  <br/> |1 Gbps 的網路介面卡  <br/> |
+|CPU   |下列其中之一：  <br/> 64位處理器、四核心2.33GHz 或更高版本  <br/> 64位2路處理器、雙核2.33GHz 或更高版本   |
+|記憶體   |8 GB   |
+|作業系統   |Windows伺服器 2008 r2 Windows Server 2012 r2   |
+|網路   |1 Gbps 的網路介面卡   |
    
 ## <a name="prerequisites"></a>必要條件
 
@@ -82,7 +82,7 @@ ms.locfileid: "58727592"
     
 - WatcherNode.msi
     
-## <a name="whats-new"></a>新功能
+## <a name="whats-new"></a>新增功能
 
 下列功能是商務用 Skype Server 2019 管理套件的新功能。
 
@@ -100,13 +100,13 @@ ms.locfileid: "58727592"
 
 商務用 Skype Server 2019 管理元件利用多種功能來協助您偵測和診斷問題。 這些功能可讓您即時看到商務用 Skype Server 2019 環境的健康情況。
   
-|**監控案例**|**描述**|
+|監控案例|描述|
 |:-----|:-----|
-|綜合交易  <br/> | Windows PowerShell Cmdlet，以測試及協助確保案例的高可用性，例如登入、目前狀態、IM 和會議的使用者。 <br/> 綜合交易可以從任何地理位置執行（包括企業內部、企業外及分支辦公室）。  <br/> 當綜合交易失敗時，會建立 HTML 記錄檔，以協助判斷失敗的確切性質。 這包括瞭解哪些動作失敗、每個動作的延遲、用來執行測試的命令列，以及所發生的特定錯誤。  <br/> |
-|通話可靠性警示  <br/> |商務用 Skype Server 2019 server 寫入的詳細通話記錄 (cdr) 會反映使用者是否可以連線至通話或終止通話的原因。 通話可靠性警示會查詢 CDR 資料庫，以產生警示，指出當高數目的使用者遇到對等通話或基本會議功能的連線問題時。  <br/> 案例覆蓋範圍包括音訊通話、對等立即訊息 (IM) 及其他會議功能。  <br/> |
-|媒體質量警示  <br/> |查看經驗品質 (QoE) 在每次通話結束時商務用 Skype Server 2019 用戶端所發佈的報表的資料庫查詢。 這些查詢會產生警示，以找出使用者最可能經歷通話和會議期間受損媒體質量的情況。 資料是以重要的度量單位（例如資料包延遲和遺失）為基礎，其可直接促進使用者經驗的品質。  <br/> |
-|元件狀況警示  <br/> |個別的伺服器元件會透過事件記錄檔和效能計數器來引發警示，以指出可能會對使用者案例產生重大影響的失敗條件。 這些警示指出各種情況，例如未執行的服務、高失敗率、高郵件延遲或連線問題。  <br/> |
-|依賴性狀況監控  <br/> |由於各種外部原因，商務用 Skype Server 可能會失敗。 管理元件會監視及收集可能表示嚴重問題的重要外部相依性資料。 這些相依性包括 Internet Information Services (IIS) 可用性及商務用 Skype Server 所用伺服器的 CPU。  <br/> |
+|綜合交易   | Windows PowerShell Cmdlet，以測試及協助確保案例的高可用性，例如登入、目前狀態、IM 和會議的使用者。 <br/> 綜合交易可以從任何地理位置執行（包括企業內部、企業外及分支辦公室）。  <br/> 當綜合交易失敗時，會建立 HTML 記錄檔，以協助判斷失敗的確切性質。 這包括瞭解哪些動作失敗、每個動作的延遲、用來執行測試的命令列，以及所發生的特定錯誤。   |
+|通話可靠性警示   |商務用 Skype Server 2019 server 寫入的詳細通話記錄 (cdr) 會反映使用者是否可以連線至通話或終止通話的原因。 通話可靠性警示會查詢 CDR 資料庫，以產生警示，指出當高數目的使用者遇到對等通話或基本會議功能的連線問題時。  <br/> 案例覆蓋範圍包括音訊通話、對等立即訊息 (IM) 及其他會議功能。   |
+|媒體質量警示   |查看經驗品質 (QoE) 在每次通話結束時商務用 Skype Server 2019 用戶端所發佈的報表的資料庫查詢。 這些查詢會產生警示，以找出使用者最可能經歷通話和會議期間受損媒體質量的情況。 資料是以重要的度量單位（例如資料包延遲和遺失）為基礎，其可直接促進使用者經驗的品質。   |
+|元件狀況警示   |個別的伺服器元件會透過事件記錄檔和效能計數器來引發警示，以指出可能會對使用者案例產生重大影響的失敗條件。 這些警示指出各種情況，例如未執行的服務、高失敗率、高郵件延遲或連線問題。   |
+|依賴性狀況監控   |由於各種外部原因，商務用 Skype Server 可能會失敗。 管理元件會監視及收集可能表示嚴重問題的重要外部相依性資料。 這些相依性包括 Internet Information Services (IIS) 可用性及商務用 Skype Server 所用伺服器的 CPU。   |
    
 ### <a name="alert-prioritization"></a>警示優先順序
 
@@ -124,66 +124,66 @@ ms.locfileid: "58727592"
   
 **註冊、目前狀態及連絡人支援的綜合交易**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|1  <br/> |註冊 (使用者登入)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
-|2   <br/> |通訊錄服務 (檔案下載)   <br/> |可用的 Lync Server 2010 及以上  <br/> |
-|3   <br/> |通訊錄 Web 查詢  <br/> |可用的 Lync Server 2010 及以上  <br/> |
-|4   <br/> |目前狀態  <br/> |可用的 Lync Server 2010 及以上  <br/> |
-|5   <br/> |整合聯絡資料儲存  <br/> |可用的 Lync Server 2013 及以上  <br/> |
+|1   |註冊 (使用者登入)    |可用的 Lync Server 2010 及以上   |
+|第   |通訊錄服務 (檔案下載)    |可用的 Lync Server 2010 及以上   |
+|3    |通訊錄 Web 查詢   |可用的 Lync Server 2010 及以上   |
+|4    |目前狀態   |可用的 Lync Server 2010 及以上   |
+|5   |整合聯絡資料儲存   |可用的 Lync Server 2013 及以上   |
    
 **Peer-to-Peer 服務支援的綜合交易**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|6   <br/> |Peer-to-Peer 立即訊息  <br/> |可在 Lync Server 2010 和之後使用  <br/> |
-|7   <br/> |Peer-to-Peer 音訊影片  <br/> |可在 Lync Server 2010 和之後使用  <br/> |
-|8   <br/> |MCX Peer-to-Peer 立即訊息 (mobile)   <br/> |可在2011年9月發行的 Lync Server 2010 中取得，以商務用 Skype 2019  <br/> |
+|6    |Peer-to-Peer 立即訊息   |可在 Lync Server 2010 和之後使用   |
+|7    |Peer-to-Peer 音訊影片   |可在 Lync Server 2010 和之後使用   |
+|8    |MCX Peer-to-Peer 立即訊息 (mobile)    |可在2011年9月發行的 Lync Server 2010 中取得，以商務用 Skype 2019   |
  
 > [!NOTE]
 > 商務用 Skype Server 2019 不再提供舊版行動用戶端的 MCX (行動服務) 支援。 所有目前商務用 Skype 的行動裝置都已經使用整合通訊 Web API (UCWA) 以支援立即訊息 (IM) 、目前狀態及連絡人。 具有使用 MCX 之舊版用戶端的使用者，必須升級至目前的用戶端。
   
 **支援的會議和持續聊天的綜合交易**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|9   <br/> |音訊和視訊會議  <br/> |可在 Lync Server 2010 和之後使用  <br/> |
-|10   <br/> |資料會議  <br/> |可在 Lync Server 2013 和之後使用  <br/> |
-|11   <br/> |立即訊息會議  <br/> |可在 Lync Server 2010 和之後使用  <br/> |
-|12   <br/> | 常設聊天室 <br/> |可在 Lync Server 2013 和之後使用  <br/> |
-|13  <br/> |加入 Launcher (排程的會議)   <br/> |可在 Lync Server 2013 和之後使用  <br/> |
-|14   <br/> |電話撥入式會議  <br/> |可用於商務用 Skype Server 2015 以上的版本 <br/> |
-|15   <br/> |應用程式共用會議  <br/> |可用於商務用 Skype Server 2015 以上的版本 <br/> |
-|16   <br/> |UCWA 會議 (web 會議加入)   <br/> |可用於商務用 Skype Server 2015 以上的版本 <br/> |
+|9    |音訊和視訊會議   |可在 Lync Server 2010 和之後使用   |
+|10    |資料會議   |可在 Lync Server 2013 和之後使用   |
+|11    |立即訊息會議   |可在 Lync Server 2010 和之後使用   |
+|12    | 常設聊天室  |可在 Lync Server 2013 和之後使用   |
+|13   |加入 Launcher (排程的會議)    |可在 Lync Server 2013 和之後使用   |
+|14    |電話撥入式會議   |可用於商務用 Skype Server 2015 以上的版本  |
+|15    |應用程式共用會議   |可用於商務用 Skype Server 2015 以上的版本  |
+|16    |UCWA 會議 (web 會議加入)    |可用於商務用 Skype Server 2015 以上的版本  |
    
 **網路和夥伴相依性支援的綜合交易**
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|17   <br/> |AV Edge Connectivity  <br/> |可在 Lync Server 2013 和之後使用  <br/> |
-|18   <br/> |AV Edge connectivity Exchange 整合郵件連線 (語音信箱)   <br/> |可在 Lync Server 2013 和之後使用  <br/> |
-|19  <br/> |PSTN Peer-to-Peer 通話  <br/> |可在 Lync Server 2010 和之後使用  <br/> |
-|共  <br/> |XMPP 立即訊息 (同盟)   <br/> |可在 Lync Server 2013 和之後使用  <br/> |
-| 21  <br/> |視訊互通性伺服器  <br/> |可用於商務用 Skype Server 2015 以上的版本  <br/> |
+|17    |AV Edge Connectivity   |可在 Lync Server 2013 和之後使用   |
+|18    |AV Edge connectivity Exchange 整合郵件連線 (語音信箱)    |可在 Lync Server 2013 和之後使用   |
+|19   |PSTN Peer-to-Peer 通話   |可在 Lync Server 2010 和之後使用   |
+|共   |XMPP 立即訊息 (同盟)    |可在 Lync Server 2013 和之後使用   |
+| 21   |視訊互通性伺服器   |可用於商務用 Skype Server 2015 以上的版本   |
    
 ## <a name="how-health-rolls-up"></a>狀況匯總的方式
 
 下表顯示商務用 Skype Server 監視套件之物件的健康狀態。
   
-|**Management Pack 物件**|**描述**|
+|Management Pack 物件|描述|
 |:-----|:-----|
-|商務用 Skype Server部署  <br/> |代表組織中商務用 Skype Server 2019 的部署。  <br/> |
-|商務用 Skype Server網站  <br/> |代表部署服務的不同地理位置。  <br/> |
-|商務用 Skype Server池  <br/> |為使用者提供通訊服務（如立即訊息和會議）的網站) 中的集區 (。 適用于前端集區、Edge 集區和 Director 集區，即使指定集區中只有一部電腦。  <br/> |
-|商務用 Skype Server作用  <br/> |主控商務用 Skype Server 服務的伺服器角色。  <br/> |
-|商務用 Skype Server服務  <br/> |代表在特定電腦上部署的功能 (例如，fp01.contoso.com) 上的 user service。  <br/> |
-|商務用 Skype Server元件  <br/> |服務的元件 (例如，通訊錄下載元件是 Web 服務) 的一部分。  <br/> |
-|商務用 Skype Server集區觀察程式  <br/> |針對一個集區執行的綜合交易的實例。  <br/> |
-|商務用 Skype Server註冊器觀察程式  <br/> |針對一個註冊集區執行之綜合交易的實例。  <br/> |
-|商務用 Skype Server使用者服務集區觀察程式  <br/> |針對一個使用者服務集區執行之綜合交易的實例。  <br/> |
-|商務用 Skype Server語音集區觀察程式  <br/> |在一個語音集區上執行之綜合交易的實例。  <br/> |
-|商務用 Skype Server埠觀察程式  <br/> |針對一個集區執行的埠檢查實例。  <br/> |
-|簡易 URL 觀察程式  <br/> |在部署中執行已設定的簡易 URLs HTTPS 探查。  <br/> |
+|商務用 Skype Server部署   |代表組織中商務用 Skype Server 2019 的部署。   |
+|商務用 Skype Server網站   |代表部署服務的不同地理位置。   |
+|商務用 Skype Server池   |為使用者提供通訊服務（如立即訊息和會議）的網站) 中的集區 (。 適用于前端集區、Edge 集區和 Director 集區，即使指定集區中只有一部電腦。   |
+|商務用 Skype Server作用   |主控商務用 Skype Server 服務的伺服器角色。   |
+|商務用 Skype Server服務   |代表在特定電腦上部署的功能 (例如，fp01.contoso.com) 上的 user service。   |
+|商務用 Skype Server元件   |服務的元件 (例如，通訊錄下載元件是 Web 服務) 的一部分。   |
+|商務用 Skype Server集區觀察程式   |針對一個集區執行的綜合交易的實例。   |
+|商務用 Skype Server註冊器觀察程式   |針對一個註冊集區執行之綜合交易的實例。   |
+|商務用 Skype Server使用者服務集區觀察程式   |針對一個使用者服務集區執行之綜合交易的實例。   |
+|商務用 Skype Server語音集區觀察程式   |在一個語音集區上執行之綜合交易的實例。   |
+|商務用 Skype Server埠觀察程式   |針對一個集區執行的埠檢查實例。   |
+|簡易 URL 觀察程式   |在部署中執行已設定的簡易 URLs HTTPS 探查。   |
    
 ![SCOM 匯總。](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
@@ -243,19 +243,12 @@ ms.locfileid: "58727592"
   
 - [Operations Manager 小組博客](https://blogs.technet.com/momteam/default.aspx)
     
-- [古柯 Holman 的 OpsMgr 博客](https://blogs.technet.com/kevinholman/default.aspx)
-    
 - [OpsMgr 上的想法](https://thoughtsonopsmgr.blogspot.com/)
     
-- [Raphael Burri 的博客](https://rburri.wordpress.com/)
-    
-- [BWren 的管理空間](https://blogs.technet.com/brianwren/default.aspx)
-    
-- [Ops 管理員 + +](https://blogs.msdn.com/boris_yanushpolsky/default.aspx)
     
 > [!IMPORTANT]
-> 非 Microsoft 網站上的所有資訊和內容都是由網站的擁有者或使用者所提供。 Microsoft 對本網站的資訊不做任何擔保、明確、暗示或法令。 
+> 非 Microsoft 網站上的所有資訊和內容都是由網站的擁有者或使用者所提供。 Microsoft 對本網站的資訊不做任何擔保、明確、暗示或法令。
   
-## <a name="see-also"></a>也請參閱
+## <a name="see-also"></a>另請參閱
 
 [商務用 Skype Server 2019 管理工具](../management-tools-2019.md)

@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 摘要：選擇商務用 Skype Server 的拓撲。 深入瞭解商務用 Skype Server 的伺服器組合。
-ms.openlocfilehash: ff527bc35f534de5a7c8830bbc4359626f8f09b9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3fae86501dfc0952bfb3fcf43347a1f0c9641536
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609210"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012527"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>商務用 Skype Server 的拓撲基礎
 
@@ -83,28 +83,28 @@ ms.locfileid: "58609210"
 
 在您的中央網站上部署的所有前端集區和 Standard Edition 伺服器都有下列各項，假定您已部署：
 
-||||
+|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|
-|Director 或 Director 集區  <br/> |獨立轉送伺服器或轉送伺服器集區  <br/> |Office Web Apps Server  <br/> |
-|Edge Server 或 Edge 集區  <br/> |Persistent Chat Server 或 Persistent Chat Server 集區  <br/> |監視  <br/> |
+|Director 或 Director 集區   |獨立轉送伺服器或轉送伺服器集區   |Office Web Apps Server   |
+|Edge Server 或 Edge 集區   |Persistent Chat Server 或 Persistent Chat Server 集區   |監視   |
 
 在此清單中 Exchange 整合通訊 (UM) 伺服器的位置？ 不過，如果您想要與 Exchange UM 整合，但它不是商務用 Skype Server 網站的元件，您肯定可以搭配商務用 Skype Server 使用它，因此我們不會在這裡提及。
 
 您可能會規劃多個中央網站，如果是的話，他們可以在您的中央網站上共用下列伺服器和角色：
 
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
-|獨立轉送伺服器或轉送伺服器集區  <br/> |Edge Server 或 Edge 集區  <br/> |
-|Persistent Chat Server 或 Persistent Chat Server 集區  <br/> |監視  <br/> |
+|獨立轉送伺服器或轉送伺服器集區   |Edge Server 或 Edge 集區   |
+|Persistent Chat Server 或 Persistent Chat Server 集區   |監視   |
 
 就像最後一個清單一樣，我們不會在這裡加入 Exchange UM 伺服器，因為這不是商務用 Skype Server 部署的一部分，但也在這裡也屬於相同的類別。
 
 當然，還有其他一些元件和選項會進入部署。
 
-|||||
+|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|
-|防火牆  <br/> |當您部署企業語音時，則為 PSTN 閘道 (  <br/> |Exchange如果您想要與 Exchange um 進行整合，則為 um 伺服器 ()   <br/> |DNS 負載平衡  <br/> |
-|硬體負載平衡器  <br/> |SQL Server 資料庫  <br/> |檔案共用  <br/> ||
+|防火牆   |當您部署企業語音時，則為 PSTN 閘道 (   |Exchange如果您想要與 Exchange um 進行整合，則為 um 伺服器 ()    |DNS 負載平衡   |
+|硬體負載平衡器   |SQL Server 資料庫   |檔案共用   ||
 
 ## <a name="server-roles"></a>伺服器角色
 

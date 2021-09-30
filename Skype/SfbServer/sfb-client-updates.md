@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 為 IT 專業人員供應商務用 Skype 2016、商務用 Skype 2015 和 Lync 2013 用戶端的永久版本最新更新資訊連結
-ms.openlocfilehash: bff52ddfd2a037af9bac9d79d36a2a7acd156baa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 574deac22c50cfedc71d7d289cfcbe0ecc9e8286
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581337"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013937"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer (MSI) 的商務用 Skype 版本更新
 
@@ -245,15 +245,15 @@ ms.locfileid: "58581337"
 
 ### <a name="lync-phone-edition-clients-on-download-center"></a>下載中心上的 Lync 電話 Edition 用戶端
 
-套件名稱|發行日期|
-|:--- |:--- |:--- |
+| 套件名稱 | 發行日期|
+|:--- |:--- |
 |[HP 4110 和 HP 4120 的 Lync 電話 Edition](https://www.microsoft.com/download/en/details.aspx?id=28158) | 2017 年 4 月 |
 |[Polycom CX500、Polycom CX600 和 Polycom 的 Lync 電話 Edition CX3000](https://www.microsoft.com/download/en/details.aspx?id=23866) | 2017 年 4 月 |
 |[Polycom CX700 和 LG-Nortel IP 電話8540的 Lync 電話 Edition](https://www.microsoft.com/download/en/details.aspx?id=21644) | 2015 年 12 月 |
 
 ### <a name="lync-basic-2013-software"></a>Lync Basic 2013 軟體
 
-套件名稱|發行日期|
+|套件名稱|發行日期| |
 |:--- |:--- |:--- |
 |[Lync Basic 2013 (32-位) ](https://www.microsoft.com/download/details.aspx?id=35451) | October 2012 |
 |[Lync Basic 2013 (64-位) ](https://www.microsoft.com/download/details.aspx?id=35450) | October 2012 |

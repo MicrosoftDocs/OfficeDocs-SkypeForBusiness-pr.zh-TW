@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 摘要：階段 AV 和 OAuth 商務用 Skype Server 的憑證。
-ms.openlocfilehash: 82dd1e88330bec6af7a9832fbb23429fbe457d04
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6925b8b042da41f82c505a79afcc5b7678454fbd
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619839"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012717"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中指派每個使用者的 PIN 原則
 
@@ -80,7 +80,7 @@ ms.locfileid: "58619839"
     
 ## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 指派 Per-User PIN 原則
 
-您可以使用 Windows PowerShell 和 **授與 get-cspinpolicy 指令程式** 指派每個使用者的 PIN 原則。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端工作階段執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線到商務用 Skype Server 的詳細資訊，請參閱博客文章[：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。 商務用 Skype Server 中的程式相同。
+您可以使用 Windows PowerShell 和 **授與 get-cspinpolicy 指令程式** 指派每個使用者的 PIN 原則。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端工作階段執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線到商務用 Skype Server 的詳細資訊，請參閱[Microsoft Lync 遠端 PowerShell 管理](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)」。 商務用 Skype Server 中的程式相同。
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>將每一使用者 PIN 原則指派給單一使用者
 

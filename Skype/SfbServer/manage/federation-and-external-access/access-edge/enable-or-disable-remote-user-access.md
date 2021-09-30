@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 如果您為遠端使用者啟用遠端使用者存取，支援的遠端使用者透過網際網路連線，而且不需要使用 VPN 連線，即可使用商務用 Skype Server 與內部使用者共同作業。
-ms.openlocfilehash: c20f6891b463f44fdcd424ca870fbba0826d33bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 743ec476cc1541fa4163a838f333419280779611
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608190"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014527"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用或停用遠端使用者存取
 
@@ -45,9 +45,9 @@ ms.locfileid: "58608190"
 
 5.  在 [ **編輯 Access Edge** 設定] 中，執行下列其中一項操作：
     
-      - 若要啟用組織的遠端使用者存取，請選取 [ **啟用遠端使用者存取** ] 核取方塊。
+    - 若要啟用組織的遠端使用者存取，請選取 [ **啟用遠端使用者存取** ] 核取方塊。
     
-      - 若要停用組織的遠端使用者存取，請清除 [ **啟用遠端使用者存取** ] 核取方塊。
+    - 若要停用組織的遠端使用者存取，請清除 [ **啟用遠端使用者存取** ] 核取方塊。
 
 6.  按一下 **[認可]**。
 
@@ -60,14 +60,16 @@ ms.locfileid: "58608190"
 
 ## <a name="to-enable-remote-user-access"></a>啟用遠端使用者存取
 
-  - 若要啟用遠端使用者存取，請將 **AllowOutsideUsers** 屬性的值設為 True ($True) ：
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+若要啟用遠端使用者存取，請將 **AllowOutsideUsers** 屬性的值設為 True ($True) ：
+
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $True
+```
 
 ## <a name="to-disable-remote-user-access"></a>停用遠端使用者存取
 
-  - 若要停用遠端使用者存取，請將 **AllowOutsideUsers** 屬性的值設為 False ($False) ：
-    
-        Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+若要停用遠端使用者存取，請將 **AllowOutsideUsers** 屬性的值設為 False ($False) ：
 
-
+```powershell
+Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
+```

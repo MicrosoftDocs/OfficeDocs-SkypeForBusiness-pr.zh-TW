@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 摘要：設定商務用 Skype Server 的內部部署夥伴應用程式。
-ms.openlocfilehash: 4bc1461f01c60ba1f151cfca28c979b69e08a761
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d0907d73d6a23c0a5b9a1f1725503b72c5bce993
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587175"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012617"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>設定商務用 Skype Server 的內部部署夥伴應用程式
  
 **摘要：** 設定商務用 Skype Server 的內部部署夥伴應用程式。
   
-在指派 OAuthTokenIssuer 憑證之後，您必須設定商務用 Skype Server 夥伴應用程式。  (所討論的程式會設定 Microsoft Exchange Server 2013 和 SharePoint 做為協力廠商應用程式，也就是選用的。 ) 若要設定內部部署夥伴應用程式，您必須先複製下列 Windows PowerShell 腳本，然後將程式碼貼到記事本 (或任何其他文字編輯器) 中：
+在指派 OAuthTokenIssuer 憑證之後，您必須設定商務用 Skype Server 夥伴應用程式。  (所討論的程式會設定 Microsoft Exchange Server 2013 和 SharePoint 做為協力廠商應用程式，也就是選用的。 ) 若要設定內部部署夥伴應用程式，您必須先複製下列 Windows PowerShell 腳本，並將程式碼貼到記事本 (或任何其他文字編輯器) ：
   
 ```PowerShell
 if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
@@ -74,7 +74,7 @@ else
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
-在複製代碼後，請使用 .PS1 副檔名儲存指令碼 (例如 C:\Scripts\ServerToServerAuth.ps1)。 請注意，在您執行此腳本之前，您必須將中繼資料 URLs https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 和 http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1 中繼資料 URLs 分別取代 Exchange 2013 及 SharePoint 伺服器所使用的中繼資料。 如需如何識別各自產品的中繼資料 URL 的詳細資訊，請參閱 Exchange 2013 和 SharePoint 的產品檔。
+在複製代碼後，請使用 .PS1 副檔名儲存指令碼 (例如 C:\Scripts\ServerToServerAuth.ps1)。 請注意，在您執行此腳本之前，您必須將中繼資料 URLs `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` 和 `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` 中繼資料 URLs 分別取代 Exchange 2013 及 SharePoint 伺服器所使用的中繼資料。 如需如何識別各自產品的中繼資料 URL 的詳細資訊，請參閱 Exchange 2013 和 SharePoint 的產品檔。
   
 如果您注意指令碼的最後一行，就會發現是使用此語法來呼叫 Set-CsOAuthConfiguration Cmdlet ：
   

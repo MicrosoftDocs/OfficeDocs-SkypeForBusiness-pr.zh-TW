@@ -14,16 +14,16 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解在 Microsoft Teams 中指派策略套件給使用者和群組Microsoft Teams。
+description: 瞭解在 Microsoft Teams 中將策略套件指派給使用者和群組的不同Microsoft Teams。
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: fb7d402ab8a280a724562eec7820f1cad06ea52f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 553e30fa694403b2ad5e2edfd86b53fe8231eed3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727192"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015067"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>指派策略套件給使用者和群組
 
@@ -38,8 +38,10 @@ ms.locfileid: "58727192"
 
 ### <a name="assign-a-policy-package-to-one-user"></a>將策略套件指派給一個使用者
 
-1. 在系統管理中心的左側導Microsoft Teams，**請前往使用者**，然後選取使用者。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 **使用者，然後** 選取使用者。
+
 2. 在使用者的頁面上，**選取策略**，然後在策略套件 **旁邊，選取****編輯**。
+
 3. 在指派 **策略套件窗格中** ，選取您想要指派的套件， **然後選取** 儲存 。
 
 ![Teams系統管理中心螢幕擷取畫面，以將策略套件指派給使用者。](media/assign-policypackages-user.png)
@@ -47,11 +49,16 @@ ms.locfileid: "58727192"
 ### <a name="assign-a-policy-package-to-multiple-users"></a>指派策略套件給多個使用者
 
 1. 在系統管理中心的左側導Microsoft Teams，前往策略套件，然後按一下套件名稱左側，選取您想要指派的政策套件。
+
 2. 選取 [管理使用者]。
+
 3. 在 **[管理使用者]** 窗格中，依顯示名稱或使用者名稱搜尋使用者，選取名稱，然後選取 **[新增]**。 針對要新增的每一個使用者重複此步驟。
+
 4. 新增使用者完成後，請選取 **儲存**。
 
-![Teams管理中心螢幕擷取畫面，以將策略套件指派給多個使用者。](media/assign-policypackages-multipleusers.png)
+
+![Teams系統管理中心螢幕擷取畫面，以將策略套件指派給多個使用者。](media/assign-policypackages-multipleusers.png)
+
 
 ## <a name="assign-a-policy-package-to-a-group"></a>將原則套件指派給群組
 
@@ -62,26 +69,31 @@ ms.locfileid: "58727192"
 當您指派策略套件時，系統會立即將其指派給群組。 不過，將策略指派傳播給群組成員是做為背景作業，可能需要一些時間，視群組大小而不同。 當未從群組中未指定策略，或成員新加入群組或從群組中移除時，也是如此。
 
 > [!IMPORTANT]
-> 在您開始使用之前，您必須瞭解 (優先順序規則)  ([群組](assign-policies-users-and-groups.md#group-assignment-ranking)作業) 。 [](assign-policies-users-and-groups.md#precedence-rules) 請確認您閱讀並瞭解本文 (本文中有關指派給群組[](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)之) 之需瞭解的概念。
+> 在您開始使用之前，瞭解群組作業 (優先順序規則)  ([優先順序) 。](assign-policies-users-and-groups.md#group-assignment-ranking) [](assign-policies-users-and-groups.md#precedence-rules) 請確認您閱讀並理解本文 (本文中關於指派給[](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)群組之) 中您需要瞭解的概念。
 
 ### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>將策略套件指派給系統管理中心的一組使用者
 
 1. 登入 Teams 系統管理中心。
+
 2. 在左側流覽中，前往策略套件頁面。
+
 3. 選取群組原則工作分派選項卡。
+
 4. 選取 **新增群組**，然後在指派策略套件至群組窗格中，執行下列操作：
 
-    a. 搜尋並新增要指派策略套件的群組。
+    1. 搜尋並新增要指派策略套件的群組。
 
-    b. 選取一個策略套件。
+    1. 選取一個策略套件。
 
-    C。 設定每個策略類型的排名。
+    1. 設定每個策略類型的排名。
 
-    D。 選取 **Apply**。
+    1. 選取 **Apply**。
 
-![顯示群組原則指派。](media/group-pkg-assignment.png)
+
+       ![顯示群組原則指派。](media/group-pkg-assignment.png)
 
 5. 若要管理特定策略類型的排名，請流覽至特定策略頁面。
+
 6. 若要將策略套件重新指派給群組，請先移除群組原則指派。 接著，請遵循上述步驟，將策略套件指派給群組。
 
 ### <a name="work-with-powershell"></a>使用 PowerShell
@@ -94,7 +106,7 @@ ms.locfileid: "58727192"
 
 使用 [Grant-CsGroupPolicyPackageAssignment Cmdlet](/powershell/module/teams/grant-csgrouppolicypackageassignment) 將策略套件指派給群組。 您可以使用物件識別碼、SIP 位址或電子郵件地址來指定群組。 當您指派策略套件時，請針對 (中) 類型指定[](assign-policies-users-and-groups.md#group-assignment-ranking)群組分派排名。
 
-在此範例中，我們將 Education_Teacher 策略套件指派給一個群組，其中 TeamsAppSetupPolicy 和 TeamsMeetingBroadcastPolicy 的作業排名為 1，而 TeamsMeetingPolicy 的排名為 2。
+在此範例中，我們將 Education_Teacher 策略套件指派給一個群組，其 TeamsAppSetupPolicy 和 TeamsMeetingBroadcastPolicy 的作業排名為 1，而 TeamsMeetingPolicy 的排名為 2。
 
 ```powershell
 Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79f69" -PackageName "Education_Teacher" -PolicyRankings "TeamsAppSetupPolicy, 1", "TeamsMeetingBroadcastPolicy, 1", "TeamsMeetingPolicy, 2"
@@ -110,13 +122,13 @@ Grant-CsGroupPolicyPackageAssignment -GroupId "dae90bb4-120f-4a3e-a15d-30f142e79
 
 ### <a name="use-the-teams-powershell-module"></a>使用 Teams PowerShell 模組
 
-執行下列操作，Microsoft Teams[安裝 PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模組 (如果您尚未安裝) 。 請確定您安裝版本 1.0.5 或更新版本。
+如果您尚未安裝[PowerShell Microsoft Teams，](https://www.powershellgallery.com/packages/MicrosoftTeams)請執行下列 (安裝 PowerShell 模組) 。 請確定您安裝版本 1.0.5 或更新版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
 ```
 
-執行下列操作以連接到Teams並啟動會話。
+執行下列操作以連接到Teams並開始會話。
 
 ```powershell
 Connect-MicrosoftTeams
@@ -134,13 +146,13 @@ New-CsBatchPolicyPackageAssignmentOperation -Identity 1bc0b35f-095a-4a37-a24c-c4
 
 ### <a name="see-the-status-of-a-batch-assignment"></a>查看批次作業的狀態
 
-執行下列操作以取得批次工作分派的狀態，其中 OperationId 是 Cmdlet 針對指定批次所返回 ```New-CsBatchPolicyAssignmentOperation``` 的作業識別碼。
+執行下列操作以取得批次工作分派的狀態，其中 OperationId 是 Cmdlet 針對指定批次所返回 `New-CsBatchPolicyAssignmentOperation` 的作業識別碼。
 
 ```powershell
 $Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | fl
 ```
 
-如果輸出顯示發生錯誤，請執行下列操作以取得有關錯誤的詳細資訊，這些資訊會顯示在 ```UserState``` 屬性中。
+如果輸出顯示發生錯誤，請執行下列操作以取得有關錯誤的詳細資訊，這些資訊會顯示在 `UserState` 屬性中。
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367076044 | Select -ExpandProperty UserState
@@ -153,4 +165,4 @@ Get-CsBatchPolicyAssignmentOperation -OperationId f985e013-0826-40bb-8c94-e5f367
 - [使用Teams管理](manage-teams-with-policies.md)
 - [在中管理Microsoft Teams](manage-policy-packages.md)
 - [TeamsPowerShell 概觀](teams-powershell-overview.md)
-- [在 Teams 中指派Teams - 開始使用](policy-assignment-overview.md)
+- [在 Teams 中指派策略 - 開始使用](policy-assignment-overview.md)

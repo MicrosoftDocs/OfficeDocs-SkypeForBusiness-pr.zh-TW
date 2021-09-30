@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: 閱讀此主題以瞭解如何檢查您是否有商務用 Skype 的軟體大量授權。
-ms.openlocfilehash: 23ea556a8afd7160e20a1ddd0b4e1d044761d4d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dadb373bacd5af72c11d8e8945825acce7bc5b5e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583327"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011527"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype會議室系統：商務用 Skype 軟體授權
  
@@ -30,8 +30,6 @@ Skype會議室系統使用已安裝的商務用 Skype 用戶端，需要軟體�
 如果 KMS 已到位，且將散佈商務用 Skype 大量授權啟用，Skype 的會議室系統會自動啟用商務用 Skype 用戶端。 若要找出 KMS 是否正確：
   
 在命令提示字元下，執行：  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
-  
-如需詳細資訊，請參閱 how [to 探索 Office，並透過 DNS Windows KMS 主機，並移除未授權的實例](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx)。 
   
 若要設定 KMS，請參閱[KMS 啟用 Office 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15))和[gvlk，以進行 KMS 和 Active Directory 啟用 Office 2013](/DeployOffice/vlactivation/gvlks)
   

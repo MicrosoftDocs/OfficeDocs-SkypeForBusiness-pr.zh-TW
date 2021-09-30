@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d7eac555d5b48bb704e2699c99eff7c1a2969cc3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733432"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012757"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何為一線員工大規模佈建 Teams
 
@@ -203,7 +203,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 應用程式會釘選到應用程式列。這是位於 Teams 桌面用戶端側邊和 Teams 行動用戶端 (iOS 和 Android) 底部的列。
 
-|Teams 桌面用戶端  |         |Teams 行動用戶端  |
+|Teams 桌面用戶端  | &nbsp; |Teams 行動用戶端  |
 |---------|---------|---------|
 |![將應用程式釘選到應用程式列的 Teams 桌面用戶端螢幕擷取畫面。](media/flw-teams-desktop-client.png)         |         |![將應用程式釘選到底部列的 Teams 行動用戶端螢幕擷取畫面。](media/flw-teams-mobile-client.png) |
 

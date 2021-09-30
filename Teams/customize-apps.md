@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在應用程式中自訂Microsoft Teams。
-ms.openlocfilehash: 00dbb1105805b524f72ba5925abff7d36e61851b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c5e42bd498c1332d2b36c03ec661ae488fcf16aa
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730222"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015017"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>自訂應用程式Microsoft Teams
 
- Microsoft Teams提供應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂Teams應用程式。管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新 **Teams應用程式屬性**。 您可以自訂的詳細資訊有：
+ Microsoft Teams提供應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂Teams應用程式。系統管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新 **Teams應用程式屬性**。 您可以自訂的詳細資訊有：
 
 - 簡短名稱
 - 簡短描述
@@ -39,10 +39,10 @@ ms.locfileid: "58730222"
 - 大綱圖示
 - 強調色彩
 
-請參閱Teams清單[架構](/microsoftteams/platform/resources/schema/manifest-schema)，以瞭解有關您可以自訂之欄位的詳細資訊。
+請參閱Teams[清單架構](/microsoftteams/platform/resources/schema/manifest-schema)，以瞭解有關您可以自訂之欄位的詳細資訊。
 
 > [!NOTE]
-> 目前不支援在高政府社群雲端 GCCH (或) DoD (中) 自訂應用程式。
+> 目前不支援自訂應用程式政府社群雲端 (GCCH) 或 (DoD) 中。
 > 目前，此功能不適用於側載應用程式Microsoft Teams應用程式。
 
 ## <a name="customize-the-apps-details"></a>自訂應用程式詳細資料
@@ -50,7 +50,9 @@ ms.locfileid: "58730222"
 若要開始自訂應用程式，請完成下列步驟：
 
 1. 登入 Teams 系統管理中心。
-2. 展開 **Teams應用程式**，然後選取 **管理應用程式**。
+
+2. 展開 **Teams 應用程式**，然後選取 **管理應用程式**。
+
 3. 檢查應用程式 **清單** 的可自訂欄，並按可自訂的應用程式排序。
 
    ![已排序的自訂欄。](media/customize-column.png)
@@ -85,11 +87,11 @@ ms.locfileid: "58730222"
 
 5. 展開圖示 **區** 段。
 
-   a. Upload圖示。 在 PNG 格式的 192x192 (圖元) 全色圖示。
+   1. Upload圖示。 在 PNG 格式的 192x192 (使用一個全) 圖示。
 
-   b. 選擇圖示外邊框色彩。 使用一個 32x32 (32x32) PNG 格式的透明外邊框。
+   1. 選擇圖示外邊框色彩。 使用一個 32x32 (32x32) PNG 格式的透明外邊框。
 
-   C。 選取符合圖示的應用程式強調色彩。
+   1. 選取符合圖示的應用程式強調色彩。
 
     ![自訂圖示面板色彩選項。](media/customize-app-colors.png)
 
@@ -137,7 +139,7 @@ ms.locfileid: "58730222"
 
 1. 登入 Teams 系統管理中心。
 
-2. 展開 **Teams應用程式**，然後選取 **管理應用程式**。
+2. 展開 **Teams 應用程式**，然後選取 **管理應用程式**。
 
 3. 選取應用程式名稱。
 

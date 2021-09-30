@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: 若要讓使用者在 (雲端 PBX) 上使用電話系統，您必須先將它們啟用企業語音並為其指派電話號碼。 您可以使用內部部署來執行這項作業，而使用者仍會駐留在內部部署中。
-ms.openlocfilehash: 28943670a0919d80c96c97b7574cdc82ac68cfde
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 29fd1eff47a73c7e3469ab7967a1f7cb0a006a75
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613692"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012507"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>在內部部署上啟用使用者企業語音
  
@@ -51,7 +51,7 @@ ms.locfileid: "58613692"
     
 7. 在 [**電話語音**] 下，按一下 [**企業語音**]。
     
-8. 按一下 [ **行 URI**]，然後輸入唯一的標準化電話號碼 (例如電話： + 14255550200) 。 然後按一下 [ **認可**]。
+8. 按一下 [ **行 URI**]，然後輸入唯一的標準化電話號碼 (例如， `tel:+14255550200`) 。 然後按一下 [ **認可**]。
     
 ## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>在內部部署企業語音啟用使用者時的特殊考慮
 

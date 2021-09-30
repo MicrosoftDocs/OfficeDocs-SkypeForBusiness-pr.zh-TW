@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: 閱讀此主題以瞭解如何使用 Microsoft Operations Management Suite (OMS) 來監視您的雲端連接器版本2.1 和更新版本。
-ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cf8a79b9b504b5a98592a169d3a507eb938353b9
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729022"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012307"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>使用 Operations Management Suite (OMS) 監控 Cloud Connector
 
@@ -164,7 +164,7 @@ OMS 中有兩種警示類型： [結果] 警示和 [衡量度量值] 警示的�
 
     查詢使用電腦  *包含 "MediationServer"*  的電腦篩選。 篩選器只會選取其名稱中包含字串 "MediationServer" 的電腦。
 
-     您可以將篩選取代為您自己的電腦篩選，也可以只加以移除。 您可以建立沒有正則運算式的複雜字串篩選。 如需詳細資訊，請參閱 [String operators](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators)。 您也可以選擇使用正則運算式。 此外，您可以儲存搜尋查詢，並使用該群組做為提醒查詢中的電腦篩選，以建立電腦群組。 如需詳細資訊，請參閱 [Log Analytics 記錄搜尋中的電腦群組](/azure/log-analytics/log-analytics-computer-groups)。
+     您可以將篩選取代為您自己的電腦篩選，也可以只加以移除。 您可以建立沒有正則運算式的複雜字串篩選。 您也可以選擇使用正則運算式。 此外，您可以儲存搜尋查詢，並使用該群組做為提醒查詢中的電腦篩選，以建立電腦群組。 如需詳細資訊，請參閱 [Log Analytics 記錄搜尋中的電腦群組](/azure/log-analytics/log-analytics-computer-groups)。
 
     在每一部電腦上，錯誤查詢都會取得 RTCMEDSRV 服務啟動和服務停止的最後一個事件記錄檔。 如果最後一個事件是服務停止事件，它會傳回一個記錄，否則會傳回一個記錄。如果最後一個事件是服務啟動事件，它會傳回 nothing。 簡而言之，查詢會傳回 RTCMEDSRV 已停止在時間範圍內的伺服器清單。 
 
@@ -246,14 +246,12 @@ search *| where Computer contains "MediationServer" | where (Type == "Perf" or T
 
 - LS： MediationServer 呼出通話 (_Total) 作用中 \- 媒體旁路通話
 
-## <a name="see-also"></a>也請參閱
+## <a name="see-also"></a>另請參閱
 
 如需使用 OMS 的詳細資訊，請參閱下列各項：
 
 - [在記錄分析中使用記錄搜尋來尋找資料](/azure/log-analytics/log-analytics-log-searches)
 
-- [Azure 記錄分析語言參考](https://docs.loganalytics.io/docs/Language-Reference)
-
 - [瞭解記錄分析中的警示](/azure/log-analytics/log-analytics-alerts)
 
-- [在 Azure 中連線 Windows 電腦到記錄分析服務](/azure/log-analytics/log-analytics-windows-agents)
+- [將 Windows 電腦連線到 Azure 中的 Log Analytics 服務](/azure/log-analytics/log-analytics-windows-agents)

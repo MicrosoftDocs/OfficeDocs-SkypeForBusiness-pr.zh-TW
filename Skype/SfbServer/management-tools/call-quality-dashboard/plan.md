@@ -1,5 +1,5 @@
 ---
-title: 規劃商務用 Skype Server 的通話品質儀表板
+title: 商務用 Skype Server：規劃通話品質儀表板
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 摘要：瞭解在規劃通話品質儀表板時所應考慮的事項。
-ms.openlocfilehash: d50b8eba500a6197eb12bad98de0ef72c054f26b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6e77e3e6dc4441c7089df9ef6cc0d08c9f3ad270
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728852"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011547"
 ---
-# <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>規劃商務用 Skype Server 的通話品質儀表板 
+# <a name="skype-for-business-server-plan-for-call-quality-dashboard"></a>商務用 Skype Server：規劃通話品質儀表板 
  
 **摘要：** 深入瞭解當您規劃通話品質儀表板時應考慮的事項。
   
@@ -118,12 +118,12 @@ CQD 提供 QoE 資料封存，以及對通話品質資料的快速與深入分�
 CQD 附帶數個元件，而且可協助您瞭解每個元件的需求及其相互關聯，以取得最簡單且最適合的工具部署。 下表說明每個 CQD 元件的相依元件。
   
 
-|**元件名稱**|**相依元件**|
+|元件名稱|相依元件|
 |:-----|:-----|
-|QoE 封存  <br/> |Microsoft SQL Server  <br/> |
-|立方體  <br/> |Microsoft SQL ServerAnalysis Services  <br/> |
-|入口網站  <br/> |Microsoft 資訊服務  <br/> |
-|存放庫服務 (入口網站的部分安裝)   <br/> |Microsoft SQL Server  <br/> |
+|QoE 封存   |Microsoft SQL Server   |
+|立方體   |Microsoft SQL ServerAnalysis Services   |
+|入口網站   |Microsoft 資訊服務   |
+|存放庫服務 (入口網站的部分安裝)    |Microsoft SQL Server   |
    
 > [!NOTE]
 > 針對 QoE 封存及 Cube，某些部署選項需要 Microsoft SQL Server 的商務智慧或 Enterprise 版本。 如需詳細資訊，請參閱下列的 [CQD 區段基礎結構需求](plan.md#Infrastructure_Req) 。
@@ -161,17 +161,17 @@ CQD 不會合並多個 QoEMetrics 資料庫中的資料，就像在有多個商�
 
 CQD，包括其所有元件和相依元件，都可以部署在虛擬機器、單一機器或跨多部機器上。 下表列出最低軟體和硬體需求。 資料可用性和查詢效能可能會根據使用中商務用 Skype Server 使用者與硬體及設定的數目而定，因此以下提供一些效能度量。
   
-|||
-|:-----|:-----|
-|針對 CQD 2015 <br/> |  <br/> |
-|支援的作業系統  <br/> |WindowsServer 2008 r2，Windows Server 2012，Windows Server 2012 R2  <br/> |
-|支援的 SQL Server  <br/> |SQL Server 2012 SQL Server 2014，SQL Server 2016  <br/> |
 
-|||
+|針對 CQD 2015 |&nbsp;  |
 |:-----|:-----|
-|針對 CQD 2019 <br/> |  <br/> |
-|支援的作業系統  <br/> |Windows Server 2016，Windows Server 2019  <br/> |
-|支援的 SQL Server  <br/> |SQL Server 2017，SQL Server 2019  <br/> |
+|支援的作業系統   |WindowsServer 2008 r2，Windows Server 2012，Windows Server 2012 R2   |
+|支援的 SQL Server   |SQL Server 2012 SQL Server 2014，SQL Server 2016   |
+
+
+|針對 CQD 2019  |&nbsp;  |
+|:-----|:-----|
+|支援的作業系統   |Windows Server 2016，Windows Server 2019   |
+|支援的 SQL Server   |SQL Server 2017，SQL Server 2019   |
    
 CQD 利用 Microsoft SQL Server、Microsoft SQL Server Analysis Services 和 Microsoft Internet Information Services，因此 CQD 的硬體和軟體需求基本與從屬元件相同。 不過，根據組織對資料新鮮度的需求 (，取決於組織產生) 和部署成本的 QoE 資料量，應進行其他部署考慮。
   
@@ -193,27 +193,27 @@ CQD 中的資料處理分為兩個主要階段：
   
 **電腦設定檔**
 
-|**機器**|**CPU 核心**|**RAM**|**QoE 相同磁片上的封存和 Cube**|**在相同磁片上 QoE 封存及 SQL Temp DB**|
+|機器|CPU 核心|RAM|QoE 相同磁片上的封存和 Cube|在相同磁片上 QoE 封存及 SQL Temp DB|
 |:-----|:-----|:-----|:-----|:-----|
-|虛擬機器  <br/> |4   <br/> |7 GB  <br/> |是  <br/> |是  <br/> |
-|4核心  <br/> |4   <br/> |20 GB  <br/> |是  <br/> |否  <br/> |
-|8核心  <br/> |8   <br/> |32 GB  <br/> |是  <br/> |否  <br/> |
-|16核心  <br/> |16   <br/> |128 GB  <br/> |否  <br/> |否  <br/> |
+|虛擬機器   |4    |7 GB   |是   |是   |
+|4核心   |4    |20 GB   |是   |否   |
+|8核心   |8    |32 GB   |是   |否   |
+|16核心   |16    |128 GB   |否   |否   |
    
 **效能結果**
 
-|**機器**|**QoE 度量 DB 大小**|**SQL 磁碟分割**|**磁片類型**|**資料流程數目**|**初始封存處理常式**|**初始 Cube 處理常式**|**後續的封存處理常式**|**後續 Cube 處理常式**|
+|機器|QoE 度量 DB 大小|SQL 磁碟分割|磁片類型|資料流程數目|初始封存處理常式|初始 Cube 處理常式|後續的封存處理常式|後續 Cube 處理常式|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|虛擬機器  <br/> |900 MB  <br/> |單一  <br/> |VHD (可變大小)   <br/> |.5 M  <br/> |30 m  <br/> |2 m  <br/> |30秒  <br/> |1 m  <br/> |
-|虛擬機器  <br/> |9 GB  <br/> |單一  <br/> |VHD (可變大小)   <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
-|虛擬機器  <br/> |9 GB  <br/> |單一  <br/> | (固定大小的 VHD)   <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
-|虛擬機器  <br/> |30 + GB  <br/> |單一  <br/> | (固定大小的 VHD)   <br/> |10 M  <br/> |15 h  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
-|8核心  <br/> |9 GB  <br/> |單一  <br/> |多個磁片  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
-|8核心  <br/> |9 GB  <br/> |多個  <br/> |多個磁片  <br/> |5 M  <br/> |2 h  <br/> |15 m  <br/> |35 s  <br/> |2 m  <br/> |
-|8核心  <br/> |30 + GB  <br/> |單一  <br/> |多個磁片  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
-|8核心  <br/> |30 + GB  <br/> |多個  <br/> |多個磁片  <br/> |20 M  <br/> |9 h  <br/> |30 m  <br/> |2 m  <br/> |2 m  <br/> |
-|4核心  <br/> |200 GB  <br/> |單一  <br/> |多個磁片  <br/> |125 M  <br/> |6 + 天  <br/> |7 h  <br/> |2 m  <br/> |6 h  <br/> |
-|16核心  <br/> |500 GB  <br/> |多個  <br/> |多個主軸  <br/> |250 M  <br/> |8天  <br/> |2 h  <br/> |2 m  <br/> |10 m  <br/> |
+|虛擬機器   |900 MB   |單一   |VHD (可變大小)    |.5 M   |30 m   |2 m   |30秒   |1 m   |
+|虛擬機器   |9 GB   |單一   |VHD (可變大小)    |5 M   |4 h   |15 m   |1 m   |5 m   |
+|虛擬機器   |9 GB   |單一   | (固定大小的 VHD)    |5 M   |2 h   |5 m   |1 m   |5 m   |
+|虛擬機器   |30 + GB   |單一   | (固定大小的 VHD)    |10 M   |15 h   |20 m   |2 m   |45 m   |
+|8核心   |9 GB   |單一   |多個磁片   |5 M   |2 h   |5 m   |25 s   |5 m   |
+|8核心   |9 GB   |多個   |多個磁片   |5 M   |2 h   |15 m   |35 s   |2 m   |
+|8核心   |30 + GB   |單一   |多個磁片   |20 M   |9 h   |20 m   |1 m   |20 m   |
+|8核心   |30 + GB   |多個   |多個磁片   |20 M   |9 h   |30 m   |2 m   |2 m   |
+|4核心   |200 GB   |單一   |多個磁片   |125 M   |6 + 天   |7 h   |2 m   |6 h   |
+|16核心   |500 GB   |多個   |多個主軸   |250 M   |8天   |2 h   |2 m   |10 m   |
    
 \*這些不會在實際部署中遇到，因為 QoE 度量資料庫必須分別有9和18個月的資料，但在這裡提供這些資料是完整的。
   
@@ -295,11 +295,9 @@ add-windowsfeature Web-Server, Web-Static-Content, Web-Default-Doc, Web-Asp-Net,
 ```
 
 支援下列 SQL Server 版本：
-  
-|||
-|:-----|:-----|
-| CQD 2015 <br/> |  SQL Server 2012 SQL Server 2014，SQL Server 2016  |
-|CQD 2019 <br/> |  SQL Server 2017，SQL Server 2019  |
+
+- CQD 2015： SQL Server 2012 SQL Server 2014，SQL Server 2016
+- CQD 2019： SQL Server 2017，SQL Server 2019 
     
 出於效能原因，建議使用商業智慧或 Enterprise edition。 這些版本允許使用可同時處理的多個分割檔，這對於處理跨越多個月或更長時間的資料非常有用。 
   

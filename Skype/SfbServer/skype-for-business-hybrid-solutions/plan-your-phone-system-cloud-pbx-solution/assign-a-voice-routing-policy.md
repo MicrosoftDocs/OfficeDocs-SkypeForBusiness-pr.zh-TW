@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 摘要：閱讀此主題以瞭解如何使用具有內部部署 PSTN 連線的電話系統，為使用者指派語音原則。
-ms.openlocfilehash: a3524c77cf27dc4fd9ab3a4f74211fc9040aad75
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa31624921aefd1065b0719966af1df9d2b38793
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582537"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013167"
 ---
 # <a name="assign-a-voice-routing-policy"></a>指派語音路由原則
  
@@ -37,10 +37,10 @@ ms.locfileid: "58582537"
   
 其他語音原則定義使用者可以使用哪些通話功能;這個語音原則是由 Microsoft 定義的，且與內部部署 PSTN 連線使用者的所有電話系統都是相同的。 它會自動指派給電話系統使用者。
   
-||**內部部署使用者**|**使用內部部署 PSTN 連線使用者電話系統**|
+|&nbsp;|內部部署使用者|使用內部部署 PSTN 連線使用者電話系統|
 |:-----|:-----|:-----|
-|通話中定義的功能  <br/> |語音原則  <br/> |預先定義的語音原則，會在使用者授權電話系統時自動指派。  <br/> |
-|關聯的 PSTN 使用方式記錄  <br/> |語音原則  <br/> |語音路由原則，已指派使用者仍在內部部署。  <br/> |
+|通話中定義的功能   |語音原則   |預先定義的語音原則，會在使用者授權電話系統時自動指派。   |
+|關聯的 PSTN 使用方式記錄   |語音原則   |語音路由原則，已指派使用者仍在內部部署。   |
    
 您可以執行下列步驟使用內部部署，而使用者仍是位於內部部署中。
   
@@ -112,4 +112,4 @@ ms.locfileid: "58582537"
 
 在此範例中，具有顯示名稱小明凱利的使用者會指派給先前建立的語音原則，名稱為 HybridVoice。
   
-如需有關語音路由策略的詳細資訊，請參閱[建立或修改語音原則和設定 PSTN 使用方式記錄的商務用 Skype 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)、 [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)及[Grant-CsVoicePolicy](/powershell/module/skype/grant-csvoicepolicy?view=skype-ps)。
+如需有關語音路由策略的詳細資訊，請參閱[建立或修改語音原則和設定 PSTN 使用方式記錄的商務用 Skype 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md)、 [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy)及[Grant-CsVoicePolicy](/powershell/module/skype/grant-csvoicepolicy)。

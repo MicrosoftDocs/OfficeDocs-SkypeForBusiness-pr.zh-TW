@@ -23,12 +23,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 瞭解如何設定Microsoft Teams商務用 Skype，以使用其他語言作為組織的預設語音信箱問候語。
-ms.openlocfilehash: f204cdfca0be7eab5964b2c9c50c57f306af94ff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c509edf6efa2fe660a59772f3266e6d49be8d31
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607870"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014417"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>變更問候語和電子郵件的預設語言
 
@@ -36,7 +36,7 @@ ms.locfileid: "58607870"
   
  **首先，請閱讀這項重要資訊：**
   
-- **可用的語言** 是由貴組織的位置所決定。 例如，如果您的組織位於美國，您可以將預設語言設定為英文或西班牙文。 如果貴組織位於加拿大，您可以選擇英文和法文。 如要瞭解 Teams 和 商務用 Skype 中支援的語言清單，請參閱下列內容：
+- **可用的語言** 是由貴組織的位置所決定。 例如，如果您的組織位於美國，您可以將預設語言設定為英文或西班牙文。 如果貴組織位於加拿大，您可以選擇英文和法文。 如要瞭解 Teams 和 商務用 Skype 支援的語言清單，請參閱下列內容：
   - [Microsoft Teams支援的語言](languages-for-voicemail-greetings-and-messages.md)
   - [商務用 Skype支援的語言](/skypeforbusiness/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages)
 
@@ -45,15 +45,15 @@ ms.locfileid: "58607870"
   > [!NOTE]
   > 使用者可以在登錄後透過他們的設定來變更自己的問候語語言。 詳細資訊，請參閱變更商務用 Microsoft 365[顯示語言和時區](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
   
-- **您想要錄製外發語音信箱訊息嗎？** 請參閱[檢查商務用 Skype和選項](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。 適用于Microsoft Teams - 使用者可以從桌面Teams[變更語音信箱設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- **您想要錄製外發語音信箱訊息嗎？** 請參閱[檢查商務用 Skype和選項](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。 適用于Microsoft Teams - 使用者可以從桌面用戶端設定Teams[語音信箱設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
-- **您想要變更語音信箱提示語言嗎？** 針對 商務用 Skype - [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) 並選擇提示語言下 **的新語言**。 適用于Microsoft Teams - 使用者可以從桌面用戶端設定Teams[語音信箱問候語](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- **您想要變更語音信箱提示語言嗎？** 針對 商務用 Skype [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) - 並選擇提示語言 **下的新語言**。 適用于Microsoft Teams - 使用者可以從桌面用戶端設定Teams[語音信箱問候語](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
 
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>變更貴組織中每個人的系統語言
 
 1. 使用全域系統管理員 [帳戶在](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 中登錄 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 。
 
-2. 在 Microsoft 365 系統管理中心 中，選擇 **設定設定**  >    >  **設定檔**。
+2. 在 Microsoft 365 系統管理中心 中，選擇  >  **設定設定**  >  **設定檔**。
 
      ![螢幕擷取畫面顯示設定選擇組織設定檔。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
   
@@ -65,17 +65,17 @@ ms.locfileid: "58607870"
 
 5. 選擇 **儲存**。
 
-## <a name="related-articles-for-the-admin"></a>系統管理員的相關文章
+## <a name="related-articles-for-the-admin"></a>適用于系統管理員的相關文章
 
 - [電話系統和通話方案](calling-plan-landing-page.md)
 
 - [設定通話方案](set-up-calling-plans.md)
 
-- [在 電話系統中Microsoft 365或Office 365內部部署 PSTN 連接商務用 Skype Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+- [在 電話系統中Microsoft 365或Office 365內部部署 PSTN 商務用 Skype Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
 
 ## <a name="related-topics"></a>相關主題
 
-- [變更商務用或商務用 Microsoft 365 Office 365顯示語言和時區](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
+- [在商務用或商務用 Microsoft 365變更Office 365語言和時區](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
 
 - [在 2010 及Office新增語言或設定語言喜好設定) ](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
 

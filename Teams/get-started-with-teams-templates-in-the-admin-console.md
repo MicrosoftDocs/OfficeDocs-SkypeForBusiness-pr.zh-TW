@@ -1,5 +1,5 @@
 ---
-title: 在系統管理中心開始使用Teams範本
+title: 在 Teams 系統管理中心開始使用團隊範本
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -18,14 +18,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 19333badf3df580129ab7a805cf27c670748d299
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 30d2ef7baf485e617ac5d703659a79d6f57e7f76
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991142"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011777"
 ---
-# <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在系統管理中心開始使用Teams範本
+# <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在 Teams 系統管理中心開始使用團隊範本
 
 **尚未支援 EDU 客戶建立自訂範本的能力。**
 
@@ -69,19 +69,19 @@ ms.locfileid: "59991142"
 
 | 範本類型 | TemplateId | 此範本提供的屬性 |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| 採用Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  頻道： <ul><li>一般</li> <li>公告</li> <li>冠軍角</li> <li>小組表單</li><li>行事曆</li></ul> 應用程式： <ul><li>Wiki</li>  <li>頻道日曆</li> <li>里程碑</li><li>公告</li></ul>|
-| 管理專案 |`com.microsoft.teams.template.ManageAProject`| 頻道： <ul><li>一般</li> <li>公告</li> <li>資源</li> <li>規劃</li></ul> 應用程式：<ul><li>Wiki</li><li>OneNote</li><li>任務</li><li>清單</li><li>Power Automate</li></ul> |
-| 管理活動|`com.microsoft.teams.template.ManageAnEvent` | 頻道： <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與公關</li></ul> 應用程式：<ul><li>Wiki</li><li>網站</li> <li>YouTube</li> <li>任務</li> <li>OneNote</li> <li>員工的想法</li> <li>問題報訊者</li><li>Power Automate</li><li>公告</li><li>里程碑</li></ul> |
-|上載員工|`com.microsoft.teams.template.OnboardEmployees` | 頻道： <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用程式：<ul><li>Wiki</li><li>社區</li><li>任務</li><li>員工的想法</li><li>Power Automate</li><li>公告</li><li>里程碑</li></ul>|
-|組織服務台| `com.microsoft.teams.template.OrganizeHelpDesk`|頻道：<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用程式：<ul><li>Wiki</li><li>OneNote</li><li>任務 </li><li>稱讚</li><li>問題報訊者</li><li>Power Automate</li><li>公告</li></ul> |
-| 病患照護| `com.microsoft.teams.template.healthcareWard`| 頻道：<ul><li>一般</li><li>公告</li><li>過程中討論</li><li>輪次</li><li>人員</li><li>訓練</li></ul> 應用程式： <ul><li>Wiki</li><li>清單  </li><li>批准</li><li>公告</li><li>檢驗</li></ul>|
-| 危機通訊 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 頻道： <ul><li>一般<li>公告</li><li>世界新訊</li><li>內部通訊</li><li>外部通訊</li><li>核准要求</li><li>客戶升級</li><li>主管更新</li><li>規劃</li><li>物流</li></ul>應用程式： <ul><li>網站</li><li>任務</li><li>問題報訊者</li><li>批准</li><li>公告</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
-|銀行分行| `com.microsoft.teams.template.CollaborateWithinABankBranch`|頻道： <ul><li>一般<li>公告</li><li>過程中討論</li><li>客戶會議</li><li>核准要求 </li><li>教練</li><li>技能開發</li><li>貸款處理</li><li>客戶抱怨</li><li>榮譽</li><li>有趣的專案</li><li>合規性</li></ul>應用程式：<ul><li>稱讚 </li><li>問題報訊者</li><li>Wiki</li><li>行事曆</li><li>批准</li><li>公告</li><li>想法</li></ul>|
-|事件回應| `com.microsoft.teams.template.CoordinateIncidentResponse`|頻道： <ul><li>一般<li>公告</li><li>物流</li><li>規劃</li><li>恢復</li><li>緊急</li></ul> 應用程式： <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>任務</li> <li>批准</li> <li>檢驗</li> <li>Power Automate</li><li>公告</li><li>里程碑</li></ul>|
-|醫院| `com.microsoft.teams.template.healthcareHospital` |頻道： <ul><li>一般</li><li>公告</li><li>合規性</li><li>監管</li><li>人力資源</li><li>藥品部</li></ul> 應用程式： <ul><li>Wiki</li><li>清單</li><li>任務</li><li>批准</li><li>班次</li><li>公告</li><li>檢驗</li><li>想法</li></ul>|
-|組織商店| `com.microsoft.teams.template.retailStore` |頻道： <ul><li>一般<li>班次交班</li><li>儲存準備狀態</li><li>學習</li></ul> 應用程式： <ul><li>Wiki</li><li>任務</li><li>班次</li><li>檢驗</li></ul>|
-|適用于主管的零售| `com.microsoft.teams.template.retailManagerCollaboration` |頻道： <ul><li>一般<li>營運</li><li>學習</li></ul> 應用程式： <ul><li>Wiki</li><li>任務</li><li>檢驗</li></ul>|
-|品質和安全性 |`com.microsoft.teams.template.QualitySafety`|頻道： <ul><li>一般<li>公告</li><li>領導</li><li>維護</li><li>第 1 條生產線</li><li>第 2 條生產線</li><li>第 3 條生產線</li><li>健康與安全</li><li>訓練</li><li>有趣的專案</li></ul> 應用程式： <ul><li>Wiki</li><li>任務</li> <li>問題報訊者</li> <li>檢驗</li> </ul>|
+| 採用Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  頻道： <ul><li>一般</li> <li>公告</li> <li>冠軍角</li> <li>小組表單</li><li>行事曆</li></ul> 應用程式： <ul><li>Wiki</li>  <li>頻道日曆</li> <li>里程碑</li><li>佈告欄</li></ul>|
+| 管理專案 |`com.microsoft.teams.template.ManageAProject`| 頻道： <ul><li>一般</li> <li>公告</li> <li>資源</li> <li>規劃</li></ul> 應用程式：<ul><li>Wiki</li><li>OneNote</li><li>工作</li><li>清單</li><li>Power Automate</li></ul> |
+| 管理活動|`com.microsoft.teams.template.ManageAnEvent` | 頻道： <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與公關</li></ul> 應用程式：<ul><li>Wiki</li><li>網站</li> <li>YouTube</li> <li>工作</li> <li>OneNote</li> <li>員工的想法</li> <li>問題報訊者</li><li>Power Automate</li><li>佈告欄</li><li>里程碑</li></ul> |
+|上載員工|`com.microsoft.teams.template.OnboardEmployees` | 頻道： <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用程式：<ul><li>Wiki</li><li>社區</li><li>工作</li><li>員工的想法</li><li>Power Automate</li><li>佈告欄</li><li>里程碑</li></ul>|
+|組織服務台| `com.microsoft.teams.template.OrganizeHelpDesk`|頻道：<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用程式：<ul><li>Wiki</li><li>OneNote</li><li>工作 </li><li>稱讚</li><li>問題報訊者</li><li>Power Automate</li><li>佈告欄</li></ul> |
+| 病患照護| `com.microsoft.teams.template.healthcareWard`| 頻道：<ul><li>一般</li><li>公告</li><li>過程中討論</li><li>輪次</li><li>人員</li><li>訓練</li></ul> 應用程式： <ul><li>Wiki</li><li>清單  </li><li>核准</li><li>佈告欄</li><li>檢查</li></ul>|
+| 危機通訊 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 頻道： <ul><li>一般<li>公告</li><li>世界新訊</li><li>內部通訊</li><li>外部通訊</li><li>核准要求</li><li>客戶升級</li><li>主管更新</li><li>規劃</li><li>物流</li></ul>應用程式： <ul><li>網站</li><li>工作</li><li>問題報訊者</li><li>核准</li><li>佈告欄</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
+|銀行分行| `com.microsoft.teams.template.CollaborateWithinABankBranch`|頻道： <ul><li>一般<li>公告</li><li>過程中討論</li><li>客戶會議</li><li>核准要求 </li><li>教練</li><li>技能開發</li><li>貸款處理</li><li>客戶抱怨</li><li>榮譽</li><li>有趣的專案</li><li>合規性</li></ul>應用程式：<ul><li>稱讚 </li><li>問題報訊者</li><li>Wiki</li><li>行事曆</li><li>核准</li><li>佈告欄</li><li>構想</li></ul>|
+|事件回應| `com.microsoft.teams.template.CoordinateIncidentResponse`|頻道： <ul><li>一般<li>公告</li><li>物流</li><li>規劃</li><li>恢復</li><li>緊急</li></ul> 應用程式： <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>工作</li> <li>核准</li> <li>檢查</li> <li>Power Automate</li><li>佈告欄</li><li>里程碑</li></ul>|
+|醫院| `com.microsoft.teams.template.healthcareHospital` |頻道： <ul><li>一般</li><li>公告</li><li>合規性</li><li>監管</li><li>人力資源</li><li>藥品部</li></ul> 應用程式： <ul><li>Wiki</li><li>清單</li><li>工作</li><li>核准</li><li>班次</li><li>佈告欄</li><li>檢查</li><li>構想</li></ul>|
+|組織商店| `com.microsoft.teams.template.retailStore` |頻道： <ul><li>一般<li>班次交班</li><li>存放區整備</li><li>學習</li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li><li>班次</li><li>檢查</li></ul>|
+|零售管理員| `com.microsoft.teams.template.retailManagerCollaboration` |頻道： <ul><li>一般<li>營運</li><li>學習</li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li><li>檢查</li></ul>|
+|品質和安全性 |`com.microsoft.teams.template.QualitySafety`|頻道： <ul><li>一般<li>公告</li><li>領導</li><li>維護</li><li>第 1 條生產線</li><li>第 2 條生產線</li><li>第 3 條生產線</li><li>健康與安全</li><li>訓練</li><li>有趣的專案</li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li> <li>問題報訊者</li> <li>檢查</li> </ul>|
 
 ### <a name="team-templates-by-category-and-industry"></a>按類別和產業分類的團隊範本
 
@@ -112,7 +112,7 @@ ms.locfileid: "59991142"
 
 ## <a name="manage-team-templates"></a>管理小組範本
 
-### <a name="manage-team-templates-in-the-teams-admin-center"></a>在系統管理中心管理Teams範本
+### <a name="manage-team-templates-in-the-teams-admin-center"></a>在系統管理中心管理團隊範本
 
 #### <a name="view-team-templates"></a>查看小組範本
 
@@ -134,13 +134,13 @@ ms.locfileid: "59991142"
 
 使用下列 Cmdlet 在 PowerShell 中管理範本。
 
-- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps) 
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps)
 - [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
 - [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps) 
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps)
 - [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
 
 ## <a name="related-articles"></a>相關文章
 
 - [從範本建立團隊](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
-- [開始使用 Microsoft Graph](get-started-with-teams-templates.md) 
+- [開始用 Microsoft Graph 使用團隊範本](get-started-with-teams-templates.md) 

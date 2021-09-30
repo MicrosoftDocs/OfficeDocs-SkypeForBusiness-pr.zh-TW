@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在單一位置尋找及管理商務用 Skype Server 2015/2019 和 Lync 2013 的更新。 使用此頁面上的連結取得更新的詳細資訊，然後下載更新。
-ms.openlocfilehash: 4f9b8e4de19778d2ded55f14e0de894528590d50
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: e90155c15909ca876362990ba2754e4b136d2ac6
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432305"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012377"
 ---
 # <a name="skype-for-business-server-updates"></a>商務用 Skype Server 更新
 
-在單一位置尋找及管理[商務用 Skype Server 2019](#skype-for-business-server-2019-update-history)、[商務用 Skype Server 2015](#skype-for-business-server-2015-update-history)、 [lync server 2013](#lync-server-2013-update-history)和[Lync server 2010](#lync-server-2010-update-history)的更新。 使用此頁面上的連結取得更新的詳細資訊，然後下載更新。
+在單一位置尋找及管理 [商務用 Skype server 2019](#skype-for-business-server-2019-update-history)、 [商務用 skype server 2015](#skype-for-business-server-2015-update-history)、  [Lync server 2013](#lync-server-2013-update-history)和 [lync server 2010](#lync-server-2010-update-history) 的更新。 使用此頁面上的連結取得更新的詳細資訊，然後下載更新。
 
-如需最新的商務用 Skype 線上及 Microsoft 365 更新，請參閱[Microsoft 365 藍圖](https://go.microsoft.com/fwlink/p/?linkid=529454)。
+如需最新的商務用 Skype Online 和 Microsoft 365 更新，請參閱 [Microsoft 365 藍圖](https://go.microsoft.com/fwlink/p/?linkid=529454)。
 
 ## <a name="skype-for-business-server-2019-update-history"></a>商務用 Skype Server 2019 更新歷程記錄
 
@@ -38,7 +38,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 |商務用 Skype Server 2019 累計更新3修復程式1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 7 月 |
 |商務用 Skype Server 2019 累計更新3 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 3 月 |
 |商務用 Skype Server 2019 累計更新2 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 年 12 月 |
-|商務用 Skype Server 2019 累積更新1修復程式1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 年 9 月 |
+|商務用 Skype Server 2019 累計更新1修復程式1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 年 9 月 |
 |商務用 Skype Server 2019 累計更新1|[KB 4470124](https://support.microsoft.com/kb/4470124)| 2019 年 7 月 |
 | | | |
 
@@ -64,14 +64,14 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 |商務用 Skype Server 2015 累計更新11|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2020年5月13日 |
 |商務用 Skype Server 2015 累計更新10修復程式1|[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 8 月 |
 |商務用 Skype Server 2015 累計更新10 |[KB 3061064](https://support.microsoft.com/kb/3061064)| 2019 年 7 月 |
-|商務用 Skype Server 2015，Web 元件伺服器的累計更新9|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 年 5 月 |
-|商務用 Skype Server 2015、前端伺服器及 Edge server 的累計更新8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019 年 1 月|
-|商務用 Skype Server 2015、前端伺服器及 Edge server 的累計更新7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018 年 7 月 |
-|商務用 Skype Server 2015、前端伺服器及 Edge server 的累計更新6修復程式2 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018 年 3 月 |
-|商務用 Skype Server 2015、前端伺服器及 Edge server 的累計更新6修復程式1 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018 年 1 月 |
+|商務用 Skype Server 2015 的累計更新9（Web 元件伺服器）|[KB 4487981](https://support.microsoft.com/kb/4487981)| 2019 年 5 月 |
+|商務用 Skype Server 2015、前端伺服器及 Edge Server 的累計更新8|[KB 4464355](https://support.microsoft.com/kb/4464355)|2019 年 1 月|
+|適用于商務用 Skype Server 2015、前端伺服器及 Edge server 的累計更新7 |[KB 4340904](https://support.microsoft.com/kb/4340904) |2018 年 7 月 |
+|適用于商務用 Skype Server 2015、前端伺服器及 Edge server 的累計更新6修復程式2 |[KB 4086059](https://support.microsoft.com/kb/4086059) |2018 年 3 月 |
+|適用于商務用 Skype Server 2015、前端伺服器及 Edge server 的累計更新6修復程式1 |[KB 4074701](https://support.microsoft.com/kb/4074701)|2018 年 1 月 |
 |商務用 Skype Server 2015、前端伺服器及 Edge server 的累計更新6|[KB 4036312](https://support.microsoft.com/kb/4036312) |2017 年 12 月 |
 |商務用 Skype Server 2015、前端伺服器及 Edge server 的累計更新5  |[KB 4012621](https://support.microsoft.com/kb/4012621) |2017 年 5 月 |
-|商務用 Skype Server 2015、前端伺服器及 Edge server 的累計更新4修復程式1 |[KB 3207506](https://support.microsoft.com/kb/3207506) |2017 年 2 月 |
+|適用于商務用 Skype Server 2015、前端伺服器及 Edge server 的累計更新4修復程式1 |[KB 3207506](https://support.microsoft.com/kb/3207506) |2017 年 2 月 |
 |商務用 Skype Server 2015、前端伺服器及 Edge server 的累計更新4 |[KB 3199093](https://support.microsoft.com/kb/3199093) |2017 年 11 月 |
 |商務用 Skype Server 2015、前端伺服器及 Edge server 的累計更新3 |[KB 3149227](https://support.microsoft.com/kb/3149227) |2016 年 6 月 |
 |商務用 Skype Server 2015、前端伺服器及 Edge server 的累計更新2 |[KB 3134260](https://support.microsoft.com/kb/3134260) |2016 年 3 月 |
@@ -157,7 +157,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 | Lync Connectivity Analyzer (64-位) 已撤銷 |2017 年 6 月 |
 | Lync Server 2013 最佳做法分析程式 |October 2012 |
 |[Lync Server 2013 容量計算機](https://www.microsoft.com/download/details.aspx?id=36828) |2013 年 7 月 |
-|[Lync Server 2013 調試工具](https://www.microsoft.com/download/details.aspx?id=35453) |2014年1月 |
+|Lync Server 2013 調試工具 |2014年1月 |
 | Lync Server 2013 管理套件 |2016 年 5 月 |
 | Lync Server 2013 Persistent Chat Resource 工具組 |2013 年 7 月 |
 | Lync Server 2013 規劃工具 |2013 年 7 月 |

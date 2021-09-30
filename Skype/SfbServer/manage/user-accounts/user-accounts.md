@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: 本文中的各節說明如何啟用、暫時停用或移除 Active Directory 使用者商務用 Skype Server。
-ms.openlocfilehash: a604e08ad23f00f8eaf0342254df4563c0a6b864
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8e33d22c8a4e3359a7fdbbb4c8420f3a0e65f5a4
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622185"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015157"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>管理商務用 Skype Server 的使用者帳戶
 
@@ -115,7 +115,7 @@ ms.locfileid: "58622185"
 
 ### <a name="use-windows-powershell-to-disable-or-re-enable-user-accounts"></a>使用 Windows Powershell 以停用或重新啟用使用者帳戶
 
-您可以暫時停用使用者帳戶，然後再使用 **Set-CsUser** Cmdlet 重新啟用使用者帳戶。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此指令程式。 如需使用遠端 Windows PowerShell 連線到商務用 Skype Server 的詳細資訊，請參閱博客文章[：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。 商務用 Skype Server 中的程式相同。
+您可以暫時停用使用者帳戶，然後再使用 **Set-CsUser** Cmdlet 重新啟用使用者帳戶。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此指令程式。 如需使用遠端 Windows PowerShell 連線到商務用 Skype Server 的詳細資訊，請參閱[Microsoft Lync remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 商務用 Skype Server 中的程式相同。
 
 ### <a name="to-disable-a-user-account"></a>停用使用者帳戶
 
@@ -186,7 +186,7 @@ ms.locfileid: "58622185"
 
 ### <a name="remove-user-accounts-with-windows-powershell-cmdlets"></a>使用 Windows Powershell Cmdlet 移除使用者帳戶
 
-您可以使用 Disable-CsUser Cmdlet 來移除使用者帳戶。 您可以從商務用 Skype Server 管理命令介面或從遠端會話 Windows PowerShell 執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線到商務用 Skype Server 的詳細資訊，請參閱博客文章[：「快速入門：使用遠端 PowerShell 管理 Microsoft Lync Server 2010](https://go.microsoft.com/fwlink/p/?linkId=255876)」。 商務用 Skype Server 中的程式相同。
+您可以使用 Disable-CsUser Cmdlet 來移除使用者帳戶。 您可以從商務用 Skype Server 管理命令介面或從遠端會話 Windows PowerShell 執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線到商務用 Skype Server 的詳細資訊，請參閱[Microsoft Lync remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 商務用 Skype Server 中的程式相同。
 
 ### <a name="to-remove-a-user-account"></a>移除使用者帳戶
 若要移除使用者帳戶，請使用 Disable-CsUser Cmdlet。例如：
@@ -204,4 +204,4 @@ ms.locfileid: "58622185"
 
 [Enable-Get-csuser](/powershell/module/skype/enable-csuser)
 
-[停用 Get-csuser](/powershell/module/skype/disable-csusers)
+[停用 Get-csuser](/powershell/module/skype/disable-csuser)

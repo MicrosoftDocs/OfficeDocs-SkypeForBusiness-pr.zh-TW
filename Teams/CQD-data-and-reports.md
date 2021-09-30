@@ -1,5 +1,5 @@
 ---
-title: 'CQD 中通話品質儀表板 (資料和) '
+title: '通話品質儀表板和 CQD (中的資料和) '
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -22,32 +22,32 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 瞭解 Microsoft 通話品質儀表板和 CQD (中) 。
-ms.openlocfilehash: e184137c927361b1a557973d4ac8e55ea49cf1ea
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0f54b6c3c69d65b12aa248f7180dec3617273857
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731802"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014617"
 ---
-# <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>CQD 中通話品質儀表板 (資料和) 
+# <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>通話品質儀表板和 CQD (中的資料和) 
 
-Microsoft 通話品質儀表板 (CQD) 使用接近即時的 NRT (NRT) 資料來源。 通話記錄可在通話結束後的 30 分鐘內在 CQD 中提供。 NRT 管道的通話記錄只能在從資料集中移除前幾個月使用。 
+Microsoft 通話品質儀表板 (CQD) 使用接近即時的 NRT (NRT) 資料摘要。 通話記錄可在通話結束後的 30 分鐘內在 CQD 中提供。 NRT 管道的通話記錄只能在從資料集中移除前幾個月使用。 
 
 
 ## <a name="many-ways-to-access-cqd-data"></a>存取 CQD 資料的多種方式
 
 您可以用數種不同的方式存取 CQD 資料。 挑選最符合您需求的產品：
 
-|  |  |
+|&nbsp;|&nbsp;|
 |---------|---------|
 |Teams系統管理[中心 (https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD 資料會包含在系統管理中心的 Teams 頁面上，以易於閱讀的格式顯示您所需的最常見資料。 您無法自訂在 使用者 下找到的 CQD **資料**。  |
 |CQD[入口網站 (https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | 使用深入篩選功能，提供符合大多數需求的強大的摘要和詳細報表。 您也可以在 CQD 入口網站中自訂報表。 <br><br>取得 [兩個 CQD 報表範本](#import-the-cqd-report-templates) ，可協助您分析 CQD 入口網站的資料。       |
-|Power BI     | 使用直接查詢在範本中Power BI CQD Power BI[資料](CQD-Power-BI-query-templates.md)。 [下載 Power BI CQD 的查詢範本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>您也可以使用[REST API 存取 CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api)資料，Power BI。 如果您想要下載 CQD 資料，以便離線處理，請使用此方法。 使用此方法的好處是提升績效，尤其適用于在線上時Power BI大型資料集。       |
-|Graph API     | 使用 API 來自己存取通話品質[Graph資料](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta)。 這是最複雜的方法，但能讓您在分析通話品質資料時擁有最大的控制權與彈性。 例如，如果您需要將其與貴組織的其他資料聯在一起，您可以使用 Graph API 來建立資料模型併合並通話品質資料。        |
+|Power BI     | 使用直接查詢來在範本中Power BI [CQD 資料Power BI範本](CQD-Power-BI-query-templates.md)。 [下載 Power BI CQD 的查詢範本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>您也可以使用[REST API 存取 CQD](/skypeforbusiness/management-tools/call-quality-dashboard/data-api)資料，Power BI。 如果您想要下載 CQD 資料，以便離線處理，請使用此方法。 使用此方法的好處是提升績效，尤其適用于在線上時Power BI大型資料集。       |
+|Graph API     | 使用 API 來自己存取通話品質[Graph資料](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta)。 這是最複雜的方法，但能讓您在分析通話品質資料時擁有最大的控制權與彈性。 例如，如果您需要將其與貴組織的其他資料結合，您可以使用 Graph API 來建立資料模型併合並通話品質資料。        |
 
 ## <a name="import-the-cqd-report-templates"></a>輸入 CQD 報表範本
 
-在所有網路和受管理 (下載兩個已策劃的 [CQD](https://aka.ms/qertemplates) 報表範本) 可協助您快速使用 CQD 快速上手。 所有網路範本雖然已優化處理建築物資料檔案，但可用來收集建築物資訊並上傳至 CQD，如下一節所述。
+在所有網路和受管理 (下載兩個已策劃的 [CQD](https://aka.ms/qertemplates) 報表範本) 可協助您快速使用 CQD。 所有網路範本雖然已優化處理建築物資料檔案，但可用來收集建築物資訊並上傳至 CQD，如下一節所述。
 
 **若要將範本 (。CQDX) into CQD**
 
@@ -71,7 +71,7 @@ Microsoft 通話品質儀表板 (CQD) 使用接近即時的 NRT (NRT) 資料來�
 - 完整 IP 位址
 - MAC (媒體存取控制) 位址
 - 基本服務組識別元 (BSSID) 
-- 只有 URI (SIP) 啟動 (商務用 Skype協定) 
+- 只有 URI (SIP) 會話初始 (商務用 Skype協定) 
 - 使用者主體名稱 (UPN) 
 - 電腦端點名稱
 - 使用者逐字記錄意見
@@ -118,7 +118,7 @@ URL Date 參數接受 Day 欄位。 滾動日報表使用以 YYYY-MM-DD 格式�
 
 您只需要預設摘要和詳細的 CQD 報告，就只需要管理貴組織通話品質。如果需要，您可以建立 [自訂報表](#create-custom-detailed-reports)。 
 
-如果您想要使用 Power BI分析您的 CQD 資料，請參閱使用 Power BI 分析[CQD 資料以Teams。](CQD-Power-BI-query-templates.md)
+如果您想要使用 Power BI分析您的 CQD 資料，請參閱使用 Power BI 分析[CQD](CQD-Power-BI-query-templates.md)資料以Teams。
 
 |功能|摘要報告|詳細報告|
 |:--- |:--- |:--- |
@@ -141,12 +141,12 @@ URL Date 參數接受 Day 欄位。 滾動日報表使用以 YYYY-MM-DD 格式�
  
 ### <a name="select-product-data-to-see-in-reports"></a>選取產品資料以在報告中查看
 
-在摘要與Location-Enhanced中，您可以使用產品篩選下拉式清單來顯示所有產品資料、Microsoft Teams資料，或商務用 Skype線上資料。
+在摘要和Location-Enhanced中，您可以使用產品篩選下拉式清單來顯示所有產品資料、僅顯示Microsoft Teams資料，或只顯示商務用 Skype線上資料。
 
 > [!div class="mx-imgBorder"]
 > ![螢幕擷取畫面：顯示產品篩選控制項選項。](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
-在詳細報告中，您可以使用 Is **Teams** 維度來篩選資料以Microsoft Teams或商務用 Skype線上資料。
+在詳細報告中，您可以使用 Is **Teams** 維度來篩選資料，Microsoft Teams或商務用 Skype線上資料。
 
 ## <a name="summary-reports"></a>摘要報告
 
@@ -166,7 +166,7 @@ URL Date 參數接受 Day 欄位。 滾動日報表使用以 YYYY-MM-DD 格式�
 > [!div class="mx-imgBorder"]
 > ![螢幕擷取畫面：顯示通話品質選項卡。](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-資料流程分為三個群組：良好、差和未分類。 此外，也有計算 *結果的 Poor %* 值，提供分類為"差" 的資料流程與總分類串流計數的比例。 由於 Poor % = (資料流程+ 良好資料流程 *) * 100，* 因此 Poor *%*  不會受到多個未分類 *資料流程的存在影響*  。 若要瞭解將資料流程分類為不佳或良好，請參閱通話品質儀表板中的資料流程 [分類](stream-classification-in-call-quality-dashboard.md)。
+資料流程分為三個群組：良好、差和未分類。 此外，也有計算 *結果的 Poor %* 值，提供分類為"差" 的資料流程與總分類串流計數的比例。 由於 Poor % = (資料流程+ 良好資料流程 *) * 100，* 因此 Poor *%*  不受多個未分類 *資料流程的存在影響*  。 若要瞭解將資料流程分類為不佳或良好，請參閱通話品質儀表板中的資料流程 [分類](stream-classification-in-call-quality-dashboard.md)。
   
 使用左側的縮放比例來測量串流計數值。
 
@@ -209,7 +209,7 @@ URL Date 參數接受 Day 欄位。 滾動日報表使用以 YYYY-MM-DD 格式�
 
 CQD 會使用建築物資訊將串流分類為 [內部」 或 [外部資料串流若存在的話）。 每個資料流程的端點都與子網位址相關聯。 如果子網位於上傳的建築物資訊中標示為 InsideCorp 的子網清單中，則它視為 *內部 。* 如果尚未上傳 [建立資訊>，則內部測試會一直將資料流程分類為 *[外部*）。 
 
-此案例的Server-Client測試只會考慮用戶端端點。 由於伺服器從使用者的角度而言一直不在外部，因此在測試中不會考慮到這一點。
+此案例的內部測試Server-Client用戶端端點。 由於伺服器從使用者的角度而言一直不在外部，因此在測試中不會考慮到這一點。
   
 #### <a name="wired-versus-wifi"></a>有線與 WiFi
 
@@ -221,7 +221,7 @@ CQD 會使用建築物資訊將串流分類為 [內部」 或 [外部資料串�
   
 ## <a name="tenant-data-information"></a>租使用者資料資訊
 
-CQD 摘要報表儀表板包含租使用者資料 **Upload頁面，** 從右上角的設定功能表中選取 Upload租使用者資料以存取。 此頁面供系統管理員用來上傳自己的資訊，例如：
+CQD 摘要報表儀表板包含租使用者 **資料** Upload頁面，從右上角的設定功能表中選取 Upload租使用者資料以存取。 此頁面供系統管理員用來上傳自己的資訊，例如：
 
 - IP 位址和地理資訊的地圖。
 - 每個無線 AP 及其 MAC 位址的地圖。
@@ -242,7 +242,7 @@ CQD 摘要報表儀表板包含租使用者資料 **Upload頁面，** 從右上�
 |為我的通話報告評分     |根據地區、位置或使用者來分析使用者通話分級。 包含逐字意見回饋。         |
 |技術支援台報告     |服務台報告會查看個別使用者、使用者群組或所有人的通話和會議資料。 這些報告結合建築物和 EUII 資料，可依據網路位置、會議詳細資料、裝置或固件，協助找出可能的系統問題。         |
 |用戶端版本報告     |用戶端版本摘要：查看每個用戶端應用程式版本的會話和使用者計數<br><br>使用者用戶端版本：查看每個用戶端應用程式版本的使用者名稱 <br><br>針對產品與用戶端類型預先建立篩選有助於將版本焦點放在特定用戶端。         |
-|端點報表     |顯示電腦端點與電腦 (通話品質，以及) 。 這些報表包含建建資料 ，如果您已經上傳。         |
+|端點報表     |顯示電腦端點與電腦 (通話品質) 。 這些報表包含建建資料 ，如果您已經上傳。         |
 
 
 ## <a name="create-custom-detailed-reports"></a>建立自訂的詳細報表
@@ -269,7 +269,7 @@ CQD 摘要報表儀表板包含租使用者資料 **Upload頁面，** 從右上�
 |----------------|----------------------|-------------------------------|
 | 無空白值   | 有些篩選沒有篩選空白值的選項。 若要手動篩選空白值，請使用空白運算式，並視您的需求將篩選設定為等於或不等於。      | 第二個建築物 \<\> \^ \\ 名稱 s\*\$                       |
 | 排除一般子網 | 若沒有有效的建築物檔案，無法與未管理的網路分開管理，則報告會包含家用網路。 這些家用子網不在 IT 控制範圍內，而且可以快速排除在報表之外。 本指南定義的常見子網為 10.0.0.0、192.168.1.0 和 192.168.0.0。 | 第二子網 \<\> 10.0.0.0 \| 192.168.0.0 \| 192.168.1.0 |
-| 僅內部查看  | 用來篩選報表， (外部) 管理 () 。 受管理的 CQD 範本已預配置這些篩選。       | 第二個內部公司 = 內部        |
+| 僅內部查看  | 用來篩選報表， (外部) 管理 (管理) 。 受管理的 CQD 範本已預配置這些篩選。       | 第二個內部公司 = 內部        |
 
 ## <a name="report-filters"></a>報表篩選
 
@@ -305,13 +305,13 @@ CQD 報告具有數種向下切取篩選，是縮小通話品質調查焦點的�
 
 ### <a name="multi-select-filters"></a>多重選取篩選
 
-除了向下切取功能之外，CQD 也支援指定具有多個值的篩選， (或篩選) 。
+除了向下切取功能之外，CQD 也支援指定具有多個值的篩選 (或篩選) 。
 
 若要選取多個篩選值，首先請新增篩選至報表。 按一下 [篩選標籤的旁邊，輸入您想要使用的尺寸名稱， **+** 然後按一下 [**新增**> 。
 
 ![新增多重選取篩選的螢幕擷取畫面。](media/qerguide-image-addmultiselectfilter.png)
 
-接著，按一下 [ **搜尋** (新篩選清單旁的放大鏡) 。 您會看到一個文字欄位，以及一些選項，包括 **選取全部** 和 **反相**。 輸入值，然後按一下 **該欄位旁的** [搜尋以搜尋。 或者，將文字欄位保留空白，然後按一下 [ **搜尋** 以查看最多前 100 個選項。
+然後按一下 [ **搜尋** (新篩選清單旁的放大鏡) 。 您會看到一個文字欄位，以及一些選項，包括 **選取全部** 和 **反相**。 輸入值，然後按一下 **該欄位旁的** [搜尋以搜尋。 或者，將文字欄位保留空白，然後按一下 [ **搜尋** 以查看最多前 100 個選項。
 
 ```powershell
 /filter/[AllStreams].[Second Tenant Id]\|[YOUR TENANT ID HERE]
@@ -392,9 +392,9 @@ Login-AzureRmAccount
 
 當您查看資料時，您可能會看到資料與Teams商務用 Skype。 原因如下：
 - 確保績效和可靠性機制的差異：
-  - Teams自動重新連接並快速漫遊。 商務用 Skype沒有。
+  - Teams自動重新連接和快速漫遊。 商務用 Skype沒有。
   - Teams動態頻寬管理。 商務用 Skype沒有。
-- IP 位址[的差異範圍在](Office-365-URLs-IP-address-ranges.md)Teams 和 商務用 Skype。 IP Teams較新，可能會導致防火牆的連接問題。
+- IP 位址[的差異在 Teams](Office-365-URLs-IP-address-ranges.md)和 商務用 Skype。 IP Teams較新，可能會導致防火牆的連接問題。
 
 
 

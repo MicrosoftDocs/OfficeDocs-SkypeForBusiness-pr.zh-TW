@@ -1,5 +1,5 @@
 ---
-title: 商務用 Skype Server 2015 資源套件工具檔
+title: 商務用 Skype Server 2015 資源工具組工具檔
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,27 +12,27 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
-description: 本文說明商務用 Skype Server 2015 資源套件中的工具，包含每個工具的目的，以及其用途的範例。 商務用 Skype Server 2015 資源套件可協助 IT 系統管理員部署及管理商務用 Skype Server 2015，使日常工作變得更容易。 例如，網路會議資料工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 SEFAUtil 工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具更有效率地管理商務用 Skype Server 2015。
-ms.openlocfilehash: b12a09a2b69c3ee11aa9f773e0663a8d67b63063
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 本文說明商務用 Skype Server 2015 資源套件中的工具，包含每個工具的用途，以及其用途的範例。 商務用 Skype Server 2015 資源套件可協助 IT 系統管理員部署及管理商務用 Skype Server 2015，使日常工作變得更容易。 例如，網路會議資料工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 SEFAUtil 工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具，更有效地管理商務用 Skype Server 2015。
+ms.openlocfilehash: 563e60c68a82e885c3bf1beb2ed0d573ec508aa4
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730782"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012387"
 ---
-# <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>商務用 Skype Server 2015 資源套件工具檔
+# <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>商務用 Skype Server 2015 資源工具組工具檔
 
-本文說明商務用 Skype Server 2015 資源套件中的工具，包含每個工具的目的，以及其用途的範例。 商務用 Skype Server 2015 資源套件可協助 IT 系統管理員部署及管理商務用 Skype Server 2015，使日常工作變得更容易。 例如，網路會議 **資料** 工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 **SEFAUtil** 工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具更有效率地管理商務用 Skype Server 2015。
+本文說明商務用 Skype Server 2015 資源套件中的工具，包含每個工具的用途，以及其用途的範例。 商務用 Skype Server 2015 資源套件可協助 IT 系統管理員部署及管理商務用 Skype Server 2015，使日常工作變得更容易。 例如，網路會議 **資料** 工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 **SEFAUtil** 工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具，更有效地管理商務用 Skype Server 2015。
 
 ## <a name="installation-of-the-resource-kit-tools"></a>安裝資源工具組工具
 
-若要安裝商務用 Skype Server 2015 資源套件，請從下載中心下載[OCSReskit.msi](https://www.microsoft.com/download/details.aspx?id=52631) 。
+若要安裝商務用 Skype Server 2015 資源套件，請從下載中心下載 [OCSReskit.msi](https://www.microsoft.com/download/details.aspx?id=52631) 。
 
-執行 **OCSResKit.msi** 以執行簡單安裝。 .msi 會安裝下列路徑中的所有工具： **% Program Files% \ 商務用 Skype Server 2015 \ ResKit**。 屬於自包含可執行檔的工具位於此資料夾中。 也有支援檔案的工具位於自己的子資料夾中。
+執行 **OCSResKit.msi** 以執行簡單安裝。 .msi 會安裝下列路徑中的所有工具： **% Program Files%\Skype For Business Server 2015 \ ResKit**。 屬於自包含可執行檔的工具位於此資料夾中。 也有支援檔案的工具位於自己的子資料夾中。
 
 ## <a name="supported-environments"></a>支援的環境
 
-商務用 Skype Server 2015 資源套件應該安裝在符合商務用 Skype Server 2015 所需規格的伺服器上，通常是用來執行商務用 Skype Server 2015。
+商務用 Skype Server 2015 資源套件應該安裝在符合商務用 Skype Server 2015 （通常是用來執行商務用 Skype Server 2015）所需規格的伺服器上。
 
 ## <a name="resource-kit-tools-overview"></a>資源工具組工具概述
 
@@ -71,9 +71,9 @@ ms.locfileid: "58730782"
 ## <a name="absconfig"></a>ABSConfig
 <a name="ABSConfig"> </a>
 
-通訊錄服務設定工具 (ABSConfig) 是一種系統管理工具，可協助系統管理員自訂商務用 Skype Server 2015 中的通訊錄服務設定。 此工具也可讓商務用 Skype Server 2015 系統管理員還原預設通訊錄服務設定。
+通訊錄服務設定工具 (ABSConfig) 是一種系統管理工具，可協助系統管理員在商務用 Skype Server 2015 中自訂通訊錄服務設定。 此工具也可讓商務用 Skype Server 2015 系統管理員還原預設通訊錄服務設定。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 ABSConfig 是一種圖形使用者介面應用程式，可讓系統管理員設定與通訊錄服務相關的 Active Directory 網域服務屬性。
 
@@ -85,7 +85,7 @@ ABSConfig 是一種圖形使用者介面應用程式，可讓系統管理員設�
 
 - 若要讓系統管理員能夠還原，請預設的通訊錄服務設定。
 
-您可以使用 ABSConfig.exe 檔啟動 ABSConfig 工具。 工具隨即開啟至 [**設定屬性**] 索引標籤。此表格中的選項可將 Active Directory 網域服務屬性對應至商務用 Skype Server 2015 的屬性欄位，並指定哪些使用者在通訊錄服務檔案中包含或排除根據特定的屬性篩選器。 也可以選擇自訂要包含在通訊錄檔案中的電話號碼值。 [ **還原預設** 值] 選項可讓系統管理員將通訊錄服務設定還原為預設值。
+您可以使用 ABSConfig.exe 檔啟動 ABSConfig 工具。 工具隨即開啟至 [ **設定屬性** ] 索引標籤。此表格中的選項可將 Active Directory 網域服務屬性對應至商務用 Skype Server 2015 的屬性欄位，以及指定哪些使用者要在通訊錄服務檔案中包含或排除，以特定的屬性篩選器為基礎。 也可以選擇自訂要包含在通訊錄檔案中的電話號碼值。 [ **還原預設** 值] 選項可讓系統管理員將通訊錄服務設定還原為預設值。
 
 > [!NOTE]
 > 將 AD 屬性重新對應至不同的 OC 功能變數名稱只會在通訊錄檔案下載時運作，且不受通訊錄 Web 查詢的支援。
@@ -100,13 +100,13 @@ Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 
 ### <a name="purpose"></a>用途
 
-ABSConfig 提供一種快速快捷的方式，可自訂商務用 Skype Server 2015 通訊錄服務。
+ABSConfig 提供一種快速快捷的方式，可自訂商務用 Skype Server 2015 Address Book 服務。
 
 ### <a name="requirements"></a>需求
 
 #### <a name="computer"></a>電腦
 
-ABSConfig 只能從已安裝商務用 Skype Server 2015 的已加入網域的電腦執行。 在商務用 Skype Server 2015 的情況下 Enterprise Edition，此工具可以在安裝期間啟用通訊錄服務的任何 Front-End 伺服器上執行。
+ABSConfig 只能在已安裝商務用 Skype Server 2015 的已加入網域的電腦上執行。 在商務用 Skype Server 2015，Enterprise Edition 的情況下，此工具可以在安裝期間啟用通訊錄服務的任何 Front-End 伺服器上執行。
 
 #### <a name="network"></a>網路
 
@@ -120,7 +120,7 @@ ABSConfig 只能從已安裝商務用 Skype Server 2015 的已加入網域的電
 
 #### <a name="users"></a>使用者
 
-具備更新商務用 Skype Server 2015 部署所需之許可權的系統管理員。
+具備更新商務用 Skype Server 2015 部署所需許可權的系統管理員。
 
 ### <a name="examples"></a>範例
 
@@ -130,20 +130,20 @@ ABSConfig 只能從已安裝商務用 Skype Server 2015 的已加入網域的電
 
 ### <a name="summary"></a>摘要
 
-ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂商務用 Skype Server 2015 通訊錄服務。
+ABSConfig 工具為系統管理員提供快速易用的工具，以自訂商務用 Skype Server 2015 通訊錄服務。
 
 ## <a name="bandwidth-policy-service-monitor"></a>頻寬原則服務監視器
 <a name="bpsm"> </a>
 
 「頻寬原則服務監視」工具的目的是讓系統管理員可以查看下列專案的清單：
 
-1. 拓撲中所有設定的商務用 Skype Server 2015 頻寬原則服務 (驗證與核心) 
+1. 拓撲中所有已設定的商務用 Skype Server 2015 頻寬原則服務 (驗證及核心) 
 
 2. 每個服務對其他頻寬原則服務和 Edge server 所進行的連接
 
 3. 網路設定檔中所設定的所有連結，以及每個頻寬原則服務所報告的即時頻寬使用量
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 頻寬原則服務監視工具是以 GUI 型應用程式的形式來執行。 管理員會透過執行 PDPMonUI.exe 來啟動工具。
 
@@ -183,7 +183,7 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂商�
 
 頻寬流量分析程式是一種工具，它會針對商業網路中 WAN 連結的 UC 端點，建立各種頻寬使用量的報告。 這些報告可用於瞭解目前的頻寬消耗模式，以及協助進行頻寬容量規劃。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 頻寬使用量分析器是以 GUI 型應用程式的形式來執行。 這個工具專為網路上的音訊使用量產生報告，並協助進行容量規劃。 它也會在指派給各種連結的頻寬容量上進行迴圈。
 
@@ -221,7 +221,7 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂商�
 
 - **WanLinkLogCollector.exe** 此工具可讓其使用者輸入必要的資訊。
 
-- **BandwidthUtilizationAnalyzer.xlsm** Microsoft Excel 試算表軟體報告會由 WanLinkLogCollector.exe 自動啟動。 此應用程式可讓使用者將篩選器套用至報告（如本文稍後所示）。
+- **BandwidthUtilizationAnalyzer。 xlsm** Microsoft Excel 試算表軟體報告會透過 WanLinkLogCollector.exe 自動啟動。 此應用程式可讓使用者將篩選器套用至報告（如本文稍後所示）。
 
 #### <a name="phases-of-using-bandwidth-utilization-analyzer"></a>使用頻寬流量分析程式的階段
 
@@ -229,10 +229,10 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂商�
 
 - 收集使用 WanLinkLogCollector.exe 執行的記錄
 
-- 使用 BandwidthUtilizationAnalyzer.xlsm 進行自訂報告
+- 自訂報表，使用 BandwidthUtilizationAnalyzer 執行。 xlsm
 
     > [!IMPORTANT]
-    > 強烈建議您不要由使用者手動啟動 BandwidthUtilizationAnalyzer.xlsm。
+    > 我們強烈建議您 BandwidthUtilizationAnalyzer。 xlsm 不是由使用者手動啟動。
 
 #### <a name="starting-bandwidth-utilization-analyzer"></a>啟動頻寬流量分析程式
 
@@ -281,14 +281,14 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂商�
 
 ![在頻寬 Utili 中收集的記錄檔。](../media/Reskit_2012_Tools_Documentation_Image7.jpg)
 
-按一下 [確定]。 BandwidthUtilizationAnalyzer.xlsm 會自動啟動。 依照訊息方塊中的指示進行。 如需詳細資訊，請參閱下一節中的 **Using BandwidthUtilizationAnalyzer.xlsm** 。
+按一下 [確定]。 BandwidthUtilizationAnalyzer。 xlsm 會自動啟動。 依照訊息方塊中的指示進行。 如需詳細資訊，請參閱下一節中的 **Using BandwidthUtilizationAnalyzer xlsm** 。
 
 
-### <a name="using-bandwidthutilizationanalyzerxlsm"></a>使用 BandwidthUtilizationAnalyzer.xlsm
+### <a name="using-bandwidthutilizationanalyzerxlsm"></a>使用 BandwidthUtilizationAnalyzer xlsm
 
-1. 自動啟動 BandwidthUtilizationAnalyzer.xlsm 時，請按一下 [重新整理] **，如下所** 示。
+1. 當 xlsm 自動啟動 BandwidthUtilizationAnalyzer 時，請按一下 [重新整理 **]，如下** 所示。
 
-     ![BandwidthUtilizationAnalyzer.xlsm。](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
+     ![BandwidthUtilizationAnalyzer xlsm。](../media/Reskit_2012_Tools_Documentation_Image8.jpg)
 
 2. 開啟檔案資料夾時，請選取訊息方塊中所指定的位置 consolidated.csv，如下所示。 它也會顯示為 **C：\Temp** 的位置。
 
@@ -371,7 +371,7 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂商�
 
 「呼叫 Call parkometer」是一種命令列應用程式，可讓您輕鬆存取通話駐留軌道資料庫。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 「呼叫 Call parkometer 是一種可追蹤目前寄存通話的工具。 它也會收集有關軌道和通話駐留伺服器 (CPS) 使用狀況的統計資料。 這個命令列工具既可以從本機或遠端連線的電腦，為 CPS 軌道 SQL Server 資料庫提供讀取和寫入權存取權。
 
@@ -469,7 +469,7 @@ Integrated Security=false;"/>
 
 dbanalyze.exe 是一種命令列工具，可協助系統管理員收集有關商務用 Skype Server 2015 資料庫的分析報告。 Dbanalyze.exe 具有下列模式：診斷、使用者資料、會議、MCUs 和磁片分段：
 
-- **診斷模式** 會建立報表，其中包含資料表 (記錄數目、分散、資料大小及索引大小) 的相關資訊。資料和記錄檔大小、最後的備份時間、在執行 Microsoft Office 通訊伺服器的伺服器之間的連絡人散佈、每位使用者的許可權數目、連絡人、容器、訂閱、發佈、每一位使用者的端點，以及無法路由傳送的使用者，每一位使用者、排程的會議、使用中會議，以及資料庫版本的平均組織會議數目。
+- **診斷模式** 會建立一份報告，其中包含資料表的相關資訊 (記錄、分散、資料大小及索引大小) 、資料和記錄檔大小、最後的備份時間、在執行 Microsoft Office 通訊伺服器的伺服器之間的連絡人散佈、每一位使用者的許可權、連絡人、容器、訂閱、發佈、每位使用者的端點、任何不正確的使用者、無法路由的使用者、 每位使用者、排程會議、使用中會議及資料庫版本所組織的平均會議數目。
 
     > [!NOTE]
     > 執行診斷模式可能會影響伺服器效能。
@@ -535,7 +535,7 @@ DBAnalyzer 可讓系統管理員快速且容易地分析商務用 Skype Server 2
 
 ImportStorageServiceData 資源工具組工具允許從儲存體服務中清除的重新佇列和端點資料， (LYSS) 回儲存體服務。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 儲存體服務所清除的資料，可能會根據佇列專案狀態或資料庫大小，定期 (定期) 。 這可能是因為手動呼叫集區容錯移轉指令 StorageServiceFullFlush，或是集區容錯移轉指令) 所呼叫的 Cmdlet (。 請注意，如果前端上的任何儲存體服務 (LYSS ) 的資料庫大小高於一般層級以上，則理想情況下不會 reimported 資料，因為這樣做可能只會導致傳回更多資料。此外，針對導致儲存體服務佇列增加的錯誤，必須先解決的任何問題，都應該先加以解決 (例如 Exchange 端點錯誤、網路問題或其他問題) 。
 
@@ -543,7 +543,7 @@ ImportStorageServiceData 資源工具組工具允許從儲存體服務中清除�
 
  **案例2：** 每日自動清除資料，或回應儲存體的服務資料庫超過特定大小的閾值 (例如60%、80%、90% full) 。 這個自動清除的資料應該是由系統管理員定期 reimported。 在上述情況下，如果未部署監控 SCOM 套件，則會有商務用 Skype Server 與從儲存體服務清除的資料相關的儲存體服務的事件。 已啟動 32075 (完整清除作業的事件 IDs) ，32076 (完全清除已完成) ，32082 (維護層級清理已開始) ，32083 (維護層級清理完成) ，32089 (因填滿資料庫) 而發生清理。 請注意，這些事件識別碼會對應至 RTM 版本。 當系統管理員看到這些事件時，表示已清除的檔案。此資料應該定期使用此工具（例如每週一次）匯入回來。
 
-在線上服務發行時，如果部署了商務用 Skype Server 的 health monitoring SCOM 套件，則可能會引發新的警示，讓系統管理員將清除的資料重新引入儲存體服務。 在觸發警示的 Front-End 伺服器上，事件記錄中會有對應的事件。 此事件會提供清除資料檔案所在之父路徑的描述，以及有多少個可滿足警示準則的檔。 警示準則是指在特定上層路徑下的 X 個或多個檔案，該位置至少是 Y (天的 StorageService，但可以透過變更 APPCONFIG 檔來覆寫。 ) 下列兩個可能觸發狀況警示的事件範例，其差異是其父項路徑。 有一種可能的情況是在 Web 服務檔案共用下，另一種可能性是每個前端的本機應用程式資料目錄。  (例如 c:\ProgramData\Microsoft\ 商務用 Skype Server 2015 \ StorageService) 。 然後，系統管理員會執行此 reskit 工具。
+在線上服務發行時，如果部署了商務用 Skype Server 的 health monitoring SCOM 套件，則可能會引發新的警示，讓系統管理員將清除的資料重新引入儲存體服務。 在觸發警示的 Front-End 伺服器上，事件記錄中會有對應的事件。 此事件會提供清除資料檔案所在之父路徑的描述，以及有多少個可滿足警示準則的檔。 警示準則是指在特定父路徑下的 X 個或多個檔案，該父路徑至少為 Y (天的 StorageService，但可以透過變更 APPCONFIG 檔來覆寫。 ) 下列兩個可能觸發狀況警示的事件範例如下所示： 其父項路徑的差異。 有一種可能的情況是在 Web 服務檔案共用下，另一種可能性是每個前端的本機應用程式資料目錄。  (例如 c:\ProgramData\Microsoft\ 商務用 Skype Server 2015 \ StorageService) 。 然後，系統管理員會執行此 reskit 工具。
 
 此工具會在其執行的前端上增加 CPU 和 IO 負載，而在其他前端，也就是資料不是由執行該工具的前端所擁有的情況。 建議您在前端未低於大量 CPU 和 IO 負載時執行此工具，例如峰值時段外。 其次，此工具可以2到3分鐘，匯入一個資料檔案。 在評估工具的執行時間時，請務必記住這一點。 預設會在檔存放區上顯示工具所產生的詳細記錄檔。 如果沒有報告錯誤，請將其刪除，因為記錄檔可能會是數十 MB 或更多。
 
@@ -721,7 +721,7 @@ Tool has finished execution.
 
 LCSSync 工具可協助您在多樹系環境中部署商務用 Skype Server 2015 通訊軟體。 此工具是用來將不同使用者樹系中的使用者和群組，當作 Active Directory 網域服務連絡人物件，同步處理商務用 Skype Server 2015 安裝所在的中央樹系。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
  LCSSync 使用中央樹系中的 [同步處理 Active Directory 網域服務] 連絡人物件，讓使用者能夠商務用 Skype Server。 若要提供單一登入，主要使用者帳戶必須對應至中央樹系中的 Active Directory 網域服務連絡人物件，以供商務用 Skype Server 2015。 這個工具可協助您執行該對應。 此工具提供範本，以在 Microsoft Identity Integration Server 中建立管理代理程式。
 
@@ -734,7 +734,7 @@ LCSSync 工具可協助您在多樹系環境中部署商務用 Skype Server 2015
 
 LookupUserConsole 工具會顯示特定使用者的內部商務用 Skype Server 路由資訊。 此資訊對 Microsoft 支援個人在診斷部署和路由問題時可能十分有用。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
  執行 LookupUserConsole.exe 會開啟接收 SIP 位址的命令提示字元，並嘗試顯示與其相關的內部商務用 Skype Server 路由資訊。 若要結束 LookupUserConsole 工具，請輸入 **exit** 。
 
@@ -789,7 +789,7 @@ C:\Program Files \ 商務用 Skype Server 2015 \ ResKit \>LookupUserConsole.exe
 
 MSTurnPing 工具可讓商務用 Skype Server 2015 通訊軟體的系統管理員檢查執行 Audio/Video Edge 的伺服器狀態、Audio/Video 驗證服務，以及拓撲中執行頻寬原則服務的伺服器。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 MSTurnPing 工具可讓商務用 Skype Server 2015 通訊軟體的系統管理員檢查執行 Audio/Video Edge 的伺服器狀態、Audio/Video 驗證服務，以及拓撲中執行頻寬原則服務的伺服器。
 
@@ -850,7 +850,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 商務用 Skype Server 2015 通訊軟體管理員可以使用網路設定檢視器來查看已布建的商業網路拓朴的通話許可控制 (CAC) 網路拓朴，以允許即時通訊會話，例如根據指定的頻寬容量進行語音或視頻通話。 商務用 Skype Server 2015 系統管理員會定義 CAC 原則，這些原則是由隨商務用 Skype Server 2015 一起安裝的頻寬原則服務所強制執行。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 網路設定檢視器 (NetworkConfigurationViewer.exe) 可讓系統管理員執行下列工作：
 
@@ -917,7 +917,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 回應群組應用程式讓代理人能夠使用內建的 Web 服務來存取有用的即時資訊。 不幸的是，在應用程式外沒有此資料的圖形視圖。 「回應群組代理程式 Live Resource 工具組」工具可提供一種簡單且圖形的方式來存取這項資訊，並以即時商務用 Skype 通訊軟體資訊（例如，其他代理程式的存在）進行增強，以解決此問題。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 回應群組代理程式 Live 是一 Windows 的應用程式，提供登入和登出功能，以及一些即時資訊 (例如群組成員資格和目前的呼叫數目) 回應群組代理程式。 它應為增強版本的「代理群組」頁面 (可從商務用 Skype 進行存取。
 
@@ -988,7 +988,7 @@ SEFAUtil (次要擴充功能啟動) 是一種命令列工具，可讓商務用 S
 
 SEFAUtil (次要擴充功能啟動) 可讓商務用 Skype Server 2015 系統管理員和技術支援人員，設定代理程式震鈴、呼叫轉寄、同時震鈴、「小組通話」設定和「群組呼叫」（「呼叫」設定和「群組呼叫」）代表一個商務用 Skype Server 2015 使用者 這個工具也可讓系統管理員查詢針對特定使用者所發佈的呼叫路由設定。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 目前的 SEFAUtil 版本只是一個命令列工具;沒有支援的圖形使用者介面。 此工具是以 Microsoft 整合通訊 Managed API (UCMA) 3.0 為基礎。 此工具中的功能可讓系統管理員和支援人員執行下列作業：
 
@@ -1017,7 +1017,7 @@ SEFAUtil (次要擴充功能啟動) 可讓商務用 Skype Server 2015 系統管�
 
 此工具具有下列限制：
 
-- 僅支援駐留在商務用 Skype Server 集區中的使用者
+- 僅支援位於商務用 Skype 伺服器集區中的使用者
 
 - 不支援多個使用者的通話路由設定的大量編輯
 
@@ -1029,15 +1029,15 @@ SEFAUtil (次要擴充功能啟動) 可讓商務用 Skype Server 2015 系統管�
 
 以下是一些可能使用此工具的主要案例：
 
-- 王俊元是執行程式，已移至商務用 Skype Server 電話語音。 他已在現有的 PBX 系統上進行委派。 在移動商務用 Skype Server 2015 時，系統管理員可以設定王俊元的路由，以反映其預先存在的委派設定。
+- 王俊元是一種主管，已移至商務用 Skype Server 電話語音。 他已在現有的 PBX 系統上進行委派。 在 [移至商務用 Skype Server 2015] 的一部分，管理員可以設定王俊元的路由，以反映其預先存在的委派設定。
 
 - 劉愛琳在旅行中，意識到她期望來自他客戶的一項重要通話。 不過，她位於酒店，而且無法存取電腦。 她撥打説明台，並要求他們將來電轉接給她的行動電話號碼。 服務台人員可以代表她執行設定。
 
 - Joe 在工作時，他們的工作號碼會進入行動語音信箱。不過，在大多數其他位置中看起來似乎正常運作。 説明台技術人員可以查看 Joe 的路由設定，並探索李先生已設定為行動電話的同時震鈴。 技術人員會詢問 Joe 有關其辦公室內行動覆蓋率的資訊，並且能夠判斷同時響鈴的規則，也就是當網路服務品質不良的情況時，會導致來電進入 Joe 的行動電話語音信箱。
 
-- Mike 是 Contoso 的新員工，他加入新的小組，其所有成員皆為「小組通話」，當為商務用 Skype Server 2015 啟用時，系統管理員可以設定他的小組通話群組設定，以包含所有新的小組成員，此外，系統管理員會新增 Mike 作為小組中每個成員的小組通話群組成員。
+- Mike 是 Contoso 的新員工，他加入新的小組，所有成員皆為「小組通話」，當啟用商務用 Skype Server 2015 時，系統管理員可以設定他的小組通話群組設定，以包含所有新的小組成員，此外，系統管理員也會新增 Mike 做為小組中每個成員的小組通話群組成員。
 
-- 在 Contoso 的人力資源部門中，客戶服務實踐是為自第一次呼叫後的所有來電者提供個人服務。 假設部門的所有成員都非常接近對方，當小組通話中斷時，小組通話的所有電話都會中斷。 若要提供最佳服務，而不中斷團隊成員，商務用 Skype Server 2015 系統管理員會利用群組呼叫收取功能。 系統管理員會將所有部門成員新增至收取群組，並與該部門通訊收取群組編號。 當她的辦公桌沒有 Samantha 時，Joe 會通知她的電話鈴聲，他會繼續接聽他的電話。
+- 在 Contoso 的人力資源部門中，客戶服務實踐是為自第一次呼叫後的所有來電者提供個人服務。 假設部門的所有成員都非常接近對方，當小組通話中斷時，小組通話的所有電話都會中斷。 若要在不中斷小組成員的情況下提供最佳服務，商務用 Skype Server 2015 系統管理員會利用「群組呼叫收取」功能。 系統管理員會將所有部門成員新增至收取群組，並與該部門通訊收取群組編號。 當她的辦公桌沒有 Samantha 時，Joe 會通知她的電話鈴聲，他會繼續接聽他的電話。
 
 ### <a name="requirements"></a>需求
 
@@ -1045,7 +1045,7 @@ SEFAUtil 工具只能在屬於受信任應用程式集區一部分的電腦上�
 
 ### <a name="creating-a-new-trusted-application-for-the-sefautil-tool"></a>為 SEFAUtil 工具建立新的信任應用程式
 
-1. SEFAUTil 工具只能在屬於受信任應用程式集區一部分的電腦上執行。 如有需要，將集區新增為新的受信任應用程式集區，可透過使用下列 Cmdlet 的商務用 Skype Server 管理命令介面進行：
+1. SEFAUTil 工具只能在屬於受信任應用程式集區一部分的電腦上執行。 如有需要，您可以透過商務用 Skype Server 管理命令介面，將集區新增為新的受信任應用程式集區，其 Cmdlet 如下：
 
    ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
@@ -1064,8 +1064,8 @@ SEFAUtil 工具只能在屬於受信任應用程式集區一部分的電腦上�
     > 您可以視需要使用不同的埠。
     
     > [!NOTE]
-    > 集區 FQDN：將主控 SEFAUtil 應用程式之伺服器或集區的 fqdn (通常是商務用 Skype 前端伺服器 > 或集區) 。
-    > 集區報名者 fqdn：與此應用程式集區關聯的商務用 Skype 前端伺服器或集區的 FQDN。
+    > 集區 FQDN：將主控 SEFAUtil 應用程式之伺服器或集區的 FQDN (通常是商務用 Skype 前端伺服器 > 或集區) 。
+    > 集區註冊機 FQDN：與此應用程式集區相關聯之商務用 Skype 前端伺服器或集區的 FQDN。
     > 集區網站：此集區所在之網站的網站識別碼。
 
 3. 需要啟用拓撲變更。 您可以透過執行下列 Cmdlet，透過商務用 Skype Server 管理命令介面來啟用拓撲變更：
@@ -1074,9 +1074,9 @@ SEFAUtil 工具只能在屬於受信任應用程式集區一部分的電腦上�
    Enable-CsToplogy
    ```
 
-4. 如有需要，請在伺服器上安裝商務用 Skype Server 2015 資源套件工具，以用於執行 SEFAUtil 工具 (伺服器必須是信任的應用程式集區) 的一部分。
+4. 如有需要，在伺服器上安裝用來執行 SEFAUtil 工具的商務用 Skype Server 2015 資源工具組工具 (伺服器必須是信任的應用程式集區) 的一部分。
 
-5. 驗證 SEFAUtil 是否正常運作。 若要執行此動作，請從使用管理員許可權的 windows 命令提示字元執行工具，以顯示部署中使用者的「來電轉接」設定。 依預設，工具將位於： "..\Program Files \ 商務用 Skype Server 2015 \ Reskit"。 若要顯示使用者的「來電轉接」設定，請使用下列命令：
+5. 驗證 SEFAUtil 是否正常運作。 若要執行此動作，請從使用管理員許可權的 windows 命令提示字元執行工具，以顯示部署中使用者的「來電轉接」設定。 依預設，此工具會位於： "..\Program Files\Skype for Business Server 2015 \ Reskit"。 若要顯示使用者的「來電轉接」設定，請使用下列命令：
 
    ```console
    SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
@@ -1095,7 +1095,7 @@ SEFAUtil 工具只能在屬於受信任應用程式集區一部分的電腦上�
 下列命令會顯示使用者的通話處理。  `SEFAUtil.exe /server:SfBS2015server.contoso.com katarina@contoso.com`
 
 > [!NOTE]
-> 這個範例會使用 **/server** 參數來指定要連接的商務用 Skype Server。
+> 本範例會使用 **/server** 參數來指定要連接的商務用 Skype server。
 
  **輸出**
 
@@ -1434,7 +1434,7 @@ SYSPrep.ps1 是 Windows PowerShell 腳本，它會在您的 Windows Server 2008 
 | Microsoft .NET Framework 4.5  <br/>             | <https://go.microsoft.com/?linkid=9816306>  <br/>                       |
 | Microsoft SQL Server Express 2008 R2  <br/>     | <https://www.microsoft.com/download/details.aspx?id=23650>  <br/> |
 | Windows PowerShell 版本3。0  <br/>           | <https://www.microsoft.com/download/details.aspx?id=34595>  <br/> |
-| Visual c + + 2010 可轉散發元件  <br/>          | <https://www.microsoft.com/download/details.aspx?id=5555>  <br/>  |
+| Visual c + + 2010 可轉散發元件  <br/>          | <https://support.microsoft.com/en-us/topic/the-latest-supported-visual-c-downloads-2647da03-1eea-4433-9aff-95f26a218cc0>  <br/>  |
 | 網際網路資訊伺服器更新  <br/>      | <https://www.microsoft.com/download/details.aspx?id=34869>  <br/> |
 | Windows Identity Foundation  <br/>              | <https://www.microsoft.com/download/details.aspx?id=17331>  <br/> |
 | 商務用 Skype Server 2015 Setup.exe  <br/> | 從商務用 Skype Server 2015 媒體複製  <br/>                   |
@@ -1456,7 +1456,7 @@ SYSPrep.ps1 是 Windows PowerShell 腳本，它會在您的 Windows Server 2008 
 
 「未指派的號碼宣告」遷移工具可讓商務用 Skype Server 2015 系統管理員將宣告應用程式所提供的未指派號碼設定從來源商務用 Skype Server 或集區移至目的地商務用 Skype Server 或集區。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 「未指派號碼宣告」遷移工具是一 Windows PowerShell 腳本，可將來源伺服器或集區之宣告應用程式所提供的未指派號碼設定移至不同的伺服器或集區。
 
@@ -1526,7 +1526,7 @@ Move-CsAnnouncementConfiguration.ps1 -Source SfBS2015Pool.contoso.com -Destinati
 
 Web 會議資料工具可讓商務用 Skype Server 2015 通訊軟體的系統管理員，對與召集人的 Web 會議相關聯的資料進行更多控制。 案例包括根據時間戳記準則刪除特定使用者的會議資料的功能。
 
-### <a name="description"></a>說明
+### <a name="description"></a>描述
 
 此工具可讓系統管理員執行下列作業：
 

@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
-description: 摘要：設定商務用 Skype Server 綜合交易的測試使用者帳戶和監視程式節點設定。
-ms.openlocfilehash: 77e742940b75845e67a48bddb2c19a4450b289e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 為商務用 Skype Server 綜合交易設定測試使用者帳戶和監視節點設定。
+ms.openlocfilehash: 2c24b18856aad2face3a1cda7736365631794661
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580067"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012357"
 ---
 # <a name="skype-for-business-server-configure-watcher-node-test-users-and-settings"></a>商務用 Skype Server：設定觀察者節點測試使用者和設定
  

@@ -17,12 +17,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 摘要：瞭解為內部部署商務用 Skype Server 混合部署執行的 Skype 會議廣播所需執行的步驟。
-ms.openlocfilehash: 92e09820d5c2634041ac91a84e97c90dec243a93
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 99ba1733dc8c353dc17f9a4c9a51a9ed00410d27
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596027"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013707"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>設定 Skype 會議廣播的內部部署部署
  
@@ -48,12 +48,10 @@ Skype會議廣播是 Office 365 的一部分線上服務。 如果您正在執�
     
 3. 使用下列設定來設定新的提供者：
     
-|||
-|:-----|:-----|
-|**啟用與此提供者的通訊：** <br/> |已選取  <br/> |
-|**提供者名稱：** <br/> |LyncOnlineResources  <br/> |
-|**Access Edge service (FQDN) ：** <br/> |sipfed.resources.lync.com  <br/> |
-|**預設驗證層級：** <br/> |允許使用者與使用此提供者的所有人進行通訊。  <br/> |
+   - **啟用與此提供者的通訊：** 選擇
+   - **提供者名稱：** LyncOnlineResources
+   - **Access Edge service (FQDN) ：** sipfed.resources.lync.com
+   - **預設驗證層級：** 允許使用者與使用此提供者的所有人進行通訊。 
    
 您也可以在商務用 Skype Server 管理命令介面中執行下列 Cmdlet，以啟用商務用 Skype 線上資源的同盟：
   

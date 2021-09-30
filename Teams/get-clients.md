@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c33ad827e5d2674f9ecf15b3229979e4bd46ad71
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: c47285a8a759ccdade5fc6e95b90d75ede77bfc3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456383"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014687"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>取得 Microsoft Teams 用戶端
 
@@ -205,11 +205,11 @@ Microsoft Teams 行動裝置應用程式支援的行動平台如下：
 
 行動裝置應用程式只可透過各別行動平台的應用程式商店來發行及更新。 Microsoft 不支援透過 MDM 或側載來發行行動裝置應用程式。 當行動裝置應用程式安裝在支援的行動裝置平台上之後，在目前版本發行後的三個月內，該版本仍能支援 Teams 行動裝置應用程式本身。
 
-| | | |
+|&nbsp; |&nbsp; |&nbsp; |
 |---|---|---|
 |![描述決策點的圖示。](media/Get_clients_for_Microsoft_Teams_image4.png)|決策點|是否有任何限制會讓使用者無法在其裝置上安裝適當的 Microsoft Teams 用戶端？|
 |![描述後續步驟的圖示。](media/Get_clients_for_Microsoft_Teams_image5.png)|後續步驟|如果您的組織限制軟體安裝，請確認該程序與 Microsoft Teams 相容。 附註：PC 版用戶端安裝程式不需要系統管理員權限，但這在 Mac 上安裝時是必要的權限。|
-|
+
 
 ## <a name="client-update-management"></a>用戶端更新管理
 

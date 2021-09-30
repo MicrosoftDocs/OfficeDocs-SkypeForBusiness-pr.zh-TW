@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 中會議的硬體和軟體需求。
-ms.openlocfilehash: bfc449abc2e01676a412fc0ead85eeae12aa2610
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5209b024ae3e5f5161e7ff777c30b66c3237b3c3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733532"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013377"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>商務用 Skype Server 中會議的硬體和軟體需求
 
@@ -108,8 +108,6 @@ OfficeWeb 應用程式伺服器應該安裝在未執行商務用 Skype Server、
 ### <a name="audio-file-requirements-for-dial-in-conferencing"></a>電話撥入式會議的音訊檔需求
 
 商務用 Skype Server 不支援自訂語音提示和音樂的電話撥入式會議。 不過，如果您的業務需求很強，需要變更預設的音訊檔，請參閱 Microsoft 知識庫文章961177： [如何自訂語音提示或音樂檔以進行電話語音會議](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177)。
-
-您也可以使用[Microsoft Lync Server 會議語音應答自訂語音提示](https://go.microsoft.com/fwlink/p/?LinkId=396880)管理公用程式，讓系統管理員可以取代當電話來電者加入具有自訂提示的商務用 Skype 會議，以提供不同會議輸入經驗時所使用的預設語音提示。 自訂語音提示可以安裝在 Enterprise 或 Standard Edition 伺服器上。
 
 會議語音應答應用程式和會議宣告應用程式對等候音樂、錄製名稱和音訊提示檔有下列需求：
 

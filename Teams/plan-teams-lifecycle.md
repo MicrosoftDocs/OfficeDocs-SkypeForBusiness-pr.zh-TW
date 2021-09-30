@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa4d2cfa493ae6bec4429db9c3d01319d889288e
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 539597393f34f2f02734c57df57097281a4d7839
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456373"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012817"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams 中的生命週期管理方案
 
@@ -109,7 +109,7 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 -   [部署雲端語音](cloud-voice-landing-page.md)
 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![描繪決策點的圖示。](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>團隊的目的為何？</li><li>哪些人屬於團隊？</li><li>小組是私人還是公開的？</li><li>新成員可以自行加入，還是須由小組擁有者將其加入？</li><li>哪些人擁有可以建立頻道或新增索引標籤、Bot 和連接器的權限？</li></ul> |
 | ![描繪後續步驟的圖示。](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>建立團隊。</li><li>規劃頻道。</li></ul>|
@@ -123,7 +123,7 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 
 建立頻道名稱之前請三思，因爲在小組中重新命名頻道並不會重新命名 SharePoint 文件庫中對應的資料夾，這可能會造成終端使用者混淆。 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![描繪決策點的圖示。](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>團隊中會新增哪些初始頻道？</li><li>如果有的話，系統可以針對新增新頻道提供哪些指引？ (這些頻道的設定依據是專案、主題或是...？)</li></ul> |
 | ![描繪後續步驟的圖示。](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>建立初始頻道。</li><li>張貼歡迎訊息。</li><li>開始共同作業。</li></ul>|
@@ -144,7 +144,7 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 - 嘗試不同頻道的共同作業，例如與文件相關的頻道會議或索引標籤交談。
 - 使用 Microsoft Teams 行動裝置應用程式來提高參與。
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![描繪決策點的圖示。](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>誰負責監視使用情況以找出問題？</li><li>將使用哪些指標來判斷團隊的健康情況？</li><li>找出任何已到達使用期限的團隊。</li><li>找出狀況不良但仍在使用、而需要重整的團隊。</li></ul> |
 | ![描繪下一個步驟的圖示。](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>實作一個流程來監視個別團隊的健康情況。</li></ul>|
@@ -161,7 +161,7 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 
 如需設定到期和保留原則的相關資訊，請參閱 [Microsoft Teams 安全性與合規性概述](security-compliance-overview.md)。
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![描繪決策點的圖示。](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>定義團隊生命週期結束的形式。</li><li>決定是否要保留團隊的內容，以及要保留多久。</li></ul> |
 | ![描繪後續步驟的圖示。](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>記錄最佳做法和經驗傳承。</li><li>封存資料 (如有需要)。</li></ul>|

@@ -20,20 +20,20 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: '瞭解如何啟用或停用Skype釘號變更或預設會議號碼變更等設定時，傳送電子郵件給使用者。 '
-ms.openlocfilehash: 2f322f9cfc9ba7daa60d030c043bdfda4d511d2c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: '瞭解如何啟用或停用Skype釘號變更或預設會議號碼變更等設定時，將電子郵件傳送給使用者。 '
+ms.openlocfilehash: 9deb04e418d00171375aec34ca873a89c8a31cdf
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728022"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011727"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>啟用或停用在線上音訊會議設定變更時傳送商務用 Skype電子郵件
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 如果您想要啟用或停用在 Microsoft Teams 中傳送電子郵件，請參閱啟用或停用在 Microsoft Teams 中變更音訊會議設定[時傳送Microsoft Teams。](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)
+> 如果您想要啟用或停用在 Microsoft Teams 中傳送電子郵件，請參閱啟用或停用在 Microsoft Teams 中變更音訊會議[設定時傳送Microsoft Teams。](/MicrosoftTeams/enable-or-disable-sending-emails-when-their-settings-change-in-teams)
 
 啟用音訊會議時，系統會自動以電子郵件通知使用者。 不過，有時候您可能會想要減少寄給使用者的電子郵件商務用 Skype數量。 在這種情況下，您可以停用傳送電子郵件。
   
@@ -91,7 +91,7 @@ ms.locfileid: "58728022"
     
 ## <a name="what-else-should-you-know"></a>您還需要知道什麼？
 
-- 當自動電子郵件停用時，您仍可使用系統管理中心手動觸發使用會議 ID 和電話號碼傳送商務用 Skype電子郵件。 不過，如果您這麼做，將不會包含 PIN。 如果您想要重設音訊會議 PIN 並停用傳送電子郵件，您必須以其他方式將 PIN 傳送給使用者。
+- 當自動電子郵件停用時，您仍可使用系統管理中心手動觸發使用會議 ID 和電話號碼商務用 Skype電子郵件。 不過，如果您這麼做，將不會包含 PIN。 如果您想要重設音訊會議 PIN 並停用傳送電子郵件，您必須以其他方式將 PIN 傳送給使用者。
     
 - 您可以使用系統管理中心或商務用 Skype來停用傳送電子郵件給使用者Windows PowerShell。
     
@@ -107,9 +107,9 @@ ms.locfileid: "58728022"
     
   - [Get-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Get-CsOnlineDialInConferencingTenantSettings)
     
-- Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 有了Windows PowerShell，您可以使用單一Microsoft 365管理Office 365管理，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+- Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
-  - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [為什麼您需要使用 powerShell Microsoft 365或Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
@@ -119,10 +119,10 @@ ms.locfileid: "58728022"
     
   - [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [使用 Windows PowerShell 執行一般商務用 Skype Online 管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell Online 商務用 Skype[模組。](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，並安裝[Teams PowerShell](https://go.microsoft.com/fwlink/?LinkId=294688)模組 (。/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md) 。
   
 ## <a name="related-topics"></a>相關主題
 

@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 摘要：設定您的主要管理伺服器、安裝 System Center Operations Manager，以及匯入商務用 Skype Server 2015 的管理元件。
-ms.openlocfilehash: 926236d673a6988d36699ce0c307441b4aef3357
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20159d77c34ebaa4a8ed022a5d0f1467deeb89e0
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635257"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012117"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>如何設定主要管理伺服器
 
@@ -44,13 +44,10 @@ ms.locfileid: "58635257"
 - 資料倉儲
 
 > [!IMPORTANT]
-> 在安裝 System Center Operations Manager 2012 之前，必須先安裝「[Microsoft Report Viewer 2010 可轉散發元件套件](https://www.microsoft.com/download/details.aspx?id=6442)」。
+> 您必須先安裝 Microsoft Report Viewer 2010 可轉散發元件套件，才能安裝 System Center Operations Manager 2012。
 
-如需這些產品及其安裝的詳細資訊，請參閱下列連結：
+如需這些產品及其安裝的詳細資訊，請參閱[System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
-- [System CenterOperations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
-
-- [System Center Configuration Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
 
 請記住，每個商務用 Skype Server 部署只能有一個根管理伺服器。
 

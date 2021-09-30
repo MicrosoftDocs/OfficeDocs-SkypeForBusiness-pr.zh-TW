@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
 description: 摘要：在商務用 Skype Server 2015 電腦上安裝 Operations Manager 代理程式檔案，以加以監控，並設定電腦成為 System Center proxy。
-ms.openlocfilehash: dbca58ff7e8cc837ce5323d24bc127a9d3ee20ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: efe7c7bd9ce2862cd423e0b36a5de21d03e32db0
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606122"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015307"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitor"></a>設定要監視的商務用 Skype Server 電腦
 
@@ -32,7 +32,7 @@ ms.locfileid: "58606122"
 
 System Center在周邊網路中執行的 Operations Manager 代理程式 (例如商務用 Skype Server Edge Server) ，企業 (以外的外部綜合交易觀察器節點) 或跨 Active Directory 信任界限，可能需要設定 System Center Operations Manager 閘道伺服器。 此伺服器角色可讓代理程式與根管理伺服器之間不具有信任關係，以引發警示。 如需詳細資訊，請參閱 [管理 Operations Manager 中的閘道伺服器 2012](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))。
 
-如果您在這些位置中的其中一個位置部署代理程式，您也需要要求及設定憑證，以啟用監看員節點，將提醒傳送至 System Center Operations Manager。 為了簡化這個程序，Operations Manager 團隊已建立一套公用程式，讓您要求正確類型的憑證，並安裝於監控程式節點電腦上。 如需詳細資訊，以及若要下載這些公用程式，請參閱 [使用憑證產生嚮導輕鬆取得未加入網域之代理程式的憑證](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)。
+如果您在這些位置中的其中一個位置部署代理程式，您也需要要求及設定憑證，以啟用監看員節點，將提醒傳送至 System Center Operations Manager。 為了簡化這個程序，Operations Manager 團隊已建立一套公用程式，讓您要求正確類型的憑證，並安裝於監控程式節點電腦上。 如需詳細資訊，以及若要下載這些公用程式，請參閱 [使用憑證產生嚮導輕鬆取得未加入網域之代理程式的憑證](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467)。
 
 ### <a name="installing-the-operation-manager-agent-files"></a>安裝 Operation Manager 代理程式檔案
 

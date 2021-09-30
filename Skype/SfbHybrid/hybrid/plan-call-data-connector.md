@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: 使用商務用 Skype 線上遙測工具來監視混合式案例中的內部部署實施，以瞭解如何使用線上遙測工具。
-ms.openlocfilehash: a85599ee0db012d3c3fbb55a7d7c12f8516ee962
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2584453ca120c3dce9b4b0ce432e244cd15ec53b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726482"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013327"
 ---
 # <a name="plan-call-data-connector"></a>規劃通話資料連接器
 
@@ -50,7 +50,7 @@ ms.locfileid: "58726482"
 
 - 通話品質儀表板側重于整個組織的網路效能和問題。 商務用 Skype 系統管理員和網路工程師使用此工具來疑難排解及優化網路效能。
 
-如需詳細資訊，請參閱[通話分析和通話品質儀表板圖表（含監控伺服器詳細資料）。](/SkypeForBusiness/using-call-quality-in-your-organization/difference-between-call-analytics-and-call-quality-dashboard)
+如需詳細資訊，請參閱[Microsoft Teams：監控和提升通話品質](/monitor-call-quality-qos)。
 
 當然，您可能想要在內部部署中保留一些通話品質資料。 例如，如果您要使用協力廠商的解決方案與自訂的報表和工作流程，便會發生這種情況。  呼叫資料連線器可讓您設定將資料傳送到線上服務，同時在內部部署伺服器上保留資料的複本，如下圖所示：
 

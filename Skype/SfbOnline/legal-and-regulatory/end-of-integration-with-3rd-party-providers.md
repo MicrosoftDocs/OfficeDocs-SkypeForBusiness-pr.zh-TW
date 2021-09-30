@@ -1,5 +1,5 @@
 ---
-title: '與協力廠商音訊會議提供者整合商務用 Skype生命週期計畫 '
+title: '與協力廠商音訊會議提供者商務用 Skype生命週期計畫 '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,22 +20,22 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 將于 2021 年 7 月 31 日結束生命週期計畫，以將 商務用 Skype 整合至協力廠商音訊會議提供者 (協力廠商 ACP) 。
-ms.openlocfilehash: 75ee6616634b4670c633fe24d1c623bbe3d39499
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c159d201a284b683237df22688878ef268c442b1
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609990"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014377"
 ---
-# <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>與協力廠商音訊會議提供者整合商務用 Skype生命週期計畫 
+# <a name="end-of-life-program-for-the-integration-of-skype-for-business-with-third-party-audio-conferencing-providers"></a>與協力廠商音訊會議提供者商務用 Skype生命週期計畫 
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Microsoft 已宣佈終止生命週期計畫，以將商務用 Skype ACP 與協力廠商音訊會議提供者 (整合) 。 
+Microsoft 已宣佈結束生命週期計畫，以將 商務用 Skype ACP 與協力廠商音訊會議提供者 (整合) 。 
 
 生命週期結束計畫將于 2021 年 7 月 31 日結束。 當計畫結束時，商務用 Skype協力廠商音訊會議提供者的整合將會停止工作，且將于 2021 年 7 月 31 日 (日觀察下列) ：
 
-- 嘗試透過第三商務用 Skype ACP 服務提供的撥入號碼加入任何會議的參與者，將不再商務用 Skype會議。
+- 嘗試透過第三商務用 Skype ACP 服務所提供的撥入號碼加入任何會議的參與者，將不再商務用 Skype會議。
  
 - 針對協力廠商 ACP 服務啟用的使用者，不會再在任何新的會議邀請中自動包含其撥入商務用 Skype資訊。
 
@@ -47,9 +47,9 @@ Microsoft 已宣佈終止生命週期計畫，以將商務用 Skype ACP 與協�
 
 ## <a name="preparing-for-this-change"></a>準備此變更
 
-為了準備這項變更，我們鼓勵受影響的組織在 2021 年 7 月 31 日之前通知其啟用的使用者這項計畫更新。 
+為了準備這項變更，我們鼓勵受影響的組織在 2021 年 7 月 31 日之前通知其已啟用此計畫更新的使用者。 
 
-2021 年 7 月 31 日之後，使用者可以繼續使用商務用 Skype，而不受線上會議干擾;不過，如果組織需要使用電話撥入式音訊會議，組織必須啟用 Microsoft 提供的音訊會議使用者，商務用 Skype或Microsoft Teams。 若要深入瞭解 Microsoft 音訊會議，請參閱 [音訊會議](https://products.office.com/skype-for-business/audio-conferencing)。 
+在 2021 年 7 月 31 日之後，使用者可以繼續使用商務用 Skype，不會中斷其線上會議;不過，如果組織需要使用電話撥入式音訊會議或商務用 Skype或Microsoft Teams。 若要深入瞭解 Microsoft 音訊會議，請參閱 [音訊會議](https://www.microsoft.com/microsoft-teams/audio-conferencing)。 
 
 根據組織想要結束的狀態，可以遵循三種路徑：
 
@@ -69,7 +69,7 @@ Microsoft 已宣佈終止生命週期計畫，以將商務用 Skype ACP 與協�
  
 - 已啟用協力廠商 ACP 的使用者已排程的會議會自動重新排程，以包含 Microsoft Audio Meetingsing 撥入資訊。
  
-- 每個會議的會議識別碼都會是動態的，這表示每一個會議都會有專屬的會議 ID。 動態會議 ID 提供增強的安全性，並改善背對背會議的體驗。
+- 每個會議的會議識別碼都會是動態的，這表示每個會議都會有專屬的會議 ID。 動態會議 ID 提供增強的安全性，並改善背對背會議的體驗。
 
 - 服務的所有使用方式受音訊會議服務使用條款所限制。 
 
@@ -81,19 +81,19 @@ Microsoft 已宣佈終止生命週期計畫，以將商務用 Skype ACP 與協�
 
 - 在 2021 年 7 月 31 日之前移入 Microsoft 音訊會議並完成移入的組織，不會在 2021 年 7 月 31 日或之後看到其服務受到任何影響。
 
-- 若要深入瞭解如何移入 Microsoft 音訊會議，請參閱嘗試或購買 Microsoft 365[或](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)Office 365。 
+- 若要深入瞭解如何移入 Microsoft 音訊會議，請參閱在 Microsoft 365 或 Office 365 中試用或[購買音訊Office 365。](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md) 
 
-### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>路徑#2：繼續個別使用協力廠商音訊會議提供者
+### <a name="path-2-continue-to-separately-use-a-third-party-audio-conferencing-provider"></a>路徑#2：繼續使用協力廠商音訊會議提供者
 
 決定在 2021 年 7 月 31 日當天及之後繼續使用協力廠商 ACP 的組織，將會受到服務影響，因為協力廠商 ACP 撥入資訊將無法再用來加入 商務用 Skype 會議的音訊部分。 
 
-若要讓部分參與者透過 VoIP 加入會議，並透過協力廠商 ACP 加入其他參與者，以防止 商務用 Skype 會議中的音訊分散，建議這些組織在使用者會議中停用使用 VoIP。 如此一來，所有參與者都需要使用協力廠商 ACP 加入會議的音訊部分，以及會議的其他所有工作負載 (例如聊天或螢幕分享) 可繼續支援 商務用 Skype。 
+若要讓部分參與者透過 VoIP 加入會議，並透過協力廠商 ACP 加入其他參與者，以防止 商務用 Skype 會議中的音訊分散，建議這些組織在使用者會議中停用使用 VoIP。 如此一來，所有參與者都需使用協力廠商 ACP 加入會議的音訊部分，以及會議的其他所有工作負載 (例如聊天或螢幕分享) 可繼續支援 商務用 Skype。 
 
 - 若要從指定召集人的所有會議停用 VoIP，請透過 Cmdlet 將其會議策略的 AllowIPAudio 參數設為 false Set-CsConferencingPolicy False。 有關其他資訊，請參閱 [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
  
 在排程方面，自 2021 年 7 月 31 日起，協力廠商 ACP 的撥入資訊將不再自動包含在商務用 Skype邀請中。 如果使用者想要繼續將這項資訊加入會議商務用 Skype，則需要在會議邀請上手動新增撥入資訊。 
 
-請注意，在 2021 年 7 月 31 日，系統不會自動重新排定使用者的現有會議，以移除任何協力廠商 ACP 撥入資訊。 決定為使用者的會議保持啟用 VoIP 的組織，應考慮停用使用者的協力廠商 ACP 整合，然後使用會議移轉服務重新排程會議，以移除現有會議的協力廠商音訊會議撥入資訊，並防止已排程會議的音訊分散。 
+請注意，在 2021 年 7 月 31 日，系統不會自動重新排定使用者的現有會議，以移除任何協力廠商 ACP 撥入資訊。 決定為使用者的會議保持啟用 VoIP 的組織應考慮停用使用者的協力廠商 ACP 整合，然後使用會議移轉服務重新排程會議，以移除現有會議的協力廠商音訊會議撥入資訊，並防止已排程會議的音訊分散。 
 
 - 若要停用特定召集人的協力廠商音訊會議整合，請使用 Remove-CsUserAcp Cmdlet。 有關其他資訊，請參閱 [Remove-CsUserAcp](/powershell/module/skype/remove-csuseracp?view=skype-ps)。 
 
@@ -105,17 +105,17 @@ Microsoft 已宣佈終止生命週期計畫，以將商務用 Skype ACP 與協�
 
 - 建議您在 2021 年 7 月 31 日之前停用所有受影響使用者的所有會議 VoIP，以防止音訊分散于透過 VoIP 和協力廠商 ACP 加入的參與者之間。 
 
-    - 若要從指定召集人的所有會議停用 VoIP，請透過 Cmdlet 將使用者的會議策略的 AllowIPAudio 參數設為 falseSet-CsConferencingPolicy False。 有關其他資訊，請參閱 [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
+    - 若要從指定召集人的所有會議停用 VoIP，請透過 Cmdlet 將使用者的會議策略的 AllowIPAudio 參數設為 false Set-CsConferencingPolicy False。 有關其他資訊，請參閱 [Set-CsConferencingPolicy](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)。
  
-- 如果組織未針對所有會議停用 VoIP，建議您停用使用者使用協力廠商 ACP 的 商務用 Skype Online 整合，並重新排期會議以移除協力廠商 ACP 撥入資訊，以防止音訊分散。
+- 如果組織未針對所有會議停用 VoIP，建議您停用使用者使用協力廠商 ACP 的 商務用 Skype Online 整合，並重新排程會議以移除協力廠商 ACP 撥入資訊，以防止音訊分散。
 
     - 若要停用特定召集人的協力廠商音訊會議整合，請使用 [Remove-CsUserAcp](/powershell/module/skype/remove-csuseracp?view=skype-ps) Cmdlet。 
 
-    - 若要自動重新排期會議，請參閱如何手動為使用者執行會議移改？ 中[設定會議移 (MMS) 。](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
+    - 若要自動重新排期會議，請參閱如何手動為使用者執行會議移移？ 中[設定會議移 (MMS) 。](../audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md)
 
 ### <a name="path-3-stop-using-dial-in-conferencing-altogether"></a>路徑#3：完全停止使用電話撥入式會議
 
-決定完全停止使用電話撥入式會議的組織 (Microsoft 和協力廠商 ACP) 均無法完全仰賴 VoIP 支援會議的音訊商務用 Skype部分。 
+決定完全停止使用電話撥入式會議的組織 (無論 Microsoft 或協力廠商 ACP) 均無法完全仰賴 VoIP 支援商務用 Skype會議的音訊部分。 
 
 這些組織必須停用其使用者，避免使用協力廠商音訊會議提供者，並且使用會議移轉服務自動重新排好會議，以移除其電話撥入式會議資訊。 
 

@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 中設定電話撥入式會議。
-ms.openlocfilehash: a9d48b5232a446f81de1acf14cddfa054f74d488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3533220dc84f131b02f180bb863883b371cbf365
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609950"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013787"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>在商務用 Skype Server 中設定電話撥入式會議
  
@@ -157,7 +157,7 @@ ms.locfileid: "58609950"
     
 6. 在 [ **顯示名稱**] 中，輸入撥入存取號碼的描述。 這是與商務用 Skype 搜尋結果中的撥入存取號碼相關聯的名稱。 當使用者呼叫存取號碼時，此名稱會顯示在用戶端中。 
     
-7. 在 [ **行 uri**] 中，輸入電話 uri 格式的撥入存取號碼的 e.164 號碼，包含號碼前面的 + 符號，並排除空格。 例如電話： + 14255550200。
+7. 在 [ **行 uri**] 中，輸入電話 uri 格式的撥入存取號碼的 e.164 號碼，包含號碼前面的 + 符號，並排除空格。 例如，`tel:+14255550200`。
     
     > [!NOTE]
     > 其他電話撥入式會議存取號碼無法重複使用相同的列 URI。 

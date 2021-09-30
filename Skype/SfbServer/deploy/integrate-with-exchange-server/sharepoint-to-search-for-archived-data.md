@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 摘要：設定 SharePoint 伺服器以搜尋 Exchange Server 和商務用 Skype Server 封存的資料。
-ms.openlocfilehash: 8a27bb170f0e089d702417a32d93eee96c7c6299
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 081b32ad57d97a793867e56f85ad36d62424bacb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604202"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013567"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>設定 SharePoint 伺服器以搜尋封存商務用 Skype 資料
  
@@ -65,7 +65,7 @@ $service.Update()
 > [!NOTE]
 > 請務必將該 URI 用於自動探索服務。 請勿使用範例 URI https://autodiscover.litwareinc.com/autodiscover/metadata/json/1 。 
   
-建立權杖簽發者並設定 token 服務之後，請執行下列命令，以確保將 SharePoint 網站的 url 取代為範例 urlhttp://atl-sharepoint-001:
+建立權杖簽發者並設定 token 服務之後，請執行下列命令，並確定將 SharePoint 網站的 url 取代為範例 url `http://atl-sharepoint-001` ：
   
 ```powershell
 $exchange = Get-SPTrustedSecurityTokenIssuer "Exchange"
@@ -112,17 +112,17 @@ New-SPSite -Url "https://atl-sharepoint-001/sites/discovery" -OwnerAlias "kenmye
     
 3. 在 [新增結果來源] 窗格的 [名稱] 方塊中，輸入新結果來源的名稱 (例如，**Microsoft Exchange**)。 選取 [ **Exchange** 為結果來源 **通訊協定**]，然後在 [ **Exchange 來源 URL** ] 方塊中輸入 Exchange 伺服器的 web 服務來源 url。 來源 URL 看起來應該像下面這樣：
     
-    https://atl-exchange-001.litwareinc.com/ews/exchange.asmx
+    `https://atl-exchange-001.litwareinc.com/ews/exchange.asmx`
     
 4. 請確定未選取 [使用自動探索]，然後按一下 [確定]。
     
-最後，請從 SharePoint 探索網站 (中完成下列程式，以建立新的 ediscovery 案例及新的 ediscovery 集（例如，https://atl-sharepoint-001/sites/discovery):
+最後，請從 SharePoint 探索網站 (中完成下列程式，以建立新的 ediscovery 案例及新的 ediscovery 集（例如， `https://atl-sharepoint-001/sites/discovery`) ：
   
 1. 在「網站內容」頁面上，按一下 [建立新案例]。
     
 2. 在「網站內容：建立 SharePoint 網站」頁面上的 [標題] 方塊中，輸入使用者的電子郵件別名 (例如，**kenmyer**)，然後將那相同的 URL 新增至 [網站位址] 方塊中。如此將會產生像下面這樣的 URL：
     
-    https://atl-sharepoint-001/sites/eDiscovery/kenmyer
+    `https://atl-sharepoint-001/sites/eDiscovery/kenmyer`
     
 3. 按一下 [建立]。
     

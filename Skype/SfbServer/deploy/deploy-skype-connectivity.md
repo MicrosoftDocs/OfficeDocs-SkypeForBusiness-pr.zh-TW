@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 摘要：瞭解如何使用 Skype 消費者來連接商務用 Skype Server。 也稱為 Skype 連線性。
-ms.openlocfilehash: 467d87968e7e5b0357e8d23b578a511adb281e27
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c63e476cc413bbf0a676c7b28d02519bbc6f223d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729882"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013187"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>部署商務用 Skype Server 中的 Skype 連線能力
 
@@ -52,11 +52,11 @@ Skype目錄搜尋功能可讓商務用 Skype 使用者能夠搜尋 Skype 連絡�
 下表概述 Skype 目錄搜尋的支援。
   
 
-||**商務用 Skype Server前端**|**Lync Server 2013 (或舊版) 前端**|**註解**|
+|&nbsp;|商務用 Skype Server前端|Lync Server 2013 (或舊版) 前端|註解|
 |:-----|:-----|:-----|:-----|
-|商務用 Skype Server邊緣  <br/> |支援  <br/> |不支援  <br/> |商務用 Skype Server 和 Edge 是 Skype 目錄搜尋的必要條件  <br/> |
-|商務用 Skype ServerEdge + Lync Server 2013 Edge 已並行部署  <br/> |支援  <br/> |不支援  <br/> |Skype目錄搜尋流量流經商務用 Skype Server Edge server。 同盟流量會透過系統管理員設定的 edge 進行。 例如，管理員可以選擇繼續透過 Lync Server 2013 Edge server 傳送同盟流量，這不會支援 Skype 目錄搜尋。  <br/> |
-|Lync Server 2013 (或舊版) Edge  <br/> |不支援  <br/> |不支援  <br/> ||
+|商務用 Skype Server邊緣   |支援   |不支援   |商務用 Skype Server 和 Edge 是 Skype 目錄搜尋的必要條件   |
+|商務用 Skype ServerEdge + Lync Server 2013 Edge 已並行部署   |支援   |不支援   |Skype目錄搜尋流量流經商務用 Skype Server Edge server。 同盟流量會透過系統管理員設定的 edge 進行。 例如，管理員可以選擇繼續透過 Lync Server 2013 Edge server 傳送同盟流量，這不會支援 Skype 目錄搜尋。   |
+|Lync Server 2013 (或舊版) Edge   |不支援   |不支援   ||
    
 > [!NOTE]
 > 在商務用 Skype Server 前端執行的 Addressbook 服務會根據 edge Server 中是否存在 Skype 搜尋埠4443尋找 edge。 
@@ -77,7 +77,7 @@ Skype目錄搜尋功能可讓商務用 Skype 使用者能夠搜尋 Skype 連絡�
 
 Skype連線也是商務用 Skype 線上的功能，也就是 Microsoft 365 和 Office 365 的一部分。 您可以從 Microsoft 365 系統管理中心中的商務用 Skype 系統管理中心，啟用 Skype Connectivity 功能。
   
-如需 Microsoft 365 的中型企業版、Office 365 企業版、Microsoft 365 教育版及 Office 365 的政府版：登入 Microsoft 365 系統管理中心，然後流覽至商務用 Skype 系統管理中心。 移至 [外部通訊]。 在 [公用 IM 服務提供者] 底下，按一下 [啟用]。 如果您想要控制個別使用者對 Skype 連線的存取，您可以編輯個別使用者的外部通訊設定來執行此動作。
+如需 Microsoft 365 的中型企業版、Office 365 企業版、Microsoft 365 教育版及 Office 365 的政府版：登入 Microsoft 365 系統管理中心，然後流覽至商務用 Skype 管理中心。 移至 [外部通訊]。 在 [公用 IM 服務提供者] 底下，按一下 [啟用]。 如果您想要控制個別使用者對 Skype 連線的存取，您可以編輯個別使用者的外部通訊設定來執行此動作。
   
 若為 Office 365 Small Business Premium：登入 Office 365，然後移至系統管理 \> 服務設定 \> 立即訊息、會議和會議。 開啟外部通訊。 外部通訊參數會同時開啟 Skype 連線，以及與使用商務用 Skype 的其他組織通訊。
   
@@ -126,7 +126,7 @@ Skype連線也是商務用 Skype 線上的功能，也就是 Microsoft 365 和 O
 在2006中部署的公用 IM (PIC) 布建機制 (pic.lync.com) 已無法繼續維護，且會在8/15/2019 時關閉。 相反地，公用 IM 同盟會假設商務用 Skype Online （稱為「夥伴探索」）所使用的相同同盟模型，因此內部部署部署會透過其同盟 DNS SRV 記錄 (s) 加以公開探索。
 
 **這種變更意味著公用 IM 同盟被取代？**
-否。 公用 IM 同盟將繼續支援許多年，直到商務用 Skype 的內部部署產品到達生命週期結束時為止。
+錯誤。 公用 IM 同盟將繼續支援許多年，直到商務用 Skype 的內部部署產品到達生命週期結束時為止。
 
 **我們公司有 (共用位址空間的混合式關聯) 商務用 Skype 線上，我們會受到影響嗎？**
 不需要，因為您已與商務用 Skype 線上，所以此變更不會影響您。
@@ -221,29 +221,29 @@ Skype連線也是商務用 Skype 線上的功能，也就是 Microsoft 365 和 O
 下表概述 Skype 消費程式最新版本與最新版商務用 Skype 之間的交互操作狀態。
   
 
-|**Skype客戶**|**新增連絡人、IM、顯示狀態、音訊和影片通話**|**Comment**|
+|Skype客戶|新增連絡人、IM、顯示狀態、音訊和影片通話|註解|
 |:-----|:-----|:-----|
-|Skype Windows 桌面  <br/> |7.6 或更高版本 Windows XP 及更高版本  <br/> |**新增**：針對執行于 Windows XP 上的 Windows Skype 用戶端，新增支援，而 Windows Vista **(需要最新的用戶端版本7.26 或更高版本)** <br/> |
-|SkypeMobile-Android 電話和平板電腦  <br/> |6.19 或更高版本，執行 Android OS 版本4.0.3 或更高版本  <br/> |低規格裝置可能不支援影片通話  <br/> |
-|Skype行動裝置 iOS  <br/> |IOS 7 或更高版本上的6.11 或更高版本  <br/> |不支援的 iPhone 4 及更早版本、iPod 第四代及更早版本 iPad 第一代  <br/> |
-|SkypeMac  <br/> |7.19 或更高版本，Mac OS X 10.9 (Mavericks) 或更高版本  <br/> |需要 Mac OSX 10.9 或更高版本  <br/> |
-|Skype通用 Windows App (Windows 10) 桌面和行動裝置  <br/> |Windows 10 (Redstone 1 更新或更新版本)   <br/> |Windows通用應用程式會在秋季2016接收更新新增 interop 支援  <br/> |
+|Skype Windows 桌面   |7.6 或更高版本 Windows XP 及更高版本   |**新增**：針對執行于 Windows XP 上的 Windows Skype 用戶端，新增支援，而 Windows Vista **(需要最新的用戶端版本7.26 或更高版本)**  |
+|SkypeMobile-Android 電話和平板電腦   |6.19 或更高版本，執行 Android OS 版本4.0.3 或更高版本   |低規格裝置可能不支援影片通話   |
+|Skype行動裝置 iOS   |IOS 7 或更高版本上的6.11 或更高版本   |不支援的 iPhone 4 及更早版本、iPod 第四代及更早版本 iPad 第一代   |
+|SkypeMac   |7.19 或更高版本，Mac OS X 10.9 (Mavericks) 或更高版本   |需要 Mac OSX 10.9 或更高版本   |
+|Skype通用 Windows App (Windows 10) 桌面和行動裝置   |Windows 10 (Redstone 1 更新或更新版本)    |Windows通用應用程式會在秋季2016接收更新新增 interop 支援   |
    
 下表說明最新版商務用 Skype 與最新版本 Skype 消費者之間的交互操作狀態。 
   
-|**用戶端**|**Skype目錄搜尋及新增連絡人**|**SkypeA/V，IM interop**|
+|用戶端|Skype目錄搜尋及新增連絡人|SkypeA/V，IM interop|
 |:-----|:-----|:-----|
-|商務用 Skype  <br/> |是  <br/> |是  <br/> |
-|Mac 版商務用 Skype  <br/> |可以新增 (無搜尋)   <br/> |是  <br/> |
-|Lync 桌面2013  <br/> |可以新增 (無搜尋)   <br/> |是  <br/> |
-|Lync Web App-線上和內部部署  <br/> |N/A  <br/> |N/A  <br/> |
-|Lync Mobile-Windows Phone  <br/> |即將推出  <br/> |是  <br/> |
-|Lync Mobile-Android  <br/> |即將推出  <br/> |是  <br/> |
-|Lync Mobile-iOS  <br/> |即將推出  <br/> |是  <br/> |
-|Lync Room System  <br/> |即將推出  <br/> |是  <br/> |
-|Lync 新式應用程式 (Win 8.1)   <br/> |是  <br/> |是  <br/> |
-|Lync Mac 2011  <br/> |可以新增 (無搜尋)   <br/> |是  <br/> |
-|Lync 桌面2010  <br/> |可以新增 (無搜尋)   <br/> |是  <br/> |
-|Lync Phone Edition  <br/> |N/A  <br/> |N/A  <br/> |
-|Lync 語音應答  <br/> |N/A  <br/> |N/A  <br/> |
+|商務用 Skype   |是   |是   |
+|Mac 版商務用 Skype   |可以新增 (無搜尋)    |是   |
+|Lync 桌面2013   |可以新增 (無搜尋)    |是   |
+|Lync Web App-線上和內部部署   |不適用   |不適用   |
+|Lync Mobile-Windows Phone   |即將推出   |是   |
+|Lync Mobile-Android   |即將推出   |是   |
+|Lync Mobile-iOS   |即將推出   |是   |
+|Lync Room System   |即將推出   |是   |
+|Lync 新式應用程式 (Win 8.1)    |是   |是   |
+|Lync Mac 2011   |可以新增 (無搜尋)    |是   |
+|Lync 桌面2010   |可以新增 (無搜尋)    |是   |
+|Lync Phone Edition   |不適用   |不適用   |
+|Lync 語音應答   |不適用   |不適用   |
    

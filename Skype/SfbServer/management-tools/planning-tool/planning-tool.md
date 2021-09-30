@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: 使用商務用 Skype Server 2015 規劃工具的指導方針。
-ms.openlocfilehash: 7e532f33710da1f0a9f82f2c8169b5258dab50ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 55c45f4df4a30b223c76fcbdf829357e7410d4b1
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626565"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014737"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>商務用 Skype Server 2015 規劃工具
  
 使用商務用 Skype Server 2015 規劃工具的指導方針。
   
-商務用 Skype Server 2015 規劃工具是一個以嚮導為導向的工具，它會詢問有關所設計之商務用 Skype Server 2015 拓撲的問題。 規劃工具會使用所提供的資訊，結合拓撲設計和容量的慣用慣例，根據提供的答案呈現建議的拓撲。 您可以從[商務用 Skype Server 2015 規劃工具](https://go.microsoft.com/fwlink/p/?LinkID=282725)下載規劃工具。
+商務用 Skype Server 2015 規劃工具是一個以嚮導為導向的工具，它會詢問有關所設計之商務用 Skype Server 2015 拓撲的問題。 規劃工具會使用所提供的資訊，結合拓撲設計和容量的慣用慣例，根據提供的答案呈現建議的拓撲。
   
 最後，規劃工具的目標是減輕設計完整商務用 Skype Server 2015 拓撲的潛在複雜性。 工具也會提供工具內規劃和部署檔的上下文參考，但前提是網際網路連線可以連接至 Microsoft 網站。
   

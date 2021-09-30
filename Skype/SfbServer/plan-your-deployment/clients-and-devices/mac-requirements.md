@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: 閱讀此主題以瞭解在 Mac 上執行商務用 Skype 的硬體、軟體和基礎結構需求。
-ms.openlocfilehash: dd7dc17c4166838a76b11d9905335575205f4b2b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e25995173b44cf4f5892c1a34f77529042125c58
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604772"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014467"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>商務用 Skype Mac 用戶端需求
  
@@ -31,7 +31,7 @@ ms.locfileid: "58604772"
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Mac 版商務用 Skype 的硬體和軟體需求
 
-mac 用戶端上的商務用 Skype 需要 mac OS X El Capitan 及更高版本，且至少使用磁碟空間100MB。 我們支援使用內建的音訊及視頻裝置。 外部裝置必須位於[商務用 Skype 方案目錄](https://partnersolutions.skypeforbusiness.com/solutionscatalog)中。 
+mac 用戶端上的商務用 Skype 需要 mac OS X El Capitan 及更高版本，且至少使用磁碟空間100MB。 我們支援使用內建的音訊及視頻裝置。 外部裝置必須列在[Microsoft Teams 裝置](https://www.microsoft.com/microsoft-teams/across-devices/devices)上。 
   
 > [!NOTE]
 > 這個清單是初步的，有些裝置可能符合 Lync，但不支援 Mac 上的商務用 Skype。 如需最低硬體需求，請參閱 [系統需求](https://products.office.com/office-system-requirements) 。

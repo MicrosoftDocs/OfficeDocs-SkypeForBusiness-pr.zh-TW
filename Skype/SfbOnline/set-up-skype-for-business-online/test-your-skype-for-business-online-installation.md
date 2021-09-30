@@ -19,18 +19,18 @@ f1.keywords:
 ms.custom:
 - Setup
 description: '瞭解如何設定測試帳戶和電腦，以及測試電話撥入式會議、線上功能 ，例如人員對人通話、會議及登出，以節省時間、支援通話並增加滿意度。 '
-ms.openlocfilehash: a022ad3db1890a71016d5ebffeccb0aaf30441ca
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a8efe71507b6270181fb0451f06f10a80c7a578b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729902"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014567"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>測試您的商務用 Skype Online 安裝
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-先測試您的線上商務用 Skype，再為貴組織所有人設定，以節省時間、減少支援電話，以及提高使用者滿意度。
+先測試您的線上商務用 Skype，再為您組織的每個人設定，以節省時間、減少支援電話，以及提高使用者滿意度。
 
 以下是您需要的：
 
@@ -53,11 +53,11 @@ ms.locfileid: "58729902"
 ## <a name="set-up-test-accounts"></a>設定測試帳戶
 <a name="__toc328126910"> </a>
 
-1. 請前往系統管理員  >  **Microsoft 365** 或 **Office 365**  >  **使用者和群組**，然後選取新增 ![ 。](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) 並輸入必要的資訊。
+1. 前往系統 **管理**  >  **Microsoft 365** 或 **Office 365**  >  **使用者和群組**，然後選取新增 ![ 。](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) 並輸入必要的資訊。
 
 2. 當您進入步驟 4 (電子郵件) ，請輸入您自己的電子郵件地址。 接著，您將有新使用者名稱和密碼的記錄。
 
-3. 重複步驟 1 和 2，直到您擁有想要的測試帳戶數目。 除了您自己的帳戶之外， (至少需要兩) 帳戶，以測試 商務用 Skype Online 的線上商務用 Skype功能。
+3. 重複步驟 1 和 2，直到您擁有想要的測試帳戶數目。 您至少需要兩個 (帳戶，) 測試 商務用 Skype Online 的線上會議功能。
 
 ## <a name="set-up-test-computers"></a>設定測試電腦
 <a name="__toc328126911"> </a>
@@ -107,13 +107,13 @@ ms.locfileid: "58729902"
 |[在 Lync Online 中及登出](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |系統商務用 Skype登錄畫面  <br/> |
 |[在 Lync Online 中及登出](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |系統商務用 Skype視窗會關閉，商務用 Skype圖示不會再出現在通知Windows區域中。  <br/> |
 
-無法登錄？ 請參閱[如何在 商務用 Skype Online 中疑難排解商務用 Skype問題](https://support.microsoft.com/kb/2541980)。
+無法登錄？ 請參閱[使用者商務用 Skype的疑難排解](/skypeforbusiness/troubleshoot/online-sign-in/troubleshoot-sign-in-issues-for-users)。
 
  **連絡人、目前狀態和立即訊息**
 
 |**工作**|**預期結果**|
 |:-----|:-----|
-|[在郵件中傳送 IM 商務用 Skype](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |系統商務用 Skype交談視窗出現，您輸入了內容，而且您會收到您連絡人的回復。  <br/> |
+|[在郵件中傳送 IM 商務用 Skype](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |系統商務用 Skype交談視窗，您輸入了內容，而且您會收到您連絡人的回應。  <br/> |
 |[在郵件中傳送 IM 商務用 Skype](https://support.office.com/article/b3aefb9b-dec8-4be8-a1ee-1eab12144d05) <br/> |當商務用 Skype視窗出現時，您輸入內容，交談中的每個人都會回應。  <br/> |
 |[使用連絡人的名字或姓氏搜尋連絡人](https://support.office.live.com/article/29fa2061-f679-4e0d-902d-736b67774c8b#BKMK_ContactsFAQ) <br/> |一開始輸入，您的搜尋結果就會開始顯示。  <br/> |
 |[Lync for Microsoft 365](https://support.office.com/article/29fa2061-f679-4e0d-902d-736b67774c8b.aspx#BKMK_ContactsFAQ) <br/> |您新增的連絡人會出現在您選取的連絡人群組中。  <br/> |
@@ -136,7 +136,7 @@ ms.locfileid: "58729902"
 |[變更 Lync 會議的參與者設定](https://support.office.com/article/cee2aa78-d878-4a63-ad33-9c249fceced9) <br/> |視選項而異。  <br/> **秘訣：** 在 **Access 和簡報者** 下，您可以嘗試不同的神秘 **會忽略大廳** 選項。 <br/> |
 |[加入 Lync 會議](https://support.office.com/article/538716dc-f4f2-48c2-af96-587c62387b87) <br/> |交談視窗隨即開啟，且您的名稱會在您連接後出現在會議參與者清單中。  <br/> |
 |[在會議或通話中將麥克風設為靜音商務用 Skype靜音或取消靜音](https://support.office.com/article/47399948-db7f-4ee5-8e61-53a94bb97704) <br/> |會議參與者清單中所有人的名稱旁會出現靜音圖示。 只有當您說話時，才能聽到您的聲音。  <br/> |
-|[在 lync PowerPoint中展示幻燈片](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |您的PowerPoint簡報會顯示在會議階段視窗中的每個人商務用 Skype電腦上。  <br/> |
+|[在 Lync PowerPoint中展示幻燈片](https://support.office.com/article/3910a2b2-01df-4b97-9451-322b598ede7e) <br/> |您的PowerPoint簡報會顯示在會議階段視窗中的商務用 Skype電腦上。  <br/> |
 |[在 Lync 會議中傳輸檔案](https://support.office.com/article/f6942910-bc1d-4a48-bf18-385778f08088) <br/> |上傳之後，會議中的其他人都可以查看並下載附件。  <br/> |
 
 ## <a name="related-topics"></a>相關主題

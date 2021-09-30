@@ -8,7 +8,7 @@
 
 | 發佈于 |主題標題 | 改變 |
 |------|------------|--------|
-| 9/20/2021 | [在系統管理中心的活動記錄中Microsoft Teams作業](/MicrosoftTeams/activity-log) | 改 性 |
+| 9/20/2021 | [在系統管理中心的活動記錄中Microsoft Teams您的Microsoft Teams作業](/MicrosoftTeams/activity-log) | 改 性 |
 | 9/20/2021 | [Teams 中的核准應用程式可用性](/MicrosoftTeams/approval-admin) | 改 性 |
 | 9/20/2021 | [在 Microsoft Teams 中將原則指派給使用者](/MicrosoftTeams/assign-policies) | 改 性 |
 | 9/20/2021 | [通過直接路由認證的工作階段邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 改 性 |
@@ -95,7 +95,7 @@
 | 9/9/2021 | [Microsoft Teams 隱私權](/MicrosoftTeams/teams-privacy) | 改 性 |
 | 9/9/2021 | [使用 Microsoft Teams 和 Bookings 應用程式進行虛擬會面](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | 添加 |
 | 9/9/2021 | [在 Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | 改 性 |
-| 9/9/2021 | [開始使用適用於醫療保健組織的 Teams](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 改 性 |
+| 9/9/2021 | [開始使用適用于Teams組織使用](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | 改 性 |
 | 9/10/2021 | [等候音樂](/MicrosoftTeams/music-on-hold) | 添加 |
 | 9/10/2021 | [設定 ServiceNow Teams 會議室](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | 改 性 |
 | 9/10/2021 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 改 性 |

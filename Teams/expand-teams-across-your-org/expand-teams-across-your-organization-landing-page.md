@@ -15,18 +15,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c84fbdd556ce7a83c13acf8313c04c3e957995cb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 830dd622dea5dda014b4aaf86047be923b0a0307
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727342"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015317"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>展開Microsoft Teams整個組織
 
 這些資源以標準部署Teams為根據，專為協助您將特定組織類型Teams資源所設計。 如果您尚未部署Teams，請參閱如何推出 Teams 中的建議[Microsoft Teams。](../deploy-overview.md)
 
-|               |               |               |               |               |               | 
+|&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;| 
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
 | ![任務檢查清單-規劃-teams。](../media/clock-teams-small.svg)  |  [Teams 中的 Shifts](./shifts-for-teams-landing-page.md) |![健康小組](../media/health-teams-small.svg)  | [適用於醫療保健的 Teams](./teams-for-healthcare-landing-page.md) |![education-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [Microsoft Teams 教育版](./teams-for-education-landing-page.md) 
 |![小型企業團隊。](../media/small-business-teams-small.svg)  | [適用於零售業的 Teams](./teams-for-retail-landing-page.md) |![區塊團隊](../media/blocks-teams-small.svg)  | [適用於政府機關的 Teams](./teams-for-government-landing-page.md) |               |               |

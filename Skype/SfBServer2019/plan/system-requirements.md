@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: ''
 description: 摘要：使用本主題準備您的商務用 Skype Server 2019 伺服器及網域基礎結構。 在這裡，硬體、作業系統、資料庫、軟體、所有系統需求與建議，以及憑證 DNS、檔案共用和 Active Directory 資訊，都是為了協助確保成功安裝及部署您的伺服器陣列。
-ms.openlocfilehash: d5714c5606c69d6aba0befa03a6556a5da8ab443
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cb1d7464406ae089fd31c31971cb246d79a83edb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728362"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011747"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的系統需求
  
@@ -49,31 +49,31 @@ ms.locfileid: "58728362"
   
 Standard Edition 伺服器的建議硬體：
 
-|**硬體元件**|**建議**|
+|硬體元件|建議|
 |:-----|:-----|
-|CPU  <br/> |Intel 至強 E5 2673 v3 雙處理器，6核心，2.4 ghz (GHz) 或更高版本。  <br/> 商務用 Skype Server 2019 角色不支援 Intel Itanium 處理器。  <br/> |
-|記憶體  <br/> |32 gb (GB) 。  <br/> |
-|磁片  <br/> |可  <br/> •8個或更多 10000 RPM 硬碟，至少有 72 GB 的可用磁片磁碟機， (兩個磁片使用 raid 1 和6，使用 RAID 10) 。  <br/> 或  <br/> •固態磁片磁碟機 (Ssd) 能夠為 8 10000 RPM 機械磁片磁碟機提供相同的可用空間及類似的效能。  <br/> |
-|網路  <br/> |1個雙埠網路介面卡，可使用 1 Gbps 或以上 (2 網路介面卡，但必須以單一 MAC 位址和單一 IP) 位址進行分組。  <br/> 前端伺服器、後端伺服器及 Standard Edition 伺服器 **不** 支援雙重或多穴設定。 <br/> 只要未對作業系統公開，而且正用來監視和管理伺服器硬體，您就可以使用帶外管理系統，例如 DRAC 或 ILO。 此案例不會組成多穴伺服器，而且支援此案例。  <br/> |
+|CPU   |Intel 至強 E5 2673 v3 雙處理器，6核心，2.4 ghz (GHz) 或更高版本。  <br/> 商務用 Skype Server 2019 角色不支援 Intel Itanium 處理器。   |
+|記憶體   |32 gb (GB) 。   |
+|磁片   |可  <br/> •8個或更多 10000 RPM 硬碟，至少有 72 GB 的可用磁片磁碟機， (兩個磁片使用 raid 1 和6，使用 RAID 10) 。  <br/> 或  <br/> •固態磁片磁碟機 (Ssd) 能夠為 8 10000 RPM 機械磁片磁碟機提供相同的可用空間及類似的效能。   |
+|網路   |1個雙埠網路介面卡，可使用 1 Gbps 或以上 (2 網路介面卡，但必須以單一 MAC 位址和單一 IP) 位址進行分組。  <br/> 前端伺服器、後端伺服器及 Standard Edition 伺服器 **不** 支援雙重或多穴設定。 <br/> 只要未對作業系統公開，而且正用來監視和管理伺服器硬體，您就可以使用帶外管理系統，例如 DRAC 或 ILO。 此案例不會組成多穴伺服器，而且支援此案例。   |
 
 
 前端伺服器及後端伺服器的建議硬體：
   
-|**硬體元件**|**建議**|
+|硬體元件|建議|
 |:-----|:-----|
-|CPU  <br/> |Intel 至強 E5 2673 v3 雙處理器，6核心，2.4 ghz (GHz) 或更高版本。 <br/> 商務用 Skype Server 2019 角色不支援 Intel Itanium 處理器。  <br/> |
-|記憶體  <br/> |64 gb (GB) 。  <br/> |
-|磁片  <br/> |可  <br/> •8個或更多 10000 RPM 硬碟，至少有 72 GB 的可用磁片磁碟機， (兩個磁片使用 raid 1 和6，使用 RAID 10) 。  <br/> 或  <br/> •固態磁片磁碟機 (Ssd) 能夠為 8 10000 RPM 機械磁片磁碟機提供相同的可用空間及類似的效能。  <br/> |
-|網路  <br/> |1個雙埠網路介面卡，可使用 1 Gbps 或以上 (2 網路介面卡，但必須以單一 MAC 位址和單一 IP) 位址進行分組。  <br/> 前端伺服器、後端伺服器及 Standard Edition 伺服器 **不** 支援雙重或多穴設定。 <br/> 只要未對作業系統公開，而且正用來監視和管理伺服器硬體，您就可以使用帶外管理系統，例如 DRAC 或 ILO。 此案例不會組成多穴伺服器，而且支援此案例。  <br/> |
+|CPU   |Intel 至強 E5 2673 v3 雙處理器，6核心，2.4 ghz (GHz) 或更高版本。 <br/> 商務用 Skype Server 2019 角色不支援 Intel Itanium 處理器。   |
+|記憶體   |64 gb (GB) 。   |
+|磁片   |可  <br/> •8個或更多 10000 RPM 硬碟，至少有 72 GB 的可用磁片磁碟機， (兩個磁片使用 raid 1 和6，使用 RAID 10) 。  <br/> 或  <br/> •固態磁片磁碟機 (Ssd) 能夠為 8 10000 RPM 機械磁片磁碟機提供相同的可用空間及類似的效能。   |
+|網路   |1個雙埠網路介面卡，可使用 1 Gbps 或以上 (2 網路介面卡，但必須以單一 MAC 位址和單一 IP) 位址進行分組。  <br/> 前端伺服器、後端伺服器及 Standard Edition 伺服器 **不** 支援雙重或多穴設定。 <br/> 只要未對作業系統公開，而且正用來監視和管理伺服器硬體，您就可以使用帶外管理系統，例如 DRAC 或 ILO。 此案例不會組成多穴伺服器，而且支援此案例。   |
    
 Edge Server、獨立轉送伺服器及 Director 的建議硬體：
   
-|**硬體元件**|**建議**|
+|硬體元件|建議|
 |:-----|:-----|
-|CPU  <br/> |Intel 至強 E5 2673 v3 雙處理器，6核心，2.4 ghz (GHz) 或更高版本。  <br/> 商務用 Skype Server 2019 角色不支援 Intel Itanium 處理器。  <br/> |
-|記憶體  <br/> |32 gb。  <br/> |
-|磁片  <br/> |可  <br/> •4個或更多 10000 RPM 硬碟，至少有 72 GB 的可用磁碟空間 (磁片應該位於2倍的 RAID 1 設定) 中。  <br/> 或  <br/> •固態磁片磁碟機 (Ssd) 能夠為 4 10000 RPM 機械磁片磁碟機提供相同的可用空間及類似的效能。  <br/> |
-|網路  <br/> |1個雙埠網路介面卡，可使用 1 Gbps 或以上 (2 網路介面卡，但必須以單一 MAC 位址和單一 IP) 位址進行分組。  <br/> 視頻 Interop 伺服器及 Director **不** 支援雙重或多穴設定。 <br/> Edge server 需要兩個網路介面為雙埠網路介面卡、1 Gbps 或更高的 (或兩個配對的網路介面卡（總共四個），每一組都是以單一 MAC 位址和單一 IP 位址組成，每個組的總數都是兩對) 。  <br/> 在獨立轉送伺服器上，安裝額外的網路介面卡 (Nic) 以允許設定特定 PSTN IP 位址的支援。  <br/> |
+|CPU   |Intel 至強 E5 2673 v3 雙處理器，6核心，2.4 ghz (GHz) 或更高版本。  <br/> 商務用 Skype Server 2019 角色不支援 Intel Itanium 處理器。   |
+|記憶體   |32 gb。   |
+|磁片   |可  <br/> •4個或更多 10000 RPM 硬碟，至少有 72 GB 的可用磁碟空間 (磁片應該位於2倍的 RAID 1 設定) 中。  <br/> 或  <br/> •固態磁片磁碟機 (Ssd) 能夠為 4 10000 RPM 機械磁片磁碟機提供相同的可用空間及類似的效能。   |
+|網路   |1個雙埠網路介面卡，可使用 1 Gbps 或以上 (2 網路介面卡，但必須以單一 MAC 位址和單一 IP) 位址進行分組。  <br/> 視頻 Interop 伺服器及 Director **不** 支援雙重或多穴設定。 <br/> Edge server 需要兩個網路介面為雙埠網路介面卡、1 Gbps 或更高的 (或兩個配對的網路介面卡（總共四個），每一組都是以單一 MAC 位址和單一 IP 位址組成，每個組的總數都是兩對) 。  <br/> 在獨立轉送伺服器上，安裝額外的網路介面卡 (Nic) 以允許設定特定 PSTN IP 位址的支援。   |
 
 
 > [!NOTE]
@@ -88,11 +88,8 @@ Edge Server、獨立轉送伺服器及 Director 的建議硬體：
 
 準備好硬體之後，您將需要安裝作業系統 (OS) ，以允許安裝及順利使用商務用 Skype Server 2019。
   
-|||
-|:-----|:-----|
-|Windows Server 2019 <br/> |
-|Windows Server 2016 <br/> ||
-||
+- Windows Server 2019 
+- Windows Server 2016
    
 任何不是這裡列出的作業系統都無法正常運作;安裝商務用 Skype Server 2019 時，請勿嘗試安裝。 例如，未列出伺服器核心選項，因此不受支援。
 
@@ -117,21 +114,21 @@ Edge Server、獨立轉送伺服器及 Director 的建議硬體：
   
  **所有伺服器：**
   
-|**軟體/角色**|**詳細資料**|
+|軟體/角色|詳細資料|
 |:-----|:-----|
-|Windows PowerShell 3.0  <br/> |所有商務用 Skype Server 伺服器都需要安裝 Windows PowerShell 3.0。  <br/> •此 Windows Server 2016 預設會以安裝。<br/> |
-|Microsoft .NET Framework  <br/> |WCF 服務是安裝成 Windows 功能的 **功能**，在 [**伺服器管理員**] 底下，最初不需要下載。 <br/> •您必須確定當您安裝此功能時，或是否已安裝，且您正在進行檢查，也會檢查並安裝 **HTTP 啟用** 選項，如下所示： <br/> ![顯示 [.NET Framework 4.5 功能] 底下的 [HTTP 啟用] 選項的螢幕擷取畫面。](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> 如果您還有其他的彈出提示，請不要擔心，您必須安裝一些其他事項，才能安裝 HTTP 啟用。 這是正常的;按一下 [確定] 並繼續。 如果您未看到此快顯視窗，您可以假設已經安裝並繼續進行這些專案。  <br/> 安裝 Windows Server 2016 時，通常會安裝 Microsoft .NET Framework。 商務用 Skype Server 需要 Microsoft .NET Framework 4.7 或4.8，但您可能需要更新它。 您可以在[這裡](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)找到更新<br/> |
-|媒體基礎  <br/> |Windows Server 2016，Windows 媒體格式執行時間會與 Microsoft Media Foundation 一起安裝。  <br/> 用於會議的所有前端伺服器和 Standard Edition 伺服器都必須 Windows 媒體格式執行時間，才能執行 Windows 媒體音訊 () 。通話駐留、宣告及回應群組應用程式會對宣告和音樂播放的檔案。  <br/> |
-|Windows Identity Foundation  <br/> |我們需要 Windows 身分識別 Foundation 3.5，以支援商務用 Skype Server 2019 的伺服器對伺服器驗證案例。  <br/> • Windows Server 2016，不需要下載任何專案。 開啟 [ **伺服器管理員**]，然後移至 [ **新增角色及功能] 嚮導**。 **Windows 身分識別 Foundation 3.5** 會列于 [**功能**] 區段中。 如果已選取此選項，表示您已是好的。 否則選取它，然後按一下 **[下一步]** 進入 [ **安裝** ] 按鈕。 <br/> |
-|遠端伺服器管理工具  <br/> |角色管理工具： AD DS 和 AD LDS 工具  <br/> |
+|Windows PowerShell 3.0   |所有商務用 Skype Server 伺服器都需要安裝 Windows PowerShell 3.0。  <br/> •此 Windows Server 2016 預設會以安裝。 |
+|Microsoft .NET Framework   |WCF 服務是安裝成 Windows 功能的 **功能**，在 [**伺服器管理員**] 底下，最初不需要下載。 <br/> •您必須確定當您安裝此功能時，或是否已安裝，且您正在進行檢查，也會檢查並安裝 **HTTP 啟用** 選項，如下所示： <br/>![顯示 [.NET Framework 4.5 功能] 底下的 [HTTP 啟用] 選項的螢幕擷取畫面。](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> 如果您還有其他的彈出提示，請不要擔心，您必須安裝一些其他事項，才能安裝 HTTP 啟用。 這是正常的;按一下 [確定] 並繼續。 如果您未看到此快顯視窗，您可以假設已經安裝並繼續進行這些專案。  <br/> 安裝 Windows Server 2016 時，通常會安裝 Microsoft .NET Framework。 商務用 Skype Server 需要 Microsoft .NET Framework 4.7 或4.8，但您可能需要更新它。 您可以在[這裡](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)找到更新 |
+|媒體基礎   |Windows Server 2016，Windows 媒體格式執行時間會與 Microsoft Media Foundation 一起安裝。  <br/> 用於會議的所有前端伺服器和 Standard Edition 伺服器都必須 Windows 媒體格式執行時間，才能執行 Windows 媒體音訊 () 。通話駐留、宣告及回應群組應用程式會對宣告和音樂播放的檔案。   |
+|Windows Identity Foundation   |我們需要 Windows 身分識別 Foundation 3.5，以支援商務用 Skype Server 2019 的伺服器對伺服器驗證案例。  <br/> • Windows Server 2016，不需要下載任何專案。 開啟 [ **伺服器管理員**]，然後移至 [ **新增角色及功能] 嚮導**。 **Windows 身分識別 Foundation 3.5** 會列于 [**功能**] 區段中。 如果已選取此選項，表示您已是好的。 否則選取它，然後按一下 **[下一步]** 進入 [ **安裝** ] 按鈕。  |
+|遠端伺服器管理工具   |角色管理工具： AD DS 和 AD LDS 工具   |
    
  **前端伺服器和 Standard Edition 伺服器也需要：**
   
-|**軟體/角色**|**詳細資料**|
+|軟體/角色|詳細資料|
 |:-----|:-----|
-|Internet Information Services (IIS)  <br/> |所有前端伺服器及所有 Standard Edition 伺服器都需要有 IIS，且選取下列模組：  <br/> •常見的 HTTP 功能：預設檔、HTTP 錯誤、靜態內容  <br/> •健康情況與診斷： HTTP 記錄、記錄工具、追蹤  <br/> •效能：靜態內容壓縮，動態內容壓縮  <br/> •安全性：要求篩選，用戶端憑證對應驗證，Windows 驗證  <br/> •應用程式開發： .net 擴充性3.5，.net 擴充性4.5，ASP.NET 3.5，ASP.NET 4.5，isapi Extensions，isapi 篩選器  <br/> •管理工具： IIS 管理主控台、IIS 管理腳本及工具  <br/> 請注意，您也需要匿名存取，但是當您安裝 IIS 時，就會收到，所以您沒有在清單中選取它的位置。  <br/> |
-|Windows Media Format Runtime  <br/> | Windows Server 2016，您必須在 **伺服器管理員** 中安裝 **Media Foundation** 功能。 您實際上可以從商務用 Skype Server 2019 安裝中開始，但不需要這麼做，但在商務用 Skype Server 2019 安裝繼續之前，系統會提示您安裝它，然後重新開機伺服器。 這項工作的執行效果最好。 <br/> |
-|Silverlight  <br/> |您可以在 [這裡](https://www.microsoft.com/silverlight/)安裝最新版的 Silverlight。  <br/> |
+|Internet Information Services (IIS)   |所有前端伺服器及所有 Standard Edition 伺服器都需要有 IIS，且選取下列模組：  <br/> •常見的 HTTP 功能：預設檔、HTTP 錯誤、靜態內容  <br/> •健康情況與診斷： HTTP 記錄、記錄工具、追蹤  <br/> •效能：靜態內容壓縮，動態內容壓縮  <br/> •安全性：要求篩選，用戶端憑證對應驗證，Windows 驗證  <br/> •應用程式開發： .net 擴充性3.5，.net 擴充性4.5，ASP.NET 3.5，ASP.NET 4.5，isapi Extensions，isapi 篩選器  <br/> •管理工具： IIS 管理主控台、IIS 管理腳本及工具  <br/> 請注意，您也需要匿名存取，但是當您安裝 IIS 時，就會收到，所以您沒有在清單中選取它的位置。   |
+|Windows Media Format Runtime   | Windows Server 2016，您必須在 **伺服器管理員** 中安裝 **Media Foundation** 功能。 您實際上可以從商務用 Skype Server 2019 安裝中開始，但不需要這麼做，但在商務用 Skype Server 2019 安裝繼續之前，系統會提示您安裝它，然後重新開機伺服器。 這項工作的執行效果最好。  |
+|Silverlight   |您可以在 [這裡](https://www.microsoft.com/silverlight/)安裝最新版的 Silverlight。   |
    
 為了協助您完成，您可以執行下列範例 PowerShell 腳本，以自動化此程式：
   
@@ -200,11 +197,9 @@ Add-WindowsFeature RSAT-ADDS, Web-Server, Web-Static-Content, Web-Default-Doc, W
 
 商務用 Skype Server 2019 Enterprise Edition 會需要完整 SQL Server （如下列所示），只 (64 位版本;請不要使用32位版本) ：
   
-||||
-|:-----|:-----|:-----|
-|Microsoft SQL Server 2019 (64-bit edition) ，您必須以最新的更新執行。  <br/> |Microsoft SQL Server 2017 (64-bit edition) ，您必須以最新的更新執行。  <br/> |
-Microsoft SQL Server 2016 (64-bit edition) ，您必須以最新的更新執行。|
- |
+- Microsoft SQL Server 2019 (64-bit edition) ，您必須以最新的更新執行。
+- Microsoft SQL Server 2017 (64-bit edition) ，您必須以最新的更新執行。
+- Microsoft SQL Server 2016 (64-bit edition) ，您必須以最新的更新執行。
 
 如果您沒有看到您想要使用的 SQL Server 版本，則無法使用它。
   
@@ -244,15 +239,15 @@ SQL支援 Always On，您可以在[商務用 Skype Server 2019 的後端伺服�
 
 雖然伺服器和服務的大部分設定資料都儲存在商務用 Skype Server 2019 中央管理存放區中，但仍有一些專案會儲存在 Active Directory 中：
   
-|**Active Directory 物件**|**物件類型**|
+|Active Directory 物件|物件類型|
 |:-----|:-----|
-|架構擴充  <br/> |使用者物件擴充  <br/> |
-||商務用 Skype Server 2015 和 Lync Server 2013 的延伸部分，以與舊版支援的版本保持回溯相容性  <br/> |
-|資料  <br/> |使用者 SIP URI 及其他使用者設定  <br/> |
-||應用程式的連絡人物件 (如回應群組應用程式和會議語音應答應用程式)   <br/> |
-||為回溯相容性發佈的資料  <br/> |
-||中央管理存放區 (SCP) 的服務控制點  <br/> |
-||Kerberos 驗證帳戶 (選用的電腦物件)   <br/> |
+|架構擴充   |使用者物件擴充   |
+||商務用 Skype Server 2015 和 Lync Server 2013 的延伸部分，以與舊版支援的版本保持回溯相容性   |
+|資料   |使用者 SIP URI 及其他使用者設定   |
+||應用程式的連絡人物件 (如回應群組應用程式和會議語音應答應用程式)    |
+||為回溯相容性發佈的資料   |
+||中央管理存放區 (SCP) 的服務控制點   |
+||Kerberos 驗證帳戶 (選用的電腦物件)    |
    
 ### <a name="os-for-domain-controllers"></a>網域控制站的作業系統
 
@@ -461,39 +456,39 @@ SQL支援 Always On，您可以在[商務用 Skype Server 2019 的後端伺服�
     
 Standard Edition 伺服器的憑證：
   
-|**認證**|**主體名稱/一般名稱**|**主體替代名稱**|**範例**|**註解**|
+|證書|主體名稱/一般名稱|主體替代名稱|範例|註解|
 |:-----|:-----|:-----|:-----|:-----|
-|預設  <br/> |集區的 FQDN  <br/> |伺服器集區的 FQDN 和伺服器的 FQDN  <br/> 如果您擁有多個 SIP 網域，且已啟用用戶端自動設定，則憑證精靈會偵測並新增每個支援的 SIP 網域 FQDN  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格網域名稱系統 (DNS) 比對，則您也需要 sip.sipdomain (對於您具有的每個 SIP 網域) 的項目。  <br/> |SN = se01，SAN = se01  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格 DNS 比對，則您也需要 SAN=sip.contoso.com；SAN=sip.fabrikam.com  <br/> |在 Standard Edition 伺服器上，伺服器 fqdn 與集區 fqdn 相同。  <br/> 精靈會偵測任何您在安裝期間指定的 SIP 網域，並將之自動新增到主體別名。  <br/> 您也可以使用此憑證進行 Server-to-Server 驗證。  <br/> |
-|Web 內部  <br/> |伺服器的 FQDN  <br/> |下列每一項：  <br/> •內部 web FQDN (，其與伺服器的 FQDN)   <br/> 和  <br/> •符合簡易 URLs  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> 或  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = se01，SAN = se01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com;SAN = contoso .com  <br/> 使用萬用字元憑證：  <br/> SN = se01，SAN = se01;SAN = \* contoso.com  <br/> |您無法在拓撲產生器中覆寫內部 web FQDN。  <br/> 如果您有多個符合簡易的 URLs，您必須將它們全部包含為 SANs。  <br/> 簡單 URL 項目支援萬用字元項目。  <br/> |
-|Web 外部  <br/> |伺服器的 FQDN  <br/> |下列每一項：  <br/> •外部 web FQDN  <br/> 和  <br/> •撥入式簡易 URL  <br/> •符合每個 SIP 網域的簡易 URLs  <br/> 或  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = se01，SAN = webcon01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com  <br/> 使用萬用字元憑證：  <br/> SN = se01，SAN = webcon01;SAN = \* contoso.com  <br/> |若有多個 Meet 簡單 URL，則必須包含這些 URL 做為主體別名。  <br/> 簡單 URL 項目支援萬用字元項目。  <br/> |
+|預設   |集區的 FQDN   |伺服器集區的 FQDN 和伺服器的 FQDN  <br/> 如果您擁有多個 SIP 網域，且已啟用用戶端自動設定，則憑證精靈會偵測並新增每個支援的 SIP 網域 FQDN  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格網域名稱系統 (DNS) 比對，則您也需要 sip.sipdomain (對於您具有的每個 SIP 網域) 的項目。   |SN = se01，SAN = se01  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格 DNS 比對，則您也需要 SAN=sip.contoso.com；SAN=sip.fabrikam.com   |在 Standard Edition 伺服器上，伺服器 fqdn 與集區 fqdn 相同。  <br/> 精靈會偵測任何您在安裝期間指定的 SIP 網域，並將之自動新增到主體別名。  <br/> 您也可以使用此憑證進行 Server-to-Server 驗證。   |
+|Web 內部   |伺服器的 FQDN   |下列每一項：  <br/> •內部 web FQDN (，其與伺服器的 FQDN)   <br/> 和  <br/> •符合簡易 URLs  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> 或  <br/> •簡單 URLs 的萬用字元專案   |SN = se01，SAN = se01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com;SAN = contoso .com  <br/> 使用萬用字元憑證：  <br/> SN = se01，SAN = se01;SAN = \* contoso.com   |您無法在拓撲產生器中覆寫內部 web FQDN。  <br/> 如果您有多個符合簡易的 URLs，您必須將它們全部包含為 SANs。  <br/> 簡單 URL 項目支援萬用字元項目。   |
+|Web 外部   |伺服器的 FQDN   |下列每一項：  <br/> •外部 web FQDN  <br/> 和  <br/> •撥入式簡易 URL  <br/> •符合每個 SIP 網域的簡易 URLs  <br/> 或  <br/> •簡單 URLs 的萬用字元專案   |SN = se01，SAN = webcon01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com  <br/> 使用萬用字元憑證：  <br/> SN = se01，SAN = webcon01;SAN = \* contoso.com   |若有多個 Meet 簡單 URL，則必須包含這些 URL 做為主體別名。  <br/> 簡單 URL 項目支援萬用字元項目。   |
    
 前端集區中前端伺服器的憑證：
   
-|**認證**|**主體名稱/一般名稱**|**主體替代名稱**|**範例**|**註解**|
+|證書|主體名稱/一般名稱|主體替代名稱|範例|註解|
 |:-----|:-----|:-----|:-----|:-----|
-|預設  <br/> |集區的 FQDN  <br/> |伺服器集區的 FQDN 和伺服器的 FQDN  <br/> 如果您擁有多個 SIP 網域，且已啟用用戶端自動設定，則憑證精靈會偵測並新增每個支援的 SIP 網域 FQDN  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格網域名稱系統 (DNS) 比對，則您也需要 sip.sipdomain (對於您具有的每個 SIP 網域) 的項目。  <br/> |SN = eepool，SAN = eepool;SAN = ee01  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格 DNS 比對，則您也需要 SAN=sip.contoso.com；SAN=sip.fabrikam.com  <br/> |精靈會偵測任何您在安裝期間指定的 SIP 網域，並將之自動新增到主體別名。  <br/> 您也可以使用此憑證進行 Server-to-Server 驗證。  <br/> |
-|Web 內部  <br/> |集區的 FQDN  <br/> |下列每一項：  <br/> •內部 web FQDN (，其與伺服器的 FQDN 不同)   <br/> •伺服器 FQDN  <br/> •商務用 Skype 集區 FQDN  <br/> 和  <br/> •符合簡易 URLs  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> 或  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = ee01，SAN = ee01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com;SAN = contoso .com  <br/> 使用萬用字元憑證：  <br/> SN = ee01，SAN = ee01;SAN = \* contoso.com  <br/> |若有多個 Meet 簡單 URL，則必須包含這些 URL 做為主體別名。  <br/> 簡單 URL 項目支援萬用字元項目。  <br/> |
-|Web 外部  <br/> |集區的 FQDN  <br/> |下列每一項：  <br/> •外部 web FQDN  <br/> 和  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> 或  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = ee01，SAN = webcon01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com  <br/> 使用萬用字元憑證：  <br/> SN = ee01，SAN = webcon01;SAN = \* contoso.com  <br/> |若有多個 Meet 簡單 URL，則必須包含這些 URL 做為主體別名。  <br/> 簡單 URL 項目支援萬用字元項目。  <br/> |
+|預設   |集區的 FQDN   |伺服器集區的 FQDN 和伺服器的 FQDN  <br/> 如果您擁有多個 SIP 網域，且已啟用用戶端自動設定，則憑證精靈會偵測並新增每個支援的 SIP 網域 FQDN  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格網域名稱系統 (DNS) 比對，則您也需要 sip.sipdomain (對於您具有的每個 SIP 網域) 的項目。   |SN = eepool，SAN = eepool;SAN = ee01  <br/> 如果此集區是用戶端的自動登入伺服器且群組原則中需要嚴格 DNS 比對，則您也需要 SAN=sip.contoso.com；SAN=sip.fabrikam.com   |精靈會偵測任何您在安裝期間指定的 SIP 網域，並將之自動新增到主體別名。  <br/> 您也可以使用此憑證進行 Server-to-Server 驗證。   |
+|Web 內部   |集區的 FQDN   |下列每一項：  <br/> •內部 web FQDN (，其與伺服器的 FQDN 不同)   <br/> •伺服器 FQDN  <br/> •商務用 Skype 集區 FQDN  <br/> 和  <br/> •符合簡易 URLs  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> 或  <br/> •簡單 URLs 的萬用字元專案   |SN = ee01，SAN = ee01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com;SAN = contoso .com  <br/> 使用萬用字元憑證：  <br/> SN = ee01，SAN = ee01;SAN = \* contoso.com   |若有多個 Meet 簡單 URL，則必須包含這些 URL 做為主體別名。  <br/> 簡單 URL 項目支援萬用字元項目。   |
+|Web 外部   |集區的 FQDN   |下列每一項：  <br/> •外部 web FQDN  <br/> 和  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> 或  <br/> •簡單 URLs 的萬用字元專案   |SN = ee01，SAN = webcon01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com  <br/> 使用萬用字元憑證：  <br/> SN = ee01，SAN = webcon01;SAN = \* contoso.com   |若有多個 Meet 簡單 URL，則必須包含這些 URL 做為主體別名。  <br/> 簡單 URL 項目支援萬用字元項目。   |
    
 Director 的憑證：
   
-|**認證**|**主體名稱/一般名稱**|**主體替代名稱**|**範例**|
+|證書|主體名稱/一般名稱|主體替代名稱|範例|
 |:-----|:-----|:-----|:-----|
-|預設  <br/> |Director pool  <br/> |Director 的 FQDN （Director 集區的 FQDN）。  <br/> [！注意事項] 如果此集區是用戶端的自動登入伺服器，且群組原則中需要嚴格 DNS 比對，則您也需要每個) 的 sip 網域 microsoft.rtc.management.xds.sipdomain (的專案。  <br/> |pool.contoso.com;SAN = dir01  <br/> 如果此 Director 集區是用戶端的自動登入伺服器且群組原則中需要嚴格 DNS 比對，則您也需要 SAN=sip.contoso.com；SAN=sip.fabrikam.com  <br/> |
-|Web 內部  <br/> |伺服器的 FQDN  <br/> |下列每一項：  <br/> •內部 web FQDN (，其與伺服器的 FQDN)   <br/> •伺服器 FQDN  <br/> •商務用 Skype 集區 FQDN  <br/> 和  <br/> •符合簡易 URLs  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> 或  <br/> •簡單 URLs 的萬用字元專案  <br/> |SN = dir01，SAN = dir01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com;SAN = contoso .com  <br/> 使用萬用字元憑證：  <br/> SN = dir01，SAN = dir01 SAN = \* 。 contoso.com  <br/> |
-|Web 外部  <br/> |伺服器的 FQDN  <br/> |下列每一項：  <br/> •外部 web FQDN  <br/> 和  <br/> •符合每個 SIP 網域的簡易 URLs  <br/> •撥入式簡易 URL  <br/> 或  <br/> •簡單 URLs 的萬用字元專案  <br/> |Director 外部 web FQDN 必須不同于前端集區或前端伺服器。  <br/> SN = dir01，SAN = directorwebcon01 SAN = "contoso .com"，SAN = 符合 fabrikam .com;SAN = 撥入 .com  <br/> 使用萬用字元憑證：  <br/> SN = dir01，SAN = directorwebcon01 SAN = \* 。 contoso.com  <br/> |
+|預設   |Director pool   |Director 的 FQDN （Director 集區的 FQDN）。  <br/> [！注意事項] 如果此集區是用戶端的自動登入伺服器，且群組原則中需要嚴格 DNS 比對，則您也需要每個) 的 sip 網域 microsoft.rtc.management.xds.sipdomain (的專案。   |pool.contoso.com;SAN = dir01  <br/> 如果此 Director 集區是用戶端的自動登入伺服器且群組原則中需要嚴格 DNS 比對，則您也需要 SAN=sip.contoso.com；SAN=sip.fabrikam.com   |
+|Web 內部   |伺服器的 FQDN   |下列每一項：  <br/> •內部 web FQDN (，其與伺服器的 FQDN)   <br/> •伺服器 FQDN  <br/> •商務用 Skype 集區 FQDN  <br/> 和  <br/> •符合簡易 URLs  <br/> •撥入式簡易 URL  <br/> •系統管理員簡易 URL  <br/> 或  <br/> •簡單 URLs 的萬用字元專案   |SN = dir01，SAN = dir01;SAN = 符合 .com;SAN = 符合 fabrikam .com;SAN = 撥入 .com;SAN = contoso .com  <br/> 使用萬用字元憑證：  <br/> SN = dir01，SAN = dir01 SAN = \* 。 contoso.com   |
+|Web 外部   |伺服器的 FQDN   |下列每一項：  <br/> •外部 web FQDN  <br/> 和  <br/> •符合每個 SIP 網域的簡易 URLs  <br/> •撥入式簡易 URL  <br/> 或  <br/> •簡單 URLs 的萬用字元專案   |Director 外部 web FQDN 必須不同于前端集區或前端伺服器。  <br/> SN = dir01，SAN = directorwebcon01 SAN = "contoso .com"，SAN = 符合 fabrikam .com;SAN = 撥入 .com  <br/> 使用萬用字元憑證：  <br/> SN = dir01，SAN = directorwebcon01 SAN = \* 。 contoso.com   |
    
 獨立轉送伺服器的憑證：
   
-|**認證**|**主體名稱/一般名稱**|**主體替代名稱**|**範例**|
+|證書|主體名稱/一般名稱|主體替代名稱|範例|
 |:-----|:-----|:-----|:-----|
-|預設  <br/> |集區的 FQDN  <br/> |集區的 FQDN  <br/> 集區成員伺服器的 FQDN  <br/> |SN = medsvr-pool.contoso.net;SAN = medsvr-pool.contoso.net;SAN = medsvr01  <br/> |
+|預設   |集區的 FQDN   |集區的 FQDN  <br/> 集區成員伺服器的 FQDN   |SN = medsvr-pool.contoso.net;SAN = medsvr-pool.contoso.net;SAN = medsvr01   |
    
 Survivable branch 裝置的憑證 (具體地說，Survivable branch 裝置 2015 for 商務用 Skype Server 2019) ：
   
-|**認證**|**主體名稱/一般名稱**|**主體替代名稱**|**範例**|
+|證書|主體名稱/一般名稱|主體替代名稱|範例|
 |:-----|:-----|:-----|:-----|
-|預設  <br/> |Appliance 的 FQDN  <br/> |SIP:。\<sipdomain\>  (每個 SIP 網域只需要一個專案)   <br/> |SN = sba01SAN = sip .com;SAN=sip.fabrikam.com  <br/> |
+|預設   |Appliance 的 FQDN   |SIP:。\<sipdomain\>  (每個 SIP 網域只需要一個專案)    |SN = sba01SAN = sip .com;SAN=sip.fabrikam.com   |
    
 ### <a name="certificates-for-external-user-access-edge"></a>外部使用者存取 (Edge 的憑證) 
 
@@ -521,18 +516,18 @@ Survivable branch 裝置的憑證 (具體地說，Survivable branch 裝置 2015 
   
 Director 集區和前端集區憑證需求：
   
-|**描述**|**SAN 專案**|
+|描述|SAN 專案|
 |:-----|:-----|
-|內部自動探索服務 URL  <br/> |SAN = lyncdiscoverinternal。\<sipdomain\>  <br/> |
-|外部自動探索服務 URL  <br/> |SAN = lyncdiscover。\<sipdomain\>  <br/> |
+|內部自動探索服務 URL   |SAN = lyncdiscoverinternal。\<sipdomain\>   |
+|外部自動探索服務 URL   |SAN = lyncdiscover。\<sipdomain\>   |
    
 您也可以使用 SAN = \* 。\<sipdomain\>
   
 反向 Proxy (公用 CA) 憑證需求：
   
-|**描述**|**SAN 專案**|
+|描述|SAN 專案|
 |:-----|:-----|
-|外部自動探索服務 URL  <br/> |SAN = lyncdiscover。\<sipdomain\>  <br/> |
+|外部自動探索服務 URL   |SAN = lyncdiscover。\<sipdomain\>   |
    
 此 SAN 必須指派給反向 proxy 上的 SSL 攔截器所指派的憑證。
   

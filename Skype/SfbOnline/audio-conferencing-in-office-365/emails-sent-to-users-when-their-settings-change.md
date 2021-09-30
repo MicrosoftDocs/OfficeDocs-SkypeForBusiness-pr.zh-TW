@@ -21,27 +21,27 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解當使用者的電話撥入式會議設定變更時，哪些資訊會以電子郵件自動商務用 Skype Online。 '
-ms.openlocfilehash: b33fc6176d4103125432ebe0896ccab34e8fe269
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cb456b9345d8dce1aa7a1d619371f8a2f65eab36
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728032"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011947"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>當使用者的設定在線上變更時，會商務用 Skype電子郵件
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 如果您要在郵件中尋找自動電子郵件Microsoft Teams，請參閱當使用者的設定在 Microsoft Teams 中[變更時，將電子郵件Microsoft Teams。](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams)
+> 如果您要在郵件中尋找自動電子郵件Microsoft Teams，請參閱當使用者的設定變更時[，Microsoft Teams。](/MicrosoftTeams/emails-sent-to-users-when-their-settings-change-in-teams)
 
 電子郵件會自動寄給使用 Microsoft 作為音訊會議[](set-up-audio-conferencing.md)提供者啟用音訊會議的使用者。
   
-根據預設，有四種類型的電子郵件會寄給啟用音訊會議的使用者。 不過，如果您想要限制發送給使用者的電子郵件數量，您可以將其關閉。 當發生以下Microsoft 365或Office 365音訊會議時，會傳送電子郵件至使用者的電子郵件：
+根據預設，有四種類型的電子郵件會寄給啟用音訊會議的使用者。 不過，如果您想要限制發送給使用者的電子郵件數量，您可以將其關閉。 當發生以下Microsoft 365 Office 365音訊會議會傳送電子郵件至使用者的電子郵件：
   
 - **音訊會議授權會指派給他們，或是當您將音訊會議提供者變更為 Microsoft 時。**
     
-     此電子郵件包含會議 ID、會議的預設會議電話號碼、使用者的音訊會議 PIN，以及使用 商務用 Skype Online 會議更新工具的指示和連結，此工具是用來更新使用者的現有會議。 請參閱[指派商務用 Skype](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)授權[或指派 Microsoft 做為音訊會議提供者](assign-microsoft-as-the-audio-conferencing-provider.md)。
+     此電子郵件包含會議 ID、會議的預設會議電話號碼、使用者的音訊會議 PIN，以及使用 商務用 Skype Online 會議更新工具的指示和連結，此工具是用來更新使用者的現有會議。 請參閱[指派商務用 Skype授權](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)[或指派 Microsoft 作為音訊會議提供者](assign-microsoft-as-the-audio-conferencing-provider.md)。
     
     > [!NOTE]
     > 如果貴組織已啟用動態會議 ID，他們排程的所有會議都會有唯一的會議 ID。 您可以在貴組織中[設定音訊會議動態的 ID。](./reset-a-conference-id-for-a-user.md) 
@@ -76,7 +76,7 @@ ms.locfileid: "58728032"
   
 - **使用者授權會移除，或是音訊會議提供者從 Microsoft 變更為其他提供者或無。**
     
-    從使用者移除 **音訊會議** 授權，或將使用者的音訊會議提供者從 Microsoft 變更為協力廠商音訊會議提供者，或將提供者設定為 None 時，會發生此 **情況**。 此電子郵件包含使用者使用 商務用 Skype 線上會議更新工具移除音訊會議特定資訊的指示和資訊，例如預設的會議電話號碼或會議 ID。
+    從使用者移除 **音訊會議** 授權，或將使用者的音訊會議提供者從 Microsoft 變更為協力廠商音訊會議提供者，或將提供者設定為 None 時，會發生此 **情況**。 此電子郵件包含使用者使用 商務用 Skype 線上會議更新工具移除音訊會議特定資訊的指示和資訊，例如預設會議電話號碼或會議 ID。
     
     請參閱[指派或移除 Microsoft 365 Apps 商務版。](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
     
@@ -112,7 +112,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 當您停用傳送電子郵件給使用者時，即使使用者獲得授權，也不會傳送電子郵件。 在這種情況下，會議 ID、預設會議電話號碼，以及更重要的是，其音訊會議 PIN 不會發送給使用者。 發生此情況時，您必須傳送另一封電子郵件或打電話給使用者，告知使用者。
   
-根據預設，電子郵件會寄給您的使用者，但如果您想要防止他們接收音訊會議電子郵件，您可以使用 商務用 Skype 系統管理中心或 Windows PowerShell。 
+根據預設，電子郵件會寄給您的使用者，但如果您想要防止他們收到音訊會議的電子郵件，您可以使用 商務用 Skype 系統管理中心或Windows PowerShell。 
  
 ![顯示標誌圖示商務用 Skype圖示。](../images/sfb-logo-30x30.png)  **使用 商務用 Skype系統管理中心**
     
@@ -139,7 +139,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 
 - 有關啟用及停用自動傳送電子郵件給使用者的更多資訊，請參閱在音訊會議設定變更時啟用或停用 [傳送電子郵件](enable-or-disable-sending-emails-when-their-settings-change.md)。
     
-- 有時候使用者會失去音訊資訊，而您必須能夠傳送所有音訊資訊給他們。 您可以使用系統管理中心，商務用 Skype音訊會議內容下的按一下以電子郵件傳送會議資訊來這麼做。 請參閱 [傳送包含音訊會議資訊的電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information.md)。 不過，這項資訊不包含音訊會議 PIN。
+- 有時候使用者會失去音訊資訊，而您必須能夠傳送所有音訊資訊給他們。 您可以使用系統管理中心，商務用 Skype音訊會議內容下，按一下以電子郵件傳送會議資訊。 請參閱 [傳送包含音訊會議資訊的電子郵件給使用者](send-an-email-to-a-user-with-their-dial-in-information.md)。 不過，這項資訊不包含音訊會議 PIN。
     
     以下是將寄給他們的此電子郵件範例：
     
@@ -151,11 +151,11 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
     
 - Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 有了Windows PowerShell，您可以使用單一Microsoft 365管理Office 365管理，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
-  - [為什麼您需要使用 powerShell Microsoft 365 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+  - [為什麼您需要使用 powerShell Microsoft 365或Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用Microsoft 365管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell比只使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點： 
+- Windows PowerShell比僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如，當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點： 
     
   - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -164,7 +164,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
   - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援 64 位電腦，可從 Microsoft 下載中心下載，Windows PowerShell適用于 商務用 Skype [Online。](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載[下載並安裝 Teams PowerShell 模組][HELP](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md) (/skypeforbusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector) 。
   
 ## <a name="related-topics"></a>相關主題
 

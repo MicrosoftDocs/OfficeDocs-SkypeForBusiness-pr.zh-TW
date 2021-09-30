@@ -21,29 +21,29 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '瞭解您應該瞭解哪些 PIN，以及如何在 商務用 Skype 中重設。 '
-ms.openlocfilehash: 22a95c12f1ffe05899194fa357fe33e619f337d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3e33655a5d92dbc24522611a1551c4240c4c228
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594283"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011927"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>重設線上音訊會議 PIN 商務用 Skype PIN
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> 有關重設音訊會議 PIN 在 Microsoft Teams 中的資訊，請參閱在 Microsoft Teams 重[設音訊會議 PIN。](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams)
+> 有關重設音訊會議 PIN 在 Microsoft Teams 中的資訊，請參閱重設音訊會議 PIN 在[Microsoft Teams。](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams)
 
 PIN 是由每個已啟用音訊會議商務用 Skype使用者所建立的數位所建立的代碼。 會議召集人會使用音訊會議 PIN 來識別他們是會議召集人，並允許他們以電話開始會議。 如果他們使用 商務用 Skype應用程式來開始會議，則不需要 PIN。 如果使用者忘記 PIN，卻在啟用音訊會議時，無法于電子郵件中找到 PIN，系統管理員可以重設其 PIN，或重設自己的 PIN。
   
-當經過驗證的使用者使用 商務用 Skype App 加入時，或當召集人使用其 PIN 在電話上加入時，就可以開始會議。 當會議需要 PIN 才能啟動時，電話加入的使用者會放在大廳，並聆聽等候音樂，直到會議開始。 如果會議召集人不需要 PIN，以電話開始會議，則來電者加入會議時不會要求他們提供 PIN。
+當經過驗證的使用者使用 商務用 Skype App 加入時，或當召集人使用其 PIN 在電話上加入時，就可以開始會議。 當會議需要 PIN 才能啟動時，電話加入的使用者會放在大廳，並聆聽等候音樂，直到會議開始。 如果會議召集人不需要 PIN，以在電話上開始會議，則來電者加入會議時不會要求他們提供 PIN。
   
 ## <a name="reset-a-users-pin"></a>重設使用者的 PIN
 
 1. 使用公司或學校帳戶來登錄。
     
-2. 請前往系統管理中心>商務用 Skype，**然後按一下** 左側流覽中的 [**音訊會議**> 。
+2. 請前往系統管理中心>商務用 Skype，然後按一下左側流覽中的 [**音訊會議**> 。
     
 3. 按一下 **[使用者**」，選取要重設 PIN 的使用者。
     
@@ -62,7 +62,7 @@ PIN 是由每個已啟用音訊會議商務用 Skype使用者所建立的數位�
 
 ## <a name="what-else-should-you-know-about-pins"></a>關於 PIN，您還需要知道什麼？
 
-- 基於安全性目的，PIN 只會在 PIN 重設時一次顯示給系統管理員。 在系統管理員重設 PIN 之後，PIN 會列在 商務用 Skype 系統管理中心，以及當 PIN 在 Windows PowerShell 中Get-CsCsOnlineDialInConfencingUser中時Windows PowerShell。
+- 基於安全性目的，PIN 只會在 PIN 重設時一次顯示給系統管理員。 在系統管理員重設 PIN 之後，PIN 會列在 商務用 Skype 系統管理中心，以及當 PIN 在 Windows PowerShell 中使用Get-CsCsOnlineDialInConfencingUser時Windows PowerShell。
     
 - 系統預設會啟用自動傳送電子郵件給使用者，當使用者啟用音訊會議或 PIN 重設時，會收到一封包含 PIN 的電子郵件。 但如果您已停用自動傳送電子郵件，PIN 重設電子郵件將不會傳送給使用者，您必須手動將 PIN 資訊傳送給使用者。
     
@@ -70,11 +70,11 @@ PIN 是由每個已啟用音訊會議商務用 Skype使用者所建立的數位�
     
 - 預設設定是不允許匿名來電者啟動會議。
     
-- 當您為音訊會議啟用使用者時，系統預設會送出包含會議資訊及其 PIN 的電子郵件。 使用者必須擁有 Microsoft 365 或 Office 365 信箱，因為當 PIN 重設時，會以電子郵件將新的 PIN 寄到使用者為使用者設定的主要 SMTP 位址 (別名) 。
+- 當您為音訊會議啟用使用者時，系統預設會送出包含會議資訊及其 PIN 的電子郵件。 使用者必須擁有 Microsoft 365 或 Office 365 信箱，因為當 PIN 重設時，會以電子郵件將新的 PIN 寄給使用者，以使用者設定的主要 SMTP 位址 (別名) 。
     
 - 當您設定音訊會議時，您可以設定組織中 PIN 所需的位數。 PIN 可以是 4 到 12 位數 -預設值為 5。 如果您變更 PIN 長度設定，該設定只會在新產生的 PIN 上，且不會適用于已啟用音訊會議的現有使用者的 PIN 設定。 請參閱 [設定音訊會議 PIN 的長度](Set-the-PIN-length-for-Audio-Conferencing-meetings.md)。
     
-- 根據預設，電子郵件會設定為使用者Microsoft 365或Office 365 SMTP 位址。 您可以將電子郵件傳送至非郵件Microsoft 365非Office 365位址，例如 Hotmail 或 MSN 電子郵件地址。 您可以使用密碼取代預設Windows PowerShell。 如果使用者沒有位於或Exchange信箱Microsoft 365此功能Office 365。
+- 根據預設，電子郵件會設定為使用者Microsoft 365或Office 365 SMTP 位址。 您可以將電子郵件傳送至非郵件Microsoft 365非Office 365位址，例如 Hotmail 或 MSN 電子郵件地址。 您可以使用預設電子郵件地址來取代Windows PowerShell。 如果使用者沒有位於或Exchange信箱Microsoft 365 Office 365。
     
 - 若要取代傳送電子郵件的預設使用者位址，租使用者系統管理員可以使用下列 Cmdlet：Set-CsOnlineDialInConferencingUser -amos.marble -ResetLeaderPIN -SendEmail -SendEmailToAddress "u@hotmail.com"。 要取代使用者的電子郵件地址，需要 SendEmail 參數。
     
@@ -94,16 +94,16 @@ PIN 是由每個已啟用音訊會議商務用 Skype使用者所建立的數位�
     
   - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell比僅使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如，當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點：
+- Windows PowerShell比只使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如，當您一次變更許多使用者的設定時。 請從下列主題瞭解這些優點：
     
   - [Windows PowerShell 與 Lync Online 的簡介](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     [使用 Windows PowerShell 管理 商務用 Skype Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
-  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+  - [使用 Windows PowerShell 執行一般商務用 Skype Online 管理工作](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援 64 位電腦，可從 Microsoft 下載中心下載，Windows PowerShell Online 商務用 Skype[模組。](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援 64 位電腦，可從 Microsoft 下載中心下載並安裝[PowerShell](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)模組Teams模組。
   
 ## <a name="related-topics"></a>相關主題
 

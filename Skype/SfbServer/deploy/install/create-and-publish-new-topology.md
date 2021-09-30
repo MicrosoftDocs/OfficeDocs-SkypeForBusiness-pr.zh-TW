@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 摘要：瞭解如何在安裝商務用 Skype Server 之前建立、發佈和驗證新的拓撲。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 322b59a064f15dcd7bada74c0d3d5f563e6b8f64
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d50a2d2e89435bed7ae60c471c76fcca9f766567
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725992"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013357"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>在商務用 Skype Server 中建立及發行新的拓撲
  
@@ -52,7 +52,7 @@ ms.locfileid: "58725992"
     > [!NOTE]
     > 拓撲設定會另存為拓撲產生器 XML ( redmond.tbxml) 檔案。 發行拓撲時，會將設定資訊從檔案推送至 SQL Server 資料庫。 當您在未來開啟拓撲產生器時，您可以將現有的設定從 SQL Server 直接下載到拓撲產生器，然後將其發佈回 SQL Server 或儲存為拓撲產生器設定檔。 
   
-5. 在 [ **定義主要網域] 畫面** 上，輸入 **主要 SIP 網域**，然後按 **[下一步]**。 在此範例中，我們使用的是 **contoso**，如圖所示。
+5. 在 [ **定義主要網域] 畫面** 上，輸入 **主要 SIP 網域**，然後按 **[下一步]**。 在此範例中，我們正在使用 `contoso.local` ，如圖所示。
     
      ![定義主要 sip 網域。](../../media/353e6b38-485f-4042-8585-aefa6c74b554.png)
   
@@ -142,17 +142,17 @@ ms.locfileid: "58725992"
   
 10. 在 [指定 Web 服務 URL] 頁面上，您必須決定是否需要覆寫內部 Web 服務集區基底 URL。 此覆寫的原因必須與負載平衡有關。 基本 SIP 流量可以透過簡單的 DNS 負載平衡進行負載平衡。 不過，HTTP/S Web 服務網路流量必須使用支援的硬體或軟體負載平衡解決方案。 如需支援的負載平衡器，請參閱[基礎結構的商務用 Skype](../../../SfbPartnerCertification/certification/infra-gateways.md)。 在此範例中，我們使用 DNS 負載平衡進行 SIP 流量，以及支援的軟體負載平衡解決方案。 因為我們會以這種方式來分割流量，所以我們需要覆寫內部 Web 服務集區 FQDN。 或者，如果我們有最上層的負載平衡器，而且透過它傳送所有流量，而不是使用 DNS 負載平衡來進行 SIP 流量，則不需要覆寫 Web 服務 URL。 
     
-    在本主題的 [DNS] 區段中，我們為 webint 建立了 A 記錄。 這是我們用於 web 服務 HTTP/S 流量的 URL，且必須透過我們所設定的支援軟體負載平衡器進行設定。 因此，在此範例中，我們會覆寫 URL，讓商務用 Skype Server 知道所有 HTTP/S 流量應該移至 webint （而非集區），如圖所示。 如需負載平衡的詳細資訊，請參閱[商務用 Skype 的負載平衡需求](../../plan-your-deployment/network-requirements/load-balancing.md)。
+    在本主題的 [DNS] 區段中，我們為建立 A 記錄 `webint.contoso.local` 。 這是我們用於 web 服務 HTTP/S 流量的 URL，且必須透過我們所設定的支援軟體負載平衡器進行設定。 因此，在此範例中，我們會覆寫 URL，讓商務用 Skype Server 知道所有 HTTP/S 流量應該會移到 `webint.contoso.local` ，而不是 `pool.contoso.local` ，如圖所示。 如需負載平衡的詳細資訊，請參閱[商務用 Skype 的負載平衡需求](../../plan-your-deployment/network-requirements/load-balancing.md)。
     
     > [!IMPORTANT]
-    > 基底 URL 是 URL 的 Web 服務識別身分，去除 https://。 例如，如果集區的 Web 服務完整 URL 為 https://webint.contoso.local ，則基底 url 為 webint。 
+    > 基底 URL 是 URL 的 Web 服務識別身分，去除 https://。 例如，如果集區的 Web 服務完整 URL 為 `https://webint.contoso.local` ，則基底 url 是 `webint.contoso.local` 。 
   
     - 若要設定 DNS 負載平衡，請在此範例中，選取 [覆 **寫內部 Web 服務集區 FQDN** ] 核取方塊，並輸入內部基礎 url (，該 url 必須與 **內部基礎 url** 中的集區 FQDN) 不同。 
     
     > [!CAUTION]
     > 如果您決定使用自行定義的 FQDN 來覆寫內部 Web 服務，則每個 FQDN 必須與其他任何前端集區、Director 或 Director 集區是唯一的。 在您定義 URLs 或完全限定功能變數名稱時，**只能使用標準字元** (包括 A-Z、a-z、0-9 和連字號) 。 請勿使用 Unicode 字元或底線。 URL 或 FQDN 中通常不支援 URL 或 FQDN (Ca)  (也就是說，當 URL 或 FQDN 必須指派給憑證) 中的主體名稱或主體替代名稱時，也是不支援的。
   
-    - （選用）在 [ **外部基礎 url**] 中輸入外部基底 url。 您可以輸入外部基底 URL，使其有別于您的內部功能變數名稱。 例如，您的內部網域是 contoso。本機，但您的外部功能變數名稱是 contoso.com。 您可以使用 contoso.com 功能變數名稱定義 URL，因為它必須可以從公用 DNS 解析。 在反向 Proxy 的情況中，這種作法也很重要。 外部基底 URL 功能變數名稱會與反向 proxy 的 FQDN 功能變數名稱相同。 在行動用戶端上進行立即訊息與顯示狀態時，需要有 HTTP 存取前端集區。
+    - （選用）在 [ **外部基礎 url**] 中輸入外部基底 url。 您可以輸入外部基底 URL，使其有別于您的內部功能變數名稱。 例如，您的內部網域是 `contoso.local` ，但您的外部功能變數名稱為 `contoso.com` 。 您可以使用功能變數名稱定義 URL， `contoso.com` 因為它必須能夠從公用 DNS 解析。 在反向 Proxy 的情況中，這種作法也很重要。 外部基底 URL 功能變數名稱會與反向 proxy 的 FQDN 功能變數名稱相同。 在行動用戶端上進行立即訊息與顯示狀態時，需要有 HTTP 存取前端集區。
     
       ![覆寫 web 服務。](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
@@ -174,7 +174,7 @@ ms.locfileid: "58725992"
   
 2. 在 [**簡易 URLs** ] 窗格中，選取 [**電話 access URLs：** (撥入) 或 [**會議 URLs：** (符合) 進行編輯，然後按一下 [**編輯 URL**]。
     
-3. 將 URL 更新為想要的值，然後按一下 **[確定]** 儲存編輯的 URL。 您應該使用外部 SIP 網域設定簡單 URL，讓外部使用者可以加入會議，例如，contoso.com，也就是外部使用者，而不是 contoso。本機，也就是內部網域。 因此，SIP 網域應該可以由外部 DNS 來解析。
+3. 將 URL 更新為想要的值，然後按一下 **[確定]** 儲存編輯的 URL。 您應該使用外部 SIP 網域來設定簡單 URL，讓外部使用者可以加入會議，例如，外部使用者可以加入會議，而 `contoso.com` `contoso.local` 非內部網域。 因此，SIP 網域應該可以由外部 DNS 來解析。
     
 4. 必要時，使用相同步驟編輯 Meet URL。
     
@@ -185,10 +185,10 @@ ms.locfileid: "58725992"
 2. 在 [系統 **管理存取 url** ] 方塊中，輸入您要用來管理存取商務用 Skype Server 控制台的簡易 URL，然後按一下 **[確定]**。
     
     > [!TIP]
-    > 建議您盡可能使用最簡單的 URL 作為 Admin URL。 最簡單的選項是 https://admin ... _\<domain\>_ 系統管理員 URL 可以是內部或外部網域（例如，contoso 或 contoso.com，只要任一記錄在內部 DNS 中皆可解析）。 
+    > 建議您盡可能使用最簡單的 URL 作為 Admin URL。 最簡單的選項是 https://admin ... _\<domain\>_ 系統管理員 URL 可以是內部或外部網域，例如， `contoso.local` 或者 `contoso.com` ，只要任一記錄在內部 DNS 中是可解析的。 
   
     > [!IMPORTANT]
-    > 如果您在初始部署之後變更簡單 URL，則必須留意有哪些變更會影響簡單 URL 的網域名稱系統 (DNS) 記錄和憑證。 如果變更會影響簡單 URL 的基底，您也必須變更 DNS 記錄和憑證。 例如，從 sfb.contoso.com 變更 https://sfb.contoso.com/Meet 為 https://meet.contoso.com meet.contoso.com 時，您必須變更 DNS 記錄和憑證，以參照 meet.contoso.com。 如果您已將簡易 URL 變更 https://sfb.contoso.com/Meet 為 https://sfb.contoso.com/Meetings ，sfb.contoso.com 的基底 url 會保持不變，因此不需要任何 DNS 或憑證變更。 不過，每當您變更簡易 URL 名稱時，您必須在每個 Director 和前端伺服器上執行 **Enable-CsComputer** Cmdlet，以登錄變更。
+    > 如果您在初始部署之後變更簡單 URL，則必須留意有哪些變更會影響簡單 URL 的網域名稱系統 (DNS) 記錄和憑證。 如果變更會影響簡單 URL 的基底，您也必須變更 DNS 記錄和憑證。 例如，從 `https://sfb.contoso.com/Meet` `https://meet.contoso.com` sfb 變更為變更基底 URL。`contoso.com` `meet.contoso.com`，所以您需要變更要參考的 DNS 記錄和憑證 `meet.contoso.com` 。 如果您已將簡易 URL 從 [變更 `https://sfb.contoso.com/Meet` 為] `https://sfb.contoso.com/Meetings` ，則基底 url `sfb.contoso.com` 保持不變，因此不需要任何 DNS 或憑證變更。 不過，每當您變更簡易 URL 名稱時，您必須在每個 Director 和前端伺服器上執行 **Enable-CsComputer** Cmdlet，以登錄變更。
   
 ### <a name="publish-and-verify-the-topology"></a>發佈和驗證拓撲
 

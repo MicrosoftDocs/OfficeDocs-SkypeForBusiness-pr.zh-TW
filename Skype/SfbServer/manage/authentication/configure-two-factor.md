@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 摘要：在商務用 Skype Server 中設定雙因素驗證。
-ms.openlocfilehash: f4c8532d08a3ed6c06a702039eea224f231cbd06
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 447039a5dd137482c330325fcf479dade583f395
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612392"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014367"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>在商務用 Skype Server 中設定雙因素驗證
 
@@ -181,7 +181,7 @@ ms.locfileid: "58612392"
 下列章節說明如何設定 Active Directory Federation Services (AD FS 2.0) 以支援多重要素驗證。 如需如何安裝 AD FS 2.0 的詳細資訊，請參閱 [AD fs 2.0 逐步和操作方法指南](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10))。
 
 > [!NOTE]
-> 安裝 AD FS 2.0 時，請勿使用 Windows 伺服器管理員來新增 Active Directory Federation Services 角色。 相反地，請下載並安裝 [Active Directory Federation Services 2.0 幫手 rtw 套件](https://go.microsoft.com/fwlink/p/?LinkId=313375)。
+> 安裝 AD FS 2.0 時，請勿使用 Windows 伺服器管理員來新增 Active Directory Federation Services 角色。 相反地，請下載並安裝 [Active Directory Federation Services](/troubleshoot/windows-server/identity/availability-description-afds)。
 
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>設定用於雙因素驗證的 AD FS
 

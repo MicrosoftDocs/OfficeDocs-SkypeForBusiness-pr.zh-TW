@@ -18,14 +18,13 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3ef36b7bc50d21131dd10294566549bb8b642600
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d1b5cb89f28a334b24aecf982dd3913dfce079ac
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632647"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014868"
 ---
-<a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>設定Exchange混合式組織，以用於Microsoft Teams
-======================================================================
+# <a name="configure-an-exchange-hybrid-organization-for-use-with-microsoft-teams"></a>設定Exchange混合式組織，以用於Microsoft Teams
 
-一般而言，您不應設定任何Exchange Online功能，以與 Microsoft Teams。 不過，針對Exchange混合式案例，有一些必要步驟可確保群組成員資格在內部部署和Exchange Server (之間) Exchange Online。 這涉及啟用 Azure AD 連線的群組寫回功能，以及各種初始化腳本：使用內部部署或混合式Microsoft 365組Exchange[組](/exchange/hybrid-deployment/set-up-microsoft-365-groups)。
+一般而言，您不應設定任何Exchange Online功能，以與 Microsoft Teams。 不過，針對Exchange混合式案例，需要採取一些步驟，確保內部部署和Exchange Server (之間的群組成員資格) Exchange Online。 這涉及啟用 Azure AD 連線群組寫回功能，以及各種初始化腳本：使用內部部署或混合式Microsoft 365組Exchange[組](/exchange/hybrid-deployment/set-up-microsoft-365-groups)。

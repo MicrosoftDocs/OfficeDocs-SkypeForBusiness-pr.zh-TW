@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 450decb455b35018c2dc4c02951ee542ab212371
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8a928b532dcfb87a866f25502f4523078ce9cd48
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725822"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012957"
 ---
 # <a name="user-presence-in-teams"></a>Teams 中使用者的目前狀態
 
@@ -33,6 +33,7 @@ ms.locfileid: "58725822"
 
  > [!NOTE]
  > Teams 會尊重您的隱私權設定，因此如果您已啟用隱私權模式，外部使用者將不會看到您的目前狀態。
+
 ## <a name="presence-states-in-teams"></a>Teams 中的目前狀態
 
 
@@ -50,10 +51,10 @@ ms.locfileid: "58725822"
 | ![黃色時鐘圖示，表示離開。](media/Presence_Away.png) 離開| ![黃色時鐘圖示，表示離開。](media/Presence_Away.png) 離開|
 || ![黃色時鐘圖示，表示離開](media/Presence_Away.png)上次看到的 *時間*|
 |![黃色時鐘圖示，表示離開，馬上回來。](media/Presence_Away.png) 馬上回來| |
-|![灰色圓圈帶 x，表示離線。](media/Presence_Offline.png) 顯示為離線|![灰色圓圈帶 x，表示離線](media/Presence_Offline.png) 離線。當使用者未在任何裝置上登入達數分鐘，便會顯示為 [離線]。 | |
+|![灰色圓圈帶 x，表示離線。](media/Presence_Offline.png) 顯示為離線|![灰色圓圈帶 x，表示離線](media/Presence_Offline.png) 離線。當使用者未在任何裝置上登入達數分鐘，便會顯示為 [離線]。 |
 || ![空心灰色圓圈，表示狀態不明。](media/Presence_Unknown.png) 狀態不明|
 || ![紫色圓圈加箭號，表示外出。](media/Presence_OOF.png) 外出。設定為自動回覆時，會使用 [外出] 功能。 |
-|||
+
  > [!NOTE]
  > 對於擁有其信箱託管於內部部署的使用者，預期目前狀態延遲為一小時 (最大值)。
 
@@ -82,7 +83,6 @@ ms.locfileid: "58725822"
 | 忙碌|1 天|
 | 請勿打擾|1 天|
 | 其他|7 天|
-|||
 
 > [!NOTE]
 > 使用者也可以為其目前狀態手動設定持續時間。 例如，使用者可以將自己設定為 [顯示為離線] 直至明天早上。
