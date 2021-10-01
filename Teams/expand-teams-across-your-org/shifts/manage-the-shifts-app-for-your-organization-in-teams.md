@@ -1,7 +1,7 @@
 ---
 title: 管理組織的 [班次] 應用程式
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 ms.reviewer: lisawu,gumariam
 manager: serdars
 ms.topic: article
@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: 瞭解如何在組織中為前線員工Teams並管理 Shifts 應用程式。
+description: 瞭解如何在組織中為前線員工Teams中設定及管理 Shifts 應用程式。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7e58b7452ec3e89ded6f24da17490cf476885d72
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d7c1bdde4764b56e8c45a8ad9356437525f00b56
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727832"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045719"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [班次] 應用程式
 
@@ -36,7 +36,7 @@ ms.locfileid: "58727832"
 
 ## <a name="overview-of-shifts"></a>班次概觀
 
-應用程式中的 Shifts 應用程式Microsoft Teams讓前線員工保持連接與同步。這是專為團隊快速且有效的時間管理與通訊所打造的行動電話。 輪班可讓前線員工及其主管使用行動裝置管理排程並保持聯繫。
+應用程式中的 Shifts 應用程式Microsoft Teams前線員工保持連接與同步。這是專為團隊快速且有效的時間管理與通訊所打造的行動電話。 輪班讓前線員工及其主管使用行動裝置管理排程並保持聯繫。
 
 - 主管建立、更新及管理團隊的排班表。 主管也可以傳送訊息給單一個人 (「地板上有打翻的液體」) 或整個團隊 (「區域總經理將於 20 分鐘後抵達」)。 主管還可以傳送原則文件、新訊佈告欄或影片。
 - 員工可查看預排的班次、查看當天還有誰已排班、要求調班或調班，以及要求請假。
@@ -76,9 +76,9 @@ ms.locfileid: "58727832"
  
 Teams內建的 FirstLineWorker 應用程式設定策略，您可以指派給貴組織的前線工作人員。 根據預設，此原則包含活動、班次、聊天和通話應用程式。
 
-若要查看 FirstLineWorker 政策，請前往系統管理中心左側導Microsoft Teams，前往 Teams   >  **App 設定政策**。
+若要查看 FirstLineWorker 政策，在系統管理中心的左側導Microsoft Teams，請前往 Teams **設定**  >  **政策**。
 
-![FirstLineWorker 應用程式設定策略的螢幕擷取畫面。](../../media/firstline-worker-app-setup-policy.png "系統管理中心中 FirstLineWorker 應用程式設定Microsoft Teams螢幕擷取畫面")
+:::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="系統管理中心中 FirstLineWorker 應用程式設定Microsoft Teams螢幕擷取畫面" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>指派 FirstLineWorker 應用程式設定策略給使用者
 
@@ -95,4 +95,4 @@ Teams內建的 FirstLineWorker 應用程式設定策略，您可以指派給貴�
 ## <a name="related-topics"></a>相關主題
 
 - [第一線員工輪班協助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [將原則指派給 Teams 中的使用者](../../assign-policies.md)
+- [在 Teams 中將原則指派給使用者](../../assign-policies.md)

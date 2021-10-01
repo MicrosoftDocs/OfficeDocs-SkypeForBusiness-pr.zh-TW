@@ -1009,6 +1009,8 @@ items:
             href: how-many-phone-numbers-can-you-get.md
           - name: 搜尋使用者的電話號碼
             href: search-for-phone-numbers-for-users.md
+          - name: 指派、變更或移除使用者的電話號碼
+            href: assign-change-or-remove-a-phone-number-for-a-user.md
           - name: 查看組織的電話號碼清單
             href: see-a-list-of-phone-numbers-in-your-organization.md
           - name: 管理通話方案的電話號碼
@@ -1017,8 +1019,6 @@ items:
                 href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
               - name: 取得使用者的電話號碼
                 href: getting-phone-numbers-for-your-users.md
-              - name: 指派、變更或移除使用者的電話號碼
-                href: assign-change-or-remove-a-phone-number-for-a-user.md
               - name: 取得服務電話號碼
                 href: getting-service-phone-numbers.md
               - name: 移轉電話號碼

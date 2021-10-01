@@ -21,25 +21,24 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '瞭解如何在組織內部查看已啟用電話撥入式會議Microsoft Teams。 '
-ms.openlocfilehash: 7d6c77eaefe3d3247e8b950cfffff156606db008
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: '瞭解如何在組織內部查看已啟用電話撥入式會議的使用者Microsoft Teams。 '
+ms.openlocfilehash: 7b49dec0b73385ce09d906a128a47ddd4c723694
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579587"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045879"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>查看已啟用音訊會議的使用者清單Microsoft Teams
 
-在貴組織中Microsoft Teams使用者進行音訊會議後，您可以查看已啟用的使用者清單。 
+啟用貴Microsoft Teams音訊會議的使用者之後，您可以查看已啟用的使用者清單。 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>檢視使用者清單
 
-- 在 Microsoft Teams系統管理中心，按一下左側流覽中的 [**使用者。**
-
+- 在 Microsoft Teams系統管理中心，按一下左側流覽中的 [**使用者>**。
 
 ## <a name="what-else-should-i-know"></a>我還需要知道什麼？
 
@@ -56,9 +55,9 @@ Windows PowerShell管理使用者，以及允許或不允許使用者執行哪�
     
   - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Microsoft 365 管理Microsoft 365或Office 365 Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-如要進一Windows PowerShell，請參閱[powerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams以瞭解更多資訊。
+如要進一Windows PowerShell，請參閱[powerShell](/powershell/module/teams/?view=teams-ps&preserve-view=true) Microsoft Teams以瞭解更多資訊。
     
 ## <a name="related-topics"></a>相關主題
 

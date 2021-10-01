@@ -1,7 +1,7 @@
 ---
 title: 在 Android 裝置上遠端Teams和登錄
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: prgholve
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Android 裝置上遠端Teams和登錄
-ms.openlocfilehash: 20eae8534d06c6f9431b9e9fcb1458812e34cacd
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 818a6a4fc7941c82a52d63016bbdc338f977be29
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984738"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046149"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>在 Android 裝置上遠端Teams和登錄
 
@@ -62,15 +62,15 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 1. 登入 Teams 系統管理中心。
 2. 展開 **Teams 裝置**。
-3. 從 **動作選項卡選取** 置 **備新** 裝置。
+3. 從 **動作選項卡中選取** 置 **備新** 裝置。
 
 在安裝 **新裝置** 視窗中，您可以手動新增 MAC 位址或上傳檔案。
 
 ### <a name="manually-add-a-device-mac-address"></a>手動新增裝置 MAC 位址
 
-1. 從等待 **啟用的** 選項卡中，選取 **新增 MAC 識別碼**。
+1. 從等待 **啟用的選項卡** 中，選取 **新增 MAC 識別碼**。
 
-   ![手動新增裝置 mac 位址。](../media/remote-provision-6.png)
+   ![手動新增裝置 mac 位址。](../media/remote-provision-6-new.png)
 
 1. 輸入 MAC 識別碼。
 1. 輸入位置，協助技術人員識別安裝裝置的位置。
@@ -87,7 +87,7 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 您需要裝置驗證碼。 驗證碼會大量產生或在裝置層級產生，且有效 24 小時。
 
-1. 從等待 **啟用的** 選項卡中，選取現有的 MAC 識別碼。
+1. 從等待 **啟用的選項卡** 中，選取現有的 MAC 識別碼。
    MAC 位址會建立密碼，且會顯示在驗證 **碼欄中** 。
 
 2. 提供 MAC ID 和驗證碼清單給現場技術人員。 您可以直接在檔案中匯出詳細資料，並與執行實際安裝工作的技術人員共用檔案。
@@ -110,13 +110,13 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 ## <a name="sign-in-remotely"></a>遠端登入
 
-已置備的裝置會顯示在等待 **登錄的選項卡** 中。選取個別裝置以啟動遠端登入程式。
+已置備的裝置會出現在等待 **登錄的** 選項卡中。選取個別裝置以啟動遠端登入程式。
 
-1. 從等待登錄的 **選項卡中選取** 裝置。
+1. 從 "正在等待登錄" 選項卡 **中選取** 裝置。
 
    ![已準備好要登錄之裝置清單的視窗。](../media/remote-device1.png)
 
-2. 請遵循使用者登錄 **中的指示，** 然後選取 **關閉**。
+2. 請遵循使用者 **登錄中的指示，** 然後選取 **關閉**。
 
    ![個別裝置的使用者視窗。](../media/sign-in-user.png)
 

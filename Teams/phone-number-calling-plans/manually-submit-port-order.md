@@ -1,7 +1,7 @@
 ---
 title: 手動提交移轉訂單
-ms.author: v-cichur
-author: cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
@@ -18,18 +18,18 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何手動提交埠訂單要求。
-ms.openlocfilehash: 5313e7f19554c3c4a82514a247b1bb81b589b5a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a372ee26b9cb7b52b72c635c90a6e0435b7c729
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577937"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045869"
 ---
 # <a name="manually-submit-a-port-order"></a>手動提交移轉訂單
 
 在某些國家和地區，您可能需要手動提交服務要求，才能取得電話號碼、轉接電話號碼、發行電話號碼或變更位址。 若要瞭解每個國家/地區所需的功能，或深入瞭解號碼移植，請參閱管理 [貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-如果您的國家/地區未列在系統管理中心的埠精靈中，請使用本文中的步驟，手動提交[Microsoft Teams訂單](transfer-phone-numbers-to-teams.md)。
+如果您的國家/地區未列在 Microsoft 的埠精靈中，請使用本文中的步驟手動提交 [埠訂單 ](transfer-phone-numbers-to-teams.md)。
 
 ## <a name="manually-submit-a-new-port-order-request"></a>手動提交新的埠訂單要求
 
@@ -41,7 +41,7 @@ ms.locfileid: "58577937"
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>關於數位移植，您還需要知道什麼
 
-- 若要使用通話方案，您必須購買授權並指派給使用者。 請參閱[Teams附加元件授權。](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- 若要使用通話方案，您必須購買並指派授權給使用者。 請參閱[Teams附加元件授權。](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 - 您必須將您擁有的新電話號碼指派給每個使用者。 請參閱 [指派、變更或移除使用者的電話號碼](../assign-change-or-remove-a-phone-number-for-a-user.md)。
 
