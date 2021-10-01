@@ -411,6 +411,8 @@ items:
                 href: set-up-call-analytics.md
               - name: 使用通話分析來疑難排解不良通話品質
                 href: use-call-analytics-to-troubleshoot-poor-call-quality.md
+              - name: 使用即時遙測來疑難排解不良會議品質
+                href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
           - name: 服務品質 (QoS)
             items:
               - name: 在 Teams 中設定 QoS
