@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d16047b643ee8312a250156cbb5abcd083b01bc2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d94c67e4fa00ea5b0206e67963da486ed9b16832
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603642"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045789"
 ---
 # <a name="welcome-to-microsoft-teams"></a>歡迎使用 Microsoft Teams
 如果您是組織中 Microsoft Teams 的系統管理員，那您便是正確的人選。 當您準備好開始使用 Teams 時，請從[如何推出 Teams](./deploy-overview.md) 和[使用 Microsoft 365 和 Microsoft Teams 設定安全的共同作業](/microsoft-365/solutions/setup-secure-collaboration-with-teams)開始。
@@ -35,7 +35,7 @@ ms.locfileid: "58603642"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
-如果您要尋找使用者 Teams 的說明，請按一下應用程式左側的 [說明]，或移至 [Microsoft Teams 說明中心](https://support.office.com/teams)。 如需訓練，請移至 [Microsoft Teams 訓練](training-microsoft-teams-landing-page.md)。 
+如果您要尋找終端使用者 Teams 說明，請按一下應用程式左側的 **[說明]**，或移至 [Microsoft Teams 說明中心](https://support.office.com/teams)。若要進行訓練，移至 [Microsoft Teams 訓練](training-microsoft-teams-landing-page.md)。 
 
 ## <a name="teams-architecture"></a>Teams 架構
 
@@ -57,7 +57,6 @@ Teams 的建置基礎為 Microsoft 365 群組、Microsoft Graph，以及與其�
 > [!TIP]
 > 若要深度剖析 Teams 架構，請觀看 [Teams Platform Academy](https://aka.ms/TeamsPlatformAcademy) 上的影片。
 
-
 ## <a name="managing-teams"></a>管理 Teams
 
 身為系統管理員的您，將透過 Microsoft Teams 系統管理中心來管理 Teams。 若要快速方針介紹，請觀看使用 Teams 系統管理中心管理 Teams 影片 (3:03 分鐘)：
@@ -76,7 +75,7 @@ Teams 的建置基礎為 Microsoft 365 群組、Microsoft Graph，以及與其�
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>從商務用 Skype 升級至 Teams
 Teams 是 Microsoft 365 和 Office 365 中用於智慧通訊的主要用戶端，最終會取代商務用 Skype Online。 若要掌握 Teams 即將推出的新功能，請參閱 [Microsoft 365 藍圖](https://aka.ms/O365Roadmap)。 為了補足持續聊天和傳訊的功能，Teams 提供了全面性的會議和通話體驗，包括內建完全整合的語音和視訊。 請查看 Microsoft Teams 部落格中的 [Teams 現在是完整的會議和通話解決方案](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042)。
 
-如果您是執行商務用 Skype 且準備好要升級為 Teams，或是並存執行商務用 Skype 和 Teams 且準備好要完全移至 Teams，我們有工具、秘訣和指導方針可協助您順利轉換。 若要深入了解，請參閱[升級至 Teams](upgrade-start-here.md)。
+如果您是執行商務用 Skype 且準備好要升級為 Teams，或是並存執行商務用 Skype 和 Teams 且準備好要完全移至 Teams，我們有工具、秘訣和指導方針可協助您順利轉換。若要深入了解，請參閱[升級至 Teams](upgrade-start-here.md)。
 
 ## <a name="teamwork"></a>團隊合作
 每個團隊都不同; 沒有一個適合所有共同作業的方法。Microsoft 365 和 Office 365 是為滿足每個團隊的獨特需求所設計，讓人員能夠使用專門建置且整合的應用程式來進行通訊、共同作業, 及實現更多目標。
@@ -89,7 +88,7 @@ Teams 是 Microsoft 365 和 Office 365 中用於智慧通訊的主要用戶端�
 
 - **SharePoint** 用於網站、入口網站、智慧型內容服務、業務程序自動化及企業搜尋。 SharePoint 會將內容保留在團隊工作的中心，讓所有類型的內容輕鬆在團隊之間共用和存取。 與 Outlook、Yammer 和 Teams 的緊密整合，可在交談體驗間實現順暢的內容共同作業。
 
-- **商務用 OneDrive** 用於儲存檔案，並可將檔案與使用者邀請的人員共用。 使用者在商務用 OneDrive 中儲存的內容是私人的 (在使用者將該內容與其他人共用為止)，使得它成為用於儲存不想共用或尚未準備共用之個人和草稿文件的最佳選項。
+- **商務用 OneDrive** 用於儲存檔案，以及與使用者邀請的人共用檔案。使用者在商務用 OneDrive 中儲存的內容屬私人内容 (直到使用者將該內容與其他人共用為止)，因此這是儲存不適合共用或尚未準備好共用的個人和草稿文件的最佳選項。
 
 - **Yammer** 讓組織中的人員彼此交流。 推動全公司的計劃、分享最佳做法，並針對共同的興趣主題或實務領域建立社群。 將構想群眾外包，促進與公司內部人員的開放式討論。
 

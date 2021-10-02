@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c2bda6467bf819bdf9cf82713c24e8e9cd18d9d
-ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
+ms.openlocfilehash: f3cf6d2e7eb23517477572775e7d18571463957b
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "60007793"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046339"
 ---
 # <a name="use-retail-team-templates"></a>使用零售團隊範本
 
@@ -38,12 +38,12 @@ Teams 中包括專為零售商需求設計的範本。 使用這些預先建立�
 
 |如果您是: | 那麼, 您: |
 | ---- | --------- |
-| 系統管理員或 IT 專業人員 |[在 Teams 系統管理中心管理團隊範本](#manage-team-templates-in-the-teams-admin-center)。 查看團隊範本並申請範本原則, 以控制職員在 Teams 中建立團隊時可使用的範本。 |
+| 系統管理員或 IT 專業人員 |[Teams 系統管理中心管理團隊範本](#manage-team-templates-in-the-teams-admin-center)。檢視團隊範本並申請範本原則, 以控制職員在 Teams 中建立團隊時可使用的範本。 |
 | 開發人員 | [使用 Microsoft Graph](#use-team-templates-with-microsoft-graph)從團隊範本建立團隊。 |
 
 ## <a name="manage-team-templates-in-the-teams-admin-center"></a>在系統管理中心管理團隊範本
 
-身為系統管理員, 您可以在 Microsoft Teams 系統管理中心管理團隊範本。 您可以在這裡檢視每個範本的詳細資訊。 您也可以[建立及指派範本原則](templates-policies.md)給職員, 以控制他們在 Teams 中[建立團隊](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)時看到的範本。 
+身為系統管理員, 您可以在 Microsoft Teams 系統管理中心管理團隊範本。 您可以在這裡檢視每個範本的詳細資訊。 您也可以[建立及指派範本原則](templates-policies.md)給職員, 以控制他們在 Teams 中[建立團隊](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)時看到的範本。
 
 若要深入了解一般團隊範本, 請參閱[在 Teams 系統管理中心開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)。
 
@@ -72,7 +72,7 @@ Teams 中包括專為零售商需求設計的範本。 使用這些預先建立�
 
 ## <a name="use-team-templates-with-microsoft-graph"></a>以 Microsoft Graph 使用團隊範本
 
-開發人員可以使用 Microsoft Graph 從預先建立的團隊範本建立團隊。 若要深入了解以 Microsoft Graph 使用團隊範本, 請參閱[開始用 Microsoft Graph 使用團隊範本](get-started-with-teams-templates.md), [Microsoft Teams API 概觀](/graph/teams-concept-overview?view=graph-rest-1.0), 和 [teamsTemplate 資源類型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
+開發人員可以使用 Microsoft Graph 從預先組建的團隊範本建立團隊。若要深入了解在 Microsoft Graph 中使用團隊範本, 請參閱[開始在 Microsoft Graph 中使用團隊範本](get-started-with-teams-templates.md), [Microsoft Teams API 概觀](/graph/teams-concept-overview?view=graph-rest-1.0), 和 [teamsTemplate 資源類型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
 
 以下是預先建立的零售團隊範本。
 
@@ -134,5 +134,5 @@ Teams 中包括專為零售商需求設計的範本。 使用這些預先建立�
 ## <a name="related-articles"></a>相關文章
 
 - [在 Teams 系統管理中心開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md)
-- [從 Teams 應用程式中的範本建立小組](https://support.microsoft.com/en-us/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
+- [從範本建立團隊](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [開始用 Microsoft Graph 使用團隊範本](get-started-with-teams-templates.md)
