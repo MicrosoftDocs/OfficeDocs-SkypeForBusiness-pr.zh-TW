@@ -23,25 +23,25 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 瞭解如何開啟並使用通話品質儀表板，並取得通話品質摘要報告。
-ms.openlocfilehash: 292fa240b9298bd60715d812ec95d8e53403c489
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5a220ac01965623417354df35a9052648652f607
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58750035"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60081611"
 ---
-# <a name="how-to-set-up-call-quality-dashboard"></a>如何設定通話品質儀表板
+# <a name="set-up-call-quality-dashboard"></a>設定通話品質儀表板
 
-開啟 Microsoft 通話品質儀表板 (CQD) ， (以您的系統管理員認證 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com)) 。 或前往系統管理Teams，然後選取通話 **品質儀表板**。 
+開啟 Microsoft 通話品質儀表板 (CQD) ， (以您的系統管理員認證 [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com)) 。 或前往系統管理Teams，然後選取分析&**報告**  >  **通話品質儀表板**。
 
 :::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="系統管理中心中通話品質儀表板按鈕Teams螢幕擷取畫面。":::
 
 在開啟的頁面上 **，按一下**[登錄並輸入您的全域系統管理員帳戶Microsoft Teams系統管理員帳戶資訊。 在您第一次登錄之後，CQD 會開始收集和處理資料。 請記住，可能需要一或多個小時處理足夠的資料，才能在報告中顯示有意義的結果。
 
-CQD 會顯示 2019 年 2019 年 Microsoft Teams、商務用 Skype線上商務用 Skype Server通話和會議品質。 
+CQD 會顯示 2019 年 2019 Microsoft Teams、商務用 Skype線上商務用 Skype Server通話和會議品質。 
 
 > [!IMPORTANT]
-> 若要在 2019 商務用 Skype Server使用 CQD，您必須[設定通話資料連線器](/skypeforbusiness/hybrid/configure-call-data-connector)。 在 [啟動前，請參閱規劃通話](/skypeforbusiness/hybrid/plan-call-data-connector) 資料連線器。
+> 若要在 2019 商務用 Skype Server CQD，您必須[設定通話資料連線器](/skypeforbusiness/hybrid/configure-call-data-connector)。 在 [啟動前，請參閱規劃通話](/skypeforbusiness/hybrid/plan-call-data-connector) 資料連線器。
 
 
 ## <a name="assign-admin-roles-for-access-to-cqd"></a>指派系統管理員角色以存取 CQD
@@ -51,7 +51,7 @@ CQD 會顯示 2019 年 2019 年 Microsoft Teams、商務用 Skype線上商務用
 如果您希望非系統管理員使用者 (例如支援工程師和技術支援人員) 使用通話品質儀表板，您可以指派下列其中一個角色，以存取 CQD。 
 
 
-|&nbsp;  |查看報表  |查看 EUII 欄位  |建立報表  |Upload建立資料  |
+|&nbsp;  |查看報表  |查看 EUII 欄位  |建立報表  |Upload建資料  |
 |---------|:-------:|:-------:|:-------:|:-------:|
 |全域系統管理員     |是         |是         |是         |是         |
 |Teams 系統管理員     |是         |是         |是         |是         |
@@ -72,15 +72,11 @@ CQD 會顯示 2019 年 2019 年 Microsoft Teams、商務用 Skype線上商務用
 
 在您第一次登錄之後，CQD 會開始收集和處理資料。
 
-
-
-
 ## <a name="use-power-bi-to-analyze-cqd-data"></a>使用 Power BI分析 CQD 資料
 
-2020 年 1[月新增：Power BI CQD 的查詢範本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 您可以Power BI自訂範本，以分析及報告您的 CQD 資料。
+2020 年 1[月新增：下載 Power BI CQD 的查詢範本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。 您可以Power BI自訂的範本，以分析及報告您的 CQD 資料。
 
-請參閱[使用Power BI分析 CQD 資料](CQD-Power-BI-query-templates.md)以深入瞭解。
-
+請參閱[使用 Power BI分析 CQD 資料](CQD-Power-BI-query-templates.md)以深入瞭解。
 
 ## <a name="related-topics"></a>相關主題
 
