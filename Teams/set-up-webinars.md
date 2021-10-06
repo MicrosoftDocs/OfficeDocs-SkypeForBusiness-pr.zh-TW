@@ -18,13 +18,13 @@ ms.custom: ''
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
-description: 瞭解如何管理網路研討會Teams會議。
-ms.openlocfilehash: 78c81e25d246dc450ffcd821d22148c330d38f23
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+description: 瞭解如何管理會議Teams策略。
+ms.openlocfilehash: 35c0cc2ab6c05d123aae45bc0c375cf815db36b4
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456313"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138209"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>在 Microsoft Teams 中設定網路研討會
 
@@ -36,16 +36,19 @@ ms.locfileid: "59456313"
 
 在貴組織中設定網路研討會之後，您的使用者可以排程網路研討會，並開啟註冊給出席者。 與包含許多討論和工作分派的傳統會議不同，網路研討會適用于互動式簡報，並提供工具供出席者分析。
 
+> [!IMPORTANT]
+> 若要讓使用者設定網路研討會，Microsoft 清單必須設定SharePoint建立個人清單。 若要深入瞭解，請參閱控制項[設定Microsoft 清單。](/sharepoint/control-lists)
+
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>允許使用者在系統管理中心Teams網路研討會
 
-您可以使用系統管理Teams中心為貴組織設定網路研討會。 您可以在會議會議政策下的系統管理中心找到Teams網路  >  **研討會的政策**。
+您可以使用系統管理Teams中心為貴組織設定網路研討會。 您可以在會議會議政策下的 Teams系統管理中心找到設定網路研討會  >  **的政策**。
 
 ### <a name="allow-meeting-registration"></a>允許會議註冊
 
 如果您開啟此功能，使用者可以排程網路研討會。 根據預設，這會開啟。 如果您想要關閉會議註冊，請設定此策略為 **關閉**。
 
 > [!IMPORTANT]
-> **允許排程私人會議** 必須已上，會議註冊工作。 根據預設，此政策會于系統管理中心Teams開啟。 對於教育租使用者的學生，此政策預設為關閉。 若要瞭解如何為學生啟用私人會議排程功能，請參閱Teams 教育版[政策套件](policy-packages-edu.md)。
+> **允許排程私人會議** 必須已上，會議註冊工作。 根據預設，此政策會于系統管理中心Teams開啟。 對於教育租使用者的學生，此政策預設為關閉。 若要瞭解如何為學生啟用私人會議排程功能，請參閱Teams 教育版[策略套件](policy-packages-edu.md)。
 
 ### <a name="who-can-register"></a>神秘註冊
 
@@ -56,7 +59,7 @@ ms.locfileid: "59456313"
 
 ### <a name="allow-engagement-report"></a>允許互動報告
 
-如果您開啟此功能，召集人可以看到註冊及參加他們設定之網路研討會者的報告。 此策略預設為關閉。 詳細資訊，請參閱會議[Teams - 允許參與報告](meeting-policies-in-teams-general.md#allow-engagement-report)。 有關使用者經驗的資訊，請參閱 [查看及下載會議出席報告](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)。
+如果您開啟此功能，召集人可以看到註冊及參加他們設定之網路研討會者的報告。 此策略預設為關閉。 如要詳細資訊，請參閱 Teams[中的會議Teams - 允許參與報告](meeting-policies-in-teams-general.md#allow-engagement-report)。 有關使用者經驗的資訊，請參閱 [查看及下載會議出席報告](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)。
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>允許使用者使用 PowerShell 排程網路研討會
 
@@ -69,14 +72,14 @@ ms.locfileid: "59456313"
 請參閱 [Set-CsTeamsMeetingPolicy，](/powershell/module/skype/set-csteamsmeetingpolicy) 以在 Cmdlet 上獲得詳細資訊。
 
 > [!NOTE]
-> 執行這些 Cmdlet 之前，您必須先Microsoft Teams PowerShell。 詳細資訊，請參閱使用[PowerShell Teams管理Microsoft Teams資料](/microsoftteams/teams-powershell-managing-teams)。
+> 執行這些 Cmdlet 之前，您必須連接到 PowerShell Microsoft Teams。 詳細資訊，請參閱使用[PowerShell Teams管理Microsoft Teams資料](/microsoftteams/teams-powershell-managing-teams)。
 
 ### <a name="allow-users-to-schedule-webinars"></a>允許使用者排程網路研討會
 
 您可以只將註冊限制為貴組織的使用者，或將註冊開放給租使用者內外的每個人。 根據預設 **，WhoCanRegister** 會啟用，並設定為全域 (**全組織的預設**) 規則。 如果您想要關閉會議註冊，請設定 **AllowMeetingRegistration** 為 **False**。
 
 > [!IMPORTANT]
-> **AllowPrivateMeetingScheduling** 必須設為 **True，AllowMeetingRegistration** 可以工作。 此外，Microsoft 清單中必須設定SharePoint。 若要深入瞭解，請參閱控制項[設定Microsoft 清單。](/sharepoint/control-lists)
+> **AllowPrivateMeetingScheduling** 必須設為 **True，AllowMeetingRegistration** 可以工作。
 
 1. 開啟會議註冊
 
