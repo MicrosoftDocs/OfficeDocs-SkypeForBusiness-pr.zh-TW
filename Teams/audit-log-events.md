@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 瞭解如何從 Microsoft Teams稽核記錄中Microsoft 365 合規性中心。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6c3b90906fe5a65d0c4fab2fdc20aeb69099743
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 5d19e29734f8e62b77a0a355c366c2bdc7a6bbde
+ms.sourcegitcommit: 7b704ba3c9d2db9740c4aad9e5a75a830bbbb63b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138269"
+ms.locfileid: "60148904"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在稽核記錄中搜尋Microsoft Teams
 
@@ -42,18 +42,20 @@ ms.locfileid: "60138269"
 
 ## <a name="turn-on-auditing-in-teams"></a>開啟稽核Teams
 
-在查看稽核資料之前，您首先必須開啟安全性與合規性中心的稽核& [稽核](https://protection.office.com)。 有關開啟稽核的協助，請參閱 [開啟或關閉稽核記錄搜尋](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)。
+在查看稽核資料之前，您首先必須開啟稽核Microsoft 365 合規性中心。 詳細資訊，請參閱 [開啟或關閉稽核](/microsoft-365/compliance/turn-audit-log-search-on-or-off)。
 
 > [!IMPORTANT]
 > 只有您開啟稽核時，才能使用稽核資料。
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>從稽Teams中取回資料
 
-1. 若要取回稽核記錄，請前往安全性 [與&中心](https://go.microsoft.com/fwlink/?linkid=855775)。 在 **搜尋下**，選取 **稽核記錄搜尋**。
+1. 若要針對活動Teams稽核記錄，請前往 <https://compliance.microsoft.com> 並選取稽 **核**。
 
-2. 使用 **搜尋** 來篩選您想要稽核的活動、日期和使用者。
+2. 在搜尋 **頁面上** ，篩選您想要稽核的活動、日期和使用者。
 
 3. 將結果匯出Excel進一步分析。
+
+有關逐步指示，請參閱在合規性中心 [搜尋稽核記錄](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log)。
 
 > [!IMPORTANT]
 > 只有在開啟稽核時，稽核資料才能顯示在稽核記錄中。
@@ -64,18 +66,17 @@ ms.locfileid: "60138269"
 
 以下是在稽核記錄中搜尋Teams活動的秘訣。
 
-![稽核記錄頁面的螢幕擷取畫面](media/audit-log-search-page.png)
+![合規性中心稽核記錄搜尋頁面的螢幕擷取畫面](media/audit-log-search-page.png)
 
+- 您可以按一下一或多個活動旁的核取方塊，選取要搜尋的特定活動。 如果已選取活動，您可以按一下該活動以取消選取專案。 您也可以使用搜尋方塊來顯示包含您輸入之關鍵字的活動。
 
-- 您可以按一下活動名稱，選取要搜尋的特定活動。 或者，您也可以按一下群組名稱 (群組中的所有活動，) 檔案和資料夾活動。 如果已選取活動，您可以按一下該活動以取消選取專案。 您也可以使用搜尋方塊來顯示包含您輸入之關鍵字的活動。
+  ![稽核記錄搜尋頁面上活動下拉清單的螢幕擷取畫面](media/audit-log-search.png)
 
-  ![稽核記錄搜尋活動清單的螢幕擷取畫面](media/audit-log-search.png)
+- 若要顯示使用 Cmdlet 執行的活動活動，請選取 **顯示活動** 清單中 **所有活動的結果** 。 如果您知道這些活動的作業名稱，請在搜尋方塊中輸入該名稱以顯示活動，然後選取該活動。
 
-- 若要顯示使用 Cmdlet 執行的活動活動，請選取 **顯示活動** 清單中 **所有活動的結果** 。 如果您知道這些活動的作業名稱，請搜尋所有活動，然後在活動欄的方塊中輸入作業名稱來 **篩選** 結果。 若要深入瞭解，請參閱 [步驟 3：篩選搜尋結果](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results)。
+- 若要清除目前的搜尋準則，請按一下 [ **全部清除**。 日期範圍會回到過去七天的預設值。
 
-- 若要清除目前的搜尋準則，請按一下 [ **清除**。 日期範圍會回到過去七天的預設值。 您也可以按一下 [ **全部清除以顯示所有活動的結果，** 以取消所有選取的活動。
-
-- 如果找到 5，000 個結果，您可以假設超過 5，000 個符合搜尋準則的事件。 您可以調整搜尋準則，然後重新搜尋以返回較少的結果，或者您也可以選取匯出下載所有結果來匯出  >  **所有搜尋結果**。
+- 如果找到 5，000 個結果，您可以假設超過 5，000 個符合搜尋準則的事件。 您可以調整搜尋準則，然後重新搜尋以返回較少的結果，或者您也可以選取匯出下載所有結果來匯出  >  **所有搜尋結果**。 若要取得匯出稽核記錄的步驟指示，請參閱將 [搜尋結果匯出至檔案](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file)。
 
 請觀看 [這段影片](https://www.youtube.com/embed/UBxaRySAxyE) 以使用音訊記錄搜尋。 加入 Ansuman Acharya，Teams的專案經理，示範如何執行稽核記錄搜尋Teams。
 
@@ -121,7 +122,7 @@ ms.locfileid: "60138269"
 
 ## <a name="teams-activities"></a>Teams活動
 
-以下是在稽核記錄中記錄使用者和系統管理活動的所有Teams Microsoft 365清單。 資料表包含顯示在活動欄中的好記名稱，以及匯出搜尋結果時出現在稽核記錄詳細資訊和 CSV 檔案中的對應作業名稱。
+以下是在稽核記錄中記錄使用者和系統管理活動Teams活動Microsoft 365清單。 資料表包含顯示在活動欄中的好記名稱，以及匯出搜尋結果時出現在稽核記錄詳細資訊和 CSV 檔案中的對應作業名稱。
 
 |好用的名稱  |操作 |描述 |
 |:---------|:---------|:---------|
@@ -156,7 +157,7 @@ ms.locfileid: "60138269"
 |已移除的成員    |MemberRemoved        |團隊擁有者會從團隊、頻道或群組聊天移除成員。         |
 |已移除的定位停駐點    |TabRemoved         |使用者會從頻道移除一個定位停駐點。         |
 |已取回<sup>的郵件 1、2</sup> <sup></sup> |郵件已列出 |已從聊天或頻道中取回訊息。|
-|在郵件中Teams |MessageCreatedHasLink|使用者會傳送一則訊息，其中包含 Teams。|
+|在郵件中Teams |MessageCreatedHasLink|使用者會傳送一則訊息，其中含有 Teams。|
 |郵件建立 <sup>1、2 的 </sup>已送 <sup>出變更通知</sup>  |MessageCreatedNotification |已送出變更通知，以通知訂閱的聆聽者應用程式新郵件。|
 |郵件刪除 <sup>1、2 的 </sup>已送 <sup>出變更通知</sup>  |MessageDeletedNotification |已送出變更通知，以通知訂閱的聆聽者應用程式已刪除的郵件。|
 |郵件更新 <sup>1、2 的 </sup>已送 <sup>出變更通知</sup>    |MessageUpdatedNotification |已送出變更通知，以通知訂閱的聆聽者應用程式已更新的郵件。|
