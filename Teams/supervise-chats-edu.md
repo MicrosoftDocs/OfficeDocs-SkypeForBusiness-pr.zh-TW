@@ -15,16 +15,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在會議中進行Microsoft Teams聊天。
-ms.openlocfilehash: 439c62b4993b68ba0c17f83857ad74034fdcd0c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcf2a14b2c05f657a3342c6a0a193b841df4ce27
+ms.sourcegitcommit: 689387de6a07e3f50b3ea65b33bda6960cf30356
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629195"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "60216011"
 ---
-# <a name="supervised-chats-in-microsoft-teams"></a>在 Microsoft Teams
+# <a name="supervised-chats-in-microsoft-teams"></a>在聊天中受監督Microsoft Teams
 
-教育機構為學生提供安全且健康的網際空間。 網際空間包括電子郵件、線上會議和通話，以及郵件Teams。 為了防止不當的傳訊行為，許多學校會停用 Teams。 很抱歉，停用聊天也會讓教師無法私下與學生聯繫，進行個人化學習。 當學生不想在班級團隊中公開張貼訊息時，他們無法與教師聯繫。
+教育機構為學生提供安全且健康的網際空間。 網際空間包含電子郵件、線上會議和通話，以及郵件Teams。 為了避免不當的傳訊行為，許多學校會停用Teams。 很抱歉，停用聊天也會讓教師無法私下與學生聯繫，進行個人化學習。 當學生不想在班級團隊中公開張貼訊息時，他們無法與教師聯繫。
 
 監督式聊天可讓指定的教育者與學生開始聊天，並阻止學生開始新的聊天，除非有適當的教師出席。 啟用聊天監督時，主管不得離開聊天，而不允許其他參與者移除這些聊天，以確保與學生有關的聊天受到適當的監督。
 
@@ -39,7 +39,7 @@ ms.locfileid: "58629195"
 
 - 當學生不習慣公開分享或提出問題時，與教育者進行 1.1 追蹤。
 
-- 教師會以 1.1 向學生說明作業、最近的班級互動 (或缺少) 或其他主題。
+- 教師會以 1.1 方式向學生說明作業、最近的班級互動 (或缺少) 或其他主題。
 
 - 由教師監控的學生群組討論。
 
@@ -60,17 +60,17 @@ ms.locfileid: "58629195"
 
 - *限制許可權* – 此角色適用于需要受監管的學生。 他們只能與擁有完整許可權的使用者開始聊天。 他們可以參與擁有完整許可權的使用者邀請他們進行的任何交談。 在聯合聊天案例中，限制使用者只能由擁有來自受限制使用者租使用者之完整許可權的使用者新加入聊天。
 
-若要設定使用者的聊天許可權角色，請使用系統管理入口網站中的訊息Teams中找到的聊天許可權角色策略。 您可以使用 PowerShell 使用 ChatPermissionRole 策略定義角色，其值為完整、限制或限制。 此政策位於 CsTeamsMessagingPolicy 下。
+若要設定使用者的聊天許可權角色，請使用在系統管理入口網站中的訊息Teams中找到的聊天許可權角色策略。 您可以使用 PowerShell 使用 ChatPermissionRole 策略定義角色，其值為完整、限制或限制。 此政策位於 CsTeamsMessagingPolicy 下。
 
-若要深入瞭解設定。 Teams，請參閱Teams和指派策略給大量使用者指南的一些政策與政策套件。
+若要深入瞭解設定。 Teams，請參閱Teams教育與指派策略給大量使用者指南的一些政策與政策套件。
 
 角色無法指派給租使用者中的來賓。 來賓會指派有限角色。
 
 ### <a name="allow-supervised-chat"></a>允許有監督的聊天
 
-您的租使用者預設會停用監督聊天。 為使用者設定聊天許可權角色之後，您可以進入全組織設定 Teams 設定，將角色型聊天權限原則設定為 &gt; **On，** 在租使用者中啟用監督聊天 *。* 您也可以將 AllowRoleBasedChatPermissions 設定為 True，使用 PowerShell 啟用監督聊天。 此 Cmdlet 位於 CsTeamsClientConfiguration 下。
+您的租使用者預設會停用監督聊天。 為使用者設定聊天許可權角色之後，您可以進入 Teams Teams，將角色型聊天權限原則設定 **為** On，在租使用者中啟用監看式 &gt; *****聊天。*  您也可以將 AllowRoleBasedChatPermissions 設定為 True，使用 PowerShell 啟用監督聊天。 此 Cmdlet 位於 CsTeamsClientConfiguration 下。
 
-必須針對租使用者中的所有使用者啟用受監督的聊天，而且只能為部分使用者啟用。
+必須針對租使用者中的所有使用者啟用監控聊天，而且無法只針對部分使用者啟用。
 
 ### <a name="enable-chat"></a>啟用聊天
 
