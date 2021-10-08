@@ -775,6 +775,8 @@ items:
             items:
               - name: Microsoft Teams 會議室規劃概觀
                 href: rooms/rooms-plan.md
+              - name: Windows 與 Android 之間的 Teams 裝置功能比較
+                href: rooms/teams-devices-feature-comparison.md
               - name: 版本支援
                 href: rooms/rooms-lifecycle-support.md
               - name: 版本資訊
