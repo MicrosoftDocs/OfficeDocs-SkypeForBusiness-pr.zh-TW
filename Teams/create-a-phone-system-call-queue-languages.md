@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams通話佇列支援的語言
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Microsoft Teams通話佇列支援的語言
-ms.openlocfilehash: 775b8c01f2638ffb2e13c25edf265f9abdd65989
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54d9a49dc3671a2b7148ba964c20dcb50def0622
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634857"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249545"
 ---
 # <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams通話佇列支援的語言
 
@@ -35,8 +35,8 @@ ms.locfileid: "58634857"
 |語言                                |
 |:---------------------------------------|
 |阿拉伯 (埃及)                           |
-|Catalan (Catalan)                        |
-|中文 (簡體，中國)                |
+|Catalan (加泰羅尼亞)                        |
+|中文 (簡體、中國)                |
 |繁 (繁體中文、香港)         |
 |繁 (傳統、臺灣)            |
 |克羅地亞 (克羅地亞)                       |
@@ -56,9 +56,9 @@ ms.locfileid: "58634857"
 |匈牙利 (匈牙利)                      |
 |印尼 (印尼)                   |
 |義大利 (義大利)                          |
-|日文 (日本)                         |
+|日本 (日本)                         |
 |韓國 (韓國)                           |
-|挪威博克馬 (挪威)                |
+|挪威博克 (挪威)                |
 |波蘭 (波蘭)                          |
 |巴西 (葡萄牙文)                      |
 |葡萄牙文 (葡萄牙)                    |
@@ -67,7 +67,7 @@ ms.locfileid: "58634857"
 |斯洛伐克 (斯洛伐克)                        |
 |斯洛 (斯洛)                     |
 |墨西哥 (西班牙文)                         |
-|西班牙文 (西班牙，國際)           |
+|西班牙 (西班牙，國際)           |
 |瑞典文 (瑞典)                         |
 |泰國 (泰國)                          |
 |土耳其 (土耳其)                         |

@@ -1,7 +1,7 @@
 ---
-title: 設定小型企業教學課程Microsoft Teams自動總機
-ms.author: mikeplum
-author: MikePlumleyMSFT
+title: 設定小型企業教學課程Microsoft Teams自動助理
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: dobro
 ms.topic: article
@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft 365 商務語音 中設定和測試小型企業的自動Microsoft 365 商務語音。
-ms.openlocfilehash: 04df17f84bccb18f9cd1184574b118e8c870a0e8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 176dc3c742ea60dbf5bf9b7bf0e6ce077957ace1
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630257"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249475"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>設定自動助理 - 小型企業教學課程
 

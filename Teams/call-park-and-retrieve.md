@@ -1,7 +1,7 @@
 ---
 title: 呼叫停駐和Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: srividhc
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解如何在通話中使用通話保留和Microsoft Teams。
-ms.openlocfilehash: e58cf8ead120cb7265665abecc0683ea9a96f559
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9092e76b9d8db5e29c1dd5881cd6b0f69d70ae4a
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732542"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249505"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>呼叫停駐和Microsoft Teams
 
@@ -34,9 +34,9 @@ ms.locfileid: "58732542"
 
 使用呼叫停駐的一些常見案例有：
 
-- 接待員會為在工廠工作的人打電話。 然後，接待員在公用電話系統上宣佈通話和代碼號碼。 接著，通話使用者可以在工廠Teams電話，然後輸入代碼以取回通話。
+- 接待員會為在工廠工作的人打電話。 然後，接待員在公用電話系統上宣佈通話和代碼號碼。 接著，負責通話的使用者可以在工廠Teams電話，然後輸入代碼以取回通話。
 - 使用者將通話放在行動裝置上，因為裝置電池電力不足。 然後，使用者可以輸入代碼，從電話機Teams通話。
-- 支援代表會將客戶電話放在Teams頻道上傳送公告，讓專家取回來電並協助客戶。 專家在用戶端中輸入Teams以取回通話
+- 支援代表會將客戶電話寄到電話上，Teams頻道傳送公告，讓專家取回來電並協助客戶。 專家在用戶端中輸入Teams以取回通話
 
 若要將通話停駐和取回，使用者必須是企業語音使用者，且必須包含在通話駐用策略中。
 
@@ -45,13 +45,13 @@ ms.locfileid: "58732542"
 
 ## <a name="configure-call-park-and-retrieve"></a>設定呼叫停駐和取回
 
-您必須是系統管理員Teams，才能設定通話停駐和取回。 它預設為停用。 您可以為使用者啟用它，然後使用呼叫停駐策略建立使用者群組。 當您將相同的原則套用至一組使用者時，他們可以在使用者之間停駐和取回通話。
+您必須是管理員Teams才能設定呼叫駐位和取回。 它預設為停用。 您可以為使用者啟用它，然後使用呼叫停駐策略建立使用者群組。 當您將相同的原則套用至一組使用者時，他們可以在使用者之間停駐和取回通話。
 
 呼叫代答號碼的範圍已預先定義為 10-99，且無法修改。 第一個已停駐的通話會呈現 10 的代答碼，下一個已停駐的通話會呈現 11 的代答碼，等等。 直到 99 呈現為代答程式碼。 之後，呈現的取件代碼會再次從 10 開始。  如果超過 89 個使用中的保留通話，則呈現的代答碼會持續遞增到 99 以上，如此一來，第 90 個有效保留的通話會呈現 100 個代答程式碼，第 91 個使用中的保留通話會呈現 101 的代答碼。
 
 若要啟用通話停駐策略
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往 **語音**  >  **通話停駐策略**。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 **語音**  >  **通話的留駐點政策**。
 2. 在 [ **管理原則>** 選項卡上，按一下 [ **新增**。
 3. 為策略命名，然後將允許 **通話停駐切換到****開啟**。  (無法自訂呼叫代答範圍和) 
 
@@ -80,8 +80,8 @@ ms.locfileid: "58732542"
 
 [將原則指派給 Teams 中的使用者](assign-policies.md)
 
-[New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)
+[New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy)
 
-[Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)
+[Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy)
 
-[Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps)
+[Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy)
