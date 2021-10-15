@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 22d57e349d22deb6d40227ba15d73a7958bad894
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 9bdf14874765a8cd67f0ea7ffcfdcb05358b061b
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432435"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356447"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -147,7 +147,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 此設定可控制在播放會議錄製內容期間是否提供字幕和謄寫功能。 如果您關閉此功能，則 [**錄製**] 和 [**CC**] 選項在播放會議錄製內容期間無法使用。 開始錄製的人員需要開啟此設定，讓錄製也包含謄寫。
 
 > [!NOTE]
-> 目前僅針對將 Teams 語言設定為英文的使用者，以及在會議中使用英文時，才支援錄製會議的謄寫功能。 這些會議記錄會與商務用 OneDrive 和 SharePoint Online 雲端儲存空間中的會議錄製一起儲存。
+> 錄製會議謄寫目前僅支援英文 (美國)、英文 (加拿大)、英文 (印度)、英文 (英國)、英文 (澳洲)、英文 (紐西蘭)、德文 (德國)、葡萄牙文 (巴西)、荷蘭文 (荷蘭)、荷蘭文 (比利時)、法文 (法國)、西班牙文 (西班牙)、日文 (日本)、法文 (加拿大)、中文 (粵語、繁體中文)、中文 (國語、簡體中文)、印地文 (印度)、義大利文 (義大利)、韓文 (韓國)、西班牙文 (墨西哥)、瑞典文 (瑞典)、波蘭文 (波蘭)、阿拉伯文 (阿拉伯聯合大公國)、阿拉伯文 (沙烏地阿拉伯)、丹麥文 (丹麥)、芬蘭文 (芬蘭)、挪威文 (挪威) 和俄文 (俄羅斯)。 這些會議記錄會與商務用 OneDrive 和 SharePoint Online 雲端儲存空間中的會議錄製一起儲存。
 
 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來設定 Teams 會議原則，控制啟動錄製的人員是否可以選擇謄寫會議錄製內容。
 
@@ -309,7 +309,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 **系統管理員如何變更到期日?**
   
-在功能釋出前，系統管理員將可以在 PowerShell (Set-CsTeamsMeetingPolicy -Identity Global -MeetingRecordingExpirationDays) 或 Teams 系統管理中心變更預設的到期設定。 **這項設定尚無法進行修改**。 當設定可以進行修改時，我們將會發佈更新的郵件中心文章。 當此功能啟動時，系統管理員可以在 Teams 系統管理中心變更此設定。 變更到期設定只會從該時間點起影響新建立之 TMR。 這不會影響該日期之前進行的任何錄製。 
+系統管理員可以在功能發行前變更 PowerShell 或 Teams 系統管理中心的預設到期設定。 **這項設定尚無法進行修改**。 當設定可以進行修改時，我們將會發佈更新的郵件中心文章。 當此功能啟動時，系統管理員可以在 Teams 系統管理中心變更此設定。 變更到期設定只會從該時間點起影響新建立之 TMR。 這不會影響該日期之前進行的任何錄製。 
 
 到期日值可如以下方式設定：
   
@@ -411,7 +411,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 日後若在 Teams 中的文字記錄與錄製內容之間的連結出現任何變更，都會在這裡和訊息中心通知中釐清。 如果我們之後做出任何變更，我們會確保錄製檔案在 60 天內以輔助字幕顯示會議文字記錄。
 
 > [!NOTE]
-> 將會提供僅英文的即時輔助字幕 (會議謄寫功能尚無法在 GCC 中使用)。
+> GCC 尚未提供會議謄寫功能。
 
 ## <a name="ediscovery-and-compliance-for-meeting-recordings"></a>會議錄製的 eDiscovery 與合規性
 
