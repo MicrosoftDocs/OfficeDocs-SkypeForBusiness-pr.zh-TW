@@ -25,13 +25,13 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: '瞭解商務 (的) PSTN Skype方案，以及如何取得貴組織授權。 '
-ms.openlocfilehash: f79fbab055e7dbc9148e2be11539ecbfbc9b0c03
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: '瞭解商務 (的通話) PSTN Skype方案，以及如何取得貴組織的授權。 '
+ms.openlocfilehash: dfb36cd78923257d76ebe33069e6e4cc642e7e40
+ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727262"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60367525"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>通話方案Microsoft 365
 
@@ -48,7 +48,11 @@ ms.locfileid: "58727262"
 流覽 [國家/地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ，瞭解每個國家/地區每個組織每月可用的分鐘數。
   
 > [!IMPORTANT]
-> 國家/地區是根據使用者授權在Microsoft 365 系統管理中心 活動使用者中的位置，而非位於 Microsoft 365 系統管理中心 中的組織  >  ******設定檔中列出的帳單位址。**     
+> 國家/地區是根據使用者授權在Microsoft 365 系統管理中心 活動使用者中的位置，而非位於 Microsoft 365 系統管理中心 中的組織設定檔  >  ******中列出的帳單位址。**   
+
+> [!NOTE]
+> 只有相同的通話方案才能使用集中。
+
 ![使用者授權位置的螢幕擷取畫面。](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 有關使用限制及使用條款的詳細資訊，請參閱 [音訊會議免費撥出期間](complimentary-dial-out-period.md)。
@@ -62,7 +66,7 @@ ms.locfileid: "58727262"
     > [!NOTE]
     > 視您的方案，您可能需要購買更多附加元件，才能購買電話系統授權。 若要深入瞭解，請參閱Microsoft Teams[附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
-2. 購買授權電話系統購買通話方案，方法是：Microsoft 365 系統管理中心訂閱，選擇帳單購買服務附加元件訂閱，然後按一下  >    >  立即 **購買**。 您可以在此看到通話方案。
+2. 購買 電話系統授權之後，您可以登錄 Microsoft 365 系統管理中心，選擇帳單購買服務附加元件訂閱，然後按一下立即購買來購買通話  >    >  ******方案**。 您可以在此看到通話方案。
     
     ![顯示語音通話方案選項的螢幕擷取畫面。](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
@@ -88,7 +92,7 @@ ms.locfileid: "58727262"
     
 - [Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [以下是在 電話系統 或 Microsoft 365 中Office 365](./here-s-what-you-get-with-phone-system.md)
+- [以下是在 電話系統 或 Microsoft 365 Office 365](./here-s-what-you-get-with-phone-system.md)
     
    
 ## <a name="related-topics"></a>相關主題
