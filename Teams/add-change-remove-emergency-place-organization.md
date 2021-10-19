@@ -18,18 +18,16 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何在系統管理中心新增、變更或移除組織緊急Microsoft Teams位置。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0f61a16caa40a1470031ec5f680d529522d49c1d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2bf3e2fad1ee0f0182e2b3a25f2be78f5ef68823
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629375"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465963"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>新增、變更或移除貴組織緊急位置的地方
 
-根據貴組織實體位置的數量，您可以新增建築物、樓層和辦公室的位置，以建立更具體的緊急位置。 請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md) 以瞭解更多資訊。
-  
-若要瞭解如何取得通話方案及其費用，[請參閱Teams授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+根據貴組織中實際位置的數量，您可以新增建築物、樓層和辦公室的位置，以建立更具體的緊急位置。 請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md) 以瞭解更多資訊。
 
 您可以在系統管理中心或使用 PowerShell 管理Microsoft Teams組織的緊急位置。
   

@@ -1,7 +1,7 @@
 ---
 title: 管理雲端語音功能的網路拓撲Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -19,55 +19,53 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中設定雲端語音功能的網路Microsoft Teams。
-ms.openlocfilehash: 571b2e2f4c502a41604b5e2660d7e59990dd49bb
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: f949016a06c9b9f5b2d0d87649a46396c8bb54d8
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015337"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465773"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>管理雲端語音功能的網路拓撲Microsoft Teams
 
-如果貴組織正在部署直接[](location-based-routing-plan.md)路由或動態緊急電話的以位置[](configure-dynamic-emergency-calling.md)為基礎的路由，您必須設定網路設定，以在 Microsoft Teams 中使用這些雲端語音功能。 網路設定可用來判斷用戶端Teams包括網路區域、網路網站、子網和信任的 IP 位址。 根據您部署的雲端語音功能，您可以設定部分或所有設定。 若要深入瞭解這些條款，請參閱雲端 [語音功能的網路設定](cloud-voice-network-settings.md)。
+如果貴組織正在部署直接[](location-based-routing-plan.md)路由或動態緊急電話的以位置[](configure-dynamic-emergency-calling.md)為基礎的路由，您必須設定網路設定，以在 Microsoft Teams 中使用這些雲端語音功能。 網路設定可用來判斷用戶端Teams包括網路區域、網路網站、子網和受信任的 IP 位址。 根據您部署的雲端語音功能，您可以設定部分或所有設定。 若要深入瞭解這些條款，請參閱雲端 [語音功能的網路設定](cloud-voice-network-settings.md)。
 
-您可以在系統管理中心的網路 **拓撲** 頁面上設定網路Microsoft Teams，或使用 Windows PowerShell。
+您可以在系統管理中心的網路 **拓撲** 頁面上設定網路Microsoft Teams或使用 Windows PowerShell。
 
 ## <a name="configure-network-settings-in-the-microsoft-teams-admin-center"></a>在系統管理中心Microsoft Teams設定
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 您可以在網路拓撲頁面的網路網站選項卡上定義網路區域、網路 **網站****和** 子網。 您可以在這裡建立或修改網路網站、將網站與網路區域建立關聯、將子網與網站建立關聯、開啟位置式路由，以及指派緊急策略至網站。 您也可以新增可全域用於所有網站的網路區域。
 
 #### <a name="add-and-configure-a-network-site"></a>新增及設定網路網站
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往 [位置網路拓撲圖》，然後按一下 [  >  ******網路網站> 定位** 點。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 [位置網路拓撲圖》，然後按一下 [網路  >  ******網站> 定位** 點。
 2. 按一下 **[新增**」，然後輸入網站的名稱和描述。
 
     ![新增網路網站頁面的螢幕擷取畫面。](media/manage-network-topology-add-site.png)
 
 3. 若要將網站與網路區域建立關聯，請按一下[新增網路區域，選取現有區域或按一下 [新增以新增區域，然後按一下 **[連結**。  
-4. 若要啟用Location-Based路由，請開啟 **以位置為基礎的路由**。
+4. 若要啟用Location-Based路由，請開啟以 **位置為基礎的路由**。
 5. 若要將緊急服務政策指派給網站，請執行下列其中一項或兩項操作：
 
-    - 如果貴組織使用通話方案或電話系統直接路由，請在緊急通話政策下，選取您想要的策略。
-    - 如果貴組織已電話系統直接路由，請在緊急呼叫 **路由** 策略下，選取您想要的策略。
+    - 如果貴組織使用通話方案、連線或直接路由，請在緊急通話政策下，選取您想要的策略。
+    - 如果貴組織已部署直接路由，請在 **緊急通話路由策略** 下，選取您想要的策略。
 
 6. 若要將子網與網站關聯，請按一下 [ **子網>** 下的 [ **新增子網**> 。 指定 IP 版本、IP 位址、網路範圍、新增描述，然後按一下 **[Apply.** 每個子網都必須與特定網站相關聯。
 7. 按一下 [儲存]。
 
 #### <a name="modify-a-network-site"></a>修改網路網站
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往 [位置網路拓撲圖》，然後按一下 [  >  ******網路網站> 定位** 點。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 [位置網路拓撲圖》，然後按一下 [網路  >  ******網站> 定位** 點。
 2. 按一下網站名稱的左側以選取網站，然後按一下 [ **編輯**。
 3. 進行您想要的變更，然後按一下 [ **儲存。**
 
 ### <a name="manage-external-trusted-ip-addresses"></a>管理外部信任的 IP 位址
 
-您可以在系統管理中心的網路拓撲頁面上的 "信任 IP" Microsoft Teams  IP 位址。 您可以新增無限數量的外部信任 IP 位址。
+您可以在系統管理中心的網路拓撲頁面上，于信任IP 的Microsoft Teams IP位址。 您可以新增無限數量的外部信任 IP 位址。
 
 #### <a name="add-a-trusted-ip-address"></a>新增信任的 IP 位址
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往 [位置網路拓撲圖》，然後按一下 [  >  ******信任的 IP？**
+1. 在系統管理中心的左側導Microsoft Teams，請前往 [位置網路拓撲圖》，然後按一下 [  >  ******信任的 IP> 定位點。**
 2. 按一下 **[新增**。
 3. 在 [**新增信任的 IP 位址**> 窗格中，指定 IP 版本、IP 位址、網路範圍、新增描述，然後按一下 **[Apply.**
 
@@ -75,13 +73,13 @@ ms.locfileid: "60015337"
 
 #### <a name="edit-a-trusted-ip-address"></a>編輯信任的 IP 位址
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往 [位置網路拓撲圖》，然後按一下 [  >  ******信任的 IP？**
-2. 按一下 IP 位址的左側，然後按一下 [編輯>，以 **選取該 IP 位址**。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 [位置網路拓撲圖》，然後按一下 [  >  ******信任的 IP> 定位點。**
+2. 按一下 IP 位址的左側，然後按一下 [編輯」，以 **選取 IP 位址**。
 3. 在 [**編輯信任的 IP 位址**> 窗格中，進行您想要的變更，然後按一下 **[Apply.**
 
 ## <a name="configure-network-settings-using-powershell"></a>使用 PowerShell 設定網路設定
 
-若要完成本節中的步驟，您需要熟悉 PowerShell Cmdlet。 若要深入瞭解，請參閱[powerShell Teams概觀](teams-powershell-overview.md)。
+若要完成本節中的步驟，您需要熟悉 PowerShell Cmdlet。 若要深入瞭解，請參閱[PowerShell Teams概觀](teams-powershell-overview.md)。
 
 ### <a name="define-network-regions"></a>定義網路區域
 
@@ -114,7 +112,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Delhi" -NetworkRegionID "India"
 New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 ```
 
-下表顯示在此範例中定義的網路網站。
+下表顯示此範例中定義的網路網站。
 
 |&nbsp;|網站 1 |網站 2 |
 |---------|---------|---------|
@@ -125,7 +123,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 ### <a name="define-network-subnets"></a>定義網路子網
 
-使用 [New-CsTenantNetworkSubnet](/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) Cmdlet 定義網路子網，並將其與網路網站建立關聯。 每個網路子網只能與一個網站建立關聯。
+使用 [New-CsTenantNetworkSubnet](/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) Cmdlet 定義網路子網，並將其與網路網站建立關聯。 每個網路子網只能與一個網站相關聯。
 
 ```PowerShell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
@@ -144,9 +142,9 @@ New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskB
 |---------|---------|---------|
 |子網識別碼   |    192.168.0.0     |  2001：4898：e8：25：844e：926f：85ad：dd8e     |
 |面具  |     24    |   120      |
-|網站識別碼  | 印度 (裡)  | 網站 2 (海德拉巴)  |
+|網站識別碼  | 在 (裡)  | 網站 2 (海德拉巴)  |
 
-針對多個子網，您可以使用下列腳本來輸入 CSV 檔案。
+對於多個子網，您可以使用下列腳本來輸入 CSV 檔案。
 
 ```PowerShell
 Import-CSV C:\subnet.csv | foreach {New-CsTenantNetworkSubnet –SubnetID $_.Identity -MaskBits $_.Mask -NetworkSiteID $_.SiteID}  

@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bdf14874765a8cd67f0ea7ffcfdcb05358b061b
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: 2d84d42849667c1cd87a90f9cd8b3480b5ed8bbd
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356447"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462387"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -147,7 +147,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 此設定可控制在播放會議錄製內容期間是否提供字幕和謄寫功能。 如果您關閉此功能，則 [**錄製**] 和 [**CC**] 選項在播放會議錄製內容期間無法使用。 開始錄製的人員需要開啟此設定，讓錄製也包含謄寫。
 
 > [!NOTE]
-> 錄製會議謄寫目前僅支援英文 (美國)、英文 (加拿大)、英文 (印度)、英文 (英國)、英文 (澳洲)、英文 (紐西蘭)、德文 (德國)、葡萄牙文 (巴西)、荷蘭文 (荷蘭)、荷蘭文 (比利時)、法文 (法國)、西班牙文 (西班牙)、日文 (日本)、法文 (加拿大)、中文 (粵語、繁體中文)、中文 (國語、簡體中文)、印地文 (印度)、義大利文 (義大利)、韓文 (韓國)、西班牙文 (墨西哥)、瑞典文 (瑞典)、波蘭文 (波蘭)、阿拉伯文 (阿拉伯聯合大公國)、阿拉伯文 (沙烏地阿拉伯)、丹麥文 (丹麥)、芬蘭文 (芬蘭)、挪威文 (挪威) 和俄文 (俄羅斯)。 這些會議記錄會與商務用 OneDrive 和 SharePoint Online 雲端儲存空間中的會議錄製一起儲存。
+> 錄製會議謄寫目前僅支援英文 (美國)、英文 (加拿大)、英文 (印度)、英文 (英國)、英文 (澳洲)、英文 (紐西蘭)、德文 (德國)、葡萄牙文 (巴西)、荷蘭文 (荷蘭)、荷蘭文 (比利時)、法文 (法國)、西班牙文 (西班牙)、日文 (日本)、法文 (加拿大)、中文 (粵語、繁體中文)、中文 (國語、簡體中文)、印地文 (印度)、義大利文 (義大利)、韓文 (韓國)、西班牙文 (墨西哥)、瑞典文 (瑞典)、波蘭文 (波蘭)、阿拉伯文 (阿拉伯聯合大公國)、阿拉伯文 (沙烏地阿拉伯)、丹麥文 (丹麥)、芬蘭文 (芬蘭)、挪威文 (挪威) 和俄文 (俄羅斯)。這些會議記錄會與商務用 OneDrive 和 SharePoint Online 雲端儲存空間中的會議錄製一起儲存。
 
 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來設定 Teams 會議原則，控制啟動錄製的人員是否可以選擇謄寫會議錄製內容。
 
@@ -435,6 +435,33 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 - Value = *Media.Meeting*
 
 若要深入了解 DLP，請參閱文章 [深入了解資料外洩防護](/microsoft-365/compliance/dlp-learn-about-dlp)
+
+## <a name="meeting-recording-diagnostic-tools"></a>會議錄製診斷工具
+  ### <a name="user-cannot-record-meetings"></a>使用者無法錄製會議
+
+如果您是系統管理員，您可以使用下列診斷工具來驗證使用者已正確設定以在 Teams 中錄製會議：
+
+1. 選取 **[執行測試]** 以在 Microsoft 365 系統管理中心填入診斷。 
+
+   > [!div class="nextstepaction"]
+   > [執行測試：會議錄製](https://aka.ms/MeetingRecordingDiag)
+
+2. 在執行診斷窗格中，在 **[使用者名稱或電子郵件]** 欄位中輸入無法記錄會議之使用者的電子郵件，然後選取 **[執行測試]**。
+
+3. 測試會傳回解決任何租用戶或原則設定的最佳後續步驟，以驗證使用者已正確設定以在 Teams 中錄製會議。
+  
+  ### <a name="meeting-record-is-missing"></a>會議記錄遺失
+
+如果您是系統管理員，您可以使用下列診斷工具來驗證會議錄製是否成功完成，且已根據會議識別碼和錄製開始時間上傳至 Stream 或 OneDrive：
+
+1. 選取 **[執行測試]** 以在 Microsoft 365 系統管理中心填入診斷。 
+
+   > [!div class="nextstepaction"]
+   > [執行測試：遺失會議錄製](https://aka.ms/MissingRecordingDiag)
+
+2. 在執行診斷窗格中，在 **[錄製之會議的 URL]** 欄位輸入會議的 URL (通常位於會議邀請中)，以及 [何時錄製會議?] 中的會議日期 **欄位，然後選取 **[執行測試]**。
+
+3. 測試會驗證會議錄製是否成功完成，且已上傳到 Stream 或 OneDrive。
 
 ## <a name="related-topics"></a>相關主題
 

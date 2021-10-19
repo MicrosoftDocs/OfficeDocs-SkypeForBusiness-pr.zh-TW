@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -16,20 +16,24 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何在組織中使用和管理緊急Microsoft Teams，以定義當貴Teams使用者撥打緊急電話時會發生什麼情況。
+description: 瞭解如何在組織中使用及管理緊急Microsoft Teams，以定義當貴組織中Teams使用者撥打緊急電話時會發生什麼情況。
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: c05318f34f7c52570a061aa66644cde4b8ac020c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4b44cf8ae822a3ab390e4247396ff326eb39501
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632087"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465983"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>在 Microsoft Teams
 
-如果貴組織使用[](set-up-calling-plans.md)通話方案或部署[電話系統 直接](direct-routing-landing-page.md)路由，您可以使用 Microsoft Teams 中的緊急通話策略來定義當貴組織的 Teams 使用者撥打緊急電話時會發生什麼情況。 您可以設定指派策略的使用者撥打緊急服務時要通知哪些人，以及如何通知他們。 例如，您可以設定策略設定，以自動通知貴組織的安全電話台，讓他們聆聽緊急電話。  
+**如果貴組織使用 Microsoft 通話方案、運算子 連線 或直接路由做為 [PSTN](pstn-connectivity.md)連接選項，您可以使用 Microsoft Teams 中的緊急通話政策來定義當貴組織的 Teams 使用者撥打緊急電話時會發生什麼情況。**
+
+**下列所有專案均適用于所有 3？**
+
+您可以設定指派策略的使用者撥打緊急服務時要通知哪些人，以及如何通知他們。 例如，您可以設定策略設定，以自動通知貴組織的安全電話台，讓他們聆聽緊急電話。  
 
 您可以到系統管理中心中的語音緊急Microsoft Teams，或使用語音  >  **** Windows PowerShell。 可以將策略指派給使用者和網路 [網站](cloud-voice-network-settings.md)。
 
@@ -46,9 +50,9 @@ ms.locfileid: "58632087"
 3. 輸入原則的名稱和描述。
 4. 設定當您撥打緊急電話時，您希望如何通知貴組織人員 ，通常是安全電話機。 若要這麼做，請在通知 **模式** 下，選取下列其中一項：
     - **僅傳送通知**：Teams聊天訊息會傳送至您指定的使用者和群組。
-    - 以 **靜音** 方式會議且無法取消靜音：Teams 聊天訊息會寄給您指定的使用者和群組，他們可以聆聽 (但無法參與) 來電者與 PSAP 運算子之間的交談。
+    - 以 **靜音** 方式召開且無法取消靜音的會議：Teams 聊天訊息會寄給您指定的使用者和群組，他們可以聆聽 (但無法參與) 來電者與 PSAP 運算子之間的交談。
     - 以 **靜音** 方式會議，但可以取消靜音：Teams 聊天訊息會寄給您指定的使用者和群組，他們可以取消靜音，以聆聽並參與來電者與 PSAP 運算子之間的交談。
-5.  如果您在靜音通知模式中選取了其中一個會議，您可以在 [撥打緊急電話通知的號碼> 方塊中，輸入使用者或群組的 PSTN 電話號碼，以撥打並加入緊急通話。 例如，輸入貴組織安全電話台的號碼，該號碼在撥打緊急電話時會接到來電，然後可以聽取來電。 PSTN 電話無法取消靜音，即使模式設定為 [以靜音方式會議，但 **可以取消靜音**。
+5.  如果您在靜音通知模式中選取了其中一個會議，您可以在 [撥打緊急電話通知的號碼> 方塊中，輸入使用者或群組的 PSTN 電話號碼，以撥打並加入緊急通話。 例如，輸入貴組織安全電話台的號碼，該號碼在撥打緊急電話時會接到來電，然後可以聆聽通話。 PSTN 電話無法取消靜音，即使模式設定為 [以靜音方式會議，但 **可以取消靜音**。
 6. 搜尋並選取一或多個使用者或群組 ，例如貴組織的安全電話台，以在緊急電話撥打時通知。  通知可以寄到使用者、通訊群組和安全性群組的電子郵件地址。 最多可以通知 50 個使用者。
 7. 按一下 **[Apply.**
 

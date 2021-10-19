@@ -1,7 +1,7 @@
 ---
 title: 指派、變更使用者緊急位置的位置
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -16,20 +16,20 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 在本文中，您將瞭解如何為貴組織的使用者指派或變更緊急位置的位置。
+description: 本文將瞭解如何為貴組織的使用者指派或變更緊急位置的位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 146c97be9b416b0e338b6b6c49eeb19171b26cee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1edc7bd6f5a1ea1b7a09f6747c1ee61f7dd74758
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617599"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465973"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>指派或變更使用者緊急位置的位置
 
-當您將電話號碼指派給使用者時，每個使用中電話號碼都必須有相關聯的緊急位置。  (當您在 Office 365 中取得電話號碼或轉接電話號碼時，即會建立位址關聯。) 當您將號碼與緊急位置建立關聯時，您也可以新增位置，在實體位置中提供更精確的位置。 位置可以是使用者所在的樓面、大樓樓面或辦公室號碼。 您可以為指定緊急位置提供無限個位置，如果使用者移至不同的辦公室或建築物，您可以變更位置。 例如，如果使用者從第 34 層移至第 35 層。
-  
-若要瞭解如何取得通話方案及其費用，[請參閱Teams授權](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+當您將電話號碼指派給使用者時，每個使用中電話號碼都必須有相關聯的緊急位置。 **當您在 Microsoft 365 中取得電話號碼、將電話號碼Microsoft 365或從提供者取得電話號碼時，您關聯位址。**
+
+當您將號碼與緊急位置建立關聯時，您也可以新增位置，在實體位置中提供更精確的位置。 位置可以是使用者所在的樓面、大樓樓面或辦公室號碼。 您可以為指定緊急位置提供無限個位置，如果使用者移至不同的辦公室或建築物，您可以變更位置。 例如，如果使用者從第 34 層移至第 35 層。
   
 您可以在系統管理中心指派或變更使用者緊急Microsoft Teams位置，或使用 PowerShell。
 
@@ -37,7 +37,7 @@ ms.locfileid: "58617599"
 
 1. 在系統管理中心的左側導Microsoft Teams，按一下 **[語音電話**  >  **號碼**。
 
-2. 在 [數位 **電話** 頁面上，按一下 [數位> 選項卡，選取清單中的使用者號碼，然後按一下 [**編輯**。
+2. 在 [電話 **頁** 中，按一下 [數位> 選項卡，選取清單中的使用者編號，然後按一下 [**編輯**。
 
 3. 在編輯 **窗格** 的緊急 **位置下**，執行下列其中一項操作：
 

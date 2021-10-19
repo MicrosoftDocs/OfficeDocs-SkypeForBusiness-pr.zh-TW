@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft Teams 中為大型組織設定和測試自動Microsoft Teams。
-ms.openlocfilehash: 50c024854481a30f4a612db6320f51818b6d3b0d
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: a17921eee249d8baf10256e0d0ea17d4462494c0
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249525"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462353"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動話務員
 
@@ -36,7 +36,7 @@ ms.locfileid: "60249525"
 > [!TIP]
 > 本文適用于大型組織。 如果貴組織是小型企業，請改為閱讀設定 [自動話務](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 員 - 小型企業教學課程。
 
-請務必先閱讀自動Teams[](plan-auto-attendant-call-queue.md)和通話佇列方案，並遵循開始使用的步驟，然後再遵循本文中的程式[](plan-auto-attendant-call-queue.md#getting-started)。
+請務必先閱讀自動Teams[](plan-auto-attendant-call-queue.md)和通話佇列的規劃，並遵循開始使用的步驟，然後再遵循本文中的[](plan-auto-attendant-call-queue.md#getting-started)程式。
 
 自動語音機可以根據來電者的輸入，將通話直接路由至下列其中一個目的地： <a name="call-routing-options" ></a>
 
@@ -45,7 +45,7 @@ ms.locfileid: "60249525"
 - **語音應用程式** - 另一個自動語音留言機或通話佇列。  (選擇此目的地時，選擇與自動電話機或通話佇列相關聯的資源帳戶。) 
 - **語音** 信箱 - 與您指定的Microsoft 365群組相關聯的語音信箱。 您可以選擇是否要語音信箱字幕和「請在語音信箱後留言」。 系統提示。
 - **外部電話號碼** - 任何電話號碼。  (請參閱[外部移轉技術詳細資料) 。](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
-- **公告 (音訊)** - 播放音訊檔案。 您上傳的錄製公告訊息，儲存為音訊。WAV、.MP3或 。WMA 格式。 錄製內容不能大於 5 MB。 系統會播放公告，然後返回自動助理功能表。
+- **公告 (音訊)** - 播放音訊檔案。 您上傳的已錄製公告訊息，儲存為音訊。WAV、.MP3或 。WMA 格式。 錄製內容不能大於 5 MB。 系統會播放公告，然後返回自動助理功能表。
 - **公告 (輸入)** - 在郵件中輸入。 您希望系統讀取的文字。 您最多可以輸入 1000 個字元。 系統會播放公告，然後返回自動助理功能表。
 
 當您設定自動語音機時，系統會提示您于各個階段選擇其中一個選項。
@@ -79,13 +79,13 @@ ms.locfileid: "60249525"
 
 ## <a name="call-flow"></a>通話流程
 
-![問候訊息設定螢幕擷取畫面。](media/auto-attendant-call-flow-greeting-message.png)
+![問候語訊息設定螢幕擷取畫面。](media/auto-attendant-call-flow-greeting-message.png)
 
 選擇當自動回應接聽來電時，是否要播放問候語。
 
-如果您選取 **播放音訊檔案**，您可以使用 Upload **按鈕上傳** 儲存為音訊的錄製問候語訊息。WAV、.MP3或 。WMA 格式。 錄製內容不能大於 5 MB。
+如果您選取 **播放音訊檔案**，您可以使用 Upload **按鈕** 上傳儲存為音訊的錄製問候語訊息。WAV、.MP3或 。WMA 格式。 錄製內容不能大於 5 MB。
 
-如果您選取輸入 **問候語訊息** ，當自動 (接聽來電時，系統會朗讀您輸入 (最多 1000 個字元的文字) 自動回應接聽來電。
+如果您選取輸入 **問候** 語訊息，當自動 (接聽來電時，系統會朗讀您輸入) 最多 1000 個字元的文字。
 
 ![通話路由設定螢幕擷取畫面。](media/auto-attendant-call-flow-route-call-message.png)
 
@@ -101,7 +101,7 @@ ms.locfileid: "60249525"
 
 ![撥號鍵選項的螢幕擷取畫面。](media/auto-attendant-call-flow-menu-options-complete.png)
 
-針對撥號選項，將電話鍵臺上的 0-9 鍵指派給其中一個撥號路由目的地。  (系統 (重複)  (返回) 按鍵是由系統保留，無法重新指派 \* \# 。) 
+針對撥號選項，將電話鍵臺上的 0-9 鍵指派給其中一個撥號路由目的地。  (系統 (重複)  (返回) 按鍵，且無法重新指派 \* \# 。) 
 
 鍵的映射不必是連續的。 雖然沒有使用數位 2 鍵，但可以建立對應到選項的按鍵 0、1 和 3 的功能表。
 
@@ -111,7 +111,7 @@ ms.locfileid: "60249525"
 
 - **撥號鍵** - 電話鍵臺上的按鍵，以存取此選項。 如果語音輸入可用，來電者也可以說這個號碼來存取選項。
 
-- **Voice 命令** - 定義來電者可給予存取此選項的語音命令 ，如果已啟用語音輸入。 它可以包含多個字詞，例如「客戶服務」或「營運與理由」。 例如，來電者可以按 2，說出「兩個」，或說「銷售」以選取對應到兩個按鍵的選項。 此文字也會以文字呈現為服務確認提示的文字，例如「將通話轉接至銷售」。
+- **Voice 命令** - 定義來電者可給予存取此選項的語音命令 ，如果已啟用語音輸入。 它可以包含多個字詞，例如「客戶服務」或「營運與理由」。 例如，來電者可以按 2，說出「兩個」，或說「銷售」以選取對應到兩個按鍵的選項。 此文字也會以服務確認提示的文字呈現為語音轉語音，例如「將通話轉接至銷售」。
 
 - **重新導向** 至 - 當來電者選擇此選項時所使用的通話路由目的地。 如果您要重新導向到自動電話機或通話佇列，請選擇與其相關聯的資源帳戶。
 
@@ -121,11 +121,11 @@ ms.locfileid: "60249525"
 
 如果您沒有指派撥號鍵，請選擇目錄 **搜尋的選項**。
 
-**按名稱** 撥號 - 如果您啟用此選項，來電者可以說出使用者的名稱，或在電話鍵臺上輸入。 任何線上使用者或任何使用 商務用 Skype Server 託管于內部部署的使用者，都是合格的使用者，而且可以使用撥號名稱找到。  (您可以設定在撥號範圍頁面上的目錄中包含和不包含 [哪些人](#dial-scope) 。) 
+**按名稱** 撥號 - 如果您啟用此選項，來電者可以說出使用者的名稱，或在電話鍵臺上輸入。 任何線上使用者或任何使用 商務用 Skype Server 託管于內部部署的使用者，都是合格的使用者，而且可以使用名稱撥號。  (您可以設定撥號範圍頁面上的目錄中包含和不包含哪些人。) [](#dial-scope)
 
-**分機撥號** - 如果您啟用此選項，來電者可以撥打其電話分機，與貴組織的使用者聯繫。 任何線上使用者或任何使用 商務用 Skype Server 託管于內部部署的使用者，都是合格的使用者，而且可以使用 **分機撥號。**  (您可以設定在撥號範圍頁面上的目錄中包含和不包含 [哪些人](#dial-scope) 。) 
+**分機撥號** - 如果您啟用此選項，來電者可以撥打其電話分機，與貴組織的使用者聯繫。 任何線上使用者或任何使用 商務用 Skype Server 託管于內部部署的使用者，都是合格的使用者，而且可以使用 **分機撥號找到**。  (您可以設定撥號範圍頁面上的目錄中包含和不包含哪些人。) [](#dial-scope)
 
-您想要提供撥號分機的使用者，需要將分機指定為 Active Directory 或 Azure Active Directory (中定義的下列其中一個電話屬性的一部分Azure Active Directory (請參閱個別或大量新增[](/microsoft-365/admin/add-users/add-users)使用者以瞭解更多資訊。) 
+您想要提供撥號分機的使用者，需要將分機指定為 Active Directory 或 Azure Active Directory (中定義的下列其中一個電話屬性的一部分Azure Active Directory (請參閱個別或大量[](/microsoft-365/admin/add-users/add-users)新增使用者以瞭解更多資訊。) 
 
 - OfficePhone
 - 家用電話
@@ -146,13 +146,13 @@ ms.locfileid: "60249525"
 您可以在系統管理中心或 Microsoft 365 系統管理中心[中Azure Active Directory](https://admin.microsoft.com/)[副檔名](https://aad.portal.azure.com)。 自動電話機和通話佇列最多可能需要 12 小時才能進行變更。
 
 > [!NOTE]
-> 如果您想要同時使用名稱撥號和分機撥號功能，您可以在主自動電話機上指派撥號鍵，以到達啟用名稱撥號的自動總 **機**。 您可以在該自動話務員中指派 1 個按鍵 (沒有與其關聯的字母，) **分機自動** 總機撥號。
+> 如果您想要同時使用名稱撥號和分機撥號功能，您可以在主自動電話機上指派撥號鍵，以到達啟用名稱撥號 **的自動總機**。 您可以在該自動話務員中指派 1 個 (沒有與其關聯的字母，) **分機自動** 總機撥號。
 
 選取目錄搜尋 **選項之後，** 請選取 下 **一步**。
 
 ## <a name="call-flow-for-after-hours"></a>數小時後的通話流程
 
-![日及時數設定後時段的螢幕擷取畫面。](media/auto-attendant-business-hours.png)
+![日時數和時間設定後的螢幕擷取畫面。](media/auto-attendant-business-hours.png)
 
 您可以針對每個自動話務員設定上班時間。 如果未設定上班時間，則一天中所有的天數和所有時數會視為上班時間，因為預設會設定 24/7 排程。 工作時間可以設定為一天中的休息時間，所有未設定為上班時間的時數會視為後小時。 您可以為工作時間設定不同的來電處理選項和問候語。
 
@@ -160,7 +160,7 @@ ms.locfileid: "60249525"
 
 如果您想要為非工作時間的來電者個別進行通話路由，請為每天指定您的上班時間。 選取 **新增時間** 以指定指定一天的陣列時數，例如，指定午餐休息時間。
 
-指定上班時間之後，請選擇您的通話路由選項，以在數小時後使用。 上述指定的上班時間通話路由也提供相同的選項。
+指定上班時間之後，請選擇數小時後的通話路由選項。 上述指定的上班時間通話路由也提供相同的選項。
 
 完成後 **，** 請選取下一步。
 
@@ -180,7 +180,7 @@ ms.locfileid: "60249525"
 
     ![假日通話動作設定螢幕擷取畫面。](media/auto-attendant-holiday-actions.png)
 
-5. 選擇是否要中斷 **連接或****重新導向** 通話。
+5. 選擇是否要中斷 **連接或****重新** 導向通話。
 
 6. 如果您選擇重新導向，請選擇通話的呼叫路由目的地。
 
@@ -194,11 +194,11 @@ ms.locfileid: "60249525"
 
 ## <a name="dial-scope"></a>撥號範圍
 
-![撥號範圍包含及排除選項的螢幕擷取畫面。](media/auto-attendant-dial-scope.png)
+![撥號範圍包含和排除選項的螢幕擷取畫面。](media/auto-attendant-dial-scope.png)
 
-撥號 *範圍* 會定義當來電者使用撥號名稱或撥號分機時，哪些使用者可在目錄中使用。 預設為 **所有線上使用者**，包括貴組織的所有使用者，這些使用者都是線上使用者，或是使用 商務用 Skype Server 託管內部商務用 Skype Server。
+撥號 *範圍* 會定義當來電者使用撥號名稱或撥號分機時，哪些使用者可在目錄中使用。 預設為 **所有線上使用者**，包括貴組織的所有使用者，這些使用者都是線上使用者，或是由內部部署使用者商務用 Skype Server。
 
-您可以選取在包含或排除下的自訂使用者群組，並選擇一或多個Microsoft 365群組、通訊群組清單或安全性群組，以包含或排除特定使用者。  例如，您可能會想要將貴組織的主管排除在撥號目錄中。  (如果使用者同時在兩個清單中，他們將排除在目錄中。) 
+您可以選取在包含或排除下的自訂使用者群組，並選擇一或多個Microsoft 365群組、通訊群組清單或安全性群組，以包含或排除特定使用者。  例如，您可能會想要將貴組織的主管排除在撥號目錄中。  (如果使用者同時在兩個清單中，則他們將會從目錄) 
 
 > [!NOTE]
 > 新使用者最多可能需要 36 小時，才能將名稱列在目錄中。
@@ -215,9 +215,9 @@ ms.locfileid: "60249525"
 
 ![顯示資源帳戶與已指派服務編號的資源帳戶清單螢幕擷取畫面。](media/auto-attendant-resource-account-assigned.png)
 
-當您完成新增資源帳戶後，請選取 **提交** 以完成自動話務組組。
+當您完成新增資源帳戶後，請選取 **提交** 以完成自動總機配置。
 
-請參閱[管理Teams資源](manage-resource-accounts.md)帳戶以瞭解更多資訊。
+請參閱[管理Teams資源帳戶](manage-resource-accounts.md)以瞭解更多資訊。
 
 ## <a name="external-phone-number-transfers---technical-details"></a>外部電話號碼傳輸 - 技術詳細資料
 
@@ -225,16 +225,16 @@ ms.locfileid: "60249525"
 
 - 對於具有通話方案授權或[](calling-plans-for-office-365.md)運算子[連線](operator-connect-plan.md)號碼的資源帳戶，外部轉接電話號碼必須以 E.164 格式輸入 (+[國家/地區代碼][區碼][電話號碼]) 。
 
-- 對於具有 電話系統 授權和直接路由線上語音路由策略的資源帳戶，外部傳輸電話號碼格式取決於會話邊界控制器[ (SBC](direct-routing-connect-the-sbc.md)) 設定。
+- 對於具有授權電話系統直接路由線上語音路由策略的資源帳戶，外部傳輸電話號碼格式取決於會話邊界控制器[ (SBC](direct-routing-connect-the-sbc.md)) 設定。
 
 顯示的外發電話號碼如下：
 
   - 針對通話方案及接線連線號碼，會顯示原始來電者的電話號碼。
-  - 針對直接路由號碼，傳送的號碼是根據 SBC 上的 P-Identityed-identity (PAI) 設定，如下所示：
+  - 針對直接路由號碼，傳送的號碼是根據 SBC 上的 P-Identity (PAI) 設定，如下所示：
     - 如果設為已停用，會顯示原始來電者的電話號碼。 這是預設且建議的設定。
     - 如果設為啟用，會顯示資源帳戶電話號碼。
 
-在混合商務用 Skype環境中，若要將自動轉接電話轉接到 PSTN，請建立一個新的內部部署使用者，將來電轉接設定為 PSTN 號碼。 使用者必須啟用企業語音並指派語音策略。 若要深入瞭解，請參閱[將電話自動轉接到 PSTN。](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
+在混合商務用 Skype環境中，若要將自動通話轉接到 PSTN，請建立一個新的內部部署使用者，將來電轉接設定為 PSTN 號碼。 使用者必須啟用企業語音並指派語音策略。 若要深入瞭解，請參閱[將電話自動轉接到 PSTN。](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>使用 PowerShell 建立自動助理
 
@@ -257,6 +257,19 @@ ms.locfileid: "60249525"
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
 - [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
 - [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
+
+## <a name="auto-attendant-diagnostic-tool"></a>自動助理診斷工具
+
+如果您是系統管理員，您可以使用下列診斷工具來驗證自動話務員是否能夠接聽來電：
+
+1. 選取 **下方的執行** 測試，以在 Microsoft 365 系統管理中填入診斷。 
+
+   > [!div class="nextstepaction"]
+   > [執行測試：Teams聯合](https://aka.ms/TeamsAADiag)
+
+2. 在執行診斷窗格中，在使用者名稱或電子郵件欄位中輸入資源帳戶，然後選取 **執行測試**。
+
+3. 測試會識別租使用者、策略或資源帳戶組組，防止自動話務員接聽來電，並提供步驟以修正已識別的任何問題。
 
 ## <a name="related-topics"></a>相關主題
 
