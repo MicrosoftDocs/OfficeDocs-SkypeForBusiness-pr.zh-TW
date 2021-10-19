@@ -21,12 +21,12 @@ description: 您的 Teams 或 IT 系統管理員可以設定其他網域 (同盟
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0fac6c236fba7b8cc17af2bc4c21211a5160d06e
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: 207c46d37503989dddd8039ccdd0c4cd71d6b276
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127370"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462327"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部存取
 
@@ -163,6 +163,20 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 
 > [!IMPORTANT]
 > 您不需要將任何 **Skype 網域** 新增為允許網域，就能讓 Teams 或商務用 Skype Online 的使用者與組織內部或外部的 Skype 使用者通訊。允許所有 **Skype 網域**。
+
+## <a name="federation-diagnostic-tool"></a>同盟診斷工具
+
+如果您是系統管理員，可以使用下列診斷工具驗證可與同盟 Teams 使用者進行通訊的 Teams 使用者：
+
+1. 選取 [執行測試]**** 以在 Microsoft 365 系統管理中心填入診斷。 
+
+   > [!div class="nextstepaction"]
+   > [執行測試: Teams 同盟](https://aka.ms/TeamsFederationDiag)
+
+2. 在執行診斷窗格中，輸入 **工作階段初始化通訊協定 (SIP) 位址** 和 **同盟租用戶的網域名稱**，然後選取 [執行測試 **]**。
+
+3. 測試會傳回解決任何防止與同盟使用者通訊之租用戶或原則設定的最佳下一個步驟。
+
 
 ## <a name="related-topics"></a>相關主題
 
