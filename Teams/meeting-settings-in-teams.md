@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: 25d66dfc6487d411185e421a7bdef07c1e135156
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dea6c465600229414dba30c0b0adecc7e5a5caad
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730642"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537094"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -37,7 +37,7 @@ ms.locfileid: "58730642"
 
 利用匿名加入，任何人都可以按一下會議邀請中的連結，以匿名使用者的身分加入會議。 若要深入了解，請參閱[在沒有 Teams 帳戶的情況下加入會議](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。
 
-![顯示 Microsoft Teams 標誌的圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+ **使用 Microsoft Teams 系統管理中心**
 
 您必須是 Teams 服務系統管理員才能進行這些變更。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
 
@@ -59,7 +59,7 @@ ms.locfileid: "58730642"
 > [!IMPORTANT]
 > 預設會啟用允許匿名使用者與會議中應用程式互動的設定。
 
-![顯示 Microsoft Teams 標誌的圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+ **使用 Microsoft Teams 系統管理中心**
 
 您必須是 Teams 服務系統管理員才能存取此設定。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
 
@@ -86,7 +86,7 @@ ms.locfileid: "58730642"
 
 ### <a name="customize-your-meeting-invitations"></a>自訂您的會議邀請
 
-![顯示 Microsoft Teams 標誌的圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+ **使用 Microsoft Teams 系統管理中心**
 
 1. 移至系統管理中心。
 2. 在左側導覽中，移至 [會議]  >  [會議設定]。
@@ -111,7 +111,7 @@ ms.locfileid: "58730642"
 > [!IMPORTANT]
 > 如果您在 Microsoft Teams 系統管理中心針對 Teams 服務啟用 QoS 或變更設定，您也必須[將相符設定套用到所有使用者裝置](QoS-in-Teams-clients.md)和所有內部網路裝置，以便對 Teams 中的 QoS 完整實作變更。
 
- ![顯示 Microsoft Teams 標誌的圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+  **使用 Microsoft Teams 系統管理中心**
 1. 移至系統管理中心。
 2. 在左側導覽中，移至 [會議]  >  [會議設定]。
 3. 在 [網路] 底下，執行下列動作：
@@ -121,9 +121,9 @@ ms.locfileid: "58730642"
     - 若要允許將 DSCP 標記用於 QoS，請開啟 [插入即時媒體流量的服務品質 (QoS) 標記]。 您只能選擇是否使用標記；無法為每個流量類型設定自訂標記。 如需有關 DSCP 標記的詳細資訊，請參閱[選取 QoS 實作方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
         > [!NOTE]
         > DSCP 標記通常是透過來源連接埠完成，且 UDP 流量預設會路由至目的地連接埠為 3478 的傳輸轉送。 如果您的公司需要標記目的地連接埠，請連絡支援人員，以啟用使用 UDP 連接埠 3479 (音訊)、3480 (視訊) 和 3481 (共用) 對傳輸轉送的通訊。
-    - 若要指定連接埠範圍，請在 [選取各即時媒體流量類型的連接埠範圍] 旁選取 [指定連接埠範圍]，然後輸入音訊、視訊和螢幕共用的開始和結束連接埠。 若要實作 QoS，需要選取此選項。 
+    - 若要指定連接埠範圍，請在 [選取各即時媒體流量類型的連接埠範圍] 旁選取 [指定連接埠範圍]，然後輸入音訊、視訊和螢幕共用的開始和結束連接埠。若要實作 QoS，需要選取此選項。 
         > [!Note]
-        > 如果 [插入即時媒體流量的服務品質 (QoS) 標記 **]** 已開啟，則必須管理您的連接埠設定。 不會自動管理。
+        > 如果 [插入即時媒體流量的服務品質 (QoS) 標記 **]** 已開啟，則必須管理您的連接埠設定。不會自動管理。
         
         > [!IMPORTANT]
         > 如果您選取 [自動使用任何可用的連接埠]，則會使用 1024 和 65535 之間的可用連接埠。 只有在不實作 QoS 時才使用此選項。
@@ -143,4 +143,4 @@ ms.locfileid: "58730642"
 
 \* 您指派的連接埠範圍不能重疊，且應該彼此相鄰。
 
-在使用 QoS 一段時間後，您將會獲得這三個工作負載相關需求的使用資訊，而且您可以根據自己的特定需求來選擇要進行的變更。 [通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)對此應該有幫助。
+在使用 QoS 一段時間後，您將會獲得這三個工作負載相關需求的使用資訊，而且您可以根據自己的特定需求來選擇要進行的變更。[通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)對此應該有幫助。

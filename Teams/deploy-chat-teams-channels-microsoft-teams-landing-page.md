@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 19296d5def314bdd54af25c27401a9bbd0972cf2
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ed307d811322d2c217a117d192731cf5d42edcb7
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973011"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536704"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -34,11 +34,11 @@ Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組�
 
 若要開始使用，請觀看我們的簡短 Teams 聊天、團隊和頻道影片 (4 分 30 秒)：
 
+<br/>
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-*2019 年 11 月的新增功能*
- - 您現在可以[使用 Advisor for Teams (預覽) 協助您推出 Microsoft Teams](use-advisor-teams-roll-out.md)。Advisor for Teams (預覽) 會引導您完成 Teams 的推出。在您成功推出 Teams 前，它會評估您的 Microsoft 365 或 Office 365 環境，找出可能需要更新或修改的最常用設定。
- - [適用於 IT YouTube 頻道的 Microsoft Teams 基本版](https://aka.ms/MicrosoftTeamsforIT)，包括告訴您如何推出、設定及管理 Teams 的簡短 (8-10 分鐘) 影片。
+您可以[使用 Advisor for Teams 協助您推出 Microsoft Teams](use-advisor-teams-roll-out.md)。Advisor for Teams 會引導您完成 Teams 的推出。在您成功推出 Teams 前，它會評估您的 Microsoft 365 環境，找出可能需要更新或修改的最常用設定。
 
 > [!TIP]
 > 建議您在您的 Teams 初始推出中包含我們的精選應用程式，例如 Planner。在開始推動 Teams 的採用時，則新增其他[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
@@ -102,7 +102,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 
 ### <a name="guest-access"></a>來賓存取
 
-Teams 中的來賓存取可讓組織外部的個人存取團隊和頻道。 您可使用來賓存取設定來控制來賓可否使用的功能。 來賓存取依預設為開啟。 若要深入了解，請參閱 [Teams 中的來賓存取](./guest-access.md)。
+Teams 中的來賓存取可讓組織外部的人員存取 Teams 和頻道。您可以使用來賓存取設定來控制來賓可以或不能使用的功能。來賓存取依預設為開啟。若要深入了解，請參閱 [Teams 中的來賓存取](./guest-access.md)。
 
 > [!NOTE]
 > 若要深入了解外部存取和來賓存取，請參閱這裡 - [在 Microsoft Teams 中與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)。

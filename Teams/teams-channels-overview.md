@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6002534362126c2cc16954c7e82c865166776c0b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 34c255dab5f2f231735abeba9a03ed091d10c205
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731942"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536564"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的團隊和頻道概覽
 
@@ -43,7 +43,7 @@ ms.locfileid: "58731942"
 - **頻道** 是團隊內的專用區段，可依據特定主題、專案或訓練等適合團隊的分類來讓交談保持在井然有序的狀態中！ 您在頻道中共用的檔案 (位於 [檔案] 索引標籤上) 會儲存在 SharePoint 中。 如需詳細資訊，請參閱 [SharePoint Online 和商務用 OneDrive 如何與 Teams 互動](SharePoint-OneDrive-interact.md)。
 
     - 頻道是指交談發生的位置，以及實際完成工作的位置。 您可以為所有團隊成員開啟頻道，或將頻道設為私人頻道 (如果您需要挑選對象)。 標準頻道是團隊中每個人都可參與的頻道，而[私人頻道](private-channels.md)會限制僅與團隊內一小群人員交談。
-    - 頻道若以包含索引標籤、連接器和 Bot 的應用程式進行擴充，則其對於團隊成員的作用，將最具價值。 若要深入了解，請參閱 [Teams 中的應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
+    - 頻道若以包含索引標籤、連接器和 Bot 的應用程式進行擴充，則其對於團隊成員的作用，將最具價值。如需深入了解，請參閱 [Teams 中的應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
     
 如需使用團隊和頻道的說明，請參閱[團隊和頻道](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499)。
 
@@ -73,11 +73,11 @@ Teams 中的兩個主要角色如下：
 
 **團隊設定** 
 
-團隊擁有者可以直接在 Teams 中管理整個團隊內的設定。 設定包括新增團隊圖片、設定團隊成員的權限以建立標準和 [私人頻道](private-channels.md)、新增索引標籤和連接器、以 @ 提及整個團隊或頻道，以及使用 Gif、貼紙和 Meme。
+團隊擁有者可以直接在 Teams 中管理整個團隊內的設定。設定包括新增團隊圖片、設定團隊成員的權限以建立標準和 [私人頻道](private-channels.md)、新增索引標籤和連接器、以 @ 提及整個團隊或頻道，以及使用 Gif、貼紙和 Meme。
 
 如果您是 Microsoft 365 中的 Teams 系統管理員，您可以在 Teams 系統管理中心中存取全系統的設定。 這些設定可以影響團隊擁有者可在其團隊設定底下看到的選項和預設值。 例如，您可以啟用預設的「一般」頻道，在整個團隊中發佈公告、進行討論和提供資源，這些都會顯示在所有團隊中。
 
-根據預設，所有使用者都有建立團隊的權限。 若要修改此內容，請參閱[在 Teams 中指派角色和權限](assign-roles-permissions.md)。
+根據預設，所有使用者都有建立團隊的權限。如需修改此內容，請參閱[在 Teams 中指派角色和權限](assign-roles-permissions.md)。
 
 為了讓使用者與 Teams 接觸而建立早期規劃活動的其中一個重點是，這可協助使用者思考並了解 Teams 可如何加強他們日常生活中的共同作業。 藉由與其他人交談，協助他們選取目前以零碎方式進行共同作業的商務案例。 透過相關索引標籤將他們聚集在頻道中，以協助他們完成工作。 Teams 最強的使用案例之一就是任何跨組織的程序。
 
@@ -111,7 +111,7 @@ Teams 非常適合用來打破組織中的隔閡，以及建立跨功能性的�
 
 ## <a name="org-wide-teams"></a>全組織團隊
 
-如果您組織的使用者不到 5000 人，您可以建立全組織團隊。 全組織團隊提供自動化方式，讓組織中的每個人都成為單一團隊的一部分來進行共同作業。 如需詳細資訊 (包括建立及管理組織內團隊的最佳做法)，請參閱[在 Microsoft Teams 中建立全組織團隊](create-an-org-wide-team.md)。
+如果您組織的使用者不到 10,000 人，您可以建立全組織團隊。 全組織團隊提供自動化方式，讓組織中的每個人都成為單一團隊的一部分來進行共同作業。 如需詳細資訊 (包括建立及管理組織內團隊的最佳做法)，請參閱[在 Microsoft Teams 中建立全組織團隊](create-an-org-wide-team.md)。
 
 ## <a name="next-steps"></a>後續步驟
 
