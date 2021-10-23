@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d84d42849667c1cd87a90f9cd8b3480b5ed8bbd
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: a4008aa9f69f525e3fbbeb6fd7596822d7ac9be8
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462387"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536894"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -263,7 +263,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 > 
 > 我們會提供此功能在未來如何執行的資訊，因此您可以事先規劃這項變更並修改 Teams 原則設定。
 >
-> 尚無法設定 CMD 預先變更 Teams 中的預設到期設定。  當設定可以供修改時，我們會發佈一則更新的訊息中心文章。
+> 用於在 Teams 中搶先變更預設到期設定的命令目前正在部署中，但您可以在 PowerShell 中查看該屬性。 該設定目前在 Teams 系統管理中心中不可用。 在我們啟動該功能前的至少 30 天，將在訊息中心文章中提供和傳達這些設定。
 >
 >
 
@@ -309,14 +309,20 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 **系統管理員如何變更到期日?**
   
-系統管理員可以在功能發行前變更 PowerShell 或 Teams 系統管理中心的預設到期設定。 **這項設定尚無法進行修改**。 當設定可以進行修改時，我們將會發佈更新的郵件中心文章。 當此功能啟動時，系統管理員可以在 Teams 系統管理中心變更此設定。 變更到期設定只會從該時間點起影響新建立之 TMR。 這不會影響該日期之前進行的任何錄製。 
+系統管理員可以在功能發行前變更 PowerShell 或 Teams 系統管理中心的預設到期設定。 變更到期設定只會影響從該時間之後新建立的 TMR。 這不會影響該日期之前進行的任何錄製。 新錄製內容在功能發行之前不會自動到期，即使您可以在功能發行之前設定原則内容。
 
-到期日值可如以下方式設定：
+到期日值可設定如下：
   
 - 值可以是從 1 到 9,999。
 - 值也可以是 -1，將 TMR 設為永不過期。 
  
 在此功能釋出之前，系統管理員無法變更已上傳至 OneDrive 或 SharePoint 的現有 TMR 到期日。 這可保護擁有 TMR 的使用者意圖。
+  
+若要變更租用戶的預設自動到期行為，請在 PowerShell 中修改以下屬性。 在本範例中，預設值變更為 50 天。
+ 
+Set-CsTeamsMeetingPolicy -Identity Global -**New** MeetingRecordingExpirationDays 50
+
+在 Teams 系統管理中心中變更預設設定的功能將在稍後部署，根據預設，至少在我們啟用自動到期功能前的 30 天。
   
 **系統管理員可以將 TMR 設定為永不過期嗎？**
   
@@ -459,7 +465,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
    > [!div class="nextstepaction"]
    > [執行測試：遺失會議錄製](https://aka.ms/MissingRecordingDiag)
 
-2. 在執行診斷窗格中，在 **[錄製之會議的 URL]** 欄位輸入會議的 URL (通常位於會議邀請中)，以及 [何時錄製會議?] 中的會議日期 **欄位，然後選取 **[執行測試]**。
+2. 在執行診斷窗格中，在 **[錄製之會議的 URL]** 欄位輸入會議的 URL (通常位於會議邀請中)，以及 [何時錄製會議?] 中的會議日期** 欄位然後選取 **執行測試**。
 
 3. 測試會驗證會議錄製是否成功完成，且已上傳到 Stream 或 OneDrive。
 
