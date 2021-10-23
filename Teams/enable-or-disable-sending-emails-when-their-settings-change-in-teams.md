@@ -20,17 +20,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: '瞭解如何啟用或停用Skype釘變更或預設會議號碼變更等設定時，將電子郵件傳送給使用者Microsoft Teams。 '
-ms.openlocfilehash: f81572feb976ab68a6a65631ec772ec4421f2b1e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: '瞭解如何啟用或停用Skype針變更或預設會議號碼變更等設定時，將電子郵件傳送給使用者Microsoft Teams。 '
+ms.openlocfilehash: fa52306afbee534b52e9bfdbd304a22cda395704
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727442"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537224"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>啟用或停用在音訊會議設定變更時傳送Microsoft Teams
 
-啟用音訊會議時，系統會自動以電子郵件通知使用者。 不過，有時候您可能會想要減少寄給使用者的電子郵件Microsoft Teams數量。 在這種情況下，您可以停用傳送電子郵件。
+使用者啟用音訊會議時，會自動收到電子郵件通知。 不過，有時候您可能會想要減少寄給使用者的電子郵件Microsoft Teams數量。 在這種情況下，您可以停用傳送電子郵件。
   
 如果您停用傳送電子郵件，音訊會議電子郵件將不會傳送給使用者，包括使用者啟用或停用音訊會議時、其 PIN 重設時間，以及會議 ID 和預設會議電話號碼變更時的電子郵件。
   
@@ -40,7 +40,7 @@ ms.locfileid: "58727442"
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>何時會將電子郵件寄給您的使用者？
 
-- 啟用音訊會議後，會向貴組織的使用者數封電子郵件：
+- 啟用音訊會議後，會將數封電子郵件寄給貴組織的使用者：
     
   - 當 **音訊會議授權** 指派給他們時。
     
@@ -57,15 +57,15 @@ ms.locfileid: "58727442"
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>啟用或停用電子郵件，禁止將電子郵件寄給使用者
 
-您可以使用電子郵件Microsoft Teams或Windows PowerShell來啟用或停用發送給使用者的電子郵件。
+您可以使用電子郵件Microsoft Teams或Windows PowerShell來啟用或停用已寄給使用者的電子郵件。
 
-![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+ **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。 
 
 2. 在 [會議橋接器 **」** 頁面頂端，按一下 [ **橋接器設定>**。 
 
-3. 在橋接器 **設定窗格中** ，啟用或停用在使用者的撥入設定變更時自動 **傳送電子郵件給使用者**。
+3. 在橋接器 **設定窗格中** ，啟用或停用當使用者的撥入設定變更時自動 **傳送電子郵件給使用者**。
 
 4. 按一下 [儲存]。
 
@@ -83,7 +83,7 @@ Set-CsOnlineDialInConferencingTenantSettings -AutomaticallySendEmailsToUsers $tr
 
 您可以使用 [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings) 來管理貴組織的其他設定，包括電子郵件。
 
-請參閱[powerShell Microsoft Teams，](/powershell/module/teams/?view=teams-ps)以瞭解更多資訊。
+詳細資訊[Microsoft Teams PowerShell 參考](/powershell/module/teams/?view=teams-ps)。
 
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
@@ -92,7 +92,7 @@ Windows PowerShell管理使用者，以及允許或不允許使用者執行哪�
     
   - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用Office 365管理Windows PowerShell方法Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 如要進一Windows PowerShell，請參閱[powerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams以瞭解更多資訊。
     

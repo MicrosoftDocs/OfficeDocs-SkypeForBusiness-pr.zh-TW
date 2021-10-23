@@ -1,5 +1,5 @@
 ---
-title: 讓使用者錄製會議名稱
+title: 允許使用者錄製會議名稱
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,24 +21,24 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 瞭解如何啟用或停用使用者加入會議時，是否可以在 Microsoft Teams。
-ms.openlocfilehash: fdf3f4dc973c199df7cacbe1f5399d21c5d6f170
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 瞭解如何啟用或停用使用者是否可在加入會議時錄製其Microsoft Teams。
+ms.openlocfilehash: 4b78430ba3cc0d776176876235f2cefa5daa631d
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728192"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536694"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-microsoft-teams"></a>讓使用者在加入會議時記錄其Microsoft Teams
 
 當您在 Microsoft 365 或 Office 365 中設定音訊會議時，您會收到電話號碼和所謂的音訊會議橋接器。 會議橋接器可以包含一或多個電話號碼，可以是專用或共用的電話號碼。
   
-會議橋接器會針對使用電話撥入會議的使用者接聽電話。 會議橋接器會以自動語音應答的語音提示來接聽來電者，然後視他們的設定播放通知、要求來電者錄製其名稱，以及設定會議召集人的 PIN 安全性。 PIN 會提供給會議召集人，讓他們可以開始會議。 不過，您可以進行設定，讓會議不需要 PIN。
+會議橋接器會針對使用電話撥入會議的使用者接聽電話。 會議橋接器會從自動語音應答接聽來電者語音提示，然後視他們的設定播放通知、要求來電者錄製其名稱，以及設定會議召集人的 PIN 安全性。 PIN 會提供給會議召集人，讓他們可以開始會議。 不過，您可以進行設定，讓會議不需要 PIN。
 
   
 ## <a name="set-whether-callers-should-record-their-name"></a>設定來電者是否應該錄製其名稱
 
-![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+ **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。 
 
@@ -59,7 +59,7 @@ Windows PowerShell管理使用者，以及允許或不允許使用者執行哪�
     
   - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-  - [使用Office 365管理Windows PowerShell方法Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+  - [使用 Office 365 管理Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
 如要進一Windows PowerShell，請參閱[powerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams以瞭解更多資訊。
   

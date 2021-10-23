@@ -21,15 +21,15 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: 瞭解如何在 Microsoft Teams 中傳送包含其音訊會議資訊Microsoft Teams。
-ms.openlocfilehash: 20050f2e4c0e2c8905b552e914c39b72de63c439
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 瞭解如何在 Microsoft Teams 中傳送包含其音訊會議資訊的電子郵件。
+ms.openlocfilehash: c268c475e254bcac9a4eb579bc971705d68698aa
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733232"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536674"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>將電子郵件傳送給使用者，並將他們的音訊會議資訊Microsoft Teams
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>將電子郵件傳送給使用者，並將他們的音訊會議資訊傳送Microsoft Teams
 
 有時候Microsoft Teams使用者可能需要您傳送音訊會議資訊給他們。 您可以按一下使用者屬性下的透過 **電子郵件** 傳送會議資訊，以執行此操作。 當您傳送此電子郵件時，它會包含所有音訊會議資訊，包括：
   
@@ -40,14 +40,14 @@ ms.locfileid: "58733232"
    
 以下是所寄電子郵件的範例：
   
-![電話撥入式會議電子郵件訊息的範例。](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![電話撥入式會議電子郵件訊息範例。](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>傳送包含音訊會議資訊的電子郵件給使用者
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
+###  <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
 1. 在左側導覽中， **按一下 [使用者**」，然後從可用使用者清單中選取使用者。
 

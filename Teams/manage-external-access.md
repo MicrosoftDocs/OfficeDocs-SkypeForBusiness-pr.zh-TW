@@ -21,12 +21,12 @@ description: 您的 Teams 或 IT 系統管理員可以設定其他網域 (同盟
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 207c46d37503989dddd8039ccdd0c4cd71d6b276
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 27ce250a66bd6443419c670d7b0b8b7e26703e5d
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462327"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536514"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部存取
 
@@ -67,7 +67,7 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 
 ## <a name="allow-or-block-domains"></a>允許或封鎖網域
 
-![顯示 Microsoft Teams 標誌的圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+  **使用 Microsoft Teams 系統管理中心**
 
 允許特定網域
 
@@ -103,7 +103,7 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 
 請按照這些步驟，讓貴組織的 Teams 使用者可以和 Skype 使用者聊天和通話。 Teams 使用者便可以搜尋 Skype 使用者，並開始一對一的純文字交談或進行音訊/視訊通話，反之亦然。
 
-![顯示 Microsoft Teams 標誌的圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+  **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側導覽中，移至 **[使用者]** > **[外部存取]**.
 

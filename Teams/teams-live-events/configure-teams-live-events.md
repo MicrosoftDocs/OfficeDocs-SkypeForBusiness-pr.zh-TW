@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d1d1608bda574e504e6985ee55c8f06607f710a4
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: a1c25ed5b00adf162ceb5d75d9207e43e489f3c6
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046039"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536524"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>在 Microsoft Teams
 
@@ -41,9 +41,9 @@ ms.locfileid: "60046039"
 
 此 URL 會顯示給即時活動出席者。 新增貴組織的支援 URL，讓出席者在即時活動期間與支援人員聯繫。
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示標誌圖示Microsoft Teams圖示。](../media/teams-logo-30x30.png) 使用 Microsoft Teams 系統管理中心
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在左側流覽中，前往 **會議**  >  **即時活動設定**。
+1. 在左側流覽中，前往 **會議**  >  **Live 事件設定**。
 2. 在 **支援 URL** 下，輸入貴組織的支援 URL。
 
     ![系統管理中心即時活動的支援 URL 設定。](../media/teams-live-events-settings-supporturl.png "即時活動支援 URL Teams螢幕擷取畫面")
@@ -60,9 +60,9 @@ Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}”
 
 如果您透過 Microsoft 影片傳遞合作夥伴購買並設定軟體定義的網路 (SDN) 解決方案或企業內容傳遞網路 (eCDN) 解決方案，請設定 Teams 中的即時事件提供者。 
 
-### <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![顯示標誌圖示Microsoft Teams圖示。](../media/teams-logo-30x30.png) 使用 Microsoft Teams系統管理中心，
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在左側流覽中，前往 **會議**  >  **即時活動設定**。
+1. 在左側流覽中，前往 **會議**  >  **Live 事件設定**。
 2. 在 **協力廠商視訊發佈提供者下**，完成下列操作： 
 
     ![系統管理中心的協力廠商視音訊發佈提供者設定。](../media/teams-live-events-settings-distribution-provider-new.png "即時活動的協力廠商視音訊發佈提供者設定螢幕擷取畫面")

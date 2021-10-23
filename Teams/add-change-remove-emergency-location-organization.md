@@ -1,7 +1,7 @@
 ---
 title: 新增、變更、移除緊急位置
-author: cichur
-ms.author: v-cichur
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: jastark, roykuntz
 ms.topic: article
@@ -18,29 +18,24 @@ f1.keywords:
 - NOCSH
 description: '瞭解如何在系統管理中心新增、變更或移除組織的緊急Microsoft Teams位置。 '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e6523a3a3f19b2c3145bb6e89f47029c4d982ab1
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 601d8ce50d5fcf06574f08abb2c78c73a40fefda
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465789"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536534"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>新增、變更或移除貴組織的緊急位置
 
-**無論您選擇 [何種 PSTN](pstn-connectivity.md)連接選項 ，例如 Microsoft 通話方案、連線或直接路由，緊急位置都可以與電話號碼相關聯。不過，根據您的 PSTN 連接選項，位置需求可能會有所不同。**
+無論您選擇[何種 PSTN](pstn-connectivity.md)連接選項 ，例如 Microsoft 通話方案、連線或直接路由，緊急位置都可以與電話號碼相關聯。 不過，根據您的 PSTN 連接選項，位置需求可能會有所不同。
 
-**針對通話方案，** 緊急位置必須與電話號碼相關聯，但發生這種情況時，可能會因國家/地區而異。 例如，在美國，當您將電話號碼指派給使用者時，您必須建立緊急位置的關聯。 在英國，當您從目前服務提供者取得電話號碼或Microsoft 365電話號碼時，您必須將緊急位置與電話號碼建立關聯。
+**針對通話方案，** 緊急位置必須與電話號碼相關聯，但發生這種情況時，可能會因國家/地區而異。 例如，在美國，當您將電話號碼指派給使用者時，您必須建立緊急位置的關聯。 在英國，當您從目前服務提供者取得電話號碼或轉接電話號碼時，您必須將緊急位置與電話號碼建立關聯Microsoft 365或移轉電話號碼。
 
-**針對運算子連線， ...**
-
-**針對直接路由...**
-
-**這是否適用于所有 3 個？**
-無論您位於哪個國家/地區，都可以在緊急位置新增地點或地點，並移除緊急位置。 根據貴組織中實際位置的數量，您可以建立建築物、樓層和辦公室的位置。 請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)。
+無論您位於哪個國家/地區，都可以在緊急位置新增地點或地點，並移除緊急位置。 根據貴組織實體位置的數量，您可以建立建築物、樓層和辦公室的位置。 請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)。
 
 您可以在系統管理中心或使用 PowerShell 管理Microsoft Teams組織的緊急位置。
 
-**若要指派緊急位置，使用者、電話號碼和緊急位置必須位於同一個國家/地區。**  詳細資訊，請參閱指派 [或變更使用者的緊急位置](assign-change-emergency-location-user.md)。
+若要指派緊急位置，使用者、電話號碼和緊急位置必須位於同一個國家/地區。  詳細資訊，請參閱指派 [或變更使用者的緊急位置](assign-change-emergency-location-user.md)。
   
 ## <a name="add-an-emergency-location"></a>新增緊急位置
 

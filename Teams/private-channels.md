@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的私人頻道。
-ms.openlocfilehash: 5d942e268639e30a95878485a931cf1af5be87d5
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 1f86ceba18a234d7b3a1f41ebdbfe58c777beedf
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045689"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536554"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人頻道
 
@@ -93,7 +93,6 @@ Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空�
 
 > [!NOTE]
 > 只有具有擁有者或成員權限的 Microsoft Teams 使用者才能存取私人頻道網站的內容。
-> 新 SharePoint 系統管理中心的 [使用中網站] 頁面中不包含私人頻道 SharePoint 網站。
 > 2021 年 6 月 28 日之後建立的私人頻道 SharePoint 網站將會有自訂範本識別碼 TEAMCHANNEL#1。
 
 私人頻道網站會同步處理資料分類，並繼承父系小組網站中的來賓存取權限。 網站擁有者和成員群組的成員資格，會與 Teams 內私人頻道的成員資格保持同步。 無法透過 SharePoint 獨立管理私人頻道網站的網站權限。 

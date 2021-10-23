@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c28a79ddd3608e2e10d3e722577fc9e8d49334cb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 716a18efda2c2c7f55adf68314dae4b1e07e387b
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727812"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537054"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>登入 Microsoft Teams
 
@@ -119,7 +119,7 @@ Windows 和 macOS 上的 Teams 應用程式可支援限制登入組織的裝置�
 >1. 原則只會限制登入。它不會限制使用者在其他 Azure AD 租用戶中受邀為來賓，或切換到其他租用戶 (其中使用者已受邀為來賓)。
 >2. 原則需要 Windows 版 Teams 版本 1.3.00.30866 或更新版本，以及 macOS 版 Teams 版本 1.3.00.30882 (於 2020 年 11 月中發行)。
 
-**適用於 Windows** 系統管理範本檔案 (ADMX/ADML) 的原則可從 [下載中心](https://www.microsoft.com/download/details.aspx?id=49030) 取得 (系統管理範本檔案中的原則設定描述性名稱為 [將 Teams 的登入限制為特定租用戶中的帳戶]) 提供。 此外，您可以在 Windows 登錄中手動設定金鑰：
+**適用於 Windows** 系統管理範本檔案 (ADMX/ADML) 的原則可從 [下載中心](https://www.microsoft.com/download/details.aspx?id=49030) 取得 (系統管理範本檔案中的原則設定描述性名稱為 [將 Teams 的登入限制為特定租用戶中的帳戶]) 提供。此外，您可以在 Windows 登錄中手動設定金鑰：
 
 - 值名稱：RestrictTeamsSignInToAccountsFromTenantList
 - 值類型：字串
@@ -145,10 +145,8 @@ Teams Android 應用程式現在支援全域登入，為第一線員工提供輕
 
 ## <a name="urls-and-ip-address-ranges"></a>URL 和 IP 位址範圍
 
-Teams 需要連線到網際網路。 若要瞭解客戶在 Office 365 方案、政府和其他雲端中使用 Teams 能夠連線的端點，請參閱 [Office 365 URL 和 IP 位址範圍](/office365/enterprise/urls-and-ip-address-ranges)。
+Teams 需要連線到網際網路。若要了解客戶在 Office 365 方案、政府和其他雲端中使用 Teams 能夠連線的端點，請參閱 [Office 365 URL 和 IP 位址範圍](/office365/enterprise/urls-and-ip-address-ranges)。
 
-> [!IMPORTANT]
-> Teams 目前要求所有使用者取得Google ssl.gstatic.com 服務的存取權 (TCP 通訊埠 443)，即使您未使用 Gstatic 也是一樣。 Teams 很快會移除此要求 (2020 年初)，我們到時候也會更新本文。
 
 ## <a name="related-topics"></a>相關主題
 

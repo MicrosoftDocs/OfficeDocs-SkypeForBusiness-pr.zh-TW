@@ -16,26 +16,20 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 在本文中，您將瞭解如何為貴組織的使用者指派或變更緊急位置。
+description: 本文將瞭解如何為貴組織的使用者指派或變更緊急位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5395c74bfab124cb1036d696dd3613c920bed1e9
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 905e0e66555f908e98368d592905e98b54db059a
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465783"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537284"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>指派或變更使用者的緊急位置
 
-**下列專案是否適用于所有 3 人？**
+緊急位置必須指派給每個電話號碼或使用者。 有關緊急位址和位置的資訊，請參閱什麼是緊急位置、地點和 [通話路由？](./what-are-emergency-locations-addresses-and-call-routing.md)。
 
-**緊急位置必須指派給每個電話號碼或使用者。有關緊急位址和位置的資訊，請參閱什麼是緊急位置、地點和 [通話路由？](./what-are-emergency-locations-addresses-and-call-routing.md)。**
-
-**針對 Microsoft 通話方案，在歐盟國家/地區，當您從 Microsoft 365 取得電話號碼或將電話號碼轉接到 Microsoft 365 時，緊急位置會與電話號碼相關聯。在美國，緊急位置會與指派給使用者的電話號碼相關聯。如果指派給緊急位址的使用者移至新位置，可以變更緊急位址。**
-
-**針對運算子連線， ...**
-
-**針對直接路由,...**
+針對 Microsoft 通話方案，在歐盟國家/地區，當您從 Microsoft 365 取得電話號碼或將電話號碼轉接到 Microsoft 365 時，緊急位置會與電話號碼相關聯。 在美國，緊急位置會與指派給使用者的電話號碼相關聯。 如果指派給緊急位址的使用者移至新位置，可以變更緊急位址。
   
 您可以在系統管理中心指派或變更使用者的緊急Microsoft Teams，或使用 PowerShell。
 

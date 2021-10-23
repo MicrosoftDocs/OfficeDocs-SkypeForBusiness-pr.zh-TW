@@ -22,21 +22,21 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft Teams 中為大型組織設定和測試自動Microsoft Teams。
-ms.openlocfilehash: a17921eee249d8baf10256e0d0ea17d4462494c0
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 28f3334ed2ddfdff8e43ba7853f6a4d279211b96
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462353"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536904"
 ---
-# <a name="set-up-an-auto-attendant"></a>設定自動話務員
+# <a name="set-up-an-auto-attendant"></a>設定自動機務員
 
 自動話務員可讓人打電話給您的組織，並流覽功能表系統，與正確的部門、通話佇列、人員或接線生通話。 您可以使用系統管理中心或 PowerShell 為貴組織Microsoft Teams自動助理。
 
 > [!TIP]
-> 本文適用于大型組織。 如果貴組織是小型企業，請改為閱讀設定 [自動話務](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 員 - 小型企業教學課程。
+> 本文適用于大型組織。 如果貴組織是小型企業，請改為閱讀設定自動話務員 [- 小型企業](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb) 教學課程。
 
-請務必先閱讀自動Teams[](plan-auto-attendant-call-queue.md)和通話佇列的規劃，並遵循開始使用的步驟，然後再遵循本文中的[](plan-auto-attendant-call-queue.md#getting-started)程式。
+請務必先閱讀自動Teams[](plan-auto-attendant-call-queue.md)和通話佇列方案，並遵循開始使用的步驟，然後再遵循本文中的程式[](plan-auto-attendant-call-queue.md#getting-started)。
 
 自動語音機可以根據來電者的輸入，將通話直接路由至下列其中一個目的地： <a name="call-routing-options" ></a>
 
@@ -50,7 +50,7 @@ ms.locfileid: "60462353"
 
 當您設定自動語音機時，系統會提示您于各個階段選擇其中一個選項。
 
-若要設定自動語音Teams，請在系統管理中心展開 **語音**，選取自動語音留言，**然後選取新增**。 
+若要設定自動語音Teams，請在系統管理中心展開 **語音**，選取自動語音留言，然後 **選取新增**。
 
 ## <a name="video-demonstration"></a>影片示範
 
@@ -85,7 +85,7 @@ ms.locfileid: "60462353"
 
 如果您選取 **播放音訊檔案**，您可以使用 Upload **按鈕** 上傳儲存為音訊的錄製問候語訊息。WAV、.MP3或 。WMA 格式。 錄製內容不能大於 5 MB。
 
-如果您選取輸入 **問候** 語訊息，當自動 (接聽來電時，系統會朗讀您輸入) 最多 1000 個字元的文字。
+如果您選取輸入 **問候語訊息** ，當自動 (接聽來電時，系統會朗讀您輸入) 最多 1000 個字元的文字。
 
 ![通話路由設定螢幕擷取畫面。](media/auto-attendant-call-flow-route-call-message.png)
 
@@ -101,7 +101,7 @@ ms.locfileid: "60462353"
 
 ![撥號鍵選項的螢幕擷取畫面。](media/auto-attendant-call-flow-menu-options-complete.png)
 
-針對撥號選項，將電話鍵臺上的 0-9 鍵指派給其中一個撥號路由目的地。  (系統 (重複)  (返回) 按鍵，且無法重新指派 \* \# 。) 
+針對撥號選項，將電話鍵臺上的 0-9 鍵指派給其中一個撥號路由目的地。  (系統 (重複)  (上) 按鍵會由系統保留，無法 \* \# 重新指派。) 
 
 鍵的映射不必是連續的。 雖然沒有使用數位 2 鍵，但可以建立對應到選項的按鍵 0、1 和 3 的功能表。
 
@@ -143,24 +143,24 @@ ms.locfileid: "60462353"
 - 範例 2：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
 - 範例 3：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-您可以在系統管理中心或 Microsoft 365 系統管理中心[中Azure Active Directory](https://admin.microsoft.com/)[副檔名](https://aad.portal.azure.com)。 自動電話機和通話佇列最多可能需要 12 小時才能進行變更。
+您可以在系統管理中心或 Microsoft 365 系統管理中心[設定Azure Active Directory](https://admin.microsoft.com/)[副檔名](https://aad.portal.azure.com)。 自動電話機和通話佇列最多可能需要 12 小時才能進行變更。
 
 > [!NOTE]
-> 如果您想要同時使用名稱撥號和分機撥號功能，您可以在主自動電話機上指派撥號鍵，以到達啟用名稱撥號 **的自動總機**。 您可以在該自動話務員中指派 1 個 (沒有與其關聯的字母，) **分機自動** 總機撥號。
+> 如果您想要同時使用名稱撥號和分機撥號功能，您可以在主自動電話機上指派撥號鍵，以到達啟用名稱撥號的自動總 **機**。 您可以在該自動話務員中指派 1 個按鍵 (沒有與其關聯的字母，) **分機自動** 總機撥號。
 
 選取目錄搜尋 **選項之後，** 請選取 下 **一步**。
 
 ## <a name="call-flow-for-after-hours"></a>數小時後的通話流程
 
-![日時數和時間設定後的螢幕擷取畫面。](media/auto-attendant-business-hours.png)
+![日及時數設定後時段的螢幕擷取畫面。](media/auto-attendant-business-hours.png)
 
-您可以針對每個自動話務員設定上班時間。 如果未設定上班時間，則一天中所有的天數和所有時數會視為上班時間，因為預設會設定 24/7 排程。 工作時間可以設定為一天中的休息時間，所有未設定為上班時間的時數會視為後小時。 您可以為工作時間設定不同的來電處理選項和問候語。
+您可以針對每個自動話務員設定上班時間。 如果未設定上班時間，則一天中所有的天數和所有時數會視為上班時間，因為預設會設定 24/7 排程。 工作時間可以設定為一天中的休息時間，所有未設定為上班時間的時數會視為工作時間之後。 您可以為工作時間設定不同的來電處理選項和問候語。
 
 根據您如何配置自動電話機和通話佇列，您可能只需要為具有直接電話號碼的自動電話機指定後通話路由。
 
 如果您想要為非工作時間的來電者個別進行通話路由，請為每天指定您的上班時間。 選取 **新增時間** 以指定指定一天的陣列時數，例如，指定午餐休息時間。
 
-指定上班時間之後，請選擇數小時後的通話路由選項。 上述指定的上班時間通話路由也提供相同的選項。
+指定上班時間之後，請選擇您的通話路由選項，以在數小時後使用。 上述指定的上班時間通話路由也提供相同的選項。
 
 完成後 **，** 請選取下一步。
 
@@ -180,7 +180,7 @@ ms.locfileid: "60462353"
 
     ![假日通話動作設定螢幕擷取畫面。](media/auto-attendant-holiday-actions.png)
 
-5. 選擇是否要中斷 **連接或****重新** 導向通話。
+5. 選擇是否要中斷 **連接或****重新導向** 通話。
 
 6. 如果您選擇重新導向，請選擇通話的呼叫路由目的地。
 
@@ -194,11 +194,11 @@ ms.locfileid: "60462353"
 
 ## <a name="dial-scope"></a>撥號範圍
 
-![撥號範圍包含和排除選項的螢幕擷取畫面。](media/auto-attendant-dial-scope.png)
+![撥號範圍包含及排除選項的螢幕擷取畫面。](media/auto-attendant-dial-scope.png)
 
-撥號 *範圍* 會定義當來電者使用撥號名稱或撥號分機時，哪些使用者可在目錄中使用。 預設為 **所有線上使用者**，包括貴組織的所有使用者，這些使用者都是線上使用者，或是由內部部署使用者商務用 Skype Server。
+撥號 *範圍* 會定義當來電者使用撥號名稱或撥號分機時，哪些使用者可在目錄中使用。 預設為 **所有線上使用者**，包括貴組織的所有使用者，這些使用者都是線上使用者，或是使用 商務用 Skype Server。
 
-您可以選取在包含或排除下的自訂使用者群組，並選擇一或多個Microsoft 365群組、通訊群組清單或安全性群組，以包含或排除特定使用者。  例如，您可能會想要將貴組織的主管排除在撥號目錄中。  (如果使用者同時在兩個清單中，則他們將會從目錄) 
+您可以選取在包含或排除下的自訂使用者群組，並選擇一或多個Microsoft 365群組、通訊群組清單或安全性群組，以包含或排除特定使用者。  例如，您可能會想要將貴組織的主管排除在撥號目錄中。  (如果使用者同時位於這兩個清單中，就會被排除在目錄中。) 
 
 > [!NOTE]
 > 新使用者最多可能需要 36 小時，才能將名稱列在目錄中。
@@ -215,22 +215,22 @@ ms.locfileid: "60462353"
 
 ![顯示資源帳戶與已指派服務編號的資源帳戶清單螢幕擷取畫面。](media/auto-attendant-resource-account-assigned.png)
 
-當您完成新增資源帳戶後，請選取 **提交** 以完成自動總機配置。
+當您完成新增資源帳戶後，請選取 **提交** 以完成自動話務組組。
 
-請參閱[管理Teams資源帳戶](manage-resource-accounts.md)以瞭解更多資訊。
+請參閱[管理Teams資源](manage-resource-accounts.md)帳戶以瞭解更多資訊。
 
 ## <a name="external-phone-number-transfers---technical-details"></a>外部電話號碼傳輸 - 技術詳細資料
 
-請參閱先決條件 [，](plan-auto-attendant-call-queue.md#prerequisites) 以便允許自動電話機在外部轉接通話。  另外：
+請參閱 [先決條件，](plan-auto-attendant-call-queue.md#prerequisites) 以便允許自動電話機在外部轉接通話。  另外：
 
 - 對於具有通話方案授權或[](calling-plans-for-office-365.md)運算子[連線](operator-connect-plan.md)號碼的資源帳戶，外部轉接電話號碼必須以 E.164 格式輸入 (+[國家/地區代碼][區碼][電話號碼]) 。
 
-- 對於具有授權電話系統直接路由線上語音路由策略的資源帳戶，外部傳輸電話號碼格式取決於會話邊界控制器[ (SBC](direct-routing-connect-the-sbc.md)) 設定。
+- 對於具有授權和直接電話系統線上語音路由策略的資源帳戶，外部傳輸電話號碼格式取決於會話[邊界控制器 (SBC](direct-routing-connect-the-sbc.md)) 設定。
 
 顯示的外發電話號碼如下：
 
-  - 針對通話方案及接線連線號碼，會顯示原始來電者的電話號碼。
-  - 針對直接路由號碼，傳送的號碼是根據 SBC 上的 P-Identity (PAI) 設定，如下所示：
+  - 針對通話方案與連線號碼，會顯示原始來電者的電話號碼。
+  - 針對直接路由號碼，傳送的數位是根據 SBC 上的 P-Identityed-identity (PAI) 設定，如下所示：
     - 如果設為已停用，會顯示原始來電者的電話號碼。 這是預設且建議的設定。
     - 如果設為啟用，會顯示資源帳戶電話號碼。
 
@@ -262,10 +262,10 @@ ms.locfileid: "60462353"
 
 如果您是系統管理員，您可以使用下列診斷工具來驗證自動話務員是否能夠接聽來電：
 
-1. 選取 **下方的執行** 測試，以在 Microsoft 365 系統管理中填入診斷。 
+1. 選取 [執行測試]**** 以在 Microsoft 365 系統管理中心填入診斷。 
 
    > [!div class="nextstepaction"]
-   > [執行測試：Teams聯合](https://aka.ms/TeamsAADiag)
+   > [執行測試：Teams自動助理](https://aka.ms/TeamsAADiag)
 
 2. 在執行診斷窗格中，在使用者名稱或電子郵件欄位中輸入資源帳戶，然後選取 **執行測試**。
 

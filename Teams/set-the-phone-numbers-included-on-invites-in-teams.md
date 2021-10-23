@@ -22,18 +22,18 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 請按照下列步驟建立預設電話號碼，讓來電者加入Microsoft Teams會議。
-ms.openlocfilehash: 4c740147e551dade443852a98c5cdafac047815f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: bef8575e1e799c63159bec5cbfb06c80f4af6c83
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732712"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536744"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>設定邀請中包含的電話號碼Microsoft Teams
 
-Microsoft 365 Office 365音訊會議可讓貴組織的使用者Microsoft Teams會議，然後允許使用者使用電話撥入這些會議。
+在會議Microsoft 365音訊Office 365可讓貴組織的使用者Microsoft Teams會議，然後允許使用者使用電話撥入這些會議。
   
-會議橋接器會提供您組織的一組撥入電話號碼。 所有會議都可以用來加入會議召集人所建立的會議，但您可以選取哪些會議邀請會包含在會議邀請中。
+會議橋接器會提供您組織的一組撥入電話號碼。 所有會議都可以用來加入會議召集人已建立的會議，但您可以選取哪些會議邀請會包含在會議邀請中。
   
 > [!NOTE]
 > 會議邀請的會議召集人最多可以有一個付費電話和一個免付費電話號碼，但每個會議邀請底部也有一個連結，可開啟可用來加入會議之所有撥入電話號碼的完整清單。
@@ -51,13 +51,13 @@ Microsoft 365 Office 365音訊會議可讓貴組織的使用者Microsoft Teams�
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>設定或變更會議召集人或使用者的預設音訊會議電話號碼
 
-![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+ **使用 Microsoft Teams 系統管理中心**
 
 您必須是 Teams 服務系統管理員才能進行這些變更。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
 
 1. 登入系統管理Microsoft Teams中心。
 
-2. 在左側流覽中，按一下 [ **使用者>**。
+2. 在左側流覽中，按一下 [**使用者。**
 
     ![顯示選取系統管理中心Microsoft Teams使用者。](media/Admin-users.png)
 
@@ -74,7 +74,7 @@ Microsoft 365 Office 365音訊會議可讓貴組織的使用者Microsoft Teams�
 
 ## <a name="want-to-use-windows-powershell"></a>想要使用Windows PowerShell
 
-Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個任務時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
 
 - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 

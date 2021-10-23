@@ -359,8 +359,6 @@ items:
             items:
               - name: 關於來賓存取
                 href: guest-access.md
-              - name: 來賓存取檢查清單
-                href: /microsoft-365/solutions/collaborate-as-team
               - name: 來賓體驗
                 href: guest-experience.md
               - name: 開啟來賓存取或關閉

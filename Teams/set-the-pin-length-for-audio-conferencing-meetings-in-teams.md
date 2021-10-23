@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 瞭解 PIN 的長度和需求參數，並瞭解如何在 Microsoft Teams 中設定會議長度。
-ms.openlocfilehash: 7030849f59679ff63e71e6013757a1e455fa951d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 瞭解 PIN 長度和需求的參數，並瞭解如何在 Microsoft Teams 中設定會議長度。
+ms.openlocfilehash: 3b50c555121e960ddf350e8c28079552a5589f9f
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731952"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537234"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>在會議中設定音訊會議會議的 PIN 長度Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "58731952"
   
 ## <a name="setting-the-pin-length"></a>設定 PIN 長度
 
-![顯示標誌圖示Microsoft Teams圖示。](media/teams-logo-30x30.png) **使用 Microsoft Teams 系統管理中心**
+ **使用 Microsoft Teams 系統管理中心**
 
 1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。 
 
@@ -63,7 +63,7 @@ ms.locfileid: "58731952"
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
 
-Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個任務時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
     
   - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

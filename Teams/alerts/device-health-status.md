@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams裝置監控與警示
-author: cichur
-ms.author: v-cichur
+author: cazawideh
+ms.author: czawideh
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-description: 瞭解如何在系統管理中心Teams監控和警示功能Microsoft Teams主動監控裝置的健康情況Teams狀態
+description: 瞭解如何在系統管理中心Teams監控和警示功能Microsoft Teams主動監控裝置Teams狀態
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b44b564da4e772fb3e385b03d61be6874baf11c5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ac8ace461e2fb2f5ca8c163a5972fa575baec21d
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58735350"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536914"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams裝置健康情況監控
 
@@ -48,9 +48,9 @@ ms.locfileid: "58735350"
 |--------|-------------|
 |**規則類型**   |裝置狀態規則可協助您進行有效的管理。 Teams裝置，並歸類為裝置管理類型。 未來將會有更多的裝置管理類型規則可供監控其他相關功能 (例如：不健康裝置和裝置登錄狀態) 。|
 |**條件**   |您可以監控裝置離線時的健康情況。 [在系統](../devices/device-management.md)管理中心深入瞭解Teams管理。 |
-|**範圍**   |您可以提及規則評估頻率，指定您想要監控裝置健康情況的頻率。 根據預設，如果團隊裝置離線，將會即時監控裝置。 |
-|**裝置使用者**   |您可以根據已登錄的使用者來選取哪些裝置，以指定哪些裝置需要主動離線監控。 請參閱選取 [裝置以進行配置](#select-devices-for-configuration) ，以進一步瞭解詳細資料。 |
-|**動作**  > **頻道通知**   |在動作區段，您可以指定您想要取得通知的團隊頻道。 目前，系統將會建立一個名為 Admin **Alerts** 和通知的預設小組，以及名為 **MonitoringAlerts** 的頻道，其中會傳送通知。 <BR/> <BR/> 您的租使用者Teams全域系統管理員和管理員會自動新加入這個預設團隊。|
+|**範圍**   |您可以提及規則評估頻率，指定要監視裝置健康情況的頻率。 根據預設，如果團隊裝置離線，將會即時監控裝置。 |
+|**裝置使用者**   |您可以根據已登錄的使用者來選取哪些裝置，以指定哪些裝置需要主動離線監控。 請參閱選取 [裝置以進行組](#select-devices-for-configuration) 組，以進一步瞭解詳細資料。 |
+|**動作**  > **頻道通知**   |在動作區段，您可以指定您想要取得通知的團隊頻道。 目前，系統將會建立名為系統管理通知和通知的預設小組，以及名為 **MonitoringAlerts** 的頻道，其中會傳送通知。 <BR/> <BR/> 您的租使用者Teams全域系統管理員和管理員會自動新加入這個預設團隊。|
 |**動作**  > **Web上手**   |您也可以使用外部網頁連結或 (功能) 。 指定要送出 JSON 通知負載之網頁搖動區段的外部公用網頁連結 URL。 <BR/> <BR/>  通知有效負載可透過網頁連結，與貴組織的其他系統整合，以建立自訂工作流程。<br/><br/> 
 
 **網頁搖動的 JSON 負載架構：** <BR/><BR/>
@@ -72,7 +72,7 @@ ms.locfileid: "58735350"
 
 ## <a name="notifications-in-teams-client"></a>用戶端中的Teams通知
 
-通知會傳送至系統管理通知和通知小組的 **自動建立監控Alerts****頻道。**
+通知會傳送至系統管理通知和通知小組的 **自動建立監控Alerts****頻道。** 您將在裝置離線後 15 分鐘內收到通知。 
 
 裝置離線通知可以包含下列資訊：
 
