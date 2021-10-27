@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何指派、變更或移除您的公司電話號碼Teams讓外部企業和客戶可以來電。
-ms.openlocfilehash: 92c19912e566f7dbea09b4849d9970619551b4a4
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 5e8041ce0a8cc95549a9dc75c0c8d74cd2438e1c
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536504"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579513"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>指派、變更或移除使用者的電話號碼
 
@@ -33,11 +33,14 @@ ms.locfileid: "60536504"
 
 本文適用于通話方案及接線連線。 若要在直接路由情況下指派、變更或移除使用者的電話號碼，請參閱啟用使用者進行直接路由、語音和 [語音信箱](./direct-routing-enable-users.md)。
 
-在您為通話方案或接線連線使用者指派號碼之前，您必須為使用者取得號碼。 詳細資訊，請參閱取得[通話](getting-phone-numbers-for-your-users.md)方案使用者的號碼，或為使用者設定[運算子連線號碼](operator-connect-configure.md#set-up-phone-numbers)。
+在指派通話方案或接線連線之前，您必須為使用者取得號碼。 詳細資訊，請參閱取得[通話](getting-phone-numbers-for-your-users.md)方案使用者的號碼，或為使用者設定[運算子連線號碼](operator-connect-configure.md#set-up-phone-numbers)。
 
   
 > [!NOTE]
 > 查看使用者是否已指派授權的方法之一，是Microsoft Teams系統管理中心>**使用者**。 如果已指派授權，就會在頁面上顯示授權。  您也可以使用Microsoft 365 系統管理中心。
+
+> [!NOTE]
+> 本附注適用于使用內部部署 Active Directory 進行混合式部署的客戶。 如果您想要將通話方案或運算子 連線 電話號碼指派給使用者或資源帳戶，您必須確保內部部署 Active Directory 中的電話號碼已移除，且變更已同步到 Microsoft 365。
   
 ## <a name="assign-a-phone-number-to-a-user"></a>指派電話號碼給使用者
 
@@ -45,7 +48,7 @@ ms.locfileid: "60536504"
 
 若要使用系統管理中心指派Teams號碼：
     
-1. 在左側流覽中，按一下 **[語音**  >  **電話數位**。
+1. 在左側流覽中，按一下 **[語音**  >  **電話號碼**。
 
 2. 在 [數位 **電話** 頁面上，選取清單中的未指定號碼，然後按一下 [**編輯**。  
 
@@ -63,7 +66,7 @@ ms.locfileid: "60536504"
 若要使用 PowerShell 指派數位，請使用 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) Cmdlet，如下所示：
 
 
-''PowerShell Set-CsOnlineVoiceUser -identity <user>   -TelephoneNumber <phone number> 
+''PowerShell Set-CsOnlineVoiceUser -Identity <user>   -TelephoneNumber <phone number> 
 ```
 
 For example:
@@ -73,7 +76,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 ```
 
 > [!NOTE]
-> 由於使用者與Microsoft 365之間的Teams，使用者最多可能需要 24 小時才能啟用。 如果電話號碼在 24 小時後未正確指派，請參閱電話[服務中心](https://pstnsd.powerappsportals.com/)。 
+> 由於使用者與Microsoft 365 Teams延遲，使用者最多可能需要 24 小時才能啟用。 如果 24 小時後未正確指派電話號碼，[請參閱電話服務中心](https://pstnsd.powerappsportals.com/)。 
 
   
 ## <a name="change-a-phone-number-for-a-user"></a>變更使用者的電話號碼
@@ -82,7 +85,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
     
 1. 在左側導圖中，按一下 [使用者」，找出並按兩下您想要的使用者，按一下[帳戶」，然後在 [一般資訊」 下記下指派給使用者的電話號碼。 
 
-2. 在左側流覽中，按一下 **[語音**  >  **電話數位**。
+2. 在左側流覽中，按一下 **[語音**  >  **電話號碼**。
 
 3. 在 [數位 **電話** 頁面上，選取您于步驟 1 中識別的數位，然後按一下 [**編輯**。  
 
@@ -97,7 +100,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 8. 若要指派或變更相關聯的緊急位置，請在緊急位置下搜尋，然後選取該位置。
 
       > [!NOTE]
-      > 如果您要變更運算子使用者連線號碼，您可能無法指派或變更相關聯的緊急位置。 此功能取決於您的運算子。 如需詳細資訊，請與您的接線員聯繫。
+      > 如果您要變更運算子的使用者連線號碼，您可能無法指派或變更相關聯的緊急位置。 此功能取決於您的運算子。 如需詳細資訊，請與您的接線員聯繫。
 
 9. 按一下 [儲存]。
 
@@ -109,9 +112,9 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 
 1. 在左側導圖中，按一下 [使用者」，找出並按兩下您想要的使用者，按一下[帳戶」，然後在 [一般資訊」 下記下指派給使用者的電話號碼。 
 
-2. 在左側流覽中，按一下 **[語音**  >  **電話數位**。
+2. 在左側流覽中，按一下 **[語音**  >  **電話號碼**。
 
-3. 在 [數位 **電話** 頁面上，選取您于步驟 2 中識別的數位，然後按一下 [**編輯**。  
+3. 在 [電話 **編號頁面上**，選取您于步驟 2 中識別的數位，然後按一下 [**編輯**。  
 
 4. 在 [ **編輯窗格** 的 **[指派給** 的> 下，按一下 **[X** 以移除使用者。
 

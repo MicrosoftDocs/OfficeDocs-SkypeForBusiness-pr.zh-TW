@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 解除委任內部部署商務用 Skype 環境時，如何管理 DNS 專案的指示。
-ms.openlocfilehash: 70255314ecf87d55ef578a4daa0390b46179349c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 7c6e803b089d8a34703dc26ea93e207c6d7aedf6
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58735320"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579663"
 ---
 # <a name="update-dns-entries-to-enable-your-organization-to-be-all-teams-only"></a>更新 DNS 專案，讓您的組織全部 Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "58735320"
 
 ## <a name="how-to-identify-stale-dns-records"></a>如何識別陳舊的 DNS 記錄
 
-若要識別任何防止您的組織成為所有 Teams 的 DNS 記錄，您可以使用 Teams 系統管理中心，將共存模式變更為 TeamsOnly。 移至 **全組織設定**  ->  **Teams 升級**。 任何阻止組織成為 Teams 的 DNS 記錄，都將會包含在錯誤訊息中。  在事件中找不到 DNS 記錄時，您的組織的共存模式將變更為 TeamsOnly。   
+若要識別任何防止您的組織成為所有 Teams 的 DNS 記錄，您可以使用 Teams 系統管理中心，將共存模式變更為 TeamsOnly。 移至 **Teams**  >  **Teams 升級設定**。 任何阻止組織成為 Teams 的 DNS 記錄，都將會包含在錯誤訊息中。  在事件中找不到 DNS 記錄時，您的組織的共存模式將變更為 TeamsOnly。   
 
 或者，您也可以使用 Teams PowerShell 執行相同的作業，如下所示：
 
@@ -57,8 +57,8 @@ ms.locfileid: "58735320"
 | :-----| :-----| :---- | :-----| :-----| :-----| :-----|
 | SRV | _sipfederationtls._tcp |    3600 |  100 | 1 | 5061  | sipfed.online.lync.com |
 | SRV | _sip._tls | 3600     | 100 |    1   | 443   | sipdir.online.lync.com |
-| CNAME | lyncdiscover |    3600 |  N/A |   N/A |   N/A |   webdir.online.lync.com |
-| CNAME |   sip | 3600 |    N/A |   N/A  | N/A |    sipdir.online.lync.com |
+| CNAME | lyncdiscover |    3600 |  不適用 |   不適用 |   不適用 |   webdir.online.lync.com |
+| CNAME |   sip | 3600 |    不適用 |   不適用  | 不適用 |    sipdir.online.lync.com |
 |||||||
 
 此外，如果存在) 可刪除，則為符合或撥入 (的 CNAME 記錄。 最後，您應該移除內部網路中商務用 Skype 的任何 DNS 記錄。

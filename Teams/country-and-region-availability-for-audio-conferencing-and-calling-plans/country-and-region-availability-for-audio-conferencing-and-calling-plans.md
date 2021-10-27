@@ -1,7 +1,7 @@
 ---
 title: 國家/地區可用性 - 音訊會議、通話方案
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: czawideh
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: reference
@@ -25,13 +25,13 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 - seo-marvel-mar2020
-description: 瞭解國家/地區電話系統音訊會議、電話方案、通訊信用額度，以及免付費和免付費電話號碼。
-ms.openlocfilehash: b34ae51dae05d59b320f4d3285efe57131db58d6
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+description: 瞭解國家/地區電話系統音訊會議、電話系統、通話方案、通訊信用額度，以及免付費和免付費電話號碼。
+ms.openlocfilehash: 8480fcbe512ed53bf7a94753b22214b50b8f3f85
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432295"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579523"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音訊會議與通話方案的適用國家/地區
 
@@ -157,11 +157,11 @@ ms.locfileid: "59432295"
 > - [委內瑞拉](availability-in-venezuela.md)
 > - [越南](availability-in-vietnam.md)
 
-如果您要尋找包含所有國家和地區的試算表，請下載並儲存雲端 **[語音功能國家/地區可用性試算表](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-06162021)-(en-us).xlsx)**。
+如果您要尋找包含所有國家和地區的試算表，請下載並儲存雲端 **[語音功能國家/地區可用性試算表](https://download.microsoft.com/download/d/b/6/db6992c5-ec9a-4b02-8742-59df17dd90a7/country-and-region-availability-(v-19OCT2021)-(en-us).xlsx)**。
 
 ***
 
-驗證其中一個 商務用 Skype 或 Microsoft Teams 服務是否可用之後，您即會看到 商務用 Skype 和 Microsoft Teams 附加元件授權[，](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)可協助您購買授權，並將授權指派給使用者。
+驗證其中一個 商務用 Skype 或 Microsoft Teams 服務是否可用之後，您即會看到 商務用 Skype 和[Microsoft Teams](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)附加元件授權，可協助您購買授權，並將授權指派給使用者。
 
 > [!NOTE]
 >
@@ -171,7 +171,7 @@ ms.locfileid: "59432295"
 
 ### <a name="audio-conferencing"></a>音訊會議
 
-貴組織內的人員有時會需要透過電話來加入會議。 商務用 Skype Microsoft Teams音訊會議功能， 人員可以透過電話來加入會議，而不必在行動裝置或電腦上透過商務用 Skype 和 Microsoft Teams 應用程式來參加。 當您決定要為貴組織召開音訊會議時，請為組織中要排程/主持音訊會議的每一個人購買一個音訊會議授權。
+貴組織內的人員有時會需要透過電話來加入會議。 商務用 Skype和Microsoft Teams包含音訊會議功能，適用于此情況！ 人員可以透過電話來加入會議，而不必在行動裝置或電腦上透過商務用 Skype 和 Microsoft Teams 應用程式來參加。 當您決定要為貴組織召開音訊會議時，請為組織中要排程/主持音訊會議的每一個人購買一個音訊會議授權。
   
 有了音訊會議，使用者就可以使用付費和免付費電話號碼撥入會議。 組織若已啟用音訊會議功能，系統便會自動將下列國家/地區的付費電話號碼當作共用的音訊會議號碼來指派給組織。 您可從其他城市將專用付費和免付費號碼指派給貴組織。
 
@@ -195,7 +195,7 @@ ms.locfileid: "59432295"
 
 使用 電話系統，您可以使用付費或免付費 (電話來建立自動回應和通話佇列) 接聽您組織的來電。 當您為使用者新增通話方案時，他們可以使用 商務用 Skype 處理基本的通話控制工作，例如撥打和接聽來電、轉接通話，以及將通話靜音和取消靜音。 **電話系統** 使用者在通訊錄中按一下名稱，商務用 Skype就會打電話給該人員。 若要撥打和接聽電話系統，使用者可以使用他們的行動裝置、膝上型電腦或 PC 耳機，或許多 IP 電話之一，商務用 Skype。
 
-根據庫存量而定，某些位置在任何給定時間不一定會有付費電話號碼。 除了取得個別使用者的電話號碼之外，也可以搜尋及取得電話或免付費電話號碼的服務，例如音訊會議 (會議) 、自動語音機和通話佇列。 這些電話號碼稱為服務號碼。 請參閱[取得服務電話號碼](../getting-service-phone-numbers.md)以取得電話號碼。 但對您的使用者來說，在為其指派通話方案之後，您就可以指派使用者電話號碼，讓其可以撥打和接聽電話。 若要尋找這些電話號碼，請移至[為使用者取得電話號碼](../getting-phone-numbers-for-your-users.md)。 您也可以參閱[指派、變更或移除使用者的電話號碼](../assign-change-or-remove-a-phone-number-for-a-user.md)。
+根據庫存量而定，某些位置在任何給定時間不一定會有付費電話號碼。 除了取得個別使用者的電話號碼之外，也可以搜尋及取得電話或免付費電話號碼的服務，例如會議橋接器 (、自動語音服務及通話佇列等服務 () 。 這些電話號碼稱為服務號碼。 請參閱[取得服務電話號碼](../getting-service-phone-numbers.md)以取得電話號碼。 但對您的使用者來說，在為其指派通話方案之後，您就可以指派使用者電話號碼，讓其可以撥打和接聽電話。 若要尋找這些電話號碼，請移至[為使用者取得電話號碼](../getting-phone-numbers-for-your-users.md)。 您也可以參閱[指派、變更或移除使用者的電話號碼](../assign-change-or-remove-a-phone-number-for-a-user.md)。
 
 [電話系統的定價](https://www.microsoft.com/microsoft-teams/voice-calling?#office-StandaloneSKU-pkdogb9)
 
@@ -215,7 +215,7 @@ ms.locfileid: "59432295"
   
 ### <a name="toll-and-toll-free-phone-numbers-for-services"></a>服務的付費和免付費電話號碼
 
-除了取得個別使用者的電話號碼之外，也可以搜尋及取得電話或免付費電話號碼的服務，例如音訊會議 () 、自動語音電話和通話佇列。 這些電話號碼稱為服務號碼。
+除了取得個別使用者的電話號碼之外，也可以搜尋及取得電話或免付費電話號碼的服務，例如會議橋接器)  (、自動語音服務及通話佇列 (。 這些電話號碼稱為服務號碼。
   
 以下是一份首都和主要城市的清單，您可以從這份清單中取得可與音訊會議和通話方案搭配使用的付費服務號碼。 您可以使用系統管理中心從這些位置 **取得商務用 Skype號碼**。
   
@@ -227,7 +227,7 @@ ms.locfileid: "59432295"
 
 我們會建議您為需要能夠撥出至 **任何目的地** 的音訊會議和通話方案使用者設定通訊點數。 這些目的地包含許多國家/地區，但您的通話方案或音訊會議訂閱中可能不會包含某些目的地。
   
-如果您沒有設定通訊信用額度，並指派授權給使用者，而貴組織 (視您的通話方案或音訊會議方案或您的國家/地區) 而用完通話分鐘數，他們將無法撥打電話或撥出會議。 若要深入了解 (包括建議的金額)，請參閱[什麼是通訊點數？](../what-are-communications-credits.md)
+如果您沒有設定通訊信用額度，並指派授權給使用者，而且您組織的 (視您的通話方案或音訊會議方案或您的國家/地區) 而用完通話分鐘數，他們將無法撥打電話或撥出會議。 若要深入了解 (包括建議的金額)，請參閱[什麼是通訊點數？](../what-are-communications-credits.md)
 
 ## <a name="related-topics"></a>相關主題
 
