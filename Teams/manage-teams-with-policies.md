@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 307eccf1d6e919593cdfadaf2b902a7a15c7b4cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a08e48a37b90a7d8a99053d01a844c3451314e00
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588145"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605589"
 ---
 # <a name="manage-teams-with-policies"></a>使用Teams管理
 
-策略是管理Teams。 使用本文流覽如何使用策略來為貴組織帶來好處。
+策略是管理系統管理的重要Teams。 使用本文流覽如何使用策略來為貴組織帶來好處。
 
 ## <a name="what-you-use-policies-for"></a>您用於策略的
 
@@ -32,7 +32,7 @@ ms.locfileid: "58588145"
 
 ## <a name="how-to-assign-policies"></a>如何指派策略
 
-根據貴組織嘗試完成的工作，可以數種不同的方式指派策略。 您可以在系統管理中心進行Teams作業。
+您可以根據貴組織嘗試完成的工作，以多種方式指派策略。 您可以在系統管理中心進行Teams作業。
 
 ![群群組原則作業的螢幕擷取畫面。](media/group-policy-assignment.png)
 
@@ -42,7 +42,7 @@ ms.locfileid: "58588145"
 
 使用系統管理中心Microsoft Teams使用[PowerShell 管理原則](./teams-powershell-managing-teams.md#manage-policies-via-powershell)。
 
-例如，應用程式設定策略可以允許使用者上傳自訂應用程式、代表使用者安裝應用程式，以及將應用程式釘Teams工具列。 這些策略在系統管理中心Teams中。
+例如，應用程式設定策略可允許使用者上傳自訂應用程式、代表使用者安裝應用程式，以及將應用程式釘Teams應用程式欄。 這些策略在系統管理中心Teams中。
 
 ![應用程式設定策略的螢幕擷取畫面。](media/app-setup-policy.png)
 
@@ -63,15 +63,15 @@ ms.locfileid: "58588145"
 策略類型 | 描述
 ------------|------------
 [策略套件](manage-policy-packages.md) | 其中一個Microsoft Teams套件是一組預先定義的策略和設定，您可以指派給組織中具有類似角色的使用者。
-[會議原則](meeting-policies-in-teams.md) | 會議策略是用來控制貴組織中使用者排程會議之會議參與者可用的功能。 會議政策包含下列主題。<br> - 音訊和視音訊政策<br> - 內容和螢幕畫面共用政策<br> - 參與者、來賓和存取政策<br> - 一般政策
+[會議原則](meeting-policies-overview.md) | 會議策略是用來控制貴組織中使用者排程會議之會議參與者可用的功能。 會議政策包含下列主題。<br> - 音訊和視音訊政策<br> - 內容和螢幕畫面共用政策<br> - 參與者、來賓和存取政策<br> - 一般政策
 [語音和通話政策](voice-and-calling-policies.md)| 語音和通話政策會透過團隊管理這些設定，例如緊急通話、呼叫路由和本機號碼。
 [應用程式政策](app-policies.md)| 應用程式策略用於控制應用程式Microsoft Teams。 系統管理員可以允許或封鎖使用者可以安裝的應用程式、將應用程式釘Teams使用者的應用程式欄，以及代表使用者安裝應用程式。
 [訊息原則](messaging-policies-in-teams.md)| 訊息策略可控制聊天和頻道功能的可用性。
 
 ## <a name="related-topics"></a>相關主題
 
-* [在中指派Teams - 開始使用](policy-assignment-overview.md)
+* [在 Teams 中指派Teams - 開始使用](policy-assignment-overview.md)
 * [管理意見Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [管理團隊Microsoft Teams](teams-policies.md)
 * [在 Microsoft Teams 中設定即時活動](teams-live-events/set-up-for-teams-live-events.md)
-* [Teams 教育版和策略套件](policy-packages-edu.md)
+* [Teams 教育版策略與政策套件](policy-packages-edu.md)

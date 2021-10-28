@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在會議Teams中管理會議策略設定。
-ms.openlocfilehash: 2ca320db9c4020c6b79f38af86ed5083ae17fb89
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 5a277aeb5ccdef5bc3ec98d849cd9f9ec5271e2b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014537"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605409"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>會議原則設定 - 參與者與來賓
 
@@ -46,7 +46,7 @@ ms.locfileid: "60014537"
 此設定是每個召集人的策略，可讓無主席電話撥入式會議。 此設定可控制撥入使用者是否可以加入會議，而組織沒有經過驗證的使用者出席。 根據預設，此設定會關閉，這表示撥入使用者會等候在大廳中，直到組織經過驗證的使用者加入會議。
 
 > [!NOTE]
-> 如果這項設定已關閉，且電話撥入使用者會先加入會議，且位於大廳，則組織使用者必須使用 Teams 用戶端加入會議，以從大廳准許使用者加入會議。 撥入的使用者沒有可用的大廳控制項。
+> 如果這項設定已關閉，且撥入使用者會先加入會議，且位於大廳，則組織使用者必須使用 Teams 用戶端加入會議，以從大廳准許使用者加入會議。 撥入的使用者沒有可用的大廳控制項。
 
 ## <a name="automatically-admit-people"></a>自動准許人員
 
@@ -54,7 +54,7 @@ ms.locfileid: "60014537"
 
 ![螢幕擷取畫面顯示有使用者在大廳中的會議。](media/meeting-policies-lobby.png)
 
- 會議召集人可以按一下 **會議** 邀請中的 [會議選項>，變更其排程的每一個會議的此設定。
+ 會議召集人可以按一下 **會議** 邀請中的 [會議選項>，針對他們排定的每一個會議變更此設定。
 
 > [!NOTE]
 > 在會議選項中，設定會標示為「誰無需先在大廳等候」。如果您變更任何使用者的預設設定，它將會套用至該使用者召集的所有新會議，以及使用者未修改會議選項的任何先前會議。
@@ -99,5 +99,5 @@ ms.locfileid: "60014537"
 ## <a name="related-topics"></a>相關主題
 
 - [Teams PowerShell 概觀](teams-powershell-overview.md)
-- [將原則指派給 Teams 中的使用者](assign-policies.md)
+- [將原則指派給 Teams 中的使用者](policy-assignment-overview.md)
 - [從使用者移除 RestrictedAnonymousAccess Teams 會議原則](meeting-policies-restricted-anonymous-access.md)

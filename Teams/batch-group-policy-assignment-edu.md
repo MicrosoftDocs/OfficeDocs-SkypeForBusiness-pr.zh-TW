@@ -1,7 +1,7 @@
 ---
 title: 指派策略給學校中的大量使用者
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -15,21 +15,21 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何根據群組成員資格或直接透過遠端學校 (遠端學校、遠端學校或遠端學校) 指派政策。
+description: 瞭解如何根據群組成員資格或直接透過遠端學校 (遠端學校、遠端學校或遠端學校) 指派策略。
 f1keywords: ''
-ms.openlocfilehash: 8d7eed80375b87eb09cbad803e99d35578c5bbc8
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 839a66cbaad393f21053ee385017f6a870c60d83
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731372"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605179"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>指派策略給學校中的大量使用者
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> 若要瞭解在 Microsoft Teams 中指派策略的較大Microsoft Teams，請參閱在 Teams 中[指派Teams。](assign-policies.md)
+> 若要瞭解在 Microsoft Teams 中指派策略的較大Microsoft Teams，請參閱在 Teams 中指派[Teams。](policy-assignment-overview.md)
 
 ## <a name="overview"></a>概觀
 
@@ -39,13 +39,13 @@ ms.locfileid: "58731372"
 
 - **使用 [策略指派給群組](#assign-a-policy-to-a-group) ，將** 會議策略指派給安全性群組， (建議) 。 此方法可讓您根據群組成員資格指派策略。 您可以將策略指派給安全性群組或通訊群組清單。 當成員新加入群組或從群組中移除時，其繼承的策略指派會因此更新。 建議您使用此方法，因為此方法可縮短管理新使用者之策略的時間，或使用者角色變更的時間。 這個方法最適合最多 50，000 個使用者群組使用，但也適用于較大的群組。
 
-- **使用 [批次策略指派](assign-policies.md#assign-a-policy-to-a-batch-of-users) 直接將會議策略指派給使用者**。 您可以一次指派最多 5，000 個使用者的政策。 如果您有超過 5，000 個使用者，您可以提交多個批次。 使用此方法時，當您有新使用者時，您必須重新執行批次指派，以將策略指派給這些新使用者。
+- **使用 [批次策略指派](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users) 直接將會議策略指派給使用者**。 您可以一次指派最多 5，000 個使用者的政策。 如果您有超過 5，000 個使用者，您可以提交多個批次。 使用此方法時，當您有新使用者時，您必須重新執行批次指派，以將策略指派給這些新使用者。
 
-請記住，Teams，除非您建立並指派自訂 (，否則使用者會自動取得) 策略類型的全域) 全組織預設 Teams 規則。 由於學生人口通常是最大的一組使用者，而且他們通常會收到限制最嚴格的設定，建議您執行下列操作：
+請記住，Teams中，使用者會自動取得 Teams 策略類型的全域 (全組織預設) 策略，除非您建立並指派自訂策略。 由於學生人口通常是最大的一組使用者，而且他們通常會收到限制最嚴格的設定，建議您執行下列操作：
 
 - 建立自訂策略，允許核心功能 ，例如私人聊天和會議排程，並將該政策指派給教職員和教師。
-- 將自訂政策指派給教職員和教育工作者。
-- 編輯並 (全組織的預設) 原則，以限制學生的功能。
+- 將自訂策略指派給教職員和教師。
+- 編輯並適用全域 (全組織的預設) 原則，以限制學生的功能。
 
 請記住，全域原則會適用于學校中的所有使用者，直到您建立自訂原則並指派給教職員和教師。
 
@@ -62,7 +62,7 @@ ms.locfileid: "58731372"
 > [!IMPORTANT]
 > 當您將原則指派給群組時，原則指派會依據優先順序規則傳播給群組的成員。 例如，如果使用者直接指派一個 (或透過批次指派) ，該策略會優先于從群組繼承的規則。 這也表示如果使用者有直接指派給他們的會議策略，您必須從使用者移除該會議策略，才能從安全性群組繼承會議策略。
 
-在您開始使用之前，瞭解優先順序規則和群組[作業](assign-policies.md#group-assignment-ranking)排名非常重要[](assign-policies.md#precedence-rules)。 **請確定您閱讀 [](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)** 並瞭解有關指派給群組之策略的您需要瞭解的概念。
+在您開始使用之前，瞭解優先順序規則和群組[作業](assign-policies-users-and-groups.md#group-assignment-ranking)排名非常重要[](policy-assignment-overview.md#which-policy-takes-precedence)。 **請確定您閱讀 [](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)** 並瞭解有關指派給群組之策略的您需要瞭解的概念。
 
 您必須完成這些步驟，讓教職員和教育工作者從安全性群組繼承會議政策。
 
@@ -74,7 +74,7 @@ ms.locfileid: "58731372"
 
 首先，為教職員和教育工作者建立安全性群組。
 
-有了[學校資料同步處理 (](/SchoolDataSync/) SDS) ，您可以輕鬆地建立學校中的安全性群組教育[](/SchoolDataSync/edu-security-groups)者和學生。 我們建議您使用 SDS 建立管理學校之策略所需的安全性群組。
+有了[學校資料同步處理 (](/SchoolDataSync/) SDS) ，您可以輕鬆地建立學校[中的](/SchoolDataSync/edu-security-groups)安全性群組教育者和學生。 我們建議您使用 SDS 建立管理學校之策略所需的安全性群組。
 
 如果您無法在環境中部署 SDS，請使用 [此 PowerShell](scripts/powershell-script-security-groups-edu.md) 腳本來建立兩個安全性群組，一個針對指派教職員授權的所有教職員和教育工作者，另一個則針對指派學生授權的所有學生。 您必須定期執行此腳本，讓群組保持在最新狀態。
 
@@ -104,7 +104,7 @@ ms.locfileid: "58731372"
 > [!NOTE]
 > 目前，所有使用 PowerShell 的群群組原則指派不適用於Teams類型。 請參閱 [New-CsGroupPolicyAssignment](/powershell/module/teams/new-csgrouppolicyassignment) 以尋找支援的策略類型清單。
 
-##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安裝並連接到 powerShell Microsoft Teams模組
+##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安裝並連接到 PowerShell Microsoft Teams模組
 
 請執行下列操作，Teams PowerShell 模組 (如果尚未安裝[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模組) 。 請確定您安裝版本 1.0.5 或更新版本。
 
@@ -130,13 +130,13 @@ New-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com -PolicyType Teams
 
 ### <a name="remove-a-policy-that-was-directly-assigned-to-users"></a>移除直接指派給使用者的策略
 
-請記住，如果使用者是個別或透過批次指派 (，則該) 優先。 這表示如果使用者有直接指派給他們的會議策略，您必須從使用者移除該會議策略，才能從安全性群組繼承會議策略。
+請記住，如果使用者是透過個別或批次指派 (，則該) 優先。 這表示如果使用者有直接指派給他們的會議策略，您必須從使用者移除該會議策略，才能從安全性群組繼承會議策略。
 
-若要深入瞭解，請參閱您需要瞭解哪些資訊， [以將策略指派給群組](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)。
+若要深入瞭解，請參閱您需要瞭解哪些資訊， [以將策略指派給群組](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)。
 
 請遵循下列步驟，移除直接指派給教職員與教育人員的會議政策。
 
-#### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安裝並連接到 powerShell Microsoft Teams模組
+#### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安裝並連接到 PowerShell Microsoft Teams模組
 
 請執行下列操作，Teams PowerShell 模組 (如果尚未安裝[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模組) 。 請確定您安裝版本 1.0.5 或更新版本。
 
@@ -150,7 +150,7 @@ Install-Module -Name MicrosoftTeams
 Connect-MicrosoftTeams
 ```
 
-系統提示您時，請使用相同的管理員認證來登錄，以連接到 Azure AD。
+系統提示您時，請使用相同的系統管理員認證來Azure AD。
 
 #### <a name="unassign-a-policy-that-was-directly-assigned-to-users"></a>取消指派直接指派給使用者的策略
 
@@ -193,19 +193,19 @@ Get-CsUserPolicyAssignment -Identity reda@contoso.com
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-#### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>連線 Azure AD PowerShell 以Graph PowerShell 模組Teams PowerShell 模組
+#### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>連線 PowerShell Azure AD模組Graph PowerShell 模組Teams PowerShell 模組
 
 執行本文中的步驟之前，您必須安裝並連接到 Graph 模組 (的 Azure AD PowerShell，才能根據指派授權) 和 Microsoft Teams PowerShell 模組 (來識別使用者，才能將策略指派給這些使用者) 。
 
-##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>安裝並連接到 Azure AD PowerShell Graph模組
+##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>安裝並連接到 powerShell Azure AD模組Graph模組
 
-開啟提升Windows PowerShell命令提示 (Windows PowerShell以系統管理員) ，然後執行下列操作以安裝 Azure Active Directory PowerShell Graph模組。
+開啟提升Windows PowerShell命令提示 (以系統管理員Windows PowerShell執行) ，然後執行下列操作以安裝 Azure Active Directory PowerShell Graph模組。
 
 ```powershell
 Install-Module -Name AzureAD
 ```
 
-執行下列操作以連接到 Azure AD。
+執行下列操作以連接到Azure AD。
 
 ```powershell
 Connect-AzureAD
@@ -213,11 +213,11 @@ Connect-AzureAD
 
 系統提示您時，請使用系統管理員認證來登錄。
 
-若要深入瞭解，請參閱連線[PowerShell Azure Active Directory模組Graph>。](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+若要深入瞭解，請參閱連線[PowerShell Azure Active Directory模組Graph> 。](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>安裝並連接到 powerShell Microsoft Teams模組
 
-請執行下列操作，Teams PowerShell 模組 (如果尚未安裝[PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模組) 。 請確定您安裝版本 1.0.5 或更新版本。
+執行下列操作，Teams[安裝 PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams)模組 (如果尚未安裝 PowerShell 模組) 。 請確定您安裝版本 1.0.5 或更新版本。
 
 ```powershell
 Install-Module -Name MicrosoftTeams
@@ -229,7 +229,7 @@ Install-Module -Name MicrosoftTeams
 Connect-MicrosoftTeams
 ```
 
-系統提示您時，請使用相同的管理員認證來登錄，以連接到 Azure AD。
+系統提示您時，請使用相同的系統管理員認證來Azure AD。
 
 #### <a name="identify-your-users"></a>識別您的使用者
 
@@ -263,7 +263,7 @@ $faculty = Get-AzureADUser -All $true | Where-Object {($_.assignedLicenses).SkuI
 
 現在，我們會大量指派適當的政策給使用者。 您可以指派或更新策略的使用者數目上限為一次 5，000 個。 例如，如果您有超過 5，000 名教職員和教育工作者，您必須提交多個批次。
 
-執行下列操作，將名為 EducatorMeetingPolicy 的自訂會議政策指派給教職員和教育工作者。
+執行下列操作，將名為 EducatorMeetingPolicy 的自訂會議策略指派給教職員和教育工作者。
 
 ```powershell
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName EducatorMeetingPolicy -Identity $faculty.ObjectId
@@ -324,6 +324,6 @@ Get-CsUserPolicyAssignment -Identity hannah@contoso.com
 
 ## <a name="related-topics"></a>相關主題
 
-- [指派策略給使用者](assign-policies.md)
+- [指派策略給使用者](policy-assignment-overview.md)
 - [適用於教育界的 Teams 原則和原則套件](policy-packages-edu.md)
-- [管理 Teams 中的會議原則](meeting-policies-in-teams.md)
+- [管理 Teams 中的會議原則](meeting-policies-overview.md)

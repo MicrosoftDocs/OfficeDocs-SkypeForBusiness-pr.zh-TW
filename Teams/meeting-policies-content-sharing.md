@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: 瞭解如何在共用內容Teams管理會議策略設定。
-ms.openlocfilehash: f1fe77b2a8be552e2c156fda8d0b1bd89fa83d4c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2bd3a4274a147cad8548d0abf84a312ee7f6f259
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726502"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605619"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>會議原則設定 - 內容共用
 
@@ -66,11 +66,11 @@ ms.locfileid: "58726502"
 
 如果已為使用者開啟此設定，則共用工作階段上方列中會顯示 [授與控制權 **]** 選項。
 
-![顯示給予控制權選項的螢幕擷取畫面。](media/meeting-policies-give-control.png)
+![顯示 [授與控制權] 選項的螢幕擷取畫面。](media/meeting-policies-give-control.png)
 
-如果已為使用者的關閉該設定，則 [授與控制權 **]** 選項無法使用。
+如果已為使用者關閉該設定，則無法使用 **[授與控制權]** 選項。
 
-![螢幕擷取畫面顯示沒有提供控制權選項。](media/meeting-policies-give-control-not-available.png)
+![顯示 [授與控制權] 選項無法使用的螢幕擷取畫面。](media/meeting-policies-give-control-not-available.png)
 
 讓我們看看下列範例。
 
@@ -144,5 +144,5 @@ Daniela 可以在 Amanda 的會議中記錄筆記，而 Amanda 無法在任何�
 ## <a name="related-topics"></a>相關主題
 
 - [Teams PowerShell 概觀](teams-powershell-overview.md)
-- [將原則指派給 Teams 中的使用者](assign-policies.md)
+- [將原則指派給 Teams 中的使用者](policy-assignment-overview.md)
 - [從使用者移除 RestrictedAnonymousAccess Teams 會議原則](meeting-policies-restricted-anonymous-access.md)

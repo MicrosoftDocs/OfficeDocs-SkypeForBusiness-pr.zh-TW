@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d7c1bdde4764b56e8c45a8ad9356437525f00b56
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 87389dfaba68de8cfe02f3291e03d593bb9de75b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045719"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605829"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [班次] 應用程式
 
@@ -70,15 +70,15 @@ ms.locfileid: "60045719"
 
 若要允許或封鎖貴組織的特定使用者使用 Shifts，請確定貴組織在管理應用程式頁面上已開啟[Shifts。](../../manage-apps.md) 然後建立自訂應用程式權限原則，並將其指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](../../teams-app-permission-policies.md)。
 
-### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 FirstLineWorker 應用程式設定策略將 Shift 釘Teams
+### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 FirstLineWorker 應用程式設定政策將 Shifts 釘Teams
 
 應用程式設定原則可讓您自訂 Teams，以醒目提示對貴組織中使用者最重要的應用程式。 您在原則中設定的應用程式會釘選到應用程式列&mdash;位於 Teams 桌面版用戶端側邊列，以及位於 Teams 行動版用戶端底部&mdash;，可讓使用者快速且輕鬆地存取。
  
 Teams內建的 FirstLineWorker 應用程式設定策略，您可以指派給貴組織的前線工作人員。 根據預設，此原則包含活動、班次、聊天和通話應用程式。
 
-若要查看 FirstLineWorker 政策，在系統管理中心的左側導Microsoft Teams，請前往 Teams **設定**  >  **政策**。
+若要查看 FirstLineWorker 政策，在系統管理中心的左側導Microsoft Teams，請前往 Teams **設定**  >  **策略**。
 
-:::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="系統管理中心中 FirstLineWorker 應用程式設定Microsoft Teams螢幕擷取畫面" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
+:::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="系統管理中心中 FirstLineWorker 應用程式設定Microsoft Teams的螢幕擷取畫面" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
 
 #### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>指派 FirstLineWorker 應用程式設定策略給使用者
 
@@ -95,4 +95,4 @@ Teams內建的 FirstLineWorker 應用程式設定策略，您可以指派給貴�
 ## <a name="related-topics"></a>相關主題
 
 - [第一線員工輪班協助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [在 Teams 中將原則指派給使用者](../../assign-policies.md)
+- [在 Teams 中將原則指派給使用者](../../policy-assignment-overview.md)

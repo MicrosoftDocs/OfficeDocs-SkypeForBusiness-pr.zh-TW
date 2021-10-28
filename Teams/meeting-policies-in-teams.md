@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 了解如何在 Teams 中管理會議原則設定。 使用原則設定來控制可供使用者排程的會議的會議參與者使用的功能。
-ms.openlocfilehash: 3abdf46229884996d2a0ba180a36928983c4f7d2
-ms.sourcegitcommit: 4a9ea18808d17e2eb6e4e2e7e3894e33c14e8631
+ms.openlocfilehash: 651d6ec34a86ac7e8468aac8b8a94b8e0c5f18a5
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59474948"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605239"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>在 Teams 中管理會議原則
 
@@ -579,6 +579,6 @@ AllowMeetingReactions 設定只能使用 PowerShell 來套用。 沒有選項可
 ## <a name="related-topics"></a>相關主題
 
 - [Teams PowerShell 概觀](teams-powershell-overview.md)
-- [將原則指派給 Teams 中的使用者](assign-policies.md)
+- [將原則指派給 Teams 中的使用者](policy-assignment-overview.md)
 - [從使用者移除 RestrictedAnonymousAccess Teams 會議原則](meeting-policies-restricted-anonymous-access.md)
 - [在 Microsoft Teams 中設定網路研討會](set-up-webinars.md)

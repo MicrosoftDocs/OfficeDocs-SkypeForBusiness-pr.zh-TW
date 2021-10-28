@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中管理應用程式權限原則
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b3cacf0ef5305ac1e7bc32ba1f0c8c91ab8ec723
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2f29678b53171772bf905e2b5dfaddf3131016d9
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730832"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605249"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式權限原則
 
@@ -100,7 +100,7 @@ ms.locfileid: "58730832"
     
 2. 在 [第三方應用程式 **]** 下，關閉或開啟這些設定，以控制對第三方應用程式的存取權：
 
-    - **允許第三方應用程式**：這會控制使用者是否可以使用第三方應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何第三方應用程式。 在 Microsoft 365政府 - GCCH 和 DoD Teams，此設定預設為關閉。
+    - **允許第三方應用程式**：這會控制使用者是否可以使用第三方應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何第三方應用程式。 在 Microsoft 365政府 - GCCH 和 DoD Teams中，此設定預設為關閉。
     - **預設允許發行到商店的任何新第三方應用程式**：這會控制發佈至 Teams 應用程式商店的新第三方應用程式是否會自動在 Teams 中提供使用。 您只能在允許第三方應用程式時設定此選項。
 
 3. 在 [封鎖的應用程式 **]** 下，新增您想要在組織中封鎖存取權的應用程式。 在 Microsoft 365政府 - GCCH 和 DoD Teams中，所有協力廠商應用程式預設會新加到此清單。 針對您想要在組織中允許的任何第三方應用程式，請從此封鎖的應用程式清單中移除該應用程式。 在全組織封鎖某個應用程式時，會自動為所有使用者封鎖該應用程式，而無論任何應用程式權限原則中是否允許該應用程式。
@@ -155,4 +155,4 @@ ms.locfileid: "58730832"
 
 [在 Teams 中管理應用程式的設定](admin-settings.md)
 
-[在 Teams 中將原則指派給使用者](assign-policies.md)
+[在 Teams 中將原則指派給使用者](policy-assignment-overview.md)

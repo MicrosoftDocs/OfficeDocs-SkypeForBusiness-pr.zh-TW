@@ -1,7 +1,7 @@
 ---
 title: Teams政府政策套件
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -16,13 +16,13 @@ f1.keywords: ''
 ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何使用及管理Teams組織的政策套件。
-ms.openlocfilehash: 8f0b998540121e05f4113b298446dffefc832cb5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 瞭解如何使用及管理貴Teams組織的政策套件。
+ms.openlocfilehash: 745957168c221caf566d04a795e378c642b8ae9a
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731982"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605439"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams政府政策套件
 
@@ -80,9 +80,9 @@ Teams目前包含下列政府政策套件。
 
 若要將原則套件指派給一或多個使用者，請在 Microsoft Teams 系統管理中心的左側流覽窗格中，移至 **原則套件**，然後選取 **管理使用者**。  
 
-![如何在系統管理中心指派策略套件的螢幕擷取畫面。](media/policy-packages-healthcare-assign.png)
+![如何在系統管理中心指派原則套件的螢幕擷取畫面。](media/policy-packages-healthcare-assign.png)
 
-若要深入了解，請參閱 [指派原則套件](manage-policy-packages.md#assign-a-policy-package)。
+若要深入了解，請參閱 [指派原則套件](assign-policy-packages.md)。
 
 如果使用者已獲指派原則，後來您指派不同的原則，則會優先處理最新的指派。
 
@@ -92,13 +92,13 @@ Teams目前包含下列政府政策套件。
 
 透過向群組指派原則套件，可以將多個原則指派給一組使用者，例如安全性群組或通訊群組。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。 此方法推薦用於最多 50000 個使用者的群組，但也適用於較大的群組。
 
-若要深入了解，請參閱 [將原則套件指派到群組](assign-policies.md#assign-a-policy-package-to-a-group)。
+若要深入了解，請參閱 [將原則套件指派到群組](assign-policy-packages.md#assign-a-policy-package-to-a-group)。
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>為一大組 (批) 使用者指派原則套件
 
 使用批次原則套件指派，將原則套件一次性指派給大組使用者組。 您可以使用 [CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) Cmdlet 來提交一批使用者和您要指派的原則套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。
 
-批次最多可包含 5000 個使用者。 您可以使用使用者的物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入了解，請參閱 [將原則套件指派到一批使用者](assign-policies.md#assign-a-policy-package-to-a-batch-of-users)。
+批次最多可包含 5000 個使用者。 您可以使用使用者的物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入了解，請參閱 [將原則套件指派到一批使用者](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)。
 
 ## <a name="related-topics"></a>相關主題
 

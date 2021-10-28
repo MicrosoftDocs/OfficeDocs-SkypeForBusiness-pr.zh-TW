@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在組織中使用及管理本機號碼Microsoft Teams變更或封鎖組織中Teams使用者的本機號碼。
-ms.openlocfilehash: 455bf7e6f2b0e29824188dab3c14ff6cc6b51c91
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a511e86efcaba8ec5dd81718bf768cc45fbf2ad0
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731222"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605429"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>管理 Microsoft Teams 中的來電顯示原則。
 
@@ -32,9 +32,9 @@ ms.locfileid: "58731222"
 
 根據預設，當Teams使用者撥打 PSTN 電話時，系統Teams使用者的電話號碼。 同樣地，當 PSTN 來電者撥打Teams，PSTN 來電者的電話號碼即會顯示。
 
-做為系統管理員，您可以使用本機號碼策略來變更或封鎖本機號碼 (也稱為電話線識別碼) 。 您可以使用本機號碼政策來顯示組織中 Teams 使用者的備用電話號碼、封鎖外發電話號碼、封鎖本機號碼，或設定呼叫方名稱 (CNAM) 。 例如，當使用者進行通話時，您可以變更本機號碼號碼，以顯示貴組織的主要電話號碼和公司名稱，而不是使用者的電話號碼。
+作為系統管理員，您可以使用本機號碼策略來變更或封鎖本機號碼 (也稱為電話線識別碼) 。 您可以使用本機號碼政策來顯示組織中 Teams 使用者的備用電話號碼、封鎖外發電話號碼、封鎖本機號碼，或設定通話方名稱 (CNAM) 。 例如，當使用者進行通話時，您可以變更本機號碼號碼，以顯示貴組織的主要電話號碼和公司名稱，而不是使用者的電話號碼。
 
-您可以到系統管理中心的 **語音** 本機號碼Microsoft Teams  >  管理本機號碼政策。 您可以使用全域 (全組織預設值) 原則，或建立並指派自訂原則。 除非您建立並指派自訂原則，否則組織中的使用者將會自動取得全域原則。
+您可以到系統管理中心中的 **語音** 本機號碼Microsoft Teams  >  管理本機號碼政策。 您可以使用全域 (全組織預設值) 原則，或建立並指派自訂原則。 除非您建立並指派自訂原則，否則組織中的使用者將會自動取得全域原則。
 
 ## <a name="create-a-custom-caller-id-policy"></a>建立自訂本機號碼策略
 
@@ -70,8 +70,8 @@ ms.locfileid: "58731222"
 
 ## <a name="related-topics"></a>相關主題
 
-[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity?view=skype-ps)
+[New-CsCallingLineIdentity](/powershell/module/skype/new-cscallinglineidentity)
 
-[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity?view=skype-ps)
+[Set-CsCallingLineIdentity](/powershell/module/skype/set-cscallinglineidentity)
 
-[在 Teams 中將原則指派給使用者](assign-policies.md)
+[在 Teams 中將原則指派給使用者](policy-assignment-overview.md)

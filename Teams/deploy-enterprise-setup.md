@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d67dbb494a0bde5212d405e5710a7c2730734e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f05616de4f315cee115ee9767a52eea09297dfcf
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584627"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605819"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>在您的企業中設定 Microsoft Teams
 
@@ -95,7 +95,7 @@ ms.locfileid: "58584627"
 | 決策 | 描述 |
 |--|--|
 | 應套用哪些全組織會議設定| 會議原則控制哪些會議功能可供會議召集人和參與者使用。 您可以控制匿名參與者是否可以加入會議、自訂會議邀請、控制即時媒體的處理方式等等。 當您對這些設定進行變更時，設定會套用到貴組織中的所有會議。 <p>[在 Microsoft Teams 中管理會議設定](meeting-settings-in-teams.md)|
-| 應套用哪些會議原則？ | 會議原則是針對由您組織中的使用者所排程的會議，控制會議參與者可用於會議的功能。 您可以控制使用者是否可以排程私人會議、啟用 [現在開會] 選項、允許錄製會議等等。 Teams 具有適用於所有人的全域原則。<p> 如果您想要將相同的原則套用于所有人，您只需要變更此全域原則 (例如，關閉會議錄製功能)。 <p>如果您想要將不同的原則套用于不同的人員群組 (例如，將一個原則套用于辦公室員工，另一個原則套用于主管)，您可以建立並指派原則。 當您將原則指派給使用者時，他們將不再適用全域原則。<p> [管理 Teams 中的會議原則](meeting-policies-in-teams.md)|
+| 應套用哪些會議原則？ | 會議原則是針對由您組織中的使用者所排程的會議，控制會議參與者可用於會議的功能。 您可以控制使用者是否可以排程私人會議、啟用 [現在開會] 選項、允許錄製會議等等。 Teams 具有適用於所有人的全域原則。<p> 如果您想要將相同的原則套用于所有人，您只需要變更此全域原則 (例如，關閉會議錄製功能)。 <p>如果您想要將不同的原則套用于不同的人員群組 (例如，將一個原則套用于辦公室員工，另一個原則套用于主管)，您可以建立並指派原則。 當您將原則指派給使用者時，他們將不再適用全域原則。<p> [管理 Teams 中的會議原則](meeting-policies-overview.md)|
 | 是否要允許會議錄製及封存？| 會議召集人可以在雲端中錄製及封存會議。 您可以使用會議原則開啟或關閉會議錄製和封存功能。<p> [Teams 雲端會議錄製](cloud-recording.md) |
 
 ### <a name="audio-conferencing"></a>音訊會議
@@ -145,12 +145,12 @@ Teams 和 Microsoft 365 提供許多工具，協助符合貴公司和使用者�
 | [通訊合規性](communication-compliance.md)| 透過識別冒犯性、褻瀆性及騷擾性語言；成人色情內容、血腥影像；以及敏感性資訊的分享，並對此採取行動，以協助降低通訊風險。 |
 | [通話和會議的原則式錄製](teams-recording-policy.md)| 可讓您控制何時或是否要自動錄製並儲存通話和會議，供日後處理、保留或分析。|
 | [敏感度標籤](sensitivity-labels.md)| 建立強制執行所選隱私權選項的標籤，協助您保護及規範敏感性資訊的存取。|
-| [資料遺失防護](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| 可讓您建立規則，決定如何處理特定資訊 (例如社會安全號碼、信用卡號碼等等)。 您可以防止特定資訊的傳送、避免該資訊自貴組織流出等等。|
+| [資料遺失防護](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 可讓您建立規則，決定如何處理特定資訊 (例如社會安全號碼、信用卡號碼等等)。 您可以防止特定資訊的傳送、避免該資訊自貴組織流出等等。|
 | [電子文件探索](eDiscovery-investigation.md)| 當貴組織在法律程序中收到資訊探索要求時，可協助您搜尋並檢索貴組織中的內容。 |
 | [法務保存措施](legal-hold.md)| 可協助您將資訊保留在貴組織中 (即使該資訊已遭使用者刪除)，則若法律程序期間需要該文件，便可在電子文件探索調查過程中找到。 |
 | [內容搜尋](content-search.md)| 提供跨 Exchange、SharePoint Online 和商務用 OneDrive 查詢 Teams 資訊的方法。|
 | [稽核](audit-log-events.md)| 可讓您查看指定動作的資訊，包括動作執行者、執行動作時間、使用的 IP 位址等等。 動作包括在 Teams 中建立或刪除團隊、建立頻道、變更設定等等。|
-| [客戶金鑰](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| 可讓您使用您提供的加密金鑰來建立資料加密原則。|
+| [客戶金鑰](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 可讓您使用您提供的加密金鑰來建立資料加密原則。|
 
 ## <a name="clients"></a>用戶端
 

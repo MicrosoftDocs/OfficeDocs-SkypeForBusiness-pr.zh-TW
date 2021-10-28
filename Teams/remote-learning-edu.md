@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e6bd14eabadc96084973d3e998291a577dbbfc7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3a2772fe0f190bf7280dc4bb11625aedb3d0157b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729812"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605839"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -93,12 +93,12 @@ Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如
 
 Teams 原則能讓您控制特定使用者或使用者群組可用的選項。 您可以套用原則來定義應允許哪些人員使用私人聊天、私人通話、會議排程、可以共用的內容類型等等。
 
-**高等教育教職員、授課者和學生** 都能因為預設 (全域) 原則所包含的功能而從中獲益。 您可以啟用部分其他原則設定，以新增更多功能至 Teams，包括[在訊息原則中啟用翻譯功能](messaging-policies-in-teams.md#messaging-policy-settings)，以及在會議原則中[允許自動謄寫會議](meeting-policies-in-teams.md#allow-transcription)。
+**高等教育教職員、授課者和學生** 都能因為預設 (全域) 原則所包含的功能而從中獲益。 您可以啟用部分其他原則設定，以新增更多功能至 Teams，包括[在訊息原則中啟用翻譯功能](messaging-policies-in-teams.md#messaging-policy-settings)，以及在會議原則中[允許自動謄寫會議](meetings-policies-recording-and-transcription.md#allow-transcription)。
 
 **中小學學校學生** 可能需要為學生提供受限制的功能。 原則會設定學生可以執行動作的範圍。 因為學生人口通常是最大的使用者集合，而且通常會取得最受限制的設定，建議您將學生原則變更為 [全域 (全組織預設)] 原則。
 
 > [!IMPORTANT]
-> 對於指派給任何使用者的會議原則，我們建議您將 [自動准許人員] 設定設為 [組織中的所有人]。 此設定可確保未驗證的使用者必須先在大廳獲准後才能加入 Teams 會議。 如需詳細資訊，請參閱 [[Teams 管理會議原則]](./meeting-policies-in-teams.md#automatically-admit-people)。
+> 對於指派給任何使用者的會議原則，我們建議您將 [自動准許人員] 設定設為 [組織中的所有人]。 此設定可確保未驗證的使用者必須先在大廳獲准後才能加入 Teams 會議。 如需詳細資訊，請參閱 [[Teams 管理會議原則]](meeting-policies-participants-and-guests.md#automatically-admit-people)。
 
 **小學教職員和授課者** 應獲指派可授與可對學生限制之核心功能的原則。 建立允許私人交談和會議排程 (新原則的預設設定) 的新原則。 [將這些原則大量指派給您的教職員和授課者](batch-group-policy-assignment-edu.md)。
 

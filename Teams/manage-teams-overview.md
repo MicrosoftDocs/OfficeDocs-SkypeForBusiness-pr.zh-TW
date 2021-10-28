@@ -16,12 +16,12 @@ ms.reviewer: ''
 description: 如何管理及監控Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e3c30bb4aeba2866bcce042c3ce11840ec8e9d68e73386bfcb4f3b434a136506
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9dde19876721cde124bb72f8ced2a5dc2e84102f
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279700"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605779"
 ---
 # <a name="manage-and-monitor-teams"></a>管理及監控Teams
 
@@ -37,17 +37,17 @@ Teams提供數種工具來管理及監控Teams服務，以及管理貴組織的�
 
 - [管理Teams的設定](enable-features-office-365.md)。 請閱讀本文，瞭解如何管理來賓Teams外部存取、通知、電子郵件整合及裝置等設定。  
 
-- [與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)。 請閱讀本文以瞭解來賓與外部存取之間的差異，以及這兩者提供哪些功能。 本節的其他文章說明如何管理來賓和外部存取。
+- [與來自其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)。 請閱讀本文以瞭解來賓與外部存取之間的差異，以及兩者均提供哪些功能。 本節的其他文章說明如何管理來賓和外部存取。
 
-- [管理原則](assign-policies.md)。 請閱讀本文，瞭解如何定義及指派管理使用者、許可權及Teams規則。
+- [管理原則](policy-assignment-overview.md)。 請閱讀本文，瞭解如何定義及指派管理使用者、許可權及Teams規則。
 
 - [監控及管理通話品質](monitor-call-quality-qos.md)。 請閱讀本文，瞭解如何使用可用於監控及改善貴組織的通話品質的工具。
 
-- [系統管理Teams中的報表](teams-analytics-and-reports/teams-reporting-reference.md)，以及[系統管理中心中的報表Microsoft 365 系統管理中心。](teams-activity-reports.md) 請閱讀這些文章，瞭解哪些報表可供使用，以及如何使用這些報告來監控Teams和服務健康情況。
+- [系統管理Teams中的報表](teams-analytics-and-reports/teams-reporting-reference.md)，以及[系統管理中心中的 Microsoft 365 系統管理中心。](teams-activity-reports.md) 請閱讀這些文章，瞭解哪些報表可供使用，以及如何使用這些報告來監控Teams和服務健康情況。
 
 - [操作您的服務並](teams-analytics-and-reports/teams-reporting-reference.md)[強化您的服務](upgrade-enhance-my-service.md)。 請閱讀這些文章，以瞭解如何操作及強化您的Teams藍圖。
 
-部分管理主題會保留在相關的工作負載區段下。 詳細資訊請參閱下列概觀文章：
+部分管理主題會保留在相關的工作負載區段下。 詳細資訊，請參閱下列概觀文章：
 
 - [聊天、團隊、頻道](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [會議和音訊會議](deploy-meetings-microsoft-teams-landing-page.md)

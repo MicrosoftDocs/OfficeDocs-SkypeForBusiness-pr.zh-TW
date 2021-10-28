@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d7eac555d5b48bb704e2699c99eff7c1a2969cc3
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 1505d8e9bd385d2dce35cb0c7dad24b5988bf0cc
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012757"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605809"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何為一線員工大規模佈建 Teams
 
@@ -387,7 +387,7 @@ Microsoft 付費雲端服務 (例如 Microsoft 365、Office 365、Enterprise Mob
 
 ## <a name="further-reading"></a>深入閱讀
 
-- [新增小組頻道 (PowerShell)](/powershell/module/teams/new-teamchannel?view=teams-ps)
-- [新增 Teams 訊息原則 (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy?view=skype-ps)
-- [在 Microsoft Teams 中將原則指派給使用者](assign-policies.md#install-and-connect-to-the-microsoft-teams-powershell-module)
+- [新增小組頻道 (PowerShell)](/powershell/module/teams/new-teamchannel)
+- [新增 Teams 訊息原則 (PowerShell)](/powershell/module/skype/new-csteamsmessagingpolicy)
+- [在 Microsoft Teams 中將原則指派給使用者](policy-assignment-overview.md)
 - [使用 Office 365 PowerShell 指派授權和使用者帳戶](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)

@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 87533fdff4905866a121ae4a6149333b6e8a62b6
-  ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+  ms.openlocfilehash: bfdb7ceab9e4a3d3ffebf903b073c5ec707e7bc6
+  ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 08/26/2021
-  ms.locfileid: "58620729"
+  ms.lasthandoff: 10/28/2021
+  ms.locfileid: "60605599"
 items:
 - durationInMinutes: 1
   content: >
@@ -82,7 +82,7 @@ items:
   content: "\n### <a name=\"licensing\"></a>授權\n儘管您可以在沒有任何其他授權的情况下舉行會議—您只需要 Microsoft Teams 的權限—但有些情况下確實需要其他授權。\n\n音訊會議允許參與者透過一般電話加入 Teams 會議，這需要其他授權。 這將在專用的音訊會議訓練中解决。\n\n如需詳細資訊，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。\n\n### <a name=\"bandwidth-and-media-flow\"></a>頻寬和媒體流程\n在 Teams 中，有兩種啟動即時通訊的方法：\n-   使用者可以直接撥號給另一個使用者\n-   使用者可以為通話、媒體 (音訊、視訊、桌面或應用程式共用) 盡可能直接地建立會議 (臨機操作或已排程會議)。 例如，如果兩個使用者之間沒有防火牆 (例如，兩個使用者都位於同一個網路內)，則媒體流量直接從一個使用者傳輸到另一個使用者。 如果防火牆封鎖了使用者之間的直接通訊，流量將透過轉送發送。\n\n對於會議，所有流量首先傳送到駐留在 Office 365 中的會議服務。 音訊流量在那裡收集並混合後再傳送回；視訊流量和應用程式或桌面共用被接收並發佈給與會者。\n\n<strong>重要！</strong>\n在 COVID-19 疫情爆發期間，我們建議使用者按一下 [加入 Teams 會議]<strong></strong> 按鈕，而不要使用 PSTN 會議號碼或使用 [撥號給我]<strong></strong> 來加入會議。 這主要是因為受到 COVID-19 影響的國家/地區電話語音架構擁塞。 藉由避免 PSTN 通話，您可能會體驗到更好的音質。 \n\n本訓練不包括頻寬規劃，但它對使用者體驗至關重要。\n\n如需詳細資訊，請參閱[針對 Teams 準備組織的網路](./prepare-network.md)\n\n### <a name=\"exchange-dependencies\"></a>Exchange 相依性\n\n對於使用 Exchange Server 內部部署的客戶，在從 Teams 用戶端建立和檢視會議時，可能存在一些限制 (取決於 Exchange Server 的版本)，但在合規性遵從性方面也存在一些限制。\n檢閱  [Exchange 和 Microsoft Teams 如何互動](./exchange-teams-interact.md) (估計閱讀時間為 3 分鐘)，瞭解潜在的限制。\n\n### <a name=\"end-meetings-for-all-participants\"></a>結束所有參與者的會議\n\n會議召集人可以透過在會議中按一下 **[結束會議]** 結束所有參與者的會議。 這在以下情况下非常有用：\n-   授課者就能在課程完成之後，確保學生不會留在會議中而不受監督。\n-   對於正在錄製的會議 (如網路研討會)，會議召集人可以確保錄製在會議結束時結束。  \n\n若要深入了解，請參閲[為所有與會人員結束 Teams 會議](https://support.office.com/article/end-a-teams-meeting-for-everyone-in-attendance-5051fa72-8470-4a38-99e4-014535208971)。\n\n### <a name=\"change-participant-settings-for-a-meeting\"></a>變更會議的參與者設定\n\n會議召集人可以在 **[會議選項]** 中變更特定會議的預設參與者設定。 有三種方法可以實現：\n-   在 Teams 中轉到行事曆，選取會議，然後選取 **[會議選項]**。 \n-   在會議邀請中，選取 **[會議選項]**。\n-   選取 **[顯示參與者]** 以開啟 **[人員]** 窗格，然後選取 **[管理權限]**。 \n\n若要深入了解，請參閱[變更 Teams 會議的參與者設定](https://support.microsoft.com/article/change-participant-settings-for-a-teams-meeting-53261366-dbd5-45f9-aae9-a70e6354f88e)。\n"
 - title: 會議組態選項
   durationInMinutes: 20
-  content: "\n作為 IT 管理員，您可以設定會議原則和設定來定義會議體驗。\n\n### <a name=\"meeting-policies\"></a>會議原則\n\n使用 Teams 會議原則控制組織中使用者規劃的會議之會議參與者可用的功能。 若要深入瞭解，請參閱[在 Teams 中管理會議原則](./meeting-policies-in-teams.md)。(預計閱讀時間 16 分鐘) \n\n### <a name=\"meeting-settings\"></a>會議設定\n\n使用 Teams 會議設定，來控制匿名使用者是否可以加入 Teams 會議、自訂會議邀請，以及如果您要啟用服務品質 (QoS)，則要針對即時流量設定連接範圍。 這些設定適用於使用者在貴組織中排程的所有 Teams 會議。 若要深入瞭解，請參閱[在 Teams 中管理會議設定](./meeting-settings-in-teams.md)。\n(預計閲讀時間為 4 分鐘)。\n"
+  content: "\n作為 IT 管理員，您可以設定會議原則和設定來定義會議體驗。\n\n### <a name=\"meeting-policies\"></a>會議原則\n\n使用 Teams 會議原則控制組織中使用者規劃的會議之會議參與者可用的功能。 若要深入瞭解，請參閱[在 Teams 中管理會議原則](meeting-policies-overview.md)。(預計閱讀時間 16 分鐘) \n\n### <a name=\"meeting-settings\"></a>會議設定\n\n使用 Teams 會議設定，來控制匿名使用者是否可以加入 Teams 會議、自訂會議邀請，以及如果您要啟用服務品質 (QoS)，則要針對即時流量設定連接範圍。 這些設定適用於使用者在貴組織中排程的所有 Teams 會議。 若要深入瞭解，請參閱[在 Teams 中管理會議設定](./meeting-settings-in-teams.md)。\n(預計閲讀時間為 4 分鐘)。\n"
 - title: 練習 - 設定會議
   durationInMinutes: 20
   content: "\n在這個練習中，您將有機會在 Teams 中測試會議。 雖然我們沒有描述如何執行每個案例，但我們推薦一些情況來嘗試。\n\n### <a name=\"requirements\"></a>需求\n-   具有使用 Teams 的適當權限的 Office 365 組織\n    -   我們強烈建議您使用專用測試租用戶。\n    -   如果您沒有測試租用戶，則可以在 [Office 365 企業版 E5 試用版](https://go.microsoft.com/fwlink/p/?LinkID=698279)上注册試用租用戶。\n    -   不要在實際執行環境中執行任何測試。 更改設定或原則可能會對所有使用者產生負面影響，並可能影響他們的使用者體驗。\n-   至少兩個端點\n   -   這可以是兩台電腦，但您也可以在手機上使用用戶端。\n\n### <a name=\"suggested-scenarios-to-test\"></a>建議測試的場景\n-   在 Teams 用戶端中安排不同的會議類型：頻道會議、臨機操作會議、私人會議。\n-   使用 [Outlook 增益集](./teams-add-in-for-outlook.md) 排程會議。\n-   對於排程會議，在會議開始前開始聊天 (例如討論議程)。\n-   參加會議並測試不同的場景和工作負載：例如，僅音訊、視訊、桌面共用。\n-   從瀏覽器加入會議，而無需登入到您的租用戶 (您可能需要使用「InPrivate」瀏覽)，以體驗匿名加入會議的感覺。\n-   登入到 Microsoft Teams 系統管理中心並變更會議的某些設定 (例如，停用私人會議的排程)。 這對使用者體驗有何影響？\n-   作為會議召集人，結束所有參與者的會議。    \n"
