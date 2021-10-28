@@ -981,6 +981,11 @@
               href: ../../SfbServer/manage/conferencing/meeting-join-page.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: 管理命令介面
           href: ../../SfbServer/manage/management-shell.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+        - name: 控制台
+          href: ../../SfbServer2019/control-panel-overview.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
+          items:
+            - name: 用戶端
+              href: ../../SfbServer2019/use-powershell-client-menu.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
         - name: 驗證
           href: ../../SfbServer/manage/authentication/authentication.md?toc=/SkypeForBusiness/sfbs2019toc/toc.json&bc=/SkypeForBusiness/breadcrumb/toc.json
           items:
