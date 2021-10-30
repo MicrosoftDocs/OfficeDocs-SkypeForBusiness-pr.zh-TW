@@ -22,18 +22,18 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: b861278bd4ae8081f7bb930a94c602ba4f7507a7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: adf3f91e7a2237c52cdd25892a1eb6b3d634ecf7
+ms.sourcegitcommit: 40e00edba47ca4352851222c59443e1815612b1e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726522"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "60624224"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>什麼是 Microsoft Teams 即時活動
 
 ## <a name="overview"></a>概觀
 
-透過 Teams 即時活動，組織中的使用者可將影片和會議內容廣播給更多的線上觀眾。
+透過 Teams 即時活動，組織中的使用者可將影片和會議內容廣播給廣大的線上觀眾。
 
 Microsoft 365 即時活動將即時影片串流帶到新的層次。 即時活動鼓勵與出席者在即時期間和之後建立整個參與期間的聯繫。 不論觀眾、小組或社群身處何處，您都可以使用 Microsoft Stream、Teams 或 Yammer 來建立即時活動。  
 

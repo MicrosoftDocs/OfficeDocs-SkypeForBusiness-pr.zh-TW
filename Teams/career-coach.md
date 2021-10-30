@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0dd2bb016498df23a98c1e289679fd1c4e4cfa38
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8be2464d765ef45097a1f78681933fa798c129c3
+ms.sourcegitcommit: 40e00edba47ca4352851222c59443e1815612b1e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729692"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "60624234"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>購買、設定及啟用職涯教練Microsoft Teams
 
-職涯教練是由Microsoft Teams 教育版所提供LinkedIn應用程式，提供個人化指引給高教學生流覽其事業歷程。 職涯教練為教育機構提供統一的生涯解決方案，讓學生探索其事業路徑、培養實際技能，以及將網路全部建在一個地方。
+職涯教練是由Microsoft Teams 教育版提供的LinkedIn應用程式，提供個人化指引給高教學生流覽其事業歷程。 職涯教練為教育機構提供統一的生涯解決方案，讓學生探索其事業路徑、培養實際技能，以及將網路全部建在一個地方。
 
 ## <a name="supported-languages"></a>支援的語言
 
 職涯教練語言進行當地語系化：
 
 - 中文 (簡體、中國大陸) 
-- 繁 (繁體中文、臺灣) 
+- 繁 (傳統、臺灣) 
 - 英文 (英文) 
 - 英國 (英文) 
 - 加拿大 (法文) 
@@ -81,7 +81,7 @@ ms.locfileid: "58729692"
 
 ## <a name="purchase-the-career-coach-licenses"></a>購買職涯教練授權
 
-職涯教練 (除了中國與俄羅斯) 之外，還透過教育版註冊解決方案 (EES) 、雲端服務提供者 (雲端解決方案提供者) 和 Microsoft 365 系統管理中心 (Web 直接) 提供附加授權。 做為Microsoft Teams應用程式，客戶必須擁有 Microsoft 365 A3/A5 或 Office 365 A1/A3/A5 才能購買附加元件職涯教練授權。
+職涯教練 (除了中國及俄羅斯) 之外，還透過註冊教育版解決方案 (EES) 、雲端服務提供者 (雲端解決方案提供者) 和 Microsoft 365 系統管理中心 (Web 直接) 提供合格高等教育機構的附加授權。 客戶Microsoft Teams應用程式，必須擁有 Microsoft 365 A3/A5 或 Office 365 A1/A3/A5 才能購買附加元件職涯教練授權。
 
 ### <a name="assign-app-licenses-to-users"></a>指派應用程式授權給使用者
 
@@ -89,9 +89,9 @@ ms.locfileid: "58729692"
 
 ### <a name="turn-on-linkedin-account-connections"></a>開啟LinkedIn帳戶連結
 
-職涯教練 **要求** 教育機構的使用者能夠將他們的 Microsoft 365 帳戶與LinkedIn內便利的帳戶職涯教練
+職涯教練 **要求** 教育機構的使用者能夠將其帳戶與Microsoft 365帳戶LinkedIn在 職涯教練
 
-1. 使用 Azure [AD](https://aad.portal.azure.com/) 組織的全域系統管理員帳戶來登錄 Azure AD 系統管理中心。
+1. 使用一個[Azure AD](https://aad.portal.azure.com/)全域系統管理員的帳戶，Azure AD系統管理中心。
 
 2. 選取 **使用者**。
 
@@ -109,36 +109,36 @@ ms.locfileid: "58729692"
 
 ## <a name="configure-career-coach-in-the-teams-admin-center"></a>在 職涯教練 系統管理中心Teams帳戶
 
-您可以使用系統管理Microsoft Teams中的系統管理設定，職涯教練教育機構的管理員設定，並讓使用者啟用。
+您可以使用系統管理中心中的Microsoft Teams設定，職涯教練教育機構的管理員設定，並讓使用者啟用。
 
 **要考慮的事情**
 
-- 下列各節必須完成，才能使用職涯教練 - 品牌和喜好設定、LinkedIn
+- 下列各節必須完成，才能職涯教練使用 - 品牌和喜好設定、LinkedIn
 - 課程目錄和學習欄位的 CSV 具有必要的格式，且最大大小為 18 MB
 
-- 如果您在應用程式上看到「職涯教練目前正在設定中，職涯教練即將使用」，則所需章節尚未完成。
+- 如果您在應用程式上看到「職涯教練目前正在設定中，職涯教練即將使用」，則所需的節尚未完成。
 
 - 在包含所需欄位的設定頁面上，如果欄位尚未完成，頁面將不會提交
   - 使用者不會看到警告訊息，頁面不會提交
 
 ## <a name="access-the-career-coach-app-settings"></a>存取 職涯教練 應用程式設定
 
-使用管理[應用程式頁面](/microsoftteams/manage-apps)，Teams教育機構應用程式目錄中的 App。
+使用管理[應用程式頁面](/microsoftteams/manage-apps)來Teams教育機構應用程式目錄中的 App。
 
 1. 請Teams **系統管理中心**。
 
 2. 在左側流覽中，選取 **Teams**  >  **應用程式管理應用程式**。  
 
     > [!NOTE]
-    > 您必須是全域系統管理員或Teams系統管理員才能存取頁面。
+    > 您必須是全域系統管理員Teams服務系統管理員才能存取頁面。
 
 3. 搜尋 **或流覽** 職涯教練。  
 
 4. 選取 **職涯教練**，然後選取 **設定。**  
 
-    ![顯示已職涯教練應用程式，設定選項。](media/career-coach-app.png)
+    ![顯示已選取職涯教練應用程式，設定選項。](media/career-coach-app.png)
 
-### <a name="configure-the-career-coach-app-settings"></a>設定 職涯教練應用程式設定
+### <a name="configure-the-career-coach-app-settings"></a>設定職涯教練應用程式設定
 
 職涯教練有五種組組類別：
 
@@ -153,7 +153,7 @@ ms.locfileid: "58729692"
 - [定制](#customization)
 
 > [!NOTE]
-> 品牌和喜好設定LinkedIn設定、課程目錄和學習領域，才能有效啟用適用于學生、教職員的應用程式。
+> 品牌和喜好設定LinkedIn設定、課程目錄和學習領域，才能有效地為學生、教職員啟用應用程式。
 
 #### <a name="brand-and-preferences"></a>品牌和喜好設定
 
@@ -185,17 +185,17 @@ ms.locfileid: "58729692"
 此LinkedIn組會職涯教練與來自 LinkedIn 的公開畢業生資料。
 
 > [!NOTE]
-> 這是必要的節-職涯教練未驗證頁面LinkedIn啟用。
+> 這是必要的節- 職涯教練未驗證頁面連結LinkedIn啟用。
 
 ##### <a name="add-and-confirm-the-linkedin-page"></a>新增並確認LinkedIn頁面
 
-決定教育機構的LinkedIn頁面。 搜尋LinkedIn或連LinkedIn職員工成員，以判斷要使用的正確頁面，以尋找該頁面。  
+決定教育機構的LinkedIn頁面。 在 LinkedIn搜尋或LinkedIn職員工成員，以判斷要使用的正確頁面，以尋找該頁面。  
   
 1. 請Teams **系統管理中心**。
 
-1. 選取 **Teams 應用程式**  >  **管理應用程式**  >  **職涯教練LinkedIn**  >  **連接**。
+1. 選取 **Teams**  >  **應用程式 管理應用程式**  >  **職涯教練LinkedIn**  >  **連接**。
 
-2. 在 LinkedIn 上搜尋並選取學校篩選，LinkedIn頁面。 或者，請連上職教職員成員，LinkedIn學校頁面的正確選項。 [如何識別LinkedIn頁面](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)
+2. 在 LinkedIn上搜尋並選取學校篩選，LinkedIn頁面。 或者，請連上職教職員成員，LinkedIn學校頁面的正確選項。 [如何識別LinkedIn頁面](https://www.linkedin.com/help/linkedin/answer/40133/differences-between-a-linkedin-page-for-a-school-and-company?lang=en)
 
     ![LinkedIn搜尋學校。](media/career-coach-school-search.png)
 
@@ -209,12 +209,12 @@ ms.locfileid: "58729692"
 
    ![LinkedIn教練應用程式建立關聯。](media/career-coach-linked-in.png)  
 
-6. 複製驗證連結，並與您教育機構的LinkedIn系統管理員共用。如需進一LinkedIn頁面系統管理員角色， [請參閱LinkedIn管理檔](https://www.linkedin.com/help/linkedin/answer/102672)。
+6. 複製驗證連結，然後與教育機構的LinkedIn系統管理員共用。如需進一LinkedIn頁面系統管理員角色，請參閱LinkedIn [管理檔](https://www.linkedin.com/help/linkedin/answer/102672)。
 
-7. 頁面LinkedIn系統管理員，會使用唯一的驗證連結職涯教練學校頁面建立關聯。 [有關頁面驗證的其他LinkedIn檔](https://www.linkedin.com/help/linkedin/answer/102672)。
+7. 頁面LinkedIn系統管理員，會使用唯一的驗證連結職涯教練學校頁面建立關聯。 [有關頁面驗證LinkedIn檔](https://www.linkedin.com/help/linkedin/answer/102672)。
 
 > [!NOTE]
-> 若要完成LinkedIn頁面的LinkedIn，必須職涯教練。
+> 需要頁面LinkedIn管理員的驗證，才能完成LinkedIn的職涯教練。
 
    ![LinkedIn開發人員入口網站LinkedIn頁面驗證。](media/career-coach-linkedin-verification.png)
 
@@ -223,7 +223,7 @@ ms.locfileid: "58729692"
 課程目錄代表教育機構提供給學生的課程和課程。
 
 > [!NOTE]
-> 這是必填區段-職涯教練課程目錄無法啟用。
+> 這是必要的節-職涯教練課程目錄無法啟用。
 
 這些課程在 App 中用於兩個區域：
 
@@ -244,7 +244,7 @@ ms.locfileid: "58729692"
 
 | 名稱             | 地位      | 類型   | 描述                                                                    |
 |------------------|-------------|--------|--------------------------------------------------------------------------------|
-| courseId         | 必要    | 字串 | 課程識別碼通常 (與文字記錄中產生的內容) 。 |
+| courseId         | 必要    | 字串 | 課程識別碼通常 (會與文字記錄中產生的內容) 。 |
 | 標題            | 必要    | 字串 | 通常是課程標題。                                                      |
 | sourceLink       | 必要    | URL    | 課程頁面的網站連結。                                               |
 | 描述      | 建議 | 字串 | 課程簡介文字。                                              |
@@ -259,7 +259,7 @@ ms.locfileid: "58729692"
 
 1. 請Teams **系統管理中心**。
 
-1. 選取 **Teams** &gt; **管理應用程式** &gt;  &gt; **職涯教練設定** &gt; **課程目錄**。  
+1. 選取 **Teams** &gt; **管理應用程式** &gt; **職涯教練設定** &gt;  &gt; **目錄**。  
 
 2. Upload CSV 格式的課程，並包含必要的欄：courseId、title、sourceLink。 每一列都必須包含每個所需資料行的資料。
 
@@ -274,7 +274,7 @@ ms.locfileid: "58729692"
 學習領域與主要興趣領域、學術專業和學位是同義字。 學生開始使用應用程式並開始設定個人化設定檔時，會參照這些標題。
 
 > [!NOTE]
-> 這是必要的節-職涯教練沒有研究欄位清單，無法啟用此功能。
+> 這是必填區段- 職涯教練沒有研究欄位清單，無法啟用此功能。
 
 新增所有學生可用的學習欄位，例如工程、英文、商務等等。 欄位清單可讓學生探索可能感興趣的學習欄位，並新增其焦點區域至其設定檔。
 
@@ -298,7 +298,7 @@ ms.locfileid: "58729692"
 
 #### <a name="customization"></a>定制
 
-職涯教練可自訂為您的教育機構所獨一無二的。 自訂支援新增體驗至儀表板。 建議您新增工作委員會、活動、職稱服務辦公室、職稱相關活動、學生俱樂部的連結，以及協助學生取得實際經驗的其他資源。
+職涯教練可自訂為教育機構所獨一無二的。 自訂支援新增體驗至儀表板。 建議您新增工作委員會、活動、職稱服務辦公室、職稱相關活動、學生俱樂部的連結，以及協助學生取得實際經驗的其他資源。
 
 ##### <a name="add-customized-experiences"></a>新增自訂體驗
 
@@ -333,7 +333,7 @@ ms.locfileid: "58729692"
 ### <a name="add-career-coach-as-an-installed-app"></a>新增職涯教練為已安裝的應用程式
 
 > [!NOTE]
-> 此步驟可確保有 1 個) 職涯教練為貴組織 2 正確) 學生找到職涯教練。
+> 此步驟可確保有 1 個) ，職涯教練為貴組織 2 正確) 學生找到職涯教練。
 
 1. 請Teams **系統管理中心**。
 
@@ -341,7 +341,7 @@ ms.locfileid: "58729692"
 
 3. 在安裝的應用程式下，選取新增應用程式。
 
-4. 在新增已安裝的應用程式窗格中，搜尋使用者在啟動應用程式時自動安裝Teams。 您也可以根據應用程式權限原則篩選應用程式。 當您選擇應用程式清單時，請選取新增。
+4. 在新增已安裝的應用程式窗格中，搜尋使用者在開始使用應用程式時要自動安裝Teams。 您也可以根據應用程式權限原則篩選應用程式。 當您選擇應用程式清單時，請選取新增。
 
 ### <a name="pin-the-app"></a>釘上應用程式
 
@@ -358,9 +358,21 @@ ms.locfileid: "58729692"
 5. 選擇應用程式顯示的順序， **然後選取** 儲存 。
 
 > [!NOTE]
-> 學生會收到已Microsoft Teams職涯教練的通知。
+> 學生會收到已Microsoft Teams職涯教練通知。
 
 請參閱 [在 Microsoft 中管理應用程式設定](/microsoftteams/teams-app-setup-policies) 政策以進一步詳細資料。
+
+## <a name="removing-your-tenant-data"></a>移除租使用者資料
+
+您的租使用者資料包含已上傳或產生為應用程式佈建的一部分的資訊。 若要刪除租使用者職涯教練的所有資料，請讓租使用者全域系統管理員開啟支援票證，[](https://edusupport.microsoft.com/support?product_id=career_coach)要求永久刪除租使用者的資料。 請注意，此程式無法反轉。 資料移除完成後，職涯教練 應用程式會針對所有使用者回到其預先設定的非個人化狀態，而 Teams 系統管理員必須再次設定應用程式，才能繼續使用。
+
+下列說明刪除程式：
+
+- 租使用者全域系統管理員必須提交支援票證，清楚說明永久刪除租使用者資料的要求。 **無法限制刪除的資料集或時間視窗**。
+
+- 提交後，支援票證將在一周之後解決，以滿足合規性的最短保留政策。 您可以在此期間取消作業。
+
+- 一周之後，職涯教練小組可確保刪除與租使用者相關的所有資料。 Microsoft 支援服務會監控票證，並將于刪除程式完成後通知您，且不超過 **30 天**。
 
 ## <a name="resources"></a>資源
 
