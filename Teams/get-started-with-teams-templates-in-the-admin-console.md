@@ -11,19 +11,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 瞭解小組範本，以及如何在系統管理中心Microsoft Teams範本。
+description: 瞭解小組範本，以及如何在系統管理中心管理Microsoft Teams範本。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f51c262e26613cf29a7dd2883afbf1cc6871b26
-ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
+ms.openlocfilehash: a22ced459a9e014b92a7141a224ea20d5f7022d2
+ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60367515"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "60633509"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在 Teams 系統管理中心開始使用團隊範本
 
@@ -36,12 +36,12 @@ ms.locfileid: "60367515"
 
 團隊範本Microsoft Teams是圍繞業務需求或專案所設計之團隊結構的定義。 做為系統管理員，您可以使用範本輕鬆部署整個組織的一致團隊。 有了範本，您的使用者可以使用預先定義的設定、頻道和應用程式，快速建立豐富的共同合作空間。
 
-您可以在系統管理中心Microsoft Teams或使用 PowerShell 來管理小組範本。 您可以使用我們提供的預先建立範本，您也可以 [建立自己的自訂範本](#create-your-own-team-templates)。 您也可以使用[範本原則](#apply-team-template-policies)來控制哪些範本可供您的使用者在 Teams。
+您可以在系統管理中心Microsoft Teams小組範本，或使用 PowerShell。 您可以使用我們提供的預先建立範本，您也可以 [建立自己的自訂範本](#create-your-own-team-templates)。 您也可以使用[範本原則](#apply-team-template-policies)來控制哪些範本可供您的使用者在 Teams。
 
 本文提供在系統管理中心使用小組範本Teams概觀。 您將瞭解範本中支援的屬性、我們提供的預先建立範本、範本大小限制、如何建立及管理範本等。
 
 > [!NOTE]
-> 您的使用者可以從應用程式內預先建立或[自訂](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)的團隊範本Teams團隊。 開發人員也可以以程式設計的方式使用 Microsoft Graph 預先建立的團隊Graph。 若要深入瞭解[，請參閱開始使用](get-started-with-teams-templates.md)Microsoft Graph。
+> 您的使用者可以從應用程式內預先建立或[自訂的團隊](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)範本Teams團隊。 開發人員也可以以程式設計的方式使用 Microsoft Graph。 若要深入瞭解[，請參閱開始使用](get-started-with-teams-templates.md)Microsoft Graph。
 
 ## <a name="team-template-capabilities"></a>小組範本功能
 
@@ -63,7 +63,7 @@ ms.locfileid: "60367515"
 
 ## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>系統管理中心內預先建立Teams範本
 
-以下是可在系統管理中心使用Teams範本。 預先建立範本是專為特定產業所建立範本。 若要查看這些範本，在系統管理中心的左側導Teams，請前往 Teams ****  >  **範本**。
+以下是在系統管理中心提供的預先建立Teams範本。 預先建立範本是專為特定產業所建立範本。 若要查看這些範本，在系統管理中心的左側導Teams，請前往 Teams ****  >  **範本**。
 
 您可以複製預先建立範本，但無法編輯它們。 如果您想要變更預先建立範本中的屬性，您可以從現有的範本建立新範本，然後新增或移除您想要的屬性。 請記住，某些範本中的某些屬性無法變更。
 
@@ -82,6 +82,11 @@ ms.locfileid: "60367515"
 |組織商店| `com.microsoft.teams.template.retailStore` |頻道： <ul><li>一般<li>班次交班</li><li>存放區整備</li><li>學習</li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li><li>班次</li><li>檢查</li></ul>|
 |零售管理員| `com.microsoft.teams.template.retailManagerCollaboration` |頻道： <ul><li>一般<li>營運</li><li>學習</li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li><li>檢查</li></ul>|
 |品質和安全性 |`com.microsoft.teams.template.QualitySafety`|頻道： <ul><li>一般<li>公告</li><li>領導</li><li>維護</li><li>第 1 條生產線</li><li>第 2 條生產線</li><li>第 3 條生產線</li><li>健康與安全</li><li>訓練</li><li>趣味內容</li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li> <li>問題報告者</li> <li>檢查</li> </ul>|
+|管理志願者| `com.microsoft.teams.template.ManageVolunteers` |頻道： <ul><li>一般<li>公告</li><li>報告</li><li>志願者管理</li><li>互動商機</li><li>志願者上機</li></ul> 應用程式： <ul><li>網站</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>工作</li><li>SharePoint</li><li>OneNote</li></ul>|
+||||
+
+&sup1;應用程式已做為索引標籤新增到頻道。
+
 
 ### <a name="team-templates-by-category-and-industry"></a>按類別和產業分類的團隊範本
 
@@ -92,6 +97,7 @@ ms.locfileid: "60367515"
 - [政府小組範本](government-teams-templates-in-the-admin-console.md)
 - [醫療保健小組範本](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [製造小組範本](manufacturing-teams-templates-in-the-admin-console.md)
+- [非營利組織小組範本](team-templates-nonprofit.md)
 - [零售小組範本](retail-teams-templates-in-the-admin-console.md)
 
 ## <a name="team-template-size-limits"></a>小組範本大小限制
@@ -128,7 +134,7 @@ ms.locfileid: "60367515"
 
 #### <a name="apply-team-template-policies"></a>適用小組範本原則
 
-若要控制使用者在建立團隊Teams中所看到的範本，您可以設定範本政策[](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)，並將其指派給貴組織的使用者和群組。 若要深入瞭解，請參閱在系統[管理中心管理Teams範本](templates-policies.md)。
+若要控制使用者在建立團隊Teams中所看到的範本，您可以設定範本政策[](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)，並將其指派給貴組織的使用者和群組。 若要深入瞭解，請參閱在系統管理中心管理Teams[範本](templates-policies.md)。
 
 ### <a name="manage-team-templates-using-powershell"></a>使用 PowerShell 管理小組範本
 
