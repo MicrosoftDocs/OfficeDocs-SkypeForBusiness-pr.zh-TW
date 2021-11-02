@@ -1,5 +1,5 @@
 ---
-title: 設定直接路由的語音路由
+title: 設定直接路由的通話路由
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,50 +15,50 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 瞭解如何使用系統直接路由Microsoft 電話語音路由。
-ms.openlocfilehash: 7d02eb6a2eb1546e11693e8e2475b1ed6e2b7685
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 瞭解如何使用 Microsoft Direct 路由設定通話路由。
+ms.openlocfilehash: cb8f33d8e5e2ea3e3e14ac47b57d9b5920f2bb2a
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727132"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60635042"
 ---
-# <a name="configure-voice-routing-for-direct-routing"></a>設定直接路由的語音路由
+# <a name="configure-call-routing-for-direct-routing"></a>設定直接路由的通話路由
 
-本文將說明如何設定直接路由電話系統語音路由。  這是進行直接路由配置的下列步驟的第 3 個步驟：
+本文將說明如何設定直接路由的通話路由。 這是進行直接路由配置的下列步驟的第 3 個步驟：
 
 - 步驟 1. [連線系統Microsoft 電話 SBC 並驗證連接](direct-routing-connect-the-sbc.md) 
 - 步驟 2. [啟用使用者進行直接路由、語音和語音信箱](direct-routing-enable-users.md)
-- **步驟 3.設定語音路由 (** 本文) 
+- **步驟 3.設定通話路由** (本文) 
 - 步驟 4. [將數位轉換成替代格式](direct-routing-translate-numbers.md) 
 
 若要瞭解設定直接路由所需的所有步驟，請參閱 [設定直接路由](direct-routing-configure.md)。
 
-## <a name="voice-routing-overview"></a>語音路由概觀
+## <a name="call-routing-overview"></a>通話路由概觀
 
-Microsoft 電話系統具有路由機制，可讓通話傳送至特定會話邊界控制器或 SBC (SBC) 根據： 
+Microsoft 電話系統具有路由機制，可讓通話傳送至特定會話邊界控制器或 SBC (，) 根據： 
 
 - 稱為數位模式 
 - 所謂的號碼模式加上撥打電話的特定使用者
  
 SBCs 可指定為使用中和備份。 當已配置為使用中 SBC 的 SBC 不適用於特定通話路由時，通話會路由至備用 SBC。
  
-語音路由由下列元素組成： 
+通話路由由下列元素組成： 
 
-- **語音路由** 策略 ： PSTN 使用方式的容器，可指派給使用者或多個使用者。 
+- **通話路由策略** - 也稱為語音路由策略。 PSTN 使用量的容器，可指派給使用者或多個使用者。 
 
 - **PSTN 使用** 方式 ： 語音路由和 PSTN 使用方式的容器，可在不同的語音路由策略中共用。 
 
 - **語音路由** ： 號碼模式和一組線上 PSTN 閘道，用於通話號碼符合該模式的通話。
 
-- **線上 PSTN** 閘道 - 指向 SBC 的指標，該指標也會儲存透過 SBC 撥打來電時所採用之組式，例如轉寄 P-Identity (PAI) 編解碼器;可以新增到語音路由。
+- **線上 PSTN** 閘道 - 指向 SBC 的指標，此指標也會儲存透過 SBC 撥打來電時所適用之組式，例如轉寄 P-Identity (PAI) 編解碼器;可以新增到語音路由。
 
 ## <a name="voice-routing-policy-considerations"></a>語音路由策略考慮
 
 如果使用者擁有通話方案授權，該使用者的外發通話會自動透過 Microsoft 通話方案 PSTN 基礎結構路由。 如果您設定線上語音路由策略並指派給通話方案使用者，會檢查該使用者的外撥電話，以判斷撥號號碼是否符合線上語音路由策略中定義的號碼模式。 如果有相符專案，電話會透過直接路由主幹路由。 如果沒有相符專案，通話會透過通話方案 PSTN 基礎結構路由。
 
 > [!CAUTION]
-> 如果您設定並適用全域 (全組織的預設) 線上語音路由原則，貴組織的所有語音使用者都會繼承該原則，這可能會導致從通話方案使用者的 PSTN 通話不小心路由至直接路由主幹。 如果您不希望所有使用者都使用全域線上語音路由策略，請設定自訂的線上語音路由策略，並將其指派給啟用語音的個別使用者。
+> 如果您設定並適用全域 (全組織的預設) 線上語音路由原則，貴組織中所有支援語音的使用者都會繼承該原則，這可能會導致從通話方案使用者的 PSTN 通話不小心路由到直接路由主幹。 如果您不希望所有使用者都使用全域線上語音路由策略，請設定自訂的線上語音路由策略，並將其指派給啟用語音的個別使用者。
 
 ## <a name="example-1-voice-routing-with-one-pstn-usage"></a>範例 1：使用一個 PSTN 的語音路由
 
@@ -66,7 +66,7 @@ SBCs 可指定為使用中和備份。 當已配置為使用中 SBC 的 SBC 不�
 
 **撥打Flow左側 (1) ：** 如果使用者撥打 +1 425 XXX XX XX 或 +1 206 XXX XX XX，電話會路由至 SBC sbc1.contoso.biz 或 sbc2.contoso.biz。 如果 sbc1.contoso.biz 或 sbc2.contoso.biz，通話會中斷。 
 
-**撥打Flow右側 (2) ：** 如果使用者撥打 +1 425 XXX XX XX 或 +1 206 XXX XX XX，該通話會先路由至 SBC sbc1.contoso.biz 或 sbc2.contoso.biz。 如果兩者均無法使用 SBC，系統將會嘗試優先順序較低的路由， (sbc3.contoso.biz sbc4.contoso.biz) 。 如果沒有任何 SBCs 可用，系統即會中斷通話。 
+**請Flow 2 (撥打 2) ：** 如果使用者撥打 +1 425 XXX XX XX 或 +1 206 XXX XX XX，該通話會先路由至 SBC sbc1.contoso.biz 或 sbc2.contoso.biz。 如果兩者均無法使用 SBC，系統將會嘗試優先順序較低的路由， (sbc3.contoso.biz sbc4.contoso.biz) 。 如果沒有任何 SBCs 可用，系統即會中斷通話。 
 
 ![顯示語音路由策略範例。](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
@@ -79,7 +79,7 @@ SBCs 可指定為使用中和備份。 當已配置為使用中 SBC 的 SBC 不�
 
 ![顯示具有第三個路由的語音路由策略。](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
-對於所有其他通話，如果使用者同時擁有系統 (Microsoft 電話 Microsoft 通話方案) ，則系統會使用自動路由。 如果管理員建立的線上語音路由中沒有任何符合號碼模式，則通話會透過 Microsoft 通話方案路由。 如果使用者只有系統Microsoft 電話，通話會因為沒有可用的比對規則而中斷。
+對於所有其他通話，如果使用者同時擁有系統 (Microsoft 電話和 Microsoft 通話方案) ，系統即會使用自動路由。 如果管理員建立的線上語音路由中沒有任何符合號碼模式，則通話會透過 Microsoft 通話方案路由。 如果使用者只有系統Microsoft 電話，通話會因為沒有可用的比對規則而中斷。
 
   > [!NOTE]
   > 在這種情況下，路由 「其他 +1」 的優先順序值並不重要，因為只有一個路由符合模式 +1 XXX XXX XX XX。 如果使用者撥打 +1 324 567 89 89，sbc5.contoso.biz 和 sbc6.contoso.biz，通話即會中斷。
@@ -109,17 +109,17 @@ SBCs 可指定為使用中和備份。 當已配置為使用中 SBC 的 SBC 不�
 
 #### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>步驟 1：建立「美國和加拿大」PSTN 使用量
 
-1. 在系統管理中心的左側導Microsoft Teams，前往 **[** 語音直接路由>，然後在右上角選取 [管理  >  **** **PSTN 使用記錄**> 。
+1. 在系統管理中心的左側導Microsoft Teams，前往 **[** 語音直接路由>，然後在右上角選取 [  >  ******管理 PSTN 使用記錄**> 。
 2. 按一下 **[新增，****輸入美國和加拿大**，然後按一下 **[Apply.**
 
-#### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>步驟 2：建立三 (Redmond 1、Redmond 2 和其他 +1) 
+#### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>步驟 2：建立三個語音路由 (Redmond 1、Redmond 2 和其他 +1) 
 
 下列步驟說明如何建立語音路由。 使用下列步驟，使用先前表格中概述的設定，為此範例建立名為 Redmond 1、Redmond 2 和 Other +1 的三個語音路由。
 
 1. 在系統管理中心的左側導Microsoft Teams，前往 **語音**  >  **直接路由**，然後選取語音 **路由定位** 點。
 2. 按一下 **[新增**」，然後輸入語音路由的名稱和描述。
 3. 設定優先順序並指定撥號號碼模式。
-4. 若要使用語音路由註冊 SBC，請在註冊 (選擇性) 的 **SBC** 下，按一下 [新增 SBC」，選取您想要註冊的 **SBC，** 然後按一下 [ **申請**> 。
+4. 若要使用語音路由註冊 SBC，請在註冊 (選擇性) 的 **SBC 下**，按一下 [新增 SBC，選取您想要註冊的 **SBC，** 然後按一下 [ **申請**> 。
 5. 若要新增 PSTN 使用量記錄，請在 **PSTN** 使用記錄 (選擇性) 下，按一下 [新增 **PSTN** 使用量，選取您想要新增的 PSTN 記錄，然後按一下 **[Apply.**
 6. 按一下 [儲存]。
 
@@ -146,7 +146,7 @@ SBCs 可指定為使用中和備份。 當已配置為使用中 SBC 的 SBC 不�
 
 #### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>步驟 1：建立「美國和加拿大」PSTN 使用量
 
-在線上的遠端 PowerShell 會話中，商務用 Skype輸入：
+在線上的遠端 PowerShell 會話中商務用 Skype輸入：
 
 ```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="US and Canada"}
@@ -165,7 +165,7 @@ Identity    : Global
 Usage        : {testusage, US and Canada, International, karlUsage. . .}
 ```
 
-下列範例顯示執行 PowerShell 命令以顯示完整名稱 (`(Get-CSOnlinePSTNUsage).usage` 未截斷) ：
+下列範例顯示執行 PowerShell 命令以顯示完整名稱 (`(Get-CSOnlinePSTNUsage).usage` 未) ：
 
 ```console
  testusage
@@ -179,9 +179,9 @@ Usage        : {testusage, US and Canada, International, karlUsage. . .}
  Two trunks
 ```
 
-#### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>步驟 2：建立三 (Redmond 1、Redmond 2 和其他 +1) 
+#### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>步驟 2：建立三個語音路由 (Redmond 1、Redmond 2 和其他 +1) 
 
-若要建立「Redmond 1」路由，請在線上版 PowerShell 會話中商務用 Skype輸入：
+若要建立「Redmond 1」路由，請在 商務用 Skype 的 PowerShell 會話中輸入：
 
 ```PowerShell
 New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)
@@ -308,7 +308,7 @@ US Only
 
 - Spencer Low – 僅美國政策。  只能撥打美國和加拿大號碼。 撥打至 Redmond 號碼範圍時，必須使用一組特定的 SBC。 除非指派通話方案授權給使用者，否則不會路由非美國號碼。
 
-- John Woods – 國際政策。  任何號碼都允許通話。 撥打至 Redmond 號碼範圍時，必須使用一組特定的 SBC。 非美國號碼會使用 sbc2.contoso.biz 和 sbc5.contoso.biz。
+- John Woods – 國際政策。  任何號碼都允許通話。 撥打至 Redmond 號碼範圍時，必須使用一組特定的 SBC。 非美國號碼會使用 sbc2.contoso.biz sbc5.contoso.biz。
 
 ![顯示指派給使用者 Spencer Low 的語音路由策略。](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
@@ -345,16 +345,16 @@ US Only
 
 #### <a name="step-1-create-the-international-pstn-usage"></a>步驟 1：建立「國際」PSTN 使用量
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往 **[** 語音直接路由>，然後在右上角選取 [管理  >  **** **PSTN 使用記錄**> 。
+1. 在系統管理中心的左側導Microsoft Teams，前往 **[** 語音直接路由>，然後在右上角選取 [  >  ******管理 PSTN 使用記錄**> 。
 2. 按一下 **[新增，** 輸入 **國際**，然後按一下 **[Apply.**
 
 #### <a name="step-2-create-the-international-voice-route"></a>步驟 2：建立「國際」語音路由
 
-1. 在系統管理中心的左側導Microsoft Teams，前往 **語音**  >  **直接路由**，然後選取 **語音路由定位** 點。
+1. 在系統管理中心的左側導Microsoft Teams，前往 **語音**  >  **直接路由**，然後選取語音 **路由定位** 點。
 2. 按一下 **[新增**，輸入「國際」做為名稱，然後新增描述。
 3. 將優先順序設為 4，然後將撥號號碼模式設定為 \d+。
-4. 在 **註冊的 SBC** (選) 下，按一下 [新增 **SBCs，** 選取 sbc2.contoso.biz 並 sbc5.contoso.biz，然後按一下 [ **申請**> 。
-5. 在 **[PSTN** 使用記錄 (選) 中，按一下 [新增 **PSTN** 使用量>、選取 [國際」PSTN 使用記錄，然後按一下 [ **適用**> 。
+4. 在 **註冊的 SBC (選**) 下，按一下 [新增 **SBCs，** 選取 sbc2.contoso.biz 並 sbc5.contoso.biz，然後按一下 [ **申請**> 。
+5. 在 **[PSTN 使用記錄 (選擇性**) 中，按一下 [新增 **PSTN** 使用量>、選取 [國際」PSTN 使用記錄，然後按一下 **[Apply.**
 6. 按一下 [儲存]。
 
 #### <a name="step-3-create-a-voice-routing-policy-named-no-restrictions-and-add-the-us-and-canada-and-international-pstn-usages-to-the-policy"></a>步驟 3：建立名為「無限制」的語音路由策略，並新增「美國和加拿大」和「國際」PSTN 使用方式至該政策
@@ -367,9 +367,9 @@ US Only
 
     記下 PSTN 使用量的順序：
 
-    - 如果撥打的號碼為「+1 425 XXX XX XX"，且此範例中的使用方式設定為「+1 425 XXX XX」，則通話會遵循「美國和加拿大」使用方式所設定路由，並套用特殊路由邏輯。 也就是說，先使用 sbc1.contoso.biz 和 sbc2.contoso.biz 路由通話，然後 sbc3.contoso.biz sbc4.contoso.biz 做為備份路由。
+    - 如果撥打的號碼為「+1 425 XXX XX XX"，且此範例中的使用方式設定為「+1 425 XXX XX」，則通話會遵循「美國和加拿大」使用方式所設定路由，並套用特殊路由邏輯。 也就是說，先使用 sbc1.contoso.biz 和 sbc2.contoso.biz 路由通話，sbc3.contoso.biz sbc4.contoso.biz 路由。
 
-    - 如果 「國際」PSTN 使用量在 「美國和加拿大」之前，撥打 +1 425 XXX XX XX 會路由至 sbc2.contoso.biz sbc5.contoso.biz 作為路由邏輯的一部分。
+    - 如果「國際」PSTN 使用量在「美國和加拿大」之前，撥打 +1 425 XXX XX XX 會路由至 sbc2.contoso.biz 和 sbc5.contoso.biz 作為路由邏輯的一部分。
 
 4. 按一下 [儲存]。
 
@@ -388,7 +388,7 @@ US Only
 
 #### <a name="step-1-create-the-international-pstn-usage"></a>步驟 1：建立「國際」PSTN 使用量
 
-在線上的遠端 PowerShell 會話中，商務用 Skype輸入：
+在線上的遠端 PowerShell 會話中商務用 Skype輸入：
 
 ```PowerShell
 Set-CsOnlinePstnUsage -Identity Global -Usage @{Add="International"}
@@ -422,9 +422,9 @@ PSTN 使用方式「Redmond 1」和「Redmond」會在此語音路由政策中�
 
 記下 PSTN 使用量的順序：
 
-  - 如果撥打的號碼為「+1 425 XXX XX XX"，且使用方式設定為下列範例，則通話會遵循「美國和加拿大」使用方式所設定路由，並套用特殊路由邏輯。 也就是說，先使用 sbc1.contoso.biz 和 sbc2.contoso.biz 路由通話，然後 sbc3.contoso.biz sbc4.contoso.biz 做為備份路由。
+  - 如果撥打的號碼為「+1 425 XXX XX XX"，且使用方式設定為下列範例，則通話會遵循「美國和加拿大」使用方式所設定路由，並套用特殊路由邏輯。 也就是說，先使用 sbc1.contoso.biz 和 sbc2.contoso.biz 路由通話，sbc3.contoso.biz sbc4.contoso.biz 路由。
 
-  - 如果 「國際」PSTN 使用量在 「美國和加拿大」之前，撥打 +1 425 XXX XX XX 會路由至 sbc2.contoso.biz sbc5.contoso.biz 作為路由邏輯的一部分。 輸入命令：
+  - 如果「國際」PSTN 使用量在「美國和加拿大」之前，撥打 +1 425 XXX XX XX 會路由至 sbc2.contoso.biz 和 sbc5.contoso.biz 作為路由邏輯的一部分。 輸入命令：
 
   ```PowerShell
   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"

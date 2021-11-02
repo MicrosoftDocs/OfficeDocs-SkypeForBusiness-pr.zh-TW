@@ -16,20 +16,24 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 本文將瞭解如何為貴組織的使用者指派或變更緊急位置。
+description: 在本文中，您將瞭解如何為貴組織的使用者指派或變更緊急位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 905e0e66555f908e98368d592905e98b54db059a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: efe6b81961a4f7ca4eeb39e3f10b0c117cba7d6e
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537284"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634902"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>指派或變更使用者的緊急位置
 
-緊急位置必須指派給每個電話號碼或使用者。 有關緊急位址和位置的資訊，請參閱什麼是緊急位置、地點和 [通話路由？](./what-are-emergency-locations-addresses-and-call-routing.md)。
+無論您選擇[[Microsoft 通話](pstn-connectivity.md)方案、接線連線或直接路由的 PSTN 連接選項，都需要將緊急位置指派給每個電話號碼或 &mdash; &mdash; 使用者。
 
-針對 Microsoft 通話方案，在歐盟國家/地區，當您從 Microsoft 365 取得電話號碼或將電話號碼轉接到 Microsoft 365 時，緊急位置會與電話號碼相關聯。 在美國，緊急位置會與指派給使用者的電話號碼相關聯。 如果指派給緊急位址的使用者移至新位置，可以變更緊急位址。
+不過，根據您的 PSTN 連接選項，您管理及指派使用者緊急位置方式可能會有所不同。 詳細資訊，請參閱管理 [緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)。
+
+本文將說明如何指派或變更使用者的緊急位置。 
+
+本文適用于通話方案及接線連線。
   
 您可以在系統管理中心指派或變更使用者的緊急Microsoft Teams，或使用 PowerShell。
 
@@ -37,7 +41,7 @@ ms.locfileid: "60537284"
 
 1. 在系統管理中心的左側導Microsoft Teams，按一下 **[語音電話**  >  **號碼**。
 
-2. 在 [數位 **電話** 頁面上，按一下 [數位> 選項卡，選取清單中的使用者號碼，然後按一下 [**編輯**。
+2. 在 **[數位** 電話頁面上，按一下 **[數位**> 選項卡，選取清單中的使用者號碼，然後按一下 [**編輯**。
 
 3. 在編輯 **窗格** 的緊急 **位置下**，執行下列其中一項操作：
 
@@ -58,8 +62,7 @@ ms.locfileid: "60537284"
 
 - [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)
 - [新增、變更或移除貴組織的緊急位置](add-change-remove-emergency-location-organization.md)
-- [新增、變更或移除貴組織緊急位置的地方](add-change-remove-emergency-place-organization.md)
 - [指派或變更使用者緊急位置的地方](assign-change-emergency-place-user.md)
+- [新增、變更或移除貴組織緊急位置的地方](add-change-remove-emergency-place-organization.md)
 - [管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [緊急通話條款及條件](./emergency-calling-terms-and-conditions.md)
-- [Teams PowerShell 概觀](teams-powershell-overview.md)

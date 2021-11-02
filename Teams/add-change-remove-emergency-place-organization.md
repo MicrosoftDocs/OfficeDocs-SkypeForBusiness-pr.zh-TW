@@ -16,18 +16,24 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 瞭解如何在系統管理中心新增、變更或移除組織緊急Microsoft Teams位置。
+description: 瞭解如何為貴組織的緊急位置新增、變更或移除位置。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 98135be7b74583ad01718d19796889bdc9a467d1
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: fec188634377b04cb4149d3680acc07eef797149
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537214"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634872"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>新增、變更或移除貴組織緊急位置的地方
 
-根據貴組織實體位置的數量，您可以新增建築物、樓層和辦公室的位置，以建立更具體的緊急位置。 請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md) 以瞭解更多資訊。
+根據貴組織實體位置的數量，您可以新增建築物、樓層和辦公室的位置，以建立更具體的緊急位置。
+
+不過，根據您的 PSTN 連接選項，您管理緊急位置和位置需求方式可能會有所不同。 詳細資訊，請參閱管理 [緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)。
+
+本文將說明如何為貴組織新增、變更或移除緊急位置的位置。
+
+本文適用于 Microsoft 通話方案、連線和直接路由。
 
 您可以在系統管理中心或使用 PowerShell 管理Microsoft Teams組織的緊急位置。
   
@@ -71,6 +77,7 @@ ms.locfileid: "60537214"
     
 ## <a name="related-topics"></a>相關主題
 
-- [新增、變更或移除貴組織緊急位置的地方](add-change-remove-emergency-place-organization.md)
+- [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)
+- [新增、變更或移除貴組織的緊急位置](add-change-remove-emergency-location-organization.md)
 - [管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [緊急通話條款及條件](./emergency-calling-terms-and-conditions.md)
