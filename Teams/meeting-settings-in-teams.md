@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: dea6c465600229414dba30c0b0adecc7e5a5caad
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 731ed3aa7b9cb7b2511d7ffa1614bdf06522ac0e
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537094"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641233"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -106,9 +106,17 @@ ms.locfileid: "60537094"
 
 <a name="bknetwork"> </a>
 
-如果您使用服務品質 (QoS) 來排程網路流量的優先順序，則可以啟用 QoS 標記，並針對每個類型的媒體流量設定連接埠範圍。 針對不同流量類型設定連接埠範圍，在處理即時媒體中只需一個步驟；如需更多詳細資訊，請參閱 [Teams 中的服務品質 (QoS)](qos-in-teams.md)。
+如果您使用服務品質 (QoS) 優先順序網路流量，您可以針對每種媒體流量類型啟用 QoS 標記並設定連接埠範圍。 針對不同流量類型設定連接埠範圍，在處理即時媒體中只需一個步驟；如需更多詳細資訊，請參閱 [Teams 中的服務品質 (QoS)](qos-in-teams.md)。
 
 > [!IMPORTANT]
+> Apple 型系統: 只有在符合下列所有條件時，我們才能知道 Apple 型裝置實際設定 DSCP 值的執行個體：
+> - iOS。
+> - WiFi 網路。
+> - Cisco 切換。
+> - 網路系統管理員已新增應用程式至核准的清單。
+>
+> Android 型系統：沒有任何已知的限制。
+>
 > 如果您在 Microsoft Teams 系統管理中心針對 Teams 服務啟用 QoS 或變更設定，您也必須[將相符設定套用到所有使用者裝置](QoS-in-Teams-clients.md)和所有內部網路裝置，以便對 Teams 中的 QoS 完整實作變更。
 
   **使用 Microsoft Teams 系統管理中心**
@@ -119,6 +127,10 @@ ms.locfileid: "60537094"
     ![系統管理中心會議網路設定的螢幕擷取畫面。](media/meeting-settings-network.png "Microsoft Teams 系統管理中心中 Teams 會議的網路設定螢幕擷取畫面")
 
     - 若要允許將 DSCP 標記用於 QoS，請開啟 [插入即時媒體流量的服務品質 (QoS) 標記]。 您只能選擇是否使用標記；無法為每個流量類型設定自訂標記。 如需有關 DSCP 標記的詳細資訊，請參閱[選取 QoS 實作方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
+
+        > [!IMPORTANT]
+        > 請注意，啟用 QoS 只會在端點上執行，以標記離開用戶端的封包。 我們仍然建議在所有內部網路裝置上套用符合的 QoS 規則來接收流量。
+        
         > [!NOTE]
         > DSCP 標記通常是透過來源連接埠完成，且 UDP 流量預設會路由至目的地連接埠為 3478 的傳輸轉送。 如果您的公司需要標記目的地連接埠，請連絡支援人員，以啟用使用 UDP 連接埠 3479 (音訊)、3480 (視訊) 和 3481 (共用) 對傳輸轉送的通訊。
     - 若要指定連接埠範圍，請在 [選取各即時媒體流量類型的連接埠範圍] 旁選取 [指定連接埠範圍]，然後輸入音訊、視訊和螢幕共用的開始和結束連接埠。若要實作 QoS，需要選取此選項。 

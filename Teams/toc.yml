@@ -533,6 +533,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: 製造類別團隊範本
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: 非營利組織類別團隊範本
+            href: team-templates-nonprofit.md
           - name: 管理團隊範本原則
             href: templates-policies.md
       - name: 與組織外的人員合作。
@@ -945,7 +947,7 @@ items:
                     href: direct-routing-connect-the-sbc.md
                   - name: 步驟 2：啟用使用者
                     href: direct-routing-enable-users.md
-                  - name: 步驟 3：設定語音路由
+                  - name: 步驟 3：設定呼叫路由
                     href: direct-routing-voice-routing.md
                   - name: 步驟 4：翻譯電話號碼
                     href: direct-routing-translate-numbers.md
@@ -1077,7 +1079,7 @@ items:
                 href: emergency-calling-labels.md
           - name: 管理緊急通話原則
             href: manage-emergency-calling-policies.md
-          - name: 管理直接路由的緊急語音路由原則
+          - name: 管理直接路由的緊急電話路由原則
             href: manage-emergency-call-routing-policies.md
       - name: 管理 Teams 中的語音和通話原則
         href: voice-and-calling-policies.md
@@ -1553,6 +1555,11 @@ items:
             href: flw-realwear.md
           - name: 對講機
             href: walkie-talkie.md
+      - name: 適用於非營利組織的 Teams
+        href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
+        items:
+          - name: 使用非營利組織團隊範本
+            href: team-templates-nonprofit.md
       - name: 適用於零售業的 Teams
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:

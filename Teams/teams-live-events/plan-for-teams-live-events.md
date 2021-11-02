@@ -20,12 +20,12 @@ description: 在本文章中，您將瞭解在 Microsoft Teams 中設定即時�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8996c796d6ab5a2e98c636a115707e6bb2249c6e
-ms.sourcegitcommit: 65964d5079120c900abdba24c08d4cc18d2fde7a
+ms.openlocfilehash: b66ef3032f5048cdde377b6a907ce4e8eee739a9
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "58883751"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641223"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -126,7 +126,7 @@ ms.locfileid: "58883751"
 |Windows 上的製作人用戶端 |&#x2714; (商務用 Skype) |&#x2714; (Teams) |&#x2714; (Stream，透過內嵌 Stream 的 Teams) |
 |Mac 上的製作人用戶端 |&#x274C;  | &#x2714; (Teams) |&#x2714; (Stream，透過內嵌 Stream 的 Teams) |
 |製作人 UI 中的出席者計數 |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream，透過內嵌 Stream 的 Teams) |
-|允許多個簡報者 |&#x2714; (商務用 Skype) |&#x2714; (Teams) |N/A  |
+|允許多個簡報者 |&#x2714; (商務用 Skype) |&#x2714; (Teams) |不適用  |
 |在會議期間邀請簡報者 |&#x2714; (商務用 Skype) |&#x274C; |不適用 |
 |網路和行動裝置上的簡報者加入 |&#x2714; (商務用 Skype)  |&#x274C; |N/A |
 |外部存取 (同盟) 和來賓簡報者/出席者 |&#x2714; (商務用 Skype)  |  &#x2714; (Teams) |不適用 |
@@ -164,6 +164,7 @@ ms.locfileid: "58883751"
 **這些國家/地區的資料位置 (支援)**
 
 - 澳洲
+- 巴西
 - 加拿大
 - 法國
 - 德國
@@ -177,7 +178,6 @@ ms.locfileid: "58883751"
 
 **不支援這些國家/地區和雲端**
 
-- 巴西
 - 挪威
 - 政府社群雲端 (GCC)-H
 - 美國國防部 (DOD)

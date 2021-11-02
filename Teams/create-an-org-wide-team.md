@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5a3322c55e61fc674be6647b192aff86e4412975
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 058aa530508c03587eae3ff6a55e218bc109bbd2
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728202"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641173"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>在組織中建立全組織Microsoft Teams
 
@@ -89,13 +89,13 @@ ms.locfileid: "58728202"
 
 ### <a name="remove-accounts-that-might-not-belong"></a>移除可能不屬於的帳戶
 
-即使成員無法離開整個組織團隊，但做為團隊擁有者，您可以移除不屬於的帳戶來管理小組名冊。 **請確認您使用 Teams 移除全組織小組中的使用者**。 如果您使用另一種方式移除使用者，例如 Microsoft 365 系統管理中心 或 Outlook 中的群組，使用者可能會重新加入整個組織的團隊。
+即使成員無法離開整個組織團隊，但做為團隊擁有者，您可以移除不屬於的帳戶來管理小組名冊。 **請確認您使用 Teams 移除全組織小組中的使用者**。 如果您使用另一種方法移除使用者，例如 Microsoft 365 系統管理中心 或 Outlook 中的群組，使用者可能會重新加入整個組織的團隊。
 
 ## <a name="faq"></a>常見問題集
 
-### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>除了使用用戶端外，是否有建立整個組織Teams的方法？
+### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>除了使用用戶端外，還有其他建立全組織Teams的方法嗎？
 
-全域系統管理員只能使用用戶端建立整個組織Teams團隊。 如果貴組織將建立小組限制為使用 PowerShell，建議的因應措施是將您的全域系統管理員新增至可建立小組的使用者安全性群組。
+只有全域系統管理員可以使用用戶端建立整個組織Teams團隊。 如果貴組織將建立小組限制為使用 PowerShell，建議的因應措施是將您的全域系統管理員新增至可建立小組的使用者安全性群組。
 
 詳細資訊，請參閱管理 [誰可以建立群組](/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 
@@ -106,7 +106,7 @@ ms.locfileid: "58728202"
 
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-organization-wide-team"></a>是否有將現有團隊轉換成全組織團隊的方法？
 
-全域系統管理員可以在用戶端中編輯現有團隊，將現有團隊轉換成Teams團隊。 移至小組名稱，按一下 [更多選項]  >  [編輯小組]。
+全域系統管理員可以在用戶端中編輯現有團隊，將其轉換為全組織Teams團隊。 移至小組名稱，按一下 [更多選項]  >  [編輯小組]。
 
 ### <a name="can-i-create-an-organization-wide-team-using-a-team-template"></a>我可以使用小組範本建立全組織團隊嗎？
 
