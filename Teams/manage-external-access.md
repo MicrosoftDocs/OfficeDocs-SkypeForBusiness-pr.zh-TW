@@ -21,12 +21,12 @@ description: 您的 Teams 或 IT 系統管理員可以設定其他網域 (同盟
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 27ce250a66bd6443419c670d7b0b8b7e26703e5d
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: ee2492038ac05f54d1846703851846bef95893eb
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536514"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634922"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部存取
 
@@ -110,6 +110,22 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 2. 開啟 **[允許組織中的使用者與 Skype 使用者通訊]** 設定。
 
 若要深入瞭解 Teams 使用者和 Skype 使用者的通訊方式 (包括通訊的限制)，請參閱 [Teams 和 Skype 的互通性](teams-skype-interop.md)。
+
+## <a name="block-unsolicited-contact-with-external-unmanaged-teams-users"></a>封鎖與外部未管理的 Teams 使用者主動聯繫
+
+請遵循下列步驟，防止組織中的 Teams 用戶與帳戶不受組織管理的外部 Teams 使用者主動聯繫。
+
+  **使用 Microsoft Teams 系統管理中心**
+
+1. 在左側導覽中，移至 **[使用者]** > **[外部存取]**.
+
+2. 請遵循下列其中一個步驟：
+
+    - 若要封鎖組織的 Teams 使用者與帳戶未由組織管理的外部 Teams 使用者通訊，請關閉 **[我組織中的人員可以與帳戶不受組織管理的 Teams 使用者通訊]** 設定，並清除 **[具有不是由組織管理之 Teams 帳戶的外部使用者可以連絡我組織中的使用者]** 核取方塊。
+
+    - 如果您的 Teams 使用者已展開聯繫，若要讓組織的 Teams 使用者與帳戶未由組織管理的外部 Teams 使用者通訊，請開啟 **[我組織中的人員可以與帳戶不受組織管理的 Teams 使用者通訊]** 設定，並清除 **[具有不是由組織管理之 Teams 帳戶的外部使用者可以連絡我組織中的使用者]** 核取方塊。
+
+    - 若要讓組織的 Teams 使用者與帳戶未由組織管理的外部 Teams 使用者通訊，並收到與這些外部 Teams 使用者通訊的要求，請開啟 **[我組織中的人員可以與帳戶不受組織管理的 Teams 使用者通訊]** 設定，並清除 **[具有不是由組織管理之 Teams 帳戶的外部使用者可以連絡我組織中的使用者]** 核取方塊。
 
 ## <a name="test-access"></a>存取測試
 
