@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
-ms.openlocfilehash: b1f6a73a2f845cb36bde34755cbb226c6716bd20
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2e4fd12107fbca1e0d10c40b282ccb2e425b160d
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633387"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732714"
 ---
 # <a name="availability-in-algeria"></a>在阿爾及利亞的可用性
 
@@ -69,7 +69,7 @@ ms.locfileid: "58633387"
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？   | 非地理位置。 電話號碼不會連結至特定城市或位置。 <br/> |
-|有提供付費電話號碼嗎？  <br/> |根據要求 ([非) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|有提供付費電話號碼嗎？  <br/> |根據要求 ([非) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |是否提供免付費號碼？  <br/> |否  <br/> |
    
  如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)

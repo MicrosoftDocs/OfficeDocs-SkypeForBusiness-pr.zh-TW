@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
-ms.openlocfilehash: 6954f5a708f624637f338aedbb1c2971c430ca44
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d289a6283d5854e427a35dcf7cac9fd11fbbec29
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598587"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733644"
 ---
 # <a name="availability-in-nicaragua"></a>在尼加拉瓜的可用性
 
@@ -68,9 +68,9 @@ ms.locfileid: "58598587"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？   | Managua ([根據要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
-|有提供付費電話號碼嗎？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
-|是否提供免付費號碼？  <br/> |否  <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？   | Managua ([根據要求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|有提供付費電話號碼嗎？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|免付費號碼是否可用？  <br/> |否  <br/> |
    
  如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
   

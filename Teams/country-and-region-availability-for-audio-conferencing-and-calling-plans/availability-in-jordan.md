@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 6cb407c2377087d55bf1350d4028c900cc6784b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7b76169fb05f3ee1d853eea536302e2827d0c071
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598597"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733664"
 ---
 # <a name="availability-in-jordan"></a>在沙烏地阿拉伯的可用性
 
@@ -69,8 +69,8 @@ ms.locfileid: "58598597"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> |Amman ([要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
-|有提供付費電話號碼嗎？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |Amman ([根據要求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |
+|有提供付費電話號碼嗎？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |
 |是否提供免付費電話號碼？  <br/> |否  <br/> |
    
  如果您想要取得音訊會議、自動語音應答和通話佇列的付費電話號碼和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。

@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是孟加拉國Microsoft 365 Office 365及商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 5fa7b189ecb0eec3807e5b382a6ff063edb1b11f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是孟加拉國Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
+ms.openlocfilehash: 38632bc3f6d6a6c0fb7b6b81a67ff3016bd228e1
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632617"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733274"
 ---
 # <a name="availability-in-bangladesh"></a>孟加拉國的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是孟加拉國Microsoft 365 Office 365及商務用 Skype Microsoft Teams服務。
+以下是孟加拉國Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -69,8 +69,8 @@ ms.locfileid: "58632617"
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？   | 非地理位置。 電話號碼不會連結至特定城市或位置。 <br/> |
-|有提供付費電話號碼嗎？  <br/> |根據要求 ([非) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
-|是否提供免付費號碼？  <br/> |否  <br/> |
+|有提供付費電話號碼嗎？  <br/> |根據要求 ([非) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|免付費號碼是否可用？  <br/> |否  <br/> |
    
  如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
   

@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于俄羅斯Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: cad4334c71a3b704dacdd68845fb565e4cde84db
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ac85b5d1a19716a8f5e8d0b16cd0283b59fa8868
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626335"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733054"
 ---
 # <a name="availability-in-russia"></a>俄羅斯的可用性
 
@@ -69,7 +69,7 @@ ms.locfileid: "58626335"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> |<ul><li>莫斯科 <li>請 ([聖彼德堡) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul>|
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |<ul><li>莫斯科 <li>請 ([聖彼德堡) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul>|
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費電話號碼？  <br/> |否  <br/> |
    

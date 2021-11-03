@@ -22,18 +22,18 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
 description: 在本文中，您將瞭解您Microsoft Teams電話號碼類型。
-ms.openlocfilehash: 0aa75c9052e269d6e45054cdf5b6cf73042c55ac
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 69eaa94320a540ca0e7ad560e4ff27a7a4bc44e0
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432645"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733694"
 ---
 # <a name="types-of-phone-numbers"></a>電話號碼類型
 
-Microsoft Teams根據您要使用電話號碼的用途，使用不同的電話號碼類型。 
+Microsoft Teams會根據您想要使用電話號碼的用途，使用不同的電話號碼類型。 
 
-Teams **使用使用者** 號碼，可指派給使用者貴組織的使用者，以及指派給音訊會議、自動語音服務或通話佇列等服務的服務號碼。 服務電話號碼的並行 *通話容量高於*  使用者號碼。 服務電話號碼可供使用，但會依國家/地區及號碼類型 (無論是付費或免付費號碼) 。 如果您需要其他號碼類型或其他號碼類型，Microsoft Teams系統管理中心看到的數位類型，您可以提交電話號碼要求給[PSTN 服務台](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+Teams **使用者號碼**，可指派給貴組織的使用者，以及指派給音訊會議、自動語音服務或通話佇列等服務的服務號碼。 服務電話號碼的並行 *通話容量高於*  使用者號碼。 服務電話號碼可供使用，但會依國家/地區及號碼類型 (無論是付費號碼或免付費電話號碼) 。 如果您需要其他號碼類型或其他號碼類型，Microsoft Teams系統管理中心看到的數位類型，您可以提交電話號碼要求給[TNS 服務台](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
   
 - **使用者編號**
     
@@ -53,13 +53,13 @@ Teams **使用使用者** 號碼，可指派給使用者貴組織的使用者，
         
       - **非地理號碼** 非地理數位是國家/地區內與地理區域沒有關系的國家號碼。 例如，從國家/地區內任何位置撥打號碼時，非地理號碼的成本通常相同。
    
-  - **免付費服務號碼** 這些服務號碼通常不會向來電者收取付費費用。 Teams提供超過 60 個國家/地區的免付費號碼。
+  - **免付費服務號碼** 這些服務號碼通常不會向來電者收取付費費用。 Teams提供超過 60 個國家/地區的免付費電話號碼。
     
     > [!CAUTION]
     > 部分國家/地區及原始號碼類型 ，例如來自行動電話的通話，在某些情況下可能會向來電者收取付費費用。 
   
 > [!NOTE]
-> 如果您需要取得更多電話號碼，請 [連上 PSTN 服務台](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+> 如果您需要取得超過此數目的電話號碼， [請聯絡 TNS 服務台](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
 ## <a name="related-topics"></a>相關主題
 

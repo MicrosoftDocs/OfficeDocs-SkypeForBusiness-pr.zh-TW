@@ -21,26 +21,22 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: 5cd7cfcbacd2799c89e764fe456954c2cf61f0ec
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 6be1415d752bdde9afd6c34419b94912a61eb35d
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579553"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733704"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認證的裝置
 
 Microsoft Teams認證計畫可確保使用經過認證的電話機和會議電話的客戶，能體驗高品質的音訊通話和會議體驗。
 
-Microsoft Teams認證程式可確保品質較高的資料條具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以滿足此較高層次的需求，並符合認證要求的裝置。 我們的部分合作夥伴也正在努力在電話商務用 Skype硬體上，為Teams服務提供支援。 來自認證Microsoft Teams裝置的好處包括：
-
-- 硬體Teams整合和 LED 通知的原生體驗
-- 日曆整合和一鍵式會議加入
-- 透過系統管理中心與 Intune Teams部署和管理
+Microsoft Teams認證程式可確保品質較高的資料條具有更高的績效目標及音訊品質度量。 合作夥伴正積極努力，以滿足此較高層次的需求，並符合認證要求的裝置。 我們的部分合作夥伴也正在努力在電話商務用 Skype硬體上，為Teams服務提供支援。 
 
 ## <a name="currently-certified-teams-phones"></a>目前已Teams手機
 
-下列裝置在電話認證計畫Microsoft Teams認證：
+下列裝置在 Microsoft Teams 認證計畫下通過認證：
 
 |裝置模型    | 固件版本    | 發行日期
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|
@@ -85,7 +81,7 @@ Microsoft Teams認證程式可確保品質較高的資料條具有更高的績�
 | Poly TC8                | `3.3.2.210441`     | 2021 年 3 月    | 與 Poly Studio X30 和 Poly Studio X50 相容 |
 | Yealink VC210           | `118.15.0.14`      | 2020 年 2 月 | 焦點會議室 (3m x 3m)  </br> 小型會議室 (4.5m x 4.5m)  |
 
-## <a name="currently-certified-teams-displays"></a>目前通過 Teams 顯示器
+## <a name="currently-certified-teams-displays"></a>目前通過 Teams顯示器
 
 下列裝置在 Microsoft Teams Android 認證計畫下通過認證：
 
@@ -122,7 +118,7 @@ Microsoft Teams認證程式可確保品質較高的資料條具有更高的績�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以判斷應用程式、公司入口網站和系統管理代理程式Microsoft Teams安裝的版本。 在包含的產品發行欄中尋找產品版本，然後在前述 **的 App** 版本資料表中尋找產品版本。
+當您在裝置上安裝新的固件版本時，您可以判斷應用程式、Microsoft Teams和系統管理公司入口網站的安裝版本。 在包含的產品發行欄中尋找產品版本，然後在前述 **的 App** 版本資料表中尋找產品版本。
 
 | 裝置模型        | 固件版本     | 已包含產品發行  |
 |:--------------------|:---------------------|:-------------------------|
@@ -248,11 +244,11 @@ Microsoft Teams認證程式可確保品質較高的資料條具有更高的績�
 
 ## <a name="more-resources"></a>更多資源
 
-請參閱[Microsoft Teams手機](phones-for-teams.md)功能集，以瞭解這些裝置支援的功能。
+請參閱[Microsoft Teams](phones-for-teams.md)手機功能集，以瞭解這些裝置支援的功能相關資訊。
 
 請參閱 [尋找行動裝置上的固件版本](phones-for-teams.md) ，以判斷行動裝置上的裝置固件版本。
 
-Microsoft Teams授權可以在訂閱或訂閱[Microsoft 365 Office 365購買](/office365/servicedescriptions/teams-service-description)。 若要深入瞭解在手機上使用Microsoft Teams所需的授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft Teams授權可以購買為訂閱或[Microsoft 365 Office 365的一部分](/office365/servicedescriptions/teams-service-description)。 若要深入瞭解在手機上使用Microsoft Teams所需的授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
 
 若要進一Teams，請參閱如何[存取Microsoft Teams？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

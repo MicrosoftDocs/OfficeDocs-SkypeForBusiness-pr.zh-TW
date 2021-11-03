@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在拉脫維亞取得及管理拉脫維亞電話號碼Microsoft Teams。
-ms.openlocfilehash: f13ec7b0c65c848d753de5151ed92e74c314ba80
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: e582c3a546ef7bb0ddfe6b9debb193549b8b12ca
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59944479"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733114"
 ---
 # <a name="phone-number-management-for-latvia"></a>電話拉脫維亞的號碼管理
 
@@ -34,11 +34,11 @@ ms.locfileid: "59944479"
   
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
-|取得系統管理中心未列出的新使用者Microsoft Teams電話號碼。 |在拉脫維亞，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並連至 [PTSN](contact-pstn-service-desk.md)服務台以索取指示，以提交新的電話號碼要求。<br/><br/>[拉脫維亞的新電話號碼要求 (v.1.0) 。](<https://download.microsoft.com/download/7/4/7/7477191d-1b6d-4d6b-a97f-c958ae204db5/New phone number request for Latvia (v.1.0) (en-us).pdf>) <br/><br/> 在指派電話號碼之前，您必須下載認識您的客戶表單，並完整完成[](<https://download.microsoft.com/download/1/8/d/18d3c082-984f-4271-ba23-80225904c5e2/Latvia - Know Your Customer.pdf>)，然後傳送給我們。<br/><br/>新訂單可能需要 1 到 4 周的時間，才能填入此市場，視我們特定地區的庫存數量而異。 |
-|將電話號碼轉接給我們。 | 下載此表單。 <br/><br/>[拉脫維亞的 (LOA) 授權書 (v.1.0)  (所有) ](<https://download.microsoft.com/download/d/d/6/dd67eefd-1886-44fd-a845-127e5cadc1ee/Latvia LOA.pdf>) <br/><br/>填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 您也必須從要移轉號碼的商務位址包含公用費用帳單。<br/><br/>在這個市場中，移轉數位最多可能需要 3 周才能完成。 這些號碼目前無法用於會議。|
-|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需有關要](contact-pstn-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請連連 PTSN 服務台。 <br/> |
-|將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-pstn-service-desk.md) 服務號碼的使用者號碼清單的指示，請連連 PTSN 服務台。 <br/> |
-|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請連連 [PSTN 服務台以尋找指示](contact-pstn-service-desk.md)。 |
+|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。 |在拉脫維亞，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並聯絡 [TNS](contact-tns-service-desk.md)服務台以索取指示，以提交新的電話號碼要求。<br/><br/>[拉脫維亞的新電話號碼要求 (v.1.0) 。](<https://download.microsoft.com/download/7/4/7/7477191d-1b6d-4d6b-a97f-c958ae204db5/New phone number request for Latvia (v.1.0) (en-us).pdf>) <br/><br/> 在指派電話號碼之前，您必須下載認識您的客戶表單，並完整完成[](<https://download.microsoft.com/download/1/8/d/18d3c082-984f-4271-ba23-80225904c5e2/Latvia - Know Your Customer.pdf>)，然後傳送給我們。<br/><br/>根據特定地區的庫存數量，新訂單可能需要 1 到 4 周的時間才能填入此市場。 |
+|將電話號碼轉接給我們。 | 下載此表單。 <br/><br/>[拉脫維亞 (LOA) 授權書 (v.1.0)  (所有號碼) ](<https://download.microsoft.com/download/d/d/6/dd67eefd-1886-44fd-a845-127e5cadc1ee/Latvia LOA.pdf>) <br/><br/>填寫並聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。 您也必須從要移轉號碼的商務位址包含公用費用帳單。<br/><br/>在這個市場中，移轉數位最多可能需要 3 周才能完成。 這些號碼目前無法用於會議。|
+|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需要](contact-tns-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請聯絡 TNS 服務台。 <br/> |
+|將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-tns-service-desk.md) 服務號碼的使用者號碼清單的指示，請聯絡 TNS 服務台。 <br/> |
+|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。 |
    
 ## <a name="related-topics"></a>相關主題
 

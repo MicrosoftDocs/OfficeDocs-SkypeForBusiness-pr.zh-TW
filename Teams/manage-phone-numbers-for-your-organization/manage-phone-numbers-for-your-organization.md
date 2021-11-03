@@ -25,22 +25,22 @@ ms.custom:
 - ms.lync.lac.VASAMissingGeoCodes
 - Calling Plans
 - seo-marvel-apr2020
-description: 瞭解如何取得及管理使用者 (訂閱者) 服務 (付費和免付費) 組織Microsoft Teams電話號碼。
-ms.openlocfilehash: 05228657489d2e76dee1b08f630b056606c5a83a
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+description: 瞭解如何取得及管理使用者 (訂閱者) 服務 (組織免付費) 免付費Microsoft Teams電話號碼。
+ms.openlocfilehash: 3f913ec3a64ab0c3444cdbfd951d3eae0152a974
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942336"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733544"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>管理通話方案的電話號碼
 
-有四種方法可讓使用者 (訂閱者) 方案 (免付費) 通話方案的電話號碼：
+有四種方法可讓使用者 (訂閱) 方案 (免付費和免付費) 電話號碼：
 
 - [在系統管理中心取得Microsoft Teams電話號碼](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users)。
 - [在系統管理中心取得Microsoft Teams電話號碼](../getting-service-phone-numbers.md#get-new-service-numbers)。
 - [傳送或 _移_ 轉您現有的電話號碼](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md#create-a-port-order-and-transfer-your-phone-numbers-to-teams)。
-- 針對系統管理中心未列出的新電話號碼，請使用Microsoft Teams表單。
+- 針對系統管理中心未列出的新電話號碼使用Microsoft Teams表單。
 
 > [!IMPORTANT]
 > 有關澳洲的新電話號碼，請參閱 [Telstra Voice Services](https://aka.ms/TelstraVoicePlan)。 有關日本的新電話號碼，請參閱 [SoftBank Voice Services](https://aka.ms/SoftBankVoicePlan)。
@@ -92,7 +92,7 @@ ms.locfileid: "59942336"
 
 ### <a name="request-forms-for-new-phone-numbers"></a>要求新電話號碼的表單
 
-每個國家/地區都有不同的指示、不同類型的電話號碼 (地理/非地理和服務 (免付費/免付費) ) 以及取得電話號碼的規則/法規，以便用於 Microsoft Teams。
+每個國家/地區都有不同的指示、不同類型的電話號碼 (地理/非地理和服務 (免付費/免付費) ) ，以及取得電話號碼的規則/法規，以便用於 Microsoft Teams。
 
 有時候 (視您的國家/地區) 您可能無法使用 Microsoft Teams 系統管理中心取得新的使用者 (訂閱者) 或服務 (付費或免付費) 電話號碼，或者您可能需要特定的電話號碼 (虛名要求) 或特定區碼。  
 
@@ -100,7 +100,7 @@ ms.locfileid: "59942336"
 
 ### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers"></a>授權書 (LOA) 移轉/移轉現有電話號碼 
 
-如果您需要將現有電話號碼從另一個服務提供者移轉/移轉至 Teams，您必須下載、填入及傳送授權書 (LOA) 。 LOA 允許 Microsoft 代表您要求這些現有號碼，並移轉不同的服務提供者Teams。
+如果您需要將現有電話號碼從另一個服務提供者移轉/移轉至 Teams，您必須下載、填入及傳送授權書 (LOA) 。 LOA 提供 Microsoft 許可權，代表您向不同的服務提供者要求這些現有號碼，並Teams。
 
 如果您目前與另一個電信公司有下列專案，請傳送 **LOA** 給我們：
 
@@ -109,11 +109,11 @@ ms.locfileid: "59942336"
 - Toll-Free電話號碼。
 - 超過 999 個您需要移轉/移轉的使用者電話號碼，但無法使用Microsoft Teams號碼移轉精靈進入系統管理中心。
 
-一旦 **填入並** 簽署 LOA，請 [連上我們的 PSTN 服務台](./contact-pstn-service-desk.md) ，以便我們可以協助您。
+一旦填入 **並** 簽署 LOA，請 [聯絡我們的 TNS 服務台](./contact-tns-service-desk.md) ，以便我們可以協助您。
 
 ## <a name="still-need-assistance"></a>仍然需要協助嗎？
 
-如果您需要協助，請 [連連 PSTN 服務台](./contact-pstn-service-desk.md)。
+如果您需要協助，請聯絡 [TNS 服務台](./contact-tns-service-desk.md)。
 
 ## <a name="additional-resources"></a>其他資源
 

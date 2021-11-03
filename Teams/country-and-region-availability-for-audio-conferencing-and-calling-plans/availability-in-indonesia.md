@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是印尼Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: bb2f3ea15ca4d0bd4be26e9bcbd28b5c26fa2fc9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是印尼Microsoft 365 Office 365及商務用 Skype Microsoft Teams服務。
+ms.openlocfilehash: 6118d3a3c55f183224d6f4b596391e63dccabbab
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618619"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733724"
 ---
 # <a name="availability-in-indonesia"></a>印尼的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是印尼Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+以下是印尼Microsoft 365 Office 365及商務用 Skype Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -69,7 +69,7 @@ ms.locfileid: "58618619"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> |Jakarta ([根據要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |Jakarta ([應要求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |有提供付費電話號碼嗎？  <br/> |否  <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
    

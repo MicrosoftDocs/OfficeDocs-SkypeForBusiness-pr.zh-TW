@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是巴西Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 68379b9c48ed70f590eb3d57a171a6af9f4042be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 059876da21906264bc1961785b7cddcdc49dd132
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609040"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732734"
 ---
 # <a name="availability-in-brazil"></a>巴西的可用性
 
@@ -69,7 +69,7 @@ ms.locfileid: "58609040"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> | <ul><li>里約熱內盧 <li>  聖保羅 <li>其他城市 [可要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> | <ul><li>里約熱內盧 <li>  聖保羅 <li>其他城市 [可要求](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul> |
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
    

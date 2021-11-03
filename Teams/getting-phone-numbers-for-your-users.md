@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 瞭解如何取得新號碼、移轉或移轉Teams，以及如何向使用者顯示變更。
-ms.openlocfilehash: 11824043bc8ddd50c1e0c47ee15d22a5f3cc0c97
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+description: 瞭解如何取得新號碼、移轉或移轉現有號碼Teams，以及如何向使用者顯示變更。
+ms.openlocfilehash: 8fdc0e2341bd48afb0635f554d7d25b3e4244cf1
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537074"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733294"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>為您的使用者取得電話號碼
 
@@ -34,7 +34,7 @@ ms.locfileid: "60537074"
   
 取得使用者號碼的方法有三種：
 
-- **使用 Microsoft Teams系統管理中心。** 在某些國家和地區，您可以使用系統管理中心取得使用者Microsoft Teams號碼。 請參閱 [為使用者取得新電話號碼](#get-new-phone-numbers-for-your-users)。
+- **使用 Microsoft Teams系統管理中心。** 針對部分國家和地區，您可以使用系統管理中心取得使用者Microsoft Teams號碼。 請參閱 [取得使用者的新電話號碼](#get-new-phone-numbers-for-your-users)。
 
 - **轉移現有的號碼。** 您可以移轉或移轉目前服務提供者或電話電信公司的現有號碼。 如需詳細資訊，請參閱[將電話號碼轉接至 Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或[管理貴組織的電話號碼](/microsoftteams/manage-phone-numbers-for-your-organization)，協助您完成此作業。  
   
@@ -51,14 +51,14 @@ ms.locfileid: "60537074"
 
 1. 請前往 Microsoft Teams 系統管理中心。
 
-2. 在左側流覽中，前往 **[語音** 電話  >  **數位，** 然後按一下 [**新增**。
+2. 在左側流覽中，前往 **[語音** 電話  >  **數位**，然後按一下 [**新增**。
 
 3. 輸入訂單名稱並新增描述。
 
 4. 在位置和數量頁面上，執行下列操作：
-    1. 在 **國家/地區** 下，選取某個國家/地區。
+    1. 在 **國家/地區下**，選取國家/地區。
     2. 在 **數位類型** 下，選取 **使用者 (訂閱) 。**
-    3. 在 **位置下**，選取位置。 如果您需要建立新位置，請按一下 [ **新增位置**。
+    3. 在 **位置下**，選取位置。 如果您需要建立新位置，請按一下 [ **新增位置>**。
     4. 在 **區碼下**，選取區碼。
     5. 在 **[數量**」 下，輸入貴組織想要的數位數，然後按一下 **[下** 一步> 以選取您的數位。
 
@@ -69,17 +69,17 @@ ms.locfileid: "60537074"
     > [!IMPORTANT]
     > 使用者 (訂閱者) 的電話號碼，等於您指派的國內通話方案及/或國內及國際通話方案授權總數乘以1.1，再加上 10 個額外的電話號碼。 例如，如果您有 50 位擁有國內通話方案及/或國內及國際通話方案的使用者，您可以取得 **65** 個電話號碼 (**50 x 1.1 + 10**) 。 有關詳細資料，請參閱 [您可以取得多少電話號碼？](./how-many-phone-numbers-can-you-get.md)。 如果您需要取得更多電話號碼，請聯絡商務產品支援 [連絡人 - 系統管理協助](/microsoft-365/admin/contact-support-for-business-products?tabs=online&view=o365-worldwide)。
   
-## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>從服務提供者或電信電信公司移轉或移轉電話號碼
+## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>從服務提供者或電話電信公司移轉或移轉電話號碼
   
 - 如果您需要使用者的電話號碼少於 999 個，請使用系統管理中心中的Microsoft Teams精靈。 請遵循將電話號碼[轉接至 Teams。](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 如果您的國家/地區未列在移植精靈中，您可以手動提交埠訂單，或[](phone-number-calling-plans/manually-submit-port-order.md)參閱管理貴組織的電話號碼，以下載[](/microsoftteams/manage-phone-numbers-for-your-organization)正確的授權書 (LOA) 。
 
-- 如果您需要移轉超過 999 個電話號碼，您可以手動提交[](phone-number-calling-plans/manually-submit-port-order.md)移轉訂單，或參閱管理貴[](/microsoftteams/manage-phone-numbers-for-your-organization)組織的電話號碼以下載正確的授權書 (LOA) ，然後將它傳送至[PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)服務台，以移轉所有號碼。
+- 如果您需要移轉超過 999 個電話號碼，您可以手動提交[](phone-number-calling-plans/manually-submit-port-order.md)移轉訂單，或參閱管理貴[](/microsoftteams/manage-phone-numbers-for-your-organization)組織的電話號碼以下載正確的授權書 (LOA) ，然後將它傳送至[TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)服務台，以移轉所有號碼。
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>查看貴組織的電話號碼
 
  **使用 Microsoft Teams 系統管理中心**
 
-在系統管理中心的左側流覽中，前往語音電話號碼，以查看貴組織的數位，包括位置、號碼類型和  >  狀態資訊。
+在系統管理中心的左側導電話，前往 **Voice** 電話，以查看貴組織的數位，包括位置、號碼類型和  >  狀態資訊。
   
 ## <a name="assign-phone-numbers-to-users"></a>將電話號碼指派給使用者
 

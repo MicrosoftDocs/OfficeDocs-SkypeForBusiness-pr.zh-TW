@@ -17,16 +17,16 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: '瞭解如何取得您的埠訂單狀態，以及您可以對訂單採取哪些不同動作。 '
-ms.openlocfilehash: 9bf0b66af230ee27036a891572dc92f292cb4d50
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3699a7ccbc2aa7a54c70c9cd99c9277f56ea40fc
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613042"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733094"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>您的移轉訂單狀態為何？
 
-若要查看您的埠訂單狀態，請在系統管理中心的左側導Microsoft Teams，前往 [語音>**訂單**，然後按一下 [訂單  >  ******歷程記錄**> 。 每個埠訂單狀態會列在狀態 **欄中** 。 瞭解 [埠號碼需要](../phone-number-calling-plans/port-order-overview.md#how-long-does-it-take-to-port-numbers) 多久時間才能瞭解訂單程式。 
+若要查看您的埠訂單狀態，請在系統管理中心的左側導Microsoft Teams，前往 [語音>訂單，然後按一下 [訂單  >  ******歷程記錄**> 。 每個埠訂單狀態會列在狀態 **欄中** 。 瞭解 [埠號碼需要](../phone-number-calling-plans/port-order-overview.md#how-long-does-it-take-to-port-numbers) 多久時間才能瞭解訂單程式。 
 
 下表列出埠訂單狀態，以及您可以採取的動作 。
 
@@ -35,14 +35,14 @@ ms.locfileid: "58613042"
 |**處理** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |系統管理員已建立訂單，且 Microsoft 已收到該訂單。  <br/> |
 |**正在與電信公司聯繫** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |Microsoft 已收到並核准訂單，我們正在與損失的電信公司合作，以取得核准。  <br/> |
 |**已核准移轉** <br/> |是  <br/> |否  <br/> |是  <br/> |否  <br/> |已由損失的電信公司接受訂單，並且已設定 FOC (訂單) 承諾日期。  <br/> |
-|**移轉擱置中** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |移轉時間不到 24 小時，因此無法再編輯或取消訂單。  <br/> |
-|**錯誤** <br/> |否  <br/> |是  <br/> |是  <br/> |是 (，如果發生錯誤，無法刪除埠訂單。 必須重新建立埠訂單，或您需要連上 [PSTN 服務台協助](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。  <br/> |損失的電信公司拒絕訂單。  <br/> |
+|**傳輸擱置中** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |移轉時間不到 24 小時，因此無法再編輯或取消訂單。  <br/> |
+|**錯誤** <br/> |否  <br/> |是  <br/> |是  <br/> |是 (，如果發生錯誤，無法刪除埠訂單。 必須重新建立埠訂單，或您需要與 [TNS 服務台聯繫](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。  <br/> |損失的電信公司拒絕訂單。  <br/> |
 |**完成** <br/> |是  <br/> |否  <br/> |否  <br/> |否  <br/> |已成功移轉號碼。  <br/> |
 |**取消** <br/> |否  <br/> |是  <br/> |否  <br/> |否  <br/> |系統管理員已取消訂單。  <br/> |
 
-有關完整的逐步指示，請參閱[將電話號碼轉接到 Teams。](transfer-phone-numbers-to-teams.md)
+若要瞭解完整的逐步指示，請參閱[將電話號碼轉接到 Teams。](transfer-phone-numbers-to-teams.md)
 
-如果您需要協助，或需要取得更多電話號碼，請連至 [PSTN 服務台](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+如果您需要協助，或需要取得更多電話號碼，請聯絡 [TNS 服務台](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
 ## <a name="related-topics"></a>相關主題
 

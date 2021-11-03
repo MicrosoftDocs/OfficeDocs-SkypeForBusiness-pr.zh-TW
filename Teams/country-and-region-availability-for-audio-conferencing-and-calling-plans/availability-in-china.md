@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于Microsoft 365 Office 365及商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 52d62a5f4c5835debf5784ed40c646451d831531
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是適用于中國Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+ms.openlocfilehash: 2013769f13cd94330ccc64422d5ea874d55155f2
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584777"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733684"
 ---
 # <a name="availability-in-china"></a>中國的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于Microsoft 365 Office 365及商務用 Skype Microsoft Teams服務。
+以下是適用于中國Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -44,7 +44,7 @@ ms.locfileid: "58584777"
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |是，供位於中國以外的使用者使用。 如需詳細資訊，請聯絡您的帳戶小組。  <br/> |
 |是否會自動為音訊會議指派電話號碼？  <br/> | 非地理位置。 電話號碼不會連結至特定城市或位置。 <br/>  如果您想要專屬的電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。  <br/> |
-|使用 [語音來電] 功能的撥出功能  <br/> | 是，但向中國購買服務的客戶除外。 針對從中國購買服務的客戶，撥出功能會停用。   <br/> |
+|使用 [語音來電] 功能的撥出功能  <br/> | 是，但向中國購買服務的客戶除外。 針對向中國購買服務的客戶，撥出功能會停用。   <br/> |
    
 ## <a name="phone-system"></a>電話系統
 
@@ -71,7 +71,7 @@ ms.locfileid: "58584777"
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？  <br/> |北京  <br/> |
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
-|是否提供免付費電話號碼？  <br/> |可以 ([要求) ，](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) 但從中國購買服務的客戶除外。 向中國購買服務的客戶無法撥打免付費號碼。 <br/> |
+|是否提供免付費電話號碼？  <br/> |可以 ([要求) ，](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 但從中國購買服務的客戶除外。 向中國購買服務的客戶無法撥打免付費號碼。 <br/> |
    
  如果您想要取得音訊會議、自動語音應答和通話佇列的付費電話號碼和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。
   

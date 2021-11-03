@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于印度Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 5a61ded32ca4563a3825d893f671332fa30bb996
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9468da224b7f5079f091125cb0d2841c4bd79290
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611732"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733064"
 ---
 # <a name="availability-in-india"></a>印度的可用性
 
@@ -69,11 +69,11 @@ ms.locfileid: "58611732"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> |<ul><li>奈</li><li>孟買<li>其他城市 [可要求](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |<ul><li>奈</li><li>孟買<li>其他城市 [可要求](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul> |
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
 
- 請注意，印度的服務號碼只能用於音訊會議。 因此，如果您想要取得音訊會議免付費電話號碼，請參閱取得電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
+ 請注意，印度的服務號碼只能用於音訊會議。 因此，如果您想要取得音訊會議付費和免付費電話號碼，請參閱取得電話和商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通訊點數
 

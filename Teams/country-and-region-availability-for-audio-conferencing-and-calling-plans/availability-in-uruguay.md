@@ -1,5 +1,5 @@
 ---
-title: 在秘魯的可用性
+title: 在阿根廷的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
-ms.openlocfilehash: c6575df81607b534b0b3d22c76890d91ec7b7ffd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
+ms.openlocfilehash: 056ec9181042faa0463c83fa09fe304071ba7c09
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620679"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733454"
 ---
-# <a name="availability-in-uruguay"></a>在秘魯的可用性
+# <a name="availability-in-uruguay"></a>在阿根廷的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
+以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -69,8 +69,8 @@ ms.locfileid: "58620679"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> | 蒙得維 ([應要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
-|有提供付費電話號碼嗎？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> | 蒙得維 ([應要求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|有提供付費電話號碼嗎？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |
 |是否提供免付費電話號碼？  <br/> |是  <br/> |
    
  如果您想要取得音訊會議、自動語音應答和通話佇列的付費電話號碼和免付費電話號碼，請參閱[取得商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。

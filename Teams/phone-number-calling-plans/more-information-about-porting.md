@@ -1,5 +1,5 @@
 ---
-title: 有關移植的資訊
+title: 有關移植的更多資訊
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,24 +19,24 @@ f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 取得將電話號碼移植至Microsoft Teams。
-ms.openlocfilehash: 5ed15432517ae6ba5709e699c89c341dc86f30f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bdfe677a4a76128343382373d027abd5061bd8fc
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598387"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733314"
 ---
-# <a name="more-information-about-porting"></a>有關移植的資訊
+# <a name="more-information-about-porting"></a>有關移植的更多資訊
 
 您可以在這裡找到將電話號碼Microsoft Teams。
 
 若要瞭解完整的逐步指示，請參閱[將電話號碼轉接到 Teams。](transfer-phone-numbers-to-teams.md)
 
-如果您需要協助，或需要取得更多電話號碼，請連連 [PSTN 服務台協助](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)。
+如果您需要協助，或需要取得更多電話號碼，請聯絡 [TNS 服務台協助](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
 ## <a name="port-order-account-information"></a>埠訂單帳戶資訊
 
-當您在移植精靈的新增帳戶資訊頁面提交埠訂單時，您將在 LOA 中輸入幾乎所有相同的資訊，包括：
+當您位於移植精靈的新增帳戶資訊頁面以提交埠訂單時，您將在 LOA 中輸入幾乎所有相同的資訊，包括：
   
 - 服務提供者或電信服務提供者的帳戶號碼
     
@@ -67,18 +67,18 @@ ms.locfileid: "58598387"
 - 請確定您提供的帳戶資訊與手機電信公司記錄中完全相同。 資訊不一致是錯誤最常見的原因，而且可能會延遲您的埠訂單。
     
 > [!CAUTION]
-> 請勿中斷與服務提供者或電信業者的服務。 您必須保持先前的服務有效，才能將電話號碼Teams。 請勿凍結服務提供者或電信服務提供者的帳戶。 凍結帳戶可防止帳戶上的電信公司變更。 授權使用者必須提交訂單給目前的電信公司，才能移除凍結。 此程式可能需要一到三周的時間，視電信公司不同。
+> 請勿中斷與服務提供者或電信業者的服務。 您必須保持先前的服務為使用中，才能將電話號碼Teams。 請勿凍結服務提供者或電信服務提供者的帳戶。 凍結帳戶可防止帳戶上的電信公司變更。 授權使用者必須提交訂單給目前的電信公司，才能移除凍結。 此程式可能需要一到三周的時間，視電信公司不同。
 
 ## <a name="authorized-person-on-the-account"></a>帳戶上的授權人員
 
-在埠精靈中，您必須向服務提供者或電信公司輸入有權變更帳戶的人員名稱。 該名稱不會用於處理埠訂單，但用於發生爭議，或數位在埠時不正確。 此人員負責針對埠訂單 (LOA) 授權書。
+在埠精靈中，您必須向服務提供者或電信公司輸入有權變更帳戶的人員名稱。 該名稱不會用於處理埠訂單，但用於發生爭議，或數位在埠時不正確。 此人員負責處理埠訂單的授權 (LOA) 授權書。
   
 > [!NOTE]
-> 方塊限制為 15 個字元， (包含空格) 。 在方塊中沒有完整名稱不會延遲或取消埠訂單。
+> 方塊限制為 15 個字元， (包含) 。 在方塊中沒有完整名稱不會延遲或取消埠訂單。
   
 ## <a name="whats-my-billing-telephone-number"></a>我的帳單電話號碼是什麼？
 
-BTN (帳單) 是包含在帳單上且由服務提供者或電信業者計費的主要電話號碼。 如果您從只有一個電話號碼的帳戶移轉電話號碼，您必須輸入此電話號碼。 如果您要從擁有多個帳戶的帳戶移轉電話號碼，您可以查看帳單，或連連您的服務提供者或電信業者，以判斷您帳戶的 BTN 是什麼。
+BTN (帳單) 號碼是包含在帳單上且由服務提供者或電信業者計費的主要電話號碼。 如果您從只有一個電話號碼的帳戶移轉電話號碼，您必須輸入此電話號碼。 如果您要從擁有多個帳戶的帳戶移轉電話號碼，您可以查看帳單，或連連您的服務提供者或電信業者，以判斷您帳戶的 BTN 是什麼。
 
 ## <a name="what-should-i-put-in-for-the-account-number"></a>我應該為帳戶號碼放入什麼？
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找有關取得及管理義大利地區電話號碼Microsoft Teams。
-ms.openlocfilehash: d98347f98fc6251be0e1586ad3649d517c636686
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1a664882f0bb17590f83686efd6afaf86bcdd59
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599728"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733264"
 ---
 # <a name="phone-number-management-for-italy"></a>電話義大利號碼管理
 
@@ -34,11 +34,11 @@ ms.locfileid: "58599728"
   
 |**您想要做什麼？**|**下載正確的表單並傳送給我們**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。   <br/> |下載其中一個表單。 <br>  [義大利的新電話號碼要求 (v.5.0)  (it-it) ](https://download.microsoft.com/download/7/2/7/727217df-80e4-4ff5-b9ed-65b84cdceba6/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf) <br/>  [en-us (5.0)  (5.0) ](https://download.microsoft.com/download/4/1/7/417d2578-3686-4530-87ea-e9f36e8653c1/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf)<br/>  <br/>填寫並連連 [PTSN 以尋找指示](contact-pstn-service-desk.md)。 |
-|將電話號碼轉接給我們。  <br/> | 下載此表單。 <br/>[義大利 (LOA (LOA) 授權書 (第 6.0)  (v.6.0)  (所有) ](https://download.microsoft.com/download/e/8/a/e8a20665-cbea-4f15-a50c-b8e1f6ef352d/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.6.0)-(it-it).pdf) <br/> <br/>填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 |
-|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需有關要](contact-pstn-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請連連 PTSN 服務台。      <br/> |
-|將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-pstn-service-desk.md) 服務號碼的使用者號碼清單的指示，請連連 PTSN 服務台。 <br/> |
-|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請下載此義大利 [ (v.1.0)  (it-it) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)的目錄服務表單，填寫並連連 [PTSN](contact-pstn-service-desk.md)以尋找指示。 |
+|取得系統管理中心未列出的新使用者Microsoft Teams電話號碼。   <br/> |下載其中一個表單。 <br>  [義大利的新電話號碼要求 (v.5.0)  (it-it) ](https://download.microsoft.com/download/7/2/7/727217df-80e4-4ff5-b9ed-65b84cdceba6/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf) <br/>  [en-us (5.0)  (5.0) ](https://download.microsoft.com/download/4/1/7/417d2578-3686-4530-87ea-e9f36e8653c1/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf)<br/>  <br/>填寫並聯絡 [TNS 以尋找指示](contact-tns-service-desk.md)。 |
+|將電話號碼轉接給我們。  <br/> | 下載此表單。 <br/>[義大利 (LO) A (LOA (所有)  (v.6.0)  (it-it) ](https://download.microsoft.com/download/e/8/a/e8a20665-cbea-4f15-a50c-b8e1f6ef352d/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.6.0)-(it-it).pdf) <br/> <br/>填寫並聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。 |
+|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需要](contact-tns-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請聯絡 TNS 服務台。      <br/> |
+|將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-tns-service-desk.md) 服務號碼的使用者號碼清單的指示，請聯絡 TNS 服務台。 <br/> |
+|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請下載此義大利 [ (v.1.0)  (it-it) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)的目錄服務表單，填寫並聯系 [TNS](contact-tns-service-desk.md)以尋找指示。 |
 |審查服務章程| 下載並閱讀義大利服務[ (v.1.0)  (it-it) 。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/charter-of-services-for-italy-(v.1.0)-(it-it).pdf?raw=true) |
 
 ## <a name="related-topics"></a>相關主題

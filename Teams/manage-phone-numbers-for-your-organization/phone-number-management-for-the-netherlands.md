@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在荷蘭取得及管理電話號碼Microsoft Teams。
-ms.openlocfilehash: cfe2ebc8a63eb3bbf63eef324cd5b98b1c3a2500
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 97ecbfba8d5a50d49acf3e470c18f723e2f9e1d2
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603342"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732894"
 ---
 # <a name="phone-number-management-for-the-netherlands"></a>荷蘭的電話號碼管理
 
@@ -36,11 +36,11 @@ ms.locfileid: "58603342"
   
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。   <br/> | 下載其中一個表單。</br> [荷蘭的新電話號碼要求 (v.5.0)  (nl-nl) ](https://download.microsoft.com/download/d/5/9/d5937e19-e9f7-4a08-9631-e5d456068726/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf) <br/>  [5.0 (5.0)  (5.0) ](https://download.microsoft.com/download/9/f/4/9f42be90-1977-4ba7-887a-3772757e12fa/new-phone-number-request-for-the-netherlands-(v.5.0)-(en-us).pdf)<br/><br/>  填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。  <br/> |
-|將電話號碼轉接給我們。  <br/> |下載以下其中一個表單： <br/> [荷蘭 (LOA) 授權書 (所有號碼)  (v.6.0)  (nl-nl) ](https://download.microsoft.com/download/c/7/0/c70c4dcd-f23a-4935-aa31-fc13aba33ee5/letter-of-authorization-(loa)-for-the-netherlands-(all-numbers)-(v.6.0)-(nl-nl).pdf) <br/> <br/>  填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。  <br/> |
-|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需有關要](contact-pstn-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請連連 PTSN 服務台。 <br/> |
-|將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-pstn-service-desk.md) 服務號碼的使用者號碼清單的指示，請連連 PTSN 服務台。 <br/> |
-|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請連連 [PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 |
+|取得系統管理中心未列出的新使用者Microsoft Teams電話號碼。   <br/> | 下載其中一個表單。</br> [荷蘭的新電話號碼要求 (v.5.0)  (nl-nl) ](https://download.microsoft.com/download/d/5/9/d5937e19-e9f7-4a08-9631-e5d456068726/new-phone-number-request-for-the-netherlands-(v.5.0)-(nl-nl).pdf) <br/>  [5.0 (5.0)  (荷蘭的新電話號碼) ](https://download.microsoft.com/download/9/f/4/9f42be90-1977-4ba7-887a-3772757e12fa/new-phone-number-request-for-the-netherlands-(v.5.0)-(en-us).pdf)<br/><br/>  填寫並聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。  <br/> |
+|將電話號碼轉接給我們。  <br/> |下載以下其中一個表單： <br/> [荷蘭 (LOA) 授權書 (所有號碼)  (v.6.0)  (nl-nl) ](https://download.microsoft.com/download/c/7/0/c70c4dcd-f23a-4935-aa31-fc13aba33ee5/letter-of-authorization-(loa)-for-the-netherlands-(all-numbers)-(v.6.0)-(nl-nl).pdf) <br/> <br/>  填寫並聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。  <br/> |
+|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需要](contact-tns-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請聯絡 TNS 服務台。 <br/> |
+|將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-tns-service-desk.md) 服務號碼之使用者號碼清單的指示，請聯絡 TNS 服務台。 <br/> |
+|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相關主題
 

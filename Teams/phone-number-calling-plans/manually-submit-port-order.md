@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何手動提交埠訂單要求。
-ms.openlocfilehash: 2a372ee26b9cb7b52b72c635c90a6e0435b7c729
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 221f35bf300ed9ab33ab3088f18e154ecbecc5e3
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045869"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733494"
 ---
 # <a name="manually-submit-a-port-order"></a>手動提交移轉訂單
 
@@ -33,15 +33,15 @@ ms.locfileid: "60045869"
 
 ## <a name="manually-submit-a-new-port-order-request"></a>手動提交新的埠訂單要求
 
-若要手動提交新的埠訂單，請將您已完成的授權書 (LOA) 直接傳送至您地區的 PSTN 服務台。
+若要手動提交新的埠訂單，請將您已完成的授權書 (LOA) 直接傳送至您地區的 TNS 服務台。
 
 1. 下載您國家/地區或地區的[LOA。](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 2. 完成表單。
-3. 傳送至您地區的 [PSTN](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) 服務台。
+3. 傳送至 [您地區的 TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) 服務台。
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>關於數位移植，您還需要知道什麼
 
-- 若要使用通話方案，您必須購買並指派授權給使用者。 請參閱[Teams附加元件授權。](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- 若要使用通話方案，您必須購買授權並指派給使用者。 請參閱[Teams附加元件授權。](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 - 您必須將您擁有的新電話號碼指派給每個使用者。 請參閱 [指派、變更或移除使用者的電話號碼](../assign-change-or-remove-a-phone-number-for-a-user.md)。
 

@@ -24,13 +24,13 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Microsoft 365拉脫維亞Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 3004aa00132e60b1136be24426ed3ed80d72c6c6
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+description: Microsoft 365拉脫維亞Office 365的商務用 Skype Microsoft Teams及服務。
+ms.openlocfilehash: dac4a1294020414e01c901d2593180d16beacfb3
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942398"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733044"
 ---
 # <a name="availability-in-latvia"></a>拉脫維亞的可用性
 
@@ -68,11 +68,11 @@ ms.locfileid: "59942398"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> |Riiga ([根據要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |Riiga ([根據要求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
-|是否提供免付費電話號碼？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|是否提供免付費電話號碼？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
    
-若要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話[](../getting-service-phone-numbers.md)商務用 Skype Microsoft Teams。
+若要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話[商務用 Skype Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通訊點數
 

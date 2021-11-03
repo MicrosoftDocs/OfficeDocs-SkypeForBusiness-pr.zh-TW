@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找取得及管理英國電話號碼Microsoft Teams。
-ms.openlocfilehash: a5de05c71d333a593806dc26990783c41cf57739
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 151b2f764498d64bb32d258adf1f2b1e006f11e1
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616209"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733104"
 ---
 # <a name="phone-number-management-for-the-united-kingdom"></a>電話英國號碼管理
 
@@ -36,11 +36,11 @@ ms.locfileid: "58616209"
   
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。   <br/> |下載此表單。 <br/> [適用于英國的新電話號碼要求 (v.5.0)  (en-gb) ](https://download.microsoft.com/download/e/e/9/ee9f629e-4f2b-41c3-8fa3-f206660f4db3/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf) <br/><br/>填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。  <br/> |
-|將電話號碼轉接給我們。  <br/> |下載此表單： <br/> [英國 (LOA) 授權書 (所有號碼)  (v.6.1)  (en-us) ](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> 填寫並 [連連 PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。  <br/> |
-|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需有關要](contact-pstn-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請連連 PTSN 服務台。 <br/> |
-|將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-pstn-service-desk.md) 服務號碼的使用者號碼清單的指示，請連連 PTSN 服務台。 <br/> |
-|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請連連 [PTSN 服務台以尋找指示](contact-pstn-service-desk.md)。 |
+|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。   <br/> |下載此表單。 <br/> [5.0 (5.0)  (en-gb) ](https://download.microsoft.com/download/e/e/9/ee9f629e-4f2b-41c3-8fa3-f206660f4db3/new-phone-number-request-for-the-united-kingdom-(v.5.0)-(en-gb).pdf) <br/><br/>填寫並聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。  <br/> |
+|將電話號碼轉接給我們。  <br/> |下載此表單： <br/> [英國 (LOA) 授權書 (所有號碼)  (v.6.1)  (en-us) ](https://download.microsoft.com/download/4/3/7/43706e72-81e9-461e-afca-825dad4716f4/letter-of-authorization-(loa)-for-the-u.k.-(all-numbers)-(v.6.1)-(en-us).pdf) <br/> <br/> 填寫並聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。  <br/> |
+|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需要](contact-tns-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請聯絡 TNS 服務台。 <br/> |
+|將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-tns-service-desk.md) 服務號碼的使用者號碼清單的指示，請聯絡 TNS 服務台。 <br/> |
+|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相關主題
 
