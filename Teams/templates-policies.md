@@ -1,7 +1,7 @@
 ---
 title: 在系統管理中心管理小組範本
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在系統管理中心管理小組範本
-ms.openlocfilehash: c8b9926290e58fe190d2351820e2bb63560c8c8c
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 0ab167cc66a897c0f89679cd2a403a385b2b1b01
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605369"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766061"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>在系統管理中心管理小組範本
 
@@ -38,7 +38,7 @@ ms.locfileid: "60605369"
 
 1. 登入 Teams 系統管理中心。
 
-2. 展開 **Teams**  >  **範本策略**。
+2. 展開 **Teams**  >  **範本政策**。
 
 3. 選取 [新增 **]**。
 
@@ -69,7 +69,7 @@ ms.locfileid: "60605369"
 
 ## <a name="assign-users-to-the-template-policies"></a>將使用者指派給範本策略
 
-指派給策略的使用者只能查看該政策內的可查看範本。
+指派給策略的使用者只能查看該策略內的可查看範本。
 
 1. 從 **範本政策** 中，選取一個策略，然後選取管理 **使用者**。
 
@@ -82,7 +82,7 @@ ms.locfileid: "60605369"
 > [!Note]
 > 您的新政策最多可能需要 24 小時，才能對使用者生效。
 
-## <a name="size-limits-for-template-policies"></a>範本政策的大小限制
+## <a name="size-limits-for-template-policies"></a>範本策略的大小限制
 
 每個策略最多可以隱藏 100 個範本。 如果 **已** 隱藏 100 個範本，則停用了隱藏按鈕。
 
@@ -104,12 +104,12 @@ ms.locfileid: "60605369"
 
 答：任何已刪除的範本將不再存在於任何範本政策中。
 
-**問：我可以將多個使用者指派給系統管理中心的範本Teams嗎？**
+**問：我可以將多個使用者指派給系統管理中心中的範本Teams嗎？**
 
 答：是。
 
 1. 在系統管理中心，前往 **使用者**。
-1. 在使用者清單表格中，選取要指派給特定範本策略的使用者。
+1. 在使用者清單表格中，選取您想要指派給特定範本策略的使用者。
 1. 選取編輯設定，然後變更範本政策欄位。
 1. 選取 Apply。 [深入了解](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)。
 
@@ -121,7 +121,7 @@ ms.locfileid: "60605369"
 2. 在使用者清單資料表中選取篩選，然後針對小組範本策略進行篩選。
 3. 選取 **Apply**。
 
-![選取的範本策略及查看使用者。](media/template-policies-5.png)
+![選取的範本策略和查看使用者。](media/template-policies-5.png)
 
 **問：我可以透過 PowerShell 管理範本政策嗎？**
 
@@ -143,4 +143,4 @@ ms.locfileid: "60605369"
 
 - [在 Microsoft Docs Microsoft Teams指派Microsoft Teams \| 使用者](./policy-assignment-overview.md)
 
-- [將使用者批次指派給策略](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [批次指派使用者至策略](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

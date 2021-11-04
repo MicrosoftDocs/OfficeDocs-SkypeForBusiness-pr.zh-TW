@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中建立或刪除宣告
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 在商務用 Skype Server 企業語音中建立或刪除宣告應用程式的宣告。 這會影響如何處理未指派號碼的呼叫。
-ms.openlocfilehash: 095b510dc152e527608ff1e894d971e793cbc822
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3a5fdbcb5f9c4e72790f35f73cef791868634ce9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583217"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765921"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或刪除宣告
 
@@ -62,7 +62,7 @@ ms.locfileid: "58583217"
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. 執行：
+5. 運行：
 
    ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]

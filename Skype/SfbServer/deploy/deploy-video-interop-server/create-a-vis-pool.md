@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中建立 VIS 集區
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 摘要：使用拓撲產生器在商務用 Skype Server 中建立影片 Interop 伺服器集區。
-ms.openlocfilehash: 9a417c48ca52b04d12361e39ed10a6ea39ec3795
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e622c6510b23148617ad180ecc61480503a79a8a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624385"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748799"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>在商務用 Skype Server 中建立 VIS 集區
  

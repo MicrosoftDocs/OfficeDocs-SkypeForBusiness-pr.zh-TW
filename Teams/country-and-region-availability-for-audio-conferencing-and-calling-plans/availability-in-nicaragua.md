@@ -1,7 +1,7 @@
 ---
 title: 在尼加拉瓜的可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
-ms.openlocfilehash: d289a6283d5854e427a35dcf7cac9fd11fbbec29
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
+ms.openlocfilehash: e1b3681cf859f668b366e1ee920da24ba05e944c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733644"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743029"
 ---
 # <a name="availability-in-nicaragua"></a>在尼加拉瓜的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
+以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -70,7 +70,7 @@ ms.locfileid: "60733644"
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？   | Managua ([根據要求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |有提供付費電話號碼嗎？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
-|免付費號碼是否可用？  <br/> |否  <br/> |
+|是否提供免付費號碼？  <br/> |否  <br/> |
    
  如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
   

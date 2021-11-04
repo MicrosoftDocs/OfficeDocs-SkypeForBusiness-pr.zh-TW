@@ -1,7 +1,7 @@
 ---
 title: PIN 原則
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 857fb1513dd9bb0be07113a6aa2a13f91795898d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6bb3cc48843ba2032925d72a9184fb622bacdd61
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585237"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742629"
 ---
 # <a name="pin-policy"></a>PIN 原則
 

@@ -1,7 +1,7 @@
 ---
 title: 設定 SharePoint 伺服器以搜尋封存商務用 Skype 資料
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 摘要：設定 SharePoint 伺服器以搜尋 Exchange Server 和商務用 Skype Server 封存的資料。
-ms.openlocfilehash: 081b32ad57d97a793867e56f85ad36d62424bacb
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ab7fe3127f4837334142dd1f4138df81f7dadf21
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013567"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765851"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>設定 SharePoint 伺服器以搜尋封存商務用 Skype 資料
  

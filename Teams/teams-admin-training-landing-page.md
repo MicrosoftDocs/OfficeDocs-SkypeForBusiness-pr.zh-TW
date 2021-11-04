@@ -19,13 +19,13 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
-ms.author: v-cichur
-ms.openlocfilehash: 4f2d6e2b096e5220c0dffd6f04103ea65fd9ce0aa77eef6f845f0b99f306b9cf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.author: v-mahoffman
+ms.openlocfilehash: a7260b3d522a3a7b06deef73eb3e262b892307b7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299043"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743009"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>系統管理訓練Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "54299043"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>新增：由講師帶領的訓練課程Teams</h3>
+                        <h3>NEW：由講師帶領的訓練課程Teams</h3>
                     </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@ ms.locfileid: "54299043"
                         <h3>文章</h3>
                         <p><a 
                         href="/SkypeForBusiness/what-is-phone-system-in-office-365/setting-up-your-phone-system">設定組織的電話系統</a></p>
-                        <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">與音訊會議的協力廠商整合</a></p>
+                        <p><a href="/SkypeForBusiness/legal-and-regulatory/end-of-integration-with-3rd-party-providers">協力廠商與音訊會議整合</a></p>
                     </div>
                 </div>
             </div>

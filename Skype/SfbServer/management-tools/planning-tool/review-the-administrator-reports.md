@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 2015 中查看系統管理員報告
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: 系統管理員報告包含部署和作業的詳細資訊。 會根據設計網站中標示的選取專案產生報告。 設計師可以編輯網路圖，以及定義伺服器、集區和負載平衡器的完整 IP 位址和完整網域名稱 (FQDN)，提升系統管理員報告的價值。
-ms.openlocfilehash: fe2d14856a1d884dc04ff8cf2de4ebba41eb95eb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e2a30e27b5b1928dacc36e5592033090484f065a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730392"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766291"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中查看系統管理員報告
 

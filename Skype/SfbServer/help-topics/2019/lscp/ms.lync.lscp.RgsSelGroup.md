@@ -1,7 +1,7 @@
 ---
 title: 選取群組
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: 回應群組佇列會將呼叫保留給回應群組，直到代理接聽來電為止。 佇列已指派代理人群組。 當您建立或編輯佇列時，您可以使用 [選取群組] 對話方塊，選取要指派給佇列的一或多個代理人群組。
-ms.openlocfilehash: 73c52e37624dc2468ea25aa7d892e8ebaa21ba04
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3202887986c3a384f158b487148d09fece3df2d5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610020"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742699"
 ---
 # <a name="select-groups"></a>選取群組
 

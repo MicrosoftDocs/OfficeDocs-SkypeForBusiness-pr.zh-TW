@@ -1,7 +1,7 @@
 ---
 title: 僅供檢視會議體驗
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2af0ae753357497be6ea54b89534f2220b7cbf6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
-ms.translationtype: HT
+ms.openlocfilehash: 6e56f1722d75c8126e8f19ac297e301dfc4e8706
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732292"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766031"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 僅供檢視會議體驗
 
@@ -128,7 +128,7 @@ Teams 僅供檢視體驗可讓出席者：
 - 出席報告中不會包含僅供檢視出席者。
 - 僅供檢視出席者將擁有單一視訊體驗。 他們可以看到目前主講人或正在共用的內容，但不能同時看到兩者。
 - 我們目前不支援僅供檢視出席者使用 **圖庫**、**大型圖庫** 或 **在一起模式** 版面配置。
-- 僅供檢視出席者只受下列大廳原則支援：「只有您」、「我組織中的人員和來賓」、「我組織和信任組織中的人」，及「來賓」以及「所有人」。 如果您使用的大廳原則不支援僅供檢視出席者，則會拒絕僅供檢視出席者加入會議。 
+- 只有下列大廳政策支援僅能觀看的出席者：'我的組織人員'、'我的組織人員與來賓'、'我的組織人員、信任的組織及來賓'，以及'所有人'。 如果您使用的大廳原則不支援僅供檢視出席者，則會拒絕僅供檢視出席者加入會議。 
 - 僅供檢視出席者不會有與一般出席者相同的延遲。<sup>1</sup>
 
   <sup>1</sup> 僅供檢視出席者在會議中會有 30 秒的視訊和音訊延遲。  

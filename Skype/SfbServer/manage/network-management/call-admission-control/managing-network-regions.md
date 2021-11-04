@@ -1,7 +1,7 @@
 ---
 title: 管理網路地區
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 網路地區 * 是網路中樞或骨幹，用於設定通話許可控制、E9-1-1 和媒體旁路。
-ms.openlocfilehash: 0fc7b1cdc41f73535aef83e6ec46f9bd4622da48
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5bfe3051404b41cd6a1d96bfac240e83070bbdbc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630577"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759735"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>管理商務用 Skype Server 中的網路地區
 

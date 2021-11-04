@@ -1,7 +1,7 @@
 ---
 title: '中繼組合 (規劃工具) '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 根據預設，轉送伺服器會與前端伺服器組合。 轉送伺服器也可以部署在獨立集區中以取得效能原因，或者，如果您要部署 SIP 主幹，強烈建議使用獨立集區。 商務用 Skype Server 功能中的組合，就像在 Lync Server 2013 中一樣。 如需詳細資料，請參閱下列主題：
-ms.openlocfilehash: b1a8c1652281240f24eb488931272ccf040166f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7899d15384a093c37701f977a12e08bbc1636406
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580967"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742469"
 ---
 # <a name="mediation-collocation-planning-tool"></a>中繼組合 (規劃工具) 
  

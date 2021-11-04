@@ -1,7 +1,7 @@
 ---
 title: 擱置的憑證 (叫用)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[執行命令] 頁面會顯示正在擷取擱置憑證的命令的狀態。工作完成時，將產生 [擷取擱置的憑證] 記錄檔。按一下 [檢視記錄檔] 來檢閱處理和工作完成狀態。按 [下一步] 繼續。'
-ms.openlocfilehash: e23ee50958462716c77f3f1f3bf8476adea75777
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 878995a346ceb149b650c6ac974ef9c29286e47a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587783"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765771"
 ---
 # <a name="pending-certificate-invoke"></a>擱置的憑證 (叫用)
  

@@ -1,7 +1,7 @@
 ---
 title: 指派Teams附加元件授權給使用者
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 瞭解如何將附加Teams授權指派給使用者，以使用音訊會議、電話系統和通話方案等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 36b644f983bc24304ff35f8ada0f8628e3b99e56974a8e434345a2c9e2c3c26d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 47d5f5838b382459fe6820f210a29b4809525e18
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324782"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766121"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>指派Teams附加元件授權給使用者
 
@@ -34,15 +34,15 @@ ms.locfileid: "54324782"
 
 ## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>指派授權、通話方案電話系統通訊信用額度授權之前，您需要知道什麼
 
-在您開始使用之前，請審查下列需求：
+在您開始使用之前，請先檢查下列需求：
 
-- 如果您是使用內部部署公用交換電話網絡 (PSTN) 混合式使用者，則只需要指派電話系統授權。 請勿指派通話方案授權。
+- 如果您針對混合式使用者使用內部部署公用交換電話網絡 (PSTN) ，則只需要指派電話系統授權。 請勿指派通話方案授權。
 
-- 由於 Microsoft 365 和 Microsoft Teams 之間的延遲，使用者最多可能需要 24 小時，才能在指派授權後指派通話方案。 如果使用者在 24 小時後未指派通話方案，請聯絡商務產品 [支援人員 - 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- 由於使用者與Microsoft 365之間的Microsoft Teams，使用者最多可能需要 24 小時，才能在指派授權後指派通話方案。 如果使用者在 24 小時後未指派通話方案，請聯絡商務產品 [支援人員 - 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - 如果您沒有購買正確的授權數量，就會收到錯誤訊息。 如果您需要購買更多通話方案授權，請選擇購買更多方案的選項。
 
-- 即使您的使用者被指派Enterprise E5 授權，如果您想要撥打或接聽 PSTN[](../what-are-communications-credits.md)的通話，您仍然需要指派通訊信用額度授權給他們。
+- 即使您的使用者被指派Enterprise E5 授權，如果您想要撥打或接聽 PSTN 的[](../what-are-communications-credits.md)通話，您仍然需要指派通訊信用額度授權給他們。
 
 - 將通話方案或通訊信用額度授權指派給使用者之後，您必須取得貴組織的電話號碼，然後將這些號碼指派給使用者。 有關逐步指示，請參閱 [設定通話方案](../set-up-calling-plans.md)。
 
@@ -52,7 +52,7 @@ ms.locfileid: "54324782"
 
 有關逐步指示，請參閱指派 [授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
-如果您需要為大量使用者指派授權 ，例如數百或數千個使用者，請使用[Azure Active Directory (Azure AD ](/azure/active-directory/users-groups-roles/licensing-groups-assign)Azure Active Directory (Powershell 或群組式授權) 。  
+如果您需要指派授權給大量使用者 ，例如數百或數千個使用者，請使用 Powershell 或群組[授權](/azure/active-directory/users-groups-roles/licensing-groups-assign)在 Azure Active Directory (Azure AD) 。  
 
 ## <a name="using-powershell"></a>使用 PowerShell
 

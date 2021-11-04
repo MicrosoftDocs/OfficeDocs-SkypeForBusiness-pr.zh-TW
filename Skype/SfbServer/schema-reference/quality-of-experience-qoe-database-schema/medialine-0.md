@@ -1,7 +1,7 @@
 ---
 title: MediaLine 表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: 每筆記錄代表一個媒體行。  (一個音訊會話通常會包含一個音訊媒體線。 一個音訊和影片 (A/V) 會話通常會包含一個音訊媒體線和一個影片媒體線，但如果使用會議裝置或使用畫廊 View，則會話可能會包含兩個影片媒體線。
-ms.openlocfilehash: 9f96c18fcbe5799440e557cb180a52e990f61ec8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae2d776b47f7fe0ef172c9904ea77ae6188535fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627715"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754282"
 ---
 # <a name="medialine-table"></a>MediaLine 表格
  

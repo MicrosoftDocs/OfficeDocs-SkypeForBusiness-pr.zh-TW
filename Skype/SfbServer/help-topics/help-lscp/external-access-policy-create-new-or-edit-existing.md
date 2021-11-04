@@ -1,7 +1,7 @@
 ---
 title: 外部存取原則建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 41678fc97117fa3924c87606b1f179a688749325
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8dfbe308abb9c0cca82d98ef92e39151b6dbde4b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622595"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759855"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>外部存取原則：建立新的或編輯現有
 

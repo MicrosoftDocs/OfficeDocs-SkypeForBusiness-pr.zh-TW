@@ -1,7 +1,7 @@
 ---
 title: 自訂通話駐留 inSkype for Business 的等候音樂
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: 在商務用 Skype Server 企業語音中自訂通話駐留的等候音樂。
-ms.openlocfilehash: 5fd9872c0cc6ac8c63e996d38b3cfe2c34b6fc68
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 925749819a041ed451df816902dae8b932cffbbd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585843"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753614"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>自訂通話駐留 inSkype for Business 的等候音樂
  
@@ -38,7 +38,7 @@ ms.locfileid: "58585843"
     
 2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
-3. 執行：
+3. 運行：
     
    ```powershell
    Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte >

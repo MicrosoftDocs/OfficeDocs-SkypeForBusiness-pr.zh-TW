@@ -1,7 +1,7 @@
 ---
 title: tblADUpdates
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
 description: tblADUpdates 包含後續 Active Directory 同步步驟尚未處理的 Active Directory 網域服務變更。
-ms.openlocfilehash: 5d98ccd69b5a4213484c5dbbf4baf88f35106867
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cd5c022c68d7c4760c9f00a5d8c3034588506294
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586801"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754292"
 ---
 # <a name="tbladupdates"></a>tblADUpdates
  

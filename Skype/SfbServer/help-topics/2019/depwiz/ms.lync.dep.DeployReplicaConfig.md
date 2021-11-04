@@ -1,7 +1,7 @@
 ---
 title: 安裝本機設定存放區叫用 (設定)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要開始安裝儲存中央管理存放區之本機唯讀副本的資料庫，請選取 [從已安裝及已設定的中央管理存放區中使用拓撲產生器所發佈的定義設定]，或從其他媒體讀取已定義的設定。 針對組織內部網路上的機器，選取 [自動從中央管理存放區取回設定]。
-ms.openlocfilehash: 53b7f7c8067f248a5eae09d2a7a7e94d42600e66
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 78c5a1697c77ed1a370739dd173718a74ead148e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625595"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742799"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>安裝本機設定存放區叫用 (設定)
  

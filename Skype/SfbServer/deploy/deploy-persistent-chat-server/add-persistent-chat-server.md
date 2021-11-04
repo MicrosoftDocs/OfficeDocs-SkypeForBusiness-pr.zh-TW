@@ -1,7 +1,7 @@
 ---
 title: 將 Persistent Chat Server 新增至您的商務用 Skype Server 2015 拓撲
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 摘要：閱讀此主題以瞭解如何將 Persistent Chat Server 新增至您的商務用 Skype Server 2015 拓撲。
-ms.openlocfilehash: 1ea8904ea59dd7ac7d35df1ed0ebcbbe0e3cd9f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3fe63921ca666844776c420a27cd2717d6f84be
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607236"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753410"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>將 Persistent Chat Server 新增至您的商務用 Skype Server 2015 拓撲
  
@@ -42,7 +42,7 @@ ms.locfileid: "58607236"
 1. 在執行商務用 Skype Server 的電腦上，或已安裝商務用 Skype Server 系統管理工具的電腦上，使用本機 Users 群組成員的帳戶登入， (或) 具有同等使用者權限的帳戶。
     
     > [!NOTE]
-    > 您可以使用本機使用者群組的成員帳戶來定義拓撲，但發行拓撲若要安裝商務用 Skype Server，您必須使用屬於 **Domain Admins** 群組和 **RTCUniversalServerAdmins** 群組成員的帳戶，且具有您要用於 Persistent Chat Server 檔案存放區之檔案存放區上的「完全控制」許可權 (讀取、寫入及修改) ，讓拓撲產生器可以設定所需的 dacl (，或具有對等權利的帳戶。
+    > 您可以使用本機 Users 群組成員的帳戶來定義拓撲，但若要發行拓撲（安裝商務用 Skype Server 所需的拓撲），則必須使用屬於 **Domain Admins** 群組和 **RTCUniversalServerAdmins** 群組成員的帳戶，且具有 (讀取的「完全控制」許可權。 在您要用於 Persistent Chat Server 檔案存放 (區的檔案存放區上寫入和修改) ，讓拓撲產生器可以設定必要的 Dacl) 或具有同等權力的帳戶。
   
 2. 啟動拓撲產生器。
     
@@ -109,7 +109,7 @@ ms.locfileid: "58607236"
   
 在發佈拓撲之前，請安裝 Persistent Chat Server 的資料庫。 使用拓撲產生器，選取 [ **動作** ] 並 **安裝資料庫** 以安裝資料庫。
   
-1. 在執行商務用 Skype Server 的電腦上，或在其上安裝商務用 Skype Server 系統管理工具。使用同時是 **Domain Admins** 群組和 **RTCUniversalServerAdmins** 群組成員的帳戶來登入，且具有要用於 Persistent Chat Server 檔案存放區之檔案存放區上的「讀取」、「寫入」和「修改 (」) 的「完全控制」許可權 (讀取、寫入及修改），讓拓撲產生器可以設定所需的自由存取控制清單 (dacl) ) ，或具有同等使用者權限
+1. 在執行商務用 Skype Server 的電腦上，或安裝商務用 Skype Server 系統管理工具的電腦上，使用 **Domain Admins** 群組和 **RTCUniversalServerAdmins** 群組的成員帳戶來登入，並在檔案存放區上具有「完全控制」許可權 (讀取、寫入及修改) ，以用於 Persistent Chat Server file st或 (，讓拓撲產生器可以設定 (Dacl) ) 的必要自由存取控制清單，或具有同等使用者權限的帳戶。
     
 2. 啟動拓撲產生器。 如果您已在本機儲存，請從本機檔案選取 [ **開啟拓撲** ]。
     

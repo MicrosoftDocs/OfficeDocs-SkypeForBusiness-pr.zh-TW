@@ -1,7 +1,7 @@
 ---
 title: " (選用) 在商務用 Skype 中驗證回應群組部署"
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: 在商務用 Skype Server 企業語音中驗證回應群組部署是否成功。
-ms.openlocfilehash: c3ac732b822d754048b8dbde96f272108958ab22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8e9820a68e06c3cf9ec583c9aad2e86708583ac9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607246"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753480"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a> (選用) 在商務用 Skype 中驗證回應群組部署
  
@@ -26,7 +26,7 @@ ms.locfileid: "58607246"
   
 在您設定回應群組之後，您必須驗證設定，以確保回應群組如預期般運作。 至少要使用下列類型的使用者驗證下列案例：
   
- **使用者**
+ **Users**
   
 - 以商務用 Skype 為宿主的使用者
     

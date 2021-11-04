@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中定義拓撲產生器中的閘道
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 摘要：瞭解如何在商務用 Skype Server 中的拓撲產生器中定義 PSTN 閘道。
-ms.openlocfilehash: fe570a849a9a63199eddce63280741c39a8a65eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3ea9b02f39b3ef93c7c725735599a3940f33641
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625615"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753604"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>在商務用 Skype Server 中定義拓撲產生器中的閘道
  

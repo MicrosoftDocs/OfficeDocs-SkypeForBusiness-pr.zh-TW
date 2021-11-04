@@ -1,7 +1,7 @@
 ---
 title: 促進認知和實施訓練
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1c4c31687e5812c14b4a62deacb16fdd3550969
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9d3ba97744998014d0cfb6199aac71d63590a41f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725532"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753884"
 ---
-# <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>提高認知度，並針對這些人員Microsoft Teams
+# <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>提高認知度，並針對Microsoft Teams
 
-認知與訓練是整體採用策略的行銷與通訊區段。 這可確保您的員工瞭解 Microsoft Teams 服務與應用程式的Microsoft 365 Office 365新功能。
+認知與訓練是整體採用策略的行銷與通訊部門。 這可確保您的員工瞭解 Microsoft Teams 服務與應用程式的Microsoft 365或Office 365新功能。
    
 對於初始試驗和最終全公司的推出，您的內部通訊應優先處理。 它們應該包括：
 
@@ -45,11 +45,11 @@ ms.locfileid: "58725532"
 
 完成初始試驗後，您可以展開上述工作，以覆蓋整個組織。 視您的大小，這可能需要一些時間，並依地區、使用者設定檔或組織來逐步處理。 在此大規模推出期間，鼓勵貴組織中通訊人員的參與。 我們建議您在使用可用的採用資料或自行設計時，及早且經常參與這些人員。
 
-如果您的公司有一個中央內部網路入口網站，提供新聞、資訊或支援，您可以使用它做為樞紐，以提供有關此推出的資訊。提供廣泛可用的自助資訊、訓練和書面指引，讓使用者快速上手。 許多使用者只要在可用Teams就會跳到其中，我們鼓勵這樣做。 我們也知道每個人都會以不同方式學習;中央資訊入口網站可支援貴組織內的所有學習樣式。
+如果您的公司有一個中央內部網路入口網站，提供新聞、資訊或支援，您可以使用它做為樞紐，以提供有關此推出的資訊。提供廣泛可用的自助資訊、訓練和書面指引，讓使用者快速上手。 許多使用者只要在可用Teams就會跳入，我們鼓勵這樣做。 我們也知道每個人都會以不同方式學習;中央資訊入口網站可支援貴組織內的所有學習樣式。
 
 ## <a name="implement-end-user-training"></a>執行使用者訓練
 
-使用我們的資源提供使用者訓練，因為使用者開始使用Microsoft Teams服務Microsoft 365 Office 365訓練。 請流覽我們的資源頁面以深入瞭解：
+使用我們的資源提供使用者訓練，讓使用者開始使用Microsoft Teams服務Microsoft 365 Office 365訓練。 請流覽我們的資源頁面以深入瞭解：
 
 - [由講師帶領的最終使用者訓練課程Teams](instructor-led-training-teams-landing-page.yml)
 - [系統管理員訓練Teams](itadmin-readiness.md)
@@ -71,4 +71,4 @@ ms.locfileid: "58725532"
 
 [深入瞭解Microsoft Teams使用方式報告Microsoft 365 系統管理中心。](teams-activity-reports.md)
 
-![描述下一個步驟的圖示。](media/teams-adoption-next-icon.png) 下一 [步：排程服務健康狀態評論](teams-adoption-schedule-service-health-reviews.md)
+![描繪後續步驟的圖示。](media/teams-adoption-next-icon.png) 下一 [步：排程服務健康狀態評論](teams-adoption-schedule-service-health-reviews.md)

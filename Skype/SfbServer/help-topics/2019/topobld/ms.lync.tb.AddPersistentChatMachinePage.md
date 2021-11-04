@@ -1,7 +1,7 @@
 ---
 title: 定義常設聊天室集區的電腦
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以在 [電腦 FQDN] 中輸入完整功能變數名稱 (FQDN) ，來定義將成為 Persistent Chat Server 集區的一部分的電腦。 這必須是在網域名稱系統 DNS 主機中所定義的電腦名稱稱 (A 或 AAAA) 記錄。
-ms.openlocfilehash: 4f11d0d15eadb2e012257e8da3cfe4106ffb20c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6cc3665ebb874f4255d06615369fe92ea394cf84
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590277"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759965"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>定義常設聊天室集區的電腦
 

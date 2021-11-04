@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中部署通話許可控制
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 description: 通話許可控制 (CAC) 是一種方案，可判斷即時會話是否可以根據可用的頻寬建立，以協助避免網路擁塞之使用者的音訊/視頻品質不良。
-ms.openlocfilehash: 5f8143f815c0d2c9e9b9bc281cca935198c92768
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b22074df1eac0727334371d92097333a589eb684
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610140"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753594"
 ---
 # <a name="deploy-call-admission-control-in-skype-for-business-server"></a>在商務用 Skype Server 中部署通話許可控制
  

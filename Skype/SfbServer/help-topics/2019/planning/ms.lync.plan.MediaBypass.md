@@ -1,7 +1,7 @@
 ---
 title: '媒體旁路 (規劃工具) '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 媒體旁路是指當呼叫的轉送伺服器的信號流經轉送伺服器時，從媒體路徑移除轉送伺服器。 如需詳細資訊，請參閱 Plan for media 旁路 in 商務用 Skype。
-ms.openlocfilehash: b6cbfb86eae9a62cd8937be59630d9a88bc672e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 982aac79aba1302b76b4e8eee1e9b05142751400
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605322"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742519"
 ---
 # <a name="media-bypass-planning-tool"></a>媒體旁路 (規劃工具) 
  

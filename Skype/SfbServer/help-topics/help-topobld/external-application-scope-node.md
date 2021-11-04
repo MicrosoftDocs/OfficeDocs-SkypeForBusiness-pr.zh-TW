@@ -1,7 +1,7 @@
 ---
 title: 外部應用程式範圍節點
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: 此節點會顯示此信任的應用程式集區的集區完整功能變數名稱 (FQDN) 、複寫設定和下一個躍點集區。 您可以執行下列動作：
-ms.openlocfilehash: 0a3073b636dbf4680a36f6194a5d514dd11a2fa8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 407c3421cec9b8cba602e76390c67aa27da5261a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600268"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765761"
 ---
 # <a name="external-application-scope-node"></a>外部應用程式範圍節點
  

@@ -1,7 +1,7 @@
 ---
 title: 驗證架構分割的複寫
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要確認架構擴充是否已在您的 Active Directory 網域服務樹系中成功複寫，請執行下列操作：
-ms.openlocfilehash: eb0239df900547158cd670a43cdb6fc9e82dc377
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3cbe7b856e257528bf9610ff1733c963775e648a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621575"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738549"
 ---
 # <a name="verify-replication-of-schema-partition"></a>驗證架構分割的複寫
  

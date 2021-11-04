@@ -1,7 +1,7 @@
 ---
 title: 部署嚮導 Windows 更新
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c6a280cb-1428-40b6-b761-cb649b9ff7df
 ROBOTS: NOINDEX, NOFOLLOW
 description: 如需使用部署嚮導安裝商務用 Skype Server 的詳細資訊，請參閱 install 商務用 Skype Server。
-ms.openlocfilehash: 258ce6736580f51ea70958b420b198007a8404e4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cbbf9684b3f170ffcd4daf586c75702489a6dd8b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598077"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738499"
 ---
 # <a name="deployment-wizard-windows-update"></a>部署精靈： Windows Update
  

@@ -1,7 +1,7 @@
 ---
 title: 在 Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -13,15 +13,15 @@ ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-collaboration
-description: 瞭解 Teams 中的跨小組分析、每個小組分析，以及每個頻道的分析，讓使用者查看他們參與的團隊或頻道的使用狀況資料。
+description: 瞭解 Teams 中的跨團隊分析、每個團隊分析，以及每個頻道分析，讓使用者查看他們屬於團隊或頻道的使用狀況資料。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54abc3545ca6d2935a78e3924cbd62e948c02bf1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 86c14b49de7b6ea8175d486aa86e03ceeff068c7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731732"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742969"
 ---
 # <a name="view-analytics-in-teams"></a>在 Teams
 
@@ -63,7 +63,7 @@ ms.locfileid: "58731732"
     |--------|-------------|
     |**摘要**   |團隊活動摘要，包括下列專案：<ul><li>**使用者**：指定時段的使用者總數。 這包括團隊擁有者、小組成員和來賓。</li> <li>**文章**：在指定的時段內，在小組聊天中張貼的新訊息數目。</li><li>**回復：** 在指定的時段內，小組聊天中的回復數目。</li> <li>**應用程式**：新加入團隊的應用程式數目。</li><li>**會議**：Teams團隊層級組織的會議數目。</li> </ul> |
     |**使用中使用者**   |使用中及非使用中使用者的數量。|
-    |**作用**   |按角色顯示的使用者數目，包括團隊擁有者、小組成員和來賓。|
+    |**作用**   |角色的使用者數目，包括團隊擁有者、小組成員和來賓。|
     |**使用中使用者** 圖表  |每日使用中次數。 將游標停留在給定日期上的點，以查看該日期上的使用中使用者數目。|
     |**訊息** 圖表  |根據日期在小組聊天中張貼的郵件總數。 將游標停留在給定日期的點上，以查看該日期張貼的新文章和回復數目。|
 
@@ -87,9 +87,9 @@ ms.locfileid: "58731732"
 > 您也可以在每團隊分析視圖的下拉式清單方塊中選取頻道，來查看每個頻道 [的分析](#view-per-team-analytics)。
     
 > [!NOTE]
-> 我們將作用中使用者定義為在桌面用戶端、行動用戶端和 Web 用戶端中執行刻意動作的使用者。 刻意採取動作的範例包括開始聊天、撥打電話、共用檔案、在團隊中編輯檔、參與會議等等。 我們會排除被動式動作，例如自動啟動、最小化螢幕，或關閉應用程式。 我們也會取消對單一使用者識別碼的所有動作進行解說。
+> 我們將作用中使用者定義為在桌面用戶端、行動用戶端和 Web 用戶端中執行刻意動作的使用者。 刻意採取動作的範例包括開始聊天、撥打通話、共用檔案、在團隊中編輯檔、參與會議等等。 我們會排除被動式動作，例如自動啟動、最小化螢幕，或關閉應用程式。 我們也會取消對單一使用者識別碼的所有動作進行解說。
 
 ## <a name="related-topics"></a>相關主題
 
-- [為小組查看分析](https://support.office.com/article/view-analytics-for-your-teams-5b8ad4b1-af34-4217-aff4-cd11a820b56b)
+- [查看團隊的分析](https://support.office.com/article/view-analytics-for-your-teams-5b8ad4b1-af34-4217-aff4-cd11a820b56b)
 - [Teams 分析與報告](teams-reporting-reference.md)

@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中建立或修改未指派的號碼範圍
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 在商務用 Skype Server 企業語音中建立、修改或刪除宣告應用程式的未指派號碼範圍。 這會影響如何處理未指派號碼的呼叫。
-ms.openlocfilehash: eb20f43729c29911cb9f45888564c8ab5a0ac739
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ad3193994d41d26546da36614baee64c2298cec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620239"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753750"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改未指派的號碼範圍
  

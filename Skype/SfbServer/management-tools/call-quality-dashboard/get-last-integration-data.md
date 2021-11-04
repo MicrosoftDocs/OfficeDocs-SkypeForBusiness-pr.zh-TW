@@ -1,7 +1,7 @@
 ---
 title: 取得上次整合資料
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 摘要：瞭解「取得最近的整合資料」作業，此作業是「呼叫品質」儀表板的資料 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: 495a3b3f281e8f10c46372c774098aef573d6a3e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7b55b54686ed34406ea6a716d07886a2fb794898
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604782"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766431"
 ---
 # <a name="get-last-integration-data"></a>取得上次整合資料
  

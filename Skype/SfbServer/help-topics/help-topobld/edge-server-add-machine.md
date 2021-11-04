@@ -1,7 +1,7 @@
 ---
 title: Edge Server 新增電腦
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
 description: 指定您要在此集區中，新增為 Edge Server 之每台電腦的完整網域名稱 (FQDN)。 將電腦新增至清單後，您可以隨時更新電腦的 FQDN 或從集區中移除該電腦，然後再發佈拓撲。 發行拓撲之後，要變更 FQDN 便需要在拓撲產生器中刪除伺服器，然後用新的 FQDN 將新的伺服器新增到集區。 如需設計 Edge 集區之拓撲的詳細資訊，請參閱 Edge 部署檔中的定義 Edge 拓撲。
-ms.openlocfilehash: ac80fcda2658cc5678d431ad91c3546754658299
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c35bf65cebec6c099ce5766b023ca8095a355cc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604852"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747603"
 ---
 # <a name="edge-server-add-machine"></a>Edge Server 新增電腦
 

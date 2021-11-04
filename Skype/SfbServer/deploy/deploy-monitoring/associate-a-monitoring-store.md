@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中將監控存放區與前端集區產生關聯
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 摘要：瞭解如何將前端集區與商務用 Skype Server 所使用的監控存放區產生關聯。
-ms.openlocfilehash: cff7c2d7bc85916e7e79f4f78005c81f798bcbf7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7261f86e86bc06426afd0cac8ca9142ab4398fe5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601888"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778903"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>在商務用 Skype Server 中將監控存放區與前端集區產生關聯 
 **摘要：** 瞭解如何將前端集區與商務用 Skype Server 所使用的監控存放區產生關聯。

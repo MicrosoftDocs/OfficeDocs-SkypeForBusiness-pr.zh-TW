@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server Exchange 整合通訊規劃工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
 description: 商務用 Skype Server 支援與 Exchange 整合通訊的整合，以結合語音訊息與電子郵件訊息到單一郵件基礎結構。
-ms.openlocfilehash: 4363cd9c2ce79d2d55403f4f4f6a63b096125e85
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 008b50b3bfd1c6732c3a7164f31dcc596461156b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615849"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772359"
 ---
 # <a name="skype-for-business-server-exchange-unified-messaging-planning-tool"></a>商務用 Skype Server Exchange 整合通訊規劃工具
 

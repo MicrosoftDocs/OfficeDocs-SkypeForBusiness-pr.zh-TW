@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中的通話許可控制報告
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 摘要：瞭解商務用 Skype Server 中使用的通話許可控制報告。
-ms.openlocfilehash: a48e7aed8c18823a6bae279a1f1484f5f981d279
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 83259ed107113d5a013aa3a239ce9ef1eeab833b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606192"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754764"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>商務用 Skype Server 中的通話許可控制報告
  

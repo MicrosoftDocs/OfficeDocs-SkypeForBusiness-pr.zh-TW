@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中設定次要位置資訊服務
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: 針對商務用 Skype Server 企業語音中的 E9-1-1，設定次要位置來源 (SLS) 資料庫。
-ms.openlocfilehash: b2db211ec9c1bc7d2459ad2dbc8cada4b87afa6e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6d42375ddc127bd19a73d64782f4f6840a373b87
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618109"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753450"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>在商務用 Skype Server 中設定次要位置資訊服務
  

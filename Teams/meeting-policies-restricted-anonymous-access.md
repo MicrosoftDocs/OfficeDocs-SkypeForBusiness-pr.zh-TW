@@ -1,7 +1,7 @@
 ---
 title: 從使用者移除 RestrictedAnonymousAccess Teams 會議原則
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,13 +15,13 @@ appliesto:
 - Microsoft Teams
 f1.keywords: ''
 ms.custom: ''
-description: 瞭解如何從貴組織Teams移除 RestrictedAnonymousAccesss 或會議政策。
-ms.openlocfilehash: 3ba00e8d68a4c30a31ca929e1a41e07cc0fbc104
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+description: 瞭解如何從貴組織的使用者Teams RestrictedAnonymousAccesss 或會議策略。
+ms.openlocfilehash: e1b5cc0f72419bc17fcca34e3a586ef781f93c93
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605759"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766132"
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>從使用者移除 RestrictedAnonymousAccess Teams 會議原則
 
@@ -37,7 +37,7 @@ Teams包含名為 RestrictedAnonymousAcces 的內建策略，其中包含預先�
 
 ## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>取得Teams的會議策略指派
 
-請執行下列操作，以取得Teams組織的會議策略指派。
+執行下列操作，以取得Teams組織的會議策略指派。
 
 ```powershell
 Get-CsOnlineUser | Select-Object objectid, TeamsMeetingPolicy | Group-Object TeamsMeetingPolicy
@@ -59,7 +59,7 @@ Count  Name                               Group
 
 ### <a name="use-the-grant-csteamsmeeting-policy-cmdlet"></a>使用 Grant-CsTeamsMeeting Cmdlet
 
-執行下列操作，從使用者移除 RestrictedAnonymous 會議政策。
+執行下列操作，從使用者移除 RestrictedAnonymous 會議策略。
 
 ```powershell
 Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-Object objectid | foreach {Grant-CsTeamsMeetingPolicy -Identity $_.ObjectId -PolicyName $null}
@@ -84,7 +84,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 
 #### <a name="get-the-status-of-the-batch-assignment"></a>取得批次作業的狀態
 
-每個批次工作分派會返回作業識別碼，您可以使用此識別碼來追蹤作業的進度和狀態，並找出可能發生的任何失敗。 例如，執行下列操作：
+每個批次作業會返回作業識別碼，您可以使用此識別碼來追蹤工作分派的進度和狀態，並找出任何可能會發生的失敗。 例如，執行下列操作：
 
 ```powershell
 Get-CsBatchPolicyAssignmentOperation -OperationId 62557b78-e734-42d6-952f-41a454ed6115

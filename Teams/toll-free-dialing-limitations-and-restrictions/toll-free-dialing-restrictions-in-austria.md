@@ -1,6 +1,6 @@
 ---
 title: 奧地利免付費撥號限制
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: davlick, krkilaru
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 這可協助您瞭解如何撥打每個國家/地區的免付費號碼。 選取國家/地區之後，它會將您帶至特定國家/地區頁面，其中包含免付費服務可用之免付費服務的特定詳細資料、限制和限制。 撥號格式或格式會顯示每個國家/地區撥打免付費電話號碼所需的存取碼。
-ms.openlocfilehash: 873077344d366b8887fa109a86cc85af267821c0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cc658d961624bd719f2f2d1d0868c8783ce48c05
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604372"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766051"
 ---
 # <a name="toll-free-dialing-restrictions-in-austria"></a>奧地利免付費撥號限制
 

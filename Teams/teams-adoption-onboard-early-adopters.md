@@ -1,7 +1,7 @@
 ---
 title: 讓早期採用者快速上手並收集意見反應
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 選擇早期採用者進行實驗階段Teams採用，然後收集您專案的意見。
+description: 選擇早期採用者進行實驗階段，Teams採用，然後收集您專案的意見。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4b62032ac94bed2c8f393e36724249abd4c9bb81
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 47c51e869e25726e73863091a88e4f7289d7693c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727782"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753864"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>加入早期採用者並收集Microsoft Teams
 
@@ -41,12 +41,12 @@ ms.locfileid: "58727782"
 
 ## <a name="gather-feedback"></a>收集意見反應
 
-使用專案或Microsoft 365元件Office 365收集項目的意見意見。
+使用專案或Microsoft 365 Office 365來收集項目的意見回饋。
   
-![代表決策點的圖示。](media/teams-adoption-decision-icon.png) 決定：如果貴組織已經投資Yammer網路，您可以將它做為您早期採用者計畫的意見回饋論壇。 如果沒有，且您的早期採用者計畫的成員少於 5000 人，請Teams小組來收集意見，並提供訓練。
+![代表決策點的圖示。](media/teams-adoption-decision-icon.png) 決策：如果貴組織已經投資Yammer網路，您可以將它做為早期採用者計畫的意見回饋論壇。 如果沒有，且您的早期採用者計畫的成員少於 5000 人，請Teams小組來收集意見，並提供訓練。
   
 > [!Note]
-> 有些組織會結合早期採用者意見回饋的頻道，加入團隊合作的領軍者計畫小組。 這是一個好方法，因為許多早期採用者未來可能會成為領軍者，而且將會建立更強大的社群。 
+> 有些組織會結合早期採用者意見回饋的頻道，加入團隊團隊支援計畫小組。 這是一個好方法，因為許多早期採用者未來可能會成為領軍者，而且將會建立更強大的社群。 
 
 
 ![代表下一個步驟的圖示。](media/teams-adoption-next-icon.png) 下一步： [板載支援](teams-adoption-onboard-support.md)。

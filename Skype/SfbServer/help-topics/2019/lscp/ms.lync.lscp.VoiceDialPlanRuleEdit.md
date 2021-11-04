@@ -1,7 +1,7 @@
 ---
 title: 正規化規則建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 7d58bc1d3e6cee210ea4731088880bbc3a05631e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c92f9fd355066cb834989c7c2a1d17256396140e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595927"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760126"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>正規化規則：建立新的或編輯現有
 

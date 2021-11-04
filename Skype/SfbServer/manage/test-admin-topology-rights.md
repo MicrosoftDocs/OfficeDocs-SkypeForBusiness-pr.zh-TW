@@ -1,7 +1,7 @@
 ---
 title: 測試商務用 Skype Server 中的系統管理員拓撲權力
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 如何在商務用 Skype Server 中測試拓撲權力
-ms.openlocfilehash: 7e1d7b8fe1f2b35cffd63aa8816b36946cdc500f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2da77957baaa510ef7669fb6a980de2aacf428a4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580537"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759715"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>測試商務用 Skype Server 中的系統管理員拓撲權力
 
@@ -53,11 +53,11 @@ True
 
 警告：物件 "CN = 電腦，DC = litwareinc，DC=com" 的存取控制專案 (Ace) 尚未就緒。 
 
-錯 
+False 
 
 警告： "Test-CsSetupPermission" 處理已完成，但有警告。 在此執行期間，記錄了 "2" 個警告。 
 
-警告：在 "C:\Users\Admin\AppData\Local\Temp\Test-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118.html" 可以找到詳細的結果。 
+警告：您可以在「C:\Users\Admin\AppData\Local\Temp\Test-CsSetupPermission-1da99ba6-abe2-45e4-8b16-dfd244763118.html」找到詳細的結果。 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>測試可能失敗的原因
 

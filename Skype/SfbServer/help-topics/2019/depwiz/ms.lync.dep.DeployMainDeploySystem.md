@@ -1,7 +1,7 @@
 ---
 title: 安裝或更新商務用 Skype Server 系統
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要開始安裝，或更新商務用 Skype Server 的現有部署，請按一下 [安裝或更新商務用 Skype Server]。 本節中的步驟會根據拓撲產生器檔，安裝指定伺服器角色特有的元件。 在您開始執行這系列步驟之前，必須先在拓撲產生器中定義部署。 您必須以本機系統管理員身分登入您要部署的電腦，並以伺服器所在網域的 Domain Admins 群組成員身分登入。 完成此步驟之前，電腦必須已加入網域。
-ms.openlocfilehash: a1349a859d214543e86c2755b08df90104afe46a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: edf8a0b210d1cc8a7d806bfcf7b04f6f5198535b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579917"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738699"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>安裝或更新商務用 Skype Server 系統
 

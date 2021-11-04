@@ -1,7 +1,7 @@
 ---
 title: 將封存資料庫新增至商務用 Skype Server 中的現有部署
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 摘要：閱讀此主題以瞭解如何將封存資料庫新增至您的商務用 Skype Server 部署。
-ms.openlocfilehash: 36d825ef79befa430edfd126bd9cd5a5d840b2f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7174919ef34cd77bf7da316d23808ea1cfaff7f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611322"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778933"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>將封存資料庫新增至商務用 Skype Server 中的現有部署
  
@@ -72,7 +72,7 @@ ms.locfileid: "58611322"
     
      c. 如果指定的 SQL Server 實例是以鏡像關聯，請選取 [**此 SQL 實例為鏡像** 關聯] 核取方塊，然後在 [**鏡像埠號碼**] 中指定埠號碼。
     
-   - 如果您啟用 SQL Server 鏡像，並且想要包含 SQL Server 鏡像見證 (第三個個別 SQL Server 實例可以偵測主要 SQL Server 和鏡像實例) 的健康情況，請選取 [**使用 SQL Server 鏡像見證啟用自動容錯移轉**] 核取方塊，然後執行下列其中一項操作：
+   - 如果您啟用 SQL Server 鏡像，並且想要包含 SQL Server 鏡像見證 (第三個個別 SQL Server 實例可以偵測主要 SQL Server 和鏡像實例) 的健康情況，請選取 [**使用 SQL Server 鏡像見證啟用自動容錯移轉**] 核取方塊，然後執行一個 下列其中一項：
     
      a. 在 [ **SQL Server fqdn**] 中，指定您要在其上建立新 SQL Server 鏡像見證之伺服器的 FQDN。
     
@@ -87,7 +87,7 @@ ms.locfileid: "58611322"
 1. 在執行商務用 Skype Server 的電腦上，或在其上安裝商務用 Skype Server 系統管理工具的電腦上，使用本機 Users 群組成員的帳戶登入 (或具有同等使用者權限的帳戶) 。
     
     > [!NOTE]
-    > 您可以使用本機 Users 群組成員的帳戶來定義拓撲，但發行拓撲（必須用來將伺服器新增至拓撲）。您必須使用屬於 **Domain Admins** 群組和 **RTCUniversalServerAdmins** 群組成員的帳戶，且具有對商務用 Skype Server 檔案存放區所使用之檔案共用上的「讀取」、「寫入」和「修改」) 的「完全控制」許可權，讓拓撲產生器可以設定所需的任意自由存取控制清單 (dacl (，或具有對等權利的帳戶 (。
+    > 您可以使用本機 Users 群組成員的帳戶來定義拓撲，但若要發行拓撲（需要將伺服器新增至拓撲），則必須使用屬於 **Domain Admins** 群組和 **RTCUniversalServerAdmins** 群組成員的帳戶，且具有 (讀取的「完全控制」許可權。 在您用於商務用 Skype Server 檔案存放 (區的檔案共用上寫入和修改) ，讓拓撲產生器可以設定所需的任意自由存取控制清單 (dacl) ，或具有對等權利的帳戶。
   
 2. 使用拓撲產生器開啟您在上一節中建立的拓撲。
     

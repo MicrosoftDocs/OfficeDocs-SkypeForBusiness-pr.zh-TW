@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中設定位置資料庫
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 在商務用 Skype Server 企業語音中，設定、填入及發佈 E9-1-1 位置資料庫。
-ms.openlocfilehash: 0eb2fd8e09c09688cf8c8282b35328ca7eb1761b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 759dffbaf5f9370b2604534e2868cdd87933d1ef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597737"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748909"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>在商務用 Skype Server 中設定位置資料庫
  

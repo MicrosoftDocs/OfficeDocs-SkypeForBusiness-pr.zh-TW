@@ -1,7 +1,7 @@
 ---
 title: Office Web Apps Server 範圍節點展開工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在拓撲產生器中，以滑鼠右鍵按一下 [Office 網頁應用程式伺服器] 以執行下列作業：
-ms.openlocfilehash: 1993d208f9af37485736ce6d72b0a8fa246371a7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 1230c983de7d3d5e12402f6bc7e076f9f0bca57f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728272"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742310"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps Server 範圍節點展開工具
  

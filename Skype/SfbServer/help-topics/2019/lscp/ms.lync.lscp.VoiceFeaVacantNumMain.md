@@ -1,7 +1,7 @@
 ---
 title: 未指派電話號碼
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: 未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。未指派的號碼表可識別您希望用來處理撥打至未指派號碼的方式。
-ms.openlocfilehash: 1924b6502bac9d15aa328efd9a160701ca74f56e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6b621d005f7768fb981fc6d70ef179ee8e8e1586
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625465"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778713"
 ---
 # <a name="unassigned-phone-number"></a>未指派電話號碼
 
