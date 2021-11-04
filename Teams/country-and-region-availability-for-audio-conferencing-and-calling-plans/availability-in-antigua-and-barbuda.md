@@ -1,7 +1,7 @@
 ---
 title: 安地安地安達和巴布達的可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于安提Microsoft 365巴Office 365的商務用 Skype Microsoft Teams及服務。
-ms.openlocfilehash: 438a68188bb89b502c9e7e319e025bfcbaf6467a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是適用于Microsoft 365巴Office 365及商務用 Skype Microsoft Teams的Microsoft Teams及服務。
+ms.openlocfilehash: 66cc66d614ccd579267d7b1fe384b80ca802ed89
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628365"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777673"
 ---
 # <a name="availability-in-antigua-and-barbuda"></a>安地安地安達和巴布達的可用性
 
-[尋找另一個國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入瞭解音訊會議與通話方案的國家/地區可用性。
+[尋找其他國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入瞭解音訊會議與通話方案的國家/地區可用性。
 
-以下是適用于安提Microsoft 365巴Office 365的商務用 Skype Microsoft Teams及服務。
+以下是適用于Microsoft 365巴Office 365及商務用 Skype Microsoft Teams的Microsoft Teams及服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -71,7 +71,7 @@ ms.locfileid: "58628365"
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？   | 不適用 |
 |有提供付費電話號碼嗎？  <br/> |否 <br/> |
-|是否提供免付費號碼？  <br/> |是  <br/> |
+|免付費號碼是否可用？  <br/> |是  <br/> |
    
  如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
   

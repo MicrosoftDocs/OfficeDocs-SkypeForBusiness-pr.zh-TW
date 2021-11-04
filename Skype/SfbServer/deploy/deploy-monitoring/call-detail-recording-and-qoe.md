@@ -1,7 +1,7 @@
 ---
 title: 設定商務用 Skype Server 中的詳細通話記錄及經驗品質設定
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: 摘要：瞭解如何在商務用 Skype Server 中設定 CDR 和 QoE。
-ms.openlocfilehash: 5e04ac3fcf269ba9520e874e123f165f2fd4269a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: abb6996a7483afb8526731ac69404174883ce313
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604232"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745319"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>設定商務用 Skype Server 中的詳細通話記錄及經驗品質設定
  

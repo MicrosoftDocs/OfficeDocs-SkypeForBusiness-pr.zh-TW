@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype 中建立或修改語音原則及設定 PSTN 使用方式記錄
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 摘要：使用商務用 Skype Server 控制台建立或修改語音原則，以及設定 PSTN 使用方式記錄。
-ms.openlocfilehash: 80e19ed7c271df8b27f53062d4647a39fd6e7491
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0188881fe91d527c64b95a8cac49ba91ed12bf5f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605572"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769601"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>在商務用 Skype 中建立或修改語音原則及設定 PSTN 使用方式記錄
 

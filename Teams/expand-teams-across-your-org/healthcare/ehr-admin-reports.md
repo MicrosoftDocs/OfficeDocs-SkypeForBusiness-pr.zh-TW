@@ -1,7 +1,7 @@
 ---
 title: Teams虛擬訪問 - 系統管理報告
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -23,18 +23,18 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 查看 EHR 連接器Teams管理員報告
-ms.openlocfilehash: fd1b7577079c65d12fa85cc4098702cb26b2a1da
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3a7514dec687fdd5d82928e4a2a8986b3add4eee
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730192"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769861"
 ---
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft TeamsEHR 連接器系統管理報告
 
-[Microsoft Teams EHR (連接器系統管理報告) 中的電子健康情況記錄，提供使用狀況資料的快速且容易閱讀的視圖。
+[Microsoft Teams EHR (連接器系統管理報告) 中的電子健康情況記錄，提供使用狀況資料快速且容易閱讀的視圖。
 
-您可以流覽 [Microsoft Teams系統管理中心儀表板Microsoft Teams檢視對話方塊，查看 EHR 連接器系統管理報告。
+您可以流覽 [Microsoft Teams管理中心儀表板並檢視該對話方塊，Microsoft Teams EHR 連接器系統管理員報告。
 
 從系統管理中心儀表板Microsoft Teams報表。
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams升級|環境評估、探索問題
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7b8fa73141777bb55a020871558a7c6b95aba17
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e190445ed74380bfc3745d34b3e1bb94775e016d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629905"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758195"
 ---
 # <a name="discovery-questionnaire---evaluate-your-environment"></a>探索問卷 - 評估您的環境
 
@@ -50,7 +50,7 @@ ms.locfileid: "58629905"
 > | 這些租使用者Microsoft 365或Office 365多租戶或 <br>專用？ | <input type="checkbox"> 多租戶<br/> <input type="checkbox"> 專用 | |
 > | 目前使用哪些 Microsoft Online 產品？ <br/>請注意，每個使用者啟用的使用者數目 <br>服務。 | <input type="checkbox">Microsoft Teams <br/> <input type="checkbox">商務用 Skype <br>&nbsp;&nbsp; &nbsp;線上 <br/> <input type="checkbox">Exchange Online <br/> <input type="checkbox">SharePoint線上 <br/> <input type="checkbox">商務用 OneDrive <br/> <input type="checkbox">Yammer <br/> <input type="checkbox"> 其他| |
 > | 針對哪些使用者啟用Skype等級 <br>Business Online 使用者？ | <input type="checkbox"> E1/G1 <br/> <input type="checkbox"> E2/G2 <br/> <input type="checkbox"> E3/G3 <br/> <input type="checkbox"> E4/G4 E5 <br/> <input type="checkbox"> 獨立 | 使用者數目 <br>每個 SKU： |
-> | 什麼是目前的 Active Directory 樹林 <br>環境中的功能層級？ <br/>如果林地超過一個，請記下詳細資料 <br>在批註欄中。 | <input type="checkbox">WindowsServer 2000 <br/> <input type="checkbox">WindowsServer 2003 <br/> <input type="checkbox">WindowsServer 2008<br/> <input type="checkbox">WindowsServer 2008 R2 <br/> <input type="checkbox">Windows Server 2012 <br/> <input type="checkbox">Windows Server 2012R 2 <br/> <input type="checkbox">Windows Server 2016| |
+> | 目前 Active Directory 樹林是什麼 <br>環境中的功能層級？ <br/>如果林地超過一個，請記下詳細資料 <br>在批註欄中。 | <input type="checkbox">WindowsServer 2000 <br/> <input type="checkbox">WindowsServer 2003 <br/> <input type="checkbox">WindowsServer 2008<br/> <input type="checkbox">WindowsServer 2008 R2 <br/> <input type="checkbox">Windows Server 2012 <br/> <input type="checkbox">Windows Server 2012R 2 <br/> <input type="checkbox">Windows Server 2016| |
 > | 您用於目錄的是什麼 <br>同步處理嗎？ |<input type="checkbox"> 只有雲端 (同步)  <br/> <input type="checkbox">Azure Active Directory <br>&nbsp;&nbsp; &nbsp; 連線 <br/> <input type="checkbox"> 其他 (指定于 <br>&nbsp;&nbsp; &nbsp;批註欄.) | |
 > | 目前是否部署聯合身分識別？ <br/> (Active Directory Federation Services 或 <br>協力廠商)  | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
 > | 如果您使用的是聯合身分識別，什麼是 <br>聯合基礎結構？ | <input type="checkbox">Windows 2008 R2 AD FS <br/> <input type="checkbox">Windows 2012 AD FS <br/> <input type="checkbox">Windows 2012 R2 AD FS <br/> <input type="checkbox">Windows 2016 AD FS <br/> <input type="checkbox"> 協力廠商聯盟 <br>&nbsp;&nbsp; &nbsp; 閘道 <br>&nbsp;&nbsp; &nbsp; (請注意 <br>&nbsp;&nbsp; &nbsp;批註欄.)  | |
@@ -64,7 +64,7 @@ ms.locfileid: "58629905"
 > | 問題 | 回答 | 註解 |
 > |---|---|---|
 > | 是否Microsoft Teams部署？ | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
-> | 是否商務用 Skype部署？ <br/>針對內部部署和混合式部署，請確定 <br>請注意 CU 版本和累積更新 (CU)  <br>批註欄中的詳細資訊。 | <input type="checkbox">是、Microsoft 365或Office 365 <br/> <input type="checkbox">是，混合式 (或Microsoft 365 Office 365)  <br/> <input type="checkbox"> 是，內部部署 <br/> <input type="checkbox"> 是，線上，專用 <br>&nbsp;&nbsp; &nbsp; (Microsoft)  <br/> <input type="checkbox"> 是，託管，專用 <br>&nbsp;&nbsp; &nbsp; (協力廠商)  <br/> <input type="checkbox"> 是，託管、共用 (協力廠商)  <br/> <input type="checkbox"> 否，其他 | |
+> | 是否商務用 Skype部署？ <br/>針對內部部署和混合式部署，請確定 <br>請注意 CU 版本和累積更新 (CU)  <br>批註欄中的詳細資訊。 | <input type="checkbox">是、Microsoft 365或Office 365 <br/> <input type="checkbox">是，混合式 (或Microsoft 365 Office 365)  <br/> <input type="checkbox"> 是，內部部署 <br/> <input type="checkbox"> 是，線上，專用 <br>&nbsp;&nbsp; &nbsp; (Microsoft)  <br/> <input type="checkbox"> 是，託管，專用 <br>&nbsp;&nbsp; &nbsp; (協力廠商)  <br/> <input type="checkbox"> 是、託管、共用 (協力廠商)  <br/> <input type="checkbox"> 否，其他 | |
 > | 是否Exchange部署？ <br/>針對內部部署和混合式部署，請確定 <br>請注意批註中的版本和 CU 詳細資料 <br>列。 | <input type="checkbox">是、Microsoft 365或Office 365 <br/> <input type="checkbox">是，混合式 (或Microsoft 365 Office 365)  <br/> <input type="checkbox"> 是，內部部署 <br/> <input type="checkbox"> 是，線上，專用 <br>&nbsp;&nbsp; &nbsp; (Microsoft)  <br/> <input type="checkbox"> 是，託管，專用 <br>&nbsp;&nbsp; &nbsp; (協力廠商)  <br/> <input type="checkbox"> 是、託管、共用 <br>&nbsp;&nbsp; &nbsp; (協力廠商)  <br/> <input type="checkbox"> 否，其他 | |
 > | 是否SharePoint部署？ <br/>針對內部部署和混合式部署，請確定 <br>請注意批註中的版本和 CU 詳細資料 <br>列。 | <input type="checkbox">是、Microsoft 365或Office 365 <br/> <input type="checkbox">是，混合式 (或Microsoft 365 Office 365)  <br/> <input type="checkbox"> 是，內部部署 <br/> <input type="checkbox"> 是，線上，專用 <br>&nbsp;&nbsp; &nbsp; (Microsoft)  <br/> <input type="checkbox"> 是，託管，專用 <br>&nbsp;&nbsp; &nbsp; (協力廠商)  <br/> <input type="checkbox"> 是、託管、共用 <br>&nbsp;&nbsp; &nbsp; (協力廠商)  <br/> <input type="checkbox"> 否，其他 | |
 > | 是否Microsoft 365或Office 365 商務用 OneDrive部署？ | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
@@ -77,41 +77,41 @@ ms.locfileid: "58629905"
 
 ### <a name="microsoft-teams-if-applicable"></a>Microsoft Teams (若適用，) 
 
-如果適用，使用下列範例Teams，以捕獲部署詳細資料。 如果您尚未部署Teams，請略過本節。
+如果適用，使用下列範例Teams捕獲部署詳細資料。 如果您尚未部署Teams，請略過本節。
 
 > | 問題 | 回答 | 註解 |
 > |---|---|---|
 > | 啟用哪些類型的使用者Teams？ | <input type="checkbox"> 組織中所有使用者 <br/> <input type="checkbox"> 特定使用者/使用者群組 <br>&nbsp;&nbsp; &nbsp; (批註欄中指定)  ||
-> | 目前Teams哪些功能與模式？ | <input type="checkbox"> 頻道型交談 <br/> <input type="checkbox"> 私人聊天 <br/> <input type="checkbox"> 來賓存取 <br/> <input type="checkbox"> 頻道會議 <br/> <input type="checkbox"> 私人會議 <br/> <input type="checkbox"> 私人通話 <br/> <input type="checkbox"> 臨時通道會議 <br/> <input type="checkbox"> 會議中影片 <br/> <input type="checkbox"> 會議中的螢幕畫面共用 <br/> <input type="checkbox"> 音訊會議 <br/><input type="checkbox"> 應用程式 (應用程式) <br> &nbsp;&nbsp; &nbsp;<input type="checkbox">標籤<br>&nbsp;&nbsp; &nbsp;<input type="checkbox">機器人 <br>&nbsp;&nbsp; &nbsp;<input type="checkbox">連接<br><input type="checkbox"> 自訂雲端儲存空間整合 <br>&nbsp;&nbsp; &nbsp; Dropbox、Box、ShareFile、Google 雲端硬碟、Egnyte <br/> <input type="checkbox"> 頻道電子郵件整合 <br/> <input type="checkbox"> 其他 (批註欄中的指定。)  | |
+> | 目前Teams哪些功能與模式？ | <input type="checkbox"> 頻道型交談 <br/> <input type="checkbox"> 私人聊天 <br/> <input type="checkbox"> 來賓存取 <br/> <input type="checkbox"> 頻道會議 <br/> <input type="checkbox"> 私人會議 <br/> <input type="checkbox"> 私人通話 <br/> <input type="checkbox"> 臨時通道會議 <br/> <input type="checkbox"> 會議中影片 <br/> <input type="checkbox"> 會議中的螢幕畫面共用 <br/> <input type="checkbox"> 音訊會議 <br/><input type="checkbox"> 應用程式 (應用程式) <br> &nbsp;&nbsp; &nbsp;<input type="checkbox">標籤<br>&nbsp;&nbsp; &nbsp;<input type="checkbox">機器人 <br>&nbsp;&nbsp; &nbsp;<input type="checkbox">連接<br><input type="checkbox"> 自訂雲端儲存空間整合 <br>&nbsp;&nbsp; &nbsp; Dropbox， Box， ShareFile， Google 雲端硬碟， Egnyte <br/> <input type="checkbox"> 頻道電子郵件整合 <br/> <input type="checkbox"> 其他 (批註欄中的指定。)  | |
 > | 您部署哪些應用程式Teams？ | | |
-> | 您是否已特別封鎖任何Teams功能？ <br/>如果是，請記下批註欄中的詳細資訊。 | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 ||
+> | 您是否已明確封鎖任何Teams功能？ <br/>如果是，請記下批註欄中的詳細資訊。 | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 ||
 > | 哪些Teams用戶端使用中？ | <input type="checkbox"> Web <br/> <input type="checkbox">Windows <br/> <input type="checkbox"> Mac <br/> <input type="checkbox"> Ios <br/> <input type="checkbox"> Android <br/> <input type="checkbox">Windows移動 | |
 > | 神秘建立團隊的許可權嗎？ | <input type="checkbox"> 組織中所有人 <br>&nbsp;&nbsp; &nbsp; (這是預設設定)  <br/> <input type="checkbox"> 特定人員 <br>&nbsp;&nbsp; &nbsp; (批註欄中指定。)  | |
 > | 您目前使用的是安全性與合規性功能Teams？ | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
 
 ### <a name="skype-for-business-online-if-applicable"></a>商務用 Skype線上 (若適用) 
 
-如果適用，使用下列範例商務用 Skype線上部署詳細資料。 如果您尚未在線上部署商務用 Skype，請略過本節。
+若適用，使用下列範例商務用 Skype線上部署詳細資料。 如果您尚未在線上部署商務用 Skype，請略過本節。
 
 > | 問題 | 回答 | 註解 |
 > |---|---|---|
 > | 啟用哪些類型的使用者Skype <br>商務用 Online？ | <input type="checkbox"> 組織中所有使用者 <br/> <input type="checkbox"> 特定使用者/使用者群組 <br>&nbsp;&nbsp; &nbsp; (批註欄中指定)  | |
-> | 目前採用什麼模式和功能 <br>今天使用中？ | <input type="checkbox"> 立即訊息和目前狀態 (IM/P) <br/> <input type="checkbox"> 會議 <br/> <input type="checkbox"> 聯合會 <br/> <input type="checkbox"> 會議錄製 <br/> <input type="checkbox"> Microsoft 音訊會議 <br/> <input type="checkbox"> 協力廠商音訊會議 <br>&nbsp;&nbsp; &nbsp; (在批註欄中記下詳細資料。)  <br/> <input type="checkbox"> 通話方案 (PSTN 通話)  <br/> <input type="checkbox"> 組織自動助理 <br/> <input type="checkbox"> 通話佇列 | |
+> | 目前採用什麼模式和功能 <br>今天使用中？ | <input type="checkbox"> 立即訊息和目前狀態 (IM/P) <br/> <input type="checkbox"> 會議 <br/> <input type="checkbox"> 聯合會 <br/> <input type="checkbox"> 會議錄製 <br/> <input type="checkbox"> Microsoft 音訊會議 <br/> <input type="checkbox"> 協力廠商音訊會議 <br>&nbsp;&nbsp; &nbsp; (請注意批註欄中的詳細資訊。)  <br/> <input type="checkbox"> 通話方案 (PSTN 通話)  <br/> <input type="checkbox"> 組織自動助理 <br/> <input type="checkbox"> 通話佇列 | |
 > | 您是否特別封鎖任何Skype <br>Business Online 功能？ <br>如果是，請記下批註欄中的詳細資訊。 | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
 > | 您用或打算使用什麼方法 <br>將電話系統 (雲端 PBX)  <br>PSTN？ <br/>選取所有適用專案。 | <input type="checkbox"> 通話方案 (PSTN 通話)  <br/> <input type="checkbox"> 內部部署 PSTN (利用現有 <br>&nbsp;&nbsp; &nbsp; 商務用 Skype 2015 或 Lync Server 2013 <br>&nbsp;&nbsp; &nbsp; 部署)  <br/> <input type="checkbox"> 使用雲端連接器 (內部部署 PSTN)  | |
 > | 您是否將任何電話號碼移植到 Microsoft？ <br/>這適用于通話方案與音訊 <br>會議功能。 | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
 
 ### <a name="skype-for-business-on-premises-if-applicable"></a>商務用 Skype內部部署 (內部部署) 
 
-如果適用，請用下列範例商務用 Skype，以捕獲您的部署詳細資料。 如果您尚未在內部部署商務用 Skype，請略過本節。
+如果適用，使用下列範例商務用 Skype，以捕獲部署詳細資料。 如果您尚未在內部部署商務用 Skype，請略過本節。
 
 > | 問題 | 回答 | 註解 |
 > |---|---|---|
 > | 目前 Lync 或 商務用 Skype版本 <br>是否部署于內部部署？ | <input type="checkbox">OfficeCommunications Server 2007 "R1" <br/> <input type="checkbox">OfficeCommunications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox">商務用 Skype Server 2015 <br/> <input type="checkbox">商務用 Skype Server 2019 <br/> <input type="checkbox">商務用 Skype Cloud Connector Edition | |
-> | 是否已商務用 Skype線上混合式？ | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
+> | 是否已商務用 Skype線上的混合式？ | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
 > | 此環境是否由協力廠商託管和管理？ <br/>如果是，請記下批註欄中的詳細資訊。 | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
-> | 目前使用的模式和功能 <br>今天？ | <input type="checkbox"> 立即訊息和目前狀態 (IM/P)  <br/> <input type="checkbox"> 會議 <br/> <input type="checkbox"> 聯合會 <br/> <input type="checkbox"> 會議錄製 <br/> <input type="checkbox"> 永久聊天/ 群組聊天 <br/> <input type="checkbox"> Microsoft 音訊會議 <br>&nbsp;&nbsp; &nbsp; (電話撥入會議) 您的 <br>&nbsp;&nbsp; &nbsp; 內部部署 Lync Server 或 <br>&nbsp;&nbsp; &nbsp; 商務用 Skype部署 <br/> <input type="checkbox"> 協力廠商音訊會議 <br>&nbsp;&nbsp; &nbsp; (請注意批註欄中的詳細資訊)  <br/> <input type="checkbox">企業語音使用內部部署 PSTN <br>&nbsp;&nbsp; &nbsp; 連接 <br/> <input type="checkbox"> 通話方案 (PSTN 通話) 透過 <br>&nbsp;&nbsp; &nbsp;與 商務用 Skype Online 的混合式 | |
-> | 您 () 部署哪些版本的 Edge Server？ | <input type="checkbox">OfficeCommunications Server 2007 "R1" <br/> <input type="checkbox">OfficeCommunications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox">商務用 Skype Server 2015 <br/> <input type="checkbox">商務用 Skype Server 2019 | |
+> | 目前使用的模式和功能 <br>今天？ | <input type="checkbox"> 立即訊息和目前狀態 (IM/P)  <br/> <input type="checkbox"> 會議 <br/> <input type="checkbox"> 聯合會 <br/> <input type="checkbox"> 會議錄製 <br/> <input type="checkbox"> 永久聊天/群組聊天 <br/> <input type="checkbox"> Microsoft 音訊會議 <br>&nbsp;&nbsp; &nbsp; (電話撥入會議) 您的 <br>&nbsp;&nbsp; &nbsp; 內部部署 Lync Server 或 <br>&nbsp;&nbsp; &nbsp; 商務用 Skype部署 <br/> <input type="checkbox"> 協力廠商音訊會議 <br>&nbsp;&nbsp; &nbsp; (請注意批註欄中的詳細資訊)  <br/> <input type="checkbox">企業語音使用內部部署 PSTN <br>&nbsp;&nbsp; &nbsp; 連接 <br/> <input type="checkbox"> 通話方案 (PSTN 通話) 透過 <br>&nbsp;&nbsp; &nbsp;與 商務用 Skype Online 的混合式 | |
+> | 您 () Edge Server 的哪個版本？ | <input type="checkbox">OfficeCommunications Server 2007 "R1" <br/> <input type="checkbox">OfficeCommunications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox">商務用 Skype Server 2015 <br/> <input type="checkbox">商務用 Skype Server 2019 | |
 > | 您是否已部署 Lync 或 商務用 Skype Edge <br>到多個資料中心？ <br/>如果是，請記下批註欄中的詳細資訊。 | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
 > | 選取您的 Edge 角色今天提供的服務。 | <input type="checkbox"> 外部使用者存取 (企業使用者)  <br/> <input type="checkbox"> 遠端使用者存取 (匿名外部 <br>&nbsp;&nbsp; &nbsp; 會議參與者)  <br/> <input type="checkbox"> 聯合會 <br/> <input type="checkbox"> 媒體轉場 | |
 > | 您擁有下列哪些語音通話功能 <br>目前是否具有相依性？ <br/>請注意批註中任何其他相依性 <br>列。 | <input type="checkbox"> 忙碌選項 <br/> <input type="checkbox"> 通話停駐 <br/> <input type="checkbox"> 呼叫代答或群組呼叫代答 <br/> <input type="checkbox"> 常用區域電話或「熱電話機」 <br/> <input type="checkbox"> 回應群組或搜尋群組 <br/> <input type="checkbox"> 共用線條外觀 <br/> <input type="checkbox"> 私人線路 <br/> <input type="checkbox"> 語音 信箱 <br/> <input type="checkbox"> 透過公司通話 <br/> <input type="checkbox"> 緊急或資訊號碼 <br>&nbsp;&nbsp; &nbsp; (911、811、411)  <br/> <input type="checkbox"> 分機撥號 <br/> <input type="checkbox"> 自動助理 <br/> <input type="checkbox"> 訂閱者存取 <br/> <input type="checkbox"> 類比裝置 <br/> <input type="checkbox"> 傳真 <br/> <input type="checkbox"> 本機號碼遮罩或變更 <br/> <input type="checkbox"> 位置型路由 <br/> <input type="checkbox"> 最低成本路由 <br/> <input type="checkbox"> 電話通話 | |
@@ -139,7 +139,7 @@ ms.locfileid: "58629905"
 > | 問題 | 回答 | 註解 |
 > |---|---|---|
 > | 使用者使用的是哪些桌面作業系統？ | <input type="checkbox">WindowsXP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">Windows 10 <br/> <input type="checkbox"> Mac (在批註欄中指定版本。)  <br/> <input type="checkbox"> Linux (在批註欄中指定發佈。)  <br/> <input type="checkbox"> 其他 (在批註欄中記下詳細資料。)  | |
-> | 已部署Microsoft Office版本 <br>這些裝置？ | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Mac 版 Office 2011 <br/> <input type="checkbox">Mac 版 Office 2016 <br/> <input type="checkbox"> 其他 (在批註欄中記下詳細資料。)  | |
+> | 已部署Microsoft Office版本 <br>這些裝置？ | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">2013 Office月 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Mac 版 Office 2011 <br/> <input type="checkbox">Mac 版 Office 2016 <br/> <input type="checkbox"> 其他 (在批註欄中記下詳細資料。)  | |
 > | 使用Office部署技術 <br>在貴組織中？ | <input type="checkbox"> 微星 <br/> <input type="checkbox"> 按一下以執行 | |
 > | 允許和支援的行動電話是什麼 <br>使用中的平臺？ <br/>選取所有適用專案。 | <input type="checkbox">Windows <br/> <input type="checkbox"> 移動 <br/> <input type="checkbox"> Ios <br/> <input type="checkbox"> Android <br/> <input type="checkbox"> 其他 (在批註欄中記下詳細資料。)  | |
 > | 行動裝置如何提供？ <br/>選取所有適用專案。 | <input type="checkbox"> 公司裝置 <br/> <input type="checkbox"> 攜帶您自己的裝置 | |
@@ -153,10 +153,10 @@ ms.locfileid: "58629905"
 > |---|---|---|
 > | 您的 Lync Server 操作模型是什麼， <br>商務用 Skype Server、Microsoft 365或Office 365部署 <br>今天？ | | |
 > | 您可以概述目前支援安排 <br>Lync Server、商務用 Skype Server、Microsoft 365或Office 365？ | | |
-> | 如果您要部署至多個國家/地區， <br>每個國家/地區都有自己的 IT/電話 <br>教職員要合作，或這會集中管理嗎？ | <input type="checkbox"> 地區營運與支援 <br/> <input type="checkbox"> 集中式作業和支援 | |
+> | 如果您要部署至多個國家/地區， <br>每個國家/地區都有自己的 IT/電話 <br>教職員要合作，還是要集中管理？ | <input type="checkbox"> 地區營運與支援 <br/> <input type="checkbox"> 集中式作業和支援 | |
 > | 您是否遵循通話 [品質方法](quality-of-experience-review-guide.md)？ | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 | |
 > | 您是否將個人或小組指派給 <br>共同合作平臺的品質促進者角色 <br>使用中？ | <input type="checkbox"> 是的 <br/> <input type="checkbox"> 不 ||
-> | 如何監控 Lync Server，Skype <br>商務伺服器、Microsoft 365或Office 365部署？ | | |
+> | 如何監控 Lync Server，Skype <br>Business Server、Microsoft 365或Office 365部署？ | | |
 > | 您遇到通話品質問題嗎？ | <input type="checkbox"> 是的<br/> <input type="checkbox"> 不 | |
 > | 如何及何時提供訓練 <br>新服務和功能的技術服務人員？ | | |
 
@@ -170,9 +170,9 @@ ms.locfileid: "58629905"
 > | 您目前使用中的 <br>商務用 Skype？ | **__** 使用中使用者總數與啟用使用者百分比 | |
 > | 貴組織如何使用 <br>商務用 Skype？ | 1：1 交談 <br>&nbsp;&nbsp; &nbsp;<input type="checkbox">我 <br>&nbsp;&nbsp; &nbsp;<input type="checkbox">叫 <br>&nbsp;&nbsp; &nbsp;<input type="checkbox">共用<br> 會議 <br>&nbsp;&nbsp; &nbsp;<input type="checkbox">會議<br>&nbsp;&nbsp; &nbsp;<input type="checkbox">共用<br>&nbsp;&nbsp; &nbsp;<input type="checkbox">叫 | |
 > | 您的組織是否擁有使用者採用 <br>以及變更管理團隊？ | <input type="checkbox"> 是的<br/> <input type="checkbox"> 不 | |
-> | 您目前如何衡量技術的成功 <br>例如 商務用 Skype？ | | |
+> | 您目前如何衡量技術的成功 <br>推出類似 商務用 Skype？ | | |
 > | 您說的使用者基礎百分比 <br>已商務用 Skype？ | | |
-> | 使用者對於此活動商務用 Skype？ | <input type="checkbox"> 好 <br/> <input type="checkbox"> 中性 <br/> <input type="checkbox"> 壞 | |
-> | 下列哪一項最能說明推出 <br>適用于您的商務用 Skype <br>部署？ | <input type="checkbox"> 廣泛覆蓋：電子郵件行銷活動 <br>&nbsp;&nbsp; &nbsp; 訓練連結 <br/> <input type="checkbox"> 已展開：廣泛覆蓋及各種 <br>&nbsp;&nbsp; &nbsp; 宣傳 (海報， <br>&nbsp;&nbsp; &nbsp; 活動、) 和訓練 <br>&nbsp;&nbsp; &nbsp; (影片、使用者指南、個人)  <br/> <input type="checkbox"> 量身訂做：已展開，加上已鎖定目標 <br>&nbsp;&nbsp; &nbsp; 按人員傳送訊息與訓練 <br/> <input type="checkbox"> 其他 <br>&nbsp;&nbsp; &nbsp; (在批註欄中記下詳細資料。)  | |
+> | 使用者對於您商務用 Skype？ | <input type="checkbox"> 好 <br/> <input type="checkbox"> 中性 <br/> <input type="checkbox"> 壞 | |
+> | 下列哪一項最能說明推出 <br>適用于您的商務用 Skype <br>部署？ | <input type="checkbox"> 廣泛覆蓋：電子郵件行銷活動 <br>&nbsp;&nbsp; &nbsp; 訓練連結 <br/> <input type="checkbox"> 已展開：廣泛覆蓋及各種 <br>&nbsp;&nbsp; &nbsp; 宣傳 (海報， <br>&nbsp;&nbsp; &nbsp; 活動、) 和訓練 <br>&nbsp;&nbsp; &nbsp; (影片、使用者指南、個人)  <br/> <input type="checkbox"> 量身訂做：已展開，加上已鎖定目標 <br>&nbsp;&nbsp; &nbsp; 按人員傳送訊息與訓練 <br/> <input type="checkbox"> 其他 <br>&nbsp;&nbsp; &nbsp; (請注意批註欄中的詳細資訊。)  | |
 
 

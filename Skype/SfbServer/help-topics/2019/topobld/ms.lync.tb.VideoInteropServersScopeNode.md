@@ -1,7 +1,7 @@
 ---
 title: 視訊 Interop 伺服器 - 範圍節點
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 963e6693-26bc-439f-b76d-04389e6ebbf9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 [拓撲產生器] 中定義新的 VIS 或視頻閘道所需的步驟，在商務用 Skype Server 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: a9404dbf103ec277ed09c2d3e339d1e16dcab1e3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 242358555ef9d0f3d92001f61babd1fbccb6acb3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626825"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744909"
 ---
 # <a name="video-interop-servers---scope-the-node"></a>視訊 Interop 伺服器 - 範圍節點
  

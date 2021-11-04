@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype 中管理應用層級回應群組設定
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: 在商務用 Skype Server 企業語音中管理應用層級回應群組設定，例如「暫停音樂」和「回電設定」。
-ms.openlocfilehash: 75a9216251b44048811cf1308be431c0eaeae045
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6cce6872bc0e1ee017d46eee4ee547c6e9aabd25
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620169"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769611"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>在商務用 Skype 中管理應用層級回應群組設定
  

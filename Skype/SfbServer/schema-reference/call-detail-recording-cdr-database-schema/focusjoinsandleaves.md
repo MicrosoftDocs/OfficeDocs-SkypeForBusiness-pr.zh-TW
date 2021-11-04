@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 2015 中的 FocusJoinsAndLeaves 表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
 description: 此表格中的每一筆記錄都包含有關一位使用者的加入的 CDR 資訊，並留下一次會議的資訊。 每個會議都會在每次使用者加入和離開會議時，以一筆記錄呈現在此表格中。
-ms.openlocfilehash: 80f4d9f93b840b4c76e28c295356ebd85cc88979
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ca5ba1776478566c57d8e5992b86db2dd300613b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632667"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777783"
 ---
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 FocusJoinsAndLeaves 表格
  

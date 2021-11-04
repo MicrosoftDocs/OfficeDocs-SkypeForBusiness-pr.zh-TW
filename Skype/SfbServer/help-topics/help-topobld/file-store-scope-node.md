@@ -1,7 +1,7 @@
 ---
 title: 檔案存放區範圍節點
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 description: 此節點會顯示此檔案存放區 (FQDN) 和相依集區的完整功能變數名稱。 您可以執行下列動作：
-ms.openlocfilehash: fd23a62d175e8cacbe265c4c807aafbc6d9f4181
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 809816ea175e97943268c7a123484d3519d3a45a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600178"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762591"
 ---
 # <a name="file-store-scope-node"></a>檔案存放區範圍節點
  

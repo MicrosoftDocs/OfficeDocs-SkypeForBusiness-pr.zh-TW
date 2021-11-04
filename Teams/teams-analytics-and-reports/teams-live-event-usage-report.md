@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams活動使用方式報告
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -13,38 +13,38 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 瞭解如何使用 Teams 系統管理中心Microsoft Teams即時活動使用方式報告，以取得Teams即時活動概觀。
+description: 瞭解如何使用 Teams 系統管理中心Microsoft Teams即時活動使用方式報告，以取得Teams即時活動活動的概觀。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d9f11e64daf1b530704d79c512e5741cda18a48
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a6c533a9c07c1c620dbc1bd2d26919bbf5251cf3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729552"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763021"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams活動使用方式報告
 
-系統Teams系統管理中心中的即時Microsoft Teams報告會顯示貴組織中即時活動的活動概觀。 您可以針對每個事件查看使用方式資訊，包括事件狀態、開始時間、視圖及生產類型。 您可以深入瞭解使用趨勢，並查看貴組織中誰排程、展示及製作即時活動。
+系統Teams系統管理中心Microsoft Teams即時活動使用方式報告，顯示貴組織中即時活動的活動概觀。 您可以針對每個事件查看使用方式資訊，包括事件狀態、開始時間、視圖及生產類型。 您可以深入瞭解使用趨勢，並查看貴組織中誰排程、進行展示，以及製作即時活動。
 
 ## <a name="view-the-live-event-usage-report"></a>查看即時活動使用方式報告
 
-1. 在系統管理中心的左側導Microsoft Teams，按一下 [**分析&報告**  >  **使用方式報告**。 On the **View reports** tab, under **Report**, select **Teams live event usage**.
+1. 在系統管理中心的左側導Microsoft Teams，按一下 [分析&**報告**  >  **使用方式報告**。 On the **View reports** tab, under **Report**, select **Teams live event usage**.
 2. 在 **日期範圍** 下，選取預先定義的範圍或設定自訂範圍。 您可以將範圍設定為最多顯示一年、六個月之前和目前日期之後的資料。
 3.  (選) 在召集人 **下，您可以選擇** 只顯示由特定使用者組織的即時活動。
 4. 按一下 **[執行報表**> 。  
 
-    ![系統管理中心Teams活動使用方式報表的螢幕擷取畫面Teams圖說文字。](../media/teams-live-event-usage-report-with-callouts.png "系統管理中心Teams即時活動使用方式報表的螢幕擷取畫面Teams圖說文字")
+    ![系統管理中心Teams即時活動使用方式報表的螢幕擷取畫面Teams圖說文字。](../media/teams-live-event-usage-report-with-callouts.png "系統管理中心Teams即時活動使用方式報表的螢幕擷取畫面Teams圖")
 
 ## <a name="interpret-the-report"></a>解譯報表
 
 |標注 |描述  |
 |--------|-------------|
-|**1**   |您可以Teams即時附隨報告，查看過去 7 天、28 天的趨勢，或您設定自訂的日期範圍。 |
-|**2**   |每個報表都有產生日期。 報表會反映頁面重新更新時接近即時的活動。 |
+|**1**   |您可以Teams即時活動報告，查看過去 7 天、28 天的趨勢，或您設定自訂的日期範圍。 |
+|**2**   |每個報表都有產生日期。 當頁面重新更新時，報表會反映接近即時的活動。 |
 |**3**   |<ul><li>圖表上的 X 軸是報表的選取日期範圍。</li> <li> Y 軸是總的視圖計數。</li> </ul>將游標停留在給定日期的點上方，以查看該日期所有即時事件的觀看次數。|
-|**4**   |表格會提供每個即時活動的明細。 <ul><li>**事件** 是即時事件的顯示名稱。 按一下事件名稱 [以取得活動](#view-event-details) 的詳細資訊。 </li> <li>**開始時間** 是指事件的開始日期和時間。</li> <li>**事件狀態** 會顯示事件是否已發生。  </li><li>**召集人** 是活動召集人的名稱。</li> <li>**簡報者** 是活動簡報者的名稱。</li><li>**製作** 人是活動製作人的名稱。</li><li>**視圖** 是活動完成之後的唯一視圖數目。</li><li>**錄製** 會顯示錄製設定是已啟用或關閉。</li><li>**生產類型** 會顯示事件是在Teams是由外部應用程式或裝置產生。</li></li> </ul>請注意，如果 Azure AD 中不再有使用者帳戶，使用者名稱會顯示為 「--」于表格中。 <br><br>若要在表格中查看您想要的資訊，請務必新增欄至資料表。 |
+|**4**   |表格會提供每個即時活動的明細。 <ul><li>**事件** 是即時事件的顯示名稱。 按一下事件名稱 [以取得活動](#view-event-details) 的詳細資訊。 </li> <li>**開始時間** 是指事件的開始日期和時間。</li> <li>**事件狀態** 會顯示事件是否已發生。  </li><li>**召集人** 是活動召集人的名稱。</li> <li>**演示** 者是活動簡報者的名稱。</li><li>**製作** 人是活動製作人的名稱。</li><li>**視圖** 是活動完成之後的唯一視圖數目。</li><li>**錄製** 會顯示錄製設定是已啟用或關閉。</li><li>**生產類型** 會顯示事件是以 Teams或外部應用程式或裝置產生。</li></li> </ul>請注意，如果使用者帳戶不再存在於 Azure AD，使用者名稱會顯示為 「--」于表格中。 <br><br>若要在表格中查看您想要的資訊，請務必新增欄至資料表。 |
 |**5**   |選取 **編輯欄** 以新增或移除表格中的欄。|
 
 ## <a name="notes"></a>注釋

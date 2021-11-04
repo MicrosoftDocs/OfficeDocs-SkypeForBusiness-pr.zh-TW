@@ -1,7 +1,7 @@
 ---
 title: MonitoredRegionLink 表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cebda194-7be3-42d6-b6f0-c86f8b0f200a
 description: MonitoredRegionLink 表格是支援的表格。 每筆記錄代表兩個國家/地區之間的一個連結。
-ms.openlocfilehash: f026e35dfd0c0cfd0b7a43d62089754b6824cfa8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39add4c7ba3fc67c68645498772b06715967aa39
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604612"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763121"
 ---
 # <a name="monitoredregionlink-table"></a>MonitoredRegionLink 表格
  

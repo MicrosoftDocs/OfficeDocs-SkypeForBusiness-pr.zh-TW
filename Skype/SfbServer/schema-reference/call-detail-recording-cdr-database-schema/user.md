@@ -1,7 +1,7 @@
 ---
 title: 使用者視圖
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
 description: 使用者檢視會儲存在資料庫中有記錄之通話或工作階段中所涉及的使用者相關資訊。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 59b7371336ec900d6474016bb366407d4ffb7c14
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6508bac1b40ca88429cc0504982ed9d2464ee5d2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616379"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777733"
 ---
 # <a name="user-view"></a>使用者視圖
  

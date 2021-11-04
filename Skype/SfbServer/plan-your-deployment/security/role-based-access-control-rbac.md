@@ -1,7 +1,7 @@
 ---
 title: '商務用 Skype Server 的角色型存取控制 (RBAC) '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d01fba36-eb7e-4de9-9bba-5102ae157820
 description: 商務用 Skype Server 包含 Role-Based 的存取控制 (RBAC) 群組，可讓您委派管理工作，同時維持高安全性標準。 這些群組是在樹系準備期間建立的。 如需樹系準備的詳細資訊，請參閱 Active Directory 網域服務的商務用 Skype Server。 如需「樹系準備」所建立之特定群組的詳細資訊，請參閱部署檔中商務用 Skype Server 的「樹系準備」所做的變更。
-ms.openlocfilehash: 1768c61f902dddb456f6a80bccf3b72bd9757f77
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05f1b4873e6d671ecb53e6778a67b5558d4aa1ee
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627935"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744100"
 ---
 # <a name="role-based-access-control-rbac-for-skype-for-business-server"></a>商務用 Skype Server 的角色型存取控制 (RBAC) 
  

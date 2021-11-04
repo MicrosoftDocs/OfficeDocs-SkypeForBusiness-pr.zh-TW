@@ -1,7 +1,7 @@
 ---
 title: 選取地區連結
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a26f7d86-1811-4d72-afee-a577a1898cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用 [地區連結] 對話方塊，尋找您環境中可用的地區連結。 若要使用現有的地區連結，請按一下清單中的地區連結，然後按一下 [確定]。
-ms.openlocfilehash: 08aed477d009035a5798d9451c9b20791f9081ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7dff5aa544204137ff7e6379cb95490ececb1c87
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599468"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739909"
 ---
 # <a name="select-a-region-link"></a>選取地區連結
  

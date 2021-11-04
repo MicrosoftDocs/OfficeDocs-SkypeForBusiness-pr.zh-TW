@@ -1,7 +1,7 @@
 ---
 title: 設定網路網站建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 091aea61-22c2-4363-acd0-ccbc193755dd
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 4a0a9b2aa07be22085afd57507a8ab53a5fe4bc9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4c2499420176834d01ca0178226902a7a360e2a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609440"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758475"
 ---
 # <a name="configure-a-network-site-create-new-or-edit-existing"></a>設定網站：建立新的或編輯現有
 

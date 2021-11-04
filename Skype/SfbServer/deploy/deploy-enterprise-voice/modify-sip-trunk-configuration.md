@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server：修改 SIP 主幹設定設定
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台修改 SIP 主幹設定設定。
-ms.openlocfilehash: 370e6522d07461276c881798d094fa31fb71e9bb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 83cad666b07c011b2b0a23ad4d51532e52a623c5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620119"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745349"
 ---
 # <a name="skype-for-business-server-modify-sip-trunk-configuration-settings"></a>商務用 Skype Server：修改 SIP 主幹設定設定 
  
@@ -53,12 +53,12 @@ SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) �
 |啟用轉寄 P-Asserted-Identity 資料  <br/> |ForwardPAI  <br/> |指出 P-Asserted-Identity (PAI) 標頭是否會和通話一起轉寄。PAI 標頭提供確認來電者身分識別的方法。  <br/> |
 |啟用輸出路由容錯移轉計時器  <br/> |EnableFastFailoverTimer  <br/> |指出閘道未在 10 秒內接聽的撥出電話將會被路由傳送到下一個可用的主幹；如果沒有其他主幹，就會自動捨棄此電話。在網路和閘道回應速度緩慢的組織中，這可能會造成電話平白遭到捨棄。  <br/> |
 |關聯的 PSTN 使用方式  <br/> |PSTNUsages  <br/> |指派給主幹的 PSTN 使用方式集合。  <br/> |
-|要測試的轉譯號碼  <br/> |N/A  <br/> |可用於進行主幹組態設定臨機測試的電話號碼。  <br/> |
+|要測試的轉譯號碼  <br/> |不適用  <br/> |可用於進行主幹組態設定臨機測試的電話號碼。  <br/> |
 |關聯的轉譯規則  <br/> |OutboundTranslationRulesList  <br/> |套用到由「輸出路由」處理的電話 (路由傳送到 PBX 或 PSTN 目的地的電話) 的電話號碼轉譯規則集合。  <br/> |
 |撥打號碼轉譯規則  <br/> |OutboundCallingNumberTranslationRulesList  <br/> |指派給主幹的撥出電話號碼轉譯規則集合。  <br/> |
-|測試的電話號碼  <br/> |N/A  <br/> |可用於進行轉譯規則臨機測試的電話號碼。  <br/> |
-|撥打號碼  <br/> |N/A  <br/> |指出要測試的電話號碼是來電者的電話號碼。  <br/> |
-|撥打的號碼  <br/> |N/A  <br/> |指出要測試的電話號碼是受話者的電話號碼。  <br/> |
+|測試的電話號碼  <br/> |不適用  <br/> |可用於進行轉譯規則臨機測試的電話號碼。  <br/> |
+|撥打號碼  <br/> |不適用  <br/> |指出要測試的電話號碼是來電者的電話號碼。  <br/> |
+|撥打的號碼  <br/> |不適用  <br/> |指出要測試的電話號碼是受話者的電話號碼。  <br/> |
    
 > [!NOTE]
 > Lync Server Get-cstrunkconfiguration Cmdlet 支援未顯示在 Lync Server 控制台中的其他屬性。 如需詳細資訊，請參閱 [Set-CsTrunkConfiguration](/powershell/module/skype/set-cstrunkconfiguration) Cmdlet 的 [說明] 主題。

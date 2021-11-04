@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 2015 的裝置表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 532e2280-4bbc-4a6c-93da-45d9f80a30a0
 description: Devices 表格是一種支援資料表。每筆記錄儲存一部裝置 (電話機) 的資訊。
-ms.openlocfilehash: fc33e7fbffa3e35301e7d6b17a491aa84190c5ee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c7662663625937a0ad0c7cc023620798f0398e49
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620889"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743969"
 ---
 # <a name="devices-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的裝置表格
  

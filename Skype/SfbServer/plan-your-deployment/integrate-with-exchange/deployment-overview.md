@@ -1,7 +1,7 @@
 ---
 title: 整合內部部署整合通訊和商務用 Skype 的部署程式概述
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/16/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1bcadf0a-ca3d-436f-a2a0-09329d487b18
 description: 摘要：在規劃將商務用 Skype Server 與 Exchange 2013 或2016整合時，請參閱本主題。
-ms.openlocfilehash: 46c5544607fa3451d4fed524532fa1cd6bcac8f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c2b0d34324c9945bdd5e5e3ed3bfa7a04566883
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604702"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773473"
 ---
 # <a name="deployment-process-overview-for-integrating-on-premises-unified-messaging-and-skype-for-business"></a>整合內部部署整合通訊和商務用 Skype 的部署程式概述
  

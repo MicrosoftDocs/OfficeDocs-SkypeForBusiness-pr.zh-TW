@@ -1,7 +1,7 @@
 ---
 title: Edge 設定展開工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯現有單一或多部伺服器 Edge 集區的設定，您會看到下列各節：
-ms.openlocfilehash: 9d1f133a2f0c8c469c0fb399f46cd3030035629b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7ea357ebf5b0de6001bd74b5dec9f54e33e8d914
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593917"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739769"
 ---
 # <a name="edge-settings-expander"></a>Edge 設定展開工具
 

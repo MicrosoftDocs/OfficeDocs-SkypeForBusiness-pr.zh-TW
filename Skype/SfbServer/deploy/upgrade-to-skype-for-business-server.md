@@ -1,7 +1,7 @@
 ---
 title: 升級為商務用 Skype Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2016
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 摘要：瞭解如何從 Lync Server 2013 升級為商務用 Skype Server 2015。 從 Microsoft 評估中心下載商務用 Skype Server 2015 的免費試用版，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 14fe3926fbf3cb6ffcee368227fcaf5ead9ec0c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 02455d4c013f55363e173f16c9f4de60b71939d9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590547"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740079"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>升級為商務用 Skype Server 2015
  
@@ -182,7 +182,7 @@ Disable-CsComputer -Scorch
 ### <a name="step-5-upgrade-front-end-pools-and-non-front-end-pool-servers"></a>步驟5：升級前端集區和非前端集區伺服器
 
 > [!NOTE]
->  在升級之前，請安裝商務用 Skype Server 2015 所需的所有新必要條件，其中包括： > 至少32GB 可用空間，再嘗試升級。 此外，請確定磁片磁碟機是固定的本機磁片磁碟機，且未以 USB 或 Firewire 為單位進行連線。是以 NTFS 檔案系統格式化，不會壓縮，也不會包含頁面檔案。 > PowerShell 版本6.2.9200.0 或更新版本。 > 已安裝最新的 Lync Server 2013 累計更新。 > SQL Server 2012 SP1 安裝。 > 使用 Microsoft Update (，會自動安裝下列 KB 安裝的) ： > Windows Server 2008 r2-[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
+>  在升級之前，請安裝商務用 Skype Server 2015 所需的所有新必要條件，其中包括： > 至少32GB 可用空間，再嘗試升級。 此外，請確定該磁片磁碟機是固定的本機磁片磁碟機、未以 NTFS 檔案系統格式化、沒有壓縮，而且不含頁面檔案。 > PowerShell 版本6.2.9200.0 或更新版本。 > 已安裝最新的 Lync Server 2013 累計更新。 > SQL Server SP1 2012 安裝。 > 安裝下列 KB 安裝 (：> Windows Server 2008 R2-[KB2533623](https://support.microsoft.com/kb/2533623)> Windows Server 2012-[KB2858668](https://support.microsoft.com/kb/2858668)> Windows Server 2012 R2-[KB2982006](https://support.microsoft.com/kb/2982006)
   
 在每一部伺服器上使用 In-Place 升級，以更新前端集區、Edge 集區、轉送伺服器及 Persistent Chat 集區。
   

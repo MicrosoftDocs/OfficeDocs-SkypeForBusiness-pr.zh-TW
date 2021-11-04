@@ -1,7 +1,7 @@
 ---
 title: 新增 Director Web 服務
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
 description: 基底 URL 是 URL 的 Web 服務識別身分，去除 https://。 例如，如果集區的 Web 服務完整 URL 為 `https://pool01.contoso.net` ，則基底 url 是 `pool01.contoso.net` 。
-ms.openlocfilehash: aaa3451e842700cbc1d98cc72b08fc53ccff1555
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 0d1e365fa4bf44b98d5b23aabbdf08c2889ed881
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015327"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762731"
 ---
 # <a name="add-director-web-service"></a>新增 Director Web 服務
  

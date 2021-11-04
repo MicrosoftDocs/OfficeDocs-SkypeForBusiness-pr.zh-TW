@@ -1,7 +1,7 @@
 ---
 title: 封存組態
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 description: 您可以使用封存設定來控制商務用 Skype Server 部署的封存選項，包含啟用及停用下列選項：
-ms.openlocfilehash: a1995ef18e2aa909f0d9d55efebe6ba62d6b6695
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d8dadcb81254254b96802870e8d4e9a22da038a1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605202"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744729"
 ---
 # <a name="archiving-configuration"></a>封存組態
  

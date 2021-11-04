@@ -1,7 +1,7 @@
 ---
 title: 憑證要求 (基本)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[名稱與安全性設定] 頁面提供一個文字方塊，以定義好記的名稱、私密金鑰的位長度的下拉式清單，以及可讓您將憑證的私密金鑰標記為可匯出的核取方塊。'
-ms.openlocfilehash: 051c883525582559756a4c3ec3b03e921314e9ef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bd25ae54d5f5fe801c1beaf0de1c81eb2d7a0b60
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591877"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740029"
 ---
 # <a name="certificate-request-basic"></a>憑證要求 (基本)
  

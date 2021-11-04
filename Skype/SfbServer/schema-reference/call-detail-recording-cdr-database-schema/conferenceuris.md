@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 2015 中的 ConferenceUris 表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1721d52-3c65-45ea-8997-06af8fef93fc
 description: ConfereneUris 表格是一種支援表格，可儲存參與于資料庫中的會議會話的各個會議 URIs 清單。 表格中的每一筆記錄都代表一個會議 URI。
-ms.openlocfilehash: 20669b92d92d25783d3f442b95bd5502e06d37ad
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7d7f0ea8504faa3e23d981a74e65062fdb6d5836
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625135"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744019"
 ---
 # <a name="conferenceuris-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 ConferenceUris 表格
  

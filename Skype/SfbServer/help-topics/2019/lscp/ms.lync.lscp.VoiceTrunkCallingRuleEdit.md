@@ -1,7 +1,7 @@
 ---
 title: 新的來電號碼轉譯規則
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用 [新增主幹組態：新增來電號碼轉譯規則] 來建立新的轉譯規則。如需轉譯規則的詳細資訊，請參閱下列主題：
-ms.openlocfilehash: 97582fa8466ea7a0449f0d26674dc544a21298a7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cf8749e65cfb5953bf91c24f873dd1b6146394d3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588865"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739879"
 ---
 # <a name="new-calling-number-translation-rule"></a>新的來電號碼轉譯規則
 

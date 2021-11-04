@@ -1,7 +1,7 @@
 ---
 title: 行動用戶端推播通知設定
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要設定 Microsoft 推播通知和 Apple 推播通知，您必須建立原則來定義您需要的推播通知類型。
-ms.openlocfilehash: c26788cbe351888aef633cc21a08d46bf3f74deb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f52af141ad9ece3a967595039ca69e3cce3ef9e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613192"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739949"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>行動用戶端：推播通知設定
  

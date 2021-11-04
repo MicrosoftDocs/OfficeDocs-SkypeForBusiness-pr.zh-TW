@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中部署媒體旁路
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: 在商務用 Skype Server 企業語音中部署媒體旁路。 包含必要條件和部署程式檢查清單。
-ms.openlocfilehash: 34294db2709de56d77ecd1365deac57ad94a86d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f5bed4cf31158ea170b78110f3b6f5561aedb21d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617029"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769661"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>在商務用 Skype Server 中部署媒體旁路
  

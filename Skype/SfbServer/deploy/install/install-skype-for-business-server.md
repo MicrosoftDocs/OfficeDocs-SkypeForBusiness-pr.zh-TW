@@ -1,7 +1,7 @@
 ---
 title: 在拓撲中的伺服器上安裝商務用 Skype Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/15/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 摘要：瞭解如何在拓撲中的每一部伺服器上安裝商務用 Skype Server 系統元件。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 89c158243a0cc33faaa1a3b3181dfc1f39094d63
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bcf2645e6f33865da0f1ad6bbc985e581950693b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609860"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745299"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>在拓撲中的伺服器上安裝商務用 Skype Server
  
@@ -117,7 +117,7 @@ ms.locfileid: "58609860"
 1. 複查必要條件，然後按一下 [**步驟3：要求、安裝或指派憑證**] 旁邊的 [**執行**]。
     
     > [!NOTE]
-    > 商務用 Skype Server 包括對 SHA-2 套件的支援 (SHA-2 針對執行) 之用戶端的連線，使用摘要的224、256、384或512位 Windows 10，以及從執行 Windows 8 的用戶端，Windows，Windows Server 2012 7，Windows Server 2012 r2、Windows 或 Server 2008 r2 作業系統。 若要使用 SHA-2 套件來支援外部存取，外部憑證是由公用 CA 所發出，也可以使用相同位長度的摘要來發出憑證。 
+    > 商務用 Skype Server 包括對 SHA-2 套件的支援 (SHA-2 針對執行) 之用戶端的連線，使用摘要的224、256、384或 512 bits Windows 10 的摘要散列和簽署演算法，Windows 8 R2，Windows R2，Windows Server 2012 或 Windows 伺服器 2008 R2 作業系統。 若要使用 SHA-2 套件來支援外部存取，外部憑證是由公用 CA 所發出，也可以使用相同位長度的摘要來發出憑證。 
   
     > [!IMPORTANT]
     > 您可以選擇哪些雜湊摘要和簽署演算法取決於用戶端和將使用憑證的伺服器，以及用戶端和伺服器要與其通訊的其他電腦和裝置，也必須瞭解如何使用憑證中所用的演算法。 如需作業系統和某些用戶端應用程式中支援摘要長度的詳細資訊，請參閱[Windows PKI 博客 SHA2 及 Windows](/archive/blogs/pki/sha2-and-windows)。 
@@ -163,7 +163,7 @@ ms.locfileid: "58609860"
     
 16. 在 [ **線上憑證要求狀態** ] 頁面上，複查傳回的資訊。 您應注意，已簽發憑證並將其安裝至本機憑證儲存區。 若報告為已簽發並已安裝，但無效，請確定伺服器的根信任 CA 存放區中已安裝 CA 的根憑證。 請參閱您的 CA 檔，瞭解如何取得信任的根 CA 憑證。 如果您需要查看已檢索的憑證，請按一下 [ **查看憑證詳細資料**]。 預設會選取 [**指派憑證給商務用 Skype Server 憑證使用** 情況] 核取方塊。 若要手動指派憑證，請清除核取方塊，然後按一下 **[完成]**。
     
-17. 如果您在上一個頁面上，清除 [**指派憑證給商務用 Skype Server 憑證使用** 情況] 核取方塊，您就會看到 [**憑證指派**] 頁面。 按 **[下一步]**。
+17. 如果您在上一個頁面上，清除 [**指派憑證給商務用 Skype Server 憑證使用** 情況] 核取方塊，您就會看到 [**憑證指派**] 頁面。 按 [下一步]。
     
 18. 在 [ **憑證存放區** ] 頁面上，選取您要求的憑證。 如果您想要查看憑證，請按一下 [ **查看憑證詳細資料**]，然後按 **[下一步]** 繼續。
     

@@ -1,7 +1,7 @@
 ---
 title: 安裝本機設定存放區 (叫用)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 description: '[執行命令] 窗格會顯示安裝中央管理存放區的本機唯讀複本時的安裝工作狀態。當工作執行時，工作窗格會隨著命令執行而更新。您應該檢閱工作狀態，並記下任何顯示的錯誤或警告。工作完成時，會顯示 工作狀態：已完成 訊息，而記錄檔的下拉式清單會顯示記錄檔的名稱。若要檢視所建立的記錄檔，請選擇要檢視的記錄檔，然後按一下 [檢視記錄檔]。請檢閱所有記錄檔中的成功、錯誤和警告訊息。'
-ms.openlocfilehash: d72f535e93a2ae2f63ddd99515a8a05e287d1281
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bee4417114b8559d00bf01f17e2f030c38d94035
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601628"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758535"
 ---
 # <a name="install-local-configuration-store-invoke"></a>安裝本機設定存放區 (叫用)
  
