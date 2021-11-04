@@ -1,14 +1,14 @@
 ---
 title: 線上電話系統推出的使用者通知電子郵件範本
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 使用範本將電子郵件傳送給使用者，以在 Teams 或 商務用 Skype。
+description: 使用範本將電子郵件傳送給使用者，以在 Teams 或 商務用 Skype 中執行雲端語音功能。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 34e15e3b9fccd466905572e6cd234da2f498216b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 28cd5ad822863876527877ca0bf633577e21914d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617199"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737489"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>協助使用者採用新的線上電話系統
 

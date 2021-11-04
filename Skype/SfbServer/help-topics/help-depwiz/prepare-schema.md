@@ -1,7 +1,7 @@
 ---
 title: 準備架構
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 description: 若要為 Active Directory 網域服務準備架構，您可以在商務用 Skype Server 部署嚮導中執行 [準備架構] 步驟。 按一下 [執行]，開始準備架構。 [準備架構] 步驟會在執行部署嚮導的系統上，于/Program Files/Microsoft Lync Server 2013/部署/安裝目錄中讀取所提供的架構定義檔案。 您也可以在支援/架構目錄的安裝媒體上使用這些檔案。 [準備架構] 步驟會擴充架構並報告程序的狀態。 程序完成時也會通知您。 摘要畫面可讓您檢視程序的記錄。 請檢閱記錄來確定已順利完成準備。
-ms.openlocfilehash: 3adc63ec8eaa16b4eaebe528508f1f063e9cd7b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aabebbe8ccf3dc9ab2ac59f19eac015353e6def3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612562"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740909"
 ---
 # <a name="prepare-schema"></a>準備架構
  

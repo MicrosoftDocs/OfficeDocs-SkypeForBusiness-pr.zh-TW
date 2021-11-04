@@ -1,7 +1,7 @@
 ---
 title: 在系統管理中心使用政府小組範本
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f373e2e949d4fe461ef06657e0791f4ff59f4b61
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 466eeb8c412bb09bf6eedcccb8becf49ff0c08a0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603402"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777193"
 ---
 # <a name="use-government-team-templates-in-the-admin-center"></a>在系統管理中心使用政府小組範本
 
@@ -40,7 +40,7 @@ ms.locfileid: "58603402"
 
 ## <a name="coordinate-incident-response"></a>協調事件回應
 
-集中溝通和重要資源，以管理您的緊急事件或事件回應小組。 在這個小組中，您可以包含許多不同類型的檔案，協助建立所有檔的中央位置。 使用線上會議改善資訊流程及情境感知。
+集中溝通和重要資源，以管理您的緊急事件或事件回應小組。 在這個小組中，您可以包含許多不同類型的檔案，協助建立所有檔的中央位置。 使用線上會議改善資訊流程及情境認知度。
 
 | 範本類型 |baseTemplateId | 此基本範本提供的屬性 |
 |-------------------|-------|---------------------------------------------------------------------------|

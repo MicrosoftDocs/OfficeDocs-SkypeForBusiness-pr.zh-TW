@@ -1,13 +1,13 @@
 ---
 title: 將商務用 Skype 內部部署升級為 Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 瞭解如何從內部部署Microsoft Teams組織商務用 Skype內部部署。
+description: 瞭解如何從內部部署Microsoft Teams組織商務用 Skype組織。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8d8b104354e442116dd908b686bc5e1d18f22d2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 584243197f15b746a0fa5638fbba3141e93f34bd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731152"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777133"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>從內部部署商務用 Skype升級至Teams
 
@@ -50,7 +50,7 @@ ms.locfileid: "58731152"
 
 將使用者升級至 Teams的關鍵先決條件是部署混合式連接。
 
-詳細資訊，請參閱在 商務用 Skype Server 與[商務用 Skype 之間部署混合式連線](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
+詳細資訊，請參閱在 商務用 Skype Server 與 商務用 Skype [Online 之間部署混合式連線](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>步驟 2：為貴組織執行您所選擇的升級歷程
 
@@ -66,6 +66,6 @@ ms.locfileid: "58731152"
 
 從內部部署電話系統轉換至 Teams 將允許您使用 電話系統 直接路由 ("直接路由") 或 microsoft 提供的 Microsoft 365 或 Office 365 通話方案。
 
-如果您不是使用通話方案，您必須在升級至 電話系統時，將企業語音部署轉換為 電話系統 直接路由Teams。
+如果您不是使用通話方案，您必須將企業語音部署切換為電話系統直接路由，作為升級至 Teams。
 
-詳細資訊，請參閱直接[路由的其他電話系統考慮](./direct-routing-landing-page.md)。 如果您打算使用通話方案，請參閱我們的指引，將電話號碼轉接至[Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+詳細資訊，請參閱直接路由[的其他電話系統考慮](./direct-routing-landing-page.md)。 如果您打算使用通話方案，請參閱我們的指引，將電話號碼轉接至[Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

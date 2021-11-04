@@ -1,7 +1,7 @@
 ---
 title: 在貝托貝裡的可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于 Microsoft 365 Office 365 的 商務用 Skype 和 Microsoft Teams 服務。
-ms.openlocfilehash: fb5918c01bc1e1ef0d12f1f0be0897fece7f78cb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1959c1debcf128ea1ba82b1201039e69adf54ef6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624785"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777593"
 ---
 # <a name="availability-in-benin"></a>在貝托貝裡的可用性
 

@@ -1,7 +1,7 @@
 ---
 title: 會議設定建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 會議設定設定會為使用者排程的會議定義使用者加入體驗。 這些設定只適用于排程的會議。 在用戶端中按一下 [立即開會] 選項，不會套用至所建立的特定會議。
-ms.openlocfilehash: 13eb6ffb440bf50da7525b36307b56e158f6f93f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f95e9f30ab485b80824c31e700fc7f88714a7a5b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607226"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741249"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>會議組態：建立新的或編輯現有組態
 

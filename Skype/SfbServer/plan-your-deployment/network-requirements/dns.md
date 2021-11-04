@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 的 DNS 需求
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 摘要：在實施商務用 Skype Server 之前，請先複查本主題中的 DNS 考慮。
-ms.openlocfilehash: 1a39cbfc05505e6c53b8874e3611dea8dae9d8c0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 4c332d9b7e315a928d488861363c2080ecf0997c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730372"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770071"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>商務用 Skype Server 的 DNS 需求
 
@@ -33,7 +33,7 @@ ms.locfileid: "58730372"
 
 雖然這種方式最初似乎有點令人望而生畏，但使用[商務用 Skype Server 2015 規劃工具](https://www.microsoft.com/download/details.aspx?id=50357)進行規劃是非常繁重的做法。 當您已完成您計畫使用哪些功能的嚮導問題後，針對您所定義的每個網站，您可以在 Edge 管理報告中查看 DNS 報告，並使用這裡所列的資訊來建立您的 DNS 記錄。 您也可以調整所使用的許多名稱及 IP 位址，如需詳細資訊，請參閱 [複查 DNS 報告](../../management-tools/planning-tool/review-the-administrator-reports.md#DNS_Report)。 請記住，您可以將 Edge 系統管理員報告匯出為 Excel 試算表，而且 DNS 報告會是檔案中的其中一個工作表。 雖然此工具組括[商務用 Skype Server 2019 中已被取代的](../../../SfBServer2019/deprecated.md)功能，但如果未選取這些功能，仍然可以用來建立初始計畫。
 
-當您依照 [[建立商務用 Skype Server 的 dns 記錄](../../deploy/install/create-dns-records.md)] 及建立商務用 Skype Server 的拓撲所述的方式來安裝新的實施時，我們知道您可以選擇使用內建的 dns 功能來 Windows Server 2016 或協力廠商 DNS 套件，所以我們會將討論保留在本文中，而不是特定的。 我們會詳細說明所需的專案，以及您應如何符合此需求。
+當您依照 [[建立商務用 Skype Server 的 DNS 記錄](../../deploy/install/create-dns-records.md)] 及建立商務用 Skype Server 的拓撲所述的方式來安裝新的實施時，我們會發現您可以選擇使用內建的 dns 功能來 Windows Server 2016 或協力廠商 DNS 套件，因此我們將保留本文 g 中的討論。eneral，而不是特定的。 我們會詳細說明所需的專案，以及您應如何符合此需求。
 
 經驗商務用 Skype、Lync 及 Office 通訊套件管理員可能會發現下清單格很有用。 如果資料表令您困惑，後續章節或文章將會 shed 下列概念：
 

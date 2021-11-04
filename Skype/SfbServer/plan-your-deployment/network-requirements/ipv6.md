@@ -1,7 +1,7 @@
 ---
 title: 規劃商務用 Skype 中的 IPv6
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 摘要：在安裝商務用 Skype Server 之前，請先執行 IPv6。
-ms.openlocfilehash: ff58da4a4064c91949446e9107d0f3ff07b720e1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6126cd2211a2df0f0a24672d61cf11ce89ad23c7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593507"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770061"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>規劃商務用 Skype 中的 IPv6
  
@@ -137,7 +137,7 @@ IPv4 位址是 32 位元位址，可讓電腦透過網際網路進行通訊。 �
 |:-----|:-----|:-----|:-----|
 |**前端集區： IPv4** <br/> |是  <br/> |是  <br/> |否  <br/> |
 |**前端集區：雙棧** <br/> |是  <br/> |是  <br/> |否  <br/> |
-|**前端集區： IPv6** <br/> |否  <br/> |否  <br/> |是\*  <br/> |
+|**前端集區： IPv6** <br/> |否  <br/> |否  <br/> |是的\*  <br/> |
    
 \* 僅在實驗室環境中使用此組合。
   

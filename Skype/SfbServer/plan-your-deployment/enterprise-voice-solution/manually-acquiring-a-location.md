@@ -1,7 +1,7 @@
 ---
 title: 定義在商務用 Skype Server 中手動取得位置的使用者體驗
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
 description: 在商務用 Skype Server 企業語音中使用 SIP 主幹提供者，在 E9-1-1 部署中規劃漫遊使用者。
-ms.openlocfilehash: 8ca43e8d81d16068806c3416687f73c090a3cbae
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 263c2e79e340492b27d196f73373505f7c1e4f66
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602378"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770111"
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>定義在商務用 Skype Server 中手動取得位置的使用者體驗
  

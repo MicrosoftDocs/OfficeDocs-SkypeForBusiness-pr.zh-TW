@@ -1,6 +1,6 @@
 ---
 title: 商務用 Skype Server 2015 的桌面用戶端功能比較
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要：商務用 Skype Server 2015 或商務用 Skype Online 系統管理員可以使用這些表格，以瞭解哪些用戶端支援哪些功能。
-ms.openlocfilehash: f73da5821c766e2fbc7837908a2b5b635bca0089
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 50fe52fa867485d3117d03796a4be8ab7203d4dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596537"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770231"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的桌面用戶端功能比較
 

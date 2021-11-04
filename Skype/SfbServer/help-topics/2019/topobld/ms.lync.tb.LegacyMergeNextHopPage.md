@@ -1,7 +1,7 @@
 ---
 title: 舊版合併下一個躍點
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[下一個躍點 FQDN] 識別供舊版 Edge Server 路由內部流量的下一部躍點伺服器。輸入供此 Edge Server 路由內部流量的下一部躍點伺服器的完整網域名稱 (FQDN)，然後選取其為 [前端集區] 或 [Director]。'
-ms.openlocfilehash: bd25c572e0607293d4b3df92e4e22c27fb419267
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cf653d073488d893ee39a414b1c9b8f6a2479ebb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631047"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757645"
 ---
 # <a name="legacy-merge-next-hop"></a>舊版合併下一個躍點
  

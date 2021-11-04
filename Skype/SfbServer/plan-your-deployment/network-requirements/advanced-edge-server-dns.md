@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 的高級 Edge Server DNS 規劃
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 商務用 Skype Server 部署選項的查看案例。 不管您是想要單一伺服器或喜歡使用 DNS 或 HLB 的伺服器集區，本主題都應該有所説明。
-ms.openlocfilehash: 208098fe44238d9d96debbde7b8c00daf6622b91
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8aada20b1ffe712a5b4cf0f9df42b139f25248dc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602348"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737669"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>商務用 Skype Server 的高級 Edge Server DNS 規劃
  
@@ -52,11 +52,11 @@ ms.locfileid: "58602348"
     
      *這是外部 web 服務上的自動探索服務的主機記錄。* 
     
-3. _sipinternaltls _sipinternaltls._tcp。\<domain\>
+3. _sipinternaltls _tcp。\<domain\>
     
      *這是內部 TLS 連線的 SRV 記錄。* 
     
-4. _sip _sip._tls。\<domain\>
+4. _sip _tls。\<domain\>
     
      *這是外部 TLS 連線的 SRV 記錄。* 
     
@@ -114,7 +114,7 @@ ms.locfileid: "58602348"
     
 - 您周邊網路中的所有商務用 Skype Server 內部 Edge 介面都會使用此內部 DNS 區域來解析 contoso.com 的查詢。
     
-- 所有執行商務用 Skype Server 的伺服器，以及在公司網路中執行商務用 Skype Server 的用戶端，指向 [內部 DNS 伺服器]，以將查詢解析為 contoso.com，或是在每一部 Edge server 上使用主機檔，也 IPv6 可以使用清單 A 和 AAAA (（特別是針對 Director 或 Director 集區 vip、前端集區 vip 或) Server (）。
+- 所有執行商務用 Skype Server 的伺服器，以及在公司網路中執行商務用 Skype Server 的用戶端，指向 [內部 DNS 伺服器]，以將查詢解析為 contoso.com，或是在每一部 Edge server 上使用主機檔案，也可以在每個 Edge (server 上使用主機檔。) 特別針對 Director 或 Director 集區 VIP，您可以使用該 IPv6 定址 (記錄 前端集區 VIP 或 Standard Edition 伺服器) 。
     
 ### <a name="external-dns"></a>外部 DNS
 
@@ -137,17 +137,17 @@ ms.locfileid: "58602348"
   
 因此，如果您有兩個使用中的 SIP 網域，則需要下列 DNS SRV 記錄：
   
-- _sipinternaltls _sipinternaltls._tcp .com。 pool01.contoso.com SRV 0 0 5061 中的86400
+- _sipinternaltls _tcp。 pool01.contoso.com SRV 0 0 5061 中的86400
     
      *如果使用者登入 bob@contoso.com，則此記錄可用於自動設定，因為使用者的 SIP 網域會符合前端集區的網域 (contoso.com) 。* 
     
-- _sipinternaltls _sipinternaltls._tcp .com。 pool01.fabrikam.com SRV 0 0 5061 中的86400
+- _sipinternaltls _tcp。 pool01.fabrikam.com SRV 0 0 5061 中的86400
     
      *如果使用者登入 alice@fabrikam.com，則此記錄會在第二個網域的自動設定中運作，因為 SIP 網域符合該網域的前端集區。* 
     
 若要進一步採取此範例，這將無法運作：
   
-- _sipinternaltls _sipinternaltls._tcp 的 litwareinc。 pool01.fabrikam.com SRV 0 0 5061 中的86400
+- _sipinternaltls litwareinc。 pool01.fabrikam.com SRV 0 0 5061 中的86400
     
      *以 tim@litwareinc.com 登入的使用者無法使用自動設定，因為其 SIP 網域 (litwareinc.com) 不符合集區中的網域 (fabrikam.com) 。* 
     

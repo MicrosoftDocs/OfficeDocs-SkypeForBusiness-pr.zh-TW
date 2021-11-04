@@ -1,7 +1,7 @@
 ---
 title: 規劃商務用 Skype Server 的會議拓撲
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 中規劃會議拓撲。
-ms.openlocfilehash: 09d793a75ab72ef96d3ded85156c99a7590e087d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a4d458bf7bea512e773a09551e2fa0c72a982592
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732632"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737709"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>規劃商務用 Skype Server 的會議拓撲
  
@@ -84,7 +84,7 @@ Web 會議需要下列專案：
     
     外部商務用 Skype 用戶端可以使用反向 proxy 伺服器（該伺服器要求來自網際網路的要求，以及將郵件轉送至內部網路），連線至商務用 Skype Server 及 Office Web Apps server/Office Online Server。  (內部用戶端不需要使用反向 proxy 伺服器，因為他們可以直接連線到 Office Web apps server/Office Online Server。如果您想要使用僅供 Office 使用的專用 Office Online Server web apps server/商務用 Skype Server 伺服器陣列，則 ) 此拓撲會發揮最佳作用。
     
-- **使用外部部署的 Office Web Apps Server/Office Online Server。** 在此拓撲中，會在內部部署商務用 Skype Server，並使用部署于商務用 Skype Server 網路區域以外的 Office Web Apps Server/Office Online Server。 當公司中的多個應用程式共用 Office Web Apps server/Office Online Server 時，可能會發生這種情況，而且部署于要求商務用 Skype Server 使用 Office Web Apps Server/Office Online Server 外部介面的網路上，反之亦然。
+- **使用外部部署的 Office Web Apps Server/Office Online Server。** 在此拓撲中，會在內部部署商務用 Skype Server，並使用部署于商務用 Skype Server 網路區域以外的 Office Web Apps Server/Office Online Server。 當公司中的多個應用程式共用 Office Web Apps server/Office Online Server 時，可能會發生這種情況，而且部署于要求商務用 Skype Server 使用 Office Web Apps Server/Office Online Server 外部介面的網路上。反之亦然。
     
     您不需要安裝反向 proxy 伺服器;相反地，所有從 Office Web Apps server/Office Online Server 到商務用 Skype Server 的要求都透過您的 Edge Server 路由傳送。 您的內部和外部商務用 Skype 用戶端都使用外部 URL 連線至 Office Web Apps Server/Office Online Server。
     

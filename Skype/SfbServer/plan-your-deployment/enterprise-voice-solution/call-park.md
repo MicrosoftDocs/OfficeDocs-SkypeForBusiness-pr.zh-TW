@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype 中規劃通話駐留
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: 在商務用 Skype Server 企業語音中規劃通話駐留，讓通話保持通話，並將通話轉接至部門。 包括容量規劃、支援的通話，以及支援的用戶端。
-ms.openlocfilehash: 8bc69bedfd3abf7745ce25133ae8ac32d1eda032
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1cba225d966f835e59f75c359cee49ab183d21eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625175"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770181"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>在商務用 Skype 中規劃通話駐留
  
@@ -56,7 +56,7 @@ ms.locfileid: "58625175"
   
 ### <a name="software-requirements"></a>軟體需求
 
-部署通話駐留的所有前端伺服器和 Standard Edition 伺服器都必須為執行 Windows Server 2012 或 Windows Server 2012 R2 的伺服器安裝 Windows 媒體格式執行時間，以供執行 Windows Server 2008 R2 的伺服器或 Microsoft Media Foundation 使用。 針對 Windows Server 2008 R2，Windows Media Format Runtime 是以 Windows 桌面體驗的一部分安裝。 Windows媒體格式執行時間或 Microsoft media Foundation 是 Windows 媒體音訊的必要 (。呼叫駐留的 wma) 檔案會對等候音樂播放。
+部署通話駐留的所有前端伺服器和 Standard Edition 伺服器都必須為執行 Windows Server 2008 R2 的伺服器安裝 Windows 媒體格式執行時間，或為執行 Windows Server 2012 或 Windows Server 2012 R2 的伺服器安裝 Microsoft Media Foundation. 針對 Windows Server 2008 R2，Windows Media Format Runtime 是以 Windows 桌面體驗的一部分安裝。 Windows媒體格式執行時間或 Microsoft media Foundation 是 Windows 媒體音訊的必要 (。呼叫駐留的 wma) 檔案會對等候音樂播放。
   
 ### <a name="port-requirements"></a>連接埠需求
 

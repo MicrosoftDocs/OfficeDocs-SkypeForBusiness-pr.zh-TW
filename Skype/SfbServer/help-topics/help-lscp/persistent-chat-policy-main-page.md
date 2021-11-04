@@ -1,7 +1,7 @@
 ---
 title: 常設聊天室原則主要頁面
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: 您可以使用 Persistent 聊天群組的持續聊天原則頁面，管理全域、集區、網站或使用者層級的原則，包括設定預設全域原則，以及為您的部署建立一或多個額外的使用者和網站原則。 如果使用者依原則啟用 Persistent Chat Server，則 Persistent Chat Server 環境會出現在其用戶端中。
-ms.openlocfilehash: 53717b18088bf8ddcd4317e4e1f3d72e24859f96
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cb42c24e10905af12308ea42775c5f993dbc4c5c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595777"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738039"
 ---
 # <a name="persistent-chat-policy-main-page"></a>常設聊天室原則主要頁面
  

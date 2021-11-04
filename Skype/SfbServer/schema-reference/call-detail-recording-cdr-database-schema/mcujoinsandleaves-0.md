@@ -1,7 +1,7 @@
 ---
 title: McuJoinsAndLeaves view
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6f00b8e7-b8b6-4657-ac5e-d8a571806ae2
 description: McuJoinsAndLeaves 檢視會儲存使用者加入或離開一個會議伺服器的相關資訊。 這個檢視中的每筆記錄都包含一組使用者加入或離開會議伺服器的通話詳細資料。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 1b37d0609c82c40e65beb0e58bffc639b738487f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 509eca981381b052962ac516a1b0d5537e8c27f1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617729"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763331"
 ---
 # <a name="mcujoinsandleaves-view"></a>McuJoinsAndLeaves view
  

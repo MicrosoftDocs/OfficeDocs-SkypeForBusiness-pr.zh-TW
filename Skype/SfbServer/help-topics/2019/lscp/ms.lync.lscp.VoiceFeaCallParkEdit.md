@@ -1,7 +1,7 @@
 ---
 title: 通話駐留建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通話駐留號碼範圍定義在有人接聽或下班時，寄存通話保留的臨時號碼。
-ms.openlocfilehash: f541a05fffe7f3696cde151f2d9edc8fcb243d73
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0a30bcd12e89cbfdc65078d03f468e4462423de8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620049"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776983"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>通話駐留：建立新的或編輯現有
 

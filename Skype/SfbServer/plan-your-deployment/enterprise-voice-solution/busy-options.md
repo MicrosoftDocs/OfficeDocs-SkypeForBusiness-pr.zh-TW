@@ -1,7 +1,7 @@
 ---
 title: 規劃商務用 Skype Server 的繁忙選項
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: 請參閱商務用 Skype Server 中的「忙碌選項」功能。
-ms.openlocfilehash: c43a5a0cae0a798f3c38c62b4a1c7895d9704fbb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d47b31c53b5357a520f6aa0b3a6c0a02c18df8f2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583877"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756540"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>規劃商務用 Skype Server 的繁忙選項
  

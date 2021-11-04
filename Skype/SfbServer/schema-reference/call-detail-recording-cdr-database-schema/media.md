@@ -1,7 +1,7 @@
 ---
 title: 媒體表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
 description: 每一項記錄都代表對等工作階段所用的一種媒體類型。若某階段工作使用了一種以上的媒體類型，則在表格中會呈現多個記錄。
-ms.openlocfilehash: 98c849c4ecde8e1c3be40d0aab3af606a400fb0e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a32a61d5ba7c3aa7d3a77008af373a5ea45daeda
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629425"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756466"
 ---
 # <a name="media-table"></a>媒體表格
  

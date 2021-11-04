@@ -1,7 +1,7 @@
 ---
 title: 中繼服務設定展開工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 description: 針對 [中繼伺服器]，您可以指定下列內容：
-ms.openlocfilehash: 0e6a480d001b9afa0d6e6042c3ab67c9d756b7aa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bc6f695993c33b13874048115700feef8603bfa2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630767"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777353"
 ---
 # <a name="mediation-service-settings-expander"></a>中繼服務設定展開工具
 

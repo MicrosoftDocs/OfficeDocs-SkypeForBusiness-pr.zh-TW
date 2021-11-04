@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype 中設計及建立回應群組工作流程
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 在商務用 Skype Server 企業語音中，設計及建立回應群組工作流程。 同時也涵蓋群組搜尋工作流程和互動式工作流程。
-ms.openlocfilehash: fe5efd7b5ba851055803298dd077009c238fd1f1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 842cbf321dc4e4f54ff244e9e809517807a6686c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730952"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755756"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>在商務用 Skype 中設計及建立回應群組工作流程
 
@@ -572,69 +572,69 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
-4. 互動式工作流程需要兩個以上的佇列以及兩個以上的代理人群組。 首先，建立代理人群組。 執行：
+4. 互動式工作流程需要兩個以上的佇列以及兩個以上的代理人群組。 首先，建立代理人群組。 運行：
 
    ```powershell
    $AGSupport = New-CsRgsAgentGroup -Parent $serviceId -Name "Technical Support" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:agent1@contoso.com", "sip:agent2@contoso.com")]
    $AGSales = New-CsRgsAgentGroup -Parent $serviceId -Name "Sales Team" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:bob@contoso.com", "sip:alice@contoso.com")]
    ```
 
-5. 建立佇列。 執行：
+5. 建立佇列。 運行：
 
    ```powershell
    $QSupport = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Support" -AgentGroupIDList($AG-Support.Identity)
    $QSales = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Sales" -AgentGroupIDList($AG-Sales.Identity)
    ```
 
-6. 建立第一個回應群組提示。 執行：
+6. 建立第一個回應群組提示。 運行：
 
    ```powershell
    $SupportPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please be patient while we connect you with Contoso Technical Support."
    ```
 
-7. 然後建立在提示後要執行的動作。 執行：
+7. 然後建立在提示後要執行的動作。 運行：
 
    ```powershell
    $SupportAction = New-CsRgsCallAction -Prompt $SupportPrompt -Action TransferToQueue -QueueID $QSupport.Identity
    ```
 
-8. 建立第一個回應群組答案。 執行：
+8. 建立第一個回應群組答案。 運行：
 
    ```powershell
    $SupportAnswer = New-CsRgsAnswer -Action $SupportAction [-DtmfResponse 1]
    ```
 
-9. 現在，建立第二個提示、通話動作和答案。 請先建立提示。 執行：
+9. 現在，建立第二個提示、通話動作和答案。 請先建立提示。 運行：
 
    ```powershell
    $SalesPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please hold while we connect you with Contoso Sales."
    ```
 
-10. 建立第二個通話動作。 執行：
+10. 建立第二個通話動作。 運行：
 
     ```powershell
     $SalesAction = New-CsRgsCallAction -Prompt $SalesPrompt -Action TransferToQueue -QueueID $QSales.Identity
     ```
 
-11. 建立第二個回應群組答案。 執行：
+11. 建立第二個回應群組答案。 運行：
 
     ```powershell
     $SalesAnswer = New-CsRgsAnswer -Action $SalesAction [-DtmfResponse 2]
     ```
 
-12. 建立最高層級提示。 執行：
+12. 建立最高層級提示。 運行：
 
     ```powershell
     $TopLevelPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Thank you for calling Contoso. For Technical Support, press 1. For a Sales Representative, press 2."
     ```
 
-13. 建立最上層問題。 執行：
+13. 建立最上層問題。 運行：
 
     ```powershell
     $TopLevelQuestion = New-CsRgsQuestion -Prompt $TopLevelPrompt [-AnswerList ($SupportAnswer, $SalesAnswer)]
     ```
 
-14. 現在建立工作流程。 執行：
+14. 現在建立工作流程。 運行：
 
     ```powershell
     $IVRAction = New-CsRgsCallAction -Action TransferToQuestion [-Question $Question]
@@ -644,7 +644,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
      > [!NOTE]
      > 指定為回應群組管理員的所有使用者，都必須指派 CsResponseGroupManager 角色。 若未指派此角色的使用者，他們就無法管理回應群組。
 
-## <a name="see-also"></a>也請參閱
+## <a name="see-also"></a>另請參閱
 
 [ (選用) 定義回應群組假日集商務用 Skype](optional-define-response-group-holiday-sets.md)
 

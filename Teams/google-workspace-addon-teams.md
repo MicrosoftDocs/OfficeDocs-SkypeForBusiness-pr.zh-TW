@@ -1,7 +1,7 @@
 ---
 title: 設定Microsoft Teams工作區的會議附加元件
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: aravin
 manager: serdars
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: msteams
 searchScope:
 - Microsoft Teams
 search.appverid: MET150
-description: 瞭解如何設定Microsoft Teams工作區的會議附加元件。
+description: 瞭解如何設定 Google workspace Microsoft Teams會議附加元件。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb5f7574bd5e07598c412cd7d17f02625de2f095
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 05f3c4553e20bb9c02ff99dcf8ad452af05f054e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729912"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777203"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>設定Microsoft Teams工作區的會議附加元件
 
-使用 Microsoft Teams附加元件可讓 Google 日曆使用者直接從 Google 工作區排程Microsoft Teams加入會議。 使用者可以存取會議Teams和音訊會議、螢幕分享、會議聊天、數位白板等。 保持聯繫並井井有條，以在公司、學校及生活中共同完成更多工作。
+使用 Microsoft Teams可讓 Google 日曆使用者直接從 Google 工作區排程Microsoft Teams加入會議。 使用者可以存取會議Teams和音訊會議、螢幕分享、會議聊天、數位白板等。 保持聯繫並井井有條，以在公司、學校及生活中共同完成更多工作。
 
 Microsoft Teams使用者存取應用程式之前，Teams管理員必須啟用 Google Workspace 的會議附加元件。
 
@@ -49,7 +49,7 @@ Microsoft Teams使用者存取應用程式之前，Teams管理員必須啟用 Go
 
    ![顯示 Google 工作區屬性的 Azure 入口網站。](media/google-workspace-properties.png)
 
-5.  (選擇性) 若要停用附加元件，請在步驟 4 中選取 **No，而不是****是**。
+5.  (選擇性) 若要停用附加元件， **請選取步驟** 4 中的否，而不是 **是** 。
 
 ## <a name="disable-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>停用Microsoft Teams PowerShell 的 Google 工作區會議附加元件
 

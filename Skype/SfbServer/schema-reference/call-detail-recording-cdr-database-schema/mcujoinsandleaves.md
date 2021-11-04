@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 2015 中的 McuJoinsAndLeaves 表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
 description: 此表格中的每一筆記錄都包含有關使用者加入或離開和會議服務器之一種結合的呼叫詳細資料。 例如，如果使用者加入包含 web 會議及音訊/視頻元素的會議，則會為該使用者的 web 會議加入建立一個記錄，並為使用者的音訊/視訊會議加入建立另一筆記錄。
-ms.openlocfilehash: 5d01781dd0d16abb3f03cdc8f6021981e7ebfff7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: df18ca4785fab9b56057eb439ab55caa2b1a170f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629465"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737599"
 ---
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 McuJoinsAndLeaves 表格
  

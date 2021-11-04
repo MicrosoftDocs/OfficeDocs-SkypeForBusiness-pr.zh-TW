@@ -1,7 +1,7 @@
 ---
 title: 設定商務用 Skype Server 語音信箱 Exchange Server 整合通訊
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/11/2019
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 摘要：設定商務用 Skype Server 語音信箱 Exchange Server 整合通訊。
-ms.openlocfilehash: 94aa013a8330f6469af5a237911b4e627047f7a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 43a5b34afb2f398ecfd14d884bbb510ffa3631f0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621815"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741289"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>設定商務用 Skype Server 語音信箱 Exchange Server 整合通訊
  
@@ -175,7 +175,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ### <a name="configure-certificates-on-the-server-running-exchange-server-unified-messaging"></a>在執行 Exchange Server 整合通訊的伺服器上設定憑證
  
-如果您已部署 Exchange 整合通訊 (UM) （如規劃檔中的「Exchange 整合通訊整合」中所述，以及您想要供應商務用 Skype Server 的 UM 功能，以 Exchange 組織中的使用者），您可以使用下列程式在執行企業語音 um 的伺服器上設定憑證。
+如果您已部署 Exchange 整合通訊 (UM) （如規劃檔中的「Exchange 整合通訊整合」中所述，以及您想要為組織中商務用 Skype Server 的使用者提供 Exchange UM 功能），您可以使用下列程式來進行 config在執行 Exchange UM 的伺服器上 ure 憑證。
 
 > [!IMPORTANT]
 > 針對內部憑證，執行商務用 Skype Server 的伺服器和執行 Microsoft Exchange 的伺服器必須具有相互信任的根信任授權憑證。 憑證授權單位單位 (CA) 可以相同或不同的憑證授權單位單位，只要伺服器在其受信任的根授權憑證存放區中註冊了憑證授權單位的根憑證。 

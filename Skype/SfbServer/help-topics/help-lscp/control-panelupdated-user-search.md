@@ -1,7 +1,7 @@
 ---
 title: 控制台更新的使用者搜尋
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 5/21/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: 您可以使用搜尋查詢的結果，為使用者設定商務用 Skype Server。 您可以依顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、SIP 位址或線路統一資源識別元 (URI) 來搜尋使用者。 您也可以使用 [Lync Server 控制台] 或 [Active Directory 使用者及電腦] 嵌入式管理單元來搜尋使用者。
-ms.openlocfilehash: 2333a92d95a3d93ef9e10c0db89eba0c77c9f809
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ee155a1c81ffe45007d813d64fb8cc4586ba268e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608230"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740899"
 ---
 # <a name="control-panel---updated-user-search"></a>控制台 - 已更新：使用者搜尋
 

@@ -1,7 +1,7 @@
 ---
 title: 使用商務用 Skype 規劃私人電話線
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: 在商務用 Skype Server 企業語音中規劃私人 (次要) 電話線。
-ms.openlocfilehash: 3f682d6d150bd52093d8c7bbb050b53b95ac3125
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c4a03d539835a1b776b729c83bdd1bf19e0ff82
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603842"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763471"
 ---
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>使用商務用 Skype 規劃私人電話線
  

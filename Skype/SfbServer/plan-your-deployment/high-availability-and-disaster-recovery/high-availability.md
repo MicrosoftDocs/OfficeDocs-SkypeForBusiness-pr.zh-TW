@@ -1,7 +1,7 @@
 ---
 title: 前端集區高可用性和管理
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: 深入瞭解商務用 Skype Server 中的前端集區管理，包括管理集區、仲裁遺失，以及僅有兩部前端伺服器的集區的特殊步驟。
-ms.openlocfilehash: 2eabc5e32937b88de4a3c4bbd474e20e132c1984
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5d9eef2a027131db960b05508ece28cf95b992dc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585007"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737679"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>前端集區高可用性和管理
  
@@ -45,12 +45,12 @@ ms.locfileid: "58585007"
   
 |集區中的伺服器總數  <br/> |第一次啟動集區時必須執行的伺服器數目  <br/> |
 |:-----|:-----|
-|2   <br/> |1   <br/> |
+|第  <br/> |1  <br/> |
 |3   <br/> |3   <br/> |
 |4   <br/> |3   <br/> |
-|5   <br/> |4   <br/> |
-|6   <br/> |5   <br/> |
-|7   <br/> |5   <br/> |
+|5  <br/> |4   <br/> |
+|6   <br/> |5  <br/> |
+|7   <br/> |5  <br/> |
 |8   <br/> |6   <br/> |
 |9   <br/> |7   <br/> |
 |10   <br/> |8   <br/> |
@@ -71,7 +71,7 @@ ms.locfileid: "58585007"
   
 |集區中的前端伺服器總數  <br/> |集區執行運作所需的伺服器數目  <br/> |
 |:-----|:-----|
-|2   <br/> |1   <br/> |
+|第  <br/> |1  <br/> |
 |3-4  <br/> |任何2  <br/> |
 |5-6  <br/> |任何3  <br/> |
 |7   <br/> |任何4  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: 測試裝置建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8f9125dd-04b3-4a6d-9f41-4f19ddaf7a2d
 description: 測試裝置功能會搭配裝置更新功能一起運作。 您可以將測試裝置新增至 [測試裝置] 頁面，然後使用此裝置來確認新更新的功能，再將更新部署至實際執行裝置。 您可以在整個環境) 或單一網站內，測試裝置全域 (。 您可以透過媒體存取控制來識別測試裝置 (MAC) 位址或序號。 當您新增裝置時，它會顯示在商務用 Skype Server 控制台的 [測試裝置] 頁面上的清單中。
-ms.openlocfilehash: ed5628cf4040b0b64c1c459df41f7773589c2ba6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 23d2c1a8e06a0c7030c7daec07c89b3bfde25bb3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593757"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748079"
 ---
 # <a name="test-device-create-new-or-edit-existing"></a>測試裝置：建立新的或編輯現有裝置
 

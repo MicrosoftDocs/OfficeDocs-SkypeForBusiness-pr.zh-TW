@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中的 Edge Server 案例
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 摘要：查看這些案例，以協助您規劃商務用 Skype Server 中的 Edge Server 拓撲。
-ms.openlocfilehash: 4035418426975b79a35be7ec84c6affac3ab92d5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 7d5c3b90f2b99b51eb74e0880c5a35f79025282a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732078"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763501"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>商務用 Skype Server 中的 Edge Server 案例
  

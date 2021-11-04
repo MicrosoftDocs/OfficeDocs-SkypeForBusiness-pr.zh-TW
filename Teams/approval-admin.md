@@ -1,7 +1,7 @@
 ---
 title: Teams 中的核准應用程式可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: farhazk
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc74480316bca0c958d5badc7168ce6d1651e581
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 35491e8f55e55741f8567c3711f8612464c968e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984718"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769991"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 核准應用程式可用性
 
@@ -41,7 +41,7 @@ ms.locfileid: "59984718"
 本文章說明核准應用程式的需求和角色。
 
 > [!NOTE]
-> 此功能尚未發行至 政府社群雲端 (GCC) 、政府社群雲端 GCCH (，) 以及美國 (DOD) 使用者。
+> 這項功能尚未發行至 政府社群雲端 (GCC) 、政府社群雲端高 (GCCH) ，以及美國 (DOD) 使用者。
 
 ## <a name="required-permissions-and-licenses"></a>必要的權限和授權
 
@@ -53,7 +53,7 @@ ms.locfileid: "59984718"
 
 - 目標環境中的系統管理員角色。
 
-- 適用于[Power Automate、Office 365](/power-automate/get-started-approvals)或 Dynamics 365 授權。
+- 適用于[Power Automate、Office 365](/power-automate/get-started-approvals)或 Dynamics 365 的授權。
 
 - 使用者需要 Microsoft Forms 授權才能設定新的核准範本。
 
@@ -70,7 +70,7 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 >[!Note]
 >如果您在 Microsoft Forms 網站上刪除表單範本，將會中斷您的核准範本，而使用者將無法啟動要求。 使用者嘗試開啟 Microsoft Forms 上已刪除的核准範本時，收到「CDB TableNotFound」錯誤。
 
-核准範本會儲存在 <底片資料儲存體 (SDS) ，這是一個僅于 Microsoft 內部使用的相容儲存平臺。 組織範圍的範本會儲存在 SDS 的「租使用者區」中，而小組範圍的範本則儲存在 SDS 的「群組分片」中。 這表示組織範圍的範本會共用租使用者相同的生命週期，而小組範圍的範本會共用團隊的相同生命週期。 因此，永久刪除小組會刪除相關的範本。
+核准範本會儲存在 <底片資料儲存體 (SDS) ，這是一個僅在 Microsoft 內部使用的相容儲存平臺。 組織範圍的範本會儲存在 SDS 的「租使用者區」中，而小組範圍的範本則儲存在 SDS 的「群組分片」中。 這表示組織範圍的範本會共用租使用者相同的生命週期，而小組範圍的範本會共用團隊的相同生命週期。 因此，永久刪除小組會刪除相關的範本。
 
 ## <a name="approvals-teams-app-permissions"></a>核准 Teams 應用程式權限
 
@@ -102,7 +102,7 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 - 當系統管理員第一次為整個組織建立範本時，系統會自動為租使用者的所有系統管理員 ，包括全域和小組的服務系統管理員Teams新的 Teams 小組。 這些系統管理員會新增為團隊的擁有者，以便共同管理組織範本。 小組建立之後，組織的新管理員必須手動新增為團隊擁有者，以便他們擁有管理全組織範本的相同許可權。
 
 > [!Note]
-> 如果系統管理員刪除小組，您可以在 AAD Azure Active Directory (入口網站) 還原所有資料。 一個月後，或如果系統管理員在回收站中刪除此小組，您將失去所有相關的資料。
+> 如果系統管理員刪除小組，您還有一個月的時間在 Azure Active Directory (AAD) 入口網站中還原該團隊，以還原所有關聯資料。 一個月後，或如果系統管理員在回收站中刪除此小組，您將失去所有相關的資料。
 
 ## <a name="disable-the-approvals-app"></a>停用核准應用程式
 
@@ -126,7 +126,7 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
 從核准應用程式建立的核准會儲存在預設 CDS 環境中，該選項目前不支援備份。 深入了解如何[備份和還原環境 - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments)。
 
-在小組擁有者從 Microsoft Forms Web App 的刪除表單選項卡中清除之前，不會刪除儲存在 Forms 中的資料。
+在小組擁有者從 Microsoft Forms Web App 的已刪除表單選項卡中清除之前，不會刪除儲存在 Forms 中的資料。
 
 ## <a name="data-limitations"></a>資料限制
 
@@ -164,7 +164,7 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
 - 已查看電子簽章要求詳細資料
 
-- 已審查電子簽章要求
+- 已審查電子簽名要求
 
 - 已取消電子簽名要求
 
@@ -203,10 +203,10 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
 - 您選擇使用的特定電子簽章提供者授權。 若要取得貴組織授權，您必須前往提供者的網站。
 
-針對核准電子簽章功能，協力廠商簽章合作夥伴預設會顯示Teams核准應用程式。 您可以在系統管理中心存取應用程式設定，以停用Teams提供者。
+針對核准電子簽章功能，協力廠商簽章合作夥伴預設會顯示Teams核准應用程式。 您可以存取系統管理中心中的應用程式設定，以停用Teams提供者。
 
-1. 在 Teams系統管理中心 **，選取管理** 應用程式下的核准 **應用程式**，然後選擇 **設定。**
+1. 在 Teams系統管理中心 **，選取管理** 應用程式下的核准 **應用程式**，**然後選擇** 設定。
 
-2. 每個電子簽章提供者旁邊都有一個切換開關，預設會位於 () 位置。 將切換開關向左滑動以停用特定的電子簽名提供者。 如果Teams系統管理員停用提供者，則建立核准時，使用者不會看到提供者。 使用者也無法查看該提供者提出的任何電子簽章要求。
+2. 每個電子簽章提供者旁邊都有一個開關，根據預設， (右) 開關。 將切換開關向左滑動以停用特定的電子簽名提供者。 如果Teams系統管理員停用提供者，則建立核准時，使用者不會看到提供者。 使用者也無法查看該提供者提出的任何電子簽章要求。
 
 從核准應用程式建立電子簽章核准會儲存在所選提供者的雲端。 因此，您必須前往提供者的網站，才能匯出任何電子簽章資料。 請參閱提供者關於匯出及保留這些協定的檔。

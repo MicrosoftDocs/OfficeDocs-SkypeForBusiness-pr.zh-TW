@@ -1,7 +1,7 @@
 ---
 title: 監控伺服器一般設定展開工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 description: 在 [拓撲產生器] 中，您可以編輯個別監控伺服器的內容，方法是以滑鼠右鍵按一下主控台樹中的監控伺服器，然後按一下工具列中的 [動作]，或是按一下 [動作] 窗格中的工作，然後按一下 [編輯內容]，然後按一下 [編輯內容]，然後變更下列任一選項：
-ms.openlocfilehash: 06e6d546618b0304c587f3240f38ff9384bd968f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f142ae43dfda1f4da0a4ab33cb3f3d1eb980b75e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599064"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740669"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>監控伺服器一般設定展開工具
  

@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中管理服務
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 瞭解如何查看服務狀態、啟動和停止服務，以及防止服務的會話。
-ms.openlocfilehash: 52d87c8e2f803f31496e773e82d7466a22711550
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: c48a6a07605096dfdccc96539d01e5607e171b9b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015107"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756980"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>在商務用 Skype Server 中管理服務
 

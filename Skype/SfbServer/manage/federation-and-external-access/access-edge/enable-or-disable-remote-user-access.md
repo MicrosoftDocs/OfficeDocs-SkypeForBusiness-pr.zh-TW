@@ -5,7 +5,7 @@ ms:assetid: cd9d3ddc-4839-457a-86d9-b15413e74002
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182586(v=OCS.15)
 ms:contentKeyID: 48185660
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 如果您為遠端使用者啟用遠端使用者存取，支援的遠端使用者透過網際網路連線，而且不需要使用 VPN 連線，即可使用商務用 Skype Server 與內部使用者共同作業。
-ms.openlocfilehash: 743ec476cc1541fa4163a838f333419280779611
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 5841a5eb1be7c6ea377893607566f90f16dc8527
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014527"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770201"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用或停用遠端使用者存取
 

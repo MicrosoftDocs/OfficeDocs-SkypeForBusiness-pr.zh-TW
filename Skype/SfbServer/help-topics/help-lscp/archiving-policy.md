@@ -1,7 +1,7 @@
 ---
 title: 封存原則
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
 description: 您可以使用封存原則來啟用及停用商務用 Skype Server 中使用者的封存。 在每個封存原則中，您可以啟用或停用下列其中一項或兩項的封存：
-ms.openlocfilehash: dd0bd831aeb408862ee16b9f09e2c5247f205e82
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 37452d6bc5274aad19508522bef60ec23e363fe4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591577"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757535"
 ---
 # <a name="archiving-policy"></a>封存原則
  

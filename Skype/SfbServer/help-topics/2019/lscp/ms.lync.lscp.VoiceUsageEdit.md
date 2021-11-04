@@ -1,7 +1,7 @@
 ---
 title: PSTN 使用方式建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: b0ff412bee4b92e38507a946d99b850a29d51995
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 92bb6a10daf2bb6412c270543b6a5250c51cc058
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626895"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748619"
 ---
 # <a name="pstn-usage-create-new-or-edit-existing"></a>PSTN 使用方式：建立新的或編輯現有
 

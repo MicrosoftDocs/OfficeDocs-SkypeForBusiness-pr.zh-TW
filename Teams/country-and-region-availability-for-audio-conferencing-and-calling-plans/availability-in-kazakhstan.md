@@ -1,7 +1,7 @@
 ---
 title: 哈薩克的可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: e9950242a6d3658f9fe49c04b188f03202bea585
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: aeaff9031535df5e7d727f3386ae4264efa62817
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733284"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777533"
 ---
 # <a name="availability-in-kazakhstan"></a>哈薩克的可用性
 
@@ -70,7 +70,7 @@ ms.locfileid: "60733284"
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？   | 根據[ (，請前往) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)<br/> |
 |有提供付費電話號碼嗎？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
-|免付費號碼是否可用？  <br/> |否  <br/> |
+|是否提供免付費號碼？  <br/> |否  <br/> |
    
  如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
   

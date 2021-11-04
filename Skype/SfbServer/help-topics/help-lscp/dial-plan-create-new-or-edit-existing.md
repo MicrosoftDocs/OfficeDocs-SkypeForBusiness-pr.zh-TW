@@ -1,7 +1,7 @@
 ---
 title: 撥號對應表建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: a7f473cf3df70d4cc3aac42e8669535de288aac3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6648a9d0180c85c1703e0219de08c166cb146fe9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633827"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748250"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>撥號對應表：建立新的或編輯現有
 

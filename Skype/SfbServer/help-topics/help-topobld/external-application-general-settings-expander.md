@@ -1,7 +1,7 @@
 ---
 title: 外部應用程式一般設定展開工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 description: 若要編輯已定義之信任的應用程式伺服器的屬性，請遵循下列指示。
-ms.openlocfilehash: 1bcb822ee6a48383f45a10f5ee3db1f5222c00a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 21f7fa671690852953a49c91e657f6be8db3437d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606322"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737849"
 ---
 # <a name="external-application-general-settings-expander"></a>外部應用程式一般設定展開工具
  

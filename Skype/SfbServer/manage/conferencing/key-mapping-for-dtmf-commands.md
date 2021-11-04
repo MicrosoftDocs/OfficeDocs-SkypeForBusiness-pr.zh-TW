@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中管理 DTMF 命令的按鍵對應
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 摘要：瞭解如何在商務用 Skype Server 中管理雙音多頻率 (DTMF) 命令的按鍵對應。
-ms.openlocfilehash: 10f1d6f0386e97d688e0b56b2605c194c0599ee5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bd9f5b4e4560d3b89e713782ad2e8a19991a1382
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592557"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763851"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>在商務用 Skype Server 中管理 DTMF 命令的按鍵對應
  

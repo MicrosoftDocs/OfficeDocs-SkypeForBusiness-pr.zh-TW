@@ -1,7 +1,7 @@
 ---
 title: 新增 Director 集區
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 751ead48-b97f-4c6f-ba6b-14d446473658
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要定義 Director 集區 FQDN，請選取要包含在負載平衡集區中的兩個或多個 Director 或單一電腦集區的多部電腦集區。 您也必須輸入要用來連接 Director 集區的完整功能變數名稱 (FQDN) 或單一 Director 的 FQDN。 針對 Director 電腦的集區，這會是網域名稱系統 (DNS) 專案，以供硬體負載平衡器的虛擬 IP 或 DNS 負載平衡的共用 DNS 專案使用。
-ms.openlocfilehash: a8fdb37fb5a64c9f228a941c36dda7a56c5013d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2e95c7b83d3feee398da93dac2a9bd9e1500e174
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590337"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741089"
 ---
 # <a name="add-director-pool"></a>新增 Director 集區
  

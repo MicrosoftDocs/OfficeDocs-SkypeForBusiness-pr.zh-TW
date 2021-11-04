@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中的會議詳細資料包告
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 摘要：瞭解商務用 Skype Server 中所用的會議詳細資料包告。
-ms.openlocfilehash: 9b5dbbaf4ab1312d187b4e3c02882c26066c3db5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 56fafff71f1700667a2ad982f56db099cb60c45e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615699"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737799"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>商務用 Skype Server 中的會議詳細資料包告
 

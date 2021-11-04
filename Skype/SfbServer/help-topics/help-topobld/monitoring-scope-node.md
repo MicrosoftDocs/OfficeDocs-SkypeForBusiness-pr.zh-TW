@@ -1,7 +1,7 @@
 ---
 title: 監控範圍節點
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 在 [Lync Server 2013 拓撲產生器] 中，您可以執行與執行監控之個別伺服器相關的工作，方法是在主控台樹中以滑鼠右鍵按一下執行監控的伺服器，按一下工具列中的 [動作]，或是按一下 [動作] 窗格中的工作，然後按一下執行監視之伺服器的下列其中一個選項：
-ms.openlocfilehash: 4513a0ea5c28d465cd1fc8d8cf949cb09499a7af
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 60bc8ce6abdd8c0ede5e40cce6438223d1e88e16
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630717"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770411"
 ---
 # <a name="monitoring-scope-node"></a>監控範圍節點
  

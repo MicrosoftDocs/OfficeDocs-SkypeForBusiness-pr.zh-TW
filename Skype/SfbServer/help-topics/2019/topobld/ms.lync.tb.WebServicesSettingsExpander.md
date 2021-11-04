@@ -1,7 +1,7 @@
 ---
 title: Web 服務設定展開工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以從拓撲產生器內，修改用於內部和外部 web 服務的埠設定。 此外，如果您要部署網域名稱系統 (DNS) 負載平衡，您可以使用拓撲產生器，設定集區的完整功能變數名稱 (FQDN) ，以解析為該集區中所有伺服器的實體 IP 位址。
-ms.openlocfilehash: f160259a78f5d95bd7e5e7e974579ddebe738115
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d0302c3f892840e32e3efa4342f389e6e24e0206
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596987"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748449"
 ---
 # <a name="web-services-settings-expander"></a>Web 服務設定展開工具
  
