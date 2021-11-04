@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中指定保留 CDR 資料
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: 摘要：瞭解如何管理商務用 Skype Server (CDR) 資料的詳細通話記錄。
-ms.openlocfilehash: 8588447d7e12123c0d10ae15b07a7727d94c0f27
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ac021da1c2235256e4b9bffc2f8664a1572d27d1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013757"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742129"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>在商務用 Skype Server 中指定保留 CDR 資料
  
@@ -34,7 +34,7 @@ ms.locfileid: "60013757"
 
 1. 從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。  
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。  
     
 3. 在左導覽列中，按一下 **[監控和封存]**，然後按一下 **[詳細通話記錄]**。
     
@@ -50,7 +50,7 @@ ms.locfileid: "60013757"
     
 ## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 指定 CDR 保留
 
-您可以使用 Windows PowerShell 和 Set-CsCdrConfiguration Cmdlet 來建立 CDR 保留設定。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至商務用 Skype 伺服器的詳細資訊，請參閱 [Microsoft Lync remote PowerShell 管理](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 商務用 Skype Server 中的程式相同。
+您可以使用 Windows PowerShell 和 Set-CsCdrConfiguration Cmdlet 來建立 CDR 保留設定。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端會話中執行此指令程式。 如需使用遠端 Windows PowerShell 連線到商務用 Skype Server 的詳細資訊，請參閱[Microsoft Lync remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。 商務用 Skype Server 中的程式相同。
   
 ### <a name="to-specify-cdr-retention-for-a-specific-location"></a>指定特定位置的 CDR 保留
 

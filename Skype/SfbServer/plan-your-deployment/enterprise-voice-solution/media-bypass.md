@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype 中規劃媒體旁路
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: 在商務用 Skype Server 企業語音中規劃媒體旁路所需的決策。 包含通話許可控制 (CAC) 的交互操作。
-ms.openlocfilehash: b931d2415e0ac7563735181e76f539723330fe92
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ef06cd7e97623024ab921bf71a006645d1d97a07
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733142"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759525"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>在商務用 Skype 中規劃媒體旁路
 

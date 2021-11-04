@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server-Test SIP 主幹設定設定
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'SIP 主幹設定設定可定義轉送伺服器與 PST) 閘道、PBX 或 SBC （位於服務提供者）之間的關聯性和功能。 '
-ms.openlocfilehash: 1684a2a45de1dd6608ab5fea70fa3bf2e1652723
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e0d8a5807f97924c0b733d75065f0ce3d512255e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617819"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765361"
 ---
 # <a name="skype-for-business-server---test-sip-trunk-configuration-settings"></a>商務用 Skype Server-Test SIP 主幹設定設定
 

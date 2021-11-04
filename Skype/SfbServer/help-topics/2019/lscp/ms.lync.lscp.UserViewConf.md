@@ -1,7 +1,7 @@
 ---
 title: 使用者查看或設定會議原則
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 112c77cf-3625-4a97-a1a4-be6f3234cd53
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: c2f380d6e875629e9536428d2d793d883437fd44
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2e225ed46a9b104e4643c54004ae48ec74de5b98
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597967"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752732"
 ---
 # <a name="users-view-or-configure-conferencing-policy"></a>使用者：檢視或設定會議原則
 

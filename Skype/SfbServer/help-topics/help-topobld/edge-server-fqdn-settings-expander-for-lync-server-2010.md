@@ -1,7 +1,7 @@
 ---
 title: Edge Server FQDN 設定展開工具 (適用於 Lync Server 2010)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 若要定義 [外部設定] 底下的屬性，請進行下列設定：
-ms.openlocfilehash: 3aff6f1a185f7f0d4cb3a596bf8dabea0feb9f89
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 505a4607029ccef38bb937cbb44891f9baaf3eb4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628765"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772229"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Edge Server FQDN 設定展開工具 (適用於 Lync Server 2010)
  

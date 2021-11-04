@@ -5,7 +5,7 @@ ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
 ms:contentKeyID: 48185669
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: '如果您在組織中部署商務用 Skype，您可以與一或多個商務用 Skype Online 客戶的網域同盟。 '
-ms.openlocfilehash: 282b6c3808670eac9ee2833d7248de978611124e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7d41073aadae59c6b01c7eeeb1c5072a6ca21e24
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612342"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747139"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>在商務用 Skype Server 中為商務用 Skype Online 客戶設定同盟支援
 

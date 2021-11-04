@@ -1,7 +1,7 @@
 ---
 title: 混合式嚮導編輯使用者
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
 description: 使用 [編輯使用者] 嚮導來修改部署中的使用者帳戶。 如需詳細資訊，請參閱使用混合式管理性嚮導。
-ms.openlocfilehash: 3885819f83e1b7f128cbc016d8a41024920cf3d5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 053037cff52aaa67dea631a5bf50c87751d86eca
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593787"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742290"
 ---
 # <a name="hybrid-wizard-edit-users"></a>混合式精靈：編輯使用者
 

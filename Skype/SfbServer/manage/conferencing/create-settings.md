@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中建立會議配置設定
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 摘要：瞭解如何在商務用 Skype Server 中建立會議配置設定。
-ms.openlocfilehash: ad1f4fabf172fa5ff693a91e7994916487c322e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 03a9194a5b4015d9434641e7946b66c57ff4df77
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595565"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747149"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中建立會議配置設定
  

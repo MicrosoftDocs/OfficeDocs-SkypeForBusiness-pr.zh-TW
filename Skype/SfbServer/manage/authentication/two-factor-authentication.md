@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中管理雙因素驗證
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 摘要：在商務用 Skype Server 中管理雙因素驗證。
-ms.openlocfilehash: 2b354c99b4e02536ff3db2043ec18fcd092d766e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d5d5500cbcab93f53e58626bf5826dcc060903e2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621099"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747169"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>在商務用 Skype Server 中管理雙因素驗證
  
@@ -55,7 +55,7 @@ Lync Server 2013 的累計更新：7月2013的桌面用戶端和商務用 Skype 
 
 已部署 Microsoft Exchange 的雙因素驗證的客戶可能會發現用戶端中的某些功能無法使用。 這種行為是設計所設計，因為商務用 Skype 用戶端不支援依存于 Exchange 整合的功能的兩個要素驗證。
   
-## <a name="contacts"></a>Contacts
+## <a name="contacts"></a>連絡人
 
 設定為使用整合連絡人存放區功能的商務用 Skype 使用者，會發現使用雙因素驗證來登入後，使用者的連絡人已不再可用。
   

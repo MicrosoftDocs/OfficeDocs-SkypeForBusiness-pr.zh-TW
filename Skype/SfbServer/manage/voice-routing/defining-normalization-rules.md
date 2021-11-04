@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中定義正常化規則
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 商務用 Skype Server 正規化規則使用 .NET Framework 正則運算式，將撥打的電話號碼轉譯成 e.164 格式;換句話說，正規化規則可讓使用者撥打的電話號碼，並將該號碼轉換成商務用 Skype Server 在內部使用的格式。 每個撥號對應表都必須被指派一或多個正常化規則。
-ms.openlocfilehash: 4b78207f90bb013b8be4161b7319cb605ad148e5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e2cf2deaefa18323dcd69e9f09703d6994f101c4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602488"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778283"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>在商務用 Skype Server 中定義正常化規則
 

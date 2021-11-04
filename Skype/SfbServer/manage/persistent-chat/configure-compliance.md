@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 2015 中設定 Persistent Chat Server 的規範服務
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中設定 Persistent Chat Server 合規性服務。
-ms.openlocfilehash: 50650c8f5c63d8d407a0660c24e82aab577e5817
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: af574e4b449211f1631c332e7f494fba6c75e750
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602518"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778313"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定 Persistent Chat Server 的規範服務
 

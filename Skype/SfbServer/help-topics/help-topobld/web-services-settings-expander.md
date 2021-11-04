@@ -1,7 +1,7 @@
 ---
 title: Web 服務設定展開工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: 您可以從拓撲產生器內，修改用於內部和外部 web 服務的埠設定。 此外，如果您要部署網域名稱系統 (DNS) 負載平衡，您可以使用拓撲產生器，設定集區的完整功能變數名稱 (FQDN) ，以解析為該集區中所有伺服器的實體 IP 位址。
-ms.openlocfilehash: 0835e394a10ddedede5191250cf3b4df16daa0f0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0d1f97f7ff44e78c5a117ddd65664a479d63a20f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630707"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765591"
 ---
 # <a name="web-services-settings-expander"></a>Web 服務設定展開工具
  

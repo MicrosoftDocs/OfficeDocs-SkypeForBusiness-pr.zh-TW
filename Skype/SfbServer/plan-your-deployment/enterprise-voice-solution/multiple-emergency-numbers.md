@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中規劃多個緊急號碼
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: 閱讀此主題以瞭解如何在商務用 Skype Server 中規劃多個緊急號碼。
-ms.openlocfilehash: 06b65e889c4a1ae9badf84d3d6fc948405ed4db9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8e4761b22295d71c33af414e2a92dac7bf1210d6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634227"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741960"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃多個緊急號碼
  

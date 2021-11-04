@@ -1,7 +1,7 @@
 ---
 title: 將歡迎電子郵件傳送至商務用 Skype Server 中的撥入使用者
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 摘要：瞭解如何在商務用 Skype Server 中歡迎使用者使用電話撥入式會議。
-ms.openlocfilehash: 4304952bbede0f35183a80f789783bbfc4a8cfbd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 64dd7086b1a40de0c0cc2e0b33a66257153541cd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578797"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772069"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>將歡迎電子郵件傳送至商務用 Skype Server 中的撥入使用者
  
@@ -29,7 +29,7 @@ ms.locfileid: "58578797"
   
 您可以使用 **Set-CsPinSendCAWelcomeMail** 腳本來設定 PIN，並將歡迎電子郵件傳送給單一使用者。 根據預設，如果已設定 PIN 碼，腳本不會重設它，但是您可以使用 Force 參數強制重設 PIN 碼。 電子郵件會使用簡易郵件傳送通訊協定 (SMTP) 傳送。
   
-您可以建立腳本，以反復執行 **Set-CsPinSendCAWelcomeMail** 腳本，以設定 pin 並傳送電子郵件給使用者群組。 您可以修改電子郵件範本 (，也就是 CAWelcomeEmailTemplate.html 檔) ，以新增更多內部網路網頁連結或修改電子郵件文字。
+您可以建立腳本，以反復執行 **Set-CsPinSendCAWelcomeMail** 腳本，以設定 pin 並傳送電子郵件給使用者群組。 您可以修改電子郵件範本 (也就是 CAWelcomeEmailTemplate.html 檔) ，以新增更多內部網路頁面連結或修改電子郵件文字。
   
 
 

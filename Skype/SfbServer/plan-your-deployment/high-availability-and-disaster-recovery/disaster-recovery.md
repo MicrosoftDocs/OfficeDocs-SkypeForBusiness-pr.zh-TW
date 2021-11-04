@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中的前端集區災害復原
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 針對嚴重損壞修復，商務用 Skype Server 提供集區配對與容錯移轉，以防一個集區中斷。
-ms.openlocfilehash: b6a2c33c123f70850335ce55aba06071ff4104eb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6559b5af285027d9f1cb6ea3682304dedbbb4165
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728832"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740429"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>商務用 Skype Server 中的前端集區災害復原
  
@@ -99,6 +99,6 @@ ms.locfileid: "58728832"
 > [!CAUTION]
 >  IPsec 不會做為應用程式層級安全性的取代，例如 SSL/TLS。 使用 IPsec 的其中一個優點是，它可以為現有的應用程式提供網路流量安全性，而不需要加以變更。 只想要將兩個資料中心之間的傳輸安全的企業，應諮詢其各自的網路硬體廠商，以瞭解使用廠商的設備設定安全的 WAN 連線的方式。
   
-## <a name="see-also"></a>也請參閱
+## <a name="see-also"></a>另請參閱
 
 [在商務用 Skype Server 中為嚴重損壞修復部署成對的前端集區](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

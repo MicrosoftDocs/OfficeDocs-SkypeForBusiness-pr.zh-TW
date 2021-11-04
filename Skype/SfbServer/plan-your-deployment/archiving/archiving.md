@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中規劃封存
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 中規劃封存。
-ms.openlocfilehash: e9ebe5aa0b2e4e84d436d24f9d8b7db3b450825d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7ed504558274da06d8f49b38a297626ff22f86c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629575"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740451"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃封存
  
@@ -136,7 +136,7 @@ ms.locfileid: "58629575"
 > [!NOTE]
 > 裝載封存資料庫的伺服器可以裝載其他資料庫。不過，當您考慮將封存資料庫與其他資料庫組合時，請注意，如果您要封存較多使用者的訊息，封存資料庫所需的磁碟空間可能會變得極大。基於這項因素，建議您不要將封存資料庫與後端資料庫整合。 
   
-如果您組合封存資料庫與監控資料庫、後端資料庫或這兩個資料庫，您可以針對任何或所有資料庫使用單一 SQL 實例，也可以針對每個資料庫使用個別的 SQL 實例，但有下列限制：每個 SQL 實例僅可包含單一後端資料庫、單一監控資料庫和單一封存資料庫。
+如果您組合封存資料庫與監控資料庫、後端資料庫或這兩種資料庫，您可以針對任何或所有資料庫使用單一 SQL 實例，也可以針對每個資料庫使用個別的 SQL 實例，但有下列限制：每個 SQL 實例僅可包含單一後端資料庫。 單一監控資料庫和單一封存資料庫。
   
 如需組合所有伺服器角色及資料庫的詳細資訊，請參閱[拓撲基礎的商務用 Skype Server](../../plan-your-deployment/topology-basics/topology-basics.md)。 如需更新拓撲以包含儲存資料庫的詳細資訊，請參閱[Create and publish new 拓朴 in 商務用 Skype Server](../../deploy/install/create-and-publish-new-topology.md)。
   

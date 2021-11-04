@@ -1,7 +1,7 @@
 ---
 title: ClientVersions view
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 description: ClientVersions view 儲存已參與資料庫中記錄之會話的各種用戶端類型和版本資訊。 視圖中的每一筆記錄都代表一個用戶端版本。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: bb17827f018919ba7b6088da884904a959bd6398
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 91f206a482803cbecd2704638cffdff1aec5c8c8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593477"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740309"
 ---
 # <a name="clientversions-view"></a>ClientVersions view
  

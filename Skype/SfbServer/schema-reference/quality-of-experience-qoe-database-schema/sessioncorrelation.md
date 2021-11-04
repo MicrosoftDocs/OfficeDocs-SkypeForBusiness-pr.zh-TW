@@ -1,7 +1,7 @@
 ---
 title: SessionCorrelation 表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
 description: SessionCorrelation 表格是支援的表格。 每筆記錄代表一個用於關聯多個會話的 CorrelationID。
-ms.openlocfilehash: a0ec0a2e1435aab02ba1733530271b2ad648869e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3b0e3208ec019d205ab74fec8318e0221b70b8ea
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634117"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771849"
 ---
 # <a name="sessioncorrelation-table"></a>SessionCorrelation 表格
  

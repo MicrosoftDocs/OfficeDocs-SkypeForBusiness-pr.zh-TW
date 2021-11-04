@@ -1,7 +1,7 @@
 ---
 title: 管理網路頻寬原則設定檔
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 使用本文中的程式來查看、建立、修改或刪除網路頻寬原則設定檔。
-ms.openlocfilehash: f8a710dffce93c7dc3a0c54be1e3830ce87f41de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4c109c5512bfc3e0876aef036b8bb645cd2791fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631617"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742119"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>管理商務用 Skype Server 中的網路頻寬原則設定檔
 

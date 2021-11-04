@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype 中設定語音信箱轉義
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 摘要：瞭解如何使用商務用 Skype Server 管理命令介面，在商務用 Skype Server 中設定語音信箱轉義。
-ms.openlocfilehash: 469353dba39b5f4f6b7e4cdd458862d068da97c0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3414b099587b45918b28ac3e11dcf75924f41dd6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597217"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740099"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>在商務用 Skype 中設定語音信箱轉義
 

@@ -1,7 +1,7 @@
 ---
 title: 拓撲產生器啟動對話方塊
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 啟動拓撲產生器以設定 Microsoft Lync Server 2013 部署的屬性和設定。 在啟動時，拓撲產生器會顯示一個對話方塊，詢問拓撲檔的來源。 您可以選取下列三個選項之一：
-ms.openlocfilehash: 79684328510afb702c99967646725b35c7776bfd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0d7f0dbba4ec46a94c231fd38605d8f739fd1aef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727652"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765611"
 ---
 # <a name="topology-builder-startup-dialog"></a>拓撲產生器啟動對話方塊
 
@@ -34,7 +34,7 @@ ms.locfileid: "58727652"
 
 ![拓撲產生器啟動對話方塊。](../../media/Topology_Builder_Startup_Dialog.jpg)
 
-## <a name="see-also"></a>也請參閱
+## <a name="see-also"></a>另請參閱
 
 [Lync Server 2013 預覽簡介](/previous-versions/office/lync-server-2013/lync-server-2013-introduction)
 

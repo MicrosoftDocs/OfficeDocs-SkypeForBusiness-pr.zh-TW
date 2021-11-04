@@ -1,7 +1,7 @@
 ---
 title: NetworkConnectionDetail 表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b48cc9a6-5232-48b5-bd20-53b68229336b
 description: NetworkConnectionDetail 表會將網路連線類型對應至其他在經驗品質資料庫中使用的網路連線識別碼。 此表格已引進 Microsoft Lync Server 2013。
-ms.openlocfilehash: d6e8bf04c8426a6278528de90f383c9867f92c8b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d629c3107aa52b06376974b385b874f6956d0156
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626445"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741789"
 ---
 # <a name="networkconnectiondetail-table"></a>NetworkConnectionDetail 表格
  

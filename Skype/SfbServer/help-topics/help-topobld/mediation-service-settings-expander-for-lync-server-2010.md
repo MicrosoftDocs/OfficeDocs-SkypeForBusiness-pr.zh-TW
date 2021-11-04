@@ -1,7 +1,7 @@
 ---
 title: 中繼服務設定展開工具 (適用於 Lync Server 2010)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
 description: 您可以透過定義下列內容來編輯中繼服務的內容：
-ms.openlocfilehash: 99443558dce6373063e060d9dec5a791ae41cee8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2eeda1d6746f4b09c16fb56deafca11a1dbd005e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616649"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778393"
 ---
 # <a name="mediation-service-settings-expander-for-lync-server-2010"></a>中繼服務設定展開工具 (適用於 Lync Server 2010)
  

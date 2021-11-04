@@ -1,7 +1,7 @@
 ---
 title: UserAgent 表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d6bda1c0-b053-457a-9ffa-2ae859788775
 description: UserAgent 表格是一種支援表格，可儲存已參與資料庫中記錄之會話的各種使用者代理程式清單。 資料表中的每一筆記錄都代表一個使用者代理程式
-ms.openlocfilehash: 0c23582550e659f4a48661c80770c385e168ed3c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e870e9d63f3d1c9e199df36c5225af704388746
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590057"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771819"
 ---
 # <a name="useragent-table"></a>UserAgent 表格
  

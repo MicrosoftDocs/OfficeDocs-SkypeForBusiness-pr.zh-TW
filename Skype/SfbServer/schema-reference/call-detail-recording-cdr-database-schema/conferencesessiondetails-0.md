@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 2015 中的 ConferenceSessionDetails 表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: 每筆記錄都代表一個會議工作階段，它可以是有「焦點」的工作階段，或是特定會議伺服器的工作階段。
-ms.openlocfilehash: e64f1d93714a89c8140d4e8f55d6aab8076ed88c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 087dd056dae0041ab63934b25038672a74410343
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615549"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759445"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 ConferenceSessionDetails 表格
  

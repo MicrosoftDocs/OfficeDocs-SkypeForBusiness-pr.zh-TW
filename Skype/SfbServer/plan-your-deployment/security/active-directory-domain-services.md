@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 的 Active Directory 網域服務
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Active Directory 網域服務可充當 Windows Server 2003 的目錄服務，Windows Server 2008，Windows Server 2012，及 Windows Server 2012 R2 網路。 Active Directory 網域服務也充當建立商務用 Skype Server 安全性基礎結構的基礎。 本節的目的是說明商務用 Skype Server 如何使用 Active Directory 網域服務，為 IM、Web 會議、媒體及語音建立信任的環境。 如需為 Active Directory 網域服務準備環境的詳細資訊，請參閱部署檔中的 Install 商務用 Skype Server。 如需 Windows Server 網路中之 Active Directory 網域服務角色的詳細資料，請參閱您所使用之作業系統版本的文件。
-ms.openlocfilehash: 4af4e4b4dd7a64dd133d36a55ca1c334a12fe97e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 496abf7f0210a1663c1158da56c8fb1cce66f068
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604652"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759465"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>商務用 Skype Server 的 Active Directory 網域服務
  
@@ -101,7 +101,7 @@ Active Directory 網域服務中的每個商務用 Skype Server 物件都有一�
     
 如果不符合這些條件，則伺服器就不受信任，其連線也會遭拒。 這種雙重需求可防止惡意伺服器企圖透過有效伺服器的 FQDN 採取的攻擊（如果不太可能）。
   
-此外，若要啟用 Microsoft Office 通訊伺服器 2007 R2 和 Microsoft Office 通訊伺服器2007部署，以與商務用 Skype Server 伺服器通訊，商務用 Skype Server 在樹系準備期間建立容器，以存放舊版版本的信任伺服器清單。 下表說明為與舊版部署相容而建立的容器。
+此外，若要啟用 Microsoft Office 通訊伺服器 2007 R2 和 Microsoft Office 通訊伺服器2007部署，以與商務用 Skype Server 伺服器通訊，商務用 Skype Server 在樹系準備期間建立容器，以存放信任的清單舊版本的伺服器。 下表說明為與舊版部署相容而建立的容器。
   
 **為與舊版相容的受信任伺服器清單及其 Active Directory 容器**
 

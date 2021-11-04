@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 25 中的使用者活動報告
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 摘要：瞭解商務用 Skype Server 中的使用者活動報告。
-ms.openlocfilehash: d2f303751219c0ba156f45d792196673a4283159
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d0021a1a8ab72da972c68da94a0a99b84eb7d28
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617869"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778333"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>商務用 Skype Server 中的使用者活動報告
 

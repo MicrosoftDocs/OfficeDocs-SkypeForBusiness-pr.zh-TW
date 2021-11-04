@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中的 IP 電話清查報告
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: 摘要：瞭解商務用 Skype Server 中的 IP 電話清查報告。
-ms.openlocfilehash: 00677d5ed31303cd87df6547d2cab99323f6ed53
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7c3854148c9eb04268c5a3491a6efb00168e5544
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630587"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740549"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 IP 電話清查報告
  

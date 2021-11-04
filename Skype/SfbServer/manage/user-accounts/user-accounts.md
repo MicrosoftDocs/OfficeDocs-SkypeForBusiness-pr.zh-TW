@@ -1,7 +1,7 @@
 ---
 title: 管理商務用 Skype Server 的使用者帳戶
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: 本文中的各節說明如何啟用、暫時停用或移除 Active Directory 使用者商務用 Skype Server。
-ms.openlocfilehash: 8e33d22c8a4e3359a7fdbbb4c8420f3a0e65f5a4
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: e079895d80366ecbd6a10be864b78b0d625e495a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015157"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742079"
 ---
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>管理商務用 Skype Server 的使用者帳戶
 

@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server監控規劃工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9bbe86d0-b51a-4787-9029-d59e73c7906a
 description: 在商務用 Skype Server 中，監控是用來收集使用狀況資訊和經驗品質 (QoE 有關您的使用者所參與之通訊會話的) 資料。
-ms.openlocfilehash: 679dcd2fd6d2ca34178ccabbce377e76896aea55
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6811531c4e1197c7643fad4492e5349a5c231544
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627355"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738379"
 ---
 # <a name="skype-for-business-server-monitoring-planning-tool"></a>商務用 Skype Server監控規劃工具
 

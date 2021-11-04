@@ -1,7 +1,7 @@
 ---
 title: 在阿爾巴尼亞的可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: a886e43ead05024e745d960db51d38e038e7730d
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 423c8c690c99e30dcd0e02851485015f11611a79
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733823"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759325"
 ---
 # <a name="availability-in-albania"></a>在阿爾巴尼亞的可用性
 
@@ -70,7 +70,7 @@ ms.locfileid: "60733823"
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？   | 地拉那 <br/> |
 |有提供付費電話號碼嗎？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
-|免付費號碼是否可用？  <br/> |否  <br/> |
+|是否提供免付費號碼？  <br/> |否  <br/> |
    
  如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
   

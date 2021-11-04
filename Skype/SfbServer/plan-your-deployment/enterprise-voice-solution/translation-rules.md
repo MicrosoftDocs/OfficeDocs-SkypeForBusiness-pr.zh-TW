@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中的轉譯規則
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: 瞭解商務用 Skype Server 企業語音中的轉譯規則和撥號字串正常化。
-ms.openlocfilehash: 94e5fdf3428694f672622c62b76e81886afe1682
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 535b98c53367689d3b3002fdda14fb8a706a7f3a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606072"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746719"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>商務用 Skype Server 中的轉譯規則
 
@@ -42,5 +42,5 @@ ms.locfileid: "58606072"
 
 |**描述**|**開頭數字**|**Length**|**要移除的數字**|**要加入的數字**|**比對模式**|**轉換**|**範例**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|美國的傳統長途撥號  <br/>  (抽出 ' + ' )   <br/> |+ 1  <br/> |剛好 12 個  <br/> |1   <br/> |0  <br/> |^\+ (1 維 {10}) $  <br/> |$1  <br/> |+14255551010 變成 14255551010  <br/> |
-|美國國際長途撥號  <br/>  (拆除 ' + ' 並新增 011)   <br/> |+  <br/> |至少 11 個  <br/> |1   <br/> |011  <br/> |^\+ ( \d {9} \d +) $  <br/> |011 $ 1  <br/> |+441235551010 變成 011441235551010  <br/> |
+|美國的傳統長途撥號  <br/>  (抽出 ' + ' )   <br/> |+ 1  <br/> |剛好 12 個  <br/> |1  <br/> |0  <br/> |^\+ (1 維 {10}) $  <br/> |$1  <br/> |+14255551010 變成 14255551010  <br/> |
+|美國國際長途撥號  <br/>  (拆除 ' + ' 並新增 011)   <br/> |+  <br/> |至少 11 個  <br/> |1  <br/> |011  <br/> |^\+ ( \d {9} \d +) $  <br/> |011 $ 1  <br/> |+441235551010 變成 011441235551010  <br/> |

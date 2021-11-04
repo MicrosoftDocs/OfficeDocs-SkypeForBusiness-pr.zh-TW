@@ -1,7 +1,7 @@
 ---
 title: '用戶端設定 (規劃工具) '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
 description: 商務用 Skype Server 25 中的行動功能可支援行動裝置上商務用 Skype 功能。 如需詳細資訊，請參閱規劃行動性。
-ms.openlocfilehash: a2cb4fa0cddd712aa542841da2760dea0fbfca77
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e54ba72d2b605c791738d43a3948e4b9b68d2549
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604092"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752572"
 ---
 # <a name="client-settings-planning-tool"></a>用戶端設定 (規劃工具) 
 

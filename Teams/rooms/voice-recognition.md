@@ -1,14 +1,14 @@
 ---
-title: 租使用者系統管理在 (語音設定檔) 語音Teams 會議室
-author: cichur
-ms.author: serdars
+title: 租使用者系統管理在 (語音設定檔) 語音辨識Teams 會議室
+author: serdars
+ms.author: v-mahoffman
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解在會議室中 (語音設定檔) 的租Teams控制項。
+description: 瞭解租使用者系統管理在會議室 (語音設定檔) 語音Teams控制項。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,25 +16,25 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b42d60b644d202abecd061e5cece9169cd184a7d
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 8e78ab7b7a2448ebb996a1c04e95bc22049954b4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605849"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759225"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智慧型喇叭的語音辨識技術控制項
 
-智慧型喇叭會使用語音設定檔資訊來識別誰在即時抄寫中表達內容。 當Microsoft Teams 會議室會議室Windows配備智慧型演講者時，可在會議期間使用即時抄寫。 本文說明租使用者系統管理員如何控制用於語音辨識的語音分析，以產生即時抄寫。 您可以控制組織使用語音辨識的程度，以及下列功能：
+智慧型喇叭會使用語音設定檔資訊來識別誰在即時抄寫中表達內容。 當Microsoft Teams 會議室會議室Windows配備智慧型演講者時，可在會議期間使用即時抄寫。 本文將說明租使用者系統管理員如何控制用於語音辨識的語音分析，以產生即時抄寫。 您可以控制組織使用語音辨識的程度，以及下列功能：
 
 - 在文字記錄中編輯演講者的名稱。
-- 變更文字記錄中單一詞的演講者，或變更文字記錄中所有片語中的演講者 (但不要變更) 。
-- 變更會議所列人員的演講者識別。
+- 變更文字記錄中單字的演講者，或變更文字記錄中所有片語中的演講者 (但不要變更) 。
+- 變更會議中列出的人員之演講者識別。
 - 移除每個文字記錄上識別為該演講者的一或多個片語識別。
 
 ## <a name="review-intelligent-speaker-requirements"></a>審查智慧型喇叭需求
 
-智慧型喇叭包含特殊的七麥克風陣列。 系統使用語音設定檔資訊來識別會議室中最多 10 個人的聲音。
+智慧型喇叭包含特殊的七麥克風陣列。 系統使用語音設定檔資訊來識別會議室中最多 10 人的聲音。
 
 下列專案為智慧型喇叭需求：
 
@@ -42,11 +42,11 @@ ms.locfileid: "60605849"
 - 會議室最多應有 10 個人出席。
 - 會議室的上傳連結至少為 7Mbps。
 
- <sup>1</sup> 智慧型喇叭和相關語音設定檔及使用方式僅以 EN-US 語言提供，且適用于美國 (NA-US 地區) 租使用者。 租使用者使用者註冊並使用智慧型喇叭進行屬性化抄寫時，這兩個條件都必須成立。
+ <sup>1</sup> 智慧型喇叭和相關語音設定檔及使用方式僅適用于 EN-US 語言，且適用于美國 NA-US 地區 (租使用者) 使用。 租使用者使用者註冊並使用智慧型喇叭進行屬性化抄寫時，這兩個條件都必須成立。
 
 ## <a name="set-up-an-intelligent-speaker"></a>設定智慧型喇叭
 
-智慧型喇叭會使用 USB 直接連接到Teams 會議室主機。 為了獲得最佳結果，Yealink 品牌智慧型喇叭應該與 Yealink 品牌主機一起使用。
+智慧型喇叭會使用 USB 直接連接到Teams 會議室主機。 為了獲得最佳結果，應該使用 Yealink 品牌智慧型喇叭與 Yealink 品牌主控台。
 
 > [!NOTE]
 > Yealink 智慧喇叭 **必須與** Yealink 主機一起使用。
@@ -54,7 +54,7 @@ ms.locfileid: "60605849"
 > [!NOTE]
 > 我們不支援連接到 Logitech Surface Pro Microsoft Teams 會議室。 有一個已知Teams 會議室無法透過基座識別智慧型喇叭。
 
-智慧型喇叭應放在至少 8 (20 公) ，遠離牆面和大型物件 ，例如膝上型電腦。 如果智慧型喇叭 USB 纜線不夠長，無法用於您的設定，請使用纜線延伸器。
+智慧型喇叭應置於至少 8 (20 公) ，遠離牆面和大型物件 ，例如膝上型電腦。 如果智慧型喇叭 USB 纜線不夠長，無法用於您的設定，請使用纜線延伸器。
 
 1. 以系統管理員的登錄主機。
 2. 設定Teams設定，以配合智慧型喇叭麥克風和喇叭。
@@ -62,7 +62,7 @@ ms.locfileid: "60605849"
 
    圖表顯示智慧型喇叭如何連接到裝置 ，如果裝置包含資料方塊。
 
-   ![智慧型喇叭設定與喇叭、電源和資料方塊。其中一條線會進入主機的 USB 埠，另一條線則進入電源。](../media/intelligent-speakers1.png)
+   ![智慧型喇叭設定與喇叭、電源和資料方塊。一條線會進入主機的 USB 埠，另一條線則進入電源。](../media/intelligent-speakers1.png)
 
    圖表顯示如果裝置不包含資料方塊，智慧型喇叭如何連接到裝置。
 
@@ -73,7 +73,7 @@ ms.locfileid: "60605849"
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>啟用智慧型喇叭使用者識別
 
-語音設定檔資料可用於使用智慧型喇叭的任何會議。 請參閱[Teams和](../meetings-policies-recording-and-transcription.md#allow-transcription) [PowerShell 會議 Cmdlet，](/powershell/module/skype/set-csteamsmeetingpolicy)以瞭解會議設定的資訊。
+語音設定檔資料可用於任何使用智慧型喇叭的會議。 請參閱[Teams和](../meetings-policies-recording-and-transcription.md#allow-transcription) [PowerShell 會議 Cmdlet，](/powershell/module/skype/set-csteamsmeetingpolicy)以瞭解會議設定的資訊。
 
 當策略設定為區分時，或非會議受邀者在會議期間逐步加入時，即會建立使用者的語音設定檔資料。 語音設定檔資料在會議結束時會關閉。
 
@@ -81,12 +81,12 @@ ms.locfileid: "60605849"
 
 |政策|描述|值與行為|
 |-|-|-|
-|註冊UserOverride|在租使用者Teams設定中設定語音設定檔捕獲或註冊。 |**已停用**<br><ul><li> 從未註冊的使用者無法查看、註冊或重新註冊。<li>註冊流程的進入點將會隱藏。<li>如果使用者選取註冊頁面的連結，就會看到一則訊息，指出其組織未啟用此功能。  <li>已註冊的使用者可以在設定中查看和移除Teams設定檔。 移除語音設定檔後，他們將無法查看、存取或完成註冊流程。</li></ul><br>**啟用**<br><ul><li> 使用者可以查看、存取及完成註冊流程。<li>進入點會顯示在 Teams 的設定 **頁面上**。</li></ul>|
-|roomAttributeUserOverride|控制會議室中的語音使用者識別。 此設定適用于Teams 會議室帳戶。| **關閉**<br><ul><li>Teams 會議室裝置不會從會議室傳送音訊串流節省頻寬。 <li>會議室使用者不會受到屬性或區分，而且不會取回或使用他們的語音簽名。<li>會議室使用者不明。</li></ul> <br>**屬性**<br><ul><li>會議室使用者會依據他們的註冊狀態來屬性。<li>註冊的使用者在文字翻譯中會顯示其名稱。  <li>未註冊的使用者會顯示為演講者 \<n> 。<li>Teams 會議室裝置會從會議室傳送七個音訊資料流程。</ul> <br>**區分**<br> <ul><li>會議室使用者會以喇叭 1、喇叭 2、....喇 \<n> 叭。</li><li>無論使用者的註冊狀態為何，其名稱不會顯示在文字翻譯中。</li><li>Teams 會議室裝置會從會議室傳送七個音訊資料流程。</li></ul>
+|註冊UserOverride|在租使用者Teams設定中設定語音設定檔捕獲或註冊。 |**已停用**<br><ul><li> 從未註冊的使用者無法查看、註冊或重新註冊。<li>註冊流程的進入點將會隱藏。<li>如果使用者選取註冊頁面的連結，就會看到一則訊息，指出其組織尚未啟用此功能。  <li>已註冊的使用者可以在設定中查看和移除Teams設定檔。 移除語音設定檔後，他們將無法查看、存取或完成註冊流程。</li></ul><br>**啟用**<br><ul><li> 使用者可以查看、存取及完成註冊流程。<li>進入點會顯示在 Teams 的設定 **頁面上**。</li></ul>|
+|roomAttributeUserOverride|控制會議室中的語音使用者識別。 此設定適用于Teams 會議室帳戶。| **關閉**<br><ul><li>Teams 會議室裝置不會從會議室傳送音訊串流節省頻寬。 <li>會議室使用者不會被屬性或區分，而且他們的語音簽名也不會被取回或使用。<li>會議室使用者不明。</li></ul> <br>**屬性**<br><ul><li>會議室使用者會依據他們的註冊狀態來屬性。<li>註冊的使用者在文字翻譯中會顯示其名稱。  <li>未註冊的使用者會顯示為演講者 \<n> 。<li>Teams 會議室裝置會從會議室傳送七個音訊流。</ul> <br>**區分**<br> <ul><li>會議室使用者會以喇叭 1、喇叭 2、....喇 \<n> 叭。</li><li>無論使用者的註冊狀態為何，其名稱不會顯示在文字翻譯中。</li><li>Teams 會議室裝置會從會議室傳送七個音訊流。</li></ul>
 |AllowTranscription|使用者和會議室帳戶Teams必填專案。|**True** 和 **False**|
 ||||
 
-在系統管理Teams中，設定 **允許抄寫** 政策。 設定預設 **為關閉**。
+在系統管理Teams中，設定允許 **抄寫** 政策。 設定預設 **為關閉**。
 
 ![系統管理中心，且會議政策已強調，且已選取允許抄寫。](../media/allow-transcription1.png)
 
@@ -98,17 +98,17 @@ ms.locfileid: "60605849"
 
 **什麼是保留時間表和策略？**
 
-資料保留概觀中會說明一 [般保留政策](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。 此外，如果使用者未在 3 年內受邀參加智慧型喇叭的任何會議，使用者的語音設定檔資料將在 3 年後刪除。 資料不會用於現有員工的任何會議。 如果員工離職，語音設定檔資料會視為使用者內容，Office 365資料保留概觀中所述的資料保留[政策視為使用者內容](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。
+資料保留概觀中會說明一 [般保留政策](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。 此外，如果使用者未在 3 年內受邀參加智慧型喇叭的任何會議，使用者的語音設定檔資料將在 3 年後刪除。 資料不會用於現有員工的任何會議。 如果員工離職，語音設定檔資料會視為使用者內容，並且根據資料保留概觀所述Office 365資料保留政策視為[使用者內容](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。
 
 **語音設定檔資料是否用於Microsoft 服務？**
 
-否，語音設定檔資料只會用於使用者提供同意的目的。 Microsoft 不會使用語音設定檔資料，除非Teams語音辨識案例。
+否，語音設定檔資料只會用於使用者提供同意的目的。 Microsoft 不會使用語音設定檔資料，除非在語音Teams情況中。
 
 例如，Microsoft 不會在下列情況下使用資料：
 
 **當我加入另一個組織的會議時，是否使用我的語音設定檔資料？**
 
-只有貴組織中使用者所組織的會議才不一樣。
+不只在貴組織中由使用者組織的會議中。
 
 **如何匯出語音設定檔？**
 

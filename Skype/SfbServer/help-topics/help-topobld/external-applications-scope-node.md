@@ -1,7 +1,7 @@
 ---
 title: 外部應用程式範圍節點
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 description: '[信任的應用程式伺服器] 節點列出在此網站的信任應用程式集區。 [信任的應用程式集區] 包含執行「信任的 Microsoft 整合通訊」應用程式，但不會執行商務用 Skype Server 角色的伺服器。 您可以執行下列動作：'
-ms.openlocfilehash: 8405da6646c363d296fa1692ea81c0aed6f293cb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8209c87725ddf69b27185fe9d7c27455cf95d055
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600248"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765721"
 ---
 # <a name="external-applications-scope-node"></a>外部應用程式範圍節點
  

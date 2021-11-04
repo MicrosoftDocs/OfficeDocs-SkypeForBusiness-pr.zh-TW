@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中規劃 PSTN 連線能力
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: 在商務用 Skype Server 的企業語音中規劃 PSTN 連線性。
-ms.openlocfilehash: 803b613e3b78465f1dd8d9d04fd552b8bee553d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3cbc7c6a6069fef3a8898121dba287edcec5b4c6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593537"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746759"
 ---
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃 PSTN 連線能力
  

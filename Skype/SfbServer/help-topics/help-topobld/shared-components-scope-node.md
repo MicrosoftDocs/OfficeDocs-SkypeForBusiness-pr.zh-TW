@@ -1,7 +1,7 @@
 ---
 title: 共用元件範圍節點
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 description: 您可以在拓撲產生器階層樹狀目錄中，以滑鼠右鍵按一下 [共用元件]，以建立新的共用元件或存取拓撲層級選項。
-ms.openlocfilehash: 9090ced9082a989fdb2894b94b6ce4caf1609937
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 770db8099e670837343b7925d5bfd8a6eca29628
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726002"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740659"
 ---
 # <a name="shared-components-scope-node"></a>共用元件範圍節點
  

@@ -1,7 +1,7 @@
 ---
 title: 移除部署簡介
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 description: 只有在您想要解除委任整個部署時，才執行移除部署嚮導。 這個嚮導會建立由單一前端伺服器組成的空拓撲。 在您執行此嚮導併發布空的拓撲之後，就無法還原為原始的拓撲。
-ms.openlocfilehash: 95c38ceb431c575094c2270c43ce204f5aadc578
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 175a21a0cc113f17f21f076185bf9780e648b7f5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634317"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747459"
 ---
 # <a name="remove-deployment-introduction"></a>移除部署簡介
  

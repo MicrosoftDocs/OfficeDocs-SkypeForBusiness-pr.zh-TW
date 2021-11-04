@@ -1,7 +1,7 @@
 ---
 title: 管理商務用 Skype Server 中封存資料的清除
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 摘要：瞭解如何管理商務用 Skype Server 的封存資料清除。
-ms.openlocfilehash: b071a464ab6c31d64441f06d73493c2bdbbf607a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e5800711756fcccde90ba9907adbe1e9309a677b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587205"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778353"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>管理商務用 Skype Server 中封存資料的清除
 

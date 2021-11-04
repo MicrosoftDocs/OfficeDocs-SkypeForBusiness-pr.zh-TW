@@ -1,7 +1,7 @@
 ---
 title: 新增視訊閘道 IP
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: edc4cc21-7803-400d-8152-595228a3d27d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 [拓撲產生器] 中定義新的 VIS 或視頻閘道所需的步驟，在商務用 Skype Server 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: c911b94184eb2f7ed4a83827d207543e1ba5cd0a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 277a347d4f93acd9ff0f9eed750032b03c659475
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605282"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738299"
 ---
 # <a name="add-video-gateway-ip"></a>新增視訊閘道 IP
  

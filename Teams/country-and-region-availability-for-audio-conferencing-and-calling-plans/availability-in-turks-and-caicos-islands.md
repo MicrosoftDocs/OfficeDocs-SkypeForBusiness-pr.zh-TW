@@ -1,7 +1,7 @@
 ---
 title: 土克斯及開科斯群島的可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于土耳其Microsoft 365 Office 365群島商務用 Skype Microsoft Teams和群島的一些服務。
-ms.openlocfilehash: 6686a0a8b3207307fc8f905ae009786d68f89049
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是適用于Microsoft 365群島Office 365群島商務用 Skype和Microsoft Teams的Microsoft Teams服務。
+ms.openlocfilehash: 965d77110919d382033fc1c7a32b9545ef1666d3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582367"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741699"
 ---
 # <a name="availability-in-turks-and-caicos-islands"></a>土克斯及開科斯群島的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于土耳其Microsoft 365 Office 365群島商務用 Skype Microsoft Teams和群島的一些服務。
+以下是適用于Microsoft 365群島Office 365群島商務用 Skype和Microsoft Teams的Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

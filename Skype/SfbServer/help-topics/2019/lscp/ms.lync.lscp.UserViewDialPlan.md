@@ -1,7 +1,7 @@
 ---
 title: 使用者查看或設定撥號對應表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 6e27e09ee82d909e1aed7eabe33dc4bd879aab5d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 498394e4f594007f8de707c2de0ced1cb844524f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614741"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752722"
 ---
 # <a name="users-view-or-configure-dial-plan"></a>使用者：檢視或設定撥號對應表
 

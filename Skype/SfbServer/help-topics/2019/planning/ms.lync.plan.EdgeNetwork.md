@@ -1,7 +1,7 @@
 ---
 title: 'Edge Network (規劃工具) '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 大部分的 Edge 元件都是部署在周邊網路中。 下列元件組成周邊網路的 Edge 拓撲。 除了另有說明之外，元件是商務用 Skype Server 中的 Edge Server 案例的一部分，且位於周邊網路中。 Edge 元件包括：
-ms.openlocfilehash: dd53b8526ffa2610ad279584464ba3b77e155b34
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d216b76e88eb4e7e7499315a0ec33db1f1761767
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583007"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752552"
 ---
 # <a name="edge-network-planning-tool-in-skype-for-business"></a>商務用 Skype 中的 Edge Network (規劃工具)  
  

@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中的 Persistent Chat Server 相容性資料表清單
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
 description: Persistent Chat 規範資料庫架構是由下清單格所組成。
-ms.openlocfilehash: 35bf930d4af5231040b30d8cbe8b8663e33bc3fc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 673fe278f4b68af5e5d46925a6ef6184cb8cd47b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620879"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771889"
 ---
 # <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>商務用 Skype Server 中的 Persistent Chat Server 相容性資料表清單
  
@@ -26,7 +26,7 @@ Persistent Chat 規範資料庫架構是由下清單格所組成。
   
 ## <a name="list-of-persistent-chat-server-compliance-tables"></a>Persistent Chat Server 相容性表格清單
 
-|**表格**|**描述**|
+|**Table**|**描述**|
 |:-----|:-----|
 |[tblComplianceData](tblcompliancedata.md) <br/> |包含已設定之介面卡尚未處理的規範事件。  <br/> 此表格包含持續聊天相關的事件，例如聊天訊息和檔案下載。  (參與者事件會由 tblComplianceParticipant 表追蹤。 )   <br/>  (處理此表中之事件的伺服器會列在 tblComplianceFanout 表格中。 )   <br/> |
 |[tblComplianceFanout](tblcompliancefanout.md) <br/> |包含處理規範事件的伺服器。 此表格與 tblComplianceData 表格緊密結合。  <br/> |

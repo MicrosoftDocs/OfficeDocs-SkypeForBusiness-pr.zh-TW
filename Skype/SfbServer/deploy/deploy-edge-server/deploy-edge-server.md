@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中部署 Edge Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: 摘要：瞭解如何在商務用 Skype Server 環境中部署 edge Server 或 edge 集區。
-ms.openlocfilehash: a956f82b3ef5e6b0860a160b264b365dc0f0aa06
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 701b1d0280360f91e9f89898e956da5e24161692
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579367"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740109"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 Edge Server
  

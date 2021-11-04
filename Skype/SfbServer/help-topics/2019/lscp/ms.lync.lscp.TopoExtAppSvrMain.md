@@ -1,7 +1,7 @@
 ---
 title: 拓撲信任的應用程式
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: eb6185c3-c162-4250-9ec3-11cdd8191287
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 8eb20143f955ceb6c806cc6a77c055544b47a701
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0f455e734183e4a44bbe66f9abda211f8bf82958
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581017"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752858"
 ---
 # <a name="topology-trusted-application"></a>拓撲：信任的應用程式
 

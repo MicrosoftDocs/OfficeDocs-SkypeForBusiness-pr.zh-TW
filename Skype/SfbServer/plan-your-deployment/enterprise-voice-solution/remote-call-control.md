@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype 中規劃遠端呼叫控制
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
 description: 遠端呼叫控制是舊版 Lync Server 中的功能，可讓使用者透過 Lync Server 控制其 PBX 電話。 在商務用 Skype Server 中，此功能已由「透過運作」的呼叫取代。 在商務用 Skype Server 2015 的用戶端版本中，接著向前，用戶端的遠端呼叫控制已無法在用戶端中進行設定，已將其移除，可供使用。
-ms.openlocfilehash: de06005cb26e163a6f7f26c64e6863b6e6f4acbb
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 23d8f25f4a416c10bf4fd186db68a729703891ca
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015287"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746739"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>在商務用 Skype 中規劃遠端呼叫控制
  

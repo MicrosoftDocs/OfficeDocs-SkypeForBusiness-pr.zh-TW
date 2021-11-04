@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中監視行動服務和 UCWA 使用狀況
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: 摘要：在商務用 Skype Server 中管理行動服務 (Mcx) 和整合通訊網頁 API (UCWA) 。
-ms.openlocfilehash: a9cc79e523c3ba6671df302d844dc5e05d3bae28
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 370e2e2fb8707f7d893747a0ffbcfe85f2612dd8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608160"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742139"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>在商務用 Skype Server 中監視行動服務和 UCWA 使用狀況
  
