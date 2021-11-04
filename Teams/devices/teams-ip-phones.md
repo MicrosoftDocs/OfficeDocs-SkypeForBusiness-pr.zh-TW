@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: 6be1415d752bdde9afd6c34419b94912a61eb35d
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: a69393b4f433a5a057a4481db04e97eafee47f3f
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733704"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60785056"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認證的裝置
 
@@ -106,6 +106,7 @@ Microsoft Teams認證程式可確保品質較高的資料條具有更高的績�
 
 | 產品發行 | 發行日期  | Microsoft Teams應用程式版本 | 公司入口網站版本 | 系統管理代理程式版本 |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 更新 #3  | 2021 年 11 月 3 日   | 1449/1.0.94.2021101205 | 5.0.5304.0 | 298 |
 | 2021 更新#2A | 2021 年 6 月 10 日  |`1449/1.0.94.2021052803`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
 | 2021 更新 #2  | 2021 年 6 月 8 日  |`1449/1.0.94.2021051303`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
 | 2021 更新#1A | 2021 年 4 月 5 日  |`1449/1.0.94.2021033002`|  `5.0.5045.0` |  `1.0.0.202101280722.product (253)` |
@@ -122,6 +123,16 @@ Microsoft Teams認證程式可確保品質較高的資料條具有更高的績�
 
 | 裝置模型        | 固件版本     | 已包含產品發行  |
 |:--------------------|:---------------------|:-------------------------|
+|音訊代碼 C448HD  | C448HD_TEAMS_1.14.449 | 2021 更新 #3  |
+|音訊代碼 C450HD  | C450HD_TEAMS_1.14.449 | 2021 更新 #3  |
+|音訊代碼 C470HD  | C470HD_TEAMS_1.14.449 | 2021 更新 #3  |
+|Poly Trio C60      | 7.1.3.0985            | 2021 更新 #3  |
+|Poly CCX400/CCX500/CCX600 | 7.1.3.0991     | 2021 更新 #3  |
+|Cresron UC-2      | 1.0.4.57              | 2021 更新 #3  |
+|Yealink T55A/T56A/T58A   | 58.15.0.143     | 2021 更新 #3  |
+|Yealink MP54/MP56/MP58   | 122.15.0.60     | 2021 更新 #3  |
+|Yealink VP59             | 91.15.0.77      | 2021 更新 #3  |
+|Yealink CP960            | 73.15.0.139     | 2021 更新 #3  |
 | Poly Trio C60   | `7.0.3.0517`  | 2021 更新 #2                        |
 | Poly CCX400/CCX500/CCX600   | `7.0.3.0515` | 2021 更新 #2                     |
 | 音訊代碼 C448HD/C450HD/C470HD   | `1.10.143`  | 2021 更新 #2           |
@@ -150,13 +161,13 @@ Microsoft Teams認證程式可確保品質較高的資料條具有更高的績�
 | Yealink VP59        | `91.15.0.54`         | 2020 更新 #7           |
 | Yealink CP960       | `73.15.0.115`      | 2020 更新 #7           |
 
-請參閱[Microsoft Teams手機](phones-for-teams.md)功能集，以瞭解這些裝置支援的功能。
+請參閱[Microsoft Teams](phones-for-teams.md)手機功能集，以瞭解這些裝置支援的功能。
 
 請參閱[Microsoft Teams顯示](teams-displays.md)。
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 版產品Teams 會議室資訊
 
-以下是 Android App 和Teams 會議室版本的最新功能。
+以下是 Android 應用程式Teams 會議室的最新版本。
 
 #### <a name="app-versions"></a>應用程式版本
 
@@ -172,7 +183,7 @@ Microsoft Teams認證程式可確保品質較高的資料條具有更高的績�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。  然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行 |
 |:--------------|:-----------------|:-------------------------|
@@ -213,7 +224,7 @@ Microsoft Teams認證程式可確保品質較高的資料條具有更高的績�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。  然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行|
 |:--------------|:-----------------|:-------------------------|
@@ -232,7 +243,7 @@ Microsoft Teams認證程式可確保品質較高的資料條具有更高的績�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。  然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行|
 |:--------------|:-----------------|:-------------------------|
@@ -244,11 +255,11 @@ Microsoft Teams認證程式可確保品質較高的資料條具有更高的績�
 
 ## <a name="more-resources"></a>更多資源
 
-請參閱[Microsoft Teams](phones-for-teams.md)手機功能集，以瞭解這些裝置支援的功能相關資訊。
+請參閱[Microsoft Teams](phones-for-teams.md)手機功能集，以瞭解這些裝置支援的功能。
 
 請參閱 [尋找行動裝置上的固件版本](phones-for-teams.md) ，以判斷行動裝置上的裝置固件版本。
 
-Microsoft Teams授權可以購買為訂閱或[Microsoft 365 Office 365的一部分](/office365/servicedescriptions/teams-service-description)。 若要深入瞭解在手機上使用Microsoft Teams所需的授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft Teams授權可以在訂閱或訂閱[Microsoft 365 Office 365購買](/office365/servicedescriptions/teams-service-description)。 若要深入瞭解在手機上使用手機Microsoft Teams授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
 
 若要進一Teams，請參閱如何[存取Microsoft Teams？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 

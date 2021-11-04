@@ -1,7 +1,7 @@
 ---
-title: 在系統管理中心的活動記錄中Microsoft Teams您的Microsoft Teams作業
-author: serdars
-ms.author: serdars
+title: 在系統管理中心的活動記錄中Microsoft Teams作業
+author: HowlinWolf-92
+ms.author: v-mahoffman
 ms.reviewer: jastark
 manager: serdars
 ms.topic: article
@@ -18,16 +18,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21caf6d694c201b12527b4be3f33856b887d177b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9c48e6b8ea08419b96384be5e19ba1a7d5275dea
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743079"
+ms.locfileid: "60785066"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>在活動記錄中查看您的策略指派
 
-當您在系統管理中心指派Microsoft Teams，您可以在活動記錄中查看那些策略指派的狀態。 活動記錄會顯示過去 30 天內透過系統管理中心Microsoft Teams超過 20 個使用者批次的策略指派。 請記住，活動記錄不會顯示策略套件指派、透過 Microsoft Teams 系統管理中心分批指派給少於 20 個使用者，或透過 PowerShell 顯示策略指派。
+當您在系統管理中心指派Microsoft Teams，您可以在活動記錄中查看那些策略指派的狀態。 活動記錄會顯示過去 30 天內透過系統管理中心Microsoft Teams超過 20 個使用者批次的策略指派。 請記住，活動記錄不會顯示策略套件指派、透過 Microsoft Teams 系統管理中心將策略指派給少於 20 位使用者的批次，或透過 PowerShell 進行策略指派。
 
 ![活動記錄頁面的螢幕擷取畫面。](media/activity-log.png)
 
@@ -36,7 +36,7 @@ ms.locfileid: "60743079"
 若要在活動記錄中查看您的策略指派：
 
 1. 在系統管理中心的左側導Microsoft Teams，請前往首頁，然後在活動記錄 **下，選取** 查看 **詳細資料**。
-2. 您可以查看所有策略作業，或根據狀態篩選清單，只顯示尚未開始、進行中或已完成 **的作業**。 您會看到每個作業的下列資訊：
+2. 您可以查看所有策略作業，或根據狀態篩選清單，只顯示尚未開始、進行中或已完成 **的作業**。 您將看到每個作業的下列資訊：
     - **名稱**：策略指派的名稱。 按一下連結以查看更多詳細資料。 這包括已指派策略的使用者數目，以及已完成、進行中及尚未開始的指派數目。 您也會看到批次中的使用者清單，以及每個使用者的狀態和結果。 以下是範例：
 
         ![的螢幕擷取畫面。](media/activity-log-policy-assignment-detail.png)

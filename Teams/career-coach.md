@@ -16,23 +16,23 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33286dccf3d54ac694b4d74b736b6d899c035aa8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f23f00249c23acb8397127bd51fd05206ce2f3f6
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760541"
+ms.locfileid: "60785086"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>購買、設定及啟用職涯教練Microsoft Teams
 
-職涯教練是一Microsoft Teams 教育版由 LinkedIn提供個人化指引的 App，為高教學生流覽其事業歷程提供個人化指引。 職涯教練為教育機構提供統一的生涯解決方案，讓學生探索其事業路徑、培養實際技能，以及將網路全部建在一個地方。
+職涯教練是一Microsoft Teams 教育版由 LinkedIn提供的應用程式，提供個人化指引給高教學生，以流覽其事業歷程。 職涯教練為教育機構提供統一的生涯解決方案，讓學生探索其事業路徑、培養實際技能，以及將網路全部建在一個地方。
 
 ## <a name="supported-languages"></a>支援的語言
 
 職涯教練語言進行當地語系化：
 
 - 中文 (簡體、大陸) 
-- 繁 (，臺灣) 
+- 繁 (傳統、臺灣) 
 - 英文 (英文) 
 - 英國 (英文) 
 - 加拿大 (法文) 
@@ -50,7 +50,7 @@ ms.locfileid: "60760541"
 
 ## <a name="review-the-requirements"></a>審查需求
 
-若要為職涯教練啟用應用程式，請審查讓應用程式啟動及運作所需的內容。
+若要為職涯教練啟用應用程式，請複習讓應用程式啟動及運作所需的內容。
 
 **技術需求**
 
@@ -81,13 +81,13 @@ ms.locfileid: "60760541"
 
 - 教育機構的隱私權政策 URL。
 
-- 教育機構連結至與職系相關的資源，例如職系服務和學生工作張貼 (選擇) 。
+- 教育機構連結至職系相關資源，例如職系服務和學生工作張貼 (選擇) 。
 
 - LinkedIn Learning校園訂閱 (為) 。
 
 ## <a name="purchase-the-career-coach-licenses"></a>購買職涯教練授權
 
-職涯教練 (除了中國及俄羅斯) 之外，透過註冊教育版解決方案 (EES) 、雲端服務提供者 (雲端解決方案提供者) 和 Microsoft 365 系統管理中心 (Web 直接) 提供附加授權。 客戶Microsoft Teams應用程式，必須擁有 Microsoft 365 A3/A5 或 Office 365 A1/A3/A5 才能購買附加元件職涯教練授權。
+職涯教練 (除了中國與俄羅斯) 之外，還透過註冊教育版解決方案 (EES) 、雲端服務提供者 (雲端解決方案提供者) 和 Microsoft 365 系統管理中心 (Web 直接) 提供附加授權。 做為Microsoft Teams應用程式，客戶必須擁有 Microsoft 365 A3/A5 或 Office 365 A1/A3/A5 才能購買附加元件職涯教練授權。
 
 ### <a name="assign-app-licenses-to-users"></a>指派應用程式授權給使用者
 
@@ -95,15 +95,15 @@ ms.locfileid: "60760541"
 
 ### <a name="turn-on-linkedin-account-connections"></a>開啟LinkedIn帳戶連結
 
-職涯教練 **要求** 教育機構的使用者能夠將他們的 Microsoft 365 帳戶連接到LinkedIn內可職涯教練。
+職涯教練 **要求** 教育機構的使用者能夠將他們的 Microsoft 365 帳戶LinkedIn在 職涯教練 中職涯教練。
 
-1. 使用一個[Azure AD](https://aad.portal.azure.com/)全域系統管理員的帳戶，Azure AD中心。
+1. 使用一個[Azure AD](https://aad.portal.azure.com/)組織全域系統管理員的帳戶，Azure AD中心。
 
 2. 選取 **使用者**。
 
 3. 在使用者 **頁面上** ，選取 使用者 **設定**。
 
-4. **LinkedIn帳戶連結** 必須設為是或已選取群組 **，職涯教練** 正確設定。
+4. **LinkedIn帳戶連結** 必須設為是或已選取 **群組，職涯教練** 正確設定。
 
    ![整合LinkedIn中的帳戶連結](/azure/active-directory/enterprise-users/media/linkedin-integration/linkedin-integration.png)
 
@@ -114,7 +114,7 @@ ms.locfileid: "60760541"
 
    - 選取 **選取的** 群組，僅針對教育機構中一群選取的使用者啟用服務。
 
-詳細資訊，請參閱在 LinkedIn[帳戶Azure Active Directory。](/azure/active-directory/enterprise-users/linkedin-integration)
+詳細資訊，請參閱 LinkedIn[帳戶Azure Active Directory。](/azure/active-directory/enterprise-users/linkedin-integration)
 
 ## <a name="access-the-career-coach-app-settings"></a>存取 職涯教練 應用程式設定
 
@@ -143,7 +143,7 @@ ms.locfileid: "60760541"
 
 - [課程目錄](#course-catalog) - 必填
 
-- [學習欄位](#fields-of-study) - 必填
+- [學習欄位](#fields-of-study) - 必填專案
 
 - [定制](#customization)
 
@@ -152,7 +152,7 @@ ms.locfileid: "60760541"
 
 ### <a name="brand-and-preferences"></a>品牌和喜好設定
 
-自訂職涯教練，以符合教育機構的品牌。 您有責任尊重其他人的權利，包括著作權和商標權。
+自訂職涯教練，以配合教育機構的品牌。 您有責任尊重其他人的權利，包括著作權和商標權。
 
 > [!IMPORTANT]
 > 這是必要的一節-職涯教練提交品牌和喜好設定時，無法啟用此功能。
@@ -165,26 +165,26 @@ ms.locfileid: "60760541"
 
 3. Upload **教育機構圖示**。 圖示會用於職涯教練教育機構所特有的內容、整個 App 的課程目錄資源，以及儀表板的實際體驗區段。 圖示的格式最好為：
 
-- 透明 PNG
-- 長寬比為 1：1
-- 最大大小為 64 px x 64 px
+    - 透明 PNG
+    - 長寬比為 1：1
+    - 最大大小為 64 px x 64 px
 
 4. Upload **教育機構縮圖**。 當課程無法使用特定影像時，縮圖會用於整個 App 的課程目錄資源。 縮圖的格式最好為：
 
-- A PNG
-- 長寬比為 16：9
-- 最大大小為 360 px x 200 px
+    - A PNG
+    - 長寬比為 16：9
+    - 最大大小為 360 px x 200 px
 
-5. 新增 **教育機構的隱私權政策 URL。** 如果新增，機構隱私權政策將可供學生在 職涯教練 中校閱。
+5. 新增 **教育機構的隱私權政策 URL。** 如果新增，機構隱私權政策將可供學生於 職涯教練 App 中校閱。
 
 6. 選取 **提交**。
 
 ### <a name="linkedin-connection"></a>LinkedIn連接
 
-此LinkedIn組會職涯教練與來自 LinkedIn 的公開畢業生資料。
+此LinkedIn組會職涯教練與來自 LinkedIn 的公開畢業生LinkedIn。
 
 > [!IMPORTANT]
-> 這是必要的節-職涯教練未驗證頁面連結LinkedIn啟用。
+> 這是必要的節-職涯教練未驗證頁面LinkedIn啟用。
 
 #### <a name="add-the-linkedin-page"></a>新增LinkedIn頁面
   
@@ -325,8 +325,8 @@ ms.locfileid: "60760541"
 
 2. 將狀態切換 **開關移至** 允許 。  
 
-  > [!NOTE]
-  > **允許** 表示此 App 可供教育機構中的使用者使用。 封鎖表示學生無法使用 App。
+   > [!NOTE]
+   > **允許** 表示此 App 可供教育機構中的使用者使用。 封鎖表示學生無法使用 App。
 
 ### <a name="add-career-coach-as-an-installed-app"></a>新增職涯教練為已安裝的應用程式
 
@@ -378,11 +378,11 @@ ms.locfileid: "60760541"
 
 - 第一次設定職涯教練時，可能會出現錯誤橫幅，指出「我們無法更新應用程式的設定。」 再試一次。」 這很可能是因為租使用者正在職涯教練應用程式，最多可能需要 15 分鐘。 如果發生這種情況，請等候 15 分鐘再提交。
 
-- 如果 職涯教練應用程式未顯示在 Microsoft Teams，則政策變更可能尚未生效。 策略變更可能需要數小時才能更新。 除非職涯教練完成，Microsoft Teams應用程式才能在應用程式中使用。
+- 如果 職涯教練應用程式未顯示在 Microsoft Teams，則策略變更可能尚未生效。 策略變更可能需要數小時才能更新。 除非職涯教練完成，Microsoft Teams應用程式才能在應用程式中使用。
 
 ## <a name="removing-your-tenant-data"></a>移除租使用者資料
 
-您的租使用者資料包含已上傳或產生為應用程式佈建的一部分的資訊。 若要刪除租使用者職涯教練內的所有資料，請讓租使用者全域系統管理員開啟支援票證[](https://edusupport.microsoft.com/support?product_id=career_coach)，要求永久刪除租使用者的資料。 請注意，此程式無法反轉。 資料移除完成後，職涯教練 應用程式會針對所有使用者回到其預先設定的非個人化狀態，而 Teams 系統管理員必須再次設定應用程式，才能繼續使用。
+您的租使用者資料包含已上傳或產生為應用程式佈建的一部分的資訊。 若要刪除租使用者職涯教練內的所有資料，請讓租使用者全域系統管理員開啟支援票證，[](https://edusupport.microsoft.com/support?product_id=career_coach)要求永久刪除租使用者的資料。 請注意，此程式無法反轉。 移除資料完成後，職涯教練 應用程式會針對所有使用者回到其預先設定的非個人化狀態，Teams 系統管理員必須再次設定應用程式，才能繼續使用。
 
 下列說明刪除程式：
 
