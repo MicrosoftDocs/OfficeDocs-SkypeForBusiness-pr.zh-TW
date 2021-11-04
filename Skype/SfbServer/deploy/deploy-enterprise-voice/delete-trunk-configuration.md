@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server：刪除現有的 SIP 主幹設定的集合
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台刪除主幹設定設定的集合。
-ms.openlocfilehash: ffc9a5cf91c9cdc19c47e3558ace3a040e7fb33e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19de05f2b31bc7a083aca7a04d71c32f17d0ea85
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592837"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771538"
 ---
 # <a name="skype-for-business-server-delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>商務用 Skype Server：刪除現有的 SIP 主幹設定的集合 
  

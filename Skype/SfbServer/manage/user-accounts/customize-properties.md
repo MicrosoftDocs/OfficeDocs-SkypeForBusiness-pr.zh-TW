@@ -1,7 +1,7 @@
 ---
 title: 自訂商務用 Skype Server 的使用者帳戶屬性
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: 您可以使用本節中的程式來修改個別的使用者帳戶屬性。
-ms.openlocfilehash: 9f145b1d1c0abd584a3771950d9960ccea30b85e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 47e1c09e898a023bbebacbeb57f855568a9a0131
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634247"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750152"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>自訂商務用 Skype Server 的使用者帳戶屬性
  

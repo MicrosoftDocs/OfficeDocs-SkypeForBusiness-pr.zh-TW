@@ -1,7 +1,7 @@
 ---
 title: 規劃商務用 Skype Server 中的企業語音解決方案
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 摘要：瞭解在商務用 Skype Server 中規劃整合語音和通訊解決方案的選項。
-ms.openlocfilehash: 186836f1640402ba2b92dea349525d8f15ef644f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2cd47f1b3655166ced3bec5591a7b8197639544a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583857"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749952"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>規劃商務用 Skype Server 中的企業語音解決方案
  

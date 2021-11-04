@@ -1,6 +1,6 @@
 ---
 title: 針對 iOS 安裝及測試商務用 Skype
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 摘要：如何安裝及測試 iOS 應用程式的商務用 Skype。
-ms.openlocfilehash: ff2e2789f733a77ab0d332225a85aca33eb69bc1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 62b7720efbc24606f63f5df83c9082fb4ebf9611
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623015"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758155"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>針對 iOS 安裝及測試商務用 Skype
  

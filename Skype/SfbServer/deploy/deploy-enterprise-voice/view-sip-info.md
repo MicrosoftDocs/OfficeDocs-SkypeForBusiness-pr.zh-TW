@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中查看 SIP 主幹資訊
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: 摘要：瞭解如何在商務用 Skype Server 中查看 SIP 主幹的相關資訊。
-ms.openlocfilehash: f4bd3ba4560980243fefe06b49a8f4aaa4a9625e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b2e2471d47dd40747c1e090936ed585f32208ef6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624405"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771481"
 ---
 # <a name="skype-for-business-server-view-information-about-individual-sip-trunks"></a>商務用 Skype Server：查看個別 SIP 主幹的相關資訊 
  

@@ -1,7 +1,7 @@
 ---
 title: 檔案篩選器建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2f6e54ef-2ff5-4cac-a3d4-80a101e8d177
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: bdea88e6ad601fa059fa8a87d855b2fe87c772a3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 473ef007e161ff61e0584d14b844250c69654e8e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600548"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773153"
 ---
 # <a name="file-filter-create-new-or-edit-existing"></a>檔案篩選器：建立新的或編輯現有
 

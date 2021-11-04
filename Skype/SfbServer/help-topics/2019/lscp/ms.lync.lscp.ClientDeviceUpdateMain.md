@@ -1,7 +1,7 @@
 ---
 title: 裝置更新
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6f6b7f73-f8f5-41dc-9e2a-727baaaa828b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 會定期為商務用 Skype 電話 Edition 發行一組新的裝置固件更新，您可以匯入伺服器並將其散佈給使用者。 您可以移至 Microsoft 網站上的 [說明與支援] 頁面，並搜尋 forPhone Edition，以取得最新的裝置更新規則集合。下載最新的更新套件，並將檔案解壓縮至要上傳更新的電腦資料夾。 解壓縮檔案後，接著可以使用 Import-CsDeviceUpdate Cmdlet 匯入解壓縮後之 .CAB 檔案 (其名稱為 UCUpdates.cab) 中的裝置更新規則。 如需詳細資訊，請參閱 Import-CsDeviceUpdate。
-ms.openlocfilehash: a670e0b55c0e6f8f61cbe75ef2c51e49b2980787
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd1dc5613ccab434fab9e196f1595cf7e930790f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585483"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757995"
 ---
 # <a name="device-update"></a>裝置更新
 

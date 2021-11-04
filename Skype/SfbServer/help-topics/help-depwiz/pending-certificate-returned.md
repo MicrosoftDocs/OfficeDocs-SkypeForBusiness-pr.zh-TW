@@ -1,7 +1,7 @@
 ---
 title: 擱置的憑證 (已傳回)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 description: 「線上憑證要求狀態」頁面會傳回憑證的目前狀態。如果憑證在憑證授權單位系統管理員那邊仍處於等待核准狀態 (亦即，如果憑證未獲核准)，則狀態會指出憑證仍在處理中。
-ms.openlocfilehash: d4e2a7d32622ce0c787b4947745d487eab99a276
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcb9af42baa3fc81854638087b6ee90145f3345d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601548"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770871"
 ---
 # <a name="pending-certificate-returned"></a>擱置的憑證 (已傳回)
  

@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中驗證 Edge 部署
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 manager: serdars
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 摘要：瞭解如何驗證 Edge server 或 edge server 集區的部署在商務用 Skype Server 中是否正常運作。
-ms.openlocfilehash: 175baab9770e6013820e0e632712bf75b7669a57
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d3552d814a9b30433cbeb53674737563b11f8283
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583237"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771605"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>在商務用 Skype Server 中驗證 Edge 部署
  

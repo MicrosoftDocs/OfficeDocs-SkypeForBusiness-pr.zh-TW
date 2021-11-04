@@ -1,7 +1,7 @@
 ---
 title: 常設聊天室電腦展開工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用 [機器狀態設定] 中所列的伺服器或集區，啟動或停用已部署的持久聊天伺服器或 Persistent Chat Server 集區。 從清單中選取伺服器或集區，然後按一下 [成為作用中] 按鈕，即可將伺服器或集區設為作用中。
-ms.openlocfilehash: 2d1d179ed5f50bb6aea7e884dd3836e4430e2b89
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb47b572aae7859071edae4c6c38a905c6a9e1ab
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633857"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764321"
 ---
 # <a name="persistent-chat-machines-expander"></a>常設聊天室電腦展開工具
 

@@ -1,7 +1,7 @@
 ---
 title: 建立商務用 Skype Server 2015 的初始拓撲設計
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: 在您完成商務用 Skype Server 規劃工具的安裝之後，就可以開始規劃工具及開始設計擬議中的商務用 Skype Server 2015 基礎結構。
-ms.openlocfilehash: a56bca532ad1eef25a249f1b45f880921d9ead58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0b1b477dffb6547629844268b8ade6ed5620ecbf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608030"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750142"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>建立商務用 Skype Server 2015 的初始拓撲設計
 

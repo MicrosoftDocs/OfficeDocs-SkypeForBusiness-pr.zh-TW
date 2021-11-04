@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中定義 E9-1-1 部署的範圍
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: 規劃商務用 Skype Server 企業語音中的 E9-1-1 部署時所需的決策。
-ms.openlocfilehash: f5ca67f86d9e8ee5a3a26dde86ff9cd25a3c94e4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b576f2d9e7dbf9cb82484803ca6e93afb4440795
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635227"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777993"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>在商務用 Skype Server 中定義 E9-1-1 部署的範圍
 

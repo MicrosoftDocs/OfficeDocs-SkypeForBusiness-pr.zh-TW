@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 控制台的第一次執行檢查清單
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 description: 歡迎使用商務用 Skype Server 控制台，以 web 為基礎的使用者介面，以供管理及管理商務用 Skype Server。 您可以使用 [控制台] 執行先前版本中使用 Microsoft 管理主控台所執行的系統管理工作類型。
-ms.openlocfilehash: 39fe263d41be18068935811efaec923473e59c95
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 868817085bc14c918a77bdeee1db30d39b7130f9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580787"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770791"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>商務用 Skype Server 控制台的第一次執行檢查清單
 
@@ -38,7 +38,7 @@ ms.locfileid: "58580787"
 |**工作**|**控制台群組**|**文件**|
 |:-----|:-----|:-----|
 |確認您安裝在拓撲中的服務如預期地執行中。  <br/> |**拓撲** <br/> |[查看服務的詳細資料](/previous-versions/office/lync-server-2013/lync-server-2013-view-details-about-a-service) <br/> |
-|為使用者啟用商務用 Skype Server。 （選用）從先前版本遷移時，將使用者移至商務用 Skype Server。  <br/> |**使用者** <br/> |[管理使用者](/previous-versions/office/lync-server-2013/lync-server-2013-user-accounts-enabled-for-lync-server) <br/> |
+|為使用者啟用商務用 Skype Server。 （選用）從先前版本遷移時，將使用者移至商務用 Skype Server。  <br/> |**Users** <br/> |[管理使用者](/previous-versions/office/lync-server-2013/lync-server-2013-user-accounts-enabled-for-lync-server) <br/> |
 |如果您已部署，或想要部署 Enterprise Voice，請設定 SIP 主幹連線，以啟用對公用交換電話網路 (PSTN) 的連線。  <br/> |**語音路由** <br/> |[設定主幹和轉譯規則](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-trunks) <br/> |
 |如果您部署了 Enterprise Voice，請確認 Enterprise Voice 路由設定。  <br/> |**語音路由** <br/> |[測試語音路由](/previous-versions/office/lync-server-2013/lync-server-2013-test-voice-routing) <br/> |
 |如果您部署了封存伺服器，請確認封存原則和設定符合您組織的規範需要。  <br/> |**監控和封存** <br/> |[管理封存](/previous-versions/office/lync-server-2013/lync-server-2013-managing-archiving) <br/> |

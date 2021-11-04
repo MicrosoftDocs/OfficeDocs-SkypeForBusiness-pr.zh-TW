@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中指派每個使用者的 PIN 原則
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 摘要：階段 AV 和 OAuth 商務用 Skype Server 的憑證。
-ms.openlocfilehash: 6925b8b042da41f82c505a79afcc5b7678454fbd
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2ca870ff500c5a963db17f90262c2f128c847d60
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012717"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750352"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中指派每個使用者的 PIN 原則
 

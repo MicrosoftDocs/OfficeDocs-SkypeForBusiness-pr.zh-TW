@@ -1,6 +1,6 @@
 ---
 title: Skype會議室系統信任的網域
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9fb63ad4-6eda-4724-be63-10bf5e65cb2b
 description: 閱讀此主題以瞭解如何設定 Skype 會議室系統和商務用 Skype 的信任網域。
-ms.openlocfilehash: fae745d1380e8d75d88e446275d7073e92ae5632
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 68449fcb0c1bf4fb608f7d1172b45776fe109958
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583267"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738970"
 ---
 # <a name="skype-room-system-trusted-domains"></a>Skype會議室系統信任的網域
  

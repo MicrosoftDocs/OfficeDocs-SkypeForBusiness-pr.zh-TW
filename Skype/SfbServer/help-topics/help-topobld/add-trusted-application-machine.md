@@ -1,7 +1,7 @@
 ---
 title: 新增信任的應用程式機器
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e951328e-d06b-4c9d-af21-305b2357188b
 description: 在此集區中，指定您要新增為信任的應用程式伺服器之每台電腦的完整功能變數名稱 (FQDN) 。 將電腦新增至清單後，您可以在發行拓撲之前，隨時更新電腦的 FQDN，或將它從集區移除。 發行拓撲之後，要變更 FQDN 便需要在拓撲產生器中刪除伺服器，然後用新的 FQDN 將新的伺服器新增到集區。
-ms.openlocfilehash: 8e9120102907352f2b3ab9448da07dfd954d0f9c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 446299f1d45356f5a106e4367c61996ad49cafc7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588615"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739319"
 ---
 # <a name="add-trusted-application-machine"></a>新增信任的應用程式機器
  

@@ -1,7 +1,7 @@
 ---
 title: 安裝商務用 Skype Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2018
@@ -15,12 +15,12 @@ ms.collection: IT_Skype16
 ms.custom: Strat_SB_Admin
 ms.assetid: 71299b34-8783-4384-9949-0d3162c8a36e
 description: 摘要：瞭解如何準備您的環境，以安裝商務用 Skype Server。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 9e30a3d91f5aaaf8d1717123ffd59499e96fbd7d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: acbe9f23c2158966200600caa92d33d0aafc6b1a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609820"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773203"
 ---
 # <a name="install-skype-for-business-server"></a>安裝商務用 Skype Server
  

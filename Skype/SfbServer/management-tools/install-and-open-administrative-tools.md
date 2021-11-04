@@ -1,7 +1,7 @@
 ---
 title: 安裝及開啟系統管理工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本主題說明如何安裝及開啟您部署及管理商務用 Skype 所需的系統管理工具。
-ms.openlocfilehash: 70f7732c9db49f5a089e9d5008a27902e5aac51c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a40a1617490f22c37ec2a8173118dcb289ec8ff8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630477"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743429"
 ---
 # <a name="install-and-open-administrative-tools"></a>安裝及開啟系統管理工具
 
@@ -64,7 +64,7 @@ ms.locfileid: "58630477"
 
 1. 以 Domain Admins 群組與 RTCUniversalServerAdmins 群組成員的身分，登入安裝了拓撲產生器的電腦。
     > [!NOTE]
-    > 您可以使用本機 Users 群組成員的帳戶來定義拓撲，但可讀取、發佈或啟用拓撲，這是在伺服器上安裝商務用 Skype Server 所需的。您必須使用屬於 Domain Admins 群組和 RTCUniversalServerAdmins 群組成員的帳戶，而且在要用於封存檔案存放區的檔案共用上具有「完全控制」許可權 (（即讀取、寫入及修改），讓拓撲產生器可以設定必要的自由存取控制清單 (dacl) ，或具有同等使用者權限的帳戶。) 
+    > 您可以使用本機 Users 群組成員的帳戶來定義拓撲，但若要讀取、發佈或啟用拓撲（需要在伺服器上安裝商務用 Skype Server），則必須使用 Domain Admins 群組和 RTCUniversalServerAdmins 群組成員的帳戶。 在您要用於封存檔案存放區的檔案共用上，具有「讀取」、「寫入」和「修改」) 的「完全控制」許可權 (，讓拓撲產生器可以設定所需的任意自由存取控制清單 (Dacl) 或具有同等使用者權限的帳戶。
  
 2. 啟動拓撲產生器：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype Server**]，然後按一下 [**商務用 Skype Server 拓撲** 產生器]。
 

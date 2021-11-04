@@ -1,7 +1,7 @@
 ---
 title: 建立 AV MCU 與前端的關聯
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5a436e41-c902-4968-8d6e-8e7c0adf9f40
 description: 所有啟用會議功能的 Enterprise Edition 前端集區都必須組合音訊/視訊會議服務，或是使用獨立的音訊/視訊會議集區。任何目前已組合音訊/視訊會議服務的現有 Enterprise Edition 前端集區必須已經選取，才能改為使用此全新的獨立 A/V 會議集區。
-ms.openlocfilehash: 2fdf5a9a094240d6d7719f09b112edc402973bf4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2ee4d087f6621e12cf4e3fd800d49ef4cd25235a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596587"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743769"
 ---
 # <a name="associate-av-mcu-with-front-end"></a>建立 AV MCU 與前端的關聯
  

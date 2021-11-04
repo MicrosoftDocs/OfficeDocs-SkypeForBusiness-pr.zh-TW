@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中的類別的架構屬性
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: 本節列出可以包含在每個商務用 Skype Server 類別中的架構屬性，以及可以包含在其他類別中的類別。 如需所有類別及其描述的清單，請參閱商務用 Skype Server 中的架構類別和描述。 如需所有屬性及其描述的清單，請參閱商務用 Skype Server 中的架構屬性和描述。
-ms.openlocfilehash: 55975ac452c4bfde173bfbe75f1c9f0fee642372
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e3443155c4dec7d68ab2bb971f5fd9cad024eafe
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578627"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743299"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>商務用 Skype Server 中的類別的架構屬性
  
@@ -57,7 +57,7 @@ ms.locfileid: "58578627"
 |msRTCSIP TrustedWebComponentsServer  <br/> |msRTCSIP TrustedWebComponentsServerData  <br/> msRTCSIP TrustedWebComponentsServerFQDN  <br/> msRTCSIP TrustedServerVersion  <br/> |
 |msRTCSIP WebComponentsService  <br/> |msRTCSIP-WebComponentsServers  <br/> |
 |msRTCSIP WebComponentSettings  <br/> |msRTCSIP WebComponentsData  <br/> msRTCSIP-WebComponentsPoolAddress  <br/> msRTCSIP ServerVersion  <br/> |
-|使用者  <br/> |msRTCSIP AcpInfo  <br/> msRTCSIP ApplicationOptions  <br/> msRTCSIP ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP InternetAccessEnabled  <br/> msRTCSIP-Line  <br/> msRTCSIP LineServer  <br/> msRTCSIP OptionFlags  <br/> msRTCSIP OriginatorSid  <br/> msRTCSIP OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP TargetHomeServer  <br/> msRTCSIP TargetUserPolicies  <br/> msRTCSIP TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP UserExtension  <br/> msRTCSIP UserLocationProfile  <br/> msRTCSIP UserPolicies  <br/> msRTCSIP UserPolicy  <br/> msRTCSIP UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
+|User  <br/> |msRTCSIP AcpInfo  <br/> msRTCSIP ApplicationOptions  <br/> msRTCSIP ArchivingEnabled  <br/> msRTCSIP-DeploymentLocator  <br/> msRTCSIP FederationEnabled  <br/> msRTCSIP-GroupingID  <br/> msRTCSIP InternetAccessEnabled  <br/> msRTCSIP-Line  <br/> msRTCSIP LineServer  <br/> msRTCSIP OptionFlags  <br/> msRTCSIP OriginatorSid  <br/> msRTCSIP OwnerUrn  <br/> msRTCSIP-PrimaryHomeServer  <br/> msRTCSIP-PrimaryUserAddress  <br/> msRTCSIP-PrivateLine  <br/> msRTCSIP TargetHomeServer  <br/> msRTCSIP TargetUserPolicies  <br/> msRTCSIP TenantId  <br/> msRTCSIP-UserEnabled  <br/> msRTCSIP UserExtension  <br/> msRTCSIP UserLocationProfile  <br/> msRTCSIP UserPolicies  <br/> msRTCSIP UserPolicy  <br/> msRTCSIP UserRoutingGroupId  <br/> ProxyAddresses  <br/> |
    
 ### <a name="classes-contained-in-other-classes"></a>包含在其他類別中的類別
 

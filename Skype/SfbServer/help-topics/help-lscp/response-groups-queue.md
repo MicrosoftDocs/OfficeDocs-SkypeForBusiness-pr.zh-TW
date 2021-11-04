@@ -1,7 +1,7 @@
 ---
 title: 回應群組佇列
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 description: 回應群組中包含代理群組、佇列及工作流程。 回應群組佇列會將呼叫保留到回應群組，直到代理接聽來電為止。
-ms.openlocfilehash: 1343425fd84ad2d0ad8f09513f996dfe5c30cdc3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c421bc858cab3377bff5acd759e97b182920100e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579007"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750412"
 ---
 # <a name="response-groups-queue"></a>回應群組佇列
 

@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 2019 已被取代的功能
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：這些功能已從商務用 Skype Server 2019 中移除。
-ms.openlocfilehash: cdc7b54f815c324707ee657d8365aa842f28293d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65229e091d903ca18fee89224e45aedef8c0ca40
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595027"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771722"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>商務用 Skype Server 2019 已被取代的功能
 

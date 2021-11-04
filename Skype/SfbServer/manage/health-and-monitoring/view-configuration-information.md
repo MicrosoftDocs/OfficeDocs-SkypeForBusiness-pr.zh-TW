@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中查看 CDR 設定資訊
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: 摘要：瞭解如何在商務用 Skype Server 中使用 (CDR) 上的詳細通話記錄。
-ms.openlocfilehash: f115c41215f4a559957cae3d85a7276501a96710
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 97019a9d8689cf9eb5cacac82d6776b44bc4283d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011957"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743479"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>在商務用 Skype Server 中查看 CDR 設定資訊
  

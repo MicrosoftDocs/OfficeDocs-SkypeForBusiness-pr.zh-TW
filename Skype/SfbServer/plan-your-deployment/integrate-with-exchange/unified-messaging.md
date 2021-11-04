@@ -1,7 +1,7 @@
 ---
 title: 規劃商務用 Skype 中的 Exchange 整合通訊整合
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/16/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 摘要：在規劃將商務用 Skype Server 與 Exchange 2013 或2016整合時，請參閱本主題。
-ms.openlocfilehash: bc378579d9d01fe783baa96d5869b3d340588b42
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ad9b51a282bdd2e1f922368fad29037515ef7bb5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725672"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777983"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>規劃商務用 Skype 中的 Exchange 整合通訊整合
 
@@ -57,7 +57,7 @@ ms.locfileid: "58725672"
 - **傳真服務** Exchange UM 包含傳真功能，可讓使用者在其 Exchange 信箱中接收傳入的傳真。 如需詳細資訊，請參閱 Microsoft Exchange Server 檔中的[整合通訊](/previous-versions/office/exchange-server-2007/bb123911(v=exchg.80))。
 
     > [!NOTE]
-    > Exchange UM server 所提供的傳真服務，在與 Microsoft Exchange Server 2010 整合的商務用 Skype Server 部署中不可用，Exchange 2010 搭配最新的 service pack、Exchange 2013 或 Exchange 2016。
+    > Exchange UM server 所提供的傳真服務，無法在與 Microsoft Exchange Server 2010 整合的商務用 Skype Server 部署中使用，Exchange 2010 搭配最新的 service pack、Exchange 2013 或 Exchange2016。
 
 ## <a name="components-and-topologies-for-on-premises-unified-messaging-in-skype-for-business-server"></a>商務用 Skype Server 中內部部署整合通訊的元件和拓撲
 
@@ -143,6 +143,6 @@ ms.locfileid: "58725672"
 Exchange整合通訊在 Exchange 2019 中不再存在，如果您有 Exchange 2019，而且需要同等的功能，您將需要使用[方案雲端語音信箱服務](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)中所述的雲端語音信箱服務。
 
 
-## <a name="see-also"></a>也請參閱
+## <a name="see-also"></a>另請參閱
 
 [整合內部部署整合通訊和商務用 Skype 的部署程式概述](deployment-overview.md)

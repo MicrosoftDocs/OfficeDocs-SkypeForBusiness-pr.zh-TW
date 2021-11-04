@@ -1,7 +1,7 @@
 ---
 title: 新增 Edge Server 關聯
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用此頁面來選取哪些前端集區和 Standard Edition Server 將使用此 Edge 集區處理 A/V 流量。
-ms.openlocfilehash: e9c75c9f3b1d22cea520fa8113db9e2f72dba2c2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 15a822882950a63fbf5b30e62fd67abac024e714
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629115"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771161"
 ---
 # <a name="add-edge-server-associations"></a>新增 Edge Server 關聯
  

@@ -1,7 +1,7 @@
 ---
 title: 商務伺服器2015：設定 Persistent Chat Server 的高可用性和嚴重損壞修復
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 瞭解如何在商務用 Skype Server 2015 中設定 Persistent Chat Server 的高可用性和嚴重損壞修復。
-ms.openlocfilehash: 9b7157b0f1bd3d1891edac752310343b7211b961
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ce69159126a134893e03ca97e6ac3c2fc20bfda5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608580"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738889"
 ---
 # <a name="business-server-2015-configure-high-availability-and-disaster-recovery-for-persistent-chat-server"></a>商務伺服器2015：設定 Persistent Chat Server 的高可用性和嚴重損壞修復
  

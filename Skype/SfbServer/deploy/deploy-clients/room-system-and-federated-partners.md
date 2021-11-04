@@ -1,6 +1,6 @@
 ---
 title: Skype會議室系統和商務用 Skype 同盟合作夥伴
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: 閱讀此主題以瞭解如何設定商務用 Skype 同盟協力廠商的 Skype 會議室系統。
-ms.openlocfilehash: 2f0a44538839fd6c722021f806bd8623f0c210ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57c143559af533e1a2a8ef6577a1fe6e9f9de660
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620509"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771665"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Skype會議室系統和商務用 Skype 同盟合作夥伴
  

@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中設定會議加入頁面
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
 description: 摘要：瞭解如何在商務用 Skype Server 中設定會議加入頁面。
-ms.openlocfilehash: ba90c771321732956b38f5f07af10798829fc54f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39a9fd42fd7d1017ece572856f6d85a09e1f55fe
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587089"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743559"
 ---
 # <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>在商務用 Skype Server 中設定會議加入頁面
  

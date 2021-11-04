@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype 的負載平衡需求
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 摘要：在實施商務用 Skype Server 之前，請先複查負載平衡考慮。
-ms.openlocfilehash: ba8ab3e4659ea7e17e91b4bf725e8bd1fe8b59ca
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a738a615c773b3f2861899e061fbdbd664e05636
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733392"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777943"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>商務用 Skype 的負載平衡需求
  

@@ -1,6 +1,6 @@
 ---
 title: Skype 會議室系統帳戶的會議原則
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: 閱讀此主題以瞭解如何為 Skype 的會議室系統帳戶指派會議原則。
-ms.openlocfilehash: 202440953aedaa54ac69a7bd4549bf7dcbd8d865
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9e6bab608ab68b3f0e0d5075ae1caf8cb16d4c0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618199"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771675"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Skype 會議室系統帳戶的會議原則
  
@@ -45,20 +45,20 @@ ms.locfileid: "58618199"
 |AllowPolls  <br/> |TRUE  <br/> |在 [立即開會] 中 N/A (點對點) 會議，但是 Skype 的會議室系統可以在會議室的正面回應投票。  <br/> |
 |AllowSharedNotes  <br/> |TRUE  <br/> |在 [立即開會] 中 N/A (點對點) 會議，但是 Skype 的會議室系統可以在會議室的正面回應投票。  <br/> |
 |EnableDialInConferencing  <br/> |TRUE  <br/> |影響 Skype 會議室系統中的 [立即開會] (特定) 白板會話  <br/> |
-|EnableAppDesktopSharing  <br/> |桌上型電腦  <br/> |影響 Skype 會議室系統中的 [立即開會] (特定) 白板會話  <br/> |
+|EnableAppDesktopSharing  <br/> |電腦  <br/> |影響 Skype 會議室系統中的 [立即開會] (特定) 白板會話  <br/> |
 |AllowConferenceRecording  <br/> |假  <br/> |Skype 會議室系統的 N/A。 如果為 TRUE，遠端一方可以記錄  <br/> |
 |EnableP2PRecording  <br/> |假  <br/> |Skype 會議室系統的 N/A。 如果為 TRUE，遠端一方可以記錄  <br/> |
-|EnableFileTransfer  <br/> |TRUE  <br/> |N/A  <br/> |
-|EnableP2PFileTransfer  <br/> |TRUE  <br/> |N/A  <br/> |
+|EnableFileTransfer  <br/> |TRUE  <br/> |不適用  <br/> |
+|EnableP2PFileTransfer  <br/> |TRUE  <br/> |不適用  <br/> |
 |EnableP2PVideo  <br/> |TRUE  <br/> |讓 Skype 的會議室系統用戶端參與對等的視頻會話  <br/> |
-|AllowLargeMeetings  <br/> |假  <br/> |N/A  <br/> |
+|AllowLargeMeetings  <br/> |假  <br/> |不適用  <br/> |
 |EnableDataCollaboration  <br/> |TRUE  <br/> |影響 Skype 會議室系統中的 [立即開會] (特定) 白板會話  <br/> |
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |商務用 Skype Server 忽略，Skype 會議室系統會使用 HD1080  <br/> |
 |MaxMeetingSize  <br/> |250  <br/> |影響 Skype 會議室系統中的 [立即開會] (特定) 白板會話  <br/> |
 |AudioBitRateKb  <br/> |200  <br/> |請參閱表格結尾的記事\*  <br/> |
 |VideoBitRateKb  <br/> |5000  <br/> |這是允許的輸出影片位元速率上限。 Skype在此位元速率) 使用 RoundTable 時，會議室系統可以隨同 pano (傳送 1 1080 資料流程。 \*  <br/> |
 |AppSharingBitRateKb  <br/> |5000  <br/> |請參閱表格結尾的記事\*  <br/> |
-|FileTransferBitRateKb  <br/> |5000  <br/> |N/A  <br/> |
+|FileTransferBitRateKb  <br/> |5000  <br/> |不適用  <br/> |
 |TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |建議您盡可能將此設定設為最高。 有效的頻寬取決於會議時間的網路狀況。\*  <br/> |
 |EnableMultiViewJoin  <br/> |TRUE  <br/> |Skype 房間系統必須為 TRUE，以確保多 view 影片資料流程  <br/> |
    

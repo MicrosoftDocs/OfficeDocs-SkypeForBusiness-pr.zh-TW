@@ -1,7 +1,7 @@
 ---
 title: 設定 Skype 會議廣播的內部部署部署
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 摘要：瞭解為內部部署商務用 Skype Server 混合部署執行的 Skype 會議廣播所需執行的步驟。
-ms.openlocfilehash: 99ba1733dc8c353dc17f9a4c9a51a9ed00410d27
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 9d1ccadfc6a8bed52a7f6d4aa72bd72c2a5e94c8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013707"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771695"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>設定 Skype 會議廣播的內部部署部署
  

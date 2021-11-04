@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中的 Edge Server 環境需求
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 摘要：瞭解商務用 Skype Server 中 Edge Server 的環境需求。
-ms.openlocfilehash: 492a4c2ec5a90ea8e2c3eb55ea48a4afec16c67f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7dbd2b3c40b60f69813edbfee29a29fb003fb703
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635237"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749962"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>商務用 Skype Server 中的 Edge Server 環境需求
  
@@ -102,19 +102,19 @@ ms.locfileid: "58635237"
 
 |**每個集區的 Edge Server 數目**|**DNS 負載平衡所需的 IP 位址數目**|**硬體負載平衡所需的 IP 位址數目**|
 |:-----|:-----|:-----|
-|2   <br/> |6   <br/> |3 (每個 VIP 各 1 個) + 6  <br/> |
+|第  <br/> |6   <br/> |3 (每個 VIP 各 1 個) + 6  <br/> |
 |3   <br/> |9   <br/> |3 (每個 VIP 各 1 個) + 9  <br/> |
 |4   <br/> |12   <br/> |3 (每個 VIP 各 1 個) + 12  <br/> |
-|5   <br/> |15   <br/> |每個 VIP 3 (1) + 15  <br/> |
+|5  <br/> |15   <br/> |每個 VIP 3 (1) + 15  <br/> |
    
 #### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>縮放合併 Edge 的 IP 位址需求所有角色 (單一 IP 位址) 
 
 |**每個集區的 Edge Server 數目**|**DNS 負載平衡所需的 IP 位址數目**|**硬體負載平衡所需的 IP 位址數目**|
 |:-----|:-----|:-----|
-|2   <br/> |2   <br/> |1 (每個 VIP 各 1 個) + 2  <br/> |
+|第  <br/> |第  <br/> |1 (每個 VIP 各 1 個) + 2  <br/> |
 |3   <br/> |3   <br/> |1 (每個 VIP 各 1 個) + 3  <br/> |
 |4   <br/> |4   <br/> |1 (每個 VIP 各 1 個) + 4  <br/> |
-|5   <br/> |5   <br/> |1 (每個 VIP 各 1 個) + 5  <br/> |
+|5  <br/> |5  <br/> |1 (每個 VIP 各 1 個) + 5  <br/> |
    
 讓我們看看在規劃時需要考慮的一些其他事項。
   
@@ -184,8 +184,8 @@ Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (�
 |外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |sip.contoso.com  <br/> |**public：** 131.107.155.10 <br/> **私人：** 10.45.16.10 <br/> |Access Edge service 的外部介面。 您將需要商務用 Skype 使用者的每個 SIP 網域的一個。  <br/> |
 |外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**public：** 131.107.155.20 <br/> **私人：** 10.45.16.20 <br/> |Web 會議 Edge service 的外部介面。  <br/> |
 |外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |av.contoso.com  <br/> |**public：** 131.107.155.30 <br/> **私人：** 10.45.16.30 <br/> |A/V Edge service 的外部介面。  <br/> |
-|外部 DNS  <br/> |SRV 記錄  <br/> |443  <br/> |_sip _sip._tls .com  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 商務用 Skype Server、lync server 2013 和 lync server 2010 用戶端可以在外部工作時，需要此 SRV 記錄。 您將需要商務用 Skype 使用者的每個網域的一個。  <br/> |
-|外部 DNS  <br/> |SRV 記錄  <br/> |5061  <br/> |_sipfederationtls _sipfederationtls._tcp .com  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 自動 DNS 探索稱為「允許的 SIP 網域」的同盟合作夥伴需要此 SRV 記錄。 您將需要商務用 Skype 使用者的每個網域的一個。  <br/> |
+|外部 DNS  <br/> |SRV 記錄  <br/> |443  <br/> |_sip _tls  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 商務用 Skype Server、lync server 2013 和 lync server 2010 用戶端可以在外部工作時，需要此 SRV 記錄。 您將需要商務用 Skype 使用者的每個網域的一個。  <br/> |
+|外部 DNS  <br/> |SRV 記錄  <br/> |5061  <br/> |_sipfederationtls _tcp  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 自動 DNS 探索稱為「允許的 SIP 網域」的同盟合作夥伴需要此 SRV 記錄。 您將需要商務用 Skype 使用者的每個網域的一個。  <br/> |
 |內部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10  <br/> |合併 Edge 的內部介面。  <br/> |
    
 ### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>調整式 DNS 和硬體 Edge Server 案例的 DNS 記錄
@@ -258,8 +258,8 @@ Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (�
 |外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |sip.contoso.com  <br/> |**public：** 131.107.155.10 和131.107.155.11 <br/> **private：** 10.45.16.10 和10.45.16.11 <br/> |Access Edge service 的外部介面。 您將需要商務用 Skype 使用者的每個 SIP 網域的一個。  <br/> |
 |外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**public：** 131.107.155.20 和131.107.155.21 <br/> **private：** 10.45.16.20 和10.45.16.21 <br/> |Web 會議 Edge service 的外部介面。  <br/> |
 |外部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |av.contoso.com  <br/> |**public：** 131.107.155.30 和131.107.155.31 <br/> **private：** 10.45.16.30 和10.45.16.31 <br/> |A/V Edge service 的外部介面。  <br/> |
-|外部 DNS  <br/> |SRV 記錄  <br/> |443  <br/> |_sip _sip._tls .com  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 商務用 Skype Server、lync server 2013 和 lync server 2010 用戶端可以在外部工作時，需要此 SRV 記錄。 您將需要每個具有商務用 Skype 的網域的一個。  <br/> |
-|外部 DNS  <br/> |SRV 記錄  <br/> |5061  <br/> |_sipfederationtls _sipfederationtls._tcp .com  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 自動 DNS 探索稱為「允許的 SIP 網域」的同盟合作夥伴需要此 SRV 記錄。 您將需要每個具有商務用 Skype 的網域的一個。  <br/> |
+|外部 DNS  <br/> |SRV 記錄  <br/> |443  <br/> |_sip _tls  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 商務用 Skype Server、lync server 2013 和 lync server 2010 用戶端可以在外部工作時，需要此 SRV 記錄。 您將需要每個具有商務用 Skype 的網域的一個。  <br/> |
+|外部 DNS  <br/> |SRV 記錄  <br/> |5061  <br/> |_sipfederationtls _tcp  <br/> |sip.contoso.com  <br/> |Access Edge service 的外部介面。 自動 DNS 探索稱為「允許的 SIP 網域」的同盟合作夥伴需要此 SRV 記錄。 您將需要每個具有商務用 Skype 的網域的一個。  <br/> |
 |內部 DNS  <br/> |A 記錄  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10 及 172.25.33.11  <br/> |合併 Edge 的內部介面。  <br/> |
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>所有案例的同盟 (DNS 記錄) 

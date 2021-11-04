@@ -1,7 +1,7 @@
 ---
 title: 為商務用 Skype Server 建立 DNS 記錄
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/15/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 摘要：瞭解如何設定 dns，以及如何建立商務用 Skype Server 安裝的 dns 記錄。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 08a652f3ed2dd19d40aa1830ac91459d205b618a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5e84c4c0991f042c0d734f8e62aceceb632b3b11
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726322"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771471"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>為商務用 Skype Server 建立 DNS 記錄
  
@@ -56,7 +56,7 @@ ms.locfileid: "58726322"
 |撥入式簡易 URL  <br/> |A  <br/> |contoso. 本機  <br/> |內部 Web 服務的 VIP  <br/> |支援的軟體和硬體  <br/> |
 |Web 排程程式簡易 URL  <br/> |A  <br/> |contoso. local  <br/> |內部 Web 服務的 VIP  <br/> |支援的軟體和硬體  <br/> |
 |管理簡易 URL  <br/> |A  <br/> |contoso. 本機  <br/> |內部 Web 服務的 VIP  <br/> |支援的軟體和硬體  <br/> |
-|舊版探索  <br/> |SRV  <br/> |_sipinternaltls _sipinternaltls._tcp local  <br/> |集區 FQDN (埠 5061)   <br/> |N/A  <br/> |
+|舊版探索  <br/> |SRV  <br/> |_sipinternaltls _tcp  <br/> |集區 FQDN (埠 5061)   <br/> |不適用  <br/> |
    
 ### <a name="create-dns-records"></a>建立 DNS 記錄
 
@@ -123,7 +123,7 @@ ms.locfileid: "58726322"
     
 5. 如果您支援舊版用戶端並建立 SRV 記錄，請在 **nslookup** 命令提示中輸入 [ **set type = SRV** ]，然後按 enter。
     
-6. 輸入 **_sipinternaltls。 _tcp。 *網域*** (例如，_sipinternaltls) ，然後按 Enter。
+6. 輸入 **_sipinternaltls _tcp。 *網域*** (例如，_sipinternaltls local) ，然後按 Enter。
     
 7. 預期的輸出應類似圖所示。 請注意，並非所有的 DNS 記錄都會顯示在樣本輸出中，但應驗證所有記錄。 
     

@@ -1,7 +1,7 @@
 ---
 title: 規劃商務用 Skype 的網路需求
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 摘要：在實施商務用 Skype Server 之前，請先複查下列網路元件考慮。
-ms.openlocfilehash: 0441b64014f7754d30f8040d059f2fac15c9cb5d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b2b8496b307111261c77f93d45d3332b42ead90d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014667"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777923"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>規劃商務用 Skype 的網路需求
 
@@ -262,13 +262,13 @@ G.722 編解碼器的立體版本是由以 Lync 會議室系統為基礎的系�
 > [!NOTE]
 > 一般來說，QoS 只適用于內部網路上的通訊會話。 當您執行 QoS 時，您可以設定您的伺服器和路由器，以支援封包標記，其可能在網際網路或其他網路上可能不支援的特定方式。 即使其他網路支援服務品質，也無法保證 QoS 的設定方式與您設定服務的方式完全相同。 如果您使用 MPLS，您必須與 MPLS 提供者搭配運作。
 
-商務用 Skype 伺服器不需要 QoS，但是強烈建議您這麼做。 如果您在網路上遇到封包遺失問題，您可用的解決方案就是增加更多頻寬或執行 QoS。 如果無法新增更多的頻寬，則實施 QoS 可能是您唯一可以解決問題的收費。
+商務用 Skype Server 不需要 QoS，但是強烈建議您這麼做。 如果您在網路上遇到封包遺失問題，您可用的解決方案就是增加更多頻寬或執行 QoS。 如果無法新增更多的頻寬，則實施 QoS 可能是您唯一可以解決問題的收費。
 
-商務用 Skype Server 提供 QoS 的完整支援：這表示已使用 QoS 的組織可輕鬆將商務用 Skype 伺服器整合到現有的網路基礎結構。 若要這麼做，您必須遵循下列步驟：
+商務用 Skype Server 提供 QoS 的完整支援：這表示已使用 QoS 的組織可以輕鬆地將商務用 Skype Server 整合至現有的網路基礎結構。 若要這麼做，您必須遵循下列步驟：
 
-- [為不是以 Windows 為基礎的裝置啟用商務用 Skype Server 中的 QoS](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md)。 根據預設，系統會停用電腦及其他裝置的 QoS，例如執行其他作業系統的 Iphone) 等 (。 雖然您可以使用商務用 Skype 伺服器來啟用及停用裝置的服務品質，但通常無法使用產品修改這些裝置所使用的 DSCP 代碼。
+- [為不是以 Windows 為基礎的裝置啟用商務用 Skype Server 中的 QoS](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md)。 根據預設，系統會停用電腦及其他裝置的 QoS，例如執行其他作業系統的 Iphone) 等 (。 雖然您可以使用商務用 Skype Server 來啟用及停用裝置的服務品質，但通常無法使用產品修改這些裝置所使用的 DSCP 碼。
 
-- [針對會議、應用程式及轉送伺服器設定埠範圍和服務品質原則](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)。 您必須為不同的封包類型（如音訊和影片）預約一組獨特的埠。 使用商務用 Skype 伺服器您未啟用或停用 QoS 方法是將屬性值設定為 True 或 False。 相反地，您可以設定埠範圍，然後建立及套用群組原則來啟用 QoS。 如果您稍後決定不使用 QoS 可以移除適當的群組原則物件，以「停用」 QoS。
+- [針對會議、應用程式及轉送伺服器設定埠範圍和服務品質原則](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md)。 您必須為不同的封包類型（如音訊和影片）預約一組獨特的埠。 使用商務用 Skype Server 您不需要將屬性值設定為 True 或 False 來啟用或停用 QoS。 相反地，您可以設定埠範圍，然後建立及套用群組原則來啟用 QoS。 如果您稍後決定不使用 QoS 可以移除適當的群組原則物件，以「停用」 QoS。
 
 - 設定[Edge server 的埠範圍及服務品質原則](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md)。 您可以將 Edge server 設定成使用與其他伺服器相同的埠範圍，但這不是必要的。 僅對 Edge server 的內部端執行 QoS 原則的設定。 這是因為 QoS 是設計供內部網路使用，而不是在網際網路上使用。
 

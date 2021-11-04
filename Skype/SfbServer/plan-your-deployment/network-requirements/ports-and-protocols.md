@@ -1,7 +1,7 @@
 ---
 title: 伺服器的埠與通訊協定需求
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/15/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c94063f1-e802-4a61-be90-022fc185335e
 description: 摘要：在實施商務用 Skype Server 之前，請先複查埠使用方式考慮。
-ms.openlocfilehash: 2ed181bd7bbcdce772e7db88a29e60d4f78e9fe2
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a1523ccb821006737a53094151d4a6694c502fc4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012987"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777933"
 ---
 # <a name="port-and-protocol-requirements-for-servers"></a>伺服器的埠與通訊協定需求
  
@@ -51,7 +51,7 @@ ms.locfileid: "60012987"
   
 **伺服器角色所 (的必要伺服器埠)**
 
-|伺服器角色|服務名稱|連接埠|Protocol (通訊協定)|注意事項|
+|伺服器角色|服務名稱|連接埠|Protocol (通訊協定)|附註|
 |:-----|:-----|:-----|:-----|:-----|
 |所有伺服器  |SQL 瀏覽器  |1434  |UDP  |SQL瀏覽器以取得中央管理存放區資料庫的本機複製副本。  |
 |Front-End 伺服器  |商務用 Skype Server Front-End 服務  |5060  |TCP  |Standard Edition 伺服器與前端伺服器搭配使用，以進行信任服務的靜態路由，例如遠端呼叫控制伺服器。  |
@@ -88,27 +88,27 @@ ms.locfileid: "60012987"
 |前端伺服器  |商務用 Skype Server回應群組服務  |5071  |TCP  |用於回應群組應用程式的傳入 SIP 要求。  |
 |前端伺服器  |商務用 Skype Server回應群組服務  |8404  |TCP (MTLS)   |用於回應群組應用程式的傳入 SIP 要求。  |
 |前端伺服器  |商務用 Skype Server頻寬原則服務  |5080  |TCP  |用於 A/V Edge 輪流流量的頻寬原則服務的通話許可控制。  |
-|前端伺服器  |商務用 Skype Server 檔案共用伺服器存取  |445   |SMB/TCP  | 用來取得通訊錄、會議內容，以及儲存在檔案共用伺服器上的其他專案。  |
-|前端伺服器  |商務用 Skype Server 頻寬原則服務  |448  |TCP  |用於商務用 Skype Server 頻寬原則服務的通話許可控制。  |
-|中央管理存放區所在的前端伺服器  | 商務用 Skype Server 主複製器代理程式服務 |445  |TCP  |用來將設定資料從中央管理存放區推入執行商務用 Skype 伺服器的伺服器。  |
-|所有伺服器  |SQL 瀏覽器  |1434  |UDP  |本機 SQL Server 實例中中央管理存放區資料的本機複製副本的 SQL 瀏覽器  |
-|所有內部伺服器  |各種  |49152-57500  |TCP/UDP  |用於所有內部伺服器的音訊會議的媒體埠範圍。 由終止音訊的所有伺服器使用：前端伺服器 (用於商務用 Skype Server 會議應答服務、商務用 Skype Server 會議宣告服務，以及商務用 Skype Server Audio/Video 會議服務) 和轉送伺服器。  |
-|Office Web Apps Server  ||443  ||供商務用 Skype Server 用來連線到 Office Web Apps Server。  |
+|前端伺服器  |商務用 Skype Server檔共用伺服器存取  |445   |SMB/TCP  | 用來取得通訊錄、會議內容，以及儲存在檔案共用伺服器上的其他專案。  |
+|前端伺服器  |商務用 Skype Server頻寬原則服務  |448  |TCP  |用於商務用 Skype Server 頻寬原則服務的通話許可控制。  |
+|中央管理存放區所在的前端伺服器  | 商務用 Skype Server主複製器代理程式服務 |445  |TCP  |用來將設定資料從中央管理存放區推送至執行商務用 Skype Server 的伺服器。  |
+|所有伺服器  |SQL 瀏覽器  |1434  |UDP  |SQL本機 SQL Server 實例中中央管理存放區資料的本地複寫複本瀏覽器  |
+|所有內部伺服器  |各種  |49152-57500  |TCP/UDP  |用於所有內部伺服器的音訊會議的媒體埠範圍。 由終止音訊的所有伺服器使用：前端伺服器 (商務用 Skype Server 會議語音應答服務、商務用 Skype Server 會議宣告服務，以及商務用 Skype Server Audio/Video 會議服務) 和轉送伺服器。  |
+|OfficeWeb 應用程式伺服器  ||443  ||由商務用 Skype Server 用來連線至 Office Web Apps Server。  |
 |董事  |商務用 Skype Server Front-End 服務  |5060  |TCP  |選擇性地用於信任服務的靜態路由，例如遠端呼叫控制伺服器。  |
 |董事  |商務用 Skype Server Front-End 服務  |444  |HTTPS:  <br/> TCP  |前端和 Director 之間的伺服器間通訊。 此外，用戶端憑證發行 (至前端伺服器) 或驗證是否已發佈用戶端憑證。  |
-|董事  |商務用 Skype Server Web 相容性服務  |80  |TCP  |用於從 Director 到 web 伺服器陣列 Fqdn (的初始通訊) IIS web 元件所使用的 URLs。 在正常作業中，會使用埠443和通訊協定類型 TCP 切換到 HTTPS 流量。  |
-|董事  |商務用 Skype Server Web 相容性服務  |443  |HTTPS:  |用於從 Director 到 web 伺服器陣列 Fqdn 的通訊 (IIS web 元件所使用的 URLs) 。  |
+|董事  |商務用 Skype ServerWeb 相容性服務  |80  |TCP  |用於從 Director 到 web 伺服器陣列 Fqdn (的初始通訊) IIS web 元件所使用的 URLs。 在正常作業中，會使用埠443和通訊協定類型 TCP 切換到 HTTPS 流量。  |
+|董事  |商務用 Skype ServerWeb 相容性服務  |443  |HTTPS:  |用於從 Director 到 web 伺服器陣列 Fqdn 的通訊 (IIS web 元件所使用的 URLs) 。  |
 |董事  |商務用 Skype Server Front-End 服務  |5061  |TCP  |用於伺服器與用戶端連線之間的內部通訊。  |
-|轉送伺服器  |商務用 Skype Server 中繼服務  |5070  |TCP  |由轉送伺服器用於來自前端伺服器的傳入要求。  |
-|轉送伺服器  |商務用 Skype Server 中繼服務  |5067  |TCP (TLS)   |用於來自 PSTN 閘道的傳入 SIP 要求。  |
-|轉送伺服器  |商務用 Skype Server 中繼服務  |5068  |TCP  |用於來自 PSTN 閘道的傳入 SIP 要求。  |
-|轉送伺服器  |商務用 Skype Server 中繼服務  |5070  |TCP (MTLS)   |用於來自前端伺服器的 SIP 要求。  |
+|轉送伺服器  |商務用 Skype Server轉送服務  |5070  |TCP  |由轉送伺服器用於來自前端伺服器的傳入要求。  |
+|轉送伺服器  |商務用 Skype Server轉送服務  |5067  |TCP (TLS)   |用於來自 PSTN 閘道的傳入 SIP 要求。  |
+|轉送伺服器  |商務用 Skype Server轉送服務  |5068  |TCP  |用於來自 PSTN 閘道的傳入 SIP 要求。  |
+|轉送伺服器  |商務用 Skype Server轉送服務  |5070  |TCP (MTLS)   |用於來自前端伺服器的 SIP 要求。  |
 |Persistent Chat 前端伺服器  |Persistent Chat SIP  |5041  |TCP (MTLS)   ||
-|Persistent Chat 前端伺服器  |Persistent Chat Windows Communication Foundation (WCF)   |881  |TCP (TLS) 和 TCP (MTLS)   ||
+|Persistent Chat 前端伺服器  | (WCF) 的持續性聊天 Windows Communication Foundation  |881  |TCP (TLS) 和 TCP (MTLS)   ||
 |Persistent Chat 前端伺服器  |Persistent Chat File 傳遞服務  |443  |TCP (TLS)   ||
    
 > [!NOTE]
-> 某些遠端呼叫控制案例需要在前端伺服器或 Director 和 PBX 之間建立 TCP 連線。 雖然商務用 Skype 伺服器不再使用 TCP 埠5060，但在遠端呼叫控制部署期間，您會建立信任的伺服器設定，此設定會將 RCC 線路伺服器 FQDN 與前端伺服器或 Director 用來連接 PBX 系統的 TCP 通訊埠產生關聯。 如需詳細資訊，請參閱商務用 Skype Server 管理命令介面檔中的 **CsTrustedApplicationComputer** Cmdlet。
+> 某些遠端呼叫控制案例需要在前端伺服器或 Director 和 PBX 之間建立 TCP 連線。 雖然商務用 Skype Server 不再使用 TCP 埠5060，但在遠端呼叫控制部署期間，您會建立信任的伺服器設定，此設定會將 RCC 線路伺服器 FQDN 與前端伺服器或 Director 用來連接 PBX 系統的 TCP 通訊埠產生關聯。 如需詳細資訊，請參閱商務用 Skype Server 管理命令介面檔中的 **CsTrustedApplicationComputer** Cmdlet。
   
 針對只使用硬體負載平衡的集區 (不) DNS 負載平衡]，下表顯示需要開啟硬體負載平衡器的埠。
   
@@ -152,9 +152,9 @@ ms.locfileid: "60012987"
 
 **必要的用戶端埠**
 
-|元件|連接埠|Protocol (通訊協定)|注意事項|
+|元件|連接埠|Protocol (通訊協定)|附註|
 |:-----|:-----|:-----|:-----|
-|用戶端  |67/68  |DHCP  |由商務用 Skype Server 用來尋找註冊機 FQDN (也就是說，如果 DNS SRV 失敗，且未設定) 手動設定。  |
+|用戶端  |67/68  |DHCP  |由商務用 Skype Server 用來尋找註冊機 FQDN (也就是，如果 DNS SRV 失敗，且未設定手動設定) 。  |
 |用戶端  |443  |TCP (TLS)   |用於外部使用者存取的用戶端對伺服器 SIP 流量。  |
 |用戶端  |443  |TCP (PSOM/TLS)   |用於外部使用者存取 web 會議會話。  |
 |用戶端  |443  |TCP (STUN/MSTURN)   |用於外部使用者存取 A/V 會話和媒體 (TCP)   |
@@ -165,7 +165,7 @@ ms.locfileid: "60012987"
 |用戶端  |1024-65535 \*  |TCP/UDP  |影片埠範圍 (至少需要20個埠) 。  |
 |用戶端  |1024-65535 \*  |TCP  |對等檔案傳輸 (若為會議檔案傳輸，用戶端會使用 PSOM) 。  |
 |用戶端  |1024-65535 \*  |TCP  |應用程式共用。  |
-|Aastra 6721ip 公共區域電話  <br/> Aastra 6725ip 電話機  <br/> HP 4110 IP 電話 (通用區域電話)   <br/> HP 4120 IP 電話 (電話機)  <br/> Polycom CX500 IP 公共區域電話  <br/> Polycom CX600 IP 電話機  <br/> Polycom CX700 IP 服務台電話  <br/> Polycom CX3000 IP 會議電話  |67/68  |DHCP  |由所列裝置使用以尋找商務用 Skype 伺服器憑證、布建 FQDN 和註冊機 FQDN。  |
+|Aastra 6721ip 公共區域電話  <br/> Aastra 6725ip 電話機  <br/> HP 4110 IP 電話 (公共區域電話)   <br/> HP 4120 IP 電話 (電話機)  <br/> Polycom CX500 IP 公共區域電話  <br/> Polycom CX600 IP 電話機  <br/> Polycom CX700 IP 服務台電話  <br/> Polycom CX3000 IP 會議電話  |67/68  |DHCP  |由所列裝置使用以尋找商務用 Skype Server 憑證、布建 fqdn 和註冊機 FQDN。  |
    
 \* 若要設定這些媒體類型的特定埠，請使用 CsConferencingConfiguration Cmdlet (ClientMediaPortRangeEnabled、ClientMediaPort 及 ClientMediaPortRange 參數) 。
   
