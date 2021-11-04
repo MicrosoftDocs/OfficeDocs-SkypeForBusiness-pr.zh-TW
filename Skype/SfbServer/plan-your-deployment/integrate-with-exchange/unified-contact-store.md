@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中規劃整合連絡人存放區
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 6/8/2017
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: 摘要：在規劃將商務用 Skype Server 與 Exchange 2013 整合時，請參閱本主題。
-ms.openlocfilehash: 711340ebe7ef2b71d56bfefbb23fe50c0c230f82
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f14d089717ac593ee94cf021a7e742d260dcf6dc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584997"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762091"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中規劃整合連絡人存放區
  
 **摘要：** 在規劃將商務用 Skype Server 與 Exchange 2013 或2016整合時，請複習本主題。
   
-整合連絡人存放區為 Microsoft Office 產品提供一致的連絡人經驗，並可讓使用者在 Exchange 2013 中儲存所有連絡人資訊，但可讓資訊在商務用 Skype、Exchange、Outlook 和 Outlook 網頁存取的範圍內可供使用。
+整合連絡人存放區為 Microsoft Office 產品提供一致的連絡人經驗，並可讓使用者在 Exchange 2013 中儲存所有連絡人資訊，但可讓資訊在商務用 Skype、Exchange、Outlook 和 Outlook 上具有全域性的可用性。Web Access。
   
 ## <a name="requirements-for-unified-contact-store"></a>整合連絡人存放區的需求
 

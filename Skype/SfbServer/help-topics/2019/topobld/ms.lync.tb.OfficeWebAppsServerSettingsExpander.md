@@ -1,7 +1,7 @@
 ---
 title: 編輯 Office Web Apps Server 設定
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以編輯已設定 Office Web Apps Server 的屬性。 您可以編輯下列內容：
-ms.openlocfilehash: 708687ddc191e11d4563445bd2146e928cda1fad
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 75a9822fb91e145eb28d8df506eaa392663e1fd1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726282"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769241"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>編輯 Office Web Apps Server 設定
 
@@ -34,6 +34,6 @@ ms.locfileid: "58726282"
 
 ![OfficeWeb 應用程式設定展開器。](../../../media/OfficeWebApps_Settings_Expander.jpg)
 
-## <a name="see-also"></a>也請參閱
+## <a name="see-also"></a>另請參閱
 
 [會議的元件和拓撲](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)

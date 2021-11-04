@@ -1,7 +1,7 @@
 ---
 title: 為商務用 Skype 中的使用者啟用通話駐留
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: 在商務用 Skype Server 企業語音中為使用者啟用通話駐留。
-ms.openlocfilehash: bb83631b86171ad113a1009c5efc927b754411ba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 262821cfef675c3af631cacd38f0cca4f2195fe7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585675"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775783"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>為商務用 Skype 中的使用者啟用通話駐留
  
@@ -53,7 +53,7 @@ ms.locfileid: "58585675"
     
 2. 啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
     
-3. 執行：
+3. 運行：
     
    ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true

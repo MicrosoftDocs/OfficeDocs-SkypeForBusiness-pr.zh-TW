@@ -1,7 +1,7 @@
 ---
 title: 設定網路地區連結
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 49a371b69582fdcf22d3dfca34fad32fa983aec7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 437d1076d79031b9dba90514005804e8ea1cdbeb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584057"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775193"
 ---
 # <a name="configure-a-network-region-link"></a>設定網路地區連結
 

@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 2015 中啟動或停止 CLS 記錄捕獲
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中啟動或停止集中式記錄服務記錄捕獲會話。
-ms.openlocfilehash: 5ed9630f21e409c240871c981db6346d2d2d9599
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 051ea00f65e6bdcce563c9f4e9d3c0f634e8c09b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726952"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774609"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中啟動或停止 CLS 記錄捕獲
  

@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中管理會議服務器配置設定
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 摘要：瞭解如何在商務用 Skype Server 中管理會議服務器設定設定。
-ms.openlocfilehash: 7ba225920fd511d70efe1e063cb77dbd77d9721f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14fed927e18d291cf17a5c00ee82dac7ef80a6d1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623725"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773703"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議服務器配置設定
  

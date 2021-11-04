@@ -1,7 +1,7 @@
 ---
 title: 新增封存伺服器 SQL Server 儲存區
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 ROBOTS: NOINDEX, NOFOLLOW
-description: 封存伺服器需要支援的64位版本的 SQL Server 資料庫軟體才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫，以用於封存或定義新的 SQL Server 資料庫，方法是指定 SQL Server 資料庫所在之伺服器的完整功能變數名稱 (FQDN) ，以及您想要用於新 SQL Server 資料庫的 SQL Server 實例（該名稱可以是您指定 (的預設實例或命名實例）。
-ms.openlocfilehash: b192bc1663585c3edd62dad758498e7b40ffd21c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 封存伺服器需要支援的64位版本的 SQL Server 資料庫軟體才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫，用以封存或定義新的 SQL Server 資料庫，方法是指定 SQL Server 資料庫所在之伺服器的完整功能變數名稱 (FQDN) ，以及想要用於新 SQL Server 的 SQL Server 實例。 資料庫 (可以是您指定) 的預設實例或命名實例。
+ms.openlocfilehash: 11ca3b8a83d565064e573ae8a080f896f846175a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609660"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775463"
 ---
 # <a name="add-archiving-server-sql-server-store"></a>新增封存伺服器 SQL Server 儲存區
 
-封存伺服器需要支援的64位版本的 SQL Server 資料庫軟體才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫，以用於封存或定義新的 SQL Server 資料庫，方法是指定 SQL Server 資料庫所在之伺服器的完整功能變數名稱 (FQDN) ，以及您想要用於新 SQL Server 資料庫的 SQL Server 實例（該名稱可以是您指定 (的預設實例或命名實例）。
+封存伺服器需要支援的64位版本的 SQL Server 資料庫軟體才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫，用以封存或定義新的 SQL Server 資料庫，方法是指定 SQL Server 資料庫所在之伺服器的完整功能變數名稱 (FQDN) ，以及想要用於新 SQL Server 的 SQL Server 實例。 資料庫 (可以是您指定) 的預設實例或命名實例。
 
 > [!NOTE]
 > 如果用來發行拓撲的帳戶有適當的使用者權利和權限，您可以在發行拓撲時建立封存資料庫 (LcsLog)。您也可以之後再建立資料庫，作為安裝程序或其他程序的一部分。

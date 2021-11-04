@@ -1,7 +1,7 @@
 ---
 title: 定義 PSTN 閘道 FQDN
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 description: 您可以指定公用交換電話網路 (PSTN) 閘道的完整功能變數名稱 (FQDN) ，該閘道會將您的企業語音元件連線至 PSTN 或專用交換機 (PBX) 。
-ms.openlocfilehash: 78c1ca11b4194585ba62675a8c17ed7893865c5b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e3aef837547916050554822b22233fe9185f9cb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605052"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768831"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>定義 PSTN 閘道 FQDN
 

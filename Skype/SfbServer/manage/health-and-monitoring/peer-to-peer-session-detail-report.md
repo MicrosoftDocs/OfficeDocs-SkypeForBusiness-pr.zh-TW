@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中的 Peer-to-Peer 會話詳細資料包告
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer 會話詳細資料包告。
-ms.openlocfilehash: 014851a7c070a11366ec54682b9f94d999ac73de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6ca45f05c3ee8346c6c6cac5bf5a1845be2d3a20
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591167"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774803"
 ---
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 Peer-to-Peer 會話詳細資料包告
  

@@ -1,7 +1,7 @@
 ---
 title: Director 範圍節點
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[Director 集區] 節點會列出您的拓撲中的 Director 集區。您可以執行下列動作：'
-ms.openlocfilehash: 43a198ccad98c6639cc514a9c6634e5b18fd80bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2615007f4c3e227c193d242d057ba48fdcf540bf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601678"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775383"
 ---
 # <a name="directors-scope-node"></a>Director 範圍節點
  

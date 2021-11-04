@@ -1,7 +1,7 @@
 ---
 title: 前端一般設定展開工具 (適用於 Lync Server 2010)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 您可以編輯或設定下列屬性，以編輯前端伺服器或前端集區的屬性。 設定頁面可分成下列區段：
-ms.openlocfilehash: 60f926a796ce38ecc17e033a4eef3dcd10ae1904
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7257a8abf61f2d081562e72b40811017dcefaa0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600128"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768771"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>前端一般設定展開工具 (適用於 Lync Server 2010)
 
@@ -43,7 +43,7 @@ ms.locfileid: "58600128"
 
 - 如果選取會議，則可以選取 [電話撥入式 (PSTN) 會議]。選取此核取方塊可啟用電話撥入式會議功能。
 
-- 如果您想要使用「語音 over IP」 (VoIP) 技術，使用轉送伺服器、PSTN 閘道和 IP-PBX （結合或獨立于設計及需求）來部署功能來啟用 Lync server 2013 為您的電話語音系統，請選取 [核取方塊]**企業語音**。 如需企業語音的詳細資訊，請參閱[企業語音](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice)和[規劃商務用 Skype Server 2015 中的企業語音](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- 如果您想要使用轉送伺服器、PSTN 閘道和 IP-PBX （結合或獨立）部署功能，讓 Lync Server 2013 成為使用語音 over IP) VoIP (的電話語音系統，請選取此核取方塊 **企業語音**。（包括使用轉送伺服器、PSTN 閘道和（結合或獨立）來部署話筒電話、SIP 主幹或公用交換電話網路 connectivity 的選項。 根據設計和需求。 如需企業語音的詳細資訊，請參閱[企業語音](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice)和[規劃商務用 Skype Server 2015 中的企業語音](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **協會**
 

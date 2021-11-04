@@ -1,7 +1,7 @@
 ---
 title: 拓撲視圖簡易 URL 詳細資料
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 7af1e9ceebf1dc5572a421ab877e8ddbd132d1bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9e9b866d40f7f27f16c561e2a5ea9e0216d61e5c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613112"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775583"
 ---
 # <a name="topology-view-simple-url-detail"></a>拓撲：檢視簡單 URL 詳細資料
 

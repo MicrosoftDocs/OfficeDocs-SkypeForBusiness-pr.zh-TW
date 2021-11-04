@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中評價我的通話
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 摘要：瞭解商務用 Skype Server 中的通話功能的速率。
-ms.openlocfilehash: 73a08b0acb32651c42de4ddda9fe12c7ae9f9655
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 7786a5e3cb41918c34e5413259b27a01e3f94aaf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014137"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768751"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>在商務用 Skype Server 中評價我的通話
 

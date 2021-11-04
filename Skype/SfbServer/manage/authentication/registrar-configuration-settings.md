@@ -1,7 +1,7 @@
 ---
-title: 管理商務用 Skype Server 中的註冊器設定設定
+title: 管理商務用 Skype Server 中的註冊器設定
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 摘要：管理商務用 Skype Server 的註冊機設定設定。
-ms.openlocfilehash: 8413d7d1604a598b8c46cebe753d408d9300d823
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 78a9e2b7af9b01fb5094e6d4286742a4c3147cfb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015007"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773733"
 ---
-# <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>管理商務用 Skype Server 中的註冊器設定設定
+# <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>管理商務用 Skype Server 中的註冊器設定
  
 **摘要：** 管理商務用 Skype Server 的註冊機設定設定。
   
@@ -30,18 +30,18 @@ ms.locfileid: "60015007"
     
 - **NTLM** 這是以密碼為基礎的驗證，可供在密碼上使用挑戰回應雜湊配置的用戶端使用。 這是唯一可供用戶端使用的驗證表單，但不連接到金鑰發佈中心 (Kerberos 網域控制站) （例如遠端使用者）。 如果伺服器只驗證遠端使用者，您應該選擇 [NTLM]。
     
-- **憑證驗證** 當伺服器需要從 Lync Phone Edition 用戶端、公共區域電話、商務用 Skype 和 Lync Windows Store 應用程式取得憑證時，這是一種新的驗證方法。 在 Lync Phone Edition 用戶端上，使用者登入並透過提供個人識別碼 (PIN) 來成功驗證之後，商務用 Skype 伺服器便會將 SIP URI 布建到電話，並布建商務用 Skype Server 簽署憑證，或是識別 Joe (Ex： SN=joe@contoso.com ) 至電話的使用者憑證。 此憑證用來驗證註冊機構和 Web 服務。
+- **憑證驗證** 當伺服器需要從 lync 電話 Edition 用戶端、公共區域電話、商務用 Skype 和 Lync Windows Store 應用程式取得憑證時，這是一種新的驗證方法。 在 Lync 電話 Edition 用戶端上，使用者登入並透過提供個人識別碼 (PIN) 來成功驗證之後，商務用 Skype Server 接著將 SIP URI 布建到電話，然後布建商務用 Skype Server 簽署憑證或識別 Joe (Ex： SN=joe@contoso.com ) 到電話的使用者憑證。 此憑證用來驗證註冊機構和 Web 服務。
     
 > [!NOTE]
 > 當伺服器同時支援遠端和企業用戶端的驗證時，建議您啟用 Kerberos 和 NTLM。 Edge Server 和內部伺服器會進行通訊，以確保只會向遠端用戶端提供 NTLM 驗證。 如果這些伺服器上只啟用 Kerberos，則無法驗證遠端使用者。 如果企業使用者也會驗證服務器，則會使用 Kerberos。 
   
-如果您要使用 Lync Windows Store 應用程式用戶端，則必須啟用憑證驗證。
+如果您將使用 Lync Windows Store 應用程式用戶端，則必須啟用憑證驗證。
   
 ### <a name="to-create-new-registrar-configuration-settings"></a>若要建立新的註冊機配置設定
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。  
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。  
     
 3. 在左導覽列中，按一下 [ **安全性** ]，然後按一下 [ **註冊**]。
     
@@ -72,7 +72,7 @@ ms.locfileid: "60015007"
 
 1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。  
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。  
     
 3. 在左導覽列中，按一下 [ **安全性** ]，然後按一下 [ **註冊**]。
     
@@ -92,7 +92,7 @@ ms.locfileid: "60015007"
 
 1. 從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsServerAdministrator 或 CsAdministrator 角色，登入您部署商務用 Skype Server 之網路中的任何電腦。
     
-2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟商務用 Skype Server 控制台。 
+2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
     
 3. 在左導覽列中，按一下 [ **安全性** ]，然後按一下 [ **註冊**]。
     
@@ -104,7 +104,7 @@ ms.locfileid: "60015007"
     
 ## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 移除註冊機設定設定
 
-您可以使用 Windows PowerShell 和 **set-csproxyconfiguration** Cmdlet 來刪除註冊機設定設定。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端工作階段執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連接至商務用 Skype 伺服器的詳細資訊，請參閱 [Microsoft Lync remote PowerShell 管理](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。
+您可以使用 Windows PowerShell 和 **set-csproxyconfiguration** Cmdlet 來刪除註冊機設定設定。 您可以從商務用 Skype Server 管理命令介面或從 Windows PowerShell 的遠端工作階段執行此 Cmdlet。 如需使用遠端 Windows PowerShell 連線到商務用 Skype Server 的詳細資訊，請參閱[Microsoft Lync remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)。
   
 ### <a name="to-remove-a-specific-set-of-registrar-security-settings"></a>移除一組特定的註冊機構安全性設定
 

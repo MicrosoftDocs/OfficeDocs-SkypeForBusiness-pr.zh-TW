@@ -1,6 +1,6 @@
 ---
 title: 布建 Skype 房間系統 Exchange 和 Skype 帳戶
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
 description: 請閱讀下列主題，以瞭解如何布建 Exchange 和 Skype 帳戶 Skype 的會議室系統。
-ms.openlocfilehash: 00fb6c2d3d9a0eb9a68d4aca868f035c1300aff3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe7eb6b1c9fa010ae650115ca63bb59c66d9804
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583307"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775813"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>布建 Skype 房間系統 Exchange 和 Skype 帳戶
  

@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中定義緊急通話的需求
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
 description: 摘要說明在商務用 Skype Server 企業語音中啟用 E9-1-1 時所需的步驟，取決於您是否有 SIP 主幹 E9-1-1 服務提供者或 ELIN 閘道。
-ms.openlocfilehash: e51b51f83279f9676ef113e032c406ee09c28fc2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e60a9c7af7c1245058d4cf7ba54bd275c663a86
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631587"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762161"
 ---
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>在商務用 Skype Server 中定義緊急通話的需求
  

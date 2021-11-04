@@ -1,7 +1,7 @@
 ---
 title: 簽署要求 (憑證授權單位)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 將憑證要求傳送到線上憑證授權單位單位 (CA 時)  (通常是內部網路上的伺服器) 上的 [選擇憑證授權單位單位 (CA) ] 頁面上，會顯示兩個選項：
-ms.openlocfilehash: 96f601a26f64802e93d776438dfc92b50f3ae76a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e75651fe433e187621b0e424bf63d6f0ea93282
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591827"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761411"
 ---
 # <a name="certificate-request-certificate-authority"></a>簽署要求 (憑證授權單位)
  

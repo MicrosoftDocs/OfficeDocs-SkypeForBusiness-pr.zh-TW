@@ -1,7 +1,7 @@
 ---
 title: 會議原則建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: 會議原則定義使用者在會議 (又稱為會議) 時可用的功能和功能。
-ms.openlocfilehash: 3af54cc96418fdd5d55576947e6a0e59b1cbc485
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be0e6ee522d3bff98ab87cc8bbab7057499b0ede
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596797"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775203"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>會議原則：建立新的或編輯現有原則
 

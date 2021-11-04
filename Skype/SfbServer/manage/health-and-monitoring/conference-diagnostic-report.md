@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中的會議診斷報告
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: 摘要：瞭解商務用 Skype Server 中使用的會議診斷報告。
-ms.openlocfilehash: 578f4f2a60ca5dd1706d3b366e4decc35effeb7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c62a45c6bff7a91e6d0252ecc1a8010e5098f42b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630637"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773583"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>商務用 Skype Server 中的會議診斷報告
  

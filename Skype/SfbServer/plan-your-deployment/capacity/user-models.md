@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中的使用者模型
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
 description: 本文所述的使用者模型為商務用 Skype Server 的容量規劃使用者模型使用方式中所述的容量規劃測量和建議提供基礎。
-ms.openlocfilehash: 3086699cc73968b3a3f902ff1f8e99d9e78d7fe3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e72a16668c0247a23ac4d032e0a3f09b06a71cc5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585027"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768631"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>商務用 Skype Server 中的使用者模型
  

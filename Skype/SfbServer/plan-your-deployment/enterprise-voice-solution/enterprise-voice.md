@@ -1,7 +1,7 @@
 ---
 title: 規劃商務用 Skype Server 中的企業語音
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: 在商務用 Skype Server 中企業語音規劃基礎，包括網站、地區、網站之間的網路連結，以及評估語音使用流量。
-ms.openlocfilehash: bfd7d4b1491b83c6ad3ab65836777e805689c21f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 60b762d2e9ef49d912dc00407d7b12d44ec334c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618809"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762141"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>規劃商務用 Skype Server 中的企業語音
  

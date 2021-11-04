@@ -1,6 +1,6 @@
 ---
 title: '規劃會議用戶端 (Web 應用程式和會議應用程式) '
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要： IT 專業人員應該在規劃商務用 Skype Server 時，複查商務用 Skype Web 應用程式和 Skype 會議應用程式的支援需求。 本文並非適用于這些應用程式的使用者。
-ms.openlocfilehash: 29464c7dffbeee1a8ae6eed33764453bed948c58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 615fff0be39afd41745087d4dae4ea40385e034b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608020"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762261"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>規劃會議用戶端 (Web 應用程式和會議應用程式) 
  
@@ -40,7 +40,7 @@ ms.locfileid: "58608020"
   
 根據預設，主控會議的伺服器會將使用者下載並安裝商務用 Skype Web 應用程式以加入會議。 商務用 Skype Web 應用程式儲存在前端伺服器上，而且會傳送給會議出席者。 
   
-針對商務用 Skype Server，Skype 的會議應用程式 (于 Windows 上) ，而且 Mac 版商務用 Skype (在 Mac) 上可以做為商務用 Skype Web 應用程式從 CU5 開始的取代，但提供取代的應用程式需要啟用 Skype 會議應用程式中所述的其他設定，[以取代商務用 Skype Web 應用程式 (選用) ](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。 如果已啟用 Skype 會議應用程式和 Mac 版商務用 Skype，使用者將會從 Microsoft 365 或 Office 365 內容傳遞網路下載最新版本的應用程式，而不是從 (伺服器下載 CDN) 。 針對商務用 Skype Server 2019，使用 Skype 會議應用程式和 Mac 版商務用 Skype 是唯一的選項。
+若為商務用 Skype Server，Skype 的會議應用程式 (于 Windows 上) ，而且 Mac 版商務用 Skype (在 Mac) 上可以做為商務用 Skype Web 應用程式從 CU5 開始的取代，但提供取代的應用程式需要其他設定（如下文所述[）。啟用 Skype 會議應用程式以取代商務用 Skype Web 應用程式 (選用) ](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。 如果已啟用 Skype 會議應用程式和 Mac 版商務用 Skype，使用者將會從 Microsoft 365 或 Office 365 內容傳遞網路下載最新版本的應用程式，而不是從 (伺服器下載 CDN) 。 針對商務用 Skype Server 2019，使用 Skype 會議應用程式和 Mac 版商務用 Skype 是唯一的選項。
   
 Skype會議應用程式提供簡化的瀏覽器體驗，可供下載及安裝應用程式，以及加入會議，包括針對 Internet Explorer 使用者的一次按一下加入。 Skype會議應用程式對可靠性和會議體驗的商務用 Skype Web 應用程式還有許多改進。 
   
@@ -56,12 +56,12 @@ Skype會議應用程式提供簡化的瀏覽器體驗，可供下載及安裝應
 
 | 作業系統 | 銳利 | 32和 64-位 Internet Explorer 11 或更新版本 | 32和 64-位 Internet Explorer 10 或更新版本 | 32和 64-位 Internet Explorer 9 或更新版本 | 32和64位版本的 Safari 6.2.8-11. X | 32和 64-位版本的 Chrome 18. X 或更新版本 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |是  <br/> |是  <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |Yes &#x2778; <br/> |
-|Windows 8.1 &#x2776; <br/> |不適用  <br/> |是  <br/> |N/A  <br/> |N/A  <br/> |N/A <br/> |Yes &#x2778; <br/> |
-|Windows 8 (英特爾) &#x2776; <br/> |N/A  <br/> |不適用  <br/> |是  <br/> |N/A <br/> |N/A  <br/> |Yes &#x2778; <br/> |
+|Windows 10  <br/> |是  <br/> |是  <br/> |不適用  <br/> |不適用  <br/> |不適用  <br/> |Yes &#x2778; <br/> |
+|Windows 8.1 &#x2776; <br/> |不適用  <br/> |是  <br/> |不適用  <br/> |不適用  <br/> |不適用 <br/> |Yes &#x2778; <br/> |
+|Windows 8 (英特爾) &#x2776; <br/> |不適用  <br/> |不適用  <br/> |是  <br/> |不適用 <br/> |不適用  <br/> |Yes &#x2778; <br/> |
 |Windows 7，含 SP1 &#x2777; <br/> |不適用  <br/> |是  <br/> |否  <br/> |否  <br/> |無 <br/>|Yes &#x2778; <br/> |
 |Windows具有 SP1 &#x2777; 的伺服器 2008 R2 <br/> |不適用  <br/> |是  <br/> |是  <br/> |是  <br/> |不適用 <br/>|Yes &#x2778; <br/> |
-| (以 Intel 為基礎的) macOS 10.8 和更新版本 &#x2777; <br/> |N/A  <br/> |N/A  <br/> |N/A  <br/> |不適用  <br/> |是  <br/> |是 <br/> |
+| (以 Intel 為基礎的) macOS 10.8 和更新版本 &#x2777; <br/> |不適用  <br/> |不適用  <br/> |不適用  <br/> |不適用  <br/> |是  <br/> |是 <br/> |
    
 &#x2776; 商務用 Skype Web 應用程式瀏覽器外掛程式需要特定的共用外掛程式，才能使用電腦型語音、影片、共用及查看進行中畫面共用和其他功能。 會議出席者可以選擇在加入會議時安裝共用外掛程式，或在他們啟動這些功能的其中一個。 在 Windows 8 和 Windows 8.1 中，只有當您執行的是桌面的 Internet Explorer 10 或 Internet Explorer 11 時，才可以安裝共用外掛程式。 在非桌上出版本的 Internet Explorer 10 和11中，無法使用這些功能。 請注意，已不再支援 Firefox 和 Safari 版本12.0 和更新版本。
   

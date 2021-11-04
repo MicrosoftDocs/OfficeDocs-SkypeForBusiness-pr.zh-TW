@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 本文將說明來賓Microsoft Teams使用的功能。
-ms.openlocfilehash: 2d8c3656abe6f1749251574ab01368a46984cee9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c58e70896c14719e9aa0289ef0cf6d636393d09d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729612"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774573"
 ---
 # <a name="guest-experience-in-teams"></a>來賓在 Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "58729612"
     
 ![顯示歡迎電子郵件訊息範例的螢幕擷取畫面。](media/guest-experience-image1.png)
     
-所有小組成員在頻道執行緒中都看到一則訊息，宣告團隊擁有者已新增來賓，並提供來賓的名稱。 團隊中每個人都可以輕鬆識別誰是來賓。 頻道討論串右上角的標籤會指出團隊中的來賓人數，而 (**來賓**) 標籤會出現在每個來賓名稱旁。
+所有小組成員在頻道執行緒中都看到一則訊息，宣告團隊擁有者已新增來賓，並提供來賓的名稱。 團隊中每個人都可以輕鬆識別誰是來賓。 頻道討論串右上角的標籤會指出團隊中的來賓人數， (來賓 **) 標籤** 會出現在每個來賓名稱旁。
 
 ![顯示標記的螢幕擷取畫面，指出團隊中的來賓人數。](media/guest-experience-image2.png)
 
@@ -44,7 +44,7 @@ ms.locfileid: "58729612"
 
 下表比較Teams小組成員及其來賓可用的功能。 Teams系統管理員控制來賓可用的功能。
 
-| 在 Teams | Teams組織中使用者 | 客人 |
+| 在 Teams | Teams組織中的使用者 | 客人 |
 |:-----|:-----|:-----|
 |建立頻道  <br/>  *團隊擁有者可控制此設定。*  <br/> |&#x2713;|&#x2713;|
 |參與私人聊天  <br/> |&#x2713;|&#x2713;|
@@ -100,7 +100,7 @@ ms.locfileid: "58729612"
 <sup>1</sup> 這項功能即將推出。
 
 > [!NOTE]
-> Azure **AD Azure Active Directory (** 中的來賓使用者) 限制) 決定您目錄中來賓的許可權。 有三個原則選項。
+> 此 **目錄中的來賓使用者** 存取限制Azure Active Directory (Azure AD) 決定目錄中來賓的許可權。 有三個原則選項。
 >  - **[來賓使用者的存取權和成員相同 (最包容)]** 設定表示來賓擁有的目錄資料存取權，與目錄中的一般使用者相同。
 >  - **[來賓使用者對目錄物件的屬性和成員資格擁有有限的存取權]** 設定表示來賓沒有特定目錄工作的權限，例如列舉使用者、群組，或使用 Microsoft Graph 的其他目錄資源。
 >  - **[來賓使用者存取權受限於其自身目錄物件的屬性和成員資格 (最受限制)]** 設定表示來賓只能存取自己的目錄物件。
@@ -110,3 +110,5 @@ ms.locfileid: "58729612"
 ## <a name="related-topics"></a>相關主題
 
 [離開組織做為來賓](/azure/active-directory/b2b/leave-the-organization)
+
+[使用來賓存取和外部存取與組織外的人員共同作業](communicate-with-users-from-other-organizations.md)

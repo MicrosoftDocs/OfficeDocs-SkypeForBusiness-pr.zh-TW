@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中的高級企業語音功能的網路設定
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: 深入瞭解網路地區、網路網站和 IP 子網。 所有這些都必須設定為在商務用 Skype 中部署媒體旁路的計畫、在商務用 Skype Server) 中規劃通話許可控制，或在商務用 Skype Server 企業語音的商務用 Skype Server 中規劃緊急服務。
-ms.openlocfilehash: 97cf81bb3efa9aa5d4b8717018232d479fcbf2c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd81c9084ca94e7b0884d1c496c153fd964bcf89
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608000"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762111"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>商務用 Skype Server 中的高級企業語音功能的網路設定
 

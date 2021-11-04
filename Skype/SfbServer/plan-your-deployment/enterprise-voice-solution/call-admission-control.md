@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中規劃通話許可控制
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: 深入瞭解通話許可控制，可防止來電發生時不佳的媒體質量商務用 Skype Server 企業語音中。
-ms.openlocfilehash: b57d9f4d6a26acb33b03ab1befb9132ffebc9a20
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 59b8d3f74d138e087f4a5b49b7a40d6ec935a829
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725962"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768641"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃通話許可控制
 

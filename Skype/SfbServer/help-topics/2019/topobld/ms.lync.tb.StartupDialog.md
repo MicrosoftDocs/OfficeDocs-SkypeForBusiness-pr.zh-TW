@@ -1,7 +1,7 @@
 ---
 title: 拓撲產生器啟動對話方塊
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 啟動拓撲產生器以設定部署的屬性和設定。 在啟動時，拓撲產生器會顯示一個對話方塊，詢問拓撲檔的來源。 您可以選取下列三個選項之一：
-ms.openlocfilehash: 9f50a5d69de9c22665585eb50dd19ab3b39a9c76
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c817a08bc55c9cca6a8989dcb636dcedfdb19388
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732342"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775263"
 ---
 # <a name="topology-builder-startup-dialog"></a>拓撲產生器啟動對話方塊
  

@@ -1,7 +1,7 @@
 ---
 title: 管理商務用 Skype Server 的服務
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: 本文說明如何管理在商務用 Skype Server 拓朴中執行的服務。
-ms.openlocfilehash: be613203b9e15640ead1b136ebe1b89f4c4c50ea
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6ef87e9dfba890e36a0a00fb9d7fd1161ca2f04d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014177"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768691"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>管理商務用 Skype Server 的服務
 

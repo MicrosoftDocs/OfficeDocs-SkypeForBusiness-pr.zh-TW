@@ -1,7 +1,7 @@
 ---
 title: 存取邊緣設定
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1bd49911-df70-4f96-85bc-1f005ea65163
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 7f6ec5daf5637cc0e635c73309eae46fd778a616
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8f3941fd64494a4377f82a7a60501fd79a919b29
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579127"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769061"
 ---
 # <a name="access-edge-configuration"></a>存取邊緣設定
 

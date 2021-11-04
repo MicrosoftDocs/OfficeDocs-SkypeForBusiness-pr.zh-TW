@@ -1,7 +1,7 @@
 ---
 title: 新增 SQL 存放區
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要定義新的 SQL 儲存區，這表示您指定的是 SQL Server 型資料庫和 SQL Server 實例（預設實例或命名實例），您必須指定下列各項。
-ms.openlocfilehash: a20784ca216d8a1776605089a18e79a6d6f0f3c6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fee7fcd3a7d18f9bf6f3c8fe91c3c971c9cdcba0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597107"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769331"
 ---
 # <a name="add-sql-store"></a>新增 SQL 存放區
 
