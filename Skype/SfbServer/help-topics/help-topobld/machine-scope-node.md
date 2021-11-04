@@ -1,7 +1,7 @@
 ---
 title: 電腦範圍節點
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 description: 此節點會顯示此伺服器的伺服器完整網域名稱 (FQDN) 和 IP 位址組態。您可以執行下列動作：
-ms.openlocfilehash: 67a81ba8d6c9c3c811beb91f9bcb5ac3ff3b447e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 158913442441abcaa05737f7e78a96c22bfa8d2c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591297"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760771"
 ---
 # <a name="machine-scope-node"></a>電腦範圍節點
  

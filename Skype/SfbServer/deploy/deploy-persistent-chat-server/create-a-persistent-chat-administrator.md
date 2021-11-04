@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 2015 中建立持續性聊天系統管理員
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: 摘要：閱讀此主題以瞭解如何建立 persistent chat Server 系統管理員角色，以在商務用 Skype Server 2015 中啟用 persistent 聊天服務的初始設定和管理。
-ms.openlocfilehash: bf534f937282aa90d7d66e2de9893f075a351251
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19d777d5da21de8e446320c259c065c0fb2e6bff
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601868"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759025"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中建立持續性聊天系統管理員
  

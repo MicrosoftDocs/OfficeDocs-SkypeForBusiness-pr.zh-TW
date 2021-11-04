@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 2015 的位置表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 78dc1b14-5394-4f8e-89d3-4ba593272a04
 description: 每筆記錄代表緊急通話中參照的一個位置，例如 E9-1-1 通話。
-ms.openlocfilehash: 268fedfd045c86edcf331da10048d45168f12f6a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7a14e44e5514944c69f751e21ed055a9ab1fa114
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584887"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746549"
 ---
 # <a name="locations-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的位置表格
  

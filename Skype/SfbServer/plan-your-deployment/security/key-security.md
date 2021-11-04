@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中的主要安全性功能
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: 商務用 Skype Server 包含數個安全性功能，包括伺服器對伺服器驗證、角色型存取控制，以及設定資料的集中式儲存區。
-ms.openlocfilehash: eff104fa777837180f4c5b9118fd29a6341267e4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e24f9cc32d7f6d3730813abea4e98d4288861ec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595367"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768491"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>商務用 Skype Server 中的主要安全性功能
  

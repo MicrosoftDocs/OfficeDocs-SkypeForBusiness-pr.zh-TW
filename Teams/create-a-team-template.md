@@ -1,7 +1,7 @@
 ---
 title: 在範本中建立自訂Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3c388ab19d74370612531e3ac998ff3e928e0d3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b7f3574121bb056208748be522af0b9a5f744846
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726892"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749692"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>在範本中建立自訂Microsoft Teams
 
@@ -42,7 +42,7 @@ ms.locfileid: "58726892"
 
 3. 選取 [新增 **]**。
 
-    ![[小組範本> 對話方塊的影像，其中已加上 [新增> 的顯示畫面。](media/team-templates-new.png)
+    ![[小組範本> 對話方塊的影像，其中已強調 [新增> 。](media/team-templates-new.png)
 
 4. 在小組 **範本區** 段，選取 **建立全新的範本**。
 
@@ -96,7 +96,7 @@ ms.locfileid: "58726892"
 
 ## <a name="known-issues"></a>已知問題
 
-**問題**：如果您從包含其他自訂定位字元的自訂範本建立團隊，您可能會在自訂的選項卡 App 中看到空白的定位停駐點。 您的預設 (，例如文章、**檔案** 和 **Wiki**) 會顯示如預期。
+**問題**：如果您從包含其他自訂定位字元的自訂範本建立團隊，您可能會在自訂的選項卡 App 中看到空白的定位停駐點。 您的預設 (，例如 **文章、****檔案** 和 **Wiki**) 會顯示如預期。
 
 **解決方案**：若要修正此問題，請移除自訂定位點，並使用相同的應用程式新增定位點。 如果您沒有許可權移除自訂定位停駐點並新增新定位停駐點，請聯絡團隊擁有者以尋求協助。
 
@@ -106,7 +106,7 @@ ms.locfileid: "58726892"
 
 ![瀏覽器錯誤訊息。](media/browser-error-message.png)
 
-解決方案：如果您無法檢視網站選項卡的內容，系統將會重新導向您以另一個網頁開啟該選項卡，或改為在桌面應用程式中開啟 Teams 來檢視您的網站製表應用程式。
+解決方案：如果您無法檢視網站選項卡的內容，系統將會重新導向您以另一個網頁開啟該選項卡，或改為在桌面應用程式中開啟 Teams 來檢視您的網站 Tab 應用程式。
 
 ## <a name="related-topics"></a>相關主題
 

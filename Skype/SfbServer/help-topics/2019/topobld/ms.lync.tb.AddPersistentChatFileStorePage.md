@@ -1,7 +1,7 @@
 ---
 title: 新增常設聊天室檔案存放區
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您必須指定要用來做為 Standard Edition server 或 Enterprise Edition 前端集區之檔案存放區的檔案共用。 您可以使用檔案存放區現有的檔案共用，也可以指定新的檔案共用，方法是指定檔案共用所在的檔案伺服器的完整功能變數名稱 (FQDN) ，以及新檔案共用的資料夾名稱。
-ms.openlocfilehash: 71215dc48a3404f5ee4d7ba59f62afa489272b51
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d58f9124e41fab027c5e55429cd47d21e6849fd4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631837"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758705"
 ---
 # <a name="add-persistent-chat-file-store"></a>新增常設聊天室檔案存放區
 

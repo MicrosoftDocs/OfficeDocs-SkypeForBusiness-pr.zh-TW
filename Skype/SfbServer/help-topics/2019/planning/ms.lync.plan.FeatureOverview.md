@@ -1,7 +1,7 @@
 ---
 title: " (規劃工具的功能綜述) "
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: 商務用 Skype Server規劃工具
-ms.openlocfilehash: c1272cf0809be097e9f5b0282b165ef899744520
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0b47d1dad12d4933f042217b4762d7bb4f766c6c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600498"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758775"
 ---
 # <a name="feature-overview-planning-tool"></a> (規劃工具的功能綜述) 
  

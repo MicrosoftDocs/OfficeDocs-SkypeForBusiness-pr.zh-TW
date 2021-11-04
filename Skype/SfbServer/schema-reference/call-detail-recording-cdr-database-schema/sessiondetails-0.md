@@ -1,7 +1,7 @@
 ---
 title: SessionDetails view
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: SessionDetails view 儲存點對點工作階段的資訊，這可能是 VoIP-VoIP 電話、兩方 IM 會話或其他類型的會話。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 454cefc905409e0488121addab2cac5df55ef34d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a278960912ac38dc75fe398e3d75de710785800
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625125"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767451"
 ---
 # <a name="sessiondetails-view"></a>SessionDetails view
  

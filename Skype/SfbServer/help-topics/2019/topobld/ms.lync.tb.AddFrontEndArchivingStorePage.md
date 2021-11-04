@@ -1,7 +1,7 @@
 ---
 title: 新增前端封存存放區
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 封存需要支援的64位版本的 Microsoft SQL Server 資料庫軟體才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫，以用於封存，或透過指定 SQL Server 資料庫所在之伺服器 (FQDN) 來定義新的 SQL Server 資料庫，除了您想要用於新 SQL Server 資料庫的 SQL Server 實例之外（也就是您指定 (的命名實例）。
-ms.openlocfilehash: a2709a2701e64c201eeb14789ddabf815afdbf69
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa9bd6bf078ff0b462cd74b690bc3166f79efc5b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587643"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766931"
 ---
 # <a name="add-front-end-archiving-store"></a>新增前端封存存放區
 

@@ -1,7 +1,7 @@
 ---
 title: 規劃商務用 Skype Server 中的工作通話
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: 規劃在商務用 Skype Server 中的工作進行呼叫，可在商務用 Skype 和 pbx 電話系統之間進行整合，讓使用者可以使用商務用 Skype 來控制其 PBX 電話。
-ms.openlocfilehash: bc2a20741f4f89d4a535b9aa0278fea85a8f44c6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 268ee3a6caa7b304cc63b4e7e16c2a7565f9ced3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732582"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768561"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>規劃商務用 Skype Server 中的工作通話
  
@@ -99,7 +99,7 @@ ms.locfileid: "58732582"
 
 若要讓任何使用者都能撥打工作，您必須預先準備一些必要條件。 如需這些必要條件的詳細資訊，以及如何讓使用者能夠透過工作進行通話的步驟，請參閱[商務用 Skype Server 2015 中的「部署呼叫](../../deploy/deploy-call-via-work.md)」。 
   
-## <a name="see-also"></a>也請參閱
+## <a name="see-also"></a>另請參閱
 
 [在商務用 Skype 中規劃遠端呼叫控制](remote-call-control.md)
   

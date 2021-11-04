@@ -1,7 +1,7 @@
 ---
 title: 搭配商務用 Skype 用戶端和商務用 Skype Server 使用雙因素驗證
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 摘要：搭配商務用 Skype Server 和商務用 Skype 使用雙因素驗證。
-ms.openlocfilehash: 5b1003c78020e1181112a0ccadaf66a7d1dd4da4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3bcba5d4bdd6aacee794b40273b2cb92c83df50a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587121"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767861"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>搭配商務用 Skype 用戶端和商務用 Skype Server 使用雙因素驗證
  

@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 2015 中的 IMReportSummary 表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 27ff9453-53f2-4fae-b637-70a086c9df96
 description: IMReportSummaryTable 會提供組織中保留之立即訊息工作階段的整體報告。 此表格已引進 Microsoft Lync Server 2013。
-ms.openlocfilehash: 539afa3a743ec391273a3023ac592f98c9157a58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 41856ffd49029f627fd9af93c5bbe296cddd429a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635197"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746669"
 ---
 # <a name="imreportsummary-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 IMReportSummary 表格
  

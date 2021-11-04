@@ -1,7 +1,7 @@
 ---
 title: 定義用來判斷商務用 Skype Server 中的位置的網路元素
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
 description: 規劃為商務用 Skype Server 企業語音中的 E9-1-1 部署將來電者對應到哪些網路元件所需的決策。
-ms.openlocfilehash: e3a1ef0c5f500327d97a263b4dad206624617ffa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 908e8b45f1825d7bd98693810ac97b13d4aa3273
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632697"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768501"
 ---
 # <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>定義用來判斷商務用 Skype Server 中的位置的網路元素
  

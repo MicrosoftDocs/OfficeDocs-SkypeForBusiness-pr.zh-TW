@@ -1,7 +1,7 @@
 ---
-title: 商務用 Skype Server 2015 資源工具組工具檔
+title: 商務用 Skype Server 2015 資源套件工具檔
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/20/2017
@@ -12,27 +12,27 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
-description: 本文說明商務用 Skype Server 2015 資源套件中的工具，包含每個工具的用途，以及其用途的範例。 商務用 Skype Server 2015 資源套件可協助 IT 系統管理員部署及管理商務用 Skype Server 2015，使日常工作變得更容易。 例如，網路會議資料工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 SEFAUtil 工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具，更有效地管理商務用 Skype Server 2015。
-ms.openlocfilehash: 563e60c68a82e885c3bf1beb2ed0d573ec508aa4
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 本文說明商務用 Skype Server 2015 資源套件中的工具，包含每個工具的目的，以及其用途的範例。 商務用 Skype Server 2015 資源套件可協助 IT 系統管理員部署及管理商務用 Skype Server 2015，使日常工作變得更容易。 例如，網路會議資料工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 SEFAUtil 工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具更有效率地管理商務用 Skype Server 2015。
+ms.openlocfilehash: 2abe47086a014a04ab2ce15401c5e92e1fa2f0f1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012387"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760571"
 ---
-# <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>商務用 Skype Server 2015 資源工具組工具檔
+# <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>商務用 Skype Server 2015 資源套件工具檔
 
-本文說明商務用 Skype Server 2015 資源套件中的工具，包含每個工具的用途，以及其用途的範例。 商務用 Skype Server 2015 資源套件可協助 IT 系統管理員部署及管理商務用 Skype Server 2015，使日常工作變得更容易。 例如，網路會議 **資料** 工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 **SEFAUtil** 工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具，更有效地管理商務用 Skype Server 2015。
+本文說明商務用 Skype Server 2015 資源套件中的工具，包含每個工具的目的，以及其用途的範例。 商務用 Skype Server 2015 資源套件可協助 IT 系統管理員部署及管理商務用 Skype Server 2015，使日常工作變得更容易。 例如，網路會議 **資料** 工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 **SEFAUtil** 工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具更有效率地管理商務用 Skype Server 2015。
 
 ## <a name="installation-of-the-resource-kit-tools"></a>安裝資源工具組工具
 
-若要安裝商務用 Skype Server 2015 資源套件，請從下載中心下載 [OCSReskit.msi](https://www.microsoft.com/download/details.aspx?id=52631) 。
+若要安裝商務用 Skype Server 2015 資源套件，請從下載中心下載[OCSReskit.msi](https://www.microsoft.com/download/details.aspx?id=52631) 。
 
-執行 **OCSResKit.msi** 以執行簡單安裝。 .msi 會安裝下列路徑中的所有工具： **% Program Files%\Skype For Business Server 2015 \ ResKit**。 屬於自包含可執行檔的工具位於此資料夾中。 也有支援檔案的工具位於自己的子資料夾中。
+執行 **OCSResKit.msi** 以執行簡單安裝。 .msi 會安裝下列路徑中的所有工具： **% Program Files% \ 商務用 Skype Server 2015 \ ResKit**。 屬於自包含可執行檔的工具位於此資料夾中。 也有支援檔案的工具位於自己的子資料夾中。
 
 ## <a name="supported-environments"></a>支援的環境
 
-商務用 Skype Server 2015 資源套件應該安裝在符合商務用 Skype Server 2015 （通常是用來執行商務用 Skype Server 2015）所需規格的伺服器上。
+商務用 Skype Server 2015 資源套件應該安裝在符合商務用 Skype Server 2015 所需規格的伺服器上，通常是用來執行商務用 Skype Server 2015。
 
 ## <a name="resource-kit-tools-overview"></a>資源工具組工具概述
 
@@ -71,7 +71,7 @@ ms.locfileid: "60012387"
 ## <a name="absconfig"></a>ABSConfig
 <a name="ABSConfig"> </a>
 
-通訊錄服務設定工具 (ABSConfig) 是一種系統管理工具，可協助系統管理員在商務用 Skype Server 2015 中自訂通訊錄服務設定。 此工具也可讓商務用 Skype Server 2015 系統管理員還原預設通訊錄服務設定。
+通訊錄服務設定工具 (ABSConfig) 是一種系統管理工具，可協助系統管理員自訂商務用 Skype Server 2015 中的通訊錄服務設定。 此工具也可讓商務用 Skype Server 2015 系統管理員還原預設通訊錄服務設定。
 
 ### <a name="description"></a>描述
 
@@ -85,7 +85,7 @@ ABSConfig 是一種圖形使用者介面應用程式，可讓系統管理員設�
 
 - 若要讓系統管理員能夠還原，請預設的通訊錄服務設定。
 
-您可以使用 ABSConfig.exe 檔啟動 ABSConfig 工具。 工具隨即開啟至 [ **設定屬性** ] 索引標籤。此表格中的選項可將 Active Directory 網域服務屬性對應至商務用 Skype Server 2015 的屬性欄位，以及指定哪些使用者要在通訊錄服務檔案中包含或排除，以特定的屬性篩選器為基礎。 也可以選擇自訂要包含在通訊錄檔案中的電話號碼值。 [ **還原預設** 值] 選項可讓系統管理員將通訊錄服務設定還原為預設值。
+您可以使用 ABSConfig.exe 檔啟動 ABSConfig 工具。 工具隨即開啟至 [**設定屬性**] 索引標籤。此表格中的選項可將 Active Directory 網域服務屬性對應至商務用 Skype Server 2015 的屬性欄位，並指定哪些使用者在通訊錄服務檔案中包含或排除根據特定的屬性篩選器。 也可以選擇自訂要包含在通訊錄檔案中的電話號碼值。 [ **還原預設** 值] 選項可讓系統管理員將通訊錄服務設定還原為預設值。
 
 > [!NOTE]
 > 將 AD 屬性重新對應至不同的 OC 功能變數名稱只會在通訊錄檔案下載時運作，且不受通訊錄 Web 查詢的支援。
@@ -100,13 +100,13 @@ Path: %ProgramFiles%\Skype for Business Server 2015\Reskit
 
 ### <a name="purpose"></a>用途
 
-ABSConfig 提供一種快速快捷的方式，可自訂商務用 Skype Server 2015 Address Book 服務。
+ABSConfig 提供一種快速快捷的方式，可自訂商務用 Skype Server 2015 通訊錄服務。
 
 ### <a name="requirements"></a>需求
 
 #### <a name="computer"></a>電腦
 
-ABSConfig 只能在已安裝商務用 Skype Server 2015 的已加入網域的電腦上執行。 在商務用 Skype Server 2015，Enterprise Edition 的情況下，此工具可以在安裝期間啟用通訊錄服務的任何 Front-End 伺服器上執行。
+ABSConfig 只能從已安裝商務用 Skype Server 2015 的已加入網域的電腦執行。 在商務用 Skype Server 2015 的情況下 Enterprise Edition，此工具可以在安裝期間啟用通訊錄服務的任何 Front-End 伺服器上執行。
 
 #### <a name="network"></a>網路
 
@@ -120,7 +120,7 @@ ABSConfig 只能在已安裝商務用 Skype Server 2015 的已加入網域的電
 
 #### <a name="users"></a>使用者
 
-具備更新商務用 Skype Server 2015 部署所需許可權的系統管理員。
+具備更新商務用 Skype Server 2015 部署所需之許可權的系統管理員。
 
 ### <a name="examples"></a>範例
 
@@ -130,14 +130,14 @@ ABSConfig 只能在已安裝商務用 Skype Server 2015 的已加入網域的電
 
 ### <a name="summary"></a>摘要
 
-ABSConfig 工具為系統管理員提供快速易用的工具，以自訂商務用 Skype Server 2015 通訊錄服務。
+ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂商務用 Skype Server 2015 通訊錄服務。
 
 ## <a name="bandwidth-policy-service-monitor"></a>頻寬原則服務監視器
 <a name="bpsm"> </a>
 
 「頻寬原則服務監視」工具的目的是讓系統管理員可以查看下列專案的清單：
 
-1. 拓撲中所有已設定的商務用 Skype Server 2015 頻寬原則服務 (驗證及核心) 
+1. 拓撲中所有設定的商務用 Skype Server 2015 頻寬原則服務 (驗證與核心) 
 
 2. 每個服務對其他頻寬原則服務和 Edge server 所進行的連接
 
@@ -951,7 +951,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 回應群組代理程式 Live 需要 .NET Framework 4.0。 此外，若要利用目前狀態和連絡人卡片的功能，必須在本機安裝商務用 Skype (並在) 執行。
 
-#### <a name="configuration"></a>設定
+#### <a name="configuration"></a>組態
 
 回應群組代理程式 Live 可透過應用程式中的 [選項] 對話方塊，自訂為個別喜好設定。 此外，管理員可以直接編輯 RGAgentLive.exe.config 檔案的 defaultHostAddress 屬性，來定義預設的主機位址。
 
@@ -1017,7 +1017,7 @@ SEFAUtil (次要擴充功能啟動) 可讓商務用 Skype Server 2015 系統管�
 
 此工具具有下列限制：
 
-- 僅支援位於商務用 Skype 伺服器集區中的使用者
+- 僅支援駐留在商務用 Skype Server 集區中的使用者
 
 - 不支援多個使用者的通話路由設定的大量編輯
 
@@ -1029,15 +1029,15 @@ SEFAUtil (次要擴充功能啟動) 可讓商務用 Skype Server 2015 系統管�
 
 以下是一些可能使用此工具的主要案例：
 
-- 王俊元是一種主管，已移至商務用 Skype Server 電話語音。 他已在現有的 PBX 系統上進行委派。 在 [移至商務用 Skype Server 2015] 的一部分，管理員可以設定王俊元的路由，以反映其預先存在的委派設定。
+- 王俊元是執行程式，已移至商務用 Skype Server 電話語音。 他已在現有的 PBX 系統上進行委派。 在移動商務用 Skype Server 2015 時，系統管理員可以設定王俊元的路由，以反映其預先存在的委派設定。
 
 - 劉愛琳在旅行中，意識到她期望來自他客戶的一項重要通話。 不過，她位於酒店，而且無法存取電腦。 她撥打説明台，並要求他們將來電轉接給她的行動電話號碼。 服務台人員可以代表她執行設定。
 
 - Joe 在工作時，他們的工作號碼會進入行動語音信箱。不過，在大多數其他位置中看起來似乎正常運作。 説明台技術人員可以查看 Joe 的路由設定，並探索李先生已設定為行動電話的同時震鈴。 技術人員會詢問 Joe 有關其辦公室內行動覆蓋率的資訊，並且能夠判斷同時響鈴的規則，也就是當網路服務品質不良的情況時，會導致來電進入 Joe 的行動電話語音信箱。
 
-- Mike 是 Contoso 的新員工，他加入新的小組，所有成員皆為「小組通話」，當啟用商務用 Skype Server 2015 時，系統管理員可以設定他的小組通話群組設定，以包含所有新的小組成員，此外，系統管理員也會新增 Mike 做為小組中每個成員的小組通話群組成員。
+- Mike 是 Contoso 的新員工，他加入新的小組，其所有成員皆為「小組通話」，當為商務用 Skype Server 2015 啟用時，系統管理員可以設定他的小組通話群組設定，以包含所有新的小組成員，此外，系統管理員會新增 Mike 作為小組中每個成員的小組通話群組成員。
 
-- 在 Contoso 的人力資源部門中，客戶服務實踐是為自第一次呼叫後的所有來電者提供個人服務。 假設部門的所有成員都非常接近對方，當小組通話中斷時，小組通話的所有電話都會中斷。 若要在不中斷小組成員的情況下提供最佳服務，商務用 Skype Server 2015 系統管理員會利用「群組呼叫收取」功能。 系統管理員會將所有部門成員新增至收取群組，並與該部門通訊收取群組編號。 當她的辦公桌沒有 Samantha 時，Joe 會通知她的電話鈴聲，他會繼續接聽他的電話。
+- 在 Contoso 的人力資源部門中，客戶服務實踐是為自第一次呼叫後的所有來電者提供個人服務。 假設部門的所有成員都非常接近對方，當小組通話中斷時，小組通話的所有電話都會中斷。 若要提供最佳服務，而不中斷團隊成員，商務用 Skype Server 2015 系統管理員會利用群組呼叫收取功能。 系統管理員會將所有部門成員新增至收取群組，並與該部門通訊收取群組編號。 當她的辦公桌沒有 Samantha 時，Joe 會通知她的電話鈴聲，他會繼續接聽他的電話。
 
 ### <a name="requirements"></a>需求
 
@@ -1045,7 +1045,7 @@ SEFAUtil 工具只能在屬於受信任應用程式集區一部分的電腦上�
 
 ### <a name="creating-a-new-trusted-application-for-the-sefautil-tool"></a>為 SEFAUtil 工具建立新的信任應用程式
 
-1. SEFAUTil 工具只能在屬於受信任應用程式集區一部分的電腦上執行。 如有需要，您可以透過商務用 Skype Server 管理命令介面，將集區新增為新的受信任應用程式集區，其 Cmdlet 如下：
+1. SEFAUTil 工具只能在屬於受信任應用程式集區一部分的電腦上執行。 如有需要，將集區新增為新的受信任應用程式集區，可透過使用下列 Cmdlet 的商務用 Skype Server 管理命令介面進行：
 
    ```powershell
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
@@ -1064,8 +1064,8 @@ SEFAUtil 工具只能在屬於受信任應用程式集區一部分的電腦上�
     > 您可以視需要使用不同的埠。
     
     > [!NOTE]
-    > 集區 FQDN：將主控 SEFAUtil 應用程式之伺服器或集區的 FQDN (通常是商務用 Skype 前端伺服器 > 或集區) 。
-    > 集區註冊機 FQDN：與此應用程式集區相關聯之商務用 Skype 前端伺服器或集區的 FQDN。
+    > 集區 FQDN：將主控 SEFAUtil 應用程式之伺服器或集區的 fqdn (通常是商務用 Skype 前端伺服器 > 或集區) 。
+    > 集區報名者 fqdn：與此應用程式集區關聯的商務用 Skype 前端伺服器或集區的 FQDN。
     > 集區網站：此集區所在之網站的網站識別碼。
 
 3. 需要啟用拓撲變更。 您可以透過執行下列 Cmdlet，透過商務用 Skype Server 管理命令介面來啟用拓撲變更：
@@ -1074,9 +1074,9 @@ SEFAUtil 工具只能在屬於受信任應用程式集區一部分的電腦上�
    Enable-CsToplogy
    ```
 
-4. 如有需要，在伺服器上安裝用來執行 SEFAUtil 工具的商務用 Skype Server 2015 資源工具組工具 (伺服器必須是信任的應用程式集區) 的一部分。
+4. 如有需要，請在伺服器上安裝商務用 Skype Server 2015 資源套件工具，以用於執行 SEFAUtil 工具 (伺服器必須是信任的應用程式集區) 的一部分。
 
-5. 驗證 SEFAUtil 是否正常運作。 若要執行此動作，請從使用管理員許可權的 windows 命令提示字元執行工具，以顯示部署中使用者的「來電轉接」設定。 依預設，此工具會位於： "..\Program Files\Skype for Business Server 2015 \ Reskit"。 若要顯示使用者的「來電轉接」設定，請使用下列命令：
+5. 驗證 SEFAUtil 是否正常運作。 若要執行此動作，請從使用管理員許可權的 windows 命令提示字元執行工具，以顯示部署中使用者的「來電轉接」設定。 依預設，工具將位於： "..\Program Files \ 商務用 Skype Server 2015 \ Reskit"。 若要顯示使用者的「來電轉接」設定，請使用下列命令：
 
    ```console
    SEFAUtil.exe <user SIP address> /server:<Skype for Business Server/Pool FQDN>
@@ -1095,7 +1095,7 @@ SEFAUtil 工具只能在屬於受信任應用程式集區一部分的電腦上�
 下列命令會顯示使用者的通話處理。  `SEFAUtil.exe /server:SfBS2015server.contoso.com katarina@contoso.com`
 
 > [!NOTE]
-> 本範例會使用 **/server** 參數來指定要連接的商務用 Skype server。
+> 這個範例會使用 **/server** 參數來指定要連接的商務用 Skype Server。
 
  **輸出**
 

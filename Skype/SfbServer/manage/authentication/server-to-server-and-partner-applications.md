@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中管理伺服器對伺服器驗證 (OAuth) 和夥伴應用程式
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: 摘要：管理商務用 Skype Server 中的 OAuth 和夥伴應用程式。
-ms.openlocfilehash: 1f2b963ad8a116236e3a0bdb33307e9f9d4a95f7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d49006bd01de80bd23d8f70954478b6b6a2bbea4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608200"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760741"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>在商務用 Skype Server 中管理伺服器對伺服器驗證 (OAuth) 和夥伴應用程式
  
 **摘要：** 管理商務用 Skype Server 中的 OAuth 和夥伴應用程式。
   
-商務用 Skype Server 必須能夠與其他應用程式和伺服器產品進行安全、順利的通訊。 例如，您可以設定商務用 Skype Server，讓連絡人資料和（或）封存資料儲存在 Microsoft Exchange Server 2013 中;不過，只有商務用 Skype Server 和 Exchange 能夠安全地相互通訊時，才可以執行此動作。 同樣地，您也可以在 Office Web 應用程式伺服器中排程商務用 Skype Server 會議;同樣地，如果兩部伺服器 (SharePoint 和商務用 Skype Server) 彼此信任，就會這麼做。 雖然您可以使用一種驗證機制來商務用 Skype Server 和 Exchange 之間的通訊，但是商務用 Skype Server 和 SharePoint 通訊的個別機制，但使用標準化的方法是針對所有伺服器對伺服器驗證和授權的方式。
+商務用 Skype Server 必須能夠與其他應用程式和伺服器產品進行安全、順利的通訊。 例如，您可以設定商務用 Skype Server，讓連絡人資料和（或）封存資料儲存在 Microsoft Exchange Server 2013 中;不過，只有商務用 Skype Server 和 Exchange 能夠安全地相互通訊時，才可以執行此動作。 同樣地，您也可以在 Office Web 應用程式伺服器中排程商務用 Skype Server 會議;同樣地，如果兩部伺服器 (SharePoint 和商務用 Skype Server) 彼此信任，就會這麼做。 雖然可以使用一種驗證機制來商務用 Skype Server 和 Exchange 之間的通訊，但是商務用 Skype Server 和 SharePoint 通訊的個別機制，使用標準化方法進行所有伺服器對伺服器驗證並授權。
   
 使用單一的標準化方法進行伺服器對伺服器的驗證是商務用 Skype Server 所採用的方法。 開始使用 Office server 2013 版本、商務用 Skype Server (以及其他 Microsoft Server 產品（包括 Exchange Server 及 SharePoint server) 支援 OAuth (開放授權) 通訊協定，以進行伺服器對伺服器驗證和授權。 藉由 OAuth (一些主要網站皆使用的標準授權通訊協定)，使用者認證及密碼並不會在電腦間傳遞。 驗證及授權是基於安全性權杖的交換，這些權杖會授與一段特定時間內一組特定資源的存取權。
   
@@ -37,7 +37,7 @@ OAuth 驗證通常涉及三方：單一授權伺服器及兩個需要互相通�
   
 - 設定商務用 Skype Server 的內部部署安裝與 Exchange 和/或 SharePoint 伺服器的內部部署安裝之間的伺服器對伺服器驗證。
     
-- 設定一對 Microsoft 365 或 Office 365 元件之間的伺服器對伺服器驗證 (例如，介於 Microsoft Exchange Server 及商務用 Skype Server 之間，或商務用 Skype Server 和 SharePoint) 之間。
+- 設定一對 Microsoft 365 或 Office 365 元件之間的伺服器對伺服器驗證 (例如，介於 Microsoft Exchange Server 及商務用 Skype Server 之間，或商務用 Skype Server 與SharePoint) 。
     
 - 在跨單位環境中設定伺服器對伺服器的驗證 (也就是說，在內部部署伺服器與 Microsoft 365 或 Office 365 元件) 之間的伺服器對伺服器驗證。
     

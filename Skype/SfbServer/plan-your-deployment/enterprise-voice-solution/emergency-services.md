@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中規劃緊急服務
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 深入瞭解商務用 Skype Server 企業語音中的增強型 9-1-1 (E9-1-1) 服務，包括位置取得及呼叫路由。
-ms.openlocfilehash: 18cb4158e7e7d31772f365711b1ec5e0ed22357a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f3efcea6747c27e041e581b5d0461fd4c925eb84
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732752"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767611"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃緊急服務
 
@@ -43,7 +43,7 @@ ms.locfileid: "58732752"
 
 -  (PSTN) E9-1-1-1-1-1-1-1-1-1-1-1-1-1-1-1 服務提供者)  (
 
-當您使用 SIP 主幹 E9-1-1 服務提供者時，會將 Erl 新增至位置資訊服務資料庫，然後依照主要街道位址指南 (MSAG) （由 E9-1-1 服務提供者所維護）來驗證位置。 如果 E9-1-1 服務提供者收到的來電沒有位置資訊，或其位置尚未針對 MSAG 驗證，請 E9-1-1 服務提供者會將通話路由傳送到國內/地區緊急通話回應中心 (ECRC) ，其專為訓練有素的人員，其口頭取得來電者的位置，並手動將通話路由到適當的 PSAP。  (某些 SIP 主幹 E9-1-1 服務提供者也會為客戶提供 PSTN direct 向內撥號 (是否) 號碼傳送至 ECRC，如果 SIP 主幹因任何原因而失敗，則會提供另一種路由9-1-1 呼叫的方式。 ) 
+當您使用 SIP 主幹 E9-1-1 服務提供者時，會將 Erl 新增至位置資訊服務資料庫，然後依照主要街道位址指南 (MSAG) （由 E9-1-1 服務提供者所維護）來驗證位置。 如果 E9-1-1 服務提供者收到的來電沒有位置資訊，或其位置尚未透過 MSAG 驗證，則 E9-1-1 服務提供者會將通話路由傳送到國內/地區緊急通話回應中心 (ECRC) ，也就是專門訓練有素的人員，其口頭可取得來電者的位置。 如果可能的話，並手動將通話路由傳送至適當的 PSAP。  (某些 SIP 主幹 E9-1-1 服務提供者也會為客戶提供 PSTN direct 向內撥號 (是否) 號碼傳送至 ECRC，如果 SIP 主幹因任何原因而失敗，則會提供另一種路由9-1-1 呼叫的方式。 ) 
 
 不同于時間分割多工 (TDM) 和 IP 型專用交換機 (PBX) 電話（具有固定位置），商務用 Skype 端點可以是非常行動的。 當您部署 E9-1-1 功能時，商務用 Skype Server 會協助確保無論來電者位於何處，緊急呼叫都可以路由傳送到叫用來電者位置的 PSAP。 例如，如果使用者的主辦公室位於 Redmond，但使用者在 Wichita 中從分公司的電腦撥打緊急電話，則 Kansas 會在 SIP 主幹或 PSTN 型 E9-1-1-1-1-1-1-1-1-1-1-1 服務提供者將通話路由傳送至 Wichita 中的 PSAP
 

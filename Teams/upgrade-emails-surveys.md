@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams轉場電子郵件和問卷|基本升級
+title: Microsoft Teams轉換電子郵件和問卷|基本升級
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 用於 conjunciton 的電子郵件和問卷範例，以及加速從 商務用 Skype 升級至 Teams
+description: 在 Conjunciton 中使用的電子郵件和問卷範例，以及加速從 商務用 Skype 升級至 Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c23c2818c791915aa2a8e6c772510c6a50094c1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4bda42ca439268a4d1e14c8b10d26e0dcea38332
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583467"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760361"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升級基本通訊的電子郵件和問卷範例
 
@@ -170,7 +170,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>要求使用者試用小組和頻道的電子郵件，以執行步驟 10
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>要求使用者試用步驟 10 之團隊和頻道的電子郵件
 
 主題行：
 
@@ -201,13 +201,13 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>問卷樣本
 
-指出您執行下列活動的能力Teams以及如果您想要深入瞭解的一或多個活動。
+指出您執行下列活動的能力Teams以及您是否想深入瞭解一或多個活動。
 
 | &nbsp; | 非常熟練 | 有點熟練 | 完全不熟練 | 想要深入瞭解 | 不適用 | 不確定/不熟悉 |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 使用Teams進行 IM/聊天 | | | | | | | | | | |
-| 使用Teams線上會議 | | | | | | | | | | |
-| 使用 Teams 工具 (團隊和頻道)  | | | | | | | | | | |
+| 使用 Teams線上會議 | | | | | | | | | | |
+| 在Teams中 (團隊和頻道)  | | | | | | | | | | |
 | 在Teams裝置上使用 | | | | | | | | | | |
 
 | **有什麼可以阻止您使用Microsoft Teams？** | **選取所有適用專案** |
@@ -219,7 +219,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 | 我已經使用其他應用程式，以滿足通訊和共同合作的需求 | &#9744; |
 | 使用之前，我需要訓練 | &#9744; |
 | 我嘗試過使用它，但遇到技術問題或體驗不佳 | &#9744; |
-| 我們的支援人員無法協助我處理問題 | &#9744; |
+| 我們的支援人員無法協助我解決我的問題 | &#9744; |
 | 沒有，我目前使用它 | &#9744; |
 | 其他 (請指定)  | &#9744; |
 

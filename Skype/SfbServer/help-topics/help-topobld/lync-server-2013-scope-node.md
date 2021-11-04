@@ -1,7 +1,7 @@
 ---
 title: Lync Server 2013 範圍節點
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 description: 在拓撲產生器中定義新的 VIS 或視頻閘道所需的步驟，將在商務用 Skype Server 2015 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: 3a588938cf62de3ebd4be0e8ced442cceaacf9f5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 584b5d6743f19677e01a96087221cc9643cae100
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591347"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749129"
 ---
 # <a name="lync-server-2013-scope-node"></a>Lync Server 2013 範圍節點
  

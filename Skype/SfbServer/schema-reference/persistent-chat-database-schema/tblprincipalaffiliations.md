@@ -1,7 +1,7 @@
 ---
 title: tblPrincipalAffiliations
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 45fd8484-5837-44d2-85bb-45c83546607c
 description: tblPrincipalAffiliations 包含主體隸屬關係，描述位置中的成員資格，包括 Active directory 網域服務安全性群組、Active Directory 容器中的網域。
-ms.openlocfilehash: 6126fb32b6b56c9a3ec142ad1b1186763f28d045
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 66772bafe362d8298b5c926f94a2362f248e5fa6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580377"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767344"
 ---
 # <a name="tblprincipalaffiliations"></a>tblPrincipalAffiliations
  

@@ -1,6 +1,6 @@
 ---
 title: Dominica 的可用性
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于多Microsoft 365 Office 365和商務用 Skype Microsoft Teams的Microsoft Teams及服務。
-ms.openlocfilehash: eac947ef58bd6166f23451287bed2d419f57258e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是適用于 Microsoft 365 Office 365 和 商務用 Skype 的 Microsoft Teams 和 Microsoft Teams 服務。
+ms.openlocfilehash: d5e0e46cc82ceb6747fd0248ff3cbbe97dbaa462
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619569"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760521"
 ---
 # <a name="availability-in-dominica"></a>Dominica 的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于多Microsoft 365 Office 365和商務用 Skype Microsoft Teams的Microsoft Teams及服務。
+以下是適用于 Microsoft 365 Office 365 和 商務用 Skype 的 Microsoft Teams 和 Microsoft Teams 服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

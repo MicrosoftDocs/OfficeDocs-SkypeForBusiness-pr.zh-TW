@@ -1,7 +1,7 @@
 ---
 title: 封存伺服器一般設定展開工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 description: 在 [拓撲產生器] 中，您可以編輯執行封存之個別伺服器的屬性，方法是在主控台樹中以滑鼠右鍵按一下執行封存的伺服器，然後按一下工具列中的 [動作]，或是按一下 [動作] 窗格中的工作，然後按一下 [編輯內容] 並變更下列任一選項：
-ms.openlocfilehash: c2e7cdca346c908d4154d5f711bcd13f6306ed06
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8537e661a5e2b854df144782977507b5e3a4f3f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591507"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768131"
 ---
 # <a name="archiving-server-general-settings-expander"></a>封存伺服器一般設定展開工具
  

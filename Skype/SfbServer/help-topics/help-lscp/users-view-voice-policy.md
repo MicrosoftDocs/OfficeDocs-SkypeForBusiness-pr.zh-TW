@@ -1,7 +1,7 @@
 ---
 title: 使用者 View Voice Policy
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 79bf2fdadb113db350b1078d8105476f610b578c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 56a232a332e7bd6dccf3e015ebad851e6281ccd1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600328"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768221"
 ---
 # <a name="users-view-voice-policy"></a>使用者：檢視語音原則
 

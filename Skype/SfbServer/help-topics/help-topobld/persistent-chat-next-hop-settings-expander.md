@@ -1,7 +1,7 @@
 ---
 title: 常設聊天室下一個躍點設定展開工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: 您可以從清單中選取前端伺服器或前端集區，以設定 Persistent 聊天的下一個躍點集區。
-ms.openlocfilehash: c5fe79178b9008c1805d6a0a09430ec988b9c7f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7a67c893b7f87798ef87f9d70c93f7c21458774
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623785"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768071"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>常設聊天室下一個躍點設定展開工具
  

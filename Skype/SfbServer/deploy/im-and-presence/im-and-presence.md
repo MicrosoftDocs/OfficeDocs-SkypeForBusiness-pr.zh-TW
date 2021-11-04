@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中部署立即訊息和目前狀態
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ad792bb2-aee0-4986-a070-116ff3c10fe7
 description: 摘要：瞭解立即訊息和目前狀態的部署步驟商務用 Skype Server。
-ms.openlocfilehash: f4eb4d7215005d7d22a0d844105cb785fff9c22e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0671d7493489a3987d0893bd38b1998c558989e1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588945"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758945"
 ---
 # <a name="deploy-instant-messaging-and-presence-in-skype-for-business-server"></a>在商務用 Skype Server 中部署立即訊息和目前狀態
  

@@ -1,7 +1,7 @@
 ---
 title: 封存原則建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: 您可以使用封存原則，針對位於商務用 Skype Server 的使用者，控制部署中內部和外部通訊的封存。 封存原則包含全域原則，並選擇性地包含一或多個網站與使用者原則：
-ms.openlocfilehash: 58c0fc4c8f480865eba78bdaa1ca6c31e3c6e6c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8ba9b280f17533cceea0764e6a0a7dc173315740
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635437"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760971"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>封存原則：建立新的或編輯現有原則
  

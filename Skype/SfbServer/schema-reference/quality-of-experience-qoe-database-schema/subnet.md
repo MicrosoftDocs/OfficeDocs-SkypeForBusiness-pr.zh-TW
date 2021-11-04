@@ -1,7 +1,7 @@
 ---
 title: Subnet 表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
 description: Subnet 表格是一種支援資料表。每筆記錄代表在網路組態設定中定義的一個子網路。
-ms.openlocfilehash: e7fd43963414b24ed684d8f1efa59c7e634839bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b0c10fae89fe76c184e3aaffec4e1166c4cdb94c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613793"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768311"
 ---
 # <a name="subnet-table"></a>Subnet 表格
  

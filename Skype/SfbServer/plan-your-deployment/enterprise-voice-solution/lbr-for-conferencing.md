@@ -1,7 +1,7 @@
 ---
 title: Location-Based 商務用 Skype Server 中的會議路由
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 在商務用 Skype Server 企業語音中規劃會議的位置基礎路由，包括顧問式來電轉接。
-ms.openlocfilehash: de074dae5e51156a0926956adcbc2260ed365d8f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 118ccd13fb85f9566c7b62736514936d4f41f9bd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733172"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768511"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based 商務用 Skype Server 中的會議路由
 
@@ -143,7 +143,7 @@ Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
 
 此 Cmdlet 會傳回商務用 Skype Server 所主控之應用程式的清單，以及每個應用程式的優先順序值。 會議應用程式的 Location-Based 路由傳送的優先順序值必須大於 "UdcAgent" 應用程式，並小於 "DefaultRouting"、"ExumRouting" 和 "OutboundRouting" 應用程式。 建議您指派會議應用程式的 Location-Based 路由，其優先順序值比 "UdcAgent" 應用程式的優先順序值高一個點。
 
-例如，如果 "UdcAgent" 應用程式的優先順序值為 "2"，"DefaultRouting" 應用程式的優先順序值為 "8"，"ExumRouting" 應用程式的優先順序值為 "9"，而 "OutboundRouting" 應用程式的優先順序值為 "10"，則您應該為會議應用程式指派「3」優先順序值的 Location-Based 路由。 這樣做會依照下列順序進行應用程式的優先順序：其他應用程式 (優先順序：0到 1) ，"UdcAgent" (優先順序： 2) ，Location-Based 路由會議應用程式 (優先順序： 3) ，其他應用程式 (優先順序：4到 8) ，"DefaultRouting" (優先順序： 9) ，"ExumRouting" (優先順序： 10) ，OutboundRouting " (Priority： 11) 。
+例如，如果 "UdcAgent" 應用程式的優先順序值為 "2"，"DefaultRouting" 應用程式的優先順序值為 "8"，"ExumRouting" 應用程式的優先順序值為 "9"，而 "OutboundRouting" 應用程式的優先順序值為 "10"，則您應該為會議應用程式指派「3」優先順序值的 Location-Based 路由。 這樣做會依下列順序進行應用程式的優先順序：其他應用程式 (優先順序：0到 1) ，"UdcAgent" (Priority： 2) ，Location-Based 路由會議應用程式 (優先順序： 3) ，其他應用程式 (優先順序：4到 8) ，"DefaultRouting" (優先順序： 9) ，"ExumRouting Priority：" (優先順序： 10) 11) 。
 
 在您為會議應用程式的 Location-Based 路由找到正確的優先順序值後，請針對每個 Front-End 集區或 Standard Edition 伺服器輸入下列 Cmdlet，以供住宅使用者啟用 Location-Based 路由：
 

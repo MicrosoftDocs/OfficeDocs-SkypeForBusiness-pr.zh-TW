@@ -1,7 +1,7 @@
 ---
 title: 變更商務用 Skype Server 中的封存資料庫選項
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 摘要：瞭解如何變更商務用 Skype Server 的封存資料庫選項。
-ms.openlocfilehash: 6fecfb4a10020c031ccd2b6ccebda1b016fd24ba
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 240d590b7f22e4756351939be6ecab55ea108b79
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580697"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767931"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>變更商務用 Skype Server 中的封存資料庫選項
 
@@ -36,7 +36,7 @@ ms.locfileid: "58580697"
 1. 在執行商務用 Skype Server 的電腦上，或在其上安裝商務用 Skype Server 系統管理工具的電腦上，使用本機 Users 群組成員的帳戶來登入 (或使用具有同等使用者權限的帳戶進行登入) 。
     
     > [!NOTE]
-    > 您可以使用本機 Users 群組成員的帳戶來定義拓撲，但發行拓撲（必須用來將元件新增至拓撲）。您必須使用屬於 **Domain Admins** 群組和 **RTCUniversalServerAdmins** 群組成員的帳戶，且具有在您用來進行商務用 Skype Server 檔案存放區之檔案共用上的「完全控制」許可權 (（即讀取、寫入及修改），以便拓撲產生器可以設定所需的任意自由存取控制清單 (dacl (，或具有相同權利的帳戶) 。
+    > 您可以使用本機 Users 群組成員的帳戶來定義拓撲，但若要發行拓撲（需要將元件新增至拓撲），則必須使用屬於 **Domain Admins** 群組和 **RTCUniversalServerAdmins** 群組成員的帳戶，且具有「完全控制」許可權 (也就是 在您用於商務用 Skype Server 檔案存放 (區的檔案共用上讀取、寫入及修改) ，如此一來，拓撲產生器便可以設定所需的任意自由存取控制清單 (dacl) ，或具有同等權利的帳戶。
   
 2. 啟動拓撲產生器。
     
@@ -78,7 +78,7 @@ ms.locfileid: "58580697"
     
        c. 如果指定的 SQL Server 實例是以鏡像關聯，請選取 [**此 SQL 實例為鏡像** 關聯] 核取方塊，然後在 [**鏡像埠號碼**] 中指定埠號碼。
     
-   - 如果您啟用 SQL Server 鏡像，並且想要新增或變更 SQL Server 鏡像見證 (第三個個別 SQL Server 實例可以偵測主要 SQL Server 服務器和鏡像實例的健康情況) ，請選取 [**使用 SQL Server 鏡像見證啟用自動容錯移轉**] 核取方塊，然後執行下列其中一項操作：
+   - 如果您啟用 SQL Server 鏡像，並且想要新增或變更 SQL Server 鏡像見證 (第三個個別 SQL Server 實例可以偵測主要 SQL Server 服務器和鏡像實例的健康情況) ，請選取 [**使用 SQL Server 鏡像見證啟用自動容錯移轉**] 核取方塊。d 然後執行下列其中一項操作：
     
       a. 在 [ **SQL Server fqdn**] 中，指定您要在其上建立新 SQL Server 鏡像見證之伺服器的 FQDN。
     

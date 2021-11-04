@@ -1,7 +1,7 @@
 ---
 title: 設定商務用 Skype Server 的封存原則
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: 摘要：閱讀此主題以瞭解如何為商務用 Skype Server 使用者設定初始封存原則。
-ms.openlocfilehash: 545febf0e84aa7ff9ad6295978f88a2dca406792
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 62e61d951c7e05effa68afd13c849c027b40a896
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611292"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749522"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>設定商務用 Skype Server 的封存原則
  

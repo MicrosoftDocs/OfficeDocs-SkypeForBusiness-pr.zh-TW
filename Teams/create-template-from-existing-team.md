@@ -1,7 +1,7 @@
 ---
 title: 從現有的小組在 Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05fd28f19b5733ad34bcd12efa21be675cecfd31
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e48c41e7c6b1a28d6d16cdd76c4fcb70bd795861
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588225"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749682"
 ---
 # <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>從現有的小組在 Microsoft Teams
 
@@ -39,7 +39,7 @@ Microsoft Teams可讓您從現有的小組建立範本，該範本可以儲存�
 
 4. 選取 **使用現有的團隊做為範本**，然後選取 下 **一步**。
 
- ![小組範本起點畫面的影像，其中以現有團隊做為範本為強調顯示。](media/team-existing-team-as-template.png)
+ ![使用現有團隊做為範本的小組範本起始畫面影像。](media/team-existing-team-as-template.png)
 
 5. 選取團隊名稱旁的以做為起點的小組，然後選取下一 **步**。
 
@@ -55,13 +55,13 @@ Microsoft Teams可讓您從現有的小組建立範本，該範本可以儲存�
     1. 在頻道 **區** 段 **，選取** 新增 。
     2. 在 [ **新增」** 對話方塊中，為頻道命名。
     3. 新增描述。
-    4. 決定是否預設應該顯示頻道。
+    4. 決定是否應該預設顯示頻道。
     5. 搜尋要新加入頻道的應用程式名稱。
     6. 完成 **時選取 Apply。**
 
 8. 選取 **提交** 以儲存您的變更。
 
-您的新範本會顯示在小組 **範本** 清單中。 範本可用於在 Teams 中建立Teams。
+您的新範本會顯示在小組 **範本** 清單中。 範本可用來在 Teams 中建立Teams。
 
 > [!Note]
 > 團隊使用者最多可能需要 24 小時，才能在圖庫中查看自訂範本。

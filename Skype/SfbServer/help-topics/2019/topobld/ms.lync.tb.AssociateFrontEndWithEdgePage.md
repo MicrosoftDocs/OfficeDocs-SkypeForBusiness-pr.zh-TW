@@ -1,7 +1,7 @@
 ---
 title: 建立前端與 Edge 的關聯
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 ROBOTS: NOINDEX, NOFOLLOW
 description: 每個前端集區只能有一個與其相關聯的 Edge Server 或 Edge 集區。 當您啟用網站的外部使用者存取時，您可以為遠端使用者提供支援。 您也可以啟用同盟使用者的支援，這些使用者可以包含對特定公用立即訊息 (IM) 連線提供者的支援 (例如 Windows Live) ，以及對匿名使用者的支援。
-ms.openlocfilehash: 5cc67ef37de672ccd47767e866404037e5a17b02
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 773c1fd943c3d137dd1d639bf5863fe5d78831f6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633257"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758675"
 ---
 # <a name="associate-front-end-with-edge"></a>建立前端與 Edge 的關聯
 

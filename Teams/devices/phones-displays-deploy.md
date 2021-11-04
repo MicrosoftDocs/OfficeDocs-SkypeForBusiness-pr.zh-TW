@@ -1,6 +1,6 @@
 ---
 title: 使用 intune Teams Android Teams手機、Microsoft Teams 會議室和手機
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: weizxue
@@ -16,34 +16,34 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文提供螢幕顯示功能Microsoft Teams概觀。
-ms.openlocfilehash: 9ea9f9ee88bb1d580a0e8a1ded9f6586229d062d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d89dce290d241eebd3d71da560bb383a81f6a2a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632537"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746469"
 ---
 # <a name="deploy-teams-phones-teams-displays-and-microsoft-teams-rooms-on-android-using-intune"></a>使用 intune Teams Android Teams手機、Microsoft Teams 會議室和手機
 
-本文提供如何在 Android 上使用 intune Teams手機、Teams和Microsoft Teams 會議室部署概觀。
+本文提供如何在 Android 上使用 Intune Teams手機、Teams和Microsoft Teams 會議室部署概觀。
 
 ## <a name="conditional-access"></a>條件式存取
 
-條件式存取Azure Active Directory (Azure AD) 功能，可協助確保存取您Office 365資源的裝置獲得妥善管理且安全。  如果您將條件式存取原則適用于 Teams 服務，Android 裝置 (包括 Teams 手機、Teams 顯示器和 Microsoft Teams 會議室 的 Android) 必須註冊至 Intune Teams，其設定必須符合您的原則。  如果裝置未註冊到 Intune，或已註冊，但其設定不符合您的政策，條件式 Access 會防止使用者登錄或使用裝置上的 Teams 應用程式。
+條件式存取Azure Active Directory (Azure AD) 項功能，可協助確保存取您Office 365資源的裝置妥善管理且安全。  如果您將條件式存取原則適用于 Teams 服務，Android 裝置 (包括 Teams 手機、Teams 顯示，以及 Android) 上的 Microsoft Teams 會議室，這些存取 Teams 必須註冊到 Intune，其設定必須符合您的原則。  如果裝置未註冊到 Intune，或已註冊，但其設定不符合您的政策，條件式 Access 會防止使用者登錄或使用裝置上的 Teams 應用程式。
 
-一般來說，Intune 中定義的合規性政策會指派給使用者群組。  這表示如果您指派 Android 合規性原則給 user@contoso.com，該原則會平均適用于 Android 智慧型手機，以及任何Teams登錄的 Android user@contoso.com 裝置。
+一般來說，Intune 中定義的合規性政策會指派給使用者群組。  這表示如果您將 Android 合規性原則指派給 user@contoso.com，該原則會平均適用于 Android 智慧型手機，以及任何已Teams Android user@contoso.com 裝置。
 
-如果您使用條件式 Access，而需要強制執行 Intune 註冊，在貴組織中，您需要設定幾個專案，以順利註冊 Intune：
+如果您使用條件式 Access，而需要強制執行 Intune 註冊，在貴組織中，您需要設定幾個專案，以允許成功進行 Intune 註冊：
 
-- **Intune 授權** 使用者必須擁有 intune Teams裝置授權。  只要Teams已登錄具有有效 Intune 授權之使用者帳戶，裝置就會在 Microsoft Intune 中自動註冊為登錄程式。
-- **設定 Intune** 您必須為 Android 裝置系統管理員註冊設定正確配置的 Intune 租使用者。
+- **Intune 授權** 使用者必須擁有 intune Teams裝置授權。  只要Teams裝置已登錄具有有效 Intune 授權之使用者帳戶，裝置就會在 Microsoft Intune 中自動註冊為登錄程式。
+- **設定 Intune** 您必須為 Android 裝置系統管理員註冊設定正確的 Intune 租使用者。
 
 ## <a name="configure-intune-to-enroll-teams-android-based-devices"></a>設定 Intune 以註冊Teams Android 型裝置
 
-TeamsAndroid 型裝置是由 Intune 透過 Android 裝置系統管理員 (DA) 管理。 在裝置可以註冊到 Intune 之前，有幾個基本步驟可以執行。  如果您目前已經使用 Intune 管理裝置，您可能已經完成所有上述工作。  如果沒有，請執行以下工作：
+TeamsAndroid 型裝置是由 Intune 透過 Android 裝置系統管理員 (DA) 管理。 在裝置可以註冊到 Intune 之前，有一些基本步驟可以執行。  如果您目前已經使用 Intune 管理裝置，您可能已經完成所有這些工作。  如果沒有，請執行以下工作：
 
 > [!NOTE]
-> - 如果租使用者系統管理員想要將一般地區電話註冊到 Intune，他們需要在帳戶新增 Intune 授權，並遵循 Intune 註冊的步驟。
+> - 如果租使用者系統管理員想要將常見的地區電話註冊到 Intune，他們需要在帳戶新增 Intune 授權，並遵循 Intune 註冊的步驟。
 > - 如果用來登錄帳戶的使用者帳戶Teams Intune 沒有授權，必須停用該帳戶的 Intune 合規性策略和註冊限制。
 
 

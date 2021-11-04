@@ -1,7 +1,7 @@
 ---
 title: 定義常設聊天室集區的屬性與選項
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 您可以透過定義下列內容，來設定 Persistent Chat Server 或 Persistent Chat Server 集區的選項：
-ms.openlocfilehash: 242490ebe6be0f68e8c25e0c01b77088c15836d8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 11b4731228f3690ce0fbe2675b5cef35faa3378e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622435"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760801"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>定義常設聊天室集區的屬性與選項
  

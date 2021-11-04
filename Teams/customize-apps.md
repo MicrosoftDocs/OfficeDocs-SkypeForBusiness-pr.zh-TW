@@ -1,7 +1,7 @@
 ---
 title: 自訂應用程式Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: v-tbasra
 ms.topic: article
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在應用程式中自訂Microsoft Teams。
-ms.openlocfilehash: c5e42bd498c1332d2b36c03ec661ae488fcf16aa
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 21baefe7a75c869ed8d401d19f948526b31d615c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015017"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749622"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>自訂應用程式Microsoft Teams
 
- Microsoft Teams提供應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂Teams應用程式。系統管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新 **Teams應用程式屬性**。 您可以自訂的詳細資訊有：
+ Microsoft Teams應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂Teams應用程式。系統管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新 **Teams應用程式屬性**。 您可以自訂的詳細資訊有：
 
 - 簡短名稱
 - 簡短描述
@@ -39,10 +39,10 @@ ms.locfileid: "60015017"
 - 大綱圖示
 - 強調色彩
 
-請參閱Teams[清單架構](/microsoftteams/platform/resources/schema/manifest-schema)，以瞭解有關您可以自訂之欄位的詳細資訊。
+請參閱Teams清單[架構](/microsoftteams/platform/resources/schema/manifest-schema)，以瞭解有關您可以自訂之欄位的詳細資訊。
 
 > [!NOTE]
-> 目前不支援自訂應用程式政府社群雲端 (GCCH) 或 (DoD) 中。
+> 目前不支援在 政府社群雲端 (GCCH) 或 (DoD) 自訂應用程式。
 > 目前，此功能不適用於側載應用程式Microsoft Teams應用程式。
 
 ## <a name="customize-the-apps-details"></a>自訂應用程式詳細資料
@@ -51,7 +51,7 @@ ms.locfileid: "60015017"
 
 1. 登入 Teams 系統管理中心。
 
-2. 展開 **Teams 應用程式**，然後選取 **管理應用程式**。
+2. 展開 **Teams應用程式**，然後選取 **管理應用程式**。
 
 3. 檢查應用程式 **清單** 的可自訂欄，並按可自訂的應用程式排序。
 
@@ -87,7 +87,7 @@ ms.locfileid: "60015017"
 
 5. 展開圖示 **區** 段。
 
-   1. Upload圖示。 在 PNG 格式的 192x192 (使用一個全) 圖示。
+   1. Upload圖示。 使用一個全彩色圖示 (192x192) PNG 格式。
 
    1. 選擇圖示外邊框色彩。 使用一個 32x32 (32x32) PNG 格式的透明外邊框。
 
@@ -114,8 +114,8 @@ ms.locfileid: "60015017"
 > - 系統管理提供的自訂資料會儲存在最近的地區。
 > - 您負責確保使用條款或隱私權政策的連結有效。
 > - 如果應用程式發行者不再允許欄位可自訂，應用程式詳細資料頁面上會出現一則訊息，通知系統管理員無法再自訂的欄位。 對該欄位進行的所有變更都會還原為原始值。
-> - 我們建議您在測試租使用者Teams測試應用程式自訂變更，然後再在生產環境中進行這些變更。
-> - 品牌變更最多可能需要 24 小時，使用者才能看到變更。
+> - 我們建議您先在測試租使用者Teams測試應用程式自訂變更，然後再在生產環境中進行這些變更。
+> - 變更商標可能需要最多 24 小時，使用者才能看到變更。
 
 ## <a name="review-app-details"></a>查看應用程式詳細資料
 
@@ -139,7 +139,7 @@ ms.locfileid: "60015017"
 
 1. 登入 Teams 系統管理中心。
 
-2. 展開 **Teams 應用程式**，然後選取 **管理應用程式**。
+2. 展開 **Teams應用程式**，然後選取 **管理應用程式**。
 
 3. 選取應用程式名稱。
 
@@ -151,7 +151,7 @@ ms.locfileid: "60015017"
 
 **我的使用者需要多久時間查看自訂的應用程式？**
 
-雖然系統管理員可以在系統管理中心Teams看到變更，但使用者最多可能需要 24 小時才能看到變更。  
+雖然系統管理員可以在系統管理中心Teams變更，但使用者最多可能需要 24 小時才能看到變更。  
 
 **應用程式提供者可以為客戶自訂應用程式嗎？**
 

@@ -1,7 +1,7 @@
 ---
 title: 在 Set-CsCertificate 中使用-擲出商務用 Skype Server 階段 AV 和 OAuth 憑證
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 摘要：階段 AV 和 OAuth 商務用 Skype Server 的憑證。
-ms.openlocfilehash: 335b1a3db8044329fd8055cf2a97f6e4e2bffc02
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0d5a5a68ac63b514967b33692abfeb15d8459995
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591217"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767851"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>在 Set-CsCertificate 中使用-擲出商務用 Skype Server 階段 AV 和 OAuth 憑證
  
@@ -86,8 +86,8 @@ A/V 驗證服務是專用來核發 Token，以供用戶端和其他 A/V 取用�
   
 |**Callout**|**Stage**|
 |:-----|:-----|
-|1   <br/> |開始： 7/22/2015 12:00:00 AM  <br/> 目前的 AudioVideoAuthentication 憑證是由於7/22/2015 于 2:00:00 PM 到期。 這取決於憑證上到期的時間戳記。 規劃您的憑證取代和翻轉，以計算8小時的重疊 (預設權杖存留期) 在現有憑證達到到期時間之前。 在此範例中，會使用 2:00:00 AM 前置時間，讓系統管理員有足夠的時間來預先設定新憑證，並在6:00:00 上午的時間前進行布建。  <br/> |
-|2   <br/> |7/22/2015 2:00:00 AM-7/22/2015 5:59:59 AM  <br/> 在 Edge Server 上設定憑證，有效期為 6:00:00 AM (4 小時內推時間為此範例，但可使用 Set-CsCertificate 類型 \<certificate usage type\> 的指紋-EffectiveDate) 更長的時間。 \<thumbprint of new certificate\>\<datetime string of the effective time for new certificate\>  <br/> |
+|1  <br/> |開始： 7/22/2015 12:00:00 AM  <br/> 目前的 AudioVideoAuthentication 憑證是由於7/22/2015 于 2:00:00 PM 到期。 這取決於憑證上到期的時間戳記。 規劃您的憑證取代和翻轉，以計算8小時的重疊 (預設權杖存留期) 在現有憑證達到到期時間之前。 在此範例中，會使用 2:00:00 AM 前置時間，讓系統管理員有足夠的時間來預先設定新憑證，並在6:00:00 上午的時間前進行布建。  <br/> |
+|第  <br/> |7/22/2015 2:00:00 AM-7/22/2015 5:59:59 AM  <br/> 在 Edge Server 上設定憑證，有效期為 6:00:00 AM (4 小時內推時間為此範例，但可使用 Set-CsCertificate 類型 \<certificate usage type\> 的指紋-EffectiveDate) 更長的時間。 \<thumbprint of new certificate\>\<datetime string of the effective time for new certificate\>  <br/> |
 |3   <br/> |7/22/2015 6:00 AM-7/22/2015 2:00 下午  <br/> 若要驗證權杖，請先嘗試新的憑證，如果新的憑證無法驗證權杖，就會嘗試舊的憑證。 此程式適用于8小時 (預設權杖存留期) 重疊期間內的所有標記。  <br/> |
 |4   <br/> |結束： 7/22/2015 2:00:01 PM  <br/> 舊憑證已過期，且已取得新憑證。 舊憑證可以安全地移除，使用 Remove-CsCertificate 類型 \<certificate usage type\> 先前版本  <br/> |
    

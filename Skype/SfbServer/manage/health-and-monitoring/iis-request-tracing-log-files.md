@@ -1,7 +1,7 @@
 ---
 title: 監視商務用 Skype Server 2015 中的 IIS 要求追蹤記錄檔
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 description: 摘要：瞭解 Mcx) 中的行動服務 (的商務用 Skype Server 2015 支援舊版用戶端。
-ms.openlocfilehash: 3a07279a099df44e72b65475af63340f27dc35d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 36a376428191723d8cc4d2d6e100391646c7e7c9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632877"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767671"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>監視商務用 Skype Server 2015 中的 IIS 要求追蹤記錄檔
  

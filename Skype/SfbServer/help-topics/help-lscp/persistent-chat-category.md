@@ -1,7 +1,7 @@
 ---
 title: 常設聊天室類別
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6875d930-7502-4e47-bdb3-45eaeb065350
 description: 您可以使用 [Persistent Chat] 頁面的 [類別] 區段來設定類別。 Persistent 聊天室類別是用來組織聊天室的邏輯結構。 類別會定義一組預設的存取控制清單 (ACLs)，用於控制可建立或加入聊天室的使用者及使用者群組。 您可以利用類別在組織內不同的子部門之間強制執行道德管束。
-ms.openlocfilehash: be326978d25039e095e8d679b40194f7468f7a8e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 57e97faa0dd7c3cb80d75f9a06a8f5d2602ba162
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630967"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760841"
 ---
 # <a name="persistent-chat-category"></a>常設聊天室類別
  

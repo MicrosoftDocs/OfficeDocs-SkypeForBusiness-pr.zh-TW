@@ -1,7 +1,7 @@
 ---
 title: 安裝及設定商務用 Skype Server 的繁忙選項
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: 請參閱如何在商務用 Skype Server 中安裝及設定忙碌選項。
-ms.openlocfilehash: 58c70360a9e25ccefcd62181ab5a1a5b222ae9a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 60ff279d1d763cda8ed5c03809c7244a05aec1e9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600678"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759065"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>安裝及設定商務用 Skype Server 的繁忙選項
 

@@ -1,7 +1,7 @@
 ---
 title: 在烏干達的可用性
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于 Microsoft 365 Office 365 的 商務用 Skype 和 Microsoft Teams 服務。
-ms.openlocfilehash: 4ef6ddc83ede675f73512e5dc0749ce561ab635b
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: 以下是適用于烏干達Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+ms.openlocfilehash: 746d4d368964e19c74a94b8ff623b4bbc639eff8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733474"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760491"
 ---
 # <a name="availability-in-uganda"></a>在烏干達的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于 Microsoft 365 Office 365 的 商務用 Skype 和 Microsoft Teams 服務。
+以下是適用于烏干達Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

@@ -1,7 +1,7 @@
 ---
 title: QoE 表格清單
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: 資料庫結構描述由下列表格所組成。
-ms.openlocfilehash: 1d6d60d06dcb6cbfdde6a4fdbbd2746d00aa8531
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0532d1574bcbbe80a58195d2c14ea6920375153f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601268"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767291"
 ---
 # <a name="list-of-qoe-tables"></a>QoE 表格清單
  
@@ -26,7 +26,7 @@ ms.locfileid: "58601268"
   
 **支援的表格**
 
-|**表格**|**描述**|
+|**Table**|**描述**|
 |:-----|:-----|
 |[AppSharingMetricsThreshold 表格](appsharingmetricsthreshold.md) <br/> |針對用於應用程式共用的經驗品質計量，儲存最佳且可接受的值。  <br/> |
 |[CodecDescription 表格](codecdescription.md) <br/> |將唯一轉碼器識別碼對應至其相對應的轉碼器。  <br/> |
@@ -58,7 +58,7 @@ ms.locfileid: "58601268"
    
 **計量資料表格**
 
-|**表格**|**描述**|
+|**Table**|**描述**|
 |:-----|:-----|
 |[AppSharingStream 表格](appsharingstream.md) <br/> |儲存用於應用程式共用之網路串流的經驗品質計量。用於應用程式共用之網路串流的經驗品質計量。  <br/> |
 |[Session 表格](session.md) <br/> |儲存音訊或音訊/視訊工作階段的整體資訊。工作階段定義為兩個端點之間的音訊或視訊 SIP 對話。  <br/> |
@@ -72,7 +72,7 @@ ms.locfileid: "58601268"
    
 **摘要資料表格**
 
-|**表格**|**描述**|
+|**Table**|**描述**|
 |:-----|:-----|
 |**ServerSummary 表格** <br/> |儲存伺服器的摘要資料，這些資料僅用於經驗品質 (QoE) 報告。  <br/> |
 |**UserSummary 表格** <br/> |儲存使用者的摘要資料，這些資料僅用於經驗品質 (QoE) 報告。  <br/> |
@@ -80,7 +80,7 @@ ms.locfileid: "58601268"
    
 **監控伺服器所用的內部使用表格**
 
-|**表格**|**描述**|
+|**Table**|**描述**|
 |:-----|:-----|
 |**DbConfigDateTime** <br/> |僅限內部使用。  <br/> |
 |**DbConfigInt** <br/> |僅限內部使用。  <br/> |

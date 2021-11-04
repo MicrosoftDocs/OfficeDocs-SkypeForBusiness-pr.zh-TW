@@ -1,7 +1,7 @@
 ---
 title: Peer-to-Peer 商務用 Skype Server 中的 IM 報表
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer IM 報表。
-ms.openlocfilehash: 26edc017b0877d08a5990e88dcfaf830bb7e4851
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 999750f039b2ca57cc31198bcf1599f042763ed3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632867"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767661"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Peer-to-Peer 商務用 Skype Server 中的 IM 報表
  
@@ -70,7 +70,7 @@ ms.locfileid: "58632867"
 
 |**名稱**|**可以排序這個項目嗎？**|**描述**|
 |:-----|:-----|:-----|
-|**驗證類型** <br/> |否  <br/> | 工作階段參與者所使用的驗證類型。一般來說，值都是下列其中之一： <br/>  企業 <br/>  聯邦 <br/>  PIC <br/> |
+|**驗證類型** <br/> |否  <br/> | 工作階段參與者所使用的驗證類型。一般來說，值都是下列其中之一： <br/>  Enterprise <br/>  聯邦 <br/>  PIC <br/> |
 |**日期/時間** <br/> |否  <br/> |工作階段的執行日期與時間。  <br/> |
 |**Total** <br/> |否  <br/> |工作階段總數或訊息總數。  <br/> |
    

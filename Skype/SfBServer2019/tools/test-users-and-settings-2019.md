@@ -1,7 +1,7 @@
 ---
 title: 設定監視節點測試使用者和設定
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 為商務用 Skype Server 綜合交易設定測試使用者帳戶和監視節點設定。
-ms.openlocfilehash: 2c24b18856aad2face3a1cda7736365631794661
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: f0f997ebcbb3c663fa9a63ac3060f476d627ef4f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012357"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746379"
 ---
 # <a name="skype-for-business-server-configure-watcher-node-test-users-and-settings"></a>商務用 Skype Server：設定觀察者節點測試使用者和設定
  

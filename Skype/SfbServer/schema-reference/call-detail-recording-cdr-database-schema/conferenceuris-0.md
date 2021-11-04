@@ -1,7 +1,7 @@
 ---
 title: ConferenceUris view
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
 description: ConfernceUris view 會儲存參與會議會話之 URIs 的相關資訊。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 40c4538df2b551b86826b3601b901f66b4e917d5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 79b4efda696bd757cb63d681e2c82f00d7a7b263
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598687"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749892"
 ---
 # <a name="conferenceuris-view"></a>ConferenceUris view
  

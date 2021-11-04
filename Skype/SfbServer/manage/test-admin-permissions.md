@@ -1,7 +1,7 @@
 ---
 title: 測試商務用 Skype Server 中的系統管理員許可權
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 如何在商務用 Skype Server 中測試系統管理員許可權
-ms.openlocfilehash: 08721b556de6e7b162eb76fbed953dae422b33b7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 80971dab292252775f9a58cbf822d746326c8abf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580557"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760691"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>測試商務用 Skype Server 中的系統管理員許可權
 
@@ -60,11 +60,11 @@ True
 
 警告：物件 "OU = NorthAmerica，DC = atl-cs-001\DC = litwareinc，DC=com" 的存取控制專案 (Ace) 尚未就緒。 
 
-錯 
+False 
 
 警告： "Test-CsOUPermission" 處理已完成，但有警告。 在此執行期間，記錄了 "2" 個警告。 
 
-警告：在 "C:\Users\Admin\AppData\Local\Temp\Test-CsOUPermission-5d7a89af-f854-4a9c-87e3-69e37e58de.html" 可以找到詳細的結果。 
+警告：您可以在「C:\Users\Admin\AppData\Local\Temp\Test-CsOUPermission-5d7a89af-f854-4a9c-87e3-69e37e58de.html」找到詳細的結果。 
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>測試可能失敗的原因
 

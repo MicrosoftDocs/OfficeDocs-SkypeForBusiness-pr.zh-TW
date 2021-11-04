@@ -1,7 +1,7 @@
 ---
 title: 電話表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
 description: 電話系表是支援的表格。 資料表中的每一筆記錄都儲存在包含資料庫中記錄的 VoIP 通話中相關的一個電話號碼相關資訊。
-ms.openlocfilehash: 37adaaa1885d91c84ee657c422b19debad294c01
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 81f6b570e168450d457fedabc2ad9d26b3c7abfd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584857"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767481"
 ---
 # <a name="phones-table"></a>電話表格
  

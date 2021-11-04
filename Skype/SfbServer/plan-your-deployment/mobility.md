@@ -1,7 +1,7 @@
 ---
 title: 規劃商務用 Skype Server 的行動性
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 2/17/2018
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: 規劃商務用 Skype Server 的行動實施。
-ms.openlocfilehash: 59523076dc3b59b92af41fc85ef4193a92c87d08
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5d78739be230c7c68157d8bae474bf63133a96d7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632717"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746709"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>規劃商務用 Skype Server 的行動性
  
@@ -247,8 +247,8 @@ ms.locfileid: "58632717"
 |啟用行動性  <br/> |EnableMobility  <br/> |控制已安裝商務用 Skype 行動用戶端之指定範圍內的使用者。 若原則設定為 False，您的使用者將無法使用用戶端登入。  <br/> |True  <br/> |
 |外語音  <br/> |EnableOutsideVoice  <br/> |可讓使用者使用「來電」功能，讓使用者可以使用其公司電話號碼，而不是其行動電話號碼來傳送和接收通話。 如果將其設為 False，使用者在使用其公司電話號碼時，將無法在行動電話上撥打或接聽電話。  <br/> |True  <br/> |
 |啟用 IP 音訊和影片  <br/> |EnableIPAudioVideo  <br/> |設定為預設值，讓使用者可以使用 VoIP 在其行動裝置上撥打或接聽電話或視頻通話。 設為 False 時，您的使用者將無法使用行動裝置執行這兩項作業。  <br/> |True  <br/> |
-|需要 IP 音訊的 WiFi  <br/> |RequireWiFiForIPAudio  <br/> |定義用戶端是否需要在 WiFi 上使用 VoIP，而不是行動電話資料網路，來撥打和接收通話。 如果設定為 True，您的使用者只會在透過 WiFi 連線時撥打和接收 VoIP 通話。  <br/> |錯  <br/> |
-|需要 IP 影片的 WiFi  <br/> |RequireWiFiForIPVideo  <br/> |定義用戶端是否需要在 WiFi，而不是行動電話資料網路上撥打和接收通話。 如果設定為 True，您的使用者只會在透過 WiFi 連線時撥打和接收 VoIP 通話。  <br/> |錯  <br/> |
+|需要 IP 音訊的 WiFi  <br/> |RequireWiFiForIPAudio  <br/> |定義用戶端是否需要在 WiFi 上使用 VoIP，而不是行動電話資料網路，來撥打和接收通話。 如果設定為 True，您的使用者只會在透過 WiFi 連線時撥打和接收 VoIP 通話。  <br/> |False  <br/> |
+|需要 IP 影片的 WiFi  <br/> |RequireWiFiForIPVideo  <br/> |定義用戶端是否需要在 WiFi，而不是行動電話資料網路上撥打和接收通話。 如果設定為 True，您的使用者只會在透過 WiFi 連線時撥打和接收 VoIP 通話。  <br/> |False  <br/> |
    
 ### <a name="should-users-who-arent-enabled-for-enterprise-voice-be-able-to-use-click-to-join-to-join-conferences"></a>是否應該未啟用企業語音的使用者可以使用按一下以加入加入會議？
 

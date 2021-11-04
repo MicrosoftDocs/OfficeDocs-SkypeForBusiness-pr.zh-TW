@@ -1,7 +1,7 @@
 ---
 title: CDR 檢視清單
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: 檢視讓您可以輕鬆取得從 CDR 資料庫傳回資料時最常見情況的資訊。 建議您使用 [視圖] 來建立自訂報表，而不是使用實際的 CDR 資料庫資料表;這是因為資料庫檢視很可能會與未來的版本保持向後相容性。
-ms.openlocfilehash: 24effb3b8c90721550ac813342965142f0e29875
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7154319dba584516dcff3c41d23e5af31bee4621
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626475"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746609"
 ---
 # <a name="list-of-cdr-views"></a>CDR 檢視清單
  

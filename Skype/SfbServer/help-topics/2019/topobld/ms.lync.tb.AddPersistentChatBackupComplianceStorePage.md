@@ -1,7 +1,7 @@
 ---
 title: 新增常設聊天室規範備份 SQL Server 儲存區
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以設定備份規範 SQL Server 儲存區，將會為 persistent chat server 或 persistent SQL Server 存放區提供備份資料庫。
-ms.openlocfilehash: 91ff6cb39a627b6501b195faf9b54a8f582b6e9e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ce64fc4f43e5606930881f789dedb0d90958321f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614711"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761211"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>新增常設聊天室規範備份 SQL Server 儲存區
 

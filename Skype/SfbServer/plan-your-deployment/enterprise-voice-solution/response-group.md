@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中規劃回應群組應用程式
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: 在商務用 Skype Server 企業語音中規劃回應群組，可讓您設定使用者群組的呼叫路由。 包括音訊檔需求。
-ms.openlocfilehash: 41decf3e61e32867dd6b1d726bb551f8c2ae38f0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ca8159ca3d6fc37aa5c8f1f3f88f8188929f71f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631577"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767551"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃回應群組應用程式
 
@@ -88,7 +88,7 @@ ms.locfileid: "58631577"
 
 回應群組應用程式與前端伺服器具有相同的硬體需求、作業系統需求和軟體必要條件。
 
-如果您使用 Windows 媒體音訊 ( 回應群組的) wma 和宣告，所有執行回應群組應用程式的前端伺服器或 Standard edition server，都必須為執行 Windows Server 2008 R2 的伺服器或 Microsoft Media Foundation 安裝 Windows 媒體格式執行時間，以執行 Windows Server 2012 或 Windows Server 2012 R2 的伺服器。 針對 Windows Server 2008 R2，Windows Media Format Runtime 是以 Windows 桌面體驗的一部分安裝。
+如果您使用 Windows 媒體音訊)  ( 回應群組音樂和宣告，所有前端伺服器或所有執行回應群組應用程式的 Standard edition 伺服器，都必須為執行 Windows Server 2008 R2 的伺服器安裝 Windows 媒體格式執行時間，或執行 Windows Server 2012 o 之伺服器的 Microsoft Media Foundationr Windows Server 2012 R2。 針對 Windows Server 2008 R2，Windows Media Format Runtime 是以 Windows 桌面體驗的一部分安裝。
 
 回應群組使用 **語言套件** 來支援文字語音語音及語音辨識。 在您設定訊息 (如歡迎訊息與其他提示) 以及互動式語音回應 (IVR) 的問題與回答時，都會用到這些語音技術。 根據預設，在您部署商務用 Skype Server 時會安裝26支援的語言套件。
 
@@ -209,7 +209,7 @@ Windows 媒體音訊檔案格式要求在執行 Windows Server 2008 R2 和 Windo
 
 |**計量**|**每 Enterprise Edition <br/> 包含8部前端伺服器的集區 ()**|**根據 Standard Edition 伺服器**|
 |:-----|:-----|:-----|
-|每秒來電數  <br/> |16   <br/> |2   <br/> |
+|每秒來電數  <br/> |16   <br/> |第  <br/> |
 |連線至 IVR 或 MoH 的並行通話  <br/> |480  <br/> |60  <br/> |
 | (沒有 IM) 的併發匿名會話  <br/> |224  <br/> |日  <br/> |
 |使用 IM)  (同時匿名會話  <br/> |64  <br/> |8   <br/> |

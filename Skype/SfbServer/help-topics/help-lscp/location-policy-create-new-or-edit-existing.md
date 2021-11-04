@@ -1,7 +1,7 @@
 ---
 title: 位置原則建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: 您可以設定位置原則，以判斷是否已啟用增強型 9-1-1 (E9-1-1) ，以及如何使用位置資訊，以及使用者和連絡人的使用方式。
-ms.openlocfilehash: 53af748db0c5a3ea2a8df8fe0aa19e58cb39e7d7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1a52d74a6131ee22a47d3e59cdff4c220a3d86cb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582917"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760891"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>位置原則：建立新的或編輯現有原則
 

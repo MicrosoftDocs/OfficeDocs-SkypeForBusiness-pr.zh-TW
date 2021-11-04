@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 2015 的 CDR 表格清單
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: 詳細通話記錄 (CDR) 資料庫結構描述包含下列表格。
-ms.openlocfilehash: acc509fc895c015ec213bd18560986b3f6d12aa7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e8c76080089005977154c3e23d924a4b98dc6b5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635127"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746659"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的 CDR 表格清單
  
@@ -26,7 +26,7 @@ ms.locfileid: "58635127"
   
 ## <a name="static-tables"></a>靜態表格
 
-|**表格**|**描述**|
+|**Table**|**描述**|
 |:-----|:-----|
 |[商務用 Skype Server 2015 中的 CallPriorities 表格](callpriorities.md) <br/> |儲存通話可能優先順序的清單 (如「緊急」、「急」、「一般」、「非緊急」等)。  <br/> |
 |[商務用 Skype Server 2015 中的 ConferenceJoinTimeThresholds 表格](conferencejointimethresholds.md) <br/> |儲存會議加入時間摘要報告所使用的分類範圍。  <br/> |
@@ -38,7 +38,7 @@ ms.locfileid: "58635127"
    
 ## <a name="supporting-tables"></a>支援的表格
 
-|**表格**|**描述**|
+|**Table**|**描述**|
 |:-----|:-----|
 |[商務用 Skype Server 2015 中的 ClientVersions 表格](clientversions.md) <br/> |儲存通話方之每個用戶端的用戶端 (用戶端類型與版本號碼) 以及此資料庫中擷取的資訊。  <br/> |
 |[商務用 Skype Server 2015 中的 ConferenceUris 表格](conferenceuris.md) <br/> |儲存會議相關通話中所使用的 ConferenceURI 清單。  <br/> |
@@ -61,7 +61,7 @@ ms.locfileid: "58635127"
    
 ## <a name="tables-specific-to-conference-cdr-records"></a>會議 CDR 記錄特有表格
 
-|**表格**|**描述**|
+|**Table**|**描述**|
 |:-----|:-----|
 |[商務用 Skype Server 2015 中的會議表格](conferences.md) <br/> |儲存已封存或其詳細資料已記錄之所有會議的資訊，包括 ConferenceURI，以及開始時間和結束時間。  <br/> |
 |[商務用 Skype Server 2015 中的 ConferenceSessionDetails 表格](conferencesessiondetails-0.md) <br/> |儲存每個 SIP 型會議工作階段的相關資訊，包括每個工作階段的開始時間和結束時間、使用者識別碼、回應碼以及診斷 ID。  <br/> |
@@ -70,14 +70,14 @@ ms.locfileid: "58635127"
    
 ## <a name="tables-for-messages-in-im-conferences"></a>IM 會議中的訊息表格
 
-|**表格**|**描述**|
+|**Table**|**描述**|
 |:-----|:-----|
 |[商務用 Skype Server 2015 中的 ConferenceMessageCount 表格](conferencemessagecount.md) <br/> |針對每個 IM 會議，儲存每個使用者所傳送的訊息數目。  <br/> |
 |[商務用 Skype Server 2015 中的 IMReportSummary 表格](imreportsummary.md) <br/> |提供組織內所保留之立即訊息工作階段的整體報告。  <br/> |
    
 ## <a name="tables-for-peer-to-peer-sessions"></a>對等工作階段表格
 
-|**表格**|**描述**|
+|**Table**|**描述**|
 |:-----|:-----|
 |[SessionDetails 表格](sessiondetails.md) <br/> |儲存每個對等工作階段的資訊，包括每個使用者的開始時間和結束時間、使用者識別碼、回應碼以及訊息計數。  <br/> |
 |[商務用 Skype Server 2015 中的 FileTransfers 表格](filetransfers-0.md) <br/> |儲存檔案傳輸工作階段的資訊，包括檔案名稱和結果 (接受、拒絕或取消)。  <br/> |
@@ -85,7 +85,7 @@ ms.locfileid: "58635127"
    
 ## <a name="table-for-voip-call-details"></a>VoIP 通話詳細資訊的表格
 
-|**表格**|**描述**|
+|**Table**|**描述**|
 |:-----|:-----|
 |[VoipDetails 表格](voipdetails-0.md) <br/> |會針對每次雙方 VoIP/PSTN 通話，儲存通話的相關資訊，例如 VoIP 電話的電話 ID、所用閘道，以及哪一方中斷連線。 指的是通話開始/結束時間和回應碼的 [SessionDetails 表格](sessiondetails.md) 。 <br/> |
    
@@ -94,7 +94,7 @@ ms.locfileid: "58635127"
   
 ## <a name="table-for-e9-1-1-call-auditing"></a>E9-1-1 通話稽核表格
 
-|**表格**|**描述**|
+|**Table**|**描述**|
 |:-----|:-----|
 |[商務用 Skype Server 2015 的位置表格](locations.md) <br/> |會針對每個緊急電話，如增強型 9-1-1 (E9-1-1) 通話，儲存通話的位置資訊。 指的是通話開始/結束時間和回應碼的 [SessionDetails 表格](sessiondetails.md) 。 <br/> |
    
@@ -103,7 +103,7 @@ ms.locfileid: "58635127"
   
 ## <a name="tables-for-troubleshooting"></a>疑難排解表格
 
-|**表格**|**描述**|
+|**Table**|**描述**|
 |:-----|:-----|
 |[商務用 Skype Server 2015 中的應用程式表格](application.md) <br/> |儲存與路由及連線相關的商務用 Skype Server 2015 內各種程式的資訊。  <br/> |
 |[商務用 Skype Server 2015 中的 CallType 表格](calltype.md) <br/> |儲存通話類型的相關資訊，例如「音訊」、「立即訊息」、「音訊和影片」和「應用程式共用」。  <br/> |
@@ -116,7 +116,7 @@ ms.locfileid: "58635127"
   
 ## <a name="tables-for-internal-use-by-lync-server"></a>Lync Server 內部使用的表格
 
-|**表格**|**描述**|
+|**Table**|**描述**|
 |:-----|:-----|
 |**DbConfigDateTime** <br/> |僅限內部使用。  <br/> |
 |**DbConfigInt** <br/> |僅限內部使用。  <br/> |

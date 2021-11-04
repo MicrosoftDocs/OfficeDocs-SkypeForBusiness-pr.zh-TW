@@ -1,7 +1,7 @@
 ---
 title: tblPreference
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f94eb128-f782-42ff-a568-ed3529573bc8
 description: tblPreference 包含使用者的用戶端喜好設定。 這通常是 Lync 2013 之前的用戶端使用。
-ms.openlocfilehash: e9b4518fbe203750406fe02a3a69b04d1e45a9c1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 24de89ff74da66023aeac696c7f3ae91fb9b98b1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578597"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768447"
 ---
 # <a name="tblpreference"></a>tblPreference
 
