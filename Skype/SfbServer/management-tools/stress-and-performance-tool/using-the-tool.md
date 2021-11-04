@@ -1,7 +1,7 @@
 ---
 title: 使用商務用 Skype Server 2015 應力和效能工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 2/13/2018
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: 若要執行商務用 Skype Server 2015 的壓力和效能工具，您必須能夠管理使用者、連絡人和使用者設定檔、設定執行的工具，然後查看工具所產生的輸出或結果。
-ms.openlocfilehash: 6db23c259aa19e8ec9e590218ff233461c677aa0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d54374e81319a6a95ec61fbb2ab5885e2ec368ca
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586875"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751582"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>使用商務用 Skype Server 2015 應力和效能工具
  

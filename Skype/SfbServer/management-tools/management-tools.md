@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 2015 管理工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4e956558-8cba-47d9-b96a-537d7f6ed938
 description: 摘要：瞭解商務用 Skype Server 2015 中的服務管理工具。
-ms.openlocfilehash: 775f8221fe29cc306e0bcdef5855652c47681c76
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 89adf7ab2ad71441abf765de75537eec43b8ce17
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014967"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776173"
 ---
 # <a name="skype-for-business-server-2015-management-tools"></a>商務用 Skype Server 2015 管理工具
  

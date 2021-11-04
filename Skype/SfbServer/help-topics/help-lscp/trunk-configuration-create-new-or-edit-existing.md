@@ -1,7 +1,7 @@
 ---
 title: 主幹設定建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 67a6e0ff495b7e6b567c0c5209e5c0ce734da425
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6ae3e9f2311c87bd2cad4c752f20f0927e306bf3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587399"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766721"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>主幹組態：建立新的或編輯現有組態
 

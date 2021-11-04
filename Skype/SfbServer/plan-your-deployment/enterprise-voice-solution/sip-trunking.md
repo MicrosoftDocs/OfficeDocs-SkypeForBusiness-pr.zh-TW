@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中的 SIP 主幹
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: 深入瞭解商務用 Skype Server 企業語音中的 SIP 主幹
-ms.openlocfilehash: d10f14a8c3f65309c52351a0721aa042faad47b6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 599745b59d3597afa9e9f4cdc23b6c648fdbbab0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728232"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744189"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>商務用 Skype Server 中的 SIP 主幹
 
@@ -183,6 +183,6 @@ SIP 主幹連線之服務提供者端的實作方式，會根據 ITSP 而不同�
 
 - 使用一般路由封裝 (GRE) ，加密 VPN 上的資料。
 
-## <a name="see-also"></a>也請參閱
+## <a name="see-also"></a>另請參閱
 
 [分支網站 SIP 主幹 in 商務用 Skype Server](branch-site.md)

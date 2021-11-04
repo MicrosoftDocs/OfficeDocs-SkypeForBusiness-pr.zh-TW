@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server電話撥入式會議計畫工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 description: 商務用 Skype Server 2015 電話撥入式會議可讓使用者使用公用交換電話網路 (PSTN) 電話加入商務用 Skype Server 2015 會議的音訊部分，而不需要協力廠商音訊會議提供者。
-ms.openlocfilehash: 9664cf06825156a2cae5889eca16859673ece63c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39e0686ceaa9cd4bc753a460b9eb3d3b8a96329e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628815"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746149"
 ---
 # <a name="skype-for-business-server-dial-in-conferencing-planning-tool"></a>商務用 Skype Server電話撥入式會議計畫工具
  

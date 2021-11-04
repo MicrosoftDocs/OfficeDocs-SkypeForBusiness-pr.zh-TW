@@ -1,7 +1,7 @@
 ---
 title: '管理商務用 Skype Server 中的電話撥入式會議存取號碼 '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 摘要：瞭解如何管理商務用 Skype Server 中的電話撥入式會議存取號碼。
-ms.openlocfilehash: d76d6135f32b3ea46368080169bf288a637e7546
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: bb7a6d51d953519f7ccef274c9aff106c78f278d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011517"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746019"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>管理商務用 Skype Server 中的電話撥入式會議存取號碼
  

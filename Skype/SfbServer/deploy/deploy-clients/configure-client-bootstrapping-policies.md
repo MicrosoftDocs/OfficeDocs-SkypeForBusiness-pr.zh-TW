@@ -1,7 +1,7 @@
 ---
 title: 設定用戶端啟動載入原則
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: 摘要：如何管理群組原則。
-ms.openlocfilehash: 3fccd578b18686ea6c9ce1a5686042f5c25c4f54
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0cf5dedc464dfbfb542d41cbf0477011cd1fbfd4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578147"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751382"
 ---
 # <a name="configure-client-bootstrapping-policies"></a>設定用戶端啟動載入原則
  
@@ -51,8 +51,8 @@ ms.locfileid: "58578147"
 
 |**Precedence**|**設定的位置或方法**|
 |:-----|:-----|
-|1   <br/> |商務用 Skype Server 頻帶內布建  <br/> |
-|2   <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
+|1  <br/> |商務用 Skype Server 頻帶內布建  <br/> |
+|第  <br/> |HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |3   <br/> |HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Office\16.0\Lync  <br/> |
 |4   <br/> |商務用 Skype 中的 [選項] 對話方塊  <br/> |
    

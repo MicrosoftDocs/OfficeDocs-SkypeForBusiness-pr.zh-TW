@@ -1,7 +1,7 @@
 ---
 title: 從現有的小組範本在 Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56af8756282a4d2cc40ebf33a620855785c67306
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 095596684c52615340efa32e7dcfd78eb3e9e823
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588215"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745589"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>從現有的小組範本在 Microsoft Teams
 
@@ -35,15 +35,15 @@ Microsoft Teams提供預先建建的範本，您可以儲存及修改範本，�
 
 3. 在小組 **範本區** 段，選取您想要複製的團隊範本旁，以將其突顯。
 
-4. 選取 **重複**。
+4. 選取 **複製**。
 
-![[小組範本> 對話方塊的影像，其中已強調 [新增> 。](media/template-duplicate.png)
+![[小組範本> 對話方塊的影像，其中已加上 [新增> 的顯示畫面。](media/template-duplicate.png)
 
  (，您也可以選取使用現有範本新增開始，以開啟選取要作為起點的範本  >  ****。) 
 
 ![小組範本起點畫面的影像，畫面上會以強調現有範本的開始畫面顯示。](media/template-start-existing-template.png)
 
-5. 在選取 **要作為起點的** 範本畫面中，選取下 **一步**。
+5. 在選取 **要作為起點的** 範本畫面中，選取 下 **一步**。
 
     複製的範本隨即開啟， **而複製一** 詞會附加到名稱中。
 
@@ -76,5 +76,5 @@ Microsoft Teams提供預先建建的範本，您可以儲存及修改範本，�
 ## <a name="related-articles"></a>相關文章
 
 - [在系統管理中心開始使用小組範本](get-started-with-teams-templates-in-the-admin-console.md)
-- [從現有小組建立範本](create-template-from-existing-team.md)
+- [從現有的小組建立範本](create-template-from-existing-team.md)
 - [建立小組範本](create-a-team-template.md)

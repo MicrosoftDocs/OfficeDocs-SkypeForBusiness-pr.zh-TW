@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype 中發佈語音路由設定的擱置變更
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台，在商務用 Skype Server 中查看、發佈或取消語音路由設定變更。
-ms.openlocfilehash: 2873520be0b5f7709fb493912be18afa807884c2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bf859dd7ed31a9a08fcba18af1b65cd1f34e8d16
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583187"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764851"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>在商務用 Skype 中發佈語音路由設定的擱置變更
  

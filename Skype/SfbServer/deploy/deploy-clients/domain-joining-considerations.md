@@ -1,6 +1,6 @@
 ---
 title: Skype會議室系統網域加入考慮
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: 閱讀此主題以瞭解如何將 Skype 的會議室系統裝置電腦加入您的網域。
-ms.openlocfilehash: b7590f17e8572d4379324f13924a5b4d7d339753
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a3a5e4b8fb1f4af7c67e0cfa91ff9237be438347
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623035"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751372"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype會議室系統網域加入考慮
  

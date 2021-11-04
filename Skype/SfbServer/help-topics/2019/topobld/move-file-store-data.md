@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中將檔案存放區資料移至新的檔案存放區
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 如果您需要移除目前做為商務用 Skype Server 部署之檔案存放區的檔案伺服器，或者您需要進行其他變更，使目前的檔案存放區無法使用，您必須先建立新的共用。 接著，您必須執行下列步驟：
-ms.openlocfilehash: 423bd9e96658612c46ae5931a1393ceaee391477
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 82916786bfe6fd3f780b409a697320daf8adfbec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622745"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750892"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>在商務用 Skype Server 中將檔案存放區資料移至新的檔案存放區
 

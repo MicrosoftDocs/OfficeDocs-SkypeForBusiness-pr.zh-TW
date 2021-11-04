@@ -1,7 +1,7 @@
 ---
 title: 設定商務用 Skype 中的 IP 位址類型
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 摘要：在實施商務用 Skype Server 之前，複查下列的 IP 位址類型考慮。
-ms.openlocfilehash: cc091a7d075af1f0ad8c48e615baa304ec162072
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 931d0af8dd064ebec854c08442abfe573333bf8e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584957"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765221"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>設定商務用 Skype 中的 IP 位址類型
 

@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中建立或修改 CDR 配置設定的集合
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 摘要：瞭解商務用 Skype Server 中的詳細通話記錄 (CDR) 。
-ms.openlocfilehash: 1f508df7d139d81d3c91dc1cf9355b61fd028dbc
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 9e77cc7782116f317504cbbee98d0731d69ed5e8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015147"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751742"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改 CDR 配置設定的集合
  

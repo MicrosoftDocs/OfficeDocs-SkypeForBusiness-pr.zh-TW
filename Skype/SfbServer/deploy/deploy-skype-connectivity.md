@@ -1,7 +1,7 @@
 ---
 title: 部署商務用 Skype Server 中的 Skype 連線能力
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 摘要：瞭解如何使用 Skype 消費者來連接商務用 Skype Server。 也稱為 Skype 連線性。
-ms.openlocfilehash: c63e476cc413bbf0a676c7b28d02519bbc6f223d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 003e9a69dc4213b662795b0570afb3ca152d7e00
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013187"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751302"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>部署商務用 Skype Server 中的 Skype 連線能力
 
@@ -126,7 +126,7 @@ Skype連線也是商務用 Skype 線上的功能，也就是 Microsoft 365 和 O
 在2006中部署的公用 IM (PIC) 布建機制 (pic.lync.com) 已無法繼續維護，且會在8/15/2019 時關閉。 相反地，公用 IM 同盟會假設商務用 Skype Online （稱為「夥伴探索」）所使用的相同同盟模型，因此內部部署部署會透過其同盟 DNS SRV 記錄 (s) 加以公開探索。
 
 **這種變更意味著公用 IM 同盟被取代？**
-錯誤。 公用 IM 同盟將繼續支援許多年，直到商務用 Skype 的內部部署產品到達生命週期結束時為止。
+否。 公用 IM 同盟將繼續支援許多年，直到商務用 Skype 的內部部署產品到達生命週期結束時為止。
 
 **我們公司有 (共用位址空間的混合式關聯) 商務用 Skype 線上，我們會受到影響嗎？**
 不需要，因為您已與商務用 Skype 線上，所以此變更不會影響您。
@@ -221,7 +221,7 @@ Skype連線也是商務用 Skype 線上的功能，也就是 Microsoft 365 和 O
 下表概述 Skype 消費程式最新版本與最新版商務用 Skype 之間的交互操作狀態。
   
 
-|Skype客戶|新增連絡人、IM、顯示狀態、音訊和影片通話|註解|
+|Skype客戶|新增連絡人、IM、顯示狀態、音訊和影片通話|留言|
 |:-----|:-----|:-----|
 |Skype Windows 桌面   |7.6 或更高版本 Windows XP 及更高版本   |**新增**：針對執行于 Windows XP 上的 Windows Skype 用戶端，新增支援，而 Windows Vista **(需要最新的用戶端版本7.26 或更高版本)**  |
 |SkypeMobile-Android 電話和平板電腦   |6.19 或更高版本，執行 Android OS 版本4.0.3 或更高版本   |低規格裝置可能不支援影片通話   |

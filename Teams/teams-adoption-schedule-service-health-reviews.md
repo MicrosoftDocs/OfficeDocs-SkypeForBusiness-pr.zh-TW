@@ -1,7 +1,7 @@
 ---
 title: 針對您的採用排程服務健康Microsoft Teams評論
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -20,12 +20,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c203096f10f3263c8e0b16a62d0d7ede004adde
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8fefb34068d85dce1d0333ff0998fe03662ebe3d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594475"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745429"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>針對您的採用排程服務健康Microsoft Teams評論
 
@@ -33,7 +33,7 @@ ms.locfileid: "58594475"
 
 - **服務使用量**– 使用中使用方式資料，並可能包含因移往服務而已棄用或減少Teams。 共同服務一般由服務管理員或產品擁有者主導。
 - **服務健康** 情況 ： 通話品質、會議健康情況及整體服務健康情況。 檢閱任何支援事件和支援服務票證等級。 安全性與管理主題。 通常是由資訊保護和支援小組所帶領。 
-- **功能/專案藍圖** - 剩餘員工上機或進一步共同作業改進專案的排程是什麼？ 貴組織要啟用哪些其他功能？ 一般由服務管理員或產品擁有者與主要業務關係人共同合作，共同處理共同服務。
+- **功能/專案藍圖** - 剩餘員工上機或進一步共同作業改進專案的排程是什麼？ 貴組織要啟用哪些其他功能？ 一般是由服務管理員或產品擁有者與主要業務關係人共同合作，共同處理共同服務。
 - **認知活動與訓練成功量值更新** – 包括影響、參與、重要意見回饋主題，以及已開啟的問題。 包含關鍵成功和成功案例。 
 
 這個每月的評量在大型組織中可能相當正式，或在較小的公司中是虛擬的。 共用及監控這些資料非常重要，以確保健康且每一個日益生動的Microsoft Teams。 

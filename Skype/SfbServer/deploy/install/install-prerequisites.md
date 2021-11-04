@@ -1,7 +1,7 @@
 ---
 title: 安裝商務用 Skype Server 的必要條件
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 摘要：瞭解您在安裝商務用 Skype Server 之前必須設定的伺服器和伺服器角色。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 998fa2371e0d0b0d62ce3755a6be881f49956eef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8b646ea95b13454d1b025cfbfdae186c927859e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624365"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751152"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>安裝商務用 Skype Server 的必要條件
  

@@ -1,7 +1,7 @@
 ---
 title: 啟用或停用商務用 Skype Server 中的電話撥入式會議
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: 摘要：瞭解如何使用控制台或管理命令介面來啟用或停用商務用 Skype Server 中的電話撥入式會議。
-ms.openlocfilehash: ebdc13d94a840b3eaceb37332a6775e5d725bb9a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 45a47d411570d20273c9a3a9ace3536641157fde
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609280"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766571"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>啟用或停用商務用 Skype Server 中的電話撥入式會議
  

@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中建立及發行新的拓撲
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/15/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 摘要：瞭解如何在安裝商務用 Skype Server 之前建立、發佈和驗證新的拓撲。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: d50a2d2e89435bed7ae60c471c76fcca9f766567
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 16fad4b920280ba5557dc612031d5abbfad7fe35
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013357"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751162"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>在商務用 Skype Server 中建立及發行新的拓撲
  

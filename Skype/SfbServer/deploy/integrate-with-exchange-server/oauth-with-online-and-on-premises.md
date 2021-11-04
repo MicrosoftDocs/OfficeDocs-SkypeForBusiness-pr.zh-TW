@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype 線上與 Exchange 伺服器之間的整合
 ms.reviewer: cbland
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/2/2019
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 設定 Exchange 內部部署和商務用 Skype 線上之間的 OAuth 驗證，可啟用功能支援中所述的商務用 Skype 及 Exchange 整合功能。
-ms.openlocfilehash: 8adb5209a00d1b42dc57f9de8635ade40966f9f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e811a7feb713e2c356acdeba5461a212bfff17e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621775"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764771"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>設定商務用 Skype 線上和 Exchange Server 之間的整合及 OAuth 
 
@@ -99,7 +99,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 [System.IO.File]::WriteAllBytes($CertFile, $certBytes)
 ```
 
-在內部部署 Exchange 組織 Exchange PowerShell 中，執行您剛才建立的 PowerShell 腳本。 例如： .\ExportAuthCert.ps1
+在內部部署 Exchange 組織 Exchange PowerShell 中，執行您剛才建立的 PowerShell 腳本。 例如：. \ExportAuthCert.ps1
 
 ### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>步驟5：將內部部署授權憑證 Upload Azure Active Directory ACS
 
@@ -126,7 +126,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 3. 執行您在前一個步驟中建立的 PowerShell 指令碼。 例如：  `.\UploadAuthCert.ps1`
 
-4. 啟動指令碼之後，即會顯示認證對話方塊。 輸入您的 Microsoft Online Azure AD 組織之租使用者系統管理員帳戶的認證。 執行腳本後，請保持 Azure AD 會話的 Windows PowerShell 開啟。 您將在下一個步驟中以此工作階段執行 PowerShell 指令碼。
+4. 啟動指令碼之後，即會顯示認證對話方塊。 輸入您的 Microsoft Online Azure AD 組織之租使用者系統管理員帳戶的認證。 執行腳本後，Azure AD 會話的 Windows PowerShell 保持開啟狀態。 您將在下一個步驟中以此工作階段執行 PowerShell 指令碼。
 
 ### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>步驟6：確認憑證已上傳至商務用 Skype 服務主體
 1. 在 PowerShell 開啟和驗證以 Azure Active Directory 中，執行下列

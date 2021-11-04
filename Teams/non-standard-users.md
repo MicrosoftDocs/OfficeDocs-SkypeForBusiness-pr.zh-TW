@@ -1,7 +1,7 @@
 ---
 title: Teams非標準使用者的應用程式行為
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
@@ -17,18 +17,18 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882fda0be339c8f9869c5b83fbeff3e97d5892ee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ad7f7c5f92a5bbde4e8a01d8616305bbf06f980
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619399"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745539"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams非標準使用者的應用程式行為
 
-本文將說明當來賓、Teams外部使用者、 (、) 使用者，以及匿名使用者以Teams時的行為。
+本文將說明當來賓、Teams外部使用者 (、) 使用者與匿名使用者同時出現時，Teams的行為。
 
-- 來賓 **使用者** 不是貴組織的員工、學生或成員。 他們沒有貴組織的學校或公司帳戶。
+- **來賓使用者** 不是貴組織的員工、學生或成員。 他們沒有貴組織的學校或公司帳戶。
 
 - 外部 **(使用者**) 屬於另一個網域，且無法存取貴組織的小組或小組資源。
 
@@ -41,7 +41,7 @@ ms.locfileid: "58619399"
 
 ### <a name="install-update-and-delete-for-guest-users"></a>為來賓使用者安裝、更新及刪除
 
-來賓無法安裝、更新或刪除應用程式至共用內容 ，例如聊天、頻道或會議，但他們可以使用訊息擴充功能與直接連結來進入個人範圍。 來賓無法從桌面Teams存取 Teams App Store，但可以使用直接連結存取。
+來賓無法安裝、更新或刪除應用程式至共用內容 ，例如聊天、頻道或會議，但他們可以使用訊息擴充功能與直接連結來進入個人範圍。 來賓無法從桌面Teams存取 Teams應用程式市Teams，但可以使用直接連結存取。
 
 ### <a name="usage-behavior-and-policy-for-guest-users"></a>來賓使用者的使用行為與政策
 
@@ -49,11 +49,11 @@ ms.locfileid: "58619399"
 
 #### <a name="bots-installed-to-a-channel"></a>安裝至頻道的 Bot
 
-Bot 可以主動訊息來賓使用者，但來賓無法與 Bot 互動。 來賓無法一對一訊息給 Bot、提及 Bot，或與與 Bot 通訊的介面卡片互動。
+Bot 可以主動訊息給來賓使用者，但來賓無法與 Bot 互動。 來賓無法一對一訊息給 Bot、提及 Bot，或與與 Bot 通訊的介面卡片互動。
 
 #### <a name="personal-bots-installed-with-policies"></a>使用策略安裝的個人 Bot
 
-- 來賓會遵循針對任何 App 的主機租使用者所設定之全域和全組織許可權原則。 如果整個主機組織的應用程式被封鎖，則來賓也無法使用此 App。
+- 來賓會遵循針對任何應用程式的主機租使用者所設定之全域和全組織許可權原則。 如果整個主機組織的應用程式被封鎖，則來賓也無法使用此 App。
 - 全域預設應用程式設定政策中包含的任何 Bot 也會為來賓安裝。
 - 安裝 Bot 之後，Bot 可以主動與來賓通訊，而來賓可以與 Bot 重新通訊。
 - 您無法從全域預設應用程式設定策略移除來賓。
@@ -63,7 +63,7 @@ Bot 可以主動訊息來賓使用者，但來賓無法與 Bot 互動。 來賓�
 
 ### <a name="install-update-and-delete-for-external-users"></a>安裝、更新及刪除外部使用者
 
-外部使用者無法在任何內容中安裝、更新或刪除應用程式，例如個人、聊天、頻道或會議。 他們無法存取主Teams應用程式存放區。
+外部使用者無法在任何內容中安裝、更新或刪除應用程式，例如個人、聊天、頻道或會議。 他們無法存取主機Teams應用程式存放區。
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>外部使用者的使用行為與政策
 
@@ -82,7 +82,7 @@ Bot 可以主動訊息來賓使用者，但來賓無法與 Bot 互動。 來賓�
 
 匿名使用者無法直接在會議中使用 App。 如果匿名使用者存在，原生使用者可以繼續使用會議應用程式。 如果應用程式在聊天中傳送介面卡片，匿名使用者可以與卡片互動。 若要詳細資訊，請參閱 [允許匿名使用者加入會議](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
 
-匿名使用者將繼承使用者層級全域預設權限原則。 如果使用者層級許可權Teams啟用應用程式，他們可以與會議中的應用程式互動。 匿名使用者只能與會議中現有的應用程式互動，且無法取得和/或管理這些應用程式。
+匿名使用者將繼承使用者層級全域預設權限原則。 如果使用者層級許可權Teams啟用應用程式，他們可以與會議中的應用程式互動。 匿名使用者只能與會議中現有的應用程式互動，而且無法取得和/或管理這些應用程式。
 
 ## <a name="related-topics"></a>相關主題
 

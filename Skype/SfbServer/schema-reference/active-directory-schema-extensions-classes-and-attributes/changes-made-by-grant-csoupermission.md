@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 中 Grant-CsOUPermission 所做的變更
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: 若要委派商務用 Skype Server 管理，您可以將許可權新增至指定的組織單位 (ou) ，這樣樹系準備建立的 RTC 通用群組成員才能存取 ou，而不是 Domain Admins 群組的成員。
-ms.openlocfilehash: f700b03f95be05e00d4e5eb032d9dd50ceb1352b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5c507cf91a880c73c7b377deafb672ed25b1125
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613903"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745839"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>商務用 Skype Server 中 Grant-CsOUPermission 所做的變更
  
@@ -32,7 +32,7 @@ ms.locfileid: "58613903"
   
 **使用者物件的授與許可權**
 
-|**Group**|**權限**|**適用於**|
+|**Group**|**Permission**|**適用於**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |複製目錄變更  <br/> |僅限這個物件  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |清單內容  <br/> 讀取所有屬性  <br/> 讀取權限  <br/> |僅限這個物件  <br/> |
@@ -46,7 +46,7 @@ ms.locfileid: "58613903"
   
 **電腦物件的授與許可權**
 
-|**Group**|**權限**|**適用於**|
+|**Group**|**Permission**|**適用於**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |複製目錄變更  <br/> |僅限這個物件  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |清單內容  <br/> 讀取所有屬性  <br/> 讀取權限  <br/> |僅限這個物件  <br/> |
@@ -60,7 +60,7 @@ ms.locfileid: "58613903"
   
 **授與連絡人或 AppContact 物件的許可權**
 
-|**Group**|**權限**|**適用於**|
+|**Group**|**Permission**|**適用於**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |複製目錄變更  <br/> |僅限這個物件  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |清單內容  <br/> 讀取所有屬性  <br/> 讀取權限  <br/> |僅限這個物件  <br/> |
@@ -74,7 +74,7 @@ ms.locfileid: "58613903"
   
 **對 Device 物件授與的許可權**
 
-|**Group**|**權限**|**適用於**|
+|**Group**|**Permission**|**適用於**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |複製目錄變更  <br/> |僅限這個物件  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |清單內容  <br/> 讀取所有屬性  <br/> 讀取權限  <br/> |僅限這個物件  <br/> |
@@ -90,7 +90,7 @@ ms.locfileid: "58613903"
   
 **InetOrgPerson 物件的授與許可權**
 
-|**Group**|**權限**|**適用於**|
+|**Group**|**Permission**|**適用於**|
 |:-----|:-----|:-----|
 |RTCHSUniversalServices  <br/> |複製目錄變更  <br/> |僅限這個物件  <br/> |
 |RTCUniversalServerReadOnlyGroup  <br/> |清單內容  <br/> 讀取所有屬性  <br/> 讀取權限  <br/> |僅限這個物件  <br/> |

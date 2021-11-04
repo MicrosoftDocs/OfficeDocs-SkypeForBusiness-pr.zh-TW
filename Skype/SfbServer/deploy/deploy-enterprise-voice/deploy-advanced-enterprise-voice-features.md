@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中部署高級企業語音功能
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: 在商務用 Skype Server 中部署高級企業語音功能。
-ms.openlocfilehash: ff270b2a2bdf4fd489cca1922a6b1635a3654f91
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 00bd7a4c6f119f80ac4fb76938e8c9533c595a21
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620229"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751332"
 ---
 # <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>在商務用 Skype Server 中部署高級企業語音功能
  

@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 2015 中的持續性聊天類別、聊天室和使用者角色
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/17/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 2015 中的 Persistent chat Server 的類別、聊天室和使用者和系統管理員角色。
-ms.openlocfilehash: e3740702f43ae677ef451049bfce2a4497a0b992
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0c468092016fae578e3c96987fed88b37db9d1c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615559"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765211"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的持續性聊天類別、聊天室和使用者角色
  
@@ -60,7 +60,7 @@ ms.locfileid: "58615559"
     > [!IMPORTANT]
     > 如果管理員同時擔任其他類別的建立者，則管理員只能變更他們獲得授權所建立之聊天室的類別。 
   
-- **Member**：屬於聊天室成員的使用者。 這些使用者可以在目錄 (中看到聊天室，即使聊天室是機密) ，也可以訂閱聊天室 (（包括中繼資料選項（如未讀郵件、xbox 篩選器和關鍵字篩選器) ），以及參與聊天室 (可以張貼，除非會議室是只有簡報者張貼、取得內容及搜尋) 的視聽中心聊天室。 不是聊天室成員的使用者可以在該類別的 [允許的成員清單] 清單中搜尋聊天室，但需要要求存取權加入這些聊天室才能存取內容。  (系統內沒有內建的要求存取權或核准;這些是透過電子郵件、電話或其他形式的連絡人進行外部完成。 ) 
+- **Member**：屬於聊天室成員的使用者。 這些使用者可以在目錄 (中看到聊天室，即使聊天室是機密) ，也可以訂閱聊天室 (（包括中繼資料選項（如未讀郵件、xbox 篩選器和關鍵字篩選器) ），以及參與聊天室 (可以張貼，除非會議室是只有簡報者可以張貼的視聽中心聊天室，否則請 取得內容及搜尋) 。 不是聊天室成員的使用者可以在該類別的 [允許的成員清單] 清單中搜尋聊天室，但需要要求存取權加入這些聊天室才能存取內容。  (系統內沒有內建的要求存取權或核准;這些是透過電子郵件、電話或其他形式的連絡人進行外部完成。 ) 
     
 - **簡報者** 可以在視聽聊天室進行張貼的使用者。
     

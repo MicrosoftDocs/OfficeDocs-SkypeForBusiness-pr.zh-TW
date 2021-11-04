@@ -1,7 +1,7 @@
 ---
 title: 新增 Edge Server 下一個躍點
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8ef7235d-626c-4cc9-b6ec-9dfeab495cc0
 description: Edge 集區的下一個躍點是前端集區 (，可以是 Enterprise 集區或 Standard Edition 伺服器) ，或者，如果您的部署包含 director，則下一個躍點是 director。
-ms.openlocfilehash: e629df03bd9ee7d495ac3bdde8bb2f89eb9bc175
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c7554e517d8cf70fc225930c41fe9819504b4c4a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615829"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776343"
 ---
 # <a name="add-edge-server-next-hop"></a>新增 Edge Server 下一個躍點
 

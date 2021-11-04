@@ -1,7 +1,7 @@
 ---
 title: 會話視圖
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: 「工作階段檢視」會儲存在資料庫中有記錄的工作階段的相關資訊。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: e39f6c744280e96a6f0fd33c28125196f90ed7cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 22ad5fdc02eb7b3dc7531a18f4b40bee0334ce09
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593347"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776013"
 ---
 # <a name="session-view"></a>會話視圖
  

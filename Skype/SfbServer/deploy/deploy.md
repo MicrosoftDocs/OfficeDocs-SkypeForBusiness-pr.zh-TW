@@ -1,7 +1,7 @@
 ---
 title: 部署商務用 Skype Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 摘要：流覽下列連結，以瞭解如何安裝和設定商務用 Skype Server 2015，以及從舊版的 Lync Server 升級。
-ms.openlocfilehash: ec5843fde868f29d6b345da654b47830c13f376f
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 0b7a43533708af8f3ab017b5796b5c9dc413cafc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011967"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764781"
 ---
 # <a name="deploy-skype-for-business-server-2015"></a>部署商務用 Skype Server 2015
  

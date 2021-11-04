@@ -1,7 +1,7 @@
 ---
 title: 在組織中建立全組織Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: phlouie
 manager: serdars
 ms.topic: article
@@ -17,20 +17,20 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 058aa530508c03587eae3ff6a55e218bc109bbd2
-ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
+ms.openlocfilehash: b266bf4cfef25761ce492cb93090ff3df380994d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60641173"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745609"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>在組織中建立全組織Microsoft Teams
 
 全組織團隊提供自動方式，讓中小型企業中的每個人都成為單一且共同合作團隊的一員。
 
-使用全組織團隊，全域系統管理員可以輕鬆地建立具有下列特性的公用小組：
+使用全組織團隊，全域系統管理員可以輕鬆地建立具有下列特性的公用團隊：
 - 拉取組織中每個使用者 
-- 當使用者加入並離開組織時，使用 Active Directory 保持成員資格最新狀態。
+- 當使用者加入並離開組織時，使用 Active Directory 保持成員資格為最新狀態。
 
 只有全域系統管理員可以建立全組織團隊。 目前，全組織團隊僅限不超過 10，000 個使用者的組織。 每個租使用者也有五個全組織團隊的限制。 建立團隊時，如果符合這些要求，全域系統管理員在選取從頭開始建立團隊時，會看到全組織 **為選項**。 
 
@@ -42,7 +42,7 @@ ms.locfileid: "60641173"
 
 - 被封鎖而無法登入的帳戶
 - 來賓使用者
-- 例如，資源 (服務帳戶，例如與自動電話機和通話佇列相關聯的) 
+- 例如，資源 (服務帳戶，例如與自動話務員和通話佇列相關聯的) 
 - 會議室或設備帳戶
 - 共用信箱支援的帳戶
 
@@ -52,7 +52,7 @@ ms.locfileid: "60641173"
 > - 如果您在建立團隊時沒看到全組織選項，而您是全域系統管理員，表示您可能已達到五個全組織團隊限制，或貴組織可能超過目前 10，000 個成員的大小限制。 我們預計在未來增加這個限制。 Teams 教育版目前無法使用全組織小組。
 > - 非會議室清單、設備和資源帳戶的一部分，可能會新增或同步到整個組織的小組。 小組擁有者可輕鬆地從小組移除這些帳戶。
 > - 系統新增或移除成員的所有動作會張貼在 [一般] 頻道。 頻道也會標示為在 Teams 用戶端中有新的活動。
-> - 如果您的組織是新使用者，且使用者不超過 5，000 人，我們會自動為貴組織Teams建立全組織團隊。 小組名稱會反映租用戶名稱，並擁有 [一般] 頻道。 全域系統管理員可以像其他任何小組一樣編輯這個小組。
+> - 如果貴組織是新使用者，且使用者不超過 5，000 人，Teams會自動為貴組織建立全組織團隊。 小組名稱會反映租用戶名稱，並擁有 [一般] 頻道。 全域系統管理員可以像其他任何小組一樣編輯這個小組。
 
 ## <a name="best-practices"></a>最佳做法
 
@@ -89,7 +89,7 @@ ms.locfileid: "60641173"
 
 ### <a name="remove-accounts-that-might-not-belong"></a>移除可能不屬於的帳戶
 
-即使成員無法離開整個組織團隊，但做為團隊擁有者，您可以移除不屬於的帳戶來管理小組名冊。 **請確認您使用 Teams 移除全組織小組中的使用者**。 如果您使用另一種方法移除使用者，例如 Microsoft 365 系統管理中心 或 Outlook 中的群組，使用者可能會重新加入整個組織的團隊。
+即使成員無法離開整個組織團隊，但做為團隊擁有者，您可以移除不屬於的帳戶來管理小組名冊。 **請確認您使用 Teams 移除全組織小組中的使用者**。 如果您使用另一種方式移除使用者，例如 Microsoft 365 系統管理中心 或群組中的 Outlook，使用者可能會重新加入整個組織的團隊。
 
 ## <a name="faq"></a>常見問題集
 
@@ -106,7 +106,7 @@ ms.locfileid: "60641173"
 
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-organization-wide-team"></a>是否有將現有團隊轉換成全組織團隊的方法？
 
-全域系統管理員可以在用戶端中編輯現有團隊，將其轉換為全組織Teams團隊。 移至小組名稱，按一下 [更多選項]  >  [編輯小組]。
+全域系統管理員可以在用戶端中編輯現有團隊，將其轉換為全Teams團隊。 移至小組名稱，按一下 [更多選項]  >  [編輯小組]。
 
 ### <a name="can-i-create-an-organization-wide-team-using-a-team-template"></a>我可以使用小組範本建立全組織團隊嗎？
 

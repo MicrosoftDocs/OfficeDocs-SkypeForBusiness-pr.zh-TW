@@ -1,7 +1,7 @@
 ---
 title: 流覽商務用 Skype Server 2015 中的規劃工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: 您可以使用工具列、頁面特定按鈕和連結的組合，以及內容特有的窗格，來流覽商務用 Skype Server 2015 規劃工具。 內容特有的窗格提供規劃與容量相關的設計資訊，與特定頁面上的選取選項有關。
-ms.openlocfilehash: 37a5a3e9ba2934422ef9a89ef7c0cb3df25f1a4a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 6601b4830c1bee071ea5ad7e9dbaaa533d7d761a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725702"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751592"
 ---
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>流覽商務用 Skype Server 2015 中的規劃工具
 
@@ -45,7 +45,7 @@ ms.locfileid: "58725702"
 
 ![規劃工具的 [動作] 窗格。](../../media/Planning_Tool_Actions_Pane.jpg)
 
-## <a name="see-also"></a>也請參閱
+## <a name="see-also"></a>另請參閱
 
 [建立商務用 Skype Server 2015 的初始拓撲設計](create-the-initial-design.md)
 

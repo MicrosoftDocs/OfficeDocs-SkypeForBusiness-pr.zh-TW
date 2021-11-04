@@ -1,7 +1,7 @@
 ---
 title: 設定商務用 Skype Server 混合式環境的伺服器對伺服器驗證
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 摘要：設定商務用 Skype Server 混合式環境的伺服器對伺服器驗證。
-ms.openlocfilehash: 1da99f335e5d26523bb29ef6e11251019e2020c8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcec1e982af0c5ad778a83fe6af9b58fbd44c7e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587195"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746069"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>設定商務用 Skype Server 混合式環境的伺服器對伺服器驗證。
 
@@ -79,7 +79,7 @@ $TenantID = (Get-CsTenant -Filter {DisplayName -eq "Fabrikam.com"}).TenantId
 
 
 
-在您設定 Microsoft 365 或 Office 365，且已建立商務用 Skype Server 和 Exchange 2013 的 Microsoft 365 或 Office 365 服務主體後，您就必須使用這些服務主體註冊您的認證。 為了達到此目的，您必須先取得 x.509 Base64 憑證另存為。CER 檔案。 然後將此憑證套用至 Microsoft 365 或 Office 365 服務主體。
+在您設定 Microsoft 365 或 Office 365，且已建立商務用 Skype Server 和 Exchange 2013 的 Microsoft 365 或 Office 365 服務主體之後，您將需要使用這些服務註冊認證校長。 為了達到此目的，您必須先取得 x.509 Base64 憑證另存為。CER 檔案。 然後將此憑證套用至 Microsoft 365 或 Office 365 服務主體。
 
 當您取得 x.509 憑證之後，請開啟 PowerShell 主控台，然後匯入 Microsoft Online Windows PowerShell 模組，其中包含可用於管理服務主體的 Cmdlet：
 

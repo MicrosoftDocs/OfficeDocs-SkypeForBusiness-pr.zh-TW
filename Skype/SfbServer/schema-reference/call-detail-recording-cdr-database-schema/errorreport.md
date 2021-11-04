@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 2015 中的 ErrorReport 表格
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: ErrorReport 表儲存發生錯誤的相關資訊。 每個記錄是一個錯誤發生。 這兩個錯誤是由前端伺服器上執行的 CDR 代理程式所捕獲，或是從用戶端傳送。
-ms.openlocfilehash: d2fccd6f1f99884e9d4412cb9814f24d581248a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd74743ed0b9dcd2fb9bb4cfa651f840528cb58c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634177"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745769"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 ErrorReport 表格
  

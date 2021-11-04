@@ -1,6 +1,6 @@
 ---
 title: Skype會議室系統混合式部署
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: 閱讀此主題以瞭解如何在混合式環境中部署 Skype 的會議室系統。
-ms.openlocfilehash: b5a512871a60a502d1e2f5e981593291149d3361
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c47809fcf5277ed34f11955b19306e6a4078d650
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598187"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751352"
 ---
 # <a name="skype-room-system-hybrid-deployments"></a>Skype會議室系統混合式部署
 
@@ -41,7 +41,7 @@ ms.locfileid: "58598187"
     
 3. 建立部署 Active Directory 使用者 lrstest5@LyncSample.com，將電子郵件地址設定為 lrstest5@LyncSample.com，並將目標位址設定為 lrstest5@LyncSample.com。
     
-4. 觸發目錄同步處理，而且在同步處理完成後，請確認使用者在 AAD 中合併，而且無法在 Microsoft 365 中或 Office 365 Exchange 系統管理中心內變更收件者資源中的屬性。
+4. 觸發目錄同步處理，而且在同步處理完成後，請確認使用者在 AAD 中合併，而且無法在 Microsoft 365 或 Office 365 Exchange 系統管理中心中變更收件者資源中的屬性。
     
 5. 使用 lrstest5@LyncSample.com 驗證 OWA 連線。  (早些時候，您已使用線上網域驗證 OWA 連線。 ) 
     

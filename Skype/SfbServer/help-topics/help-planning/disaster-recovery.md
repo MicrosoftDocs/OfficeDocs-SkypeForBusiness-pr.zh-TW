@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server嚴重損壞修復計畫工具
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 description: 商務用 Skype Server 2015 包括災害復原量值，可讓您將位於兩個資料中心的前端集區配對。
-ms.openlocfilehash: 97baf11efb001b6ff02dc9beb083590205536449
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f331b82015804de7a5d12ab273350e651e6a0ed8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628795"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746109"
 ---
 # <a name="skype-for-business-server-disaster-recovery-planning-tool"></a>商務用 Skype Server嚴重損壞修復計畫工具
  

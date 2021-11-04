@@ -1,6 +1,6 @@
 ---
 title: Skype 會議 App 最低網路需求
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: 摘要：對於未使用 Microsoft 365 或 Office 365，且需要存取組織組織之會議的組織資訊。
-ms.openlocfilehash: 29b9103d741440a480be27e9d4268d6cc8d94c47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d27e578e448c44cd13190d4aedf1e15f611d997
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615609"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751572"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Skype 會議 App 最低網路需求
  

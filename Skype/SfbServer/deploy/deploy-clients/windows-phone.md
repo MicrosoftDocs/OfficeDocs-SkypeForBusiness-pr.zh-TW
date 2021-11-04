@@ -1,7 +1,7 @@
 ---
 title: 安裝及測試 Windows Phone 版商務用 Skype
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 摘要：瞭解如何在 Windows Phone 上安裝及測試商務用 Skype。
-ms.openlocfilehash: 53a06d80deb99c5f05a9f7a21ab5a5fd171e2797
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e227acad57552eb9d548c6bd8f694dd52d4dfd99
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727322"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764911"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>安裝及測試 Windows Phone 版商務用 Skype
  

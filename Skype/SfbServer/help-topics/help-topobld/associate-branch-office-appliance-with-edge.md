@@ -1,7 +1,7 @@
 ---
 title: 建立 Branch Office Appliance 與 Edge 的關聯
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/14/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 description: 如果您已部署 Edge Server，且必須提供供外部使用的媒體服務，請選擇下拉式清單中選取將與 Survivable Branch 裝置或 Survivable Branch 伺服器關聯的 Edge Server 或集區。 按 [下一步] 繼續。
-ms.openlocfilehash: 02a57ab5bcd4960e277b8ab433d9a76780482f38
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dbc95b936b66c63413b6b79ca8474af6cda47f12
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612432"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746079"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>建立 Branch Office Appliance 與 Edge 的關聯
  

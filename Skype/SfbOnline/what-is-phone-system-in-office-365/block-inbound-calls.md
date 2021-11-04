@@ -1,6 +1,6 @@
 ---
 title: 封鎖線上商務用 Skype來電
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.topic: article
@@ -13,12 +13,12 @@ appliesto:
 - Skype for Business
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 8b4c26fb1f0a34c2dd0b7fb5159398e7eaf54df3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6fa72103448d20d9c659eff32735fa5d14389509
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581127"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751392"
 ---
 # <a name="block-inbound-calls"></a>封鎖來電
 
@@ -39,15 +39,15 @@ ms.locfileid: "58581127"
 
 ## <a name="call-blocking-powershell-commands"></a>封鎖 PowerShell 命令的通話
 
-數位模式會透過 ```CsInboundBlockedNumberPattern``` 命令 ```New``` 、和 ```Get``` 進行管理 ```Set``` ```Remove``` 。 您可以使用這些 Cmdlet 來管理一個給定的模式，包括切換啟用給定模式的能力。
+數位模式會透過 ```CsInboundBlockedNumberPattern``` 命令 ```New``` ```Get``` 、、和 進行管理 ```Set``` ```Remove``` 。 您可以使用這些 Cmdlet 來管理一個給定的模式，包括切換啟用給定模式的能力。
 - [Get-CsInboundBlockedNumberPattern](/powershell/module/skype/get-csinboundblockednumberpattern) 會針對每個清單，會返回新到租使用者清單的所有封鎖數位模式清單，包括名稱、描述、已啟用 (True/False) 和 Pattern。
 - [New-CsInboundBlockedNumberPattern](/powershell/module/skype/new-csinboundblockednumberpattern) 會新增封鎖的號碼模式至租使用者清單。
 - [Remove-CsInboundBlockedNumberPattern](/powershell/module/skype/remove-csinboundblockednumberpattern) 會從租使用者清單中移除封鎖的號碼模式。
 - [Set-CsInboundBlockedNumberPattern](/powershell/module/skype/set-csinboundblockednumberpattern) 會修改租使用者清單中封鎖之數位模式的一或多個參數。
 
-檢視及啟用整個通話封鎖功能是由命令 ```CsTenantBlockingCallingNumbers``` 和 ```Get``` 管理 ```Set``` 。
+檢視及啟用整個通話封鎖功能是由命令 ```CsTenantBlockingCallingNumbers``` 和 ```Get``` ```Set``` 管理。
 
-- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) 會返回全域封鎖數位清單的參數，包括啟用的 (True/False) 。 除了開啟或關閉功能外，無法手動修改單一全域租使用者策略。
+- [Get-CsTenantBlockedCallingNumbers](/powershell/module/skype/get-cstenantblockedcallingnumbers) 會返回全域封鎖數位清單的參數，包括已啟用的 true/False (True/False) 。 除了開啟或關閉功能外，無法手動修改單一全域租使用者策略。
 - [Set-CsTenantBlockedCallingNumbers](/powershell/module/skype/set-cstenantblockedcallingnumbers) 允許修改全域租使用者封鎖的通話，以在租使用者層級開啟和關閉。
 
 ### <a name="examples"></a>範例
@@ -137,7 +137,7 @@ Set-CsTenantBlockedNumberExceptionPattern -Identity InternationalPrefix -Tenant 
 
 #### <a name="remove-a-number-exception"></a>移除數位例外
 
-在此範例中 ```-Identity``` ，參數為必填項。 此 Cmdlet 會從租使用者清單中移除給定的數位模式。  如果身分識別未知，請使用 Cmdlet 先找出正確的模式，並 ```Get-CsInboundBlockedNumberPattern``` 記下身分識別。 接著，執行 ```Remove-CsTenantBlockedNumberExceptionPattern``` Cmdlet 並傳遞適當的身分識別值。在測試和驗證之前，請允許複製時間。  
+在此範例中 ```-Identity``` ，參數為必填項。 此 Cmdlet 會移除租使用者清單中的給定數位模式。  如果身分識別未知，請使用 Cmdlet 先找出正確的模式，並 ```Get-CsInboundBlockedNumberPattern``` 記下身分識別。 接著，執行 ```Remove-CsTenantBlockedNumberExceptionPattern``` Cmdlet 並傳遞適當的身分識別值。在測試和驗證之前，請允許複製時間。  
 
 ```powershell
 Remove-CsTenantBlockedNumberExceptionPattern -Identity <XdsGlobalRelativeIdentity> -Tenant <GUID>
@@ -179,4 +179,4 @@ Test-CsInboundBlockedNumberPattern -Tenant e09ad6bc-1d3c-4650-8cae-02f6c5a04b45 
 
 ## <a name="related-topics"></a>相關主題
 
-- [設定您的電腦以使用 商務用 Skype管理線上Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+- [設定您的電腦以使用商務用 Skype管理線上Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)

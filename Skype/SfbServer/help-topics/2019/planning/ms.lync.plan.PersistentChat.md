@@ -1,7 +1,7 @@
 ---
 title: '持續聊天 (規劃工具) '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Persistent Chat Server 可讓使用者加入一段時間內的多方、主題型交談。
-ms.openlocfilehash: 205663c9687d4b086a410246e890acd0bb61a4f3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c5cd628e52e850c8a55bc69863ab959daa0456dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628195"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776903"
 ---
 # <a name="persistent-chat-planning-tool"></a>持續聊天 (規劃工具) 
 

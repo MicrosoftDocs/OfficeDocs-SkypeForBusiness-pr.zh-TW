@@ -1,7 +1,7 @@
 ---
 title: 針對採用專案優化意見Microsoft Teams報告
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何在採用時取得使用者意見Teams報告。
+description: 瞭解如何在採用時取得使用者意見Teams健康情況報告。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8aaee7a8c0b649150f93ea2a4a86a5130b80456f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 136e6a2b2155a7215b468f1c2309b54db7914605
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732682"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745489"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>針對您的採用優化意見Microsoft Teams報告
 
@@ -42,22 +42,22 @@ ms.locfileid: "58732682"
 - 神秘，以深入瞭解Microsoft Teams？
 - 有東西無法工作。 如何取得協助？
 
-## <a name="invest-in-your-champions"></a>投資您的冠軍
+## <a name="invest-in-your-champions"></a>投資您的領獎人
 
-當您準備調整您的公司使用量Microsoft Teams，請在每個要擴充的業務單位或群組中，招募其他領軍者。 在服務訓練計畫註冊這些充滿熱誠的人，並標準化您與這些人員開會的進行與時間。
+當您準備調整您的公司使用量Microsoft Teams，在每一個要擴充的業務單位或群組中，招募額外的領軍者。 在服務訓練計畫註冊這些充滿熱誠的人，並標準化您與這些人員開會的進行與開會時間。
  
-請清楚瞭解您的領軍者計畫設計您的員工將會獲得什麼，以及當員工成為領獎者時預期要給予什麼。 常見的計畫需求包括排程的工作時間、參與每月社群通話，以及參與內部線上社群，以支援您向這些新體驗的轉換。  
+請清楚瞭解您的領軍者計畫設計您的員工將會獲得什麼，以及當員工成為領獎者時預期要給予什麼。 常見的計畫需求包括排程辦公室時數、參與每月社群通話，以及參與內部線上社群，以支援您向這些新體驗的轉換。  
 
 最佳做法：為內部Teams每月召開一次會議。 在教導新功能、處理意見回饋，以及為員工社群提供自助工具之間分割您的議程。
 
-最佳做法：請內部支援部門或 IT 支援服務代表加入您的支援社群，以隨時瞭解您Teams資訊。 
+最佳做法：請來自內部支援部門或 IT 支援服務的代表加入您的支援社群，以隨時瞭解您Teams使用方式的新資訊。 
 
 ## <a name="service-reporting"></a>服務報告
 
-在部署及採用以下三種報告時，您應該Microsoft Teams：
+當您部署及採用以下專案時，您應該查看三Microsoft Teams：
 
 - [服務健康](https://status.office365.com/)狀態 – Microsoft 365、Office 365，以及您的內部 IT 支援部門。
-- [Microsoft 365管理](/microsoft-365/admin/activity-reports/activity-reports)中心中的報告 - 從 Microsoft 365 或 Office 365 在系統管理中心Microsoft 365[報表 - Microsoft Teams使用者活動](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)。 您也可以使用貴組織內部其他系統的資訊。
+- [Microsoft 365管理](/microsoft-365/admin/activity-reports/activity-reports)中心中的報告 - 從 Microsoft 365 或 Office 365 在系統管理中心Microsoft 365[報表 - Microsoft Teams活動](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)。 您也可以使用貴組織內部其他系統的資訊。
 - 服務滿意度 – 收集來自內部社群論壇和特定體驗的問卷
 
-![代表下一個步驟的圖示。](media/teams-adoption-next-icon.png) 下一 [步：提高認知度及執行訓練](teams-adoption-drive-awareness.md)
+![代表下一個步驟的圖示。](media/teams-adoption-next-icon.png) 下一 [步：提升認知度及執行訓練](teams-adoption-drive-awareness.md)
