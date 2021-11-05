@@ -9,26 +9,26 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 瞭解系統管理中心稱讚應用程式Microsoft Teams設定
-ms.openlocfilehash: a65fae76440a520e4ed0054f9ac039e417c0e60e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c67f70150c2b8635bd317f724004471f4b73e800
+ms.sourcegitcommit: 36761f644b9af5bdef30fe1c3817defc278b965e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763051"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60793451"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在系統稱讚管理中心管理 Microsoft Teams應用程式
 
 > [!NOTE]
 > 系統管理員必須擁有Teams才能存取此功能。 如果您嘗試在沒有授權的情況下存取Teams，就會收到錯誤訊息。
 
-稱讚應用程式Microsoft Teams可協助使用者向組織或教室的成員表示感謝。 您可以選擇徽章集，以及建立您自己的徽章選項，稱讚 可協助識別使用者從教育者到前線工作人員等Teams工作所付出的投入。 若要深入瞭解，請查看傳送稱讚[給人員](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
+稱讚應用程式Microsoft Teams可協助使用者向組織或教室的成員表示感謝。 稱讚 提供一系列徽章供您選擇，以及建立您自己的徽章選項，稱讚 可協助識別使用者從教育人員到前線工作人員等Teams工作所付出的投入。 若要深入瞭解，請查看傳送稱讚[給人員](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
 
 管理員可以從系統管理中心控制其組織Microsoft Teams徽章。 在左側流覽中，前往 **管理Teams應用程式>應用程式**。 在應用程式清單中 **，按一下**[稱讚，然後選取 **[設定。**  您可以在這裡選擇啟用預設和內建徽章集，以及建立自訂徽章。
 
 ![螢幕擷取畫面設定應用程式稱讚的螢幕擷取畫面。](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> 稱讚應用程式功能不適用於美國政府雲端。
+> 稱讚應用程式適用于雲端GCC，但不適用於高GCC DoD。
 
 ## <a name="use-built-in-badge-sets"></a>使用內建徽章集
 
@@ -46,7 +46,7 @@ ms.locfileid: "60763051"
 
 ### <a name="social-and-emotional-learning-badges-for-education"></a>教育用社交與情緒學習徽章
 
-教育者可以在 SEL 中識別個別學生進行社交和 (，) 徽章來說明這些概念的成果和行為。
+教育者可以在 SEL 中識別個別學生 (情緒) 徽章來說明這些概念。
 
 ![教育用社交與情緒學習徽章預覽。](media/sel-edu-set-praise.png)
 
@@ -60,7 +60,7 @@ ms.locfileid: "60763051"
 
 1. 輸入徽章名稱。 這是當使用者傳送稱讚時，徽章上會出現的名稱。
 
-2. 設定徽章色彩。 若要設定徽章的文字和背景色彩，您必須在十六進位或十六進位 (十六) 色彩。
+2. 設定徽章色彩。 若要設定徽章的文字和背景色彩，您必須輸入十六進位 (十六) 值。
 
    > [!TIP]
    > 如果您是十六進位值的新增者，本文包含一個快速簡介[](#hex-colors-intro)，以瞭解如何使用它們。
@@ -70,20 +70,20 @@ ms.locfileid: "60763051"
 
 4. 將徽章名稱當地語系化：在當地語系化徽章 **名稱下****，選取** 新增 。 從下拉式清單中選取所需的地區設置。 然後以指定的語言輸入徽章名稱。
 
-5. 將徽章排除在特定的地區設置中：在排除這些地區設置中的徽章 **下，選取****新增**。 從下拉式清單中選取您想要排除的地區。
+5. 將徽章排除在特定的地區設置中：在排除這些地區設置中的徽章 **下，選取****新增**。 從下拉式清單中選取要排除的地區設置。
 
 6. 選取 **Apply**。 您的新徽章現在會出現在自訂徽章表格中。
 
 > [!NOTE]
 > 如果略過步驟 4 和 5，徽章會以所有地區設置的預設語言顯示。
 >
-> 完成變更徽章選取範圍後，請務必選取 **提交**。 貴組織可能需要幾個小時的時間才能使用這些變更。
+> 完成徽章選取範圍變更之後，請務必選取 **提交**。 貴組織可能需要幾個小時的時間才能使用這些變更。
 
 <a name="hex-colors-intro"></br></a>
 
 ## <a name="specify-colors-with-hex-values"></a>使用十六進位值指定色彩
 
-十六進位色彩值是六個十六進位位數的字串，代表以 00 到 FF 為比例的紅色 (RR) 、綠色 (GG) 和藍色 (BB) 。 當您將三種色彩的值放在一起時，會獲得十六進位值：#RRGGBB
+十六進位色彩值是六個十六進位位數的字串，代表以 00 到 FF 為刻度的紅色 (RR) 、綠色 (GG) 和藍色 (BB) 。 當您將三種色彩的值放在一起時，您得到一個十六進位值：#RRGGBB
 
 例如，紅色色彩的十六進位值是#FF0000因為紅色設定為可能的最高值，FF，而綠色和藍色則分別設定在最低可能的值 00。
 
@@ -98,7 +98,7 @@ ms.locfileid: "60763051"
 |![十六進位色彩#FF75F0。](media/hexColor3.png)|  #FF75F0   |
 |![十六進位色彩#00BFFF。](media/hexColor4.png)|  #00BFFF   |
 |![十六進位色彩 #800080。](media/hexColor5.png)|  #800080   |
-|![十六進位色彩 #000000。](media/hexColor6.png)|  #000000   |
+|![十六進位色彩 #0000000。](media/hexColor6.png)|  #000000   |
 
 <a name="best-practices"></br></a>
 
@@ -106,7 +106,7 @@ ms.locfileid: "60763051"
 
 **一次提交所有徽章。** 由於處理新徽章需要一段時間，因此在提交徽章之前，最好先新增所有自訂徽章至表格。
 
-**選擇色彩時，請記住協助工具。** 有些色彩比其他色彩更合一。  在文字和背景色彩之間建立對比，讓徽章名稱易於閱讀。 例如，如果您選擇深色背景色彩，請選擇淺色文字色彩。
+**選擇色彩時，請記住協助工具。** 有些色彩比其他色彩更一致。  在文字和背景色彩之間建立對比，讓徽章名稱易於閱讀。 例如，如果您選擇深色背景色彩，請選擇淺色文字色彩。
 
 **選取影像時，請記住徽章尺寸。** 為了獲得最佳品質，建議您上傳 216 x 216 圖元的影像檔案 (這是最大) 。 避免伸展或扭曲影像，以配合這些維度。
 
