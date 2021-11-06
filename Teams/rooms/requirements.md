@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解支援Microsoft Teams 會議室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9c379fd289c1fb7512a15b4d8f36f412279b121
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 8faa67db5187fb2fa28f1241d969ef4e90b031fd
+ms.sourcegitcommit: ae60b65f866c7ca7556ba5b0cf6f1d902c4454fc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733354"
+ms.lasthandoff: 11/06/2021
+ms.locfileid: "60798486"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
@@ -82,7 +82,7 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
   |[Logitech Tap 和 Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[使用 Lenovo ThinkSmart Tiny 的 Poly G10-T](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
   |使用 Lenovo Thinks智慧核心的 Poly GC10-T|Core i5|8 GB|128 GB|
-  |Poly GC10-T 與Dell 7080|Core i5|8 GB|128 GB|
+  |使用Dell Optiplex 7080 的 Poly GC8 主機|Core i5|8 GB|128 GB|
   |[Yealink MVC300 與 Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC500 與 Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC800 與 Intel NUC](https://www.yealink.com/products_125.html)|Core i5|8 GB|128 GB|
@@ -132,10 +132,10 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
 |[Aver VB130 相機聲音鍵](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Bose 視線 VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
-|[Biamp Devio SCR-20CX Web-Based具有天花板麥克風的會議中樞](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
+|[Biamp Devio SCR-20CX Web-Based帶天花板麥克風的會議中樞](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Biamp Devio SCR-20TX Web-Based桌面麥克風的會議中樞](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
-|[哈德利畫布](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
+|[Huddly 畫布](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ 相機](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
