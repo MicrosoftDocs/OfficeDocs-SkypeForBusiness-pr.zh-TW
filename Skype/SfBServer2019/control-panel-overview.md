@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 本文提供新增控制台的概述。
-ms.openlocfilehash: 8a4f8e073b424969951a69c620dd5f65a582fd75
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 77e26b810bfd61effa5d94ec3648c440476a7cbe
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579793"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824641"
 ---
 # <a name="control-panel"></a>控制台
 
@@ -50,3 +50,11 @@ ms.locfileid: "60579793"
 |裝置設定         |    [裝置組態](use-powershell-client-menu.md#device-configuration)     |
 |行動性原則         |    [行動性原則](use-powershell-client-menu.md#mobility-policy)     |
 |推播通知設定         |    [推播通知設定](use-powershell-client-menu.md#push-notification-configuration)     |
+
+## <a name="security"></a>安全性
+
+|子功能表  |Cmdlet 的資訊來源  |
+|---------|---------|
+|處長         |    [處長](use-powershell-security-menu.md#registrar)     |
+|Web 服務      |  [Web 服務](use-powershell-security-menu.md#web-service)       |
+|PIN 原則    | [PIN 原則](use-powershell-security-menu.md#pin-policy)        |
