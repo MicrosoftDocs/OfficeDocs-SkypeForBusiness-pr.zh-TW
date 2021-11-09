@@ -2,7 +2,7 @@
 title: 商務用 Skype Server-刪除現有的 SIP 主幹設定的集合
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 'SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段邊界控制器 (SBC) 之間的關係和功能。 '
-ms.openlocfilehash: 09e51dd54401b761c448872545111e8bebf01599
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: SIP 主幹設定設定可定義轉送伺服器與服務提供者上之公用交換電話網路閘道、IP 公用分支交換或會話邊界控制器之間的關聯性和功能。
+ms.openlocfilehash: 390e70040994dbd8474bda51b0d33bfc13c36697
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760611"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845416"
 ---
 # <a name="skype-for-business-server---delete-an-existing-collection-of-sip-trunk-configuration-settings"></a>商務用 Skype Server-刪除現有的 SIP 主幹設定的集合
 

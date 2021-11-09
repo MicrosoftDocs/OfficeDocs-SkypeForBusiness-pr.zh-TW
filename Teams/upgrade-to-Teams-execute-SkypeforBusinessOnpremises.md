@@ -1,6 +1,6 @@
 ---
 title: 將商務用 Skype 內部部署升級為 Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 584243197f15b746a0fa5638fbba3141e93f34bd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b6d8c95b34345bd6ea6203abbb099c7071c9db60
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777133"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846016"
 ---
 # <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>從內部部署商務用 Skype升級至Teams
 
 ![升級歷程的階段，強調部署與執行階段。](media/upgrade-banner-deployment.png "升級歷程的階段，強調部署與執行階段")
 
-本文是升級歷程的部署與執行階段的一部分。 繼續進行之前，請確認您已完成下列活動：
+本文是升級歷程的部署與執行階段之一。 繼續進行之前，請確認您已完成下列活動：
 
 - [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
 - [已定義專案範圍](./upgrade-define-project-scope.md)
@@ -41,7 +41,7 @@ ms.locfileid: "60777133"
 - [準備您的組織](./upgrade-prepare-organization.md)
 - [進行試驗](./pilot-essentials.md)
 
-如果您已經部署 商務用 Skype 或 Microsoft Lync 內部部署，且貴組織想要選擇性地升級至 Microsoft Teams ，請遵循本文中的指引，使用多種共存模式或全功能。 
+如果您已經部署 商務用 Skype 或 Microsoft Lync 內部部署，且貴組織想要選擇性地升級至 Microsoft Teams，請遵循本文中的指引，使用多種共存模式或全功能。 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
@@ -50,11 +50,11 @@ ms.locfileid: "60777133"
 
 將使用者升級至 Teams的關鍵先決條件是部署混合式連接。
 
-詳細資訊，請參閱在 商務用 Skype Server 與 商務用 Skype [Online 之間部署混合式連線](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
+詳細資訊，請參閱在 商務用 Skype Server[與 商務用 Skype Online 之間部署商務用 Skype連線](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 
 ## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>步驟 2：為貴組織執行您所選擇的升級歷程
 
-完成混合式設定之後，您可以規劃將使用者移至Microsoft 365或Office 365。
+完成混合式設定之後，您可以規劃將使用者移至 Microsoft 365 或 Office 365。
 
 詳細資訊，請參閱：
 
@@ -66,6 +66,6 @@ ms.locfileid: "60777133"
 
 從內部部署電話系統轉換至 Teams 將允許您使用 電話系統 直接路由 ("直接路由") 或 microsoft 提供的 Microsoft 365 或 Office 365 通話方案。
 
-如果您不是使用通話方案，您必須將企業語音部署切換為電話系統直接路由，作為升級至 Teams。
+如果您不是使用通話方案，您必須在升級至 電話系統時，將企業語音部署轉換為 電話系統 直接路由Teams。
 
-詳細資訊，請參閱直接路由[的其他電話系統考慮](./direct-routing-landing-page.md)。 如果您打算使用通話方案，請參閱我們的指引，將電話號碼轉接至[Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+詳細資訊，請參閱直接[路由的其他電話系統考慮](./direct-routing-landing-page.md)。 如果您打算使用通話方案，請參閱我們的指引，將電話號碼轉接到[Teams。](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)

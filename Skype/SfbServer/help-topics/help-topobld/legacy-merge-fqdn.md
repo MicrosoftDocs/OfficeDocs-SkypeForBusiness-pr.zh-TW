@@ -2,7 +2,7 @@
 title: 舊版合併 FQDN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: Access Edge 集區的內部 FQDN 用於各種案例，其中內部使用者會與外部使用者通訊，以進行同盟、遠端使用者存取和公用 IM 連線。 如果您的舊版環境中部署了經負載平衡的 Edge Server，請輸入內部負載平衡器的完整網域名稱 (FQDN)。
-ms.openlocfilehash: 06bc7f2ea91c499ef33c26ffc734f3e470a3bfbc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5c1a8926e3dd4be5d64654677dc1a840d394517c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772219"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855550"
 ---
 # <a name="legacy-merge-fqdn"></a>舊版合併 FQDN
  

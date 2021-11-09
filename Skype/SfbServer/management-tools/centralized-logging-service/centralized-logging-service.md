@@ -2,7 +2,7 @@
 title: 商務用 Skype 2015 中的集中式記錄服務
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 摘要：瞭解商務用 Skype Server 2015 中集中式記錄服務的服務元件和設定設定。
-ms.openlocfilehash: 35d73182ec720ac712e5fb6336a3c1c51d7e3cec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 457740b04a331d701ce991e696fa7cf88b57230c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739109"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854267"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>商務用 Skype 2015 中的集中式記錄服務
  

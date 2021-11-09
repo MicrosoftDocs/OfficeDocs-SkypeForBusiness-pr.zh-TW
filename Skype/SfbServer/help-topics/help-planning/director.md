@@ -2,7 +2,7 @@
 title: 商務用 Skype ServerDirector 規劃工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 description: Director 是執行商務用 Skype Server 2015 通訊軟體的伺服器，可驗證使用者要求，但不會家用任何使用者帳戶。
-ms.openlocfilehash: d14e635123b67c743301ac32fb8a230f62ff3b4c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d96ba36f98bb6ef2fb3d70dec2b700e916008a9a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746139"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840175"
 ---
 # <a name="skype-for-business-server-director-planning-tool"></a>商務用 Skype ServerDirector 規劃工具
  

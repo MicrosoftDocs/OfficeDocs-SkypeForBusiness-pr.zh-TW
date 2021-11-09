@@ -1,6 +1,6 @@
 ---
 title: Teams非標準使用者的應用程式行為
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: joglocke
 manager: serdars
@@ -17,16 +17,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ad7f7c5f92a5bbde4e8a01d8616305bbf06f980
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 957574b112c0fbb8fc7efc4fedf726fa7395f4b5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745539"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846086"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams非標準使用者的應用程式行為
 
-本文將說明當來賓、Teams外部使用者 (、) 使用者與匿名使用者同時出現時，Teams的行為。
+本文將 Teams說明當來賓、外部 (、) 使用者和匿名使用者出現時，Teams的行為。
 
 - **來賓使用者** 不是貴組織的員工、學生或成員。 他們沒有貴組織的學校或公司帳戶。
 
@@ -45,11 +45,11 @@ ms.locfileid: "60745539"
 
 ### <a name="usage-behavior-and-policy-for-guest-users"></a>來賓使用者的使用行為與政策
 
-如果應用程式是由原生使用者安裝，來賓可以使用應用程式。
+如果應用程式是由原生使用者安裝，則來賓可以使用應用程式。
 
 #### <a name="bots-installed-to-a-channel"></a>安裝至頻道的 Bot
 
-Bot 可以主動訊息給來賓使用者，但來賓無法與 Bot 互動。 來賓無法一對一訊息給 Bot、提及 Bot，或與與 Bot 通訊的介面卡片互動。
+Bot 可以主動訊息來賓使用者，但來賓無法與 Bot 互動。 來賓無法一對一訊息給 Bot、提及 Bot，或與與 Bot 通訊的介面卡片互動。
 
 #### <a name="personal-bots-installed-with-policies"></a>使用策略安裝的個人 Bot
 
@@ -63,7 +63,7 @@ Bot 可以主動訊息給來賓使用者，但來賓無法與 Bot 互動。 來�
 
 ### <a name="install-update-and-delete-for-external-users"></a>安裝、更新及刪除外部使用者
 
-外部使用者無法在任何內容中安裝、更新或刪除應用程式，例如個人、聊天、頻道或會議。 他們無法存取主機Teams應用程式存放區。
+外部使用者無法在任何內容中安裝、更新或刪除應用程式，例如個人、聊天、頻道或會議。 他們無法存取主Teams應用程式存放區。
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>外部使用者的使用行為與政策
 

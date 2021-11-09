@@ -2,7 +2,7 @@
 title: 在商務用 Skype 中規劃位置基礎路由
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: 規劃商務用 Skype Server 企業語音中的位置基礎路由，包括與同時震鈴和委派的互動，以及位置基礎路由支援的案例。
-ms.openlocfilehash: 928a44ed9484f1766013404d23b61a2cc56841d2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: aada1db39d4dacbd5a6ec7f5dec1ede08468c50e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741970"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855330"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>在商務用 Skype 中規劃位置基礎路由
 

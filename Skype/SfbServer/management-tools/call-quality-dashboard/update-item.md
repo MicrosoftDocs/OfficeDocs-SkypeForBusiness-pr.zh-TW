@@ -2,7 +2,7 @@
 title: 更新項目
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
 description: 摘要：瞭解更新專案作業，此作業是專案服務的一部分。 專案服務是「呼叫品質」儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: ef77a4a73cd83743b718988657dcf4f4eb9fd404
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4140909786c3144dbc043568a5ca6aa2995a0720
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759685"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845396"
 ---
 # <a name="update-item"></a>更新項目
  

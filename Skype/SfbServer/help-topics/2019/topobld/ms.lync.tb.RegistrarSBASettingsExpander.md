@@ -2,7 +2,7 @@
 title: 登錄器 SBA 設定展開工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以編輯 [恢復] 設定，並設定下列內容：
-ms.openlocfilehash: 4f12e5a43a195b07b8147d3243880910d36bfa98
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 02c89e7b8938d6446171919655215c63c1c04628
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769191"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845616"
 ---
 # <a name="registrar-sba-settings-expander"></a>登錄器 SBA 設定展開工具
 

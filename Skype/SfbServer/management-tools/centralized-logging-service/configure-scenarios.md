@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 2015 中設定集中式記錄服務的案例
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中建立、修改及移除集中式記錄服務的案例。
-ms.openlocfilehash: da9a3c431be78a3abeab929fab86f1bf45e6cfa7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 10225be172d91aba18db29a1a6669cfbe8656fa6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766341"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855440"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定集中式記錄服務的案例
  

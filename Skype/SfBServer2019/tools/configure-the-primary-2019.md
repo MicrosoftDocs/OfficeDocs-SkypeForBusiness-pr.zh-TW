@@ -2,7 +2,7 @@
 title: 設定主要管理伺服器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：設定您的主要管理伺服器、安裝 System Center Operations Manager，以及匯入商務用 Skype Server 2019 的管理元件。
-ms.openlocfilehash: 8dd5b3ff94f393ccce88dd5a27bd8133810b4c1c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 15fecd23a4376eab64d49820da69f8ac0aec6c08
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760341"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845996"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>商務用 Skype Server：設定主要管理伺服器
 

@@ -2,7 +2,7 @@
 title: Location-Based 商務用 Skype Server 中的會議路由
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 在商務用 Skype Server 企業語音中規劃會議的位置基礎路由，包括顧問式來電轉接。
-ms.openlocfilehash: 118ccd13fb85f9566c7b62736514936d4f41f9bd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d9fee0304310f551d750be85a9b6e2b0d9a47ad3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768511"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855400"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based 商務用 Skype Server 中的會議路由
 

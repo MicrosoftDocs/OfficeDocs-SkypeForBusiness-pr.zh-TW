@@ -1,6 +1,6 @@
 ---
 title: 電話丹麥的號碼管理
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 使用此表格可尋找在丹麥取得及管理丹麥地區電話號碼Microsoft Teams。
-ms.openlocfilehash: b163bd9f8506ae2bbcef5092b1dd7d10f1f39c1d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e7903a7cb533d3bd789c648bb4441f48cda34655
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756084"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846096"
 ---
 # <a name="phone-number-management-for-denmark"></a>電話丹麥的號碼管理
 
@@ -35,9 +35,9 @@ ms.locfileid: "60756084"
 |**您想要做什麼？**|**下載正確的表單並傳送給我們**|
 |:-----|:-----|
 |取得系統管理中心未列出的新使用者Microsoft Teams電話號碼。   <br/> |下載其中一個表單。 <br/>  [丹麥的新電話號碼要求 (v.5.0)  (da-dk) ](https://download.microsoft.com/download/a/6/2/a6245856-2c6e-49eb-925c-3dea674228bb/new-phone-number-request-for-denmark-(v.5.0)-(da-dk).pdf) <br/>[丹麥的新電話號碼要求 (v.5.0)  (en-us) ](https://download.microsoft.com/download/b/6/3/b63b7107-d933-45b3-a0ec-30efd2973fb9/new-phone-number-request-for-denmark-(v.5.0)-(en-us).pdf)<br/><br/>  填寫並聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。
-|將電話號碼轉接給我們。  <br/> | 下載此表單。 <br/>[丹麥的 (LOA) 授權書 (所有)  (v.5.0)  (da-dk) ](https://download.microsoft.com/download/f/6/0/f6040034-6559-4c2c-b847-85c813d7a677/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf) <br/> <br/>填寫並聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。 <br/> |
+|將電話號碼轉接給我們。  <br/> | 下載此表單。 <br/>[丹麥的 (LOA) 授權書 (所有號碼)  (v.5.0)  (da-dk) ](https://download.microsoft.com/download/f/6/0/f6040034-6559-4c2c-b847-85c813d7a677/letter-of-authorization-(loa)-for-denmark-(all-numbers)-(v.5.0)-(da-dk).pdf) <br/> <br/>填寫並聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。 <br/> |
 |發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需要](contact-tns-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請聯絡 TNS 服務台。      <br/> |
-|將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-tns-service-desk.md) 服務號碼的使用者號碼清單的指示，請聯絡 TNS 服務台。 <br/> |
+|將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-tns-service-desk.md) 服務號碼之使用者號碼清單的指示，請聯絡 TNS 服務台。 <br/> |
 |讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。 |
 
 ## <a name="related-topics"></a>相關主題

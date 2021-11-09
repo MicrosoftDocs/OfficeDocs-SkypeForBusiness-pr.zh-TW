@@ -2,7 +2,7 @@
 title: 規劃商務用 Skype Server 的位置原則
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: 閱讀此主題以瞭解如何在商務用 Skype Server 企業語音中規劃增強型緊急服務 (E9-1-1) 部署的位置原則。
-ms.openlocfilehash: d305d2e453c375616dbba7e077c552372767f2ae
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 661706aa9ae60f87dc60814d71c2b0b8c8dcc2ce
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762131"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855320"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>規劃商務用 Skype Server 的位置原則
  

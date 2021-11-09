@@ -1,6 +1,6 @@
 ---
 title: 在迦納的可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于 Microsoft 365 Office 365 的 商務用 Skype 和 Microsoft Teams 服務。
-ms.openlocfilehash: 8829e2f1deb4be50b0600184674823a3b2b92c89
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 14ab94b02ce2dd93485cc1003df0db1944e3b4df
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761791"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853927"
 ---
 # <a name="availability-in-ghana"></a>在迦納的可用性
 
@@ -70,7 +70,7 @@ ms.locfileid: "60761791"
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？   | 非地理位置。 電話號碼不會連結至特定城市或位置。 <br/> |
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
-|免付費號碼是否可用？  <br/> |否  <br/> |
+|是否提供免付費號碼？  <br/> |否  <br/> |
    
  如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
   

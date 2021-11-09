@@ -2,7 +2,7 @@
 title: 舊版合併新增電腦
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要定義組成 Edge Server 集區的電腦，請輸入至少一部電腦的完整功能變數名稱 (FQDN) （此為舊版負載平衡、合併的 Edge 集區）。
-ms.openlocfilehash: 5c70f907ee1e9953cfebe5d1677c6e7c46f3453c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a9bf38a16ae959599c3f99b0489dbb29cba6c37b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775343"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846716"
 ---
 # <a name="legacy-merge-add-machine"></a>舊版合併新增電腦
  

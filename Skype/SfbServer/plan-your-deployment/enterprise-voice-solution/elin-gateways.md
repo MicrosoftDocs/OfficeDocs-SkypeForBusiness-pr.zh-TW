@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中管理 ELIN 閘道的位置
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: 使用 ELIN 閘道為 E9-1-1 的部署規劃位置資訊資料庫或類似的外部資料庫，在商務用 Skype Server 企業語音中所需的決策。
-ms.openlocfilehash: f8440e4e125773e91850b890bb2a02c7d1312fde
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d958b9d533245e7071cb8c1f030e91a13a44925f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756520"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845166"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>在商務用 Skype Server 中管理 ELIN 閘道的位置
 
@@ -52,7 +52,7 @@ ms.locfileid: "60756520"
 
 - 易於辨識的名稱，可識別911呼叫者的位置，以協助確保緊急回應程式在到達市政位址時立即找到特定位置。 此位置名稱可以包含大樓編號、底價編號、翼標示符、會議室編號等等。 避免只有員工知道的昵稱，這可能會造成緊急回應程式進入錯誤的位置。
 
-- 一個位置識別碼，可協助使用者輕鬆地看到用戶端挑選的是正確的位置。 商務用 Skype 用戶端會自動連接並顯示其頁首中已探索的 **位置** 和 **城市** 欄位。 最佳作法是將大樓的街道位址新增至每個位置識別碼 (例如，"第一層 <street number> " ) 。 沒有街道位址，「第一層」等一般位置識別碼可以套用到城市中的任何辦公樓。
+- 一個位置識別碼，可協助使用者輕鬆地看到用戶端挑選的是正確的位置。 商務用 Skype 用戶端會自動連接並顯示其頁首中已探索的 **位置** 和 **城市** 欄位。 最佳作法是將大樓的街道位址新增至每個位置識別碼 (例如，"第一層 \<street number> " ) 。 沒有街道位址，「第一層」等一般位置識別碼可以套用到城市中的任何辦公樓。
 
 - 如果位置是由無線存取點所決定，您可能想要新增 **[near]** (例如，「接近第一層1234」 ) 。
 

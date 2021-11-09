@@ -2,7 +2,7 @@
 title: 位置原則
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: 位置原則決定是否要啟用增強型 9-1-1 (E9-1-1)、其使用方式，以及位置資訊對於使用者與連絡人的運用方式。
-ms.openlocfilehash: 7077d10a834fbc42aba6ddd9da3aa64a65b1bebd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cfdff82c16aa4a9430bf8923cddd28bf26dad85a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757379"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840295"
 ---
 # <a name="location-policy"></a>位置原則
 

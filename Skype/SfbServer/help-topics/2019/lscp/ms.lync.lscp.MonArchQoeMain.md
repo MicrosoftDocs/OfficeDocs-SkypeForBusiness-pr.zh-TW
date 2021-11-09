@@ -2,7 +2,7 @@
 title: 經驗品質 (QoE) 資料
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 7de1db978f4fb2571330861c20595d8c59a00dcc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f39aa8ae5fe0d8ab792f7006f582eff301266075
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760291"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854987"
 ---
 # <a name="quality-of-experience-qoe-data"></a>經驗品質 (QoE) 資料
  

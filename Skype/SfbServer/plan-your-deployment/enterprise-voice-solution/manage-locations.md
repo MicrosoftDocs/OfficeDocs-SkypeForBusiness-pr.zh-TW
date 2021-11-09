@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中管理 SIP 主幹服務提供者的位置
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: 若要使用 SIP 主幹提供者規劃 E9-1-1 部署的位置資訊資料庫或類似外部資料庫，請在商務用 Skype Server 企業語音中作出必要的決策。
-ms.openlocfilehash: 4bc74933623f1a435288246ac695c9545c8606d1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4667ea571fe3bbb022c8dd1ee1483e6195165ec9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751542"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855290"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>在商務用 Skype Server 中管理 SIP 主幹服務提供者的位置
 
@@ -33,7 +33,7 @@ ms.locfileid: "60751542"
 
 - 易於辨識的名稱，可識別911呼叫者的位置，以協助確保緊急回應程式在到達市政位址時立即找到特定位置。 此位置名稱可以包含大樓編號、底價編號、翼標示符、會議室編號等等。 避免只有員工知道的昵稱，這可能會造成緊急回應程式進入錯誤的位置。
 
-- 可協助使用者輕鬆查看其商務用 Skype 用戶端是否已挑選正確位置的位置識別碼。 商務用 Skype 用戶端會自動連接並顯示其頁首中已探索的 **位置** 和 **城市** 欄位。 最佳作法是將大樓的街道位址新增至每個位置識別碼 (例如，"第一層 <street number> " ) 。 沒有街道位址，「第一層」等一般位置識別碼可以套用到城市中的任何辦公樓。
+- 可協助使用者輕鬆查看其商務用 Skype 用戶端是否已挑選正確位置的位置識別碼。 商務用 Skype 用戶端會自動連接並顯示其頁首中已探索的 **位置** 和 **城市** 欄位。 最佳作法是將大樓的街道位址新增至每個位置識別碼 (例如，"第一層 \<street number> " ) 。 沒有街道位址，「第一層」等一般位置識別碼可以套用到城市中的任何辦公樓。
 
 - 如果該位置是由無線存取點所決定，您可以新增 **[near]** (例如，「接近第一層1234」 ) 。
 

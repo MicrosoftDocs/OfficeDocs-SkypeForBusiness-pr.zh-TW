@@ -2,7 +2,7 @@
 title: 選取 PSTN 使用方式記錄
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 description: 使用 [選取 PSTN 使用方式記錄] 對話方塊，尋找您可以使用的現有公用交換電話網路 (PSTN) 使用方式記錄。
-ms.openlocfilehash: c98bd0da55348946587103c95509dbe783f5a2de
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ca908332f52537635b3f9ad14c71850316a08e4d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776533"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840195"
 ---
 # <a name="select-pstn-usage-record"></a>選取 PSTN 使用方式記錄
  

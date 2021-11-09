@@ -2,7 +2,7 @@
 title: 將伺服器對伺服器驗證憑證指派給商務用 Skype Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 摘要：指派商務用 Skype Server 的伺服器對伺服器驗證憑證。
-ms.openlocfilehash: b36db3956dc801d4874a13033bba60917b7112af
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 30d62351d92a53c107e858ce1e0f88239f615208
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754876"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839945"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>將伺服器對伺服器驗證憑證指派給商務用 Skype Server
 **摘要：** 指派商務用 Skype Server 的伺服器對伺服器驗證憑證。

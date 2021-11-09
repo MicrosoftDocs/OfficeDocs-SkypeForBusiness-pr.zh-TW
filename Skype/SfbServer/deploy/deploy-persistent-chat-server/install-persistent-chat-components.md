@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 2015 中安裝 Persistent Chat 元件
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
 description: 摘要：閱讀此主題以瞭解如何使用商務用 Skype Server 部署嚮導來安裝商務用 Skype Server 2015 元件和服務。
-ms.openlocfilehash: 333519783e7bd1844c7ad5f84c247e7644132056
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e0e0e8ca13448c7af19b9d589f8b0abd5b1e641b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738869"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845866"
 ---
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中安裝 Persistent Chat 元件
  

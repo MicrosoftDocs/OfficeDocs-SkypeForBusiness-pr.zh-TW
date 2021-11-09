@@ -1,7 +1,7 @@
 ---
 title: Skype會議室系統商務用 Skype 軟體授權
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: 閱讀此主題以瞭解如何檢查您是否有商務用 Skype 的軟體大量授權。
-ms.openlocfilehash: dc605af5bc4f922e1da1669fb471ad46173a7646
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 805a9abb6d4d49e653e779edc1d9e1cfb8d2a6ca
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761571"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845966"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype會議室系統：商務用 Skype 軟體授權
  

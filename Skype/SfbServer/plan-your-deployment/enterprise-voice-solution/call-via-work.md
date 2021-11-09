@@ -2,7 +2,7 @@
 title: 規劃商務用 Skype Server 中的工作通話
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: 規劃在商務用 Skype Server 中的工作進行呼叫，可在商務用 Skype 和 pbx 電話系統之間進行整合，讓使用者可以使用商務用 Skype 來控制其 PBX 電話。
-ms.openlocfilehash: 268ee3a6caa7b304cc63b4e7e16c2a7565f9ced3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0dddb601ecf9928aa1bd1cd63bc8ed3628a1330d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768561"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854217"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>規劃商務用 Skype Server 中的工作通話
  

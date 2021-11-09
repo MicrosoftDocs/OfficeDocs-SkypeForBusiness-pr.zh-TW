@@ -2,7 +2,7 @@
 title: 新增前端集區 FQDN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 指定您正在建立之前端集區的完整網域名稱 (FQDN)。在發行包含前端集區的拓撲之後，便無法變更集區的 FQDN。如果需要將集區重新命名，必須刪除集區，再用新的 FQDN 新增集區。
-ms.openlocfilehash: 665e01863a2b4544be80e85837329a25587f8780
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8df962b5a26947ceb14c0f4989dd8400544600b4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769351"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854767"
 ---
 # <a name="add-front-end-pool-fqdn"></a>新增前端集區 FQDN
  

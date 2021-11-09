@@ -1,6 +1,6 @@
 ---
 title: 在 Microsoft Teams 中管理貴組織的 [工作] 應用程式
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -19,12 +19,12 @@ MS.collection:
 - microsoftcloud-healthcare
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e59bdcb33d66d240e11ad0e38a41b3b62841815
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: be3909cb0bf9e63c2002bad30b2c023c636c12b6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759265"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853897"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [工作] 應用程式
 
@@ -95,7 +95,7 @@ ms.locfileid: "60759265"
     ![指派任務的螢幕擷取畫面。](media/manage-tasks-app-assign.png)
 - 第一線工作者可輕鬆透過行動裝置查看指派給他們的工作。 他們可以附加相片以顯示工作 (如適用)，並將其工作標示為已完成。
 - 出版商和管理者可以查看報告，以瞭解每個階層的工作指派和完成狀態，包括依地點 (小組)、工作清單和個別工作。<br>
-    ![行動手機上已指派任務的螢幕擷取畫面。](media/manage-tasks-app-reporting.png)
+    ![行動版上指派任務的螢幕擷取畫面。](media/manage-tasks-app-reporting.png)
 
 使用者會在 [工作] 應用程式中的 **發佈清單** 索引標籤上建立、管理及發佈工作清單。 只有在貴組織[設定小組目標階層](#set-up-your-team-targeting-hierarchy)且使用者屬於階層所包含的小組時，才會顯示該索引標籤。 階層會決定使用者是否可以發佈或接收工作清單，以及查看已收到清單的報告。
 

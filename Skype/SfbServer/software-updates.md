@@ -2,7 +2,7 @@
 title: 商務用 Skype 的下載及更新
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 07/23/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 尋找及管理商務用 Skype Server 或 Lync 2013 的更新。 使用連結以取得詳細資訊，然後下載更新。
-ms.openlocfilehash: 60fa56020a9a0a59f7890e71009cd65acd6636b4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ce7676064bc6e2ca67c65a8a4f34c543a0fa75f1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741729"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855197"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>商務用 Skype 的下載及更新
 

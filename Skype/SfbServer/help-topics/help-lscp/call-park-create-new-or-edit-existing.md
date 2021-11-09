@@ -2,7 +2,7 @@
 title: 通話駐留建立新的或編輯現有
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 description: 通話駐留號碼範圍定義在有人接聽或下班時，寄存通話保留的臨時號碼。
-ms.openlocfilehash: c8d489c75516357193ca1bc4f3ae6f4d613bd80d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6a4ea7673995d4c3b59b69964d383ab774f55cb5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760961"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855690"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>通話駐留：建立新的或編輯現有
 

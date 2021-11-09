@@ -2,7 +2,7 @@
 title: 視訊閘道一般設定
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5d1485ab-f912-4153-9839-4717f0314729
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 [拓撲產生器] 中定義新的 VIS 或視頻閘道所需的步驟，在商務用 Skype Server 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: 6df7122036a8a32c8779f732825cc4ea38f4f718
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2f05b383c16c72220f14460331fe6647e48403f7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761101"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845606"
 ---
 # <a name="video-gateway-general-settings"></a>視訊閘道一般設定
  

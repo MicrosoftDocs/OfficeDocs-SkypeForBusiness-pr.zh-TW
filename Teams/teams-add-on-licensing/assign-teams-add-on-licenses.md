@@ -1,6 +1,6 @@
 ---
 title: 指派Teams附加元件授權給使用者
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -16,39 +16,39 @@ ms.reviewer: mikedav
 description: 瞭解如何將附加Teams授權指派給使用者，以使用音訊會議、電話系統和通話方案等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47d5f5838b382459fe6820f210a29b4809525e18
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 200e2bb36940bb4b447c4a46856c4e3ffa07f588
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766121"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846026"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>指派Teams附加元件授權給使用者
 
 附加元件授權是特定功能Teams，例如音訊會議、電話系統和通話方案。 本文將說明如何將附加元件授權指派給個別使用者和大量大型使用者。
 
 > [!NOTE]
-> 請參閱[Teams附加元件授權](./microsoft-teams-add-on-licensing.md)Teams附加元件授權提供的功能。 您也可以根據您的方案) 找到您需要購買哪些授權以及如何購買授權 (的資訊，讓使用者能夠取得音訊會議、免付費號碼等功能，以及撥打組織外部電話號碼的功能。 決定要為使用者提供哪些功能之後，請指派授權給他們。
+> 請參閱[Teams](./microsoft-teams-add-on-licensing.md)附加元件授權Teams附加元件授權提供的功能。 您也可以根據您的方案) 找到您需要購買哪些授權以及如何購買授權 (的資訊，讓使用者取得音訊會議、免付費號碼等功能，以及撥打組織外部電話號碼的功能。 決定要為使用者提供哪些功能之後，請指派授權給他們。
 
 您可以使用應用程式或 PowerShell Microsoft 365 系統管理中心指派授權給貴組織的使用者。 您必須是全域系統管理員或使用者管理系統管理員，才能管理授權。
 
 ## <a name="what-you-need-to-know-before-you-assign-phone-system-calling-plan-and-communication-credits-licenses"></a>指派授權、通話方案電話系統通訊信用額度授權之前，您需要知道什麼
 
-在您開始使用之前，請先檢查下列需求：
+在您開始使用之前，請審查下列需求：
 
 - 如果您針對混合式使用者使用內部部署公用交換電話網絡 (PSTN) ，則只需要指派電話系統授權。 請勿指派通話方案授權。
 
-- 由於使用者與Microsoft 365之間的Microsoft Teams，使用者最多可能需要 24 小時，才能在指派授權後指派通話方案。 如果使用者在 24 小時後未指派通話方案，請聯絡商務產品 [支援人員 - 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- 由於 Microsoft 365 和 Microsoft Teams 之間的延遲，使用者最多可能需要 24 小時，才能在指派授權後指派通話方案。 如果使用者在 24 小時後未指派通話方案，請聯絡商務產品 [支援人員 - 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - 如果您沒有購買正確的授權數量，就會收到錯誤訊息。 如果您需要購買更多通話方案授權，請選擇購買更多方案的選項。
 
-- 即使您的使用者被指派Enterprise E5 授權，如果您想要撥打或接聽 PSTN 的[](../what-are-communications-credits.md)通話，您仍然需要指派通訊信用額度授權給他們。
+- 即使您的使用者被指派Enterprise E5 授權，如果您想要撥打或接聽 PSTN[](../what-are-communications-credits.md)的通話，您仍然需要指派通訊信用額度授權給他們。
 
 - 將通話方案或通訊信用額度授權指派給使用者之後，您必須取得貴組織的電話號碼，然後將這些號碼指派給使用者。 有關逐步指示，請參閱 [設定通話方案](../set-up-calling-plans.md)。
 
 ## <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365 系統管理中心
 
-使用 Microsoft 365 系統管理中心，一次指派授權給個別使用者或少數使用者。 您一次在 (授權頁面為最多 20 個使用者指派授權) 或在活動使用者頁面 (一次指派最多 40 個使用者) 。 您選擇的方法取決於您要管理特定使用者的產品授權，或管理特定產品的使用者授權。
+使用 Microsoft 365 系統管理中心，一次指派授權給個別使用者或少數使用者。 您可以在授權頁面 (一次指派最多 20 個使用者) 或活動使用者頁面 (一次最多40 個使用者) 。 您選擇的方法取決於您要管理特定使用者的產品授權，或管理特定產品的使用者授權。
 
 有關逐步指示，請參閱指派 [授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
@@ -64,7 +64,7 @@ ms.locfileid: "60766121"
 
 1. 安裝適用于 IT 專業人員 RTW 的 Microsoft Online Services 登入 [小幫手的](/collaborate/connect-redirect?DownloadID=59185)64 位版本。
 2. 安裝 Microsoft Azure Active Directory 模組Windows PowerShell：
-    1. 開啟提升Windows PowerShell命令提示 (以系統管理員Windows PowerShell執行) 。
+    1. 開啟提升的Windows PowerShell命令提示 (以系統管理員Windows PowerShell執行) 。
     2. 執行下列命令：
         ```powershell
         Install-Module MSOnline
@@ -131,7 +131,7 @@ ms.locfileid: "60766121"
 
 | 產品名稱| SKU 零件名稱 |
 |--------------|---------------|
-| Microsoft Enterprise E5 (電話系統)  | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E5 (與 電話系統)  | ENTERPRISEPREMIUM |
 | Microsoft Enterprise E5 (沒有音訊會議)  | ENTERPRISEPREMIUM_NOPSTNCONF |
 | Microsoft Enterprise E5 (音訊會議)  | ENTERPRISEPREMIUM |
 | Microsoft Enterprise E3 | ENTERPRISEPACK |
@@ -142,7 +142,7 @@ ms.locfileid: "60766121"
 | Microsoft Business Voice (加拿大) | BUSINESS_VOICE_MED  |
 | Microsoft Business Voice (英國)  | BUSINESS_VOICE  |
 | Microsoft Business Voice (美國)  | BUSINESS_VOICE_MED2  |
-| Microsoft Business Voice (沒有通話方案)  | BUSINESS_VOICE_DIRECTROUTING  |
+| Microsoft Business Voice (通話方案)  | BUSINESS_VOICE_DIRECTROUTING  |
 | Microsoft Business Voice (美國) 方案| BUSINESS_VOICE_DIRECTROUTING _MED |
 | 音訊會議 | MCOMEETADV | 
 | 使用音訊會議時， (按分鐘付費) </br>*需要設定並啟用通訊信用額度。* | MCOMEETACPEA |

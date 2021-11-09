@@ -1,6 +1,6 @@
 ---
 title: 瞭解團隊和頻道Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/29/2018
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7af581966c2822e88ce439d5c590331f220cef7a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 17ae2ae79b35ed0b75347bd7a061ebb6789b4284
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766071"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855177"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>瞭解團隊和頻道Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "60766071"
 
 - 頻道是團隊內部共同作業的空間，實際工作是在其中完成。 
 
-若要閱讀團隊和頻道的更多資訊，請參閱團隊和頻道概觀[Microsoft Teams。](teams-channels-overview.md) 如要取得Teams採用指南，請取得Teams[指南](https://aka.ms/teamstoolkit)。 若要深入瞭解群組Teams群組Microsoft 365，請參閱Microsoft 365群組Microsoft Teams並深入瞭解Microsoft 365[群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。 [](office-365-groups.md)
+若要閱讀團隊和頻道的更多資訊，請參閱團隊和頻道概觀[Microsoft Teams。](teams-channels-overview.md) 如要取得Teams採用指南，請取得Teams[指南](https://aka.ms/teamstoolkit)。 若要深入瞭解群組Teams群組Microsoft 365，請參閱Microsoft 365群組Microsoft Teams及深入瞭解群組Microsoft 365[群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。 [](office-365-groups.md)
 
 
 | &nbsp; |&nbsp;  |
@@ -57,7 +57,7 @@ ms.locfileid: "60766071"
 
 ![組織和專案模型。](media/teams-adoption-organization-project.png)
 
-在組織小組 (左側) 中，可能會共用有關組織營運方式、小組活動、核心策略及其他營運資訊 ，例如商務評論的重要資訊。 針對右側顯示的小組，區資訊會細分為代表該團隊正在完成之工作類別的頻道。 此團隊的成員可能會或可能不會向同一個人報告，但他們都參與推動該學區的結果。
+在組織小組 (左側) 中，可能會共用有關組織營運方式、小組活動、核心策略及其他營運資訊的重要資訊，例如商務評論。 針對右側顯示的小組，區資訊會細分為代表該團隊正在完成之工作類別的頻道。 此團隊的成員可能會或可能不會向同一個人報告，但他們都參與推動該學區的結果。
   
 您將在執行工作的第 [2](teams-adoption-phase2-experiment.md) 階段中，進一步處理小組的結構。
 

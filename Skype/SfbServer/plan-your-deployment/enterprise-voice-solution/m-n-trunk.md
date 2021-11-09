@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中的主幹 MN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
 description: 商務用 Skype Server 企業語音支援轉送伺服器與元件之間的 M:N 中繼，例如 PSTN 閘道、會話邊界控制器及 IP-PBX。
-ms.openlocfilehash: 28f5d7e9aae5406f54104e3411ecec6ba65ab7f4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a9d73b02a5d9135b5f3305f6f5e0b484df81ee23
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770121"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855300"
 ---
 # <a name="mn-trunk-in-skype-for-business-server"></a>商務用 Skype Server 中的 M:N 主幹
  

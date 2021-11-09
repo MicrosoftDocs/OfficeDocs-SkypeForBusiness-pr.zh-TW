@@ -1,6 +1,6 @@
 ---
 title: 設定Microsoft Teams工作區的會議附加元件
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aravin
 manager: serdars
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 05f3c4553e20bb9c02ff99dcf8ad452af05f054e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6116567a14aa55a5295b995336b49b30c7bb56ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777203"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846106"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>設定Microsoft Teams工作區的會議附加元件
 
@@ -41,7 +41,7 @@ Microsoft Teams使用者存取應用程式之前，Teams管理員必須啟用 Go
 
 2. 選取 **Enterprise 應用程式**  >  **所有應用程式**。
 
-3. 搜尋 **Microsoft Teams工作區的會議附加元件**。
+3. 搜尋 **Microsoft Teams 工作區的會議附加元件**。
 
    ![顯示所有應用程式的 Azure 入口網站。](media/aad-add-google-workspace.png)
 
@@ -73,7 +73,7 @@ if ($servicePrincipal) {
 }
 ```
 
-詳細資訊，請參閱使用 Azure PowerShell[建立 Azure 服務主體](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)。
+詳細資訊，請參閱使用 Azure PowerShell 建立[Azure 服務主體](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)。
 
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>刪除 Microsoft Teams工作區的會議附加元件
 

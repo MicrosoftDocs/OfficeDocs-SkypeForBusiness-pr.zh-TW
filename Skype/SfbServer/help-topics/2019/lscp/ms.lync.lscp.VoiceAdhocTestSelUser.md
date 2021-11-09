@@ -2,7 +2,7 @@
 title: 選取企業語音使用者
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用 [選取企業語音使用者] 對話方塊，尋找已啟用企業語音的使用者。 在搜尋方塊中，輸入您要尋找之使用者的 SIP 位址或顯示名稱，然後按一下 [尋找]。 若要選取使用者，請按一下搜尋結果清單中的使用者，然後按一下 [確定]。 如果您找不到所要尋找的使用者，則該使用者可能未啟用企業語音。
-ms.openlocfilehash: ec938682874589a3592e266fe6ee217453b88793
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a9ddb20b223420841687b40b0a886ecfe08fcddd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748659"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845706"
 ---
 # <a name="select-enterprise-voice-users"></a>選取企業語音使用者
  

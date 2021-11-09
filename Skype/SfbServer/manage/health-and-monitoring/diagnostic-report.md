@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中的診斷報告
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 摘要：瞭解商務用 Skype Server 中的診斷報告。
-ms.openlocfilehash: 84274659a45d33a144324334cec8b9f1b25c471b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6b04dfd74e13568e6d22448ad9160a874dd6f79b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740629"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855530"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>商務用 Skype Server 中的診斷報告
  

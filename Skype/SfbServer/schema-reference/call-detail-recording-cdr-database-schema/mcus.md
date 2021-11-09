@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 2015 中的 Mcus 表格
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
 description: Mcus 表格是支援的表格。 每筆記錄儲存一筆會議服務的相關資訊。 這些可包含 IM 會議服務和電話語音會議服務 (，此服務會在前端伺服器上執行為處理常式) ，以及 Web 會議服務和 A/V 會議服務。
-ms.openlocfilehash: 1394a2f899df47b15a66989aeaed5872f6913912
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: abbbe20d6b247b23f0042dcc3bf552dd4a1362f1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765091"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846306"
 ---
 # <a name="mcus-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 Mcus 表格
  

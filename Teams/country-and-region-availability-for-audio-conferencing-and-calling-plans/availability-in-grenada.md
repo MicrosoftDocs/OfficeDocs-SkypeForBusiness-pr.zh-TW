@@ -1,6 +1,6 @@
 ---
 title: 在格瑞那達的可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于 Microsoft 365 Office 365 的 商務用 Skype 和 Microsoft Teams 服務。
-ms.openlocfilehash: ae51b5565bb30c597c23dbae6ea2c0a047eb0b57
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1b3e9a5251e51a4070d4193216e04964a6e15302
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769931"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853917"
 ---
 # <a name="availability-in-grenada"></a>在格瑞那達的可用性
 
@@ -70,7 +70,7 @@ ms.locfileid: "60769931"
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？   | 不適用 <br/> |
 |有提供付費電話號碼嗎？  <br/> |否 <br/> |
-|免付費號碼是否可用？  <br/> |是  <br/> |
+|是否提供免付費號碼？  <br/> |是  <br/> |
    
  如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
   

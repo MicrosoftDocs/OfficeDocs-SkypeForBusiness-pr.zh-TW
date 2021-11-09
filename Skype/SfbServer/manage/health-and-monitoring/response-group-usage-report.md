@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 的回應群組使用方式報告
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: 摘要：瞭解商務用 Skype Server 中的回應群組應用程式。
-ms.openlocfilehash: 7b26114e81141e4e77bc3fd6b3887ab109526f50
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e6628e9d1602cc89b04b0970baa502be7e8548a4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768721"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845446"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server"></a>商務用 Skype Server 的回應群組使用方式報告
 
