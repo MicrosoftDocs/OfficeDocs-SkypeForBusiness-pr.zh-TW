@@ -2,7 +2,7 @@
 title: 使用 SCOM 管理元件管理商務用 Skype Server 2019
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：瞭解如何設定您的商務用 Skype Server 2019 基礎結構，以與 System Center Operations Manager 搭配使用。
-ms.openlocfilehash: 69954c7568702e4e3d6e9618bdd7e37243c61ef6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e0e5f7c090c51fbe3b7b022f890fd3fc8f254aa3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751492"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844886"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>使用 SCOM 管理元件管理商務用 Skype Server 2019
  
@@ -28,7 +28,7 @@ ms.locfileid: "60751492"
   
 此資訊是根據商務用 Skype Server 2019 通訊軟體之監控套件的版本9319.0 所撰寫。
   
-## <a name="configuration-overview"></a>設定概述
+## <a name="configuration-overview"></a>設定概觀
 
  若要設定商務用 Skype Server 2019 基礎結構與 System Center Operations Manager 搭配使用，您必須執行下列三項操作：
   

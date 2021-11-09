@@ -2,7 +2,7 @@
 title: 定義常設聊天室 FQDN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 description: 您可以使用 [定義新的持久聊天集區] 嚮導來建立新的 Persistent Chat Server 或 Persistent Chat Server 集區。 選取 [多部電腦集區] 或 [單一電腦集區]。 如果您選取單一電腦集區，後來需要多部電腦集區，則必須移除單一電腦集區，然後再定義多部電腦集區。
-ms.openlocfilehash: b443b9a525c2c500de7cf92b104441f7b3a2df72
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 44d8fd7647068c98855a2d06f64a2d8f519f2da5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747741"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851317"
 ---
 # <a name="define-persistent-chat-fqdn"></a>定義常設聊天室 FQDN
  

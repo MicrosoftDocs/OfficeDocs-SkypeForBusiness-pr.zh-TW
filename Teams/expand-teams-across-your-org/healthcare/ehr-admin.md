@@ -1,6 +1,6 @@
 ---
 title: 虛擬就診的 Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -23,21 +23,21 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 使用 Microsoft Teams 設定您的虛擬就診系統
-ms.openlocfilehash: 40772326d2767e7815a73ad9feca2e4853c762fc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3ba0ff974f9a8381eab054bb92468762dc1d8cc8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743039"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859730"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>使用 Teams 虛擬就診 - 整合至 EHR
 
 Microsoft TeamsEHR (EHR) 連接器的電子健康記錄功能，讓臨床醫師可以直接從 EHR 系統在 Teams 中啟動虛擬病患拜訪或諮詢。 Microsoft Teams 建立在 Microsoft 365 雲端上，可在支援符合 HIPAA、HITECH 認證等法規的單一中樞中，使用聊天、影片、語音和醫療保健工具進行簡單、安全的共同作業和通訊。
 Teams 的通訊和共同作業平台讓臨床醫生能輕鬆消除零碎系統的雜亂，可以將時間花費在提供最佳的照護上。 Microsoft TeamsEHR (電子健康) 連接器可以：
 
-- 使用整合Teams，從提供者 EHR 系統啟動虛擬訪問。
+- 啟動Teams整合的臨床工作流程，從提供者 EHR 系統啟動虛擬訪問。
 - 讓病患從Teams入口網站加入虛擬訪問。
-- 將中繼資料寫回 EHR 系統，Teams出席者進行連接和中斷連接時進行虛擬Teams記錄，並啟用自動稽核和記錄保留。
+- 將中繼資料寫回 EHR 系統，Teams出席者連接和中斷連接時進行虛擬訪問，並啟用自動稽核和記錄保留功能。
 
   觀看如何從 EHR 入口網站管理虛擬就診的影片。
 
@@ -49,7 +49,7 @@ Teams 的通訊和共同作業平台讓臨床醫生能輕鬆消除零碎系統�
 
 - 在 [Epic 的 App Orchard 市集](https://apporchard.epic.com/Gallery?id=6153)中存取以使用 Microsoft Teams 應用程式。
 
-- 使用 EHR 連接器醫療保健版 Microsoft Cloud訂閱或訂閱Microsoft Teams EHR 連接器提供 (僅在生產測試期間強制執行) 。
+- 使用 EHR 連接器醫療保健版 Microsoft Cloud訂閱或訂閱Microsoft Teams EHR 連接器的訂閱 (僅在生產測試期間強制執行) 。
 
 - 使用者必須擁有包含 Microsoft Teams 會議的適當 Microsoft 365 或 Office 365 授權。
 
@@ -79,7 +79,7 @@ Teams 的通訊和共同作業平台讓臨床醫生能輕鬆消除零碎系統�
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>[啟動 EHR 連接器組式入口網站](#launch-the-ehr-connector-configuration-portal)
 
-首先，請啟動 EHR 連接器組Microsoft Teams將醫療保健組織配置為啟動虛擬拜訪。 您可以設定單一或多個組織來測試整合。 在組態入口網站中設定測試與生產 URL。 在移至生產環境之前，先從 Epic 的測試環境測試整合。
+啟動 EHR 連接器組Microsoft Teams開始將醫療保健組織配置為使用虛擬Microsoft Teams啟動虛擬訪問。 您可以設定單一或多個組織來測試整合。 在組態入口網站中設定測試與生產 URL。 在移至生產環境之前，先從 Epic 的測試環境測試整合。
   
 - EHR 連接器組態 URL：[https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 

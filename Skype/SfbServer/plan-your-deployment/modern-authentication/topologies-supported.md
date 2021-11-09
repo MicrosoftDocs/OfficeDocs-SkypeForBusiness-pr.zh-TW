@@ -2,7 +2,7 @@
 title: 新式驗證支援的商務用 Skype 拓撲
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: 本文列出商務用 Skype 中新式驗證支援的線上和內部部署拓撲，以及適用于每個拓撲的安全性功能。
-ms.openlocfilehash: 1d2dd2c691962f0703866a4ece0812467c1f236e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ed6710e0f25e946e8cb9e7034300bd450dd07baa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777963"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835071"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>新式驗證支援的商務用 Skype 拓撲
 

@@ -1,6 +1,6 @@
 ---
 title: 教育用 SKU 參考
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith
@@ -16,16 +16,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 列出教育教職員和學生授權方案及 SKU ID。
 f1keywords: ''
-ms.openlocfilehash: 8f6c4a1821488b14bd95bdaab670788a880b109f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8fb6077a34f20a694542caae724315868a66a3cc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774373"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843566"
 ---
 # <a name="education-sku-reference"></a>教育用 SKU 參考
 
-本文列出使用 PowerShell 以授權類型識別貴組織使用者時，您可以使用的教職員和學生授權方案 (SKU) 和 SKU ID 做為參考。
+本文列出使用 PowerShell 以授權類型識別貴組織使用者時，您可以使用的教育教職員和學生授權方案 (SKU) 和 SKU 標識做為參考。
 
 ## <a name="faculty-licenses"></a>教職員授權
 
@@ -41,7 +41,7 @@ ms.locfileid: "60774373"
 |Office 365 教育版教職員用 E4      |ENTERPRISEWITHSCAL_FACULTY         |16732e85-c0e3-438e-a82f-71f39cbe2acb         |
 |Microsoft 365 教育版教職員用 A3      |M365EDU_A3_FACULTY         |4b590615-0888-425a-a965-b3bf7789848d         |
 |Microsoft 365 教育版教職員用 A5       |M365EDU_A5_FACULTY         |e97c048c-37a4-45fb-ab50-922fbf07a370         |
-|Microsoft 365 A5教職員用音訊會議     |M365EDU_A5_NOPSTNCONF_FACULTY         |e578b273-6db4-4691-bba0-8d691f4da603         |
+|Microsoft 365 A5沒有教職員音訊會議     |M365EDU_A5_NOPSTNCONF_FACULTY         |e578b273-6db4-4691-bba0-8d691f4da603         |
 |Office 365 教育版教職員用住家學校     |STANDARDWOFFPACK_HOMESCHOOL_FAC         |43e691ad-1491-4e8c-8dc9-da6b8262c03b         |
 |Office 365 A1適用于裝置 (的教職員)      |STANDARDWOFFPACK_FACULTY_DEVICE         |af4e28de-6b52-4fd3-a5f4-6bf708a304d3         |
 

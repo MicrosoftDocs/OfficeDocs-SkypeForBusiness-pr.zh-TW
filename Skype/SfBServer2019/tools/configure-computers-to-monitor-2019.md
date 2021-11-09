@@ -2,7 +2,7 @@
 title: 設定所要監視的商務用 Skype Server 電腦
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：在商務用 Skype Server 2019 電腦上安裝 Operations Manager 代理程式檔案，以加以監控，並設定電腦成為 System Center proxy。
-ms.openlocfilehash: c0ceac289fa9185c38b68a3824faa29a3db7433d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 975c9eaa7d70720fefa52b8adc84b4f17200f972
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777113"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859640"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>將商務用 Skype Server 電腦設定為 monitore
 

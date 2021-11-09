@@ -1,7 +1,7 @@
 ---
 title: Skype會議室系統機房安裝腳本
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: 閱讀此主題以尋找布建 Skype 房間系統帳戶的範例腳本。
-ms.openlocfilehash: 02c356896608987fc52aae8aa613b1b5bff6eb6d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ef70cc0c36cf4a1434b0ca1e120a8d81799d7640
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771685"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859630"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype會議室系統機房安裝腳本
  

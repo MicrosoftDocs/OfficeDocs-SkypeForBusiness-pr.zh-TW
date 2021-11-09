@@ -2,7 +2,7 @@
 title: 在商務用 Skype 中部署通話管理功能
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 1667cfe4-76fa-4e10-91bb-b3efbedbf759
 description: 在商務用 Skype Server 企業語音中部署通話管理功能。
-ms.openlocfilehash: c2ec7aa07d85bc2765dde5d497ba75e6a2932f81
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f68a1e3030692c3c69ba2183e90f8a5f54be47fd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751322"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859590"
 ---
 # <a name="deploy-call-management-features-in-skype-for-business"></a>在商務用 Skype 中部署通話管理功能
  

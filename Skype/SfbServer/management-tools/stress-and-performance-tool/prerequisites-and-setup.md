@@ -2,7 +2,7 @@
 title: Busines 應力和效能工具的 Skype 必要條件和設定
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: 商務用 Skype Server 2015 壓力和效能工具的需求或必要條件。 如何安裝或設定壓力和效能工具。
-ms.openlocfilehash: 87c42d63e394c6beea68c23b8e1d7cff7b07266c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 60ff4476a92949b2f5ba0d7a027b5cadf3eab533
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771919"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835161"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Busines 應力和效能工具的 Skype 必要條件和設定
  

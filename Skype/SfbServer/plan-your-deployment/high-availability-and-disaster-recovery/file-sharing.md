@@ -2,7 +2,7 @@
 title: 檔共用的高可用性商務用 Skype Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: 瞭解使用 DFS，以確保商務用 Skype Server 中檔案共用的高可用性。
-ms.openlocfilehash: bd51464aa1588f672134c0d9ce5b2c8fc3faa97f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e0af97da0bfc5a6ddb07284943640511e0dc06ab
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767521"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859870"
 ---
 # <a name="file-sharing-high-availability-in-skype-for-business-server"></a>檔共用的高可用性商務用 Skype Server
  

@@ -2,7 +2,7 @@
 title: Peer-to-Peer 商務用 Skype Server 中的 IM 報表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer IM 報表。
-ms.openlocfilehash: 999750f039b2ca57cc31198bcf1599f042763ed3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f72200547ca8af3fa2ebde0e44c4707c82a1596b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767661"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834201"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Peer-to-Peer 商務用 Skype Server 中的 IM 報表
  

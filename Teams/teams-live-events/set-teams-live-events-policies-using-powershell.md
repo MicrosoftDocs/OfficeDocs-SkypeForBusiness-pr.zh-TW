@@ -1,6 +1,6 @@
 ---
 title: 使用 PowerShell 設定即時活動政策
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 07/10/2019
@@ -14,20 +14,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: 如何使用 PowerShell 在 Teams 中設定策略的範例，以控制哪些人可以舉辦貴組織的即時活動，以及活動提供的功能。
+description: 如何使用 PowerShell 在 Teams中設定策略的範例，以控制哪些人可以舉辦貴組織的即時活動，以及活動提供的功能。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0c167d29811008718b7de080e79b62da1117d118
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cda9da872d8464064c137713e8eb16ceede7941e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769791"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851727"
 ---
-# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>在 PowerShell 中設定即時事件Microsoft Teams
+# <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams
 
-您可以使用下列 Cmdlet Windows PowerShell，為即時活動設定及指派Teams： 
+您可以使用下列 Cmdlet Windows PowerShell，為即時活動在 Teams： 
 - [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)

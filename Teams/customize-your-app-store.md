@@ -1,6 +1,6 @@
 ---
-title: 自訂應用程式市
-author: cichur
+title: 自訂應用程式存放區
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: prem
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解在 Microsoft Teams 中自訂Microsoft Teams。
-ms.openlocfilehash: 773e2aa7deb0d419ea60e32dc834dee8f730009a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b7fd39dc1d2ced74b6153f43c78fdf7557bbd206
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741659"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843586"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>自訂應用程式儲存在 Microsoft Teams
 
-現在，您可以新增標誌、自訂背景和自訂文字色彩Teams在 Teams 中自訂貴組織的應用程式存放區，使其更吸引使用者。
+現在，您可以新增標誌、自訂背景和自訂文字色彩，以在 Teams 中自訂貴組織的應用程式存放區，以吸引更多使用者。
 
 > [!Note]
 > 品牌變更需要 24 小時才能生效。
@@ -44,7 +44,7 @@ ms.locfileid: "60741659"
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-您可以在這裡上傳貴組織標誌。 選取的標誌會顯示在 Teams租使用者版 **應用程式**  >  **頁面** 的用戶端中。
+您可以在這裡上傳貴組織標誌。 選取的商標會出現在 Teams ****  >  **租使用者版應用程式頁面中的** 用戶端中。
 
 當您選取選擇 **圖片選項** 時，您可以上傳您所選擇的檔案。 標誌應為 240x60，否則會縮放至該大小。 它不應大於 5 MB。 支援的格式為：
 
@@ -60,7 +60,7 @@ ms.locfileid: "60741659"
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-貴組織標誌或小型標誌是代表貴組織品牌且不包含公司名稱的影像或符號。 愛心標記可協助小組成員識別 App Store。 選取的標誌會出現在應用程式頁面Teams用戶端中。
+貴組織標誌或小型標誌是代表貴組織品牌且不包含公司名稱的影像或符號。 愛心標記可協助小組成員識別 App Store。 選取的標誌會出現在應用程式頁面的 Teams用戶端中。
 
 當您選取選擇 **圖片選項** 時，您可以上傳您所選擇的檔案。 標誌標記應為 32x32 圖元，否則會縮放至該大小。 它不應大於 5 MB。 支援的格式為：
 
@@ -68,7 +68,7 @@ ms.locfileid: "60741659"
 - .png
 - .jpg
 
-小型標誌會顯示在市/市登陸頁面上的 Teams租使用者區段標題旁邊。
+小型標誌會顯示在市/市登陸 **頁面的**"專為租使用者Teams標題旁。
 
 ## <a name="customize-the-background-color"></a>自訂背景色彩
 
@@ -95,7 +95,7 @@ ms.locfileid: "60741659"
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-請確定文字色彩與背景有足夠的對比，讓使用者能清楚閱讀貴組織的名稱。 文字會顯示在適用于租使用者Teams ****  >  **的 App 中的用戶端** 中。
+請確定文字色彩與背景有足夠的對比，讓使用者能清楚閱讀貴組織的名稱。 文字會出現在租使用者Teams的 **App**  >  **中**。
 
 當您選取選擇 **自訂色彩時**，色彩選擇器隨即開啟。 調整色彩選擇器縮放比例，以選取您想要的色彩。
 
@@ -104,12 +104,12 @@ ms.locfileid: "60741659"
 ## <a name="complete-the-customization-of-your-team-apps-store"></a>完成小組應用程式存放區自訂
 
 完成自訂應用程式存放區後，請務必 **選取儲存以** 儲存變更。
-若要預覽您的變更，請選取 **預覽應用程式存放** 區，以查看自訂 App Store 的呈現。
+若要預覽您的變更，請選取 **預覽應用程式存放** 區，以查看自訂 App Store 的呈現方式。
 
 ![自訂應用程式商店的預覽。](media/PowerAppsInStore650w.png)
 
 > [!Note]
-> 呈現方式可能會與自訂應用程式存放區的最終版本不同，因為某些預設色彩會根據您的使用者版本的 Teams 用戶端。
+> 呈現方式可能會與自訂應用程式存放區的最終版本不同，因為某些預設色彩會根據您的使用者版本的 Teams用戶端。
 
 ## <a name="related-article"></a>相關文章
 

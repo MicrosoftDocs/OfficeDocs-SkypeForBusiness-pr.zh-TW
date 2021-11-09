@@ -2,7 +2,7 @@
 title: 在商務伺服器的 Skype 中規劃安全性
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cbc800db-35f6-45c0-b9f6-d8cee0c7e922
 description: 商務用 Skype Server 安全性內容。
-ms.openlocfilehash: 023ef4cb652b727e84a1130f358cdce6506931ab
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8fb49062d61a8776bd41a0e4b44fb020af4c7745
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744079"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843686"
 ---
 # <a name="plan-for-security-in-skype-for-business-server"></a>在商務伺服器的 Skype 中規劃安全性 
  

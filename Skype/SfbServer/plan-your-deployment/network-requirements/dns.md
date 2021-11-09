@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 的 DNS 需求
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 摘要：在實施商務用 Skype Server 之前，請先複查本主題中的 DNS 考慮。
-ms.openlocfilehash: 4c332d9b7e315a928d488861363c2080ecf0997c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fa81b85fb7254130302ed9163a652f03ec1bf33c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770071"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859830"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>商務用 Skype Server 的 DNS 需求
 

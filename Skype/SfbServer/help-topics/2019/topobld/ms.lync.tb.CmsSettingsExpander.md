@@ -2,7 +2,7 @@
 title: CMS 設定展開工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 ROBOTS: NOINDEX, NOFOLLOW
 description: 中央管理伺服器的位置可以從一個已定義的前端集區變更到另一個已定義的前端集區。若要變更中央管理伺服器的位置，請從 [要安裝中央管理伺服器的前端伺服器] 下的下拉式清單中，選取前端集區。前端伺服器可以是 Enterprise Edition 前端集區或 Standard Edition 前端伺服器。
-ms.openlocfilehash: 171fa12dd073cd1ca2b2bbb92c103263ea2a6a0c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3c0c432853e7902b117224750849af6123e5d529
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757715"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859240"
 ---
 # <a name="cms-settings-expander"></a>CMS 設定展開工具
  

@@ -1,6 +1,6 @@
 ---
 title: 即時活動錄製政策
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -17,16 +17,16 @@ description: 瞭解即時活動錄製政策。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 01fe1b00a4c8367dfd9c1274e3591a03b3c09634
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9dbed75a7f9c9655cc52bb798eefb0038cc5fe4a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769801"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844926"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>即時活動錄製Microsoft Teams
 
-您有幾個錄製即時活動Microsoft Teams選項。 錄製選項是使用錄製策略來設定。 本文將說明各種設定。
+您有幾個選項可以錄製即時Microsoft Teams活動。 錄製選項是使用錄製策略來設定。 本文將說明各種設定。
 
 錄製選項是使用 PowerShell 命令 [Set-CsTeamsMeetingBroadcastPolicy 來設定](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy)。
 
@@ -67,6 +67,6 @@ ms.locfileid: "60769801"
 ### <a name="related-topics"></a>相關主題
 
 - [什麼是 Teams 即時活動？](what-are-teams-live-events.md)
-- [Teams 即時活動的方案](plan-for-teams-live-events.md)
+- [Teams 即時活動的規劃](plan-for-teams-live-events.md)
 - [在 Teams 中設定即時活動設定](configure-teams-live-events.md)
 - [Teams雲端會議錄製](../cloud-recording.md)

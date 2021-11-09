@@ -2,7 +2,7 @@
 title: DNS 基本知識
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 具有可提供 DNS 服務的內建軟體，所以您可能想要查看可用的檔，例如 DNS 原則案例指南。 您可以選擇協力廠商的解決方案（如果您願意）。
-ms.openlocfilehash: fe5c38aa22f87e9096d9c887c387938e1cf66ab3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ca6bb3a7e7676f7eec5e7b8d384757099f012514
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765231"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835001"
 ---
 # <a name="dns-basics"></a>DNS 基本知識
  

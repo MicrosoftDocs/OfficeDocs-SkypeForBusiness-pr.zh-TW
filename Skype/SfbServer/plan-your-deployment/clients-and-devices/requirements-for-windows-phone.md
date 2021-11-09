@@ -1,7 +1,7 @@
 ---
 title: Windows Phone 版商務用 Skype 的系統需求
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
 description: 摘要：在規劃商務用 Skype Server 時，複查用戶端系統裝置需求。
-ms.openlocfilehash: 90b5f577b7056396e6f3227444ee3c8b5e1efe07
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9c3f3658127a8d81c6fd1c9d4c55b42c0b539c23
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754539"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835151"
 ---
 # <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Windows Phone 版商務用 Skype 的系統需求
  

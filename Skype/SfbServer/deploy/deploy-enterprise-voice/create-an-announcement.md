@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中建立或刪除宣告
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: 在商務用 Skype Server 企業語音中建立或刪除宣告應用程式的宣告。 這會影響如何處理未指派號碼的呼叫。
-ms.openlocfilehash: 3a5fdbcb5f9c4e72790f35f73cef791868634ce9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 26882070c566eba57925b5eddc43cd11d0e9ea7d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765921"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843516"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或刪除宣告
 

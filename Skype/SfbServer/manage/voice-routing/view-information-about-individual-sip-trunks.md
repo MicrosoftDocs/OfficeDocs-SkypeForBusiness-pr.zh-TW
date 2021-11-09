@@ -2,7 +2,7 @@
 title: 商務用 Skype Server-查看個別 SIP 主幹的相關資訊
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 在商務用 Skype Server 中，可以將多個主幹指派給單一 PSTN 閘道。 閘道和主幹不是一個，而且必須使用 Get-CsTrunk Cmdlet 來查看個別 SIP 主幹的相關資訊。
-ms.openlocfilehash: dc5ccfdb5e248d843fb3a8a4e926a7e462097789
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 98e189def7be1a5f2f913083ba4a38d21da86856
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774713"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835241"
 ---
 # <a name="skype-for-business-server---view-information-about-individual-sip-trunks"></a>商務用 Skype Server-查看個別 SIP 主幹的相關資訊
 

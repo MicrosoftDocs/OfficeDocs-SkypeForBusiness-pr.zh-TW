@@ -1,6 +1,6 @@
 ---
 title: 線上電話系統推出的使用者通知電子郵件範本
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: 使用範本將電子郵件傳送給使用者，以在 Teams 或 商務用 Skype 中執行雲端語音功能。
+description: 使用範本將電子郵件傳送給使用者，以在 Teams 或 商務用 Skype。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -16,18 +16,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 28cd5ad822863876527877ca0bf633577e21914d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 975097e9772fbb804f47ac984207d92ec39d46ed
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737489"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834781"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>協助使用者採用新的線上電話系統
 
 手機可以是使用者的命脈。 從傳統電話系統切換到線上電話系統，代表使用者工作方式的大幅變更，可能會對生產力造成負面影響。 透過這項變更，花時間通知、引導和支援使用者，可協助確保良好的使用者體驗，並最大化您的投資回報。
 
-本文包含可自訂的電子郵件範本，可協助使用者瞭解其新電話系統。 自訂並傳送適當的電子郵件，以配合您的特定語音部署。 我們已使用方括弧指出可輕鬆個人化的節，但我們建議您新增組織特定的訊息，讓公告最適用于您的使用者。 如果適用于您的部署，請將 「Teams」的所有參照取代為「商務用 Skype」。
+本文包含可自訂的電子郵件範本，可協助使用者瞭解其新電話系統。 自訂並傳送適當的電子郵件，以配合您的特定語音部署。 我們已使用方括弧指出可輕鬆個人化的節，但建議您新增組織特定的訊息，讓公告最適用于您的使用者。 如果適用于您的部署，請將 「Teams」的所有參照取代為「商務用 Skype」。
 
 ## <a name="email-number-1-send-three-weeks-before-launch"></a>電子郵件號碼 1：在啟動前三周傳送
 

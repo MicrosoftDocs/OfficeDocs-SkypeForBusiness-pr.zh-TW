@@ -2,7 +2,7 @@
 title: 測試商務用 Skype Server 中的系統管理員許可權
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 如何在商務用 Skype Server 中測試系統管理員許可權
-ms.openlocfilehash: 80971dab292252775f9a58cbf822d746326c8abf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2c4525d83f3a097abfa168b706885a939e3b0663
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760691"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859980"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>測試商務用 Skype Server 中的系統管理員許可權
 
@@ -52,7 +52,7 @@ Test-CsOUPermission Cmdlet 會驗證管理使用者、電腦及其他物件所�
 
 如果已設定必要的許可權，Test-CsOUPermission 會傳回一個單字回應：
 
-True
+對
 
 如果未設定必要的許可權，Test-CsOUPermission 會傳回值 False。 您可能需要搜尋一會兒，以找出此值。 它通常會內嵌在數個伴隨的警告內。 例如：
 
@@ -60,7 +60,7 @@ True
 
 警告：物件 "OU = NorthAmerica，DC = atl-cs-001\DC = litwareinc，DC=com" 的存取控制專案 (Ace) 尚未就緒。 
 
-False 
+錯 
 
 警告： "Test-CsOUPermission" 處理已完成，但有警告。 在此執行期間，記錄了 "2" 個警告。 
 

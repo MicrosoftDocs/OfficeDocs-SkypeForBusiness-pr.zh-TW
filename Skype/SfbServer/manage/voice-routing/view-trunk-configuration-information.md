@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中查看主幹設定資訊
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段邊界控制器 (SBC) 之間的關係和功能。
-ms.openlocfilehash: b27e3dd72e7a4aebee907541b1ec0250cf7cfd3f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b7623765f8d1341066fd127e82c89ab1fa14c79c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778253"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843826"
 ---
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>在商務用 Skype Server 中查看主幹設定資訊
 

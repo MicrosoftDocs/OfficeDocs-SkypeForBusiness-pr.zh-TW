@@ -2,7 +2,7 @@
 title: 未指派的電話號碼建立新的或編輯現有
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: 未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。未指派的號碼表可識別您希望用來處理撥打至未指派號碼的方式。
-ms.openlocfilehash: aac7a56d174a699fba070f2a08bc2f0ef92bad1e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d539255d4eaef4c8b1f1bc36808a746ab94eb169
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764511"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834531"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未指派電話號碼：建立新的或編輯現有
 

@@ -2,7 +2,7 @@
 title: 建立資料庫
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 拓撲產生器提供一種方法，可在 SQL Server 儲存區上安裝資料庫。 當您使用拓撲產生器安裝資料庫時，應用程式會讀取拓撲中的資訊，然後在指定的 SQL Server 電腦或 SQL Server 叢集上安裝必要的資料庫。 這是唯一可以使用拓撲產生器進行的資料庫安裝類型。 如果您需要在特定電腦上安裝特定資料庫，或是必須安裝組合資料庫，則必須改用 Windows PowerShell 命令列介面和 Install-CsDatabase Cmdlet。
-ms.openlocfilehash: d864f469d9200040c61611a70f81c442cfdb7269
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 84a666b67147787e40e79db15394117dfbc8d484
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759905"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844676"
 ---
 # <a name="create-database"></a>建立資料庫
  

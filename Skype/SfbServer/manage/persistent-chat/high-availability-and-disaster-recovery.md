@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 2015 中管理 Persistent Chat Server 的高可用性和嚴重損壞修復
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server 的高可用性和嚴重損壞修復。
-ms.openlocfilehash: 3b45f38f1a530e91b75693196c5e64e206b10121
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bf24bbb7f8672f0bc3a75b83f4f57320dc975092
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774763"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860010"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中管理 Persistent Chat Server 的高可用性和嚴重損壞修復
  

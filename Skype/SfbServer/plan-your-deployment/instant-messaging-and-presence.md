@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中規劃立即訊息和目前狀態
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 摘要：瞭解如何在商務用 Skype Server 中規劃立即訊息和目前狀態。
-ms.openlocfilehash: 20de382c034e2049bdb7bb2b36f2da9bc847b876
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b81da143bf7b8d917d88939d8b28261910bb8f5a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737659"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835081"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃立即訊息和目前狀態
  

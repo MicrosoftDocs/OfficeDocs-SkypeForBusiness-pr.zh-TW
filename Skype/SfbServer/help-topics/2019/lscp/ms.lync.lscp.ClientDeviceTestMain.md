@@ -2,7 +2,7 @@
 title: 測試裝置
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以將測試裝置新增至 [測試裝置] 頁面，然後使用此裝置來確認新更新的功能，再將更新部署至實際執行裝置。 您可以在整個環境) 或單一網站內，測試裝置全域 (。 您可以透過媒體存取控制來識別測試裝置 (MAC) 位址或序號。 當您新增裝置時，它會顯示在商務用 Skype Server 控制台的 [測試裝置] 頁面上的清單中。
-ms.openlocfilehash: 4ecdb6934e2e1022861894b2b0347eb53d84f0f1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: aaac51fa7124436b6253f88a33d36758d2cb061c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758045"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834641"
 ---
 # <a name="test-device"></a>測試裝置
 

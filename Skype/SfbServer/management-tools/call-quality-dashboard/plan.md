@@ -2,7 +2,7 @@
 title: 商務用 Skype Server：規劃通話品質儀表板
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 摘要：瞭解在規劃通話品質儀表板時所應考慮的事項。
-ms.openlocfilehash: 42b80c8e426f438a1608d3c71a41b20dd9d27a63
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c9ab2cafcd05ac7ea0585b0f3af2924b9fa4f0cf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777343"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835171"
 ---
 # <a name="skype-for-business-server-plan-for-call-quality-dashboard"></a>商務用 Skype Server：規劃通話品質儀表板 
  

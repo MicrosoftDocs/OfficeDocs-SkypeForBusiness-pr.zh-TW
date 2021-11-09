@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中管理會議原則
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
 description: 摘要：瞭解如何在商務用 Skype Server 中管理會議原則。
-ms.openlocfilehash: f2678c964cc56de44aff37d49aae5f3c61ebc298
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8a4c209e711ba6ff332873147c0523839807b108
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766621"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835301"
 ---
 # <a name="manage-conferencing-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議原則
  
