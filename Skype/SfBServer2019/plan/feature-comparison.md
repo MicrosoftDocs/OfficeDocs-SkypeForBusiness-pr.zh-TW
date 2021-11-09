@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 2019 的桌面用戶端功能比較
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要：商務用 Skype Server 2019 或商務用 Skype Online 系統管理員可以使用這些表格，以瞭解哪些用戶端支援哪些功能。
-ms.openlocfilehash: 556b88bfe587d1d5a5a1c78461863f0ae8f8fbbf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fa4a516f949f858502c0aece58af8b0c737044b4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777403"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831697"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的桌面用戶端功能比較
 

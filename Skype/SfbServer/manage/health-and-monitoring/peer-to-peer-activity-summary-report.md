@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中的 Peer-to-Peer 活動摘要報表
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer 活動摘要報表。
-ms.openlocfilehash: 0614e113ad258bd66f436d0dc74106ddd35a26cd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 876d12b74fa34d745a7e94d31ecc19997f337e40
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774823"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831987"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 Peer-to-Peer 活動摘要報表
  

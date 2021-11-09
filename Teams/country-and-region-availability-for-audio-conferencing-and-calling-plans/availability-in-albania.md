@@ -1,6 +1,6 @@
 ---
 title: 在阿爾巴尼亞的可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 423c8c690c99e30dcd0e02851485015f11611a79
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b618c288f06c01a037a3c386d3d65baa7a0c25c3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759325"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858910"
 ---
 # <a name="availability-in-albania"></a>在阿爾巴尼亞的可用性
 

@@ -1,6 +1,6 @@
 ---
 title: 為您的使用者設定語音來電功能
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: macai, phedry
 manager: serdars
@@ -17,12 +17,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c9269de290ff4aec3380dccc7c114c7113256973
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 708b521d52dc3732e89ec1e3c27ab45c74481361
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766152"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842025"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>為您的使用者設定語音來電功能
 
@@ -39,9 +39,9 @@ ms.locfileid: "60766152"
 
 ### <a name="join-a-meeting-by-using-phone-for-audio"></a>使用電話進行音訊加入會議
 
-按一下 **[** 加入以加入會議電話 **選擇** 您的視音訊選項畫面上的音訊，然後按一下 [**立即加入**。 使用者可以在這裡進行會議通話並加入會議，或手動撥入會議。
+按一下 **[** 加入以加入會議電話 **選擇** 視音訊選項畫面上的音訊，然後按一下 [**立即加入**。 使用者可以在這裡進行會議通話並加入會議，或手動撥入會議。
 
-![顯示音訊選項電話螢幕擷取畫面。](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
+![音訊選項電話螢幕擷取畫面。](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
 **讓會議Teams通話**
 
@@ -61,7 +61,7 @@ ms.locfileid: "60766152"
 
 以下是郵件的範例，以及當無法偵測到麥克風時顯示的Teams回電選項。
 
-![螢幕擷取畫面顯示回電選項。](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
+![螢幕擷取畫面顯示 "回電給我」 選項。](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
 使用者按一下 **滑鼠回電話**，這可顯示使用 **電話進行音訊** 畫面。 在這裡，他們可以輸入其電話號碼，並Teams會議通話，並加入會議，或手動撥入會議。
 
@@ -71,6 +71,6 @@ ms.locfileid: "60766152"
 
 - 貴組織中排程會議的使用者， (會議) 。 若要深入瞭解，請參閱在[](set-up-audio-conferencing-in-teams.md)Teams 中為使用者設定音訊會議[Teams。](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-- 會議召集人可以從會議撥出。 若要深入瞭解，請參閱在 Teams 中[管理使用者的音訊會議Teams。](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+- 會議召集人可以從會議撥出。 若要深入瞭解，請參閱在 Teams 中管理[使用者的音訊會議Teams。](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
 如果會議召集人未啟用會議撥出功能，則任何人都無法使用選擇視像和音訊選項畫面上的 **電話** 音訊選項，而且其他使用者無法收到加入會議的電話。 對於已啟用撥出功能的使用者，一旦他們加入會議，就可以加入其他人，從顯示參與者圖示撥打 **他們的** 號碼。

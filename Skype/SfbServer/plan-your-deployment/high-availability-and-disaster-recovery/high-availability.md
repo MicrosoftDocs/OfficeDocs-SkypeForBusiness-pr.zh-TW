@@ -2,7 +2,7 @@
 title: 前端集區高可用性和管理
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: 深入瞭解商務用 Skype Server 中的前端集區管理，包括管理集區、仲裁遺失，以及僅有兩部前端伺服器的集區的特殊步驟。
-ms.openlocfilehash: 5d9eef2a027131db960b05508ece28cf95b992dc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f8ad22c7728fc4fb62980a81fa659558aaba4be7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737679"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831847"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>前端集區高可用性和管理
  

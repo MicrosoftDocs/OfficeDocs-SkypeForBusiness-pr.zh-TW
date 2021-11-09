@@ -2,7 +2,7 @@
 title: 商務用 Skype Server中繼組合規劃工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 根據預設，轉送伺服器會與前端伺服器進行組合。 根據效能原因或部署 SIP 主幹（在此情況下，建議使用獨立集區），也可以將它部署在獨立集區中。 商務用 Skype Server 功能中的組合，就像在 Lync Server 2013 中一樣。
-ms.openlocfilehash: 25174be6952f6339f95ae2460532b0e930442235
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: de327a7abe4278a942058c1e5c3cdced2266d8f6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744339"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833509"
 ---
 # <a name="skype-for-business-server-mediation-collocation-planning-tool"></a>商務用 Skype Server中繼組合規劃工具
  

@@ -2,7 +2,7 @@
 title: '啟用或停用商務用 Skype Server 中的離線立即訊息 (IM) '
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: 瞭解如何啟用或停用商務用 Skype Server 中的離線立即訊息 (IM) 。
-ms.openlocfilehash: 36894fb2a1ed11428b21b572a28e9ac177a4237d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: aace1ca45c224ce6ef6c7d6d6f151ecd3ab9b260
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753325"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858630"
 ---
 # <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>啟用或停用商務用 Skype Server 中的離線立即訊息 (IM) 
  

@@ -1,6 +1,6 @@
 ---
 title: 百慕達的可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是百Microsoft 365百Office 365的商務用 Skype及Microsoft Teams服務。
-ms.openlocfilehash: b6a6d114b2df25df1646ab9c983df51d570e4eef
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 以下是百Microsoft 365百Office 365百商務用 Skype及Microsoft Teams的Microsoft Teams及服務。
+ms.openlocfilehash: 7fef7c524987406e6d3e6ac17d7b3518b186452e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777583"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831767"
 ---
 # <a name="availability-in-bermuda"></a>百慕達的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是百Microsoft 365百Office 365的商務用 Skype及Microsoft Teams服務。
+以下是百Microsoft 365百Office 365百商務用 Skype及Microsoft Teams的Microsoft Teams及服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 

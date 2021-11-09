@@ -1,6 +1,6 @@
 ---
 title: 在系統稱讚管理中心管理 Teams應用程式
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jozhuan
@@ -8,27 +8,27 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
-description: 瞭解系統管理中心稱讚應用程式Microsoft Teams設定
-ms.openlocfilehash: c67f70150c2b8635bd317f724004471f4b73e800
-ms.sourcegitcommit: 36761f644b9af5bdef30fe1c3817defc278b965e
+description: 瞭解系統管理中心的 稱讚 應用程式Microsoft Teams設定
+ms.openlocfilehash: 1d460a785a318723bf8e0d0852132863ef7513f8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/05/2021
-ms.locfileid: "60793451"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858030"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在系統稱讚管理中心管理 Microsoft Teams應用程式
 
 > [!NOTE]
 > 系統管理員必須擁有Teams才能存取此功能。 如果您嘗試在沒有授權的情況下存取Teams，就會收到錯誤訊息。
 
-稱讚應用程式Microsoft Teams可協助使用者向組織或教室的成員表示感謝。 稱讚 提供一系列徽章供您選擇，以及建立您自己的徽章選項，稱讚 可協助識別使用者從教育人員到前線工作人員等Teams工作所付出的投入。 若要深入瞭解，請查看傳送稱讚[給人員](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
+稱讚應用程式Microsoft Teams可協助使用者向組織或教室的成員表示感謝。 稱讚 提供一系列徽章供您選擇，以及建立您自己的徽章選項，可協助識別使用者從教育者到前線工作人員等Teams工作範圍。 若要深入瞭解，請查看傳送稱讚[給人員](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
 
 管理員可以從系統管理中心控制其組織Microsoft Teams徽章。 在左側流覽中，前往 **管理Teams應用程式>應用程式**。 在應用程式清單中 **，按一下**[稱讚，然後選取 **[設定。**  您可以在這裡選擇啟用預設和內建徽章集，以及建立自訂徽章。
 
 ![螢幕擷取畫面設定應用程式稱讚的螢幕擷取畫面。](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> 稱讚應用程式適用于雲端GCC，但不適用於高GCC DoD。
+> 此稱讚應用程式適用于雲端GCC，但不適用於高GCC DoD。
 
 ## <a name="use-built-in-badge-sets"></a>使用內建徽章集
 
@@ -38,7 +38,7 @@ ms.locfileid: "60793451"
 
 ### <a name="default-badges"></a>預設徽章
 
-預設徽章集是專為協助使用者Teams識別其同儕在工作之外所完成的工作。
+預設徽章集是專為協助Teams使用者識別其同儕在工作之外所完成的工作。
 
 ![預設徽章集的預覽。](media/default-set-praise.png)
 
@@ -46,7 +46,7 @@ ms.locfileid: "60793451"
 
 ### <a name="social-and-emotional-learning-badges-for-education"></a>教育用社交與情緒學習徽章
 
-教育者可以在 SEL 中識別個別學生 (情緒) 徽章來說明這些概念。
+教育者可以在 SEL 中識別個別學生進行社交和 (，) 徽章來說明這些概念的成就和行為。
 
 ![教育用社交與情緒學習徽章預覽。](media/sel-edu-set-praise.png)
 
@@ -60,7 +60,7 @@ ms.locfileid: "60793451"
 
 1. 輸入徽章名稱。 這是當使用者傳送稱讚時，徽章上會出現的名稱。
 
-2. 設定徽章色彩。 若要設定徽章的文字和背景色彩，您必須輸入十六進位 (十六) 值。
+2. 設定徽章色彩。 若要設定徽章的文字和背景色彩，您必須在十六進位值 (十六) 色彩。
 
    > [!TIP]
    > 如果您是十六進位值的新增者，本文包含一個快速簡介[](#hex-colors-intro)，以瞭解如何使用它們。
@@ -83,7 +83,7 @@ ms.locfileid: "60793451"
 
 ## <a name="specify-colors-with-hex-values"></a>使用十六進位值指定色彩
 
-十六進位色彩值是六個十六進位位數的字串，代表以 00 到 FF 為刻度的紅色 (RR) 、綠色 (GG) 和藍色 (BB) 。 當您將三種色彩的值放在一起時，您得到一個十六進位值：#RRGGBB
+十六進位色彩值是六個十六進位位數的字串，代表以 00 到 FF 為刻度的紅色 (RR) 、綠色 (GG) 和藍色 (BB) 。 當您將三種色彩的值放在一起時，會獲得十六進位值：#RRGGBB
 
 例如，紅色色彩的十六進位值是#FF0000因為紅色設定為可能的最高值，FF，而綠色和藍色則分別設定在最低可能的值 00。
 
@@ -108,7 +108,7 @@ ms.locfileid: "60793451"
 
 **選擇色彩時，請記住協助工具。** 有些色彩比其他色彩更一致。  在文字和背景色彩之間建立對比，讓徽章名稱易於閱讀。 例如，如果您選擇深色背景色彩，請選擇淺色文字色彩。
 
-**選取影像時，請記住徽章尺寸。** 為了獲得最佳品質，建議您上傳 216 x 216 圖元的影像檔案 (這是最大) 。 避免伸展或扭曲影像，以配合這些維度。
+**選取影像時，請記住徽章尺寸。** 為了獲得最佳品質，建議您上傳 216 x 216 圖元的影像檔案， (為最大) 。 避免伸展或扭曲影像，以配合這些維度。
 
 **如果您的徽章影像不是矩形，請讓影像透明。** 您必須先執行此操作，再將影像檔案上傳至稱讚。
 

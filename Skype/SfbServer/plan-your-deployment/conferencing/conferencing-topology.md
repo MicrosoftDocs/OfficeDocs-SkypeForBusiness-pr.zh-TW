@@ -2,7 +2,7 @@
 title: 規劃商務用 Skype Server 的會議拓撲
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 中規劃會議拓撲。
-ms.openlocfilehash: a4d458bf7bea512e773a09551e2fa0c72a982592
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0ea242584670c06beaa6462390afc01103c1fd7e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737709"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831907"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>規劃商務用 Skype Server 的會議拓撲
  

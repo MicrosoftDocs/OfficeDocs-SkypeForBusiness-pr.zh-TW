@@ -2,7 +2,7 @@
 title: 編輯用戶端行動性原則
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 description: 您可在 [編輯行動性原則] 對話上編輯行動性原則的詳細資料。
-ms.openlocfilehash: 4ac798ee7e3bd16c23649d33d9da477b6ec55d3d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fd760a17f6ff993bbd24670d5578c0b0273bc309
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752192"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848996"
 ---
 # <a name="edit-client-mobility-policy"></a>編輯用戶端行動性原則
 

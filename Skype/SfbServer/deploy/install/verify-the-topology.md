@@ -2,7 +2,7 @@
 title: 驗證商務用 Skype Server 中的拓撲
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 摘要：瞭解如何驗證商務用 Skype Server 拓撲和 Active Directory 伺服器是否如預期般運作。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: ba098dd808fec192cc944ed3796d5e11b0d8af31
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 32d9e4302109ef9a7d5cb34946722eb8a8e9f38c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753236"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864260"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>驗證商務用 Skype Server 中的拓撲
  

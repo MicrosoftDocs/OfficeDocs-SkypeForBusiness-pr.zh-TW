@@ -2,7 +2,7 @@
 title: 商務用 Skype Server負載平衡器規劃工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 description: 如果您有前端集區、Director 集區或 Edge Server 集區，則需要為這些集區部署負載平衡。 負載平衡會在集區中的伺服器之間分散流量。 如需詳細資訊，請參閱：
-ms.openlocfilehash: 3f12e2fdab43cfaaa09660b3299e22f5e16dd9ee
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ce7764d0521b60fc22423ad2735eaa88cc27eff6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744349"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832207"
 ---
 # <a name="skype-for-business-server-load-balancer-planning-tool"></a>商務用 Skype Server負載平衡器規劃工具
  

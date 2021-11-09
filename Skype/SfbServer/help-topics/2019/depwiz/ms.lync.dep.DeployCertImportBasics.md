@@ -2,7 +2,7 @@
 title: 匯入憑證 (簡介)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要匯入憑證，您必須提供憑證檔案的路徑。在 [選取憑證檔案] 文字方塊中，您可以輸入完整路徑和檔案名稱，也可以按一下 [瀏覽] 按鈕並瀏覽至路徑位置和檔案名稱 (通常是 .p7b、.pfx 或 .cer 檔案)。
-ms.openlocfilehash: 112a8239d9bc1f48404ac0806ec176ead9480e3d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8a0b48b6bec3e9f502c8a20635e46931a5b24362
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740059"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843466"
 ---
 # <a name="import-certificate-intro"></a>匯入憑證 (簡介)
  

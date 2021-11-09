@@ -2,7 +2,7 @@
 title: 啟動服務 (叫用)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 description: '[執行命令] 窗格上的 [摘要] 窗格會顯示所發出之工作的狀態，以啟動您要部署之商務用 Skype Server 2015 角色服務器的服務。 工作窗格中的摘要並不代表服務會即時啟動。 有些商務用 Skype Server 服務可能會花很長的時間來開始初始啟動程式。 工作會發出啟動命令，但不會等著去看服務是否成功啟動。 如果您必須監視服務啟動和服務狀態，則應該使用 Windows 的服務 Microsoft Management Console (MMC)。'
-ms.openlocfilehash: 109a3e333919162ff244361a101b17616c3bc3d0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 714b92d4658112c699c5c8aa42f397130381eb8d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769071"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833589"
 ---
 # <a name="start-services-invoke"></a>啟動服務 (叫用)
  

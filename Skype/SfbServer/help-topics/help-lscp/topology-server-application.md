@@ -2,7 +2,7 @@
 title: 拓撲伺服器應用程式
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 description: '[拓撲：伺服器應用程式] 頁面會顯示您部署中的伺服器應用程式。'
-ms.openlocfilehash: 19386d7f9022c8178edc7d8b4b7e362d7c89411d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b57393fcefadb37c2386970c7ff26b40f1323c62
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744509"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848926"
 ---
 # <a name="topology-server-application"></a>拓撲：伺服器應用程式
 

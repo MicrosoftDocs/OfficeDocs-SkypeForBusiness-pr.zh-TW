@@ -1,6 +1,6 @@
 ---
 title: 在系統管理中心開始使用製造小組範本
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -11,7 +11,7 @@ ms.collection:
 - M365-collaboration
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何使用系統管理中心提供預先定義的設定、頻道和預先安裝的應用程式，以使用小組範本建立專為製造需求設計的團隊結構。
+description: 瞭解如何使用系統管理中心提供預先定義的設定、頻道和預先安裝的應用程式，以使用小組範本建立專為製造需求設計的小組結構。
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,18 +19,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7d7c7d648d36f38bc25bae946136388bd6485d2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8236964530d76818a5510af8b38fcd9bb2a8b8f4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739049"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858710"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>在系統管理中心使用製造小組範本
 
 小組範本提供預先定義的設定、頻道和預先安裝應用程式範本，讓您快速且輕鬆地建立團隊。
 
-小組範本有預先建立的團隊結構定義，專為製造需求所設計。 您也可以擴充小組範本，以建立符合您特定組織需求的團隊。
+小組範本有預先建立的團隊結構定義，專為製造需求所設計。 您也可以擴充小組範本，以建立根據您的特定組織需求量身打造的團隊。
 
 本文介紹每個小組範本，並建議如何使用這些範本。
 

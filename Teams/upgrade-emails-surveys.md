@@ -1,13 +1,13 @@
 ---
 title: Microsoft Teams轉換電子郵件和問卷|基本升級
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 在 Conjunciton 中使用的電子郵件和問卷範例，以及加速從 商務用 Skype 升級至 Teams
+description: 在 Conjunciton 中使用的電子郵件和問卷範例，以及加速的十個步驟行動計畫，從 商務用 Skype 升級Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bda42ca439268a4d1e14c8b10d26e0dcea38332
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6b88a8030b2e808f95e8601147acce9cfa31da33
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760361"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841995"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升級基本通訊的電子郵件和問卷範例
 
@@ -201,13 +201,13 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>問卷樣本
 
-指出您執行下列活動的能力Teams以及您是否想深入瞭解一或多個活動。
+指出您執行下列活動的能力Teams以及如果您想要深入瞭解的一或多個活動。
 
 | &nbsp; | 非常熟練 | 有點熟練 | 完全不熟練 | 想要深入瞭解 | 不適用 | 不確定/不熟悉 |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 使用Teams進行 IM/聊天 | | | | | | | | | | |
 | 使用 Teams線上會議 | | | | | | | | | | |
-| 在Teams中 (團隊和頻道)  | | | | | | | | | | |
+| 使用Teams工具 (團隊和頻道)  | | | | | | | | | | |
 | 在Teams裝置上使用 | | | | | | | | | | |
 
 | **有什麼可以阻止您使用Microsoft Teams？** | **選取所有適用專案** |

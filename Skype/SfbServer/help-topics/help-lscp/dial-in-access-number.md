@@ -2,7 +2,7 @@
 title: 電話撥入式會議存取號碼
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1b2c8676-b132-4ba0-a242-a1edf30a3d44
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: cdee489b64b1a2b621054d55ebf4e294518eee82
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f977af95e974d8d037ec755b973363cc643c944d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770811"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859110"
 ---
 # <a name="dial-in-access-number"></a>電話撥入式會議存取號碼
 

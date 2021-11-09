@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中的 Peer-to-Peer 活動診斷報告
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer 活動診斷報告。
-ms.openlocfilehash: 703592939b5f90311a4b9da551a6ebfe28989c31
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c0c568a75cddb8ea9f8165a196ee8cef1e03eaab
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774833"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858230"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 Peer-to-Peer 活動診斷報告
  

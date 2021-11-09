@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 的 Active Directory 網域服務
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Active Directory 網域服務可充當 Windows Server 2003 的目錄服務，Windows Server 2008，Windows Server 2012，及 Windows Server 2012 R2 網路。 Active Directory 網域服務也充當建立商務用 Skype Server 安全性基礎結構的基礎。 本節的目的是說明商務用 Skype Server 如何使用 Active Directory 網域服務，為 IM、Web 會議、媒體及語音建立信任的環境。 如需為 Active Directory 網域服務準備環境的詳細資訊，請參閱部署檔中的 Install 商務用 Skype Server。 如需 Windows Server 網路中之 Active Directory 網域服務角色的詳細資料，請參閱您所使用之作業系統版本的文件。
-ms.openlocfilehash: 496abf7f0210a1663c1158da56c8fb1cce66f068
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a96d2691513ae98195856f717b338a98e589a28e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759465"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859010"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>商務用 Skype Server 的 Active Directory 網域服務
  

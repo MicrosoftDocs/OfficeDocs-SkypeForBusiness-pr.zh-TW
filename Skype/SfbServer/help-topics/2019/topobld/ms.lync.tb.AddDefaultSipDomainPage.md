@@ -2,7 +2,7 @@
 title: 新增預的 SIP 網域
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b9dd496e-d43b-42e4-9e70-a70abb79cdc3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 指定您要部署支援的主要工作階段初始通訊協定 (SIP) 網域。 主要 SIP 網域可以與您的 Active Directory 網域服務網域相同（或不同于您的 Active Directory 網域服務網域）。 例如，您的 Active Directory 網域可能是 fabrikam.net，您可以將主要 SIP 網域指定為 contoso.net。
-ms.openlocfilehash: 30204e60624560b0f0d09ab88d9b6899d0181ee9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bf7d01b96dd3d720c26549640111c572bee69975
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769381"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858490"
 ---
 # <a name="add-default-sip-domain"></a>新增預的 SIP 網域
  

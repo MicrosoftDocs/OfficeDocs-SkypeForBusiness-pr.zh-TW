@@ -2,7 +2,7 @@
 title: 為 Lync Server 2010 新增 Director 關聯
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 92631bb6-1bf5-4b0b-a223-ffa22d7f1fce
 description: 您可以定義 Director 或 Director 集區是否要有相關聯的監控伺服器。 選取 [將監控伺服器與 Director 或 Director 集區建立關聯] 核取方塊。
-ms.openlocfilehash: 77a39c0452471c45ed94cfb3fed23767a5b2d2a8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e28c5948a3edb41851dd2de8e59a2c58f03f640f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762871"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857680"
 ---
 # <a name="add-director-association-for-lync-server-2010"></a>為 Lync Server 2010 新增 Director 關聯
  

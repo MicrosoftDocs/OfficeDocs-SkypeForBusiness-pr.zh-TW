@@ -2,7 +2,7 @@
 title: 前端伺服器範圍節點
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[Enterprise Edition 前端集區] 節點會列出此網站的前端集區，而 Standard Edition 前端伺服器節點會列出此網站的 Standard Edition 伺服器。 您可以執行下列動作：'
-ms.openlocfilehash: 9330da7eb3778f2cdfdd4ff3493c57c82f085dfd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1b2b662ef79f5d9ee12d668d1cf3b81f6e4e0807
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752462"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849116"
 ---
 # <a name="front-end-servers-scope-node"></a>前端伺服器範圍節點
  

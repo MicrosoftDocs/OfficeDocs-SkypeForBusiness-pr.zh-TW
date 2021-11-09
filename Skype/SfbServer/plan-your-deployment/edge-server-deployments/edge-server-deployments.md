@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中規劃 Edge Server 部署
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: 摘要：規劃商務用 Skype Server Edge 環境。 本主題將向您介紹 Edge 概念，讓您瞭解更深入的主題。
-ms.openlocfilehash: ad92c0d61381595ac2274bf52aa108efe5703a90
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ae6dd672e3da6568d41898a4bc2ae022b23ad3f3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746859"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834111"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃 Edge Server 部署
  

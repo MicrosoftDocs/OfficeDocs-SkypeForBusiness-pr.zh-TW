@@ -1,6 +1,6 @@
 ---
 title: 在奈及利亞的可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: d88d602fba36803cf9b3ef7972c6fb90fe04516d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2227e9a63189062449e4d5a0a91e6208e08625ad
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745659"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858050"
 ---
 # <a name="availability-in-nigeria"></a>在奈及利亞的可用性
 

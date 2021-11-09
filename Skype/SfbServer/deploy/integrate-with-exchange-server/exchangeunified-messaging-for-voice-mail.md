@@ -2,7 +2,7 @@
 title: 設定商務用 Skype Server 語音信箱 Exchange Server 整合通訊
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 摘要：設定商務用 Skype Server 語音信箱 Exchange Server 整合通訊。
-ms.openlocfilehash: 43a5b34afb2f398ecfd14d884bbb510ffa3631f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e434309c67469ccaa6994ec90cb3431b9de4f13b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741289"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865280"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>設定商務用 Skype Server 語音信箱 Exchange Server 整合通訊
  
@@ -89,14 +89,14 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
 
 在上一個命令中，Extensions 參數代表使用者的電話分機號碼。在此範例中，使用者的分機號碼為 100。
   
-啟用 kenmyer@litwareinc.com 的信箱後，該使用者應該就能使用 Exchange 整合通訊。 您可以從商務用 Skype Server 管理命令介面內執行[Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity?view=skype-ps) Cmdlet，以確認使用者可以從 Exchange UM 進行連線：
+啟用 kenmyer@litwareinc.com 的信箱後，該使用者應該就能使用 Exchange 整合通訊。 您可以從商務用 Skype Server 管理命令介面內執行[Test-CsExUMConnectivity](/powershell/module/skype/test-csexumconnectivity) Cmdlet，以確認使用者可以從 Exchange UM 進行連線：
   
 ```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-若您還有第二個啟用了整合通訊的使用者，您可使用 [Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail?view=skype-ps) Cmdlet 來驗證第二個使用者是否能語音留言給第一個使用者。
+若您還有第二個啟用了整合通訊的使用者，您可使用 [Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail) Cmdlet 來驗證第二個使用者是否能語音留言給第一個使用者。
   
 ```powershell
 $credential = Get-Credential "litwareinc\pilar"
@@ -155,7 +155,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 - 為每個 UM IP 閘道建立一個 UM 群組搜尋。 每個群組搜尋的試驗識別碼會指定商務用 Skype Server 前端集區或與 um IP 閘道相關聯之 Standard Edition 伺服器所使用的 um SIP URI 撥號對應表。
 - 授與讀取 Active Directory UM 容器物件（如 UM 撥號對應表、自動語音應答、um IP 閘道和 UM 群組搜尋）的商務用 Skype Server 許可權。
   > [!IMPORTANT]
-  > 每個 UM 樹系都必須設定為信任部署商務用 Skype Server 的樹系，而且部署商務用 Skype Server 2013 的樹系必須設定為信任每個 um 樹系。 如果 Exchange UM 安裝在多個樹系中，則必須針對每個 UM 樹系執行 Exchange Server 整合步驟，否則您必須指定商務用 Skype Server 網域。 例如，ExchUcUtil.ps1 –樹系： <lync 域-controller-fqdn>。 
+  > 每個 UM 樹系都必須設定為信任部署商務用 Skype Server 的樹系，而且部署商務用 Skype Server 2013 的樹系必須設定為信任每個 um 樹系。 如果 Exchange UM 安裝在多個樹系中，則必須針對每個 UM 樹系執行 Exchange Server 整合步驟，否則您必須指定商務用 Skype Server 網域。 例如，ExchUcUtil.ps1 –樹系： \<lync-domain-controller-fqdn> 。 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>使用命令介面來執行 ExchUcUtil.ps1 指令碼
 

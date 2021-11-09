@@ -2,7 +2,7 @@
 title: 混合式嚮導編輯使用者
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用 [編輯使用者] 嚮導來修改部署中的使用者帳戶。 如需詳細資訊，請參閱使用混合式管理性嚮導。
-ms.openlocfilehash: ea445859e6d438536dc4dc4bf2cb517435217764
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: db688464bf41583156e294de61ebb3e6d29796c1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748749"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865270"
 ---
 # <a name="hybrid-wizard-edit-users"></a>混合式精靈：編輯使用者
 

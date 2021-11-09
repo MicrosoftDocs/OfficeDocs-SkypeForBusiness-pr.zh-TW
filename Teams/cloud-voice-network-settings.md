@@ -1,6 +1,6 @@
 ---
 title: 雲端語音功能的網路設定
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -18,18 +18,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2165ea1e4e9732f0e840b4f0949b230f5243121d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 862d696024baa75feefbbae7e4458caad22b5566
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769941"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833979"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>雲端語音功能的網路設定Microsoft Teams
 
 瞭解網路區域、網路網站、網路子網和受信任的 IP 位址。 這些條款和概念會用於我們的雲端語音檔，用於[](location-based-routing-plan.md)直接路由和動態緊急電話的定位式[路由](configure-dynamic-emergency-calling.md)。 如果您要在組織中部署這些雲端功能，您必須設定網路設定，以在 Microsoft Teams。
 
-本文提供路由和動態緊急Location-Based常見的網路設定概觀。 根據您部署的雲端語音功能，您可以設定部分或所有設定。 若要瞭解如何設定這些設定的步驟，請參閱在 Teams 中管理雲端功能[的網路拓撲](manage-your-network-topology.md)。
+本文提供路由和動態緊急Location-Based常見的網路設定概觀。 根據您部署的雲端語音功能，您可以設定部分或所有設定。 若要瞭解如何設定這些設定的步驟，請參閱在 Teams 中管理雲端[功能的網路拓撲](manage-your-network-topology.md)。
 
 > [!NOTE]
 > 網路設定的任何特定功能需求會記錄在該功能的設定主題中。
@@ -63,4 +63,4 @@ ms.locfileid: "60769941"
 如果使用者的外部 IP 位址與信任 IP 位址清單中的 IP 位址不相符，端點會分類為位於未知位置。
 
 > [!Important]
-> 修改來自用戶端之來源 IP 位址的雲端 Proxy 服務部署不支援網路設定Teams檢查。
+> 雲端 Proxy 服務部署不支援網路設定設定檢查，這些部署會修改來自Teams IP 位址。

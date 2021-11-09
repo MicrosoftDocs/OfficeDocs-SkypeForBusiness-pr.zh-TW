@@ -2,7 +2,7 @@
 title: 'Director (規劃工具) '
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Director 是一部執行商務用 Skype Server 通訊軟體的伺服器，可驗證使用者要求，但不會家用任何使用者帳戶。
-ms.openlocfilehash: c8aa280fec1d7b3d57edd0027ebad4cbdb909827
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1d7d65502e6c306a1ed709dbd3c1f6a66370f14a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750902"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833659"
 ---
 # <a name="director-planning-tool"></a>Director (規劃工具) 
  

@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 2015 和 Exchange Server 中設定合作夥伴應用程式
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: 摘要：設定伺服器對 Exchange Server 2016 或 Exchange Server 2013 及商務用 Skype Server 的伺服器驗證。
-ms.openlocfilehash: 0f85c617558ae348eaa554efcb5aff1fb4a624d2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bb76b34bdf1a5a8a6c1b60fc200c46112985f31c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771461"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864240"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>在商務用 Skype Server 和 Exchange Server 中設定夥伴應用程式
  

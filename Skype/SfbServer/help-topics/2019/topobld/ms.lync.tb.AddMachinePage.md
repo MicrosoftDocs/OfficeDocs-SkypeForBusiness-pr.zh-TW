@@ -2,7 +2,7 @@
 title: 新增伺服器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要將新的伺服器新增至下列其中一種伺服器的現有集區：
-ms.openlocfilehash: 46316cf480a0a91b7f50a80825de5930a03154fc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 12a8e65f85120bea9d6e9a466bbca4f7d1d070b6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775413"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857800"
 ---
 # <a name="add-server"></a>新增伺服器
  

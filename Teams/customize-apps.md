@@ -1,6 +1,6 @@
 ---
-title: 自訂應用程式Microsoft Teams
-author: cichur
+title: 在應用程式中自訂Microsoft Teams
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: v-tbasra
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在應用程式中自訂Microsoft Teams。
-ms.openlocfilehash: 21baefe7a75c869ed8d401d19f948526b31d615c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ca0f7b090669304553159979af3983b7f21de284
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749622"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831737"
 ---
-# <a name="customize-apps-in-microsoft-teams"></a>自訂應用程式Microsoft Teams
+# <a name="customize-apps-in-microsoft-teams"></a>在應用程式中自訂Microsoft Teams
 
- Microsoft Teams應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂Teams應用程式。系統管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新 **Teams應用程式屬性**。 您可以自訂的詳細資訊有：
+ Microsoft Teams應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂Teams應用程式。管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新 **Teams應用程式屬性**。 您可以自訂的詳細資訊有：
 
 - 簡短名稱
 - 簡短描述
@@ -42,8 +42,8 @@ ms.locfileid: "60749622"
 請參閱Teams清單[架構](/microsoftteams/platform/resources/schema/manifest-schema)，以瞭解有關您可以自訂之欄位的詳細資訊。
 
 > [!NOTE]
-> 目前不支援在 政府社群雲端 (GCCH) 或 (DoD) 自訂應用程式。
-> 目前，此功能不適用於側載應用程式Microsoft Teams應用程式。
+> 目前，在 政府社群雲端 GCCH (或) DoD (不支援自訂應用程式) 。
+> 目前，此功能不適用於旁載入的應用程式Microsoft Teams應用程式。
 
 ## <a name="customize-the-apps-details"></a>自訂應用程式詳細資料
 
@@ -59,7 +59,7 @@ ms.locfileid: "60749622"
 
    有三個進入點可存取自訂功能：
 
-   - 選取要自訂之應用程式旁邊的 ， **然後選取** 自訂 。
+   - 選取要自訂之應用程式旁的 ， **然後選取** 自訂 。
 
      ![自訂選取選項 1。](media/select-app-to-customize1.png)
 
@@ -83,11 +83,11 @@ ms.locfileid: "60749622"
    ![自訂設定。](media/customize-settings.png)
 
 > [!Note]
-> 只有應用程式開發人員已指派為可自訂的欄位才能顯示。
+> 只會顯示 App 開發人員指派為可自訂的欄位。
 
 5. 展開圖示 **區** 段。
 
-   1. Upload圖示。 使用一個全彩色圖示 (192x192) PNG 格式。
+   1. Upload圖示。 使用 192x192 (192x192) PNG 格式的全彩色圖示。
 
    1. 選擇圖示外邊框色彩。 使用一個 32x32 (32x32) PNG 格式的透明外邊框。
 
@@ -114,7 +114,7 @@ ms.locfileid: "60749622"
 > - 系統管理提供的自訂資料會儲存在最近的地區。
 > - 您負責確保使用條款或隱私權政策的連結有效。
 > - 如果應用程式發行者不再允許欄位可自訂，應用程式詳細資料頁面上會出現一則訊息，通知系統管理員無法再自訂的欄位。 對該欄位進行的所有變更都會還原為原始值。
-> - 我們建議您先在測試租使用者Teams測試應用程式自訂變更，然後再在生產環境中進行這些變更。
+> - 我們建議您在測試租使用者Teams測試應用程式自訂變更，然後再在生產環境中進行這些變更。
 > - 變更商標可能需要最多 24 小時，使用者才能看到變更。
 
 ## <a name="review-app-details"></a>查看應用程式詳細資料
@@ -159,7 +159,7 @@ ms.locfileid: "60749622"
 
 **自訂的應用程式會自動部署以取代租使用者中的目前自訂應用程式嗎？**
 
-否，租使用者系統管理員必須手動移除任何自訂應用程式，併發布自訂版本的應用程式。 如果您自訂應用程式並將其發佈為自訂應用程式，使用 App 自訂功能自訂的新應用程式無法取代目前的自訂應用程式。  
+否，租使用者系統管理員必須手動移除任何自訂應用程式，併發布自訂版本的應用程式。 如果您自訂應用程式並將其發佈為自訂應用程式，使用應用程式自訂功能自訂的新應用程式不會取代目前的自訂應用程式。  
 
 **應用程式使用方式報告也會顯示自訂的值 ，例如自訂的簡短名稱嗎？**
 

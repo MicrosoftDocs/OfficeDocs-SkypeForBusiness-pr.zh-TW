@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 2015 中的 ErrorDef 表格
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6acf3b86-da61-4923-9812-300db6f66dec
 description: ErrorDef 表會儲存可能發生的每一種錯誤類型的相關資訊。 每個記錄是一種錯誤類型。
-ms.openlocfilehash: c4480df63b081fc264334ffeb7031c54de887875
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c725baeeefa750d8feded45483c74ec849b7842a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743879"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858190"
 ---
 # <a name="errordef-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 ErrorDef 表格
  

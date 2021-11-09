@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 的安全性框架
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
 description: 本節提供組成商務用 Skype Server 安全性框架之基礎元素的概述。 瞭解這些元素的運作方式，對於保證特定商務用 Skype Server 部署的安全決策是必要的。
-ms.openlocfilehash: a560d903b2a08e6444e561cb0fcdd9da978edb0c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9b0947e488987df7e0250bef7ba0c59d1980c5a3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740339"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834039"
 ---
 # <a name="security-framework-for-skype-for-business-server"></a>商務用 Skype Server 的安全性框架
  
