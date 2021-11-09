@@ -1,7 +1,7 @@
 ---
 title: '規劃會議用戶端 (Web 應用程式和會議應用程式) '
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要： IT 專業人員應該在規劃商務用 Skype Server 時，複查商務用 Skype Web 應用程式和 Skype 會議應用程式的支援需求。 本文並非適用于這些應用程式的使用者。
-ms.openlocfilehash: 615fff0be39afd41745087d4dae4ea40385e034b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dbf9f83599e36189c172daa37cdb7444659aad83
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762261"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862120"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>規劃會議用戶端 (Web 應用程式和會議應用程式) 
  

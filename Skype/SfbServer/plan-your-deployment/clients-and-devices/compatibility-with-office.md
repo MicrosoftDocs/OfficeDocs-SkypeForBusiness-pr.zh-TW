@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype 與 Office 應用程式的相容性
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: 瞭解從 Outlook 和其他 Microsoft Office 應用程式存取商務用 Skype 功能的方式。
-ms.openlocfilehash: e4b826cf6ba79b8db31ec5dec57c8d6bfca5280f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 06a019416ad8d32b0234b08c01b09630dd07a2ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773563"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862130"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>商務用 Skype 與 Office 應用程式的相容性
  

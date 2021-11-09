@@ -2,7 +2,7 @@
 title: 要求、安裝或指派憑證
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 description: '[步驟 3：要求、安裝或指派憑證] 會在您按一下 [執行] 時啟動 [憑證精靈]。 透過嚮導所設定的憑證是以拓撲產生器為中央管理存放區所設定及發行的商務用 Skype Server 2015 拓撲定義為基礎。 為了順利對組織中的線上憑證授權單位 (CA) 執行 [憑證精靈]，您必須以電腦本機系統管理員群組的成員身分登入電腦。 在電腦和 CA 所在的網域中，您也必須是經過驗證的網域使用者。 憑證嚮導可讓您指定用來存取組織之 CA 的替代認證。'
-ms.openlocfilehash: 475f5863fe4c8906a8ce416f983b1b5fd5e858fe
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b9a4f5fb5fbb4fe816f9bf141d70ab8d5cfc820f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748319"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850126"
 ---
 # <a name="request-install-or-assign-certificates"></a>要求、安裝或指派憑證
  

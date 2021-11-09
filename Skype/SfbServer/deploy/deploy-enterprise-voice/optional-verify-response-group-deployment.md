@@ -2,7 +2,7 @@
 title: " (選用) 在商務用 Skype 中驗證回應群組部署"
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: 在商務用 Skype Server 企業語音中驗證回應群組部署是否成功。
-ms.openlocfilehash: 8e9820a68e06c3cf9ec583c9aad2e86708583ac9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7dd76dad69995d6e54fa4743792248cd046eb041
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753480"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861840"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a> (選用) 在商務用 Skype 中驗證回應群組部署
  

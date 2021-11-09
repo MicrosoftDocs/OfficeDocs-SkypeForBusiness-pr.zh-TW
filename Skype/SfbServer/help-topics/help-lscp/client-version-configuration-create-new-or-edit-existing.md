@@ -2,7 +2,7 @@
 title: 用戶端版本設定建立新的或編輯現有
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 description: 用戶端版本設定的設定可用來開啟或關閉用戶端版本控制。 全域用戶端版本設定會與商務用 Skype Server 一起安裝，用來啟用或停用整個伺服器部署的用戶端版本控制。 啟用全域設定時，所有既有的用戶端版本原則都會在使用者嘗試登入時生效。 若不想要執行用戶端版本控制，可以停用全域用戶端版本設定。
-ms.openlocfilehash: 5dd3f1297ec618346a35424ca323d236b8527c62
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bbd83279edabaf5f8474e3b07a98bd5fbd676dc1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752312"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847827"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>用戶端版本組態：建立新的或編輯現有
 

@@ -2,7 +2,7 @@
 title: 取得維度成員
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 摘要：瞭解「取得維度成員的運作。 「取得維度成員」作業是「呼叫品質」儀表板之資料 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: aaeadf46a2a281669109f960fe8d2532256e9021
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e8f3cfcfcc11a7c7e7834cf4043f610bb0606931
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774653"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862200"
 ---
 # <a name="get-dimension-members"></a>取得維度成員
  

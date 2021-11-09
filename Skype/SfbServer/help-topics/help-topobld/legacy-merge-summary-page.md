@@ -2,7 +2,7 @@
 title: 舊版合併摘要頁面
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0e298963-cc86-445a-87f4-d611ef2167ee
 description: 從 Microsoft Office 通訊伺服器 2007 R2 遷移至 Lync Server 2013 使用拓撲產生器的功能來合併現有的拓撲。 [摘要] 畫面會指定您在設定 Office 通訊伺服器 2007 R2 合併至 Lync Server 2013 拓撲產生器設定期間所做的所有動作和選取。
-ms.openlocfilehash: 9c379dfa350e5aa6de0885d96cb33bb26233ef0c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8d4e8d7adc2bd2469c60b3e9e4cc9b3f1c37650e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768091"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847576"
 ---
 # <a name="legacy-merge-summary-page"></a>舊版合併摘要頁面
 

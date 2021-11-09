@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 的失敗散佈報告
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: 摘要：瞭解商務用 Skype Server 中的失敗散佈報告。
-ms.openlocfilehash: 3f34c326225fd4b923027b4f476b89cc68b5f224
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e8ebf3ccbb14b46c862d03f328fdbb327af51992
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767691"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847236"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>商務用 Skype Server 的失敗散佈報告
  

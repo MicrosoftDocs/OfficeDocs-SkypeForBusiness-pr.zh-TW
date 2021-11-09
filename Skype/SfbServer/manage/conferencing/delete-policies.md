@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中刪除會議原則
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: 摘要：瞭解如何在商務用 Skype Server 中刪除會議原則。
-ms.openlocfilehash: d77910cb5fe39dcb47564b1b456a314ae03584a5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 47138386812ddd401b7aa9edb54f5a619914f6fe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773693"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847376"
 ---
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除會議原則
  

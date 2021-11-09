@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中的 PSTN 會議摘要報告
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 摘要：瞭解商務用 Skype Server 中的 PSTN 會議摘要報告。
-ms.openlocfilehash: 145207e296fb14462e204bb9c8091612ff89b7da
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 19038b29f46e33026e3ef865226aa4d087b0a0da
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754712"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862290"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 PSTN 會議摘要報告
  

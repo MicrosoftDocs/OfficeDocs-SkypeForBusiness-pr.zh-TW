@@ -2,7 +2,7 @@
 title: 啟用通話許可控制
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: " 將通話許可控制設定 (CAC) 網路之後，您必須啟用 CAC 以強制執行頻寬限制。"
-ms.openlocfilehash: 723578d37d8094e53ed9e4f9505984e43b1f3b3d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 401580bbc893bff2081aa59b7458e831db2f8775
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750202"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847226"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用通話許可控制
 

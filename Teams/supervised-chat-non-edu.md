@@ -1,6 +1,6 @@
 ---
 title: 針對非教育性租使用者使用受監督的聊天
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: angch
@@ -15,12 +15,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在會議中為非教育性租使用者Microsoft Teams聊天。
-ms.openlocfilehash: d56a41e3c168aea1d5454fb38ae2aac0c033fe64
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2aabfee2f8267e786acf293d612066af2db46f25
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745479"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848106"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>非教育性租使用者受監督的聊天
 
@@ -28,10 +28,10 @@ ms.locfileid: "60745479"
 
 這些限制僅適用于監督聊天完全啟用後所建立的新私人聊天。 它們不適用於現有的私人聊天、會議聊天或頻道。
 
-監看聊天是專為教育機構的需求量身打造，但非教育租使用者也可以使用。
+監看聊天是專為教育機構的需求量身打造，但非教育性租使用者也可以使用。
 
 > [!NOTE]
-> 受監督的聊天可保護功能強制執行後建立的新聊天。 它無法保護現有的聊天。
+> 受監督的聊天可保護在強制執行功能後建立的新聊天。 它無法保護現有的聊天。
 
 ## <a name="enable-supervised-chat"></a>啟用監督聊天
 
@@ -46,11 +46,11 @@ ms.locfileid: "60745479"
 
 - 限制許可權：此角色適合只有受監督存取受限制使用者的員工成員。 他們可以開始與任何完整或受限制的使用者聊天，但無法與受限制的使用者開始聊天。 如果擁有完整許可權的使用者開始與受限制的使用者聊天，可以將受限制的使用者加入交談。 發生此存取是因為擁有完整許可權的使用者目前負責監督受限制和受限制的使用者之間的共同合作。
 
-- 限制許可權：此角色非常適合需要受監管的使用者。 他們只能與擁有完整許可權的使用者開始聊天。 他們可以參與擁有完整許可權的使用者邀請他們進行的任何交談。 在聯合聊天案例中，限制使用者只能由擁有來自受限制使用者租使用者之完整許可權的使用者新加入聊天。
+- 限制許可權：此角色適用于需要受監管的使用者。 他們只能與擁有完整許可權的使用者開始聊天。 他們可以參與擁有完整許可權的使用者邀請他們進行的任何交談。 在聯合聊天案例中，限制使用者只能由擁有來自受限制使用者租使用者之完整許可權的使用者新加入聊天。
 
-若要設定使用者的聊天許可權角色，請使用系統管理入口網站中的訊息Teams中找到的聊天許可權角色策略。 您可以使用 PowerShell 使用 ChatPermissionRole 策略定義角色，其值為完整、限制或限制。 此政策位於 [CsTeamsMessagingPolicy 下](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)。
+若要設定使用者的聊天許可權角色，請使用系統管理入口網站中訊息Teams中找到的聊天許可權角色策略。 您可以使用 PowerShell 使用 ChatPermissionRole 策略定義角色，其值為完整、限制或限制。 此政策位於 [CsTeamsMessagingPolicy 下](/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)。
 
-角色無法指派給租使用者中的來賓。 來賓會指派有限角色。
+無法將角色指派給租使用者中的來賓。 來賓會指派有限角色。
 
 ## <a name="allow-supervised-chat"></a>允許有監督的聊天
 

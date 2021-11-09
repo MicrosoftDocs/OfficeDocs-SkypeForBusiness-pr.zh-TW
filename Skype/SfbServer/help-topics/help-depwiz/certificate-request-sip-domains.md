@@ -2,7 +2,7 @@
 title: 憑證要求 (SIP 網域)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
 description: 在「主體別名 (SAN) 上的 SIP 網域設定」頁面上，請選取主要工作階段初始通訊協定 (SIP) 網域與其他任何 SIP 網域的核取方塊 (前提是您的基礎結構與部署符合列示的條件)。
-ms.openlocfilehash: 6fee8a1374ef75797ae208f7f692bc6aab957d3b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c5a39c4f32ae613f72efbc0f6b42138d9a1f0e0d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744889"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850166"
 ---
 # <a name="certificate-request-sip-domains"></a>憑證要求 (SIP 網域)
  

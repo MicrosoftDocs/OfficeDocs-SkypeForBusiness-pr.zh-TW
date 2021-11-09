@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中的位置報告
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 description: 摘要：瞭解商務用 Skype Server 中的位置報告。
-ms.openlocfilehash: 25ae04e604ccfb5f423e3d066585c85fb07c742b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: afbbf54e913146326ee49e6db051869fa2ac7aca
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740509"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862400"
 ---
 # <a name="location-report-in-skype-for-business-server"></a>商務用 Skype Server 中的位置報告
  

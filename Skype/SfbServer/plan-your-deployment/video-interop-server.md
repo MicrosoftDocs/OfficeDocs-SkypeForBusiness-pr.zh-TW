@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中規劃視頻 Interop 伺服器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 摘要：在規劃將商務用 Skype Server 與協力廠商電話會議裝置進行整合時，複查這個主題。
-ms.openlocfilehash: 34afa051513ea2ebef60213fbc8c1a650bfec199
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b928e432b464e6bf1a5ccb8748ebf75ef8cc596b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749912"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862060"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃視頻 Interop 伺服器
  

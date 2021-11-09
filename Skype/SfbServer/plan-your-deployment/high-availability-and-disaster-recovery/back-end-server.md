@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中的後端伺服器高可用性
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: 深入瞭解商務用 Skype Server 中支援的後端伺服器高可用性選項，包括 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例、資料庫鏡像及 SQL 容錯移轉叢集。
-ms.openlocfilehash: 6020f1a474c450da66fcb6fd5249db39fb0c29be
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9e7b06fc1894c67d6d4cee1e2ec04bf910181df5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773503"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847176"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>商務用 Skype Server 中的後端伺服器高可用性
  

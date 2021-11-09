@@ -1,6 +1,6 @@
 ---
 title: 在組織中建立全組織Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: phlouie
 manager: serdars
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b266bf4cfef25761ce492cb93090ff3df380994d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8698625cc219b1d343afd43cc8bf44cd9e71dc52
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745609"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861980"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>在組織中建立全組織Microsoft Teams
 
-全組織團隊提供自動方式，讓中小型企業中的每個人都成為單一且共同合作團隊的一員。
+全組織團隊提供一種自動方式，讓中小型企業中的每個人都成為單一且共同合作團隊的一員。
 
 使用全組織團隊，全域系統管理員可以輕鬆地建立具有下列特性的公用團隊：
 - 拉取組織中每個使用者 
@@ -62,7 +62,7 @@ ms.locfileid: "60745609"
 
 只允許小組擁有者張貼到 [一般] 頻道，以減少頻道「紛擾」。 
 
-1. 請前往小組，找出一般頻道，然後選取 1 1999 年 **12 月 15** 日管理頻道的更多  >  **選項**。 
+1. 請前往小組，找出一般頻道，然後選取 **1 100 1000 1000 1000 1000 2013 -2013**-2013-201331331133113311  >   
 2. 在 [**頻道設定」** 選項卡上，按一下 **[許可權**」，然後選取 [只有 **擁有者可以張貼訊息。**
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>關閉 @team 和 @[小組名稱] 提及項目
@@ -89,7 +89,7 @@ ms.locfileid: "60745609"
 
 ### <a name="remove-accounts-that-might-not-belong"></a>移除可能不屬於的帳戶
 
-即使成員無法離開整個組織團隊，但做為團隊擁有者，您可以移除不屬於的帳戶來管理小組名冊。 **請確認您使用 Teams 移除全組織小組中的使用者**。 如果您使用另一種方式移除使用者，例如 Microsoft 365 系統管理中心 或群組中的 Outlook，使用者可能會重新加入整個組織的團隊。
+即使成員無法離開整個組織團隊，但做為團隊擁有者，您可以移除不屬於的帳戶來管理小組名冊。 **請確認您使用 Teams 移除全組織小組中的使用者**。 如果您使用另一種方式移除使用者，例如 Microsoft 365 系統管理中心 或 Outlook 中的群組，使用者可能會新增回整個組織的小組。
 
 ## <a name="faq"></a>常見問題集
 
@@ -106,12 +106,12 @@ ms.locfileid: "60745609"
 
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-organization-wide-team"></a>是否有將現有團隊轉換成全組織團隊的方法？
 
-全域系統管理員可以在用戶端中編輯現有團隊，將其轉換為全Teams團隊。 移至小組名稱，按一下 [更多選項]  >  [編輯小組]。
+全域系統管理員可以在用戶端中編輯現有團隊，將其轉換為全組織Teams團隊。 移至小組名稱，按一下 [更多選項]  >  [編輯小組]。
 
 ### <a name="can-i-create-an-organization-wide-team-using-a-team-template"></a>我可以使用小組範本建立全組織團隊嗎？
 
-小組範本無法用來建立全組織的小組。 此功能目前正在使用中。 
+小組範本無法用來建立全組織的小組。 這項功能目前正在使用中。 
 
 ## <a name="see-also"></a>另請參閱
 
-觀看影片，瞭解在 Microsoft Teams 中[建立全公司Microsoft Teams。](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)
+觀看影片，瞭解在 Microsoft Teams[中建立全公司Microsoft Teams。](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)
