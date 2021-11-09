@@ -2,7 +2,7 @@
 title: 測試商務用 Skype Server 中的系統管理員拓撲權力
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 如何在商務用 Skype Server 中測試拓撲權力
-ms.openlocfilehash: 2da77957baaa510ef7669fb6a980de2aacf428a4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6f4eed0271d9dd6d099d19287f7caa37148f6026
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759715"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861310"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>測試商務用 Skype Server 中的系統管理員拓撲權力
 
@@ -45,7 +45,7 @@ Test-CsSetupPermission Cmdlet 會驗證安裝商務用 Skype Server 或其元件
 
 如果 Test-CsSetupPermission 判斷已經在 Active Directory 容器上設定必要的許可權，則 Cmdlet 會傳回值 True：
 
-True 
+對 
 
 如果未設定許可權，Test-CsSetupPermission 會傳回值 False。 請注意，此值通常會包含在許多警告訊息中。 例如：
 
@@ -53,7 +53,7 @@ True
 
 警告：物件 "CN = 電腦，DC = litwareinc，DC=com" 的存取控制專案 (Ace) 尚未就緒。 
 
-False 
+錯 
 
 警告： "Test-CsSetupPermission" 處理已完成，但有警告。 在此執行期間，記錄了 "2" 個警告。 
 

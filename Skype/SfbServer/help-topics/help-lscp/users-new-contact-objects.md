@@ -2,7 +2,7 @@
 title: 使用者新的連絡人物件
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: c0a5f4d996423f2582fdcaf92066065580a5d9cd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 43427d620b8988a414bf09ec611538173700c63d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748009"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860450"
 ---
 # <a name="users-new-contact-objects"></a>使用者：新連絡人物件
 

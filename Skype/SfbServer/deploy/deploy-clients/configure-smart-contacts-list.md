@@ -2,7 +2,7 @@
 title: 設定商務用 Skype 用戶端中的智慧連絡人清單
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: 摘要：瞭解如何在商務用 Skype 用戶端中開啟智慧連絡人清單功能。
-ms.openlocfilehash: f70ffcd6893c361262c0f0f8e712d7dd0db247e7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 422972f017a1604312f1e6b75bbe18bb4c5cbc87
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775853"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860900"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>設定商務用 Skype 用戶端中的智慧連絡人清單
 

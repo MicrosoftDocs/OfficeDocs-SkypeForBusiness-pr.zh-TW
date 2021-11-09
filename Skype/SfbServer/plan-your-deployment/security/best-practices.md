@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 核心基礎結構的最佳作法
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: 您可能已經採取一些步驟，包括透過確保硬體備份、避免電源中斷、例行性地安裝安全性更新與防毒措施，以及監控伺服器活動等作法，為您的系統設計容錯機制。 這些做法不僅受益于您的商務用 Skype Server 基礎結構，還受益于整個網路。 如果您尚未執行這些做法，建議您在部署商務用 Skype Server 之前執行此操作。
-ms.openlocfilehash: c3f07914f69881f4a9ce0c1f7d4451809b06f8e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 352541cf2dfa91eef24f09c4aebd2788c589a10f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737629"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860940"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>商務用 Skype Server 核心基礎結構的最佳作法
  
