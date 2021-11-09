@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: 本附錄包含更新 edge 憑證的詳細步驟，以供 Teams 和商務用 Skype 雲端合併的一部分。
-ms.openlocfilehash: 1c4708f593b1a9bd8fbc2a427e2f0c5df9feab5c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb8d2eabf17d83546737d3d94fb4add5dc0a892e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610200"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857110"
 ---
 # <a name="update-the-edge-certificate"></a>更新 Microsoft Edge 憑證
 
@@ -39,7 +39,7 @@ ms.locfileid: "58610200"
 
 **步驟：**
 
-1.  針對雲端環境中的所有 SIP 網域，取得現有的現有專案和 SAN 中的其他專案的新外部 Edge 憑證 (包含) "SIP" 的 onmicrosoft.com 網域 <DomainName> 。
+1.  針對雲端環境中的所有 SIP 網域，在 SAN 中取得所有現有專案和其他專案之 Edge 的新外部 Edge 憑證 (在表單中) 不包括 onmicrosoft.com 網域 `sip.<DomainName>` 。
 2.  在每一部 edge server 上以本機方式安裝憑證，並將它指派給每個 edge service 上的 Skype edge service。  如需詳細步驟，請參閱[部署 Edge Service 中](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md)的「外部 Edge interface 憑證」區段中的商務用 Skype Server 2015。
 3.  在每一部 Edge server 上重新開機 Edge service。 您可以使用下列 PowerShell 命令，在單一方塊中執行這項操作：
 

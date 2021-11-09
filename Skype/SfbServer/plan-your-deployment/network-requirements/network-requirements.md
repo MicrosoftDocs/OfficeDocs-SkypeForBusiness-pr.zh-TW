@@ -2,7 +2,7 @@
 title: 規劃商務用 Skype 的網路需求
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 摘要：在實施商務用 Skype Server 之前，請先複查下列網路元件考慮。
-ms.openlocfilehash: b2b8496b307111261c77f93d45d3332b42ead90d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3e5912cb00bb704afdfc5d568b66711a1ddf472f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777923"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864700"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>規劃商務用 Skype 的網路需求
 

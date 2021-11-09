@@ -1,6 +1,6 @@
 ---
 title: 規劃 VDI 環境中的商務用 Skype
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: krishra
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: 本主題討論連接至遠端虛擬桌面時使用商務用 Skype 的規劃考慮。
-ms.openlocfilehash: 441f31dc2de7d07c01070bd4ad3c88070564609e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 63dbdb11abf6188cb11d5f96b54ddeb541f1b9fe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745889"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864720"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>規劃 VDI 環境中的商務用 Skype
  

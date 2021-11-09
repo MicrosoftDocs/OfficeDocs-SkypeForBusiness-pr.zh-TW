@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中的行動效能計數器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 摘要：瞭解您可以用來監視執行整合通訊 Web API (UCWA) 和商務用 Skype Server Mcx 行動性服務之伺服器的效能計數器。
-ms.openlocfilehash: 983caf353b5fb18a438a9ad2128ec24feec97742
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e89ffdb590a7028bd1fa9a9594b6ba0bcce9be11
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754732"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827576"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>商務用 Skype Server 中的行動效能計數器
  

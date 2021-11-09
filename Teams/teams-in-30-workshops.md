@@ -20,17 +20,17 @@ ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45856ed0e452c6ed1c04e0d724551a17316112a95b1f3cefcda5b481b8868e6b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f9b4175769ea9d6cc57167c086b28ee5ef4e742d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339391"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850526"
 ---
 # <a name="teams-in-30"></a>Teams 30 中
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft 很高興邀請您參加<strong>30</strong>中的 Teams，這是一系列即時互動式研討會，專為協助中型組織 (500-5000 名員工) 在 30 天內使用 Microsoft Teams 進行啟動和運作。 與我們一起瞭解經過時間測試的指引和最佳做法，並取得Teams解答。 研討會參與者也會與專家一起收到開啟麥克風時數的專屬Teams邀請。
+        <p>Microsoft 很高興能邀請您參加<strong>30</strong>Teams，這是一系列即時互動式研討會，專為協助中型組織 (500-5000 名員工) 在 Microsoft Teams 的 30 天內順利上手。 與我們一起瞭解經過時間測試的指引和最佳做法，並取得Teams解答。 研討會參與者也會與專家一起收到開啟麥克風時數的專屬Teams邀請。
            <p><font color="#6264A7">準備好要跳到了嗎？</font> 我們鼓勵專案小組的所有成員從<i>30</i>個會話入門開始Teams開始。 按一下下方的會話標題以註冊。
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
@@ -54,7 +54,7 @@ ms.locfileid: "54339391"
         </a>
     </li>
    <li>
-        <a href="https://aka.ms/ReadyendusersT30"target="_blank"">
+        <a href="https://aka.ms/ReadyendusersT30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -73,7 +73,7 @@ ms.locfileid: "54339391"
         </a>
     </li>
         <li> 
-        <a href="https://aka.ms/Preparepart1T30"target="_blank"">
+        <a href="https://aka.ms/Preparepart1T30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -91,7 +91,7 @@ ms.locfileid: "54339391"
         </div>
         </a>
     </li> <li>
-        <a href="https://aka.ms/Preparepart2T30"target="_blank"">
+        <a href="https://aka.ms/Preparepart2T30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -102,7 +102,7 @@ ms.locfileid: "54339391"
                     </div>
                     <div class="cardText">
                         <h3>準備您的環境 - 第二部分</h3>
-                    <p>現在，您已經打好基礎，請瞭解針對這些使用者實現合規性、保留、管理和音訊會議的最佳作法Teams。</p><p><i>對象：IT 系統管理員</i></p>
+                    <p>現在，您已經打好基礎，請瞭解針對這些使用者實行合規性、保留、管理和音訊會議的最佳作法Teams。</p><p><i>對象：IT 系統管理員</i></p>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@ ms.locfileid: "54339391"
         </a>
     </li> 
  <li>
-        <a href="https://aka.ms/OptimizeexpandT30"target="_blank"">
+        <a href="https://aka.ms/OptimizeexpandT30"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -130,7 +130,7 @@ ms.locfileid: "54339391"
         </a>
     </li>
    <li>
-        <a href="https://aka.ms/TeamsChalkTalks"target="_blank"">
+        <a href="https://aka.ms/TeamsChalkTalks"target="_blank">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -141,7 +141,7 @@ ms.locfileid: "54339391"
                     </div>
                     <div class="cardText">
                     <h3>Teams粉筆交談</h3>
-                    <p>在主題專家的協助下，這些線上互動式研討會提供一個獨一無二的機會，以學習最佳做法和實用指南，瞭解這些主題中一些最熱門且吸引人的案例Teams。 粉筆交談假設您已完成基本Teams推出。</p>
+                    <p>在主題專家的協助下，這些線上互動式研討會提供一個獨一無二的機會，以學習最佳做法和實用指南，以瞭解 Teams 中一些最熱門的案例。 粉筆交談假設您已完成基本Teams推出。</p>
                     <p><strong>先決條件</strong>：Teams參加 30 個研討會，或已針對Teams啟用。</p>
                     <p><i>對象：IT 系統管理員</i></p>
                     </div>

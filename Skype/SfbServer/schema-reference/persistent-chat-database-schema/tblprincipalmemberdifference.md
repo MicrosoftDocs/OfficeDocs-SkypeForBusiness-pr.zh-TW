@@ -2,7 +2,7 @@
 title: tblPrincipalMemberDifference
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0b94f555-6888-4fe0-a048-4660a2513276
 description: tblPrincipalMemberDifference 包含的群組成員資格變更 (新增及移除的成員，) 後來的 Active Directory 網域服務同步步驟尚未處理。
-ms.openlocfilehash: 884f1450b74300ad2915c27b524dc0419c97062d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6bbf1762d12f242b17598752de4ee62f90238eae
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743159"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864570"
 ---
 # <a name="tblprincipalmemberdifference"></a>tblPrincipalMemberDifference
  

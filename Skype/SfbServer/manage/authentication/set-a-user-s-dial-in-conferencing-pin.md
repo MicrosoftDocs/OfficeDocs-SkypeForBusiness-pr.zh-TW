@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中設定使用者的電話撥入式會議 PIN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 摘要：為商務用 Skype Server 設定使用者的電話撥入式會議 PIN。
-ms.openlocfilehash: e5735c58f6e46d16f55146521ad876cd8990151f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 45ee99a0e9ab1b10c429fae470e528ffdd2c3326
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772099"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856680"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>在商務用 Skype Server 中設定使用者的電話撥入式會議 PIN
  

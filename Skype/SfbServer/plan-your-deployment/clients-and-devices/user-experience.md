@@ -1,7 +1,7 @@
 ---
 title: 規劃使用者的商務用 Skype 2015 用戶端體驗
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 摘要：瞭解新的商務用 Skype，以及您可以採取的步驟，以準備您的環境和使用者進行更新，不論是使用商務用 Skype 線上，商務用 Skype Server 2019，商務用 Skype Server 2015，lync server 2013，還是 lync server 2010。
-ms.openlocfilehash: a35a447d9810952e9aac149f2297eda87575bdf3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9979b7d9fe449de926358097b9fd2fdd36e5afb4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740454"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864740"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>規劃使用者的商務用 Skype 2015 用戶端體驗
  

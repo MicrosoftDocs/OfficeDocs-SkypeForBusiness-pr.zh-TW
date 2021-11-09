@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 的 TLS 及 MTLS
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b32a5b85-fc82-42dc-a9b2-96400f8cd2b8
 description: 傳輸層安全性 (TLS) 與相互傳輸層安全性 (MTLS) 通訊協定提供網際網路上的加密通訊和端點驗證。 商務用 Skype Server 會使用這兩種通訊協定建立信任伺服器的網路，並確保所有透過該網路的通訊都已加密。 伺服器之間的所有 SIP 通訊都透過 MTLS 進行。 從用戶端到伺服器的 SIP 通訊會透過 TLS 進行。
-ms.openlocfilehash: 05dbde5907831867e6dfba7cf6f26b83e3e1c60b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7156df69c8c01e97a1feabfb92cd0c2330083899
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744049"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864620"
 ---
 # <a name="tls-and-mtls-for-skype-for-business-server"></a>商務用 Skype Server 的 TLS 及 MTLS
  

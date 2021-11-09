@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中的後端伺服器上部署 Always On 可用性群組
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: 部署 (安裝) 商務用 Skype Server 部署中的 Always On 可用性群組。
-ms.openlocfilehash: 69a7627850da06a2a120c0c37fbf83f87c17c277
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c30a17ee0852cab3e8e61ee7751a6e8f5f5a6bd1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755642"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829467"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>在商務用 Skype Server 中的後端伺服器上部署 Always On 可用性群組
  

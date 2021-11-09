@@ -2,7 +2,7 @@
 title: 新增分支網站詳細資料
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 description: 若要指定網站的網站詳細資料，請執行下列操作：
-ms.openlocfilehash: afe0ccbddf73383d348ba5415ccb3d6828899eb8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f9c5c6e77082523672d788faa7d8c248a4322132
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762921"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842926"
 ---
 # <a name="add-branch-site-details"></a>新增分支網站詳細資料
 

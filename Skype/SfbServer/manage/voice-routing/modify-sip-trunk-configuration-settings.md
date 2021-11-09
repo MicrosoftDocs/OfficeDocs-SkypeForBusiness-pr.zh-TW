@@ -2,7 +2,7 @@
 title: 商務用 SkypeServerModify SIP 主幹設定設定
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'SIP 主幹設定設定定義了轉送伺服器和公用交換電話網路閘道、IP 公用分支 exchange (PBX) 或會話邊界控制器 (SBC) 的服務提供者之間的關聯性和功能。 '
-ms.openlocfilehash: ebec5a350dc46a4deb85546e885429ff72737cb2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0f856c83d6f521308343b626addc0ab2c5e16792
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751722"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829927"
 ---
 # <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>商務用 SkypeServerModify SIP 主幹設定設定
 

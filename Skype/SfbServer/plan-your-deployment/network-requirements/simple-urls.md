@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中簡易 URLs 的 DNS 需求
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 摘要：在為商務用 Skype Server 執行 DNS 記錄之前，請參閱本主題中的簡易 URL 考慮。
-ms.openlocfilehash: d638ff2d3d1b89deaad90c054698692e70ffaae7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1dd3b4b06b704e7d840dd6f430a9ba9782913a3b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777913"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864670"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>商務用 Skype Server 中簡易 URLs 的 DNS 需求
 
@@ -123,7 +123,7 @@ Meet-ext.geolb.contoso.com
 
 針對 Dial-In 簡單 URL 也可以設定相同的組態。 若要這麼做，請建立如先前範例中的其他記錄，並以  `dialin` `meet` DNS 記錄取代。 針對 Admin 簡單 URL，請使用本節中先前列出的三個選項。
 
-此組態一旦設定，就必須使用監控應用程式，設定 HTTP 監控以監看失敗。 若要進行外部存取，請確定 HTTPS 取得 lyncdiscover。<sipdomain> 兩個集區的外部 web FQDN 或負載平衡器 IP 位址要求都成功。 例如，下列要求不得包含任何 **ACCEPT** 標頭且必須傳回 **200 OK**。
+此組態一旦設定，就必須使用監控應用程式，設定 HTTP 監控以監看失敗。 若要進行外部存取，請確定 HTTPS 取得 lyncdiscover。\<sipdomain> 兩個集區的外部 web FQDN 或負載平衡器 IP 位址要求都成功。 例如，下列要求不得包含任何 **ACCEPT** 標頭且必須傳回 **200 OK**。
 
 ```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root

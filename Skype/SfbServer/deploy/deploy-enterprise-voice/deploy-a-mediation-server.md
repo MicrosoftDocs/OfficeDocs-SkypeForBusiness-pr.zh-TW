@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中的拓撲產生器中部署轉送伺服器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 摘要：瞭解如何在商務用 Skype Server 中的拓撲產生器中定義及部署轉送伺服器。
-ms.openlocfilehash: 9eb3f00d8530739b3a4e9986da14038ff7d6ed26
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7dd3704b47b384d3fab62a7cc051adcf5b380c0e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764891"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857030"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>在商務用 Skype Server 中的拓撲產生器中部署轉送伺服器
  

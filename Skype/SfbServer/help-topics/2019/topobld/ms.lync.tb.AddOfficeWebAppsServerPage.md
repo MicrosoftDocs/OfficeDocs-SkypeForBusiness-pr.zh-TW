@@ -2,7 +2,7 @@
 title: 新增 Office Web Apps Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在您的部署中，[定義新的 Office Web apps server] 嚮導會定義新的 Office web apps server。 您填寫下列資訊：
-ms.openlocfilehash: d8f86890face6ae6a948a5006b101bc8585f16a4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a6ad6eaafeda594257647ca1dc4a09307d2c1fc2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766911"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843186"
 ---
 # <a name="add-office-web-apps-server"></a>新增 Office Web Apps Server
 

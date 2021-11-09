@@ -2,7 +2,7 @@
 title: 部署商務用 Skype Server 中的 Skype 連線能力
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 摘要：瞭解如何使用 Skype 消費者來連接商務用 Skype Server。 也稱為 Skype 連線性。
-ms.openlocfilehash: 003e9a69dc4213b662795b0570afb3ca152d7e00
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c8bdbf96fcbf0831433ad2274d8ab89911df1de5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751302"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835821"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>部署商務用 Skype Server 中的 Skype 連線能力
 

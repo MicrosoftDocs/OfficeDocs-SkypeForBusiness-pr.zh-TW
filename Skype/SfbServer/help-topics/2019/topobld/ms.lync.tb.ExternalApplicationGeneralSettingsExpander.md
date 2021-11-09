@@ -2,7 +2,7 @@
 title: 外部應用程式一般設定展開工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯已定義之信任的應用程式伺服器的屬性，請遵循下列指示。
-ms.openlocfilehash: 3820e426d90a0c35c54798080308319a5184cf0d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1941b32b24138ba87877f0bb262928e1d0b972dc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775373"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843176"
 ---
 # <a name="external-application-general-settings-expander"></a>外部應用程式一般設定展開工具
  

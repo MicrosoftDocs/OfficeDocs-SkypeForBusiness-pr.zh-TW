@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中的架構類別和描述
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: 本節說明商務用 Skype Server 所使用的所有架構類別。
-ms.openlocfilehash: d7f05cd76074740e49f3972c97875e8993dd7b06
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fbd3e3293cef72ba6592b86932639bd499464858
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743259"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829767"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>商務用 Skype Server 中的架構類別和描述
  

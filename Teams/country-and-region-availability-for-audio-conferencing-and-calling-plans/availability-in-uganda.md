@@ -1,6 +1,6 @@
 ---
 title: 在烏干達的可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于烏干達Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 746d4d368964e19c74a94b8ff623b4bbc639eff8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
+ms.openlocfilehash: 7143b72ec26782fbc1be9b14e55916f152ed7fc2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760491"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827336"
 ---
 # <a name="availability-in-uganda"></a>在烏干達的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于烏干達Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
+以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -69,7 +69,7 @@ ms.locfileid: "60760491"
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |哪些首都/首要城市能提供您付費電話號碼？   | 非地理位置。 電話號碼不會連結至特定城市或位置。 <br/> |
-|有提供付費電話號碼嗎？  <br/> |根據要求 ([非) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|有提供付費電話號碼嗎？  <br/> |根據要求 ([非地理) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |是否提供免付費號碼？  <br/> |否  <br/> |
    
  如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)

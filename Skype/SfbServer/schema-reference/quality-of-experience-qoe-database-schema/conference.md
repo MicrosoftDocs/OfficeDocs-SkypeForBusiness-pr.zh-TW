@@ -2,7 +2,7 @@
 title: 會議表格
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2a2c327c-4719-42dc-a3bb-6dbc0864d9af
 description: 會議表格是一種支援資料表，其中的每一項記錄都代表一個會議或對等工作階段。
-ms.openlocfilehash: b5129fec73658d86fdb8d5cd7dd5c387cdadf4f9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8d47cd6c67d6d8d17d187353b8b15d79b38acab3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763211"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827366"
 ---
 # <a name="conference-table"></a>會議表格
  

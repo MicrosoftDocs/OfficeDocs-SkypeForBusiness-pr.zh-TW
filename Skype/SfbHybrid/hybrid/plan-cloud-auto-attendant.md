@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: 使用含商務用 Skype Server 2019 的雲端自動語音應答的概覽
-ms.openlocfilehash: ee79c52b8aaf4518511a51cea95b16d32008694c
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 832ba7fc5e93a76cc3e05d09baecd880241f6c46
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011507"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857080"
 ---
 # <a name="plan-cloud-auto-attendants"></a>規劃雲端自動語音應答
 
@@ -37,7 +37,7 @@ ms.locfileid: "60011507"
 ![自動語音應答的圖表。](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Via 商務用 Skype Server 2019
-2. 透過 [會話邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) 和 [直接路由](/microsoftteams/direct-routing-plan-media-bypass)。
+2. 透過 [會話邊界控制器](/microsoftteams/direct-routing-border-controllers) 和 [直接路由](/microsoftteams/direct-routing-plan-media-bypass)。
 3. 透過在 Microsoft 365 或 Office 365 中的線上號碼。
 
 另請參閱：

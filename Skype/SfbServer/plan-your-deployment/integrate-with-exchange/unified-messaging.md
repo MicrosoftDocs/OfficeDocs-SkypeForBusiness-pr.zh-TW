@@ -2,7 +2,7 @@
 title: 規劃商務用 Skype 中的 Exchange 整合通訊整合
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 摘要：在規劃將商務用 Skype Server 與 Exchange 2013 或2016整合時，請參閱本主題。
-ms.openlocfilehash: ad9b51a282bdd2e1f922368fad29037515ef7bb5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7fcd5ea6f573fe40aacabebb1d8b974b2bf1e264
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777983"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850686"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>規劃商務用 Skype 中的 Exchange 整合通訊整合
 

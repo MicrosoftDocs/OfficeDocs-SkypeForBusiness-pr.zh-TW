@@ -2,7 +2,7 @@
 title: " (選用) 在商務用 Skype 中定義回應群組上班時間"
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: 在商務用 Skype Server 企業語音中建立或修改回應群組的上班時間。
-ms.openlocfilehash: 0afdd3c5f21b947d2c20ba79e9ae8296c582060e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0a7e22d02a4540973f2f3e3f2ea39fabe848f17c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753574"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850406"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a> (選用) 在商務用 Skype 中定義回應群組上班時間 
  

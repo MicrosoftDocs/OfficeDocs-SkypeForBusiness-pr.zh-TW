@@ -2,7 +2,7 @@
 title: 準備目前網域
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
 description: 若要準備網域以裝載執行商務用 Skype Server 2015 或商務用 Skype Server 使用者的伺服器，您必須完成「步驟5：準備目前的網域」（如使用「安裝程式執行網域準備」主題中所述）。 若要完成此步驟，您必須以您準備的網域中的 domain Admins 群組成員身分登入，或以網域所屬樹系的 Enterprise Admins 群組成員身分登入。 若要準備網域：
-ms.openlocfilehash: c5d4a7509e8b0193b04591bfc010c7f25aa99ac2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 99c74ad910228eb73666fd6640b288c5ba84523a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744849"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835581"
 ---
 # <a name="prepare-current-domain"></a>準備目前網域
 

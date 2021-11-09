@@ -2,7 +2,7 @@
 title: 高可用性搖攝工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: 商務用 Skype Server 2015 中大多數伺服器角色的主要高可用性架構，都是透過 pooling server 冗余度為基礎。 如果執行特定伺服器角色的伺服器失敗，則執行相同角色之集區中的其他伺服器將會從該伺服器進行負載。
-ms.openlocfilehash: e8fbc679d4711ae41306a60d6a9c40114fab5f29
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bd29171be4d30f688f29f9ceb6d793894b0d7938
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756914"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850906"
 ---
 # <a name="high-availability-planning-tool"></a>高可用性規劃工具
  

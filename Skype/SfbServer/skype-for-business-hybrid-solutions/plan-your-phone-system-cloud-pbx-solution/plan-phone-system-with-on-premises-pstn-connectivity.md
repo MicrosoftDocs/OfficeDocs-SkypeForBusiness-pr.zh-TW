@@ -20,12 +20,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 瞭解電話系統 (雲端 PBX) 搭配內部部署 PSTN 連線的規劃考慮。
-ms.openlocfilehash: 074afcd05b62501784d5c37d10d698f6c29bdd78
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 21ad7efc67b503f790dd307b23aee5f8fd9ce11c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014307"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864530"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃含有內部部署 PSTN 連線功能的電話系統
 
@@ -106,10 +106,10 @@ ms.locfileid: "60014307"
 
     如果您使用的是 lync server 2013，請參閱在 lync server [2013 中規劃企業語音](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice)和[在 lync server 2013 中部署企業語音](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-enterprise-voice)。
 
-- **Active Directory 同步** 處理您必須使用 Azure AD 連線設定 Active Directory 同步處理。 如需詳細資訊，請參閱[AZURE AD 連線](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-custom)。
+- **Active Directory 同步** 處理您必須使用 Azure AD 連線設定 Active Directory 同步處理。 如需詳細資訊，請參閱[Azure AD 連線](/azure/active-directory/hybrid/how-to-connect-install-custom)。
 
     > [!NOTE]
-    > 您使用的 AAD 連線版本必須是版本1.0.9125.0 或更新版本。 如果您使用的是舊版本的 AAD 連線工具或 DirSync，請升級至支援的版本。 您可以升級目前的安裝，並維護您在環境中所定義的任何自訂規則。 
+    > 您使用的 AAD 連線版本必須是版本1.0.9125.0 或更新版本。 如果您使用舊版 AAD 連線工具或 DirSync，請升級至支援的版本。 您可以升級目前的安裝，並維護您在環境中所定義的任何自訂規則。 
 
 - **設定混合部署** 不論您的所有商務用 Skype 使用者目前是線上或內部部署的伺服器，或是目前是否混合使用，您必須完成設定商務用 Skype Server 或 Lync Server 2013 混合式部署的步驟，如 [部署商務用 Skype Server 和 Office 365 間的混合式連線所述。](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json). 如需混合式部署的更多背景資訊，請參閱[規劃商務用 Skype Server 和 Office 365 之間的混合](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)式連線。 
 

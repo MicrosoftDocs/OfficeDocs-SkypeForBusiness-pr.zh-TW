@@ -2,7 +2,7 @@
 title: 商務用 Skype Server：測試 SIP 主幹設定設定
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: 摘要：瞭解如何使用商務用 Skype Server 管理命令介面來測試 SIP 主幹設定設定。
-ms.openlocfilehash: e6acdc50aaabffabf5b54dd0566143ea0d27d155
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 59f246abfc4ef27ad75ab45cccaedc6f5236c98e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764861"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829507"
 ---
 # <a name="skype-for-business-server-test-sip-trunk-configuration-settings"></a>商務用 Skype Server：測試 SIP 主幹設定設定
  

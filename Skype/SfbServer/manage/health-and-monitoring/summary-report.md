@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中的通話診斷摘要報告
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 摘要：瞭解商務用 Skype Server 中所用的通話診斷摘要報告。
-ms.openlocfilehash: 88537a3f52679883fb5cf051a28d2c0c42294d16
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ef50ecde07fdd7354bd97c40bddfe4fb5e762d08
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757295"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827566"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>商務用 Skype Server 中的通話診斷摘要報告
  

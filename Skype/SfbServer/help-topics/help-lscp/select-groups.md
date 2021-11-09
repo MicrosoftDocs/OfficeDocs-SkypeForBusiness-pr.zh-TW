@@ -2,7 +2,7 @@
 title: 選取群組
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: 回應群組佇列會將呼叫保留給回應群組，直到代理接聽來電為止。 佇列已指派代理人群組。 當您建立或編輯佇列時，您可以使用 [選取群組] 對話方塊，選取要指派給佇列的一或多個代理人群組。
-ms.openlocfilehash: d3c81cca2c396b158521866c27d06300fc2f4001
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 192963d7d8f2d72c330793a4cf63627d8f0b8dc6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742259"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842996"
 ---
 # <a name="select-groups"></a>選取群組
 

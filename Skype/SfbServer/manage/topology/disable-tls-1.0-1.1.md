@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 2015 中停用 TLS 1.0/1。1
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 在您的環境中準備及執行停用 TLS 1.0 和1.1。
-ms.openlocfilehash: 86df7a322642682748c0ec31b3f07b6572b5b7d2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d80cdbd42d3e9c11f066ecfefa774b3a2d911ede
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757146"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827556"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中停用 TLS 1.0/1。1
 

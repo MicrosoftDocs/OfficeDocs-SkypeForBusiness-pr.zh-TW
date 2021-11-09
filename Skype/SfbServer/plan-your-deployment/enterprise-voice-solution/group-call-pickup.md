@@ -2,7 +2,7 @@
 title: 在商務用 Skype 中規劃群組呼叫裝貨
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: 在商務用 Skype Server 企業語音中規劃群組通話挑選，讓使用者可以接聽原本供其他人接聽的來電。
-ms.openlocfilehash: 27d0ae55891981c715127cf6d61aab7135448cc3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 94868d78790d9cfaafaf35915c9c3cd1c7a9793f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765251"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850696"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>在商務用 Skype 中規劃群組呼叫裝貨
  

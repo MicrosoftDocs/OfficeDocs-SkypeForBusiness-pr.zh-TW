@@ -2,7 +2,7 @@
 title: 新增 Edge Server IP 選項
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 商務用 Skype Server 可讓您為 edge Server 和 edge 集區的每個介面設定 IPv4 和 IPv6 位址。 若要這樣做，請執行下列動作：
-ms.openlocfilehash: ec350921c0a3778b6474d555f0ca0950a2b1518d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cd742999521c4700b969ac001153135b403962df
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772893"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829316"
 ---
 # <a name="add-edge-server-ip-options"></a>新增 Edge Server IP 選項
  

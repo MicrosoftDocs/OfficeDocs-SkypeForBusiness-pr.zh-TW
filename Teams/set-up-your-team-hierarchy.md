@@ -1,6 +1,6 @@
 ---
 title: 設定您的團隊目標階層
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -15,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f3cad8a28c2ced4953a21071a0e1af5fe3e5b313
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f65ffa8fa6dc661451669ded8f407bb519468112
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761721"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850546"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>設定您的團隊目標階層
 
 設定團隊目標階層會允許貴組織將內容發佈至一組大型團隊。 團隊目標階層會定義階層中所有團隊彼此關聯、哪些使用者可以發佈工作，以及哪些團隊使用者有權發佈工作。 除非為貴組織設定小組目標階層，否則所有使用者的發佈功能都停用。 若要設定團隊目標階層，您必須建立定義階層的檔案，然後將它上傳到 Teams以將其套用至您的組織。 架構上傳之後，Teams內的應用程式就可以使用它。
 
 > [!IMPORTANT]
-> 在初次發行中，只有工作應用程式支援階層式團隊。  將小組目標階層適用于貴組織後 [，就會在](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 工作應用程式中啟用任務發佈。 您不會在團隊的Microsoft Teams。
+> 在初次發行中，只有工作應用程式支援階層式團隊。  將小組目標階層適用于貴組織後 [，就會在](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 工作應用程式中啟用任務發佈。 您不會在 Microsoft Teams 的其他區域看到團隊Microsoft Teams。
 
 以下範例說明階層在 Teams 中如何Teams。 建立工作清單之後，發佈小組成員就可以選取要傳送的收件者團隊 (發佈) 清單。 選取團隊時，發佈小組可以按照階層、屬性或兩者的組合來篩選。<br>
 
@@ -35,7 +35,7 @@ ms.locfileid: "60761721"
 
 ## <a name="terminology"></a>術語
 
-當您流覽階層時，下列字詞非常重要。 Teams會 **稱為節點。**
+當您流覽階層時，下列字詞非常重要。 Teams **稱為節點。**
 
 * **根節點** 是階層中最上方的節點。 在範例中，Retail Communications 是根節點。
 * **父節點****和子節點** 是代表兩個連接節點之間關聯性的條款。 在範例中，地區 01 是區域 1 的子節點。
@@ -76,7 +76,7 @@ ms.locfileid: "60761721"
 > [!NOTE]
 > 本文的其餘部分會討論在將工作發佈給收件者團隊時設定團隊階層。 請參閱[在 Teams](./manage-tasks-app.md)中管理貴組織的工作應用程式，以概觀瞭解工作應用程式，其中任務發佈在啟用時會出現。
 
-定義階層的架構是根據 CSV 檔案中的逗號分隔 () 值。 檔案必須採用 UTF-8 格式。 CSV 檔案中的每個列對應至團隊階層中的一個節點。 每一列都包含為階層內節點命名、選擇性連結至團隊的資訊，以及可用來篩選支援該節點之應用程式中團隊的屬性。
+定義階層的架構是以 CSV 檔案中的逗號分隔 () 為基礎。 檔案必須採用 UTF-8 格式。 CSV 檔案中的每個列對應至團隊階層中的一個節點。 每一列都包含為階層內節點命名的資訊，選擇性地將節點連結至團隊，以及可用於篩選支援該節點之應用程式中團隊的屬性。
 
 您也可以定義資料桶 **，這是** 發佈小組可用於組織送出給收件者團隊的內容的類別，讓他們更容易查看、排序及專注于相關內容。
 
@@ -99,8 +99,8 @@ CSV 檔案必須包含下列三欄，從第一欄開始的順序如下。 節點
 
 |新增屬性的方法|描述 |範例  |
 |---|---------|---------|
-|如果屬性的值是互斥的，您指定的欄名稱會變成屬性的名稱。|每一列可以包含一個屬性值，而每個屬性欄最多可以有 50 個唯一值。 每個值最多隻能有 100 個字元。 當您使用團隊目標階層選取收件者團隊時，在屬性欄中指定的一組屬性值會顯示為該屬性的篩選值。|您希望使用者能夠根據版面配置篩選儲存區。 這個屬性的值是互斥的，因為商店只能有一個版面配置。 <br><br>若要新增屬性以根據版面配置篩選商店，請新增名為 Store 版面配置的資料行。 在此範例中，Store 版面配置屬性的值為壓縮、標準及大型。
-|如果您需要為屬性指定多個值，且這些值並非互斥，請使用 **屬性名稱：UniqueValue** 格式作為欄名稱。 <br><br>**重要** 請確定使用僅英文冒號 (：) unicode 不支援做為屬性欄分隔符號。 |冒號前的文字字串 (：) 成為屬性的名稱。 在冒號 (：) 前包含相同文字字串的所有欄，會分組到篩選功能表中的節。 冒號後的每個字串都會變成該節的值。<br><br>每個列的值為 0 (0 或 1) 為 1。 值為 0 表示屬性不適用於節點，而值為 1 表示屬性會適用于該節點。|您希望使用者能夠根據部門篩選儲存區。 商店可以有多個部門，因此此屬性的值並非互斥。<br><br>在此範例中，我們新增部門：服裝、部門：電子、部門：食物、部門：家用和園藝、部門：運動用品為屬性欄。 部門會變成屬性名稱，使用者可以根據服裝、電子、食物、住家園藝和運動用品部門進行篩選。|
+|如果屬性的值是互斥的，您指定的欄名稱會變成屬性的名稱。|每一列可以包含該屬性的一個值，而每個屬性欄最多可以有 50 個唯一值。 每個值最多隻能有 100 個字元。 當您使用團隊目標階層選取收件者團隊時，在屬性欄中指定的一組屬性值會顯示為該屬性的篩選值。|您希望使用者能夠根據版面配置篩選儲存空間。 這個屬性的值是互斥的，因為商店只能有一個版面配置。 <br><br>若要新增屬性以根據版面配置篩選商店，請新增名為 Store 版面配置的資料行。 在此範例中，Store 版面配置屬性的值為壓縮、標準及大型。
+|如果您需要為屬性指定多個值，而且這些值並非互斥，請使用 **屬性名稱：UniqueValue** 格式作為欄名稱。 <br><br>**重要** 請確定使用僅英文冒號 (：) unicode 不支援做為屬性欄分隔符號。 |冒號前的文字字串 (：) 成為屬性的名稱。 在冒號 (：) 前包含相同文字字串的所有欄，會分組到篩選功能表中的節。 冒號後的每個字串都會變成該節的值。<br><br>每一列的值為 0 (0 或 1) 屬性為 1。 值為 0 表示屬性不適用於節點，而值為 1 表示屬性會適用于該節點。|您希望使用者能夠根據部門篩選儲存區。 商店可以有多個部門，因此此屬性的值並非互斥。<br><br>在此範例中，我們新增部門：服裝、部門：電子、部門：食物、部門：家用和園藝、部門：運動用品為屬性欄。 部門會變成屬性名稱，使用者可以根據服裝、電子、食物、住家園藝和運動用品部門進行篩選。|
 
 當您新增屬性欄時，請記住下列事項：
 
@@ -110,15 +110,15 @@ CSV 檔案必須包含下列三欄，從第一欄開始的順序如下。 節點
 
 ### <a name="add-bucket-columns"></a>新增資料桶欄
 
-您可以新增資料桶欄以建立可以組織工作之群組的容器。 每個容器在 CSV 檔案中都有自己的欄。 您建立的水桶可供發佈小組使用。 發佈小組就可以使用這些資料桶來分類收件者團隊的工作。 如果團隊中還沒有一個資料桶，則當發佈任務時，會根據需求建立容器。
+您可以新增資料桶欄以建立可以組織工作之群組的容器。 每個容器在 CSV 檔案中都有自己的欄。 您建立的水桶可供發佈小組使用。 發佈小組可以使用這些資料桶來分類收件者團隊的工作。 如果團隊中還沒有一個資料桶，則當發佈任務時，會根據需求建立容器。
 
 發佈小組可以集中將工作專案分類一次，為接收工作清單的所有數十個、數百個或數千個收件者小組預先組織工作清單。 然後，收件者小組可以排序及篩選工作，以專注于與工作最相關的區域。
 
 當您新增資料桶欄時，請注意下列事項：
 
-* 欄名稱會變成資料桶的名稱。 您指定的每個資料桶都會出現在使用階層的 Teams中。
+* 欄名稱會變成資料桶的名稱。 您指定的每個資料桶都會顯示在使用階層的 Teams中。
 * 建議您不要在容器名稱中納入敏感性資訊。 目前，發佈小組無法透過建立後發佈來移除資料桶。
-* 欄名稱前面必須有雜湊標記 (#) 。 它最多隻能有 100 個字元，只包含 A-Z、a-z 和 0-9 的字元。 例如，#Operations和#Frozen貨物。
+* 欄名稱前面必須有雜湊標記 (#) 。 它最多隻能有 100 個字元，而且只包含 A-Z、a-z 和 0-9 的字元。 例如，#Operations及#Frozen貨物。
 * 階層可以包含最多 25 個數據桶欄。 我們計畫與客戶合作，為較大的組織提高此限制。
 
 ### <a name="example"></a>範例
@@ -129,7 +129,7 @@ CSV 檔案必須包含下列三欄，從第一欄開始的順序如下。 節點
 * 三個名為 `Store layout` 、 `Departments:Clothing` 和 的屬性欄 `Departments:Foods`
 * 名稱為 、和 的三個數據桶 `Fresh Foods` `Frozen Foods` 欄 `Women's Wear`
 
-屬性 `Store layout` 具有包含 、和 `Compact` `Standard` 的值 `Large` 。 屬性 `Departments` 欄可以設定為零或 (`0`) 的值 `1` 。 上述 `Store` 影像不會顯示版面配置 `Departments` 和屬性。 它們新增到這裡，可協助顯示如何將屬性新加到節點專案。 這三個數據桶欄也是如此。
+屬性 `Store layout` 具有包含 、和 `Compact` `Standard` 的值 `Large` 。 屬性欄可以設為零或 (`Departments` `0` 的值 `1`) 。 上述 `Store` 影像不會顯示版面配置 `Departments` 和屬性。 它們新增在這裡，可協助顯示如何將屬性新加到節點專案。 這三個數據桶欄也是如此。
 
 ```CSV
 TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear
@@ -156,15 +156,15 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 > [!NOTE]
 > 政府社群雲端 (GCC) 必須使用 Cmdlet 預覽版本[2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview)或更新版本，以確保資料會路由至 GCC 環境，而非公用雲端環境。
 
-在架構 CSV 檔案中定義階層之後，就可以將階層上傳到Teams。 若要這麼做，請執行下列命令。 您必須是全域系統管理員Teams服務系統管理員才能執行此步驟。
+在架構 CSV 檔案中定義階層之後，就可以將階層上傳到Teams。 若要這麼做，請執行下列命令。 您必須是全域系統管理員或Teams系統管理員才能執行此步驟。
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
 ```
 
-### <a name="update-your-hierarchy"></a>更新階層
+### <a name="update-your-hierarchy"></a>更新您的階層
 
-您可以使用與上述相同的 PowerShell 命令上傳新階層以取代舊階層。 每當您上傳新的階層時，它會取代先前的階層。
+您可以使用與上述相同的 PowerShell 命令上傳新階層以取代舊階層。 每當您上傳新階層時，它會取代先前的階層。
 
 ### <a name="check-the-status-of-your-hierarchy"></a>檢查階層狀態
 
@@ -202,7 +202,7 @@ Remove-TeamTargetingHierarchy
 ### <a name="install-the-teams-powershell-module"></a>安裝 powerShell Teams模組
 
 > [!IMPORTANT]
-> 若要執行此步驟，您必須從 PowerShell 圖庫安裝Teams PowerShell 公用預覽[模組](https://www.powershellgallery.com/packages/MicrosoftTeams/)。 若要瞭解如何安裝模組的步驟，請參閱在[PowerShell Teams安裝](teams-powershell-install.md)。
+> 若要執行此步驟，您必須從 PowerShell 圖庫安裝並使用 powerShell Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)公用預覽模組。 若要瞭解如何安裝模組的步驟，請參閱在[PowerShell Teams安裝](teams-powershell-install.md)。
 
 ### <a name="sample-script"></a>範例腳本
 
@@ -220,7 +220,7 @@ $tm6 = New-Team -DisplayName "Store 3"
 $tm7 = New-Team -DisplayName "Store 4"
 ```
 
-#### <a name="use-team-data-to-create-comma-separated-output-displayname-parentname-teamid"></a>使用小組資料建立以逗號分隔的輸出 (DisplayName、ParentName、TeamId) 
+#### <a name="use-team-data-to-create-comma-separated-output-displayname-parentname-teamid"></a>使用小組資料在 DisplayName、parentName、TeamId (建立逗號分隔) 
 
 ```powershell
 $csvOutput = "DisplayName" + "," + "ParentName" + "," + "TeamId" + "`n"
@@ -233,7 +233,7 @@ $csvOutput = $csvOutput + $tm6.DisplayName + "," + $tm5.DisplayName + "," + $tm6
 $csvOutput = $csvOutput + $tm7.DisplayName + "," + $tm5.DisplayName + "," + $tm7.GroupID 
 ```
 
-#### <a name="save-output-to-a-csv-file-in-the-downloads-folder"></a>將輸出儲存.csv下載資料夾中 **的檔案**
+#### <a name="save-output-to-a-csv-file-in-the-downloads-folder"></a>將輸出儲存到 .csv 資料夾中 **的檔案**
 
 ```powershell
 $csvOutputPath = $env:USERPROFILE + "\downloads\testhierarchy-" + (Get-Date -Format "yyyy-MM-dd-hhmmss") + ".csv" 
@@ -270,7 +270,7 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-檢查以確保您為架構 CSV 檔案中的小組使用正確的 TeamId。 TeamId 應該與支援小組之Microsoft 365群組的組識別碼相同。 您可以在系統管理中心中Microsoft Teams小組的組識別碼。
+檢查以確保您為架構 CSV 檔案中的小組使用正確的 TeamId。 TeamId 應該與支援小組之Microsoft 365群組的組識別碼相同。 您可以在系統管理中心中Microsoft Teams群組識別碼。
 
 1. 在系統管理中心的左側導 [Microsoft Teams，請](https://admin.teams.microsoft.com/)**前往管理** Teams  >  **團隊**。
 2. 如果 **表格中未** 顯示群組識別碼欄，請選取表格右上角的編輯欄，然後開啟 **群組識別碼**。
@@ -280,5 +280,5 @@ Description: TeamID in row # doesn't match a valid Group ID. Please view our doc
 
 ## <a name="related-topics"></a>相關主題
 
-* [管理貴組織的工作應用程式Teams](manage-tasks-app.md)
+* [在 Teams](manage-tasks-app.md)
 * [Teams PowerShell 概觀](teams-powershell-overview.md)

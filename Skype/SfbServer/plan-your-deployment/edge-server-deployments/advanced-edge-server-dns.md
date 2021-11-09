@@ -2,7 +2,7 @@
 title: 規劃商務用 Skype Server 的高級 Edge Server 部署
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 檢查商務用 Skype Server 部署選項的案例，您是否想要單一伺服器或慣用伺服器集區與 DNS 或 HLB。
-ms.openlocfilehash: 5b58d9aa79566f7aee3ac102f1c5e73996bc6dae
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5fa829bf805529792abb408cd6716e2948dd69ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767641"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842766"
 ---
 # <a name="plan-advanced-edge-server-deployment-for-skype-for-business-server"></a>規劃商務用 Skype Server 的高級 Edge Server 部署
  

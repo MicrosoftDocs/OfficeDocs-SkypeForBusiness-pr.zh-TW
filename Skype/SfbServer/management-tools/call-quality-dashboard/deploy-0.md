@@ -2,7 +2,7 @@
 title: 為商務用 Skype Server 部署通話品質儀表板
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 摘要：瞭解通話品質儀表板的部署程式。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: 88f484091b68379d390b921235f78ff9a7a1dd08
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 87caf5566c509580c211f68b685a868de2d2df58
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751702"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829917"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>為商務用 Skype Server 部署通話品質儀表板
  

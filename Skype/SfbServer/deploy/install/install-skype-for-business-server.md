@@ -2,7 +2,7 @@
 title: 在拓撲中的伺服器上安裝商務用 Skype Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 摘要：瞭解如何在拓撲中的每一部伺服器上安裝商務用 Skype Server 系統元件。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: bcf2645e6f33865da0f1ad6bbc985e581950693b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: eb589b606f095deade6bd4f8921d48e1f3799cf5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745299"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864310"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>在拓撲中的伺服器上安裝商務用 Skype Server
  

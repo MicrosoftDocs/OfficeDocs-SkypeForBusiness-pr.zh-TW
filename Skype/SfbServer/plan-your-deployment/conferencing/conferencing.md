@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中規劃會議
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 中的會議功能和功能。
-ms.openlocfilehash: cfaf1544d158af6d04ca6b4709b85d168aa74ebd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f5eb0d549b5d0b120017d36e4f904b931e0ea278
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759555"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864710"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃會議
  

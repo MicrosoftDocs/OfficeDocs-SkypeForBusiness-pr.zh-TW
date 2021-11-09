@@ -2,7 +2,7 @@
 title: 設定商務用 Skype Server 的高效能行動服務
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 description: 摘要：瞭解商務用 Skype Server 中的行動服務。
-ms.openlocfilehash: ddf976d6adde4a8214a1a7ae1cc40930df421fd6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4c07c1e487875a41da0d1ba3c0d8872d96a5ac70
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746985"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828786"
 ---
 # <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>設定商務用 Skype Server 的高效能行動服務
  

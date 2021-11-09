@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 2015 中的 ContentTypes 表格
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e3e38035-457c-4173-bdb9-d53a7420eba2
 description: ContentTypes 表格是一種支援表格，可儲存點對點工作階段和會議會話中所使用的內容類型清單。 表格中的每一筆記錄代表一種內容類型。
-ms.openlocfilehash: 98e360f218de3cd3e998ae09e5bc4abd83d5b28b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ca6497cad38c6e4e59f4da725ab03b8d027f2d93
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744009"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827396"
 ---
 # <a name="contenttypes-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 ContentTypes 表格
  

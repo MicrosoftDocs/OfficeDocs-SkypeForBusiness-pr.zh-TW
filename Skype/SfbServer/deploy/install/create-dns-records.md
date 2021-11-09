@@ -2,7 +2,7 @@
 title: 為商務用 Skype Server 建立 DNS 記錄
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 摘要：瞭解如何設定 dns，以及如何建立商務用 Skype Server 安裝的 dns 記錄。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 5e84c4c0991f042c0d734f8e62aceceb632b3b11
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 177568623148b64b3dccd885e2e7ff3740149c62
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771471"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850366"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>為商務用 Skype Server 建立 DNS 記錄
  

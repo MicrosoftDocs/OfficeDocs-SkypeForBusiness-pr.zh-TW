@@ -1,6 +1,6 @@
 ---
 title: 土克斯及開科斯群島的可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365群島Office 365群島商務用 Skype和Microsoft Teams的Microsoft Teams服務。
-ms.openlocfilehash: 965d77110919d382033fc1c7a32b9545ef1666d3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1f79533266e91255332c475560883faefb008364
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741699"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827346"
 ---
 # <a name="availability-in-turks-and-caicos-islands"></a>土克斯及開科斯群島的可用性
 

@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 2015 中部署共用線路外觀
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: 請閱讀此主題以瞭解如何在 2015 2015 年11月累積更新 (中，以商務用 Skype Server 的 SLA) 部署共用行外觀。 SLA 是一種功能，可用於處理特定號碼（稱為共用號碼）上的多個通話。
-ms.openlocfilehash: edf731976ae9fbf36f99266f0d993c9e4e78fa34
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e79bb427c28f2c0e8dcc3ff7b5e0d1f6319ac7d8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749442"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835941"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中部署共用線路外觀
 

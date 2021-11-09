@@ -1,6 +1,6 @@
 ---
-title: 在範本中建立自訂Microsoft Teams
-author: cichur
+title: 在範本中建立Microsoft Teams
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f3574121bb056208748be522af0b9a5f744846
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a7bb0805705797587f9475fe7a6ee759165e884b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749692"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864480"
 ---
-# <a name="create-a-custom-team-template-in-microsoft-teams"></a>在範本中建立自訂Microsoft Teams
+# <a name="create-a-custom-team-template-in-microsoft-teams"></a>在範本中建立Microsoft Teams
 
 **EDU 客戶尚不支援自訂範本。**
 
@@ -53,16 +53,16 @@ ms.locfileid: "60749692"
 
     ![小組範本設定命名對話方塊的影像。](media/template-add-a-name.png)
 
-6. 在 **頻道、定位字元和應用程式** 區段，新增小組所需的任何頻道和應用程式。
+6. 在頻道 **、定位字元和應用程式** 區段，新增小組所需的任何頻道和應用程式。
 
     1. 在頻道 **區** 段 **，選取** 新增 。
     2. 在 [ **新增」** 對話方塊中，為頻道命名。
     3. 新增描述。
-    4. 決定是否應該預設顯示頻道。
+    4. 決定是否預設應該顯示頻道。
     5. 搜尋要新加入頻道的應用程式名稱。
     6. 完成 **時選取 Apply。**
 
-    ![小組範本頻道、定位停駐點和應用程式畫面的影像。](media/template-channels-tabs-apps.png)
+    ![小組範本頻道、定位停駐點及應用程式畫面的影像。](media/template-channels-tabs-apps.png)
 
 8. 選取 **完成時** 提交。
 
@@ -76,7 +76,7 @@ ms.locfileid: "60749692"
 > [!Note]
 > 此功能在早期預覽中
 
-您可能會想要在自訂小組範本中為頻道的網站標籤指定 URL。 使用範本建立團隊的終端使用者會擁有預先設定為指定網站 URL 的網站標籤。
+您可能會想要在自訂小組範本中為頻道的網站標籤指定 URL。 使用範本建立團隊的使用者將擁有預先設定為指定網站 URL 的網站標籤。
 
 若要開始使用：
 
@@ -96,9 +96,9 @@ ms.locfileid: "60749692"
 
 ## <a name="known-issues"></a>已知問題
 
-**問題**：如果您從包含其他自訂定位字元的自訂範本建立團隊，您可能會在自訂的選項卡 App 中看到空白的定位停駐點。 您的預設 (，例如 **文章、****檔案** 和 **Wiki**) 會顯示如預期。
+**問題**：如果您從包含其他自訂定位字元的自訂範本建立團隊，您可能會在自訂的選項卡 App 中看到空白的定位停駐點。 您的預設 (，例如文章、**檔案** 和 **Wiki**) 會顯示如預期。
 
-**解決方案**：若要修正此問題，請移除自訂定位點，並使用相同的應用程式新增定位點。 如果您沒有許可權移除自訂定位停駐點並新增新定位停駐點，請聯絡團隊擁有者以尋求協助。
+**解決方案**：若要修正此問題，請移除自訂定位點，並使用相同的應用程式新增定位點。 如果您沒有移除自訂定位停駐點並新增新定位停駐點的許可權，請聯絡團隊擁有者以尋求協助。
 
 我們目前正在為從自訂範本建立的未來團隊開發修正程式。
 
@@ -111,5 +111,5 @@ ms.locfileid: "60749692"
 ## <a name="related-topics"></a>相關主題
 
 - [在系統管理中心開始使用小組範本](get-started-with-teams-templates-in-the-admin-console.md)
-- [從現有小組建立範本](create-template-from-existing-team.md)
+- [從現有的小組建立範本](create-template-from-existing-team.md)
 - [從現有的小組範本建立小組範本](create-template-from-existing-template.md)

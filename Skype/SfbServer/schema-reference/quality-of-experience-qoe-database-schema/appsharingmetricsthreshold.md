@@ -2,7 +2,7 @@
 title: AppSharingMetricsThreshold 表格
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 782cfab9-01a6-4843-aea1-28f47b0b51f7
 description: AppSharingMetricsThreshold 表格包含可與應用程式共用搭配使用之經驗品質計量適用的最佳值與可接受值。這些閾值可用來判斷應用程式共用經驗是否應該分類為不良。
-ms.openlocfilehash: d11c19886feebd77ff8b8dda262d969eb76c6434
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 23e97758d5398b8c8797900f043de7c1b6a3ebf6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759355"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864560"
 ---
 # <a name="appsharingmetricsthreshold-table"></a>AppSharingMetricsThreshold 表格
  

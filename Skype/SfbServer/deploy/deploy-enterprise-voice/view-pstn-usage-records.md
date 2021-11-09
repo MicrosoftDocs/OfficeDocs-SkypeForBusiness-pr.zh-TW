@@ -2,7 +2,7 @@
 title: 在商務用 Skype 中查看 PSTN 使用方式記錄
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台或商務用 Skype Server 管理命令介面來查看 PSTN 使用方式記錄。
-ms.openlocfilehash: 2b09ed19de6ff205ee7d76e7379c8b4c5fc12d06
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f5da972c6a8403a89764433c898c8717dd0630a8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771518"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850386"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>在商務用 Skype 中查看 PSTN 使用方式記錄
 

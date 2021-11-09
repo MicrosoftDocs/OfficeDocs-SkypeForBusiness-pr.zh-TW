@@ -2,7 +2,7 @@
 title: CMS 設定展開工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 description: 中央管理伺服器的位置可以從一個已定義的前端集區變更到另一個已定義的前端集區。若要變更中央管理伺服器的位置，請從 [要安裝中央管理伺服器的前端伺服器] 下的下拉式清單中，選取前端集區。前端伺服器可以是 Enterprise Edition 前端集區或 Standard Edition 前端伺服器。
-ms.openlocfilehash: 3e36f0e70123c9e3065951d917d2428431774553
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9f8866420bd4309a908c77150378529605cd0016
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743759"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830197"
 ---
 # <a name="cms-settings-expander"></a>CMS 設定展開工具
  

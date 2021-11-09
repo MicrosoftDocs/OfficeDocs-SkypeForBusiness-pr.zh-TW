@@ -2,7 +2,7 @@
 title: 新增前端功能 2010
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d0bf5b86-51dc-41d4-aa61-303f81e05c66
 description: 選取您要為前端集區啟用的每一個功能。 在最低限度下，您必須部署立即訊息 (IM) ，該永遠啟用，且無法取消選取。 您也可以選擇將其他功能（例如會議、企業語音及通話許可控制）部署 (CAC) 。 有些功能取決於您的拓撲。
-ms.openlocfilehash: 7e9cf7fce3628a0b396da0956177640b3e9dbdd1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4768cdc768b99e4ccc61b04ace91f534d78910cc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762671"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842876"
 ---
 # <a name="add-front-end-features-2010"></a>新增前端功能 2010
 

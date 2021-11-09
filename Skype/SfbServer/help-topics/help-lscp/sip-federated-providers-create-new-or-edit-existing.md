@@ -2,7 +2,7 @@
 title: SIP 同盟提供者建立新的或編輯現有
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bf967ad7-c36b-4a8b-8e78-eb11f9365a47
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 1e61db1b4626e47f5235fe3a744dc1cb606c1725
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 464a812e95bfc5b97b4eacbb1be0204974d11d40
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737929"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835481"
 ---
 # <a name="sip-federated-providers-create-new-or-edit-existing"></a>SIP 同盟提供者：建立新的或編輯現有
 

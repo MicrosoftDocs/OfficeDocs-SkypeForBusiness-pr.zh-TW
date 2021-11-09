@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中收集通話許可控制需求的範例
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: 提供在商務用 Skype Server 企業語音中規劃通話許可控制的詳細範例，包括收集網路網站、地區及頻寬的相關資訊。
-ms.openlocfilehash: da270be0af14c74ff44c07b4fc37aa531740a306
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0af3072cfd0e248d2811c0aee78f7351b9513249
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765271"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850746"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>範例：在商務用 Skype Server 中收集通話許可控制的需求
 
