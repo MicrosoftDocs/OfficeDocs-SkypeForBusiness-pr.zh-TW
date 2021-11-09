@@ -2,7 +2,7 @@
 title: 憑證要求 (主體別名)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3485f663-e114-43d7-8fe3-fcc4e5ae71ce
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[主體名稱 / 主體別名] 頁面會顯示主體名稱及所有會填入至憑證中的主體替代名稱的摘要。 在定義檔中收集的主體名稱和主體替代名稱所呈現的名稱是在拓撲產生器中定義部署時所建立的。'
-ms.openlocfilehash: 4d20d2cb484f07f5a83163cb30aa00e7a3189fdd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c547a9d5228b80b9179daa27d4ad1b0e9165de76
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771451"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842355"
 ---
 # <a name="certificate-request-subject-alternate-names"></a>憑證要求 (主體別名)
  

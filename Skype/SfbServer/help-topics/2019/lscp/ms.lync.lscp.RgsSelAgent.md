@@ -2,7 +2,7 @@
 title: 選取代理程式
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 代理人是指指派應答回應群組通話的使用者。 回應群組必須有指派的代理人群組，用以識別可以接收回應群組通話的代理人。 建立代理人群組的一種方法是，透過選取合格的使用者來定義自訂群組。 為商務用 Skype Server 和企業語音啟用合格的使用者。
-ms.openlocfilehash: 6d1aaa217589ec2448e5a176dbe94dcf78cf5fed
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 63fc4ff4af8a158a32e6097025377adc88b7f780
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778733"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830587"
 ---
 # <a name="select-agents"></a>選取代理程式
 

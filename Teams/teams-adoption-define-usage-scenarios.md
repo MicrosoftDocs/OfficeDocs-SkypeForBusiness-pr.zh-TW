@@ -1,6 +1,6 @@
 ---
 title: 定義適用于您的Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/31/2018
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何選擇最適合您採用之實驗階段適用的使用Teams案例。
+description: 瞭解如何選擇最適合您採用之實驗階段Teams案例。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8d110e3b921c24e1b32382b8a69056546948464f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 55b25ab0367909da0136a7761b7e763965c5804d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766081"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842555"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>定義適用于您的Microsoft Teams
 
@@ -47,11 +47,11 @@ ms.locfileid: "60766081"
 
 ![每個案例Teams使用案例的圖例。](media/teams-adoption-use-cases.png)
 
-將這個案例現代化動作想像成累加的過程，讓事情以更基本的情況進行，以這個新的工作方式建立熱忱、熟悉度與可信度。 接著，移至更具有影響力的更具有影響力的區域。 隨著對Microsoft Teams的更多影響向商務同事示範，他們中的更多人將會參與，而動力將會建立。 對於我們的許多客戶來說，一旦完成此程式之後，他們發現商務專案關係人瞭解同事如何從公司獲得Microsoft Teams。
+將這個案例現代化動作想像成累加的過程，讓事情以更基本的情況進行，以這個新的工作方式建立熱忱、熟悉度與可信度。 接著，移至更具有影響力的方面。 隨著對Microsoft Teams的更多影響向商務同事示範，他們中的更多人將會參與，而動力將會建立。 對於我們的許多客戶來說，一旦完成此程式之後，他們發現業務關係人瞭解同事如何從公司獲得Microsoft Teams。
 
-## <a name="interview-business-stakeholders"></a>面試商務專案關係人
+## <a name="interview-business-stakeholders"></a>與業務關係人面談
 
-若要確認這些早期專案的選取範圍，我們建議您直接與您在此程式先前所識別的利害關係人開會。 您此時的目標是聆聽並瞭解其業務的其他資訊。 請考慮下列問題來推動交談：
+若要確認這些早期專案的選取範圍，我們建議您直接與您在此程式先前所識別的利害關係人開會。 此時，您的目標是聆聽並瞭解其業務的其他資訊。 請考慮下列問題來推動交談：
 
 - 組織與通訊和共同合作相關的一些挑戰或痛點是什麼？
 - 貴組織希望改善哪些領域？
@@ -61,7 +61,7 @@ ms.locfileid: "60766081"
 
 ## <a name="map-and-prioritize-business-scenarios"></a>繪製商務案例並排定優先順序
 
-若要確定您擁有有關商務案例的正確資訊，請考慮從完成工作的員工和流程的企業擁有者的角度，使用下列格式來記錄案例。 這兩種觀點都是打造成功前進之路的必由之路。
+若要確定您擁有正確的商務案例資訊，請考慮從完成工作的員工和流程的企業擁有者的角度，使用下列格式來記錄案例。 這兩種觀點都是打造成功前進之路的必由之路。
 
 ![識別案例之架構的圖例。](media/teams-adoption-identify-scenarios.png)
 

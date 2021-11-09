@@ -2,7 +2,7 @@
 title: SQL Server Reporting Services (簡介)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 每個前端集區和 Survivable Branch Appliance 只能有一個相關聯的監控伺服器。當網站啟用監控時，監控伺服器會提供詳細通話記錄 (CDR) 和經驗品質 (QoE) 的資料收集與報告。
-ms.openlocfilehash: 57bf4b33dbf7a8b3c8e43895f475fbe16e9c9d28
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b7eeca39b79cfdcf2894441f19dfaf614992df83
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769541"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849306"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (簡介)
  

@@ -2,7 +2,7 @@
 title: 檔案存放區範圍節點
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此節點會顯示此檔案存放區 (FQDN) 和相依集區的完整功能變數名稱。 您可以執行下列動作：
-ms.openlocfilehash: cacb1b7a2cc78642c860a40ec3c58e2969acd2bc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ef940533ea2afe699c32e9d170b6cb44b3bee422
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757655"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842215"
 ---
 # <a name="file-store-scope-node"></a>檔案存放區範圍節點
  

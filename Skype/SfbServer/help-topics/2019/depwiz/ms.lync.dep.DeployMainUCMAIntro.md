@@ -2,7 +2,7 @@
 title: 部署嚮導整合通訊 API
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0eb47fc9-17fe-4ccf-b7c9-1a2cf95f943c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 如需使用部署嚮導安裝商務用 Skype Server 的詳細資訊，請參閱 install 商務用 Skype Server。
-ms.openlocfilehash: 97bf14b94708e4bcdc3768947b90576c836b22fb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 18e4981e47895e93d28af52f8b3a0f9ea657e7f1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738569"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843456"
 ---
 # <a name="deployment-wizard-unified-communications-api"></a>部署精靈：整合通訊 API
  

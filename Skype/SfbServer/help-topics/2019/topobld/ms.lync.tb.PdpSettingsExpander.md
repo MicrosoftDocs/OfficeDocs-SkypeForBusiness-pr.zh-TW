@@ -2,7 +2,7 @@
 title: 通話許可控制服務設定展開工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: dc94f75e-9abe-4e02-b835-3c845b317d65
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通話許可控制 (CAC) 是由地區、網站和子網路所構成的網路，可讓您根據可用頻寬來限制音訊和視訊傳輸。在設定 CAC 的網路之後，您必須啟用 CAS，才能強制執行頻寬限制。
-ms.openlocfilehash: 43e5fe0926c94977c2d19a7e5deccf83cb914799
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 66557874e804103df995ca55c3c825f10ad2b217
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752372"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828096"
 ---
 # <a name="call-admission-control-settings-expander"></a>通話許可控制服務設定展開工具
  

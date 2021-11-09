@@ -1,7 +1,7 @@
 ---
 title: 規劃用戶端和裝置
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/20/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 摘要：查看商務用 Skype 支援的用戶端和應用程式。
-ms.openlocfilehash: 3d5319f8511bca22ae9feba10983cfa8ffd8233c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 07bdf01db2992f8e81264f4e04a6209ce2f3c3bf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749972"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836275"
 ---
 # <a name="plan-for-clients-and-devices"></a>規劃用戶端和裝置
 

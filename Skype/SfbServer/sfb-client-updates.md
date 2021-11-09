@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 為 IT 專業人員供應商務用 Skype 2016、商務用 Skype 2015 和 Lync 2013 用戶端的永久版本最新更新資訊連結
-ms.openlocfilehash: 574deac22c50cfedc71d7d289cfcbe0ecc9e8286
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: c5afa83fa2c85a2a5812f5d192345755800e502d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013937"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863210"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>使用 Windows Installer (MSI) 的商務用 Skype 版本更新
 
@@ -253,7 +253,7 @@ ms.locfileid: "60013937"
 
 ### <a name="lync-basic-2013-software"></a>Lync Basic 2013 軟體
 
-|套件名稱|發行日期| |
+|套件名稱|發行日期|&nbsp;|
 |:--- |:--- |:--- |
 |[Lync Basic 2013 (32-位) ](https://www.microsoft.com/download/details.aspx?id=35451) | October 2012 |
 |[Lync Basic 2013 (64-位) ](https://www.microsoft.com/download/details.aspx?id=35450) | October 2012 |

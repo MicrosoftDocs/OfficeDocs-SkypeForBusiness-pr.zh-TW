@@ -1,6 +1,6 @@
 ---
 title: 從現有的小組在 Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e48c41e7c6b1a28d6d16cdd76c4fcb70bd795861
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a5f22f9acbd3cf39c144ca07cce1c5d690267b6b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749682"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828476"
 ---
 # <a name="create-a-team-template-from-an-existing-team-in-microsoft-teams"></a>從現有的小組在 Microsoft Teams
 
@@ -50,12 +50,12 @@ Microsoft Teams可讓您從現有的小組建立範本，該範本可以儲存�
     - 範本簡短和長描述
     - 地區設置可見度  
   
-7. 在 **頻道、定位字元和應用程式** 區段，新增小組所需的任何頻道和應用程式。
+7. 在頻道 **、定位字元和應用程式** 區段，新增小組所需的任何頻道和應用程式。
 
     1. 在頻道 **區** 段 **，選取** 新增 。
     2. 在 [ **新增」** 對話方塊中，為頻道命名。
     3. 新增描述。
-    4. 決定是否應該預設顯示頻道。
+    4. 決定是否預設應該顯示頻道。
     5. 搜尋要新加入頻道的應用程式名稱。
     6. 完成 **時選取 Apply。**
 

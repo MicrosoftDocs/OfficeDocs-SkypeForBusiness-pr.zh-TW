@@ -2,7 +2,7 @@
 title: Pool 表格
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 92ded8fd-d0ad-4f8a-9e6f-2e8a690fda3a
 description: Pool 表格是一種支援資料表，可儲存各種前端集區的相關資訊。 資料表中的每一筆記錄都代表一個集區。
-ms.openlocfilehash: 501c35c6e3a8ded5d1a9c7cfab58395d91d0e653
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fb79f21bd78c0c503da920eab04c30f45cdfc3d6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740259"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856400"
 ---
 # <a name="pool-table"></a>Pool 表格
  

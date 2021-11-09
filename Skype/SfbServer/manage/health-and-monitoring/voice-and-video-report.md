@@ -2,7 +2,7 @@
 title: Peer-to-Peer 商務用 Skype Server 的語音和影片報告
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer 語音和影片報告。
-ms.openlocfilehash: 0428f75ada29c13eee9b717326d4c1077b0dece6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 61065578ea67ba3ec5004d517482c8c449216a0c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757285"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836325"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Peer-to-Peer 商務用 Skype Server 的語音和影片報告
  

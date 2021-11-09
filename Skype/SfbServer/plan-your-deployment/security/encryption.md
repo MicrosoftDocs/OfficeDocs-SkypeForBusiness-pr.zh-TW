@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 的加密
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d18c74a6-385b-407b-98eb-0d525fa38fea
 description: 商務用 Skype Server 會使用 TLS 及 MTLS 來加密立即訊息。 不論流量是限制在內部網路或越過內部網路周邊，所有伺服器對伺服器的流量都需要 MTLS。 將商務用 Skype Server 連接至協力廠商 IPPBX 系統或 SIP 主幹 TLS 是選用的，但是強烈建議在轉送伺服器和媒體閘道之間進行。 如果在此連結上設定 TLS，則需要 MTLS。 因此，閘道必須使用來自轉送伺服器所信任之 CA 的憑證加以設定。
-ms.openlocfilehash: 5a7f4d562c3433a2ca44c61659aa4ca2fe7ed271
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3ee649f62e2855f959b2ee9fdc25bdb2d77fa6e9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746699"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849716"
 ---
 # <a name="encryption-for-skype-for-business-server"></a>商務用 Skype Server 的加密
  

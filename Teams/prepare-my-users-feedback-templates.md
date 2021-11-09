@@ -1,6 +1,6 @@
 ---
 title: 在 Teams 或 商務用 Skype
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
@@ -16,22 +16,22 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e98ec763d93609d0b5b4a37cf6fa02b71c478def
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cebd19b40513ece384112e6fdc3efa1be54155b1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773433"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836031"
 ---
 # <a name="user-feedback-surveys"></a>使用者意見回饋問卷 
 
-使用意見回饋問卷，在部署後收集使用者的體驗和深入見解。 問題應該會徵求使用者對於變更的接受力、訓練資源的有效性、支援計畫準備程度，以及使用者整體體驗的意見反應。 評估問卷回應，以根據 SMART (、可測量、可達成、相關、有) 專案規劃期間所定義的目標來測量，並判斷所需的任何其他動作。
+使用意見回饋問卷，在部署後收集使用者的體驗和深入見解。 問題應該會徵求使用者對於變更的接受力、訓練資源的有效性、支援計畫準備程度，以及使用者整體體驗的意見反應。 評估問卷回應，以根據您 (規劃期間所定義的特定、可測量、可達到、相關、有) 目標來測量，並判斷任何其他所需的動作。
 
 自訂下列問題，然後將這些問題轉移到問卷工具 ，SharePoint輕鬆發佈和分析。
 
-針對這些問卷的目的，*新的* 電話系統是指在 Microsoft Teams 或 商務用 Skype 中使用通話功能，以及媒體電話或行動電話等裝置。 這些問卷Microsoft Teams所有參照內容也適用于商務用 Skype。
+針對這些問卷的目的，*新的* 電話系統是指在 Microsoft Teams 或 商務用 Skype 中使用通話功能，以及媒體電話或行動電話等裝置。 這些問卷中Microsoft Teams所有參照內容也適用于商務用 Skype。
 
-指出您對於下列聲明的一致程度，因為與將手機Teams相關。 
+指出您對於下列聲明的一致程度，因為與使用手機Teams相關。 
 
 |     &nbsp;                              | 完全同意 | 有點同意 | 中性 | 有點不同意 | 完全不同意 | N/A 或不使用 |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|

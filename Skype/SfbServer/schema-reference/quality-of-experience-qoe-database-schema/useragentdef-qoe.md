@@ -2,7 +2,7 @@
 title: 'UserAgentDef table (QoE) '
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
 description: UserAgentDef 表會將使用者代理程式識別碼對應到代理程式的描述性名稱。 使用者代理程式是用來連接至商務用 Skype Server 的軟體用戶端。
-ms.openlocfilehash: 62166c7cedc895cd02ad101c41ad31098eaa9542
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 23ea6310ddd463b75d0bccd9a4d94a4485f2351e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763091"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863260"
 ---
 # <a name="useragentdef-table-qoe"></a>UserAgentDef table (QoE) 
  

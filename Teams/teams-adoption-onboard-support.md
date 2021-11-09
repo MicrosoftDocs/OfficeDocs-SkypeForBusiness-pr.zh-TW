@@ -1,6 +1,6 @@
 ---
 title: 系統支援Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 使用線上訓練資源，讓支援人員開始進行您採用Teams階段。
+description: 使用線上訓練資源，將支援人員帶到您採用之實驗階段Teams上。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0663712bb676519019785d3639fc3712d3f03d0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 54e4696e1f50f16e9c98fd6543e8a4ca2bb021a1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771728"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849486"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>系統支援Microsoft Teams
 
-若要確保早期採用者與領獎團隊在開始使用新Teams時獲得適當的支援，請與支援人員開會，並Teams。 支援組織的重要成員可能會想要加入您的早期採用者計畫。 鼓勵他們在他們自己的Teams中使用。 透過我們的線上訓練資源，讓他們完成產品的基本上線。  
+若要確保早期採用者及領獎團隊在開始使用時Teams提供適當的支援，請與支援人員開會，並審查Teams。 支援組織的重要成員可能會想要加入您的早期採用者計畫。 鼓勵他們在他們自己的Teams中使用。 使用我們的線上訓練資源，讓他們完成產品的基本上線。  
 
 - [基礎 - Microsoft Teams](https://youtu.be/V6B4KraD-FM)
 - [疑難排解Teams](https://youtu.be/0KNh9KNpXcA)

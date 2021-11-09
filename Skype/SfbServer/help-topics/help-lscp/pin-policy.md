@@ -2,7 +2,7 @@
 title: PIN 原則
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: d9914438081720ab602f4c963ba95edf17d54dd9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 18bac1a4f2743b5b30c2291ccd5a0cbf745aec6e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764071"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830397"
 ---
 # <a name="pin-policy"></a>PIN 原則
 

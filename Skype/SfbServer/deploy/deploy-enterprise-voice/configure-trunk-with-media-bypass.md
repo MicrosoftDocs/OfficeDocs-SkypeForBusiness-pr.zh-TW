@@ -2,7 +2,7 @@
 title: 商務用 Skype Server：設定具有媒體旁路的主幹
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 摘要：使用啟用商務用 Skype Server 的媒體旁路設定主幹。 這可讓您將轉送伺服器的數目降至最低，presuming 您的 SIP 主幹提供者支援該伺服器。
-ms.openlocfilehash: aeb65216a3d001d4fe78808985a1010c23427277
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: da291852909d84e914a825aec39528803e488d8b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753824"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842465"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>商務用 Skype Server：設定具有媒體旁路的主幹
 

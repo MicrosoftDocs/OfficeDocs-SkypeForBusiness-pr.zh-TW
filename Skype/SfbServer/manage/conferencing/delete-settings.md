@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中刪除會議配置設定
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: 摘要：瞭解如何在商務用 Skype Server 中刪除會議配置設定。
-ms.openlocfilehash: 44b1808c5e5d27bb7dd8aef7ebcef9e26923bb6c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 95eda4da393f1eb677fc331ffb824e6222e35113
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737829"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830897"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除會議配置設定
  

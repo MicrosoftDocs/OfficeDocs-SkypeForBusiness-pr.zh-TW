@@ -2,7 +2,7 @@
 title: 主幹範圍節點
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以在拓撲產生器中，以滑鼠右鍵按一下現有的 SIP 主幹，以執行下列作業：
-ms.openlocfilehash: f412028ff5fab647dca4114401d2173fb287ae26
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: af0cfb39be5ea80b8d3df85a6a2edfe6f00d8f70
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738109"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836685"
 ---
 # <a name="trunk-scope-node"></a>主幹範圍節點
  

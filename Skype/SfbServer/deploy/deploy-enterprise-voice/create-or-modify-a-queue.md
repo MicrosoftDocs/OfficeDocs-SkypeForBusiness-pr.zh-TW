@@ -2,7 +2,7 @@
 title: 在商務用 Skype 中建立或修改佇列
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 在商務用 Skype Server 企業語音中建立或修改回應群組佇列。
-ms.openlocfilehash: 7cc079b458f4aae2748c212dd5c0bcf710142716
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6a4eb09e144bd7381ababdf37a0905c4ea9bac06
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765901"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842425"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>在商務用 Skype 中建立或修改佇列
  

@@ -1,6 +1,6 @@
 ---
 title: 哈薩克的可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: aeaff9031535df5e7d727f3386ae4264efa62817
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b69d4634ee91e002c0f86fbe19d57dc20d3dd582
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777533"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836081"
 ---
 # <a name="availability-in-kazakhstan"></a>哈薩克的可用性
 

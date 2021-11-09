@@ -2,7 +2,7 @@
 title: 規劃商務用 Skype Server 2019 部署
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2019
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 摘要：流覽下列連結，以瞭解如何開發概念、邏輯及實體設計，以設定商務用 Skype Server 2019 的功能、伺服器及拓撲。
-ms.openlocfilehash: 6e4afa2d473b2ee668ab129506df15f612fa08ce
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fd75f705c0307adc8819b09bb9c738dbdc9c38c3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741509"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863120"
 ---
 # <a name="plan-for-your-skype-for-business-server-2019-deployment"></a>規劃商務用 Skype Server 2019 部署
  

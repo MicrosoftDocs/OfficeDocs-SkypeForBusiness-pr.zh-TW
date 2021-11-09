@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams採用快速入門檢查清單
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/09/2018
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 使用此快速入門檢查清單，確保您的組織開始採用Microsoft Teams。
+description: 使用此快速入門檢查清單，以確保貴組織開始採用Microsoft Teams。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b54f7b06cc9e2ad8da5717ba03377eddc59691f1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b95bc84a31f7efa2bb15a5e8cd7b06f73672fc26
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767111"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828446"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Microsoft Teams採用快速入門檢查清單
 

@@ -1,6 +1,6 @@
 ---
 title: 團隊到期與續約Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -11,29 +11,29 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 瞭解團隊到期與續約，以及如何使用Microsoft 365到期政策，在 Microsoft Teams 中自動清理未使用的Microsoft Teams。
+description: 瞭解團隊到期與續約，以及如何使用群組Microsoft 365，以自動清理在 Microsoft Teams 中未使用的Microsoft Teams。
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb56013f411349907f602ff603441c41e6c68368
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 543678baf7604b4c7ea80a4c913ba8713ed841b2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758245"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828436"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>團隊到期與續約Microsoft Teams
 
 擁有大量團隊的組織通常擁有從未實際使用的團隊。 發生此情況的原因有幾個，包括產品試驗、短期小組共同合作，或團隊擁有者離開組織。 隨著時間的過去，這類團隊可能會累積並給租使用者資源造成負擔。  
 
-若要限制未使用的團隊數目，您可以以系統管理員Microsoft 365[組到期](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)政策來自動清理未使用的團隊。 由於團隊是由群組所支援，因此群組到期原則也會自動適用于團隊。
+若要限制未使用的團隊數目，您可以以系統管理員Microsoft 365[組到期](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)政策，自動清理未使用的團隊。 由於團隊是由群組所支援，因此群組到期原則也會自動適用于團隊。
 
 當您將到期原則適用于團隊時，團隊擁有者會于團隊到期日前 30 天、15 天和 1 天收到小組續約的通知。 當團隊擁有者收到通知時，他們可以按一下 **[在** 小組設定中立即續約以續約團隊。
 
 ![在小組設定中更新團隊的立即續約按鈕的螢幕擷取畫面。](media/team-expiration.png "在小組設定中更新團隊的立即續約按鈕螢幕擷取畫面")
 
-如果團隊擁有者未為小組續約，且在到期政策結束之前團隊中沒有任何進一步活動，團隊會置於「柔刪除」狀態，這表示小組可以在接下來 30 天內還原。
+如果團隊擁有者未為團隊續約，且在到期政策結束之前團隊中沒有任何進一步活動，團隊會置於「柔刪除」狀態，這表示小組可以在接下來 30 天內還原。
 
 ## <a name="team-auto-renewal"></a>小組自動續約
 
@@ -45,4 +45,4 @@ ms.locfileid: "60758245"
 
 **團隊與基礎群組的到期日不相符**
 
-在團隊續約之前，先續約支援小組的群組。 續約的一部分，會為群組設定未來日期的新到期日。 此新日期可能不會立即顯示在 Teams。 同步最多可能需要 24 小時。如果您看到團隊及其基礎群組的到期日有差異，請等候 24 小時再尋求進一步支援。
+在團隊續約之前，先續約支援小組的群組。 續約的一部分，會為群組設定未來日期的新到期日。 此新日期可能不會立即顯示在 Teams。 同步最多可能需要 24 小時。如果您看到團隊及其基礎群組的到期日有差異，請等候 24 小時，再尋求進一步支援。

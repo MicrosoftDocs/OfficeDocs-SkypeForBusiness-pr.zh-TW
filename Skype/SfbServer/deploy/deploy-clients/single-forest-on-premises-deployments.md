@@ -1,7 +1,7 @@
 ---
 title: Skype會議室系統單一樹系內部部署
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: 閱讀此主題以瞭解如何在單一樹系內部部署環境中部署 Skype 的會議室系統。
-ms.openlocfilehash: 8768ecfa8aba01074bee5315580fde79ba9c3afc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0f8ab644efc3d832fd5e201bd49517971ba5ba08
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759145"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828416"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype會議室系統單一樹系內部部署
  

@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中建立檔案共用
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 摘要：瞭解如何在安裝商務用 Skype Server 時建立 Windows 伺服器檔案共用。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: c14d7a765a4b55e1fe909f33f4e038062427872b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c2b1048d911243987313568acde2bccea068fff9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751172"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842375"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>在商務用 Skype Server 中建立檔案共用
  
@@ -66,7 +66,7 @@ ms.locfileid: "60751172"
 > [!NOTE]
 >如果檔案存放區裝載于 DFS 共用上，則會收到下列警告：
 
-警告：無法存取 "" 的共用許可權 \\ <domain> \<share> 。
+`Warning: Unable to access share permissions for "\\<domain>\<share>".`
 
 >如果您不是檔案伺服器上的系統管理員，或者這是分散式檔案系統 (DFS) 共用，就會發生這種情況。 如果已設定共用許可權，則可以忽略此警告。 如果是新的共用，請參閱檔，以瞭解手動設定共用許可權的詳細資料。
 

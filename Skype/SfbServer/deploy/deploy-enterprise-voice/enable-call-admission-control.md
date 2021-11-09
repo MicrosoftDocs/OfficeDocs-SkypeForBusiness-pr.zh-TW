@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中啟用通話許可控制
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: 啟用商務用 Skype Server 企業語音中的通話許可控制。
-ms.openlocfilehash: b35e55bbe0a9929222eb5d67f7449e2247cf91e0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9532208e9734f0a404e95e5c8035e0d4d0aff463
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775773"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842405"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用通話許可控制
  

@@ -2,7 +2,7 @@
 title: 使用者編輯使用者
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: d422529b896fcf4543e49d2eca4e3ca9ab012c2a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 15ae2f62a3bb69e56ed2f81660c9a49e15832a4b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748039"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836545"
 ---
 # <a name="users-edit-user"></a>使用者：編輯使用者
 

@@ -1,7 +1,7 @@
 ---
 title: 在商務用 Skype Server 中部署 Web 可下載的用戶端
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 摘要：部署商務用 Skype 所用的商務用 Skype Web 應用程式和 Skype 會議應用程式。
-ms.openlocfilehash: c262ab4e9180ae9e02bc899793437a86ffe12ead
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: abb0a24d234043d793b09a538cbff23d0d549ac0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761591"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842495"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 Web 可下載的用戶端
 

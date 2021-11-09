@@ -1,6 +1,6 @@
 ---
 title: 基本升級 PowerShell|Microsoft Teams|授予升級交互操作策略
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -20,21 +20,21 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a281a835240db1ee61959e468eb868e833878f16
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1f6fc4ade75e7ee954104fe723751b5ef6d4ccca
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762941"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830747"
 ---
-# <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>將使用者從 商務用 Skype Online 升級Microsoft Teams
+# <a name="upgrading-your-users-from-skype-for-business-online-to-microsoft-teams"></a>將使用者從線上商務用 Skype升級至Microsoft Teams
 
 > [!Note]
 > 本文所述的命令是設計用來做為升級基本檢查清單 [的一](./upgrade-start-here.md) 部分。
 
-升級的技術移商務用 Skype需要通知您的使用者，商務用 Skype升級至 Teams，然後將他們Teams **模式**。 這些步驟可以透過遠端商務用 Skype或Windows PowerShell系統管理中心Microsoft Teams完成。
+升級的技術移商務用 Skype需要通知您的使用者，商務用 Skype升級至 Teams，然後將他們Teams **模式**。 這些步驟可以透過遠端商務用 Skype會話Windows PowerShell或管理中心Microsoft Teams完成。
 
-我們正在系統管理中心積極推出升級Microsoft Teams工具，而且應該[](manage-teams-skypeforbusiness-admin-center.md)很快就會在租使用者上推出。 一旦推出，您可以在設定共存和升級設定中尋找移移使用者 [的資訊](./setting-your-coexistence-and-upgrade-settings.md)。
+我們正在系統管理中心積極推出升級Microsoft Teams工具，而且應該[](manage-teams-skypeforbusiness-admin-center.md)很快就會在租使用者上推出。 一旦提供，您可以在設定共存和升級設定中尋找移移使用者 [的資訊](./setting-your-coexistence-and-upgrade-settings.md)。
 
 如果您準備好今天升級，您可以使用下表中列出的 [PowerShell](/office365/enterprise/powershell/manage-office-365-with-office-365-powershell) 命令。
 

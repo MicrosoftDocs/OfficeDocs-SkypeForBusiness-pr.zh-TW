@@ -2,7 +2,7 @@
 title: 設定商務用 Skype Server 混合式環境的伺服器對伺服器驗證
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 摘要：設定商務用 Skype Server 混合式環境的伺服器對伺服器驗證。
-ms.openlocfilehash: fcec1e982af0c5ad778a83fe6af9b58fbd44c7e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 617c388dc4c4120beb457e4e2c90246e06c76d6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746069"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830927"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>設定商務用 Skype Server 混合式環境的伺服器對伺服器驗證。
 

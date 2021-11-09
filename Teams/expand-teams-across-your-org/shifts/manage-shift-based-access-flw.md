@@ -1,6 +1,6 @@
 ---
 title: 管理公司中前線員工以班為基礎的Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aaku
 manager: serdars
@@ -8,19 +8,19 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解如何在組織中管理前線員工Teams班式存取權。
+description: 瞭解如何在組織中管理前線工作人員Teams班式存取權。
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db646690e61696857a3fdcfc051ccc03216ebb24
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 708ce6158cd799bed506751006d94679eedcd950
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749069"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842595"
 ---
 # <a name="manage-shift-based-access-for-frontline-workers-in-teams"></a>管理公司中前線員工以班為基礎的Teams
 
@@ -33,7 +33,7 @@ ms.locfileid: "60749069"
 
 目前Microsoft Teams表示使用者目前的可用性和狀態給其他使用者。 前線員工的存在通常不如其他員工預測，因為每天的工作時間通常不同。 做為系統管理員，您可以設定Teams，為貴組織的前線員工顯示一組以班為基礎的目前狀態，以指出他們何時上班和下班。
 
-這些以班次為基礎的目前狀態 &mdash; ![ 為實心綠色核取方塊，表示正在輪班。](../../media/flw-presence-on-shift.png) **在 Shift** 中， ![ 使用 x 的灰色圓圈表示關閉班次。](../../media/flw-presence-off-shift.png) **關閉班次**，實心紅色圓圈，表示忙碌狀態與 Teams 中預設的目前 ![ ](../../media/flw-presence-busy.png)  &mdash; 狀態集Teams。 [](../../presence-admins.md) 有了這兩組目前狀態，您可以根據組織人員的角色來設定不同的體驗。
+這些以班次為基礎的目前狀態 &mdash; ![ 為實心綠色核取方塊，表示正在輪班。](../../media/flw-presence-on-shift.png) **在 Shift** 中， ![ 使用 x 的灰色圓圈表示關閉班次。](../../media/flw-presence-off-shift.png) **關閉班次**，實心紅色圓圈，表示忙碌中狀態與 Teams 中的預設狀態 ![ ](../../media/flw-presence-busy.png)  &mdash; 集Teams。 [](../../presence-admins.md) 有了這兩組目前狀態，您可以根據組織人員的角色來設定不同的體驗。
 
 使用輪班式存取，您可以在前線Teams班時管理存取權。 例如，您可以設定Teams，以顯示前線員工必須先確認的訊息，才能Teams排班時才能使用。  
 
@@ -41,7 +41,7 @@ ms.locfileid: "60749069"
 
 以下是貴組織如何管理班次式存取的範例。
 
-貴組織有前線員工，其工作時間只應支付主管排程及核准的時數。 他們不應支付在排程班以外工作的時間，包括使用 Teams 應用程式。 您設定了一則自訂訊息，指出「您的 Teams 非班時間不會計入應付時數」，當前線工作人員嘗試在輪班時存取 Teams 時，會顯示該訊息。 如果他們選擇使用Teams，請按一下 [我接受，瞭解這次不會支付他們費用。
+貴組織的前線員工只能在主管排程和核准的班上工作時數獲得報酬。 他們不應支付在排程班以外工作的時間，包括使用 Teams 應用程式。 您設定了一則自訂訊息，指出「您的 Teams 日非班時間不會計入應付時數」，當前線工作人員嘗試在輪班時存取 Teams 時，會顯示該訊息。 如果他們選擇使用Teams，請按一下 [我接受，瞭解這次不會支付他們費用。
 
 您組織中也有有薪資且沒有輪班的資訊工作者。 您將資訊工作者設定為在 Teams 使用預設目前狀態，同時提供前線員工以班為基礎的目前狀態。
 
@@ -57,17 +57,17 @@ ms.locfileid: "60749069"
 
 ## <a name="off-shift-access-to-teams"></a>關閉班次存取Teams
 
-此功能可讓您在前線員工Teams時管理存取權。 您可以設定Teams，讓前線員工在輪班時存取Teams訊息。 前線工作人員必須先按一下 **[我接受** 並認可郵件後，才能使用Teams。
+此功能可讓您管理前線Teams輪班時，存取權。 您可以設定Teams，讓前線員工在輪班時存取Teams訊息。 前線工作人員必須先按一下 **[我接受** 並認可郵件後，才能使用Teams。
 
 您可以使用預設郵件、從一組預先定義的郵件中選擇，或自訂郵件以顯示您想要的任何文字。 以下是預設訊息：
 
 ![預設訊息的螢幕擷取畫面。](../../media/shifts-presence-message.png)
 
-您也可以設定顯示郵件的頻率，並設定第一個班次開始或最後一個班結束，以及限制存取Teams寬限期。
+您也可以設定顯示郵件的頻率，並設定寬限期，介於第一個班次開始或最後一個班次結束，以及限制存取Teams期間。
 
 ## <a name="manage-shift-based-access"></a>管理輪班式存取
 
-做為系統管理員，您可以使用策略來控制組織中前線員工以班為基礎的目前狀態。 您可以使用下列 PowerShell Cmdlet 管理這些策略：
+做為系統管理員，您可以使用策略來控制組織中前線員工以班為基礎的目前狀態。 您可以使用下列 PowerShell Cmdlet 來管理這些策略：
 
 - [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy)
 - [Get-CsTeamsShiftsPolicy](/powershell/module/teams/get-csteamsshiftspolicy)
@@ -81,7 +81,7 @@ ms.locfileid: "60749069"
 
 ### <a name="example-1"></a>範例 1
 
-在此範例中，我們建立名為 Off Shift 的新Teams Access 預設訊息。 在此政策中，會開啟以班為基礎的目前狀態，且每當指派此策略的使用者在輪班時存取Teams會顯示預設訊息。 如果使用者接受Teams，可以在輪班時使用此程式，而第一個班次開始或最後一個班次結束時，以及限制存取權之間的寬限期為 10 分鐘。  
+在此範例中，我們建立名為 Off Shift 的新Teams Access 預設訊息。 在此政策中，以班為基礎的目前狀態會開啟，且每當指派此策略的使用者在輪班時存取Teams會顯示預設訊息。 如果使用者接受Teams，可以在輪班時使用此程式，而第一個班次開始或最後一個班次結束時，以及限制存取權之間的寬限期為 10 分鐘。  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType DefaultMessage -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 10
@@ -92,7 +92,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Default Message" -En
 
 ### <a name="example-2"></a>範例 2 
 
-在此範例中，我們建立名為 Off Shift 的新Teams Access 自訂訊息。 在此政策中，會開啟以班次為基礎的目前狀態，而且每當指派此策略的使用者在輪班時存取Teams會顯示自訂訊息。 如果使用者接受Teams，可以在輪班時使用此程式，而第一個班次開始或最後一個班次結束時，以及限制存取權之間的寬限期為 15 分鐘。  
+在此範例中，我們建立名為 Off Shift 的新Teams Access 自訂訊息。 在此政策中，會開啟以班為基礎的目前狀態，而且每當指派此策略的使用者在輪班時存取Teams會顯示自訂訊息。 如果使用者接受Teams，可以在輪班時使用此程式，而第一個班次開始或最後一個班次結束時，以及限制存取權之間的寬限期為 15 分鐘。  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType CustomMessage -ShiftNoticeMessageCustom "Your time on Teams when on off shift won't count toward payable hours" -AccessType UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 15
@@ -105,9 +105,9 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Custom Message" -Enabl
 
 在此範例中，我們建立名為 Off Shift Teams Access Message1 的新策略。 在此政策中，會開啟以班為基礎的目前狀態，且每次指派此策略的使用者在輪班時存取Teams預先定義的訊息。
 
-  「您的雇主不會授權或核准非免稅或小時制員工在其非工作時間使用其網路、應用程式、系統或工具。 接受時，即表示您Teams非授權，且不會獲得賠償。 
+  「您的雇主不會授權或核准非免稅或小時制員工在其非工作時間使用其網路、應用程式、系統或工具。 接受時，即表示您Teams非授權，且不會獲得補償。 
 
-如果使用者接受Teams，可以在輪班時使用通知，而第一個班次開始或最後一個班次結束時，以及限制存取權之間的寬限期為三分鐘。  
+如果使用者接受Teams，可以在輪班時使用通知，而第一個班次開始或最後一個班結束時，以及限制存取權之間的寬限期為三分鐘。  
 
 ```powershell
 New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShiftPresence $true -ShiftNoticeFrequency always -ShiftNoticeMessageType Message1 -AccessType  UnrestrictedAccess_TeamsApp -AccessGracePeriodMinutes 3
@@ -118,7 +118,7 @@ New-CsTeamsShiftsPolicy -Identity "Off Shift Teams Access Message1" -EnableShi
 
 ### <a name="example-4"></a>範例 4
 
-在此範例中，我們指派名為 Off Shift Teams Access 自訂訊息給名為 remy@contoso.com。
+在此範例中，我們會將名為 Off Shift Teams Access 自訂訊息的策略指派給名為 remy@contoso.com。
 
 ```powershell
 Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName "Off Shift Teams Access Custom Message"

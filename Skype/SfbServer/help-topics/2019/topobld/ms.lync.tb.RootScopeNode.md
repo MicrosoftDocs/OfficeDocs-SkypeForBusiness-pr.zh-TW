@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 根範圍節點
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 ROBOTS: NOINDEX, NOFOLLOW
 description: Lync Server 節點會列出您拓撲中的中央網站。 您可以執行下列動作：
-ms.openlocfilehash: 85ffad884f54ff0bc2bb523b45f80690e4580791
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 32f57f091179decf1b19812cddc34aaae32bdb50
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752362"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828066"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>商務用 Skype Server 根範圍節點
  

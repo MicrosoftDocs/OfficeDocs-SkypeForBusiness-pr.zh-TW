@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中將監控報告與鏡像資料庫相關聯
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 摘要：瞭解如何將監控報告與商務用 Skype Server 所使用的鏡像資料庫相關聯。
-ms.openlocfilehash: a30a107f8a5f5df6bb11bc8c409bf7376438f619
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 29992c9b37ea4160c2696bdeb7296ab83e1eb198
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748849"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856210"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>在商務用 Skype Server 中將監控報告與鏡像資料庫相關聯 
  

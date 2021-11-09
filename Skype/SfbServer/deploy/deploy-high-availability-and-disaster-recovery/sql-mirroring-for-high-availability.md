@@ -2,7 +2,7 @@
 title: 部署商務用 Skype Server 2015 的後端伺服器高可用性 SQL 鏡像
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 若要得以部署 SQL 鏡像，您的伺服器至少必須執行 SQL Server 2008 R2。 此版本必須執行於以下所有相關伺服器：主要伺服器、鏡像伺服器、見證伺服器。 如需詳細資訊，請參閱 SQL Server 2008 Service Pack 1 的累計更新套件9。
-ms.openlocfilehash: 862b7ba5a381ea422c63dfc96bde202a5330bfd5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b27fed99cafa109da8c13e369c93985d7bc4cf64
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742869"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849446"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>針對商務用 Skype Server 2015 中的後端伺服器高可用性部署 SQL 鏡像
 
