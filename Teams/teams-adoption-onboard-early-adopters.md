@@ -1,6 +1,6 @@
 ---
 title: 讓早期採用者快速上手並收集意見反應
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 選擇早期採用者進行實驗階段，Teams採用，然後收集您專案的意見。
+description: 選擇早期採用者做為您採用Teams階段，然後收集您專案的意見。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47c51e869e25726e73863091a88e4f7289d7693c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a87a6802a538609e9899f2645833a1e9bdab120f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753864"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840725"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>加入早期採用者並收集Microsoft Teams
 
-返回對早期採用者計畫表示有興趣的員工清單。 決定哪些人應該參與您與實驗Teams。 這可能是所有或部分感興趣的人員。 即使您未針對這些初始專案選取這些專案，請繼續與這些專案溝通，讓他們保持興趣，並願意參與未來。 根據您與商務專案關係人、技術小組的討論，以及上方所示的優先順序工作，這些將會成為您所選項目的啟動程式之一部分。 
+返回對早期採用者計畫表示有興趣的員工清單。 決定哪些人應該參與您與實驗Teams。 這可能是所有或部分感興趣的人員。 即使您未針對這些初始專案選取這些專案，請繼續與這些專案溝通，讓他們保持興趣，並願意參與未來。 根據您與商務專案關係人、技術小組的討論，以及上述的優先順序工作，這些將會成為您所選項目的啟動程式之一部分。 
 
 使用這些早期採用者完成下列步驟：
 
@@ -41,12 +41,12 @@ ms.locfileid: "60753864"
 
 ## <a name="gather-feedback"></a>收集意見反應
 
-使用專案或Microsoft 365 Office 365來收集項目的意見回饋。
+使用專案或Microsoft 365元件Office 365收集項目的意見意見。
   
-![代表決策點的圖示。](media/teams-adoption-decision-icon.png) 決策：如果貴組織已經投資Yammer網路，您可以將它做為早期採用者計畫的意見回饋論壇。 如果沒有，且您的早期採用者計畫的成員少於 5000 人，請Teams小組來收集意見，並提供訓練。
+![代表決策點的圖示。](media/teams-adoption-decision-icon.png) 決策：如果貴組織已經投資建立Yammer網路，您可以將它做為早期採用者計畫的意見回饋論壇。 如果沒有，且您的早期採用者計畫的成員少於 5000 人，請Teams小組來收集意見，並提供訓練。
   
 > [!Note]
-> 有些組織會結合早期採用者意見回饋的頻道，加入團隊團隊支援計畫小組。 這是一個好方法，因為許多早期採用者未來可能會成為領軍者，而且將會建立更強大的社群。 
+> 有些組織會結合早期採用者意見回饋的頻道，加入團隊團隊支援計畫小組。 這個方法很好，因為許多早期採用者未來可能會成為領軍者，而且會建立更強大的社群。 
 
 
 ![代表下一個步驟的圖示。](media/teams-adoption-next-icon.png) 下一步： [板載支援](teams-adoption-onboard-support.md)。

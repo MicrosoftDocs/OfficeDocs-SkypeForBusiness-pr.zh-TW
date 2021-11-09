@@ -2,7 +2,7 @@
 title: 建立中繼伺服器與 Edge 的關聯
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 description: 若要定義中繼伺服器，請為中繼伺服器指定設定，以與前端伺服器和 Edge Server 或集區建立關聯。若要將中繼伺服器或集區與 Edge Server 或 Edge Server 集區建立關聯，請執行下列動作：
-ms.openlocfilehash: fe4745dc92369c47bdd1e1292bd0b4e6ddab2099
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cde08420b929fcc4326c2c898338f08cff92fffa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758325"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863750"
 ---
 # <a name="associate-mediation-server-with-edge"></a>建立中繼伺服器與 Edge 的關聯
  

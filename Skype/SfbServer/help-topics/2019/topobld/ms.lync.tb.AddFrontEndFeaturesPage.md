@@ -2,7 +2,7 @@
 title: 新增前端功能
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: 選取您要為前端集區啟用的每一個功能。 在最低限度下，您必須部署立即訊息 (IM) ，該永遠啟用，且無法取消選取。 您也可以選擇將其他功能（例如會議、企業語音及通話許可控制）部署 (CAC) 。 有些功能取決於您的拓撲。
-ms.openlocfilehash: 8c9b615a721ff33abc20ebb049e3d18f5ed0ccd8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6989234d12c4e6a415eb9949550a6ad1c187b25a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760096"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832597"
 ---
 # <a name="add-front-end-features"></a>新增前端功能
 

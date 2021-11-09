@@ -2,7 +2,7 @@
 title: 鎖定或解除鎖定商務用 Skype Server 中的使用者 PIN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 摘要：鎖定或解除鎖定使用者的電話撥入式會議 PIN 以取得商務用 Skype Server。
-ms.openlocfilehash: ccd575182bbac85b20879eaec8bb3e7a951fda1e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1ae1deea84b099852decd9acbc6315049484b0b3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762511"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848596"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>鎖定或解除鎖定商務用 Skype Server 中的使用者 PIN
  

@@ -2,7 +2,7 @@
 title: 封存設定建立新的或編輯現有
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用封存設定來控制部署的封存選項。 封存組態除了包含全域設定之外，也可能包含一或多個網站設定與集區設定：
-ms.openlocfilehash: 2a9e3a64560e347c959b464fe8da57e994f2e5c9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 145d86cce250204a219bd9e983a07765259b9144
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757905"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831517"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>封存組態：建立新的或編輯現有
  

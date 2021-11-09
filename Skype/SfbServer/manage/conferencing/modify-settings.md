@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中修改會議配置設定
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: 摘要：瞭解如何在商務用 Skype Server 中修改會議配置設定。
-ms.openlocfilehash: cf04c8c9d503f60b81d8016a2942bb62005f81f3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2f57f0a7d6bd445e84cf0d9feb43997613d35794
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770271"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848556"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中修改會議配置設定
  

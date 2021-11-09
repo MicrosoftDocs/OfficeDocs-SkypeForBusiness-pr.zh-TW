@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams採用階段 1 - 開始
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/29/2018
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4cf809a665a008adf7b7e613a58f4ff274c6a708
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5ba8e37a6cbb6850eebd1fd7d1e1a238d4c7d304
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741529"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840695"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Microsoft Teams採用階段 1 - 開始
 
@@ -55,7 +55,7 @@ ms.locfileid: "60741529"
 | Program Manager<sup>1</sup> | 監督整個Teams啟動執行和推出程式。 | IT |
 | 冠軍<sup>1</sup> | 協助宣傳Teams、支援技能建立，並提供使用深入見解。 | 多個部門 |
 | 訓練潛在客戶 | 管理及傳達有關Teams。 | IT 或其他 |
-| 部門主管 (專案關係人) <sup>2</sup> | 找出特定部門如何使用Teams並鼓勵互動。 | 任何部門 (管理)  |
+| 部門主管 (專案關係人) <sup>2</sup> | 找出特定部門如何使用Teams互動。 | 任何部門 (管理)  |
 | IT 專家<sup>1</sup> | 監督所有技術層面的執行工作，包括整合。 | IT |
 | 通訊潛在客戶<sup>2</sup> | 監督全公司關於公司Teams。 | 公司通訊、IT 或其他 |
 | Community經理 | 管理日常網路Yammer活動。 提供指引和最佳做法。 | 多個部門 |
@@ -67,7 +67,7 @@ ms.locfileid: "60741529"
 
 ## <a name="additional-resources"></a>其他資源
 
-[Microsoft Technical Community](https://aka.ms/TechCommunity)提供對等提供的深入見解，以深入瞭解許多產品Microsoft 365 Office 365技術問題。 我們建議您加入下列社群：
+[Microsoft Technical Community](https://aka.ms/TechCommunity)提供許多產品採用和技術問題的對等Microsoft 365 Office 365深入見解。 我們建議您加入下列社群：
 
 - [Microsoft Teams技術](https://aka.ms/TeamsCommunity)Community – 取得產品問題的解答、向其他 Teams 客戶學習，以及追蹤我們的部落格，以掌握最新功能及Teams。 
 - [支援計畫](https://aka.ms/O365Champions)與推動採用社群 – 向同儕瞭解如何以最佳方式推動採用 Microsoft 365 或 Office 365 工作負載，例如 Teams、SharePoint、Yammer 和其他產品。 向 IT 專業人員、商務使用者、「意外」開發人員，以及任何想要推動採用雲端服務的人開放。  

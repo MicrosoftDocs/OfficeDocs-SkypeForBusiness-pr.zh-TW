@@ -2,7 +2,7 @@
 title: 部署商務用 Skype Server 統計資料
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要：閱讀此主題以瞭解如何部署商務用 Skype Server 的統計資料管理員。
-ms.openlocfilehash: 6444f89f43ea4951e186af589f5986e5a3e7bc9e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4cfedb385078cd12413cb9f27059f7b5ed8023a1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778153"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857430"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>部署商務用 Skype Server 統計資料
  

@@ -2,7 +2,7 @@
 title: 安裝及開啟系統管理工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本主題說明如何安裝及開啟您部署及管理商務用 Skype 所需的系統管理工具。
-ms.openlocfilehash: a40a1617490f22c37ec2a8173118dcb289ec8ff8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 21fc33f5e095100f9634695925e1000172742695
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743429"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848416"
 ---
 # <a name="install-and-open-administrative-tools"></a>安裝及開啟系統管理工具
 

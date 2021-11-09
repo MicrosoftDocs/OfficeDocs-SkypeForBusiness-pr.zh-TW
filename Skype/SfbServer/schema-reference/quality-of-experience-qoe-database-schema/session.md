@@ -2,7 +2,7 @@
 title: Session 表格
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: 每筆記錄代表一個包含音訊或音訊和影片的會話。 包含有關會話的整體資訊。 會話是在兩個端點之間的 (SIP) ] 對話方塊中定義為音訊或視頻會話初始通訊協定。
-ms.openlocfilehash: bc81bb3c67f91b975643929170354c7b152d2237
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 044d7d2626ca0d04bb55b7a060d39e7ec330312d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768321"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840925"
 ---
 # <a name="session-table"></a>Session 表格
  

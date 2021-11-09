@@ -2,7 +2,7 @@
 title: 回應群組群組
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 回應群組中包含代理群組、佇列及工作流程。 代理人群組是指定給回應回應群組通話的人員群組。
-ms.openlocfilehash: 83e87a68c484cf57de05bbce6824ad043fade933
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 276bdd91edc34e20b47429ae9364c5068ddb8ce5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767051"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840435"
 ---
 # <a name="response-groups-group"></a>回應群組：群組
 

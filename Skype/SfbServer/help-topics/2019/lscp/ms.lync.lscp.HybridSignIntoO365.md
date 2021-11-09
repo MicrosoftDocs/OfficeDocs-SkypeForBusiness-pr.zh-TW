@@ -2,7 +2,7 @@
 title: 混合式嚮導登入 Microsoft 365 或 Office 365
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用商務用 Skype Server 混合式管理性嚮導，協助您設定環境，以搭配商務用 Skype 線上的混合環境。
-ms.openlocfilehash: 545cdd86397c5f8b358d87f2aef279fc11796e0b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ff188a77f2c6bf06d95499b62a5cdccf35275923
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742749"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840455"
 ---
 # <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>混合式嚮導：登入 Microsoft 365 或 Office 365
 

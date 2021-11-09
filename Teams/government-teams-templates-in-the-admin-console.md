@@ -1,6 +1,6 @@
 ---
 title: 在系統管理中心使用政府小組範本
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -19,18 +19,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 466eeb8c412bb09bf6eedcccb8becf49ff0c08a0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 819eb3297ae3b486e7c9d93053911c5090cfae29
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777193"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840745"
 ---
 # <a name="use-government-team-templates-in-the-admin-center"></a>在系統管理中心使用政府小組範本
 
 小組範本提供預先定義的設定、頻道和預先安裝應用程式範本，讓您快速且輕鬆地建立團隊。
 
-小組範本有預先建立的團隊結構定義，專為政府需求所設計。 您也可以擴充小組範本，以建立符合您特定組織需求的團隊。
+小組範本有預先建立的團隊結構定義，專為政府需求所設計。 您也可以擴充小組範本，以建立根據您的特定組織需求量身打造的團隊。
 
 本文介紹每個小組範本，並建議如何使用這些範本。
 
@@ -40,7 +40,7 @@ ms.locfileid: "60777193"
 
 ## <a name="coordinate-incident-response"></a>協調事件回應
 
-集中溝通和重要資源，以管理您的緊急事件或事件回應小組。 在這個小組中，您可以包含許多不同類型的檔案，協助建立所有檔的中央位置。 使用線上會議改善資訊流程及情境認知度。
+集中溝通和重要資源，以管理您的緊急事件或事件回應小組。 在這個小組中，您可以包含許多不同類型的檔案，協助建立所有檔的集中位置。 使用線上會議改善資訊流程及情境認知度。
 
 | 範本類型 |baseTemplateId | 此基本範本提供的屬性 |
 |-------------------|-------|---------------------------------------------------------------------------|

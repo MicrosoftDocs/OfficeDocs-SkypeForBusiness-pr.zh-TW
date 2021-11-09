@@ -2,7 +2,7 @@
 title: 選取宣告服務
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用 [選取宣告服務] 對話方塊選取可將來電處理至未指派號碼範圍的宣告服務。
-ms.openlocfilehash: 9b166b673554702728bf01f3a66fa871f76644a3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 888281b2195a419514124a999aae4097d25139d2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771201"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840425"
 ---
 # <a name="select-an-announcement-service"></a>選取宣告服務
  

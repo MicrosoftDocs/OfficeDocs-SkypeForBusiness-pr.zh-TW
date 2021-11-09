@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中的 Edge Server 系統需求
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 摘要：瞭解商務用 Skype Server 中 Edge Server 的系統需求。
-ms.openlocfilehash: 573c9c71493c4bed59ce6fbde4dafa95848b469f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f61412ab8246945e50af0276e46ac53ca080605c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763491"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863460"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>商務用 Skype Server 中的 Edge Server 系統需求
  

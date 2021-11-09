@@ -2,7 +2,7 @@
 title: PSTN 閘道設定展開工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯或修改公用交換電話網路 (PSTN) 閘道的設定，請修改下列欄位：
-ms.openlocfilehash: f26bc66b771b872f8601a7c9d6c8928781beca64
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 65835fc144fbe1ac0927abc39dc55a23d6a0fc95
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769201"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832497"
 ---
 # <a name="pstn-gateway-settings-expander"></a>PSTN 閘道設定展開工具
  

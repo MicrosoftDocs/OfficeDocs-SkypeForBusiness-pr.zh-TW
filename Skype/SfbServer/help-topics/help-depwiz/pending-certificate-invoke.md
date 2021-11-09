@@ -2,7 +2,7 @@
 title: 擱置的憑證 (叫用)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 description: '[執行命令] 頁面會顯示正在擷取擱置憑證的命令的狀態。工作完成時，將產生 [擷取擱置的憑證] 記錄檔。按一下 [檢視記錄檔] 來檢閱處理和工作完成狀態。按 [下一步] 繼續。'
-ms.openlocfilehash: ab5ffd29cecc206b0723b5e8daf69a5ffe628165
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 23bbfca4e36fffc12039bf220f863dfe1131530f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739649"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831087"
 ---
 # <a name="pending-certificate-invoke"></a>擱置的憑證 (叫用)
  

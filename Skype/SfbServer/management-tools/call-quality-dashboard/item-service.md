@@ -2,7 +2,7 @@
 title: 通話品質儀表板 (CQD) 的專案服務
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 摘要：瞭解專案服務，這是適用于通話品質儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: a0a6ddc923ebf55e5b11ea794398286ca1d19728
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 58d141930d98704eac101feb5d0fe8994284b587
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760601"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848436"
 ---
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>通話品質儀表板 (CQD) 的專案服務
  

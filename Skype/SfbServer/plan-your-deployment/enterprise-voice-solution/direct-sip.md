@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中的直接 SIP 連線
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: 企業語音中商務用 Skype Server 和兩部 PSTN 閘道和 IP-PBX 都支援直接 SIP 連線。
-ms.openlocfilehash: b08067518f4f9e60214a34d8220a7ae367978ee5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8a615197a01fafbdf29c838b28a6d12e06f37d00
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754450"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848396"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>商務用 Skype Server 中的直接 SIP 連線
 

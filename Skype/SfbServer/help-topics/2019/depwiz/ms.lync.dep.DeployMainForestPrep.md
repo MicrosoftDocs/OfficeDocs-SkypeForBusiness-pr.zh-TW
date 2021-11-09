@@ -2,7 +2,7 @@
 title: 準備目前的樹系
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要準備 Active Directory 網域服務樹系，您必須順利擴充架構（如執行架構準備的主題中所述），並確定架構已複製。
-ms.openlocfilehash: 65cb63a2ac2ea9273ed27f31fd679efe6e00ba3a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: edfca03fd9dac19bb73106a86d8fb981f30488f8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738669"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831557"
 ---
 # <a name="prepare-current-forest"></a>準備目前的樹系
 

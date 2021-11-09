@@ -2,7 +2,7 @@
 title: 將歡迎電子郵件傳送至商務用 Skype Server 中的撥入使用者
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 摘要：瞭解如何在商務用 Skype Server 中歡迎使用者使用電話撥入式會議。
-ms.openlocfilehash: 64dd7086b1a40de0c0cc2e0b33a66257153541cd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 672e386c223e2b5b9f872334634ac315c9e900e1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772069"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848536"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>將歡迎電子郵件傳送至商務用 Skype Server 中的撥入使用者
  

@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中的災難修復測試
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 為商務用 Skype Server 集區伺服器執行系統復原，以測試已記錄的災難修復程式
-ms.openlocfilehash: 94d4d4d1a832db3bb72a844818675dba04c214b9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2d6fa097061b470814887f1e13eaf4748de6e4f3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743449"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863500"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>商務用 Skype Server 中的災難修復測試
 
@@ -53,7 +53,7 @@ ms.locfileid: "60743449"
 
 若要協助容錯移轉，必須更新此 CNAME 記錄，以參考 DROCSPool FQDN：
 
-- CNAME： SIP。<domain> /DROCSPool.\<domain>
+- CNAME： SIP。\<domain> /DROCSPool.\<domain>
 - Sip。\<domain>
 - AV。\<domain>
 - webconf.\<domain>

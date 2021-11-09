@@ -2,7 +2,7 @@
 title: Office Web Apps Server 範圍節點
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 ROBOTS: NOINDEX, NOFOLLOW
 description: 以滑鼠右鍵按一下 [Office 網頁應用程式伺服器]，然後選取 [新增 Office web apps Server] 以開啟該嚮導。
-ms.openlocfilehash: f2ab79d43e1b9d9725aeeeff72af9e02e8f7a96c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8138d8973387a59462577bf42921f1877370004d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769211"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841625"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps Server 範圍節點
 

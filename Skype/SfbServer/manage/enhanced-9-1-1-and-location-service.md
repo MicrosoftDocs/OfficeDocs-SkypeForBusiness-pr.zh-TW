@@ -2,7 +2,7 @@
 title: 管理增強型9-1-1 與位置服務
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 商務用 Skype Server 支援從商務用 Skype 用戶端呼叫的增強型 9-1-1 (E9-1-1) 。 當您設定 E9-1-1 的商務用 Skype Server，緊急通話從商務用 Skype 中包含緊急回應位置 (ERL) 資訊從位置資訊服務資料庫。
-ms.openlocfilehash: cff19de879066163f53de6b8d51ef8384d451438
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5eb5fe86449147c38c5719976f202591f13a67fb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763771"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848526"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>在 Busines Server 的 Skype 中管理增強型9-1-1 與位置服務
 

@@ -2,7 +2,7 @@
 title: " (規劃工具的通話許可控制) "
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 ROBOTS: NOINDEX, NOFOLLOW
 description: 通話許可控制服務 (CAC) 會根據可用的網路頻寬，判斷是否允許建立即時通訊工作階段 (如語音或視訊通話)。
-ms.openlocfilehash: 0e84efb85bd64bb883690dcbe9f96003b2b731e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e72b64f595ebca9e83df722b09c14a7f971651cd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757775"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831347"
 ---
 # <a name="call-admission-control-planning-tool"></a> (規劃工具的通話許可控制) 
  

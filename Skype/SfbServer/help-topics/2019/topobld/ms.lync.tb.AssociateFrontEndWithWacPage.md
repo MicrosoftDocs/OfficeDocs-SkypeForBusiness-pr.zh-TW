@@ -2,7 +2,7 @@
 title: 建立前端與 Office Web Apps Server 的關聯頁面
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Office 網頁應用程式伺服器提供的服務類似于簡報者上傳檔，以用於會議，但是會啟用先前版本沒有的其他功能。
-ms.openlocfilehash: 970540429f82933f5ff455657ef8760a444b2bef
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0f0686326a7150bd87037e758b678b219542f3a0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738239"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831257"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>建立前端與 Office Web Apps Server 的關聯頁面
 

@@ -2,7 +2,7 @@
 title: 估計商務用 Skype Server 的語音使用狀況和流量
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 description: 您可以使用下列度量，評估每個網站的使用者流量，以及支援該流量所需的埠數目。
-ms.openlocfilehash: bfc5e35b839f3accc139f3f9a02fdb8436426462
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6c9dd60c2610e1c0a93e193f48b6363a0120255c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746849"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848406"
 ---
 # <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>估計商務用 Skype Server 的語音使用狀況和流量
  

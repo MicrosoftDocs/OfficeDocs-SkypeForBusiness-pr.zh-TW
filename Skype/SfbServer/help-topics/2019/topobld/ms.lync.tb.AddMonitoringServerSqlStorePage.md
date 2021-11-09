@@ -2,7 +2,7 @@
 title: 新增監控伺服器 SQL Server 存放區
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 監控伺服器需要支援的64位版本 SQL Server 資料庫軟體才能儲存監控資料。 您可以選擇要用於監視的先前定義的 SQL Server 資料庫，也可以指定 SQL Server 資料庫所在之伺服器 (FQDN) 的完整功能變數名稱，或定義新的 SQL Server 資料庫，除了您想要用於新 SQL Server 資料庫的 SQL Server 實例之外（也就是您指定 (的命名實例）。
-ms.openlocfilehash: 8e3fa8c78ac39828d3275568864c1281b4e53682
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 515f88f73e65f4d82e490484624adaa7369cc178
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772853"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855960"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>新增監控伺服器 SQL Server 存放區
 

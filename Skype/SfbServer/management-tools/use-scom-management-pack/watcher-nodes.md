@@ -2,7 +2,7 @@
 title: 如何安裝及設定觀察程式節點
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/20/2015
 audience: ITPro
@@ -13,15 +13,15 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
-description: 如何為商務用 Skype Server 綜合交易安裝及設定監視節點節點。
-ms.openlocfilehash: aca051b005c3ec9a901c5366a7788af5e95d06f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 說明為商務用 Skype Server 綜合交易安裝及設定監視節點的程式。
+ms.openlocfilehash: 9b0faf7f449bf75083d3b83e40c7807207ad51a1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766211"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833087"
 ---
-# <a name="how-to-install-and-configure-watcher-nodes"></a>如何安裝及設定觀察程式節點
+# <a name="learn-to-install-configure-watcher-nodes"></a>瞭解如何安裝、設定觀察程式節點
  
 **摘要：** 為商務用 Skype Server 綜合交易安裝及設定監視節點。
   

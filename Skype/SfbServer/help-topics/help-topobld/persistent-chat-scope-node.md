@@ -2,7 +2,7 @@
 title: 常設聊天室範圍節點
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 description: 若要開始建立新的 Persistent Chat Server 或 Persistent Chat Server 集區，請在拓撲產生器中，以滑鼠右鍵按一下 Persistent Chat 集區，然後選取 [新增持久聊天集區]。
-ms.openlocfilehash: 44c245e6d913b7569bd2a6f7f3f8ea4306e27cbb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: af8bdc498b098a9a716d7920e0f5ea83f2b686e9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747563"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857580"
 ---
 # <a name="persistent-chat-scope-node"></a>常設聊天室範圍節點
  

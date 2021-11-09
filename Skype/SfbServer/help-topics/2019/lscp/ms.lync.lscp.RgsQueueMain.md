@@ -2,7 +2,7 @@
 title: 回應群組佇列
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 回應群組中包含代理群組、佇列及工作流程。 回應群組佇列會將呼叫保留到回應群組，直到代理接聽來電為止。
-ms.openlocfilehash: f4b055650a027efed0534b6a0b4ff9b19b6001f4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f33df7df7a0c129bbe522c39d9612377e85774ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748719"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831387"
 ---
 # <a name="response-groups-queue"></a>回應群組佇列
 

@@ -1,6 +1,6 @@
 ---
 title: 在 Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何使用 Teams 管理您的Microsoft 365或Office 365部署Teams，包括如何將金鑰資源釘上為適當通道中的定位字元。
+description: 瞭解如何使用 Teams管理您的Microsoft 365或Office 365部署Teams，包括如何在適當的頻道中將金鑰資源釘上為定位字元。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a72fba1a2bfd8d0546d2f757df9a73b0aa55287e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 332c106ca8f3ea881bbef95805c1228a6687cc65
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749582"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832977"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>在 Microsoft Teams
 
-推動採用產品Teams使用產品。 我們建議您使用 Microsoft 365 管理Office 365部署Teams。 您也應該建立一個專注于團隊合作和生產力的員工社群。  (這些初始團隊可能會隨著時間而變更。) 建議的團隊有：
+推動採用產品Teams使用產品。 我們建議您使用 Microsoft 365 管理Microsoft 365或Office 365部署Teams。 您也應該建立一個專注于團隊合作和生產力的員工社群。  (這些初始團隊可能會隨著時間而變更。) 建議的團隊有：
 
 | 小組名稱 | 建議的頻道名稱 |
 | --------- | ---------------------- |
@@ -49,9 +49,9 @@ ms.locfileid: "60749582"
 | **Microsoft Teams部署** ||
 | 一般 | Web 選項卡[：Teams檔](./index.yml) |
 | 認識與採用 | [Teams採用中心](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams客戶成功套件](https://aka.ms/TeamsCustomerSuccess)|
-| 商務互動 | Wiki – 互動指南<br/>表單 – 要求Teams諮詢<br/>清單 – 互動要求 |
-|早期採用者 | 固定的意見回饋社群 <br/> OneNote常見問題和一般主題 |
-| 意見與報告 | 只有Microsoft 365或Office 365使用者 (已釘Microsoft 365 Office 365或)  |
+| 商務互動 | Wiki – 互動指南<br/>表單 – Teams諮詢<br/>清單 – 互動要求 |
+|早期採用者 | 固定的意見回饋社群 <br/> OneNote常見問題和常見主題 |
+| 意見回饋與報告 | 只有Microsoft 365或Office 365使用者 (已釘Microsoft 365或Office 365使用方式)  |
 | 安全性與合規性 | Microsoft 信任入口網站 <br/> [安全性與合規性檔](/office365/securitycompliance/index)<br/> [路線 圖](/office365/securitycompliance/security-roadmap) |
 | 策略與規劃 | 共同合作北星PowerPoint <br/> 服務採用Project方案 |
 | 訓練 | 自訂學習訓練入口網站 <br/> [Teams 線上訓練](https://aka.ms/TeamsTraining) |
@@ -62,8 +62,8 @@ ms.locfileid: "60749582"
 | 社交中心 | RSS 連接器：Teams部落格和推動採用部落格 |
 | 訓練與方法 | 您的訓練入口網站連結 |
 
-## <a name="making-the-switch-to-microsoft-teams"></a>切換至Microsoft Teams
+## <a name="making-the-switch-to-microsoft-teams"></a>切換到 Microsoft Teams
 
-當您開始使用Teams時，您和專案小組的其餘部分必須承諾使用 Teams 聊天、頻道和資源來執行專案。 您自己的使用Teams對於採用專案的品質至關重要。 我們建議您在電子郵件中繼續與核心專案小組交談，來拒絕分散您的專案。 切換至Teams，您將為最終想讓員工接受的行為建立模型。 設定語調，先開始，開始享受將專案資訊放在同一個地方！  
+當您開始使用Teams時，您和專案小組的其餘部分必須承諾使用 Teams 聊天、頻道和資源來執行專案。 您自己的使用Teams對於採用專案的品質至關重要。 我們建議您在電子郵件中繼續與核心專案小組交談，來拒絕分散專案。 切換至Teams，您將為最終希望員工接受的行為建立模型。 設定語調，先開始，開始享受將專案資訊放在同一個地方！  
 
-![描繪下一個步驟的圖示。](media/teams-adoption-next-icon.png) 下[一步：貴組織準備好Microsoft Teams？](teams-adoption-assess-readiness.md)
+![描繪下一個步驟的圖示。](media/teams-adoption-next-icon.png) 下一[步：貴組織準備好Microsoft Teams？](teams-adoption-assess-readiness.md)

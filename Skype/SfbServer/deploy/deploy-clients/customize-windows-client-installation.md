@@ -2,7 +2,7 @@
 title: 自訂商務用 Skype Server 中的 Windows 用戶端安裝
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
 description: 摘要：商務用 Skype 安裝方法及工具的概述。
-ms.openlocfilehash: ba859ba9aa73b69caa471d698a9980719ba6cdea
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b0eeae1ae0e758c14ea6ae5adc3be6cbf5c36c2d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773343"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832917"
 ---
 # <a name="customize-windows-client-installation-in-skype-for-business-server"></a>自訂商務用 Skype Server 中的 Windows 用戶端安裝
  

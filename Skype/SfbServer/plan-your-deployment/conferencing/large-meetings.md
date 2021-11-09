@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中規劃大型會議
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 摘要：閱讀此主題以瞭解在商務用 Skype Server 中實施及管理大型會議的最佳作法。
-ms.openlocfilehash: 1196c1d5b2ff4fe6456d03f698b80589ef428b24
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a9ab532914a69f70cea6d54fb7935a7d8a44c98d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762221"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856540"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃大型會議
  

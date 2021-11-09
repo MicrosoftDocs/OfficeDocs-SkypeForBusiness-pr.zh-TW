@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 的公用金鑰基礎結構
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: 商務用 Skype Server 取決於伺服器驗證的憑證，並在用戶端與伺服器之間，以及不同的伺服器角色間建立信任鏈。 Windows Server 2012 R2、Windows Server 2012、Windows Server 2008 R2 及 Windows Server 2008 公開金鑰基礎結構 (PKI) 提供基礎結構，用以建立及驗證此信任鏈。
-ms.openlocfilehash: 8fda6b3781c32b681e088b22c624b490d9bbd84b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 61381840d6c82ce26f0b8e7e5210ebd37c3532c0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763451"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840955"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>商務用 Skype Server 的公用金鑰基礎結構
  
