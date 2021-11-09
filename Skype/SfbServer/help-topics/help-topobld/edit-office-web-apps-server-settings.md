@@ -2,7 +2,7 @@
 title: 編輯 Office Web Apps Server 設定
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 8/19/2016
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 您可以編輯已設定 Office Web Apps Server 的屬性。 您可以編輯下列內容：
-ms.openlocfilehash: efc4982ba40d6b0b2467d0540d9697e3ea19f0cb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7174dbb5949bd8e8033193adf21267fa0735f99b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743699"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860340"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>編輯 Office Web Apps Server 設定
 

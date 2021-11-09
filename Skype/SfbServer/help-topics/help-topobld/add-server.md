@@ -2,7 +2,7 @@
 title: 新增伺服器
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 description: 若要將新的伺服器新增至下列其中一種伺服器的現有集區：
-ms.openlocfilehash: 04a6412419ba9828dbb4dea70fcd4b30604c2213
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dc09530eec1b46fd6ab357997a6c4d8be8860016
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772279"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860350"
 ---
 # <a name="add-server"></a>新增伺服器
  
