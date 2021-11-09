@@ -2,7 +2,7 @@
 title: UCWA 商務用 Skype Server 中的事件
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
 description: 摘要：瞭解商務用 Skype Server 中的整合通訊網頁 API (UCWA) 。
-ms.openlocfilehash: 32022d44635e9560e28723812c1247fda38cf00d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f4e1cfb344d8b27f2fef63f0c1c45ce1e4639627
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763621"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853017"
 ---
 # <a name="ucwa-events-in-skype-for-business-server"></a>UCWA 商務用 Skype Server 中的事件
  

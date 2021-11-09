@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中的會議摘要子報告
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
 description: 摘要：瞭解商務用 Skype Server 中的會議摘要子報表。
-ms.openlocfilehash: ef5f444c85cd64d990a8a2aa642d0a1554cec5dc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6c2161287b3446d5b7cba28e984ad50cd3a136e9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765412"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838625"
 ---
 # <a name="conference-summary-subreport-in-skype-for-business-server"></a>商務用 Skype Server 中的會議摘要子報告
  

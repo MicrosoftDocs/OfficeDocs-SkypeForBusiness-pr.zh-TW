@@ -2,7 +2,7 @@
 title: 常設聊天室電腦展開工具
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 description: 您可以使用 [機器狀態設定] 中所列的伺服器或集區，啟動或停用已部署的持久聊天伺服器或 Persistent Chat Server 集區。 從清單中選取伺服器或集區，然後按一下 [成為作用中] 按鈕，即可將伺服器或集區設為作用中。
-ms.openlocfilehash: 39d1ae3c72d387dea016ee4d76aeb14a6e7b12d1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8615ec5f0996e7d06db91f3cd5850cc147e75e0b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763921"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853117"
 ---
 # <a name="persistent-chat-machines-expander"></a>常設聊天室電腦展開工具
  

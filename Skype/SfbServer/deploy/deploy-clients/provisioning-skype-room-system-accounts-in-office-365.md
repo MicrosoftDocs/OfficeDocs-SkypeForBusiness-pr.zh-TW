@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft 365 和 Office 365 中布建 Skype 會議室系統帳戶
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 閱讀此主題以瞭解如何在 Microsoft 365 或 Office 365 中布建 Skype 會議室系統帳戶。
-ms.openlocfilehash: 1f4262453735baa08e16e7da03909e48ef12f4ff
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 77416d34c3b478f0013cf41c63dcebd52e52f3ce
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758115"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853767"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>在 Microsoft 365 和 Office 365 中布建 Skype 會議室系統帳戶
  

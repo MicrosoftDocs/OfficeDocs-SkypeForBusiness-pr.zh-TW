@@ -2,7 +2,7 @@
 title: 商務用 Skype Server 中的媒體質量摘要報告
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 description: 摘要：瞭解商務用 Skype Server 中的媒體質量摘要報告。
-ms.openlocfilehash: 7dad97de5c763dd578b90559653606911e03c78a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7ee64f9654e2f21a45c173c4a51ed5e40131b874
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765401"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838615"
 ---
 # <a name="media-quality-summary-report-in-skype-for-business-server"></a>商務用 Skype Server 中的媒體質量摘要報告
  

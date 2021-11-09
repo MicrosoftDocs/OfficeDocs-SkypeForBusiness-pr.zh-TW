@@ -1,6 +1,6 @@
 ---
 title: 使用者體驗品質|Microsoft Teams |QoS |通話品質
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 48bc26e01559d30e07e580f5adbe266506280c4e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: edc277a80ed9659281c46729646f3cbdfe95d725
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760371"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865532"
 ---
 # <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南
 
-![強調升級過程中營運優化階段的圖表。](media/upgrade-banner-op-excellence.png "升級旅程的階段，強調營運優化階段")
+![強調升級過程中營運優化階段的圖表。](media/upgrade-banner-op-excellence.png "升級歷程的階段，強調營運優化階段")
 
 本文是升級過程中營運優化階段的一部分，一旦完成從 商務用 Skype 升級到 Teams。
 
@@ -39,7 +39,7 @@ ms.locfileid: "60760371"
 
 ![在審查期間要檢查的重要區域圖例。](media/plan-my-service-management-image2.png "在體驗品質檢閱期間要檢查的主要領域：音訊、可靠性及使用者問卷結果。")
 
-您可以持續評估及補救指南所述區域，以減少其潛在影響使用者體驗。 部署中遇到的大多數使用者體驗問題可以分成下列類別：
+您可以持續評估及補救指南所述區域，以降低其潛在性，對使用者體驗造成負面影響。 部署中遇到的大多數使用者體驗問題可以分成下列類別：
 
 - 不完整的防火牆或 Proxy 組
 

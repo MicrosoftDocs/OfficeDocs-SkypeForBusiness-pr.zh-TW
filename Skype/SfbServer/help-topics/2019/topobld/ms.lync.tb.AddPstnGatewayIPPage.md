@@ -2,7 +2,7 @@
 title: 定義 IP 或 PSTN 閘道的 IP 位址
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 ROBOTS: NOINDEX, NOFOLLOW
 description: 透過選取 [啟用 IPv4] 或 [啟用 IPv6]，即可定義 IP 或公用交換電話網路 (PSTN) 閘道的 IPv4 或 IPv6 位址。您可以選擇 [使用所有設定的 IP 位址] 或 [將服務使用方式限制為選取的 IP 位址]。
-ms.openlocfilehash: 3a88ce03cde7d4da4e4dec4959f84548ebf8288b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f6cceeba24106f4dea82e6f5c42832313ea6c533
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750752"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837035"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>定義 IP 或 PSTN 閘道的 IP 位址
 

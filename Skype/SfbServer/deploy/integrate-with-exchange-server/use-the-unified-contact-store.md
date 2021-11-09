@@ -2,7 +2,7 @@
 title: 設定商務用 Skype Server 以使用整合連絡人存放區
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 摘要：設定 Exchange Server 和商務用 Skype Server 的整合連絡人存放區。
-ms.openlocfilehash: d75db18a799d1384a88a0b66cd1cd73d5e01c639
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ed28f57350e2ce1d7ed5f92d712bdf5ecc7f3de4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765831"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853667"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>設定商務用 Skype Server 以使用整合連絡人存放區
  

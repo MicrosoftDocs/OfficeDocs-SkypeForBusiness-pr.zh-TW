@@ -2,7 +2,7 @@
 title: 商務用 Skype Server：設定沒有媒體旁路的主幹
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 摘要：設定沒有為商務用 Skype Server 啟用媒體旁路的主幹。
-ms.openlocfilehash: 09d178cf2deeb27ec47c39090f7dcc233af3cbb0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bccc88e442532ebf9a2c503fa851965447eb1e85
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759115"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839115"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>商務用 Skype Server：設定沒有媒體旁路的主幹
 

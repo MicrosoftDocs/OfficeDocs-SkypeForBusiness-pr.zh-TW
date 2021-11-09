@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams瀏覽器上的會議
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
@@ -16,21 +16,21 @@ search.appverid: MET150
 description: 瞭解如何Teams瀏覽器支援音訊和視音訊。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 213de938360754efd95b5fb460c0cf5a3c735203
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 51ba0ede8df0548288b2519d76220f50f28e4abe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740139"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837445"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams瀏覽器上的會議
 
-某些瀏覽器 ，例如 Internet Explorer 11、Safari 和 Firefox 支援 Microsoft Teams Web App，但不支援部分 Teams 通話和會議功能。 若要解決這項限制，Teams Web App 可讓使用者透過 PSTN 連接接收音訊，並讓他們以降低的顯示 (螢幕) 分享內容。
+某些瀏覽器 ，例如 Internet Explorer 11、Safari 和 Firefox，支援 Microsoft Teams Web App，但不支援部分 Teams通話和會議功能。 若要解決這項限制，Teams Web App 可讓使用者透過 PSTN 連接接收音訊，並讓他們以降低的顯示 (螢幕) 分享內容。
 
 > [!Note]
-> Microsoft 365應用程式和服務不支援 Internet Explorer 11，自 2021 年 8 月 17 日起 (Microsoft Teams自 202) 0 年 11 月 30 日起 (Microsoft Teams將不支援 Internet Explorer 11。 [深入了解](https://aka.ms/AA97tsw)。 請注意，Internet Explorer 11 仍然是受支援的瀏覽器。 Internet Explorer 11 是作業系統Windows元件，並遵循其[](/lifecycle/faq/internet-explorer-microsoft-edge)安裝之產品的生命週期政策。
+> Microsoft 365應用程式和服務不支援 Internet Explorer 11，自 2021 年 8 月 17 日起 (Microsoft Teams自 2020 年 11 月 3) 0 日起 (Microsoft Teams將不支援 Internet Explorer 11。 [深入了解](https://aka.ms/AA97tsw)。 請注意，Internet Explorer 11 仍然是受支援的瀏覽器。 Internet Explorer 11 是作業系統Windows元件，並遵循其安裝[](/lifecycle/faq/internet-explorer-microsoft-edge)之產品的生命週期策略。
 
-當您Teams不支援的瀏覽器時，瀏覽器會自動顯示一則訊息，說明問題與會話限制。 此訊息提供存取會議音訊的進一步指示，例如建議使用者留下回電號碼，Teams 可以打電話給使用者，或指示使用者撥打會議邀請中包含的會議號碼。 訊息也會鼓勵使用者下載並使用Teams[桌面用戶端](https://teams.microsoft.com/downloads)，以獲得完整的Teams體驗。
+當您Teams不支援的瀏覽器時，瀏覽器會自動顯示一則訊息，說明問題與會話限制。 此訊息提供存取會議音訊的進一步指示，例如建議使用者留下回電號碼，讓 Teams 可以打電話給使用者，或指示使用者撥打會議邀請中包含的會議號碼。 訊息也會鼓勵使用者下載並使用桌面Teams[用戶端](https://teams.microsoft.com/downloads)，以獲得完整的Teams體驗。
 
 如果 PSTN 無法使用，使用者將看不到存取會議的指示，且無法加入會議。
 
@@ -46,7 +46,7 @@ ms.locfileid: "60740139"
 - 如果通話中斷，會議不會自動重新連接。
 - 使用者無法開始會議。
 
-如想進一Teams瀏覽器支援，請參閱適用于 Teams[的限制Teams。](./limits-specifications-teams.md#browsers)
+如想進一Teams瀏覽器支援，請參閱適用于[Teams 的限制Teams。](./limits-specifications-teams.md#browsers)
 
 ## <a name="related-topics"></a>相關主題
 

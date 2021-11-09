@@ -2,7 +2,7 @@
 title: 新增 Edge Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
 description: 若要將 Edge Server 或 Edge Server 集區併入拓撲設計，您必須指定要部署 Edge Server 或 Edge Server 集區之伺服器的完整功能變數名稱 (FQDN) 。 在發佈包含 Edge server 或 edge server 集區的拓撲，並安裝商務用 Skype Server 之前，您必須完成部署外部使用者存取的所有必要條件。 如需這些必要條件的詳細資訊，請參閱部署檔中的在周邊網路中安裝伺服器的準備。
-ms.openlocfilehash: 4436ce21de7402b53cd256224000457a06a2aa91
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 04ab27281bd382b95ec088a9db995237d6ff7d6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770541"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837865"
 ---
 # <a name="add-edge-server"></a>新增 Edge Server
 

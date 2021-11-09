@@ -2,7 +2,7 @@
 title: 在商務用 Skype 中規劃宣告應用程式
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: 在商務用 Skype Server 企業語音中規劃宣告應用程式，以設定組織中未指派電話號碼的電話的處理方式。 包括音訊檔需求。
-ms.openlocfilehash: 26dbd9a0bf1513812cb08034216194ca67a92b39
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6dc2317c170585c6688e04b191182cf7ae500b12
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778093"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838495"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>在商務用 Skype 中規劃宣告應用程式
 

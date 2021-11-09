@@ -1,6 +1,6 @@
 ---
 title: 管理會議設定
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: sonua
@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: 6e3314ee7e1b36f98da45806361aa29829690710
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7b12dfacc5b9bd6ebe5bb0e3de17a40bb0148ef0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753930"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839735"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -65,7 +65,7 @@ ms.locfileid: "60753930"
 
 1. 移至系統管理中心。
 
-2. 在左側瀏覽中，移至 [會議 **]**  >  [會議設定 **]**。
+2. 在左側導覽中，移至 [會議]  >  [會議設定]。
 
 3. 在 [參與者 **]** 中，可以變更 [匿名使用者可以在會議中使用應用程式進行互動 **]** 設定。
 

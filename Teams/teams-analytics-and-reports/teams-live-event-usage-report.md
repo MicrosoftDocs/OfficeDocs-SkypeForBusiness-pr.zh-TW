@@ -1,6 +1,6 @@
 ---
 title: Microsoft Teams活動使用方式報告
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -17,12 +17,12 @@ description: 瞭解如何使用 Teams 系統管理中心Microsoft Teams即時活
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a6c533a9c07c1c620dbc1bd2d26919bbf5251cf3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e46c0e55eb4808f3c0b112dae72049649fc7f4a8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763021"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865542"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams活動使用方式報告
 
@@ -35,7 +35,7 @@ ms.locfileid: "60763021"
 3.  (選) 在召集人 **下，您可以選擇** 只顯示由特定使用者組織的即時活動。
 4. 按一下 **[執行報表**> 。  
 
-    ![系統管理中心Teams即時活動使用方式報表的螢幕擷取畫面Teams圖說文字。](../media/teams-live-event-usage-report-with-callouts.png "系統管理中心Teams即時活動使用方式報表的螢幕擷取畫面Teams圖")
+    ![系統管理中心Teams活動使用方式報表的螢幕擷取畫面Teams圖。](../media/teams-live-event-usage-report-with-callouts.png "系統管理中心Teams活動使用方式報表的螢幕擷取畫面Teams圖說文字")
 
 ## <a name="interpret-the-report"></a>解譯報表
 

@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中管理健康情況與監控
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 摘要：瞭解商務用 Skype Server 中的監控與健康情況設定工作。
-ms.openlocfilehash: 7484d28a3cf1ba457cf297d89c97fcb21e387be5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1ca2f553a4b438b4aaaa6d16d98dc575705d4b0d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767681"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837545"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>在商務用 Skype Server 中管理健康情況與監控
 

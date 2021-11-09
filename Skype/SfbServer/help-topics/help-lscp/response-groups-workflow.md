@@ -2,7 +2,7 @@
 title: 回應群組工作流程
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 description: 回應群組中包含代理群組、佇列及工作流程。 回應群組工作流程定義回應群組應用程式接聽電話時所採取的動作。
-ms.openlocfilehash: 07f3612a2d4ef5359cb1054b75df7922ebb84131
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0683cad93475ff23bca20acd6f90cee6a60139f0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740879"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838715"
 ---
 # <a name="response-groups-workflow"></a>回應群組工作流程
 

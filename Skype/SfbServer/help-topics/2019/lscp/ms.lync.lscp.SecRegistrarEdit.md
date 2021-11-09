@@ -2,7 +2,7 @@
 title: 註冊機構安全性設定建立新的或編輯現有
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: be480209-e0f4-4c2a-9f95-b0345ee01135
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: c3836c0f7d38f22edcbacbe179fbe1c26f39a2e9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dd95b9ff88da0ed27c2b9fb1fd052dd20588e02e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748709"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853557"
 ---
 # <a name="registrar-security-settings-create-new-or-edit-existing"></a>註冊機構安全性設定：建立新的或編輯現有
 

@@ -2,7 +2,7 @@
 title: 部署及設定商務用 Skype Server 的行動性
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: 本文將逐步逐步指導您設定現有的商務用 Skype Server 安裝以使用行動裝置服務，讓行動裝置能夠利用商務用 Skype Server 行動功能。
-ms.openlocfilehash: 598a6b1879f08bb27a0ef5cb44a5033bc3e0339e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b4ca8b229fb0d6fc15305bb15c32466a678955f3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741499"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865421"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>部署及設定商務用 Skype Server 的行動性  
  
@@ -317,7 +317,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
     
    - **接受要求**，但應為功能變數名稱。
     
-   - 您應輸入 lyncdiscover 的 **名稱** **。** <sipdomain> (這是) 的外部自動探索服務 URL。 現在，如果您要為前端集區上的外部 Web 服務 URL 建立規則，您必須在前端集區上輸入外部 Web 服務的 FQDN (例如，lyncwebextpool01.contoso.com) 。
+   - 您應輸入 lyncdiscover 的 **名稱** **。**\<sipdomain>  (這是) 的外部自動探索服務 URL。 現在，如果您要為前端集區上的外部 Web 服務 URL 建立規則，您必須在前端集區上輸入外部 Web 服務的 FQDN (例如，lyncwebextpool01.contoso.com) 。
     
    - 會有一個 **路徑** 選項，您必須在 **/\\** 這裡輸入 *。
     
@@ -363,7 +363,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
     
    - **接受要求**，但應為功能變數名稱。
     
-   - 您應輸入 lyncdiscover 的 **名稱** **。** <sipdomain> (這是) 的外部自動探索服務 URL。
+   - 您應輸入 lyncdiscover 的 **名稱** **。**\<sipdomain>  (這是) 的外部自動探索服務 URL。
     
    - 會有一個 **路徑** 選項，您必須在 **/\\** 這裡輸入 *。
     
@@ -463,7 +463,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
    Test-CsMcxP2PIM -TargetFqdn pool01.contoso.com -Authentication Negotiate -SenderSipAddress sip:UserName1@contoso.com -SenderCredential $tuc1 -ReceiverSipAddress sip:UserName2@contoso.com -ReceiverCredential $tuc2 -v
    ```
 
-若要進一步複查命令過程，您可以取出 [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) 和 [Test-CsMcxP2PIM](/powershell/module/skype/test-csmcxp2pim?view=skype-ps)。
+若要進一步複查命令過程，您可以取出 [Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference) 和 [Test-CsMcxP2PIM](/powershell/module/skype/test-csmcxp2pim)。
   
 ## <a name="configure-for-push-notifications"></a>設定推入通知
 <a name="ConfigPush"> </a>
@@ -592,7 +592,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
     > [!NOTE]
     > 您可以在不關閉行動存取的情況下，關閉工作的來電。 不過，您不能關閉行動性，也不會關閉「從公司通話」。 
   
-    如需詳細資訊，請參閱 [Set-CsMobilityPolicy](/powershell/module/skype/set-csmobilitypolicy?view=skype-ps)。
+    如需詳細資訊，請參閱 [Set-CsMobilityPolicy](/powershell/module/skype/set-csmobilitypolicy)。
     
 ### <a name="modify-mobility-policy-by-site"></a>依網站修改行動性原則
 
@@ -606,7 +606,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
    New-CsMobilityPolicy -Identity site:<site identifier> -EnableIPAudioVideo $false -RequireWiFiForIPAudio $True -RequireWiFiforIPVideo $True
    ```
 
-    若要深入瞭解，請參閱 [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps)。
+    若要深入瞭解，請參閱 [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy)。
     
 ### <a name="modify-mobility-policy-by-user"></a>依使用者修改行動性原則
 

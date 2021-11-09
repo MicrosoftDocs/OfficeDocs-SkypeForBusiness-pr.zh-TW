@@ -1,7 +1,7 @@
 ---
 title: Skype會議室系統管理性及工具
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: 閱讀此主題以瞭解 Skype 會議室系統的管理工具。
-ms.openlocfilehash: 04b609e14b6ccffb5224a3041b1e8be25dcf7574
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 976ed518941ded1278bf34a1c991a20adb8a0d8c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758135"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865410"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype會議室系統管理性及工具
  

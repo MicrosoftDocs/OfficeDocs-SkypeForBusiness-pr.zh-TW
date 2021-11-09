@@ -2,7 +2,7 @@
 title: 新增 Edge 電腦內部 IP 2010
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 31b0ac1d-f320-4677-bd0f-b4b0dc84a6a2
 description: 使用此頁面指定 Edge Server 的內部 IP 位址和內部完整網域名稱 (FQDN)。
-ms.openlocfilehash: 8c54483ad8d5b7033dfe8ab224e03fdc8b79d798
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 573cad66a283c328991a7c7b634da39ae24639bb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774083"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852187"
 ---
 # <a name="add-edge-machine-internal-ip-2010"></a>新增 Edge 電腦內部 IP 2010
 

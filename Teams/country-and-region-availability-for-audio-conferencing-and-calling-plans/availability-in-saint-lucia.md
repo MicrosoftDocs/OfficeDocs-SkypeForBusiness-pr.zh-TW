@@ -1,6 +1,6 @@
 ---
 title: 在聖露西亞的可用性
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
-ms.openlocfilehash: 9a75204e41d98f27bbb73c26b65262c7d29f3093
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 11e5b37535ed3258ff388c0cfde55209021169b9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765021"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852757"
 ---
 # <a name="availability-in-saint-lucia"></a>在聖露西亞的可用性
 

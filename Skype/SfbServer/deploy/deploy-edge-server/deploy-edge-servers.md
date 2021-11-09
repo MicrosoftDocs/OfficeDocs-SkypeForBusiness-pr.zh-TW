@@ -2,7 +2,7 @@
 title: 在商務用 Skype Server 中部署 Edge server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 摘要：瞭解如何將 Edge server 部署到您的商務用 Skype Server 環境中。
-ms.openlocfilehash: db09f8560b41fd43a7d005b70866888e0db27c75
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 30beb7b42b2f77e82d83768d918102cbaa0f7f5e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773323"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852727"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 Edge server
  
@@ -327,7 +327,7 @@ Edge Server 的憑證需求可在 Edge 憑證規劃檔中找到。 以下是設�
     
 &nbsp;&nbsp;&nbsp;J。 在 [ **主體名稱/主體替代名稱** ] 頁面上，嚮導應該會自動填入必要的資訊。
     
-&nbsp;&nbsp;&nbsp;K。 在 [ **主體別名] 上的 [SIP 網域設定] (SANs)** ] 頁面上，選取 [網域] 核取方塊，以新增 SIP。<sipdomain> 專案的主體替代名稱清單。
+&nbsp;&nbsp;&nbsp;K。 在 [ **主體別名] 上的 [SIP 網域設定] (SANs)** ] 頁面上，選取 [網域] 核取方塊，以新增 SIP。\<sipdomain> 專案的主體替代名稱清單。
     
 &nbsp;&nbsp;&nbsp;我。 在 [ **設定其他主體替代名稱** ] 頁面上，您需要新增任何所需的主體替代名稱。
     

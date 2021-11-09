@@ -2,7 +2,7 @@
 title: 驗證樹系準備中的複寫
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要確認在樹系準備過程中，通用類別目錄的複寫和物件的建立已成功，請執行下列操作：
-ms.openlocfilehash: 31164e51cd3de60ce25313f726fc9c7ba086f299
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f56b2d81029a5518e01eea62a47690081318ac3c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738539"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838995"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>驗證樹系準備中的複寫
  

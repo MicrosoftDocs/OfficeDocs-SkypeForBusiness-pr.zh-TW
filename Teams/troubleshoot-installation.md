@@ -1,6 +1,6 @@
 ---
 title: 針對 Windows 上的 Microsoft Teams 安裝和更新問題進行疑難排解
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: lenatarhun
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 瞭解如何針對 Windows 上的 Teams 桌面用戶端應用程式進行安裝和更新問題的疑難排解。
-ms.openlocfilehash: f65e4b6d6bebd463d143bedc1b1cd50f031cb299
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 71a7162e243779ae779a4e0224d54955ec611e07
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777153"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865441"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>針對 Windows 上的 Microsoft Teams 安裝和更新問題進行疑難排解
 
@@ -123,7 +123,7 @@ Teams 可以自動啟動更新程序 (視原則而定)，使用者也可以移�
 - 若要確認這就是您遇到的問題，請結束 Teams (在工作列上以右鍵按一下 Teams，然後按一下 [結束])。 然後在 Windows 中開啟工作管理員，查看 Teams 執行個體是否仍在執行。  
 - 如果您不在發生此問題的電腦上，請檢查發生此問題的電腦收集的 SquirrelTemp.log，並尋找 "Program: Unable to terminate the process in the log" (程式: 無法終止記錄中的處理程序) 項目。
 - 若要判斷導致 Teams 無法結束的原因，請查看 Dll.txt 和 Handles.txt 記錄。 這些記錄會告訴您導致 Teams 無法結束的處理程序。
-- 導致 Teams 無法結束的另一個可能原因是核心模式檔案系統篩選器驅動程式。 您可以使用 SysInternals 工具 [ProcDump](/sysinternals/downloads/procdump)，執行 ```procdump -mk <pid>``` (其中 <pid> 是從工作管理員取得的處理程序識別碼) 收集核心模式處理程序傾印。 您也可以檢查 Driverquery.txt 記錄檔，查看可能干擾 Teams 的作用中篩選器驅動程式。
+- 導致 Teams 無法結束的另一個可能原因是核心模式檔案系統篩選器驅動程式。 您可以使用 SysInternals 工具 [ProcDump](/sysinternals/downloads/procdump)，執行 ```procdump -mk <pid>``` (其中 \<pid> 是從工作管理員取得的處理程序識別碼) 收集核心模式處理程序傾印。 您也可以檢查 Driverquery.txt 記錄檔，查看可能干擾 Teams 的作用中篩選器驅動程式。
 - 若要從此狀態復原，請重新啟動電腦。
 
 #### <a name="file-permissions"></a>檔案權限

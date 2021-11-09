@@ -2,7 +2,7 @@
 title: 在商務用 Skype 中建立或修改通話駐留軌道範圍
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: 在商務用 Skype Server 企業語音中建立或修改通話駐留軌道範圍表。
-ms.openlocfilehash: 3962ecf42e704b09f3f28451be667fe714ce4817
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ffe4a47a099099d31fdd55d23a95065549233f92
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745379"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839695"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>在商務用 Skype 中建立或修改通話駐留軌道範圍
 

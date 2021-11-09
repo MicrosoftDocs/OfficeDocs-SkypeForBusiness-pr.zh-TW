@@ -2,7 +2,7 @@
 title: 新增信任的應用程式集區 FQDN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要為信任的應用程式集區定義完整網域名稱 (FQDN)，請指定下列設定：
-ms.openlocfilehash: 2f08944c55d5a265c01f449c062a1e6d411cc533
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f23a09f3c7d73cf81912026a584942a917106f5e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776793"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837107"
 ---
 # <a name="add-trusted-application-pool-fqdn"></a>新增信任的應用程式集區 FQDN
  

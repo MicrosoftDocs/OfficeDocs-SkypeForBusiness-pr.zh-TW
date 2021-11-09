@@ -1,13 +1,13 @@
 ---
 title: Teams 用戶端體驗和遵從共存模式
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 audience: admin
-description: 瞭解Teams模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) 的一致性。
+description: 瞭解Teams用戶端體驗與共存模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) 。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,35 +20,35 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92bbcc1f10088b7a010d8b715f3ab24be0aca599
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d346f8f6259eef89b798bec6298f1c1fde0ac0a5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774393"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865652"
 ---
 # <a name="teams-client-experience-and-conformance-to-coexistence-modes"></a>Teams 用戶端體驗和遵從共存模式
 
 <a name="about-upgrade-basic"></a>
 
-商務用 Skype 共存模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) 的目的是在組織從 商務用 Skype 轉換到 Teams 時，為使用者提供簡單且可預測的體驗。  對於移往 Teams 的組織 **，Teams** 只有模式是每個使用者的最終目的地，但並非所有使用者都需要同時指派 **Teams** (或其他任何模式) 。  在使用者到達 TeamsOnly 模式之前，組織可以使用任何 商務用 Skype 共存模式，以確保只有 Teams 使用者與尚未使用的使用者之間可以預測通訊。 
+商務用 Skype 共存模式 (SfBOnly、SfBWithTeamsCollab、SfBWithTeamsCollabAndMeetings) 的目的是在組織從 商務用 Skype 轉換到 Teams 時，為使用者提供簡單且可預測的體驗。  對於移往 Teams 的組織 **，Teams** 僅提供模式是每個使用者的最終目的地，但並非所有使用者都需要同時指派 **Teams** (或其他任何模式) 。  在使用者到達 TeamsOnly 模式之前，組織可以使用任何 商務用 Skype 共存模式，以確保只有 Teams 使用者與尚未使用的使用者之間可以預測通訊。 
 
-當使用者在任一模式商務用 Skype，所有傳入的聊天和通話會路由至使用者的商務用 Skype用戶端。 為了避免使用者混淆並確保適當的路由，當使用者處於任何一種Teams用戶端中的通話和聊天功能會停用商務用 Skype模式。 同樣地，當使用者處於 SfBOnly 或 SfBWithTeamsCollab 模式時，Teams 中的會議排程會明確停用，且當使用者處於 SfBWithTeamsCollabAndMeetings 模式時，會明確啟用。
+當使用者在任一模式商務用 Skype，所有傳入的聊天和通話會路由至使用者的商務用 Skype用戶端。 若要避免使用者混淆並確保正確的路由，使用者處於任一模式時Teams用戶端中的通話和聊天功能會商務用 Skype停用。 同樣地，當使用者處於 SfBOnly 或 SfBWithTeamsCollab 模式時，Teams 中的會議排程會明確停用，且當使用者處於 SfBWithTeamsCollabAndMeetings 模式時，會明確啟用。
 
-由於目前狀態是透過聊天和通話的可及性表示，因此當聊天和通話停用時，Teams (中的自我目前狀態，也就是說，使用者圖片) 中的 Teams 用戶端中顯示自己的目前狀態也會隱藏。 
+由於目前狀態是透過聊天和通話的可及性表示，因此當聊天和通話停用時，Teams (中的自我目前狀態，亦即使用者圖片) 中 Teams 用戶端中自己的目前狀態顯示也會隱藏。 
 
 ## <a name="how-the-available-functionality-in-teams-client-changes-based-on-mode"></a>用戶端中的可用功能Teams模式變更
 
-此模式中可用的Teams取決於使用者的共存模式，如 TeamsUpgradePolicy 所設定。 下表摘要列出行為：
+系統Teams功能取決於使用者的共存模式，如 TeamsUpgradePolicy 所設定。 下表摘要列出行為：
 
-|使用者的有效模式|用戶端Teams體驗|
+|使用者的有效模式|在用戶端Teams體驗|
 |---|---|
 |任何商務用 Skype模式|通話、聊天和自我目前狀態已停用。|
 |SfBWithTeamsCollabAndMeetings|會議排程可供使用|
 |SfBWithTeamsCollab 或 SfBOnly<sup>1</sup>|會議排程不可用|
 |||
 
-下列螢幕擷取畫面說明唯一或Teams **模式與** 所有其他模式的差異。  請注意，聊天和通話圖示預設可以使用 **Teams** Only 或 **Islands** 模式 (左側螢幕擷取畫面) ，但不適用於其他模式 (螢幕擷取畫面) ：
+下列螢幕擷取畫面說明唯一 **Teams或****群島** 模式與所有其他模式的差異。 請注意，聊天和通話圖示預設可以使用 **Teams** Only 或 **Islands** 模式 (左側螢幕擷取畫面) ，但不適用於其他模式 (螢幕擷取畫面) ：
 
 ![兩種模式並排比較Teams比較。](media/teams-mode-comparison.png)
 
@@ -63,7 +63,7 @@ ms.locfileid: "60774393"
 ## <a name="impact-of-mode-on-other-policy-settings"></a>模式對其他策略設定的影響
 如上述所述，使用者的共存模式影響會影響使用者的用戶端Teams功能。 這表示模式的值可能會優先于其他策略設定的值 ，視模式而不同。 具體來說，共存模式會影響是否遵循下列原則設定：
 
-|**模式 (應用程式)**|**Policy.setting**|
+|**應用程式 (模式)**|**Policy.setting**|
 |---|---|
 |聊天|TeamsMessagingPolicy.AllowUserChat|
 |通話|TeamsCallingPolicy.AllowPrivateCalling|
@@ -89,4 +89,4 @@ ms.locfileid: "60774393"
 
 ## <a name="related-topics"></a>相關主題
 
-[適用于與應用程式一Teams之組織的移商務用 Skype](./migration-interop-guidance-for-teams-with-skype.md)
+[適用于使用應用程式與Teams之組織的移商務用 Skype](./migration-interop-guidance-for-teams-with-skype.md)
