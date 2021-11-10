@@ -16,13 +16,14 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+search.appverid: MET150
 description: 在商務用 Skype Server 和 Teams 之間實施混合式連線的指示。
-ms.openlocfilehash: fee7587c641f2fd55cd8b4ac4da72b3944b819a1
-ms.sourcegitcommit: 64b9f7297d33a883506893fb68d1ad5202b4df1a
+ms.openlocfilehash: ffc1205ca91f81e9b9361e4603318bc1a8fcf76c
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/24/2021
-ms.locfileid: "59682808"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60887171"
 ---
 # <a name="configure-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>設定商務用 Skype Server 和 Teams 之間的混合式連線
 
@@ -38,7 +39,7 @@ ms.locfileid: "59682808"
 |:-----|:-----|
 |建立 Microsoft 365 的租用戶帳戶。   <br/> |深入瞭解 Microsoft 365 [Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkId=254980)。  <br/> 若要確定您的環境已準備好 Microsoft 365，請參閱[系統需求](https://products.office.com/office-system-requirements)。  <br/> 如需設定 Microsoft 365 的詳細資訊，請參閱[開始使用 Microsoft 365](https://go.microsoft.com/fwlink/p/?LinkId=254982)。  <br/> |
 |將您的網域新增至您的 Microsoft 365 組織，並確認擁有權。  <br/> | 您必須將您的網域新增至您的 Microsoft 365 組織，然後依照步驟使用 Microsoft 365 驗證網域。 這項驗證是為了確認您是網域的擁有者。 <br/> 若要將您的網域新增至您的 Microsoft 365 組織，請依照在[Microsoft 365 新增網域](https://support.office.com/article/add-a-domain-to-office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US)中所述的步驟進行。 請務必參閱下列與 [混合式組織之 DNS 含意](#dns-implications-for-on-premises-organizations-that-become-hybrid)相關的指導方針。 <br/> |
-|設定 Active Directory 同步處理。  <br/> |Active directory 同步處理可確保您的內部部署 Active Directory 與 Microsoft 365 持續同步，因此您可以為每個使用者帳戶和群組建立同步處理的版本。  <br/> <br> **重要：** 您必須在內部部署與線上部署之間同步處理組織中所有商務用 Skype 使用者的 Active Directory 帳戶，即使使用者未移至 Teams。 如果您未同步處理所有使用者，組織中內部部署與線上使用者之間的通訊可能無法如預期的方式運作。 如需詳細資訊，請參閱[設定混合式環境的 AZURE AD 連線](configure-azure-ad-connect.md)。         |
+|設定 Active Directory 同步處理。  <br/> |Active directory 同步處理可確保您的內部部署 Active Directory 與 Microsoft 365 持續同步，因此您可以為每個使用者帳戶和群組建立同步處理的版本。  <br/> <br> **重要：** 您必須在內部部署與線上部署之間同步處理組織中所有商務用 Skype 使用者的 Active Directory 帳戶，即使使用者未移至 Teams。 如果您未同步處理所有使用者，組織中內部部署與線上使用者之間的通訊可能無法如預期的方式運作。 如需詳細資訊，請參閱[Configure Azure AD 連線的混合式環境](configure-azure-ad-connect.md)。         |
 | 設定商務用 Skype 混合式。 | 有三個基本步驟： <br><br> 1. 設定您的內部部署環境，以與 Microsoft 365 同盟。 <br> 2. 設定您的內部部署環境，以信任 Microsoft 365，並使用 Microsoft 365 啟用共用 SIP 位址空間。<br> 3. 在 Microsoft 365 組織中啟用共用 SIP 位址空間。 <br><br> 此外，如果您有 Exchange 內部部署，您可能想要設定 Exchange 內部部署和線上環境之間的 OAuth。 <br> <br>如需詳細資訊，請參閱[Configure 商務用 Skype 混合](configure-federation-with-skype-for-business-online.md)。
 |移動試驗使用者。  <br/> |完成準備及設定環境 Teams 的步驟之後，您可以開始將試驗使用者移至您的線上 Microsoft 365 組織。 如需詳細資訊，請參閱[將使用者從內部部署移至 Teams](move-users-from-on-premises-to-Teams.md)。  <br/> |
 

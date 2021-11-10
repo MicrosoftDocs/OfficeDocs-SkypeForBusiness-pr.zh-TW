@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 本文提供新增控制台的概述。
-ms.openlocfilehash: 77e26b810bfd61effa5d94ec3648c440476a7cbe
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: 355a8b93e428b860a775ad01cf31df726c644654
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824641"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60887301"
 ---
 # <a name="control-panel"></a>控制台
 
@@ -58,3 +58,10 @@ ms.locfileid: "60824641"
 |處長         |    [處長](use-powershell-security-menu.md#registrar)     |
 |Web 服務      |  [Web 服務](use-powershell-security-menu.md#web-service)       |
 |PIN 原則    | [PIN 原則](use-powershell-security-menu.md#pin-policy)        |
+
+## <a name="im-and-presence"></a>IM 和目前狀態
+
+|子功能表  |Cmdlet 的資訊來源  |
+|---------|---------|
+|檔案篩選器         |    [檔案篩選](use-powershell-im-and-presence-menu.md#file-filter)     |
+|URL 篩選器      |  [URL 篩選](use-powershell-im-and-presence-menu.md#url-filter)       |

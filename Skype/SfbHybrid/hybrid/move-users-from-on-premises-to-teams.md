@@ -16,14 +16,15 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+search.appverid: MET150
 ms.custom: ''
 description: 摘要：瞭解如何遷移使用者設定，以及將使用者移至 Teams。
-ms.openlocfilehash: 2206c9b155c26a8559dd32346e1d9ad9e0e54978
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 370b9ba170362168a421377ab2af56c96016271d
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725482"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60887191"
 ---
 # <a name="move-users-from-on-premises-to-teams"></a>將使用者從內部部署移動至 Teams
 
