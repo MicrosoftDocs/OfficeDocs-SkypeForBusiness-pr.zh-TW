@@ -16,31 +16,31 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何設定 SBC 並連結至 電話系統路由。
-ms.openlocfilehash: d18ff8a8f0c398979a2c04d3aca1ff69b8bdc8f1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 199573fa2e67f46f8430dba3d9e9d506b7cbb641
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726122"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909564"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>連線會話邊界控制器 (SBC) 直接路由
 
 本文將說明如何設定會話邊界控制器 (SBC) ，電話系統直接路由。  這是設定直接路由的下列步驟的第 1 個步驟：
 
-- **步驟 1.連線 SBC 電話系統並驗證** (本文) 
+- **步驟 1。連線 SBC 電話系統並驗證** 您的 (本文) 
 - 步驟 2. [啟用使用者進行直接路由](direct-routing-enable-users.md)
 - 步驟 3. [設定通話路由](direct-routing-voice-routing.md)
 - 步驟 4. [將數位轉換成替代格式](direct-routing-translate-numbers.md)
 
 若要瞭解設定直接路由所需的所有步驟，請參閱 [設定直接路由](direct-routing-configure.md)。
 
-您可以使用系統管理中心[Microsoft Teams](#using-the-microsoft-teams-admin-center) [PowerShell](#using-powershell)來設定 SBC 並連結至直接路由。
+您可以使用系統[管理Microsoft Teams](#using-the-microsoft-teams-admin-center) [PowerShell](#using-powershell)來設定 SBC 並連結至直接路由。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在左側流覽中，前往 **[語音**  >  **直接路由**，然後按一下 **SBCs 定位** 點。
+1. 在左側流覽中，前往 **[語音**  >  **直接路由**，然後按一下 **[SBC> 定位** 點。
 2. 按一下 [新增 **]**。
-3. 輸入 SBC 的 FQDN。 <br><br>請確定 FQDN 的功能變數名稱部分符合在租使用者中註冊的網域，並請記住 `*.onmicrosoft.com` ，SBC FQDN 功能變數名稱不支援該功能變數名稱。 例如，如果您有兩個功能變數名稱， `contoso.com` 且 `contoso.onmicrosoft.com` ，請使用 `sbc.contoso.com` 做為 SBC 名稱。 如果使用子域，請確定此子域也已在租使用者中註冊。 例如，如果您想要使用 `sbc.service.contoso.com` ，則 `service.contoso.com` 必須註冊。
+3. 輸入 SBC 的 FQDN。 <br><br>請確定 FQDN 的功能變數名稱部分符合在租使用者中註冊的網域，並請記住 `*.onmicrosoft.com` ，SBC FQDN 功能變數名稱不支援該功能變數名稱。 例如，如果您有兩個功能變數名稱和 `contoso.com` `contoso.onmicrosoft.com` ，請使用 `sbc.contoso.com` 做為 SBC 名稱。 如果使用子域，請確定此子域也已在租使用者中註冊。 例如，如果您想要使用 `sbc.service.contoso.com` ，則 `service.contoso.com` 必須註冊。
 4. 根據貴組織的需求，設定 SBC 的下列設定。 有關這些設定的詳細資訊，請參閱 [SBC 設定](#sbc-settings)。
 
     ![在系統管理中心新增 SBC 頁面Microsoft Teams螢幕擷取畫面。](media/direct-routing-add-sbc.png)
@@ -65,7 +65,7 @@ ms.locfileid: "58726122"
 Get-Command *onlinePSTNGateway*
 ```
 
-命令會返回此處顯示的四個函數，讓您管理 SBC。
+該命令會返回此處顯示的四個函數，讓您管理 SBC。
 
 <pre>
 CommandType    Name                       Version    Source 
@@ -128,7 +128,7 @@ Enabled               : True
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
 
-配對閘道應該會出現在清單中，如下列範例所示， **且 Enabled** 參數應顯示 **True 的值**。
+配對閘道應該會出現在清單中，如下列範例所示， **且 Enabled** 參數應顯示 **值 True**。
 
 這會返回：
 
@@ -148,11 +148,11 @@ Enabled               : True
 
 #### <a name="validate-sip-options"></a>驗證 SIP 選項
 
-若要使用外發 SIP 選項驗證配對，請使用 SBC 管理介面並確認 SBC 收到 200 個確定回應給待發的 OPTIONS 訊息。
+若要使用外發 SIP 選項驗證配對，請使用 SBC 管理介面並確認 SBC 收到 200 個確定回應給待發的 OPTIONS 郵件。
 
 當直接路由看到傳入的 OPTIONS 時，它會開始將外寄 SIP 選項郵件傳送至內送選項訊息中 ，在連絡人標題欄位中所配置的 SBC FQDN。 
 
-若要使用內送 SIP 選項驗證配對，請使用 SBC 管理介面，並查看 SBC 會傳送回復給來自直接路由的 OPTIONS 訊息，並且傳送的回應代碼為 200 確定。
+若要使用內送 SIP 選項驗證配對，請使用 SBC 管理介面，並查看 SBC 會傳送回復給來自直接路由的 OPTIONS 訊息，而且傳送的回應代碼為 200 確定。
 
 ## <a name="sbc-settings"></a>SBC 設定
 
@@ -160,18 +160,18 @@ Enabled               : True
 
 |必填？|Microsoft Teams系統管理中心設定|PowerShell 參數|描述|預設|可能的值|類型和限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|是|**新增 SBC 的 FQDN**|FQDN |無|FQDN 名稱，限制 63 個字元|字串，請參閱[Active Directory](https://support.microsoft.com/help/909264)電腦、網域、網站和 OUs 中命名慣例中允許和不允許的字元清單|
+|是|**新增 SBC 的 FQDN**|FQDN |無|FQDN 名稱，限制 63 個字元|字串，請參閱[Active Directory](https://support.microsoft.com/help/909264)電腦、網域、網站和 OUs 的命名慣例中允許和不允許的字元清單|
 |否|**啟用**|啟用|用於開啟 SBC 進行外發通話。 您可以在更新 SBC 或維護期間，使用此功能暫時從服務移除 SBC。 |假|真<br/>假|Boolean|
 |是|**SIP 訊號埠**|SipSignalingPort |這是使用傳輸層和 TLS 通訊協定與直接路由通訊 (埠) 埠。|無|任何埠|0 到 65535 |
-|否|**傳送 SIP 選項**|SendSIPOptions |定義 SBC 是否要傳送 SIP 選項訊息。 我們強烈建議您開啟此設定。 當此設定關閉時，SBC 會排除在監控和警示系統之外。|真|真<br/>假|Boolean|
-|否|**轉往通話記錄**|ForwardCallHistory |指出通話記錄資訊是否透過主幹轉轉。 當您開啟此功能時，Microsoft 365或Office 365 Proxy 會傳送歷程記錄資訊和引用標頭。 |假|真<br/>假|Boolean|
+|否|**傳送 SIP 選項**|SendSIPOptions |定義 SBC 是否要傳送 SIP 選項訊息。 我們強烈建議您開啟此設定。 關閉此設定時，SBC 會排除在監控和警示系統之外。|真|真<br/>假|Boolean|
+|否|**轉往通話記錄**|ForwardCallHistory |指出通話記錄資訊是否透過主幹轉轉。 當您開啟此選項時，Microsoft 365或Office 365 Proxy 會傳送歷程記錄資訊和引用標頭。 |假|真<br/>假|Boolean|
 |否|**將 P-確認身分識別轉 (PAI) 頁標題**|ForwardPAI|指出 PAI 標頭是否與通話一起轉轉。 PAI 標頭可用於驗證來電者的身分識別。 如果此設定為啟用，也會送出 Privacy：ID 標頭。|假|真<br/>假|Boolean|
 |否|**同時通話容量**|MaxConcurrentSessions |當您設定值時，當同時會話數目為 90% 或高於此值時，通知系統會通知您。 如果您沒有設定值，系統不會產生通知。 不過，監控系統會每 24 小時報告一次並行會話數目。 |空|空<br/>1 到 100，000 ||
 |否|**容錯移轉回應代碼**|容錯移轉ResponseCodes<br>|如果 Direct Routing 收到回應外發邀請的任何 4xx 或 6xx SIP 錯誤碼，則通話預設會視為已完成。 外撥是指從 Teams 用戶端撥打到 PSTN 的流量：Teams 用戶端 -> 直接路由 -> SBC -> 電話網絡) 。 當您指定容錯移轉回應程式碼時，當 SBC 因為網路或其他問題而無法進行通話時，當您收到指定的代碼時) 如果該使用者的語音路由策略中存在另一個 SBC (，則強制直接路由嘗試另一個 SBC。 若要深入瞭解，請參閱容錯移轉從會話邊界控制器或[SBC (接收的特定 SIP) 。](direct-routing-trunk-failover-on-outbound-call.md)|408, 503, 504||Int|
-|否|**容錯移轉時間 (秒)**|FailoverTime秒 |當您設定值時，閘道在您設定時間內未接聽的外發通話會路由到下一個可用的主幹。 如果沒有額外的主幹，系統會自動中斷通話。 預設值為 10 秒。 在網路和閘道回應速度緩慢的組織中，這可能會導致不必要地中斷通話。|10|數量|Int|
-|否|**媒體流量的偏好國家/地區**|MediaRelayRoutingLocationOverride |用於手動設定您偏好的媒體流量國家/地區。 建議您只有在通話記錄清楚指出媒體路徑資料中心的預設指派不使用最接近 SBC 資料中心的路徑時，才建議您設定此設定。 根據預設，直接路由會根據 SBC 的公用 IP 位址指派資料中心，並一直選取最接近 SBC 資料中心的路徑。 不過，在某些情況下，預設路徑可能並非最佳路徑。 此參數可讓您手動設定媒體流量的偏好區域。 |無|ISO 格式的國家/地區代碼||
+|否|**容錯移轉時間 (秒)**|FailoverTime秒 |當您設定值時，閘道在您設定時間內未接聽的外發通話會路由到下一個可用的主幹。 如果沒有額外的主幹，系統會自動中斷通話。 預設值為 10 秒。 在網路和閘道回應緩慢的組織中，這可能會導致不必要地中斷通話。|10|數量|Int|
+|否|**媒體流量的偏好國家/地區**|MediaRelayRoutingLocationOverride | 不適用於直接路由。 此參數是保留用於通話方案中的受管理的電信公司 |無|||
 |否|**SBC 支援 PIDF/LO 撥打緊急電話**|PidfloSupported|指定 SBC 是否支援目前狀態資訊資料格式位置物件 (PIDF/LO) 緊急通話。||||
-|否| - |MediaBypass|此設定會指出 SBC 是否支援媒體旁路，以及是否要使用此 SBC。 |無|真<br/>假|Boolean|
+|否| - |MediaBypass|此設定會指出 SBC 是否支援媒體旁路，以及您是否要使用此 SBC。 |無|真<br/>假|Boolean|
 
 ## <a name="see-also"></a>另請參閱
 
