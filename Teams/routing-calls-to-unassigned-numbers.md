@@ -21,23 +21,20 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何將通話路由至貴組織中未指定的號碼。
-ms.openlocfilehash: 2574a0ac734ed6caee1eadf5a5ee006111713055
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 93d9ce289820bdcf9bb4a1e13e78bb8794b77dbd
+ms.sourcegitcommit: bdca3b5eb35a17b27c5a052d83ab229b7c911dd4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536994"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60947500"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>將通話路由至未指定的號碼
 
-> [!NOTE]
-> 此功能是公開預覽版。
-
-做為系統管理員，您可以將通話路由至貴組織中未指定的號碼。 例如，您可能會想要將通話路由至未分配的號碼，如下所示： 
+做為系統管理員，您可以將通話路由至貴組織中未指定的號碼。 例如，您可能會想要將通話路由至未指定的號碼，如下所示： 
 
 - 將所有通話路由至已未指定的號碼至自訂公告。
 
-- 將所有通話路由至一個未指定的號碼到主切換面板。
+- 將所有通話路由至一個未指定的號碼到主切換台。
 
 您可以將未指定號碼的通話路由給使用者、與自動語音機或通話佇列相關聯的資源帳戶，或將播放自訂音訊檔案的公告服務路由給來電者。
 
@@ -80,6 +77,6 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - [New-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/new-csteamsunassignednumbertreatment)
 
-- [Set-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/set-csteamsunassignednumbertreatment)
+- [Set-CsTeamsUnasignedNumberTreatment](/powershell/module/teams/set-csteamsunassignednumbertreatment)
 
 - [Remove-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/remove-csteamsunassignednumbertreatment)
