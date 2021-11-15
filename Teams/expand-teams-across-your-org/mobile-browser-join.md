@@ -19,35 +19,38 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: 瞭解在行動瀏覽器上Teams虛擬流覽的加入體驗。
-ms.openlocfilehash: a0c7bc626414280a8cba5ea55aaa9062ef190ca3
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: f8307902d7689cf56f10f3705ca3d5611a0f3d11
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249755"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960112"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>管理在行動瀏覽器上Teams虛擬流覽的加入體驗
 
-Microsoft Teams，使用者即可在行動裝置上輕鬆加入約會，而不需要下載Teams。 為獲得更順暢的體驗，出席者可以從行動瀏覽器加入約會，例如醫療保健訪問、財務諮詢、教育人員辦公室時數等。 出席者不需要在 Android Teams iOS 行動裝置上安裝應用程式。
+Microsoft Teams，使用者無需下載約會，即可在行動裝置上Teams。 為了更順暢地體驗，出席者可以從行動瀏覽器加入約會，例如醫療保健訪問、財務諮詢、教育人員辦公室時數等。 出席者不需要在 Android Teams iOS 行動裝置上安裝應用程式。
 
 使用行動瀏覽器加入時，當出席者從行動裝置加入約會時，系統不會提示他們下載Teams。 相反地，Teams在行動瀏覽器中開啟，出席者可以在這裡選取立即 **加入** 以加入。 使用這項功能時，請記住，Teams已安裝在出席者行動裝置上，Teams在行動瀏覽器中開啟，而不是在應用程式中開啟。
 
 目前，行動瀏覽器加入適用于透過下列方式排程的約會：
 
 - [Bookings 應用程式](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-us&rs=en-us&ad=us#PickTab=Bookings)
-- [Microsoft TeamsEHR (電子健康) 連接器](healthcare/ehr-admin.md)
+- Microsoft Teams EHR (電子健康) 記錄
+
+  - 與 [Cerner EHR 整合](healthcare/ehr-admin-cerner.md)
+  - 與 [Epic EHR 的整合](healthcare/ehr-admin.md)
 
 ## <a name="set-up-mobile-browser-join"></a>設定行動瀏覽器加入
 
 ### <a name="appointments-scheduled-through-the-bookings-app"></a>透過 Bookings 應用程式排程的約會
 
-貴組織的排程者可以在 Bookings App 中針對特定約會類型及個別約會開啟此功能。
+貴組織的排程者可以在 Bookings 應用程式中為特定約會類型及個別約會開啟此功能。
 
 開啟此功能後，寄給出席者之確認電子郵件或簡訊將會包含在行動瀏覽器中開啟Teams加入連結。 在 Android 行動裝置上，Teams Chrome 開啟。 在 iOS 行動裝置上，Teams Safari 中開啟。
 
 #### <a name="turn-on-mobile-browser-join-for-an-appointment-type"></a>開啟約會類型的行動瀏覽器加入
 
-在 Bookings 中，設定約會類型，選取約會類型，然後開啟允許出席者從  >  ******行動瀏覽器加入**。 [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) 這麼做可讓行動瀏覽器加入此類型的所有約會。
+在 Bookings 中，設定約會類型，選取約會類型，然後開啟允許出席者從行動瀏覽器  >  ******加入**。 [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) 這麼做可讓行動瀏覽器加入此類型的所有約會。
 
 :::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="允許出席者從行動瀏覽器設定加入 Bookings 應用程式中約會類型的螢幕擷取畫面":::
 
@@ -61,9 +64,11 @@ Microsoft Teams，使用者即可在行動裝置上輕鬆加入約會，而不�
 
 您或教職員不需要設定！
 
-EHR Teams連接器可支援透過 MyChart Web 和 Mobile 加入虛擬訪問的病患。 預約時，病患可以使用開始虛擬瀏覽按鈕，從 MyChart 開始 **虛擬流覽** 。 病患選擇他們想要的瀏覽器，然後Teams瀏覽器開啟。
+**與 Cerner EHR** 的整合：Teams EHR 連接器可支援透過行動系統加入虛擬訪問的病患。 在預約時，病患可以點一下簡訊中的連結來加入虛擬拜訪。 病患選擇他們想要的瀏覽器，然後Teams瀏覽器中開啟。
 
-## <a name="supported-mobile-browsers"></a>支援的行動瀏覽器
+**與Epic EHR** 的整合：Teams EHR 連接器可支援透過 MyChart Web 和 Mobile 加入虛擬訪問的病患。 預約時，病患可以使用開始虛擬瀏覽按鈕，從 MyChart 開始 **虛擬流覽** 。 病患選擇他們想要的瀏覽器，然後Teams瀏覽器中開啟。
+
+## <a name="supported-mobile-browsers"></a>支援的手機瀏覽器
 
 以下是目前支援的移動瀏覽器。 除非另有說明，否則我們支援最新版本加上兩個先前版本。
 
@@ -79,14 +84,15 @@ EHR Teams連接器可支援透過 MyChart Web 和 Mobile 加入虛擬訪問的�
 
 ## <a name="things-to-consider"></a>要考慮的事情
 
-進行虛擬流覽的教職員成員可以從桌面、行動Teams或網頁用戶端與從行動瀏覽器加入的出席者共用他們的螢幕。 不過，出席者無法從行動瀏覽器共用螢幕畫面。
+進行虛擬流覽的教職員成員可以從桌面、行動Teams用戶端與從行動瀏覽器加入的出席者共用他們的螢幕。 不過，出席者無法從行動瀏覽器共用其螢幕畫面。
 
 > [!NOTE]
-> 我們會在未來發行新版會議加入體驗中新增更多功能Teams，因此請回來查看最新資訊。 若要隨時瞭解即將推出的Teams功能，請查看 Microsoft 365[藍圖](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。
+> 我們會在未來發行新版會議加入體驗中Teams更多功能，因此請回來查看最新資訊。 若要隨時瞭解即將推出的Teams功能，請查看 Microsoft 365[藍圖](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。
 
 ## <a name="related-articles"></a>相關文章
 
 - [使用 Teams 和 Bookings 應用程式進行虛擬訪問](bookings-virtual-visits.md)
 - [建立 Bookings 約會類型](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [以出席者加入 Bookings 約會](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
-- [使用 Teams 虛擬就診 - 整合至 EHR](healthcare/ehr-admin.md)
+- [使用虛擬Teams - 整合至 Cerner EHR](healthcare/ehr-admin-cerner.md)
+- [使用虛擬Teams - 整合至Epic EHR](healthcare/ehr-admin.md)

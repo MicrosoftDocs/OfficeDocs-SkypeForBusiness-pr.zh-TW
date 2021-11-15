@@ -13,29 +13,29 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 瞭解如何使用 Teams 系統管理中心Microsoft Teams即時活動使用方式報告，以取得Teams即時活動活動的概觀。
+description: 瞭解如何在 Teams 系統管理中心Microsoft Teams即時活動使用方式報告，以取得Teams即時活動活動的概觀。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e46c0e55eb4808f3c0b112dae72049649fc7f4a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 504c8822146efa7101ca1435cab961a86068ccaf
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865542"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959892"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams活動使用方式報告
 
-系統Teams系統管理中心Microsoft Teams即時活動使用方式報告，顯示貴組織中即時活動的活動概觀。 您可以針對每個事件查看使用方式資訊，包括事件狀態、開始時間、視圖及生產類型。 您可以深入瞭解使用趨勢，並查看貴組織中誰排程、進行展示，以及製作即時活動。
+系統Teams系統管理中心中的即時Microsoft Teams使用方式報告會顯示貴組織中即時活動的活動概觀。 您可以針對每個事件查看使用方式資訊，包括事件狀態、開始時間、視圖及生產類型。 您可以深入瞭解使用趨勢，並查看貴組織中誰排程、進行展示，以及製作即時活動。
 
 ## <a name="view-the-live-event-usage-report"></a>查看即時活動使用方式報告
 
-1. 在系統管理中心的左側導Microsoft Teams，按一下 [分析&**報告**  >  **使用方式報告**。 On the **View reports** tab, under **Report**, select **Teams live event usage**.
+1. 在系統管理中心的左側導Microsoft Teams，按一下 [**分析&報告**  >  **使用方式報告**。 On the **View reports** tab, under **Report**, select **Teams live event usage**.
 2. 在 **日期範圍** 下，選取預先定義的範圍或設定自訂範圍。 您可以將範圍設定為最多顯示一年、六個月之前和目前日期之後的資料。
 3.  (選) 在召集人 **下，您可以選擇** 只顯示由特定使用者組織的即時活動。
 4. 按一下 **[執行報表**> 。  
 
-    ![系統管理中心Teams活動使用方式報表的螢幕擷取畫面Teams圖。](../media/teams-live-event-usage-report-with-callouts.png "系統管理中心Teams活動使用方式報表的螢幕擷取畫面Teams圖說文字")
+   :::image type="content" alt-text="系統管理中心Teams活動使用方式報表的螢幕擷取畫面Teams圖說文字。" source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
 
 ## <a name="interpret-the-report"></a>解譯報表
 
@@ -48,13 +48,15 @@ ms.locfileid: "60865542"
 |**5**   |選取 **編輯欄** 以新增或移除表格中的欄。|
 
 ## <a name="notes"></a>注釋
-顯示最多 100 個符合目前報告準則的即時事件。 若要查看更多即時活動，請應用日期篩選來縮減清單大小。
+我們最多會顯示 100 個符合目前報告準則的即時活動。 若要查看更多即時活動，請應用日期篩選來縮減清單大小。 
+
+任何觀看活動或活動視需要錄製的人，將不會包含在查看計數中。 
 
 ## <a name="view-event-details"></a>查看活動詳細資料
 
 即時活動詳細資料頁面提供即時活動詳細資料摘要，並列出與活動相關的所有檔案，包括文字記錄與錄製。 按一下檔案名以查看或下載檔案。
 
-![顯示即時活動詳細資料之螢幕擷取畫面。](../media/teams-live-event-usage-report-event-detail.png)
+:::image type="content" alt-text="顯示即時活動詳細資料之螢幕擷取畫面。" source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
 
 如果貴組織已啟用 [Hive](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN 或 [Kollective](https://kollective.com) eCDN，您可以按一下合作夥伴報告連結，取得其他出席者分析。
 

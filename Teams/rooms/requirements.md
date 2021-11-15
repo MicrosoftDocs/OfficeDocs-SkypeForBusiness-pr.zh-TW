@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解支援Microsoft Teams 會議室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8faa67db5187fb2fa28f1241d969ef4e90b031fd
-ms.sourcegitcommit: ae60b65f866c7ca7556ba5b0cf6f1d902c4454fc
+ms.openlocfilehash: a96fd2ee05b60a8147574678bc2afed89ad5be2d
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2021
-ms.locfileid: "60798486"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959922"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
@@ -38,7 +38,7 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
 > [!NOTE]
 > Microsoft Teams 會議室會登入 Microsoft Teams、商務用 Skype Server 2019、商務用 Skype Server 2015 或商務用 Skype Online，並可以加入這些服務所舉辦的任何會議。
 >
-> Microsoft Teams 會議室不支援舊版平台 (例如 Lync Server 2013)。 Microsoft Teams 會議室 21Vianet 或 DoD 環境所Microsoft 365或Office 365中不支援此功能。
+> Microsoft Teams 會議室不支援舊版平台 (例如 Lync Server 2013)。 Microsoft Teams 會議室 21Vianet 或 DoD Microsoft 365或 doD Office 365中不支援此功能。
 >
 > 如果您擁有內部部署 Exchange Server，則 Microsoft Teams 會議室需要使用 Exchange Server 2013 SP1 或更新版本。
 
@@ -52,16 +52,16 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
   |主控台|處理器|RAM|磁碟|
   |:-----|:-----|:-----|:-----|
   |[使用 Intel NUC 的Crsron Flex UC-M130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M130-T)|Core i5|8 GB |128 GB |
-  |[使用 Intel NUC 的 Cresron Flex UC- B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 GB |128 GB |
+  |[使用 Intel NUC 的Crsron Flex UC- B130-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B130-T)|Core i5|8 GB |128 GB |
   |[使用 Intel NUC 的Crsron Flex UC-B140-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B140-T)|Core i5|8 GB |128 GB |
-  [使用 Intel NUC 的 Cresron Flex UC-C140-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C140-T)|Core i7|8 GB |128 GB|
+  [使用 Intel NUC 的Crsron Flex UC-C140-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C140-T)|Core i7|8 GB |128 GB|
   |[使用 Intel NUC 的Crsron Flex UC-M150-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)  + [CCS- MIC](https://www.crestron.com/Products/Audio/Microphones/Wired-Microphones/CCS-UCA-MIC-KIT)|Core i7|8 GB |128 GB |
   |[使用 Intel NUC 的Crsron Flex UC-MX150-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8 GB |128 GB |
-   [使用 Intel NUC 的 Cresron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
+   [使用 Intel NUC 的Crsron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
   |[使用 Intel NUC 的Crsron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
   |[具有 UC 簡報傳送器與 UC-PR (UC-PR) ASUS PC 的 Cresron Flex UC-MMX30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MMX30-T)|Core i5|8 GB |128 GB |
-  |[具有 UC 簡報傳送器與 UC-PR (UC-PR) 和 ASUS PC 的 Cresron Flex UC-BX30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-BX30-T)|Core i5|8 GB |128 GB |
-  |[使用 UC-PR (UC-PR) UC-CX100-T 的Crsron Flex UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T)|Core i5|8 GB |128 GB |
+  |[具有 UC 簡報傳送器與 UC-PR (UC-PR) ASUS PC 的 Cresron Flex UC-BX30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-BX30-T)|Core i5|8 GB |128 GB |
+  |[使用 UC 簡報傳送器 (UC-PR) ASUS PC 的 Cresron Flex UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T)|Core i5|8 GB |128 GB |
   |[使用 ASUS PC 的 Cresron Flex UC-B30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B30-T)|Core i5|8 GB |128 GB |
    |[使用 ASUS PC 的 Cresron Flex UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)|Core i5|8 GB |128 GB |
    |[使用 ASUS PC 的 Cresron Flex UC-M50-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M50-T)|Core i5|8 GB |128 GB |
@@ -81,7 +81,7 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
   |Logitech TAP 主機與 Lenovo Core 計算 |Core i5|8 GB|128 GB|
   |[Logitech Tap 和 Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[使用 Lenovo ThinkSmart Tiny 的 Poly G10-T](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
-  |使用 Lenovo Thinks智慧核心的 Poly GC10-T|Core i5|8 GB|128 GB|
+  |Poly GC8 主機與 Lenovo Thinksmart Core|Core i5|8 GB|128 GB|
   |使用Dell Optiplex 7080 的 Poly GC8 主機|Core i5|8 GB|128 GB|
   |[Yealink MVC300 與 Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC500 與 Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |
@@ -186,10 +186,10 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) + </br></br> [舒爾 MXA 910 與 Intellimix Ceiling Array 麥克風](https://www.shure.com/products/microphones/mxa910) +</br></br> [MXN5W-C 天花板喇叭](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP：4.1.11 </br> MXA910 Ceiling Array 麥克風：4.1.41 </br> MXN5W-C 喇叭：1.0.4 |
 |[舒爾 MXA 710 2ft 表格線性陣列麥克風](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C 天花板喇叭](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft 表格線性陣列麥克風：1.2.0 </br> P300 DSP：4.4.8 </br> MXN5-C 喇叭：1.1.1 |
 |[舒爾 MXA 710 4ft 牆式線性陣列麥克風](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C 天花板喇叭](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft 牆式線性陣列麥克風：1.2.0 </br> P300 DSP：4.4.8 </br> MXN5-C 喇叭：1.1.1 |
-|[使用 Intellimix Ceiling Array 麥克風的舒爾 MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [舒爾 Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Cresron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| 舒爾 Intellimix 會議室軟體：3.0.4.14 </br> 具有 Intellimix Ceiling Array 麥克風的舒爾 MXA 910：4.4.11 </br> 舒爾 MXN5-C 喇叭：1.2.1 </br> Cresron UC-C100-T：WINDOWS IOT 19h2/20h2 OS 版本與 4.8.31.0 的三維應用程式版本 </br> BIOS：ASUS Tek 電腦 INC 9934 8/27/2020 </br> CPU：i5-9500T CPU </br> 實體記憶體：8 GB RAM |
+|[使用 Intellimix Ceiling Array 麥克風的舒爾 MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [舒爾 Intellimix 會議室軟體](https://www.shure.com/products/software/intellimix_room) +</br> [Cresron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| 舒爾 Intellimix 會議室軟體：3.0.4.14 </br> 具有 Intellimix Ceiling Array 麥克風的舒爾 MXA 910：4.4.11 </br> 舒爾 MXN5-C 喇叭：1.2.1 </br> Cresron UC-C100-T：WINDOWS IOT 19h2/20h2 OS 版本與 4.8.31.0 的三維應用程式版本 </br> BIOS：ASUS Tek 電腦 INC 9934 8/27/2020 </br> CPU：i5-9500T CPU </br> 實體記憶體：8 GB RAM |
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP：3.12.0.15  </br></br> TCC2：1.3.3 </br></br> EX-UBT：3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB RV4 音訊 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA Ceiling 麥克風](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 天花板安裝式喇叭](https://www.biamp.com/products/tesira-speakers)| 音訊 FW 版本：3.15|
-|[Biamp TesiraFORTE AVB RV4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X (麥克風) ](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[前 UBT]() |音訊 FW 版本：3.15|
+|[Biamp TesiraFORTE AVB RV4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X (表格麥克風) ](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[前 UBT]() |音訊 FW 版本：3.15|
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink Amplifier +</br> Sennheiser TCC2 Ceiling Microphone + </br> Bose EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |  |
 |[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink 功放 + Sennheiser TCC2 天花板麥克風 + </br> Bose DesignMax DM2C-P Ceiling 喇叭](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 功放 +</br> [Sennheiser TCC2 天花板麥克風](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP 天花板喇叭](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  | 

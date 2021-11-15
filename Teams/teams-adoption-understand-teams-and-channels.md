@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17ae2ae79b35ed0b75347bd7a061ebb6789b4284
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d3d71e8c542b5f39ab979ae876e0c82868ca380a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855177"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959812"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>瞭解團隊和頻道Microsoft Teams
 
@@ -36,12 +36,12 @@ ms.locfileid: "60855177"
 
 - 頻道是團隊內部共同作業的空間，實際工作是在其中完成。 
 
-若要閱讀團隊和頻道的更多資訊，請參閱團隊和頻道概觀[Microsoft Teams。](teams-channels-overview.md) 如要取得Teams採用指南，請取得Teams[指南](https://aka.ms/teamstoolkit)。 若要深入瞭解群組Teams群組Microsoft 365，請參閱Microsoft 365群組Microsoft Teams及深入瞭解群組Microsoft 365[群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。 [](office-365-groups.md)
+若要閱讀團隊和頻道的更多資訊，請參閱團隊和頻道概觀[Microsoft Teams。](teams-channels-overview.md) 如要取得Teams採用指南，請取得Teams[指南](https://aka.ms/teamstoolkit)。 若要深入瞭解群組Teams Microsoft 365群組，請參閱Microsoft 365群組Microsoft Teams及深入瞭解群組[](office-365-groups.md)Microsoft 365[群組](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)。
 
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
-| 觀看這段短片   | <iframe width="350" height="200" src="https://youtu.be/WkAVgNKn0hs" frameborder="0" allowfullscreen></iframe>   |
+| 觀看這段短片   | <iframe width="350" height="200" src="https://www.youtube.com/embed/WkAVgNKn0hs" frameborder="0" allowfullscreen></iframe>   |
 
 
 
@@ -57,7 +57,7 @@ ms.locfileid: "60855177"
 
 ![組織和專案模型。](media/teams-adoption-organization-project.png)
 
-在組織小組 (左側) 中，可能會共用有關組織營運方式、小組活動、核心策略及其他營運資訊的重要資訊，例如商務評論。 針對右側顯示的小組，區資訊會細分為代表該團隊正在完成之工作類別的頻道。 此團隊的成員可能會或可能不會向同一個人報告，但他們都參與推動該學區的結果。
+在組織小組 (左側) 中，可能會共用組織經營業務方式、小組活動、核心策略及其他營運資訊 ，例如商務評論等重要資訊。 針對右側顯示的小組，區資訊會細分為代表該團隊正在完成之工作類別的頻道。 此團隊的成員可能會或可能不會向同一個人報告，但他們都參與推動該學區的結果。
   
 您將在執行工作的第 [2](teams-adoption-phase2-experiment.md) 階段中，進一步處理小組的結構。
 
