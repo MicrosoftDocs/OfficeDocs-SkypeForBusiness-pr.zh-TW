@@ -18,12 +18,12 @@ description: 了解 Microsoft Teams 中的公開預覽。嘗試新功能並提�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ea71e9a00b49c498240be0ca876a0f1baeed27eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e4a223431cef73d1fd9ec0578148b9f9d6f1d6d8
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834731"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959872"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公開預覽
 
@@ -38,9 +38,9 @@ Microsoft Teams 的公開預覽可提供 Teams 中尚未發行功能的早期存
 
 公開預覽將針對每位使用者啟用，而開啟公開預覽的選項會在系統管理原則中控制。更新原則可用來管理會在 Teams 應用程式中看到搶鮮版或預覽版功能的 Teams 和 Office Preview 使用者。您可以使用全域 (全組織預設) 原則並進行自訂，或為您的使用者建立一個或多個自訂原則。
 
-1. 登入系統管理中心。
+1. 登入 [Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com/)。
 
-2. 選取 **Teams** > **更新原則**，然後選取 **更新原則** 選項。
+2. 選取 **[Teams]** > **[Teams 更新原則]**。
 
 1. 選取 **新增** 以建立新原則，或選取現有原則以開啟 **更新原則**。
 

@@ -1464,7 +1464,9 @@ items:
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
           - name: 虛擬就診
             items:
-              - name: 使用 Teams 虛擬就診 - 整合 EHR
+              - name: 使用 Teams 虛擬就診 - 整合至中心 EHR
+                href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
+              - name: 使用 Teams 虛擬就診 - 整合至中心 EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: EHR 系統管理報告
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
