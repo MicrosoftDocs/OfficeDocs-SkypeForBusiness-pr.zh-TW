@@ -1,9 +1,8 @@
 ---
 title: 在 Android 裝置上遠端Teams和登錄
-author: serdarsoysal
-ms.author: serdars
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: prgholve
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Android 裝置上遠端Teams和登錄
-ms.openlocfilehash: 818a6a4fc7941c82a52d63016bbdc338f977be29
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: e7e5acd491f15d4cc52ce1b898112da868f80594
+ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046149"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61070147"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>在 Android 裝置上遠端Teams和登錄
 
@@ -61,7 +60,7 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 完成下列步驟以配置新裝置。
 
 1. 登入 Teams 系統管理中心。
-2. 展開 **Teams 裝置**。
+2. 展開 **Teams裝置**。
 3. 從 **動作選項卡中選取** 置 **備新** 裝置。
 
 在安裝 **新裝置** 視窗中，您可以手動新增 MAC 位址或上傳檔案。
@@ -78,7 +77,7 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 ### <a name="upload-a-file-to-add-a-device-mac-address"></a>Upload檔案以新增裝置 MAC 位址
 
-1. 從等待 **啟用的** 選項卡中，選取 **Upload MAC ID。**
+1. 從在 **啟用時等待** 的選項卡中，選取 **Upload MAC ID。**
 2. 下載檔案範本。
 3. 輸入 MAC 識別碼和位置，然後儲存檔案。
 4. **選取檔案**，**然後選取** Upload。
@@ -96,7 +95,7 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
 當裝置已電源開啟並連接至網路時，技術人員會配置裝置。 這些步驟在裝置上Teams完成。
 
-1. 技術人員 **會從裝置** 上選取 **設定。**  
+1. 技術人員會從系統 **選取****設定。**  
 
    ![從動作選項卡中置備新裝置選項。](../media/provision-device1.png)
   
@@ -108,19 +107,20 @@ IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠�
 
    ![登錄頁面上的租使用者名稱。](../media/provision-code.png)
 
-## <a name="sign-in-remotely"></a>遠端登入
+## <a name="first-time-remote-sign-in"></a>第一次遠端登入
 
 已置備的裝置會出現在等待 **登錄的** 選項卡中。選取個別裝置以啟動遠端登入程式。
 
 1. 從 "正在等待登錄" 選項卡 **中選取** 裝置。
 
-   ![已準備好要登錄之裝置清單的視窗。](../media/remote-device1.png)
+   ![已準備要登錄之裝置清單的視窗。](../media/remote-device1.png)
 
 2. 請遵循使用者 **登錄中的指示，** 然後選取 **關閉**。
 
    ![個別裝置的使用者視窗。](../media/sign-in-user.png)
 
-## <a name="related-article"></a>相關文章
+## <a name="related-articles"></a>相關文章
 
 - [在 Teams 中管理裝置](device-management.md)
+- [遠端登入和登出](remote-sign-in-and-sign-out.md)
 - [遠端Teams更新裝置](remote-update.md)

@@ -1641,6 +1641,8 @@ items:
             href: devices/device-management.md
           - name: 遠端佈建和登入
             href: devices/remote-provision-remote-login.md
+          - name: 遠端登入和登出
+            href: devices/remote-sign-in-and-sign-out.md
           - name: 遠端更新裝置
             href: devices/remote-update.md
           - name: 管理 Teams 裝置標籤
