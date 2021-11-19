@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 瞭解如何在組織中Teams中管理 Bookings 應用程式。
-ms.openlocfilehash: 42e7c4741104f417f7e24a0e6441acb57cac203a
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ae471bfee1901396ee3419380fcd7620e21231fe
+ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973051"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61111973"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>在應用程式中管理 Bookings Microsoft Teams
 
@@ -33,7 +33,7 @@ Microsoft Teams 中的 Bookings 應用程式提供一種簡單的方式，可預
 排程器可以從單一體驗管理多個部門與員工行事曆，以及與內部和外部出席者之間的通訊。 虛擬約會本身會透過會議Microsoft Teams，提供強大的視訊會議功能。
 
 > [!NOTE]
-> 只有排程器需要在 Teams 中安裝 Bookings 應用程式。 進行或參與虛擬約會的員工不需要應用程式。 他們只要從自己的會議或Outlook Teams，或從Teams確認電子郵件中的會議連結加入約會。
+> 只有排程器需要在 Teams 中安裝 Bookings 應用程式。 進行或參與虛擬約會的員工不需要應用程式。 他們只要從自己的Outlook或Teams，或從Teams確認電子郵件中的會議連結加入約會。
 
 ## <a name="prerequisites-for-using-the-bookings-app-in-teams"></a>在 Teams 中使用 Bookings 應用程式的必要條件
 
@@ -41,7 +41,7 @@ Microsoft Teams 中的 Bookings 應用程式提供一種簡單的方式，可預
 
 - 必須為組織開啟 Microsoft Bookings。
 
-- 使用者必須擁有適當的授權。 Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5、商務標準版。
+- 使用者必須擁有適當的授權。 Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5、F1、F3 及商務標準。
 
 - Bookings App 的所有使用者以及所有參與會議的員工都必須擁有支援會議排程Teams授權。
 
@@ -49,7 +49,7 @@ Microsoft Teams 中的 Bookings 應用程式提供一種簡單的方式，可預
 
 ## <a name="availability-of-bookings-in-teams"></a>Teams 中的 Bookings 可用性
 
-Microsoft Bookings 應用程式Teams桌上出版和 Web 版。 您可以在系統[管理中心Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link)中的應用程式及管理應用程式Teams找到。 
+適用于 microsoft Bookings Teams應用程式可在桌面和網頁上使用。 您可以在系統[管理中心Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link)中的應用程式及管理應用程式Teams找到。
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>控制貴組織中 Bookings 的存取權
 
@@ -61,7 +61,7 @@ Microsoft Bookings 應用程式Teams桌上出版和 Web 版。 您可以在系�
 
 ## <a name="recommended-meeting-policy-settings"></a>建議的會議策略設定
 
-若要為 Bookings 提供最佳體驗，請建立 Teams會議政策，以自動准許貴組織中所有人，並將該政策指派給員工。 這麼做可讓教職員自動加入約會，並啟用外部出席者大廳體驗。 深入瞭解如何自動允許人員 [參加會議](meeting-policies-participants-and-guests.md#automatically-admit-people)。
+若要為 Bookings 提供最佳體驗，請Teams會議政策，以自動准許貴組織中所有人，並將該政策指派給員工。 這麼做可讓教職員自動加入約會，並啟用外部出席者大廳體驗。 深入瞭解如何自動允許人員 [參加會議](meeting-policies-participants-and-guests.md#automatically-admit-people)。
 
 ## <a name="optional-staff-approvals-setting"></a>選擇性員工核准設定
 
@@ -77,7 +77,7 @@ Microsoft Bookings 應用程式Teams桌上出版和 Web 版。 您可以在系�
 
 設定 Bookings 信箱時，系統會使用 Microsoft 365 或 Office 365 組織的預設電子郵件網域。 不過，這可能會導致將會議邀請傳送給外部收件者時發生問題；您的邀請可能會被標為垃圾郵件，且移至收件者的垃圾郵件資料夾，因此收件者可能永遠不會看到您的邀請。
 
-我們建議您先變更預設網域，再建立 Bookings 信箱。 如需了解如何執行這項功能，請參閱[網域常見問題](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365)。
+建議您先變更預設網域，再建立 Bookings 信箱。 如需了解如何執行這項功能，請參閱[網域常見問題](/microsoft-365/admin/setup/domains-faq#how-do-i-set-or-change-the-default-domain-in-office-365)。
 
 如果您在 Bookings 信箱建立之後需要變更預設網域，您可以使用 PowerShell 執行此作業：
 
@@ -98,7 +98,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
   - 功能差距或功能遺失
   - Bug 或問題
   
-若要傳送意見回饋，請選取左導Teams底部的説明按鈕，然後選取報告所有 **問題的問題。**  在意見回饋報告開頭指出您傳送關於「Bookings」的意見回饋，以便我們輕鬆找出 Bookings 問題。
+若要傳送意見回饋，請選取左導Teams底部的説明按鈕，然後選取報告所有 **問題的問題。**  在意見回饋報告開頭指出您傳送有關「Bookings」的意見回饋，以便我們輕鬆找出 Bookings 問題。
 
 ## <a name="related-articles"></a>相關文章
 

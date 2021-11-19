@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f69a4d94743e443fd20f53f5eb35d26b6d69e3b3
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 108a5895bf568207246ec6b1d7711e13e6c87069
+ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046229"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61111983"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 限域目錄搜尋
 
@@ -53,11 +53,11 @@ Microsoft Teams可讓組織提供目錄的自訂視圖給使用者。 Microsoft 
 
 1. 使用資訊隔層策略將貴組織設定為虛擬子組。 詳細資訊，請參閱定義 [資訊障礙政策](/microsoft-365/compliance/information-barriers-policies)。
 
-2. 在 Microsoft Teams系統管理中心中，選取整個 **組織** 範圍的設定  >  **Teams設定**。
+2. 在系統管理Microsoft Teams，選取  >  **Teams Teams設定**。
 
-3. 在 **搜尋** 下，在 Teams 中使用 Exchange 通訊錄 **(ABP**) 搜尋，**開啟開關。**
+3. 在 **使用通訊錄Teams** 搜尋的範圍目錄搜尋Exchange下，開啟切換 **開關 。**
 
-    ![系統管理中心中的Microsoft Teams目錄搜尋。](media/teams-scoped-directory-search-image1.png)
+    ![在系統管理中心Microsoft Teams目錄搜尋。](media/teams-scoped-directory-search-image1.png)
 
 > [!IMPORTANT]
 > 此變更可能需要數小時才能複製。

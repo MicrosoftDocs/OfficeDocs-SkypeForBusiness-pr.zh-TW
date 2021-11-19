@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a76559ea1ec140b18acbcc49f92b724a0e1bdc3a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b87aaae3feeef9552cd64d76bb777cb081a6102e
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604452"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055424"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>管理組織的 Microsoft Teams 設定
 
@@ -36,9 +36,9 @@ ms.locfileid: "58604452"
 
 若要深入了解，請參閱[在 Teams 中管理應用程式的設定](admin-settings.md)。  
 
-## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 系統管理中心的 Teams 全組織設定
+## <a name="teams-external-access-and-guest-access-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 系統管理中心的 Teams 外部存取和來賓存取設定
 
-您可以在 Microsoft Teams 系統管理中心控制全組織的使用者設定。 若要編輯全組織的設定，請移至 Microsoft Teams 系統管理中心，然後選取 **[全組織設定]**。 您可以設定下列設定。
+您可以在 Microsoft Teams 系統管理中心控制外部和來賓存取設定。 若要編輯這些設定，請移至 Microsoft Teams 系統管理中心，然後選取 **使用者**。 您可以設定下列設定。
 
 ### <a name="external-access"></a>外部存取
 
@@ -54,6 +54,10 @@ ms.locfileid: "58604452"
 ### <a name="guest-access"></a>來賓存取
 
 Microsoft Teams 中的 **來賓存取** 可將團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。 任何擁有商務或消費者電子郵件帳戶的人員 (例如 Outlook、Gmail 或其他)，都能以來賓身分參與 Teams，擁有小組聊天、會議及檔案的完整存取權。 如需詳細資訊，請參閱 [Microsoft Teams中的來賓存取](guest-access.md)。
+
+## <a name="teams-settings-and-teams-upgrade-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 系統管理中心的 Teams 設定和 Teams 升級設定。
+
+您可以在 Microsoft Teams 系統管理中心控制 Teams 設定和 Teams 升級設定。 若要編輯這些設定，請移至 Microsoft Teams 系統管理中心，然後選取 **Teams**。 您可以設定下列設定。
 
 ### <a name="teams-settings"></a>Teams 設定
 
@@ -102,11 +106,7 @@ Microsoft Teams 範圍目錄搜尋使用 Exchange 通訊錄原則 (APB) 來允�
 
 受監督的聊天可讓組織和學校使用以角色為基礎的權限來限制聊天功能。 這些權限可控制使用者與其他人聊天時所需的監督量。 深入了解[監督的聊天](supervise-chats-edu.md)。
 
-### <a name="skype-for-business"></a>商務用 Skype
-
-使用此頁面來管理組織中商務用 Skype 使用者的商務用 Skype 功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](skype-for-business-settings.md)。
-
-### <a name="teams-upgrade"></a>Teams 升級
+### <a name="teams-upgrade-settings"></a>Teams 升級設定
 
 您可以使用這些設定來設定使用者將如何從商務用 Skype 升級為 Microsoft Teams。 
 
@@ -125,6 +125,7 @@ Microsoft Teams 範圍目錄搜尋使用 Exchange 通訊錄原則 (APB) 來允�
 
 您可以在這裡選擇使用者將用來加入商務用 Skype 會議的應用程式 (商務用 Skype 或 [Skype 會議 App](https://support.office.com/article/What-is-Skype-Meetings-App-Skype-for-Business-Web-App-1FF3D412-718A-4982-8FF2-A4992608CDB5))。 此設定不依賴共存模式設定。
 
+### <a name="planning-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 系統管理中心的規劃設定
 
 #### <a name="network-planner"></a>網路規劃中心
 
@@ -132,6 +133,11 @@ Microsoft Teams 範圍目錄搜尋使用 Exchange 通訊錄原則 (APB) 來允�
 
 您也可以選取 [為商務用 Skype 使用者在背景下載 Teams 應用程式] 選項。  根據預設，此設定會設為 [開啟]。 啟用此設定後，便會為在 Windows 電腦上執行商務用 Skype 應用程式的使用者在背景下載 Teams 應用程式。 若使用者的共存模式為 [僅 Teams] 或在商務用 Skype 中已啟用擱置升級的通知時，便會發生此情況。
 
+## <a name="other-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 系統管理中心的其他設定
+
+### <a name="skype-for-business"></a>商務用 Skype
+
+使用此頁面來管理組織中商務用 Skype 使用者的商務用 Skype 功能。 若要深入了解，請參閱[在 Microsoft Teams 系統管理中心中管理商務用 Skype 設定](skype-for-business-settings.md)。
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>如何判斷哪些功能可供使用？
 
