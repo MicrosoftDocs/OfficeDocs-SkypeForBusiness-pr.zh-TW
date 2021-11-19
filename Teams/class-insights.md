@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cc920db842d37129a122ed69a8816e66a4c16d9e
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: ea57cc0f2a0809400376372952dfd7b274f40a02
+ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432445"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61055414"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 中 Education Insights 的 IT 系統管理員指南
 
@@ -175,6 +175,8 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 
 *教育版 Insights Premium* 是付費的升級，為教育領導者提供教育版 Insights 資料的組織層級檢視，以及教育者對歷史資料檢視的擴充存取權。 合格的教育機構可以購買 *教育版 Insights Premium* 附加元件授權，方法是透過註冊教育版解決方案 (EES)、雲端服務提供者 (CSP) 和 Microsoft 365 系統管理中心 (Web 直接)。
 
+組織可根據為租用戶中的所有數位活躍學生購買權限，使用 Education Insights Premium 附加元件。
+
 ## <a name="student-information-system-sis-integration"></a>學生資訊系統 (SIS) 整合
 送入 Insights 中的資料越多，授課者更能夠支援其學生，且教育領導者也更能夠支援授課者。
 
@@ -269,3 +271,7 @@ Insights 會儲存在班級團隊內容中執行的學生和授課者動作。 �
 
 > [!NOTE]
 > 如果您的問題仍未獲得回覆，請[開啟支援票證](https://aka.ms/edusupport)。 請包含代表問題的相關螢幕擷取畫面和問題發生的日期。 新增您認為可能有助於我們解決問題的任何其他資料。
+
+### <a name="what-licenses-do-i-need-to-activate-education-insights-premium"></a>我需要哪些授權才能啟用教育版 Insights Premium？
+為了為您的組織啟用教育版 Insights Premium，租用戶必須根據組織租用戶中數位活躍學生的數量購買權限。 也就是說，對於所有使用 Teams 課程作為其學校作業的一部分進行會議、交流、聊天、作業、編輯文件、課堂筆記本或反思等活動的學生。
+
