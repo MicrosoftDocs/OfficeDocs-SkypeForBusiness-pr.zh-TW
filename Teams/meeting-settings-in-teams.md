@@ -22,26 +22,31 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: 7b12dfacc5b9bd6ebe5bb0e3de17a40bb0148ef0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8e8ecc32d35aac6fb6bc504df1a8d00520b4578c
+ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839735"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "61129863"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
 身為系統管理員，您可以使用 Teams 會議設定，來控制匿名使用者是否可以加入 Teams 會議、自訂會議邀請，以及如果您要啟用服務品質 (QoS)，則要針對即時流量設定連接範圍。 這些設定適用於使用者在貴組織中排程的所有 Teams 會議。 您可以在 Microsoft Teams 系統管理中心的 [會議]  >  [會議設定] 來管理這些設定。
 
+從 2021 年 11 月起，系統管理員也可以控制特定使用者或使用者群組是否允許匿名使用者加入他們組織的會議。 此每一召集人原則比系統管理員在 Teams 系統管理中心管理的全組織匿名使用者設定更嚴格，並且會加以覆寫。
+
+> [!Important]
+ > **-DisableAnonymousJoin** 是全組織原則設定。 這個原則將會在未來遭到取代，接著每一召集人原則將是控制匿名加入的唯一方法。
+
 ## <a name="allow-anonymous-users-to-join-meetings"></a>允許匿名使用者加入會議
 
-利用匿名加入，任何人都可以按一下會議邀請中的連結，以匿名使用者的身分加入會議。 若要深入了解，請參閱[在沒有 Teams 帳戶的情況下加入會議](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。
+利用匿名加入，任何人都可以按一下會議邀請中的連結，以匿名使用者的身分加入會議。 若要深入了解，請參閱[在沒有 Teams 帳戶的情況下加入會議](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。 您可以不同的原則設定來控制匿名使用者加入會議的能力，無論是組織層級，還是每一會議召集人。
 
- **使用 Microsoft Teams 系統管理中心**
+ ### <a name="using-the-microsoft-teams-admin-center-to-configure-organization-wide-policy"></a>使用 Microsoft Teams 系統管理中心來設定全組織原則。
 
-您必須是 Teams 服務系統管理員才能進行這些變更。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
+您必須是 Teams 系統管理員才能進行這些變更。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
 
-1. 移至系統管理中心。
+1. 移至 [Teams 系統管理中心](https://admin.teams.microsoft.net)。
 
 2. 在左側導覽中，移至 [會議]  >  [會議設定]。
 
@@ -51,6 +56,22 @@ ms.locfileid: "60839735"
 
 > [!CAUTION]
 > 如果您不想讓匿名使用者加入由組織中的使用者排程的會議，請關閉此設定。
+
+### <a name="using-powershell-to-configure-per-organizer-policy"></a>使用 PowerShell 設定每一召集人原則
+
+系統管理員現在可以控制特定使用者或使用者群組是否允許匿名使用者加入他們組織的會議。 這個新的每一召集人原則是藉由使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) 中的 **-AllowAnonymousUsersToJoinMeeting** 參數加以控制。 這個功能隨附於 Teams PowerShell 2.6.0 版和更新版本。
+
+您可以使用全組織或每一召集人原則來管理匿名加入。 我們建議您實作每一召集人原則。 全組織原則設定將會在未來遭到取代，每一召集人原則將是控制匿名加入的唯一方法。
+
+由於全組織和每一召集人原則都會控制匿名加入，因此較嚴格的設定將會生效。 例如，如果您不允許組織層級的匿名加入，無論您針對每一召集人原則的設定為何，這都是生效的原則。 因此，若要允許匿名使用者加入會議，您必須設定下列值，同時設定兩個原則以允許匿名加入：
+
+- **-DisableAnonymousJoin** 設為 **$false**
+- **-AllowAnonymousUsersToJoinMeeting** 設為 **$true**
+
+任何其他值組合都會防止匿名使用者加入會議。
+> [!NOTE]
+> 若要針對組織使用每一召集人原則，且每個組織都關閉匿名加入，系統管理員必須建立原則，然後將其指派給使用者。 若要深入了解如何執行此操作，請參閱[在 Microsoft Teams 中管理會議原則](/microsoftteams/meeting-policies-overview)。
+
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>允許匿名使用者與會議中的應用程式互動
 
