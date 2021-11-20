@@ -369,8 +369,6 @@ items:
                 href: view-guests.md
               - name: 編輯來賓資訊
                 href: edit-guests-information.md
-              - name: 疑難排解來賓存取
-                href: troubleshoot-guest-access.md
       - name: 監控及管理通話品質
         items:
           - name: 監控及改善通話品質

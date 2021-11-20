@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 概觀什麼是移轉訂單，以及如何將服務提供者的電話號碼移轉Teams。
-ms.openlocfilehash: a6ff4bffe4602eca7150a9f6c8c1b69782646e7c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bb2c81a1c2263e59aee8477679440c7e26748c3a
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833027"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124270"
 ---
 # <a name="whats-a-port-order"></a>什麼是移轉訂單？
 
@@ -57,7 +57,7 @@ ms.locfileid: "60833027"
 - 免付費電話號碼。
 
     > [!NOTE]
-    > 通用國際免費電話號碼 (UIFN) 無法移轉至我們。 
+    > 無法將通用國際免費 (號碼) UIFN 號碼傳送給我們。 
   
 - 服務電話號碼，例如用於會議橋接器、自動電話機等的電話號碼。
 
@@ -67,21 +67,21 @@ ms.locfileid: "60833027"
 
 - 商務用 Skype混合式電話號碼。 如果您想要移轉這些數位，請傳送電子郵件給我們 <ptn@microsoft.com> 。
 
-  **您無法傳輸：**
+**您無法傳輸：**
   
-    > [!NOTE]
-    > 目前，您無法移轉任何不受支援國家/地區的電話號碼，包括 VoIP 電話提供者的電話號碼。 有關支援的國家/地區清單，請參閱音訊會議與通話方案的國家/ [地區可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> [!NOTE]
+> 目前，您無法移轉任何不受支援國家/地區的電話號碼，包括 VoIP 電話提供者的電話號碼。 有關支援的國家/地區清單，請參閱音訊會議與通話方案的國家/ [地區可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - 電話用於資料連線的數位，例如DSL 線路或寬頻網際網路連接。
 
 - 電話傳真專用號碼。
 
-    如果您有用於傳真的現有專用電話號碼，您可以將這些數位移轉至Teams但傳真服務無法如預期繼續工作。 即使您擁有傳真服務、國內Teams方案或國際通話方案電話系統傳真服務。
+    如果您有用於傳真的現有專用電話號碼，您可以將這些數位轉接到 Teams 但傳真服務無法如預期繼續工作。 傳真服務不適用於Teams，即使您擁有 電話系統、國內通話方案或國際通話方案授權。
 
-    如果您將電話號碼Teams，您可以將此電話號碼指派給貴組織的使用者，而不是使用電話號碼進行傳真。
+    如果您將電話號碼Teams，您可以將這個電話號碼指派給貴組織的使用者，而不是使用它進行傳真。
 
-    > [!NOTE]
-    > 目前在英國，我們目前不支援傳輸英國非地理號碼，包括區碼 0843、0844、0845、0870、0871、0872 的共用成本號碼。
+> [!NOTE]
+> 目前在英國，我們目前不支援傳輸英國非地理號碼，包括區碼 0843、0844、0845、0870、0871、0872 的共用成本號碼。
   
 ## <a name="what-information-do-i-need-to-provide"></a>我需要提供哪些資訊？
 
@@ -131,7 +131,7 @@ ms.locfileid: "60833027"
 
 完成埠訂單要求之後，處理需要 7-14 天。 不過，視您的服務提供者而異，最多可能需要 30 天。 電話號碼經過移植之後，您就會收到我們的電子郵件，讓您知道您很好。
   
-若要檢查您的埠訂單狀態，請在系統管理中心的左側導Microsoft Teams，前往 **[** 語音電話號碼，然後按一下 [訂單  >  ******歷程記錄**。 每個埠訂單狀態會列在狀態 **欄中** 。
+若要檢查您的埠訂單狀態，請在系統管理中心的左側導Microsoft Teams，前往 [語音電話號碼，然後按一下 [訂單  >  ******歷程記錄**。 每個埠訂單狀態會列在狀態 **欄中** 。
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>使用者或 (訂閱) 電話號碼可以轉換成服務號碼嗎？
 <a name="bkmk_type_1"> </a>
@@ -140,9 +140,7 @@ ms.locfileid: "60833027"
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>我可以將號碼從手機Teams到不同的電話服務提供者或電信公司嗎？
 
-若要將號碼從Teams到不同的電信公司，您必須向新的電信公司提交要求。 您也需要在系統管理中心設定Microsoft Teams PIN。
-
-若要定義您的埠 PIN，請在 Microsoft Teams 系統管理中心的左側流覽中，前往頁面右上角的 Voice 電話 號碼，選取管理埠  >  **** **PIN，** 然後輸入 10 位數 PIN。
+若要將號碼從Teams到不同的電信公司，您必須向新的電信公司提交要求。 您也需要開啟支援案例來設定埠 PIN。 若要瞭解如何取得支援，請參閱取得 [支援](/microsoft-365/business-video/get-help-support)。 
 
 當您的新電信公司向我們提出移植要求時，我們會要求他們提供您定義的 PIN。
 

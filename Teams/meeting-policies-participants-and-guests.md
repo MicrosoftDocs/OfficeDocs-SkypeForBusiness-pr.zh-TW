@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在會議Teams中管理會議策略設定。
-ms.openlocfilehash: 2c87434aa198169854e59b6a2a93ed9ceed9cd2f
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: aab9dda3f0a6bd5674cde2614fbbe0987292d6bf
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055354"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124230"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>會議原則設定 - 參與者與來賓
 
@@ -40,6 +40,7 @@ ms.locfileid: "61055354"
 
 > [!NOTE]
 >加入會議的選項會因每個 Teams 群組的設定和連線方法而有所不同。 如果您的群組有音訊會議，並且使用它來連線，請參閱[音訊會議](/microsoftteams/audio-conferencing-in-office-365)。 如果您的 Teams 群組沒有音訊會議，請參閱[在 Teams 中加入會議](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)。
+
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>讓匿名人員開始會議
 
