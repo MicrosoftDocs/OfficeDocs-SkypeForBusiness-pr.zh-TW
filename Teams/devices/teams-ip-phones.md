@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: 50e5e9fb3ae3e549528d0af37d3d814a3746dd11
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: eba01aa0e115de174851371e69ef07bb7685935c
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055364"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135236"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認證的裝置
 
@@ -36,7 +36,7 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 
 ## <a name="currently-certified-teams-phones"></a>目前已Teams手機
 
-下列裝置在 Microsoft Teams 認證計畫下通過認證：
+下列裝置在電話認證計畫Microsoft Teams認證：
 
 |裝置模型    | 固件版本    | 發行日期
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|
@@ -46,7 +46,6 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 | Cresron UC-P8-C-T (和不含聽筒)    | `1.0.0.80`       | 2021 年 5 月                     |
 | Yealink MP52                           | `145.15.0.6 `                                              | 2021 年 4 月                   |
 | AudioCodes C435HD                      | `1.12.33`                                                  | 2021 年 4 月                   |
-| 音訊代碼 C448HD (CAP 模式)       | `C450HD_TEAMS_0.225`                                       | 2019 年 3 月                   |
 | AudioCodes C455HD                      | `1.14.404`                                                 | 2021 年 11 月                |
 | Cresron UC-2                          |`1.0.1.46`                                                 | 2020 年 7 月                    |
 | Lenovo ThinkSmart View                 | `CD-18781Y.200410.067`                                     | 2020 年 4 月                   |
@@ -54,13 +53,13 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 | Poly CCX400                            | `1.0.0.0200`                                               | 2020 年 1 月                 |
 | Poly CCX600                            | `5.9.12.1122`                                              | 2020 年 1 月                 |
 | Poly CCX500                            | `5.9.12.1122`                                              | 2019 年 12 月                |                                                                                                                                                           
-| 支援 T56、T58、MP56、MP58、VP59 的 Yealink EXP50| 針對每個支援的裝置型號，請參閱更新 #7 固件版本 | 2021 年 1 月 |
+| 在 MP56、MP58、VP59 上支援 Yealink EXP50| 針對每個支援的裝置型號，請參閱更新 #7 固件版本 | 2021 年 1 月 |
 | Yealink MP58 | `122.15.0.27`| 2020 年 12 月 |
 | Yealink MP54 | `122.15.0.27`| 2020 年 11 月 |
 | Yealink MP56 | `122.15.0.6` | 2020 年 3 月    |
 | Yealink VP59 | `91.15.0.16` | 2019 年 6 月     |
 
-## <a name="currently-certified-teams-rooms-on-android"></a>目前通過 Android Teams 會議室認證
+## <a name="currently-certified-teams-rooms-on-android"></a>Android 目前Teams 會議室認證
 
 下列裝置在 Android 認證計畫Microsoft Teams 會議室認證：
 
@@ -118,7 +117,7 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以判斷應用程式、Microsoft Teams和系統管理公司入口網站的安裝版本。 在包含的產品發行欄中尋找產品版本，然後在前述 **的 App** 版本資料表中尋找產品版本。
+當您在 Microsoft Teams裝置上安裝新的固件版本時，您可以判斷應用程式、公司入口網站和系統管理代理程式對應的安裝版本。 在包含的產品發行欄中尋找產品版本，然後在前述 **的 App** 版本資料表中尋找產品版本。
 
 | 裝置模型        | 固件版本     | 已包含產品發行  |
 |:--------------------|:---------------------|:-------------------------|
@@ -182,7 +181,7 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。  然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行 |
 |:--------------|:-----------------|:-------------------------|
@@ -269,4 +268,4 @@ Microsoft Teams授權可以在訂閱或訂閱[Microsoft 365 Office 365購買](/o
 
 [探索Microsoft Teams手機和認證裝置。](https://products.office.com/microsoft-teams/across-devices/devices)
 
-[Teams和Skype互通性](../teams-skype-interop.md)
+[Teams Skype互通性](../teams-skype-interop.md)

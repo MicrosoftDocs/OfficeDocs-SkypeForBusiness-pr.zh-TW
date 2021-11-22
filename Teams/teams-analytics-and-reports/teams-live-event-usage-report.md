@@ -17,16 +17,16 @@ description: 瞭解如何在 Teams 系統管理中心Microsoft Teams即時活動
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 504c8822146efa7101ca1435cab961a86068ccaf
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 2e2b9d4a9f60b905e03ee27397e24feb74ac3c17
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959892"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135226"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams活動使用方式報告
 
-系統Teams系統管理中心中的即時Microsoft Teams使用方式報告會顯示貴組織中即時活動的活動概觀。 您可以針對每個事件查看使用方式資訊，包括事件狀態、開始時間、視圖及生產類型。 您可以深入瞭解使用趨勢，並查看貴組織中誰排程、進行展示，以及製作即時活動。
+系統Teams系統管理中心中的即時Microsoft Teams報告會顯示貴組織中即時活動的活動概觀。 您可以針對每個事件查看使用方式資訊，包括事件狀態、開始時間、視圖及生產類型。 您可以深入瞭解使用趨勢，並查看貴組織中誰排程、進行展示，以及製作即時活動。
 
 ## <a name="view-the-live-event-usage-report"></a>查看即時活動使用方式報告
 
@@ -48,7 +48,9 @@ ms.locfileid: "60959892"
 |**5**   |選取 **編輯欄** 以新增或移除表格中的欄。|
 
 ## <a name="notes"></a>注釋
-我們最多會顯示 100 個符合目前報告準則的即時活動。 若要查看更多即時活動，請應用日期篩選來縮減清單大小。 
+我們最多會顯示 100 個符合目前報告準則的即時活動。 若要查看更多即時活動，請應用日期篩選來縮減清單大小。
+
+匿名簡報者不會包含在報告中。
 
 任何觀看活動或活動視需要錄製的人，將不會包含在查看計數中。 
 

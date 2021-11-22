@@ -99,7 +99,7 @@ items:
                 href: hardware-requirements-for-the-teams-app.md
               - name: 硬體解碼器和編碼器驅動程式的建議
                 href: hardware-decoders-and-encoders.md
-              - name: 使用 MSI 安裝 Teams
+              - name: 使用 Microsoft Endpoint Configuration Manager 安裝 Microsoft Teams
                 href: msi-deployment.md
               - name: 開啟組織中的 Teams
                 href: Office-365-set-up.md
