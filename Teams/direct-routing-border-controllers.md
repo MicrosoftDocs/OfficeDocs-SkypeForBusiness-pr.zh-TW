@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些工作階段邊界控制器 (SBC) 已通過直接路由認證。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5dd419bab9fbe885d3d361d2fdb19758bd392e3
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+ms.openlocfilehash: 97f8ffbf6613ca4106a68284c8e889375a7b0feb
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275577"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135196"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器
 
@@ -37,7 +37,7 @@ Microsoft 可與每個廠商合作，以：
 - 與 SBC 廠商建立聯合支援流程。
 
   > [!NOTE]
-  > Microsoft 只有在透過直接路由連接通過認證的裝置時，才支援電話系統。 Microsoft 保留拒絕非認證裝置透過直接路由連接到電話系統的支援案例的權利。 如果 Microsoft 判斷客戶的直接路由問題與廠商的 SBC 裝置有關，則客戶需要與 SBC 廠商聯繫以取得支援。
+  > Microsoft 只有在透過直接路由連接通過認證的裝置時，才支援電話系統。 如果發生問題，客戶必須先與 SBC 廠商的客戶支援聯繫。 如有必要，SBC 廠商會透過內部管道將問題呈報給 Microsoft。 Microsoft 保留拒絕非認證裝置透過直接路由連接到電話系統的支援案例的權利。 如果 Microsoft 判斷客戶的直接路由問題與廠商的 SBC 裝置有關，則客戶需要與 SBC 廠商重新聯繫以取得支援。
   >
   > 認證會授予特定 SBC 韌體版本。 以下記載的任何 SBC 韌體版本都經過認證且受支援。 只要主要、次要版本相同，就支援高於所記載的韌體版本。
   >
