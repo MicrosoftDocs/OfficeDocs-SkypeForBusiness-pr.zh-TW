@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: 8e8ecc32d35aac6fb6bc504df1a8d00520b4578c
-ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
+ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
+ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "61129863"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "61153306"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
 身為系統管理員，您可以使用 Teams 會議設定，來控制匿名使用者是否可以加入 Teams 會議、自訂會議邀請，以及如果您要啟用服務品質 (QoS)，則要針對即時流量設定連接範圍。 這些設定適用於使用者在貴組織中排程的所有 Teams 會議。 您可以在 Microsoft Teams 系統管理中心的 [會議]  >  [會議設定] 來管理這些設定。
 
-從 2021 年 11 月起，系統管理員也可以控制特定使用者或使用者群組是否允許匿名使用者加入他們組織的會議。 此每一召集人原則比系統管理員在 Teams 系統管理中心管理的全組織匿名使用者設定更嚴格，並且會加以覆寫。
+透過每個召集人群組設定，系統管理員現在可以控制特定使用者或使用者群組是否可以允許匿名使用者加入他們召集的會議。 每個召集人和全組織原則設定都能控制匿名加入，且較具限制的設定會生效。
 
 > [!Important]
  > **-DisableAnonymousJoin** 是全組織原則設定。 這個原則將會在未來遭到取代，接著每一召集人原則將是控制匿名加入的唯一方法。
