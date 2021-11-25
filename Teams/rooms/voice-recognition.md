@@ -1,5 +1,5 @@
 ---
-title: 租使用者系統管理在 (語音設定檔) 語音辨識Teams 會議室
+title: 租使用者系統管理在 (語音設定檔) 語音Teams 會議室
 author: serdars
 ms.author: v-mahoffman
 ms.reviewer: parisataheri
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解租使用者系統管理在會議室 (語音設定檔) 語音Teams控制項。
+description: 瞭解租使用者系統管理在會議室 (語音設定檔) 的Teams控制。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -21,7 +21,7 @@ ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/25/2021
-ms.locfileid: "61177784"
+ms.locfileid: "61205253"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智慧型喇叭的語音辨識技術控制項
 
@@ -86,7 +86,7 @@ ms.locfileid: "61177784"
 |AllowTranscription|使用者和會議室帳戶Teams必填專案。|**True** 和 **False**|
 ||||
 
-在 Teams系統管理中心中，設定 **文字翻譯** 政策。 設定為 **關閉**。
+在 Teams系統管理中心中，設定 **文字翻譯** 政策。 設定預設 **為關閉**。
 
 ![系統管理中心，且會議政策已強調，且已選取允許抄寫。](../media/allow-transcription1.png)
 
@@ -98,7 +98,7 @@ ms.locfileid: "61177784"
 
 **什麼是保留時間表和策略？**
 
-資料保留概觀中會說明一 [般保留政策](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。 此外，如果使用者未在 3 年內受邀參加智慧型喇叭的任何會議，使用者的語音設定檔資料將在 3 年後刪除。 資料不會用於現有員工的任何會議。 如果員工離職，語音設定檔資料會視為使用者內容，並且根據資料保留概觀所述Office 365資料保留政策視為[使用者內容](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。
+資料保留概觀中會說明一 [般保留政策](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。 此外，如果使用者未在 3 年內受邀參加智慧型喇叭的任何會議，使用者的語音設定檔資料將在 3 年後刪除。 資料不會用於現有員工的任何會議。 如果員工離職，語音設定檔資料會視為使用者內容，並Office 365資料保留概觀所述之資料保留政策視為[使用者內容](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。
 
 **語音設定檔資料是否用於Microsoft 服務？**
 

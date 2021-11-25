@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在會議Teams中管理會議策略設定。
-ms.openlocfilehash: aab9dda3f0a6bd5674cde2614fbbe0987292d6bf
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: 21a5737c51f33d288277f6a6ff5b1ecb27d8c86f
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124230"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205243"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>會議原則設定 - 參與者與來賓
 
@@ -35,8 +35,8 @@ ms.locfileid: "61124230"
 - [讓匿名人員開始會議](#let-anonymous-people-start-a-meeting)
 - [自動准許人員](#automatically-admit-people)
 - [允許撥入使用者無需先在大廳等候](#allow-dial-in-users-to-bypass-the-lobby)
-- [啟用即時輔助字幕](#enable-live-captions)
-- [允許在會議中聊天](#allow-chat-in-meetings)
+- [即時字幕](#live-captions)
+- [在會議中聊天](#chat-in-meetings)
 
 > [!NOTE]
 >加入會議的選項會因每個 Teams 群組的設定和連線方法而有所不同。 如果您的群組有音訊會議，並且使用它來連線，請參閱[音訊會議](/microsoftteams/audio-conferencing-in-office-365)。 如果您的 Teams 群組沒有音訊會議，請參閱[在 Teams 中加入會議](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)。
@@ -47,7 +47,7 @@ ms.locfileid: "61124230"
 此設定是每個召集人的策略，可讓無主席電話撥入式會議。 此設定可控制撥入使用者是否可以加入會議，而組織沒有經過驗證的使用者出席。 根據預設，此設定會關閉，這表示撥入使用者會等候在大廳中，直到組織經過驗證的使用者加入會議。
 
 > [!NOTE]
-> 如果這項設定已關閉，且撥入使用者會先加入會議，並置於大廳中，組織使用者必須使用 Teams 用戶端加入會議，以從大廳准許使用者加入會議。 撥入的使用者沒有可用的大廳控制項。
+> 如果這項設定已關閉，且撥入使用者會先加入會議，且位於大廳，則組織使用者必須使用 Teams 用戶端加入會議，以從大廳准許使用者加入會議。 撥入的使用者沒有可用的大廳控制項。
 
 ## <a name="automatically-admit-people"></a>自動准許人員
 
@@ -76,7 +76,7 @@ ms.locfileid: "61124230"
 > [!NOTE]
 > 如果撥入使用者在組織使用者加入會議之前加入會議，他們將會停留在大廳，直到組織使用者使用 Teams 用戶端加入會議並准許他們加入會議為止。 如果您變更任何使用者的預設設定，它將會套用至該使用者召集的所有新會議，以及使用者未修改會議選項的任何先前會議。
 
-## <a name="enable-live-captions"></a>啟用即時輔助字幕
+## <a name="live-captions"></a>即時字幕
 
 此設定是每個使用者原則，並適用于會議期間。 此設定可控制使用者是否可使用 [開啟即時輔助字幕 **]** 選項，以在使用者出席的會議中開啟和關閉即時輔助字幕。  
 
@@ -89,7 +89,7 @@ ms.locfileid: "61124230"
 
 <a name="bkcontentsharing"> </a>
 
-## <a name="allow-chat-in-meetings"></a>允許在會議中聊天
+## <a name="chat-in-meetings"></a>在會議中聊天
 
 此設定是每個參與者的設定。 此設定可控制是否在使用者的會議中允許會議聊天。
 

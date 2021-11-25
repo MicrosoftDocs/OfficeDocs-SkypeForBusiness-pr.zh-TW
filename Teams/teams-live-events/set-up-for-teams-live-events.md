@@ -16,16 +16,16 @@ ms.collection:
 - m365initiative-meetings
 - m365initiative-meetings-enabler
 - enabler-strategic
-description: 在 Teams 中設定即時事件，包括設定您的網路、指派授權、啟用即時活動功能與排程，以及影片發佈解決方案。
+description: 在 Teams 中設定即時事件，包括設定您的網路、指派授權、啟用即時活動功能和排程，以及視音訊發佈解決方案。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4d9e21872adb0fb0e34280d29fe928ea3ac056da
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 5911ee829284917e5d16a6e254004ad7c49f8660
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046189"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205443"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中設定即時活動
 
@@ -44,13 +44,13 @@ ms.locfileid: "60046189"
 即時活動原則是用來控制組織中的哪些人員可以舉辦即時活動，以及在他們所建立活動中可用的功能。 您可以使用預設原則或建立一或多個自訂即時活動原則。 建立自訂原則之後，請將它指派給組織中一個或一組使用者。
 
 > [!NOTE]
-> 除非您建立並指派自訂 (，否則貴組織中的使用者 () 整個組織的預設策略。 依預設在全域原則中，會為 Teams 使用者啟用即時活動排程，關閉即時的輔助字幕和翻譯字幕 (謄寫)，組織中的每個人都可以加入即時活動，且錄製設定設為永遠錄製。
+> 除非您建立並指派自訂 (，否則貴組織中的使用者將) 整個組織的預設策略。 依預設在全域原則中，會為 Teams 使用者啟用即時活動排程，關閉即時的輔助字幕和翻譯字幕 (謄寫)，組織中的每個人都可以加入即時活動，且錄製設定設為永遠錄製。
 
 ### <a name="create-or-edit-a-live-events-policy"></a>建立或編輯即時活動原則
 
 <a name="bkcreatepolicy"> </a>
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往 **會議**  >  **Live 事件策略**  >  **管理政策** tab。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 **會議**  >  **即時活動政策**  >  **管理政策** tab。
 2. 執行下列其中一個選項：
 
     - 如果要編輯現有的預設原則，請選擇 **[全域 (全組織預設值)]**。
@@ -65,8 +65,8 @@ ms.locfileid: "60046189"
 |---------|---------|
 |**標題**     |這是顯示在即時活動原則頁面上的原則標題。 不能超過 64 個字元或含有任何特殊字元。          |
 |**描述**    |使用此項目來新增原則的易記描述。         |
-|**允許排程**     |開啟此功能可讓組織中的使用者在 Teams 中建立及排程即時活動。 請注意，如果您希望使用者排程由外部應用程式或裝置產生的即時活動，您必須執行其他步驟。 若要深入了解，請參閱[讓使用者能夠排程使用外部應用程式或裝置所產生的活動](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。     |
-|**允許出席者的謄寫** |此設定只能套用至在 Teams 中產生的活動。 開啟此功能可讓即時活動出席者在活動期間查看即時輔助字幕和翻譯字幕。         |
+|**即時活動排程**     |開啟此功能可讓組織中的使用者在 Teams 中建立及排程即時活動。 請注意，如果您希望使用者排程由外部應用程式或裝置產生的即時活動，您必須執行其他步驟。 若要深入了解，請參閱[讓使用者能夠排程使用外部應用程式或裝置所產生的活動](#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)。     |
+|**出席者的成績單** |此設定只能套用至在 Teams 中產生的活動。 開啟此功能可讓即時活動出席者在活動期間查看即時輔助字幕和翻譯字幕。         |
 |**誰可加入已排程的即時活動**    |選擇下列其中一項。<br><br>**每個人**：使用者可以建立每個人 (包括組織外部人員) 都可以出席的即時活動。 當使用者排程即時活動時，此設定會在 Teams 中啟用 **公用** 權限類型。<br> **組織中的每個人**：使用者可以建立組織中的人員 (包括新增至您組織的 [來賓使用者](../add-guests.md)) 可以出席的即時活動。 使用者無法建立由匿名使用者出席的即時活動。 當使用者排程即時活動時，此設定會在 Teams 中啟用 **全組織** 權限類型。<br> **特定使用者或群組**：使用者可以建立只有組織中特定使用者或群組可以出席的即時活動。 使用者無法建立由組織中的每個人或匿名使用者出席的即時活動。 當使用者排程即時活動時，此設定會在 Teams 中啟用 **人員及群組** 權限類型。       |
 |**錄製設定**  <br>     | 此設定只能套用至在 Teams 中產生的活動。 選擇下列其中一項。 <br><br> **永遠錄製**：永遠會錄製使用者建立的即時活動。 活動結束之後，活動團隊成員可以下載錄製，而出席者可以觀看活動。 <br> **永不錄製**：永不錄製使用者建立的即時活動。 <br>**召集人可否錄製**：使用者可以決定是否要錄製即時活動。 如果有錄製，活動結束之後，活動團隊成員可以下載錄製，而出席者可以觀看活動。
 
@@ -83,7 +83,7 @@ ms.locfileid: "60046189"
 1. 為組織中的使用者啟用 Microsoft Stream。 Stream 可做為合格訂閱或Microsoft 365訂閱Office 365或獨立服務的一部分。 Stream 未包含在商務基本版或商務進階版方案中。 如需詳細資訊，請參閱 [Stream 授權概觀](/stream/license-overview)。
 
    >[!Note]
-   > 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 OneDrive 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 初期的某時間，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行新的會議錄製。 深入瞭解如何指派 [**授權給使用者**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) ，讓使用者能夠存取 Stream。 確保未針對本文定義的使用者封鎖 [**Stream。**](/stream/disable-user-organization)
+   > 從使用 Microsoft Stream 到變更為使用[商務用 OneDrive 和 SharePoint 來進行會議錄製](../tmr-meeting-recording-change.md)，將會採取階段性的方式。 剛開始時，您可以加入這項體驗，在 11 月如果您想要繼續使用 Stream，則必須退出體驗，而在 2021 初期的某時間，我們將要求所有客戶使用商務用 OneDrive 和 SharePoint 來進行新的會議錄製。 深入瞭解如何指派 [**授權給使用者**](https://support.office.com/article/Assign-licenses-to-users-in-Office-365-for-business-997596B5-4173-4627-B915-36ABAC6786DC) ，讓使用者能夠存取 Stream。 確保未針對本文定義的使用者封鎖 [**Stream。**](/stream/disable-user-organization)
 
 2. 確保使用者擁有在 Stream 中建立即時活動的權限。 根據預設，系統管理員可以使用外部應用程式或裝置來建立活動。 Stream 系統管理員可以在 Stream 中[為額外的使用者啟用即時活動建立](/stream/live-event-administration#restrict-who-can-create-events)。
 
@@ -117,5 +117,5 @@ ms.locfileid: "60046189"
 ### <a name="related-topics"></a>相關主題
 
 - [什麼是 Teams 即時活動？](what-are-teams-live-events.md)
-- [Teams 即時活動的方案](plan-for-teams-live-events.md)
+- [Teams 即時活動的規劃](plan-for-teams-live-events.md)
 - [在 Teams 中設定即時活動設定](configure-teams-live-events.md)

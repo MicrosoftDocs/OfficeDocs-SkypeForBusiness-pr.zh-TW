@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 瞭解如何在音訊和視Teams中管理會議策略設定。
-ms.openlocfilehash: 27153896065d3358927755d3cd1b303c2b1141a0
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 9cd2a82c87106e8060d168766915e4249b9193a5
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984618"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61177994"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音訊和視&設定
 
@@ -35,7 +35,7 @@ ms.locfileid: "59984618"
 
 - [IP 音訊的模式](#mode-for-ip-audio)
 - [IP 視訊的模式](#mode-for-ip-video)
-- [允許 IP 視訊](#allow-ip-video)
+- [IP 影片](#ip-video)
 - [媒體位元速率 (KB)](#media-bit-rate-kbs)
 - [視像篩選模式](#video-filters-mode)
 - [允許自訂背景設定](#allow-custom-background-settings)
@@ -49,7 +49,7 @@ ms.locfileid: "59984618"
 |**已啟用傳出和傳入音訊**    |會議中允許傳出和傳入音訊。這是預設設定。 |
 |**已停用**     |會議中已關閉傳出和傳入音訊。     |
 
-如果使用者設為 **已** 停用，該使用者仍然可以排程和組織會議，但他們無法使用音訊。 若要加入會議，他們必須透過公用交換電話網絡 (PSTN) 或透過電話加入會議。 未獲指派任何原則的會議參與者 (例如匿名參與者)，預設會將此設定為 [已啟用傳出和傳入音訊 **]**。 在 Teams 行動用戶端上，如果已停用此設定，使用者必須透過 PSTN 撥入會議。
+如果使用者設為 **已停用** ，該使用者仍然可以排程和組織會議，但他們無法使用音訊。 若要加入會議，他們必須透過公用交換電話網絡 (PSTN) 或透過電話加入會議。 未獲指派任何原則的會議參與者 (例如匿名參與者)，預設會將此設定為 [已啟用傳出和傳入音訊 **]**。 在 Teams 行動用戶端上，如果已停用此設定，使用者必須透過 PSTN 撥入會議。
 
 此設定不適用一對一通話。 若要限制一對一通話，請設定 Teams [通話原則 []](teams-calling-policy.md) 並關閉 [撥打私人通話 **]** 設定。 此設定也不適用會議室裝置，例如 Surface Hub 和 Microsoft Teams 會議室裝置。
 
@@ -73,11 +73,11 @@ ms.locfileid: "59984618"
 此設定尚無法於 Microsoft 365 政府社群雲端 (GCC)、GCC High 或美國國防部 (DoD) 環境中取得。
 
 > [!NOTE]
-> 請記住，此設定可同時控制傳出和傳入視訊，而 [允許 IP 視訊 **]** 設定則可控制傳出視訊。 若要深入了解，請參閱[哪個 IP 視訊原則設定優先？](#which-ip-video-policy-setting-takes-precedence)和[管理會議參與者的音訊/視訊](#manage-audiovideo-for-meeting-participants)。
+> 請記住，此設定同時控制外發和傳入視音訊， **而 IP 視** 區設定則控制外發視。 若要深入了解，請參閱[哪個 IP 視訊原則設定優先？](#which-ip-video-policy-setting-takes-precedence)和[管理會議參與者的音訊/視訊](#manage-audiovideo-for-meeting-participants)。
 
 若要深入了解，請參閱[管理會議參與者的音訊/視訊](#manage-audiovideo-for-meeting-participants)。
 
-### <a name="allow-ip-video"></a>允許 IP 視訊
+### <a name="ip-video"></a>IP 影片
 
 這是每個召集人和每個使用者策略的組合。 視訊是會議的重要元件。 在某些組織中，系統管理員可能會想要進一步控制哪些使用者的會議有視訊。 此設定可控制是否可以在使用者主持的會議以及在使用者啟動的一對一和群組通話中開啟視訊。 在Teams用戶端上，此設定可控制使用者是否可以在會議中共用相片和影片。
 
@@ -92,7 +92,7 @@ ms.locfileid: "59984618"
 
 讓我們看看下列範例。
 
-|使用者 |會議原則  |允許 IP 視訊 |
+|使用者 |會議原則  |IP 影片 |
 |---------|---------|---------|
 |Daniela   | 全域   | 開啟       |
 |Amanda    | Location1MeetingPolicy        | 關閉      |
@@ -109,22 +109,22 @@ ms.locfileid: "59984618"
 
 若為使用者，針對視訊最具限制性的原則設定會優先。以下是一些範例。
 
-|允許 IP 視訊|IP 視訊的模式|會議體驗|
+|IP 影片|IP 視訊的模式|會議體驗|
 |---------|---------|---------|
 |召集人：**開啟**<br><br>參與者：**開啟** |參與者：**已停用**        |[IP 視訊的模式 **]** 設定優先。 獲指派此原則的參與者無法開啟或檢視由其他人分享的視訊。|
 |召集人：**開啟**<br><br>參與者：**開啟** |參與者：**已啟用傳出和傳入視訊**          |獲指派此原則的參與者可以開啟或檢視由其他人分享的視訊。         |
-|召集人：**開啟**<br><br>參與者：**關閉** |參與者：**已啟用傳出和傳入視訊**         |[允許 IP 視訊 **]** 設定優先。 參與者只能看到傳入視訊，而且無法傳送傳出視訊。         |
+|召集人：**開啟**<br><br>參與者：**關閉** |參與者：**已啟用傳出和傳入視訊**         |**IP 視區** 設定會優先使用。 參與者只能看到傳入視訊，而且無法傳送傳出視訊。         |
 |召集人：**開啟**<br><br>參與者：**關閉** |參與者：**已停用**         |[IP 視訊的模式 **]** 設定優先。 參與者看不到傳入或傳出視訊。|
-|召集人：**關閉**    |       |[允許 IP 視訊 **]** 設定優先，因為它已針對召集人關閉。 沒有人可以開啟由獲指派此原則的使用者所召集的會議中的視訊。         |
+|召集人：**關閉**    |       |**IP 視** 像設定會優先使用，因為召集人已關閉該設定。 沒有人可以開啟由獲指派此原則的使用者所召集的會議中的視訊。         |
 
 ### <a name="manage-audiovideo-for-meeting-participants"></a>管理會議參與者的音訊/視訊
 
 |如果您想要...  |設定下列原則設定  |
 |---------|---------|
-|為會議中參與者停用音訊和視訊  |IP 音訊的模式：**已停用**<br> IP 視訊的模式：**已停用**<br>允許 IP 視訊：不適用       |
-|僅為會議的參與者啟用傳入音訊和視訊  |IP 音訊的模式：**已啟用傳出和傳入音訊**<br> IP 視訊的模式：**已啟用傳出和傳入視訊**<br>允許 IP 視訊：**關閉**       |
-|為會議中的參與者停用視訊 (參與者僅有音訊)|  IP 音訊的模式：**啟用傳出和傳入音訊**<br> IP 視訊的模式：**已停用**<br>允許 IP 視訊：不適用
-|為會議中參與者啟用音訊和視訊    |IP 音訊的模式：**已啟用傳出和傳入音訊** (預設值)<br> IP 視訊的模式：**已啟用傳出和傳入視訊** (預設值)<br>允許 IP 視訊：**開啟** (預設值)    |
+|為會議中參與者停用音訊和視訊  |IP 音訊的模式：**已停用**<br> IP 視訊的模式：**已停用**<br>IP 影片：N/A       |
+|僅為會議的參與者啟用傳入音訊和視訊  |IP 音訊的模式：**已啟用傳出和傳入音訊**<br> IP 視訊的模式：**已啟用傳出和傳入視訊**<br>IP 影片： **關閉**       |
+|為會議中的參與者停用視訊 (參與者僅有音訊)|  IP 音訊的模式：**啟用傳出和傳入音訊**<br> IP 視訊的模式：**已停用**<br>IP 影片：N/A
+|為會議中參與者啟用音訊和視訊    |IP 音訊的模式：**已啟用傳出和傳入音訊** (預設值)<br> IP 視訊的模式：**已啟用傳出和傳入視訊** (預設值)<br>IP 影片 **： (** 預設)     |
 
 將套用會議召集人的原則與使用者原則之間最具限制性的原則。 例如，如果召集人有一個原則會限制視訊，而使用者的原則不會限制視訊，則會議參與者會繼承會議召集人的原則，且無法存取會議中的視訊。 這表示他們只能使用音訊加入會議。
 
@@ -133,7 +133,7 @@ ms.locfileid: "59984618"
 
 #### <a name="teams-mobile-clients"></a>Teams 行動用戶端
 
-對於行動Teams上的使用者，在會議期間共用相片和影片的能力，也取決於允許 **IP 視** 像或 **IP 視像模式** 設定。 根據設定的優先原則為何，分享視訊和相片的功能均無法使用。 這不會影響螢幕畫面分享，這是您使用個別的 [螢幕畫面分享模式[]](meeting-policies-content-sharing.md#screen-sharing-mode) 設定進行的設定。 此外，您可以設定 [Teams 行動性原則](/powershell/module/skype/new-csteamsmobilitypolicy)，以防止行動裝置使用者透過行動數據連線使用 IP 視訊，這表示他們必須使用 WiFi 連線。
+對於使用Teams用戶端的使用者，在會議期間共用相片和影片的能力也取決於 **IP 視** 像或 **IP 視音訊模式** 設定。 根據設定的優先原則為何，分享視訊和相片的功能均無法使用。 這不會影響螢幕畫面分享，這是您使用個別的 [螢幕畫面分享模式[]](meeting-policies-content-sharing.md#screen-sharing-mode) 設定進行的設定。 此外，您可以設定 [Teams 行動性原則](/powershell/module/skype/new-csteamsmobilitypolicy)，以防止行動裝置使用者透過行動數據連線使用 IP 視訊，這表示他們必須使用 WiFi 連線。
 
 ### <a name="media-bit-rate-kbs"></a>媒體位元速率 (KB)
 
@@ -151,7 +151,7 @@ ms.locfileid: "59984618"
 
 您可以使用系統管理中心Teams PowerShell 來設定此策略。 您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的 Teams 會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，然後將該原則指派給使用者。
 
-若要指定使用者是否可以在會議中自訂其視訊背景，請在 Teams 系統管理中心中設定 **VideoFiltersMode** 參數 (選取視訊篩選設定) 如下所示： 
+若要指定使用者是否可以自訂會議中的視訊背景，請在 Teams系統管理中心設定視訊篩選參數 (選取視訊篩選設定) 如下所示：
 
 |在 PowerShell 中設定值|在系統管理中心Teams值 |行為  |
 |---------|---------|---------|
@@ -177,7 +177,7 @@ ms.locfileid: "59984618"
 
 4. 選取 **+ 新增影像**。
 
-5. 在管理背景面板中，選取 新增 **影像**。
+5. 在管理背景面板中，選取新增 **影像**。
 
 6. 確保影像符合以下需求：
   

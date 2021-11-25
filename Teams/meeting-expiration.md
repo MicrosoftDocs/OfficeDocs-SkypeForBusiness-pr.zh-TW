@@ -17,24 +17,24 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 瞭解如何使用會議策略設定來控制會議Microsoft Teams。
-ms.openlocfilehash: 7912c57e12de83f112bb1c80b1c44d81d9d6b857
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: 8768410666d003f12cffb80995981b887059f93a
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124260"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61178014"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>會議政策與會議到期Microsoft Teams
 
-[會議Microsoft Teams](meeting-policies-overview.md)用來控制貴組織中使用者是否可以開始和排程會議，以及會議參與者對於使用者排程的會議可用的功能。 您可以使用全域 (全組織預設值) 原則，或建立並指派自訂原則。 您可以在系統管理中心Microsoft Teams使用 Get、New、Set、Remove、Grant -CsTeamsMeetingPolicy PowerShell Cmdlet 來管理會議政策。 [](/powershell/module/skype/get-csteamsmeetingpolicy) [](/powershell/module/skype/new-csteamsmeetingpolicy) [](/powershell/module/skype/set-csteamsmeetingpolicy) [](/powershell/module/skype/remove-csteamsmeetingpolicy) [](/powershell/module/skype/grant-csteamsmeetingpolicy)
+[會議Microsoft Teams](meeting-policies-overview.md)用來控制貴組織中使用者是否可以開始和排程會議，以及會議參與者對於使用者排程的會議可用的功能。 您可以使用全域 (全組織預設值) 原則，或建立並指派自訂原則。 您可以在系統管理中心Microsoft Teams使用 Get、New、Set、Remove、Grant [ ](/powershell/module/skype/new-csteamsmeetingpolicy)-CsTeamsMeetingPolicy PowerShell Cmdlet 來管理會議政策。 [](/powershell/module/skype/get-csteamsmeetingpolicy) [](/powershell/module/skype/set-csteamsmeetingpolicy) [](/powershell/module/skype/remove-csteamsmeetingpolicy) [](/powershell/module/skype/grant-csteamsmeetingpolicy)
 
-控制使用者是否可以開始和排程會議，以及控制使用者排程的會議到期的會議策略設定。 當會議加入連結和會議 ID 到期時，沒有人可以加入會議。 下列會議政策設定會決定使用者是否可以在 Teams 中開始和Teams。 本文討論會議設定。
+控制使用者是否可以開始和排程會議，以及控制使用者排程的會議到期的會議策略設定。 當會議加入連結和會議 ID 到期時，沒有人可以加入會議。 下列會議策略設定會決定使用者是否可以在 Teams 中開始和排程Teams。 本文討論會議設定。
 
-- [允許現在在頻道中開會](meeting-policies-in-teams-general.md#allow-meet-now-in-channels)：控制使用者是否可以在頻道中啟動即席會議。
-- [允許頻道會議排程](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling)：控制使用者是否可以在頻道中排程會議。
-- [允許排程私人會議](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)：控制使用者是否可以在 Teams 中排程私人Teams。 當會議未發佈到小組中的頻道時，會議是私人的。
-- [允許Outlook](meeting-policies-in-teams-general.md#allow-the-outlook-add-in)：控制使用者是否能從 Outlook。 當會議未發佈到小組中的頻道時，會議是私人的。
-- [允許現在在私人會議中開會](meeting-policies-in-teams-general.md#allow-meet-now-in-private-meetings)：控制使用者是否可以啟動即席私人會議。
+- [現在在頻道中開會](meeting-policies-in-teams-general.md#meet-now-in-channels)：控制使用者是否可以在頻道中啟動即席會議。
+- [頻道會議排程](meeting-policies-in-teams-general.md#channel-meeting-scheduling)：控制使用者是否可以在頻道中排程會議。
+- [私人會議排程](meeting-policies-in-teams-general.md#private-meeting-scheduling)：控制使用者是否可以在 Teams 中排程Teams。 當會議未發佈到小組中的頻道時，會議是私人的。
+- [Outlook ：](meeting-policies-in-teams-general.md#outlook-add-in)控制使用者是否可以從 Outlook 排程私人Outlook。 當會議未發佈到小組中的頻道時，會議是私人的。
+- [現在在私人會議中開會](meeting-policies-in-teams-general.md#meet-now-in-private-meetings)：控制使用者是否可以啟動即席私人會議。
 
 根據預設，這些設定為啟用狀態。 當其中任一設定關閉時，指派該策略的任何使用者都無法開始或排程該類型的新會議。 同時，使用者先前啟動或排定到期之所有類型之會議的會議加入連結和會議 ID。
 
@@ -54,7 +54,7 @@ ms.locfileid: "61124260"
 
 ### <a name="switch-a-meeting-policy-setting-from-off-to-on"></a>將會議策略設定從關閉切換到開啟
 
-當您將會議策略設定從 **關閉** 切換到 **開啟** 時，指派該策略的使用者可以開始或排程該類型的會議。 如果會議策略設定已關閉，然後使用者再次開啟，則使用者組織的所有先前排定的 (和過期的) 會議都變成使用中，而使用者可以使用會議加入連結或電話加入會議。  
+當您將會議策略設定從 **關閉** 切換到 **開啟** 時，指派該策略的使用者可以開始或排程該類型的會議。 如果會議策略設定已關閉，然後使用者再次開啟，則使用者組織的所有先前排定的 (和過期的) 會議都變成使用中，而人員可以使用會議加入連結或電話加入會議。  
 
 ## <a name="meeting-expiration-scenarios"></a>會議到期案例
 
@@ -62,10 +62,10 @@ ms.locfileid: "61124260"
 
 |如果您想要...&nbsp;&nbsp; |執行此&nbsp;&nbsp;&nbsp;&nbsp;  |會議加入行為&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
-|到期私人會議現在由使用者啟動的會議&nbsp;&nbsp;|關閉允許 **現在在私人會議中開會。**&nbsp;&nbsp;|現在沒有人可以 **加入由使用者** 啟動的私密會議。|
-|將使用者排程的私人會議到期&nbsp;&nbsp;|關閉 允許 **排程私人會議**_，並_ 關閉 允許Outlook **附加元件**。 &nbsp;&nbsp;|沒有人可以加入使用者排程的私人會議。 這可防止人員加入下列會議：<ul><li>過去發生的私人會議。</li><li>已排程為未來的私人會議，但尚未進行。</li><li>未來週期性私人會議的實例。</li></ul><br>允許 **排程私人會議** 與允許Outlook **必須** 關閉，使用者排程的私人會議必須到期。 如果其中一個設定已關閉，另一個設定為已啟用，則現有會議的會議加入連結和會議 ID 會維持為使用中狀態，且不會過期。|
-|頻道到期 **會議現在** 由使用者啟動的會議&nbsp;&nbsp;|關閉頻道 **中的允許會議**_，並關閉_ 允許 **頻道會議排程**。&nbsp;&nbsp;|沒有人可以加入頻道 **會議現在** 由使用者啟動的會議。|
-|使用者排程的頻道會議到期&nbsp;&nbsp;|關閉 允許 **頻道會議排程**。&nbsp;&nbsp;|沒有人可以加入使用者排程的頻道會議。 這可防止人員加入下列會議：<ul><li>過去發生的頻道會議。</li><li>已排程為未來的頻道會議，但尚未進行。</li><li>未來週期性頻道會議的實例。</li></ul>|
+|到期私人會議現在由使用者啟動的會議&nbsp;&nbsp;|關閉在 **私人會議中現在開會。**&nbsp;&nbsp;|現在沒有人可以 **加入由使用者** 啟動的私密會議。|
+|將使用者排程的私人會議到期&nbsp;&nbsp;|關閉 **私人會議排程**_，並_ 關閉 **Outlook附加元件**。 &nbsp;&nbsp;|沒有人可以加入使用者排程的私人會議。 這可防止人員加入下列會議：<ul><li>過去發生的私人會議。</li><li>已排程為未來的私人會議，但尚未進行。</li><li>未來週期性私人會議的實例。</li></ul><br>私人 **會議排程** 和 **Outlook** 都必須關閉，使用者排程的私人會議必須到期。 如果其中一個設定已關閉，另一個設定為已啟用，則現有會議的會議加入連結和會議 ID 會維持為使用中狀態，且不會過期。|
+|頻道到期 **會議現在** 由使用者啟動的會議&nbsp;&nbsp;|關閉頻道 **中的現在開會**_，並_ 關閉 **頻道會議排程**。&nbsp;&nbsp;|沒有人可以加入頻道 **會議現在** 由使用者啟動的會議。|
+|使用者排程的頻道會議到期&nbsp;&nbsp;|關閉 **通道會議排程**。&nbsp;&nbsp;|沒有人可以加入使用者排程的頻道會議。 這可防止人員加入下列會議：<ul><li>過去發生的頻道會議。</li><li>已排程為未來的頻道會議，但尚未進行。</li><li>未來週期性頻道會議的實例。</li></ul>|
 
 如果您希望人員存取先前由特定使用者排程或啟動的會議，您可以：
 
@@ -77,7 +77,7 @@ ms.locfileid: "61124260"
 
 ## <a name="changes-to-meeting-expiration"></a>會議到期變更
 
-所有新Teams TMRs (錄製) 預設到期日為 60 天。 此選項預設為所有租使用者。 這表示根據預設，開啟此功能後建立的所有TMRs 都會在建立日期後的 60 天后刪除。 系統管理員也可以將會議設定 **為永不自動過期**。 系統OneDrive SharePoint監控所有 TMRs 上的到期日設定，並會在到期日自動將 TMRs 移至回收站。
+所有新Teams TMRs (錄製) 預設到期日為 60 天。 此選項預設為所有租使用者。 這表示根據預設，開啟此功能後建立的所有TMRs 都會在建立日期後的 60 天后刪除。 系統管理員也可以將會議設定 **為永不自動過期**。 系統OneDrive系統SharePoint所有 TMRs 上設定到期日，並會在到期日自動將 TMRs 移至回收站。
 
 自動會議到期是一種輕量型的管家機制，可以減少舊版 TMRs 所造成儲存空間的雜亂。 平均而言，在所有客戶中，99% 的 TMRs 在 60 天后不會受到監視。 我們相信，移除 60 天后可能不會再觀看的錄製內容，幾乎所有客戶都會受益于租使用者降低的儲存空間負載。 根據預設，我們的目標是盡可能為所有客戶提供乾淨體驗。
 
@@ -88,7 +88,7 @@ ms.locfileid: "61124260"
 
 ### <a name="expiration-date"></a>有效期
 
-- 到期日的計算方式為建立日期，加上系統管理員在 Teams 中設定 **的預設天數**。
+- 到期日的計算方式為建立日期，加上系統管理員在 Teams中設定 **的預設天數**。
 - 播放不會影響到期日。
 
 ### <a name="change-the-default-expiration-date"></a>變更預設到期日
@@ -123,8 +123,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 例如：
 
-- 如果您有一項規定，指出網站中所有檔案都必須保留 100 天，而 Teams 會議錄製的到期日設定為 30 天，則錄製內容會保留完整 100 天。
-- 如果您有刪除政策，指出所有 Teams 會議錄製都會在 5 天后刪除，而且您的 Teams 會議錄製為 30 天，則錄製內容將在 5 天后刪除。
+- 如果您有一項規定，指出網站中所有檔案都必須保留 100 天，而 Teams 會議錄製的到期日設定是 30 天，則錄製內容會保留完整 100 天。
+- 如果您有刪除政策，指出所有 Teams 會議錄製都會在 5 天后刪除，而 Teams 會議錄製的到期日設定為 30 天，則錄製內容將在 5 天后刪除。
 
 ### <a name="will-this-feature-enforce-file-retention"></a>啟用此功能會強制執行檔案保留？
 

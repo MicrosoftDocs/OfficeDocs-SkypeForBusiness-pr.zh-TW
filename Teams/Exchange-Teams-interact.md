@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01335cce21a4550158f3c87da12c8a23166a39de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1fbcadfefffe40bbd7c2919f269185b8116b7237
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624805"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205273"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 和 Microsoft Teams 如何互動
 
@@ -70,7 +70,7 @@ ms.locfileid: "58624805"
 
 <sup>9</sup>亦須至少Exchange Online方案 1 授權。 詳細資訊，請參閱[搜尋Teams使用者的聊天資料](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)。
 
-<sup>10</sup>個內部部署使用者可以Teams個人檔案圖片，即使 Web 信箱Outlook設定為 `SetPhotoEnabled` `false` 。
+<sup>10</sup>個內部部署使用者可以Teams更新其設定檔圖片，即使 web 信箱Outlook設定為 `SetPhotoEnabled` `false` 。
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>充分利用 Microsoft Teams 的需求
 
@@ -110,12 +110,12 @@ Microsoft Teams 與多個 Microsoft 365 和 Office 365 服務合作，為使用�
 
 要為這些使用者啟用行事曆委派，請執行以下操作：
 
-- 您也必須完成步驟，如在 商務用 Skype Online 和 Exchange Server 之間設定整合和[OAuth 中所述](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises);這些步驟會提供Teams排程應用程式以確認代理人許可權所需的許可權。
+- 您也必須完成在 商務用 Skype Online 和 Exchange Server 之間設定整合和[OAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)中所述的步驟;這些步驟會為 Teams 排程應用程式提供確認代理人許可權所需的許可權。
  
   > [!NOTE]
   > 步驟 2 包括 ArchiveApplication 的角色指派，這不是委派所必需的。
 
-- 代表Teams排程會議Outlook需要 Exchange 2013 CU19 或更新時間。 這是為了支援我們服務對郵箱進行未驗證的的探索，以檢查委派者郵箱的委派權限。 代理人和委派者位置可以是 Exchange 2013 或更高版本，或 Exchange online，但自動探索必須解析為 Exchange 2013 CU19 或更高版本。
+- 代表Teams排程會議時Outlook需要 Exchange 2013 CU19 或更新時間。 這是為了支援我們服務對郵箱進行未驗證的的探索，以檢查委派者郵箱的委派權限。 代理人和委派者位置可以是 Exchange 2013 或更高版本，或 Exchange online，但自動探索必須解析為 Exchange 2013 CU19 或更高版本。
 
 ## <a name="additional-considerations"></a>其他考量因素
 
@@ -125,7 +125,7 @@ Microsoft Teams 與多個 Microsoft 365 和 Office 365 服務合作，為使用�
 
 - 使用條件式存取控制和保護 Teams 和 Exchange 中合規性原則的設定。 有關更多資訊，請參閱[條件式存取原則如何為 Teams 工作？](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- 如果貴組織有合規性需求以確保所有會議討論都可探索，則如果召集人有 Exchange 內部部署郵箱，則應停用私人會議。 有關詳細資訊，請參閱[允許排程私人會議](./meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)。
+- 如果貴組織有合規性需求以確保所有會議討論都可探索，則如果召集人有 Exchange 內部部署郵箱，則應停用私人會議。 詳細資訊，請參閱 [私人會議排程](./meeting-policies-in-teams-general.md#private-meeting-scheduling)。
 
 - 在 Exchange 混合式部署中，聊天訊息中的內容都是可搜尋的，而不管聊天參與者是使用雲端式郵箱還是內部部署信箱。 若要了解更多資訊，請參閲[搜尋內部部署的雲端式郵箱](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 要瞭解如何在 Teams 中搜尋內容，請閱讀[Microsoft 365 合規性中心中的內容搜尋](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
 

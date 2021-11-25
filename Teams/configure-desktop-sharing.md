@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 973ed6056ae8e73b79d7596b2f325cda8cdc48b1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c5db10ce87dc98cfb793eefb1daa953385c95f6d
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732312"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205284"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft Teams 中設定桌面共用
 
@@ -60,7 +60,7 @@ ms.locfileid: "58732312"
 
 5. 開啟或關閉下列設定：
 
-    - **允許參與者提供或要求控制權** ，讓小組成員提供或要求控制簡報者的桌面或應用程式。
+    - **允許參與者提供或要求控制權** ， 讓小組成員提供或要求控制簡報者的桌面或應用程式。
     - **允許外部參與者提供或要求控制權** - 這是每個使用者的政策。 不論會議召集人的設定為何，無論組織是否為使用者設定此選項，都無法控制外部參與者可以執行的動作。 此參數會根據分享者在其組織的會議原則中所設定的內容，是否可以授與外部參與者控制或要求控制分享者的螢幕畫面。
     - **允許 PowerPoint 分享**：讓使用者建立可讓 PowerPoint 簡報上傳並共用的會議。
     - **允許使用白板**：讓使用者共用白板。
@@ -70,7 +70,7 @@ ms.locfileid: "58732312"
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>使用 PowerShell 來設定共用桌面
 
-您也可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) Cmdlet 來控制桌面共用。 設定下列參數：
+您也可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來控制桌面共用。 設定下列參數：
 
 - 描述
 - ScreenSharingMode
@@ -81,4 +81,4 @@ ms.locfileid: "58732312"
 - AllowWhiteboard
 - AllowSharedNotes
 
-[深入了解如何使用 csTeamsMeetingPolicy Cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) (英文)。
+[深入了解如何使用 csTeamsMeetingPolicy Cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) (英文)。
