@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e78ab7b7a2448ebb996a1c04e95bc22049954b4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 36a501220a986e3873c8ce6a75f1f4f704aa2533
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759225"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61177784"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智慧型喇叭的語音辨識技術控制項
 
@@ -86,7 +86,7 @@ ms.locfileid: "60759225"
 |AllowTranscription|使用者和會議室帳戶Teams必填專案。|**True** 和 **False**|
 ||||
 
-在系統管理Teams中，設定允許 **抄寫** 政策。 設定預設 **為關閉**。
+在 Teams系統管理中心中，設定 **文字翻譯** 政策。 設定為 **關閉**。
 
 ![系統管理中心，且會議政策已強調，且已選取允許抄寫。](../media/allow-transcription1.png)
 
