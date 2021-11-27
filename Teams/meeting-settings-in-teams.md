@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
-ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
+ms.openlocfilehash: 4ff1118818ac22040e9bf9f8c44288991e24d8b0
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/24/2021
-ms.locfileid: "61153306"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205303"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -59,7 +59,7 @@ ms.locfileid: "61153306"
 
 ### <a name="using-powershell-to-configure-per-organizer-policy"></a>使用 PowerShell 設定每一召集人原則
 
-系統管理員現在可以控制特定使用者或使用者群組是否允許匿名使用者加入他們組織的會議。 這個新的每一召集人原則是藉由使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) 中的 **-AllowAnonymousUsersToJoinMeeting** 參數加以控制。 這個功能隨附於 Teams PowerShell 2.6.0 版和更新版本。
+系統管理員現在可以控制特定使用者或使用者群組是否允許匿名使用者加入他們組織的會議。 這個新的每一召集人原則是藉由使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) 中的 **-AllowAnonymousUsersToJoinMeeting** 參數加以控制。 這個功能隨附於 Teams PowerShell 2.6.0 版和更新版本。
 
 您可以使用全組織或每一召集人原則來管理匿名加入。 我們建議您實作每一召集人原則。 全組織原則設定將會在未來遭到取代，每一召集人原則將是控制匿名加入的唯一方法。
 
@@ -147,7 +147,7 @@ ms.locfileid: "61153306"
 
     ![系統管理中心會議網路設定的螢幕擷取畫面。](media/meeting-settings-network.png "Microsoft Teams 系統管理中心中 Teams 會議的網路設定螢幕擷取畫面")
 
-    - 若要允許將 DSCP 標記用於 QoS，請開啟 [插入即時媒體流量的服務品質 (QoS) 標記]。 您只能選擇是否使用標記；無法為每個流量類型設定自訂標記。 如需有關 DSCP 標記的詳細資訊，請參閱[選取 QoS 實作方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
+    - 若要允許將 DSCP 標記用於 QoS，請開啟 **[即時媒體流量的服務品質 (QoS) 標記]**。 您只能選擇是否使用標記；無法為每個流量類型設定自訂標記。 如需有關 DSCP 標記的詳細資訊，請參閱[選取 QoS 實作方法](QoS-in-Teams.md#select-a-qos-implementation-method)。
 
         > [!IMPORTANT]
         > 請注意，啟用 QoS 只會在端點上執行，以標記離開用戶端的封包。 我們仍然建議在所有內部網路裝置上套用符合的 QoS 規則來接收流量。

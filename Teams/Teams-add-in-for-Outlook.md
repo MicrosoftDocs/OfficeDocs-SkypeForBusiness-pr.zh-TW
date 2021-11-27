@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38787b6f3fe11c1dfd8a9883f06bf19206360ec6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fc7a387f7dcd6ef8a3ed728b8aa59db64ccefb31
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840895"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205523"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 
@@ -131,6 +131,9 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 
 使用下列步驟來疑難排解 Teams 會議增益集的問題。
 
+> [!NOTE]
+> 此案例也可使用 [Microsoft 支援及修復小幫手的命令列版本](/office365/troubleshoot/administration/sara-command-line-version)與 SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook 管理。
+
 ### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>在 Windows 版 Outlook 中，Teams 會議增益集無法顯示
 
 如果您無法安裝適用於 Outlook 的 Teams 會議增益集，請嘗試這些疑難排解步驟。
@@ -141,7 +144,7 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 
 - Windows 7 使用者必須[在 Windows 上安裝通用 C 執行階段的更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，Teams 會議增益集才能正常運作。
 - 檢查使用者是否擁有可在 Teams 中排程會議的 Teams 升級原則。 如需詳細資訊，請參閱[從商務用 Skype 升級至 Teams](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) (部分機器翻譯)。
-- 檢查使用者是否擁有允許 Outlook 增益集的 Teams 會議原則。 如需詳細資料，請參閱[會議原則設定 -一般](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in)。
+- 檢查使用者是否擁有允許 Outlook 增益集的 Teams 會議原則。 如需詳細資料，請參閱[會議原則設定 -一般](./meeting-policies-in-teams-general.md#outlook-add-in)。
 - 確定使用者已安裝 Teams 桌面用戶端。 只使用 Teams 網頁用戶端時，不會安裝會議增益集。
 - 確定使用者已安裝 Outlook 2013 或更新版本。
 - 確定使用者擁有執行 regsvr32 的權限。
