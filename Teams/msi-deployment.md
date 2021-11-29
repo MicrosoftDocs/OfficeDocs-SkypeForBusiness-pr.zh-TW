@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: amitsri
 audience: admin
-description: 使用 Microsoft Endpoint Configuration Manager大量部署Microsoft Teams以選取使用者或電腦。
+description: 您可以使用 Microsoft Endpoint Configuration Manager大量部署Microsoft Teams以選取使用者或電腦。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,19 +18,19 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9c75d531cc2371c8ce5c6baf2eb22924129bbb6
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: c7ff835715bd91e66160817410312734c6949f5c
+ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124240"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61216629"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>使用 Microsoft Teams 安裝Microsoft Endpoint Configuration Manager
 
 > [!Tip]
-> 觀看下列會話以瞭解桌面用戶端Windows、如何規劃及部署它：Teams Windows[用戶端](https://aka.ms/teams-clients)。
+> 觀看下列會話以瞭解桌面用戶端Windows、如何規劃及部署：Teams Windows[用戶端](https://aka.ms/teams-clients)。
 
-若要使用 Microsoft Endpoint Configuration Manager、群組原則或任何協力廠商發佈機制進行廣泛部署，Microsoft 已提供 MSI 檔案 (32 位和 64 位) 系統管理員可用於大量部署 Teams 以選取使用者或電腦。 系統管理員可以使用這些檔案來遠端部署Teams，讓使用者不需要手動下載Teams應用程式。 部署後，Teams將針對所有在該電腦上登錄的使用者自動啟動。  (安裝應用程式之後，您可以停用自動啟動。 [請參閱下方的](#disable-auto-launch-for-the-msi-installer).) 我們建議您將套件部署到電腦，因此電腦的所有新使用者也會受益于此部署。
+若要使用 Microsoft Endpoint Configuration Manager、群組原則或任何協力廠商發佈機制進行廣泛部署，Microsoft 已提供 MSI 檔案 (32 位和 64 位) 系統管理員可用於大量部署 Teams 以選取使用者或電腦。 系統管理員可以使用這些檔案來遠端部署Teams讓使用者不需要手動下載Teams應用程式。 部署後，Teams所有在該電腦上登錄的使用者自動啟動。  (安裝應用程式之後，您可以停用自動啟動。 [請參閱下方的](#disable-auto-launch-for-the-msi-installer).) 我們建議您將套件部署到電腦，因此電腦的所有新使用者也會受益于此部署。
 
 這些是 MSI 檔案的連結：
 
@@ -43,11 +43,11 @@ ms.locfileid: "61124240"
 
 **若要確保部署成功，請注意下列事項：**
 
-- 在 64 位作業系統上Teams 64 位版本的應用程式。 如果您嘗試在 32 位作業系統上安裝 64 位版本的 Teams，安裝將不會成功，而且您目前不會收到錯誤訊息。
+- 在 64 位作業系統Teams 64 位版本的應用程式。 如果您嘗試在 32 位作業系統上安裝 64 位版本的 Teams，安裝將不會成功，而且您目前不會收到錯誤訊息。
 
 - Teams，也可以包含在部署 Microsoft 365 Apps 企業版。 詳細資訊，請參閱使用 Microsoft Teams[部署Microsoft 365 Apps 企業版。](/deployoffice/teams-install)
 
-- 若要深入瞭解Microsoft Endpoint Configuration Manager，請參閱什麼是 Configuration [Manager？](/configmgr/core/understand/introduction)
+- 若要進一Microsoft Endpoint Configuration Manager，請參閱什麼是 Configuration [Manager？](/configmgr/core/understand/introduction)
 
 ## <a name="deployment-procedure-recommended"></a>部署程式 (建議) 
 
@@ -64,7 +64,7 @@ MSI Teams將安裝程式放在程式檔案中。 每當使用者登錄新的 Win
 請勿使用 MSI 來部署更新，因為當用戶端偵測到可從服務使用新版本時，就會自動更新。 若要重新部署最新的安裝程式，請使用以下所述的重新部署 MSI 程式。 如果您部署舊版 MSI 套件，用戶端會自動更新 (VDI 環境除外) 使用者可能的話。 如果部署非常舊的版本，MSI 會先觸發應用程式更新，使用者才能Teams。
 
 > [!IMPORTANT]
-> 預設位置為 64 位作業系統上的 C：\Program Files (x86) \Teams Installer，以及 32 位作業系統上的 C：\Program Files\Teams Installer。
+> 預設位置為 32 位作業系統上的 C：\Program Files (x86) \Teams Installer，以及 64 位作業系統上的 C：\Program Files\Teams Installer。
 > 我們不建議您變更預設安裝位置，因為這樣做可能會中斷更新流程。 版本太舊，最終會封鎖使用者存取服務。
 
 #### <a name="target-computer-requirements"></a>目的電腦需求
@@ -76,22 +76,22 @@ MSI Teams將安裝程式放在程式檔案中。 每當使用者登錄新的 Win
 
 ### <a name="vdi-installation"></a>VDI 安裝
 
-若要瞭解如何在 VDI 上部署Teams桌面應用程式的完整指南，請參閱[Teams桌面基礎結構的指南](teams-for-vdi.md)。
+若要瞭解如何在 VDI 上部署Teams桌面應用程式的完整指南，[請參閱Teams桌面基礎結構的指南](teams-for-vdi.md)。
 
 ## <a name="clean-up-and-redeployment-procedure"></a>清理和重新部署程式
 
-如果使用者從使用者設定檔Teams，MSI 安裝程式會追蹤使用者已卸載 Teams 應用程式，且不再Teams使用者設定檔的檔案。 若要將Teams使用者重新部署至已卸載的特定電腦上，請執行下列操作：
+如果使用者從使用者設定檔Teams，MSI 安裝程式會追蹤使用者已卸載 Teams 應用程式，且不再Teams使用者設定檔。 若要將Teams使用者重新部署至已卸載的特定電腦上，請執行下列操作：
 
 > [!IMPORTANT]
-> 下列步驟包含如何修改註冊表的資訊。 請務必先備份該註冊表，再進行修改，並瞭解如何在發生問題時還原註冊表。 若要進一步瞭解如何備份、還原及修改登錄，請參閱Windows使用者的[登錄資訊](https://support.microsoft.com/help/256986)。
+> 下列步驟包含如何修改註冊表的資訊。 請務必先備份該註冊表，再進行修改，並瞭解如何在發生問題時還原註冊表。 若要進一步瞭解如何備份、還原及修改登錄，請參閱Windows使用者的登錄[資訊](https://support.microsoft.com/help/256986)。
 
-1. 卸載Teams設定檔安裝的應用程式。 若要詳細資訊，請參閱卸載[Microsoft Teams。](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)
+1. 卸載每個Teams安裝的應用程式。 若要詳細資訊，請參閱卸載[Microsoft Teams。](https://support.office.com/article/uninstall-microsoft-teams-3b159754-3c26-4952-abe7-57d27f5f4c81#ID0EAABAAA=Desktop)
 2. 在 下遞迴刪除目錄 `%localappdata%\Microsoft\Teams\` 。
 3. 刪除 `HKEY_CURRENT_USER\Software\Microsoft\Office\Teams\PreventInstallationFromMsi` 註冊表值。
 4. 將 MSI 套件重新部署至該特定電腦。
 
 > [!TIP]
-> 您也可以使用我們的部署清理Teams[腳本](scripts/powershell-script-deployment-cleanup.md)來完成步驟 1 和 2。  
+> 您也可以使用我們的部署清理[Teams腳本](scripts/powershell-script-deployment-cleanup.md)來完成步驟 1 和 2。  
 
 ## <a name="prevent-teams-from-starting-automatically-after-installation"></a>防止Teams安裝後自動啟動
 
@@ -106,7 +106,7 @@ MSI 的預設行為是一旦使用者Teams安裝應用程式，然後自動Teams
 若要深入瞭解，請參閱[使用群組原則防止Teams安裝後自動啟動。](/deployoffice/teams-install#use-group-policy-to-prevent-microsoft-teams-from-starting-automatically-after-installation)
 
 > [!CAUTION]
-> 如果您已經部署 Teams 並想要設定此策略以停用 Teams 自動啟動，請先將群組原則設定設為您想要的值，然後根據每個使用者執行[Teams](scripts/powershell-script-teams-reset-autostart.md)自動啟動重設腳本。
+> 如果您已經部署 Teams並想要設定此策略以停用 Teams 自動啟動，請先將群組原則設定設為您想要的值，然後根據每個使用者執行[Teams](scripts/powershell-script-teams-reset-autostart.md)自動啟動重設腳本。
 
 ### <a name="disable-auto-launch-for-the-msi-installer"></a>停用 MSI 安裝程式的自動啟動
 
@@ -126,7 +126,7 @@ msiexec /i Teams_windows_x64.msi OPTIONS="noAutoStart=true" ALLUSERS=1
 
 當使用者在 Windows，Teams MSI 安裝，Teams快捷方式會新增到使用者的桌面。 Teams使用者手動啟動Teams。 在使用者手動啟動Teams，Teams使用者每次登錄時自動啟動。
 
-請注意，這些範例也會使用 **ALLUSERS=1** 參數。 當您設定此參數時，Teams Machine-Wide安裝程式會顯示在控制台中的程式和功能中，&應用程式Windows 設定所有電腦使用者的功能。 然後所有使用者都可以卸載Teams，如果他們的電腦上有系統管理員認證。
+請注意，這些範例也會使用 **ALLUSERS=1** 參數。 當您設定此參數時，Teams Machine-Wide安裝程式會顯示在控制台中的程式和功能中，&應用程式會顯示Windows 設定適用于電腦的所有使用者。 然後所有使用者都可以卸載Teams，如果他們的電腦上有系統管理員認證。
 
 > [!Note]
 > 如果您手動執行 MSI，請務必以較高的權限執行。 即使您以系統管理員執行，但不以較高的權限執行，安裝程式將無法設定停用自動啟動的選項。
