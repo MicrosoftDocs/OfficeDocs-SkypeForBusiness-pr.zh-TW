@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f40ddcfdd9e9491fd5d4fc7f82c77d5e5dca66f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
+ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636987"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61216669"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>從 Teams Exploratory 試用版升級使用者
 
@@ -50,7 +50,7 @@ ms.locfileid: "58636987"
 
 - **升級現有的 Microsoft 365 訂閱。** 如果您的組織擁有其他不包含 Teams 的 Office 產品訂閱，請使用此選項。 如需詳細資訊，請參閱 <a href="/microsoft-365/commerce/subscriptions/upgrade-to-different-plan?view=o365-worldwide" target="_blank">升級至其他的商務方案</a>。 若要查看現有訂閱的作用中使用者，請移至 Microsoft 365 系統管理中心 **使用者 >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>作用中使用者</b></a>。
 
-- **新增使用者至現有的 Microsoft 365 訂閱。** 如果您的組織沒有足夠的付費，請使用此選項。 Teams 授權包含 Teams Exploratory 使用者。 如需詳細資訊，請參閱 <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">購買或移除授權</a>。 若要新增使用者至已擁有足夠可用授權的現有訂閱，請參閱 <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">將使用者移至不同的訂閱</a>。 若要查看現有訂閱的作用中使用者，請移至 Microsoft 365 系統管理中心 **使用者 >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>作用中使用者</b></a>。
+- **新增使用者至現有的 Microsoft 365 訂閱。** 如果您的組織沒有足夠的付費 Teams 授權可涵蓋 Teams Exploratory 使用者，請使用此選項。 如需詳細資訊，請參閱 <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">購買或移除授權</a>。 若要新增使用者至已擁有足夠可用授權的現有訂閱，請參閱 <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">將使用者移至不同的訂閱</a>。 若要查看現有訂閱的作用中使用者，請移至 Microsoft 365 系統管理中心 **使用者 >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>作用中使用者</b></a>。
 
 - **購買新的 Microsoft 365 訂閱。** 如果貴組織沒有任何現有的 Office 產品訂閱，或貴組織想要購買與現有訂閱不同的訂閱，以涵蓋 Teams Exploratory 使用者，請使用此選項。  如需詳細資訊，請參閱 <a href="/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide%22%20\#buy-a-different-subscription" target="_blank">購買其他商務用 Microsoft 365 訂閱</a>。
 
