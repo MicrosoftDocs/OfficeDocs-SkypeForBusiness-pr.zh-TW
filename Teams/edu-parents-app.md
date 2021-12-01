@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9243dfedb11c9102673e821bd2fac9d06cf3c834
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: a991075ada39f5433e20230d6fabdfaebcb52aa9
+ms.sourcegitcommit: df26b435b2a7bb7561ddea74477f1ba988de9d8f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887291"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61245555"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>在 Microsoft Teams
 
@@ -45,9 +45,9 @@ ms.locfileid: "60887291"
 - 課程團隊擁有者必須擁有外部存取權，Teams **組織未管理的帳戶**。 
   - 您必須在租使用者層級和使用者層級啟用此功能。 租使用者層級設定可在系統管理中心的 **>外部存取** Teams找到。 您也可以透過 PowerShell 存取此設定。 使用者層級外部存取策略只能透過 PowerShell 存取。 請參閱下方的 PowerShell 命令以進一步提供指引。
 
-## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>使用組織未管理Teams帳戶啟用外部存取
+## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>使用組織未Teams的帳戶啟用外部存取
 
-1. 安裝最新版 PowerShell 模組Microsoft Teams預覽版。
+1. 安裝最新的 PowerShell 模組Microsoft Teams預覽版。
 
     ```powershell
     Install-Module -Name PowerShellGet -Force -AllowClobber
@@ -61,7 +61,7 @@ ms.locfileid: "60887291"
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-系統預設會針對所有使用者層級的外部存取Teams使用者層級 () 帳戶啟用外部 `EnableTeamsConsumerAccess` 存取。 使用者必須同時啟用租使用者層級設定和使用者層級策略設定，使用者Teams未由組織管理的帳戶。 如果您不希望租使用者中的每個使用者都啟用此存取，您應該確定已停用租使用者層級設定、更新指派給使用者的使用者層級外部存取策略，然後啟用租使用者層級設定。
+系統預設會針對所有使用者層級的外部存取Teams使用者層級 () 帳戶啟用外部 `EnableTeamsConsumerAccess` 存取。 使用者必須啟用租使用者層級設定和使用者層級策略設定，使用者Teams未啟用組織管理的帳戶進行外部存取。 如果您不希望租使用者中的每個使用者都啟用此存取，您應該確定已停用租使用者層級設定、更新指派給使用者的使用者層級外部存取策略，然後啟用租使用者層級設定。
 
 若要檢查哪些使用者層級的外部存取策略存在，以及指派給誰，您可以使用下列步驟：
     
@@ -77,7 +77,7 @@ ms.locfileid: "60887291"
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
     ```
 
-由於所有使用者層級的外部存取策略預設都設為 True，如果您想要調整特定使用者的設定，您可以使用調整後的設定建立/修改現有的外部存取策略，以及/或使用下列 `EnableTeamsConsumerAccess` PowerShell Cmdlet 將使用者重新指派至新的或現有的 `EnableTeamsConsumerAccess` 策略：
+由於所有使用者層級的外部存取策略預設都設為 True，如果您想要調整特定使用者的設定，您可以使用調整後的設定來建立/修改現有的外部存取策略，以及/或使用下列 `EnableTeamsConsumerAccess` PowerShell Cmdlet 將使用者重新指派至新的或現有的 `EnableTeamsConsumerAccess` 策略：
 
 - 建立新的外部存取策略 [：New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
 
@@ -90,15 +90,15 @@ ms.locfileid: "60887291"
 
 - 指派原則給一組使用者 [：New-CsBatchPolicyAssignmentOperation](/powershell/module/skype/new-csbatchpolicyassignmentoperation)
 
-為租使用者中的使用者正確設定使用者層級的外部存取策略之後，您可以使用下列 Cmdlet 為租使用者啟用租使用者層級設定 () ： `AllowTeamsConsumer`
+為租使用者中的使用者正確設定使用者層級的外部存取策略之後，您可以使用下列 Cmdlet 為租使用者啟用租使用者層級 () 許可權 `AllowTeamsConsumer` 設定：
 
 - 設定租使用者的聯盟設定設定 [：Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
-## <a name="disabling-the-parents-app"></a>停用家長應用程式
+## <a name="enabling-the-parents-app"></a>啟用家長應用程式
 
-家長應用程式預設為啟用，因此所有班級團隊擁有者都會在班級團隊中看到該應用程式。 
+家長應用程式預設為停用，因此課程團隊擁有者不會在班級團隊中看到該應用程式，直到應用程式透過系統管理中心Teams使用。 您可以使用發行者封鎖的允許Teams系統管理中心允許[此應用程式](manage-apps.md#apps-blocked-by-publishers)。
 
-您可以在租使用者層級使用允許並封鎖系統管理中心[](manage-apps.md#allow-and-block-apps)中的應用程式Microsoft Teams應用程式。 如果應用程式在租使用者層級停用，將會封鎖所有使用者，即使已啟用使用者層級許可權。
+您隨時都可以在租使用者層級使用允許並封鎖系統管理中心中的[](manage-apps.md#allow-and-block-apps)應用程式Teams應用程式。 如果應用程式在租使用者層級停用，將會封鎖所有使用者，即使已啟用使用者層級許可權。
 
 您也可以在使用者層級使用管理應用程式權限原則來停用[應用程式](teams-app-permission-policies.md)Microsoft Teams。
 
