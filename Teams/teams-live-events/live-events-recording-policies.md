@@ -17,12 +17,12 @@ description: 瞭解即時活動錄製政策。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9dbed75a7f9c9655cc52bb798eefb0038cc5fe4a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 80489f699004ed7dbcb8d7493c32a7bc26e3e25e
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844926"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257341"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>即時活動錄製Microsoft Teams
 
@@ -61,7 +61,7 @@ ms.locfileid: "60844926"
 | 出席者可以使用錄製 | 選擇     | DVR 可供使用，AZURE 媒體服務 (AMS) 資產儲存 180 天 | 出席者可以存取並觀看活動                     |                              |
 |                                                  | 未選取 | DVR 可供使用，且 AMS 資產儲存 180 天 | 活動結束後，出席者無法存取活動 |                              |
 ||已停用 (未選取) |DVR 可供使用，事件之後會刪除 AMS 資產|活動結束後，出席者無法存取活動||
-| 錄製者與簡報者可以使用錄製 | 選擇     |                                                           |                                                             | 已建立並儲存 MP4 |
+| 錄製者與簡報者可以使用錄製 | 選擇     |                                                           |                                                             | MP4 已建立並儲存 180 天 |
 |                                                  | 未選取 |                                                           |                                                             | 未建立檔案           |
 
 ### <a name="related-topics"></a>相關主題
@@ -69,4 +69,4 @@ ms.locfileid: "60844926"
 - [什麼是 Teams 即時活動？](what-are-teams-live-events.md)
 - [Teams 即時活動的規劃](plan-for-teams-live-events.md)
 - [在 Teams 中設定即時活動設定](configure-teams-live-events.md)
-- [Teams雲端會議錄製](../cloud-recording.md)
+- [Teams雲會議錄製](../cloud-recording.md)

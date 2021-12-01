@@ -13,15 +13,15 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: 瞭解由 Microsoft Teams 產生的 Debug、Media 和桌面記錄、可在何處找到記錄，以及這些記錄如何協助監控和疑難排解。
+description: 瞭解由 Microsoft Teams 產生的 Debug、Media 和桌面記錄、可以在哪裡找到記錄，以及這些記錄如何協助監控和疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07eca1235cb695d32da0fdab96490572af6ccecb
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 28fa78eb20b88fe0a159fab12636ce546453835e
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959962"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257314"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用記錄檔案來監控和疑難排解Microsoft Teams
 
@@ -46,7 +46,7 @@ ms.locfileid: "60959962"
 
 - Mac：選取説明功能表，然後選擇收集 **支援檔案**。
 
-Debug、Desktop 和 Media 記錄會收集到一個名稱為 _MSTeams 診斷 \<local data and time\> 記錄的資料夾_。 當您開啟 Microsoft 支援服務的支援要求時，此資料夾可以壓縮並共用。 資料夾會包含桌面、會議 (媒體) 資料夾，以及 (網頁) 。 您可以使用下列鍵盤快速鍵收集檔案：
+Debug、Desktop 和 Media 記錄會收集到一個名稱為 _MSTeams 診斷 \<local date and time\> 記錄的資料夾_。 當您開啟 Microsoft 支援服務的支援要求時，此資料夾可以壓縮並共用。 資料夾會包含桌面、會議 (媒體) 資料夾，以及 (網頁) 。 您可以使用下列鍵盤快速鍵收集檔案：
 
 - <kbd>Windows：Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
@@ -104,9 +104,9 @@ Debug、Desktop 和 Media 記錄會收集到一個名稱為 _MSTeams 診斷 \<lo
 
 ## <a name="media-logs"></a>媒體記錄
 
-請參閱收集和 _啟用記錄_ 一節，Windows Mac 指示。 媒體記錄包含會議音訊、視Teams資料。 當支援案例與通話相關問題連結時，這些案例是必填專案。
+請參閱收集和 _啟用記錄_ 一節，Windows Mac 指示。 媒體記錄包含會議中音訊、視像和螢幕Teams資料。 當支援案例與通話相關問題連結時，這些案例是必填專案。
 
-媒體記錄預設為關閉。 若要記錄會議Teams診斷資料，使用者必須在用戶端中開啟Teams選項。 前往 **設定** 一般，選取啟用會議診斷記錄 (需要重新開機 Teams) 核取方塊、重新開機 Teams，  >  然後重現問題。  
+媒體記錄預設為關閉。 若要記錄會議Teams診斷資料，使用者必須在用戶端中開啟Teams選項。 請 **設定** 一般，選取啟用會議診斷記錄 (需要重新開機 Teams) 核取方塊、重新開機 Teams，  >  然後重現問題。  
 
 當您將記錄檔案傳送給 Microsoft 支援人員時，請確認記錄檔案的時間戳記，以確保記錄在您重現問題時涵蓋時間範圍。
 
@@ -141,8 +141,8 @@ Debug、Desktop 和 Media 記錄會收集到一個名稱為 _MSTeams 診斷 \<lo
 - 檔案將在 `~/.config/Microsoft/Microsoft Teams/logs.txt` 中提供。
   
 若要收集記錄Windows：
-- 按一下系統Microsoft Teams中的 [檔案備份圖示，然後選取 [**收集支援檔案**> 。
-- 檔案 `logs.txt` 會自動在 記事本開啟。
+- 按一下系統Microsoft Teams中的 [Microsoft Teams圖示，然後選取 [**收集支援檔案**> 。
+- 檔案 `logs.txt` 會自動在 記事本中開啟。
 
 在調查登錄Teams時，您可能需要手動收集桌面記錄。 這些記錄檔案位於 %appdata%\Microsoft\Teams Windows。
 
