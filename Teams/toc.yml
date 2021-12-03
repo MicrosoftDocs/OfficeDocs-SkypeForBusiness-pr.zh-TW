@@ -849,17 +849,17 @@ items:
                 href: rooms/xml-config-file.md
               - name: 使用修復工具
                 href: rooms/recovery-tool.md
-  - name: 語音 - 電話系統與 PSTN 連線
+  - name: 語音 - Teams 電話與 PSTN 連線
     items:
       - name: 規劃您的 Teams 語音解決方案
         href: cloud-voice-landing-page.md
-      - name: 電話系統
+      - name: Teams 電話
         items:
-          - name: 什麼是電話系統
+          - name: 什麼是 Teams 電話
             href: what-is-phone-system-in-office-365.md
-          - name: 以下是可透過電話系統獲得的功能
+          - name: 以下是您取得 Teams 電話的一些功能
             href: here-s-what-you-get-with-phone-system.md
-          - name: 設定電話系統
+          - name: 設定 Teams 電話
             href: setting-up-your-phone-system.md
           - name: 設定公共區域電話
             href: set-up-common-area-phones.md
@@ -1093,7 +1093,7 @@ items:
             href: voice-case-study-overview.md
           - name: Teams 升級計畫
             href: voice-case-study-migration-plan.md
-          - name: 電話系統
+          - name: Teams 電話
             href: voice-case-study-phone-system.md
           - name: 位置型路由
             href: voice-case-study-location-based-routing.md
@@ -1620,6 +1620,10 @@ items:
             href: teams-add-on-licensing/pri-message.md
           - name: Microsoft 365 電話系統 - 虛擬使用者授權
             href: teams-add-on-licensing/virtual-user.md
+          - name: 開始使用 Teams 基本版
+            href: get-started-with-teams-essentials.md
+          - name: 將 Teams 基本版 (AAD 身分識別) 連結至電子郵件
+            href: connect-teams-essentials-to-email.md
       - name: Microsoft 365 和 Office 365 的互通性
         items:
           - name: Microsoft 365 群組與 Teams
