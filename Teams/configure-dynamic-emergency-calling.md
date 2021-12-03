@@ -18,18 +18,18 @@ description: 瞭解如何設定 Microsoft 通話方案電話系統直接路由�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a243d8d2cf0447bbad78a4b1644fb9e3f1120ea
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: a9df546e694fa3dcbdabae8454eeb5a6f7cba6a7
+ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465833"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "61284721"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
 Microsoft 通話方案、接線連線和直接路由的動態緊急電話提供設定和路由緊急電話的能力，以及根據用戶端目前的位置通知Teams人員。  
 
-根據與緊急位址 (相關聯的網路拓撲) 租使用者系統管理員定義的網路元素，Teams 用戶端會向位置資訊服務 (LIS) 提供要求中的網路連接資訊。 如果有相符專案，LIS 會將位置返回用戶端。
+根據與緊急位址 (相關聯的網路拓撲) 租使用者系統管理員定義的網路拓撲Teams用戶端會向位置資訊服務 (LIS) 提供要求中的網路連接資訊。 如果有相符專案，LIS 會將位置返回用戶端。
 
 用戶端Teams緊急通話中包含位置資料。 然後，緊急服務提供者會使用這些資料來判斷適當的公用安全應答點 (PSAP) ，然後將通話路由至該 PSAP，讓 PSAP 調度員取得來電者的位置。  
 
@@ -41,7 +41,7 @@ Microsoft 通話方案、接線連線和直接路由的動態緊急電話提供�
 
    - 如果有網路設定網站相符 ，緊急通話政策會從該網站Teams用戶端。  (有關政策的資訊，請參閱設定 [緊急](#configure-emergency-policies)) 。
 
-   - 如果有 LIS 相符專案，則從已連接用戶端Teams網路元素的緊急位置會Teams用戶端。 會以下列循序執行比對，並返回第一個相符的結果：
+   - 如果有 LIS 相符專案 ，則用戶端所連接之Teams之網路元素的緊急位置會Teams用戶端。 會以下列循序執行比對，並返回第一個相符的結果：
        - WAP
        - 乙太網路交換器/埠
        - 乙太網路交換器
@@ -49,11 +49,11 @@ Microsoft 通話方案、接線連線和直接路由的動態緊急電話提供�
 
 3. 當Teams用戶端撥打緊急電話時，緊急位置會傳送至 PSTN 網路。
 
-PSAP (PSAP) 自動路由的能力會視使用者Teams國家/地區而異。
+PSAP (PSAP) 自動路由的能力會因使用者使用Teams而異。
 
 Microsoft 通話方案與連線合作夥伴包含適用于美國和加拿大使用者的動態緊急路由服務。
 
-不過，針對直接路由，路由緊急電話時，可能需要進行其他組組，並可能還需要合作夥伴連接。 系統管理員必須為緊急位置識別號碼 (ELIN) 應用程式設定與緊急路由服務 (ERS) 提供者 (美國和加拿大) ) 或會話邊界控制器 (SBC) 的連接。 有關 ERS 提供者的資訊，請參閱 [通過直接路由認證的會話邊界控制器](direct-routing-border-controllers.md)。
+不過，針對直接路由，路由緊急電話時可能需要其他組組，並可能還需要合作夥伴連接。 系統管理員必須為緊急位置識別號碼 (ELIN) 應用程式設定緊急路由服務 (ERS) 提供者 (美國和加拿大) 或設定會話邊界控制器 (SBC) 的連接。 有關 ERS 提供者的資訊，請參閱 [通過直接路由認證的會話邊界控制器](direct-routing-border-controllers.md)。
 
 本文包含下列各節。
 
@@ -78,7 +78,7 @@ Microsoft 通話方案與連線合作夥伴包含適用于美國和加拿大使�
 目前支援下列用戶端。  經常回來查看此清單的更新。
 
 - Teams Microsoft 電腦版桌面Windows
-- Teams macOS 版桌面用戶端
+- Teams MacOS 版桌面用戶端
 - Teams iOS 用戶端版本 1.0.92.2019121004 和 App Store 版本 1.0.92 及更新版本的行動用戶端
 - Teams Android 用戶端和 Google Play 商店版本 1416/1.0.0.2019121201 及更新版本的行動用戶端
 - Teams 1449/1.0.94.2019110802 及更新版本
@@ -88,13 +88,14 @@ Microsoft 通話方案與連線合作夥伴包含適用于美國和加拿大使�
 > 3PIP 電話不支援動態緊急電話。 
 
 > [!NOTE]
-> Web 用戶端不支援動態緊急電話 ，包括安全Teams通知。 若要防止使用者使用網路用戶端Teams PSTN 號碼，您可以設定Teams，並關閉 [允許 **Web PSTN** 通話設定。 若要深入瞭解，請參閱在 Teams[和 Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)[中的通話](teams-calling-policy.md)政策。 
+> Web 用戶端不支援動態緊急電話 ，包括安全電話Teams通知。 若要防止使用者使用網路用戶端Teams PSTN 號碼，您可以設定Teams，並關閉 [允許 **Web PSTN** 通話設定。 若要深入瞭解，請參閱在 Teams[和 Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)[中的通話](teams-calling-policy.md)政策。 
 
 > [!NOTE]
 > 所有用戶端都支援子網和 WiFi Teams位置。 <br>
 > 支援乙太網路/ (LLDP) ：
 > - Windows版本 8.1 及更新版本。<br>
-> - Mac OS，需要 [LLDP 啟用軟體](https://www.microsoft.com/download/details.aspx?id=103383)。
+> - Mac OS，需要 [LLDP 啟用軟體](https://www.microsoft.com/download/details.aspx?id=103383)。<br>
+> - Teams Teams應用程式版本 1449/1.0.94.2021110101 及更新版本的手機。
 
 ## <a name="assign-emergency-addresses"></a>指派緊急位址
 
@@ -102,42 +103,42 @@ Microsoft 通話方案與連線合作夥伴包含適用于美國和加拿大使�
 
 - 撥打方案使用者。
 
-- 根據連線將使用者上傳到客戶庫存時指派給號碼的功能，將使用者指派給運算子 &mdash; 。
+- 根據電信連線將使用者上傳到客戶的庫存時指派給號碼的功能，將使用者指派給運算子 &mdash; 。
 
 - 至動態取得位置所需的網路識別碼。 
 
-若要支援美國境內緊急電話的自動路由，您必須確保指派給網路識別碼的緊急位置包含相關聯的地理代碼。  (沒有地理代碼的緊急位址無法指派給動態位置所需的網路識別碼。) 
+若要支援在美國境內自動路由緊急電話，您必須確保指派給網路識別碼的緊急位置包含相關聯的地理代碼。  (沒有地理代碼的緊急位址無法指派給動態位置所需的網路識別碼。) 
 
-Azure 地圖用於位置型服務。 當您使用系統管理中心輸入緊急Microsoft Teams時，Teams檢查 Azure 地圖位址：
+Azure 地圖用於位置型服務。 當您使用系統管理中心輸入緊急Microsoft Teams，Teams檢查 Azure 地圖位址：
 
 - 如果找到相符專案，系統會自動包含地理代碼。
 
-- 如果找不到相符專案，您將有機會手動建立緊急位址。 您可以使用 PIN 拖放功能執行此工作。 
+- 如果找不到相符專案，您將有機會手動建立緊急位址。 您可以使用 PIN 下拉功能執行此工作。 
 
 > [!NOTE]
 > 超過兩年的緊急位址無法指派給網路識別碼。 您必須重新建立較舊的位址。
 
-您可以在系統管理中心Microsoft Teams或使用 PowerShell 新增和指派緊急位址。 若要詳細資訊，請參閱 [為貴組織](add-change-remove-emergency-location-organization.md) 新增緊急位置，以及指派 [使用者的緊急位置](assign-change-emergency-location-user.md)。
+您可以在系統管理中心Microsoft Teams或使用 PowerShell 新增和指派緊急位址。 詳細資訊，請參閱 [新增組織的](add-change-remove-emergency-location-organization.md) 緊急位置，以及指派 [使用者的緊急位置](assign-change-emergency-location-user.md)。
 
 ## <a name="configure-network-settings"></a>設定網路設定
 
-網路設定可用來判斷用戶端Teams，以及動態取得緊急通話策略和緊急位置。 您可以根據組織希望緊急電話運作方式來設定網路設定。
+網路設定可用來判斷用戶端Teams，以及動態取得緊急通話策略和緊急位置。 您可以根據貴組織希望緊急電話運作方式來設定網路設定。
 
 網路設定包括包含子網集合的網站，這些網站僅用於動態策略指派給使用者。 例如，緊急通話策略和緊急電話路由策略可能會指派給「Redmond 網站」，讓任何從家用或另一個 Microsoft 位置漫遊的使用者，都使用 Redmond 特有的緊急號碼、路由和安全性電話機進行配置。  
 
-信任的 IP 位址包含商業網路的網際網路外部 IP 位址集合，並用來判斷使用者的端點是否位於公司網路內。 只有在使用者的外部 IP 位址與信任的 IP 位址中的 IP 位址符合時，才能嘗試取得動態策略或位置。
+信任的 IP 位址包含商業網路的網際網路外部 IP 位址集合，並用來判斷使用者的端點是否位於公司網路內。 只有在使用者的外部 IP 位址符合信任的 IP 位址中的 IP 位址時，才能嘗試取得動態策略或位置。
 
 有關 IP 位址、網路區域、網站和子網位址詳細資訊，請參閱雲端 [語音功能的網路設定](cloud-voice-network-settings.md)。
 
 您可以在系統管理中心Microsoft Teams或使用 PowerShell 來設定網路設定。 若要深入瞭解，請參閱 [管理雲端語音功能的網路拓撲](manage-your-network-topology.md)。
 
-請注意，網路設定 (例如新位址、網路識別碼等) 的一些變更可能需要 (幾個小時) 才能傳播，並且可供 Teams 用戶端使用。  
+請注意， (網路設定) 的一些變更 (例如新位址、網路識別碼等) 可能需要一些時間才能傳播，並且可供 Teams 用戶端使用。  
 
 > [!Note]
-> 子網也可以定義在 LIS 中，而且可以與緊急位置相關聯。  LIS 子網必須由符合指派給用戶端之子網 IP 範圍的網路識別碼定義。 例如，用戶端 IP/遮罩 10.10.10.150/25 的網路識別碼是 10.10.10.128。 詳細資訊請參閱瞭解 [TCP/IP 位址和子網劃分基本功能](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)。
+> 子網也可以定義在 LIS 中，而且可以與緊急位置相關聯。  LIS 子網必須由符合指派給用戶端之子網 IP 範圍的網路識別碼定義。 例如，用戶端 IP/遮罩 10.10.10.150/25 的網路識別碼是 10.10.10.128。 詳細資訊，請參閱瞭解 [TCP/IP 位址和子網劃分基本功能](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)。
 
 > [!Important]
-> 雲端 Proxy 服務部署不支援網路設定設定檢查，這些部署會修改來自Teams IP 位址。
+> 修改來自用戶端之來源 IP 位址的雲端 Proxy 服務部署不支援網路設定Teams檢查。
 
 
 
@@ -151,7 +152,7 @@ Azure 地圖用於位置型服務。 當您使用系統管理中心輸入緊急M
 
 **針對直接路由使用者：**
 
-- 如果需要動態啟用緊急電話或安全性電話台通知的動態設定，則必須同時設定受信任的 IP 位址和網路網站。
+- 如果需要動態啟用緊急電話或動態設定安全電話台通知，則必須同時設定信任的 IP 位址和網路網站。
 
 - 如果只需要動態位置，則必須只設定信任的 IP 位址;不需要設定 metwork 設定。
 
@@ -172,7 +173,7 @@ Azure 地圖用於位置型服務。 當您使用系統管理中心輸入緊急M
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-使用下列 Cmdlet 在 LIS 中新增埠、切換、子網和 WAP。
+使用下列 Cmdlet 將埠、開關、子網和 WAP 新加到 LIS。
 
 - [取得](/powershell/module/skype/get-csonlinelissubnet?view=skype-ps)、 [設定](/powershell/module/skype/set-csonlinelissubnet?view=skype-ps)、 [移除](/powershell/module/skype/remove-csonlinelissubnet?view=skype-ps) -CsOnlineLisSubnet
 - [取得](/powershell/module/skype/get-csonlinelisport?view=skype-ps)、 [設定](/powershell/module/skype/set-csonlinelisport?view=skype-ps)、 [移除](/powershell/module/skype/remove-csonlinelisport?view=skype-ps) -CsOnlineLisPort
@@ -186,9 +187,9 @@ Azure 地圖用於位置型服務。 當您使用系統管理中心輸入緊急M
 
 使用下列策略來設定緊急通話。 您可以在系統管理中心Microsoft Teams使用 PowerShell 來管理這些策略。
 
-- **緊急通話路由原則 - 僅適用于直接路由**。 此策略會設定緊急號碼、每個號碼的遮罩 ，以及每個號碼的 PSTN 路由。 您可以將此策略指派給使用者、網路網站或兩者。 若要深入瞭解，請參閱 [管理直接路由的緊急通話路由策略](manage-emergency-call-routing-policies.md)。  
+- **緊急通話路由原則 - 僅適用于直接路由**。 此策略會設定緊急號碼、每個號碼的遮罩 ，以及每個號碼的 PSTN 路由。 您可以將此策略指派給使用者、網路網站或兩者。 若要深入瞭解，請參閱管理 [直接路由的緊急通話路由策略](manage-emergency-call-routing-policies.md)。  
 
-    (通話方案與接線連線，系統會自動根據使用者的號碼或使用地點，使用國家/地區緊急號碼Microsoft 365 Office 365撥打緊急電話) 。
+    (通話方案及接線連線使用者會根據使用者的通話或使用地點，自動使用國家/地區緊急號碼Microsoft 365 Office 365緊急電話) 
 
 - **緊急通話原則 - 適用于通話方案、連線和直接路由。** 此策略會設定撥打緊急電話時的安全性電話台通知體驗。 您可以設定要通知哪些人，以及如何通知他們。 例如，若要自動通知貴組織的安全電話台，讓他們接聽緊急電話。  此策略可以指派給使用者或網路網站，也可以同時指派給使用者或網路網站。 若要深入瞭解，請參閱管理 Teams 中的[緊急Teams。](manage-emergency-calling-policies.md)
 
@@ -203,7 +204,7 @@ Azure 地圖用於位置型服務。 當您使用系統管理中心輸入緊急M
 
 以下是 PowerShell 範例：
 
-若要啟用特定使用者的安全性桌面通知，請使用下列命令：
+若要啟用特定使用者的安全性電話台通知，請使用下列命令：
 
 ```PowerShell
 Grant-CsTeamsEmergencyCallingPolicy -Identity user1 -PolicyName SecurityDeskNotification
@@ -227,13 +228,13 @@ Grant-CsTeamsEmergencyCallRoutingPolicy -Identity user1 -PolicyName UnitedStates
 Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso New York Emergency Call Routing"
 ```
 
-如果您將緊急通話策略指派給網路網站和使用者，且該使用者位於該網路網站，則指派給網路網站的策略會取代指派給使用者的策略。
+如果您將緊急通話策略指派給網路網站和使用者，且該使用者位於該網路網站，則指派給網路網站的策略會重寫指派給使用者的策略。
 
 ## <a name="test-emergency-calling"></a>測試緊急通話
 
 美國部分緊急路由服務提供者 (ERSP) 提供緊急通話測試 Bot。
 
-- **美國或加拿大連線** 電話方案及接線員可以使用預先定義的測試緊急號碼 933 來驗證其緊急通話設定。 此號碼會路由至 Bot，然後回顯來電者的電話號碼 (電話線識別碼) 、緊急位址或位置，以及通話是否會自動路由至 PSAP 或先進行篩選。
+- **美國或連線** 的通話方案及接線員可以使用預先定義的測試緊急號碼 933 來驗證其緊急通話設定。 此號碼會路由至 Bot，然後回顯來電者的電話號碼 (電話線識別碼) 、緊急位址或位置，以及通話是否會自動路由至 PSAP 或先進行篩選。
 
 - **美國的直接路由客戶應該** 與他們的 ERSP 協調，以進行測試服務。
 

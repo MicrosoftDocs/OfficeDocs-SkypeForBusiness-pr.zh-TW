@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d607a2ea0469ce3b88411bfe17ca8d54b76c7cc0
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: 97f45330404f6a42c4293e4205e82dc7188d4b9e
+ms.sourcegitcommit: 563567ab140d5802756170c846dade3645d0b9e4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055434"
+ms.lasthandoff: 12/03/2021
+ms.locfileid: "61284731"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 核准應用程式可用性
 
@@ -41,7 +41,7 @@ ms.locfileid: "61055434"
 本文章說明核准應用程式的需求和角色。
 
 > [!NOTE]
-> 這項功能尚未發行至 政府社群雲端 (GCC) 、政府社群雲端 (GCCH) ，以及美國 (DOD) 使用者。
+> 這項功能尚未發行至 政府社群雲端 (GCC) 、政府社群雲端高 (GCCH) ，以及美國 (DOD) 使用者。
 
 ## <a name="required-permissions-and-licenses"></a>必要的權限和授權
 
@@ -53,7 +53,7 @@ ms.locfileid: "61055434"
 
 - 目標環境中的系統管理員角色。
 
-- 適用于[Power Automate、Office 365](/power-automate/get-started-approvals)或 Dynamics 365 授權。
+- 適用于[Power Automate、Office 365](/power-automate/get-started-approvals)或 Dynamics 365 的授權。
 
 - 使用者需要 Microsoft Forms 授權才能設定新的核准範本。
 
@@ -70,7 +70,7 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 >[!Note]
 >如果您在 Microsoft Forms 網站上刪除表單範本，將會中斷您的核准範本，而使用者將無法啟動要求。 使用者嘗試開啟 Microsoft Forms 上已刪除的核准範本時，收到「CDB TableNotFound」錯誤。
 
-核准範本會儲存在 <底片資料儲存體 (SDS) ，這是一個僅在 Microsoft 內部使用的相容儲存平臺。 組織範圍的範本會儲存在 SDS 的「租使用者區」中，而小組範圍的範本則儲存在 SDS 的「群組分片」中。 這表示組織範圍的範本會共用租使用者相同的生命週期，而小組範圍的範本會共用團隊的相同生命週期。 因此，永久刪除小組會刪除相關的範本。
+組織範圍的範本會共用租使用者相同的生命週期，而小組範圍的範本會共用團隊的相同生命週期。 因此，永久刪除小組會刪除相關的範本。
 
 ## <a name="approvals-teams-app-permissions"></a>核准 Teams 應用程式權限
 
@@ -99,10 +99,10 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
 - 所有團隊擁有者都可以為他們擁有的團隊建立核准範本。
 
-- 當系統管理員第一次為整個組織建立範本時，系統會自動為租使用者的所有系統管理員 ，包括全域和小組的服務系統管理員，Azure Active Directory (AAD) 建立新的 Azure Active Directory (AAD) 群組。 這些系統管理員會新增為群組擁有者，以便共同管理組織範本。 小組建立之後，組織的新管理員必須手動新增為群組擁有者，以便他們擁有管理全組織範本的相同許可權。
+- 當系統管理員第一次為整個組織建立範本時，系統會自動為租使用者的所有系統管理員 ，包括全域和小組的服務系統管理員Azure Active Directory (AAD) 建立新的 Azure Active Directory (AAD) 群組。 這些系統管理員會新增為群組擁有者，以便共同管理組織範本。 小組建立之後，組織的新管理員必須手動新增為群組擁有者，以便他們擁有管理全組織範本的相同許可權。
 
 > [!Note]
-> 如果系統管理員刪除群組，您只有一個月的時間才能在 Azure Active Directory (AAD) 入口網站中還原群組，以還原所有關聯資料。 一個月後，或如果系統管理員在回收站中刪除此群組，您將失去所有相關的資料。
+> 如果系統管理員刪除群組，您還有一個月的時間在 Azure Active Directory (AAD) 入口網站中還原群組，以還原所有關聯資料。 一個月後，或如果系統管理員在回收站中刪除此群組，您將失去所有相關的資料。
 
 ## <a name="disable-the-approvals-app"></a>停用核准應用程式
 
@@ -120,7 +120,7 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
   5. 選取切換以為組織停用該應用程式。
 
-     ![顯示核准應用程式的詳細資訊。](media/approvals-details-new.png)
+     :::image type="content" alt-text="顯示核准應用程式的詳細資訊。" source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
 ## <a name="retention-policy"></a>保留原則
 
@@ -205,7 +205,7 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
 針對核准電子簽章功能，協力廠商簽章合作夥伴預設會顯示Teams核准應用程式。 您可以存取系統管理中心中的應用程式設定，以停用Teams提供者。
 
-1. 在 Teams系統管理中心 **，選取管理** 應用程式下的核准 **應用程式****，然後選擇** 設定。
+1. 在 Teams系統管理中心 **，選取管理** 應用程式下的核准 **應用程式**，**然後選擇** 設定。
 
 2. 每個電子簽章提供者旁邊都有一個開關，根據預設， () 開啟位置。 將切換開關向左滑動以停用特定的電子簽名提供者。 如果Teams系統管理員停用提供者，則建立核准時，使用者不會看到提供者。 使用者也無法查看該提供者提出的任何電子簽章要求。
 
