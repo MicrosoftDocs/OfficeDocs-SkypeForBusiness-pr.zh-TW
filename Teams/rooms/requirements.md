@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解支援Microsoft Teams 會議室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a96fd2ee05b60a8147574678bc2afed89ad5be2d
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 8524f1481c98425e726f902a76ce82ce536ed419
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959922"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306128"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
@@ -28,17 +28,16 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
 
 本文摘要說明支援 Microsoft Teams 會議室所需的裝置部署和組態需求。
 
-您的部署需要建立帳戶 (如[部署 Microsoft Teams 會議室](rooms-deploy.md)中所述) 和設定會議主控台 (如[設定 Microsoft Teams 會議室主控台](console.md)中所述)。
+您的部署需要建立資源帳戶，並設定Teams 會議室部署和部署[Microsoft Teams 會議室。](rooms-deploy.md)
 
 請參閱：
 
-- [商務用 Skype 附加元件授權](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [根據您方案的授權選項：Microsoft Teams 會議室](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [根據您方案的授權選項：Microsoft Teams 會議室](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams 會議室會登入 Microsoft Teams、商務用 Skype Server 2019、商務用 Skype Server 2015 或商務用 Skype Online，並可以加入這些服務所舉辦的任何會議。
+> Microsoft Teams 會議室 2019 Microsoft Teams 2019 商務用 Skype Server或 2015 商務用 Skype Server，並可以加入由這些服務所主持的會議。
 >
-> Microsoft Teams 會議室不支援舊版平台 (例如 Lync Server 2013)。 Microsoft Teams 會議室 21Vianet 或 DoD Microsoft 365或 doD Office 365中不支援此功能。
+> Microsoft Teams 會議室不支援舊版平台 (例如 Lync Server 2013)。 Microsoft Teams 會議室 21Vianet 或 DoD 環境所Microsoft 365或Office 365中不支援此功能。
 >
 > 如果您擁有內部部署 Exchange Server，則 Microsoft Teams 會議室需要使用 Exchange Server 2013 SP1 或更新版本。
 
@@ -59,9 +58,9 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
   |[使用 Intel NUC 的Crsron Flex UC-MX150-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX150-T)|Core i5|8 GB |128 GB |
    [使用 Intel NUC 的Crsron Flex UC-B160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B160-T)|Core i7|8 GB |128 GB|
   |[使用 Intel NUC 的Crsron Flex UC-C160-T](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C160-T)|Core i7|8 GB|128 GB|
-  |[具有 UC 簡報傳送器與 UC-PR (UC-PR) ASUS PC 的 Cresron Flex UC-MMX30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MMX30-T)|Core i5|8 GB |128 GB |
+  |[具有 UC 簡報傳送器與 UC-PR (UC-PR) 和 ASUS PC 的 Cresron Flex UC-MMX30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MMX30-T)|Core i5|8 GB |128 GB |
   |[具有 UC 簡報傳送器與 UC-PR (UC-PR) ASUS PC 的 Cresron Flex UC-BX30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-BX30-T)|Core i5|8 GB |128 GB |
-  |[使用 UC 簡報傳送器 (UC-PR) ASUS PC 的 Cresron Flex UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T)|Core i5|8 GB |128 GB |
+  |[在 UC-PR 和 ASUS 電腦中，使用 UC 簡報傳送 (的Crsron Flex UC-CX100-T) UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T)|Core i5|8 GB |128 GB |
   |[使用 ASUS PC 的 Cresron Flex UC-B30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Wall-Mount-Conferencing-Systems/UC-B30-T)|Core i5|8 GB |128 GB |
    |[使用 ASUS PC 的 Cresron Flex UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)|Core i5|8 GB |128 GB |
    |[使用 ASUS PC 的 Cresron Flex UC-M50-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M50-T)|Core i5|8 GB |128 GB |
@@ -132,7 +131,7 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
 |[Aver VB130 相機聲音鍵](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Bose 視線 VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
-|[Biamp Devio SCR-20CX Web-Based帶天花板麥克風的會議中樞](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
+|[Biamp Devio SCR-20CX Web-Based具有天花板麥克風的會議中樞](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Biamp Devio SCR-20TX Web-Based桌面麥克風的會議中樞](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
 |[Huddly 畫布](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
@@ -201,11 +200,11 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
 
 #### <a name="usb-extenders"></a>USB 延伸器
 
-- 平板電腦擴充座上的 USB 連接埠與 USB 3.0 相容。 您可以使用 USB 2.x 延伸器，但這樣做會將您在遠端限制於 USB 2.x 速度。 不建議對 USB 3.0 週邊設備使用延伸器。
+- 平板電腦擴充座上的 USB 連接埠與 USB 3.0 相容。 您可以使用 USB 2.x 延伸器，但最遠端只能使用 USB 2.x 速度。 不建議對 USB 3.0 週邊設備使用延伸器。
 - 延伸器必須符合 USB 2.0 或更新規格。
   - 平板電腦擴充座支援至少兩段外部 USB 集線器延長線。 如果您以序列連接兩個以上的 USB 集線器，請洽詢擴充座製造商，確認是否支援系列連接。
   - 會議室中具備有線 GbE 連線。 長度適當的乙太網路纜線。
-  - 最多使用 HDMI 連線的 2 部 1080-p 顯示器。 長度適當的 HDMI 纜線。
+  - 最多兩個 1080p 顯示器具有 HDMI 連接。 長度適當的 HDMI 纜線。
 
 > [!NOTE]
 > 在作為會議室前方顯示器的消費者電視，必須支援/啟用 HDMI 的消費者電子控制 (CEC) 功能，使得它能夠自動從待機模式切換為使用中的視訊來源。 此功能在所有電視上均不支援。
@@ -235,14 +234,6 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
  > [!NOTE]
  > 會議室前方顯示器解析度應設定為不大於 1920x1080p。
 
-## <a name="required-software-downloads"></a>需要的軟體下載項目
-
-若要建立您自己的 Microsoft Teams 會議室影像，請遵循[設定 Microsoft Teams 會議室主控台](console.md)中的指示進行。 這些指示會引導您下載安裝所需的所有軟體。
-
-> [!NOTE]
-> IT 專業人員需要透過大量授權合約存取 Windows 10 企業版 ISO 檔案。
-
-[SkypeRoomProvisioningScript. ps1](https://go.microsoft.com/fwlink/?linkid=870105) 是可供您用來佈建 Microsoft Teams 會議室帳戶的選用下載。
 
 ## <a name="see-also"></a>另請參閱
 
@@ -255,5 +246,3 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
 [設定 Microsoft Teams 會議室主控台](console.md)
 
 [管理 Microsoft Teams 會議室](rooms-manage.md)
-
-[商務用 Skype 附加元件授權](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

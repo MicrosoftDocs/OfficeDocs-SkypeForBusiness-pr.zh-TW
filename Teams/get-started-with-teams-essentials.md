@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: efe81626a512c4ffce9cebe9a4cb6d62e4035b5f
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: b8ec92d734a62b0bfe7416a0aa83f46151ca95ab
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257518"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306428"
 ---
 # <a name="teams-essentials-quickstart-guide-for-small-businesses"></a>適用於小型企業的 Teams 基本版快速入門指南
 
@@ -47,7 +47,7 @@ Microsoft Teams 基本版可直接在 Microsoft 網站購買，並選取 Microso
 下表列出各方案提供的主要 Microsoft Teams 功能。 適用某些注意事項。 如需進一步資訊，請參閱註腳。 此表格可能會變更而不另行通知。 如需最新、完整的功能清單，請前往 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
 
  
-|Microsoft Teams 方案 | [**Microsoft Teams (免費版)**](manage-freemium.md)) | [**Microsoft Teams 基本版**](#get-microsoft-teams-essentials) | **Microsoft Teams 基本版 (AAD 身分識別)** | [**Microsoft 365 商務基本版**](/microsoft-365/admin/setup/setup-business-basic?)  |
+|Microsoft Teams 方案 | [**Microsoft Teams (免費)**](manage-freemium.md) | [**Microsoft Teams 基本版**](#get-microsoft-teams-essentials) | **Microsoft Teams 基本版 (AAD 身分識別)** | [**Microsoft 365 商務基本版**](/microsoft-365/admin/setup/setup-business-basic?)  |
 |---------|---------|---------|---------|---------|
 |***功能***     |         |         |         |         |
 | **會議與通話** | 是| 是| 是 |   是    |
