@@ -979,6 +979,8 @@ items:
             href: what-are-emergency-locations-addresses-and-call-routing.md
           - name: 設定動態緊急電話
             href: configure-dynamic-emergency-calling.md
+          - name: 遠端位置的緊急位址
+            href: emergency-calling-dispatchable-location.md
           - name: 管理緊急地址
             items:
               - name: 新增、變更或移除組織的緊急位置
