@@ -3,6 +3,54 @@
 
 
 
+## <a name="week-of-november-29-2021"></a>2021 年 11 月 29 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 11/29/2021 | [適用于 Teams](/MicrosoftTeams/devices/teams-ip-phones) | 改 性 |
+| 11/29/2021 | [使用 Teams 安裝Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | 改 性 |
+| 11/29/2021 | [從 Teams Exploratory 試用版升級](/MicrosoftTeams/upgrade-from-teams-exploratory) | 改 性 |
+| 11/30/2021 | [管理參與者和來賓的會議政策](/MicrosoftTeams/meeting-policies-participants-and-guests) | 改 性 |
+| 11/30/2021 | [Microsoft EDU 家長應用程式在 Teams](/MicrosoftTeams/edu-parents-app) | 改 性 |
+| 12/1/2021 | [連線 Microsoft Teams使用 (AAD識別) 至現有的電子郵件系統](/MicrosoftTeams/connect-teams-essentials-to-email) | 添加 |
+| 12/1/2021 | [適用於小型企業的 Teams 基本版快速入門指南](/MicrosoftTeams/get-started-with-teams-essentials) | 添加 |
+| 12/1/2021 | [設定接線連線會議](/MicrosoftTeams/operator-connect-conferencing-configure) | 添加 |
+| 12/1/2021 | [規劃接線連線會議](/MicrosoftTeams/operator-connect-conferencing-plan) | 添加 |
+| 12/1/2021 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 改 性 |
+| 12/1/2021 | [即時活動錄製政策](/MicrosoftTeams/teams-live-events/live-events-recording-policies) | 改 性 |
+| 12/1/2021 | [Microsoft Teams PowerShell 版本資訊](/MicrosoftTeams/teams-powershell-release-notes) | 改 性 |
+| 12/1/2021 | [升級Microsoft Teams免費 (傳統) 訂閱](/MicrosoftTeams/upgrade-freemium) | 改 性 |
+| 12/1/2021 | [適用於小型企業的 Teams 基本版快速入門指南](/MicrosoftTeams/get-started-with-teams-essentials) | 改 性 |
+| 12/1/2021 | [以下是您取得Teams 電話](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 改 性 |
+| 12/1/2021 | [在Teams 電話中設定目標](/MicrosoftTeams/setting-up-your-phone-system) | 改 性 |
+| 12/1/2021 | [什麼是Teams 電話](/MicrosoftTeams/what-is-phone-system-in-office-365) | 改 性 |
+| 12/2/2021 | [在 Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | 改 性 |
+| 12/2/2021 | [手機和裝置Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | 改 性 |
+| 12/2/2021 | [維度和度量 - 通話品質儀表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 改 性 |
+| 12/2/2021 | [PSTN 連接選項](/MicrosoftTeams/pstn-connectivity) | 改 性 |
+| 12/2/2021 | [教育版 Insights使用者注意事項](/MicrosoftTeams/insights-end-user-notice) | 添加 |
+| 12/2/2021 | [設定動態緊急電話](/MicrosoftTeams/configure-dynamic-emergency-calling) | 改 性 |
+| 12/2/2021 | [連線 Microsoft Teams使用 (AAD識別) 至現有的電子郵件系統](/MicrosoftTeams/connect-teams-essentials-to-email) | 改 性 |
+| 12/3/2021 | 在 Microsoft Teams 中將原則指派給使用者 | 刪除 |
+| 12/3/2021 | [在稽核記錄中搜尋Microsoft Teams](/MicrosoftTeams/audit-log-events) | 改 性 |
+| 12/3/2021 | [適用于 Teams](/MicrosoftTeams/devices/teams-ip-phones) | 改 性 |
+| 12/3/2021 | [媒體旁路搭配直接路由方案](/MicrosoftTeams/direct-routing-plan-media-bypass) | 改 性 |
+| 12/3/2021 | [適用於小型企業的 Teams 基本版快速入門指南](/MicrosoftTeams/get-started-with-teams-essentials) | 改 性 |
+| 12/3/2021 | [設定 Microsoft Teams 會議室主控台](/MicrosoftTeams/rooms/console) | 改 性 |
+| 12/3/2021 | [瞭解如何設定內容攝影機 - Microsoft Teams](/MicrosoftTeams/rooms/content-camera) | 改 性 |
+| 12/3/2021 | [使用會議與會議Microsoft Teams 會議室Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings) | 改 性 |
+| 12/3/2021 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 改 性 |
+| 12/3/2021 | [在 Microsoft Teams 會議室](/MicrosoftTeams/rooms/rooms-authentication) | 改 性 |
+| 12/3/2021 | [設定帳戶Microsoft Teams 會議室](/MicrosoftTeams/rooms/rooms-configure-accounts) | 改 性 |
+| 12/3/2021 | [部署 Microsoft Teams 會議室](/MicrosoftTeams/rooms/rooms-deploy) | 改 性 |
+| 12/3/2021 | [Microsoft Teams 會議室授權](/MicrosoftTeams/rooms/rooms-licensing) | 改 性 |
+| 12/3/2021 | [Microsoft Teams 會議室應用程式版本支援](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 改 性 |
+| 12/3/2021 | [管理 Microsoft Teams 會議室](/MicrosoftTeams/rooms/rooms-manage) | 改 性 |
+| 12/3/2021 | [Microsoft Teams 會議室維護與作業](/MicrosoftTeams/rooms/rooms-operations) | 改 性 |
+| 12/3/2021 | [Microsoft Teams 會議室安全性](/MicrosoftTeams/rooms/security) | 改 性 |
+
+
 ## <a name="week-of-november-22-2021"></a>2021 年 11 月 22 日周
 
 
@@ -30,7 +78,7 @@
 | 11/24/2021 | [管理參與者和來賓的會議政策](/MicrosoftTeams/meeting-policies-participants-and-guests) | 改 性 |
 | 11/24/2021 | [管理會議設定](/MicrosoftTeams/meeting-settings-in-teams) | 改 性 |
 | 11/24/2021 | [管理 Teams 中的訊息傳遞原則](/MicrosoftTeams/messaging-policies-in-teams) | 改 性 |
-| 11/24/2021 | [租使用者系統管理在 (語音設定檔) 語音Teams 會議室](/MicrosoftTeams/rooms/voice-recognition) | 改 性 |
+| 11/24/2021 | [租使用者系統管理在 (語音設定檔) 語音辨識Teams 會議室](/MicrosoftTeams/rooms/voice-recognition) | 改 性 |
 | 11/24/2021 | [在 Microsoft Teams 中設定網路研討會](/MicrosoftTeams/set-up-webinars) | 改 性 |
 | 11/24/2021 | [適用于您的進一Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 改 性 |
 | 11/24/2021 | [Microsoft Teams 會議出席報告](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | 改 性 |
@@ -76,65 +124,6 @@
 | 11/19/2021 | [使用 Teams 安裝Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | 改 性 |
 | 11/19/2021 | [什麼是移轉訂單？](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | 改 性 |
 | 11/18/2021 | 針對 Microsoft Teams 中的來賓存取問題進行疑難排解 | 刪除 |
-| 11/19/2021 | [升級商務 \| Skype檢查清單Teams升級 \| 基本步驟](/MicrosoftTeams/upgrade-basic) | 改 性 |
+| 11/19/2021 | [升級商務Skype \| 檢查清單Teams升級 \| 基本步驟](/MicrosoftTeams/upgrade-basic) | 改 性 |
 | 11/19/2021 | 協助工具聲明一致性 - 法國 | 刪除 |
 | 11/19/2021 | [Microsoft Teams：一致性的協助工具宣告 - 法國](/MicrosoftTeams/accessibility-declaration-of-conformance-in-france-for-teams) | 改 性 |
-
-
-## <a name="week-of-october-25-2021"></a>2021 年 10 月 25 日周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 10/25/2021 | [適用於 Microsoft Teams 的端對端加密](/MicrosoftTeams/teams-end-to-end-encryption) | 添加 |
-| 10/25/2021 | [通話Microsoft Teams：通話和呼叫轉呼叫功能](/MicrosoftTeams/teams-calling-policy) | 改 性 |
-| 10/25/2021 | [管理裝置Teams健康狀態](/MicrosoftTeams/teams-device-health) | 改 性 |
-| 10/25/2021 | [Microsoft Teams 的安全性指南概觀](/MicrosoftTeams/teams-security-guide) | 改 性 |
-| 10/26/2021 | [國家/地區可用性 - 音訊會議、通話方案](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 改 性 |
-| 10/26/2021 | [適用于 Teams](/MicrosoftTeams/devices/teams-ip-phones) | 改 性 |
-| 10/26/2021 | [Microsoft Teams應用程式使用方式報告](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | 改 性 |
-| 10/26/2021 | [Microsoft Teams PowerShell 版本資訊](/MicrosoftTeams/teams-powershell-release-notes) | 改 性 |
-| 10/26/2021 | [在 Microsoft Teams 系統管理中心管理團隊](/MicrosoftTeams/manage-teams-in-modern-portal) | 改 性 |
-| 10/27/2021 | [手機和裝置Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | 改 性 |
-| 10/27/2021 | [Microsoft Teams 的硬體需求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 改 性 |
-| 10/27/2021 | [購買協力廠商應用程式Teams](/MicrosoftTeams/purchase-third-party-apps) | 改 性 |
-| 10/27/2021 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 改 性 |
-| 10/27/2021 | [會議Teams之以策略為基礎的錄製&簡介](/MicrosoftTeams/teams-recording-policy) | 改 性 |
-| 10/27/2021 | [在系統管理中心的活動記錄中Microsoft Teams作業](/MicrosoftTeams/activity-log) | 改 性 |
-| 10/27/2021 | [指派策略給學校中的大量使用者](/MicrosoftTeams/batch-group-policy-assignment-edu) | 改 性 |
-| 10/27/2021 | [呼叫停駐和Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | 改 性 |
-| 10/27/2021 | [管理 Microsoft Teams 中的來電顯示原則](/MicrosoftTeams/caller-id-policies)。 | 改 性 |
-| 10/27/2021 | [在您的企業中設定 Microsoft Teams](/MicrosoftTeams/deploy-enterprise-setup) | 改 性 |
-| 10/27/2021 | [Microsoft Teams 中的會議和召集會議](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | 改 性 |
-| 10/27/2021 | [Teams 教育版原則精靈，輕鬆將原則用於安全學習](/MicrosoftTeams/easy-policy-setup-edu) | 改 性 |
-| 10/27/2021 | [管理組織的 [班次] 應用程式](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 改 性 |
-| 10/27/2021 | [為一線員工大規模佈建 Microsoft Teams](/MicrosoftTeams/flw-scripted-deployment) | 改 性 |
-| 10/27/2021 | [管理直接路由的緊急語音路由策略](/MicrosoftTeams/manage-emergency-call-routing-policies) | 改 性 |
-| 10/27/2021 | [在 Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | 改 性 |
-| 10/27/2021 | [管理意見Microsoft Teams](/MicrosoftTeams/manage-feedback-policies-in-teams) | 改 性 |
-| 10/27/2021 | [管理及監控Teams](/MicrosoftTeams/manage-teams-overview) | 改 性 |
-| 10/27/2021 | [使用Teams管理](/MicrosoftTeams/manage-teams-with-policies) | 改 性 |
-| 10/27/2021 | [管理直接路由的語音路由策略](/MicrosoftTeams/manage-voice-routing-policies) | 改 性 |
-| 10/27/2021 | [會議政策與會議到期Microsoft Teams](/MicrosoftTeams/meeting-expiration) | 改 性 |
-| 10/27/2021 | [管理內容共用的會議策略](/MicrosoftTeams/meeting-policies-content-sharing) | 改 性 |
-| 10/27/2021 | [Teams：管理會議原則](/MicrosoftTeams/meeting-policies-in-teams) | 改 性 |
-| 10/27/2021 | [管理參與者和來賓的會議政策](/MicrosoftTeams/meeting-policies-participants-and-guests) | 改 性 |
-| 10/27/2021 | [從使用者移除 RestrictedAnonymousAccess Teams 會議原則](/MicrosoftTeams/meeting-policies-restricted-anonymous-access) | 改 性 |
-| 10/27/2021 | [等候音樂](/MicrosoftTeams/music-on-hold) | 改 性 |
-| 10/27/2021 | [在 Teams - Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | 改 性 |
-| 10/27/2021 | [適用於教育界管理員的 Microsoft Teams 原則和原則套件](/MicrosoftTeams/policy-packages-edu) | 改 性 |
-| 10/27/2021 | [Teams政府政策套件](/MicrosoftTeams/policy-packages-gov) | 改 性 |
-| 10/27/2021 | [適用於醫療保健的 Teams 原則套件](/MicrosoftTeams/policy-packages-healthcare) | 改 性 |
-| 10/27/2021 | [開始使用 Microsoft Teams 進行遠端學習](/MicrosoftTeams/remote-learning-edu) | 改 性 |
-| 10/27/2021 | [租使用者系統管理在 (語音設定檔) 語音Teams 會議室](/MicrosoftTeams/rooms/voice-recognition) | 改 性 |
-| 10/27/2021 | [PowerShell 腳本範例 - 為學校中的教師和學生建立安全性群組](/MicrosoftTeams/scripts/powershell-script-security-groups-edu) | 改 性 |
-| 10/27/2021 | [PowerShell 腳本範例 - 建立&訊息策略](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | 改 性 |
-| 10/27/2021 | [在 Microsoft Teams 中管理應用程式權限原則](/MicrosoftTeams/teams-app-permission-policies) | 改 性 |
-| 10/27/2021 | [通話Microsoft Teams：通話和呼叫轉呼叫功能](/MicrosoftTeams/teams-calling-policy) | 改 性 |
-| 10/27/2021 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 改 性 |
-| 10/27/2021 | [使用Teams桌面服務](/MicrosoftTeams/teams-on-rdp) | 改 性 |
-| 10/27/2021 | [管理頻道Microsoft Teams](/MicrosoftTeams/teams-policies) | 改 性 |
-| 10/27/2021 | [Microsoft Teams PowerShell 版本資訊](/MicrosoftTeams/teams-powershell-release-notes) | 改 性 |
-| 10/27/2021 | [在系統管理中心管理小組範本](/MicrosoftTeams/templates-policies) | 改 性 |
-| 10/27/2021 | [使用商務用 OneDrive SharePoint錄製](/MicrosoftTeams/tmr-meeting-recording-change) | 改 性 |
-| 10/28/2021 | [中的資訊Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | 改 性 |
