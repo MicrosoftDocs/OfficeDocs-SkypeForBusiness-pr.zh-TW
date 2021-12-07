@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: 95d5b420586016cb0b1d34599aa27b5d381c44c4
-ms.sourcegitcommit: 693e2b7d79f5a3f7e2ccb14e48dc46d295659c33
+ms.openlocfilehash: ea91bb108f109bb58fe36d884f683a1f0e405964
+ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/07/2021
-ms.locfileid: "61319920"
+ms.locfileid: "61327261"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認證的裝置
 
@@ -105,6 +105,7 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 
 | 產品發行 | 發行日期  | Microsoft Teams應用程式版本 | 公司入口網站版本 | 系統管理代理程式版本 |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2021 更新#3B | 2021 年 12 月 6 日   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |
 | 2021 更新#3A | 2021 年 11 月 22 日   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
 | 2021 更新 #3  | 2021 年 11 月 3 日   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
 | 2021 更新#2A | 2021 年 6 月 10 日  |`1449/1.0.94.2021052803`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
@@ -119,10 +120,12 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以判斷應用程式、Microsoft Teams和系統管理代理公司入口網站安裝的版本。 在包含的產品發行欄中尋找產品版本，然後在前述 **的 App** 版本資料表中尋找產品版本。
+當您在 Microsoft Teams裝置上安裝新的固件版本時，您可以判斷應用程式、公司入口網站和系統管理代理程式對應的安裝版本。 在包含的產品發行欄中尋找產品版本，然後在前述 **的 App** 版本資料表中尋找產品版本。
 
 | 裝置模型        | 固件版本     | 已包含產品發行  |
 |:--------------------|:---------------------|:-------------------------|
+| Poly Trio C60   | `7.1.4.0201`  | 2021 更新#3B                        |
+| Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | 2021 更新#3B                 |
 |音訊代碼 C448HD  | `C448HD_TEAMS_1.14.449` | 2021 更新 #3  |
 |音訊代碼 C450HD  | `C450HD_TEAMS_1.14.449` | 2021 更新 #3  |
 |音訊代碼 C470HD  | `C470HD_TEAMS_1.14.449` | 2021 更新 #3  |
@@ -218,7 +221,7 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 
 ### <a name="product-release-information-for-teams-displays"></a>顯示器的產品Teams資訊
 
-以下是顯示 app 和Microsoft Teams版本的最新版本。
+以下是顯示應用程式與Microsoft Teams版本的最新版本。
 
 #### <a name="app-versions"></a>應用程式版本
 
@@ -230,7 +233,7 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。  然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行|
 |:--------------|:-----------------|:-------------------------|
@@ -249,7 +252,7 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。  然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行|
 |:--------------|:-----------------|:-------------------------|
@@ -261,11 +264,11 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 
 ## <a name="more-resources"></a>更多資源
 
-請參閱[Microsoft Teams](phones-for-teams.md)手機功能集，以瞭解這些裝置支援的功能相關資訊。
+請參閱[Microsoft Teams手機](phones-for-teams.md)功能集，以瞭解這些裝置支援的功能。
 
 請參閱 [尋找行動裝置上的固件版本](phones-for-teams.md) ，以判斷行動裝置上的裝置固件版本。
 
-Microsoft Teams授權可以購買為訂閱或[Microsoft 365 Office 365的一部分](/office365/servicedescriptions/teams-service-description)。 若要深入瞭解在手機上使用手機Microsoft Teams授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
+Microsoft Teams授權可以在訂閱或訂閱[Microsoft 365 Office 365購買](/office365/servicedescriptions/teams-service-description)。 若要深入瞭解在手機上使用手機Microsoft Teams授權，請參閱可用的[電話系統授權](https://products.office.com/microsoft-teams/voice-calling)。
 
 若要進一Teams，請參閱如何[存取Microsoft Teams？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
