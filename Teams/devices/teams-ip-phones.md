@@ -21,16 +21,16 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: 4126e8fde512089a2036e25c59f9510d46546738
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 95d5b420586016cb0b1d34599aa27b5d381c44c4
+ms.sourcegitcommit: 693e2b7d79f5a3f7e2ccb14e48dc46d295659c33
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306318"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61319920"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認證的裝置
 
-Microsoft Teams認證計畫可確保使用經過認證的電話機和會議電話的客戶，能體驗高品質的音訊通話和會議體驗。
+這些Microsoft Teams認證計畫可確保使用認證電話和會議電話的客戶，能體驗高品質的音訊通話和會議體驗。
 
 Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度量的高品質資料條。 合作夥伴正積極努力，以符合此較高的列，且符合認證要求的裝置。 我們的部分合作夥伴也正在努力在電話商務用 Skype硬體上，為Teams服務提供支援。 
 
@@ -95,6 +95,7 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 |Cresron TSS-770 | `1.003.0082` |2021 年 2 月 |
 |Cresron TSS-1070 | `1.003.0082` |2021 年 2 月 |
 |Yealink RoomPanel | `147.15.0.1` |2021 年 5 月 |
+|Logitech TAP Scheduler | `1.3.111` | 2021 年 12 月 |
 
 ### <a name="product-release-information-for-teams-phones"></a>手機版產品Teams資訊
 
@@ -118,7 +119,7 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以判斷應用程式、Microsoft Teams和系統管理公司入口網站的安裝版本。 在包含的產品發行欄中尋找產品版本，然後在前述 **的 App** 版本資料表中尋找產品版本。
+當您在裝置上安裝新的固件版本時，您可以判斷應用程式、Microsoft Teams和系統管理代理公司入口網站安裝的版本。 在包含的產品發行欄中尋找產品版本，然後在前述 **的 App** 版本資料表中尋找產品版本。
 
 | 裝置模型        | 固件版本     | 已包含產品發行  |
 |:--------------------|:---------------------|:-------------------------|
