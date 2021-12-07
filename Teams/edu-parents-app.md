@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a991075ada39f5433e20230d6fabdfaebcb52aa9
-ms.sourcegitcommit: df26b435b2a7bb7561ddea74477f1ba988de9d8f
+ms.openlocfilehash: 0d875c6cd753e4c2e97477b3a3a88e0f071b5cbe
+ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61245555"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61322985"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>在 Microsoft Teams
 
@@ -33,21 +33,21 @@ ms.locfileid: "61245555"
 ### <a name="school-data-sync"></a>學校資料同步處理
 
 - 您需要學校資料同步處理 (SDS) ，以填入每個學生的家長和監護人 **相關連絡人** 資訊。
-  - [部署SDS](/schooldatasync/how-to-deploy-sds-using-sds-v2.1-csv-files)
+  - [部署SDS](/schooldatasync/parent-contact-sync)
 
 - 如果您需要協助為租使用者中的學生設定 SDS，以及填報家長和監護人相關連絡人，請聯絡 EDU 客戶成功小組：：
-  - 在 FastTrack 完成[RFA FastTrack。](https://www.microsoft.com/fasttrack?rtc=1)
+  - 在 FastTrack 完成[RFA 程式](https://www.microsoft.com/fasttrack?rtc=1)。
   - 在支援服務中 [開啟票證](https://aka.ms/sdssupport)。
 
 ### <a name="teams-admin-center---policies"></a>Teams系統管理中心 - 政策
 
 - 課程團隊擁有者必須已啟用Teams聊天功能。
-- 課程團隊擁有者必須擁有外部存取權，Teams **組織未管理的帳戶**。 
+- 課程團隊擁有者必須擁有外部存取權，Teams **組織未管理的帳戶**。
   - 您必須在租使用者層級和使用者層級啟用此功能。 租使用者層級設定可在系統管理中心的 **>外部存取** Teams找到。 您也可以透過 PowerShell 存取此設定。 使用者層級外部存取策略只能透過 PowerShell 存取。 請參閱下方的 PowerShell 命令以進一步提供指引。
 
-## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>使用組織未Teams的帳戶啟用外部存取
+## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>使用組織未管理Teams帳戶啟用外部存取
 
-1. 安裝最新的 PowerShell 模組Microsoft Teams預覽版。
+1. 安裝最新版 PowerShell Microsoft Teams預覽版。
 
     ```powershell
     Install-Module -Name PowerShellGet -Force -AllowClobber
@@ -61,17 +61,20 @@ ms.locfileid: "61245555"
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-系統預設會針對所有使用者層級的外部存取Teams使用者層級 () 帳戶啟用外部 `EnableTeamsConsumerAccess` 存取。 使用者必須啟用租使用者層級設定和使用者層級策略設定，使用者Teams未啟用組織管理的帳戶進行外部存取。 如果您不希望租使用者中的每個使用者都啟用此存取，您應該確定已停用租使用者層級設定、更新指派給使用者的使用者層級外部存取策略，然後啟用租使用者層級設定。
+系統預設會針對所有使用者層級的外部存取Teams使用者層級 () 帳戶啟用外部 `EnableTeamsConsumerAccess` 存取。 使用者必須啟用租使用者層級設定和使用者層級策略設定，使用者Teams組織未管理的帳戶進行外部存取。 如果您不希望租使用者中的每個使用者都啟用此存取，您應該確定已停用租使用者層級設定、更新指派給使用者的使用者層級外部存取策略，然後啟用租使用者層級設定。
 
 若要檢查哪些使用者層級的外部存取策略存在，以及指派給誰，您可以使用下列步驟：
     
 3. 檢查存在哪些使用者層級的外部存取策略。
 
     ```powershell
-    Get-CsExternalAccessPolicy -Include All
+    Get-CsExternalAccessPolicy
     ```
 
-4. 針對 "Global" 策略外的其他每一個策略，檢查哪些使用者已指派該策略。 注意：任何未指派特定策略的使用者都會回到 '全域'政策。 新增到租使用者的任何新使用者都會有指派的 "Global" 策略。
+4. 針對 "Global" 策略外的其他每一個策略，檢查哪些使用者已指派該策略。
+
+   > [!NOTE]
+   > 任何未指派特定策略的使用者都會回到 '全域'政策。 新增到租使用者的任何新使用者都會有指派的 "Global" 策略。
 
     ```powershell
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
