@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解支援Microsoft Teams 會議室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8524f1481c98425e726f902a76ce82ce536ed419
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: f700edf52c5280a7262d5f8dfcdc48b38acd7e1b
+ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306128"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61331114"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
@@ -68,7 +68,7 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
    |[使用 ASUS PC 的 Cresron Flex UC-MX50-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T)|Core i5|8 GB |128 GB |
    |[使用 ASUS PC 的 Cresron Flex UC-MX70-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|Core i5|8 GB |128 GB |
   |[Cresron Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 GB |128 GB |
-  |[使用 Logitech TAP 的Dell OptiPlex 7080](https://www.dell.com/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 GB |128 GB|
+  |[使用 Logitech TAP 的Dell OptiPlex 7080](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 GB |128 GB|
   |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
   |[HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
   |[HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB| 
@@ -131,7 +131,7 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
 |[Aver CAM 130](https://www.averusa.com/products/conference-camera/cam130) |0.0.7450.02 | &#x2714; |
 |[Aver VB130 相機聲音鍵](https://www.averusa.com/products/conference-camera/vb130) |0.0.7300.71 |
 |[Bose 視線 VB1](https://pro.bose.com/en_us/products/conferencing/videobars/bose-videobar-vb1.html?mc=25_PS_VB_BO_00_BI_&&msclkid=fc99b79880f714727a63e86ea0e5642a&utm_source=bing&utm_medium=cpc&utm_campaign=US%20-%20Brand_Videobar%20VB1_Exact&utm_term=bose%20videobar%20vb1&utm_content=Bose%20Videobar%20VB1&gclid=fc99b79880f714727a63e86ea0e5642a&gclsrc=3p.ds) |19.2|
-|[Biamp Devio SCR-20CX Web-Based具有天花板麥克風的會議中樞](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
+|[Biamp Devio SCR-20CX Web-Based帶天花板麥克風的會議中樞](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[Biamp Devio SCR-20TX Web-Based桌面麥克風的會議中樞](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
 |[Huddly 畫布](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
@@ -179,6 +179,8 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[YealinkUVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
 |[YealinkUVC40 一體式視區](https://www.yealink.com/product/usb-videobar-uvc40) |128.410.0.10|  
+|[YealinkUVC84](https://www.yealink.com/product/camera-uvc84) |262.410.0.10|
+|[YealinkUVC86]( https://www.yealink.com/product/camera-uvc86) |151.410.0.5|
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300)+</br></br> [Shure MXA 310 Table Array Mic ](https://www.shure.com/products/microphones/mxa310) | 4.1 |
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) + </br></br> [Shure MXA 910 with Intellimix Ceiling Array Mic](https://www.shure.com/products/microphones/mxa910) | 4.1|
 |[Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300)+</br></br> [舒爾 MXA 310 表格陣列麥克風 ](https://www.shure.com/products/microphones/mxa310) +</br></br> [MXN5W-C 天花板喇叭](https://www.shure.com/en-US/products/loudspeakers/mxn5)| P300 DSP：4.1.11 </br> MXA310 表格陣列麥克風：4.1.41 </br> MXN5W-C 喇叭：1.0.4 |
@@ -188,12 +190,12 @@ Microsoft Teams 會議室不同的會議室大小。 Teams 會議室會議室的
 |[使用 Intellimix Ceiling Array 麥克風的舒爾 MXA 910](https://www.shure.com/products/microphones/mxa910) + </br> [舒爾 Intellimix 會議室軟體](https://www.shure.com/products/software/intellimix_room) +</br> [Cresron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| 舒爾 Intellimix 會議室軟體：3.0.4.14 </br> 具有 Intellimix Ceiling Array 麥克風的舒爾 MXA 910：4.4.11 </br> 舒爾 MXN5-C 喇叭：1.2.1 </br> Cresron UC-C100-T：WINDOWS IOT 19h2/20h2 OS 版本與 4.8.31.0 的三維應用程式版本 </br> BIOS：ASUS Tek 電腦 INC 9934 8/27/2020 </br> CPU：i5-9500T CPU </br> 實體記憶體：8 GB RAM |
 |[Biamp Tesira Fore AVB VT4 Fixed audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect Ceiling 2 Microphone](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP：3.12.0.15  </br></br> TCC2：1.3.3 </br></br> EX-UBT：3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB RV4 音訊 DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA Ceiling 麥克風](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 天花板安裝式喇叭](https://www.biamp.com/products/tesira-speakers)| 音訊 FW 版本：3.15|
-|[Biamp TesiraFORTE AVB RV4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X (表格麥克風) ](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[前 UBT]() |音訊 FW 版本：3.15|
+|[Biamp TesiraFORTE AVB RV4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Parle TTM-X (麥克風) ](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[前 UBT]() |音訊 FW 版本：3.15|
 |[Bose ControlSpace EX-440C DSP + </br>Bose P2600A AmpLink Amplifier +</br> Sennheiser TCC2 Ceiling Microphone + </br> Bose EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |  |
 |[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink 功放 + Sennheiser TCC2 天花板麥克風 + </br> Bose DesignMax DM2C-P Ceiling 喇叭](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 功放 +</br> [Sennheiser TCC2 天花板麥克風](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP 天花板喇叭](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  | 
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink 功放+</br> [Sennheiser TCC2 天花板麥克風](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 天花板喇叭](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP：2.290  </br> P2600A：1.160  </br> TCC2：1.4.2  |
-|QSC Q-SYS Core ([110f、8](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/) [Flex、Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/)或[NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + [](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/) </br> [Sennheiser TCC2 天花板麥克風](https://en-us.sennheiser.com/tcc2) + </br> QSC 放大 ([SPA 系列](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) 或 [CX-Q](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/) 系列) + </br> [QSC 音訊設計系列喇叭](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> QSC IP 相機 ([PTZ-IP 20x60，PTZ-IP](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) [12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) 選擇性 + </br> [QSC Q-SYS I/O USB 橋接器選擇性](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) | QSC Q-SYS Core、PTZ-IP 相機和 I/O USB 橋接器：QSC Q-SYS Designer 9.0.1-2104.022 </br> Sennheiser TCC2 天花板麥克風：TCC2 - 1.5.1， Dante 1.2.0 </br> QSC 功放：N/A </br> QSC 聲音設計系列喇叭：N/A | 
+|QSC Q-SYS Core ([110f、8](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/) [Flex、Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/)或[NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + [](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/) </br> [Sennheiser TCC2 天花板麥克風](https://en-us.sennheiser.com/tcc2) + </br> QSC 放大 ([SPA 系列](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) 或 [CX-Q](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/) 系列) + </br> [QSC 音訊設計系列喇叭](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> QSC IP 相機 ([PTZ-IP 20x60，PTZ-IP](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) [12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)) 選擇性 + </br> [QSC Q-SYS I/O USB 橋接器選擇性](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) | QSC Q-SYS Core、PTZ-IP 相機和 I/O USB 橋接器：QSC Q-SYS Designer 9.0.1-2104.022 </br> Sennheiser TCC2 天花板麥克風：TCC2 - 1.5.1， Dante 1.2.0 </br> QSC 功放：N/A </br> QSC 聲音設計系列喇叭：N/A | 
 
 
 &Dagger; 客戶可以選擇 Dante 介面或 Biamp/Sennheiser 針對此套件建議的網路交換器。
