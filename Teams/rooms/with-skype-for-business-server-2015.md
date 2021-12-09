@@ -15,19 +15,18 @@ ms.collection:
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 請閱讀本主題，以瞭解如何使用 Microsoft Teams 會議室 部署商務用 Skype Server。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2990e1314ee851156bc11430ecf933fe31552117
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 702eb2128dd37980fd3fc76548638102d45d7af9
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615189"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355618"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>使用 Microsoft Teams 會議室 部署商務用 Skype Server
   
-本主題說明當您有單一樹Microsoft Teams 會議室部署時，如何新增裝置帳戶。
+本主題說明如何在擁有單一樹Microsoft Teams 會議室部署時新增資源帳戶。
   
 如果您有使用 Exchange 2013 SP1 或更新版及 商務用 Skype Server 2015 或更新版的單一林內部部署，則您可以使用提供的 Windows PowerShell 腳本來建立裝置帳戶。 如果您使用的是多林部署，您可以使用會產生相同結果的對等 Cmdlet。 本節將說明這些 Cmdlet。
-
   
 在您開始部署Microsoft Teams 會議室，請確定您擁有執行關聯的 Cmdlet 的許可權。
   
@@ -43,78 +42,76 @@ ms.locfileid: "58615189"
    Import-PSSession $sessLync
    ```
 
-   請注意，$strExchangeServer是 Exchange 伺服器的 FQDN (FQDN) ，而 $strLyncFQDN 是您 商務用 Skype Server 部署的 FQDN。
+   請注意，$strExchangeServer是 (伺服器 FQDN) 的Exchange功能變數名稱，$strLyncFQDN是您部署中的 FQDN 商務用 Skype Server功能變數名稱。
 
 2. 建立會話之後，您可以建立新信箱，並啟用為 RoomMailboxAccount，或變更現有會議室信箱的設定。 這會允許帳戶驗證Microsoft Teams 會議室。
 
     如果您要變更現有的資源信箱：
 
    ``` Powershell
-   Set-Mailbox -Identity 'PROJECTRIGEL01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
+   Set-Mailbox -Identity 'ConferenceRoome01' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password>
    -AsPlainText -Force)
    ```
 
    如果您要建立新資源信箱：
 
    ``` Powershell
-   New-Mailbox -UserPrincipalName PROJECTRIGEL01@contoso.com -Alias PROJECTRIGEL01 -Name "Project-Rigel-01" -Room
+   New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Alias ConferenceRoom01 -Name "Conference Room 01" -Room
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. 您可以在裝置帳戶Exchange各種屬性，以改善人員的會議體驗。 您可以在屬性區段查看需要設定哪些Exchange屬性。
+3. 您可以在資源帳戶Exchange各種Teams 會議室屬性，以改善人員的會議體驗。 您可以在屬性區段查看需要設定哪些Exchange屬性。
 
    ``` Powershell
-   Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
+   Set-CalendarProcessing -Identity ConferenceRoom01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
    $false -DeleteSubject $false -RemovePrivateProperty $false
-   Set-CalendarProcessing -Identity $acctUpn -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+   Set-CalendarProcessing -Identity ConferenceRoom01 -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams and Skype for Business meeting room!"
    ```
 
-4. 如果您決定密碼不會過期，您也可以使用 Cmdlet Windows PowerShell設定密碼。 請參閱密碼管理以瞭解更多資訊。
+4. 關閉資源帳戶的密碼到期。
 
    ``` Powershell
-   Set-AdUser $acctUpn -PasswordNeverExpires $true
+   Set-AdUser ConferenceRoom01@contoso.com -PasswordNeverExpires $true
    ```
 
-5. 啟用 Active Directory 中的帳戶，以便驗證Microsoft Teams 會議室。
+5. 啟用 Active Directory 中的資源帳戶，以便驗證Microsoft Teams 會議室。
 
    ``` Powershell
-   Set-AdUser $acctUpn -Enabled $true
+   Set-AdUser ConferenceRoom01@contoso.com -Enabled $true
    ```
 
-6. 在資料商務用 Skype Server上啟用Microsoft Teams 會議室 Active Directory 帳戶，以啟用商務用 Skype Server帳戶：
+6. 在資源商務用 Skype Server上啟用Microsoft Teams 會議室 Active Directory 帳戶，以啟用商務用 Skype Server帳戶：
 
    ``` Powershell
-   Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
-   -RegistrarPool LYNCPool15.contoso.com -Identity PROJECTRIGEL01
+   Enable-CsMeetingRoom -Identity ConferenceRoom01 -SipAddress sip:ConferenceRoom01@contoso.com -DomainController DC-ND-001.contoso.com
+   -RegistrarPool LYNCPool15.contoso.com 
    ```
 
-    您必須使用會話初始通訊協定 (SIP) 位址和網域控制站Project
+    將 `-DomainController` 和 `-RegistrarPool` 屬性變更為適合您環境的值。
 
-7. **選。** 您也可以為您的帳戶Microsoft Teams 會議室 PSTN (PSTN) 或接聽公用電話交換企業語音網路。 企業語音不是用戶端Microsoft Teams 會議室，但如果您想要用戶端的 PSTN 撥號功能Microsoft Teams 會議室，以下是啟用此功能的一些方式：
+7. **選。** 您也可以為您的帳戶Microsoft Teams 會議室 PSTN (PSTN) 公用電話交換企業語音網路。 企業語音不是您所需的Microsoft Teams 會議室，但如果您想要 PSTN 撥號功能Microsoft Teams 會議室，以下是啟用方式：
 
    ``` Powershell
-   Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
-   Set-CsMeetingRoom -DomainController DC-ND-001.contoso.com -Identity PROJECTRIGEL01 -EnterpriseVoiceEnabled $true
-   Grant-CsVoicePolicy -PolicyName VP1 -Identity PROJECTRIGEL01
-   Grant-CsDialPlan -PolicyName DP1 -Identity PROJECTRIGEL01
+   Set-CsMeetingRoom -Identity ConferenceRoom01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
+   Set-CsMeetingRoom -Identity ConferenceRoom01 -DomainController DC-ND-001.contoso.com -EnterpriseVoiceEnabled $true
+   Grant-CsVoicePolicy -Identity ConferenceRoom01 -PolicyName VP1
+   Grant-CsDialPlan -Identity ConferenceRoom01 -PolicyName DP1
    ```
 
-   同樣，您必須以您自己的資訊取代所提供的網域控制站和電話號碼範例。 參數值$true保持相同。
+   同樣，您必須以您自己的資訊取代所提供的網域控制站和電話號碼範例。 參數值$true保持相同。 您也需要取代語音策略和撥號方案策略名稱。
 
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>範例：內部部署Exchange商務用 Skype Server會議室帳戶設定
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>範例：內部部署和Exchange商務用 Skype Server會議室帳戶設定
 
 ``` Powershell
-New-Mailbox -Alias rigel1 -Name "Rigel 1" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force)
--UserPrincipalName rigel1@contoso.com
+New-Mailbox -Alias ConferenceRoom01 -Name "Conference Room 01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) -UserPrincipalName ConferenceRoom01@contoso.com
 
-Set-CalendarProcessing -Identity rigel1 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false
--RemovePrivateProperty $false
-Set-CalendarProcessing -Identity rigel1 -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
+Set-CalendarProcessing -Identity ConferenceRoom01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false
+Set-CalendarProcessing -Identity ConferenceRoom01 -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams and Skype for Business meeting room!"
 
-Enable-CsMeetingRoom -Identity rigel1@contoso.com -RegistrarPool cs3.contoso.com -SipAddressType EmailAddress
-Set-CsMeetingRoom -Identity rigel1 -EnterpriseVoiceEnabled $true -LineURI tel:+155555555555
-Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
-Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
+Enable-CsMeetingRoom -Identity ConferenceRoom01@contoso.com -RegistrarPool cs3.contoso.com -SipAddressType EmailAddress
+Set-CsMeetingRoom -Identity ConferenceRoom01 -EnterpriseVoiceEnabled $true -LineURI tel:+155555555555
+Grant-CsVoicePolicy -Identity ConferenceRoom01 -PolicyName dk
+Grant-CsDialPlan -Identity ConferenceRoom01 -PolicyName e15dp2.contoso.com
 ```
 
 ## <a name="related-topics"></a>相關主題

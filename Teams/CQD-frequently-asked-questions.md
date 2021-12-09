@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: 閱讀常見問題 (常見問題) 常見問題Microsoft Teams通話品質儀表板 (CQD) 。
-ms.openlocfilehash: 11b7691596192dbc96cd9deb7a0b64e363f6af4b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 閱讀常見問題 (常見問題) 常見問題Microsoft Teams通話品質儀表板 (常見問題) 。
+ms.openlocfilehash: 4d0d0bbbc35ac130755e61075408e9de80f1c09c
+ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616299"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "61362540"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質儀表板 (CQD) 常見問題 (常見問題) 
 
@@ -38,27 +38,29 @@ ms.locfileid: "58616299"
 
 [為什麼我在 CQD 中看不到 EUII？](#why-cant-i-see-euii-in-cqd)
 
-[當我只篩選商務用 Skype時，為什麼在 CQD 中Teams資訊？](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[當我只篩選商務用 Skype時，為什麼我在 CQD 中看到Teams資訊？](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [為什麼我的自訂報表最多隻會返回 10，000 列，當我知道應該有更多的專案時？](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
 [為什麼 VPN Wi-Fi顯示為有線，而不是 Wi-Fi？](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
+[我在通話中開啟了以策略為基礎的錄製Teams現在對等通話被標示為會議 --發生什麼事？](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
+
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>如果一或多個會議參與者體驗不佳，CQD 為何將通話標記為「良好」？
 
 請查看 CQD 用於資料流程分類 [的規則](stream-classification-in-call-quality-dashboard.md)。
  
-對於音訊流，根據通話長度計算平均值的五個分類器之任何一個，可能都位於「良好」參數內。 這不表示使用者沒有遇到導致音訊輸出、靜態或干擾的問題。 
+對於音訊流，根據通話長度計算平均值的五個分類器之任何一個，可能都位在「良好」參數內。 這不表示使用者沒有遇到導致音訊輸出、靜態或干擾的問題。 
 
 若要判斷它是網路問題，請看看會話的平均值與最大值之間的增量。 最大值是會話期間偵測及報告的最大值。
  
-以下是如何針對此情況進行疑難排解的範例。 假設您在通話期間進行網路追蹤，且前 20 分鐘沒有遺失封包，但封包有 1.5 秒的間隔，然後適用于通話的其餘部分。 即使 <Wireshark 追蹤 RTP 分析 (封包) ，平均會減少 10% (0.1。 什麼是最大封包遺失？ 5 秒期間 1.5 秒為 30%， (0.3 秒) 。 這是否發生在 5 秒的抽樣期間 (或可能分割為 5 秒的) ？
+以下是如何針對此情況進行疑難排解的範例。 假設您在通話期間進行網路追蹤，且前 20 分鐘沒有遺失封包，但封包有 1.5 秒的間隔，然後適用于通話的其餘部分。 即使 Wireshark 追蹤 RTP 分析<封包 (0.1，) 10% 的平均值。 什麼是最大封包遺失？ 5 秒期間 1.5 秒為 30%， (0.3 秒) 。 這是否發生在 5 秒的抽樣期間 (或可能分割為 5 秒的) ？
  
 如果網路度量在平均值和最大值中看起來不錯，請尋找其他遙測資料： 
 - 檢查 CPU 不足事件比，查看偵測到的可用 CPU 資源是否不足，並造成品質不佳。 
 - 音訊裝置是否以半雙面模式防止麥克風接近喇叭而收到意見回饋？ 
 - 檢查裝置半雙面 AEC 事件比。 當插入集線器或固定座時，裝置是否因為 USB 音訊輸出而產生雜訊或靜態問題？。  
-- 檢查裝置故障和麥克風問題事件比。 裝置本身是否正常運作？  
+- 檢查裝置問題與麥克風問題事件比。 裝置本身是否正常運作？  
 - 檢查捕獲和呈現裝置無法運作的事件比率。
 
 
@@ -72,7 +74,7 @@ ms.locfileid: "58616299"
 
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>為什麼我在量值上看到最多 0.2% 的通話和使用者計數值差異，以及如何取得最準確的音量？ 
 
-若要計算通話計數和使用者計數測量，會針對資料集中的通話或使用者識別碼執行不同的 countif 運算。 在大型資料集上，不同 countif 運算所固有的誤差最高為 0.2%。 針對最精確的音量，您應該仰賴資料流程計數量詞，因為它們不仰賴這個不同的 countif 運算。 篩選以降低資料量可能會減少錯誤，但可能無法排除不同通話和使用者計數中的錯誤來源。 請參閱 [通話品質儀表板](dimensions-and-measures-available-in-call-quality-dashboard.md) 中可用的維度和度量，其中量值會受到影響。
+若要計算通話計數和使用者計數測量，會針對資料集中的通話或使用者識別碼執行不同的 countif 運算。 在大型資料集上，不同 countif 運算所固有的誤差高達 0.2%。 針對最精確的音量，您應該仰賴資料流程計數量詞，因為它們不仰賴這個不同的 countif 運算。 篩選以降低資料量可能會減少錯誤，但可能無法排除不同通話和使用者計數中的錯誤來源。 請參閱 [通話品質儀表板](dimensions-and-measures-available-in-call-quality-dashboard.md) 中可用的維度和度量，其中量值會受到影響。
 
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>為什麼我在 CQD 中看不到 EUII？
@@ -80,13 +82,13 @@ ms.locfileid: "58616299"
 這些系統管理員角色可以存取 CQD，但他們無法查看 EUII (使用者識別) ：
 
 - Microsoft 365報表閱讀程式
-- Teams通訊支援專家
+- Teams通訊支援專員
 
 若要深入瞭解可存取 CQD 的角色 ，包括 EUII，請參閱指派角色[以存取 CQD。](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
 
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>當我只篩選商務用 Skype時，為什麼在 CQD 中Teams資訊？
 
-當您只在 CQD Teams中篩選 (isTeams = 1) 時，您篩選的是第一個端點Teams。  如果第 *二個* 端點商務用 Skype，該資訊會顯示在 CQD 報告中。
+當您只在 CQD Teams中篩選 (isTeams = 1) 時，您篩選的是第一個端點為 Teams 的所有Teams。 如果第 *二個* 端點商務用 Skype，該資訊會顯示在 CQD 報告中。
 
 CQDv2 和 CQDv3 的總數一定會不同，因為 CQDv3 將會有 CQDv2 不會有的新案例。 這就是為什麼比較匯總總計或匯總匯總數位時，如果沒有篩選，就會有這些預期的差異。  
 
@@ -98,11 +100,15 @@ CQDv2 和 CQDv3 的總數一定會不同，因為 CQDv3 將會有 CQDv2 不會�
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>為什麼我的自訂報表最多隻會返回 10，000 列，當我知道應該有更多的專案時？
 
-CQD 是專為摘要資料查詢所設計，並非專為數據匯出所設計。 建議您盡可能調整報表的重組，以防止超過 10，000 列的限制。 首先，使用更廣泛的較低基數維度來查看 KPI，例如月、年、日期、地區、國家/地區等。您可以在那裡向下向下切入到愈高基數維度。 說明台Location-Enhanced報表都提供此向下切入工作流程的範例。
+CQD 是專為摘要資料查詢所設計，並非專為數據匯出所設計。 建議您盡可能調整報表的重組，以防止超過 10，000 列的限制。 首先，使用更廣泛的較低基數維度來查看 KPI，例如月、年、日期、地區、國家/地區等。 您可以在那裡向下向下切入到愈高基數維度。 說明台Location-Enhanced報表都提供此向下切入工作流程的範例。
 
-### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>為什麼 VPN Wi-Fi顯示為有線而非 Wi-Fi？
+### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>為什麼 VPN Wi-Fi會顯示為有線而非 Wi-Fi？
 
-這是預期行為 。 VPN 廠商建立了虛擬乙太網路介面卡，視為有線連接。 由於未正確標示，作業系統不知道它是 WiFi 連接，並報告為有線。
+這是預期的行為。 VPN 廠商建立了虛擬乙太網路介面卡，視為有線連接。 由於未正確標示，作業系統不知道它是一個Wi-Fi連接，並報告為有線。
+
+### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>我在通話中開啟了以策略為基礎的錄製Teams現在對等通話被標示為會議 --發生什麼事？
+
+這是在系統啟用以策略為基礎的錄製時Microsoft Teams。 以策略為基礎的錄製會使用 Teams 部署在 Microsoft Azure 中的錄製器 Bot 來為合規性目的Microsoft Azure會議內容。 由於錄製器 Bot 本身是通話的一方，因此通話不再是對等通話，而是多方通話。 多方通話會根據電話Microsoft Teams分類為會議，因此當您在 CQD 和其他通話品質工具中查看這些通話時，會以這類方式表示。
 
 ## <a name="related-articles"></a>相關文章
 
@@ -110,7 +116,7 @@ CQD 是專為摘要資料查詢所設計，並非專為數據匯出所設計。 
 
 [什麼是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[在 CQD (設定通話品質儀表板) ](turning-on-and-using-call-quality-dashboard.md)
+[設定通話品質儀表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
 [Upload租使用者和建築物資料](CQD-upload-tenant-building-data.md)
 

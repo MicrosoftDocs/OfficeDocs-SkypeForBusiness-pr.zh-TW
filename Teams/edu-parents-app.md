@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d875c6cd753e4c2e97477b3a3a88e0f071b5cbe
-ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
+ms.openlocfilehash: 4865372f442160734fec980428c6f6309cc0ad7f
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61322985"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355742"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>在 Microsoft Teams
 
@@ -33,10 +33,10 @@ ms.locfileid: "61322985"
 ### <a name="school-data-sync"></a>學校資料同步處理
 
 - 您需要學校資料同步處理 (SDS) ，以填入每個學生的家長和監護人 **相關連絡人** 資訊。
-  - [部署SDS](/schooldatasync/parent-contact-sync)
+  - [部署SDS](/schooldatasync/parents-and-guardians-in-sds)
 
 - 如果您需要協助為租使用者中的學生設定 SDS，以及填報家長和監護人相關連絡人，請聯絡 EDU 客戶成功小組：：
-  - 在 FastTrack 完成[RFA 程式](https://www.microsoft.com/fasttrack?rtc=1)。
+  - 在 FastTrack[完成 RFA FastTrack。](https://www.microsoft.com/fasttrack?rtc=1)
   - 在支援服務中 [開啟票證](https://aka.ms/sdssupport)。
 
 ### <a name="teams-admin-center---policies"></a>Teams系統管理中心 - 政策
@@ -45,7 +45,7 @@ ms.locfileid: "61322985"
 - 課程團隊擁有者必須擁有外部存取權，Teams **組織未管理的帳戶**。
   - 您必須在租使用者層級和使用者層級啟用此功能。 租使用者層級設定可在系統管理中心的 **>外部存取** Teams找到。 您也可以透過 PowerShell 存取此設定。 使用者層級外部存取策略只能透過 PowerShell 存取。 請參閱下方的 PowerShell 命令以進一步提供指引。
 
-## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>使用組織未管理Teams帳戶啟用外部存取
+## <a name="enabling-external-access-with-teams-accounts-not-managed-by-an-organization"></a>使用組織未Teams的帳戶啟用外部存取
 
 1. 安裝最新版 PowerShell Microsoft Teams預覽版。
 
