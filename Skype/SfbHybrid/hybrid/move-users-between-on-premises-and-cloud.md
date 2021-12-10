@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：在內部部署中為混合式啟用的商務用 Skype Server，您可以在內部部署環境與雲端之間移動使用者。
-ms.openlocfilehash: 0c13f29cf2773afb170bb7be20bb2f95c5d13e6c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5d5f14cfdb5de2e11c95a2532900dfa3fcf669a1
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589215"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61410704"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>在內部部署和雲端之間移動使用者
 
@@ -34,13 +34,13 @@ ms.locfileid: "58589215"
 - 位於內部部署的使用者會與內部部署商務用 Skype 伺服器互動。
 - 位於線上的使用者可能會與 Teams 服務互動。
 
-*Teams 使用者本身就擁有商務用 Skype 首頁，不論他們是否使用商務用 Skype。* 如果您有內部部署商務用 Skype 同時使用 Teams (並排) 的使用者，則這些使用者位於內部部署。 在內部部署商務用 Skype 的 Teams 使用者無法從其 Teams 用戶端與商務用 Skype 使用者互動，也不能從 Teams 與同盟組織中的使用者通訊。 這類功能只有在使用者從商務用 Skype 內部部署移至線上，且進行 TeamsOnly 時，才會完全可用。 強烈建議您將使用者移至 TeamsOnly 模式，以確保所有傳入聊天和通話的路由都位於其 Teams 用戶端。 如需詳細資訊，請參閱[使用 Teams 搭配商務用 Skype 之組織的商務用 Skype 和遷移與互通性指南](/microsoftteams/migration-interop-guidance-for-teams-with-skype) [Teams 共存](/microsoftteams/coexistence-chat-calls-presence)。
+*Teams 使用者本身商務用 Skype 首頁，不論他們是否使用商務用 Skype。* 如果您有內部部署商務用 Skype 同時使用 Teams (並排) 的使用者，則這些使用者位於內部部署。 在內部部署商務用 Skype 的 Teams 使用者無法從其 Teams 用戶端與商務用 Skype 使用者互動，也不能從 Teams 與同盟組織中的使用者通訊。 這類功能只有在使用者從商務用 Skype 內部部署移至線上，且進行 TeamsOnly 時，才會完全可用。 強烈建議您將使用者移至 TeamsOnly 模式，以確保所有傳入聊天和通話的路由都位於其 Teams 用戶端。 如需詳細資訊，請參閱[使用 Teams 搭配商務用 Skype 之組織的商務用 Skype 和遷移與互通性指南](/microsoftteams/migration-interop-guidance-for-teams-with-skype) [Teams 共存](/microsoftteams/coexistence-chat-calls-presence)。
 
 ## <a name="prerequisites"></a>必要條件
 
 將使用者移至 TeamsOnly 模式的必要條件：
 
-- 組織必須正確設定 Azure AD 連線，並依照[Configure AZURE ad 連線](configure-azure-ad-connect.md)中所述，同步處理使用者的所有相關屬性。
+- 組織必須正確設定 Azure AD 連線，並同步處理使用者的所有相關屬性（如[設定 Azure AD 連線](configure-azure-ad-connect.md)所述）。
 - 必須設定商務用 Skype 混合式，如[Configure 商務用 Skype 混合](configure-federation-with-skype-for-business-online.md)式中所述。
 - 使用者必須已獲指派授權 Teams 和商務用 Skype 線上 (方案 2) 。 商務用 Skype 線上撤銷後，仍然需要商務用 Skype 線上授權。  此外：
     - 如果使用者已在內部部署中啟用電話撥入式會議，依預設，使用者在線上移動使用者之前，還必須在 Teams 中指派音訊會議授權。 使用者一旦移轉到雲端，就會在雲端中佈建 [音訊會議]。 如果因某些原因而想要將使用者移至雲端，但不使用音訊會議功能，您可以在 `Move-CsUser` 中指定 `BypassAudioConferencingCheck` 參數，以覆寫此勾選。
@@ -70,7 +70,7 @@ ms.locfileid: "58589215"
 
 若要在內部部署與雲端之間移動使用者，您必須在內部部署商務用 Skype Server 環境和 Teams 組織中使用具有足夠許可權的帳戶。 您可以使用一個具有所有必要許可權的帳戶，也可以使用兩個帳戶，在這種情況下，您可以使用內部部署認證來存取內部部署工具，然後在這些工具中，您會為 Teams 系統管理帳戶提供額外的認證。  
 
-- 在內部部署環境中，執行移動的使用者必須具有商務用 Skype Server 中的 CSServerAdministrator 角色。
+- 在內部部署環境中，執行移動的使用者必須具備商務用 Skype Server 中的 CSServerAdministrator 和 CsUserAdministrator 角色。
 - 在 Teams 中，執行移動的使用者必須符合下列其中一個條件：
   - 使用者是全域系統管理員角色的成員。
   - 使用者是 Teams 管理員和使用者管理員角色的成員。
@@ -78,7 +78,7 @@ ms.locfileid: "58589215"
 
     > [!Important]
     > - 如果您使用商務用 Skype 系統管理員控制台，系統會提示您使用適當的角色為 Microsoft 365 帳戶提供認證，如上所述。 您必須提供一個以 onmicrosoft.com 結尾的帳戶。 如果無法做到，請使用 Move-CsUser Cmdlet。
-    >- 如果您是在 PowerShell 中使用 Move-CsUser，您可以使用 onmicrosoft.com 中的任何內部部署帳戶，也可以使用任何已同步處理至 Azure AD 的內部部署帳戶，前提是您也在 Cmdlet 中指定 HostedMigrationOverrideUrl 參數。 裝載的遷移覆寫 URL 的值為下列 URL: 的 variant。 https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>在上述 URL 中，以兩個或三個字元取代 XX，如下所示：
+    >- 如果您是在 PowerShell 中使用 Move-CsUser，您可以使用 onmicrosoft.com 中的任何內部部署帳戶，也可以使用任何已同步處理至 Azure AD 的內部部署帳戶，前提是您也可以在 Cmdlet 中指定 HostedMigrationOverrideUrl 參數。 裝載的遷移覆寫 URL 的值為下列 URL: 的 variant。 https://adminXX.online.lync.com/HostedMigration/hostedmigrationService.svc<br>在上述 URL 中，以兩個或三個字元取代 XX，如下所示：
     >   - 在 Teams PowerShell 會話中，執行下列 Cmdlet：<br>`Get-CsTenant|ft identity`
     >   - 產生的值會是下列格式：<br>`OU=<guid>,OU=OCS Tenants,DC=lyncXX001,DC=local`
     >   - 這兩位數的程式碼是區段中包含的 XX，DC = lyncXX001。 如果是兩個字元的代碼，它會是數位後接數位 (例如 0a) 。 如果是三個字元的代碼，它會是兩個字母后接數位 (例如 jp1) 。 在所有情況下，您會在 XX 碼之後立即看到001。

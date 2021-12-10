@@ -18,12 +18,12 @@ description: 瞭解如何設定 Microsoft 通話方案電話系統直接路由�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e7b49fcde0dba2a37eb4b08daeed324a9155dc
-ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
+ms.openlocfilehash: c762ccb2aba8c8ccad531573c37f258fa4605a9d
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/10/2021
-ms.locfileid: "61401917"
+ms.locfileid: "61410714"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
@@ -191,7 +191,7 @@ Azure 地圖用於位置型服務。 當您使用系統管理中心輸入緊急M
 
 - **緊急通話路由原則 - 僅適用于直接路由**。 此策略會設定緊急號碼、每個號碼的遮罩 ，以及每個號碼的 PSTN 路由。 您可以將此策略指派給使用者、網路網站或兩者。 若要深入瞭解，請參閱管理 [直接路由的緊急通話路由策略](manage-emergency-call-routing-policies.md)。  
 
-    (通話方案及接線連線使用者會根據使用者的通話或使用地點，自動使用國家/地區緊急號碼撥打Microsoft 365 Office 365號碼。) 
+    (通話方案與接線連線使用者會根據使用者的通話或使用地點，自動使用國家/地區緊急號碼撥打Microsoft 365 Office 365號碼。) 
 
 - **緊急通話原則 - 適用于通話方案、連線和直接路由。** 此策略會設定撥打緊急電話時的安全性電話台通知體驗。 您可以設定要通知哪些人，以及如何通知他們。 例如，若要自動通知貴組織的安全電話台，讓他們接聽緊急電話。  此策略可以指派給使用者或網路網站，也可以同時指派給使用者或網路網站。 若要深入瞭解，請參閱管理 Teams 中的[緊急Teams。](manage-emergency-calling-policies.md)
 
@@ -248,7 +248,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 | :------------|:-------|
 | 全球多重租使用者 | 可在所有用戶端Teams使用 |
 | GCC | 可在所有用戶端Teams使用 |
-| GCCH | 可在桌面Teams使用 |
+| GCCH | -可在桌面Teams使用 <br> -適用于Teams用戶端 <br> -待處理Teams電話 |
 | 國防部 | 待處理 |
 
  ## <a name="related-topics"></a>相關主題

@@ -24,13 +24,13 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 - seo-marvel-mar2020
-description: 瞭解如何設定通話方案，包括查看您地區可用的方案、購買 &指派授權、取得電話號碼，以及新增緊急&位址。
-ms.openlocfilehash: b7593155711597ae94d2db97573c6b6ba7afcc18
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 瞭解如何設定通話方案，包括查看您地區可用的方案、&指派授權、取得電話號碼，以及新增緊急&位址。
+ms.openlocfilehash: 594304fdc9aa95d283d6366a27aff48d5e4a1c91
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725722"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61410694"
 ---
 # <a name="set-up-calling-plans"></a>設定通話方案
 
@@ -39,22 +39,22 @@ ms.locfileid: "58725722"
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>步驟 1：瞭解您的國家/地區是否提供通話方案
 前往音訊[](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)會議與通話方案的國家/地區可用性，然後選取您的國家/地區以取得通話方案的可用性資訊，以及音訊會議、電話系統、付費和免付費號碼，以及通訊信用額度的資訊。
 
-如果您的國家/地區無法使用通話方案，請考慮使用直接路由將您的內部部署電話基礎結構連接到電話系統。  詳細資訊，請參閱直接路由[電話系統。](direct-routing-landing-page.md)
+如果您的國家/地區無法使用通話方案，請考慮使用直接路由將您的內部部署電話基礎結構連接到電話系統。  詳細資訊請參閱直接路由[電話系統。](direct-routing-landing-page.md)
   
 ## <a name="step-2-buy-and-assign-licenses"></a>步驟 2：購買及指派授權
-1. 如果您的電話系統方案或Microsoft 365不包含Office 365，您可能需要購買電話系統附加元件授權。  在您擁有授權 **電話系統，** 請購買適用于 Microsoft 365 [或 Office 365 的通話Office 365。](calling-plans-for-office-365.md) 請參閱[Microsoft Teams附加元件授權，](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)並購買授權和計畫。 
+1. 如果您的電話系統方案或Microsoft 365不包含Office 365功能，您可能需要購買電話系統附加元件授權。  在您擁有授權 **電話系統，** 請購買適用于 [Microsoft 365 或 Office 365 的通話Office 365。](calling-plans-for-office-365.md) 請參閱[Microsoft Teams附加元件授權，](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)並購買授權和計畫。 
     
     > [!TIP]
     > **電話系統** 或Microsoft 365通話方案Office 365一起，因此若要查看購買通話方案的選項，您必須先擁有 **電話系統授權。**
   
-2. 首先指派授權，然後將通話方案指派給貴組織的人。 請參閱[指派Microsoft Teams附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+2. 首先指派授權，然後指派通話方案給貴組織的人。 請參閱[指派Microsoft Teams附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
     
 ## <a name="step-3-get-phone-numbers"></a>步驟 3：取得電話號碼
 取得新使用者號碼的方法有三種：
 
 - **使用 Teams系統管理中心。** 針對部分國家/地區，您可以使用系統管理中心取得使用者Teams，請參閱取得使用者[的電話號碼](getting-phone-numbers-for-your-users.md)。
     
-- **轉移現有的號碼。** 您可以將現有號碼從目前的服務提供者或電話電信公司移轉或移轉Microsoft 365或Office 365。 若要詳細資訊，請參閱[將電話號碼](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)轉接Teams或[管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
+- **轉移現有的號碼。** 您可以將現有號碼從目前的服務提供者或電話電信公司移轉或移轉Microsoft 365或Office 365。 若要詳細資訊，請參閱[將電話號碼](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)轉接Teams或管理貴[組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
   
 - **使用表單要求新號碼。** 有時候 (視您的國家/地區) 您將無法使用 Teams 系統管理中心取得新的電話號碼，或者您需要特定的電話號碼或區碼。 若是如此，您將需要下載表單並將它傳送給我們。 詳細資訊，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
 
@@ -74,23 +74,35 @@ ms.locfileid: "58725722"
 
 ## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>步驟 6：告知使用者他們的新電話號碼
 
-Microsoft 建議您傳送郵件，或是使用您企業偏好的通訊方式，告知人員他們的新電話號碼。
+Microsoft 建議傳送郵件，或使用您企業偏好的通訊方式，告知人員他們的新電話號碼。
  
 在 **Microsoft Teams** 中，使用者可以按一下左側流覽 **中的通話來** 查看其電話號碼。 電話號碼會顯示在撥號鍵臺上方。
 
 ![按一下通話後可用選項的螢幕擷取畫面。](media/teams-phone-number.png)
 
+## <a name="run-a-self-diagnostics-tool"></a>執行自我診斷工具
+
+Microsoft 365系統管理員使用者可以存取可在租使用者內執行診斷，以確認使用者已正確配置為撥打或接聽 PSTN 通話。 
+
+> [!NOTE]
+>這項功能不適用於政府、Microsoft 365或由世紀互聯提供的 Microsoft 365 Microsoft 365使用。
+
+選取執行測試，如下所示。 這會在中心填入Microsoft 365 系統管理診斷。
+>> [!div class="nextstepaction"]
+>> [執行測試：Teams PSTN](https://aka.ms/TeamsPSTNDiag)
+
+診斷會執行大量的驗證。
 
 ## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>您想要自動指派電話號碼嗎？
 <a name="bkmk_add_addresses"> </a>
 
-如果您知道Windows PowerShell，您可以使用下列 Cmdlet 來自動指派電話號碼給使用者。 
+如果您知道Windows PowerShell，您可以使用下列 Cmdlet 自動指派電話號碼給使用者。 
   
 - [Get-CsOnlineTelephoneNumber：](/powershell/module/skype/Get-CsOnlineTelephoneNumber?view=skype-ps)從 Business Voice Directory 中取得電話號碼。
     
 - [Set-CsOnlineVoiceUser：](/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)設定電話號碼。
     
-若要深入瞭解，請參閱[powerShell Teams概觀](teams-powershell-overview.md)。
+若要深入瞭解，請參閱[PowerShell Teams概觀](teams-powershell-overview.md)。
   
 
 ## <a name="related-topics"></a>相關主題
