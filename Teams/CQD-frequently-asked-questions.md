@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: 閱讀常見問題 (常見問題) 常見問題Microsoft Teams通話品質儀表板 (常見問題) 。
-ms.openlocfilehash: 4d0d0bbbc35ac130755e61075408e9de80f1c09c
-ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
+ms.openlocfilehash: 81c6478147e0959ca97b67ee0f01632478c0eb38
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "61362540"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401897"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>通話品質儀表板 (CQD) 常見問題 (常見問題) 
 
@@ -37,6 +37,8 @@ ms.locfileid: "61362540"
 [為什麼我在量值上看到最多 0.2% 的通話和使用者計數值差異，以及如何取得最準確的音量？ ](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
 
 [為什麼我在 CQD 中看不到 EUII？](#why-cant-i-see-euii-in-cqd)
+
+[我嘗試使用 CQD 做為使用方式類型報表，併發現部分資料不完整 ，為什麼？](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
 
 [當我只篩選商務用 Skype時，為什麼我在 CQD 中看到Teams資訊？](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
@@ -58,7 +60,7 @@ ms.locfileid: "61362540"
  
 如果網路度量在平均值和最大值中看起來不錯，請尋找其他遙測資料： 
 - 檢查 CPU 不足事件比，查看偵測到的可用 CPU 資源是否不足，並造成品質不佳。 
-- 音訊裝置是否以半雙面模式防止麥克風接近喇叭而收到意見回饋？ 
+- 音訊裝置是否因為麥克風太接近喇叭而進入半雙面模式以防止意見回饋？ 
 - 檢查裝置半雙面 AEC 事件比。 當插入集線器或固定座時，裝置是否因為 USB 音訊輸出而產生雜訊或靜態問題？。  
 - 檢查裝置問題與麥克風問題事件比。 裝置本身是否正常運作？  
 - 檢查捕獲和呈現裝置無法運作的事件比率。
@@ -86,29 +88,29 @@ ms.locfileid: "61362540"
 
 若要深入瞭解可存取 CQD 的角色 ，包括 EUII，請參閱指派角色[以存取 CQD。](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>當我只篩選商務用 Skype時，為什麼在 CQD 中Teams資訊？
+### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>我嘗試使用 CQD 做為使用方式類型報表，併發現部分資料不完整 ，為什麼？
 
-當您只在 CQD Teams中篩選 (isTeams = 1) 時，您篩選的是第一個端點為 Teams 的所有Teams。 如果第 *二個* 端點商務用 Skype，該資訊會顯示在 CQD 報告中。
+通話品質管制工具 ，例如 CQD、通話分析、CallRecord Graph API 和即時分析是以診斷遙測為基礎。 我們在通話品質管制工具Teams中顯示的資訊，與從參與通話的用戶端收到的遙測資料一樣完整。 我們可能無法收到完整的遙測資料的原因有幾個，例如網路中斷、防火牆或 Proxy [配置錯誤](/microsoft-365/enterprise/urls-and-ip-address-ranges.md)。 我們持續努力改善用戶端將遙測Teams服務的可靠性與復原能力。
 
-CQDv2 和 CQDv3 的總數一定會不同，因為 CQDv3 將會有 CQDv2 不會有的新案例。 這就是為什麼比較匯總總計或匯總匯總數位時，如果沒有篩選，就會有這些預期的差異。  
+基於這一點，建議您不要仰賴通話品質管制工具來報告使用方式。 Teams系統管理中心提供一系列使用方式報告，而且[](teams-analytics-and-reports/teams-reporting-reference.md)會議出席報告可直接從[](teams-analytics-and-reports/meeting-attendance-report.md)Teams用戶端使用。
 
-根據客戶案例，如果 SFB 2019 與資料連線器) 、Skype Bot 通話 (AA、CVI、VDI) 、Live Events 和 PSTN 通話一起使用，則 CQDv3 會包含 SFB 2019 內部部署通話 (。 客戶可用的案例/功能，但他們的資料不在 CQD V2 中。
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>當我只篩選商務用 Skype時，為什麼我在 CQD 中看到Teams資訊？
 
-例如，預期您的客戶和您會看到 200，000 個音訊資料流程，而 CQD V2 摘要報告中有 5000 個失敗，而 300，000 個音訊資料流程有 5500 個失敗 (來自 2019 的隨選通話、CVI 通話、PSTN 通話等) CQD V3。
+當您篩選Teams在 CQD (isTeams = 1) ，您篩選的是第一個端點為 Teams 的所有Teams。  如果第 *二個* 端點商務用 Skype，該資訊會顯示在 CQD 報告中。 根據客戶的情況，CQD 可能會包含 2019 商務用 Skype Server通話資料連線器的組[](/skypeforbusiness/hybrid/plan-call-data-connector.md)組。 它也可能包含Skype Bot (AA、CVI、VDI) 、Live Events 和 PSTN 通話。
 
-若要判斷是否有任何意外的差異，您必須查看整體資料的各種明細。  與目的比較。  根據使用者代理程式類別組來剪下資料是我們建議的第一件事。  *第一個* 產品 *和第二個產品* 也是很好的切線機。  
+只要篩選維度 ，商務用 Skype例如第一個使用者代理類別和第二個使用者代理類別 ，以移除查詢 *中* 的資訊。 您也可以使用使用者 *代理類別組* ，將第一個和第二個維度合併成單一篩選。
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>為什麼我的自訂報表最多隻會返回 10，000 列，當我知道應該有更多的專案時？
 
 CQD 是專為摘要資料查詢所設計，並非專為數據匯出所設計。 建議您盡可能調整報表的重組，以防止超過 10，000 列的限制。 首先，使用更廣泛的較低基數維度來查看 KPI，例如月、年、日期、地區、國家/地區等。 您可以在那裡向下向下切入到愈高基數維度。 說明台Location-Enhanced報表都提供此向下切入工作流程的範例。
 
-### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>為什麼 VPN Wi-Fi會顯示為有線而非 Wi-Fi？
+### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>為什麼 VPN Wi-Fi顯示為有線，而不是 Wi-Fi？
 
-這是預期的行為。 VPN 廠商建立了虛擬乙太網路介面卡，視為有線連接。 由於未正確標示，作業系統不知道它是一個Wi-Fi連接，並報告為有線。
+這是預期的行為。 VPN 廠商建立了虛擬乙太網路介面卡，視為有線連接。 由於未正確標示，作業系統不知道它是有線Wi-Fi並報告為有線。
 
 ### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>我在通話中開啟了以策略為基礎的錄製Teams現在對等通話被標示為會議 --發生什麼事？
 
-這是在系統啟用以策略為基礎的錄製時Microsoft Teams。 以策略為基礎的錄製會使用 Teams 部署在 Microsoft Azure 中的錄製器 Bot 來為合規性目的Microsoft Azure會議內容。 由於錄製器 Bot 本身是通話的一方，因此通話不再是對等通話，而是多方通話。 多方通話會根據電話Microsoft Teams分類為會議，因此當您在 CQD 和其他通話品質工具中查看這些通話時，會以這類方式表示。
+這是在系統啟用以策略為基礎的錄製時Microsoft Teams。 基於策略的錄製會使用 Teams 中的錄製Microsoft Azure，以捕獲會議內容以用於合規性用途。 在通話品質管制中，「對等」是媒體流量流程的描述，而非使用者之間的互動。 由於錄製器 Bot 本身是通話的一方，因此通話不再是對等通話，而是多方通話。 多方通話會根據電話Microsoft Teams分類為會議，因此當您在 CQD 和其他通話品質工具中查看這些通話時，會以這類方式表示。
 
 ## <a name="related-articles"></a>相關文章
 
@@ -116,7 +118,7 @@ CQD 是專為摘要資料查詢所設計，並非專為數據匯出所設計。 
 
 [什麼是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
-[設定通話品質儀表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
+[在 CQD (設定通話品質儀表板) ](turning-on-and-using-call-quality-dashboard.md)
 
 [Upload租使用者和建築物資料](CQD-upload-tenant-building-data.md)
 

@@ -21,19 +21,19 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c25299a0f0df6863bcb1fbaa4627b891a6e860a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: b378ee327f2ba284a348ff7458c617fed71541c6
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536754"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401887"
 ---
-# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>適用于直接路由的 (分支裝置) SBA 裝置
+# <a name="survivable-branch-appliance-sba-for-direct-routing"></a>適用于直接路由的 SBA (可) 分支裝置
 
 
 有時候，使用直接路由連接到系統Microsoft 電話網站可能會遇到網際網路中斷。
 
-假設客戶網站 ，稱為分支，暫時無法透過直接路由連接到 Microsoft 雲端。 不過，分支內的內部網路仍然功能完整，使用者可以連接到提供 PSTN (SBC) 會話邊界控制器。
+假設客戶網站 -稱為分支 -暫時無法透過直接路由連接到 Microsoft 雲端。 不過，分支內的內部網路仍然功能完整，使用者可以連接到提供 PSTN (SBC) 會話邊界控制器。
 
 本文說明如何使用可維護分支裝置 (SBA) ，讓 Microsoft 電話 系統在中斷時繼續撥打和接聽公用交換電話網路 (PSTN) 通話。
 
@@ -43,11 +43,11 @@ SBA 是 Microsoft 提供給 SBC 廠商的可發佈程式碼，廠商接著將程
 
 若要使用內嵌的 Survivable 分支裝置取得最新的會話邊界控制器固件，請與您的 SBC 廠商聯繫。 此外，需要下列專案：
 
-- SBC 必須針對媒體旁路進行配置，以確保分支Microsoft Teams用戶端中的媒體可以直接與 SBC 一起流動。 
+- SBC 必須針對媒體旁路進行Microsoft Teams，以確保分支網站中的用戶端能夠讓媒體直接與 SBC 一起流動。 
 
 - SBA VM OS 上應啟用 TLS1.2。
-- Microsoft SBA Server 會使用埠 3443、4444 和 8443 與 Teams 用戶端通訊，而且應該允許使用防火牆。 
-- Microsoft SBA Server (埠 5061 或 SBC) 上所配置的埠 5061，用於與 SBC 通訊，而且應該允許在防火牆上。 
+- Microsoft SBA Server 會使用埠 3443、4444 和 8443 來與 Teams 用戶端通訊，而且應該允許在防火牆上。 
+- 埠 5061 (或 SBC) 上所配置的埠 5061 會由 Microsoft SBA Server 用來與 SBC 通訊，而且應該允許在防火牆上。 
 - Microsoft SBA Server 會使用 UDP 埠 123 與 NTP 伺服器通訊，而且應該允許在防火牆上。
 - Microsoft SBA Server 會使用埠 443 與 Microsoft 365通訊，而且應該允許在防火牆上。
 - 應依照以下所述的指導方針定義公用雲端的 Azure IP 範圍和服務標記： https://www.microsoft.com/download/details.aspx?id=56519
@@ -58,7 +58,9 @@ SBA 是 Microsoft 提供給 SBC 廠商的可發佈程式碼，廠商接著將程
 
 - Microsoft Teams Windows桌面 
 
-- Microsoft Teams macOS 桌上出版 
+- Microsoft Teams macOS 桌上出版
+- Teams行動版 
+- Teams電話
 
 ## <a name="how-it-works"></a>運作方式
 
@@ -81,7 +83,7 @@ SBA 是 Microsoft 提供給 SBC 廠商的可發佈程式碼，廠商接著將程
 3. 將策略指派給使用者。
 4. 使用應用程式註冊 SBA Azure Active Directory。
 
-所有組商務用 Skype線上 PowerShell Cmdlet 完成。  (系統Teams系統管理中心尚未支援直接路由 SBA 功能。)  
+所有組式都是使用 商務用 Skype PowerShell Cmdlet 完成。  (系統Teams系統管理中心尚未支援直接路由 SBA 功能。)  
 
  (有關 SBC 的組建資訊，以及 SBC 廠商檔的連結，請參閱本文結尾的會話邊界控制器組) 
 
@@ -89,7 +91,7 @@ SBA 是 Microsoft 提供給 SBC 廠商的可發佈程式碼，廠商接著將程
 
 若要建立 SBA，您將使用 New-CsTeamsSurvivableBranchAppliance Cmdlet。 此 Cmdlet 具有下列參數：
 
-| 參數| 說明 |
+| 參數| 描述 |
 | :------------|:-------|
 | Identity  | SBA 的身分識別  |
 | Fqdn | SBA 的 FQDN |
@@ -111,7 +113,7 @@ Description : SBA 1
 
 若要建立策略，請使用 New-CsTeamsSurvivableBranchAppliancePolicy Cmdlet。 此 Cmdlet 具有下列參數。 請注意，該策略可以包含一或多個 SBA。
 
-| 參數| 說明 |
+| 參數| 描述 |
 | :------------|:-------|
 | Identity | 策略的身分識別 |
 | BranchApplianceFqdns  | SBA 的 FQDN (網站) 的 FQDN |
@@ -125,7 +127,7 @@ Identity             : Tag:CPH
 BranchApplianceFqdns : {sba1.contoso.com, sba2.contoso.com} 
 ```
 
-您可以使用 Cmdlet 從策略新增或移除 SBA Set-CsTeamsSurvivableBranchAppliancePolicy。 例如： 
+您可以使用 Cmdlet 從策略新增或移除 SBA Set-CsTeamsSurvivableBranchAppliancePolicy SBA。 例如： 
 
 ``` powershell
 Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @{remove="sba1.contoso.com"} 
@@ -136,7 +138,7 @@ Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @
 
 若要將策略指派給個別使用者，您將使用 Grant-CsTeamsSurvivableBranchAppliancePolicy Cmdlet。 此 Cmdlet 具有下列參數：
 
-| 參數| 說明 |
+| 參數| 描述 |
 | :------------|:-------|
 | Identity | 使用者身分識別 |
 | PolicyName | 策略的身分識別 |
@@ -148,7 +150,7 @@ Set-CsTeamsSurvivableBranchAppliancePolicy -Identity CPH -BranchApplianceFqdns @
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName CPH -Identity user@contoso.com 
 ```
 
-您可以像下一個範例所示，$Null使用者移除策略：
+您可以像下一個範例所示，將$Null策略從使用者移除：
 
 ``` powershell
 C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity user@contoso.com 
@@ -173,11 +175,11 @@ C:\> Grant-CsTeamsSurvivableBranchAppliancePolicy -PolicyName $Null -Identity us
 
 針對 SBA 應用程式，請記住下列事項： 
 
-- 名稱可以是您決定的任何專案。  
+- 名稱可以是您決定的任何名稱。  
 - 支援的帳戶類型 = 僅此組織目錄中的帳戶。 
 - Web 重新導向 Uri = https://login.microsoftonline.com/common/oauth2/nativeclient 。
 - 隱含授權權杖 = Access 權杖和識別碼權杖。 
-- API 許可權 = Skype及Teams租使用者系統管理員存取權 ->應用程式許可權 -> application_access_custom_sba_appliance。
+- API 許可權 = Skype和Teams租使用者系統管理員存取 ->應用程式許可權 -> application_access_custom_sba_appliance。
 - 用戶端金鑰：您可以使用任何描述和到期。 
 - 請記得在建立用戶端密碼後立即複製。 
 - 應用程式 (用戶端) 識別碼會顯示在概觀選項卡上。
