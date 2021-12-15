@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何使用移轉精靈，將您目前服務提供者的電話號碼Microsoft Teams。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b487249e9a3744c2f83a9bece04a17e7e2948f01
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 39be72edfa013a42fec6dcc60a8555d98be87b57
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861950"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513474"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>將電話號碼轉接到Microsoft Teams
 
@@ -40,7 +40,7 @@ ms.locfileid: "60861950"
 > [!NOTE]
 > **目前，您可以使用這個精靈取得英國、美國和加拿大的電話號碼**。 若要取得其他國家/地區的電話號碼，您可以 [手動提交埠訂單](manually-submit-port-order.md)。 若要取得您需要手動提交埠訂單的表單，請在管理貴組織的電話號碼中，選取下拉式清單中的 [您的國家/地區](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往 **Voice 電話**  >  **號碼**。 按一下 **[數位**」，然後按一下 [ **埠** 以啟動埠精靈。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 **語音** 電話  >  **號碼**。 按一下 **[數位**」，然後按一下 [ **埠** 以啟動埠精靈。
 2. 在 [開始使用> **頁面上** 查看資訊，然後當您準備好時，按一下 [下 **一步**。
 3. 在 [ **選取位置和數位類型頁面** ， 指定下列專案，然後按一下 [ **下一步**：
 
@@ -62,7 +62,7 @@ ms.locfileid: "60861950"
     - **要求詳細資料的人**  
         - 貴組織名稱和要求移轉人員之連絡人詳細資料。
     - **目前提供者詳細資料**
-        - **計費電話號碼 (BTN)**：您的 BTN 格式為 E.164，這需要 + 符號，以在號碼前。 例如，針對北美號碼，請使用 +1XXXYYZZ 格式。
+        - **計費電話號碼 (BTN)**：您的 BTN 格式為 E.164，這需要 + 符號，以在號碼之前。 例如，針對北美號碼，請使用 +1XXXYYZZ 格式。
         - 其他詳細資料，包括您目前的服務提供者名稱、您的帳戶號碼和服務位址。
             
 5. 在 [**新增號碼」** 頁面上，按一下 [選取檔案，流覽至並選取包含要傳輸之電話號碼的 CSV 檔案，然後按一下 [下 **一步**。  
@@ -77,7 +77,7 @@ ms.locfileid: "60861950"
     1. 按一下 **[下載範本** 以下載您國家/地區或地區的 LOA。 
     2. 列印 LOA。
     3. 由有權變更帳戶的人員簽署 LOA。
-    4. 掃描已簽署的 LOA，然後按一下 **[Upload授權** 書以上傳。
+    4. 掃描已簽署的 LOA，然後按一下 **[Upload授權書以** 上傳。
 
     > [!NOTE]
     > 上傳 LOA 之後，提交您的訂單。 只上傳 LOA 是不夠的。 您還必須提交訂單才能處理。
@@ -90,6 +90,10 @@ ms.locfileid: "60861950"
 當我們收到您的埠訂單時，您會收到一封驗證您要求的電子郵件。 您的要求會每天檢查和更新，而且會收到電子郵件中其進度和狀態的通知。 如果您的埠要求遭失敗電信公司拒絕，請連連 [TNS 服務台](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
 若要查看您的埠訂單狀態，請在系統管理中心的左側導Microsoft Teams，前往 [語音>訂單，然後按一下 [訂單  >  ******歷程記錄**> 。 每個埠訂單狀態會列在狀態 **欄中** 。 若要深入瞭解，請參閱您的埠訂單 [狀態是什麼？](port-order-status.md)
+
+
+## <a name="reporting-telephone-number-issues"></a>報告電話號碼問題？
+如果您發現前 24-48 小時內的埠號碼有任何問題。 埠完成之後，請聯絡 [TNS 服務台](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。 對於 48 小時以外的任何問題，請 MS 支援小組。
 
 ## <a name="related-topics"></a>相關主題
 

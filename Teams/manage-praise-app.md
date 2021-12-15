@@ -9,14 +9,14 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 瞭解系統管理中心的 稱讚 應用程式Microsoft Teams設定
-ms.openlocfilehash: 1d460a785a318723bf8e0d0852132863ef7513f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 044ab5d7fc5aebba1b1245f349e4ed27c61190b6
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858030"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513454"
 ---
-# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在系統稱讚管理中心管理 Microsoft Teams應用程式
+# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>管理 稱讚 系統管理中心Microsoft Teams應用程式
 
 > [!NOTE]
 > 系統管理員必須擁有Teams才能存取此功能。 如果您嘗試在沒有授權的情況下存取Teams，就會收到錯誤訊息。
@@ -28,7 +28,7 @@ ms.locfileid: "60858030"
 ![螢幕擷取畫面設定應用程式稱讚的螢幕擷取畫面。](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> 此稱讚應用程式適用于雲端GCC，但不適用於高GCC DoD。
+> 稱讚應用程式適用于雲端GCC，但不適用於高GCC DoD。
 
 ## <a name="use-built-in-badge-sets"></a>使用內建徽章集
 
@@ -46,7 +46,7 @@ ms.locfileid: "60858030"
 
 ### <a name="social-and-emotional-learning-badges-for-education"></a>教育用社交與情緒學習徽章
 
-教育者可以在 SEL 中識別個別學生進行社交和 (，) 徽章來說明這些概念的成就和行為。
+教育者可以在 SEL 中識別個別學生 (情緒學習) 徽章來說明這些概念的成果和行為。
 
 ![教育用社交與情緒學習徽章預覽。](media/sel-edu-set-praise.png)
 
@@ -60,7 +60,7 @@ ms.locfileid: "60858030"
 
 1. 輸入徽章名稱。 這是當使用者傳送稱讚時，徽章上會出現的名稱。
 
-2. 設定徽章色彩。 若要設定徽章的文字和背景色彩，您必須在十六進位值 (十六) 色彩。
+2. 設定徽章色彩。 若要設定徽章的文字和背景色彩，您必須輸入十六進位 (十六) 值。
 
    > [!TIP]
    > 如果您是十六進位值的新增者，本文包含一個快速簡介[](#hex-colors-intro)，以瞭解如何使用它們。
@@ -83,9 +83,9 @@ ms.locfileid: "60858030"
 
 ## <a name="specify-colors-with-hex-values"></a>使用十六進位值指定色彩
 
-十六進位色彩值是六個十六進位位數的字串，代表以 00 到 FF 為刻度的紅色 (RR) 、綠色 (GG) 和藍色 (BB) 。 當您將三種色彩的值放在一起時，會獲得十六進位值：#RRGGBB
+十六進位色彩值是六個十六進位位數的字串，代表以 00 到 FF 為刻度的紅色 (RR) 、綠色 (GG) 和藍色 (BB) 。 當您將三種色彩的值放在一起時，您得到一個十六進位值：#RRGGBB
 
-例如，紅色色彩的十六進位值是#FF0000因為紅色設定為可能的最高值，FF，而綠色和藍色則分別設定在最低可能的值 00。
+例如，紅色色彩的十六進位值為 #FF0000因為紅色設定為可能的最高值，因此 FF，而綠色和藍色則分別設定在最低可能值 00。
 
 若要探索不同的色彩及其十六進位值，請查看Bing[選擇器](https://www.bing.com/search?q=color+picker)。
 
@@ -108,7 +108,7 @@ ms.locfileid: "60858030"
 
 **選擇色彩時，請記住協助工具。** 有些色彩比其他色彩更一致。  在文字和背景色彩之間建立對比，讓徽章名稱易於閱讀。 例如，如果您選擇深色背景色彩，請選擇淺色文字色彩。
 
-**選取影像時，請記住徽章尺寸。** 為了獲得最佳品質，建議您上傳 216 x 216 圖元的影像檔案， (為最大) 。 避免伸展或扭曲影像，以配合這些維度。
+**選取影像時，請記住徽章尺寸。** 為了獲得最佳品質，建議您上傳 216 x 216 圖元的影像檔案 (這是最大) 。 避免伸展或扭曲影像，以配合這些維度。
 
 **如果您的徽章影像不是矩形，請讓影像透明。** 您必須先執行此操作，再將影像檔案上傳至稱讚。
 
@@ -116,7 +116,7 @@ ms.locfileid: "60858030"
 
 ## <a name="badge-set-assets"></a>徽章集資產
 
-內建徽章組無法修改，因此當啟用內建集時，集合中所有的徽章會新稱讚應用程式。 如果您想要從內建集新增特定徽章，並排除其他徽章，請重新建立您想要做為自訂徽章的徽章。 您可以下載徽章影像，然後從下表的內建集尋找徽章的文字和背景色彩。
+內建徽章組無法修改，因此當啟用內建集時，該集合中所有的徽章會新稱讚應用程式。 如果您想要從內建集新增特定徽章，並排除其他徽章，請重新建立您想要做為自訂徽章的徽章。 您可以下載徽章影像，然後從下表的內建集尋找徽章的文字和背景色彩。
 
 ### <a name="default-badges-assets"></a>預設徽章資產
 
@@ -157,3 +157,11 @@ ms.locfileid: "60858030"
 |自我認知    |[自我認知 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
 |自我管理   |[自我管理 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
 |體貼    |[周到 PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|
+
+## <a name="upcoming-changes"></a>即將進行的變更
+
+從 2022 年 1 月開始，徽章目前可用的功能將會變更。 不再提供教育的社交和情緒學習徽章，包括自我認知和自我管理。
+
+從2022 年 1 月開始，也不再提供建立自訂徽章   選項。
+
+此外，允許或封鎖 稱讚 的 Teams 系統管理中心中的狀態切換開關會影響 稱讚 App 和 稱讚 應用程式中的 稱讚 功能Insights應用程式Teams。
