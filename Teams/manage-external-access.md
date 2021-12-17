@@ -21,12 +21,12 @@ description: 您的 Teams 或 IT 系統管理員可以設定其他網域 (同盟
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ee2492038ac05f54d1846703851846bef95893eb
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: e0036218312d04a409b6699998ec6b84cddae79c
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634922"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513484"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部存取
 
@@ -54,7 +54,7 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 
 - **允許所有外部網域**：這是 Teams 中的預設設定，可讓貴組織人員尋找、通話、聊天，以及設定與貴組織外部人員在任何網域中的會議。
 
-    在此案例中，您的使用者可以與執行 Teams 或商務用 Skype 的所有外部網域通訊，前提是這些網域是使用 Teams 或商務用 Skype，或是允許所有外部網域，或已新增您的網域至允許清單。
+    在此案例中，您的使用者可以與執行 Teams 或商務用 Skype 的所有外部網域通訊，前提是這些網域是使用 Teams 或商務用 Skype，或是允許所有外部網域，或已將您的網域新增至其允許清單。
 
 - **只允許特定外部網域**：將網域新增至 **允許** 清單中，可限制外部存取只能存取允許的網域。 一旦您設定了允許網域的清單，所有其他網域都會遭到封鎖。 若要允許特定網域，按一下 [新增網域]，新增網域的名稱，按一下 [對這個網域採取的動作]，然後選取 [允許]。
 
@@ -141,6 +141,50 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 
 > [!NOTE]
 > 如果您和另一位使用者都開啟外部存取並允許彼此的網域，應該就可以外部存取。 如果行不通，另一位使用者應確定其設定沒有封鎖您的網域。
+
+## <a name="limit-external-access-to-specific-people"></a>將外部存取限制為特定人員
+
+您可以使用 PowerShell 將外部存取限制為特定人員。
+
+您可以使用下列範例指令碼，將您想要提供此原則的名稱的 *PolicyName*，以及您想要能夠使用外部存取的每個使用者的 *UserName* 替代。
+
+執行指令碼之前，請確定已安裝 [Microsoft Teams PowerShell 模組](/microsoftteams/teams-powershell-install)。
+
+```PowerShell
+Connect-MicrosoftTeams
+
+# Disable external access globally
+Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+
+# Create a new external access policy
+New-CsExternalAccessPolicy -Identity <PolicyName> -EnableTeamsConsumerAccess $true
+
+# Assign users to the policy
+$users_ids = @("<UserName1>", "<UserName2>")
+New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyName "<PolicyName>" -Identity $users_ids
+
+```
+
+例如：
+
+```PowerShell
+Connect-MicrosoftTeams
+
+Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+
+New-CsExternalAccessPolicy -Identity ContosoExternalAccess -EnableTeamsConsumerAccess $true
+
+$users_ids = @("MeganB@contoso.com", "AlexW@contoso.com")
+New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyName "ContosoExternalAccess" -Identity $users_ids
+
+```
+
+如需如何編譯使用者清單的其他範例，請參閱 [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)。
+
+您可以執行 `Get-CsExternalAccessPolicy -Include All` 來查看新原則。
+
+
+另請參閱 [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy) 和 [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy)。
 
 ## <a name="common-external-access-scenarios"></a>常見的外部存取案例
 
