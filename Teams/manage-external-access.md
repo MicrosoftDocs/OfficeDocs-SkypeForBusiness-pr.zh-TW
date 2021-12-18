@@ -21,12 +21,12 @@ description: 您的 Teams 或 IT 系統管理員可以設定其他網域 (同盟
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e0036218312d04a409b6699998ec6b84cddae79c
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
+ms.openlocfilehash: 16a30b9e4ce9ed86516cfcf7fb0cbdb22e6c2141
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513484"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563560"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部存取
 
@@ -144,9 +144,9 @@ Teams 預設會開啟外部存取，這表示您的組織可以與所有外部�
 
 ## <a name="limit-external-access-to-specific-people"></a>將外部存取限制為特定人員
 
-您可以使用 PowerShell 將外部存取限制為特定人員。
+如果您已啟用 [我組織中的人員可以與帳戶不是由組織管理的 Teams 使用者通訊 **]**，您可以使用 PowerShell 將外部存取限制為特定人員。
 
-您可以使用下列範例指令碼，將您想要提供此原則的名稱的 *PolicyName*，以及您想要能夠使用外部存取的每個使用者的 *UserName* 替代。
+您可以使用下列範例指令碼，將 *PolicyName* 以您想要提供該原則的名稱替代，以及將 *UserName* 以您想要能夠使用外部存取的每個使用者替代。
 
 執行指令碼之前，請確定已安裝 [Microsoft Teams PowerShell 模組](/microsoftteams/teams-powershell-install)。
 
