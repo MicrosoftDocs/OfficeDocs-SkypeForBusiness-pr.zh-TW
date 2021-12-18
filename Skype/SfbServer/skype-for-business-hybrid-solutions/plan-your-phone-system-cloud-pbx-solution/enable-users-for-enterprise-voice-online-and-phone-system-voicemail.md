@@ -19,17 +19,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: 瞭解如何為您的商務用 Skype 使用者啟用電話系統語音服務。
-ms.openlocfilehash: b82121dff3c7a82827d6e19fdb0b78bfeee263f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9c9123b79a1fd5557d0d31db7b4b150bcda80af3
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602308"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563436"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>為使用者啟用企業語音線上版和電話系統語音信箱
  
 > [!Important]
-> 商務用 Skype線上將于2021年7月31日停用，在此之後將無法再存取服務。  此外，您的內部部署環境之間的 PSTN 連線是否會有商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype 線上，都不再支援。  瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線至 Teams。
+> 已不再支援內部部署環境（不論是透過商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype 線上）的7月31日、2021和 PSTN 連線，已停用商務用 Skype 線上。  瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線至 Teams。
 
 瞭解如何為您的商務用 Skype 使用者啟用電話系統語音服務。
   
@@ -42,7 +42,7 @@ ms.locfileid: "58602308"
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>若要讓使用者能夠電話系統語音及語音信箱
 
 > [!NOTE]
-> 商務用 Skype線上連接器目前是最新 Teams PowerShell 模組的一部分。
+> 商務用 Skype 線上連接器目前是最晚 Teams PowerShell 模組的一部分。
 > 如果您使用的是最新的[Teams PowerShell 公開版本](https://www.powershellgallery.com/packages/MicrosoftTeams/)，則不需要安裝商務用 Skype 線上連接器。
 
 1. 開始之前，請先檢查 Teams PowerShell 模組是否已安裝在前端伺服器上。 如果不是，請使用[Teams PowerShell 模組安裝](/microsoftteams/teams-powershell-install)中的指示進行安裝。
@@ -134,7 +134,7 @@ ms.locfileid: "58602308"
 電話系統使用者必須將語音路由原則指派給他們，來電才能成功路由傳送。 這與需要將語音原則指派給他們以允許通話成功路由的內部部署商務語音使用者不同。 語音路由原則應包含 PSTN 使用方式，以定義電話系統使用者的授權呼叫和路由。 您可以將這些 PSTN 使用方式從現有的語音原則複製到新的語音路由原則。 如需詳細資訊，請參閱 [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)。
   
 > [!NOTE]
-> 所有電話系統使用者都被指派了名為 BusinessVoice 的相同線上語音原則，用來定義允許的呼叫功能;例如，允許同時振鈴。 
+> 所有的電話系統使用者都被指派與名為 BusinessVoice 的相同線上語音原則，以定義允許的呼叫功能; 例如，允許同時振鈴。 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>將每一使用者的語音路由原則指派給單一使用者
 

@@ -21,12 +21,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 63752584ee557adcaa1a77c683b259dd06afff93
-  ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+  ms.openlocfilehash: df6df0d6292458c1655154b1cdfe58dc999acb7e
+  ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 08/26/2021
-  ms.locfileid: "58588395"
+  ms.lasthandoff: 12/17/2021
+  ms.locfileid: "61562805"
 title: 常見問題 - 從商務用 Skype 升級至 Microsoft Teams
 summary: ''
 sections:
@@ -34,110 +34,62 @@ sections:
   questions:
   - question: 客戶從商務用 Skype Online 移至 Teams，是否有確切的截止日期？
     answer: >
-      是。 [商務用 Skype將于](skype-for-business-online-retirement.md)2021 年 7 月 31 日停用，此時將無法再使用。 我們鼓勵商務用 Skype Online 客戶開始使用 Teams，並且立即開始規劃升級，以便在停用日期之前完成升級。
-  - question: 為什麼線上商務用 Skype淘汰？
+      是。 [商務用 Skype于](skype-for-business-online-retirement.md)2021 年 7 月 31 日停用。 我們鼓勵商務用 Skype Online 客戶開始在 Teams 中將 Microsoft 365 做為通訊和共同Microsoft 365。
+  - question: 為什麼線上商務用 Skype停用？
     answer: >
-      自推出以來，商務用 Skype Online 一直是全球數百萬人的寶貴工具。 將立即訊息、通話和視訊合併成一個應用程式，商務用 Skype Online 為商務通訊建立了新的可能性。 Microsoft Teams是該願景的下一章。
+      自推出以來，商務用 Skype Online 一直是全球數百萬人的寶貴工具。 將立即訊息、通話和視訊合併成一個應用程式，商務用 Skype Online 為商務通訊建立了新的可能性。 Microsoft Teams是該願景的下一個章節。
 
 
-      除了線上Microsoft Teams之外，商務用 Skype功能。 將聊天、視訊、通話、檔共同合作和應用程式整合結合到單一體驗，Teams提供全新的工作方式。 而持續平臺創新與開發Teams使用者受益于更豐富的性能、功能、彈性和安全性。
+      除了線上Microsoft Teams之外，商務用 Skype功能。 將聊天、視訊、通話、檔共同合作及應用程式整合結合成單一體驗，Teams提供全新的工作方式。 而持續平臺創新與開發Teams使用者受益于更豐富的性能、功能、彈性和安全性。
 
 
-      Teams不只是 商務用 Skype Online 的升級，也是一項功能強大的工具，可讓公司、學校和組織變得更加敏捷，並提升關鍵工作流程的效率。 若要深入瞭解組織Teams之潛在效益，請于 ™ 的 Forrester 白皮書中™整體[Microsoft Teams。](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1)
+      Teams不只是從 商務用 Skype Online 升級，它是一項功能強大的工具，可讓公司、學校和組織變得更加敏捷，並提升關鍵工作流程的效率。 若要深入瞭解組織Teams之潛在效益，請于 ™ 的 Forrester 白皮書中[™Microsoft Teams。](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1)
   - question: 這對客戶商務用 Skype意義？
     answer: >
-      在 商務用 Skype 2021 年 7 月 31 日停用 Online 之後，服務將無法再使用。 在那之前，目前商務用 Skype Online 客戶不會在服務上發生任何變更。 自 2019 年 9 月 1 Microsoft 365起，所有新客戶都直接Teams聊天、會議和通話。
-
-
       完全升級至 Teams所需時間會因組織的獨特特性而不同，包括使用者數目、技術複雜度和內部可變更的適適性。 我們強烈建議您立即開始升級至Teams版本。 從今天開始升級，您將有足夠的時間在停用日期之前完成升級。 從 8 月開始，Microsoft 會提供輔助升級程式，協助您將線上使用者商務用 Skype任何Teams移動。
 
 
-      Teams大部分商務Microsoft 365方案Enterprise，而您現有的授權投資會繼續Teams。 目前在商務用 Skype Online 中是進階工作負載的功能，在 Teams 中依然是進階工作負載。 例如，如果您獨立購買音訊會議，或作為 E5 的一部分商務用 Skype，音訊會議將在 Teams 中啟用。
+      Teams商務和Microsoft 365方案Enterprise，而您現有的授權投資會繼續Teams。 目前在商務用 Skype Online 中是進階工作負載的功能，在 Teams 中依然是進階工作負載。 例如，如果您獨立購買音訊會議，或作為 E5 的一商務用 Skype，音訊會議將在 Teams 中啟用。
 
 
-      消費者Skype服務商務用 Skype Server服務與服務不受線上版商務用 Skype影響。
+      Skype消費者服務商務用 Skype Server服務與服務不受線上商務用 Skype影響。
 
 
       [閱讀常見問題，](FAQ-journey.yml)瞭解升級至 Teams 程式Teams藍圖。
-  - question: 當線上版商務用 Skype Server內部部署客戶是否需要Microsoft Teams升級商務用 Skype？
-    answer: "不。 線上商務用 Skype的停用不會影響內部部署使用者。 雖然我們鼓勵所有客戶利用 Microsoft Teams 提供的擴充功能與Microsoft Teams，但部分 商務用 Skype Server 客戶可能需要單獨使用產品，或做為與 Microsoft Teams 混合式配置的一Microsoft Teams。 請參閱[Microsoft 生命週期政策](https://docs.microsoft.com/lifecycle/products/?terms=skype%20for%20business%20server)網站，以尋找版本支援商務用 Skype Server。 \n"
-  - question: Microsoft 正在協助客戶升級至 Teams？
-    answer: >
-      我們強烈建議您立即開始從 商務用 Skype Online Teams升級。 從今天開始升級，您將有足夠的時間在停用日期之前完成升級。
-
-
-      利用可用的資源，協助規劃您的Teams部署和 商務用 Skype升級：
-
-
-      - [Teams部署和升級檔](upgrade-start-here.md)- IT 系統管理員的免費技術指南。
-
-
-      - [Teams](./upgrade-workshops-landing-page.yml)升級規劃研討會 – 免費的互動式升級規劃研討會，您將在這裡獲得可協助規劃及實作升級至 Teams 的指引、最佳做法和資源。
-
-
-      - [從線上商務用 Skype](upgrade-assisted.md)到 Microsoft Teams 的輔助升級 – 自動化程式可協助您進行技術步驟，商務用 Skype Online 使用者Teams。
-
-
-      - [FastTrack適用于Microsoft 365](https://www.microsoft.com/fasttrack/microsoft-365) – Teams計畫可用的部署協助。
-
-
-      - [Teams即時訓練](./instructor-led-training-teams-landing-page.yml)– 免費線上訓練課程，專為讓貴組織能順利上線Teams。
-
-
-      - [Teams粉](./chalk-talks-landing-page.yml)筆交談 – 適用于 IT 專業人員和決策者的免費線上研討會，分享適用于 Teams 中一些最熱門且令人信服案例的最佳作法。
-
-
-      - [Microsoft 合作夥伴](https://www.microsoft.com/solution-providers/home)– Microsoft 解決方案提供者可協助您充分利用Teams。
-
-
-      - [Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog)部落格 – 取得Teams新功能、採用和使用資源、Teams裝置，以及與其他商務生產力應用程式整合的最新最新消息。
-
-
-      如果您是目前線上商務用 Skype，請立即開始規劃升級至Teams方案。 我們很高興您能夠體驗強大的通訊和共同合作功能，我們承諾一路協助。
+  - question: 當線上版商務用 Skype Server時，內部Microsoft Teams使用者商務用 Skype升級至內部部署？
+    answer: "否。 線上商務用 Skype的停用不會影響內部部署使用者。 雖然我們鼓勵所有客戶利用擴充的功能與Microsoft Teams優惠，但部分 商務用 Skype Server 客戶可能需要單獨使用產品，或與 Microsoft Teams 進行混合式Microsoft Teams。 請參閱[Microsoft 生命週期政策](https://docs.microsoft.com/lifecycle/products/?terms=skype%20for%20business%20server)網站，以尋找版本支援商務用 Skype Server。 \n"
   - question: 線上版淘汰商務用 Skype會發生什麼情況？
     answer: >
-      Microsoft 將在停用時商務用 Skype線上使用者Teams升級。 客戶將在系統管理中心Teams和 Microsoft 365 訊息中心收到通知，比排定的升級日期提前 90 天，以便進行技術和使用者準備。
+      Microsoft 將在停用時，為商務用 Skype線上使用者提供Teams升級。 客戶將在系統管理中心Teams和 Microsoft 365 訊息中心收到通知，比他們排定的升級日期提前 30 天，以便有時間進行技術和使用者準備。
 
 
-      輔助升級完成之後，所有線上使用者都會Teams模式。 在僅Teams模式中，使用者會收到傳入的聊天和通話，並排程會議，Teams。 在 Teams模式的使用者將無法在線上啟動聊天或通話或商務用 Skype會議。 Teams只有使用者仍然可以加入商務用 Skype使用者排定的會議商務用 Skype Server。
+      輔助升級完成之後，所有線上使用者都會Teams模式。 在僅Teams模式中的使用者會收到傳入的聊天和通話，並排程會議，Teams。 在 Teams模式的使用者將無法在 商務用 Skype Online 中啟動聊天或通話或商務用 Skype會議。 Teams只有使用者仍然可以加入商務用 Skype使用者排定的會議商務用 Skype Server。
 
 
       詳細資訊，請參閱從 商務用 Skype [Online Microsoft Teams。](upgrade-assisted.md)
-  - question: 會議Skype廣播是否與線上會議廣播同時商務用 Skype淘汰？
+  - question: Skype會議廣播是否與線上會議廣播同時商務用 Skype？
     answer: "是的。 Teams即時活動是會議廣播Skype解決方案。    \n"
   - question: 使用混合式組 (商務用 Skype Online 和內部部署商務用 Skype Server) 當 Online 淘汰商務用 Skype預期？
+    answer: "\n隨著線上商務用 Skype的停用，具有線上和內部部署配置的混合式客戶需要將線上使用者從 商務用 Skype Online 升級Microsoft Teams。 Microsoft 將提供輔助升級，協助將線上商務用 Skype剩餘的使用者升級Teams模式。\n\nMicrosoft 將提供輔助升級，以協助將線上商務用 Skype使用者的剩餘Teams在停用日期之後升級為僅使用模式。\n\n混合式組商務用 Skype組織商務用 Skype並Teams並排使用，直到他們準備好要移至 Teams 模式。 在 商務用 Skype Online 的停用日期之後，當商務用 Skype Server使用者移至雲端時，該使用者會進入 Teams模式。\n\n如需詳細資訊，請參閱[與商務用Skype 共存](coexistence-chat-calls-presence.md)和[了解 Microsoft Teams 和商務用 Skype 的共存和互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。\n"
+  - question: 商務用 Skype Online 的停用會對使用內部部署公用交換式電話網絡 (PSTN 商務用 Skype PSTN) 連線和線上電話電話系統的組織有何影響？
     answer: >
-      在 2021 年 7 月 31 日停用日期之前，需要使用線上和內部部署配置的混合式客戶，才能將線上使用者從 商務用 Skype Online 升級至 Microsoft Teams。
-
-      Microsoft 將提供輔助升級，以協助將線上商務用 Skype使用者的剩餘Teams在停用日期之後升級至僅使用模式。
-
-
-      混合式組商務用 Skype組織Teams並排使用，直到他們準備好移至 Teams 模式。 在 商務用 Skype Online 的停用日期之後，當商務用 Skype Server使用者移至雲端時，該使用者會進入 Teams 模式。
-
-
-      如需詳細資訊，請參閱[與商務用Skype 共存](coexistence-chat-calls-presence.md)和[了解 Microsoft Teams 和商務用 Skype 的共存和互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。
-  - question: 商務用 Skype Online 的商務用 Skype對於內部部署公用交換式電話網絡 (PSTN) 連線和線上電話系統的組織有何影響？
-    answer: >
-      有些組織會針對 PSTN 連線在內部部署和家用線上使用者之間分割使用者，電話系統功能。 一旦商務用 Skype線上的存取權結束，組織將需要將線上使用者升級至 Microsoft Teams，並透過直接路由Teams連線其內部部署電話[網路](./direct-routing-landing-page.md)。
+      有些組織會針對 PSTN 連線將使用者分割為內部部署，而將使用者分成電話系統連線。 一旦商務用 Skype線上的存取權結束，組織將需要將線上使用者升級至 Microsoft Teams，並透過直接路由Teams連線其內部部署電話[網路](./direct-routing-landing-page.md)。
 
 
       我們鼓勵擁有合格訂閱的客戶參與 [FastTrack](https://www.microsoft.com/fasttrack?rtc=1)，以取得 Teams 上線協助。
-  - question: 所有雲端的客戶在 Microsoft Online 的停用時，商務用 Skype升級？
-    answer: >
-      某些雲端環境 ，例如 GCC High、DoD、21Vianet 和 Microsoft Cloud Germany 需要獨特的升級體驗，且不會包含在 microsoft 輔助升級至 Teams 的 商務用 Skype Online 中。
   - question: 商務用 Skype Server 的未來如何？
     answer: >
-      我們確認客戶可能需要針對部分商務用 Skype Server或地理位置使用應用程式，因為使用者或地理位置的需求。 在這些情況下，我們會鼓勵組織將 Teams 與商務用 Skype Server 搭配使用，以促進團隊合作和共同作業。 最新版 2019 商務用 Skype Server于 2018 年 10 月發行，主要支援計畫到 2024 年 1 月 9 日。
+      我們確認客戶可能需要為部分商務用 Skype Server或地理位置使用客戶資訊，因為使用者或地理位置的需求。 在這些情況下，我們會鼓勵組織將 Teams 與商務用 Skype Server 搭配使用，以促進團隊合作和共同作業。 最新版 2019 商務用 Skype Server于 2018 年 10 月發行，並計畫在 2024 年 1 月 9 日前提供主流支援。
   - question: 這對消費者服務Skype意義？
     answer: >
       線上商務用 Skype的停用不會影響Skype服務。
   - question: 這對現有客戶Microsoft 365意義？
-    answer: "我們已將一組商務用 Skype Online 功能Teams語音、視音訊和會議的新創新功能。 我們鼓勵所有Microsoft 365客戶Teams，在今天開始獨立或並排使用商務用 Skype Server。\n       \n"
+    answer: "我們已將一組商務用 Skype Online 功能Teams語音、視音訊和會議的新創新功能。 我們鼓勵所有Microsoft 365客戶今天Teams開始單獨或並排使用商務用 Skype Server。\n       \n"
   - question: 如何取得Teams授權？
     answer: >
       Teams許多套件都提供Microsoft 365服務。 目前在商務用 Skype Online 中是進階工作負載的功能，在 Teams 中依然是進階工作負載。 客戶所做的現有授權投資，都會轉移到 Teams。 例如，如果客戶已購買獨立的音訊會議，或是隨著商務用 Skype E5 購買音訊會議，則音訊會議將會在 Teams 中啟用，立即可用。
-  - question: 使用協力廠商音訊會議 (ACP) 線上商務用 Skype會發生什麼情況？
-    answer: "我們相信，透過音訊會議服務，Teams客戶的最佳音訊會議體驗。 基於這個原因，我們並沒有在 Teams 中支援協力廠商音訊會議提供者的計畫。 協力廠商音訊會議提供者整合 商務用 Skype Online 的支援將于 2021 年 7 月 31 日與 商務用 Skype Online 一起終止。\n         \n"
+  - question: 使用協力廠商音訊會議 (ACP) 線上版商務用 Skype會發生什麼情況？
+    answer: "我們相信，透過音訊會議服務，Teams客戶的最佳音訊會議體驗。 基於這個原因，我們尚未計畫在 Teams 中支援協力廠商音訊會議Teams。 2021 年 7 月 31 日結束的 商務用 Skype Online 中協力廠商音訊會議提供者與 商務用 Skype 整合的支援\n         \n"
 - name: 升級至 Teams
   questions:
   - question: 將我的組織升級至 Teams 需要多久時間？
@@ -150,7 +102,7 @@ sections:
     answer: "在 Microsoft Teams 系統管理中心，您會發現共存模式的選項，讓您的組織能夠管理適合組織的商務用 Skype 至 Teams 旅程。 深入了解[共存與升級模式](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。\n      \n"
   - question: Microsoft 規劃是否協助升級？
     answer: >
-      是的。 商務用 Skype線上客戶可能會排程進行輔助升級，Microsoft Teams。 此計畫是專為協助客戶將線上租使用者升級至 商務用 Skype 租使用者Teams元素。 排定進行輔助升級的客戶將在升級日期前 90 天，在 Teams 系統管理中心以及 Microsoft 365 訊息中心收到通知，以便進行技術和使用者準備。  詳細資訊，請參閱從 商務用 Skype [Online Microsoft Teams。](upgrade-assisted.md)
+      是的。 商務用 Skype線上客戶可能會排定協助升級至Microsoft Teams。 此計畫是專為協助客戶將線上租使用者升級至 商務用 Skype 租使用者Teams元素。 排定進行輔助升級的客戶將在升級日期前 30 天，在 Teams 系統管理中心及 Microsoft 365 訊息中心收到通知，以便進行技術和使用者準備。 詳細資訊，請參閱從 商務用 Skype [Online Microsoft Teams。](upgrade-assisted.md)
   - question: 我該如何準備升級？
     answer: >
       若要成功升級，除了使用者接受整備程度之外，還包含驗證技術整備程度。 即使您判斷您的組織還未準備好升級至 Teams，您還是可以立即開始規劃程序。 此外，您也可以隨著商務用 Skype 一起啟用 Teams，開始實現 Teams 的價值。 立即開始[您的 Skype 至 Teams 旅程](./upgrade-start-here.md) (英文)。
@@ -194,7 +146,7 @@ sections:
       因為音訊會議在 Teams 中的可用性，所以音訊會議涵蓋範圍沒有任何變更。 我們目前的涵蓋範圍是 90 個以上的國家/地區、400 個以上的城市，在這兩項產品中都會繼續保持。 如需目前的清單，請參閱[音訊會議與通話方案的適用國家/地區](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   - question: 最新一代的 Skype 會議室系統 v2 是否支援在 Teams 中舉行會議？
     answer: >
-      我們重新Skype會議室Microsoft Teams 會議室，完全支援 Microsoft Teams 會議，只要在裝置上啟用 Teams，就可以輕鬆從 商務用 Skype 移Teams到 Teams。 除了讓使用者使用鄰近偵測功能識別附近的 Microsoft Teams 會議室 之外，Teams 會議還可以與單鍵、雙螢幕支援 Microsoft Whiteboard 一起加入，而且我們會持續提供創新功能，例如具有智慧型捕獲的內容相機。
+      我們重新Skype會議室Microsoft Teams 會議室，完全支援 Microsoft Teams 會議，只要在裝置上啟用 Teams，就可以輕鬆從 商務用 Skype 移Teams到 Teams。 除了讓使用者能使用鄰近偵測功能識別附近的 Microsoft Teams 會議室 之外，Teams 會議還可以與單鍵、雙螢幕支援 Microsoft Whiteboard 一起加入，而且我們會持續提供創新功能，例如具有智慧型捕獲的內容相機。
 - name: 一般
   questions:
   - question: 你是否會在 Teams 中支援第三方開發機會？
@@ -207,7 +159,7 @@ sections:
     answer: "是，美國政府社群雲端 (GCC) 提供 Teams。 若要深入了解，請參閱[適用於 Microsoft 365 GCC 部署的方案](./plan-for-government-gcc.md)。\n  \n"
   - question: Microsoft 線上語音功能的計劃為何?
     answer: >
-      我們的語音解決方案核心是電話系統，這是目前可用的解決方案。 客戶還可以新增 Microsoft 通話方案，提供完整的通話支援，包括直接在 Microsoft 365 中取得和指派號碼。 想要保留其電信電話主線的客戶可以使用直接路由，直接路由包含在電話系統中。 針對您組織的需求，將兩者混合及搭配在一起，以具備完整的語音解決方案。
+      我們的語音解決方案核心是目前可用的電話系統。 客戶還可以新增 Microsoft 通話方案，提供完整的通話支援，包括直接在 Microsoft 365 中取得和指派號碼。 想要保留其電信電話主線的客戶可以使用直接路由，直接路由包含在電話系統中。 針對您組織的需求，將兩者混合及搭配在一起，以具備完整的語音解決方案。
   - question: 哪些 API 和 SDK 適用於 Teams？
     answer: >
       如需可用 API 與 SDK 的相關資訊，請造訪 [Microsoft Teams 開發人員平台](/microsoftteams/platform/) (英文)。

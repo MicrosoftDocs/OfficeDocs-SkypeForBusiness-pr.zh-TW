@@ -19,19 +19,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 摘要：閱讀此主題以瞭解如何使用具有內部部署 PSTN 連線的電話系統，為使用者指派語音原則。
-ms.openlocfilehash: aa31624921aefd1065b0719966af1df9d2b38793
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 158cd8e7bcd996297077adfb2c812febf4dc491b
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013167"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563354"
 ---
 # <a name="assign-a-voice-routing-policy"></a>指派語音路由原則
  
 > [!Important]
-> 商務用 Skype線上將于2021年7月31日停用，在此之後將無法再存取服務。  此外，您的內部部署環境之間的 PSTN 連線是否會有商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype 線上，都不再支援。  瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線至 Teams。
+> 已不再支援內部部署環境（不論是透過商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype 線上）的7月31日、2021和 PSTN 連線，已停用商務用 Skype 線上。  瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線至 Teams。
 
-**摘要：** 閱讀此主題以瞭解如何使用具有內部部署 PSTN 連線的電話系統，將語音原則指派給使用者。 
+**總結：** 閱讀此主題以瞭解如何使用具有內部部署 PSTN 連線的電話系統，將語音原則指派給使用者。 
   
 當使用者在線上商務用 Skype，並使用內部部署 PSTN 連線電話系統時，會將兩個語音原則套用至他們。 一個是內部部署語音路由原則，您將會指派給內部部署。 這個原則可以是全域或使用者特有的，也可以定義哪些 PSTN 使用方式記錄與使用者相關聯。 本主題說明如何指派此原則。
   

@@ -20,17 +20,17 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: 瞭解電話系統 (雲端 PBX) 搭配內部部署 PSTN 連線的規劃考慮。
-ms.openlocfilehash: 21ad7efc67b503f790dd307b23aee5f8fd9ce11c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a3c01ed32cb2654ea10773f53c4148262e3ee6c5
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864530"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562775"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃含有內部部署 PSTN 連線功能的電話系統
 
 > [!Important]
-> 商務用 Skype線上將于2021年7月31日停用，在此之後將無法再存取服務。  此外，您的內部部署環境之間的 PSTN 連線是否會有商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype 線上，都不再支援。  瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線至 Teams。
+> 已不再支援內部部署環境（不論是商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype 線上）上的商務用 Skype 線上，都已2021淘汰。  瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線至 Teams。
 
 瞭解電話系統 (雲端 PBX) 搭配內部部署 PSTN 連線的規劃考慮。
 
@@ -102,7 +102,7 @@ ms.locfileid: "60864530"
 
 此外，您必須確定下列各項：
 
-- **內部部署使用者的內部部署企業語音已設定並測試** 這包括 PSTN 連接元件。 如需詳細資訊，請參閱下列主題如果使用商務用 Skype Server 2015，請參閱[Plan for 企業語音 in 商務用 Skype Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) ，並[在商務用 Skype Server 2015 中部署企業語音](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)。
+- **內部部署使用者企業語音已設定並測試內部部署使用者**，這包括 PSTN 連接元件。 如需詳細資訊，請參閱下列主題如果使用商務用 Skype Server 2015，請參閱[Plan for 企業語音 in 商務用 Skype Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) ，並[在商務用 Skype Server 2015 中部署企業語音](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)。
 
     如果您使用的是 lync server 2013，請參閱在 lync server [2013 中規劃企業語音](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice)和[在 lync server 2013 中部署企業語音](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-enterprise-voice)。
 

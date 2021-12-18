@@ -13,24 +13,24 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 摘要：請參閱本主題，以取得如何將商務用 Skype Server 與 Exchange Server 2016 或 Exchange Server 2013 整合相關的資訊。
-ms.openlocfilehash: 8613f080aa878c5111a4c69c38b77f9c16606b26
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5edfdf44b50d2a58c097bed5ee83855f375ff895
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844126"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562835"
 ---
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>規劃整合商務用 Skype 和 Exchange
  
-**摘要：** 如需如何將商務用 Skype Server 與 Exchange Server 2016 或 Exchange Server 2013 整合的資訊，請參閱本主題。
+**總結：** 如需如何將商務用 Skype Server 與 Exchange Server 2016 或 Exchange Server 2013 整合的資訊，請參閱本主題。
   
 您必須先確定 Exchange Server 和商務用 Skype Server 都已完整安裝並執行，您才能整合商務用 Skype Server 和 Exchange Server。 
   
 如需安裝 Exchange Server 的詳細資訊，請參閱 Exchange 版本的 Exchange Server 規劃和部署檔。 
    
-在伺服器啟動並執行後，您必須將伺服器對伺服器驗證憑證指派給商務用 Skype Server 和 Exchange Server;這些憑證可讓商務用 Skype Server 和 Exchange Server 交換資訊，以及彼此進行通訊。 當您安裝 Exchange Server 時，會為您建立名稱為 Microsoft Exchange Server 驗證憑證的自我簽署憑證。 此憑證可以在本機電腦憑證存放區中找到，以供 Exchange Server 上的伺服器對伺服器驗證使用。 如需在 Exchange Server 中指派憑證的詳細資訊，請參閱[Configure Mail Flow and Client Access](/exchange/configure-mail-flow-and-client-access-exchange-2013-help)。
+在執行伺服器並執行後，您必須將伺服器對伺服器驗證憑證指派給商務用 Skype Server 和 Exchange Server; 這些憑證允許商務用 Skype Server 和 Exchange Server Exchange 資訊，以及彼此通訊。 當您安裝 Exchange Server 時，會為您建立名稱為 Microsoft Exchange Server 驗證憑證的自我簽署憑證。 此憑證可以在本機電腦憑證存放區中找到，以供 Exchange Server 上的伺服器對伺服器驗證使用。 如需在 Exchange Server 中指派憑證的詳細資訊，請參閱[Configure Mail Flow and Client Access](/exchange/configure-mail-flow-and-client-access-exchange-2013-help)。
   
-商務用 Skype Server 您可以使用現有的商務用 Skype Server 憑證做為伺服器對伺服器的驗證憑證;例如，您的預設憑證也可以當做 OAuthTokenIssuer 憑證使用。 商務用 Skype Server 可讓您使用任何網頁伺服器憑證作為伺服器對伺服器驗證的憑證，前提是：
+針對商務用 Skype Server 您可以使用現有的商務用 Skype Server 憑證做為伺服器對伺服器驗證憑證; 例如，您的預設憑證也可用作 OAuthTokenIssuer 的憑證。 商務用 Skype Server 可讓您使用任何網頁伺服器憑證作為伺服器對伺服器驗證的憑證，前提是：
   
 - 憑證包含 [主旨] 欄位中的 SIP 網功能變數名稱稱。
     
@@ -48,7 +48,7 @@ ms.locfileid: "60844126"
     
 - URLs 以取得空閒/忙碌資訊、整合通訊與離線通訊錄等 Outlook 功能。
     
-- OutlookAnywhere 伺服器設定。
+- Outlook Anywhere 伺服器設定。
     
 您必須先設定自動探索服務，才能整合商務用 Skype Server 和 Exchange Server。 您可以從 Exchange Server 管理命令介面執行下列命令，並檢查 AutoDiscoverServiceInternalUri 屬性的值，以確認是否已設定自動探索服務：
   
@@ -66,7 +66,7 @@ Get-ClientAccessServer | Set-ClientAccessServer -AutoDiscoverServiceInternalUri 
 
 如需自動探索服務的詳細資訊，請參閱 [自動探索服務](/Exchange/architecture/client-access/autodiscover)。
   
-設定自動探索服務之後，您必須修改商務用 Skype Server OAuth 設定設定;這可確保商務用 Skype Server 知道找到自動探索服務的位置。 若要修改商務用 Skype Server 中的 OAuth 設定設定，請從商務用 Skype Server 管理命令介面內執行下列命令。 執行此命令時，請確定您指定的是在您的 Exchange Server 上執行之自動探索服務的 URI，並使用 **自動探索。 svc** 指向服務位置，而不是 **autodiscover.xml** (指向服務) 所使用的 XML 檔案：
+設定自動探索服務之後，您必須修改商務用 Skype Server OAuth 的設定，這可確保商務用 Skype Server 知道要在何處找到自動探索服務。 若要修改商務用 Skype Server 中的 OAuth 設定設定，請從商務用 Skype Server 管理命令介面內執行下列命令。 執行此命令時，請確定您指定的是在您的 Exchange Server 上執行之自動探索服務的 URI，並使用 **自動探索。 svc** 指向服務位置，而不是 **autodiscover.xml** (指向服務) 所使用的 XML 檔案：
   
 ```PowerShell
 Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://autodiscover.litwareinc.com/autodiscover/autodiscover.svc" 
@@ -83,13 +83,13 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
   
 除了設定自動探索服務之外，您還必須為指向您的 Exchange Server 的服務建立 DNS 記錄。 例如，如果您的自動探索服務位於 autodiscover.litwareinc.com，您將需要為 autodiscover.litwareinc.com 建立 DNS 記錄，以便解析為 Exchange Server (的完整功能變數名稱，例如 atl-exchange-001.litwareinc.com) 。
   
-如果您要將商務用 Skype Server 與 Exchange Online 整合，接下來的步驟是在[內部部署商務用 Skype Server 和 Outlook Web App 之間設定整合](../../deploy/integrate-with-exchange-server/outlook-web-app.md)，否則請參閱[整合商務用 Skype Server 與 Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。
+如果您要將商務用 Skype Server 與 Exchange Online 整合，接下來的步驟是在[內部部署商務用 Skype Server 和 Outlook Web App 之間設定整合](../../deploy/integrate-with-exchange-server/outlook-web-app.md)，否則請參閱[整合使用 Exchange Server 商務用 Skype Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。
   
 ## <a name="feature-support"></a>功能支援
 <a name="feature_support"> </a>
 
 >[!Important]
-> 商務用 Skype線上將于2021年7月31日（包含服務將不再支援的 Exchange 整合）後終止。
+> 線上商務用 Skype 已于2021年7月31日停用。 已不再支援包含服務之下列所列的 Exchange 整合。
 
 下表說明 Exchange 和商務用 Skype 的各項線上或內部部署所支援的功能。
   
@@ -110,7 +110,7 @@ Set-CsOAuthConfiguration -Identity global -ExchangeAutodiscoverUrl "https://auto
 |錯過的交談記錄及通話記錄會寫入使用者的 exchange 信箱   |Y   |Y   |Y   |Y   |Y   |
 |在 Exchange 中封存 (IM 和會議) 中的內容   |Y (需要 Exchange 2016/2013)    |Y   |N   |N   |Y   |
 |搜尋封存的內容   |Y (需要 Exchange 2016/2013)    |Y   |N   |N   |Y   |
-|ExchangeUM 語音信箱   |Y   |Y   |N   |N   |N   |
+|Exchange UM 語音信箱   |Y   |Y   |N   |N   |N   |
 |伺服器端交談記錄   |Y   |Y   |N   |Y   |Y   |
 
 > [!NOTE]

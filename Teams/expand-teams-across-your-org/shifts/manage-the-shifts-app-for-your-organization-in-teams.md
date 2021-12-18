@@ -1,9 +1,9 @@
 ---
 title: 管理組織的 [班次] 應用程式
-author: serdarsoysal
-ms.author: serdars
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: lisawu,gumariam
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: 瞭解如何在組織中為前線員工Teams中設定及管理 Shifts 應用程式。
+description: 瞭解如何在組織中為前線員工Teams並管理 Shifts 應用程式。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 87389dfaba68de8cfe02f3291e03d593bb9de75b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: d474198bc644563007428ac50a85f8f839a9e1dc
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605829"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562926"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [班次] 應用程式
 
@@ -41,7 +41,7 @@ ms.locfileid: "60605829"
 - 主管建立、更新及管理團隊的排班表。 主管也可以傳送訊息給單一個人 (「地板上有打翻的液體」) 或整個團隊 (「區域總經理將於 20 分鐘後抵達」)。 主管還可以傳送原則文件、新訊佈告欄或影片。
 - 員工可查看預排的班次、查看當天還有誰已排班、要求調班或調班，以及要求請假。
 
-請注意，Shifts 目前不支援來賓。 這表示在 Teams 中開啟來賓存取時，團隊中的來賓無法新增或使用班次排程。 
+請注意，Shifts 目前不支援來賓。 這表示在 Teams 中開啟來賓存取時，團隊中的來賓無法新增或使用班次排程。
 
 > [!Note]
 > 如需有關不同平台上班次功能的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
@@ -70,19 +70,15 @@ ms.locfileid: "60605829"
 
 若要允許或封鎖貴組織的特定使用者使用 Shifts，請確定貴組織在管理應用程式頁面上已開啟[Shifts。](../../manage-apps.md) 然後建立自訂應用程式權限原則，並將其指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](../../teams-app-permission-policies.md)。
 
-### <a name="use-the-firstlineworker-app-setup-policy-to-pin-shifts-to-teams"></a>使用 FirstLineWorker 應用程式設定政策將 Shifts 釘Teams
+### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>使用應用程式設定策略將 Shifts 釘Teams
 
-應用程式設定原則可讓您自訂 Teams，以醒目提示對貴組織中使用者最重要的應用程式。 您在原則中設定的應用程式會釘選到應用程式列&mdash;位於 Teams 桌面版用戶端側邊列，以及位於 Teams 行動版用戶端底部&mdash;，可讓使用者快速且輕鬆地存取。
- 
-Teams內建的 FirstLineWorker 應用程式設定策略，您可以指派給貴組織的前線工作人員。 根據預設，此原則包含活動、班次、聊天和通話應用程式。
+應用程式設定原則可讓您自訂 Teams，以醒目提示對貴組織中的使用者最重要的應用程式。 您在原則中設定的應用程式會釘選到應用程式列&mdash;位於 Teams 桌面版用戶端側邊列，以及位於 Teams 行動版用戶端底部&mdash;，可讓使用者快速且輕鬆地存取。
 
-若要查看 FirstLineWorker 政策，在系統管理中心的左側導Microsoft Teams，請前往 Teams **設定**  >  **策略**。
+您可以新增 [Shifts](../../teams-app-setup-policies.md) 應用程式來建立自訂應用程式設定策略，然後將該策略 [指派](../../assign-policies-users-and-groups.md) 給使用者。 或者，您可以使用屬於前線員工和 Frontline Manager 策略套件的應用程式設定策略。
 
-:::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="系統管理中心中 FirstLineWorker 應用程式設定Microsoft Teams的螢幕擷取畫面" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
+其中[一個](../../manage-policy-packages.md)Teams套件是預先定義的策略和設定集合，您可以指派給組織中具有類似角色的使用者。 Frontline Worker 和 Frontline Manager 策略套件中的一群組原則包含將 Shifts App 和其他支援該角色通訊和共同合作活動的 App 設定策略。
 
-#### <a name="assign-the-firstlineworker-app-setup-policy-to-users"></a>指派 FirstLineWorker 應用程式設定策略給使用者
-
-[!INCLUDE [assign-policy](../../includes/assign-policy.md)]
+我們建議您使用前線員工和 Frontline Manager 策略套件，以簡化、簡化，並有助於在管理前線員工的政策時提供一致性。
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>搜尋班次活動的稽核記錄檔
 
@@ -95,4 +91,4 @@ Teams內建的 FirstLineWorker 應用程式設定策略，您可以指派給貴�
 ## <a name="related-topics"></a>相關主題
 
 - [第一線員工輪班協助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [在 Teams 中將原則指派給使用者](../../policy-assignment-overview.md)
+- [將原則指派給 Teams 中的使用者](../../policy-assignment-overview.md)

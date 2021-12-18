@@ -19,19 +19,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: 若要讓使用者在 (雲端 PBX) 上使用電話系統，您必須先將它們啟用企業語音並為其指派電話號碼。 您可以使用內部部署來執行這項作業，而使用者仍會駐留在內部部署中。
-ms.openlocfilehash: 29fd1eff47a73c7e3469ab7967a1f7cb0a006a75
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a71b47b5b7b5ec7ca7328bbe9b0ee864b87f36ac
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012507"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563712"
 ---
 # <a name="enable-the-users-for-enterprise-voice-on-premises"></a>在內部部署上啟用使用者企業語音
  
 若要讓使用者在 (雲端 PBX) 上使用電話系統，您必須先將它們啟用企業語音並為其指派電話號碼。 您可以使用內部部署來執行這項作業，而使用者仍會駐留在內部部署中。
 
 > [!Important]
-> 商務用 Skype線上將于2021年7月31日停用，在此之後將無法再存取服務。  此外，您的內部部署環境之間的 PSTN 連線是否會有商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype 線上，都不再支援。  瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線至 Teams。
+> 已不再支援內部部署環境（不論是透過商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype 線上）的7月31日、2021和 PSTN 連線，已停用商務用 Skype 線上。  瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線至 Teams。
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>讓使用者在內部部署企業語音並指派電話號碼
 
