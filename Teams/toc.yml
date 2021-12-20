@@ -1415,6 +1415,8 @@ items:
             href: devices/collab-bar-deploy.md
           - name: 設定 Microsoft Teams Android 裝置使用者介面
             href: devices/Teams-Android-devices-user-interface.md
+          - name: 適用於 Android 裝置的驗證最佳做法
+            href: devices/authentication-best-practices-for-android-devices.md
           - name: 會議室裝置和解決方案
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: 經過 Teams 認證的裝置
