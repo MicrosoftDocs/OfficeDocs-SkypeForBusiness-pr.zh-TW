@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 173986bdad846d27a7bd3ae5890269b88a58b3a2
-ms.sourcegitcommit: cd4eb94d0b1e9316fca2e2b771b2286eaa866ba4
+ms.openlocfilehash: 8ffa30efd7f122b6d95c4545dd2d2517f3669472
+ms.sourcegitcommit: 73d12d90fc20e3d943301f57ee434379d0b0e91b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/18/2021
-ms.locfileid: "61566284"
+ms.lasthandoff: 12/21/2021
+ms.locfileid: "61576163"
 ---
 # <a name="authentication-best-practices-for-teams-android-devices"></a>Android 裝置Teams驗證最佳做法
 
@@ -35,12 +35,12 @@ ms.locfileid: "61566284"
 >條件式 Access 需要Azure Active Directory (Azure AD) 進階版訂閱。
 
 >[!NOTE]
->Android 行動裝置原則可能不適用於 Android Teams裝置。 
+>Android 行動裝置原則可能不適用於 Android Teams裝置。
 
 
-## <a name="user-based-devices-vs-common-area-devices"></a>使用者型裝置與一般區域裝置
+## <a name="personal-and-shared-devices"></a>個人及共用裝置
 
-共用團隊裝置 ，例如會議室裝置或一般地區電話，無法對通常適用于個人裝置之註冊和合規性使用相同的需求。 將個人裝置驗證需求適用于共用裝置會造成下列登錄問題： 
+共用Teams裝置 ，例如會議室裝置或一般地區電話，無法對通常適用于個人裝置之註冊和合規性使用相同的需求。 將個人裝置驗證需求適用于共用裝置會造成下列登錄問題：
 
 1.  **由於密碼政策，裝置已退出**
 
