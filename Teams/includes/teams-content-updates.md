@@ -3,6 +3,44 @@
 
 
 
+## <a name="week-of-december-13-2021"></a>2021 年 12 月 13 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 12/13/2021 | [適用于該版本Microsoft Teams 會議室](/MicrosoftTeams/rooms/rooms-release-note) | 改 性 |
+| 12/13/2021 | [設定 SIP 閘道](/MicrosoftTeams/sip-gateway-configure) | 改 性 |
+| 12/13/2021 | [已知問題](/MicrosoftTeams/rooms/known-issues) | 改 性 |
+| 12/13/2021 | [Microsoft Teams PowerShell 版本資訊](/MicrosoftTeams/teams-powershell-release-notes) | 改 性 |
+| 12/14/2021 | [在系統稱讚管理中心管理 Teams應用程式](/MicrosoftTeams/manage-praise-app) | 改 性 |
+| 12/14/2021 | [使用 Teams 安裝Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | 改 性 |
+| 12/14/2021 | [登出 Microsoft Teams](/MicrosoftTeams/sign-out-of-teams) | 改 性 |
+| 12/14/2021 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 改 性 |
+| 12/14/2021 | [協助升級 \| 商務Skype Online Teams升級](/MicrosoftTeams/upgrade-assisted) | 改 性 |
+| 12/14/2021 | [管理外部存取 (同盟)](/MicrosoftTeams/manage-external-access) | 改 性 |
+| 12/14/2021 | [將電話號碼轉接到Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | 改 性 |
+| 12/15/2021 | [為一線員工大規模佈建 Microsoft Teams](/MicrosoftTeams/flw-scripted-deployment) | 改 性 |
+| 12/16/2021 | [管理一般會議政策](/MicrosoftTeams/meeting-policies-in-teams-general) | 改 性 |
+| 12/16/2021 | [從商務用 Skype 升級至 Teams 的常見問題集](/MicrosoftTeams/faq-journey) | 改 性 |
+| 12/16/2021 | [在 Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | 改 性 |
+| 12/16/2021 | [管理外部存取 (同盟)](/MicrosoftTeams/manage-external-access) | 改 性 |
+| 12/16/2021 | [管理參與者和來賓的會議政策](/MicrosoftTeams/meeting-policies-participants-and-guests) | 改 性 |
+| 12/16/2021 | [終止對商務用 Skype Online 的支援](/MicrosoftTeams/skype-for-business-online-retirement) | 改 性 |
+| 12/16/2021 | [選擇從 商務用 Skype 到 Microsoft Teams](/MicrosoftTeams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) | 改 性 |
+| 12/16/2021 | [協助升級 \| 商務Skype Online Teams升級](/MicrosoftTeams/upgrade-assisted) | 改 性 |
+| 12/16/2021 | [升級商務 \| Skype檢查清單Teams升級 \| 基本步驟](/MicrosoftTeams/upgrade-basic) | 改 性 |
+| 12/16/2021 | [定義要升級商務用 Skype Microsoft Teams範圍](/MicrosoftTeams/upgrade-define-project-scope) | 改 性 |
+| 12/16/2021 | [關於升級架構 - 商務用 Skype Teams](/MicrosoftTeams/upgrade-framework) | 改 性 |
+| 12/16/2021 | [將商務用 Skype內部部署升級至Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinesshybridonprem) | 改 性 |
+| 12/16/2021 | [從線上商務用 Skype升級至Microsoft Teams](/MicrosoftTeams/upgrade-to-teams-execute-skypeforbusinessonline) | 改 性 |
+| 12/17/2021 | [規劃直接路由](/MicrosoftTeams/direct-routing-plan) | 改 性 |
+| 12/17/2021 | [管理組織的 [班次] 應用程式](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 改 性 |
+| 12/17/2021 | [使用前線員工上線精靈，讓前線員工上線並順利上線](/MicrosoftTeams/flw-onboarding-wizard) | 改 性 |
+| 12/17/2021 | [前線工作者快速入門手冊](/MicrosoftTeams/flw-quickstart) | 改 性 |
+| 12/17/2021 | [會議Teams以策略為基礎的錄製&簡介](/MicrosoftTeams/teams-recording-policy) | 改 性 |
+| 12/17/2021 | [Android 裝置驗證最佳做法](/MicrosoftTeams/devices/authentication-best-practices-for-android-devices) | 添加 |
+
+
 ## <a name="week-of-december-06-2021"></a>2021 年 12 月 6 日周
 
 
@@ -58,7 +96,7 @@
 | 11/30/2021 | [Microsoft EDU 家長應用程式在 Teams](/MicrosoftTeams/edu-parents-app) | 改 性 |
 | 12/1/2021 | [連線 Microsoft Teams使用 (AAD識別) 至現有的電子郵件系統](/MicrosoftTeams/connect-teams-essentials-to-email) | 添加 |
 | 12/1/2021 | [適用於小型企業的 Teams 基本版快速入門指南](/MicrosoftTeams/get-started-with-teams-essentials) | 添加 |
-| 12/1/2021 | [設定運算子連線會議](/MicrosoftTeams/operator-connect-conferencing-configure) | 添加 |
+| 12/1/2021 | [設定接線連線會議](/MicrosoftTeams/operator-connect-conferencing-configure) | 添加 |
 | 12/1/2021 | [規劃接線連線會議](/MicrosoftTeams/operator-connect-conferencing-plan) | 添加 |
 | 12/1/2021 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 改 性 |
 | 12/1/2021 | [即時活動錄製政策](/MicrosoftTeams/teams-live-events/live-events-recording-policies) | 改 性 |
@@ -108,7 +146,7 @@
 | 11/23/2021 | [使用 Microsoft Teams 會議室 或 Microsoft 365 部署Office 365](/MicrosoftTeams/rooms/with-office-365) | 改 性 |
 | 11/24/2021 | [在 Outlook 中使用 Microsoft Teams 會議增益集](/MicrosoftTeams/teams-add-in-for-outlook) | 改 性 |
 | 11/24/2021 | [Exchange 和 Microsoft Teams 如何互動](/MicrosoftTeams/exchange-teams-interact) | 改 性 |
-| 11/24/2021 | [Microsoft Teams面板上的 LOB (LOB) 應用程式支援Teams應用程式](/MicrosoftTeams/app-support-on-teams-panels) | 改 性 |
+| 11/24/2021 | [Microsoft Teams面板上的商務 (LOB) APP 支援Teams應用程式支援](/MicrosoftTeams/app-support-on-teams-panels) | 改 性 |
 | 11/24/2021 | [Teams 雲端會議錄製](/MicrosoftTeams/cloud-recording) | 改 性 |
 | 11/24/2021 | [在 Microsoft Teams 中設定桌面共用](/MicrosoftTeams/configure-desktop-sharing) | 改 性 |
 | 11/24/2021 | [Cortana語音協助Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | 改 性 |
@@ -152,7 +190,7 @@
 | 11/17/2021 | [設定貴組織的 [通訊點數]](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 改 性 |
 | 11/17/2021 | [Microsoft Teams使用者活動報告](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 改 性 |
 | 11/17/2021 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 改 性 |
-| 11/17/2021 | [外線通話限制 - PSTN 通話&會議](/MicrosoftTeams/outbound-calling-restriction-policies) | 改 性 |
+| 11/17/2021 | [外線通話限制 - PSTN &音訊會議](/MicrosoftTeams/outbound-calling-restriction-policies) | 改 性 |
 | 11/17/2021 | [使用即時遙測來疑難排解會議品質不佳的問題](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | 改 性 |
 | 11/18/2021 | [在 Android 裝置上遠端Teams和登錄](/MicrosoftTeams/devices/remote-provision-remote-login) | 改 性 |
 | 11/18/2021 | [在 Android 裝置上遠端Teams登出](/MicrosoftTeams/devices/remote-sign-in-and-sign-out) | 添加 |
