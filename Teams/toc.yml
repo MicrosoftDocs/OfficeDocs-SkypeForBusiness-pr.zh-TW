@@ -1461,7 +1461,7 @@ items:
             href: purchase-third-party-apps.md
       - name: 適用於 Teams 的應用程式範本
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
-      - name: 如何建立及自訂您自己的應用程式
+      - name: 如何建立及自訂應用程式
         items:
           - name: 與 Power Platform 整合
             href: teams-power-platfom-integration.md
@@ -1471,14 +1471,26 @@ items:
             href: submit-approve-custom-apps.md
           - name: 透過上傳應用程式套件發佈自訂應用程式
             href: upload-custom-apps.md
+          - name: 在 Teams 中自訂應用程式
+            href: customize-apps.md
           - name: 自訂應用程式商城
             href: customize-your-app-store.md
+          - name: 使用內建和自訂索引標籤
+            href: built-in-custom-tabs.md
       - name: 管理 Teams 應用程式
         items:
           - name: 概觀
             href: manage-apps.md
-          - name: 管理 Teams 中的應用程式原則
-            href: app-policies.md
+          - name: 應用程式原則
+            items:
+              - name: 管理 Teams 中的應用程式原則
+                href: app-policies.md
+              - name: 在 Teams 中管理應用程式權限原則
+                href: teams-app-permission-policies.md
+              - name: 在 Teams 中管理應用程式設定原則
+                href: teams-app-setup-policies.md
+              - name: 在 Teams 中管理自訂應用程式原則和設定
+                href: teams-custom-app-policies-and-settings.md
           - name: 檢視應用程式權限並授與系統管理員同意
             href: app-permissions-admin-center.md
           - name: 特定資源的同意
@@ -1487,20 +1499,10 @@ items:
             href: app-permissions.md
           - name: 在 Teams 中的應用程式系統管理設定
             href: admin-settings.md
-          - name: 使用內建和自訂索引標籤
-            href: built-in-custom-tabs.md
           - name: 使用 Microsoft 365 或 Office 365 和自訂連接器
             href: Office-365-custom-connectors.md
           - name: 非標準使用者的 Teams 應用程式行爲
             href: non-standard-users.md
-          - name: 在 Teams 中管理應用程式權限原則
-            href: teams-app-permission-policies.md
-          - name: 在 Teams 中管理應用程式設定原則
-            href: teams-app-setup-policies.md
-          - name: 在 Teams 中管理自訂應用程式原則和設定
-            href: teams-custom-app-policies-and-settings.md
-          - name: 在 Teams 中自訂應用程式
-            href: customize-apps.md
           - name: 更新應用程式體驗
             href: apps-update-experience.md
   - name: 產業和政府指引
@@ -1634,7 +1636,7 @@ items:
             href: approval-admin.md
           - name: 管理清單應用程式
             href: manage-lists-app.md
-          - name: 在 Teams 中管理組織的班次應用程式
+          - name: 管理班次應用程式
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
           - name: 管理組織的 Tasks 應用程式
             href: manage-tasks-app.md
