@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 會議室入口網站
+title: 多租使用者稽核
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: TRM 的稽核記錄。
 f1keywords: ''
-ms.openlocfilehash: e5e5cd25385f6e8a71484c57aa9c44da5d4c9cd8
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: bb002ad546553e906339b03ff7b36ff2ccce8506
+ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331222"
+ms.lasthandoff: 12/28/2021
+ms.locfileid: "61620527"
 ---
 # <a name="audit-logging-in-the-teams-rooms-managed-service"></a>在受管理服務Teams 會議室稽核記錄
 
@@ -64,7 +64,7 @@ ms.locfileid: "61331222"
 |activity.operation|執行的操作類型。 可能的值為： **建立、更新、刪除** |
 |activity.resultStatus|<p>指出在 **activity.operation** (屬性中指定的) 動作是否成功。</p><p>該值為成功 **或****失敗**。</p>|
 |activity.tenantId|執行動作的租使用者 GUID|
-|creationTime|當使用者執行活動時，[協調通用時間 (UTC) 以 ISO 格式顯示。|
+|creationTime|使用者執行活動時， (UTC) 以 ISO 格式顯示。|
 |user.userId|執行導致記錄記錄之動作的使用者。|
 |user.userTenantId|執行動作之使用者的租使用者 GUID|
 
