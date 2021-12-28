@@ -3,6 +3,17 @@
 
 
 
+## <a name="week-of-december-20-2021"></a>2021 年 12 月 20 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 12/20/2021 | [規劃手機Teams和顯示器的部署](/MicrosoftTeams/devices/plan-device-deployment) | 添加 |
+| 12/20/2021 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 改 性 |
+| 12/21/2021 | [Teams 中的 Shifts](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 改 性 |
+| 12/22/2021 | [Teams 中的 Shifts](/MicrosoftTeams/expand-teams-across-your-org/shifts-for-teams-landing-page) | 改 性 |
+
+
 ## <a name="week-of-december-13-2021"></a>2021 年 12 月 13 日周
 
 
@@ -146,7 +157,7 @@
 | 11/23/2021 | [使用 Microsoft Teams 會議室 或 Microsoft 365 部署Office 365](/MicrosoftTeams/rooms/with-office-365) | 改 性 |
 | 11/24/2021 | [在 Outlook 中使用 Microsoft Teams 會議增益集](/MicrosoftTeams/teams-add-in-for-outlook) | 改 性 |
 | 11/24/2021 | [Exchange 和 Microsoft Teams 如何互動](/MicrosoftTeams/exchange-teams-interact) | 改 性 |
-| 11/24/2021 | [Microsoft Teams面板上的商務 (LOB) APP 支援Teams應用程式支援](/MicrosoftTeams/app-support-on-teams-panels) | 改 性 |
+| 11/24/2021 | [Microsoft Teams面板上的 LOB (LOB) 應用程式支援Teams應用程式](/MicrosoftTeams/app-support-on-teams-panels) | 改 性 |
 | 11/24/2021 | [Teams 雲端會議錄製](/MicrosoftTeams/cloud-recording) | 改 性 |
 | 11/24/2021 | [在 Microsoft Teams 中設定桌面共用](/MicrosoftTeams/configure-desktop-sharing) | 改 性 |
 | 11/24/2021 | [Cortana語音協助Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | 改 性 |
@@ -166,45 +177,3 @@
 | 11/24/2021 | [管理應用程式中的應用程式設定Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | 改 性 |
 | 11/24/2021 | [在 Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 改 性 |
 | 11/24/2021 | [在 Microsoft Teams 中設定即時活動](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 改 性 |
-
-
-## <a name="week-of-november-15-2021"></a>2021 年 11 月 15 日周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 11/15/2021 | [使用虛擬Teams - 整合至 Cerner EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | 改 性 |
-| 11/15/2021 | [等候音樂](/MicrosoftTeams/music-on-hold) | 改 性 |
-| 11/16/2021 | [電話系統直接路由](/MicrosoftTeams/direct-routing-protocols-sip) | 改 性 |
-| 11/16/2021 | [Microsoft Teams 原則控制概覽](/MicrosoftTeams/policy-control-overview) | 改 性 |
-| 11/16/2021 | [與商務用 Skype 共存](/MicrosoftTeams/coexistence-chat-calls-presence) | 改 性 |
-| 11/17/2021 | [呼叫佇列&自動助理](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 改 性 |
-| 11/17/2021 | [Teams 中的核准應用程式可用性](/MicrosoftTeams/approval-admin) | 改 性 |
-| 11/17/2021 | [Microsoft Teams 中 Education Insights 的 IT 系統管理員指南](/MicrosoftTeams/class-insights) | 改 性 |
-| 11/17/2021 | [適用于 Teams](/MicrosoftTeams/devices/teams-ip-phones) | 改 性 |
-| 11/17/2021 | [設定會話邊界控制器 - 多個租使用者](/MicrosoftTeams/direct-routing-sbc-multiple-tenants) | 改 性 |
-| 11/17/2021 | [管理貴組織的設定](/MicrosoftTeams/enable-features-office-365) | 改 性 |
-| 11/17/2021 | [法國的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-france) | 改 性 |
-| 11/17/2021 | [德國的電話號碼管理](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-germany) | 改 性 |
-| 11/17/2021 | [管理參與者和來賓的會議政策](/MicrosoftTeams/meeting-policies-participants-and-guests) | 改 性 |
-| 11/17/2021 | [設定貴組織的 [通訊點數]](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 改 性 |
-| 11/17/2021 | [Microsoft Teams使用者活動報告](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 改 性 |
-| 11/17/2021 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 改 性 |
-| 11/17/2021 | [外線通話限制 - PSTN &音訊會議](/MicrosoftTeams/outbound-calling-restriction-policies) | 改 性 |
-| 11/17/2021 | [使用即時遙測來疑難排解會議品質不佳的問題](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | 改 性 |
-| 11/18/2021 | [在 Android 裝置上遠端Teams和登錄](/MicrosoftTeams/devices/remote-provision-remote-login) | 改 性 |
-| 11/18/2021 | [在 Android 裝置上遠端Teams登出](/MicrosoftTeams/devices/remote-sign-in-and-sign-out) | 添加 |
-| 11/18/2021 | [Microsoft Teams PowerShell 版本資訊](/MicrosoftTeams/teams-powershell-release-notes) | 改 性 |
-| 11/18/2021 | [在應用程式中管理 Bookings Microsoft Teams](/MicrosoftTeams/bookings-app-admin) | 改 性 |
-| 11/18/2021 | [適用於非營利組織的 Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-nonprofit-landing-page) | 改 性 |
-| 11/18/2021 | [設定運算子連線](/MicrosoftTeams/operator-connect-configure) | 改 性 |
-| 11/18/2021 | [使用 Microsoft Teams 限域目錄搜尋](/MicrosoftTeams/teams-scoped-directory-search) | 改 性 |
-| 11/19/2021 | [會議政策與會議到期Microsoft Teams](/MicrosoftTeams/meeting-expiration) | 改 性 |
-| 11/19/2021 | [管理參與者和來賓的會議政策](/MicrosoftTeams/meeting-policies-participants-and-guests) | 改 性 |
-| 11/19/2021 | [管理會議設定](/MicrosoftTeams/meeting-settings-in-teams) | 改 性 |
-| 11/19/2021 | [使用 Teams 安裝Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | 改 性 |
-| 11/19/2021 | [什麼是移轉訂單？](/MicrosoftTeams/phone-number-calling-plans/port-order-overview) | 改 性 |
-| 11/18/2021 | 針對 Microsoft Teams 中的來賓存取問題進行疑難排解 | 刪除 |
-| 11/19/2021 | [升級商務 \| Skype檢查清單Teams升級 \| 基本步驟](/MicrosoftTeams/upgrade-basic) | 改 性 |
-| 11/19/2021 | 協助工具聲明一致性 - 法國 | 刪除 |
-| 11/19/2021 | [Microsoft Teams：一致性的協助工具宣告 - 法國](/MicrosoftTeams/accessibility-declaration-of-conformance-in-france-for-teams) | 改 性 |
