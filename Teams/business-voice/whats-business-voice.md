@@ -18,13 +18,15 @@ search.appverid: MET150
 description: Microsoft 365 商務語音是進行語音通話的實惠選擇，可讓中小型企業更有效率地溝通。
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-may2020
-ms.openlocfilehash: ca77599cde5c52193481afd37c20c35b6b311a15
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.custom:
+- seo-marvel-may2020
+- intro-overview
+ms.openlocfilehash: ef246d079de5dc75b4838953be53b79c50666b9a
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607860"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625784"
 ---
 # <a name="what-is-microsoft-365-business-voice"></a>什麼是 Microsoft 365 商務語音？
 

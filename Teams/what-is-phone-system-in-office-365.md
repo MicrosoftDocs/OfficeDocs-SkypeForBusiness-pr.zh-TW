@@ -20,23 +20,24 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
+- intro-overview
 description: 在本文中，您將瞭解 Teams 電話系統 中Microsoft 365。
-ms.openlocfilehash: a0e1679c580ba6b53af7e43e6e8231a90b636e34
-ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
+ms.openlocfilehash: 7d873ac9ec3b4d31eea8d5a002ba0b5ba752f7cb
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61262127"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625804"
 ---
 # <a name="what-is-teams-phone"></a>什麼是Teams 電話
 
-Teams 電話 Microsoft 的技術，可啟用通話控制與私人分支 Exchange (PBX) 雲端Microsoft 365功能Microsoft Teams。
+Teams 電話 Microsoft 的技術，可啟用通話控制與私人分支Exchange (PBX) 雲端Microsoft 365功能Microsoft Teams。
 
 Teams 電話用戶端Teams認證裝置。 Teams 電話可讓您將現有的 PBX 系統取代為一組直接從 Microsoft 365。
 
-貴組織使用者之間的通話在內部處理Teams 電話，而且永遠不會前往 PSTN (電話) 。 這適用于貴組織中位於不同地理區域的使用者之間的通話，這可移除這些內部通話的長途費用。 
+貴組織中使用者之間的通話在內部處理Teams 電話，而且永遠不會前往 PSTN (公用交換電話) 。 這適用于貴組織中位於不同地理區域的使用者之間的通話，這可移除這些內部通話的長途費用。 
 
-若要撥打外部電話，Teams 電話提供附加元件選項以連接到 PSTN。 有關語音解決方案和 PSTN 連接選項的詳細資訊，請參閱規劃您的Teams[語音](cloud-voice-landing-page.md)解決方案，連線[PSTN。](#connect-to-the-public-switched-telephone-network-pstn)
+若要撥打外部電話，Teams 電話提供附加元件選項以連接到 PSTN。 有關語音解決方案和 PSTN 連接選項的詳細資訊，請參閱規劃您的Teams[語音](cloud-voice-landing-page.md)解決方案連線[PSTN。](#connect-to-the-public-switched-telephone-network-pstn)
 
 ## <a name="teams-phone-features"></a>Teams 電話功能
 
@@ -51,7 +52,7 @@ Teams 電話系統管理員可以從用於傳訊、共同合作等的同一個�
   
 針對外部通話，Teams 電話數種方式之一，將電話連接到 PSTN：
   
-- 在國內和國際電話 (購買 Microsoft 通話) 。 Microsoft 通話方案是一種以 Microsoft 做為 PSTN 電信公司的全雲端解決方案。 詳細資訊，請參閱Teams 電話[通話方案](calling-plan-landing-page.md)。
+- 購買 Microsoft 通話方案 (國內或國內及國際電話) 。 Microsoft 通話方案是一種以 Microsoft 做為 PSTN 電信公司的全雲端解決方案。 詳細資訊，請參閱Teams 電話[通話方案](calling-plan-landing-page.md)。
 
 - 使用現有的電話基礎結構進行內部部署 PSTN 連接。
 
@@ -70,7 +71,7 @@ Teams 電話可用於服務和語音信箱，例如：
 
 - **語音** 信箱 - 雲端語音信箱會自動為所有使用者設定Teams設定。 請參閱[設定雲端語音信箱。](set-up-phone-system-voicemail.md)
 
-如要取得功能詳細資訊，請參閱[以下](here-s-what-you-get-with-phone-system.md)這些功能Teams 電話。 如果您已準備好開始使用，請參閱在Teams 電話[中設定您的工作。](setting-up-your-phone-system.md)
+如要取得功能詳細資訊，請參閱[以下](here-s-what-you-get-with-phone-system.md)這些功能Teams 電話。 如果您準備好要開始使用，請參閱在Teams 電話[中設定帳戶](setting-up-your-phone-system.md)。
 
 ## <a name="related-topics"></a>相關主題
 

@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
-ms.openlocfilehash: 4ff1118818ac22040e9bf9f8c44288991e24d8b0
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: ed042552ea6057c8184b4dad444afa543550b052
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205303"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625914"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
@@ -46,7 +46,7 @@ ms.locfileid: "61205303"
 
 您必須是 Teams 系統管理員才能進行這些變更。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
 
-1. 移至 [Teams 系統管理中心](https://admin.teams.microsoft.net)。
+1. 移至 [Teams 系統管理中心](https://admin.teams.microsoft.com)。
 
 2. 在左側導覽中，移至 [會議]  >  [會議設定]。
 
@@ -84,7 +84,7 @@ ms.locfileid: "61205303"
 
 您必須是 Teams 服務系統管理員才能存取此設定。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
 
-1. 移至系統管理中心。
+1. 移至 [Teams 系統管理中心](https://admin.teams.microsoft.com)。
 
 2. 在左側導覽中，移至 [會議]  >  [會議設定]。
 
@@ -109,7 +109,7 @@ ms.locfileid: "61205303"
 
  **使用 Microsoft Teams 系統管理中心**
 
-1. 移至系統管理中心。
+1. 移至 [Teams 系統管理中心](https://admin.teams.microsoft.com)。
 2. 在左側導覽中，移至 [會議]  >  [會議設定]。
 3. 在 [電子郵件邀請] 底下，執行下列動作：
 
@@ -141,7 +141,7 @@ ms.locfileid: "61205303"
 > 如果您在 Microsoft Teams 系統管理中心針對 Teams 服務啟用 QoS 或變更設定，您也必須[將相符設定套用到所有使用者裝置](QoS-in-Teams-clients.md)和所有內部網路裝置，以便對 Teams 中的 QoS 完整實作變更。
 
   **使用 Microsoft Teams 系統管理中心**
-1. 移至系統管理中心。
+1. 移至 [Teams 系統管理中心](https://admin.teams.microsoft.com)。
 2. 在左側導覽中，移至 [會議]  >  [會議設定]。
 3. 在 [網路] 底下，執行下列動作：
 

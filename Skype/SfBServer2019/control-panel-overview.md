@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 本文提供新增控制台的概述。
-ms.openlocfilehash: 355a8b93e428b860a775ad01cf31df726c644654
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 7def5267b88260b66b6aa345c9585b83659f6ea3
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887301"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625934"
 ---
 # <a name="control-panel"></a>控制台
 
@@ -65,3 +65,33 @@ ms.locfileid: "60887301"
 |---------|---------|
 |檔案篩選器         |    [檔案篩選](use-powershell-im-and-presence-menu.md#file-filter)     |
 |URL 篩選器      |  [URL 篩選](use-powershell-im-and-presence-menu.md#url-filter)       |
+
+## <a name="monitoring-and-archiving"></a>監控和封存
+
+|子功能表  |Cmdlet 的資訊來源  |
+|---------|---------|
+|詳細通話記錄       |    [詳細通話記錄](use-powershell-monitoring-and-archiving-menu.md#call-detail-recording)     |
+|經驗品質資料      |  [經驗品質資料](use-powershell-monitoring-and-archiving-menu.md#quality-of-experience-data)       |
+|封存原則       |    [封存原則](use-powershell-monitoring-and-archiving-menu.md#archiving-policy)     |
+|封存組態      |  [封存組態](use-powershell-monitoring-and-archiving-menu.md#archiving-configuration)       |
+
+## <a name="network-configuration"></a>網路設定
+
+|子功能表  |Cmdlet 的資訊來源  |
+|---------|---------|
+|位置原則       |    [位置原則](use-powershell-network-configuration-menu.md#location-policy)     |
+|頻寬原則      |  [頻寬原則](use-powershell-network-configuration-menu.md#bandwidth-policy)       |
+|區域       |    [地區](use-powershell-network-configuration-menu.md#region)     |
+|網站      |  [Site](use-powershell-network-configuration-menu.md#site)       |
+|子網路      |  [子網路](use-powershell-network-configuration-menu.md#subnet)       |
+|地區連結       |    [地區連結](use-powershell-network-configuration-menu.md#region-link)     |
+|地區路由      |  [地區路由](use-powershell-network-configuration-menu.md#region-route)       |
+
+## <a name="topology"></a>拓撲
+
+|子功能表  |Cmdlet 的資訊來源  |
+|---------|---------|
+|狀態       |    [狀態](use-powershell-topology-menu.md#status)     |
+|伺服器應用程式      |  [伺服器應用程式](use-powershell-topology-menu.md#server-application)       |
+|簡單 URL       |    [簡單 URL](use-powershell-topology-menu.md#simple-url)     |
+|信任的應用程式       |    [信任的應用程式](use-powershell-topology-menu.md#trusted-application)     |
