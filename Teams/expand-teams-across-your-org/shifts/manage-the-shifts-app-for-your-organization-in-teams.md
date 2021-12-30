@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d474198bc644563007428ac50a85f8f839a9e1dc
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: c4b1550ca90515714e509017f4fb13b83414fbf0
+ms.sourcegitcommit: 293d1b8a591d2284029632874067471f8d5bb0ff
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562926"
+ms.lasthandoff: 12/30/2021
+ms.locfileid: "61639687"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [班次] 應用程式
 
@@ -61,10 +61,7 @@ ms.locfileid: "61562926"
 您的組織中的所有 Teams 使用者預設會啟用 [班次]。 您可以在 Microsoft Teams 系統管理中心的[管理應用程式](../../manage-apps.md)頁面上關閉或開啟組織層級的應用程式。
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
-2. 在應用程式清單中，執行下列其中一項動作：
-
-    - 若要關閉貴組織的 [班次]，請搜尋 [班次] 應用程式，加以選取，然後選取 **封鎖**。
-    - 若要開啟貴組織的 [班次]，請搜尋 [班次] 應用程式，加以選取，然後選取 **允許**。
+2. 在應用程式清單中，搜尋 Shifts 應用程式，選取它，然後將狀態切換開關切換為封鎖 **或****允許**。
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>啟用或停用組織中特定使用者的 [班次]
 
