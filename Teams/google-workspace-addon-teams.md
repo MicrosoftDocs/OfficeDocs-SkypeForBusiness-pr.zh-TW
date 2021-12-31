@@ -18,22 +18,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6116567a14aa55a5295b995336b49b30c7bb56ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c5b3d873dd327be4cbc28d4d979ad06cb6f9c9ea
+ms.sourcegitcommit: 9ed5aecbf671accae93ac5084ad7875e82e3858b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846106"
+ms.lasthandoff: 12/31/2021
+ms.locfileid: "61648881"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>設定Microsoft Teams工作區的會議附加元件
 
 使用 Microsoft Teams可讓 Google 日曆使用者直接從 Google 工作區排程Microsoft Teams加入會議。 使用者可以存取會議Teams和音訊會議、螢幕分享、會議聊天、數位白板等。 保持聯繫並井井有條，以在公司、學校及生活中共同完成更多工作。
 
-Microsoft Teams使用者存取應用程式之前，Teams管理員必須啟用 Google Workspace 的會議附加元件。
+Microsoft Teams管理員必須啟用 Google Workspace 的會議附加元件，Teams使用者才能存取應用程式。
 
 ## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>啟用或Microsoft Teams Azure 入口網站中的 Google Workspace 會議附加元件
 
-做為租使用者系統管理員，您可以使用 Azure Microsoft Teams，從組織的系統管理員帳戶啟用或停用 Google Workspace 的會議附加元件。
+做為租使用者系統管理員，您可以使用 Azure 入口網站Microsoft Teams，從組織的系統管理員帳戶啟用或停用 Google Workspace 的會議附加元件。
 
 附加元件預設為啟用。
 
@@ -41,7 +41,7 @@ Microsoft Teams使用者存取應用程式之前，Teams管理員必須啟用 Go
 
 2. 選取 **Enterprise 應用程式**  >  **所有應用程式**。
 
-3. 搜尋 **Microsoft Teams 工作區的會議附加元件**。
+3. 搜尋 **Microsoft Teams工作區的會議附加元件**。
 
    ![顯示所有應用程式的 Azure 入口網站。](media/aad-add-google-workspace.png)
 
@@ -68,13 +68,35 @@ if ($servicePrincipal) {
 } else {
     # Service principal does not yet exist, create it and disable it at the same time
     New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName
-    $servicePrincipal = New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName -AccountEnabled $false
+    Get-AzureADServicePrincipal -Filter "appId eq '$appId'" | Set-AzureADServicePrincipal -AccountEnabled:$false
     Write-Host "Created and disabled the Service Principal \n"
 }
 ```
 
-詳細資訊，請參閱使用 Azure PowerShell 建立[Azure 服務主體](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)。
+詳細資訊，請參閱使用 Azure PowerShell[建立 Azure 服務主體](/powershell/azure/create-azure-service-principal-azureps?view=azps-5.0.0)。
 
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>刪除 Microsoft Teams工作區的會議附加元件
 
 請參閱 Google 檔 [刪除 Google Workspace Marketplace 應用程式](https://support.google.com/a/answer/6216211?hl=en) 以尋找相關指示。
+
+## <a name="create-the-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>使用 PowerShell Microsoft Teams Google Workspace 的會議附加元件
+
+如果您的租Microsoft Teams沒有會議附加元件，您可以使用 PowerShell 建立： 
+
+```powershell
+Connect-AzureAD
+
+$displayName = 'Microsoft Teams meeting add-on for Google Workspace'
+$appId = '7969c887-ba98-48bb-8832-6c9239929d7c'
+
+# Check if a service principal already exists for the app
+$servicePrincipal = Get-AzureADServicePrincipal -Filter "appId eq '$appId'"
+if ($servicePrincipal) {
+    # Service principal exists already
+    Write-Host "The Service principal already exists"
+} else {
+    # Service principal does not yet exist, create it
+    New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName
+    Write-Host "Created the Service Principal"
+}
+```
