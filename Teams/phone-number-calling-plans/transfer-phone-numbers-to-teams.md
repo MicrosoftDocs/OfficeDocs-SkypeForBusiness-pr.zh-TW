@@ -17,18 +17,18 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何使用移轉精靈，將您目前服務提供者的電話號碼Microsoft Teams。
+description: 瞭解如何使用移轉精靈將您目前服務提供者的電話號碼移轉Microsoft Teams。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 39be72edfa013a42fec6dcc60a8555d98be87b57
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
+ms.openlocfilehash: 7650ccf8bee05fec6688e77c0fb9d68f94d18a0f
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513474"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766576"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>將電話號碼轉接到Microsoft Teams
 
-使用系統管理中心Microsoft Teams移轉精靈，將您目前服務提供者的電話號碼移轉Teams。 將電話號碼移植到 Teams之後，Microsoft 會成為您的服務提供者，並且會針對這些電話號碼向您計費。
+使用系統管理中心Microsoft Teams移轉精靈，將您目前服務提供者的電話號碼移Teams。 將電話號碼移植到 Teams之後，Microsoft 會成為您的服務提供者，並且會針對這些電話號碼向您計費。
 
 在您開始之前，建議您先查看什麼是埠 [訂單？](port-order-overview.md) 如果您有電話撥入式會議橋接器的服務號碼、自動語音電話或其他服務號碼、免付費電話號碼，或您需轉接至 Teams 的使用者 (訂閱者) 電話號碼，請參閱管理貴組織的電話號碼，以下載正確的表單並傳送給我們。 [](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
@@ -70,7 +70,7 @@ ms.locfileid: "61513474"
     > [!NOTE]
     > CSV 檔案必須只有一個標題為 PhoneNumber 的欄。 每個電話號碼必須位於另一列，而且只能是數位或 E.164 格式。
 
-6. 在 [**完成您的訂單Upload，** 按一下[授權書Upload上傳已簽署授權書的掃描 (LOA) 。
+6. 在 [**完成您的訂單Upload，** 按一下[授權書Upload，上傳已簽署授權書的掃描 (LOA) 。
 
     如果您尚未下載並簽署 LOA，請執行下列操作：
     
@@ -93,7 +93,7 @@ ms.locfileid: "61513474"
 
 
 ## <a name="reporting-telephone-number-issues"></a>報告電話號碼問題？
-如果您發現前 24-48 小時內的埠號碼有任何問題。 埠完成之後，請聯絡 [TNS 服務台](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。 對於 48 小時以外的任何問題，請 MS 支援小組。
+如果您發現埠完成後的 24-48 小時內，埠號碼發生任何問題，請聯絡 [TNS 服務台](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。 如果問題超過 48 小時，請聯絡 Microsoft 支援小組。
 
 ## <a name="related-topics"></a>相關主題
 

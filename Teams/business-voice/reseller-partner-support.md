@@ -8,13 +8,13 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 瞭解如何從 Microsoft 轉銷商或合作夥伴取得支援，以協助在不使用通話方案下，設定 Microsoft 365 商務語音。
+description: 瞭解如何取得 Microsoft 轉銷商或合作夥伴的支援，協助您Microsoft Teams 電話通話方案。
 appliesto:
 - Microsoft Teams
 no-loc:
@@ -24,35 +24,32 @@ no-loc:
 - Teams
 - Microsoft Teams
 - Office 365
-ms.openlocfilehash: 830ae9c32ab64d672582cb9620a94b320e15e6b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: HT
+ms.openlocfilehash: 31424575d50127161a89f629894673d24f77877b
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618669"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766986"
 ---
 # <a name="get-help-from-a-microsoft-reseller-or-partner"></a>從 Microsoft 轉銷商或合作夥伴取得協助
 
-> [!IMPORTANT]
-> 本文中的資訊僅適用於 **不含** 通話方案的 Business Voice。 閱讀本文之前，請參閱 [Business Voice 的適用國家與地區](country-region-availability.md)，以查看您的國家或地區是否支援含通話方案的 Business Voice。
->
-> 如果您的租用戶位於支援含通話方案的 Business Voice 的國家或地區，請參閱[設定 Microsoft 365 商務語音](set-up-overview.md)。
+若要設定Teams 電話，您可以選擇自己設定，或使用 Microsoft 合作夥伴或銷售商。
 
-設定不含通話方案的 Business Voice 需要設定電話系統直接路由。 直接路由可讓內部部署電話硬體、Microsoft 電話系統 (Business Voice 的核心功能) 和協力廠商公用交換電話網路 (PSTN) 供應商之間進行交互操作。 由於直接路由需要深入了解 Microsoft 電話系統、PSTN 連線、網路及其他技術技能，我們建議您由 Microsoft 合作夥伴或轉銷商來設定。 此外，不含通話方案授權的 Business Voice 只能從 Microsoft 合作夥伴和轉銷商取得。
+您可以流覽與合作夥伴的連線[尋找 Microsoft 轉銷商或](https://appsource.microsoft.com/marketplace/partner-dir)合作夥伴。
 
 Microsoft 合作夥伴或轉銷商可以：
 
-- 為您的租用戶和電話使用者取得正確的 Business Voice 授權
-- 協助您了解設定 Business Voice 的技術需求
-- 與您的電話供應商協調，以確認您的電話號碼已正確設定，以搭配 Business Voice 使用。
+- 為租使用者Teams 電話取得正確的授權
+- 説明您瞭解設定專案的技術Teams 電話
+- 請與電話提供者協調，確定您的電話號碼已正確設定，Teams 電話
 - 設定內部部署電話語音硬體和 Microsoft 365 之間的通訊
-- 協助您設定 Business Voice 功能，例如通話佇列、自動語音應答、語音信箱等
+- 協助您設定Teams 電話佇列、自動語音留言、語音信箱等功能
 
-針對設定不含通話方案的 Business Voice 與 Microsoft 合作夥伴或轉銷商聯繫時，您必須提供以下資訊：
+當您與 Microsoft 合作夥伴或轉銷商聯繫，Teams 電話獨立 (方案) 時，您必須提供相關資訊，例如：
 
 - 多少使用者、電話及其他裝置需要撥打及接聽外部電話號碼
 - 現有電話系統的詳細資料
-- 電話系統與 PSTN 供應商之間的連線詳細資料
+- 您與 PSTN 提供者Microsoft Teams 電話之間的詳細資料
 - 您的網際網路連線
 - 貴組織的獨特設計考量，例如支援話務中心的需求、電話系統通話功能表 (例如，按 1 轉接到銷售部門、按 2 取得技術支援)、會議室、電話亭等。
 - 現有的電話系統支援多少位置，以及這些位置之間的連線方式

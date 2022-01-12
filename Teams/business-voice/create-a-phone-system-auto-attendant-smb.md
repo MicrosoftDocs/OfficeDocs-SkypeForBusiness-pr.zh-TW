@@ -1,5 +1,5 @@
 ---
-title: 設定小型企業教學課程Microsoft Teams自動助理
+title: 設定小型企業教學課程Microsoft Teams自動總機
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 瞭解如何在 Microsoft 365 商務語音 中設定和測試小型企業的自動Microsoft 365 商務語音。
-ms.openlocfilehash: 176dc3c742ea60dbf5bf9b7bf0e6ce077957ace1
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+description: 瞭解如何使用通話方案在 Microsoft 365 Teams 電話中設定和測試小型企業的自動Microsoft 365 Teams 電話。
+ms.openlocfilehash: b5c3b27b0b7bdc835d0dbe30a9478b52f4300ab4
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249475"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767346"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>設定自動助理 - 小型企業教學課程
 

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5743dda03b7495bc8f7c275fb955f83d7db6be2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c310794d439af79e53618d9b6e93e567c652cf47
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727202"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766636"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中封存或刪除團隊
 
@@ -32,7 +32,7 @@ ms.locfileid: "58727202"
 
 當您封存小組時，該小組的所有活動都會停止。 封存小組也會封存小組的私人頻道及其相關網站集合。  但是，您仍然可以新增或移除成員、更新角色，而且仍然可以在標準和私人頻道、檔案、聊天中檢視所有的小組活動。
 
-當您刪除小組時，也會刪除標準和私人頻道 (以及相關聯的網站集合)、檔案、聊天中的小組活動。
+刪除團隊時，也會刪除標準 (頻道中的小組活動，) 檔案和聊天等相關聯的網站集合。
 
 > [!IMPORTANT]
 > 封存的小組可以重新啟用，但是您無法直接還原已刪除的小組。 請先考慮封存小組，並延後刪除，直到確定您不再需要小組。
@@ -47,8 +47,8 @@ ms.locfileid: "58727202"
 
     ![檔案Teams的螢幕擷取畫面。](media/teams-archive-message.png)
 
-4. 若要防止人員編輯與小組SharePoint網站和 Wiki SharePoint中的內容，請選取將網站SharePoint **為唯讀的小組成員**。  (Teams擁有者仍然可以編輯此內容。) 
-5. 選取 [封存] 以封存小組。 小組的狀態會變更為 [已封存]。
+4. 若要防止人員編輯與小組SharePoint網站和 Wiki SharePoint中的內容，請選取將網站SharePoint為小組成員的唯讀 **網站**。  (Teams擁有者仍然可以編輯此內容。) 
+5. 選取 [封存] 以封存小組。 團隊的狀態會變更為已存檔，它會移到團隊清單底部的隱藏團隊內，而代表已存檔狀態的小圖示會新增到該團隊旁邊。
 
 ## <a name="make-an-archived-team-active"></a>讓封存的小組成為使用中
 
@@ -56,7 +56,7 @@ ms.locfileid: "58727202"
 
 1. 在系統管理中心 **中，選取** Teams。
 2. 按一下小組名稱以選取小組。
-3. 選取 [解除封存]。 小組的狀態會變更為 [使用中]。
+3. 選取 **還原**。 小組的狀態會變更為 [使用中]。 請注意，它不會自動移回您的 **小組** 內。
 
 ## <a name="delete-a-team"></a>刪除小組
 
@@ -98,16 +98,16 @@ ms.locfileid: "58727202"
     Connect-AzureAD
     ```
     當您看到提示時，使用您的系統管理員帳戶和密碼登入。  
-2. 請執行下列操作，以顯示仍在 30 天保留期間Microsoft 365刪除的所有群組清單。 如果有大量群組，請使用 **-All $True** 參數。
+2. 請執行下列操作，以顯示仍在 30 天保留期間Microsoft 365刪除的所有群組清單。 如果您 **有許多$True，** 請使用 -All $True參數。
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ```
-3. 尋找您要還原的群組，然後記下識別碼。
-4. 執行下列命令來還原群組，其中 [Id] 是群組識別碼。
+3. 尋找您想要還原的群組，然後記下 `Id` 。
+4. 執行下列操作來還原群組，其中 `[Id]` 為群組識別碼。
     ```PowerShell
     Restore-AzureADMSDeletedDirectoryObject -Id [Id]
     ```
-5.  執行下列命令來確認群組還原是否成功，其中 [Id] 是群組識別碼。
+5.  請執行下列操作，確認群組已成功還原，群組 `[Id]` 識別碼在哪裡。
     ```PowerShell
     Get-AzureADGroup -ObjectId [Id]
     ```

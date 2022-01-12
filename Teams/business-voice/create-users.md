@@ -1,5 +1,5 @@
 ---
-title: 建立 Microsoft 365 使用者、新增商務語音授權，並指派電話號碼
+title: 建立Microsoft 365使用者、新增Teams 電話通話方案授權，以及指派電話號碼
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,36 +8,35 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-- Teams_Business_Voice
 search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33367a75eef98a847edfe6ce985f952719bfcf4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: HT
+ms.openlocfilehash: 00eb2842b063399f69563571180197de0238588e
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605962"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766186"
 ---
-# <a name="create-and-license-business-voice-users-and-assign-them-phone-numbers"></a>建立及授權商務語音使用者，並指派電話號碼給使用者
+# <a name="create-and-license-teams-phone-with-calling-plan-users-and-assign-them-phone-numbers"></a>與通話方案Teams 電話建立和授權，並指派電話號碼給他們
 
-若要使用 :::no-loc text="Microsoft 365 Business Voice":::，您需要具備 :::no-loc text="Microsoft 365 Business Voice"::: 授權的 :::no-loc text="Microsoft 365"::: 帳戶。 具備帳戶和授權後，您就可以為其指派電話號碼。
+若要使用 :::no-loc text="Microsoft 365 Teams Phone with Calling Plan":::，您需要具備 :::no-loc text="Microsoft 365 Teams Phone with Calling Plan"::: 授權的 :::no-loc text="Microsoft 365"::: 帳戶。 具備帳戶和授權後，您就可以為其指派電話號碼。
 
 ## <a name="create-and-license-users"></a>建立並授權使用者
 
 按照以下 [個別新增或大量新增使用者](/microsoft-365/admin/add-users/add-users)，與 [指派授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)之步驟。
 
 > [!NOTE]
-> 在 **[指派產品授權]** 窗格中，選取 **:::no-loc text="Microsoft 365 Business Voice":::**。
+> 在 **[指派產品授權]** 窗格中，選取 **:::no-loc text="Microsoft 365 Teams Phone with Calling Plan":::**。
 
 ## <a name="assign-phone-numbers-to-users"></a>將電話號碼指派給使用者
 
-建立使用者並指派 :::no-loc text="Microsoft 365 Business Voice"::: 授權後，您就可以為其指派電話號碼。 針對需要撥打或接聽外部電話號碼的使用者，每位使用者皆需要一個未指派的電話號碼。 如果您未指派的電話號碼不夠，請參閱本文稍後的[取得更多電話號碼](#get-more-phone-numbers)。
+建立使用者並指派 :::no-loc text="Microsoft 365 Teams Phone with Calling Plan"::: 授權後，您就可以為其指派電話號碼。 針對需要撥打或接聽外部電話號碼的使用者，每位使用者皆需要一個未指派的電話號碼。 如果您未指派的電話號碼不夠，請參閱本文稍後的[取得更多電話號碼](#get-more-phone-numbers)。
 
 1. 移至https://admin.teams.microsoft.com。
 2. 輸入電話號碼要求的名稱和描述。

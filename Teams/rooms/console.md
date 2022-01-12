@@ -15,31 +15,25 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文將說明如何設定及設定主機Microsoft Teams 會議室及其周邊設備。
-ms.openlocfilehash: 687c507d94a7397fef0386ef3ddcc65ac7a7735b
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2df40f136308bb7855d911667bc871e5750f06cd
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306308"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767276"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>設定 Microsoft Teams 會議室主控台
 
 本文將說明如何設定主機Microsoft Teams 會議室及其周邊設備。
 
-> [!NOTE]
-> 下列步驟僅適用于Surface Pro裝置Teams 會議室裝置。 針對其他裝置，請與原始設備製造商 (OEM) 以尋找支援。
-
-只有在已建立或測試 Microsoft Teams帳戶商務用 Skype帳戶Exchange，才能執行這些步驟，如部署 Microsoft Teams 會議室[中所述](rooms-deploy.md)。 您需要上述的硬體和軟體Microsoft Teams 會議室[需求](requirements.md)。 本主題包含下列各節：
+您必須執行這些步驟，Microsoft Teams或商務用 Skype帳戶Exchange已建立和測試 ，如部署 Microsoft Teams 會議室[中所述。](rooms-deploy.md) 您需要上述的硬體和軟體Microsoft Teams 會議室[需求](requirements.md)。 本主題包含下列各節：
   
 - [準備安裝媒體](console.md#Prep_Media)
 - [在主機上安裝私人 CA 憑證](console.md#Certs)
-- [安裝 Windows 10 主機Microsoft Teams 會議室應用程式](console.md#Reimage)
+- [安裝Windows 10主機Microsoft Teams 會議室應用程式](console.md#Reimage)
 - [主機的初始設定](console.md#Initial)
 - [Microsoft Teams 會議室部署檢查清單](console.md#Checklist)
 
-> [!NOTE]
-> 下列步驟僅適用于Surface Pro裝置Teams 會議室裝置。 針對其他裝置，請與 OEM 聯繫以尋找支援。
-  
 ## <a name="prepare-the-installation-media"></a>準備安裝媒體
 <a name="Prep_Media"> </a>
 
@@ -49,7 +43,7 @@ ms.locfileid: "61306308"
 > 如果無法根據這些Microsoft Teams 會議室建立您的安裝媒體，可能會導致意外的行為。
 
 > [!NOTE]
-> 下列程式是建立安裝媒體以將新裝置Microsoft Teams 會議室影像。 根據預設，現有的裝置會從 Windows 和 Windows 自動更新。
+> 下列程式是建立安裝媒體以將新裝置Microsoft Teams 會議室影像。 根據預設，現有的裝置會從更新Windows和市Windows自動更新。
 
 > [!IMPORTANT]
 > 用來Windows 10安裝媒體Microsoft Teams 會議室電腦必須位於與目標安裝媒體相同的或Windows版本。
@@ -93,7 +87,7 @@ ms.locfileid: "61306308"
 
     b. 按並放開電源按鈕。
 
-    C。 啟動Windows設定後，請按下 (-) 按鈕來放開音量。
+    C。 啟動Windows設定之後，請放開音量 () 按鈕。
 
 8. 安裝完成後，系統會關閉。
     
@@ -148,7 +142,7 @@ ms.locfileid: "61306308"
 ## <a name="initial-set-up-of-the-console"></a>主機的初始設定
 <a name="Initial"> </a>
 
-安裝Windows之後，Microsoft Teams 會議室主機應用程式在下次啟動或已選擇 /重新開機選項時，會進入初始的安裝程式。
+安裝Windows之後，Microsoft Teams 會議室主機應用程式將在下次啟動或已選擇 /重新開機選項時，進入其初始設定程式。
   
 1. 系統會顯示使用者帳戶畫面。 在Skype中輸入 (user@domain) 帳戶的登錄位址。
     
@@ -170,10 +164,10 @@ ms.locfileid: "61306308"
     
 6. 按一下 **[完成>**。
     
-Microsoft Teams 會議室主機應用程式應該會以上述商務用 Skype Server立即開始登錄至 商務用 Skype Server，並且也應該使用這些相同的認證開始同步處理其Exchange日曆。 有關使用主控台應用程式的詳細資訊，請參閱Microsoft Teams 會議室[說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
+Microsoft Teams 會議室主機應用程式應該會以上述輸入的認證商務用 Skype Server立即開始登錄 商務用 Skype Server，並且也應該使用這些相同的認證開始同步處理其Exchange日曆。 有關使用主控台應用程式的詳細資訊，請參閱Microsoft Teams 會議室[說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
   
 > [!IMPORTANT]
-> Microsoft Teams 會議室取決於通過認證的主機硬體。 即使正確建立的圖像包含Microsoft Teams 會議室主機應用程式，除非偵測到主機硬體，否則不會啟動初始設定程式。 針對Surface Pro型解決方案，Surface Pro必須連接到其隨附的固定硬體，以通過此檢查。
+> Microsoft Teams 會議室取決於通過認證的主機硬體。 即使正確建立的圖像包含 Microsoft Teams 會議室主機應用程式，除非偵測到主機硬體，否則不會啟動初始設定程式。 針對Surface Pro型解決方案，Surface Pro必須連接到其隨附的固定硬體，以通過此檢查。
   
 > [!NOTE]
 > 如果觸控式鍵盤不支援符號，某些非英文使用者可能需要在初始設定期間將實體鍵盤連接到主機。
@@ -181,7 +175,7 @@ Microsoft Teams 會議室主機應用程式應該會以上述商務用 Skype Ser
 ### <a name="install-a-private-ca-certificate-on-the-console"></a>在主機上安裝私人 CA 憑證
 <a name="Certs"> </a>
 
-Microsoft Teams 會議室主機必須信任所連接之伺服器所使用的憑證。 針對 O365，系統會自動執行這項操作，因為這些伺服器是使用公用憑證頒發機構，而且這些伺服器會自動受到 Windows 10。 如果憑證頒發機構是私人的，例如使用 Active Directory 和 Windows 憑證頒發機構進行內部部署，您可以用幾種方法將憑證新增到 Microsoft Teams 會議室 主控台：
+主機Microsoft Teams 會議室必須信任所連接之伺服器所使用的憑證。 針對 O365，由於這些伺服器是使用公用憑證頒發機構，因此系統會自動Windows 10。 如果憑證頒發機構是私人的，例如使用 Active Directory 和 Windows 憑證頒發機構進行內部部署，您可以用幾種方法將憑證新增到 Microsoft Teams 會議室 主控台：
   
 - 您可以將主控台加入 Active Directory，並自動新增所需的憑證，因為憑證頒發機構已發佈至 Active Directory (一般部署選項) 。
     
@@ -204,9 +198,9 @@ Microsoft Teams 會議室主機必須信任所連接之伺服器所使用的憑�
 
 您可以將主機Microsoft Teams 會議室網域。 Microsoft Teams 會議室主機應置於與電腦工作站不同的 OU 中，因為許多工作站策略與 Microsoft Teams 會議室。 常見的範例是密碼強制執行政策，Microsoft Teams 會議室自動啟動。 有關 GPO 設定管理的資訊，請參閱管理[Microsoft Teams 會議室。](rooms-operations.md)
   
-### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>若要加入Microsoft Teams 會議室網域
+### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>若要將Microsoft Teams 會議室網域
 
-1. 從系統管理帳戶登錄主機 (請參閱系統管理 [模式和裝置](rooms-operations.md#AdminMode) 管理) 。
+1. 從系統管理帳戶登錄主機 (請參閱系統管理 [模式和裝置管理](rooms-operations.md#AdminMode)) 。
     
 2. 啟動提升的 Powershell 命令提示。
     
@@ -216,7 +210,7 @@ Microsoft Teams 會議室主機必須信任所連接之伺服器所使用的憑�
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
    ```
 
-例如，如果您的完全限定網域是 redmond.corp.microsoft.com，而您想要您的 Microsoft Teams 會議室 主機位於 「Microsoft Teams 會議室」 OU 中，且該 OU 為 「資源」OU 的子級，則命令為：
+例如，如果您的完全合格的網域是 redmond.corp.microsoft.com，而您想要您的 Microsoft Teams 會議室 主機位於 「Microsoft Teams 會議室」 OU 中，且該 OU 為 「資源」OU 的子級，則命令為：
   
 ```PowerShell
 Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_Rooms,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
@@ -242,7 +236,7 @@ Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_
 
 |完成 |檢查 |
 |:-----:|:-----|
-|☐   |若適用，相機外 (固件版本)    |
+|☐   |若適用，相機外 (固件版本正確)    |
 |☐   |相機功能與位置最佳   |
 |☐   |設定預設裝置和播放預設通訊裝置設為預定的音訊周邊裝置   |
 |☐   |設定預設通訊裝置設定為預定的音訊周邊裝置   |

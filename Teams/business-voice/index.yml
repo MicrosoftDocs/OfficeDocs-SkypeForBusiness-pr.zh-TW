@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Microsoft 365 商務語音檔
-summary: 了解如何在組織中規劃、設定及使用 Microsoft 365 Business Voice。 Business Voice 讓中小型組織在沒有公司內部解決方案的費用和複雜性的情況下，輕鬆設定功能強大且彈性的電話系統。
+title: Microsoft 365 Teams 電話通話方案套件檔
+summary: 瞭解如何規劃、設定及使用Microsoft 365 Teams 電話通話方案套件。 有了Teams 電話方案套件，中小型企業可以輕鬆設定強大且彈性的電話系統，而不需要內部解決方案的費用和複雜度。
 metadata:
-  title: Microsoft 365 商務語音檔
-  description: 了解如何規劃、部署及使用 Microsoft 365 Business Voice。
+  title: Microsoft 365 Teams 電話通話方案套件檔
+  description: 瞭解如何規劃、部署及使用通話方案Microsoft 365 Teams 電話方案套件。
   ms.topic: hub-page
   author: dstrome
   ms.author: dstrome
@@ -14,22 +14,22 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-blue.svg'
       links:
         - url: whats-business-voice.md
-          text: 什麼是 Business Voice
+          text: Teams 電話中小型企業的通話方案指南
         - url: 'https://www.microsoft.com/microsoft-365/business-voice'
-          text: Microsoft 365 Business Voice
-        - url: /office365/servicedescriptions/microsoft-365-business-voice-service-description
-          text: 服務描述
+          text: Microsoft 365 Teams 電話通話方案套件
+        - url: /office365/servicedescriptions/teams-service-description
+          text: Teams服務描述
     - title: 設定
       imageSrc: 'https://docs.microsoft.com/office/media/icons/deploy-blue.svg'
       links:
-        - url: ./what-to-buy.md
-          text: 如何取得 Business Voice
+        - url: ./whats-business-voice.md#what-do-i-need-to-buy-to-get-voice-capabilities-for-my-small-or-medium-business
+          text: 如何使用通話方案Teams 電話取得通話方案
         - url: get-ready-internet.md
           text: 檢查您的網際網路連線
         - url: prepare-users.md
           text: 讓您的使用者準備就緒
         - url: set-up-overview.md
-          text: 設定商務語音
+          text: 使用通話Teams 電話設定通話方案
     - title: 自訂您的設定
       imageSrc: 'https://docs.microsoft.com/office/media/icons/migration-blue.svg'
       links:
@@ -57,10 +57,8 @@ productDirectory:
       links:
         - url: /partner-center/
           text: 從合作夥伴中心取得 Microsoft 365 商務版
-        - url: 'https://www.microsoft.com/microsoft-365/partners/businessvoice'
-          text: 適用於合作夥伴的 Microsoft 365 Business Voice
-        - url: partner-resources.md
-          text: Microsoft 365 Business Voice 合作夥伴支援資源
+        - url: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
+          text: Microsoft 365 Teams 電話通話方案套件合作夥伴 Playbook
     - title: 需要協助嗎？
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-people.svg'
       links:

@@ -1,5 +1,5 @@
 ---
-title: 將電話號碼移轉至商務語音
+title: 使用通話方案Teams 電話電話號碼
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -8,49 +8,48 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-ms.localizationpriority: high
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 瞭解如何將現有的電話號碼從目前的服務提供者移至 Microsoft 365 商務語音。
+description: 瞭解如何使用通話方案將現有的電話號碼從目前的提供者Microsoft 365 Teams 電話電話號碼。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2aed45cf18eefe3a8809d5c8dee7b0411ac2da9e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: HT
+ms.openlocfilehash: 8472cd5c6d1e82a384f8d186701790ba1e6a4976
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588295"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766796"
 ---
-# <a name="step-7-port-phone-numbers-to-business-voice-optional"></a>步驟 7. 移植電話號碼至商務語音 (選用)
+# <a name="step-7-port-phone-numbers-to-teams-phone-optional"></a>步驟 7：將電話號碼Teams 電話 (選項) 
 
 > [!IMPORTANT]
-> 本文中的資訊僅適用於 **含** 通話方案的商務語音。 含通話方案的商務語音只有在選取的國家和地區才能使用。 閱讀本文之前，請參閱[商務語音的適用國家與地區](country-region-availability.md)，以查看您的國家或地區是否支援含通話方案的商務語音。
+> 本文中的資訊僅適用于Teams 電話 **方案**。 Teams 電話通話方案，僅適用于特定國家/地區。 閱讀本文之前，請查看使用[](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)通話方案Teams 電話的國家/地區可用性，以查看您的國家/地區是否支援Teams 電話通話方案。
 >
-> 如果您的租用戶所在國家或地區不支援含通話方案的商務語音，請參閱[從 Microsoft 轉銷商或合作夥伴取得協助](reseller-partner-support.md)。
+> 如果您的租使用者所在的國家/地區不支援通話方案Teams 電話，請查看取得 Microsoft 轉銷商或合作夥伴[的協助](reseller-partner-support.md)。
 
-在本設定指南的前面章節中，您已經為主要公司線路和任何已指派商務語音授權的使用者取得了電話號碼。 **如果您的商務剛起步，沒有任何現有電話號碼以移植至商業語音，則可以跳過這一步。**
+在此設定指南的稍早部分，您取得公司主要線路的電話號碼，以及您指派電話方案授權給Teams 電話使用者的電話號碼。 **如果您是新公司，而且沒有任何想要使用通話方案Teams 電話電話號碼，您可以略過此步驟。**
 
-如果您已經有想要在移至商務語音時保留的電話號碼，您可以使用稱為電話號碼移轉的程序，將電話號碼帶至商務語音。 在您將電話號碼移轉至商務語音後，您可以將電話號碼指派給使用者和服務。 舊號碼將取代您在本設定指南前面章節得得的臨時號碼。
+如果您已經有想要在使用通話方案移至 Teams 電話 時保留的電話號碼，您可以使用稱為電話號碼移轉的流程，使用通話方案Teams 電話電話號碼。 將電話號碼與通話方案Teams 電話之後，您將其指派給使用者和服務。 舊號碼將取代您在本設定指南前面章節得得的臨時號碼。
 
-在您將號碼移至商務語音前，請參閱[移轉電話號碼的常見問題](../phone-number-calling-plans/port-order-overview.md)。 本文章包含問題的解答，包括：支援哪些國家和地區、可以和無法移轉的號碼，以及您需要的資訊。
+在您將號碼移至電話Teams 電話方案之前，請看看轉接[電話號碼常見問題](../phone-number-calling-plans/port-order-overview.md)。 本文章包含問題的解答，包括：支援哪些國家和地區、可以和無法移轉的號碼，以及您需要的資訊。
 
-當您準備好將電話號碼移至商務語音時，請按照[將電話號碼移轉至 Office 365](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 中的步驟進行，以建立移植順序。 順序包括將號碼從目前的電話服務電信業者移至商務語音所需的資訊。
+當您準備好使用通話方案將電話號碼移至Teams 電話時，請遵循將電話號碼移轉Office 365以建立移轉訂單[](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。 訂單包含將號碼從目前的電話語音電信公司移至使用通話方案Teams 電話所需的資訊。
 
-將電話號碼移至商務語音之後，您必須將其指派給人員。 若要這麼做，請按照 [變更使用者的電話號碼](../assign-change-or-remove-a-phone-number-for-a-user.md#change-a-phone-number-for-a-user)中的步驟進行。 當您依照這些步驟操作時，您將會以您移轉過來的使用者的原始電話號碼取代暫時指派的電話號碼。
+將電話號碼移至使用通話Teams 電話之後，您必須將電話號碼指派給其他人。 若要這麼做，請按照 [變更使用者的電話號碼](../assign-change-or-remove-a-phone-number-for-a-user.md#change-a-phone-number-for-a-user)中的步驟進行。 當您依照這些步驟操作時，您將會以您移轉過來的使用者的原始電話號碼取代暫時指派的電話號碼。
 
-如果您需要協助，請告訴我們！ 我們會協助您盡可能輕鬆地將您的電話號碼移至商務語音。 請務必包括下列資訊：
+如果您需要協助，請告訴我們！ 我們在此可協助您將電話號碼移至Teams 電話通話方案。 請務必包括下列資訊：
 
 - 您的組織識別碼 (例如 ***contoso***.onmicrosoft.com)
 - 您需要協助的類型和數量
 - 您帳戶的授權人員
 - 您所擁有的問題或疑問的描述
 
-如需有關加拿大和美國電話號碼的說明，請傳送您的要求至 [ptn@microsoft.com](mailto:ptn@microsoft.com)。
+有關電話號碼的協助，請查看 [TNS](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) (電話號碼) - 服務台 。
 
-如需歐洲電話號碼的說明，請將您的要求傳送至 [ptneu@microsoft.com](mailto:ptneu@microsoft.com)。
 
 > [!div class="nextstepaction"]
-> [下一步：完成商務語音設定](set-up-finish.md)
+> [下一個步驟：使用Teams 電話方案設定完成通話](set-up-finish.md)

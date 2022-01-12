@@ -21,13 +21,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 瞭解如何在 Microsoft Teams 中設定和測試大型組織的自動Microsoft Teams。
-ms.openlocfilehash: dec7051e643565b4fa0714bcba74528401ae99c0
-ms.sourcegitcommit: 693e2b7d79f5a3f7e2ccb14e48dc46d295659c33
+description: 瞭解如何在 Microsoft Teams 中為大型組織設定和測試自動Microsoft Teams。
+ms.openlocfilehash: 407d548a58240cb66cecabce01129fc3a7c270ca
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61320073"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767136"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動機務員
 
@@ -50,7 +50,7 @@ ms.locfileid: "61320073"
 
 當您設定自動語音機時，系統會提示您于各個階段選擇其中一個選項。
 
-若要設定自動語音Teams，請在系統管理中心展開 **語音**，選取自動語音機，然後 **選取新增**。
+若要設定自動語音Teams，請在系統管理中心展開 **語音**，選取自動語音留言，然後選取 **新增**。
 
 ## <a name="video-demonstration"></a>影片示範
 
@@ -83,7 +83,7 @@ ms.locfileid: "61320073"
 
 選擇當自動回應接聽來電時，是否要播放問候語。
 
-如果您選取 **播放音訊檔案**，您可以使用 Upload **按鈕上傳** 儲存為音訊的錄製問候語訊息。WAV、.MP3或 。WMA 格式。 錄製內容不能大於 5 MB。
+如果您選取 **播放音訊檔案**，您可以使用 Upload **按鈕** 上傳儲存為音訊的錄製問候語訊息。WAV、.MP3或 。WMA 格式。 錄製內容不能大於 5 MB。
 
 如果您選取輸入 **問候語訊息** ，當自動 (接聽來電時，系統會朗讀您輸入) 最多 1000 個字元的文字。
 
@@ -101,7 +101,10 @@ ms.locfileid: "61320073"
 
 ![撥號鍵選項的螢幕擷取畫面。](media/auto-attendant-call-flow-menu-options-complete.png)
 
-針對撥號選項，將電話鍵臺上的 0-9 鍵指派給其中一個撥號路由目的地。  (系統會保留 (星號)  () 的按鍵，且無法重新 \* \# 指派。 按下其中一個按鍵會重複目前的功能表。) 
+針對撥號選項，將電話鍵臺上的 0-9 鍵指派給其中一個撥號路由目的地。  (系統會 (星號)  () 的按鍵，且無法 \* \# 重新指派。 按下其中一個按鍵會重複目前的功能表。) 
+
+> [!NOTE]
+> # 鍵只會備份到最新的自動助理。 一旦邊界跨越到新的自動助理，# 鍵將無法將您帶往上一個。
 
 鍵的映射不必是連續的。 雖然沒有使用數位 2 鍵，但可以建立對應到選項的按鍵 0、1 和 3 的功能表。
 
@@ -121,11 +124,11 @@ ms.locfileid: "61320073"
 
 如果您沒有指派撥號鍵，請選擇目錄 **搜尋的選項**。
 
-**按名稱** 撥號 - 如果您啟用此選項，來電者可以說出使用者的名稱，或在電話鍵臺上輸入。 任何線上使用者或任何使用 商務用 Skype Server 託管于內部部署的使用者，都是合格的使用者，而且可以使用撥號名稱找到。  (您可以設定撥號範圍頁面上的目錄中包含和不包含 [哪些人](#dial-scope) 。) 
+**按名稱** 撥號 - 如果您啟用此選項，來電者可以說出使用者的名稱，或在電話鍵臺上輸入。 任何線上使用者或任何使用 商務用 Skype Server 託管于內部部署的使用者，都是合格的使用者，而且可以使用撥號名稱找到。  (您可以設定撥號範圍頁面上的目錄中包含和不包含哪些人。) [](#dial-scope)
 
-**分機撥號** - 如果您啟用此選項，來電者可以撥打其電話分機，與貴組織的使用者聯繫。 任何線上使用者或任何使用 商務用 Skype Server 託管于內部部署的使用者，都是合格的使用者，而且可以使用 **分機撥號找到**。  (您可以設定撥號範圍頁面上的目錄中包含和不包含 [哪些人](#dial-scope) 。) 
+**分機撥號** - 如果您啟用此選項，來電者可以撥打其電話分機，與貴組織的使用者聯繫。 任何線上使用者或任何使用 商務用 Skype Server 託管于內部部署的使用者，都是合格的使用者，而且可以使用 **分機撥號找到**。  (您可以設定撥號範圍頁面上的目錄中包含和不包含哪些人。) [](#dial-scope)
 
-您想要提供撥號分機的使用者，需要將分機指定為 Active Directory 或 Azure Active Directory (中定義的下列其中一個電話屬性的一部分Azure Active Directory (請參閱個別或大量新增[](/microsoft-365/admin/add-users/add-users)使用者以瞭解更多資訊。) 
+您想要提供撥號分機的使用者，需要將分機指定為 Active Directory 或 Azure Active Directory (中定義的下列其中一個電話屬性的一部分Azure Active Directory (請參閱個別或大量[](/microsoft-365/admin/add-users/add-users)新增使用者以瞭解更多資訊。) 
 
 - OfficePhone
 - 家用電話
@@ -140,7 +143,7 @@ ms.locfileid: "61320073"
 - *X\<extension>*
 
 - 範例 1：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber"+15555555678;ext=5678"
-- 範例 2：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
+- 範例 2：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber"+15555555678x5678"
 - 範例 3：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
 您可以在系統管理中心或 Microsoft 365 系統管理中心[中Azure Active Directory](https://admin.microsoft.com/)[副檔名](https://aad.portal.azure.com)。 自動電話機和通話佇列最多可能需要 12 小時才能進行變更。
@@ -217,7 +220,7 @@ ms.locfileid: "61320073"
 
 當您完成新增資源帳戶後，請選取 **提交** 以完成自動總機配置。
 
-請參閱[管理Teams資源帳戶](manage-resource-accounts.md)以瞭解更多資訊。
+請參閱[管理Teams資源](manage-resource-accounts.md)帳戶以瞭解更多資訊。
 
 ## <a name="external-phone-number-transfers---technical-details"></a>外部電話號碼傳輸 - 技術詳細資料
 
@@ -225,7 +228,7 @@ ms.locfileid: "61320073"
 
 - 對於具有通話方案授權或[](calling-plans-for-office-365.md)運算子[連線](operator-connect-plan.md)號碼的資源帳戶，外部轉接電話號碼必須以 E.164 格式輸入 (+[國家/地區代碼][區碼][電話號碼]) 。
 
-- 對於具有授權和直接電話系統線上語音路由策略的資源帳戶，外部傳輸電話號碼格式取決於會話邊界控制器[ (SBC](direct-routing-connect-the-sbc.md)) 設定。
+- 對於具有授權和直接路由線上語音路由電話系統的資源帳戶，外部傳輸電話號碼格式取決於會話邊界控制器 ([SBC](direct-routing-connect-the-sbc.md)) 設定。
 
 顯示的外發電話號碼如下：
 
@@ -262,7 +265,7 @@ ms.locfileid: "61320073"
 
 如果您是系統管理員，您可以使用下列診斷工具來驗證自動話務員是否能夠接聽來電：
 
-1. 選取 **[執行測試]** 以在 Microsoft 365 系統管理中心填入診斷。 
+1. 選取 [執行測試]**** 以在 Microsoft 365 系統管理中心填入診斷。 
 
    > [!div class="nextstepaction"]
    > [執行測試：Teams自動助理](https://aka.ms/TeamsAADiag)

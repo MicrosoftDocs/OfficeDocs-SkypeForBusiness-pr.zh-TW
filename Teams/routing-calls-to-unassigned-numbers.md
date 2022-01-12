@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何將通話路由至貴組織中未指定的號碼。
-ms.openlocfilehash: 93d9ce289820bdcf9bb4a1e13e78bb8794b77dbd
-ms.sourcegitcommit: bdca3b5eb35a17b27c5a052d83ab229b7c911dd4
+ms.openlocfilehash: 4d9c40a0b4a01f7fae4a755603cb5cf7eb132f5c
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2021
-ms.locfileid: "60947500"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767366"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>將通話路由至未指定的號碼
 
@@ -51,7 +51,7 @@ $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectI
 New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -TreatmentPriority 1
 ```
 
-下一個範例指定所有撥打到號碼範圍 +1 (555) 333-0000 到 +1 (555) 333-9999 的所有通話都會路由至公告服務，該服務會播放音訊檔案 MainAnnouncement.wav 給來電者。
+下一個範例指定號碼範圍 +1 (555) 333-0000 到 +1 (555) 333-9999 的所有通話都會路由至公告服務，該服務會播放音訊檔案 MainAnnouncement.wav 給來電者。
 
 ```PowerShell
 $Content = Get-Content "C:\Media\MainAnnoucement.wav" -Encoding byte -ReadCount 0
@@ -70,6 +70,8 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 - 若要將通話路由至未指定的 Microsoft 通話方案訂閱者號碼，您的租使用者必須擁有可用的 [通訊信用額度](what-are-communications-credits.md)。
 
 - 若要將通話路由至未指定的 Microsoft 通話方案服務號碼，您的租使用者至少必須擁有一電話系統 – 虛擬使用者授權。
+
+- 支援的自訂音訊檔案格式為 WAV (未壓縮、線性PCM，其深度為 8/16/32 位的單聲道或身歷聲) 、WMA (單聲道) 和 MP3。 音訊檔案內容不能超過 5 MB。
 
 ## <a name="related-topics"></a>相關主題
 

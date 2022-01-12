@@ -22,16 +22,16 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 瞭解 Microsoft 通話品質儀表板和 CQD (中) 。
-ms.openlocfilehash: 04edfbcbdcfc8cc5a51a08bccd7c0dfc6c511e58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d3030377a286103e6801855e3540239006fded47
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833077"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766206"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>通話品質儀表板和 CQD (中的資料和) 
 
-Microsoft 通話品質儀表板 (CQD) 使用接近即時的 NRT (NRT) 資料。 通話記錄可在通話結束的 30 分鐘內以 CQD 提供。 NRT 管道的通話記錄只能在從資料集中移除前幾個月使用。 
+Microsoft 通話品質儀表板 (CQD) 使用接近即時的 NRT (NRT) 資料來源。 通話記錄可在通話結束的 30 分鐘內以 CQD 提供。 NRT 管道的通話記錄只能在從資料集中移除前幾個月使用。 
 
 
 ## <a name="many-ways-to-access-cqd-data"></a>存取 CQD 資料的多種方式
@@ -47,7 +47,7 @@ Microsoft 通話品質儀表板 (CQD) 使用接近即時的 NRT (NRT) 資料。 
 
 ## <a name="import-the-cqd-report-templates"></a>輸入 CQD 報表範本
 
-在所有網路和受管理網路 (下載兩個已策劃的 [CQD](https://aka.ms/qertemplates) 報表範本) 可協助您快速使用 CQD。 所有網路範本雖然已優化處理建築物資料檔案，但可在您收集建築物資訊並上傳至 CQD 時使用，如下一節所述。
+在所有網路和受管理 (下載兩個已策劃的 [CQD](https://aka.ms/qertemplates) 報表範本) 來説明您快速使用 CQD 快速上手。 所有網路範本雖然已優化處理建築物資料檔案，但可在您收集建築物資訊並上傳至 CQD 時使用，如下一節所述。
 
 **若要將範本 (。CQDX) into CQD**
 
@@ -76,6 +76,7 @@ Microsoft 通話品質儀表板 (CQD) 使用接近即時的 NRT (NRT) 資料。 
 - 電腦端點名稱
 - 使用者逐字記錄意見
 - 物件識別碼 (端點使用者識別碼的 Active Directory 物件識別碼) 
+- 電話號碼
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>具有或不含 EUII 存取的系統管理員角色
 
@@ -85,11 +86,11 @@ Microsoft 通話品質儀表板 (CQD) 使用接近即時的 NRT (NRT) 資料。 
 - Teams通訊系統管理員
 - Teams 通訊支援工程師
 - 全域閱讀程式
-- 商務用 Skype管理
+- 商務用 Skype系統管理員
 
 這些 RBAC **角色沒有** EUII 存取權：
 - 報表閱讀程式
-- Teams通訊支援專家
+- Teams通訊支援專員
 
 
 ## <a name="date-controls"></a>日期控制項
@@ -118,7 +119,7 @@ URL Date 參數接受 Day 欄位。 滾動日報表使用以 YYYY-MM-DD 格式�
 
 您只需要預設摘要和詳細的 CQD 報告，就只需要管理貴組織通話品質。如果需要，您可以建立 [自訂報表](#create-custom-detailed-reports)。 
 
-如果您想要使用 Power BI分析您的 CQD 資料，請參閱使用 Power BI 分析[CQD 資料以Teams。](CQD-Power-BI-query-templates.md)
+如果您想要使用 Power BI分析您的 CQD 資料，請參閱使用 Power BI 分析[CQD](CQD-Power-BI-query-templates.md)資料以Teams。
 
 |功能|摘要報告|詳細報告|
 |:--- |:--- |:--- |
@@ -141,7 +142,7 @@ URL Date 參數接受 Day 欄位。 滾動日報表使用以 YYYY-MM-DD 格式�
  
 ### <a name="select-product-data-to-see-in-reports"></a>選取產品資料以在報告中查看
 
-在摘要與Location-Enhanced中，您可以使用產品篩選下拉式清單來顯示所有產品資料、僅顯示Microsoft Teams資料，或商務用 Skype線上資料。
+在摘要與Location-Enhanced中，您可以使用產品篩選下拉式清單來顯示所有產品資料、僅顯示Microsoft Teams資料，或只顯示商務用 Skype線上資料。
 
 > [!div class="mx-imgBorder"]
 > ![螢幕擷取畫面：顯示產品篩選控制項選項。](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
@@ -166,7 +167,7 @@ URL Date 參數接受 Day 欄位。 滾動日報表使用以 YYYY-MM-DD 格式�
 > [!div class="mx-imgBorder"]
 > ![螢幕擷取畫面：顯示通話品質選項卡。](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-資料流程分為三個群組：良好、差和未分類。 此外，也有計算 *結果的 Poor %* 值，提供分類為"差" 的資料流程與總分類串流計數的比例。 由於 Poor % = (資料流程+ 良好資料流程 *) * 100，* 因此 Poor *%*  不會受到多個未分類 *資料流程的目前*  狀態影響。 若要瞭解將資料流程分類為不佳或良好，請參閱通話品質儀表板 [中的](stream-classification-in-call-quality-dashboard.md)[串流分類> 。
+資料流程分為三個群組：良好、差和未分類。 此外，也有計算 *結果的 Poor %* 值，提供分類為"差" 的資料流程與總分類串流計數的比例。 由於 Poor % = 不良 (資料流程+ 良好資料流程 *) * 100，* 因此 Poor *%*  不會受到多個未分類 *資料流程的存在影響*  。 若要瞭解將資料流程分類為不佳或良好，請參閱通話品質儀表板 [中的](stream-classification-in-call-quality-dashboard.md)[串流分類> 。
   
 使用左側的縮放比例來測量串流計數值。
 
@@ -209,7 +210,7 @@ URL Date 參數接受 Day 欄位。 滾動日報表使用以 YYYY-MM-DD 格式�
 
 CQD 會使用建築物資訊將資料流程分類為 [內部」 或 [外部資料串流若存在的話）。 每個資料流程的端點都與子網位址相關聯。 如果子網位於上傳的建築物資訊中標示為 InsideCorp 的子網清單中，則它視為 *內部 。* 如果尚未上傳 [建房資訊>，則內部測試會一直將資料流程分類為 *[外部*）。 
 
-此案例的內部測試Server-Client用戶端端點。 由於伺服器從使用者的角度而言一直位於外部，因此在測試中不會說明這一點。
+此案例的Server-Client測試只會考慮用戶端端點。 由於伺服器從使用者的角度而言一直位於外部，因此在測試中不會說明這一點。
   
 #### <a name="wired-versus-wifi"></a>有線與 WiFi
 
@@ -221,7 +222,7 @@ CQD 會使用建築物資訊將資料流程分類為 [內部」 或 [外部資�
   
 ## <a name="tenant-data-information"></a>租使用者資料資訊
 
-CQD 摘要報表儀表板包含租使用者 **資料** Upload頁面，從右上角的設定功能表選取Upload租使用者資料以存取。 此頁面供系統管理員用來上傳自己的資訊，例如：
+CQD 摘要報表儀表板包含租使用者資料 **Upload頁面，** 從右上角的設定功能表中選取 Upload租使用者資料頁面即可存取。 此頁面供系統管理員用來上傳自己的資訊，例如：
 
 - IP 位址和地理資訊的地圖。
 - 每個無線 AP 及其 MAC 位址的地圖。
@@ -247,7 +248,7 @@ CQD 摘要報表儀表板包含租使用者 **資料** Upload頁面，從右上�
 
 ## <a name="create-custom-detailed-reports"></a>建立自訂的詳細報表
 
-如果預設的 CQD 報表不符合您的需求，請使用這些指示來建立自訂報表。 或者 (2020 年 1 月[) ，Power BI CQD 報表使用](cqd-power-bi-query-templates.md)資料。
+如果預設的 CQD 報表不符合您的需求，請使用這些指示來建立自訂報表。 或者 (2020 年 1 月[) ，Power BI使用 CQD 報表](cqd-power-bi-query-templates.md)。
 
 從登入時顯示之畫面頂端的報表下拉式清單中，選取摘要 \( 報表畫面選取詳細報表 \) ，然後選取 **新增**。 按一下 **報告中** 的 [編輯>，以查看查詢編輯器。 每個報表都由查詢備份到 Cube 中。 報表是查詢所返回資料的視覺效果。 查詢編輯器可協助編輯這些查詢和報表的顯示選項。
 
@@ -394,7 +395,7 @@ Login-AzureRmAccount
 - 確保績效和可靠性機制的差異：
   - Teams自動重新連接並快速漫遊。 商務用 Skype沒有。
   - Teams動態頻寬管理。 商務用 Skype沒有。
-- IP 位址[的差異在 Teams](Office-365-URLs-IP-address-ranges.md)和 商務用 Skype。 IP Teams範圍較新，可能會導致防火牆的連接問題。
+- IP 位址[的差異在 Teams](Office-365-URLs-IP-address-ranges.md)和 商務用 Skype。 IP Teams較新，可能會導致防火牆的連接問題。
 
 
 

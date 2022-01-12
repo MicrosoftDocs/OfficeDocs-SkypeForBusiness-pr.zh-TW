@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bbc40787eb3708be64ddd368a0f95d44bde5ef06
-ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
+ms.openlocfilehash: 4c0e4ec40368b8348833b596d55f34adcb0c316d
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "61620477"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766386"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 核准應用程式可用性
 
@@ -41,7 +41,7 @@ ms.locfileid: "61620477"
 本文章說明核准應用程式的需求和角色。
 
 > [!NOTE]
-> 此功能尚未發行至 政府社群雲端 GCCH (，) DOD (DOD) 中。
+> 此功能尚未發行至 政府社群雲端 (GCCH) DOD (DOD) 中。
 
 ## <a name="required-permissions-and-licenses"></a>必要的權限和授權
 
@@ -61,7 +61,7 @@ ms.locfileid: "61620477"
 
 ## <a name="storage-with-cds"></a>CDS 的儲存空間
 
-Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用資料語言。 它包含一組由 Microsoft 和我們的合作夥伴所發佈的標準化、可延伸資料架構，可跨應用程式和商務程序實現資料的一致性及其意義。 深入了解 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals)。
+Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用資料語言。 它由 Microsoft 和我們的合作夥伴所發佈的一組標準化、可擴展的資料架構所組成，可讓資料在應用程式和商務程式間保持一致性及其意義。 深入了解 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals)。
 
 深入了解[核准工作流程](/power-automate/modern-approvals)。
 
@@ -99,7 +99,7 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
 - 所有團隊擁有者都可以為他們擁有的團隊建立核准範本。
 
-- 當系統管理員第一次為整個組織建立範本時，系統會自動為租使用者的所有系統管理員 ，包括全域和小組的服務系統管理員Azure Active Directory (AAD) 新的 Azure Active Directory (AAD) 群組。 這些系統管理員會新增為群組擁有者，以便共同管理組織範本。 小組建立之後，組織的新管理員必須手動新增為群組擁有者，以便他們擁有管理全組織範本的相同許可權。
+- 當系統管理員第一次為整個組織建立範本時，系統會自動為租使用者的所有系統管理員建立一個新的 Azure Active Directory (AAD) 群組，包括全域Teams管理員。 這些系統管理員會新增為群組擁有者，以便共同管理組織範本。 小組建立之後，組織的新管理員必須手動新增為群組擁有者，以便他們擁有管理全組織範本的相同許可權。
 
 > [!Note]
 > 如果系統管理員刪除群組，您只有一個月的時間才能在 Azure Active Directory (AAD) 入口網站中還原群組，以還原所有關聯資料。 一個月後，或如果系統管理員在回收站中刪除此群組，您將失去所有相關的資料。
@@ -110,13 +110,13 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
   1. 登入 Teams 系統管理中心。
 
-  2. 展開 [Teams 應用程式 **]**，然後選取 [管理應用程式 **]**。
+  2. 前往管理 **Teams**  >  **應用程式 。**
 
   3. 搜尋核准應用程式。
 
      ![顯示系統管理中心流覽，Teams應用程式>管理應用程式。](media/manage-approval-apps.png)
 
-  4. 選取 [核准]。
+  4. 選取 **核准**。
 
   5. 選取切換以為組織停用該應用程式。
 
@@ -124,7 +124,7 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
 ## <a name="retention-policy"></a>保留原則
 
-從核准應用程式建立的核准會儲存在預設 CDS 環境中，該選項目前不支援備份。 深入了解如何[備份和還原環境 - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments)。
+從核准應用程式建立核准會儲存在預設 CDS 環境中，目前不支援備份。 深入了解如何[備份和還原環境 - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments)。
 
 在小組擁有者從 Microsoft Forms Web App 的刪除表單選項卡中清除之前，不會刪除儲存在 Forms 中的資料。
 
@@ -197,16 +197,17 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
 ## <a name="approvals-e-signature-integration"></a>核准電子簽章整合
 
-從核准應用程式建立的電子郵件簽章核准會儲存在所選提供者的雲端環境中。 有關電子簽章協定的儲存空間詳細資訊，請觀看所選提供者的儲存檔。
+若要使用核准應用程式電子簽章功能，您需要特定電子簽章提供者的許可證才能使用。 若要取得貴組織的授權，您必須前往提供者的網站。
+### <a name="enable-or-disable-e-signature-providers"></a>啟用或停用電子簽名提供者
 
-若要使用核准應用程式電子簽章功能，您需要下列專案：
+您可以使用系統Teams管理中心，控制哪些協力廠商電子簽章提供者可供您的使用者在核准應用程式中使用。 根據預設，電子簽章提供者會啟用在核准應用程式中。 當您停用電子簽章提供者時，您的使用者在建立核准時無法存取該提供者。 您的使用者也將無法查看使用該提供者建立的電子郵件簽名要求。
 
-- 您選擇使用的特定電子簽章提供者授權。 若要取得貴組織的授權，您必須前往提供者的網站。
+1. 在系統管理中心的左側導Teams，請前往管理Teams ****  >  **應用程式 。**
+2. 搜尋核准應用程式，然後選取它。
+3. 請 **前往設定，** 然後執行下列一或多個操作：
 
-針對核准電子簽章功能，協力廠商簽章合作夥伴預設會顯示Teams核准應用程式。 您可以在系統管理中心存取應用程式設定，以停用Teams提供者。
+    - 若要啟用或停用 Adobe Sign，請切換至 **開啟或****關閉**。
+    - 若要啟用或停用 DocuSign，請切換至 **開啟或****關閉**。
+4. 選取 **提交**。
 
-1. 在 Teams系統管理中心 **，選取管理** 應用程式下的核准 **應用程式**，然後選擇 **設定。**
-
-2. 每個電子簽章提供者旁邊都有一個切換開關，預設會位於 () 位置。 將切換開關向左滑動以停用特定的電子簽名提供者。 如果Teams系統管理員停用提供者，則建立核准時，使用者不會看到提供者。 使用者也無法查看該提供者提出的任何電子簽章要求。
-
-從核准應用程式建立之電子簽章核准會儲存在所選提供者的雲端。 因此，您必須前往提供者的網站，才能匯出任何電子簽章資料。 請參閱提供者關於匯出及保留這些協定的檔。
+從核准應用程式建立的電子郵件簽章核准會儲存在所選提供者的雲端環境中。 若要匯出電子簽章的資料，您必須前往提供者的網站。 有關電子簽章協定的儲存、匯出及保留詳細資訊，請參閱提供者的檔。

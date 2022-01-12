@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ffa30efd7f122b6d95c4545dd2d2517f3669472
-ms.sourcegitcommit: 73d12d90fc20e3d943301f57ee434379d0b0e91b
+ms.openlocfilehash: 0ff320688d7afc583e1e806803349fb3d07ceb0c
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "61576163"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767206"
 ---
 # <a name="authentication-best-practices-for-teams-android-devices"></a>Android 裝置Teams驗證最佳做法
 
@@ -44,7 +44,7 @@ ms.locfileid: "61576163"
 
 1.  **由於密碼政策，裝置已退出**
 
-在裝置Teams帳戶具有密碼到期政策。 與使用者不同的是，與共享裝置一起使用的帳戶沒有指定使用者來更新，並還原為密碼到期時的有效狀態。 如果貴組織需要密碼定期到期並重設，這些帳戶會在 Teams 裝置上停止運作，Teams系統管理員重設密碼並重新登錄。
+在裝置上Teams帳戶具有密碼到期政策。 與使用者不同的是，與共享裝置一起使用的帳戶沒有指定使用者來更新，並還原為密碼到期時的有效狀態。 如果貴組織需要密碼到期並定期重設，這些帳戶Teams裝置上停止運作，直到系統管理員重設密碼Teams重新登錄為止。
 
 2.  **由於條件式存取策略，裝置無法登錄**
 
@@ -58,11 +58,11 @@ Microsoft 建議在組織中部署Teams下列設定。
 
 ### <a name="password-policy"></a>**密碼政策**
 
-Teams裝置應該使用Exchange[帳戶](/exchange/recipients-in-exchange-online/manage-resource-mailboxes)。 這些帳戶可以從 Active Directory 同步處理，或直接在 Azure AD。 使用者的任何密碼到期原則也會Teams共用裝置上所使用的帳戶。
+Teams裝置應該使用Exchange[帳戶](/exchange/recipients-in-exchange-online/manage-resource-mailboxes)。 這些帳戶可以從 Active Directory 同步處理，或直接在 Azure AD。 使用者的任何密碼到期原則也適用于Teams裝置上所使用的帳戶。
 
 若要避免密碼過期政策所造成的干擾，請設定共用裝置的密碼到期政策永不過期。
 
-從 Teams 裝置 CY21 [Update #1 (Teams](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones)版本 1449/1.0.94.2021022403 開始適用于 Teams 手機) 和[CY2021 Update #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams Android) 上的 Microsoft Teams 會議室 版本 1449/1.0.96.2021051904，租使用者系統管理員可以遠端登入 Teams 裝置。 請勿與技術人員共用密碼以設定裝置。 系統管理員可以使用遠端登入來發行驗證碼，然後從系統管理中心Teams這些裝置。
+從 Teams 裝置 CY21 [Update #1 (Teams](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Desk_phones)版本 1449/1.0.94.2021022403 開始適用于 Teams 手機) 和[CY2021 更新 #2](https://support.microsoft.com/office/what-s-new-in-microsoft-teams-devices-eabf4d81-acdd-4b23-afa1-9ee47bb7c5e2#ID0EBD=Teams_Rooms_on_Android) (Teams Android) 上的 Microsoft Teams 會議室 版本 1449/1.0.96.2021051904，租使用者系統管理員可以遠端登入 Teams 裝置。 請勿與技術人員共用密碼以設定裝置。 系統管理員可以使用遠端登入來發行驗證碼，然後從系統管理中心Teams這些裝置。
 
 詳細資訊，請參閱在 Android 裝置上遠端Teams[和登錄](/MicrosoftTeams/devices/remote-provision-remote-login)。 
 
@@ -86,7 +86,7 @@ Azure AD條件式 Access 會設定裝置必須符合的其他需求，才能進�
 >[!NOTE]
 >裝置合規性需要 Intune 授權。
 
-如果您要將共用裝置註冊到 Intune，您可以將裝置合規性設定為條件式 Access 中的控制項，讓只有相容的裝置可以存取您的公司資源。 Teams，您可以根據裝置合規性為條件式 Access 策略來配置裝置。 詳細資訊，請參閱條件[式存取：需要相容](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device)或混合式Azure AD裝置。
+如果您要將共用裝置註冊到 Intune，您可以將裝置合規性設定為條件式 Access 中的控制項，讓只有相容的裝置可以存取您的公司資源。 Teams裝置可以根據裝置合規性，為條件式 Access 策略進行配置。 詳細資訊，請參閱條件[式存取：需要相容](/azure/active-directory/conditional-access/howto-conditional-access-policy-compliant-device)或混合式Azure AD裝置。
 
 若要使用 Intune 為裝置設定合規性設定，請參閱使用合規性原則來設定使用 [Intune 管理之裝置的規則](/intune/protect/device-compliance-get-started)。
 

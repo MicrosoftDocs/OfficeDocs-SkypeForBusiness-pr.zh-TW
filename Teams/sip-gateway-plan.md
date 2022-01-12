@@ -21,23 +21,23 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e59f219d24f6441615d794f23e73274e817f6a3b
-ms.sourcegitcommit: 2aae13454178dc2e2cbc8cca967cd181c5f9d044
+ms.openlocfilehash: 4c5f178c5b8da9bf2ed62b06b9c499d676c076e2
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "61314245"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767716"
 ---
 # <a name="plan-for-sip-gateway"></a>規劃 SIP 閘道
 
-SIP 閘道可讓您的組織使用任何相容的 SIP 裝置Microsoft Teams SIP 裝置中的投資。 現在，您可以使用公司認證Teams，然後使用相容的 SIP 裝置撥打和接聽電話。 相容裝置可以是具有標準 SIP 商務用 Skype的 IP 電話、具有多平臺 SIP 固件的 Cisco IP 電話，或來自 Poly、Yealink 和 AudioCodes 等廠商的 SIP 裝置。 若要瞭解如何設定 SIP 閘道的 SIP 裝置，請參閱 [設定 SIP 閘道](sip-gateway-configure.md)。
+SIP 閘道可讓您的組織使用任何相容的 SIP 裝置Microsoft Teams SIP 裝置中的投資。 現在，您可以使用公司認證Teams，然後使用相容的 SIP 裝置撥打和接聽電話。 相容裝置可以是具有標準 SIP 商務用 Skype的 IP 電話、具有多平臺 SIP 固件的 Cisco IP 電話，或是來自 Poly、Yealink 和 AudioCodes 等廠商的 SIP 裝置。 若要瞭解如何設定 SIP 閘道的 SIP 裝置，請參閱 [設定 SIP 閘道](sip-gateway-configure.md)。
 
 ## <a name="benefits-of-sip-gateway"></a>SIP 閘道的好處
 
 SIP 閘道可將相容的 SIP 裝置連接到Teams，協助使用者順暢地Teams電話。 使用 SIP 閘道，您的使用者可以執行下列所有操作：
 
 - **撥打電話：** SIP 裝置使用者可以撥打公用交換電話網絡 (PSTN) 、其他 SIP 裝置，以及Teams商務用 Skype使用者。 SIP 裝置使用者只能打電話給有電話號碼的使用者。
-- **接聽電話：** SIP 裝置使用者可以從 PSTN、Teams 或 商務用 Skype 擁有 SIP 裝置的使用者，以及 Teams 和 商務用 Skype 用戶端應用程式商務用 Skype來電。 SIP 裝置會做為Teams端點。 輸入通話也會分叉到使用者的 SIP 裝置。
+- **接聽電話：** SIP 裝置使用者可以從 PSTN、Teams或商務用 Skype SIP 裝置的使用者，以及來自 Teams 和 商務用 Skype 應用程式的通話。 SIP 裝置會做為Teams端點。 輸入通話也會分叉到使用者的 SIP 裝置。
 - **多個同時通話：** 通話中的 SIP 裝置使用者可以保留通話，以撥打或接聽其他通話。 SIP 裝置使用者也可以召開兩次電話會議。
 - **請勿打擾：** SIP 裝置使用者可以在裝置上設定請勿打擾，讓裝置不會響鈴接聽來電。 這不會影響使用者在其他所有端點Teams狀態。
 - **保留/繼續和靜音/取消靜音：** SIP 裝置使用者可以在裝置上使用這些動作的功能，來保留或繼續通話，或將通話設為靜音和取消靜音。
@@ -45,20 +45,20 @@ SIP 閘道可將相容的 SIP 裝置連接到Teams，協助使用者順暢地Tea
 - **訊息等待指示器：** SIP 裝置使用者可以收到通知，當他們有新的語音信箱訊息時，會收到通知。
 - **登錄和登出：** SIP 裝置使用者可以在裝置上Teams並登出。
 - **雙音多頻率：** SIP 裝置使用者可以在互動式語音回應通話期間按數位鍵提供輸入。
-- **Teams：SIP** 裝置使用者Teams會議存取號碼加入會議。 目前不支援撥出到同一個組織使用者的電話號碼。 不過，另一個組織的來賓使用者Teams撥入來賓使用者號碼以包含該來賓的參與者加入會議。 **注意：** 透過「Teams加入」新增會議參與者目前不會通知 SIP 裝置。
+- **Teams：SIP** 裝置使用者Teams會議存取號碼加入會議。 目前不支援撥出到同一個組織使用者的電話號碼。 不過，參與者可以將來自另一組織的來賓使用者Teams到來賓使用者號碼以包含該來賓的出席者加入會議。 **注意：** 透過「Teams加入」新增會議參與者目前不會通知 SIP 裝置。
 - **通話轉接：** SIP 裝置使用者可以轉接通話。 SIP 閘道同時支援視盲和諮詢傳輸。
 - **本地呼叫轉轉：** SIP 裝置使用者可以針對裝置設定 (、超時和忙碌) 轉轉規則。 如果裝置已連接到 SIP 閘道，則通話會依據裝置使用者設定的規則重新導向至目標位址。 若要讓本地呼叫轉轉工作，系統管理員必須將 `AllowCallRedirect` 屬性設定為 `Set-CsTeamsCallingPolicy` `Enabled` 。 
 
 
 ## <a name="requirements-to-use-sip-gateway"></a>使用 SIP 閘道的需求
 
-Teams啟用 PTSN 通話的電話號碼，使用者必須使用 SIP 閘道。
+Teams啟用 PSTN 通話的電話號碼，使用者必須使用 SIP 閘道。
 
 ### <a name="hardware-software-and-licenses"></a>硬體、軟體和授權
 
 如果您有 3PIP 或 SIP 裝置，您必須有： 
 - 透過 E5 電話系統 (授權或獨立授權) 
-- PTSN 啟用 (，即透過) 通話方案、Microsoft Teams路由或接線連線
+- PSTN 啟用 (，即透過電話) 方案、Microsoft Teams路由或接線連線
 - 任何共同電話裝置的共同區域授權
 
 ## <a name="compatible-devices"></a>相容裝置

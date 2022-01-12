@@ -17,14 +17,14 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: 請參閱本主題，瞭解如何在混合式環境中部署Microsoft Teams 會議室內部部署Exchange部署。
-ms.openlocfilehash: 15936a805e45ce17ec35822bb02980b4d47499b8
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: ea05ef6b6bf6e13ee907d84d1d48200c0cea5a09
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355612"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767226"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises-hybrid"></a>在Microsoft Teams 會議室部署Exchange混合式Exchange部署 () 
+# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises-hybrid"></a>在Microsoft Teams 會議室部署Exchange混合式 (部署) 
 
 請閱讀本主題，瞭解如何在混合式環境中Microsoft Teams 會議室內部部署Exchange部署Microsoft Teams。
   
@@ -33,39 +33,46 @@ ms.locfileid: "61355612"
 ## <a name="requirements"></a>需求
 
 在內部Microsoft Teams 會議室部署Exchange，請確定您符合需求。 詳細資訊，請參閱Microsoft Teams 會議室[需求](requirements.md)。
-  
-如果您是使用內部Microsoft Teams 會議室部署Exchange，您將使用 Active Directory 管理工具為您的內部部署網域帳戶新增電子郵件地址。 此帳戶會同步到 Microsoft 365 或 Office 365。 您必須：
-  
-- 建立帳戶，並同步處理帳戶Azure Active Directory。
-
-- 啟用遠端信箱並設定屬性。
-
-- 指派授權Microsoft 365或Office 365授權。
-
-### <a name="create-an-account-and-synchronize-with-azure-active-directory"></a>建立帳戶並Azure Active Directory
-
-1. 在 **Active Directory 使用者** 與電腦工具中，以滑鼠右鍵按一下要建立您 Microsoft Teams 會議室 帳戶的資料夾或組織單位，按一下 [**新增**，然後按一下 **[使用者**> 。
-
-2. 在全名方塊中輸入顯示名稱，將別名輸入到使用者 **登入名稱** 方塊中。 按一下 **[下一步**。
-
-3. 輸入此帳戶的密碼。 您必須重新輸入以進行驗證。 請確定選取 **的唯** 一選項為密碼永不過期核取方塊。
-
-    > [!NOTE]
-    > 選取 **密碼永不過期** 是密碼Microsoft Teams 會議室。 您的網域規則可能會禁止不會過期的密碼。 如果是這樣，您必須為每個帳戶建立例外Microsoft Teams 會議室例外。
-  
-4. 建立帳戶之後，請執行目錄同步處理。 完成後，請前往您帳戶的使用者頁面Microsoft 365 系統管理中心並確認先前步驟中建立的帳戶已同步到線上。
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>啟用遠端信箱和設定屬性
 
 1. [開啟 Exchange管理命令殼](/powershell/exchange/exchange-server/open-the-exchange-management-shell)，或使用遠端[PowerShell Exchange伺服器。](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
 
-2. 在 Exchange PowerShell 中，為帳戶建立信箱 (信箱，) 下列命令來啟用帳戶：
+2. 在 Exchange PowerShell 中，建立新會議室信箱或修改現有的會議室信箱。 根據預設，會議室信箱沒有關聯的帳戶，因此當您建立或修改會議室信箱時，您必須新增帳戶，以便使用 Microsoft Teams。
 
-   ```PowerShell
-   Enable-Mailbox ConferenceRoom01@contoso.com -Room
-   ```
+   - 若要建立新會議室信箱，請使用下列語法：
 
-   有關詳細的語法和參數資訊，請參閱 [啟用信箱](/powershell/module/exchange/mailboxes/enable-mailbox)。
+     ``` PowerShell
+     New-Mailbox -UserPrincipalName <UPN> -Name <String> -Alias <String> -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+     ```
+     
+     此範例會使用下列設定來建立新會議室信箱：
+
+     - 帳戶：ConferenceRoom01@contoso.com
+  
+     - 名稱：ConferenceRoom01
+
+     - 別名：ConferenceRoom01
+
+     - 帳戶密碼：P@$$W 0rd5959
+
+     ``` PowerShell
+     New-Mailbox -UserPrincipalName ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+     ```
+
+   - 若要修改現有的會議室信箱，請使用下列語法：
+
+     ``` PowerShell
+     Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+     ```
+
+     此範例啟用具有別名值 ConferenceRoom02 的現有會議室信箱的帳戶，並且將密碼設定為 9898P@$$W 0rd。 請注意，帳戶會因為 ConferenceRoom02@contoso.com 別名值而無法使用。
+
+     ``` PowerShell
+     Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
+     ```
+
+   有關詳細的語法和參數資訊，請參閱 [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) 和 [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox)。
 
 3. 在 Exchange PowerShell 中，設定會議室信箱上的下列設定以改善會議體驗：
 
@@ -91,6 +98,15 @@ ms.locfileid: "61355612"
 
    有關詳細的語法和參數資訊，請參閱 [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing)。
 
+### <a name="set-password-to-never-expire"></a>設定密碼永不過期
+
+1. 在 **Active Directory 使用者與電腦** 工具中，尋找 Microsoft Teams 會議室帳戶，以滑鼠右鍵按一下該帳戶，然後選取 **[內容**> 。
+
+2. 選取 [ **密碼永不過期」** 核取方塊，然後按一下 [ **確定**。
+
+   > [!NOTE]
+   > 選取 **密碼永不過期** 是密碼Microsoft Teams 會議室。 您的網域規則可能會禁止不會過期的密碼。 如果是這樣，您必須為每個帳戶建立例外Microsoft Teams 會議室例外。
+
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>指派授權Microsoft 365或Office 365授權
 
 1. 連線Azure Active Directory。 有關此Azure Active Directory，請參閱[Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
@@ -98,25 +114,29 @@ ms.locfileid: "61355612"
    > [!NOTE]
    > [Azure Active Directory不支援 PowerShell 2.0。](/powershell/azure/active-directory/overview?view=azureadps-2.0) 
 
-2. 資源帳戶必須擁有有效的授權Microsoft 365授權Office 365，Exchange Microsoft Teams無法使用。 如果您有授權，您必須將使用位置指派給資源帳戶，這決定您的帳戶可以使用哪些授權 SKUs。 您可以使用 `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 以取回可用的 SKUS 清單。
+2. 資源帳戶必須擁有有效的授權Microsoft 365授權Office 365，否則Exchange Microsoft Teams無效。 如果您有授權，您必須將使用位置指派給資源帳戶，這決定您的帳戶可以使用哪些授權 SKUs。 您可以使用 `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> 以取回可用的 SKUS 清單。
 
-<!--   ``` Powershell
+   ```Powershell
+   Get-MsolAccountSku
+   ```
+
+   <!--
+   ```Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
-   ``` -->
-
-3. 接下來，您可以使用 `Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> Cmdlet。 在此案例中，$strLicense就是您看到的 SKU 程式碼， (contoso：STANDARDPACK) 。
-
-  ``` PowerShell
-  Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
-  Get-MsolAccountSku
-  Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses $strLicense
-  ```
-
-<!--   ``` Powershell
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
-   Get-AzureADSubscribedSku
-   Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
    ```  -->
+
+3. 接下來，您可以使用 `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> Cmdlet。 此範例新增會議室授權至帳戶：
+
+   ```PowerShell
+   Set-MsolUser -UserPrincipalName "ConferenceRoom01@contoso.com" -UsageLocation "US"
+   Set-MsolUserLicense -UserPrincipalName "ConferenceRoom01@contoso.com" -AddLicenses "Contoso:MEETING_ROOM"
+   ```
+
+   <!-- 
+   ```Powershell
+   Set-AzureADUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
+   Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
+   ```   -->
 
    有關詳細指示，請參閱使用 PowerShell 指派授權[Office 365使用者帳戶](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)。
 

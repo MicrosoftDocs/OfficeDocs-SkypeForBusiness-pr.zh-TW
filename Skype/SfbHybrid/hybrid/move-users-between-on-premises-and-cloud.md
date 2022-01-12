@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：在內部部署中為混合式啟用的商務用 Skype Server，您可以在內部部署環境與雲端之間移動使用者。
-ms.openlocfilehash: 5d5f14cfdb5de2e11c95a2532900dfa3fcf669a1
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: ae0855388c4f97cd43e250ea5ee7aec1e1bf7938
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410704"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766776"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>在內部部署和雲端之間移動使用者
 
@@ -70,7 +70,7 @@ ms.locfileid: "61410704"
 
 若要在內部部署與雲端之間移動使用者，您必須在內部部署商務用 Skype Server 環境和 Teams 組織中使用具有足夠許可權的帳戶。 您可以使用一個具有所有必要許可權的帳戶，也可以使用兩個帳戶，在這種情況下，您可以使用內部部署認證來存取內部部署工具，然後在這些工具中，您會為 Teams 系統管理帳戶提供額外的認證。  
 
-- 在內部部署環境中，執行移動的使用者必須具備商務用 Skype Server 中的 CSServerAdministrator 和 CsUserAdministrator 角色。
+- 在內部部署環境中，執行移動的使用者必須具備商務用 Skype Server 中的 [CSServerAdministrator]、[CsUserAdministrator] 和 [RTCUniversalUserAdmins] 角色。
 - 在 Teams 中，執行移動的使用者必須符合下列其中一個條件：
   - 使用者是全域系統管理員角色的成員。
   - 使用者是 Teams 管理員和使用者管理員角色的成員。

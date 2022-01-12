@@ -24,18 +24,18 @@ search.appverid: MET150
 description: 深入瞭解如何Teams PSTN (PSTN) 選項，以及您將為貴組織做出的決策。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 92b588de0041ab6cc1b74734f9a56b1e97f55166
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 994115cdf1dda3b5f938b6816623ead2a4196fdb
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267826"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766846"
 ---
 # <a name="pstn-connectivity-options"></a>PSTN 連接選項
 
-Microsoft 透過您的Exchange (提供完整的私人分支) PBX 功能Teams 電話。 不過，若要讓使用者在組織外撥打電話，您必須將電話Teams 電話到公用交換電話網絡 (PSTN) 。
+Microsoft 透過Exchange (提供) PBX 的完整私人分支Teams 電話。 不過，若要讓使用者在組織外撥打電話，您必須將電話Teams 電話到公用交換電話網絡 (PSTN) 。
 
-本文著重于 PSTN 連接選項。 有關 Microsoft 語音解決方案的詳細資訊，請參閱規劃您的Teams 電話[Teams](cloud-voice-landing-page.md)語音解決方案。
+本文著重于 PSTN 連接選項。 有關 Microsoft 語音解決方案的詳細資訊 ，包括有關Teams 電話功能的詳細資訊，請參閱[規劃您的Teams解決方案](cloud-voice-landing-page.md)。
 
 若要將Teams 電話 PSTN，您可以從下列選項中選擇：
 
@@ -43,7 +43,7 @@ Microsoft 透過您的Exchange (提供完整的私人分支) PBX 功能Teams 電
 
 - [**運算子連線**](#teams-phone-with-operator-connect)，目前僅適用于公用 **預覽。**  使用運算子連線，如果您現有的電信公司是 Microsoft Operator 連線 計畫的參與者，他們可以管理 PSTN 通話和會話邊界控制器 (SBC) 。 
 
-- [**直接路由**](#teams-phone-with-direct-routing)，可讓您將會話邊界控制器 (SBC)  (，) PSTN Teams 電話。
+- [**直接路由**](#teams-phone-with-direct-routing)，可讓您將會話邊界控制器 (SBC)  (到) PSTN Teams 電話。
 
 
 您也可以選擇選項群組合，這可讓您設計複雜環境的解決方案，或管理多步驟移移。
@@ -53,7 +53,7 @@ Microsoft 透過您的Exchange (提供完整的私人分支) PBX 功能Teams 電
 
 ## <a name="teams-phone-with-calling-plan"></a>Teams 電話通話方案 
 
-Teams 電話通話方案是 Microsoft 針對使用者所使用之全雲端語音Teams解決方案。 這是連接 PSTN Teams 電話最簡單的選項。 使用這個選項，Microsoft 會做為 PSTN 電信者，如下圖所示：
+Teams 電話通話方案是 Microsoft 針對使用者的全雲端語音解決方案Teams解決方案。 這是連接 PSTN Teams 電話最簡單的選項。 使用這個選項，Microsoft 會做為 PSTN 電信者，如下圖所示：
 
 ![圖表 1 顯示電話系統通話方案。](media/voice-solutions-simple.png)
 
@@ -69,7 +69,7 @@ Teams 電話通話方案是 Microsoft 針對使用者所使用之全雲端語音
 
 - 您不需要部署或維護內部部署，因為通話方案無法 &mdash; Microsoft 365。
 
-- 注意：如有需要，您可以選擇透過直接路由連接支援的會話邊界控制器 (SBC) ，以與 SBC 支援的協力廠商 PBX、類比裝置及其他協力廠商電話設備進行互通性。
+- 注意：如有需要，您可以選擇透過直接路由連接支援的會話邊界控制器 (SBC) ，以與 SBC 支援的協力廠商 PBX、類比裝置和其他協力廠商電話設備進行互通性。
 
 此選項需要不間斷地連接到Microsoft 365。
 
@@ -109,11 +109,11 @@ Teams 電話通話方案是 Microsoft 針對使用者所使用之全雲端語音
 
 使用此選項：
 
-- 您可以在 SBC 中 (會話邊界控制器) Teams 電話，而不需要其他內部部署軟體。
+- 您將自己支援的會話邊界控制器 (SBC) Teams 電話，而不需要其他內部部署軟體。
 
 - 您幾乎可以在任何電話電信業者Teams 電話。
 
-- 您可以選擇設定及管理這個選項，也可以由您的電信公司或合作夥伴設定及管理 (詢問您的電信公司或合作夥伴是否提供此選項) 。
+- 您可以選擇設定及管理這個選項，也可以由您的電信公司或合作夥伴 (詢問您的電信公司或合作夥伴是否提供此選項) 。
 
 - 您可以設定電話設備之間的互通性，例如協力廠商 PBX 和類比裝置 &mdash; &mdash; Teams 電話。
 
@@ -138,9 +138,9 @@ Teams 電話通話方案是 Microsoft 針對使用者所使用之全雲端語音
 
 ## <a name="configuration-considerations"></a>組組考慮
 
-無論您Teams 電話 PSTN 連接選項，大部分的功能都是相同的。 例如，通話未回音和轉接設定、來電轉接、保留的自訂音樂、通話保留、共用線路和語音應用程式都可供使用。 有關功能的完整清單Teams 電話，請參閱以下是您取得[的功能](here-s-what-you-get-with-phone-system.md)Teams 電話。
+無論您Teams 電話 PSTN 連接選項，大部分的功能都是相同的。 例如，通話未回音和轉接設定、來電轉接、保留的自訂音樂、通話保留、共用線路和語音應用程式都可供使用。 有關功能的完整Teams 電話清單，請參閱以下是您取得[的功能](here-s-what-you-get-with-phone-system.md)Teams 電話。
 
-不過，功能有一些差異會影響您設定特定功能Teams 電話方式。 例如，直接路由需要額外的步驟來設定通話路由。 另一個範例是，直接路由提供位置式路由 (LBR) ，這樣您才能限制特定地理位置不允許的付費旁路。 
+不過，功能有一些差異會影響您設定特定功能Teams 電話方式。 例如，直接路由需要額外的步驟來設定通話路由。 另一個範例是，直接路由提供位置式路由 (LBR) ，如此一來，您可以限制特定地理位置不允許的付費旁路。 
 
 下表會強調主要組組差異。 表格後各節提供詳細資訊和詳細資料的連結。
 
@@ -154,7 +154,7 @@ Teams 電話通話方案是 Microsoft 針對使用者所使用之全雲端語音
 
 ### <a name="phone-number-management"></a>電話號碼管理
 
-Microsoft 有兩種可用的電話號碼類型：訂閱者 (使用者) 號碼，可指派給貴組織的使用者，以及服務號碼，以付費和免付費服務號碼提供。 服務號碼的並行通話容量高於訂閱者號碼，並可以指派給音訊會議、自動語音服務或通話佇列等服務。
+Microsoft 有兩種類型的可用電話號碼：訂閱者 (使用者) 號碼，可指派給貴組織的使用者，以及服務號碼，以付費和免付費服務號碼提供。 服務號碼的並行通話容量高於訂閱者號碼，並可以指派給音訊會議、自動語音服務或通話佇列等服務。
 
 您必須決定：
 
@@ -166,7 +166,7 @@ Microsoft 有兩種可用的電話號碼類型：訂閱者 (使用者) 號碼，
 
 - 有關管理通話方案電話號碼的資訊，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-- 有關使用運算子管理電話號碼連線，請參閱使用運算子 連線[設定電話號碼](operator-connect-configure.md#set-up-phone-numbers)。
+- 有關使用運算子管理電話號碼連線，請參閱使用運算子 連線 設定[電話號碼](operator-connect-configure.md#set-up-phone-numbers)。
 
 - 有關管理直接路由電話號碼的資訊，請參閱設定電話號碼並 [啟用企業語音和語音信箱](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online)。
 
@@ -184,7 +184,7 @@ Microsoft 有兩種可用的電話號碼類型：訂閱者 (使用者) 號碼，
 
 ### <a name="location-based-routing-for-direct-routing"></a>Location-Based直接路由的路由
 
-在某些國家和地區，忽略 PSTN 電信公司以降低長途通話費用是違法的行為。 Location-Based直接 (LBR) 路由選項可讓您根據使用者的地理位置Teams免付費。 若要進一步瞭解如何規劃及設定 LBR，請參閱下列文章：
+在某些國家和地區，忽略 PSTN 電信公司以降低長途通話費用是違法的行為。 Location-Based直接路由 (LBR) 路由選項可讓您根據使用者的地理位置Teams免付費路。 若要進一步瞭解如何規劃及設定 LBR，請參閱下列文章：
 
 - [規劃直接路由的依位置路由](location-based-routing-plan.md)
 - [設定依位置路由的網路設定](location-based-routing-configure-network-settings.md)
@@ -215,7 +215,7 @@ Microsoft 有兩種可用的電話號碼類型：訂閱者 (使用者) 號碼，
 
 ### <a name="network-topology-for-voice-features"></a>語音功能的網路拓撲
 
-如果您要部署動態緊急電話或直接路由Location-Based路由，您必須設定網路設定，以在 Microsoft Teams 中Microsoft Teams。 若要瞭解如何設定網路區域、網路網站、網路子網和受信任的 IP 位址的網路設定，請參閱下列文章：
+如果您要部署動態緊急電話或直接路由Location-Based路由，您必須設定網路設定，以在 Microsoft Teams。 若要瞭解如何設定網路區域、網路網站、網路子網和受信任的 IP 位址的網路設定，請參閱下列文章：
 
 - [雲端語音功能的網路設定Microsoft Teams概念和術語](cloud-voice-network-settings.md)
 - [管理雲端語音功能的網路拓撲Microsoft Teams](manage-your-network-topology.md)

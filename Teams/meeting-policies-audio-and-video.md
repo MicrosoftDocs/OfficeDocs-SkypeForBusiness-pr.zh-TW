@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: 瞭解如何在音訊和視Teams中管理會議策略設定。
-ms.openlocfilehash: 9cd2a82c87106e8060d168766915e4249b9193a5
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 9513650bf9c177154b45d7bd5dcda85354cf390b
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61177994"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766946"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>音訊和視&設定
 
@@ -133,7 +133,7 @@ ms.locfileid: "61177994"
 
 #### <a name="teams-mobile-clients"></a>Teams 行動用戶端
 
-對於使用Teams用戶端的使用者，在會議期間共用相片和影片的能力也取決於 **IP 視** 像或 **IP 視音訊模式** 設定。 根據設定的優先原則為何，分享視訊和相片的功能均無法使用。 這不會影響螢幕畫面分享，這是您使用個別的 [螢幕畫面分享模式[]](meeting-policies-content-sharing.md#screen-sharing-mode) 設定進行的設定。 此外，您可以設定 [Teams 行動性原則](/powershell/module/skype/new-csteamsmobilitypolicy)，以防止行動裝置使用者透過行動數據連線使用 IP 視訊，這表示他們必須使用 WiFi 連線。
+對於行動Teams用戶端上的使用者，在會議期間共用相片和影片的能力也取決於 **IP 視** 像或 **IP 視音訊模式** 設定。 根據設定的優先原則為何，分享視訊和相片的功能均無法使用。 這不會影響螢幕畫面分享，這是您使用個別的 [螢幕畫面分享模式[]](meeting-policies-content-sharing.md#screen-sharing-mode) 設定進行的設定。 此外，您可以設定 [Teams 行動性原則](/powershell/module/skype/new-csteamsmobilitypolicy)，以防止行動裝置使用者透過行動數據連線使用 IP 視訊，這表示他們必須使用 WiFi 連線。
 
 ### <a name="media-bit-rate-kbs"></a>媒體位元速率 (KB)
 
@@ -151,7 +151,7 @@ ms.locfileid: "61177994"
 
 您可以使用系統管理中心Teams PowerShell 來設定此策略。 您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的 Teams 會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，然後將該原則指派給使用者。
 
-若要指定使用者是否可以自訂會議中的視訊背景，請在 Teams系統管理中心設定視訊篩選參數 (選取視訊篩選設定) 如下所示：
+若要指定使用者是否可以在會議中自訂其視訊背景，請在 Teams 系統管理中心中設定 **VideoFiltersMode** 參數 (選取視訊篩選設定) 如下所示： 
 
 |在 PowerShell 中設定值|在系統管理中心Teams值 |行為  |
 |---------|---------|---------|
@@ -196,6 +196,9 @@ ms.locfileid: "61177994"
 
 > [!NOTE]
 > 變更最多可能需要 24 小時才能生效。
+
+> [!NOTE]
+> 此功能暫時可在公開預覽版中提供給所有Microsoft Teams使用。 若要在預覽之後取得這項功能，每個使用者都需要進一步通訊附加元件授權。 如需詳細資訊，請參閱 [Microsoft Teams 的進階通訊附加元件](/microsoftteams/teams-add-on-licensing/advanced-communications) (部分機器翻譯)。
 
 ## <a name="related-topics"></a>相關主題
 
