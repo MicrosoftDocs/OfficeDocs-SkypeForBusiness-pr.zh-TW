@@ -15,18 +15,27 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 30a9017417e6c4d50745fe1ec1bf492d65dc6b81
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9142434cc467da1e8ae5154dc8083b648d3247ad
+ms.sourcegitcommit: 45756a51857ed1d8714175d2b715c388e2f0db81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858780"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62027576"
 ---
 # <a name="expand-microsoft-teams-across-your-organization"></a>展開Microsoft Teams整個組織
 
-這些資源以標準部署Teams為根據，專為協助您將特定組織類型Teams資源所設計。 如果您尚未部署Teams，請參閱如何推出 Teams 中的建議[Microsoft Teams。](../deploy-overview.md)
+這些資源以標準部署Teams建立，專為協助您將特定組織類型Teams資源所設計。 如果您尚未部署Teams，請參閱如何推出 Teams 中的建議[Microsoft Teams。](../deploy-overview.md)
 
-|&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;| 
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| ![工作檢查清單-規劃-teams。](../media/clock-teams-small.svg)  |  [Teams 中的 Shifts](./shifts-for-teams-landing-page.md) |![健康小組](../media/health-teams-small.svg)  | [適用於醫療保健的 Teams](./teams-for-healthcare-landing-page.md) |![education-tutorial-teams](../media/education-tutorial-teams-small.svg) |  [Microsoft Teams 教育版](./teams-for-education-landing-page.md) 
-|![小型企業團隊。](../media/small-business-teams-small.svg)  | [適用於零售業的 Teams](./teams-for-retail-landing-page.md) |![區塊團隊](../media/blocks-teams-small.svg)  | [適用於政府機關的 Teams](./teams-for-government-landing-page.md) |               |               |
+瞭解您可以執行哪些Teams：
+
+- [教育](./teams-for-education-landing-page.md)
+- [前線工作人員](../flw-landing-page.md)
+- [政府](./teams-for-government-landing-page.md)
+- [醫療](./teams-for-healthcare-landing-page.md)
+- [公益性](./teams-for-nonprofit-landing-page.md)
+- [零售](./teams-for-retail-landing-page.md)
+
+或深入瞭解適用于所有產業的這些應用程式：
+
+- [Teams 中的 Shifts](./shifts-for-teams-landing-page.md)
+- [在 Teams](../bookings-app-admin.md)

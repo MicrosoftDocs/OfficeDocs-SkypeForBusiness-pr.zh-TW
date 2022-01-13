@@ -14,18 +14,18 @@ f1.keywords:
 ms.localizationpriority: medium
 description: 瞭解系統生命週期支援Microsoft Teams 會議室，包括動態支援結構及其階段。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0857f7122c4cc03b1398d52682ba33739ea6c4d5
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: a04a98fa4a3d0b876b6abafff248916cb7e1443f
+ms.sourcegitcommit: 45756a51857ed1d8714175d2b715c388e2f0db81
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306188"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62027566"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams 會議室應用程式版本支援
  
-應用程式Microsoft Teams 會議室應用程式會透過 Windows商店Windows更新。 Microsoft Teams會議室應用程式使用常綠產品生命週期，且任何時間僅支援目前和下一個最新版本的應用程式。 Microsoft Teams會議室應用程式會提供經過修改供會議室Teams版桌面應用程式的特定版本。 桌面Teams應用程式每兩周更新一次。 深入瞭解更新Teams[程式](../teams-client-update.md)。 這表示Teams 會議室應用程式目前-1 版本最多可以支援六個 Teams 桌面應用程式更新，因此建議您隨時將 Teams 會議室應用程式更新至 Teams 會議室 應用程式的最新版本。 
+應用程式Microsoft Teams 會議室應用程式會透過 Windows商店Windows更新。 Microsoft Teams會議室應用程式使用常綠產品生命週期，且任何時間僅支援目前和下一個最新版本的應用程式。 Microsoft Teams會議室應用程式會提供經過修改供會議室Teams版桌面應用程式的特定版本。 桌面Teams應用程式每兩周更新一次。 深入瞭解更新Teams[程式](../teams-client-update.md)。 這表示Teams 會議室應用程式目前-1 版本最多可以支援六個 Teams 桌面應用程式更新，因此建議您隨時將 Teams 會議室應用程式更新至最新版本的 Teams 會議室 應用程式。 
 
-系統支援結構Teams 會議室動態，並視最新版的可用性而定。 當您在非最新版應用程式中遇到程式碼瑕疵時，您必須安裝最新版本，以接收修正程式。
+系統支援結構Teams 會議室動態，且取決於最新版本的可用性。 當您在非最新版應用程式中遇到程式碼瑕疵時，您必須安裝最新版本，以接收修正程式。
 
 所有版本會列在 Microsoft Teams 會議室[資訊中](rooms-release-note.md)。
 
@@ -37,10 +37,10 @@ ms.locfileid: "61306188"
 Microsoft Teams 會議室通道維護選項Windows 10 IoT 企業版或Windows 10 企業版 SKUS Semi-Annual SKUS。 不支援Windows 10版本：
 
 - Windows 10 企業版 LTSB (LTSB) /LTSC (長期維護) 分支
-- Windows 10 IoT (IoT) Enterprise LTSB / LTSC 版本
+- Windows 10 IoT (的) Enterprise LTSB / LTSC 版本
 - 任何其他版本的Windows，例如Windows 10 專業版家用版
 
-Windows 10裝置上不會立即提供新功能Microsoft Teams 會議室新功能更新。 在發佈于發行資訊頁面上的一般發行日期之後，Windows 10[延遲達六個月以上](/windows/release-information/)。 這次是用來驗證 Windows 10應用程式、裝置硬體Microsoft Teams 會議室認證音訊視訊外Microsoft Teams 會議室的發行相容性。 驗證會在每個主要版本開發期間開始並繼續Windows 10。 需要額外時間驗證所有裝置製造商已針對其裝置建立更新的影像，以及 Microsoft 認證及測試這些影像。 在驗證期間，Microsoft Teams會議室應用程式會使用 Windows[更新商務用](/windows/deployment/update/waas-manage-updates-wufb)群組原則來延遲Windows 10更新。 找到並解決任何相容性問題之後，封鎖會透過在市/市中的新應用程式發行更新群組Windows解除。 執行此應用程式Microsoft Teams 會議室裝置會在夜間維護重新開機Windows 10自動更新至適當的版本。 MSI 版本可供需要手動管理更新的客戶使用。  
+Windows 10裝置上不會立即提供新功能Microsoft Teams 會議室新功能更新。 在發佈于發行資訊頁面上的一般發行日期之後，Windows 10[延遲達六個月以上](/windows/release-information/)。 這次是用來驗證 Windows 10應用程式、裝置硬體Microsoft Teams 會議室認證音訊視訊外Microsoft Teams 會議室的發行相容性。 驗證會在每個主要版本開發期間開始並繼續Windows 10。 需要額外時間驗證所有裝置製造商已針對其裝置建立更新的影像，以及 Microsoft 認證及測試這些影像。 在驗證期間，Microsoft Teams會議室應用程式會Windows[商務用](/windows/deployment/update/waas-manage-updates-wufb)更新群組原則來延遲Windows 10更新。 找到並解決任何相容性問題之後，封鎖會透過在市/市中的新應用程式發行更新群組Windows解除。 執行此應用程式Microsoft Teams 會議室裝置會在夜間維護重新開機Windows 10自動更新至適當的版本。 MSI 版本可供需要手動管理更新的客戶使用。  
 
 > [!IMPORTANT]
 > 在驗證期間，Microsoft Teams 會議室不得以任何方式將裝置更新至Windows 10版本。 這包括重寫就地的群組原則，或System Center或其他協力廠商裝置管理服務。 上述任何一個都可能會導致會議室應用程式Microsoft Teams問題，或讓裝置無法使用。  
@@ -49,6 +49,7 @@ Windows 10裝置上不會立即提供新功能Microsoft Teams 會議室新功能
 
 |版本  |可用性日期   |Microsoft Teams 會議室支援狀態   |Microsoft Teams 會議室應用程式版本 | 建議的作業系統建立  |
 |:---  |:---       |:---                                  |:---     |:---     |
+| 21H1 |2021-05-18 |不支援                         |&#x2014; |&#x2014; |
 | 20H2 |2020-10-20 |支援 <br/>建議|4.10.10.0 |19042.631 |
 | 2004 |2020-05-27 |跳 <br/> 不建議&#x2780;|&#x2014; |&#x2014; |
 | 1909 |2019-11-12 |支援 |4.5.33.0 |18363.418  |
@@ -60,7 +61,7 @@ Windows 10裝置上不會立即提供新功能Microsoft Teams 會議室新功能
 
 &#x2780; Windows 10應用程式發現相容性問題，不建議使用版本 2004 Microsoft Teams 會議室版本。 此特定問題Microsoft Teams 會議室重新開機之後，應用程式無法啟動。 
 
-&#x2781; Windows 10應用程式相容性問題，不建議使用版本 1809 Microsoft Teams 會議室版本。 此特定問題Microsoft Teams 會議室重新開機之後，應用程式無法啟動。 此問題在版本 1903 Windows 10中已解決。  
+&#x2781; Windows 10應用程式發現相容性問題，不建議使用版本 1809 Microsoft Teams 會議室版本。 此特定問題Microsoft Teams 會議室重新開機之後，應用程式無法啟動。 此問題在版本 1903 Windows 10中已解決。  
 
 當您使用支援的 Windows 10版本時，您一定會取得應用程式應用程式Microsoft Teams 會議室更新。  
 
