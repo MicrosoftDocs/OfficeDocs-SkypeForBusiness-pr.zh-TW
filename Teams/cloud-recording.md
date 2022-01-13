@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 37d7c3999986373e7ad72176cfc0182f09144e3a
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 1221747b1ad8487c0b5852b6adaf5129b5a5288e
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205413"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766766"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -267,6 +267,10 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 >
 >
 
+在[這裡](meeting-expiration.md#changes-to-meeting-expiration)深入了解系統管理特定變更。
+
+在[這裡](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date)深入了解使用者如何管理會議到期。
+  
 請參閱系統管理員和使用者的常見問題，以收集 Teams 會議錄製的自動到期如何運作的深入見解、您現在可採取的動作，以及此功能啟動後可以採取的動作。
   
 ## <a name="frequently-asked-questions"></a>常見問題集

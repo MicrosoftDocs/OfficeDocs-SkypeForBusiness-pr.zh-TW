@@ -15,24 +15,28 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25508b3224ab7eab28157cbff268bb6b164686d5
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 97f8994ecc5c7aef610e040f30b43803f03c6844
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563650"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993189"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>使用前線員工上線精靈，讓前線員工上線並順利上線
 
 ## <a name="overview"></a>概觀
 
-系統中的前線員工上線精靈Microsoft 365 系統管理中心簡化將前線員工上線到貴組織。 精靈可讓您在專為前線員工量Microsoft Teams快速部署體驗。 使用精靈，您可以輕鬆地開始為Teams前線員工進行試驗部署。
+此範本中的前線員工上Microsoft 365 系統管理中心可簡化將前線員工加入貴組織。 精靈可讓您在專為前線員工量Microsoft Teams快速部署體驗。 使用精靈，您可以輕鬆地開始為Teams前線員工進行試驗部署。
 
 精靈會為前線員工設定團隊，並將授權和策略套件指派給每個[](manage-policy-packages.md)團隊成員。 您可以從頭開始建立小組，或從小組範本建立[](get-started-with-teams-templates-in-the-admin-console.md)小組，然後新增使用者並指派角色。 角色會決定精靈指派給每個使用者的政策套件。
 
 目前，精靈支援每次執行時新增 100 個使用者。 我們正努力儘快增加每一次執行的使用者數目。 請返回這裡查看最新更新。
 
-精靈可供至少擁有一個 F 授權的所有 [組織使用](https://www.microsoft.com/microsoft-365/enterprise/frontline)。 您可以執行精靈多次，因為您需要在組織Teams位置或網站將精靈推出給前線員工。
+精靈可供至少擁有一個 F 授權的所有 [組織使用](https://www.microsoft.com/microsoft-365/enterprise/frontline)。 您可以執行精靈多次，因為您需要將Teams到您組織不同位置或網站的前線員工。
+
+請觀看這段短片，瞭解如何執行精靈，以上線員工。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN6oh]
 
 > [!NOTE]
 > 此精靈可讓您快速上線員工，Teams完成Microsoft 365 系統管理中心。 若要瞭解如何使用腳本將Teams部署至前線員工，請參閱如何為前線員工Teams部署[資源。](flw-scripted-deployment.md)
@@ -44,7 +48,7 @@ ms.locfileid: "61563650"
 
 1. 在左側流覽的 [Microsoft 365 系統管理中心，選擇](https://admin.microsoft.com/)**設定**。 請前往應用程式 **與電子郵件** 區段，然後在讓前線員工上線並順利運作 **下，選取****** 在這裡，您可以深入瞭解前線Microsoft 365提供的功能。
 
-    :::image type="content" source="media/flw-onboarding-wizard-get-started.png" alt-text="螢幕擷取畫面顯示在 Microsoft 365 系統管理中心 中前線員工上線體驗的詳細資訊頁面Microsoft 365 系統管理中心" lightbox="media/flw-onboarding-wizard-get-started.png":::
+    :::image type="content" source="media/flw-onboarding-wizard-get-started.png" alt-text="螢幕擷取畫面，顯示公司中前線員工上線體驗Microsoft 365 系統管理中心" lightbox="media/flw-onboarding-wizard-get-started.png":::
 
 2. 當您準備好時，請選取 **開始** 執行精靈。
 
@@ -72,7 +76,7 @@ ms.locfileid: "61563650"
 
     :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="在精靈的檢查小組頁面螢幕擷取畫面中，您可以在這裡查看小組設定" lightbox="media/flw-onboarding-wizard-review-team.png":::
 
-    精靈會建立您的小組，並將授權和策略套件指派給小組成員。 這可能需要幾分鐘才能完成，之後您選取的收件者會收到狀態電子郵件。
+    精靈會建立您的小組，並將授權和策略套件指派給小組成員。 可能需要幾分鐘才能完成，之後您選取的收件者會收到狀態電子郵件。
 
 8. 您上路了，但尚未完成！ 接下來，請查看執行本文 [精靈一節後](#what-to-do-after-running-the-wizard) 該做什麼。
 
@@ -81,7 +85,7 @@ ms.locfileid: "61563650"
 執行精靈之後，必須：
 
 - 請讓前線員工和主管知道他們已指派Teams授權。
-- 如果您使用的是共用裝置，請確定Teams裝置上安裝該裝置。 如果貴組織使用「攜帶您自己的裝置」模型，請讓前線員工和主管知道他們必須下載並安裝Teams裝置。
+- 如果您使用的是共用裝置，請確定Teams這些裝置上安裝該裝置。 如果貴組織使用「攜帶您自己的裝置」模型，請讓前線員工和主管知道他們必須下載並安裝Teams裝置。
 
 第一次Teams前線員工開啟時，他們會收到量身打造的首次執行體驗，包括聊天和頻道、通話和任務管理，Teams。
 

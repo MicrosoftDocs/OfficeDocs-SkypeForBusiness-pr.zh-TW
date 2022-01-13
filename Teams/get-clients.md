@@ -1,7 +1,7 @@
 ---
 title: 取得 Microsoft Teams 用戶端
-author: SerdarSoysal
-ms.author: serdars
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,30 +12,26 @@ ms.collection:
 ms.reviewer: harij, rafarhi
 ms.localizationpriority: high
 search.appverid: MET150
-description: 了解如何使用各種適用 Microsoft Teams 的用戶端，包括 Web、桌面 (Windows 和 Mac) 以及行動裝置 (Android 和 iOS)。
+description: 了解如何在電腦、Mac 及行動裝置上安裝適用於 Microsoft Teams 的各種用戶端。
 f1.keywords:
 - CSH
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c47285a8a759ccdade5fc6e95b90d75ede77bfc3
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 31bafc1c112d8b50990cc6e92c863c7e242aa5fb
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014687"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993007"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>取得 Microsoft Teams 用戶端
 
-Microsoft Teams 具有適用於 Web、桌面 (Windows、Mac 和 Linux) 及行動裝置 (Android 和 iOS) 的用戶端。 這些用戶端都需要使用有效的網際網路連線，且並不支援離線模式。
+> [!TIP]
+> **想要在您的 PC、Mac 或行動裝置上安裝 Teams 嗎?** 請查看 [安裝 Teams 用戶端](https://www.microsoft.com/microsoft-teams/download-app)。
 
-> [!NOTE]
-> 如需有關不同平台上每個用戶端功能的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
->
-> 2018 年 11 月 29 日起，您將無法再使用 Microsoft Store 提供的 Windows 10 S 版 Microsoft Teams (預覽版) 應用程式。 但是您現在可以在執行 Windows 10 S 模式的裝置上，下載並安裝 Teams 桌面版用戶端。 若要下載桌面版用戶端，請移至 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/p/?linkid=855754)。 Teams 桌面版用戶端的 MSI 組建尚不適用於執行 Windows 10 S 模式的裝置。
->
-> 如需有關 Windows 10 S 模式的詳細資訊，請參閱[引進 Windows 10 S 模式](https://www.microsoft.com/windows/s-mode)。
+本文提供如何在企業中的裝置上安裝 Microsoft Teams 的資訊。
+
+如需有關不同平台上每個用戶端功能的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="desktop-client"></a>桌面版用戶端
 

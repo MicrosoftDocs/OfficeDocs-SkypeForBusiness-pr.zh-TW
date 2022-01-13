@@ -3,6 +3,71 @@
 
 
 
+## <a name="week-of-january-03-2022"></a>2022 年 1 月 3 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 1/4/2022 | [將電話號碼移轉至商務語音](/MicrosoftTeams/business-voice/port-phone-numbers) | 改 性 |
+| 1/4/2022 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 改 性 |
+| 1/4/2022 | [將通話路由至未指定的號碼](/MicrosoftTeams/routing-calls-to-unassigned-numbers) | 改 性 |
+| 1/4/2022 | [規劃直接路由](/MicrosoftTeams/direct-routing-plan) | 改 性 |
+| 1/4/2022 | [管理外部存取 (同盟)](/MicrosoftTeams/manage-external-access) | 改 性 |
+| 1/4/2022 | [使用Microsoft Teams 會議室內部部署Exchange混合式 (部署) ](/MicrosoftTeams/rooms/with-exchange-on-premises) | 改 性 |
+| 1/4/2022 | [Teams 雲端會議錄製](/MicrosoftTeams/cloud-recording) | 改 性 |
+| 1/4/2022 | [在中管理Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | 改 性 |
+| 1/4/2022 | [管理音訊和視音訊的會議政策](/MicrosoftTeams/meeting-policies-audio-and-video) | 改 性 |
+| 1/4/2022 | [快速入門 - 會議、網路研討會與即時活動](/MicrosoftTeams/quick-start-meetings-live-events) | 改 性 |
+| 1/4/2022 | [適用于您的進一Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 改 性 |
+| 1/5/2022 | [Microsoft Teams附加元件授權](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 改 性 |
+| 1/5/2022 | [系統管理訓練資源 - Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | 改 性 |
+| 1/5/2022 | [通話品質儀表板](/MicrosoftTeams/business-voice/analytics-dashboard) | 改 性 |
+| 1/5/2022 | Business Voice 的適用國家與地區 | 刪除 |
+| 1/5/2022 | [設定小型企業教學課程Microsoft Teams自動總機](/MicrosoftTeams/business-voice/create-a-phone-system-auto-attendant-smb) | 改 性 |
+| 1/5/2022 | [在小型企業教學課程Microsoft Teams通話佇列](/MicrosoftTeams/business-voice/create-a-phone-system-call-queue-smb) | 改 性 |
+| 1/5/2022 | [建立Microsoft 365使用者、使用Teams 電話方案授權新增電話號碼，以及指派電話號碼](/MicrosoftTeams/business-voice/create-users) | 改 性 |
+| 1/5/2022 | [使用 Microsoft 365 Teams 電話 通話方案自訂Microsoft Teams](/MicrosoftTeams/business-voice/customize-business-voice) | 改 性 |
+| 1/5/2022 | [使用通話方案檢查Teams 電話網際網路連接](/MicrosoftTeams/business-voice/get-ready-internet) | 改 性 |
+| 1/5/2022 | [Microsoft 365 Teams 電話通話方案套件檔 # < 60 個字元](/MicrosoftTeams/business-voice/index) | 改 性 |
+| 1/5/2022 | [管理裝置](/MicrosoftTeams/business-voice/manage-devices) | 改 性 |
+| 1/5/2022 | [監控通話品質](/MicrosoftTeams/business-voice/monitor-quality) | 改 性 |
+| 1/5/2022 | Microsoft 365 商務語音合作夥伴Microsoft Teams資源 | 刪除 |
+| 1/5/2022 | [使用通話方案Teams 電話電話號碼](/MicrosoftTeams/business-voice/port-phone-numbers) | 改 性 |
+| 1/5/2022 | 如何幫助我的使用者為 Microsoft 365 商務語音做好準備？ | 刪除 |
+| 1/5/2022 | [從 Microsoft 轉銷商或合作夥伴取得協助](/MicrosoftTeams/business-voice/reseller-partner-support) | 改 性 |
+| 1/5/2022 | [將Teams 電話方案電話號碼指派給使用者](/MicrosoftTeams/business-voice/set-up-assign-numbers) | 改 性 |
+| 1/5/2022 | [設定公司主要電話號碼的自動總機](/MicrosoftTeams/business-voice/set-up-auto-attendant) | 改 性 |
+| 1/5/2022 | [設定Microsoft 365 Teams 電話方案緊急位置](/MicrosoftTeams/business-voice/set-up-emergency-locations) | 改 性 |
+| 1/5/2022 | [完成Teams 電話通話方案設定](/MicrosoftTeams/business-voice/set-up-finish) | 改 性 |
+| 1/5/2022 | [使用Microsoft 365 Teams 電話方案授權指派通話](/MicrosoftTeams/business-voice/set-up-licenses) | 改 性 |
+| 1/5/2022 | [使用中小型企業Microsoft 365 Teams 電話通話方案設定通話方案](/MicrosoftTeams/business-voice/set-up-overview) | 改 性 |
+| 1/5/2022 | [使用Microsoft 365 Teams 電話通話方案設定通話方案](/MicrosoftTeams/business-voice/set-up-phone-numbers) | 改 性 |
+| 1/5/2022 | [設定原則](/MicrosoftTeams/business-voice/set-up-policies) | 改 性 |
+| 1/5/2022 | [使用通話Microsoft 365 Teams 電話設定通話方案資源帳戶](/MicrosoftTeams/business-voice/set-up-resource-account) | 改 性 |
+| 1/5/2022 | 使用 Microsoft 365 商務語音附帶通話方案需要購買哪些項目？ | 刪除 |
+| 1/5/2022 | [Teams 電話中小型企業的指南](/MicrosoftTeams/business-voice/whats-business-voice) | 改 性 |
+| 1/5/2022 | [在 Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | 改 性 |
+| 1/5/2022 | [在小型企業中設定 Microsoft Teams](/MicrosoftTeams/deploy-small-business) | 改 性 |
+| 1/5/2022 | [適用于 Teams](/MicrosoftTeams/devices/teams-ip-phones) | 改 性 |
+| 1/5/2022 | [在中管理Microsoft Teams](/MicrosoftTeams/manage-policy-packages) | 改 性 |
+| 1/5/2022 | [使用 API 管理Microsoft Teams中的Graph頻道](/MicrosoftTeams/private-channels-life-cycle-management) | 改 性 |
+| 1/6/2022 | [使用 PowerShell 腳本變更資訊障礙模式](/MicrosoftTeams/information-barriers-mode-script) | 添加 |
+| 1/6/2022 | [中的資訊Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | 改 性 |
+| 1/7/2022 | [Teams 中的核准應用程式可用性](/MicrosoftTeams/approval-admin) | 改 性 |
+| 1/7/2022 | [指派、變更或移除使用者的電話號碼](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 改 性 |
+| 1/7/2022 | [設定自動Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 改 性 |
+| 1/7/2022 | [Microsoft Teams面板](/MicrosoftTeams/devices/teams-panels) | 改 性 |
+| 1/7/2022 | [用於通話的電話號碼Teams](/MicrosoftTeams/different-kinds-of-phone-numbers-used-for-calling-plans) | 改 性 |
+| 1/7/2022 | [直接路由 - 連接類比裝置](/MicrosoftTeams/direct-routing-analog-devices) | 改 性 |
+| 1/7/2022 | [翻譯直接路由的電話號碼](/MicrosoftTeams/direct-routing-translate-numbers) | 改 性 |
+| 1/7/2022 | [外線通話限制 - PSTN 通話&音訊會議](/MicrosoftTeams/outbound-calling-restriction-policies) | 改 性 |
+| 1/7/2022 | [PSTN 連接選項](/MicrosoftTeams/pstn-connectivity) | 改 性 |
+| 1/7/2022 | [在 Microsoft Teams](/MicrosoftTeams/set-up-holidays-in-teams) | 改 性 |
+| 1/7/2022 | [規劃 SIP 閘道](/MicrosoftTeams/sip-gateway-plan) | 改 性 |
+| 1/7/2022 | [等候音樂](/MicrosoftTeams/music-on-hold) | 改 性 |
+| 1/7/2022 | [將電話號碼轉接到Microsoft Teams](/MicrosoftTeams/phone-number-calling-plans/transfer-phone-numbers-to-teams) | 改 性 |
+
+
 ## <a name="week-of-december-20-2021"></a>2021 年 12 月 20 日周
 
 
@@ -93,87 +158,3 @@
 | 12/10/2021 | [適用於非營利組織的 Teams](/MicrosoftTeams/expand-teams-across-your-org/teams-for-nonprofit-landing-page) | 改 性 |
 | 12/10/2021 | [客戶的合作夥伴管理](/MicrosoftTeams/rooms/multi-tenant-management-customer) | 改 性 |
 | 12/10/2021 | [合作夥伴的多租使用者客戶管理](/MicrosoftTeams/rooms/multi-tenant-management-partner) | 改 性 |
-
-
-## <a name="week-of-november-29-2021"></a>2021 年 11 月 29 日周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 11/29/2021 | [適用于 Teams](/MicrosoftTeams/devices/teams-ip-phones) | 改 性 |
-| 11/29/2021 | [使用 Teams 安裝Microsoft Endpoint Configuration Manager](/MicrosoftTeams/msi-deployment) | 改 性 |
-| 11/29/2021 | [從 Teams Exploratory 試用版升級](/MicrosoftTeams/upgrade-from-teams-exploratory) | 改 性 |
-| 11/30/2021 | [管理參與者和來賓的會議政策](/MicrosoftTeams/meeting-policies-participants-and-guests) | 改 性 |
-| 11/30/2021 | [Microsoft EDU 家長應用程式在 Teams](/MicrosoftTeams/edu-parents-app) | 改 性 |
-| 12/1/2021 | [連線 Microsoft Teams使用 (AAD識別) 至現有的電子郵件系統](/MicrosoftTeams/connect-teams-essentials-to-email) | 添加 |
-| 12/1/2021 | [適用於小型企業的 Teams 基本版快速入門指南](/MicrosoftTeams/get-started-with-teams-essentials) | 添加 |
-| 12/1/2021 | [設定接線連線會議](/MicrosoftTeams/operator-connect-conferencing-configure) | 添加 |
-| 12/1/2021 | [規劃接線連線會議](/MicrosoftTeams/operator-connect-conferencing-plan) | 添加 |
-| 12/1/2021 | [適用於虛擬桌面架構的 Teams](/MicrosoftTeams/teams-for-vdi) | 改 性 |
-| 12/1/2021 | [即時活動錄製政策](/MicrosoftTeams/teams-live-events/live-events-recording-policies) | 改 性 |
-| 12/1/2021 | [Microsoft Teams PowerShell 版本資訊](/MicrosoftTeams/teams-powershell-release-notes) | 改 性 |
-| 12/1/2021 | [升級Microsoft Teams免費 (傳統) 訂閱](/MicrosoftTeams/upgrade-freemium) | 改 性 |
-| 12/1/2021 | [適用於小型企業的 Teams 基本版快速入門指南](/MicrosoftTeams/get-started-with-teams-essentials) | 改 性 |
-| 12/1/2021 | [以下是您取得Teams 電話](/MicrosoftTeams/here-s-what-you-get-with-phone-system) | 改 性 |
-| 12/1/2021 | [在Teams 電話中設定目標](/MicrosoftTeams/setting-up-your-phone-system) | 改 性 |
-| 12/1/2021 | [什麼是Teams 電話](/MicrosoftTeams/what-is-phone-system-in-office-365) | 改 性 |
-| 12/2/2021 | [在 Microsoft Teams](/MicrosoftTeams/cloud-voice-landing-page) | 改 性 |
-| 12/2/2021 | [手機和裝置Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | 改 性 |
-| 12/2/2021 | [維度和度量 - 通話品質儀表板 (CQD) ](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | 改 性 |
-| 12/2/2021 | [PSTN 連接選項](/MicrosoftTeams/pstn-connectivity) | 改 性 |
-| 12/2/2021 | [教育版 Insights使用者注意事項](/MicrosoftTeams/insights-end-user-notice) | 添加 |
-| 12/2/2021 | [設定動態緊急電話](/MicrosoftTeams/configure-dynamic-emergency-calling) | 改 性 |
-| 12/2/2021 | [連線 Microsoft Teams使用 (AAD識別) 至現有的電子郵件系統](/MicrosoftTeams/connect-teams-essentials-to-email) | 改 性 |
-| 12/3/2021 | 在 Microsoft Teams 中將原則指派給使用者 | 刪除 |
-| 12/3/2021 | [在稽核記錄中搜尋Microsoft Teams](/MicrosoftTeams/audit-log-events) | 改 性 |
-| 12/3/2021 | [適用于 Teams](/MicrosoftTeams/devices/teams-ip-phones) | 改 性 |
-| 12/3/2021 | [媒體旁路搭配直接路由方案](/MicrosoftTeams/direct-routing-plan-media-bypass) | 改 性 |
-| 12/3/2021 | [適用於小型企業的 Teams 基本版快速入門指南](/MicrosoftTeams/get-started-with-teams-essentials) | 改 性 |
-| 12/3/2021 | [設定 Microsoft Teams 會議室主控台](/MicrosoftTeams/rooms/console) | 改 性 |
-| 12/3/2021 | [瞭解如何設定內容攝影機 - Microsoft Teams](/MicrosoftTeams/rooms/content-camera) | 改 性 |
-| 12/3/2021 | [使用會議與會議Microsoft Teams 會議室Surface Hub](/MicrosoftTeams/rooms/coordinated-meetings) | 改 性 |
-| 12/3/2021 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 改 性 |
-| 12/3/2021 | [在 Microsoft Teams 會議室](/MicrosoftTeams/rooms/rooms-authentication) | 改 性 |
-| 12/3/2021 | [設定帳戶Microsoft Teams 會議室](/MicrosoftTeams/rooms/rooms-configure-accounts) | 改 性 |
-| 12/3/2021 | [部署 Microsoft Teams 會議室](/MicrosoftTeams/rooms/rooms-deploy) | 改 性 |
-| 12/3/2021 | [Microsoft Teams 會議室授權](/MicrosoftTeams/rooms/rooms-licensing) | 改 性 |
-| 12/3/2021 | [Microsoft Teams 會議室應用程式版本支援](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 改 性 |
-| 12/3/2021 | [管理 Microsoft Teams 會議室](/MicrosoftTeams/rooms/rooms-manage) | 改 性 |
-| 12/3/2021 | [Microsoft Teams 會議室維護與作業](/MicrosoftTeams/rooms/rooms-operations) | 改 性 |
-| 12/3/2021 | [Microsoft Teams 會議室安全性](/MicrosoftTeams/rooms/security) | 改 性 |
-
-
-## <a name="week-of-november-22-2021"></a>2021 年 11 月 22 日周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 11/22/2021 | [適用于 Teams](/MicrosoftTeams/devices/teams-ip-phones) | 改 性 |
-| 11/22/2021 | [通過直接路由認證的工作階段邊界控制器](/MicrosoftTeams/direct-routing-border-controllers) | 改 性 |
-| 11/22/2021 | [Microsoft Teams活動使用方式報告](/MicrosoftTeams/teams-analytics-and-reports/teams-live-event-usage-report) | 改 性 |
-| 11/22/2021 | [在 Microsoft Teams 中規劃即時活動](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | 改 性 |
-| 11/23/2021 | [管理會議設定](/MicrosoftTeams/meeting-settings-in-teams) | 改 性 |
-| 11/23/2021 | [使用 Microsoft Teams 會議室 部署Exchange Online](/MicrosoftTeams/rooms/with-exchange-online) | 改 性 |
-| 11/23/2021 | [使用 Microsoft Teams 會議室 或 Microsoft 365 部署Office 365](/MicrosoftTeams/rooms/with-office-365) | 改 性 |
-| 11/24/2021 | [在 Outlook 中使用 Microsoft Teams 會議增益集](/MicrosoftTeams/teams-add-in-for-outlook) | 改 性 |
-| 11/24/2021 | [Exchange 和 Microsoft Teams 如何互動](/MicrosoftTeams/exchange-teams-interact) | 改 性 |
-| 11/24/2021 | [Microsoft Teams面板上的 LOB (LOB) 應用程式支援Teams應用程式](/MicrosoftTeams/app-support-on-teams-panels) | 改 性 |
-| 11/24/2021 | [Teams 雲端會議錄製](/MicrosoftTeams/cloud-recording) | 改 性 |
-| 11/24/2021 | [在 Microsoft Teams 中設定桌面共用](/MicrosoftTeams/configure-desktop-sharing) | 改 性 |
-| 11/24/2021 | [Cortana語音協助Microsoft Teams](/MicrosoftTeams/cortana-in-teams) | 改 性 |
-| 11/24/2021 | [Teams 教育版原則精靈，輕鬆將原則用於安全學習](/MicrosoftTeams/easy-policy-setup-edu) | 改 性 |
-| 11/24/2021 | [會議政策與會議到期Microsoft Teams](/MicrosoftTeams/meeting-expiration) | 改 性 |
-| 11/24/2021 | [管理音訊和視音訊的會議政策](/MicrosoftTeams/meeting-policies-audio-and-video) | 改 性 |
-| 11/24/2021 | [管理內容共用的會議策略](/MicrosoftTeams/meeting-policies-content-sharing) | 改 性 |
-| 11/24/2021 | [管理一般會議政策](/MicrosoftTeams/meeting-policies-in-teams-general) | 改 性 |
-| 11/24/2021 | [管理會議Microsoft Teams](/MicrosoftTeams/meeting-policies-overview) | 改 性 |
-| 11/24/2021 | [管理參與者和來賓的會議政策](/MicrosoftTeams/meeting-policies-participants-and-guests) | 改 性 |
-| 11/24/2021 | [管理會議設定](/MicrosoftTeams/meeting-settings-in-teams) | 改 性 |
-| 11/24/2021 | [管理 Teams 中的訊息傳遞原則](/MicrosoftTeams/messaging-policies-in-teams) | 改 性 |
-| 11/24/2021 | [租使用者系統管理在 (語音設定檔) 語音辨識Teams 會議室](/MicrosoftTeams/rooms/voice-recognition) | 改 性 |
-| 11/24/2021 | [在 Microsoft Teams 中設定網路研討會](/MicrosoftTeams/set-up-webinars) | 改 性 |
-| 11/24/2021 | [適用于您的進一Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications) | 改 性 |
-| 11/24/2021 | [Microsoft Teams 會議出席報告](/MicrosoftTeams/teams-analytics-and-reports/meeting-attendance-report) | 改 性 |
-| 11/24/2021 | [管理應用程式中的應用程式設定Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) | 改 性 |
-| 11/24/2021 | [在 Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | 改 性 |
-| 11/24/2021 | [在 Microsoft Teams 中設定即時活動](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | 改 性 |
