@@ -1,5 +1,5 @@
 ---
-title: 使用 azure Microsoft Teams 會議室部署管理
+title: 使用 azure 監視器Microsoft Teams 會議室部署監控
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo
@@ -13,22 +13,22 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: 本文討論如何使用 Azure 監視器Microsoft Teams 會議室整合的端對端方式部署裝置管理。
+description: 本文討論如何使用 Azure 監視器Microsoft Teams 會議室以整合的端對端方式部署監控資料。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6713b8651432766e6858f3376ff9804d638babcc
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 1520e9a4c9eced048634a0fdc457bb2fd0ea0edb
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726112"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015213"
 ---
-# <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>使用 :::no-loc text="Microsoft Teams Rooms"::: 部署管理 :::no-loc text="Azure Monitor":::
+# <a name="deploy-no-loc-textmicrosoft-teams-rooms-monitoring-with-no-loc-textazure-monitor"></a>使用 :::no-loc text="Microsoft Teams Rooms"::: 部署監控 :::no-loc text="Azure Monitor":::
 
-本文將討論如何使用 來設定及部署整合式、端對端管理 :::no-loc text="Microsoft Teams Rooms"::: 裝置 :::no-loc text="Azure Monitor"::: 。
+本文將討論如何使用 來設定及部署整合式、端對端監控 :::no-loc text="Microsoft Teams Rooms"::: 的裝置 :::no-loc text="Azure Monitor"::: 。
 
-您可以設定 :::no-loc text="Log Analytics"::: 為內部 :::no-loc text="Azure Monitor"::: 提供基本遙測和通知，可協助管理 :::no-loc text="Microsoft Teams Rooms"::: 會議室裝置。 隨著您的管理解決方案逐漸成熟，您可能會決定部署額外的資料和管理功能，以建立更詳細的裝置可用性與績效視圖。
+您可以在 內 :::no-loc text="Log Analytics"::: 設定 :::no-loc text="Azure Monitor"::: 提供基本遙測和通知，可協助您管理 :::no-loc text="Microsoft Teams Rooms"::: 。 隨著您的管理解決方案成熟，您可能會決定部署額外的資料和管理功能，以建立更詳細的裝置可用性和績效視圖。
 
-您可以遵循本指南，使用下列範例的儀表板，取得裝置可用性、應用程式和硬體健康情況，以及應用程式和作業系統版本發佈 :::no-loc text="Microsoft Teams Rooms"::: 的詳細狀態報表。
+遵循本指南，您可以使用類似下列範例的儀表板，取得裝置可用性、應用程式和硬體健康情況，以及應用程式和作業系統版本發佈 :::no-loc text="Microsoft Teams Rooms"::: 的詳細狀態報表。
 
 ![範例記錄分析視圖的螢幕擷取畫面Microsoft Teams 會議室。](../media/Deploy-Azure-Monitor-1.png "範例記錄分析視圖Microsoft Teams 會議室")
 
@@ -50,7 +50,7 @@ ms.locfileid: "58726112"
 ## <a name="validate-no-loc-textlog-analytics-configuration"></a>驗證 :::no-loc text="Log Analytics"::: 組組
 <a name="validate_LogAnalytics"> </a>
 
-您需要有工作區 :::no-loc text="Log Analytics"::: ，以開始從裝置收集 :::no-loc text="Microsoft Teams Rooms"::: 記錄。 工作區是一個獨一無二的環境，具有自己的資料存放庫、 :::no-loc text="Log Analytics"::: 資料來源和解決方案。 如果您已經有現有的工作區，您可以使用它監控您的部署，或者您也可以建立專屬的工作區，以滿足 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 您的 :::no-loc text="Microsoft Teams Rooms"::: 監控需求。
+您需要有工作區 :::no-loc text="Log Analytics"::: ，從 開始收集記錄 :::no-loc text="Microsoft Teams Rooms"::: 。 工作區是一個獨一無二的環境，具有自己的資料 :::no-loc text="Log Analytics"::: 存放庫、資料來源和解決方案。 如果您已經有現有的工作區，您可以使用它監控您的部署，或者您也可以建立專屬的工作區，以滿足 :::no-loc text="Log Analytics"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 您的 :::no-loc text="Microsoft Teams Rooms"::: 監控需求。
 
 如果您需要建立新工作區，請遵循入口網站中建立工作區一文 :::no-loc text="Log Analytics"::: [ :::no-loc text="Log Analytics"::: 中的 :::no-loc text="Azure"::: 指示](/azure/azure-monitor/learn/quick-create-workspace)
 
@@ -61,7 +61,7 @@ ms.locfileid: "58726112"
 
 :::no-loc text="Log Analytics"::: 只會從設定中指定的事件 :::no-loc text="Windows"::: 記錄中收集事件。 針對每一個記錄，只會收集具有所選嚴重性的事件。
 
-您需要設定以 :::no-loc text="Log Analytics"::: 收集監控裝置和應用程式狀態所需的 :::no-loc text="Microsoft Teams Rooms"::: 記錄。 :::no-loc text="Microsoft Teams Rooms"::: 裝置會使用 **:::no-loc text="Skype Room System":::** 事件記錄。
+您需要設定以 :::no-loc text="Log Analytics"::: 收集監控裝置和應用程式狀態所需的 :::no-loc text="Microsoft Teams Rooms"::: 記錄。 :::no-loc text="Microsoft Teams Rooms"::: 使用 **:::no-loc text="Skype Room System":::** 事件記錄。
 
 若要設定 :::no-loc text="Log Analytics"::: 以收集 :::no-loc text="Microsoft Teams Rooms"::: 事件，請參閱[ :::no-loc text="Windows"::: 在 :::no-loc text="Azure Monitor"::: ](/azure/azure-monitor/platform/data-sources-windows-events)
 
@@ -73,11 +73,11 @@ ms.locfileid: "58726112"
 ## <a name="configure-test-devices-for-azure-monitoring"></a>設定 Azure 監控的測試裝置
 <a name="configure_test_devices"> </a>
 
-您必須做好準備， :::no-loc text="Log Analytics"::: 才能監控 :::no-loc text="Microsoft Teams Rooms"::: –相關事件。 首先，您必須將代理程式部署到一或兩個您具有實體存取權的設備，並取得這些測試裝置會產生一些資料，並推送到 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 工作區。
+您必須做好準備， :::no-loc text="Log Analytics"::: 才能監控 :::no-loc text="Microsoft Teams Rooms"::: –相關事件。 首先，您需要將代理程式部署到一或兩個您具有實體存取權的設備，並取得這些測試裝置以產生一些資料，並推送到 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Log Analytics"::: 工作區。
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>安裝 :::no-loc text="Microsoft Monitoring"::: 代理程式以測試裝置
 
-使用電腦在 中的服務連線將代理程式部署到 :::no-loc text="Microsoft Monitoring"::: [ :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: 測試裝置 :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows)。 本文提供部署代理程式的步驟、取得 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * **工作區識別碼** _ *__* :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: 和 _ 主鍵 * 以將裝置連接到您的部署的指示，以及驗證代理程式與實例之間連接的步驟的詳細資訊。
+使用電腦在 中的服務連線將代理程式部署到 :::no-loc text="Microsoft Monitoring"::: [ :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: 測試裝置 :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows)。 本文提供有關部署代理程式的步驟的詳細資訊、取得 :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * **工作區識別碼** _ *__* :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: 和 _ 主鍵 * 以將裝置連接到您的部署的指示，以及驗證代理程式與實例之間連接的步驟。
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>產生 :::no-loc text="Microsoft Teams Rooms"::: 範例事件
 
@@ -94,13 +94,13 @@ ms.locfileid: "58726112"
 
 3.  請確定查詢會返回包含會議應用程式所產生事件的 :::no-loc text="Microsoft Teams Rooms"::: 記錄。
 
-4.  產生硬體問題，並驗證所需事件是否登入 :::no-loc text="Azure Log Analytics"::: 。
-    1.  拔除測試系統上的其中一個周邊 :::no-loc text="Microsoft Teams Rooms"::: 裝置。 這可能是相機、喇叭、麥克風或會議室顯示器
+4.  產生硬體問題，並驗證所需事件已登入 :::no-loc text="Azure Log Analytics"::: 。
+    1.  拔除測試系統上的其中一個周邊 :::no-loc text="Microsoft Teams Rooms"::: 裝置。 這可能是相機、喇叭、麥克風或前會議室顯示器
     2.  請等候 10 分鐘，讓事件記錄填入 :::no-loc text="Azure Log Analytics"::: 。
     3.  使用查詢列出硬體錯誤事件： `Event | where Source == "SRS-App" and EventID == 3001`
 
 5.  產生應用程式問題，並驗證記錄所需的事件。
-    1.  修改應用程式組式，然後輸入不正確的會話初始通訊協定 (SIP) :::no-loc text="Microsoft Teams Rooms"::: 位址/密碼組。
+    1.  修改 :::no-loc text="Microsoft Teams Rooms"::: 帳戶組式，然後輸入不正確的電子郵件/密碼組。
     2.  請等候 10 分鐘，讓事件記錄填入 :::no-loc text="Azure Log Analytics"::: 。
     3.  使用查詢列出應用程式錯誤事件： `Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
@@ -110,24 +110,24 @@ ms.locfileid: "58726112"
 ## <a name="map-custom-fields"></a>地圖自訂欄位
 <a name="Custom_fields"> </a>
 
-您可以使用自訂欄位從事件記錄中解壓縮特定資料。 您需要定義自訂欄位，這些欄位稍後會用於磚、儀表板視圖和通知。 在開始[建立自訂欄位 :::no-loc text="Log Analytics"::: ](/azure/azure-monitor/platform/custom-fields)之前，請參閱中的自訂欄位，並熟悉概念。
+您可以使用自訂欄位從事件記錄中解壓縮特定資料。 您需要定義自訂欄位，稍後會用於磚、儀表板視圖和通知。 在開始[建立自訂欄位 :::no-loc text="Log Analytics"::: ](/azure/azure-monitor/platform/custom-fields)之前，請參閱中的自訂欄位，並熟悉概念。
 
 若要從捕獲的事件記錄中解壓縮自訂欄位，請遵循下列步驟：
 
 1.  請登錄入口[ :::no-loc text="Microsoft Azure"::: 網站，](https://portal.azure.com)然後 :::no-loc text="Log Analytics"::: 前往並選取您的工作區。
 
 2. 列出裝置產生的 :::no-loc text="Microsoft Teams Rooms"::: 事件：
-   1.  前往記錄 **，** 然後使用查詢來取回具有自訂欄位的記錄。
+   1.  請前往 **記錄** ，然後使用查詢來取回具有自訂欄位的記錄。
    2.  範例查詢： `Event | where Source == "SRS-App" and EventID == 2000`
 
 3. 選取其中一個記錄，選取左側的按鈕，然後啟動欄位提取精靈。
-4. 強調要從 RenderedDescription 中抽選的資料，並提供欄位標題。 您應該使用的功能變數名稱會于資料表 1 中提供。
+4. 強調要從 RenderedDescription 中抽選的資料，並提供欄位標題。 您應該使用的功能變數名稱會于表格 1 中提供。
 5. 使用表格 *1* 中顯示的映射。 :::no-loc text="Log Analytics":::會在您定義 **\_ 新欄位** 時自動附加 CF 字串。
 
 > [!IMPORTANT]
 > 請記住，所有 JSON 和 :::no-loc text="Log Analytics"::: 欄位都是區分大小寫的。
 > 
-> 請注意下表中每個自訂欄位所需的查詢。 您必須使用正確的查詢，以成功 :::no-loc text="Log Analytics"::: 解壓縮自訂域值。
+> 請注意下表中每個自訂欄位所需的查詢。 您必須使用正確的查詢，以 :::no-loc text="Log Analytics"::: 成功解壓縮自訂域值。
 > 
 **表格 1**
 
@@ -171,14 +171,14 @@ ms.locfileid: "58726112"
 #### <a name="configure-the-overview-tile"></a>設定概觀磚
 
 1.  開啟 **View Designer**。
-2.  選取 **概觀磚**， **然後從圖庫** 選取兩個數字。
+2.  選取 **概觀磚****，然後從** 圖庫選取兩個數字。
 3.  為磚命名 **:::no-loc text="Microsoft Teams Rooms":::** 。
 4.  定義第 **一個磚**：<br>
-    **圖例：** 上個月內至少送出一次心跳的裝置<br>
-    **查詢：**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
+    **傳說：** 上個月內至少送出一次心跳的裝置<br>
+    **查詢：** ```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
 5.  定義第 **二個磚**：<br>
-    **圖例：** 在上一小時內送出心跳的裝置<br>
-    **查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
+    **傳說：** 在上一小時內送出心跳的裝置<br>
+    **查詢：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(1h) | summarize TotalSRSDevices = dcount(Computer)```
 6.  選取 **Apply**。
 
 ### <a name="create-a-tile-that-displays-active-devices"></a>建立顯示使用中裝置磚
@@ -189,13 +189,13 @@ ms.locfileid: "58726112"
     **群組標題：** 心跳狀態<br>
     **新群組：** 選擇
 4.  定義 **磚** 屬性：<br>
-    **圖例：** 使用中的裝置 (過去 20 分鐘內的心跳) <br>
-    **磚查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
+    **傳說：** 使用中的裝置 (過去 20 分鐘內的心跳) <br>
+    **磚查詢：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  定義 **清單** 屬性：<br>
-    **清單查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+    **清單查詢：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 6.  定義 **欄標題**：<br>
-    **名稱：** 電腦名稱稱<br>
-    **值：** 最後一個心跳
+    **名字：** 電腦名稱稱<br>
+    **價值：** 最後一個心跳
 7.  定義 **流覽查詢**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 8.  選取 **Apply**，然後 **關閉**。
@@ -207,13 +207,13 @@ ms.locfileid: "58726112"
     **群組標題：** 保留空白<br>
     **新群組：** 未選取
 3.  定義 **磚** 屬性：<br>
-    **圖例：** 非 (裝置 (過去 20 分鐘內未送出心跳) <br>
-    **磚查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
+    **傳說：** 非 (裝置不會在) <br>
+    **磚查詢：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  定義 **清單** 屬性：<br>
-    **清單查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
+    **清單查詢：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
 5.  定義 **欄標題**：<br>
-    **名稱：** 電腦名稱稱<br>
-    **值：** 最後一個心跳
+    **名字：** 電腦名稱稱<br>
+    **價值：** 最後一個心跳
 6.  定義 **流覽查詢**：<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 7.  選取 **Apply**，然後 **關閉**。
@@ -225,61 +225,61 @@ ms.locfileid: "58726112"
     **群組標題：** 硬體狀態<br>
     **新群組：** 選擇
 3.  定義 **磚** 屬性：<br>
-    **圖例：** 過去一小時內發生硬體錯誤的裝置<br>
-    **磚查詢：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **傳說：** 過去一小時內發生硬體錯誤的裝置<br>
+    **磚查詢：** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  定義 **清單** 屬性：<br>
-    **清單查詢：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+    **清單查詢：** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  定義 **欄標題**：<br>
-    **名稱：** 電腦名稱稱<br>
-    **值：** 上次錯誤
+    **名字：** 電腦名稱稱<br>
+    **價值：** 上次錯誤
 6.  定義 **流覽查詢**：<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  選取 **Apply**，然後 **關閉**。
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-operating-system-versions"></a>建立顯示作業系統 :::no-loc text="Microsoft Teams Rooms"::: 版本的磚
 
-1.  從 **圖庫&** 環圈清單，然後新增磚。
+1.  選取 **圖庫&** 環圈清單，然後新增磚。
 2.  定義 **一般** 屬性：<br>
     **群組標題：** 作業系統詳細資料<br>
     **新群組：** 選擇
 3.  定義 **標題** 屬性：<br>
     **標題：** 作業系統版本<br>
-    **副標題：** 執行特定作業系統版本的裝置
+    **字幕：** 執行特定作業系統版本的裝置
 4.  定義 **環圈** 屬性：<br>
-    **查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
+    **查詢：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize OS_Version = max(SRSOSLongVersion_CF) by Computer | summarize AggregatedValue = count() by OS_Version | sort by OS_Version asc```<br>
     **文字中央：** 設備<br>
-    **作業：** 和
+    **操作：** 和
 5.  定義 **清單** 屬性。<br>
-    **清單查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
-    **隱藏Graph：** 選擇<br>
+    **清單查詢：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
+    **隱藏Graph：** 已選取<br>
     **啟用走勢圖：** 未選取
 6.  定義 **欄標題**。<br>
-    **名稱：** 電腦名稱稱<br>
-    **值：** 保留空白
+    **名字：** 電腦名稱稱<br>
+    **價值：** 保留空白
 7.  定義 **流覽查詢**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 8.  選取 **Apply，** 然後 **關閉**。
 
 ### <a name="create-a-tile-that-displays-no-loc-textmicrosoft-teams-rooms-application-versions"></a>建立顯示應用程式 :::no-loc text="Microsoft Teams Rooms"::: 版本的磚
 
-1.  從 **圖庫&** 環圈清單，然後新增磚。
+1.  選取 **圖庫&** 環圈清單，然後新增磚。
 2.  定義 **一般** 屬性：<br>
     **群組標題：** :::no-loc text="Microsoft Teams Rooms"::: 應用程式詳細資料<br>
     **新群組：** 選擇
 3.  定義 **標題** 屬性：<br>
     **標題：** 應用程式版本<br>
-    **副標題：** 執行特定應用程式版本的裝置
+    **字幕：** 執行特定應用程式版本的裝置
 4.  定義 **環圈** 屬性：<br>
-    **查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```<br>
+    **查詢：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize App_Version = max(SRSAppVersion_CF) by Computer | summarize AggregatedValue = count() by App_Version | sort by App_Version asc```<br>
     **文字中央：** 設備<br>
-    **作業：** 和
+    **操作：** 和
 5.  定義 **清單** 屬性。<br>
-    **清單查詢：**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
-    **隱藏Graph：** 選擇<br>
+    **清單查詢：** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
+    **隱藏Graph：** 已選取<br>
     **啟用走勢圖：** 未選取
 6.  定義 **欄標題**。<br>
-    **名稱：** 電腦名稱稱<br>
-    **值：** 保留空白
+    **名字：** 電腦名稱稱<br>
+    **價值：** 保留空白
 7.  定義 **流覽查詢**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 8.  選取 **Apply，** 然後 **關閉**。
@@ -291,13 +291,13 @@ ms.locfileid: "58726112"
     **群組標題：** 保留空白<br>
     **新群組：** 未選取
 3.  定義 **磚** 屬性。<br>
-    **圖例：** 過去一小時內發生應用程式錯誤的裝置<br>
-    **磚查詢：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
+    **傳說：** 過去一小時內發生應用程式錯誤的裝置<br>
+    **磚查詢：** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  定義 **清單** 屬性。<br>
-    **清單查詢：**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
+    **清單查詢：** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  定義 **欄標題**。<br>
-    **名稱：** 電腦名稱稱<br>
-    **值：** 上次錯誤
+    **名字：** 電腦名稱稱<br>
+    **價值：** 上次錯誤
 6.  定義 **流覽查詢**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 2001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  選取 **Apply，** 然後 **關閉**。
@@ -309,13 +309,13 @@ ms.locfileid: "58726112"
     **群組標題：** 保留空白<br>
     **新群組：** 未選取
 3.  定義 **磚** 屬性。<br>
-    **圖例：** 過去 24 小時內重新開機應用程式的裝置，以及重新開機次數<br>
-    **磚查詢：**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
+    **傳說：** 過去 24 小時內重新開機應用程式的裝置，以及重新開機次數<br>
+    **磚查詢：** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
 4.  定義 **清單** 屬性。<br>
-    **清單查詢：**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
+    **清單查詢：** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  定義 **欄標題**。<br>
-    **名稱：** 電腦名稱稱<br>
-    **值：** 重新開機次數
+    **名字：** 電腦名稱稱<br>
+    **價值：** 重新開機次數
 6.  定義 **流覽查詢**。<br>
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 7.  選取 **Apply，** 然後 **關閉**。
@@ -330,7 +330,7 @@ ms.locfileid: "58726112"
 
 :::no-loc text="Azure Monitor"::: 包含內建的警示機制，會定期執行排程記錄搜尋。 如果記錄搜尋的結果符合特定準則，即會建立通知記錄。
 
-然後規則可以自動執行一或多個動作，主動通知您通知或調用另一個程式。 有通知的可能選項有：
+規則接著會自動執行一或多個動作，主動通知您通知或援用另一個程式。 有通知的可能選項有：
 -   傳送電子郵件
 -   透過 HTTP POST 要求來啟動外部程式
 -   啟動服務中的 :::no-loc text="Azure Automation"::: Runbook
@@ -342,10 +342,10 @@ ms.locfileid: "58726112"
 
 ### <a name="configure-an-email-alert-for-no-loc-textmicrosoft-teams-rooms-hardware-issues"></a>設定硬體問題 :::no-loc text="Microsoft Teams Rooms"::: 的電子郵件通知
 
-設定提醒規則，檢查過去一小時內發生硬體問題的 :::no-loc text="Microsoft Teams Rooms"::: 裝置。
+設定警示規則，檢查過去一小時內發生硬體問題的 :::no-loc text="Microsoft Teams Rooms"::: 裝置。
 1.  請登錄入口[ :::no-loc text="Microsoft Azure"::: 網站，](https://portal.azure.com)然後 :::no-loc text="Log Analytics"::: 前往並選取您的工作區。
 
-2. 流覽至您的 :::no-loc text="Log Analytics"::: 工作區，然後 **選取通知** ，然後選取 **新增通知規則**
+2. 流覽至您的 :::no-loc text="Log Analytics"::: 工作區，然後 **選取通知** ，然後選取 **新的通知規則**
 
 3. 選取 **新增條件** ，然後 **選取自訂記錄搜尋**
 
@@ -359,13 +359,13 @@ ms.locfileid: "58726112"
     ```
 
 5.  設定通知邏輯設定：<br>
-    **根據：** 結果數<br>
+    **基於：** 結果數目<br>
     **條件：** 大於<br>
     **閾值：0**<br>
 
 6. 設定評估設定 **，然後選取** 完成 ： <br>
     **期間 (分鐘) ：60**<br>
-    **分鐘 (頻率) ：60**<br>
+    **以 (分鐘) 頻率：60**<br>
 
 7. 設定動作群組：
     1.  選取 **建立新**
@@ -387,7 +387,7 @@ ms.locfileid: "58726112"
 
 ### <a name="configure-an-email-alert-for-no-loc-textmicrosoft-teams-rooms-application-issues"></a>設定應用程式問題 :::no-loc text="Microsoft Teams Rooms"::: 的電子郵件通知
 
-重複相同的程式，但使用下列查詢列出過去一小時內遇到應用程式問題的裝置。
+重複相同的程式，但使用下列查詢列出過去一小時內發生應用程式問題的裝置。
 
  ```
  Event
@@ -406,26 +406,26 @@ ms.locfileid: "58726112"
 ## <a name="configure-all-devices-for-no-loc-textazure-monitoring"></a>設定所有裝置 :::no-loc text="Azure Monitoring":::
 <a name="configure_all_devices"></a>設定儀表板和通知之後，您可以在所有裝置上設定和設定代理程式， :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Microsoft Teams Rooms"::: 以完成監控部署。
 
-雖然您可以在每個裝置上手動安裝和設定代理程式，但我們強烈建議您 :::no-loc text="Microsoft Monitoring"::: 利用現有的軟體部署工具和方法。
+雖然您可以在每個裝置上手動安裝和設定代理程式，但我們強烈建議您 :::no-loc text="Microsoft Monitoring"::: 運用現有的軟體部署工具和方法。
 
 如果您是第一次建立裝置，您可能會想要將代理程式設定和設定步驟納入您的建立 :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Microsoft Monitoring"::: 程式。 詳細資訊，請參閱 [使用命令列安裝代理程式](/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line)。
 
 ### <a name="deploying-no-loc-textmicrosoft-monitoring-agent-by-using-a-group-policy-object-gpo"></a>使用 :::no-loc text="Microsoft Monitoring"::: 群組原則物件或 GPO (部署) 
 
-如果您已經部署您的裝置，然後再進行部署，您可以使用群組原則物件，使用所提供的腳本來設定 :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitoring"::: :::no-loc text="Active Directory"::: 和設定代理程式。
+如果您在實施之前已經部署您的裝置，您可以使用提供的腳本，使用群組原則物件來設定 :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitoring"::: :::no-loc text="Active Directory"::: 和設定代理程式。
 
 1.  建立共用網路路徑，並授予網域 **電腦群組的讀取** 存取權。
 
 2.  下載 64 位版本的 :::no-loc text="Microsoft Monitoring"::: Agent，從 :::no-loc text="Windows":::<https://go.microsoft.com/fwlink/?LinkID=517476>
 
-3.  將設定套件的內容解壓縮到網路共用中。
+3.  將設定套件的內容解壓縮到網路共用。
     1.  開啟命令提示視窗，然後執行 **MMASetup-AMD64.exe /c**
     2.  指定您剛剛建立共用，然後解壓縮內容。
 
-4.  建立新的群組原則物件，並將其指派給電腦 :::no-loc text="Microsoft Teams Rooms"::: 帳戶所在的組織單位。
+4.  建立新的群組原則物件，並將其指派給電腦帳戶所在的 :::no-loc text="Microsoft Teams Rooms"::: 組織單位。
 
 5.  設定 PowerShell 執行策略：
-    1.  編輯新建立群組原則物件，並流覽至電腦群組 \\ 策略 \\ 系統管理範本 \\ :::no-loc text="Windows"::: 元件 \\:::no-loc text="Windows PowerShell":::
+    1.  編輯新建立群組原則物件，並流覽至電腦群組 \\ 策略 \\ 系統管理範本 \\ :::no-loc text="Windows"::: 元件 \\ :::no-loc text="Windows PowerShell":::
     2.  啟用開啟 **腳本執行，** 並設定 **執行策略** 以 **允許本地腳本**。
 
 6.  設定啟動腳本：
@@ -437,7 +437,7 @@ ms.locfileid: "58726112"
     6.  選取 **新增**， **然後流覽**。
     7.  選取您剛才複製的 ps1 腳本。
 
-7.  :::no-loc text="Microsoft Teams Rooms"::: 裝置應安裝並設定 :::no-loc text="Microsoft Monitoring"::: 第二次重新開機的代理程式。
+7.  :::no-loc text="Microsoft Teams Rooms"::: 應該安裝並設定 :::no-loc text="Microsoft Monitoring"::: 代理程式，然後第二次重新開機。
 
 ```PowerShell
 # Install-MMAgent.ps1
@@ -487,10 +487,10 @@ Stop-Transcript
 ## <a name="additional-solutions"></a>其他解決方案
 <a name="Solutions"> </a>
 
-:::no-loc text="Azure Monitor"::: 透過其解決方案庫提供內建的管理解決方案 [，](/azure/azure-monitor/insights/solutions) 以進一步協助您監控環境。 我們強烈建議您同時在工作區[中](/azure/azure-monitor/platform/alert-management-solution)新增通知[ :::no-loc text="Azure Log Analytics"::: ](/azure/azure-monitor/insights/solution-agenthealth)管理和代理健康資料解決方案。
+:::no-loc text="Azure Monitor"::: 透過其解決方案庫提供內建的管理解決方案 [，](/azure/azure-monitor/insights/solutions) 進一步説明您監控環境。 我們強烈建議您新增[通知管理](/azure/azure-monitor/platform/alert-management-solution)與[ :::no-loc text="Azure Log Analytics"::: 代理人員健康](/azure/azure-monitor/insights/solution-agenthealth)狀態解決方案至您的工作區。
 
 > [!NOTE]
-> 代理程式健康情況解決方案可協助您識別環境中過期或已中斷的代理程式，而警示管理解決方案會提供有關特定期間中已提出之警示 :::no-loc text="Microsoft Monitoring"::: 的詳細資訊。
+> 代理程式健康情況解決方案可協助您識別環境中過期或中斷的代理程式，而警示管理解決方案會提供有關特定期間中已提出之通知 :::no-loc text="Microsoft Monitoring"::: 的詳細資訊。
 
 ## <a name="see-also"></a>另請參閱
 

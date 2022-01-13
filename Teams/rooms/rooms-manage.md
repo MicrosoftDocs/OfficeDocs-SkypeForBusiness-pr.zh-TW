@@ -15,69 +15,84 @@ ms.collection:
 - M365-collaboration
 description: 瞭解如何開發和執行持續維護與作業，以確保您的Microsoft Teams 會議室系統可供使用者使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4f326f58bea724dbf1d728955ee1d63b018ba628
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: cb964114a05490d750fee5ec7f8c1a59330e2bd6
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306288"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015183"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 會議室
 
-如果您擁有Microsoft Teams 會議室認證的裝置，您擁有彈性的管理選項。  您可以在管理所有解決方案的中央位置管理裝置，Teams系統管理中心Microsoft Teams裝置。 或者，您可以使用受管理服務將管理責任Microsoft Teams 會議室[專家](https://portal.rooms.microsoft.com)。  您也可以將管理存取權委派給您所選擇的合作夥伴，以取得其中一個選項。
+如果您在組織中Microsoft Teams 會議室，則有彈性的管理選項。  您可以在管理您所有解決方案的中央位置管理裝置，Teams管理中心Microsoft Teams裝置。 或者，您可以使用受管理服務將管理責任Microsoft Teams 會議室[專家](https://portal.rooms.microsoft.com)。  您也可以將管理存取權委派給您所選擇的合作夥伴，以取得其中一個選項。
 
-使用 Microsoft Teams系統管理中心，您可以：
+有了 Microsoft Teams系統管理中心，您可以：
 
 - 執行裝置管理，例如重新開機裝置和下載裝置記錄
 - 將Teams特定設定
-- 檢查會議室裝置及其Microsoft Teams的健康情況，包括相機、顯示器、麥克風等
+- 檢查手機及其Microsoft Teams 會議室的健康情況，包括相機、顯示器、麥克風等
 - 檢閱目前和過去的 (活動，例如通話品質、網路健康情況與連接，以及參與者) 
-- 查看已 (裝置上的) 裝置等Microsoft Teams裝置
+- 查看連接到 (的) 或投影機等Microsoft Teams 會議室
 
-若要管理Teams 會議室，請開啟 Microsoft Teams 系統管理 [中心](https://admin.teams.microsoft.com)，然後前往 Teams 上的Teams 會議室  >  裝置 **Windows。**
+若要管理Teams 會議室，請開啟 Microsoft Teams 系統管理 [中心](https://admin.teams.microsoft.com)，然後前往 Teams 上的Teams 會議室  >  **裝置Windows。**
 
 :::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teams 會議室系統管理中心Teams摘要頁面。":::
 
 
 > [!IMPORTANT]
-> 若要使用系統管理中心管理Teams，您必須指派全域系統管理員、Teams系統管理員或Teams系統管理員角色。
+> 若要使用系統管理Teams管理中心管理裝置，您必須指派全域系統管理員、Teams系統管理員Teams系統管理員角色。
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>變更Teams 會議室裝置
 
-如果您有多個裝置Teams 會議室，您可以同時在多個裝置上執行大部分的動作。 例如，您可以同時Teams所有裝置上的應用程式設定。
+如果您有多個Teams 會議室，您可以同時在多個裝置上執行大部分的動作。 例如，您可以同時Teams所有應用程式Teams 會議室應用程式設定。
 
 ### <a name="device-settings"></a>裝置設定
 
-您可以在貴組織的一或多個裝置上變更設定。 若要變更設定，請選取您想要管理的裝置，然後選取編輯 **設定。** 新的窗格將會開啟，並包含您可以在裝置上變更的所有設定。 下表列出您可以使用系統管理中心Teams設定。 某些設定只有在您選取單一裝置時才能使用。
+您可以變更組織中一或多個Teams 會議室上的設定。 若要變更設定，請選取您想要管理的裝置，然後 **選取編輯** 設定。 新的窗格將會開啟，其中會包含所有您可以變更的設定。 下表列出您可以使用系統管理中心Teams設定。 某些設定只有在您選取單一Teams 會議室。
 
-如果您選取多個裝置，支援大量編輯的設定會顯示下列兩個選項。
+如果您選取多個選項，支援大量編輯的設定會顯示下列兩個選項。
 
-- **保留現有值** 如果您選擇此選項，您所選裝置上的設定不會變更。
-- **以取代現有值** 如果您選擇這個選項，就可以使用您提供的值更新您所選裝置上的設定。
+- **保留現有值** 如果您選擇這個選項，您所選選項上的設定Teams 會議室變更。
+- **以取代現有值** 如果您選擇這個選項，您可以更新所選Teams 會議室您提供的值上的設定。
     > [!CAUTION]
     > 您選擇更新之設定上的現有值將會以您提供的值取代。 如果您想要新增到現有值清單中，您必須包含現有值與您想要新增的值。 例如，如果設定有 現有的網域清單 ，而您想要新增，您需要提供 `contoso.com, fabrikam.com` `northwindtraders.com` 的值就是 `contoso.com, fabrikam.com, northwindtraders.com` 。
     >
-    > 如果您選取多個裝置，您選取的所有裝置上的設定都會變更為您提供的值。 如果裝置設定的值不同，則所有設定的值都將會更新為相同的值。
+    > 如果您選取多個Teams 會議室，您選取的所有裝置上的設定都會變更為您提供的值。 如果Teams 會議室設定的值不同，則這些值會全部更新為相同的值。
 
 | 設定                                                      | 接受的值                                        | 支援大量編輯 |
 |--------------------------------------------------------------|--------------------------------------------------------|--------------------|
 | *帳戶*                                                    |                                                        |                    |
 | **電子郵件**                                                    | 電子郵件地址                                          | 否                 |
-| **支援的會議模式**                                   | 商務用 Skype (預設) Microsoft Teams<br>商務用 Skype Microsoft Teams (預設) <br>商務用 Skype只|是|
+| **支援的會議模式**                                   | Microsoft Teams只<br>商務用 Skype (預設) Microsoft Teams<br>商務用 Skype Microsoft Teams (預設) <br>商務用 Skype僅|是|
 | **新式驗證**                                    | 開啟<br>關閉                                              | 是                |
 | **Exchange位址**                                         | 電子郵件地址                                          | 否                 |
-| **網域\使用者 (選)**                               | 帳戶網域和使用者名稱                           | 否                 |
+| **網域\使用者 (選項)**                               | 帳戶網域和使用者名稱                           | 否                 |
 | **設定網域**                                         | 逗號分隔清單                                   | 是                |
 | *會議*                                                   |                                                        |                    |
 | **自動螢幕畫面共用**                                 | 開啟<br>關閉                                              | 是                |
+| **HDMI 輸入音訊共用**                                 | 開啟<br>關閉                                              | 是                |
 | **顯示會議名稱**                                       | 開啟<br>關閉                                              | 是                |
 | **如果其他人都離開會議，請自動離開**                 | 開啟<br>關閉                                              | 是                |
+| **加入協力廠商會議**                 | Cisco Webex<br>縮放                                              | 是                |
+| **使用會議室資訊加入**                 | 選擇<br>未選                                              | 是                |
+| **使用自訂資訊加入**                 | 選擇<br>未選                                              | 是                |
+| **需要 (名稱)**                 | 會議室或空間的名稱                                              | 是                |
+| **需要 (電子郵件)**                 | 電子郵件地址                                              | 是                |
 | *裝置*                                                     |                                                        |                    |
 | **雙監視器模式**                                        | 開啟<br>關閉                                              | 是                |
+| **允許內容重複** | 選擇<br>未選                                 | 是                |
 | **藍牙標**                                      | 開啟<br>關閉                                              | 是                |
 | **自動接受鄰近會議邀請** | 選擇<br>未選                                 | 是                |
 | **傳送有意見回饋的記錄**                                  | 開啟<br>關閉                                              | 是                |
 | **記錄與意見回饋的電子郵件地址**                      | 電子郵件地址                                          | 是                |
+| *協調會議*                                                     |                                                        |                    |
+| **協調會議** | 開啟<br>關閉                                 | 否                |
+| **開啟此裝置上的麥克風** | 開啟<br>關閉                                 | 否                |
+| **讓人員加入會議時啟用** | 選擇<br>未選                                 | 否                |
+| **開啟此裝置相機** | 開啟<br>關閉                                 | 否                |
+| **讓人員加入會議時啟用** | 選擇<br>未選                                 | 否                |
+| **開啟此裝置上的白板** | 開啟<br>關閉                                 | 否                |
+| **信任的裝置帳戶 (逗號或)** | 裝置清單                              | 否                |
 | *外設*                                                |                                                        |                    |
 | **會議麥克風**                                  | 可用的麥克風清單                          | 否                 |
 | **會議演講者**                                     | 可用的演講者清單                             | 否                 |
@@ -91,30 +106,13 @@ ms.locfileid: "61306288"
 |                                                              | 預設<br>無主題<br>自 定義<br>內建主題清單   | 是                |
 
 ## <a name="cortana-settings"></a>Cortana設定 
-您可以使用 PowerShell Cortana或個別針對每個裝置啟用語音啟用或推入通話。 
--   在組織和群組層級，您必須使用 PowerShell。
--   在裝置層級，您有幾個選項。 您可以使用 PowerShell、編輯 XML 設定檔，或變更系統管理中心Teams設定。 
+您可以使用 PowerShell Cortana或個別針對每個裝置啟用語音啟用或推入通話。
 
-若要深入瞭解使用 PowerShell 來設定Cortana，請參閱在 Cortana 中的系統管理Cortana[限制](/microsoftteams/cortana-in-teams#admin-control-and-limitations)Teams。
-
-若要深入瞭解使用 XML 設定檔設定您的裝置，請參閱使用 XML 設定檔Microsoft Teams 會議室[管理主機設定](/microsoftteams/rooms/xml-config-file#manage-console-settings-with-an-xml-configuration-file)。
-
-在裝置層級，您可以設定Cortana啟用：
-- _使用_ PowerShell 推送交談  
-  - 如何開啟：Cortana所有設定為地區設定之裝置，無論地理區域如何，都會預設啟用推入通話功能
-  - 如何關閉：使用 Powershell。 
-- _使用 XML_ 組態檔案或Teams啟用語音。
-  - 如何開啟：在 XML 設定檔中設定或使用系統管理中心中的Teams `<CortanaWakeWord>true</>` 設定
-  - 如何關閉：Cortana關閉語音啟用 
-  
-  請記住，您必須符合三個條件，Cortana _裝置上啟用_ 語音：
-    1. 您的組織必須已啟用Cortana功能
-    2. 您的裝置必須設定為下列其中一個地區設定：en-au、en-ca、en-gb、en-in、en-us
-    3. 您必須有一個Cortana裝置連接到您的Teams會議室[深入瞭解](/microsoftteams/cortana-in-teams)   
+請參閱[Microsoft Teams 會議室「Windows](../cortana-in-teams.md)語音Cortana」一文Teams說明。
 
 ### <a name="device-restart-options"></a>裝置重新開機選項
 
-只有在裝置重新開機之後，裝置設定變更才能生效。 當您進行需要重新開機的變更時，您可以選擇是否要立即重新開機裝置或排程重新開機。 以下是可用的重新開機選項：
+只有在重新開機裝置設定之後，Teams 會議室裝置設定才能生效。 當您進行需要重新開機的變更時，您可以選擇是否要立即重新開機或排程重新開機。 以下是可用的重新開機選項：
 
 - **立即重新開機** 如果您選擇這個選項，您進行變更的所有裝置都會在選取此選項後立即重新開機。
 - **排定的重新開機** 如果您選擇這個選項，您可以重新開機要變更的裝置，同時對貴組織影響較小。
@@ -122,18 +120,18 @@ ms.locfileid: "61306288"
   - **將更新保留為夜間重新開機** 裝置會夜間重新開機以執行維護。 您對裝置進行變更時，將會在此重新開機期間進行。
 
 > [!CAUTION]
-> 重新開機時使用中的裝置在重新開機程式期間將無法使用。 他們將與進行中的會議中斷連接，而且無法加入新的會議。
+> Teams 會議室重新開機時使用中的應用程式，在重新開機程式期間將無法使用。 他們將與進行中的會議中斷連接，而且無法加入新的會議。
 
 ### <a name="remove-device"></a>移除裝置
 
-當您移除裝置時，裝置會從貴組織移除，而且不會再出現在系統管理中心Teams 會議室裝置Teams清單中。
+當您移除裝置時，裝置會從貴組織移除，而且不會再顯示在系統管理中心Teams 會議室Windows清單中Teams清單中。
 
-如果您移除裝置，但裝置仍以有效的使用者名稱和密碼進行配置，如果裝置再次連接到 Teams 會議室 裝置清單，Microsoft 365重新加入。
+如果您移除裝置，但裝置仍以有效的使用者名稱和密碼進行配置，如果裝置再次連接到 Teams 會議室，系統會自動將其重新Microsoft 365清單中。
 
 若要移除一或多個裝置，請執行下列操作：
 
-1. 請Teams **裝置**  >  **Teams 會議室，** 然後選取您想要移除的裝置。
-1. 選取 **移除**。
+1. 請Teams **上** Teams 會議室裝置Windows，然後選取  >  您想要移除的裝置。
+2. 選取 **移除**。
 
 ## <a name="download-device-logs"></a>下載裝置記錄
 
@@ -141,13 +139,13 @@ ms.locfileid: "61306288"
 
 若要將記錄從Teams 會議室下載到您的電腦，請執行下列操作：
 
-1. 請Teams **裝置**  >  **Teams 會議室，** 然後選取您想要下載記錄之裝置的名稱。
+1. 請Teams **上** Teams 會議室裝置Windows，然後選取您想要下載記錄  >  之裝置的名稱。
 1. 選取 **下載裝置記錄**。 裝置記錄可能需要數分鐘的時間才能使用。
 1. 選取記錄 **選項卡** ，然後選取診斷檔案下的 **記錄檔案連結**。 包含您裝置診斷記錄檔案的 zip 檔案會下載到瀏覽器的預設下載資料夾。
 
 ## <a name="view-device-information"></a>查看裝置資訊
 
-您可以Teams系統管理中心，查看組織中所有裝置的整體狀態，並個別查看每個裝置的詳細資訊。
+您可以Teams系統管理中心，查看貴組織所有裝置的整體狀態，並個別查看每個裝置的詳細資訊。
 
 ### <a name="teams-rooms-system-dashboard"></a>Teams 會議室儀表板
 
@@ -168,7 +166,7 @@ ms.locfileid: "61306288"
 
 #### <a name="meeting-activity-details"></a>會議活動詳細資料
 
-會議室 **裝置** Teams中的活動選項卡會顯示裝置一段時間參與之所有會議的高層級和詳細資訊。 在 **活動** 選項卡中，您可以查看會議召開時間、出席會議的參與者人數，以及會議期間的音訊品質。
+會議室 **裝置** 詳細Teams中的活動選項卡會顯示裝置一段時間參與之所有會議的高層級和詳細資訊。 在 **活動** 選項卡中，您可以查看會議召開時間、出席會議的參與者人數，以及會議期間的音訊品質。
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams會議室裝置活動摘要清單。":::
 
@@ -184,4 +182,4 @@ ms.locfileid: "61306288"
 
 參與者詳細資料頁面會顯示該參與者會話的端對端診斷資訊。 如下列圖形所示，系統會為參與者和裝置提供裝置Teams 會議室資訊。  **參與者** 與裝置之間的網路診斷Teams 會議室也會提供。 選取您想要詳細資訊之上下文的圖示。 有關其他診斷資訊，請選取進 **一步資料表** 。
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams裝置通話詳細資料。":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams會議室裝置通話詳細資料。":::

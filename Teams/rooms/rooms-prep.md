@@ -15,52 +15,46 @@ ms.collection:
 - M365-collaboration
 description: 瞭解如何準備基礎結構以部署Microsoft Teams 會議室以便利用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5003bbb3554436ca388990aeebfec4ce6dfb9f57
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b92325fe9c7c43497fd9647306cfb6b218f5fde0
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577957"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015033"
 ---
 # <a name="prepare-your-environment"></a>準備您的環境
 
 本節包含準備環境所需的步驟概觀，以便您可以使用所有Microsoft Teams 會議室。
   
-1. 準備每個主機的裝置Microsoft Teams 會議室帳戶。 請參閱[部署Microsoft Teams 會議室](rooms-deploy.md)詳細資料。
+1. 準備每個主機的資源Microsoft Teams 會議室帳戶。 請參閱[部署Microsoft Teams 會議室](rooms-deploy.md)以尋找詳細資料。
     
-2. 請確保裝置有可使用的網路/網際網路連接。 
-    
-   它必須能夠使用 DHCP 接收 IP 位址。  (Microsoft Teams 會議室裝置啟動時無法使用靜態 IP 位址進行配置，但之後，裝置上的靜態 IP 位址可以在裝置上或上行交換器或路由器上) 
-
-   除了開啟媒體的一般 (之外，還必須開啟這些埠) ：
-   - HTTPS：443
-   - HTTP：80
-
-   如果您的網路是透過 Proxy 執行，您也需要 Proxy 位址或腳本資訊。
-    
-   > [!IMPORTANT]
-   > Microsoft Teams 會議室不支援 Proxy 驗證，因為它可能會干擾會議室的一般作業。 在投入Microsoft Teams 會議室之前，請確保已免除 Proxy 驗證。
+2. 請確保裝置有可使用的網路/網際網路連接。
   
 3. 為了改善您的體驗，Microsoft 會收集資料。 若要允許 Microsoft 收集資料，請允許這些網站：
 
    - 遙測用戶端端點： https://vortex.data.microsoft.com/
    - 遙測設定端點： https://settings.data.microsoft.com/
     
-### <a name="create-and-test-a-device-account"></a>建立和測試裝置帳戶
+### <a name="create-and-test-a-resource-account"></a>建立和測試資源帳戶
 
-裝置 *帳戶* 是用戶端用來從 Microsoft Teams 會議室 存取功能的帳戶，Exchange例如日曆，以及啟用商務用 Skype。 請參閱[部署Microsoft Teams 會議室](rooms-deploy.md)詳細資料。
+資源 *帳戶* 是用戶端用來從 Microsoft Teams 會議室 存取功能的帳戶Exchange例如日曆，以及用來Microsoft Teams。 請參閱[部署Microsoft Teams 會議室](rooms-deploy.md)以尋找詳細資料。
   
 ### <a name="check-network-availability"></a>檢查網路可用性
 
-若要正常運作，Microsoft Teams 會議室裝置必須能夠存取符合這些要求的有線網路：
+若要正常運作，Microsoft Teams 會議室必須能存取符合這些要求的有線網路：
   
-- 存取 Active Directory 或 Azure Active Directory (Azure AD) 實例，以及您的 Microsoft Exchange 商務用 Skype伺服器。
+- 存取 Active Directory 或 Azure Active Directory (Azure AD) 實例，以及 Microsoft Exchange Microsoft Teams。
 
 - 存取可以使用 DHCP 提供 IP 位址的伺服器。 Microsoft Teams 會議室第一次裝置啟動時，無法使用靜態 IP 位址來進行配置。
 
 - 存取 HTTP 埠 80 和 443。
 
-- 根據內部部署 商務用 Skype Server 實現或 Microsoft 365[](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)和 Office 365 URL 與[IP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)位址範圍之內部部署 商務用 Skype Server 的埠和通訊協定需求所述，為 Microsoft Teams 或 商務用 Skype 線上實現所配置的 TCP 和 UDP 埠。
+- 如內部部署 商務用 Skype Server 實現或 Microsoft 365[](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols)和 Office 365 URL 與 IP 位址範圍之伺服器埠與通訊協定需求所述，已針對 Microsoft Teams 所配置的 TCP 和[UDP](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)埠。
+
+如果您的網路是透過 Proxy 執行，您也需要 Proxy 位址或腳本資訊。
+    
+> [!IMPORTANT]
+> Microsoft Teams 會議室不支援 Proxy 驗證，因為它可能會干擾會議室的一般作業。 在投入Microsoft Teams 會議室之前，請確保已免除 Proxy 驗證。
 
 > [!IMPORTANT]
 > 請務必使用有線 1Gbps 網路連接，以確保您擁有所需的頻寬。
@@ -70,7 +64,7 @@ ms.locfileid: "58577957"
   
 ### <a name="certificates"></a>證書
 
-您的Microsoft Teams 會議室裝置會使用憑證Exchange Web Services、Microsoft Teams或商務用 Skype、網路使用方式和驗證。 如果相關伺服器使用公用憑證 ，例如 Online 和部分內部部署，則系統管理員無需執行其他動作來安裝憑證。 另一方面，如果憑證授權單位是私人 CA (通常是內部部署) 則裝置必須信任該 CA，這表示裝置上安裝 CA + CA 鏈證書。 將裝置新加入網域可能會自動執行這項工作。
+您的Microsoft Teams 會議室裝置會使用憑證Exchange Web Services、Microsoft Teams或商務用 Skype、網路使用方式和驗證。 如果相關伺服器使用公用憑證 ，例如線上和部分內部部署，則系統管理員無需執行其他動作來安裝憑證。 另一方面，如果憑證頒發機構是私人 CA，則裝置必須信任該 CA。 這表示裝置上已安裝 CA + CA 鏈證書。 將裝置新加入網域可能會自動執行這項工作。
   
 您安裝憑證的方式，與安裝任何其他用戶端Windows相同。 
   
@@ -111,48 +105,43 @@ Microsoft Teams 會議室是從作業系統繼承 Proxy Windows設定。 以下�
     "AutoConfigURL"=http://contosoproxy.corp.net/proxy.pac
     ```
     
-9. 完成變更後，請為 Skype) 的 Skype 使用者金鑰 (根資料夾加亮，然後選擇從登錄檔案功能表卸載 Hive (系統會提示您確認 - 選取是) 。 
+9. 完成變更後，請為 Skype) 的 Skype 使用者金鑰 (根資料夾加亮，然後選擇從登錄檔案功能表卸載 Hive (系統會提示您確認 - 選取是 **) 。**
     
-10. 現在，您可以關閉登錄編輯器，然後輸入登入 Windows方塊。
+10. 現在，您可以關閉登錄編輯器，並輸入登入 Windows方塊。
     
 11. 回到登錄畫面，選擇 **Skype使用者。** 如果上述所有步驟都成功，Microsoft Teams 會議室裝置會順利登錄。
     
-請參閱[網路安全性](./security.md#network-security)文章，以進一步瞭解 FQDNs、埠和 IP 位址範圍Microsoft Teams 會議室。
-  
-  
-### <a name="create-provisioning-packages"></a>建立部署套件
-
-您將使用部署套件來驗證Exchange Server、Microsoft 365或Office 365。
+請參閱[網路安全性](./security.md#network-security)文章，以全面瞭解 FQDNs、埠和 IP 位址範圍Microsoft Teams 會議室。
   
 ### <a name="admin-group-management"></a>系統管理群組管理
 
-加入網域之後，您可以使用群組原則或本地電腦管理將安全性群組設定為本地系統管理員，就像您網域Windows電腦一樣。 任何加入該安全性群組的人都可以輸入其認證，並解除設定。
+如果您加入宣告網域 (Azure Active Directory 或 Active Directory) ，您可以使用 Microsoft 端點管理員、群組原則或本地電腦管理將安全性群組設定為本地系統管理員，就像在網域的 Windows 電腦上一樣。 任何加入該安全性群組的人都可以輸入其認證並解除鎖定設定。
   
 > [!NOTE]
-> 如果您的 Microsoft Teams 會議室 裝置與網域 (失去信任，例如，如果您在網域加入) 後從網域移除 Microsoft Teams 會議室，您將無法驗證至裝置並開啟 設定。 解決方法是使用本地系統管理員帳戶登入。 
+> 如果您的 Microsoft Teams 會議室 裝置與網域 (失去信任，例如，如果您在網域加入) 後，從網域移除 Microsoft Teams 會議室，您將無法驗證至裝置並開啟 設定。 解決方法是使用本地系統管理員帳戶登入。 
   
 ## <a name="local-accounts"></a>本地帳戶
 
-### <a name="microsoft-teams-rooms-local-user-account"></a>Microsoft Teams 會議室本地使用者帳戶
+### <a name="microsoft-teams-rooms-local-user-account"></a>Microsoft Teams 會議室使用者帳戶
 
-裝置帳戶通常不會使用密碼。 您可以提供密碼，但會產生一些後果，包括使用者可能在密碼到期時被鎖定在主機應用程式外。 因此，系統管理員應該採取一些措施，確保密碼不會過期。
+Teams 會議室包含名為「Skype」的無密碼Skype。 這個帳戶是用來用來Windows應用程式Teams 會議室應用程式。 不支援將密碼用於此帳戶。 請參閱[Microsoft Teams 會議室安全性](security.md)以瞭解更多資訊。
   
 ### <a name="admin---local-administrator-account"></a>「系統管理員」- 本地系統管理員帳戶
 
-Microsoft Teams 會議室預設密碼設為「sfb」。 您可以前往 Windows 設定 前往 Windows 或在 AutoUnattend.xml 檔案中變更密碼 (使用 ADK 的 Windows System Image manager 對 xml 檔案進行變更 \>) 。
+Microsoft Teams 會議室預設密碼設為「sfb」。 透過系統管理模式或在 AutoUnattend.xml 檔案中變更密碼 (請使用 ADK 的 Windows System Image manager 變更 xml 檔案) 。
   
 > [!CAUTION]
 > 請務必儘快變更Microsoft Teams 會議室密碼。 
   
-您也可以設定群組原則，將網域系統管理員設定為本地系統管理員，以管理本地系統管理員密碼。
-  
 在設定期間，系統不會提供本地系統管理員密碼做為選項。
+
+You can read more about the Admin account in the [Microsoft Teams Rooms Security](security.md) article.
   
 ### <a name="machine-account"></a>電腦帳戶
 
-就像任何Windows裝置一樣，以滑鼠右鍵按一下關於重新命名電腦設定 \>  \> **名稱**。
+就像任何Windows一樣，機器名稱可以以滑鼠右鍵按一下 設定 \> **關於** 重新命名 \> **電腦**。
   
-如果您想要在將電腦加入網域後重新命名，請使用 **重新命名電腦**，這是 PowerShell 命令，後面接著電腦的新名稱。
+如果您想要在將電腦加入網域後重新命名，請使用 [重新命名-電腦](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2)，即 PowerShell 命令，後面接著電腦的新名稱。
   
 ## <a name="related-topics"></a>相關主題
 

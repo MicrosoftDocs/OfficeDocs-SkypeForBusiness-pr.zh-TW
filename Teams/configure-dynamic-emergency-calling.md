@@ -18,12 +18,12 @@ description: 瞭解如何設定 Microsoft 通話方案電話系統直接路由�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c762ccb2aba8c8ccad531573c37f258fa4605a9d
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: a56d0887f061292f729b45a6c53707d1e398e332
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410714"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015363"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
@@ -49,11 +49,11 @@ Microsoft 通話方案、接線連線和直接路由的動態緊急電話提供�
 
 3. 當Teams用戶端撥打緊急電話時，緊急位置會傳送至 PSTN 網路。
 
-PSAP (PSAP) 自動路由的能力會因使用者使用Teams而異。
+自動路由至適當的安全性應答點 (PSAP) 的能力會視使用者使用Teams國/地區而異。
 
 Microsoft 通話方案與連線合作夥伴包含適用于美國和加拿大使用者的動態緊急路由服務。
 
-不過，針對直接路由，路由緊急電話時可能需要其他組組，並可能還需要合作夥伴連接。 系統管理員必須為緊急位置識別號碼 (ELIN) 應用程式設定與緊急路由服務 (ERS) 提供者 (美國和加拿大) ) 或會話邊界控制器 (SBC) 的連接。 有關 ERS 提供者的資訊，請參閱 [通過直接路由認證的會話邊界控制器](direct-routing-border-controllers.md)。
+不過，針對直接路由，路由緊急電話時可能需要其他組組，並可能還需要合作夥伴連接。 系統管理員必須在線上 PSTN 閘道物件上將參數 PidfloSupupported 設定為 True，以確保已設定 PSTN 閘道路由緊急呼叫，以新增位置資訊至待發的 INVITE (。 此外，系統管理員必須為緊急位置識別號碼 (ELIN) 應用程式設定與緊急路由服務 (ERS) 提供者 (美國和加拿大) ) 或會話邊界控制器 (SBC) 的連接。 有關 ERS 提供者的資訊，請參閱 [通過直接路由認證的會話邊界控制器](direct-routing-border-controllers.md)。
 
 本文包含下列各節。
 
@@ -79,7 +79,7 @@ Microsoft 通話方案與連線合作夥伴包含適用于美國和加拿大使�
 
 - Teams Microsoft 電腦版桌面Windows
 - Teams MacOS 版桌面用戶端
-- Teams適用于 Apple iOS 用戶端版本 1.0.92.2019121004 和 App Store 版本 1.0.92 及更新版本的行動用戶端
+- Teams iOS 用戶端版本 1.0.92.2019121004 和 App Store 版本 1.0.92 及更新版本的行動用戶端
 - Teams Android 用戶端和 Google Play 商店版本 1416/1.0.0.2019121201 及更新版本的行動用戶端
 - Teams 1449/1.0.94.2019110802 及更新版本
 - Teams 會議室版本 4.4.25.0 及更新版本
@@ -92,7 +92,7 @@ Microsoft 通話方案與連線合作夥伴包含適用于美國和加拿大使�
 > - Teams Teams應用程式版本 1449/1.0.94.2021110101 及更新版本的手機。
 
 > [!NOTE]
-> Web 用戶端不支援動態緊急電話 ，包括安全Teams通知。 若要防止使用者使用網路用戶端Teams PSTN 號碼，您可以設定Teams，並關閉 [允許 **Web PSTN** 通話設定。 若要深入瞭解，請參閱在[](teams-calling-policy.md)Teams[和 Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)中的通話政策。 
+> Web 用戶端不支援動態緊急電話 ，包括安全Teams通知。 若要防止使用者使用 Teams用戶端撥打 PSTN 號碼，您可以設定Teams，並關閉 [允許 **Web PSTN** 通話設定。 若要深入瞭解，請參閱在[](teams-calling-policy.md)Teams[和 Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)中的通話政策。 
 
 > [!NOTE]
 > 3PIP 電話不支援動態緊急電話。 
@@ -109,7 +109,7 @@ Microsoft 通話方案與連線合作夥伴包含適用于美國和加拿大使�
 
 - 至動態取得位置所需的網路識別碼。 
 
-若要支援在美國境內自動路由緊急電話，您必須確保指派給網路識別碼的緊急位置包含相關聯的地理代碼。  (沒有地理代碼的緊急位址無法指派給動態位置所需的網路識別碼。) 
+若要支援在美國境內自動路由緊急電話，您必須確保指派給網路識別碼的緊急位置包含相關聯的地理代碼。  (沒有地理位置代碼的緊急位址無法指派給動態位置所需的網路識別碼。) 
 
 Azure 地圖用於位置型服務。 當您使用系統管理中心輸入緊急Microsoft Teams時，Teams檢查 Azure 地圖位址：
 
@@ -120,7 +120,7 @@ Azure 地圖用於位置型服務。 當您使用系統管理中心輸入緊急M
 > [!NOTE]
 > 超過兩年的緊急位址無法指派給網路識別碼。 您必須重新建立較舊的位址。
 
-您可以在系統管理中心Microsoft Teams或使用 PowerShell 新增和指派緊急位址。 詳細資訊，請參閱 [新增組織的](add-change-remove-emergency-location-organization.md) 緊急位置，以及指派 [使用者的緊急位置](assign-change-emergency-location-user.md)。
+您可以在系統管理中心Microsoft Teams或使用 PowerShell 新增及指派緊急位址。 詳細資訊，請參閱 [新增組織的](add-change-remove-emergency-location-organization.md) 緊急位置，以及指派 [使用者的緊急位置](assign-change-emergency-location-user.md)。
 
 ## <a name="configure-network-settings"></a>設定網路設定
 
@@ -165,7 +165,7 @@ Azure 地圖用於位置型服務。 當您使用系統管理中心輸入緊急M
 
 用戶端Teams會從與不同的網路識別碼相關聯的位置取得緊急位址。 
 
-若要讓用戶端取得位置，您必須在 LIS 中填入子網、WAP、 (、埠和緊急) 識別碼。 您可以在系統管理中心Microsoft Teams PowerShell 執行此工作。
+若要讓用戶端取得位置，您必須在 LIS 中填入網路識別碼 (子網、WAP、切換器、埠和) 位置。 您可以在系統管理中心Microsoft Teams PowerShell 執行此工作。
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
@@ -236,7 +236,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 
 美國部分緊急路由服務提供者 (ERSP) 提供緊急通話測試 Bot。
 
-- **美國或連線** 的通話方案及接線員使用者可以使用預先定義的測試緊急號碼 933 來驗證其緊急通話設定。 此號碼會路由至 Bot，然後回顯來電者的電話號碼 (電話線識別碼) 、緊急位址或位置，以及通話是否會自動路由至 PSAP 或先進行篩選。
+- **美國或連線** 的通話方案及接線員可以使用預先定義的測試緊急號碼 933 來驗證其緊急通話設定。 此號碼會路由至 Bot，然後回顯來電者的電話號碼 (電話線識別碼) 、緊急位址或位置，以及通話是否會自動路由至 PSAP 或先進行篩選。
 
 - **美國的直接路由客戶應該** 與他們的 ERSP 協調，以進行測試服務。
 
@@ -248,7 +248,7 @@ Set-CsTenantNetworkSite -identity "site1" -EmergencyCallRoutingPolicy "Contoso N
 | :------------|:-------|
 | 全球多重租使用者 | 可在所有用戶端Teams使用 |
 | GCC | 可在所有用戶端Teams使用 |
-| GCCH | -可在桌面Teams使用 <br> -適用于Teams用戶端 <br> -待處理Teams電話 |
+| GCCH | -可在桌面Teams使用 <br> -適用于Teams用戶端 <br> -待處理手機Teams可用性 |
 | 國防部 | 待處理 |
 
  ## <a name="related-topics"></a>相關主題

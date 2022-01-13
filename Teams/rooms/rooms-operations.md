@@ -13,14 +13,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 請閱讀本主題以瞭解管理Microsoft Teams 會議室。
-ms.openlocfilehash: 3717c140501cbfc7650daafd14a6daa47a4febd3
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 2238712b269475891074016c1099a33c56004595
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306158"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015043"
 ---
-# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 會議室維護與作業 
+# <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 會議室維護與作業
  
 請閱讀本主題以瞭解管理Microsoft Teams 會議室。
   
@@ -29,9 +29,9 @@ Microsoft Teams 會議室是 Microsoft 的會議解決方案，專為將您的�
 ## <a name="collecting-logs-on-microsoft-teams-rooms"></a>收集記錄Microsoft Teams 會議室
 <a name="Logs"> </a>
 
-您可以透過系統管理中心Teams記錄。 在 Teams系統管理中心中，流覽至 Teams 會議室 上的Windows。 在此頁面上，按一下要下載記錄之顯示名稱。 在上方面板中，按一下 [下載裝置記錄」。 系統將會提示您注意。 按一下 [已找到它」。 幾分鐘之後，記錄就會在記錄標籤中準備好下載。
+若要在系統管理中心Teams記錄，請前往 Teams **上的> Teams 會議室Windows。** 選取您想要記錄之裝置顯示名稱。 在上方面板中，選取 「下載裝置記錄」。 確認之後，記錄就會在幾分鐘後準備好在歷程記錄中下載。
 
-您也可以使用 PowerShell 收集記錄。 您必須調用隨應用程式一起Microsoft Teams 會議室腳本。 在系統管理模式中，啟動提升的命令提示，併發出下列命令：
+您也可以使用 PowerShell 收集記錄。 您必須調用隨應用程式一起Microsoft Teams 會議室腳本。 在 [系統管理模式中](rooms-operations.md)，啟動提升的命令提示，併發出下列命令：
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -42,9 +42,9 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ## <a name="front-of-room-display-settings"></a>會議室顯示畫面設定
 <a name="Display"> </a>
 
-設定會議室前顯示器的設定 (，) 消費者電子控制 (CEC) 或啟用電腦模式。
+設定會議室前顯示畫面的設定 (，) 消費者電子 (CEC) 或啟用電腦模式。
   
-如果您希望會議室前方的顯示器在從Teams 會議室模式喚醒時自動切換到會議室，則必須符合特定條件。 這項功能為選擇性，但Microsoft Teams 會議室支援，但基礎硬體支援此功能。 作為會議室前顯示器的消費者電視需要支援消費者電子控制 (CEC) HDMI 功能。  視所選 (可能不支援 CEC 的固定座或主機不同，請參閱製造商支援檔) ，可能需要來自Crsron的 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 或 [Exron HD CTL 100](https://www.extron.com/article/hdctl100ad) 的控制器，才能啟用想要的行為。 
+如果您希望會議室前方的顯示器在從Teams 會議室模式喚醒時自動切換至會議室，則必須符合特定條件。 這項功能為選擇性，但Microsoft Teams 會議室支援，但基礎硬體支援此功能。 作為會議室前顯示器的消費者電視需要支援消費者電子 (CEC) HDMI 功能。  視選取的固定座或主機 (可能不支援 CEC，請參閱製造商支援檔) ，可能需要來自Crsron的 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 或 [Exron HD CTL 100](https://www.extron.com/article/hdctl100ad) 的控制器，才能啟用想要的行為。
   
 ## <a name="microsoft-teams-rooms-reset-factory-restore"></a>Microsoft Teams 會議室重設 (還原) 
 <a name="Reset"> </a>
@@ -52,7 +52,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 如果Microsoft Teams 會議室運作不佳，執行出廠重設可能會有所説明。 若要這麼做，請使用 Microsoft Teams[修復工具，](recovery-tool.md)並遵循出廠還原指示。
 
 > [!NOTE]
-> 已知如果選取了 Microsoft Teams 會議室保留我的檔案 **-** 移除應用程式與設定，但保留您的個人檔案選項，Windows無法使用。 請勿 *使用此選項* 。
+> 如果 Microsoft Teams 會議室選取了保留我的檔案 - 移除應用程式與設定，但保留您的個人檔案選項，Windows無法使用已知問題。 請勿 *使用此選項* 。
   
 ## <a name="supported-remote-options"></a>支援的遠端選項
 <a name="RemoteOptions"> </a>
@@ -62,7 +62,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 |工作組|未加入網域|已加入網域|
 |:-----|:-----|:-----|
-|重新 啟動  <br/> |Teams系統管理中心  <br/> 遠端桌面  <br/> 遠端 Powershell  <br/> | <br/>遠端桌面 (需要進一步)   <br/> 遠端 Powershell (需要進一步)   <br/> Configuration Manager  <br/> |
+|重新 啟動  <br/> |Teams系統管理中心  <br/> 遠端桌面  <br/> 遠端 PowerShell  <br/> | <br/>遠端桌面 (需要進一步)   <br/> 遠端 PowerShell (需要進一步)   <br/> Configuration Manager  <br/> |
 |更新作業系統  <br/> |Windows更新  <br/> |Windows更新  <br/> WSUS  <br/> |
 |應用程式更新  <br/> |Windows市  <br/> |Windows市  <br/> Configuration Manager  <br/> |
 |帳戶配置  <br/> |Teams系統管理中心  <br/> |Teams系統管理中心  <br/> |
@@ -73,15 +73,15 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 本節涵蓋系統設定，Microsoft Teams 會議室系統設定以正常運作。 
 
-將 Teams 會議室到 Active Directory 網域提供下列優點：
+將Teams 會議室到 Active Directory 網域提供下列優點：
 
 - 網域加入Teams 會議室可讓您授予網域使用者和群組管理許可權。 如此一來，您就不需要記住本機電腦層級系統管理員帳戶密碼。
 
 - 您可以部署Windows服務品質組Teams 會議室。
 
-- 如果使用 商務用 Skype，加入網域Teams 會議室可協助自動導入貴組織的專用根憑證鏈。
+- 如果使用 商務用 Skype，加入網域Teams 會議室自動輸入貴組織的專用根憑證鏈。
 
-當您將 Teams 會議室 加入網域時，您必須建立另一個組織單位 (OU) ，這樣您才能在所有 Teams 會議室 物件所在的 OU 中提供群組原則物件 (GPO) 排除。 停用所有 GPO 繼承，讓不支援的群組原則設定不會Teams 會議室。 在將使用者加入網域Teams 會議室在 OU 中建立電腦物件，以確保未將群組原則應用程式至預設電腦 OU。
+當您將 Teams 會議室 加入網域時，您必須建立個別的組織單位 (OU) ，這樣您才能在所有 Teams 會議室 物件所在的 OU 中提供群組原則物件 (GPO) 排除。 停用所有 GPO 繼承，讓不支援的群組原則設定不會Teams 會議室。 在將使用者加入網域Teams 會議室在 OU 中建立電腦物件，以確保未將群組原則應用程式至預設電腦 OU。
 
 > [!NOTE]
 > 即使您建立個別的 OU 和封鎖繼承，某些群組原則如果設定了 No Override，也可能會造成問題。 具有 No Override 集的群組原則會以封鎖策略繼承集比對 OU。
@@ -106,7 +106,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 |net accounts /maxpwage：unlimited  <br/> 或是停用本地帳戶密碼到期的相同方式。 若無法這麼做，最終會導致Skype登入時抱怨密碼過期。 請注意，這會影響電腦上所有的本機帳戶，因此無法設定此設定也會造成方塊上的系統管理帳戶最後也會過期。  <br/> |讓Skype帳戶永遠登入  <br/> |
 
 > [!NOTE]
-> 當 Microsoft Teams 會議室與下一版的 Windows 10 OS 相容時，Teams 會議室更新自動更新至Windows版本。 Microsoft Teams 會議室 不應透過 GPO 手動或啟用 Windows 商務用更新 (WUFB) 群群組原則「選取您想要接收之更新的 Windows 準備等級」，以及 「選取何時收到預覽版建立及功能更新」來升級至下一版 Windows 10。 Teams 會議室啟用這些群組原則時，已知會遇到作業系統更新Windows 10問題。
+> 當Microsoft Teams 會議室與下一版作業系統相容時，Windows 10更新Teams 會議室自動更新至下一Windows版本。 Microsoft Teams 會議室 不應透過 GPO 手動或啟用 Windows 商務用更新 (WUFB) 群群組原則，將 Windows 10 升級至下一版 Windows 10 Windows。 Teams 會議室啟用這些群組原則時，已知會遇到作業系統更新Windows 10問題。
 
 ## <a name="remote-management-using-powershell"></a>使用 PowerShell 進行遠端系統管理
 <a name="RemotePS"> </a>
@@ -121,7 +121,7 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 - 傳輸檔案 (需要加入網域Microsoft Teams 會議室) 
     
 > [!NOTE]
-> 此功能預設為關閉。 您需要為系統內容啟用遠端 PowerShell，Microsoft Teams 會議室執行下列操作。 請參閱 **[Enable-PSRemoting 相關](/powershell/module/microsoft.powershell.core/enable-psremoting)** 檔，以瞭解如何啟用遠端 PowerShell。
+> 此功能預設為關閉。 您需要為系統上的環境啟用遠端 PowerShell，Microsoft Teams 會議室執行下列操作。 請參閱 **[Enable-PSRemoting 相關](/powershell/module/microsoft.powershell.core/enable-psremoting)** 檔，以瞭解如何啟用遠端 PowerShell。
   
 例如，您可以啟用遠端 PowerShell，如下所示：
   
@@ -193,10 +193,10 @@ Microsoft Teams 會議室到更新Windows以取回作業系統和周邊裝置固
   
 如果您因為存取 Windows store 的限制而必須手動管理更新，因此無法遵循[商務用 Microsoft Store](https://businessstore.microsoft.com/store)發佈離線應用程式的一般程式，您可以從部署套件[ (](https://go.microsoft.com/fwlink/?linkid=851168) [](/microsoft-store/distribute-offline-apps)取得適當的 APPX 檔案和相依性，從設定[Microsoft Teams 會議室主機) ](console.md)與 Configuration Manager 一起使用。 部署套件發行會落在市面發行之後，因此可能無法一直符合最新的可用版本。
   
-### <a name="to-update-using-powershell"></a>若要使用 Powershell 進行更新
+### <a name="to-update-using-powershell"></a>若要使用 PowerShell 進行更新
 
 1. 從安裝 [MSI](https://go.microsoft.com/fwlink/?linkid=851168) 將套件解壓縮到裝置可以存取的共用。
-2. 執行下列腳本，針對Microsoft Teams 會議室，並 \<share\> 在適當時變更為裝置共用：
+2. 執行下列腳本，針對Microsoft Teams 會議室，並在適當時 \<share\> 變更為裝置共用：
     
     ```PowerShell
     Add-AppxPackage -Update -ForceApplicationShutdown -Path '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\*.appx' -DependencyPath (Get-ChildItem '\\<share>\$oem$\$1\Rigel\x64\Ship\AppPackages\*\Dependencies\x64\*.appx' | Foreach-Object {$_.FullName})
@@ -218,11 +218,11 @@ Microsoft Teams 會議室到更新Windows以取回作業系統和周邊裝置固
 7. 執行必要的系統管理工作。
 8.  完成後，請重新開機電腦。
     
-主機現在會回到其一般運作模式。下列程式要求您在裝置上附加鍵盤 ，如果尚未附加鍵盤。 
+主機現在會回到其一般運作模式。 下列程式要求您在裝置上附加鍵盤 ，如果尚未附加鍵盤。 
   
 ### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>切換至系統管理模式，當應用程式Microsoft Teams 會議室時返回
 
-1. 連續連續Windows按五次按鍵。 這會將您帶到登入Windows畫面。 
+1. 連續Windows按五次按鍵。 這會將您帶到登入Windows畫面。 
 2. 使用系統管理認證登入桌面。
 3. 執行必要的系統管理工作。
 4. 完成後，請重新開機電腦。

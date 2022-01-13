@@ -1,5 +1,5 @@
 ---
-title: 使用 azure 監視器Microsoft Teams 會議室管理計畫
+title: 使用 azure 監視器Microsoft Teams 會議室監控
 ms.author: dstrome
 author: dstrome
 ms.reviewer: Turgayo
@@ -13,52 +13,55 @@ ms.localizationpriority: medium
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
-description: 本文討論規劃使用 Azure 監視器管理Microsoft Teams 會議室裝置或商務用 Skype或Teams考慮。
+description: 本文討論規劃使用 Azure 監視器監控Microsoft Teams 會議室或商務用 Skype或Teams的考慮。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cdd5d95d6f5f94bbe73da63b6d0b0f8e8e070cf9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 13c16234773792f9dc394723521224123c5e2141
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726022"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015203"
 ---
-# <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>使用 azure 監視器Microsoft Teams 會議室管理計畫
+# <a name="plan-microsoft-teams-rooms-monitoring-with-azure-monitor"></a>使用 azure 監視器Microsoft Teams 會議室監控
  
- 本文討論規劃使用 Azure 監視器管理Microsoft Teams 會議室或Microsoft Teams裝置商務用 Skype考慮。
+ 本文討論規劃使用 Azure 監視器管理Microsoft Teams 會議室裝置或Microsoft Teams或商務用 Skype考慮。
+
+> [!NOTE]
+> 您也可以使用[系統管理中心設定](../alerts/device-health-status.md)Teams 會議室健康Teams監控。
+
+[Azure 監視器](/azure/azure-monitor/overview) 是一組監控服務，從一開始即是在雲端中設計。 Azure 監視器元件完全託管在 Azure 中，而不是部署和管理內部部署資源。 組組是最小的，您只需要幾分鐘就可以啟動並運作。 有了一些自訂作業，它Microsoft Teams 會議室提供個別會議室系統之系統健康情況或錯誤通知，協助監控Microsoft Teams 會議室。
   
-[Azure 監視器](/azure/azure-monitor/overview) 是一系列管理服務，從一開始即是在雲端中設計。 Azure 監視器元件完全託管在 Azure 中，而不是部署和管理內部部署資源。 組組是最小的，您只需要幾分鐘就可以完全啟動並運作。 有了一些自訂作業，它可針對個別會議室系統提供系統健康情況或錯誤即時通知，協助管理 Microsoft Teams 會議室 會議系統，並可能向上縮放以管理數千間 Microsoft Teams 會議室 會議室。
-  
-本文提供實行 Microsoft Teams 會議室 會議裝置 Azure 監視器管理所需的需求、設計/架構及實做最佳做法的討論，並提供有關實做 Microsoft Teams 會議室 版 Azure 監視器的詳細文章的連結，以及持續監控 Microsoft Teams 會議室 會議室的重要參考資訊。 
+本文將討論實行 Azure Monitor 監控所需的需求、設計/架構及實Microsoft Teams 會議室。 它也提供有關為會議室執行 Azure 監視器的詳細文章Microsoft Teams 會議室以及持續監控會議室的重要Microsoft Teams 會議室資訊。
   
 ## <a name="functional-overview"></a>功能概觀
 
 ![使用 Azure 監視器Microsoft Teams 會議室管理圖表。](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
   
-主機Microsoft Teams 會議室上的應用程式會將事件寫入其Windows記錄。 安裝之後，Microsoft 監控代理程式會將資訊傳遞至 Azure Monitor 服務。 
+應用程式Microsoft Teams 會議室事件寫入到 Windows記錄。 安裝之後，Microsoft 監控代理程式會將資訊傳遞至 Azure 監視器服務。
   
-正確配置之後，Log Analytics 會剖析事件描述中內嵌的 JSON 負載，以描述每個Microsoft Teams 會議室系統的運作方式，以及偵測到哪些錯誤。 
+正確配置之後，Log Analytics 會剖析事件描述中內嵌的 JSON 負載，描述Microsoft Teams 會議室運作方式，以及偵測到哪些錯誤。
   
-使用 Azure 監視器的系統管理員Microsoft Teams 會議室離線或遇到應用程式、連線或硬體失敗之系統的通知，以及知道系統需要重新開機。 每個系統狀態會經常更新，因此這些通知會接近即時更新。
+使用 Azure 監視器的系統管理員Microsoft Teams 會議室離線或遇到應用程式、連線或硬體故障的通知，以及知道系統是否必須重新開機。 每個系統狀態會經常更新，因此這些通知會接近即時更新。
   
 ## <a name="azure-monitor-requirements"></a>Azure 監視器需求
 
 您必須擁有 Azure 監視器的有效 Azure 訂閱，才能使用記錄分析功能。 請參閱 [開始使用記錄分析工作區](/azure/azure-monitor/learn/quick-create-workspace) ，為貴組織建立訂閱。
   
-您應該視需要熟悉如何使用記錄分析視圖設計工具。 請參閱 [記錄分析中的查看，](/azure/azure-monitor/platform/view-designer) 瞭解這些詳細資料。
+您應該熟悉如何使用記錄分析視圖設計工具。 請參閱 [記錄分析中的查看，](/azure/azure-monitor/platform/view-designer) 瞭解這些詳細資料。
   
 ### <a name="related-tasks"></a>相關工作
 
-1. 訂閱 Azure 監視器記錄分析之後，請建立自訂欄位[ (](azure-monitor-deploy.md#Custom_fields)如地圖自訂欄位) 所述，以剖析從 Microsoft Teams 會議室 主機Microsoft Teams 會議室的資訊。 這包括瞭解在瞭解記錄專案中記載的 [JSON 架構](azure-monitor-manage.md#understand-the-log-entries)。
+1. 訂閱 Azure 監視器記錄分析之後，請建立自訂欄位 (如地圖自訂欄位[) ](azure-monitor-deploy.md#Custom_fields)所述，以剖析從 Microsoft Teams 會議室 中Microsoft Teams 會議室。 這包括瞭解在瞭解記錄專案中記載的 [JSON 架構](azure-monitor-manage.md#understand-the-log-entries)。
     
 2. 在記錄Microsoft Teams 會議室中建立管理檢視。 您可以手動[建立Microsoft Teams 會議室儀表板](azure-monitor-deploy.md#create-a-microsoft-teams-rooms-dashboard-manually)。
     
-## <a name="individual-microsoft-teams-rooms-console-requirements"></a>個別Microsoft Teams 會議室主機需求
+## <a name="individual-microsoft-teams-rooms-requirements"></a>個別Microsoft Teams 會議室需求
 
-每個 Microsoft Teams 會議室 主機都是在 Surface Pro 裝置上以資訊站模式執行的應用程式 (通常，它被配置為唯一可在裝置上執行的應用程式) 。 如同任何Windows應用程式一樣，Microsoft Teams 會議室應用程式會將啟動和硬體故障等事件寫入 Windows記錄。 在裝置上新增 Microsoft 監視器Microsoft Teams 會議室可讓您收集這些事件。  (請參閱[連線 Windows登入 Azure](/azure/azure-monitor/platform/agent-windows)中的記錄分析服務以) 
+Microsoft Teams 會議室是在資訊站模式中在計算裝置上執行的應用程式。 如同任何Windows應用程式一樣，Microsoft Teams 會議室應用程式會將啟動和硬體錯誤等事件寫入 Windows記錄。 新增 Microsoft Monitor 代理程式Microsoft Teams 會議室可收集這些事件。  (請參閱[連線 Windows電腦至 Azure](/azure/azure-monitor/platform/agent-windows)中的記錄分析服務以瞭解詳細資料。) 
   
 ## <a name="ongoing-management"></a>持續管理
 
-使用 Azure 監視器管理Microsoft Teams 會議室裝置時，您必須瞭解 Azure 監視器使用的事件記錄中包含的資訊。 請參閱 [瞭解這些健康情況訊息](azure-monitor-manage.md#understand-the-log-entries) 的詳細資訊記錄專案。
+使用 Azure 監視器監控Microsoft Teams 會議室，您必須瞭解 Azure 監視器使用的事件記錄中包含的資訊。 請參閱 [瞭解這些健康情況訊息](azure-monitor-manage.md#understand-the-log-entries) 的詳細資訊記錄專案。
   
 ### <a name="related-tasks"></a>相關工作
 
