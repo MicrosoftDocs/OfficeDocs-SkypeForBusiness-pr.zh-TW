@@ -277,6 +277,8 @@ items:
         items:
           - name: 資訊屏障
             href: information-barriers-in-teams.md
+          - name: 使用 PowerShell 指令碼變更資訊屏障模式
+            href: information-barriers-mode-script.md
           - name: 保留原則
             href: retention-policies.md
           - name: 通訊合規性
@@ -1015,6 +1017,62 @@ items:
             href: voice-case-study-audio-conferencing.md
           - name: 自動語音應答和通話佇列
             href: voice-case-study-call-queues.md
+      - name: 適用於中小型企業的指導
+        items:
+          - name: 適用於中小型企業的 Teams 電話指導
+            href: business-voice/whats-business-voice.md
+          - name: 適用國家與地區
+            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+          - name: 檢查您的網際網路連線
+            href: business-voice/get-ready-internet.md
+          - name: 從經銷商或合作夥伴取得協助
+            href: business-voice/reseller-partner-support.md
+          - name: 安裝適用於中小型企業的 Teams 電話
+            items:
+              - name: 概觀
+                href: business-voice/set-up-overview.md
+              - name: 步驟 1：設定緊急位置
+                href: business-voice/set-up-emergency-locations.md
+              - name: 步驟 2：設定電話號碼
+                href: business-voice/set-up-phone-numbers.md
+              - name: 步驟 3：指派授權
+                href: business-voice/set-up-licenses.md
+              - name: 步驟 4：設定資源帳戶
+                href: business-voice/set-up-resource-account.md
+              - name: 步驟 5：將電話號碼指派給使用者
+                href: business-voice/set-up-assign-numbers.md
+              - name: 步驟 6：設定自動語音應答
+                href: business-voice/set-up-auto-attendant.md
+              - name: 步驟 7：連接埠電話號碼 (選用)
+                href: business-voice/port-phone-numbers.md
+              - name: 安裝後資源
+                href: business-voice/set-up-finish.md
+          - name: 自訂適用於中小型企業的 Teams 電話安裝
+            items:
+              - name: 自訂選項
+                href: business-voice/customize-business-voice.md
+              - name: 設定通話原則
+                href: business-voice/set-up-policies.md
+              - name: 管理原則套件
+                href: business-voice/policy-packages.md
+              - name: 建立更多使用者
+                href: business-voice/create-users.md
+              - name: 設定通話佇列
+                href: business-voice/create-a-phone-system-call-queue-smb.md
+              - name: 設定自動語音應答
+                href: business-voice/create-a-phone-system-auto-attendant-smb.md
+          - name: 管理適用於中小型企業的 Microsoft Teams 電話設定
+            items:
+              - name: 建立一或多個使用者
+                href: business-voice/create-users.md
+              - name: 管理裝置
+                href: business-voice/manage-devices.md
+              - name: 監控通話品質
+                href: business-voice/monitor-quality.md
+              - name: 通話品質儀表板
+                href: business-voice/analytics-dashboard.md
+          - name: 合作夥伴資源
+            href: 'https://cloudpartners.transform.microsoft.com/products/m365-business-voice-partner-playbook'
       - name: 參考
         items:
           - name: 國家/地區的電話號碼管理
@@ -1227,68 +1285,6 @@ items:
                 href: add-funds-and-manage-communications-credits.md
           - name: Microsoft Teams 通話流程
             href: microsoft-teams-online-call-flows.md
-  - name: Microsoft 365 商務語音
-    items:
-      - name: 什麼是 Microsoft 365 商務語音？
-        href: business-voice/whats-business-voice.md
-      - name: 適用國家與地區
-        href: business-voice/country-region-availability.md
-      - name: 購買前應了解的事項
-        items:
-          - name: 要購買什麼產品才能取得商務語音
-            href: business-voice/what-to-buy.md
-          - name: 從經銷商或合作夥伴取得協助
-            href: business-voice/reseller-partner-support.md
-          - name: 檢查您的網際網路連線
-            href: business-voice/get-ready-internet.md
-          - name: 讓您的使用者準備就緒
-            href: business-voice/prepare-users.md
-      - name: 設定商務語音
-        items:
-          - name: 概觀
-            href: business-voice/set-up-overview.md
-          - name: 步驟 1：設定緊急位置
-            href: business-voice/set-up-emergency-locations.md
-          - name: 步驟 2：設定電話號碼
-            href: business-voice/set-up-phone-numbers.md
-          - name: 步驟 3：指派授權
-            href: business-voice/set-up-licenses.md
-          - name: 步驟 4：設定資源帳戶
-            href: business-voice/set-up-resource-account.md
-          - name: 步驟 5：將電話號碼指派給使用者
-            href: business-voice/set-up-assign-numbers.md
-          - name: 步驟 6：設定自動語音應答
-            href: business-voice/set-up-auto-attendant.md
-          - name: 步驟 7：連接埠電話號碼 (選用)
-            href: business-voice/port-phone-numbers.md
-          - name: 安裝後資源
-            href: business-voice/set-up-finish.md
-      - name: 自訂您的設定
-        items:
-          - name: 自訂選項
-            href: business-voice/customize-business-voice.md
-          - name: 設定通話原則
-            href: business-voice/set-up-policies.md
-          - name: 管理原則套件
-            href: business-voice/policy-packages.md
-          - name: 建立更多使用者
-            href: business-voice/create-users.md
-          - name: 設定通話佇列
-            href: business-voice/create-a-phone-system-call-queue-smb.md
-          - name: 設定自動語音應答
-            href: business-voice/create-a-phone-system-auto-attendant-smb.md
-      - name: 管理您的設定
-        items:
-          - name: 建立一或多個使用者
-            href: business-voice/create-users.md
-          - name: 管理裝置
-            href: business-voice/manage-devices.md
-          - name: 監控通話品質
-            href: business-voice/monitor-quality.md
-          - name: 通話品質儀表板
-            href: business-voice/analytics-dashboard.md
-      - name: 合作夥伴資源
-        href: business-voice/partner-resources.md
   - name: 裝置和會議室管理
     items:
       - name: Microsoft Teams 會議室
@@ -1345,8 +1341,6 @@ items:
                 href: rooms/rooms-authentication.md
               - name: 加入第三方會議
                 href: rooms/third-party-join.md
-              - name: 使用 Microsoft Endpoint Configuration Manager
-                href: rooms/rooms-scale.md
               - name: 使用 Azure 監視器管理
                 href: rooms/azure-monitor-deploy.md
               - name: 移轉 SRS v1 或 LRS
@@ -1381,6 +1375,12 @@ items:
             href: rooms/enrolling-mtrp-managed-service.md
           - name: 設定適用於 Microsoft Teams 會議室的 ServiceNow
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
+          - name: 合作夥伴的多租用戶管理
+            href: rooms/multi-tenant-management-partner.md
+          - name: 客戶的多租用戶管理
+            href: rooms/multi-tenant-management-customer.md
+          - name: 會議室活動的稽核記錄
+            href: rooms/multi-tenant-auditing.md
       - name: 裝置
         items:
           - name: 在 Teams 中管理裝置
@@ -1571,6 +1571,10 @@ items:
             href: devices-for-education.md
       - name: 適用於前線員工的 Teams
         items:
+          - name: 開始使用適用於前線工作者的 Teams
+            href: flw-landing-page.md
+          - name: 適用於前線員工的授權選項
+            href: flw-licensing-options.md
           - name: 前線員工快速入門手冊
             href: flw-quickstart.yml
           - name: 前線員工上線精靈
