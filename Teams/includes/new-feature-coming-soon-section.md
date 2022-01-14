@@ -1,1 +1,1 @@
-此功能尚未發佈。 我們已宣佈推出，即將推出。如果您是系統管理員，您可以在 [ [Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home)]) 的 [訊息中心] (，找出這項功能的發行時間。
+這項功能尚未發行。 已經宣佈，即將推出。如果您是系統管理員，您可以瞭解此功能何時會發行于郵件中心 (中[Microsoft 365 系統管理中心) 。](https://portal.office.com/adminportal/home)
