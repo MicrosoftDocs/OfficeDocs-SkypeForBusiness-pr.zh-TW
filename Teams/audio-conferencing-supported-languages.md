@@ -1,7 +1,7 @@
 ---
 title: 音訊會議的支援語言
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: reference
@@ -22,19 +22,19 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: '尋找每個國家/地區電話撥入式會議語言，以及指派給 (en-US、da-DK、de-DE 等語言的) '
-ms.openlocfilehash: 4ecdcf951fde12af53b64cdafd4028e5638f6f27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 38277b1b4b24c544cd271c9bbdb52f53d407fceb
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633427"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055453"
 ---
 # <a name="audio-conferencing-supported-languages"></a>音訊會議的支援語言
 
-當您在 Microsoft 365 或 Office 365 中設定音訊會議時，您可以選取來電者撥入 商務用 Skype 或 Microsoft Teams 會議時所使用的主要和次要 () 語言。 以下是音訊會議支援的語言清單： 
+當您在 Microsoft 365 或 Office 365 中設定音訊會議時，您可以選取來電者撥入 商務用 Skype 或 Microsoft Teams 會議時所使用的主要和次要 () 語言。 以下是音訊會議支援的語言清單：
   
 > [!IMPORTANT]
-> 主要和次要語言只能在專用音訊會議電話號碼上變更。 
+> 主要和次要語言只能在專用音訊會議電話號碼上變更。
   
 ## <a name="currently-supported-languages"></a>目前支援的語言
 
@@ -84,31 +84,31 @@ ms.locfileid: "58633427"
 |泰語  <br/> |泰國  <br/> |th-TH  <br/> |
 |土耳其文  <br/> |土耳其  <br/> |tr-TR  <br/> |
 |烏克蘭文  <br/> |烏克蘭  <br/> |uk-UA  <br/> |
-   
+
 如果您正在尋找可以購買音訊會議的國家/地區，請參閱音訊會議與通話方案的國家/地區 [可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。
   
-如果您正在尋找具有音訊會議電話號碼的特定國家/地區，請參閱 Microsoft Teams 中的[電話](phone-numbers-for-audio-conferencing-in-teams.md)音訊會議號碼，或 商務用 Skype [Online](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)的音訊會議 電話 號碼。
+如果您正在尋找具有音訊會議電話號碼的特定國家/地區，請參閱 Microsoft Teams 中的[電話](phone-numbers-for-audio-conferencing-in-teams.md)音訊會議號碼，或[商務用 Skype 電話](/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)Online 的音訊會議號碼。
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>想要瞭解如何使用 Windows PowerShell？
 
 - 若要節省時間或自動化這項功能，您可以使用 [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) 或 [Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) Cmdlets。
-    
+
 - Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
-    
+
   - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
+
   - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
-- Windows PowerShell比只使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如，當您一次對許多使用者進行設定變更時。 請從下列主題瞭解這些優點： 
-    
+
+- Windows PowerShell比只使用 Microsoft 365 系統管理中心，在速度、簡易性及生產力方面有許多優點，例如一次對許多使用者進行設定變更。 請從下列主題瞭解這些優點：
+
   - [Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
   - [使用 Windows PowerShell 管理 商務用 Skype Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
-  - [使用 Windows PowerShell 執行常見的線上商務用 Skype管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
-    
+
+  - [使用 Windows PowerShell 執行線上商務用 Skype管理工作](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+
     > [!NOTE]
-    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援在 64 位電腦上，可從 Microsoft 下載中心下載，Windows PowerShell Online 模組商務用 Skype[下載。](https://go.microsoft.com/fwlink/?LinkId=294688)
+    > Windows PowerShell Online 商務用 Skype模組可讓您建立連線至 Windows PowerShell Online 的遠端商務用 Skype會話。 此模組僅支援 64 位電腦，可從 Microsoft 下載中心下載，Windows PowerShell Online 商務用 Skype[模組。](https://go.microsoft.com/fwlink/?LinkId=294688)
   
 ## <a name="related-topics"></a>相關主題
 

@@ -16,22 +16,22 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文提供一個概觀，以及由Microsoft Teams支援的功能。
-ms.openlocfilehash: fc5c21ef11f60758644c48ee879bf4c6f3647457
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a12e8918534a5060dae906d60f0de1aa36567f9b
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766426"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055113"
 ---
 # <a name="microsoft-teams-panels"></a>Microsoft Teams面板
 
 Microsoft Teams面板是安裝在會議空間外部的精簡觸控螢幕裝置，通常位於入口旁邊。 Teams面板，您可以一目了然地查看位置和會議詳細資料，並保留現場可用的會議空間。 您可以使用豐富的大型文字和色彩編碼標記，從遠處查看會議空間的可用性。
 
-Teams是專用的Microsoft Teams裝置，可顯示透過 Teams 或 Outlook 365 日曆應用程式排定的會議詳細資料。 當會議詳細資料醒目顯示時，出席者可以確認他們位於正確的會議空間、正確的時間，以及適合的會議。
+Teams面板是專用的Microsoft Teams裝置，可顯示透過 Teams 或 Outlook 365 日曆應用程式排定的會議詳細資料。 當會議詳細資料醒目顯示時，出席者可以確認他們位於正確的會議空間、正確的時間，以及適合的會議。
 
-本文提供您Teams面板概觀，並可協助規劃、傳遞及管理Teams裝置。
+本文提供面板Teams概觀，並可協助規劃、傳遞及管理Teams裝置。
 
-## <a name="features-supported-by-teams-panels"></a>面板支援Teams功能
+## <a name="features-supported-by-teams-panels"></a>由Teams支援的功能
 
 Teams面板支援下列功能：
 
@@ -53,10 +53,10 @@ Teams面板支援下列功能：
 
 ## <a name="license-requirement"></a>授權需求
 
-若要使用Teams面板，您需要[授權Microsoft Teams 會議室標準版授權](../rooms/rooms-licensing.md)。
+若要使用Teams面板，您需要Microsoft Teams 會議室標準版[授權](../rooms/rooms-licensing.md)。
 
 > [!Note]
-> 如果您已經在Microsoft Teams 會議室面板的會議空間中部署Teams，則不需要額外的授權，Teams面板。
+> 如果您已經將Microsoft Teams 會議室部署在要安裝 Teams 面板的會議空間中，則不需要額外的授權Teams面板。
 
 ## <a name="deploy-teams-panels-devices"></a>部署Teams面板裝置
 
@@ -64,14 +64,14 @@ Teams面板支援下列功能：
 
 部署Teams面板裝置可以細分為下列工作：
 
-- [會議空間庫存與功能規劃](#inventory-sites-and-meeting-spaces)：建立貴組織網站與會議空間的庫存，以在Teams裝置上部署。
+- [會議空間庫存與功能規劃](#inventory-sites-and-meeting-spaces)：建立貴組織網站與會議空間的庫存，以部署Teams裝置。
 - [採購](#procurement)：從您選取的裝置合作夥伴購買裝置。  
 - [網站就緒](#site-readiness)：確認您的部署位置 (會議) 符合部署需求。
 - [組配置與部署](#configuration-and-deployment)：建立資源帳戶，並將其指派給裝置。
 
 ## <a name="inventory-sites-and-meeting-spaces"></a>庫存網站和會議空間
 
-盤點組織中現有的可預約會議空間。 識別在面板中部署範圍的網站Teams空間。 請和您的裝置和音訊-視覺小組合作，決定在何處以及如何安裝 Teams 面板裝置，以及安裝面板是否還需要任何其他硬體。
+盤點組織中現有的可預約會議空間。 識別在面板中部署範圍中的網站Teams空間。 請和您的裝置和音訊-視覺小組合作，決定在何處以及如何安裝 Teams 面板裝置，以及安裝面板是否還需要任何其他硬體。
 
 ## <a name="procurement"></a>採購
 
@@ -102,19 +102,19 @@ Teams面板支援下列功能：
 
 每個Teams面板裝置都需要Microsoft 365會議室資源帳戶。 您可以使用資源帳戶認證來Microsoft Teams面板裝置上的應用程式。
 
-若要設定Microsoft 365面板Teams資源帳戶，我們建議您購買Microsoft Teams 會議室標準版[授權](#license-requirement)。 若要瞭解如何建立資源帳戶並指派授權給資源帳戶，請參閱使用 Microsoft 365 系統管理中心 建立[資源Microsoft 365 系統管理中心。](resource-account-ui.md)
+若要設定Microsoft 365面板Teams資源帳戶，建議您購買Microsoft Teams 會議室標準版[授權](#license-requirement)。 若要瞭解如何建立資源帳戶並為其指派授權，請參閱使用 Microsoft 365 系統管理中心 建立[資源Microsoft 365 系統管理中心。](resource-account-ui.md)
 
 > [!NOTE]
 >
 >- 如果您已經針對要安裝面板的會議空間設定會議室資源帳戶，請使用相同的會議室資源帳戶來登錄面板裝置。 不過，請確定會議室資源帳戶Microsoft Teams 會議室標準版指派授權，才能使用它做為面板資源帳戶。
 >
->- 如果您已經將Microsoft Teams 會議室部署在要安裝 Teams 面板的會議空間中，則不需要購買個別授權來部署面板。 系統管理員以與主機相同的認證，以相同的Microsoft Teams 會議室登錄面板裝置。
+>- 如果您已經將Microsoft Teams 會議室部署在要安裝 Teams 面板的會議空間中，則不需要購買個別授權來部署面板。 系統管理員以與主機相同的認證，以相同的認證Microsoft Teams 會議室同一個空間的面板裝置。
 >
 >- 對於大型會議空間 ，例如會議室或會議室，有多個入口，您可以在每個入口安裝一個面板裝置。 屬於單一會議空間的多個面板會共用相同的資源帳戶，並使用相同的認證來登錄。 您不需要為相同空間的每個面板建立個別的資源帳戶。
 
 > [!TIP]
-> 建議您在實際安裝面板之前，先Teams帳戶。
-> 請考慮為面板資源帳戶使用Teams慣例。 讓資源帳戶的顯示名稱Microsoft 365描述性且容易理解。 這些名稱是使用者在搜尋會議空間時，在Outlook或Teams看到的名稱。
+> 建議您在實際安裝面板之前先建立資源Teams帳戶。
+> 請考慮為面板資源帳戶使用Teams慣例。 讓資源帳戶的顯示Microsoft 365描述性且容易理解。 這些名稱是使用者在搜尋會議空間時，在Outlook或Teams看到的名稱。
 
 ### <a name="testing"></a>測試
 
@@ -122,7 +122,7 @@ Teams面板支援下列功能：
 
 ## <a name="manage-teams-panels-in-your-organization"></a>管理Teams中的面板
 
-若要管理您的Teams面板裝置，在系統管理中心的左側導Microsoft Teams，請前往 Teams ****  >  **面板**。 您可以在這裡變更裝置組調設定檔、管理更新、重新開機裝置、新增和移除裝置標記等等。 詳細資訊，請參閱在 Teams[中管理您的Teams。](device-management.md)
+若要管理您的 Teams面板裝置，在系統管理中心的左側導Microsoft Teams，請前往 Teams ****  >  **面板**。 您可以在這裡變更裝置組調設定檔、管理更新、重新開機裝置、新增和移除裝置標記等等。 詳細資訊，請參閱在 Teams[中管理您的Teams。](device-management.md)
 
 ## <a name="next-steps"></a>後續步驟
 
@@ -134,6 +134,6 @@ Teams面板支援下列功能：
 
 [開始使用Teams面板](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
 
-[Teams面板市集](https://www.microsoft.com/microsoft-teams/across-devices/devices/product?deviceid=815)
+[Teams面板市集](https://office.com/teamsdevices)
 
 [根據面板認證計畫Microsoft Teams認證的裝置](teams-ip-phones.md#currently-certified-teams-panels)

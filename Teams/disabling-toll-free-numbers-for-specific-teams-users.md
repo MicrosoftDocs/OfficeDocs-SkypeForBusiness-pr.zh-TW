@@ -1,7 +1,7 @@
 ---
 title: 停用特定使用者的免付費Teams號碼
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,47 +20,47 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 瞭解如何控制召集人如何使用免付費號碼進行音訊會議橋接器會議。
-ms.openlocfilehash: 3d9cd647f8089bd95defe016176dbc236e9f628b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 瞭解如何控制召集人如何針對音訊會議橋接器會議使用免付費號碼。
+ms.openlocfilehash: 18696143930c42649304bb62b5693e95179397e4
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613642"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055433"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>停用特定使用者的免付費Teams號碼
 
 如果貴組織在其 Microsoft 音訊會議橋接器中擁有免付費號碼，您可以允許或禁止在特定的召集人會議中使用。  
 
-根據預設，貴組織的所有使用者都可以使用免付費號碼，也就是說，參與者可以使用這些號碼來加入他們的會議 。如果可用的話，這些號碼可供參與者使用。 如果貴組織中某些使用者不是想要的行為，您可以透過免付費號碼啟用控制項，限制特定使用者在會議中使用這些號碼。 
+根據預設，貴組織的所有使用者都可以使用免付費號碼，也就是說，參與者可以使用這些號碼來加入他們的會議 。如果可用的話，這些號碼可供參與者使用。 如果貴組織中某些使用者不是想要的行為，您可以透過免付費號碼啟用控制項，限制特定使用者在會議中使用這些號碼。
 
-當為給定的召集人停用免付費號碼時： 
- - 免付費號碼將不再包含在其會議邀請中。 
- - 免付費號碼將不再列在其會議邀請中參照的「尋找當地號碼」頁面上。 
- - 如果參與者撥打組織的任何免付費號碼，他們將無法加入該召集人的會議。 
- - 召集人的所有會議都會自動重新排期，免付費號碼也會從這些會議中移除。  
+當為給定的召集人停用免付費號碼時：
+
+- 免付費號碼將不再包含在其會議邀請中。
+- 免付費號碼將不再列在其會議邀請中參照的「尋找當地號碼」頁面上。
+- 如果參與者撥打組織的任何免付費號碼，他們將無法加入該召集人的會議。
+- 召集人的所有會議都會自動重新排期，免付費號碼也會從這些會議中移除。  
 
     > [!IMPORTANT]
-    > 這會將召集人的所有電子郵件邀請重新發回給所有會議參與者。 
+    > 這會將召集人的所有電子郵件邀請重新發回給這些會議的所有參與者。
 
- - 參與者可以使用付費號碼繼續加入召集人的會議。 
+- 參與者可以使用付費號碼繼續加入召集人的會議。
 
-## <a name="disabling-toll-free-numbers-for-specific-users"></a>停用特定使用者的免付費電話號碼 
+## <a name="disabling-toll-free-numbers-for-specific-users"></a>停用特定使用者的免付費電話號碼
 
 從 Microsoft Teams **系統管理中心**：
 
-1. 在左側導覽中， **按一下 [使用者**」，然後從可用使用者清單中選取使用者。
+1. 在左側導覽中， **按一下 [使用者**，然後從可用使用者清單中選取使用者。
 
 2. 在 [ **音訊會議」 旁**，按一下 [ **編輯>**。
 
-3. 將 **此使用者的會議要求包含** 免付費號碼設為 **關閉**。 
+3. 將 **此使用者的會議要求包含** 免付費號碼設為 **關閉**。
 
-4. 按一下 **[儲存。** 
+4. 按一下 **[儲存。**
 
- 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
- 
-**使用 PowerShell**  
 
-詳細資訊[Microsoft Teams PowerShell 參考](/powershell/module/teams/?view=teams-ps)。
+### <a name="using-powershell"></a>使用 PowerShell
+
+請參閱[powerShell Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)參考資料以瞭解更多資訊。

@@ -1,7 +1,7 @@
 ---
 title: 具有直接路由、GCCH 和 DoD 的音訊會議
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,26 +20,26 @@ f1.keywords:
 ms.localizationpriority: medium
 description: 系統管理員可以瞭解如何在 GCCH 和 DoD 環境中使用音訊會議與直接路由。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1e4500e5560a1e5b14af51137f98e98823f7b333
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 274173387374591e91a067e2a5340bb735910fa7
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853947"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055873"
 ---
 # <a name="audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>適用於 GCC High 和 DoD 的音訊會議搭配直接路由
 
 使用直接路由GCC高和 DoD 的音訊會議Teams使用電話裝置GCC高或 DoD 組織中加入會議。 會議參與者可能偏好使用電話裝置加入 Teams 會議，例如網際網路連接受限或使用者在路上且無法存取Teams。 參與者可以加入宣告會議，撥入貴組織的撥入電話號碼，或讓會議撥出到其電話裝置。
 
-透過具有 GCC High 和 DoD 直接路由的音訊會議，貴組織會使用自己的號碼做為撥入電話號碼，而所有電話裝置的會議撥出都是透過直接路由路由。 若要啟用服務，組織必須設定直接路由，並設定可做為撥入電話號碼的電話號碼。 使用直接路由的需求與 Microsoft 提供撥入電話號碼的非 GCC High 和非 DoD 組織所提供的音訊會議服務不同。
+透過具有 GCC High 和 DoD 直接路由的音訊會議，貴組織會使用自己的號碼做為撥入電話號碼，而所有電話裝置的會議撥出都是透過直接路由路由。 若要啟用服務，組織必須設定直接路由，並設定可做為撥入電話號碼的電話號碼。 使用直接路由的需求與提供給非 GCC High 和非 DoD 組織的音訊會議服務不同，因為 Microsoft 會提供撥入電話號碼。
 
 ## <a name="deploy-audio-conferencing-with-direct-routing-for-gcc-high-and-dod"></a>使用直接路由部署音訊會議GCC高和 DoD
 
-### <a name="step-1-get-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses"></a>步驟 1：使用直接路由取得音訊會議GCC高或 DoD 授權 
+### <a name="step-1-get-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses"></a>步驟 1：使用直接路由取得音訊會議GCC高或 DoD 授權
 
 若要在高GCC DoD 中使用音訊會議，您的組織和貴組織的使用者必須指派具有直接路由授權的音訊會議。 以下是使用直接路由啟用音訊會議所需的授權，GCC高或 DoD。
 
-- GCC高：音訊會議 - GCC高租使用者授權和音訊會議 - GCC使用者擁有高授權。
+- GCC：音訊會議 - GCC高租使用者授權和音訊會議 - GCC高授權給使用者。
 
 - DoD：音訊會議 - 貴組織的 DoD 租使用者授權和音訊會議 - 適用于使用者的 DoD 授權。
 
@@ -65,13 +65,14 @@ ms.locfileid: "60853947"
 
 #### <a name="define-service-phone-numbers-in-your-tenant"></a>在租使用者中定義服務電話號碼
 
-您可以使用 New-csHybridTelephoneNumber PowerShell Cmdlet 定義租使用者中的服務電話號碼，以透過直接路由將通話路由至音訊會議服務。 
+您可以使用 New-csHybridTelephoneNumber PowerShell Cmdlet 定義租使用者中的服務電話號碼，以透過直接路由將通話路由至音訊會議服務。
 
   ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber <Phone number in E.164 format>
   ```
 
 例如：
+
   ```PowerShell
   New-csHybridTelephoneNumber -TelephoneNumber "+14250000000"
   ```
@@ -91,10 +92,9 @@ ms.locfileid: "60853947"
   Register-csOnlineDialInConferencingServiceNumber -identity 14257048060 -BridgeId $b.identity
   ```
 
-
 ### <a name="step-4-define-a-global-voice-routing-policy-to-enable-the-routing-of-outbound-calls-from-meetings"></a>步驟 4：定義全域語音路由策略，以啟用會議外接通話的路由
 
-從貴組織中使用者組織的會議撥打到 PSTN 的外發通話路由，是由貴組織的全域語音路由策略所定義。 如果貴組織已定義全域語音路由策略，請確認全域語音路由策略允許從貴組織中使用者組織的會議發起的 PSTN 外接通話。 如果貴組織未定義全域語音路由策略，您必須定義一個策略，才能從貴組織中使用者組織的會議，將外線通話路由至 PSTN。 請注意，貴組織的全域語音路由原則也適用于貴組織中使用者對 PSTN 撥打的一對一通話。 如果貴組織的使用者已啟用一對一的 PSTN 通話，請確定全域語音路由策略符合貴組織在這兩種類型的通話需求。 
+從貴組織中使用者組織的會議撥打到 PSTN 的外發通話路由，是由貴組織的全域語音路由策略所定義。 如果貴組織已定義全域語音路由策略，請確認全域語音路由策略允許從貴組織中使用者組織的會議發起的 PSTN 外接通話。 如果貴組織未定義全域語音路由策略，您必須定義一個策略，才能從貴組織中使用者組織的會議，將外線通話路由至 PSTN。 請注意，貴組織的全域語音路由原則也適用于貴組織中使用者對 PSTN 撥打的一對一通話。 如果貴組織的使用者已啟用一對一的 PSTN 通話，請確定全域語音路由策略符合貴組織在這兩種類型的通話需求。
 
 > [!NOTE]
 > Location-Based高或 DoD 部署中Microsoft 365 政府社群雲端 (GCC) 路由。 啟用音訊會議時，請確認在 GCC 高或 DoD 環境中未啟用音訊會議使用者Location-Based路由。
@@ -119,7 +119,7 @@ ms.locfileid: "60853947"
   New-CsOnlineVoiceRoute -Identity "International" -NumberPattern ".*" -OnlinePstnGatewayList sbc1.contoso.biz -OnlinePstnUsages "International"
   ```
 
-定義貴組織的新語音路由時，請指定在直接路由組態期間為貴組織定義的一或多個 PSTN 線上 PSTN 閘道。 
+定義貴組織的新語音路由時，請指定在直接路由組態期間為貴組織定義的一或多個 PSTN 線上 PSTN 閘道。
 
 號碼模式會根據通話的目的地電話號碼，指定哪些通話會透過指定的閘道清單路由。 在上例中，全球任何目的地的通話都會符合語音路由。 如果您想要限制可以從貴組織使用者會議撥打的電話號碼，您可以變更號碼模式，讓語音路由只符合目的地的號碼模式。 請注意，如果沒有任何語音路由符合所撥打之通話目的地電話號碼的號碼模式，將不會路由通話。
 
@@ -147,13 +147,13 @@ ms.locfileid: "60853947"
 
 ### <a name="step-5-assign-audio-conferencing-with-direct-routing-for-gcc-high-or-dod-licenses-to-your-users"></a>步驟 5：指派音訊會議與直接路由GCC高或 DoD 授權給使用者
 
-若要將具有直接路由的音訊會議指派GCC高或 DoD 授權給使用者，請參閱指派[授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)。
+若要將具有直接路由的音訊會議指派GCC高或 DoD 授權給使用者，請參閱[指派授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
 ### <a name="step-6-optional-see-a-list-of-audio-conferencing-numbers-in-teams"></a>步驟 6： (選) 查看音訊會議號碼清單Teams
 
 若要查看貴組織的音訊會議號碼清單，請前往 在 Microsoft Teams 中查看[音訊會議號碼Microsoft Teams。](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 
-### <a name="step-7-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>步驟 7： (選擇性) 為貴組織的音訊會議電話撥入號碼設定自動語音處理語言
+### <a name="step-7-optional-set-auto-attendant-languages-for-the-audio-conferencing-dial-in-numbers-of-you-organization"></a>步驟 7： (選) 為貴組織的音訊會議電話撥入號碼設定自動語音處理語言
 
 若要變更貴組織音訊會議撥入號碼的語言，請參閱在 Microsoft Teams 中設定音訊會議[自動語音Microsoft Teams。](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
 

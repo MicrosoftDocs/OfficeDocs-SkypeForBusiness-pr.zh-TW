@@ -1,7 +1,7 @@
 ---
 title: 設定音訊會議的 PIN 碼長度
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解 PIN 長度和需求的參數，並瞭解如何在 Microsoft Teams 中設定會議長度。
-ms.openlocfilehash: 3b50c555121e960ddf350e8c28079552a5589f9f
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: c08be6e0bd66677c1459cb829dc21c749efceffd
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537234"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055883"
 ---
 # <a name="set-the-pin-length-for-audio-conferencing-meetings-in-microsoft-teams"></a>在會議中設定音訊會議會議的 PIN 長度Microsoft Teams
 
@@ -40,38 +40,37 @@ ms.locfileid: "60537234"
   
 ## <a name="setting-the-pin-length"></a>設定 PIN 長度
 
- **使用 Microsoft Teams 系統管理中心**
+使用 Microsoft Teams系統管理中心：
 
-1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。 
+1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。
 
-2. 在 [會議橋接器 **」** 頁面頂端，按一下 [**橋接器** 設定。 
+2. 在 [會議橋接器 **」** 頁面頂端，按一下 [**橋接器** 設定。
 
 3. 在橋接器 **設定窗格中** 的 **PIN 長度** 下，選取 PIN 的位數。
 
 4. 按一下 [儲存]。
 
 > [!NOTE]
-> PIN 與會議 ID 不同。 當來電者加入會議時，會使用會議 ID。 它們是用來識別會議。 PIN 是用來驗證來電者為會議召集人。 
+> PIN 與會議 ID 不同。 當來電者加入會議時，會使用會議 ID。 它們是用來識別會議。 PIN 是用來驗證來電者為會議召集人。
 
 ## <a name="want-to-know-more-about-pin-settings"></a>想要進一瞭解 PIN 設定嗎？
 
 - PIN 可以是 4 到 12 位數;預設值為 5。 數位只有在建立 PIN 時才能使用。 不會使用字母和特殊字元。
-    
+
 - 只有當會議Microsoft Teams使用者尚未開始會議時，才需要 PIN。 如果每個人都撥入會議，會議召集人必須輸入 PIN 才能開始會議。
-    
-- PIN 安全性設定會適用于與 Microsoft 橋接器相關聯的所有電話號碼。 這些將會適用于使用與特定橋接器相關聯的電話號碼的所有會議。 
-    
+
+- PIN 安全性設定會適用于與 Microsoft 橋接器相關聯的所有電話號碼。 這些將會適用于使用與特定橋接器相關聯的電話號碼的所有會議。
+
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
 
-Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個任務時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
-    
-  - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
-如要進一Windows PowerShell，請參閱[powerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams以瞭解更多資訊。
-    
-  
+Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+
+- [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+
+- [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
+有關此Windows PowerShell，請參閱Microsoft Teams [PowerShell 參考](/powershell/module/teams/?view=teams-ps)以瞭解更多資訊。
+
 ## <a name="related-topics"></a>相關主題
 
 [嘗試或購買音訊會議Microsoft 365或Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

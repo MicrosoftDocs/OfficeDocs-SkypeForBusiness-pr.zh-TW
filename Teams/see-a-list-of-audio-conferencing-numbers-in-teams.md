@@ -1,7 +1,7 @@
 ---
 title: 查看音訊會議的號碼清單
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中尋找音訊會議可用的電話撥入式Microsoft Teams。
-ms.openlocfilehash: 09eef2b2aac4bd6bd0b1eb7ea3d4f9cb3296008c
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 233b9817ca2c7d065af360b6aa3a2767159a7c49
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536684"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055903"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>在清單中查看音訊會議號碼Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "60536684"
   
  **想要尋找價格嗎？** 在 **音訊會議中查看** 音訊會議 [費率區段](https://www.microsoft.com/microsoft-teams/audio-conferencing)。
   
-如果貴組織只有一個可用的電話號碼，它會做為所有使用者的預設號碼。 當有多個電話號碼可用時，您可以選取每個使用者的預設電話號碼。 此預設號碼會包含在Microsoft Teams邀請中。
+如果貴組織中只有一個電話號碼可用，它會做為所有使用者的預設號碼。 當有多個電話號碼可用時，您可以選取每個使用者的預設電話號碼。 此預設號碼會包含在會議邀請Microsoft Teams中。
   
 您可以看見設定 [邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md) ，以變更單一使用者的撥入電話號碼。
 
@@ -44,21 +44,21 @@ ms.locfileid: "60536684"
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>若要查看您的音訊會議電話號碼
 
- **使用 Microsoft Teams 系統管理中心**
+使用 Microsoft Teams系統管理中心：
 
-1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。 
+1. 在左側流覽中，前往 **會議**  >  **會議橋接器**。
 2. 查看音訊會議可用的電話號碼。
 
 - 您也可以查看音訊會議自動語音機使用的位置和主要語言。
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>想要進一Windows PowerShell？
 
-Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個任務時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
-    
-  - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
+Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+
+- [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+
+- [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
 如要進一Windows PowerShell，請參閱[powerShell](/powershell/module/teams/?view=teams-ps) Microsoft Teams以瞭解更多資訊。
   
 ## <a name="related-topics"></a>相關主題

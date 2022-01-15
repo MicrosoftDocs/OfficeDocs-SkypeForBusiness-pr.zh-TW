@@ -1,7 +1,7 @@
 ---
 title: 音訊會議按分鐘計費
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, oscarr
 ms.topic: conceptual
@@ -22,55 +22,51 @@ f1.keywords:
 ms.custom:
 - Licensing
 - seo-marvel-mar2020
-description: 瞭解使用 Microsoft 大量授權的組織啟用音訊會議功能的每分鐘付費選項。
-ms.openlocfilehash: fcad09e00c106b38ad5f5a42add2e01b011c04ed
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+description: 瞭解使用 Microsoft 大量授權為組織啟用音訊會議功能的每分鐘付費選項。
+ms.openlocfilehash: 5aa2b31833f0ee2b3b32a4c849436012aa9c5ccc
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432675"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055503"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>音訊會議按分鐘計費
 
 除了標準的每個使用者音訊會議授權之外，大量和授權組織也可以選擇每分鐘付費優惠，為組織啟用音訊會議功能。
   
-
 您可以瞭解您的國家 [/地區是否支援](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) 音訊會議。
 
-  
 > [!NOTE]
-> 由於此優惠僅適用于大量和授權客戶，您必須與您的帳戶代表合作以取得這些授權。 
+> 由於此優惠僅適用于大量和授權客戶，您必須與您的帳戶代表合作以取得這些授權。
   
 ## <a name="need-some-details"></a>需要一些詳細資料嗎？
 
-音訊會議每使用者授權方案包含電話撥入使用量和部分撥出使用量，而音訊會議按分鐘付費可讓您每分鐘支付所有音訊會議使用量，而不需要支付每個使用者的每月授權 **費用。** 這樣一來，所有撥入和撥出電話都會以每分鐘計費，包括：
+音訊會議每個使用者授權方案包含撥入使用方式和一些撥出使用量，而音訊會議付費方案可讓您每分鐘支付所有音訊會議使用量，而不需要支付每個使用者的每月授權 **費用。** 這樣一來，所有撥入和撥出電話都會以每分鐘計費，包括：
   
 - 撥打貴組織音訊會議號碼的來電。
-    
+
 - 撥打貴組織的免付費音訊會議號碼。
-    
+
 - 從貴組織會議撥打給外部電話號碼的外寄電話。
-    
+
 > [!NOTE]
 > 您可以在音訊會議中查看音訊會議中的音訊會議費率區段，以找到與這類通話相關聯的撥入和撥出[費率](https://www.microsoft.com/microsoft-teams/audio-conferencing)。
-  
-  
+
 每分鐘付費要求貴組織設定 [通訊](what-are-communications-credits.md) 信用額度。 如果您想要更多詳細資料，請參閱為[](set-up-communications-credits-for-your-organization.md)貴組織設定通訊信用額度和/或Microsoft Teams[附加元件授權](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
 
-  
-若要為貴組織的使用者啟用音訊會議每分鐘付費，請參閱在 Microsoft Office 365 或 Office 365 中試用或[購買音訊Office 365。](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
+若要為貴組織的使用者啟用音訊會議每分鐘付費，請參閱在 Microsoft Office 365 或 Office 365 中試用或[購買音訊會議](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)。
 
 ## <a name="why-is-it-best-for-you"></a>為什麼最適合您？
 
-- 每一位出席者在排定會議期間所撥打的每一個傳入或外寄電話 (費率會視通話費用或免付費通話和目的地) 而異，而不是在行動裝置或 PC 中使用 商務用 Skype 或 Teams 應用程式，以每分鐘付費。
+- 每一位出席者在排定會議期間所撥打的每一個傳入或外寄電話 (費率會因付費或免付費通話和目的地) 而異，而不是在行動裝置或 PC 中使用 商務用 Skype 或 Teams 應用程式，以每分鐘付費。
 
-- 管理成本的能力，因為系統管理員可以控制從召集人的會議 (國際和國內) 撥出類型。 請參閱[音訊會議與使用者 PSTN](./outbound-calling-restriction-policies.md)通話的外發通話限制政策
+- 管理成本的能力，因為系統管理員可以控制從召集人的會議 (國際) 撥出類型。 請參閱[音訊會議與使用者 PSTN](./outbound-calling-restriction-policies.md)通話的外發通話限制政策
 
 - 如果您有音訊會議按分鐘付費授權，則不必將通訊信用額度授權個別指派給每個使用者，特別是音訊會議使用量 (您可能仍然需要指派這些授權給其他服務) 。
 
 - 使用通訊信用額度控制及監控每分鐘付費。
 
-- 針對不需要所有使用者訂閱的客戶，在價格方面擁有更大的彈性。 
+- 針對不需要訂閱所有使用者的客戶，在價格方面擁有更大的彈性。
 
 - 啟用音訊會議按分鐘付費，以及每月訂閱 E5 或獨立音訊會議訂閱，這兩項服務會繼續以相同方式工作。 變更對音訊會議或通訊信用額度的運作沒有影響。
   
@@ -79,13 +75,11 @@ ms.locfileid: "59432675"
  **想要尋找價格嗎？** 請參閱下列專案：
 
 - [音訊會議的定價](https://www.microsoft.com/microsoft-teams/audio-conferencing)
-    
+
 - [電話系統的定價](https://www.microsoft.com/microsoft-teams/voice-calling )
-    
-- [通話方案的價格](https://www.microsoft.com/microsoft-teams/voice-calling)
-    
+
+- [通話方案價格](https://www.microsoft.com/microsoft-teams/voice-calling)
+
 ## <a name="related-topics"></a>相關主題
   
 [Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
-  
-  

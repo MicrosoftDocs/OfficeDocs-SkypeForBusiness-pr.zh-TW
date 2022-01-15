@@ -1,8 +1,8 @@
 ---
 title: 外線通話限制 - PSTN 通話&音訊會議
 ms.reviewer: ''
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 系統管理員可以控制使用者可撥打的音訊會議和使用者 PSTN 通話類型。
-ms.openlocfilehash: 7f1ec4886c1e1ede22c280091f2ebce9965b6d3b
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 39a51c1fdf6bbb7597b255fc5879a4d7a77be2db
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766236"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055173"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音訊會議和使用者 PSTN 通話的撥出通話限制原則
 
@@ -42,25 +42,24 @@ ms.locfileid: "61766236"
 若要瞭解哪些國家和地區被視為區域 A，請參閱音訊會議的國家和地區 [區域](audio-conferencing-zones.md)。
 
    > [!NOTE]
-   > 如果撥打的號碼位於會議 Microsoft 365 或 Office 365 的相同國家/地區，若是音訊會議) ，則會議 (或使用者 (在使用者 PSTN 通話) 的情況下，則視為國內通話。
+   > 如果撥打的號碼位於會議 (的召集人已設定 Microsoft 365 或 Office 365 的同一個國家/地區，或使用者) 的情況下，在使用者 PSTN 通話) 的情況下 (則通話會視為國內通話。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>限制音訊會議輸出通話
 
-**使用 Microsoft Teams 系統管理中心**
+### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
 1. 在左側導覽中， **選取使用者**，然後從可用使用者清單中選取使用者的顯示名稱。
 
-3. 在音訊 **會議旁邊，選取****編輯**。
+2. 下一個前往 **音訊會議，選取****編輯**。
 
-4. 在 **會議撥出下**，選取您想要的撥出限制選項。
+3. 在 **會議撥出下**，選取您想要的撥出限制選項。
 
-5. 選取 [儲存 **]**。
+4. 選取 [儲存 **]**。
 
-
-**使用 PowerShell**
+### <a name="using-powershell"></a>使用 PowerShell
 
 輸出通話限制是由稱為 OnlineDialOutPolicy 的單一策略控制，每個策略都有一個限制屬性。 無法自訂該策略，而是每個設定組合都有預先定義的策略實例。
 

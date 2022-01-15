@@ -22,12 +22,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 瞭解在 Microsoft Teams 會議室 中提供不同類型的通話和會議功能Microsoft Teams 會議室。
-ms.openlocfilehash: 7b7bea86d414f24686dce4ffab1a91333476069f
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 05e7b0c3f8cb6f31e84ef16ad0ff23039da26b14
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306148"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056053"
 ---
 # <a name="teams-meeting-room-licensing-update"></a>Teams 會議室授權更新
 
@@ -71,6 +71,10 @@ Microsoft 有兩個專用的 SKUs，可針對會議室裝置 (例如 Microsoft T
 
 
 > [!NOTE]
-> 如果您為會議室系統指派了現有的授權，這些授權將會繼續使用，而不會中斷。 您應該在現有的授權到期會議室使用 SKU。  
+> 
+> 如果您為會議室系統指派了現有的使用者授權 (例如 E3 或 E5) ，這些授權會繼續使用而不會中斷。 不過，若要符合未來的變更，您必須在指派的使用者授權到期會議室移至其他授權。
+> 
 
  另請參閱[很棒的會議室體驗：認識新的Microsoft Teams 會議室標準版進階版。](https://www.microsoft.com/en-us/microsoft-365/blog/2020/07/21/microsoft-teams-meetings-hybrid-workplace-options/)
+
+ 您可以閱讀[設定公用區域電話授權Microsoft Teams](../set-up-common-area-phones.md)以進一Microsoft Teams一般地區電話授權的資訊。

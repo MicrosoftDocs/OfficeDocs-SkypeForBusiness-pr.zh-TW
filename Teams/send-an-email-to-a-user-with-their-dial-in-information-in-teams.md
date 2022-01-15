@@ -1,7 +1,7 @@
 ---
 title: 以電子郵件將使用者的音訊會議資訊電子郵件
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,24 +22,23 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中傳送包含其音訊會議資訊的電子郵件。
-ms.openlocfilehash: c268c475e254bcac9a4eb579bc971705d68698aa
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 6dbd0f0001472e49bd0940cc18440550972a2c5c
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536674"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056033"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>將電子郵件傳送給使用者，並將他們的音訊會議資訊傳送Microsoft Teams
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>將電子郵件傳送給使用者，並將他們的音訊會議資訊Microsoft Teams
 
 有時候Microsoft Teams使用者可能需要您傳送音訊會議資訊給他們。 您可以按一下使用者屬性下的透過 **電子郵件** 傳送會議資訊，以執行此操作。 當您傳送此電子郵件時，它會包含所有音訊會議資訊，包括：
   
 - 使用者的會議電話或撥入電話號碼。
-    
+
 - 使用者的會議 ID。
-    
-   
+
 以下是所寄電子郵件的範例：
-  
+
 ![電話撥入式會議電子郵件訊息範例。](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
@@ -47,9 +46,9 @@ ms.locfileid: "60536674"
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>傳送包含音訊會議資訊的電子郵件給使用者
 
-###  <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
+### <a name="sending-an-email-using-the-microsoft-teams-admin-center"></a>使用系統管理中心傳送Microsoft Teams電子郵件
 
-1. 在左側導覽中， **按一下 [使用者**」，然後從可用使用者清單中選取使用者。
+1. 在左側導覽中， **按一下 [使用者**，然後從可用使用者清單中選取使用者。
 
 2. 按一下頁面頂端的 [ **編輯>**。
 
@@ -58,17 +57,17 @@ ms.locfileid: "60536674"
 ## <a name="what-else-should-you-know-about-this-email"></a>關於此電子郵件，您還需要知道什麼？
 
 - 啟用音訊會議後，會將數封電子郵件寄給貴組織的使用者：
-    
+
   - 當 **音訊會議授權** 指派給他們時。
-    
+
   - 當您手動重設使用者的音訊會議 PIN 時。
-    
+
   - 當您手動重設使用者的會議 ID 時。
-    
+
   - 移除 **音訊會議** 授權時。
-    
+
   - 當使用者的音訊會議提供者從 Microsoft 變更為另一個提供者或無 **時**。
-    
+
   - 當使用者的音訊會議提供者變更為 Microsoft 時。
   
 ## <a name="related-topics"></a>相關主題

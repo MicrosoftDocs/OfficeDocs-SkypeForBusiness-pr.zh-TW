@@ -1,7 +1,7 @@
 ---
 title: 設定邀請中包含的電話號碼
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,16 +22,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 請按照下列步驟建立預設電話號碼，讓來電者加入Microsoft Teams會議。
-ms.openlocfilehash: bef8575e1e799c63159bec5cbfb06c80f4af6c83
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: d1bce310424fb30ef8e76dde60003e97973630ec
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536744"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055443"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>設定邀請中包含的電話號碼Microsoft Teams
 
-在會議Microsoft 365音訊Office 365可讓貴組織的使用者Microsoft Teams會議，然後允許使用者使用電話撥入這些會議。
+Microsoft 365 Office 365中的音訊會議可讓貴組織的使用者Microsoft Teams會議，然後允許使用者使用電話撥入這些會議。
   
 會議橋接器會提供您組織的一組撥入電話號碼。 所有會議都可以用來加入會議召集人已建立的會議，但您可以選取哪些會議邀請會包含在會議邀請中。
   
@@ -47,11 +47,9 @@ ms.locfileid: "60536744"
 
 對於新使用者，預設會議付費號碼會根據使用者啟用音訊會議服務時在 Microsoft 365 系統管理中心中設定的使用位置來指派。 如果會議橋接器中的付費號碼符合使用者的國家/地區，該號碼會自動指派為使用者的預設付費號碼。 如果沒有號碼，則定義為會議橋接器預設付費號碼的號碼會指派為使用者的預設付費號碼。  
 
-使用者啟用音訊會議服務後，使用者的預設付費和免付費電話號碼隨時都可以由租使用者系統管理員從初始值變更。
+使用者啟用音訊會議服務後，租使用者系統管理員隨時都可以從使用者的初始值變更使用者的預設付費和免付費電話號碼。
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>設定或變更會議召集人或使用者的預設音訊會議電話號碼
-
- **使用 Microsoft Teams 系統管理中心**
 
 您必須是 Teams 服務系統管理員才能進行這些變更。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
 
@@ -70,11 +68,11 @@ ms.locfileid: "60536744"
 5. 使用 **付費號碼** 或 **免付費號碼欄位** 輸入使用者的數位。
 
 > [!IMPORTANT]
-> 當您變更使用者的音訊會議設定時，週期性Microsoft Teams會議必須更新併發送給出席者。
+> 當您變更使用者的音訊會議設定時，必須更新週期性Microsoft Teams未來的會議，併發送給出席者。
 
 ## <a name="want-to-use-windows-powershell"></a>想要使用Windows PowerShell
 
-Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個任務時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
 
 - [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 

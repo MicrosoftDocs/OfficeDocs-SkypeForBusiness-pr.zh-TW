@@ -3,8 +3,8 @@ title: 設定音訊會議設定 - Microsoft Teams
 ms.reviewer: ''
 description: 使用這些部署資源幫助您在 Microsoft Teams中，將音訊會議做為會議工作負載的一部分推出。
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
+author: MicrosoftHeidi
+ms.author: heidip
 manager: serdars
 audience: admin
 ms.date: 01/28/2019
@@ -21,12 +21,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8467132a365fcfdf105859a3404a4a63f4f1a67d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3ede4a0721bacb9c4feb996d58ab01327c13dfd
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617469"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055853"
 ---
 # <a name="learn-how-to-deploy-audio-conferencing-in-microsoft-teams"></a>了解如何在 Microsoft Teams 中部署音訊會議
 
@@ -38,8 +38,7 @@ ms.locfileid: "58617469"
 
 您只需要為打算排程或主持會議的人員設定音訊會議即可。 撥入的會議出席者不需獲得任何指派的授權或進行任何其他設定。 撥入 (撥號) 會議對於不在現場且無法在其筆記本電腦或行動裝置上使用商務用 Skype 或 Teams 應用程式的使用者而言，是很實用的功能。 
 
-
-## <a name="audio-conferencing-prerequisites"></a>音訊會議的必要條件 
+## <a name="audio-conferencing-prerequisites"></a>音訊會議的必要條件
 
 您必須先考量下列問題，才可推出 Teams 的音訊會議：
 
@@ -50,15 +49,13 @@ ms.locfileid: "58617469"
 |對於獲得音訊會議授權的使用者，我是否需要為他們購買通訊點數？|若要深入了解，請參閱[什麼是通訊點數](what-are-communications-credits.md)，然後查看下方的[通訊點數](#communications-credits) 一節。|
 |||
 
-
 ## <a name="core-deployment-decisions"></a>核心部署決策
 
 符合音訊會議先決條件之後，請完成下列工作以為您的使用者設定音訊會議。
 
-
 ### <a name="teams-administrators"></a>Teams 系統管理員
 
-Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。這些角色為系統管理員提供了多種能力。 
+Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。這些角色為系統管理員提供了多種能力。
 
 | 問問自己 | 動作 |
 |--------------|--------|
@@ -80,7 +77,6 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 |需要連接埠號碼搭配音訊會議使用嗎？|如需連接埠號碼的詳細資訊，請參閱[將電話號碼移轉至 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)。|
 |||
 
-
 ### <a name="default-and-alternate-languages"></a>預設和替代語言
 
 Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
@@ -90,9 +86,9 @@ Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
 | 自動語音應答問候語應選擇哪些語言？ | 若要選擇語言，請參閱[設定音訊會議的自動語音應答語言](/SkypeForBusiness/audio-conferencing-in-office-365/set-auto-attendant-languages-for-audio-conferencing?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)。|
 |||
 
-### <a name="conferencing-bridge-settings"></a>會議橋接器設定 
+### <a name="conferencing-bridge-settings"></a>會議橋接器設定
 
-設定會議橋接 (包括預設和替代語言) 後，您應確認預設設定 (例如，進入/退出通知和 PIN 長度) 就是您要使用的設定。如果不是，您可加以變更。 
+設定會議橋接 (包括預設和替代語言) 後，您應確認預設設定 (例如，進入/退出通知和 PIN 長度) 就是您要使用的設定。如果不是，您可加以變更。
 
 |問問自己|動作 |
 |------------|-------|
@@ -120,13 +116,11 @@ Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
 |需要設定自動儲值金額嗎？|若要設定自動儲值金額，請參閱[設定貴組織的通訊點數](set-up-communications-credits-for-your-organization.md)。|
 |||
 
-
-
 ## <a name="additional-deployment-decisions"></a>其他部署決策
 
 根據組織的需求和組態而定，您可能會想要變更這些設定。
 
-### <a name="outbound-calling-restriction-policies"></a>撥出通話限制原則 
+### <a name="outbound-calling-restriction-policies"></a>撥出通話限制原則
 
 身為系統管理員，您可以使用撥出通話控制來限制組織中的使用者可進行的音訊會議類型和終端使用者 PSTN 通話類型。
 
@@ -134,7 +128,6 @@ Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
 |------------|-------|
 | 要限制允許的撥出通話類型嗎？ | 若要限制撥出通話，請參閱[音訊會議和使用者 PSTN 通話的撥出通話限制原則](outbound-calling-restriction-policies.md)。|
 |||
-
 
 ### <a name="dial-plans"></a>撥號對應表
 
@@ -148,17 +141,17 @@ Teams 音訊會議可讓您設定會議橋接器的預設和替代語言。
 |哪些使用者需要自訂的撥號對應表，以及應指派給每個使用者何種租用戶撥號對應表？|若要使用 PowerShell 將使用者新增至自訂撥號對應表，請參閱 [建立及管理撥號對應表](create-and-manage-dial-plans.md)。|
 |||
 
-### <a name="troubleshoot-meeting-and-call-quality"></a>對會議和通話品質進行疑難排解 
+### <a name="troubleshoot-meeting-and-call-quality"></a>對會議和通話品質進行疑難排解
 
-Teams 有兩種方式可供您監視和疑難排解通話品質問題：[通話分析和通話品質儀表板](monitor-call-quality-qos.md)。 通話分析能顯示每位使用者在特定通話和會議的裝置、網路和連線詳細資訊。 通話分析的設計目的在於協助系統管理員和支援人員疑難排解特定通話的通話品質問題，而通話品質儀表板的設計目的則是在協助系統管理員和網路工程師最佳化網路。 通話品質儀表板的重點不在特定使用者身上，而是會查看整個 Teams 組織的匯彙資訊。 
+Teams 有兩種方式可供您監視和疑難排解通話品質問題：[通話分析和通話品質儀表板](monitor-call-quality-qos.md)。 通話分析能顯示每位使用者在特定通話和會議的裝置、網路和連線詳細資訊。 通話分析的設計目的在於協助系統管理員和支援人員疑難排解特定通話的通話品質問題，而通話品質儀表板的設計目的則是在協助系統管理員和網路工程師最佳化網路。 通話品質儀表板的重點不在特定使用者身上，而是會查看整個 Teams 組織的匯彙資訊。
 
 |問問自己|動作 |
 |------------|-------|
 | 誰會負責監視及疑難排解通話品質問題？ | 如需疑難排解通話品質問題所需權限等級的相關資訊，請參閱[使用通話分析來疑難排解低劣的通話品質](use-call-analytics-to-troubleshoot-poor-call-quality.md)。|
 |||
 
-
 ## <a name="next-steps"></a>後續步驟
+
 - 組織中音訊會議的[驅動採用率](adopt-microsoft-teams-landing-page.md)。
 - [推出雲端語音](cloud-voice-landing-page.md)
 - 在您的 Teams 初始推出中請包括精選應用程式，例如 Planner。在開始推動 Teams 的採用時，請新增其他[應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md)。
