@@ -21,15 +21,14 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
-- Phone System
-- seo-marvel-apr2020
-description: 瞭解如何在 Microsoft Teams 中為大型組織設定通話佇列，提供問候訊息、等候音樂、重新導向通話及其他功能。
-ms.openlocfilehash: ab5a99802ea9170ece7c1cd8d043b84c2cee452d
-ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
+- Phone System - seo-marvel-apr2020
+description: 瞭解如何在 Microsoft Teams 中為大型組織設定通話佇列，Microsoft Teams提供問候訊息、等候音樂、重新導向通話及其他功能。
+ms.openlocfilehash: c1f1ade144b416668c1512472adfee4a88afb780
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "62039896"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62070971"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -44,11 +43,11 @@ ms.locfileid: "62039896"
 
 - 當其他人在佇列中等候時播放音樂。
 
-- 呼叫路由 - 在 *FIFO (* 中，) 呼叫路由 - 至代理程式。
+- 呼叫路由 - 在 *FIFO (* 中，) 呼叫路由 - 至代理人。
 
 - 處理佇列溢出和超時的選項。
 
-請務必先閱讀自動Teams[](plan-auto-attendant-call-queue.md)和通話佇列的規劃，並遵循開始使用的步驟，然後再遵循本文中的[](plan-auto-attendant-call-queue.md#getting-started)程式。
+請務必先閱讀自動Teams[](plan-auto-attendant-call-queue.md)和通話佇列方案，並遵循開始使用的步驟，然後再遵循本文中的程式[](plan-auto-attendant-call-queue.md#getting-started)。
 
 ## <a name="video-demonstration"></a>影片示範
 
@@ -58,7 +57,7 @@ ms.locfileid: "62039896"
 
 ## <a name="create-the-call-queue"></a>建立通話佇列
 
-若要設定通話佇列，請在系統管理Teams中展開 **[語音** Teams，按一下 [**通話佇列**，然後按一下 [**新增**。
+若要設定通話佇列，請在系統管理中心Teams展開 **[語音** 與通話佇列>，然後按一下[**新增**。
 
 輸入通話佇列的名稱。
 
@@ -68,7 +67,7 @@ ms.locfileid: "62039896"
 
 按一下 **[新增帳戶**，搜尋要用於此通話佇列的資源帳戶;按一下 [ **新增**，然後按一下 [ **新增**> 。  (代理人收到來電時，會看到資源帳戶名稱。) 
 
-請參閱[管理Teams資源](manage-resource-accounts.md)帳戶以瞭解更多資訊。
+詳細資訊，請參閱管理[Teams帳戶](manage-resource-accounts.md)。
 
 ### <a name="assign-calling-id"></a>指派通話識別碼
 
@@ -78,10 +77,10 @@ ms.locfileid: "62039896"
 
 按一下 **[新增**，搜尋您想要允許代理人在撥打外接電話時用於通話識別碼的資源帳戶;按一下 [ **新增**，然後按一下 [ **新增**> 。
 
-如果您不是使用 Teams通道來控制代理人成員資格，請考慮將通話佇列成員的本機號碼直接設定為通話佇列的服務號碼或適當的自動語音回應。 請參閱[在 Microsoft Teams](caller-id-policies.md)管理本機號碼Microsoft Teams以瞭解更多資訊。
+如果您不是使用 Teams通道來控制代理人成員資格，請考慮將通話佇列成員的本機號碼直接設定為通話佇列的服務號碼或適當的自動語音回應。 詳細資訊，請參閱在 Microsoft Teams[中管理來電Microsoft Teams。](caller-id-policies.md)
 
 > [!NOTE]
-> 用於通話識別碼的資源帳戶必須Microsoft 365 電話系統虛擬使用者授權，並指派下列其中一項：
+> 用於通話識別碼的資源帳戶必須Microsoft Teams 電話系統虛擬使用者授權，並指派下列其中一項：
 >
 > - 已指派通話方案授權和電話號碼
 > - 已指派連線電話號碼的接線員
@@ -113,11 +112,11 @@ Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams
 
 ##### <a name="teams-channel"></a>Teams頻道
 
-您可以透過頻道新增最多 200 Teams代理。 請注意，您必須是團隊的成員或頻道的建立者或擁有者，以將頻道新增到佇列。
+您可以透過頻道新增最多 200 Teams代理程式。 您必須是團隊的成員，或是頻道的建立者或擁有者，以將頻道新增到佇列。
 
-如果您想要使用頻道 [Teams](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)佇列，請選取 [選擇團隊選項，然後按一下 [**新增頻道**> 。  搜尋您想要使用的團隊，選取該團隊，然後按一下 [ **新增**。 選取您 (只支援標準頻道的) ，然後按一下 **[) 。** 
+如果您想要使用頻道 [管理](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)Teams，請選取 [選擇團隊選項，然後按一下 [**新增頻道**> 。  搜尋您想要使用的團隊，選取該團隊，然後按一下 [ **新增**。 選取您 (只支援標準頻道的頻道，) [ **申請**> 。 
 
-在通話佇列使用Teams用戶端時，支援下列用戶端： 
+在通話佇列使用Teams支援下列用戶端： 
 
   - Microsoft Teams Windows用戶端
   - Microsoft Teams Mac 用戶端
@@ -202,7 +201,7 @@ Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams
 
 **佇列中的通話上限** 會指定在任何指定時間可在佇列中等候的通話數上限。 預設值為 50，但範圍從 0 到 200。 達到此限制時，通話會依照達到通話次數上限設定所 **指定的方式處理** 。
 
-您可以選擇中斷通話，或重新導向到任何通話路由目的地。 例如，您可能讓來電者為佇列中的代理人留下語音信箱。 如需外部傳輸，請參閱先決條件和外部[](plan-auto-attendant-call-queue.md#prerequisites)電話號碼傳輸[- 數位](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)格式的技術詳細資料。
+您可以選擇中斷通話，或重新導向到任何通話路由目的地。 例如，您可能讓來電者為佇列中的代理人留下語音信箱。 有關外部傳輸，請參閱 [先決條件](plan-auto-attendant-call-queue.md#prerequisites) 和 [外部電話號碼傳輸 - 數位](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 格式的技術詳細資料。
 
 > [!NOTE]
 > 如果通話數上限設為 0，則問候語訊息將不會播放。
@@ -232,31 +231,74 @@ Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams
 
   - 商務用 Skype桌面用戶端 2016 (32 位和 64 位版本) 
   - Lync 桌面用戶端 2013 (32 位和 64 位版本) 
-  - 支援所有 IP 電話Microsoft Teams。 請參閱[取得適用于線上商務用 Skype手機](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。
+  - 支援所有 IP 電話Microsoft Teams。 請參閱[取得適用于 商務用 Skype Online 的電話](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。
   - Mac 商務用 Skype用戶端 (版本 16.8.196 及更新版本) 
   - Android 商務用 Skype用戶端 (版本 6.16.0.9 及更新版本) 
   - iPhone 商務用 Skype用戶端 (版本 6.16.0 及更新版本) 
   - iPad 商務用 Skype用戶端 (版本 6.16.0 及更新版本) 
   - Microsoft Teams Windows 32 位 (64 位版本的用戶端) 
   - Microsoft Teams Mac 用戶端
-  - Microsoft Teams[虛擬](/microsoftteams/teams-for-vdi)桌面基礎結構 (Windows虛擬桌面、Citrix 和 V1 版 V1) 
+  - Microsoft Teams[虛擬](/microsoftteams/teams-for-vdi)桌面基礎結構 (Windows虛擬桌面、奇思和 V3 應用程式) 
   - Microsoft Teams iPhone應用程式
   - Microsoft Teams Android 應用程式
 
     > [!NOTE]
-    > 指派直接路由號碼的通話佇列不支援商務用 Skype、Lync 用戶端或 IP 電話商務用 Skype代理。 系統Teams用戶端僅支援共同存在模式 ，只有 Teams[模式](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
+    > 指派直接路由號碼的通話佇列不支援商務用 Skype、Lync 用戶端或 IP 電話商務用 Skype代理。 Teams用戶端僅支援只有 Teams[共存模式](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
 
 ## <a name="call-queue-cmdlets"></a>通話佇列 Cmdlet
 
-您也可以使用Windows PowerShell來建立和設定通話佇列。 以下是您用於管理通話佇列的 Cmdlet。
+Windows PowerShell可讓您透過命令列以批次或程式設計的方式建立和管理通話佇列。
 
-- [New-CsCallQueue](/powershell/module/skype/new-CsCallQueue)
+下列 Cmdlet 允許您管理通話佇列：
 
-- [Set-CsCallQueue](/powershell/module/skype/set-CsCallQueue)
+- [New-CsCallQueue](/powershell/module/skype/New-CsCallQueue)
+- [Get-CsCallQueue](/powershell/module/skype/Get-CsCallQueue)
+- [Set-CsCallQueue](/powershell/module/skype/Set-CsCallQueue)
+- [Remove-CsCallQueue](/powershell/module/skype/Remove-CsCallQueue)
 
-- [Get-CsCallQueue](/powershell/module/skype/get-CsCallQueue)
+管理將用於通話佇列的使用者、資源帳戶、Microsoft Teams 電話授權、電話號碼、音訊檔案和支援的語言，還需要下列其他 Cmdlet：
 
-- [Remove-CsCallQueue](/powershell/module/skype/remove-CsCallQueue)
+使用者/Teams
+
+- 使用者
+- - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+
+- Teams： 
+- - [Get-Team](/powershell/module/teams/Get-Team)
+- - [Get-TeamChannel](/powershell/module/teams/Get-TeamChannel)
+
+資源帳戶：
+
+- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
+- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
+- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
+- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
+
+- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
+- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
+
+虛擬Teams 電話授權：
+
+- [Set-MsolUserLicense](/powershell/module/skype/Set-MsolUserLicense)
+
+電話數位指派：
+
+- [Set-CsOnlineVoiceApplicationInstance](/powershell/module/skype/Set-CsOnlineVoiceApplicationInstance)
+
+音訊檔案
+
+- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
+- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
+- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
+
+支援語言清單
+
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+
+有關使用 PowerShell 建立通話佇列的逐步指南，請參閱使用 [PowerShell Cmdlet 建立通話佇列](create-a-phone-system-call-queue-via-cmdlets.md)
 
 ## <a name="call-queue-diagnostic-tool"></a>通話佇列診斷工具
 
@@ -278,7 +320,3 @@ Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams
 [取得服務電話號碼](getting-service-phone-numbers.md)
 
 [音訊會議與通話方案的適用國家/地區](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
-
-[New-CsOnlineApplicationInstance](/powershell/module/skype/new-csonlineapplicationinstance)
-
-[Windows PowerShell 與 Lync Online 的簡介](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)

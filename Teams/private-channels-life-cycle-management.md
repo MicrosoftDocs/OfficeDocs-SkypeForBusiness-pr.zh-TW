@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何使用 API 管理貴Graph頻道。
-ms.openlocfilehash: 25065401216a29e28e0d4aa3f1ad02d071215188
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: b0b915529d9d4bc780215afceead61ebf31e5259
+ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766376"
+ms.lasthandoff: 01/18/2022
+ms.locfileid: "62064869"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>管理私人頻道在 Microsoft Teams
 
-您可以在這裡找到使用 Graph API 管理組織中Teams[頻道](./private-channels.md)所需的指南。
+您可以在這裡找到使用 Graph API 管理Teams[私人](./private-channels.md)通道所需的指引。
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>設定小組成員是否可以建立私人頻道
 
@@ -48,13 +48,20 @@ PATCH /teams/<team_id>
 
 ```Graph API
 POST /teams/{id}/channels
-{ "membershipType": "Private",
-  "displayName": "<Channel_Name>",
-  "members":[{    
-           "@odata.type":"#microsoft.graph.aadUserConversationMember",
-           "user@odata.bind":"https://graph.microsoft.com/users('<user_id>')",
-           "roles":["owner"]
-            }]
+{
+    "membershipType": "Private",
+    "displayName": "<Channel_Name>",
+    "members": [
+        {
+            "@odata.type": "#microsoft.graph.aadUserConversationMember",
+            "user@odata.bind": "https://graph.microsoft.com/v1.0/users('<user_id>')",
+            "roles": [
+                "owner"
+            ]
+        }
+    ]
+}
+            
 ```
 
 ## <a name="get-a-list-of-all-private-channel-messages"></a>取得所有私人頻道訊息的清單
@@ -104,7 +111,7 @@ GET /teams/{id}/channels/{id}/messages/{id}/replies/{id}
     }
     ```
 
-2. 針對您想要取得該 URL 的每個私人SharePoint，請提出下列要求，channel_id &lt; &gt; 頻道識別碼。
+2. 針對您想要取得該 URL 的每個私人SharePoint，請提出下列要求，channel_id &lt; &gt; 為頻道識別碼。
 
     **請求**
 

@@ -17,16 +17,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 將裝置Teams 會議室到受管理服務
 f1keywords: ''
-ms.openlocfilehash: 70209bcd60740f1d1e19b45b215b921396a6f0fd
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a02f47970392d5c428eb2cd76387678c1c2a5ed6
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767464"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62071051"
 ---
 # <a name="monitor-device-software-installation"></a>監控裝置軟體安裝
 
-部署需要將Microsoft Teams 會議室裝置上Microsoft Teams 會議室受管理的服務。 監控服務代理程式適用于經認證的 ROOM Microsoft Teams ROOM (或) 及周邊設備。
+部署需要將Microsoft Teams 會議室裝置上Microsoft Teams 會議室受管理的服務。 監控服務代理程式適用于經認證的 ROOM Microsoft Teams ROOM (或) 。
 
 ## <a name="performing-operations-as-the-admin-user-of-the-mtr-device"></a>以一名管理使用者執行一些操作
 
@@ -58,7 +58,7 @@ ms.locfileid: "61767464"
 ### <a name="adding-proxy-settings-optional"></a>新增 Proxy 設定 (選) 
 
 1. 以系統管理員的管理員使用者執行操作來 [登入](#performing-operations-as-the-admin-user-of-the-mtr-device)。
-1. 在 Windows ***** Search _ field (螢幕) 左下區段，輸入 _ *Cmd** (長按螢幕或向右選取，然後選擇執行為系統管理員) 。 ****  
+1. 在 Windows ***** Search _ 欄位 (畫面左下區段) 輸入 _ *Cmd** (長按螢幕或向右選取，然後選擇執行為系統管理員) 。 ****  
 1. 在命令結尾 (雙引號執行下列命令，) ：
    - 如果使用單 Proxy ***伺服器***：bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL \_ PROXY ： <proxyserver> <port> ""
 
@@ -113,16 +113,16 @@ mmrprodnoamstor.blob.core.windows.net
 1. 在 *自動註冊金鑰下*， **選取下載安裝程式** 超連結 https://aka.ms/serviceportalagentmsi 以下載監控代理程式軟體。
 1. 選取 **下載金鑰**。 將金鑰檔案放在您註冊的每個裝置上的 **C：\Rigel** 資料夾下。  
 1. **選：** 設定代理人的 Proxy 設定;請參閱 [新增 Proxy 設定 (或) 。](#adding-proxy-settings-optional)
-1.  (安裝在步驟 2) 中下載的代理程式安裝程式，方法可以是在一台國道裝置上執行 MSI，或是透過一般方式將 MSI 應用程式發佈至您環境內的裝置 (Group-Policy 等)   
+1.  (安裝在步驟 2) 中下載的代理安裝程式) ，方法可以是在一台國道裝置上執行 MSI，或是透過一般方式將 MSI 應用程式發佈至您環境內的裝置 (Group-Policy 等)   
 1. 會議室在 5-10 分鐘內會出現在入口網站中。 如果沒有，請 managedroomsupport@microsoft.com。  
 
-![圖 5](../media/software-installation-005.jpg)
+![設定和自我註冊金鑰的螢幕擷取畫面。](../media/software-installation-005.jpg)
 
 ## <a name="installation"></a>安裝
 
 從 Microsoft 下載安裝程式 (從入口網站或使用上述 AKA.ms URL) ，解壓縮其內容以存取 **ManagedRoomsInstaller.msi。**
 
-有兩種安裝模式：個別本機電腦安裝與大量部署模式 (通常透過類似方法的群組原則) 。 我們建議您針對非網域連接的電腦或無法遠端執行 MSI 安裝程式的電腦個別安裝。  
+有兩種安裝模式：個別本機電腦安裝和大量部署模式 (通常透過類似方法的群組原則) 。 我們建議您針對非網域連接的電腦或無法遠端執行 MSI 安裝程式的電腦個別安裝。  
 
 由於客戶可在大量部署模式中執行 MSI 應用程式的方式很多，本檔只會在個別模式中進行安裝。  
 
@@ -143,7 +143,7 @@ mmrprodnoamstor.blob.core.windows.net
     這會開始Microsoft Teams 會議室管理服務監視軟體安裝。 系統會顯示以系統管理員 (時) 標的提示。
  1. 選取 ***是***。
 
-    安裝會繼續。 在安裝程式期間，主機視窗會開啟，並開始進行Microsoft Teams 會議室管理服務監視軟體安裝。  
+    安裝會繼續。 在安裝程式期間，主機視窗會開啟，並開始進行最後階段Microsoft Teams 會議室管理服務監視軟體安裝。  
 
     > [!NOTE]
     > 請勿關閉視窗。 安裝完成後，精靈會顯示「完成」按鈕。
@@ -192,7 +192,7 @@ C：\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-
 | :- | :- |
 |<p>您收到錯誤訊息，指出   </p><p>***錯誤：請使用** _ 執行此應用程式 </p><p>_ *_提升許可權_**  </p>|以升級的許可權執行應用程式，然後再試一次  |
 |  |  |
-|<p>您收到錯誤訊息，指出   </p><p>***找不到 TPM 資料***  </p>|請確保您的裝置已在其BIOS 中 (TPM) 平臺模組。 這通常可以在裝置BIOS的安全性設定中找到  |
+|<p>您收到錯誤訊息，指出   </p><p>***找不到 TPM 資料***  </p>|請確保您的裝置已在其BIOS 中開啟 (平臺模組) TPM。 這通常可以在裝置BIOS的安全性設定中找到  |
 |  |  |
 |<p>您收到錯誤訊息  </p><p>` `***錯誤：找不到名為 "admin" 或 "Skype 的當地使用者帳戶***  </p>|確認使用者帳戶存在於經過認證的會議室Microsoft Teams裝置上。  |
 |  |  |
