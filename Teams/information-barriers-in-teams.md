@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bf452893172091d1c534d4a28215b661fd5fe6c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 247f8e1d735bfe331c914da1ec89863b755cf373
+ms.sourcegitcommit: 11061890a64da88d92db3fa43f1bf320b216c355
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767336"
+ms.lasthandoff: 01/21/2022
+ms.locfileid: "62163544"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>中的資訊Microsoft Teams
 
@@ -39,11 +39,11 @@ IB (資訊) 是系統管理員可設定以防止個人或群組彼此通訊的�
 >- 無法跨租使用者建立資訊障礙群組。
 >- 版本 1 不支援使用 bot、Azure Active Directory (Azure AD) 應用程式、API 來傳送活動提要通知，以及一些新增使用者的 API。
 >- 私人頻道符合您設定的資訊障礙政策。
->- 有關連結至SharePoint網站之障礙Teams，請參閱與網站關聯的[Microsoft Teams區段](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
+>- 有關連結至SharePoint網站之障礙Teams，請參閱與網站Microsoft Teams[區段](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 
 ## <a name="background"></a>背景
 
-IB 的主要推動者來自金融服務業。 金融產業監管局 (FINRA) 會審查成員公司內部的 [IBs]( https://www.finra.org) 和利益衝突，並提供管理這類衝突 (FINRA 2241、債券研究法規通知 [15-31](https://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf)的指引。
+IB 的主要推動者來自金融服務業。 金融產業監管局 (FINRA) 會審查成員公司內部的 [IB]( https://www.finra.org) 和利益衝突，並提供管理這類衝突 (FINRA 2241、債券研究法規通知 [15-31](https://www.finra.org/sites/default/files/Regulatory-Notice-15-31_0.pdf)的指引。
 
 不過，自推出 IB 以來，許多其他領域發現它們很有用。 其他常見案例包括：
 
@@ -67,7 +67,7 @@ IB 的主要推動者來自金融服務業。 金融產業監管局 (FINRA) 會�
 
 ## <a name="managing-information-barrier-policies"></a>管理資訊障礙政策
 
-使用 PowerShell Cmdlet 管理 MICROSOFT 365規範中心 (SCC) 管理IB 政策。 詳細資訊，請參閱 [定義資訊障礙的政策](/office365/securitycompliance/information-barriers-policies)。
+使用 PowerShell Cmdlet 在 Microsoft 365合規性中心 (SCC) 管理IB 政策。 詳細資訊，請參閱 [定義資訊障礙的政策](/office365/securitycompliance/information-barriers-policies)。
 
 >[!IMPORTANT]
 >在設定或定義策略之前，您必須在 Microsoft Teams 中啟用範圍目錄Microsoft Teams。 啟用範圍目錄搜尋後，請至少等候數小時，然後再設定或定義資訊障礙的政策。 詳細資訊，請參閱定義 [資訊障礙政策](/office365/securitycompliance/information-barriers-policies#prerequisites)。
@@ -110,7 +110,7 @@ IBM 合規性管理角色負責管理IB 政策。 有關此角色的資訊，請
 
 - 使用者在 **Teams** 中撥打電話：每當使用者透過 VOIP) 啟動語音通話 (給其他使用者或使用者群組時，會評估該通話，以確保該通話不會違反其他小組成員的 IB 原則。 如果有任何衝突，語音通話會封鎖。
 
-- **來賓在 Teams**： IB 原則也適用于Teams中的來賓。 如果貴組織的全域通訊清單中需要可探索來賓，請參閱管理群組中的[來賓Microsoft 365存取](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)權。 一旦來賓可探索，您可以 [定義IB 政策](/office365/securitycompliance/information-barriers-policies)。
+- **來賓在 Teams**： IB 原則也適用于 Teams 中的來賓。 如果貴組織的全域通訊清單中需要可探索來賓，請參閱管理群組中的[來賓Microsoft 365存取](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)權。 一旦來賓可探索，您可以 [定義IB 政策](/office365/securitycompliance/information-barriers-policies)。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>政策變更對現有聊天的影響
 
@@ -128,7 +128,7 @@ IBM 合規性管理角色負責管理IB 政策。 有關此角色的資訊，請
 
     ![顯示使用者聊天已停用的螢幕擷取畫面。](media/ib-after-1-1chat-policy.png)
 
-- 群組聊天：如果不再允許從一個使用者與群組進行通訊 (例如，因為使用者變更了工作) ，使用者與參與違反原則的其他使用者可能會從群組聊天中移除，而且不允許與群組進一步通訊。 使用者仍然可以看到舊的交談，但無法看到或參與與群組的任何新交談。 如果防止通訊的新原則或變更原則已適用于多個使用者，則受原則影響的使用者可能會從群組聊天中移除。 他們還是可以看到舊的交談。
+- 群組 **聊天**：如果不再允許從一個使用者與群組通訊 (例如，因為使用者變更了工作) ，使用者與參與違反原則的其他使用者可能會從群組聊天中移除，而且不允許與群組進一步通訊。 使用者仍然可以看到舊的交談，但無法看到或參與與群組的任何新交談。 如果防止通訊的新原則或變更原則已適用于多個使用者，則受原則影響的使用者可能會從群組聊天中移除。 他們還是可以看到舊的交談。
 
   在此範例中，Enrico 移至組織內部的不同部門，然後從群組聊天中移除。
 
@@ -150,7 +150,7 @@ IBM 合規性管理角色負責管理IB 政策。 有關此角色的資訊，請
 
     ![螢幕擷取畫面Teams提醒使用者，該政策會防止顯示其他使用者的資訊。](media/information-barriers-people-picker.png)
 
-- **活動選項卡**：如果使用者前往封鎖使用者的活動標籤，系統不會顯示任何文章。  (**活動選項卡** 只會顯示頻道文章，而且兩個使用者之間不會有常見的頻道。) 
+- **活動選項卡**：如果使用者前往封鎖使用者的活動標籤，系統不會顯示任何文章。  (**活動選項卡** 只會顯示頻道文章，而且兩個使用者之間沒有常見的頻道。) 
 
     以下是封鎖的活動選項卡視圖範例。
 
@@ -158,7 +158,7 @@ IBM 合規性管理角色負責管理IB 政策。 有關此角色的資訊，請
 
 - **組織結構：** 如果使用者存取的組織結構顯示封鎖的使用者，則封鎖的使用者不會出現在組織結構上。 而是會出現錯誤訊息。
 
-- **人員卡片**：如果使用者參與交談，但使用者稍後被封鎖，其他使用者將游標停留在封鎖的使用者名稱上時，會看到錯誤訊息，而不是人員卡片。 卡片上所列的 (例如通話和聊天) 將無法使用。
+- **人員卡片**：如果使用者參與交談，但使用者稍後被封鎖，其他使用者將游標停留在封鎖的使用者名稱上時，會看到錯誤訊息，而不是人員卡片。 卡片上所列的 (通話和聊天) 將無法使用。
 
 - **建議的連絡人**：封鎖的使用者不會出現在建議連絡人清單 (新使用者的初始連絡人清單中) 。
 
@@ -178,17 +178,17 @@ IBM 合規性管理角色負責管理IB 政策。 有關此角色的資訊，請
 
 - **Skype** 移Teams：從 商務用 Skype 移到 Teams 時，所有使用者 ，甚至是受到 IBM 政策封鎖的使用者，都會移Teams。 然後按照上述方式處理這些使用者。
 
-## <a name="teams-policies-and-sharepoint-sites"></a>Teams策略和SharePoint網站
+## <a name="teams-policies-and-sharepoint-sites"></a>Teams策略與SharePoint網站
 
-建立團隊時，系統會SharePoint網站，並針對檔案體驗Microsoft Teams與網站建立關聯。 根據預設，此網站和檔案SharePoint資訊隔障政策。 若要在 SharePoint 和 OneDrive 中啟用資訊障礙，請遵循使用資訊障礙一文[SharePoint和步驟](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)。
+建立團隊時，系統會SharePoint網站，並針對檔案體驗Microsoft Teams與網站建立關聯。 根據預設，此網站和檔案SharePoint資訊隔障政策。 若要在 SharePoint 中OneDrive資訊障礙，請遵循本文中的使用資訊[SharePoint和步驟](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization)。
 
 ## <a name="information--barrier-modes-and-teams"></a>資訊障礙模式與Teams
 
-資訊障礙模式可協助加強誰可以新增或移除團隊。 使用資訊障礙Teams，支援下列IB 模式：
+資訊障礙模式可協助加強誰可以新增或移除團隊。 當您使用資訊障礙Teams，支援下列IB 模式：
 
 - **開啟**：此組式是啟用資訊障礙之前所布備之所有現有群組的預設 IB 模式。 在此模式中，沒有適用的IB 政策。
 - **隱含**：此組式是在啟用資訊障礙之後布備團隊時的預設IB 模式。 隱含模式可讓您新增群組中所有相容的使用者。
-- **擁有者受管理**：當您想要允許由擁有者管理之不相容的區段使用者之間的共同合作時，此模式是在團隊中設定。 團隊擁有者可以依其 IBM 政策新增成員。
+- **擁有者管理 (** 預覽) ：當您想要允許由擁有者管理之不相容的區段使用者之間共同合作時，此模式是在小組中設定。 團隊擁有者可以依其 IBM 政策新增成員。
 
 Teams租使用者中啟用資訊障礙策略之前建立的資訊，預設會自動設定為 *開啟* 模式。 一旦在租使用者上啟用 IBM 政策，您必須將現有團隊的模式更新為 *[隱含* 模式」，以確保現有團隊符合 IBM 規範。
 
@@ -202,7 +202,7 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 
 若要針對所有現有團隊將模式從 Open 更新為隱含，請使用 [此 PowerShell 腳本](information-barriers-mode-script.md)。
 
-如果您變更現有 Teams 連結群組上的 Open 模式組態，以滿足貴組織的合規性需求，您必須更新與 SharePoint[](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell)小組相關聯的 SharePoint 的 Teams IBM 模式。
+如果您變更現有 Teams 連結群組上的 Open 模式組態，以滿足貴組織的合規性需求，您必須更新與 Teams 小組相關聯的 SharePoint 網站的[IB](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell)模式。
 
 ## <a name="required-licenses-and-permissions"></a>必要的授權和許可權
 
@@ -210,7 +210,7 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 
 ## <a name="known-issues"></a>已知問題
 
-- **使用者無法** 加入臨時會議：如果已啟用 IB 政策，則如果會議名冊的大小大於會議出席限制，則不允許使用者加入 [會議](limits-specifications-teams.md)。 其根本原因是，IBM 檢查取決於是否可以將使用者新加入會議聊天名冊，而且只有當使用者可以加入名冊時，才允許他們加入會議。 一旦加入會議的使用者會將該使用者加入名冊;因此，對於週期性會議，名冊可以快速填入。 一旦聊天名冊達到 [會議出席](limits-specifications-teams.md)限制，就無法將其他使用者新加入會議。 如果貴組織已啟用 IB，且會議聊天名冊已滿 (則新使用者會) 名冊上的使用者無法加入會議。 但如果組織未啟用IB，且會議聊天名冊已滿 (則新使用者 (那些尚未加入名冊) 的使用者可以加入會議，雖然他們看不到會議中的聊天選項。 短期解決方案是從會議聊天名單中移除非使用中成員，為新使用者提供空間。 不過，我們會于日後增加會議聊天名冊的大小。
+- **使用者無法** 加入臨時會議：如果已啟用 IB 政策，則如果會議名冊的大小大於會議出席限制，則不允許使用者加入 [會議](limits-specifications-teams.md)。 其根本原因是，IBM 檢查取決於是否可以將使用者新加入會議聊天名冊，而且只有當使用者可以加入名冊時，才允許他們加入會議。 一旦加入會議的使用者會將該使用者加入名冊;因此，對於週期性會議，名冊可以快速填入。 一旦聊天名冊達到 [會議出席](limits-specifications-teams.md)限制，就無法將其他使用者新加入會議。 如果貴組織已啟用 IB，且會議聊天名冊已滿， (新使用者會) 名冊上的使用者無法加入會議。 但如果組織未啟用IB，且會議聊天名冊已滿，則新使用者 (那些尚未加入名冊) 的使用者可以加入會議，雖然他們看不到會議中的聊天選項。 短期解決方案是從會議聊天名單中移除非使用中成員，為新使用者提供空間。 不過，我們會于日後增加會議聊天名冊的大小。
 - **使用者無法加入頻道會議**：如果已啟用 IB 政策，如果使用者不是團隊的成員，則不允許他們加入頻道會議。 其根本原因是，IBM 檢查取決於是否可以將使用者新加入會議聊天名冊，而且只有當使用者可以加入名冊時，才允許他們加入會議。 頻道會議中的聊天對話僅適用于小組/頻道成員，非成員無法看到或存取聊天對話。 如果貴組織已啟用 IB，且非團隊成員嘗試加入頻道會議，則不允許該使用者加入會議。 不過，如果組織未啟用 IB，且非團隊成員嘗試加入頻道會議，則允許使用者加入會議，但他們不會在會議看到聊天選項。
 - **組織中允許的區** 段數上限：每個組織在設定IB 政策時最多可以設定 100 個區段。 可配置的策略數量沒有限制。
 - **IBM 政策無法適用于** 聯合使用者：如果您允許與外部組織進行聯合，則這些組織的使用者不受 IBM 政策限制。 如果貴組織的使用者加入由外部聯盟使用者組織的聊天或會議，則 IBM 政策也不會限制貴組織使用者之間的通訊。
