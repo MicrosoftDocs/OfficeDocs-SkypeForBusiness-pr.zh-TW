@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft Teams 中為大型組織設定和測試自動Microsoft Teams。
-ms.openlocfilehash: 407d548a58240cb66cecabce01129fc3a7c270ca
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 834ca1b68e64047c6405c2aefba361e0ef4f1e81
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767136"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180956"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動機務員
 
@@ -45,7 +45,7 @@ ms.locfileid: "61767136"
 - **語音應用程式** - 另一個自動語音留言機或通話佇列。  (選擇此目的地時，選擇與自動電話機或通話佇列相關聯的資源帳戶。) 
 - **語音** 信箱 - 與您指定的Microsoft 365群組相關聯的語音信箱。 您可以選擇是否要語音信箱字幕和「請在語音信箱後留言」。 系統提示。
 - **外部電話號碼** - 任何電話號碼。  (請參閱[外部移轉技術詳細資料) 。](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
-- **公告 (音訊)** - 播放音訊檔案。 您上傳的已錄製公告訊息，儲存為音訊。WAV、.MP3或 。WMA 格式。 錄製內容不能大於 5 MB。 系統會播放公告，然後返回自動助理功能表。
+- **音訊 (公告)** - 播放音訊檔案。 您上傳的已錄製公告訊息，儲存為音訊。WAV、.MP3或 。WMA 格式。 錄製內容不能大於 5 MB。 系統會播放公告，然後返回自動助理功能表。
 - **公告 (輸入)** - 在郵件中輸入。 您希望系統讀取的文字。 您最多可以輸入 1000 個字元。 系統會播放公告，然後返回自動助理功能表。
 
 當您設定自動語音機時，系統會提示您于各個階段選擇其中一個選項。
@@ -83,7 +83,7 @@ ms.locfileid: "61767136"
 
 選擇當自動回應接聽來電時，是否要播放問候語。
 
-如果您選取 **播放音訊檔案**，您可以使用 Upload **按鈕** 上傳儲存為音訊的錄製問候語訊息。WAV、.MP3或 。WMA 格式。 錄製內容不能大於 5 MB。
+如果您選取 **播放音訊檔案**，您可以使用 Upload **按鈕上傳** 儲存為音訊的錄製問候語訊息。WAV、.MP3或 。WMA 格式。 錄製內容不能大於 5 MB。
 
 如果您選取輸入 **問候語訊息** ，當自動 (接聽來電時，系統會朗讀您輸入) 最多 1000 個字元的文字。
 
@@ -101,7 +101,7 @@ ms.locfileid: "61767136"
 
 ![撥號鍵選項的螢幕擷取畫面。](media/auto-attendant-call-flow-menu-options-complete.png)
 
-針對撥號選項，將電話鍵臺上的 0-9 鍵指派給其中一個撥號路由目的地。  (系統會 (星號)  () 的按鍵，且無法 \* \# 重新指派。 按下其中一個按鍵會重複目前的功能表。) 
+針對撥號選項，將電話鍵臺上的 0-9 鍵指派給其中一個撥號路由目的地。  (系統會保留 (星號)  () 的按鍵，且無法重新 \* \# 指派。 按下其中一個按鍵會重複目前的功能表。) 
 
 > [!NOTE]
 > # 鍵只會備份到最新的自動助理。 一旦邊界跨越到新的自動助理，# 鍵將無法將您帶往上一個。
@@ -143,13 +143,13 @@ ms.locfileid: "61767136"
 - *X\<extension>*
 
 - 範例 1：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber"+15555555678;ext=5678"
-- 範例 2：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber"+15555555678x5678"
+- 範例 2：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
 - 範例 3：Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
 您可以在系統管理中心或 Microsoft 365 系統管理中心[中Azure Active Directory](https://admin.microsoft.com/)[副檔名](https://aad.portal.azure.com)。 自動電話機和通話佇列最多可能需要 12 小時才能進行變更。
 
 > [!NOTE]
-> 如果您想要同時使用名稱撥號和分機撥號功能，您可以在主自動電話機上指派撥號鍵，以到達啟用名稱撥號 **的自動總機**。 您可以在該自動話務員中指派 1 個按鍵 (沒有與其關聯的字母，) **分機自動** 總機撥號。
+> 如果您想要同時使用名稱撥號和分機撥號功能，您可以在主自動電話機上指派撥號鍵，以到達啟用名稱撥號 **的自動總機**。 您可以在該自動話務員中指派 1 個按鍵 (沒有與其關聯的字母) **分機自動** 總機。
 
 選取目錄搜尋 **選項之後，** 請選取 下 **一步**。
 
@@ -201,7 +201,7 @@ ms.locfileid: "61767136"
 
 撥號 *範圍* 會定義當來電者使用撥號名稱或撥號分機時，哪些使用者可在目錄中使用。 預設為 **所有線上使用者**，包括貴組織的所有使用者，這些使用者都是線上使用者，或是由內部部署使用者商務用 Skype Server。
 
-您可以選取在包含或排除下的自訂使用者群組，並選擇一或多個Microsoft 365群組、通訊群組清單或安全性群組，以包含或排除特定使用者。  例如，您可能會想要將貴組織的主管排除在撥號目錄中。  (如果使用者同時在兩個清單中，他們將排除在目錄中。) 
+您可以選取在包含或排除下的自訂使用者群組，並選擇一或多個Microsoft 365群組、通訊群組清單或安全性群組，以包含或排除特定使用者。  例如，您可能會想要將貴組織的主管排除在撥號目錄中。  (如果使用者同時位於這兩個清單中，就會被排除在目錄中。) 
 
 > [!NOTE]
 > 新使用者最多可能需要 36 小時，才能將名稱列在目錄中。
@@ -228,7 +228,7 @@ ms.locfileid: "61767136"
 
 - 對於具有通話方案授權或[](calling-plans-for-office-365.md)運算子[連線](operator-connect-plan.md)號碼的資源帳戶，外部轉接電話號碼必須以 E.164 格式輸入 (+[國家/地區代碼][區碼][電話號碼]) 。
 
-- 對於具有授權和直接路由線上語音路由電話系統的資源帳戶，外部傳輸電話號碼格式取決於會話邊界控制器 ([SBC](direct-routing-connect-the-sbc.md)) 設定。
+- 對於具有授權和直接Microsoft Teams 電話線上語音路由策略的資源帳戶，外部傳輸電話號碼格式取決於會話邊界控制器[ (SBC](direct-routing-connect-the-sbc.md)) 設定。
 
 顯示的外發電話號碼如下：
 
@@ -239,33 +239,83 @@ ms.locfileid: "61767136"
 
 在混合商務用 Skype環境中，若要將自動通話轉接到 PSTN，請建立一個新的內部部署使用者，將來電轉接設定為 PSTN 號碼。 使用者必須啟用企業語音並指派語音策略。 若要深入瞭解，請參閱[將電話自動轉接到 PSTN。](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
 
-### <a name="create-an-auto-attendant-with-powershell"></a>使用 PowerShell 建立自動助理
+## <a name="auto-attendant-cmdlets"></a>自動傳話 Cmdlet
 
-您也可以使用 PowerShell 建立和設定自動助理。 以下是管理自動話務員所需的 Cmdlet：
+Windows PowerShell可讓您透過命令列以批次或程式設計的方式建立和管理自動助理。
+
+下列 Cmdlet 允許您管理自動話務：
 
 - [New-CsAutoAttendant](/powershell/module/skype/new-csautoattendant)  
-- [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
 - [Get-CsAutoAttendant](/powershell/module/skype/get-csautoattendant)
-- [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
+- [Set-CsAutoAttendant](/powershell/module/skype/set-csautoattendant)
+- [Update-CsAutoAttendant](/powershell/module/skype/update-csautoattendant)
 - [Remove-CsAutoAttendant](/powershell/module/skype/remove-csautoattendant)
-- [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
-- [New-CsOnlineAudioFile](/powershell/module/skype/new-CsOnlineAudioFile)
-- [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
-- [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csorganizationalautoattendantholidays)
 - [New-CsOnlineTimeRange](/powershell/module/skype/new-csonlinetimerange)
 - [New-CsOnlineDateTimeRange](/powershell/module/skype/new-csonlinedatetimerange)
 - [New-CsOnlineSchedule](/powershell/module/skype/New-CsOnlineSchedule)
-- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
-- [New-CsAutoAttendantCallHandlingAsociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
-- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Get-CsAutoAttendantHolidays](/powershell/module/skype/get-csautoattendantholidays)
 - [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
+- [Export-CsAutoAttendantHolidays](/powershell/module/skype/export-csautoattendantholidays)
+- [New-CsAutoAttendantDialScope](/powershell/module/skype/New-CsAutoAttendantDialScope)
+- [New-CsAutoAttendantPrompt](/powershell/module/skype/New-CsAutoAttendantPrompt)
 - [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
+- [New-CsAutoAttendantMenuOption](/powershell/module/skype/New-CsAutoAttendantMenuOption)
+- [New-CsAutoAttendantMenu](/powershell/module/skype/new-csautoattendantmenu)
+- [New-CsAutoAttendantCallFlow](/powershell/module/skype/New-CsAutoAttendantCallFlow)
+- [New-CsAutoAttendantCallHandlingAsociation](/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation)
+- [Get-CsAutoAttendantStatus](/powershell/module/skype/Get-CsAutoAttendantStatus)
+- [Get-CsAutoAttendantTenantInformation](/powershell/module/skype/Get-CsAutoAttendantTenantInformation)
+
+管理將用於通話佇列的使用者、資源帳戶、Microsoft Teams 電話授權、電話號碼、音訊檔案和支援的語言，還需要下列其他 Cmdlet：
+
+使用者/Teams
+
+- 使用者
+- - [Get-CsOnlineUser](/powershell/module/skype/Get-CsOnlineUser)
+
+- Teams： 
+- - [Get-Team](/powershell/module/teams/Get-Team)
+
+資源帳戶：
+
+- [New-CsOnlineApplicationInstance](/powershell/module/skype/New-CsOnlineApplicationInstance)
+- [Find-CsOnlineApplicationInstance](/powershell/module/skype/Find-CsOnlineApplicationInstance)
+- [Get-CsOnlineApplicationInstance](/powershell/module/skype/Get-CsOnlineApplicationInstance)
+- [Set-CsOnlineApplicationInstance](/powershell/module/skype/Set-CsOnlineApplicationInstance)
+- [New-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/New-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociation)
+- [Remove-CsOnlineApplicationInstanceAssociation](/powershell/module/skype/Remove-CsOnlineApplicationInstanceAssociation)
+- [Get-CsOnlineApplicationInstanceAssociationStatus](/powershell/module/skype/Get-CsOnlineApplicationInstanceAssociationStatus)
+
+虛擬Teams 電話授權：
+
+- [Get-MsolAccountSku](/powershell/module/msonline/get-msolaccountsku)
+- [Set-MsolUserLicense](/powershell/module/msonline/set-msoluserlicense)
+
+電話數位指派：
+
+- [Get-CsOnlineTelephoneNumber](/powershell/module/skype/Get-CsOnlineTelephoneNumber)
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)
+
+音訊檔案
+
+- [Get-CsOnlineAudioFile](/powershell/module/skype/Get-CsOnlineAudioFile)
+- [Import-CsOnlineAudioFile](/powershell/module/skype/Import-CsOnlineAudioFile)
+- [Export-CsOnlineAudioFile](/powershell/module/skype/Export-CsOnlineAudioFile)
+- [Remove-CsOnlineAudioFile](/powershell/module/skype/Remove-CsOnlineAudioFile)
+
+支援語言和時區
+
+- [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
+- [Get-CsAutoAttendantSupportedTimeZone](/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone)
+
+有關使用 PowerShell 建立自動助理的逐步指南，請參閱使用[PowerShell Cmdlet](create-a-phone-system-auto-attendant-via-cmdlets.md)建立自動助理
 
 ## <a name="auto-attendant-diagnostic-tool"></a>自動助理診斷工具
 
 如果您是系統管理員，您可以使用下列診斷工具來驗證自動話務員是否能夠接聽來電：
 
-1. 選取 [執行測試]**** 以在 Microsoft 365 系統管理中心填入診斷。 
+1. 選取 **[執行測試]** 以在 Microsoft 365 系統管理中心填入診斷。 
 
    > [!div class="nextstepaction"]
    > [執行測試：Teams自動助理](https://aka.ms/TeamsAADiag)
