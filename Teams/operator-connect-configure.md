@@ -21,16 +21,16 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2fa7a7c314fe2d31e5306ec96902f8ca87e44355
-ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
+ms.openlocfilehash: 9abb37e195e602281c8fad0cdf052e35bf35cc67
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61111963"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181066"
 ---
 # <a name="configure-operator-connect"></a>設定運算子連線
 
-本文將說明如何設定運算子連線。 在安裝運算子連線，請務必閱讀運算子連線，以瞭解[](operator-connect-plan.md)先決條件和授權的資訊。
+本文將說明如何設定運算子連線。 在安裝運算子連線，請務必閱讀運算子方案連線，以瞭解[](operator-connect-plan.md)先決條件和授權的資訊。
 
 ## <a name="enable-an-operator"></a>啟用運算子
 
@@ -64,14 +64,14 @@ ms.locfileid: "61111963"
 
 1. **指派授權電話系統授權。** 您可以指派授權電話系統授權給使用者，Microsoft 365 系統管理中心 PowerShell。 詳細資訊，請參閱指派[Teams附加元件授權給使用者](teams-add-on-licensing/assign-teams-add-on-licenses.md)。
 
-2. 將指派給以 Operator 連線取得的電話號碼的使用者必須位於 TeamsOnly 模式。 如果貴組織是 TeamsOnly 模式，則所有使用者都使用 TeamsOnly 模式。 若要檢查這項功能，請Teams系統管理中心，前往 **Teams > Teams設定**。 如果貴組織是群島模式，請檢查特定使用者是否位於 TeamsOnly 模式。 前往使用者 **並** 選取使用者帳戶。 在帳戶 **選項卡** 的 **Teams，** 共存模式應該設定為 'TeamsOnly'。
+2. 使用 Operator 連線取得的電話號碼的使用者必須位於 TeamsOnly 模式中。 如果貴組織是 TeamsOnly 模式，則所有使用者都使用 TeamsOnly 模式。 若要檢查這項功能，請Teams系統管理中心，前往 **Teams > Teams設定**。 如果貴組織是群島模式，請檢查特定使用者是否位於 TeamsOnly 模式。 前往使用者 **並** 選取使用者帳戶。 在帳戶 **選項卡** 的 **Teams，** 共存模式應該設定為 'TeamsOnly'。
 
 3. **取得數位。** 請前往您的接線員網站訂購並取得電話號碼。 若要查看運算子網站清單，請前往 Microsoft 365[運算子連線目錄](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。 您必須提供租使用者識別碼。 如果您不知道您的租使用者識別碼，請參閱尋找Microsoft 365[租使用者識別碼](/onedrive/find-your-office-365-tenant-id)以瞭解更多資訊。
 
 4. **指派數位。** 您的運算子完成訂單後，就會將號碼上傳至您的租使用者。 您可以在系統管理中心查看號碼和提供者Teams到 **Voice > 電話號碼**。 從系統管理中心Teams或 PowerShell 指派號碼給使用者。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
 
 > [!NOTE]
-> 除了為使用者 [](getting-phone-numbers-for-your-users.md)取得電話號碼之外，您還可以取得電話或免付費電話號碼服務，例如會議橋接器) 、自動語音電話和通話佇列 () 的音訊會議 (。 服務電話號碼的並行通話容量高於使用者或訂閱者電話號碼。 例如，服務號碼可以同時處理數百個通話，而使用者的電話號碼只能同時處理幾個通話。 若要取得服務號碼，請與您的接線員聯繫。
+> 除了為使用者 [](getting-phone-numbers-for-your-users.md)取得電話號碼之外，您還可以取得電話或免付費電話號碼的服務，例如會議橋接器) 的音訊會議 (、自動語音電話和通話佇列 (也稱為服務號碼) 。 服務電話號碼的並行通話容量高於使用者或訂閱者電話號碼。 例如，服務號碼可以同時處理數百個通話，而使用者的電話號碼只能同時處理幾個通話。 若要取得服務號碼，請與您的接線員聯繫。
 
 ### <a name="emergency-addresses"></a>緊急位址
 
@@ -93,7 +93,7 @@ ms.locfileid: "61111963"
 
 2. 您的接線員完成移移訂單之後，您可以取消為使用者的通話方案電話號碼進行分配，並移除通話方案授權。 然後，您的運算子可以將數位上傳到您的租使用者。
 
-3. 使用 連線系統管理中心或 PowerShell 將運算子Teams號碼指派給使用者。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
+3. 使用 連線系統管理中心Teams PowerShell 將運算子指派給使用者。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
 
 ### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>將數位從直接路由移至運算子連線
 
@@ -108,14 +108,14 @@ ms.locfileid: "61111963"
    執行下列 PowerShell 命令以移除 On-prem Line URI：  
 
    ```
-   Set-CsUser -Identity <user> -OnPremLineURI $null 
+   Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <value of OnPremLineURI> -PhoneNumberType DirectRouting 
    ```
 
 2. 移除任何與使用者相關聯的 PSTNUsage，否則通話會路由至 PSTN 使用量中指定的閘道。 若要瞭解如何移除 PSTN 使用量，請參閱 [Set-CsOnlinePstnUsage](/powershell/module/skype/set-csonlinepstnusage?view=skype-ps)。
 
-3. 請前往您的接線員網站訂購並取得電話號碼。 若要尋找您的運算子網站，請參閱 Microsoft 365[運算子連線目錄](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。 您必須提供租使用者識別碼。 如果您不知道您的租使用者識別碼，請參閱尋找Microsoft 365[租使用者識別碼](/onedrive/find-your-office-365-tenant-id)以瞭解更多資訊。
+3. 請前往您的接線員網站訂購並取得電話號碼。 若要尋找您的運算子網站，請參閱運算子[Microsoft 365連線目錄](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。 您必須提供租使用者識別碼。 如果您不知道您的租使用者識別碼，請參閱尋找Microsoft 365[租使用者識別碼](/onedrive/find-your-office-365-tenant-id)以瞭解更多資訊。
 
-4. 您的運算子完成訂單後，就會將號碼上傳至您的租使用者。 您可以在系統管理中心查看號碼和提供者Teams到 **Voice > 電話號碼**。 使用 連線系統管理中心或 PowerShell 將運算子Teams號碼指派給使用者。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
+4. 您的運算子完成訂單後，就會將號碼上傳至您的租使用者。 您可以在系統管理中心查看號碼和提供者Teams到 **Voice > 電話號碼**。 使用 連線系統管理中心Teams PowerShell 將運算子指派給使用者。 詳細資訊，請參閱指派 [數位](#assign-numbers)。
 
 ### <a name="assign-numbers"></a>指派數位
 

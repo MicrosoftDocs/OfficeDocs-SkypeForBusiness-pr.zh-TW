@@ -16,18 +16,18 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 在本文中，您將瞭解如何為貴組織的使用者指派或變更緊急位置。
+description: 本文將瞭解如何為貴組織的使用者指派或變更緊急位置。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efe6b81961a4f7ca4eeb39e3f10b0c117cba7d6e
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: 004635be112bb8d38b88277e89c24d263b21ec37
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634902"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180896"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>指派或變更使用者的緊急位置
 
-無論您選擇[[Microsoft 通話](pstn-connectivity.md)方案、接線連線或直接路由的 PSTN 連接選項，都需要將緊急位置指派給每個電話號碼或 &mdash; &mdash; 使用者。
+無論您選擇 Microsoft 通話方案、連線或直接路由的[PSTN](pstn-connectivity.md)連接選項，都需要將緊急位置指派給每個電話號碼 &mdash; &mdash; 或使用者。
 
 不過，根據您的 PSTN 連接選項，您管理及指派使用者緊急位置方式可能會有所不同。 詳細資訊，請參閱管理 [緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)。
 
@@ -41,7 +41,7 @@ ms.locfileid: "60634902"
 
 1. 在系統管理中心的左側導Microsoft Teams，按一下 **[語音電話**  >  **號碼**。
 
-2. 在 **[數位** 電話頁面上，按一下 **[數位**> 選項卡，選取清單中的使用者號碼，然後按一下 [**編輯**。
+2. 在 [數位 **電話** 頁面上，按一下 [數位> 選項卡，選取清單中的使用者號碼，然後按一下 [**編輯**。
 
 3. 在編輯 **窗格** 的緊急 **位置下**，執行下列其中一項操作：
 
@@ -55,7 +55,7 @@ ms.locfileid: "60634902"
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
-請參閱 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)。 
+請參閱 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)。 
 
     
 ## <a name="related-topics"></a>相關主題

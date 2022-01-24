@@ -2,7 +2,7 @@
 title: 管理組織的 [班次] 應用程式
 author: LanaChin
 ms.author: v-lanachin
-ms.reviewer: lisawu,gumariam
+ms.reviewer: aaku
 manager: samanro
 ms.topic: article
 audience: admin
@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: 瞭解如何在組織中為前線員工Teams並管理 Shifts 應用程式。
+description: 瞭解如何在組織中為前線員工Teams中設定及管理 Shifts 應用程式。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -22,17 +22,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c4b1550ca90515714e509017f4fb13b83414fbf0
-ms.sourcegitcommit: 293d1b8a591d2284029632874067471f8d5bb0ff
+ms.openlocfilehash: c6e50d92dfb296bcf67402cdbd14a65fba490125
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/30/2021
-ms.locfileid: "61639687"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180926"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [班次] 應用程式
-
-> [!IMPORTANT]
-> 自 2020 年 6 月 30 起，已終止對 Microsoft StaffHub 的支援。 我們正在將 StaffHub 功能建入 Microsoft Teams。 今天，Teams 包含用於排程管理的班次應用程式，並且會陸續推出其他功能。 所有使用者自 2020 年 6 月 30 日起皆無法再使用 StaffHub。 任何嘗試開啟 StaffHub 的人，都會看到一則訊息，指示他們下載 Teams。 如需深入了解，請參閱[已終止對 Microsoft StaffHub 的支援](microsoft-staffhub-to-be-retired.md)。  
 
 ## <a name="overview-of-shifts"></a>班次概觀
 

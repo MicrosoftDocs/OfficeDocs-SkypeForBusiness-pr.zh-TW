@@ -24,25 +24,25 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解如何透過 Cmdlet 設定通話佇列
-ms.openlocfilehash: 8ffbef5541a230755bb7439507e3002a5cb92462
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: a8f24f11cb19f448fc897043c7cb046a08c32341
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62071106"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181106"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>透過 Cmdlet 建立通話佇列
 
 ## <a name="assumptions"></a>假設
 1)  PowerShell 已安裝在電腦上
-- 設定您的電腦Windows PowerShell [](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+- 設定您的電腦Windows PowerShell [](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 - 已安裝 MSTeams 模組 ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - 已安裝 MSOnline 模組 ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  您擁有租使用者管理許可權
 3)  您購買Microsoft Teams 電話
 4)  已建立下列Teams的代理程式、通訊群組清單和頻道
 
-注意：Teams通道 Cmdlet 是 PowerShell 模組的公用預覽版Teams一部分。  若要詳細資訊，請參閱安裝[PowerShell Teams](teams-powershell-install.md)預覽版，Microsoft Teams [PowerShell 版本資訊](teams-powershell-release-notes.md)。
+注意：Teams通道 Cmdlet 是 PowerShell 模組的公用預覽版Teams一部分。  詳細資訊請參閱安裝[PowerShell](teams-powershell-install.md) Teams預覽版[，Microsoft Teams PowerShell 版本資訊](teams-powershell-release-notes.md)。
 
 已安裝 MicrosoftTeams 模組的使用者應確保已安裝最新版本 ````Update-Module MicrosoftTeams```` 。
 
@@ -98,7 +98,7 @@ ms.locfileid: "62071106"
 
 設施共同作業通話佇列資訊：
 - 自動助理的前方：否
-- 從 PSTN 直接撥打： (內部通話) 
+- 從 PSTN 直接通話： (內部通話) 
 -   語言：法文 FR
 -   問候語：無
 -   等候音樂：預設值
@@ -117,7 +117,7 @@ ms.locfileid: "62071106"
 
 
 ## <a name="login"></a>登錄
-系統會提示您輸入您的Teams認證。
+系統會提示您輸入Teams認證。
 ```
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
@@ -160,6 +160,8 @@ Get-MsolAccountSku
 - ApplicationID
 - - 自動助理：ce933385-9390-45d1-9512-c8d228074e07
 - - 通話佇列：11cd3e2e-fcb-42ad-ad00-878b93575e07
+
+注意：下方顯示 (PHONESYSTEM_VIRTUALUSER) 類型必須是上述 Cmdlet Get-MsolAccountSku所列的授權類型。
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -215,6 +217,9 @@ Get-MsolAccountSku
 - ApplicationID
 - - 自動助理：ce933385-9390-45d1-9512-c8d228074e07
 - - 通話佇列：11cd3e2e-fcb-42ad-ad00-878b93575e07
+
+注意：下方顯示 (PHONESYSTEM_VIRTUALUSER) 類型必須是上述 Cmdlet Get-MsolAccountSku所列的授權類型。
+
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
@@ -271,8 +276,11 @@ Get-MsolAccountSku
 - ApplicationID
 - - 自動助理：ce933385-9390-45d1-9512-c8d228074e07
 - - 通話佇列：11cd3e2e-fcb-42ad-ad00-878b93575e07
+
+注意：下方顯示 (PHONESYSTEM_VIRTUALUSER) 類型必須是上述 Cmdlet Get-MsolAccountSku所列的授權類型。
+
 ````
-New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
+New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
 Set-MsolUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
 

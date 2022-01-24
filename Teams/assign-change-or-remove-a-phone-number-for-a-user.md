@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何指派、變更或移除您的公司電話號碼Teams讓外部企業和客戶可以來電。
-ms.openlocfilehash: 40d8f2d12cb824b57b2c01da4880cc35afb0a663
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 1836de6997f2e917e599efc091b689877856c4c7
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766566"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181076"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>指派、變更或移除使用者的電話號碼
 
@@ -33,14 +33,14 @@ ms.locfileid: "61766566"
 
 本文適用于通話方案及接線連線。 若要在直接路由情況下指派、變更或移除使用者的電話號碼，請參閱啟用使用者進行直接路由、語音和 [語音信箱](./direct-routing-enable-users.md)。
 
-在您為通話方案或接線連線使用者指派號碼之前，您必須取得使用者的電話號碼。 詳細資訊，請參閱取得[通話](getting-phone-numbers-for-your-users.md)方案使用者的號碼，或設定運算子連線[號碼](operator-connect-configure.md#set-up-phone-numbers)。
+在指派通話方案或接線連線之前，您必須為使用者取得號碼。 詳細資訊，請參閱取得[通話](getting-phone-numbers-for-your-users.md)方案使用者的號碼，或為使用者設定[運算子連線號碼](operator-connect-configure.md#set-up-phone-numbers)。
 
   
 > [!NOTE]
 > 查看使用者是否已指派授權的方法之一，是Microsoft Teams系統管理中心>**使用者**。 如果已指派授權，就會在頁面上顯示授權。  您也可以使用Microsoft 365 系統管理中心。
 
 > [!NOTE]
-> 本附注適用于使用內部部署 Active Directory 進行混合式部署的客戶。 如果您想要將通話方案或運算子 連線 電話號碼指派給使用者或資源帳戶，您必須確保已移除內部部署 Active Directory 中的電話號碼，且變更已同步到 Microsoft 365。
+> 本附注適用于使用內部部署 Active Directory 進行混合式部署的客戶。 如果您想要將通話方案或運算子 連線 電話號碼指派給使用者或資源帳戶，您必須確保內部部署 Active Directory 中的電話號碼已移除，且變更已同步到 Microsoft 365。
   
 ## <a name="assign-a-phone-number-to-a-user"></a>指派電話號碼給使用者
 
@@ -63,21 +63,27 @@ ms.locfileid: "61766566"
 
 6. 按一下 [儲存]。
 
-若要使用 PowerShell 指派數位，請使用 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) Cmdlet，如下所示：
+若要使用 PowerShell 指派數位，請使用 [Set-CsPhoneNumberAssignment Cmdlet，](/powershell/module/teams/set-csphonenumberassignment) 如下所示：
 
-
+針對通話方案號碼
 ```PowerShell
-Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType CallingPlan
+```
+
+針對運算子連線數位
+```PowerShell
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
 例如：
 
 ```PowerShell
-Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
+Set-CsPhoneNumberAssignment -Identity john@contoso.com -PhoneNumber "+14255550101" -PhoneNumberType CallingPlan
+Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550102" -PhoneNumberType OperatorConnect
 ```
 
 > [!NOTE]
-> 由於使用者與Microsoft 365之間的Teams，使用者最多可能需要 24 小時才能啟用。 如果電話號碼在 24 小時後未正確指派，請參閱電話[服務中心](https://pstnsd.powerappsportals.com/)。 
+> 由於使用者與Microsoft 365 Teams延遲，使用者最多可能需要 24 小時才能啟用。 如果電話號碼在 24 小時後未正確指派，請參閱電話[服務中心](https://pstnsd.powerappsportals.com/)。 
 
   
 ## <a name="change-a-phone-number-for-a-user"></a>變更使用者的電話號碼
@@ -105,11 +111,11 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 
 9. 按一下 [儲存]。
 
-有關 PowerShell 範例，請參閱 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)。
+有關 PowerShell 範例，請參閱 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)。
 
 ## <a name="remove-a-phone-number-from-a-user"></a>移除使用者的電話號碼
 
-若要使用系統管理中心移除Teams號碼：
+若要使用系統管理中心移除Teams電話號碼：
 
 1. 在左側導圖中，按一下 [使用者」，找出並按兩下您想要的使用者，按一下[帳戶」，然後在 [一般資訊」 下記下指派給使用者的電話號碼。 
 
@@ -121,7 +127,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 
 5. 按一下 [儲存]。
 
-有關 PowerShell 範例，請參閱 [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)。
+有關 PowerShell 範例，請參閱 [Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -133,5 +139,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
 
 [緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
+[Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
+
+[Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)
 
