@@ -21,12 +21,12 @@ f1.keywords:
 description: 瞭解如何在貴組織中提升認知度、採用Teams教育，來培養團隊的採用能力。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4b79cd1d9e00441681cad77a621f382d4238341
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 989525f627a4d8c6ef18f1e17cab9446d85a0a88
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842545"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190884"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>建立您的冠軍計畫Microsoft Teams
 
@@ -43,7 +43,7 @@ ms.locfileid: "60842545"
 - 保持一致且正面的強化，確認其努力的影響
 - 有明確的執行計畫
 
-使用我們的 [冠軍計劃指南](https://go.microsoft.com/fwlink/?linkid=854665) 在貴組織中建立此計畫。 我們針對這個社群的最佳作法是：
+使用我們的 [冠軍計劃指南](https://aka.ms/M365Champions) 在貴組織中建立此計畫。 我們針對這個社群的最佳作法是：
 
 - 加入 [冠軍計畫](https://aka.ms/O365Champions)。 請確定至少，"冠軍計畫"的 (以及可能所有的公司) 都是計畫的成員。 這項免費的每月社群通話會提供寶貴的資訊，以執行您自己的計畫，並Teams其他Microsoft 365或Office 365服務。 程式資料可以在您自己的內部程式中重複使用。
 

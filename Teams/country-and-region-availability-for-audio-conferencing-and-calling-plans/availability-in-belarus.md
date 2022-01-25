@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于白俄羅斯Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 272b083a79a85e84db2db577ba4aae1ff834ed4b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fffe6ae8c571d353017a47d26060c9435ffa817d
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631357"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190854"
 ---
 # <a name="availability-in-belarus"></a>白俄羅斯的可用性
 
@@ -44,7 +44,7 @@ ms.locfileid: "58631357"
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |是 [，僅按分鐘](../audio-conferencing-pay-per-minute.md) 付費 <br/> |
 |是否會自動為音訊會議指派電話號碼？  <br/> |否  <br/> |
-|使用 [語音來電] 功能的撥出功能  <br/> |使用通訊信用額度每分鐘付款  <br/> |
+|使用 [語音來電] 功能的撥出功能  <br/> |提供通訊信用額度每分鐘付款  <br/> |
    
 ## <a name="phone-system"></a>電話系統
 
@@ -63,7 +63,7 @@ ms.locfileid: "58631357"
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以向外撥打電話嗎？  <br/> |不適用  <br/> |
 
-如果無法購買通話方案，請考慮使用[電話系統直接路由](../direct-routing-landing-page.md)。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
+如果無法購買通話方案，請參閱所有可用選項的 [PSTN](../pstn-connectivity.md) 連接選項。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 

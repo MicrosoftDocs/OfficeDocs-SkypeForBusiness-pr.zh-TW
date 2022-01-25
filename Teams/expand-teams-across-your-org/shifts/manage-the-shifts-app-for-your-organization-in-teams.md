@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: 瞭解如何在組織中為前線員工Teams中設定及管理 Shifts 應用程式。
+description: 瞭解如何在組織中為前線員工Teams並管理 Shifts 應用程式。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c6e50d92dfb296bcf67402cdbd14a65fba490125
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: ec708d310ea72ac56b5f6ad6bb65a4ab436915f6
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180926"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192374"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [班次] 應用程式
 
@@ -86,3 +86,4 @@ ms.locfileid: "62180926"
 
 - [第一線員工輪班協助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [將原則指派給 Teams 中的使用者](../../policy-assignment-overview.md)
+- [移轉連接器](shifts-connectors.md)

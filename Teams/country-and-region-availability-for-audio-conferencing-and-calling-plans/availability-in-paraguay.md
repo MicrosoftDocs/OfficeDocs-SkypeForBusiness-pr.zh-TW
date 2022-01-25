@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
-ms.openlocfilehash: 969e702fe7f14d9e7af2e9d023367fe9c1f8eb25
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05f2c1f579610e7d33e0f844442e845cbaef62f1
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578387"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191724"
 ---
 # <a name="availability-in-paraguay"></a>在拉森達的可用狀態
 
@@ -63,7 +63,7 @@ ms.locfileid: "58578387"
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以向外撥打電話嗎？  <br/> |不適用  <br/> |
 
-如果無法購買通話方案，請考慮使用[電話系統直接路由](../direct-routing-landing-page.md)。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
+如果無法購買通話方案，請參閱所有可用選項的 [PSTN](../pstn-connectivity.md) 連接選項。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 

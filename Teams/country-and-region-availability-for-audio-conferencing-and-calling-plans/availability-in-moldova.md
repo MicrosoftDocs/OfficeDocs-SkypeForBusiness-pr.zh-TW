@@ -25,13 +25,13 @@ ms.custom:
 - Phone System
 - Calling Plans for Business and Microsoft Teams available for Moldova."
 - seo-marvel-mar2020
-description: 尋找有關在Microsoft 365 Office 365哪些商務用 Skype和Microsoft Teams服務的資訊。
-ms.openlocfilehash: f7fe5633f7ca2756b8e6611f1c44fabc4ff8c0c8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 尋找有關在Microsoft 365 Office 365提供哪些商務用 Skype Microsoft Teams服務的資訊。
+ms.openlocfilehash: fad85c4f1e875ffd65f255fb95eac209f74c8f7b
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589797"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191564"
 ---
 # <a name="availability-in-moldova"></a>在摩爾多瓦的可用性
 
@@ -64,7 +64,7 @@ ms.locfileid: "58589797"
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以向外撥打電話嗎？  <br/> |不適用  <br/> |
 
-如果無法購買通話方案，請考慮使用[電話系統直接路由](../direct-routing-landing-page.md)。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
+如果無法購買通話方案，請參閱所有可用選項的 [PSTN](../pstn-connectivity.md) 連接選項。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 

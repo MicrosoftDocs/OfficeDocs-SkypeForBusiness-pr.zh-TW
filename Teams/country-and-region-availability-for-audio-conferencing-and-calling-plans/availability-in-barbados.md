@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于 Microsoft 365 Office 365 和 商務用 Skype 的Microsoft Teams服務。
-ms.openlocfilehash: c2eeb85e27bdcc0f7b41e9e83754a430bca251dd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 以下是適用于Microsoft 365和Office 365的商務用 Skype和Microsoft Teams服務。
+ms.openlocfilehash: c46dc736aa11aea4371050e9357dacec5e571cf2
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848196"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191234"
 ---
 # <a name="availability-in-barbados"></a>在巴布達斯的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于 Microsoft 365 Office 365 和 商務用 Skype 的Microsoft Teams服務。
+以下是適用于Microsoft 365和Office 365的商務用 Skype和Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -62,7 +62,7 @@ ms.locfileid: "60848196"
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以向外撥打電話嗎？  <br/> |不適用  <br/> |
 
-如果無法購買通話方案，請考慮使用[電話系統直接路由](../direct-routing-landing-page.md)。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
+如果無法購買通話方案，請參閱所有可用選項的 [PSTN](../pstn-connectivity.md) 連接選項。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費號碼
 

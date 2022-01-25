@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是開曼群島Microsoft 365 Office 365的商務用 Skype Microsoft Teams及服務。
-ms.openlocfilehash: a19b3752d10316968676d61c7b28f7d8efe2a47c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 40d1617dde8ee45971f705b96e17df61d710b261
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840865"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190634"
 ---
 # <a name="availability-in-the-cayman-islands"></a>開曼群島的可用性
 
@@ -62,7 +62,7 @@ ms.locfileid: "60840865"
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以向外撥打電話嗎？  <br/> |不適用  <br/> |
 
-如果無法購買通話方案，請考慮使用[電話系統直接路由](../direct-routing-landing-page.md)。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
+如果無法購買通話方案，請參閱所有可用選項的 [PSTN](../pstn-connectivity.md) 連接選項。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費號碼
 

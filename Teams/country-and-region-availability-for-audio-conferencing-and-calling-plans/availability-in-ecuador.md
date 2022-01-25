@@ -1,5 +1,5 @@
 ---
-title: 在 2010 年 12 月
+title: 在哥倫比亞的可用性
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于Microsoft 365的Office 365及商務用 Skype及Microsoft Teams服務。
-ms.openlocfilehash: d2880ab47fc7d8dc30cc87e0753299c47dfb24c8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
+ms.openlocfilehash: 9fb321d64ddb1d048c517e6f7adc6a0fbd89db14
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580177"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192234"
 ---
-# <a name="availability-in-ecuador"></a>在 2010 年 12 月
+# <a name="availability-in-ecuador"></a>在哥倫比亞的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于Microsoft 365的Office 365及商務用 Skype及Microsoft Teams服務。
+以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -63,7 +63,7 @@ ms.locfileid: "58580177"
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以向外撥打電話嗎？  <br/> |不適用  <br/> |
 
-如果無法購買通話方案，請考慮使用[電話系統直接路由](../direct-routing-landing-page.md)。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
+如果無法購買通話方案，請參閱所有可用選項的 [PSTN](../pstn-connectivity.md) 連接選項。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 

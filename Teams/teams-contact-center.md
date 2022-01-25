@@ -1,5 +1,5 @@
 ---
-title: Teams連絡人中心
+title: Teams聯絡中心
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式聯絡人中心服務概觀 (CCaaS) 解決方案Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eea312f8943e05b870f7e72409e551869c950c4e
-ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
+ms.openlocfilehash: 52abf252d82b8208a0474d2393bd6d3938eaacb7
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58864203"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192164"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>連絡人中心整合Microsoft Teams
 
@@ -26,16 +26,16 @@ ms.locfileid: "58864203"
 
 ## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>什麼是連絡人中心整合功能Microsoft Teams？
 
-Microsoft Teams，可在其通訊模式中，包括聊天、視訊會議和通話，做為內部和外部客戶連結的中心，支援客戶互動的資料流程。 針對部分組織，Microsoft Teams雲端語音功能[，包括](./cloud-voice-landing-page.md)[自動](./what-are-phone-system-auto-attendants.md)語音語音和[通話佇列](./create-a-phone-system-call-queue.md)，符合其需求。
+Microsoft Teams可在整個通訊模式中 ，包括聊天、視訊會議和通話，做為內部和外部客戶連結的中樞，支援客戶互動的資料流程。 在某些組織中，Microsoft Teams雲端語音功能[，包括](./cloud-voice-landing-page.md)自動語音[語音](./what-are-phone-system-auto-attendants.md)和通話[佇列](./create-a-phone-system-call-queue.md)，符合其需求。
 
 針對想要使用商務工具和工作流程的解決方案來推動客戶歷程的組織，Microsoft Teams 的連絡人中心整合可讓連絡人中心成為服務 (CCaaS) 解決方案提供者，將其解決方案整合到 Teams。
 
 
 ## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>適用于認證計畫的Microsoft Teams中心
 
-Microsoft 認證計畫的Microsoft Teams中心會驗證每個參與的提供者解決方案都提供他們預期從 Microsoft 解決方案獲得的品質、相容性和可靠性。
+Microsoft 認證計畫的Microsoft Teams中心會驗證每個參與提供者的解決方案都提供他們預期從 Microsoft 解決方案獲得的品質、相容性和可靠性。
 
-如果您是尋找整合式聯絡中心解決方案的組織，請參閱認證解決方案提供者清單的[](https://cloudpartners.transform.microsoft.com/contact-center-solutions)聯絡中心認證 Microsoft Teams 解決方案，並參閱在認證過程中提供者清單的已連接[](#connected-contact-center-solutions)連絡人中心解決方案。
+如果您是尋找整合式聯絡中心解決方案的組織，請參閱認證解決方案提供者清單的聯絡中心認證[Microsoft Teams](https://cloudpartners.transform.microsoft.com/contact-center-solutions)解決方案，並參閱在認證過程中提供者清單的已連接連絡人[](#connected-contact-center-solutions)中心解決方案。
 
 如果您是想加入認證計畫的廠商，請 <Teamscategorypartner@microsoft.com> 以電子郵件 。
 
@@ -44,7 +44,7 @@ Microsoft 認證計畫的Microsoft Teams中心會驗證每個參與的提供者�
 
 ## <a name="connected-contact-center-solutions"></a>已連接的聯絡人中心解決方案
 
-下列提供者提供使用其中一種Teams、延伸或 power 整合模型連線整合至連絡人中心解決方案。
+下列提供者提供使用其中一種Teams、延伸或 power 整合連線整合的聯絡中心解決方案。
 
 ### <a name="certified-solutions"></a>認證解決方案
 
@@ -70,6 +70,7 @@ Microsoft 認證計畫的Microsoft Teams中心會驗證每個參與的提供者�
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
+| 'Heedify' | https://heedify.io/call-center/                                                 |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |

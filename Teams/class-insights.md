@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff8418a44ea8369d4659b6bb5978e3f4a1ce51d7
-ms.sourcegitcommit: 11061890a64da88d92db3fa43f1bf320b216c355
+ms.openlocfilehash: 9468047673f1832fdf9878bda123be181d21067c
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/21/2022
-ms.locfileid: "62163534"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190864"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 中 Education Insights 的 IT 系統管理員指南
 
@@ -140,7 +140,7 @@ Insights *不會* 顯示關於授課者的資料。 資料的分析可提供可�
 > 收集的資料多數會在幾分鐘內出現在 Insights 中。班級會議 (與其中一個班級頻道相關聯的會議) 中的出席資訊，會在會議結束後顯示幾小時 (通常最多為 24 小時)。
 
 > [!NOTE]
-> 在教育版分析中收集的資料會保留，直到 IT 系統管理員關閉 [[教育版分析切換]](#Tturn-sds-for-insights-on-or-off)，或租用戶 Office 訂閱結束為止。 關閉 Teams 中的特定功能不會刪除歷史資料。
+> 在教育版分析中收集的資料會保留，直到 IT 系統管理員關閉 [[教育版分析切換]](#turn-sds-for-insights-on-or-off)，或租用戶 Office 訂閱結束為止。 關閉 Teams 中的特定功能不會刪除歷史資料。
 
 ### <a name="privacy-and-security"></a>隱私權和安全性
 透過 Insights 收集和顯示的資訊，符合[超過 90 個法規和產業標準](/compliance/regulatory/offering-home)，其中包括 [GDPR](/compliance/regulatory/gdpr) 和針對學生與兒童安全性的[家庭教育權和隱私權法案 (FERPA)](/compliance/regulatory/offering-ferpa)，以及其他類似的以隱私權為導向法規。

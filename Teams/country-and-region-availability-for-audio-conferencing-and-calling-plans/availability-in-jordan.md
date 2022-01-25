@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 7b76169fb05f3ee1d853eea536302e2827d0c071
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: 以下是適用于Microsoft 365和Office 365的商務用 Skype和Microsoft Teams服務。
+ms.openlocfilehash: 2062025923513285c4014c747c3a95fd3f808f0e
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733664"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191424"
 ---
 # <a name="availability-in-jordan"></a>在沙烏地阿拉伯的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
+以下是適用于Microsoft 365和Office 365的商務用 Skype和Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -63,13 +63,13 @@ ms.locfileid: "60733664"
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以向外撥打電話嗎？  <br/> |不適用  <br/> |
 
-如果無法購買通話方案，請考慮使用[電話系統直接路由](../direct-routing-landing-page.md)。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
+如果無法購買通話方案，請參閱所有可用選項的 [PSTN](../pstn-connectivity.md) 連接選項。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？  <br/> |Amman ([根據要求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？  <br/> |根據[ (，) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |
 |有提供付費電話號碼嗎？  <br/> |可以 ([要求) ](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |
 |是否提供免付費電話號碼？  <br/> |否  <br/> |
    

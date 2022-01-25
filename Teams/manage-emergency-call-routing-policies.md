@@ -21,16 +21,16 @@ description: 瞭解如何在 Microsoft Teams 中使用和管理緊急電話路�
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: 582036d6168a235744b092f7f11bfd34442f5221
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: f04204377f4b90f5a96143e579863f4acdbf3989
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634912"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190894"
 ---
 # <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>管理直接路由的緊急通話路由策略
 
-如果您已經部署組織中直接路由[](direct-routing-landing-page.md)，您可以使用 Microsoft Teams 中的緊急呼叫路由策略來設定緊急號碼，並指定緊急電話的路由方式。 緊急電話路由策略會決定為指派該策略的使用者啟用增強型緊急服務、撥打緊急服務 (例如美國) 的 911 號碼，以及撥打緊急服務電話的路由方式。 
+如果您已經部署組織中直接路由[](direct-routing-landing-page.md)，您可以使用 Microsoft Teams 中的緊急呼叫路由策略來設定緊急號碼，並指定緊急電話的路由方式。 緊急電話路由策略會決定為指派該策略的使用者啟用增強型緊急服務、用來撥打緊急服務 (例如美國) 的 911 號碼，以及撥打緊急服務電話的路由方式。 
 
 > [!Note]
 > **請注意，這些通話路由原則僅適用于直接路由，不適用於通話方案或接線連線。**
@@ -49,12 +49,12 @@ ms.locfileid: "60634912"
 2. 按一下 [新增 **]**。
 3. 輸入原則的名稱和描述。
 4. 若要啟用動態緊急電話，請開啟 **動態緊急電話**。 啟用動態緊急電話時，Teams會從服務中取回策略和位置資訊，並包含該資訊做為緊急通話的一部分。
-5. 定義一或多個緊急號碼。 若要執行此操作，請按一下 [ **緊急** 號碼> 下的 [ **新增**，然後執行下列操作：
-    1. **緊急撥號字串**：輸入緊急撥號字串。 此撥號字串表示通話是緊急通話。
+5. 定義一或多個緊急號碼。 若要執行此操作，請在 [ **緊急號碼**> 下，按一下 [ **新增**，然後執行下列操作：
+    1. **緊急撥號字串**：輸入緊急撥號字串。 此撥號字串表示通話是緊急通話，而且路由模式必須與這個撥號字串完全相符。 
         > [!NOTE]
         > **針對直接路由，Teams用戶端不會再在緊急撥號字串前面傳送具有「+」的緊急電話。確定語音路由模式符合緊急撥號字串，反映此變更。**
-    2. **緊急撥號遮罩**：針對每個緊急號碼，您可以指定零個或多個緊急撥號遮罩。 撥號遮罩是您想要轉換成緊急撥號字串值的號碼。 這可讓您撥打替代的緊急號碼，但仍可撥打到緊急服務。 <br>例如，您新增 112 做為緊急撥號遮罩，這是歐洲大部分地區緊急服務號碼，而 911 則做為緊急撥號字串。 Teams歐洲使用者可能不知道 911 是美國的緊急號碼，當他們撥打 112 時，撥打到 911。 若要定義多個撥號遮罩，請以分號分隔每個值。 例如，112;212。
-    3. **PSTN 使用記錄**：選取 PSTN (公用電話) 電話網絡。 PSTN 使用量記錄是用來判斷使用哪一個路由路由從有權使用緊急電話的使用者路由緊急電話。 與此使用關聯的路由應指向會話初始通訊協定 (SIP) 主幹專用緊急電話或緊急位置識別號碼 (ELIN) 閘道，將緊急電話路由到最近的公用安全應答點 (PSAP) 。
+    2. **緊急撥號遮罩**：針對每個緊急號碼，您可以指定零個或多個緊急撥號遮罩。 撥號遮罩是您想要轉換成緊急撥號字串值的號碼。 這可讓您撥打替代的緊急號碼，而且仍可撥打到緊急服務。 <br>例如，您新增 112 做為緊急撥號遮罩，這是歐洲大多數國家的緊急服務號碼，而 911 則做為緊急撥號字串。 Teams歐洲使用者可能不知道 911 是美國的緊急號碼，當他們撥打 112 時，撥打到 911。 若要定義多個撥號遮罩，請以分號分隔每個值。 例如，112;212。
+    3. **PSTN 使用記錄**：選取 PSTN (公用交換電話) 通話網路。 PSTN 使用量記錄是用來判斷使用哪一個路由路由從有權使用緊急電話的使用者路由緊急電話。 與此使用關聯的路由應指向會話初始通訊協定 (SIP) 主幹專用緊急電話或緊急位置識別號碼 (ELIN) 閘道，將緊急電話路由到最近的公用安全應答點 (PSAP) 。
 
     > [!NOTE]
     > 撥號字串和撥號遮罩在策略中必須是唯一的。 這表示針對一個策略，您可以定義多個緊急號碼，也可以為撥號字串設定多個撥號遮罩，但每個撥號字串和撥號遮罩只能使用一次。
@@ -85,7 +85,7 @@ ms.locfileid: "60634912"
 
 另請參閱 [Grant-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/grant-csteamsemergencycallroutingpolicy)。
 
-## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>將自訂緊急電話路由策略指派給網路網站
+## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>將自訂緊急通話路由策略指派給網路網站
 
 使用 [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) Cmdlet 將緊急通話路由策略指派給網路網站。
 

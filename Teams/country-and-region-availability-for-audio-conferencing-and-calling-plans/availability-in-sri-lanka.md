@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于斯里蘭卡Microsoft 365 Office 365及商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: c493199d163b2ffcbb14cd81f63d4ba492e6d044
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba5ae750e21a2fee49ea4c506e2214a224d3d69a
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584707"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191084"
 ---
 # <a name="availability-in-sri-lanka"></a>斯里蘭卡的可用性
 
@@ -43,7 +43,7 @@ ms.locfileid: "58584707"
 |**功能**|**詳細資料**|
 |:-----|:-----|
 |音訊會議是否可供購買？  <br/> |是  <br/> |
-|是否會自動為音訊會議指派電話號碼？  <br/> | 電話號碼不會連結至特定城市或位置。 如果您想要專用電話號碼，請參閱取得適用于 商務用 Skype[和 Microsoft Teams 的服務Microsoft Teams。](../getting-service-phone-numbers.md)  <br/> |
+|是否會自動為音訊會議指派電話號碼？  <br/> | 電話號碼不會連結至特定城市或位置。 如果您想要專用電話號碼，請參閱取得電話和[商務用 Skype Microsoft Teams。](../getting-service-phone-numbers.md)  <br/> |
 |使用 [語音來電] 功能的撥出功能  <br/> |需要通訊信用額度  <br/> |
    
 ## <a name="phone-system"></a>電話系統
@@ -63,7 +63,7 @@ ms.locfileid: "58584707"
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以向外撥打電話嗎？  <br/> |不適用  <br/> |
 
-如果無法購買通話方案，請考慮使用[電話系統直接路由](../direct-routing-landing-page.md)。 透過直接路由，您就可以實際地透過任何電信運營公司使用電話系統。
+如果無法購買通話方案，請參閱所有可用選項的 [PSTN](../pstn-connectivity.md) 連接選項。
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費電話和免付費電話號碼
 

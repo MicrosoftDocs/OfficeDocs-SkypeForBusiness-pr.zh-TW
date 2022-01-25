@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理一般Teams。
-ms.openlocfilehash: db1515b016aec47190c26305656b205a56e13b23
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 1bf4958f74a95775d6d34c87ea6d7d65262530e4
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562871"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191474"
 ---
 # <a name="meeting-policy-settings---general"></a>會議原則設定 - 一般
 
@@ -55,11 +55,11 @@ ms.locfileid: "61562871"
 
 ![顯示能夠排程新會議的螢幕擷取畫面。](media/meeting-policies-outlook-add-in.png)
 
-如果您關閉此功能，當使用者在 Teams 中建立新會議時，就無法排程Outlook。 例如，在 Windows 上的 Outlook 中，[新增 Teams 會議 **]** 選項不會在功能區中顯示。
+如果您關閉此功能，當使用者在 Teams 中建立新會議時，就無法排程會議Outlook。 例如，在 Windows 上的 Outlook 中，[新增 Teams 會議 **]** 選項不會在功能區中顯示。
 
 ## <a name="channel-meeting-scheduling"></a>頻道會議排程
 
-使用現有的 AllowChannelMeetingScheduling 原則來控制可以在小組頻道行事曆上建立的事件類型。 這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在 Teams 頻道中排程會議。 此設定預設會開啟。 
+使用現有的 AllowChannelMeetingScheduling 原則來控制可以在小組頻道行事曆上建立的事件類型。 這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在 Teams 頻道中排程會議。 此設定預設會開啟。
 
 如果關閉此政策，使用者將無法建立新頻道會議。 不過，活動召集人可以編輯現有的頻道會議。
 
@@ -98,7 +98,7 @@ ms.locfileid: "61562871"
 
 這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在 Teams 中排程私人會議。 當會議未發佈到小組中的頻道時，會議是私人的。
 
-請注意，如果您 **關閉允許排** 程私人會議和允許頻道會議排程，系統會針對使用者停用新增必要的出席者及新增Teams。  此設定預設會開啟。
+請注意，如果您 **關閉允許排** 程私人會議和允許頻道會議排程，系統即會針對 Teams 中的使用者停用新增必要的出席者及新增Teams。  此設定預設會開啟。
 
 ## <a name="meet-now-in-private-meetings"></a>現在在私人會議中開會
 
@@ -124,19 +124,18 @@ ms.locfileid: "61562871"
 
 這是每一使用者原則。 此設定會控制會議召集人是否可以下載[會議出席報告](teams-analytics-and-reports/meeting-attendance-report.md)。
 
-此政策預設為關閉，可讓召集人查看誰註冊並參與他們設定的會議和網路研討會。 若要在系統管理中心Teams開啟此功能，請前往會議會議政策，並設定為啟用的約會  >  ******報表設定**。 
+此政策預設為啟用，可讓召集人查看誰註冊並參與他們設定的會議和網路研討會。 若要在系統管理中心Teams關閉，請前往會議會議政策，並設定為關閉  >  **** **。。** 
 
-您也可以使用[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 編輯現有的Teams會議策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，並將它指派給使用者。
+您也可以使用[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 編輯現有的會議Teams策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，並將它指派給使用者。
 
-若要讓會議召集人下載會議出席報告，請設定 **AllowEngagementReport 參數** 為 **啟用**。 啟用時，下載報告的選項會在 [參與者 **]** 窗格中顯示。 根據預設，此設定不會啟用。
+根據預設 **，AllowEngagementReport 參數** 會設定為 **PowerShell** 中的啟用。 若要防止會議召集人下載會議出席報告，請設定 **AllowEngagementReport 參數** 為 **已停用**。
 
-若要防止會議召集人下載報告，請將參數設定 **Disabled**。
+啟用此政策時，下載會議出席報告的選項會顯示在參與者 **窗格中** 。
 
 > [!NOTE]
-> 做為系統管理員，您無法針對不組織的會議查看出席報告。 不過，您可以在會議召開後 24 小時內，查看特定會議的參與者詳細資料。 在 Teams系統管理中心，前往 **使用者**  >  **管理使用者**。 選擇會議召集人的顯示名稱。 選取會議 **& ，** 然後選擇適當的會議 ID 或通話 ID。 然後，選取 **參與者詳細資料**。
+> 做為系統管理員，您無法針對不組織的會議查看出席報告。 不過，您可以在會議召開後 24 小時內，查看特定會議的參與者詳細資料。 在 Teams系統管理中心，前往 **使用者**  >  **管理使用者**。 選擇會議召集人的顯示名稱。 選取會議 **&，** 然後選擇適當的會議 ID 或通話 ID。 然後，選取 **參與者詳細資料**。
 
 有關詳細資訊 ，包括參與報告的限制，請參閱在 Teams 中檢視[和下載會議出席Teams。](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)
-
 
 ## <a name="meeting-registration"></a>會議註冊
 
@@ -155,9 +154,9 @@ ms.locfileid: "61562871"
 此政策會控制哪些使用者可以註冊並參加網路研討會。 此政策有兩個選項，只有在會議註冊 **開啟時才能** 使用。
 
 - 若要 **神秘** 允許所有人 ，包括匿名使用者，註冊並參加貴組織中使用者所設定的網路研討會，請設定設定為可以註冊至所有人。
-- 如果您 **神秘** 只允許貴組織的使用者註冊並參加網路研討會，請設定為可以註冊至組織的所有人。
+- 如果您 **神秘** 只允許貴組織的使用者註冊並參加網路研討會，請設定帳戶可以註冊至組織的所有人。
 
-根據預設 **，神秘可以註冊** 設為 **。。** 若要在系統管理中心編輯Teams，請前往 **會議**  >  **會議政策**。
+根據預設 **，神秘可以註冊** 的設定為 **。。** 若要在系統管理中心編輯Teams，請前往 **會議**  >  **會議政策**。
 
 您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的 Teams 會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，並將它指派給使用者。
 

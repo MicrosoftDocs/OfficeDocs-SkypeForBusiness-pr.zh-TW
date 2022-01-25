@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 瞭解如何管理網路研討會Teams會議。
-ms.openlocfilehash: 19918d7a32a9a5069dab8dc87011de6112bbe364
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 92970e754f50deffe34993a44fb92a2d5a7b5581
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205553"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62192184"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>在 Microsoft Teams 中設定網路研討會
 
@@ -41,25 +41,25 @@ ms.locfileid: "61205553"
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>允許使用者在系統管理中心Teams網路研討會
 
-您可以使用系統管理Teams中心為貴組織設定網路研討會。 您可以在會議會議政策下的 Teams系統管理中心找到設定網路  >  **研討會的政策**。
+您可以使用系統管理Teams中心為貴組織設定網路研討會。 您可以在會議會議政策下的 Teams系統管理中心找到設定網路研討會  >  **的政策**。
 
 ### <a name="meeting-registration"></a>會議註冊
 
 如果您開啟此功能，使用者可以排程網路研討會。 根據預設，這會開啟。 如果您想要關閉會議註冊，請設定此策略為 **關閉**。
 
 > [!IMPORTANT]
-> **私人會議排程** 必須已上，會議註冊作業。 根據預設，系統管理中心會開啟此Teams。 對於教育租使用者的學生，此政策預設為關閉。 若要瞭解如何為學生啟用私人會議排程功能，請參閱Teams 教育版[策略套件](policy-packages-edu.md)。
+> **私人會議排程** 必須已上，會議註冊作業。 根據預設，此政策會于系統管理中心Teams開啟。 對於教育租使用者的學生，此政策預設為關閉。 若要瞭解如何為學生啟用私人會議排程功能，請參閱Teams 教育版[策略套件](policy-packages-edu.md)。
 
 ### <a name="who-can-register"></a>神秘註冊
 
 如果您選取了 **每個人都**，所有使用者 ，包括匿名使用者，都可以註冊並參加網路研討會。 如果您選取組織的 **每個人都**，則只有貴組織的使用者可以註冊網路研討會。 如果會議註冊已關閉，則此選項將不可用，而且沒有人可以註冊網路研討會。
 
 > [!NOTE]
-> 您可以註冊的預設值 **神秘** 教育租使用者 **中組織中** 所有人。 詳細資訊，請參閱Teams 教育版[精靈](easy-policy-setup-edu.md)。
+> 您可以 **註冊神秘預設值** 為教育租使用者 **中的組織中** 所有人。 詳細資訊，請參閱Teams 教育版[精靈](easy-policy-setup-edu.md)。
 
 ### <a name="engagement-report"></a>互動報告
 
-如果您開啟這項功能，召集人可以看到註冊及參加他們設定之網路研討會者的報告。 此策略預設為關閉。 如要詳細資訊，請參閱 Teams [- Teams中的會議政策](meeting-policies-in-teams-general.md#engagement-report)。 有關使用者經驗的資訊，請參閱 [查看及下載會議出席報告](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)。
+啟用時，召集人可以看到註冊及參加他們設定之網路研討會者的報告。 此策略預設為啟用。 如要詳細資訊，請參閱會議[Teams - 參與報告](meeting-policies-in-teams-general.md#engagement-report)。 有關使用者經驗的資訊，請參閱 [查看及下載會議出席報告](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310?ui=en-US&#x26;rs=en-US&#x26;ad=US)。
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>允許使用者使用 PowerShell 排程網路研討會
 
@@ -76,7 +76,7 @@ ms.locfileid: "61205553"
 
 ### <a name="allow-users-to-schedule-webinars"></a>允許使用者排程網路研討會
 
-您可以只將註冊限制為貴組織的使用者，或將註冊開放給租使用者內外的每個人。 根據預設 **，WhoCanRegister** 會啟用，並設定為全域 (**全組織的預設**) 規則。 如果您想要關閉會議註冊，請設定 **MeetingRegistration** 為 **False**。
+您可以只將註冊限制為貴組織的使用者，或將註冊開放給租使用者內外的每個人。 根據預設 **，WhoCanRegister** 會啟用，並設定為全域 (**全組織的預設)** 規則。 如果您想要關閉會議註冊，請設定 **MeetingRegistration** 為 **False**。
 
 > [!IMPORTANT]
 > **PrivateMeeting 排程** 必須設為 **True，****會議Registration 可以** 工作。
@@ -108,14 +108,14 @@ Set-CsTeamsMeetingPolicy -WhoCanRegister Everyone
 ```
 
 > [!CAUTION]
-> 如果在會議設定中關閉匿名加入，匿名使用者無法加入網路研討會。 若要深入瞭解並啟用此設定，請參閱會議[Teams。](meeting-settings-in-teams.md)
+> 如果在會議設定中關閉匿名加入，匿名使用者無法加入網路研討會。 若要深入瞭解並啟用此設定[，請參閱會議](meeting-settings-in-teams.md)Teams。
 
 ### <a name="collect-meeting-attendance"></a>收集會議出席人數
 
-如果您希望召集人分析誰註冊並參加網路研討會，您必須開啟 **EngagementReport** 政策。 若要這麼做，請執行 PowerShell 中的下列命令。
+**AllowEngagementReport** 參數可讓您查看誰註冊和參加網路研討會。 此策略預設為開啟。 若要關閉，請于 PowerShell 中執行下列命令：
 
 ```powershell
-Set-CsTeamsMeetingPolicy -EngagementReport Enabled
+Set-CsTeamsMeetingPolicy -AllowEngagementReport Disabled
 ```
 
 ## <a name="configure-webinar-settings"></a>設定網路研討會設定
