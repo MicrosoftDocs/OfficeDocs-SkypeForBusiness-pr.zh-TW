@@ -1,5 +1,5 @@
 ---
-title: 管理錄製和文字記錄的會議政策
+title: 管理錄製和抄寫的會議政策
 author: KarliStites
 ms.author: kastites
 manager: serdars
@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
 description: 瞭解如何在錄製和Teams中管理會議策略設定。
-ms.openlocfilehash: c89fc88c46ae8b614021417ab2aa02832f64fce1
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ee558ae87d7bea781cae3d2bc267f82bc1fdb18a
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973190"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224070"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>錄製文字翻譯的會議&設定
 
@@ -35,9 +35,11 @@ ms.locfileid: "58973190"
 
 ## <a name="allow-transcription"></a>允許轉錄
 
-這是每個召集人和每個使用者策略的組合。 此設定可控制在播放會議錄製內容期間是否提供字幕和謄寫功能。 如果您關閉此設定，在播放會議錄製期間，將無法使用搜尋和 **CC** 選項。 開始錄製的人員需要開啟此設定，讓錄製也包含謄寫。
+這是每個召集人和每個使用者策略的組合。 此設定可控制在播放會議錄製內容期間是否提供字幕和謄寫功能。 開始錄製的人需要開啟此設定，這些功能可以處理錄製內容。
 
-錄製的會議記錄目前僅支援將語言設定為英文或在會議中Teams字幕。
+開啟此設定會建立與會議錄製一起儲存的記錄副本，啟用會議錄製上的搜尋、**副本** 和記錄。  
+
+錄製的會議文字目前僅支援將語言設定為英文或在會議中Teams字幕。
 
 ## <a name="allow-cloud-recording"></a>允許雲端錄製
 
