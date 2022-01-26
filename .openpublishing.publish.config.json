@@ -71,13 +71,13 @@
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft.zh-tw",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     },
     {
       "path_to_root": "_themes.pdf",
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     },
     {
@@ -92,13 +92,13 @@
       "branch": "live",
       "branch_mapping": {
         "live": "live",
-        "master": "master"
+        "main": "main"
       }
     },
     {
       "path_to_root": "_themes",
       "url": "https://github.com/Microsoft/templates.docs.msft.zh-TW",
-      "branch": "master",
+      "branch": "main",
       "branch_mapping": {}
     }
   ],
