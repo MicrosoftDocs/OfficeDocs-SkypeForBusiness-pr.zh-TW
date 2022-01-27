@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9f10a35e3be27b446fa7f55b5c9d97e3418fe36
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: a067488736a1392ac34259ba77518c299c46d203
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056083"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224010"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -143,8 +143,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 >```
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>開啟或關閉錄製內容謄寫
-
-此設定可控制在播放會議錄製內容期間是否提供字幕和謄寫功能。 如果您關閉此功能，則 [**錄製**] 和 [**CC**] 選項在播放會議錄製內容期間無法使用。 開始錄製的人員需要開啟此設定，讓錄製也包含謄寫。
+此設定可控制在播放會議錄製內容期間是否提供字幕和謄寫功能。 開始錄製的人需要開啟此設定，才能使用這些功能進行錄製。
+  
+開啟此設定將建立與會議錄製內容一起儲存的文字記錄，從而在會議錄製內容中啟用 **[搜尋]**、**[CC]** 和 **[文字記錄]**。
 
 > [!NOTE]
 > 錄製會議謄寫目前僅支援英文 (美國)、英文 (加拿大)、英文 (印度)、英文 (英國)、英文 (澳洲)、英文 (紐西蘭)、德文 (德國)、葡萄牙文 (巴西)、荷蘭文 (荷蘭)、荷蘭文 (比利時)、法文 (法國)、西班牙文 (西班牙)、日文 (日本)、法文 (加拿大)、中文 (粵語、繁體中文)、中文 (國語、簡體中文)、印地文 (印度)、義大利文 (義大利)、韓文 (韓國)、西班牙文 (墨西哥)、瑞典文 (瑞典)、波蘭文 (波蘭)、阿拉伯文 (阿拉伯聯合大公國)、阿拉伯文 (沙烏地阿拉伯)、丹麥文 (丹麥)、芬蘭文 (芬蘭)、挪威文 (挪威) 和俄文 (俄羅斯)。這些會議記錄會與商務用 OneDrive 和 SharePoint Online 雲端儲存空間中的會議錄製一起儲存。
@@ -408,7 +409,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -**New** MeetingRecordingExpirationDay
 
 目前錄製影片檔案的隱藏式字幕會連結到 Teams 會議文字記錄。在大部分情況下，此連結在檔案的存留期內維持不變，但如果影片檔案是在同一個商務用 OneDrive 或 SharePoint Online 網站中複製，則此連結可能會中斷，可能會導致在複製的影片檔案上無法提供字幕。
 
-日後若在 Teams 中的文字記錄與錄製內容之間的連結出現任何變更，都會在這裡和訊息中心通知中釐清。 如果我們之後做出任何變更，我們會確保錄製檔案在 60 天內以輔助字幕顯示會議文字記錄。
+日後若在 Teams 中的文字記錄與錄製內容之間的連結出現任何變更，都會在這裡和訊息中心通知中釐清。 如果我們之後做出任何變更，我們會確保錄製時間不到 60 天的檔案將會議的文字記錄顯示爲輔助字幕。
 
 > [!NOTE]
 > GCC 尚未提供會議謄寫功能。
