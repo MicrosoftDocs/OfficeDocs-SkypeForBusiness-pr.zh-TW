@@ -23,16 +23,18 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 瞭解如何整合 Teams EHR 連接器，讓貴組織的醫療保健提供者直接從 Cerner EHR 系統與 Teams 中的病患或其他提供者進行虛擬的拜訪。
-ms.openlocfilehash: 1669cd2b71a1052ff3580c2baa531c80ce69f073
-ms.sourcegitcommit: 01657a2a961712b8383b741b4ae983b9e07bdeb1
+ms.openlocfilehash: 40bfd115d966e812804c76ab77ab4ea2ddc70d7d
+ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/27/2021
-ms.locfileid: "61611330"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62248774"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>使用虛擬Teams - 整合至 Cerner EHR
 
-Microsoft Teams電子健康記錄 (EHR) 連接器，讓臨床醫生能輕鬆地與病患進行虛擬拜訪，或直接從 Cerner EHR 系統向 Microsoft Teams 中的另一個提供者諮詢。 此解決方案Microsoft 365雲端Teams，可在支援 HIPAA、HITECH 認證等合規性的單一中樞中，使用聊天、視視、語音和醫療保健工具進行簡單、安全的共同合作與通訊。
+[!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
+Microsoft Teams電子健康記錄 (EHR) 連接器，讓診所醫生能輕鬆地與病患進行虛擬拜訪，或直接從 Cerner EHR 系統向 Microsoft Teams 中的另一個提供者諮詢。 Microsoft 365雲端Teams，可在支援 HIPAA、HITECH 認證等合規性的單一中樞中，使用聊天、視視、語音和醫療保健工具進行簡單、安全的共同合作與通訊。
 
 診所通訊和共同Teams平臺，讓診所醫師能輕鬆從零散的系統中剪下雜亂無章的雜物，讓他們能專注于提供最佳的照護。 使用 Teams EHR 連接器，您可以：
 
@@ -52,7 +54,7 @@ Microsoft Teams電子健康記錄 (EHR) 連接器，讓臨床醫生能輕鬆地�
 在醫療保健組織中Teams EHR 連接器之前，您必須有下列專案：
 
 - 使用 EHR 連接器獨立Microsoft Teams訂閱， (在生產 EHR 環境中測試時) 。
-- 使用者擁有適當的Microsoft 365或Office 365授權，Teams會議。
+- 使用者擁有適當的Microsoft 365或Office 365，包括Teams會議。
 - Teams採用並用於您的醫療保健組織。
 - 您的系統符合[所有軟體與瀏覽器Teams。](../../hardware-requirements-for-the-teams-app.md)
 - Cerner 版本 2018 年 11 月或更新版本
@@ -77,7 +79,7 @@ Microsoft Teams電子健康記錄 (EHR) 連接器，讓臨床醫生能輕鬆地�
 
 ### <a name="enter-configuration-information"></a>輸入組組資訊
 
-接下來，若要設定整合，您的系統管理員Microsoft 365從 Cerner 新增快速健康 (互通性資源) 基本 URL 並指定環境。 視貴組織的需求和您想要測試的環境，視需要設定盡可能多的 FHIR 基本 URL。
+接下來，若要設定整合，您的系統管理員Microsoft 365從 Cerner (基本 URL (快速健康互通性資源) 並指定環境。 視貴組織的需求和您想要測試的環境，視需要設定盡可能多的 FHIR 基本 URL。
 
 :::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="EHR 連接器組Teams之組Teams頁面的螢幕擷取畫面。" lightbox="media/ehr-admin-cerner-configuration.png":::
 
@@ -143,7 +145,7 @@ Microsoft Teams電子健康記錄 (EHR) 連接器，讓臨床醫生能輕鬆地�
 提供者體驗的主要功能：
 
 - 提供者可以使用支援的瀏覽器或應用程式加入虛擬Teams。
-- 提供者可以使用所有支援Teams會議功能，包括螢幕分享、自訂背景和錄製。
+- 提供者可以使用所有支援的Teams功能，包括螢幕分享、自訂背景和錄製。
 - 提供者可以在 PowerChart 中查看連接到虛擬預約之病患即時更新。
 - 在虛擬流覽期間，病患看不到提供者資訊。
 
@@ -168,7 +170,7 @@ Teams整合至 EHR 系統，可優化整合和虛擬流覽流程期間使用及�
 
 EHR Teams連接器不會從 EHR 系統儲存或傳輸任何可識別的個人資料，或病患或醫療保健提供者的任何健康記錄。 EHR 連接器所儲存的唯一資料是 EHR 使用者的唯一識別碼，用於Teams設定期間。
 
-EHR 使用者的唯一識別碼儲存在 [Microsoft 365 客戶資料儲存位置](/microsoft-365/enterprise/o365-data-locations)的三個地理區域其中之一。 會議參與者在 Teams共用的所有聊天、錄製及其他資料，都是根據現有的儲存策略儲存。 若要深入瞭解資料在 Teams 中的位置，請參閱[資料在 Teams 中的位置](../../location-of-data-in-teams.md)。
+EHR 使用者的唯一識別碼儲存在 [Microsoft 365 客戶資料儲存位置](/microsoft-365/enterprise/o365-data-locations)的三個地理區域其中之一。 會議參與者在 Teams共用的所有聊天、錄製及其他資料，都是根據現有的儲存策略儲存。 若要深入瞭解資料在 Teams 中的位置，請參閱在 Teams 中[Teams。](../../location-of-data-in-teams.md)
 
 ## <a name="related-articles"></a>相關文章
 

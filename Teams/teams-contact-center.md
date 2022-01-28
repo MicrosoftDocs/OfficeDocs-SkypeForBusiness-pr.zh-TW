@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式聯絡人中心服務概觀 (CCaaS) 解決方案Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52abf252d82b8208a0474d2393bd6d3938eaacb7
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 6ca66a625b2050bb1c224085b78645375ae19895
+ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192164"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62248684"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>連絡人中心整合Microsoft Teams
 
@@ -75,6 +75,7 @@ Microsoft 認證計畫的Microsoft Teams中心會驗證每個參與提供者的�
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
+| `novomind` | https://www.netcall.com/platform/contact-centre/                         |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Tendfor` | https://www.tendfor.com/en/                                                                                     |
