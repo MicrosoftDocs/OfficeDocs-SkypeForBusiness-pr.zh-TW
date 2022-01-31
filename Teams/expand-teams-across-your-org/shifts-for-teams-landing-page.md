@@ -20,12 +20,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 6b2dbd5e48793422d8cbbf2252296e6bc17788a3
-ms.sourcegitcommit: 46375d36a879dd318e749df10bee75c6aa416bbc
+ms.openlocfilehash: 905e846537e40178eba55f1a4ccd9a0d1fd1f993
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/22/2021
-ms.locfileid: "61592137"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279180"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的 Shifts
 
@@ -39,16 +39,26 @@ ms.locfileid: "61592137"
 
 ## <a name="set-up-and-manage-shifts"></a>設定和管理班次
 
-|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
-| ------------- | ------------- | ------------- | ------------- |
-|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol."> | **[管理貴組織的班次](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** |<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">  |**[管理班管理的排程擁有者](shifts/schedule-owner-for-shift-management.md)**|
+|&nbsp;  |&nbsp; |
+|---------|---------|
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">|**[管理貴組織的班次](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** 瞭解如何為貴組織管理班次。 |
+|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">|**[管理班管理的排程擁有者](shifts/schedule-owner-for-shift-management.md)** 這項功能可讓您將團隊成員的許可權提升為排程擁有者，而不需要讓員工成為團隊擁有者。 |
+
+## <a name="shifts-connectors"></a>移轉連接器
+
+如果您使用的是協力廠商人力管理 (WFM) 系統進行排程，您可以透過受管理的 Shifts 連接器，以及透過 Shifts Graph API 和 SDK 與開放來源 Shifts 連接器直接與 Shifts 整合。 設定連接之後，前線工作人員可以在 Shifts 中順暢地在 WFM 系統中查看及管理排程。
+
+|&nbsp;  |&nbsp;  |
+|---------|---------|
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Shifts 連接器概觀](shifts/shifts-connectors.md)** 取得 Shifts 連接器及其工作方式概觀。 瞭解可用的受管理與開放來源連接器，以及支援的 WFM 系統。   |
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[受管理的 Shifts 連接器](shifts/shifts-connectors.md#managed-shifts-connectors)** 與合作夥伴共同開發的受管理的 Shifts 連接器是由我們或我們的合作夥伴託管和管理。 如果您使用的是 Reflexis WFM 系統，請參閱[適用于 Microsoft Teams的反身符 Shifts 連接器](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams)以深入瞭解。    |
+|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[開放來源 Shifts 連接器](/microsoftteams/platform/samples/shifts-wfm-connectors)** 瞭解如何使用 [社群導向](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)的開放來源連接器，透過 Shifts Graph API 和 SDK 整合您的 Kronos 或 JDA WFM 系統。    |
 
 ## <a name="shifts-extensions"></a>Shifts 擴充功能
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[移Graph API](/graph/api/resources/shift)** Shifts Graph API 讓您將 Shifts 資料與外部員工管理系統整合。 您可以在後端彈性地建立自訂 Shifts 體驗，同時為使用者提供豐富的前端體驗，Teams。             |
-| <img src="/office/media/icons/api.png" alt="Three gears - API.">| **[員工管理整合](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** 如果您使用的是協力廠商員工管理系統 ，例如 Kronos 和 JDA，用於排程、時間和出勤，您可以透過 Shifts Graph API 和 SDK 與開放來源整合，直接與 Shifts 整合。 |
+| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[移Graph API](/graph/api/resources/shift)** Shifts Graph API 讓您將 Shifts 資料與外部員工管理整合至 WFM (系統) 整合。 您可以在後端彈性地建立自訂 Shifts 體驗，同時讓使用者在 Teams。             |
 |<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate可讓您從 Shifts 中取資訊，並與其他 App 建立自訂工作流程，並大規模執行作業。 使用幾乎不執行任何程式碼來自動化重要程式。 觸發程式與範本支援各種案例，例如，在不需要主管核准時，為輪班要求啟用自動核准。 |
 
 ## <a name="featured-training"></a>精選訓練

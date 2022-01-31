@@ -1,5 +1,5 @@
 ---
-title: 適用於小型企業的 Teams 基本版快速入門指南
+title: 適用於小型企業的 Microsoft Teams 基本版快速入門指南
 author: adeejoseph
 ms.author: adjoseph
 manager: serdars
@@ -16,14 +16,14 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8ec92d734a62b0bfe7416a0aa83f46151ca95ab
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: a779d094e7a1f266a19aaecf6bbb86732f75f66b
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306428"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279371"
 ---
-# <a name="teams-essentials-quickstart-guide-for-small-businesses"></a>適用於小型企業的 Teams 基本版快速入門指南
+# <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>適用於小型企業的 Microsoft Teams 基本版快速入門指南
 
 Microsoft Teams 基本版是獨立的 Teams 訂閱，提供適用于小型企業的會議、聊天和共同合作等多合一解決方案。 隨著企業適應對遠端工作與虛擬連接的需求增加，您可能會想尋找一個能安全地與員工、合作夥伴、供應商和客戶共同合作的方法。 無論您是多城市服務的麵包店或九人活動機構，Microsoft Teams 基本版都可以透過一個連結體驗，將您的業務整合在一起。
 
@@ -31,11 +31,11 @@ Microsoft Teams 基本版是獨立的 Teams 訂閱，提供適用于小型企業
 
 Microsoft Teams 基本版可直接在 Microsoft 網站購買，並選取 Microsoft 雲端合作夥伴。 透過直接和合作夥伴的訂閱，在某些方面會有所不同，因為它們使用不同的身分識別系統。 請瀏覽本文稍後的表格以瞭解更多資訊，請前往此處：[Microsoft Teams 基本版方案](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
 
-透過 Microsoft 直接網站購買的訂閱使用 Microsoft 帳戶身分識別，可讓您使用現有的電子郵件地址 (例如 MeganB@outlook.com、MeganB@gmail.com 或 MeganB@ContosoLandscaping.com) 進行註冊。
+透過 Microsoft 直接網站購買的訂閱使用 Microsoft 帳戶身分識別，可讓您使用現有的電子郵件地址 (例如 TomislavK@outlook.com、TomislavK@gmail.com 或 TomislavK@ContosoLandscaping.com) 進行註冊。
 
 或者，透過選取的 Microsoft 認證合作夥伴購買的 Teams 基本版會使用 Azure Active Directory (AAD)，要求您建立新登入/身分識別。 合作夥伴可以將 Teams 基本版設定為連接至您現有的電子郵件地址，以便您可以使用您現有的電子郵件地址來登錄。  
 
-## <a name="what-teams-essentials-subscription-do-i-have"></a>我擁有哪些 Teams 基本版訂閱？  
+## <a name="what-microsoft-teams-essentials-subscription-do-i-have"></a>我擁有哪些 Microsoft Teams 基本版訂閱？  
 
 如果您透過 Microsoft 網站 (直接) 購買 Teams 基本版，則您擁有 **Microsoft Teams 基本版**。
 
@@ -131,7 +131,7 @@ Microsoft Teams 基本版可直接在 Microsoft 網站購買，並選取 Microso
 
 3. **規劃採用。** 對於小型企業，規劃使用者採用可以很簡單，就是個別向使用者展示如何使用 Teams。 通常，小型企業客戶不會針對新的應用程式考慮此步驟，而且可能會對應用程式的成功和採用造成負面影響。
 
-3.  **管理 Teams 基本版。** 與 Microsoft Teams 免費版類似，您作為組織中第一個註冊 Teams 基本版的人，具有有限的系統管理員角色。 您可以新增和移除小組成員，並指定是否任何人都能邀請具有此角色的其他成員，但您沒有進一級的系統管理功能或 Microsoft Teams 系統管理中心的存取權。
+3.  **管理 Microsoft Teams 基本版。** 與 Microsoft Teams 免費版類似，您作為組織中第一個註冊 Teams 基本版的人，具有有限的系統管理員角色。 您可以新增和移除小組成員，並指定是否任何人都能邀請具有此角色的其他成員，但您沒有進一級的系統管理功能或 Microsoft Teams 系統管理中心的存取權。
 
 ## <a name="upgrade-from-a-free-version-of-microsoft-teams-to-microsoft-teams-essentials"></a>從免費版本的 Microsoft Teams 升級至 Microsoft Teams 基本版
 
@@ -161,7 +161,7 @@ Microsoft Teams 基本版可直接在 Microsoft 網站購買，並選取 Microso
 
 #### <a name="how-do-i-upgrade-my-organization"></a>如何升級我的組織？
 
-若要升級至 Microsoft Teams 基本版的 Teams 版本，請選取 **…** 在頂端的瀏覽功能表中。 接下來，選取功能表底部顯現的 **升級**  選項按鈕。   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="顯示 [升級] 按鈕的螢幕擷取畫面"::: 
+若要升級至 Microsoft Teams 基本版的 Teams 版本，請選取 **…** 在頂端的導覽功能表中。 接下來，選取功能表底部顯現的 **升級**  選項按鈕。   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="顯示 [升級] 按鈕的螢幕擷取畫面"::: 
 
 在於 Teams 中選取 **[升級]** 按鈕之後，系統會將您導向此處：[適用於小型企業的 Microsoft Teams](https://www.microsoft.com/microsoft-teams/upgrade-teams)
 
@@ -172,7 +172,7 @@ Microsoft Teams 基本版可直接在 Microsoft 網站購買，並選取 Microso
 
 否。 只有透過選取 Microsoft 雲端合作夥伴才能使用具有 AAD 身分識別的 Teams 基本版。 如果您有興趣與合作夥伴合作，請瀏覽 [Microsoft 合作夥伴雲端解決方案提供者](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)。
 
-### <a name="can-i-use-an-existing-email-system-with-teams-essentials"></a>我可以使用現有的電子郵件系統與 Teams 基本版嗎？  
+### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>我可以使用現有的電子郵件系統與 Microsoft Teams 基本版嗎？  
 
 是的。 您可以保留現有的電子郵件系統，並運用 Teams 基本版進行會議、聊天和共同合作。  
 
