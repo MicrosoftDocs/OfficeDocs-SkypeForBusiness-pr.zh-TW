@@ -13,19 +13,21 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 905e846537e40178eba55f1a4ccd9a0d1fd1f993
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 4c3ed73b3238be2795c30fa7d162ed201cd77afd
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279180"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288501"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的 Shifts
 
@@ -58,7 +60,7 @@ ms.locfileid: "62279180"
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[移Graph API](/graph/api/resources/shift)** Shifts Graph API 讓您將 Shifts 資料與外部員工管理整合至 WFM (系統) 整合。 您可以在後端彈性地建立自訂 Shifts 體驗，同時讓使用者在 Teams。             |
+| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[移Graph API](/graph/api/resources/shift)** Shifts Graph API 讓您將 Shifts 資料與外部員工管理與 WFM (整合) 整合。 您可以在後端彈性地建立自訂 Shifts 體驗，同時讓使用者在 Teams。             |
 |<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate可讓您從 Shifts 中取資訊，並與其他 App 建立自訂工作流程，並大規模執行作業。 使用幾乎不執行任何程式碼來自動化重要程式。 觸發程式與範本支援各種案例，例如，在不需要主管核准時，為輪班要求啟用自動核准。 |
 
 ## <a name="featured-training"></a>精選訓練

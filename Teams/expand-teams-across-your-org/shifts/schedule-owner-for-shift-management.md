@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: 瞭解如何管理輪班擁有者進行排程管理。 您可以設定一個策略，將團隊成員的許可權提升為排程擁有者。
 f1.keywords:
 - NOCSH
@@ -19,21 +20,22 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 702ca0fd5b392755b1966d16024d5ecf10cdacab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 12cf33f193e7f1d1a976e5cde8612df19108cb69
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627535"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288631"
 ---
-# <a name="schedule-owner-for-shift-management"></a>輪班管理的排程擁有者
+# <a name="schedule-owner-for-shift-management"></a>班管理的排程擁有者
 
 ## <a name="overview"></a>概觀
 
-排程擁有者是一項功能，可讓您將團隊成員的許可權提升為排程擁有者，而不需要讓員工成為團隊擁有者。 這表示員工有權管理小組的排程，而不必修改任何其他小組屬性，例如更新、編輯或刪除小組頻道。
+排程擁有者功能可讓您提升團隊成員的許可權，讓他們可以管理排程，而不需要讓員工成為團隊擁有者。 有了排程擁有者許可權，員工就可以管理小組的排程，而不必修改任何其他小組屬性，例如更新、編輯或刪除小組頻道。
 
 具有排程擁有者許可權的使用者可以做什麼？
 
@@ -50,7 +52,7 @@ ms.locfileid: "58627535"
 
 以下是貴組織如何使用排程擁有者功能範例。
 
-您工作在大型組織中，部門主管直接向市管理人員報告。 商店管理員在貴公司中擁有更多權力，且是 Shifts 中的團隊擁有者。 另一方面，部門主管則只會新增為小組成員至 Shifts。 雖然市售經理比部門經理的年長還要高，但部門主管處理小組員工日常排程的方式較為合理。
+您工作在大型組織中，部門主管直接向市管理人員報告。 商店管理員在貴公司中擁有更多權力，且是 Shifts 中的團隊擁有者。 另一方面，部門主管則只會新增為小組成員至 Shifts。 雖然市售經理比部門經理的年長還要高，但部門主管處理小組員工日常排程會比較合理。
 
 *若沒有排* 程擁有者，部門主管必須獲得與團隊擁有者完全相同的許可權。 最近，部門主管一直在移動資訊，並變更頻道名稱，這已造成商店管理員工作的麻煩。 商店管理員希望部門主管能夠組織其排程，但不希望他們變更小組中班次以外的任何專案。
 
@@ -58,7 +60,7 @@ ms.locfileid: "58627535"
 
 ## <a name="manage-schedule-ownership"></a>管理排程擁有權
 
-做為系統管理員，您可以使用策略來控制貴組織中排程管理的擁有權。 您可以使用下列 PowerShell Cmdlet 管理這些策略：
+做為系統管理員，您可以使用策略來控制貴組織中排程管理的擁有權。 您可以使用下列 PowerShell Cmdlet 來管理這些策略：
 
 - [New-CsTeamsShiftsPolicy](/powershell/module/teams/new-csteamsshiftspolicy?view=teams-ps)
 - [Get-CsTeamsShiftsPolicy](/powershell/module/teams/get-csteamsshiftspolicy?view=teams-ps)

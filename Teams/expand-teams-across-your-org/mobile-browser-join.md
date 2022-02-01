@@ -10,27 +10,29 @@ search.appverid: ''
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection:
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: 瞭解在行動瀏覽器上Teams虛擬流覽的加入體驗。
-ms.openlocfilehash: f8307902d7689cf56f10f3705ca3d5611a0f3d11
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 5c4b0f7ac9011d12d12e3076f900880292e72eb1
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960112"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288561"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>管理在行動瀏覽器上Teams虛擬流覽的加入體驗
 
 Microsoft Teams，使用者無需下載約會，即可在行動裝置上Teams。 為了更順暢地體驗，出席者可以從行動瀏覽器加入約會，例如醫療保健訪問、財務諮詢、教育人員辦公室時數等。 出席者不需要在 Android Teams iOS 行動裝置上安裝應用程式。
 
-使用行動瀏覽器加入時，當出席者從行動裝置加入約會時，系統不會提示他們下載Teams。 相反地，Teams在行動瀏覽器中開啟，出席者可以在這裡選取立即 **加入** 以加入。 使用這項功能時，請記住，Teams已安裝在出席者行動裝置上，Teams在行動瀏覽器中開啟，而不是在應用程式中開啟。
+使用行動瀏覽器加入時，當出席者從行動裝置加入約會時，系統不會提示他們下載Teams。 相反地，Teams在行動瀏覽器中開啟，出席者可以在這裡選取立即 **加入** 以加入。 使用這項功能時，請記住，如果Teams已安裝在出席者行動裝置上，Teams在行動瀏覽器中開啟，而不是在應用程式中開啟。
 
 目前，行動瀏覽器加入適用于透過下列方式排程的約會：
 
@@ -50,13 +52,13 @@ Microsoft Teams，使用者無需下載約會，即可在行動裝置上Teams。
 
 #### <a name="turn-on-mobile-browser-join-for-an-appointment-type"></a>開啟約會類型的行動瀏覽器加入
 
-在 Bookings 中，設定約會類型，選取約會類型，然後開啟允許出席者從行動瀏覽器  >  ******加入**。 [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) 這麼做可讓行動瀏覽器加入此類型的所有約會。
+在 Bookings 中，前往 **設定**  >  **Appointment 類型**，選取約會類型，然後 [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)開啟允許出席者從行動 **瀏覽器加入**。 這麼做可讓行動瀏覽器加入此類型的所有約會。
 
 :::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="允許出席者從行動瀏覽器設定加入 Bookings 應用程式中約會類型的螢幕擷取畫面":::
 
 #### <a name="turn-on-mobile-browser-join-for-an-individual-appointment"></a>開啟行動瀏覽器加入個別約會
 
-在 Bookings 中，選取 **新的預約**，然後開啟允許出席者 **從行動瀏覽器加入**。
+在 Bookings 中，選取 **新增預約**，然後開啟允許出席者 **從行動瀏覽器加入**。
 
 :::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="在 Bookings 應用程式的新預約表單上，允許出席者從行動瀏覽器加入的螢幕擷取畫面":::
 
@@ -64,7 +66,7 @@ Microsoft Teams，使用者無需下載約會，即可在行動裝置上Teams。
 
 您或教職員不需要設定！
 
-**與 Cerner EHR** 的整合：Teams EHR 連接器可支援透過行動系統加入虛擬訪問的病患。 在預約時，病患可以點一下簡訊中的連結來加入虛擬拜訪。 病患選擇他們想要的瀏覽器，然後Teams瀏覽器中開啟。
+**與 Cerner EHR 的整合**：Teams EHR 連接器可支援透過行動系統加入虛擬訪問的病患。 在預約時，病患可以點一下簡訊中的連結來加入虛擬拜訪。 病患選擇他們想要的瀏覽器，然後Teams瀏覽器中開啟。
 
 **與Epic EHR** 的整合：Teams EHR 連接器可支援透過 MyChart Web 和 Mobile 加入虛擬訪問的病患。 預約時，病患可以使用開始虛擬瀏覽按鈕，從 MyChart 開始 **虛擬流覽** 。 病患選擇他們想要的瀏覽器，然後Teams瀏覽器中開啟。
 

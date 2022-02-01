@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: 瞭解如何在組織中為前線員工Teams並管理 Shifts 應用程式。
 f1.keywords:
 - NOCSH
@@ -19,15 +20,16 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ec708d310ea72ac56b5f6ad6bb65a4ab436915f6
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: fa274c8aa068d7b17ce35d17525b58152677de07
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192374"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288371"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [班次] 應用程式
 
@@ -58,17 +60,17 @@ ms.locfileid: "62192374"
 您的組織中的所有 Teams 使用者預設會啟用 [班次]。 您可以在 Microsoft Teams 系統管理中心的[管理應用程式](../../manage-apps.md)頁面上關閉或開啟組織層級的應用程式。
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
-2. 在應用程式清單中，搜尋 Shifts 應用程式，選取它，然後將狀態切換開關切換為封鎖 **或****允許**。
+2. 在應用程式清單中，搜尋 Shifts 應用程式，選取它，然後將狀態切換開關切換為封鎖 **或****允許**。****
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>啟用或停用組織中特定使用者的 [班次]
 
-若要允許或封鎖貴組織的特定使用者使用 Shifts，請確定貴組織在管理應用程式頁面上已開啟[Shifts。](../../manage-apps.md) 然後建立自訂應用程式權限原則，並將其指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](../../teams-app-permission-policies.md)。
+若要允許或封鎖貴組織的特定使用者使用 Shifts，請確定貴組織在管理應用程式頁面上已開啟 [Shifts](../../manage-apps.md) 。 然後建立自訂應用程式權限原則，並將其指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](../../teams-app-permission-policies.md)。
 
 ### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>使用應用程式設定策略將 Shifts 釘Teams
 
 應用程式設定原則可讓您自訂 Teams，以醒目提示對貴組織中的使用者最重要的應用程式。 您在原則中設定的應用程式會釘選到應用程式列&mdash;位於 Teams 桌面版用戶端側邊列，以及位於 Teams 行動版用戶端底部&mdash;，可讓使用者快速且輕鬆地存取。
 
-您可以新增 [Shifts](../../teams-app-setup-policies.md) 應用程式來建立自訂應用程式設定策略，然後將該策略 [指派](../../assign-policies-users-and-groups.md) 給使用者。 或者，您可以使用屬於前線員工和 Frontline Manager 策略套件的應用程式設定策略。
+您可以 [新增 Shifts](../../teams-app-setup-policies.md) 應用程式來建立自訂應用程式設定策略，然後將該策略 [指派](../../assign-policies-users-and-groups.md) 給使用者。 或者，您可以使用屬於前線員工和 Frontline Manager 策略套件的應用程式設定策略。
 
 其中[一個](../../manage-policy-packages.md)Teams套件是預先定義的策略和設定集合，您可以指派給組織中具有類似角色的使用者。 Frontline Worker 和 Frontline Manager 策略套件中的一群組原則包含將 Shifts App 和其他支援該角色通訊和共同合作活動的 App 設定策略。
 

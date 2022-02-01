@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: 瞭解如何針對貴組織中的使用者管理 Teams 中的 [清單] 應用程式。
 f1.keywords:
 - NOCSH
@@ -18,16 +19,17 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 - m365initiative-lists
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 72235497f2b020aaed1228ecadff781ed76b7341
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bd70e5fbca82637299e6adef745bccc725525311
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829547"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288481"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [清單] 應用程式
 
@@ -35,7 +37,7 @@ ms.locfileid: "60829547"
 
 Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者追蹤資訊、整理工作及管理工作流程。 使用 [清單]，使用者可以使用可自訂的視圖、規則和警示來追蹤相關資料，例如問題、資產、例行會議、連絡人、庫存、事件、貸款、病人等，以保持團隊中的每個人同步。
 
-在 Teams 中，使用者將 [清單] 視為頻道中的索引標籤加以存取。 按一下 **+** 以開啟索引標籤庫，並將新 [清單] 應用程式索引標籤實例新增至頻道，以開始使用。
+在 Teams 中，使用者將 [清單] 視為頻道中的索引標籤加以存取。 選取 **+** 以開啟定位停駐點庫，並新增清單應用程式 Tab 實例至頻道以開始使用。
 
 ![在 Tab 庫中列出應用程式。](media/lists-tab.png)
 
@@ -58,7 +60,7 @@ Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者
 
 聚會之後，郵件運送人就會撿拾自己的郵件並啟動其遞送路線。 在遞送路線中可能會發生事件，例如車輛事故、狗相關的問題或社會動亂的抗議。 當郵件運送人遇到事件時，他們會利用其行動裝置上的 Teams 來記錄事件詳細資料，並透過小組頻道的清單追蹤。 小組中的每個人 (包括在外面的郵件運送人) 都能看到這項資訊並取得最新訊息。
 
-移至 Teams 之前，郵件運送人必須回到郵局，完成紙本表單，以報告在 Excel 試算表中輸入的事件。 Teams 先提供郵件運送人一個行動裝置，讓他們體會可以在何處使用 [清單] 來報告實地發生的事件、與小組成員分享事件詳細資料、在頻道中進行討論以及取得問題的解決方法。
+在移轉到Teams之前，郵件電信公司必須返回郵局以完成列印表單，以報告事件，然後將事件輸入Excel試算表中。 Teams 先提供郵件運送人一個行動裝置，讓他們體會可以在何處使用 [清單] 來報告實地發生的事件、與小組成員分享事件詳細資料、在頻道中進行討論以及取得問題的解決方法。
 
 ## <a name="what-you-need-to-know-about-lists"></a>必須知道的有關 [清單] 的事情
 
@@ -72,7 +74,7 @@ Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者
 
 在 SharePoint 中設定的權限會套用至 [清單] 應用程式中建立的清單。 根據預設，清單會繼承其所屬網站的權限。 這些權限會掌控使用者可以執行的動作類型，例如是否可建立或編輯清單。 若要深入瞭解，請參閱 [SharePoint 的權限等級](/sharepoint/understanding-permission-levels)以及 [SharePoint Server 中的使用者權限和權限等級](/sharepoint/sites/user-permissions-and-permission-levels)。
 
-在某些情況下，您可能會想限制使用者可在清單中執行的動作。 例如，小組中的某人編輯清單視圖，使得所有小組成員的視圖都跟著改變，而您只想讓小組擁有者或特定小組成員可以編輯清單視圖。 若要深入瞭解，請參閱[自訂 SharePoint 清單或文件庫的權限](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)。
+在某些情況下，您可能會想要限制使用者可以在清單中執行的動作。 例如，小組中的某人編輯清單視圖，使得所有小組成員的視圖都跟著改變，而您只想讓小組擁有者或特定小組成員可以編輯清單視圖。 若要深入瞭解，請參閱[自訂 SharePoint 清單或文件庫的權限](https://support.microsoft.com/office/customize-permissions-for-a-sharepoint-list-or-library-02d770f3-59eb-4910-a608-5f84cc297782#ID0EAACAAA=Online,_2019,_2016,_2013)。
 
 > [!NOTE]
 > 此時，小組中的擁有者和成員的權限不會以任何方式連結到小組網站中掌控清單行為或 [清單] 應用程式的權限。 不過，根據客戶的意見反應和使用狀況，我們會在產品的未來反覆項目中將此考慮在內。  
@@ -96,8 +98,8 @@ Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
 2. 執行下列其中一項：
 
-    - 若要關閉貴組織的 [清單]，請搜尋 [清單] 應用程式，加以選取，然後按一下 **封鎖**。
-    - 若要開啟貴組織的 [清單]，請搜尋 [清單] 應用程式，加以選取，然後按一下 **允許**。
+    - 若要關閉貴組織的清單，請搜尋清單應用程式，選取它， **然後選取封鎖**。
+    - 若要開啟貴組織的清單，請搜尋清單應用程式，選取它， **然後選取允許**。
 
 ### <a name="enable-or-disable-lists-for-specific-users-in-your-organization"></a>啟用或停用組織中特定使用者的 [清單]
 
@@ -105,7 +107,7 @@ Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者
 
 ## <a name="search-the-audit-log-for-list-events"></a>搜尋清單活動的稽核記錄檔
 
-您可以使用企業層級稽核啟用清單，以便在安全性與合規性中心的稽核記錄檔中搜尋清單和清單項目事件。 若要深入了解，請參閱[搜尋安全性與合規性中心的稽核記錄檔](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
+清單已啟用企業層級稽核功能，因此您可以在安全性與合規性中心的稽核記錄中搜尋清單&專案事件。 若要深入了解，請參閱[搜尋安全性與合規性中心的稽核記錄檔](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)。
 
 如需和 Teams 中 [清單] 應用程式相關的稽核活動清單，請參閱 [SharePoint 清單活動](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#sharepoint-list-activities)。
 
@@ -117,8 +119,8 @@ Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者
 
 ## <a name="give-feedback-or-report-an-issue"></a>提供意見反應或回報問題
   
-若要傳送意見反應或報告問題，請按一下 Teams 左邊瀏覽列底部附近的 **說明** ，然後選取 **報告問題**。 選取 **清單**，然後輸入您的意見反應或您所遇到問題的詳細資料。
+若要傳送意見或報告問題，請在左側導圖底部附近選取 Teams，然後選取報告 **問題**。 選取 **清單**，然後輸入您的意見反應或您所遇到問題的詳細資料。
 
-## <a name="related-topics"></a>相關主題
+## <a name="related-articles"></a>相關文章
 
 - [[清單] 說明文件](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b#PickTab=Lists)
