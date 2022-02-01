@@ -18,34 +18,34 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a22ced459a9e014b92a7141a224ea20d5f7022d2
-ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
+ms.openlocfilehash: dd07e375a35ea212bccd988395b5c1adbd721011
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "60633509"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62299048"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在 Teams 系統管理中心開始使用團隊範本
 
 **尚未支援 EDU 客戶建立自訂範本的能力。**
 
 > [!NOTE]
-> 小組範本目前不支援私人頻道和敏感度標籤。 範本定義中不包含私人頻道建立功能。 從範本流程 **建立團隊** 中的敏感度標籤選項將不會適用于該團隊。
+> 小組範本目前不支援私人頻道和敏感度標籤。 範本定義中不包含私人頻道建立功能。 從範本流程 **建立團隊** 中的敏感度標籤選項將不會適用于團隊。
 
 ## <a name="overview"></a>概觀
 
-團隊範本Microsoft Teams是圍繞業務需求或專案所設計之團隊結構的定義。 做為系統管理員，您可以使用範本輕鬆部署整個組織的一致團隊。 有了範本，您的使用者可以使用預先定義的設定、頻道和應用程式，快速建立豐富的共同合作空間。
+團隊範本Microsoft Teams是圍繞業務需求或專案所設計之團隊結構的定義。 做為系統管理員，您可以使用範本，輕鬆在貴組織中部署一致的團隊。 有了範本，您的使用者可以使用預先定義的設定、頻道和應用程式，快速建立豐富的共同合作空間。
 
-您可以在系統管理中心Microsoft Teams小組範本，或使用 PowerShell。 您可以使用我們提供的預先建立範本，您也可以 [建立自己的自訂範本](#create-your-own-team-templates)。 您也可以使用[範本原則](#apply-team-template-policies)來控制哪些範本可供您的使用者在 Teams。
+您可以在系統管理中心或Microsoft Teams PowerShell 管理小組範本。 您可以使用我們提供的預先建立範本，您也可以 [建立自己的自訂範本](#create-your-own-team-templates)。 您也可以使用[範本原則](#apply-team-template-policies)來控制哪些範本可供您的使用者在 Teams。
 
-本文提供在系統管理中心使用小組範本Teams概觀。 您將瞭解範本中支援的屬性、我們提供的預先建立範本、範本大小限制、如何建立及管理範本等。
+本文提供在系統管理中心使用小組範本Teams概觀。 您將瞭解範本中支援的屬性、我們提供的預先建立範本、範本大小限制、如何建立及管理範本等等。
 
 > [!NOTE]
-> 您的使用者可以從應用程式內預先建立或[自訂的團隊](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)範本Teams團隊。 開發人員也可以以程式設計的方式使用 Microsoft Graph。 若要深入瞭解[，請參閱開始使用](get-started-with-teams-templates.md)Microsoft Graph。
+> 您的使用者可以從應用程式內預先建立或[自訂的團隊](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)範本Teams團隊。 開發人員也可以以程式設計的方式使用 Microsoft Graph 預先建立的團隊範本。 若要深入瞭解，請參閱開始使用[Microsoft](get-started-with-teams-templates.md) Graph。
 
 ## <a name="team-template-capabilities"></a>小組範本功能
 
-團隊範本會包含並支援小組中的大部分屬性。 但目前不支援一些屬性和功能。 以下是小組範本中不包含的內容摘要。
+團隊範本會包含並支援小組中的大部分屬性。 但目前不支援一些屬性和功能。 以下摘要顯示小組範本包含的內容和未包含的內容。
 
 | **小組範本支援的小組屬性** | **小組範本尚未支援的團隊屬性** |
 | ------------------------------------------------ | -------------------------------------------------------- |
@@ -54,7 +54,7 @@ ms.locfileid: "60633509"
 | 團隊描述 | 頻道設定 |
 | 團隊可見度 (公開或私人)  | 連接 |
 | 團隊設定 (例如成員、來賓、@ 提及)  | 檔案和內容 |
-| Autofavorite 頻道 | |
+| 自動favorite頻道 | |
 | 已安裝的應用程式 | |
 | 釘上定位點 | |
 
@@ -63,7 +63,7 @@ ms.locfileid: "60633509"
 
 ## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>系統管理中心內預先建立Teams範本
 
-以下是在系統管理中心提供的預先建立Teams範本。 預先建立範本是專為特定產業所建立範本。 若要查看這些範本，在系統管理中心的左側導Teams，請前往 Teams ****  >  **範本**。
+以下是在系統管理中心提供的預先建立Teams範本。 預先建立範本是我們為特定產業所建立範本。 若要查看這些範本，在系統管理中心的左側導Teams，請前往  >  Teams **Team 範本**。
 
 您可以複製預先建立範本，但無法編輯它們。 如果您想要變更預先建立範本中的屬性，您可以從現有的範本建立新範本，然後新增或移除您想要的屬性。 請記住，某些範本中的某些屬性無法變更。
 
@@ -71,22 +71,19 @@ ms.locfileid: "60633509"
 | ------------------ | -------------- | ----------------------------------------------------- |
 | 採用Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  頻道： <ul><li>一般</li> <li>公告</li> <li>冠軍角</li> <li>小組表單</li><li>行事曆</li></ul> 應用程式： <ul><li>Wiki</li>  <li>頻道日曆</li> <li>里程碑</li><li>佈告欄</li></ul>|
 | 管理專案 |`com.microsoft.teams.template.ManageAProject`| 頻道： <ul><li>一般</li> <li>公告</li> <li>資源</li> <li>規劃</li></ul> 應用程式：<ul><li>Wiki</li><li>OneNote</li><li>工作</li><li>清單</li><li>Power Automate</li></ul> |
-| 管理活動|`com.microsoft.teams.template.ManageAnEvent` | 頻道： <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與公關</li></ul> 應用程式：<ul><li>Wiki</li><li>網站</li> <li>YouTube</li> <li>工作</li> <li>OneNote</li> <li>員工構想</li> <li>問題報告者</li><li>Power Automate</li><li>佈告欄</li><li>里程碑</li></ul> |
-|員工上機|`com.microsoft.teams.template.OnboardEmployees` | 頻道： <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用程式：<ul><li>Wiki</li><li>社區</li><li>工作</li><li>員工構想</li><li>Power Automate</li><li>佈告欄</li><li>里程碑</li></ul>|
+| 管理活動|`com.microsoft.teams.template.ManageAnEvent` | 頻道： <ul><li>一般</li> <li>公告</li> <li>預算</li> <li>內容</li><li>物流</li> <li>規劃</li> <li> 行銷與公關</li></ul> 應用程式：<ul><li>Wiki</li><li>網站</li> <li>YouTube</li> <li>工作</li> <li>OneNote</li> <li>員工的想法</li> <li>問題報告者</li><li>Power Automate</li><li>佈告欄</li><li>里程碑</li></ul> |
+|上載員工|`com.microsoft.teams.template.OnboardEmployees` | 頻道： <ul><li>一般</li> <li>公告</li> <li>員工聊天</li> <li>訓練</li></ul>應用程式：<ul><li>Wiki</li><li>社區</li><li>工作</li><li>員工的想法</li><li>Power Automate</li><li>佈告欄</li><li>里程碑</li></ul>|
 |組織服務台| `com.microsoft.teams.template.OrganizeHelpDesk`|頻道：<ul><li>一般</li><li>公告</li><li>常見問題集</li></ul>應用程式：<ul><li>Wiki</li><li>OneNote</li><li>工作 </li><li>稱讚</li><li>問題報告者</li><li>Power Automate</li><li>佈告欄</li></ul> |
 | 病患照護| `com.microsoft.teams.template.healthcareWard`| 頻道：<ul><li>一般</li><li>公告</li><li>過程中討論</li><li>輪次</li><li>人員</li><li>訓練</li></ul> 應用程式： <ul><li>Wiki</li><li>清單  </li><li>核准</li><li>佈告欄</li><li>檢查</li></ul>|
-| 危機通訊 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 頻道： <ul><li>一般<li>公告</li><li>世界新訊</li><li>內部通訊</li><li>外部通訊</li><li>核准要求</li><li>客戶升級</li><li>主管更新</li><li>規劃</li><li>物流</li></ul>應用程式： <ul><li>網站</li><li>工作</li><li>問題報告者</li><li>核准</li><li>佈告欄</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
+| 危機通訊 |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| 頻道： <ul><li>一般<li>公告</li><li>世界新聞</li><li>內部通訊</li><li>外部通訊</li><li>核准要求</li><li>客戶升級</li><li>主管更新</li><li>規劃</li><li>物流</li></ul>應用程式： <ul><li>網站</li><li>工作</li><li>問題報告者</li><li>核准</li><li>佈告欄</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
 |銀行分行| `com.microsoft.teams.template.CollaborateWithinABankBranch`|頻道： <ul><li>一般<li>公告</li><li>過程中討論</li><li>客戶會議</li><li>核准要求 </li><li>指導</li><li>技能開發</li><li>借貸處理</li><li>客戶投訴</li><li>讚美</li><li>趣味內容</li><li>合規性</li></ul>應用程式：<ul><li>稱讚 </li><li>問題報告者</li><li>Wiki</li><li>行事曆</li><li>核准</li><li>佈告欄</li><li>構想</li></ul>|
 |事件回應| `com.microsoft.teams.template.CoordinateIncidentResponse`|頻道： <ul><li>一般<li>公告</li><li>物流</li><li>規劃</li><li>恢復</li><li>緊急</li></ul> 應用程式： <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>工作</li> <li>核准</li> <li>檢查</li> <li>Power Automate</li><li>佈告欄</li><li>里程碑</li></ul>|
 |醫院| `com.microsoft.teams.template.healthcareHospital` |頻道： <ul><li>一般</li><li>公告</li><li>合規性</li><li>監管</li><li>人力資源</li><li>藥品部</li></ul> 應用程式： <ul><li>Wiki</li><li>清單</li><li>工作</li><li>核准</li><li>班次</li><li>佈告欄</li><li>檢查</li><li>構想</li></ul>|
-|組織商店| `com.microsoft.teams.template.retailStore` |頻道： <ul><li>一般<li>班次交班</li><li>存放區整備</li><li>學習</li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li><li>班次</li><li>檢查</li></ul>|
+|組織商店| `com.microsoft.teams.template.retailStore` |頻道： <ul><li>一般<li>班次交班</li><li>存放區整備</li><li>Learning</li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li><li>班次</li><li>檢查</li></ul>|
 |零售管理員| `com.microsoft.teams.template.retailManagerCollaboration` |頻道： <ul><li>一般<li>營運</li><li>學習</li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li><li>檢查</li></ul>|
 |品質和安全性 |`com.microsoft.teams.template.QualitySafety`|頻道： <ul><li>一般<li>公告</li><li>領導</li><li>維護</li><li>第 1 條生產線</li><li>第 2 條生產線</li><li>第 3 條生產線</li><li>健康與安全</li><li>訓練</li><li>趣味內容</li></ul> 應用程式： <ul><li>Wiki</li><li>工作</li> <li>問題報告者</li> <li>檢查</li> </ul>|
-|管理志願者| `com.microsoft.teams.template.ManageVolunteers` |頻道： <ul><li>一般<li>公告</li><li>報告</li><li>志願者管理</li><li>互動商機</li><li>志願者上機</li></ul> 應用程式： <ul><li>網站</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>工作</li><li>SharePoint</li><li>OneNote</li></ul>|
+|管理志願者| `com.microsoft.teams.template.ManageVolunteers` |頻道： <ul><li>一般<li>公告</li><li>報告</li><li>志願者管理</li><li>預定機會</li><li>志願者上線</li></ul> 應用程式： <ul><li>網站</li><li>YouTube</li><li>Power BI</li><li>Power 應用程式</li><li>工作</li><li>SharePoint</li><li>OneNote</li></ul>|
 ||||
-
-&sup1;應用程式已做為索引標籤新增到頻道。
-
 
 ### <a name="team-templates-by-category-and-industry"></a>按類別和產業分類的團隊範本
 
@@ -114,7 +111,7 @@ ms.locfileid: "60633509"
 |每個範本的應用程式 | 50|
 |||
 
-詳細資訊，請參閱限制和[Teams。](limits-specifications-teams.md)
+詳細資訊，請參閱限制和規格[Teams](limits-specifications-teams.md)。
 
 ## <a name="manage-team-templates"></a>管理小組範本
 
@@ -122,19 +119,19 @@ ms.locfileid: "60633509"
 
 #### <a name="view-team-templates"></a>查看小組範本
 
-若要查看小組範本，在系統管理中心的左側導Teams，請前往 Teams ****  >  **範本**。 選取範本以查看更多詳細資料，包括其中包含的頻道和應用程式。
+若要查看小組範本，在系統管理中心的左側導Teams，請前往  >  Teams **Team 範本**。 選取範本以查看更多詳細資料，包括其中包含的頻道和應用程式。
 
 #### <a name="create-your-own-team-templates"></a>建立您自己的小組範本
 
-您可以從頭開始建立自己的自訂範本、從現有的小組，以及從現有的範本建立自訂範本。 若要深入了解，請參閱：
+您可以從頭開始、從現有的小組和現有的範本建立您自己的自訂範本。 若要深入了解，請參閱：
 
 - [建立自訂小組範本](create-a-team-template.md)
-- [從現有小組建立範本](create-template-from-existing-team.md)
+- [從現有的小組建立範本](create-template-from-existing-team.md)
 - [從現有的小組範本建立小組範本](create-template-from-existing-template.md)
 
 #### <a name="apply-team-template-policies"></a>適用小組範本原則
 
-若要控制使用者在建立團隊Teams中所看到的範本，您可以設定範本政策[](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)，並將其指派給貴組織的使用者和群組。 若要深入瞭解，請參閱在系統管理中心管理Teams[範本](templates-policies.md)。
+若要控制使用者在建立團隊Teams中所看到的範本，您可以設定範本政策[](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)，並將其指派給貴組織的使用者和群組。 若要深入瞭解，請參閱在系統管理中心管理[Teams範本](templates-policies.md)。
 
 ### <a name="manage-team-templates-using-powershell"></a>使用 PowerShell 管理小組範本
 

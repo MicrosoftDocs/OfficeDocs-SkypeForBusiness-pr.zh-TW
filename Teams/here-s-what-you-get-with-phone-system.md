@@ -22,25 +22,25 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: '瞭解功能、可用性，以及如何規劃及設定Microsoft Teams 電話系統業務。 '
-ms.openlocfilehash: 1643e0fe9bd877f627ec186e405bb155635f9f74
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 79712a9e3f9221c0aa6d256253d76e266cbbe658
+ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180936"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62299068"
 ---
 # <a name="heres-what-you-get-with-teams-phone"></a>以下是您取得Teams 電話
 
-本文將說明Teams 電話功能。 有關使用 Teams 電話 做為私人分支 Exchange (PBX) 更換，以及連接至公用交換電話網絡 (PSTN) 選項的詳細資訊，請參閱什麼是[Teams 電話。](what-is-phone-system-in-office-365.md)
+本文將說明Teams 電話功能。 有關使用 Teams 電話 做為私人分支 Exchange (PBX) 取代功能的詳細資訊，以及連接至公用交換電話網絡 (PSTN) 的選項，請參閱[Teams 電話。](what-is-phone-system-in-office-365.md)
 
-用戶端適用于 PC、Mac 和行動裝置，可在平板電腦、行動電話、PC 和桌面 IP 電話等裝置上提供功能。 詳細資訊，請參閱[取得用戶端Microsoft Teams。](get-clients.md)
+用戶端適用于 PC、Mac 和行動裝置，可在平板電腦、行動電話、PC 和桌面 IP 電話等裝置上提供功能。 詳細資訊，請參閱取得[用戶端Microsoft Teams](get-clients.md)。
 
  > [!Note]
 > 有關在不同平臺上Teams電話系統的詳細資訊，請參閱[Teams平臺的功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 若要使用Teams 電話功能，貴組織必須擁有電話系統授權。 如需授權的詳細資訊，請參閱 [Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
 
-請注意，大部分的功能都要求您指派電話系統授權，並確保使用者「已啟用語音」。 若要指派授權，請使用 [Set-CsPhoneNumberAssignment Cmdlet，](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps) 並將 **EnterpriseVoiceEnabled** 參數設為 $true。 雲端自動語音機等一些功能不需要使用者啟用語音。 下表會列出例外。
+請注意，大部分的功能都要求您指派電話系統授權，並確保使用者「已啟用語音」。 若要指派授權，請使用 [Set-CsPhoneNumberAssignment Cmdlet](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps) ，並將 **EnterpriseVoiceEnabled** 參數設為 $true。 雲端自動語音機等一些功能不需要使用者啟用語音。 下表會列出例外。
   
 ## <a name="teams-phone-features"></a>Teams 電話功能
 
@@ -48,7 +48,7 @@ Teams 電話提供下列功能。
   
 |Teams 電話功能  |描述 |
 |:-----|:-----|
-|[雲端自動話務員](what-are-phone-system-auto-attendants.md)  |可讓您建立功能表系統，讓外部和內部來電者能夠尋找及撥打或轉接電話給公司使用者或貴組織的部門。  <br/> 請注意， *使用者不需要* 啟用語音，就不需要從自動語音機接聽來電。 |
+|[雲端自動話務員](what-are-phone-system-auto-attendants.md)  |可讓您建立功能表系統，讓外部和內部來電者能夠尋找及撥打或轉接電話給公司使用者或貴組織的部門。  <br/> 請注意， *使用者不需要* 啟用語音，就不需要啟用語音功能，以名稱、號碼目錄搜尋來接聽自動語音機撥號的通話。 使用者 *必須* 啟用語音功能，以從自動語音留言功能表選項接聽來電。 |
 |[雲端通話佇列](create-a-phone-system-call-queue.md) <br> |可讓您設定貴組織的通話佇列管理方式：例如，設定保留的問候語和音樂、搜尋下一個可用的通話代理程式來處理通話，等等。  <br/> 請注意， *使用者必須* 啟用語音功能，以從通話佇列接聽來電。|
 |[等候音樂](music-on-hold.md) | 當從公用交換電話網絡 (PSTN) 保留外部通話時，播放由租使用者系統管理員所上傳的服務或自訂音樂所定義的預設音樂。 此功能適用于一對一 PSTN 對Teams通話，以及通話佇列的通話。 此功能提供與其他平臺的保留通知奇偶性。 |
 |按名稱和號碼 (接聽/啟動)    |讓使用者以觸控功能接聽來電，並撥打完整電話號碼或按一下用戶端中的名稱來撥打撥出電話。   |
@@ -64,7 +64,7 @@ Teams 電話提供下列功能。
 |[整合式撥號鍵台](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89)  | 讓使用者在搜尋欄和撥號鍵台中的任何位置，以名稱或號碼撥號，加快撥出通話程式。  |
 |聯合通話   |讓使用者安全地與聯盟租使用者中的使用者聯繫、通訊及共同合作。   |
 |[撥打和接收視音訊通話](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42)  | 如果使用者帳戶已啟用視音訊通話功能，使用者可以與連絡人進行面對面視像通話。 他們只需要相機、電腦的喇叭和麥克風。 如果使用者的電腦沒有內建的音訊裝置，也可以使用耳機。 |
-|[雲端語音信箱](set-up-phone-system-voicemail.md)  | 當使用者收到語音信箱時，語音信箱會以電子郵件Exchange以語音信箱訊息作為附件傳送到他們的信箱。 使用者可以在經過認證的桌面電話，以及所有應用程式或Teams商務用 Skype訊息。 自 2017 年 3 月新增語音信箱字幕支援，且所有組織和使用者預設都啟用此功能。 <br> 請注意，*使用者不需要* 電話系統授權，也不需要啟用語音才能使用雲端語音信箱功能。    |
+|[雲端語音信箱](set-up-phone-system-voicemail.md)  | 當使用者收到語音信箱時，語音信箱會以電子郵件Exchange作為附件傳送至他們的信箱。 使用者可以在經過認證的桌面電話，以及所有Teams或商務用 Skype訊息。 自 2017 年 3 月新增語音信箱字幕支援，且所有組織和使用者預設都啟用此功能。 <br> 請注意，*使用者不需要* 電話系統授權，也不需要啟用語音才能使用雲端語音信箱功能。    |
 |[雲端語音信箱使用者設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | 允許使用者設定語音信箱問候語、通話接聽規則及問候語的用戶端設定，包括公司外問候語。 <br> 請注意，*使用者不需要* 電話系統授權，也不需要啟用語音才能使用雲端語音信箱功能。  |
 |[次要響鈴](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)  | 已連接多部喇叭裝置至其電腦的使用者除了預設喇叭之外，也可以選擇將次要裝置設為響鈴。 例如，將耳機連接到電腦和桌面喇叭的使用者，可以選擇讓耳機和桌面喇叭在來電進入時同時響鈴，這樣他們才能不錯過通話。  |
 |[唯一的響](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)鈴 (Teams提醒)  |讓使用者為一般通話、轉呼叫和委派通話選擇不同的鈴聲，以便區別通話類型。   |
@@ -72,7 +72,7 @@ Teams 電話提供下列功能。
 |[忙碌在忙碌 (Teams](teams-calling-policy.md)只有)   | 可讓您設定在使用者有來電時如何處理來電的通話策略： <ul><li>在通話中 </li><li>在會議</li><li>已保留通話。 </li></ul> 來電者會收到下列其中一個回應： <ul><li>當通話物件在電話上時，聽到忙碌訊號</li> <li>會依此路由至使用者的未解說設定。 其中一個選項可讓來電者為已經在通話中的使用者留下語音信箱。</li></ul> 受話者收到未接來電通知，但無法接聽來電。 此功能預設為停用，但租使用者系統管理員可以開啟。|
 |[通話封鎖](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | 讓使用者將 PSTN (PSTN) 新號碼新到封鎖的清單，這樣該號碼的下一個通話就禁止撥打使用者。|
 |[一般地區電話](set-up-common-area-phones.md)  | 公用區域電話通常會放在大廳或會議室等區域，讓多人使用。 一般區域電話會設定為裝置，而不是使用者，而且可以自動登入網路。|
-|[媒體旁 (支援](direct-routing-plan-media-bypass.md)Teams直接路由)   | 為了提升績效，媒體會保留在會話邊界控制器 (SBC) 與用戶端之間，而不是透過 Teams 電話。 |
+|[媒體旁 (僅](direct-routing-plan-media-bypass.md)Teams直接路由)   | 為了提升績效，媒體會保留在會話邊界控制器 (SBC) 與用戶端之間，而不是透過 Teams 電話。 |
 |[未指定的號碼路由](routing-calls-to-unassigned-numbers.md) | 允許將未指定的號碼路由給使用者、自動話務員、通話佇列或自訂公告。 |
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>高GCC DoD 雲端的可用性
