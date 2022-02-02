@@ -21,20 +21,20 @@ ms.custom:
 - Phone System
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
-description: 瞭解如何在 Microsoft Teams 中傳送包含其音訊會議資訊的電子郵件。
-ms.openlocfilehash: 057c9a91e1eab20ab7f9ece6c427b6c39ef762b9
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+description: 瞭解如何在 Microsoft Teams 中傳送包含其音訊會議資訊Microsoft Teams。
+ms.openlocfilehash: 1ec0b74bab289eaca1b1046eccebb870e8562a95
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462377"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312266"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>共用線條外觀Microsoft Teams
 
-共用線路外觀是委派功能之一，讓使用者選擇代理人來代表他們接聽或處理通話。 如果使用者有系統管理助理定期處理使用者的通話，這項功能會很有説明。 在共用線路外觀中，主管是授權代理人代表代理人撥打或接聽電話的人，而代理人可以代表其他人撥打和接聽電話。
+共用線路外觀是委派功能之一，讓使用者選擇代理人來代表他們接聽或處理通話。 如果使用者有一位管理小幫手定期處理使用者的通話，這項功能會很有説明。 在共用線路外觀中，主管是授權代理人代表代理人撥打或接聽電話的人，而代理人可以代表其他人撥打和接聽電話。
 
 > [!IMPORTANT]
-> 此功能僅適用于僅部署Teams模式。 有關部署模式Teams詳細資料，請參閱瞭解[Microsoft Teams商務用 Skype和](teams-and-skypeforbusiness-coexistence-and-interoperability.md)互通性
+> 此功能僅適用于僅部署Teams模式。 有關部署模式Teams詳細資料，請參閱瞭解Microsoft Teams[商務用 Skype和互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>需要授權
 
@@ -48,29 +48,29 @@ ms.locfileid: "60462377"
 
 租使用者系統管理員可以透過 **TeamsCallingPolicy AllowDelegation** 設定或透過 Teams 系統管理入口網站啟用委派，讓此功能能夠執行。 
 
-租使用者系統管理員也可以為系統管理中心中的使用者Teams關係。 此外，使用者也可以直接在 Teams 中設定其委派Teams。 租使用者系統管理員或使用者無法彼此封鎖該組Teams，但系統管理中心Teams用戶端應正確在這兩個地方顯示此關係。 
+租使用者系統管理員也可以為系統管理中心中的使用者Teams關係。 此外，使用者也可以直接在 Teams 中設定其委派Teams。 租使用者系統管理員或使用者無法彼此封鎖該組Teams，但系統管理中心Teams用戶端應該在這兩個地方正確顯示此關係。 
 
 > [!IMPORTANT]
-> 當租使用者系統管理員在) 開啟使用者 (後關閉使用者的委派時，他們也需要在 Teams 系統管理中心清理該使用者的委派關係，以避免不正確的通話路由。
+> 當租使用者系統管理員關閉使用者 (的委派後) ，他們也需要在 Teams 系統管理中心清理該使用者的委派關係，以避免不正確的通話路由。
 
 ## <a name="shared-line-appearance-feature-availability"></a>共用線條外觀功能可用性
 
 下列應用程式與裝置目前支援共用線路外觀。
 
-| 功能 | Teams桌面 | TeamsMac App | TeamsWeb App (Edge)  |Teams行動版 iOS/Android App | TeamsIP 電話 |
+| 功能 | Teams桌面 | Teams Mac App | Teams Web App (Edge)  |Teams行動版 iOS/Android App | Teams IP 電話 |
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|
 | 設定委派 | 是 | 是 | 是 | 否 | 是 |
 | 代表另一人接聽來電 | 是 | 是 | 是 | 是 | 是 |
 | 代表另一個人撥打電話號碼 | 是 | 是 | 是 | 是 | 是 |
 | 代表Teams打電話給使用者 | 是 | 是 | 是 | 是 | 是 |
-| 查看共用行的代理人視圖 | 是 | 是 | 是 | 否 | 否 |
-| 查看主管通話活動的代理人視圖 | 是 | 是 | 是 | 否 | 否 |
-| 查看代理人的管理員視圖 | 是 | 是 | 是 | 否 | 否 |
-| 代理人或主管可以保留或繼續 | 是 | 是 | 是 | 否 | 否 |
+| 查看共用行的代理人視圖 | 是 | 是 | 是 | 否 | 是 |
+| 查看主管通話活動的代理人視圖 | 是 | 是 | 是 | 否 | 是 |
+| 查看代理人的管理員視圖 | 是 | 是 | 是 | 否 | 是 |
+| 代理人或主管可以保留或繼續 | 是 | 是 | 是 | 否 | 是 |
 
 ## <a name="limitations"></a>限制
 
-主管最多可以新增 25 個代理人，而代理人最多可以有 25 個主管。 在租使用者中可以建立委派關係的數量沒有限制。 
+管理員最多可以新增 25 個代理人，而代理人最多可以有 25 名主管。 在租使用者中可以建立委派關係的數量沒有限制。 
  
 如果委派者與代理人不在同一個地理位置，則 PSTN 提供者可代表) 通話，允許代理人的本機號碼不同的地理位置 (本機號碼。 
  

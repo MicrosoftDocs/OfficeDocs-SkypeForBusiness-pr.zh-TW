@@ -17,42 +17,42 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何核准使用 Teams App 提交 API 提交的自訂Microsoft Teams。
-ms.openlocfilehash: 41a6fe61269159da7af32ac8d0392752ffdf087d
-ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
+ms.openlocfilehash: 17741733f506aefd6fd85f1b821d144961af6158
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248704"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312236"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>發佈透過應用程式提交 API Teams提交的自訂應用程式
 
 ## <a name="overview"></a>概觀
 
 > [!NOTE]
-> 當您發佈自訂 Teams應用程式時，組織 App Store 中的使用者可以使用自訂應用程式。 發佈自訂應用程式的方法有兩種，而使用方式取決於您取得應用程式的方式。 **本文著重于如何核准** 和發佈開發人員透過應用程式提交 API Teams的自訂應用程式。 另一種方法 ，即上傳自訂應用程式，是當開發人員以新的格式傳送應用程式套件.zip使用。 若要深入瞭解這個方法，請參閱上傳應用程式套件 <a href="/microsoftteams/upload-custom-apps" target="_blank">來發佈自訂應用程式</a>。 核准應用程式小工具在租使用者中GCC使用。 
+> 當您發佈自訂 Teams應用程式時，組織 App Store 中的使用者可以使用自訂應用程式。 發佈自訂應用程式的方法有兩種，而使用方式取決於您取得應用程式的方式。 **本文著重于如何核准** 和發佈開發人員透過應用程式提交 API 提交Teams應用程式。 另一種方法 ，即上傳自訂應用程式，是當開發人員以新的格式傳送應用程式套件.zip使用。 若要深入瞭解這個方法，請參閱上傳應用程式套件 [來發佈自訂應用程式](/microsoftteams/upload-custom-apps)。 核准應用程式小工具在租使用者中GCC使用。
 
 > [!IMPORTANT]
 > 這個方法目前不適用於GCC環境。 您必須使用上傳 *自訂應用程式的方法* 。
 
 本文提供端對端指南，瞭解如何將應用程式從開發Teams部署到探索。 您將概觀瞭解您在整個應用程式生命週期Teams提供的連接體驗，以簡化如何開發、部署及管理貴組織 App Store 中的自訂應用程式。
 
-我們將涵蓋生命週期的每一個步驟，包括開發人員如何使用 Teams App 提交 API 將自訂應用程式直接提交至 Microsoft Teams 系統管理中心，以便您進行審閱和核准、如何設定管理貴組織使用者相關應用程式的政策，以及使用者如何在 Teams 中探索這些應用程式。
+我們將涵蓋生命週期的每一個步驟，包括開發人員如何使用 Teams App 提交 API 將自訂應用程式直接提交至 Microsoft Teams 系統管理中心，以便您進行審核和核准、如何設定管理貴組織使用者相關應用程式的政策，以及使用者如何在 Teams 中探索這些應用程式。
 
 ![從開發到部署的應用程式概觀。](media/custom-app-lifecycle.png)
 
-本指南著重于應用程式Teams，適用于系統管理員和 IT 專業人員。 有關開發應用程式Teams，請參閱開發人員Teams<a href="/microsoftteams/platform" target="_blank">檔</a>。
+本指南著重于應用程式Teams，適用于系統管理員和 IT 專業人員。 有關開發應用程式Teams，請參閱Teams[檔](/microsoftteams/platform)。
 
 ## <a name="develop"></a>開發
 
 ### <a name="create-the-app"></a>建立應用程式
 
-開發人員Microsoft Teams平臺，讓開發人員能輕鬆整合您自己的應用程式和服務，以提高生產力、更快速地做出決策，並圍繞現有內容和工作流程建立共同作業。 建在 Teams 平臺上的應用程式是用戶端Teams服務與工作流程之間的橋樑，直接將它們納入您的共同合作平臺中。 若要詳細資訊，請參閱開發人員Teams<a href="/microsoftteams/platform" target="_blank">檔</a>。
+開發人員Microsoft Teams平臺，讓開發人員能輕鬆整合您自己的應用程式與服務，以提高生產力、更快速地做出決策，以及與現有內容和工作流程建立共同作業。 以平臺Teams的應用程式是用戶端Teams服務與工作流程之間的橋樑，直接將它們納入您的共同合作平臺中。 若要詳細資訊，請前往開發人員Teams[檔](/microsoftteams/platform)。
 
 ### <a name="submit-the-app"></a>提交應用程式
 
-當應用程式可供生產使用時，開發人員可以使用 Teams App 提交 API 提交應用程式，此 API 可以從[Graph API、](/graph/api/teamsapp-publish)整合式開發環境 (IDE) 例如 Visual Studio Code 或 Power Apps 和 Power Virtual Agents. 這麼做可在系統管理中心的 Microsoft Teams<a href="/microsoftteams/manage-apps" target="_blank"></a>管理應用程式頁面使用，而您的系統管理員可以在這裡進行審核和核准。
+當應用程式可供生產使用時，開發人員可以使用 Teams App 提交 API 提交應用程式，此 API 可以從[Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)、整合式開發環境 (IDE) 例如 Visual Studio Code 或 Power Apps 和 Power Virtual Agents. 這麼做之後，應用程式就可以在系統管理[](/microsoftteams/manage-apps)中心的 Microsoft Teams管理應用程式頁面使用，您可以在此查看及核准。
 
-Microsoft Teams Graph 內建的<a href="/graph/api/teamsapp-publish" target="_blank">App</a>提交 API 可讓貴組織在所選擇的平臺上開發，並自動化 Teams 上的自訂應用程式的提交至核准程式。
+Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)提交 API 可讓您的組織在所選擇的平臺上開發，並自動化 Teams 上自訂應用程式的提交至核准程式。
 
 以下範例說明此應用程式提交步驟在應用程式中Visual Studio Code：
 
@@ -60,13 +60,38 @@ Microsoft Teams Graph 內建的<a href="/graph/api/teamsapp-publish" target="_bl
 
 請記住，這尚未將應用程式發佈至組織的 App Store。 此步驟將應用程式提交至 Microsoft Teams系統管理中心，您可以在此核准應用程式發佈到組織的 App Store。
 
-若要進一Graph API 提交應用程式，請參閱<a href="/graph/api/teamsapp-publish" target="_blank">這裡</a>。
+若要進一Graph API 提交應用程式，請參閱[這裡](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)。
+
+## <a name="notify"></a>通知
+
+您可以開啟通知，以便知道開發人員何時提交新應用程式供審查和核准。 當開發人員提交應用程式更新時，您也會收到通知。 若要在系統管理中心Teams應用程式提交通知，請前往通知&[**通知RulesApp**  >  ****  >  ****](https://admin.teams.microsoft.com/notifications/rules)提交，然後將狀態變更為使用中來啟用規則。 此設定預設會關閉。 您必須是全域系統管理員或Teams才能開啟此設定。
+
+開啟此設定後，您將在名為 App 提交的新頻道的系統管理通知和通知小組 **中收到通知**。 或者，您可以選擇現有的團隊和頻道，以取得傳送至指定小組和頻道的通知。 若要這樣做，請執行下列步驟：
+
+1. 在應用程式 **提交規則** 中，選取動作下的 **頻道通知****核取方塊**。
+1. 選擇選取 **頻道** 按鈕。
+1. 搜尋要新增的團隊。
+1. 搜尋要新增的頻道。
+1. 選取 **Apply**。
+
+    ![自訂頻道通知通知核取方塊。](media/channel-alert.png)
+
+> [!NOTE]
+> 選取預設 **頻道通知** 核取方塊，以在應用程式提交頻道中接收通知給系統管理通知 **和** 通知小組。
+
+![預設頻道通知通知核取方塊。](media/default-channel-alert.png)
+
+您也可以在選取 Web 上核取方塊後，指定公用網頁連結 URL，以設定外部 **網頁連結** 的通知。 JSON 通知有效負載會送到您的網頁連結 URL。
+
+![應用程式提交通知。](media/app-submission-notification.png)
+
+設定應用程式提交規則之後，您可以在指定的頻道中查看通知卡片，以查看應用程式詳細資料，然後選取查看詳細資料，在系統管理中心Teams應用程式。
 
 ## <a name="validate"></a>驗證
 
-左側 <a href="/microsoftteams/manage-apps" target="_blank">流覽</a>的 Microsoft Teams 系統管理中心 (中的管理應用程式頁面，請前往 **Teams App** 管理應用程式) ，讓您查看貴組織的所有 Teams 應用程式  >  ****。 頁面 **頂端的** 擱置核准小工具可讓您知道何時提交自訂應用程式供核准。
+左側 [流覽](/microsoftteams/manage-apps)的 Microsoft Teams 系統管理中心 (中的管理應用程式頁面，請前往 [ **Teams App**  >  **管理**](https://admin.teams.microsoft.com/manage-apps)應用程式) ，讓您查看貴組織的所有 Teams 應用程式。 頁面 **頂端的** 擱置核准小工具可讓您知道何時提交自訂應用程式供核准。
 
-在表格中，新提交的應用程式會自動顯示已提交和封鎖狀態的 **發佈狀態**。   您可以 **以遞減** 順序排序發佈狀態列，以快速找到應用程式。
+在表格中，新提交的應用程式會自動顯示已提交和封鎖狀態的 **發佈狀態**。****  您可以 **以遞減** 順序排序發佈狀態列，以快速找到應用程式。
 
 ![發佈狀態。](media/custom-app-lifecycle-validate-app.png)
 
@@ -74,18 +99,18 @@ Microsoft Teams Graph 內建的<a href="/graph/api/teamsapp-publish" target="_bl
 
 ![提交應用程式的應用程式詳細資料頁面。](media/custom-app-lifecycle-app-details.png)
 
-若要進一Graph API 檢查發佈 **狀態**，請參閱 <a href="/graph/api/appcatalogs-list-teamsapps" target="_blank">這裡</a>。
+若要進一Graph API 檢查發佈 **狀態**，請參閱 [這裡](/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id)。
 
 ## <a name="publish"></a>發佈
 
 當您準備好要讓使用者使用 App 時，請發佈應用程式。
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
-2. 按一下應用程式名稱以前往應用程式詳細資料頁面，然後在 [發佈 **狀態** > 方塊中，選取 [ **發佈**> 。
+2. 按一下應用程式名稱以前往應用程式詳細資料頁面，然後在 [發佈 **狀態** > 方塊中，選取 [ **發佈**。
 
     ![應用程式詳細資料頁面上的發佈按鈕。](media/submitted-app-pending-action.png)
 
-發佈應用程式之後，發佈 **狀態會變更****為已發佈**，而狀態 **會自動** 變更為 **允許**。
+發佈應用程式之後，發佈 **狀態會變更****為已發佈，** 而狀態 **會自動** 變更為 **允許**。
 
 ## <a name="set-up-and-manage"></a>設定和管理
 
@@ -99,7 +124,7 @@ Microsoft Teams Graph 內建的<a href="/graph/api/teamsapp-publish" target="_bl
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>搜尋稽核記錄Teams應用程式事件
 
-您可以搜尋稽核記錄來Teams組織中應用程式活動。 若要深入瞭解如何搜尋稽核記錄，以及查看記錄在稽核記錄中的 Teams 活動清單，請參閱在 Teams 中搜尋稽核<a href="/microsoftteams/audit-log-events" target="_blank">記錄</a>。
+您可以搜尋稽核記錄來Teams組織中應用程式活動。 若要深入瞭解如何搜尋稽核記錄，以及查看記錄在稽核記錄中的 Teams 活動清單，請參閱在 Teams 中搜尋<a href="/microsoftteams/audit-log-events" target="_blank">稽核記錄</a>。
 
 在您可以搜尋稽核記錄檔之前，您必須先在<a href="https://protection.office.com" target="_blank">安全性與合規性中心</a>中開啟稽核。 如需深入了解，請參閱<a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">開啟或關閉稽核記錄</a>。 請記住，只有當您開啟稽核時，才能使用稽核資料。
 
@@ -115,7 +140,7 @@ Microsoft Teams Graph 內建的<a href="/graph/api/teamsapp-publish" target="_bl
 
 若要更新應用程式，開發人員應該繼續遵循開發區段 [的步驟](#develop) 。
 
-當開發人員將更新提交到已發佈的自訂 App 時，系統就會在管理應用程式頁面的擱置 **核准** 小工具 <a href="/microsoftteams/manage-apps" target="_blank">中收到通知</a> 。 在表格中， **應用程式的** 發佈狀態會設定為已 **提交更新**。
+當開發人員將更新提交到已發佈的自訂 App 時，系統就會在管理應用程式頁面的擱置 **核准** 小工具 [中收到通知](/microsoftteams/manage-apps) 。 在表格中， **應用程式的** 發佈狀態會設定為已 **提交更新**。 如果您開啟 App 提交通知，系統也會在 App 提交通道下的系統管理通知和通知小組收到通知。 通知卡片會提供連結，可直接將您帶至 Teams 中心中的應用程式。 若要瞭解如何開啟應用程式提交通知，[請參閱通知。](#notify)
 
 ![顯示擱置中要求和應用程式狀態的管理應用程式頁面。](media/custom-app-lifecycle-update-submitted.png)
 
@@ -139,8 +164,9 @@ Microsoft Teams Graph 內建的<a href="/graph/api/teamsapp-publish" target="_bl
 ## <a name="related-topics"></a>相關主題
 
 - [上傳應用程式套件來發佈自訂應用程式](upload-custom-apps.md)
-- [在系統管理中心管理Microsoft Teams應用程式](manage-apps.md)
+- [在系統管理中心Microsoft Teams您的應用程式](manage-apps.md)
 - [在 Teams 中管理自訂應用程式原則和設定](teams-custom-app-policies-and-settings.md)
 - [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)
 - [在 Teams 中管理應用程式設定原則](teams-app-setup-policies.md)
-- <a href="/graph/api/resources/teamsapp" target="_blank">Microsoft Graph應用程式TEAMS API</a>
+- [Teams監控和警示](alerts/teams-admin-alerts.md)
+- <a href="/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">Microsoft Graph應用程式TEAMS API</a>

@@ -46,10 +46,10 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
       summary: 了解 Teams 如何協助讓您的工作日常保持井然有序，並能更輕鬆地與同事保持連線。 (對象：所有人)
       url: 'https://aka.ms/TeamsProTips'
-    - title: 精通使用 Teams 在家工作
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
-      summary: 了解與小組保持連絡並保有生產力的最佳做法。 (對象：所有人)
-      url: 'https://aka.ms/WFHTeams'
+    - title: Microsoft Teams YouTube 上的
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
+      summary: 訂閱並成為第一個瞭解最新功能、秘訣和訣竅的人。 (對象：所有人)
+      url: 'https://www.youtube.com/MicrosoftTeams'
     - title: Teams 教育版 - 網路演討會
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
       summary: 了解在高等教育中如何使用 Teams。 (對象：職員、學生、學者、研究人員、IT 專業人員)

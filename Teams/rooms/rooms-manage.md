@@ -15,16 +15,16 @@ ms.collection:
 - M365-collaboration
 description: 瞭解如何開發和執行持續維護與作業，以確保您的Microsoft Teams 會議室系統可供使用者使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 02faaec97837f61befaa5320f7d73b84e33d25c2
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: 72e6a89e23ddb8874c6fe9e262759d2aab4522e7
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62298998"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312246"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 會議室
 
-如果您在組織中Microsoft Teams 會議室，則有彈性的管理選項。  您可以在管理所有解決方案的中央位置管理裝置，Teams管理中心Microsoft Teams裝置。 或者，您可以使用受管理服務將管理責任Microsoft Teams 會議室[專家](https://portal.rooms.microsoft.com)。  您也可以將管理存取權委派給您所選擇的合作夥伴，以取得其中一個選項。
+如果您在組織中Microsoft Teams 會議室，則有彈性的管理選項。  您可以在管理所有解決方案的中央位置管理裝置，Teams管理Microsoft Teams中心。 或者，您可以使用受管理服務將管理責任Microsoft Teams 會議室[專家](https://portal.rooms.microsoft.com)。  您也可以將管理存取權委派給您所選擇的合作夥伴，以取得其中一個選項。
 
 有了 Microsoft Teams系統管理中心，您可以：
 
@@ -34,13 +34,13 @@ ms.locfileid: "62298998"
 - 檢閱目前和過去的 (活動，例如通話品質、網路健康情況與連接，以及參與者) 
 - 查看已 (的) 或投影機等Microsoft Teams 會議室
 
-若要管理Teams 會議室，請開啟 Microsoft Teams 系統管理 [中心](https://admin.teams.microsoft.com)  >  ，然後前往 Teams 裝置 **Teams 會議室 Windows**。
+若要管理Teams 會議室，請開啟 Microsoft Teams [系統管理中心](https://admin.teams.microsoft.com)  >  ，然後前往 Teams 裝置 **Teams 會議室 Windows**。
 
 :::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teams 會議室系統管理中心Teams摘要頁面。":::
 
 
 > [!IMPORTANT]
-> 若要使用系統管理中心管理Teams，您必須指派全域系統管理員、Teams系統管理員或Teams系統管理員角色。
+> 若要使用系統管理中心管理Teams，您必須指派全域系統管理員、Teams系統管理員Teams系統管理員角色。
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>變更Teams 會議室裝置
 
@@ -117,7 +117,7 @@ ms.locfileid: "62298998"
 
 | Teams裝置 | 應用程式版本 | 會議室顯示器的前方 |
 |--------------|-------------|-----------------------|
-|Microsoft Teams 會議室上Windows | 4.11.14.0 到 4.11.12.0 | 支援單一和雙顯示器;最小大小：46 吋;解析度為 1920*1080 的長寬比為 16：9，解析度為 2560x1080 的長寬比為 21：9;所有顯示應設定為 100% 縮放比例，Windows設定 |
+|Microsoft Teams 會議室上Windows | 4.11.12.0 (建議使用最新版本)  | 支援單一和雙顯示器;最小大小：46 吋;解析度為 1920*1080 的長寬比為 16：9，解析度為 2560x1080 的長寬比為 21：9;所有顯示應設定為 100% 縮放比例，Windows設定 |
 
 請參閱[Microsoft Teams 會議室及](rooms-operations.md#change-scale-and-resolution)作業，以調整您的顯示設定，以滿足前列的需求。
 
@@ -139,9 +139,9 @@ ms.locfileid: "62298998"
 
 ## <a name="remove-device"></a>移除裝置
 
-當您移除裝置時，裝置會從貴組織移除，而且不會再顯示在系統管理中心Teams 會議室Windows清單中Teams清單中。
+當您移除裝置時，裝置會從貴組織移除，且不會再顯示在系統管理中心Teams 會議室Windows清單中Teams清單中。
 
-如果您移除裝置，但裝置仍以有效的使用者名稱和密碼進行配置，如果裝置再次連接到 Teams 會議室，系統會自動將其重新Microsoft 365到您的 Teams 會議室 清單中。
+如果您移除裝置，但裝置仍以有效的使用者名稱和密碼進行配置，如果裝置再次連接到 Teams 會議室，系統會自動將其重新Microsoft 365清單中。
 
 若要移除一或多個裝置，請執行下列操作：
 
@@ -154,7 +154,7 @@ ms.locfileid: "62298998"
 
 若要將記錄從Teams 會議室下載到您的電腦，請執行下列操作：
 
-1. 請Teams **上**  >  Teams 會議室裝置 **Windows**，然後選取您想要下載記錄之裝置的名稱。
+1. 請Teams **裝置**  >  **Teams 會議室** Windows，然後選取您想要下載記錄之裝置的名稱。
 1. 選取 **下載裝置記錄**。 裝置記錄可能需要數分鐘的時間才能使用。
 1. 選取記錄 **選項卡** ，然後選取診斷檔案下的 **記錄檔案連結**。 包含您裝置診斷記錄檔案的 zip 檔案會下載到瀏覽器的預設下載資料夾。
 
