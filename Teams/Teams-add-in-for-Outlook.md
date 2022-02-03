@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc7a387f7dcd6ef8a3ed728b8aa59db64ccefb31
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 756f9a8092fea24eb6690baa0768f295bd84e2c1
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205523"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353398"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 
@@ -143,7 +143,7 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 或者，您可以手動執行下列步驟：
 
 - Windows 7 使用者必須[在 Windows 上安裝通用 C 執行階段的更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，Teams 會議增益集才能正常運作。
-- 檢查使用者是否擁有可在 Teams 中排程會議的 Teams 升級原則。 如需詳細資訊，請參閱[從商務用 Skype 升級至 Teams](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings) (部分機器翻譯)。
+- 檢查使用者是否擁有可在 Teams 中排程會議的 Teams 升級原則。 如需詳細資訊，請參閱[從商務用 Skype 升級至 Teams](/microsoftteams/meeting-policies-in-teams-general) (部分機器翻譯)。
 - 檢查使用者是否擁有允許 Outlook 增益集的 Teams 會議原則。 如需詳細資料，請參閱[會議原則設定 -一般](./meeting-policies-in-teams-general.md#outlook-add-in)。
 - 確定使用者已安裝 Teams 桌面用戶端。 只使用 Teams 網頁用戶端時，不會安裝會議增益集。
 - 確定使用者已安裝 Outlook 2013 或更新版本。

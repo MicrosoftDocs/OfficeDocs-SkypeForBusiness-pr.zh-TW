@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a2772fe0f190bf7280dc4bb11625aedb3d0157b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: bbcafdef989d3154ba99e557f0632e1a6bd6e665
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605839"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353408"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -67,7 +67,7 @@ Teams 利用 Microsoft 365 功能來驗證使用者和提供服務。 教職員�
 
 [必須指派授權給使用者](teams-edu-licensing.md)，他們才能使用 Teams 功能。 Teams 依賴其他 Microsoft 365 功能，例如 [Microsoft 365 群組](Office-365-groups.md)、[Exchange](Exchange-Teams-interact.md)、[SharePoint 和 OneDrive](SharePoint-OneDrive-interact.md) 來啟用共同作業案例。 如果這所有服務也都啟用，使用者就能獲得最佳的 Teams 體驗。 [Teams 可支援由 Google 託管電子郵件的使用者](/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users)。
 
-Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如需有關如何部署 Office 365 並讓整個教育機構開始使用 Teams 的 IT 指導方針，請參閱[此頁](/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant)。 若要取得支援，可以在[這裡](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)提出支援票證；若要取得 Teams 的訓練課程，請造訪當地的 Microsoft Store 實體商店與專業人員洽詢。
+Microsoft Teams 隨附於 Office 365 A1 中，教育機構可免費試用。 如需有關如何部署 Office 365 並讓整個教育機構開始使用 Teams 的 IT 指導方針，請參閱[此頁](/microsoft-365/education/deploy/create-your-office-365-tenant)。 若要取得支援，可以在[這裡](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1)提出支援票證；若要取得 Teams 的訓練課程，請造訪當地的 Microsoft Store 實體商店與專業人員洽詢。
 
 > [!NOTE]
 > 如需有關教育界部署的最新資訊，請參閱 COVID-19 的[《M365 教育界部署更新指南》](/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19)。
