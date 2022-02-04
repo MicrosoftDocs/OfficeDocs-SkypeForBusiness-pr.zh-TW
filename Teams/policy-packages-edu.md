@@ -1,7 +1,7 @@
 ---
 title: 適用於教育界管理員的 Microsoft Teams 原則和原則套件
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: prkuch
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解教育或教育界設定中的原則，以及如何在 Microsoft Teams 中使用和管理原則套件。
-ms.openlocfilehash: 80e4b7becb720a6e4e89740ce7bf8c1c49e33af9
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: ce2c3a93d524ce9e08c3e97dd51ef8c6f19d9111
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605379"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62362999"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>適用於教育界的 Teams 原則和原則套件
 
