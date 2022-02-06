@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 中設計 E9-1-1 的 SIP 主幹
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: 規劃使用 sip 主幹提供者的 E9-1-1 部署的 SIP 主幹拓撲，商務用 Skype Server 企業語音中。
-ms.openlocfilehash: 36362b9ff516f3f15a990d5d70c42c0bea6119b3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841025"
 ---
+
 # <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>在商務用 Skype Server 中設計 E9-1-1 的 SIP 主幹
  
 規劃使用 sip 主幹提供者的 E9-1-1 部署的 SIP 主幹拓撲，商務用 Skype Server 企業語音中。
