@@ -1,23 +1,19 @@
 ---
 title: 管理災難修復、高可用性及備份服務
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 深入瞭解災難修復作業的程式，以及維護備份服務，以同步處理成對前端集區中的資料。
-ms.openlocfilehash: 6d3eb3356c48a99974390f43bc0114d7d6507353
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849936"
 ---
+
+
 # <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>管理商務用 Skype Server 的嚴重損壞修復、高可用性及備份服務
 
 本節包含嚴重損壞修復作業的程式，以及維護備份服務，以同步處理成對前端集區中的資料。

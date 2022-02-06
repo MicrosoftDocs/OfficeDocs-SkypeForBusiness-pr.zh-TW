@@ -1,27 +1,22 @@
 ---
 title: 憑證要求 (基本)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.dep.DeployCertRequestBasics
+  - ms.lync.dep.DeployCertRequestBasics
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: '[名稱與安全性設定] 頁面提供一個文字方塊，以定義好記的名稱、私密金鑰的位長度的下拉式清單，以及可讓您將憑證的私密金鑰標記為可匯出的核取方塊。'
-ms.openlocfilehash: dcb26b7ffe310b593d5e73e6602551c98cf1eb2d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865000"
 ---
+
 # <a name="certificate-request-basic"></a>憑證要求 (基本)
  
 [**名稱與安全性設定**] 頁面提供一個文字方塊，以定義 **好記的名稱**、私密金鑰的 **位長度** 的下拉式清單，以及可讓您將 **憑證的私密金鑰標記為可匯出** 的核取方塊。

@@ -1,27 +1,22 @@
 ---
 title: Director 範圍節點
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.DirectorsScopeNode
+  - ms.lync.tb.DirectorsScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 description: '[Director 集區] 節點會列出您的拓撲中的 Director 集區。您可以執行下列動作：'
-ms.openlocfilehash: 48a5db029258a2c2d3ce74672fc63ac127c47931
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829067"
 ---
+
 # <a name="directors-scope-node"></a>Director 範圍節點
  
 [Director 集區] 節點會列出您的拓撲中的 Director 集區。您可以執行下列動作：
