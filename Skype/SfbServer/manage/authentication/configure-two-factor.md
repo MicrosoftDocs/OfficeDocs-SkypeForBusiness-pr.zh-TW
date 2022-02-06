@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 中設定雙因素驗證
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 摘要：在商務用 Skype Server 中設定雙因素驗證。
-ms.openlocfilehash: 1e28c88f28d765737415b01d82e2e8a7621c3744
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844246"
 ---
+
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>在商務用 Skype Server 中設定雙因素驗證
 
-**摘要：** 設定商務用 Skype Server 中的兩個要素驗證。
+**總結：** 設定商務用 Skype Server 中的兩個要素驗證。
 
 下列各節說明為您的部署設定雙因素驗證所需的步驟。 如需有關雙因素驗證的詳細資訊，請參閱[啟用線上系統管理員格線使用者文章的 Office 365 多重要素驗證](https://go.microsoft.com/fwlink/p/?LinkId=313332)。
 
@@ -124,7 +119,7 @@ ms.locfileid: "60844246"
 
 2. 啟動 Internet Explorer。
 
-3. 流覽至 [ **憑證授權單位 Web 登記** ] 頁面 (https://MyCA.contoso.com/certsrv) 例如，
+3. 流覽至 [ **憑證授權單位 Web 登記** ] 頁面 (例如 https://MyCA.contoso.com/certsrv) ，
 
     > [!NOTE]
     > 如果您使用 Internet Explorer 10，您可能需要在相容性模式中查看此網站。
@@ -203,7 +198,7 @@ ms.locfileid: "60844246"
 
 5. 在 [系統管理工具] 功能表中，啟動 [AD FS 2.0 管理主控台]。
 
-6. 展開 [**信任關係**  >  **信賴** 憑證者信任]。
+6. 展開 [**信任關係**  >  信賴憑證者 **信任**]。
 
 7. 確認已為您的商務用 Skype Server 建立新的信任。
 
@@ -258,7 +253,7 @@ ms.locfileid: "60844246"
 
 6. 從功能表列中，選取 [ **編輯** ]，然後選取 [ **尋找**]。
 
-7. 搜尋 \<localAuthenticationTypes\> 。
+7. \<localAuthenticationTypes\>搜尋。
 
     請注意，列出了四種驗證類型，每行一個。
 

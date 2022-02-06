@@ -1,27 +1,22 @@
 ---
 title: 新增封存伺服器 SQL Server 儲存區
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddArchivingServerSqlStorePage
+  - ms.lync.tb.AddArchivingServerSqlStorePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 description: 封存伺服器需要支援的64位版本的 SQL Server 資料庫軟體才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫，用以封存或定義新的 SQL Server 資料庫，方法是指定 SQL Server 資料庫所在之伺服器的完整功能變數名稱 (FQDN) ，以及想要用於新 SQL Server 的 SQL Server 實例。 資料庫 (可以是您指定) 的預設實例或命名實例。
-ms.openlocfilehash: a0f2b40bcf5d24063c689bbc760a57b14b98ad28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832197"
 ---
+
 # <a name="add-archiving-server-sql-server-store"></a>新增封存伺服器 SQL Server 儲存區
 
 封存伺服器需要支援的64位版本的 SQL Server 資料庫軟體才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫，用以封存或定義新的 SQL Server 資料庫，方法是指定 SQL Server 資料庫所在之伺服器的完整功能變數名稱 (FQDN) ，以及想要用於新 SQL Server 的 SQL Server 實例。 資料庫 (可以是您指定) 的預設實例或命名實例。

@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 中查看 PIN 原則資訊
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 摘要：查看使用者的商務用 Skype Server PIN 原則資訊。
-ms.openlocfilehash: 0a0e67d45a89e2c03f45017bfddb1ffaa9bec285
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862480"
 ---
+
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>在商務用 Skype Server 中查看 PIN 原則資訊
  
-**摘要：** View 商務用 Skype Server 的使用者 PIN 原則資訊。
+**總結：** View 商務用 Skype Server 的使用者 PIN 原則資訊。
   
 您可以使用 [ **PIN 原則**] 索引標籤來查看使用 IP 電話連線至商務用 Skype 之使用者的個人身分識別號碼 (PIN) 驗證。 若要使用 PIN 驗證，請確定已在 Web 服務設定中選取了 [啟用 PIN 驗證]。
   

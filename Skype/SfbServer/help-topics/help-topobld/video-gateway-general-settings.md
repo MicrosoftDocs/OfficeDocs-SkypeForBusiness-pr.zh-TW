@@ -1,27 +1,22 @@
 ---
 title: 視訊閘道一般設定
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.VideoGatewayGeneralSettingsExpander
+  - ms.lync.tb.VideoGatewayGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5d1485ab-f912-4153-9839-4717f0314729
-description: 在拓撲產生器中定義新的 VIS 或視頻閘道所需的步驟，將在商務用 Skype Server 2015 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: 7afaabcff1b36afef606c184f1eb972ce2196e72
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848676"
+description: '在拓撲產生器中定義新的 VIS 或視頻閘道所需的步驟，將在商務用 Skype Server 2015 中的 [建立 VIS 集區] 中說明為線上。'
 ---
+
 # <a name="video-gateway-general-settings"></a>視訊閘道一般設定
  
 在拓撲產生器中定義新的 VIS 或視頻閘道所需的步驟，將在商務用 Skype Server 2015 中的 [[建立 VIS 集](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)區] 中說明為線上。
