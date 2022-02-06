@@ -1,27 +1,22 @@
 ---
 title: 新增 A/V MCU 集區
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddAvMcuPoolPage
+  - ms.lync.tb.AddAvMcuPoolPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 description: 中央網站裡，沒有配置音訊/視訊會議服務的所有 Enterprise Edition 前端伺服器，可以使用相同的獨立式 A/V 會議集區。針對每個 A/V 會議集區，您必須指定集區的完整網域名稱 (FQDN)，以及它是否將只有單一 A/V 會議伺服器，還是多個負載平衡的 A/V 會議伺服器。
-ms.openlocfilehash: aa5f0342b56ea0cfe34840854bf60459ee7a8311
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850096"
 ---
+
 # <a name="add-av-mcu-pool"></a>新增 A/V MCU 集區
  
 中央網站裡，沒有配置音訊/視訊會議服務的所有 Enterprise Edition 前端伺服器，可以使用相同的獨立式 A/V 會議集區。針對每個 A/V 會議集區，您必須指定集區的完整網域名稱 (FQDN)，以及它是否將只有單一 A/V 會議伺服器，還是多個負載平衡的 A/V 會議伺服器。
