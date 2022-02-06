@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中管理會議
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: 摘要：瞭解如何在商務用 Skype Server 中管理會議。
-ms.openlocfilehash: 122b7d797983df9bb3ef6252234099869650a66e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845456"
 ---
+
 # <a name="manage-conferencing-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議
  
-**摘要：** 瞭解如何在商務用 Skype Server 中管理會議。
+**總結：** 瞭解如何在商務用 Skype Server 中管理會議。
   
 本主題說明如何管理會議。 如需如何規劃及部署會議的詳細資訊，請參閱[商務用 Skype Server 中的會議計畫](../../plan-your-deployment/conferencing/conferencing.md)商務用 Skype Server 中的[部署會議](../../deploy/deploy-conferencing/deploy-conferencing.md)。
   
@@ -79,7 +74,7 @@ ms.locfileid: "60845456"
     
 - 若要管理會議配置設定，您必須使用商務用 Skype Server 管理命令介面。 搜尋 **-CsConferencingConfiguration** Cmdlet。
     
-## <a name="skype-for-business-server-management-shell-cmdlets"></a>商務用 Skype Server管理命令介面 Cmdlet
+## <a name="skype-for-business-server-management-shell-cmdlets"></a>商務用 Skype Server 管理命令介面 Cmdlet
 
 您可以使用下列商務用 Skype Server 管理命令介面 Cmdlet 來管理會議： 
   
@@ -170,6 +165,6 @@ ms.locfileid: "60845456"
 |[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |驗證是否有一組使用者可以參與商務用 Skype Server 的 web 會議，該會議包含共用或查看 PowerPoint 投影片、白板或投票等活動。 此 Cmdlet 也會驗證商務用 Skype Server web 會議服務是否可以探索 Office web apps server，以及用戶端可以透過 Office web apps server 上傳 PowerPoint 檔案進行廣播。  <br/> |
 |[Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |檢查使用者是否可以加入電話撥入式會議會話。  <br/> |
 |[Test-CsDialPlan](/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |會針對撥號對應表測試電話號碼 (以前稱為位置設定檔) ，並且會傳回套用至編號的正規化規則，以及套用正規化規則之後的轉譯號碼。  <br/> |
-|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |測試三位使用者加入商務用 Skype Server 行動服務會議的能力。 行動服務可讓行動電話（例如 iphone 和 Windows 電話）的使用者執行諸如 exchange 立即訊息和目前狀態資訊等動作。內部儲存及取回語音信箱，而不是與其無線供應商利用商務用 Skype Server 功能，例如透過工作和撥出會議進行通話。  <br/> **附注：** 商務用 Skype Server 2019 不支援使用 MCX 的用戶端。|
+|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |測試三位使用者加入商務用 Skype Server 行動服務會議的能力。 行動服務可讓行動電話的使用者（例如 iphone 和 Windows 電話）執行諸如 exchange 立即訊息和目前狀態資訊等動作、內部儲存及取回語音信箱，而不是透過其無線提供者進行呼叫; 並利用商務用 Skype Server 功能（例如透過工作和撥出會議進行呼叫）。  <br/> **注意：** 商務用 Skype Server 2019 不支援使用 MCX 的用戶端。|
 |[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |測試一組使用者對使用整合通訊 Web API (UCWA) 進行排程、加入和執行線上會議的能力。  <br/> |
 |[CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |會傳回商務用 Skype Server 所包含之資料會議功能的診斷資訊。  <br/> |

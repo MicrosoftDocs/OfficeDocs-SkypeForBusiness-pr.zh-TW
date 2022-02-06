@@ -1,27 +1,22 @@
 ---
 title: 常設聊天室原則
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.PersistentChatPolicy
+  - ms.lync.lscp.PersistentChatPolicy
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 description: 您可以使用 Persistent 聊天群組的持續聊天原則頁面，管理全域、集區、網站或使用者層級的原則，包括設定預設全域原則，以及為您的部署建立一或多個額外的使用者和網站原則。 如果使用者依原則為使用者啟用 Persistent Chat Server，則 Persistent Chat Server 環境會出現在其用戶端中。
-ms.openlocfilehash: 26df9230dc24faf41a6f8ed6bf1f8047fe98007d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862780"
 ---
+
 # <a name="persistent-chat-policy"></a>常設聊天室原則
  
 您可以使用 **Persistent 聊天** 群組的 **持續聊天原則** 頁面，管理全域、集區、網站或使用者層級的原則，包括設定預設全域原則，以及為您的部署建立一或多個額外的使用者和網站原則。 如果使用者依原則為使用者啟用 Persistent Chat Server，則 Persistent Chat Server 環境會出現在其用戶端中。
@@ -85,7 +80,7 @@ ms.locfileid: "60862780"
     
 ## <a name="to-create-a-user-policy-for-persistent-chat"></a>若要建立持久聊天的使用者原則
 
-在 [商務用 Skype Server 控制台] 中，您可以定義可指派給使用者使用者的使用者 **原則。**
+在 [商務用 Skype Server 控制台] 中，您可以定義可指派 **給使用者使用者** 的使用者原則。
   
 使用者原則會覆寫全域與網站原則，但僅限於指派?特定使用者的使用者原則。
   

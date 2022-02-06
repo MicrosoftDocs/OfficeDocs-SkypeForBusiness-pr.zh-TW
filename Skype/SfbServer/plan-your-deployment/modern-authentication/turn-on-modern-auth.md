@@ -1,26 +1,21 @@
 ---
 title: 規劃在內部和外部關閉舊版驗證方法
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: tracyp
-ms.assetid: ''
+ms.assetid: null
 description: 本文概述的 Cmdlet 可讓系統管理員更深入地控制企業內部及外部使用的驗證方法。 管理員可以在內部或外部開啟或關閉驗證方法。
-ms.openlocfilehash: 845af6891d7da419ffd6fc5a4f663cfc2b61a01a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835061"
 ---
+
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>規劃在內部和外部關閉舊版驗證方法。
 
 > [!NOTE]
@@ -72,7 +67,7 @@ __Type 5 Description：__ *對外*，您的現代 ADAL 用戶端將使用 MA，�
 
 ## <a name="why-to-use-set-csauthconfig-at-the-global-level"></a>在全域層級使用 Set-CsAuthConfig 的原因
 
-`Set-CsAuthConfig`註冊機構和 Web 服務角色上的指令 Cmdlet 效果設定。
+註冊機構和 Web 服務角色上的 `Set-CsAuthConfig` 指令 Cmdlet 效果設定。
 
 此 Cmdlet 應該在商務用 Skype 伺服器的全域層級執行。 它 *可以* 在集區層級執行，但 *不建議使用* ，因為這會增加安裝的複雜性。 在集區層級執行下列命令，如果您的集區沒有所有的角色包含 (例如，它沒有) 的 Web 服務，將只會針對註冊機構角色設定設定。 在此情況下，Web 服務會使用來自全域層級的設定，這可能是令人困惑的行為 (尤其是在無意中) 時執行。
 
@@ -100,7 +95,7 @@ __Type 5 Description：__ *對外*，您的現代 ADAL 用戶端將使用 MA，�
 > [!IMPORTANT] 
 > 有些商務用 Skype web 應用程式不支援 MA。 所以，使用 BlockWindowsAuthExternallyAndInternally 案例時，您將無法存取這些應用程式。 沒有 MA 支援的應用程式是 Web 排程器、Dial-In 頁面、商務用 Skype 控制台 (CSCP) 及回應群組設定] 頁面。 
 
-## <a name="links"></a>連結 
+## <a name="links"></a>Links 
 - 如需詳細 PowerShell 資訊：
     -  [CsAuthConfig](/powershell/module/skype/get-csauthconfig?view=skype-ps)
     -  [CsAuthConfig](/powershell/module/skype/set-csauthconfig?view=skype-ps)

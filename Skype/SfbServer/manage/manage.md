@@ -1,28 +1,23 @@
 ---
 title: 管理商務用 Skype Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: 摘要：流覽下列連結，以瞭解如何管理及維護商務用 Skype Server。
-ms.openlocfilehash: 899d0b3b36c3ce7950f2a87bf7e3bc8027a35a08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841185"
 ---
+
 # <a name="manage-skype-for-business-server"></a>管理商務用 Skype Server 
 
-**摘要：** 流覽下列連結，以瞭解如何管理及維護商務用 Skype Server。
+**總結：** 流覽下列連結，以瞭解如何管理及維護商務用 Skype Server。
   
 商務用 Skype Server 提供立即訊息 (IM) 、顯示狀態、會議、影片和電話語音解決方案，可支援企業層級的共同作業需求。 本主題提供有關如何設定、監控及維護商務用 Skype Server 部署的資訊連結。 
   
@@ -46,7 +41,7 @@ ms.locfileid: "60841185"
 |![數位方式圖示。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[在商務用 Skype Server 中管理拓撲](topology/topology.md)  |本節中的主題會透過使用商務用 Skype Server 控制台和商務用 Skype Server 管理命令介面，提供升級、更新、新增及移除伺服器的逐步程式。   |
 |![數位方式圖示。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[在商務用 Skype Server 中管理健康情況與監控](health-and-monitoring/health-and-monitoring.md)  |本節中的主題會針對您可以使用商務用 Skype Server 控制台和商務用 Skype Server 管理命令介面執行的監控和健全設定工作，提供逐步程式。   |
 |![數位方式圖示。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[管理商務用 Skype Server 中的封存](archiving/archiving.md)  |本節中的主題會透過使用商務用 Skype Server 控制台] 和商務用 Skype Server 管理命令介面，提供設定商務用 Skype Server 的封存選項和使用者原則的逐步程式。   |
-|![數位方式圖示。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[在商務用 Skype Server 2015 中管理 Persistent Chat Server](persistent-chat/persistent-chat.md)  |本節中的主題會透過使用商務用 Skype Server 控制台和商務用 Skype Server 管理命令介面，提供管理 Persistent Chat Server 的逐步程式。  <br/> **附注：** 這僅適用于商務用 Skype 2015。|
+|![數位方式圖示。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[在商務用 Skype Server 2015 中管理 Persistent Chat Server](persistent-chat/persistent-chat.md)  |本節中的主題會透過使用商務用 Skype Server 控制台和商務用 Skype Server 管理命令介面，提供管理 Persistent Chat Server 的逐步程式。  <br/> **注意：** 這僅適用于商務用 Skype 2015。|
 |![數位方式圖示。](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[商務用 Skype Server 管理命令介面](management-shell.md) <br/> |本節中的主題說明如何使用商務用 Skype Server 管理命令介面來管理商務用 Skype Server。  <br/> |
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>有關規劃商務用 Skype Server 的其他資源

@@ -1,30 +1,25 @@
 ---
 title: 在商務用 Skype Server 中管理伺服器對伺服器驗證 (OAuth) 和夥伴應用程式
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: 摘要：管理商務用 Skype Server 中的 OAuth 和夥伴應用程式。
-ms.openlocfilehash: 5a5141af7473f1d49e1c19e2a454e1e46d9f65d5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856690"
 ---
+
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>在商務用 Skype Server 中管理伺服器對伺服器驗證 (OAuth) 和夥伴應用程式
  
-**摘要：** 管理商務用 Skype Server 中的 OAuth 和夥伴應用程式。
+**總結：** 管理商務用 Skype Server 中的 OAuth 和夥伴應用程式。
   
-商務用 Skype Server 必須能夠與其他應用程式和伺服器產品進行安全、順利的通訊。 例如，您可以設定商務用 Skype Server，讓連絡人資料和（或）封存資料儲存在 Microsoft Exchange Server 2013 中;不過，只有商務用 Skype Server 和 Exchange 能夠安全地相互通訊時，才可以執行此動作。 同樣地，您也可以在 Office Web 應用程式伺服器中排程商務用 Skype Server 會議;同樣地，如果兩部伺服器 (SharePoint 和商務用 Skype Server) 彼此信任，就會這麼做。 雖然可以使用一種驗證機制來商務用 Skype Server 和 Exchange 之間的通訊，但是商務用 Skype Server 和 SharePoint 通訊的個別機制，使用標準化方法進行所有伺服器對伺服器驗證並授權。
+商務用 Skype Server 必須能夠與其他應用程式和伺服器產品進行安全、順利的通訊。 例如，您可以設定商務用 Skype Server，讓連絡人資料和（或）封存資料儲存在 Microsoft Exchange Server 2013 中; 不過，只有商務用 Skype Server 和 Exchange 能夠與彼此安全通訊時，才可以這麼做。 同樣地，您也可以在 Office Web 應用程式伺服器中排程商務用 Skype Server 會議; 另外，如果兩部伺服器 (SharePoint 及商務用 Skype Server 彼此信任，則只有這種方式才能執行。 雖然可以使用一種驗證機制來商務用 Skype Server 和 Exchange 之間的通訊，但是商務用 Skype Server 和 SharePoint 的個別機制 通訊是一種更好且更有效的方法，就是使用標準化的方法來進行所有伺服器對伺服器驗證和授權。
   
 使用單一的標準化方法進行伺服器對伺服器的驗證是商務用 Skype Server 所採用的方法。 開始使用 Office server 2013 版本、商務用 Skype Server (以及其他 Microsoft Server 產品（包括 Exchange Server 及 SharePoint server) 支援 OAuth (開放授權) 通訊協定，以進行伺服器對伺服器驗證和授權。 藉由 OAuth (一些主要網站皆使用的標準授權通訊協定)，使用者認證及密碼並不會在電腦間傳遞。 驗證及授權是基於安全性權杖的交換，這些權杖會授與一段特定時間內一組特定資源的存取權。
   
@@ -41,11 +36,11 @@ OAuth 驗證通常涉及三方：單一授權伺服器及兩個需要互相通�
     
 - 在跨單位環境中設定伺服器對伺服器的驗證 (也就是說，在內部部署伺服器與 Microsoft 365 或 Office 365 元件) 之間的伺服器對伺服器驗證。
     
-請注意，目前只有 Exchange 2013、SharePoint 伺服器、Lync server 2013、商務用 Skype Server 2015 及商務用 Skype 2019 支援伺服器對伺服器驗證;如果您未執行這些伺服器之一，您將無法完全執行 OAuth 驗證。
+請注意，目前只有 Exchange 2013、SharePoint 伺服器、Lync server 2013、商務用 Skype Server 2015 及商務用 Skype 2019 支援伺服器對伺服器驗證; 如果您不是執行這兩種伺服器，則無法完全執行 OAuth 驗證。
   
 您也應該指出伺服器對伺服器驗證是選用的：如果商務用 Skype Server 不需要與其他伺服器通訊 (如 Exchange) 則可以完全略過伺服器對伺服器驗證。 如果已為 Lync server 2013 和其他應用程式設定伺服器對伺服器驗證，則不需要為商務用 Skype Server 重新執行。 
   
-不過，如果您想要使用商務用 Skype Server 中的某些功能（例如「整合連絡人存放區」），則需要伺服器對伺服器驗證。 整合連絡人存放區會將商務用 Skype Server 連絡人資訊儲存在 Exchange 中，而非商務用 Skype Server 中;這可讓使用者有一組可在商務用 Skype、Outlook 或 Outlook Web 存取中輕鬆存取的連絡人。 由於整合的連絡人存放區需要商務用 Skype Server 以 Exchange 共用資訊，因此您必須使用伺服器對伺服器驗證，才能部署該功能。 如果您選擇使用 Exchange 封存，而且立即訊息會話的記錄會儲存為 Exchange 電子郵件，而不是個別的資料庫記錄，則也需要伺服器對伺服器驗證。
+不過，如果您想要使用商務用 Skype Server 中的某些功能（例如「整合連絡人存放區」），則需要伺服器對伺服器驗證。 使用整合連絡人存放區時，商務用 Skype Server 連絡人資訊會儲存在 Exchange 中，而不是商務用 Skype Server; 這樣可讓使用者有一組可在商務用 Skype、Outlook 或 Outlook 中輕鬆存取的連絡人。 Web Access。 由於整合的連絡人存放區需要商務用 Skype Server 以 Exchange 共用資訊，因此您必須使用伺服器對伺服器驗證，才能部署該功能。 如果您選擇使用 Exchange 封存，而且立即訊息會話的記錄會儲存為 Exchange 電子郵件，而不是個別的資料庫記錄，則也需要伺服器對伺服器驗證。
   
 若要讓 Microsoft 365 或 Office 365 版本的商務用 Skype Server 與其 Exchange 對應，商務用 Skype Server 必須先從授權伺服器取得安全性權杖。 商務用 Skype Server 然後使用該安全性權杖識別自己 Exchange。 Exchange 的 Microsoft 365 或 Office 365 版本必須經過相同的程式，才能與商務用 Skype Server 通訊。
   

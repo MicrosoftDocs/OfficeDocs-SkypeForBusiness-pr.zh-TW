@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 中管理雙因素驗證
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 摘要：在商務用 Skype Server 中管理雙因素驗證。
-ms.openlocfilehash: af21fd551c8495a49c8617b25e4669bdd27ec0c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847416"
 ---
+
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>在商務用 Skype Server 中管理雙因素驗證
  
-**摘要：** 在商務用 Skype Server 中管理雙因素驗證。
+**總結：** 在商務用 Skype Server 中管理雙因素驗證。
   
 雙因素驗證可要求使用者提供兩種形式的驗證或身分識別，亦即使用者名稱/密碼組合和 token 或憑證，以提升安全性。 這也稱為「您所掌握的專案」，您知道的是什麼。」 
   
@@ -47,15 +42,15 @@ Lync Server 2013 的累計更新：7月2013的桌面用戶端和商務用 Skype 
    
 除非在服務層級停用這些驗證類型，否則在您的部署中啟用兩個要素驗證之後，所有其他版本的用戶端將無法順利登入。
   
-## <a name="skype-for-business-service-discovery"></a>商務用 Skype服務探索
+## <a name="skype-for-business-service-discovery"></a>商務用 Skype 服務探索
 
 內部和/或外部用戶端所使用的 DNS 記錄若要探索商務用 Skype 服務，應設定為解析成未啟用雙因素驗證的商務用 Skype 伺服器。 在此設定中，未啟用雙因素驗證的商務用 Skype 集區中的使用者不需要輸入 pin 碼以進行驗證，而啟用雙因素驗證的商務用 Skype 集區中的使用者則必須輸入其 pin 碼以進行驗證。
   
-## <a name="exchange-authentication"></a>Exchange認證
+## <a name="exchange-authentication"></a>Exchange 驗證
 
 已部署 Microsoft Exchange 的雙因素驗證的客戶可能會發現用戶端中的某些功能無法使用。 這種行為是設計所設計，因為商務用 Skype 用戶端不支援依存于 Exchange 整合的功能的兩個要素驗證。
   
-## <a name="contacts"></a>連絡人
+## <a name="contacts"></a>Contacts
 
 設定為使用整合連絡人存放區功能的商務用 Skype 使用者，會發現使用雙因素驗證來登入後，使用者的連絡人已不再可用。
   

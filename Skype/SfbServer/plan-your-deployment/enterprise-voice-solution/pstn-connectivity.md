@@ -1,28 +1,23 @@
 ---
 title: 商務用 Skype Server 中的 PSTN 連線元件
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: 深入瞭解商務用 Skype Server 中企業語音的 SIP 主幹及 PSTN 閘道。
-ms.openlocfilehash: 5b5bfd467c0269c6eea77db8f787ad5f4b769278
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861030"
 ---
+
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>商務用 Skype Server 中的 PSTN 連線元件
  
 深入瞭解商務用 Skype Server 中企業語音的 SIP 主幹及 PSTN 閘道。

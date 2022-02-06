@@ -1,27 +1,22 @@
 ---
 title: 發行拓撲建立鏡像資料庫頁面
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PublishTopologyCreateMirrorDatabasePage
+  - ms.lync.tb.PublishTopologyCreateMirrorDatabasePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 description: 這是初步檔，而且可能會變更。 空白主題會以預留位置形式包含。
-ms.openlocfilehash: 7ec0b8a99a84f0e7a2449b3548457c626917887e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830097"
 ---
+
 # <a name="publish-topology-create-mirror-database-page"></a>發行拓撲建立鏡像資料庫頁面
  
 這是初步檔，而且可能會變更。 空白主題會以預留位置形式包含。

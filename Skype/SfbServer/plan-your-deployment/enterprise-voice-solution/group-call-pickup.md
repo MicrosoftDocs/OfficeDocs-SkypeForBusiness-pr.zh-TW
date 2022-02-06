@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype 中規劃群組呼叫裝貨
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: 在商務用 Skype Server 企業語音中規劃群組通話挑選，讓使用者可以接聽原本供其他人接聽的來電。
-ms.openlocfilehash: 94868d78790d9cfaafaf35915c9c3cd1c7a9793f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850696"
 ---
+
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>在商務用 Skype 中規劃群組呼叫裝貨
  
 在商務用 Skype Server 企業語音中規劃群組通話挑選，讓使用者可以接聽原本供其他人接聽的來電。
@@ -118,7 +113,7 @@ ms.locfileid: "60850696"
   
 **群組呼叫收取使用者模型**
 
-|**計量**|**每個前端伺服器集區  <br/>  (8 部前端伺服器)**|**根據 Standard Edition 伺服器**|
+|**計量**|**每個前端伺服器集  <br/>  區 (8 部前端伺服器)**|**根據 Standard Edition 伺服器**|
 |:-----|:-----|:-----|
 |每個群組的使用者建議數量  <br/> |50  <br/> |50  <br/> |
 |建議的群組數目  <br/> |500  <br/> |60  <br/> |

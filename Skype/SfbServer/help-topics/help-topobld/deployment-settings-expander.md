@@ -1,27 +1,22 @@
 ---
 title: 部署設定展開工具
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.DeploymentSettingsExpander
+  - ms.lync.tb.DeploymentSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 您可以使用下列區段編輯現有部署的屬性：
-ms.openlocfilehash: fac8d80fffabea4bc939dd0fb517ac384a5776b4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851227"
 ---
+
 # <a name="deployment-settings-expander"></a>部署設定展開工具
 
 您可以使用下列區段編輯現有部署的屬性：

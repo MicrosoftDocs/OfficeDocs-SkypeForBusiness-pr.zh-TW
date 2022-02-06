@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中管理 DTMF 命令的按鍵對應
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 摘要：瞭解如何在商務用 Skype Server 中管理雙音多頻率 (DTMF) 命令的按鍵對應。
-ms.openlocfilehash: f4b380bddb9a0bc244887c44c85f02157f75b0e6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837635"
 ---
+
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>在商務用 Skype Server 中管理 DTMF 命令的按鍵對應
  
-**摘要：** 瞭解如何在商務用 Skype Server 中管理雙色調多頻率 (DTMF) 命令的按鍵對應。
+**總結：** 瞭解如何在商務用 Skype Server 中管理雙色調多頻率 (DTMF) 命令的按鍵對應。
   
 電話撥入式會議使用者可按下電話按鍵上的按鍵，以執行雙音多頻率 (DTMF) 命令。 DTMF 命令可讓撥入會議的使用者控制會議設定 (例如，靜音和 unmuting 本身，或使用電話上的小鍵盤鎖定和解除鎖定會議) 。 
   

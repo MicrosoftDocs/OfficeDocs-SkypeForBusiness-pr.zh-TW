@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 中刪除 PIN 原則
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: 摘要：刪除使用者的電話撥入式會議 PIN 以取得商務用 Skype Server。
-ms.openlocfilehash: 61bd6aabf823ab73f26832b1494bf625d3ea641c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847426"
 ---
+
 # <a name="delete-a-pin-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除 PIN 原則
  
-**摘要：** 刪除使用者的電話撥入式會議 PIN，以供商務用 Skype Server。
+**總結：** 刪除使用者的電話撥入式會議 PIN，以供商務用 Skype Server。
   
 遵循下列步驟，可刪除個人識別碼 (PIN) 原則。
   

@@ -1,27 +1,22 @@
 ---
 title: 新增前端伺服器組合 2010
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddFrontEndCollocationsPage2010
+  - ms.lync.tb.AddFrontEndCollocationsPage2010
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: 以 Enterprise Edition 部署而言，您可以將音訊/視訊會議服務、中繼伺服器或兩者都組合在前端集區上，或者，也可以將每一項各自部署為獨立伺服器。以 Standard Edition Server 部署而言，如果啟用會議，則一律會組合音訊/視訊會議服務。
-ms.openlocfilehash: e4f7186ab036ca0d4f3cdaad02ac47b8dbb4b362
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860420"
 ---
+
 # <a name="add-front-end-server-collocations-2010"></a>新增前端伺服器組合 2010
 
 以 Enterprise Edition 部署而言，您可以將音訊/視訊會議服務、中繼伺服器或兩者都組合在前端集區上，或者，也可以將每一項各自部署為獨立伺服器。以 Standard Edition Server 部署而言，如果啟用會議，則一律會組合音訊/視訊會議服務。
