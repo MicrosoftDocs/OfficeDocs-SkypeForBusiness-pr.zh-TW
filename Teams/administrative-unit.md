@@ -1,7 +1,7 @@
 ---
 title: 使用系統管理單位管理裝置
 author: mahoffman
-ms.author: v-mahoffman
+ms.author: serdars
 ms.reviewer: prasad.ghlove
 manager: serdars
 ms.topic: article
@@ -11,26 +11,21 @@ search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 6a4130cbd9493a37d84f0b15160adcaeb03c9edd
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056174"
+  - Microsoft Teams
 ---
+
 # <a name="manage-devices-in-the-teams-admin-center-with-administrative-units"></a>使用系統管理Teams管理中心管理裝置
 
-系統管理中心的系統Teams提供詳細的角色式存取權，以管理Teams裝置。 系統管理Teams授予系統管理員特定資源的存取權，但限制該系統管理員對其他資源的存取權。 如果您在不同的國家/地區Teams當地系統管理員，這項功能就特別實用。
+系統管理中心的系統Teams提供詳細的角色式存取權，以管理Teams裝置。 系統管理Teams授予系統管理員特定資源的存取權，但限制該系統管理員對其他資源的存取權。 如果您擁有不同國家/地區Teams系統管理員，這項功能就特別實用。
 
-例如，Contoso 在全球都有作業。 艾莉是位於倫敦的全域 IT 系統管理員，而 Prashant 是位於印度班加羅爾的當地 IT 系統管理員。 現在，當 Prashant 以Teams管理員的登錄至系統管理中心時，Teams看到全球的裝置。 艾莉華想要限制 Prashant 只Teams班加羅爾的裝置存取權。 系統管理單位允許她這麼做。 若要深入瞭解，請參閱管理[單元中的 Azure Active Directory。](/azure/active-directory/roles/administrative-units)
+例如，Contoso 在全球都有作業。 艾莉是位於倫敦的全域 IT 系統管理員，而 Prashant 是位於印度班加羅爾的當地 IT 系統管理員。 現在，當 Prashant 以Teams管理員的登錄至系統管理中心時，Teams看到全球的裝置。 艾莉華想要限制 Prashant 只Teams班加羅爾的裝置存取權。 系統管理單位允許她這麼做。 若要深入瞭解，請參閱系統[管理Azure Active Directory](/azure/active-directory/roles/administrative-units)。
 
 > [!NOTE]
-> 系統管理單位目前僅適用于Teams系統管理員角色Teams系統管理中心。
+> 系統管理單位目前僅在 Teams系統管理中心提供，Teams系統管理員角色使用。
 
 ## <a name="add-administrative-units"></a>新增系統管理單位
 
@@ -54,7 +49,7 @@ ms.locfileid: "62056174"
 
 ## <a name="switch-administrative-units"></a>切換系統管理單位
 
-如果您是裝置系統管理員Teams，如果您已登錄系統管理中心，可以在系統管理Teams切換。 若要切換到不同的系統管理單元：
+如果您是系統管理員Teams，如果您已登錄系統管理中心，可以在系統管理Teams切換。 若要切換到不同的系統管理單元：
 
 1. 請Teams[系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=2024339)。
 

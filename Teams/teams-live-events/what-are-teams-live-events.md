@@ -1,34 +1,29 @@
 ---
 title: 什麼是 Microsoft Teams 即時活動？
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-- m365solution-spcomms
-- m365solution-scenario
+  - M365-collaboration
+  - m365initiative-meetings
+  - m365solution-spcomms
+  - m365solution-scenario
 ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
 description: 了解即時活動如何讓使用者在 Teams、Yammer 和 Stream 中將影片和內容廣播給更多線上觀眾。
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.dashboard.helparticle.liveevents
-- ms.teamsadmincenter.liveevents.policies
+  - ms.teamsadmincenter.dashboard.helparticle.liveevents
+  - ms.teamsadmincenter.liveevents.policies
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: f9e3eb69262cc9f8c93ae3f4f336471ffb564034
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: HT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830757"
 ---
+
 # <a name="what-are-microsoft-teams-live-events"></a>什麼是 Microsoft Teams 即時活動
 
 ## <a name="overview"></a>概觀

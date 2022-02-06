@@ -1,28 +1,23 @@
 ---
 title: 自訂通話駐留 inSkype for Business 的等候音樂
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: 在商務用 Skype Server 企業語音中自訂通話駐留的等候音樂。
-ms.openlocfilehash: 9a17bddf45911974687fb374e9fd5da65b94787c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865310"
 ---
+
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>自訂通話駐留 inSkype for Business 的等候音樂
  
 在商務用 Skype Server 企業語音中自訂通話駐留的等候音樂。

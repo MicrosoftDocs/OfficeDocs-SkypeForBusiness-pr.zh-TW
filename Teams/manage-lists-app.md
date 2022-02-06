@@ -1,36 +1,31 @@
 ---
-title: 管理貴組織的 [清單] 應用程式
-author: HowlinWolf-92
-ms.author: v-mahoffman
-ms.reviewer: anach,v-jasuk
+title: '管理貴組織的 [清單] 應用程式'
+author: SerdarSoysal
+ms.author: serdars
+ms.reviewer: 'anach,v-jasuk'
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 searchScope:
-- Microsoft Teams
-- Microsoft Cloud for Healthcare
-- Microsoft Cloud for Retail
-description: 瞭解如何針對貴組織中的使用者管理 Teams 中的 [清單] 應用程式。
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
+description: '瞭解如何針對貴組織中的使用者管理 Teams 中的 [清單] 應用程式。'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- M365-collaboration
-- microsoftcloud-healthcare
-- microsoftcloud-retail
-- m365initiative-lists
+  - M365-collaboration
+  - microsoftcloud-healthcare
+  - microsoftcloud-retail
+  - m365initiative-lists
 appliesto:
-- Microsoft Teams
-ms.custom: ''
-ms.openlocfilehash: bd70e5fbca82637299e6adef745bccc725525311
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288481"
+  - Microsoft Teams
+ms.custom: null
 ---
+
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [清單] 應用程式
 
 ## <a name="overview-of-lists"></a>[清單] 概觀
@@ -60,7 +55,7 @@ Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者
 
 聚會之後，郵件運送人就會撿拾自己的郵件並啟動其遞送路線。 在遞送路線中可能會發生事件，例如車輛事故、狗相關的問題或社會動亂的抗議。 當郵件運送人遇到事件時，他們會利用其行動裝置上的 Teams 來記錄事件詳細資料，並透過小組頻道的清單追蹤。 小組中的每個人 (包括在外面的郵件運送人) 都能看到這項資訊並取得最新訊息。
 
-在移轉到Teams之前，郵件電信公司必須返回郵局以完成列印表單，以報告事件，然後將事件輸入Excel試算表中。 Teams 先提供郵件運送人一個行動裝置，讓他們體會可以在何處使用 [清單] 來報告實地發生的事件、與小組成員分享事件詳細資料、在頻道中進行討論以及取得問題的解決方法。
+在移轉到Teams之前，郵件電信公司必須返回郵局，以完成列印表單以報告事件，然後將事件輸入Excel試算表中。 Teams 先提供郵件運送人一個行動裝置，讓他們體會可以在何處使用 [清單] 來報告實地發生的事件、與小組成員分享事件詳細資料、在頻道中進行討論以及取得問題的解決方法。
 
 ## <a name="what-you-need-to-know-about-lists"></a>必須知道的有關 [清單] 的事情
 

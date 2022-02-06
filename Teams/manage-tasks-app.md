@@ -1,33 +1,28 @@
 ---
-title: 在 Microsoft Teams 中管理貴組織的 [工作] 應用程式
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: '在 Microsoft Teams 中管理貴組織的 [工作] 應用程式'
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
 searchScope:
-- Microsoft Teams
-- Microsoft Cloud for Healthcare
-- Microsoft Cloud for Retail
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 audience: admin
-description: 瞭解如何管理貴組織中使用者的 [工作] 應用程式。
+description: '瞭解如何管理貴組織中使用者的 [工作] 應用程式。'
 ms.localizationpriority: medium
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- microsoftcloud-healthcare
-- microsoftcloud-retail
+  - Teams_ITAdmin_Help
+  - M365-collaboration
+  - microsoftcloud-healthcare
+  - microsoftcloud-retail
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 6412da5bdce345c1d187fd150b3877a63602b40b
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288351"
+  - Microsoft Teams
 ---
+
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [工作] 應用程式
 
 ## <a name="overview-of-tasks"></a>[工作] 概觀
@@ -77,7 +72,7 @@ ms.locfileid: "62288351"
 
 ### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>使用應用程式設定原則將工作釘選到 Teams
 
-應用程式設定原則可讓您自訂 Teams，以醒目提示對貴組織中的使用者最重要的應用程式。 在策略中設定的應用程式會釘到應用程式欄 ，即 Teams 桌面用戶端側邊以及 Teams 行動用戶端底部的資料行，使用者可以在這裡快速且輕鬆地存取它們。
+應用程式設定原則可讓您自訂 Teams，以醒目提示對貴組織中的使用者最重要的應用程式。 在策略中設定的應用程式會釘釘到應用程式欄 ，即 Teams 桌面用戶端側邊以及 Teams 行動用戶端底部的資料行，使用者可以在這裡快速且輕鬆地存取它們。
 
 若要為您的使用者釘選 [工作] 應用程式，您可以編輯全域 (全組織預設值) 原則，或建立並指定自訂應用程式設定原則。 若要深入了解，請參閱[管理 Teams 中的應用程式設定原則](teams-app-setup-policies.md)。
 

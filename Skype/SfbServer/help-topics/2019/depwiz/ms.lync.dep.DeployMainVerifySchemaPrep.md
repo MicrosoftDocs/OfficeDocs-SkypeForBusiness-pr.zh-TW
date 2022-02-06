@@ -1,27 +1,22 @@
 ---
 title: 驗證架構分割的複寫
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainVerifySchemaPrep
+  - ms.lync.dep.DeployMainVerifySchemaPrep
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 若要確認架構擴充是否已在您的 Active Directory 網域服務樹系中成功複寫，請執行下列操作：
-ms.openlocfilehash: ad48543f6b14e3e65750582caa42d050b0c2cd58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847996"
 ---
+
 # <a name="verify-replication-of-schema-partition"></a>驗證架構分割的複寫
  
 若要確認架構擴充是否已在您的 Active Directory 網域服務樹系中成功複寫，請執行下列操作：

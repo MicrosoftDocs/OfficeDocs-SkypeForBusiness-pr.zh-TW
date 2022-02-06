@@ -1,27 +1,22 @@
 ---
 title: 裝置設定
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ClientPhoneCfgMain
+  - ms.lync.lscp.ClientPhoneCfgMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 description: 裝置設定是一組設定，用來管理全域或網站內商務用 Skype 電話 Edition 裝置。 這些設定可讓您設定諸如所需的安全性模式、裝置記錄等級、語音服務品質 (QoS) 設定，以及電話是否應該在指定的非使用期限後自動鎖定等事項。
-ms.openlocfilehash: c8de4b310b5c02dbf760b12e478d7166a7d6a745
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840315"
 ---
+
 # <a name="device-configuration"></a>裝置設定
  
 裝置設定是一組設定，用來管理全域或網站內商務用 Skype 電話 Edition 裝置。 這些設定可讓您設定諸如所需的安全性模式、裝置記錄等級、語音服務品質 (QoS) 設定，以及電話是否應該在指定的非使用期限後自動鎖定等事項。 
@@ -38,7 +33,7 @@ ms.locfileid: "60840315"
 
 下列清單說明頁面上的功能表、命令、欄位及內容。
   
-- **新** 您可以使用下列範圍新增新的裝置設定：
+- **新增功能** 您可以使用下列範圍新增新的裝置設定：
     
   - 全域
     
@@ -50,9 +45,9 @@ ms.locfileid: "60840315"
     
   - **全選** 此選項會選取清單中的所有裝置設定。
     
-  - **Delete** 此選項會刪除所有選取的裝置設定。
+  - **刪除** 此選項會刪除所有選取的裝置設定。
     
-- **Refresh** 您可以重新整理裝置設定清單，以確認所有裝置設定選項的狀態。
+- **刷新** 您可以重新整理裝置設定清單，以確認所有裝置設定選項的狀態。
     
 ## <a name="see-also"></a>另請參閱
 

@@ -1,27 +1,22 @@
 ---
 title: 拓撲狀態
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/21/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.TopoStatusMain
+  - ms.lync.lscp.TopoStatusMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: '[拓撲：狀態] 頁面會顯示商務用 Skype 拓撲中伺服器的狀態。'
-ms.openlocfilehash: c64a2d5c4f5884ffcaf7e9480c75e447111a60db
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848886"
 ---
+
 # <a name="topology-status"></a>拓撲：狀態
 
 [**拓撲**：**狀態**] 頁面會顯示商務用 Skype 拓撲中伺服器的狀態。

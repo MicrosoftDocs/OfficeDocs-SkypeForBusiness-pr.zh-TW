@@ -1,34 +1,29 @@
 ---
 title: 設定 Skype 會議廣播的內部部署部署
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Ent_O365_Hybrid
-- Ent_O365_Hybrid_Top
-- IT_Skype16
-- IT_Skype4B_Hybrid
+  - Ent_O365_Hybrid
+  - Ent_O365_Hybrid_Top
+  - IT_Skype16
+  - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 摘要：瞭解為內部部署商務用 Skype Server 混合部署執行的 Skype 會議廣播所需執行的步驟。
-ms.openlocfilehash: a9dd4e90248548863237445f9a4b9876979321f2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843976"
 ---
+
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>設定 Skype 會議廣播的內部部署部署
  
-**摘要：** 深入瞭解為內部部署商務用 Skype Server 混合式部署所需執行的 Skype 會議廣播進行設定的步驟。
+**總結：** 深入瞭解為內部部署商務用 Skype Server 混合式部署所需執行的 Skype 會議廣播進行設定的步驟。
   
-Skype會議廣播是 Office 365 的一部分線上服務。 如果您正在執行商務用 Skype Server 內部部署，且想要在您的環境中使用 Skype 會議廣播，您必須遵循本主題中的設定步驟。 開始之前，您的環境必須設定為與商務用 Skype 線上的混合使用。 如需詳細資訊，請參閱[Plan 商務用 Skype Server 和商務用 Skype online 之間的混合式連線](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)，以及[在商務用 Skype Server 和商務用 Skype 線上之間部署混合式連線](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)。
+Skype 會議廣播是 Office 365 中的一項線上服務。 如果您正在執行商務用 Skype Server 內部部署，且想要在您的環境中使用 Skype 會議廣播，您必須遵循本主題中的設定步驟。 開始之前，您的環境必須設定為與商務用 Skype 線上的混合使用。 如需詳細資訊，請參閱[Plan 商務用 Skype Server 和商務用 Skype online 之間的混合式連線](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)，以及[在商務用 Skype Server 和商務用 Skype 線上之間部署混合式連線](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)。
   
 ## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>設定 Skype 會議廣播的混合式環境
 
