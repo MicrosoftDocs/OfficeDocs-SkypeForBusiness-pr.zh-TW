@@ -1,39 +1,33 @@
 ---
 title: Microsoft Teams活動使用方式報告
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
-description: 瞭解如何在 Teams 系統管理中心Microsoft Teams即時活動使用方式報告，以取得Teams即時活動活動的概觀。
+  - M365-collaboration
+description: 瞭解如何使用 Teams 系統管理中心Microsoft Teams即時活動使用方式報告，以取得Teams即時活動活動的概觀。
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2e2b9d4a9f60b905e03ee27397e24feb74ac3c17
-ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/22/2021
-ms.locfileid: "61135226"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams活動使用方式報告
 
-系統Teams系統管理中心中的即時Microsoft Teams報告會顯示貴組織中即時活動的活動概觀。 您可以針對每個事件查看使用方式資訊，包括事件狀態、開始時間、視圖及生產類型。 您可以深入瞭解使用趨勢，並查看貴組織中誰排程、進行展示，以及製作即時活動。
+系統Teams系統管理中心Microsoft Teams即時活動使用方式報告，顯示貴組織中即時活動的活動概觀。 您可以針對每個事件查看使用方式資訊，包括事件狀態、開始時間、視圖及生產類型。 您可以深入瞭解使用趨勢，並查看貴組織中誰排程、進行展示，以及製作即時活動。
 
 ## <a name="view-the-live-event-usage-report"></a>查看即時活動使用方式報告
 
-1. 在系統管理中心的左側導Microsoft Teams，按一下 [**分析&報告**  >  **使用方式報告**。 On the **View reports** tab, under **Report**, select **Teams live event usage**.
+1. 在系統管理中心的左側導Microsoft Teams，按一下 [分析&**報表**  >  **。** On the **View reports** tab, under **Report**, select **Teams live event usage**.
 2. 在 **日期範圍** 下，選取預先定義的範圍或設定自訂範圍。 您可以將範圍設定為最多顯示一年、六個月之前和目前日期之後的資料。
-3.  (選) 在召集人 **下，您可以選擇** 只顯示由特定使用者組織的即時活動。
-4. 按一下 **[執行報表**> 。  
+3.  (選) 在召集人下，您可以選擇只顯示由特定使用者組織的即時活動。
+4. 按一下 **[執行報表**。  
 
    :::image type="content" alt-text="系統管理中心Teams活動使用方式報表的螢幕擷取畫面Teams圖說文字。" source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
 

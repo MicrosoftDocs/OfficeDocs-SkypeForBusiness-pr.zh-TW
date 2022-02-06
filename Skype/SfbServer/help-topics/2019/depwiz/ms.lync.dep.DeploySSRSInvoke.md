@@ -1,27 +1,22 @@
 ---
 title: SQL Server Reporting Services (叫用)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeploySSRSInvoke
+  - ms.lync.dep.DeploySSRSInvoke
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
-ROBOTS: NOINDEX, NOFOLLOW
-description: 在提供將監控伺服器報告部署至 Microsoft SQL Server 2008 R2 的必要資訊之後，或若要 Microsoft SQL Server 2012 報表服務，[頁面執行] 命令會顯示將報告安裝至 SQL Server Reporting Services 所發出的命令摘要。
-ms.openlocfilehash: 6ba343e31df4fbf5c29b90dbebd26c7c008732b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860770"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: '在提供將監控伺服器報告部署至 Microsoft SQL Server 2008 R2 的必要資訊之後，或若要 Microsoft SQL Server 2012 報表服務，[頁面執行] 命令會顯示將報告安裝至 SQL Server Reporting Services 所發出的命令摘要。.'
 ---
+
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (叫用)
  
 在提供將監控伺服器報告部署至 Microsoft SQL Server 報表服務的必要資訊之後，page Execute 命令會顯示將報告安裝至 SQL Server Reporting Services 所發出的命令摘要。

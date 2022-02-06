@@ -1,32 +1,27 @@
 ---
 title: 商務用 Skype Server 2015 的環境需求
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 摘要：設定商務用 Skype Server 2015 的非伺服器需求。 進行部署之前，您需要先設定許多專案，包括 Active Directory、DNS、證書和 Fileshares。
-ms.openlocfilehash: 1d6e43e9ca65af85c37f262900805d9e0d3b8bfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834981"
 ---
+
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的環境需求
  
-**摘要：** 設定商務用 Skype Server 2015 的非伺服器需求。 進行部署之前，您需要先設定許多專案，包括 Active Directory、DNS、證書和 Fileshares。
+**總結：** 設定商務用 Skype Server 2015 的非伺服器需求。 進行部署之前，您需要先設定許多專案，包括 Active Directory、DNS、證書和 Fileshares。
   
 商務用 Skype Server 2015 的環境需求為何？ 我們已將並非直接與伺服器相關聯的所有專案放入本主題，所以您不需要這麼做。 如果您正在尋找伺服器必要條件，您可以檢查[商務用 Skype Server 2015 doc 的伺服器需求](server-requirements.md)。[網路規劃](../../plan-your-deployment/network-requirements/network-requirements.md)也會另外進行記錄。 否則，這是我們在本文中所掌握的功能：
   
@@ -57,7 +52,7 @@ ms.locfileid: "60834981"
 
 那麼，您可以使用哪些網域控制站作業系統？ 我們有下列清單：
 
-- Windows伺服器 2019 (您必須具有商務用 Skype Server 2015 累計更新5或更新版本) 
+- Windows Server 2019 (必須商務用 Skype Server 2015 累積更新5或更新版本) 
   
 - Windows Server 2016
     
@@ -71,7 +66,7 @@ ms.locfileid: "60834981"
     
 現在，您部署商務用 Skype Server 2015 的任何網域的網域功能層級，以及您部署商務用 Skype Server 2015 的任何樹系的樹系功能層級，都必須是下列其中一項：
 
-- Windows伺服器 2019 (您必須具有商務用 Skype Server 2015 累計更新5或更新版本) 
+- Windows Server 2019 (必須商務用 Skype Server 2015 累積更新5或更新版本) 
   
 - Windows Server 2016
     
@@ -369,7 +364,7 @@ Director 集區和前端集區憑證需求：
   
 - 檔案共用必須在直接連接儲存區 (DAS) 或儲存區域網路 (SAN) 上，而且這包括分散式檔案系統 (DFS) 以及獨立磁碟容錯陣列 (RAID) 為檔案存放區。 如需 Windows Server 2012 的 dfs 的進一步閱讀，請參閱[此 DFS 頁面](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11))。
     
-- 我們建議使用共用叢集進行檔案共用。 如果您是使用其中一個，則應 Windows Server 2012 或 Windows Server 2012 R2 進行叢集。 Windows伺服器 2008 R2 也是可接受的。 為什麼是最新的 Windows？ 舊版本可能沒有適當的許可權可啟用所有功能。 您可以使用 [群集管理員] 來建立檔案共用，以及 [如何在叢集專案上建立檔案共用](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) ，將協助您瞭解這些詳細資料。
+- 我們建議使用共用叢集進行檔案共用。 如果您是使用其中一個，則應 Windows Server 2012 或 Windows Server 2012 R2 進行叢集。 Windows Server 2008 R2 也是可接受的。 為什麼是最新的 Windows？ 舊版本可能沒有適當的許可權可啟用所有功能。 您可以使用 [群集管理員] 來建立檔案共用，以及 [如何在叢集專案上建立檔案共用](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) ，將協助您瞭解這些詳細資料。
     
 > [!CAUTION] 
 > 您應該知道，不支援使用網路連接儲存裝置 (NAS) 做為檔案共用，所以請使用以上所列的其中一個選項。 

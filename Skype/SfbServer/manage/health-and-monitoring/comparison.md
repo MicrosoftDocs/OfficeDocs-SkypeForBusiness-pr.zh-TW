@@ -1,27 +1,22 @@
 ---
 title: 媒體質量比較報告商務用 Skype Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 description: 摘要：瞭解商務用 Skype Server 中的媒體質量比較報告。
-ms.openlocfilehash: 8c492e75e124b7529e229ddc353bf89b3830fb93
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847266"
 ---
+
 # <a name="media-quality-comparison-report-in-skype-for-business-server"></a>媒體質量比較報告商務用 Skype Server
  
-**摘要：** 深入瞭解商務用 Skype Server 中的媒體質量比較報告。
+**總結：** 深入瞭解商務用 Skype Server 中的媒體質量比較報告。
   
 媒體質量比較報告可讓您比較不同音訊通話類型的通話品質值 (例如，透過無線網路撥打的通話，以及透過有線連線進行的通話) 。
   

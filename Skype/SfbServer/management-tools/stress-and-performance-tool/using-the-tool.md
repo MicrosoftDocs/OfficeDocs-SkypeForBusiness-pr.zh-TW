@@ -1,26 +1,21 @@
 ---
 title: 使用商務用 Skype Server 2015 應力和效能工具
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/13/2018
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: 若要執行商務用 Skype Server 2015 的壓力和效能工具，您必須能夠管理使用者、連絡人和使用者設定檔、設定執行的工具，然後查看工具所產生的輸出或結果。
-ms.openlocfilehash: b71148f4fcf26726b530861b147336a1c7b1d12e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839845"
 ---
+
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>使用商務用 Skype Server 2015 應力和效能工具
  
 若要執行商務用 Skype Server 2015 的壓力和效能工具，您必須能夠管理使用者、連絡人和使用者設定檔、設定執行的工具，然後查看工具所產生的輸出或結果。
@@ -259,14 +254,14 @@ ms.locfileid: "60839845"
     
 - **通訊錄 Web 查詢-** 這是通訊錄查閱服務，而不是通訊錄檔案下載。 如果您想要針對通訊錄檔案下載啟用此功能，請按一下 [ **高級** ] 按鈕，並將 **EnableABSDownload** 設定為 True。 為 [負載層級] 提供值。
     
-- **回應群組服務-** 按一下 [**高級**] 按鈕，並指定當您布建回應群組服務代理程式時，您已建立的回應群組 URIs。 您必須選擇至少一個回應群組。 若要使用其他，請以分號分隔回應群組。 將 **RGSUriSuffixStartIndex** 及 **RGSUriSuffixEndIndex** 更新為實際值。 選擇一種負載層級。
+- **回應群組服務-** 按一下 [**高級**] 按鈕，並指定當您布建回應群組服務代理人時，已建立的回應群組 URIs。 您必須選擇至少一個回應群組。 若要使用其他，請以分號分隔回應群組。 將 **RGSUriSuffixStartIndex** 及 **RGSUriSuffixEndIndex** 更新為實際值。 選擇一種負載層級。
     
 - **位置資訊服務-** 選取 [啟用] 或 [已停用] 的負載層級。
     
 > [!NOTE]
 > 每個案例旁邊都有一個「高級」按鈕，以及一組核取方塊，可對預設設定啟用變化。 
   
-- 選擇  *[隨機]*  ，可讓工具產生整個一小時內所建立的會議類比。
+- *選擇 [隨機]* ，可讓工具產生整個一小時內所建立的會議類比。
     
 - 選擇 [  *大型*  會議] 表示會模擬大型會議案例。
     
@@ -329,7 +324,7 @@ Web 應用程式透過安裝在前端伺服器上的整合通訊 Web API (UCWA) 
   
 選項如下：
   
-- **一般行動性設定-** 按一下 [**其他設定**]，然後將 [欄位 UcwaTargetServerUrl] 設定為 Director 集區虛擬 IP (VIP) 或前端集區 VIP。
+- **一般行動性設定-按一下 [** **其他設定**]，然後將 [欄位 UcwaTargetServerUrl] 設定為 Director 集區虛擬 IP (VIP) 或前端集區 VIP。
     
 - 目前 **狀態和 P2P 立即訊息/音訊-** 選取 [負載層級] 的值，啟用行動類比。
     
@@ -377,7 +372,7 @@ Web 應用程式透過安裝在前端伺服器上的整合通訊 Web API (UCWA) 
 LyncPerfTool.exe /file:IM_client0.xml
 ```
 
-若要讓工具在設定檔中顯示值，請  `/displayfile` 在前述命令上加上參數，使它看起來像這樣：
+若要讓工具在設定檔中顯示值，請在前述命令上加  `/displayfile` 上參數，使它看起來像這樣：
   
 ```console
 LyncPerfTool.exe /file:IM_client0.xml /displayfile

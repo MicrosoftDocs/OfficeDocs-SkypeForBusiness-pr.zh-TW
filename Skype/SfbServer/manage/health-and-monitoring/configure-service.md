@@ -1,27 +1,22 @@
 ---
 title: 設定商務用 Skype Server 的高效能行動服務
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 description: 摘要：瞭解商務用 Skype Server 中的行動服務。
-ms.openlocfilehash: 4c07c1e487875a41da0d1ba3c0d8872d96a5ac70
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828786"
 ---
+
 # <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>設定商務用 Skype Server 的高效能行動服務
  
-**摘要：** 深入瞭解商務用 Skype Server 中的行動服務。
+**總結：** 深入瞭解商務用 Skype Server 中的行動服務。
   
 > [!IMPORTANT]
 > 本主題只適用于商務用 Skype Server 行動性服務 (Mcx) ，但不適用於「整合通訊 Web API (UCWA) （如在 Lync Server 2013 的累計更新中傳遞）：二月份2013。 

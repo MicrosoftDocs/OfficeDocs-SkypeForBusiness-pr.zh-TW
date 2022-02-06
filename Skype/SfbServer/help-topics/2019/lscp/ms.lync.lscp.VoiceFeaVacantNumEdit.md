@@ -1,31 +1,26 @@
 ---
 title: 未指派的電話號碼建立新的或編輯現有
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.VoiceFeaVacantNumEdit
+  - ms.lync.lscp.VoiceFeaVacantNumEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。未指派的號碼表可識別您希望用來處理撥打至未指派號碼的方式。
-ms.openlocfilehash: d539255d4eaef4c8b1f1bc36808a746ab94eb169
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834531"
 ---
+
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>未指派電話號碼：建立新的或編輯現有
 
 > [!NOTE]
-> Exchange當您將商務用 Skype 2019 與 Exchange 2013 或 Exchange 2016 整合時，UM 仍可用於商務用 Skype Server 2019。 因為 Exchange 2019 的支援變更，所以 Exchange UM 整合的目的是為了取代雲端語音信箱和雲端自動語音應答功能。
+> 當您將商務用 Skype 2019 與 Exchange 2013 或 Exchange 2016 整合時，商務用 Skype Server 2019 仍可使用 Exchange UM。 因為 Exchange 2019 的支援變更，所以 Exchange UM 整合的目的是為了取代雲端語音信箱和雲端自動語音應答功能。
 
 未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。
 
@@ -37,7 +32,7 @@ ms.locfileid: "60834531"
 
 下列清單說明頁面上的欄位。
 
-- **名稱** 請輸入識別未指派號碼範圍的描述性名稱。 在您儲存範圍之後，就無法變更此名稱。
+- **名字** 請輸入識別未指派號碼範圍的描述性名稱。 在您儲存範圍之後，就無法變更此名稱。
 
 - **號碼範圍** 在第一個欄位中，輸入未指派號碼範圍的開始號碼。 在第二個欄位中，輸入該範圍的結束號碼。
 
@@ -53,7 +48,7 @@ ms.locfileid: "60834531"
 
   - **目的地伺服器的 FQDN** 選取執行宣告應用程式的應用程式服務的服務 ID，該應用程式會處理對此未指派號碼範圍的撥入呼叫。
 
-  - **宣告** 選取要為此未指派號碼範圍播放的宣告。
+  - **公告** 選取要為此未指派號碼範圍播放的宣告。
 
 - 若您選取 [宣告服務] 的 [Exchange UM]：
 

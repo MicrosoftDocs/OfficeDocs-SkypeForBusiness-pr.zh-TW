@@ -1,28 +1,23 @@
 ---
 title: 為商務用 Skype Server 選擇 E9-1-1 服務提供者
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: 在商務用 Skype Server 企業語音中為 E9-1-1 部署選擇服務提供者。
-ms.openlocfilehash: fbcbfeeefe6eb96138cda85904370a80f1909c67
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827486"
 ---
+
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>為商務用 Skype Server 選擇 E9-1-1 服務提供者
  
 在商務用 Skype Server 企業語音中為 E9-1-1 部署選擇服務提供者。

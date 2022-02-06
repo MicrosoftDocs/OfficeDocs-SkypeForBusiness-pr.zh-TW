@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 2015 中建立持續性聊天系統管理員
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: 摘要：閱讀此主題以瞭解如何建立 persistent chat Server 系統管理員角色，以在商務用 Skype Server 2015 中啟用 persistent 聊天服務的初始設定和管理。
-ms.openlocfilehash: c8878867d05b285e8275e63ba2e6e16a83b0a82e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846966"
 ---
+
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中建立持續性聊天系統管理員
  
-**摘要：** 閱讀此主題以瞭解如何建立 persistent chat Server 系統管理員角色，以在商務用 Skype Server 2015 中啟用 persistent 聊天服務的初始設定和管理。
+**總結：** 閱讀此主題以瞭解如何建立 persistent chat Server 系統管理員角色，以在商務用 Skype Server 2015 中啟用 persistent 聊天服務的初始設定和管理。
   
 在商務用 Skype Server 中，執行特定工作的使用者必須指派為一或多個特定群組的成員。 Role-Based 存取控制 (RBAC) 是用來授與許可權的方式，方法是指派使用者至預先定義的商務用 Skype Server 系統管理角色。 這些角色會對應至 Active Directory 網域服務中的通用安全性群組。 可使用商務用 Skype Server 管理命令介面或商務用 Skype Server 控制台，將 persistent chat Server Cmdlet 的存取權授與 CsPersistentChatAdministrator，以取得 persistent chat Server Cmdlet 的成員。
   

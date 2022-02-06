@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 2015 中設定 Persistent Chat 使用者原則
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 2015 中建立 Persistent Chat Server 的初始使用者原則。 Persistent Chat 使用者原則決定使用者是否可以存取聊天室。
-ms.openlocfilehash: 71003f6befa3e6c47cd65829c3703a45527e5964
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832857"
 ---
+
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定 Persistent Chat 使用者原則
  
-**摘要：** 閱讀此主題以瞭解如何在商務用 Skype Server 2015 中建立 Persistent Chat Server 的初始使用者原則。 Persistent Chat 使用者原則決定使用者是否可以存取聊天室。
+**總結：** 閱讀此主題以瞭解如何在商務用 Skype Server 2015 中建立 Persistent Chat Server 的初始使用者原則。 Persistent Chat 使用者原則決定使用者是否可以存取聊天室。
   
 您可以在下列層級管理 Persistent Chat Server 使用者原則：全域、網站或使用者。 起初，您會設定全域原則，為部署中的所有使用者啟用 Persistent Chat 設定，然後建立其他使用者和網站原則，以控制是否開啟特定使用者和網站的持續性聊天功能。
   

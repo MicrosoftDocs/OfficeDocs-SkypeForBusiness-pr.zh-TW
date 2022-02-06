@@ -1,36 +1,31 @@
 ---
 title: 有關移植的更多資訊
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: tonysmit,jastark
+ms.reviewer: 'tonysmit,jastark'
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-voice
+  - M365-voice
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
 description: 取得將電話號碼移植至Microsoft Teams。
-ms.openlocfilehash: 362f7865f820e91e911791685293b7ca9c1786cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848176"
 ---
+
 # <a name="more-information-about-porting"></a>有關移植的更多資訊
 
 您可以在這裡找到將電話號碼Microsoft Teams。
 
-有關完整的逐步指示，請參閱[將電話號碼轉接到 Teams。](transfer-phone-numbers-to-teams.md)
+有關完整的逐步指示，請參閱將[電話號碼轉接到Teams](transfer-phone-numbers-to-teams.md)。
 
 如果您需要協助，或需要取得更多電話號碼，請聯絡 [TNS 服務台協助](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
@@ -71,14 +66,14 @@ ms.locfileid: "60848176"
 
 ## <a name="authorized-person-on-the-account"></a>帳戶上的授權人員
 
-在埠精靈中，您必須向服務提供者或電信公司輸入有權變更帳戶的人員名稱。 該名稱不會用於處理埠訂單，但用於發生爭議，或數位在埠時不正確。 此人員負責針對埠訂單 (授權書) LOA 授權書。
+在埠精靈中，您必須向服務提供者或電信公司輸入有權變更帳戶的人員名稱。 該名稱不會用於處理埠訂單，但用於發生爭議，或數位在埠時不正確。 此人員負責處理埠訂單的授權書 (LOA) 授權書。
   
 > [!NOTE]
-> 方塊限制為 15 個字元， (包含) 。 在方塊中沒有完整名稱不會延遲或取消埠訂單。
+> 方塊限制為 15 個字元 (包含空格) 。 在方塊中沒有完整名稱不會延遲或取消埠訂單。
   
 ## <a name="whats-my-billing-telephone-number"></a>我的帳單電話號碼是什麼？
 
-BTN (帳單) 號碼是包含在帳單上且由服務提供者或電信業者計費的主要電話號碼。 如果您從只有一個電話號碼的帳戶移轉電話號碼，您必須輸入此電話號碼。 如果您要從擁有多個帳戶的帳戶移轉電話號碼，您可以查看帳單，或連連您的服務提供者或電信業者，以判斷您帳戶的 BTN 是什麼。
+BTN () 帳單電話號碼是包含在帳單上且由服務提供者或電信業者計費的主要電話號碼。 如果您從只有一個電話號碼的帳戶移轉電話號碼，您必須輸入此電話號碼。 如果您要從擁有多個帳戶的帳戶移轉電話號碼，您可以查看帳單，或連連您的服務提供者或電信業者，以判斷您帳戶的 BTN 是什麼。
 
 ## <a name="what-should-i-put-in-for-the-account-number"></a>我應該為帳戶號碼放入什麼？
 

@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 2015 中設定 Persistent Chat Server 選項
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
 description: 摘要：瞭解如何在商務用 Skype Server 2015 的全域、網站或集區層級設定 Persistent Chat Server 選項。
-ms.openlocfilehash: 99dab0b4a5e7bb542dee00803e5c401c63544ada
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835841"
 ---
+
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定 Persistent Chat Server 選項
  
-**摘要：** 瞭解如何在商務用 Skype Server 2015 的全域、網站或集區層級設定 Persistent Chat Server 選項。
+**總結：** 瞭解如何在商務用 Skype Server 2015 的全域、網站或集區層級設定 Persistent Chat Server 選項。
   
 您可以為持久聊天伺服器指定數個選項，這些選項可全域套用到網站中的所有集區或網站中的特定集區。 Persistent Chat server 選項包括下列各項： 
   

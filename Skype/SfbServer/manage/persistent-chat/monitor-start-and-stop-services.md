@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 2015 中監控、啟動和停止 Persistent 聊天服務
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中開始、停止和監視 Persistent 聊天服務。
-ms.openlocfilehash: 9d25654a222b956fa5c8a1902e5d3a90674829e8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833379"
 ---
+
 # <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中監控、啟動和停止 Persistent 聊天服務
  
-**摘要：** 瞭解如何在商務用 Skype Server 2015 中開始、停止和監視 Persistent Chat service。
+**總結：** 瞭解如何在商務用 Skype Server 2015 中開始、停止和監視 Persistent Chat service。
   
 persistent chat service 和 persistent chat 服務規範服務是商務用 Skype Server 拓撲的一部分，因此可使用下列 Cmdlet 進行監控、停止和啟動：
   

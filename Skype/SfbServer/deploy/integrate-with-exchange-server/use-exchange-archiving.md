@@ -1,29 +1,24 @@
 ---
 title: 設定商務用 Skype Server 以使用 Exchange Server 封存
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 摘要：設定 Exchange Server 2016 或 Exchange Server 2013 及商務用 Skype Server 的 IM 記錄。
-ms.openlocfilehash: 0b154c9184002cf663d61395277471f8a927c556
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840585"
 ---
+
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>設定商務用 Skype Server 以使用 Exchange Server 封存
 
-**摘要：** 設定 Exchange Server 2016 或 Exchange Server 2013 及商務用 Skype Server 的 IM 記錄。
+**總結：** 設定 Exchange Server 2016 或 Exchange Server 2013 及商務用 Skype Server 的 IM 記錄。
 
 商務用 Skype Server 讓管理員可以選擇將立即訊息和 Web 會議記錄封存到使用者的 Exchange Server 2016 或 Exchange Server 2013 信箱，而不是 SQL Server 資料庫。 若您啟用了此選項，系統就會將記錄寫入使用者信箱的「清理」資料夾。 「清理」資料夾是「可復原項目」資料夾中的隱藏資料夾。 雖然使用者看不到此資料夾，但該資料夾是由 Exchange 搜尋引擎進行索引的，可使用 Exchange 信箱搜尋和/或 Microsoft SharePoint Server 2013 來探索。 因為資訊儲存在 Exchange In-Place 保留] 功能所使用的同一個資料夾中 (負責封存電子郵件及其他 Exchange 通訊) ，所以系統管理員可以使用單一工具來搜尋所有為使用者所歸檔的電子通訊。
 
@@ -110,9 +105,9 @@ Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName  "RedmondArchivingPolic
 
 ## <a name="step-3-configuring-the-exchangearchivingpolicy-property"></a>步驟 3：設定 ExchangeArchivingPolicy 屬性
 
-如果商務用 Skype Server 和 Exchange Server 位於不同的樹系中，則在封存設定設定中只啟用 Exchange 封存，就不足。這不會導致立即訊息和網路會議記錄在 Exchange 中封存。 相反地，您也必須設定每個相關商務用 Skype Server 使用者帳戶上的 ExchangeArchivingPolicy 屬性。 您可將此屬性設為下列四個可能值之一：
+如果商務用 Skype Server 和 Exchange Server 位於不同的樹系中，則在封存設定設定中只啟用 Exchange 封存，就不足以在 Exchange 中封存立即訊息和 Web 會議記錄。 相反地，您也必須設定每個相關商務用 Skype Server 使用者帳戶上的 ExchangeArchivingPolicy 屬性。 您可將此屬性設為下列四個可能值之一：
 
-1. **未初始化**。 表示封存會根據為使用者 Exchange 信箱設定的 In-Place 保留設定而定;如果使用者的信箱尚未啟用 In-Place 暫止狀態，使用者將會在商務用 Skype Server 中封存他或她的郵件和 Web 會議記錄。
+1. **未初始化**。 指出封存會根據為使用者 Exchange 信箱設定的 In-Place 暫止設定，但如果使用者的信箱尚未啟用 In-Place 保留，使用者將會在商務用 Skype Server 中封存他或她的郵件和 Web 會議記錄。
 
 2. **UseLyncArchivingPolicy**。 表示使用者的立即訊息和 Web 會議記錄應該以商務用 Skype Server，而不是 Exchange 中封存。
 

@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中部署監控
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 摘要：瞭解如何在商務用 Skype Server 中部署監控。
-ms.openlocfilehash: 5e3fdf468067b707ee1dd97c5458f3612d78653d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855077"
 ---
+
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>在商務用 Skype Server 中部署監控
 
-**摘要：** 瞭解如何在商務用 Skype Server 中部署監控。
+**總結：** 瞭解如何在商務用 Skype Server 中部署監控。
 
 執行這些工作之前，請參閱[商務用 Skype Server 中的監視計畫](../../plan-your-deployment/monitoring.md)。
 
@@ -36,7 +31,7 @@ ms.locfileid: "60855077"
 > [!NOTE]
 > 如果已啟用集區監控，您可以停用收集監控資料的處理常式，而不需變更拓撲：商務用 Skype Server 提供一種方法，讓您能夠停用 (，然後再重新啟用) 通話詳細資料記錄 (CDR) 或經驗品質 (QoE) 資料收集。 如需詳細資訊，請參閱本文件中的＜設定詳細通話記錄和經驗品質設定＞一節。
 
-在商務用 Skype Server 中監控的另一個重要增強專案是商務用 Skype Server 監控報告現在所支援的事實 IPv6：使用 [IP 位址] 欄位的報告會顯示 IPv4 或 IPv6 位址，取決於： 1) 所使用的 SQL 查詢;和，2) IPv6 位址會儲存在監控資料庫中。
+在商務用 Skype Server 中監控的另一個重要增強專案是商務用 Skype Server 監控報告現在支援的事實 IPv6：使用 [IP 位址] 欄位的報告會顯示 IPv4 或 IPv6 位址，取決於： 1) 所使用的 SQL 查詢; 而 2) IPv6 位址儲存于監控資料庫中。
 
 > [!NOTE]
 > 確定 SQL Server agent service Startup Type 為 [自動]，且 SQL Server Agent service 執行的是存放監控資料庫的 SQL 實例，因此預設監控 SQL Server 維護工作可以根據 SQL Server Agent Service 的控制，以排程的方式來執行。
@@ -47,7 +42,7 @@ ms.locfileid: "60855077"
 
 - 安裝 SQL Server Reporting Services 和商務用 Skype Server 監控報告。 監視報告是預先設定的報告，針對儲存在監控資料庫中資訊提供不同的觀點。
 
-- 設定詳細通話記錄 (CDR) 和經驗品質 (QoE) 資料收集。 詳細通話記錄可讓您追蹤商務用 Skype Server 功能（例如 Voice over IP (VoIP) 電話）的使用方式;立即訊息 (IM) ;檔案傳輸;音訊/視頻 (A/V) 會議;和應用程式共用會話。 QoE 計量追蹤在組織中建立的音訊和視訊通話品質，包括遺失的網路封包數量、背景雜訊和「抖動」(封包延遲差異) 量。
+- 設定詳細通話記錄 (CDR) 和經驗品質 (QoE) 資料收集。 詳細通話記錄可讓您追蹤商務用 Skype Server 功能（如 Voice over IP (VoIP) 電話）的使用方式; 立即訊息 (IM) ; 檔案傳輸; 音訊/視頻 (A/V) 會議; 和應用程式共用會話。 QoE 計量追蹤在組織中建立的音訊和視訊通話品質，包括遺失的網路封包數量、背景雜訊和「抖動」(封包延遲差異) 量。
 
 - 從監控資料庫手動清除 CDR 及/或 QoE 記錄。
 

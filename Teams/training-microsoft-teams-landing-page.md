@@ -1,30 +1,24 @@
 ---
 title: Microsoft Teams 系統管理訓練
-ms.reviewer: ''
+ms.reviewer: null
 description: 使用這些使用者、系統管理員和由講師帶領的訓練資源和教學課程影片，幫助您充分利用組織中的 Microsoft Teams。
 ms.topic: overview
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 audience: admin
 manager: serdars
 ms.service: msteams
 ms.localizationpriority: high
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
-- remotework
+  - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
+  - remotework
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 70b24d1e8f3b47b4a8f690e823e922c16807a0da
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: HT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860920"
 ---
 # <a name="microsoft-teams-training"></a>Microsoft Teams 訓練
 

@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中將監控報告與鏡像資料庫相關聯
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 摘要：瞭解如何將監控報告與商務用 Skype Server 所使用的鏡像資料庫相關聯。
-ms.openlocfilehash: 29992c9b37ea4160c2696bdeb7296ab83e1eb198
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856210"
 ---
+
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>在商務用 Skype Server 中將監控報告與鏡像資料庫相關聯 
  
-**摘要：** 瞭解如何將監控報告與商務用 Skype Server 所使用的鏡像資料庫相關聯。
+**總結：** 瞭解如何將監控報告與商務用 Skype Server 所使用的鏡像資料庫相關聯。
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>監視含鏡像資料庫的報表
 
@@ -39,7 +34,7 @@ ms.locfileid: "60856210"
     
    - 安裝監視報告的資料庫實例名稱 (例如， **而 archinst**) 。
     
-     例如，如果 SQL Server Reporting Services 已安裝在電腦上， `atl-sql-001.litwareinc.com` 且監控報告使用資料庫實例而 archinst，則首頁 URL 會如下所示：
+     例如，如果 SQL Server Reporting Services 已安裝在電腦 `atl-sql-001.litwareinc.com` 上，且監控報告使用資料庫實例而 archinst，則首頁 URL 會如下所示：
     
      `http://atl-sql-001.litwareinc.com/Reports_archinst`
     

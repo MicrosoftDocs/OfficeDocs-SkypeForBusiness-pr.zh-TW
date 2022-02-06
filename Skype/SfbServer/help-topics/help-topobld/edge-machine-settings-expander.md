@@ -1,27 +1,22 @@
 ---
 title: Edge 電腦設定展開工具
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeMachineSettingsExpander
+  - ms.lync.tb.EdgeMachineSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 description: 若要編輯 Edge Server 集區中某個伺服器的內容，請執行下列動作：
-ms.openlocfilehash: b04c269102bc11f15e336310323de756d9daa917
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829007"
 ---
+
 # <a name="edge-machine-settings-expander"></a>Edge 電腦設定展開工具
  
 若要編輯 Edge Server 集區中某個伺服器的內容，請執行下列動作：

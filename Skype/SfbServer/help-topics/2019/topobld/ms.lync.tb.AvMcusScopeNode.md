@@ -1,27 +1,22 @@
 ---
 title: AV MCU 範圍節點
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AvMcusScopeNode
+  - ms.lync.tb.AvMcusScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 76edf3b8-10c6-4c61-bbef-395f56d298ed
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: '[A/V 會議集區] 節點會列出您拓撲中的 A/V 會議集區。您可以執行下列動作：'
-ms.openlocfilehash: 9e43ecaf8b498a01d22b46f4e3f8b995a939b4ed
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847906"
 ---
+
 # <a name="av-mcus-scope-node"></a>AV MCU 範圍節點
  
 [A/V 會議集區] 節點會列出您拓撲中的 A/V 會議集區。您可以執行下列動作：

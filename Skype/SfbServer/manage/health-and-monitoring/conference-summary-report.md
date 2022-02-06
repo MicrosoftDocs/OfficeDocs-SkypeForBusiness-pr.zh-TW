@@ -1,27 +1,22 @@
 ---
 title: 商務用 Skype Server 中的會議摘要報告
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 description: 摘要：瞭解商務用 Skype Server 中的會議摘要報告。
-ms.openlocfilehash: 029dac40c7bc52602f0403bdfd52559db662b0ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846406"
 ---
+
 # <a name="conference-summary-report-in-skype-for-business-server"></a>商務用 Skype Server 中的會議摘要報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的會議摘要報告。
+**總結：** 深入瞭解商務用 Skype Server 中的會議摘要報告。
   
 會議摘要報告提供線上會議工作階段的整體檢視。 會議通常會包含超過2個使用者，且需要使用會議服務。 相比之下，點對點工作階段一般只會包含2位使用者，不需要使用商務用 Skype Server 會議服務。 對等活動會在[商務用 Skype Server 中的 Peer-to-Peer 活動摘要報告](peer-to-peer-activity-summary-report.md)上報告。
   

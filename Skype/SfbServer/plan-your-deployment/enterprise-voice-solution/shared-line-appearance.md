@@ -1,29 +1,24 @@
 ---
 title: 在商務用 Skype Server 2015 中規劃共用行外觀
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/21/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
 description: 請閱讀本主題，以瞭解如何在 2015 2015 年11月累積更新 (的 SLA) 商務用 Skype Server 中規劃共用線外觀。
-ms.openlocfilehash: 9400a4a68c992c822162be3a5f84ea4a9d0ede31
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847206"
 ---
+
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中規劃共用行外觀
  
 請閱讀本主題，以瞭解如何在 2015 2015 年11月累積更新 (的 SLA) 商務用 Skype Server 中規劃共用線外觀。 

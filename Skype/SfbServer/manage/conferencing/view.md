@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中查看會議原則
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: 摘要：瞭解如何在商務用 Skype Server 中查看會議原則。
-ms.openlocfilehash: 7a7768aaef91fde0914c2f1e693bdcca6a6a74b7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836435"
 ---
+
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中查看會議原則
  
-**摘要：** 瞭解如何在商務用 Skype Server 中查看會議原則。
+**總結：** 瞭解如何在商務用 Skype Server 中查看會議原則。
   
 您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面來查看會議原則。
   

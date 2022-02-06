@@ -1,7 +1,7 @@
 ---
 title: 規劃用戶端和裝置
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/20/2018
@@ -9,24 +9,19 @@ audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 摘要：查看商務用 Skype 支援的用戶端和應用程式。
-ms.openlocfilehash: 07bdf01db2992f8e81264f4e04a6209ce2f3c3bf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836275"
 ---
+
 # <a name="plan-for-clients-and-devices"></a>規劃用戶端和裝置
 
-**摘要：** 複查商務用 Skype 支援的用戶端和應用程式。
+**總結：** 複查商務用 Skype 支援的用戶端和應用程式。
 
 如今的工作力會持續移動。 員工必須進行通訊及共同作業，不論是從公司辦公室、地區位置、家庭辦公室還是在旅途中運作。 商務用 Skype Server 會透過您可以部署至組織使用者的用戶端介面集合，支援這些需求。 周密的規劃可確保員工能夠取得所需的內容，而且在任何地方都可以使用商務用 Skype。
 
@@ -67,7 +62,7 @@ Mac 用戶端[上的商務用 Skype](https://www.microsoft.com/download/details.
 
 ### <a name="skype-for-business-web-app-and-skype-meetings-app"></a>商務用 Skype Web 應用程式和 Skype 會議應用程式
 
-如果使用者的電腦上未安裝商務用 Skype，且使用者在 Windows 電腦上按一下會議邀請中的會議連結，則會安裝及開啟 Skype 會議應用程式或商務用 Skype Web 應用程式。  Skype會議應用程式是您組織外部參與者的選擇用戶端。  (請注意，mac 上的商務用 Skype 會安裝及開啟。 ) 請參閱[Plan for meeting 用戶端 (Web 應用程式和會議應用程式) ](meetings-clients.md) ，以瞭解使用這些用戶端的需求。
+如果使用者的電腦上未安裝商務用 Skype，且使用者在 Windows 電腦上按一下會議邀請中的會議連結，則會安裝及開啟 Skype 會議應用程式或商務用 Skype Web 應用程式。  Skype 會議應用程式是您組織外部參與者的選擇用戶端。  (請注意，mac 上的商務用 Skype 會安裝及開啟。 ) 請參閱[Plan for meeting 用戶端 (Web 應用程式和會議應用程式) ](meetings-clients.md) ，以瞭解使用這些用戶端的需求。
 
 
 ### <a name="skype-for-business-web-scheduler"></a>商務用 Skype Scheduler
@@ -80,7 +75,7 @@ Mac 用戶端[上的商務用 Skype](https://www.microsoft.com/download/details.
 
 ### <a name="microsoft-teams-rooms"></a>Microsoft Teams 會議室
 
-Microsoft Teams 會議室是 Microsoft 最新的會議解決方案，其使用熟悉的介面，而且易於部署和管理，利用現有的設備（如 LCD 面板）進行安裝，以方便安裝。 Microsoft Teams 會議室使用專門建立的 UWP 應用程式，在主控台模式中執行 Surface Pro 4 或 Surface Pro 時 (部署的 uwp 應用程式是在裝置上執行的唯一應用程式) 而且需要在您的實施上使用自己的裝置帳戶。 軟體會透過 Windows 儲存區和 Windows 更新進行更新。 https://aka.ms/MTRDocs如需在您的部署中使用這些會議室主控台的詳細資訊，請參閱。 
+Microsoft Teams 會議室是 Microsoft 最新的會議解決方案，其使用熟悉的介面，而且易於部署和管理，利用現有的設備（如 LCD 面板）進行安裝，以方便安裝。 Microsoft Teams 會議室使用專門建立的 UWP 應用程式，在主控台模式中執行 Surface Pro 4 或 Surface Pro 時 (部署的 uwp 應用程式是在裝置上執行的唯一應用程式) 而且需要在您的實施上使用自己的裝置帳戶。 軟體會透過 Windows 儲存區和 Windows 更新進行更新。 如需在您的部署中使用這些會議室主控台的詳細資訊，請參閱 https://aka.ms/MTRDocs 。 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Surface Hub 上的商務用 Skype
 
@@ -93,7 +88,7 @@ Microsoft Surface Hub 是一種全一體生產力裝置，其適用于集體討�
 
 您的使用者可以自行安裝用戶端，以在[所有裝置上下載商務用 Skype](https://products.office.com/skype-for-business/download-app?tab=tabs-3)。 當使用者在 Windows 上安裝 Microsoft 365 或 Office 365 時，也會安裝用戶端。 如果您的部分使用者有 Mac，這些使用者會有一組不同的功能，如先前章節所述。
 
-商務用 Skype 線上或商務用 Skype Server 2019 中無法使用商務用 Skype Server 2015 的某些功能，請參閱[線上或混合使用者帳戶的 2015](desktop-feature-comparison.md#Online-Hybrid)或[線上或](desktop-feature-comparison.md#Online-Hybrid)混合使用者帳戶限制，以取得2019的詳細資料。 商務用 Skype線上系統管理員可能會想要參考[商務用 Skype 線上服務說明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)，以瞭解可用之不同方案的詳細資訊。
+商務用 Skype 線上或商務用 Skype Server 2019 中無法使用商務用 Skype Server 2015 的某些功能，請參閱[線上或混合使用者帳戶的 2015](desktop-feature-comparison.md#Online-Hybrid)或[線上或](desktop-feature-comparison.md#Online-Hybrid)混合使用者帳戶限制，以取得2019的詳細資料。 商務用 Skype online 系統管理員可能會想要參考[商務用 Skype 線上服務說明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)，以瞭解可用之不同方案的詳細資訊。
 
  在您部署或升級至商務用 Skype 之前，請檢查您的組織中已使用的用戶端。 [針對商務用 Skype 使用桌面用戶端功能比較](desktop-feature-comparison.md)，以瞭解對這些用戶端的功能支援影響。 這可協助您向使用者傳達變更、節奏向外延展程式，以及充分瞭解升級為最新用戶端的益處。
 

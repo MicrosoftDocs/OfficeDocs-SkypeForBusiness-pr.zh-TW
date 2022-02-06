@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 2015 中管理 Persistent Chat Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server。
-ms.openlocfilehash: 3fc0027d8984a3c4ea4249f0d44a2d21a4913a3a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860000"
 ---
+
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中管理 Persistent Chat Server
  
-**摘要：** 瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server。
+**總結：** 瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server。
   
 當您為組織設定 Persistent Chat Server 時，請在部署期間指定初始設定。 不過，在某些情況下，您可能想要變更您如何實施 Persistent Chat Server 支援。 例如，您可能需要為組織內的特定小組或群組設定 Persistent Chat Server 支援和控制項的方式不同。 本節提供協助您自訂 Persistent Chat Server 部署的資訊和程式。 如需您可以針對 Persistent chat server 設定之功能的詳細資訊，請參閱[商務用 Skype Server 2015 中的 Plan for persistent chat server](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)。 如需部署 persistent chat server 的詳細資訊，請參閱[Deploy persistent chat server in 商務用 Skype Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)。 
 

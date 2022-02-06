@@ -1,27 +1,22 @@
 ---
 title: 使用商務用 Skype 2015 設定用戶端體驗
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 摘要：閱讀此主題以瞭解如何設定商務用 Skype 使用者的用戶端體驗。
-ms.openlocfilehash: d1baa06558f7f3dcc4829d1e03c387e9ab54fa32
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845976"
 ---
+
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>使用商務用 Skype 2015 設定用戶端體驗
  
-**摘要：** 閱讀此主題以瞭解如何設定商務用 Skype 2015 使用者的用戶端經驗。
+**總結：** 閱讀此主題以瞭解如何設定商務用 Skype 2015 使用者的用戶端經驗。
   
 商務用 Skype 2015 提供以 Skype 使用者產品經驗為基礎的新使用者體驗。 除了 Lync 的所有功能之外，商務用 Skype 還會以簡化的控制項及熟悉的圖示來提供新功能。 如需有關新用戶端體驗的詳細資訊，請參閱[探索商務用 Skype](https://go.microsoft.com/fwlink/?LinkId=529022)。
   
@@ -133,10 +128,10 @@ Lync
 |**伺服器版本**|**EnableSkypeUI 設定**|**用戶端經驗**|
 |:-----|:-----|:-----|
 |商務用 Skype Server |預設  <br/> |商務用 Skype  <br/> |
-|商務用 Skype Server  |對  <br/> |商務用 Skype  <br/> |
+|商務用 Skype Server  |True  <br/> |商務用 Skype  <br/> |
 |商務用 Skype Server  |錯  <br/> |使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true 時，切換至商務用 Skype)   <br/> |
 |使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |預設  <br/> |使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true 時，切換至商務用 Skype)   <br/> |
-|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |對  <br/> |商務用 Skype  <br/> |
+|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |True  <br/> |商務用 Skype  <br/> |
 |使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |錯  <br/> |使用者要求切換至 Lync 模式 (使用者可以在稍後將 UI 設定變更為 $true 時，切換至商務用 Skype)   <br/> |
 |不含修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |預設  <br/> |使用者要求切換至 Lync 模式 (使用者無法在稍後切換商務用 Skype)   <br/> |
    
@@ -145,9 +140,9 @@ Lync
 
 |**伺服器版本**|**EnableSkypeUI 設定**|**用戶端 UI = Lync**|**用戶端 UI = 商務用 Skype**|
 |:-----|:-----|:-----|:-----|
-|商務用 Skype Server |對  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
+|商務用 Skype Server |True  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
 |商務用 Skype Server |錯  <br/> |Lync 模式  <br/> |使用者要求切換至 Lync 模式  <br/> |
-|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |對  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
+|使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |True  <br/> |使用者要求切換至商務用 Skype  <br/> |商務用 Skype  <br/> |
 |使用正確修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |錯  <br/> |Lync 模式  <br/> |使用者要求切換至 Lync 模式  <br/> |
 |不含修補程式的 lync Server 2010 或 Lync Server 2013 ()   <br/> |預設  <br/> |Lync 模式 (無法切換成商務用 Skype)   <br/> |Lync 模式 (無法切換成商務用 Skype)   <br/> |
    
@@ -177,7 +172,7 @@ Lync
     
 5. 在 [**群組原則管理編輯器**] 中，展開 [**使用者** 設定]，展開 [**喜好** 設定]，展開 **Windows 設定**]，然後選取 **登錄節點。**
     
-6. **在 [登錄**] 節點上按一下滑鼠右鍵，然後選取 [**新增** 登錄  >  **專案**]。
+6. **在 [登錄**] 節點上按一下滑鼠右鍵，然後選取 [**新增**  >  登錄 **專案**]。
     
 7. 在 [ **新增註冊表屬性** ] 對話方塊中，更新下列專案：
     

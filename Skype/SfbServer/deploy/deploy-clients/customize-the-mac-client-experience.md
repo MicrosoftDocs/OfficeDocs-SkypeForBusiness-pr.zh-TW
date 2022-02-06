@@ -1,24 +1,19 @@
 ---
 title: 在商務用 Skype 中自訂 Mac 用戶端體驗
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: 本文說明 Mac 用戶端上的商務用 Skype 可使用的用戶端喜好設定和預設值，以及如何在應用程式外部進行編輯。
-ms.openlocfilehash: 909756b25f9ad3ee17536f24a4143b5b72180918
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838345"
 ---
+
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>在商務用 Skype 中自訂 Mac 用戶端體驗
  
 本文說明 Mac 用戶端上的商務用 Skype 可使用的用戶端喜好設定和預設值，以及如何在應用程式外部進行編輯。

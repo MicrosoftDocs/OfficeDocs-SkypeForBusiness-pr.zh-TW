@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中查看會議配置設定
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: 摘要：瞭解如何在商務用 Skype Server 中查看會議配置設定。
-ms.openlocfilehash: 4d55d4213b0eb7cbd89045960d87c05340520cbc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837625"
 ---
+
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中查看會議配置設定
  
-**摘要：** 瞭解如何在商務用 Skype Server 中查看會議配置設定。
+**總結：** 瞭解如何在商務用 Skype Server 中查看會議配置設定。
   
 您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面來查看會議配置設定。
   

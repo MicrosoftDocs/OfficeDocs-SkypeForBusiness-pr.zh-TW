@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中刪除現有 CDR 設定設定集合
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: 摘要：瞭解如何在商務用 Skype Server 中移除 CDR 配置設定。
-ms.openlocfilehash: 8218d0b51045d3962825555bd5b248cb58262a37
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854317"
 ---
+
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除現有 CDR 設定設定集合
  
-**摘要：** 瞭解如何在商務用 Skype Server 中移除 CDR 配置設定。
+**總結：** 瞭解如何在商務用 Skype Server 中移除 CDR 配置設定。
   
 詳細通話記錄 (CDR) 讓您能夠追蹤點對點即時訊息工作階段、Voice over Internet Protocol (VoIP) 電話通話，以及會議通話之類的使用狀況。這個使用狀況資料包含有關通話者雙方身分、通話時間以及通話時間長度的資訊。
   

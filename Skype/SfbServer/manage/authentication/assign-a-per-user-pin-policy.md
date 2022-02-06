@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 中指派每個使用者的 PIN 原則
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 摘要：階段 AV 和 OAuth 商務用 Skype Server 的憑證。
-ms.openlocfilehash: 51bf650d907923c83801799a28220eae9a1f385c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845476"
 ---
+
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中指派每個使用者的 PIN 原則
 
-**摘要：** 階段 AV 和 OAuth 商務用 Skype Server 的憑證。
+**總結：** 階段 AV 和 OAuth 商務用 Skype Server 的憑證。
   
 電話撥入式會議個人身分識別號碼 (PIN) 原則是可在 [商務用 Skype Server 控制台] 中設定之使用者帳戶的個別設定之一。
   
@@ -67,7 +62,7 @@ ms.locfileid: "60845476"
 7. 在 [ **指派原則**] 的 [ **PIN 原則**] 底下，執行下列其中一項動作：
     
     > [!NOTE]
-    > 因為有多種可使用 [ **指派原則** ] 對話方塊進行設定的原則，所以 **\<Keep as is\>** 預設會選取對話方塊中的每個原則。 不變更此設定，即可繼續沿用先前指派給使用者的原則。
+    > 因為有多種可使用 [ **指派原則** ] 對話方塊進行設定的原則， **\<Keep as is\>** 所以預設會選取對話方塊中的每個原則。 不變更此設定，即可繼續沿用先前指派給使用者的原則。
   
    - 允許商務用 Skype Server 自動選擇全域層級原則，或網站層級原則（如果已定義）。
     

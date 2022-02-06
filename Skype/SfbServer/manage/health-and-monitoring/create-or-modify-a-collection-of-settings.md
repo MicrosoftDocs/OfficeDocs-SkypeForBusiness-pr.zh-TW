@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中建立或修改 CDR 配置設定的集合
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 摘要：瞭解商務用 Skype Server 中的詳細通話記錄 (CDR) 。
-ms.openlocfilehash: d0057a8a7966307dd570ac1faed716484ca82331
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841245"
 ---
+
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改 CDR 配置設定的集合
  
-**摘要：** 瞭解商務用 Skype Server 中的詳細通話記錄 (CDR) 。
+**總結：** 瞭解商務用 Skype Server 中的詳細通話記錄 (CDR) 。
   
  (CDR) 的詳細資料記錄可讓您追蹤對等立即訊息會話的使用方式，例如對等立即訊息會話、透過網際網路通訊協定 (VoIP) 電話及會議通話等事項。 這個使用狀況資料包含有關通話者雙方身分、通話時間以及通話時間長度的資訊。
   

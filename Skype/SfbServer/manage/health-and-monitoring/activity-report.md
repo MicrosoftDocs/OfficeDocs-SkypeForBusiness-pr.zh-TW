@@ -1,27 +1,22 @@
 ---
 title: 商務用 Skype Server 中的會議活動報告
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 摘要：瞭解商務用 Skype Server 中使用的會議活動報告。
-ms.openlocfilehash: c136bfaeb40a9b84c2861332636916353856855f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849926"
 ---
+
 # <a name="conference-activity-report-in-skype-for-business-server"></a>商務用 Skype Server 中的會議活動報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中使用的會議活動報告。
+**總結：** 深入瞭解商務用 Skype Server 中使用的會議活動報告。
   
 「會議活動報告」可讓您輕鬆回答下列問題：每天舉行了幾場會議？ 這些會議的舉行時間為何？ 這類資訊不只具備本質的意義，也是非常實用的疑難排解工具。 在會議活動報告中，您可能會建議一個可能的原因：目前在 10:00 AM 和 2:00 PM 的下班時間之間排程的會議，在任何其他時間。
   

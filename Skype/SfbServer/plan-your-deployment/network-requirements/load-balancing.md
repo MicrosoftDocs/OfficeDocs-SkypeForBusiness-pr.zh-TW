@@ -1,31 +1,26 @@
 ---
 title: 商務用 Skype 的負載平衡需求
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 摘要：在實施商務用 Skype Server 之前，請先複查負載平衡考慮。
-ms.openlocfilehash: 4bdfc9d9958154df8ce485c945dbe8accd630ed8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840995"
 ---
+
 # <a name="load-balancing-requirements-for-skype-for-business"></a>商務用 Skype 的負載平衡需求
  
-**摘要：** 在實施商務用 Skype Server 之前，請先複查負載平衡考慮。
+**總結：** 在實施商務用 Skype Server 之前，請先複查負載平衡考慮。
   
 負載平衡會在集區中的伺服器之間散佈流量。 如果您有前端集區、轉送伺服器集區或 Edge Server 集區，則需要為這些集區部署負載平衡。
   
@@ -49,7 +44,7 @@ ms.locfileid: "60840995"
   
 - 與使用 Office 通訊伺服器 2007 R2 或 Office 通訊伺服器2007的組織同盟
     
-- Exchange在 2010 Exchange SP1 之前，使用 Exchange um 進行遠端使用者的 um
+- 使用 Exchange Exchange 2010 之前的遠端使用者 Exchange um SP1
     
 - 公用 IM 使用者的連線
     

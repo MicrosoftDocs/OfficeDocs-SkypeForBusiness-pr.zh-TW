@@ -1,29 +1,24 @@
 ---
 title: 在商務用 Skype Server 2015 中設定集中式記錄服務的案例
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中建立、修改及移除集中式記錄服務的案例。
-ms.openlocfilehash: 10225be172d91aba18db29a1a6669cfbe8656fa6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855440"
 ---
+
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定集中式記錄服務的案例
  
-**摘要：** 瞭解如何在商務用 Skype Server 2015 中建立、修改及移除集中式記錄服務的案例。
+**總結：** 瞭解如何在商務用 Skype Server 2015 中建立、修改及移除集中式記錄服務的案例。
   
 案例會定義範圍 (，例如全域、網站、集區或電腦) ，以及要在集中式記錄服務中使用的提供者。 使用案例，您可以啟用或停用提供者的追蹤功能 (例如，S4、SIPStack、IM 及顯示狀態) 。 透過設定案例，您可以將特定邏輯集合的所有提供者分組，以解決特定問題的條件。 如果您發現案例必須修改以滿足疑難排解和記錄需求，則商務用 Skype Server 2015 調試工具會為您提供一個名為 ClsScenarioEdit 的 Windows PowerShell 模組，此模組包含 namedEdit-new-csclsscenario 函數的 sharepointsync.psm1。 模組的用途是編輯指定之案例的屬性。 本主題提供此模組的運作方式範例。 請先下載商務用 Skype Server 2015[調試工具](https://go.microsoft.com/fwlink/p/?LinkId=285257)，再繼續進行。
   
@@ -46,9 +41,9 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 在[商務用 Skype 2015 的集中式記錄服務](centralized-logging-service.md)中引入時，案例的元素如下：
   
-- **提供者** 如果您熟悉 OCSLogger，提供者就是您所選擇的元件，以告知 OCSLogger 追蹤引擎應從何處收集記錄。 提供者是相同的元件，在許多情況下，與 OCSLogger 中的元件具有相同的名稱。 如果您不熟悉 OCSLogger，提供者是集中式記錄服務可從中收集記錄的伺服器角色特定元件。 如需提供者設定的詳細資訊，請參閱[在商務用 Skype Server 2015 中設定集中式記錄服務的提供者](configure-providers.md)。
+- **供應商** 如果您熟悉 OCSLogger，提供者就是您所選擇的元件，以告知 OCSLogger 追蹤引擎應從何處收集記錄。 提供者是相同的元件，在許多情況下，與 OCSLogger 中的元件具有相同的名稱。 如果您不熟悉 OCSLogger，提供者是集中式記錄服務可從中收集記錄的伺服器角色特定元件。 如需提供者設定的詳細資訊，請參閱[在商務用 Skype Server 2015 中設定集中式記錄服務的提供者](configure-providers.md)。
     
-- 身分 **識別** 參數識別碼會設定案例的範圍和名稱。 例如，您可以設定範圍「全域」，並以 "LyssServiceScenario" 識別案例。 當您結合這兩個時，您會定義身分識別 (例如，"global/LyssServiceScenario" ) 。
+- **身份** 參數識別碼會設定案例的範圍和名稱。 例如，您可以設定範圍「全域」，並以 "LyssServiceScenario" 識別案例。 當您結合這兩個時，您會定義身分識別 (例如，"global/LyssServiceScenario" ) 。
     
     您也可以選擇使用-Name 和-Parent 參數。 您可以定義 Name 參數來唯一地識別案例。 如果您使用 Name，您也必須使用 Parent 將案例新增至全域或網站。 
     
@@ -92,7 +87,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    ```
 
     > [!NOTE]
-    > 如 Windows PowerShell 所知，用來建立值之雜湊表的約定 `@{<variable>=<value1>, <value2>, <value>…}` 是眾所周知的 assplatting。 如需 Windows PowerShell 中 splatting 的詳細資訊，請參閱 [https://go.microsoft.com/fwlink/p/?LinkId=267760](/previous-versions/technet-magazine/gg675931(v=msdn.10)) 。 
+    > 如 Windows PowerShell 所知，用 `@{<variable>=<value1>, <value2>, <value>…}` 來建立值之雜湊表的約定是眾所周知的 assplatting。 如需 Windows PowerShell 中 splatting 的詳細資訊，請參閱 [https://go.microsoft.com/fwlink/p/?LinkId=267760](/previous-versions/technet-magazine/gg675931(v=msdn.10)) 。 
   
 ### <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>使用 Set-CsClsScenario Cmdlet 修改現有的案例
 

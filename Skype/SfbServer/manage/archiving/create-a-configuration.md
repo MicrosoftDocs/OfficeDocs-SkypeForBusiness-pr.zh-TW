@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中建立封存設定
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 摘要：瞭解如何為商務用 Skype Server 建立封存設定。
-ms.openlocfilehash: 76fd2785f172cc9dd4b76df97d3c29a78e831e46
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850036"
 ---
+
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>在商務用 Skype Server 中建立封存設定
 
-**摘要：** 瞭解如何為商務用 Skype Server 建立封存設定。
+**總結：** 瞭解如何為商務用 Skype Server 建立封存設定。
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>使用控制台設定封存選項
 
@@ -33,7 +28,7 @@ ms.locfileid: "60850036"
     
 3. 在左導覽列中 **，按一下 [****監視與** 封存]，然後按一下 [封存設定]。
     
-4. 在 [ **封存** 設定] 頁面上，按一下 [ **新增**]，然後執行下列其中一項操作： 
+4. 在 [封存設定] 頁面上， **按一下 [** **新增**]，然後執行下列其中一項操作： 
     
    - 若要建立網站封存設定，請按一下 [ **網站** 設定]，然後在 [ **選取網站**] 中，選取要設定封存的網站。
     

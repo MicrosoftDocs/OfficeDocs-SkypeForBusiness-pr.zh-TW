@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 中部署緊急服務
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
 description: 在商務用 Skype Server 企業語音中部署 E9-1-1。 包含必要條件和部署程式檢查清單。
-ms.openlocfilehash: cfbb49cbeaf855af96961f828b9471e5b86a95c3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833849"
 ---
+
 # <a name="deploy-emergency-services-in-skype-for-business-server"></a>在商務用 Skype Server 中部署緊急服務
  
 在商務用 Skype Server 企業語音中部署 E9-1-1。 包含必要條件和部署程式檢查清單。

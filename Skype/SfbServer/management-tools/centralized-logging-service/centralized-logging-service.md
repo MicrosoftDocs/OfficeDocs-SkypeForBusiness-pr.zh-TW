@@ -1,29 +1,24 @@
 ---
 title: 商務用 Skype 2015 中的集中式記錄服務
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 摘要：瞭解商務用 Skype Server 2015 中集中式記錄服務的服務元件和設定設定。
-ms.openlocfilehash: 457740b04a331d701ce991e696fa7cf88b57230c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854267"
 ---
+
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>商務用 Skype 2015 中的集中式記錄服務
  
-**摘要：** 瞭解商務用 Skype Server 2015 中集中式記錄服務的服務元件和設定設定。
+**總結：** 瞭解商務用 Skype Server 2015 中集中式記錄服務的服務元件和設定設定。
   
 集中式記錄服務可： 
   
@@ -102,7 +97,7 @@ ClsAgent 會維護全部的索引檔案。在本機電腦上的快取檔。 ClsA
    ```
 
     > [!TIP]
-    > 您可以縮小或展開定義及範圍所傳回的設定設定範圍  `-Identity` ，例如 "Site:Redmond"，只傳回 Site Redmond 的 set-csclsconfiguration。 如果您想要有關設定之特定部分的詳細資料，您可以將輸出輸送到另一個 Windows PowerShell Cmdlet 中。 例如，若要取得網站 "Redmond" 設定中所定義案例的詳細資料，請輸入： `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
+    > 您可以縮小或展開定義  `-Identity` 及範圍所傳回的設定設定範圍，例如 "Site:Redmond"，只傳回 Site Redmond 的 set-csclsconfiguration。 如果您想要有關設定之特定部分的詳細資料，您可以將輸出輸送到另一個 Windows PowerShell Cmdlet 中。 例如，若要取得網站 "Redmond" 設定中所定義案例的詳細資料，請輸入： `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
   
      ![Get-CsClsConfiguration 的輸出範例。](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   

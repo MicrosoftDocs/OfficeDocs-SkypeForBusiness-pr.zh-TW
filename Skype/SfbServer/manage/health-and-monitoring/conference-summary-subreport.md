@@ -1,27 +1,22 @@
 ---
 title: 商務用 Skype Server 中的會議摘要子報告
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
 description: 摘要：瞭解商務用 Skype Server 中的會議摘要子報表。
-ms.openlocfilehash: 6c2161287b3446d5b7cba28e984ad50cd3a136e9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838625"
 ---
+
 # <a name="conference-summary-subreport-in-skype-for-business-server"></a>商務用 Skype Server 中的會議摘要子報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的會議摘要子報表。
+**總結：** 深入瞭解商務用 Skype Server 中的會議摘要子報表。
   
 會議摘要子報告提供了失敗會議工作階段的整體檢視。這些失敗的工作階段可藉由工作階段類型加以細分為：焦點工作階段及 MCU 工作階段。
   

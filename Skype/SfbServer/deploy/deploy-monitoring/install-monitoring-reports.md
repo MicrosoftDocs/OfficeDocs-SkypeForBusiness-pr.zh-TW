@@ -1,40 +1,35 @@
 ---
 title: 在商務用 Skype Server 中安裝監視報告
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 摘要：瞭解如何在商務用 Skype Server 中安裝會產生監控報告的服務。
-ms.openlocfilehash: 703bb209c68558ba8f98c8e3a3efcde94e4ce5eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861820"
 ---
+
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>在商務用 Skype Server 中安裝監視報告
  
-**摘要：** 瞭解如何在商務用 Skype Server 中安裝會產生監控報告的服務。
+**總結：** 瞭解如何在商務用 Skype Server 中安裝會產生監控報告的服務。
   
-商務用 Skype Server監視報告提供您組織中所發生之通訊會話品質與數量的大量資訊。 
+商務用 Skype Server 監視報告可為您提供組織中所發生之通訊會話品質與數量的大量資訊。 
   
 ## <a name="install-monitoring-reports"></a>安裝監視報告
 
-當您安裝商務用 Skype Server 時，不會自動安裝監控報告;相反地，您必須分別安裝監視報告，而且只有在電腦上安裝商務用 Skype Server 之後。
+當您安裝商務用 Skype Server 時，不會自動安裝監控報告，而是必須個別安裝監視報告，而且只有在電腦上安裝商務用 Skype Server 之後。
   
 > [!NOTE]
 > 建議您將監控報告安裝在已安裝監控資料庫之相同電腦上，如此可簡化存取報告的指派權限程序：將監控報告安裝在裝載監控存放區的電腦上，表示您不需要設定權限以允許某一台電腦上的資料庫與在第二台電腦執行的 Reporting Services 進行互動。 
   
-商務用 Skype Server監視報告包含30多種報告，其設計目的是提供有關會議、對等 IM 會話、使用者註冊、回應群組應用程式以及其他許多方面的詳細資訊。 針對2013版本，商務用 Skype Server 監控報告包含一些增強功能：
+商務用 Skype Server 監視報告包含超過30個報告，其設計目的是提供有關會議、對等 IM 會話、使用者註冊、回應群組應用程式以及其他許多方面的詳細資訊。 針對2013版本，商務用 Skype Server 監控報告包含一些增強功能：
   
-- **新的語音品質報告**。 這些新的報表包括[商務用 Skype Server 中的媒體質量比較報告](../../manage/health-and-monitoring/comparison.md)，它會比較不同類型通話之間的品質 (例如，有線通話與無線) 通話之間的品質;和[會議加入時間報表的商務用 Skype Server](../../manage/health-and-monitoring/join-time-report.md)，其可提供使用者加入會議所需的時間量的相關資訊。 
+- **新的語音品質報告**。 這些新的報表包括[商務用 Skype Server 中的媒體質量比較報告](../../manage/health-and-monitoring/comparison.md)，它會比較不同類型通話之間的品質 (例如，有線通話與無線) 通話之間的品質，以及[商務用 Skype Server 中會議加入時間報表](../../manage/health-and-monitoring/join-time-report.md)的相關資訊，其可提供使用者加入會議所需的時間量資訊。 
     
 - **針對視訊與應用程式共用工作階段進行分析和疑難排解的改善報告。** [商務用 Skype Server 中的媒體質量摘要報告](../../manage/health-and-monitoring/summary.md)提供分析影片和應用程式共用呼叫的方法，而[商務用 Skype Server 中的伺服器效能報告](../../manage/health-and-monitoring/server-performance.md)會詳細說明產生這些呼叫之伺服器的效能。 影片和應用程式共用度量現在也是由[商務用 Skype Server 中的 Peer-to-Peer 會話詳細資料包告](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md)和[商務用 Skype Server 中的會議詳細資料包告](../../manage/health-and-monitoring/detail-report.md)所報告。
     
@@ -67,7 +62,7 @@ ms.locfileid: "60861820"
     
 6. 在 **[執行命令]** 頁面上按一下 **[完成]**。
     
-透過執行腳本 DeployReports.ps1，也可以從商務用 Skype Server 管理命令介面安裝監控報告;您可以在 \<install location\> \ 商務用 Skype Server 2015 \ Deployment\Setup 資料夾中找到此 Windows PowerShell 腳本。 若要使用 DeployReports.ps1 安裝監控報告，請在管理介面提示中輸入類似下列命令：
+透過執行腳本 DeployReports.ps1，也可以從商務用 Skype Server 管理命令介面安裝監控報告; 此 Windows PowerShell 腳本可以位於 \ 商務用 Skype Server 2015 \ Deployment\Setup 資料夾中 \<install location\> 。 若要使用 DeployReports.ps1 安裝監控報告，請在管理介面提示中輸入類似下列命令：
   
 ```powershell
 C:\Program Files\Skype for Business Server 2015\Deployment\Setup\DeployReports.ps1 -storedUserName "litwareinc\kenmyer" -storedPassword "p@ssw0rd" -readOnlyGroupName "RTCUniversalReadOnlyAdmins" -reportServerSqlInstance "atl-sql-001.litwareinc.com" -monitoringDatabaseId "MonitoringDatabase:atl-sql-001.litwareinc.com"
