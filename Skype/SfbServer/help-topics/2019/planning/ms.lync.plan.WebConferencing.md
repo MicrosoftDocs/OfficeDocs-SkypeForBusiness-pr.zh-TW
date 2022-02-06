@@ -1,28 +1,23 @@
 ---
 title: 'Web 會議 (規劃工具) '
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.WebConferencing
-- ms.lync.plan.WebConferencing
+  - ms.lync.plan.WebConferencing
+  - ms.lync.plan.WebConferencing
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 商務用 Skype Server web 會議包含檔共同作業、應用程式共用和桌面共用。
-ms.openlocfilehash: b6300fc1ee1ed8d815fe4358ba036ff440000dde
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837185"
 ---
+
 # <a name="web-conferencing-planning-tool"></a>Web 會議 (規劃工具) 
  
 商務用 Skype Server web 會議包含檔共同作業、應用程式共用和桌面共用。

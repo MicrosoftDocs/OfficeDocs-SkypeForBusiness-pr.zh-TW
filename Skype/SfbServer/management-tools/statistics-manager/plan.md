@@ -1,28 +1,23 @@
 ---
 title: 商務用 Skype Server 統計資料的規劃
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 的統計資料管理員。
-ms.openlocfilehash: 166390fe0f034c907e21a3d3147b516d9f502954
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857400"
 ---
+
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>商務用 Skype Server 統計資料的規劃
 
-**摘要：** 閱讀此主題以瞭解商務用 Skype Server 的統計資料管理員。
+**總結：** 閱讀此主題以瞭解商務用 Skype Server 的統計資料管理員。
 
  商務用 Skype Server 的統計資料管理員是一種強大的工具，可讓您即時查看商務用 Skype Server 狀況和效能資料。 您可以每隔幾秒輪詢每數百部伺服器上的效能資料，並在統計資料管理員網站上立即查看結果。
 

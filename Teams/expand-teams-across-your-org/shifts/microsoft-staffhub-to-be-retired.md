@@ -1,30 +1,25 @@
 ---
 title: Microsoft StaffHub 已停用
-author: HowlinWolf-92
-ms.author: v-mahoffman
-ms.reviewer: lisawu, gumariam
+author: SerdarSoysal
+ms.author: serdars
+ms.reviewer: 'lisawu, gumariam'
 manager: serdars
 audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: 尋找關於 Microsoft StaffHub 的停用，以及移轉至 Microsoft Teams 中的 Shifts 應用程式的常見問題解答。
+description: 尋找常見問題的解答，瞭解 Microsoft StaffHub 的停用，以及移轉至 Microsoft Teams 中的 Shifts 應用程式。
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_FLW
+  - M365-collaboration
+  - Teams_ITAdmin_FLW
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8defeba782c49d1bd0aa22e438526dcf297a015b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849556"
 ---
+
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub 已停用
 
 自 2020 年 6 月 30 起，已終止對 Microsoft StaffHub 的支援。 我們正在將 StaffHub 功能建入 Microsoft Teams。 今天，Teams 包含用於排程管理的班次應用程式，並且會陸續推出其他功能。
@@ -45,7 +40,7 @@ Microsoft StaffHub 已經停用，自 2020 年 6 月 30 日生效。
 
 #### <a name="will-teams-offer-all-the-functionality-currently-offered-in-staffhub"></a>您Teams提供 StaffHub 目前提供的所有功能嗎？
 
-2019 年 1 月，Teams開始提供先前在 Microsoft StaffHub 中提供的班次。 此功能可讓主管規劃及發佈班次排程，讓小組成員有機會從他們的行動裝置來審查排程，以及提出排程變更要求。 若要深入瞭解，請參閱在 Teams 中[管理貴組織的 Shifts Teams。](manage-the-shifts-app-for-your-organization-in-teams.md)
+2019 年 1 月，Teams開始提供先前在 Microsoft StaffHub 中提供的班次。 此功能可讓主管規劃及發佈班次排程，讓小組成員有機會從他們的行動裝置來審查排程，以及提出排程變更要求。 若要深入瞭解，請參閱在 Teams 中[管理貴組織的 Shifts Teams](manage-the-shifts-app-for-your-organization-in-teams.md)。
 
 我們致力於提供一流的使用者體驗，並致力於將 StaffHub 的獨特功能Teams。
 
@@ -55,9 +50,9 @@ Microsoft StaffHub 已經停用，自 2020 年 6 月 30 日生效。
 
 #### <a name="what-happens-if-i-didnt-move-a-staffhub-team-to-shifts-in-teams"></a>如果我沒有將 StaffHub 小組移至公司中的 Shifts，會發生什麼Teams？
 
-Teams使用 StaffHub 建立且未移至 Teams的已停用 StaffHub 自 2020 年 6 月 30 日起無法再查看或移動。 不過，您隨時都可以Teams，在 Shifts 應用程式中建立班排程。
+Teams使用 StaffHub 建立且未移至 Teams 的已停用後，無法再從 2020 年 6 月 30 日 StaffHub 停用後查看或移動。 不過，您隨時都可以Teams，在 Shifts 應用程式中建立班排程。
 
-如果您有一個與 Office 365 群組相關聯的 StaffHub 小組，但您並未移至 Teams，而您現在想要建立與該 Office 365 群組相關聯的 Teams 班排程，請連連支援。
+如果您有一個與 Office 365 群組相關聯的 StaffHub 小組，但您並未移至 Teams，而您現在想要建立與該 Office 365 群組相關聯的 Teams 班排程，請連上支援人員。
 
 ### <a name="about-shifts"></a>關於 Shifts
 
@@ -71,11 +66,11 @@ Teams中的 Shifts 應用程式是一種排程管理工具，可保持前線員�
 
 #### <a name="how-do-i-get-shifts"></a>如何取得 Shifts？ 
 
-如果您已經在包含 Shifts 的計畫，您可以在今天開始使用 Shifts 做為Teams。 請查看 開始使用 [Shifts](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)。
+如果您已經在包含 Shifts 的計畫，您可以在今天開始使用 Shifts 做為Teams。 請查看開始使用 [Shifts](https://support.office.com/article/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6)。
 
 #### <a name="which-devices-or-platforms-is-shifts-available-on"></a>Shifts 提供哪些裝置或平臺？
 
-在 iOS 和 Android Teams 上，Teams用戶端，以及 Teams行動用戶端 (班次) 。
+在 iOS 和 Android Teams 上，Teams用戶端和行動Teams用戶端 (班次) 。
  
 #### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>Shifts 桌面與 Web 應用程式與行動版 iOS 和 Android (應用程式之間) 差異？
 
@@ -89,10 +84,10 @@ Teams中的 Shifts 應用程式是一種排程管理工具，可保持前線員�
 
 #### <a name="what-browsers-does-shifts-work-on"></a>Shifts 會使用哪些瀏覽器？
 
-Shifts 適用于所有支援Teams瀏覽器，包括最新版本的 Microsoft Edge、Internet Explorer、Google Chrome 和 Mozilla Firefox。 詳細資訊，請參閱取得[用戶端Teams。](../../get-clients.md)
+Shifts 適用于所有支援Teams瀏覽器，包括最新版本的 Microsoft Edge、Internet Explorer、Google Chrome 和 Mozilla Firefox。 詳細資訊，請參閱取得[用戶端Teams](../../get-clients.md)。
 
 > [!Note]
-> Microsoft 365應用程式和服務不支援 Internet Explorer 11，自 2021 年 8 月 17 日起 (Microsoft Teams自 2020 年 11 月 3) 0 日起 (Microsoft Teams將不支援 Internet Explorer 11。 [深入了解](https://aka.ms/AA97tsw)。 請注意，Internet Explorer 11 仍然是受支援的瀏覽器。 Internet Explorer 11 是作業系統Windows元件，並遵循其安裝[](/lifecycle/faq/internet-explorer-microsoft-edge)之產品的生命週期策略。 
+> Microsoft 365應用程式與服務不支援 Internet Explorer 11，自 2021 年 8 月 17 日起 (Microsoft Teams自 2020 年 11 月 30 日起 (Microsoft Teams將不支援 Internet Explorer 11。從 2020 年 11 月 30 日) 。 [深入了解](https://aka.ms/AA97tsw)。 請注意，Internet Explorer 11 仍然是受支援的瀏覽器。 Internet Explorer 11 是作業系統Windows元件，並遵循其安裝之產品的生命週期策略[](/lifecycle/faq/internet-explorer-microsoft-edge)。 
 
 #### <a name="what-languages-does-shifts-support"></a>Shifts 支援哪些語言？
 
@@ -100,9 +95,9 @@ Shifts 適用于所有支援Teams瀏覽器，包括最新版本的 Microsoft Edg
 
 #### <a name="where-is-shifts-data-stored"></a>Shifts 資料儲存在哪裡？
 
-Shifts 資料會儲存在 Azure 中，位於北美和西歐的資料中心。 SharePoint利用群組Microsoft 365群組，並使用相同的儲存空間和支援。
+Shifts 資料會儲存在 Azure 中，位於北美和西歐的資料中心。 SharePoint利用群組Microsoft 365，並使用相同的儲存空間和支援。
 
-詳細資訊，請參閱 [Shifts 資料的位置](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data)。
+詳細資訊，請參閱 [班次資料的位置](manage-the-shifts-app-for-your-organization-in-teams.md#location-of-shifts-data)。
 
 #### <a name="where-can-i-learn-more-about-shifts"></a>哪裡可以深入瞭解 Shifts？
 
@@ -114,19 +109,19 @@ Shifts 資料會儲存在 Azure 中，位於北美和西歐的資料中心。 Sh
 
 #### <a name="what-licenses-do-i-need-for-teams"></a>我需要哪些授權Teams？
 
-每個使用者都必須有有效的授權Microsoft 365或Office 365計畫授權，而且必須獲派Teams授權。 
+每個使用者都必須有有效的授權Microsoft 365或Office 365方案授權，而且必須獲派Teams授權。 
 
 #### <a name="how-do-i-enable-teams-in-my-organization"></a>如何在組織中啟用Teams功能？
 
-根據預設，Teams所有組織都啟用此功能。 您指派Teams授權給使用者，以控制個別存取Teams。 若要取得詳細資訊，請參閱在[Teams中啟用帳戶](../../Office-365-set-up.md)，以及管理使用者對[Teams。](../../user-access.md)
+根據預設，Teams所有組織都啟用此功能。 您指派Teams授權給使用者，以控制個別存取Teams。 若要取得詳細資訊，請參閱在[Teams中啟用帳戶](../../Office-365-set-up.md)，以及管理使用者對[Teams](../../user-access.md)。
 
 #### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>如果組織目前已啟用商務用 Skype，但並未啟用Teams？
 
-Teams支援與商務用 Skype。 詳細資訊，請參閱瞭解Teams[](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)及商務用 Skype共存與互通性，以及與 Teams 一起使用之組織的移Teams[及互通性商務用 Skype。](../../migration-interop-guidance-for-teams-with-skype.md)
+Teams支援與商務用 Skype。 有關詳細資訊，請參閱瞭解[](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)Teams商務用 Skype與互通性，以及與 Teams 一起使用之[組織的](../../migration-interop-guidance-for-teams-with-skype.md)移商務用 Skype。
 
 #### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>每個使用者是否需要帳戶或Microsoft 365帳戶Office 365帳戶Azure Active Directory (Azure AD) 帳戶？
 
-是，在 Teams 內使用 Teams 和 Shift 的每個主管和團隊成員都必須擁有 Microsoft 365 或 Office 365 帳戶 (Azure AD) ，而且必須指派有效的授權。
+是，在 Teams 內使用 Teams 和 Shift 的每個主管和團隊成員都必須擁有 Microsoft 365 或 Office 365 帳戶 (Azure AD) 且必須獲得有效的授權。
 
 #### <a name="can-i-export-shift-schedules-from-shifts"></a>我可以從 Shifts 匯出班次排程嗎？
   
@@ -140,7 +135,7 @@ Teams支援與商務用 Skype。 詳細資訊，請參閱瞭解Teams[](../../tea
 
 檔案共用功能是主管將檔案發佈給小組成員的功能，由 SharePoint Online 提供。 建立團隊時，Microsoft 365群組會自動在背景中為該團隊進行配置。
 
-若要深入瞭解，請參閱如何SharePoint [Online 和 商務用 OneDrive與 Teams。](../../SharePoint-OneDrive-interact.md)
+若要深入瞭解，請參閱如何SharePoint[線上商務用 OneDrive互動Teams](../../SharePoint-OneDrive-interact.md)。
  
 #### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Shifts 和日曆之間是否有Outlook整合？ 我可以將排程匯出至日曆嗎？
  
@@ -150,7 +145,7 @@ Teams支援與商務用 Skype。 詳細資訊，請參閱瞭解Teams[](../../tea
   
 您可以為組織中的所有使用者開啟或關閉全組織的 Shifts。 您也可以Microsoft Teams系統管理中心，使用 Frontline Worker 應用程式設定政策，Teams前線員工版。 此策略已與活動、班次、聊天和通話應用程式一起配置。 指派策略將這些應用程式釘Teams應用程式欄，以便使用者快速且輕鬆地存取。 
 
-若要深入瞭解，請參閱在 Teams 中[管理貴組織的 Shifts Teams。](manage-the-shifts-app-for-your-organization-in-teams.md)
+若要深入瞭解，請參閱在 Teams 中[管理貴組織的 Shifts Teams](manage-the-shifts-app-for-your-organization-in-teams.md)。
 
 #### <a name="what-powershell-controls-are-available-for-teams"></a>哪些 PowerShell 控制項可用於Teams？
 
@@ -163,8 +158,8 @@ Teams支援與商務用 Skype。 詳細資訊，請參閱瞭解Teams[](../../tea
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>報告是否可用於查看整個組織的班次使用方式？
 
-由於 Shifts 是應用程式中Teams，因此您可以透過報表Teams使用方式。 如要詳細資訊，請參閱[Teams](../../teams-analytics-and-reports/teams-reporting-reference.md)系統管理中心Microsoft Teams報告，Teams[中的活動Microsoft 365 系統管理中心。](../../teams-activity-reports.md)
+由於 Shifts 是應用程式中Teams，因此您可以透過報表Teams使用方式。 如要詳細資訊，[請參閱 Teams 系統](../../teams-analytics-and-reports/teams-reporting-reference.md)管理中心Microsoft Teams報告Teams[活動](../../teams-activity-reports.md)報告Microsoft 365 系統管理中心。
 
 #### <a name="where-can-i-provide-feedback"></a>我可以在哪裡提供意見回饋？
   
-在行動應用程式中 **，點一** 下畫面左上角的更多，然後前往 設定  >  **傳送** 意見或 **報告問題**。 同樣地，在桌面和 Web 應用程式中，在畫面左下角，前往協助  >  **分享** 想法或 **報告問題**。
+在行動應用程式中 **，點**  >  一下畫面左上角的更多專案，然後前往 設定 **發送** 意見或 **報告問題**。 同樣地，在桌面和 Web 應用程式中，在畫面左下角，前往 **HelpShare**  >  **構想** 或 **報告問題**。

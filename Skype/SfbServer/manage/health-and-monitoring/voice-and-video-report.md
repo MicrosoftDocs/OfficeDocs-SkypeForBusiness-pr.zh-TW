@@ -1,27 +1,22 @@
 ---
 title: Peer-to-Peer 商務用 Skype Server 的語音和影片報告
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer 語音和影片報告。
-ms.openlocfilehash: 61065578ea67ba3ec5004d517482c8c449216a0c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836325"
 ---
+
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Peer-to-Peer 商務用 Skype Server 的語音和影片報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的 Peer-to-Peer 語音和影片報告。
+**總結：** 深入瞭解商務用 Skype Server 中的 Peer-to-Peer 語音和影片報告。
   
 Peer-to-Peer 的語音和影片報告可提供一段 (時間內的語音和影片通話的詳細資訊，例如每小時或每天通話數) 。 該報告也可讓您查看所進行的所有語音和影片通話，或只查看成功或失敗的通話。 報告顯示通話資訊分為下列群組：
   

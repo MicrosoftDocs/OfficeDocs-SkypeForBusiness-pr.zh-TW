@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 中建立頻寬原則設定檔
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: 建立或修改商務用 Skype Server 中企業語音通話許可控制所使用的頻寬原則。
-ms.openlocfilehash: d1c7391abb535f3d7309809adea5b66a28087c75
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841905"
 ---
+
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>在商務用 Skype Server 中建立頻寬原則設定檔 
  
 建立或修改商務用 Skype Server 中企業語音通話許可控制所使用的頻寬原則。 

@@ -1,25 +1,20 @@
 ---
 title: AudioStreamDetail view
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: AudioStreamDetail View 儲存資料庫中每個音訊資料流程的資訊。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 2b75d803c75b0d936bf54e5b543ee39e18ee1896
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847016"
 ---
+
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail view
  
 AudioStreamDetail View 儲存資料庫中每個音訊資料流程的資訊。 此視圖已引進于 Microsoft Lync Server 2013。
@@ -31,7 +26,7 @@ AudioStreamDetail View 儲存資料庫中每個音訊資料流程的資訊。 �
 |StreamId  <br/> |int  <br/> |媒體行中的唯一識別碼。  <br/> |
 |StartTime  <br/> |datetime  <br/> |會話的開始時間。  <br/> |
 |EndTime  <br/> |datetime  <br/> |工作階段結束時間。  <br/> |
-|DialogCategory  <br/> |位  <br/> |對話方塊類別：0是指轉送伺服器腿的商務用 Skype Server;1是轉送伺服器到 PSTN 閘道腿。  <br/> |
+|DialogCategory  <br/> |位  <br/> |對話方塊類別：0是指轉送伺服器腿的商務用 Skype Server; 1 代表轉送伺服器到 PSTN 閘道腿。  <br/> |
 |MediationServerBypassFlag  <br/> |位  <br/> |指示是否略過呼叫的旗標。  <br/> |
 |MediaBypassWarningFlag  <br/> |int  <br/> |如果有的話，則表示即使旁路 IDs 相符也不會略過通話的原因。 只定義了一個值：  <br/> 0x0001-預設網路介面卡的未知旁路識別碼。  <br/> |
 |CallPriority  <br/> |int  <br/> |通話的優先順序。  <br/> |

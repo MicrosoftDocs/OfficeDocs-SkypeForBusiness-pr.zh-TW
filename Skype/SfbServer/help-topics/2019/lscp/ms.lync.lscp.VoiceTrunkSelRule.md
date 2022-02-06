@@ -1,27 +1,22 @@
 ---
 title: 選取轉譯規則
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.VoiceTrunkSelRule
+  - ms.lync.lscp.VoiceTrunkSelRule
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 55776a94-4888-4436-a3b6-0e6f8252e392
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 企業語音需要將所有撥號字串正常化為 e.164 格式，以執行反向號碼查閱 (RNL) 。 主幹對等 (亦即，關聯的閘道、PBX 或 SIP 主幹) 可能要求號碼要為當地撥號格式。 為了將號碼從 E.164 格式轉譯成當地撥號格式，您可以選用定義一或多個轉譯規則，先操作要求 URI 再將它遞送給主幹對等。 例如，您可以撰寫轉譯規則，從撥號字串的開頭移除 +44 並替換成 0144。
-ms.openlocfilehash: 164986f47dbbc7bbe14e9612f0091448ba1f9364
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859470"
 ---
+
 # <a name="select-translation-rules"></a>選取轉譯規則
  
  企業語音需要將所有撥號字串正常化為 e.164 格式，以執行反向號碼查閱 (RNL) 。 主幹對等 (亦即，關聯的閘道、PBX 或 SIP 主幹) 可能要求號碼要為當地撥號格式。 為了將號碼從 E.164 格式轉譯成當地撥號格式，您可以選用定義一或多個轉譯規則，先操作要求 URI 再將它遞送給主幹對等。 例如，您可以撰寫轉譯規則，從撥號字串的開頭移除 +44 並替換成 0144。

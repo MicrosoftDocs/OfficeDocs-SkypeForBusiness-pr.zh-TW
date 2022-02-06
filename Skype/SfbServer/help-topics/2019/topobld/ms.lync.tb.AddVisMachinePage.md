@@ -1,27 +1,22 @@
 ---
 title: 新增 VIS 電腦
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddVisMachinePage
+  - ms.lync.tb.AddVisMachinePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: acf278d6-36bc-4cfe-839e-54149e72dc1d
-ROBOTS: NOINDEX, NOFOLLOW
-description: 在 [拓撲產生器] 中定義新的 VIS 或視頻閘道所需的步驟，在商務用 Skype Server 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: 8f108e4ea11fc46d47d748c4d4769db905d841f6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832577"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: '在 [拓撲產生器] 中定義新的 VIS 或視頻閘道所需的步驟，在商務用 Skype Server 中的 [建立 VIS 集區] 中說明為線上。'
 ---
+
 # <a name="add-vis-machine"></a>新增 VIS 電腦
  
 在 [拓撲產生器] 中定義新的 VIS 或視頻閘道所需的步驟，在商務用 Skype Server 中的 [[建立 VIS 集](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)區] 中說明為線上。

@@ -1,25 +1,20 @@
 ---
 title: 伺服器表格
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9af89d08-d35a-48e8-b56d-6df292f973cc
 description: 伺服器資料表是支援的表格。 每筆記錄代表一部伺服器。
-ms.openlocfilehash: c061176c7a3dbb30fbbe696241fccd54db8dc9b2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834921"
 ---
+
 # <a name="server-table"></a>伺服器表格
  
 伺服器資料表是支援的表格。 每筆記錄代表一部伺服器。 

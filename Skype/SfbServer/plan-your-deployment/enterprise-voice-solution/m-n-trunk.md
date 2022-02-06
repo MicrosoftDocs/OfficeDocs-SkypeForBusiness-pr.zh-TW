@@ -1,28 +1,23 @@
 ---
 title: 商務用 Skype Server 中的主幹 MN
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: dc4c5d66-297c-48a5-91b9-b9b8ce44a6e0
-description: 商務用 Skype Server 企業語音支援轉送伺服器與元件之間的 M:N 中繼，例如 PSTN 閘道、會話邊界控制器及 IP-PBX。
-ms.openlocfilehash: a9d73b02a5d9135b5f3305f6f5e0b484df81ee23
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855300"
+description: '商務用 Skype Server 企業語音支援轉送伺服器與元件之間的 M:N 中繼，例如 PSTN 閘道、會話邊界控制器及 IP-PBX。'
 ---
+
 # <a name="mn-trunk-in-skype-for-business-server"></a>商務用 Skype Server 中的 M:N 主幹
  
 商務用 Skype Server 企業語音支援轉送伺服器與元件之間的 M:N 中繼，例如 PSTN 閘道、會話邊界控制器及 IP-PBX。

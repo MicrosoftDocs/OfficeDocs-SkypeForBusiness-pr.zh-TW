@@ -1,27 +1,22 @@
 ---
 title: 監視商務用 Skype Server 中的伺服器記憶體容量限制
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 摘要：瞭解如何監視商務用 Skype Server 中的伺服器記憶體容量限制。
-ms.openlocfilehash: e66d1fd318af5848b91110780d325fa78e3d21ce
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860080"
 ---
+
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>監視商務用 Skype Server 中的伺服器記憶體容量限制
  
-**摘要：** 瞭解如何監視商務用 Skype Server 中的伺服器記憶體容量限制。
+**總結：** 瞭解如何監視商務用 Skype Server 中的伺服器記憶體容量限制。
   
 > [!CAUTION]
 > 本主題所述的容量規劃的資訊僅適用于 Lync 2010 行動用戶端和行動服務 (Mcx) 。 Lync Server 2013 （計畫工具）提供的整合通訊網頁 API (UCWA) （供 Lync 2013 行動用戶端使用）的容量規劃。 
@@ -41,7 +36,7 @@ ms.locfileid: "60860080"
   
 若要判斷適當的限制，您必須先決定可在行動服務的前端伺服器上使用多少記憶體。 根據下列公式，監視計數器，以判斷何時需要規劃額外的容量：
   
-Mcx 行動性服務使用的總記憶體 (MB) = 164 + (400 + 134) /1024 ***目前使用中的會話計數與使用中的目前狀態訂閱**+ 400/1024 * (**目前** 作用中的會話計數  -  **目前使用中狀態訂閱目前使用中的會話計數**) 
+Mcx 行動性服務使用的總記憶體 (MB) = 164 + (400 + 134) /1024 ***目前使用中的會話計數與使用中的目前狀態訂閱**+ 400/1024 * (**目前**  -  作用中的會話計數 **目前使用中狀態訂閱目前使用中的會話計數**) 
   
 > [!IMPORTANT]
 > Microsoft Lync Server 2010 容量計算機是預先填入的試算表，其可讓規劃人員判斷商務用 Skype 伺服器（包括 CPU、記憶體和硬碟）的需求。 您可以 [下載試算表和相關聯的檔](https://go.microsoft.com/fwlink/p/?LinkID=212657)。 

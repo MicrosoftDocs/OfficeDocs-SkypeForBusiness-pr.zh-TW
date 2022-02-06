@@ -1,27 +1,22 @@
 ---
 title: 設定商務用 Skype Server 中的 Office Web 應用程式伺服器的整合
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 摘要：閱讀此主題以瞭解如何設定 Office web Apps Server 與商務用 Skype Server 之間的整合，以啟用 Web 會議的 PowerPoint 簡報。
-ms.openlocfilehash: 291e246651a5c4f909f2e739e76de65d8c983c5b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835951"
 ---
+
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>設定商務用 Skype Server 中的 Office Web 應用程式伺服器的整合
  
-**摘要：** 閱讀此主題以瞭解如何設定 Office web Apps Server 與商務用 Skype Server 之間的整合，以啟用 Web 會議的 PowerPoint 簡報。
+**總結：** 閱讀此主題以瞭解如何設定 Office web Apps Server 與商務用 Skype Server 之間的整合，以啟用 Web 會議的 PowerPoint 簡報。
   
 商務用 Skype Server 採用 Office web Apps Server 來處理 web 會議的 PowerPoint 簡報。 如需此方法之優點的詳細資訊，請參閱[在商務用 Skype Server 中規劃會議](../../plan-your-deployment/conferencing/conferencing.md)。
   
@@ -80,15 +75,15 @@ Office Web Apps Server 新增至拓撲之後，在發行拓撲之後，您應該
   
  **web 會議服務器 Office web Apps server discovery 已成功。**
   
- **OfficeWeb 應用程式伺服器內部簡報者頁面： https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp ; 嵌入 =**
+ **Office Web Apps Server 內部簡報者頁面： https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp ; 嵌入 =**
   
- **OfficeWeb 應用程式伺服器內部出席者頁面： https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp ; 嵌入 = true&amp;=**
+ **Office Web Apps Server 內部出席者頁面： https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp ; 嵌入 = true&amp;=**
   
 如果您已設定外部使用者的存取權，您也會看到類似下列專案的內容：
   
- **OfficeWeb Apps Server 外部簡報者頁面： https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp ; 嵌入**
+ **Office Web Apps Server 外部簡報者頁面： https://atl-officewebapps-001.litwareinc.com/m/Presenter.aspx?a=0&amp ; 嵌入**
   
- **OfficeWeb 應用程式伺服器內部出席者頁面： <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp> ;**
+ **Office Web Apps Server 內部出席者頁面： <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp> ;**
   
 如果您看到 LS 資料 MCU 事件（事件識別碼為41033），表示 Office Web Apps Server discovery 失敗。 在此情況下，商務用 Skype Server 會根據需要嘗試許多次數，以探索新設定的 Office Web Apps Server。 如果探索過程重複失敗，您應該移除拓撲檔中 Office 的 web 應用程式伺服器、發佈更新的拓撲，然後在解決連線問題後，嘗試將 Office Web 應用程式伺服器新增回拓撲。
   

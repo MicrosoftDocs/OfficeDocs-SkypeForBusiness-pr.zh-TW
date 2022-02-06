@@ -1,29 +1,24 @@
 ---
-title: 商務用 Skype Server音訊影片會議規劃工具
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 商務用 Skype Server 音訊視訊會議規劃工具
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.AV
-- ms.lync.plan.AV
+  - ms.lync.plan.AV
+  - ms.lync.plan.AV
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: 商務用 Skype Server 2015 音訊/視頻 (A/V) 會議可讓使用者參與即時音訊或視訊會議。
-ms.openlocfilehash: a74a6c5fca942fcbbfc0c2d73af5e32e3f9979dc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832257"
 ---
-# <a name="skype-for-business-server-audio-video-conferencing-planning-tool"></a>商務用 Skype Server音訊影片會議規劃工具
+
+# <a name="skype-for-business-server-audio-video-conferencing-planning-tool"></a>商務用 Skype Server 音訊視訊會議規劃工具
  
 商務用 Skype Server 2015 音訊/視頻 (A/V) 會議可讓使用者參與即時音訊或視訊會議。
   

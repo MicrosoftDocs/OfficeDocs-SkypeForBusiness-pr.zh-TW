@@ -1,24 +1,19 @@
 ---
 title: 在商務用 Skype Server 中管理前端伺服器
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 摘要：瞭解如何在商務用 Skype Server 中新增、移除、修補或更新前端伺服器。
-ms.openlocfilehash: daa56be66a09d0969c193021aa3b847fc5972413
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837525"
 ---
+
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>在商務用 Skype Server 中管理前端伺服器
  
 本文說明如何新增或移除前端伺服器，以及如何對前端伺服器套用升級或修補程式。

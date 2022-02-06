@@ -1,27 +1,22 @@
 ---
 title: 為不是以 Windows 為基礎的裝置啟用 QoS
-ms.reviewer: ''
-ms:assetid: 26f793df-aef8-4028-9e3b-6c2c37ea61b9
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
-ms:contentKeyID: 48183661
+ms.reviewer: null
+'ms:assetid': 26f793df-aef8-4028-9e3b-6c2c37ea61b9
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)'
+'ms:contentKeyID': 48183661
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 瞭解如何為組織中使用非 Windows 作業系統的裝置啟用 QoS。
-ms.openlocfilehash: 613f7abfa3e88fb831729498baa8f7f698aa9d0e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831997"
 ---
+
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>針對不是以 Windows 為基礎的裝置啟用商務用 Skype Server 中的 QoS
 
 

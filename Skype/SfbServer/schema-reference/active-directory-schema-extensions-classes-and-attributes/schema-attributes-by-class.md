@@ -1,25 +1,20 @@
 ---
 title: 商務用 Skype Server 中的類別的架構屬性
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: 本節列出可以包含在每個商務用 Skype Server 類別中的架構屬性，以及可以包含在其他類別中的類別。 如需所有類別及其描述的清單，請參閱商務用 Skype Server 中的架構類別和描述。 如需所有屬性及其描述的清單，請參閱商務用 Skype Server 中的架構屬性和描述。
-ms.openlocfilehash: b3e4e584896da8dd6345d3f284c30463094b4b6e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829807"
 ---
+
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>商務用 Skype Server 中的類別的架構屬性
  
 本節列出可以包含在每個商務用 Skype Server 類別中的架構屬性，以及可以包含在其他類別中的類別。 如需所有類別及其描述的清單，請參閱[商務用 Skype Server 中的架構類別和描述](schema-classes-and-descriptions.md)。 如需所有屬性及其描述的清單，請參閱[商務用 Skype Server 中的架構屬性和描述](schema-attributes-and-descriptions.md)。

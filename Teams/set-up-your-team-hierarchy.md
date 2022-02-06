@@ -1,27 +1,22 @@
 ---
 title: 設定您的團隊目標階層
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.reviewer: andfried, acolonna
+ms.reviewer: 'andfried, acolonna'
 search.appverid: MET150
 description: 瞭解如何在組織中設定小組階層，將內容發佈至一組大型團隊。
 audience: admin
 ms.localizationpriority: medium
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
+  - Teams_ITAdmin_Help
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: f65ffa8fa6dc661451669ded8f407bb519468112
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850546"
+  - Microsoft Teams
 ---
+
 # <a name="set-up-your-team-targeting-hierarchy"></a>設定您的團隊目標階層
 
 設定團隊目標階層會允許貴組織將內容發佈至一組大型團隊。 團隊目標階層會定義階層中所有團隊彼此關聯、哪些使用者可以發佈工作，以及哪些團隊使用者有權發佈工作。 除非為貴組織設定小組目標階層，否則所有使用者的發佈功能都停用。 若要設定團隊目標階層，您必須建立定義階層的檔案，然後將它上傳到 Teams以將其套用至您的組織。 架構上傳之後，Teams內的應用程式就可以使用它。
@@ -29,7 +24,7 @@ ms.locfileid: "60850546"
 > [!IMPORTANT]
 > 在初次發行中，只有工作應用程式支援階層式團隊。  將小組目標階層適用于貴組織後 [，就會在](https://support.microsoft.com/office/publish-task-lists-to-create-and-track-work-in-your-organization-095409b3-f5af-40aa-9f9e-339b54e705df) 工作應用程式中啟用任務發佈。 您不會在 Microsoft Teams 的其他區域看到團隊Microsoft Teams。
 
-以下範例說明階層在 Teams 中如何Teams。 建立工作清單之後，發佈小組成員就可以選取要傳送的收件者團隊 (發佈) 清單。 選取團隊時，發佈小組可以按照階層、屬性或兩者的組合來篩選。<br>
+以下範例說明階層在 Teams 中如何Teams。 建立工作清單之後，發佈小組成員就可以選取要傳送的收件者團隊 (發佈) 工作清單。 選取團隊時，發佈小組可以按照階層、屬性或兩者的組合來篩選。<br>
 
 ![工作發佈螢幕擷取畫面。](media/manage-tasks-app-publish.png)
 
@@ -76,9 +71,9 @@ ms.locfileid: "60850546"
 > [!NOTE]
 > 本文的其餘部分會討論在將工作發佈給收件者團隊時設定團隊階層。 請參閱[在 Teams](./manage-tasks-app.md)中管理貴組織的工作應用程式，以概觀瞭解工作應用程式，其中任務發佈在啟用時會出現。
 
-定義階層的架構是以 CSV 檔案中的逗號分隔 () 為基礎。 檔案必須採用 UTF-8 格式。 CSV 檔案中的每個列對應至團隊階層中的一個節點。 每一列都包含為階層內節點命名的資訊，選擇性地將節點連結至團隊，以及可用於篩選支援該節點之應用程式中團隊的屬性。
+定義階層的架構是根據 CSV 檔案中的逗號分隔 () 值。 檔案必須採用 UTF-8 格式。 CSV 檔案中的每個列對應至團隊階層中的一個節點。 每一列都包含為階層內節點命名的資訊，選擇性地將節點連結至團隊，以及可用於篩選支援該節點之應用程式中團隊的屬性。
 
-您也可以定義資料桶 **，這是** 發佈小組可用於組織送出給收件者團隊的內容的類別，讓他們更容易查看、排序及專注于相關內容。
+您也可以定義資料桶，發佈小組可以使用這些類別來整理送出給收件者團隊的內容，讓他們更容易查看、排序及專注于相關內容。
 
 ### <a name="add-required-columns"></a>新增必要的欄
 
@@ -87,8 +82,8 @@ CSV 檔案必須包含下列三欄，從第一欄開始的順序如下。 節點
 | 欄名稱   | 必要 | 描述   |
 ----------------|----------|---------------|
 | DisplayName    | 是      | 此欄位是節點的名稱。 名稱最多隻能有 100 個字元，而且只包含 A-Z、a-z 和 0-9 的字元。 節點名稱必須是唯一的。 |
-| ParentName    | 是       | 這是父節點的名稱。 您在這裡指定的值必須與父節點 **的 DisplayName** 欄位中的值完全相符。 如果您想要新增多個父節點，請以分號分隔每個父節點名稱， () 。 您最多可以新增 25 個父節點，且每個父節點名稱最多 2500 個字元。 只有當父節點是根節點時，節點才能有多個父節點。   <br><br>**重要** 請小心不要建立一個迴圈，讓階層中較高階層的父節點參照階層中的下層子節點。 不支援這項功能。 |
-| TeamId        | 是，如果小組發佈工作或接收來自父節點的工作       | 這包含要連結節點的團隊識別碼。 每個節點都必須參照唯一的團隊，因此每個 TeamId 值可能只會出現在階層檔案中一次。 若要取得要連結節點的團隊識別碼，請執行下列 PowerShell 命令 `Get-Team | Export-Csv TeamList.csv` ：。 此命令會列出貴組織中團隊，並包含每個團隊的名稱和識別碼。 尋找您想要連結的團隊名稱，然後將識別碼複製到此欄位。|
+| ParentName    | 是       | 這是父節點的名稱。 您在這裡指定的值必須與父節點 **的 DisplayName** 欄位中的值完全相符。 如果您想要新增多個父節點，請以分號分隔每個父節點名稱; () 。 您最多可以新增 25 個父節點，且每個父節點名稱最多 2500 個字元。 只有當父節點是根節點時，節點才能有多個父節點。   <br><br>**重要** 請小心不要建立一個迴圈，讓階層中較高階層的父節點參照階層中的下層子節點。 不支援這項功能。 |
+| TeamId        | 是，如果小組發佈工作或接收來自父節點的工作       | 這包含要連結節點的團隊識別碼。 每個節點都必須參照唯一的團隊，因此每個 TeamId 值可能只會出現在階層檔案中一次。 若要取得要連結節點的團隊識別碼，請執行下列 PowerShell 命令： `Get-Team | Export-Csv TeamList.csv` 。 此命令會列出貴組織中團隊，並包含每個團隊的名稱和識別碼。 尋找您想要連結的團隊名稱，然後將識別碼複製到此欄位。|
 
 > [!NOTE]
 > 如果節點不是根節點或葉節點，而且您不需要團隊成員資格來授予發佈和報表的對應許可權，您可以將 TeamId 保留空白。 這個方法可用來在選擇收件者團隊時增加更精細的細度，或在沒有對應小組的情況下檢視完成報告。
@@ -100,7 +95,7 @@ CSV 檔案必須包含下列三欄，從第一欄開始的順序如下。 節點
 |新增屬性的方法|描述 |範例  |
 |---|---------|---------|
 |如果屬性的值是互斥的，您指定的欄名稱會變成屬性的名稱。|每一列可以包含該屬性的一個值，而每個屬性欄最多可以有 50 個唯一值。 每個值最多隻能有 100 個字元。 當您使用團隊目標階層選取收件者團隊時，在屬性欄中指定的一組屬性值會顯示為該屬性的篩選值。|您希望使用者能夠根據版面配置篩選儲存空間。 這個屬性的值是互斥的，因為商店只能有一個版面配置。 <br><br>若要新增屬性以根據版面配置篩選商店，請新增名為 Store 版面配置的資料行。 在此範例中，Store 版面配置屬性的值為壓縮、標準及大型。
-|如果您需要為屬性指定多個值，而且這些值並非互斥，請使用 **屬性名稱：UniqueValue** 格式作為欄名稱。 <br><br>**重要** 請確定使用僅英文冒號 (：) unicode 不支援做為屬性欄分隔符號。 |冒號前的文字字串 (：) 成為屬性的名稱。 在冒號 (：) 前包含相同文字字串的所有欄，會分組到篩選功能表中的節。 冒號後的每個字串都會變成該節的值。<br><br>每一列的值為 0 (0 或 1) 屬性為 1。 值為 0 表示屬性不適用於節點，而值為 1 表示屬性會適用于該節點。|您希望使用者能夠根據部門篩選儲存區。 商店可以有多個部門，因此此屬性的值並非互斥。<br><br>在此範例中，我們新增部門：服裝、部門：電子、部門：食物、部門：家用和園藝、部門：運動用品為屬性欄。 部門會變成屬性名稱，使用者可以根據服裝、電子、食物、住家園藝和運動用品部門進行篩選。|
+|如果您需要為屬性指定多個值，而且這些值並非互斥，請使用 **屬性名稱：UniqueValue** 格式作為欄名稱。 <br><br>**重要** 請確定使用僅英文冒號 (：) unicode 不支援做為屬性欄分隔符號。 |冒號前的文字字串 (：) 成為屬性的名稱。 在冒號 (：) 前包含相同文字字串的所有欄，) 分組到篩選功能表中的節。 冒號後的每個字串都會變成該節的值。<br><br>每一列的值為 0 (0 或 1) 為 1。 值為 0 表示屬性不適用於節點，而值為 1 表示屬性會適用于該節點。|您希望使用者能夠根據部門篩選儲存區。 商店可以有多個部門，因此此屬性的值並非互斥。<br><br>在此範例中，我們新增部門：服裝、部門：電子、部門：食物、部門：家用和園藝、部門：運動用品為屬性欄。 部門會變成屬性名稱，使用者可以根據服裝、電子、食物、住家園藝和運動用品部門進行篩選。|
 
 當您新增屬性欄時，請記住下列事項：
 
@@ -125,11 +120,11 @@ CSV 檔案必須包含下列三欄，從第一欄開始的順序如下。 節點
 
 以下是架構 CSV 檔案的範例，該檔案會建立以支援上一個影像中顯示的階層。 此架構包含下列專案：
 
-* 三個名為 `TargetName` 、 `ParentName` 和 的必填欄 `TeamId`
-* 三個名為 `Store layout` 、 `Departments:Clothing` 和 的屬性欄 `Departments:Foods`
-* 名稱為 、和 的三個數據桶 `Fresh Foods` `Frozen Foods` 欄 `Women's Wear`
+* 三個名為 `TargetName` 、和 的 `ParentName` 必填欄 `TeamId`
+* 三個名為 `Store layout` 、和 `Departments:Clothing` 的屬性欄 `Departments:Foods`
+* 名稱為 、和 的 `Frozen Foods` 三個 `Fresh Foods` 資料桶欄`Women's Wear`
 
-屬性 `Store layout` 具有包含 、和 `Compact` `Standard` 的值 `Large` 。 屬性欄可以設為零或 (`Departments` `0` 的值 `1`) 。 上述 `Store` 影像不會顯示版面配置 `Departments` 和屬性。 它們新增在這裡，可協助顯示如何將屬性新加到節點專案。 這三個數據桶欄也是如此。
+屬性 `Store layout` 具有包含 `Compact` 、 `Standard` 和 的值 `Large` 。 屬性 `Departments` 欄可以設定為零 `0` 或 () 的值 `1` 。 上述 `Store` 影像 `Departments` 不會顯示版面配置和屬性。 它們新增在這裡，可協助顯示如何將屬性新加到節點專案。 這三個數據桶欄也是如此。
 
 ```CSV
 TargetName,ParentName,TeamId,Store layout,Departments:Clothing,Departments:Foods,#Fresh Foods,#Frozen Foods,#Women's Wear
@@ -154,9 +149,9 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 > 若要執行此步驟，您必須從 PowerShell 圖庫安裝和Teams PowerShell 公用預覽模組。 有關如何安裝模組的步驟，請參閱在 PowerShell Teams安裝。
 
 > [!NOTE]
-> 政府社群雲端 (GCC) 必須使用 Cmdlet 預覽版本[2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview)或更新版本，以確保資料會路由至 GCC 環境，而非公用雲端環境。
+> 政府社群雲端 (GCC) 必須使用[Cmdlet 預覽版本 2.4.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview)或更新版本，以確保資料會路由至 GCC 環境，而非公用雲端環境。
 
-在架構 CSV 檔案中定義階層之後，就可以將階層上傳到Teams。 若要這麼做，請執行下列命令。 您必須是全域系統管理員或Teams系統管理員才能執行此步驟。
+在架構 CSV 檔案中定義階層之後，就可以將階層上傳到Teams。 若要這麼做，請執行下列命令。 您必須是全域系統管理員Teams服務系統管理員才能執行此步驟。
 
 ```powershell
 Set-TeamTargetingHierarchy -FilePath "C:\ContosoTeamSchema.csv"
@@ -202,7 +197,7 @@ Remove-TeamTargetingHierarchy
 ### <a name="install-the-teams-powershell-module"></a>安裝 powerShell Teams模組
 
 > [!IMPORTANT]
-> 若要執行此步驟，您必須從 PowerShell 圖庫安裝並使用 powerShell Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)公用預覽模組。 若要瞭解如何安裝模組的步驟，請參閱在[PowerShell Teams安裝](teams-powershell-install.md)。
+> 若要執行此步驟，您必須從 PowerShell 圖庫安裝和Teams PowerShell 公用預覽[模組](https://www.powershellgallery.com/packages/MicrosoftTeams/)。 有關如何安裝模組的步驟，請參閱在[PowerShell Teams安裝](teams-powershell-install.md)。
 
 ### <a name="sample-script"></a>範例腳本
 
@@ -220,7 +215,7 @@ $tm6 = New-Team -DisplayName "Store 3"
 $tm7 = New-Team -DisplayName "Store 4"
 ```
 
-#### <a name="use-team-data-to-create-comma-separated-output-displayname-parentname-teamid"></a>使用小組資料在 DisplayName、parentName、TeamId (建立逗號分隔) 
+#### <a name="use-team-data-to-create-comma-separated-output-displayname-parentname-teamid"></a>使用小組資料建立以逗號分隔的輸出 (DisplayName、ParentName、TeamId) 
 
 ```powershell
 $csvOutput = "DisplayName" + "," + "ParentName" + "," + "TeamId" + "`n"
@@ -233,7 +228,7 @@ $csvOutput = $csvOutput + $tm6.DisplayName + "," + $tm5.DisplayName + "," + $tm6
 $csvOutput = $csvOutput + $tm7.DisplayName + "," + $tm5.DisplayName + "," + $tm7.GroupID 
 ```
 
-#### <a name="save-output-to-a-csv-file-in-the-downloads-folder"></a>將輸出儲存到 .csv 資料夾中 **的檔案**
+#### <a name="save-output-to-a-csv-file-in-the-downloads-folder"></a>將輸出儲存.csv下載資料夾中 **的檔案**
 
 ```powershell
 $csvOutputPath = $env:USERPROFILE + "\downloads\testhierarchy-" + (Get-Date -Format "yyyy-MM-dd-hhmmss") + ".csv" 
@@ -272,7 +267,7 @@ Description: TeamID in row # doesn't match a valid Group ID. Please view our doc
 
 檢查以確保您為架構 CSV 檔案中的小組使用正確的 TeamId。 TeamId 應該與支援小組之Microsoft 365群組的組識別碼相同。 您可以在系統管理中心中Microsoft Teams群組識別碼。
 
-1. 在系統管理中心的左側導 [Microsoft Teams，請](https://admin.teams.microsoft.com/)**前往管理** Teams  >  **團隊**。
+1. 在系統管理中心的左側導 [Microsoft Teams，請](https://admin.teams.microsoft.com/)前往 **管理**  >  Teams **團隊**。
 2. 如果 **表格中未** 顯示群組識別碼欄，請選取表格右上角的編輯欄，然後開啟 **群組識別碼**。
 3. 在清單中尋找團隊，然後找出組識別碼。
 

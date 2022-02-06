@@ -1,26 +1,21 @@
 ---
 title: 在壓力和效能案例中布建拓撲以執行負載
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: 商務用 Skype Server 2015 拓撲變更或布建，以允許使用者成功執行壓力和效能工具。
-ms.openlocfilehash: 50bd77dd7b3531a150e1e62f6192d32666fa5ba7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854257"
 ---
+
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>在壓力和效能案例中布建拓撲以執行負載
  
 商務用 Skype Server 2015 拓撲變更或布建，以允許使用者成功執行壓力和效能工具。
@@ -51,7 +46,7 @@ ms.locfileid: "60854257"
    PowerShell.exe -file <path to the file>
    ```
 
-4. 一般來說，當您從這個套件執行腳本後，所產生的追蹤會儲存在執行腳本的相同路徑中。 也有命名格式 \<scriptname\> $h $ m $s.txt。 因此，如果您在 12:15 PM 執行 ArchivingPolicy.ps1，您會收到名為 ArchivingPolicy121500.txt 的記錄檔。
+4. 一般來說，當您從這個套件執行腳本後，所產生的追蹤會儲存在執行腳本的相同路徑中。 也 \<scriptname\> 有命名格式 $h $ m $s.txt。 因此，如果您在 12:15 PM 執行 ArchivingPolicy.ps1，您會收到名為 ArchivingPolicy121500.txt 的記錄檔。
     
 5. 當我們為伺服器設定提供這些範例後，您可以在完成執行負載測試後，修改設定並還原或回滾。
     

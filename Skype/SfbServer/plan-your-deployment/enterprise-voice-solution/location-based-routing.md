@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype 中規劃位置基礎路由
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: 規劃商務用 Skype Server 企業語音中的位置基礎路由，包括與同時震鈴和委派的互動，以及位置基礎路由支援的案例。
-ms.openlocfilehash: aada1db39d4dacbd5a6ec7f5dec1ede08468c50e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855330"
 ---
+
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>在商務用 Skype 中規劃位置基礎路由
 
 規劃商務用 Skype Server 企業語音中的位置基礎路由，包括與同時震鈴和委派的互動，以及位置基礎路由支援的案例。
@@ -75,7 +70,7 @@ Location-Based 路由規則會依每個網路網站套用，這表示一組指�
 
 - 骨幹關是針對 egresses 對 PSTN 進行呼叫的 PSTN 閘道所定義。 以這種類型的主幹路由傳送的來電，只會路由傳送到與主幹位於相同網路網站內的端點。
 
-- 主幹的定義是針對不會向 PSTN 和服務使用者提供靜態位置之舊版電話的轉送伺服器對等 (，例如 PBX 電話) 。 針對此特殊設定，所有由這種類型的主幹路由傳送的來電都會被視為與主幹產生來自相同的網路網站。 來自 PBX 使用者的呼叫，會與執行的 Location-Based 路由執行相同，就像是與主幹位於相同網路網站商務用 Skype 使用者一樣。 如果位於不同網路網站的兩個 PBX 系統是透過商務用 Skype Server 連線，則 Location-Based 路由將允許從一個網路網站的一個 pbx 端點路由傳送到另一個網路網站中的另一個 pbx 端點。 Location-Based 路由將不會封鎖此案例。 除了這種案例，與相同位置的商務用 Skype 使用者類似的情況下，連線至具有此設定之轉送伺服器對等的端點，也可以撥打或接聽其他轉送伺服器的來電，而不是將通話路由傳送至 PSTN (亦即，不論轉送伺服器對等所在的網站為何，連接至不同 PBX 的端點) 相關。 涉及 PSTN 端點的所有撥入通話、撥出電話、來電轉接及來電，都要視位置為基礎，僅使用定義為本機至此類轉送伺服器對等的 PSTN 閘道。
+- 主幹的定義是針對不會向 PSTN 和服務使用者提供靜態位置之舊版電話的轉送伺服器對等 (，例如 PBX 電話) 。 針對此特殊設定，所有由這種類型的主幹路由傳送的來電都會被視為與主幹產生來自相同的網路網站。 來自 PBX 使用者的呼叫，會與執行的 Location-Based 路由執行相同，就像是與主幹位於相同網路網站商務用 Skype 使用者一樣。 如果位於不同網路網站的兩個 PBX 系統是透過商務用 Skype Server 連線，則 Location-Based 路由將允許從一個網路網站的一個 pbx 端點路由傳送到另一個網路網站中的另一個 pbx 端點。 Location-Based 路由將不會封鎖此案例。 除了這種情況，與相同位置的商務用 Skype 使用者類似的情況下，連接至具有此設定之轉送伺服器的端點，也能撥打或接收其他轉送伺服器對等的來電，而不是將通話路由傳送至 PSTN (亦即，不論轉送伺服器對等相關聯的網站，都連接至不同 PBX) 的端點。 涉及 PSTN 端點的所有撥入通話、撥出電話、來電轉接及來電，都要視位置為基礎，僅使用定義為本機至此類轉送伺服器對等的 PSTN 閘道。
 
 ## <a name="scenarios-for-location-based-routing"></a>Location-Based 路由的案例
 
@@ -150,7 +145,7 @@ Location-Based 路由會在下列情況下路由呼叫時套用下列一般規�
 |:-----|:-----|:-----|:-----|
 |PSTN 端點   |透過來電者的網站語音路由原則允許同時振鈴   |透過來電者的網站語音路由原則允許同時振鈴   |允許透過來電者語音原則進行同時振鈴，以主幹未啟用 Location-Based 路由   |
 
-### <a name="skype-for-business-cumulative-update-4"></a>商務用 Skype累計更新4
+### <a name="skype-for-business-cumulative-update-4"></a>商務用 Skype 累計更新4
 
 使用累計更新4時，您將會看到下列專案：
 
@@ -164,15 +159,15 @@ Location-Based 路由會在下列情況下路由呼叫時套用下列一般規�
 
 |Location-Based 路由使用者|其他聚會|動作|結果|
 |:-----|:-----|:-----|:-----|
-|商務用 Skype移動   |PSTN   |商務用 Skype行動裝置接收進來的 PSTN 通話。   |通話透過「透過運作」 (CvW) 傳送，而非 VoIP。   |
-|商務用 Skype移動   |PSTN   |商務用 Skype行動裝置撥打外送 PSTN 電話。   |通話是透過 CvW 路由傳送，而不是 VoIP。   |
-|商務用 Skype移動   |PSTN   |商務用 SkypeMobile 位於 PSTN 通話中。 商務用 Skype行動裝置接著將通話升級至其他使用者或連絡人。   |如果使用者或連絡人是從本機前往 PSTN 閘道腿，則通話會透過 VoIP 路由傳送。  <br/> 如果使用者或連絡人是從 PSTN 閘道腿遠端，則通話會透過 CvW 路由傳送。  <br/> 如果無法透過 PSTN 到達目標使用者，則呼叫會失敗。  <br/> 如果目標連絡人是會議自動語音應答 (CAA) ，則會封鎖通話。   |
-|商務用 Skype移動   |商務用 Skype 用戶端或同盟使用者   |商務用 Skype 行動對另一部商務用 Skype 用戶端或同盟使用者發起語音通話。   |呼叫是透過 VoIP 完成。   |
-|商務用 Skype移動   |商務用 Skype 用戶端或同盟使用者   | 商務用 Skype 用戶端或同盟使用者對商務用 Skype 行動 Location-Based 路由使用者發起語音電話。  |呼叫是透過 VoIP 完成。   |
-|商務用 Skype移動   |商務用 Skype 用戶端或同盟使用者   |商務用 Skype 用戶端或同盟使用者在 VoIP 呼叫商務用 Skype 行動使用者。 任何一方會升級至其他商務用 Skype 或同盟使用者。   |呼叫是透過 VoIP 完成。   |
-|商務用 Skype移動   |同盟使用者   |同盟使用者對商務用 Skype 行動裝置 Location-Based 路由使用者的語音電話;商務用 Skype 行動裝置會升級至 PSTN 使用者。   |封鎖通話。   |
-|商務用 Skype移動   |同盟使用者   |同盟使用者在商務用 Skype 行動 Location-Based 路由使用者的 VoIP 呼叫上;每一方都升級至 CAA 連絡人。   |會封鎖已呈報的通話，並顯示適當的錯誤訊息。   |
-|商務用 Skype移動   |同盟使用者   |同盟使用者 VoIP 呼叫商務用 Skype 行動 Location-Based 路由使用者，且同盟使用者升級至 PSTN 使用者。   |根據同盟使用者的 Location-Based 路由，將允許或禁止呈報。 商務用 Skype Mobile Location-Based 路由使用者的應用程式不會採取任何動作。   |
+|商務用 Skype Mobile   |PSTN   |商務用 Skype 行動裝置接收進來的 PSTN 通話。   |通話透過「透過運作」 (CvW) 傳送，而非 VoIP。   |
+|商務用 Skype Mobile   |PSTN   |商務用 Skype 行動裝置會進行撥出的 PSTN 通話。   |通話是透過 CvW 路由傳送，而不是 VoIP。   |
+|商務用 Skype Mobile   |PSTN   |商務用 Skype Mobile 位於 PSTN 通話中。 商務用 Skype 行動裝置接著將通話升級至其他使用者或連絡人。   |如果使用者或連絡人是從本機前往 PSTN 閘道腿，則通話會透過 VoIP 路由傳送。  <br/> 如果使用者或連絡人是從 PSTN 閘道腿遠端，則通話會透過 CvW 路由傳送。  <br/> 如果無法透過 PSTN 到達目標使用者，則呼叫會失敗。  <br/> 如果目標連絡人是會議自動語音應答 (CAA) ，則會封鎖通話。   |
+|商務用 Skype Mobile   |商務用 Skype 用戶端或同盟使用者   |商務用 Skype 行動對另一部商務用 Skype 用戶端或同盟使用者發起語音通話。   |呼叫是透過 VoIP 完成。   |
+|商務用 Skype Mobile   |商務用 Skype 用戶端或同盟使用者   | 商務用 Skype 用戶端或同盟使用者對商務用 Skype 行動 Location-Based 路由使用者發起語音電話。  |呼叫是透過 VoIP 完成。   |
+|商務用 Skype Mobile   |商務用 Skype 用戶端或同盟使用者   |商務用 Skype 用戶端或同盟使用者在 VoIP 呼叫商務用 Skype 行動使用者。 任何一方會升級至其他商務用 Skype 或同盟使用者。   |呼叫是透過 VoIP 完成。   |
+|商務用 Skype Mobile   |同盟使用者   |同盟使用者對商務用 Skype 行動裝置 Location-Based 路由使用者的語音電話; 商務用 Skype 的行動方升級為 PSTN 使用者。   |封鎖通話。   |
+|商務用 Skype Mobile   |同盟使用者   |同盟使用者在商務用 Skype 行動 Location-Based 路由使用者的 VoIP 通話上，任何一方升級至 CAA 連絡人。   |會封鎖已呈報的通話，並顯示適當的錯誤訊息。   |
+|商務用 Skype Mobile   |同盟使用者   |同盟使用者 VoIP 呼叫商務用 Skype 行動 Location-Based 路由使用者，且同盟使用者升級至 PSTN 使用者。   |根據同盟使用者的 Location-Based 路由，將允許或禁止呈報。 商務用 Skype Mobile Location-Based 路由使用者的應用程式不會採取任何動作。   |
 
 ### <a name="delegation"></a>委派
 

@@ -1,25 +1,20 @@
 ---
 title: 商務用 Skype Server 2015 中的會議表格
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: 此表格中的每一筆記錄都包含有關一部會議的呼叫詳細資料。
-ms.openlocfilehash: cbcda30c47b4bbeac012f80d64f297a9a1259f2c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838445"
 ---
+
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的會議表格
  
 此表格中的每一筆記錄都包含有關一部會議的呼叫詳細資料。

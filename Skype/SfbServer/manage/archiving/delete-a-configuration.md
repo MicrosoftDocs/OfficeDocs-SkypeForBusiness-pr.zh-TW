@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中刪除封存設定
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 摘要：瞭解如何在商務用 Skype Server 中刪除封存設定。
-ms.openlocfilehash: defd9377453234e400dbf75a7d0261c52904adda
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851026"
 ---
+
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除封存設定
 
-**摘要：** 瞭解如何在商務用 Skype Server 中刪除封存設定。
+**總結：** 瞭解如何在商務用 Skype Server 中刪除封存設定。
   
 您可以刪除網站設定或集區設定，但無法刪除全域設定。 如果您刪除全域設定，它會自動重設為預設值。
   

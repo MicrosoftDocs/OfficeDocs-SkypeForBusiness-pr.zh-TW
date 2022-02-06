@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 中將位置原則新增至網路網站
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: 將 E9-1-1 位置原則指派給商務用 Skype Server 企業語音中的網路網站。
-ms.openlocfilehash: ae35958d9ff95e32f129d3992d52145e3bef51b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848046"
 ---
+
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>在商務用 Skype Server 中將位置原則新增至網路網站
  
 將 E9-1-1 位置原則指派給商務用 Skype Server 企業語音中的網路網站。 

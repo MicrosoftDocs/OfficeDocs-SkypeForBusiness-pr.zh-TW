@@ -1,7 +1,7 @@
 ---
 title: 測試直接路由會話邊界控制器連接的 PowerShell 腳本
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: filippse
@@ -11,18 +11,13 @@ description: 使用此 PowerShell 腳本範例來測試直接路由會話邊界�
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-- M365-voice
+  - M365-voice
 f1.keywords:
-- NOCSH
+  - NOCSH
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: bd2d0aa4a22e306d08ce215341e6e0a32efb100c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837465"
+  - Microsoft Teams
 ---
+
 # <a name="powershell-script-to-test-direct-routing-session-border-controller-connections"></a>測試直接路由會話邊界控制器連接的 PowerShell 腳本
 
 SIP 測試程式用戶端是一個範例 PowerShell 腳本，可用於測試直接路由會話邊界控制器 (SBC) 連接Microsoft Teams。 此腳本會使用直接路由測試由客戶配對的會話初始通訊協定 (SIP) 主幹的基本功能。
@@ -39,6 +34,6 @@ SIP 測試程式用戶端是一個範例 PowerShell 腳本，可用於測試直�
 下載 [SIP 測試程式用戶端腳本和檔](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/sip-tester-client/siptesterclient.zip?raw=true)。
 
   > [!NOTE]
-  > SIP 測試程式用戶端腳本僅 adal.ps 版本 3.19.8.1。 如果使用較新版本的版本，系統 adal.ps 錯誤。
+  > SIP 測試程式用戶端腳本僅 adal.ps 版本 3.19.8.1。 如果使用較新版本的版本，就會 adal.ps 錯誤。
   
   

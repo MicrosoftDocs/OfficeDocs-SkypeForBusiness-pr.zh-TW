@@ -1,31 +1,26 @@
 ---
 title: 規劃商務用 Skype 中的 IPv6
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 摘要：在安裝商務用 Skype Server 之前，請先執行 IPv6。
-ms.openlocfilehash: 21fa37d187f32c9b679a49a3b8181b1a5e2732d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849746"
 ---
+
 # <a name="plan-for-ipv6-in-skype-for-business"></a>規劃商務用 Skype 中的 IPv6
  
-**摘要：** 在安裝商務用 Skype Server 之前，請先執行 IPv6。
+**總結：** 在安裝商務用 Skype Server 之前，請先執行 IPv6。
   
 商務用 Skype Server 包括支援 ip 版本 6 (IPv6) 位址，以及的 ip 版本 4 (IPv4) 位址的支援。 
 
@@ -137,7 +132,7 @@ IPv4 位址是 32 位元位址，可讓電腦透過網際網路進行通訊。 �
 |:-----|:-----|:-----|:-----|
 |**前端集區： IPv4** <br/> |是  <br/> |是  <br/> |否  <br/> |
 |**前端集區：雙棧** <br/> |是  <br/> |是  <br/> |否  <br/> |
-|**前端集區： IPv6** <br/> |否  <br/> |否  <br/> |是的\*  <br/> |
+|**前端集區： IPv6** <br/> |否  <br/> |否  <br/> |是\*  <br/> |
    
 \* 僅在實驗室環境中使用此組合。
   
@@ -149,7 +144,7 @@ IPv4 位址是 32 位元位址，可讓電腦透過網際網路進行通訊。 �
 |:-----|:-----|:-----|:-----|
 |**Edge 集區 (內部 Edge) ： IPv4** <br/> |是  <br/> |是  <br/> |否  <br/> |
 |**Edge 集區 (內部 Edge) ：雙堆疊** <br/> |否  <br/> |是  <br/> |否  <br/> |
-|**Edge 集區 (內部 Edge) ： IPv6** <br/> |否  <br/> |否  <br/> |是的\*  <br/> |
+|**Edge 集區 (內部 Edge) ： IPv6** <br/> |否  <br/> |否  <br/> |是\*  <br/> |
    
 \* 僅在實驗室環境中使用此組合。
   
@@ -163,7 +158,7 @@ IPv4 位址是 32 位元位址，可讓電腦透過網際網路進行通訊。 �
   
 不支援使用 IPv6 位址的位置資訊服務。
   
-Exchange整合通訊 (UM) 不支援 IPv6。 若為 Exchange UM，請確定 DNS 解析不會傳回 IPv6 位址。 在來電傳送至語音信箱時，使用 IPv6 可能會造成失敗。 
+Exchange 整合通訊 (UM) 不支援 IPv6。 若為 Exchange UM，請確定 DNS 解析不會傳回 IPv6 位址。 在來電傳送至語音信箱時，使用 IPv6 可能會造成失敗。 
   
 ### <a name="other-skype-for-business-server-feature-support-for-ipv6"></a>IPv6 的其他商務用 Skype Server 功能支援
 <a name="Ent_V"> </a>

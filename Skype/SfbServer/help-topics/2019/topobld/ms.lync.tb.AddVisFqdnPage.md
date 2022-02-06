@@ -1,27 +1,22 @@
 ---
 title: 新增 VIS FQDN
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddVisFqdnPage
+  - ms.lync.tb.AddVisFqdnPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1e868ae2-57d9-449f-85be-6133c0cbd4f6
-ROBOTS: NOINDEX, NOFOLLOW
-description: 在 [拓撲產生器] 中定義新的 VIS 或視頻閘道所需的步驟，在商務用 Skype Server 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: d7885e2325a8db5eba3d9a9abc4352b132f8beb9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836865"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: '在 [拓撲產生器] 中定義新的 VIS 或視頻閘道所需的步驟，在商務用 Skype Server 中的 [建立 VIS 集區] 中說明為線上。'
 ---
+
 # <a name="add-vis-fqdn"></a>新增 VIS FQDN
  
 在 [拓撲產生器] 中定義新的 VIS 或視頻閘道所需的步驟，在商務用 Skype Server 中的 [[建立 VIS 集](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)區] 中說明為線上。

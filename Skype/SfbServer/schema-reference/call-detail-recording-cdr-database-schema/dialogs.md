@@ -1,25 +1,20 @@
 ---
 title: 商務用 Skype Server 2015 中的對話方塊表格
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 487a430b-af66-4ea6-b28e-4e33cfdb7f9e
 description: 對話方塊表格是一種支援資料表，可儲存點對點工作階段之 Dialogid 的相關資訊。
-ms.openlocfilehash: c59f3a2d84f4ebed243cba3dbe22f465551cbfaf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850676"
 ---
+
 # <a name="dialogs-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的對話方塊表格
  
 對話方塊表格是一種支援資料表，可儲存點對點工作階段之 Dialogid 的相關資訊。

@@ -1,33 +1,28 @@
 ---
 title: 在商務用 Skype Server 中規劃立即訊息和目前狀態
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 摘要：瞭解如何在商務用 Skype Server 中規劃立即訊息和目前狀態。
-ms.openlocfilehash: b81da143bf7b8d917d88939d8b28261910bb8f5a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835081"
 ---
+
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃立即訊息和目前狀態
  
-**摘要：** 瞭解如何在商務用 Skype Server 中規劃立即訊息和目前狀態。
+**總結：** 瞭解如何在商務用 Skype Server 中規劃立即訊息和目前狀態。
   
 在商務用 Skype Server 中規劃立即訊息和目前狀態。 若要瞭解特定的部署選項，例如啟用或停用離線立即訊息 (IM) ，請參閱[Deploy 商務用 Skype Server 中的立即訊息與顯示狀態](../deploy/im-and-presence/im-and-presence.md)。
   
 ## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃立即訊息和目前狀態
 
-前端伺服器提供核心商務用 Skype Server 功能，例如立即訊息 (IM) 和目前狀態，並包含在每個商務用 Skype Server 部署中。 有兩種可供使用的版本：商務用 Skype Server Enterprise Edition （主要為大型組織設計）和商務用 Skype Server Standard Edition，其主要是針對需要較小硬體投資且不需要較小的組織進行設計。需要完整的高可用性選項。 這兩種版本都支援所有商務用 Skype Server 工作負載，包括 IM、顯示狀態、會議及企業語音。
+前端伺服器提供核心商務用 Skype Server 功能，例如立即訊息 (IM) 和目前狀態，並包含在每個商務用 Skype Server 部署中。 有兩種可用的版本：商務用 Skype Server Enterprise Edition，其主要是針對大型組織所設計，並商務用 Skype Server Standard Edition，其主要是針對需要較小硬體投資且不需要完整高可用性選項的小型組織所設計。 這兩種版本都支援所有商務用 Skype Server 工作負載，包括 IM、顯示狀態、會議及企業語音。
   
 立即訊息 (IM) 可讓使用者在電腦上使用文字訊息，與其他使用者進行即時溝通。同時支援雙方或多方 IM 工作階段。雙方 IM 交談中的參與者可以隨時將第三個參與者加入交談中。若發生這種情況，[交談] 視窗會變更成可支援會議功能。
   

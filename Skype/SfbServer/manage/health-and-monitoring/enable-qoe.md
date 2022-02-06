@@ -1,24 +1,19 @@
 ---
 title: 在商務用 Skype Server 中啟用經驗品質
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: 摘要：瞭解如何在商務用 Skype Server 中啟用 QoE) 的經驗品質 (。
-ms.openlocfilehash: 89c6a41a356355ea5ac717a10e2848aa16d94249
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863570"
 ---
+
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用經驗品質
 
 **摘要：** 瞭解如何在商務用 Skype Server 中啟用 QoE) 的經驗品質 (。

@@ -1,27 +1,22 @@
 ---
 title: '管理商務用 Skype Server 中的電話撥入式會議存取號碼 '
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 摘要：瞭解如何管理商務用 Skype Server 中的電話撥入式會議存取號碼。
-ms.openlocfilehash: 9bfa4b905ee77b6e5697cf09b2ef89566d875297
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835381"
 ---
+
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>管理商務用 Skype Server 中的電話撥入式會議存取號碼
  
-**摘要：** 瞭解如何管理商務用 Skype Server 中的電話撥入式會議存取號碼。
+**總結：** 瞭解如何管理商務用 Skype Server 中的電話撥入式會議存取號碼。
   
 當您部署電話撥入式會議時，您必須設定使用者可以從公用交換電話網路 (PSTN) 撥打的電話號碼，以加入會議的音訊部分。 這些撥入存取號碼會顯示在會議邀請中和電話撥入式會議設定網頁上。 
   

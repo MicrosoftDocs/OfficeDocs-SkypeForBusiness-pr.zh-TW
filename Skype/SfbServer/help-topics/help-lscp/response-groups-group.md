@@ -1,27 +1,22 @@
 ---
 title: 回應群組群組
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.RgsGroupMain
+  - ms.lync.lscp.RgsGroupMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: 回應群組中包含代理群組、佇列及工作流程。 代理人群組是指定給回應回應群組通話的人員群組。
-ms.openlocfilehash: 2a4f0e68db6701b3eb75cfb1b502e4b837756d9f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827816"
 ---
+
 # <a name="response-groups-group"></a>回應群組：群組
 
 回應群組中包含代理群組、佇列及工作流程。 代理人群組是指定給回應回應群組通話的人員群組。
@@ -42,15 +37,15 @@ ms.locfileid: "60827816"
 
 下列清單說明頁面上的命令。
 
-- **新** 啟動新的代理人群組。
+- **新增功能** 啟動新的代理人群組。
 
 - **編輯** 開啟選取的代理人群組進行編輯、選取清單中的所有代理程式群組，或刪除選取的代理人群組。
 
-- **Refresh** 重新整理代理人群組的清單。
+- **刷新** 重新整理代理人群組的清單。
 
 下列清單說明頁面上的欄位。
 
-- **名稱** 識別代理人群組的唯一名稱。
+- **名字** 識別代理人群組的唯一名稱。
 
 - **服務** 主控代理群組的 **ApplicationServer** 服務。
 

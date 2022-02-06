@@ -1,29 +1,24 @@
 ---
-title: 商務用 Skype ServerEdge 網路規劃工具
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 商務用 Skype Server Edge Network 規劃工具
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.EdgeNetwork
-- ms.lync.plan.EdgeNetwork
+  - ms.lync.plan.EdgeNetwork
+  - ms.lync.plan.EdgeNetwork
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 description: 大部分的 Edge 元件都是部署在周邊網路中。 這些元件組成周邊網路的 Edge 拓撲。 除非另有說明，否則此處所述的元件為 Edge Server 案例的一部分，在商務用 Skype Server 2015 中，且位於周邊網路中。
-ms.openlocfilehash: f1231870c6e2bdbdac0b1be439154295d6f49cfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847716"
 ---
-# <a name="skype-for-business-server-edge-network-planning-tool"></a>商務用 Skype ServerEdge 網路規劃工具
+
+# <a name="skype-for-business-server-edge-network-planning-tool"></a>商務用 Skype Server Edge Network 規劃工具
  
 大部分的 Edge 元件都是部署在周邊網路中。 下列元件組成周邊網路的 Edge 拓撲。 除了另有說明之外，元件是[Edge Server 案例的一部分，在商務用 Skype Server 2015](../../plan-your-deployment/edge-server-deployments/scenarios.md)中，且位於周邊網路中。 Edge 元件包括：
   

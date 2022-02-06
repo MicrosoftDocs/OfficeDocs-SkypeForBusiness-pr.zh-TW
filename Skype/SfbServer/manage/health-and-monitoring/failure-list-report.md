@@ -1,27 +1,22 @@
 ---
 title: 商務用 Skype Server 的失敗清單報告
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 摘要：瞭解商務用 Skype Server 中的失敗清單報告。
-ms.openlocfilehash: 37442d95c3a79bffbd79ebd74a793f5d3e1f3fb4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858290"
 ---
+
 # <a name="failure-list-report-in-skype-for-business-server"></a>商務用 Skype Server 的失敗清單報告 
  
-**摘要：** 深入瞭解商務用 Skype Server 中的失敗清單報告。
+**總結：** 深入瞭解商務用 Skype Server 中的失敗清單報告。
   
 「失敗清單報告」會提供參與「對等」或「會議」會話失敗之人員的相關資訊。 此資訊包含發生問題之使用者的 URI，以及與失敗相關聯的 SIP 回應碼和診斷識別碼。
   

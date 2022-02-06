@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 2015 中規劃 Persistent Chat Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 2015 中規劃 Persistent Chat Server。
-ms.openlocfilehash: 7adeb623f581d7ce6f3bfad5dadafd143299fad5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842715"
 ---
+
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中規劃 Persistent Chat Server
  
-**摘要：** 閱讀此主題以瞭解如何在商務用 Skype Server 2015 中規劃 Persistent Chat Server。
+**總結：** 閱讀此主題以瞭解如何在商務用 Skype Server 2015 中規劃 Persistent Chat Server。
   
 Persistent Chat Server 是一種選用角色，可讓您組織中的多位使用者參與隨時間持續的聊天室交談。 雖然使用者可以在聊天會話中即時通訊，但每個會話的內容（包括文字、連結及檔案）都是持續性的，這表示使用者可以隨時查看及搜尋會話的所有內容。
   

@@ -1,35 +1,30 @@
 ---
 title: 在商務用 Skype Server 中規劃撥出語音路由
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: 深入瞭解商務用 Skype Server 企業語音中的輸出語音路由，包括通話路由設定、撥號對應表、正常化規則、語音原則、PSTN 使用方式記錄和語音路由。
-ms.openlocfilehash: 1c8331f1959b03166ecd02b65e6fa1080bb43993
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861070"
 ---
+
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃撥出語音路由
  
 深入瞭解商務用 Skype Server 企業語音中的輸出語音路由，包括通話路由設定、撥號對應表、正常化規則、語音原則、PSTN 使用方式記錄和語音路由。
   
 撥出電話路由適用于目的地為公用交換電話網路 (PSTN) 閘道、主幹或私人分支 exchange (PBX) 的企業語音通話。 當商務用 Skype 使用者撥打電話時，伺服器會將電話號碼正常化為 e.164 格式（必要時），並嘗試將其與 SIP URI 相符。 如果伺服器無法成功進行比對，就會根據提供的撥號字串套用撥出電話的路由邏輯。 您可以依下表所述進行伺服器設定，以便定義該邏輯。
   
-**商務用 Skype Server撥出電話路由設定**
+**商務用 Skype Server 撥出電話路由設定**
 
 |**物件**|**描述**|
 |:-----|:-----|

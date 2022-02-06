@@ -1,27 +1,22 @@
 ---
 title: 安裝資料庫選項頁面
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.InstallDatabaseOptionPage
+  - ms.lync.tb.InstallDatabaseOptionPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 您可以設定在 SQL Server 上放置資料庫及記錄檔的高級選項。 可用選項包括：
-ms.openlocfilehash: 4ef2f2aa48b016a8472f53ccef46ef81a5afd6fb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830427"
 ---
+
 # <a name="install-database-options-page"></a>安裝資料庫選項頁面
 
 您可以設定在 SQL Server 上放置資料庫及記錄檔的高級選項。 可用選項包括：

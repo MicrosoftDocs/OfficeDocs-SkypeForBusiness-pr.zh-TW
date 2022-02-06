@@ -1,28 +1,23 @@
 ---
 title: 規劃商務用 Skype Server 的位置原則
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: 閱讀此主題以瞭解如何在商務用 Skype Server 企業語音中規劃增強型緊急服務 (E9-1-1) 部署的位置原則。
-ms.openlocfilehash: 661706aa9ae60f87dc60814d71c2b0b8c8dcc2ce
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855320"
 ---
+
 # <a name="plan-location-policies-for-skype-for-business-server"></a>規劃商務用 Skype Server 的位置原則
  
 閱讀此主題以瞭解如何在商務用 Skype Server 企業語音中規劃增強型緊急服務 (E9-1-1) 部署的位置原則。 
@@ -62,7 +57,7 @@ ms.locfileid: "60855320"
 此撥號字串 (較少的前置 "+"，但包含使用者撥號對應表所完成的任何正規化) 表示通話是緊急通話。 [ **緊急撥號] 字串** 會使用戶端在通話中包含位置和回呼資訊。
   
 > [!NOTE]
-> 如果您的組織未使用外部線路存取首碼，您不需要建立對應的撥號對應表正規化規則，可在執行商務用 Skype Server 的伺服器上的呼叫輸出路由傳送呼叫之前，將 "+" 新增至911字串。「+」會因位置原則而自動加上商務用 Skype 用戶端。 不過，如果您的網站使用外部存取前置詞，您必須將正規化規則新增至適用的撥號對應表原則，以去掉外部存取前置詞並新增 "+"。 例如，如果您的位置使用外部存取前置詞9，而且使用者可撥打 9 911 撥打緊急電話，用戶端會使用其撥號對應表原則，在來電者位置設定檔中的路由評估撥號號碼之前，先將此值標準化為 + 911。 
+> 如果您的組織未使用外部線路存取首碼，您不需要建立對應的撥號對應表正規化規則，可在執行商務用 Skype Server 之伺服器上的輸出路由傳送呼叫之前，將 "+" 新增至911字串; 「+」將會自動加上商務用 Skype 用戶端，成為位置原則的結果。 不過，如果您的網站使用外部存取前置詞，您必須將正規化規則新增至適用的撥號對應表原則，以去掉外部存取前置詞並新增 "+"。 例如，如果您的位置使用外部存取前置詞9，而且使用者可撥打 9 911 撥打緊急電話，用戶端會使用其撥號對應表原則，在來電者位置設定檔中的路由評估撥號號碼之前，先將此值標準化為 + 911。 
   
  **緊急撥號字串遮罩 (E9-1-1 撥號遮罩)**
   

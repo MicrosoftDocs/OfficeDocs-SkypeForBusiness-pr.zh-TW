@@ -1,24 +1,19 @@
 ---
 title: 使用商務用 Skype Server 部署 Lync VDI 外掛程式
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: krishra
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: 本主題討論連接至遠端虛擬桌面時使用商務用 Skype 的部署程式。
-ms.openlocfilehash: 853bcfcc41d058983c0aabb2868351f1f59de08e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840565"
 ---
+
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>使用商務用 Skype Server 部署 Lync VDI 外掛程式
  
 本主題討論連接至遠端虛擬桌面時使用商務用 Skype 的部署程式。 規劃的考慮是在[VDI 環境中規劃商務用 Skype](../../plan-your-deployment/clients-and-devices/vdi-environments.md)。

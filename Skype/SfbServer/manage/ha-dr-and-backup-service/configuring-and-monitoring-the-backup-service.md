@@ -1,23 +1,18 @@
 ---
 title: 設定及監視備份服務
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 您可以使用商務用 Skype Server 管理命令介面命令來設定及監視備份服務。
-ms.openlocfilehash: 0881d40ca639edf825b0af104981ceddcab6e87a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832017"
 ---
+
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>在商務用 Skype Server 中設定及監視備份服務
 
 您可以使用下列商務用 Skype Server 管理命令介面命令來設定及監視備份服務。 若要還原儲存在前端集區之檔案存放區中的會議資訊，請參閱下面 [的使用備份服務還原會議內容](#restore-conference-contents-using-the-backup-service)。

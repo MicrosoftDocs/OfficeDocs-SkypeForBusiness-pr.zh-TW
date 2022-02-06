@@ -1,32 +1,27 @@
 ---
 title: 部署商務用 Skype Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 摘要：流覽下列連結，以瞭解如何安裝和設定商務用 Skype Server 2015，以及從舊版的 Lync Server 升級。
-ms.openlocfilehash: 67643b7f28ea3155c9867dd7a4107e4630ddab15
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863080"
 ---
+
 # <a name="deploy-skype-for-business-server-2015"></a>部署商務用 Skype Server 2015
  
-**摘要：** 流覽下列連結，以瞭解如何安裝和設定商務用 Skype Server 2015，以及從舊版的 Lync Server 升級。
+**總結：** 流覽下列連結，以瞭解如何安裝和設定商務用 Skype Server 2015，以及從舊版的 Lync Server 升級。
   
 商務用 Skype Server 提供立即訊息 (IM) 、顯示狀態、會議、影片和電話語音解決方案，可支援企業層級的共同作業需求。 本主題提供有關如何部署及設定商務用 Skype Server 的資訊連結。 
   
@@ -64,6 +59,6 @@ ms.locfileid: "60863080"
 |&nbsp;|內容|描述|
 |:-----|:-----|:-----|
 |![文檔圖示。](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[適用于 IT 專業人員的商務用 Skype Server](../../Hub/index.yml)  |流覽資源中心以存取影片、社區網站、檔、下載專案等等。   |
-|![開發人員內容的圖示。](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Skype開發人員平臺](/skype-sdk/skypedeveloperplatform)  |尋找商務用 Skype Server 的開發人員資源，包括程式碼範例、訓練與 sdk。   |
+|![開發人員內容的圖示。](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[開發人員平臺 Skype](/skype-sdk/skypedeveloperplatform)  |尋找商務用 Skype Server 的開發人員資源，包括程式碼範例、訓練與 sdk。   |
 |![新聞、博客等的圖示。](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png) | [變更管理和採用](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 部落格](https://go.microsoft.com/fwlink/p/?LinkId=528899)   <br/> [Skype 小組網路](https://go.microsoft.com/fwlink/p/?LinkId=532818)  |從建立及記錄商務用 Skype Server 的小組中追蹤新聞。   |
 

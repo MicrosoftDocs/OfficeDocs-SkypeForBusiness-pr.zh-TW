@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype 中建立或修改佇列
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: 在商務用 Skype Server 企業語音中建立或修改回應群組佇列。
-ms.openlocfilehash: 6a4eb09e144bd7381ababdf37a0905c4ea9bac06
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842425"
 ---
+
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>在商務用 Skype 中建立或修改佇列
  
 在商務用 Skype Server 企業語音中建立或修改回應群組佇列。
@@ -73,9 +68,9 @@ ms.locfileid: "60842425"
     
    - 若要將來電轉接至語音信箱，請按一下 [**轉寄至語音信箱**]，然後在 [ **sip 位址**] 欄位中輸入語音信箱位址，格式為 SIP： *\<username\>* @  *\<domainname\>* (例如，sip:bob@contoso.com) 。
     
-   - 若要將通話轉寄給另一個電話號碼，請按一下 [**轉寄給電話號碼**]，然後在 [ **sip 位址**] 欄位中，輸入以 [sip： (格式] 的電話號碼（ *\<number\>* @  *\<domainname\>* 例如，sip:+14255550121@contoso.com) ）。
+   - 若要將通話轉寄給另一個電話號碼，請按一下 [**轉寄給電話號碼**]，然後在 [ **sip 位址**] 欄位中，輸入以 [sip： *\<number\>* @  *\<domainname\>* (格式] 的電話號碼（例如，sip:+14255550121@contoso.com) ）。
     
-   - 若要將呼叫轉寄給另一位使用者，請按一下 [**轉寄給 SIP 位址**]，然後在 [ **sip 位址**] 欄位中，以 [sip：] 的格式輸入使用者的 URI _\<username\>_ @  _\<domainname\>_ 。
+   - 若要將呼叫轉寄給另一位使用者，請按一下 [**轉寄給 SIP 位址**]，然後在 [ **sip 位址**] 欄位中，以 [sip： _\<username\>_ @  _\<domainname\>_ ] 的格式輸入使用者的 URI。
     
    - 若要將通話轉接至另一個佇列，請按一下 **[轉接至其他佇列]**，然後瀏覽至想要使用的佇列。
     
@@ -91,9 +86,9 @@ ms.locfileid: "60842425"
     
    - 若要將來電轉接至語音信箱，請按一下 [**轉寄至語音信箱**]，然後在 [ **sip 位址**] 欄位中輸入語音信箱位址，格式為 SIP： *\<username\>* @  *\<domainname\>* (例如，sip:bob@contoso.com) 。
     
-   - 若要將通話轉寄給另一個電話號碼，請按一下 [**轉寄給電話號碼**]，然後在 [ **sip 位址**] 欄位中，輸入以 [sip： (格式] 的電話號碼（ *\<number\>* @  *\<domainname\>* 例如，sip:+14255550121@contoso.com) ）。
+   - 若要將通話轉寄給另一個電話號碼，請按一下 [**轉寄給電話號碼**]，然後在 [ **sip 位址**] 欄位中，輸入以 [sip： *\<number\>* @  *\<domainname\>* (格式] 的電話號碼（例如，sip:+14255550121@contoso.com) ）。
     
-   - 若要將呼叫轉寄給另一位使用者，請按一下 [**轉寄給 SIP 位址**]，然後在 [ **sip 位址**] 欄位中，以 [sip：] 的格式輸入使用者的 URI _\<username\>_ @  _\<domainname\>_ 。
+   - 若要將呼叫轉寄給另一位使用者，請按一下 [**轉寄給 SIP 位址**]，然後在 [ **sip 位址**] 欄位中，以 [sip： _\<username\>_ @  _\<domainname\>_ ] 的格式輸入使用者的 URI。
     
    - 若要將通話轉接至另一個佇列，請按一下 **[轉接至其他佇列]**，然後瀏覽至想要使用的佇列。
     

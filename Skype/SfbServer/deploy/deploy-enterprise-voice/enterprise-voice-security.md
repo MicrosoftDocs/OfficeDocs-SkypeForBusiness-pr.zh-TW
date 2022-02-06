@@ -1,31 +1,26 @@
 ---
 title: 商務用 Skype Server 中企業語音的安全性和設定必要條件
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: 摘要：瞭解商務用 Skype Server 中企業語音的安全性和設定必要條件。
-ms.openlocfilehash: 01f7be3bfe3e43d53d574632f228681be5af4ba4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839075"
 ---
+
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>商務用 Skype Server 中企業語音的安全性和設定必要條件
  
-**摘要：** 深入瞭解商務用 Skype Server 中企業語音的安全性和設定必要條件。
+**總結：** 深入瞭解商務用 Skype Server 中企業語音的安全性和設定必要條件。
   
 在部署企業語音之前，請確認您的基礎結構符合下列安全性、使用者設定及案例特有的硬體先決條件。 
   

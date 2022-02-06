@@ -1,27 +1,22 @@
 ---
 title: 編輯 Office Web Apps Server 設定
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.OfficeWebAppsServerSettingsExpander
+  - ms.lync.tb.OfficeWebAppsServerSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 您可以編輯已設定 Office Web Apps Server 的屬性。 您可以編輯下列內容：
-ms.openlocfilehash: 89c4676a5bd8e26ff269698ca4c7688c6a5c1c05
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831187"
 ---
+
 # <a name="edit-office-web-apps-server-settings"></a>編輯 Office Web Apps Server 設定
 
 您可以編輯已設定 Office Web Apps Server 的屬性。 您可以編輯下列內容：
@@ -32,7 +27,7 @@ ms.locfileid: "60831187"
 
 如果此伺服器部署在周邊網路或內部防火牆外的其他網路區域 (此防火牆會將周邊網路、不受信任的網路及網際網路與您的內部部署分隔開來)，請選取 [Office Web Apps Server 部署在外部網路上] 核取方塊。
 
-![OfficeWeb 應用程式設定展開器。](../../../media/OfficeWebApps_Settings_Expander.jpg)
+![Office Web 應用程式設定展開器。](../../../media/OfficeWebApps_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>另請參閱
 

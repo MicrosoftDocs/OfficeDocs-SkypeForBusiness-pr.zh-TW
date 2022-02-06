@@ -1,27 +1,22 @@
 ---
 title: 封存設定建立新的或編輯現有
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.MonArchSettingEdit
+  - ms.lync.lscp.MonArchSettingEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 您可以使用封存設定來控制部署的封存選項。 封存組態除了包含全域設定之外，也可能包含一或多個網站設定與集區設定：
-ms.openlocfilehash: 145d86cce250204a219bd9e983a07765259b9144
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831517"
 ---
+
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>封存組態：建立新的或編輯現有
  
 您可以使用封存設定來控制部署的封存選項。 封存組態除了包含全域設定之外，也可能包含一或多個網站設定與集區設定：
@@ -30,13 +25,13 @@ ms.locfileid: "60831517"
     
 - **網站設定 (選用)** 您可以指定一或多個網站封存設定，每個網站封存設定可用於控制特定網站的封存選項。 網站設定會覆寫全域設定，但僅限於在封存網站設定中指定的網站。 您可以編輯或刪除網站設定。
     
-- **集區設定 (選用)** 您可以指定一或多個集區封存設定，以控制特定集區的封存選項。 集區設定優先於全域設定與網站設定，但僅限於封存集區設定中所指定的集區。 您可以編輯或刪除集區設定。
+- 集區設定 **(選用)** 您可以指定一或多個集區封存設定，以控制特定集區的封存選項。 集區設定優先於全域設定與網站設定，但僅限於封存集區設定中所指定的集區。 您可以編輯或刪除集區設定。
     
 > [!NOTE]
 > 封存設定會套用至位於商務用 Skype Server 的使用者，而且，如果您啟用 microsoft Exchange 整合 Exchange 選項，將 microsoft Exchange 中的封存資料儲存在 Exchange 上的使用者。 不過，對於位於 Exchange 的使用者而言，有些選項的執行效果稍有不同，如下一節所述。 
   
 若要設定現有或新的封存組態，請指定下列選項：
-- **名稱** 每個封存設定都需要名稱。 其名稱取決於您要新增或編輯的設定類型：
+- **名字** 每個封存設定都需要名稱。 其名稱取決於您要新增或編輯的設定類型：
     
   - **通用** 設定預設名稱為 Global。 例如：Contoso 北美組織。
     
@@ -62,7 +57,7 @@ ms.locfileid: "60831517"
     
     IM 和會議會在失敗更正後自動復原。
     
-- **Microsoft Exchange 整合** 如果您擁有位於 Exchange 的使用者，請選取此選項。 使用此選項時，如果使用者的信箱處於 In-Place 保留狀態，Exchange 會用來儲存這些使用者的資料。 如果您的所有使用者都位於 Exchange，您不需要設定個別的 SQL Server 資料庫來儲存封存資料。
+- **Microsoft Exchange 整合** 如果您擁有位於 Exchange 上的使用者，請選取此選項。 使用此選項時，如果使用者的信箱處於 In-Place 保留狀態，Exchange 會用來儲存這些使用者的資料。 如果您的所有使用者都位於 Exchange，您不需要設定個別的 SQL Server 資料庫來儲存封存資料。
     
 - **啟用封存資料的清除** 選取此選項可啟用清除並指定清除選項，包括下列專案：
     

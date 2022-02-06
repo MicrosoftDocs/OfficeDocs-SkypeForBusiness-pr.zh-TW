@@ -1,7 +1,7 @@
 ---
 title: 針對您的採用排程服務健康Microsoft Teams評論
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -12,21 +12,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在採用時使用服務健康情況Teams共用使用方式、健康情況、功能/專案藍圖及其他更新的深入見解。
 f1.keywords:
-- CSH
+  - CSH
 ms.custom: Adopt
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
-- seo-marvel-apr2020
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
+  - seo-marvel-apr2020
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 3c59aa7777fd37228dbada179bae0fac199e36c4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865471"
+  - Microsoft Teams
 ---
+
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>針對您的採用排程服務健康Microsoft Teams評論
 
 在技術執行小組的配合下，規劃每月為 Teams。 在這些評論中，您將分享下列措施的深入見解：

@@ -1,27 +1,22 @@
 ---
 title: 舊版合併 SIP 連接埠
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.LegacyMergeSipPortPage
+  - ms.lync.tb.LegacyMergeSipPortPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
-ROBOTS: NOINDEX, NOFOLLOW
-description: 與用戶端、舊版的前端集區及伺服器進行通訊的預設傳輸控制通訊協定 (TCP) SIP 連接埠為連接埠 5061。如果沒有使用預設值，則選取 [所有集區和伺服器的 SIP 連接埠:] 並輸入新值。
-ms.openlocfilehash: fc91bd1acfacb5b9b32ffb7a840b8f5d5e8dfb3f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860620"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: '與用戶端、舊版的前端集區及伺服器進行通訊的預設傳輸控制通訊協定 (TCP) SIP 連接埠為連接埠 5061。如果沒有使用預設值，則選取 [所有集區和伺服器的 SIP 連接埠:] 並輸入新值。'
 ---
+
 # <a name="legacy-merge-sip-port"></a>舊版合併 SIP 連接埠
  
 與用戶端、舊版的前端集區及伺服器進行通訊的預設傳輸控制通訊協定 (TCP) SIP 連接埠為連接埠 5061。如果沒有使用預設值，則選取 [所有集區和伺服器的 SIP 連接埠:] 並輸入新值。

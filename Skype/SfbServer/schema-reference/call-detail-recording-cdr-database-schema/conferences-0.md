@@ -1,25 +1,20 @@
 ---
 title: 會議視圖
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c0e5c4db-c135-401f-9296-e9a49f6499a1
 description: 會議視圖會儲存會議的相關資訊。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 500a03e85a3339d28227a5b65d5a3c206fc34723
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828626"
 ---
+
 # <a name="conferences-view"></a>會議視圖
  
 會議視圖會儲存會議的相關資訊。 此視圖已引進于 Microsoft Lync Server 2013。

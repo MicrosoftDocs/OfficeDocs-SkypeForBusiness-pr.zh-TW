@@ -1,31 +1,26 @@
 ---
 title: 在商務用 Skype 中查看 PSTN 使用方式記錄
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台或商務用 Skype Server 管理命令介面來查看 PSTN 使用方式記錄。
-ms.openlocfilehash: f5da972c6a8403a89764433c898c8717dd0630a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850386"
 ---
+
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>在商務用 Skype 中查看 PSTN 使用方式記錄
 
-**摘要：** 瞭解如何使用商務用 Skype Server 控制台] 或「商務用 Skype Server 管理命令介面來查看 PSTN 使用方式記錄。
+**總結：** 瞭解如何使用商務用 Skype Server 控制台] 或「商務用 Skype Server 管理命令介面來查看 PSTN 使用方式記錄。
 
 公用交換電話網路 (PSTN) 使用方式記錄會指定呼叫類別 (例如內部、本機或長途) ，可由組織中的各種使用者或使用者群組進行。 如需詳細資訊，請參閱規劃文件中的 [PSTN Usage Records](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-usage-records)。
 

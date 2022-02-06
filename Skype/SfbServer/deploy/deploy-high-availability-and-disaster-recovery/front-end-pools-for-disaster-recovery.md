@@ -1,24 +1,19 @@
 ---
 title: 在商務用 Skype Server 中為嚴重損壞修復部署成對的前端集區
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: 您可以決定使用成對的前端集區來提供嚴重損壞修復保護，但這不是必要條件。
-ms.openlocfilehash: 27909f44f0d86cac3100437f7df094b5f72ba1be
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855097"
 ---
+
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>在商務用 Skype Server 中為嚴重損壞修復部署成對的前端集區
  
 您可以決定使用成對的前端集區來提供嚴重損壞修復保護，但這不是必要條件。

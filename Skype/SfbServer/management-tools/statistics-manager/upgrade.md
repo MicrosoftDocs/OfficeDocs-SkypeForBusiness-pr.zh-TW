@@ -1,28 +1,23 @@
 ---
 title: 升級商務用 Skype Server 統計資料
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 摘要：閱讀此主題以瞭解如何升級商務用 Skype Server 的統計資料管理員。
-ms.openlocfilehash: 297da8efc1259c1128fd0d60584e1db761465217
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857330"
 ---
+
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>升級商務用 Skype Server 統計資料
  
-**摘要：** 閱讀此主題以瞭解如何升級商務用 Skype Server 的統計資料管理員。
+**總結：** 閱讀此主題以瞭解如何升級商務用 Skype Server 的統計資料管理員。
   
 本主題說明如何升級商務用 Skype Server 的統計資料管理員現有安裝，這是一種強大的工具，可讓您即時查看商務用 Skype Server 健康情況與效能資料。 您可以每隔幾秒輪詢每數百部伺服器上的效能資料，並在統計資料管理員網站上立即查看結果。 
   

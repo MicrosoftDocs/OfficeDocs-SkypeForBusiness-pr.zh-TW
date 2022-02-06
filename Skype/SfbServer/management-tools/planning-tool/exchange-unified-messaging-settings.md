@@ -1,27 +1,22 @@
 ---
-title: Exchange整合通訊設定規劃工具
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Exchange 整合通訊設定規劃工具
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.ExchagneUMSettings
-- ms.lync.plan.ExchagneUMSettings
+  - ms.lync.plan.ExchagneUMSettings
+  - ms.lync.plan.ExchagneUMSettings
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d4c4a5d9-1523-49ff-b994-882b037ed46f
 description: 商務用 Skype Server 2015 支援與 Exchange 整合通訊的整合，以結合語音訊息與電子郵件訊息到單一郵件基礎結構。
-ms.openlocfilehash: 7dd02b4bf7a9ce0046608f24b505ae0456f65e6c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830817"
 ---
-# <a name="exchange-unified-messaging-settings-planning-tool"></a>Exchange整合通訊設定規劃工具
+
+# <a name="exchange-unified-messaging-settings-planning-tool"></a>Exchange 整合通訊設定規劃工具
 
 商務用 Skype Server 2015 支援與 Exchange 整合通訊 (UM) 整合，以結合語音訊息與電子郵件訊息到單一郵件基礎結構。
 

@@ -1,28 +1,23 @@
 ---
 title: 疑難排解商務用 Skype Server 統計資料
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 摘要：閱讀本主題，以疑難排解商務用 Skype Server 的統計資料管理員部署。
-ms.openlocfilehash: 6e6edefe8d6070a917f817b3b6d79bf35ff36599
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857340"
 ---
+
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>疑難排解商務用 Skype Server 統計資料
  
-**摘要：** 閱讀此主題以疑難排解商務用 Skype Server 的統計資料管理員部署。
+**總結：** 閱讀此主題以疑難排解商務用 Skype Server 的統計資料管理員部署。
   
 本主題說明如何透過描述您在應用程式事件記錄檔中看到的事件來疑難排解您的統計資料管理員部署，以及您可能採取的適當動作以修正事件。 本主題包含下列各節：
   

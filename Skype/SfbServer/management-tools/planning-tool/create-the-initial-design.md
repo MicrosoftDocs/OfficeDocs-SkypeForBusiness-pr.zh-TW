@@ -1,26 +1,21 @@
 ---
 title: 建立商務用 Skype Server 2015 的初始拓撲設計
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: 在您完成商務用 Skype Server 規劃工具的安裝之後，就可以開始規劃工具及開始設計擬議中的商務用 Skype Server 2015 基礎結構。
-ms.openlocfilehash: 85bbab87696f01e00ccbd9b5e413329a52a7cd22
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863480"
 ---
+
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>建立商務用 Skype Server 2015 的初始拓撲設計
 
 在您完成商務用 Skype Server 規劃工具的安裝之後，就可以開始規劃工具及開始設計擬議中的商務用 Skype Server 2015 基礎結構。
@@ -34,7 +29,7 @@ ms.locfileid: "60863480"
 
 2. 在規劃工具開始之後，就會出現 [**歡迎使用商務用 Skype Server 2015 的規劃工具**] 頁面。 選擇下列其中一個選項來開始您的設計：
 
-   - **選項1：入門** 按一下 [**入門** 會提供特定系列的採訪問題，以及相關選擇以定義準則。 完成初始 **入門** 面試區段之後，您可以繼續進行 **設計網站**，以定義網站架構。 若要完成此選項，請繼續進行步驟3。
+   - **選項1：入門** 按一下 **入門** 會提供特定系列的採訪問題，以及相關選擇以定義準則。 完成初始 **入門** 面試區段之後，您可以繼續進行 **設計網站**，以定義網站架構。 若要完成此選項，請繼續進行步驟3。
 
    - **選項2：設計網站** 按一下 [歡迎] 頁面上的 [**設計網站**]，便不會略過 **入門** 區段中所述的面試問題。 使用此選項，以回應 **入門** 區段中的面試問題來收集的資訊會設定為預設值。 透過按一下 [ **設計網站**]，經驗豐富的設計者可以略過初次面試，並視需要在 [ **中央網站** 開始] 頁面上變更預設值。 若要完成此選項，請略過步驟3-5，並從步驟6開始。
 

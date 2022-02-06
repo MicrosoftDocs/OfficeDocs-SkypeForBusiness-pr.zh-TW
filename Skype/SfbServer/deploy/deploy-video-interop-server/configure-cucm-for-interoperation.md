@@ -1,28 +1,23 @@
 ---
 title: 設定 CUCM 以與商務用 Skype Server 進行交互操作
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 摘要：設定 CUCM 以使用商務用 Skype Server。
-ms.openlocfilehash: 2e5e2cfc207fd9c4e52f7cd4da553dc756fddb4c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863090"
 ---
+
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>設定 CUCM 以與商務用 Skype Server 進行交互操作
  
-**摘要：** 設定 CUCM 以使用商務用 Skype Server。
+**總結：** 設定 CUCM 以使用商務用 Skype Server。
   
 > [!CAUTION]
 > 這項功能是透過 Cisco 整合通訊管理員 (CallManager，或是 CUCM) 版本10.5，只使用主幹安裝 over TCP 進行測試。 在繼續之前，請確認 CUCM 環境符合這些準則。 
@@ -101,7 +96,7 @@ ms.locfileid: "60863090"
     
 20. 完成後，按一下 [ **新增**]。
     
-21. 流覽至 Cisco 統一 CM 管理- \> 通話路由 \> 傳送/尋找路由 \> 模式。
+21. 流覽至 Cisco 統一 CM 管理- \> 通話路由 \> 傳送/尋找 \> 路由模式。
     
 22. 在 [路由模式設定] 畫面中，輸入如下所示的模式定義參數。 向下滾動至「所叫的協力廠商轉換」區段，然後設定遮罩為 [已顯示]，然後在完成時按一下 [ **新增** ]。
     

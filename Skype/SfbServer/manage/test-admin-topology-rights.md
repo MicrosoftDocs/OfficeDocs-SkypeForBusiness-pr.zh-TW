@@ -1,23 +1,18 @@
 ---
 title: 測試商務用 Skype Server 中的系統管理員拓撲權力
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 如何在商務用 Skype Server 中測試拓撲權力
-ms.openlocfilehash: 6f4eed0271d9dd6d099d19287f7caa37148f6026
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861310"
 ---
+
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>測試商務用 Skype Server 中的系統管理員拓撲權力
 
 |&nbsp; |&nbsp; |
@@ -45,7 +40,7 @@ Test-CsSetupPermission Cmdlet 會驗證安裝商務用 Skype Server 或其元件
 
 如果 Test-CsSetupPermission 判斷已經在 Active Directory 容器上設定必要的許可權，則 Cmdlet 會傳回值 True：
 
-對 
+True 
 
 如果未設定許可權，Test-CsSetupPermission 會傳回值 False。 請注意，此值通常會包含在許多警告訊息中。 例如：
 

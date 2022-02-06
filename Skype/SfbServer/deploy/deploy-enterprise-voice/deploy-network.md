@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype 中部署網路地區、網站和子網
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
 description: 在商務用 Skype Server 中建立或修改網路地區、網路網站和關聯網路子網。 所有這些都是用於高級企業語音功能：媒體旁路、通話許可控制和位置基礎路由。
-ms.openlocfilehash: 4d726466153f30b7c5fdd3ac478b1b2444838ae6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856300"
 ---
+
 # <a name="deploy-network-regions-sites-and-subnets-in-skype-for-business"></a>在商務用 Skype 中部署網路地區、網站和子網
 
 在商務用 Skype Server 中建立或修改網路地區、網路網站和關聯網路子網。 所有這些都是用於高級企業語音功能：媒體旁路、通話許可控制和位置基礎路由。

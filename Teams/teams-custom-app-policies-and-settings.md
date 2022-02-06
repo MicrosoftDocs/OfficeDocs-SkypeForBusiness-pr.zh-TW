@@ -1,7 +1,7 @@
 ---
 title: 管理自訂應用程式策略和設定
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: akino
 ms.topic: article
@@ -9,37 +9,32 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何管理自訂應用程式策略和設定，以控制組織中誰可以在 Microsoft Teams 中上傳自訂Microsoft Teams。
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-- ms.teamsadmincenter.appsetuppolicies.allowsideloading
-- ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
-- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-- seo-marvel-mar2020
-ms.openlocfilehash: 7de43868b4e42df77ec7b867f5842fdab0d99716
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855147"
+  - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+  - ms.teamsadmincenter.appsetuppolicies.allowsideloading
+  - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
+  - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+  - seo-marvel-mar2020
 ---
+
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在應用程式中管理自訂應用程式Microsoft Teams
 
 > [!NOTE]
-> 若要使用 App Studio，請參閱在 Microsoft Teams 平臺上開始使用[C#/.NET](/microsoftteams/platform/get-started/get-started-dotnet-app-studio)和 App Studio 的最後一個步驟尚未執行，因此您必須下載 zip，然後以舊方式在 Upload 應用程式套件安裝至[Microsoft Teams。](/microsoftteams/platform/concepts/apps/apps-upload)
+> 若要使用 App Studio，請參閱在 Microsoft Teams 平臺上開始使用[C#/.NET 和 App Studio](/microsoftteams/platform/get-started/get-started-dotnet-app-studio)：最後一個步驟尚未執行，因此您必須下載 zip，然後以舊方式在 Upload 應用程式套件安裝至[Microsoft Teams](/microsoftteams/platform/concepts/apps/apps-upload)。
 
 做為系統管理員，您可以使用自訂應用程式策略和設定來控制組織中誰可以上傳自訂應用程式Microsoft Teams。 系統管理員會決定哪些使用者可以上傳自訂應用程式，而系統管理員和團隊擁有者可以判斷貴組織的特定團隊是否允許將自訂應用程式新加入他們。  編輯自訂應用程式策略之後，可能需要幾個小時，變更才能生效。 您必須是全域系統管理員或 Teams 服務系統管理員，才能管理這些原則。
 
 ## <a name="overview-of-custom-apps"></a>自訂應用程式概觀
 
-使用者可以將自訂應用程式新增Teams，將應用程式套件 (至.zip檔案) 直接上傳至小組或個人內容。 這和透過應用程式商店新增應用程式的方式Teams不同。 上傳應用程式套件來新增自訂應用程式 ，也稱為側載功能，可讓您在應用程式準備好廣泛發佈之前，先測試正在開發中的應用程式。 它也可讓您建立僅供內部使用的應用程式，並與小組共用，而不將應用程式提交至 Teams App store Teams目錄。
+使用者可以直接將應用程式套件Teams或個人 (檔案.zip應用程式套件) 新增到應用程式。 這和透過應用程式商店新增應用程式的方式Teams不同。 上傳應用程式套件來新增自訂應用程式 ，也稱為側載功能，可讓您在應用程式準備好廣泛發佈之前，先測試正在開發中的應用程式。 它也可讓您建立僅供內部使用的應用程式，並與小組共用，而不將應用程式提交至 Teams App store Teams目錄。
 
 ![顯示 App Store 中上傳自訂應用程式選項的螢幕擷取畫面。](media/teams-custom-app-policy-and-settings-upload-app.png)
 
@@ -72,7 +67,7 @@ ms.locfileid: "60855147"
 
 #### <a name="set-a-user-custom-app-policy"></a>設定使用者自訂應用程式策略
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往 Teams **設定**  >  **政策**。
+1. 在系統管理中心的左側導Microsoft Teams，請前往 **Teams Setup**  >  **政策**。
 2. 按一下 [新增 **]**。
 3. 開啟或關閉自訂 **Upload應用程式**。
 4. 選擇您想要用於該策略的其他任何設定。
@@ -95,7 +90,7 @@ ms.locfileid: "60855147"
 #### <a name="configure-the-team-custom-app-setting"></a>設定小組自訂應用程式設定
 
 1. 在 Teams，請前往團隊，按一下 [**更多選項 1 12 月 13**  >  **日管理小組**。
-2. 按一下 **設定**，然後展開 **[成員許可權**> 。
+2. 按一下 **設定**，然後展開 **成員許可權**。
 3. 選取或清除允許 **成員上傳自訂應用程式** 核取方塊。
 
     ![顯示小組自訂應用程式設定之螢幕擷取畫面。](media/teams-custom-app-policy-and-settings-team.png)
@@ -107,8 +102,8 @@ ms.locfileid: "60855147"
 #### <a name="configure-the-org-wide-custom-app-setting"></a>設定全組織自訂應用程式設定
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
-2. 按一下 **[全組織應用程式設定>**。
-3. 在 **自訂應用程式下**，開啟或關閉允許 **與自訂應用程式互動**。
+2. 按一下 **[全組織應用程式設定**。
+3. 在 **自訂應用程式** 下，開啟或關閉允許 **與自訂應用程式互動**。
 
     ![顯示全組織自訂應用程式設定之螢幕擷取畫面。](media/teams-custom-app-policy-and-settings-org-wide.png)
 
@@ -120,7 +115,7 @@ ms.locfileid: "60855147"
 
 - 開啟 **系統管理中心** 中的允許與自訂應用程式Microsoft Teams設定。
 - 關閉允許 **成員針對** 您想要限制存取的每一個團隊上傳自訂應用程式。
-- 在系統管理中心建立並Microsoft Teams自訂應用程式設定，Upload **開啟** 自訂應用程式設定，並將它指派給團隊擁有者。
+- 在系統管理中心建立並指派自訂Microsoft Teams設定，Upload **開啟** 自訂應用程式設定，並將它指派給團隊擁有者。
 
 |全組織自訂應用程式設定 |小組自訂應用程式設定 |使用者自訂應用程式策略 |影響  |
 |---------|---------|---------|---------|

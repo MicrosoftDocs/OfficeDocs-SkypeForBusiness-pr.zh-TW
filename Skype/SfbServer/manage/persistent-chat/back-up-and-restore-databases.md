@@ -1,28 +1,23 @@
 ---
 title: 備份及還原商務用 Skype Server 2015 中的持久聊天資料庫
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 4f2b689b-7f15-48dc-a069-da7bc8527def
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中備份及還原 Persistent Chat Server 資料庫。
-ms.openlocfilehash: 3c294a33a82a9279e05e1d69e48b531f8b85e3c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841165"
 ---
+
 # <a name="back-up-and-restore-persistent-chat-databases-in-skype-for-business-server-2015"></a>備份及還原商務用 Skype Server 2015 中的持久聊天資料庫
  
-**摘要：** 瞭解如何在商務用 Skype Server 2015 中備份及還原 Persistent Chat Server 資料庫。
+**總結：** 瞭解如何在商務用 Skype Server 2015 中備份及還原 Persistent Chat Server 資料庫。
   
 Persistent chat Server 需要 SQL Server 資料庫軟體才能儲存聊天室資料，例如歷史和內容、設定、使用者布建及其他相關的中繼資料。 此外，如果貴組織的法規要求封存持續聊天活動，且已啟用選用規範服務，SQL Server 資料庫軟體是用來儲存規範資料（包括聊天內容和事件，例如加入和離開聊天室）。 聊天室內容會儲存在 Persistent Chat database (mgc) 中。 規範資料儲存在規範資料庫中 (mgccomp) 。 這是應該定期備份的重要業務資料。 
   
@@ -33,7 +28,7 @@ Persistent chat Server 需要 SQL Server 資料庫軟體才能儲存聊天室資
 
 有兩種方式可以備份 Persistent 聊天資料。 
   
-- SQL Server備份
+- SQL Server 備份
     
 - **Export-CsPersistentChatData** Cmdlet，可將 Persistent 聊天資料匯出為檔案
     

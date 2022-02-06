@@ -1,28 +1,23 @@
 ---
 title: 商務用 Skype 中群組呼叫裝貨的部署程式
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
 description: 商務用 Skype Server 企業語音中群組通話挑選的部署程式與步驟。
-ms.openlocfilehash: 9debddc22b536ed65578916d0db303ca34146b4b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857930"
 ---
+
 # <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>商務用 Skype 中群組呼叫裝貨的部署程式
  
 商務用 Skype Server 企業語音中群組通話挑選的部署程式與步驟。

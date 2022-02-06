@@ -1,25 +1,20 @@
 ---
 title: 常設聊天室資料庫結構描述
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: 這會在商務用 Skype Server 中記錄 Persistent Chat 資料庫的架構。
-ms.openlocfilehash: 862adace22d04e93b226545247a5d2bd8a89d9cc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858150"
 ---
+
 # <a name="persistent-chat-database-schema"></a>常設聊天室資料庫結構描述
  
 這會在商務用 Skype Server 中記錄 Persistent Chat 資料庫的架構。
@@ -31,7 +26,7 @@ Persistent Chat 資料庫是指對應于商務用 Skype Server 後端伺服器�
   
 請遵循以下最佳做法：
   
-- \*因為 column 清單可能會成長，所以不支援 SELECT//。
+- 因為 column 清單可能會成長，所以不支援 SELECT \* //。
     
 - 不支援使用者產生的結構描述修改。
     

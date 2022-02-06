@@ -1,27 +1,22 @@
 ---
 title: 定義常設聊天室集區的屬性與選項
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPersistentChatOptionsPage
+  - ms.lync.tb.AddPersistentChatOptionsPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 您可以透過定義下列內容，來設定 Persistent Chat Server 或 Persistent Chat Server 集區的選項：
-ms.openlocfilehash: 72afab6d9c74f2347bd14a4d597cf82525c11b48
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851307"
 ---
+
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>定義常設聊天室集區的屬性與選項
  
 您可以透過定義下列內容，來設定 Persistent Chat Server 或 Persistent Chat Server 集區的選項：
@@ -37,7 +32,7 @@ ms.locfileid: "60851307"
 > [!NOTE]
 > 此選項僅適用于具有多部伺服器的集區。 
   
- **使用此集區作為 \<site that this server or pool is being configured in\> 網站的預設值**：如果這會是網站的預設 persistent Chat Server 或 persistent chat server 集區，請選取此核取方塊。 每個網站必須有一個預設的持久聊天伺服器或 pol。
+ **使用此集區作為網站 \<site that this server or pool is being configured in\> 的預設值**：如果這會是網站的預設 persistent Chat Server 或 persistent chat server 集區，請選取此核取方塊。 每個網站必須有一個預設的持久聊天伺服器或 pol。
   
 > [!NOTE]
 > 如果拓撲包含多個網站，也會顯示 [ **使用此集區作為所有網站的預設值** ] 核取方塊。

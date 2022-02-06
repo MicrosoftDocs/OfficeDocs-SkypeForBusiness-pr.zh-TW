@@ -1,28 +1,23 @@
 ---
 title: 商務用 Skype Server 2019 管理工具
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：瞭解商務用 Skype Server 2019 中的服務管理工具。
-ms.openlocfilehash: 72b5f9a704aa57a9550bf3f0da3145a8a0c3b931
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848056"
 ---
+
 # <a name="skype-for-business-server-2019-management-tools"></a>商務用 Skype Server 2019 管理工具
  
-**摘要：** 深入瞭解商務用 Skype Server 2019 中的服務管理工具。
+**總結：** 深入瞭解商務用 Skype Server 2019 中的服務管理工具。
   
 商務用 Skype Server 2019 提供立即訊息 (IM) 、顯示狀態、會議及電話語音解決方案，以支援企業層級的共同作業需求。 管理這些服務的工具既靈活又強大。
   

@@ -1,25 +1,20 @@
 ---
 title: 商務用 Skype Server 2015 中的 FrontEnd 表格
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8207af80-41fa-4bec-9523-b0332e8231d9
 description: FrontEnd 表格僅供內部使用。 此表格已引進 Microsoft Lync Server 2013。
-ms.openlocfilehash: 63c4317ee2062be967d3771635cbd3dd6e6e747d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847156"
 ---
+
 # <a name="frontend-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 FrontEnd 表格
  
 FrontEnd 表格僅供內部使用。 此表格已引進 Microsoft Lync Server 2013。

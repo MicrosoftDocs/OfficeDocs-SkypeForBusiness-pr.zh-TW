@@ -1,25 +1,20 @@
 ---
 title: 商務用 Skype Server 2015 資源套件工具檔
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/20/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b1c341f1-86fa-479d-ba4d-28df5a4c1622
 description: 本文說明商務用 Skype Server 2015 資源套件中的工具，包含每個工具的目的，以及其用途的範例。 商務用 Skype Server 2015 資源套件可協助 IT 系統管理員部署及管理商務用 Skype Server 2015，使日常工作變得更容易。 例如，網路會議資料工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 SEFAUtil 工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具更有效率地管理商務用 Skype Server 2015。
-ms.openlocfilehash: 04e66f19219291ef851b50af15dd796d36d44afb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857450"
 ---
+
 # <a name="skype-for-business-server-2015-resource-kit-tools-documentation"></a>商務用 Skype Server 2015 資源套件工具檔
 
 本文說明商務用 Skype Server 2015 資源套件中的工具，包含每個工具的目的，以及其用途的範例。 商務用 Skype Server 2015 資源套件可協助 IT 系統管理員部署及管理商務用 Skype Server 2015，使日常工作變得更容易。 例如，網路會議 **資料** 工具可以用來輕鬆控制使用者在線上會議期間上傳的資料。 **SEFAUtil** 工具可以用來設定使用者的代理人來電轉接和應答。 我們鼓勵 IT 管理員使用這些工具更有效率地管理商務用 Skype Server 2015。
@@ -262,7 +257,7 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂商�
 
 下列是使用者可以指定的檔案目錄，如圖所示。
 
-- **伺服器記錄檔位置** 儲存頻寬原則伺服器記錄的資料夾位置。 這通常是 \<fileserver\> \\<選擇的 FE \> \AppServerFiles\PDP。
+- **伺服器記錄檔位置** 儲存頻寬原則伺服器記錄的資料夾位置。 這通常 \<fileserver\> \\ 是<選擇的 FE \> \AppServerFiles\PDP。
 
 - **暫存檔儲存位置** 產生報告時儲存中間檔案的暫存檔案位置。
 
@@ -306,7 +301,7 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂商�
 
 ![在報表檢視中套用篩選器。](../media/Reskit_2012_Tools_Documentation_Image11.jpg)
 
-1. **名稱** 依 WAN 連結篩選 (篩選位於圖形) 右側。 前置詞表示下列連結類型;請參閱垂直 (blue) 方塊：
+1. **名字** 依 WAN 連結篩選 (篩選位於圖形) 右側。 前置詞表示下列連結類型;請參閱垂直 (blue) 方塊：
 
    - **S 網站** 從網路網站到網路地區的 WAN 連結
 
@@ -389,7 +384,7 @@ ABSConfig 工具可讓系統管理員快速快捷地使用工具，以自訂商�
 
 - **-f** 參數--列出集區中目前可用的軌道的數目。
 
-- **-r \<n\>** 參數-列出 \<n\> 最後一個寄存的呼叫。 顯示的資訊如下：
+- **-r \<n\>** 參數-列出最後一個寄存的 \<n\> 呼叫。 顯示的資訊如下：
 
   - Parkee SIP URI。
 
@@ -450,7 +445,7 @@ Integrated Security=false;"/>
 
 ![空閒的軌道式按呼叫 Call parkometer。](../media/Reskit_2012_Tools_Documentation_Image20.jpg)
 
-最近寄存的通話：-r \<n\> 參數會列出 \<n\> 最後一個寄存的呼叫，如圖所示。
+最近寄存的通話：-r \<n\> 參數會列出最後一個寄存的 \<n\> 呼叫，如圖所示。
 
 ![通話 Call parkometer 中最近寄存的通話。](../media/Reskit_2012_Tools_Documentation_Image21.jpg)
 
@@ -551,7 +546,7 @@ ImportStorageServiceData 資源工具組工具允許從儲存體服務中清除�
 
 ### <a name="requirements"></a>需求
 
-安裝2015資源套件工具商務用 Skype Server。 工具會在已加入網域的電腦上執行，並安裝商務用 Skype Server 和商務用 Skype Server 管理命令介面。 該工具會使用來自管理命令介面的 Cmdlet，識別集區中的所有 Front-End 伺服器。 其次，必須從已安裝 **RtcLocal** 資料庫的集區中的機器執行工具。 此資料庫由工具使用，以取得集區的 WEBSERVICE 檔案共用的位置。 此外，在使用此工具之前，每個 Front-End 伺服器都必須先在每個 Front-End 伺服器上使用 **Enable-PSRemoting** 來啟用 Windows PowerShell 遠端，以及執行該工具的機器。 否則，來自此工具的遠端 Windows PowerShell 命令將會失敗。 Windows PowerShell完成後，集區中的所有 Front-End 伺服器都可以關閉遠端處理。 最後，開啟工具的帳戶或憑證必須具有可讀取/寫入權限給其在其上執行此工具的集區。 否則，該工具會失敗，並顯示 IO 許可權錯誤。
+安裝2015資源套件工具商務用 Skype Server。 工具會在已加入網域的電腦上執行，並安裝商務用 Skype Server 和商務用 Skype Server 管理命令介面。 該工具會使用來自管理命令介面的 Cmdlet，識別集區中的所有 Front-End 伺服器。 其次，必須從已安裝 **RtcLocal** 資料庫的集區中的機器執行工具。 此資料庫由工具使用，以取得集區的 WEBSERVICE 檔案共用的位置。 此外，在使用此工具之前，每個 Front-End 伺服器都必須先在每個 Front-End 伺服器上使用 **Enable-PSRemoting** 來啟用 Windows PowerShell 遠端，以及執行該工具的機器。 否則，來自此工具的遠端 Windows PowerShell 命令將會失敗。 在完成後，集區中的所有 Front-End 伺服器都可以關閉 Windows PowerShell 遠端處理。 最後，開啟工具的帳戶或憑證必須具有可讀取/寫入權限給其在其上執行此工具的集區。 否則，該工具會失敗，並顯示 IO 許可權錯誤。
 
 > [!NOTE]
 > 在 Windows Server 2012 上，Windows PowerShell 遠端處理會預設為啟用，但不會在 Windows Server 2008 作業系統上啟用。
@@ -876,7 +871,7 @@ MsTurnPing -ServerRole BandwidthPolicyServer
 
 ### <a name="examples"></a>範例
 
- **以圖形格式從商務用 Skype Server 2015 部署中載入和查看 cac 網路拓撲**：商務用 Skype Server 2015 系統管理員可以使用 **下載網路** 設定選項，在任何商務用 Skype Server 2015 電腦上載入和查看 cac 網路拓撲設定，如下圖所示。 在未連接至商務用 Skype Server 2015 設定儲存區的電腦上部署時，工具將無法下載或查看此類設定。
+ **以圖形格式從商務用 Skype Server 2015 部署中載入和查看 cac 網路拓撲**：商務用 Skype Server 2015 系統管理員可以使用 [**下載網路** 設定] 選項，在任何商務用 Skype Server 2015 電腦上載入和查看 cac 網路拓撲設定，如圖所示。下面。 在未連接至商務用 Skype Server 2015 設定儲存區的電腦上部署時，工具將無法下載或查看此類設定。
 
 ![下載網路設定。](../media/Reskit_2012_Tools_Documentation_Image23.jpg)
 
@@ -1483,9 +1478,9 @@ SYSPrep.ps1 是 Windows PowerShell 腳本，它會在您的 Windows Server 2008 
 
 未指派號碼宣告遷移腳本可用於下列三種情況：
 
-- **將設定設定遷移至新版本的商務用 Skype Server：** Contoso 正在遷移至商務用 Skype Server 2015，並做為遷移程式的一部分，商務用 Skype Server 管理員想要將宣告應用程式所提供的未指派號碼設定從 Lync Server 2013 部署移動到新的商務用 Skype Server 2015 部署。 商務用 Skype Server 管理員使用「未指派的號碼宣告遷移」工具來移動設定設定。
+- 將 **設定商務用 Skype Server 遷移至新版本的：** Contoso 正在遷移至商務用 Skype Server 2015，並在遷移過程中做為遷移的一部分商務用 Skype Server 管理員想要將宣告應用程式所提供的未指派號碼設定從 Lync Server 2013 部署移動至新的商務用 Skype Server 2015 部署。 商務用 Skype Server 管理員使用「未指派的號碼宣告遷移」工具來移動設定設定。
 
-- **從商務用 Skype Server 2015 向 Lync Server 2013 復原部署：** 由於非預期的因素，Contoso 必須將遷移移至新的商務用 Skype Server 2015 部署。 為了將中斷服務的中斷降至最低，商務用 Skype Server 管理員會使用「未指派的號碼宣告遷移」工具，將設定從商務用 Skype Server 2015 部署復原至 Lync Server 2013 部署。
+- **將部署從商務用 Skype Server 2015 復原至 Lync Server 2013：** 由於未預期的因素，Contoso 必須將遷移移至新的商務用 Skype Server 2015 部署。 為了將中斷服務的中斷降至最低，商務用 Skype Server 管理員會使用「未指派的號碼宣告遷移」工具，將設定從商務用 Skype Server 2015 部署復原至 Lync Server 2013 部署。
 
 - **在部署之間移動資料：** Contoso 正在將一個集區的所有伺服器取代為更新的伺服器。 其策略是部署新的商務用 Skype Server 2015 集區、將舊資料移至新集區，然後取代舊的集區。 部署新集區之後，就會使用「未指派號碼宣告」遷移工具，將設定從舊集區移至新集區。
 

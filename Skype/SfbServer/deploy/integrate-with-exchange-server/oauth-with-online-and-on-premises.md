@@ -1,26 +1,21 @@
 ---
 title: 商務用 Skype 線上與 Exchange 伺服器之間的整合
 ms.reviewer: cbland
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/2/2019
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: 設定 Exchange 內部部署和商務用 Skype 線上之間的 OAuth 驗證，可啟用功能支援中所述的商務用 Skype 及 Exchange 整合功能。
-ms.openlocfilehash: dfc1bf25b19779b6a568a70e2cf18287d2f95d18
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864230"
 ---
+
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>設定商務用 Skype 線上和 Exchange Server 之間的整合及 OAuth 
 
 設定 Exchange server 與商務用 Skype Online 之間的整合，可啟用[功能支援](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)中所述的商務用 Skype 和 Exchange 整合功能。
@@ -49,7 +44,7 @@ ms.locfileid: "60864230"
 
 此步驟是在 Exchange 伺服器上完成。 它會建立郵件使用者，並為其指派適當的管理角色權力。 然後，將在下一個步驟中使用此帳戶。
 
-為您的 Exchange 組織指定已驗證的網域。 這個網域應該是用來做為內部部署 Exchange 帳戶使用的主要 SMTP 網域的相同網域。 下列程式中稱為此網域 \<your Verified Domain\> 。 此外， \<DomainControllerFQDN\> 應為網域控制站的 FQDN。
+為您的 Exchange 組織指定已驗證的網域。 這個網域應該是用來做為內部部署 Exchange 帳戶使用的主要 SMTP 網域的相同網域。 下列程式中稱為 \<your Verified Domain\> 此網域。 此外， \<DomainControllerFQDN\> 應為網域控制站的 FQDN。
 
 ```powershell
 $user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
@@ -103,7 +98,7 @@ $CertFile = "$env:SYSTEMDRIVE\OAuthConfig\OAuthCert.cer"
 
 ### <a name="step-5-upload-the-on-premises-authorization-certificate-to-azure-active-directory-acs"></a>步驟5：將內部部署授權憑證 Upload Azure Active Directory ACS
 
-接下來，使用 Windows PowerShell 上載您在上一個步驟中匯出的內部部署授權憑證，以 Azure Active Directory (ACS) 的存取控制服務。 若要這麼做，必須已安裝 Windows PowerShell Cmdlet 的 Azure Active Directory 模組。 若未安裝，請移至，以 [https://aka.ms/aadposh](/previous-versions/azure/jj151815(v=azure.100)) 安裝 Windows PowerShell 的 Azure Active Directory 模組。 在安裝 Windows PowerShell 的 Azure Active Directory 模組後，請完成下列步驟。
+接下來，使用 Windows PowerShell 上載您在上一個步驟中匯出的內部部署授權憑證，以 Azure Active Directory (ACS) 的存取控制服務。 若要這麼做，必須已安裝 Windows PowerShell Cmdlet 的 Azure Active Directory 模組。 若未安裝，請移 [https://aka.ms/aadposh](/previous-versions/azure/jj151815(v=azure.100)) 至，以安裝 Windows PowerShell 的 Azure Active Directory 模組。 在安裝 Windows PowerShell 的 Azure Active Directory 模組後，請完成下列步驟。
 
 1. 按一下 Windows PowerShell 快捷方式的 **Azure Active Directory 模組**，開啟已安裝 Azure AD Cmdlet 的 Windows PowerShell 工作區。 在此步驟中的所有命令，都將使用 Azure Active Directory 主控台的 Windows PowerShell 執行。
 

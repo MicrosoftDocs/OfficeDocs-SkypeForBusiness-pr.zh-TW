@@ -1,23 +1,18 @@
 ---
 title: 在商務用 Skype Server 中管理服務
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 瞭解如何查看服務狀態、啟動和停止服務，以及防止服務的會話。
-ms.openlocfilehash: cc5218f5347eb2124f42b8881bce730c74889bda
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864730"
 ---
+
 # <a name="manage-services-in-skype-for-business-server"></a>在商務用 Skype Server 中管理服務
 
 您可以使用商務用 Skype Server 控制台，在拓撲中查看所有執行商務用 Skype Server 的電腦清單、查看服務的狀態、啟動或停止服務，以及阻止服務的會話。

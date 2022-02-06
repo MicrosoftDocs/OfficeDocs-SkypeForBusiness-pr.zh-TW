@@ -1,24 +1,19 @@
 ---
 title: 管理商務用 Skype Server 的使用者帳戶
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2fe7e3a7-bc75-4d4b-94af-a8818722b0d3
 description: 本文中的各節說明如何啟用、暫時停用或移除 Active Directory 使用者商務用 Skype Server。
-ms.openlocfilehash: 39016a83c11553cd39448efa34d61ffbba5045e9
-ms.sourcegitcommit: 2aae13454178dc2e2cbc8cca967cd181c5f9d044
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "61314211"
 ---
+
 # <a name="manage-user-accounts-for-skype-for-business-server"></a>管理商務用 Skype Server 的使用者帳戶
 
 本文中的各節說明如何啟用、暫時停用或移除 Active Directory 使用者商務用 Skype Server。
@@ -107,7 +102,7 @@ ms.locfileid: "61314211"
  
 2. 使用指派給 CsUserAdministrator 角色或 CsAdministrator 角色的使用者帳戶登入。
 
-3. 流覽至 [**使用者**]  >  **啟用使用者**，然後按一下 [**新增**]。
+3. 流覽至 [**使用者**  >  ]**啟用使用者**，然後按一下 [**新增**]。
 
 4. 在 **搜尋** 方塊中，輸入顯示名稱的全部或第一個部分，然後按一下 [ **尋找**]。
 
@@ -126,7 +121,7 @@ ms.locfileid: "61314211"
 
 2. 開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。
 
-3. 流覽至 **[使用者]**[  >  **啟用使用者**] [  >  **新增 Lync Server 使用者**]，然後按一下 [**新增]。**
+3. 流覽至  >  **[使用者]**[**啟用使用者**  >  ] [**新增 Lync Server 使用者**]，然後按一下 [**新增]。**
 
 6. 在 [搜尋使用者] 方塊中，輸入您要找的 Active Directory 使用者帳戶的名稱、顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、電子郵件地址、使用者主要名稱 (UPN) 或電話號碼的全部或頭幾個字，然後按一下 [尋找]。
 
@@ -213,7 +208,7 @@ ms.locfileid: "61314211"
 
 7. 在 [**指派的原則**] 面板的 [**電話語音**] 下，按一下下拉式清單中的 [**企業語音** 以外的任何選項。
 
-8. 按一下 [儲存]。
+8. 按一下 **[儲存]**。
 
     > [!NOTE]
     > 若要限制使用者進行音訊或視頻通話，請按一下 [ **電話語音**] 下的 [ **Audio/Video 停用**]。

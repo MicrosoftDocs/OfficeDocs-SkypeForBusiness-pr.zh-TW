@@ -1,27 +1,22 @@
 ---
 title: SQL 執行個體範圍節點
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SqlInstanceScopeNode
+  - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: 此節點會顯示此 Microsoft SQL Server 的完整功能變數名稱 (FQDN) ，以及該伺服器上 SQL Server 的實例，以及使用此 SQL Server 的集區或伺服器。 您可以執行下列動作：
-ms.openlocfilehash: b046b70396af5fdd4249456fc1dea6203580a673
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861420"
 ---
+
 # <a name="sql-instance-scope-node"></a>SQL 執行個體範圍節點
  
 此節點會顯示此 Microsoft SQL Server 的完整功能變數名稱 (FQDN) ，以及該伺服器上 SQL Server 的實例，以及使用此 SQL Server 的集區或伺服器。 您可以執行下列動作：

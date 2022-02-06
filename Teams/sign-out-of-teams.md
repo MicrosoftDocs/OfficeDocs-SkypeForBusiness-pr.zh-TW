@@ -1,7 +1,7 @@
 ---
 title: 登出 Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,18 +12,13 @@ description: 瞭解如何登出 Microsoft Teams。
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 f1.keywords:
-- NOCSH
+  - NOCSH
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: ba5789dac9d54de153c6d4c712a2d68367ad79c0
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
-ms.translationtype: HT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513594"
+  - Microsoft Teams
 ---
+
 # <a name="sign-out-of-microsoft-teams"></a>登出 Microsoft Teams
 
 我們建議使用者保持 Microsoft Teams 應用程式的登入狀態，以繼續接收聊天、來電及其他活動。 我們瞭解，有時使用者可能會因為數個原因而想要登出 Teams 應用程式:

@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中設定電話撥入式會議
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 中設定電話撥入式會議。
-ms.openlocfilehash: 3e7a91b200eb6211a26b379d866608ff31658488
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845926"
 ---
+
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>在商務用 Skype Server 中設定電話撥入式會議
  
-**摘要：** 閱讀此主題以瞭解如何在商務用 Skype Server 中設定電話撥入式會議。
+**總結：** 閱讀此主題以瞭解如何在商務用 Skype Server 中設定電話撥入式會議。
   
 在您建立包含會議工作負載的拓撲，以及所選的電話撥入式會議之後，您必須執行額外的步驟來設定電話撥入式會議。 在閱讀本主題之前，請確定您已在[商務用 Skype Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)商務用 Skype Server 中取得[電話撥入式會議的對應計畫](../../plan-your-deployment/conferencing/dial-in-conferencing.md)，以及[電話撥入式會議的部署流程圖及檢查清單](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)。 
   

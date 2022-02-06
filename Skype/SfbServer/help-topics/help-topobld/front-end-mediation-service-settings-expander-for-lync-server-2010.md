@@ -1,27 +1,22 @@
 ---
 title: 前端中繼服務設定展開工具 (適用於 Lync Server 2010)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.FeMediationServiceSettingsExpander2010
+  - ms.lync.tb.FeMediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
-description: 您可以在此對話方塊中，編輯 [中繼伺服器 PSTN 閘道] 設定的屬性。您可以定義下列設定：
-ms.openlocfilehash: be43e53b3e0e05b1dee1ddf61511f18438738b7f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827586"
+description: '您可以在此對話方塊中，編輯 [中繼伺服器 PSTN 閘道] 設定的屬性。您可以定義下列設定：'
 ---
+
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>前端中繼服務設定展開工具 (適用於 Lync Server 2010)
  
 您可以在此對話方塊中，編輯 [中繼伺服器 PSTN 閘道] 設定的屬性。您可以定義下列設定：

@@ -1,27 +1,22 @@
 ---
 title: '在商務用 Skype Server 中部署整合連絡人存放區 '
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 摘要：在商務用 Skype Server 中啟用整合連絡人存放區。
-ms.openlocfilehash: 23e5aebcd0ed92cc07a203be5b3112142f692d9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861810"
 ---
+
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>在商務用 Skype Server 中部署整合連絡人存放區
  
-**摘要：** 在商務用 Skype Server 中啟用整合連絡人存放區。
+**總結：** 在商務用 Skype Server 中啟用整合連絡人存放區。
   
 在商務用 Skype Server 中啟用整合連絡人存放區時，不需要任何拓撲設定。 若要為使用者啟用整合連絡人存放區：
   
@@ -139,7 +134,7 @@ ms.locfileid: "60861810"
 - 如果您在將使用者遷移至 Exchange 2013 之後匯出使用者資料，請先復原遷移，然後在遷移之後從某些原因匯入資料，整合的連絡人存放區資料和連絡人清單會損毀。
     
 > [!IMPORTANT]
-> 將 Exchange 信箱從 Exchange 2013 移至 Exchange 2010 之前，Exchange 系統管理員必須先將商務用 Skype Server 的使用者連絡人第一次還原至商務用 Skype Server 2013 至 Exchange。 若要將整合連絡人存放區連絡人回復至商務用 Skype Server，請參閱本節稍後的程式「回退整合連絡人存放區連絡人 Exchange 2013 至商務用 Skype Server」。 
+> 在您將 Exchange 信箱從 Exchange 2013 移至 Exchange 2010 之前，Exchange 管理員必須確定商務用 Skype Server 管理員已第一次將商務用 Skype Server 使用者的連絡人還原Exchange 2013 至商務用 Skype Server。 若要將整合連絡人存放區連絡人回復至商務用 Skype Server，請參閱本節稍後的程式「回退整合連絡人存放區連絡人 Exchange 2013 至商務用 Skype Server」。 
   
  **如何退回使用者連絡人：** 如果您使用 **Move-CsUser** 指令移動商務用 Skype Server 2015 和 Lync server 2010 之間的使用者，則可以略過這些步驟，因為 **Move-CsUser** Cmdlet 會在將使用者從商務用 Skype Server 2015 移至 Lync Server 2010 時，自動回復整合的連絡人存放區。 **Move-CsUser** 不會停用整合連絡人存放區原則，所以如果使用者移回商務用 Skype Server 2015，便會重複遷移至整合連絡人存放區。
   

@@ -1,25 +1,20 @@
 ---
-title: " (選用) 定義回應群組假日集商務用 Skype"
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: ' (選用) 定義回應群組假日集商務用 Skype'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: 在商務用 Skype Server 企業語音中建立或修改回應群組假日集。
-ms.openlocfilehash: 307dfefb42f31102755bd4469ed8c24129e41767
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852717"
 ---
+
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a> (選用) 定義回應群組假日集商務用 Skype
  
 在商務用 Skype Server 企業語音中建立或修改回應群組假日集。

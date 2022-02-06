@@ -1,27 +1,22 @@
 ---
 title: 設定用戶端啟動載入原則
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 45042eca-b845-4207-b12f-b8b7f5d44bdf
 description: 摘要：如何管理群組原則。
-ms.openlocfilehash: 073bd23219b3fa0a39ed06a94a5ef0586a740e6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831647"
 ---
+
 # <a name="configure-client-bootstrapping-policies"></a>設定用戶端啟動載入原則
  
-**摘要：** 如何管理群組原則。
+**總結：** 如何管理群組原則。
   
 群組原則管理主控台 (GPMC) ，而群組原則物件編輯器是您用來管理群組原則的工具。 包含在 Office 群組原則系統管理範本中的 adml (adml) )  (系統管理範本，包含您為網域中的群組原則物件所設定的商務用 Skype 登錄型原則設定。 ADML 檔案是特定語言對 ADMX 檔案的補充。 每個 ADMX 和 ADML 檔案都包含單一 Office 應用程式的原則設定。 您可以從 Microsoft 下載中心[下載 Office 2016 系統管理範本檔案 (ADMX/ADML) ](https://www.microsoft.com/download/details.aspx?id=49030) 。
   

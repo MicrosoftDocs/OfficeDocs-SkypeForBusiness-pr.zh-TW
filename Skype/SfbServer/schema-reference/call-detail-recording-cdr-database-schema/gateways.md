@@ -1,25 +1,20 @@
 ---
 title: 商務用 Skype Server 2015 的閘道表格
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a909daad-d137-45e0-b149-1de9f8e1e029
 description: 閘道表格是支援的表格。 每筆記錄都儲存在公用交換電話網路 (PSTN) 具有資料庫中記錄的電話所涉及的一個閘道的相關資訊。
-ms.openlocfilehash: 27f575163dc90e566013728f646689d883de6ef2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847106"
 ---
+
 # <a name="gateways-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的閘道表格
  
 閘道表格是支援的表格。 每筆記錄都儲存在公用交換電話網路 (PSTN) 具有資料庫中記錄的電話所涉及的一個閘道的相關資訊。

@@ -1,25 +1,20 @@
 ---
 title: 商務用 Skype Server 中的後端伺服器高可用性
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: 深入瞭解商務用 Skype Server 中支援的後端伺服器高可用性選項，包括 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例、資料庫鏡像及 SQL 容錯移轉叢集。
-ms.openlocfilehash: 9e7b06fc1894c67d6d4cee1e2ec04bf910181df5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847176"
 ---
+
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>商務用 Skype Server 中的後端伺服器高可用性
  
 深入瞭解商務用 Skype Server 中支援的後端伺服器高可用性選項，包括 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例、資料庫鏡像及 SQL 容錯移轉叢集。
@@ -56,7 +51,7 @@ ms.locfileid: "60847176"
     
 
 > [!NOTE]
-> SQL鏡像可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) 及 SQL 容錯移轉叢集方法是商務用 Skype Server 2019 唯一支援的選項。
+> SQL 鏡像可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) 及 SQL 容錯移轉叢集方法是商務用 Skype Server 2019 唯一支援的選項。
     
 商務用 Skype Server 中的後端伺服器高可用性不支援非同步資料庫鏡像。 在本文的其餘部分中，資料庫鏡像是指同步資料庫鏡像，除非明確指出。 
   
@@ -88,7 +83,7 @@ ms.locfileid: "60847176"
 > 僅當主要、鏡像及見證 () 伺服器都屬於相同的網域時，才支援使用拓撲產生器或 Cmdlet 來設定和移除 SQL 鏡像。 若要在不同網域的伺服器間設定 SQL 鏡像，請參閱 SQL Server 文件。 
 
 > [!NOTE]
-> SQL鏡像可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) 及 SQL 容錯移轉叢集方法，都是商務用 Skype Server 2019 的首選。
+> SQL 鏡像可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) 及 SQL 容錯移轉叢集方法，都是商務用 Skype Server 2019 的首選。
   
 ### <a name="recovery-time-for-automatic-back-end-server-failover-with-database-mirroring"></a>使用資料庫鏡像的自動後端伺服器容錯移轉的復原時間
 
@@ -139,7 +134,7 @@ ms.locfileid: "60847176"
   
 如需部署 AlwaysOn 可用性群組的步驟，請參閱[商務用 Skype Server 中的後端伺服器上部署 AlwaysOn 可用性群組](../../deploy/deploy-high-availability-and-disaster-recovery/alwayson-availability-group.md)。
   
-## <a name="sql-server-failover-clustering"></a>SQL Server容錯移轉叢集
+## <a name="sql-server-failover-clustering"></a>SQL Server 容錯移轉叢集
 
 商務用 Skype Server 支援具有下列資料庫軟體的 SQL Server 容錯移轉叢集：
   

@@ -1,30 +1,25 @@
 ---
 title: 在商務用 Skype Server 中驗證 Edge 部署
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 manager: serdars
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Strat_SB_Hybrid
-ms.custom: ''
+  - Strat_SB_Hybrid
+ms.custom: null
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 摘要：瞭解如何驗證 Edge server 或 edge server 集區的部署在商務用 Skype Server 中是否正常運作。
-ms.openlocfilehash: b8a538d457c2f785d2bdff96dd379524c2df1a28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841925"
 ---
+
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>在商務用 Skype Server 中驗證 Edge 部署
  
-**摘要：** 瞭解如何驗證 Edge server 或 edge server 集區的部署在商務用 Skype Server 中是否正常運作。
+**總結：** 瞭解如何驗證 Edge server 或 edge server 集區的部署在商務用 Skype Server 中是否正常運作。
   
 部署 Edge Server 或 Edge Server 集區之後，您必須知道其是否運作正常。 以下是一些可協助您確認 Edge 環境連線至內部伺服器的一些事項，此外，您的外部使用者還是可以透過 Edge 連接至您的商務用 Skype Server 環境。
   

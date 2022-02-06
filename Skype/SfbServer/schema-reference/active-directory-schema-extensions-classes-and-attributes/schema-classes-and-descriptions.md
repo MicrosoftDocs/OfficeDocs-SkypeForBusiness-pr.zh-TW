@@ -1,25 +1,20 @@
 ---
 title: 商務用 Skype Server 中的架構類別和描述
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: 本節說明商務用 Skype Server 所使用的所有架構類別。
-ms.openlocfilehash: fbd3e3293cef72ba6592b86932639bd499464858
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829767"
 ---
+
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>商務用 Skype Server 中的架構類別和描述
  
 本節說明商務用 Skype Server 所使用的所有架構類別。 
@@ -28,7 +23,7 @@ ms.locfileid: "60829767"
 
 |**類別**|**描述**|**註解**|
 |:-----|:-----|:-----|
-|Mail-Recipient  <br/> |Exchange整合通訊 (UM) 電子郵件收件者。  <br/> |此輔助類別與 Exchange UM 共用。  <br/> |
+|Mail-Recipient  <br/> |Exchange 整合通訊 (UM) 電子郵件收件者。  <br/> |此輔助類別與 Exchange UM 共用。  <br/> |
 |msRTCSIP ApplicationContacts  <br/> |此類別是多個應用程式連絡人的容器，本身不包含任何屬性。  <br/> |Microsoft Office 通訊伺服器 2007 R2 中的新功能。  <br/> |
 |msRTCSIP-ApplicationServer  <br/> |此類別包含一個項目，代表整合通訊應用程式服務 (UCAS) 的服務控制點。  <br/> |Office 通訊伺服器 2007 R2 中的新功能。  <br/> |
 |msRTCSIP ApplicationServerService  <br/> |此類別提供從特定集區到其應用程式服務的關聯。  <br/> |通訊伺服器 2007 R2 中的新功能。  <br/> |

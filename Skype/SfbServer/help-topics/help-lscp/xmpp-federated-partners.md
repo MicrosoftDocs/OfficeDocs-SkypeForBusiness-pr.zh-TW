@@ -1,27 +1,22 @@
 ---
 title: XMPP 同盟協力廠商
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ExtXmppPartnerMain
+  - ms.lync.lscp.ExtXmppPartnerMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3e270f9f-c5b7-4aa8-8425-83acadfbfb9a
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 86409473ccb3f17fab74946fe62b21cb2a401d2c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827736"
 ---
+
 # <a name="xmpp-federated-partners"></a>XMPP 同盟協力廠商
 
 您要執行的工作 按一下您要執行之任務的連結。

@@ -1,27 +1,22 @@
 ---
 title: 定義新主幹
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddTrunkPage
+  - ms.lync.tb.AddTrunkPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 您可以透過提供下列資訊來定義新的會話初始通訊協定 (SIP) 主幹：
-ms.openlocfilehash: 7e6c80b3f5762dc409a47ee4b9e6f7ff9053b84c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836895"
 ---
+
 # <a name="define-a-new-trunk"></a>定義新主幹
 
 您可以透過提供下列資訊來定義新的會話初始通訊協定 (SIP) 主幹：
@@ -36,7 +31,7 @@ ms.locfileid: "60836895"
 
 - **關聯** 的轉送伺服器：從清單中選取部署中已部署及設定的轉送伺服器
 
-- **關聯的轉送伺服器埠**：設定的埠值等於此 SIP 主幹將使用之轉送伺服器的 TCP 或 TLS 埠值。
+- 關聯的中繼 **伺服器埠**：設定的埠值等於此 SIP 主幹將使用之轉送伺服器的 TCP 或 TLS 埠值。
 
 ## <a name="see-also"></a>另請參閱
 

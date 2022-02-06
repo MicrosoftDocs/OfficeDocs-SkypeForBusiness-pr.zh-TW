@@ -1,24 +1,19 @@
 ---
 title: 部署商務用 Skype Server 2015 的後端伺服器高可用性 SQL 鏡像
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 若要得以部署 SQL 鏡像，您的伺服器至少必須執行 SQL Server 2008 R2。 此版本必須執行於以下所有相關伺服器：主要伺服器、鏡像伺服器、見證伺服器。 如需詳細資訊，請參閱 SQL Server 2008 Service Pack 1 的累計更新套件9。
-ms.openlocfilehash: b27fed99cafa109da8c13e369c93985d7bc4cf64
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849446"
 ---
+
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>針對商務用 Skype Server 2015 中的後端伺服器高可用性部署 SQL 鏡像
 
 
@@ -61,7 +56,7 @@ ms.locfileid: "60849446"
 3. 發行拓撲。
 
 > [!NOTE]
-> 必須針對要寫入的鏡像檔案建立檔案共用，而且在需要讀取/寫入存取權的情況下，SQL Server 和 SQL 代理程式所執行的服務。 如果在網路服務的內容下執行 SQL Server 服務，您可以將 \<Domain\> \\ \> 主體和鏡像 SQL 伺服器的<SQLSERVERNAME $ 新增至 [共用] 許可權。 $ 對識別這是電腦帳戶很重要。
+> 必須針對要寫入的鏡像檔案建立檔案共用，而且在需要讀取/寫入存取權的情況下，SQL Server 和 SQL 代理程式所執行的服務。 如果在網路服務的內容下執行 SQL Server 服務，您可以將主體和鏡像 SQL 伺服器的<SQLSERVERNAME \> $ 新增 \<Domain\> \\ 至 [共用] 許可權。 $ 對識別這是電腦帳戶很重要。
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>在拓撲產生器中建立集區時設定 SQL 鏡像
 
@@ -225,7 +220,7 @@ ms.locfileid: "60849446"
 
     - 如果 Windows 防火牆已於見證 SQL Server AB14-lct.los_a.lsipt.local\rtc 中啟用，連接埠 7022 可透過防火牆進行存取。
 
-   - 在所有主要和鏡像 SQL 伺服器上執行 SQL 伺服器的帳戶具有檔案共用 E04-OCS\csdatabackup 的讀取/寫入權限。 \\
+   - 在所有主要和鏡像 SQL 伺服器上執行 SQL 伺服器的帳戶具有檔案共用 \\ E04-OCS\csdatabackup 的讀取/寫入權限。
 
    - 確認 Windows Management Instrumentation (WMI) 提供者正執行於所有伺服器上。Cmdlet 會使用此提供者尋找執行於所有主要、鏡像及見證伺服器的 SQL Server 服務帳戶資訊。
 

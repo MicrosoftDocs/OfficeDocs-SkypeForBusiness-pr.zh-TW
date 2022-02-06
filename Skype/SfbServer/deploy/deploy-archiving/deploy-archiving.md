@@ -1,27 +1,22 @@
 ---
 title: 部署商務用 Skype Server 的封存
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 50fa535c-7347-4e33-80a3-296748ef6666
 description: 摘要：閱讀此主題以瞭解如何部署商務用 Skype Server 的封存。
-ms.openlocfilehash: bdf0e6fe170371d1596fd556450fca14d6433239
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837415"
 ---
+
 # <a name="deploy-archiving-for-skype-for-business-server"></a>部署商務用 Skype Server 的封存
  
-**摘要：** 閱讀此主題以瞭解如何部署商務用 Skype Server 的封存。
+**總結：** 閱讀此主題以瞭解如何部署商務用 Skype Server 的封存。
   
 封存會自動安裝在商務用 Skype Server 部署的每一部前端伺服器上，但您仍然必須先執行初始設定及設定步驟，才能使用它。 在您開始之前，請確定您已熟悉在[商務用 Skype Server 中](../../plan-your-deployment/archiving/archiving.md)封存的計畫概念。
   

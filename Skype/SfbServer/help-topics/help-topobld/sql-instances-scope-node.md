@@ -1,27 +1,22 @@
 ---
 title: SQL 執行個體範圍節點
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SqlInstancesScopeNode
+  - ms.lync.tb.SqlInstancesScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
-description: SQL 儲存區] 節點會列出您拓撲中的 SQL Server 資料庫。 您可以執行下列動作：
-ms.openlocfilehash: 7bda856e8e4bde303daa5ddee3dca57eb5bfab9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861400"
+description: 'SQL 儲存區] 節點會列出您拓撲中的 SQL Server 資料庫。 您可以執行下列動作：'
 ---
+
 # <a name="sql-instances-scope-node"></a>SQL 執行個體範圍節點
  
 **SQL 儲存區**] 節點會列出您拓撲中的 SQL Server 資料庫。 您可以執行下列動作：

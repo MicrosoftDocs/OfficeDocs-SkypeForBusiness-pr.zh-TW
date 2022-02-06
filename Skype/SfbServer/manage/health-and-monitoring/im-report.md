@@ -1,27 +1,22 @@
 ---
 title: Peer-to-Peer 商務用 Skype Server 中的 IM 報表
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer IM 報表。
-ms.openlocfilehash: f72200547ca8af3fa2ebde0e44c4707c82a1596b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834201"
 ---
+
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Peer-to-Peer 商務用 Skype Server 中的 IM 報表
  
-**摘要：** 瞭解商務用 Skype Server 中的 Peer-to-Peer IM 報表。
+**總結：** 瞭解商務用 Skype Server 中的 Peer-to-Peer IM 報表。
   
 對等 IM 報告會提供對等立即訊息 (IM) 工作階段的趨勢資訊 (依集區和驗證類型細分)。此報告可以顯示指定時段內 (例如，每天或每小時) 主控的工作階段總數，或者可以顯示該時段內傳送的立即訊息總數。
   
@@ -70,7 +65,7 @@ ms.locfileid: "60834201"
 
 |**名稱**|**可以排序這個項目嗎？**|**描述**|
 |:-----|:-----|:-----|
-|**驗證類型** <br/> |否  <br/> | 工作階段參與者所使用的驗證類型。一般來說，值都是下列其中之一： <br/>  Enterprise <br/>  聯邦 <br/>  PIC <br/> |
+|**驗證類型** <br/> |否  <br/> | 工作階段參與者所使用的驗證類型。一般來說，值都是下列其中之一： <br/>  企業 <br/>  聯邦 <br/>  PIC <br/> |
 |**日期/時間** <br/> |否  <br/> |工作階段的執行日期與時間。  <br/> |
 |**Total** <br/> |否  <br/> |工作階段總數或訊息總數。  <br/> |
    

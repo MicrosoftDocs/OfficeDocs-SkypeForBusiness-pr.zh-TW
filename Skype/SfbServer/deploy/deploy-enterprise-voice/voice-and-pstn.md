@@ -1,31 +1,26 @@
 ---
 title: 在商務用 Skype 中設定語音原則、PSTN 使用方式記錄和語音路由
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 1e5a15f9-6f42-4dc6-baaa-24daf54afc4d
 description: 摘要：瞭解如何在商務用 Skype Server 中設定語音原則、PSTN 使用方式記錄和語音路由。
-ms.openlocfilehash: ac2256436e89a383df551fd7610189df56c8a0b0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833809"
 ---
+
 # <a name="configure-voice-policies-pstn-usage-records-and-voice-routes-in-skype-for-business"></a>在商務用 Skype 中設定語音原則、PSTN 使用方式記錄和語音路由
  
-**摘要：** 瞭解如何在商務用 Skype Server 中設定語音原則、PSTN 使用方式記錄和語音路由。
+**總結：** 瞭解如何在商務用 Skype Server 中設定語音原則、PSTN 使用方式記錄和語音路由。
   
 語音原則、PSTN 使用方式記錄和語音路由密切相關。您可以選取一組撥號功能，接著指派一組 PSTN 使用方式記錄給原則，以便指定獲指派語音原則的使用者或群組可獲得哪些權限授權，如此就能設定語音原則。語音路由也會被指派 PSTN 使用方式記錄，這些記錄會用來比對路由與獲授權使用這些路由的使用者。也就是說，使用者可以撥打的電話，只限於使用他們有相符 PSTN 使用方式記錄之路由的電話。
   

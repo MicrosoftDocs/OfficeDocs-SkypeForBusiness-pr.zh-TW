@@ -1,23 +1,18 @@
 ---
 title: 委派商務用 Skype Server 的管理控制權
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: 54348e05a53f5c8fcc7241dbc7ed86b1be4e27a3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861280"
 ---
+
 # <a name="delegate-administrative-control-of-skype-for-business-server"></a>委派商務用 Skype Server 的管理控制權 
 
 在商務用 Skype Server 中，系統會使用以角色為基礎的存取控制 (RBAC) 功能，將系統管理工作委派給使用者。 當您安裝商務用 Skype Server 時，會為您建立許多 RBAC 角色。 這些角色會對應至 Active Directory 網域服務中的通用安全性群組。 例如，RBAC 角色 CsHelpDesk 會對應至 Active Directory 網域服務中使用者容器內找到的 CsHelpDesk 群組。 此外，每個 RBAC 角色都與一組商務用 Skype Server Windows PowerShell Cmdlet 相關聯。   這些 Cmdlet 代表已獲指派指定 RBAC 角色之使用者可以執行的工作。 例如，CsHelpDesk role 已獲指派 Lock-CsClientPin 和 UnlockCsClientPin Cmdlet。 這表示已獲指派 CsHelpDesk 角色的使用者可鎖定和解除鎖定使用者 PIN 碼。 不過，CsHelpDesk 角色尚未獲指派 New-CsVoicePolicy Cmdlet。 這表示已獲指派 CsHelpDesk 角色的使用者無法建立新的語音原則。

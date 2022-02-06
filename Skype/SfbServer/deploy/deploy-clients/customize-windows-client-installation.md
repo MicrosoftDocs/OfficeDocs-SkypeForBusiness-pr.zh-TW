@@ -1,27 +1,22 @@
 ---
 title: 自訂商務用 Skype Server 中的 Windows 用戶端安裝
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
 description: 摘要：商務用 Skype 安裝方法及工具的概述。
-ms.openlocfilehash: b0eeae1ae0e758c14ea6ae5adc3be6cbf5c36c2d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832917"
 ---
+
 # <a name="customize-windows-client-installation-in-skype-for-business-server"></a>自訂商務用 Skype Server 中的 Windows 用戶端安裝
  
-**摘要：** 商務用 Skype 的安裝方法及工具的概述。
+**總結：** 商務用 Skype 的安裝方法及工具的概述。
   
 > [!NOTE]
 > 如需 Microsoft 365 和 Office 365 隨附之商務用 Skype 的安裝資訊，請參閱[在 Microsoft 365 或 Office 365 中部署商務用 Skype 用戶端](https://support.office.com/article/8c563b81-22c9-4024-9efe-9fe28c7bbc96)。 

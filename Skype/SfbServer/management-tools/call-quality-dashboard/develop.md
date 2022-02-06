@@ -1,28 +1,23 @@
 ---
 title: 開發商務用 Skype Server 的通話品質儀表板
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 664917b4-c954-40b6-864e-f72db94c6180
 description: 摘要：瞭解如何為通話品質儀表板開發解決方案。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: 704621b3ca8033553ef73197577d2cf23a0f0387
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835231"
 ---
+
 # <a name="develop-call-quality-dashboard-for-skype-for-business-server"></a>開發商務用 Skype Server 的通話品質儀表板
  
-**摘要：** 瞭解如何開發通話品質儀表板的解決方案。 通話品質儀表板是商務用 Skype Server 的工具。
+**總結：** 瞭解如何開發通話品質儀表板的解決方案。 通話品質儀表板是商務用 Skype Server 的工具。
   
 本主題供應商務用 Skype Server 之通話品質儀表板 (CQD) 的開發檔。
   

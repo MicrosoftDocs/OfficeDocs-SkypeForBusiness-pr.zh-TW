@@ -1,24 +1,19 @@
 ---
 title: Windows PowerShell 和商務用 Skype Server 管理工具
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: 在商務用 Skype Server 中，管理工具是使用 Windows PowerShell 來執行。 Windows PowerShell 包括命令列環境、產品特有的命令，以及完整的指令碼語言。 使用 Windows PowerShell 所執行商務用 Skype Server 工具組括下列各項：
-ms.openlocfilehash: 09726fa35caf569f9f3215b2d3d2217cce3be235
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849706"
 ---
+
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell 和商務用 Skype Server 管理工具
  
 在商務用 Skype Server 中，管理工具是使用 Windows PowerShell 來執行。 Windows PowerShell 包括命令列環境、產品特有的命令，以及完整的指令碼語言。 使用 Windows PowerShell 所執行商務用 Skype Server 工具組括下列各項： 

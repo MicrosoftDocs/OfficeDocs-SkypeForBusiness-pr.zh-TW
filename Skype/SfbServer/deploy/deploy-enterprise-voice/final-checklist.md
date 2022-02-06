@@ -1,28 +1,23 @@
 ---
 title: 商務用 Skype Server 的通話許可控制部署最終檢查清單
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
 description: 在商務用 Skype Server 企業語音中 (CAC) 部署通話許可控制的最終檢查清單。
-ms.openlocfilehash: ca9162604d1a25ecbde0df800e891931cd756d99
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855107"
 ---
+
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>通話許可控制部署：商務用 Skype Server 的最終檢查清單
  
 在商務用 Skype Server 企業語音中 (CAC) 部署通話許可控制的最終檢查清單。 
