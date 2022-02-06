@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 中管理 PIN 設定
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
 description: 摘要：在商務用 Skype Server 中管理 PIN 碼設定。
-ms.openlocfilehash: 840da2accd7a84caa8c5e4b409873d721d679732
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848566"
 ---
+
 # <a name="manage-pin-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中管理 PIN 設定
  
-**摘要：** 在商務用 Skype Server 中管理 PIN 設定。
+**總結：** 在商務用 Skype Server 中管理 PIN 設定。
   
 使用下列各節中的程式來管理商務用 Skype Server 中的 pin。
   

@@ -1,28 +1,23 @@
 ---
 title: 取得使用者
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 52b89a4b-a0bd-493d-bb5e-e21904eb8e48
 description: 摘要：瞭解使用者服務中的「取得使用者」作業。 使用者服務屬於「呼叫品質」儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: 7207f395c393bea542796129e21c08d2706ab12f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828716"
 ---
+
 # <a name="get-user"></a>取得使用者
  
-**摘要：** 深入瞭解 User Service 的「取得使用者」作業。 使用者服務屬於「呼叫品質」儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
+**總結：** 深入瞭解 User Service 的「取得使用者」作業。 使用者服務屬於「呼叫品質」儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
   
 「取得使用者」作業是「用於通話品質」儀表板之存放庫 API 中使用者服務的一部分。
   
@@ -63,6 +58,6 @@ ms.locfileid: "60828716"
  *defaultItemId*  -此使用者之預設專案的識別碼。 預設專案是與使用者相關聯的最上層專案。 您可以從預設專案流覽此使用者擁有的所有其他專案。
   
 > [!NOTE]
-> 提供  `defaultItemId` 值以取得專案作業，以取得預設專案的詳細資料。
+> `defaultItemId`提供值以取得專案作業，以取得預設專案的詳細資料。
   
 

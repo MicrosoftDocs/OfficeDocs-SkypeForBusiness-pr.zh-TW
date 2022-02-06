@@ -1,23 +1,18 @@
 ---
 title: 管理網路子網
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 在大多數部署通話許可控制 (CAC) 執行的商務用 Skype Server 中，通常會有大量子網。 因此，通常最好是從商務用 Skype Server 管理命令介面設定子網。
-ms.openlocfilehash: 73a0f99fa35cd1b92194ce5b09d85a30d30b72e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843856"
 ---
+
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>管理商務用 Skype Server 中的網路子網路
 
 您可以使用商務用 Skype Server 控制台或商務用 Skype Server 管理命令介面來管理網路子網。 在大多數部署通話許可控制 (CAC) 執行的商務用 Skype Server 中，通常會有大量子網。 因此，通常最好是從商務用 Skype Server 管理命令介面設定子網。

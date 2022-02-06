@@ -1,27 +1,22 @@
 ---
 title: PSTN 使用方式建立新的或編輯現有
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.VoiceUsageEdit
+  - ms.lync.lscp.VoiceUsageEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 890293ee5032d78f123a26af2ad3cf487550a11c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859440"
 ---
+
 # <a name="pstn-usage-create-new-or-edit-existing"></a>PSTN 使用方式：建立新的或編輯現有
 
 您要執行的工作 按一下您要執行之任務的連結。

@@ -1,27 +1,22 @@
 ---
 title: 簽署要求 (憑證授權單位)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployCertRequestCA
+  - ms.lync.dep.DeployCertRequestCA
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
-ROBOTS: NOINDEX, NOFOLLOW
-description: 將憑證要求傳送到線上憑證授權單位單位 (CA 時)  (通常是內部網路上的伺服器) 上的 [選擇憑證授權單位單位 (CA) ] 頁面上，會顯示兩個選項：
-ms.openlocfilehash: 032e0f91050000c354e77ec853da569befa291c2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832807"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: '將憑證要求傳送到線上憑證授權單位單位 (CA 時)  (通常是內部網路上的伺服器) 上的 [選擇憑證授權單位單位 (CA) ] 頁面上，會顯示兩個選項：'
 ---
+
 # <a name="certificate-request-certificate-authority"></a>簽署要求 (憑證授權單位)
  
 將憑證要求傳送到線上憑證授權單位單位 (CA 時)  (通常是內部網路上的伺服器) 上的 [ **選擇憑證授權單位單位 (CA)** ] 頁面上，會顯示兩個選項：

@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 中設定使用者的電話撥入式會議 PIN
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 摘要：為商務用 Skype Server 設定使用者的電話撥入式會議 PIN。
-ms.openlocfilehash: 45ee99a0e9ab1b10c429fae470e528ffdd2c3326
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856680"
 ---
+
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>在商務用 Skype Server 中設定使用者的電話撥入式會議 PIN
  
-**摘要：** 設定使用者的電話撥入式會議 PIN 以供商務用 Skype Server。
+**總結：** 設定使用者的電話撥入式會議 PIN 以供商務用 Skype Server。
   
 若要將電話撥入式會議加入為已驗證的使用者，具有 Active Directory 網域服務 (AD DS) 認證的商務用 Skype Server 使用者必須有個人識別碼 (PIN) 。 如果使用者忘記電話撥入式會議 PIN，或是未使用商務用 Skype Server 設定 pin，您可以從商務用 Skype Server 控制台設定使用者的 pin 碼。 您可以自動產生 PIN 碼，也可以手動建立 PIN 碼。
   

@@ -1,27 +1,22 @@
 ---
 title: 封存原則建立新的或編輯現有
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchPolicyEdit
+  - ms.lync.lscp.MonArchPolicyEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 description: 您可以使用封存原則，針對位於商務用 Skype Server 的使用者，控制部署中內部和外部通訊的封存。 封存原則包含全域原則，並選擇性地包含一或多個網站與使用者原則：
-ms.openlocfilehash: a32ca25092c5240b3be2080098b8bd8bc3477ec6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838785"
 ---
+
 # <a name="archiving-policy-create-new-or-edit-existing"></a>封存原則：建立新的或編輯現有原則
  
 您可以使用封存原則，針對位於商務用 Skype Server 的使用者，控制部署中內部和外部通訊的封存。 封存原則包含全域原則，並選擇性地包含一或多個網站與使用者原則：
@@ -36,7 +31,7 @@ ms.locfileid: "60838785"
 > 如果您使用 Exchange 整合將封存資料儲存在 Microsoft Exchange 中，則 Exchange 2013 原則會控制位於 Exchange 2013 上之使用者的封存。 若要為這些使用者啟用封存，使用者的信箱必須置於 In-Place 保留狀態。 
   
 若要設定新的或現有的封存原則設定，請指定下列選項：
-- **名稱** 每個封存原則都需要一個名稱。 其名稱取決於您要新增或編輯的原則類型：
+- **名字** 每個封存原則都需要一個名稱。 其名稱取決於您要新增或編輯的原則類型：
     
   - **全域原則** 預設名稱為 Global。 您可以將它變更為更具描述性的名稱。 例如：Contoso 北美組織。
     

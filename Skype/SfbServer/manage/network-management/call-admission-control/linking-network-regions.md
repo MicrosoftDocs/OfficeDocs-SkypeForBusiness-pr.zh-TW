@@ -1,23 +1,19 @@
 ---
 title: 連結網路地區
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: '您可以將兩個網路地區間的連結設定為通話許可控制 (CAC) 的一部分。 '
-ms.openlocfilehash: 718f9223749c86fdff5ce98d1d652a0a3f1a9fbc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841175"
 ---
+
+
 # <a name="linking-network-regions-in-skype-for-business-server"></a>連結商務用 Skype Server 中的網路地區
 
 您可以將兩個網路地區間的連結設定為通話許可控制 (CAC) 的一部分。 請使用本文中的章節來查看 newtwork 區域連結資訊，或設定或刪除網路區域連結。 
@@ -82,7 +78,7 @@ ms.locfileid: "60841175"
 
 6.  從 [ **網路地區 \# 1** ] 下拉式清單中，選取兩個要連結的地區之一。
 
-7.  從 [ **網路地區 \# 2** ] 下拉式清單中，選取要連結的其他地區。 此區域必須與為網路地區1所選取的區域不同 \# 。
+7.  從 [ **網路地區 \# 2** ] 下拉式清單中，選取要連結的其他地區。 此區域必須與為網路地區 \# 1 所選取的區域不同。
 
 8.   (選用) 若您想要在這些地區之間的音訊或視頻通話上進行頻寬限制，請從 [ **頻寬原則** ] 下拉式清單中選取頻寬原則設定檔。
 

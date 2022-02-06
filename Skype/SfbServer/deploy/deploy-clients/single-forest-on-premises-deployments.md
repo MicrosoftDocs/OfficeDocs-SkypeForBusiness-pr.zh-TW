@@ -1,25 +1,20 @@
 ---
-title: Skype會議室系統單一樹系內部部署
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype 會議室系統單一樹系內部部署
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: 閱讀此主題以瞭解如何在單一樹系內部部署環境中部署 Skype 的會議室系統。
-ms.openlocfilehash: 0f8ab644efc3d832fd5e201bd49517971ba5ba08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828416"
 ---
-# <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype會議室系統單一樹系內部部署
+
+# <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype 會議室系統單一樹系內部部署
  
 閱讀此主題以瞭解如何在單一樹系內部部署環境中部署 Skype 的會議室系統。
   
@@ -45,7 +40,7 @@ ms.locfileid: "60828416"
 
    在上述範例中，會在 Active Directory 中建立已啟用的使用者帳戶，並在內部部署 Exchange 組織中的會議室建立會議室信箱。 RoomMailboxPassword 參數能指定使用者帳戶的密碼。
     
-3. 透過接受/拒絕會議，將帳戶設定為自動解決衝突。 Skype會議室 Exchange 中的會議室帳戶可由個人管理，但請注意，直到個人接受會議時，才不會出現在 Skype 室系統主畫面行事曆上。
+3. 透過接受/拒絕會議，將帳戶設定為自動解決衝突。 在 Exchange 中 Skype 會議室配備的會議室帳戶可由個人管理，但請注意，直到個別人接受會議時，它才會顯示在 Skype 的室系統主畫面行事曆上。
     
    ```powershell
    Set-CalendarProcessing -Identity LRS01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteSubject $false -RemovePrivateProperty $false
@@ -73,7 +68,7 @@ ms.locfileid: "60828416"
 
 ## <a name="check-resource-mailbox-account-in-active-directory"></a>檢查 Active Directory 中的資源信箱帳戶
 
-在上述步驟1中 Exchange 所建立的會議室信箱帳戶可能是 Active Directory 中已停用的使用者物件。 Skype會議室系統無法使用 Kerberos/NTLM 驗證來登入或驗證，如果在 Active Directory 中停用帳戶。 Skype 的會議室系統用戶端必須能夠對 Exchange Web 服務進行驗證，以取得行事曆設定，也必須能夠使用白板內容傳送電子郵件。 
+在上述步驟1中 Exchange 所建立的會議室信箱帳戶可能是 Active Directory 中已停用的使用者物件。 Skype 會議室系統無法使用 Kerberos/NTLM 驗證來登入或驗證，如果在 Active Directory 中停用帳戶。 Skype 的會議室系統用戶端必須能夠對 Exchange Web 服務進行驗證，以取得行事曆設定，也必須能夠使用白板內容傳送電子郵件。 
   
 因此，如果停用帳戶，您必須執行下列動作，以在 Active Directory 中啟用此帳戶： 
   

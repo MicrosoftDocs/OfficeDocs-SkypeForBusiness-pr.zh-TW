@@ -1,23 +1,18 @@
 ---
 title: 商務用 Skype Server-設定不含媒體旁路的主幹
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: '如何使用啟用媒體旁路設定主幹。 '
-ms.openlocfilehash: 23a2957616d77e16e0a399bbe523fbf9b0affb7f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839875"
 ---
+
 # <a name="skype-for-business-server---configure-a-trunk-without-media-bypass"></a>商務用 Skype Server-設定不含媒體旁路的主幹
 
 如果您想將主幹設定為停用媒體旁路，請遵循下列步驟。 如果您想要設定具有媒體旁路功能的主幹，請參閱[在商務用 Skype Server 中使用媒體旁路設定主幹](configure-a-trunk-with-media-bypass.md)。
@@ -78,7 +73,7 @@ ms.locfileid: "60839875"
 12. 應該選取 [**啟用轉接來電記錄**]，以啟用將通話記錄資訊傳送至轉送伺服器的閘道對等功能。
 13. [**啟用轉寄 P-Asserted-Identity 資料**] 選取此選項，即可啟用 PAI 呼叫發起者資訊，以便在轉送伺服器端與閘道端 (之間轉送，反之亦然) （如有）。
 14. 您應選取 **[啟用輸出路由容錯移轉計時器]** 才能啟用快速容錯移轉。 由於與此主幹相關聯的閘道正在處理撥出電話，所以可以在 10 秒內發出通知。 若轉送伺服器未收到此通知，則會進行重新路由至另一個主幹。 在延遲可能遞延回應時間的網路上或是閘道回應時間在 10 秒以上者，應停用快速容錯移轉。
-15.  (選用) 關聯及 **設定主幹的呼叫號碼轉譯規則** 。 這些轉譯規則適用于撥出電話號碼。
+15.  (選用) 關聯及設定主幹的 **呼叫號碼轉譯規則** 。 這些轉譯規則適用于撥出電話號碼。
     - 若要從企業語音部署中可用之所有轉譯規則的清單中選擇一個或多個規則，請按一下 [**選取**]。 在 **[選取轉譯規則]** 中，按一下您要建立關聯的主幹，然後按一下 **[確定]**。
     - 若要定義新的轉譯規則並建立其與主幹的關聯，請按一下 **[新增]**。 如需定義新規則的詳細資訊，請參閱[在商務用 Skype Server 中定義轉譯規則](defining-translation-rules.md)。
     - 若要編輯已與主幹建立關聯的轉譯規則，按一下規則名稱，然後按一下 **[顯示詳細資料]**。 如需詳細資訊，請參閱[在商務用 Skype Server 中定義轉譯規則](defining-translation-rules.md)。

@@ -1,7 +1,7 @@
 ---
 title: 雲端語音功能的網路設定
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
@@ -11,23 +11,18 @@ search.appverid: MET150
 description: 瞭解您必須為直接路由和增強的緊急服務Location-Based路由所必須設定的網路設定。
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-voice
-- m365initiative-voice
+  - M365-voice
+  - m365initiative-voice
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 862d696024baa75feefbbae7e4458caad22b5566
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833979"
 ---
+
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>雲端語音功能的網路設定Microsoft Teams
 
-瞭解網路區域、網路網站、網路子網和受信任的 IP 位址。 這些條款和概念會用於我們的雲端語音檔，用於[](location-based-routing-plan.md)直接路由和動態緊急電話的定位式[路由](configure-dynamic-emergency-calling.md)。 如果您要在組織中部署這些雲端功能，您必須設定網路設定，以在 Microsoft Teams。
+瞭解網路區域、網路網站、網路子網和受信任的 IP 位址。 這些詞彙和概念會用於我們的雲端語音檔，[](location-based-routing-plan.md)用於直接路由和動態緊急電話的定位式[路由](configure-dynamic-emergency-calling.md)。 如果您要在組織中部署這些雲端功能，您必須設定網路設定，以在 Microsoft Teams 中使用這些Microsoft Teams。
 
 本文提供路由和動態緊急Location-Based常見的網路設定概觀。 根據您部署的雲端語音功能，您可以設定部分或所有設定。 若要瞭解如何設定這些設定的步驟，請參閱在 Teams 中管理雲端[功能的網路拓撲](manage-your-network-topology.md)。
 

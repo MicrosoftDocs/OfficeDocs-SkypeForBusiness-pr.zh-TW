@@ -1,27 +1,22 @@
 ---
 title: SQL 存放區設定展開工具
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SqlStoreSettingsExpander
+  - ms.lync.tb.SqlStoreSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
-ROBOTS: NOINDEX, NOFOLLOW
-description: 若要編輯 SQL Server 資料庫的屬性，您必須變更 SQL Server 的資料庫實例。 您無法使用 [編輯屬性] 對話方塊來執行將封存伺服器資料庫從一部電腦移至另一部的工作。 此外，您無法使用 [編輯屬性] 對話方塊來變更主控中央管理存放區的 SQL Server 實例。
-ms.openlocfilehash: f77eeb2f397b02231b7d1b004c243f218967c040
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864100"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: '若要編輯 SQL Server 資料庫的屬性，您必須變更 SQL Server 的資料庫實例。 您無法使用 [編輯屬性] 對話方塊來執行將封存伺服器資料庫從一部電腦移至另一部的工作。 此外，您無法使用 [編輯屬性] 對話方塊來變更主控中央管理存放區的 SQL Server 實例。'
 ---
+
 # <a name="sql-store-settings-expander"></a>SQL 存放區設定展開工具
  
 若要編輯 SQL Server 資料庫的屬性，您必須變更 SQL Server 的資料庫實例。 您無法使用 [ **編輯屬性** ] 對話方塊來執行將封存伺服器資料庫從一部電腦移至另一部的工作。 此外，您無法使用 [**編輯屬性**] 對話方塊來變更主控中央管理存放區的 SQL Server 實例。

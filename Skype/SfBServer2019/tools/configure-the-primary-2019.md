@@ -1,28 +1,23 @@
 ---
 title: 設定主要管理伺服器
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：設定您的主要管理伺服器、安裝 System Center Operations Manager，以及匯入商務用 Skype Server 2019 的管理元件。
-ms.openlocfilehash: 15fecd23a4376eab64d49820da69f8ac0aec6c08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845996"
 ---
+
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>商務用 Skype Server：設定主要管理伺服器
 
-**摘要：** 設定您的主要管理伺服器、安裝 System Center Operations Manager，然後匯入商務用 Skype Server 2019 的管理元件。
+**總結：** 設定您的主要管理伺服器、安裝 System Center Operations Manager，然後匯入商務用 Skype Server 2019 的管理元件。
 
 若要充分利用商務用 Skype Server 2019 所包含的新狀況監視功能，您必須先指定一部電腦做為您的主要管理伺服器。 接著，您必須在該電腦上安裝 System Center Operations manager 2012 SP1 或 R2 或 System Center Operations manager 2007 R2。 此外，您必須先安裝支援的 SQL Server 版本，才能當作 Operations Manager 後端資料庫運作。
 
@@ -69,7 +64,7 @@ ms.locfileid: "60845996"
 
 您可以使用下列其中一個工具匯入管理元件：
 
-- **System Center Operations Manager** 使用此方法，您可以使用 Operations Manager 來新增商務用 Skype Server 的監控。
+- **System Center Operations manager** 使用此方法，您可以使用 Operations manager 為商務用 Skype Server 新增監視。
 
 - **Operations Manager 殼層** 您可以使用 Operations Manager 殼層直接匯入，或疑難排解使用 System Center Operations Manager 主控台匯入管理元件時所遇到的任何問題。
 

@@ -1,27 +1,22 @@
 ---
 title: 商務用 Skype Server 中的 Peer-to-Peer 會話詳細資料包告
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6be1d676-68f7-4a53-a72a-de73296c5571
 description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer 會話詳細資料包告。
-ms.openlocfilehash: fe49c455391583a02f873769a75d86da62fe2a25
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829967"
 ---
+
 # <a name="peer-to-peer-session-detail-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 Peer-to-Peer 會話詳細資料包告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的 Peer-to-Peer 會話詳細資料包告。
+**總結：** 深入瞭解商務用 Skype Server 中的 Peer-to-Peer 會話詳細資料包告。
   
 Peer-to-Peer 會話詳細資料包告會傳回點對點工作階段的詳細資訊。 例如，如果您選取立即訊息會話，該報告將會告訴您會話中的兩位使用者所傳送的郵件數目。
   

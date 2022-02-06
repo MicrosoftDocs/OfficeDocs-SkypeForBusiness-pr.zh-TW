@@ -1,27 +1,22 @@
 ---
 title: 外部應用程式範圍節點
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.ExternalApplicationScopeNode
+  - ms.lync.tb.ExternalApplicationScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: 此節點會顯示此信任的應用程式集區的集區完整功能變數名稱 (FQDN) 、複寫設定和下一個躍點集區。 您可以執行下列動作：
-ms.openlocfilehash: cfa374b21d1e60fc658cd7fa6777d4890d6bbfec
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860240"
 ---
+
 # <a name="external-application-scope-node"></a>外部應用程式範圍節點
  
 此節點會顯示此信任的應用程式集區的集區完整功能變數名稱 (FQDN) 、複寫設定和下一個躍點集區。 您可以執行下列動作：

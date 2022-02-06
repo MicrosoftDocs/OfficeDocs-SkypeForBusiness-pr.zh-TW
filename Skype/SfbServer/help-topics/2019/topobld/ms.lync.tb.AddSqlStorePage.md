@@ -1,27 +1,22 @@
 ---
 title: 新增 SQL 存放區
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddSqlStorePage
+  - ms.lync.tb.AddSqlStorePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 若要定義新的 SQL 儲存區，這表示您指定的是 SQL Server 型資料庫和 SQL Server 實例（預設實例或命名實例），您必須指定下列各項。
-ms.openlocfilehash: d738fb2efa3703686f99ada3ce1ed7a181f7b1a7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836915"
 ---
+
 # <a name="add-sql-store"></a>新增 SQL 存放區
 
 若要定義新的 SQL 儲存區，這表示您指定的是 SQL Server 型資料庫和 SQL Server 實例（預設實例或命名實例），您必須指定下列各項。

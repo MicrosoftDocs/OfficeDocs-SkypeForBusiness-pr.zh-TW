@@ -1,27 +1,22 @@
 ---
 title: 會議組態
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ConfMeetingSettingMain
+  - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
-description: 會議設定設定會定義會議類型 (也是 calledmeetings) 使用者可以建立，並 (控制) 匿名使用者和電話撥入式會議使用者是否可以加入這些會議。 這些設定只適用于排程的會議。 在用戶端中按一下 [立即開會] 選項，不會套用至所建立的特定會議。
-ms.openlocfilehash: 009985af02283752f29be14379d55da59cf066d2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855650"
+description: '會議設定設定會定義會議類型 (也是 calledmeetings) 使用者可以建立，並 (控制) 匿名使用者和電話撥入式會議使用者是否可以加入這些會議。 這些設定只適用于排程的會議。 在用戶端中按一下 [立即開會] 選項，不會套用至所建立的特定會議。'
 ---
+
 # <a name="meeting-configuration"></a>會議組態
 
 會議設定設定會定義使用者可以建立的會議 (類型 ) ，也可以 (控制) 匿名使用者和電話撥入式會議使用者是否可以加入這些會議。 這些設定只適用于排程的會議。 在用戶端中按一下 [立即開會] 選項，不會套用至所建立的特定會議。
@@ -50,18 +45,18 @@ ms.locfileid: "60855650"
 
 下列清單說明頁面上的命令。
 
-- **新** 啟動新的網站會議設定或集區會議設定。
+- **新增功能** 啟動新的網站會議設定或集區會議設定。
 
 - **編輯** 開啟選取的會議設定進行編輯、選取清單中所有的會議設定，或刪除選取的網站設定或集區設定。
 
     > [!NOTE]
     > **刪除** 會將全域會議設定的設定重設為預設值。
 
-- **Refresh** 重新整理會議設定清單。
+- **刷新** 重新整理會議設定清單。
 
 下列清單說明頁面上的欄位。
 
-- **名稱** 識別會議設定。
+- **名字** 識別會議設定。
 
 - **範圍** 識別會議設定的範圍：全域、網站或集區。
 

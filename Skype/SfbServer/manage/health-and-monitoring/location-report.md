@@ -1,27 +1,22 @@
 ---
 title: 商務用 Skype Server 中的位置報告
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 description: 摘要：瞭解商務用 Skype Server 中的位置報告。
-ms.openlocfilehash: afbbf54e913146326ee49e6db051869fa2ac7aca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862400"
 ---
+
 # <a name="location-report-in-skype-for-business-server"></a>商務用 Skype Server 中的位置報告
  
-**摘要：** 瞭解商務用 Skype Server 中的位置報告。
+**總結：** 瞭解商務用 Skype Server 中的位置報告。
   
 位置報告提供依網路位置 (，也就是由網路子網) 分組之通話品質計量的相關資訊。 如果使用者遇到來電問題，此報告可協助您判斷這些問題是否受到廣泛使用，或是主要局限于指定的網段。
   

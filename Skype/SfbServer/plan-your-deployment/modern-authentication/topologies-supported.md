@@ -1,26 +1,21 @@
 ---
 title: 新式驗證支援的商務用 Skype 拓撲
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: 本文列出商務用 Skype 中新式驗證支援的線上和內部部署拓撲，以及適用于每個拓撲的安全性功能。
-ms.openlocfilehash: ed6710e0f25e946e8cb9e7034300bd450dd07baa
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835071"
 ---
+
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>新式驗證支援的商務用 Skype 拓撲
 
 本文列出商務用 Skype 中新式驗證支援的線上和內部部署拓撲，以及適用于每個拓撲的安全性功能。
@@ -92,8 +87,8 @@ ms.locfileid: "60835071"
 |混合2  <br/> |![支援的 MA 與 S4B 混合拓撲2、SFBO，以及使用 NM-EXCH-UM-2ND on 部署的 MA。](../../media/247a985d-39cd-4c16-a19e-b8b65207d82e.PNG)           <br/> 使用者駐留/信箱位於： NM-EXCH-UM-2ND 和 SFBO  <br/> |僅適用于 SFBO 的 MA 為開啟。 SFBO 中的使用者已 Azure AD 授權伺服器，但 nm-exch-um-2nd 內部部署的 AD。  <br/> |MFA，CBA，CA/MAM 搭配 Intune。\*  <br/> |
 |混合3  <br/> |![支援的 MA 與 SFB，EXO 搭配 MA 開啟，加上 NM-EXCH-UM-2ND 和 SFB 內部部署。](../../media/772dc261-c041-4a96-90d0-fd0b5124decf.PNG)           <br/> 使用者駐留/信箱位於： EXO + SFB，或 NM-EXCH-UM-2ND + SFB  <br/> |此拓撲中無可用的 SFB MA 功能  <br/> |SFB 沒有 MA 功能。  <br/> |
 |混合4  <br/> |![支援的 MA 與 SFB、SFBO 和 MA 開啟，加上 NM-EXCH-UM-2ND 和 SFB。](../../media/8971bfaf-961f-476c-b16e-5418d1fa0a6d.PNG)           <br/> 使用者駐留/信箱位於： NM-EXCH-UM-2ND + SFBO 或 NM-EXCH-UM-2ND + SFB  <br/> |MA 已開啟針對 SFBO，因此位於 SFBO 之使用者的授權伺服器 Azure AD。 部署中的使用者在 SFB 和 EXO 使用 AD。  <br/> |僅限使用 Intune for online 使用者的 MFA、CBA、CA/MAM。\*  <br/> |
-|混合5  <br/> |![SFB 中支援的 MA、EXO 搭配 MA，以及 SFBO 搭配 MA，以及 NM-EXCH-UM-2ND 及 SFB 內部部署。](../../media/ecc366cf-1a7b-4ad1-bf8e-57111b8ad94f.PNG)           <br/> 使用者駐留/信箱位於： EXO + SFBO、EXO + SFB、NM-EXCH-UM-2ND + SFBO 或 NM-EXCH-UM-2ND + SFB  <br/> |MA 在 EXO 和 SFBO 中皆已開啟，因此 Azure AD 位於 SFBO 的使用者的授權伺服器;部署中的使用者在 NM-EXCH-UM-2ND 和 SFB 使用 AD。  <br/> |僅限使用 Intune for online 使用者的 MFA、CBA、CA/MAM。\*  <br/> |
-|混合6  <br/> |![在混合式6拓撲中，新式驗證是在所有的四個 possibile 位置上，而是現代驗證時則是理想的 situtation。](../../media/8de21756-9152-466d-a706-58b258e2271c.png)           <br/> 使用者駐留/信箱位於： EXO + SFBO、EXO + SFB、NM-EXCH-UM-2ND + SFBO 或 NM-EXCH-UM-2ND + SFB  <br/> |MA 是在所有位置，因此授權伺服器為所有使用者 Azure AD。  (線上和內部部署)   <br/>  如需 [https://aka.ms/ModernAuthOverview](/microsoft-365/enterprise/hybrid-modern-auth-overview) 部署步驟，請參閱。 <br/> |透過 Intune) 針對所有使用者的 MFA、CBA 及 CA/MAM (。  <br/> |
+|混合5  <br/> |![SFB 中支援的 MA、EXO 搭配 MA，以及 SFBO 搭配 MA，以及 NM-EXCH-UM-2ND 及 SFB 內部部署。](../../media/ecc366cf-1a7b-4ad1-bf8e-57111b8ad94f.PNG)           <br/> 使用者駐留/信箱位於： EXO + SFBO、EXO + SFB、NM-EXCH-UM-2ND + SFBO 或 NM-EXCH-UM-2ND + SFB  <br/> |MA 在 EXO 和 SFBO 中皆已開啟，因此 Azure AD 位於 SFBO 的使用者、nm-exch-um-2nd 中的部署使用者，以及 SFB 使用 AD。  <br/> |僅限使用 Intune for online 使用者的 MFA、CBA、CA/MAM。\*  <br/> |
+|混合6  <br/> |![在混合式6拓撲中，新式驗證是在所有的四個 possibile 位置上，而是現代驗證時則是理想的 situtation。](../../media/8de21756-9152-466d-a706-58b258e2271c.png)           <br/> 使用者駐留/信箱位於： EXO + SFBO、EXO + SFB、NM-EXCH-UM-2ND + SFBO 或 NM-EXCH-UM-2ND + SFB  <br/> |MA 是在所有位置，因此授權伺服器為所有使用者 Azure AD。  (線上和內部部署)   <br/>  如需部署步驟，請參閱 [https://aka.ms/ModernAuthOverview](/microsoft-365/enterprise/hybrid-modern-auth-overview) 。 <br/> |透過 Intune) 針對所有使用者的 MFA、CBA 及 CA/MAM (。  <br/> |
 
 \*-MFA 包括 Windows 桌面、MAC、iOS、Android 裝置和 Windows 電話;CBA 包括 Windows 桌面、iOS 和 Android 裝置;具有 Intune 的 CA/MAM 包含 Android 和 iOS 裝置。
 

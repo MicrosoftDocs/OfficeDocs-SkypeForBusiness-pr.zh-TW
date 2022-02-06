@@ -1,27 +1,22 @@
 ---
 title: Director 範圍節點
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.DirectorScopeNode
+  - ms.lync.tb.DirectorScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: 此節點會顯示此 Director 集區的完整網域名稱 (FQDN)、連接埠及關聯的檔案存放區。您可以執行下列動作：
-ms.openlocfilehash: de50c3152578bb38bb260c65f3a1ef41fbe08866
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851157"
 ---
+
 # <a name="director-scope-node"></a>Director 範圍節點
  
 此節點會顯示此 Director 集區的完整網域名稱 (FQDN)、連接埠及關聯的檔案存放區。您可以執行下列動作：

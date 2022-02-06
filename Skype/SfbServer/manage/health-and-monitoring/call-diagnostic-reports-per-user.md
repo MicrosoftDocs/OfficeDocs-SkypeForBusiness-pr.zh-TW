@@ -1,24 +1,19 @@
 ---
-title: " (每位使用者) 中的通話診斷報告商務用 Skype Server"
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: ' (每位使用者) 中的通話診斷報告商務用 Skype Server'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 摘要：瞭解商務用 Skype Server 中使用的各個使用者呼叫診斷報告。
-ms.openlocfilehash: 03b3afba9a9177bc1628c100ca5083f1be96b48e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864850"
 ---
+
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a> (每位使用者) 中的通話診斷報告商務用 Skype Server
   
 通話診斷報告可提供每一使用者失敗的對等和會議會話的資訊。 目前只有一個報告（即 **使用者活動報告**）。
@@ -27,13 +22,13 @@ ms.locfileid: "60864850"
 
 「使用者活動報告」有時稱為「服務台」報告。這是因為此報告常被服務台人員用來擷取特定使用者的工作階段資訊。在 [使用者 URI 首碼] 方塊中輸入使用者的 SIP URI，即可篩選個別使用者所接收或發出的通話。
 
-如果您這麼做，使用者活動報告會傳回其 SIP URI 以指定字串開頭的任何使用者資訊。 例如，如果您在 [URI] 方塊中輸入 **ken** ，使用者活動報告就會找到 **ken**。Myer@litwareinc.com。 不過，它也會找到下列使用者：
+如果您這麼做，使用者活動報告會傳回其 SIP URI 以指定字串開頭的任何使用者資訊。 例如，如果您在 [URI] 方塊中輸入 **ken** ，使用者活動報告就 **會找到 Myer@litwareinc.com**。 不過，它也會找到下列使用者：
 
 - **ken** azi@litwareinc.com
 
 - **ken** burg@litwareinc.com
 
-- **Ken**。Sanchez@litwareinc.com
+- **** Sanchez@litwareinc.com
 
 - **Ken** nedy@litwareinc.com
 

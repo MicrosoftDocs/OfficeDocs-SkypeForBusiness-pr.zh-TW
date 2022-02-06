@@ -1,27 +1,22 @@
 ---
 title: Edge 下一個躍點設定展開工具
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeNextHopSettingsExpander
+  - ms.lync.tb.EdgeNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 若要設定或修改 Edge server 將用來與內部基礎結構通訊的下一個躍點集區，請從清單中選取 Director、Director 集區、前端伺服器或前端伺服器集區。 只有已在拓撲產生器中設定的 Director 或前端伺服器會出現在清單中。
-ms.openlocfilehash: 0a919d50be48066cc5e07c710289200b7d0821db
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844746"
 ---
+
 # <a name="edge-next-hop-settings-expander"></a>Edge 下一個躍點設定展開工具
 
 若要設定或修改 Edge server 將用來與內部基礎結構通訊的 **下一個躍點** 集區，請從清單中選取 Director、director 集區、前端伺服器或前端伺服器集區。 只有已在拓撲產生器中設定的 Director 或前端伺服器會出現在清單中。

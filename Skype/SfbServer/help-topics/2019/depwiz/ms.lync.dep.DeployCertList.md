@@ -1,27 +1,22 @@
 ---
 title: 憑證清單
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployCertList
+  - ms.lync.dep.DeployCertList
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
-ROBOTS: NOINDEX, NOFOLLOW
-description: 若要指派憑證，請從本機憑證儲存區選取憑證。 按 [下一步] 繼續。
-ms.openlocfilehash: cec1b97abb8827894661c1738dd775ca8b6e6251
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846916"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: '若要指派憑證，請從本機憑證儲存區選取憑證。 按 [下一步] 繼續。'
 ---
+
 # <a name="certificate-list"></a>憑證清單
  
 若要指派憑證，請從本機憑證儲存區選取憑證。 按 **[下一步]** 繼續。

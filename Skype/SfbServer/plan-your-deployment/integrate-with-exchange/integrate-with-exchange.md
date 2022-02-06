@@ -1,25 +1,20 @@
 ---
 title: 規劃整合商務用 Skype 和 Exchange
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ea22beb9-c02e-47cb-836d-97a556969052
 description: 摘要：請參閱本主題，以取得如何將商務用 Skype Server 與 Exchange Server 2016 或 Exchange Server 2013 整合相關的資訊。
-ms.openlocfilehash: 5edfdf44b50d2a58c097bed5ee83855f375ff895
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562835"
 ---
+
 # <a name="plan-to-integrate-skype-for-business-and-exchange"></a>規劃整合商務用 Skype 和 Exchange
  
 **總結：** 如需如何將商務用 Skype Server 與 Exchange Server 2016 或 Exchange Server 2013 整合的資訊，請參閱本主題。

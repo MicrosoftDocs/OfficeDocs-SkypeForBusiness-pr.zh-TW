@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中指定保留 CDR 資料
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: 摘要：瞭解如何管理商務用 Skype Server (CDR) 資料的詳細通話記錄。
-ms.openlocfilehash: b232e853e28f2dbdee33c666e65ca89932796941
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852007"
 ---
+
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>在商務用 Skype Server 中指定保留 CDR 資料
  
-**摘要：** 瞭解如何管理商務用 Skype Server (CDR) 資料的詳細通話記錄。
+**總結：** 瞭解如何管理商務用 Skype Server (CDR) 資料的詳細通話記錄。
   
 根據預設，[詳細通話記錄] (CDR) 資料會在60天之後清除。 您可以使用 [ **詳細通話記錄** ] 頁面上的設定，將資料保留較長或更短的時間週期。 如果您停用 CDR，啟用 CDR 之前所捕獲的資料也會受到清除。
   

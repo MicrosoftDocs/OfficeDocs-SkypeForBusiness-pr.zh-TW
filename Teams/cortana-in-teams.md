@@ -1,7 +1,7 @@
 ---
 title: Cortana語音協助Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -11,36 +11,31 @@ search.appverid: MET150
 description: 瞭解如何使用語音Cortana語音協助Teams
 ms.localizationpriority: medium
 ms.custom:
-- Teams-upgrade-guidance
+  - Teams-upgrade-guidance
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: fe6434fe874367757dfb7ad954aacaf8d3755041
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205493"
+  - Microsoft Teams
 ---
+
 # <a name="cortana-voice-assistance-in-teams"></a>Cortana語音協助Teams
 
 > [!Note]
-> Cortana iOS 和 Android 的 Microsoft Teams 行動應用程式，以及適用于美國、英國、加拿大、印度和澳洲使用者的 Microsoft Teams 行動應用程式支援語音協助。 Microsoft Teams 會議室上Windows僅適用于設定為 en-us 的裝置。 Cortana語音協助目前不適用於 GCC、GCC-High、DoD 和非美國 EDU 租使用者。 Cortana行動應用程式中Teams語音協助，現在適用于美國 EDU 客戶。 擴充至其他語言和地區，將在未來發行時進行。
+> Cortana iOS 和 Android Microsoft Teams 行動應用程式中支援語音協助，Microsoft Teams適用于美國、英國、加拿大、印度和澳洲的使用者。 Microsoft Teams 會議室上Windows僅適用于設定為 en-us 的裝置。 Cortana目前不適用於 GCC、GCC高、DoD 和非美國 EDU 租使用者。 Cortana行動應用程式中Teams語音協助，現在適用于美國 EDU 客戶。 擴充至其他語言和地區，將在未來發行時進行。
 
 
-Cortana行動裝置應用程式中Teams、Microsoft Teams 會議室上Windows，以及Microsoft Teams裝置上的語音Microsoft 365 企業版 使用者使用自然口語來簡化通訊、共同作業和會議相關工作。 使用者可以 Cortana選取 Teams 行動應用程式右上角的麥克風按鈕，或在 Microsoft Teams 會議室中念出「Cortana」，或是使用 Microsoft Teams 顯示器來與 Microsoft Teams 說話。 若要不用手快速與小組聯繫，以及進行中，使用者可以說出「打電話給 Megan」或「傳送訊息到下一個會議」等查詢。 使用者也可以說「加入我的下一個會議」，並使用語音協助來共用檔案、檢查他們的日曆等來加入會議。 這些語音協助體驗是使用[Cortana](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide)企業級服務提供，完全符合 Office 365 的隱私權、安全性和合規性承諾，如線上服務條款[ (OST ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)) 中反映。
+Cortana行動裝置應用程式中Teams、Microsoft Teams 會議室上Windows，以及Microsoft Teams裝置上的語音Microsoft 365 企業版 使用者使用自然口語來簡化通訊、共同作業和會議相關工作。 使用者可以 Cortana選取 Teams 行動應用程式右上角的麥克風按鈕，或在 Microsoft Teams 會議室或使用 Microsoft Teams Cortana 顯示器時，對 Microsoft Teams 說話。 若要不用手快速與小組聯繫，以及進行中，使用者可以說出「打電話給 Megan」或「傳送訊息到下一個會議」等查詢。 使用者也可以說「加入我的下一個會議」，並使用語音協助來共用檔案、檢查他們的日曆等來加入會議。 這些語音協助體驗是使用[Cortana](/microsoft-365/admin/misc/cortana-integration?view=o365-worldwide)企業級服務提供，完全符合 Office 365 的隱私權、安全性和合規性承諾，如線上服務條款[ (OST ](https://www.microsoft.com/licensing/product-licensing/products?rtc=1)) 中反映。
 
 ## <a name="admin-control-and-limitations"></a>系統管理控制與限制
 
-Cortana中Teams語音協助是使用完全符合 Office 365 企業層級隱私權、安全性和合規性承諾的服務，如線上服務條款 (OST) 所反映。 此功能預設為租使用者啟用。
+Cortana，Teams 中的語音協助會使用完全符合 Office 365 企業層級隱私權、安全性和合規性承諾的服務提供，如線上服務條款 (OST) 。 此功能預設為租使用者啟用。
 
-租使用者管理員可以控制租使用者中的哪些人Cortana TeamsCortanaPolicy Teams使用 (語音) 。 此策略設定為使用者帳戶層級或租使用者層級。 系統管理員可以使用此策略控制項中的 CortanaVoiceInvocationMode 欄位來判斷 Cortana 是否停用、是否僅以按鈕啟動啟用，或是否同時啟用喚醒字詞 (也適用于支援此功能的裝置 ，例如 Microsoft Teams 顯示) 。
+租使用者管理員可以控制租使用者中的哪些人Cortana TeamsCortanaPolicy Teams使用 (語音) 。 此策略設定為使用者帳戶層級或租使用者層級。 系統管理員可以使用此策略控制項中的 CortanaVoiceInvocationMode 欄位來判斷 Cortana 是否停用、是否僅以按鈕式啟用啟用，或是否同時啟用適用于支援它的裝置 (，例如 Microsoft Teams 顯示) 。
 
-系統管理員可以使用下列 PowerShell Cmdlet 來管理此 (因為系統管理中心目前Microsoft Teams此) 。
+系統管理員可以使用下列 PowerShell Cmdlet 來管理此 (系統管理中心目前Microsoft Teams此) 。
 
 - [New-CsTeamsCortanaPolicy](/powershell/module/skype/New-CsTeamsCortanaPolicy)
 
@@ -52,13 +47,13 @@ Cortana中Teams語音協助是使用完全符合 Office 365 企業層級隱私�
 
 - [Remove-CsTeamsCortanaPolicy](/powershell/module/skype/Remove-CsTeamsCortanaPolicy)
 
-例如，下列命令會建立名稱為「EmployeeCortanaPolicy」的新政策，Cortana停用Microsoft Teams語音協助。  
+例如，下列命令會建立名稱為「EmployeeCortanaPolicy」的新Cortana，Microsoft Teams語音協助。  
 
 ```PowerShell
 PS C:\> New-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode Disabled
 ```
 
-此範例顯示更新名稱為「EmployeeCortanaPolicy」的現有政策，Cortana按鈕Microsoft Teams啟用語音協助。 使用者可以在 Cortana 中選取 Cortana麥克風按鈕來Teams。 喚醒 (「嗨Cortana」或「Cortana」) 會停用。  
+此範例顯示更新名稱為「EmployeeCortanaPolicy」的現有Cortana，並僅使用按鈕Microsoft Teams啟用語音協助。 使用者可以在 Cortana 中選取 Cortana麥克風按鈕來Teams。 喚醒 (「嗨Cortana」或「Cortana」) 會停用。  
 
 ```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode PushToTalkUserOverride
@@ -74,7 +69,7 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 
 - Teams行動應用程式不支援喚醒字詞啟用，但日後會支援。  
 
-- Microsoft Teams 會議室畫面Windows Microsoft Teams裝置上，將會支援喚醒字詞啟用。
+- Microsoft Teams 會議室裝置Windows Microsoft Teams裝置上，將會支援喚醒字詞啟用。
 
 ## <a name="user-control"></a>使用者控制項
 
@@ -82,9 +77,9 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 
 - 選取行動應用程式中的麥克風Teams按鈕。
 
-- 選取麥克風按鈕，或在 Cortana中Microsoft Teams 會議室。
+- 選取麥克風按鈕，或在Cortana中Microsoft Teams 會議室。
 
-- 在顯示裝置Cortana上Microsoft Teams「Microsoft Teams」。
+- 在顯示Cortana上Microsoft Teams「Microsoft Teams」。
 
 您可以使用裝置中的Cortana，Teams裝置中的設定來控制裝置是否已啟用此功能。
 
@@ -95,16 +90,16 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 只有在租使用者層級啟用Cortana才能在裝置層級進行變更。 
 
 在裝置層級，您可以設定Cortana兩種不同的使用方式。 您可以同時啟用其中一個選項，或同時啟用兩個選項： 
-- 點一下麥克風，這個麥克風稱為Cortana _按以說話_
-- 說「嗨，Cortana」，這稱為 _「Cortana語音啟用」_
+- 點一下麥克風，Cortana _按以說話_
+- 說「嗨，Cortana」，Cortana _語音啟用_
 
-Cortana 如果您的房間設定為下列任何一種語言，則預設會啟用推送交談：en-au (澳洲)  (、加拿大) 、en-gb (英國) 、en-in (印度) 、en-us (美國) 。 [瞭解更多資訊。](/MicrosoftTeams/rooms/console#to-apply-your-desired-language) Cortana圖示會 _取代更多__..._ Teams 功能表。 若要停用Cortana _按以交談，請使用_ PowerShell。[瞭解更多資訊。](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
+Cortana 如果您的房間設定為下列任何一種語言，則預設會啟用按按交談：en-au (澳洲)  (、加拿大) 、en-gb (英國) 、en-in (印度) 、美國 () 。 [瞭解更多資訊。](/MicrosoftTeams/rooms/console#to-apply-your-desired-language) Cortana圖示會 _取代更多__..._ Teams 功能表。 若要停用Cortana _按以交談，請使用_ PowerShell。[瞭解更多資訊。](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
 
-若要啟用 _Cortana啟用，_ 必須符合以下條件：
-- 已Cortana裝置必須連接到您的 Teams會議室。 您可以在本文結尾找到認證裝置清單。
+若要啟用Cortana _啟用_，必須符合以下條件：
+- 已Cortana裝置必須連接到您的會議室Teams裝置。 您可以在本文結尾找到認證裝置清單。
 - Teams 會議室必須以下列任何語言設定：en-au (澳洲) 、加拿大 () 、en-gb (英國) 、en-in (印度) 、en-us (美國) 。 日後將會提供更多語言。
 - 必須進行下列其中一個組組變更：
-  - 開啟系統管理中心Teams[深入瞭解。](/microsoftteams/rooms/rooms-manage)
+  - 在系統管理中心開啟Teams[深入瞭解。](/microsoftteams/rooms/rooms-manage)
   - 新增下列 XML 屬性至 SkypeSettings XML 檔案：
 
     ```xml

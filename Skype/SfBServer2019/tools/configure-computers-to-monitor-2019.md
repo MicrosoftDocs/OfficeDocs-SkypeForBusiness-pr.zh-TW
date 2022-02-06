@@ -1,35 +1,30 @@
 ---
 title: 設定所要監視的商務用 Skype Server 電腦
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：在商務用 Skype Server 2019 電腦上安裝 Operations Manager 代理程式檔案，以加以監控，並設定電腦成為 System Center proxy。
-ms.openlocfilehash: 975c9eaa7d70720fefa52b8adc84b4f17200f972
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859640"
 ---
+
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>將商務用 Skype Server 電腦設定為 monitore
 
-**摘要：** 在商務用 Skype Server 2019 電腦上安裝 Operations Manager 代理程式檔案，以加以監控，並設定電腦成為 System Center proxy。
+**總結：** 在商務用 Skype Server 2019 電腦上安裝 Operations Manager 代理程式檔案，以加以監控，並設定電腦成為 System Center proxy。
 
 您要監視的每一部商務用 Skype Server 2019 電腦都必須能夠自我報告其存在於管理伺服器。 若要啟用此程式，您必須在要監視的每一部電腦上安裝 Operations Manager 代理程式檔案。 安裝代理程式檔案之後，您必須將電腦設定為充當 System Center proxy。 在執行這些程式之前，請務必先在這些電腦上安裝及設定商務用 Skype Server。
 
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>將憑證安裝在位於周邊網路外的監看員節點上
 <a name="watcher_node_outside"> </a>
 
-System Center在周邊網路中執行的 Operations Manager 代理程式 (例如商務用 Skype Server Edge Server) ，企業 (以外的外部綜合交易觀察器節點) 或跨 Active Directory 信任界限，可能需要設定 System Center Operations Manager 閘道伺服器。 此伺服器角色可讓代理程式與根管理伺服器之間不具有信任關係，以引發警示。 如需詳細資訊，請參閱 [管理 Operations Manager 中的閘道伺服器 2012](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))。
+在周邊網路中執行的 Operations Manager 代理程式 System Center (例如商務用 Skype Server Edge Server) ，在企業 (（例如外部綜合交易觀察器節點）以外或跨 Active Directory 信任界限的情況下，可能需要設定) Operations Manager 閘道伺服器。 此伺服器角色可讓代理程式與根管理伺服器之間不具有信任關係，以引發警示。 如需詳細資訊，請參閱 [管理 Operations Manager 中的閘道伺服器 2012](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))。
 
 如果您在這些位置中的其中一個位置部署代理程式，您也需要要求及設定憑證，以啟用監看員節點，將提醒傳送至 System Center Operations Manager。 為了簡化這個程序，Operations Manager 團隊已建立一套公用程式，讓您要求正確類型的憑證，並安裝於監控程式節點電腦上。 如需詳細資訊，以及若要下載這些公用程式，請參閱 [使用憑證產生嚮導輕鬆取得未加入網域之代理程式的憑證](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467)。
 

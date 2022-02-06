@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中建立會議配置設定
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 摘要：瞭解如何在商務用 Skype Server 中建立會議配置設定。
-ms.openlocfilehash: 1b0ba956e467f5b03036d8ef1d1629b4fc4dc517
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850026"
 ---
+
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中建立會議配置設定
  
-**摘要：** 瞭解如何在商務用 Skype Server 中建立會議配置設定。
+**總結：** 瞭解如何在商務用 Skype Server 中建立會議配置設定。
   
 您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面來建立會議設定設定。
   
@@ -39,7 +34,7 @@ ms.locfileid: "60850026"
     
     - 若要建立集區層級原則，請按一下 [ **集** 區設定]。 在 [ **選取服務** ] 搜尋欄位中，輸入您要定義會議加入設定之集區服務的全部或部分名稱。 在產生的服務清單中，按一下您想要的集區，然後按一下 **[確定]**。
     
-5. 若要透過會議廳從公用交換電話網路 (PSTN) 傳送從公用交換電話網路撥號的參與者，請清除 [ **PSTN 來電者旁路會議廳** ] 核取方塊。 根據預設，從 PSTN 撥入的參與者會直接進入會議。
+5. 若要透過會議廳從公用交換電話網路 (PSTN) 傳送從公用交換電話網路撥號的參與者，請清除 [PSTN 來電者 **旁路會議廳** ] 核取方塊。 根據預設，從 PSTN 撥入的參與者會直接進入會議。
     
 6. 若要設定在會議中誰可以是簡報者，請在 [ **指定為簡報者**] 中，執行下列其中一項動作：
     

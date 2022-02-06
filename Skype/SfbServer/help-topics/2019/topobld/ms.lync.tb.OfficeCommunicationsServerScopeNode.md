@@ -1,27 +1,22 @@
 ---
 title: Office Communications Server 範圍節點
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.OfficeCommunicationsServerScopeNode
+  - ms.lync.tb.OfficeCommunicationsServerScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 這是初步檔，而且可能會變更。 空白主題會以預留位置形式包含。
-ms.openlocfilehash: cc5132878e9e4dc6f73b13aea3fcca6e53b44d47
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865120"
 ---
+
 # <a name="office-communications-server-scope-node"></a>Office Communications Server 範圍節點
 
 這是初步檔，而且可能會變更。 空白主題會以預留位置形式包含。

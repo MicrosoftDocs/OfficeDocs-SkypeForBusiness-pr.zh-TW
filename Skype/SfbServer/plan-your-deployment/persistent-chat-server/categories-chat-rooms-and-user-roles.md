@@ -1,28 +1,23 @@
 ---
 title: 商務用 Skype Server 2015 中的持續性聊天類別、聊天室和使用者角色
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 2015 中的 Persistent chat Server 的類別、聊天室和使用者和系統管理員角色。
-ms.openlocfilehash: 212e731da29bc327487e0e6512db413546d20670
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857250"
 ---
+
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的持續性聊天類別、聊天室和使用者角色
  
-**摘要：** 閱讀此主題以瞭解商務用 Skype Server 2015 中的 Persistent chat Server 的類別、聊天室和使用者與系統管理員角色。
+**總結：** 閱讀此主題以瞭解商務用 Skype Server 2015 中的 Persistent chat Server 的類別、聊天室和使用者與系統管理員角色。
   
 您可以建立聊天室類別，然後指定類別中的類別和聊天室的存取權，以控制對聊天室的存取。 您也可以指定各種系統管理員角色。 本主題說明下列事項： 
   

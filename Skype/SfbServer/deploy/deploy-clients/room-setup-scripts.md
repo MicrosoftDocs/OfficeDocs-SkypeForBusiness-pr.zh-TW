@@ -1,25 +1,20 @@
 ---
-title: Skype會議室系統機房安裝腳本
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype 房間系統機房安裝腳本
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: 閱讀此主題以尋找布建 Skype 房間系統帳戶的範例腳本。
-ms.openlocfilehash: ef70cc0c36cf4a1434b0ca1e120a8d81799d7640
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859630"
 ---
-# <a name="skype-room-system-room-setup-scripts"></a>Skype會議室系統機房安裝腳本
+
+# <a name="skype-room-system-room-setup-scripts"></a>Skype 房間系統機房安裝腳本
  
 閱讀此主題以尋找布建 Skype 房間系統帳戶的範例腳本。
   
@@ -47,7 +42,7 @@ Set-CsMeetingRoom -Identity "conference room" -LineURI "tel:+14255551669;ext=166
     
 - Windows PowerShell (64 位版本) 或 (32 位版本 Windows Azure Active Directory 模組) 
     
-- TeamsPowerShell 模組
+- Teams PowerShell 模組
     
 - 視需要重新開機
     

@@ -1,27 +1,22 @@
 ---
 title: 簡單 URL 設定展開工具
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SimpleUrlSettingsExpander
+  - ms.lync.tb.SimpleUrlSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 若要指定新的、移除現有的，或變更使用中的簡易 URLs，請執行下列操作：
-ms.openlocfilehash: 19d62f560de23276d3689a7a3083d014e25794b0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828856"
 ---
+
 # <a name="simple-url-settings-expander"></a>簡單 URL 設定展開工具
 
 若要指定新的、移除現有的，或變更使用中的簡易 URLs，請執行下列操作：

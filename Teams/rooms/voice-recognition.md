@@ -1,28 +1,23 @@
 ---
-title: 租使用者系統管理在 (語音設定檔) 語音Teams 會議室
+title: 租使用者系統管理中語音 (設定檔) 控制項Teams 會議室
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解租使用者系統管理在會議室 (語音設定檔) 的Teams控制。
+description: 瞭解租使用者系統管理在會議室 (語音設定檔) 語音Teams控制項。
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 36a501220a986e3873c8ce6a75f1f4f704aa2533
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205253"
+  - Microsoft Teams
 ---
+
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智慧型喇叭的語音辨識技術控制項
 
 智慧型喇叭會使用語音設定檔資訊來識別誰在即時抄寫中表達內容。 當Microsoft Teams 會議室會議室Windows配備智慧型演講者時，可在會議期間使用即時抄寫。 本文將說明租使用者系統管理員如何控制用於語音辨識的語音分析，以產生即時抄寫。 您可以控制組織使用語音辨識的程度，以及下列功能：

@@ -1,35 +1,30 @@
 ---
 title: Teams虛擬訪問 - EHR 連接器系統管理員報告
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 searchScope:
-- Microsoft Teams
-- Microsoft Cloud for Healthcare
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_Healthcare
-- microsoftcloud-healthcare
-- m365solution-healthcare
-- m365solution-scenario
+  - M365-collaboration
+  - Teams_ITAdmin_Healthcare
+  - microsoftcloud-healthcare
+  - m365solution-healthcare
+  - m365solution-scenario
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.reviewer: ansantam
 description: 查看 EHR 連接器Teams管理員報告
-ms.openlocfilehash: 256a93dc9e78036659eccf86c54d9da62f4277bb
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959882"
 ---
+
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams EHR 連接器系統管理員報告
 
 [Microsoft Teams電子健康情況記錄 (EHR) 連接器系統管理報告對話方塊提供使用狀況資料的快速且容易閱讀的視圖。

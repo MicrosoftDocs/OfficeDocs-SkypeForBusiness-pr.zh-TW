@@ -1,24 +1,19 @@
 ---
 title: 商務用 Skype Server 2019 已被取代的功能
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：這些功能已從商務用 Skype Server 2019 中移除。
-ms.openlocfilehash: 7f956aed60a65d074776756e0c6254e2aa3d9629
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846976"
 ---
+
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>商務用 Skype Server 2019 已被取代的功能
 
 深入瞭解商務用 Skype Server 2019 中已被取代的功能。 如需商務用 Skype Server 2019 中新功能的詳細資訊，請參閱[商務用 Skype Server 2019 中的內容](whats-new.md)。
@@ -39,9 +34,9 @@ Persistent Chat Server 是一種選用角色，可讓您組織中的多位使用
 
 Teams 中提供相同的功能。 如需詳細資訊，請參閱[Microsoft Teams 升級快速](/microsoftteams/upgrade-start-here)入門。
 
-### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL商務用 Skype Server 的鏡像
+### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL 商務用 Skype Server 的鏡像
 
-SQL無法使用商務用 Skype Server 2019 部署鏡像。 仍支援其他提供高可用性和嚴重損壞修復的選項，因此您應從這些選項中加以選擇。 請參閱[在商務用 Skype Server 中規劃高可用性和嚴重損壞修復](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)，以複查選項。
+無法使用商務用 Skype Server 2019 部署 SQL 鏡像。 仍支援其他提供高可用性和嚴重損壞修復的選項，因此您應從這些選項中加以選擇。 請參閱[在商務用 Skype Server 中規劃高可用性和嚴重損壞修復](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)，以複查選項。
 
 ### <a name="in-place-upgrades"></a>就地升級 
 
@@ -58,8 +53,8 @@ SQL無法使用商務用 Skype Server 2019 部署鏡像。 仍支援其他提供
 下列工具在第一次發行的商務用 Skype Server 2019 時不可用：
 
 - 商務用 Skype Server 容量規劃電腦
-- 商務用 Skype Server調試工具
-- 商務用 Skype Server資源工具組工具 (將移除某些工具) 
+- 商務用 Skype Server 調試工具
+- 商務用 Skype Server 資源工具組工具 (將移除某些工具) 
     - 呼叫 Call parkometer
     - 查閱使用者主控台
     - 未指派號碼宣告遷移

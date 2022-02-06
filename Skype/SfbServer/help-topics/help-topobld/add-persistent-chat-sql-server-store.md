@@ -1,27 +1,22 @@
 ---
 title: 新增常設聊天室 SQL Server 存放區
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPersistentChatSqlStorePage
+  - ms.lync.tb.AddPersistentChatSqlStorePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 description: 您可以設定將為 persistent chat server 或 persistent chat server 集區提供資料庫的 SQL Server 儲存區。
-ms.openlocfilehash: 0f092d064b280cd75638a7556497debc41b5996c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837785"
 ---
+
 # <a name="add-persistent-chat-sql-server-store"></a>新增常設聊天室 SQL Server 存放區
  
 您可以設定將為 persistent chat server 或 persistent chat server 集區提供資料庫的 SQL Server 儲存區。

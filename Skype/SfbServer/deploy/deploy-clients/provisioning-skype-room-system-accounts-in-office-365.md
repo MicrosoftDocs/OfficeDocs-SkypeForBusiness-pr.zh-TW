@@ -1,24 +1,19 @@
 ---
 title: 在 Microsoft 365 和 Office 365 中布建 Skype 會議室系統帳戶
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: 閱讀此主題以瞭解如何在 Microsoft 365 或 Office 365 中布建 Skype 會議室系統帳戶。
-ms.openlocfilehash: 77416d34c3b478f0013cf41c63dcebd52e52f3ce
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853767"
 ---
+
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>在 Microsoft 365 和 Office 365 中布建 Skype 會議室系統帳戶
  
 閱讀此主題以瞭解如何在 Microsoft 365 或 Office 365 中布建 Skype 會議室系統帳戶。
@@ -37,9 +32,9 @@ ms.locfileid: "60853767"
     
 - 您的承租人遠端系統管理員必須具備下列 PowerShell 存取權：
     
-  - Exchange遠端 PowerShell 存取
+  - Exchange 遠端 PowerShell 存取
     
-  - 商務用 Skype線上遠端 PowerShell 存取
+  - 商務用 Skype 線上遠端 PowerShell 存取
     
   - Windows PowerShell 存取 Microsoft 365 或 Office 365 目錄存取的 Windows Azure Active Directory 模組
     
@@ -57,7 +52,7 @@ ms.locfileid: "60853767"
 
 下圖概要說明 Skype 的會議室系統帳戶布建流程。
   
-![Skype會議室系統布建步驟。](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype 會議室系統布建步驟。](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>識別新的會議室
 
@@ -97,9 +92,9 @@ New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoo
   
 在您將商務用 Skype 的授權指派給線上後，您就可以使用任何商務用 Skype 用戶端，登入並驗證帳戶是否為作用中。
   
-## <a name="skype-for-business-online-provisioning"></a>商務用 Skype線上布建
+## <a name="skype-for-business-online-provisioning"></a>線上布建商務用 Skype
 
-如先前所示建立及啟用 resource 會議室信箱帳戶後，且您已取得商務用 Skype 帳戶的授權。該帳戶會從 Exchange Online 樹系同步處理至商務用 Skype Online 樹系使用 Windows Azure Active Directory森林。 若要在商務用 Skype Online 集區中布建 Skype 的會議室系統帳戶，必須執行下列步驟。 針對現有資源信箱帳戶或新建立的帳戶 (confrm1 或 confrm2) ，這些步驟都相同，因為在 Exchange Online 中啟用這些帳戶後，這兩個帳戶會以相同方式同步處理至商務用 Skype Online：
+如先前所示建立及啟用 resource 會議室信箱帳戶後，且您已取得商務用 Skype 帳戶的授權。該帳戶會從 Exchange Online 樹系同步處理至商務用 Skype Online 樹系使用 Windows Azure Active Directory 森林。 若要在商務用 Skype Online 集區中布建 Skype 的會議室系統帳戶，必須執行下列步驟。 針對現有資源信箱帳戶或新建立的帳戶 (confrm1 或 confrm2) ，這些步驟都相同，因為在 Exchange Online 中啟用這些帳戶後，這兩個帳戶會以相同方式同步處理至商務用 Skype Online：
   
 1. 建立遠端 PowerShell 會話。 請注意，您必須下載[Teams PowerShell 模組](/microsoftteams/teams-powershell-install)。
     

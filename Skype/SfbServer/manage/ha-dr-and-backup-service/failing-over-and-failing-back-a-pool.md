@@ -1,23 +1,18 @@
 ---
 title: 對集區進行容錯移轉及容錯回復
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: .
-ms.openlocfilehash: 55377e77a5b365a4db149ee69b6cd796e373a80b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849966"
 ---
+
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>在商務用 Skype Server 中容錯移轉和失敗回復集區
 
 請使用下列程式如果單一 Front-End 集區失敗且需要容錯移轉，或發生災難的集區回到線上，且您必須將部署還原為一般的工作狀態。 瞭解如何容錯移轉和容錯移轉回用於商務用 Skype 同盟或 XMPP 同盟的 edge 集區，或是變更與 Front-End 集區相關聯的 edge 集區。
@@ -63,7 +58,7 @@ Datacenter1 包含 Pool1，但 Pool1 失敗。 您會失敗轉移至 Pool2 （�
 
     此 Cmdlet 的結果會顯示目前主控中央管理伺服器的集區。 在此程式的其餘部分中，此集區稱為 CMS \_ 集區。
 
-2. 使用拓撲產生器來尋找 CMS 集區上執行的商務用 Skype Server 版本 \_ 。 若執行商務用 Skype Server，請使用下列 Cmdlet 來尋找集區1的備份組區。
+2. 使用拓撲產生器來尋找 CMS \_ 集區上執行的商務用 Skype Server 版本。 若執行商務用 Skype Server，請使用下列 Cmdlet 來尋找集區1的備份組區。
 
     ```powershell
     Get-CsPoolBackupRelationship -PoolFQDN <CMS_Pool FQDN>
@@ -77,25 +72,25 @@ Datacenter1 包含 Pool1，但 Pool1 失敗。 您會失敗轉移至 Pool2 （�
     Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
     ```
 
-    此 Cmdlet 應該會顯示 ActiveMasterFQDN 和 ActiveFileTransferAgents 都指向 CMS 集區的 FQDN \_ 。 如果它們是空的，則中央管理伺服器無法使用，而且您必須進行容錯移轉。
+    此 Cmdlet 應該會顯示 ActiveMasterFQDN 和 ActiveFileTransferAgents 都指向 CMS \_ 集區的 FQDN。 如果它們是空的，則中央管理伺服器無法使用，而且您必須進行容錯移轉。
 
 4.  若中央管理存放區無法使用，或者中央管理存放區正在 Pool1 上執行 (也就是) 失敗的集區，則必須先容錯移轉中央管理伺服器，再進行集區容錯移轉。 如果您需要容錯移轉中央管理伺服器（位於執行商務用 Skype Server 的集區上），請使用此程式步驟5中的 Cmdlet。 如果您不需要透過中央管理伺服器進行容錯移轉，請跳至此程式的步驟7。
 
 5.  若要在執行商務用 Skype Server 的集區上容錯移轉中央管理存放區，請執行下列操作：
 
-    1. 首先，請輸入下列命令，檢查備份組區中的哪個 Back-End 伺服器 \_ 執行中央管理存放區的主體實例：
+    1. 首先，請輸入下列命令，檢查備份 \_ 集區中的哪個 Back-End 伺服器執行中央管理存放區的主體實例：
 
         ```powershell
         Get-CsDatabaseMirrorState -DatabaseType Centralmgmt -PoolFqdn <Backup_Pool Fqdn>
         ```
     
-    1. 如果備份組區中的主要 Back-End 伺服器 \_ 是主體，請輸入：
+    1. 如果備份 \_ 集區中的主要 Back-End 伺服器是主體，請輸入：
 
         ```powershell        
         Invoke-CSManagementServerFailover -BackupSQLServerFqdn <Backup_Pool Primary BackEnd Server FQDN> -BackupSQLInstanceName <Backup_Pool Primary SQL Instance Name>
         ```
         
-    1. 如果備份組區中的鏡像 Back-End 伺服器 \_ 是主體，請輸入：
+    1. 如果備份 \_ 集區中的鏡像 Back-End 伺服器是主體，請輸入：
     
         ```powershell
         Invoke-CSManagementServerFailover -MirrorSQLServerFqdn <Backup_Pool Mirror BackEnd Server FQDN> -MirrorSQLInstanceName <Backup_Pool Mirror SQL Instance Name>
@@ -107,7 +102,7 @@ Datacenter1 包含 Pool1，但 Pool1 失敗。 您會失敗轉移至 Pool2 （�
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
         ```
         
-        檢查 ActiveMasterFQDN 和 ActiveFileTransferAgents 是否都指向備份組區的 FQDN \_ 。
+        檢查 ActiveMasterFQDN 和 ActiveFileTransferAgents 是否都指向備份 \_ 集區的 FQDN。
     
     1. 最後，輸入下列命令，檢查所有 Front-End 伺服器的複本狀態：
         
@@ -119,7 +114,7 @@ Datacenter1 包含 Pool1，但 Pool1 失敗。 您會失敗轉移至 Pool2 （�
         
         跳到此程序的步驟 7。
 
-6.  在備份組區的後端伺服器上安裝中央管理存放區 \_ 。
+6.  在備份 \_ 集區的後端伺服器上安裝中央管理存放區。
     
     1. 首先，執行下列命令：
 
@@ -127,7 +122,7 @@ Datacenter1 包含 Pool1，但 Pool1 失敗。 您會失敗轉移至 Pool2 （�
         Install-CsDatabase -CentralManagementDatabase -Clean -SqlServerFqdn <Backup_Pool Back End Server FQDN> -SqlInstanceName rtc  
         ```
     
-    1. 在其中一個備份組區的前端伺服器上執行下一個命令 \_ ，以強制移動中央管理存放區：
+    1. 在其中一個備份 \_ 集區的前端伺服器上執行下一個命令，以強制移動中央管理存放區：
 
         ```powershell
         Move-CsManagementServer -ConfigurationFileName c:\CsConfigurationFile.zip -LisConfigurationFileName c:\CsLisConfigurationFile.zip -Force
@@ -139,7 +134,7 @@ Datacenter1 包含 Pool1，但 Pool1 失敗。 您會失敗轉移至 Pool2 （�
         Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
         ```
         
-        檢查 ActiveMasterFQDN 和 ActiveFileTransferAgents 是否都指向備份組區的 FQDN \_ 。
+        檢查 ActiveMasterFQDN 和 ActiveFileTransferAgents 是否都指向備份 \_ 集區的 FQDN。
     
     1. 輸入下列命令，檢查所有前端伺服器的複本狀態：
 
@@ -149,7 +144,7 @@ Datacenter1 包含 Pool1，但 Pool1 失敗。 您會失敗轉移至 Pool2 （�
         
         檢查所有複本的值為 True。
     
-    1. 在備份組區中的其他前端伺服器上安裝中央管理伺服器服務 \_ 。 若要這麼做，請在所有前端伺服器上執行下列命令，除了強制您在此程式中強制執行中央管理存放區時所使用的伺服器之外：
+    1. 在備份 \_ 集區中的其他前端伺服器上安裝中央管理伺服器服務。 若要這麼做，請在所有前端伺服器上執行下列命令，除了強制您在此程式中強制執行中央管理存放區時所使用的伺服器之外：
 
         ```console
         Bootstrapper /Setup
@@ -194,17 +189,17 @@ Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
 
 1.  在前端伺服器上，開啟 [拓撲產生器]。 展開 [ **edge** 集區]，然後在目前針對同盟設定的 edge Server 或 edge server 集區上按一下滑鼠右鍵。 選取 **[編輯內容]**。
 
-2.  在 **[編輯內容]** 中，清除 **[一般]** 下的 [啟用此 Edge 集區的同盟 (連接埠 5061)]。 選取 **[確定]**。
+2.  在 **[編輯內容]** 中，清除 **[一般]** 下的 [啟用此 Edge 集區的同盟 (連接埠 5061)]。 選取 [確定]。
 
 3.  展開 [ **edge** 集區]，然後在您現在想要用於同盟的 edge Server 或 edge server 集區上按一下滑鼠右鍵。 選取 [編輯內容]。
 
-4.  在 [編輯內容]中，選取 [一般] 下的 **[啟用此 Edge 集區的同盟 (連接埠 5061)]**。 選取 **[確定]**。
+4.  在 [編輯內容]中，選取 [一般] 下的 **[啟用此 Edge 集區的同盟 (連接埠 5061)]**。 選取 [確定]。
 
 5.  選取 [ **動作**]，選取 [ **拓撲**]，然後選取 [ **發佈**]。 當系統提示您 **發佈拓撲** 時，請選取 **[下一步]**。 當發佈完成時，選取 **[完成]**。
 
 6.  在 Edge server 上，開啟 [商務用 Skype Server 部署] 嚮導。 選取 [**安裝或更新商務用 Skype Server 系統**]，然後選取 [**安裝] 或 [移除商務用 Skype Server 元件**]。 選取 [ **再次執行**]。
 
-7.  選取 **[下一步]**。 摘要畫面會隨著動作的執行顯示各個動作。 完成部署後，請選取 [ **View log** ] （查看）以查看可用的記錄檔。 選取 **[完成]** 以完成部署。
+7.  選取 ****[下一步]。 摘要畫面會隨著動作的執行顯示各個動作。 完成部署後，請選取 [ **View log** ] （查看）以查看可用的記錄檔。 選取 **[完成]** 以完成部署。
     
     如果包含失敗 Edge 集區的網站包含仍在執行的前端伺服器，則您必須更新這些 Front-End 集區上的 Web 會議服務和 A/V 會議服務，以在仍在執行的遠端網站中使用 Edge 集區。 
 
@@ -259,17 +254,17 @@ Invoke-CsPoolFailback -PoolFQDN <Pool1 FQDN> -Verbose
     
     1. 在前端伺服器上，開啟 [拓撲產生器]。 展開 [ **edge** 集區]，然後在目前針對同盟設定的 edge Server 或 edge server 集區上按一下滑鼠右鍵。 選取 **[編輯內容]**。
     
-    1. 在 **[編輯內容]** 中，清除 **[一般]** 下的 [啟用此 Edge 集區的同盟 (連接埠 5061)]。 選取 **[確定]**。
+    1. 在 **[編輯內容]** 中，清除 **[一般]** 下的 [啟用此 Edge 集區的同盟 (連接埠 5061)]。 選取 [確定]。
     
     1. 展開 [ **Edge** 集區]，然後在原始 Edge Server 或 Edge server 集區上按一下滑鼠右鍵，以供同盟使用。 選取 [編輯內容]。
     
-    1. 在 [編輯內容]中，選取 [一般] 下的 **[啟用此 Edge 集區的同盟 (連接埠 5061)]**。 選取 **[確定]**。
+    1. 在 [編輯內容]中，選取 [一般] 下的 **[啟用此 Edge 集區的同盟 (連接埠 5061)]**。 選取 [確定]。
     
     1. 選取 [ **動作**]，選取 [ **拓撲**]，然後選取 [ **發佈**]。 當系統提示您 **發佈拓撲** 時，請選取 **[下一步]**。 當發佈完成時，選取 **[完成]**。
     
     1. 在 Edge server 上，開啟 [商務用 Skype Server 部署] 嚮導。 選取 [**安裝或更新商務用 Skype Server 系統**]，然後選取 [**安裝] 或 [移除商務用 Skype Server 元件**]。 選取 [ **再次執行**]。
     
-    1. 選取 **[下一步]**。 摘要畫面會隨著動作的執行顯示各個動作。 完成部署後，請選取 [ **View log** ] （查看）以查看可用的記錄檔。 選取 **[完成]** 以完成部署。
+    1. 選取 ****[下一步]。 摘要畫面會隨著動作的執行顯示各個動作。 完成部署後，請選取 [ **View log** ] （查看）以查看可用的記錄檔。 選取 **[完成]** 以完成部署。
 
 3.  如果您想要容錯回復 XMPP 同盟路由以使用還原的 Edge Server，請執行下列操作：
     

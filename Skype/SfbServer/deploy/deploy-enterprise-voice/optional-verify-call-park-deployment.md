@@ -1,25 +1,20 @@
 ---
-title: " (選用) 在商務用 Skype 中驗證通話駐留部署"
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: ' (選用) 在商務用 Skype 中驗證通話駐留部署'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 description: 在商務用 Skype Server 企業語音中驗證通話駐留的部署。
-ms.openlocfilehash: 9258a38936ffe22eb209c4b4bd9d1e5692341003
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838335"
 ---
+
 # <a name="optional-verify-call-park-deployment-in-skype-for-business"></a> (選用) 在商務用 Skype 中驗證通話駐留部署
  
 在商務用 Skype Server 企業語音中驗證通話駐留的部署。 

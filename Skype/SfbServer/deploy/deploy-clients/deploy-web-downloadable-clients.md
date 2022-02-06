@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中部署 Web 可下載的用戶端
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 摘要：部署商務用 Skype 所用的商務用 Skype Web 應用程式和 Skype 會議應用程式。
-ms.openlocfilehash: abb0a24d234043d793b09a538cbff23d0d549ac0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842495"
 ---
+
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 Web 可下載的用戶端
 
-**摘要：** 部署商務用 Skype Server 所用的商務用 Skype 2015 Web app 和 Skype 會議應用程式。
+**總結：** 部署商務用 Skype Server 所用的商務用 Skype 2015 Web app 和 Skype 會議應用程式。
 
 商務用 Skype Web 應用程式是安裝在執行商務用 Skype Server 之伺服器上的 Internet Information Services (IIS) 網頁用戶端，而且預設會根據需要將其部署到尚未擁有商務用 Skype 用戶端的會議使用者。 這兩個會議使用者的使用者頻率高於無法從您的網路外部連線。 每當使用者按一下會議 URL，但未安裝商務用 Skype 用戶端時，使用者就會看到可使用商務用 Skype Web 應用程式、Skype 會議應用程式或 Mac 版商務用 Skype 的最新版本加入會議的選項。
 

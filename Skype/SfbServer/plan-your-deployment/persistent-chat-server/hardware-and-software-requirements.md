@@ -1,28 +1,23 @@
 ---
 title: 商務用 Skype Server 2015 中的 Persistent Chat Server 的硬體和軟體需求
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/19/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 2015 中的 Persistent Chat Server 的硬體和軟體需求。
-ms.openlocfilehash: d911cdeb3aefddbf37d8857e86207fe84c4dce98
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833287"
 ---
+
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 Persistent Chat Server 的硬體和軟體需求
  
-**摘要：** 閱讀此主題以瞭解商務用 Skype Server 2015 中的 Persistent Chat Server 的硬體和軟體需求。
+**總結：** 閱讀此主題以瞭解商務用 Skype Server 2015 中的 Persistent Chat Server 的硬體和軟體需求。
   
 Persistent Chat Server 可以隨商務用 Skype Server 2015 Enterprise Edition 或 Standard Edition 一起安裝。 需求取決於您已安裝的商務用 Skype Server 2015 版本，以及您的業務效能需求。 Enterprise Edition 最多可支援80000並行使用者。Standard Edition 最多可支援20000並行使用者。 Persistent Chat 是由前端元件及後端 SQL 資料庫元件所組成。
   

@@ -1,27 +1,22 @@
 ---
 title: 主幹設定展開工具
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.TrunkSettingsExpander
+  - ms.lync.tb.TrunkSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 若要編輯或修改 SIP 主幹的設定，請執行下列動作：
-ms.openlocfilehash: ce5b7a82dbba580c96894cfdf51b4ca66dba7cbe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847466"
 ---
+
 # <a name="trunk-settings-expander"></a>主幹設定展開工具
 
 若要編輯或修改 SIP 主幹的設定，請執行下列動作：
@@ -39,7 +34,7 @@ ms.locfileid: "60847466"
 > [!NOTE]
 > 只有根主幹可以與 Lync Server 2010 或 Lync Server 2013 轉送伺服器相關聯。
 
- **關聯的轉送伺服器埠**：必要值，此值會設定為轉送伺服器設定為接聽的值。
+ 關聯的中繼 **伺服器埠**：必要值，此值會設定為轉送伺服器設定為接聽的值。
 
 ![主幹設定展開器。](../../media/Trunk_Settings_Expander.jpg)
 

@@ -1,29 +1,24 @@
 ---
 title: 商務用 Skype Server 2015 的新功能
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2017
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 2015 中的新功能。 如需有關新用戶端體驗的詳細資訊，請參閱 Lync 現在商務用 Skype--請參閱最近更新。
-ms.openlocfilehash: d0ef9ff1790eba546dd54a9fa78c9f63f2b532f4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829747"
 ---
+
 # <a name="whats-new-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的新功能
 
-**摘要：** 閱讀此主題以瞭解商務用 Skype Server 2015 中的新功能。 如需有關新用戶端體驗的詳細資訊，請參閱[Lync 現在商務用 Skype--請參閱](https://go.microsoft.com/fwlink/p/?LinkId=529022)最近更新。
+**總結：** 閱讀此主題以瞭解商務用 Skype Server 2015 中的新功能。 如需有關新用戶端體驗的詳細資訊，請參閱[Lync 現在商務用 Skype--請參閱](https://go.microsoft.com/fwlink/p/?LinkId=529022)最近更新。
   
 lync 現在已商務用 Skype，這是一種通訊及共同作業平臺，可透過 Skype 使用「Lync」的企業級安全性、規範和控制，將體驗帶入一層。 商務用 Skype 提供的功能包括狀態、IM、語音和影片通話，以及線上會議。 商務用 Skype 提供新的用戶端體驗、新的伺服器版本，以及對 Microsoft 365 或 Office 365 中服務的更新。 如果您組織中的使用者已熟悉 Skype，他們將會感激商務用 Skype 的功能和簡潔性，以方便找到並與共同工作者連接。 如果您組織中的使用者即將從 Lync 商務用 Skype，他們會辨識已使用的所有功能，但在具有簡化的控制項和新新增介面的全新新介面中。 除了新的用戶端體驗之外，商務用 Skype Server 2015 還提供數項新功能，以提升內部部署伺服器和混合式解決方案的可管理性。
   
@@ -122,13 +117,13 @@ Video Interop 伺服器 (VIS) 會以商務用 Skype Server 和 Cisco Video 電�
 
 商務用 Skype Server 引進新的指令程式，簡化並改善了冷啟動整個前端集區的程式。 當您使用新的 **get-cspool** Cmdlet 時，它會檢查集區中所有前端伺服器的必要條件，然後嘗試啟動每一部伺服器。 如果遇到任何問題，它會進行診斷，並提醒您詳細資料和解決方法。 在某些情況下，即使有些個別的伺服器無法啟動，也可讓您啟動集區。
   
-### <a name="sql-server-alwayson-support-for-on-premises-servers"></a>SQL ServerAlwaysOn 對內部部署伺服器的支援
+### <a name="sql-server-alwayson-support-for-on-premises-servers"></a>SQL Server 內部部署伺服器的 AlwaysOn 支援
 
 商務用 Skype Server 2015 新增對 SQL Server AlwaysOn 可用性群組及 SQL Server AlwaysOn 容錯移轉叢集實例的支援。 除了這些功能之外，商務用 Skype Server 繼續支援資料庫鏡像和 SQL Server 叢集，就像在舊版的 Lync Server 中一樣。
   
-SQL ServerAlwaysOn 可用性群組是 SQL Server 2012 的高可用性和嚴重損壞復原解決方案，並提供資料庫鏡像的替代方法 SQL Server 2014。 可用性群組支援一組分立的資料庫容錯移轉環境 (稱為可用性資料庫) 一起進行容錯移轉。 可用性群組支援一組可讀寫的主資料庫，以及一到四組對應次要資料庫。 另外，次要資料庫可供唯讀存取和某些備份作業使用。
+SQL Server AlwaysOn 可用性群組是 SQL Server 2012 的高可用性和嚴重損壞修復解決方案，以及提供資料庫鏡像替代的 SQL Server 2014。 可用性群組支援一組分立的資料庫容錯移轉環境 (稱為可用性資料庫) 一起進行容錯移轉。 可用性群組支援一組可讀寫的主資料庫，以及一到四組對應次要資料庫。 另外，次要資料庫可供唯讀存取和某些備份作業使用。
   
-SQL Server容錯移轉叢集實例利用 Windows 伺服器容錯移轉叢集 (WSFC) 功能，以透過伺服器實例層級的冗余來提供本機高可用性--容錯移轉叢集實例 (FCI) 。 FCI 是安裝在 Windows 伺服器容錯移轉叢集 (WSFC) 節點（可能是跨多個子網上）的單一 SQL Server 實例。
+SQL Server 容錯移轉叢集實例利用 Windows 伺服器容錯移轉叢集 (WSFC) 功能，以透過伺服器實例層級的冗余來提供本機高可用性--容錯移轉叢集實例 (FCI) 。 FCI 是安裝在 Windows 伺服器容錯移轉叢集 (WSFC) 節點（可能是跨多個子網上）的單一 SQL Server 實例。
   
 如需詳細資訊，請參閱[商務用 Skype Server 2015 的高可用性和嚴重損壞修復方案](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
   

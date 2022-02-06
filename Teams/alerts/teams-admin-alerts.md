@@ -1,36 +1,31 @@
 ---
 title: Microsoft Teams監控與警示
 author: vaibhav
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: vapati
-f1.keywords: ''
+f1.keywords: null
 ms.localizationpriority: medium
-search.appverid: ''
+search.appverid: null
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 description: 瞭解 Teams系統管理中心提供Microsoft Teams通知和通知功能。
 appliesto:
-- Microsoft Teams
-ms.custom: ''
-ms.openlocfilehash: f97905320912ec1a63aa4580018c134bed3589c4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737469"
+  - Microsoft Teams
+ms.custom: null
 ---
+
 # <a name="microsoft-teams-monitoring-and-alerting"></a>Microsoft Teams監控和警示
 
-系統管理中心提供Microsoft Teams監控和Teams功能。 使用系統管理中心中&通知>區段Teams提供的不同規則集，以監控Teams功能並接收通知。 例如，您可以主動監控 IP 電話、共同Teams等裝置在意外離線時的健康情況。  
+系統管理中心提供Microsoft Teams監控和Teams功能。 使用系統管理中心中&通知>區段Teams提供的不同規則集，以監控Teams功能並接收通知。 例如，您可以主動監控 ip 電話、共同Teams等裝置在意外離線時的健康情況。  
 
-貴組織可以使用Teams和警示功能執行下列專案：
+您的組織可以使用監控Teams通知執行下列專案：
 
 - 自動管理Teams功能
-- 如果顯示意外專案，會收到提醒。
+- 如果顯示意外專案，會收到通知。
 - 採取矯正動作，讓事情回到正軌。
 
 ## <a name="how-to-manage-monitoring-and-alerting"></a>如何管理監控和警示
@@ -48,4 +43,4 @@ ms.locfileid: "60737469"
 
 |規則  |監控功能|監控哪些專案？ |
 |---------|---------|---------|
-|[裝置健康情況狀態](device-health-status.md)  |Teams設備 | Pro離線時，Teams主動監控裝置。|
+|[裝置健康情況狀態](device-health-status.md)  |Teams裝置 | Pro離線時，Teams主動監控這些裝置。|

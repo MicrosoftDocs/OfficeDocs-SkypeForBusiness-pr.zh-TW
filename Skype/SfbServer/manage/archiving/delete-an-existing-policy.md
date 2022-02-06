@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中刪除現有的封存原則
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: 摘要：瞭解如何刪除商務用 Skype Server 的封存原則。
-ms.openlocfilehash: f475eb3ea70eea98c2bfa67b1dea02e30a0b977c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852087"
 ---
+
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除現有的封存原則
 
-**摘要：** 瞭解如何刪除商務用 Skype Server 的封存原則。
+**總結：** 瞭解如何刪除商務用 Skype Server 的封存原則。
   
 您可以刪除使用者原則或網站原則，但不能刪除全域原則。 如果您刪除全域原則，商務用 Skype Server 會自動重設為預設值的原則。
   

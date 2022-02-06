@@ -1,26 +1,21 @@
 ---
 title: 商務用 Skype Server 2015 規劃工具
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: 使用商務用 Skype Server 2015 規劃工具的指導方針。
-ms.openlocfilehash: d88504af2935ad0143c7f7c1ca85f17e3f9c7c8b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845316"
 ---
+
 # <a name="skype-for-business-server-2015-planning-tool"></a>商務用 Skype Server 2015 規劃工具
  
 使用商務用 Skype Server 2015 規劃工具的指導方針。

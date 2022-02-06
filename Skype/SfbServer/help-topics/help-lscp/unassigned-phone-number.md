@@ -1,27 +1,22 @@
 ---
 title: 未指派電話號碼
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.VoiceFeaVacantNumMain
+  - ms.lync.lscp.VoiceFeaVacantNumMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: 未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。未指派的號碼表可識別您希望用來處理撥打至未指派號碼的方式。
-ms.openlocfilehash: 7b09083238f034a7f087ed8aadfa9169c644ceb1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864000"
 ---
+
 # <a name="unassigned-phone-number"></a>未指派電話號碼
 
 未指派號碼是對您的組織有效但未指派給使用者或電話的電話號碼。未指派的號碼表可識別您希望用來處理撥打至未指派號碼的方式。
@@ -49,7 +44,7 @@ ms.locfileid: "60864000"
 
 下列清單說明頁面上的命令。
 
-- **新** 啟動新的未指派號碼範圍。
+- **新增功能** 啟動新的未指派號碼範圍。
 
 - **編輯** 開啟所選取的未指派號碼範圍進行編輯、選取清單中所有未指派的號碼範圍，或刪除選取的未指派號碼範圍。
 
@@ -65,11 +60,11 @@ ms.locfileid: "60864000"
     > [!IMPORTANT]
     > 此命令會儲存您在「新增未指派的號碼」頁面和「編輯未指派的號碼」頁面上進行的所有變更。
 
-- **Refresh** 重新整理未指派號碼範圍的清單。
+- **刷新** 重新整理未指派號碼範圍的清單。
 
 下列清單說明頁面上的欄位。
 
-- **名稱** 識別未指派號碼範圍的唯一名稱。
+- **名字** 識別未指派號碼範圍的唯一名稱。
 
 - **狀態** 顯示哪些號碼範圍已儲存至資料庫，哪些尚未儲存。
 
@@ -79,6 +74,6 @@ ms.locfileid: "60864000"
 
 - **目的地** 主控宣告應用程式之應用程式服務的服務 ID，會處理對此未指派號碼範圍的撥入呼叫。
 
-- **宣告** 將為此未指派號碼範圍播放的宣告。
+- **公告** 將為此未指派號碼範圍播放的宣告。
 
 如需公告功能及功能的詳細資訊，請參閱規劃檔中的在[商務用 Skype 2015 中規劃宣告應用程式](../../plan-your-deployment/enterprise-voice-solution/announcement.md)。 如需使用未指派號碼範圍的詳細資訊，請參閱作業文件中的＜[Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers)＞。

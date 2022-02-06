@@ -1,27 +1,22 @@
 ---
 title: 商務用 Skype Server 中的位置趨勢報告
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
 description: 摘要：瞭解商務用 Skype Server 中的位置趨勢報告。
-ms.openlocfilehash: 0e4b8d600d3dcbc2eb8561c1d09ae82a5bb93e04
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862330"
 ---
+
 # <a name="location-trend-report-in-skype-for-business-server"></a>商務用 Skype Server 中的位置趨勢報告
  
-**摘要：** 瞭解商務用 Skype Server 中的位置趨勢報告。
+**總結：** 瞭解商務用 Skype Server 中的位置趨勢報告。
   
 位置趨勢報告提供網路位置的通話品質趨勢資訊。
   

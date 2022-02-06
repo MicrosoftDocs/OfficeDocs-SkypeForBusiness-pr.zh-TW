@@ -1,29 +1,24 @@
 ---
 title: 在商務用 Skype Server 2015 中啟動或停止 CLS 記錄捕獲
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中啟動或停止集中式記錄服務記錄捕獲會話。
-ms.openlocfilehash: 79210bffbf21046d1aaa5359761dbfcdeb1e6959
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848426"
 ---
+
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中啟動或停止 CLS 記錄捕獲
  
-**摘要：** 瞭解如何在商務用 Skype Server 2015 中啟動或停止集中式記錄服務記錄捕獲會話。
+**總結：** 瞭解如何在商務用 Skype Server 2015 中啟動或停止集中式記錄服務記錄捕獲會話。
   
 若要使用集中式記錄服務來捕獲追蹤記錄檔，您會發出命令，以開始登入一或多部電腦及集區。 您也可以發出參數，用以定義哪些電腦或集區、要執行哪些案例 (例如，AlwaysOn、其他預先定義的案例或您已建立的案例) ，商務用 Skype Server 元件 (例如，S4，SipStack) 來追蹤。
   

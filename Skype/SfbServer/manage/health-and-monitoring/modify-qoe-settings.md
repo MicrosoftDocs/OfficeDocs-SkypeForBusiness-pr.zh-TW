@@ -1,27 +1,22 @@
 ---
 title: 修改商務用 Skype Server 中的經驗品質設定
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 摘要：瞭解如何在商務用 Skype Server 中指定 QoE 資料的保留。
-ms.openlocfilehash: 7960f7c89ce16a7105cf24cc89d5efd660fe260b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855520"
 ---
+
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>修改商務用 Skype Server 中的經驗品質設定
 
-**摘要：** 瞭解如何在商務用 Skype Server 中指定 QoE 資料的保留。
+**總結：** 瞭解如何在商務用 Skype Server 中指定 QoE 資料的保留。
 
 根據預設，在60天后會清除 (QoE) 資料的經驗品質。 您可以使用 [ **經驗品質資料** ] 頁面上的設定，將資料保留較長或更短的時間週期。 如果您停用 QoE，啟用 QoE 之前所捕獲的資料也會加以清除。
 

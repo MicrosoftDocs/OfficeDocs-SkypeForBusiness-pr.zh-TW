@@ -1,27 +1,22 @@
 ---
 title: 使用 Config.xml 在商務用 Skype 用戶端中執行安裝工作
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 摘要：如何使用 Config.xml 檔案指定其他安裝指示。
-ms.openlocfilehash: e0dcc16a09540965346ea014a8c39be0470e4f09
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858670"
 ---
+
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>使用 Config.xml 在商務用 Skype 用戶端中執行安裝工作
 
-**摘要：** 如何使用 Config.xml 檔案指定其他安裝指示。
+**總結：** 如何使用 Config.xml 檔案指定其他安裝指示。
 
 雖然 Office 自訂工具 (OCT) 是自訂安裝的主要工具，但是系統管理員可以使用 Config.xml 檔案來指定 OCT 中所沒有的其他安裝指示。下列自訂只能使用 Config.xml 檔案來進行：
 
@@ -69,7 +64,7 @@ ms.locfileid: "60858670"
 </Configuration>
 ```
 
-您可以在使用 Config.xml 檔案執行 Office 安裝及維護工作的詳細資訊 [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)) 。
+您可以在 [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)) 使用 Config.xml 檔案執行 Office 安裝及維護工作的詳細資訊。
 
 ## <a name="to-customize-the-configxml-file"></a>自訂 Config.xml 檔案
 

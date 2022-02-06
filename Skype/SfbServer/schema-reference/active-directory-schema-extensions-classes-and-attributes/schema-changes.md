@@ -1,25 +1,20 @@
 ---
 title: 商務用 Skype Server 中的架構變更
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: 在您部署和操作商務用 Skype Server 之前，您必須透過擴充架構來準備 Active Directory 網域服務。 架構擴充新增商務用 Skype Server 所需的類別和屬性。
-ms.openlocfilehash: 9f5a0f5e3b70925a39d94df9d3fec6728ef6429c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829817"
 ---
+
 # <a name="schema-changes-in-skype-for-business-server"></a>商務用 Skype Server 中的架構變更
  
 在您部署和操作商務用 Skype Server 之前，您必須透過擴充架構來準備 Active Directory 網域服務。 架構擴充新增商務用 Skype Server 所需的類別和屬性。

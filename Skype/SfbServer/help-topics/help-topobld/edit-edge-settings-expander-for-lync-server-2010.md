@@ -1,27 +1,22 @@
 ---
 title: 編輯 Edge 設定展開工具 (適用於 Lync Server 2010)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeSettingsExpander2010
+  - ms.lync.tb.EdgeSettingsExpander2010
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 您可以透過設定下列屬性來編輯 Edge Server 或 Edge 集區的設定：
-ms.openlocfilehash: b1ffc038a8995663c3a080e29fa4322928a7b214
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828896"
 ---
+
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>編輯 Edge 設定展開工具 (適用於 Lync Server 2010)
  
 您可以透過設定下列屬性來編輯 Edge Server 或 Edge 集區的設定： 

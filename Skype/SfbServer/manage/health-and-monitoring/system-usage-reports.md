@@ -1,27 +1,22 @@
 ---
 title: 商務用 Skype Server 中的系統使用狀況報告
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: 摘要：瞭解商務用 Skype Server 中的系統使用狀況報告。
-ms.openlocfilehash: cb1fd3fd05d553fa81f7c0646659f7593dad5869
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843876"
 ---
+
 # <a name="system-usage-reports-in-skype-for-business-server"></a>商務用 Skype Server 中的系統使用狀況報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的系統使用狀況報告。
+**總結：** 深入瞭解商務用 Skype Server 中的系統使用狀況報告。
   
 系統使用方式報告會以詳細通話記錄 (CDR) 商務用 Skype Server 收集的資料，提供系統使用狀況資訊。
   

@@ -1,27 +1,22 @@
 ---
 title: 中繼服務設定展開工具
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.FeMediationServiceSettingsExpander
+  - ms.lync.tb.FeMediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
-ROBOTS: NOINDEX, NOFOLLOW
-description: 針對 [中繼伺服器]，您可以指定下列內容：
-ms.openlocfilehash: 649f4ac74280564fc53182b9bf627f566781c2eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850226"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: '針對 [中繼伺服器]，您可以指定下列內容：'
 ---
+
 # <a name="mediation-service-settings-expander"></a>中繼服務設定展開工具
 
 針對 [中繼伺服器]，您可以指定下列內容：

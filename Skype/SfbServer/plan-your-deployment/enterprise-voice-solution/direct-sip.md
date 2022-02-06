@@ -1,28 +1,23 @@
 ---
 title: 商務用 Skype Server 中的直接 SIP 連線
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: 企業語音中商務用 Skype Server 和兩部 PSTN 閘道和 IP-PBX 都支援直接 SIP 連線。
-ms.openlocfilehash: 8a615197a01fafbdf29c838b28a6d12e06f37d00
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848396"
 ---
+
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>商務用 Skype Server 中的直接 SIP 連線
 
 企業語音中商務用 Skype Server 和兩部 PSTN 閘道和 IP-PBX 都支援直接 SIP 連線。
@@ -68,7 +63,7 @@ ms.locfileid: "60848396"
 
 有兩個建議設定可將企業語音連接至現有的 pbx 基礎結構，以進行互通性：在 pbx 背後企業語音，並在 pbx 前面企業語音。
 
-#### <a name="enterprise-voice-behind-the-pbx"></a>企業語音PBX 背後
+#### <a name="enterprise-voice-behind-the-pbx"></a>PBX 背後的企業語音
 
 當企業語音部署在 pbx 背後時，所有來自 PSTN 的呼叫都會到達 pbx，這會將呼叫傳送給企業語音使用者到 PSTN 閘道，並將 pbx 使用者呼叫至 pbx。
 

@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中刪除經驗品質設定設定
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: 摘要：瞭解如何刪除商務用 Skype Server 的經驗品質 (QoE) 設定。
-ms.openlocfilehash: 96c6f15903a3e7cdc4305c6c90faddf0ee8ff743
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854307"
 ---
+
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中刪除經驗品質設定設定
  
-**摘要：** 瞭解如何刪除商務用 Skype Server 的經驗品質 (QoE) 設定。
+**總結：** 瞭解如何刪除商務用 Skype Server 的經驗品質 (QoE) 設定。
   
 「經驗品質 (QoE)」計量在追蹤組織中進行之音訊和視訊通話的品質，包括遺失的網路封包數量、背景雜訊和「抖動」(封包延遲差異) 等項目的數量。這些計量會儲存在與其他資料 (例如詳細通話記錄) 不同的資料庫中，讓您可獨立於其他資料記錄來啟用和停用 QoE。
   

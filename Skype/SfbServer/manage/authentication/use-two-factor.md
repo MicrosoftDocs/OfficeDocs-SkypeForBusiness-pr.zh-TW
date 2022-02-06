@@ -1,28 +1,23 @@
 ---
 title: 搭配商務用 Skype 用戶端和商務用 Skype Server 使用雙因素驗證
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 摘要：搭配商務用 Skype Server 和商務用 Skype 使用雙因素驗證。
-ms.openlocfilehash: 50237639172a70fdf68e1cca122d74cbf785f68e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839935"
 ---
+
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>搭配商務用 Skype 用戶端和商務用 Skype Server 使用雙因素驗證
  
-**摘要：** 搭配商務用 Skype Server 和商務用 Skype 使用雙因素驗證。
+**總結：** 搭配商務用 Skype Server 和商務用 Skype 使用雙因素驗證。
   
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>第一次登入商務用 Skype
 
@@ -32,7 +27,7 @@ ms.locfileid: "60839935"
 
 1. 登入您組織的網路。
     
-2. 選取 [**啟動**  >  **所有程式**]  >  **商務用 Skype**。
+2. 選取 [**啟動**  >  **所有程式**  >  ]**商務用 Skype**。
     
     您應該會看到登入畫面。
     
@@ -51,14 +46,14 @@ ms.locfileid: "60839935"
 |**選項**|**功能**|**執行方法**|
 |:-----|:-----|:-----|
 |關閉  <br/> |會關閉您的顯示器，但讓識別為您的使用者識別碼的商務用 Skype 會話繼續執行。 如此一來，您就可以繼續取得通知並與其他人互動。 <br/> <br/> 您可以隨時按一下工作列上的商務用 Skype 圖示或螢幕底部的通知區域，以播放畫面。  <br/> | 在商務用 Skype 主視窗上，執行下列其中一項操作： <br/> 1. 選取 [**選項**] 按鈕，然後選取 [**檔**  >  **關閉**]。  <br/> 2. 按一下視窗右上角 (X) 的 [ **關閉** ] 按鈕。 <br/> |
-|登出  <br/> |結束與您的使用者識別碼相關聯的會話，但商務用 Skype 會繼續在後臺執行。 當您登出時，即會出現登入視窗。  <br/> **秘訣：** 當您登出時，請選取 [ **刪除我的登入資訊** ]，以移除電腦上的登入識別碼和密碼記錄。 這樣做可能會讓支援人員更容易疑難排解登入問題。 它也可以讓未經授權的使用者難以登入您的認證，以協助確保您的登入資訊更安全。 <br/> |在商務用 Skype 主視窗上，選取 [**選項**] 按鈕，然後 **選取 [** 檔案] [  >  **登出**]。  <br/> |
-|結束  <br/> |結束您的商務用 Skype 會話，並在電腦上關閉商務用 Skype。 退出後，如果您想要重新開機，請選取 [**啟動**  >  **所有程式**] > 商務用 Skype]。 <br/> |在商務用 Skype 主視窗上，選取 [**選項**] 按鈕，然後 **選取 [** 檔案] [結束]  >  ****。  <br/> |
+|登出  <br/> |結束與您的使用者識別碼相關聯的會話，但商務用 Skype 會繼續在後臺執行。 當您登出時，即會出現登入視窗。  <br/> **提示：** 當您登出時，請選取 [ **刪除我的登入資訊** ]，以移除電腦上的登入識別碼和密碼記錄。 這樣做可能會讓支援人員更容易疑難排解登入問題。 它也可以讓未經授權的使用者難以登入您的認證，以協助確保您的登入資訊更安全。 <br/> |在商務用 Skype 主視窗上，選取 [**選項**] 按鈕，**然後選取**  >  [檔案] [**登出**]。  <br/> |
+|結束  <br/> |結束您的商務用 Skype 會話，並在電腦上關閉商務用 Skype。 退出後，如果您想要重新開機，請選取 [**啟動**  >  **所有程式**] > 商務用 Skype]。 <br/> |在商務用 Skype 主視窗上，選取 [**選項**] 按鈕，**然後選取**  >  [檔案] [結束 **]。**  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>使用智慧卡登入商務用 Skype
 
 有些組織現在會使用多步驟登入處理常式（稱為二要素驗證），以提升使用者的安全性。 如果您想要使用此選項，則需要 "智慧卡" 才能登入商務用 Skype。 智慧卡可以是實體或虛擬：
   
-- **實體** 關於信用卡的大小。 當您登入時，您可以將它插入智慧卡讀取器。
+- **物理** 關於信用卡的大小。 當您登入時，您可以將它插入智慧卡讀取器。
     
 - **虛擬** 不是實體物件，而是寫入電腦上的特殊晶片的電子識別碼，實際上是在電腦上建立智慧卡。 僅適用于包含 TPM (信任的平臺模組) 晶片的 Windows 8 電腦。
     

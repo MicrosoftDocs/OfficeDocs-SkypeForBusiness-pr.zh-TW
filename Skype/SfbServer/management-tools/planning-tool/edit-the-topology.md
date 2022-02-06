@@ -1,26 +1,21 @@
 ---
 title: 在商務用 Skype Server 2015 中編輯拓撲
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
-description: 在完成最初的面試問題之後，您可以編輯該網站的 (FQDN) 和 IP 位址的完整功能變數名稱。 若要這麼做，請在 [全域拓撲] 頁面上，連按兩下您要編輯的網站。
-ms.openlocfilehash: 698f7e5e94666a67dd01c55a877a037452fd58e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861190"
+description: '在完成最初的面試問題之後，您可以編輯該網站的 (FQDN) 和 IP 位址的完整功能變數名稱。 若要這麼做，請在 [全域拓撲] 頁面上，連按兩下您要編輯的網站。'
 ---
+
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中編輯拓撲
 
 在完成最初的面試問題之後，您可以編輯該網站的 (FQDN) 和 IP 位址的完整功能變數名稱。 若要這麼做，請在 **[全域拓撲]** 頁面上，連按兩下您要編輯的網站。
@@ -79,7 +74,7 @@ ms.locfileid: "60861190"
 
 完成所有編輯之後，請完成下列步驟以儲存拓撲：
 
-若要儲存規劃工具設計，請 **按一下 [** 檔案]，然後按一下 [ **儲存拓撲** ] 或 [ **另存拓撲**]。 如果出現 **[另存規劃工具]** 對話方塊，請在 **[檔案名稱]** 中輸入檔案的名稱，然後按一下 **[儲存]**。
+若要儲存規劃工具設計，請按一下 [檔案]，**然後按一下 [****儲存拓撲**] 或 [**另存拓撲**]。 如果出現 **[另存規劃工具]** 對話方塊，請在 **[檔案名稱]** 中輸入檔案的名稱，然後按一下 **[儲存]**。
 
 ## <a name="see-also"></a>另請參閱
 <a name="Edit_Network_diagram"> </a>

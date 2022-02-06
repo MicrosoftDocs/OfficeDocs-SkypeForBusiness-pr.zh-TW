@@ -1,25 +1,20 @@
 ---
 title: 商務用 Skype Server 的容量規劃
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
 description: 本節中的主題可協助您瞭解如何規劃及部署商務用 Skype Server，使您可以充分規劃組織中的使用者人數，並規劃其活動所產生的伺服器負載。
-ms.openlocfilehash: e683eb2605c2a66a836321028595e2f034baf183
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856560"
 ---
+
 # <a name="capacity-planning-for-skype-for-business-server"></a>商務用 Skype Server 的容量規劃
  
 本節中的主題可協助您瞭解如何規劃及部署商務用 Skype Server，使您可以充分規劃組織中的使用者人數，並規劃其活動所產生的伺服器負載。 

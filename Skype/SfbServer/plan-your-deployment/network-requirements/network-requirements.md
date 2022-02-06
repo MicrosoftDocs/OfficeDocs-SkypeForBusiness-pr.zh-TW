@@ -1,31 +1,26 @@
 ---
 title: 規劃商務用 Skype 的網路需求
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 摘要：在實施商務用 Skype Server 之前，請先複查下列網路元件考慮。
-ms.openlocfilehash: 3e5912cb00bb704afdfc5d568b66711a1ddf472f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864700"
 ---
+
 # <a name="plan-network-requirements-for-skype-for-business"></a>規劃商務用 Skype 的網路需求
 
-**摘要：** 在實施商務用 Skype Server 之前，請先複查下列網路元件考慮。
+**總結：** 在實施商務用 Skype Server 之前，請先複查下列網路元件考慮。
 
 這些主題中的資訊也會在 [Lync Server 的白皮書網路規劃、監控及疑難排解](https://www.microsoft.com/download/details.aspx?id=39084) 中討論，以及其他詳細資料與深度。 雖然內容明確表示 lync 2010 和 Lync 2013，但商務用 Skype Server 的考慮不會改變。
 

@@ -1,25 +1,20 @@
 ---
 title: 前端集區高可用性和管理
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: 深入瞭解商務用 Skype Server 中的前端集區管理，包括管理集區、仲裁遺失，以及僅有兩部前端伺服器的集區的特殊步驟。
-ms.openlocfilehash: f8ad22c7728fc4fb62980a81fa659558aaba4be7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831847"
 ---
+
 # <a name="front-end-pool-high-availability-and-management"></a>前端集區高可用性和管理
  
 深入瞭解商務用 Skype Server 中的前端集區管理，包括管理集區、仲裁遺失，以及僅有兩部前端伺服器的集區的特殊步驟。
@@ -54,7 +49,7 @@ ms.locfileid: "60831847"
 |8   <br/> |6   <br/> |
 |9   <br/> |7   <br/> |
 |10   <br/> |8   <br/> |
-|11   <br/> |9   <br/> |
+|11  <br/> |9   <br/> |
 |12   <br/> |10   <br/> |
 |**商務用 Skype Server 2019 為** 16 <br/> |12   <br/> |
 
@@ -79,7 +74,7 @@ ms.locfileid: "60831847"
 |10-12  <br/> |前9部伺服器的任意5個  <br/> |
 |**商務用 Skype Server 2019 的** 12-16  <br/> |前12部伺服器的任何7個  <br/> |
    
-在上表中，第一次啟動集區時，"first servers" 是第一次啟動的伺服器。 若要判斷這些伺服器，您可以使用  `Get-CsComputer` Cmdlet 搭配 `-PoolFqdn` 選項。 此 Cmdlet 會以拓撲中顯示的順序顯示伺服器，而位於清單頂端的伺服器是第一部伺服器。
+在上表中，第一次啟動集區時，"first servers" 是第一次啟動的伺服器。 若要判斷這些伺服器，您可以使用  `Get-CsComputer` Cmdlet `-PoolFqdn` 搭配選項。 此 Cmdlet 會以拓撲中顯示的順序顯示伺服器，而位於清單頂端的伺服器是第一部伺服器。
   
 > [!IMPORTANT]
 > 在[商務用 Skype Server 2019](../../../SfBServer2019/plan/user-model-2019.md)中，前端伺服器數目上限已增加至16

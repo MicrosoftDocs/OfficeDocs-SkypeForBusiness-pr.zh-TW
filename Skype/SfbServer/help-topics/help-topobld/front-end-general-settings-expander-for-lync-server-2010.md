@@ -1,27 +1,22 @@
 ---
 title: 前端一般設定展開工具 (適用於 Lync Server 2010)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.FrontEndGeneralSettingsExpander2010
+  - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 您可以編輯或設定下列屬性，以編輯前端伺服器或前端集區的屬性。 設定頁面可分成下列區段：
-ms.openlocfilehash: b515acd1aa475247f0f87206a0af50eedb21a294
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855560"
 ---
+
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>前端一般設定展開工具 (適用於 Lync Server 2010)
 
 您可以編輯或設定下列屬性，以編輯前端伺服器或前端集區的屬性。 設定頁面可分成下列區段：
@@ -49,7 +44,7 @@ ms.locfileid: "60855560"
 
 - **SQL Server 儲存區**： SQL Server (的 FQDN，並選擇性地) 與前端伺服器或前端集區相關聯的命名實例。 您可以從清單中選取 SQL Server 儲存區，或按一下 [新增] 建立新的 SQL Server 儲存區
 
-- 檔案 **存放區**：在 [格式]) 中，選取 `\\<FQDN of server>\<share name>` 將充當 Lync server 2013 為複寫、會議目錄及其他用途建立及使用之共用檔案的檔案存放區位置的格式中的 [伺服器和共用 (的 FQDN。 您可以從清單中選取檔案存放區，或按一下 [新增] 建立新的檔案存放區。
+- 檔案 **存放區**：在 [格式]) 中，選取將充當 Lync server 2013 為複寫、會議目錄及其他用途建立及使用之共用檔案的檔案存放區位置的格式 `\\<FQDN of server>\<share name>` 中的 [伺服器和共用 (的 FQDN。 您可以從清單中選取檔案存放區，或按一下 [新增] 建立新的檔案存放區。
 
 - 選取 [ **關聯封存伺服器** ] 核取方塊，啟用此前端伺服器或前端集區的封存伺服器。 選取此核取方塊後，請從清單中選取現有的封存伺服器，或按一下 [ **新增** ] 建立新封存伺服器的定義。
 

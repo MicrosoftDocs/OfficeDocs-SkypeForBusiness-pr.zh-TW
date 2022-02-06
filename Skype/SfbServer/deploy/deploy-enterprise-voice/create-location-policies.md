@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 中建立位置原則
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: 閱讀此主題以瞭解如何在商務用 Skype Server 企業語音中設定增強型緊急服務 (E9-1-1) 位置原則。
-ms.openlocfilehash: 5d8ead66a66a0cf92c39acfe9cb1d547422362d0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850446"
 ---
+
 # <a name="create-location-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中建立位置原則
 
 閱讀此主題以瞭解如何在商務用 Skype Server 企業語音中設定增強型緊急服務 (E9-1-1) 位置原則。 

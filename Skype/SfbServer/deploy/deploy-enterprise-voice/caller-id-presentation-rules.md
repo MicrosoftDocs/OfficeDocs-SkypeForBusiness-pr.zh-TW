@@ -1,31 +1,26 @@
 ---
 title: 在商務用 Skype Server 中建立或修改來電者識別碼簡報的轉譯規則
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台設定來電者識別碼。
-ms.openlocfilehash: 13ca5073956e6cf67264e706a82e63ec72efbac4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865330"
 ---
+
 # <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改來電者識別碼簡報的轉譯規則
 
-**摘要：** 瞭解如何使用商務用 Skype Server 控制台設定來電者識別碼。
+**總結：** 瞭解如何使用商務用 Skype Server 控制台設定來電者識別碼。
 
 在商務用 Skype Server 中，被叫方的電話號碼 (也就是說，稱為) 的電話號碼可以從 e.164 格式轉譯成 _主幹對等_ (所需的本機撥號格式，也就是關聯的閘道、專用分支 exchange (PBX) 或 SIP 主幹) 。 若要執行此項作業，您必須定義一或多個轉譯規則，以在將其路由傳送至主幹對等之前轉譯要求 URI。
 

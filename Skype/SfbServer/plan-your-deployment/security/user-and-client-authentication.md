@@ -1,24 +1,19 @@
 ---
 title: 商務用 Skype Server 的使用者和用戶端驗證
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: 受信任的使用者是指其認證已由商務用 Skype Server 中的受信任伺服器驗證的使用者。 在大部分的情況下，此伺服器可能是 Standard Edition Server、Enterprise Edition 前端伺服器或 Director。 商務用 Skype Server 依賴 Active Directory 網域服務做為使用者認證的單一、受信任的後端存放庫。
-ms.openlocfilehash: c0c64bb269a80ca4241ec9f2d338817b05f1ff9d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831827"
 ---
+
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>商務用 Skype Server 的使用者和用戶端驗證
  
 受信任的使用者是指其認證已由商務用 Skype Server 中的受信任伺服器驗證的使用者。 在大部分的情況下，此伺服器可能是 Standard Edition Server、Enterprise Edition 前端伺服器或 Director。 商務用 Skype Server 依賴 Active Directory 網域服務做為使用者認證的單一、受信任的後端存放庫。

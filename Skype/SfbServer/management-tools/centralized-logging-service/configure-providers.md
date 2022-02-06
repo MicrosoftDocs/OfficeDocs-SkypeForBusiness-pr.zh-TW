@@ -1,29 +1,24 @@
 ---
 title: 設定商務用 Skype Server 2015 中集中式記錄服務的提供者
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中設定集中式記錄服務的案例提供者。
-ms.openlocfilehash: 526c42e1a6fd741b228cd99450b9d11bc3152670
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855450"
 ---
+
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>設定商務用 Skype Server 2015 中集中式記錄服務的提供者
  
-**摘要：** 瞭解如何在商務用 Skype Server 2015 中設定集中式記錄服務的案例提供者。
+**總結：** 瞭解如何在商務用 Skype Server 2015 中設定集中式記錄服務的案例提供者。
   
 集中式記錄服務中提供者的概念和設定是最重要的一點。 Theproviders 直接對應至商務用 Skype Server 追蹤模型中商務用 Skype Server 伺服器角色元件。 提供者會定義將要追蹤的商務用 Skype Server 2015 元件、郵件類型 (例如，要收集的郵件類型、嚴重、錯誤或警告) ，以及旗標 (例如 TF_Connection 或 TF_Diag) 。 提供者是每個商務用 Skype Server Server role 中可追蹤的元件。 藉由使用提供者，可讓您定義在元件上追蹤的層級和類型 (例如 S4、SIPStack、IM 和目前狀態)。 定義的提供者會用於案例中，以針對處理特定問題狀況的某個邏輯集合來對所有提供者進行分組。
   
@@ -48,11 +43,11 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
   
 在[商務用 Skype 2015 的集中式記錄服務](centralized-logging-service.md)中引入，定義提供者以用於案例中的主要元素包括：
   
-- **提供者** 如果您熟悉 OCSLogger，提供者就是您所選擇的元件，以告知 OCSLogger 追蹤引擎應從何處收集記錄。 提供者是相同的元件，在許多情況下，與 OCSLogger 中的元件具有相同的名稱。 如果您不熟悉 OCSLogger，提供者是集中式記錄服務可從中收集記錄的伺服器角色特定元件。 在集中式記錄服務的情況下，CLSAgent 是集中式記錄服務的架構元件，它會執行您在提供者設定中所定義的元件追蹤。
+- **供應商** 如果您熟悉 OCSLogger，提供者就是您所選擇的元件，以告知 OCSLogger 追蹤引擎應從何處收集記錄。 提供者是相同的元件，在許多情況下，與 OCSLogger 中的元件具有相同的名稱。 如果您不熟悉 OCSLogger，提供者是集中式記錄服務可從中收集記錄的伺服器角色特定元件。 在集中式記錄服務的情況下，CLSAgent 是集中式記錄服務的架構元件，它會執行您在提供者設定中所定義的元件追蹤。
     
 - **記錄層級** OCSLogger 提供選擇所收集資料的詳細資料層級的選項。 這項功能是集中式記錄服務和案例中不可或缺的一部分，並由 **Type** 參數定義。 您可以選擇下列項目：
     
-  - **全部** 針對已定義的提供者，將類型為嚴重、錯誤、警告、詳細及調試資訊的追蹤訊息收集到記錄檔。
+  - **所有** 針對已定義的提供者，將類型為嚴重、錯誤、警告、詳細及調試資訊的追蹤訊息收集到記錄檔。
     
   - **致命** 只收集定義為 "嚴重" 的追蹤訊息。
     
@@ -62,11 +57,11 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
   - **資訊** 只收集表明已定義的提供者的資訊訊息的追蹤訊息，加上嚴重、錯誤和警告訊息。
     
-  - **Verbose** 針對已定義的提供者，收集類型為嚴重、錯誤、警告和詳細的追蹤訊息。
+  - **詳細** 針對已定義的提供者，收集類型為嚴重、錯誤、警告和詳細的追蹤訊息。
     
   - [**調試**] 這實際上相當於「全部」，針對已定義的提供者，收集類型為嚴重、錯誤、警告、資訊、詳細及調試的追蹤。
     
-- **旗標** OCSLogger 提供的選項可為定義您從追蹤檔案中取得的資訊類型的每個提供者選擇旗標。 您可以依據提供者選擇下列旗標：
+- **標誌** OCSLogger 提供的選項可為定義您從追蹤檔案中取得的資訊類型的每個提供者選擇旗標。 您可以依據提供者選擇下列旗標：
     
   - **TF_Connection** 提供連接相關的記錄專案。 這些記錄檔包含與特定元件建立之連接的相關資訊。 這也可能包括大量的網路層級資訊 (，也就是針對不含 connection) 概念的元件。
     
@@ -78,7 +73,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
     
   - **TF_Component** 啟用指定為提供者的一部分的元件記錄。
     
-  - **全部** 設定提供者可使用的所有可用旗標。
+  - **所有** 設定提供者可使用的所有可用旗標。
     
 ### <a name="to-review-information-about-existing-centralized-logging-service-scenario-providers"></a>若要查看現有集中式記錄服務案例提供者的相關資訊
 

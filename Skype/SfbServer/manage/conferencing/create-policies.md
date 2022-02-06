@@ -1,27 +1,22 @@
 ---
 title: 在商務用 Skype Server 中建立會議原則
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 摘要：瞭解如何在商務用 Skype Server 中建立會議原則。
-ms.openlocfilehash: 56404f98389dbe2fca6a6022e7d6f175bcca030c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828826"
 ---
+
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>在商務用 Skype Server 中建立會議原則
  
-**摘要：** 瞭解如何在商務用 Skype Server 中建立會議原則。
+**總結：** 瞭解如何在商務用 Skype Server 中建立會議原則。
   
 您可以使用商務用 Skype Server 控制台] 或使用商務用 Skype Server 管理命令介面來建立會議原則。
   

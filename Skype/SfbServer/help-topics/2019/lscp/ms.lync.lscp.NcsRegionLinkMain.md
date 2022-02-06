@@ -1,27 +1,22 @@
 ---
 title: 設定網路地區連結
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.NcsRegionLinkMain
+  - ms.lync.lscp.NcsRegionLinkMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: fef3b0cc791d6126ad6b1c9fb1d173234a62f3b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832707"
 ---
+
 # <a name="configure-a-network-region-link"></a>設定網路地區連結
 
 您要執行的工作 按一下您要執行之任務的連結。

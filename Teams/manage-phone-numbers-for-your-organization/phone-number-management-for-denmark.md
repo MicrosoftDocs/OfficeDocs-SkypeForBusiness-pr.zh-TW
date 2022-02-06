@@ -1,31 +1,26 @@
 ---
 title: 電話丹麥的號碼管理
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: davlick,krkilaru
+ms.reviewer: 'davlick,krkilaru'
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- M365-voice
+  - M365-voice
 audience: Admin
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Calling Plans
+  - Calling Plans
 description: 使用此表格可尋找在丹麥取得及管理丹麥地區電話號碼Microsoft Teams。
-ms.openlocfilehash: e7903a7cb533d3bd789c648bb4441f48cda34655
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846096"
 ---
+
 # <a name="phone-number-management-for-denmark"></a>電話丹麥的號碼管理
 
 使用此表格可尋找在丹麥取得及管理丹麥地區電話號碼Microsoft Teams。

@@ -1,28 +1,23 @@
 ---
 title: 商務用 Skype Server：規劃通話品質儀表板
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 摘要：瞭解在規劃通話品質儀表板時所應考慮的事項。
-ms.openlocfilehash: c9ab2cafcd05ac7ea0585b0f3af2924b9fa4f0cf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835171"
 ---
+
 # <a name="skype-for-business-server-plan-for-call-quality-dashboard"></a>商務用 Skype Server：規劃通話品質儀表板 
  
-**摘要：** 深入瞭解當您規劃通話品質儀表板時應考慮的事項。
+**總結：** 深入瞭解當您規劃通話品質儀表板時應考慮的事項。
   
 ## <a name="overview-of-the-skype-for-business-server-call-quality-dashboard"></a>商務用 Skype Server 通話品質儀表板的概覽
 
@@ -85,7 +80,7 @@ CQD 資料可以透過 CQD 入口網站查看，並透過 REST API 通話存取�
 
 入口網站是查看 Cube 中資料的最快方法。 入口網站隨附數個可立即使用的內建報告。 內建報告會以結構化方式連結，以引導使用者連續縮小或縮小通話資料的小扇面。 內建報告也會透過示範不同的旋轉、篩選及量值的圖表和資料表組合，強調可顯示資料的各種不同方式。 存取入口網站的每一位使用者都可以有自己的報表集合，而使用者可以修改和共用該集合。 如需 CQD 網頁入口網站用法的詳細資訊，請參閱[Use Call Quality 儀表板 for 商務用 Skype Server](use.md)。
   
-CQD 入口網站支援的作業系統： Windows 8.1、Windows 8、Windows Server 2012 R2、Windows Server 2012 及 Windows Server 2016 (商務用 Skype Server 2019 CQD) 。
+CQD 入口網站支援的作業系統： Windows 8.1、Windows 8、Windows Server 2012 R2、Windows Server 2012 及 Windows Server 2016 (商務用 Skype Server 2019 CQD僅) 。
   
 支援 CQD 入口網站的瀏覽器： internet explorer 11、Internet Explorer 10 和 Internet explorer 9。
   
@@ -121,7 +116,7 @@ CQD 附帶數個元件，而且可協助您瞭解每個元件的需求及其相�
 |元件名稱|相依元件|
 |:-----|:-----|
 |QoE 封存   |Microsoft SQL Server   |
-|立方體   |Microsoft SQL ServerAnalysis Services   |
+|立方體   |Microsoft SQL Server Analysis Services   |
 |入口網站   |Microsoft 資訊服務   |
 |存放庫服務 (入口網站的部分安裝)    |Microsoft SQL Server   |
    
@@ -164,7 +159,7 @@ CQD，包括其所有元件和相依元件，都可以部署在虛擬機器、�
 
 |針對 CQD 2015 |&nbsp;  |
 |:-----|:-----|
-|支援的作業系統   |WindowsServer 2008 r2，Windows Server 2012，Windows Server 2012 R2   |
+|支援的作業系統   |Windows Server 2008 R2，Windows Server 2012，Windows Server 2012 R2   |
 |支援的 SQL Server   |SQL Server 2012 SQL Server 2014，SQL Server 2016   |
 
 
@@ -241,15 +236,15 @@ CQD 使用 Microsoft SQL Server、microsoft SQL 分析伺服器及 microsoft Int
 
 CQD 需要下列作業系統：
   
-- Windows使用 IIS 7.5 的伺服器 2008 R2
+- 使用 IIS 7.5 Windows Server 2008 R2
     
 - 使用 IIS 8.0 Windows Server 2012
     
-- Windows Server 2012使用 IIS 8.5 的 R2
+- 使用 IIS 8.5 Windows Server 2012 R2
 
 - Windows Server 2016 與 IIS 10.0 (商務用 Skype Server 2019 CQD 只有) 
 
-- WindowsServer 2019 (僅限商務用 Skype Server 2019 CQD) 
+- Windows Server 2019 (商務用 Skype Server 2019 CQD 只) 
     
 以下是以階層順序) 所需的 IIS role services (：
   

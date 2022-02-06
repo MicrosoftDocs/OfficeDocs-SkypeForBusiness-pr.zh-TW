@@ -1,28 +1,23 @@
 ---
 title: 管理商務用 Skype Server 中的註冊器設定
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 摘要：管理商務用 Skype Server 的註冊機設定設定。
-ms.openlocfilehash: 9e5eddde712180820579840587abb18bc9809fe4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832127"
 ---
+
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>管理商務用 Skype Server 中的註冊器設定
  
-**摘要：** 管理商務用 Skype Server 的註冊機設定設定。
+**總結：** 管理商務用 Skype Server 的註冊機設定設定。
   
 您可以使用註冊機構來設定 proxy 伺服器驗證方法。 您指定的驗證通訊協定會決定集區中的伺服器在用戶端上面臨的挑戰類型。 可用的通訊協定包括：
   

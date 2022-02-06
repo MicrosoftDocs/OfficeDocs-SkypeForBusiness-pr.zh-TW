@@ -1,25 +1,20 @@
 ---
 title: 商務用 Skype Server 中的前端集區災害復原
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: 針對嚴重損壞修復，商務用 Skype Server 提供集區配對與容錯移轉，以防一個集區中斷。
-ms.openlocfilehash: fa63aa9d549f64508f32c32ede24f34592a88719
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833319"
 ---
+
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>商務用 Skype Server 中的前端集區災害復原
  
 針對嚴重損壞修復，商務用 Skype Server 提供集區配對與容錯移轉，以防一個集區中斷。

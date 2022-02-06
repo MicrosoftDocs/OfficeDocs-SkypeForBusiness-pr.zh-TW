@@ -1,27 +1,22 @@
 ---
 title: 商務用 Skype Server 中的 P2P 摘要子報表
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
 description: 摘要：瞭解商務用 Skype Server 中的 P2P 摘要子報表。
-ms.openlocfilehash: e8296604626b143bb143ea2acbdf8e6875e1acf6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861320"
 ---
+
 # <a name="p2p-summary-subreport-in-skype-for-business-server"></a>商務用 Skype Server 中的 P2P 摘要子報表
  
-**摘要：** 瞭解商務用 Skype Server 中的 P2P 摘要子報表。
+**總結：** 瞭解商務用 Skype Server 中的 P2P 摘要子報表。
   
 P2P 摘要子報表可提供失敗的對等通訊會話的整體觀點。
   

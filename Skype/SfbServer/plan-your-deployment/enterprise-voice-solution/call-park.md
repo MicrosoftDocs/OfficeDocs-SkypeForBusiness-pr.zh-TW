@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype 中規劃通話駐留
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: 在商務用 Skype Server 企業語音中規劃通話駐留，讓通話保持通話，並將通話轉接至部門。 包括容量規劃、支援的通話，以及支援的用戶端。
-ms.openlocfilehash: 29ca14f85aeccaa8394ede4420c66af77e5c66c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839835"
 ---
+
 # <a name="plan-for-call-park-in-skype-for-business"></a>在商務用 Skype 中規劃通話駐留
  
 在商務用 Skype Server 企業語音中規劃通話駐留，讓通話保持通話，並將通話轉接至部門。 包括容量規劃、支援的通話，以及支援的用戶端。
@@ -56,7 +51,7 @@ ms.locfileid: "60839835"
   
 ### <a name="software-requirements"></a>軟體需求
 
-部署通話駐留的所有前端伺服器和 Standard Edition 伺服器都必須為執行 Windows Server 2008 R2 的伺服器安裝 Windows 媒體格式執行時間，或為執行 Windows Server 2012 或 Windows Server 2012 R2 的伺服器安裝 Microsoft Media Foundation. 針對 Windows Server 2008 R2，Windows Media Format Runtime 是以 Windows 桌面體驗的一部分安裝。 Windows媒體格式執行時間或 Microsoft media Foundation 是 Windows 媒體音訊的必要 (。呼叫駐留的 wma) 檔案會對等候音樂播放。
+部署通話駐留的所有前端伺服器和 Standard Edition 伺服器都必須為執行 Windows Server 2008 R2 的伺服器安裝 Windows 媒體格式執行時間，或為執行 Windows Server 2012 的伺服器安裝 Microsoft media Foundation，或Windows Server 2012 R2。 針對 Windows Server 2008 R2，Windows Media Format Runtime 是以 Windows 桌面體驗的一部分安裝。 Windows 媒體格式執行時間或 Microsoft Media Foundation 是 Windows Media 音訊所需的， ( 為通話駐留播放的 wma) 檔案。
   
 ### <a name="port-requirements"></a>連接埠需求
 
@@ -129,7 +124,7 @@ ms.locfileid: "60839835"
   
 **通話駐留使用者模型**
 
-|**計量**|**每個前端伺服器集區  <br/>  (8 部前端伺服器)**|**根據 Standard Edition 伺服器**|
+|**計量**|**每個前端伺服器集  <br/>  區 (8 部前端伺服器)**|**根據 Standard Edition 伺服器**|
 |:-----|:-----|:-----|
 |駐留率  <br/> |每分鐘 8 個  <br/> |每分鐘 1 個  <br/> |
 |擷取駐留通話率  <br/> |每分鐘 8 個  <br/> |每分鐘 1 個  <br/> |
