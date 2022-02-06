@@ -1,28 +1,23 @@
 ---
 title: 商務用 Skype 中回應群組的部署程式
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: 商務用 Skype Server 企業語音中的回應群組部署程式與步驟。
-ms.openlocfilehash: 13a83c5fbedc2a7b38118b0e7935c4722e3855ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853697"
 ---
+
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>商務用 Skype 中回應群組的部署程式
 
 商務用 Skype Server 企業語音中的回應群組部署程式與步驟。
@@ -85,7 +80,7 @@ ms.locfileid: "60853697"
 
 2. 在 Web.config 檔案中，找出  `<system.web>` 區段。
 
-3. `<machineKey>`在區段中新增下列區段 `<system.web>` ：
+3. 在區段中 `<system.web>` 新增下列 `<machineKey>` 區段：
 
    ```xml
    <machineKey validationKey="AutoGenerate,IsolateApps" decryptionKey="AutoGenerate,IsolateApps" validation="3DES" decryption="3DES"/>
@@ -104,7 +99,7 @@ ms.locfileid: "60853697"
 只有在您的組織需要支援 Yi、Meng 或 Zang 字元時，才適用本節內容。
 
 > [!NOTE]
-> 如需有關彝語、Meng 及 Zang 字元的資訊及其可能對您的部署很重要的原因，請參閱 GB18030 字元集上的資訊 [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105)) 。
+> 如需有關彝語、Meng 及 Zang 字元的資訊及其可能對您的部署很重要的原因，請參閱 GB18030 字元集 [https://go.microsoft.com/fwlink/p/?linkId=240223](/previous-versions/sql/sql-server-2008-r2/ms180991(v=sql.105)) 上的資訊。
 
 若要支援 Yi、Meng 或 Zang 字元，您需要修改 Rgsconfig 資料庫的定序。請變更每個 Rgsconfig 資料庫中下列各資料表內 **[名稱]** 資料行的定序：
 

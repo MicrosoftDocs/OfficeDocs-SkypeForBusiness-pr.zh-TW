@@ -1,25 +1,20 @@
 ---
 title: 在商務用 Skype Server 中部署 SRS v1 管理網頁入口網站
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
 description: 商務用 Skype Server Skype 會議室 Systems (SRS v1 （以前稱為 Lync 會議室系統) 管理網頁入口網站）是一個網頁入口網站，組織可以用來維護其 Skype 的會議室系統會議室。 系統管理員可以使用 SRS v1 管理網頁入口網站來監視裝置健康情況，例如，監控音訊/視頻裝置。 使用此入口網站，系統管理員可以遠端收集診斷資訊以監視會議室健康情況。
-ms.openlocfilehash: c25671717db51af880bd4b7e2700bb9e795f2790
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843966"
 ---
+
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 SRS v1 管理網頁入口網站
 
 商務用 Skype Server Skype 會議室 Systems (SRS v1 （以前稱為 Lync 會議室系統) 管理網頁入口網站）是一個網頁入口網站，組織可以用來維護其 Skype 的會議室系統會議室。 系統管理員可以使用 SRS v1 管理網頁入口網站來監視裝置健康情況，例如，監控音訊/視頻裝置。 使用此入口網站，系統管理員可以遠端收集診斷資訊以監視會議室健康情況。
@@ -155,7 +150,7 @@ ms.locfileid: "60843966"
 
 - **標記** 管理員提供給會議室的自訂名稱。 您可以在入口網站中，按一下會議室名稱以設定標記。
 
-- **健全狀況** 會議室的健全狀況狀態，它是以會議室的合計健康狀態所組成，它會顯示在會議室設定] 頁面的 [健全狀況] 區段下。
+- **健康** 會議室的健全狀況狀態，它是以會議室的合計健康狀態所組成，它會顯示在會議室設定] 頁面的 [健全狀況] 區段下。
 
 - **下一個會議** 排定下一個會議的日期和時間。
 
@@ -213,7 +208,7 @@ ms.locfileid: "60843966"
 
 #### <a name="why-cant-i-sign-in-to-the-administrative-web-portal"></a>為什麼我無法登入管理網頁入口網站？
 
-當您開啟時 https://localhost/lrs ，您可以看到 [登入] 頁面，但是當您輸入您的認證時，您無法登入。 在此情況下，您必須先開啟 https://FQDNofFEserver/SRS 以登入管理 web 入口網站。
+當您開啟 https://localhost/lrs 時，您可以看到 [登入] 頁面，但是當您輸入您的認證時，您無法登入。 在此情況下，您必須先開啟 https://FQDNofFEserver/SRS 以登入管理 web 入口網站。
 
 #### <a name="why-cant-i-see-srs-v1-in-the-administrative-web-portal"></a>為什麼我無法看到管理網頁入口網站中的 SRS v1？
 
@@ -240,7 +235,7 @@ ms.locfileid: "60843966"
 
 - 請確定 LRSApp 的使用者帳戶已 SIP-enabled。
 
-- 如果仍有問題，請從 D:\Tracing\LRSAdminLogs 收集 SRS 系統中的 **Trace .log** 檔案 \, ，然後將它傳送給您的 SRS 支援連絡人。
+- 如果仍有問題，請從 D:\Tracing\LRSAdminLogs \, 收集 SRS 系統中的 **Trace .log** 檔案，然後將它傳送給您的 SRS 支援連絡人。
 
 #### <a name="why-cant-i-see-the-bulk-management-menus-for-srs-in-the-administrative-web-portal"></a>為何在管理網頁入口網站中看不到 SR 的大量管理功能表？
 

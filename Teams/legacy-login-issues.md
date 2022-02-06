@@ -1,32 +1,27 @@
 ---
 title: 在舊版系統上接收訊息和通話時Teams
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 05/29/2020
 ms.topic: troubleshooting
 ms.service: msteams
 audience: admin
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 description: 針對在舊版系統上接收訊息和通話相關問題進行疑難排解
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 69a3f070b247507e0d22535179353860434e94ad
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857140"
 ---
+
 # <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>在舊版系統上接收訊息和通話的問題
 
-如果使用者使用舊版的手機或已登入其他應用程式Teams收到訊息或通話時可能有問題。
+如果使用者使用舊版的手機或已與其他應用程式Teams或登入，則收到訊息或通話時可能有問題。
 
 ## <a name="legacy-adu-setups"></a>舊版 ADU 設定
 

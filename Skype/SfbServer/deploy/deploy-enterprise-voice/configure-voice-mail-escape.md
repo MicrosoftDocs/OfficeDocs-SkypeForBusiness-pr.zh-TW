@@ -1,31 +1,26 @@
 ---
 title: 在商務用 Skype 中設定語音信箱轉義
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 摘要：瞭解如何使用商務用 Skype Server 管理命令介面，在商務用 Skype Server 中設定語音信箱轉義。
-ms.openlocfilehash: 7bd18056362fc4ed6ffdede31515b6eb41d8b134
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865320"
 ---
+
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>在商務用 Skype 中設定語音信箱轉義
 
-**摘要：** 瞭解如何使用商務用 Skype Server 管理命令介面，在商務用 Skype Server 中設定語音信箱轉義。
+**總結：** 瞭解如何使用商務用 Skype Server 管理命令介面，在商務用 Skype Server 中設定語音信箱轉義。
 
 當使用者設定同時響鈴的行動電話時，如果行動電話關閉、電池計量不足或超出範圍，則通常會將來電者路由傳送至使用者的個人語音信箱。 使用商務用 Skype Server 時，使用者可以選擇要將與業務相關的來電路由傳送至其公司語音信箱系統。 具體而言，您可以設定 timer，如果在所定義的時間範圍內，電信公司的語音信箱接聽來電，商務用 Skype Server 會中斷與載波語音信箱系統的連線 (和使用者的個人語音信箱) ，但使用者在公司系統中的剩餘端點會繼續振鈴。 如此一來，來電者就會自動路由傳送至使用者的公司語音信箱。
 

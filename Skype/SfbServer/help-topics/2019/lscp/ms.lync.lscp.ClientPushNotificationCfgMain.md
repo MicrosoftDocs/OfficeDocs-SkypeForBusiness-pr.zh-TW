@@ -1,27 +1,22 @@
 ---
 title: 行動用戶端推播通知設定
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientPushNotificationCfgMain
+  - ms.lync.lscp.ClientPushNotificationCfgMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 若要設定 Microsoft 推播通知和 Apple 推播通知，您必須建立原則來定義您需要的推播通知類型。
-ms.openlocfilehash: 0f0d5a465abecf9ba0f5fb2b5de594c537801914
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847976"
 ---
+
 # <a name="mobile-client-push-notification-configuration"></a>行動用戶端：推播通知設定
  
 若要設定 **Microsoft 推播通知** 和 **Apple 推播通知**，您必須建立原則來定義您需要的推播通知類型。
@@ -48,7 +43,7 @@ ms.locfileid: "60847976"
   
 建立新原則或編輯現有的原則與兩個動作相關聯：
   
-- **認可** 「認可」動作會建立或更新原則並儲存變更
+- **提交** 「認可」動作會建立或更新原則並儲存變更
     
 - **取消** 取消動作會捨棄自上次認可動作後所做的任何變更。 如果您取消，所做的任何變更都會遺失。
     

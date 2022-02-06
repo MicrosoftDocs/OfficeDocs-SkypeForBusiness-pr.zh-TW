@@ -1,25 +1,20 @@
 ---
 title: 承租人表格
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c1b070c1-2c59-4ca9-910b-43f673f97fda
 description: 承租人資料表是一種支援資料表，可儲存各種承租人的清單。 表格中的每筆記錄代表一位承租人。
-ms.openlocfilehash: 37387fe3bbb4bae7b09a0898ee65373f5342c488
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863330"
 ---
+
 # <a name="tenants-table"></a>承租人表格
  
 承租人資料表是一種支援資料表，可儲存各種承租人的清單。 表格中的每筆記錄代表一位承租人。

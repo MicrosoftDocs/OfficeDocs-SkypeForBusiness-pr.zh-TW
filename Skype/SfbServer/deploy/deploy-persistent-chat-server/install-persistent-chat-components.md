@@ -1,28 +1,23 @@
 ---
 title: 在商務用 Skype Server 2015 中安裝 Persistent Chat 元件
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
 description: 摘要：閱讀此主題以瞭解如何使用商務用 Skype Server 部署嚮導來安裝商務用 Skype Server 2015 元件和服務。
-ms.openlocfilehash: e0e0e8ca13448c7af19b9d589f8b0abd5b1e641b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845866"
 ---
+
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中安裝 Persistent Chat 元件
  
-**摘要：** 閱讀此主題以瞭解如何使用商務用 Skype Server 部署嚮導來安裝商務用 Skype Server 2015 元件和服務。
+**總結：** 閱讀此主題以瞭解如何使用商務用 Skype Server 部署嚮導來安裝商務用 Skype Server 2015 元件和服務。
   
 安裝 Persistent Chat 元件之前，請確定您已安裝必要的硬體和軟體，並已建立適當的拓撲來支援 Persistent Chat Server。 如需規劃及需求的詳細資訊，請參閱[商務用 Skype 環境的需求](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)，並[在商務用 Skype Server 2015 中規劃 Persistent Chat Server](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)。 如需如何更新及發行拓撲以包含 Persistent chat server 的詳細資訊，請參閱[Add persistent chat server to to 商務用 Skype Server 2015 拓撲](add-persistent-chat-server.md)。
   
