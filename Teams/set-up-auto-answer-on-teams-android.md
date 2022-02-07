@@ -10,27 +10,22 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 f1.keywords:
-- CSH
-ms.custom: ''
-description: 瞭解如何使用 PowerShell 設定 Android Teams自動答案功能。
-ms.openlocfilehash: e25b0694b54d1047c64ecaba026380ac9c4a9949
-ms.sourcegitcommit: 5e9a8d3cdb72b57adfb842200159c5d753b70ecb
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62329096"
+  - CSH
+ms.custom: null
+description: 瞭解如何使用 PowerShell 在 Android Microsoft Teams 會議室和視Teams裝置上設定自動接聽功能。
 ---
-# <a name="set-up-auto-answer-for-teams-android-devices"></a>設定 Android 裝置Teams自動答案
 
-本文將協助您設定 Android 裝置上的自動Teams功能。 自動接聽可讓您組織中具有系統管理許可權的人變更其裝置設定，以自動接受傳入的會議邀請，並自動接受視音訊通話。
+# <a name="set-up-auto-answer-for-microsoft-teams-rooms-on-android-and-teams-video-phone-devices"></a>在 Android 和視Microsoft Teams 會議室裝置上Teams自動接聽
+
+本文將協助您設定 Android Microsoft Teams 會議室 和視Teams裝置上的自動Teams功能。 自動接聽可讓您組織中具有系統管理許可權的人變更其裝置設定，以自動接受傳入的會議邀請，並自動接受視音訊通話。
 
 ## <a name="enable-auto-answer-with-powershell"></a>使用 PowerShell 啟用自動答案
 
-在 Android 裝置上使用下列屬性Teams自動答案：
+使用下列屬性在 Android 和視訊Microsoft Teams 會議室裝置上Teams自動接聽：
 
 - **Set-CsTeamsCallingPolicy -AutoAnswerEnabledType**
 - **Set-CsTeamsIPPhonePolicy -SignInMode**
@@ -49,7 +44,7 @@ Set-CsTeamsCallingPolicy -AutoAnswerEnabledType Enabled
 
 有三種用於登錄模式的選項：
 
-- **UserSignIn：** 讓個別使用者Teams通話體驗。
+- **UserSignIn：** 啟用個別使用者Teams通話體驗。
 - **CommonAreaPhoneSignIn：** 在手機上啟用常見的地區電話體驗。
 - **MeetingSignIn：** 在手機上啟用會議室體驗。
 
