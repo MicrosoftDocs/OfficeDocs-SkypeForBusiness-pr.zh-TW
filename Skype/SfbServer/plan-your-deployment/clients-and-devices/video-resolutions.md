@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype 用戶端影片解析度
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 摘要：在規劃商務用 Skype Server 時，複查用戶端的影片需求。
-ms.openlocfilehash: 717813e9ed667bbd0d3d9d63e45ae3b9c45b4dcf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 26a47854ac4223a527635111a0c1b25a66d63706
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856550"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395065"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>商務用 Skype 用戶端影片解析度
  
-**摘要：** 在規劃商務用 Skype Server 時，請複查用戶端影片的需求。
+**總結：** 在規劃商務用 Skype Server 時，請複查用戶端影片的需求。
   
 本文說明商務用 Skype 影片通話的影片硬體支援，並說明如何判斷各種電腦、平板電腦及行動裝置設定的預期影片品質。 
   
@@ -55,7 +55,7 @@ IT 專業人員會發現此資訊有助於評估已在組織中使用的膝上�
     
 - 實體核心數目
     
-- WindowsWEI 的經驗索引 () 
+- Windows 經驗索引 (WEI) 
     
 Windows 系統評定工具 (WinSAT) 決定 WEI。 當您執行 WinSAT 工具時，它會在%windir%\Performance\WinSAT\DataStore 目錄的電腦上產生正規的評估 XML 檔。 此 XML 檔包含下列兩個分數，尤其是決定編碼和解碼功能的特別重要性：
   
@@ -101,7 +101,7 @@ Windows 系統評定工具 (WinSAT) 決定 WEI。 當您執行 WinSAT 工具時�
 
 下表說明支援的行動裝置上可用的最大影片解析度。 如需行動裝置支援的詳細資訊，請商務用 Skype 的行動[用戶端功能比較](mobile-feature-comparison.md)。
   
-|**功能**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
+|**功能**|**Windows Phone**|Iphone|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|
 |最高解析度的264編碼  <br/> |VGA  <br/> |QVGA： iPhone 4S  <br/> VGA： iPhone 5  <br/> 720p： iPhone 5S 和更新版本  <br/> |VGA： iPad 2 和更新版本/iPad 小型1和更新版本  <br/> 720p： iPad 空氣/iPad 迷你 2/iPad Pro 及更新版本  <br/> |取決於裝置模型，最多 VGA  <br/> |
 |-264 解碼最大解析度  <br/> |VGA  <br/> |QVGA： iPhone 4S  <br/> VGA： iPhone 5  <br/> 720p： iPhone 5S 和更新版本  <br/> |VGA： iPad 2 和更新版本/iPad 小型1和更新版本  <br/> 720p： iPad 空氣/iPad 迷你 2/iPad Pro 及更新版本  <br/> |取決於裝置模型，最多 VGA  <br/> |

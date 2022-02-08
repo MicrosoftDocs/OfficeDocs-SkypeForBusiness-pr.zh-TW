@@ -1,7 +1,7 @@
 ---
 title: '規劃會議用戶端 (Web 應用程式和會議應用程式) '
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 摘要： IT 專業人員應該在規劃商務用 Skype Server 時，複查商務用 Skype Web 應用程式和 Skype 會議應用程式的支援需求。 本文並非適用于這些應用程式的使用者。
-ms.openlocfilehash: dbf9f83599e36189c172daa37cdb7444659aad83
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bf6eb62291309500c942e83c41e898b5a4d25531
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862120"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395155"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>規劃會議用戶端 (Web 應用程式和會議應用程式) 
  
-**摘要：** IT 專業人員應該在規劃商務用 Skype Server 時，複查商務用 Skype Web 應用程式和 Skype 會議應用程式的支援需求。 本文並非適用于這些應用程式的使用者。
+**總結：** IT 專業人員應該在規劃商務用 Skype Server 時，複查商務用 Skype Web 應用程式和 Skype 會議應用程式的支援需求。 本文並非適用于這些應用程式的使用者。
   
 一旦您執行商務用 Skype Server，組織的使用者可能會將商務用 Skype 用戶端安裝為部署程式的一部分。 
   
@@ -40,12 +40,12 @@ ms.locfileid: "60862120"
   
 根據預設，主控會議的伺服器會將使用者下載並安裝商務用 Skype Web 應用程式以加入會議。 商務用 Skype Web 應用程式儲存在前端伺服器上，而且會傳送給會議出席者。 
   
-若為商務用 Skype Server，Skype 的會議應用程式 (于 Windows 上) ，而且 Mac 版商務用 Skype (在 Mac) 上可以做為商務用 Skype Web 應用程式從 CU5 開始的取代，但提供取代的應用程式需要其他設定（如下文所述[）。啟用 Skype 會議應用程式以取代商務用 Skype Web 應用程式 (選用) ](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。 如果已啟用 Skype 會議應用程式和 Mac 版商務用 Skype，使用者將會從 Microsoft 365 或 Office 365 內容傳遞網路下載最新版本的應用程式，而不是從 (伺服器下載 CDN) 。 針對商務用 Skype Server 2019，使用 Skype 會議應用程式和 Mac 版商務用 Skype 是唯一的選項。
+針對商務用 Skype Server，Skype 的會議應用程式 (于 Windows) 上，Mac 版商務用 Skype (的 Mac) 可以取代為商務用 Skype Web 應用程式從 CU5 開始的取代，但提供取代應用程式需要所述的其他設定。在 [[啟用 Skype 會議應用程式] 以取代商務用 Skype Web 應用程式 (選用) ](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)。 如果已啟用 Skype 會議應用程式和 Mac 版商務用 Skype，使用者將會從 Microsoft 365 或 Office 365 內容傳遞網路下載最新版本的應用程式，而不是從 (伺服器下載 CDN) 。 針對商務用 Skype Server 2019，使用 Skype 會議應用程式和 Mac 版商務用 Skype 是唯一的選項。
   
-Skype會議應用程式提供簡化的瀏覽器體驗，可供下載及安裝應用程式，以及加入會議，包括針對 Internet Explorer 使用者的一次按一下加入。 Skype會議應用程式對可靠性和會議體驗的商務用 Skype Web 應用程式還有許多改進。 
+Skype 會議應用程式提供簡化的瀏覽器體驗，可供下載及安裝應用程式，以及加入會議（包括對 Internet Explorer 使用者的按一下加入）。 Skype 會議應用程式對商務用 Skype Web 應用程式可靠性和會議體驗還有許多改進功能。 
   
 > [!NOTE]
-> 從商務用 Skype Server 2015 CU5 或更新版本中，使用商務用 Skype 線上所用的會議將不再傳送 clientless 使用者商務用 Skype Web 應用程式，而是會傳送 Skype 會議應用程式 (Windows) 或 Mac 版商務用 Skype (Mac) 。 從商務用 Skype Server 2015 CU5 或更新版本中，如果您[啟用 Skype 會議應用程式以取代商務用 Skype Web 應用程式 (選用) ](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)，clientless 使用者將會傳送 Skype 會議應用程式或 Mac 版商務用 Skype，而不是商務用 Skype Web 應用程式。 
+> 從商務用 Skype Server 2015 CU5 或更新版本，使用商務用 Skype 線上所用的會議將不再傳送 clientless 使用者您的商務用 Skype Web 應用程式，而是會傳送 Skype 會議應用程式 (Windows) 或 Mac 版商務用 Skype Mac) 上的 (。 從商務用 Skype Server 2015 CU5 或更新版本中，如果您[啟用 Skype 會議應用程式以取代商務用 Skype Web 應用程式 (選用) ](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable)，clientless 使用者將會傳送 Skype 會議應用程式或 Mac 版商務用 Skype，而不是商務用 Skype Web 應用程式。 
   
 ## <a name="software-requirements"></a>軟體需求
 <a name="OS-Browser"> </a>
@@ -60,7 +60,7 @@ Skype會議應用程式提供簡化的瀏覽器體驗，可供下載及安裝應
 |Windows 8.1 &#x2776; <br/> |不適用  <br/> |是  <br/> |不適用  <br/> |不適用  <br/> |不適用 <br/> |Yes &#x2778; <br/> |
 |Windows 8 (英特爾) &#x2776; <br/> |不適用  <br/> |不適用  <br/> |是  <br/> |不適用 <br/> |不適用  <br/> |Yes &#x2778; <br/> |
 |Windows 7，含 SP1 &#x2777; <br/> |不適用  <br/> |是  <br/> |否  <br/> |否  <br/> |無 <br/>|Yes &#x2778; <br/> |
-|Windows具有 SP1 &#x2777; 的伺服器 2008 R2 <br/> |不適用  <br/> |是  <br/> |是  <br/> |是  <br/> |不適用 <br/>|Yes &#x2778; <br/> |
+|使用 SP1 Windows Server 2008 R2 &#x2777; <br/> |不適用  <br/> |是  <br/> |是  <br/> |是  <br/> |不適用 <br/>|Yes &#x2778; <br/> |
 | (以 Intel 為基礎的) macOS 10.8 和更新版本 &#x2777; <br/> |不適用  <br/> |不適用  <br/> |不適用  <br/> |不適用  <br/> |是  <br/> |是 <br/> |
    
 &#x2776; 商務用 Skype Web 應用程式瀏覽器外掛程式需要特定的共用外掛程式，才能使用電腦型語音、影片、共用及查看進行中畫面共用和其他功能。 會議出席者可以選擇在加入會議時安裝共用外掛程式，或在他們啟動這些功能的其中一個。 在 Windows 8 和 Windows 8.1 中，只有當您執行的是桌面的 Internet Explorer 10 或 Internet Explorer 11 時，才可以安裝共用外掛程式。 在非桌上出版本的 Internet Explorer 10 和11中，無法使用這些功能。 請注意，已不再支援 Firefox 和 Safari 版本12.0 和更新版本。
@@ -74,7 +74,7 @@ Skype會議應用程式提供簡化的瀏覽器體驗，可供下載及安裝應
   
 ### <a name="skype-meetings-app"></a>Skype 會議 App
 
-Skype會議應用程式會在使用 Windows 10 的電腦上執行，Windows 8.1，Windows 8，Windows 7，且已安裝32和64位 Internet Explorer 11 或更新版本。 
+Skype 會議應用程式會在使用 Windows 10 的電腦上執行，Windows 8.1，Windows 8，Windows 7，且已安裝32和64位 Internet Explorer 11 或更新版本。 
   
 對於任何其他相依性，請參閱[Skype 會議應用程式的支援平臺](https://support.office.com/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
   
@@ -87,7 +87,7 @@ Mac 版商務用 Skype 會在使用 macOS 版本10.8 或更新版本的電腦上
 
 電腦硬體需求是由作業系統和瀏覽器所決定。 語音和電話語音功能需要麥克風和揚聲器、帶麥克風的耳機，或與電腦相容的同等裝置。 影片功能需要與電腦相容的影片裝置。 如需有關影片硬體支援和預期的影片品質的詳細資訊，請參閱[商務用 Skype 用戶端影片解析度](video-resolutions.md)。
   
-## <a name="network-requirements"></a>網路需求
+## <a name="network-requirements"></a>網路要求
 <a name="Network"> </a>
 
 如果商務用 Skype Web 應用程式或 Skype 會議應用程式的使用者遇到會議連線問題，則組織的網路基礎結構可能並未設定為支援[Office 365 URLs 和 IP 位址範圍](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)中所述的 Office 365。 不論是由商務用 Skype 線上還是商務用 Skype Server 的使用者建立會議，都是如此。 
@@ -112,8 +112,8 @@ Mac 版商務用 Skype 會在使用 macOS 版本10.8 或更新版本的電腦上
 |參與多方 IM  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |將 IM 郵件設為高重要性  <br/> |&#x2714;|||||
 |在啟用) 時共用桌面 (  <br/> |&#x2714;|&#x2714;|&#x2714; (需要外掛程式)   <br/> |&#x2714; (需要外掛程式)   <br/> |&#x2714; (需要外掛程式)   <br/> |
-|在啟用的情況中共用程式 ()   <br/> |&#x2714;||僅 Windows 上 (&#x2714;需要外掛程式)   <br/> |僅 Windows 上 (&#x2714;需要外掛程式)   <br/> |僅 Windows 上 (&#x2714;需要外掛程式)   <br/> |
-|取得另一個使用者的共用桌面或程式控制權  <br/> |&#x2714;||僅 Windows 上 (&#x2776; &#x2714;需要外掛程式)   <br/> |僅 Windows 上 (&#x2776; &#x2714;需要外掛程式)   <br/> |僅 Windows 上 (&#x2776; &#x2714;需要外掛程式)   <br/> |
+|在啟用的情況中共用程式 ()   <br/> |&#x2714;||僅 Windows 上 (&#x2714;; 需要外掛程式)   <br/> |僅 Windows 上 (&#x2714;; 需要外掛程式)   <br/> |僅 Windows 上 (&#x2714;; 需要外掛程式)   <br/> |
+|取得另一個使用者的共用桌面或程式控制權  <br/> |&#x2714;||僅 Windows 上 (&#x2776; &#x2714;; 需要外掛程式)   <br/> |僅 Windows 上 (&#x2776; &#x2714;; 需要外掛程式)   <br/> |僅 Windows 上 (&#x2776; &#x2714;; 需要外掛程式)   <br/> |
 |讓其他使用者取得您共用的桌面或程式的控制權  <br/> |&#x2714;|||||
 |在啟用) 時新增匿名參與者 (  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |依名稱邀請參與者  <br/> |&#x2714;|&#x2714;||||

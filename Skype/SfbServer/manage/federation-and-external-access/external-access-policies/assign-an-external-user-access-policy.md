@@ -5,8 +5,8 @@ ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 如果已為使用者啟用商務用 Skype Server，您可以將適當的原則套用至特定使用者，以在商務用 Skype Server 控制台中設定 SIP 同盟、遠端使用者存取及公用立即訊息 (IM) 連線能力。
-ms.openlocfilehash: 400c49dfc7d0c893af98a8da7bc53894a39d6a9a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7430cbe015802d377e4d0ca2f1159006a9951a4f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843916"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395245"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>將外部使用者存取原則指派給已啟用商務用 Skype 使用者
 
@@ -47,7 +47,7 @@ ms.locfileid: "60843916"
 5.  在 [**外部存取原則**] 底下的 [**編輯商務用 Skype Server 使用者**] 中，選取您要套用的使用者原則。
      
 > [!NOTE]  
-> 設定會套用 **\<Automatic>** 預設伺服器或全域原則設定。
+> **\<Automatic>** 設定會套用預設伺服器或全域原則設定。
 
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>使用 Windows PowerShell Cmdlet 指派 Per-User 外部存取原則

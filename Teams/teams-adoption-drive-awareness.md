@@ -1,7 +1,7 @@
 ---
 title: 促進認知和實施訓練
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -21,14 +21,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1832ca945edab2560a5a604fe85c01c0c9f53f0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: faa91273932f4896f7ac49add0b76f5288f85870
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842525"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394465"
 ---
-# <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>提高認知度，並針對Microsoft Teams
+# <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>提高認知度，並針對這些人員Microsoft Teams
 
 認知與訓練是整體採用策略的行銷與通訊部門。 這可確保您的員工瞭解 Microsoft Teams 服務與應用程式的Microsoft 365或Office 365新功能。
    
@@ -67,8 +67,8 @@ ms.locfileid: "60842525"
 - 訓練影片的觀看
 - 出席學習活動
 
-使用雜湊標記和索引#TeamsStories分享您從意見回饋頻道取得的意見。 每月#TeamsStory內部網路共用活動，以突顯採用這項變更的員工，以提升您環境的生產力和共同作業。 此外，在 Microsoft Technical Community 的駕駛採用論壇中與我們分享這些Community。 在您自己的公司中分享這些實際範例，對於與使用者社群一起實現持續的變化，非常有價值。
+使用雜湊標記和索引#TeamsStories分享您從意見回饋頻道取得的意見。 每月#TeamsStory內部網路共用活動，以突顯採用這項變更的員工，以提升您環境的生產力和共同作業。 此外，在 Microsoft Technical Community 的駕駛採用論壇中與我們Community。 在您自己的公司中分享這些實際範例，對於與使用者社群一起實現持續的變化，非常有價值。
 
 [深入瞭解Microsoft Teams使用方式報告Microsoft 365 系統管理中心。](teams-activity-reports.md)
 
-![描繪後續步驟的圖示。](media/teams-adoption-next-icon.png) 下一 [步：排程服務健康狀態評論](teams-adoption-schedule-service-health-reviews.md)
+![描述後續步驟的圖示。](media/teams-adoption-next-icon.png) 下一 [步：排程服務健康狀態評論](teams-adoption-schedule-service-health-reviews.md)

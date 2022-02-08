@@ -1,8 +1,8 @@
 ---
 title: 管理商務用 Skype Server 中封存資料的清除
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 摘要：瞭解如何管理商務用 Skype Server 的封存資料清除。
-ms.openlocfilehash: 4050bc40d72cb8a2b306ab050298bb74b7c96dbd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9868277bc79a95b869383025da7e1c52aed35921
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847436"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395375"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>管理商務用 Skype Server 中封存資料的清除
 
-**摘要：** 瞭解如何管理商務用 Skype Server 的封存資料清除。
+**總結：** 瞭解如何管理商務用 Skype Server 的封存資料清除。
   
 封存資料庫不適用於長期保留，而且商務用 Skype Server 不會提供電子探索 (的封存資料的搜尋) 方案，因此資料必須移至其他儲存區。 商務用 Skype Server 提供的會話匯出工具，可用來將封存的資料匯出至可搜尋的記錄。 您必須定義何時清除已封存及匯出的資料。 
   
@@ -69,7 +69,7 @@ Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
-在執行這個命令之後，商務用 Skype Server 只會清除符合兩個準則的封存記錄： 1) 超過為 KeepArchivingDataForDays 參數所指定的值）。而且，2) 使用 **Export-CsArchivingData** Cmdlet 匯出。
+在執行這個命令之後，商務用 Skype Server 只會清除符合兩個準則的封存記錄： 1) 它們比為 KeepArchivingDataForDays 參數所指定的值還舊; 而 2) 使用 **Export-CsArchivingData** 指令程式匯出。
   
 若要停用自動清除封存記錄，請將 EnablePurging 參數設定為 False ($False) ：
   

@@ -1,7 +1,7 @@
 ---
-title: 定義採用新方案的結果和Microsoft Teams - Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: 定義採用新方案的結果和成功Microsoft Teams - Microsoft Teams
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ f1.keywords:
 description: 瞭解如何測量大規模啟用計畫的結果和Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f4594f6d47216c1afe0440562013ca9985cab10
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9aaf0282794fd916c6779664d661b2ac0a569de2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849526"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394475"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>為採用方案定義結果Microsoft Teams成功
 
@@ -76,26 +76,26 @@ ms.locfileid: "60849526"
 
 Teams變革性技術，因此視貴組織的規模和現有技術不同，您可能會採取不同的方法。 請考慮以下策略：
 
-| Teams第一 | Teams核心 | Teams前往大型 | Skype並排 | 移轉 |
+| Teams第一個 | Teams核心 | Teams大 | Skype並排 | 移轉 |
 |------------ | ---------- | ------------ | ------------------ | --------- |
-| 在雲端部署中Teams | 在潛在客戶中啟用共同Teams | 所有員工Teams全組織團隊 | 啟用Teams商務用 Skype | 將使用者從商務用 Skype遷移到Teams |
-| - 適用于新的或低使用量Microsoft 365或Office 365客戶 <br/>- 在客戶Teams潛在客戶 <br/>- 強調整合使用者體驗，以及加速Microsoft 365或Office 365 <br/>- 一起進行規劃工作量啟用，以避免連續執行 | - 啟用Teams線上OneDrive SharePoint功能 <br/>- 建立公司內部網路，以與 Microsoft Stream 共用新聞資源和視訊<br/>**共同改善**： <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |- 對於少於 5000 個座位的客戶 (限制) <br/>- 與一個團隊進行跨組織共同合作<br/>- 自動化一般 (休假要求、員工問卷、主管參與)  |- 使用Teams核心策略來加速共同合作<br/>- 根據所需的大小和功能集來強調會議案例指引</br>- 使用商務用 Skype通話、互通性和混合式案例<br/>- 使用公用藍圖進行功能規劃。 |- 為客戶建立服務Teams規劃商務用 Skype，以從公司移轉<br/>- 附加至功能發行排程<br/>- 建議包含並排和Teams核心來輕鬆轉換
+| 在雲端部署中Teams | 在潛在客戶中啟用共同Teams | 所有員工Teams全組織團隊 | 啟用Teams商務用 Skype | 將使用者從 商務用 Skype 遷移到 Teams |
+| - 適用于新的或低使用量Microsoft 365或Office 365客戶 <br/>- 在客戶特定Teams潛在客戶 <br/>- 強調整合使用者體驗，以及加速Microsoft 365或Office 365 <br/>- 一起進行規劃工作量啟用，以避免連續執行 | - 啟用Teams線上OneDrive SharePoint功能 <br/>- 建立公司內部網路，以與 Microsoft Stream 共用新聞資源和視訊<br/>**共同改善**： <br/>Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |- 對於少於 5000 個座位的客戶 (限制) <br/>- 與一個團隊進行跨組織共同合作<br/>- 自動化一般 (休假要求、員工問卷、主管參與)  |- 使用Teams核心策略來加速共同合作<br/>- 根據所需的大小和功能集來強調會議案例指引</br>- 使用商務用 Skype通話、互通性和混合式案例<br/>- 使用公用藍圖進行功能規劃。 |- 為客戶建立Teams策略商務用 Skype規劃從目標移轉<br/>- 附加至功能發行排程<br/>- 建議包含並排和Teams核心來輕鬆轉換
 
 以下是我們針對大多數客戶組織的建議。 不過，也有例外。 若要取得此處未涵蓋之任何案例的指引，請在我們的推動採用社群中提出問題，或FastTrack小組或 Microsoft 合作夥伴網路。
 
-- **選擇 Teams First 或 Teams核心**：大部分組織都有 Microsoft 技術的現有投資。 您可能一次啟用多個工作負載，例如Exchange Online、商務用 OneDrive或SharePoint。 在這些情況下，選取 Teams 或 Teams核心是明智的選擇。 它可讓使用者習慣增強的Teams。 您的共同合作專案小組可以規劃推出其他功能，以及成功所需的訓練和支援。 
+- **選擇 Teams First 或 Teams核心**：大部分組織都有 Microsoft 技術的現有投資。 您可能一次啟用多個工作負載，例如Exchange Online、商務用 OneDrive或SharePoint。 在這些情況下，選取 Teams或 Teams核心是明智的選擇。 它可讓使用者習慣增強的Teams。 您的共同合作專案小組可以規劃推出其他功能，以及成功所需的訓練和支援。 
 
-- 選擇 Teams Go **Big：** 在新的 Microsoft 365 或 Office 365 客戶組織中，通常最好採用 Teams Go Big 方法，將多次學習新技術所造成的變更疲勞降到最低。 您可以針對核心共同合作和會議、SharePoint、OneDrive、Planner 和其他工作負載啟用 Teams，並讓您的員工在 Teams 部署中瞭解這些工作負載，以取得最大的效益。 
+- 選擇 **Teams** 大：在新的 Microsoft 365 或 Office 365 客戶組織中，通常最好採用 Teams Go Big 方法，將多次學習新技術所造成的變更疲勞降到最低。 您可以針對核心共同合作和會議、SharePoint、OneDrive、Planner 和其他工作負載啟用 Teams，並允許員工在 Teams 部署中瞭解這些工作負載，以取得最大的效益。 
 
-    Teams對於想要簡化員工溝通與互動的 1，000 名員工下的組織，Go Big 也是偏好的啟用策略。 使用全組織小組可以將人員彙集在一起，以在任何裝置上查看一般工作與計畫。 
+    Teams Go Big 也是 1，000 名員工以下組織想要簡化員工溝通與互動的首選啟用策略。 使用全組織小組可以將人員彙集在一起，以在任何裝置上查看一般工作與計畫。 
 
-- 選擇並排：針對使用 商務用 Skype 進行音訊會議、支援會議室裝置或雲端語音功能的組織，我們建議您並排執行 Teams 和 Skype，讓員工熟悉核心共同合作功能，同時在方便時規劃從 商務用 Skype 移走或您的公司。 請注意，並排執行這兩個用戶端可能會讓使用者對要使用哪一個工具產生混淆，因此我們建議您在採用期間保持此階段的時間短。 
+- **選擇並** 排：針對使用 商務用 Skype 進行音訊會議、支援會議室裝置或雲端語音功能的組織，我們建議您並排執行 Teams 和 Skype，讓員工熟悉核心共同合作功能，同時規劃從 商務用 Skype 移商務用 Skype 方便您公司使用的時間。 請注意，並排執行這兩個用戶端可能會讓使用者對要使用哪一個工具產生混淆，因此我們建議您在採用期間保持此階段的時間短。 
 
-- **選擇移** 轉到：從商務用 Skype移轉到Teams從技術角度而言，有其他元件，但使用者採用過程具有與大型Teams相同的元件。 此外，您將要教育人員瞭解 Teams 會議體驗和介面、新的永久聊天行為，以及體驗中不同于 商務用 Skype 的其他元素。
+- **選擇移** 轉到：從商務用 Skype移轉到Teams從技術角度而言，有其他元件，但使用者採用過程的元件與使用大型Teams相同。 此外，您將要教育人員瞭解會議Teams和介面、新的永久聊天行為，以及體驗中與 商務用 Skype 不同的其他元素。
 
 針對每個啟用策略，必須與您技術準備小組密切合作，確保您的環境能夠提供出色的員工體驗。 
 
-![代表決策點的圖示。](media/teams-adoption-decision-icon.png) 決策：選取一項啟用策略，以最佳方式支援企業Microsoft Teams且您的技術執行小組可以啟用。 這是 IT 領導者、計畫管理領導者和使用者採用專家之間的共同決策。 這個決策通常要由執行關係人決定，而主管專案關係人是組織中Microsoft Teams或共同服務的最終成功擁有者。
+![代表決策點的圖示。](media/teams-adoption-decision-icon.png) 決策：選取最適合支援您企業成果的啟用策略Microsoft Teams且您的技術執行小組可以啟用。 這是 IT 領導者、計畫管理領導者和使用者採用專家之間的共同決策。 這個決策通常要由執行關係人決定，而主管專案關係人是組織中Microsoft Teams或共同服務的最終成功擁有者。
 
 最佳做法：啟用策略可適用于專案或部門實做排程的一個給定階段。 使用主要角色及其需求來選取專案。 與技術執行小組密切合作，確保您的使用者獲得高品質的體驗。  
 
@@ -105,7 +105,7 @@ Teams變革性技術，因此視貴組織的規模和現有技術不同，您可
 
 ![代表決策點的圖示。](media/teams-adoption-decision-icon.png) 決策：根據公司文化，決定與專案關係人溝通的節奏與方法。 將通訊目標鎖定在貴組織的各個互動和興趣層級。 
 
-選項：若要建立專案相關資訊的持續性知識庫，請考慮在通訊網站上使用SharePoint頁面。 您的新聞頁面庫 (與規劃小組SharePoint網站中的網站頁面，) 公開，以便所有感興趣的人共用。
+選項：若要建立專案相關資訊的持續性知識庫，請考慮在通訊網站上使用SharePoint頁面。 您的新 (文件庫SharePoint與規劃小組相關聯的網站頁面) 公開，以便所有感興趣的人共用。
 
 ## <a name="expand-your-implementation-team"></a>展開您的執行小組
 
@@ -117,7 +117,7 @@ Teams變革性技術，因此視貴組織的規模和現有技術不同，您可
 
 ## <a name="expand-your-governance-and-information-management-policies"></a>展開您的管理與資訊管理原則
 
-一旦選取啟用策略之後，就可以重新檢查和縮放在階段 1 中所做出之管理決策。 從管理快速入門重新檢查決策 1 到 6，以配合將使用這些原則的企業使用者Teams。 [](teams-adoption-governance-quick-start.md) 
+一旦選取啟用策略之後，就可以重新檢查和縮放在階段 1 中所做出之管理決策。 從管理快速入門重新檢查決策 1 到[](teams-adoption-governance-quick-start.md) 6，以配合將使用這些原則的企業使用者Teams。 
 
 | 團隊層級 | 範圍/用途 | 標準成員資格 | 時間 |
 |----------- | ------------- | ------------------- | -------- |
@@ -135,14 +135,14 @@ Teams變革性技術，因此視貴組織的規模和現有技術不同，您可
 
 ## <a name="streamline-business-engagement"></a>簡化商務互動
 
-推動數位轉換和使用在 Microsoft Teams不可或缺的一部分，就是與業務單位合作，以瞭解他們的需求、商機和困難。 雖然與傳統 IT 與商務交談類似，但您應該將焦點放在所需的內容上。 在進入技術需求之前先聽取意見。 在許多情況下，Teams中開箱即用的功能會符合貴組織的需求。   
+推動數位轉換和使用在 Microsoft Teams不可或缺的一部分，就是與業務單位合作，以瞭解他們的需求、商機和困難。 雖然與傳統 IT 與商務交談類似，但您應該將焦點放在所需的內容上。 在進入技術需求之前先聽取意見。 在許多情況下，Teams功能將會符合貴組織的需求。   
 
 最佳做法：在您考慮開發自訂解決方案之前，請確定貴組織已完全使用 Microsoft 365 或 Office 365。 自訂解決方案開發一向會為 IT 和支援部門帶來長期成本。
  
 請執行下列步驟，簡化與業務單位的工作。  請確認在大型的多國公司中，此程式可能會在您第一次大規模部署公司之後Microsoft Teams：
 
 1. 在與主管互動之前，先與業務單位內的重要影響者開會，以取得深入見解和一致性。
-2. 瞭解他們目前針對電子郵件、 (、SharePoint、Yammer及其他產品等常見案例) 。
+2. 瞭解他們目前適用于電子郵件、 (、SharePoint、Yammer及其他產品等常見案例) 。
 3. 從小開始選取可隨著縮放而產生高影響、低/中難度的情境，
 4. 使用業務單位知識收集意見意見，並開發支援轉場的領軍者，
 5. 設定每月檢查點以討論進度，並優先處理其他專案的待處理專案。

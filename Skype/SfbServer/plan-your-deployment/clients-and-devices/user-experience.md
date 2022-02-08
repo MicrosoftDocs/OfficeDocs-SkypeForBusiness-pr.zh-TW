@@ -1,7 +1,7 @@
 ---
 title: 規劃使用者的商務用 Skype 2015 用戶端體驗
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 摘要：瞭解新的商務用 Skype，以及您可以採取的步驟，以準備您的環境和使用者進行更新，不論是使用商務用 Skype 線上，商務用 Skype Server 2019，商務用 Skype Server 2015，lync server 2013，還是 lync server 2010。
-ms.openlocfilehash: 9979b7d9fe449de926358097b9fd2fdd36e5afb4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fd3771b351f89210f4757dc97084d85933867050
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864740"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395085"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>規劃使用者的商務用 Skype 2015 用戶端體驗
  
-**摘要：** 深入瞭解新的商務用 Skype，以及您可以採取的步驟，以準備您的環境和使用者進行更新，不論是使用商務用 Skype 線上、商務用 Skype Server 2019、商務用 Skype Server 2015、lync server 2013，還是 lync server 2010。
+**總結：** 深入瞭解新的商務用 Skype，以及您可以採取的步驟，以準備您的環境和使用者進行更新，不論是使用商務用 Skype 線上、商務用 Skype Server 2019、商務用 Skype Server 2015、lync server 2013，還是 lync server 2010。
   
 Lync 2013 的2015年4月14日 Office 更新包含新的商務用 Skype 使用者介面。 此項更新可讓系統管理員控制用戶端的外觀與風格，並選擇要保留 Lync 2013 用戶端經驗，還是使用改良的商務用 Skype 用戶端經驗。 商務用 Skype 用戶端會有效地取代 Lync 2013 用戶端，並新增可讓系統管理員選擇現有的 Lync 用戶端體驗與新的商務用 Skype 用戶端體驗之間的能力。 如需此更新的相關資訊，請參閱[2015 更新的 Lync 2013 (商務用 Skype)  (KB2889923) ](https://support.microsoft.com/kb/2889923/)。
   
@@ -44,7 +44,7 @@ Lync 2013 的2015年4月14日 Office 更新包含新的商務用 Skype 使用者
 ## <a name="what-client-experience-do-you-want-for-your-users"></a>您要為使用者提供哪些用戶端經驗？
 <a name="clientexperience"> </a>
 
-使用新的商務用 Skype 用戶端，您可以控制使用者可以取得哪些用戶端經驗（包括 Lync 或商務用 Skype）。 預設的用戶端經驗取決於您使用的是 Lync 或商務用 Skype 內部部署或線上。 如果您使用商務用 Skype 線上 (Lync Online) 今天使用 Microsoft 365 Apps 企業版、Microsoft 365 商務標準版或 Office 2013，則更新的商務用 Skype 用戶端體驗（由 Skype 的外觀和感覺所取代）。將會是預設的使用者體驗。 如果您目前使用 Lync Server 內部部署，Lync 用戶端體驗將會是預設值。
+使用新的商務用 Skype 用戶端，您可以控制使用者可以取得哪些用戶端經驗（包括 Lync 或商務用 Skype）。 預設的用戶端經驗取決於您使用的是 Lync 或商務用 Skype 內部部署或線上。 如果您使用商務用 Skype 線上 (Lync Online) 今天使用 Microsoft 365 Apps 企業版、Microsoft 365 商務標準版或 Office 2013，則更新的商務用 Skype 用戶端體驗（受 Skype 的外觀與風格）。-將會是預設的使用者體驗。 如果您目前使用 Lync Server 內部部署，Lync 用戶端體驗將會是預設值。
   
 您可以使用用戶端原則，設定使用者可以取得的用戶端經驗。 用戶端原則是一組設定設定，當使用者登入 Lync 或商務用 Skype 時會套用這些設定。
   
@@ -194,7 +194,7 @@ Grant-CsClientPolicy username@contoso.com -PolicyName ClientPolicyNoIMURLDisable
   
 - [影片：介紹商務用 Skype](https://go.microsoft.com/fwlink/p/?LinkId=544819)
     
-- [商務用 Skype快速入門手冊 (下載) ](https://go.microsoft.com/fwlink/p/?LinkId=544818)
+- [商務用 Skype 快速入門手冊 (下載) ](https://go.microsoft.com/fwlink/p/?LinkId=544818)
     
 - [Lync 現在已商務用 Skype —請參閱最近更新](https://go.microsoft.com/fwlink/p/?LinkID=529224)
     

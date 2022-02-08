@@ -1,8 +1,8 @@
 ---
 title: 新增信任的應用程式集區 FQDN
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 description: 若要為信任的應用程式集區定義完整網域名稱 (FQDN)，請指定下列設定：
-ms.openlocfilehash: 9ad9797dd49af2c5a267bb8e0c581b3a5bcb97ec
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: afd249b5ba7f61ad70e43a58907a6a7bcfac6bd4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844426"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395605"
 ---
 # <a name="add-trusted-application-pool-fqdn"></a>新增信任的應用程式集區 FQDN
  

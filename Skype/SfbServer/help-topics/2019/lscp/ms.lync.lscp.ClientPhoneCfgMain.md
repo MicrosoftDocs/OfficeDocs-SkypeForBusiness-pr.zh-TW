@@ -1,8 +1,8 @@
 ---
 title: 裝置設定
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
 description: 裝置設定是一組設定，用來管理全域或網站內商務用 Skype 電話 Edition 裝置。 這些設定可讓您設定諸如所需的安全性模式、裝置記錄等級、語音服務品質 (QoS) 設定，以及電話是否應該在指定的非使用期限後自動鎖定等事項。
-ms.openlocfilehash: 14a4606ade2ac8287258531c912c11268ce5e546
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 26fd71afc68c696c5f2d7b75b3765fc58d35e517
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856180"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394295"
 ---
 # <a name="device-configuration"></a>裝置設定
  
@@ -38,7 +38,7 @@ ms.locfileid: "60856180"
 
 下列清單說明頁面上的功能表、命令、欄位及內容。
   
-- **新** 您可以使用下列範圍新增新的裝置設定：
+- **新增功能** 您可以使用下列範圍新增新的裝置設定：
     
   - 全域
     
@@ -50,9 +50,9 @@ ms.locfileid: "60856180"
     
   - **全選** 此選項會選取清單中的所有裝置設定。
     
-  - **Delete** 此選項會刪除所有選取的裝置設定。
+  - **刪除** 此選項會刪除所有選取的裝置設定。
     
-- **Refresh** 您可以重新整理裝置設定清單，以確認所有裝置設定選項的狀態。
+- **刷新** 您可以重新整理裝置設定清單，以確認所有裝置設定選項的狀態。
     
 ## <a name="see-also"></a>另請參閱
 

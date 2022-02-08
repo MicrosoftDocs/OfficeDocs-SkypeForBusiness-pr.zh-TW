@@ -1,8 +1,8 @@
 ---
 title: 主幹範圍節點
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 在 [拓撲產生器] 中，以滑鼠右鍵按一下 [主幹] 以執行下列作業：
-ms.openlocfilehash: 2f7e4ba699f127a4eedd08ce9e364a210588fb1c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 41621c4cc9d52e5202f2e2ddc1f84975109800e8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848696"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395405"
 ---
 # <a name="trunks-scope-node"></a>主幹範圍節點
  

@@ -1,8 +1,8 @@
 ---
 title: NetworkConfigurationSettings view
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
 description: NetworkConfigurationSettings 檢視儲存了網路組態的資訊。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 9280a6e309292dcc42b981dea329f8a90da8d854
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 98c00440a2b1afc48deedba37c96888133c707c7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851777"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394725"
 ---
 # <a name="networkconfigurationsettings-view"></a>NetworkConfigurationSettings view
  

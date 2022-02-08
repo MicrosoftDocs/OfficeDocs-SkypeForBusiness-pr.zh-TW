@@ -1,7 +1,7 @@
 ---
 title: 使用者體驗品質|Microsoft Teams |QoS |通話品質
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edc277a80ed9659281c46729646f3cbdfe95d725
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6ea92ffd8adcdfb319cd1b515419b987fc6bbbc4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865532"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394425"
 ---
 # <a name="quality-of-experience-review-guide"></a>體驗品質的審查指南
 
 ![強調升級過程中營運優化階段的圖表。](media/upgrade-banner-op-excellence.png "升級歷程的階段，強調營運優化階段")
 
-本文是升級過程中營運優化階段的一部分，一旦完成從 商務用 Skype 升級到 Teams。
+本文是升級過程中營運優化階段的一部分，一旦完成升級後，即會從 商務用 Skype 開始Teams。
 
 ## <a name="improve-and-monitor-call-quality"></a>改善及監控通話品質
 
@@ -53,8 +53,8 @@ ms.locfileid: "60865532"
 
 - 有問題的子網或網路裝置
 
-改善及監控[Teams](monitor-call-quality-qos.md)通話品質中提供的指導，著重于使用通話品質儀表板 (CQD) Online 做為報告及調查所述每個區域的主要工具，並著重于音訊，以最大化採用和影響。 對網路進行的任何優化以改善音訊體驗，也會直接轉換成改善視像和桌面共用。
+[改善及監控 Teams](monitor-call-quality-qos.md)通話品質中提供的指導，著重于使用通話品質儀表板 (CQD) Online 做為報告及調查所述每個區域的主要工具，並著重于音訊，以最大化採用和影響。 對網路進行的任何優化以改善音訊體驗，也會直接轉換成改善視像和桌面共用。
 
-我們強烈建議您及早提名品質優等獎得主。 被提名後，他們應開始熟悉改善及監控通話品質中的內容[，Teams。](monitor-call-quality-qos.md)
+我們強烈建議您及早提名品質優等獎得主。 被提名後，他們應開始熟悉改善及監控通話品質中的內容，[Teams。](monitor-call-quality-qos.md)
 
 <!--ENDOFSECTION-->

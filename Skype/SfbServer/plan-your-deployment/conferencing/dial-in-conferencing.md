@@ -1,8 +1,8 @@
 ---
 title: 規劃商務用 Skype Server 中的電話撥入式會議
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 中規劃電話撥入式會議。
-ms.openlocfilehash: 84d034ba358213a0f79548df6cc1ca027098633b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1840133072e6bac5cf9b95597b8f23ed5d37a7bd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841085"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394975"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>規劃商務用 Skype Server 中的電話撥入式會議
  
-**摘要：** 閱讀此主題以瞭解如何在商務用 Skype Server 中規劃電話撥入式會議。
+**總結：** 閱讀此主題以瞭解如何在商務用 Skype Server 中規劃電話撥入式會議。
   
 電話撥入式會議是商務用 Skype Server 選用的功能，可讓會議出席者使用電話撥入會議以加入會議的音訊部分。 電話撥入式會議是音訊會議的子集，並且需要額外設定。 本主題說明在為組織部署電話撥入式會議之前，您需要考慮的事項。 
   
@@ -106,7 +106,7 @@ ms.locfileid: "60841085"
     
 - 一個或多個 PSTN 存取號碼
     
-- 電話撥入式會議設定] 頁面的連結，包含與其相關語言完整的存取號碼清單。用來建立、重設或解除封鎖個人識別碼 (Pin 碼的位置) ;和其他資訊，例如雙音調多重頻率 (DTMF) 控制項
+- [電話撥入式會議設定] 頁面的連結，包含完整的存取號碼清單，其中包含其相關語言; 建立、重設或解除封鎖個人識別碼的位置。 (Pin) ; 及其他資訊，例如雙音多頻率 (DTMF) 控制項
     
 如需會議原則的詳細資訊，請參閱[在商務用 Skype Server 中設定電話撥入式會議商務用 Skype Server](../../deploy/deploy-conferencing/dial-in-conferencing.md)和[管理會議原則](../../manage/conferencing/conferencing-policies.md)。  
 

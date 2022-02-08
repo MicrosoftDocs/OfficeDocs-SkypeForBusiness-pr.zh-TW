@@ -1,8 +1,8 @@
 ---
 title: VideoStreamDetail view
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: VideoStreamDetail View 儲存資料庫中每個影片資料流程的資訊。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 38f97d5cd97d6a92961a377129cb533fd96ccd6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0e34791bd3081497c4c8501dbd01d2e9d39503f1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863230"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393535"
 ---
 # <a name="videostreamdetail-view"></a>VideoStreamDetail view
  

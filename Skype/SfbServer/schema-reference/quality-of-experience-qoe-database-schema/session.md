@@ -1,8 +1,8 @@
 ---
 title: Session 表格
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: 每筆記錄代表一個包含音訊或音訊和影片的會話。 包含有關會話的整體資訊。 會話是在兩個端點之間的 (SIP) ] 對話方塊中定義為音訊或視頻會話初始通訊協定。
-ms.openlocfilehash: 044d7d2626ca0d04bb55b7a060d39e7ec330312d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6e69ca38a0338075975919f087c066f683fcfb87
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840925"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394612"
 ---
 # <a name="session-table"></a>Session 表格
  
@@ -30,7 +30,7 @@ ms.locfileid: "60840925"
 |**SessionSeq** <br/> |int  <br/> |主要  <br/> |從 [對話方塊表格](dialog.md)中參照。  <br/> |
 |**ConferenceKey** <br/> |int  <br/> |Foreign  <br/> |會議金鑰。 從 [會議表格](conference.md)參考。  <br/> |
 |**CorrelationKey** <br/> |int  <br/> |Foreign  <br/> |相關機碼。 從 [SessionCorrelation 表格](sessioncorrelation.md)中參照。  <br/> |
-|**DialogCategory** <br/> |位  <br/> | <br/> |對話方塊類別;0商務用 Skype Server 轉送伺服器腿;1是轉送伺服器到 PSTN 閘道腿。  <br/> |
+|**DialogCategory** <br/> |位  <br/> | <br/> |對話方塊類別;0是商務用 Skype Server 轉送伺服器腿; 1 代表轉送伺服器到 PSTN 閘道腿。  <br/> |
 |**MediationServerBypassFlag** <br/> |位  <br/> ||指示是否略過呼叫的旗標。  <br/> |
 |**MediaBypassWarningFlag** <br/> |int  <br/> ||此欄位 (若有) 指出即使旁路識別碼相符，通話為何未經旁路處理。 商務用 Skype Server，只會定義一個值。  <br/> 0x0001-預設網路介面卡的未知旁路識別碼。  <br/> |
 |**StartTime** <br/> |datetime  <br/> | <br/> |通話開始時間。  <br/> |

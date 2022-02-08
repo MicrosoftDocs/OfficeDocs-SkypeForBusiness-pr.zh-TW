@@ -1,8 +1,8 @@
 ---
 title: 新增視訊閘道 FQDN
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 268e718c-9b8c-458a-b3b9-853f49994e5b
 description: 在拓撲產生器中定義新的 VIS 或視頻閘道所需的步驟，將在商務用 Skype Server 2015 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: 182802891c2b56ae8ea6ad3de2af94a0b64d8de5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3d140658fa41d02ad19690d81cac3dd1bafdd72d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844416"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395585"
 ---
 # <a name="add-video-gateway-fqdn"></a>新增視訊閘道 FQDN
  

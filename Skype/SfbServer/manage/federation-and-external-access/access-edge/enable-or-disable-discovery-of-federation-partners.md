@@ -5,8 +5,8 @@ ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182550(v=OCS.15)
 ms:contentKeyID: 48184857
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 當您部署 Edge Server 並為組織啟用同盟時，您應該會指定是否支援同盟協力廠商網域的自動探索。
-ms.openlocfilehash: 4e425566fb0b8aa463c93f0940582487dabaae3d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0742c8ecb2288ca91d8e7f72fc439f7347a7f55e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830007"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395315"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>啟用或停用商務用 Skype Server 中的同盟協力廠商探索
 

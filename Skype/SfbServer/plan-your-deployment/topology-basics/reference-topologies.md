@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 的參考拓撲
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: 商務用 Skype Server 的參考拓撲，包括要針對大型、中型及小型組織進行的圖表和決策。
-ms.openlocfilehash: 89d04755d31750bb43ab78080e6260e51a5bde60
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fcc5832704e893b8b12c255cabbf66847ce9e9c1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851797"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394905"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>商務用 Skype Server 的參考拓撲
 
@@ -39,7 +39,7 @@ ms.locfileid: "60851797"
 
 ![部署三個伺服器圖表的參考拓撲。](../../media/LyncServer2013_Planning_ReferenceTopologies_Topology1.jpg)
 
-- **部署的 Standard Edition 伺服器成對** 此組織在其中央網站有4000使用者。 他們已部署兩部 Standard Edition 伺服器及成對搭配，以啟用高可用性和嚴重損壞修復。 每個伺服器的住宅2000使用者，但在兩部伺服器之間會同步處理所有使用者的相關資訊。 如果有一項關機，系統管理員可以將其他伺服器的使用者容錯移轉到其他伺服器，並將使用者中斷降至最低。 如需商務用 Skype Server 中高可用性和嚴重損壞修復功能的詳細資訊，請參閱[在商務用 Skype Server 中規劃高可用性和嚴重損壞修復](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
+- 部署此組織 **的一對 Standard Edition 伺服器** 在其中央網站有4000使用者。 他們已部署兩部 Standard Edition 伺服器及成對搭配，以啟用高可用性和嚴重損壞修復。 每個伺服器的住宅2000使用者，但在兩部伺服器之間會同步處理所有使用者的相關資訊。 如果有一項關機，系統管理員可以將其他伺服器的使用者容錯移轉到其他伺服器，並將使用者中斷降至最低。 如需商務用 Skype Server 中高可用性和嚴重損壞修復功能的詳細資訊，請參閱[在商務用 Skype Server 中規劃高可用性和嚴重損壞修復](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
 
 - **建議使用 Edge Server 部署。** 雖然內部 IM、出席和會議不需要部署 Edge Server，但我們仍建議小型部署使用 Edge Server。 您可以部署 Edge Server，將服務提供給目前組織防火牆以外的使用者，以達到最大的商務用 Skype Server 投資。 優點包括下列各項：
 
@@ -55,7 +55,7 @@ ms.locfileid: "60851797"
 
 - **Exchange UM 部署。** 此參考拓撲包括執行 Microsoft Exchange Server 的 Exchange 整合通訊 (UM) Server，而不是商務用 Skype Server。
 
-- **OfficeWeb Apps Server。** 建議您在使用 Web 會議的每家組織中部署 Office 網頁應用程式伺服器或 Office Web apps server 伺服器陣列。 Officeweb Apps Server 可以在 web 會議中呈現 PowerPoint 的投影片。
+- **Office Web Apps Server。** 建議您在使用 Web 會議的每家組織中部署 Office 網頁應用程式伺服器或 Office Web apps server 伺服器陣列。 Office web Apps Server 可以在 web 會議中呈現 PowerPoint 的投影片。
 
 ## <a name="reference-topology-for-a-medium-organization"></a>中型組織的參考拓撲
 
@@ -85,11 +85,11 @@ ms.locfileid: "60851797"
 
 - **Exchange UM 部署。** 此參考拓撲包括執行 Microsoft Exchange Server 的 Exchange 整合通訊 (UM) Server，而不是商務用 Skype Server。
 
-- **OfficeWeb Apps Server。** 建議您在使用 Web 會議的每家組織中部署 Office 網頁應用程式伺服器或 Office Web apps server 伺服器陣列。 OfficeWeb Apps Server 可讓 Powerpoint 投影片呈現在 web 會議中。
+- **Office Web Apps Server。** 建議您在使用 Web 會議的每家組織中部署 Office 網頁應用程式伺服器或 Office Web apps server 伺服器陣列。 Office web Apps Server 可以在 web 會議中呈現 Powerpoint 投影片。
 
 - **可以新增 director。** 如果此組織想要協助提高安全性以防範拒絕服務攻擊，也可以部署 Director 集區。 Director 是商務用 Skype Server 中不會家用使用者帳戶或提供目前狀態或會議服務的個別、選用的伺服器角色。 它充當內部的下一個躍點伺服器，Edge Server 會將傳入 SIP 流量路由傳送至內部伺服器。 Director 對輸入要求進行預先驗證，並將它們重新導向至使用者的主集區或伺服器。 Director 的預先驗證可讓您從部署中未知的使用者帳戶中丟棄要求。 Director 可協助將前端伺服器與惡意流量（如拒絕服務 (DoS) 攻擊）隔離。 如果網路在這類攻擊中以不正確外部流量淹沒，該流量會結束于 Director。
 
-- **System Center建議使用 Operations Manager。** 建議您監視商務用 Skype Server 部署的健康情況，以協助確保使用者的服務可用性。 您可以使用 System Center Operations Manager 管理元件，以取得可免費從 Microsoft 下載商務用 Skype。 使用商務用 Skype 管理元件，您可以在發生問題時主動取得即時警示、執行綜合交易，以測試端對端商務用 Skype 功能、取得服務可用性的報告等等。 這可協助您在使用者體驗之前，主動回應部署的問題。
+- **建議使用 System Center Operations Manager。** 建議您監視商務用 Skype Server 部署的健康情況，以協助確保使用者的服務可用性。 您可以使用 System Center Operations Manager 管理元件，以取得可免費從 Microsoft 下載商務用 Skype。 使用商務用 Skype 管理元件，您可以在發生問題時主動取得即時警示、執行綜合交易，以測試端對端商務用 Skype 功能、取得服務可用性的報告等等。 這可協助您在使用者體驗之前，主動回應部署的問題。
 
 ## <a name="reference-topology-for-a-large-organization"></a>大型組織的參考拓撲
 
@@ -144,8 +144,8 @@ ms.locfileid: "60851797"
 
     如需 Exchange UM 的詳細資訊，請參閱規劃檔中的[On-Premises Exchange 整合通訊整合](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-exchange-unified-messaging-integration)及[主控 Exchange 整合通訊整合](/previous-versions/office/lync-server-2013/lync-server-2013-hosted-exchange-unified-messaging-integration)。
 
-- **OfficeWeb Apps Server。** 建議您在使用 Web 會議的每家組織中部署 Office 網頁應用程式伺服器或 Office Web apps server 伺服器陣列。 您可以在一個網站中部署單一 Office Web Apps Server 伺服器陣列，以便從所有網站提供流量，或在每個網站中部署流量。 OfficeWeb Apps Server 可讓 Powerpoint 投影片呈現在 web 會議中。
+- **Office Web Apps Server。** 建議您在使用 Web 會議的每家組織中部署 Office 網頁應用程式伺服器或 Office Web apps server 伺服器陣列。 您可以在一個網站中部署單一 Office Web Apps Server 伺服器陣列，以便從所有網站提供流量，或在每個網站中部署流量。 Office web Apps Server 可以在 web 會議中呈現 Powerpoint 投影片。
 
 - **可以新增 director。** 如果此組織想要提高安全性以防範拒絕服務攻擊，也可以部署 Director 集區。 Director 是商務用 Skype Server 中不會家用使用者帳戶或提供目前狀態或會議服務的個別、選用的伺服器角色。 它充當內部的下一個躍點伺服器，Edge Server 會將傳入 SIP 流量路由傳送至內部伺服器。 Director 對輸入要求進行預先驗證，並將它們重新導向至使用者的主集區或伺服器。 Director 的預先驗證可讓您從部署中未知的使用者帳戶中丟棄要求。 Director 可協助將前端伺服器與惡意流量（如拒絕服務 (DoS) 攻擊）隔離。 如果網路在這類攻擊中以不正確外部流量淹沒，該流量會結束于 Director。
 
-- **System Center建議使用 Operations Manager。** 建議您監視商務用 Skype Server 部署的健康情況，以協助確保使用者的服務可用性。 您可以使用 System Center Operations Manager 管理元件，以取得可免費從 Microsoft 下載商務用 Skype。 使用商務用 Skype 管理元件，您可以在發生問題時主動取得即時警示、執行綜合交易，以測試端對端商務用 Skype 功能、取得服務可用性的報告等等。 這可協助您在使用者體驗之前，主動回應部署的問題。
+- **建議使用 System Center Operations Manager。** 建議您監視商務用 Skype Server 部署的健康情況，以協助確保使用者的服務可用性。 您可以使用 System Center Operations Manager 管理元件，以取得可免費從 Microsoft 下載商務用 Skype。 使用商務用 Skype 管理元件，您可以在發生問題時主動取得即時警示、執行綜合交易，以測試端對端商務用 Skype 功能、取得服務可用性的報告等等。 這可協助您在使用者體驗之前，主動回應部署的問題。

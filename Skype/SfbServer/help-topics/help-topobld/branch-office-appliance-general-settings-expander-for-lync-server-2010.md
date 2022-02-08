@@ -1,8 +1,8 @@
 ---
 title: Branch Office Appliance 一般設定展開工具 (適用於 Lync Server 2010)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: 若要編輯 Survivable Branch 裝置或 Survivable Branch 伺服器的屬性，請在 [一般] 下設定：
-ms.openlocfilehash: 872ad2158b5fa21ebaebd418755a9c1e5feb116d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b9c2d4daee3e67580c9c18445ae309c703e686d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842806"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395485"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Branch Office Appliance 一般設定展開工具 (適用於 Lync Server 2010)
  

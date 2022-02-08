@@ -1,8 +1,8 @@
 ---
 title: 註冊表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 description: 每筆記錄都代表一個使用者註冊事件。
-ms.openlocfilehash: 45aa007b242d2a85aa8f19f35571fc367e298433
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: df06364cc466d40ec571328089a7fab5d4970761
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859810"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394885"
 ---
 # <a name="registration-table"></a>註冊表
  

@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中規劃會議
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 中的會議功能和功能。
-ms.openlocfilehash: f5eb0d549b5d0b120017d36e4f904b931e0ea278
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 669c87bd2c5eae3944a586e289bbeac3fd4409df
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864710"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394985"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃會議
  
-**摘要：** 閱讀此主題以瞭解商務用 Skype Server 中的會議功能和功能。
+**總結：** 閱讀此主題以瞭解商務用 Skype Server 中的會議功能和功能。
   
 商務用 Skype Server 中的會議可讓使用者使用商務用 Skype 用戶端來開會和保持會議，而不是每個人都在相同的聊天室中取得。 會議參與者可以使用其商務用 Skype 用戶端來連線至會議，以取得完整的音訊和影片體驗，或是使用電話撥入會議。 會議也支援立即訊息、桌面和應用程式共用，以及互動的白板。
   
@@ -41,7 +41,7 @@ ms.locfileid: "60864710"
 
 商務用 Skype Server 有四種會議類型： web 會議、音訊和影片 (A/V) 會議、電話撥入式會議和立即訊息 (IM) 會議。 
   
-您可以選擇啟用所有會議類型，或根據您的需求，只使用一種類型。 例如，您可以啟用所有類型（包括撥入式會議），以允許無法使用商務用 Skype 用戶端加入會議的使用者，撥打並參與來自電話的會議音訊。 當您部署商務用 Skype Server 時，會自動部署 IM 會議功能;您可以使用拓撲產生器，指定是否要部署 web、A/V 和電話撥入式會議。 如需詳細資訊，請參閱[商務用 Skype Server 中的部署會議](../../deploy/deploy-conferencing/deploy-conferencing.md)。 
+您可以選擇啟用所有會議類型，或根據您的需求，只使用一種類型。 例如，您可以啟用所有類型（包括撥入式會議），以允許無法使用商務用 Skype 用戶端加入會議的使用者，撥打並參與來自電話的會議音訊。 當您部署商務用 Skype Server 時，會自動部署 IM 會議功能; 您可以使用拓撲產生器，指定是否要部署 web、A/V 和電話撥入式會議。 如需詳細資訊，請參閱[商務用 Skype Server 中的部署會議](../../deploy/deploy-conferencing/deploy-conferencing.md)。 
   
 下列小節說明每種會議類型的特性和功能。
   
@@ -55,7 +55,7 @@ Web 會議可讓會議出席者在會議期間共用的檔上進行共同作業�
     
 - **應用程式共用和桌面共用。** 在會議期間，會議簡報者可以在多部監視器環境中共用其整個桌面、個別應用程式或個別監視器。 除了只查看內容之外，會議中的其他參與者也可以要求對簡報者的畫面進行控制，並透過許可權與內容 (（包括滾動及編輯) ）進行互動。 會議參與者也可以做為簡報者，並在會議期間開始共用內容。
     
-- **PowerPoint共用。** 可讓使用者透過 Office Web Apps 伺服器共用會議中 PowerPoint 簡報，以供：
+- **PowerPoint 共用。** 可讓使用者透過 Office Web Apps 伺服器共用會議中 PowerPoint 簡報，以供：
     
   - 高解析度顯示及支援 PowerPoint 功能，例如動畫、投影片切換效果及內嵌影片。
     
@@ -120,7 +120,7 @@ Web 會議可讓會議出席者在會議期間共用的檔上進行共同作業�
     
 - **使用者存放區。** 使用者存放區用於儲存使用者商務用 Skype Server pin。 會散列 Pin。 使用者存放區是每 Enterprise Edition 或 Standard Edition 部署中的標準元件。
     
-- **OfficeWeb Apps Server。** 若要使用 web 會議功能，管理員必須安裝 Office web apps server，而且必須設定商務用 Skype Server 以與 Office web apps server 通訊。
+- **Office Web Apps Server。** 若要使用 web 會議功能，管理員必須安裝 Office web apps server，而且必須設定商務用 Skype Server 以與 Office web apps server 通訊。
     
 ## <a name="conferencing-policies"></a>會議原則
 
@@ -136,7 +136,7 @@ Web 會議可讓會議出席者在會議期間共用的檔上進行共同作業�
     
 如需管理大型會議的詳細資訊，請參閱[在商務用 Skype Server 中規劃大型會議](large-meetings.md)。
   
-如果您的組織需要較大的會議能力，您應該考慮採用 Skype 會議廣播的混合式環境，該 Office 365 屬於 Microsoft 365 和的線上服務。 Skype會議廣播可讓使用者主控及廣播會議至最多10000參與者的大型線上受眾。 使用 Skype 會議廣播必須已在具有實際 Microsoft 365 或 Office 365 組織的混合式設定中設定商務用 Skype Server。 所有使用者都必須以必要條件建立線上承租人。 如果您想要部署可利用 Skype 會議廣播的混合式解決方案，請參閱[設定內部部署以取得 Skype 會議廣播](../../deploy/configure-skype-meeting-broadcast.md)。
+如果您的組織需要較大的會議能力，您應該考慮採用 Skype 會議廣播的混合式環境，該 Office 365 屬於 Microsoft 365 和的線上服務。 Skype 會議廣播可讓使用者主控及廣播會議至最多10000參與者的大型線上受眾。 使用 Skype 會議廣播必須已在具有實際 Microsoft 365 或 Office 365 組織的混合式設定中設定商務用 Skype Server。 所有使用者都必須以必要條件建立線上承租人。 如果您想要部署可利用 Skype 會議廣播的混合式解決方案，請參閱[設定內部部署以取得 Skype 會議廣播](../../deploy/configure-skype-meeting-broadcast.md)。
   
 ## <a name="determine-your-organizations-needs"></a>決定組織的需求
 

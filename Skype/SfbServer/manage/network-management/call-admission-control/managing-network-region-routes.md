@@ -1,8 +1,8 @@
 ---
 title: 管理網路地區路由
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 網路地區路由會定義一對網路地區之間的路由。 在您的通話許可控制部署中的每一對網路地區都需要網路地區路由。
-ms.openlocfilehash: 18bee9a28eed10affae1b0dab855c379709b37bb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a5808a7b3ffdfb860723bf0f84dc32239a9b08ae
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864750"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395235"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>管理商務用 Skype Server 中的網路地區路由
 
@@ -86,7 +86,7 @@ ms.locfileid: "60864750"
 
 6.  從 [ **網路地區 \# 1** ] 下拉式清單中，選取兩個區域中的其中一個要透過此路由來連線。
 
-7.  從 [ **網路地區 \# 2** ] 下拉式清單中，選取此路由的其他地區。 此區域必須與為網路地區1所選取的區域不同 \# 。
+7.  從 [ **網路地區 \# 2** ] 下拉式清單中，選取此路由的其他地區。 此區域必須與為網路地區 \# 1 所選取的區域不同。
 
 8.  使用 **[網路地區連結]** 清單方塊，將地區連結新增至路由。按一下 **[新增]** 按鈕以顯示 **[地區連結]** 頁面。按一下要新增至此路由的地區連結，然後按一下 **[確定]**。
     

@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 的拓撲基礎
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 摘要：選擇商務用 Skype Server 的拓撲。 深入瞭解商務用 Skype Server 的伺服器組合。
-ms.openlocfilehash: 9f28857d6fa8ddbbd77713e113f73314e8f9d3c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 579c14471daab8c96eb6b55bdc2f21fc0b3b7eb4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856530"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394895"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>商務用 Skype Server 的拓撲基礎
 
-**摘要：** 選擇商務用 Skype Server 的拓撲。 深入瞭解商務用 Skype Server 的伺服器組合。
+**總結：** 選擇商務用 Skype Server 的拓撲。 深入瞭解商務用 Skype Server 的伺服器組合。
 
 準備其他任何專案之前，您會想知道您在規劃商務用 Skype Server 部署的適當拓撲。 您必須決定的第一件事是，如果您要部署商務用 Skype Server 的內部部署，或是您想要將它與混合式部署中的商務用 Skype Server 線上部署結合使用。 無論是哪一種方式，您都會想進一步閱讀，因為我們會在這裡詳述內部部署拓撲，但混合式詳細資料會記錄在其專屬的區段中。
 
@@ -41,7 +41,7 @@ ms.locfileid: "60856530"
 
 - Standard Edition server 包含組合 SQL Server Express 資料庫。
 
-- Enterprise Edition前端集區包括：
+- Enterprise Edition 前端集區包括：
 
   - 一或多部前端伺服器 (理想情況下至少三個，可伸縮性) ，最多為12個。 有一部以上的伺服器需要進行負載平衡。
 
@@ -67,7 +67,7 @@ ms.locfileid: "60856530"
 
 - 多部 Standard Edition Server。
 
-- Officeweb apps Server，可搭配商務用 Skype Server 中的 Office web 應用程式，用以共用及呈現 PowerPoint 簡報。
+- Office web apps Server，可搭配商務用 Skype Server 中的 Office Web 應用程式來共用及呈現 PowerPoint 簡報。
 
 - 周邊網路) 中的 edge Server 或 Edge 集區 (。 如果您想要部署支援同盟協力廠商、公用 IM 連線、可延伸的訊息和顯示狀態通訊協定 (XMPP) 閘道和遠端使用者存取，則需要。 您可以在 Edge Server 規劃檔中找到詳細資訊。
 
@@ -103,7 +103,7 @@ ms.locfileid: "60856530"
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|
-|防火牆   |當您部署企業語音時，則為 PSTN 閘道 (   |Exchange如果您想要與 Exchange um 進行整合，則為 um 伺服器 ()    |DNS 負載平衡   |
+|防火牆   |當您部署企業語音時，則為 PSTN 閘道 (   |如果您想要與 Exchange um 進行整合，請 Exchange UM 伺服器 ()    |DNS 負載平衡   |
 |硬體負載平衡器   |SQL Server 資料庫   |檔案共用   ||
 
 ## <a name="server-roles"></a>伺服器角色
@@ -152,7 +152,7 @@ ms.locfileid: "60856530"
 > 我們不建議使用其他資料庫組合商務用 Skype Server 資料庫。 如果您這麼做，可用性和效能可能會受到影響。
 
 > [!NOTE]
-> SQL鏡像可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) 及 SQL 容錯移轉叢集方法，都是商務用 Skype Server 2019 的首選。
+> SQL 鏡像可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) 及 SQL 容錯移轉叢集方法，都是商務用 Skype Server 2019 的首選。
 
 儲存在後端伺服器資料庫中的資訊包括目前狀態資訊、使用者的連絡人清單、會議資料（包括所有目前會議狀態的持續性資料）和會議排程資料。
 
@@ -251,7 +251,7 @@ Standard Edition 伺服器具有下列角色組合 (其他設定) ，但在 Ente
 
 - 任何 Enterprise Edition 前端集區的後端資料庫
 
-#### <a name="enterprise"></a>Enterprise
+#### <a name="enterprise"></a>企業
 
 下列資料庫可在相同的後端 SQL Server 上組合：
 

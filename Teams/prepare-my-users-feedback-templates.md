@@ -1,7 +1,7 @@
 ---
 title: 在 Teams 或 商務用 Skype
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cebd19b40513ece384112e6fdc3efa1be54155b1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 285fcdf665a29de59596484c6174e73abd0a4083
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836031"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394495"
 ---
 # <a name="user-feedback-surveys"></a>使用者意見回饋問卷 
 
@@ -29,9 +29,9 @@ ms.locfileid: "60836031"
 
 自訂下列問題，然後將這些問題轉移到問卷工具 ，SharePoint輕鬆發佈和分析。
 
-針對這些問卷的目的，*新的* 電話系統是指在 Microsoft Teams 或 商務用 Skype 中使用通話功能，以及媒體電話或行動電話等裝置。 這些問卷中Microsoft Teams所有參照內容也適用于商務用 Skype。
+針對這些問卷的目的，*新的* 電話系統是指在 Microsoft Teams 或 商務用 Skype 中使用通話功能，以及使用媒體電話或行動電話等裝置。 這些問卷Microsoft Teams所有參照內容也適用于商務用 Skype。
 
-指出您對於下列聲明的一致程度，因為與使用手機Teams相關。 
+指出您對於下列聲明的一致程度，因為與將手機Teams相關。 
 
 |     &nbsp;                              | 完全同意 | 有點同意 | 中性 | 有點不同意 | 完全不同意 | N/A 或不使用 |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
@@ -40,7 +40,7 @@ ms.locfileid: "60836031"
 | 我可以輕鬆登錄新的電話機。                                                                              |                      |                    |             |                       |                         |                        |
 | 我已成功在行動裝置上撥打和接聽電話。                                                   |                      |                    |             |                       |                         |                        |
 | 新的電話系統符合我的所有通話需求， (轉接、保留、語音信箱等)                                       |                      |                    |             |                       |                         |                        |
-| 我發現將手機系統與手機系統整合Teams。                                                 |                      |                    |             |                       |                         |                        |
+| 我發現整合手機系統與手機Teams。                                                 |                      |                    |             |                       |                         |                        |
 | 使用 Teams做為我的電話，讓我更容易完成工作。                                          |                      |                    |             |                       |                         |                        |
 | 我的音訊體驗Teams我們舊手機系統一樣好或更好。                   |                      |                    |             |                       |                         |                        |
 

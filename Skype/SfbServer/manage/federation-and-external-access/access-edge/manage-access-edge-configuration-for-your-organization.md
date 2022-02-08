@@ -5,8 +5,8 @@ ms:assetid: 0145eb08-984f-4ecd-bf9c-364817619c2a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552443(v=OCS.15)
 ms:contentKeyID: 48679555
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 部署一或多部 Edge Server 之後，您必須透過您組織支援的 Edge Server，啟用外部網域或提供者存取的類型、遠端使用者存取和匿名使用者對會議的存取。
-ms.openlocfilehash: ff152ea25bbea750815e0619ce521ede8d8d7203
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3ab053fe625950a4023f16fbf911d8df1ebdf07e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860090"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395265"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>管理貴組織的 Access Edge 設定
 

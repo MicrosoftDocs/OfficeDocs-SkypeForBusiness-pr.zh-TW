@@ -1,7 +1,7 @@
 ---
 title: Skype 會議 App 最低網路需求
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 6/4/2018
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: 摘要：對於未使用 Microsoft 365 或 Office 365，且需要存取組織組織之會議的組織資訊。
-ms.openlocfilehash: 28373203bd60182bd6065a6e7169e8f9f4908940
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 06432f8629ec8cdb451ebff9146e24b3929a2d3e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862080"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395115"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Skype 會議 App 最低網路需求
  
-**摘要：** 未使用 Microsoft 365 或 Office 365，且需要存取組織所主控之會議的組織資訊。 本文並非適用于這些應用程式的使用者。
+**總結：** 未使用 Microsoft 365 或 Office 365，且需要存取組織所主控之會議的組織資訊。 本文並非適用于這些應用程式的使用者。
   
 若要讓使用者能夠使用 Skype 會議應用程式參加商務用 Skype Online 中主控的會議，未使用 Microsoft 365 或 Office 365 之組織的網路系統管理員應該允許或以其他方式使用下列所述的 fqdn、IPs 及埠。
 

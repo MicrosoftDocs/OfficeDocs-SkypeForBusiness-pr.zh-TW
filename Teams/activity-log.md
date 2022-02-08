@@ -1,7 +1,7 @@
 ---
 title: 在系統管理中心的活動記錄中Microsoft Teams作業
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: jastark
 manager: serdars
 ms.topic: article
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c48e6b8ea08419b96384be5e19ba1a7d5275dea
-ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
+ms.openlocfilehash: ed7903e0018d30882fa27c63941b5d03a27fdaf3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60785066"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393525"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>在活動記錄中查看您的策略指派
 
@@ -35,13 +35,13 @@ ms.locfileid: "60785066"
 
 若要在活動記錄中查看您的策略指派：
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往首頁，然後在活動記錄 **下，選取** 查看 **詳細資料**。
-2. 您可以查看所有策略作業，或根據狀態篩選清單，只顯示尚未開始、進行中或已完成 **的作業**。 您將看到每個作業的下列資訊：
+1. 在系統管理中心的左側導Microsoft Teams，請前往首頁，然後在活動記錄下，選取查看 **詳細資料**。****
+2. 您可以查看所有策略作業，或根據狀態篩選清單，只顯示尚未開始、進行中或 **已完成的作業**。  您將看到每個作業的下列資訊：
     - **名稱**：策略指派的名稱。 按一下連結以查看更多詳細資料。 這包括已指派策略的使用者數目，以及已完成、進行中及尚未開始的指派數目。 您也會看到批次中的使用者清單，以及每個使用者的狀態和結果。 以下是範例：
 
         ![的螢幕擷取畫面。](media/activity-log-policy-assignment-detail.png)
 
-    - **提交日期**：已提交政策工作分派的日期和時間。
+    - **已提交**：已提交政策分派的日期和時間。
     - **完成時間**：完成策略作業的日期和時間。
     - **影響：** 批次中的使用者數目。
     - **整體狀態**：策略工作分派的狀態。

@@ -1,7 +1,7 @@
 ---
 title: 規劃 VDI 環境中的商務用 Skype
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: 本主題討論連接至遠端虛擬桌面時使用商務用 Skype 的規劃考慮。
-ms.openlocfilehash: 63dbdb11abf6188cb11d5f96b54ddeb541f1b9fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 052c8b8252846204020ccb29a4d28d6150027963
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864720"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395075"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>規劃 VDI 環境中的商務用 Skype
  
@@ -106,7 +106,7 @@ Lync VDI 外掛程式允許音訊和視頻通話支援的虛擬化技術。 在�
 
 Lync VDI 外掛程式支援個人虛擬桌面案例中的完整桌面遠端會話，但不支援在遠端桌面會話案例中。 您可以將這些案例描述如下：
   
-- **支援：個人化虛擬桌面或虛擬桌面基礎結構 (VDI) 。** 在此案例中，每一位使用者都登入至可自訂的虛擬桌面機，而且能夠將保留在會話中的檔案儲存在桌面機上。 Microsoft 遠端桌面服務和 VMware 水準模式是已測試為搭配商務用 Skype 2015 的範例實施方案。 其他進行驗證的實施包括 Citrix XenDesktop。 如需廠商特有的 VDI 環境及已由 Microsoft 測試的用戶端硬體資訊，請參閱 [Microsoft Lync 的基礎結構限定](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
+- **支援：個人化虛擬桌面或虛擬桌面基礎結構 (VDI) 。** 在此案例中，每一位使用者都登入至可自訂的虛擬桌面機，而且能夠將保留在會話中的檔案儲存在桌面機上。 Microsoft 遠端桌面服務和 VMware 水準模式是已測試為搭配使用商務用 Skype 2015 的範例實施方案。 其他進行驗證的實施包括 Citrix XenDesktop。 如需廠商特有的 VDI 環境及已由 Microsoft 測試的用戶端硬體資訊，請參閱 [Microsoft Lync 的基礎結構限定](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)。
     
 - **不支援：遠端桌面會話。** 在此案例中，每一位使用者都登入無法自訂的一般虛擬桌面會話。 範例包括 (RDSH) 和 citrix XenApp 與 citrix 接收器結合的 Microsoft 遠端桌面會話。
     

@@ -1,8 +1,8 @@
 ---
 title: 設定商務用 Skype Server 中的 E9-1-1 語音路由
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
 description: 設定商務用 Skype Server 企業語音中的 E9-1-1 語音路由。
-ms.openlocfilehash: 86904c32db6ae43b9fa1b6f184048d3b9f419089
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6543e7c7dac59b026b3b2f7e5738cd1b06c3ffc5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833949"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394335"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>設定商務用 Skype Server 中的 E9-1-1 語音路由
  

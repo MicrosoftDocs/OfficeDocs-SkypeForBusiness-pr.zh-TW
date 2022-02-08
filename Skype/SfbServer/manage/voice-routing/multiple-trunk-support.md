@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的多個主幹支援
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 商務用 Skype Server 功能支援閘道和轉送伺服器之間的多重關聯。 這些關聯是透過定義主幹（轉送伺服器集區和公用交換電話網路 (PSTN) 閘道、會話邊界控制器 (SBC) 或 IP-PBX）進行。 使用拓撲產生器，將閘道與轉送伺服器相關聯 (也就是說，主幹) 。
-ms.openlocfilehash: aee1cdebba9780eb0079200cf6b0e0c1a5789535
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 09ad94a15bbd7faa735f41fba81ade919d7a84da
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833349"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395185"
 ---
 # <a name="multiple-trunk-support-in-skype-for-business-server"></a>商務用 Skype Server 中的多個主幹支援
 

@@ -1,8 +1,8 @@
 ---
 title: UriTypes 表格
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 77c4dfae-1b29-4e81-ba05-609e61643998
 description: UriTypes 表格包含在商務用 Skype Server 2015 中監控的不同 URI (統一資源識別項) 類型。
-ms.openlocfilehash: ed0cc7e62aba47af6622f821af785d8daf571649
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 196207a60bd738b4ef987248d53356b3f20336e8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859760"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394875"
 ---
 # <a name="uritypes-table"></a>UriTypes 表格
  

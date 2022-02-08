@@ -1,8 +1,8 @@
 ---
 title: 管理增強型9-1-1 與位置服務
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 商務用 Skype Server 支援從商務用 Skype 用戶端呼叫的增強型 9-1-1 (E9-1-1) 。 當您設定 E9-1-1 的商務用 Skype Server，緊急通話從商務用 Skype 中包含緊急回應位置 (ERL) 資訊從位置資訊服務資料庫。
-ms.openlocfilehash: 5eb5fe86449147c38c5719976f202591f13a67fb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6fb6b539e51bc1178df46baf5990f48d85c44318
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848526"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395365"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>在 Busines Server 的 Skype 中管理增強型9-1-1 與位置服務
 
@@ -77,7 +77,7 @@ ms.locfileid: "60848526"
         
           - **不需要**   將不會提示使用者輸入位置。當撥打的電話沒有位置資訊時，緊急服務提供者會接聽來電，並要求提供位置。
         
-          - **免責聲明**   此選項與 **必要條件** 相同，只是使用者無法在未輸入位置資訊的情況下關閉提示。 使用者仍可完成緊急通話，但沒有輸入資訊，可以完成其他電話。 此外，還會向使用者顯示免責聲明文字，以提醒他們拒絕輸入位置資訊的後果。 若要設定免責聲明文字，您必須使用商務用 Skype Server 管理命令介面執行 **set-CsLocationPolicy 指令程式**，或使用 EnhancedEmergencyServiceDisclaimer 參數來執行 **New-CsLocationPolicy** Cmdlet。 如需詳細資訊，請參閱 [Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) 或 [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy)。
+          - **免責 聲明**   此選項與 **必要條件** 相同，只是使用者無法在未輸入位置資訊的情況下關閉提示。 使用者仍可完成緊急通話，但沒有輸入資訊，可以完成其他電話。 此外，還會向使用者顯示免責聲明文字，以提醒他們拒絕輸入位置資訊的後果。 若要設定免責聲明文字，您必須使用商務用 Skype Server 管理命令介面執行 **set-CsLocationPolicy 指令程式**，或使用 EnhancedEmergencyServiceDisclaimer 參數來執行 **New-CsLocationPolicy** Cmdlet。 如需詳細資訊，請參閱 [Set-CsLocationPolicy](/powershell/module/skype/Set-CsLocationPolicy) 或 [New-CsLocationPolicy](/powershell/module/skype/New-CsLocationPolicy)。
           
     
       - **僅限緊急服務的使用位置** 商務用 Skype 可以出於各種原因使用位置資訊 (例如，將您目前位置) 的團隊成員通知給小組成員。 選取此核取方塊可確保位置資訊僅供緊急通話之用。

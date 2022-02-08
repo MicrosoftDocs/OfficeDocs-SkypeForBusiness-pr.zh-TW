@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype 的行動用戶端功能比較
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 摘要：在規劃商務用 Skype Server 時，複查行動用戶端的功能支援。
-ms.openlocfilehash: f1bbb046827ef762f5def1d532089e9621c32b28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a4696adda500b3011f52ac113b58f283ab7bfd96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834121"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395095"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>商務用 Skype 的行動用戶端功能比較
  
-**摘要：** 在規劃商務用 Skype Server 時，請複查行動用戶端的功能支援。
+**總結：** 在規劃商務用 Skype Server 時，請複查行動用戶端的功能支援。
   
 本文將商務用 Skype 行動用戶端與商務用 Skype 桌面用戶端之間的功能與功能進行比較，以下列類別：
   

@@ -1,8 +1,8 @@
 ---
 title: 規劃商務用 Skype Server 的會議拓撲
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 中規劃會議拓撲。
-ms.openlocfilehash: 0ea242584670c06beaa6462390afc01103c1fd7e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b0d20aa6bd74e417b6e1adef4d44bce39244bf8f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831907"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394995"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>規劃商務用 Skype Server 的會議拓撲
  
-**摘要：** 閱讀此主題以瞭解如何在商務用 Skype Server 中規劃會議拓撲。
+**總結：** 閱讀此主題以瞭解如何在商務用 Skype Server 中規劃會議拓撲。
   
 本主題說明商務用 Skype Server 中會議的拓撲基礎：
   
@@ -82,9 +82,9 @@ Web 會議需要下列專案：
   
 - **在組織的防火牆之後和相同的網路區域中，同時安裝商務用 Skype Server 和 Office Web Apps Server/Office Online Server 內部部署。** 透過此拓撲，將會透過反向 proxy 伺服器提供對 Office Web Apps server/Office Online Server 的外部存取。 理想狀況下，您應該在與商務用 Skype Server 相同的網路區域中安裝 Office Web Apps Server/Office Online Server。
     
-    外部商務用 Skype 用戶端可以使用反向 proxy 伺服器（該伺服器要求來自網際網路的要求，以及將郵件轉送至內部網路），連線至商務用 Skype Server 及 Office Web Apps server/Office Online Server。  (內部用戶端不需要使用反向 proxy 伺服器，因為他們可以直接連線到 Office Web apps server/Office Online Server。如果您想要使用僅供 Office 使用的專用 Office Online Server web apps server/商務用 Skype Server 伺服器陣列，則 ) 此拓撲會發揮最佳作用。
+    外部商務用 Skype 用戶端可以使用反向 proxy 伺服器（該伺服器要求來自網際網路的要求，以及將郵件轉送至內部網路），連線至商務用 Skype Server 及 Office Web Apps server/Office Online Server。  (內部用戶端不需要使用反向 proxy 伺服器，因為他們可以直接連線到 Office Web apps server/Office Online Server。如果您想要使用僅供下列各項使用的專用 Office web apps server/Office Online Server 伺服器陣列，) 此拓撲最適合運作。商務用 Skype Server。
     
-- **使用外部部署的 Office Web Apps Server/Office Online Server。** 在此拓撲中，會在內部部署商務用 Skype Server，並使用部署于商務用 Skype Server 網路區域以外的 Office Web Apps Server/Office Online Server。 當公司中的多個應用程式共用 Office Web Apps server/Office Online Server 時，可能會發生這種情況，而且部署于要求商務用 Skype Server 使用 Office Web Apps Server/Office Online Server 外部介面的網路上。反之亦然。
+- **使用外部部署的 Office Web Apps Server/Office Online Server。** 在此拓撲中，會在內部部署商務用 Skype Server，並使用部署于商務用 Skype Server 網路區域以外的 Office Web Apps Server/Office Online Server。 當公司中的多個應用程式共用 Office Web Apps server/Office Online Server 時，可能會發生這種情況，而且部署在需要商務用 Skype Server 才能使用 Office Web Apps Server/Office Online Server 外部介面的網路上。 ，反之亦然。
     
     您不需要安裝反向 proxy 伺服器;相反地，所有從 Office Web Apps server/Office Online Server 到商務用 Skype Server 的要求都透過您的 Edge Server 路由傳送。 您的內部和外部商務用 Skype 用戶端都使用外部 URL 連線至 Office Web Apps Server/Office Online Server。
     

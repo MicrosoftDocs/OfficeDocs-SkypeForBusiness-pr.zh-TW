@@ -1,7 +1,7 @@
 ---
 title: Windows 用戶端需求和軟體支援
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
 description: 摘要：在規劃商務用 Skype Server 時，複查 Windows 用戶端支援需求。
-ms.openlocfilehash: b38c1d7a3565fbc2250766dbed3a0413b914388f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 50b0583e55c872e15e59c8510503b5b11ffc8714
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859900"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395005"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows 用戶端需求和軟體支援
  
-**摘要：** 在規劃商務用 Skype Server 時，請複查 Windows 用戶端支援需求。
+**總結：** 在規劃商務用 Skype Server 時，請複查 Windows 用戶端支援需求。
   
 本節摘要說明支援商務用 Skype Windows 用戶端所需的軟體。 當您 Microsoft 365 或 Office 365 安裝時，會安裝這些用戶端，而且在[所有裝置的下載商務用 Skype 皆](https://products.office.com/skype-for-business/download-app?tab=tabs-3)可使用。
   
@@ -37,17 +37,17 @@ ms.locfileid: "60859900"
 
 |**系統元件**|**支援的版本：**|
 |:-----|:-----|
-|Windows作業系統  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows伺服器 2008 R2 或更新版本（含最新 service pack）  <br/> **附注：** 商務用 Skype 上的商務用 Skype 和線上會議增益集不支援 Windows Vista 或 Windows XP (任何版本) 。 <br/> |
+|Windows 作業系統  <br/> |Windows 10  <br/> Windows 8.1  <br/> Windows 8 <br/> Windows Server 2008 R2 或更新版本（含最新 service pack）  <br/> **附注：** 商務用 Skype 上的商務用 Skype 和線上會議增益集不支援 Windows Vista 或 Windows XP (任何版本) 。 <br/> |
 |安裝和更新  <br/> |系統管理員的許可權  <br/> |
-|瀏覽器  <br/> |Microsoft Edge  <br/> Internet Explorer 11 Internet browser  <br/>  Internet Explorer 10網際網路瀏覽器 <br/> Internet Explorer 9 網際網路瀏覽器  <br/> Internet Explorer 8 網際網路瀏覽器  <br/> Internet Explorer 7 網際網路瀏覽器  <br/> Mozilla Firefox 網頁瀏覽器  <br/>  Google Chrome 網頁瀏覽器  <br/>**附注：** 如果您使用商務用 Skype 搭配 Microsoft Exchange Online，且您的組織已部署驗證 HTTP proxy，則需要 Internet Explorer 8 或更新版本。           |
-|Microsoft Office集成  <br/> | Outlook 2010 或更新版本 |
+|瀏覽器  <br/> |Microsoft Edge  <br/> Internet Explorer 11 Internet browser  <br/>  Internet Explorer 10 Internet 瀏覽器 <br/> Internet Explorer 9 網際網路瀏覽器  <br/> Internet Explorer 8 網際網路瀏覽器  <br/> Internet Explorer 7 網際網路瀏覽器  <br/> Mozilla Firefox 網頁瀏覽器  <br/>  Google Chrome 網頁瀏覽器  <br/>**注意：** 如果您使用商務用 Skype 搭配 Microsoft Exchange Online，且您的組織已部署驗證 HTTP proxy，則需要 Internet Explorer 8 或更新版本。           |
+|Microsoft Office 整合  <br/> | Outlook 2010 或更新版本 |
 |Microsoft Exchange 整合  <br/> | Microsoft Exchange Server 2010 或更新版本  | 
    
 ## <a name="hardware"></a>硬體
 
 請參閱 Microsoft 365 和 Office[系統需求](https://products.office.com/office-system-requirements)，以執行商務用 Skype 用戶端所需的硬體。
   
-## <a name="skype-meetings-app-and-skype-for-business-web-app"></a>Skype會議應用程式和商務用 Skype Web 應用程式 
+## <a name="skype-meetings-app-and-skype-for-business-web-app"></a>Skype 會議應用程式和商務用 Skype Web 應用程式 
 
 Skype 會議應用程式和商務用 Skype Web 應用程式支援作業系統與瀏覽器的特定組合。 如需詳細資訊，請參閱 [Plan For meeting 客戶 (Web App 和會議應用程式) ](meetings-clients.md)。 
   
@@ -60,7 +60,7 @@ Skype 會議應用程式和商務用 Skype Web 應用程式支援作業系統與
  
 Microsoft Windows Phone 版商務用 Skype 為組織中從 smartphone 或 Windows Professional 行動裝置的使用者，提供立即訊息 (IM) 、增強型目前狀態和電話語音。 行動裝置可讓使用者擴充商務用 Skype 的範圍。 本主題說明 Windows Phone 版商務用 Skype 的規劃考慮，包括識別必要條件和技術需求、必要元件，以及部署指導方針。
   
-### <a name="skype-for-business-for-windows-phone-prerequisites"></a>Windows Phone 版商務用 Skype先決條件
+### <a name="skype-for-business-for-windows-phone-prerequisites"></a>Windows Phone 版商務用 Skype 必要條件
 
 以下是 Windows Phone 版商務用 Skype 必要條件。
   
