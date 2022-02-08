@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中監視行動服務和 UCWA 使用狀況
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: 摘要：在商務用 Skype Server 中管理行動服務 (Mcx) 和整合通訊網頁 API (UCWA) 。
-ms.openlocfilehash: 6139ab53e964bd7c880a83a7af252fe2da71a152
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d7596bfaf4e90f0eef25dbc625719f8739255858
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835251"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393765"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>在商務用 Skype Server 中監視行動服務和 UCWA 使用狀況
  
-**摘要：** 在商務用 Skype Server 中管理行動服務 (Mcx) 和整合通訊網頁 API (UCWA) 。
+**總結：** 在商務用 Skype Server 中管理行動服務 (Mcx) 和整合通訊網頁 API (UCWA) 。
 
 > [!NOTE]
 > 商務用 Skype Server 2019 不再提供舊版行動用戶端的 MCX (行動服務) 支援。 所有目前商務用 Skype 的行動裝置都已經使用整合通訊 Web API (UCWA) 以支援立即訊息 (IM) 、目前狀態及連絡人。 具有使用 MCX 之舊版用戶端的使用者，必須升級至目前的用戶端。

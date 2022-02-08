@@ -1,8 +1,8 @@
 ---
 title: 會話視圖
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49e33f5b-45d0-4146-a5a4-76954d895a98
 description: 「工作階段檢視」會儲存在資料庫中有記錄的工作階段的相關資訊。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 80a275e047934bd60586c344b5487f2593fe48bb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: afcff6c5032c14dbcab525a0032804493bcb0216
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834911"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393575"
 ---
 # <a name="session-view"></a>會話視圖
  
@@ -29,7 +29,7 @@ ms.locfileid: "60834911"
 |ConferenceDateTime  <br/> |datetime  <br/> |參考來源為 MediaLine 表格。  <br/> |
 |ConferenceURI  <br/> |Nvarchar (450)   <br/> |如果是會議則為會議 URI，如果是對等工作階段則為 DialogID。  <br/> |
 |Correlation  <br/> |Varchar (max)   <br/> |工作階段的關聯 ID。  <br/> |
-|DialogCategory  <br/> |位  <br/> |對話方塊類別;0商務用 Skype Server 轉送伺服器腿;1是轉送伺服器到 PSTN 閘道腿。  <br/> |
+|DialogCategory  <br/> |位  <br/> |對話方塊類別;0是商務用 Skype Server 轉送伺服器腿; 1 代表轉送伺服器到 PSTN 閘道腿。  <br/> |
 |MediationServerBypassFlag  <br/> |位  <br/> |指出通話是否經旁路處理。  <br/> |
 |MediaBypassWarningFlag  <br/> |int  <br/> |此欄位 (若有) 指出即使旁路識別碼相符，通話為何未經旁路處理。 商務用 Skype Server，只會定義一個值：  <br/> 0x0001-預設網路介面卡的未知旁路識別碼  <br/> |
 |StartTime  <br/> |datetime  <br/> |通話開始時間。  <br/> |

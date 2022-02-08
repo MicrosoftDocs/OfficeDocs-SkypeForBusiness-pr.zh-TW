@@ -1,8 +1,8 @@
 ---
 title: 使用者查看或設定用戶端版本原則
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 8f122b849562fd9bd157658dc5207b8a2168079c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 780fd11af2d3751f578d38aa6823b24149362aaa
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842936"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393965"
 ---
 # <a name="users-view-or-configure-client-version-policy"></a>使用者：檢視或設定用戶端版本原則
 

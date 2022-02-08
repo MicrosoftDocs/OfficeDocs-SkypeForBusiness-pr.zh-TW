@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 2019 的新功能 |特徵
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: overview
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：這些功能是商務用 Skype Server 2019 的新功能。
-ms.openlocfilehash: 2acfaef02b140d8e52fce43e0fef9125378047ea
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 79e6ef88f327b43fd9049c2e1a3ce1492fc9b8ee
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858020"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393446"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的功能
 
-**摘要：** 閱讀此主題以瞭解商務用 Skype Server 2019 中的新功能。  
+**總結：** 閱讀此主題以瞭解商務用 Skype Server 2019 中的新功能。  
 
 商務用 Skype Server 2019 的新功能包括下列各項：
   
@@ -31,7 +31,7 @@ ms.locfileid: "60858020"
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>整合通訊服務：雲端語音信箱
 
-Exchange當您將商務用 Skype 2019 與 Exchange 2013 或 Exchange 2016 整合時，UM 仍可用於商務用 Skype Server 2019。 因為 Exchange 2019 的支援變更，所以 Exchange UM 整合的目的是為了取代雲端語音信箱和雲端自動語音應答功能。  
+當您將商務用 Skype 2019 與 Exchange 2013 或 Exchange 2016 整合時，商務用 Skype Server 2019 仍可使用 Exchange UM。 因為 Exchange 2019 的支援變更，所以 Exchange UM 整合的目的是為了取代雲端語音信箱和雲端自動語音應答功能。  
 
 雲端語音信箱可讓所有商務用 Skype 2019 使用者&#x2014;位於內部部署或線上&#x2014;才能存取 Microsoft 雲端中相同的語音信箱服務。 雲端語音信箱為您的內部部署和線上使用者提供下列好處：
 

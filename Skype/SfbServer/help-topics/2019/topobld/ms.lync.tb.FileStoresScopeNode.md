@@ -1,8 +1,8 @@
 ---
 title: 檔案存放區範圍節點
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[檔案存放區] 節點會列出您拓撲中的檔案存放區。您可以執行下列動作：'
-ms.openlocfilehash: fd227ca4aa8afa2c977e46058aef89f4dba849fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c291db04c7b8a0164e5162f3069b6658e7ac09e5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841685"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394125"
 ---
 # <a name="file-stores-scope-node"></a>檔案存放區範圍節點
  

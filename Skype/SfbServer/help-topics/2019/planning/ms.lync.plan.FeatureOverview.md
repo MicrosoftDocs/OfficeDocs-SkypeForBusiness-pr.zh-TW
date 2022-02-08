@@ -1,8 +1,8 @@
 ---
 title: " (規劃工具的功能綜述) "
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,17 +15,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
-description: 商務用 Skype Server規劃工具
-ms.openlocfilehash: ee6578aeb51aa0cf9f6a4066c78d6038a057763b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 商務用 Skype Server 規劃工具
+ms.openlocfilehash: 173a5a5ba0b8fd65e9a412d0b6507005f3cf8547
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832687"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393205"
 ---
 # <a name="feature-overview-planning-tool"></a> (規劃工具的功能綜述) 
  
-商務用 Skype Server規劃工具
+商務用 Skype Server 規劃工具
   
 您可以使用規劃工具的「**中央網站**」頁面來設計商務用 Skype Server 部署。 您可以建立兩種集中式或分散式部署。 集中式部署只有一個中央網站，可讓您組織中的所有商務用 Skype 使用者。 分散式部署有一個以上的中央網站。 如果您在多部中央網站上部署商務用 Skype Server，您會在規劃工具中的每個中央網站上輸入使用者數目。
   
@@ -90,10 +90,10 @@ ms.locfileid: "60832687"
     
 - **W15 Exchange 信箱**
     
-    商務用 Skype Server 可讓您將語音信箱訊息儲存在 Exchange 整合通訊 (UM) 中;這些語音信箱訊息會以電子郵件訊息的方式顯示在使用者的收件匣中。
+    商務用 Skype Server 可讓您將語音信箱訊息儲存在 Exchange 整合通訊 (UM) ; 這些語音信箱郵件會在使用者的收件匣中以電子郵件形式顯示。
 
     > [!NOTE]
-    > ExchangeExchange 2019 不再提供整合通訊，但您仍然可以使用電話系統來錄製語音信箱訊息，然後在使用者的 Exchange 信箱中留下記錄。 如需詳細資訊，請參閱[Plan 雲端語音信箱 service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 。
+    > Exchange 2019 不再提供 Exchange 的整合通訊，但您仍然可以使用電話系統來錄製語音信箱訊息，然後在使用者的 Exchange 信箱中留下記錄。 如需詳細資訊，請參閱[Plan 雲端語音信箱 service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 。
     
 ### <a name="voice"></a>語音
 
@@ -105,10 +105,10 @@ ms.locfileid: "60832687"
     
 - **Exchange 整合通訊**
     
-    Exchange整合通訊 (UM) 會將語音信箱和電子郵件合併成單一郵件基礎結構。 商務用 Skype Server 2015 使用 Exchange UM 來提供呼叫回應、使用者存取、來電通知和自動語音應答服務。 如果您使用這些服務，您將需要在共用 Active Directory 拓撲中整合 Exchange UM 和商務用 Skype Server。
+    Exchange 整合通訊 (UM) 將語音信箱和電子郵件結合成單一郵件基礎結構。 商務用 Skype Server 2015 使用 Exchange UM 來提供呼叫回應、使用者存取、來電通知和自動語音應答服務。 如果您使用這些服務，您將需要在共用 Active Directory 拓撲中整合 Exchange UM 和商務用 Skype Server。
 
     > [!NOTE]
-    > ExchangeExchange 2019 不再提供整合通訊，但您仍然可以使用電話系統來錄製語音信箱訊息，然後在使用者的 Exchange 信箱中留下記錄。 如需詳細資訊，請參閱[Plan 雲端語音信箱 service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 。
+    > Exchange 2019 不再提供 Exchange 的整合通訊，但您仍然可以使用電話系統來錄製語音信箱訊息，然後在使用者的 Exchange 信箱中留下記錄。 如需詳細資訊，請參閱[Plan 雲端語音信箱 service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 。
     
 ### <a name="additional-deployment-options"></a>其他部署選項
 
@@ -130,7 +130,7 @@ ms.locfileid: "60832687"
     
     封存會儲存立即訊息交談和會議。
     
-- **Exchange封存整合**
+- **Exchange 封存整合**
     
     如果您有 Exchange 的使用者，且其信箱已放在 In-Place 保留狀態，您可以選擇將商務用 Skype Server 儲存區與 Exchange 儲存體整合的選項。
     

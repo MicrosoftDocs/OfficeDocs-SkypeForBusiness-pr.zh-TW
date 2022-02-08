@@ -1,8 +1,8 @@
 ---
 title: Edge Server FQDN 設定展開工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 description: 若要編輯或指定 Edge Server 的外部設定，您必須先決定是否要針對會話初始通訊協定使用個別的 IP 位址 (SIP) 存取、Web 會議 Edge service 及 Audio/Video Edge service。
-ms.openlocfilehash: 361a543f8a8f9d8e3d08d30156af65b7475ed6ac
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fedca0dada8bc0e53f200968f07da28fb5b3dda4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827656"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393835"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Edge Server FQDN 設定展開工具
 

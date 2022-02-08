@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中管理會議服務器配置設定
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 摘要：瞭解如何在商務用 Skype Server 中管理會議服務器設定設定。
-ms.openlocfilehash: 9e0b6cbd83ebebcb2f66d178ee8c69d42702a249
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1435c6bd69624d5097d0377ab920ac9fed577072
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841255"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393775"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議服務器配置設定
  
-**摘要：** 瞭解如何在商務用 Skype Server 中管理會議服務器配置設定。
+**總結：** 瞭解如何在商務用 Skype Server 中管理會議服務器配置設定。
   
 本主題說明如何管理會議配置設定。 如需如何規劃及部署會議的詳細資訊，請參閱[商務用 Skype Server 中的會議計畫](../../plan-your-deployment/conferencing/conferencing.md)商務用 Skype Server 中的[部署會議](../../deploy/deploy-conferencing/deploy-conferencing.md)。
   

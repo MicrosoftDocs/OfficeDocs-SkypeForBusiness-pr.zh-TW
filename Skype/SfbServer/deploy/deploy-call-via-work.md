@@ -1,8 +1,8 @@
 ---
 title: 從商務用 Skype Server 中的工作部署通話
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,16 +15,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 摘要：瞭解如何在部分或所有使用者的商務用 Skype Server 中，部署通話的功能。
-ms.openlocfilehash: 932d94c13d4ba9ead63504cfba66175db52084d7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7ac3d09d81e602c108e1804ad837dd1c87d17e1b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851617"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393415"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>從商務用 Skype Server 中的工作部署通話
  
-**摘要：** 瞭解如何在商務用 Skype Server 中為部分或所有使用者部署通話的功能。
+**總結：** 瞭解如何在商務用 Skype Server 中為部分或所有使用者部署通話的功能。
   
 使用下列步驟，為您的使用者部署「透過運作」的呼叫。 規劃[從商務用 Skype Server 中的工作進行通話](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)時，會討論規劃的考慮。 在舊版的 Lync Server 遠端呼叫控制中，有一個功能可讓使用者透過 Lync Server 控制其 PBX 電話。 在商務用 Skype Server 中，此功能已由「透過運作」的呼叫取代。 
   

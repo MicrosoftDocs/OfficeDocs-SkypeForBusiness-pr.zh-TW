@@ -1,8 +1,8 @@
 ---
 title: 中繼伺服器範圍節點
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[中繼集區] 節點會列出您拓撲中的中繼集區。您可以執行下列動作：'
-ms.openlocfilehash: 13b69e749d12501c12f4babb9f81255af5c1955f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9bd0bcf6b0e0fc09a28da97cd1481d0c0e512753
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844686"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394095"
 ---
 # <a name="mediation-servers-scope-node"></a>中繼伺服器範圍節點
  

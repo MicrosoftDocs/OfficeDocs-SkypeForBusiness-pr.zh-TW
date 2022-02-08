@@ -1,8 +1,8 @@
 ---
 title: 會議設定建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: 會議設定設定會為使用者排程的會議定義使用者加入體驗。 這些設定只適用于排程的會議。 在用戶端中按一下 [立即開會] 選項，不會套用至所建立的特定會議。
-ms.openlocfilehash: 6972bf701d2aa2f7bb01e92e7756eeee6cb1f3db
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3d21cfda6f908a0f512e4e49ae754fd9e63a07a4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829387"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393255"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>會議組態：建立新的或編輯現有組態
 
@@ -32,17 +32,17 @@ ms.locfileid: "60829387"
 
 - **範圍** 識別您要建立或修改之會議設定的範圍：全域、網站或集區。
 
-- **名稱** 會議設定預設會以名稱命名，無法變更其名稱。
+- **名字** 會議設定預設會以名稱命名，無法變更其名稱。
 
 - **PSTN 呼叫者略過大廳** 選取此核取方塊，可自動承認透過公用交換電話網路 (PSTN) 電話線的方式撥打參加會議的使用者。 清除此核取方塊可將 PSTN 來電者路由傳送到會議廳，直到會議簡報者授與會議的訪問權為止。
 
 - **指定為簡報者** 在會議召集人) 之外，選取使用者 (的類別，以在加入會議時自動將其指定為簡報者。 無論此設定為何，當會議排程時，簡報者都可以明確指定為簡報者，也可以在會議期間明確地將其提升為簡報者。 選項如下：
 
-  - **無** 如果不是召集人的任何人自動指定為簡報者，請選取此選項。
+  - **沒有** 如果不是召集人的任何人自動指定為簡報者，請選取此選項。
 
   - **公司** 選取此選項可自動將組織的成員指定為簡報者。
 
-  - **所有人** 選取此選項可自動將任何人指定為簡報者。
+  - **每個人 都** 選取此選項可自動將任何人指定為簡報者。
 
 - **依預設指派會議類型** 此設定會控制 Outlook 會議 Addin 是否一定要使用召集人指派的會議來排程會議，這表示排程的會議一定會有相同的加入 URL 和音訊資訊。 選取此核取方塊可讓已排程的會議永遠使用相同的 join URL。 清除此核取方塊可對每個會議使用不同的 join URL。
 
