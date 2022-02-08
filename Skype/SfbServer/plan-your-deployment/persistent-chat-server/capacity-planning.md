@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 2015 中規劃 Persistent Chat Server 的容量
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/23/2018
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 2015 中的持續性聊天伺服器容量規劃。
-ms.openlocfilehash: 4b84d06a7b6c7f20f26d22ed5718da9abf8108d9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 48df53528b31babe6419bc42ac303b810abdf197
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834059"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389995"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中規劃 Persistent Chat Server 的容量
  
-**摘要：** 閱讀此主題以瞭解商務用 Skype Server 2015 中的持續性聊天伺服器容量規劃。
+**總結：** 閱讀此主題以瞭解商務用 Skype Server 2015 中的持續性聊天伺服器容量規劃。
   
 Persistent Chat Server 可以執行可保留以供未來檢索及搜尋的多使用者即時聊天。 與群組立即訊息 (IM) 會儲存在使用者的信箱中如果已設定交談記錄，則 Persistent Chat Server 會話會保持開啟的狀態，而且內容會儲存在伺服器上，以及郵件、檔案、URLs 和其他屬於進行中交談的資料。
   

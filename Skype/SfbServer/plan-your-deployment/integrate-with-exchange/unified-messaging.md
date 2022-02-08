@@ -1,8 +1,8 @@
 ---
 title: 規劃商務用 Skype 中的 Exchange 整合通訊整合
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -14,23 +14,23 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 摘要：在規劃將商務用 Skype Server 與 Exchange 2013 或2016整合時，請參閱本主題。
-ms.openlocfilehash: 7fcd5ea6f573fe40aacabebb1d8b974b2bf1e264
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b48ff4582cf9ef218c7b28abb9c52245e40a5214
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850686"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389075"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>規劃商務用 Skype 中的 Exchange 整合通訊整合
 
-**摘要：** 在規劃將商務用 Skype Server 與 Exchange 2013 或2016整合時，請複習本主題。
+**總結：** 在規劃將商務用 Skype Server 與 Exchange 2013 或2016整合時，請複習本主題。
 
 商務用 Skype Server 支援與 Exchange 整合通訊 (UM) 整合，以將語音訊息與電子郵件訊息結合成單一郵件基礎結構。 在 Exchange 中，Exchange 整合通訊 (UM) 是您可以安裝及設定的數個 Exchange 伺服器角色之一。
 
 在 Microsoft Exchange Server 2013 和2016中，Exchange UM 在 Exchange 信箱伺服器上以服務方式執行。 針對商務用 Skype Server 企業語音部署，整合通訊會將語音訊息與電子郵件合併到單一存放區中，使用者可以從電話存取， (Outlook 語音存取) 或電腦。 整合通訊和商務用 Skype Server 搭配合作，為企業語音的使用者提供呼叫回應、Outlook 語音存取和自動語音應答服務。
 
 > [!NOTE]
-> Exchange當您將商務用 Skype 2019 與 Exchange 2013 或 Exchange 2016 整合時，UM 仍可用於商務用 Skype Server 2019。 因為 Exchange 2019 的支援變更，所以 Exchange UM 整合的目的是為了取代雲端語音信箱和雲端自動語音應答功能。  如需詳細資訊，請參閱[plan 雲端語音信箱 service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) and [plan 商務用 Skype Server and Exchange Server 遷移](../../../sfbhybrid/hybrid/plan-um-migration.md)。
+> 當您將商務用 Skype 2019 與 Exchange 2013 或 Exchange 2016 整合時，商務用 Skype Server 2019 仍可使用 Exchange UM。 因為 Exchange 2019 的支援變更，所以 Exchange UM 整合的目的是為了取代雲端語音信箱和雲端自動語音應答功能。  如需詳細資訊，請參閱[plan 雲端語音信箱 service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) and [plan 商務用 Skype Server and Exchange Server 遷移](../../../sfbhybrid/hybrid/plan-um-migration.md)。
 
 
 若要在內部部署 Exchange UM 部署中支援這些功能，您必須執行下列其中一項：
@@ -40,7 +40,7 @@ ms.locfileid: "60850686"
 - Microsoft Exchange Server 2016
 
 > [!NOTE]
-> Exchange商務用 Skype Server 2019 中不再提供「整合通訊」，其使用電話系統來錄製語音信箱訊息，然後在使用者的 Exchange 信箱中留下記錄。 如需詳細資訊，請參閱[Plan 雲端語音信箱 service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 。
+> 商務用 Skype Server 2019 中不再提供 Exchange 的整合通訊，其使用電話系統來錄製語音信箱訊息，然後在使用者的 Exchange 信箱中留下記錄。 如需詳細資訊，請參閱[Plan 雲端語音信箱 service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 。
 
 ## <a name="features-of-integrated-unified-messaging-and-skype-for-business-server"></a>整合整合通訊和商務用 Skype Server 的功能
 
@@ -57,13 +57,13 @@ ms.locfileid: "60850686"
 - **傳真服務** Exchange UM 包含傳真功能，可讓使用者在其 Exchange 信箱中接收傳入的傳真。 如需詳細資訊，請參閱 Microsoft Exchange Server 檔中的[整合通訊](/previous-versions/office/exchange-server-2007/bb123911(v=exchg.80))。
 
     > [!NOTE]
-    > Exchange UM server 所提供的傳真服務，無法在與 Microsoft Exchange Server 2010 整合的商務用 Skype Server 部署中使用，Exchange 2010 搭配最新的 service pack、Exchange 2013 或 Exchange2016。
+    > Exchange UM server 所提供的傳真服務無法在商務用 Skype Server 與 Microsoft Exchange Server 2010 整合的部署中使用，Exchange 2010 搭配最新的 service pack、Exchange 2013，或Exchange 2016。
 
 ## <a name="components-and-topologies-for-on-premises-unified-messaging-in-skype-for-business-server"></a>商務用 Skype Server 中內部部署整合通訊的元件和拓撲
 
 ### <a name="exchange-server-components"></a>Exchange Server 元件
 
-若要提供[整合整合通訊的功能和商務用 Skype Server](#features-of-integrated-unified-messaging-and-skype-for-business-server)中所述的 Exchange UM 功能和服務，以企業語音組織中的使用者，您必須部署 Microsoft Exchange 信箱伺服器和用戶端存取伺服器，該伺服器主控使用者信箱，並提供電子郵件及語音信箱的單一儲存位置。 ExchangeUM 會在 Exchange 信箱和用戶端存取伺服器上以服務的身分執行。
+若要提供[整合整合通訊的功能和商務用 Skype Server](#features-of-integrated-unified-messaging-and-skype-for-business-server)中所述的 Exchange UM 功能和服務，以企業語音組織中的使用者，您必須部署 Microsoft Exchange 信箱伺服器和用戶端存取伺服器，該伺服器主控使用者信箱，並提供電子郵件及語音信箱的單一存放位置。. Exchange UM 會在 Exchange 信箱和用戶端存取伺服器上以服務的身分執行。
 
 如需 Microsoft Exchange Server 2010 中 Exchange UM 元件的詳細資訊，請參閱[部署 On-Premises Exchange UM，以提供 Lync Server 2013 預覽語音信箱](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail)。
 
@@ -77,7 +77,7 @@ ms.locfileid: "60850686"
 
 - 單一網域 (亦即單一樹系搭配單一網域)。 商務用 Skype Server、Microsoft Exchange 和使用者都位於相同的網域中。
 
-- 多重網域 (亦即，一個根網域搭配一或多個子網域)。 商務用 Skype Server，而 Microsoft Exchange 伺服器則會從您建立使用者的網域部署在不同的網域中。 ExchangeUM 伺服器可以從其支援的商務用 Skype Server 集區部署在不同的網域中。
+- 多重網域 (亦即，一個根網域搭配一或多個子網域)。 商務用 Skype Server，而 Microsoft Exchange 伺服器則會從您建立使用者的網域部署在不同的網域中。 您可以從支援的商務用 Skype Server 集區，將 Exchange UM 伺服器部署在不同的網域。
 
 - 多重樹系 (亦即資源樹系)。 商務用 Skype Server 會部署在單一樹系中，然後將使用者散佈于多個樹系。 使用者的 Exchange UM 屬性必須複製到商務用 Skype Server 樹系。
 
@@ -89,7 +89,7 @@ ms.locfileid: "60850686"
 以下是部署企業語音時所需考慮的指導方針和最佳作法：
 
 > [!IMPORTANT]
-> Exchange只有在您同時使用 UCMA 4 時，整合通訊 (UM) 才會支援 IPv6。
+> 只有在您同時使用 UCMA 4 時，才 Exchange 的整合通訊 (UM) 才能支援 IPv6。
 
 - 部署商務用 Skype Server Standard Edition 伺服器或前端集區。
 
@@ -117,7 +117,7 @@ ms.locfileid: "60850686"
 
 **範例 1：Exchange UM 恢復能力**
 
-![ExchangeUM 恢復圖表。](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
+![Exchange UM 恢復性圖表。](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
 
 在範例 1 中，Tukwila 資料中心內的 Exchange UM 伺服器 1 和伺服器 2 均已啟用；Dublin 資料中心內的 Exchange UM 伺服器 3 和伺服器 4 均已啟用。 在 Tukwila 中發生 Exchange UM 中斷的情況時，網域名稱系統 (DNS) 伺服器1和2的記錄應該分別設定為指向 servers 3 和4。 在都柏林中 Exchange UM 中斷的情況下，伺服器3和4的 DNS A 記錄應該設定為分別指向 servers 1 和2。
 
@@ -126,7 +126,7 @@ ms.locfileid: "60850686"
 
 **範例 2：Exchange UM 恢復能力**
 
-![ExchangeUM 恢復圖表。](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
+![Exchange UM 恢復性圖表。](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
 
 在範例 2 中，於正常運作情況下，Tukwila 資料中心內的 Exchange UM 伺服器 1 和伺服器 2 均已啟用；Dublin 資料中心內的 Exchange UM 伺服器 3 和伺服器 4 均已啟用。這四部伺服器均包含在 Tukwila 使用者的 SIP URI 撥號對應表中，不過伺服器 3 和 4 均已停用。當 Tukwila 的 Exchange UM 伺服器發生如停止運作等的情況時，應停用 Exchange UM 伺服器 1 和 2 並啟用 Exchange UM 伺服器 3 和 4，以將 Tukwila Exchange UM 的流量路由傳送至 Dublin 的伺服器。
 
@@ -140,7 +140,7 @@ ms.locfileid: "60850686"
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 
-Exchange整合通訊在 Exchange 2019 中不再存在，如果您有 Exchange 2019，而且需要同等的功能，您將需要使用[方案雲端語音信箱服務](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)中所述的雲端語音信箱服務。
+Exchange 2019 中不再出現 Exchange 整合通訊，如果您有 Exchange 2019，而且想要使用相同的功能，您必須使用[計畫雲端語音信箱服務](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)中所述的雲端語音信箱服務。
 
 
 ## <a name="see-also"></a>另請參閱

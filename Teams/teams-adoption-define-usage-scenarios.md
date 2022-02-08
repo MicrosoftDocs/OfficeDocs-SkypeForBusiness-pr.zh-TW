@@ -1,7 +1,7 @@
 ---
 title: 定義適用于您的Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何選擇最適合您採用之實驗階段Teams案例。
+description: 瞭解如何選擇最適合您採用之實驗階段適用的使用Teams案例。
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55b25ab0367909da0136a7761b7e763965c5804d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e932ce57212b2efc88a0b26316b7d9668062045c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842555"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387461"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>定義適用于您的Microsoft Teams
 
@@ -55,7 +55,7 @@ ms.locfileid: "60842555"
 
 - 組織與通訊和共同合作相關的一些挑戰或痛點是什麼？
 - 貴組織希望改善哪些領域？
-- 組織可以支援哪些策略性計畫或Teams專案？
+- 組織可以支援哪些策略性計畫或目前的Teams專案？
 - 貴組織通常會比其他人更接受哪些通訊和共同合作方法？
 - 草擬、發佈及共用資訊的流程是什麼？
 
@@ -70,6 +70,6 @@ ms.locfileid: "60842555"
 ![顯示案例影響與難度的圖例。](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> 我們一直希望瞭解我們的客戶如何使用Teams創新方式使用產品。 在我們的駕駛#TeamsStories論壇中 [與我們分享您的建議](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)。 在 **文章#TeamsStories雜湊** 標記。 我們一直對貴組織使用Teams感興趣。
+> 我們一直希望瞭解我們的客戶如何使用Teams創新方式使用產品。 在我們的駕駛#TeamsStories論壇中與我們 [分享您的建議](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption)。 在 **文章#TeamsStories雜湊** 標記。 我們一直對貴組織使用Teams感興趣。
 
 ![代表下一個步驟的圖示。](media/teams-adoption-next-icon.png) 下一步[：加入早期採用者並收集意見。](teams-adoption-onboard-early-adopters.md)

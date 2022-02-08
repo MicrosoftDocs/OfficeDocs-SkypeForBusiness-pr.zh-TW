@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 的通話清單報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 摘要：瞭解商務用 Skype Server 中使用的通話清單報告。
-ms.openlocfilehash: d56374fa317f6c7b132a9d33dcf9fef966c55625
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 986e107c88210b8abedc44641ce2f13a1db315d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864840"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388161"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>商務用 Skype Server 的通話清單報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中使用的通話清單報告。
+**總結：** 深入瞭解商務用 Skype Server 中使用的通話清單報告。
   
 通話清單報告提供經驗品質 (QoE 在組織中撥打和接收的個別通話) 度量。 請注意，實際報告的衡量值將取決於您存取通話清單報告的方式。 例如，如果您[在商務用 Skype Server 中從設備報告](device-report.md)開啟報表，您將會看到下列度量值，也就是在裝置報表上報告的測量值：
   
@@ -35,7 +35,7 @@ ms.locfileid: "60864840"
     
 - 語音切換時間的比例 
     
-不過，如果您從[商務用 Skype Server 的位置報告](location-report.md)中開啟通話清單報告，您就不會看到任何度量。相反地，您會看到如下的計量：
+不過，如果您從[商務用 Skype Server 的位置報告](location-report.md)中開啟通話清單報告，您就不會看到任何這類度量，而是您會看到如下的計量：
   
 - 來回行程 (毫秒) 
     

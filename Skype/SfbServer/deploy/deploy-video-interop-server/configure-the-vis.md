@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中設定影片 Interop 伺服器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 摘要：在商務用 Skype Server 中設定 VIS) role 的視頻 Interop 伺服器 (。
-ms.openlocfilehash: 4148cf404fba4718f56c3c8db7ffe180881b3ae7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c6122e27f3b462a69a365259827a394b9b379012
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835811"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389615"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>在商務用 Skype Server 中設定影片 Interop 伺服器
  
-**摘要：** 在商務用 Skype Server 中設定 VIS) role 的「影片」 Interop 伺服器 (。
+**總結：** 在商務用 Skype Server 中設定 VIS) role 的「影片」 Interop 伺服器 (。
   
  使用 Windows PowerShell 設定 VIS 將與影片主幹關聯的設定。 安裝 VIS 服務後，就會建立具有全域範圍的影片主幹設定。 此影片主幹設定會由 VIS 套用至所有未具有較特定範圍的「影片主幹」設定的主幹。 請注意，「影片主幹」設定是適用于影片主幹的設定集合。
   

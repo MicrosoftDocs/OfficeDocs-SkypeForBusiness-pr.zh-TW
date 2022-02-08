@@ -1,8 +1,8 @@
 ---
 title: CQD 開發範例
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 摘要：檢查通話品質儀表板的教學課程和開發範例。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: 91e6f15f167000904626dc5a90d3766283396d7c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d078c6a2f3d5881dfad2d43742080c0aa83e8e9c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837505"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388081"
 ---
 # <a name="cqd-development-samples"></a>CQD 開發範例
 
-**摘要：** 回顧通話品質儀表板的教學課程和開發範例。 通話品質儀表板是商務用 Skype Server 的工具。
+**總結：** 回顧通話品質儀表板的教學課程和開發範例。 通話品質儀表板是商務用 Skype Server 的工具。
 
 本文提供在通話品質儀表板 (CQD) 上開發的教學課程和範例。
 
@@ -330,9 +330,9 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
 
 以下是從範例1所提供之範例的圖中，取得計分卡頁面的詳細步驟：
 
-1. 將 ' 查詢 ' 變數中的測量值  `[Measures].[Audio Good Streams JPDR Count]` 更新 `[Measures].[Audio Poor Streams JPDR Count]` 為 and to to `[Measures].[AudioPoorJPDRPercentage]` 。 
+1. 將 ' 查詢 ' 變數  `[Measures].[Audio Good Streams JPDR Count]` 中的測量值更新為 and `[Measures].[Audio Poor Streams JPDR Count]` to to `[Measures].[AudioPoorJPDRPercentage]` 。 
 
-2. 更新篩選。 範例1中的篩選器 JSON 資料有一個篩選，它是在維度上設定  `[StartDate].[Month]` 。 因為篩選器是一個 JSON 陣列，所以可以將其他維度新增至篩選清單。 例如，若要取得 "currentMonth" 的有線通話中的伺服器-用戶端，我們應該會有下列篩選：
+2. 更新篩選。 範例1中的篩選器 JSON 資料有一個篩選，它是在維度  `[StartDate].[Month]` 上設定。 因為篩選器是一個 JSON 陣列，所以可以將其他維度新增至篩選清單。 例如，若要取得 "currentMonth" 的有線通話中的伺服器-用戶端，我們應該會有下列篩選：
 
    ```javascript
    Filters: [
@@ -349,14 +349,14 @@ $($.fn.freeFormReport = function (queries, urlApi, presentation) {
    ],
    ```
 
-   `[Scenarios].[ScenarioPair]`將維度設定為相等 `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` 。 `[Scenario.][ScenarioPair]`是建立以簡化報表建立的特殊維度。 它具有對應的六個值 `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` 。 所以，請不要使用6個篩選的組合來定義案例，只需要使用1個篩選。 在我們的範例中，此值  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` 會轉譯為： first 為 server，第二個不是伺服器、第二個為內部、第二個內部的連線類型，而第二個連線類型是有線的，這是「伺服器-用戶端接線」的確切定義。
+   將維度  `[Scenarios].[ScenarioPair]` 設定為相等 `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` 。 `[Scenario.][ScenarioPair]`是建立以簡化報表建立的特殊維度。 它具有對應 `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` 的六個值。 所以，請不要使用6個篩選的組合來定義案例，只需要使用1個篩選。 在我們的範例中，此值  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` 會轉譯為： first 為 server，第二個不是伺服器、第二個為內部、第二個內部的連線類型，而第二個連線類型是有線的，這是「伺服器-用戶端接線」的確切定義。
 
 3. 針對每個案例建立一個篩選集合。 在 [計分卡] 中的每一列都代表不同的情況，當尺寸及量值保持相同) 時，這會是不同的篩選 (。 
 
 4. 分析 AJAX 呼叫的結果，並將其放在資料表的正確位置。 由於這大多是 HTML 並 JavaScript 操作，我們不會深入討論這裡的詳細資料。 相反地，程式碼會在附錄 A 中提供。
 
     > [!NOTE]
-    >  如果已啟用「跨原始資源分享 (CORS) ，使用者可能會遇到錯誤，例如「沒有」存取控制--控制項-允許」標頭存在於要求的資源上。 來源 ' null ' 因此不允許存取」。 若要解決此問題，請將 HTML 檔案放在安裝入口網站的資料夾底下 (預設會是 `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` 。 然後透過具有 URL 的任何瀏覽器存取 html  `http://<servername>/cqd/<html_file_name>` 。  (local CQD 儀表板的預設 URL  `http://<servername>/cqd.`)  
+    >  如果已啟用「跨原始資源分享 (CORS) ，使用者可能會遇到錯誤，例如「沒有」存取控制--控制項-允許」標頭存在於要求的資源上。 來源 ' null ' 因此不允許存取」。 若要解決此問題，請將 HTML 檔案放在安裝入口網站的資料夾底下 (預設會是 `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` 。 然後透過具有 URL  `http://<servername>/cqd/<html_file_name>` 的任何瀏覽器存取 html。  (local CQD 儀表板  `http://<servername>/cqd.` 的預設 URL)  
 
 ### <a name="appendix-a"></a>附錄 A
 

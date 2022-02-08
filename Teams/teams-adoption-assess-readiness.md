@@ -1,7 +1,7 @@
 ---
 title: 貴組織準備好Microsoft Teams？
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 105df2024ad67710b1de1e92208deeab6c7b9226
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd02e915ad6ced07afdf2f9dc9dbf29e8a68b69d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865622"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387481"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>貴組織準備好Microsoft Teams？
 
@@ -64,7 +64,7 @@ ms.locfileid: "60865622"
 - 願意與群組分享他們的觀察和學習
 - 是風險承擔者;也就是說，他們願意嘗試一些專案，看看是否有效
 
-在應用程式或Microsoft 365 Office 365，允許這些人員加入宣告您早期採用者計畫Teams。 視貴組織的大小和複雜度，您可以選擇為實驗階段啟用部分或所有這些人員。 在此程式中，他們同意積極參與您的實驗階段，並定期向專案小組提供意見回饋。 避免讓只想測試新技術的個人。 讓他們知道，提供這個主動的意見回饋，有助於打造您的專案成果。 您將在階段 2 - 實驗中使用此 [人員清單](teams-adoption-phase2-experiment.md)。
+在應用程式或Microsoft 365 Office 365，允許這些人員加入宣告您早期採用者計畫Teams。 視貴組織的大小和複雜度，您可以選擇為實驗階段啟用部分或所有這些人員。 在此程式中，他們同意積極參與您的實驗階段，並定期向專案小組提供意見回饋。 避免讓只想測試新技術的個人。 讓他們知道，提供這個主動的意見回饋，有助於打造您的專案成果。 您將在階段 2 - 實驗使用此 [人員清單](teams-adoption-phase2-experiment.md)。
 
 我們的早期採用者計劃指南是一項實用的資源，可于您的環境中啟動此計畫。  
  
@@ -72,13 +72,13 @@ ms.locfileid: "60865622"
 
 變更是一個與技術無關的人程式。 有行為心理和神經科學教育我們瞭解自然對變更的抗性。 若要讓變更可接受，請務必預測使用者的需求、表達您對於他們狀況的理解，以及建立能改善這種情況的解決方案。 即使這麼做，您也會遇到自然對變更的抵觸情緒。  
 
-![Graph對變更的抵觸情緒。](media/teams-adoption-resistance.png)
+![Graph，說明對變更的阻力。](media/teams-adoption-resistance.png)
 
-每個組織的方法都會根據地區、工作風格、專業設定檔，以及組織的其他元素而改變。 若要評估貴組織的準備狀態，請參閱 [評估組織變更準備狀態](upgrade-org-change-readiness.md)。 使用指導方針回答下列問題：
+每個組織的方法都會根據地區、工作風格、專業設定檔，以及組織的其他元素而改變。 若要評估貴組織的準備狀態，請參閱 [評估組織的變更準備狀態](upgrade-org-change-readiness.md)。 使用指導方針回答下列問題：
 
 1. 每個資料桶的使用者百分比如何？  (*變更抗)*
     - **早期採用者**：在提供解決方案之前先要求解決方案。
-    - **通知使用者**：一旦解決方案的價值得到驗證，請使用解決方案。
+    - **通知使用者**：一旦解決方案的價值得到驗證，即使用解決方案。
     - **異見者**：推回任何變更。
     
    > [!TIP]
@@ -92,7 +92,7 @@ ms.locfileid: "60865622"
     > [!TIP]
     > 根據能力和角色量身訂做訓練的類型和數量。 隨著新功能上線，持續更新訓練。
 
-3. 除了此服務部署之外，還有多少其他變更正在進行中？  (*適)* <br/>變更可能包括Office/Windows、辦公室移動、合併、重組等等。
+3. 除了此服務部署之外，還有多少其他變更正在進行中？  (*適性)* <br/>變更可能包括Office/Windows升級、辦公室移動、合併、重組等等。
     - 無
     - 1-3 個變更
     - 超過 3 個變更

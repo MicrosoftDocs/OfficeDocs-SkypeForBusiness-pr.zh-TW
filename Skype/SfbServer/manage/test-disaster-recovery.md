@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的災難修復測試
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 為商務用 Skype Server 集區伺服器執行系統復原，以測試已記錄的災難修復程式
-ms.openlocfilehash: 2d6fa097061b470814887f1e13eaf4748de6e4f3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 87b76e958ed35896921791406759e58ce2ee1635
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863500"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390105"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>商務用 Skype Server 中的災難修復測試
 

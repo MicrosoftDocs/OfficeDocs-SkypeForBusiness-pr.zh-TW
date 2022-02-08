@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype 中規劃宣告應用程式
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: 在商務用 Skype Server 企業語音中規劃宣告應用程式，以設定組織中未指派電話號碼的電話的處理方式。 包括音訊檔需求。
-ms.openlocfilehash: 6dc2317c170585c6688e04b191182cf7ae500b12
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c895575a88d49bc29a74e53fac1618991b042745
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838495"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387871"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>在商務用 Skype 中規劃宣告應用程式
 
@@ -39,7 +39,7 @@ ms.locfileid: "60838495"
 
 ### <a name="software-requirements"></a>軟體需求
 
-執行宣告應用程式的所有前端伺服器或 Standard Edition 伺服器都必須為執行 Windows Server 2012 或 Windows Server 2012 R2 的伺服器安裝 Windows 媒體格式執行時間 2008 Windows。 針對 Windows Server 2008 R2，Windows 媒體格式 Runtime 會安裝為 Windows 桌面體驗的一部分。 Windowsmedia Format Runtime 或 Microsoft Media Foundation 為 Windows 媒體音訊所需， ( 宣告應用程式針對宣告和音樂所播放的 wma) 檔案。
+執行宣告應用程式的所有前端伺服器或 Standard Edition 伺服器都必須為執行 Windows Server 2008 R2 的伺服器安裝 Windows 媒體格式執行時間，或為執行 Windows Server 2012 或 Windows Server 2012 的伺服器安裝 Microsoft Media Foundation R 2。 針對 Windows Server 2008 R2，Windows 媒體格式 Runtime 會安裝為 Windows 桌面體驗的一部分。 Windows 媒體格式執行時間或 Microsoft Media Foundation 是 Windows 媒體音訊， ( 宣告應用程式針對宣告和音樂所播放的 wma) 檔案。
 
 ### <a name="port-requirements"></a>連接埠需求
 

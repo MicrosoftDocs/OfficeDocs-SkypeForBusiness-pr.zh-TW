@@ -1,8 +1,8 @@
 ---
 title: 用戶端版本原則
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 description: 您可以指定環境中支援的用戶端版本。 當執行不同版本的兩個用戶端互動時，這兩個用戶端可用的功能會受限於彼此的功能。 若要充分運用商務用 Skype Server 2015 所包含的功能，並改善整體使用者體驗，您可以使用用戶端版本篩選器來限制環境中所用的用戶端版本。 使用用戶端版本篩選器還可幫助您降低支援多個用戶端版本的相關成本。
-ms.openlocfilehash: 89547442d432f25cc132a296328fe27f734be402
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 54b9ace15dec11618a6d331813c0d81773c4994a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846646"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389225"
 ---
 # <a name="client-version-policy"></a>用戶端版本原則
 
@@ -43,7 +43,7 @@ ms.locfileid: "60846646"
 
 下列清單說明頁面上的功能表、命令、欄位及內容。
 
-- **新** 您可以建立下列一或多個用戶端版本原則：
+- **新增功能** 您可以建立下列一或多個用戶端版本原則：
 
   - 網站原則
 
@@ -57,8 +57,8 @@ ms.locfileid: "60846646"
 
   - **全選** 此選項會選取清單中的所有用戶端版本原則。
 
-  - **Delete** 此選項會刪除所有選取的用戶端版本原則。
+  - **刪除** 此選項會刪除所有選取的用戶端版本原則。
 
-- **Refresh** 您可以重新整理用戶端版本原則清單，以確認所有用戶端版本原則的選項狀態。
+- **刷新** 您可以重新整理用戶端版本原則清單，以確認所有用戶端版本原則的選項狀態。
 
 如需用戶端和用戶端版本間互通性的詳細資訊，請參閱規劃文件中的＜[Client Interoperability in Lync 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013)＞。如需使用用戶端版本原則的詳細資訊，請參閱操作文件中的＜[Specify the Client Versions Supported in Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-specifying-the-client-applications-that-can-be-used-to-log-on-to-lync-server-2013)＞。

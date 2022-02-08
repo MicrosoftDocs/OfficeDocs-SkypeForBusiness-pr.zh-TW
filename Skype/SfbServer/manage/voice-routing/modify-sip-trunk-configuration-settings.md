@@ -1,8 +1,8 @@
 ---
-title: 商務用 SkypeServerModify SIP 主幹設定設定
+title: 商務用 Skype ServerModify SIP 主幹設定設定
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,14 +11,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'SIP 主幹設定設定定義了轉送伺服器和公用交換電話網路閘道、IP 公用分支 exchange (PBX) 或會話邊界控制器 (SBC) 的服務提供者之間的關聯性和功能。 '
-ms.openlocfilehash: 0f856c83d6f521308343b626addc0ab2c5e16792
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3f6d88dc1f15dafb2f5586fbc064699024a0308e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829927"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386601"
 ---
-# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>商務用 SkypeServerModify SIP 主幹設定設定
+# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>商務用 Skype ServerModify SIP 主幹設定設定
 
 SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交換電話網路 (PSTN) 閘道、IP 公用交換機 (PBX) 或工作階段邊界控制器 (SBC) 之間的關係和功能。這些設定將指定下列項目：
 
@@ -61,5 +61,5 @@ SIP 主幹組態設定用於定義中繼伺服器與服務提供者的公用交�
 2. 在 [主幹組態] 索引標籤上，連按兩下要修改的主幹組態設定。請注意，一次只能編輯一個集合的設定。如果要針對多個集合進行相同的變更，請改用 Windows PowerShell。
 3. 在 [ **編輯主幹** 設定] 對話方塊中，進行適當的選擇，然後按一下 **[確定]**。
 4. 集合的 [狀態] 屬性將會更新為 [未認可]。 若要認可變更，並刪除集合，請按一下 [ **認可**]，然後按一下 [ **全部認可**]。
-5. 在 [ **未認可的語音設定] 設定** 對話方塊中，按一下 **[確定**]。
+5. 在 [未認可的 **語音設定] 設定** 對話方塊中，按一下 **[確定**]。
 6. 在 [**商務用 Skype Server 控制台**] 對話方塊中，按一下 **[確定]**。

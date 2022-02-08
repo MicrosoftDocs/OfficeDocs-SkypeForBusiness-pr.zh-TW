@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 2015 壓力和效能工具的效能案例
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: 使用壓力和效能工具，將商務用 Skype Server 2015 設定為執行效能及負載測試所需的工作。
-ms.openlocfilehash: 0a04d94bc0c43b9de2043b9ee601a294b7945a45
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3f8818018120a7230bcdaaa9b6cd04009e761640
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841105"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390055"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>商務用 Skype Server 2015 壓力和效能工具的效能案例
  

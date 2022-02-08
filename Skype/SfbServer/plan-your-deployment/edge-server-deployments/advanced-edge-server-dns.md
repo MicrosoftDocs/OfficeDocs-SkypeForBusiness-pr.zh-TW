@@ -1,8 +1,8 @@
 ---
 title: 規劃商務用 Skype Server 的高級 Edge Server 部署
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 檢查商務用 Skype Server 部署選項的案例，您是否想要單一伺服器或慣用伺服器集區與 DNS 或 HLB。
-ms.openlocfilehash: 5fa829bf805529792abb408cd6716e2948dd69ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6d2b0e53e3b0b94f19cdac70399a0bb512822cb8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842766"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387981"
 ---
 # <a name="plan-advanced-edge-server-deployment-for-skype-for-business-server"></a>規劃商務用 Skype Server 的高級 Edge Server 部署
  
-**摘要：** 商務用 Skype Server 部署選項的評審案例。 不管您是想要單一伺服器或喜歡使用 DNS 或 HLB 的伺服器集區，本主題都應該有所説明。
+**總結：** 商務用 Skype Server 部署選項的評審案例。 不管您是想要單一伺服器或喜歡使用 DNS 或 HLB 的伺服器集區，本主題都應該有所説明。
   
  (DNS) 規劃商務用 Skype Server 的網域名稱系統時，可能會有許多因素可納入您的決策。 如果您的組織的域結構已存在，這可能是複查您要繼續的方式。 我們將從以下找到的主題開始：
   

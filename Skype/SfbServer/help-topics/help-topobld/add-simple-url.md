@@ -1,8 +1,8 @@
 ---
 title: 新增簡單 URL
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: 若要將其他簡單 URL 新增至部署的定義，請指定新簡單 URL 的 URL。
-ms.openlocfilehash: 7ce88a2d67dd672dbdd02a23d88e5693cc57c4a1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d5f542ec36d71c661d27af48498f983a0ccede1b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862580"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384581"
 ---
 # <a name="add-simple-url"></a>新增簡單 URL
  
-若要將其他簡單 URL 新增至部署的定義，請指定新簡單 URL 的 URL。 URL 的格式是 _HTTP:// \<simple URL type\> 。 \<domain name\>_ 或 _\<domain name\> / HTTP:// \<simple URL type\>_，其中的簡易 URL 類型為下列其中一項：
+若要將其他簡單 URL 新增至部署的定義，請指定新簡單 URL 的 URL。 URL 的格式是 _HTTP:// \<simple URL type\> 。 \<domain name\>_ 或 _HTTP:// \<domain name\> / \<simple URL type\>_，其中的簡易 URL 類型為下列其中一項：
   
 - 滿足
     

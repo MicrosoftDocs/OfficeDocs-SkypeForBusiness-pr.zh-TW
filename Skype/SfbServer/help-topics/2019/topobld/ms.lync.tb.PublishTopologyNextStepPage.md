@@ -1,8 +1,8 @@
 ---
 title: 發行拓撲下一個步驟
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在完成發行拓撲時，會顯示「發行精靈完成」頁面。
-ms.openlocfilehash: 561ae48101a4106ab22e39956d8dfc2ebff0a020
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d1a4649968c07ffe8ec1332ab63cd5ef8890c2db
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829287"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384911"
 ---
 # <a name="publish-topology-next-step"></a>發行拓撲下一個步驟
 

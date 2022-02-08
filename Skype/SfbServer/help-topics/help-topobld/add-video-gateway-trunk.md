@@ -1,8 +1,8 @@
 ---
 title: 新增視訊閘道主幹
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9485bea9-c646-4eb7-b3d0-dcbc57cdfbda
 description: 在拓撲產生器中定義新的 VIS 或視頻閘道所需的步驟，將在商務用 Skype Server 2015 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: f26b69fcf8e622979379bfcb8b80ce80cbdeb34e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2554ea41e6c1575f4c183dc59d6e4b9a928a5c33
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844386"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388371"
 ---
 # <a name="add-video-gateway-trunk"></a>新增視訊閘道主幹
  

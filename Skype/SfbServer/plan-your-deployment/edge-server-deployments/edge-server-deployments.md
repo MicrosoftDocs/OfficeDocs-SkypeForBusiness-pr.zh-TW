@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中規劃 Edge Server 部署
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: 摘要：規劃商務用 Skype Server Edge 環境。 本主題將向您介紹 Edge 概念，讓您瞭解更深入的主題。
-ms.openlocfilehash: ae6dd672e3da6568d41898a4bc2ae022b23ad3f3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 97b34ba69be5a7461c1ff1f1847c66898b5dface
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834111"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387931"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃 Edge Server 部署
  
-**摘要：** 規劃商務用 Skype Server Edge 環境。 本主題將向您介紹 Edge 概念，讓您瞭解更深入的主題。
+**總結：** 規劃商務用 Skype Server Edge 環境。 本主題將向您介紹 Edge 概念，讓您瞭解更深入的主題。
   
 當您有在內部運作的商務用 Skype Server 環境時，您可能需要將 edge Server 或 edge 集區引入環境。 如果您想讓商務用 Skype Server 所提供的服務供內部網路以外的人員使用，這個角色就很重要。 這些可能包括：
   

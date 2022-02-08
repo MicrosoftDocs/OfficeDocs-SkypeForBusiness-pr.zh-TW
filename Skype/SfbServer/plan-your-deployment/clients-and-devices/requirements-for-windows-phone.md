@@ -1,7 +1,7 @@
 ---
 title: Windows Phone 版商務用 Skype 的系統需求
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -17,19 +17,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
 description: 摘要：在規劃商務用 Skype Server 時，複查用戶端系統裝置需求。
-ms.openlocfilehash: 9c3f3658127a8d81c6fd1c9d4c55b42c0b539c23
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7e84724223cee1166d779a7085a048b0cf239a24
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835151"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386421"
 ---
 # <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Windows Phone 版商務用 Skype 的系統需求
  
  
 Microsoft Windows Phone 版商務用 Skype 為組織中從 smartphone 或 Windows Professional 行動裝置的使用者，提供立即訊息 (IM) 、增強型目前狀態和電話語音。 行動裝置可讓使用者擴充商務用 Skype 的範圍。 本主題說明 Windows Phone 版商務用 Skype 的規劃考慮，包括識別必要條件和技術需求、必要元件，以及部署指導方針。
   
-## <a name="skype-for-business-for-windows-phone-prerequisites"></a>Windows Phone 版商務用 Skype先決條件
+## <a name="skype-for-business-for-windows-phone-prerequisites"></a>Windows Phone 版商務用 Skype 必要條件
 
 以下是 Windows Phone 版商務用 Skype 必要條件。
   

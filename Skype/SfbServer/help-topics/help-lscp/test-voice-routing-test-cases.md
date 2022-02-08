@@ -1,8 +1,8 @@
 ---
 title: 測試語音路由測試案例
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 25a9f10fb940fcac440e0d6d41df54ab86454d0f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9296149485593cf7309f6bf528e152f88bd31e43
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833549"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388391"
 ---
 # <a name="test-voice-routing-test-cases"></a>測試語音路由：測試案例
 

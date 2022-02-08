@@ -1,7 +1,7 @@
 ---
 title: Teams政府政策套件
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -17,12 +17,12 @@ ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何使用及管理Teams組織的政策套件。
-ms.openlocfilehash: 02680b18d32e62a8a559ac6d2a30708e5aa05497
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 40804e4536be5f4263623c48ace2450dec92036a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749592"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384101"
 ---
 # <a name="teams-policy-packages-for-government"></a>Teams政府政策套件
 
@@ -53,7 +53,7 @@ Teams目前包含下列政府政策套件。
 
 每個個別原則都會被賦予原則套件的名稱，以便輕鬆識別連結至原則套件的原則。 例如，當您將公用安全人員政策套件指派給貴組織的使用者時，會針對套件中的每個PublicSafety_Officer建立名為 PublicSafety_Officer 的策略。
 
-![醫療保健診所工作人員套件中之政策之螢幕擷取畫面。](media/policy-packages-public-safety-officer.png)
+![醫療保健診所工作人員套件中之政策螢幕擷取畫面。](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>管理原則套件
 

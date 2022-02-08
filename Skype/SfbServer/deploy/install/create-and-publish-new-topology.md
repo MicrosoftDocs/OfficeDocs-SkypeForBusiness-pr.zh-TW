@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中建立及發行新的拓撲
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 摘要：瞭解如何在安裝商務用 Skype Server 之前建立、發佈和驗證新的拓撲。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: e224df12ddb680dcec86611f2bce65e377e76c04
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 099b367c1fa7f0b2f62c8274b68697de053ab205
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841865"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387251"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>在商務用 Skype Server 中建立及發行新的拓撲
  
-**摘要：** 瞭解如何在安裝商務用 Skype Server 之前建立、發佈和驗證新的拓撲。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 。
+**總結：** 瞭解如何在安裝商務用 Skype Server 之前建立、發佈和驗證新的拓撲。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 。
   
 在拓撲中的每一部伺服器上安裝商務用 Skype Server 系統之前，您必須先建立拓撲並加以發佈。 發行拓撲時，會將拓撲資訊載入至中央管理存放區資料庫。 如果這是 Enterprise Edition 集區，則在第一次發行新的拓撲時，您會建立中央管理存放區資料庫。 如果這是 Standard Edition，您必須先從部署嚮導執行第一 Standard Edition 伺服器處理常式，再發佈拓撲。 這為 Standard Edition 準備安裝 SQL Server Express Edition 實例和建立中央管理存放區。 您可以依任何循序執行步驟1到5。 不過，您必須依序執行步驟6、7和8，並在步驟1到5之後進行，如圖表中所述。 若要建立及發行新的拓撲，請參閱步驟6之8。
   
@@ -121,7 +121,7 @@ ms.locfileid: "60841865"
    - 若要使用 SQL 鏡像，請選取 [**啟用 SQL 鏡像**]，然後選取現有的實例，或是建立新的實例。
 
      > [!NOTE]
-     > SQL鏡像可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) 及 SQL 容錯移轉叢集方法，都是商務用 Skype Server 2019 的首選。
+     > SQL 鏡像可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) 及 SQL 容錯移轉叢集方法，都是商務用 Skype Server 2019 的首選。
     
      在此範例中，我們輸入 **SQL Server FQDN**，並設定任何相關的高可用性設定，然後按一下 **[確定]**，如圖所示。
     
@@ -145,20 +145,20 @@ ms.locfileid: "60841865"
     在本主題的 [DNS] 區段中，我們為建立 A 記錄 `webint.contoso.local` 。 這是我們用於 web 服務 HTTP/S 流量的 URL，且必須透過我們所設定的支援軟體負載平衡器進行設定。 因此，在此範例中，我們會覆寫 URL，讓商務用 Skype Server 知道所有 HTTP/S 流量應該會移到 `webint.contoso.local` ，而不是 `pool.contoso.local` ，如圖所示。 如需負載平衡的詳細資訊，請參閱[商務用 Skype 的負載平衡需求](../../plan-your-deployment/network-requirements/load-balancing.md)。
     
     > [!IMPORTANT]
-    > 基底 URL 是 URL 的 Web 服務識別身分，去除 https://。 例如，如果集區的 Web 服務完整 URL 為 `https://webint.contoso.local` ，則基底 url 是 `webint.contoso.local` 。 
+    > 基底 URL 是 URL 的 Web 服務識別身分，去除 https://。 例如，如果集 `https://webint.contoso.local` 區的 Web 服務完整 URL 為，則基底 url 是 `webint.contoso.local` 。 
   
     - 若要設定 DNS 負載平衡，請在此範例中，選取 [覆 **寫內部 Web 服務集區 FQDN** ] 核取方塊，並輸入內部基礎 url (，該 url 必須與 **內部基礎 url** 中的集區 FQDN) 不同。 
     
     > [!CAUTION]
     > 如果您決定使用自行定義的 FQDN 來覆寫內部 Web 服務，則每個 FQDN 必須與其他任何前端集區、Director 或 Director 集區是唯一的。 在您定義 URLs 或完全限定功能變數名稱時，**只能使用標準字元** (包括 A-Z、a-z、0-9 和連字號) 。 請勿使用 Unicode 字元或底線。 URL 或 FQDN 中通常不支援 URL 或 FQDN (Ca)  (也就是說，當 URL 或 FQDN 必須指派給憑證) 中的主體名稱或主體替代名稱時，也是不支援的。
   
-    - （選用）在 [ **外部基礎 url**] 中輸入外部基底 url。 您可以輸入外部基底 URL，使其有別于您的內部功能變數名稱。 例如，您的內部網域是 `contoso.local` ，但您的外部功能變數名稱為 `contoso.com` 。 您可以使用功能變數名稱定義 URL， `contoso.com` 因為它必須能夠從公用 DNS 解析。 在反向 Proxy 的情況中，這種作法也很重要。 外部基底 URL 功能變數名稱會與反向 proxy 的 FQDN 功能變數名稱相同。 在行動用戶端上進行立即訊息與顯示狀態時，需要有 HTTP 存取前端集區。
+    - （選用）在 [ **外部基礎 url**] 中輸入外部基底 url。 您可以輸入外部基底 URL，使其有別于您的內部功能變數名稱。 例如，您的內部網域是 `contoso.local` ，但您的外部功能變數名稱為 `contoso.com` 。 您可以使用 `contoso.com` 功能變數名稱定義 URL，因為它必須能夠從公用 DNS 解析。 在反向 Proxy 的情況中，這種作法也很重要。 外部基底 URL 功能變數名稱會與反向 proxy 的 FQDN 功能變數名稱相同。 在行動用戶端上進行立即訊息與顯示狀態時，需要有 HTTP 存取前端集區。
     
       ![覆寫 web 服務。](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
 11. 如果您在 [**選取功能**] 頁面上選取 [**會議**]，系統會要求您選取 Office Web Apps server。 按一下 [ **新增** ] 以啟動對話方塊。
     
-12. 在 [**定義新的 Office Web apps server** ] 對話方塊的 [ **Office Web apps server FQDN** ] 方塊中，輸入 Office Web apps server 的 FQDN;當您執行此動作時，您的 Office web apps server 探索 url 應該會自動輸入 **Office Web apps server 探索 url** ] 方塊中。
+12. 在 [**定義新的 Office Web apps server** ] 對話方塊中，于 [ **Office Web apps server FQDN** ] 方塊中輸入 Office Web apps server 的 FQDN; 當您執行此動作時，您的 Office web apps server 探索 url 應會自動輸入至 [ **Office Web apps server 探索 url** ] 方塊中。
     
     如果 Office web apps server 安裝在內部部署上，而且在與商務用 Skype Server 相同的網路區域中，請不要選取此選項 **Office Web Apps server 部署在外部網路 (，也就是周邊/網際網路)**。
     
@@ -174,7 +174,7 @@ ms.locfileid: "60841865"
   
 2. 在 [**簡易 URLs** ] 窗格中，選取 [**電話 access URLs：** (撥入) 或 [**會議 URLs：** (符合) 進行編輯，然後按一下 [**編輯 URL**]。
     
-3. 將 URL 更新為想要的值，然後按一下 **[確定]** 儲存編輯的 URL。 您應該使用外部 SIP 網域來設定簡單 URL，讓外部使用者可以加入會議，例如，外部使用者可以加入會議，而 `contoso.com` `contoso.local` 非內部網域。 因此，SIP 網域應該可以由外部 DNS 來解析。
+3. 將 URL 更新為想要的值，然後按一下 **[確定]** 儲存編輯的 URL。 您應該使用外部 SIP 網域來設定簡單 URL，讓外部使用者可以加入會議，例如 `contoso.com` ，外部 `contoso.local` 使用者可以加入會議，而非內部網域。 因此，SIP 網域應該可以由外部 DNS 來解析。
     
 4. 必要時，使用相同步驟編輯 Meet URL。
     
@@ -188,7 +188,7 @@ ms.locfileid: "60841865"
     > 建議您盡可能使用最簡單的 URL 作為 Admin URL。 最簡單的選項是 https://admin ... _\<domain\>_ 系統管理員 URL 可以是內部或外部網域，例如， `contoso.local` 或者 `contoso.com` ，只要任一記錄在內部 DNS 中是可解析的。 
   
     > [!IMPORTANT]
-    > 如果您在初始部署之後變更簡單 URL，則必須留意有哪些變更會影響簡單 URL 的網域名稱系統 (DNS) 記錄和憑證。 如果變更會影響簡單 URL 的基底，您也必須變更 DNS 記錄和憑證。 例如，從 `https://sfb.contoso.com/Meet` `https://meet.contoso.com` sfb 變更為變更基底 URL。`contoso.com` `meet.contoso.com`，所以您需要變更要參考的 DNS 記錄和憑證 `meet.contoso.com` 。 如果您已將簡易 URL 從 [變更 `https://sfb.contoso.com/Meet` 為] `https://sfb.contoso.com/Meetings` ，則基底 url `sfb.contoso.com` 保持不變，因此不需要任何 DNS 或憑證變更。 不過，每當您變更簡易 URL 名稱時，您必須在每個 Director 和前端伺服器上執行 **Enable-CsComputer** Cmdlet，以登錄變更。
+    > 如果您在初始部署之後變更簡單 URL，則必須留意有哪些變更會影響簡單 URL 的網域名稱系統 (DNS) 記錄和憑證。 如果變更會影響簡單 URL 的基底，您也必須變更 DNS 記錄和憑證。 例如，從 `https://sfb.contoso.com/Meet` sfb 變更為 `https://meet.contoso.com` 變更基底 URL。`contoso.com` `meet.contoso.com`，所以您需要變更要參考 `meet.contoso.com` 的 DNS 記錄和憑證。 如果您已將簡易 URL 從 `https://sfb.contoso.com/Meet` [變更為 `https://sfb.contoso.com/Meetings` ]，則基底 url `sfb.contoso.com` 保持不變，因此不需要任何 DNS 或憑證變更。 不過，每當您變更簡易 URL 名稱時，您必須在每個 Director 和前端伺服器上執行 **Enable-CsComputer** Cmdlet，以登錄變更。
   
 ### <a name="publish-and-verify-the-topology"></a>發佈和驗證拓撲
 

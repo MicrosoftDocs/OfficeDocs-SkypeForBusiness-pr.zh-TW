@@ -1,8 +1,8 @@
 ---
 title: 啟用或停用商務用 Skype Server 中的封存
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: 摘要：瞭解如何啟用或停用商務用 Skype Server 中的封存。
-ms.openlocfilehash: c2aff3706505e8977080c92259f7d73a5c2b2b17
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3ed4fd18f6d130bbfa5211b142cc1804c489f37c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839955"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388181"
 ---
 # <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>啟用或停用商務用 Skype Server 中的封存
 
-**摘要：** 瞭解如何啟用或停用商務用 Skype Server 中的封存。
+**總結：** 瞭解如何啟用或停用商務用 Skype Server 中的封存。
   
 ## <a name="enable-or-disable-archiving-by-using-the-control-panel"></a>使用控制台啟用或停用封存
 

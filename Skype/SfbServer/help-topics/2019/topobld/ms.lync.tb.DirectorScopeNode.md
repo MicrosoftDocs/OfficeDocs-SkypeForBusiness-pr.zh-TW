@@ -1,8 +1,8 @@
 ---
 title: Director 範圍節點
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此節點會顯示此 Director 集區的完整網域名稱 (FQDN)、連接埠及關聯的檔案存放區。您可以執行下列動作：
-ms.openlocfilehash: d5f2f9e8883157b77faa7c01ef109d0499202eaf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 332bcb8583fb511ca22370ba3755f49c5c8dbd26
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846786"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390455"
 ---
 # <a name="director-scope-node"></a>Director 範圍節點
  

@@ -1,7 +1,7 @@
 ---
 title: 使用 PowerShell 設定即時活動政策
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -14,20 +14,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: 如何使用 PowerShell 在 Teams中設定策略的範例，以控制哪些人可以舉辦貴組織的即時活動，以及活動提供的功能。
+description: 如何使用 PowerShell 在 Teams 中設定策略的範例，以控制哪些人可以舉辦貴組織的即時活動，以及活動提供的功能。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cda9da872d8464064c137713e8eb16ceede7941e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8a834cfd85cdf9f4839b9351b16c1a2e1ca43e9c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851727"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387421"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>使用 PowerShell 在 Microsoft Teams
 
-您可以使用下列 Cmdlet Windows PowerShell，為即時活動在 Teams： 
+您可以使用下列 Cmdlet Windows PowerShell，為即時活動在 Teams 中設定和指派Teams： 
 - [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
@@ -37,7 +37,7 @@ ms.locfileid: "60851727"
 以下是一些範例。
 
 > [!NOTE]
-> 執行這些 Cmdlet 之前，您必須連線至 商務用 Skype PowerShell。 詳細資訊，請參閱使用[powerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)或 商務用 Skype 管理 Microsoft 365 Office 365 Online 。
+> 執行這些 Cmdlet 之前，您必須連線至 商務用 Skype PowerShell。 詳細資訊請參閱使用[powerShell 或 商務用 Skype管理 Microsoft 365 Office 365 Online](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 ## <a name="allow-users-to-schedule-live-events"></a>允許使用者排程即時活動 
 
@@ -46,7 +46,7 @@ ms.locfileid: "60851727"
 
 **允許使用者排程即時活動**
 
-如果使用者已指派全域原則，請執行並驗證 *AllowBroadcast 排程* 參數設為 *True：*
+如果使用者已指派全域原則，請執行並驗證 *AllowBroadcast 排程* 參數設為 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
@@ -58,11 +58,11 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ### <a name="user-scenarios"></a>使用者案例
 **您希望貴組織中所有使用者都能排程即時活動**
 
-如果使用者已指派全域原則，請執行並驗證 *AllowBroadcastScheduling* *已設為 *True：*
+如果使用者已指派全域原則，請執行並確認 *AllowBroadcastScheduling* *已設為 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-如果使用者被指派全域原則外的其他策略，請執行並驗證 *-AllowBroadcast 排程* 設定為 *True：*
+如果使用者被指派全域原則外的其他策略，請執行並驗證 *-AllowBroadcast 排程* 設定為 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
@@ -79,7 +79,7 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 **您希望大量使用者能夠排程即時事件，並防止一組使用者排程活動**
 
-執行並驗證 *AllowBroadcast 排程* 設定為 *True：*
+執行並驗證 *AllowBroadcast 排程* 設定為 *True*：
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```

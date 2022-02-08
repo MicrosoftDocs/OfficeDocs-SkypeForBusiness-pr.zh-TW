@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Server 2015 的桌面用戶端功能比較
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 摘要：商務用 Skype Server 2015 或商務用 Skype Online 系統管理員可以使用這些表格，以瞭解哪些用戶端支援哪些功能。
-ms.openlocfilehash: 6b9aa102e7bde4a991295694b0a0d9d92985dbee
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1b855cca4830473cd0cb9c4198784cec93868fc7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841095"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388031"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的桌面用戶端功能比較
 
@@ -30,7 +30,7 @@ ms.locfileid: "60841095"
   
  在您部署或升級至商務用 Skype 之前，請檢查您的組織中已使用的用戶端。 使用下表來瞭解對這些用戶端的功能支援影響。 這可協助您向使用者傳達變更、節奏向外延展程式，以及充分瞭解升級為最新用戶端的益處。
   
-在線上商務用 Skype 中無法使用商務用 Skype Server 2015 的某些功能，請參閱詳細資訊的[線上或混合使用者帳戶限制](desktop-feature-comparison.md#Online-Hybrid)。 商務用 Skype線上系統管理員可能會想要參考[商務用 Skype 線上服務說明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)，以瞭解可用之不同方案的詳細資訊。
+在線上商務用 Skype 中無法使用商務用 Skype Server 2015 的某些功能，請參閱詳細資訊的[線上或混合使用者帳戶限制](desktop-feature-comparison.md#Online-Hybrid)。 商務用 Skype online 系統管理員可能會想要參考[商務用 Skype 線上服務說明](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)，以瞭解可用之不同方案的詳細資訊。
 
 請參閱[商務用 Skype 2019 的桌面用戶端功能比較](../../../SfBServer2019/plan/feature-comparison.md)，以取得商務用 Skype Server 2019 上的用戶端支援。
   
@@ -165,7 +165,7 @@ ms.locfileid: "60841095"
 此表格涵蓋語音服務支援相關的功能。
   
 > [!NOTE]
-> 商務用 Skype語音 (電話語音) 功能限制在某些商務用 Skype 線上訂閱計畫中。 如需詳細資訊，請參閱[商務用 Skype 線上服務描述](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。
+> 商務用 Skype 語音 (電話語音) 功能限制在特定商務用 Skype 線上訂閱計畫中。 如需詳細資訊，請參閱[商務用 Skype 線上服務描述](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)。
   
 | 功能/功能 | 商務用 Skype 2015 或2016用戶端 | Mac 版商務用 Skype | Lync 2013 用戶端 | Lync Windows Store 應用程式 | Lync 2010 | Lync 2010 Attendant | Lync Phone Edition | Mac 2011 的 Communicator | Lync for Mac 2011 |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|

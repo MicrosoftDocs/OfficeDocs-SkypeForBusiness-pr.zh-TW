@@ -1,8 +1,8 @@
 ---
 title: 由商務用 Skype Server 2015 中的集中式記錄服務所建立的搜尋捕獲記錄檔
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中搜尋及讀取集中式記錄服務捕獲記錄檔。
-ms.openlocfilehash: a65fac6ffc96088cd1e544ed17914128d040e2b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2168bdc0a72df6efe4bf9d9f178a2ee9c120aa6a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831917"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385557"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>由商務用 Skype Server 2015 中的集中式記錄服務所建立的搜尋捕獲記錄檔
  
-**摘要：** 瞭解如何在2015商務用 Skype Server 中搜尋及讀取集中式記錄服務捕獲記錄檔。
+**總結：** 瞭解如何在2015商務用 Skype Server 中搜尋及讀取集中式記錄服務捕獲記錄檔。
   
 集中式記錄服務中的搜尋功能非常有用，而且很強大，原因如下： 
   
@@ -180,7 +180,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 在您執行搜尋後，您就可以充分利用集中式記錄服務，您可以用來追蹤已報告問題的檔案。 您可以使用許多方式來讀取檔案。 輸出檔是標準的文字格式，您可以使用 Notepad.exe 或任何其他可讓您開啟及讀取文字檔的程式。 針對較大的檔案和更複雜的問題，您可以使用類似 Snooper.exe 的工具，以用於讀取及分析集中式記錄服務的記錄輸出。 Snooper 包含可供個別下載之調試工具。 您可以在以下位置下載調試工具： [https://go.microsoft.com/fwlink/?LinkId=285257](https://go.microsoft.com/fwlink/?LinkId=285257) 。 當您安裝調試工具時，不會建立簡短的剪下及功能表項目目。 安裝調試工具之後，請開啟 Windows Explorer、命令列視窗或商務用 Skype Server 管理命令介面，然後移至 (預設位置) 的目錄預設位置，C:\Program 2015 \ 調試工具。 在 [Snooper.exe] 或 [輸入 Snooper.exe] 中按兩下，如果使用命令列或商務用 Skype Server 管理命令介面，請按 enter。
   
 > [!IMPORTANT]
-> 本主題的目的不是詳細討論和討論疑難排解技術。 疑難排解及其周圍的程式是複雜的主體。 如需疑難排解基本及疑難排解特定工作負載的詳細資訊，請參閱《 Microsoft Lync Server 2010 Resource 工具組手冊》 [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) 。 程式和程式仍適用于商務用 Skype Server 2015。 
+> 本主題的目的不是詳細討論和討論疑難排解技術。 疑難排解及其周圍的程式是複雜的主體。 如需疑難排解基本及疑難排解特定工作負載的詳細資訊，請參閱《 Microsoft Lync Server 2010 Resource 工具組手冊 [https://go.microsoft.com/fwlink/p/?linkId=211003](https://go.microsoft.com/fwlink/p/?linkId=211003) 》。 程式和程式仍適用于商務用 Skype Server 2015。 
   
 ### <a name="to-open-a-log-file-in-snooper"></a>若要在 Snooper 中開啟記錄檔
 

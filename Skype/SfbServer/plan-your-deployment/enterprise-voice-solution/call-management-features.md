@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype 中規劃通話管理功能
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: 商務用 Skype Server 企業語音中支援的呼叫管理功能的概覽。
-ms.openlocfilehash: 459ec4558e39f01c87679227face57232f08ce41
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b1c149b70532ba673f28dae84c97fcf16353fe31
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846326"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387761"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>在商務用 Skype 中規劃通話管理功能
 

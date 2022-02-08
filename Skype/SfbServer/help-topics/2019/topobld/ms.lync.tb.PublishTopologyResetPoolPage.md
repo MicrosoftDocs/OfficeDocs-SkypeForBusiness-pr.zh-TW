@@ -1,8 +1,8 @@
 ---
 title: 發行拓撲重設集區頁面
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 這是初步檔，而且可能會變更。 空白主題會以預留位置形式包含。
-ms.openlocfilehash: b3fa8e43f359758103ae2732de6fa3c27ae37f4e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 479eb295f890ed2aba07274d16f95559d96a6522
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858460"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384901"
 ---
 # <a name="publish-topology-reset-pool-page"></a>發行拓撲重設集區頁面
  

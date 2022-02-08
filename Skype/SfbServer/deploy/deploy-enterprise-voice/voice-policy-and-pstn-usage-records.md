@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype 中建立或修改語音原則及設定 PSTN 使用方式記錄
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 摘要：使用商務用 Skype Server 控制台建立或修改語音原則，以及設定 PSTN 使用方式記錄。
-ms.openlocfilehash: 5dedb504a6d2d3e75b168bf32ff1f0ccb7ed94f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 988ce046e3ef5dbbf9020deeb79665b7fda3f9b2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828376"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386281"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>在商務用 Skype 中建立或修改語音原則及設定 PSTN 使用方式記錄
 
-**摘要：** 使用商務用 Skype Server 控制台，建立或修改語音原則，以及設定 PSTN 使用方式記錄。
+**總結：** 使用商務用 Skype Server 控制台，建立或修改語音原則，以及設定 PSTN 使用方式記錄。
 
 > [!NOTE]
 > 每個語音原則都必須至少有一個相關聯的公用交換電話網路 (PSTN) 使用方式記錄。 若要查看您的企業語音部署中可用的所有 PSTN 使用方式記錄清單，並查看其屬性，請參閱[在商務用 Skype 中查看 PSTN 使用方式記錄](view-pstn-usage-records.md)。

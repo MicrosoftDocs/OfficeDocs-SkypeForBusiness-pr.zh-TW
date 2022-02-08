@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中設定 PIN 較少的會議加入
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 摘要：瞭解如何在商務用 Skype Server 中設定 PIN 不足的會議加入選項。
-ms.openlocfilehash: 13af671edaa9ab8853e0390d43c62b6576bed4e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 82101f391b4b0713495eade53e092fefff8a053e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861360"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385711"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>在商務用 Skype Server 中設定 PIN 較少的會議加入
  
-**摘要：** 瞭解如何在商務用 Skype Server 中設定 PIN 不足的會議加入選項。
+**總結：** 瞭解如何在商務用 Skype Server 中設定 PIN 不足的會議加入選項。
   
 當撥入來電者嘗試加入會議時，會議自動語音應答 (CAA) 服務會將來電者放在不同于會議廳的保留觸筆中 &#x2014; 如果簡報者尚未在來電中，且撥入來電者未進入領導者 PIN 碼。 PIN 不足的會議加入選項允許撥入來電者加入會議，而不輸入引線 PIN 碼，即使他們是呼叫的第一位 PIN。 
   

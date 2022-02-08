@@ -1,7 +1,7 @@
 ---
 title: 團隊到期與續約Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -11,25 +11,25 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 瞭解團隊到期與續約，以及如何使用群組Microsoft 365，以自動清理在 Microsoft Teams 中未使用的Microsoft Teams。
+description: 瞭解團隊到期與續約，以及如何Microsoft 365組到期政策，以在 Microsoft Teams 中自動清理未使用的Microsoft Teams。
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 543678baf7604b4c7ea80a4c913ba8713ed841b2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bbb9e774648a7fc3c73744e8e32a69a1beeb9591
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828436"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387611"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>團隊到期與續約Microsoft Teams
 
 擁有大量團隊的組織通常擁有從未實際使用的團隊。 發生此情況的原因有幾個，包括產品試驗、短期小組共同合作，或團隊擁有者離開組織。 隨著時間的過去，這類團隊可能會累積並給租使用者資源造成負擔。  
 
-若要限制未使用的團隊數目，您可以以系統管理員Microsoft 365[組到期](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)政策，自動清理未使用的團隊。 由於團隊是由群組所支援，因此群組到期原則也會自動適用于團隊。
+若要限制未使用的團隊數目，您可以以系統管理員Microsoft 365[組到期](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy)政策來自動清理未使用的團隊。 由於團隊是由群組所支援，因此群組到期原則也會自動適用于團隊。
 
-當您將到期原則適用于團隊時，團隊擁有者會于團隊到期日前 30 天、15 天和 1 天收到小組續約的通知。 當團隊擁有者收到通知時，他們可以按一下 **[在** 小組設定中立即續約以續約團隊。
+當您將到期原則適用于團隊時，團隊擁有者會于團隊到期日前 30 天、15 天和 1 天收到小組續約的通知。 當團隊擁有者收到通知時，他們可以 **按一下 [在** 小組設定中立即續約以續約團隊。
 
 ![在小組設定中更新團隊的立即續約按鈕的螢幕擷取畫面。](media/team-expiration.png "在小組設定中更新團隊的立即續約按鈕螢幕擷取畫面")
 

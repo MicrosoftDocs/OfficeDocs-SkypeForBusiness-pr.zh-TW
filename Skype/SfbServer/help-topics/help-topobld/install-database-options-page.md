@@ -1,8 +1,8 @@
 ---
 title: 安裝資料庫選項頁面
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 description: 您可以設定在 SQL Server 上放置資料庫及記錄檔的高級選項。 可用選項包括：
-ms.openlocfilehash: 15b5d0caa859a6622f5b91644fb18117a1b2f8c5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2d62ab7d8662b2f3e0ad2a46c303bd8d097d9a4d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857590"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388211"
 ---
 # <a name="install-database-options-page"></a>安裝資料庫選項頁面
 

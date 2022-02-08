@@ -1,7 +1,7 @@
 ---
 title: 即時活動錄製政策
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: 瞭解即時活動錄製政策。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 80489f699004ed7dbcb8d7493c32a7bc26e3e25e
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: 3725abe49c72251b8672fb5851177586be8bf871
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257341"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386361"
 ---
 # <a name="live-event-recording-policies-in-microsoft-teams"></a>即時活動錄製Microsoft Teams
 
@@ -69,4 +69,4 @@ ms.locfileid: "61257341"
 - [什麼是 Teams 即時活動？](what-are-teams-live-events.md)
 - [Teams 即時活動的規劃](plan-for-teams-live-events.md)
 - [在 Teams 中設定即時活動設定](configure-teams-live-events.md)
-- [Teams雲會議錄製](../cloud-recording.md)
+- [Teams雲端會議錄製](../cloud-recording.md)

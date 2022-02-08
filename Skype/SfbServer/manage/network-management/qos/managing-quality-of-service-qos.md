@@ -5,8 +5,8 @@ ms:assetid: ab1051c3-8380-4d72-86df-37a61b1e4a41
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg405409(v=OCS.15)
 ms:contentKeyID: 48185049
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 服務品質 (QoS) 是某些組織所用的網路技術，可協助提供最佳的音訊和視頻通訊使用者體驗。
-ms.openlocfilehash: aa7012a664c7075c06a6bd104921e1cac680e798
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 043d29eea849ffbd534199a6622b35e2322f7044
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831977"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390115"
 ---
 # <a name="managing-quality-of-service-qos-in-skype-for-business-server"></a>在商務用 Skype Server 中管理服務品質 (QoS) 
 
@@ -31,7 +31,7 @@ ms.locfileid: "60831977"
 > [!NOTE]  
 > 一般來說，服務品質只適用于內部網路上的通訊會話。 當您執行 QoS 時，會設定您的伺服器和路由器以支援封包標記;不過，您可以設定這些裝置以特定方式支援封包標記。 您無法假定在網際網路或其他網路上都支援服務品質。 即使其他網路上支援品質的服務，也無法保證 QoS 會以您在網路上設定服務的相同方式來設定。
 
-商務用 Skype Server 不需要服務品質;如果您目前未使用 QoS 您不需要在安裝商務用 Skype Server 之前安裝服務。 如果您的網路上有大量的封包遺失，建議的方法是緩解此問題，以增加額外的頻寬。 如果無法新增更多的頻寬，您可能想要改為執行服務品質。
+商務用 Skype Server 不需要服務品質; 如果目前沒有使用 QoS 不需要在安裝商務用 Skype Server 之前安裝服務。 如果您的網路上有大量的封包遺失，建議的方法是緩解此問題，以增加額外的頻寬。 如果無法新增更多的頻寬，您可能想要改為執行服務品質。
 
 商務用 Skype Server 為服務品質提供完整支援：也就是說，已使用 QoS 的組織可以輕鬆地將商務用 Skype Server 整合至現有的網路基礎結構。 為了達到此目的，您必須執行下列工作：
 
@@ -41,6 +41,6 @@ ms.locfileid: "60831977"
 
   - 設定[Edge server 的埠範圍及服務品質原則](configuring-port-ranges-for-your-edge-servers.md)。 您可以將 Edge server 設定成使用與其他伺服器相同的埠範圍，但這不是必要的。 只應該針對 Edge server 的內部端執行服務品質原則的設定。 這是因為服務品質已設計為用於內部網路，而不是在網際網路上。
 
-- 設定[商務用 Skype Server 中用戶端的埠範圍和服務品質原則](configuring-port-ranges-for-your-skype-clients.md) 這些埠範圍只適用于用戶端電腦，通常與伺服器上設定的埠範圍不同。 請注意，商務用 Skype Server 不支援 Windows 10 以外的 Windows 作業系統 QoS。
+- 在商務用 Skype Server 這些埠範圍[中為用戶端設定埠範圍和服務品質原則](configuring-port-ranges-for-your-skype-clients.md)，只會套用至用戶端電腦，且通常與伺服器上所設定的埠範圍不同。 請注意，商務用 Skype Server 不支援 Windows 10 以外的 Windows 作業系統 QoS。
 
 

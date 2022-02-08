@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中修改現有的 PIN 原則
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 description: 摘要：在商務用 Skype Server 中修改現有的 PIN 原則。
-ms.openlocfilehash: a03e192b5dd9b11de17e6c920baee6613312fc84
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b38ffa3f5ef8d858b93e6844a8aba46a92538b9d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848576"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384351"
 ---
 # <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中修改現有的 PIN 原則
  
-**摘要：** 在商務用 Skype Server 中修改現有的 PIN 原則。
+**總結：** 在商務用 Skype Server 中修改現有的 PIN 原則。
   
 您可以使用 [ **PIN 原則**] 索引標籤，提供個人識別碼 (PIN) 驗證，以供使用 IP 電話連線至商務用 Skype 的使用者使用。 若要使用 PIN 驗證，請確定已在 Web 服務設定中選取了 [啟用 PIN 驗證]。
   

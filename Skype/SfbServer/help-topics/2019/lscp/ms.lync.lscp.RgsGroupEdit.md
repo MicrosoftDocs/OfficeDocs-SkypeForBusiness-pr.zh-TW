@@ -1,8 +1,8 @@
 ---
 title: 回應群組建立新的代理人群組或編輯現有的代理人群組
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: 代理群組會定義接聽回應群組 (稱為代理) 電話的人選，以及要套用至群組中所有代理的設定。
-ms.openlocfilehash: 6c386f47e2448e7e508d9c9dd46c737f7de9e18a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b17a8db2541d10abfc46b8d7e1be2990b82f598b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833779"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385091"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>回應群組：建立新代理群組或編輯現有代理群組
 
@@ -30,7 +30,7 @@ ms.locfileid: "60833779"
 
 下列清單說明頁面上的欄位。
 
-- **名稱** 每個代理人群組都需要唯一的名稱。 請使用識別群組功能的描述性名稱。 例如，問訊台。
+- **名字** 每個代理人群組都需要唯一的名稱。 請使用識別群組功能的描述性名稱。 例如，問訊台。
 
 - **描述** 此欄位是選用的。 使用它來提供群組的其他詳細資料。
 
@@ -54,7 +54,7 @@ ms.locfileid: "60833779"
 
   - 選取 [語音應答]， **可對所有** 已登入的代理和回應群組應用程式同時提供新呼叫，不論其目前目前狀態為何。 設定為代理人的語音應答和用戶端使用者可以查看所有等待的來電，並可依任何順序接聽等候通話。 通話會傳送給第一個接受此通話的代理商，另一個語音應答和使用者將不會再看到此通話。
 
-- **代理** 程式以下列其中一種方式，選取要成為回應群組之代理人的使用者：
+- **代理** 以下列其中一種方式，選取要成為回應群組之代理人的使用者：
 
   - 選取 [**使用現有的電子郵件通訊群組清單**] 以使用 Exchange 通訊群組清單。 請在 [通訊群組清單位址] 中輸入通訊群組清單的電子郵件地址。
 

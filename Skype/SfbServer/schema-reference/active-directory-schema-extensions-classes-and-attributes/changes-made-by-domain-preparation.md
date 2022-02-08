@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的網域準備所進行的變更
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
 description: 下表列出 (Ace) 網域準備在網域根目錄上建立的存取控制專案。 除非另有說明，否則會繼承所有的 Ace。
-ms.openlocfilehash: 7769bddc87c26e7d858117220d4e0702f404cb88
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4bf190e0b74e082cf187cde94b3a3062906f0c53
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862020"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389915"
 ---
 # <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>商務用 Skype Server 中的網域準備所進行的變更
  

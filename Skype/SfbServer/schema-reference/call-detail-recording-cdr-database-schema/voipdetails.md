@@ -1,8 +1,8 @@
 ---
 title: VoIPDetails view
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
 description: VoIPDetails 檢視會儲存對等工作階段的相關資訊，其中至少有一個使用者是 VoIP 使用者。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: 666959270167c5d1322cacef4acbbeb1a0d22dc9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5804f32dfebb2fe8c6844acb0bcd343c5b6ead21
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833257"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385401"
 ---
 # <a name="voipdetails-view"></a>VoIPDetails view
  

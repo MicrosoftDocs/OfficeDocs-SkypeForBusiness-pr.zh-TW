@@ -1,8 +1,8 @@
 ---
 title: 安裝及建立資料庫
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以選取要為部署建立的資料庫。 根據預設，會在定義的網站的定義的 SQL Server 上建立資料庫，並根據您放置資料庫所在的 SQL Server 自動部署及設定資料庫檔案。
-ms.openlocfilehash: 9dd5e0f0ce800489ab937feae1cda68809540d81
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 446f23508ccc835d873e0ddd8ec183e80e40450d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849106"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386041"
 ---
 # <a name="install-and-create-databases"></a>安裝及建立資料庫
 

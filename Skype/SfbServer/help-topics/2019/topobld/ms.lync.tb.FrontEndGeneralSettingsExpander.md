@@ -1,8 +1,8 @@
 ---
 title: 前端一般設定展開工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯現有前端集區或 Standard Edition 伺服器的設定，您會看到下列各節：
-ms.openlocfilehash: fa055befc34d0c67f85cfba2125b2189746af9df
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0a05779c1c0cbda7a6c2b651178a09eff691703a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834411"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386981"
 ---
 # <a name="front-end-general-settings-expander"></a>前端一般設定展開工具
 
@@ -65,7 +65,7 @@ ms.locfileid: "60834411"
     > [!IMPORTANT]
     > 在發佈新定義的拓撲之前，您指定的伺服器必須存在並加入網域中。
 
-  - 封存。 建立封存伺服器存放區與前端集區的關聯。 您可以從清單中選取伺服器，以選取已定義的封存 SQL Server 儲存區，或按一下 [**新增**] 以指定新的封存伺服器。
+  - 封存 **。** 建立封存伺服器存放區與前端集區的關聯。 您可以從清單中選取伺服器，以選取已定義的封存 SQL Server 儲存區，或按一下 [**新增**] 以指定新的封存伺服器。
 
     > [!IMPORTANT]
     > 在發佈新定義的拓撲之前，您指定的伺服器必須存在並加入網域中。
@@ -119,7 +119,7 @@ ms.locfileid: "60834411"
 
 在 [中繼 **伺服器**] 中，指定下列專案：
 
-- 如果您組合轉送伺服器與集區，請選取 [ **組合的轉送伺服器已啟用** ] 核取方塊。 如果您選擇不組合轉送伺服器，則此區段沒有任何設定可供使用。
+- 如果您組合轉送伺服器與集區，請選取 [組合的中繼 **伺服器已啟用** ] 核取方塊。 如果您選擇不組合轉送伺服器，則此區段沒有任何設定可供使用。
 
 - 如果您啟用中繼伺服器的組合，便會在集區伺服器上針對傳輸層安全性 (TLS) 定義聆聽連接埠範圍。 此連接埠預設為 5067。 如果您選取 [啟用 TCP 連接埠]，則必須為組合的中繼伺服器定義傳輸控制通訊協定 (TCP) 連接埠。 這是選用的設定，您應該參考閘道或 PSTN 需求，來決定是否需要這項設定。 TCP 連接埠值預設為 5068。
 
@@ -158,7 +158,7 @@ ms.locfileid: "60834411"
     > [!IMPORTANT]
     > 在發佈新定義的拓撲之前，您指定的伺服器必須存在並加入網域中。
 
-  - 封存。 將封存 SQL Server 存放區與 Standard Edition 伺服器建立關聯。 您可以從清單中選取伺服器，以選取已定義的封存儲存區，或按一下 [ **新增** ] 以指定新的封存存放區。
+  - 封存 **。** 將封存 SQL Server 存放區與 Standard Edition 伺服器建立關聯。 您可以從清單中選取伺服器，以選取已定義的封存儲存區，或按一下 [ **新增** ] 以指定新的封存存放區。
 
     > [!IMPORTANT]
     > 在發佈新定義的拓撲之前，您指定的伺服器必須存在並加入網域中。

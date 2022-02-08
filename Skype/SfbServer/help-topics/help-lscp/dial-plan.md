@@ -1,8 +1,8 @@
 ---
 title: 撥號對應表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eeb31bd9-688e-4767-a47d-6fda1a55f094
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: f5ce4b82be193290f199a1d5b807056b44fa8043
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 65866055b8542d49e112631938885259a185717f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839215"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386791"
 ---
 # <a name="dial-plan"></a>撥號對應表
 

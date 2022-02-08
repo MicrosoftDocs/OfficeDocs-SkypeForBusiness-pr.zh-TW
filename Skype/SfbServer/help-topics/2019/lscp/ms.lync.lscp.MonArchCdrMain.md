@@ -1,8 +1,8 @@
 ---
 title: 詳細通話記錄
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: bc3c693c8c13d3a137225d0cb0d82b1d2767cb84
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9faa26fa3f2a09a8f90735f4cb4f71d936a204dc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850296"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385121"
 ---
 # <a name="call-detail-recording"></a>詳細通話記錄
  

@@ -1,8 +1,8 @@
 ---
 title: 新增 Edge Server 選項 (適用於 Lync Server 2010)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 您會定義新的 Edge Server 或 Edge 集區，並會呈現機會，以定義新伺服器或集區的功能。 您可以選擇的選項包括：
-ms.openlocfilehash: 0c02e03a1e0e1a8c8455be48915f1c488f4d021f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 94d8986a1b5e7317e768de4cb54c84a5b0735a07
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845536"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385841"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>新增 Edge Server 選項 (適用於 Lync Server 2010)
 

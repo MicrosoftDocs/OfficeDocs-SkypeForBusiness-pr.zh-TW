@@ -1,8 +1,8 @@
 ---
 title: 用戶端版本原則建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e32c6712-6dc9-4de9-8d74-9fdccf3de1ba
 description: 您可以指定環境中支援的用戶端版本。 當執行不同版本的兩個用戶端互動時，這兩個用戶端可用的功能會受限於彼此的功能。 若要充分運用商務用 Skype Server 2015 所包含的功能，並改善整體使用者體驗，您可以使用用戶端版本篩選器來限制環境中所用的用戶端版本。 使用用戶端版本篩選器還可幫助您降低支援多個用戶端版本的相關成本。
-ms.openlocfilehash: 6b54280f1401af89003c048720772891706b6b77
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c6674d1efcc7791511870234754876b966f492a4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861550"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389235"
 ---
 # <a name="client-version-policy-create-new-or-edit-existing"></a>用戶端版本原則：建立新的或編輯現有原則
 
@@ -43,15 +43,15 @@ ms.locfileid: "60861550"
 
 - **範圍** 識別用戶端版本原則的範圍 (網站、集區或使用者) 。
 
-- **名稱** 您可以新增或修改用戶端版本原則的名稱。
+- **名字** 您可以新增或修改用戶端版本原則的名稱。
 
 - **描述** 您可以新增描述，以協助識別「用戶端版本原則」頁面之清單中的原則。
 
-- **新** 您可以將新的用戶端版本規則新增至原則。
+- **新增功能** 您可以將新的用戶端版本規則新增至原則。
 
 - **顯示詳細資料** 此選項會開啟對話方塊，您可以在其中變更用戶端版本規則的選項。
 
-- **移除** 此選項會從原則中移除選取的用戶端版本規則。
+- **刪除** 此選項會從原則中移除選取的用戶端版本規則。
 
 - **向上及向中箭** 號此選項會以優先順序向上或向內移動選取的用戶端版本規則。 規則會依照所列順序進行處理。
 

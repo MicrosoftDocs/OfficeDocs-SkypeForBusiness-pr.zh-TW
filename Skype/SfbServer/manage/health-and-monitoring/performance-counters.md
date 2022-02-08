@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的行動效能計數器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 摘要：瞭解您可以用來監視執行整合通訊 Web API (UCWA) 和商務用 Skype Server Mcx 行動性服務之伺服器的效能計數器。
-ms.openlocfilehash: e89ffdb590a7028bd1fa9a9594b6ba0bcce9be11
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 157417d7a0cbc8db2a94ecba18f984b3eedde043
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827576"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384261"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>商務用 Skype Server 中的行動效能計數器
  
-**摘要：** 瞭解您可以用來監視執行整合通訊 Web API (UCWA) 和商務用 Skype Server Mcx 行動性服務之伺服器的效能計數器。
+**總結：** 瞭解您可以用來監視執行整合通訊 Web API (UCWA) 和商務用 Skype Server Mcx 行動性服務之伺服器的效能計數器。
   
 下表列出效能計數器的名稱和描述，您可以用來監視執行整合通訊網頁 API (UCWA) 和商務用 Skype Server Mcx 行動性服務的伺服器。 
   
@@ -54,8 +54,8 @@ Mcx 行動性服務表格中的計數器類別名稱是 **LS： WEB Mobile Commu
 |平均應用程式啟動時間 (毫秒)   <br/> |應用程式的平均啟動時間（毫秒）  <br/> |
 |會話的平均壽命 (毫秒)   <br/> |會話的平均生命週期（毫秒）  <br/> |
 |資料 MCU 加入失敗  <br/> |資料 MCU 加入失敗次數  <br/> |
-|Exchange連絡人搜尋延遲 (毫秒)   <br/> |此計數器會顯示在 Exchange 中搜尋連絡人的平均時間 (（毫秒）)   <br/> |
-|ExchangeHD 相片取得延遲 (毫秒)   <br/> |此計數器會顯示從 Exchange 中) 取得照片的平均時間 (（毫秒）  <br/> |
+|Exchange 連絡人搜尋延遲 (毫秒)   <br/> |此計數器會顯示在 Exchange 中搜尋連絡人的平均時間 (（毫秒）)   <br/> |
+|Exchange HD 相片取得延遲 (毫秒)   <br/> |此計數器會顯示從 Exchange 中) 取得照片的平均時間 (（毫秒）  <br/> |
 |HTTP 4xx 回應數/秒  <br/> |每秒以 HTTP 4xx 代碼回應的速率  <br/> |
 |HTTP 5xx 回應數/秒  <br/> |每秒以 HTTP 5xx 代碼回應的速率  <br/> |
 |IM MCU 聯接失敗  <br/> |IM MCU 加入失敗的次數  <br/> |

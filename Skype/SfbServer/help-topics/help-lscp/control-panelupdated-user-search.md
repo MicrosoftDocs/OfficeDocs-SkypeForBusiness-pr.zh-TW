@@ -1,8 +1,8 @@
 ---
 title: 控制台更新的使用者搜尋
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/21/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 description: 您可以使用搜尋查詢的結果，為使用者設定商務用 Skype Server。 您可以依顯示名稱、名字、姓氏、安全性帳戶管理員 (SAM) 帳戶名稱、SIP 位址或線路統一資源識別元 (URI) 來搜尋使用者。 您也可以使用 [Lync Server 控制台] 或 [Active Directory 使用者及電腦] 嵌入式管理單元來搜尋使用者。
-ms.openlocfilehash: 8ebb4c7d1c8288d3dfaef689422396130490aca0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 40a1ced2933abe628c7d1e56d9a1a7f66466769e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849036"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388491"
 ---
 # <a name="control-panel---updated-user-search"></a>控制台 - 已更新：使用者搜尋
 
@@ -54,13 +54,13 @@ ms.locfileid: "60849036"
 
 ### <a name="user-search"></a>使用者搜尋
 
-- **搜尋** 根據顯示名稱、名字、姓氏、SAM 帳戶名稱、SIP 位址或使用者帳戶的線路 URI 的第一個部分來搜尋使用者。
+- **搜索** 根據顯示名稱、名字、姓氏、SAM 帳戶名稱、SIP 位址或使用者帳戶的線路 URI 的第一個部分來搜尋使用者。
 
 - **LDAP 搜尋** 輸入 LDAP 運算式，以搜尋使用者。
 
 - **搜尋使用者** 方塊輸入您想要尋找的使用者資料或 LDAP 運算式。
 
-- **尋找** 按一下以顯示符合您在 [ **搜尋使用者** 和] 方塊中輸入之搜尋值的使用者。
+- **找到** 按一下以顯示符合您在 [ **搜尋使用者** 和] 方塊中輸入之搜尋值的使用者。
 
 - **開啟查詢** 按一下以開啟已儲存的搜尋查詢。
 
@@ -82,7 +82,7 @@ ms.locfileid: "60849036"
 
 - **編輯** 按一下 [ **編輯** ]，然後按一下 [ **顯示詳細資料** ] 以顯示所選使用者的詳細資料，或按一下 [ **選取所有搜尋結果** ] 以選取顯示在結果表格中的所有使用者。
 
-- **動作** 按一下 [ **動作**]，然後選取您要對搜尋結果中選取之使用者執行的動作。 可供使用的動作如下：
+- **行動** 按一下 [ **動作**]，然後選取您要對搜尋結果中選取之使用者執行的動作。 可供使用的動作如下：
 
   - **重新啟用 Lync Server** 在暫時停用選取的使用者帳戶之後，啟用該帳戶。
 

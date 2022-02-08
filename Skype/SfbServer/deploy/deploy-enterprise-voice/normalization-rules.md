@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype 中建立或修改正規化規則
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 摘要：瞭解如何在商務用 Skype Server 中定義、建立及修改正常化規則。
-ms.openlocfilehash: c01505a4a4c961c7c1b3ed394ec5595b57642ddb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f2f47859687a7c3919e59979c259f317ef6a3102
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831633"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387271"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>在商務用 Skype 中建立或修改正規化規則
 
-**摘要：** 瞭解如何在商務用 Skype Server 中定義、建立及修改正規化規則。
+**總結：** 瞭解如何在商務用 Skype Server 中定義、建立及修改正規化規則。
 
 在商務用 Skype Server 中定義、建立及修改正常化規則。
 
@@ -35,7 +35,7 @@ ms.locfileid: "60831633"
 
 2.  (選用) 依照步驟11中[建立或修改撥號](dial-plans.md)對應表商務用 Skype Server 中的步驟，或透過步驟 10[修改撥號](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan)對應表中的步驟。
 
-3. 在 [ **新增正規化規則** ] 或 [編輯正規化 **規則**] 中，輸入描述 [ **名稱** ] 中正規化的號碼模式的名稱 (例如，5DigitExtension) 。
+3. 在 [ **新增正規化規則** ] 或 [ **編輯正規化規則**] 中，輸入描述 [ **名稱** ] 中正規化的號碼模式的名稱 (例如，5DigitExtension) 。
 
 4.  (選用) 在 [ **描述**] 中，輸入正規化規則的描述 (例如，「轉譯5位數分機」 ) 。
 

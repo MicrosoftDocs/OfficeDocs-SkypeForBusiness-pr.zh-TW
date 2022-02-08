@@ -1,8 +1,8 @@
 ---
 title: 註冊視圖
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: '[註冊] 視圖會儲存使用者註冊的相關資訊。 此視圖已引進 Lync Server 2013。'
-ms.openlocfilehash: 62cfed96994f11ec7393bacc1e0b77edbe3374e7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ccd868c228b32f69240d6b2c7a10d4c07ac90d56
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842665"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384111"
 ---
 # <a name="registration-view"></a>註冊視圖
  

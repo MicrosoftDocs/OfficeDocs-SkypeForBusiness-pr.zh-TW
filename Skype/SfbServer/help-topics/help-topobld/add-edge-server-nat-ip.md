@@ -1,8 +1,8 @@
 ---
 title: 新增 Edge Server NAT IP
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aa97fd0e-48b9-4a66-b55a-12291641c967
 description: 公用 IP 位址是網路位址轉譯 (NAT) 所使用的 IP 位址。 IP 位址必須可公開路由傳送。 這是必要的，因為您已在此嚮導的 [選取功能] 頁面上，選取 [此 Edge 集區的外部 IP 位址是由 NAT 轉譯] 選項。
-ms.openlocfilehash: 964673bd760ec71a299b968ff2140965ccb8351b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 779dd54d8e1187cbad111fe4e37ab193e5605b3e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864890"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385871"
 ---
 # <a name="add-edge-server-nat-ip"></a>新增 Edge Server NAT IP
 

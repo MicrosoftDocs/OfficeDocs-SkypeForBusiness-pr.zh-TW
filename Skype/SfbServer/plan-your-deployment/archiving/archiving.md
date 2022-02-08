@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中規劃封存
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 中規劃封存。
-ms.openlocfilehash: 6d67caa4b196c65282ecb404af747e0a60f435a7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b763d2e771d054a1b7522e9af0eace4663f3ce0c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843696"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386431"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃封存
  
-**摘要：** 閱讀此主題以瞭解如何在商務用 Skype Server 中規劃封存。
+**總結：** 閱讀此主題以瞭解如何在商務用 Skype Server 中規劃封存。
   
 公司和其他組織會遭受不斷增加的行業和政府法規數量，需要保留特定類型的通訊。 如果您的組織有這樣的需求，您可以使用商務用 Skype Server 中的封存，封存立即訊息 (IM) 和會議 (會議) 通訊，以協助支援一些規範需求。
   
@@ -136,7 +136,7 @@ ms.locfileid: "60843696"
 > [!NOTE]
 > 裝載封存資料庫的伺服器可以裝載其他資料庫。不過，當您考慮將封存資料庫與其他資料庫組合時，請注意，如果您要封存較多使用者的訊息，封存資料庫所需的磁碟空間可能會變得極大。基於這項因素，建議您不要將封存資料庫與後端資料庫整合。 
   
-如果您組合封存資料庫與監控資料庫、後端資料庫或這兩種資料庫，您可以針對任何或所有資料庫使用單一 SQL 實例，也可以針對每個資料庫使用個別的 SQL 實例，但有下列限制：每個 SQL 實例僅可包含單一後端資料庫。 單一監控資料庫和單一封存資料庫。
+如果您組合封存資料庫與監控資料庫、後端資料庫或這兩個資料庫，您可以針對任何或所有資料庫使用單一 SQL 實例，也可以針對每個資料庫使用個別的 SQL 實例，但有下列限制：每個 SQL 實例僅可包含單一後端資料庫、單一監控資料庫、 和單一封存資料庫。
   
 如需組合所有伺服器角色及資料庫的詳細資訊，請參閱[拓撲基礎的商務用 Skype Server](../../plan-your-deployment/topology-basics/topology-basics.md)。 如需更新拓撲以包含儲存資料庫的詳細資訊，請參閱[Create and publish new 拓朴 in 商務用 Skype Server](../../deploy/install/create-and-publish-new-topology.md)。
   
@@ -152,7 +152,7 @@ ms.locfileid: "60843696"
     
 - 是否要啟用特定使用者和群組的原則
     
-商務用 Skype Server您可以在下列層級指定封存選項。 
+您可以在下列層級指定商務用 Skype Server 的封存選項。 
   
 - **Global level 選項**。 這是預設的封存設定，適用于整個部署。 它會在您部署商務用 Skype Server 時建立，而且預設會停用內部和外部通訊的封存。 您無法刪除此選項。 如果您選擇 [刪除] 選項，全域選項會重設為預設設定。
     

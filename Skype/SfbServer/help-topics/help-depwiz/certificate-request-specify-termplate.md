@@ -1,8 +1,8 @@
 ---
 title: 憑證要求 (指定範本)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d00ed98f-46f2-4367-b34c-513e5eafdd06
 description: '[指定替代憑證範本] 頁面可讓您定義預設使用 WebServer 憑證範本以外的憑證範本。 選取 [對選取的憑證授權單位單位使用其他憑證範本] 核取方塊，然後在文字方塊憑證範本名稱中定義備用憑證範本的名稱。 您必須使用 [憑證授權單位單位 (CA) 中所定義的範本名稱。 按 [上一步] 回到前一頁。 按一下 [取消] 結束憑證要求程序。'
-ms.openlocfilehash: 5dcaf17f01de47d028e5fdc0b648107b235caa97
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4ae4f34b1fb994119637e3c2066b7cf0982216fa
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860540"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388521"
 ---
 # <a name="certificate-request-specify-termplate"></a>憑證要求 (指定範本)
  

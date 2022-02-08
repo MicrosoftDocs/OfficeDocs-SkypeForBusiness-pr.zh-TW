@@ -1,8 +1,8 @@
 ---
 title: Branch Office Appliance 一般設定展開工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 若要編輯現有 Survivable Branch 裝置或 Survivable Branch 伺服器的設定，您會看到下列區段：
-ms.openlocfilehash: e5e75965698f8dbbb97098ccadb0a76c5a3babe9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 33670654dbea05f376f3ff7f7501ac37237ab8a7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840095"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386761"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Branch Office Appliance 一般設定展開工具
 

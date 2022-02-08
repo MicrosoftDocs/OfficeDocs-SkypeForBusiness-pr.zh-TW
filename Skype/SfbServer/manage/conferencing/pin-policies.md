@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中管理電話撥入式會議的 PIN 原則
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 摘要：瞭解如何在商務用 Skype Server 中管理電話撥入式會議的 PIN 原則。
-ms.openlocfilehash: bf78a565cefb38a9a6e747c2b22b74a640a9e706
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 93ee04292ec3ea06299b91c75c2c2fe89a2b2298
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862470"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385604"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>在商務用 Skype Server 中管理電話撥入式會議的 PIN 原則
  
-**摘要：** 瞭解如何在商務用 Skype Server 中管理電話撥入式會議的 PIN 原則。
+**總結：** 瞭解如何在商務用 Skype Server 中管理電話撥入式會議的 PIN 原則。
   
 在您組織中具有 Active Directory 網域服務 (AD DS) 認證的商務用 Skype Server 使用者，您可以使用個人識別碼 (PIN) ，將電話撥入式會議加入為已驗證的使用者。 PIN 原則可定義電話撥入式會議 PIN 的運作方式規則。
   

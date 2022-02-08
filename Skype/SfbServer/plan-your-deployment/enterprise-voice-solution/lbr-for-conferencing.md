@@ -1,8 +1,8 @@
 ---
 title: Location-Based 商務用 Skype Server 中的會議路由
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: 在商務用 Skype Server 企業語音中規劃會議的位置基礎路由，包括顧問式來電轉接。
-ms.openlocfilehash: d9fee0304310f551d750be85a9b6e2b0d9a47ad3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3c5c7e4d374e9ece3ee0f0ce092d4030d2d84100
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855400"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387701"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based 商務用 Skype Server 中的會議路由
 
@@ -51,10 +51,10 @@ Location-Based 路由會議應用程式供應商務用 Skype 會議，以防範 
 
 |在會議中，任何指定點的使用者 (s) |允許加入會議的使用者 (s) |不允許使用者 (s) 加入會議|
 |:-----|:-----|:-----|
-|商務用 Skype從單一網路網站 VoIP 用戶端使用者 (s)   <br/> |商務用 Skype從相同的網路網站 VoIP 用戶端使用者  <br/> 商務用 Skype從不同的網路網站 VoIP 用戶端使用者  <br/> 商務用 Skype從未知的網路網站 VoIP 用戶端使用者  <br/> 同盟商務用 Skype VoIP 用戶端使用者  <br/> 從 PSTN 端點加入的使用者  <br/> |無  <br/> |
-|商務用 Skype從未知的網路網站 VoIP 用戶端使用者 (s)   <br/> |商務用 Skype從任何網站 VoIP 用戶端使用者  <br/> 商務用 Skype從未知的網站 VoIP 用戶端使用者  <br/> 同盟商務用 Skype VoIP 用戶端使用者  <br/> |透過 PSTN 端點加入使用者  <br/> |
-|商務用 Skype從不同的網路網站 VoIP 用戶端使用者  <br/> |商務用 Skype從任何網路網站 VoIP 用戶端使用者  <br/> 商務用 Skype從未知的網路網站 VoIP 用戶端使用者  <br/> 同盟商務用 Skype VoIP 用戶端使用者  <br/> |透過 PSTN 端點加入使用者  <br/> |
-|商務用 Skype從單一網路網站及從 PSTN 端點加入的使用者 VoIP 用戶端使用者 (s)   <br/> |商務用 Skype從相同的網路網站 VoIP 用戶端使用者  <br/> |商務用 Skype從不同的網路網站 VoIP 用戶端使用者  <br/> 商務用 Skype從未知的網路網站 VoIP 用戶端使用者  <br/> 同盟商務用 Skype VoIP 用戶端使用者  <br/> |
+|商務用 Skype VoIP 用戶端使用者從單一網路網站)  (s  <br/> |從相同的網路網站 VoIP 用戶端使用者商務用 Skype  <br/> 從不同的網路網站 VoIP 用戶端使用者商務用 Skype  <br/> 從未知的網路網站 VoIP 用戶端使用者商務用 Skype  <br/> 同盟商務用 Skype VoIP 用戶端使用者  <br/> 從 PSTN 端點加入的使用者  <br/> |無  <br/> |
+|從未知的網路網站 VoIP 用戶端使用者 (s) 商務用 Skype  <br/> |從任何網站商務用 Skype VoIP 用戶端使用者  <br/> 從未知的網站商務用 Skype VoIP 用戶端使用者  <br/> 同盟商務用 Skype VoIP 用戶端使用者  <br/> |透過 PSTN 端點加入使用者  <br/> |
+|從不同的網路網站 VoIP 用戶端使用者商務用 Skype  <br/> |從任何網路網站 VoIP 用戶端使用者商務用 Skype  <br/> 從未知的網路網站 VoIP 用戶端使用者商務用 Skype  <br/> 同盟商務用 Skype VoIP 用戶端使用者  <br/> |透過 PSTN 端點加入使用者  <br/> |
+|商務用 Skype VoIP 用戶端使用者 (s) 從單一網路網站，以及從 PSTN 端點加入的使用者  <br/> |從相同的網路網站 VoIP 用戶端使用者商務用 Skype  <br/> |從不同的網路網站 VoIP 用戶端使用者商務用 Skype  <br/> 從未知的網路網站 VoIP 用戶端使用者商務用 Skype  <br/> 同盟商務用 Skype VoIP 用戶端使用者  <br/> |
 
 下列為會議應用程式的 Location-Based 路由的其他特性：
 
@@ -62,15 +62,15 @@ Location-Based 路由會議應用程式供應商務用 Skype 會議，以防範 
 
 - 在加入具有 Location-Based 路由 enforcements 之會議的 PSTN 端點時，如果端點透過未啟用 Location-Based 路由的主幹加入，則不會限制加入會議的狀態。
 
-- 透過 sip 主幹（透過非出局來電）連接到轉送伺服器的 PBX 系統，與在定義 SIP 主幹的相同網路網站中商務用 Skype 使用者具有相同的 enforcements。 例如，PSTN 端點可以加入具有 PBX 使用者和商務用 Skype 使用者的會議，如果他們位於相同的網路網站上;否則，如果 PBX 使用者位於與商務用 Skype 使用者不同的網路網站，則不允許 PSTN 端點加入會議。
+- 透過 sip 主幹（透過非出局來電）連接到轉送伺服器的 PBX 系統，與在定義 SIP 主幹的相同網路網站中商務用 Skype 使用者具有相同的 enforcements。 例如，PSTN 端點可以加入具有 PBX 使用者和商務用 Skype 使用者的會議，如果其位於相同的網路網站中; 否則，如果 PBX 使用者與商務用 Skype 使用者位於不同的網路網站，則不允許將 PSTN 端點加入會議。
 
 > [!NOTE]
 > 使用商務用 Skype 累計更新4時，應遵循下清單格中的行為：
 
 |User|其他聚會|動作|結果|
 |:-----|:-----|:-----|:-----|
-|商務用 Skype移動  <br/> |PSTN  <br/> |商務用 SkypeMobile 位於 PSTN 通話中。 商務用 Skype行動裝置接著會將通話升級為會議自動語音應答 (CAA) 。  <br/> |通話遭到封鎖，並顯示適當的錯誤訊息。  <br/> |
-|商務用 Skype移動  <br/> |商務用 Skype用戶端或同盟使用者  <br/> |用戶端或同盟使用者在商務用 Skype 行動 Location-Based 路由使用者上的 VoIP 呼叫，並將其中一方升級至 CAA。  <br/> |會封鎖呈報通話，並顯示適當的錯誤訊息。  <br/> |
+|商務用 Skype Mobile  <br/> |PSTN  <br/> |商務用 Skype Mobile 位於 PSTN 通話中。 商務用 Skype 行動裝置會將通話 (CAA) 升級為會議自動語音應答。  <br/> |通話遭到封鎖，並顯示適當的錯誤訊息。  <br/> |
+|商務用 Skype Mobile  <br/> |商務用 Skype 用戶端或同盟使用者  <br/> |用戶端或同盟使用者在商務用 Skype 行動 Location-Based 路由使用者上的 VoIP 呼叫，並將其中一方升級至 CAA。  <br/> |會封鎖呈報通話，並顯示適當的錯誤訊息。  <br/> |
 
 ## <a name="consultative-call-transfers"></a>顧問式來電轉接
 
@@ -82,7 +82,7 @@ Location-Based 路由會議應用程式供應商務用 Skype 會議，以防範 
 
 當啟用 Location-Based 路由的使用者啟動對 pstn 端點的諮詢來電轉接時 (如前圖所示) 所示，這會建立兩個使用中的呼叫、pstn 使用者與商務用 Skype 使用者 a 之間的呼叫，以及商務用 Skype 使用者 a 和商務用 Skype 使用者 B 之間的另一個呼叫。下列行為是針對會議應用程式的 Location-Based 路由強制執行：
 
-- 如果您有權將 pstn 通話的 SIP 主幹路由重新路由至商務用 Skype 使用者 B (（即轉接目的地) 所在的網站），則會允許來電轉接;否則，將會封鎖「諮詢來電轉接」。 這種授權是根據傳送方的位置，而不是以將使用中通話路由傳送至 PSTN 端點的 SIP 主幹所在的相同網路網站執行。
+- 如果您有權將 pstn 通話的 SIP 主幹路由重新路由至商務用 Skype 使用者 B (（即轉接目的地) 所在的網站），則會允許通話轉移，否則會封鎖諮詢來電轉接。 這種授權是根據傳送方的位置，而不是以將使用中通話路由傳送至 PSTN 端點的 SIP 主幹所在的相同網路網站執行。
 
 - 若 SIP 主幹路由輸入 PSTN 來電未獲授權，無法將來電路由傳送至已傳送方 (商務用 Skype 使用者 B) 所在的網站，或已傳送方位於未知的網路網站，則諮詢來電轉接至 PSTN 端點 (亦即會封鎖來電轉接目標) 。
 
@@ -160,7 +160,7 @@ New-CsServerApplication -Identity Service:Registrar:LS2013CU2LBRPool.contoso.com
 使用此 Cmdlet 後，請重新開機集區中的所有前端伺服器或已啟用會議應用程式 Location-Based 路由的 Standard Edition 伺服器。
 
 > [!IMPORTANT]
-> 在重新開機適用的集區或 Standard Edition 伺服器中的所有前端伺服器之前，不會強制執行 enforcements 到會議或諮詢傳遞的路由傳送。 Location-Based 如果您對上述 Cmdlet 中 **$true** 設定 **重要**，您的商務用 Skype Server 服務將立即重新開機。 如果您不想要立即重新開機這些服務，請 **將 get-csserverapplication 設定為**[立即 **$false** ]，然後在重新開機服務之後，使用 [**設定**] 變更為 **$true** 之後的 **重要** 事項。
+> 在重新開機適用的集區或 Standard Edition 伺服器中的所有前端伺服器之前，不會強制執行 enforcements 到會議或諮詢傳遞的路由傳送。 Location-Based 如果您對上述 Cmdlet 中 **$true** 設定 **重要**，您的商務用 Skype Server 服務將立即重新開機。 如果您不想要立即重新開機這些服務，**請將 get-csserverapplication 設定為**[立即 **$false** ]，然後在重新開機服務之後，使用 [**設定**] 變更為 **$true** 之後的 **重要** 事項。
 
 當成功啟用會議應用程式的 Location-Based 路由，並重新啟動所有適用的伺服器後，系統會監控所有啟用 Location-Based 路由之使用者所組織商務用 Skype 的會議，以避免 PSTN 免付費旁路
 

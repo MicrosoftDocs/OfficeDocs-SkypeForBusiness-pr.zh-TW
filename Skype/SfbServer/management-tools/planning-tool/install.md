@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 2015 中安裝規劃工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: 在您使用商務用 Skype Server 2015 規劃工具開始設計及規劃商務用 Skype Server 2015 基礎結構之前，您必須先安裝規劃工具。 規劃工具不需要部署到屬於您計畫安裝商務用 Skype Server 2015 的網域或基礎結構中的工作站或伺服器上。 規劃工具附帶的讀我檔案詳細說明安裝及使用此工具的重要資訊。 為了清楚起見，自述檔中的部分資訊是重複的。
-ms.openlocfilehash: 5d9dc6204647daf03adfab6fcf3cf091d7ba5415
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c635672ff89bae4da3c76fb973246d8cb332c403
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850886"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388061"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中安裝規劃工具
 
@@ -44,7 +44,7 @@ ms.locfileid: "60850886"
 
 - Windows 7、64位 edition 使用 Win32 上 Windows (WOW) 
 
-- Windows伺服器 2008 R2，使用 WOW
+- Windows Server 2008 R2，使用 WOW
 
 此外，規劃工具需要 Microsoft .NET Framework 4.5。
 

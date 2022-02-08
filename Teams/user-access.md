@@ -1,7 +1,7 @@
 ---
 title: 管理使用者對 Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -10,7 +10,7 @@ ms.collection:
 - M365-collaboration
 ms.reviewer: ritikag
 search.appverid: MET150
-description: 瞭解如何指派或移除授權給Teams使用者，以管理使用者對Teams存取權。
+description: 瞭解如何指派或移除授權給Teams使用者，以管理Teams存取權。
 f1.keywords:
 - CSH
 - ms.teamsadmincenter.signin.domainerror.nolicensedusers
@@ -19,20 +19,20 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f7cf49f39f7a4df5dc7abe044b107f2bb9a5bbb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0d467e2e3fcdff6e688c13d952f434e635f7d038
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829517"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384121"
 ---
 # <a name="manage-user-access-to-teams"></a>管理使用者對 Teams 的存取權
 
-您可以指派或移除Teams授權，以管理使用者層級Microsoft Teams存取權。 除了以匿名Teams加入會議之外，貴組織的每個使用者都必須擁有Teams授權，才能使用Teams。 您可以在建立新使用者帳戶Teams新使用者或擁有現有帳戶的使用者，指派授權給新使用者。
+您可以指派或移除Teams，以管理使用者層級Microsoft Teams存取權。 除了以匿名Teams加入會議之外，貴組織的每個使用者都必須擁有Teams授權，才能使用Teams。 您可以在建立新使用者帳戶Teams新使用者或擁有現有帳戶的使用者時，指派新的授權。
 
-根據預設，當授權方案 (例如 Microsoft 365 企業版 E3 或 Microsoft 365 商務進階版) 指派給使用者時，系統會自動指派 Teams 授權，而且使用者已啟用 Teams。 您隨時都可以Teams或指派授權，為使用者停用或啟用授權。
+根據預設，當授權方案 (例如 Microsoft 365 企業版 E3 或 Microsoft 365 商務進階版) 指派給使用者時，系統會自動指派 Teams 授權，而使用者則已啟用 Teams。 您隨時都可以Teams或指派授權，為使用者停用或啟用授權。
 
-使用從系統管理中心管理Teams訊息<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a>策略，控制哪些聊天和頻道訊息功能可供 Teams。 您可以使用預設策略，或為貴組織人員建立一或多個自訂訊息策略。 若要深入瞭解，請參閱[管理 Teams 中的訊息Teams。](messaging-policies-in-teams.md)
+使用從系統管理中心管理Teams訊息<a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank"></a>策略，控制哪些聊天和頻道訊息功能可供 Teams。 您可以使用預設策略，或為貴組織人員建立一或多個自訂訊息策略。 若要深入瞭解，請參閱[在 Teams 中管理Teams](messaging-policies-in-teams.md)。
 您可以在 Teams中管理Microsoft 365 系統管理中心或使用 PowerShell。 您必須是全域系統管理員或使用者管理系統管理員，才能管理授權。
 
 > [!NOTE]
@@ -44,9 +44,9 @@ Teams使用者層級授權會透過使用者管理介面Microsoft 365 系統管�
 
 > [!IMPORTANT]
 > 系統管理員必須擁有全域系統管理員或使用者管理系統管理員許可權，才能管理Microsoft Teams授權。
-使用 Microsoft 365 系統管理中心管理Teams個別使用者或小型使用者組的使用者授權。 您可以在授權Teams或活動 (頁面上管理最多20 個使用者) **授權**。 您選擇的方法取決於您要管理特定使用者的產品授權，或管理特定產品的使用者授權。
+使用 Microsoft 365 系統管理中心管理Teams個別使用者或小型使用者組的使用者授權。 您可以在授權Teams或活動 (頁面上管理最多 20 個使用者) **授權**。**** 您選擇的方法取決於您要管理特定使用者的產品授權，或管理特定產品的使用者授權。
 
-如果您需要管理大量使用者的 Teams授權 ，例如數百或數千個使用者，請使用[PowerShell](#using-powershell)或群組[授權在](/azure/active-directory/users-groups-roles/licensing-groups-assign)Azure Active Directory (Azure AD) 。 
+如果您需要管理大量使用者的 Teams授權，例如數百或數千個使用者，請使用[PowerShell](#using-powershell)或群組[授權在 Azure Active Directory (Azure AD) ](/azure/active-directory/users-groups-roles/licensing-groups-assign)。 
 
 ### <a name="assign-a-teams-license"></a>指派授權Teams授權
 
@@ -61,7 +61,7 @@ Teams使用者層級授權會透過使用者管理介面Microsoft 365 系統管�
 > [!IMPORTANT]
 > 停用 SKU 需要大約 24 小時Teams SKU 才能生效。
 
-當您從使用者Teams授權時，Teams使用者就會停用，而且他們不會再在應用程式啟動器Teams首頁看到任何授權。 有關詳細步驟，請參閱 [取消使用者授權](/microsoft-365/admin/manage/remove-licenses-from-users)。
+當您從使用者Teams授權時，Teams使用者就會停用，而且他們不會再在應用程式啟動器Teams首頁看到該授權。 有關詳細步驟，請參閱 [取消使用者授權](/microsoft-365/admin/manage/remove-licenses-from-users)。
 
 |&nbsp;|&nbsp;|
 |---------|---------|
@@ -69,7 +69,7 @@ Teams使用者層級授權會透過使用者管理介面Microsoft 365 系統管�
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
-使用 PowerShell 大量Teams使用者授權。 您透過 PowerShell 啟用Teams停用，方式與任何其他服務方案授權相同。 您需要服務方案識別碼Teams，如下所示：
+使用 PowerShell 大量Teams使用者授權。 您透過 PowerShell Teams和停用其他服務方案授權的方式，來啟用和停用。 您需要服務方案識別碼Teams，如下所示：
 
 - Microsoft Teams：TEAMS1
 - Microsoft Teams： GCC： TEAMS_GOV
@@ -97,7 +97,7 @@ Teams使用者層級授權會透過使用者管理介面Microsoft 365 系統管�
 Get-MsolAccountSku
 ```
 
-執行下列命令，即貴組織的名稱，以及您先前步驟中所提取之授權計畫的 \<CompanyName:License> 識別碼。 例如，ContosoSchool：ENTERPRISEPACK_STUDENT。
+執行下列命令， \<CompanyName:License> 即貴組織的名稱，以及您先前步驟中所提取之授權計畫的識別碼。 例如，ContosoSchool：ENTERPRISEPACK_STUDENT。
 
 ```powershell
 $acctSKU="<CompanyName:License>

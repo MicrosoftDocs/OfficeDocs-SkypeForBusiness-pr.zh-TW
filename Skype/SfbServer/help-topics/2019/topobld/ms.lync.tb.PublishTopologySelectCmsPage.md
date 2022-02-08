@@ -1,8 +1,8 @@
 ---
 title: 發行拓撲選取 CMS 頁面
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以使用拓撲產生器，發佈已設定的拓撲。 系統會要求您從清單中選取前端伺服器或前端集區，以擔當存放中央管理存放區的角色。 在任何指定時間，只有一部前端伺服器或前端集區可以持有此角色。
-ms.openlocfilehash: 4f4658b13a634d5f1d231d4e8fe7683b3fc38b8f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 29435e77b8c5bd30e0b3d534b335870ff4e240c8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860560"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384891"
 ---
 # <a name="publish-topology-select-cms-page"></a>發行拓撲選取 CMS 頁面
  

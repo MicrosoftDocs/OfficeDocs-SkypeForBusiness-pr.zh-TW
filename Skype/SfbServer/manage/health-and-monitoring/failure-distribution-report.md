@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 的失敗散佈報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: 摘要：瞭解商務用 Skype Server 中的失敗散佈報告。
-ms.openlocfilehash: e8ebf3ccbb14b46c862d03f328fdbb327af51992
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1cea85cb385ef7902dc896d468fea5ddfa71cc9d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847236"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384271"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>商務用 Skype Server 的失敗散佈報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的失敗散佈報告。
+**總結：** 深入瞭解商務用 Skype Server 中的失敗散佈報告。
   
 失敗散佈報告會在下列類別中為失敗的工作階段進行排名：
   

@@ -1,8 +1,8 @@
 ---
 title: Users 表格
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a8d71373-4b57-4245-9f02-f7fc0d9fcd3c
 description: '[使用者] 表格是支援表格。 資料表中的每一筆記錄都儲存在具有資料庫中記錄的通話或會話中的一個使用者相關資訊。'
-ms.openlocfilehash: a5ccb5abdb616b562491e77aae9256c98fa83d9d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 66f3e1247d29969ecef36a5d6247510b5eae022c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864610"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389775"
 ---
 # <a name="users-table"></a>Users 表格
  

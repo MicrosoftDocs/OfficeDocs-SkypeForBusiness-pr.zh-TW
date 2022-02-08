@@ -1,8 +1,8 @@
 ---
 title: 位置原則建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以設定位置原則，以判斷是否已啟用增強型 9-1-1 (E9-1-1) ，以及如何使用位置資訊，以及使用者和連絡人的使用方式。
-ms.openlocfilehash: 95f11519421926074201d02a92bcfc64758ed015
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9978ceb81c144f7008acb30bfd94c0af6b6221b5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863000"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386201"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>位置原則：建立新的或編輯現有原則
 
@@ -32,7 +32,7 @@ ms.locfileid: "60863000"
 
 - **範圍** 識別您要建立或修改之位置原則的範圍：全域、網站或使用者。
 
-- **名稱** 每個位置原則都需要名稱。 全域及網站位置原則的命名依預設值，且無法變更名稱。 針對使用者位置原則，請使用識別使用者或使用者群組的描述性名稱。
+- **名字** 每個位置原則都需要名稱。 全域及網站位置原則的命名依預設值，且無法變更名稱。 針對使用者位置原則，請使用識別使用者或使用者群組的描述性名稱。
 
     > [!NOTE]
     > 在您儲存位置原則之後，就無法變更此名稱。
@@ -41,11 +41,11 @@ ms.locfileid: "60863000"
 
 - **位置** 指定是否提示使用者輸入位置資訊：
 
-  - **必要** 如果使用者在其用戶端註冊新位置時，系統會提示使用者輸入位置資訊，請選取此選項。 使用者可以在不輸入位置資訊的情況下關閉提示。
+  - **必填** 如果使用者在其用戶端註冊新位置時，系統會提示使用者輸入位置資訊，請選取此選項。 使用者可以在不輸入位置資訊的情況下關閉提示。
 
   - **不需要** 如果不提示使用者輸入位置資訊，請選取此選項。
 
-  - **免責聲明** 如果系統提示使用者輸入位置資訊，請選取此選項，但如果不輸入資訊，就會看到免責聲明訊息。 使用者可以完成緊急通話，但不能撥打其他電話，直到他們輸入位置資訊為止。
+  - **免責 聲明** 如果系統提示使用者輸入位置資訊，請選取此選項，但如果不輸入資訊，就會看到免責聲明訊息。 使用者可以完成緊急通話，但不能撥打其他電話，直到他們輸入位置資訊為止。
 
 - **僅針對 E9-1-1 使用位置** 如果 location 資訊只用于緊急通話，請選取此核取方塊。
 

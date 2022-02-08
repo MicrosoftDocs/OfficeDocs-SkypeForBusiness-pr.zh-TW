@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的詳細通話報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
 description: 摘要：瞭解商務用 Skype Server 中所用的通話詳細資料包告。
-ms.openlocfilehash: 8f5d9e99a9141e1954aef2636ed5d671003e6ad3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6d8a79506e215bd46a54c89969fc5991f9962d6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834211"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385615"
 ---
 # <a name="call-detail-report-in-skype-for-business-server"></a>商務用 Skype Server 中的詳細通話報告
  
-**摘要：** 深入瞭解商務用 Skype Server 所用的通話詳細資料包告。
+**總結：** 深入瞭解商務用 Skype Server 所用的通話詳細資料包告。
   
 [通話詳細資料包告] 提供個別通話的詳細資訊，請參閱報告中包含幾乎所有的經驗品質統計資料，以及商務用 Skype Server 所收集的統計資料，劃分成下列報告區段：
   

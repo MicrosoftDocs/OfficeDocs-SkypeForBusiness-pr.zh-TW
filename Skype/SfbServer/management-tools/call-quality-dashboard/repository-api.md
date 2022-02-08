@@ -1,8 +1,8 @@
 ---
 title: 用於通話品質儀表板的存放庫 API (CQD) 商務用 Skype Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 摘要：瞭解適用于通話品質儀表板的存放庫 API。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: e050ecd4367f2d63febf376e42f435c5ec6850f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 19d1f456afdf9f72721d1a246b206ad4f7259f14
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849886"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386571"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>用於通話品質儀表板的存放庫 API (CQD) 商務用 Skype Server
  
-**摘要：** 瞭解適用于通話品質儀表板的存放庫 API。 通話品質儀表板是商務用 Skype Server 的工具。
+**總結：** 瞭解適用于通話品質儀表板的存放庫 API。 通話品質儀表板是商務用 Skype Server 的工具。
   
 存放庫 API 為商務用 Skype Server 提供通話品質儀表板的程式設計存取。
   

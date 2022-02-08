@@ -1,8 +1,8 @@
 ---
 title: 測試商務用 Skype Server 中的電話撥入式會議
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 摘要：瞭解如何在商務用 Skype Server 中測試電話撥入式會議。
-ms.openlocfilehash: 4c4e56c846cd6c4f522abdfc0a4a9cc76b5fe979
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b6f33828646a8d56574091e296ed5ca4dde75af5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847356"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385590"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>測試商務用 Skype Server 中的電話撥入式會議
  
-**摘要：** 瞭解如何在商務用 Skype Server 中測試電話撥入式會議。
+**總結：** 瞭解如何在商務用 Skype Server 中測試電話撥入式會議。
   
 做為您的電話撥入式會議設定的最終驗證，您可以搜尋撥號對應表，該撥號對應表中的電話撥入式會議地區未使用任何存取號碼，且未指定電話撥入式會議區域的存取號碼。 您也應該確認電話撥入式會議設定網頁和撥入式存取號碼是否運作正常。
   

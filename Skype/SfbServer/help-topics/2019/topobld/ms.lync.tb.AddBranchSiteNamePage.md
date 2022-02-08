@@ -1,8 +1,8 @@
 ---
 title: 新增分支網站名稱
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要定義新的分支網站，請指定下列專案：
-ms.openlocfilehash: 9319c1237a4d53360634faa5947cc18d62e9f121
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0d4a18b30c570e45b7b3273f02cac6be91e6c157
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854817"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385021"
 ---
 # <a name="add-branch-site-name"></a>新增分支網站名稱
 

@@ -1,8 +1,8 @@
 ---
 title: 封存伺服器範圍節點
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 description: 在 [拓撲產生器] 中，您可以執行與個別封存伺服器相關的工作，方法是在主控台樹中，以滑鼠右鍵按一下 [封存伺服器]，按一下工具列中的 [動作]，或是按一下 [動作] 窗格中的工作，再按一下下列封存伺服器選項。
-ms.openlocfilehash: 9fd05cf93a3f6e8e02361bf82d93ae1d4a3a221b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8c06dde680e1e491b835ca265338a3a7acda7841
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833449"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388241"
 ---
 # <a name="archiving-servers-scope-node"></a>封存伺服器範圍節點
  

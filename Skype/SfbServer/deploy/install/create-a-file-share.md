@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中建立檔案共用
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 摘要：瞭解如何在安裝商務用 Skype Server 時建立 Windows 伺服器檔案共用。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: c2b1048d911243987313568acde2bccea068fff9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c5d072c643061f65f68226eeed43f769a06bd2e4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842375"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385221"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>在商務用 Skype Server 中建立檔案共用
  
-**摘要：** 瞭解如何在安裝商務用 Skype Server 中建立 Windows 伺服器檔案共用。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 。
+**總結：** 瞭解如何在安裝商務用 Skype Server 中建立 Windows 伺服器檔案共用。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 。
   
 商務用 Skype Server 需要檔案共用，使整個拓撲中的電腦可以交換檔案。 建立檔案共用是商務用 Skype Server 安裝程式中的步驟2之8。 您可以依任何循序執行步驟1到5。 不過，您必須依序執行步驟6、7和8，並在圖表中所述的步驟1到5之後進行。 如需檔案共用的規劃詳細資料，請參閱[商務用 Skype Server 2019 商務用 Skype Server 或伺服器需求](../../../SfBServer2019/plan/system-requirements.md)[的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。
   
@@ -37,7 +37,7 @@ ms.locfileid: "60842375"
 本節會逐步引導您建立基本的 Windows 伺服器檔案共用。 商務用 Skype Server 支援基本 Windows 伺服器檔案共用。 不過，它並未明確提供高可用性。 在高可用性環境中，建議使用分散式檔案系統 (DFS) 檔案共用。 如需高可用性檔案共用及 DFS 的詳細資訊，請參閱[商務用 Skype Server 中的計畫高可用性和嚴重損壞修復](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
   
 > [!NOTE]
-> Windows Server 2012R2 在提供儲存體區域網路 (SAN) （如使用 Windows 伺服器平臺的檔案共用解決方案）上進行了重大的大幅突破。 與傳統的 SAN 裝置相較時，Windows Server 2012 R2 儲存解決方案可以以極小的效能影響降低成本。 如需 Windows Server 2012 R2 中檔案共用選項的詳細資訊，請參閱可下載的白皮書[Windows Server 2012 R2 儲存體](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf)。 
+> Windows Server 2012 R2 在提供儲存體區域網路 (SAN) （如使用 Windows 伺服器平臺的檔案共用解決方案）上有重大的大幅突破。 與傳統的 SAN 裝置相較時，Windows Server 2012 R2 儲存解決方案可以以極小的效能影響降低成本。 如需 Windows Server 2012 R2 中檔案共用選項的詳細資訊，請參閱可下載的白皮書[Windows Server 2012 R2 儲存體](https://download.microsoft.com/download/9/4/A/94A15682-02D6-47AD-B209-79D6E2758A24/Windows_Server_2012_R2_Storage_White_Paper.pdf)。 
   
 觀賞 **建立檔案共用** 的影片步驟：
   

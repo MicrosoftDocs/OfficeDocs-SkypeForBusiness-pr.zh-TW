@@ -1,8 +1,8 @@
 ---
 title: 規劃商務用 Skype Server 中的工作通話
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: 規劃在商務用 Skype Server 中的工作進行呼叫，可在商務用 Skype 和 pbx 電話系統之間進行整合，讓使用者可以使用商務用 Skype 來控制其 PBX 電話。
-ms.openlocfilehash: 0dddb601ecf9928aa1bd1cd63bc8ed3628a1330d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 821b933f3ad4e9aeae6d1ff7156059c37d2a24ab
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854217"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389101"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>規劃商務用 Skype Server 中的工作通話
  
@@ -47,7 +47,7 @@ ms.locfileid: "60854217"
 
 以下說明如何啟用透過工作呼叫的使用者可以使用商務用 Skype Server 進行通話：
   
-![顯示通話通話期間的步驟。首先，來電者會按一下呼叫商務用 Skype 用戶端中的某人;然後，UCWA 會振鈴來電者的電話。 當來電者挑選電話時，會呼叫收件者。](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
+![顯示通話通話期間的步驟。首先，來電者會按一下呼叫商務用 Skype 用戶端中的某人; 然後 UCWA 會振鈴來電者的電話。 當來電者挑選電話時，會呼叫收件者。](../../media/050e88ed-e18e-40c0-84d5-b17fe40c305a.jpg)
   
 1. 使用者在其商務用 Skype 用戶端中選取使用者，然後按一下電話圖示進行呼叫。 或者，在 IM 交談期間，使用者按一下以撥打與其有會話的使用者。
     

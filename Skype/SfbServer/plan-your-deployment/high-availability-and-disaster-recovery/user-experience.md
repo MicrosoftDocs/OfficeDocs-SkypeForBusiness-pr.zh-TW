@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 的集區失敗期間的使用者經驗
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: 深入瞭解當前端集區容錯移轉或在商務用 Skype Server 中的嚴重損壞復原期間容錯移轉時，使用者會遇到什麼情況。
-ms.openlocfilehash: 4fb48423d09a1d891e3eb5ae209059cb6722bf81
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 19533d855c8aeee453808873746609e2508b0b2f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835141"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390005"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>商務用 Skype Server 的集區失敗期間的使用者經驗
  
@@ -54,7 +54,7 @@ ms.locfileid: "60835141"
 |由不受影響的使用者組織的現行會議  <br/> |會議持續和受影響的使用者可以保留在會議中。 受影響的使用者限制為以復原模式來執行的動作。  <br/> |會議繼續進行，且受影響的使用者可以保留在會議中，而且在使用者結束復原模式後，所有形式都會運作。  <br/> |
 |排程或修改排程的會議，建立即席會議  <br/> |當使用者處於復原模式時，不可能。  <br/> |適用于所有形式。  <br/> |
 |相同集區中的其他使用者看到的狀態  <br/> |當使用者在復原模式期間登入備份組區時，目前狀態不明。  <br/> |顯示使用者設定的最後一個目前狀態，而且現在會反映目前狀態變更。  <br/> |
-|連絡人清單和通訊錄服務可用性  <br/> |不適用  <br/> |可以使用  <br/> |
+|連絡人清單和通訊錄服務可用性  <br/> |無法使用  <br/> |可以使用  <br/> |
 |所有點對點工作階段和形式  <br/> |提供  <br/> |提供  <br/> |
    
 **使用者在另一個集區的回切期間位於未受影響的集區中的使用者經驗**

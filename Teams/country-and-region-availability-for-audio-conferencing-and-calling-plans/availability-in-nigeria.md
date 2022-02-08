@@ -1,7 +1,7 @@
 ---
 title: 在奈及利亞的可用性
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: 8b73682321fb1b82223ff2fd7e3c5a7ebe741e6c
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: 以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
+ms.openlocfilehash: bfb76aa91f2af5e52f53e96862e121ae5bf8c0cb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191754"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389035"
 ---
 # <a name="availability-in-nigeria"></a>在奈及利亞的可用性
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于Microsoft 365的Office 365和商務用 Skype Microsoft Teams服務。
+以下是適用于Microsoft 365 Office 365的商務用 Skype和Microsoft Teams服務。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
@@ -72,7 +72,7 @@ ms.locfileid: "62191754"
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
 |是否提供免付費號碼？  <br/> |否  <br/> |
    
- 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
+ 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype [Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通訊點數
 

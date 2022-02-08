@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中規劃視頻 Interop 伺服器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 摘要：在規劃將商務用 Skype Server 與協力廠商電話會議裝置進行整合時，複查這個主題。
-ms.openlocfilehash: b928e432b464e6bf1a5ccb8748ebf75ef8cc596b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 38e5baebc55cbcb209260f003ea107af590f94e8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862060"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389935"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃視頻 Interop 伺服器
  
-**摘要：** 在規劃將商務用 Skype Server 與協力廠商電話會議裝置整合時，請複查這個主題。
+**總結：** 在規劃將商務用 Skype Server 與協力廠商電話會議裝置整合時，請複查這個主題。
   
 商務用 Skype Server 現在可讓您與特定協力廠商 VTC (Video 電話會議 System) 方案進行整合。 新的伺服器角色可讓這種影片成為 VIS 互通性，這是一種影片 Interop 伺服器 () ，目前是以獨立伺服器角色的形式來執行，只供內部部署安裝使用。 VIS 是以協力廠商電話會議系統和商務用 Skype Server 部署為媒介。 在此版本中，VIS 著重于與 Cisco/Tandberg 影片系統的互通性。 請參閱這篇文章，以決定在商務用 Skype Server 安裝中是否使用此功能。
   

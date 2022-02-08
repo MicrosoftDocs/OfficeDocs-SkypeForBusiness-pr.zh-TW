@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 2015 中的 ConferenceJoinTimeThresholds 表格
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
 description: ConferenceJoinTimeThresholds 表格中包含「會議加入時間摘要報告」所使用的分類界限。「會議加入時間摘要報告」摘要說明了使用者成功加入會議所需的時間；在報告中這些時間值會以平均值及下列其中一項類別表示：
-ms.openlocfilehash: df247fc259d17fbb0ec263210216563b5b96b0e5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0ecdb432c5e386944e762016236e4c42fe6d9dae
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854177"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386311"
 ---
 # <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 中的 ConferenceJoinTimeThresholds 表格
  

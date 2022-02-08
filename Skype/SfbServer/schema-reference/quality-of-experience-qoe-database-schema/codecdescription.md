@@ -1,8 +1,8 @@
 ---
 title: CodecDescription 表格
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3598acb8-7ea6-4748-8417-149c971c32a2
 description: CodecDescription 表格會將唯一的轉碼器識別碼對應至它們對應的轉碼器。 轉碼器可用來為數位訊號編碼以利傳輸與廣播，然後將它們解碼以進行播放。 此表格已引進 Microsoft Lync Server 2013
-ms.openlocfilehash: 8ef16503e1e28f3de478ef5593c990c4ce2e45dd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3f95de9cf7b6e9aaa778644896bcc458229a23d3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827356"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384171"
 ---
 # <a name="codecdescription-table"></a>CodecDescription 表格
  

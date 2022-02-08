@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype 中建立或修改代理人群組
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: 在 [回應群組] 的 [商務用 Skype Server 企業語音中建立或修改代理程式群組。
-ms.openlocfilehash: d4254a3851b434145eb3afa5cec1a721c51fe1f2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6428a5024922ff74e19404c481794e60e3304998
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853757"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388920"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>在商務用 Skype 中建立或修改代理人群組
  

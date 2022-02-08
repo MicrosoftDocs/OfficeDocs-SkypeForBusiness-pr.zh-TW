@@ -1,8 +1,8 @@
 ---
 title: 新增 VIS 使用
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: db402ac4-4c30-405e-b322-6aae5df81f46
 description: 在拓撲產生器中定義新的 VIS 或視頻閘道所需的步驟，將在商務用 Skype Server 2015 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: d42048c063c58a348446c781531c9cf7e56a8737
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1ee5ee43ff182603e95dba2de9960697dfe6421b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842065"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388321"
 ---
 # <a name="add-vis-usage"></a>新增 VIS 使用
  

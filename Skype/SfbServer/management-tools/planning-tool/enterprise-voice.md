@@ -1,8 +1,8 @@
 ---
 title: 企業語音規劃工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 description: 透過企業語音，商務用 Skype Server 2015 可提供獨立的語音 over 網際網路通訊協定 (VoIP) 提供以加強或取代傳統 PBX 系統的功能。 使用者可以撥打組織 VoIP 網路或 PBX 上的同事，也可以撥打組織外部的電話號碼。 企業語音方案包含常見呼叫功能（例如，答案、轉寄、轉移、保留、轉移、發行和寄存）及增強型 9-1-1 (E9-1-1) 呼叫 (E9-1-1 只適用于美國。 ) 企業語音也支援廣泛的目前和較舊的 IP 和 USB 裝置。
-ms.openlocfilehash: d124071baa20dbdfe36d1c85c2843e45f487c94b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fe47047726e04bcad144c62520a6386c10b9f7b1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863470"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386541"
 ---
 # <a name="enterprise-voice-planning-tool"></a>企業語音規劃工具
  

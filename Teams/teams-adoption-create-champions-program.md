@@ -1,7 +1,7 @@
 ---
 title: 建立您的冠軍計畫Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
@@ -18,15 +18,15 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解如何在貴組織中提升認知度、採用Teams教育，來培養團隊的採用能力。
+description: 瞭解如何在貴組織中提升認知度、採用Teams，來培養團隊的採用能力。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 989525f627a4d8c6ef18f1e17cab9446d85a0a88
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 446b0e4ba0cdc549623ac0411a549e481288ed3b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190884"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387471"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>建立您的冠軍計畫Microsoft Teams
 
@@ -45,7 +45,7 @@ ms.locfileid: "62190884"
 
 使用我們的 [冠軍計劃指南](https://aka.ms/M365Champions) 在貴組織中建立此計畫。 我們針對這個社群的最佳作法是：
 
-- 加入 [冠軍計畫](https://aka.ms/O365Champions)。 請確定至少，"冠軍計畫"的 (以及可能所有的公司) 都是計畫的成員。 這項免費的每月社群通話會提供寶貴的資訊，以執行您自己的計畫，並Teams其他Microsoft 365或Office 365服務。 程式資料可以在您自己的內部程式中重複使用。
+- 加入 [冠軍計畫](https://aka.ms/O365Champions)。 請確定至少由 "冠軍計畫" (且可能所有公司) 的領軍者都是計畫的成員。 這項免費的每月社群通話會提供寶貴的資訊，以執行您自己的計畫，並Teams其他Microsoft 365或Office 365服務。 程式資料可以在您自己的內部程式中重複使用。
 
 - 使用團隊團隊：您的支援者應該使用您為團隊設定的團隊進行所有計劃通訊、意見回饋，以及尋找資源。  在這麼做時，他們將會逐漸熟悉產品及其優點。
 

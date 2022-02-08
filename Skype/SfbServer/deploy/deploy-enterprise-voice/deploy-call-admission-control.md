@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中部署通話許可控制
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 description: 通話許可控制 (CAC) 是一種方案，可判斷即時會話是否可以根據可用的頻寬建立，以協助避免網路擁塞之使用者的音訊/視頻品質不良。
-ms.openlocfilehash: f7d813d85a3c3eadd770c1dc939358506c230d44
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 395d40caaf9db491bffad0723cab0142238bd32a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861900"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385301"
 ---
 # <a name="deploy-call-admission-control-in-skype-for-business-server"></a>在商務用 Skype Server 中部署通話許可控制
  
@@ -41,7 +41,7 @@ ms.locfileid: "60861900"
     
 6. 建立網路網站間原則，詳細資訊請在[商務用 Skype Server 中建立網路網站間原則](create-network-intersite-policies.md)。
     
-7. 啟用通話許可控制，詳細資訊請[商務用 Skype Server 中的啟用通話許可控制](enable-call-admission-control.md)。
+7. 啟用通話許可控制，詳細資訊請商務用 Skype Server 中的[啟用通話許可控制](enable-call-admission-control.md)。
     
 8. 請查看一些最後的設定，以確保已正確設定所有專案。 如需詳細資訊，請參閱[通話許可控制部署：商務用 Skype Server 的最終檢查清單](final-checklist.md)。
     

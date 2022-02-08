@@ -1,8 +1,8 @@
 ---
 title: DNS 基本知識
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 具有可提供 DNS 服務的內建軟體，所以您可能想要查看可用的檔，例如 DNS 原則案例指南。 您可以選擇協力廠商的解決方案（如果您願意）。
-ms.openlocfilehash: ca6bb3a7e7676f7eec5e7b8d384757099f012514
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 86d9973015acd389cdbdfdb252cb98b8a9a5cbee
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835001"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387651"
 ---
 # <a name="dns-basics"></a>DNS 基本知識
  
@@ -27,7 +27,7 @@ Windows Server 2016 具有可提供 DNS 服務的內建軟體，所以您可能�
   
 ## <a name="dns-records"></a>DNS 記錄
 
-名稱對應至 IP 位址的每個對應 (，也可以是 IPv4 或 IPv6 的位址) 儲存在 DNS 伺服器上的 DNS 記錄中。 在 DNS 報告中，特別是以 FQDN （即完整功能變數名稱）說明的名稱。 雖然 *contoso.com* 是有效的功能變數名稱，但它是 *\* contoso.com* 的簡寫，所以是不明確的，而且可能會參照網域中的任何伺服器。 在您的網域中，會參照單一伺服器的 FQDN 範例可能是 **meeting01.contoso.com**。
+名稱對應至 IP 位址的每個對應 (，也可以是 IPv4 或 IPv6 的位址) 儲存在 DNS 伺服器上的 DNS 記錄中。 在 DNS 報告中，特別是以 FQDN （即完整功能變數名稱）說明的名稱。 雖然 *contoso.com* 是有效的功能變數名稱，但它是 contoso.com 的簡寫 *\** ，所以是不明確的，而且可能會參照網域中的任何伺服器。 在您的網域中，會參照單一伺服器的 FQDN 範例可能是 **meeting01.contoso.com**。
   
 > [!IMPORTANT]
 > 依預設，未加入網域之電腦的電腦名稱稱為主機名稱，而不是完整功能變數名稱 (FQDN) 。 拓撲產生器使用 Fqdn，而非主機名稱。 因此，在未加入網域但要部署為 Edge Server 電腦的電腦名稱中，您必須設定 DNS 尾碼。 將 fqdn 指派給執行商務用 Skype Server 的伺服器時，請 **只使用標準字元** (包括 A-Z、a-z、0-9 和連字號) 。 請勿使用 Unicode 字元或底線。 也就是當 FQDN 必須指派給憑證的 SN 時，外部 DNS 與公用 CA 通常不支援在 FQDN 中使用非標準字元。
@@ -47,7 +47,7 @@ Windows Server 2016 具有可提供 DNS 服務的內建軟體，所以您可能�
 ## <a name="how-to-choose-a-sip-domain-name"></a>如何選擇 SIP 功能變數名稱
 <a name="BK_NameSIP"> </a>
 
-組織的 SIP 功能變數名稱通常會與其使用者提供的電子郵件地址對齊。 如果您組織中的使用者會擁有類似 Brown@contoso.com 的電子郵件地址，則 \<sip-domain\> 使用 contoso.com 功能變數名稱的組織偏好只是 contoso.com。
+組織的 SIP 功能變數名稱通常會與其使用者提供的電子郵件地址對齊。 如果您組織中的使用者會擁有類似 Brown@contoso.com 的電子郵件地址，則使用 contoso.com 功能變數名稱的組織偏好 \<sip-domain\> 只是 contoso.com。
   
 ### <a name="multiple-sip-domains"></a>多個 SIP 網域
 

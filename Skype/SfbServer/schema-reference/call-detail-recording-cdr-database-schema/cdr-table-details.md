@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 2015 的 CDR 表格詳細資料
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: 下列主題詳細說明 (CDR) 資料庫架構表格中每一個詳細通話記錄的各欄。
-ms.openlocfilehash: 6a88bbb0f76e8bb222de8f4dce665c2177ac9e56
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: eecc6ee6deae0b718ec24fe590cb0148f9e232a3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845076"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386381"
 ---
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的 CDR 表格詳細資料
  

@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的轉送伺服器元件
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 深入瞭解商務用 Skype Server 中的轉送伺服器，包括其支援的拓撲及其關係，以 M:N 主幹、媒體旁路和通話許可控制。
-ms.openlocfilehash: 10d35081e1b6af1d7ee634fa3507a9c6d46f3954
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: db825324ca1493e9ecf93ca9bacb4ed5e58c5a96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861170"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387681"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>商務用 Skype Server 中的轉送伺服器元件
  

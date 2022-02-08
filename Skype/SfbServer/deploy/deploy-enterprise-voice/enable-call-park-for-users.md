@@ -1,8 +1,8 @@
 ---
 title: 為商務用 Skype 中的使用者啟用通話駐留
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: 在商務用 Skype Server 企業語音中為使用者啟用通話駐留。
-ms.openlocfilehash: 87ac29c8f9b6c893149db8fb91561ee4b3cf1166
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 84a37ad9e3b77042c1c2c04d1d6562b3bb780ee2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843506"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386342"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>為商務用 Skype 中的使用者啟用通話駐留
  

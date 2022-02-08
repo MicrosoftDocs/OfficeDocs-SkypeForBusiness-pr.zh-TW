@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中簡易 URLs 的 DNS 需求
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 摘要：在為商務用 Skype Server 執行 DNS 記錄之前，請參閱本主題中的簡易 URL 考慮。
-ms.openlocfilehash: 1dd3b4b06b704e7d840dd6f430a9ba9782913a3b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 92cf8c91956eab9648869c5a05ccc57682ecc5fd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864670"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389985"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>商務用 Skype Server 中簡易 URLs 的 DNS 需求
 
-**摘要：** 在執行商務用 Skype Server 的 DNS 記錄之前，請參閱本主題中的簡易 URL 考慮。
+**總結：** 在執行商務用 Skype Server 的 DNS 記錄之前，請參閱本主題中的簡易 URL 考慮。
 
 簡單 URLs 使您的使用者加入會議變得更容易，並讓系統管理員更容易商務用 Skype Server 系統管理工具。 簡易 URLs 會使用自己的網域，而不能比對任何您定義的 SIP 網域。 
 
@@ -42,14 +42,14 @@ ms.locfileid: "60864670"
 
 拓撲產生器和商務用 Skype Server 管理命令介面 Cmdlet 會針對您的簡單 URLs 強制執行數種驗證規則。 您必須為符合和撥入設定簡單的 URLs，但為 Admin 設定一個是選用的。 每個 SIP 網域都必須有個別的符合簡單 URL，但是您只需要一個撥入簡易 URL 和一個系統管理員簡易 URL 給整個組織。
 
-您組織中的每個簡易 URL 都必須有唯一的名稱，而且不能是另一個簡單 URL 的首碼 (例如，您無法設定 `SfB2015.contoso.com/Meet` 為您的符合簡單 url，也無法將您 `SfB2015.contoso.com/Meet/Dialin` 的撥入簡易 url) 。 簡單 URL 名稱不能包含任何集區的 FQDN，或任何埠資訊 (例如， https://FQDN:88/meet 不允許) 。 所有的簡單 URLs 都必須以 HTTPs://前置詞開頭。 
+您組織中的每個簡易 URL 都必須有唯一的名稱，而且不能是另一個簡單 URL 的首碼 (例如，您無法設定為您的符合簡單 URL， `SfB2015.contoso.com/Meet/Dialin` 也無法將 `SfB2015.contoso.com/Meet` 您的撥入簡易 url) 。 簡單 URL 名稱不能包含任何集區的 FQDN，或任何埠資訊 (例如， https://FQDN:88/meet 不允許) 。 所有的簡單 URLs 都必須以 HTTPs://前置詞開頭。 
 
 簡單 URLs 只能包含字母數位字元 (即 a-z、A-Z、0-9 和句點 (。 ) 。 如果您使用其他字元，則簡單 URLs 可能無法如預期那樣運作。
 
 ## <a name="changing-simple-urls-after-deployment"></a>在部署後變更簡單 URLs
 <a name="BK_Valid"> </a>
 
-如果您在初始部署後變更簡單 URL，您必須注意變更會如何影響您的 DNS 記錄和憑證以取得簡易 URLs。 如果簡單 URL 的基底變更，您也必須變更 DNS 記錄和憑證。 例如，若要變更 `https://SfB2015.contoso.com/Meet` 為 `https://meet.contoso.com` 變更來源 URL， `SfB2015.contoso.com` `meet.contoso.com` 您必須變更要參考的 DNS 記錄和憑證 `meet.contoso.com` 。 如果您已將簡易 URL 從 [變更 `https://SfB2015.contoso.com/Meet` 為] `https://SfB2015.contoso.com/Meetings` ，則基底 url `SfB2015.contoso.com` 保持不變，因此不需要任何 DNS 或憑證變更。
+如果您在初始部署後變更簡單 URL，您必須注意變更會如何影響您的 DNS 記錄和憑證以取得簡易 URLs。 如果簡單 URL 的基底變更，您也必須變更 DNS 記錄和憑證。 例如，若要變更為變更來源 `https://SfB2015.contoso.com/Meet` `https://meet.contoso.com` URL `SfB2015.contoso.com` `meet.contoso.com` ，您必須變更要參考 `meet.contoso.com` 的 DNS 記錄和憑證。 如果您已將簡易 URL 從 `https://SfB2015.contoso.com/Meet` [變更為 `https://SfB2015.contoso.com/Meetings` ]，則基底 url `SfB2015.contoso.com` 保持不變，因此不需要任何 DNS 或憑證變更。
 
 不過，每當您變更簡易 URL 名稱時，您必須在每個 Director 和前端伺服器上執行 **Enable-CsComputer** ，以註冊變更。
 
@@ -69,18 +69,18 @@ ms.locfileid: "60864670"
 
 | **簡單 URL** <br/> | **範例** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| 滿足  <br/>          | `https://meet.contoso.com`、等等 `https://meet.fabrikam.com` 等等 (組織中的每個 SIP 網域)   <br/> |
+| 滿足  <br/>          | `https://meet.contoso.com`、 `https://meet.fabrikam.com` 等等等等 (組織中的每個 SIP 網域)   <br/> |
 | 撥入  <br/>       | `<https://dialin.contoso.com>`  <br/>                                                                                  |
 | 系統管理員  <br/>         | `<https://admin.contoso.com>`  <br/>                                                                                   |
 
-使用選項2時，簡單 URLs 是以功能變數名稱為基礎 `SfB2015.contoso.com` 。 因此，您只需要一個 DNS A 記錄，即可啟用所有三種類型的簡單 URLs。 DNS A 記錄參照 `SfB2015.contoso.com` 。 此外，您的組織中的其他 SIP 網域仍然需要不同的 DNS A 記錄。 
+使用選項2時，簡單 URLs 是以功能變數名稱 `SfB2015.contoso.com` 為基礎。 因此，您只需要一個 DNS A 記錄，即可啟用所有三種類型的簡單 URLs。 DNS A 記錄參照 `SfB2015.contoso.com` 。 此外，您的組織中的其他 SIP 網域仍然需要不同的 DNS A 記錄。 
 
 **簡單 URL 命名選項2**
 
 
 | **簡單 URL** <br/> | **範例** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| 滿足  <br/>          | `https://SfB2015.contoso.com/Meet`、等等 `https://SfB2015.fabrikam.com/Meet` 等等 (組織中的每個 SIP 網域)   <br/> |
+| 滿足  <br/>          | `https://SfB2015.contoso.com/Meet`、 `https://SfB2015.fabrikam.com/Meet` 等等等等 (組織中的每個 SIP 網域)   <br/> |
 | 撥入  <br/>       | `<https://SfB2015.contoso.com/Dialin>`  <br/>                                                                                          |
 | 系統管理員  <br/>         | `<https://SfB2015.contoso.com/Admin>`  <br/>                                                                                           |
 
@@ -114,14 +114,14 @@ Meet-ext.geolb.contoso.com
      Pool2ExternalWebFQDN.contoso.com
 ```
 
-然後建立可解析符合簡易 URL (的 CNAME 記錄，例如 `meet.contoso.com`) 兩個 GeoDNS 位址。
+然後建立可解析符合簡易 URL (`meet.contoso.com` 的 CNAME 記錄，例如) 兩個 GeoDNS 位址。
 
 > [!NOTE]
 > 如果網路使用「髮夾」 (將所有簡單 URL 流量透過外部連結路由，包括來自組織內的流量)，則可僅設定外部 GeoDNS 位址，並將 Meet 簡單 URL 僅解析為該外部位址。
 
 使用此方法時，可設定每個 GeoDNS 位址使用循環配置資源方法來散發要求至兩個集區，或者主要連線至一個集區 (例如地理位置上較近的集區)，然後僅在連線失敗時才使用另一個集區。 
 
-針對 Dial-In 簡單 URL 也可以設定相同的組態。 若要這麼做，請建立如先前範例中的其他記錄，並以  `dialin` `meet` DNS 記錄取代。 針對 Admin 簡單 URL，請使用本節中先前列出的三個選項。
+針對 Dial-In 簡單 URL 也可以設定相同的組態。 若要這麼做，請建立如先前範例中的其他記錄，並以 DNS 記錄取代  `dialin` `meet` 。 針對 Admin 簡單 URL，請使用本節中先前列出的三個選項。
 
 此組態一旦設定，就必須使用監控應用程式，設定 HTTP 監控以監看失敗。 若要進行外部存取，請確定 HTTPS 取得 lyncdiscover。\<sipdomain> 兩個集區的外部 web FQDN 或負載平衡器 IP 位址要求都成功。 例如，下列要求不得包含任何 **ACCEPT** 標頭且必須傳回 **200 OK**。
 

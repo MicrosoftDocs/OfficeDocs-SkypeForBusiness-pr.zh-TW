@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中為使用者啟用企業語音
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 摘要：瞭解如何使用商務用 Skype Server 中的企業語音，讓使用者能夠撥打和接聽電話。
-ms.openlocfilehash: 3dab9488b1d184f5d3dd215f4012933de1ca0245
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a910ecb8638b926be9d04234c6f429a97cbd28f2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864340"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387339"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>在商務用 Skype Server 中為使用者啟用企業語音
  
-**摘要：** 瞭解如何使用商務用 Skype Server 中的企業語音，讓使用者能夠撥打和接聽電話。
+**總結：** 瞭解如何使用商務用 Skype Server 中的企業語音，讓使用者能夠撥打和接聽電話。
   
 在您部署企業語音或呼叫透過工作之後，您可以使用下列程式，讓使用者使用企業語音來撥打電話：
   

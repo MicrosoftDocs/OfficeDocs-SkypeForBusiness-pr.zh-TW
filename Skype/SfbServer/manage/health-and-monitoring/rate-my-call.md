@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中評價我的通話
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 摘要：瞭解商務用 Skype Server 中的通話功能的速率。
-ms.openlocfilehash: f19424edfb4169a27e10a8b5ac1624065e6288dd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 27fbfa68026feeef54d478ba473961601db0ae8d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864830"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390125"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>在商務用 Skype Server 中評價我的通話
 
-**摘要：** 深入瞭解商務用 Skype Server 中的通話功能的速率。
+**總結：** 深入瞭解商務用 Skype Server 中的通話功能的速率。
 
 評價我的來電是 Windows 中商務用 Skype 2015 和2016用戶端的新功能，可讓企業從使用者取得意見反應的方式。
 
@@ -151,7 +151,7 @@ SELECT
             Caller.UserKey = CallerCqf.FromURI
 ```
 
- **影片**
+ **視頻**
 
 ```SQL
 SELECT

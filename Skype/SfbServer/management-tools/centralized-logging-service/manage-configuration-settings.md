@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 2015 中管理集中式記錄服務設定設定
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
@@ -14,16 +14,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中取得、更新及建立集中式記錄服務的設定。
-ms.openlocfilehash: 27202b870ba0115f045eda367619a449b307e708
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 655c5a18d64ae17000f975680f0b9b9a6a42323f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831927"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385552"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中管理集中式記錄服務設定設定
 
-**摘要：** 瞭解如何在商務用 Skype Server 2015 中取得、更新及建立集中式記錄服務的設定。
+**總結：** 瞭解如何在商務用 Skype Server 2015 中取得、更新及建立集中式記錄服務的設定。
 
 集中式記錄服務是由集中式記錄服務控制器 (CLSController) 所建立及使用的設定和參數來控制及設定，將命令傳送至個別電腦的集中式記錄服務代理 (CLSAgent) 。 代理程式會處理傳送給它的命令， (並在開始命令) 使用案例的設定、提供者、追蹤持續時間及旗標開始根據所提供的設定資訊來收集追蹤記錄檔。
 

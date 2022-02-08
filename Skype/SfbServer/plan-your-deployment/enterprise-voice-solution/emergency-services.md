@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中規劃緊急服務
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: 深入瞭解商務用 Skype Server 企業語音中的增強型 9-1-1 (E9-1-1) 服務，包括位置取得及呼叫路由。
-ms.openlocfilehash: 4f75dcce3bc8de2e8e4f806c1c571c2e7cad1afe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7998b1cbc91d10daae1fb0b163e2a5041d4559f4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844156"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387721"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃緊急服務
 

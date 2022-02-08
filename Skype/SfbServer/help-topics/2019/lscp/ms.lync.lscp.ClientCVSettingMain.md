@@ -1,8 +1,8 @@
 ---
 title: 用戶端版本組態
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 除了指定您要在環境中支援的用戶端版本之外，您也可以針對尚未定義版本原則的用戶端，指定預設動作。 這可讓您限制環境中所使用的用戶端版本，這可協助您控制支援多個用戶端版本的相關成本。
-ms.openlocfilehash: fbbe0e6386af8474a621d974faa9936d03d33dbf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 57720ae070f8051febc53b0287d6aa9d87985257
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857910"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387191"
 ---
 # <a name="client-version-configuration"></a>用戶端版本組態
 
@@ -44,7 +44,7 @@ ms.locfileid: "60857910"
 下列清單說明頁面上的功能表、命令、欄位及內容。
 
 
-- **新** 您可以為特定網站建立用戶端版本設定。
+- **新增功能** 您可以為特定網站建立用戶端版本設定。
 
 - **編輯** 您可以變更任何用戶端版本原則的選項。 使用此選項，您可以執行下列作業：
 
@@ -52,8 +52,8 @@ ms.locfileid: "60857910"
 
   - **全選** 此選項會選取清單中的所有用戶端版本設定。
 
-  - **Delete** 此選項會刪除所有選取的用戶端版本設定。
+  - **刪除** 此選項會刪除所有選取的用戶端版本設定。
 
-- **Refresh** 您可以重新整理用戶端版本設定清單，以確認所有用戶端版本設定的選項狀態。
+- **刷新** 您可以重新整理用戶端版本設定清單，以確認所有用戶端版本設定的選項狀態。
 
 如需用戶端與用戶端版本之間的互用性相關詳細資訊，請參閱規劃檔中的 [用戶端互通性](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) 。 如需使用用戶端版本設定的詳細資訊，請參閱作業文件中的＜[Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted)＞。

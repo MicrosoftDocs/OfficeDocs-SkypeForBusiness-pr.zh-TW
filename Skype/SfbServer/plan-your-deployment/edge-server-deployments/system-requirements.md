@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的 Edge Server 系統需求
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 摘要：瞭解商務用 Skype Server 中 Edge Server 的系統需求。
-ms.openlocfilehash: f61412ab8246945e50af0276e46ac53ca080605c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3ea05067749890b5f42501e4e4380a7a42599a0b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863460"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387881"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>商務用 Skype Server 中的 Edge Server 系統需求
  
-**摘要：** 深入瞭解商務用 Skype Server 中的 Edge Server 的系統需求。
+**總結：** 深入瞭解商務用 Skype Server 中的 Edge Server 的系統需求。
   
 當您商務用 Skype Server Edge Server 部署時，這些是您要對環境本身的伺服器或伺服器進行的工作，以及規劃環境結構。 如需拓撲、DNS、憑證及其他基礎結構問題的詳細資訊，請參閱環境需求檔。
   
@@ -140,7 +140,7 @@ Director 是一個內部的下一個躍點伺服器，它會接收來自目標�
 
 商務用 Skype Server 調整式合併 Edge 拓撲已針對新部署的 DNS 負載平衡進行優化，我們建議這樣做。 如果您需要高可用性，建議使用硬體負載平衡器以取得一個特定狀況：
   
-- Exchange在 Exchange 2013 **之前**，使用 Exchange um 的遠端使用者 um。
+- Exchange 2013 **之前**，使用 Exchange um 的遠端使用者 Exchange UM。
     
 > [!IMPORTANT]
 > 請務必注意，您不能混合負載平衡器。 在您的商務用 Skype Server 環境中，所有介面都必須使用 DNS 或 HLB。 

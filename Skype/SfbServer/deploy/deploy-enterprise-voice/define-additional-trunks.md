@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中定義拓撲產生器中的其他主幹
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 摘要：瞭解如何在商務用 Skype Server 的拓撲產生器中，定義轉送伺服器與閘道對等之間的其他主幹。
-ms.openlocfilehash: 9e9927e4e62590ae9e901ed090ecfd80cc64533b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d490033f8efff1176fe9cca1fc7cbd7582e5e126
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857940"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62388895"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>在商務用 Skype Server 中定義拓撲產生器中的其他主幹
  
-**摘要：** 瞭解如何在商務用 Skype Server 的拓撲產生器中，定義轉送伺服器與閘道對等之間的其他主幹。
+**總結：** 瞭解如何在商務用 Skype Server 的拓撲產生器中，定義轉送伺服器與閘道對等之間的其他主幹。
   
 請遵循下列步驟來定義您可以將對等與轉送伺服器產生關聯的其他主幹。 對等使用者可為企業語音啟用公用交換電話網路 (PSTN) 的連線。 對等可以是 Internet 電話語音服務提供者的 PSTN 閘道、IP-PBX 或會話邊界控制器 (SBC)  (ITSP) 。
   

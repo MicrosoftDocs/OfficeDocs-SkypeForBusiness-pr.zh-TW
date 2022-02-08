@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的 Edge Server 環境需求
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 摘要：瞭解商務用 Skype Server 中 Edge Server 的環境需求。
-ms.openlocfilehash: ce545b6d8242db34a716d386fdca9149c0296a8c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6594b76a66aab6354db516f1223059fe09caf82
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830807"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387971"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>商務用 Skype Server 中的 Edge Server 環境需求
  
-**摘要：** 深入瞭解商務用 Skype Server 中的 Edge Server 環境需求。
+**總結：** 深入瞭解商務用 Skype Server 中的 Edge Server 環境需求。
   
 您必須在商務用 Skype Server Edge Server 環境本身之外進行許多規劃與準備工作。 在本文中，我們將回顧在組織環境中所需進行的準備工作，如下列清單所示：
   
@@ -40,7 +40,7 @@ ms.locfileid: "60830807"
 ## <a name="topology-planning"></a>拓撲規劃
 <a name="TopoPlan"> </a>
 
-商務用 Skype ServerEdge Server 拓撲可使用：
+商務用 Skype Server 邊際伺服器拓撲可使用：
   
 - 可路由的公用 IP 位址。
     
@@ -87,7 +87,7 @@ ms.locfileid: "60830807"
 |調整式合併 Edge （利用公用 IP 位址 (DNS 負載平衡）)   <br/> |是  <br/> |是  <br/> |是  <br/> |是&sup1;  <br/> |
 |調整式合併 Edge （使用硬體負載平衡器）  <br/> |是  <br/> |否 (每個 VIP 各一個 DNS A 記錄)  <br/> |是  <br/> |是  <br/> |
    
-&sup1;Exchange整合通訊 (UM) 使用 DNS 負載平衡的遠端使用者容錯移轉需要 Exchange 2013 或更新版本。
+&sup1;Exchange 整合通訊 (UM) 使用 DNS 負載平衡的遠端使用者容錯移轉需要 Exchange 2013 或更新版本。
   
 ### <a name="ip-address-requirements"></a>IP 位址需求
 
@@ -266,7 +266,7 @@ Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (�
 
 |**Location**|**類型**|**Port**|**FQDN**|**FQDN 主機記錄**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|外部 DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp .com  <br/> |sip.contoso.com  <br/> |自動 DNS 探索所需的 SIP 存取 Edge 外部介面。 其他潛在同盟協力廠商使用。 也稱為「允許 SIP 網域」。 您將需要與商務用 Skype 使用者一起使用的每個 SIP 網域的其中一個。  <br/><br/> **附注：** 您將需要此 SRV 記錄的行動性及推播通知結算。 <br/> |
+|外部 DNS  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp .com  <br/> |sip.contoso.com  <br/> |自動 DNS 探索所需的 SIP 存取 Edge 外部介面。 其他潛在同盟協力廠商使用。 也稱為「允許 SIP 網域」。 您將需要與商務用 Skype 使用者一起使用的每個 SIP 網域的其中一個。  <br/><br/> **注意：** 您將需要此 SRV 記錄的行動性及推播通知結算。 <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>可延伸訊息和顯示狀態通訊協定的 DNS 記錄
 
@@ -328,12 +328,12 @@ Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (�
   
 |**元件**|**主體名稱 (SN)**|**(SAN) /order 的主體替代名稱**|**附註**|
 |:-----|:-----|:-----|:-----|
-|外部 Edge  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |這是您從公用 CA 要求所需的憑證。 您必須將其指派給下列各項的外部 Edge 介面：  <br/> • Access Edge  <br/> • Web 會議 Edge  <br/> • Audio/Video 驗證  <br/> <br/>好消息是，San 會自動新增至您的憑證要求，因此您提交要求之後，您可以根據您在拓撲產生器中為此部署定義的專案來提交要求。 您只需要新增 SAN 專案供任何額外的 SIP 網域或您需要支援的其他專案。 為何 sip.contoso.com 在此實例中複寫？ 這種情況也會自動發生，而且必須有哪些專案才能正常運作。  <br/><br/> **附注：** 此憑證也可用於公用立即訊息連線。 您不需要對它執行任何不同的作業，但是在此檔的先前版本中，它會列為個別的資料表，而現在也是不是。 <br/> |
+|外部 Edge  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |這是您從公用 CA 要求所需的憑證。 您必須將其指派給下列各項的外部 Edge 介面：  <br/> • Access Edge  <br/> • Web 會議 Edge  <br/> • Audio/Video 驗證  <br/> <br/>好消息是，San 會自動新增至您的憑證要求，因此您提交要求之後，您可以根據您在拓撲產生器中為此部署定義的專案來提交要求。 您只需要新增 SAN 專案供任何額外的 SIP 網域或您需要支援的其他專案。 為何 sip.contoso.com 在此實例中複寫？ 這種情況也會自動發生，而且必須有哪些專案才能正常運作。  <br/><br/> **注意：** 此憑證也可用於公用立即訊息連線。 您不需要對它執行任何不同的作業，但是在此檔的先前版本中，它會列為個別的資料表，而現在也是不是。 <br/> |
 |內部 Edge  <br/> |sfbedge.contoso.com  <br/> |NA  <br/> |您可以從公用 CA 或內部 CA 取得此憑證。 它需要包含伺服器 EKU (增強型金鑰使用狀況) ，而且您會將其指派給內部 Edge 介面。  <br/> |
    
 如果您需要憑證以進行可延伸的訊息和顯示狀態通訊協定 (XMPP) ，它看起來會與上述的外部 Edge 表專案完全相同，但會有下列兩個額外的 SAN 專案：
   
-- xmpp。 <span></span>contoso <span></span>
+- Xmpp。 <span></span>contoso <span></span>
     
 - \*<span></span>.com
     
@@ -378,7 +378,7 @@ Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (�
 
 |**Protocol** (通訊協定)|**TCP 或 UDP**|**Port**|**來源 IP 位址**|**目的地 IP 位址**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |任何執行 XMPP 閘道服務的下列專案：  <br/> •前端伺服器  <br/> •前端集區  <br/> |Edge Server 內部介面  <br/> |您的前端伺服器或前端集區上執行的 XMPP 閘道服務的輸出 XMPP 流量。  <br/> **附注：** XMPP 的閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 。|
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |任何執行 XMPP 閘道服務的下列專案：  <br/> •前端伺服器  <br/> •前端集區  <br/> |Edge Server 內部介面  <br/> |您的前端伺服器或前端集區上執行的 XMPP 閘道服務的輸出 XMPP 流量。  <br/> **注意：** XMPP 的閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 。|
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |任何：  <br/> • Director  <br/> • Director 集區  <br/> •前端伺服器  <br/> •前端集區  <br/> |Edge Server 內部介面  <br/> |從 Director、Director 集區、前端伺服器或前端集區到 Edge Server 內部介面的輸出 SIP 流量。  <br/> |
 |SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Edge Server 內部介面  <br/> |任何：  <br/> • Director  <br/> • Director 集區  <br/> •前端伺服器  <br/> •前端集區  <br/> |從 Edge Server 內部介面到 Director、Director 集區、前端伺服器或前端集區的輸入 SIP 流量。  <br/> |
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |任何：  <br/> •前端伺服器  <br/> •每一部前端伺服器  <br/>  在前端集區中 <br/> |Edge Server 內部介面  <br/> |前端伺服器或每一部前端伺服器的 Web 會議流量 (若您的 Edge Server 內部介面) 有前端集區。  <br/> |
@@ -414,7 +414,7 @@ Web 會議和 A/V 邊際公開 IP 位址是 (的 Internet protocol version 4 (�
 
 |**Protocol** (通訊協定)|**TCP 或 UDP**|**Port**|**來源 IP 位址**|**目的地 IP 位址**|**附註**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |任何執行 XMPP 閘道服務的下列專案：  <br/> •前端伺服器  <br/> •前端集區 VIP 位址正在執行 XMPP 閘道服務  <br/> |Edge Server 內部介面  <br/> |您的前端伺服器或前端集區上執行的 XMPP 閘道服務的輸出 XMPP 流量。  <br/><br/> **附注：** XMPP 的閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 。 |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |任何執行 XMPP 閘道服務的下列專案：  <br/> •前端伺服器  <br/> •前端集區 VIP 位址正在執行 XMPP 閘道服務  <br/> |Edge Server 內部介面  <br/> |您的前端伺服器或前端集區上執行的 XMPP 閘道服務的輸出 XMPP 流量。  <br/><br/> **注意：** XMPP 的閘道和 proxy 可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 如需詳細資訊，請參閱 [遷移 XMPP 同盟](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 。 |
 |HTTPS:  <br/> |TCP  <br/> |4443  <br/> |任何：  <br/> •具有中央管理存放區的前端伺服器  <br/> •具有中央管理存放區的前端集區  <br/> |Edge Server 內部介面  <br/> |從中央管理存放區對 Edge Server 所做的變更複寫。  <br/> |
 |PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |任何：  <br/> •前端伺服器  <br/> •前端集區中的每一部前端伺服器  <br/> |Edge Server 內部介面  <br/> |前端伺服器或每一部前端伺服器的 Web 會議流量 (若您的 Edge Server 內部介面) 有前端集區。  <br/> |
 |STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |任何：  <br/> •前端伺服器  <br/> •前端集區中的每一部前端伺服器  <br/> |Edge Server 內部介面  <br/> |您的內部及外部使用者與 Survivable 分支裝置或 Survivable Branch 伺服器之間 A/V 媒體傳輸的慣用路徑。  <br/> |

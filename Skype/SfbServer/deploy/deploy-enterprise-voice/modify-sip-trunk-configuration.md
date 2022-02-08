@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server：修改 SIP 主幹設定設定
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台修改 SIP 主幹設定設定。
-ms.openlocfilehash: e2e935e47f629ff3dcbf0106f1728402be986c1d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ada56be3cb0e9e8d1c1b5b607602cfd4b176beed
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839645"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62387292"
 ---
 # <a name="skype-for-business-server-modify-sip-trunk-configuration-settings"></a>商務用 Skype Server：修改 SIP 主幹設定設定 
  
-**摘要：** 瞭解如何使用商務用 Skype Server 控制台修改 SIP 主幹設定設定。
+**總結：** 瞭解如何使用商務用 Skype Server 控制台修改 SIP 主幹設定設定。
   
 SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) 閘道、IP-Public 分支 eXchange (PBX) 或會話邊界控制器（在服務提供者上 (SBC) ）之間的關聯性和功能。 這些設定將指定下列項目：
   

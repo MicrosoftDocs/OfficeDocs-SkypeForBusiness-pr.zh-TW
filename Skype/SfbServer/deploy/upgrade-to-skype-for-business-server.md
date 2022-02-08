@@ -1,8 +1,8 @@
 ---
 title: 升級為商務用 Skype Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/14/2016
 audience: ITPro
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 摘要：瞭解如何從 Lync Server 2013 升級為商務用 Skype Server 2015。 從 Microsoft 評估中心下載商務用 Skype Server 2015 的免費試用版，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 4279bb9141d896cb6aaa479f872e1684f2a3e8d3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a673d9d192dbeb754024821c4e50c5fba77aa952
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849396"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385211"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>升級為商務用 Skype Server 2015
  
-**摘要：** 瞭解如何從 Lync Server 2013 升級為商務用 Skype Server 2015。 從[Microsoft 評估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)下載商務用 Skype Server 2015 的免費試用版。
+**總結：** 瞭解如何從 Lync Server 2013 升級為商務用 Skype Server 2015。 從[Microsoft 評估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)下載商務用 Skype Server 2015 的免費試用版。
   
 使用本檔中的程式，透過使用商務用 Skype Server 拓撲產生器和新的 In-Place 升級功能，從 Lync Server 2013 升級為商務用 Skype Server 2015。 如果您想要從 Lync server 2010 或 Office 通訊伺服器 2007 R2 升級，請參閱[Plan to upgrade to 商務用 Skype Server 2015](../plan-your-deployment/upgrade.md)。
 
@@ -103,9 +103,9 @@ ms.locfileid: "60849396"
     
 2. 移除 Lync Server 2013 封存與監控存放區的相依性。 
     
-   - 移至 [**動作**] [  >  **編輯屬性**]。
+   - 移至 [**動作**  >  ] [**編輯屬性**]。
     
-   - 清除 [ **封存** ] 核取方塊。
+   - 清除 **[封存** ] 核取方塊。
     
      ![[編輯內容] 對話方塊上的 [封存的螢幕擷取畫面] 核取方塊。](../media/9a88427e-80ee-49d0-a767-809fa9a5faf1.png)
   
@@ -127,9 +127,9 @@ ms.locfileid: "60849396"
     
 2. 移除 Lync Server 2013 封存與監控存放區的相依性。 
     
-   - 移至 [**動作**] [  >  **編輯屬性**]。
+   - 移至 [**動作**  >  ] [**編輯屬性**]。
     
-   - 清除 [ **封存** ] 核取方塊。
+   - 清除 **[封存** ] 核取方塊。
     
      ![[編輯內容] 對話方塊上的 [封存的螢幕擷取畫面] 核取方塊。](../media/9a88427e-80ee-49d0-a767-809fa9a5faf1.png)
   
@@ -193,7 +193,7 @@ Disable-CsComputer -Scorch
 3. 針對前端集區和每個非前端集區伺服器上的每一部伺服器，重複執行這些步驟。
     
 > [!NOTE]
-> 在 In-Place 升級期間，系統可能會提示您重新開機伺服器。 沒關係。 重新開機之後，In-Place 升級將從其離開的位置繼續。 
+> 在 In-Place 升級期間，系統可能會提示您重新開機伺服器。 這是正常的。 重新開機之後，In-Place 升級將從其離開的位置繼續。 
   
 In-Place 升級順利完成時，您會看到下列訊息。
   

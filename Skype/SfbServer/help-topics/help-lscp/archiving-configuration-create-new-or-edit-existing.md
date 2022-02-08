@@ -1,8 +1,8 @@
 ---
 title: 封存設定建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 您可以使用封存設定來控制部署的封存選項。 封存組態除了包含全域設定之外，也可能包含一或多個網站設定與集區設定：
-ms.openlocfilehash: 1de397f6cefb8827e664cfe20bf169151c763049
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3dfeace1bf5f8243e1ee82c76021864ec51182fb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838825"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384791"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>封存組態：建立新的或編輯現有
  
@@ -30,13 +30,13 @@ ms.locfileid: "60838825"
     
 - **網站設定 (選用)** 您可以指定一或多個網站封存設定，每個網站封存設定可用於控制特定網站的封存選項。 網站設定會覆寫全域設定，但僅限於在封存網站設定中指定的網站。 您可以編輯或刪除網站設定。
     
-- **集區設定 (選用)** 您可以指定一或多個集區封存設定，以控制特定集區的封存選項。 集區設定優先於全域設定與網站設定，但僅限於封存集區設定中所指定的集區。 您可以編輯或刪除集區設定。
+- 集區設定 **(選用)** 您可以指定一或多個集區封存設定，以控制特定集區的封存選項。 集區設定優先於全域設定與網站設定，但僅限於封存集區設定中所指定的集區。 您可以編輯或刪除集區設定。
     
 > [!NOTE]
 > 封存設定會套用至位於商務用 Skype Server 的使用者，而且，如果您啟用 microsoft Exchange 整合選項，以使用 Exchange 2013，將 microsoft Exchange 中的封存資料儲存在 Exchange 2013 上的使用者。 不過，對於位於 Exchange 2013 上的使用者而言，有些選項的執行方式有些不同，如下一節所述。 
   
 若要設定現有或新的封存組態，請指定下列選項：
-- **名稱** 每個封存設定都需要名稱。 其名稱取決於您要新增或編輯的設定類型：
+- **名字** 每個封存設定都需要名稱。 其名稱取決於您要新增或編輯的設定類型：
     
   - **通用** 設定預設名稱為 Global。 例如：Contoso 北美組織。
     

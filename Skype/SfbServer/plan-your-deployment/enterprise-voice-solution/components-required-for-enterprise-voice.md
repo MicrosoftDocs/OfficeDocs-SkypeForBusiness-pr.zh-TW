@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中企業語音所需的元件
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
 description: 商務用 Skype Server 中企業語音元件的摘要。
-ms.openlocfilehash: 0dcc7578ee427fe6bf37f2bbde48c09ff32d62e7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2fbc5aa6a7ece34db0d0ae9360d4be7c8b6f2a8d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855420"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390045"
 ---
 # <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>商務用 Skype Server 中企業語音所需的元件
  

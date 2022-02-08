@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的伺服器媒體質量趨勢報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 description: 摘要：瞭解商務用 Skype Server 中的伺服器媒體質量趨勢報告。
-ms.openlocfilehash: 03091deedf502c4a6d9d65dc5e9f14532a9147ab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 05458e90e90189de46c26dd51eced8a9175e6afd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851016"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385583"
 ---
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>商務用 Skype Server 中的伺服器媒體質量趨勢報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的伺服器媒體質量趨勢報告。
+**總結：** 深入瞭解商務用 Skype Server 中的伺服器媒體質量趨勢報告。
   
 伺服器媒體質量趨勢報告為您提供一種方式，可讓您以圖形方式比較多達五台伺服器的經驗品質計量，例如通話量、不良通話百分比、封包遺失及抖動。 這可讓您更容易進行這樣的工作，例如識別執行品質欠佳的伺服器、找出未充分利用的伺服器，或找出正在濫用的伺服器。
   

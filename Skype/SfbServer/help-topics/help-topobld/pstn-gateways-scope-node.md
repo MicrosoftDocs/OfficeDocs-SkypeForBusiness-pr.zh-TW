@@ -1,8 +1,8 @@
 ---
 title: PSTN 閘道範圍節點
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 description: '[PSTN 閘道] 節點會列出您拓撲中的公用交換電話網路 (PSTN) 閘道。您可以執行下列動作：'
-ms.openlocfilehash: 2fc89412cdd6e18651c0cf41582697ae0306c84e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 837dbd7c59d34c5498c4043ce401e6279af682a4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832177"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385811"
 ---
 # <a name="pstn-gateways-scope-node"></a>PSTN 閘道範圍節點
  

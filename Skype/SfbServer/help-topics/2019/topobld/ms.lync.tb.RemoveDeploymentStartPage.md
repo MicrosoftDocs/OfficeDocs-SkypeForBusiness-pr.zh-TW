@@ -1,8 +1,8 @@
 ---
 title: 移除部署簡介
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
 ROBOTS: NOINDEX, NOFOLLOW
 description: 只有在您想要解除委任整個部署時，才執行移除部署嚮導。 這個嚮導會建立由單一前端伺服器組成的空拓撲。 在您執行此嚮導併發布空的拓撲之後，就無法還原為原始的拓撲。
-ms.openlocfilehash: bf7da6378f261cfba67dc58b13eb3026d5620ff6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 577f3ec457e806d08c6f11a901dad00691de8e59
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865020"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384811"
 ---
 # <a name="remove-deployment-introduction"></a>移除部署簡介
  

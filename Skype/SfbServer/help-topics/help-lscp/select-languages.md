@@ -1,8 +1,8 @@
 ---
 title: 選取語言
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 description: 選取您要用於電話撥入式會議存取號碼的語言。 如需詳細資訊，請參閱建立或修改電話撥入式會議存取號碼。
-ms.openlocfilehash: b493936e89bf2ea8f0db84ff113fdde81f0e2e94
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 044b9f3a933059366d97b22e315f20696f735c67
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861540"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389205"
 ---
 # <a name="select-languages"></a>選取語言
 

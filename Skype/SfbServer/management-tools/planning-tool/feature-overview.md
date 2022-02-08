@@ -1,8 +1,8 @@
 ---
 title: 功能概述規劃工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Descripbes 商務用 Skype Server 2015 規劃工具。
-ms.openlocfilehash: 7351ef19480f4153ee98db58ab2ba70b34e3df06
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 064ad9e22c3e4e26187b780b8d099a675bebc426
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850936"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62386511"
 ---
 # <a name="feature-overview-planning-tool"></a>功能概述規劃工具
  
@@ -91,7 +91,7 @@ ms.locfileid: "60850936"
     
 - **W15 Exchange 信箱**
     
-    商務用 Skype Server 2015 可讓您將語音信箱訊息儲存在 Exchange 整合通訊 (UM) 中;這些語音信箱訊息會以電子郵件訊息的方式顯示在使用者的收件匣中。
+    商務用 Skype Server 2015 可讓您將語音信箱訊息儲存在 Exchange 整合通訊 (UM) 中; 這些語音信箱郵件會在使用者的收件匣中以電子郵件形式顯示。
     
 ### <a name="voice"></a>語音
 
@@ -103,7 +103,7 @@ ms.locfileid: "60850936"
     
 - **Exchange 整合通訊**
     
-    Exchange整合通訊 (UM) 會將語音信箱和電子郵件合併成單一郵件基礎結構。 商務用 Skype Server 2015 使用 Exchange UM 來提供呼叫回應、使用者存取、來電通知和自動語音應答服務。 如果您使用這些服務，您將需要在共用 Active Directory 拓撲中整合 Exchange UM 和商務用 Skype Server。
+    Exchange 整合通訊 (UM) 將語音信箱和電子郵件結合成單一郵件基礎結構。 商務用 Skype Server 2015 使用 Exchange UM 來提供呼叫回應、使用者存取、來電通知和自動語音應答服務。 如果您使用這些服務，您將需要在共用 Active Directory 拓撲中整合 Exchange UM 和商務用 Skype Server。
     
 ### <a name="additional-deployment-options"></a>其他部署選項
 
@@ -125,7 +125,7 @@ ms.locfileid: "60850936"
     
     封存會儲存立即訊息交談和會議。
     
-- **Exchange封存整合**
+- **Exchange 封存整合**
     
     如果您有位於 Exchange 2013 的使用者，且其信箱已放在 In-Place 保留狀態，您可以選取此選項，以將商務用 Skype Server 2015 儲存區與 Exchange 儲存體整合。
     

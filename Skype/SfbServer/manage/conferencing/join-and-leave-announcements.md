@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中管理會議加入和離開宣告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 摘要：瞭解如何在商務用 Skype Server 中管理會議加入和保留宣告。
-ms.openlocfilehash: ee624ee347bb52f4bbdf4fbfae42f5303c8b6a54
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ac259999daaa2fed0988e59d9ab40b9370a2fba8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837665"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62385781"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>在商務用 Skype Server 中管理會議加入和離開宣告
  
-**摘要：** 瞭解如何在商務用 Skype Server 中管理會議加入和保留宣告。
+**總結：** 瞭解如何在商務用 Skype Server 中管理會議加入和保留宣告。
   
 當撥入使用者加入或離開會議時，會議宣告應用程式可以透過播放音調或口述其名稱來宣告其進入或退出狀態。 您可以使用商務用 Skype Server 管理命令介面和 **test-csdialinconferencing 指令程式** 來變更宣告的運作方式，並使用下列參數：
   

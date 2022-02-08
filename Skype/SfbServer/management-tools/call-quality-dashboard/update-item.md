@@ -1,8 +1,8 @@
 ---
 title: 更新項目
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b1c15c56-cdae-4f3e-838a-52f0940cf729
 description: 摘要：瞭解更新專案作業，此作業是專案服務的一部分。 專案服務是「呼叫品質」儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: 4140909786c3144dbc043568a5ca6aa2995a0720
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9ea8a72f70b252cb44a1e4cb15e24cc3718e4be2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845396"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62384251"
 ---
 # <a name="update-item"></a>更新項目
  
-**摘要：** 瞭解更新專案作業，此作業是專案服務的一部分。 專案服務是「呼叫品質」儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
+**總結：** 瞭解更新專案作業，此作業是專案服務的一部分。 專案服務是「呼叫品質」儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
   
 更新專案作業是「用於通話品質」儀表板之存放庫 API 中專案服務的一部分。
   
