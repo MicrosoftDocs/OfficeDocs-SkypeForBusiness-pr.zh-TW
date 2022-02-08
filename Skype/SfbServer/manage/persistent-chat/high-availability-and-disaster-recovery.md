@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 2015 中管理 Persistent Chat Server 的高可用性和嚴重損壞修復
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server 的高可用性和嚴重損壞修復。
-ms.openlocfilehash: bf24bbb7f8672f0bc3a75b83f4f57320dc975092
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5823d4aa9df744c8a7e0b133f7e4798ddcf712c8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860010"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392475"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中管理 Persistent Chat Server 的高可用性和嚴重損壞修復
  
-**摘要：** 瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server 的高可用性和嚴重損壞修復。
+**總結：** 瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server 的高可用性和嚴重損壞修復。
   
 本主題說明如何容錯移轉和容錯回復持久聊天伺服器。 閱讀本主題之前，請務必先閱讀[Plan for persistent chat server in 商務用 Skype Server 2015 的高可用性和嚴重](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)損壞修復，並[在商務用 Skype Server 2015 中設定 persistent chat server 的高可用性和嚴重損壞修復](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)。
 
@@ -37,7 +37,7 @@ Persistent Chat Server 的容錯移轉是設計為主要是手動處理常式。
   
 - Persistent Chat Server 主資料庫和 Persistent Chat Server 鏡像資料庫已停機。
     
-- 商務用 Skype Server前端伺服器已關機。
+- 商務用 Skype Server 前端伺服器已關機。
     
 此程序主要有兩個基本步驟：
   
@@ -71,7 +71,7 @@ Persistent Chat 規範資料庫 (mgccomp) 未進行容錯移轉。 此資料庫�
     
    - **exec sp_who2** 來識別 mgc 資料庫的連線。
     
-   - **kill \<spid\>** 以結束這些連線。
+   - **殺 \<spid\>** 以結束這些連線。
     
    - 使資料庫上線：
     

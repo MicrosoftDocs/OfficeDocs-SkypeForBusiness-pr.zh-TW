@@ -1,8 +1,8 @@
 ---
 title: 視訊 Interop 伺服器下一個躍點設定
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 [拓撲產生器] 中定義新的 VIS 或視頻閘道所需的步驟，在商務用 Skype Server 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: 66581f6042622b56e84eae78a741b794dd320a82
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 63429f85ebc06c1060bf0f1e0ecc22dc6b57aceb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832477"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393065"
 ---
 # <a name="video-interop-server-next-hop-settings"></a>視訊 Interop 伺服器下一個躍點設定
  

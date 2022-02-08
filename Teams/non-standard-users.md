@@ -1,7 +1,7 @@
 ---
 title: Teams非標準使用者的應用程式行為
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
@@ -17,23 +17,23 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 957574b112c0fbb8fc7efc4fedf726fa7395f4b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 621614b9fc3d46d4629ce8b62dbbcc7b579698db
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846086"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390825"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams非標準使用者的應用程式行為
 
-本文將 Teams說明當來賓、外部 (、) 使用者和匿名使用者出現時，Teams的行為。
+本文將說明當來賓Teams外部使用者、 (、) 使用者，以及匿名使用者時，Teams的行為。
 
 - **來賓使用者** 不是貴組織的員工、學生或成員。 他們沒有貴組織的學校或公司帳戶。
 
 - 外部 **(使用者**) 屬於另一個網域，且無法存取貴組織的小組或小組資源。
 
   > [!Note]
-  > 有關來賓與外部使用者的詳細比較， [請參閱與來自其他組織的使用者通訊](./communicate-with-users-from-other-organizations.md)。
+  > 有關來賓與外部使用者的詳細比較，請參閱與來自其他組織 [的使用者通訊](./communicate-with-users-from-other-organizations.md)。
 
 - 匿名 **使用者** 是使用者透過連結加入Teams會議中的概念。 使用者尚未使用其 Microsoft 或組織帳戶登入。
 

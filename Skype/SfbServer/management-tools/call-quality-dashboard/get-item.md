@@ -1,8 +1,8 @@
 ---
 title: 取得項目
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e77bf649-d62a-4d94-80de-066ba47730cd
 description: 摘要：瞭解 [取得專案] 作業，這是專案服務的一部分。 專案服務是「呼叫品質」儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: 1818bb0538fdc02d77c731cad7404643dc84fe28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c99e848860d12b77a13dbf453298dc697cd2a665
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861230"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390985"
 ---
 # <a name="get-item"></a>取得項目
  
-**摘要：** 瞭解 [取得專案] 作業，這是專案服務的一部分。 專案服務是「呼叫品質」儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
+**總結：** 瞭解 [取得專案] 作業，這是專案服務的一部分。 專案服務是「呼叫品質」儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
   
 [取得專案] 作業是「用於通話品質」儀表板之 [存放庫 API] 中專案服務的一部分。
   

@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype 中為使用者啟用群組呼叫收取和指派群組號碼
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: 在商務用 Skype Server 企業語音中啟用群組通話收取的使用者，並指派群組號碼。
-ms.openlocfilehash: ab98244c570acbd7354abb7b7f6bed2fd85cf407
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5ebb5d4f2f84133b0c226773fd71c66f687ca5f9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864350"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390695"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>在商務用 Skype 中為使用者啟用群組呼叫收取和指派群組號碼
 

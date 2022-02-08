@@ -1,8 +1,8 @@
 ---
 title: 正規化規則建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4e4a96c5-200a-41ac-8b55-5155eacafb82
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: a923e7f823b3ea7da5945cf7dc4c350cecb4e08a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9e7c6c7ada80e13fdba34fec9b6b0cabfd8ebe33
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827866"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392865"
 ---
 # <a name="normalization-rule-create-new-or-edit-existing"></a>正規化規則：建立新的或編輯現有
 

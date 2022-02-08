@@ -1,8 +1,8 @@
 ---
 title: 設定 VTC 以與商務用 Skype Server 進行交互操作
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: 摘要：設定 VTC 裝置與商務用 Skype Server 搭配使用。
-ms.openlocfilehash: f3804c0d7f86710fbefa9477d6cf1790b0f16af9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8044e2038ebb8e9c1b68b5b91473e9e57dd1fb7a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861800"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389655"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>設定 VTC 以與商務用 Skype Server 進行交互操作
  
-**摘要：** 設定 VTC 裝置與商務用 Skype Server 搭配使用。
+**總結：** 設定 VTC 裝置與商務用 Skype Server 搭配使用。
   
 您將需要針對透過 SIP 主幹和 Cisco 整合通訊管理員 (CallManager 或 CUCM) 的視頻閘道，來連接至商務用 Skype VIS server 的每個 VTC 執行下列設定自訂程式。
   
@@ -30,7 +30,7 @@ ms.locfileid: "60861800"
   
 ### <a name="configure-a-vtc-registered-with-cucm"></a>設定 VTC 註冊的 CUCM
 
-1. 登入 Cisco VTC 裝置，並流覽至 [設定- \> 系統設定-布建] \> 。
+1. 登入 Cisco VTC 裝置，並流覽至 [設定- \> 系統設定-布建 \> ]。
     
 2. 請確認下列設定，並視需要進行修正： 
     

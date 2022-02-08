@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中設定外部使用者的封存免責聲明
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 摘要：閱讀此主題以瞭解如何設定商務用 Skype Server 的封存免責聲明。
-ms.openlocfilehash: 05eaec40556b383525331405463ee6d0a10e0a13
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d607bf05d1aca413194a793ed08f84ca57c16f96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834711"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392275"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>在商務用 Skype Server 中設定外部使用者的封存免責聲明
  
-**摘要：** 閱讀此主題以瞭解如何設定商務用 Skype Server 的封存免責聲明。
+**總結：** 閱讀此主題以瞭解如何設定商務用 Skype Server 的封存免責聲明。
   
 如果您的組織與外部合作夥伴進行通訊，您必須讓他們知道您正在封存與其通訊。 當您部署 Edge Server 並為您的組織啟用同盟時，系統會詢問您是否要自動將封存免責聲明傳送給外部合作夥伴。 
   

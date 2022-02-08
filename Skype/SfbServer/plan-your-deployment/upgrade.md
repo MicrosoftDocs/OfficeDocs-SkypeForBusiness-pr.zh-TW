@@ -1,8 +1,8 @@
 ---
 title: 規劃升級為商務用 Skype Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 摘要：瞭解在規劃升級至商務用 Skype Server 2015 時所應考慮的事項。 從 Microsoft 評估中心下載商務用 Skype Server 2015 的免費試用版，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: be1d780230f15b1bf8c8205f2453f7b852fdb27a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ac78b3868713e3502ac3646a731b92695bd9c926
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849676"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392315"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>規劃升級為商務用 Skype Server 2015
  

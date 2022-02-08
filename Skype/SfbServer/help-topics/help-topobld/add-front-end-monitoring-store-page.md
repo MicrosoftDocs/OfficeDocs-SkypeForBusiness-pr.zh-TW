@@ -1,8 +1,8 @@
 ---
 title: 新增前端監控儲存區頁面
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 description: 您可以透過設定下列內容，來定義 [監控 SQL Server 儲存區]：
-ms.openlocfilehash: 1371341f0ddfe4f720304a7c784fba3bd647519b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c8d42a9b5deea557909a961d304a0508907c8c58
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861460"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391265"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>新增前端監控儲存區頁面
  

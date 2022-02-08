@@ -1,8 +1,8 @@
 ---
 title: 設定商務用 Skype 中的 IP 位址類型
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 摘要：在實施商務用 Skype Server 之前，複查下列的 IP 位址類型考慮。
-ms.openlocfilehash: 936857f79cf71328303e3a0a842b230694cf86c1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 076c0e0a3901a3c69a9c6dece73fda487cddfa8c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834991"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390905"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>設定商務用 Skype 中的 IP 位址類型
 
-**摘要：** 在實施商務用 Skype Server 之前，請複查下列的 IP 位址類型考慮。
+**總結：** 在實施商務用 Skype Server 之前，請複查下列的 IP 位址類型考慮。
 
 您可以使用拓撲產生器中所設定的拓撲設定來部署 IP 位址類型。 本節說明如何在前端伺服器、轉送伺服器和 Edge Server 上部署 IP 位址類型。
 

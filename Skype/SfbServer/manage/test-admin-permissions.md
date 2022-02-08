@@ -1,8 +1,8 @@
 ---
 title: 測試商務用 Skype Server 中的系統管理員許可權
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 如何在商務用 Skype Server 中測試系統管理員許可權
-ms.openlocfilehash: 2c4525d83f3a097abfa168b706885a939e3b0663
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 48ffbe6863a85ecaa98cb526c16819f3d520def0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859980"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391115"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>測試商務用 Skype Server 中的系統管理員許可權
 
@@ -52,7 +52,7 @@ Test-CsOUPermission Cmdlet 會驗證管理使用者、電腦及其他物件所�
 
 如果已設定必要的許可權，Test-CsOUPermission 會傳回一個單字回應：
 
-對
+True
 
 如果未設定必要的許可權，Test-CsOUPermission 會傳回值 False。 您可能需要搜尋一會兒，以找出此值。 它通常會內嵌在數個伴隨的警告內。 例如：
 

@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中設定媒體旁路通用設定以使用網站與地區資訊
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: 設定媒體旁路，只用于商務用 Skype Server 企業語音中的特定網站和地區。
-ms.openlocfilehash: 7ec292f768633d64959704599269c0fb9cedd4fd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b818d1ba68d17a45c24904a1d313bafde6e6d1d1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829497"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391825"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>在商務用 Skype Server 中設定媒體旁路通用設定以使用網站與地區資訊
  

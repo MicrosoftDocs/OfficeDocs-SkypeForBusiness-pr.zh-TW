@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的裝置報表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 摘要：瞭解商務用 Skype Server 中的裝置報表。
-ms.openlocfilehash: 29ea62f7578b491a940a47663668d0bc83ec5402
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 211dc69423f8f5b2edb9d5508a78c48297d3917c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835261"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392525"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>商務用 Skype Server 中的裝置報表
  
-**摘要：** 深入瞭解商務用 Skype Server 中的裝置報表。
+**總結：** 深入瞭解商務用 Skype Server 中的裝置報表。
   
 裝置報告可能更好的名稱是麥克風和揚聲器報告;這是因為裝置報表會檢索與通話相關的計量，例如通話百分比、迴響和語音切換時間) 依通話中使用的麥克風群組所進行的 (。 如果您想要使用 IP 電話 (也通常稱為 "裝置" ) ，請改用[商務用 Skype Server 中的 IP 電話清查報告](ip-phone-inventory-report.md)。
   

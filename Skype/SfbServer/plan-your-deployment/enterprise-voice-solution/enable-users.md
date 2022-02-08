@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中啟用 E9-1-1 的使用者
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
 description: 商務用 Skype Server 企業語音中的 E9-1-1 部署的位置原則所需的決策，包括要啟用的使用者以及如何支援漫遊使用者。
-ms.openlocfilehash: 631c74f8ee4d91f1a70f1d2edbfa129602913a6f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 877e813df4d1ace9084586702836db96dbb149a5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844136"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392425"
 ---
 # <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用 E9-1-1 的使用者
  

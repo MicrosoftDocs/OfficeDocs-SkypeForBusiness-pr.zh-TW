@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype 中建立或修改語音路由
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台，在商務用 Skype Server 中建立或修改語音路由。
-ms.openlocfilehash: 28acf24352f2eb517f75a6afa5ce35a7d5166ab2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ec890cdbb9f1e05463d5957ac6e8cae95dac3d51
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831627"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390705"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>在商務用 Skype 中建立或修改語音路由
  
-**摘要：** 瞭解如何使用商務用 Skype Server 控制台，在商務用 Skype Server 中建立或修改語音路由。
+**總結：** 瞭解如何使用商務用 Skype Server 控制台，在商務用 Skype Server 中建立或修改語音路由。
   
 ### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>使用商務用 Skype Server 控制台建立語音路由
 

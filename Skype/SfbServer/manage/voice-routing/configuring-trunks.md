@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中設定主幹
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 在企業語音部署過程中，您可以設定轉送伺服器與一或多個對等之間的主幹，以為組織中的企業語音用戶端和裝置提供公用交換電話網路 (PSTN) 連線。
-ms.openlocfilehash: 318b049c8ebaaa1a2df445bf1158184e3b150a84
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 080678192326af1933996ef36ad953c3eff90f50
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838515"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391085"
 ---
 # <a name="configuring-trunks-in-skype-for-business-server"></a>在商務用 Skype Server 中設定主幹
 

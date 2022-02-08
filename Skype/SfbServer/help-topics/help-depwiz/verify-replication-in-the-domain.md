@@ -1,8 +1,8 @@
 ---
 title: 驗證網域中的複寫
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 description: 若要驗證在步驟1： Prepare 架構中完成的網域準備作業，必須從商務用 Skype Server 管理命令介面 Lync Server 管理命令介面執行 Cmdlet。 若要執行 Windows PowerShell Cmdlet，請登入您準備好之網域成員的電腦，並以 domain Admins 群組成員的身分登入。 請執行下列動作：
-ms.openlocfilehash: 600d024aa1f2d024c56e08afa20b7f24de086710
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 93d12aa320e150a016fbd58301170c45e1396e6d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857780"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391315"
 ---
 # <a name="verify-replication-in-the-domain"></a>驗證網域中的複寫
  

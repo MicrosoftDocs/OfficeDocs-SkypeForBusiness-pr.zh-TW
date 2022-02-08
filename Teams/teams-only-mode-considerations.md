@@ -1,7 +1,7 @@
 ---
-title: Teams僅模式考慮事項
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: Teams模式考慮
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 01/09/2019
 ms.topic: conceptual
@@ -22,14 +22,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c0c3f6715c1dc1ebce70f108b4634055b00f56c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c8db18a835b5e54043e572400e547c7cd5989b87
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855137"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390735"
 ---
-# <a name="teams-only-mode-considerations"></a>Teams僅模式考慮事項
+# <a name="teams-only-mode-considerations"></a>Teams模式考慮
 
 組織或Microsoft 365 Office 365系統管理員可以將個別使用者或整個租使用者升級Teams模式。  
 
@@ -42,13 +42,13 @@ ms.locfileid: "60855137"
 > [!IMPORTANT]
 > 如果您剛開始進行升級規劃，請務必參考我們的升級指南[Microsoft Teams入門](upgrade-start-here.md)。 
 
-**共存考慮**：已經使用 商務用 Skype Online 和/或 商務用 Skype Server 的組織Teams以符合其需求的速度將新版引入環境。 組織可根據需要將 Teams逐步推出至想要的使用者集，而使用 Teams 的使用者可以與使用 商務用 Skype 的使用者通訊，反之亦然。 若要管理此體驗，系統管理員會使用共存模式，定義使用者用戶端體驗、傳入聊天和通話的路由行為，以及是否要在 Teams 或 商務用 Skype 中排程新會議。 如果使用者升級為僅與組織使用者進行 **Teams;** 不過，當兩個使用者都使用 Teams。 升級至僅Teams的使用者仍可加入商務用 Skype會議。 
+**共存考慮**：已經使用 商務用 Skype Online 和/或 商務用 Skype Server 的組織Teams以符合其需求的速度將新版引入環境。 組織可根據需要將 Teams逐步推出給一組想要的使用者，而使用 Teams 的使用者可以與使用 商務用 Skype 的使用者通訊，反之亦然。 若要管理此體驗，系統管理員會使用共存模式，定義使用者用戶端體驗、傳入聊天和通話的路由行為，以及是否要在 Teams 或 商務用 Skype 中排程新會議。 如果使用者升級至 Teams，使用者可以與其他組織的使用者進行聯合;不過，當兩個使用者都使用 Teams。 升級至僅Teams的使用者仍然可以加入商務用 Skype會議。 
 
 > [!IMPORTANT]
-> 如需有關共存的詳細資訊，請參閱瞭解Microsoft Teams[及商務用 Skype互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。 如要進一Teams Skype (消費者) ，請參閱Teams[及Skype互通性](teams-skype-interop.md)。
+> 如需有關共存的詳細資訊，請參閱瞭解Microsoft Teams商務用 Skype[及互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)。 如要進一Teams Skype (消費者) ，請參閱Teams [Skype互通性](teams-skype-interop.md)。
 
 
-**使用者特定考慮**：某些使用者案例仍在演進中，系統管理員可能會決定暫時延後特定使用者的升級，同時升級組織的其他使用者。 特別是，我們仍在處理主要裝置為 VDI 的使用者案例。 針對網站公告，請監控 Microsoft 365[藍圖](https://www.microsoft.com/microsoft-365/roadmap)。
+**使用者特定考慮**：某些使用者案例仍在演進中，系統管理員可能會決定暫時延後特定使用者的升級，同時升級組織的其他使用者。 特別是，我們仍在處理主要裝置為 VDI 的使用者案例。 針對網站公告，請監控Microsoft 365[藍圖](https://www.microsoft.com/microsoft-365/roadmap)。
 
 > [!NOTE]
 > 在移至僅Teams模式之前，您需要取代或更新不支援Teams。 

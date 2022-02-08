@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中啟用詳細通話記錄
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 摘要：瞭解如何在商務用 Skype Server 中啟用 (CDR) 記錄的詳細通話記錄。
-ms.openlocfilehash: 7c987eccb9e75d1dc71f98e3cebea4003432523c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bb041b82a32c4e3c03a62faf1129a066db5f9448
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863580"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390185"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用詳細通話記錄
 
-**摘要：** 瞭解如何在商務用 Skype Server 中啟用 (CDR) 記錄的詳細通話記錄。
+**總結：** 瞭解如何在商務用 Skype Server 中啟用 (CDR) 記錄的詳細通話記錄。
 
 詳細通話記錄 (CDR) 會記錄對等活動 (包括立即訊息、VoIP 電話、應用程式共用、檔案傳輸和會議) 的使用方式與診斷資訊。使用方式資料可以用來計算投資報酬率 (ROI)，而診斷資料則可用來排解對等活動和會議的疑難問題。
 

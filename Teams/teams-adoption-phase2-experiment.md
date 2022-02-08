@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams採用階段 2 - 實驗
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882b842e0906426e46132c0a1de10cef5762ea72
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ca77fd910e5b9ada76f7e0fa224e7f1813919222
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865562"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390785"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams採用階段 2 - 實驗
 

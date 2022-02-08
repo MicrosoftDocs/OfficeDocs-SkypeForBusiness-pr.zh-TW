@@ -1,8 +1,8 @@
 ---
 title: 憑證精靈
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 description: 若要要求、指派、移除或查看憑證，請使用憑證嚮導。 您必須以 RTCUniversalServerAdmins 群組的成員身分登入。 若要向公用憑證授權單位 (CA) 要求憑證，您不需要任何其他群組成員資格。 若要 (PKI) 向組織的公開金鑰基礎結構要求憑證，您必須確認所需的群組成員資格（若有的話）。 在要求工作期間，您可以輸入將用來從 PKI 的發證 CA 要求憑證的替代認證。
-ms.openlocfilehash: 973c5de857540680fac19033a350be48475c7b9f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b79d04b3fa4d5579b586b4c37cd49d48740523c5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862920"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393025"
 ---
 # <a name="certificate-wizard"></a>憑證精靈
  

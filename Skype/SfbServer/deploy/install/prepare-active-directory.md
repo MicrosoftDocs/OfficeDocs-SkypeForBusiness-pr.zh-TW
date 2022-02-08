@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server：準備 Active Directory
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 摘要：瞭解如何準備您的 Active Directory 網域，以安裝商務用 Skype Server。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: fbc5769c38436cdc7199aadf4338fa59a47edf3d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9f9ea53c95e2db94d8e47da7deca285f4bb148cf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845856"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392225"
 ---
 # <a name="skype-for-business-server-prepare-active-directory"></a>商務用 Skype Server：準備 Active Directory
  
-**摘要：** 瞭解如何準備您的 Active Directory 網域，以安裝商務用 Skype Server。 從[Microsoft 評估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)下載商務用 Skype Server 的免費試用版。
+**總結：** 瞭解如何準備您的 Active Directory 網域，以安裝商務用 Skype Server。 從[Microsoft 評估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)下載商務用 Skype Server 的免費試用版。
   
 商務用 Skype Server 與 Active Directory 密切搭配使用。 您必須準備作用中的 Active Directory 網域，才能使用商務用 Skype Server。 此程式是在部署嚮導中完成，只對網域執行一次。 這是因為程式會建立群組並修改網域，而您只需要執行一次。 您可以依任何循序執行步驟1到5。 不過，您必須依序執行步驟6、7和8，並在步驟1到5之後進行，如圖表中所述。 準備 Active Directory 是步驟4之8。 如需規劃 Active Directory 的詳細資訊，請參閱商務用 Skype Server 2019 商務用 Skype Server 或[伺服器需求](../../../SfBServer2019/plan/system-requirements.md)[的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。
   

@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 2015 中規劃 Persistent Chat Server 的高可用性和嚴重損壞修復
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 摘要：閱讀此主題以瞭解如何在商務用 Skype Server 2015 中規劃 Persistent Chat Server 的高可用性和嚴重損壞修復。
-ms.openlocfilehash: 042080aebf57a14554820eea9b5bb9d5c9bb1f71
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 029258461e4248ccaebb6e3787f49d544f7fe4a2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836225"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391865"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中規劃 Persistent Chat Server 的高可用性和嚴重損壞修復
  
-**摘要：** 閱讀此主題以瞭解如何在商務用 Skype Server 2015 中規劃 Persistent Chat Server 的高可用性和嚴重損壞修復。
+**總結：** 閱讀此主題以瞭解如何在商務用 Skype Server 2015 中規劃 Persistent Chat Server 的高可用性和嚴重損壞修復。
   
 Persistent Chat Server 的高可用性和嚴重損壞復原需要額外的資源，以超出完整作業的一般需求。 
   

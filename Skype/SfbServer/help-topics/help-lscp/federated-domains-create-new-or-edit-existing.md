@@ -1,8 +1,8 @@
 ---
 title: 同盟網域建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: d8dc81ed221f477e55ce8f576e4755fe1b6011f4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f611b603b0c3221e083ad52010991ad524f43e75
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842095"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391905"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>同盟網域：建立新的或編輯現有
 

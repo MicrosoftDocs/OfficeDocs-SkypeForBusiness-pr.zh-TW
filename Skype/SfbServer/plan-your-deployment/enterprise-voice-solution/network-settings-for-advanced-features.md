@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的高級企業語音功能的網路設定
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: 深入瞭解網路地區、網路網站和 IP 子網。 所有這些都必須設定為在商務用 Skype 中部署媒體旁路的計畫、在商務用 Skype Server) 中規劃通話許可控制，或在商務用 Skype Server 企業語音的商務用 Skype Server 中規劃緊急服務。
-ms.openlocfilehash: 50e076cd4be0e0c98b6319a7d0b4ce1a848689cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 77472a77f26139f7a15f0a3820e6fb90a798a5b7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861090"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391875"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>商務用 Skype Server 中的高級企業語音功能的網路設定
 
-深入瞭解網路地區、網路網站和 IP 子網。 所有這些都必須設定為[在商務用 Skype 中部署媒體旁路的計畫](media-bypass.md)、在[商務用 Skype Server 中規劃通話許可控制](call-admission-control.md)，或在商務用 Skype Server 企業語音[商務用 Skype Server 中規劃緊急服務](emergency-services.md)。
+深入瞭解網路地區、網路網站和 IP 子網。 所有這些都必須設定為[在商務用 Skype 中部署媒體旁路的計畫](media-bypass.md)、在[商務用 Skype Server 中規劃通話許可控制](call-admission-control.md)，或在[商務用 Skype Server 中規劃緊急服務](emergency-services.md)商務用 Skype Server企業語音。
 
 商務用 Skype Server 有三個高級企業語音功能：[在商務用 Skype Server 中規劃通話許可控制](call-admission-control.md)、在[商務用 Skype Server 中規劃緊急服務](emergency-services.md)，以及[在商務用 Skype 中規劃媒體旁路](media-bypass.md)。 這些功能會共用網路地區、網路網站及商務用 Skype Server 拓撲中每個子網與網路網站關聯的特定設定需求。
 

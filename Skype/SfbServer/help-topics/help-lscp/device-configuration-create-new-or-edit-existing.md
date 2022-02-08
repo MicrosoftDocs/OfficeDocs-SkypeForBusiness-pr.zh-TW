@@ -1,8 +1,8 @@
 ---
 title: 裝置設定建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: 在「新增裝置設定」或「編輯裝置設定」頁面上，您可以建立或修改用以管理商務用 Skype 電話 Edition 的設定集合。 這些設定可讓您設定諸如所需的安全性模式、裝置記錄等級、語音服務品質 (QoS) 設定，以及電話是否應該在指定的非使用期限後自動鎖定等事項。
-ms.openlocfilehash: 849406c7c2a22f3ce96e50a8a49b14f27a1a5103
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e1d71dba069720342f27527b4c6fd8302cae4aa9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860460"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392895"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>裝置組態：建立新的或編輯現有組態
  
@@ -40,13 +40,13 @@ ms.locfileid: "60860460"
   
 - **範圍** 識別裝置設定的範圍 (Global 或 Site) 。
     
-- **名稱** 您可以新增或修改裝置設定的名稱。
+- **名字** 您可以新增或修改裝置設定的名稱。
     
 - **SIP 安全性** 您可以設定商務用 Skype 電話 Edition 裝置的傳輸和驗證需求。 您可以從下列選項中選取：
     
   - **低** 允許任何類型的授權或傳輸。
     
-  - **中型** 使用者驗證需要 NTLM 或 Kerberos。
+  - **中** 使用者驗證需要 NTLM 或 Kerberos。
     
   - **高** SIP 連線需要 NTLM 或 Kerberos 才能進行使用者驗證，而 TLS 則是必要的。
     

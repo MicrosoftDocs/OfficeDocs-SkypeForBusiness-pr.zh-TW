@@ -1,8 +1,8 @@
 ---
 title: 檢視閘道 (匯入組態)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0cdb0a42-c682-42f7-907e-667f934cb7e0
 description: 在 [部署的閘道] 中，按一下您要匯入所選之語音組態檔的閘道。
-ms.openlocfilehash: ee4f9f4e6dfc042a662738c8c7d3f4aa2f7faa91
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 69a52c755bb23cce1934c742bae6049e0eb61556
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830267"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392755"
 ---
 # <a name="view-gateways-import-configuration"></a>檢視閘道 (匯入組態)
  

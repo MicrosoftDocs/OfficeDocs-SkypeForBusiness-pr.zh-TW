@@ -1,8 +1,8 @@
 ---
 title: 安裝或移除商務用 Skype Server 元件
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
 description: 若要安裝及啟動或停用或卸載商務用 Skype Server 2015 元件，請使用步驟2：安裝或移除 Skype 伺服器元件。 您必須以安裝或修改之電腦上的本機系統管理員身分登入，而且必須能夠讀取目前網域中的 Active Directory 網域服務使用者和群組。 若要開始，請按一下 [執行]。 當您這麼做時，會讀取中央管理存放區型拓撲定義。 根據中央管理存放區中所定義的角色，安裝及設定必要的軟體元件。 安裝完成時，請複查摘要，然後按一下 [完成]。
-ms.openlocfilehash: 6235b1676ed96dea885b0a945c62387cb7791a25
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fab17437239027c28eab276eb5377d58a0b5d209
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835561"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391375"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components"></a>安裝或移除商務用 Skype Server 元件
  

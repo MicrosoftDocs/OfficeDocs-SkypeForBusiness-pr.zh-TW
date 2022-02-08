@@ -1,8 +1,8 @@
 ---
 title: 安裝及測試 Windows Phone 版商務用 Skype
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 摘要：瞭解如何在 Windows Phone 上安裝及測試商務用 Skype。
-ms.openlocfilehash: 49ba719f13edfa2d9dc85d00c71c59dc5b19b8d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: da3f61b5fdc37cd07a793aad561ff51dcc7f185d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843536"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390715"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>安裝及測試 Windows Phone 版商務用 Skype
  
-**摘要：** 瞭解如何在 Windows Phone 上安裝及測試商務用 Skype。
+**總結：** 瞭解如何在 Windows Phone 上安裝及測試商務用 Skype。
   
 Windows Phone 版商務用 Skype 應用程式會將商務用 Skype 顯示狀態、立即訊息 (IM) 及語音和影片呼叫，以 Windows 行動裝置。 具有 Lync 2013 的使用者會自動取得更新的應用程式，或視使用者設定手動更新它。 新的使用者可以從[Windows Phone Marketplace](https://go.microsoft.com/fwlink/p/?linkid=231901)下載。 Windows Phone 版商務用 Skype 應用程式僅適用于 Windows Phone 8.1 和更新版本。
   

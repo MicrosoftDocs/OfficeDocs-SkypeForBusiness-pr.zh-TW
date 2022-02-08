@@ -1,8 +1,8 @@
 ---
 title: '商務用 Skype Server 2019 的虛擬化支援 '
 ms.reviewer: corbinm
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 06/04/2020
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：瞭解商務用 Skype Server 2019 的虛擬化支援。
-ms.openlocfilehash: 73e9121e2b530e44395aefda50082682fb910e7d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 87263c4204cddbcd5e64cfeb6709b88bb94c2a60
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853777"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392255"
 ---
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>商務用 Skype Server 2019 的虛擬化支援
 

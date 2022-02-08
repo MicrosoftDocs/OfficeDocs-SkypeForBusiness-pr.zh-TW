@@ -1,8 +1,8 @@
 ---
 title: 將封存原則套用至商務用 Skype Server 中的使用者
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 摘要：瞭解如何將封存原則指派給商務用 Skype Server 中的使用者。
-ms.openlocfilehash: 9be6f37f6c84e089a387eec4e3ad982ec2ae9e14
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fadc2d20ce8fb83ef331feb55f5d0908b3189213
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856800"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62391185"
 ---
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>將封存原則套用至商務用 Skype Server 中的使用者
 
-**摘要：** 瞭解如何將封存原則指派給商務用 Skype Server 中的使用者。
+**總結：** 瞭解如何將封存原則指派給商務用 Skype Server 中的使用者。
   
 如果您已為位於商務用 Skype Server 的使用者建立一或多個使用者原則，您可以將適當的原則套用至那些使用者或使用者群組，以對特定使用者執行封存支援。 例如，如果您建立原則來支援內部通訊的封存，您可以將它套用至至少一個使用者或使用者群組，以支援封存使用者的商務用 Skype Server 通訊。
   

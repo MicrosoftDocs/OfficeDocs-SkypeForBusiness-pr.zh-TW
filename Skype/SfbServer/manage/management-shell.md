@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 管理命令介面
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: 商務用 Skype Server 管理命令介面提供伺服器管理和管理的命令列介面。 它是以 Windows PowerShell 為基礎，包含一組完整的管理和管理 Cmdlet，專門針對 Skype 和舊版 Lync server 產品。
-ms.openlocfilehash: 3b9ea4658e7745bb1e6bd330c5dd865bf45a396a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1867789d18e5b0c28cb0772cb46d70c1918789de
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857500"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392485"
 ---
 # <a name="skype-for-business-server-management-shell"></a>商務用 Skype Server 管理命令介面
  
@@ -52,7 +52,7 @@ Get-Command * -Module SkypeforBusiness -CommandType cmdlet
     > [!CAUTION]
     > 如果您開啟 Windows PowerShell 視窗，而不是商務用 Skype Server 管理命令介面，則預設可能無法執行 Skype Cmdlet。 若要從 Windows PowerShell 中執行商務用 Skype Server Cmdlet，請先在 Windows PowerShell 命令提示字元處輸入下列命令： >`Import-Module SkypeforBusiness`
   
-- 商務用 Skype Server管理命令介面會自動安裝在每一部商務用 Skype Server Enterprise Edition 前端伺服器或 Standard Edition 伺服器上。
+- 商務用 Skype Server 管理命令介面會自動安裝在每一部商務用 Skype Server Enterprise Edition 前端伺服器或 Standard Edition 伺服器上。
     
 - 您可以執行[Update-Help](/powershell/module/microsoft.powershell.core/update-help) Cmdlet 來更新商務用 Skype Server 管理命令介面說明內容。 Update-Help Cmdlet 會下載並安裝適用于電腦上所有模組（包括商務用 Skype Cmdlet 的更新）的最新說明檔。
     

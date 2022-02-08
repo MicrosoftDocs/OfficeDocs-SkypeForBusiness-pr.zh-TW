@@ -1,8 +1,8 @@
 ---
 title: 部署商務用 Skype Server 中的 Skype 連線能力
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,26 +13,26 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 摘要：瞭解如何使用 Skype 消費者來連接商務用 Skype Server。 也稱為 Skype 連線性。
-ms.openlocfilehash: c8bdbf96fcbf0831433ad2274d8ab89911df1de5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 834d5329e15f5fc52a24e5f1c86a02c416f04d31
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835821"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389665"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>部署商務用 Skype Server 中的 Skype 連線能力
 
-**摘要：** 瞭解如何使用 Skype 消費程式來連接商務用 Skype Server。 也稱為 Skype 連線性。
+**總結：** 瞭解如何使用 Skype 消費程式來連接商務用 Skype Server。 也稱為 Skype 連線性。
   
 本文將引導您部署 Skype 連線性。
   
-## <a name="skype-connectivity-overview-for-it-professionals"></a>SkypeIT 專業人員的連線能力一覽
+## <a name="skype-connectivity-overview-for-it-professionals"></a>適用于 IT 專業人員的 Skype 連線能力一覽
 
-Skype連線能力為商務用 Skype 使用者提供搜尋及新增 Skype 使用者的能力。 Skype連線功能是商務用 Skype 的功能，可讓您使用 Skype 使用者啟用同盟及目錄搜尋。 在您啟用 Skype 連線功能之後，您商務用 Skype 使用者就能夠搜尋及新增 Skype 使用者。
+Skype 連線能力供應商務用 Skype 使用者可搜尋及新增 Skype 使用者的能力。 Skype 連線是商務用 Skype 的功能，可讓您使用 Skype 使用者啟用同盟及目錄搜尋。 在您啟用 Skype 連線功能之後，您商務用 Skype 使用者就能夠搜尋及新增 Skype 使用者。
   
-## <a name="skype-directory-search"></a>Skype目錄搜尋
+## <a name="skype-directory-search"></a>Skype 目錄搜尋
 
-Skype目錄搜尋功能可讓商務用 Skype 使用者能夠搜尋 Skype 連絡人。 搜尋功能可讓使用者使用下列專案進行搜尋：
+Skype 目錄搜尋功能可讓商務用 Skype 使用者能夠搜尋 Skype 連絡人。 搜尋功能可讓使用者使用下列專案進行搜尋：
   
 - **依顯示名稱搜尋，例如「John Doe** 」-這可能會傳回許多結果，所以您可能不會找到您要尋找的專案。
     
@@ -45,17 +45,17 @@ Skype目錄搜尋功能可讓商務用 Skype 使用者能夠搜尋 Skype 連絡�
 - **依 Skype 名稱搜尋例如，"JohnDoe1456"** -如果找到完全相符的文字，則會傳回為第一個結果。 可能會傳回其他可能的「名稱」相符專案。
     
     > [!NOTE]
-    > Skype目錄搜尋必須能夠與埠443上的下列 IP 位址通訊：104.40.75.246、23.101.135.34 及40.113.86.19。 
+    > Skype 目錄搜尋必須能夠與埠443上的下列 IP 位址進行通訊：104.40.75.246、23.101.135.34 及40.113.86.19。 
   
 ## <a name="supported-deployment-matrix-for-skype-directory-search"></a>Skype 目錄搜尋支援的部署矩陣
 
 下表概述 Skype 目錄搜尋的支援。
   
 
-|&nbsp;|商務用 Skype Server前端|Lync Server 2013 (或舊版) 前端|註解|
+|&nbsp;|商務用 Skype Server 前端|Lync Server 2013 (或舊版) 前端|註解|
 |:-----|:-----|:-----|:-----|
-|商務用 Skype Server邊緣   |支援   |不支援   |商務用 Skype Server 和 Edge 是 Skype 目錄搜尋的必要條件   |
-|商務用 Skype ServerEdge + Lync Server 2013 Edge 已並行部署   |支援   |不支援   |Skype目錄搜尋流量流經商務用 Skype Server Edge server。 同盟流量會透過系統管理員設定的 edge 進行。 例如，管理員可以選擇繼續透過 Lync Server 2013 Edge server 傳送同盟流量，這不會支援 Skype 目錄搜尋。   |
+|商務用 Skype Server Edge   |支援   |不支援   |商務用 Skype Server 和 Edge 是 Skype 目錄搜尋的必要條件   |
+|商務用 Skype Server edge + Lync Server 2013 Edge 並行部署   |支援   |不支援   |Skype 目錄搜尋流量流經商務用 Skype Server Edge server。 同盟流量會透過系統管理員設定的 edge 進行。 例如，管理員可以選擇繼續透過 Lync Server 2013 Edge server 傳送同盟流量，這不會支援 Skype 目錄搜尋。   |
 |Lync Server 2013 (或舊版) Edge   |不支援   |不支援   ||
    
 > [!NOTE]
@@ -75,9 +75,9 @@ Skype目錄搜尋功能可讓商務用 Skype 使用者能夠搜尋 Skype 連絡�
   
 ## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>部署商務用 Skype 線上的 Skype 連線能力
 
-Skype連線也是商務用 Skype 線上的功能，也就是 Microsoft 365 和 Office 365 的一部分。 您可以從 Microsoft 365 系統管理中心中的商務用 Skype 系統管理中心，啟用 Skype Connectivity 功能。
+Skype 連線也是商務用 Skype 線上的功能，也就是 Microsoft 365 和 Office 365 的一部分。 您可以從 Microsoft 365 系統管理中心中的商務用 Skype 系統管理中心，啟用 Skype Connectivity 功能。
   
-如需 Microsoft 365 的中型企業版、Office 365 企業版、Microsoft 365 教育版及 Office 365 的政府版：登入 Microsoft 365 系統管理中心，然後流覽至商務用 Skype 管理中心。 移至 [外部通訊]。 在 [公用 IM 服務提供者] 底下，按一下 [啟用]。 如果您想要控制個別使用者對 Skype 連線的存取，您可以編輯個別使用者的外部通訊設定來執行此動作。
+如需 Microsoft 365 中型企業版、Office 365 企業版、Microsoft 365 教育版和 Office 365 的政府版：登入 Microsoft 365 系統管理中心，然後流覽至商務用 Skype系統管理中心。 移至 [外部通訊]。 在 [公用 IM 服務提供者] 底下，按一下 [啟用]。 如果您想要控制個別使用者對 Skype 連線的存取，您可以編輯個別使用者的外部通訊設定來執行此動作。
   
 若為 Office 365 Small Business Premium：登入 Office 365，然後移至系統管理 \> 服務設定 \> 立即訊息、會議和會議。 開啟外部通訊。 外部通訊參數會同時開啟 Skype 連線，以及與使用商務用 Skype 的其他組織通訊。
   
@@ -141,7 +141,7 @@ Skype連線也是商務用 Skype 線上的功能，也就是 Microsoft 365 和 O
 
 現在著重于設定 Skype 連線所需的商務用 Skype Server 環境和系統管理工作。 在本節中，我們假設系統管理員已部署商務用 Skype Server 和設定的外部存取（也稱為 Edge server）。 
   
-有三個主要步驟必須啟用同盟和 PIC。 如下所述：
+有三個主要步驟必須啟用同盟和 PIC。 例如：
   
 1. 設定同盟和 PIC
     
@@ -221,17 +221,17 @@ Skype連線也是商務用 Skype 線上的功能，也就是 Microsoft 365 和 O
 下表概述 Skype 消費程式最新版本與最新版商務用 Skype 之間的交互操作狀態。
   
 
-|Skype客戶|新增連絡人、IM、顯示狀態、音訊和影片通話|留言|
+|Skype 用戶端|新增連絡人、IM、顯示狀態、音訊和影片通話|註解|
 |:-----|:-----|:-----|
 |Skype Windows 桌面   |7.6 或更高版本 Windows XP 及更高版本   |**新增**：針對執行于 Windows XP 上的 Windows Skype 用戶端，新增支援，而 Windows Vista **(需要最新的用戶端版本7.26 或更高版本)**  |
-|SkypeMobile-Android 電話和平板電腦   |6.19 或更高版本，執行 Android OS 版本4.0.3 或更高版本   |低規格裝置可能不支援影片通話   |
-|Skype行動裝置 iOS   |IOS 7 或更高版本上的6.11 或更高版本   |不支援的 iPhone 4 及更早版本、iPod 第四代及更早版本 iPad 第一代   |
-|SkypeMac   |7.19 或更高版本，Mac OS X 10.9 (Mavericks) 或更高版本   |需要 Mac OSX 10.9 或更高版本   |
-|Skype通用 Windows App (Windows 10) 桌面和行動裝置   |Windows 10 (Redstone 1 更新或更新版本)    |Windows通用應用程式會在秋季2016接收更新新增 interop 支援   |
+|Skype Mobile-Android 電話和平板電腦   |6.19 或更高版本，執行 Android OS 版本4.0.3 或更高版本   |低規格裝置可能不支援影片通話   |
+|Skype 行動裝置 iOS   |IOS 7 或更高版本上的6.11 或更高版本   |不支援的 iPhone 4 及更早版本、iPod 第四代及更早版本 iPad 第一代   |
+|Skype Mac   |7.19 或更高版本，Mac OS X 10.9 (Mavericks) 或更高版本   |需要 Mac OSX 10.9 或更高版本   |
+|Skype 通用 Windows App (Windows 10) 桌面和行動裝置   |Windows 10 (Redstone 1 更新或更新版本)    |Windows 通用應用程式會在秋季2016接收更新新增 interop 支援   |
    
 下表說明最新版商務用 Skype 與最新版本 Skype 消費者之間的交互操作狀態。 
   
-|用戶端|Skype目錄搜尋及新增連絡人|SkypeA/V，IM interop|
+|用戶端|Skype 目錄搜尋及新增連絡人|Skype A/V，IM interop|
 |:-----|:-----|:-----|
 |商務用 Skype   |是   |是   |
 |Mac 版商務用 Skype   |可以新增 (無搜尋)    |是   |

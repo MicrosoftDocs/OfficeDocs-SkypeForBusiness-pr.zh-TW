@@ -1,8 +1,8 @@
 ---
 title: 為商務用 Skype Server 建立 DNS 記錄
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 摘要：瞭解如何設定 dns，以及如何建立商務用 Skype Server 安裝的 dns 記錄。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 177568623148b64b3dccd885e2e7ff3740149c62
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f648af40b7e24080b5995d99306db684f2754a37
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850366"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390675"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>為商務用 Skype Server 建立 DNS 記錄
  
-**摘要：** 瞭解如何為商務用 Skype Server 安裝設定 dns 及建立 dns 記錄。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 。
+**總結：** 瞭解如何為商務用 Skype Server 安裝設定 dns 及建立 dns 記錄。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) 。
   
 為了讓商務用 Skype Server 能夠正常運作，) 設定的網域名稱系統 (DNS 設定必須已到位。 如此一來，用戶端就知道如何存取服務，以及讓伺服器瞭解彼此相關的資訊。 每個部署都只需要完成一次這些設定，因為一旦您指派 DNS 專案，它就會可用於整個網域。 您可以依任何循序執行步驟1到5。 不過，您必須依序執行步驟6、7和8，並在步驟1到5之後進行，如圖表中所述。 建立 DNS 記錄包含步驟5之8。 如需規劃 DNS 的詳細資訊，請參閱[商務用 Skype Server 2019 商務用 Skype Server 或伺服器需求](../../../SfBServer2019/plan/system-requirements.md)[的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。
   
@@ -51,7 +51,7 @@ ms.locfileid: "60850366"
 |SFB02 FQDN  <br/> |A  <br/> |SFB02  <br/> |伺服器 SFB02 的 IP 位址  <br/> |DNS  <br/> |
 |集區 FQDN  <br/> |A  <br/> |位於本地集區  <br/> |伺服器 SFB03 的 IP 位址  <br/> |DNS  <br/> |
 |SFB03 FQDN  <br/> |A  <br/> |SFB03  <br/> |伺服器 SFB03 的 IP 位址  <br/> |DNS  <br/> |
-|商務用 Skype自動探索  <br/> |A  <br/> |lyncdiscoverinternal  <br/> |內部 Web 服務的 VIP  <br/> |支援的軟體和硬體  <br/> |
+|商務用 Skype 自動探索  <br/> |A  <br/> |lyncdiscoverinternal  <br/> |內部 Web 服務的 VIP  <br/> |支援的軟體和硬體  <br/> |
 |會議簡易 URL  <br/> |A  <br/> |符合 contoso local  <br/> |內部 Web 服務的 VIP  <br/> |支援的軟體和硬體  <br/> |
 |撥入式簡易 URL  <br/> |A  <br/> |contoso. 本機  <br/> |內部 Web 服務的 VIP  <br/> |支援的軟體和硬體  <br/> |
 |Web 排程程式簡易 URL  <br/> |A  <br/> |contoso. local  <br/> |內部 Web 服務的 VIP  <br/> |支援的軟體和硬體  <br/> |
@@ -123,7 +123,7 @@ ms.locfileid: "60850366"
     
 5. 如果您支援舊版用戶端並建立 SRV 記錄，請在 **nslookup** 命令提示中輸入 [ **set type = SRV** ]，然後按 enter。
     
-6. 輸入 **_sipinternaltls _tcp。 *網域*** (例如，_sipinternaltls local) ，然後按 Enter。
+6. 輸入 **_sipinternaltls _tcp。 *域*** (例如，_sipinternaltls local) ，然後按 Enter。
     
 7. 預期的輸出應類似圖所示。 請注意，並非所有的 DNS 記錄都會顯示在樣本輸出中，但應驗證所有記錄。 
     

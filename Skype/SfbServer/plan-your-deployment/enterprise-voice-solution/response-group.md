@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中規劃回應群組應用程式
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: 在商務用 Skype Server 企業語音中規劃回應群組，可讓您設定使用者群組的呼叫路由。 包括音訊檔需求。
-ms.openlocfilehash: 3b208b5f18b4b14a35985144b2b96cbabbf39dfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c7a34b63cfd01e8958c85f459415e3830d0eb235
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859880"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392405"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃回應群組應用程式
 
@@ -88,7 +88,7 @@ ms.locfileid: "60859880"
 
 回應群組應用程式與前端伺服器具有相同的硬體需求、作業系統需求和軟體必要條件。
 
-如果您使用 Windows 媒體音訊)  ( 回應群組音樂和宣告，所有前端伺服器或所有執行回應群組應用程式的 Standard edition 伺服器，都必須為執行 Windows Server 2008 R2 的伺服器安裝 Windows 媒體格式執行時間，或執行 Windows Server 2012 o 之伺服器的 Microsoft Media Foundationr Windows Server 2012 R2。 針對 Windows Server 2008 R2，Windows Media Format Runtime 是以 Windows 桌面體驗的一部分安裝。
+如果您使用 Windows 媒體音訊)  ( 回應群組音樂和宣告，所有前端伺服器或所有執行回應群組應用程式的 Standard edition 伺服器，都必須為執行 Windows Server 2008 R2 的伺服器或執行 Windows Server 2012 的伺服器安裝 Microsoft Media Foundation Windows 媒體格式執行時間。 或 Windows Server 2012 R2。 針對 Windows Server 2008 R2，Windows Media Format Runtime 是以 Windows 桌面體驗的一部分安裝。
 
 回應群組使用 **語言套件** 來支援文字語音語音及語音辨識。 在您設定訊息 (如歡迎訊息與其他提示) 以及互動式語音回應 (IVR) 的問題與回答時，都會用到這些語音技術。 根據預設，在您部署商務用 Skype Server 時會安裝26支援的語言套件。
 
@@ -180,7 +180,7 @@ Windows 媒體音訊檔案格式要求在執行 Windows Server 2008 R2 和 Windo
 
 - Lync 2010 Attendant
 
-- Office通訊伺服器 2007 R2 助理
+- Office 通訊伺服器 2007 R2 應答
 
 - Lync Phone Edition
 
@@ -207,7 +207,7 @@ Windows 媒體音訊檔案格式要求在執行 Windows Server 2008 R2 和 Windo
 
 **回應群組使用者模型**
 
-|**計量**|**每 Enterprise Edition <br/> 包含8部前端伺服器的集區 ()**|**根據 Standard Edition 伺服器**|
+|**計量**|**每 Enterprise Edition 包含8部前端伺服器的集 <br/> 區 ()**|**根據 Standard Edition 伺服器**|
 |:-----|:-----|:-----|
 |每秒來電數  <br/> |16   <br/> |第  <br/> |
 |連線至 IVR 或 MoH 的並行通話  <br/> |480  <br/> |60  <br/> |

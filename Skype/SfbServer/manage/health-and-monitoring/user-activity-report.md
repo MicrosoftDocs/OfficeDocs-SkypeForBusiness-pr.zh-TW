@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 25 中的使用者活動報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,28 +12,28 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 摘要：瞭解商務用 Skype Server 中的使用者活動報告。
-ms.openlocfilehash: c78718e55740afdd42ceff11e1ab62d6198c15ec
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 673c212ae398c2e7a292c7c46cd5ae24cf274d6b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828736"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392495"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>商務用 Skype Server 中的使用者活動報告
 
-**摘要：** 深入瞭解商務用 Skype Server 中的使用者活動報告。
+**總結：** 深入瞭解商務用 Skype Server 中的使用者活動報告。
 
 「使用者活動報告」提供了指定期間內使用者執行之對等及會議工作階段的詳細清單。不同於多數「監控報告」，「使用者活動報告」將每通通話牽繫到個別使用者。例如，對等工作階段會指定發話者 (來源使用者) 及受話者 (目標使用者) 的 SIP URI。如展開關於會議的資訊，則會顯示所有會議參與者及其在該會議中所扮演角色的清單。
 
 「使用者活動報告」有時稱為「服務台」報告。這是因為此報告常被服務台人員用來擷取特定使用者的工作階段資訊。在 [使用者 URI 首碼] 方塊中輸入使用者的 SIP URI，即可篩選個別使用者所接收或發出的通話。
 
-如果您這麼做，使用者活動報告會傳回其 SIP URI 以指定字串開頭的任何使用者資訊。 例如，如果您在 [URI] 方塊中輸入 **ken** ，使用者活動報告就會找到 **ken**。Myer@litwareinc.com。 不過，它也會找到下列使用者：
+如果您這麼做，使用者活動報告會傳回其 SIP URI 以指定字串開頭的任何使用者資訊。 例如，如果您在 [URI] 方塊中輸入 **ken** ，使用者活動報告就 **會找到 Myer@litwareinc.com**。 不過，它也會找到下列使用者：
 
 - **ken** azi@litwareinc.com
 
 - **ken** burg@litwareinc.com
 
-- **Ken**。Sanchez@litwareinc.com
+- **** Sanchez@litwareinc.com
 
 - **Ken** nedy@litwareinc.com
 

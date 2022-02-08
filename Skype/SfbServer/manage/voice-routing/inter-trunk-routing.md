@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server：主幹間路由
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: '商務用 Skype Server 提供基本的會話管理，其支援主幹間路由。 '
-ms.openlocfilehash: 77ee30900592fae17cab5147609096131147d489
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd63f5f03c46e03f313f9cac42a2432499c216b6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858200"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390995"
 ---
 # <a name="skype-for-business-server-inter-trunk-routing"></a>商務用 Skype Server：主幹間路由
 
