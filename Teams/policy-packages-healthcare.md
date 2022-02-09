@@ -1,7 +1,7 @@
 ---
 title: 適用於醫療保健的 Teams 原則套件
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 瞭解如何使用和管理適用于貴醫療保健組織的 Teams 原則套件。
-ms.openlocfilehash: 752effdf7a30fc228dae9bcec00a5e2272199ced
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d61075f03af034148205520f1d9f08c313b739ed
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741589"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417376"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>適用於醫療保健的 Teams 原則套件
 
@@ -56,7 +56,7 @@ Teams 目前包含下列醫療保健原則套件。
 
 每個個別原則都會被賦予原則套件的名稱，以便輕鬆識別連結至原則套件的原則。 例如，當您將醫療保健臨床工作者原則套件指派給貴組織的臨床醫生時，便會為套件中的每個原則建立名為 Healthcare_ClinicalWorker 的原則。
 
-![醫療保健診所工作人員套件中之政策之螢幕擷取畫面。](media/policy-packages-healthcare-clinical-worker.png)
+![醫療保健診所工作人員套件中之政策螢幕擷取畫面。](media/policy-packages-healthcare-clinical-worker.png)
 
 ## <a name="get-started-with-policy-packages"></a>開始使用原則套件
 

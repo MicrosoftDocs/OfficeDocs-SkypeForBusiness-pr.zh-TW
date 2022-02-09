@@ -1,8 +1,8 @@
 ---
 title: 語音路由
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ec043088-722b-4739-a460-3b07864cf5ea
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 27943fe06f6be69969b3345dff4ca27c88996ef6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 365a77541143ee345d09fb4e8f10453bb67283ee
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838685"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411046"
 ---
 # <a name="voice-route"></a>語音路由
 

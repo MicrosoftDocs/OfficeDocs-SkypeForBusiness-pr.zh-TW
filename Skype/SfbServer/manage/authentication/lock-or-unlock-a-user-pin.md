@@ -1,8 +1,8 @@
 ---
 title: 鎖定或解除鎖定商務用 Skype Server 中的使用者 PIN
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 摘要：鎖定或解除鎖定使用者的電話撥入式會議 PIN 以取得商務用 Skype Server。
-ms.openlocfilehash: 1ae1deea84b099852decd9acbc6315049484b0b3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6f09886b9f8a3e95317c19e1cd509cc8f1abd1d7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848596"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410896"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>鎖定或解除鎖定商務用 Skype Server 中的使用者 PIN
  
-**摘要：** 鎖定或解除鎖定使用者的電話撥入式會議 PIN，以供商務用 Skype Server。
+**總結：** 鎖定或解除鎖定使用者的電話撥入式會議 PIN，以供商務用 Skype Server。
   
 您可以從商務用 Skype Server 控制台的 [**使用者**] 區段鎖定或解除鎖定使用者的 PIN。
   

@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype 環境的需求
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
 description: 摘要：適用于商務用 Skype Server 2015 的系統需求和網路或基礎結構需求主題大綱。 如果您需要安裝或設定任何專案，以安裝及部署商務用 Skype Server 2015 的必要條件，就會在這裡。
-ms.openlocfilehash: 0bc44108a256e54a180b14293f37fc15510c97e5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8f5bd1d010ab65483fef071d1881e1b31b1a0105
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836201"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416446"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>商務用 Skype 2015 環境的需求
  
-**摘要：** 商務用 Skype Server 2015 的系統需求和網路或基礎結構需求主題的大綱。 如果您需要安裝或設定任何專案，以安裝及部署商務用 Skype Server 2015 的必要條件，就會在這裡。
+**總結：** 商務用 Skype Server 2015 的系統需求和網路或基礎結構需求主題的大綱。 如果您需要安裝或設定任何專案，以安裝及部署商務用 Skype Server 2015 的必要條件，就會在這裡。
   
 這是有關商務用 Skype Server 2015 部署之需求的相關文章的登陸頁面。 這包括伺服器需求和更一般的準備事項，包括您的網域和網路結構及憑證。
   

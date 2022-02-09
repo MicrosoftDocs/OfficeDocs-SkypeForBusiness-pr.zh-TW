@@ -5,8 +5,8 @@ ms:assetid: 5571811e-34c8-443a-b94c-1ab5d4275581
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520995(v=OCS.15)
 ms:contentKeyID: 48184160
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 部署一或多部 Edge Server 之後，您必須為組織啟用將支援的外部存取類型。
-ms.openlocfilehash: 19ce17e4b33fee39c6b37df8967e6045ac3840dc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: da44136b314fc71a1c934edb0e4f5dc335b78e4a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835291"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416606"
 ---
 # <a name="manage-external-access-policy-for-your-organization"></a>管理組織的外部存取原則
 

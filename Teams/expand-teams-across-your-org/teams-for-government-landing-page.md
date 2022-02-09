@@ -1,8 +1,8 @@
 ---
 title: 適用於政府機關的 Teams
 description: 瞭解如何在政府環境中規劃Teams部署Microsoft 365部署。
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.topic: article
 manager: serdars
 audience: admin
@@ -14,16 +14,16 @@ ms.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f41dbffa5d2e0b9cd979d280e1cf865f41d217a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3ae61c865a5833145e6cb8bf4fc80ad3bf9a127f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857150"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417406"
 ---
 # <a name="teams-for-government"></a>適用於政府機關的 Teams
 
-使用這些資源來瞭解在政府環境中Teams部署Microsoft 365考慮。 準備就緒時，請遵循與如何推出 Teams 所述的相同建議部署[路徑](../deploy-overview.md)Microsoft Teams。
+使用這些資源來瞭解在政府環境中Teams部署Microsoft 365考慮。 當您準備好時，請遵循與如何推出新Teams所述的相同建議部署[路徑](../deploy-overview.md)Microsoft Teams。
 
 | &nbsp; |&nbsp; |
 | ------------- | ------------- |

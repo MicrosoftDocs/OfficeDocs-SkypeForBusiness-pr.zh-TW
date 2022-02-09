@@ -1,8 +1,8 @@
 ---
 title: MediaLine view
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: 媒體行檢視會儲存資料庫中每一媒體行的相關資訊。 一個音訊工作階段通常會包含一個音訊媒體行。 一個音訊和視訊 (A/V) 工作階段通常包含一個音訊媒體行和一個視訊媒體行；不過，如果使用會議裝置或使用圖庫檢視，則工作階段可能包含兩個媒體行。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: cf360f06fa293dc75c33caa2a10ac761ae156e91
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8ef825fd75fc4cf61f0416b5ce2b64ca9f58634c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858120"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417416"
 ---
 # <a name="medialine-view"></a>MediaLine view
  

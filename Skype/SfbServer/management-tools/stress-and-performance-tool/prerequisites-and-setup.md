@@ -1,8 +1,8 @@
 ---
 title: Busines 應力和效能工具的 Skype 必要條件和設定
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: 商務用 Skype Server 2015 壓力和效能工具的需求或必要條件。 如何安裝或設定壓力和效能工具。
-ms.openlocfilehash: 60ff4476a92949b2f5ba0d7a027b5cadf3eab533
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ec7e2b66427d360a9d54c38146289e4d08f9238d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835161"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399617"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Busines 應力和效能工具的 Skype 必要條件和設定
  
@@ -53,7 +53,7 @@ ms.locfileid: "60835161"
   
 - Windows Server 2012
     
-- Windows伺服器 2008 (64-位) 
+- Windows Server 2008 (64-位) 
     
 此外，電腦必須滿足下列軟體需求：
   

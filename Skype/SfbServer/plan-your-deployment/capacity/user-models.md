@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的使用者模型
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
 description: 本文所述的使用者模型為商務用 Skype Server 的容量規劃使用者模型使用方式中所述的容量規劃測量和建議提供基礎。
-ms.openlocfilehash: 22f5d45c5b8c5f75979e061814c03a5b9ffc3e8d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1057d3d4e4d20c4193556aa6801da51ca81effba
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846346"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418416"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>商務用 Skype Server 中的使用者模型
  
 本文所述的使用者模型為[商務用 Skype Server 的容量規劃使用者模型使用方式](user-model.md)中所述的容量規劃測量和建議提供基礎。
   
-## <a name="skype-for-business-server-user-models"></a>商務用 Skype Server使用者模型
+## <a name="skype-for-business-server-user-models"></a>商務用 Skype Server 使用者模型
 
 下表說明商務用 Skype Server 的註冊、連絡人、立即訊息 (IM) 及顯示狀態的使用者模型。
   
@@ -72,7 +72,7 @@ ms.locfileid: "60846346"
 |會議用戶端分配  <br/> |對於排程的會議：  <br/> •65% 的會議使用者使用商務用 Skype 2016。  <br/> •5% 的會議使用者使用商務用 Skype Web 應用程式。  <br/> •30% 的會議使用者使用舊版用戶端（包括 Lync 2013 和 Microsoft Lync 2010）。  <br/> 針對排程的會議：  <br/> •70% 的會議使用者使用商務用 Skype。  <br/> •30% 的會議使用者使用舊版用戶端（包括 Lync 2013 和 Microsoft Lync 2010）。  <br/> |
 |會議並行  <br/> |5% 的使用者將在工作時間內的會議。 因此，在80000使用者集區中，最多可以有4000個使用者在會議中有一次。  <br/> |
 |會議音訊分配  <br/> |40% 混合 VoIP 音訊和電話撥入式會議，具有 VoIP 使用者的3:1 比率為撥入使用者。  <br/> 35% 僅 VoIP 音訊。  <br/> 15% 僅限電話撥入式會議音訊。  <br/> 10% 無音訊 (僅限 IM 會議，每位使用者平均傳送五封郵件) 。  <br/> |
-|會議的媒體組合  <br/> |75% 的會議是網路會議，包含音訊及其他一些共同作業形式。  <br/> 對於這些會議，其他共同作業方法如下：  <br/> **附注：** 這些數目的增加超過100%，因為一部會議可以有多個共同作業方法。 <br/> •50% 新增應用程式共用。 我們假設一位使用者以每秒峰值 1.1 MB 的速率傳送資料。  <br/> •50% 新增立即訊息 (，每位使用者) 平均有2封郵件。  <br/> •20% 新增資料共同作業（包括 PowerPoint 或白板），平均每次會議所呈現的2個 PowerPoint 檔案，平均 PowerPoint 的檔案大小為 10 MB (，但未嵌入的影片) 或 30 mb (（內嵌的影片) ）。 每個白板的平均20個批註。  <br/> •20% 新增影片。 在這些使用者中，70% 位於啟用多種顯示顯示的會議中，每個使用者都會收到2-3 的視頻資料流程。  <br/> •15% 新增共用筆記。  <br/> |
+|會議的媒體組合  <br/> |75% 的會議是網路會議，包含音訊及其他一些共同作業形式。  <br/> 對於這些會議，其他共同作業方法如下：  <br/> **注意：** 這些數目的增加超過100%，因為一部會議可以有多個共同作業方法。 <br/> •50% 新增應用程式共用。 我們假設一位使用者以每秒峰值 1.1 MB 的速率傳送資料。  <br/> •50% 新增立即訊息 (，每位使用者) 平均有2封郵件。  <br/> •20% 新增資料共同作業（包括 PowerPoint 或白板），平均每次會議所呈現的2個 PowerPoint 檔案，平均 PowerPoint 的檔案大小為 10 MB (，但未嵌入的影片) 或 30 mb (（內嵌的影片) ）。 每個白板的平均20個批註。  <br/> •20% 新增影片。 在這些使用者中，70% 位於啟用多種顯示顯示的會議中，每個使用者都會收到2-3 的視頻資料流程。  <br/> •15% 新增共用筆記。  <br/> |
 |會議參與者分配  <br/> |50% 已驗證的內部使用者。  <br/> 25% 遠端存取，已驗證的使用者。  <br/> 15% 匿名使用者。  <br/> 10% 同盟使用者。  <br/> |
 |會議加入分配  <br/> |使用者在前5分鐘內模擬為加入會議。  <br/> |
    

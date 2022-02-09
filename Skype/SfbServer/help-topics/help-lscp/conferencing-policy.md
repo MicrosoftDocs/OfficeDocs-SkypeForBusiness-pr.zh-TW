@@ -1,8 +1,8 @@
 ---
 title: 會議原則
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: 會議原則定義使用者可以在會議中使用的特性與功能。
-ms.openlocfilehash: 5d5b5be8f25d359ec4d0c5b3b76448cc4446e325
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1f8104a988a821e5a993d8279fefe9c891193bb2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853347"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416906"
 ---
 # <a name="conferencing-policy"></a>會議原則
 
@@ -50,18 +50,18 @@ ms.locfileid: "60853347"
 
 下列清單說明頁面上的命令。
 
-- **新** 啟動新的網站會議原則或使用者會議原則。
+- **新增功能** 啟動新的網站會議原則或使用者會議原則。
 
 - **編輯** 開啟選取的會議原則進行編輯、選取清單中的所有會議原則，或刪除選取的網站原則或使用者原則。
 
     > [!NOTE]
     > **刪除** 會將全域原則的設定重設為預設值。
 
-- **Refresh** 重新整理會議原則清單。
+- **刷新** 重新整理會議原則清單。
 
 下列清單說明頁面上的欄位。
 
-- **名稱** 識別會議原則。
+- **名字** 識別會議原則。
 
 - **範圍** 識別會議原則的範圍：全域、網站或使用者。
 
@@ -71,10 +71,10 @@ ms.locfileid: "60853347"
 
 - **音訊** 檢查會議原則是否指定允許在會議中使用音訊。
 
-- **影片** 檢查會議原則是否指定允許在會議中使用影片。
+- **視頻** 檢查會議原則是否指定允許在會議中使用影片。
 
 - **PSTN** 檢查會議原則是否指定允許 PSTN 電話撥入式會議。
 
-- **錄製** 檢查會議原則是否指定允許在會議中錄製。
+- **記錄** 檢查會議原則是否指定允許在會議中錄製。
 
 如需會議功能及功能的詳細資訊，請參閱規劃檔中的 [會議綜述](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing) 。 如需使用會議原則的詳細資訊，請參閱 Operations 檔中的 [會議原則](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies) 。

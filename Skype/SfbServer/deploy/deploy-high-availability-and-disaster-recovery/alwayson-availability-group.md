@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中的後端伺服器上部署 Always On 可用性群組
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: 部署 (安裝) 商務用 Skype Server 部署中的 Always On 可用性群組。
-ms.openlocfilehash: c30a17ee0852cab3e8e61ee7751a6e8f5f5a6bd1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c995c894df1d945522788b485f659a1c9b08b40e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829467"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417226"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>在商務用 Skype Server 中的後端伺服器上部署 Always On 可用性群組
  
@@ -144,7 +144,7 @@ ms.locfileid: "60829467"
    Install-CsDatabase -Update
    ```
 
-   - 重複執行先前的兩個步驟 (將群組容錯移轉至次要複本，然後  `Install-CsDatabase -Update` 針對群組中的每個複本使用) 。
+   - 重複執行先前的兩個步驟 (將群組容錯移轉至次要複本，然後針對群組中的每個複本使用  `Install-CsDatabase -Update`) 。
     
 ## <a name="deploy-an-always-on-availability-group-on-an-existing-pool-that-uses-database-mirroring"></a>在使用資料庫鏡像的現有集區上部署 Always On 可用性群組
 <a name="BKMK_MirroredPool_CreateAlwaysOnGroup"> </a>
@@ -302,7 +302,7 @@ ms.locfileid: "60829467"
     Install-CsDatabase -Update
     ```
 
-    - 重複執行先前的兩個步驟 (將群組容錯移轉至次要複本，然後  `Install-CsDatabase -Update` 針對群組中的每個複本使用) 。
+    - 重複執行先前的兩個步驟 (將群組容錯移轉至次要複本，然後針對群組中的每個複本使用  `Install-CsDatabase -Update`) 。
     
 ## <a name="deploy-an-always-on-availability-group-on-an-existing-pool-that-does-not-use-database-mirroring"></a>在未使用資料庫鏡像的現有集區上部署 Always On 可用性群組
 <a name="BKMK_NoHAPool_CreateAlwaysOnGroup"> </a>
@@ -434,4 +434,4 @@ ms.locfileid: "60829467"
       Install-CsDatabase -Update
       ```
 
-      - 重複執行先前的兩個步驟 (將群組容錯移轉至次要複本，然後  `Install-CsDatabase -Update` 針對群組中的每個複本使用) 。
+      - 重複執行先前的兩個步驟 (將群組容錯移轉至次要複本，然後針對群組中的每個複本使用  `Install-CsDatabase -Update`) 。

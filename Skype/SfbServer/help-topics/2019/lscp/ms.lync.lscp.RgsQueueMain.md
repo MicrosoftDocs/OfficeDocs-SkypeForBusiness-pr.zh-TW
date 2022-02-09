@@ -1,8 +1,8 @@
 ---
 title: 回應群組佇列
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,22 +15,22 @@ ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 回應群組中包含代理群組、佇列及工作流程。 回應群組佇列會將呼叫保留到回應群組，直到代理接聽來電為止。
-ms.openlocfilehash: f33df7df7a0c129bbe522c39d9612377e85774ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e5b921c55176e7abbfaf6362129172d50f2d416f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831387"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417116"
 ---
 # <a name="response-groups-queue"></a>回應群組佇列
 
 回應群組中包含代理群組、佇列及工作流程。 回應群組佇列會將呼叫保留到回應群組，直到代理接聽來電為止。
 
-[**回應群組**] [  -  **佇列**] 頁面會顯示針對您組織所定義之所有回應群組佇列的清單。
+[**回應群組**  -  ] [**佇列**] 頁面會顯示針對您組織所定義之所有回應群組佇列的清單。
 
 ## <a name="tasks-you-can-perform"></a>您可以執行的工作
 
-您可以從 [**回應群組**]  -  **佇列** 頁面執行下列工作：
+您可以從 [**回應群組**  -  ]**佇列** 頁面執行下列工作：
 
 - 建立新佇列
 
@@ -42,15 +42,15 @@ ms.locfileid: "60831387"
 
 下列清單說明頁面上的命令。
 
-- **新** 啟動新佇列。
+- **新增功能** 啟動新佇列。
 
 - **編輯** 開啟選取的佇列以進行編輯、選取清單中的所有佇列，或刪除選取的佇列。
 
-- **Refresh** 重新整理佇列清單。
+- **刷新** 重新整理佇列清單。
 
 下列清單說明頁面上的欄位。
 
-- **名稱** 識別佇列的唯一名稱。
+- **名字** 識別佇列的唯一名稱。
 
 - **服務** 主控佇列的 **ApplicationServer** 服務。
 

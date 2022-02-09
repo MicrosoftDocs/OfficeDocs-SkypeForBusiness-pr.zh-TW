@@ -1,8 +1,8 @@
 ---
 title: UCWA 商務用 Skype Server 中的事件
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
 description: 摘要：瞭解商務用 Skype Server 中的整合通訊網頁 API (UCWA) 。
-ms.openlocfilehash: f4e1cfb344d8b27f2fef63f0c1c45ce1e4639627
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e4f36747ec75085785aefcd323f8fd6671bbbfe8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853017"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399637"
 ---
 # <a name="ucwa-events-in-skype-for-business-server"></a>UCWA 商務用 Skype Server 中的事件
  
-**摘要：** 瞭解商務用 Skype Server 中的整合通訊 Web API (UCWA) 。
+**總結：** 瞭解商務用 Skype Server 中的整合通訊 Web API (UCWA) 。
   
 商務用 Skype Server 使用整合通訊 Web API (UCWA) 出於許多目的，從存取 Microsoft Exchange 以進行連絡人搜尋，以更新行動用戶端的狀態。
   

@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中部署企業語音
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 摘要：瞭解如何在中央網站上部署商務用 Skype Server 的企業語音。
-ms.openlocfilehash: 4073850d9583e5bd28d573ad73b0acdaaca0943f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a1d8452524a7de116866b8e27b2d8288321ce727
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833819"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417286"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>在商務用 Skype Server 中部署企業語音
 
-**摘要：** 瞭解如何在中央網站部署商務用 Skype Server 的企業語音。
+**總結：** 瞭解如何在中央網站部署商務用 Skype Server 的企業語音。
 
 使用本主題在中央網站部署企業語音。 若要在分支網站上部署企業語音，請跳過[部署分支網站](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-branch-sites)。
 

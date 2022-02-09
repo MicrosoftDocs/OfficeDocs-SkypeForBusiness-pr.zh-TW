@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中建立或修改未指派的號碼範圍
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: 在商務用 Skype Server 企業語音中建立、修改或刪除宣告應用程式的未指派號碼範圍。 這會影響如何處理未指派號碼的呼叫。
-ms.openlocfilehash: dcdf8fe1bf4d087b27723626ccd9207df14238c4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 10e65d6202babd0c15fe569c71f6e8a84b301eb7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856310"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410546"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改未指派的號碼範圍
  
@@ -64,7 +64,7 @@ ms.locfileid: "60856310"
     
    - 如果範圍的開始號碼或範圍的結束號碼包含分機號碼，則範圍的開始號碼和結束號碼都必須包含分機，且開始號碼和結束號碼的分機號碼必須相同。
     
-   - 此數位必須符合正則運算式 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 。 這表示數位可以以字串開頭 `tel:` (如果您未指定該字串，將會自動為您新增) 、加號 (+) 及數位1到9。 電話號碼最多可達 17 位，且後面可以再加分機，格式為 ;ext= 分機號碼。
+   - 此數位必須符合正則運算式 `(tel:)?(\+)?[1-9]\d{0,17}(;ext=[1-9]\d{0,9})?` 。 這表示數位可以以字串 `tel:` 開頭 (如果您未指定該字串，將會自動為您新增) 、加號 (+) 及數位1到9。 電話號碼最多可達 17 位，且後面可以再加分機，格式為 ;ext= 分機號碼。
     
 6. 在 **[宣告服務]** 中，執行下列其中一個動作： 
     

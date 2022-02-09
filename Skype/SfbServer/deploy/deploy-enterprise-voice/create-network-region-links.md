@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中建立網路地區連結
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: 建立或修改網路地區連結，這些連結是由商務用 Skype Server 中企業語音通話許可控制使用。
-ms.openlocfilehash: 0d6d3fd1c3f432135352477051cab157e5979d33
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c2dd61cf8d2f8e8c77bdf3dde72035d9112348a4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860890"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417296"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>在商務用 Skype Server 中建立網路地區連結
  

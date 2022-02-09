@@ -22,13 +22,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-description: 瞭解如何在 Microsoft Teams 中為大型組織設定通話佇列，提供問候訊息、等候音樂、重新導向通話及其他功能。
-ms.openlocfilehash: 6323a73c0b400b7b8d44a49e1bad2dad9c7f38c7
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+description: 瞭解如何在 Microsoft Teams 中為大型組織設定通話佇列，Microsoft Teams提供問候訊息、等候音樂、重新導向通話及其他功能。
+ms.openlocfilehash: f6ca42b4e954cad8429d545ed8fe1d587127c7d9
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180916"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457323"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -43,11 +43,11 @@ ms.locfileid: "62180916"
 
 - 當其他人在佇列中等候時播放音樂。
 
-- 呼叫路由 - 在 *FIFO (* 中，) 呼叫路由 - 至代理程式。
+- 呼叫路由 - 在 *FIFO (* 中，) 呼叫路由 - 給代理人。
 
 - 處理佇列溢出和超時的選項。
 
-請務必先閱讀自動Teams[](plan-auto-attendant-call-queue.md)和通話佇列方案，並遵循開始使用的步驟，然後再遵循本文中的程式[](plan-auto-attendant-call-queue.md#getting-started)。
+請務必先閱讀自動Teams[](plan-auto-attendant-call-queue.md)和通話佇列的規劃，並遵循開始使用的步驟，然後再遵循本文中的[](plan-auto-attendant-call-queue.md#getting-started)程式。
 
 ## <a name="video-demonstration"></a>影片示範
 
@@ -57,7 +57,7 @@ ms.locfileid: "62180916"
 
 ## <a name="create-the-call-queue"></a>建立通話佇列
 
-若要設定通話佇列，請在系統管理Teams中展開 **[語音** Teams，按一下 [**通話佇列**，然後按一下 [**新增**。
+若要設定通話佇列，請在系統管理中心Teams展開 **[語音**，按一下通話 **佇列**，然後按一下 [**新增**。
 
 輸入通話佇列的名稱。
 
@@ -65,7 +65,7 @@ ms.locfileid: "62180916"
 
 ![資源帳戶設定螢幕擷取畫面。](media/call-queue-name-language.png)
 
-按一下 **[新增帳戶**，搜尋要用於此通話佇列的資源帳戶;按一下 [ **新增**，然後按一下 [ **新增**> 。  (代理程式收到來電時，會看到資源帳戶名稱。) 
+按一下 **[新增帳戶**>、搜尋要用於此通話佇列的資源帳戶、按一下 [ **新增**，然後按一下 [ **新增**> 。  (代理人收到來電時，會看到資源帳戶名稱。) 
 
 詳細資訊，請參閱管理[Teams帳戶](manage-resource-accounts.md)。
 
@@ -75,9 +75,9 @@ ms.locfileid: "62180916"
 
 如果您打算為呼叫代理Teams通道，您可以指定一或多個具有電話號碼的資源帳戶，為代理人指派外發本機號碼號碼。
 
-按一下 **[新增**，搜尋您想要允許代理人在撥打外接電話時用於通話識別碼的資源帳戶;按一下 [ **新增**，然後按一下 [ **新增**> 。
+按一下 **[新增**，搜尋您想要允許代理人在撥打外線通話時用於通話識別碼的資源帳戶;按一下 [新增，然後按一下 **[新增**> 。****
 
-如果您不是使用 Teams通道來控制代理人成員資格，請考慮將通話佇列成員的本機號碼直接設定為通話佇列的服務號碼或適當的自動語音回應。 詳細資訊，請參閱在 Microsoft Teams[中管理來電Microsoft Teams。](caller-id-policies.md)
+如果您不是使用 Teams通道來控制代理人成員資格，請考慮將通話佇列成員的本機號碼直接設定為通話佇列的服務號碼或適當的自動語音回應。 詳細資訊，請參閱在 Microsoft Teams[中管理來電Microsoft Teams](caller-id-policies.md)。
 
 > [!NOTE]
 > 用於通話識別碼的資源帳戶必須Microsoft Teams 電話系統虛擬使用者授權，並指派下列其中一項：
@@ -112,9 +112,9 @@ Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams
 
 ##### <a name="teams-channel"></a>Teams頻道
 
-您可以透過頻道新增最多 200 Teams代理。 您必須是團隊的成員，或是頻道的建立者或擁有者，以將頻道新增到佇列。
+您可以透過頻道新增最多 200 Teams代理程式。 您必須是團隊的成員，或是頻道的建立者或擁有者，以將頻道新增到佇列。
 
-如果您想要使用頻道 [Teams](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)佇列，請選取 [選擇團隊選項，然後按一下 [**新增頻道**> 。 搜尋您想要使用的團隊，選取該團隊，然後按一下 [ **新增**。 選取您 (只支援標準) 頻道，然後按一下 **[) 。** 
+如果您想要使用頻道 [Teams](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)佇列，請選取 [選擇團隊選項，然後按一下 [**新增頻道**。**** 搜尋您想要使用的團隊，選取該團隊，然後按一下 [ **新增**。 選取您 (只支援標準頻道的) ，然後按一下 [**) 。** 
 
 在通話佇列使用Teams支援下列用戶端： 
 
@@ -152,7 +152,7 @@ Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams
 > 如果電話從已啟用位置路由的直接路由閘道路由至佇列，則不支援會議模式。
 
 > [!TIP]
-> 建議 **將會議模式** 設定為 **On。**
+> 建議 **將會議模式** 設定為 **On** 。
 
 **路由方法** 會決定代理程式從佇列接收來電的順序。 從這些選項中選擇：
 
@@ -168,13 +168,15 @@ Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams
 > 建議 **將路由方法** 設定 **為 Round robin** 或 **最長** 閒置時間。
 
 > [!NOTE]
-> 如果 [代理程式](teams-recording-policy.md) 已啟用合規性錄製，則不支援會議 **模式** 和 Attendant **路由** 的組合。 如果您需要使用會議 **模式，** 請選取序列 **路由**、 **迴圈** 路由或 **最長** 閒置時間做 **為路由方法**。 如果您需要使用 Attendant **路由，** 請設定 **會議模式** 為 **關閉**。
+> 如果 [代理程式](teams-recording-policy.md) 已啟用合規性錄製，則不支援會議 **模式** 和 **Attendant 路由** 的組合。 如果您需要使用會議 **模式，** 請選取序列 **路由**、 **迴圈** 路由或 **最長** 閒置時間做 **為路由方法**。 如果您需要使用 Attendant **路由，** 請設定 **會議模式** 為 **關閉**。
+> 
+> 當使用 **最長時間空閒** ，且佇列中的通話少於可用的代理程式時，只有前兩個最長空閒的代理程式會以來自佇列的通話顯示。
 > 
 > 使用 **最長空閒** 時間時，有時代理人在無法使用後，可能立即收到來自佇列的來電，或是在空閒後收到來自佇列的通話有一段短暫的延遲。
 
 ![路由、退出宣告和通知時間設定螢幕擷取畫面。](media/call-queue-presence-agents-time.png)
 
-**目前狀態路由** 會使用呼叫代理程式的可用性狀態，判斷該代理人是否應該包含在所選路由方法的通話路由清單中。 其可用性狀態設為可用的通話 **代理人會包含在** 通話路由清單中，而且可以接聽來電。 其可用性狀態設定為任何其他狀態的代理人會排除在通話路由清單中，且不會接聽來電，直到其可用性狀態變更回可用 **。** 
+**目前狀態路由** 會使用呼叫代理程式的可用性狀態，判斷該代理人是否應該包含在所選路由方法的通話路由清單中。 其可用性狀態設為可用的通話 **代理人會包含在** 通話路由清單中，而且可以接聽來電。 其可用性狀態設定為任何其他狀態的代理人會從通話路由清單中排除，且不會接聽來電，直到其可用性狀態變更回可用 **。** 
 
 您可以使用任何路由方法啟用目前狀態型通話路由。
 
@@ -188,7 +190,7 @@ Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams
 > 啟用目前狀態商務用 Skype用戶端的代理人不會包含在通話路由清單中。 如果您有使用電話商務用 Skype，請勿啟用目前狀態型通話路由。
 
 > [!TIP]
-> 建議 **將目前狀態路由設定** 為 **On。**
+> 建議 **將目前狀態路由設定** 為 **On** 。
 
 **代理人通知** 時間會指定在佇列將通話重新導向至下一個代理人之前，代理人的電話會響鈴多久。
 
@@ -214,14 +216,14 @@ Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams
 
 您可以選擇中斷通話，或重新導向到其中一個通話路由目的地。 例如，您可能讓來電者為佇列中的代理人留下語音信箱。 如需外部傳輸，請參閱先決條件和外部[](plan-auto-attendant-call-queue.md#prerequisites)電話號碼傳輸[- 數位](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)格式的技術詳細資料。
 
-當您已選取通話超時選項時，請按一下 [**儲存。**
+當您已選取通話超時選項時，請按一下 [ **儲存**。
 
 ## <a name="summary-of-recommended-call-queue-settings"></a>建議的通話佇列設定摘要
 
 建議使用下列設定：
 
 - **會議模式** 至 **On**
-- **將路由方法** 路由至 **Round robin** 或 **最長閒置時間**
+- **將路由方法****路由至 Round robin** 或 **最長閒置時間**
 - **目前狀態路由至** **On**
 - **代理人警示時間：****至 20 秒**
 
@@ -231,19 +233,19 @@ Teams在佇列中保留來電者時，提供預設音樂。 在通話佇列Teams
 
   - 商務用 Skype桌面用戶端 2016 (32 位和 64 位版本) 
   - Lync 桌面用戶端 2013 (32 位和 64 位版本) 
-  - 支援所有 IP 電話Microsoft Teams。 請參閱[取得適用于 商務用 Skype Online 的電話](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。
+  - 支援所有 IP 電話Microsoft Teams。 請參閱[取得適用于線上商務用 Skype手機](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online)。
   - Mac 商務用 Skype用戶端 (版本 16.8.196 及更新版本) 
   - Android 商務用 Skype用戶端 (版本 6.16.0.9 及更新版本) 
   - iPhone 商務用 Skype用戶端 (版本 6.16.0 及更新版本) 
   - iPad 商務用 Skype用戶端 (版本 6.16.0 及更新版本) 
   - Microsoft Teams Windows 32 位 (64 位版本的用戶端) 
   - Microsoft Teams Mac 用戶端
-  - Microsoft Teams[虛擬](/microsoftteams/teams-for-vdi)桌面基礎結構 (Windows虛擬桌面、奇思和 V3 應用程式) 
+  - Microsoft Teams[虛擬](/microsoftteams/teams-for-vdi)桌面基礎結構 (Windows虛擬桌面、Citrix 和 V3 應用程式) 
   - Microsoft Teams iPhone應用程式
   - Microsoft Teams Android 應用程式
 
     > [!NOTE]
-    > 指派直接路由號碼的通話佇列不支援商務用 Skype、Lync 用戶端或 IP 電話商務用 Skype代理。 系統Teams用戶端僅支援共同存在模式 ，只有 Teams[模式](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
+    > 指派直接路由號碼的通話佇列不支援商務用 Skype、Lync 用戶端或 IP 電話商務用 Skype代理。 Teams用戶端僅支援只有兩者共存Teams[模式](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
 
 ## <a name="call-queue-cmdlets"></a>通話佇列 Cmdlet
 
@@ -310,7 +312,7 @@ Windows PowerShell可讓您透過命令列以批次或程式設計的方式建�
    > [!div class="nextstepaction"]
    > [執行測試：Teams通話佇列](https://aka.ms/TeamsCallQueueDiag)
 
-2. 在執行診斷窗格中，在使用者名稱或電子郵件欄位中輸入資源帳戶，然後選取 **執行測試**。
+2. 在執行診斷窗格中，在使用者名稱或電子郵件欄位中輸入資源帳戶，然後選取執行 **測試**。
 
 3. 測試會返回解決任何租使用者、策略和資源帳戶組配置的最佳下一個步驟，以驗證通話佇列是否能夠接聽來電。
 

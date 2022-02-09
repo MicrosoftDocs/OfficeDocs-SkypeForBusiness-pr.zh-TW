@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的會議詳細資料包告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 摘要：瞭解商務用 Skype Server 中所用的會議詳細資料包告。
-ms.openlocfilehash: a86124c05e0d35caef3f92c4ec43b561eb54938c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3c7c7d023b47da0225f157bcdfcdeacf0c7f92ea
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829987"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411616"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>商務用 Skype Server 中的會議詳細資料包告
 
-**摘要：** 深入瞭解商務用 Skype Server 中所用的會議詳細資料包告。
+**總結：** 深入瞭解商務用 Skype Server 中所用的會議詳細資料包告。
 
 「會議詳細資料報告」可提供參與會議之使用者的詳細資訊。例如，您可以查看使用者加入會議的日期和時間、使用者離開會議的日期和時間，以及用來將使用者與會議連線的端點使用者代理程式之類的資訊。您也可以查看使用者在每個會議中的角色 (例如，簡報者或是出席者)。更重要的是，您可以更快速地查看哪些使用者已順利加入並完成會議，而哪些使用者無法順利加入並完成會議。
 

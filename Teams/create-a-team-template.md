@@ -1,7 +1,7 @@
 ---
-title: 在範本中建立Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: 在範本中建立自訂Microsoft Teams
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
@@ -16,14 +16,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7bb0805705797587f9475fe7a6ee759165e884b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1fa114e6bc15ff8aeb6d0e75dcb6c0c45871b436
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864480"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399547"
 ---
-# <a name="create-a-custom-team-template-in-microsoft-teams"></a>在範本中建立Microsoft Teams
+# <a name="create-a-custom-team-template-in-microsoft-teams"></a>在範本中建立自訂Microsoft Teams
 
 **EDU 客戶尚不支援自訂範本。**
 
@@ -38,7 +38,7 @@ ms.locfileid: "60864480"
 
 1. 登入 Teams 系統管理中心。
 
-2. 在左側流覽中，展開 **Teams**  >  **範本**。
+2. 在左側流覽中，展開 **Teams**  >  **Team 範本**。
 
 3. 選取 [新增 **]**。
 
@@ -55,12 +55,12 @@ ms.locfileid: "60864480"
 
 6. 在頻道 **、定位字元和應用程式** 區段，新增小組所需的任何頻道和應用程式。
 
-    1. 在頻道 **區** 段 **，選取** 新增 。
+    1. 在頻道 **區** 段 **，選取新增**。
     2. 在 [ **新增」** 對話方塊中，為頻道命名。
     3. 新增描述。
     4. 決定是否預設應該顯示頻道。
     5. 搜尋要新加入頻道的應用程式名稱。
-    6. 完成 **時選取 Apply。**
+    6. 完成 **時選取 Apply** 。
 
     ![小組範本頻道、定位停駐點及應用程式畫面的影像。](media/template-channels-tabs-apps.png)
 
@@ -82,7 +82,7 @@ ms.locfileid: "60864480"
 
 1. 建立新的小組範本或編輯現有的小組範本。
 
-2. 在頻道區段，新增頻道或選取現有的頻道， **然後選取** 編輯 。
+2. 在頻道區段，新增頻道或選取現有的頻道， **然後選取編輯**。
 
 3. 在新增 **此範本的應用程式區** 段，新增網站應用程式。
 
@@ -96,7 +96,7 @@ ms.locfileid: "60864480"
 
 ## <a name="known-issues"></a>已知問題
 
-**問題**：如果您從包含其他自訂定位字元的自訂範本建立團隊，您可能會在自訂的選項卡 App 中看到空白的定位停駐點。 您的預設 (，例如文章、**檔案** 和 **Wiki**) 會顯示如預期。
+**問題**：如果您從包含其他自訂定位字元的自訂範本建立團隊，您可能會在自訂的選項卡 App 中看到空白的定位停駐點。 您的預設 (，例如文章、檔案和 **** **Wiki**) 會顯示如預期。
 
 **解決方案**：若要修正此問題，請移除自訂定位點，並使用相同的應用程式新增定位點。 如果您沒有移除自訂定位停駐點並新增新定位停駐點的許可權，請聯絡團隊擁有者以尋求協助。
 
@@ -106,7 +106,7 @@ ms.locfileid: "60864480"
 
 ![瀏覽器錯誤訊息。](media/browser-error-message.png)
 
-解決方案：如果您無法檢視網站選項卡的內容，系統將會重新導向您以另一個網頁開啟該選項卡，或改為在桌面應用程式中開啟 Teams 來檢視您的網站 Tab 應用程式。
+解決方案 **：如果您** 無法檢視網站選項卡的內容，系統將會重新導向您以另一個網頁開啟該選項卡，或改為在桌面應用程式中開啟 Teams 來檢視您的網站 Tab 應用程式。
 
 ## <a name="related-topics"></a>相關主題
 

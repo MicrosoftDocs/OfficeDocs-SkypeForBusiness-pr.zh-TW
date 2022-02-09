@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中 Grant-CsOUPermission 所做的變更
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: 若要委派商務用 Skype Server 管理，您可以將許可權新增至指定的組織單位 (ou) ，這樣樹系準備建立的 RTC 通用群組成員才能存取 ou，而不是 Domain Admins 群組的成員。
-ms.openlocfilehash: c8b7841fc6754c5f852945807a68089c922f6497
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 412fd5eb19f3dac23bbbf68cfd4eb751f56fa3bc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838465"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416396"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>商務用 Skype Server 中 Grant-CsOUPermission 所做的變更
  

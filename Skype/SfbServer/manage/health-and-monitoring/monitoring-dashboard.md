@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中使用監控儀表板
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 摘要：瞭解商務用 Skype Server 中的監控儀表板。
-ms.openlocfilehash: ac68ae2174fcd7c4266da77c2d079c2f9a31d8e5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 58a847ce5e63ad70477f1e43518464760e95d742
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862300"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399677"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>在商務用 Skype Server 中使用監控儀表板
  
-**摘要：** 深入瞭解商務用 Skype Server 中的監控儀表板。
+**總結：** 深入瞭解商務用 Skype Server 中的監控儀表板。
   
 監控儀表板可讓系統管理員快速流覽其商務用 Skype Server 系統健康情況和系統使用方式。 儀表板的設計目的是顯示主要系統計量的匯總視圖，並顯示下列其中一項：
   

@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中規劃多個緊急號碼
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: 閱讀此主題以瞭解如何在商務用 Skype Server 中規劃多個緊急號碼。
-ms.openlocfilehash: fbff70b3772b9d941d615f3d1aaf2ad668177e30
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8a17796987d5bf89989a241680015834634c52e9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861130"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418406"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃多個緊急號碼
  
@@ -101,9 +101,9 @@ ms.locfileid: "60861130"
 ||DC (延期通道) ，2016年10月11日發行-版本 1605 (組建 6965.2092)   <br/> |
 |**MSI** <br/> |更新-6 月7日更新- [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
 |**Mac 和 iOS** <br/> |**版本** <br/> |
-||商務用 SkypeMac 用戶端版本16。9  <br/> 商務用 Skype iOS 用戶端版本6.16  <br/> |
+||商務用 Skype Mac 用戶端版本16。9  <br/> 商務用 Skype iOS 用戶端版本6.16  <br/> |
 |**Android** <br/> |**版本** <br/> |
-||商務用 SkypeAndroid 用戶端版本6.17  <br/> |
+||商務用 Skype Android 用戶端版本6.17  <br/> |
 |**Lync Phone Edition** <br/> |**版本** <br/> |
 || Aastra 6721ip and Aastra 6725ip 電話機-2016 年9月累積更新 (組建 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
 || HP 4110 和 HP 4120 電話-9 月2016累計更新 (組建 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |

@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中部署 Edge Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,16 +15,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2fdf418e-e571-4f2b-bb83-91fdcf738edb
 description: 摘要：瞭解如何在商務用 Skype Server 環境中部署 edge Server 或 edge 集區。
-ms.openlocfilehash: a555f0d083c03466f874c9796664137f8189b017
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7841e773e70368bef0bf8a9c34c3a9b3d494ce35
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850466"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410606"
 ---
 # <a name="deploy-edge-server-in-skype-for-business-server"></a>在商務用 Skype Server 中部署 Edge Server
  
-**摘要：** 瞭解如何在商務用 Skype Server 環境中部署 edge Server 或 edge 集區。
+**總結：** 瞭解如何在商務用 Skype Server 環境中部署 edge Server 或 edge 集區。
   
 為何要在商務用 Skype Server 環境中部署 edge Server 或 edge 集區？ 如果您需要未登入組織內部網路的外部使用者才能與內部使用者互動，則必須使用此方式。 這些外部使用者可能會經過驗證和匿名遠端使用者、同盟合作夥伴或其他行動用戶端。
   

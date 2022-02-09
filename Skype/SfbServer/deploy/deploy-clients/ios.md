@@ -1,7 +1,7 @@
 ---
 title: 針對 iOS 安裝及測試商務用 Skype
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 摘要：如何安裝及測試 iOS 應用程式的商務用 Skype。
-ms.openlocfilehash: b3bcdddbafe5ae0c578f1f5e38f44696ed01dd66
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a485893e1433e3c1f45377acd11526a9396e85cc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843526"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417316"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>針對 iOS 安裝及測試商務用 Skype
  
-**摘要：** 如何安裝及測試 iOS 應用程式的商務用 Skype。
+**總結：** 如何安裝及測試 iOS 應用程式的商務用 Skype。
   
 iOS 應用程式的商務用 Skype 會為) 裝置供應商務用 Skype 顯示狀態、立即訊息 (IM iOS，以及語音和影片呼叫。 具有 Lync 2013 的使用者會自動取得更新的應用程式，或視使用者設定手動更新它。 新的使用者可以從 Apple 應用程式存放區下載。 iOS 應用程式的商務用 Skype 只適用于 iOS 版本8.0 和更新版本。
   
@@ -29,7 +29,7 @@ iOS 應用程式的商務用 Skype 會為) 裝置供應商務用 Skype 顯示狀
 
 1. 在您的 iOS 裝置中，按下 [ **App Store**]，然後搜尋 **iOS 的商務用 Skype**。
     
-2. 按 [**下載**] [  >  **開啟**]。 
+2. 按 [**下載**  >  ] [**開啟**]。 
     
 3. 登入應用程式。
     

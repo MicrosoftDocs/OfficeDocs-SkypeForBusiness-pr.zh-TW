@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype 中匯出或匯入語音路由設定檔
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台，在商務用 Skype Server 中匯出或匯入語音路由設定檔。
-ms.openlocfilehash: cb9f5acde66c006945c873b24f53f58d35d14ac2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: da58e9c57ff0c71704d81eb7e79c8a53f62624e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832897"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418186"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>在商務用 Skype 中匯出或匯入語音路由設定檔
  
-**摘要：** 瞭解如何使用商務用 Skype Server 控制台，在商務用 Skype Server 中匯出或匯入語音路由設定檔。
+**總結：** 瞭解如何使用商務用 Skype Server 控制台，在商務用 Skype Server 中匯出或匯入語音路由設定檔。
   
 如果您想要儲存語音路由設定，但未發佈它，請遵循下列步驟，儲存並取得您的語音路由設定快照。 
   

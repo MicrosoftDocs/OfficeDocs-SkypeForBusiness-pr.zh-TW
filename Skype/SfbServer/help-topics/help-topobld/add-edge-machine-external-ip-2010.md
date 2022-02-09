@@ -1,8 +1,8 @@
 ---
 title: 新增 Edge 電腦外部 IP 2010
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 17906fc5-1b5c-4819-849d-bebf0496a763
 description: 您可以在此頁面上設定屬性，將 Edge Server 指向 Access Edge service、Web 會議 Edge service 和 A/V Edge service 的外部位置。
-ms.openlocfilehash: d3bf19703d89bd1cb8943abf7cc37aa40d4a9ddf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f6d73a56d46d37b60d5b26452d35e7eb8cac3151
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863970"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418556"
 ---
 # <a name="add-edge-machine-external-ip-2010"></a>新增 Edge 電腦外部 IP 2010
 

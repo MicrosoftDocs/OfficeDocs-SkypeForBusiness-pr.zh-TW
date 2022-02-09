@@ -1,8 +1,8 @@
 ---
 title: 常設聊天室一般設定展開工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 您可以透過設定或定義下列內容，來編輯 Persistent Chat Server 或 Persistent Chat Server 集區的一般設定：
-ms.openlocfilehash: 8047b6a3d8e4f81056af20feb2d5a36416bac2b8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e93af8c8924117159434691b550f2ed9fcbb6e69
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854417"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417686"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>常設聊天室一般設定展開工具
  

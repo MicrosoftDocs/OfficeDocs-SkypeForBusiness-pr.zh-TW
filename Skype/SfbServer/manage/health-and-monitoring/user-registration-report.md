@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的使用者註冊報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 摘要：瞭解商務用 Skype Server 中的使用者註冊報告。
-ms.openlocfilehash: 52927330e00ae1400aceb7db0e935ce1cb5ecff0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e967f2e68eabff1cd18b86b891882505eb0bedd7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834191"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411526"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>商務用 Skype Server 中的使用者註冊報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的使用者註冊報告。
+**總結：** 深入瞭解商務用 Skype Server 中的使用者註冊報告。
   
 使用者註冊報告提供使用者登入活動的概覽，最值得注意的是在指定期間 (每小時、每日、每週、每月) 的商務用 Skype Server 的使用者人數。 請記住，報告只會告訴您已登入的人員人數。 它不會告訴您登入的人員。 監視報告不提供使用商務用 Skype Server (的特定使用者相關資訊，也不會) 。 不過，您可以使用 [使用者活動報告] 來取得使用者資訊的粗略估計。
   

@@ -1,8 +1,8 @@
 ---
 title: 伺服器設定展開工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 description: 此節點會顯示此伺服器的伺服器完整網域名稱 (FQDN) 和 IP 位址組態。您可以執行下列動作：
-ms.openlocfilehash: 6776f03c93b5880a864c9ab4bdb0daa998b569e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e01b21a85f2eebffd7ea1625756925c8c51cf09f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845486"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416626"
 ---
 # <a name="server-settings-expander"></a>伺服器設定展開工具
  

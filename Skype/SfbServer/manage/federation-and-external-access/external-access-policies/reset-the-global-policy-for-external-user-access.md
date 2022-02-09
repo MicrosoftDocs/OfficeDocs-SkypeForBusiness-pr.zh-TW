@@ -5,8 +5,8 @@ ms:assetid: 8207e1b1-de9e-461f-975f-fcc5c526849a
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182545(v=OCS.15)
 ms:contentKeyID: 48184675
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 您無法完全刪除全域原則。 在全域原則上使用 [ **刪除** ] 選項，只會將全域原則重設為預設設定，但不包括對任何外部使用者存取選項的支援。
-ms.openlocfilehash: e55107de4aec5832b8c04dcf679fd9d5f5555c53
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e65eb4f2a87789b22654b8de5e3681b1dda47d1a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849986"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416556"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>在商務用 Skype Server 中重設外部使用者存取的全域原則 
 

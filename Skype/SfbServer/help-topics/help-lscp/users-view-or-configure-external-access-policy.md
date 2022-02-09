@@ -1,8 +1,8 @@
 ---
 title: 使用者查看或設定外部存取原則
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 75ce268a7791bb8ef8362aad2e3c0fb8a023d773
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 106b3856550d4441e4355d4af5626588f46d6e3c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829147"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418706"
 ---
 # <a name="users-view-or-configure-external-access-policy"></a>使用者：檢視或設定外部存取原則
 

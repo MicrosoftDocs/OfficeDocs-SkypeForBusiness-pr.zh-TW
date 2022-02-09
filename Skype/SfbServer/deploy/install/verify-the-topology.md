@@ -1,8 +1,8 @@
 ---
 title: 驗證商務用 Skype Server 中的拓撲
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/14/2018
 audience: ITPro
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 摘要：瞭解如何驗證商務用 Skype Server 拓撲和 Active Directory 伺服器是否如預期般運作。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: 32d9e4302109ef9a7d5cb34946722eb8a8e9f38c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fa26c58cf7a5a848faec3db6a9865deeea210146
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864260"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410556"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>驗證商務用 Skype Server 中的拓撲
  
-**摘要：** 瞭解如何驗證商務用 Skype Server 拓撲和 Active Directory 伺服器是否如預期般運作。 從[Microsoft 評估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)下載商務用 Skype Server 的免費試用版。
+**總結：** 瞭解如何驗證商務用 Skype Server 拓撲和 Active Directory 伺服器是否如預期般運作。 從[Microsoft 評估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)下載商務用 Skype Server 的免費試用版。
   
 發行拓撲之後，在拓撲中的每一部伺服器上安裝商務用 Skype Server 系統元件之後，就可以確認拓撲的運作如預期般運作。 這包括驗證設定是否已向內傳播至所有 Active Directory 伺服器，讓整個網域知道商務用 Skype 可在網域中取得。 您可以依任何循序執行步驟1到5。 不過，您必須依序執行步驟6、7和8，並在步驟1到5之後進行，如圖表中所述。 驗證拓撲是步驟8之8。
   
@@ -50,7 +50,7 @@ ms.locfileid: "60864260"
   
 3. 使用系統管理帳戶登入安裝商務用 Skype Server 控制台的電腦。
     
-4. 啟動商務用 Skype Server 控制台]，然後在出現提示時提供認證。 商務用 Skype Server控制台會顯示部署資訊。
+4. 啟動商務用 Skype Server 控制台]，然後在出現提示時提供認證。 商務用 Skype Server 控制台會顯示部署資訊。
     
 5. 在左導覽列中，按一下 [**拓撲**]，然後確認服務狀態顯示具有綠色箭號的電腦，且每個已部署並聯機的商務用 Skype Server 角色旁都有綠色核取記號的副本狀態。 
     

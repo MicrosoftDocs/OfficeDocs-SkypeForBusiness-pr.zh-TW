@@ -1,8 +1,8 @@
 ---
 title: 變更商務用 Skype Server 中的封存資料庫選項
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 摘要：瞭解如何變更商務用 Skype Server 的封存資料庫選項。
-ms.openlocfilehash: e07c94530d71c9d31ef9f11eaef6332dbfa32d0e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7a6d0c5168eded42a45996cb8154c4dd6f757a4c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847456"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399757"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>變更商務用 Skype Server 中的封存資料庫選項
 
-**摘要：** 瞭解如何變更商務用 Skype Server 的封存資料庫選項。
+**總結：** 瞭解如何變更商務用 Skype Server 的封存資料庫選項。
   
 如果您使用 SQL Server 儲存區部署封存以封存任何使用者的儲存體，您可以進行下列資料庫儲存變更：
   
@@ -78,7 +78,7 @@ ms.locfileid: "60847456"
     
        c. 如果指定的 SQL Server 實例是以鏡像關聯，請選取 [**此 SQL 實例為鏡像** 關聯] 核取方塊，然後在 [**鏡像埠號碼**] 中指定埠號碼。
     
-   - 如果您啟用 SQL Server 鏡像，並且想要新增或變更 SQL Server 鏡像見證 (第三個個別 SQL Server 實例可以偵測主要 SQL Server 服務器和鏡像實例的健康情況) ，請選取 [**使用 SQL Server 鏡像見證啟用自動容錯移轉**] 核取方塊。d 然後執行下列其中一項操作：
+   - 如果您啟用 SQL Server 鏡像，並且想要新增或變更 SQL Server 鏡像見證 (第三個個別 SQL Server 實例可以偵測主要 SQL Server 服務器和鏡像實例的健康情況) ，請選取 [**使用 SQL Server 鏡像見證以啟用自動容錯移轉**]。 核取方塊，然後執行下列其中一項動作：
     
       a. 在 [ **SQL Server fqdn**] 中，指定您要在其上建立新 SQL Server 鏡像見證之伺服器的 FQDN。
     

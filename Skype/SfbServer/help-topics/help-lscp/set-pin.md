@@ -1,8 +1,8 @@
 ---
 title: 設定 PIN
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: 若要產生使用者的 PIN 碼，請選取 [自動產生有效的 PIN]。
-ms.openlocfilehash: c5452a58674af1bd5fbb51712a2c77363a1f3296
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2b8b50f3b14328932621f9d8116d2ce9f880af09
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848946"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416776"
 ---
 # <a name="set-pin"></a>設定 PIN
 

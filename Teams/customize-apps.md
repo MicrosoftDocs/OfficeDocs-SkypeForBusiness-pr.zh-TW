@@ -1,7 +1,7 @@
 ---
 title: 在應用程式中自訂Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: v-tbasra
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在應用程式中自訂Microsoft Teams。
-ms.openlocfilehash: ca0f7b090669304553159979af3983b7f21de284
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cac5bc4e5d2748b8e4a9143d50e40dbf96ae80a0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831737"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410616"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>在應用程式中自訂Microsoft Teams
 
@@ -42,8 +42,8 @@ ms.locfileid: "60831737"
 請參閱Teams清單[架構](/microsoftteams/platform/resources/schema/manifest-schema)，以瞭解有關您可以自訂之欄位的詳細資訊。
 
 > [!NOTE]
-> 目前，在 政府社群雲端 GCCH (或) DoD (不支援自訂應用程式) 。
-> 目前，此功能不適用於旁載入的應用程式Microsoft Teams應用程式。
+> 目前 DoD 政府社群雲端 GCCH (或) 不支援自訂應用程式 (DoD) 中。
+> 目前，此功能不適用於側載應用程式Microsoft Teams應用程式。
 
 ## <a name="customize-the-apps-details"></a>自訂應用程式詳細資料
 
@@ -59,7 +59,7 @@ ms.locfileid: "60831737"
 
    有三個進入點可存取自訂功能：
 
-   - 選取要自訂之應用程式旁的 ， **然後選取** 自訂 。
+   - 選取您想要自訂的應用程式旁，然後 **選取自訂。**
 
      ![自訂選取選項 1。](media/select-app-to-customize1.png)
 
@@ -87,15 +87,15 @@ ms.locfileid: "60831737"
 
 5. 展開圖示 **區** 段。
 
-   1. Upload圖示。 使用 192x192 (192x192) PNG 格式的全彩色圖示。
+   1. Upload圖示。 使用一個全彩色圖示 (192x192) PNG 格式。
 
-   1. 選擇圖示外邊框色彩。 使用一個 32x32 (32x32) PNG 格式的透明外邊框。
+   1. 選擇圖示外邊框色彩。 以 PNG 格式使用 (32x32) 的透明外邊框。
 
    1. 選取符合圖示的應用程式強調色彩。
 
     ![自訂圖示面板色彩選項。](media/customize-app-colors.png)
 
-6. 自訂應用程式之後，請選取 **Apply**。
+6. 自訂應用程式之後，請選取應用程式 **。**
 
 7. 選取 **發佈** 以發佈自訂的應用程式。
 

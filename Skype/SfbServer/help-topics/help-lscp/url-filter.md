@@ -1,8 +1,8 @@
 ---
 title: URL 篩選器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2677dcba-92f6-432a-9e2f-f7ad72497e3c
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: f7f49f1b5a852a2cb643b022c16dbf3d5f101bc1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 71e271e5de17e541cfd844f9615cbbf8ec5f7384
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834351"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411056"
 ---
 # <a name="url-filter"></a>URL 篩選器
 

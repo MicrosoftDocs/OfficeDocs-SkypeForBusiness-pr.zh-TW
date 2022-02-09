@@ -1,8 +1,8 @@
 ---
 title: Web 會議規劃工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4e4425c1-4a7b-4706-a4cd-155fd903acd5
 description: Web 會議 inSkype for Business Server 2015 包含檔共同作業、應用程式共用和桌面共用。
-ms.openlocfilehash: 11dbb6c525da9af013b004da6827933e94c83036
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: af2c65fbfb75bf7c3aa70869efe1352cc0695e6e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845216"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410738"
 ---
 # <a name="web-conferencing-planning-tool"></a>Web 會議規劃工具
  

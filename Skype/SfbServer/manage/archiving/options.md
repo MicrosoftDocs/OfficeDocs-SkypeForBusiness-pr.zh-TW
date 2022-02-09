@@ -1,8 +1,8 @@
 ---
 title: 管理商務用 Skype Server 中的封存選項
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: 摘要：瞭解如何設定商務用 Skype Server 的封存選項。
-ms.openlocfilehash: d382cd829a9db8472df286580f6bd5d4b3baf036
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e3e8ab30a3abc10104a23a12b9bc5b75829c32a0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856770"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411666"
 ---
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>管理商務用 Skype Server 中的封存選項
 
-**摘要：** 瞭解如何設定商務用 Skype Server 的封存選項。
+**總結：** 瞭解如何設定商務用 Skype Server 的封存選項。
   
 您最初在部署時設定封存，但是您可以在部署後變更、新增和刪除設定。 封存選項會決定是否要： 
   

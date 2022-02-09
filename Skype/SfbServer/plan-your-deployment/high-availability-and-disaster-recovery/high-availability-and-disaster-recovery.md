@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中規劃高可用性和嚴重損壞修復
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
 description: 商務用 Skype Server 提供高可用性與伺服器集區、具有集區配對的嚴重損壞復原，以及後端伺服器高可用性的數種模式，包括 AlwaysOn 可用性群組、資料庫鏡像及 SQL 容錯移轉叢集。
-ms.openlocfilehash: 37baa5627ef638c0a6835053bca9094564359d1a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ef5275ccb11e6428a4084bec1b7f2f0b2dddcd5f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828686"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416456"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃高可用性和嚴重損壞修復
  
@@ -35,7 +35,7 @@ ms.locfileid: "60828686"
 商務用 Skype Server 也支援後端伺服器的四種高可用性模式： SQL 鏡像、AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) ，以及 SQL 容錯移轉叢集。
   
 > [!NOTE]
-> SQL鏡像可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) 及 SQL 容錯移轉叢集方法，都是商務用 Skype Server 2019 的首選。
+> SQL 鏡像可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) 及 SQL 容錯移轉叢集方法，都是商務用 Skype Server 2019 的首選。
 
 > [!NOTE]
 > Persistent Chat Server 不支援 AlwaysOn 可用性群組。 

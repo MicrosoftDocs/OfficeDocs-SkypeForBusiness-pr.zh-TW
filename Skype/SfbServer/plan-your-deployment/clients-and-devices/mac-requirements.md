@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype Mac 用戶端需求
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: 閱讀此主題以瞭解在 Mac 上執行商務用 Skype 的硬體、軟體和基礎結構需求。
-ms.openlocfilehash: b7d3ce484ea3e333e85c2f8473cdcdaaebe44057
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5d4e07bda176efa398d8e6766e410be243873bbe
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847216"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416466"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>商務用 Skype Mac 用戶端需求
  

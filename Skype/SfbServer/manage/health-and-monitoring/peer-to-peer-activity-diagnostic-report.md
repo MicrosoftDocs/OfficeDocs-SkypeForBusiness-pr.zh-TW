@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的 Peer-to-Peer 活動診斷報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer 活動診斷報告。
-ms.openlocfilehash: c0c568a75cddb8ea9f8165a196ee8cef1e03eaab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3698f4a6b585c3a244fa44f318fc991c3a9634ae
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858230"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411586"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 Peer-to-Peer 活動診斷報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的 Peer-to-Peer 活動診斷報告。
+**總結：** 深入瞭解商務用 Skype Server 中的 Peer-to-Peer 活動診斷報告。
   
 對等活動診斷報告提供對等通訊工作階段成功與失敗的資訊。 請注意，商務用 Skype Server 會區別不同類型的失敗：
   

@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的媒體質量摘要報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
 description: 摘要：瞭解商務用 Skype Server 中的媒體質量摘要報告。
-ms.openlocfilehash: 7ee64f9654e2f21a45c173c4a51ed5e40131b874
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3bf2d28cf9bc771ab14c567f3e0cfd1f373800b1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838615"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399657"
 ---
 # <a name="media-quality-summary-report-in-skype-for-business-server"></a>商務用 Skype Server 中的媒體質量摘要報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的媒體質量摘要報告。
+**總結：** 深入瞭解商務用 Skype Server 中的媒體質量摘要報告。
   
 媒體質量摘要報告也許是在您的組織中分析通話品質的首選：此報告可提供詳細的經驗品質 (QoE 會分解為下列類別) 的呼叫計量。
   

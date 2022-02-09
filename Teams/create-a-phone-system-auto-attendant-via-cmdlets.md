@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何透過 Cmdlet 設定自動助理
-ms.openlocfilehash: 1a8a105da3cfeaad0b6bc4069d877d2d8ad95796
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 3911010b201e2b19376c24c6c4b84ae8dbcc5db8
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62181165"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457463"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>透過 Cmdlet 建立自動助理
 
@@ -40,9 +40,9 @@ ms.locfileid: "62181165"
 3)  您購買Microsoft Teams 電話
 4)  下列提及的通話佇列已按照使用 [PowerShell Cmdlet](create-a-phone-system-call-queue-via-cmdlets.md) 建立通話佇列指南進行設定。
                                                                                                
-注意：以下參照的一些 Cmdlet 可能是 PowerShell 模組的公用預覽版Teams一部分。  詳細資訊請參閱安裝[PowerShell](teams-powershell-install.md) Teams預覽版[，Microsoft Teams PowerShell 版本資訊](teams-powershell-release-notes.md)。
+注意：以下參照的一些 Cmdlet 可能是 PowerShell 模組的公用預覽版Teams一部分。  詳細資訊請參閱安裝[PowerShell Teams](teams-powershell-install.md)預覽版，Microsoft Teams [PowerShell 版本資訊](teams-powershell-release-notes.md)。
 
-已安裝 MicrosoftTeams 模組的使用者應確保已安裝最新版本 ````Update-Module MicrosoftTeams```` 。
+已安裝 MicrosoftTeams 模組 ````Update-Module MicrosoftTeams```` 的使用者應確保已安裝最新版本。
 
 ## <a name="scenario"></a>案例
 
@@ -72,7 +72,7 @@ ms.locfileid: "62181165"
 - - 撥號範圍：銷售&支援成員
 
 ## <a name="login"></a>登錄
-系統會提示您輸入Teams認證。
+系統會提示您輸入您的Teams認證。
 ```
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
@@ -235,7 +235,6 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>建立及指派資源帳戶
-注意：電話通話佇列由自動總機前置結束，因此此處不需要號碼
 - ApplicationID
 - - 自動助理：ce933385-9390-45d1-9512-c8d228074e07
 - - 通話佇列：11cd3e2e-fcb-42ad-ad00-878b93575e07

@@ -1,8 +1,8 @@
 ---
 title: AV MCU 設定展開工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要編輯您已定義的 A/V 會議伺服器集區的屬性，請執行下列動作：
-ms.openlocfilehash: 4f63396e528b7a5a4340655360d48a27070cf35b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3179e7d791f49f0f1253d1749390bfd213cb47f5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859260"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411166"
 ---
 # <a name="av-mcu-settings-expander"></a>AV MCU 設定展開工具
  

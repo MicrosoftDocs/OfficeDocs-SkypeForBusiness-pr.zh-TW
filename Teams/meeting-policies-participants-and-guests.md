@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在會議Teams中管理會議策略設定。
-ms.openlocfilehash: bd8146ce27f76bd03d7ef991f51dbe1dda3c08ab
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: ac77ab8b032fa792b0b137c84679912768e3b1b6
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563119"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457373"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>會議原則設定 - 參與者與來賓
 
@@ -66,8 +66,8 @@ ms.locfileid: "61563119"
 |**組織中的人員和來賓**     |組織中經過驗證的使用者 ，包括來賓使用者，可以直接加入會議，而不需要在大廳等候。 信任組織的使用者和匿名使用者在大廳等候。 這是預設設定。    |
 |**組織中的人員、信任的組織和來賓**     |組織內已驗證的使用者 (包括來賓使用者和來自信任組織的使用者) 可直接加入會議，而不需在大廳等候。  匿名使用者在大廳中等候。   |
 |**組織中的人員**    |組織中經過驗證的使用者直接加入會議，而不需要在大廳等候。  來自信任組織、來賓使用者和匿名使用者的使用者在大廳等候。          |
-|**僅限召集人**    |只有會議召集人可直接加入會議，而不需在大廳等候。 其他人，包括組織中經過驗證的使用者、來賓使用者、信任組織的使用者，以及匿名使用者，都必須在大廳等候。 在 Teams會議選項頁面上，它顯示為「僅自己」。          |
-|**僅受邀使用者**    |只有受邀的使用者和會議召集人可以直接加入會議，而不必在大廳等候。 其他人，包括組織中經過驗證的使用者、來賓使用者、信任組織的使用者，以及匿名使用者，都必須在大廳等候。 在 Teams會議選項頁面上，會顯示為「我邀請的人」。 新增為通訊群組一部分的使用者必須經過大廳。      |
+|**僅限召集人**    |只有會議召集人可直接加入會議，而不需在大廳等候。 其他人，包括組織中經過驗證的使用者、來賓使用者、信任組織的使用者，以及匿名使用者，都必須在大廳等候。 在 Teams會議選項頁面上，會顯示為「僅自己」。          |
+|**僅受邀使用者**    |只有受邀的使用者和會議召集人可以直接加入會議，而不必在大廳等候。 其他人，包括組織中經過驗證的使用者、來賓使用者、信任組織的使用者，以及匿名使用者，都必須在大廳等候。 在 Teams用戶端會議選項頁面上，會顯示為「我邀請的人」。 新增為通訊群組一部分的使用者必須經過大廳。      |
 
  > [!NOTE]
 > 信任的組織是允許在 Teams 中與聯盟通訊的Teams。 如果您啟用 **允許** 外部網域在系統管理中心Teams所有外部網域，任何組織中任何經過驗證Teams都會受到信任。 如果您選擇指定允許的外部網域並封鎖所有其他網域，則允許的網域會變成信任的組織。 任何封鎖的網域都視為不是信任的組織。
@@ -96,11 +96,17 @@ ms.locfileid: "61563119"
 
 此設定是每個參與者的設定。 此設定可控制是否在使用者的會議中允許會議聊天。
 
+|設定值 |行為  |
+|---------|---------|
+|**為每個人開啟**     | 所有參與者都可以撰寫和查看聊天訊息。 |
+|**為每個人關閉**     | 所有參與者的會議聊天都已關閉。  |
+|**為所有人開啟，但匿名使用者則開啟**| 匿名使用者無法在會議期間聊天，但可以讀取訊息。 |
+
 <a name="bkparticipantsandguests"> </a>
 
 ## <a name="enable-meeting-policy-settings"></a>啟用會議策略設定
 
-若要啟用會議策略設定，您可以使用 [Teams](https://admin.teams.microsoft.com/policies/meetings)系統管理中心 (會議政策編輯策略 參與者 & 來賓) 或 Teams PowerShell 中的  >    >  **** [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) Cmdlet。 
+若要啟用會議策略設定，您可以使用 [Teams](https://admin.teams.microsoft.com/policies/meetings)系統管理中心 (**會議策略**  >  **在**  >  Teams PowerShell 中建立一個策略 **Participants & 來賓)** 或 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) Cmdlet。 
 
 在此範例中，我們使用 PowerShell 修改全域會議政策，允許任何人開始或加入會議。
 

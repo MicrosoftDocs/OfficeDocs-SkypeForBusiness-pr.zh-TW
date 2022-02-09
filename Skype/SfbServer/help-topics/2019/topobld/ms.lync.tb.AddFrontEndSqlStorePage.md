@@ -1,8 +1,8 @@
 ---
 title: 新增前端 SQL Server 存放區
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ ms.localizationpriority: medium
 ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Standard Edition server 部署會自動安裝必要的 Microsoft SQL Server Express 資料庫軟體和 SQL Server 資料庫。 因此，所有選項都會預先填入，您無法變更預設設定。
-ms.openlocfilehash: eaa6b6f313632fe3b0acfc5d89a0117978cced42
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 74a5128bb186a15d994354e062db757f813154fa
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835711"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410396"
 ---
 # <a name="add-front-end-sql-server-store"></a>新增前端 SQL Server 存放區
 
 Standard Edition server 部署會自動安裝必要的 Microsoft SQL Server Express 資料庫軟體和 SQL Server 資料庫。 因此，所有選項都會預先填入，您無法變更預設設定。
 
-Enterprise Edition 伺服器部署的前端集區需要後端資料庫的支援64位版本 SQL Server 資料庫軟體。 您可以選取先前定義的 SQL Server 資料庫，以用於後端資料庫。或者，您可以指定 SQL Server 資料庫所在之伺服器的完整功能變數名稱 (FQDN) ，也可以定義新的 SQL Server 資料庫，而您想要用於新 SQL Server 資料庫的 SQL Server 實例（可以是預設實例，或是指定的命名實例） (。 您也可以選擇啟用 SQL Server 儲存區上的鏡像，並指定自動容錯移轉的鏡像見證。
+Enterprise Edition 伺服器部署的前端集區需要後端資料庫的支援64位版本 SQL Server 資料庫軟體。 您可以選取先前定義的 SQL Server 資料庫，以用於後端資料庫，或透過指定 SQL Server 資料庫所在之伺服器的 FQDN)  (FQDN 來定義新的 SQL Server 資料庫，以及您想要用於新的 SQL Server 實例。SQL Server 資料庫 (可以是預設實例，或是您指定) 的命名實例。 您也可以選擇啟用 SQL Server 儲存區上的鏡像，並指定自動容錯移轉的鏡像見證。
 
 如需 SQL Server 支援的詳細資訊，請參閱支援檔中的[資料庫軟體和群集支援](/previous-versions/office/lync-server-2013/lync-server-2013-database-software-support)。 如需設定後端資料庫 SQL Server 的詳細資訊，請參閱部署檔中的[Configure SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server) 。
 

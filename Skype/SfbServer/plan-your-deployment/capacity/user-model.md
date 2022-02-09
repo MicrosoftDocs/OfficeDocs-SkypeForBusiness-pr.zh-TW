@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 的容量規劃使用者模型使用狀況
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: 本文根據商務用 Skype Server 中使用者模型所述的使用方式，針對網站上的使用者人數，提供您在網站上的多少伺服器所需的指導方針。
-ms.openlocfilehash: 145e790c0f6c7ceeaa7330c0cd48ad68bc15b331
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b661c08e15d2de66f213d7deba02a6c162cb7fa6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846356"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62418446"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>商務用 Skype Server 的容量規劃使用者模型使用狀況
 
@@ -47,7 +47,7 @@ ms.locfileid: "60846356"
 |伺服器角色|支援的使用者人數上限|
 |:-----|:-----|
 |前端集區，具有十二部前端伺服器和一部後端伺服器，或一對後端伺服器的鏡像對。   |80000同時登入的個別使用者，加上50% 的多點狀態 (MPOP) 代表非行動實例，加上40% 的使用者，以行動為總數，總使用152000端點。   |
-|會議 A/V   |前端集區所提供的 A/V 會議服務，可支援集區的會議，其為最大的會議大小為250的使用者，且一次只執行一個這類大型會議。  <br/> **附注：** 此外，您可以將個別的前端集區與兩部前端伺服器搭配使用，以主控大型會議，以支援250和1000使用者之間的大型會議。 如需詳細資訊，請參閱[在商務用 Skype Server 中規劃大型會議](../../plan-your-deployment/conferencing/large-meetings.md)。   |
+|會議 A/V   |前端集區所提供的 A/V 會議服務，可支援集區的會議，其為最大的會議大小為250的使用者，且一次只執行一個這類大型會議。  <br/> **注意：** 此外，您可以將個別的前端集區與兩部前端伺服器搭配使用，以主控大型會議，以支援250和1000使用者之間的大型會議。 如需詳細資訊，請參閱[在商務用 Skype Server 中規劃大型會議](../../plan-your-deployment/conferencing/large-meetings.md)。   |
 |一部 Edge Server   |12000並行遠端使用者。   |
 |一個 Director   |12000並行遠端使用者。   |
 |監控和封存   |監視和封存前端服務會在每個前端伺服器上執行，而不是在不同的伺服器角色上執行。  <br/> 監視和封存每個仍然需要自己的資料庫存放區。 如果您也執行 Exchange 2013 或更新版本，您可以將封存資料保存在 Exchange 中，而不是放在專用 SQL 資料庫中。   |

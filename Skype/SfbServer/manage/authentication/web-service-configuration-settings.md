@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中管理 Web 服務設定
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: 摘要：管理商務用 Skype Server 中的 Web 服務設定。
-ms.openlocfilehash: 006b2b80514c3902c7ce27e212fd451aea9921b4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 29f3c3a4aae8a444c9d247b39d6c3fdfcd4b1c9a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847386"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411646"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中管理 Web 服務設定
  
-**摘要：** 在商務用 Skype Server 中管理 Web 服務設定。
+**總結：** 在商務用 Skype Server 中管理 Web 服務設定。
   
 您可以使用 [ **Web 服務**] 頁面來設定驗證方法，以存取商務用 Skype Server 相關的網頁伺服器和 web 服務。
   
@@ -42,7 +42,7 @@ ms.locfileid: "60847386"
     
    - 若要設定集區的 Web 服務，請按一下 [ **集** 區設定]。 在 [ **選取服務**] 中，按一下將套用 Web 服務原則的服務，然後按一下 **[確定]**。 
     
-5. 在 **[新的 Web 服務設定**] 的 **整合式 Windows 驗證** 中，選取 [**協商**]、[**整合式 Windows 驗證**] 或 [**無**]。
+5. 在 [**新的 Web 服務設定**] 的 **整合式 Windows 驗證** 中，選取 [**協商**]、[**整合式 Windows 驗證**] 或 [**無**]。
     
 6. 根據用戶端的功能和您環境中的支援，選取下列其中一項或多項：
     
@@ -70,7 +70,7 @@ ms.locfileid: "60847386"
     
 4. 在 [ **Web 服務** ] 頁面上，按一下設定，然後按一下 [ **編輯**]，然後按一下 [ **顯示詳細資料**]。
     
-5. 在 **[編輯 Web 服務設定**]**的整合式 Windows 驗證** 中，選取 [**協商**]、[整合式 **Windows 驗證**] 或 [**無**]。
+5. 在 [**編輯 Web 服務設定**] 的 **整合式 Windows 驗證** 中，選取 [**協商**]、[**整合式 Windows 驗證**] 或 [**無**]。
     
 6. 根據用戶端的功能和您環境中的支援，選取下列其中一項或多項：
     

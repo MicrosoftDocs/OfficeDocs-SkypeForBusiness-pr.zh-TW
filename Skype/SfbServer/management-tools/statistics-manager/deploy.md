@@ -1,8 +1,8 @@
 ---
 title: 部署商務用 Skype Server 統計資料
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 摘要：閱讀此主題以瞭解如何部署商務用 Skype Server 的統計資料管理員。
-ms.openlocfilehash: 4cfedb385078cd12413cb9f27059f7b5ed8023a1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 98a1a405ccccf9ee88941588e6e43f152d2f6bb3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857430"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410716"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>部署商務用 Skype Server 統計資料
  
-**摘要：** 閱讀此主題以瞭解如何部署商務用 Skype Server 的統計資料管理員。
+**總結：** 閱讀此主題以瞭解如何部署商務用 Skype Server 的統計資料管理員。
   
  商務用 Skype Server 的統計資料管理員是一種強大的工具，可讓您即時查看商務用 Skype Server 狀況和效能資料。 您可以每隔幾秒輪詢每數百部伺服器上的效能資料，並在統計資料管理員網站上立即查看結果。
   
@@ -34,7 +34,7 @@ ms.locfileid: "60857430"
 > [!NOTE]
 > 在 Internet Explorer 11 +、Edge 20.10240 + 和 Chrome 46 + (目前的長綠版本) 上，已測試並正確地處理統計資料管理員網站。 
   
-您可以在中找到 [統計資料管理員] [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload) 。 
+您可以在 [https://aka.ms/StatsManDownload](https://aka.ms/StatsManDownload) 中找到 [統計資料管理員]。 
   
 本主題包含下列各節：
   
@@ -286,7 +286,7 @@ Microsoft 強烈建議您使用受信任的憑證授權單位單位所簽署的�
     
 4. 以滑鼠右鍵按一下 [ **StatsManListener- \> 所有工作- \> 管理私密金鑰]。**
     
-5. 按一下 **[新增]**。
+5. 點擊 **[新增]**。
     
 6. 在 [ **輸入物件名稱來選取** ] 方塊中，輸入下列專案：網路服務
     

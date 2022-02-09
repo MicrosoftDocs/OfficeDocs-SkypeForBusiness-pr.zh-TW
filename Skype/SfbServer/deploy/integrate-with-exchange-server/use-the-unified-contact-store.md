@@ -1,8 +1,8 @@
 ---
 title: 設定商務用 Skype Server 以使用整合連絡人存放區
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -14,25 +14,25 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6aa17ae3-764e-4986-a900-85a3cdb8c1fc
 description: 摘要：設定 Exchange Server 和商務用 Skype Server 的整合連絡人存放區。
-ms.openlocfilehash: ed28f57350e2ce1d7ed5f92d712bdf5ecc7f3de4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 41065b6df0e1d313ca986bef7be6bbd1609ab04a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853667"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417216"
 ---
 # <a name="configure-skype-for-business-server-to-use-the-unified-contact-store"></a>設定商務用 Skype Server 以使用整合連絡人存放區
  
-**摘要：** 設定 Exchange Server 2016 或 Exchange Server 2013 及商務用 Skype Server 的整合連絡人存放區。
+**總結：** 設定 Exchange Server 2016 或 Exchange Server 2013 及商務用 Skype Server 的整合連絡人存放區。
   
 在使用整合連絡人存放區時，使用者會維護單一連絡人清單，然後在多個應用程式中使用這些連絡人，包括商務用 Skype、Microsoft Outlook 2013 及 Microsoft Outlook Web App 2013。 當您為使用者啟用整合連絡人存放區時，該使用者的連絡人不會儲存在商務用 Skype Server 中，並視需要進行檢索。 相反地，他或她的連絡人會儲存在 Exchange Server 2016 或 Exchange Server 2013 中，而且可以使用 Exchange Web 服務進行檢索。
   
 > [!NOTE]
-> 從技術角度來看，連絡人資訊會儲存在使用者 Exchange 信箱中找到的資料夾組中。 連絡人本身會儲存在名為商務用 Skype 連絡人的資料夾中，該資料夾可對使用者顯示;連絡人的中繼資料儲存在使用者無法看見的子資料夾中。 
+> 從技術角度來看，連絡人資訊會儲存在使用者 Exchange 信箱中找到的資料夾組中。 連絡人本身會儲存在名為商務用 Skype 連絡人的資料夾中，該資料夾可供使用者看到; 連絡人的中繼資料儲存在使用者無法看見的子資料夾中。 
   
 ## <a name="enabling-the-unified-contact-store-for-a-user"></a>針對使用者啟用整合連絡人存放區
 
-如果已設定商務用 Skype Server 和 Exchange Server 之間的伺服器對伺服器驗證，則表示您也已啟用整合連絡人存放區;不需要其他伺服器設定。 不過，要將使用者的連絡人移動至整合連絡人存放區，則需設定其他使用者帳戶。 根據預設，使用者連絡人會保留在商務用 Skype Server，而非整合連絡人存放區中。
+如果已設定商務用 Skype Server 和 Exchange Server 之間的伺服器對伺服器驗證，則表示您已啟用整合連絡人存放區，也不需要其他伺服器設定。 不過，要將使用者的連絡人移動至整合連絡人存放區，則需設定其他使用者帳戶。 根據預設，使用者連絡人會保留在商務用 Skype Server，而非整合連絡人存放區中。
   
 存取整合連絡人存放區的方式是使用商務用 Skype Server 使用者服務原則來管理。 使用者伺服器原則僅有單一屬性 (UcsAllowed)；此屬性用於決定使用者的連絡人所儲存的位置。 如果使用者是由使用者服務原則所管理，且 UcsAllowed 已設定為 True ($True) 則使用者的連絡人會儲存在統一連絡人存放區中。 如果使用者是由使用者服務原則所管理，且 UcsAllowed 已設定為 False ($False) 則會將其連絡人儲存在商務用 Skype Server 中。
   
@@ -64,7 +64,7 @@ Grant-CsUserServicesPolicy -Identity "Ken Myer" -PolicyName "AllowUnifiedContact
 Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
 ```
 
-如果 Test-CsUnifiedContactStore 會成功，表示使用者 sip 的連絡人： kenmyer@ litwareinc 已 <span></span> <span></span> 遷移至整合連絡人存放區。
+如果 Test-CsUnifiedContactStore 會成功，表示使用者 sip 的連絡人： kenmyer@ <span></span> litwareinc <span></span> 已遷移至整合連絡人存放區。
   
 ## <a name="rolling-back-the-unified-contact-store"></a>復原連絡人存放區
 

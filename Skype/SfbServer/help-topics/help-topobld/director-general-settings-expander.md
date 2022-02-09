@@ -1,8 +1,8 @@
 ---
 title: Director 一般設定展開工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 description: 若要編輯現有 Director 的設定，您會看到下列區段：
-ms.openlocfilehash: 4913b70a585b18c1ce4dbe12a435ca5d39bcc216
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5013edf82c630ed2c2e155dc4558683a735bcc92
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851167"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399787"
 ---
 # <a name="director-general-settings-expander"></a>Director 一般設定展開工具
  

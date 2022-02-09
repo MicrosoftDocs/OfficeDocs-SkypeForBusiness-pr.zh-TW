@@ -5,8 +5,8 @@ ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
 ms:contentKeyID: 48184074
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本文說明如何針對會議、應用程式及轉送伺服器設定埠範圍和服務品質原則。
-ms.openlocfilehash: 9dfa3e7ccb5b69cd112911f700528cc6fc484d89
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ea7e150824ff3816c99a26bb92c165e9b237b5fe
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856660"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410756"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>針對會議、應用程式及轉送伺服器設定埠範圍和服務品質原則
 
@@ -32,7 +32,7 @@ ms.locfileid: "60856660"
 
 同樣地，假設您為視訊保留連接埠 10000 到 10999，但接著為音訊保留連接埠 10500 到 11999。 這樣會造成服務品質的問題，因為連接埠範圍重疊。 在 QoS 中，每個模態都必須有一組獨特的埠：如果您使用埠10000到10999以進行影片，則必須使用不同的範圍 (（例如11000到11999，針對音訊) ）。
 
-依預設，音訊和視訊連接埠範圍不會在商務用 Skype Server 中重疊;不過，指派給應用程式共用的埠範圍會與音訊和視訊連接埠範圍重疊。  (它會反過來表示這些範圍都不是唯一的。 ) 您可以從商務用 Skype Server 管理命令介面中執行下列三個命令，以驗證會議、應用程式及轉送伺服器的現有埠範圍。
+依預設，音訊和視訊連接埠範圍不會在商務用 Skype Server 中重疊; 不過，指派給應用程式共用的埠範圍與音訊和影片埠範圍重疊。  (它會反過來表示這些範圍都不是唯一的。 ) 您可以從商務用 Skype Server 管理命令介面中執行下列三個命令，以驗證會議、應用程式及轉送伺服器的現有埠範圍。
 
   Get-CsService-ConferencingServer |Select-Object 身分識別、AudioPortStart、AudioPortCount、VideoPortStart、VideoPortCount、AppSharingPortStart AppSharingPortCount
     
@@ -96,7 +96,7 @@ ms.locfileid: "60856660"
 </tbody>
 </table>
 
-如先前所述，設定 QoS 的商務用 Skype Server 埠時，應確定在您的會議、應用程式及轉送伺服器上，： 1) 音訊埠設定都相同。而且，2) 埠範圍不會重疊。 如果您仔細查看前面的表格，您會看到埠範圍在三個伺服器類型中皆相同。 例如，在每個伺服器類型上，啟動音訊埠設定為埠49152，而在每個伺服器上為音訊保留的埠總數也相同：8348。 不過，埠範圍會重迭：音訊埠會從埠49152開始，但也會為應用程式共用設定埠。 為了讓服務品質獲得最佳的使用，應將應用程式共用重新設定為使用唯一的埠範圍。 例如，您可以將應用程式共用設定為從埠40803開始，並使用8348埠。  (為何8348埠？ 如果您將這些值一起新增--40803 + 8348--這表示應用程式共用將使用埠40803透過埠49150。 因為音訊埠不會開始，直到埠49152，您就不會再有任何重疊的埠範圍。 ) 
+如先前所述，設定 QoS 的商務用 Skype Server 埠時，應確定在您的會議、應用程式和轉送伺服器上，： 1) 音訊埠設定都相同; 2) 埠範圍不會重疊。 如果您仔細查看前面的表格，您會看到埠範圍在三個伺服器類型中皆相同。 例如，在每個伺服器類型上，啟動音訊埠設定為埠49152，而在每個伺服器上為音訊保留的埠總數也相同：8348。 不過，埠範圍會重迭：音訊埠會從埠49152開始，但也會為應用程式共用設定埠。 為了讓服務品質獲得最佳的使用，應將應用程式共用重新設定為使用唯一的埠範圍。 例如，您可以將應用程式共用設定為從埠40803開始，並使用8348埠。  (為何8348埠？ 如果您將這些值一起新增--40803 + 8348--這表示應用程式共用將使用埠40803透過埠49150。 因為音訊埠不會開始，直到埠49152，您就不會再有任何重疊的埠範圍。 ) 
 
 選取應用程式共用的新埠範圍後，您可以使用 Set-CsConferencingServer Cmdlet 進行變更。 您不需要在應用程式伺服器或中繼伺服器上進行這項變更，因為這些伺服器不會處理應用程式共用流量。 如果您決定要重新指派用於音效流量的連接埠，只要在這些伺服器上變更連接埠值即可。
 

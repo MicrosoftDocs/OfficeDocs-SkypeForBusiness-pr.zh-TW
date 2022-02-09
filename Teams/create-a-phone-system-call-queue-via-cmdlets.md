@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: 瞭解如何透過 Cmdlet 設定通話佇列
-ms.openlocfilehash: a8f24f11cb19f448fc897043c7cb046a08c32341
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: aa3330af2a47c87fc71f63396b84f8ad017e19b5
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62181106"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457443"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>透過 Cmdlet 建立通話佇列
 
@@ -42,9 +42,9 @@ ms.locfileid: "62181106"
 3)  您購買Microsoft Teams 電話
 4)  已建立下列Teams的代理程式、通訊群組清單和頻道
 
-注意：Teams通道 Cmdlet 是 PowerShell 模組的公用預覽版Teams一部分。  詳細資訊請參閱安裝[PowerShell](teams-powershell-install.md) Teams預覽版[，Microsoft Teams PowerShell 版本資訊](teams-powershell-release-notes.md)。
+注意：Teams通道 Cmdlet 是 PowerShell 模組的公用預覽版Teams一部分。  若要詳細資訊，請參閱在[PowerShell Teams中安裝](teams-powershell-install.md)，並參閱[powerShell Microsoft Teams版本資訊](teams-powershell-release-notes.md)。
 
-已安裝 MicrosoftTeams 模組的使用者應確保已安裝最新版本 ````Update-Module MicrosoftTeams```` 。
+已安裝 MicrosoftTeams 模組 ````Update-Module MicrosoftTeams```` 的使用者應確保已安裝最新版本。
 
 
 ## <a name="scenario"></a>案例
@@ -98,7 +98,7 @@ ms.locfileid: "62181106"
 
 設施共同作業通話佇列資訊：
 - 自動助理的前方：否
-- 從 PSTN 直接通話： (內部通話) 
+- 從 PSTN 直接撥打： (內部通話) 
 -   語言：法文 FR
 -   問候語：無
 -   等候音樂：預設值
@@ -117,7 +117,7 @@ ms.locfileid: "62181106"
 
 
 ## <a name="login"></a>登錄
-系統會提示您輸入Teams認證。
+系統會提示您輸入您的Teams認證。
 ```
 $credential = Get-Credential
 Connect-MicrosoftTeams -Credential $credential
@@ -126,7 +126,7 @@ Connect-MsolService -Credential $credential
 
 ## <a name="sales-queue"></a>銷售佇列
 ### <a name="create-audio-files"></a>建立音訊檔案
-將 \\ 「d：」取代為將波浪檔案儲存在您電腦上的路徑。
+將 「d： \\ 」取代為將波浪檔案儲存在電腦上的路徑。
 
 ````
 $content = Get-Content “d:\sales-hold-in-queue-music.wav” -Encoding byte -ReadCount 0
@@ -179,7 +179,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 
 ## <a name="support-queue"></a>支援佇列
 ### <a name="create-audio-files"></a>建立音訊檔案
-將 \\ 「d：」取代為將波浪檔案儲存在您電腦上的路徑。
+將 「d： \\ 」取代為將波浪檔案儲存在電腦上的路徑。
 
 ````
 $content = Get-Content “d:\support-greeting.wav” -Encoding byte -ReadCount 0
@@ -246,7 +246,7 @@ Get-TeamChannel -GroupId $teamFacilitiesGroupID
 $teamFacilitiesHelpDeskChannelID = "{assign ID from output of above command}"
 ````
 
-### <a name="get-facilities-help-desk-channel-ower-user-id"></a>取得設施服務台頻道 ower 使用者識別碼
+### <a name="get-facilities-help-desk-channel-owner-user-id"></a>取得設施服務台頻道擁有者使用者識別碼
 ````
 $teamFacilitiesHelpDeskChannelUserID = (Get-TeamChannelUser -GroupId $teamFacilitiesGroupID -DisplayName "Help Desk" -Role Owner).UserId
 ````

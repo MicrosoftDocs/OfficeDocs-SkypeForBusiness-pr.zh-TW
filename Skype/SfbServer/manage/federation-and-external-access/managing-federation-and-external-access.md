@@ -5,8 +5,8 @@ ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
 ms:contentKeyID: 48183665
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 您可以啟用和設定外部使用者存取，以控制是否支援的外部使用者能夠與內部商務用 Skype Server 使用者共同作業。
-ms.openlocfilehash: 42e0644cbad51681f979f83041e4c260788039d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: af651e15030a6d09a930e2b2fab6ec923de238c5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836365"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411626"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>管理商務用 Skype Server 的同盟與外部存取
 

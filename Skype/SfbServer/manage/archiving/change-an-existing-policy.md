@@ -1,8 +1,8 @@
 ---
 title: 變更商務用 Skype Server 中的現有封存原則
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 摘要：瞭解如何變更使用者的商務用 Skype Server 的封存原則。
-ms.openlocfilehash: b6ddc379f2b5652311be051d47d644a8e2923c1c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 494ed5ab3bd9e7bf4b64926533d3866e515fe34a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854387"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62416616"
 ---
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>變更商務用 Skype Server 中的現有封存原則
  
-**摘要：** 瞭解如何變更使用者的商務用 Skype Server 的封存原則。
+**總結：** 瞭解如何變更使用者的商務用 Skype Server 的封存原則。
   
 當您第一次部署商務用 Skype Server 時，您會設定初始封存原則，以決定部署中使用者的封存實施方式。 本主題說明如何管理和修正原則。 
   

@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的 Peer-to-Peer 活動摘要報表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 摘要：瞭解商務用 Skype Server 中的 Peer-to-Peer 活動摘要報表。
-ms.openlocfilehash: 876d12b74fa34d745a7e94d31ecc19997f337e40
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3db7a69bb0460337e56ee7e4ce43d4c1ce4b240e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831987"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411546"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 Peer-to-Peer 活動摘要報表
  
-**摘要：** 深入瞭解商務用 Skype Server 中的 Peer-to-Peer 活動摘要報表。
+**總結：** 深入瞭解商務用 Skype Server 中的 Peer-to-Peer 活動摘要報表。
   
 Peer-to-Peer 活動摘要報告可提供對等通訊會話的整體觀點。 點對點工作階段通常只涉及兩位使用者，不需要使用商務用 Skype Server 會議服務。 相比之下，會議通常包含兩個以上的使用者，且需要使用商務用 Skype Server 會議服務。 會議活動會在會議摘要報告上報告。
   

@@ -1,8 +1,8 @@
 ---
 title: 測試 - 商務用 Skype Server 網站範圍節點
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 此節點會顯示您拓撲上定義的其中一個網站。您可以執行下列動作：
-ms.openlocfilehash: 687797e0c994bbdc721d46ef375a70c6d14ee287
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 287787184877c21ce023c731915e33f0809ddb9f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853387"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411876"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>測試 - 商務用 Skype Server 網站範圍節點
  
