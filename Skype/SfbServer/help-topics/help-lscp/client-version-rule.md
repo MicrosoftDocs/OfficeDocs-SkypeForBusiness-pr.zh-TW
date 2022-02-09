@@ -1,8 +1,8 @@
 ---
 title: 用戶端版本規則
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: 用戶端版本原則是由一組用戶端版本規則所組成。當使用者嘗試以特定用戶端及用戶端版本登入時，這些規則會定義所要採取的動作。
-ms.openlocfilehash: 4575155cba6608e4a8f4425f7fc2d38042e62ad2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3a2aa4712fdbe6d4c59a8ce72c67c2603f00cf57
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862820"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404105"
 ---
 # <a name="client-version-rule"></a>用戶端版本規則
 
@@ -51,7 +51,7 @@ ms.locfileid: "60862820"
 |Lync 2010 Attendee  <br/> |AOC  <br/> |
 |Live Meeting 增益集  <br/> |LiveMeetingAddins  <br/> |
 |Office Live Meeting  <br/> |LMC  <br/> |
-|Windows信使  <br/> |WM  <br/> |
+|Windows 信使  <br/> |WM  <br/> |
 |即時通訊用戶端  <br/> |RTC  <br/> |
 |iPad 的 Lync 2010  <br/> |iPadLync  <br/> |
 |iPhone 的 Lync 2010  <br/> |iPhoneLync  <br/> |
@@ -66,7 +66,7 @@ ms.locfileid: "60862820"
 
   - **次要版本** 指定對應至用戶端次要版本的號碼。
 
-  - **組建** 指定對應至用戶端主要和次要版本的組建編號。
+  - **建立** 指定對應至用戶端主要和次要版本的組建編號。
 
   - **更新** 指定對應至用戶端更新版本的號碼。
 
@@ -84,7 +84,7 @@ ms.locfileid: "60862820"
 
   - **舊於或相同**
 
-- **動作** 您可以指定在上述步驟中符合準則時所要執行的動作。 可供使用的動作如下：
+- **行動** 您可以指定在上述步驟中符合準則時所要執行的動作。 可供使用的動作如下：
 
   - **允許** 允許用戶端登入。
 
@@ -95,7 +95,7 @@ ms.locfileid: "60862820"
 
   - **允許搭配 URL** 允許用戶端登入並顯示從何處下載其他用戶端版本的訊息。 您要在 [URL] 欄位中指定 URL。
 
-  - **封鎖** 禁止用戶端登入。
+  - **塊** 禁止用戶端登入。
 
   - **封鎖和升級** 防止用戶端登入，並且允許用戶端從 Windows Server Update Service 或 Microsoft Update 接收更新。 只有在選取 [使用者代理 **OC** ] 時，才可使用此動作。
 

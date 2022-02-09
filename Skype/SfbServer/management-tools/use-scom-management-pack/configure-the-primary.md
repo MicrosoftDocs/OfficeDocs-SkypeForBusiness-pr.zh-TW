@@ -1,8 +1,8 @@
 ---
 title: 如何設定主要管理伺服器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 摘要：設定您的主要管理伺服器、安裝 System Center Operations Manager，以及匯入商務用 Skype Server 2015 的管理元件。
-ms.openlocfilehash: 6128cc33f0a877235c3356a2bef78a9288f6fc13
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fe03f40f3fd63cf7bc88a8739c04dd98369be26f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852947"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398757"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>如何設定主要管理伺服器
 
-**摘要：** 設定您的主要管理伺服器、安裝 System Center Operations Manager，然後匯入商務用 Skype Server 2015 的管理元件。
+**總結：** 設定您的主要管理伺服器、安裝 System Center Operations Manager，然後匯入商務用 Skype Server 2015 的管理元件。
 
 若要充分利用商務用 Skype Server 2015 所包含的新狀況監視功能，您必須先指定一部電腦做為您的主要管理伺服器。 接著，您必須在該電腦上安裝 System Center Operations manager 2012 SP1 或 R2 或 System Center Operations manager 2007 R2。 此外，您必須先安裝支援的 SQL Server 版本，才能當作 Operations Manager 後端資料庫運作。
 
@@ -71,7 +71,7 @@ ms.locfileid: "60852947"
 
 您可以使用下列其中一個工具匯入管理元件：
 
-- **System Center Operations Manager** 使用此方法，您可以使用 Operations Manager 來新增商務用 Skype Server 的監控。
+- **System Center Operations manager** 使用此方法，您可以使用 Operations manager 為商務用 Skype Server 新增監視。
 
 - **Operations Manager 殼層** 您可以使用 Operations Manager 殼層直接匯入，或疑難排解使用 System Center Operations Manager 主控台匯入管理元件時所遇到的任何問題。
 

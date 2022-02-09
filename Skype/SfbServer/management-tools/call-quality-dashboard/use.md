@@ -1,8 +1,8 @@
 ---
 title: 使用商務用 Skype Server 的通話品質儀表板
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 摘要：瞭解如何使用 [通話品質] 儀表板。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: a1a2f0c6d4cf07563f0aceb6379a9142930e1699
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5647622a04cbe449f426ae38b7d207fcbe2858e9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843806"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398827"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>使用商務用 Skype Server 的通話品質儀表板
 
-**摘要：** 瞭解如何使用通話品質儀表板。 通話品質儀表板是商務用 Skype Server 的工具。
+**總結：** 瞭解如何使用通話品質儀表板。 通話品質儀表板是商務用 Skype Server 的工具。
 
 通話品質儀表板 (CQD) 可讓 IT 專業人員使用匯總資料，透過比較使用者群組的統計資料來識別產生媒體質量問題的問題，以識別趨勢和模式。 CQD 不會專注于解決個別通話問題，但可識別適用于許多使用者的問題和解決方案。
 
@@ -194,7 +194,7 @@ JPDR definition = 不良通話定義減去 RatioConcealedSamplesAvg
 
 CQD 不使用來電者/被叫用方欄位，而是使用 "First" 和 "Second"，因為來電者和被叫方之間有介入的步驟。
 
- **First** 會一直是伺服器端點 (例如，AV MCU 或轉送伺服器) （如果此資料流程中包含伺服器）。
+ **第一** 會一直是伺服器端點 (例如，AV MCU 或轉送伺服器) （如果此資料流程中包含伺服器）。
 
  **第二** 除非是 Server-Server 資料流程，否則會永遠為用戶端端點。
 
@@ -222,7 +222,7 @@ CQD 不使用來電者/被叫用方欄位，而是使用 "First" 和 "Second"，
 
 - 測量
 - 維度
-- 篩選
+- 篩選器
 
 例如，格式正確的查詢將會是「使用子網的「顯示不良資料流程」（Dimension）」（Filter）。
 

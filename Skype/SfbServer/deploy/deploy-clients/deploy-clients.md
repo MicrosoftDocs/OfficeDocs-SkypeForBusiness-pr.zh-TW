@@ -1,7 +1,7 @@
 ---
 title: 部署商務用 Skype Server 的用戶端
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 摘要：商務用 Skype 之企業用戶端安裝方法的概述。
-ms.openlocfilehash: d21424d268e6b03e46bfa11b06b7d1929bb015b1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2e52de479b181e13be3124baeec0e76787b863a0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841955"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399377"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>部署商務用 Skype Server 的用戶端
  
-**摘要：** 商務用 Skype 的企業用戶端安裝方法。
+**總結：** 商務用 Skype 的企業用戶端安裝方法。
   
 如何對使用者部署商務用 Skype 取決於您是在 Microsoft 365 或 Office 365 計畫中購買商務用 Skype，還是購買大量授權版本的商務用 Skype。 
   

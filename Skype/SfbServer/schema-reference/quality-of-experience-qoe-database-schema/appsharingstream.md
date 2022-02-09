@@ -1,8 +1,8 @@
 ---
 title: AppSharingStream 表格
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: AppSharingStream 表格包含用於應用程式共用之網路資料流程的經驗品質計量。 此表格已引進 Microsoft Lync Server 2013。
-ms.openlocfilehash: 6bd74e7e67a5292382a09f6a4cba7fb73fb9c100
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 69313a2885f954245460963f119619fb2b91c8d6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862000"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398527"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream 表格
  

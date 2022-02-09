@@ -1,8 +1,8 @@
 ---
 title: 如何設定監視節點測試使用者和設定
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 如何設定商務用 Skype Server 綜合交易的測試使用者帳戶和監視程式節點設定。
-ms.openlocfilehash: e21842550da1a5a96c96cef5ac7e8c728777799b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 503d7f0fd23d3fbbacd0510654d156b07e2ebd7e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849756"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409936"
 ---
 # <a name="how-to-configure-watcher-node-test-users-and-settings"></a>如何設定監視節點測試使用者和設定
  
-**摘要：** 為商務用 Skype Server 綜合交易設定測試使用者帳戶和監視節點設定。
+**總結：** 為商務用 Skype Server 綜合交易設定測試使用者帳戶和監視節點設定。
   
 在設定將充當監視節點的電腦之後，您必須：
   
@@ -294,7 +294,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -UseIn
       
     此訊息表示您已停用網路服務帳戶的 Internet Explorer proxy 設定。
   
-### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange整合通訊綜合交易
+### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange 整合通訊綜合交易
 
 Exchange 整合通訊 (UM) 綜合交易會驗證測試使用者是否可以連線至位於 Exchange 的語音信箱帳戶。
   
@@ -410,7 +410,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
     
 - 活動完成的時間。
     
-- 執行的動作 (例如，建立、加入或離開會議）;登入商務用 Skype Server;傳送立即訊息) 。
+- 執行的動作 (例如，建立、加入或離開會議）;登入商務用 Skype Server; 送出立即訊息) 。
     
 - 活動執行時產生的資訊、詳細、警告或錯誤訊息。
     

@@ -1,8 +1,8 @@
 ---
 title: 新增 Director 監視
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您可以透過設定下列內容，來定義監視 SQL Server 存放區：
-ms.openlocfilehash: b2e1c0781529e4e7e1d8904561cf2fe3decaab8c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b721002ac48b92618afe174f08d6ba7fce25fd7a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839395"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400917"
 ---
 # <a name="add-director-monitoring"></a>新增 Director 監視
  
@@ -46,6 +46,6 @@ ms.locfileid: "60839395"
   
 按一下 [取消] 捨棄所有變更，並結束精靈。
   
-按一下 **[** 說明] 存取內容相關説明，例如此頁面。
+**按一下 [** 說明] 存取內容相關説明，例如此頁面。
   
 

@@ -1,7 +1,7 @@
 ---
-title: Skype會議室系統商務用 Skype 軟體授權
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype 會議室系統商務用 Skype 軟體授權
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: 閱讀此主題以瞭解如何檢查您是否有商務用 Skype 的軟體大量授權。
-ms.openlocfilehash: 805a9abb6d4d49e653e779edc1d9e1cfb8d2a6ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0e8fcc9b4dc9dec481af7b0a1d976d590c40def0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845966"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399987"
 ---
-# <a name="skype-room-system-skype-for-business-software-license"></a>Skype會議室系統：商務用 Skype 軟體授權
+# <a name="skype-room-system-skype-for-business-software-license"></a>Skype 會議室系統：商務用 Skype 軟體授權
  
 閱讀此主題以瞭解如何檢查您是否有商務用 Skype 的軟體大量授權。 
   
-Skype會議室系統使用已安裝的商務用 Skype 用戶端，需要軟體大量授權。 部署第一部 Skype 的會議室系統之前，請先使用金鑰管理伺服器 (KMS) 或多個啟用機碼 (MAK) ，以瞭解部署的大量授權狀態。
+Skype 會議室系統會使用已安裝的商務用 Skype 用戶端，這需要軟體大量授權。 部署第一部 Skype 的會議室系統之前，請先使用金鑰管理伺服器 (KMS) 或多個啟用機碼 (MAK) ，以瞭解部署的大量授權狀態。
   
 ## <a name="key-management-servers-kms"></a> (KMS 金鑰管理伺服器) 
 

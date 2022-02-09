@@ -1,8 +1,8 @@
 ---
 title: 啟用和停用媒體旁路
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 使用本文中的程式，透過「商務用 Skype Server 控制台」來啟用或停用媒體旁路。
-ms.openlocfilehash: e8465d376e32d677d52cb0bdb57e86d9aa9fac44
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d312e74c796b9e68558447c5a56fc199e8920d6a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851997"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396485"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>在商務用 Skype Server 中啟用及停用媒體旁路
 

@@ -5,8 +5,8 @@ ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
 ms:contentKeyID: 48183694
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本文說明如何為您的用戶端設定埠範圍，以及如何為在 Windows 10 上執行的用戶端設定商務用 Skype Server 的服務品質原則。
-ms.openlocfilehash: 5fa7a425bbb734307b487f63aa7fdf809f627661
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 73bb41a2d7bb585252e8362cf70f2988c6df5882
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860070"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398917"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>設定商務用 Skype Server 中用戶端的埠範圍和服務品質原則
 
@@ -28,7 +28,7 @@ ms.locfileid: "60860070"
 
 ## <a name="configure-port-ranges"></a>設定埠範圍
 
-根據預設，商務用 Skype 用戶端應用程式可以使用埠1024和65535之間的任何埠，與通訊會話相關;這是因為不會自動為用戶端啟用特定埠範圍。 然而為了使用服務品質，您必須將各種流量類型重新分派 (音訊、視訊、媒體、應用程式共用及檔案傳輸) 至一系列的唯一連接埠範圍。 使用 Set-CsConferencingConfiguration Cmdlet 可達成此目的。
+根據預設，商務用 Skype 用戶端應用程式可以使用埠1024和65535之間的任何埠，與通訊會話有關，這是因為不會自動為用戶端啟用特定埠範圍。 然而為了使用服務品質，您必須將各種流量類型重新分派 (音訊、視訊、媒體、應用程式共用及檔案傳輸) 至一系列的唯一連接埠範圍。 使用 Set-CsConferencingConfiguration Cmdlet 可達成此目的。
 
 > [!NOTE]  
 > 使用者無法自行進行這些變更。 只有管理員使用 Set-CsConferencingConfiguration Cmdlet 才能進行埠變更。
@@ -54,7 +54,7 @@ ClientTransferPortRange：40<br/>
 
 **ClientMediaPortRangeEnabled： False**
 
-這一點很重要，因為當此屬性設定為 False 時，商務用 Skype 用戶端將會在通訊會話中時使用埠1024和65535之間的任何可用埠;不論任何其他埠設定 (例如，ClientMediaPort 或 ClientVideoPort) ，都是如此。 如果您想要將使用限制在一組指定的埠 (，而這是您在規劃執行服務品質) 時所要執行的動作，則必須先啟用用戶端媒體埠範圍。 可以使用下列 Windows PowerShell 命令來完成：
+這一點很重要，因為當此屬性設定為 False 時，當此屬性設定為 False 時，商務用 Skype 用戶端會在通訊會話中時使用埠1024和65535之間的任何可用埠; 無論任何其他埠設定 (例如，ClientMediaPort 或 ClientVideoPort) ，都是如此。 如果您想要將使用限制在一組指定的埠 (，而這是您在規劃執行服務品質) 時所要執行的動作，則必須先啟用用戶端媒體埠範圍。 可以使用下列 Windows PowerShell 命令來完成：
 
 **Set-CsConferencingConfiguration-ClientMediaPortRangeEnabled $True**
 

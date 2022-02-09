@@ -1,8 +1,8 @@
 ---
 title: 監控伺服器一般設定展開工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 [拓撲產生器] 中，您可以編輯個別監控伺服器的內容，方法是以滑鼠右鍵按一下主控台樹中的監控伺服器，然後按一下工具列中的 [動作]，或是按一下 [動作] 窗格中的工作，然後按一下 [編輯內容]，然後按一下 [編輯內容]，然後變更下列任一選項：
-ms.openlocfilehash: c2dbe39debf95917bd0fad98291915d82033d662
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6ff2fb23d409f120f19d57dc26111a0cee65e9bf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850186"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398106"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>監控伺服器一般設定展開工具
  

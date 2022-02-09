@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的 IP 電話清查報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: 摘要：瞭解商務用 Skype Server 中的 IP 電話清查報告。
-ms.openlocfilehash: 9a09bc76d77c2290ab8e0f0c08fce79c2766e3a0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: be0929918909755865c524e63af47afb014de93e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862460"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410026"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 IP 電話清查報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的 IP 電話清查報告。
+**總結：** 深入瞭解商務用 Skype Server 中的 IP 電話清查報告。
   
 IP 電話清查報告報告組織中目前使用之 IP 電話的相關資訊。 IP 清查報告提供在指定報告期間實際使用的 IP 電話詳細清單。 除了其他事項之外，此報告還可讓系統管理員知道是否仍在使用任何舊的過期電話，而這些電話是否仍在使用中;此外，它也可以警示系統管理員，因為組織中有很少使用的電話很昂貴。 當購買新的電話或重新發佈現有的電話時，該類型的資訊可能非常寶貴。  (例如，很少使用他或她的昂貴電話的使用者，可能要求您將電話換用使用他或她之電話的使用者頻率較高。 ) 
   

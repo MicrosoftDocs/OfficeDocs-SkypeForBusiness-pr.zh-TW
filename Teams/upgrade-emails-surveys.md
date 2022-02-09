@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams轉換電子郵件和問卷|基本升級
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: Microsoft Teams轉場電子郵件和問卷|基本升級
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 在 Conjunciton 中使用的電子郵件和問卷範例，以及加速的十個步驟行動計畫，從 商務用 Skype 升級Teams
+description: 在 Conjunciton 中使用的電子郵件和問卷範例，以及加速從 商務用 Skype 升級至 Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b88a8030b2e808f95e8601147acce9cfa31da33
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 928ccad80670a140bfe72eaf42c94b145c0134e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841995"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409806"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升級基本通訊的電子郵件和問卷範例
 
@@ -223,7 +223,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 | 沒有，我目前使用它 | &#9744; |
 | 其他 (請指定)  | &#9744; |
 
-**您建議朋友/同事Microsoft Teams建議嗎？ (0=完全不可能...10=極可能)**
+**您建議朋友/同事使用Microsoft Teams的可能性如何？ (0=完全不可能...10=極可能)**
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|

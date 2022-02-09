@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中修補或更新後端伺服器或 Standard Edition 伺服器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 摘要：瞭解如何在商務用 Skype Server 中的後端伺服器上安裝更新或修補程式。
-ms.openlocfilehash: 55d81e97712abe51544a854bf175348526e9f29c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 69c597aae05950d38b78c8e84d46165a68fd8959
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858210"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397657"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>在商務用 Skype Server 中修補或更新後端伺服器或 Standard Edition 伺服器
  
-**摘要：** 瞭解如何在商務用 Skype Server 中的後端伺服器上安裝更新或修補程式。
+**總結：** 瞭解如何在商務用 Skype Server 中的後端伺服器上安裝更新或修補程式。
   
 本主題說明如何在 Enterprise Edition 後端伺服器或 Standard Edition 伺服器上安裝更新。
   

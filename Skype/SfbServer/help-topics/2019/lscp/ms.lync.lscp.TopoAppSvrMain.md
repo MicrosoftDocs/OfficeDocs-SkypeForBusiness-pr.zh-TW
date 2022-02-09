@@ -1,8 +1,8 @@
 ---
 title: 拓撲伺服器應用程式
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[拓撲：伺服器應用程式] 頁面會顯示您部署中的伺服器應用程式。'
-ms.openlocfilehash: f476713617ef5b8e1906528c797830aed06db80f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 82bad910c6864c06ba0a9a06dea6f34815f85c95
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834561"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402377"
 ---
 # <a name="topology-server-application"></a>拓撲：伺服器應用程式
 

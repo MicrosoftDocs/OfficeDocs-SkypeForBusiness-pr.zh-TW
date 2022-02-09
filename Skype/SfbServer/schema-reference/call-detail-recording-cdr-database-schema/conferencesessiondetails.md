@@ -1,8 +1,8 @@
 ---
 title: ConferenceSessionDetails view
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: ConferenceSessionDetails 檢視會儲存多方成員工作階段的相關資訊。 每筆記錄都代表一個會議工作階段，它可以是有「焦點」的工作階段，或是特定會議伺服器的工作階段。 此視圖已引進于 Microsoft Lync Server 2013。
-ms.openlocfilehash: f35a815743dcfb8dba3d2a69943c9c5c42344a86
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 902cf40a042d51d6765a0653da439b1bc1a86478
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849666"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400857"
 ---
 # <a name="conferencesessiondetails-view"></a>ConferenceSessionDetails view
  

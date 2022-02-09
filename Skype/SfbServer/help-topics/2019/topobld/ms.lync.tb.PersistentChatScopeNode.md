@@ -1,8 +1,8 @@
 ---
 title: 常設聊天室範圍節點
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要開始建立新的 Persistent Chat Server 或 Persistent Chat Server 集區，請在拓撲產生器中，以滑鼠右鍵按一下 Persistent Chat 集區，然後選取 [新增持久聊天集區]。
-ms.openlocfilehash: c0eafb361ee5511166a18253f056ff0115d4649e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5d5e919164fb13fc104734c0d6720efe9ec23dbd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855850"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402277"
 ---
 # <a name="persistent-chat-scope-node"></a>常設聊天室範圍節點
 

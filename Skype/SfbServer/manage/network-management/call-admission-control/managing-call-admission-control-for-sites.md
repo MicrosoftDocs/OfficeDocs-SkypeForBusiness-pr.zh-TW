@@ -1,8 +1,8 @@
 ---
 title: 管理網站的通話許可控制
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 網站是指通話許可控制 (CAC)、E9-1-1 和媒體旁路部署的每一個網路地區內的辦公室或位置。
-ms.openlocfilehash: 51c026aa9b169b93b6585554613083a480599d60
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a178839fb87e47dda874d22d13e5da799f80cbff
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846396"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402917"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>在商務用 Skype Server 中的網站管理通話許可控制
 
@@ -36,7 +36,7 @@ ms.locfileid: "60846396"
     
      **CsNetworkInterSitePolicy-Identity Reno_Portland-NetworkSiteID1 雷諾-NetworkSiteID2 上的 BWPolicyProfileID LowBWLimits**
     
-    這個範例會建立名為雷諾的新網路站台連結 \_ ，此連結會設定雷諾和上點網路網站之間的頻寬限制。 網路網站與頻寬原則設定檔在執行此命令前即必須存在。
+    這個範例會建立名為雷諾 \_ 的新網路站台連結，此連結會設定雷諾和上點網路網站之間的頻寬限制。 網路網站與頻寬原則設定檔在執行此命令前即必須存在。
 
 如需詳細的參數描述，請參閱 [CsNetworkInterSitePolicy](/powershell/module/skype/New-CsNetworkInterSitePolicy)。 若要擷取可套用至網路網站連結之頻寬原則設定檔的清單，請呼叫 **Get-CsNetworkBandwidthPolicyProfile** Cmdlet。 如需詳細資訊，請參閱 [Get-CsNetworkBandwidthPolicyProfile](/powershell/module/skype/Get-CsNetworkBandwidthPolicyProfile)。
 
@@ -46,7 +46,7 @@ ms.locfileid: "60846396"
 
 2.  啟動商務用 Skype Server 管理命令介面：依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype Server**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。
 
-3.  使用 **Set-CsNetworkInterSitePolicy** Cmdlet 來修改某個網路網站連結的內容。 您可以修改相連網站的其中一端網站 (或兩端網站都修改)，並且可以修改與連結相關聯的頻寬原則設定檔。 以下是修改名為雷諾上海之網站連結的頻寬原則設定檔的範例 \_ ：
+3.  使用 **Set-CsNetworkInterSitePolicy** Cmdlet 來修改某個網路網站連結的內容。 您可以修改相連網站的其中一端網站 (或兩端網站都修改)，並且可以修改與連結相關聯的頻寬原則設定檔。 以下是修改名為雷諾 \_ 上海之網站連結的頻寬原則設定檔的範例：
     
     **Set-CsNetworkInterSitePolicy-Identity Reno_Portland-BWPolicyProfileID HighBWLimits**
 

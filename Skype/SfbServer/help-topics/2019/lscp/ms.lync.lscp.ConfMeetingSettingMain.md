@@ -1,8 +1,8 @@
 ---
 title: 會議組態
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 會議設定設定會定義會議類型 (也是 calledmeetings) 使用者可以建立，並 (控制) 匿名使用者和電話撥入式會議使用者是否可以加入這些會議。 這些設定只適用于排程的會議。 在用戶端中按一下 [立即開會] 選項，不會套用至所建立的特定會議。
-ms.openlocfilehash: 4eb66e999cfc8c3682e0c1f5b54004bf57efa1e7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bdb2dddf5d510ed3024897bc621a4d7def0d88af
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831527"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399327"
 ---
 # <a name="meeting-configuration"></a>會議組態
 
@@ -50,18 +50,18 @@ ms.locfileid: "60831527"
 
 下列清單說明頁面上的命令。
 
-- **新** 啟動新的網站會議設定或集區會議設定。
+- **新增功能** 啟動新的網站會議設定或集區會議設定。
 
 - **編輯** 開啟選取的會議設定進行編輯、選取清單中所有的會議設定，或刪除選取的網站設定或集區設定。
 
     > [!NOTE]
     > **刪除** 會將全域會議設定的設定重設為預設值。
 
-- **Refresh** 重新整理會議設定清單。
+- **刷新** 重新整理會議設定清單。
 
 下列清單說明頁面上的欄位。
 
-- **名稱** 識別會議設定。
+- **名字** 識別會議設定。
 
 - **範圍** 識別會議設定的範圍：全域、網站或集區。
 

@@ -1,7 +1,7 @@
 ---
 title: 在系統管理中心開始使用製造小組範本
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8236964530d76818a5510af8b38fcd9bb2a8b8f4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 18fbc93923177c97b4c2d395d10e62311d05d567
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858710"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400097"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>在系統管理中心使用製造小組範本
 

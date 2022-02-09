@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype 中建立或修改群組呼叫收取號碼範圍
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: 在商務用 Skype Server 企業語音中建立或修改群組呼叫收取號碼範圍。
-ms.openlocfilehash: 5bf69f06078d45cd12e7f21cffd03ea40028a543
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5b6cb83f6434289ec843f674356479b35fbbef8c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859600"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399367"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>在商務用 Skype 中建立或修改群組呼叫收取號碼範圍
 
@@ -46,7 +46,7 @@ ms.locfileid: "60859600"
 
 - 如果號碼範圍開頭為字元 \* 或 #，則範圍必須大於100。
 
-- 有效的值：必須符合正則運算式字串 ( [ \\ * | #]？ [1-9] \d {0,7}) | ( [1-9] \d {0,8}) 。 這表示值必須是以字元 \* 或 # 或數位1到9為開頭的字串。 (第一個字元不能是零) 。 如果第一個字元是 \* 或 #，下列字元必須是1到9的數位， (不能是零) 。 後續字元可以是0到9的任何數位，最多可以有七個其他字元 (例如，"#6000"、" \* 92000"、" \* 95551212" 和 "915551212" ) 。 如果第一個字元不是 \* 或 #，則第一個字元必須是1到)  (9 的數位，然後是0到9的數位，都是0到 9 (例如，"915551212"，"41212"，"300" ) 。
+- 有效的值：必須符合正則運算式字串 ( [ \\ * | #]？ [1-9] \d {0,7}) | ( [1-9] \d {0,8}) 。 這表示值必須是以字元 \* 或 # 或數位1到9為開頭的字串。 (第一個字元不能是零) 。 如果第一個字元是 \* 或 #，下列字元必須是1到9的數位， (不能是零) 。 後續字元可以是0到9的任何數位，最多可以有七個其他字元 (例如，"#6000"、" \* 92000"、" \* 95551212" 和 "915551212" ) 。 如果第一個字元不 \* 是或 #，則第一個字元必須是1到)  (9 的數位，然後是0到9的數位，都是0到 9 (例如，"915551212"，"41212"，"300" ) 。
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>若要建立或修改呼叫收取群組範圍
 

@@ -1,8 +1,8 @@
 ---
 title: 在拓撲中的伺服器上安裝商務用 Skype Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 摘要：瞭解如何在拓撲中的每一部伺服器上安裝商務用 Skype Server 系統元件。 從 Microsoft 評估中心下載免費試用版商務用 Skype Server，網址如下： https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server 。
-ms.openlocfilehash: eb589b606f095deade6bd4f8921d48e1f3799cf5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 68cdd9368c4def44013eae76f132c89a8e444c3a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864310"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400667"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>在拓撲中的伺服器上安裝商務用 Skype Server
  
-**摘要：** 瞭解如何在拓撲中的每一部伺服器上安裝商務用 Skype Server 系統元件。 從[Microsoft 評估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)下載商務用 Skype Server 的免費試用版。
+**總結：** 瞭解如何在拓撲中的每一部伺服器上安裝商務用 Skype Server 系統元件。 從[Microsoft 評估中心](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)下載商務用 Skype Server 的免費試用版。
   
 將拓撲載入至中央管理存放區並使用 Active Directory 知道哪些伺服器會執行哪些角色後，您需要在拓撲中的每一部伺服器上安裝商務用 Skype Server 系統。 您可以依任何循序執行步驟1到5。 不過，您必須依序執行步驟6、7和8，並在圖表中所述的步驟1到5之後進行。 安裝商務用 Skype Server 系統是步驟7之8。
   
@@ -54,7 +54,7 @@ ms.locfileid: "60864310"
 > [!IMPORTANT]
 > 開始安裝之前，請先使用 Windows Update，確定 Windows Server 是最新的。 
   
-![Windows伺服器最新。](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
+![Windows Server 更新為最新版本。](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
   
 ### <a name="install-skype-for-business-server-system"></a>安裝商務用 Skype Server 系統
 
@@ -84,7 +84,7 @@ ms.locfileid: "60864310"
   
 2. 在 [ **安裝本機設定存放區** ] 頁面上，確定已選取 [ **直接從中央管理存放區取得** ] 選項，然後按 **[下一步]**。
     
-    SQL Server ExpressEdition 已安裝在本機伺服器上。 SQL Server ExpressLocal configuration store 需要 Edition。
+    SQL Server Express Edition 已安裝在本機伺服器上。 本機配置存放區需要 SQL Server Express Edition。
     
 3. 當本機伺服器設定安裝完成時，按一下 **[完成]**。
     
@@ -163,7 +163,7 @@ ms.locfileid: "60864310"
     
 16. 在 [ **線上憑證要求狀態** ] 頁面上，複查傳回的資訊。 您應注意，已簽發憑證並將其安裝至本機憑證儲存區。 若報告為已簽發並已安裝，但無效，請確定伺服器的根信任 CA 存放區中已安裝 CA 的根憑證。 請參閱您的 CA 檔，瞭解如何取得信任的根 CA 憑證。 如果您需要查看已檢索的憑證，請按一下 [ **查看憑證詳細資料**]。 預設會選取 [**指派憑證給商務用 Skype Server 憑證使用** 情況] 核取方塊。 若要手動指派憑證，請清除核取方塊，然後按一下 **[完成]**。
     
-17. 如果您在上一個頁面上，清除 [**指派憑證給商務用 Skype Server 憑證使用** 情況] 核取方塊，您就會看到 [**憑證指派**] 頁面。 按 [下一步]。
+17. 如果您在上一個頁面上，清除 [**指派憑證給商務用 Skype Server 憑證使用** 情況] 核取方塊，您就會看到 [**憑證指派**] 頁面。 按一下 **[下一步]**。
     
 18. 在 [ **憑證存放區** ] 頁面上，選取您要求的憑證。 如果您想要查看憑證，請按一下 [ **查看憑證詳細資料**]，然後按 **[下一步]** 繼續。
     

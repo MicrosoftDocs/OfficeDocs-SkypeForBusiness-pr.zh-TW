@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype 中設計及建立回應群組工作流程
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: 在商務用 Skype Server 企業語音中，設計及建立回應群組工作流程。 同時也涵蓋群組搜尋工作流程和互動式工作流程。
-ms.openlocfilehash: ec92a0dfa378746db98a6377b2ebd51df0e77813
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 06ca815eb973fdf26106a0c0c082f4c146d2b590
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864380"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401557"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>在商務用 Skype 中設計及建立回應群組工作流程
 
@@ -49,7 +49,7 @@ ms.locfileid: "60864380"
 5. 在 [ **選取服務** ] 搜尋欄位中，輸入主控您要建立或變更之工作流程的 **ApplicationServer** 服務的全部或部分名稱。 在產生的服務清單中，按一下您想要的服務，然後按一下 **[確定]**。
 
     > [!NOTE]
-    > 回應群組設定工具隨即開啟。 您也可以輸入下列 URL: HTTPs:///RgsConfig.，直接從網頁瀏覽器開啟回應群組設定工具。 \<webPoolFqdn\>
+    > 回應群組設定工具隨即開啟。 您也可以輸入下列 URL: HTTPs:// \<webPoolFqdn\> /RgsConfig.，直接從網頁瀏覽器開啟回應群組設定工具。
 
 6. 執行下列其中一項：
 
@@ -382,7 +382,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
 5. 在 [ **選取服務** ] 搜尋欄位中，輸入主控您要建立或修改之工作流程的 **ApplicationServer** 服務全部或部分名稱。 在產生的服務清單中，按一下您想要的服務，然後按一下 **[確定]**。
 
     > [!NOTE]
-    > 回應群組設定工具隨即開啟。 您也可以輸入下列 URL: HTTPs:///RgsConfig.，直接從網頁瀏覽器開啟回應群組設定工具。 \<webPoolFqdn\>
+    > 回應群組設定工具隨即開啟。 您也可以輸入下列 URL: HTTPs:// \<webPoolFqdn\> /RgsConfig.，直接從網頁瀏覽器開啟回應群組設定工具。
 
 6. 執行下列其中一項：
 
@@ -413,7 +413,7 @@ IVR 問題及來電者的回應會提供給接受通話的回應代理人。
 11. 在 [ **顯示名稱**] 中，輸入您要針對工作流程顯示的名稱 (例如，Sales IVR Response Group) 。
 
     > [!NOTE]
-    > \<" or "\>在顯示名稱中不要包含 "" 字元。 請勿使用下列顯示名稱，因為它們是保留的： **RGS 存在觀察** 程式或 **宣告服務**。
+    > 在顯示名稱中不要包含 " \<" or "\> " 字元。 請勿使用下列顯示名稱，因為它們是保留的： **RGS 存在觀察** 程式或 **宣告服務**。
 
 12. 在 **[電話號碼]** 中，輸入回應群組的線路 URI (例如，+14255550165)。
 

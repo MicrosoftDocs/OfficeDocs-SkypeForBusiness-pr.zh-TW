@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中部署視頻 Interop 伺服器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
 description: 摘要：在商務用 Skype Server 中部署 VIS 伺服器角色。
-ms.openlocfilehash: 932bbbaea04bc672c21767c055c53f10df5dc715
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5dd7dcc6cf052b2833685c988ff82f23d83cf668
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853687"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400697"
 ---
 # <a name="deploy-video-interop-server-in-skype-for-business-server"></a>在商務用 Skype Server 中部署視頻 Interop 伺服器
  
-**摘要：** 在商務用 Skype Server 中部署 VIS 伺服器角色。
+**總結：** 在商務用 Skype Server 中部署 VIS 伺服器角色。
   
 商務用 Skype Server 現在可以直接與 cisco 電話會議系統整合 (VTCs) （如 cisco C60 或 cisco MX300）。 這需要引入新的伺服器角色，稱為「影片 Interop」伺服器 (VIS) ，並正確設定 VIS 和其會與其互動的裝置。 VTC 會使用現有的 Cisco 基礎結構（例如 Cisco 整合通訊管理員 (CUCM) ）登錄，並在 CUCM 與 VIS 集區之間使用視頻 SIP 主幹。
   

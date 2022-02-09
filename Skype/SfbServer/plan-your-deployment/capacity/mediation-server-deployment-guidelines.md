@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中轉送伺服器的部署指導方針
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: 本主題說明轉送伺服器部署的規劃指導方針。
-ms.openlocfilehash: 99f975d3dddb8837569c8e8aa1128f7515b2d562
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1b5f628f544cafb358b58d325c5d077aef783a89
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844166"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397617"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>商務用 Skype Server 中轉送伺服器的部署指導方針
  

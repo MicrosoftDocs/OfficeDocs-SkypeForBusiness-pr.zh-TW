@@ -1,8 +1,8 @@
 ---
 title: 管理商務用 Skype Server 中的封存原則
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: 摘要：瞭解如何管理商務用 Skype Server 的封存的使用者原則。
-ms.openlocfilehash: aefb05c4ee1be0af0af4d2ab4ab4d53efbd71912
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c4d5278ece9c812254c67d2d783b5a9f9175330c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856760"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397797"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>管理商務用 Skype Server 中的封存原則
 
-**摘要：** 瞭解如何管理商務用 Skype Server 的封存的使用者原則。
+**總結：** 瞭解如何管理商務用 Skype Server 的封存的使用者原則。
   
 您在部署封存時，最初會設定封存原則，但您可以在部署後變更、新增和刪除設定。 封存原則決定是否要封存： 
   

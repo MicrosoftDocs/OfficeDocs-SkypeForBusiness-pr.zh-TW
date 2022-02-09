@@ -1,8 +1,8 @@
 ---
 title: 管理信任的應用程式
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 信任的應用程式是以 Microsoft 整合通訊 Managed API (UCMA) 3.0 核心 SDK 為基礎的應用程式，該應用程式是由商務用 Skype Server 所信任。
-ms.openlocfilehash: d328eab38e44915998d05f3c16c2b1e4e2f1dc33
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ef4f6aed1ec4964ba5f3d9cfed770dae4437b2f8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857470"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398837"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>在商務用 Skype Server 中管理信任的應用程式
 
-*信任的應用程式* 是以 Microsoft 整合通訊 Managed API (UCMA) 3.0 核心 SDK 為基礎的應用程式，該應用程式是由商務用 Skype Server 所信任。 如需 UCMA 應用程式的詳細資訊，請參閱中的「整合通訊 Managed API 3.0 核心 SDK 檔」 https://go.microsoft.com/fwlink/p/?linkId=210320 。
+*信任的應用程式* 是以 Microsoft 整合通訊 Managed API (UCMA) 3.0 核心 SDK 為基礎的應用程式，該應用程式是由商務用 Skype Server 所信任。 如需 UCMA 應用程式的詳細資訊，請參閱中的「整合通訊 Managed API 3.0 核心 SDK 檔 https://go.microsoft.com/fwlink/p/?linkId=210320 」。
 
 您應以 RTCUniversalServerAdmins 及 Domain Admins 群組成員的身分登入，才能在加入或移除伺服器角色時，成功地發行、啟用或停用拓撲。 
 

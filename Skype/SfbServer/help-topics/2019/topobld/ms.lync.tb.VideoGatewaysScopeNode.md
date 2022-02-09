@@ -1,8 +1,8 @@
 ---
 title: 視訊閘道範圍
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a3adee56-819e-48a5-a5a8-673eca45ec16
 ROBOTS: NOINDEX, NOFOLLOW
 description: 在 [拓撲產生器] 中定義新的 VIS 或視頻閘道所需的步驟，在商務用 Skype Server 中的 [建立 VIS 集區] 中說明為線上。
-ms.openlocfilehash: bd8550930e13ff2be2caefed396046bb75f906c7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ea7e164f481b68510eeaa29f0c67b48d917c6d75
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836645"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410256"
 ---
 # <a name="video-gateways-scope"></a>視訊閘道範圍
  

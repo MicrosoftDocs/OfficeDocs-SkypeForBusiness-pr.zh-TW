@@ -1,8 +1,8 @@
 ---
 title: 通話駐留
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: 當來電停用時，會將通話轉移至暫留的臨時號碼，直到有人將通話轉移或下班時為止。您必須使用保留用於寄存通話的分機號碼範圍來設定表格。 這些分機號碼必須是虛擬分機 (亦即，未指派使用者或電話的分機) 。 每個執行通話駐留應用程式的集區，都可以有一個或多個範圍的分機。 在您的部署中，這些範圍必須是全域唯一的。
-ms.openlocfilehash: 14c5ddbf3bd7f2d862cfd3f3e89310932964b8b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 09501eafed27fa3e56fa87de770b52d4e48dc2af
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841565"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396807"
 ---
 # <a name="call-park"></a>通話駐留
 
@@ -42,15 +42,15 @@ ms.locfileid: "60841565"
 
 下列清單說明頁面上的命令。
 
-- **新** 啟動新的通話駐留號碼範圍。
+- **新增功能** 啟動新的通話駐留號碼範圍。
 
 - **編輯** 開啟選取的號碼範圍進行編輯、選取清單中的所有號碼範圍，或刪除選取的號碼範圍。
 
-- **Refresh** 重新整理號碼範圍清單。
+- **刷新** 重新整理號碼範圍清單。
 
 下列清單說明頁面上的欄位。
 
-- **名稱** 識別號碼範圍的唯一名稱。
+- **名字** 識別號碼範圍的唯一名稱。
 
 - **起始範圍** 範圍的開始號碼。
 

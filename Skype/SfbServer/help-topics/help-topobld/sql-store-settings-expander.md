@@ -1,8 +1,8 @@
 ---
 title: SQL 存放區設定展開工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: 若要編輯 SQL Server 資料庫的屬性，您必須變更 SQL Server 的資料庫實例。 您無法使用 [編輯屬性] 對話方塊來執行將封存伺服器資料庫從一部電腦移至另一部的工作。 此外，您無法使用 [編輯屬性] 對話方塊來變更主控中央管理存放區的 SQL Server 實例。
-ms.openlocfilehash: 0c5af1546b601933705daf4b4e1a6817fe4b04ee
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b57d4e1bae0b3ea03470ffa8284f26260ff21381
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861370"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410036"
 ---
 # <a name="sql-store-settings-expander"></a>SQL 存放區設定展開工具
  

@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中查看 SIP 主幹資訊
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,20 +16,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
 description: 摘要：瞭解如何在商務用 Skype Server 中查看 SIP 主幹的相關資訊。
-ms.openlocfilehash: cf2bf0f6cf586e80fa6b3f2ba1308ee6254ea7e9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd33f9e7719802081a35ce718e7fd534ac107269
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835851"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399897"
 ---
 # <a name="skype-for-business-server-view-information-about-individual-sip-trunks"></a>商務用 Skype Server：查看個別 SIP 主幹的相關資訊 
  
-**摘要：** 瞭解如何在商務用 Skype Server 中查看 SIP 主幹的相關資訊。
+**總結：** 瞭解如何在商務用 Skype Server 中查看 SIP 主幹的相關資訊。
   
 SIP 主幹是用來使用公用交換電話網路 (PSTN) 連接商務用 Skype Server Voice over IP phone 網路。 在舊版本的產品中，主幹是用來將撥出電話從轉送伺服器路由傳送至 PSTN 閘道，而每個閘道都限制為單一主幹。 因此，PSTN 閘道和 SIP 主幹本質上都相同。 針對系統管理員而言，只要查看相關聯的 PSTN 閘道的相關資訊，就可以查看個別 SIP 主幹的相關資訊。
   
-不過，在商務用 Skype Server 中，現在可以將多個主幹指派給單一 PSTN 閘道;這表示閘道和主幹不再是一個，也是相同的。 反過來，這表示系統管理員必須使用新的 [Get-CsTrunk](/powershell/module/skype/get-cstrunk) Cmdlet，才能查看個別 SIP 主幹的相關資訊。
+不過，在商務用 Skype Server 中，現在可以將多個主幹指派給單一 PSTN 閘道; 這表示閘道和主幹不再是一或相同。 反過來，這表示系統管理員必須使用新的 [Get-CsTrunk](/powershell/module/skype/get-cstrunk) Cmdlet，才能查看個別 SIP 主幹的相關資訊。
   
 ### <a name="to-view-information-for-all-your-sip-trunks"></a>若要查看所有 SIP 主幹的資訊
 

@@ -1,8 +1,8 @@
 ---
 title: 設定內部部署商務用 Skype Server 和 Outlook Web App 之間的整合
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/7/2016
 audience: ITPro
@@ -14,16 +14,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 摘要：整合商務用 Skype Server 和 Outlook Web App。
-ms.openlocfilehash: cebb8fed6b87dac6ec2c981730d303994c952741
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0284fee227d9adf5560b5f65e56d71c1d46fac0c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853677"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397284"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>設定內部部署商務用 Skype Server 和 Outlook Web App 之間的整合
 
-**摘要：** 整合商務用 Skype Server 和 Outlook Web App。
+**總結：** 整合商務用 Skype Server 和 Outlook Web App。
 
 使用內部部署商務用 Skype Server 部署的客戶可以設定混合式部署模式中 Microsoft Exchange Online Microsoft Outlook Web App 的互通性。 互通性功能包括單一登入和立即訊息 (IM) 和目前狀態整合與 Outlook Web App 介面。 若要啟用此整合，您必須完成下列工作，以在內部部署商務用 Skype Server 部署中設定 Edge Server：
 

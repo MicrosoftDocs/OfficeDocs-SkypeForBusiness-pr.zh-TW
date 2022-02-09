@@ -1,8 +1,8 @@
 ---
 title: 儲存語音路由測試案例資訊
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: 您可以使用 [儲存語音路由測試案例資訊] 對話方塊，儲存暫時的語音路由測試案例。在 [儲存語音路由測試案例資訊] 的 [名稱] 中，輸入您要給予這個測試案例的名稱，然後按一下 [確定]。
-ms.openlocfilehash: 9d4121b222f1428a3567de864338bf1be45ef51a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5a8ba2174ebf72429df5d9f1ce0d1b20f8e68667
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854587"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397966"
 ---
 # <a name="save-voice-routing-test-case-information"></a>儲存語音路由測試案例資訊
  

@@ -1,7 +1,7 @@
 ---
 title: 瑞士免付費撥號限制
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 這可協助您瞭解如何撥打每個國家/地區的免付費號碼。 選取國家/地區之後，它會將您帶至特定國家/地區頁面，其中包含免付費服務可用之免付費服務的特定詳細資料、限制和限制。 撥號格式或格式會顯示每個國家/地區撥打免付費電話號碼所需的存取碼。
-ms.openlocfilehash: acde0d4fbee924755792c70243412a878a7b3917
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1de9d614a214727319d11a0540b44977ab9951c7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840665"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400797"
 ---
 # <a name="toll-free-dialing-restrictions-in-switzerland"></a>瑞士免付費撥號限制
 

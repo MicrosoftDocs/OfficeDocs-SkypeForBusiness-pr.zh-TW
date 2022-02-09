@@ -1,8 +1,8 @@
 ---
 title: 準備單一 Standard Edition Server (叫用)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 description: 在 [執行命令] 頁面上，您可以在工作窗格中查看安裝 SQL Server Express 和設定以充當中央管理存放區的工作。 根據預設，會建立名為 RTC 的 SQL Server 型資料庫實例。 也會建立防火牆規則，允許輸入和輸出存取，讓伺服器和用戶端能夠與資料庫及執行個體進行通訊。 工作完成之後，您可以從下拉式清單選取記錄檔。 記錄檔名稱為 [啟動程序本機電腦]。 選取記錄檔之後，請按一下 [檢視記錄檔]。 請檢閱記錄檔中是否有任何錯誤和警告。 準備好可以繼續時，按一下 [完成]。 您現在應該使用拓撲產生器來定義拓撲（如果尚未這麼做）。
-ms.openlocfilehash: 8d72d69b8c5ea676bf1e944bda143ad8f56fea82
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fbb66e6e79b25fed8db266f727fb33a0d68bce1c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841585"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410266"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>準備單一 Standard Edition Server (叫用)
  

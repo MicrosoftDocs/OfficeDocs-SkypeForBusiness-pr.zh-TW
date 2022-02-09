@@ -1,8 +1,8 @@
 ---
 title: 新增前端檔案存放區
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
 ROBOTS: NOINDEX, NOFOLLOW
 description: 您必須指定檔案共用，作為 Standard Edition Server 或 Enterprise Edition 前端集區的檔案存放區。您可以使用現有的檔案共用作為檔案存放區，也可以指定新的檔案共用。若要指定新的檔案共用，請指定檔案共用將位於檔案伺服器的完整網域名稱 (FQDN)，以及要作為新檔案共用的資料夾名稱。
-ms.openlocfilehash: 0a99c731690b7b41c1fee28306f47956a9dfaa32
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 10b07e5bbe075194e393fce8ac9a9c99bc85c01e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829367"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397026"
 ---
 # <a name="add-front-end-file-store"></a>新增前端檔案存放區
 

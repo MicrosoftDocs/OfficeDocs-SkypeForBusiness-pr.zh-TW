@@ -1,8 +1,8 @@
 ---
 title: 設定商務用 Skype Server 語音信箱 Exchange Server 整合通訊
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
@@ -14,21 +14,21 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 摘要：設定商務用 Skype Server 語音信箱 Exchange Server 整合通訊。
-ms.openlocfilehash: e434309c67469ccaa6994ec90cb3431b9de4f13b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b1e16329a72e17eb32fa9eca686bf0bee7a9c939
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865280"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398273"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>設定商務用 Skype Server 語音信箱 Exchange Server 整合通訊
  
-**摘要：** 設定商務用 Skype Server 語音信箱 Exchange Server 整合通訊。
+**總結：** 設定商務用 Skype Server 語音信箱 Exchange Server 整合通訊。
   
-商務用 Skype Server 可讓您將語音信箱訊息儲存在 Exchange Server 2016 或 Exchange Server 2013 中;這些語音信箱訊息會以電子郵件訊息的方式顯示在使用者的收件匣中。 
+商務用 Skype Server 可讓您將語音信箱訊息儲存在 Exchange Server 2016 或 Exchange Server 2013 中; 這些語音信箱郵件會在使用者的收件匣中以電子郵件形式顯示。 
 
 > [!NOTE]
-> ExchangeExchange 2019 不再提供整合通訊，但您仍然可以使用電話系統來錄製語音信箱訊息，然後在使用者的 Exchange 信箱中留下記錄。 如需詳細資訊，請參閱[Plan 雲端語音信箱 service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 。
+> Exchange 2019 不再提供 Exchange 的整合通訊，但您仍然可以使用電話系統來錄製語音信箱訊息，然後在使用者的 Exchange 信箱中留下記錄。 如需詳細資訊，請參閱[Plan 雲端語音信箱 service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) 。
   
 如果您已在商務用 Skype Server 和 Exchange Server 2016 或 Exchange Server 2013 之間設定伺服器對伺服器的驗證，就可以設定整合通訊。 若要這麼做，您必須先在您的 Exchange Server 上建立並指派新的整合通訊撥號對應表。 例如，在 Exchange 管理命令介面中 (執行這兩個命令，) 為 Exchange 設定新的3位數撥號對應表：
   
@@ -39,7 +39,7 @@ Set-UMDialPlan "RedmondDialPlan" -ConfiguredInCountryOrRegionGroups "Anywhere,*,
 
 在範例中的第一個命令中，VoIPSecurity 參數和參數值「安全」表示使用傳輸層安全性 (TLS) 加密信號通道。 URIType "SipName" 指出會使用 SIP 通訊協定來傳送和接收訊息，而 CountryOrRegionCode 的 1 則指出撥號對應表是套用至美國。
   
-在第二個命令中，傳送至 ConfiguredInCountryOrRegionGroups 參數的參數值指定了可使用此撥號對應表的的國內群組。 參數值 "Anywhere，， \* \* \* " 設定下列專案：
+在第二個命令中，傳送至 ConfiguredInCountryOrRegionGroups 參數的參數值指定了可使用此撥號對應表的的國內群組。 參數值 "Anywhere， \* \* \* ，" 設定下列專案：
   
 - 群組名稱 ("Anywhere")
     
@@ -175,7 +175,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ### <a name="configure-certificates-on-the-server-running-exchange-server-unified-messaging"></a>在執行 Exchange Server 整合通訊的伺服器上設定憑證
  
-如果您已部署 Exchange 整合通訊 (UM) （如規劃檔中的「Exchange 整合通訊整合」中所述，以及您想要為組織中商務用 Skype Server 的使用者提供 Exchange UM 功能），您可以使用下列程式來進行 config在執行 Exchange UM 的伺服器上 ure 憑證。
+如果您已部署 Exchange 整合通訊 (UM) （如規劃檔中的商務用 Skype Server 規劃 Exchange 整合通訊整合」所述），且您想要提供 Exchange UM 功能以企業語音 組織中的使用者，您可以使用下列程式在執行 Exchange UM 的伺服器上設定憑證。
 
 > [!IMPORTANT]
 > 針對內部憑證，執行商務用 Skype Server 的伺服器和執行 Microsoft Exchange 的伺服器必須具有相互信任的根信任授權憑證。 憑證授權單位單位 (CA) 可以相同或不同的憑證授權單位單位，只要伺服器在其受信任的根授權憑證存放區中註冊了憑證授權單位的根憑證。 

@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中的拓撲產生器中部署轉送伺服器
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 摘要：瞭解如何在商務用 Skype Server 中的拓撲產生器中定義及部署轉送伺服器。
-ms.openlocfilehash: 7dd3704b47b384d3fab62a7cc051adcf5b380c0e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 1e7f3b1540d6436c82e173b32252c5e9c59757da
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857030"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396045"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>在商務用 Skype Server 中的拓撲產生器中部署轉送伺服器
  
-**摘要：** 瞭解如何在商務用 Skype Server 中的拓撲產生器中定義及部署轉送伺服器。
+**總結：** 瞭解如何在商務用 Skype Server 中的拓撲產生器中定義及部署轉送伺服器。
   
 企業語音工作負載、撥入式會議和高級企業語音應用程式 (回應群組應用程式、通話駐留應用程式、通話許可控制 (CAC) 等等，在前端集區中皆可使用。 轉送伺服器的功能已內置於前端伺服器中。 不需要個別的獨立轉送伺服器。 
   
@@ -74,7 +74,7 @@ ms.locfileid: "60857030"
     
 2. 在 [拓撲產生器] 的主控台樹中，展開您要定義轉送伺服器的網站名稱。
     
-3. 在主控台樹中，以滑鼠右鍵按一下 **[中繼** 集區] 節點，然後按一下 [ **轉送伺服器集** 區]。
+3. 在主控台樹中，以滑鼠右鍵 **按一下 [中繼** 集區] 節點，然後按一下 [ **轉送伺服器集** 區]。
     
 4. 在 [ **定義新** 的中繼集區] 中，輸入轉送伺服器集區的完整功能變數名稱 (FQDN) 。
     

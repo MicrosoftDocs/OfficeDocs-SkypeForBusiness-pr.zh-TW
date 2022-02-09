@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server-設定含媒體旁路的主幹
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 如何使用啟用媒體旁路設定主幹。 "
-ms.openlocfilehash: 3255aa946cdbec46bf76860d64fe2ca367862a50
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5e4444d85ad0f075d870951a11eaa54bf56f3412
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861250"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396405"
 ---
 # <a name="skype-for-business-server---configure-a-trunk-with-media-bypass"></a>商務用 Skype Server-設定含媒體旁路的主幹 
 

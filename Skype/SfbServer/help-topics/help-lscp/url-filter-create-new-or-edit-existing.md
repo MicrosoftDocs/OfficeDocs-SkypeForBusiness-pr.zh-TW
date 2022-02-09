@@ -1,8 +1,8 @@
 ---
 title: URL 篩選器建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 description: 您要執行的工作 按一下您要執行之任務的連結。
-ms.openlocfilehash: 3eb9079fcb3c0b6d577c6b495b84a9b01d9f7ab9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cbaad0d475f644dd38101a9c234eae0982205670
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834361"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397953"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>URL 篩選器：建立新的或編輯現有
 

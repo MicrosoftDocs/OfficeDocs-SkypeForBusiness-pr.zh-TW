@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中建立或修改撥號對應表
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d2fef3d0-7e78-4591-b712-d62ac71d71a5
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台建立或修改撥號對應表。
-ms.openlocfilehash: c5c4a819c21708f31fbe0bf4801900143d0d4538
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 527c31ea2589f4ee527fbacb2ce90791f844591b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864360"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399357"
 ---
 # <a name="create-or-modify-a-dial-plan-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或修改撥號對應表
 
-**摘要：** 瞭解如何使用商務用 Skype Server 控制台建立或修改撥號對應表。
+**總結：** 瞭解如何使用商務用 Skype Server 控制台建立或修改撥號對應表。
 
 ### <a name="to-create-a-dial-plan"></a>建立撥號對應表
 

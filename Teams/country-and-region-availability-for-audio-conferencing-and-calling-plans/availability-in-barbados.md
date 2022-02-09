@@ -1,7 +1,7 @@
 ---
 title: 在巴布達斯的可用性
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于Microsoft 365和Office 365的商務用 Skype和Microsoft Teams服務。
-ms.openlocfilehash: c46dc736aa11aea4371050e9357dacec5e571cf2
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: bdbf23faa7015335401aeaaa055fdd4f744f3ceb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191234"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400147"
 ---
 # <a name="availability-in-barbados"></a>在巴布達斯的可用性
 
@@ -72,7 +72,7 @@ ms.locfileid: "62191234"
 |有提供付費電話號碼嗎？  <br/> |否 <br/> |
 |是否提供免付費號碼？ <br/> |是  <br/> |
    
- 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype Microsoft Teams。 [](../getting-service-phone-numbers.md)
+ 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype [Microsoft Teams。](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>通訊點數
 

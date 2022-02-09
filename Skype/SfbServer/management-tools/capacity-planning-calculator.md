@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 容量規劃電腦
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/1/2018
 manager: serdars
 audience: ITPro
@@ -14,23 +14,23 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 摘要：如何使用容量計算機工具。
-ms.openlocfilehash: b0369ffd30a4904057a44d594527ad017a712096
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 37df48310e14b31b42bbcaa9d8f5ef89ef7341e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862190"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409956"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>商務用 Skype Server 容量規劃電腦
  
-**摘要：** 如何使用容量計算機工具。
+**總結：** 如何使用容量計算機工具。
 
 > [!NOTE]
 > 本文參考商務用 Skype Server 2015 下載，但適用于：
 > - 商務用 Skype Server 2019。
 > - 商務用 Skype Server 2015。
   
-[商務用 Skype Server 2015 容量計算機](https://www.microsoft.com/download/details.aspx?id=51196)和[商務用 Skype Server 2019 容量計算機](https://www.microsoft.com/download/details.aspx?id=57509)會增強[商務用 Skype 規劃工具](https://www.microsoft.com/download/details.aspx?id=50357)和部署檔， ([規劃商務用 Skype Server 2015 部署](../plan-your-deployment/plan-your-deployment.md)並[為您規劃商務用 Skype Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md)) 分別部署。 在您複習指南並使用規劃工具建立建議的拓撲之後，使用計算機。
+[商務用 Skype Server 2015 容量計算機](https://www.microsoft.com/download/details.aspx?id=51196)和[商務用 Skype Server 2019 容量計算機](https://www.microsoft.com/download/details.aspx?id=57509)會增強[商務用 Skype 規劃工具](https://www.microsoft.com/download/details.aspx?id=50357)和部署檔， ([商務用 Skype Server 2015 部署](../plan-your-deployment/plan-your-deployment.md)[的計畫。) 分別規劃商務用 Skype Server 2019 部署](../../SfBServer2019/plan/plan-your-deployment-2019.md)。 在您複習指南並使用規劃工具建立建議的拓撲之後，使用計算機。
   
 商務用 Skype Server 容量計算機可協助您根據使用者人數及組織所使用的通訊工具，來判斷伺服器的需求。 判斷您的使用者設定檔以及您要為使用者啟用的功能之後，請使用計算機判斷所需的伺服器、記憶體及頻寬數目。 此版本的計算機不會提供磁片 I/O 需求的指導方針。
   

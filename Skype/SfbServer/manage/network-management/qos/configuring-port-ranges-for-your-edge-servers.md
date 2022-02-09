@@ -5,8 +5,8 @@ ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本文說明如何設定 Edge Server 的埠範圍，以及如何為您的 A/V Edge Server 設定服務品質原則。
-ms.openlocfilehash: ae955eb8863f561cc1837b7f0319f7424f13e99c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8bbdbf1ce6dd766e8c47bc148d27e48498bfcf80
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829937"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397677"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>在商務用 Skype Server 中設定 Edge server 的埠範圍和服務品質原則
 

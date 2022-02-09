@@ -1,8 +1,8 @@
 ---
 title: 設定 SharePoint 伺服器以搜尋封存商務用 Skype 資料
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 摘要：設定 SharePoint 伺服器以搜尋 Exchange Server 和商務用 Skype Server 封存的資料。
-ms.openlocfilehash: d3274c29ccdae22a382d045fc6db3ee448223332
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0f2954d5a9875e3009733fc6d869ca57afbf086b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839625"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397287"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>設定 SharePoint 伺服器以搜尋封存商務用 Skype 資料
  
-**摘要：** 設定 SharePoint 伺服器以搜尋 Exchange Server 2016 或 Exchange Server 2013 及商務用 Skype Server 的封存資料。
+**總結：** 設定 SharePoint 伺服器以搜尋 Exchange Server 2016 或 Exchange Server 2013 及商務用 Skype Server 的封存資料。
   
-在 Exchange Server，而不是商務用 Skype Server 中儲存立即訊息和網路會議記錄的主要優點之一，是將資料儲存在相同位置，讓系統管理員可以使用單一工具來搜尋已封存的 Exchange 資料和/或已封存的商務用 Skype Server 資料。 由於所有資料都儲存在相同的位置 (Exchange) 任何可搜尋已封存 Exchange 資料的工具也可以搜尋封存的商務用 Skype Server 資料。
+在 Exchange Server，而不是商務用 Skype Server 中儲存立即訊息和網路會議記錄的主要優點之一，是將資料儲存在相同位置，讓系統管理員可以使用單一工具來搜尋封存的 Exchange 資料和/或已封存的商務用 Skype Server 資料。. 由於所有資料都儲存在相同的位置 (Exchange) 任何可搜尋已封存 Exchange 資料的工具也可以搜尋封存的商務用 Skype Server 資料。
   
 一種可讓您搜尋封存資料的工具，會 Microsoft SharePoint Server 2013。 如果您想要使用 SharePoint 來搜尋商務用 Skype Server 資料，您必須先完成在商務用 Skype Server 中設定 Exchange 封存相關的所有步驟。 順利整合 Exchange Server 和商務用 Skype Server 之後，您必須在 SharePoint 伺服器上安裝 Exchange [Web Services Managed API](https://go.microsoft.com/fwlink/p/?LinkId=258305) 。 下載的檔案 (EWSManagedAPI.msi) 可以儲存至 SharePoint Server 上的任何資料夾。
   

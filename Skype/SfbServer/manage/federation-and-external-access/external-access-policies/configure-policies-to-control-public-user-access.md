@@ -5,8 +5,8 @@ ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
 ms:contentKeyID: 48183343
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ublic 立即訊息 (IM) 連線能力，讓組織中的使用者能夠使用 IM 與公用 IM 服務提供者所提供的 IM 服務的使用者進行通訊。
-ms.openlocfilehash: b5c7d75a6048a584fcb872ed8eb3cd82dfe2076f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d05827c7af0f7712db6d2436f2ecdb00838ea53f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847306"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398957"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>在商務用 Skype Server 中設定原則以控制公用使用者存取
 

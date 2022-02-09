@@ -1,7 +1,7 @@
 ---
 title: 設定及管理頻道模式
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: jotaing
 ms.topic: article
@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在頻道中設定仲裁Microsoft Teams，包括如何將小組成員新增為頻道仲裁者。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dbfdec9af83bda6c0b14a6371e0694d68e25d1d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9fd15b6d7eeecf0f1b7e6ec25e33236f50fd83b3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829557"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400847"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在頻道中設定及管理頻道Microsoft Teams
 
@@ -62,7 +62,7 @@ ms.locfileid: "60829557"
 
 在 Teams，請前往頻道，按一下 [**更多選項...**  > **管理頻道**。 您可以在這裡開啟並關閉仲裁、將小組成員新增為仲裁者，以及設定喜好設定。
 
-通道模式是每個頻道的設定。 頻道模式沒有租使用者層級設定。 如果您想要我們新增租使用者層級通道管理設定，請于[UserVoice](https://microsoftteams.uservoice.com/)Teams要求。
+通道模式是每個頻道的設定。 頻道模式沒有租使用者層級設定。 如果您想要我們新增租使用者層級通道管理設定，請于[UserVoice Teams要求](https://microsoftteams.uservoice.com/)。
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
@@ -72,11 +72,11 @@ ms.locfileid: "60829557"
 
 根據預設，模式設定為關閉，這表示一般頻道設定會適用于團隊擁有者和小組成員。 例如，您可以將新文章限制為只有小組成員，或允許每個人 ，包括來賓，開始新文章。
 
-若要開啟頻道的 [模式模式」，請在 [ **頻道模式** 模式> 下，按一下 **[開啟**。 頻道仲裁為啟用時，只有仲裁者可以開始新的文章。 
+若要開啟頻道的頻道模式，請在 [頻道模式模式 **> 下，** 按一下 **[開啟**。 頻道仲裁為啟用時，只有仲裁者可以開始新的文章。 
 
 ### <a name="add-or-remove-channel-moderators"></a>新增或移除頻道仲裁者
 
-在 [神秘是仲裁者 **嗎？** 下，按一下 [管理」，然後新增或移除小組成員做為仲裁者。 團隊擁有者和仲裁者可以新增和移除其他仲裁者。  
+在 **神秘仲裁者嗎？**，**按一下 [管理**，然後新增或移除小組成員為仲裁者。 團隊擁有者和仲裁者可以新增和移除其他仲裁者。  
 
 ### <a name="set-team-member-permissions"></a>設定團隊成員許可權
 

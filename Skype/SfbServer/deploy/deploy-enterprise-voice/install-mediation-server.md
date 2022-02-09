@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中安裝轉送伺服器的檔案
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: 摘要：瞭解如何在商務用 Skype Server 中安裝轉送伺服器的檔案。
-ms.openlocfilehash: 6efe52ab2964e8a9c95083bbcf6592573ebf7da2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e74c966cc43b9768b107aff559429eb8a639e2cd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839685"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397446"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>在商務用 Skype Server 中安裝轉送伺服器的檔案
  
-**摘要：** 瞭解如何在商務用 Skype Server 中安裝轉送伺服器的檔案。
+**總結：** 瞭解如何在商務用 Skype Server 中安裝轉送伺服器的檔案。
   
 若要順利完成此程式，您應該至少以本機系統管理員身分登入伺服器，以及至少擁有 RTCUniversalReadOnlyAdmins 群組成員資格的網域使用者。
   
@@ -36,7 +36,7 @@ ms.locfileid: "60839685"
   
 ### <a name="to-install-the-files-for-a-stand-alone-mediation-server-pool"></a>若要為獨立的轉送伺服器集區安裝檔案
 
-1. 在安裝媒體中，以滑鼠右鍵按一下 [  _\<installation media\>_ **\Setup\amd64\Setup.exe**]，然後按一下 [以 **系統管理員身分執行**]。
+1. 在安裝媒體中，以滑鼠右鍵按一下  _\<installation media\>_ [ **\Setup\amd64\Setup.exe**]，然後按一下 [以 **系統管理員身分執行**]。
     
 2. 在 [ **安裝位置** ] 頁面上，按一下 **[確定]**。
     

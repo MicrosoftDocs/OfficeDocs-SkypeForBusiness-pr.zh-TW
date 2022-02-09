@@ -1,8 +1,8 @@
 ---
 title: 清除快取
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 08648b16-7a64-41d8-9577-5000a20fce46
 description: 摘要：瞭解清除快取作業，此作業是「通話品質」儀表板的資料 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: de956a3541416100cf7877b46340f2eccb38b3ea
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f81e22b11851f4b2121f2444d7ded824f3d8530a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843816"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396365"
 ---
 # <a name="clear-cache"></a>清除快取
  
-**摘要：** 深入瞭解「可供通話品質」儀表板之 [資料 API] 的 [清除快取] 作業。 通話品質儀表板是商務用 Skype Server 的工具。
+**總結：** 深入瞭解「可供通話品質」儀表板之 [資料 API] 的 [清除快取] 作業。 通話品質儀表板是商務用 Skype Server 的工具。
   
 「清除快取」作業是「通話品質」儀表板之資料 API 的一部分。
   

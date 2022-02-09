@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的媒體質量計量散佈報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 摘要：瞭解商務用 Skype Server 中的媒體質量計量散佈報告。
-ms.openlocfilehash: 00899681190e532af971c719c2e81f655facf7ab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 745f88a6943d9d369a104bf4bc42ffaa68138811
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862310"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409966"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>商務用 Skype Server 中的媒體質量計量散佈報告 
  
-**摘要：** 深入瞭解商務用 Skype Server 中的媒體質量計量散佈報告。
+**總結：** 深入瞭解商務用 Skype Server 中的媒體質量計量散佈報告。
   
 媒體質量計量散佈報告可讓您查看顯示品質狀況（如抖動或封包遺失）之分配值的圖形。 例如，假設您的使用者總共撥打了10次通話;這10個通話會報告下列往返時間：
   

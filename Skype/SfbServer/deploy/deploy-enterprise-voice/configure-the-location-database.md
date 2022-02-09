@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中設定位置資料庫
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: 在商務用 Skype Server 企業語音中，設定、填入及發佈 E9-1-1 位置資料庫。
-ms.openlocfilehash: 8cd4f10a383d279421af6f9152a31f637ee47474
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5ebace7eabe0db04f06611bc9c11263021733367
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851607"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400717"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>在商務用 Skype Server 中設定位置資料庫
  
@@ -31,7 +31,7 @@ ms.locfileid: "60851607"
   
 若要設定位置資料庫，請執行下列工作：
   
-- 以網元對應至位置，填入資料庫。 如果您使用緊急位置識別號碼 (ELIN) 閘道，您必須在欄位中包含 ELIN \<CompanyName\> 。
+- 以網元對應至位置，填入資料庫。 如果您使用緊急位置識別號碼 (ELIN) 閘道，您必須在欄位中 \<CompanyName\> 包含 ELIN。
     
     如果您未填入位置資料庫，且位置原則中 **所需的位置** 設定為 **[是]** 或 [ **免責聲明**]，用戶端將會提示使用者手動輸入位置。
     

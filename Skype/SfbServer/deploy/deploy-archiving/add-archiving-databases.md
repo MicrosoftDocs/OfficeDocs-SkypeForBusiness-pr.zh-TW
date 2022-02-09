@@ -1,8 +1,8 @@
 ---
 title: 將封存資料庫新增至商務用 Skype Server 中的現有部署
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 摘要：閱讀此主題以瞭解如何將封存資料庫新增至您的商務用 Skype Server 部署。
-ms.openlocfilehash: d9434ffaf2141ea176b99825571ad2a17d0d5601
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3bc4e14998e45803518436bb180906e9c79e14f4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864470"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401577"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>將封存資料庫新增至商務用 Skype Server 中的現有部署
  
-**摘要：** 閱讀此主題以瞭解如何將封存資料庫新增至您的商務用 Skype Server 部署。
+**總結：** 閱讀此主題以瞭解如何將封存資料庫新增至您的商務用 Skype Server 部署。
   
 您必須先將封存納入拓撲中，才能設定部署來支援封存。 本主題中的資訊說明如何使用拓撲產生器來執行下列作業：
   
@@ -72,7 +72,7 @@ ms.locfileid: "60864470"
     
      c. 如果指定的 SQL Server 實例是以鏡像關聯，請選取 [**此 SQL 實例為鏡像** 關聯] 核取方塊，然後在 [**鏡像埠號碼**] 中指定埠號碼。
     
-   - 如果您啟用 SQL Server 鏡像，並且想要包含 SQL Server 鏡像見證 (第三個個別 SQL Server 實例可以偵測主要 SQL Server 和鏡像實例) 的健康情況，請選取 [**使用 SQL Server 鏡像見證啟用自動容錯移轉**] 核取方塊，然後執行一個 下列其中一項：
+   - 如果您啟用 SQL Server 鏡像，而且想要包含 SQL Server 鏡像見證 (第三個個別 SQL Server 實例，可偵測主要 SQL Server 和鏡像實例的健康情況) ，請選取 [**使用 SQL Server 鏡像見證來啟用自動容錯移轉**]。 核取方塊，然後執行下列其中一項動作：
     
      a. 在 [ **SQL Server fqdn**] 中，指定您要在其上建立新 SQL Server 鏡像見證之伺服器的 FQDN。
     

@@ -1,8 +1,8 @@
 ---
 title: 監視商務用 Skype Server 2015 中的 IIS 要求追蹤記錄檔
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6730e92-6d74-4fa7-a83f-50b7bdadbffa
 description: 摘要：瞭解 Mcx) 中的行動服務 (的商務用 Skype Server 2015 支援舊版用戶端。
-ms.openlocfilehash: 2b571ceb583f7a42c6f41fba3c868fbe1628631a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a2331d4f18488171b1862e53f06f4910b463ccb5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857550"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396555"
 ---
 # <a name="monitoring-iis-request-tracing-log-files-in-skype-for-business-server-2015"></a>監視商務用 Skype Server 2015 中的 IIS 要求追蹤記錄檔
  
-**摘要：** 深入瞭解 Mcx) 中的行動服務 (商務用 Skype Server 2015 支援舊版用戶端。
+**總結：** 深入瞭解 Mcx) 中的行動服務 (商務用 Skype Server 2015 支援舊版用戶端。
   
 本主題僅適用于支援 Lync 2010 Lync 行動用戶端的部署，且適用于行動服務 (Mcx) 。
 

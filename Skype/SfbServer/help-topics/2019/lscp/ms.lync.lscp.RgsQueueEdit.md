@@ -1,8 +1,8 @@
 ---
 title: 回應群組佇列建立新的或編輯現有
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: 回應群組佇列會將呼叫保留到回應群組，直到代理接聽來電為止。
-ms.openlocfilehash: 1595439c8d85bf5525ef5cecdc250856d9d2596f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0a333badcf5dbc034f08b70407a2f9ed9ffaf00e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832697"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399297"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>回應群組佇列：建立新的或編輯現有
 
@@ -30,11 +30,11 @@ ms.locfileid: "60832697"
 
 下列清單說明頁面上的欄位。
 
-- **名稱** 每個佇列都必須有名稱。 輸入佇列的描述性名稱。
+- **名字** 每個佇列都必須有名稱。 輸入佇列的描述性名稱。
 
 - **描述** 此欄位是選用的。 使用它提供有關佇列的其他詳細資料。
 
-- **群組** 選取您要指派給佇列的代理人群組。 按一下 [ **選取** ]，將代理群組新增至清單。 按一下 [ **移除** ]，從清單中刪除選取的代理人群組。
+- **組** 選取您要指派給佇列的代理人群組。 按一下 [ **選取** ]，將代理群組新增至清單。 按一下 [ **移除** ]，從清單中刪除選取的代理人群組。
 
     向上及向中箭號會在清單中上下移動選取的代理群組。 代理人群組的順序會影響商務用 Skype Server 搜尋可用代理程式的順序。 也就是說，會先搜尋清單中的第一個群組，以取得可用的代理程式，後面接著第二個群組，依此類推。
 
@@ -46,11 +46,11 @@ ms.locfileid: "60832697"
 
   - **中斷連線**
 
-  - **轉寄至語音信箱** 如果您選取此選項，請在 [ **sip 位址**] 中，以 [ (sip： contoso.com] 的格式輸入語音信箱位址（ \<username> @ \<domainname> 例如，sip：王俊元 \@) ）。
+  - **轉寄至語音信箱** 如果您選取此選項，請在 [ **sip 位址**] 中，以 [ (sip \<username> @ \<domainname> ： contoso.com] 的格式輸入語音信箱位址（例如，sip：王俊元 \@) ）。
 
-  - **轉寄至電話號碼** 如果您選取此選項，請在 [ **sip 位址**] 中，輸入 [sip (：] \<number> @ \<domainname> （sip： + 14255550121 \@ contoso.com) ）格式的電話號碼。
+  - **轉寄至電話號碼** 如果您選取此選項，請在 [ **sip 位址**] 中，輸入 [sip (： \<number> @ \<domainname> ] （sip： + 14255550121 \@ contoso.com) ）格式的電話號碼。
 
-  - **轉寄至 SIP 位址** 選取這個選項，將來電轉寄給另一個使用者。 在 [ **sip 位址**] 中，以 [sip：] 的格式輸入使用者的 URI \<username> @ \<domainname> 。
+  - **轉寄至 SIP 位址** 選取這個選項，將來電轉寄給另一個使用者。 在 [ **sip 位址**] 中，以 [sip： \<username> @ \<domainname> ] 的格式輸入使用者的 URI。
 
   - **轉寄到另一個佇列** 如果您選取此選項，請流覽至通話超時時要接聽通話的佇列。
 
@@ -64,11 +64,11 @@ ms.locfileid: "60832697"
 
   - **中斷連線**
 
-  - **轉寄至語音信箱** 如果您選取此選項，請在 [ **sip 位址**] 的 [sip： (格式] 中輸入語音信箱位址， \<username> @ \<domainname> 例如，sip:bob@contoso.com) 。
+  - **轉寄至語音信箱** 如果您選取此選項，請在 [ **sip 位址**] 的 [sip： \<username> @ \<domainname> (格式] 中輸入語音信箱位址，例如，sip:bob@contoso.com) 。
 
-  - **轉寄至電話號碼** 如果您選取此選項，請在 [ **sip 位址**] 中，輸入 [sip： (格式的電話號碼] \<number> @ \<domainname> 例如，sip:+14255550121@contoso.com) 。
+  - **轉寄至電話號碼** 如果您選取此選項，請在 [ **sip 位址**] 中，輸入 [sip： \<number> @ \<domainname> (格式的電話號碼] 例如，sip:+14255550121@contoso.com) 。
 
-  - **轉寄至 SIP 位址** 選取這個選項，將來電轉寄給另一個使用者。 在 [ **sip 位址**] 中，以 [sip：] 的格式輸入使用者的 URI \<username> @ \<domainname> 。
+  - **轉寄至 SIP 位址** 選取這個選項，將來電轉寄給另一個使用者。 在 [ **sip 位址**] 中，以 [sip： \<username> @ \<domainname> ] 的格式輸入使用者的 URI。
 
   - **轉寄到另一個佇列** 如果您選取此選項，請流覽至滿足佇列溢出閾值時要接聽通話的佇列。
 

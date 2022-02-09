@@ -1,8 +1,8 @@
 ---
 title: 使用 SCOM 管理元件管理商務用 Skype Server 2019
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/26/2018
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 摘要：瞭解如何設定您的商務用 Skype Server 2019 基礎結構，以與 System Center Operations Manager 搭配使用。
-ms.openlocfilehash: e0e5f7c090c51fbe3b7b022f890fd3fc8f254aa3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 44e4be6b2bfde254eac9df2433a1f2807e77fa81
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844886"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396221"
 ---
 # <a name="manage-skype-for-business-server-2019-using-scom-management-pack"></a>使用 SCOM 管理元件管理商務用 Skype Server 2019
  
-**摘要：** 瞭解如何設定商務用 Skype Server 2019 基礎結構，以與 System Center Operations Manager 搭配使用。
+**總結：** 瞭解如何設定商務用 Skype Server 2019 基礎結構，以與 System Center Operations Manager 搭配使用。
   
 在理想的世界中，您絕對不會遇到商務用 Skype Server 2019 的問題。 不過，商務用 Skype Server 可能會受到外部因素的影響，例如網路損毀和硬體失敗。 透過使用商務用 Skype Server 2019 管理元件，您可以主動識別並處理潛在的問題。 如此一來，商務用 Skype Server 2019 管理元件會擴充 System Center Operations Manager 的功能。
   
@@ -38,13 +38,13 @@ ms.locfileid: "60844886"
   
  識別及 [安裝及設定監視程式節點](../../SfbServer/management-tools/use-scom-management-pack/watcher-nodes.md)。 監看員節點是定期執行商務用 Skype Server 綜合交易的電腦-Windows PowerShell 指令程式會驗證金鑰商務用 Skype Server 元件（例如，登入系統的功能，或 exchange 立即訊息的功能）如預期般運作。 
   
-## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>System CenterOperations Manager 根管理伺服器和代理程式支援
+## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>System Center Operations Manager 根管理伺服器及代理程式支援
 
 管理套件可以與 System Center Operations manager 2007 64 (R2 搭配使用，以供遷移之用 (僅) 或 System Center Operations Manager 2012 SP1 &amp; R2 (64) ) 。 下表顯示商務用 Skype Server 2019 的管理元件支援的設定： 
   
 |組態|支援？|
 |:-----|:-----|
-|Windows Server 2008 R2 operating system  <br/> Windows Server 2012R2 作業系統   |是。 在商務用 Skype Server 2019 伺服器及綜合交易觀察程式節點上。   |
+|Windows Server 2008 R2 operating system  <br/> Windows Server 2012 R2 作業系統   |是。 在商務用 Skype Server 2019 伺服器及綜合交易觀察程式節點上。   |
 |聚簇伺服器   |不支援。   |
 |無代理監控   |不支援。   |
 |虛擬環境   |是。   |
@@ -59,14 +59,14 @@ ms.locfileid: "60844886"
 |:-----|:-----|
 |CPU   |下列其中之一：  <br/> 64位處理器、四核心2.33GHz 或更高版本  <br/> 64位2路處理器、雙核2.33GHz 或更高版本   |
 |記憶體   |8 GB   |
-|作業系統   |Windows伺服器 2008 r2 Windows Server 2012 r2   |
+|作業系統   |Windows Server 2008 r2 Windows Server 2012 r2   |
 |網路   |1 Gbps 的網路介面卡   |
    
 ## <a name="prerequisites"></a>必要條件
 
 若要執行綜合交易觀察程式節點，您必須先安裝下列專案：
   
-- System CenterOperations Manager 代理程式 
+- Operations Manager 代理 System Center 
     
 -  Microsoft .NET Framework 4.5
     
@@ -149,7 +149,7 @@ ms.locfileid: "60844886"
 |:-----|:-----|:-----|
 |9    |音訊和視訊會議   |可在 Lync Server 2010 和之後使用   |
 |10    |資料會議   |可在 Lync Server 2013 和之後使用   |
-|11    |立即訊息會議   |可在 Lync Server 2010 和之後使用   |
+|11   |立即訊息會議   |可在 Lync Server 2010 和之後使用   |
 |12    | 常設聊天室  |可在 Lync Server 2013 和之後使用   |
 |13   |加入 Launcher (排程的會議)    |可在 Lync Server 2013 和之後使用   |
 |14    |電話撥入式會議   |可用於商務用 Skype Server 2015 以上的版本  |
@@ -172,22 +172,22 @@ ms.locfileid: "60844886"
   
 |Management Pack 物件|描述|
 |:-----|:-----|
-|商務用 Skype Server部署   |代表組織中商務用 Skype Server 2019 的部署。   |
-|商務用 Skype Server網站   |代表部署服務的不同地理位置。   |
-|商務用 Skype Server池   |為使用者提供通訊服務（如立即訊息和會議）的網站) 中的集區 (。 適用于前端集區、Edge 集區和 Director 集區，即使指定集區中只有一部電腦。   |
-|商務用 Skype Server作用   |主控商務用 Skype Server 服務的伺服器角色。   |
-|商務用 Skype Server服務   |代表在特定電腦上部署的功能 (例如，fp01.contoso.com) 上的 user service。   |
-|商務用 Skype Server元件   |服務的元件 (例如，通訊錄下載元件是 Web 服務) 的一部分。   |
-|商務用 Skype Server集區觀察程式   |針對一個集區執行的綜合交易的實例。   |
-|商務用 Skype Server註冊器觀察程式   |針對一個註冊集區執行之綜合交易的實例。   |
-|商務用 Skype Server使用者服務集區觀察程式   |針對一個使用者服務集區執行之綜合交易的實例。   |
-|商務用 Skype Server語音集區觀察程式   |在一個語音集區上執行之綜合交易的實例。   |
-|商務用 Skype Server埠觀察程式   |針對一個集區執行的埠檢查實例。   |
+|商務用 Skype Server 部署   |代表組織中商務用 Skype Server 2019 的部署。   |
+|商務用 Skype Server 網站   |代表部署服務的不同地理位置。   |
+|商務用 Skype Server 集區   |為使用者提供通訊服務（如立即訊息和會議）的網站) 中的集區 (。 適用于前端集區、Edge 集區和 Director 集區，即使指定集區中只有一部電腦。   |
+|商務用 Skype Server 角色   |主控商務用 Skype Server 服務的伺服器角色。   |
+|商務用 Skype Server 服務   |代表在特定電腦上部署的功能 (例如，fp01.contoso.com) 上的 user service。   |
+|商務用 Skype Server 元件   |服務的元件 (例如，通訊錄下載元件是 Web 服務) 的一部分。   |
+|商務用 Skype Server 集區觀察程式   |針對一個集區執行的綜合交易的實例。   |
+|商務用 Skype Server 註冊器觀察程式   |針對一個註冊集區執行之綜合交易的實例。   |
+|商務用 Skype Server 使用者服務集區觀察程式   |針對一個使用者服務集區執行之綜合交易的實例。   |
+|商務用 Skype Server 語音集區觀察程式   |在一個語音集區上執行之綜合交易的實例。   |
+|商務用 Skype Server 埠觀察程式   |針對一個集區執行的埠檢查實例。   |
 |簡易 URL 觀察程式   |在部署中執行已設定的簡易 URLs HTTPS 探查。   |
    
 ![SCOM 匯總。](../../SfbServer/media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
-商務用 Skype Server 集區可以包含多個個別商務用 Skype Server 系統 (具有一個以上商務用 Skype Server 角色、商務用 Skype Server 服務，以及商務用 Skype Server 元件) 。 因此，個別伺服器或元件的失敗對商務用 Skype Server 集區的整體健康情況而言並不很重要，因為相同集區中的其他伺服器也可以為用戶端提供應用程式服務。 健康情況會在百分比層級上向上翻轉至商務用 Skype Server 集區。 
+商務用 Skype Server 集區可以包含多個個別商務用 Skype Server 系統 (具有一個以上商務用 Skype Server 角色、商務用 Skype Server 服務和商務用 Skype Server元件) 。 因此，個別伺服器或元件的失敗對商務用 Skype Server 集區的整體健康情況而言並不很重要，因為相同集區中的其他伺服器也可以為用戶端提供應用程式服務。 健康情況會在百分比層級上向上翻轉至商務用 Skype Server 集區。 
   
 商務用 Skype Server 集區觀察程式會針對商務用 Skype Server 集區執行綜合交易。 連續失敗一或多個綜合交易 (稱為「連續輪詢間隔」的處理常式) 會將嚴重健康狀態狀態累加至集區層級 (最糟的所有綜合交易) ，如下圖所示。 
   
@@ -201,7 +201,7 @@ ms.locfileid: "60844886"
   
 建立新的管理套件以儲存每個密封管理套件的自訂，讓從測試環境將自訂匯出至實際執行環境變得更容易。 這也會使刪除管理元件變得更容易，因為您必須先刪除任何相依性，才能刪除管理元件。 若所有管理套件的自訂專案儲存在預設管理元件中，且您需要刪除單一管理元件，您必須先刪除預設管理套件，也就是刪除其他管理元件的自訂專案。 
   
-## <a name="links"></a>連結
+## <a name="links"></a>Links
 
 下列連結會連線至與 System Center 2012 監視套件相關聯的常見工作相關資訊：
   

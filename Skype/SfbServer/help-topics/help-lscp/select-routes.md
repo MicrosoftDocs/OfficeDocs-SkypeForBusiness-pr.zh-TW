@@ -1,8 +1,8 @@
 ---
 title: 選取路由
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 description: 使用 [選取路由] 對話方塊，尋找您可以使用的現有語音路由。
-ms.openlocfilehash: 43c345fa0f56b4106922b5b1b3a499d25385962d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 493964f988cbcd431c9ab5b5f2166f64481fbbeb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832277"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410188"
 ---
 # <a name="select-routes"></a>選取路由
  

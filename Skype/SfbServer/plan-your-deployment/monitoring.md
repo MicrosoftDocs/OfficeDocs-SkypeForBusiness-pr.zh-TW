@@ -1,8 +1,8 @@
 ---
 title: 規劃商務用 Skype Server 中的監控
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,20 +12,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 摘要：在規劃商務用 Skype Server 中的監控服務時，請參閱本主題。
-ms.openlocfilehash: f1bd1dbab35247b17067adaa3b2d06557b8f0292
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 215402fa68c89d6484532b0c6e7fb6093f591b23
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835011"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404585"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>規劃商務用 Skype Server 中的監控
 
-**摘要：** 在規劃商務用 Skype Server 中的監控服務時，請參閱本主題。
+**總結：** 在規劃商務用 Skype Server 中的監控服務時，請參閱本主題。
 
 商務用 Skype Server 中的監控服務為系統管理員提供一種方法，讓系統管理員可以收集組織中發生之通訊會話的使用狀況和品質資料，讓使用者可以識別趨勢及問題。 持續監控您的部署可讓您及早發現問題，並使組織的使用者滿意。
 
-在商務用 Skype Server 中監控時，不需要個別的伺服器角色 (舊版 Lync 版本中的案例) ;相反地，監控服務是內置於每一部前端伺服器。 商務用 Skype Server 預設不會啟用監視功能。 本文將協助您決定在初始商務用 Skype Server 設定期間或之後是否要啟用監控，以及您將需要哪些 SQL 資源來支援監控活動。 [！附注] 如果您不確定所監控的專案或未受到監控，以及監控的用處，請移至 [有關監控的基本知識](monitoring.md#Basics)。 若要開始規劃程式，請移至 [定義您的監控需求](monitoring.md#requirements)。 如需監視的 SQL 需求的詳細資訊，請前往[SQL 需求以進行監視](monitoring.md#topologies)。
+在商務用 Skype Server 中監控不需要個別的伺服器角色 (舊版 Lync 版本中的案例) ; 相反地，監控服務是內置於每一部前端伺服器。 商務用 Skype Server 預設不會啟用監視功能。 本文將協助您決定在初始商務用 Skype Server 設定期間或之後是否要啟用監控，以及您將需要哪些 SQL 資源來支援監控活動。 [！附注] 如果您不確定所監控的專案或未受到監控，以及監控的用處，請移至 [有關監控的基本知識](monitoring.md#Basics)。 若要開始規劃程式，請移至 [定義您的監控需求](monitoring.md#requirements)。 如需監視的 SQL 需求的詳細資訊，請前往[SQL 需求以進行監視](monitoring.md#topologies)。
 
 ## <a name="basics-about-monitoring"></a>監控的基本概念
 <a name="Basics"> </a>
@@ -39,7 +39,7 @@ ms.locfileid: "60835011"
 - 透過對等交談（如立即訊息或音訊通話）的另一位使用者
 
 > [!NOTE]
-> 商務用 Skype Server 會持續追蹤每個會話的相關資訊：誰叫誰;會話中使用的端點此會話最後一段時間;會話的感知品質為何;等等。 商務用 Skype Server 未錄製和儲存實際通話本身。 包括立即訊息會話：雖然商務用 Skype Server 會記錄立即訊息會話的相關資訊，但不會維護會話期間所傳送之每個立即訊息的記錄。
+> 商務用 Skype Server 會持續追蹤每個會話的相關資訊：誰叫誰、會話中使用的端點、會話的最長時間、會話品質如何; 等等。 商務用 Skype Server 未錄製和儲存實際通話本身。 包括立即訊息會話：雖然商務用 Skype Server 會記錄立即訊息會話的相關資訊，但不會維護會話期間所傳送之每個立即訊息的記錄。
 
 每個會話的商務用 Skype Server 所收集的基本通話詳細資訊可用於下列專案：
 
@@ -66,11 +66,11 @@ ms.locfileid: "60835011"
 
 在您開始安裝及設定商務用 Skype Server 的監控之前，仍然必須解決一些重要問題：
 
- **您何時要安裝監控？** 監控可以在您安裝及設定商務用 Skype Server 的同時安裝及設定。商務用 Skype Server 部署嚮導可讓您有機會在安裝期間，將前端集區與監控資料庫產生關聯。 或者，您也可以在安裝商務用 Skype Server 後安裝監視;若要使用拓撲產生器，將前端集區與伺服器與監控資料庫產生關聯，然後發佈修訂的拓撲，即可完成此動作。
+ **您何時要安裝監控？** 您可以在安裝和設定商務用 Skype Server 的同時安裝及設定監控; 商務用 Skype Server 部署嚮導將會讓您有機會在安裝期間，將前端集區與監控資料庫產生關聯。 或者，您也可以在安裝商務用 Skype Server 後安裝監視; 這可透過使用拓撲產生器，將前端集區與伺服器與監控資料庫產生關聯，然後發佈修改後的拓撲來完成。
 
-請記住，必須先安裝及設定 SQL Server，再部署及設定監視。 不過，您只需要自行部署 SQL Server;當您發佈商務用 Skype Server 拓撲時，系統會為您建立監控資料庫。
+請記住，必須先安裝及設定 SQL Server，再部署及設定監視。 不過，您只需要自行部署 SQL Server; 當您發佈商務用 Skype Server 拓撲時，系統會為您建立監控資料庫。
 
- **您要監視的資料類型為何？** 商務用 Skype Server 可讓您監視兩種一般類型的資料：通話詳述錄製 (CDR) 資料及經驗品質 (QoE) 資料。 詳細通話記錄可讓您追蹤商務用 Skype Server 功能（例如 Voice over IP (VoIP) 電話）的使用方式;立即訊息 (IM) ;檔案傳輸;音訊/視頻 (A/V) 會議;和應用程式共用會話。 此資訊可協助您瞭解使用哪些商務用 Skype Server 功能 (，哪些功能不會) ，也會提供這些功能的使用方式資訊。 經驗品質資料可讓您維護組織中所進行之音訊和影片的品質品質記錄，包括遺失的網路封包數目、背景雜訊，以及「抖動」 () 封包延遲中的差異。
+ **您要監視的資料類型為何？** 商務用 Skype Server 可讓您監視兩種一般類型的資料：通話詳述錄製 (CDR) 資料及經驗品質 (QoE) 資料。 詳細通話記錄可讓您追蹤商務用 Skype Server 功能（如 Voice over IP (VoIP) 電話）的使用方式; 立即訊息 (IM) ; 檔案傳輸; 音訊/視頻 (A/V) 會議; 和應用程式共用會話。 此資訊可協助您瞭解使用哪些商務用 Skype Server 功能 (，哪些功能不會) ，也會提供這些功能的使用方式資訊。 經驗品質資料可讓您維護組織中所進行之音訊和影片的品質品質記錄，包括遺失的網路封包數目、背景雜訊，以及「抖動」 () 封包延遲中的差異。
 
 如果您選擇在商務用 Skype Server 啟用監控，您可以啟用 CDR 監控和 QoE 監控，也可以選擇啟用一種監控，而讓另一種類型保持停用。 例如，假設您的使用者只使用立即訊息和檔案傳輸，也不會進行音訊或視頻通話。 在此情況下，可能不需要啟用 QoE 監視。 同樣地，商務用 Skype Server 可在部署監控後，輕鬆啟用及停用監控。 例如，您可以選擇部署監控，但在開始時仍會停用 QoE 監視。 如果您的使用者開始遇到音訊或視頻通話的問題，您可以啟用 QoE 監視，並使用該資料來協助您疑難排解及解決這些問題。
 
@@ -88,9 +88,9 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 
 這對於規劃的目的很重要，因為鏡像會要求您加倍必要的資料庫數目：除了每個主資料庫之外，您還需要另一個資料庫作為鏡像。
 
- **您的商務用 Skype Server 網站需要自己的自訂監視設定嗎？** 當您安裝商務用 Skype Server 時，也會安裝 CDR 的全域集合及 QoE 設定設定;這些全域集合可讓您將相同的 CDR 和 QoE 設定套用至整個組織。 在許多情況下，這會是足夠的：您經常需要的時間，也就是說，您可以為所有的使用者啟用 CDR 監控。
+ **您的商務用 Skype Server 網站需要自己的自訂監視設定嗎？** 當您安裝商務用 Skype Server 時，也會安裝 CDR 和 QoE 設定設定的全域集合; 這些全域集合可讓您將相同的 cdr 和 QoE 設定套用至整個組織。 在許多情況下，這會是足夠的：您經常需要的時間，也就是說，您可以為所有的使用者啟用 CDR 監控。
 
-不過，您有時也可能會想要將不同的設定套用至不同的網站。 例如，您可能想要在 Redmond 網站中使用 CDR 和 QoE 監控，但只在您的都柏林網站中使用 CDR 監控。 同樣地，您可能想要保留 Redmond 網站中60天的監控資料，但只需要在都柏林網站中維護這種資料類型30天。 商務用 Skype Server 可讓您在網站範圍建立個別的 CDR 集合及 QoE 設定設定;這可讓您以不同方式管理每個網站。  (這包括啟用和停用監控，以及設定管理設定，例如保留資料的時間。 ) 
+不過，您有時也可能會想要將不同的設定套用至不同的網站。 例如，您可能想要在 Redmond 網站中使用 CDR 和 QoE 監控，但只在您的都柏林網站中使用 CDR 監控。 同樣地，您可能想要保留 Redmond 網站中60天的監控資料，但只需要在都柏林網站中維護這種資料類型30天。 商務用 Skype Server 可讓您在網站範圍建立個別的 CDR 集合及 QoE 設定設定，讓您以不同的方式管理每個網站。  (這包括啟用和停用監控，以及設定管理設定，例如保留資料的時間。 ) 
 
 請注意，您可以在部署監控之前或部署監控之後，加以決定。 例如，您可以部署監控，然後使用通用設定來管理整個組織。 如果您稍後變更主意，您可以為 Redmond 網站建立個別的設定集合，然後使用這些設定來管理 Redmond 的監控。 套用於網站範圍的 (設定永遠優先于全域範圍內套用的設定。 ) 如果您再次變更主意，您可以直接刪除套用至 Redmond 網站的設定設定。 移除網站設定的集合後，全域設定集合便會自動套用至該網站。
 
@@ -99,7 +99,7 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 
 當您啟用監控功能時，系統會自動在每個前端伺服器上安裝及啟用整合資料收集代理程式。 如需支援的 SQL Server 和其他詳細資料版本，請參閱[商務用 Skype Server 2015 的伺服器需求](requirements-for-your-environment/server-requirements.md)
 
-監控資料可以與其他類型的資料共用 SQL Server 實例。 一般來說，詳細通話記錄資料庫 (LcsCdr) 和經驗品質資料庫 (QoEMetrics) 共用相同 SQL 實例;這兩個監視資料庫也一般與封存資料庫 (LcsLog) 相同 SQL 實例中。 關於 SQL Server 實例唯一的實際需求是 SQL Server 的任何一個實例，都限制為下列專案：
+監控資料可以與其他類型的資料共用 SQL Server 實例。 一般來說，[詳細通話記錄] 資料庫 (LcsCdr) 和經驗品質資料庫 (QoEMetrics) 共用相同 SQL 實例; 也通常兩個監視資料庫與封存資料庫 SQL (LcsLog 相同。 關於 SQL Server 實例唯一的實際需求是 SQL Server 的任何一個實例，都限制為下列專案：
 
 - 商務用 Skype Server 2015 後端資料庫的一個實例。  (一般規則，不建議您在相同的 SQL 實例中或甚至是在後端資料庫的相同電腦上，組合監控資料庫。 您可以使用後端資料庫所需的磁碟空間來執行監控資料庫的風險，但從技術上講可行。 ) 
 

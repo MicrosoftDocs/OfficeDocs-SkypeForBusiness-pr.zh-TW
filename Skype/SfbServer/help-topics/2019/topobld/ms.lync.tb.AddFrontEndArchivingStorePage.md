@@ -1,8 +1,8 @@
 ---
 title: 新增前端封存存放區
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 ROBOTS: NOINDEX, NOFOLLOW
-description: 封存需要支援的64位版本的 Microsoft SQL Server 資料庫軟體才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫，以用於封存，或透過指定 SQL Server 資料庫所在之伺服器 (FQDN) 來定義新的 SQL Server 資料庫，除了您想要用於新 SQL Server 資料庫的 SQL Server 實例之外（也就是您指定 (的命名實例）。
-ms.openlocfilehash: 29a51e437c5249f2bd361579eadde812d5f65e17
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 封存需要支援的64位版本的 Microsoft SQL Server 資料庫軟體才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫，以用於封存，或透過指定 SQL Server 資料庫所在之伺服器的 FQDN)  (FQDN 來定義新的 SQL Server 資料庫，以及您想要用於新的 SQL Server 實例。SQL Server 資料庫 (可以是預設實例，或是您指定) 的命名實例。
+ms.openlocfilehash: 94e22e94bb930283103f7358a27dd82d8ee5b2bf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864140"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397131"
 ---
 # <a name="add-front-end-archiving-store"></a>新增前端封存存放區
 
-封存需要支援的64位版本的 Microsoft SQL Server 資料庫軟體才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫，以用於封存，或透過指定 SQL Server 資料庫所在之伺服器 (FQDN) 來定義新的 SQL Server 資料庫，除了您想要用於新 SQL Server 資料庫的 SQL Server 實例之外（也就是您指定 (的命名實例）。
+封存需要支援的64位版本的 Microsoft SQL Server 資料庫軟體才能儲存封存資料。 您可以選取先前定義的 SQL Server 資料庫，以用於封存，或透過指定 SQL Server 資料庫所在之伺服器的 FQDN)  (FQDN 來定義新的 SQL Server 資料庫，以及您想要用於新的 SQL Server 實例。SQL Server 資料庫 (可以是預設實例，或是您指定) 的命名實例。
 
 > [!NOTE]
 > 若發行拓撲所用的帳戶具有適當的使用者權限，您可以在發行拓撲時建立監控資料庫。 您也可以稍後再建立資料庫（包括安裝程式的一部分）。

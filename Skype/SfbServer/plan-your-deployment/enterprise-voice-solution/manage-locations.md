@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中管理 SIP 主幹服務提供者的位置
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: 若要使用 SIP 主幹提供者規劃 E9-1-1 部署的位置資訊資料庫或類似外部資料庫，請在商務用 Skype Server 企業語音中作出必要的決策。
-ms.openlocfilehash: 4667ea571fe3bbb022c8dd1ee1483e6195165ec9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0c9adec0a213cfc726464285e93af14905b8dd49
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855290"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398727"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>在商務用 Skype Server 中管理 SIP 主幹服務提供者的位置
 

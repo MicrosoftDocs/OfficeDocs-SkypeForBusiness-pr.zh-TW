@@ -1,8 +1,8 @@
 ---
 title: 防止新的連線
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: 6fdb3bfdd8e612ccdf61cf639b106baefb60f061
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d6f0bfcace21a0383b51a81ee37d60d3f7e227d4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851987"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397687"
 ---
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>避免伺服器維護的新連線商務用 Skype Server
 

@@ -1,8 +1,8 @@
 ---
 title: 現代的日期計算中的常見安全性威脅
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/22/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
 description: 因為商務用 Skype Server 是企業級的通訊系統，所以應注意可能影響其基礎結構和通訊的常見安全性攻擊。
-ms.openlocfilehash: 8f546ff95bec714f9ddd922b4b786d4a6bd5549c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 187caacad29e3959169ee7b1053729f28e4755d4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851807"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400867"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>現代的日期計算中的常見安全性威脅
  

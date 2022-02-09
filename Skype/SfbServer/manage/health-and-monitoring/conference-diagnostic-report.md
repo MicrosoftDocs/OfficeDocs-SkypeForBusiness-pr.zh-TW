@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的會議診斷報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: 摘要：瞭解商務用 Skype Server 中使用的會議診斷報告。
-ms.openlocfilehash: 4e15819e220459664875e6a868c2644262885060
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 54f13793e1e76957bfc81f5d46769c5593c82cf8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837555"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398927"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>商務用 Skype Server 中的會議診斷報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中所用的會議診斷報告。
+**總結：** 深入瞭解商務用 Skype Server 中所用的會議診斷報告。
   
 會議診斷報告可提供所有會議會話成功和失敗的相關資訊。 請注意，商務用 Skype Server 會區別不同類型的失敗：
   

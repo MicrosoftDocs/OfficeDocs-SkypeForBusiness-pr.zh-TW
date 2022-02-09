@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 2015 壓力和效能工具的常見問題
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 11/11/2015
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: 商務用 Skype 2015 應力和效能工具常見問題解答 (FAQ) ，可找出支援哪些工具設定、疑難排解工具問題，並闡明當您執行壓力和效能工具時，可能會看到的 behaviours。
-ms.openlocfilehash: fb81d31711b027d58b8d5b97ecd6d14f32c0fa0f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 72f83f10d84a7e1f50f34d641c73fd1777f2b7b4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857290"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397607"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>商務用 Skype Server 2015 壓力和效能工具的常見問題
  

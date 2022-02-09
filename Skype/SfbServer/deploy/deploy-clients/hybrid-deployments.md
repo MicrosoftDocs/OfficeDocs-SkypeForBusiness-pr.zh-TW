@@ -1,7 +1,7 @@
 ---
-title: Skype會議室系統混合式部署
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype 房間系統混合式部署
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: 閱讀此主題以瞭解如何在混合式環境中部署 Skype 的會議室系統。
-ms.openlocfilehash: caebf77f0ef5abb2b56c64446ad04a052d8f98f9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0592d2cb22eb0a8f34e93dc812f011d13b31a53f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841945"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400759"
 ---
-# <a name="skype-room-system-hybrid-deployments"></a>Skype會議室系統混合式部署
+# <a name="skype-room-system-hybrid-deployments"></a>Skype 房間系統混合式部署
 
 閱讀此主題以瞭解如何在混合式環境中部署 Skype 的會議室系統。
   

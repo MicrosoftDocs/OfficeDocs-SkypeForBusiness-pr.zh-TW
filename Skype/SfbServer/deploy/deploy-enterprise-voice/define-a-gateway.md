@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中定義拓撲產生器中的閘道
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 摘要：瞭解如何在商務用 Skype Server 中的拓撲產生器中定義 PSTN 閘道。
-ms.openlocfilehash: 2e8a69fb1a884597f4e6ecde1a3811a88982d13e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3af081134557e149416ecd8d31b13c64051a1ad4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857950"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399917"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>在商務用 Skype Server 中定義拓撲產生器中的閘道
  
-**摘要：** 瞭解如何在商務用 Skype Server 中的拓撲產生器中定義 PSTN 閘道。
+**總結：** 瞭解如何在商務用 Skype Server 中的拓撲產生器中定義 PSTN 閘道。
   
 請遵循下列步驟，使用拓撲產生器來定義與轉送伺服器相關聯的對等對等能力，以提供啟用企業語音之使用者的公用交換電話網路 (PSTN) 連線能力。 對等與轉送伺服器的對等可以是 Internet 電話語音服務提供者 (SBC) 的 PSTN 閘道、IP-PBX 或會話邊界控制器， (透過設定 SIP 主幹來連接的 ITSP) 。
   

@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 2015 中設定 Persistent Chat Server 的規範服務
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中設定 Persistent Chat Server 合規性服務。
-ms.openlocfilehash: 23f28c2071063e2729deb54eea9703a7699e3e07
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: de70e131526033b46b69359a231b158d93accfbf
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858240"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396455"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定 Persistent Chat Server 的規範服務
 
-**摘要：** 瞭解如何在商務用 Skype Server 2015 中設定 Persistent Chat Server 合規性服務。
+**總結：** 瞭解如何在商務用 Skype Server 2015 中設定 Persistent Chat Server 合規性服務。
 
 持續性聊天規範可讓系統管理員維護持續聊天訊息的封存，以及活動的封存。 規範服務會記錄和封存與每個 Persistent Chat Server 交談相關的資料，包括參與者：
 
@@ -75,7 +75,7 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 
 您可以撰寫自訂介面卡，而不是使用隨 Persistent Chat Server 安裝的 XmlAdapter。 若要完成此工作，您必須提供包含公用類別 (實作了 **IComplianceAdapter** 介面) 的 .NET Framework 組件。 您必須將此元件放在 Persistent Chat Server 集區中每一部伺服器的 Persistent Chat Server 安裝資料夾中。 所有符合此規範的伺服器皆可提供規範資料給您的配接器，但規範伺服器不會提供重複的規範資料給您配接器的多個執行個體。
 
-該介面是在命名空間的 Compliance.dll 元件中定義的  `Microsoft.Rtc.Internal.Chat.Server.Compliance` 。 此介面定義了您自訂介面卡必須實作的兩種方法。
+該介面是在命名空間  `Microsoft.Rtc.Internal.Chat.Server.Compliance` 的 Compliance.dll 元件中定義的。 此介面定義了您自訂介面卡必須實作的兩種方法。
 
 當配接器第一次載入時，Persistent Chat 規範伺服器會呼叫下列方法。 `AdapterConfig`包含與規範介面卡相關的 Persistent Chat 相容性設定：
 
@@ -83,7 +83,7 @@ Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAM
 void SetConfig(AdapterConfig config)
 ```
 
-只要有要翻譯的新資料，Persistent Chat 規範伺服器便會以週期性的間隔呼叫下列方法。 此時間間隔相當於  `RunInterval` Persistent Chat 規範設定中的設定：
+只要有要翻譯的新資料，Persistent Chat 規範伺服器便會以週期性的間隔呼叫下列方法。 此時間間隔相當於 Persistent Chat 規範設定中的  `RunInterval` 設定：
 
 ```cpp
 void Translate(ConversationCollection conversations)

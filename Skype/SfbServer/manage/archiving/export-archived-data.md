@@ -1,8 +1,8 @@
 ---
 title: 匯出商務用 Skype Server 中的封存資料
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
 description: 摘要：瞭解如何匯出商務用 Skype Server 的封存資料。
-ms.openlocfilehash: ef9ffca2612adb088f9d06cdbaad809f72278595
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d31d1abb5d4c194b891cf4c45a38f723e5ea2d4b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856780"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402957"
 ---
 # <a name="export-archived-data-in-skype-for-business-server"></a>匯出商務用 Skype Server 中的封存資料
 
-**摘要：** 瞭解如何匯出商務用 Skype Server 的封存資料。
+**總結：** 瞭解如何匯出商務用 Skype Server 的封存資料。
   
 封存資料庫中封存的資料無法以可讀取的格式進行搜尋，但是您可以使用 **Export-CsArchivingData** Cmdlet 從資料庫中解壓縮記錄，並將其儲存為 Outlook 的電子郵件 (.eml) 檔案。
   

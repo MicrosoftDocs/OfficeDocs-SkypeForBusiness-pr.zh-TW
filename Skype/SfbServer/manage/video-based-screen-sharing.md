@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 視訊的螢幕畫面分享
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/20/2018
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: '商務用 Skype Server 以影片為基礎的螢幕共用 (VbSS 的規劃和設定資訊) '
-ms.openlocfilehash: ff8dc9e21ab4b00741acca5dcc4ac972e5d13e68
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0eb381504e797879d9e4235d7ae9cce69f1a468c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859970"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396425"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>商務用 Skype Server 視訊的螢幕畫面分享 
  
@@ -52,8 +52,8 @@ KB3061064 中的2015商務 Skype 用影片畫面 (VbSS) 現在可供下載：[�
 
 |**伺服器角色**|**服務名稱**|**埠或埠範圍**|**Protocol** (通訊協定)|**附註**|
 |:-----|:-----|:-----|:-----|:-----|
-|前端伺服器  <br/> |商務用 Skype Server應用程式共用服務  <br/> |5065  <br/> |TCP  <br/> |用於應用程式共用的傳入 SIP 聆聽要求。  <br/> |
-|前端伺服器  <br/> |商務用 Skype Server應用程式共用服務  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |用於應用程式共用的媒體埠範圍。  <br/> |
+|前端伺服器  <br/> |商務用 Skype Server 應用程式共用服務  <br/> |5065  <br/> |TCP  <br/> |用於應用程式共用的傳入 SIP 聆聽要求。  <br/> |
+|前端伺服器  <br/> |商務用 Skype Server 應用程式共用服務  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |用於應用程式共用的媒體埠範圍。  <br/> |
    
 **必要的用戶端埠**
 

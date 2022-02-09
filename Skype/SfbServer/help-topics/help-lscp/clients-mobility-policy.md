@@ -1,8 +1,8 @@
 ---
 title: 用戶端行動性原則
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 description: 「用戶端行動性原則」頁面會顯示您可在部署中使用的行動性原則。
-ms.openlocfilehash: 3319d6c409efb3d4a0e7d8924e934a05f9d5a6d7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: cf474fb1cccb6458c7cb9d015228fc3d12a9fd57
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838755"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410286"
 ---
 # <a name="clients-mobility-policy"></a>用戶端：行動性原則
 
@@ -44,11 +44,11 @@ ms.locfileid: "60838755"
 
 - **搜尋欄位** 在文字方塊中輸入字串以篩選顯示的原則。
 
-- **新** 按一下 [ **新增**]，然後選取 [ **網站** ] 或 [ **使用者** ] 以建立新的行動性原則。
+- **新增功能** 按一下 [ **新增**]，然後選取 [ **網站** ] 或 [ **使用者** ] 以建立新的行動性原則。
 
 - **編輯** 選取原則，然後按一下 [ **編輯** ] 以編輯所選取原則的屬性。
 
-- **Refresh** 重新整理顯示的原則清單。 當 **您按一下 [** 重新整理] 時，會清除搜尋篩選字串並顯示所有現有的原則。
+- **刷新** 重新整理顯示的原則清單。 當 **您按一下 [** 重新整理] 時，會清除搜尋篩選字串並顯示所有現有的原則。
 
 如需設定行動性原則的詳細資訊，請參閱＜[Configuring Mobility Policy](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-mobility-policy)＞。
 

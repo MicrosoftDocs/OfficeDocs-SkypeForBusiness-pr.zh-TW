@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 2015 的伺服器需求
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 摘要：使用本主題準備您的商務用 Skype Server 2015 server。 硬體、作業系統、資料庫、軟體、所有系統需求與建議，以協助確保成功安裝及部署您的伺服器陣列。
-ms.openlocfilehash: f12dcd955f044e626deda5e8e21fec00e53b876c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 36b9731602dc5fd753dbc2d0ca54e88cb212c5ad
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860950"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398717"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>商務用 Skype Server 2015 的伺服器需求
  
-**摘要：** 使用本主題準備您的商務用 Skype Server 2015 server。 硬體、作業系統、資料庫、軟體、所有系統需求與建議，以協助確保成功安裝及部署您的伺服器陣列。
+**總結：** 使用本主題準備您的商務用 Skype Server 2015 server。 硬體、作業系統、資料庫、軟體、所有系統需求與建議，以協助確保成功安裝及部署您的伺服器陣列。
 
 如果您正在尋找環境需求（例如 Active Directory、DNS 或憑證），您可以查看商務用 Skype Server 2015 doc 檔的[環境需求](environmental-requirements.md)。
   
@@ -70,9 +70,9 @@ Edge Server、獨立轉送伺服器、影片 Interop 伺服器及 Director 的�
   
 |&nbsp;|&nbsp;|
 |:-----|:-----|
-|Windows伺服器 2019 (您需要商務用 Skype 累積更新9或更新版本) 。  |Windows Server 2016 (需要商務用 Skype 累計更新5或更新版本。 如需詳細資訊，請檢查 [KB4015888](https://support.microsoft.com/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))    |
-|Windows Server 2012已安裝所有必要更新的 R2 資料中心作業系統。   |Windows Server 2012已安裝所有必要更新的 R2 Standard 作業系統。   |
-|Windows Server 2012 Datacenter安裝所有必要更新的作業系統。   |Windows Server 2012 Standard安裝所有必要更新的作業系統。   |
+|Windows Server 2019 (您需要商務用 Skype 累積更新9或更新版本) 。  |Windows Server 2016 (需要商務用 Skype 累計更新5或更新版本。 如需詳細資訊，請檢查 [KB4015888](https://support.microsoft.com/help/4015888/how-to-install-skype-for-business-server-2015-on-windows-server-2016))    |
+|Windows Server 2012 已安裝所有必要更新的 R2 資料中心作業系統。   |Windows Server 2012 已安裝所有必要更新的 R2 Standard OS。   |
+|安裝所有必要更新的 Windows Server 2012 Datacenter 作業系統。   |安裝所有必要更新的 Windows Server 2012 Standard 作業系統。   |
    
 如果不在此清單上，則不會正確運作，請不要嘗試商務用 Skype Server 2015 的新安裝。
 
@@ -80,7 +80,7 @@ Edge Server、獨立轉送伺服器、影片 Interop 伺服器及 Director 的�
 > Lync Server 2013 不支援就地升級作業系統。 您必須部署個別的集區，並將使用者遷移至具有不同作業系統的新集區。 集區中的所有伺服器都必須具有相同的 OS 版本。
   
 > [!NOTE]
-> 您可能已注意到 Windows Server 2008 R2 不在此清單上。 這是因為建議您 Windows Server 2012 R2 用於 SFB 的所有新伺服器。 當您已安裝具有 Lync Server 2013 的現有伺服器時，您應該只使用 Windows Server 2008 R2，而且您要進行就地升級。 Windows伺服器 2008 R2 已到達1/13/2015 的主流支援生命週期結尾，並會在1/14/2020 上達成其支援週期的結束。
+> 您可能已注意到 Windows Server 2008 R2 不在此清單上。 這是因為建議您 Windows Server 2012 R2 用於 SFB 的所有新伺服器。 當您已安裝具有 Lync Server 2013 的現有伺服器時，您應該只使用 Windows Server 2008 R2，而且您要進行就地升級。 Windows Server 2008 R2 已達1/13/2015 的主流支援週期結束，並會在1/14/2020 上達到其支援生命週期的結尾。
   
 除了最新的 service pack 之外，您還需要確定已安裝下列更新（如有相關的更新）：
   
@@ -122,7 +122,7 @@ Edge Server、獨立轉送伺服器、影片 Interop 伺服器及 Director 的�
     
 不需要 Microsoft Message 佇列。
     
-您將需要設定封存儲存的基礎結構。 這包括使用 SQL Server 選擇 Exchange 或封存儲存區。   商務用 Skype Server封存基礎結構需求與部署商務用 Skype Server 相同。 如需詳細資訊，請參閱[商務用 Skype 環境的需求](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)。 
+您將需要設定封存儲存的基礎結構。 這包括使用 SQL Server 選擇 Exchange 或封存儲存區。   商務用 Skype Server 的封存基礎結構需求與部署商務用 Skype Server 相同。 如需詳細資訊，請參閱[商務用 Skype 環境的需求](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md)。 
   
 > [!NOTE]
 > 若要支援非位於 Exchange server 上的使用者，或是不想要使用 Microsoft Exchange 整合選項，您必須使用64位 SQL Server 資料庫部署封存儲存區。 
@@ -131,9 +131,9 @@ Edge Server、獨立轉送伺服器、影片 Interop 伺服器及 Director 的�
     
 封存的負載增加可能會很大。 因此，您應該確定啟用封存之前端伺服器的磁碟空間已夠用。
 
-### <a name="sql-mirroring-sql-clustering-and-sql-always-on"></a>SQL鏡像、SQL 聚簇和 SQL Always On
+### <a name="sql-mirroring-sql-clustering-and-sql-always-on"></a>SQL 鏡像、SQL 集群及 SQL Always On
 
-您可以使用 SQL 鏡像或 SQL 使用商務用 Skype Server 2015 的叢集，支援此功能。 SQL鏡像是透過商務用 Skype Server 拓撲產生器來設定。 如果您想要設定 SQL 叢集，請在 SQL Server 中完成。
+您可以使用 SQL 鏡像或 SQL 使用商務用 Skype Server 2015 的叢集，支援此功能。 SQL 鏡像是透過商務用 Skype Server 拓撲產生器來設定。 如果您想要設定 SQL 叢集，請在 SQL Server 中完成。
   
 請確定您有 SQL 叢集的主動/被動設定，如此一來，what's 支援。 請勿與其他任何 SQL 實例共用被動節點。
   
@@ -172,7 +172,7 @@ Edge Server、獨立轉送伺服器、影片 Interop 伺服器及 Director 的�
 > 2015版本的新功能支援 SQL Always On。 您也可以在[商務用 Skype Server 2015 主題的後端伺服器高可用性中](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)閱讀相關資訊。
 
 > [!NOTE]
-> SQL鏡像可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) 及 SQL 容錯移轉叢集方法，都是商務用 Skype Server 2019 的首選。  
+> SQL 鏡像可用於商務用 Skype Server 2015，但在商務用 Skype Server 2019 中已不再支援。 AlwaysOn 可用性群組、AlwaysOn 容錯移轉叢集實例 (FCI) 及 SQL 容錯移轉叢集方法，都是商務用 Skype Server 2019 的首選。  
 
 ## <a name="software-that-should-be-installed-before-a-skype-for-business-server-2015-deployment"></a>在商務用 Skype Server 2015 部署之前應該安裝的軟體
 <a name="Software"> </a>
@@ -184,7 +184,7 @@ Edge Server、獨立轉送伺服器、影片 Interop 伺服器及 Director 的�
   
 |軟體/角色|詳細資料|
 |:-----|:-----|
-|Windows PowerShell 3.0   |所有商務用 Skype Server 伺服器都需要安裝 Windows PowerShell 3.0。  <br/> •如果您是在 Windows Server 2012 或 Windows Server 2012 R2 上進行安裝，您已設定，因為已存在。  <br/> •如果您是在 Windows Server 2008 R2 上進行升級，您可以下載[Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595)以取得。 <br/> **秘訣：** 當您在該 PowerShell 上有正確的，請移至 PowerShell 提示字元並輸入，以確認 BuildVersion 6.2.9200.0 或更新版本 `$PSVersionTable` 。 這應該會顯示您需要的資訊。   |
+|Windows PowerShell 3.0   |所有商務用 Skype Server 伺服器都需要安裝 Windows PowerShell 3.0。  <br/> •如果您是在 Windows Server 2012 或 Windows Server 2012 R2 上進行安裝，您已設定，因為已存在。  <br/> •如果您是在 Windows Server 2008 R2 上進行升級，您可以下載[Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595)以取得。 <br/> **提示：** 當您在該 PowerShell 上有正確的，請移至 PowerShell 提示字元並輸入 `$PSVersionTable` ，以確認 BuildVersion 6.2.9200.0 或更新版本。 這應該會顯示您需要的資訊。   |
 |Microsoft .NET Framework   |WCF 服務是安裝成 Windows 功能的 **功能**，在 [**伺服器管理員**] 下，不需要下載。 <br/> •您必須確定當您安裝此功能時，或是否已安裝此功能，也會檢查並安裝 **HTTP 啟用** 選項，如下所示： <br/> ![顯示 [.NET Framework 4.5 功能] 底下的 [HTTP 啟用] 選項的螢幕擷取畫面。](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> 如果您還有其他的彈出提示，請不要擔心，您必須安裝一些其他事項，才能安裝 HTTP 啟用。 這是正常的，請按一下 [確定] 並繼續。 如果您未看到此快顯視窗，請假設已安裝這些專案，然後繼續。  <br/> 安裝 Windows Server 2012 R2 或 Windows Server 2016 時，通常會安裝 Microsoft .NET Framework。 商務用 Skype Server 與下列 Microsoft .NET Framework 版本搭配使用：  <br/> • .NET 3。5  <br/> • .NET 4。5  <br/> • .NET 4.6 x  <br/> •適用于商務用 Skype Server CU 5 或更新版本的 .net 4.7.1 ()   <br/> •適用于商務用 Skype Server CU 6 或更新版本的 .net 4.7.2 版 ()   <br/>  •適用于商務用 Skype Server CU 9 或更新版本的 .net 4.8 ()  <br/>  .NET Framework 3.5 可能預設會安裝在您的 Windows Server 2008 R2 電腦上 (在升級) 之前，請務必檢查，但實際上不會在 Windows Server 2012/Windows Server 2012 R2 server (上安裝) 的新安裝。 若要將其加入，您必須存取安裝磁片磁碟機或媒體 (Windows 伺服器安裝所在的位置，或是現在) 安裝檔。 接下來，將其安裝為伺服器管理員的功能，並指向安裝媒體 (特別是在要求時) **\sources\sxs** 資料夾，然後繼續安裝。  |
 |媒體基礎   |Windows Server 2016，請 Windows Server 2012 和 Windows Server 2012 R2 Windows 媒體格式執行時間與 Microsoft Media Foundation 一起安裝。  <br/> 用於會議的所有前端伺服器和 Standard Edition 伺服器都必須 Windows 媒體格式執行時間，才能執行 Windows 媒體音訊 () 。通話駐留、宣告及回應群組應用程式會對宣告和音樂播放的檔案。   |
 |Windows Identity Foundation  <br/> |我們需要 Windows 身分識別 Foundation 3.5，以支援商務用 Skype Server 2015 的伺服器對伺服器驗證案例。  <br/> •針對 Windows Server 2012 和 Windows Server 2012 R2，不需要下載任何專案。 開啟 [ **伺服器管理員**]，然後移至 [ **新增角色及功能] 嚮導**。 **Windows 身分識別 Foundation 3.5** 會列于 [**功能**] 區段中。 如果已勾選，表示您已是好的。 否則選取它，然後按一下 [下一步] 進入 [ **安裝** ] 按鈕。  |

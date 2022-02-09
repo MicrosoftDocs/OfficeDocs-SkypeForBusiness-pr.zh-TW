@@ -1,8 +1,8 @@
 ---
 title: 規劃商務用 Skype Server 中的企業語音解決方案
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 摘要：瞭解在商務用 Skype Server 中規劃整合語音和通訊解決方案的選項。
-ms.openlocfilehash: 71fc511d6c435ab6b1cd5f553d668acd2fb606a7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 500a34784ea94e16b5531bc94adf222047998a64
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829857"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409886"
 ---
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>規劃商務用 Skype Server 中的企業語音解決方案
  
-**摘要：** 深入瞭解在商務用 Skype Server 中規劃整合語音和通訊解決方案的選項。
+**總結：** 深入瞭解在商務用 Skype Server 中規劃整合語音和通訊解決方案的選項。
   
 商務用 Skype Server 提供兩個內部部署企業語音選項（企業語音和呼叫透過工作），讓您將組織的電話系統與您的商務用 Skype Server 部署整合，以進行真正的整合通訊解決方案。 這兩個選項可讓使用者使用商務用 Skype 用戶端，在組織內部和外部，使用其他使用者來啟動語音電話。
   

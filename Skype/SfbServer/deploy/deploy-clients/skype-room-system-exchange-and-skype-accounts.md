@@ -1,7 +1,7 @@
 ---
 title: 布建 Skype 房間系統 Exchange 和 Skype 帳戶
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
 description: 請閱讀下列主題，以瞭解如何布建 Exchange 和 Skype 帳戶 Skype 的會議室系統。
-ms.openlocfilehash: fe92f11882ae2d4dcd3ddd509f747f310fd25e6f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: efc553924ed6631ad3583dd79d616b7ee0a7f050
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837385"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399947"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>布建 Skype 房間系統 Exchange 和 Skype 帳戶
  
@@ -28,9 +28,9 @@ ms.locfileid: "60837385"
 > Microsoft Teams 會議室不同的產品，具有不同的相依性和部署程式。 如需 Microsoft Teams 會議室的詳細資訊，請參閱 Microsoft Teams 會議室[部署概述](/MicrosoftTeams/rooms/rooms-deploy)。
   
 > [!NOTE]
-> Skype會議室系統帳戶布建取決於您的組織所擁有的拓撲類型。 若要瞭解 Active Directory 拓撲的詳細資訊，請參閱[商務用 Skype Server 2015 的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。 
+> Skype 會議室系統帳戶布建取決於您的組織所擁有的拓撲類型。 若要瞭解 Active Directory 拓撲的詳細資訊，請參閱[商務用 Skype Server 2015 的環境需求](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md)。 
   
-## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Exchange 商務用 Skype 帳戶布建 Skype 房間系統 &amp;
+## <a name="provisioning-of-skype-room-system-exchange-amp-skype-for-business-accounts"></a>Exchange &amp; 商務用 Skype 帳戶布建 Skype 房間系統
 
 下列主題說明如何布建及管理 Skype 的會議室系統 Exchange 和商務用 Skype 帳戶：
   
@@ -42,6 +42,6 @@ ms.locfileid: "60837385"
     
 - 混合式部署
     
-- Skype會議室系統和商務用 Skype 同盟合作夥伴
+- Skype 會議室系統和商務用 Skype 同盟協力廠商
     
 - 管理 Skype 會議室系統帳戶

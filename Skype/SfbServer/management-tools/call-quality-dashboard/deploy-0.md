@@ -1,8 +1,8 @@
 ---
 title: 為商務用 Skype Server 部署通話品質儀表板
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 摘要：瞭解通話品質儀表板的部署程式。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: 87caf5566c509580c211f68b685a868de2d2df58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: be6164c7b73a80c0557ea0814efddf59214a5481
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829917"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396345"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>為商務用 Skype Server 部署通話品質儀表板
  
-**摘要：** 瞭解通話品質儀表板的部署程式。 通話品質儀表板是商務用 Skype Server 的工具。
+**總結：** 瞭解通話品質儀表板的部署程式。 通話品質儀表板是商務用 Skype Server 的工具。
   
 ## <a name="deployment-overview"></a>部署概述
 
@@ -72,7 +72,7 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
     
    - **QoE 封存 SQL Server 名稱：** 這是唯讀欄位，且固定為本機電腦的完整功能變數名稱。 封存資料庫只能安裝在本機電腦上。
     
-   - **QoE 封存 SQL Server 實例：** 本機 SQL Server 實例名稱，用來建立封存資料庫的位置。 若要使用預設的 SQL Server 實例，請將此欄位保留空白。 若要使用命名的 SQL Server 實例，請指定實例名稱 (例如 ") 之後的名稱。 \"
+   - **QoE 封存 SQL Server 實例：** 用以建立封存資料庫的本機 SQL Server 實例名稱。 若要使用預設的 SQL Server 實例，請將此欄位保留空白。 若要使用命名的 SQL Server 實例，請指定實例名稱 (例如 " \") 之後的名稱。
     
    - **QoE 封存資料庫：** 根據預設，此選項會設定為「建立新資料庫」。 由於不支援封存資料庫升級，因此如果現有的封存資料庫與要安裝的組建具有相同的架構，則可以使用「使用現有資料庫」選項的唯一情形。
     
@@ -83,9 +83,9 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
      > [!NOTE]
      > 在安裝程式完成後，無法變更 [使用多個分割區] 選項的選取範圍。 為了進行變更，必須先卸載 Cube 功能，然後使用 [控制台] 中的 [變更] 選項重新安裝。 
   
-   - **分割區檔案目錄：** QoE 封存資料庫的磁碟分割應位於何處的路徑。 這應該是在建議的硬體設定) 中 (HDD3，與 OS 磁片磁碟機和 SQL 資料庫記錄檔磁片磁碟機分開。 請注意，因為檔案名已在安裝中修復，所以建議您不要使用沒有檔案的空白目錄。
+   - 分割區檔案 **目錄：** QoE 封存資料庫的磁碟分割應位於何處的路徑。 這應該是在建議的硬體設定) 中 (HDD3，與 OS 磁片磁碟機和 SQL 資料庫記錄檔磁片磁碟機分開。 請注意，因為檔案名已在安裝中修復，所以建議您不要使用沒有檔案的空白目錄。
     
-   - **SQL 代理程式工作使用者-使用者名稱 &amp;密碼：** 網域服務帳戶名稱和密碼 (已遮罩) ，用來執行 SQL Server 代理程式工作的「QoE 封存資料」步驟 (這會執行預存程式，以從 QoE 度量 db 將資料提取至封存資料庫，所以此帳戶必須具有 QoE 度量 db 的「讀取」存取權，如 [帳戶] 區段中所示。 此帳戶在 QoE 封存 SQL Server 實例) 中也需要登入。
+   - **SQL 代理程式工作使用者-使用者名稱 &amp; 密碼：** 網域服務帳戶名稱和密碼)  (所用來執行 SQL Server 代理程式工作的「QoE 封存資料」步驟 (這會執行預存程式，以從 QoE 度量 db 中取得資料，以取得封存資料庫中的資料，所以此帳戶必須具有 QoE 度量 db 的讀取權限。 依照 [帳戶] 區段中的指示。 此帳戶在 QoE 封存 SQL Server 實例) 中也需要登入。
     
      > [!NOTE]
      > 在執行 SQL Server 實例的帳戶（如 NT SERVICE\MSSQLSERVER）必須具有上述所述目錄的存取權/許可權，安裝才會成功。 如需詳細資訊，請參閱[設定資料庫引擎存取的檔案系統許可權](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
@@ -99,7 +99,7 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
     
    - **QoE 封存 SQL Server 名稱：** 這是唯讀欄位，且固定為本機電腦的完整功能變數名稱。 Cube 只能從 QoE 封存資料庫 (附注的機器安裝。 Cube 本身可以安裝在遠端電腦上。 請參閱下文) 
     
-   - **QoE Archive SQL Server instance：** SQL Server QoE 封存 DB 所在位置的實例名稱。 若要指定預設的 SQL Server 實例，請將此欄位保留空白。 若要指定命名的 SQL Server 實例，請輸入實例名稱 (例如 ") 之後的名稱。 \" 如果已選取 [QoE 封存元件] 進行安裝，此欄位將預先填入 QoE 封存設定] 頁面上提供的值。
+   - **QoE Archive SQL Server instance：** SQL Server QoE 封存 DB 所在位置的實例名稱。 若要指定預設的 SQL Server 實例，請將此欄位保留空白。 若要指定命名的 SQL Server 實例，請輸入實例名稱 (例如 " \") 之後的名稱。 如果已選取 [QoE 封存元件] 進行安裝，此欄位將預先填入 QoE 封存設定] 頁面上提供的值。
     
    - **cube 分析伺服器：** SQL Server Analysis Service 實例名稱，以供建立 Cube 的位置。 這可以是不同的機器，但是安裝使用者必須是目標 SQL Server Analysis Service 實例之伺服器管理員的成員。
     
@@ -184,7 +184,7 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
     
      ![部署通話品質儀表板-設定編輯器。](../../media/a7c127f5-9a90-4710-afba-1d1e588efb37.png)
   
-4. 按一下 **頁面** 右側的 [套用]。
+4. **按一下頁面** 右側的 [套用]。
     
 ## <a name="known-issues"></a>已知問題
 
@@ -233,7 +233,7 @@ Cube 部署會取得來自 QoE 封存所在位置之使用者的資訊、部署 
   
 在 IIS 中啟用 SSL/TLS，並強制使用者透過安全 HTTPS 進行連線，而不是 HTTP:
   
-1. 在 IIS 中設定安全通訊端層，請參閱 [在 iis 7 中設定安全通訊端層](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771438(v=ws.10))。 完成後，請  `http` 取代 `https` 。
+1. 在 IIS 中設定安全通訊端層，請參閱 [在 iis 7 中設定安全通訊端層](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc771438(v=ws.10))。 完成後，請取代  `http` `https` 。
     
 2. 如需在 SQL Server 連線中啟用 TLS 的相關指示，請參閱 how [to 使用 Microsoft Management Console 為 SQL Server 實例啟用 SSL 加密](https://support.microsoft.com/kb/316898/)。
     

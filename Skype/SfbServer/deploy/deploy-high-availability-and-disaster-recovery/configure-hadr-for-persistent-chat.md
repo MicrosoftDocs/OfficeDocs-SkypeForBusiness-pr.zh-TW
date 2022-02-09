@@ -1,8 +1,8 @@
 ---
 title: 商務伺服器2015：設定 Persistent Chat Server 的高可用性和嚴重損壞修復
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 瞭解如何在商務用 Skype Server 2015 中設定 Persistent Chat Server 的高可用性和嚴重損壞修復。
-ms.openlocfilehash: 4a214dedacdd38b875db93dc5e2b13f35d640169
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b98f4c49cb3643faa6d6bbe7b899634a4ef6b159
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829447"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397456"
 ---
 # <a name="business-server-2015-configure-high-availability-and-disaster-recovery-for-persistent-chat-server"></a>商務伺服器2015：設定 Persistent Chat Server 的高可用性和嚴重損壞修復
  
-**摘要：** 閱讀此主題以瞭解如何在商務用 Skype Server 2015 中設定 Persistent Chat Server 的高可用性和嚴重損壞修復。
+**總結：** 閱讀此主題以瞭解如何在商務用 Skype Server 2015 中設定 Persistent Chat Server 的高可用性和嚴重損壞修復。
   
 商務用 Skype Server 支援後端伺服器（包括資料庫鏡像）的多種高可用性模式。 如需詳細資訊，請參閱[商務用 Skype Server 2015 的高可用性和嚴重損壞修復方案](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)。
   
@@ -146,7 +146,7 @@ ms.locfileid: "60829447"
     
 19. 在新增查詢視窗的 **[資料庫屬性]** 中，按一下 **[確定]** 開始設定程序。
     
-20. 選取並執行查詢的前半部 (請參閱 step 18) 至行：-- \* \* \* \* \* \* End： Script to 執行主要： \* \* \* \* \* \* 。
+20. 選取並執行查詢的前半部 (請參閱 step 18) 至行：-- \* \* \* \* \* \* End： Script to 執行主要：。 \* \* \* \* \* \*
     
     > [!IMPORTANT]
     > 手動執行此腳本是必要的，因為 SQL Server Management Studio 不支援 SQL Server 記錄傳送設定中的多個主資料庫。 

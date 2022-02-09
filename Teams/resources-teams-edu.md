@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams：教育系統管理員的資源
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cabaace50bea563ac2803c33f2b302f2f326bfa4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2f0b8f1f070d48c30413f3d89e54b9344c54cafb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865662"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409836"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>適用於 Microsoft Teams 教育版管理員的資源
 
@@ -42,7 +42,7 @@ ms.locfileid: "60865662"
 |---------|---------|
 |海報 - [可自訂](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) 且 [可列印](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![海報的相片。](media/edu-adoption-posters.png)     |[講義](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![講義的相片](media/edu-adoption-handouts.png)|
 |[傳單](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![傳單的相片。](media/edu-adoption-flyers.png)   |[書籍廣告](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![書籍廣告的相片。](media/edu-adoption-book-adverts.png)         |
-|[提示和訣竅摺頁冊的相片。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![範例摺頁冊的相片。](media/edu-adoption-get-started.png)    |
+|[相片提示和訣竅摺頁冊。](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![範例摺頁冊的相片。](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>數位資產
 
@@ -56,9 +56,9 @@ ms.locfileid: "60865662"
 
 ## <a name="call-to-action"></a>行動信號
 
-- 請流覽[](https://www.microsoft.com/en-us/education/products/teams/default.aspx) Teams 教育版頁面以觀看訓練、影片和互動式示範
-- 在 Teams 中開啟[Microsoft 365 系統管理中心 (](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)以系統管理員Office 365) 
-- 下載Teams用戶端[：Teams所有裝置上取得](https://teams.microsoft.com/downloads)
+- 請[流覽 Teams 教育版](https://www.microsoft.com/en-us/education/products/teams/default.aspx)頁面以觀看訓練、影片和互動式示範
+- 在 Teams 中開啟Microsoft 365 系統管理中心[ (](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns)以系統管理員Office 365) 
+- 下載Teams用戶端[：取得Teams所有裝置上的資訊](https://teams.microsoft.com/downloads)
 - 在教育Office 365中心深入瞭解[教育課程](https://support.office.com/education)
 
 ## <a name="additional-resources"></a>其他資源

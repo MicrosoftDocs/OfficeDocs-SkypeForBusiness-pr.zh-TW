@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中查看使用者 PIN 碼資訊
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 摘要：在商務用 Skype Server 中查看使用者 PIN 資訊。
-ms.openlocfilehash: 7be0bb49cf1c11d2c9aa18a73aa37dd124d7fb00
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bde3ef11a3f7dad19a26b577ec6464cb3cb7619f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846456"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62407345"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>在商務用 Skype Server 中查看使用者 PIN 碼資訊
  
-**摘要：** 在商務用 Skype Server 中查看使用者 PIN 碼資訊。
+**總結：** 在商務用 Skype Server 中查看使用者 PIN 碼資訊。
   
 若要將電話撥入式會議加入為已驗證的使用者，具有 Active Directory 網域服務 (AD DS) 認證的商務用 Skype Server 使用者必須有個人識別碼 (PIN) 。 您可以從商務用 Skype Server 控制台] 中查看使用者的 PIN 碼資訊。
   

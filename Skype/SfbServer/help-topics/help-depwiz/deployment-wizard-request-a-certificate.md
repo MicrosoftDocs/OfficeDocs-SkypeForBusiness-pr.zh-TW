@@ -1,8 +1,8 @@
 ---
 title: 部署嚮導要求憑證
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
 description: 如需使用部署嚮導安裝商務用 Skype Server 2015 的詳細資訊，請參閱 install 商務用 Skype Server 2015。
-ms.openlocfilehash: 305831d4b4f7163842789b903195976ed7bf8c84
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f2a20e478c15dee66d576f953ad24bbc444a380e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852517"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396887"
 ---
 # <a name="deployment-wizard-request-a-certificate"></a>部署精靈：要求憑證
  

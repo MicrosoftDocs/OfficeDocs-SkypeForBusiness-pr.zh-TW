@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中管理健康情況與監控
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 摘要：瞭解商務用 Skype Server 中的監控與健康情況設定工作。
-ms.openlocfilehash: 1ca2f553a4b438b4aaaa6d16d98dc575705d4b0d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fb3c0135b8874cabed1e7e40adea2c8116bbdd41
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837545"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402947"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>在商務用 Skype Server 中管理健康情況與監控
 
-**摘要：** 深入瞭解商務用 Skype Server 中的監控與健康情況設定工作。
+**總結：** 深入瞭解商務用 Skype Server 中的監控與健康情況設定工作。
 
 本節中的主題會針對您可以在商務用 Skype Server 控制台和商務用 Skype Server 管理命令介面中執行的監控和健康情況設定工作，提供逐步程式。
 

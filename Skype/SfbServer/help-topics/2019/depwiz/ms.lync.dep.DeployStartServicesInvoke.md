@@ -1,8 +1,8 @@
 ---
 title: 啟動服務 (叫用)
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 ROBOTS: NOINDEX, NOFOLLOW
 description: '[執行命令] 窗格上的 [摘要] 窗格會顯示所發出之工作的狀態，以啟動您要部署之商務用 Skype Server 角色服務器的服務。'
-ms.openlocfilehash: 4e1dcf8a9118e21bff1ebaeaa0816c7ea0c9fc75
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e863c763047f018e57f4d880a8de81db1cb544df
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856190"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401497"
 ---
 # <a name="start-services-invoke"></a>啟動服務 (叫用)
  

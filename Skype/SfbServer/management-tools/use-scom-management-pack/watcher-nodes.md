@@ -1,8 +1,8 @@
 ---
 title: 如何安裝及設定觀察程式節點
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/20/2015
 audience: ITPro
@@ -14,24 +14,24 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 說明為商務用 Skype Server 綜合交易安裝及設定監視節點的程式。
-ms.openlocfilehash: 9b0faf7f449bf75083d3b83e40c7807207ad51a1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 34ab33bb486e3bc9973632c108e6eccf33bec481
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833087"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396676"
 ---
 # <a name="learn-to-install-configure-watcher-nodes"></a>瞭解如何安裝、設定觀察程式節點
  
-**摘要：** 為商務用 Skype Server 綜合交易安裝及設定監視節點。
+**總結：** 為商務用 Skype Server 綜合交易安裝及設定監視節點。
   
 觀察程式節點是定期執行商務用 Skype Server 綜合交易的電腦。 綜合交易是 Windows PowerShell Cmdlet，用來驗證主要使用者案例，例如登入或 exchange 立即訊息的功能是否如預期般運作。 針對商務用 Skype Server 2015，System Center Operations Manager 可以執行下表所示的綜合交易，包含三個綜合交易類型：
   
-- **預設值** 監視節點預設會執行的綜合交易。 當您建立新的監看員節點時，您可以指定要執行節點的綜合交易。  (New-CsWatcherNodeConfiguration 指令程式所使用之測試參數的目的。 ) 如果在建立監看員節點時未使用 [測試] 參數，它會自動執行所有預設的綜合交易，而且不會執行任何非預設的綜合交易。 例如，這表示會將監視節點設定為執行 Test-CsAddressBookService 測試，但不會設定為執行 Test-CsExumConnectivity 測試。
+- **預設** 監視節點預設會執行的綜合交易。 當您建立新的監看員節點時，您可以指定要執行節點的綜合交易。  (New-CsWatcherNodeConfiguration 指令程式所使用之測試參數的目的。 ) 如果在建立監看員節點時未使用 [測試] 參數，它會自動執行所有預設的綜合交易，而且不會執行任何非預設的綜合交易。 例如，這表示會將監視節點設定為執行 Test-CsAddressBookService 測試，但不會設定為執行 Test-CsExumConnectivity 測試。
     
 - **非預設** 測試觀察程式節點預設不會執行。  (如需詳細資訊，請參閱預設類型的描述。 ) 不過，可以啟用監視節點來執行任何非預設的綜合交易。 當您使用 New-CsWatcherNodeConfiguration Cmdlet) ，或在建立監看員節點之後的任何時間建立監看員 (節點時，您就可以這麼做。 請注意，許多非預設的綜合交易都需要額外的設定步驟。 如需這些步驟的詳細資訊，請參閱 [綜合交易的特殊設定指示](test-users-and-settings.md#special_synthetictrans)。
     
-- **擴充** 非預設綜合交易的特殊類型。 與其他綜合交易不同的是，延伸測試在每個行程中可以執行多次。 這在驗證行為時非常有用，例如多個公用交換電話網路 (PSTN) 的集區的語音路由。 您可以將多個擴充測試實例新增至監看員節點，以進行設定。
+- **擴展** 非預設綜合交易的特殊類型。 與其他綜合交易不同的是，延伸測試在每個行程中可以執行多次。 這在驗證行為時非常有用，例如多個公用交換電話網路 (PSTN) 的集區的語音路由。 您可以將多個擴充測試實例新增至監看員節點，以進行設定。
     
 如需有關將其他綜合交易新增至監視節點之程式的詳細資訊，請參閱 [Configure a 監 The node To Run 綜合交易](watcher-nodes.md#enable_synthetic_trans)。 您也可以使用商務用 Skype Server 管理命令介面，從監看員節點中移除綜合交易。
   
@@ -56,7 +56,7 @@ ms.locfileid: "60833087"
 |Test-CsExumConnectivity (ExumConnectivity)   <br/> |確認使用者可以連線至 Exchange 整合通訊 (UM) 。  <br/> |
 |Test-CsGroupIM-TestJoinLauncher (JoinLauncher)   <br/> |確認使用者可以使用網址連結) 來建立及加入已排程的會議 (。  <br/> |
 |Test-CsMCXP2PIM (MCXP2PIM)   <br/> |確認行動裝置使用者可以註冊並傳送立即訊息。  <br/> |
-|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)   <br/> |確認影片 Interop 伺服器已開啟，而且可以透過影片 SIP 主幹來處理傳入的連線。  <br/> **附注：** 商務用 Skype Server 2019 不再提供舊版行動用戶端的 MCX 支援。 |
+|Test-CsP2PVideoInteropServerSipTrunkAV (P2PVideoInteropServerSipTrunkAV)   <br/> |確認影片 Interop 伺服器已開啟，而且可以透過影片 SIP 主幹來處理傳入的連線。  <br/> **注意：** 商務用 Skype Server 2019 不再提供舊版行動用戶端的 MCX 支援。 |
 |Test-CsPersistentChatMessage (PersistentChatMessage)   <br/> |確認使用者可以使用 Persistent Chat service 來交換郵件。  <br/> |
 |Test-CsUcwaConference (UcwaConference)   <br/> |確認使用者可以透過 web 加入會議。  <br/> |
 |Test-CsUnifiedContactStore (UnifiedContactStore)   <br/> |確認可以透過整合連絡人存放區來存取使用者的連絡人。 整合連絡人存放區提供一種方式，讓使用者可以使用商務用 Skype Server 2015、Outlook 訊息和共同作業用戶端，以及/或 Outlook Web 存取，來維護一組可以存取的連絡人。  <br/> |
@@ -112,7 +112,7 @@ Lync Server 2013 觀察程式節點可能會部署在企業內部或外部，以
   
 1. 在監看員節點電腦上，依序按一下 [開始]、[所有程式] 及 [附屬應用程式]，再以滑鼠右鍵按一下 [命令提示字元]，然後按一下 [以系統管理員身分執行]。
     
-2. 在主控台視窗中，輸入下列命令，然後按 ENTER 鍵。 請務必輸入商務用 Skype Server 安裝檔案的適當路徑： D:\Setup.exe/BootstrapLocalMgmtTo 確認已成功安裝核心商務用 Skype Server 元件，請依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype Server 2015**]，然後按一下 [**商務用 Skype Server 管理命令** 介面]。 在商務用 Skype Server 管理命令介面中，輸入下列 Windows PowerShell 命令，然後按 enter：
+2. 在主控台視窗中，輸入下列命令，然後按 ENTER 鍵。 請務必輸入商務用 Skype Server 安裝檔案的適當路徑： D:\Setup.exe/BootstrapLocalMgmtTo 確認已成功安裝核心商務用 Skype Server 元件，請依序按一下 [**開始**]、[**所有程式**]、[**商務用 Skype Server 2015**]，然後按一下 **商務用 Skype Server 管理命令** 介面。 在商務用 Skype Server 管理命令介面中，輸入下列 Windows PowerShell 命令，然後按 enter：
   
 ```PowerShell
 Get-CsWatcherNodeConfiguration

@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 2015 中管理 Persistent Chat Server 中的類別
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server 類別。
-ms.openlocfilehash: 86a90143bad43f4bb8a96434885eec741c01f4a4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7d2cb5114b876c5354b3ba47c45f700a5bd62450
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853007"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396465"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中管理 Persistent Chat Server 中的類別
  
-**摘要：** 瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server 類別。
+**總結：** 瞭解如何在商務用 Skype Server 2015 中管理 Persistent Chat Server 類別。
   
 類別是用來組織聊天室的邏輯結構。 類別會定義一組預設的存取控制清單 (ACLs) ，以控制可建立或加入聊天室的使用者和使用者群組。 聊天室類別包含聊天室，但不包含其他類別。 每個類別分別說明其內容與中繼資料，例如「名稱」與「描述」。 類別的屬性可以設定，以控制屬於該類別的聊天室行為。例如，聊天室是否允許邀請或檔案上傳，或包含聊天記錄。 
   

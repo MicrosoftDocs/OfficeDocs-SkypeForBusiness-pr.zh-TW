@@ -1,8 +1,8 @@
 ---
 title: 選取 Exchange UM 自動語音應答
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 description: 使用 [選取 Exchange UM 自動語音應答] 對話方塊，選取 Exchange UM 自動語音應答，該語音應答會將來電處理至未指派號碼的範圍。
-ms.openlocfilehash: 3f48a5d30c167afe3c061fcff3ad4e93080736b2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c53cacb75839759557708eb93118167ca4a5cf08
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850116"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396780"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>選取 Exchange UM 自動語音應答
  

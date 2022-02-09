@@ -1,8 +1,8 @@
 ---
 title: 選取網站
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 ROBOTS: NOINDEX, NOFOLLOW
 description: 使用 [選取網站] 對話方塊，尋找您環境中可用的網站。 若要使用現有的網站，請按一下清單中的網站，再按一下 [確定]。
-ms.openlocfilehash: 5b67542a7848d64db5d76be8c99cddbdee69baf6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ae6026250a4a2be6bcdaeb70b3b5a6e7aecfd4d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849226"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402387"
 ---
 # <a name="select-a-site"></a>選取網站
 

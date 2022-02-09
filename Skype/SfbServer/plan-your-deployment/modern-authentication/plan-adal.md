@@ -1,8 +1,8 @@
 ---
 title: '使用商務用 Skype 規劃新式驗證 (ADAL) '
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 本文說明使用 Active Directory 驗證程式庫 (ADAL) 和 OAuth 2.0) 的新式驗證 (。
-ms.openlocfilehash: 40bf87317b68e258fc6576b1ce7be7b8decc6939
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ca029b4a1f93f5e498df902587bb754247193ab4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834079"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404595"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>如何搭配商務用 Skype 使用新式驗證 (ADAL) 
  

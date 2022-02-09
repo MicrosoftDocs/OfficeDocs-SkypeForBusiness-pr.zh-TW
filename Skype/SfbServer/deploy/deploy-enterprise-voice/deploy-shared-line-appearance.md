@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 2015 中部署共用線路外觀
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: 請閱讀此主題以瞭解如何在 2015 2015 年11月累積更新 (中，以商務用 Skype Server 的 SLA) 部署共用行外觀。 SLA 是一種功能，可用於處理特定號碼（稱為共用號碼）上的多個通話。
-ms.openlocfilehash: e79bb427c28f2c0e8dcc3ff7b5e0d1f6319ac7d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5adf5934e93bd93fe9f50c0a8e4dd790c695da57
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835941"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397483"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中部署共用線路外觀
 
@@ -34,7 +34,7 @@ ms.locfileid: "60835941"
 
 ### <a name="install-shared-line-appearance"></a>安裝共用線路外觀
 
-1. 商務用 Skype Server 後，部署了11月2015累計更新，請 `SkypeServerUpdateInstaller.exe` 在集區中的每一部前端伺服器上執行修補程式。
+1. 商務用 Skype Server 後，部署了11月2015累計更新，請在集區中的每一部前端伺服器上執行 `SkypeServerUpdateInstaller.exe` 修補程式。
 
 2. 安裝程式將會部署最新版本的 SLA 應用程式，但預設不會啟用該應用程式。 遵循下列所述的步驟來啟用它：
 
@@ -118,7 +118,7 @@ ms.locfileid: "60835941"
    Set-CsSlaConfiguration -Identity <IdentityOfGroup> -MissedCallOption <Option> -MissedCallForwardTarget <TargetUserOrPhoneNumber> -BusyOption <Option> -MaxNumberofCalls <#> -Target [Target]
    ```
 
-2. 下列範例會指定將未接來電轉寄給名為的使用者  `sla_forward_number` 。 參數的有效選項  `-MissedCallOption` 是 `Forward` 、  `BusySignal` 或  `Disconnect` 。 如果您選擇  `Forward` ，您也必須包含  `-MissedCallForwardTarget` 參數，並以使用者或電話號碼做為目標：
+2. 下列範例會指定將未接來電轉寄給名為  `sla_forward_number` 的使用者。 參數的有效選項  `-MissedCallOption` 是 `Forward` 、  `BusySignal` 或  `Disconnect` 。 如果您選擇  `Forward` ，您也必須包含  `-MissedCallForwardTarget` 參數，並以使用者或電話號碼做為目標：
 
    ```powershell
    Set-CsSlaConfiguration -Identity SLAGroup1 -MissedCallOption Forward -MissedCallForwardTarget sip:sla_forward_number@contoso.com -BusyOption Forward -MaxNumberOfCalls 2 -Target sip:sla_forward_number@contoso.com

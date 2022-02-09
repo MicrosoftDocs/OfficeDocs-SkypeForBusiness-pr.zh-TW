@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的診斷報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 摘要：瞭解商務用 Skype Server 中的診斷報告。
-ms.openlocfilehash: 6b04dfd74e13568e6d22448ad9160a874dd6f79b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9ab417619828f4c48695ce19d68a5d1bc0f91171
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855530"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397777"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>商務用 Skype Server 中的診斷報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的診斷報告。
+**總結：** 深入瞭解商務用 Skype Server 中的診斷報告。
   
 診斷報告可提供失敗會話的診斷與疑難排解資訊。 此資訊包含會話失敗時所報告的診斷識別碼和診斷標頭。 診斷 ID 是與 SIP 郵件相連的 ms diagnostics 標頭) 形式的唯一識別碼 (，而診斷標頭則提供診斷識別碼的附帶描述。 報告可能也包含報告元件所知道的有用疑難排解詳細資料。 例如：
   

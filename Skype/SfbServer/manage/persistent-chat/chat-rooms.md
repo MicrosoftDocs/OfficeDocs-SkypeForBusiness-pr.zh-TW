@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 2015 中管理 Persistent chat Server 中的聊天室
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中管理 Persistent chat Server 聊天室。
-ms.openlocfilehash: 63566d897901be32b7d0f33ea099bac202e61515
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 02b933d1fcd73f87ac3d04e0618bae2e03306bfb
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830847"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398907"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中管理 Persistent chat Server 中的聊天室
  
-**摘要：** 瞭解如何在商務用 Skype Server 2015 中管理 Persistent 聊天室伺服器聊天室。
+**總結：** 瞭解如何在商務用 Skype Server 2015 中管理 Persistent 聊天室伺服器聊天室。
   
 正確使用類別時，建立及管理聊天室的工作會更容易。 類別定義誰可以建立或加入聊天室。 在您嘗試管理聊天室之前，請務必閱讀[商務用 Skype Server 2015 中的持續聊天類別、聊天室和使用者角色](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)，並在[商務用 Skype Server 2015 中管理 persistent chat Server](categories.md)中的類別。
   
@@ -89,7 +89,7 @@ ms.locfileid: "60830847"
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
 ```
 
-**附注：** 如果下列其中一個為 true，則不需要 PersistentChatPoolFqdn： 
+**注意：** 如果下列其中一個為 true，則不需要 PersistentChatPoolFqdn： 
   
 - 只有一個持續性聊天伺服器集區。
     

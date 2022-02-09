@@ -1,8 +1,8 @@
 ---
 title: '通話品質儀表板的使用者設定服務 (CQD) '
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: 摘要：瞭解使用者設定服務，它是「呼叫品質」儀表板的存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
-ms.openlocfilehash: 81abbc31a82fc696a5bcb45faf4120b71fc26f74
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 6c1a44eda6443aa4a5048a9d3f035567ce2f5d8d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856580"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398817"
 ---
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>通話品質儀表板的使用者設定服務 (CQD) 
  
-**摘要：** 瞭解使用者設定服務，它是「呼叫品質」儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
+**總結：** 瞭解使用者設定服務，它是「呼叫品質」儀表板之存放庫 API 的一部分。 通話品質儀表板是商務用 Skype Server 的工具。
   
 使用者設定服務是用於通話品質儀表板之存放庫 API 的一部分。
   

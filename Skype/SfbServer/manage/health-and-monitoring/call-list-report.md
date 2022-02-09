@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 的回應群組通話清單報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: 摘要：瞭解商務用 Skype Server 中的回應群組應用程式。
-ms.openlocfilehash: df1ff0cb6e7eb4fcae8a506cf62bf075734f97eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8f86e71606f09d5f2313578ef0ab90dfd20c654d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837595"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398937"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>商務用 Skype Server 的回應群組通話清單報告
 
-**摘要：** 深入瞭解商務用 Skype Server 中的回應群組應用程式。
+**總結：** 深入瞭解商務用 Skype Server 中的回應群組應用程式。
 
 回應群組應用程式提供一種方法，商務用 Skype Server 讓您可以根據撥打的號碼，以及在來電者對一系列問題的回應，以回應及路由傳送通話。 系統通常不會將回應群組通話路由傳送給個人，而是將通話路由傳送給稱為代理群組的一組人員。 例如，如果有人撥打您的技術支援人員的電話號碼，商務用 Skype Server 會自動將此呼叫路由傳送至第一個可用的服務台代理程式。 或者，如果您有硬體問題，商務用 Skype Server 可以 ( "的一系列問題。 軟體問題請按 2。 如果您有網路問題，請按3。」) ，然後根據這些問題的答案，將通話路由傳送給最適當的服務台代理程式。
 

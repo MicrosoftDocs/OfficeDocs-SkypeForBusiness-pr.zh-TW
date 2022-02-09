@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的會議加入時間報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
 description: 摘要：瞭解商務用 Skype Server 中的會議加入時間摘要報告。
-ms.openlocfilehash: 8ff509f1efffed45fe18e7aa2267bc9a92d4c4d8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 14037d693a9c95041dca22ef55e6395e450c91f6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862410"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397727"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>商務用 Skype Server 中的會議加入時間報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的會議加入時間摘要報告。
+**總結：** 深入瞭解商務用 Skype Server 中的會議加入時間摘要報告。
   
 會議加入時間摘要可讓您判斷使用者加入會議所需的時間。 報告會以毫秒) 顯示平均加入時間 (，也可讓您知道有多少使用者可以在2秒內加入會議，以及在2到5秒的時間內加入會議，等等。
   

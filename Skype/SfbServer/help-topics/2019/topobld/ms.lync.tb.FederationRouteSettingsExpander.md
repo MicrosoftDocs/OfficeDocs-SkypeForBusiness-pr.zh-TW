@@ -1,8 +1,8 @@
 ---
 title: 同盟路由設定展開工具
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: 若要設定網站同盟路由指派，您必須先在 Edge Server 或 Edge Server 集區上啟用同盟。如果 Edge Server 或集區上未啟用同盟，則無法修改網站的同盟路由指派設定。
-ms.openlocfilehash: 2cf088fbb95f6d4d7ed563313c332d5a9dd47dd4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 68ef5eed810aceacdcaf573c2f7ccba7ccd026d9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833639"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62410276"
 ---
 # <a name="federation-route-settings-expander"></a>同盟路由設定展開工具
  

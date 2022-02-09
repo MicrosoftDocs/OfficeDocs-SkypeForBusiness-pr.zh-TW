@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server：測試 SIP 主幹設定設定
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: 摘要：瞭解如何使用商務用 Skype Server 管理命令介面來測試 SIP 主幹設定設定。
-ms.openlocfilehash: 59f246abfc4ef27ad75ab45cccaedc6f5236c98e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: dd79e60b81bb5e9f0edbd93a9ddda96edfdee218
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829507"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396025"
 ---
 # <a name="skype-for-business-server-test-sip-trunk-configuration-settings"></a>商務用 Skype Server：測試 SIP 主幹設定設定
  
-**摘要：** 瞭解如何使用商務用 Skype Server 管理命令介面來測試 SIP 主幹設定設定。
+**總結：** 瞭解如何使用商務用 Skype Server 管理命令介面來測試 SIP 主幹設定設定。
   
 SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) 閘道、IP-Public 分支 eXchange (PBX) 或會話邊界控制器（在服務提供者上 (SBC) ）之間的關聯性和功能。 這些設定將指定下列項目：
   

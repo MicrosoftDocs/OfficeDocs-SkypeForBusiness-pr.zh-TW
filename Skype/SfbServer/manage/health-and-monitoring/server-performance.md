@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的伺服器效能報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 description: 摘要：瞭解商務用 Skype Server 中的伺服器效能報告。
-ms.openlocfilehash: 6e13a12452fbdbf650a7e307340269803a2301b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 21bb6dbc462633d3d5620d63389b72a9b4d49a07
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836335"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396535"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>商務用 Skype Server 中的伺服器效能報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的伺服器效能報告。
+**總結：** 深入瞭解商務用 Skype Server 中的伺服器效能報告。
   
 「伺服器性能報告」提供一份清單，列出最高的通話不佳率的商務用 Skype Server 伺服器。 報告依伺服器類型分解伺服器，報告下列類型的個別統計資料：
   

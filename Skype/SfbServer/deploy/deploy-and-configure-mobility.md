@@ -1,8 +1,8 @@
 ---
 title: 部署及設定商務用 Skype Server 的行動性
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: 本文將逐步逐步指導您設定現有的商務用 Skype Server 安裝以使用行動裝置服務，讓行動裝置能夠利用商務用 Skype Server 行動功能。
-ms.openlocfilehash: b4ca8b229fb0d6fc15305bb15c32466a678955f3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b6d99c18f17158ae8b999320b767b1cc07d44dd5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865421"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397493"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>部署及設定商務用 Skype Server 的行動性  
  
@@ -237,7 +237,7 @@ ms.locfileid: "60865421"
     > [!NOTE]
     > 如何知道這是哪一個憑證？ 它應該是指派給伺服器陣列之所有專案的單一憑證，或者您可以針對不同的專案（如預設值、內部 Web 服務等）使用多個憑證，在這種情況下，您可能需要查看多個憑證。 多個憑證會有相同的指紋。 
   
-6. 當您進入 **憑證** 視圖後，請選擇 [ **詳細資料**]。 這可讓您在選取 [主旨] 時查看憑證 **的主體** 名稱，並顯示指定的主體名稱和相關聯的屬性。
+6. 當您進入 **憑證** 視圖後，請選擇 [ **詳細資料**]。 這可讓您在選取 [主旨] 時查看 **憑證的主體** 名稱，並顯示指定的主體名稱和相關聯的屬性。
     
 7. 您也需要檢查 **主體替代名稱** 專案。 您會發現下列一或多項：
     
@@ -275,7 +275,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
 - 如果您是透過 HTTP 進行初始自動探索要求，您也必須建立或修改該規則。
     
 > [!NOTE]
-> **重要事項** Proxy 超時值是一個數位，會因部署而異。 您應該監視您的部署，並修改用戶端的最佳體驗值。 您可以將值設為低200。 如果您在環境中支援 Lync 行動用戶端，則應該將值設為960，以允許來自 Office 365 的推播通知超時，其超時值為900。 您很可能需要增加超時值，以避免用戶端在值太低時中斷連線，或在用戶端中斷連線後，如果經由 proxy 的連線不會中斷連線，則降低數目。 監視及設定環境的一般功能是判斷此值適當設定的唯一準確方式。
+> **重要** Proxy 超時值是一個數位，會因部署而異。 您應該監視您的部署，並修改用戶端的最佳體驗值。 您可以將值設為低200。 如果您在環境中支援 Lync 行動用戶端，則應該將值設為960，以允許來自 Office 365 的推播通知超時，其超時值為900。 您很可能需要增加超時值，以避免用戶端在值太低時中斷連線，或在用戶端中斷連線後，如果經由 proxy 的連線不會中斷連線，則降低數目。 監視及設定環境的一般功能是判斷此值適當設定的唯一準確方式。
   
 ### <a name="modify-the-existing-web-publishing-rule-for-your-external-autodiscover-san-and-url"></a>為外部自動探索 SAN 和 URL 修改現有的 web 發行規則
 
@@ -319,7 +319,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
     
    - 您應輸入 lyncdiscover 的 **名稱** **。**\<sipdomain>  (這是) 的外部自動探索服務 URL。 現在，如果您要為前端集區上的外部 Web 服務 URL 建立規則，您必須在前端集區上輸入外部 Web 服務的 FQDN (例如，lyncwebextpool01.contoso.com) 。
     
-   - 會有一個 **路徑** 選項，您必須在 **/\\** 這裡輸入 *。
+   - 會有一個 **路徑** 選項，您必須在這裡輸入 **/\\** *。
     
    - 您必須選取具有最新公開憑證的 **SSL 攔截器** 。
     
@@ -365,7 +365,7 @@ TMG 不再是由 Microsoft 做為產品提供，如果您仍然需要加以設�
     
    - 您應輸入 lyncdiscover 的 **名稱** **。**\<sipdomain>  (這是) 的外部自動探索服務 URL。
     
-   - 會有一個 **路徑** 選項，您必須在 **/\\** 這裡輸入 *。
+   - 會有一個 **路徑** 選項，您必須在這裡輸入 **/\\** *。
     
    - 您必須選取網頁接聽程式，或允許您的反向 proxy 為您建立一個攔截器。
     

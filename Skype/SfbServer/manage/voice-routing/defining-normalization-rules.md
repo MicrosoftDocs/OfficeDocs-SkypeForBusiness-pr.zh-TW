@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中定義正常化規則
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 商務用 Skype Server 正規化規則使用 .NET Framework 正則運算式，將撥打的電話號碼轉譯成 e.164 格式;換句話說，正規化規則可讓使用者撥打的電話號碼，並將該號碼轉換成商務用 Skype Server 在內部使用的格式。 每個撥號對應表都必須被指派一或多個正常化規則。
-ms.openlocfilehash: 0319a27dd7a6f0d42fffb4e65fcf71fe152cec18
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 商務用 Skype Server 正規化規則使用 .NET Framework 正則運算式，將撥出的電話號碼轉譯為 e.164 格式; 換言之，正規化規則可取得使用者撥打的電話號碼，並將該號碼轉換成商務用 Skype Server 在內部使用的格式。 每個撥號對應表都必須被指派一或多個正常化規則。
+ms.openlocfilehash: 97e3cada0ab95cbd3a457e2c5f71b1ead9d9ce23
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859910"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62398847"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>在商務用 Skype Server 中定義正常化規則
 
-商務用 Skype Server 正規化規則使用 .NET Framework 正則運算式，將撥打的電話號碼轉譯成 e.164 格式;換句話說，正規化規則可讓使用者撥打的電話號碼，並將該號碼轉換成商務用 Skype Server 在內部使用的格式。 每個撥號對應表都必須被指派一或多個正常化規則。
+商務用 Skype Server 正規化規則使用 .NET Framework 正則運算式，將撥出的電話號碼轉譯為 e.164 格式; 換言之，正規化規則可取得使用者撥打的電話號碼，並將該號碼轉換成商務用 Skype Server 在內部使用的格式。 每個撥號對應表都必須被指派一或多個正常化規則。
 
 如需正規化規則的詳細資訊，請參閱撥號對應表 [和正常化規則](/previous-versions/office/lync-server-2013/lync-server-2013-dial-plans-and-normalization-rules)。
 
@@ -39,7 +39,7 @@ ms.locfileid: "60859910"
 1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [委派設定許可權](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)。
 2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype 控制台之不同方法的詳細資訊，請參閱[安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3.  (選用) 遵循步驟 11 [建立撥號](../../deploy/deploy-enterprise-voice/dial-plans.md#to-create-a-dial-plan) 對應表中的步驟，或透過步驟 10 [修改撥號](../../deploy/deploy-enterprise-voice/dial-plans.md#to-modify-a-dial-plan) 對應表。 
-4. 在 [ **新增正規化規則** ] 或 [編輯正規化 **規則**] 中，輸入描述 [ **名稱** ] 中正規化的號碼模式的名稱 (例如， **5DigitExtension**) 。
+4. 在 [ **新增正規化規則** ] 或 [ **編輯正規化規則**] 中，輸入描述 [ **名稱** ] 中正規化的號碼模式的名稱 (例如， **5DigitExtension**) 。
 5.  (選用) 在 [ **描述**] 中，輸入正規化規則的描述 (例如，「轉譯5位數分機」 ) 。
 6. 在 [ **建立正規化規則**] 中，在下欄欄位中輸入值：
     - **開始位數**： (選用) 指定您想要模式符合的撥號號碼的前置位數。 例如，如果您希望模式比對從425開始的撥號號碼，請輸入 **425** 。
@@ -77,7 +77,7 @@ ms.locfileid: "60859910"
 1. 以 RTCUniversalServerAdmins 群組成員的身分，或是 CsVoiceAdministrator、CsServerAdministrator 或 CsAdministrator 角色的成員身分登入電腦。 如需詳細資訊，請參閱 [委派設定許可權](/previous-versions/office/lync-server-2013/lync-server-2013-delegate-setup-permissions)。
 2. 開啟瀏覽器視窗，然後輸入管理 URL 以開啟 [控制台]。 如需可用於啟動商務用 Skype 控制台之不同方法的詳細資訊，請參閱[安裝及開啟系統管理工具](../../management-tools/install-and-open-administrative-tools.md)。
 3.  (選用) 遵循步驟 11 [建立撥號](GET LINK AFTER MIGRATION) 對應表中的步驟，或透過步驟 10 [修改撥號](GET LINK AFTER MIGRATION) 對應表。  
-4. 在 [ **新增正規化規則** ] 或 [編輯正規化 **規則**] 中，輸入描述 [ **名稱** ] 中正規化的號碼模式的名稱 (例如，將正規化規則名稱 **5DigitExtension**) 。
+4. 在 [ **新增正規化規則** ] 或 [ **編輯正規化規則**] 中，輸入描述 [ **名稱** ] 中正規化的號碼模式的名稱 (例如，將正規化規則名稱 **5DigitExtension**) 。
 5.  (選用) 在 [ **描述**] 中，輸入正規化規則的描述 (例如，「轉譯5位數分機」 ) 。
 6. 在 [ **建立正常化規則**] 中，按一下 [ **編輯**]。
 7. 在 [輸入規則運算式] 中輸入下列內容：

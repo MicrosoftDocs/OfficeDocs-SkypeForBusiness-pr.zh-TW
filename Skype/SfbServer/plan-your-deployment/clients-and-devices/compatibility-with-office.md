@@ -1,7 +1,7 @@
 ---
 title: 商務用 Skype 與 Office 應用程式的相容性
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: 瞭解從 Outlook 和其他 Microsoft Office 應用程式存取商務用 Skype 功能的方式。
-ms.openlocfilehash: 06a019416ad8d32b0234b08c01b09630dd07a2ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 249b66eb366d9fa2d5911c24fb7dc88d0dcd6633
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862130"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62409896"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>商務用 Skype 與 Office 應用程式的相容性
  
@@ -65,7 +65,7 @@ ms.locfileid: "60862130"
 |:-----|:-----|
 |Exchange Server 2019 (僅商務用 Skype Server 2019)  |與 Exchange Server 2013 支援相同    |
 |Exchange Server 2016    |與 Exchange Server 2013 支援相同  <br/> |
-|Exchange Server 2013  <br/> |與 Exchange Server 2010 支援相同，加入  <br/>&bull;&nbsp;&nbsp;整合連絡人存放區  <br/>&bull;&nbsp;&nbsp;高解析度圖片  <br/>&bull;&nbsp;&nbsp;封存整合  <br/> **附注：** 如需詳細資訊，請參閱將 [商務用 Skype Server 與 Exchange Server 整合](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。  <br/> |
+|Exchange Server 2013  <br/> |與 Exchange Server 2010 支援相同，加入  <br/>&bull;&nbsp;&nbsp;整合連絡人存放區  <br/>&bull;&nbsp;&nbsp;高解析度圖片  <br/>&bull;&nbsp;&nbsp;封存整合  <br/> **注意：** 如需詳細資訊，請參閱將 [商務用 Skype Server 與 Exchange Server 整合](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)。  <br/> |
 |Exchange Server 2010  <br/>僅 (商務用 Skype Server 2015)  |下列功能僅可透過 EWS:  <br/>&bull;&nbsp;&nbsp;讀取或刪除 [交談記錄] 資料夾中的專案  <br/>&bull;&nbsp;&nbsp;讀取或刪除語音信箱專案  <br/>&bull;&nbsp;&nbsp;顯示擴大的空閒/忙碌資訊和會議主旨和位置  <br/>&bull;&nbsp;&nbsp;Exchange 連絡人同步處理  <br/> 公用資料夾在 Exchange Server 2010 中是選用的。  <br/> |
    
 ## <a name="see-also"></a>另請參閱

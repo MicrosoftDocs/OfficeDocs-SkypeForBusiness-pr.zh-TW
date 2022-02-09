@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中建立主幹設定的新集合
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 摘要：瞭解如何使用商務用 Skype Server 控制台來建立主幹設定設定的新集合。
-ms.openlocfilehash: 2a6db1b82693ce78bd48ff8cc816503026871a09
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 18a1639184b84346f09195c35b9d646545fa35a5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856290"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62399337"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>在商務用 Skype Server 中建立主幹設定的新集合
 
-**摘要：** 瞭解如何使用商務用 Skype Server 控制台來建立主幹設定設定的新集合。
+**總結：** 瞭解如何使用商務用 Skype Server 控制台來建立主幹設定設定的新集合。
   
 SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) 閘道、IP-Public 分支 eXchange (PBX) 或會話邊界控制器（在服務提供者上 (SBC) ）之間的關聯性和功能。 這些設定將指定下列項目：
   

@@ -1,7 +1,7 @@
 ---
 title: 在組織中建立全組織Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: phlouie
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8698625cc219b1d343afd43cc8bf44cd9e71dc52
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 67e768c8af07f8f49bcf202f9c6b933cce9c3f63
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861980"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396295"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>在組織中建立全組織Microsoft Teams
 
@@ -52,7 +52,7 @@ ms.locfileid: "60861980"
 > - 如果您在建立團隊時沒看到全組織選項，而您是全域系統管理員，表示您可能已達到五個全組織團隊限制，或貴組織可能超過目前 10，000 個成員的大小限制。 我們預計在未來增加這個限制。 Teams 教育版目前無法使用全組織小組。
 > - 非會議室清單、設備和資源帳戶的一部分，可能會新增或同步到整個組織的小組。 小組擁有者可輕鬆地從小組移除這些帳戶。
 > - 系統新增或移除成員的所有動作會張貼在 [一般] 頻道。 頻道也會標示為在 Teams 用戶端中有新的活動。
-> - 如果貴組織是新使用者，且使用者不超過 5，000 人，Teams會自動為貴組織建立全組織團隊。 小組名稱會反映租用戶名稱，並擁有 [一般] 頻道。 全域系統管理員可以像其他任何小組一樣編輯這個小組。
+> - 如果您的組織是新使用者，且使用者不超過 5，000 人，Teams會自動為貴組織建立全組織團隊。 小組名稱會反映租用戶名稱，並擁有 [一般] 頻道。 全域系統管理員可以像其他任何小組一樣編輯這個小組。
 
 ## <a name="best-practices"></a>最佳做法
 
@@ -62,8 +62,8 @@ ms.locfileid: "60861980"
 
 只允許小組擁有者張貼到 [一般] 頻道，以減少頻道「紛擾」。 
 
-1. 請前往小組，找出一般頻道，然後選取 **1 100 1000 1000 1000 1000 2013 -2013**-2013-201331331133113311  >   
-2. 在 [**頻道設定」** 選項卡上，按一下 **[許可權**」，然後選取 [只有 **擁有者可以張貼訊息。**
+1. 請前往小組，找出一般頻道，然後選取 **1 1999 年 12 月 12** 日更多選項  >  **管理頻道**。 
+2. 在 [ **頻道設定>** 選項卡上，按一下 **[許可權**，然後選取 [只有 **擁有者可以張貼訊息**。
 
 ### <a name="turn-off-team-and-team-name-mentions"></a>關閉 @team 和 @[小組名稱] 提及項目
 
@@ -89,13 +89,13 @@ ms.locfileid: "60861980"
 
 ### <a name="remove-accounts-that-might-not-belong"></a>移除可能不屬於的帳戶
 
-即使成員無法離開整個組織團隊，但做為團隊擁有者，您可以移除不屬於的帳戶來管理小組名冊。 **請確認您使用 Teams 移除全組織小組中的使用者**。 如果您使用另一種方式移除使用者，例如 Microsoft 365 系統管理中心 或 Outlook 中的群組，使用者可能會新增回整個組織的小組。
+即使成員無法離開整個組織團隊，但做為團隊擁有者，您可以移除不屬於的帳戶來管理小組名冊。 **請確認您使用 Teams 移除全組織小組中的使用者**。 如果您使用另一種方式移除使用者，例如 Microsoft 365 系統管理中心 或 Outlook 中的群組，使用者可能會重新加入整個組織的團隊。
 
 ## <a name="faq"></a>常見問題集
 
 ### <a name="is-there-a-way-to-create-an-organization-wide-team-other-than-using-the-teams-client"></a>除了使用用戶端外，還有其他建立全組織Teams的方法嗎？
 
-只有全域系統管理員可以使用用戶端建立整個組織Teams團隊。 如果貴組織將建立小組限制為使用 PowerShell，建議的因應措施是將您的全域系統管理員新增至可建立小組的使用者安全性群組。
+只有全域系統管理員可以使用全域用戶端建立整個Teams團隊。 如果貴組織將建立小組限制為使用 PowerShell，建議的因應措施是將您的全域系統管理員新增至可建立小組的使用者安全性群組。
 
 詳細資訊，請參閱管理 [誰可以建立群組](/microsoft-365/admin/create-groups/manage-creation-of-groups)。
 
@@ -114,4 +114,4 @@ ms.locfileid: "60861980"
 
 ## <a name="see-also"></a>另請參閱
 
-觀看影片，瞭解在 Microsoft Teams[中建立全公司Microsoft Teams。](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)
+觀看影片，[瞭解在 Microsoft Teams 中建立全公司Microsoft Teams](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)。

@@ -1,8 +1,8 @@
 ---
 title: 部署商務用 Skype Server 2019
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/9/2018
 audience: ITPro
@@ -17,16 +17,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 摘要：流覽下列連結，以瞭解如何安裝和設定商務用 Skype Server 2019。
-ms.openlocfilehash: 47005c5b1b236e9f93dec33bf10ddef80c96a3c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 85878b09cf15679cda35ed1735f1f05e2168fb35
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842505"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397533"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>部署商務用 Skype Server 2019
  
-**摘要：** 流覽下列連結，以瞭解如何安裝及設定商務用 Skype Server 2019 及從舊版遷移。
+**總結：** 流覽下列連結，以瞭解如何安裝及設定商務用 Skype Server 2019 及從舊版遷移。
   
 商務用 Skype Server 提供立即訊息 (IM) 、顯示狀態、會議、影片和電話語音解決方案，可支援企業層級的共同作業需求。 本主題提供有關如何部署及設定商務用 Skype Server 的資訊連結。 
   
@@ -55,6 +55,6 @@ ms.locfileid: "60842505"
 |&nbsp;|內容|描述|
 |:-----|:-----|:-----|
 |![文檔圖示。](/office/media/icons/paragraph-writing-blue.svg)|[適用于 IT 專業人員的商務用 Skype Server](../../Hub/index.yml)  |流覽資源中心以存取影片、社區網站、檔、下載專案等等。|
-|![開發人員內容的圖示。](/office/media/icons/developer-blue.svg)|[Skype開發人員平臺](/skype-sdk/skypedeveloperplatform)  |尋找商務用 Skype Server 的開發人員資源，包括程式碼範例、訓練與 sdk。   |
+|![開發人員內容的圖示。](/office/media/icons/developer-blue.svg)|[開發人員平臺 Skype](/skype-sdk/skypedeveloperplatform)  |尋找商務用 Skype Server 的開發人員資源，包括程式碼範例、訓練與 sdk。   |
 |![新聞、博客等的圖示。](/office/media/icons/blog-site-blue.svg)|[變更管理和採用](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office 部落格](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype 小組網路](https://go.microsoft.com/fwlink/p/?LinkId=532818)  |從建立及記錄商務用 Skype Server 的小組中追蹤新聞。   |
 

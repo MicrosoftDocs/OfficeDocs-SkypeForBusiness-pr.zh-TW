@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的 PSTN 會議摘要報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 摘要：瞭解商務用 Skype Server 中的 PSTN 會議摘要報告。
-ms.openlocfilehash: 19038b29f46e33026e3ef865226aa4d087b0a0da
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 2632ce1b9653c4895bfdcb176373b6d4e9996b74
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862290"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397717"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>商務用 Skype Server 中的 PSTN 會議摘要報告
  
-**摘要：** 深入瞭解商務用 Skype Server 中的《 PSTN 會議摘要報告。
+**總結：** 深入瞭解商務用 Skype Server 中的《 PSTN 會議摘要報告。
   
 在商務用 Skype Server 中，PSTN 會議是指至少有一個參與者透過使用 PSTN (公用交換電話網路) 電話撥號進入音訊部分的任何會議。  (PSTN 電話是 "室內電話"、"蜂窩電話] 或任何其他未利用 Voice over IP 的電話。 ) 雖然在監控報告中稱為 PSTN 會議，但這些會議甚至可能更常見，稱為電話撥入式會議。
   

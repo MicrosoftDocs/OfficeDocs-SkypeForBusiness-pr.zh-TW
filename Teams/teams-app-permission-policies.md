@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中管理應用程式權限原則
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: rarang
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b407d0c96e5aa9cbf84277285ab717a1950a9f17
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b5f6941de4973362f8cdbd99235d099973264c7a
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761691"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396241"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式權限原則
 
@@ -45,7 +45,7 @@ ms.locfileid: "60761691"
 比方說，假設您想要針對組織中的人力資源小組，封鎖所有第三方應用程式並允許來自 Microsoft 的特定應用程式。 首先，您會移至 [管理應用程式[]](manage-apps.md) 頁面，並確認您想要針對人力資源小組允許的應用程式會於組織層級允許。 然後，建立名為「人力資源應用程式權限原則」的自訂原則，將它設定為封鎖並允許您需要的應用程式，然後將它指派給人力資源小組的使用者。
 
 > [!NOTE]
-> 如果您在 Microsoft 365 政府社群雲端 high (GCCH) 和國防部 (DoD) 環境中部署[Teams，](#manage-org-wide-app-settings-for-microsoft-365-government)請參閱管理 Microsoft 365 政府全組織應用程式設定，以深入瞭解 GCCH 和 DoD 特有的協力廠商應用程式設定。
+> 如果您在 Microsoft 365 政府社群雲端 high (GCCH) 和國防部 (DoD) 環境中部署 Teams，請參閱管理[Microsoft 365 政府](#manage-org-wide-app-settings-for-microsoft-365-government)全組織應用程式設定，以深入瞭解 GCCH 和 DoD 特有的協力廠商應用程式設定。
 
 ## <a name="create-a-custom-app-permission-policy"></a>建立自訂應用程式權限原則
 
@@ -100,7 +100,7 @@ ms.locfileid: "60761691"
     
 2. 在 [第三方應用程式 **]** 下，關閉或開啟這些設定，以控制對第三方應用程式的存取權：
 
-    - **允許第三方應用程式**：這會控制使用者是否可以使用第三方應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何第三方應用程式。 在 Microsoft 365政府 - GCCH 和 DoD Teams，此設定預設為關閉。
+    - **允許第三方應用程式**：這會控制使用者是否可以使用第三方應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何第三方應用程式。 在 Microsoft 365政府 - GCCH 和 DoD Teams中，此設定預設為關閉。
     - **預設允許發行到商店的任何新第三方應用程式**：這會控制發佈至 Teams 應用程式商店的新第三方應用程式是否會自動在 Teams 中提供使用。 您只能在允許第三方應用程式時設定此選項。
 
 3. 在 [封鎖的應用程式 **]** 下，新增您想要在組織中封鎖存取權的應用程式。 在 Microsoft 365政府 - GCCH 和 DoD Teams中，所有協力廠商應用程式預設會新加到此清單。 針對您想要在組織中允許的任何第三方應用程式，請從此封鎖的應用程式清單中移除該應用程式。 在全組織封鎖某個應用程式時，會自動為所有使用者封鎖該應用程式，而無論任何應用程式權限原則中是否允許該應用程式。

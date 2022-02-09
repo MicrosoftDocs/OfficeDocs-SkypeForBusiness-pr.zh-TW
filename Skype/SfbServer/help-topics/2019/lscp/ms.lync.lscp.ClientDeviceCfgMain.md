@@ -1,8 +1,8 @@
 ---
 title: 裝置記錄組態
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: 裝置更新 Web 服務會自動建立記錄檔，記錄裝置更新活動。 在組織的資料管理原則中，您可能會想要設定記錄檔資料快取大小、記錄檔大小，或在清除記錄檔之前保留的時間長度閾值。 您可以根據組織的需求來變更這些設定。 如果您不想讓裝置更新 Web 服務自動清除記錄檔，您可以視需要手動清除記錄檔。 記錄設定可全域變更或每個網站。
-ms.openlocfilehash: d1a628c9d1fd7604345d7c6fee723accb936084a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d62265e382d87b3d20f0c9ac0fe2a5dca869bfef
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838245"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401487"
 ---
 # <a name="device-log-configuration"></a>裝置記錄組態
 
@@ -44,7 +44,7 @@ ms.locfileid: "60838245"
 
 下列清單說明頁面上的功能表、命令、欄位及內容。
 
-- **新** 您可以使用下列範圍新增新的裝置記錄檔設定：
+- **新增功能** 您可以使用下列範圍新增新的裝置記錄檔設定：
 
   - 全域
 
@@ -56,9 +56,9 @@ ms.locfileid: "60838245"
 
   - **全選** 此選項會選取清單中的所有裝置記錄檔設定。
 
-  - **Delete** 此選項會刪除所有選取的裝置記錄檔設定。
+  - **刪除** 此選項會刪除所有選取的裝置記錄檔設定。
 
-- **Refresh** 您可以重新整理裝置記錄檔設定清單，以驗證所有裝置記錄檔設定的選項狀態。
+- **刷新** 您可以重新整理裝置記錄檔設定清單，以驗證所有裝置記錄檔設定的選項狀態。
 
 ## <a name="see-also"></a>另請參閱
 

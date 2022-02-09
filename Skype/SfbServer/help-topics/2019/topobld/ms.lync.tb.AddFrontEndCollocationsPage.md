@@ -1,8 +1,8 @@
 ---
 title: 新增前端伺服器組合
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 ROBOTS: NOINDEX, NOFOLLOW
 description: 以 Enterprise Edition 部署而言，音訊/視訊會議服務是在前端集區上組合。您也可以在前端集區上組合中繼伺服器，或將其部署為獨立伺服器。如果啟用會議，則一律會組合音訊/視訊會議服務。
-ms.openlocfilehash: e8f3a5ac2e5b6cca244d4a396bf69f554ad4ff77
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7f7a2e6f6a7b11e378a9ab42ad045a9bcd7343bc
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832637"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397121"
 ---
 # <a name="add-front-end-server-collocations"></a>新增前端伺服器組合
 

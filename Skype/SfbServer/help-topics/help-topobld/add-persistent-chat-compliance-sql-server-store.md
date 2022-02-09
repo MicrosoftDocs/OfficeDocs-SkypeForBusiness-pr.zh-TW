@@ -1,8 +1,8 @@
 ---
 title: 新增常設聊天室規範 SQL Server 存放區
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 description: 您可以設定規范 SQL Server 儲存區，將會為 persistent chat server 或 persistent chat server 相容性功能提供資料庫。
-ms.openlocfilehash: af6915193afc095ae5ce8cef087bbc652555e9b3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9335165bf1aa59227fe1b29103bcad0860cda541
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857630"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395695"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>新增常設聊天室規範 SQL Server 存放區
  

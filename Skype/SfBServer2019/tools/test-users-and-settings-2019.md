@@ -1,8 +1,8 @@
 ---
 title: 設定監視節點測試使用者和設定
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 為商務用 Skype Server 綜合交易設定測試使用者帳戶和監視節點設定。
-ms.openlocfilehash: b01b99136cf8fc8495dbf090b8e1def5f56ff77c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 31dac13da3d41316d047eca4746fd7af11197c82
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837435"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396194"
 ---
 # <a name="skype-for-business-server-configure-watcher-node-test-users-and-settings"></a>商務用 Skype Server：設定觀察者節點測試使用者和設定
  
-**摘要：** 為商務用 Skype Server 綜合交易設定測試使用者帳戶和監視節點設定。
+**總結：** 為商務用 Skype Server 綜合交易設定測試使用者帳戶和監視節點設定。
   
 在設定將充當監視節點的電腦之後，您必須：
   
@@ -287,7 +287,7 @@ NetworkService 設定為 NO_PROXY 的帳戶的網際網路 proxy 設定。
   
 此訊息表示您已停用網路服務帳戶的 Internet Explorer proxy 設定。
   
-### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange整合通訊綜合交易
+### <a name="exchange-unified-messaging-synthetic-transaction"></a>Exchange 整合通訊綜合交易
 
 Exchange 整合通訊 (UM) 綜合交易會驗證測試使用者是否可以連線至位於 Exchange 的語音信箱帳戶。
   
@@ -403,7 +403,7 @@ Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"
     
 - 活動完成的時間。
     
-- 執行的動作 (例如，建立、加入或離開會議）;登入商務用 Skype Server;傳送立即訊息) 。
+- 執行的動作 (例如，建立、加入或離開會議）;登入商務用 Skype Server; 送出立即訊息) 。
     
 - 活動執行時所產生的資訊、詳細資料、警告或錯誤訊息
     

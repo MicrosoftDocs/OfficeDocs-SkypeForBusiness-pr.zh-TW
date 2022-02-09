@@ -1,8 +1,8 @@
 ---
 title: 規劃商務用 Skype Server 的行動性
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/17/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: 規劃商務用 Skype Server 的行動實施。
-ms.openlocfilehash: a323e9e68ee78af1ea80979c12eb6b0a66906041
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a86f9ed4c3c41a1afa60a3f8181307589b0ce678
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852937"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400277"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>規劃商務用 Skype Server 的行動性
  
@@ -207,7 +207,7 @@ ms.locfileid: "60852937"
 
 為了支援商務用 Skype 行動用戶端的自動探索，您必須更新目前的發行規則，如下所示：
   
-- 如果您決定更新反向 proxy 憑證上的 SAN 清單，而您要使用 HTTPS 來進行初始自動探索服務要求，您必須更新 lyncdiscover 的 web 發行 \<sipdomain\> 規則。 這通常會與前端集區上的外部 Web 服務 URL 的發佈 rul 合併。
+- 如果您決定更新反向 proxy 憑證上的 SAN 清單，而您要使用 HTTPS 來進行初始自動探索服務要求，您必須更新 lyncdiscover 的 web 發行規則。 \<sipdomain\> 這通常會與前端集區上的外部 Web 服務 URL 的發佈 rul 合併。
     
 - 如果您已決定使用 HTTP 來進行初始自動探索服務要求，以避免更新反向 proxy 憑證的 SAN 清單，但我們不建議您)  (，您必須為埠 HTTP/TCP 80 建立新的 web 發行規則（如果沒有的話）。 如果該規則存在，請將它更新為包含 lyncdiscover。\<sipdomain\> 進入。
     
@@ -244,9 +244,9 @@ ms.locfileid: "60852937"
   
 |**功能**|**參數名稱**|**描述**|**預設設定**|
 |:-----|:-----|:-----|:-----|
-|啟用行動性  <br/> |EnableMobility  <br/> |控制已安裝商務用 Skype 行動用戶端之指定範圍內的使用者。 若原則設定為 False，您的使用者將無法使用用戶端登入。  <br/> |對  <br/> |
-|外語音  <br/> |EnableOutsideVoice  <br/> |可讓使用者使用「來電」功能，讓使用者可以使用其公司電話號碼，而不是其行動電話號碼來傳送和接收通話。 如果將其設為 False，使用者在使用其公司電話號碼時，將無法在行動電話上撥打或接聽電話。  <br/> |對  <br/> |
-|啟用 IP 音訊和影片  <br/> |EnableIPAudioVideo  <br/> |設定為預設值，讓使用者可以使用 VoIP 在其行動裝置上撥打或接聽電話或視頻通話。 設為 False 時，您的使用者將無法使用行動裝置執行這兩項作業。  <br/> |對  <br/> |
+|啟用行動性  <br/> |EnableMobility  <br/> |控制已安裝商務用 Skype 行動用戶端之指定範圍內的使用者。 若原則設定為 False，您的使用者將無法使用用戶端登入。  <br/> |True  <br/> |
+|外語音  <br/> |EnableOutsideVoice  <br/> |可讓使用者使用「來電」功能，讓使用者可以使用其公司電話號碼，而不是其行動電話號碼來傳送和接收通話。 如果將其設為 False，使用者在使用其公司電話號碼時，將無法在行動電話上撥打或接聽電話。  <br/> |True  <br/> |
+|啟用 IP 音訊和影片  <br/> |EnableIPAudioVideo  <br/> |設定為預設值，讓使用者可以使用 VoIP 在其行動裝置上撥打或接聽電話或視頻通話。 設為 False 時，您的使用者將無法使用行動裝置執行這兩項作業。  <br/> |True  <br/> |
 |需要 IP 音訊的 WiFi  <br/> |RequireWiFiForIPAudio  <br/> |定義用戶端是否需要在 WiFi 上使用 VoIP，而不是行動電話資料網路，來撥打和接收通話。 如果設定為 True，您的使用者只會在透過 WiFi 連線時撥打和接收 VoIP 通話。  <br/> |錯  <br/> |
 |需要 IP 影片的 WiFi  <br/> |RequireWiFiForIPVideo  <br/> |定義用戶端是否需要在 WiFi，而不是行動電話資料網路上撥打和接收通話。 如果設定為 True，您的使用者只會在透過 WiFi 連線時撥打和接收 VoIP 通話。  <br/> |錯  <br/> |
    

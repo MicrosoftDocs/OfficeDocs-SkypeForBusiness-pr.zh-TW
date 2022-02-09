@@ -1,8 +1,8 @@
 ---
 title: 在 Lync 2010 用戶端電腦上設定個人連絡人存放區
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/29/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: 摘要：設定舊版用戶端所使用的個人連絡人存放區。
-ms.openlocfilehash: de9bc9472f619f7d35bbc4585d806f6cd82c295a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d2678eb7f0d9bcdf3d981cb08e91cf9a4858f26c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842365"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397302"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>在 Lync 2010 用戶端電腦上設定個人連絡人存放區
   

@@ -1,8 +1,8 @@
 ---
 title: 搭配商務用 Skype 用戶端使用安裝程式命令列選項
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,22 +12,22 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: 摘要：瞭解 Office 安裝中 Setup.exe 命令列作業。
-ms.openlocfilehash: 6a64ac821019f49f8cbb4988ad0e42da0363245b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a70d6a2c905f40f61d0cdbdcc5dd92a4b9bfdf75
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850477"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396065"
 ---
 # <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>搭配商務用 Skype 用戶端使用安裝程式命令列選項
  
-**摘要：** 深入瞭解 Office 安裝中的 Setup.exe 命令列作業。
+**總結：** 深入瞭解 Office 安裝中的 Setup.exe 命令列作業。
   
 Setup.exe 命令列將用於 Office 安裝程式中非常少的作業。 您通常會使用 Office 自訂工具和 Config.xml 檔案進行產品安裝和功能自訂，而不是使用安裝程式命令列選項。
   
 Office Setup.exe 命令列會識別下表所述的命令列選項。
   
-**Office安裝程式 Command-Line 選項**
+**Office 安裝 Command-Line 選項**
 
 |**安裝 Command-Line 選項**|**描述**|
 |:-----|:-----|

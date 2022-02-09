@@ -1,8 +1,8 @@
 ---
 title: 設定商務用 Skype Server 的封存選項
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: 摘要：閱讀此主題以瞭解如何設定商務用 Skype Server 的初始封存選項。 您在部署封存時，您必須先設定封存設定，但是您可以在部署後變更、新增和刪除設定。
-ms.openlocfilehash: 413347a76c23f680215e4f9d80e4327b3e8fed22
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 953bf4a5a353001993e8aee51b5bd21ac8f377b5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864460"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396075"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>設定商務用 Skype Server 的封存選項
  
-**摘要：** 閱讀此主題以瞭解如何設定商務用 Skype Server 的初始封存選項。 您在部署封存時，您必須先設定封存設定，但是您可以在部署後變更、新增和刪除設定。
+**總結：** 閱讀此主題以瞭解如何設定商務用 Skype Server 的初始封存選項。 您在部署封存時，您必須先設定封存設定，但是您可以在部署後變更、新增和刪除設定。
   
 若要設定初始封存設定，您可以使用商務用 Skype Server 控制台指定下列專案：
   

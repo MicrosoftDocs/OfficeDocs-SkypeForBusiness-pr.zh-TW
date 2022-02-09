@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的通話診斷摘要報告
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 摘要：瞭解商務用 Skype Server 中所用的通話診斷摘要報告。
-ms.openlocfilehash: ef50ecde07fdd7354bd97c40bddfe4fb5e762d08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 76907a319f5e4d828829daf7bc0564a964eb7633
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827566"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62397697"
 ---
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>商務用 Skype Server 中的通話診斷摘要報告
  
-**摘要：** 深入瞭解商務用 Skype Server 所使用的通話診斷摘要報告。
+**總結：** 深入瞭解商務用 Skype Server 所使用的通話診斷摘要報告。
   
 通話診斷摘要報告提供失敗的對等和會議會話的整體外觀。 報告顯示這兩種類型的會話的整體失敗率，並以會話形式的形式進一步打破失敗資訊：
   

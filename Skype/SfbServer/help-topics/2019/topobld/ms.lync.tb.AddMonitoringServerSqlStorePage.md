@@ -1,8 +1,8 @@
 ---
 title: 新增監控伺服器 SQL Server 存放區
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d873a2ad-9d3a-4ef6-9f25-ccdd3716218c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 監控伺服器需要支援的64位版本 SQL Server 資料庫軟體才能儲存監控資料。 您可以選擇要用於監視的先前定義的 SQL Server 資料庫，也可以指定 SQL Server 資料庫所在之伺服器 (FQDN) 的完整功能變數名稱，或定義新的 SQL Server 資料庫，除了您想要用於新 SQL Server 資料庫的 SQL Server 實例之外（也就是您指定 (的命名實例）。
-ms.openlocfilehash: 515f88f73e65f4d82e490484624adaa7369cc178
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: 監控伺服器需要支援的64位版本 SQL Server 資料庫軟體才能儲存監控資料。 您可以選擇要用於監視的先前定義的 SQL Server 資料庫，也可以指定 SQL Server 資料庫所在之伺服器 (FQDN) 的完整功能變數名稱，或定義新的 SQL Server 資料庫，除了您想要用於新的 SQL Server 實例之外。SQL Server 資料庫 (可以是預設實例，或是您指定) 的命名實例。
+ms.openlocfilehash: ca7f2e407bf367a7ff544d08105e6af533454ba2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855960"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62395955"
 ---
 # <a name="add-monitoring-server-sql-server-store"></a>新增監控伺服器 SQL Server 存放區
 
-監控伺服器需要支援的64位版本 SQL Server 資料庫軟體才能儲存監控資料。 您可以選擇要用於監視的先前定義的 SQL Server 資料庫，也可以指定 SQL Server 資料庫所在之伺服器 (FQDN) 的完整功能變數名稱，或定義新的 SQL Server 資料庫，除了您想要用於新 SQL Server 資料庫的 SQL Server 實例之外（也就是您指定 (的命名實例）。
+監控伺服器需要支援的64位版本 SQL Server 資料庫軟體才能儲存監控資料。 您可以選擇要用於監視的先前定義的 SQL Server 資料庫，也可以指定 SQL Server 資料庫所在之伺服器 (FQDN) 的完整功能變數名稱，或定義新的 SQL Server 資料庫，除了您想要用於新的 SQL Server 實例之外。SQL Server 資料庫 (可以是預設實例，或是您指定) 的命名實例。
 
 如需 SQL Server 支援的詳細資訊，請參閱支援檔中的[資料庫軟體和群集支援](/previous-versions/office/lync-server-2013/lync-server-2013-database-software-support)。 如需監控資料庫（包括監控資料庫的組合）的詳細資訊，請參閱支援檔中的[支援伺服器位置](/previous-versions/office/lync-server-2013/lync-server-2013-supported-server-collocation)、規劃檔中的[監控](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)， [SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement)以及部署檔中的記錄檔位置。
 
