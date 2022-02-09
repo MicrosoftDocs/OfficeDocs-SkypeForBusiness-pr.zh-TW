@@ -1,5 +1,5 @@
 ---
-title: 使用 intune Teams Android Teams手機、Teams顯示、Microsoft Teams 會議室面板和手機
+title: 使用 intune Teams Android Teams手機、Microsoft Teams 會議室和手機
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -8,23 +8,28 @@ ms.topic: reference
 ms.service: msteams
 audience: Admin
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-voice
+- M365-voice
 search.appverid: MET150
 ms.localizationpriority: medium
-description: 本文提供 Android 裝置Microsoft Teams功能概觀。
+description: 本文提供螢幕顯示功能Microsoft Teams概觀。
+ms.openlocfilehash: 632fcb207f8800a348dbe04fe7087145bae83d98
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62396231"
 ---
+# <a name="deploy-teams-phones-teams-displays-and-microsoft-teams-rooms-on-android-using-intune"></a>使用 intune Teams Android Teams手機、Microsoft Teams 會議室和手機
 
-# <a name="deploy-teams-phones-teams-displays-teams-panels-and-microsoft-teams-rooms-on-android-using-intune"></a>使用 intune Teams Android Teams手機、Teams顯示、Microsoft Teams 會議室面板和手機
-
-本文提供如何在 Android 上使用 Intune Teams手機、Teams、Teams面板Microsoft Teams 會議室部署概觀。
+本文提供如何在 Android 上使用 Intune Teams手機、Teams和Microsoft Teams 會議室部署概觀。
 
 ## <a name="conditional-access"></a>條件式存取
 
-條件式存取Azure Active Directory (Azure AD) 項功能，可協助確保存取您Office 365資源的裝置妥善管理且安全。  如果您將條件式存取原則適用于 Teams 服務，Android (包括 Teams 手機、Teams 顯示、Teams 面板和 Microsoft Teams 會議室 的 Android) 裝置必須註冊至 Teams Intune，其設定必須符合您的原則。  如果裝置未註冊到 Intune，或已註冊，但其設定不符合您的政策，條件式 Access 會防止使用者登錄或使用裝置上的 Teams 應用程式。
+條件式存取Azure Active Directory (Azure AD) 項功能，可協助確保存取您Office 365資源的裝置妥善管理且安全。  如果您將條件式存取原則適用于 Teams 服務，Android 裝置 (包括 Teams 手機、Teams 顯示器，以及 Android) 上的 Microsoft Teams 會議室，這些存取 Teams 必須註冊到 Intune，其設定必須符合您的原則。  如果裝置未註冊到 Intune，或已註冊，但其設定不符合您的政策，條件式 Access 會防止使用者登錄或使用裝置上的 Teams 應用程式。
 
 一般來說，Intune 中定義的合規性政策會指派給使用者群組。  這表示如果您將 Android 合規性原則指派給 user@contoso.com，該原則會平均適用于 Android 智慧型手機，以及任何Teams登錄 user@contoso.com 裝置。
 
@@ -56,7 +61,7 @@ Teams Android 型裝置是由 Intune 透過 Android 裝置系統管理員 (DA) �
 
    1. 建立 Android 裝置系統管理員合規性政策。
 
-   1. 將其指派給Azure Active Directory，其中包含將登錄至Teams的使用者。 請參閱 [使用合規性原則來設定使用 Intune 管理之裝置的規則](/mem/intune/protect/device-compliance-get-started)。
+   1. 將其指派給Azure Active Directory組，其中包含將登錄至Teams的使用者。 請參閱 [使用合規性原則來設定使用 Intune 管理之裝置的規則](/mem/intune/protect/device-compliance-get-started)。
 
 ## <a name="see-also"></a>另請參閱
 
