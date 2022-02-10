@@ -775,17 +775,17 @@ items:
                 href: audio-conferencing-zones.md
               - name: 影片：Teams 的音訊會議
                 href: ./audio-conferencing-in-office-365.md
-  - name: 語音 - Teams 電話與 PSTN 連線
+  - name: 語音 - 電話系統與 PSTN 連線
     items:
       - name: 規劃您的 Teams 語音解決方案
         href: cloud-voice-landing-page.md
-      - name: Teams 電話
+      - name: 電話系統
         items:
-          - name: 什麼是 Teams 電話
+          - name: 什麼是電話系統
             href: what-is-phone-system-in-office-365.md
-          - name: 以下是您取得 Teams 電話的一些功能
+          - name: 以下是可透過電話系統獲得的功能
             href: here-s-what-you-get-with-phone-system.md
-          - name: 設定 Teams 電話
+          - name: 設定電話系統
             href: setting-up-your-phone-system.md
           - name: 設定公共區域電話
             href: set-up-common-area-phones.md
@@ -1021,7 +1021,7 @@ items:
             href: voice-case-study-overview.md
           - name: Teams 升級計畫
             href: voice-case-study-migration-plan.md
-          - name: Teams 電話
+          - name: 電話系統
             href: voice-case-study-phone-system.md
           - name: 位置型路由
             href: voice-case-study-location-based-routing.md
@@ -1033,7 +1033,7 @@ items:
             href: voice-case-study-call-queues.md
       - name: 適用於中小型企業的指導
         items:
-          - name: 適用於中小型企業的 Teams 電話指導
+          - name: 適用於中小型企業的電話系統指引
             href: business-voice/whats-business-voice.md
           - name: 適用國家與地區
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1041,7 +1041,7 @@ items:
             href: business-voice/get-ready-internet.md
           - name: 從經銷商或合作夥伴取得協助
             href: business-voice/reseller-partner-support.md
-          - name: 安裝適用於中小型企業的 Teams 電話
+          - name: 設定中小型企業用電話系統
             items:
               - name: 概觀
                 href: business-voice/set-up-overview.md
@@ -1061,7 +1061,7 @@ items:
                 href: business-voice/port-phone-numbers.md
               - name: 安裝後資源
                 href: business-voice/set-up-finish.md
-          - name: 自訂適用於中小型企業的 Teams 電話安裝
+          - name: 自訂適用於中小型企業的電話系統設定
             items:
               - name: 自訂選項
                 href: business-voice/customize-business-voice.md
@@ -1075,7 +1075,7 @@ items:
                 href: business-voice/create-a-phone-system-call-queue-smb.md
               - name: 設定自動語音應答
                 href: business-voice/create-a-phone-system-auto-attendant-smb.md
-          - name: 管理適用於中小型企業的 Microsoft Teams 電話設定
+          - name: 管理適用於中小型企業的電話系統設定
             items:
               - name: 建立一或多個使用者
                 href: business-voice/create-users.md

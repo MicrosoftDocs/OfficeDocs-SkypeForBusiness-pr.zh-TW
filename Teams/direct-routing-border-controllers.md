@@ -10,16 +10,21 @@ ms.service: msteams
 ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
-  - M365-voice
+- M365-voice
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 hideEdit: true
 f1.keywords:
-  - NOCSH
+- NOCSH
 description: 了解哪些工作階段邊界控制器 (SBC) 已通過直接路由認證。
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 69add2b195da03dee69b2a33583b5dbed8f614e8
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518925"
 ---
-
 # <a name="session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器
 
 Microsoft 與選取的工作階段邊界控制器 (SBC) 廠商合作，以認證其 SBC 可搭配直接路由使用。
@@ -32,14 +37,14 @@ Microsoft 可與每個廠商合作，以：
 - 與 SBC 廠商建立聯合支援流程。
 
   > [!NOTE]
-  > Microsoft 只有在透過直接路由連接通過認證的裝置時，才支援電話系統。 如果發生問題，客戶必須先與 SBC 廠商的客戶支援聯繫。 如有必要，SBC 廠商會透過內部管道將問題呈報給 Microsoft。 Microsoft 保留拒絕非認證裝置透過直接路由連接到電話系統的支援案例的權利。 如果 Microsoft 判斷客戶的直接路由問題與廠商的 SBC 裝置有關，則客戶需要與 SBC 廠商重新聯繫以取得支援。
+  > 與認證裝置一起使用時，Microsoft 僅支援具有直接路由的電話系統。 如果發生問題，您必須先與您的 SBC 廠商的客戶支援聯繫。 如有必要，SBC 廠商會透過內部管道將問題呈報給 Microsoft。 Microsoft 保留拒絕非認證裝置透過直接路由連接到電話系統的支援案例的權利。 如果 Microsoft 判斷客戶的直接路由問題與廠商的 SBC 裝置有關，則客戶需要與 SBC 廠商重新聯繫以取得支援。
   >
   > 認證會授予特定 SBC 韌體版本。 以下記載的任何 SBC 韌體版本都經過認證且受支援。 只要主要、次要版本相同，就支援高於所記載的韌體版本。
   >
   > 範例：
   >
-  > - 支援的 6.10.258 - 在此案例中，我們也支援 6.10.(258 或更高) 版的韌體。
-  > - 建議使用 6.20.100 - 在此案例中，我們也建議您使用 6.20.(100 或更高) 版。
+  > - 支援的 6.10.258 - 在此案例中，Microsoft 支援 6.10 版的韌體。(258 或更高)。
+  > - 建議版本 6.20.100 - 在此案例中，Microsoft 建議使用 6.20 版。(100 或更高)。
   > - 有關特定版本的支援問題，請與 SBC 廠商聯繫。
 
 遵循經過直接路由認證之裝置清單的資料表。 (如需有關哪些 SBC 廠商支援本機媒體最佳化的資訊，請參閱[設定直接路由的本機媒體最佳化](direct-routing-media-optimization-configure.md))。
@@ -90,7 +95,7 @@ Microsoft 可與每個廠商合作，以：
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    |
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    |
-|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape 工作階段邊界控制器   |     &#10004;     |   &#10004;        |     支援而不使用媒體旁路 V10R1.2 (建議使用媒體旁路 V10R2.2.0)     |     |    |
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape 工作階段邊界控制器   |     &#10004;     |   &#10004;        |     V10R2.2.0     |     |    |
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse Networks](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogic BorderNet SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
@@ -168,7 +173,7 @@ Microsoft 可與每個廠商合作，以：
 | [功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. Software version: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  具有 Grandstream GXW42xx 的 anynode (V1.0.7.10) |     &#10004;     |
   
-若要向我們提供有關 Teams 的產品意見反應，例如新功能的想法，請參閱 [Uservoice](https://microsoftteams.uservoice.com)。
+如需提供有關 Teams 的產品意見反應，例如新功能的想法，請參閱 [Uservoice](https://microsoftteams.uservoice.com)。
 
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]

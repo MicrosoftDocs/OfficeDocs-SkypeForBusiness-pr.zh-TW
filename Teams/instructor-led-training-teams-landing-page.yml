@@ -62,9 +62,9 @@ additionalContent:
   sections:
     - title: 課程
       items:
-        - title: 團隊合作專家認證
-          summary: 共同作業是現今工作隊伍的重要技能。 瞭解內部強大的功能Microsoft Teams如何讓您與小組保持連連，並更有效率地工作
+        - title: 團隊合作專家Learning路徑
+          summary: 共同作業是現今工作隊伍的重要技能。 瞭解內部強大的功能Microsoft Teams如何讓您與小組保持聯繫，並更有效率地工作。
           url: /learn/paths/teamwork-specialist
-        - title: 服務採用專家認證
-          summary: Microsoft 服務採用專家認證課程提供Teams。 瞭解如何在組織中推動Microsoft 服務採用
+        - title: 服務採用專家Learning路徑
+          summary: Microsoft 服務採用專家Learning路徑功能Teams及其他Microsoft 365服務。 瞭解如何在貴組織中推動Microsoft 服務採用。
           url: /learn/paths/m365-service-adoption

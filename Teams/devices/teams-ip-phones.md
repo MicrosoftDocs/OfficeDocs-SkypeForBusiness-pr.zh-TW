@@ -21,23 +21,25 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: 83acdef043e972a23a7166b33bd0772d94d62773
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 8364ec0440fafb786966541cc73915e40e031a08
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457243"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518855"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams認證的裝置
 
-Microsoft Teams認證計畫可確保使用經過認證的電話機和會議電話的客戶，能體驗高品質的音訊通話和會議體驗。
+Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，在整個 Teams (體驗Teams音訊、視視、使用者介面和使用者介面) 。 Microsoft 和 OEM 合作夥伴正積極合作，確保裝置符合所有認證需求，包括安全性、音訊和視Teams體驗，以及協助工具。
 
-Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度量的高品質資料條。 合作夥伴正積極努力，以符合此較高的列，且符合認證要求的裝置。 我們的部分合作夥伴也正在努力在電話商務用 Skype硬體上，為Teams服務提供支援。 
+認證計畫是為了確保所有認證裝置都執行 Android 版本，且系統管理中心Teams Teams設定。 認證有效性是以在裝置上執行之 Android OS 版本為基礎，當裝置進入認證計畫時。 我們的 OEM 合作夥伴正努力升級 Android OS 版本和重新認證，或發行最新版的新模型，以延長認證生命週期。 認證有效日期會根據 OEM 合作夥伴升級至較新版本的 Android OS 方案定期更新。
+
+在認證期間之後，Microsoft 承諾在認證期間結束後Teams裝置上支援最新版本的用戶端。
 
 
 ## <a name="currently-certified-teams-phones"></a>目前已Teams手機
 
-下列裝置在電話認證計畫Microsoft Teams認證：
+下列裝置在 Microsoft Teams 認證計畫下通過認證：
 
 |裝置模型    | 固件版本    | 認證結束日期 | Android OS 版本                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
@@ -61,7 +63,7 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 | Yealink MP56 | `122.15.0.6` | 2023 年 8 月 5 日  | 9 |
 | Yealink VP59 | `91.15.0.16` | 2023 年 8 月 5 日  | 9 |
 
-## <a name="currently-certified-teams-rooms-on-android"></a>目前通過 Android Teams 會議室認證
+## <a name="currently-certified-teams-rooms-on-android"></a>目前 Android Teams 會議室認證
 
 下列裝置在 Android 認證計畫Microsoft Teams 會議室認證：
 
@@ -78,7 +80,7 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 | Yealink MeetingBar A20  | `133.15.0.19`      | 2023 年 8 月 5 日 | 焦點會議室 (3m x 3m)  </br> 小型會議室 (4.5m x 4.5m)  | 9 |
 | Poly Studio X30         | `3.1.1.216109`     | 2022 年 12 月 5 日  | 焦點會議室 (3m x 3m)  </br> 小型會議室 (4.5m x 4.5m)  | 8.1 |
 | Poly Studio X50         | `3.1.1.216109`     | 2022 年 12 月 5 日   | 焦點會議室 (3m x 3m)  </br> 小型會議室 (4.5m x 4.5m)  | 8.1 |
-| Poly TC8                | `3.3.2.210441`     | 2023 年 8 月 5 日 | 與 Poly Studio X30 和 Poly Studio X50 相容 | 8.1 |  9  |
+| Poly TC8                | `3.3.2.210441`     | 2023 年 8 月 5 日 | 與 Poly Studio X30 和 Poly Studio X50 相容  |  9  |
 | Yealink VC210           | `118.15.0.14`      | 2023 年 8 月 5 日 | 焦點會議室 (3m x 3m)  </br> 小型會議室 (4.5m x 4.5m)  |  9  |
 
 ## <a name="currently-certified-teams-displays"></a>目前通過 Teams顯示器
@@ -128,6 +130,7 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 
 | 裝置模型  | 固件版本  | 已包含產品發行  |
 |:----------------|:--------------|:----------------------------|
+|音訊代碼 C455HD | 1.15.271    | 2022 更新 #1
 |Poly Trio C60   | `7.2.1.1712`  | 2022 更新 #1   |
 |Poly CCX400/CCX500/CCX600   | `7.2.1.1707`  | 2022 更新 #1  |
 |音訊代碼 C448HD  | `1.14.500` | 2022 更新 #1 |
@@ -182,7 +185,7 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 | Yealink VP59        | `91.15.0.54`         | 2020 更新 #7           |
 | Yealink CP960       | `73.15.0.115`      | 2020 更新 #7           |
 
-請參閱[Microsoft Teams](phones-for-teams.md)手機功能集，以瞭解這些裝置支援的功能相關資訊。
+請參閱[Microsoft Teams手機](phones-for-teams.md)功能集，以瞭解這些裝置支援的功能。
 
 請參閱[Microsoft Teams顯示](teams-displays.md)。
 
@@ -242,7 +245,7 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 
 ### <a name="product-release-information-for-teams-displays"></a>顯示器的產品Teams資訊
 
-以下是顯示應用程式與Microsoft Teams的最新版本。
+以下是顯示 app 和Microsoft Teams版本的最新版本。
 
 #### <a name="app-versions"></a>應用程式版本
 
@@ -289,7 +292,7 @@ Microsoft Teams認證計畫可確保具有較高績效目標與音訊品質度�
 
 ## <a name="more-resources"></a>更多資源
 
-請參閱[Microsoft Teams](phones-for-teams.md)手機功能集，以瞭解這些裝置支援的功能。
+請參閱[Microsoft Teams手機](phones-for-teams.md)功能集，以瞭解這些裝置支援的功能。
 
 請參閱 [尋找行動裝置上的固件版本](phones-for-teams.md) ，以判斷行動裝置上的裝置固件版本。
 
