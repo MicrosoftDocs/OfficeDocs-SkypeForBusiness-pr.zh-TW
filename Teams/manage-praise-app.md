@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 瞭解如何在系統管理中心稱讚應用程式Microsoft Teams應用程式。
-ms.openlocfilehash: 064a1b90db44971e2fd796ea96de2a3523f7f380
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 24ddbc66018056360e226f13669ee3dae1e78db5
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401607"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763308"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在系統稱讚管理中心管理 Microsoft Teams應用程式
 
@@ -23,9 +23,9 @@ ms.locfileid: "62401607"
 系統管理員必須擁有Teams才能存取此功能。 如果您嘗試在沒有授權的情況下存取Teams，就會收到錯誤訊息。
 
 > [!NOTE]
-> 稱讚應用程式適用于雲端GCC，但不適用於高GCC DoD。
+> 此稱讚應用程式適用于雲端GCC，但不適用於高GCC DoD。
 
-## <a name="enable-or-disable-praise-in-your-organization"></a>在組織中啟用稱讚或停用
+## <a name="enable-or-disable-praise-in-your-organization"></a>在貴稱讚中啟用或停用
 
 稱讚為貴組織中所有Teams使用者啟用此功能。 您可以在 Microsoft Teams 系統管理中心的[管理應用程式](manage-apps.md)頁面上關閉或開啟組織層級的應用程式。
 
@@ -42,12 +42,12 @@ ms.locfileid: "62401607"
 
 ## <a name="badges"></a>徽章
 
-以下是其中的預設徽章稱讚。 Teams中的使用者可以使用這些徽章來識別他們的同儕在工作上超越。
+以下是其中的預設徽章組稱讚。 Teams中的使用者可以使用這些徽章來識別他們的同儕在工作上超越。
 
 :::image type="content" source="media/default-set-praise.png" alt-text="預設徽章集的徽章影像。":::
 
 > [!NOTE]
-> 從 2022 年 2 月開始，人員只能傳送和接收預設徽章。 自訂徽章不再提供，而且自訂徽章的選項即將從應用程式設定系統管理中心Teams中移除。****
+> 從 2022 年 2 月開始，人員只能傳送和接收預設徽章。 自訂徽章不再提供，而且自訂徽章的選項已從系統管理中心Teams移除。
 
 ## <a name="related-articles"></a>相關文章
 

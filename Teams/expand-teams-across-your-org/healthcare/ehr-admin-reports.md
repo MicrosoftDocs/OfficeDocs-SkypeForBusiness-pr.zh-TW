@@ -1,5 +1,5 @@
 ---
-title: Teams虛擬訪問 - EHR 連接器系統管理員報告
+title: 在 Teams 中的虛擬Teams - EHR 連接器系統管理員報告
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,23 +8,28 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_Healthcare
-  - microsoftcloud-healthcare
-  - m365solution-healthcare
-  - m365solution-scenario
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-scenario
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.reviewer: ansantam
 description: 查看 EHR 連接器Teams管理員報告
+ms.openlocfilehash: 3f85d48493822db3a26851d281f7a5fddf813960
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763298"
 ---
-
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams EHR 連接器系統管理員報告
 
 [Microsoft Teams電子健康情況記錄 (EHR) 連接器系統管理報告對話方塊提供使用狀況資料的快速且容易閱讀的視圖。
@@ -33,7 +38,7 @@ description: 查看 EHR 連接器Teams管理員報告
 
 從系統管理中心儀表板Microsoft Teams報表。
 
- ![虛擬訪問分配和限制的對話方塊。](../../media/admin-connector-report.png)
+ ![虛擬訪問分配和限制對話方塊。](../../media/admin-connector-report.png)
 
 對話方塊提供下列資料：
 

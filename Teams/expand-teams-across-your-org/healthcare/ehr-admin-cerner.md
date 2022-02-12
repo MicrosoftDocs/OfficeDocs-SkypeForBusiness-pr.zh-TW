@@ -22,23 +22,23 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: 瞭解如何整合 Teams EHR 連接器，讓貴組織的醫療保健提供者直接從 Cerner EHR 系統與 Teams 中的病患或其他提供者進行虛擬的拜訪。
-ms.openlocfilehash: 40bfd115d966e812804c76ab77ab4ea2ddc70d7d
-ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
+description: 瞭解如何整合 Teams EHR 連接器，讓貴組織的醫療保健提供者直接從 Cerner EHR 系統與 Teams 中的病患或其他提供者進行虛擬拜訪。
+ms.openlocfilehash: e7d104e4541462c94ddb95805ae7ec2a8619bf5b
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2022
-ms.locfileid: "62248774"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763697"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>使用虛擬Teams - 整合至 Cerner EHR
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft Teams電子健康記錄 (EHR) 連接器，讓診所醫生能輕鬆地與病患進行虛擬拜訪，或直接從 Cerner EHR 系統向 Microsoft Teams 中的另一個提供者諮詢。 Microsoft 365雲端Teams，可在支援 HIPAA、HITECH 認證等合規性的單一中樞中，使用聊天、視視、語音和醫療保健工具進行簡單、安全的共同合作與通訊。
+Microsoft Teams電子健康記錄 (EHR) 連接器，讓臨床醫師可以直接從 Cerner EHR 系統啟動虛擬病患拜訪，或向 Microsoft Teams 中的另一個提供者諮詢。 Microsoft 365雲端Teams，可在支援 HIPAA、HITECH 認證等合規性的單一中樞中，使用聊天、視視、語音和醫療保健工具進行簡單、安全的共同合作與通訊。
 
 診所通訊和共同Teams平臺，讓診所醫師能輕鬆從零散的系統中剪下雜亂無章的雜物，讓他們能專注于提供最佳的照護。 使用 Teams EHR 連接器，您可以：
 
-- 使用整合Teams，從 Cerner EHR 系統進行虛擬訪問。
+- 使用Teams的臨床工作流程，從 Cerner EHR 系統進行虛擬訪問。
 - 可讓病患從電子郵件Teams簡訊通知加入虛擬訪問。
 - 查看消費資料包告和可自訂的 EHR 相關訪問通話品質資訊。
 
@@ -54,9 +54,9 @@ Microsoft Teams電子健康記錄 (EHR) 連接器，讓診所醫生能輕鬆地�
 在醫療保健組織中Teams EHR 連接器之前，您必須有下列專案：
 
 - 使用 EHR 連接器獨立Microsoft Teams訂閱， (在生產 EHR 環境中測試時) 。
-- 使用者擁有適當的Microsoft 365或Office 365，包括Teams會議。
+- 使用者擁有適當的Microsoft 365或Office 365授權，Teams會議。
 - Teams採用並用於您的醫療保健組織。
-- 您的系統符合[所有軟體與瀏覽器Teams。](../../hardware-requirements-for-the-teams-app.md)
+- 您的系統符合[所有軟體與瀏覽器Teams](../../hardware-requirements-for-the-teams-app.md)。
 - Cerner 版本 2018 年 11 月或更新版本
 
 ## <a name="set-up-the-teams-ehr-connector"></a>設定 EHR Teams連接器
@@ -65,7 +65,7 @@ Microsoft Teams電子健康記錄 (EHR) 連接器，讓診所醫生能輕鬆地�
 
 - [啟動 EHR 連接器組式入口網站](#launch-the-ehr-connector-configuration-portal)
 - [輸入組組資訊](#enter-configuration-information)
-- [啟用簡訊通知 (選) ](#enable-sms-notifications-optional)
+- [啟用簡訊通知 (選項) ](#enable-sms-notifications-optional)
 - [檢閱並完成組態](ehr-admin-cerner.md#review-and-finish-the-configuration)
 
 > [!IMPORTANT]
@@ -79,21 +79,21 @@ Microsoft Teams電子健康記錄 (EHR) 連接器，讓診所醫生能輕鬆地�
 
 ### <a name="enter-configuration-information"></a>輸入組組資訊
 
-接下來，若要設定整合，您的系統管理員Microsoft 365從 Cerner (基本 URL (快速健康互通性資源) 並指定環境。 視貴組織的需求和您想要測試的環境，視需要設定盡可能多的 FHIR 基本 URL。
+接下來，若要設定整合，您的系統管理員Microsoft 365從 Cerner 新增快速健康 (互通性資源) 基本 URL 並指定環境。 視貴組織的需求和您想要測試的環境，視需要設定盡可能多的 FHIR 基本 URL。
 
-:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="EHR 連接器組Teams之組Teams頁面的螢幕擷取畫面。" lightbox="media/ehr-admin-cerner-configuration.png":::
+:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="EHR 連接器組Teams之組Teams螢幕擷取畫面。" lightbox="media/ehr-admin-cerner-configuration.png":::
 
 - FHIR 基本 URL 是對應到伺服器 FHIR API 端點的靜態位址。 範例 URL 是 `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`。
 
 - 您可以設定測試與生產環境的整合。 針對初始設定，我們建議您先從測試環境設定連接器，再移往生產。
 
-驗證 FHIR 基本 URL 並選取環境之後，請選擇 **完成**。 然後，根據需要，為其他環境新增更多 FHIR 基本 URL。
+驗證 FHIR 基本 URL 並選取環境之後，**請選擇完成。** 然後，根據需要，為其他環境新增更多 FHIR 基本 URL。
 
 選取 **下** 一步以前往下一個步驟。
 
 ### <a name="enable-sms-notifications-optional"></a>啟用簡訊通知 (選) 
 
-如果您的組織想要 Microsoft 管理病患的簡訊通知，請完成此步驟。 當您啟用簡訊通知時，您的病患會收到預定虛擬拜訪的確認和提醒訊息。
+如果您的組織想要 Microsoft 管理病患的簡訊通知，請完成此步驟。 當您啟用簡訊通知時，您的病患會收到預定的拜訪的確認和提醒訊息。
 
 若要啟用簡訊通知，您的Microsoft 365系統管理員會執行下列操作：
 
@@ -110,67 +110,67 @@ Microsoft Teams電子健康記錄 (EHR) 連接器，讓診所醫生能輕鬆地�
 
     :::image type="content" source="media/ehr-admin-cerner-phone-number.png" alt-text="顯示產生的電話號碼範例的螢幕擷取畫面。" lightbox="media/ehr-admin-cerner-phone-number.png":::
 
-    選擇 **完成**，然後選取 下 **一步**。
+    選擇 **完成**，然後選取下 **一步**。
 
-1. 若要將電話號碼連結至 FHIR 基本 URL，請在 **電話的號碼** 下，選取該號碼。 針對要啟用簡訊通知的每個 FHIR 基本 URL 執行此操作。
+1. 若要將電話號碼連結至 FHIR 基本 URL，請在 **電話的號碼** 下，選取該號碼。**** 針對要啟用簡訊通知的每個 FHIR 基本 URL 執行此操作。
 
     :::image type="content" source="media/ehr-admin-cerner-link-phone-number.png" alt-text="顯示如何將電話號碼連結至 FHIR 基本 URL 的螢幕擷取畫面。" lightbox="media/ehr-admin-cerner-link-phone-number.png":::
 
     如果這是您第一次配置連接器，會看到先前步驟中輸入的 FHIR 基本 URL。 相同的電話號碼可以連結至多個 FHIR 基本 URL，這表示病患會收到來自不同組織和/或部門之相同電話號碼的簡訊通知。
 
-     選取 下 **一個**。
+     選取 **下一步**。
 
 ### <a name="review-and-finish-the-configuration"></a>檢閱並完成組態
 
-系統將會提供病患與提供者啟動的整合記錄。 這些記錄在 Cerner 中完成虛擬流覽組組時是必要的。 詳細資訊請參閱遠端Cerner-Microsoft Teams整合指南。
+系統將會提供病患與提供者啟動的整合記錄。 這些記錄在 Cerner 中完成虛擬訪問組組時是必要的。 詳細資訊請參閱遠端Cerner-Microsoft Teams整合指南。
 
 > [!NOTE]
 > 您的系統管理員隨時都可以Microsoft 365入口網站來查看整合記錄，並視需要變更設定設定。
 
-## <a name="launch-teams-virtual-visits"></a>啟動 Teams 虛擬就診
+## <a name="launch-teams-virtual-visits"></a>啟動Teams虛擬訪問
 
 完成 EHR 連接器步驟和 Cerner 組組步驟之後，貴組織就可以使用 Teams 支援視Teams。
 
 ### <a name="virtual-visits-prerequisites"></a>虛擬訪問的先決條件
 
-- 您的系統必須符合[所有軟體與瀏覽器需求，Teams。](../../hardware-requirements-for-the-teams-app.md)
+- 您的系統必須符合[所有軟體與瀏覽器需求，](../../hardware-requirements-for-the-teams-app.md)Teams。
 - 您已完成 Cerner 組織與貴組織之間的整合Microsoft 365設定。
 
 ### <a name="provider-experience"></a>提供者體驗
 
-貴組織的醫療保健提供者可以使用 PowerChart 入口網站Teams虛擬訪問。 提供者必須流覽至提供 Teams 選項的病患區。
+貴組織的醫療保健提供者可以使用 PowerChart 入口網站Teams加入訪問。 提供者必須流覽至提供 Teams 選項的病患區。
 
-提供者可以在那裡查看虛擬流覽資訊、加入虛擬流覽，以及傳送會議連結。 一次登錄之後，提供者會直接進入 Teams。
+提供者可以在那裡查看流覽資訊、加入流覽，以及傳送會議連結。 一次登錄之後，提供者會直接進入 Teams。
 
 提供者體驗的主要功能：
 
-- 提供者可以使用支援的瀏覽器或應用程式加入虛擬Teams。
-- 提供者可以使用所有支援的Teams功能，包括螢幕分享、自訂背景和錄製。
-- 提供者可以在 PowerChart 中查看連接到虛擬預約之病患即時更新。
-- 在虛擬流覽期間，病患看不到提供者資訊。
+- 提供者可以使用支援的瀏覽器或應用程式加入Teams。
+- 提供者可以使用所有支援Teams會議功能，包括螢幕分享、自訂背景和錄製。
+- 提供者可以在 PowerChart 中查看連接到指定約會之病患即時更新。
+- 病患在流覽期間看不到提供者資訊。
 
 > [!NOTE]
 > 醫療保健提供者應下載、複製及記錄醫療記錄持續性或保留用途所需的會議聊天中輸入的資訊。 聊天不構成合法的醫療記錄或指定的記錄集。 來自聊天的郵件會根據系統管理員所建立Microsoft Teams儲存。
 
 ### <a name="patient-experience"></a>病患體驗
 
-連接器支援透過簡訊連結加入虛擬拜訪的病患。 預約時，病患可以點一下簡訊中的連結，開始進行虛擬拜訪。
+連接器支援透過簡訊連結加入病患。 在預約時，病患可以點一下簡訊中的連結來開始看診。
 
 病患體驗的主要功能
 
-- 病患可以在桌面和行動版上加入新式網頁瀏覽器的虛擬流覽，而不需要安裝 Teams [App。](../mobile-browser-join.md)
-- 病患只需按一下即可加入虛擬訪問，而不需要其他帳戶或登錄。
-- 病患不需要建立 Microsoft 帳戶或登入就可以啟動虛擬就診。
-- 病患會放在大廳，直到提供者加入預約並准許他們進行虛擬流覽。
-- 在加入虛擬流覽之前，病患可以在大廳測試他們的視像和麥克風。
+- 病患可以在桌面和行動版上加入新式網頁瀏覽器的流覽，[而不需要](../mobile-browser-join.md)安裝 Teams App。
+- 病患只需按一下即可加入看診，而不需要其他帳戶或登錄。
+- 病患不需要建立 Microsoft 帳戶或登錄以啟動流覽。
+- 病患會放在大廳，直到提供者加入並准許他們。
+- 病患可以在加入拜訪前，先在大廳測試視像和麥克風。
 
 ## <a name="privacy-and-location-of-data"></a>資料隱私權和位置
 
-Teams整合至 EHR 系統，可優化整合和虛擬流覽流程期間使用及儲存的資料量。 解決方案遵循 Teams 隱私權中概述的整體 Teams 隱私權和資料管理原則和指導方針。
+Teams整合至 EHR 系統，可優化整合和虛擬訪問流程期間使用及儲存的資料量。 解決方案遵循 Teams 隱私權中概述的整體 Teams 隱私權和資料管理原則和指導方針。
 
 EHR Teams連接器不會從 EHR 系統儲存或傳輸任何可識別的個人資料，或病患或醫療保健提供者的任何健康記錄。 EHR 連接器所儲存的唯一資料是 EHR 使用者的唯一識別碼，用於Teams設定期間。
 
-EHR 使用者的唯一識別碼儲存在 [Microsoft 365 客戶資料儲存位置](/microsoft-365/enterprise/o365-data-locations)的三個地理區域其中之一。 會議參與者在 Teams共用的所有聊天、錄製及其他資料，都是根據現有的儲存策略儲存。 若要深入瞭解資料在 Teams 中的位置，請參閱在 Teams 中[Teams。](../../location-of-data-in-teams.md)
+EHR 使用者的唯一識別碼儲存在 [Microsoft 365 客戶資料儲存位置](/microsoft-365/enterprise/o365-data-locations)的三個地理區域其中之一。 會議參與者在 Teams共用的所有聊天、錄製及其他資料，都是根據現有的儲存策略儲存。 若要深入瞭解資料在 Teams 中的位置，請參閱資料[在](../../location-of-data-in-teams.md)Teams。
 
 ## <a name="related-articles"></a>相關文章
 

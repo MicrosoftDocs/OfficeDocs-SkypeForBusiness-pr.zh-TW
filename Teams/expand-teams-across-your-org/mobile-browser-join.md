@@ -1,5 +1,5 @@
 ---
-title: 管理在行動瀏覽器上Teams虛擬流覽的加入體驗
+title: 管理行動瀏覽器上Teams虛擬流覽的加入體驗
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -21,18 +21,18 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: hafarmer
 description: 瞭解在行動瀏覽器上Teams虛擬流覽的加入體驗。
-ms.openlocfilehash: 5c4b0f7ac9011d12d12e3076f900880292e72eb1
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: 83bbe6e2db29a1ed43bbe1646f8545072dac7d2d
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288561"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763707"
 ---
-# <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>管理在行動瀏覽器上Teams虛擬流覽的加入體驗
+# <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>管理行動瀏覽器上Teams虛擬流覽的加入體驗
 
 Microsoft Teams，使用者無需下載約會，即可在行動裝置上Teams。 為了更順暢地體驗，出席者可以從行動瀏覽器加入約會，例如醫療保健訪問、財務諮詢、教育人員辦公室時數等。 出席者不需要在 Android Teams iOS 行動裝置上安裝應用程式。
 
-使用行動瀏覽器加入時，當出席者從行動裝置加入約會時，系統不會提示他們下載Teams。 相反地，Teams在行動瀏覽器中開啟，出席者可以在這裡選取立即 **加入** 以加入。 使用這項功能時，請記住，如果Teams已安裝在出席者行動裝置上，Teams在行動瀏覽器中開啟，而不是在應用程式中開啟。
+使用行動瀏覽器加入時，當出席者從行動裝置加入約會時，系統不會提示他們下載Teams。 相反地，Teams在行動瀏覽器中開啟，出席者可以在這裡選取立即 **加入** 以加入。 使用這項功能時，請記住，Teams已安裝在出席者行動裝置上，Teams在行動瀏覽器中開啟，而不是在應用程式中開啟。
 
 目前，行動瀏覽器加入適用于透過下列方式排程的約會：
 
@@ -66,9 +66,9 @@ Microsoft Teams，使用者無需下載約會，即可在行動裝置上Teams。
 
 您或教職員不需要設定！
 
-**與 Cerner EHR 的整合**：Teams EHR 連接器可支援透過行動系統加入虛擬訪問的病患。 在預約時，病患可以點一下簡訊中的連結來加入虛擬拜訪。 病患選擇他們想要的瀏覽器，然後Teams瀏覽器中開啟。
+**與 Cerner EHR** 的整合：Teams EHR 連接器可支援透過行動版加入虛擬約會的病患。 預約時，病患可以點一下簡訊中的連結來加入。 病患選擇他們想要的瀏覽器，然後Teams瀏覽器中開啟。
 
-**與Epic EHR** 的整合：Teams EHR 連接器可支援透過 MyChart Web 和 Mobile 加入虛擬訪問的病患。 預約時，病患可以使用開始虛擬瀏覽按鈕，從 MyChart 開始 **虛擬流覽** 。 病患選擇他們想要的瀏覽器，然後Teams瀏覽器中開啟。
+**與Epic EHR** 的整合：Teams EHR 連接器可支援透過 MyChart Web 和 Mobile 加入虛擬約會的病患。 預約時，病患可以使用開始虛擬瀏覽按鈕，從 MyChart **開始流覽。** 病患選擇他們想要的瀏覽器，然後Teams瀏覽器中開啟。
 
 ## <a name="supported-mobile-browsers"></a>支援的手機瀏覽器
 
@@ -86,7 +86,7 @@ Microsoft Teams，使用者無需下載約會，即可在行動裝置上Teams。
 
 ## <a name="things-to-consider"></a>要考慮的事情
 
-進行虛擬流覽的教職員成員可以從桌面、行動Teams用戶端與從行動瀏覽器加入的出席者共用他們的螢幕。 不過，出席者無法從行動瀏覽器共用其螢幕畫面。
+執行此流覽的教職員成員可以從桌面、行動Teams用戶端與從行動瀏覽器加入的出席者共用他們的螢幕。 不過，出席者無法從行動瀏覽器共用其螢幕畫面。
 
 > [!NOTE]
 > 我們會在未來發行新版會議加入體驗中Teams更多功能，因此請回來查看最新資訊。 若要隨時瞭解即將推出的Teams功能，請查看 Microsoft 365[藍圖](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。

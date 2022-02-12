@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 瞭解如何在組織中Teams中管理 Bookings 應用程式。
-ms.openlocfilehash: 2bbc671b1054cfa4340abf7656e17939d147dea2
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: 147089c51ebc6d3e5eb6bf567579c9aa7fc5f2ce
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288341"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763727"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>在應用程式中管理 Bookings Microsoft Teams
 
@@ -51,7 +51,7 @@ Microsoft Teams 中的 Bookings 應用程式提供一種簡單的方式，可預
 
 ## <a name="availability-of-bookings-in-teams"></a>Teams 中的 Bookings 可用性
 
-適用于 microsoft Bookings Teams應用程式可在桌面和網頁上使用。 您可以在系統 [管理中心Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link)中的應用程式及管理應用程式Teams找到。****
+適用于 microsoft Bookings Teams應用程式可在桌面和網頁上使用。 您可以在系統 [管理中心的 Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) **應用程式** 及管理應用程式Teams找到。
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>控制貴組織中 Bookings 的存取權
 
@@ -63,13 +63,13 @@ Microsoft Teams 中的 Bookings 應用程式提供一種簡單的方式，可預
 
 ## <a name="recommended-meeting-policy-settings"></a>建議的會議策略設定
 
-若要為 Bookings 提供最佳體驗，請建立Teams會議政策，以自動准許貴組織中所有人，並將該政策指派給員工。 這麼做可讓教職員自動加入約會，並啟用外部出席者大廳體驗。 深入瞭解如何自動 [允許人員參加會議](meeting-policies-participants-and-guests.md#automatically-admit-people)。
+若要為 Bookings 提供最佳體驗，請Teams會議政策，以自動准許貴組織中所有人，並將該政策指派給員工。 這麼做可讓教職員自動加入約會，並啟用外部出席者大廳體驗。 深入瞭解如何自動 [允許人員參加會議](meeting-policies-participants-and-guests.md#automatically-admit-people)。
 
 ## <a name="optional-staff-approvals-setting"></a>選擇性員工核准設定
 
 作為額外的隱私權設定，您可以選擇員工得先加入後，才能透過 Bookings 分享其排程可用性資訊，以及預約會面。  
 
-若要啟用此設定，請前往Microsoft 365 系統管理中心 **設定** \> **設定** \> ，然後選取 **Bookings**。****
+若要啟用此設定，請前往 \> Microsoft 365 系統管理中心設定 **設定** \> **，然後** 選取 **Bookings**。
 
 開啟此設定後，教職員會收到一封電子郵件，要求他們核准預訂日曆的成員資格。  
 
@@ -104,7 +104,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 
 ## <a name="related-articles"></a>相關文章
 
-[管理在行動瀏覽器上Teams虛擬流覽的加入體驗](expand-teams-across-your-org/mobile-browser-join.md)
+[管理行動瀏覽器上Teams虛擬流覽的加入體驗](expand-teams-across-your-org/mobile-browser-join.md)
 
 
   [適用於終端使用者的 Bookings 文件](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)
