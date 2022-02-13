@@ -249,18 +249,6 @@ items:
                 href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
           - name: 與 Exchange 和 SharePoint 的整合
             href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
-  - name: 從 Kaizala 升級
-    items:
-      - name: 開始使用
-        href: get-started-kaizala-teams.md
-      - name: 準備升級
-        href: prepare-for-teams-kaizala.md
-      - name: 規劃您的升級旅程
-        href: plan-your-move-kaizala.md
-      - name: 瀏覽 Microsoft Teams
-        href: navigate-teams.md
-      - name: 熟悉 Microsoft Teams
-        href: drive-adoption-optimize-kaizala.md
   - name: 安全性、法規遵循與隱私權
     items:
       - name: 概觀
@@ -909,10 +897,6 @@ items:
                     href: direct-routing-media-optimization.md
                   - name: 設定本機媒體最佳化
                     href: direct-routing-media-optimization-configure.md
-              - name: 含有 PSTN 連線功能的混合式環境中的使用者帳戶
-                href: direct-routing-user-accounts-in-a-hybrid-environment.md
-              - name: 移轉至直接路由
-                href: direct-routing-migrating.md
               - name: 監視和疑難排解直接路由
                 items:
                   - name: 概觀
@@ -972,7 +956,7 @@ items:
           - name: 管理電信業者連線的電話號碼
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: 管理直接路由的電話號碼
-            href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online
+            href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
       - name: 語音路由
         items:
           - name: 什麼是撥號對應表？
@@ -1541,7 +1525,7 @@ items:
         items:
           - name: Teams 中的 Bookings
             items:
-              - name: 使用 Microsoft Teams 和 Bookings 應用程式進行虛擬門診
+              - name: 使用 Teams 和 Bookings 進行虛擬門診
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: 管理 Bookings 應用程式
                 href: bookings-app-admin.md
@@ -1651,15 +1635,15 @@ items:
         items:
           - name: 開始使用適用於醫療保健組織的 Teams
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-          - name: 虛擬就診
+          - name: 虛擬門診
             items:
-              - name: 使用 Teams 虛擬就診 - 整合至中心 EHR
+              - name: 使用 Teams 進行虛擬門診 - 整合至中心 EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-              - name: 使用 Teams 虛擬就診 - 整合至中心 EHR
+              - name: 使用 Teams 進行虛擬門診 - 整合至 Epic EHR
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: EHR 系統管理報告
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-              - name: 使用 Microsoft Teams 和 Bookings 應用程式進行虛擬門診
+              - name: 使用 Teams 和 Bookings 進行虛擬門診
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: 管理行動裝置瀏覽器上的加入體驗
                 href: expand-teams-across-your-org/mobile-browser-join.md
@@ -1753,6 +1737,18 @@ items:
             href: get-started-with-teams-essentials.md
           - name: 將 Teams 基本版 (AAD 身分識別) 連結至電子郵件
             href: connect-teams-essentials-to-email.md
+      - name: 從 Kaizala 升級
+        items:
+          - name: 開始使用
+            href: get-started-kaizala-teams.md
+          - name: 準備升級
+            href: prepare-for-teams-kaizala.md
+          - name: 規劃您的升級旅程
+            href: plan-your-move-kaizala.md
+          - name: 瀏覽 Microsoft Teams
+            href: navigate-teams.md
+          - name: 熟悉 Microsoft Teams
+            href: drive-adoption-optimize-kaizala.md
       - name: Microsoft 365 和 Office 365 的互通性
         items:
           - name: Microsoft 365 群組與 Teams
@@ -1762,8 +1758,9 @@ items:
           - name: 使用 Teams 加強現有的 Microsoft 365 群組
             href: enhance-office-365-groups.md
           - name: Exchange 和 Teams 如何互動
-            href: exchange-teams-interact.md
             items:
+              - name: Exchange 和 Teams 如何互動
+                href: exchange-teams-interact.md
               - name: '設定 Exchange 混合式組織以搭配使用 Teams '
                 href: exchange-hybrid-organization.md
               - name: 使用 Exchange 的郵件流程規則
