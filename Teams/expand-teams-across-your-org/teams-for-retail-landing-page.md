@@ -20,12 +20,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74b3f81456b8d0acdff0c41678c04713b5cf967a
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: cb32190c05dcbe165e203d9e4f097622d60943b8
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288411"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763398"
 ---
 # <a name="get-started-with-teams-for-retail"></a>開始使用適用於零售的 Teams
 
@@ -194,8 +194,8 @@ Teams 與班次應用程式和前線工作者整合，可用於協調班次人�
 
 | 影像 | 角色 | 責任 | 部門 |
 | ---- | ---- | ----- | ----- |
-| ![系統管理員符號。](https://docs.microsoft.com/office/media/icons/administrator.png) | IT 系統管理員 | 與營運和零售管理階層人員合作，定義案例及其在組織中的運作方式。 <br><br>在 Teams 系統管理中心進行設定，例如，原則與範本，並啟用應用程式。 <br><br>為組織設定應用程式設定 (例如，全域班次設定)。 <br><br>新增和授權使用者。  | IT 部門 |
-| ![使用者監視符號。](https://docs.microsoft.com/office/media/icons/user-monitor.png) | 作業人員 | 與系統管理員合作以定義案例，並決定 Teams 需要哪些設定、原則、範本和應用程式。 <br><br>從範本建立地區或部門團隊。 <br><br>設定要在地區內的商店之間或商店與總部之間協調的工作、清單和核准流程。 <br><br>設定人員的學習架構。 | 中央作業 |
-| ![簡報者符號。](https://docs.microsoft.com/office/media/icons/presenter-teams.png) | 商店經理 | 與系統管理員和營運人員合作來定義案例。 <br><br>從範本建立商店團隊。 <br><br>視需要為團隊設定頻道和應用程式。 例如：輪班交接頻道。 <br><br>在班次中設定商店排程。 <br><br>設定商店特有的工作、清單和核准流程。 <br><br>設定人員的學習工作。 | 商店管理 |
+|<img src="/office/media/icons/administrator.png" alt="Administrator symbol."> | IT 系統管理員 | 與營運和零售管理階層人員合作，定義案例及其在組織中的運作方式。 <br><br>在 Teams 系統管理中心進行設定，例如，原則與範本，並啟用應用程式。 <br><br>為組織設定應用程式設定 (例如，全域班次設定)。 <br><br>新增和授權使用者。  | IT 部門 |
+|<img src="/office/media/icons/user-monitor.png" alt="User monitor symbol.">| 作業人員 | 與系統管理員合作以定義案例，並決定 Teams 需要哪些設定、原則、範本和應用程式。 <br><br>從範本建立地區或部門團隊。 <br><br>設定要在地區內的商店之間或商店與總部之間協調的工作、清單和核准流程。 <br><br>設定人員的學習架構。 | 中央作業 |
+|<img src="/office/media/icons/presenter-teams.png" alt="Presenter symbol."> | 商店經理 | 與系統管理員和營運人員合作來定義案例。 <br><br>從範本建立商店團隊。 <br><br>視需要為團隊設定頻道和應用程式。 例如：輪班交接頻道。 <br><br>在班次中設定商店排程。 <br><br>設定商店特有的工作、清單和核准流程。 <br><br>設定人員的學習工作。 | 商店管理 |
 
 如需成功實作和採用 Teams 的詳細資訊，請參閱[採用 Microsoft Teams](../adopt-microsoft-teams-landing-page.md)。
