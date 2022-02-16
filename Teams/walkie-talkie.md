@@ -19,17 +19,17 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/13/2022
+ms.lasthandoff: 02/15/2022
 ms.locfileid: "62015013"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>在應用程式中的 Walkie Talkie Microsoft Teams
 
-Teams中的對講Teams App 提供您小組的立即隨 (PTT) 通訊，現在可在 Android & iOS 上使用。 Walkie Talkie 允許使用者使用他們成員相同的基礎頻道，與小組聯繫。 只有在頻道中連接到 Walkie Talkie 的使用者才能成為參與者，而且可以使用隨推即說的方式彼此通訊，一次一個。
+Teams 中的對講Teams App 提供您小組的立即隨 (PTT) 通訊，現在可在 Android & iOS 上使用。 Walkie Talkie 允許使用者使用他們成員相同的基礎頻道，與小組聯繫。 只有在頻道中連接到 Walkie Talkie 的使用者才能成為參與者，而且可以使用隨推即說的方式彼此通訊，一次一個。
 
-在 Teams 中使用 Walkie Talkie，前線員工現在可以使用熟悉的 PTT 體驗安全地通訊，而不需要攜帶大量收音機，而 Walkie Talkie 可在任何位置使用 WiFi 或行動電話網際網路連接。
+使用 Teams 中的 Walkie Talkie，前線員工現在可以安全地使用熟悉的 PTT 體驗進行通訊，而不需要攜帶大量收音機，而 Walkie Talkie 可在任何位置使用 WiFi 或行動電話網際網路連接。
 
 ## <a name="getting-started"></a>快速入門
 
@@ -37,15 +37,15 @@ Teams中的對講Teams App 提供您小組的立即隨 (PTT) 通訊，現在可�
 
 Android 裝置支援在 Android 裝置上使用 Google 行動服務 (GMS) iOS 裝置。 
 
-目前，Walkie Talkie 尚未預先安裝。 若要為貴組織的使用者啟用這項功能，您必須將 Walkie Talkie 新增到 [](teams-app-setup-policies.md)從系統管理中心指派給使用者的應用程式設定Teams   [策略](https://admin.teams.microsoft.com/)。 啟用之後，Walkie Talkie 將在 48 小時內在 App 上提供。
+目前，Walkie Talkie 尚未預先安裝。 若要為貴組織的使用者啟用這項功能，您必須將 Walkie Talkie [ ](teams-app-setup-policies.md)   新增到系統管理中心所針對使用者的[App 設定Teams策略](https://admin.teams.microsoft.com/)。 啟用之後，Walkie Talkie 將在 48 小時內在 App 上提供。
 
 ### <a name="adding-walkie-talkie-to-your-app-list"></a>新增對講臺到您的應用程式清單
 
-在 Microsoft Teams系統管理中心，Teams **應用程式** 設定政策下，您應該將允許使用者釘點設定  >  為 **On**。  接著，在 [釘上的應用程式> 區段下，按一下 **[+新增應用程式>**。
+在 Microsoft Teams系統管理中心，Teams **AppSetup** ****  >  政策下，您應該將允許 **使用者** 釘點設定為 **On**。 接著，在 [釘上的應用程式> 區段下，按一下 **[+新增應用程式**>。
 
 :::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="顯示已釘選的 App 區段和要選取的新增應用程式按鈕。":::
 
-在右側 **出現的新增釘上** 應用程式面板上，使用搜尋文字方塊尋找Walkie Talkie。 當您將名稱做為搜尋結果時，請選取名稱右邊的新增按鈕，將其新加到清單中。
+在右側 **出現的新增釘上** 應用程式面板上，使用搜尋文字方塊尋找 Walkie Talkie。**** 當您將名稱做為搜尋結果時，請選取名稱右邊的新增按鈕，將其新加到清單中。
 
 :::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="顯示在搜尋窗格中輸入 Walkie 的已釘選應用程式側邊欄，以及搜尋結果中的 Walkie Talkie 應用程式，旁邊有新增按鈕。":::
 
@@ -81,18 +81,18 @@ Teams對講Teams需要網際網路連接，且網路條件低於網路條件才�
   - 只有 Android (有線耳機) 
     - [克洛因電子](https://www.kleinelectronics.com/poc-accessories/mtwt/)
 - **崎嶇的 Android 手機**
-  - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)， [Galaxy XCover 5，](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy) [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
+  - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)， [Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)， [Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
     - 手動設定 - 安裝Teams之後，流覽至 設定 > XCover/Active 鍵>進>功能。 開啟 '使用 App 控制 XCover 鍵'，然後選取 'Teams'
     - [MDM 設定](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
-  - 斑 [馬版 TC5x，](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html) [TC7x，](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html) [TC2x，](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html) [EC5x，](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html) [EC30，](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html) [MC3300，](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html) [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
+  - 斑 [馬版 TC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc52-tc57-series-touch-computer.html)、 [TC7x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc72-tc77-series-touch-computer.html)、 [TC2x](https://www.zebra.com/us/en/products/mobile-computers/handheld/tc21-tc26.html)、 [EC5x](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec50-ec55.html)、 [EC30](https://www.zebra.com/us/en/products/mobile-computers/handheld/ec30.html)、 [MC3300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc3300.html)、 [MC9300](https://www.zebra.com/us/en/products/mobile-computers/handheld/mc9300.html) 
     - 手動設定 - Teams安裝之後，專用 PTT 按鈕 (LEFT_TRIGGER_2) 在 Walkie Talkie 中運作
     
 > [!NOTE]
-> 這些裝置未通過Teams認證。 它們已經過驗證，可Teams Walkie Talkie。
+> 這些裝置未通過Teams認證。 它們已經過驗證，Teams Walkie Talkie 使用。
 
 ### <a name="license-requirements"></a>授權需求
 
-Walkie Talkie 應用程式會包含在所有付費授權Teams訂閱Office 365[中](/office365/servicedescriptions/teams-service-description)。 若要進一Teams，請參閱如何 [存取Microsoft Teams？](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
+Walkie Talkie 應用程式會包含在所有付費授權Teams訂閱Office 365[中](/office365/servicedescriptions/teams-service-description)。 若要進一Teams，請參閱如何存取 [Microsoft Teams](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)？
 
 ## <a name="further-information"></a>進一步資訊
 

@@ -8,18 +8,23 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
-  - Microsoft Teams
+- Microsoft Teams
 search.appverid: MET150
 description: 了解 Microsoft Teams 中的核准應用程式可用性。
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: ea3da24dc0fa3a64d90b38a67b13be0fa4d041ce
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "62421546"
 ---
-
 # <a name="teams-approvals-app-availability"></a>Teams 核准應用程式可用性
 
 核准應用程式可以個人應用程式形式供所有 Microsoft Teams 使用者使用。
@@ -36,7 +41,7 @@ appliesto:
 本文章說明核准應用程式的需求和角色。
 
 > [!NOTE]
-> 這項功能尚未發行至 政府社群雲端 GCCH (，) 美國國防部 (DOD) 使用者。
+> 這項功能尚未發行至 政府社群雲端 GCCH (，) 美國 (DOD) 使用者。
 
 ## <a name="required-permissions-and-licenses"></a>必要的權限和授權
 
@@ -48,7 +53,7 @@ appliesto:
 
 - 目標環境中的系統管理員角色。
 
-- 適用于[Power Automate、](/power-automate/get-started-approvals)Office 365或 Dynamics 365 授權。
+- 適用于[Power Automate Office 365](/power-automate/get-started-approvals)或 Dynamics 365 授權。
 
 - 使用者需要 Microsoft Forms 授權才能設定新的核准範本。
 
@@ -94,10 +99,10 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 
 - 所有團隊擁有者都可以為他們擁有的團隊建立核准範本。
 
-- 當系統管理員第一次為整個組織建立範本時，系統會自動為租使用者的所有系統管理員建立一個新的 Azure Active Directory (AAD) 群組，包括全域Teams管理員。 這些系統管理員會新增為群組擁有者，以便共同管理組織範本。 小組建立之後，組織的新管理員必須手動新增為群組擁有者，以便他們擁有管理全組織範本的相同許可權。
+- 當系統管理員第一次為整個組織建立範本時，系統會自動為租使用者的所有系統管理員建立一個新的 Azure Active Directory (AAD) 群組，包括全域Teams服務系統管理員。 這些系統管理員會新增為群組擁有者，以便共同管理組織範本。 小組建立之後，組織的新管理員必須手動新增為群組擁有者，以便他們擁有管理全組織範本的相同許可權。
 
 > [!Note]
-> 如果系統管理員刪除群組，您還有一個月的時間在 Azure Active Directory (AAD) 入口網站中還原群組，以還原所有關聯資料。 一個月後，或如果系統管理員在回收站中刪除此群組，您將失去所有相關的資料。
+> 如果系統管理員刪除群組，您只有一個月的時間才能在 Azure Active Directory (AAD) 入口網站中還原群組，以還原所有關聯資料。 一個月後，或如果系統管理員在回收站中刪除此群組，您將失去所有相關的資料。
 
 ## <a name="disable-the-approvals-app"></a>停用核准應用程式
 
