@@ -21,12 +21,12 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '瞭解如何設定大廳、接待區和會議室的公用區域電話 '
-ms.openlocfilehash: a4e4720fe7baf58d0da6f00800c61b706ec48516
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 144e32e1bf56bc3e2d64d0c6a1a137fd501442b7
+ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279261"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62856661"
 ---
 # <a name="deploy-common-area-phones-for-microsoft-teams"></a>部署常用的地區電話Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "62279261"
 
 ## <a name="overview"></a>概觀
 
-共同區域電話授權支援： 
+公用區域電話授權支援： 
 
 
 | &nbsp;  |  公用區域電話  |
@@ -55,17 +55,17 @@ ms.locfileid: "62279261"
 &sup2;在主權雲端中不可用  
 
 >[!NOTE]
-> 無法移商務用 Skype Server電話的常用區域Microsoft Teams。 請遵循本文中的步驟，重新建立這些帳戶Teams並如有必要，請遷移您的 PTSN 連接。
+> 在 商務用 Skype Server 中建立的共同區域電話物件帳戶無法移Microsoft Teams。 請遵循本文中的步驟，重新建立這些帳戶Teams並如有必要，請遷移您的 PTSN 連接。
 
 ## <a name="step-1---buy-the-licenses"></a>步驟 1 - 購買授權
 
-首先，您需要購買通用區域電話 (CAP) 授權，然後確認您擁有經過認證的電話。 若要搜尋並深入瞭解認證電話，請前往[Microsoft Teams裝置](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
+首先，您需要購買一般區域電話 (CAP) 授權，並確認您擁有經過認證的電話。 若要搜尋並深入瞭解認證電話，請前往[Microsoft Teams裝置](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)。
 
 1. 在 Microsoft 365 系統管理中心，請前往 **BillingPurchase** ****  >  服務。 
 
 2. If the **View by category** section isn't already displayed, go to **Purchase from Microsoft**, and select **View products**. 然後選取 **共同合作與通訊**。  
 
-3. 在產品清單中，尋找 **共同區域電話** 並選取詳細 **資料**。
+3. 在產品清單中，尋找 **常用區域電話** 並選取詳細 **資料**。
 
 4. 輸入所需的授權數量，然後 **選取購買。**
 
@@ -104,7 +104,7 @@ ms.locfileid: "62279261"
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-當您想要一次建立及指派多個使用者帳戶授權時，請使用 PowerShell。 請參閱[使用 powerShell Microsoft 365](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide)建立使用者帳戶，以及使用[PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) Microsoft 365指派授權給使用者帳戶以瞭解更多資訊。
+當您想要一次建立及指派多個使用者帳戶授權時，請使用 PowerShell。 請參閱[使用 powerShell Microsoft 365](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide)建立使用者帳戶，[以及使用 PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) Microsoft 365指派授權給使用者帳戶以瞭解更多資訊。
 
 ## <a name="step-3---set-policies-for-common-area-phones"></a>步驟 3 - 設定一般地區電話的政策
 
@@ -121,9 +121,9 @@ ms.locfileid: "62279261"
 
 ### <a name="calling-policies"></a>通話原則
 
-使用通話策略啟用私人通話、使用呼叫轉轉，或同時撥打一般地區電話。 如需[深入瞭解，](teams-calling-policy.md)請參閱在 Teams通話和呼叫轉轉。
+使用通話策略啟用私人通話、使用呼叫轉轉，或同時撥打一般地區電話。 如需[深入瞭解，](teams-calling-policy.md)請參閱在 Teams 通話和呼叫轉Teams轉。
 
-根據預設，一般地區電話不會啟用通話停駐。 您需要建立一個策略來啟用它。 如需[深入瞭解，請參閱在 Microsoft Teams](call-park-and-retrieve.md)中呼叫駐Microsoft Teams並取回。
+根據預設，一般地區電話不會啟用通話停駐。 您需要建立一個策略來啟用它。 如需[深入瞭解，](call-park-and-retrieve.md)請參閱在 Microsoft Teams中呼叫駐Microsoft Teams並取回。
 
 ## <a name="step-4---acquire-and-assign-phone-numbers"></a>步驟 4 - 取得及指派電話號碼
 
