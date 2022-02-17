@@ -18,19 +18,19 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 瞭解 Microsoft Direct Routing 如何讓您將支援的客戶提供的會話邊界控制器 (SBC) 電話系統。
-ms.openlocfilehash: 9f75646dd90b4c30384e12ae23fdc46be8825fab
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 9070acf8483041115308335abac49796be311453
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518835"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881538"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
 > [!Tip]
 > 觀看下列會話以瞭解直接路由的好處、如何規劃，[以及如何](https://aka.ms/teams-direct-routing)部署：直接路由Microsoft Teams
 
-直接路由可讓您將支援、客戶提供的會話邊界控制器 (SBC) 到電話系統。 有了這項功能，您可以設定內部部署公用交換電話網絡 (PSTN) 與 Microsoft Teams 用戶端的Microsoft Teams，如下圖所示： 
+直接路由可讓您將支援、客戶提供的會話邊界控制器 (SBC) 到電話系統。 有了這項功能，您可以設定內部部署公用交換電話網絡 (PSTN) 用戶端Microsoft Teams，如下列圖表所示： 
 
 ![顯示內部部署 PSTN 連接配置的圖表。](media/PlanDirectRouting1-PSTNwithTeams.png "與用戶端進行內部部署 PSTN Microsoft Teams組")
 
@@ -38,13 +38,13 @@ ms.locfileid: "62518835"
   > 商務用 Skype Online 也可讓您配對客戶提供的 SBC，但這需要在 SBC 和 Microsoft Cloud 之間進行內部部署 商務用 Skype Server 部署或稱為雲端連接器的特殊版 商務用 Skype。 此案例稱為混合式語音。 相反地，直接路由允許在支援的 SBC 和 Microsoft Cloud 之間直接連接。
 
 > [!Important]
-> 雲端連接器版將于 2021 年 7 月 31 日與 商務用 Skype一起淘汰。 一旦貴組織升級至 Teams，瞭解如何使用直接路由將內部部署電話網絡Teams[網路](direct-routing-landing-page.md)。 
+> 雲端連接器版本將于 2021 年 7 月 31 日與 商務用 Skype一起淘汰。 一旦貴組織升級至 Teams，瞭解如何使用直接路由將內部部署電話網絡Teams[網路](direct-routing-landing-page.md)。 
 
 使用直接路由，您可以將 SBC 連接到幾乎任何電話主幹，或和協力廠商 PSTN 設備進行互連。 直接路由可讓您： 
 
 - 使用幾乎任何 PSTN 主幹電話系統。 
 
-- 設定客戶擁有電話設備之間的互通性，例如 PBX (、類比裝置) 協力廠商私人分支交換Teams。
+- 設定客戶擁有的電話設備之間的互通性，例如 PB) X (、類比裝置Teams。
 
 Microsoft 也提供全雲端語音解決方案，例如通話方案。 不過，如果： 
 
@@ -78,15 +78,15 @@ Microsoft 也提供全雲端語音解決方案，例如通話方案。 不過，
 |:--- |:--- |
 |會話邊界控制器 (SBC) |支援的 SBC。 詳細資訊，請參閱 [支援的 SBCs](#supported-session-border-controllers-sbcs)。|
 |連接到 SBC 的電話主幹|連接到 SBC 的一或多個電話主幹。 在一端，SBC 會透過直接路由電話系統連結至網路。 SBC 也可以連接到協力廠商電話實體，例如 PBX、類比電話轉接器等。 任何連接至 SBC 的 PSTN 連接選項都會使用。  (若要將 PSTN 主幹組到 SBC，請參閱 SBC 廠商或主幹提供者。) |
-|Microsoft 365組織|這是Microsoft 365使用者，以及 SBC 的組Microsoft Teams與連接所使用之組織。|
-|使用者註冊機構|使用者必須Microsoft 365。<br/>如果您的公司有內部部署商務用 Skype Lync 環境，且與 Microsoft 365 的混合式Teams，您無法為內部部署使用者啟用 Teams 中的語音。<br/><br/>若要檢查使用者的註冊機構，請使用下列商務用 Skype PowerShell Cmdlet：<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Cmdlet 的輸出應該會顯示：<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|域|新增到您組織或組織Microsoft 365一Office 365網域。<br/><br/>請注意，您無法使用自動 \* 為租使用者 onmicrosoft.com 網域 .onmicrosoft.com 網域。<br/><br/>若要查看網域，您可以使用下列商務用 Skype PowerShell Cmdlet：<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>有關網域和網域或Microsoft 365組織Office 365，請參閱[網域常見問題](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
+|Microsoft 365組織|這是Microsoft 365使用者，以及 SBC 的組Microsoft Teams和連接。|
+|使用者註冊機構|使用者必須Microsoft 365。<br/>如果您的公司有內部部署商務用 Skype Lync 環境，且與 Microsoft 365 有混合式Microsoft 365，您無法為內部部署使用者啟用 Teams 語音。<br/><br/>若要檢查使用者的註冊機構，請使用下列商務用 Skype PowerShell Cmdlet：<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Cmdlet 的輸出應該會顯示：<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|域|新增到您組織或組織的一Microsoft 365 Office 365網域。<br/><br/>請注意，您無法使用自動 \* 為租使用者 onmicrosoft.com 網域 .onmicrosoft.com 網域。<br/><br/>若要查看網域，您可以使用下列工具商務用 Skype PowerShell Cmdlet：<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>有關網域和網域或Microsoft 365組織Office 365，請參閱[網域常見問題](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)。|
 |SBC 的公用 IP 位址|可用來連接到 SBC 的公用 IP 位址。 根據 SBC 類型，SBC 可以使用 NAT。|
 |適用于 SBC (FQDN) 功能變數名稱|SBC 的 FQDN，其中 FQDN 的網域部分是貴組織或組織Microsoft 365 Office 365網域。 詳細資訊請參閱 [SBC 功能變數名稱](#sbc-domain-names)。|
 |SBC 的公用 DNS 專案 |將 SBC FQDN 與公用 IP 位址的公用 DNS 專案。 |
 |SBC 的公用信任憑證 |SBC 的憑證，用於使用直接路由進行所有通訊。 詳細資訊，請參閱 [SBC 的公用信任憑證](#public-trusted-certificate-for-the-sbc)。|
 |直接路由的連接點 |直接路由的連接點為下列三個 FQDNs：<br/><br/>`sip.pstnhub.microsoft.com` – 必須先嘗試全域 FQDN。<br/>`sip2.pstnhub.microsoft.com` – 次要 FQDN，地理上會繪製至第二個優先順序區域。<br/>`sip3.pstnhub.microsoft.com` – 三級 FQDN，地理上可繪製至第三個優先順序區域。<br/><br/>有關組組需求的資訊，請參閱 [SIP 訊號：FQDNs](#sip-signaling-fqdns)。|
-|直接路由媒體的防火牆 IP 位址和埠 |SBC 會與雲端中的下列服務通訊：<br/><br/>SIP Proxy，可處理訊號<br/>媒體處理器，可處理媒體 -除非媒體旁路已啟用<br/><br/>這兩個服務在 Microsoft Cloud 中分別有 IP 位址，本檔稍後會說明。<br/><br/>如要詳細資訊，請參閱 URL [Microsoft Teams](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) IP 位址範圍[中的](/office365/enterprise/urls-and-ip-address-ranges)一節。 |
+|直接路由媒體的防火牆 IP 位址和埠 |SBC 會與雲端中的下列服務通訊：<br/><br/>SIP Proxy，可處理訊號<br/>媒體處理器，可處理媒體 -除非媒體旁路已啟用<br/><br/>這兩個服務在 Microsoft Cloud 中分別有 IP 位址，本檔稍後會說明。<br/><br/>如要詳細資訊，請參閱 URL [Microsoft Teams](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) IP 位址範圍中的 >[>一](/office365/enterprise/urls-and-ip-address-ranges)節。 |
 |媒體傳輸設定檔|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
 適用于媒體的防火牆 IP 位址Microsoft Teams埠 |詳細資訊請參閱 [URL 和 IP 位址範圍](/office365/enterprise/urls-and-ip-address-ranges)。 |
 |||
@@ -115,9 +115,9 @@ Microsoft 也提供全雲端語音解決方案，例如通話方案。 不過，
 
 Teams使用者可以開始一對一Teams對 PSTN 或 Teams 對 Teams 通話，並新增 PSTN 參與者。 此案例稱為臨時會議。 通話路徑取決於升級通話的使用者是否已指派 Microsoft 音訊會議授權：
 
-- **如果Teams** 升級通話的使用者已指派 Microsoft 音訊會議授權，則升級會透過 Microsoft 音訊會議服務進行。 受邀加入現有通話的遠端 PSTN 參與者會收到來電通知，並查看指派給啟動升級Teams使用者的 Microsoft 橋接器號碼。
+- **如果Teams** 升級通話的使用者已指派 Microsoft 音訊會議授權，則升級會透過 Microsoft 音訊會議服務進行。 受邀加入現有通話的遠端 PSTN 參與者會收到來電通知，並查看指派給啟動升級的 Teams 使用者的 Microsoft 橋接器號碼。
 
-- **如果Teams** 升級的使用者沒有指派 Microsoft 音訊會議授權，則升級會透過連接至直接路由介面的會話邊界控制器進行。 受邀加入通話的遠端 PSTN 參與者會收到來電通知，並查看啟動Teams的號碼。 升級時所使用的特定 SBC 是由使用者的路由策略所定義。 
+- **如果Teams** 升級通話的使用者沒有指派 Microsoft 音訊會議授權，則升級會透過連接至直接路由介面的會話邊界控制器進行。 受邀加入通話的遠端 PSTN 參與者會收到來電通知，並查看啟動Teams的號碼。 升級時所使用的特定 SBC 是由使用者的路由策略所定義。 
 
 您必須確保下列各項：
  
@@ -129,7 +129,7 @@ Teams使用者可以開始一對一Teams對 PSTN 或 Teams 對 Teams 通話，�
 
 為同一個使用者混合通話方案與直接路由連接是選擇性的，但可能很有用。 例如，當使用者被指派 Microsoft 通話方案，但想要使用 SBC 路由某些通話時。 最常見的案例之一是呼叫協力廠商 PBX。  使用協力廠商 PBX 時，除了連接到該 PBX 的電話之外，所有通話都是使用 Microsoft 通話方案路由，但連至協力廠商 PBX 的電話會傳送到 SBC，因此會留在商業網路內，而不是 PSTN。 
 
-若要進一電話系統授權的詳細資訊，請參閱從Office方案[](https://products.office.com/compare-all-microsoft-office-products?tab=2)[選項](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options)Microsoft Teams[附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。 
+若要進一電話系統授權，請參閱從Office方案選項Microsoft Teams [](https://products.office.com/compare-all-microsoft-office-products?tab=2) [附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。[ ](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) 
 
 ## <a name="supported-end-points"></a>支援的結束點 
 
@@ -154,7 +154,7 @@ contoso.com|是|**有效的名稱：**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.
 |contoso.onmicrosoft.com|否|SBC onmicrosoft.com 不支援使用 *.onmicrosoft.com 網域
 
 假設您要使用新的功能變數名稱。 例如，您的租使用者 contoso.com 在租使用者中註冊的功能變數名稱，而您想要使用 sbc1.sip.contoso.com。 在將 SBC 與名稱配對 sbc1.sip.contoso.com，您必須在租使用者 sip.contoso.com 網域註冊功能變數名稱。 如果您在註冊功能變數名稱之前嘗試將 SBC 與 sbc1.sip.contoso.com 配對，將會收到下列錯誤：「無法使用 「sbc1.sip.contoso.com」網域，因為它未為此租使用者所配置」。
-新增功能變數名稱之後，您也需要使用 UPN 帳戶建立使用者，user@sip.contoso.com 指派Teams授權。 將功能變數名稱新加入租使用者網域、建立具有新名稱的使用者，以及指派授權給使用者之後，最多可能需要 24 小時的時間才能完整配置功能變數名稱。 
+新增功能變數名稱之後，您也需要使用 UPN 帳戶建立使用者 user@sip.contoso.com 指派Teams授權。 將功能變數名稱新加入租使用者網域、建立具有新名稱的使用者，以及指派授權給使用者之後，最多可能需要 24 小時的時間才能完整配置功能變數名稱。 
 
 一家公司在一個租使用者中可能有幾個 SIP 位址空間。 例如，公司可能 contoso.com SIP 位址空間，fabrikam.com 作為第二個 SIP 位址空間。 有些使用者有位址 user@contoso.com，有些使用者有位址 user@fabrikam.com。 
 
@@ -162,16 +162,16 @@ SBC 只需要一個 FQDN，而且可以從配對租使用者的任何位址空�
 
 ## <a name="public-trusted-certificate-for-the-sbc"></a>SBC 的公用信任憑證
 
-Microsoft 建議您針對 SBC 要求憑證，在CSR (中) 。 有關產生 SBC 的CSR 的特定指示，請參閱 SBC 廠商提供的互連指示或檔。 
+Microsoft 建議您針對 SBC 要求憑證，在CSR (要求) 。 有關產生 SBC 的CSR 的特定指示，請參閱 SBC 廠商提供的互連指示或檔。 
 
 > [!NOTE]
 > 大部分的憑證頒發 (CA) 要求私密金鑰大小至少為 2048。 產生CSR 時，請記住這一點。
 
-憑證必須具有 SBC FQDN 做為 CN (的公用名稱) 或 SAN (的) 名稱。
+憑證必須具有 SBC FQDN 做為 CN (或 SAN) 或 SAN (名稱) 名稱。
 
-或者，直接路由支援 CN 和/或 SAN 中的萬用字元，而萬用字元必須符合標準的 [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1)。 例如，使用 \* .contoso.com 會符合 SBC FQDN sbc.contoso.com，但無法與 sbc.test.contoso.com。
+或者，直接路由支援 CN 和/或 SAN 中的萬用字元，而萬用字元必須符合標準的 [RFC HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1)。 例如，使用 \* .contoso.com 會符合 SBC FQDN sbc.contoso.com，但與 sbc.test.contoso.com。
 
-直接路由 SIP 介面只會信任由憑證授權單位 (註冊的憑證) Microsoft 信任的根憑證計畫一部分。 請確定您的 SBC 憑證是由程式的一部分 CA 簽署，而且憑證的擴充金鑰使用量 (EKU) 副檔名包含伺服器驗證。
+直接路由 SIP 介面只會信任由憑證頒發機構 (註冊的憑證) Microsoft 根信任證書計畫一部分的 CA。 請確定您的 SBC 憑證由程式的 CA 簽署，且憑證的擴充金鑰使用量 (EKU) 包括伺服器驗證。
 深入瞭解： [計畫需求 - Microsoft 信任的根計畫](/security/trusted-root/program-requirements)
   
 [包含 CA 憑證清單](https://ccadb-public.secure.force.com/microsoft/IncludedCACertificateReportForMSFT)
@@ -182,7 +182,7 @@ Microsoft 建議您針對 SBC 要求憑證，在CSR (中) 。 有關產生 SBC �
 - DigiCert 高保證 EV 根 CA
 
 > [!NOTE]
-> 如果針對 SBC 上的 Teams 連接啟用相互 TLS (MTLS) 支援，則必須在 Teams TLS 上下文的 SBC 根信任存放區中安裝Baltimore CyberTrust 根憑證。  (這是因為 Microsoft 服務憑證使用Baltimore 根憑證。) 若要下載Baltimore 根憑證，請參閱Office 365[鏈](/microsoft-365/compliance/encryption-office-365-certificate-chains)。
+> 如果 SBC 上的 Teams 連接已啟用相互 TLS (MTLS) 支援，則必須在 Teams TLS 上下文的 SBC 根信任存放區中安裝Baltimore CyberTrust Root 和 DigiCert 全域根 G2 憑證。  (這是因為 Microsoft 服務憑證會使用這兩個根憑證中的一個。) 若要下載這些根憑證，請參閱Office 365[鏈](/microsoft-365/compliance/encryption-office-365-certificate-chains)。 有關詳細資料，請參閱[Office TLS 憑證變更](/microsoft-365/compliance/encryption-office-365-tls-certificates-changes)。
 
 ## <a name="sip-signaling-fqdns"></a>SIP 訊號：FQDNs 
 
@@ -193,15 +193,15 @@ Microsoft 建議您針對 SBC 要求憑證，在CSR (中) 。 有關產生 SBC �
 - Office 365 GCC高
 - Office 365 DoD
 
-深入瞭解[Office 365 美國政府](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)環境，例如 GCC、GCC高和 DoD。
+深入瞭解[Office 365 美國政府](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government)環境，例如 GCC、GCC高GCC DoD。
 
-### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365和Office 365 GCC環境
+### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365、Office 365及Office 365 GCC環境
 
 直接路由的連接點為下列三個 FQDNs：
 
 - **sip.pstnhub.microsoft.com** 全域 FQDN - 必須先嘗試。 當 SBC 傳送解決此名稱的要求時，Microsoft Azure DNS 伺服器會返回指向指派給 SBC 的主要 Azure 資料中心的 IP 位址。 此工作分派是根據資料中心的績效度量，以及 SBC 鄰近的地理位置。 所退回的 IP 位址會對應到主要 FQDN。
 
-- **sip2.pstnhub.microsoft.com** – 次要 FQDN – 地理上會繪製至第二個優先順序區域。
+- **sip2.pstnhub.microsoft.com** - 次要 FQDN - 地理上會繪製至第二個優先順序區域。
 
 - **sip3.pstnhub.microsoft.com** - 三級 FQDN – 地理上可繪製至第三個優先順序區域。
 
@@ -222,7 +222,7 @@ FQNS -sip.pstnhub.microsoft.com、sip2.pstnhub.microsoft.com sip3.pstnhub.micros
 
 直接路由的連接點為下列 FQDN：
 
-**sip.pstnhub.dod.teams.microsoft.us** - 全域 FQDN。 由於 Office 365 DoD 環境僅存在於美國資料中心，因此沒有次要和三級 FQDNs。
+**sip.pstnhub.dod.teams.microsoft.us** - 全域 FQDN。 由於Office 365 DoD 環境僅存在於美國資料中心，因此沒有次要和三級 FQDNs。
 
 FQDN sip.pstnhub.dod.teams.microsoft.us 會從下列子網解析為 IP 位址：
 
@@ -244,7 +244,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 會從下列子網解析為 IP 位址：
 
 ## <a name="sip-signaling-ports"></a>SIP 訊號：埠
 
-您必須在提供直接路由Microsoft 365或Office 365環境使用下列埠：
+您必須在提供直接路由Microsoft 365或Office 365使用下列埠：
 
 - Microsoft 365或Office 365
 - Office 365 GCC
@@ -253,7 +253,7 @@ FQDN sip.pstnhub.gov.teams.microsoft.us 會從下列子網解析為 IP 位址：
 
 |交通|從|自|來源埠|目的地埠|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP Proxy|SBC|1024 – 65535|只有在 SBC 埠 5061 (高/Office 365 GCC埠 5061 上定義，才能) |
+|SIP/TLS|SIP Proxy|SBC|1024 – 65535|在 SBC (中Office 365 GCC只有埠 5061 才能使用) |
 SIP/TLS|SBC|SIP Proxy|在 SBC 上定義|5061|
 ||||||
 
@@ -307,7 +307,7 @@ SBC 會進行 DNS 查詢來解決 sip.pstnhub.microsoft.com。 根據 SBC 位置
 - 歐洲 (英國南部、法國中部、荷蘭的阿姆斯特丹和) 
 - 亞洲 (新加坡資料中心) 
 - 日本 (JP East 和 West 資料中心) 
-- 澳洲 (東部和東南亞資料中心) 
+- 澳大利亞 (東部和東南亞資料中心) 
 - 巴西南部 (LATAM) 
 - 南非 (南非北部) 
 
@@ -333,7 +333,7 @@ SBC 會進行 DNS 查詢來解決 sip.pstnhub.microsoft.com。 根據 SBC 位置
 
 ## <a name="supported-session-border-controllers-sbcs"></a>支援會話邊界控制器 (SBC) 
 
-Microsoft 僅支援經過認證的 SBCs 與直接路由配對。 由於企業語音企業至關重要，因此 Microsoft 會與選取的 SBC 執行大量測試，並且與 SBC 廠商合作，以確保兩個系統相容。 
+Microsoft 僅支援經過認證的 SBCs 與直接路由配對。 由於企業語音非常重要，因此 Microsoft 會與選取的 SBC 執行大量測試，並且與 SBC 廠商合作，以確保兩個系統相容。 
 
 已驗證的裝置會列為直接路由Teams認證。 所有案例都保證認證裝置能夠使用。 
 

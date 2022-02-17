@@ -475,8 +475,6 @@ items:
         href: teams-channels-overview.md
       - name: 私人頻道概觀
         href: private-channels.md
-      - name: 管理私人頻道的生命週期
-        href: private-channels-life-cycle-management.md
       - name: 在 Teams 中指派團隊擁有者和成員
         href: assign-roles-permissions.md
       - name: 團隊的動態成員資格概觀
