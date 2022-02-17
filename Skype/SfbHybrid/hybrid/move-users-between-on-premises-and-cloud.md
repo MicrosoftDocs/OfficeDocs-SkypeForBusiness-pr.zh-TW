@@ -18,12 +18,12 @@ ms.collection:
 - Adm_Skype4B_Online
 ms.custom: ''
 description: 摘要：在內部部署中為混合式啟用的商務用 Skype Server，您可以在內部部署環境與雲端之間移動使用者。
-ms.openlocfilehash: ae0855388c4f97cd43e250ea5ee7aec1e1bf7938
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 35df23b0d71daa4e3631a4c6a733af51e370f195
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766776"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62863926"
 ---
 # <a name="move-users-between-on-premises-and-cloud"></a>在內部部署和雲端之間移動使用者
 
@@ -43,8 +43,8 @@ ms.locfileid: "61766776"
 - 組織必須正確設定 Azure AD 連線，並同步處理使用者的所有相關屬性（如[設定 Azure AD 連線](configure-azure-ad-connect.md)所述）。
 - 必須設定商務用 Skype 混合式，如[Configure 商務用 Skype 混合](configure-federation-with-skype-for-business-online.md)式中所述。
 - 使用者必須已獲指派授權 Teams 和商務用 Skype 線上 (方案 2) 。 商務用 Skype 線上撤銷後，仍然需要商務用 Skype 線上授權。  此外：
-    - 如果使用者已在內部部署中啟用電話撥入式會議，依預設，使用者在線上移動使用者之前，還必須在 Teams 中指派音訊會議授權。 使用者一旦移轉到雲端，就會在雲端中佈建 [音訊會議]。 如果因某些原因而想要將使用者移至雲端，但不使用音訊會議功能，您可以在 `Move-CsUser` 中指定 `BypassAudioConferencingCheck` 參數，以覆寫此勾選。
-    - 如果使用者已在內部部署中啟用企業語音，使用者在線上移動使用者之前，必須先在 Teams 中指派電話系統授權。 使用者一旦移轉到雲端，就會在雲端中佈建 [電話系統]。 若由於某些原因您想要將使用者移至雲端，但未使用電話系統功能，您可以在中指定參數，以覆寫此檢查 `BypassEnterpriseVoiceCheck` `Move-CsUser` 。
+    - 如果使用者已在內部部署中啟用電話撥入式會議，則在您將使用者移至線上狀態下，使用者還必須在 Teams 中指派音訊會議授權。 使用者一旦移轉到雲端，就會在雲端中佈建 [音訊會議]。 
+    - 如果使用者已在內部部署中啟用企業語音，使用者必須先在 Teams 中指派電話系統授權，然後才能將使用者移到線上狀態。 遷移至雲端後，會為雲端中的電話系統布建使用者。 
 
 
 ## <a name="moving-users"></a>移動使用者
@@ -55,11 +55,11 @@ ms.locfileid: "61766776"
 
 - 從內部部署的連絡人會移至 Teams。
 
-- 其組織的現有會議會遷移至線上：如果使用者直接移至 TeamsOnly (請參閱下列) 、會議會轉換成 Teams 會議，否則會議仍然存在商務用 Skype 但會進行遷移，以供線上（而非內部部署）。  會議移轉會同步發生，並在移動使用者之後約 90 分鐘開始。  若要判斷會議移轉狀態，可以使用 [Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms)。 請注意，不會移動會議之前上傳的任何內容。
+- 其組織的現有會議將在未來排程，會轉換為 Teams 會議。 會議移轉會同步發生，並在移動使用者之後約 90 分鐘開始。  若要判斷會議移轉狀態，可以使用 [Get-csMeetingMigrationStatus](../../SfbOnline/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms.md#managing-mms)。 請注意，不會移動會議之前上傳的任何內容。
 
 若要將使用者移至 Teams，請使用 Move-CsUser Cmdlet 或商務用 Skype 系統管理員控制台，這兩者都是內部部署工具。 這些工具支援下列移動路徑：
 
-- [從商務用 Skype Server (內部部署) 直接 Teams](move-users-from-on-premises-to-teams.md) (也會將其移至商務用 Skype 線上) 。  不論使用的是哪個版本的商務用 Skype Server 或 Lync Server，都現在只會自動從內部部署移至 Teams 的行為。 您不再需要指定 `-MoveToTeams` 參數來取得此行為。  
+- [從商務用 Skype Server (內部部署) 直接到 Teams](move-users-from-on-premises-to-teams.md)。  不論使用的是哪個版本的商務用 Skype Server 或 Lync Server，都現在只會自動從內部部署移至 Teams 的行為。 您不再需要指定 `-MoveToTeams` 參數來取得此行為。  
 - [從 [線上] (Teams 是否只或不) ）為內部部署](move-users-from-the-cloud-to-on-premises.md)。
 
 > [!NOTE] 
@@ -71,10 +71,10 @@ ms.locfileid: "61766776"
 若要在內部部署與雲端之間移動使用者，您必須在內部部署商務用 Skype Server 環境和 Teams 組織中使用具有足夠許可權的帳戶。 您可以使用一個具有所有必要許可權的帳戶，也可以使用兩個帳戶，在這種情況下，您可以使用內部部署認證來存取內部部署工具，然後在這些工具中，您會為 Teams 系統管理帳戶提供額外的認證。  
 
 - 在內部部署環境中，執行移動的使用者必須具備商務用 Skype Server 中的 [CSServerAdministrator]、[CsUserAdministrator] 和 [RTCUniversalUserAdmins] 角色。
-- 在 Teams 中，執行移動的使用者必須符合下列其中一個條件：
-  - 使用者是全域系統管理員角色的成員。
-  - 使用者是 Teams 管理員和使用者管理員角色的成員。
-  - 使用者是商務用 Skype 管理員和使用者管理員角色的成員。  
+- 在 Teams 中，執行移動的使用者必須是至少一個下列角色的成員：
+  - 全域系統管理員角色
+  - Teams 系統管理員角色
+  - 商務用 Skype 系統管理員角色。  
 
     > [!Important]
     > - 如果您使用商務用 Skype 系統管理員控制台，系統會提示您使用適當的角色為 Microsoft 365 帳戶提供認證，如上所述。 您必須提供一個以 onmicrosoft.com 結尾的帳戶。 如果無法做到，請使用 Move-CsUser Cmdlet。

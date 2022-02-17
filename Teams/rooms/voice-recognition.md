@@ -1,5 +1,5 @@
 ---
-title: 租使用者系統管理中語音 (設定檔) 控制項Teams 會議室
+title: 租使用者系統管理在 (語音設定檔) 語音辨識Teams 會議室
 author: serdars
 ms.author: serdars
 ms.reviewer: parisataheri
@@ -8,16 +8,21 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解租使用者系統管理在會議室 (語音設定檔) 語音Teams控制項。
+description: 瞭解租使用者系統管理在會議室 (語音) 語音Teams控制項。
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 9c970fb3d8584c9a68512187158c7dad11562c4a
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62863896"
 ---
-
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智慧型喇叭的語音辨識技術控制項
 
 智慧型喇叭會使用語音設定檔資訊來識別誰在即時抄寫中表達內容。 當Microsoft Teams 會議室會議室Windows配備智慧型演講者時，可在會議期間使用即時抄寫。 本文將說明租使用者系統管理員如何控制用於語音辨識的語音分析，以產生即時抄寫。 您可以控制組織使用語音辨識的程度，以及下列功能：
@@ -77,13 +82,16 @@ appliesto:
 |政策|描述|值與行為|
 |-|-|-|
 |註冊UserOverride|在租使用者Teams設定中設定語音設定檔捕獲或註冊。 |**已停用**<br><ul><li> 從未註冊的使用者無法查看、註冊或重新註冊。<li>註冊流程的進入點將會隱藏。<li>如果使用者選取註冊頁面的連結，就會看到一則訊息，指出其組織尚未啟用此功能。  <li>已註冊的使用者可以在設定中查看和移除Teams設定檔。 移除語音設定檔後，他們將無法查看、存取或完成註冊流程。</li></ul><br>**啟用**<br><ul><li> 使用者可以查看、存取及完成註冊流程。<li>進入點會顯示在 Teams 的設定 **頁面上**。</li></ul>|
-|roomAttributeUserOverride|控制會議室中的語音使用者識別。 此設定適用于Teams 會議室帳戶。| **關閉**<br><ul><li>Teams 會議室裝置不會從會議室傳送音訊串流節省頻寬。 <li>會議室使用者不會被屬性或區分，而且他們的語音簽名也不會被取回或使用。<li>會議室使用者不明。</li></ul> <br>**屬性**<br><ul><li>會議室使用者會依據他們的註冊狀態來屬性。<li>註冊的使用者在文字翻譯中會顯示其名稱。  <li>未註冊的使用者會顯示為演講者 \<n> 。<li>Teams 會議室裝置會從會議室傳送七個音訊流。</ul> <br>**區分**<br> <ul><li>會議室使用者會以喇叭 1、喇叭 2、....喇 \<n> 叭。</li><li>無論使用者的註冊狀態為何，其名稱不會顯示在文字翻譯中。</li><li>Teams 會議室裝置會從會議室傳送七個音訊流。</li></ul>
+|roomAttributeUserOverride|控制會議室中的語音使用者識別。 此設定適用于Teams 會議室帳戶。| **關閉**<br><ul><li>Teams 會議室裝置不會從會議室傳送音訊串流節省頻寬。 <li>會議室使用者不會被屬性或區分，而且他們的語音簽名也不會被取回或使用。<li>會議室使用者不明。</li></ul> <br>**屬性**<br><ul><li>會議室使用者會依據他們的註冊狀態來屬性。<li>註冊的使用者在文字翻譯中會顯示其名稱。  <li>未註冊的使用者會顯示為演講者 \<n> 。<li>此Teams 會議室裝置會從會議室傳送七個音訊資料流程。</ul> <br>**區分**<br> <ul><li>會議室使用者會以喇叭 1、喇叭 2、....喇 \<n> 叭。</li><li>無論使用者的註冊狀態為何，其名稱不會顯示在文字翻譯中。</li><li>此Teams 會議室裝置會從會議室傳送七個音訊資料流程。</li></ul>
 |AllowTranscription|使用者和會議室帳戶Teams必填專案。|**True** 和 **False**|
 ||||
 
-在 Teams系統管理中心中，設定 **文字翻譯** 政策。 設定預設 **為關閉**。
+在系統管理Teams中，設定 **文字翻譯** 政策。 設定為 **關閉**。
 
 ![系統管理中心，且會議政策已強調，且已選取允許抄寫。](../media/allow-transcription1.png)
+  
+> [!NOTE]
+> 指派策略後，最多可能需要 48 小時才能生效。 若要讓政策更早生效，帳戶必須簽出並重新簽回。
 
 ## <a name="frequently-asked-questions-faq"></a>常見問題集 (FAQ)
 
@@ -93,11 +101,11 @@ appliesto:
 
 **什麼是保留時間表和策略？**
 
-資料保留概觀中會說明一 [般保留政策](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。 此外，如果使用者未在 3 年內受邀參加智慧型喇叭的任何會議，使用者的語音設定檔資料將在 3 年後刪除。 資料不會用於現有員工的任何會議。 如果員工離職，語音設定檔資料會視為使用者內容，並Office 365資料保留概觀所述之資料保留政策視為[使用者內容](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。
+資料保留概觀中會說明一 [般保留政策](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。 此外，如果使用者未在 1 年內受邀參加智慧型喇叭的任何會議，使用者的語音設定檔資料將在 1 年後刪除。 資料不會用於現有員工的任何會議。 如果員工離職，語音設定檔資料會視為使用者內容，並Office 365資料保留概觀所述之資料保留政策視為[使用者內容](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。
 
 **語音設定檔資料是否用於Microsoft 服務？**
 
-否，語音設定檔資料只會用於使用者提供同意的目的。 Microsoft 不會使用語音設定檔資料，除非在語音Teams情況中。
+否，語音設定檔資料只會用於使用者提供同意的目的。 Microsoft 不會使用語音設定檔資料，除非Teams語音辨識案例。
 
 例如，Microsoft 不會在下列情況下使用資料：
 

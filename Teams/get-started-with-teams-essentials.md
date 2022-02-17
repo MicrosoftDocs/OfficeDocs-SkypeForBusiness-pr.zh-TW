@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a779d094e7a1f266a19aaecf6bbb86732f75f66b
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279371"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864026"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>適用於小型企業的 Microsoft Teams 基本版快速入門指南
 
@@ -100,14 +100,6 @@ Microsoft Teams 基本版可直接在 Microsoft 網站購買，並選取 Microso
 > 若要取得增強的系統管理及整組 Teams 功能，您必須為使用者購買適當的 [Microsoft 365 或 Office 365 訂閱方案](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options)，以升級至完整版的 Teams。 我們建議您採用此方法，因為您將擁有更多彈性來管理組織共同合作的方式。
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Microsoft Teams 基本版的系統管理限制和規格
-
-以下是一些作為系統管理員要考慮的重要 Teams 基本版限制和規格：
-
-  - **系統管理：** Teams 基本版訂閱 **無法** 具有 Teams 系統管理中心的存取權。 Teams 基本版使用者可以享受 Microsoft 365 系統管理中心的簡化模式，以執行重要作業，例如管理訂閱和設定新使用者。
-
-  - **Microsoft Teams PowerShell：**，由於缺少 PowerShell 支援，您 **無法** 使用 PowerShell 命令列直接管理 Teams 基本版。
-
-  - **儲存空間**：Teams 基本版會使用 OneDrive 的個人雲端儲存空間來儲存檔案。
 
 請前往此處：[Microsoft Teams 限制和規格](/microsoftteams/limits-specifications-teams)，以深入瞭解適用于 Teams 的限制、規格及其他要求。
 
