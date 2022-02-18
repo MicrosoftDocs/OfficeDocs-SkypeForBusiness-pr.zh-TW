@@ -19,12 +19,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef9f41dd9317e31fc91a587abfac40370b035376
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: f86550586a28e1d5261cacb17941b9501d5402a1
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288849"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864046"
 ---
 # <a name="retail-team-collaboration"></a>零售團隊共同作業
 
@@ -56,7 +56,7 @@ Teams 包含下列通訊和共用資訊的方式：
 | ---- | ---- | ---- | ---- | ---- |
 | 建立、管理及共用排程| 班次 | 使用班次順暢地管理和共用排程。 經理可以建立自訂群組 (例如，收銀員或接待員)、將班次指派給員工、新增自訂標籤和休息時間，以及新增員工可以要求接受的開放班次。 員工可以使用班次來設定其狀態、檢視其排程、與同事換班，以及打卡上下班。 | [管理班次](/microsoftteams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams)|[班次訓練影片](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)|
 | 保持連絡 | 無線對講機 | 無線對講機應用程式提供即時的隨按即說通訊。 使用無線對講機，員工和經理可以從商店中的任何位置進行通訊。 例如，如果商店一端的客戶詢問員工某項目是否在商店另一端的庫存中，該員工可以使用無線對講機來連絡在該項目附近工作的人。 由於無線對講機的範圍無限，因此員工也可以輕鬆地諮詢其他商店或公司辦公室的專家。 | [管理無線對講機](../walkie-talkie.md)  | [無線對講機訓練影片](https://support.microsoft.com/office/use-walkie-talkie-in-teams-884a008a-761e-4b62-99f8-15671d9a2f69) |
-| 提升士氣 | 稱讚 | 稱讚應用程式可讓管理階層和商店內夥伴互相稱讚，並傳送預先建立或自訂的徽章來分享感謝。 稱讚可協助員工對成就 (例如達成銷售目標以及超越預期目標) 感覺受到認可，以協助客戶。 | [管理稱讚應用程式](../manage-praise-app.md) |[稱讚訓練影片](https://support.microsoft.com/office/communication-and-praise-7d37ef80-542b-42e5-aa01-0fabbaa634b6) |
+| 提升士氣 | 稱讚 | 稱讚應用程式可讓管理階層和商店內夥伴互相稱讚，並傳送徽章來分享感謝。 稱讚可協助員工對成就 (例如達成銷售目標以及超越預期目標) 感覺受到認可，以協助客戶。 | [管理稱讚應用程式](../manage-praise-app.md) |[稱讚訓練影片](https://support.microsoft.com/office/communication-and-praise-7d37ef80-542b-42e5-aa01-0fabbaa634b6) |
 | 追蹤和監視工作 | 工作 | 在 Teams 中使用工作以追蹤整個零售團隊的待辦事項。 商店經理和員工隨時都可以在執行 Teams 的任何裝置上建立、指派及排程工作、分類工作及更新狀態。 IT 專業人員和系統管理員也可以發佈工作給貴組織的特定小組。 例如，您可以發佈一組工作以進行每日清理，或步驟以設定新的顯示。| [管理工作應用程式](/microsoftteams/manage-tasks-app) |[工作訓練影片](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070) |
 | 簡化核准 | 核准 | 使用核准以簡化與您的團隊的要求與程序。 直接從您的團隊合作中心建立、管理及共用核准。 從您傳送聊天、使用頻道交談或在核准應用程式本身的相同位置開始核准流程。 只要選取核准類型、新增詳細資料、附加檔案，然後選擇核准者。 一旦提交，核准者會收到通知，而且可以對要求進行檢視並採取行動。<br>您可以為組織允許核准應用程式，並將其新增到 Teams。 | [Teams 核准應用程式可用性](/microsoftteams/approval-admin) | [核准訓練影片](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3?wt.mc_id=otc_microsoft_teams)|
 
