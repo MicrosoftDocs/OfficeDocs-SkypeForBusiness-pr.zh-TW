@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的私人頻道。
-ms.openlocfilehash: 8d041d0fa8a182cb3cebf485c9cef92f880a99e5
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: edf3fc2933bf51f3c5966fa8e021fe0ff50de39b
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299008"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881548"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人頻道
 
@@ -74,18 +74,14 @@ Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空�
 
 |動作  |小組擁有者|小組成員|小組來賓|私人頻道擁有者|私人頻道成員|私人頻道來賓|
 |---------|---------|---------|---------|---------|---------|---------|
-|建立私人頻道|系統管理員控制|系統管理員和小組擁有者控制|否|不適用|N/A|不適用|
+|建立私人頻道|系統管理員控制|系統管理員和小組擁有者控制|否|不適用|不適用|不適用|
 |刪除私人頻道|是|否|否|是|否|否|
-|離開私人頻道|N/A|N/A|不適用|是，除非他們是最後一個擁有者|是|是|
-|編輯私人頻道|否|不適用|N/A|是|否|否|
+|離開私人頻道|N/A|不適用|不適用|是，除非他們是最後一個擁有者|是|是|
+|編輯私人頻道|否|不適用|不適用|是|否|否|
 |還原已刪除的私人頻道|是|否|否|是|否|否|
-|新增成員|否|不適用|N/A|是|否|否|
-|編輯設定|否|不適用|N/A|是|否|否|
-|管理索引標籤和應用程式|否|不適用|N/A|是，必須為小組安裝應用程式|頻道擁有者控制|否|
-
-## <a name="manage-the-lifecycle-of-private-channels"></a>管理私人頻道的生命週期
-
-如需如何管理貴組織中私人頻道生命週期的指引，請參閱[管理 Teams 中的私人頻道生命週期](private-channels-life-cycle-management.md)。 這包括如何控制貴組織的使用者是否能夠建立私人頻道、如何代表小組擁有者建立私人頻道、如何取得所有私人頻道訊息的清單以進行封存和稽核之用，以及其他管理工作。  
+|新增成員|否|不適用|不適用|是|否|否|
+|編輯設定|否|不適用|不適用|是|否|否|
+|管理索引標籤和應用程式|否|不適用|不適用|是，必須為小組安裝應用程式|頻道擁有者控制|否|
 
 ## <a name="private-channel-sharepoint-sites"></a>私人頻道 SharePoint 網站
 
@@ -139,3 +135,5 @@ Teams 會管理私人頻道網站的生命週期。 如果在 Teams 以外刪除
 [Teams PowerShell 概觀](teams-powershell-overview.md)
 
 [使用 Microsoft 圖形 API 搭配 Teams](/graph/api/resources/teams-api-overview)
+
+[頻道資源類型](/graph/api/resources/channel)
