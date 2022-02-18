@@ -89,32 +89,32 @@ items:
                     href: teams-adoption-drive-awareness.md
                   - name: 排程服務健康情況檢閱
                     href: teams-adoption-schedule-service-health-reviews.md
-          - name: 部署 Teams 用戶端
+          - name: 用戶端部署
             items:
               - name: 取得 Teams 用戶端
                 href: get-clients.md
-              - name: 在中國取得 Android 版 Teams
-                href: get-teams-android-in-china.md
-              - name: Teams 應用程式的硬體需求
-                href: hardware-requirements-for-the-teams-app.md
-              - name: 硬體解碼器和編碼器驅動程式的建議
-                href: hardware-decoders-and-encoders.md
-              - name: 使用 Microsoft Endpoint Configuration Manager 安裝 Microsoft Teams
+              - name: Teams 用戶端更新
+                href: teams-client-update.md
+              - name: 使用 Windows Installer 大量安裝 Teams
                 href: msi-deployment.md
-              - name: 開啟組織中的 Teams
-                href: Office-365-set-up.md
-              - name: Microsoft Teams 如何使用記憶體
-                href: teams-memory-usage-perf.md
-              - name: Microsoft 365 和 Office 365 URL 和 IP 位址範圍
-                href: office-365-urls-ip-address-ranges.md
               - name: 適用於虛擬桌面基礎架構 (VDI) 的 Teams
                 href: teams-for-vdi.md
               - name: 適用遠端桌面環境 (RDP) 的 Teams
                 href: teams-on-rdp.md
-              - name: Teams 用戶端更新
-                href: teams-client-update.md
               - name: 疑難排解安裝和更新問題
                 href: troubleshoot-installation.md
+              - name: 參考
+                items:
+                  - name: Microsoft 365 URL 和 IP 位址範圍
+                    href: office-365-urls-ip-address-ranges.md
+                  - name: 硬體需求
+                    href: hardware-requirements-for-the-teams-app.md
+                  - name: Teams 如何使用記憶體
+                    href: teams-memory-usage-perf.md
+                  - name: 硬體解碼器和編碼器驅動程式的建議
+                    href: hardware-decoders-and-encoders.md
+                  - name: Teams 防火牆 PowerShell 指令碼
+                    href: client-firewall-script.md
       - name: Teams 訓練
         items:
           - name: Teams 的管理訓練
@@ -1767,6 +1767,8 @@ items:
             href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: 管理 SharePoint 和 Teams 整合設定
             href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
+      - name: 開啟組織中的 Teams
+        href: Office-365-set-up.md
       - name: Teams PowerShell
         items:
           - name: 概觀

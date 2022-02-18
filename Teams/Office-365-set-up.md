@@ -1,5 +1,5 @@
 ---
-title: 開啟Teams或Microsoft 365 Office 365
+title: 開啟Teams中的Microsoft 365
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 audience: admin
-description: 瞭解如何為貴組織或Microsoft Teams開啟Microsoft 365，Office 365使用者授權以控制個別存取，以及允許或封鎖內容來源。
+description: 瞭解如何為組織Microsoft Teams開啟Microsoft 365帳戶。
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -20,28 +20,15 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9341ad677ba3a8d6d866959f8a3afa7520f1de1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c0cc442c400faf9e1ca045df85cb7266bb7f3ba7
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631547"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893512"
 ---
 # <a name="turn-on-teams-in-your-organization"></a>開啟組織中的 Teams
 
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
+Microsoft Teams所有組織都開啟此功能。 您可以使用使用者層級授權控制Teams組織中使用者的存取權。 若要深入了解，請參閱[管理使用者對 Teams 的存取](user-access.md)。 若要深入瞭解管理個別授權，請閱讀Microsoft Teams[描述](/office365/servicedescriptions/teams-service-description)。
 
-預設會為所有組織開啟 Teams。 如果您在預覽期間使用了 Teams，設定會與您在 Teams 預覽期間的設定相同。 
-
-
-您身為組織的系統管理員，可以指派使用者授權來控制對 Teams 的個別存取權，並允許或封鎖可在 Teams 中使用的內容來源。 如需詳細資訊，請參閱[管理組織的 Microsoft Teams 設定](enable-features-office-365.md)或[管理 Microsoft Teams 中應用程式的設計](admin-settings.md)。 
-
-
- 
-若要深入瞭解管理個別授權，請閱讀Microsoft Teams[描述](/office365/servicedescriptions/teams-service-description)。 
-
- 
-## <a name="turn-teams-on-or-off-for-your-entire-organization"></a>為整個組織開啟或關閉 Teams 
- 
-[!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]
+您身為組織的系統管理員，可以指派使用者授權來控制對 Teams 的個別存取權，並允許或封鎖可在 Teams 中使用的內容來源。 如需詳細資訊，請參閱[管理組織的 Microsoft Teams 設定](enable-features-office-365.md)或[管理 Microsoft Teams 中應用程式的設計](admin-settings.md)。
