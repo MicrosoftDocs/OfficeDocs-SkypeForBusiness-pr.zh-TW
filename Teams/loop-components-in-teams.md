@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7264d7f08342121a862943dd8b063fe904c87072
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 660ecd7542eadd56b284642895e5da15a1cdd434
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893726"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918937"
 ---
 # <a name="overview-of-loop-components-in-teams"></a>迴圈元件概觀Teams
 
@@ -38,9 +38,11 @@ ms.locfileid: "62893726"
 
 **從聊天開始，從該開始建立。** 您從聊天Teams建立的每一個元件都會自動儲存到 OneDrive。 因此，您可能會開始在聊天中共同合作，然後再移至檔案，因為檔案的視覺空間較大，可以視需要新增更多元件。
 
+有關迴圈元件在 Teams 中的系統管理設定，請參閱[管理](/sharepoint/manage-loop-components)SharePoint。
+
 ## <a name="clients-and-platforms"></a>用戶端和平臺
 
-適用于 Teams、mac Windows Linux、iOS 和 Android 上的應用程式。
+適用于 Teams、Mac Windows Linux、iOS 和 Android 上的應用程式。
 
 ## <a name="loop-components-and-fluid-files"></a>迴圈元件和 .fluid 檔案
 
@@ -60,7 +62,7 @@ OneDrive保留原則適用于 .fluid 檔案，就像適用于使用者建立的�
 
 迴圈元件可以在聊天中插入Teams，或從一個聊天複製到另一個聊天。  (通道中尚不支援迴圈元件。) 它們預設為組織的現有許可權，但使用者可以在傳送前變更許可權，以確保每個人都能存取。
 
-在 Office.com 中Teams聊天中開啟元件，提供視窗頂端的共用功能，類似其他 Office 檔的共用選項。
+在 Teams.com 中開啟Office聊天的元件，提供視窗頂端的共用功能，類似其他檔Office選項。
 
 ## <a name="what-if-a-fluid-file-becomes-corrupted-or-damaged"></a>如果 .fluid 檔案損毀或損毀，該怎麼處理？
 
@@ -72,16 +74,12 @@ OneDrive保留原則適用于 .fluid 檔案，就像適用于使用者建立的�
 
 ## <a name="known-issues"></a>已知問題
 
-- 在 Android 上使用聊天時，無法透過Office 應用程式編輯Teams元件。
+- 在 Android 上使用聊天時，無法透過Office 應用程式編輯聊天Teams元件。
 - 如果租使用者的預設檔案許可權設定為 [特定人員 (只有使用者指定的人員) ，而寄件者在建立元件時，會從許可權對話方塊中的 [特定人員清單上移除部分使用者」，這些使用者可能仍具有內容存取權。
-- 將租使用者預設檔案許可權設定為 [特定人員 (只有使用者指定的人員) ，將連結複製到即時元件，並在另一個聊天中加上，則寄件者需要使用許可權對話方塊，並新增 [特定人員選項中收件者以正確授予存取權。
-- 將租使用者預設檔案許可權設定為特定 *人員 (只有* 使用者指定的人員) ，在超過 20 個成員的群組聊天中建立即時元件會要求寄件者手動選取元件的許可權選項。
+- 將租使用者預設檔案許可權設定為 [特定人員 (只有使用者指定的人員) ，將連結複製到即時元件，並在另一個聊天中進行粘貼，則寄件者需要使用許可權對話方塊，並新增 [特定人員選項中收件者以正確授予存取權。
+- 將租使用者預設檔案許可權設定為特定 *人員 (只有* 使用者指定的人員) ，在超過 20 個成員的群組聊天中建立即時元件，會要求寄件者手動選取元件的許可權選項。
 - 在搜尋中搜尋迴圈Teams會返回連結至 office.com 中的元件，而不是聊天訊息本身。
 - 在聯合聊天中，迴圈元件會停用。
 - B2B 來賓將無法透過公司共用連結，在即時元件上共同合作。 將許可權設定為 **目前在此聊天中的人員** ，以與 B2B 來賓共用元件。
 - 在頻道中不支援Teams元件。
 - 只有在檔案移至不同的文件庫時，才能載入聊天中的迴圈元件。 如果檔案移至不同的資料夾，檔案會繼續在聊天中載入。
-
-## <a name="related-topics"></a>相關主題
-
-[管理中迴圈SharePoint](/sharepoint/manage-loop-components)

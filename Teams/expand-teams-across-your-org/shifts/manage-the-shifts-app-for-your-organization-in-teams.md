@@ -24,18 +24,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fa274c8aa068d7b17ce35d17525b58152677de07
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: dd40888ec8f1f7c5c05c3f5a2bf5a867ece93a65
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288371"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918876"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [班次] 應用程式
 
 ## <a name="overview-of-shifts"></a>班次概觀
 
-應用程式中的 Shifts 應用程式Microsoft Teams前線員工保持連接與同步。這是專為團隊快速且有效的時間管理與通訊所打造的行動電話。 輪班讓前線員工及其主管使用行動裝置管理排程並保持聯繫。
+此應用程式中的 Shifts Microsoft Teams讓前線員工保持連接與同步。這是專為團隊快速且有效的時間管理與通訊所打造的行動電話。 輪班讓前線員工及其主管使用行動裝置管理排程並保持聯繫。
 
 - 主管建立、更新及管理團隊的排班表。 主管也可以傳送訊息給單一個人 (「地板上有打翻的液體」) 或整個團隊 (「區域總經理將於 20 分鐘後抵達」)。 主管還可以傳送原則文件、新訊佈告欄或影片。
 - 員工可查看預排的班次、查看當天還有誰已排班、要求調班或調班，以及要求請假。
@@ -52,6 +52,10 @@ ms.locfileid: "62288371"
 ## <a name="location-of-shifts-data"></a>班次資料的位置
 
 班次資料目前儲存在位於北美洲、西歐和亞太地區資料中心的 Azure 中。 如需有關資料儲存位置的詳細資訊，請參閱[我的資料在哪裡](http://o365datacentermap.azurewebsites.net/)？
+
+## <a name="shifts-data"></a>移動資料
+
+若要深入瞭解 Shifts 資料的儲存位置，以及 Shifts 資料的保留、取回和加密，請參閱 [Shifts 資料常見問題](shifts-data-faq.md)。
 
 ## <a name="set-up-shifts"></a>設定班次
 
@@ -86,6 +90,7 @@ ms.locfileid: "62288371"
 
 ## <a name="related-topics"></a>相關主題
 
+- [Teams 中的 Shifts](../shifts-for-teams-landing-page.md)
 - [第一線員工輪班協助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [將原則指派給 Teams 中的使用者](../../policy-assignment-overview.md)
 - [移轉連接器](shifts-connectors.md)
+- [將原則指派給 Teams 中的使用者](../../policy-assignment-overview.md)

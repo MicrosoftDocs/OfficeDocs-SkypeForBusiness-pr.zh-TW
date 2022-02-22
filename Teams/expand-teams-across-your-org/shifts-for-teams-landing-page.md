@@ -22,12 +22,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 4c3ed73b3238be2795c30fa7d162ed201cd77afd
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: b92cca01512d31fe193a718eede74fd04f44ae2e
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288501"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918866"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的 Shifts
 
@@ -43,8 +43,9 @@ ms.locfileid: "62288501"
 
 |&nbsp;  |&nbsp; |
 |---------|---------|
-|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">|**[管理貴組織的班次](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** 瞭解如何為貴組織管理班次。 |
-|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">|**[管理班管理的排程擁有者](shifts/schedule-owner-for-shift-management.md)** 這項功能可讓您將團隊成員的許可權提升為排程擁有者，而不需要讓員工成為團隊擁有者。 |
+|<img src="/office/media/icons/calendar-teams.png" alt="Calendar symbol.">   |**[管理班次](shifts/manage-the-shifts-app-for-your-organization-in-teams.md)** 瞭解如何為貴組織管理班次。         |
+|<img src="/office/media/icons/users-people.png" alt="Users/people symbol.">   |**[管理班管理的排程擁有者](shifts/schedule-owner-for-shift-management.md)** 這項功能可讓您將團隊成員的許可權提升為排程擁有者，而不需要讓員工成為團隊擁有者。         |
+|<img src="/office/media/icons/help.png" alt="Help symbol.">     | **[班次資料常見問題](shifts/shifts-data-faq.md)** 瞭解 Shifts 資料的儲存位置，以及其他與 Shifts 資料相關的主題，包括保留、取回和加密。        |
 
 ## <a name="shifts-connectors"></a>移轉連接器
 
@@ -53,14 +54,14 @@ ms.locfileid: "62288501"
 |&nbsp;  |&nbsp;  |
 |---------|---------|
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Shifts 連接器概觀](shifts/shifts-connectors.md)** 取得 Shifts 連接器及其工作方式概觀。 瞭解可用的受管理與開放來源連接器，以及支援的 WFM 系統。   |
-|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[受管理的 Shifts 連接器](shifts/shifts-connectors.md#managed-shifts-connectors)** 與合作夥伴共同開發的受管理的 Shifts 連接器是由我們或我們的合作夥伴託管和管理。 如果您使用的是 Reflexis WFM 系統，請參閱[適用于 Microsoft Teams的反身符 Shifts 連接器](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams)以深入瞭解。    |
-|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[開放來源 Shifts 連接器](/microsoftteams/platform/samples/shifts-wfm-connectors)** 瞭解如何使用 [社群導向](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)的開放來源連接器，透過 Shifts Graph API 和 SDK 整合您的 Kronos 或 JDA WFM 系統。    |
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[受管理的 Shifts 連接器](shifts/shifts-connectors.md#managed-shifts-connectors)** 與合作夥伴共同開發的受管理的 Shifts 連接器是由我們或我們的合作夥伴託管和管理。 如果您使用的是 Reflexis WFM 系統，請參閱[適用于 Microsoft Teams的反身符 Shifts 連接器以深入瞭解](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams)。    |
+|<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[開放來源 Shifts 連接器](/microsoftteams/platform/samples/shifts-wfm-connectors)** 瞭解如何使用 [社群導向的](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)開放來源連接器，透過 Shifts Graph API 和 SDK 整合您的 Kronos 或 JDA WFM 系統。    |
 
 ## <a name="shifts-extensions"></a>Shifts 擴充功能
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[移Graph API](/graph/api/resources/shift)** Shifts Graph API 讓您將 Shifts 資料與外部員工管理與 WFM (整合) 整合。 您可以在後端彈性地建立自訂 Shifts 體驗，同時讓使用者在 Teams。             |
+| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[移Graph API](/graph/api/resources/shift)** Shifts Graph API 讓您將 Shifts 資料與外部員工管理整合至 WFM (系統) 整合。 您可以在後端彈性地建立自訂 Shifts 體驗，同時為使用者提供豐富的前端體驗，Teams。             |
 |<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate可讓您從 Shifts 中取資訊，並與其他 App 建立自訂工作流程，並大規模執行作業。 使用幾乎不執行任何程式碼來自動化重要程式。 觸發程式與範本支援各種案例，例如，在不需要主管核准時，為輪班要求啟用自動核准。 |
 
 ## <a name="featured-training"></a>精選訓練
