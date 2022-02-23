@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 瞭解如何使用通話品質儀表板Power BI報表來查看自動通話和通話佇列歷史資料。
-ms.openlocfilehash: 22c2152401cd9ec08ae1fbad2bbd42eb29fc0726
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: bb83a31b083387bc945f7f4b4388ee6643c00f10
+ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457233"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62921871"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>呼叫佇列&自動助理
 
@@ -44,7 +44,7 @@ ms.locfileid: "62457233"
 ### <a name="power-bi-desktop"></a>Power BI Desktop
 您必須安裝Power BI Desktop。 您可以從[Microsoft Windows Store 安裝](https://aka.ms/pbidesktopstore)。
 
-您可以使用免費版本的 Power BI Desktop。 最低相容版本為 2020 年 9 月 2020 (2.85.681.0) 。
+您可以使用免費版本的 Power BI Desktop。 最低相容版本為 2020 年 9 月 (2.85.681.0) 。
 
 ### <a name="permissions-to-access-the-cqd-pipeline"></a>存取 CQD 管道的許可權
 
@@ -56,7 +56,7 @@ ms.locfileid: "62457233"
 
 執行下列步驟：
 
-- 下載[CQD Power BI查詢範本，](https://www.microsoft.com/download/details.aspx?id=102291)然後儲存 zip 檔案至您電腦的目錄。
+- 下載[CQD Power BI查詢範本，](https://www.microsoft.com/download/details.aspx?id=102291)然後將 zip 檔案儲存到您電腦的目錄。
 
 - 按兩下 zip 檔案以開啟它。
 
@@ -75,7 +75,7 @@ ms.locfileid: "62457233"
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - 區域會顯示在上方 **/** 範例中，其中區域為：noam
+    - 區域會顯示在上方 **/** 範例中的 as 之後，其中區域為：noam
 
  - 報告會以範例資料啟動。
  
@@ -167,7 +167,7 @@ ms.locfileid: "62457233"
 |AACount                                 |文本                     |通話中涉及的自動總機數目                               |
 |AADirectorySearchMethod                 |文本                     |上次通訊錄搜尋方法 -- 可能的值：<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
 |AAStartTime                             |日期/時間                |自動通話開始時間                                           |
-|AATransferAction                        |文本                     |來電轉接目標型別 -- 可能的值：<br><br>***§ 應用程式 - 語音應用程式實體**_<br> § external_pstn <br>_*_§ hunt_group - 通話佇列_* _<br>_ * 實體 _§ orgaa - 組織自動語音服務實體_**<br>§ shared_voicemail<br>§ 未知<br>§ 使用者 |
+|AATransferAction                        |文本                     |來電轉接目標型別 -- 可能的值：<br><br>***§ 應用程式 - 語音應用程式實體**_<br> § external_pstn <br> §_ *_hunt_group - 通話佇列_* _<br>_ * 實體 _§ orgaa - 組織自動語音服務實體_**<br>§ shared_voicemail<br>§ 未知<br>§ 使用者 |
 |通話類型<sup>1</sup>                   |文本                     |通話類型 -- 可能的值：<br><br>§ 外部<br>§ 內部         |
 |IsAAInvolved                            |文本                     |永遠 1                                                                 |
 |PSTNMinutes                             |全數位             |摘要：加總<br>總分鐘使用量                                     |
@@ -183,7 +183,7 @@ ms.locfileid: "62457233"
 |來電來源<sup>1</sup>        |按內部/外部通話來源分配通話              |
 |通話音量                             |按通話佇列分配通話                                |
 |本機號碼結果                           |按通話結果分配通話                                |
-|超時/溢出通話總計動作      |根據通話結果 (未) 呼叫的分配       |
+|超時/溢出通話總計動作      |根據通話結果 (已) 呼叫的 NOT 轉轉通訊       |
 |轉移/轉出目標總計          |根據通話結果轉呼叫的分配                      |
 |已放棄通話比率                   |成功與放棄通話計數的比例                        |
 |平均會話長度 (秒)         |以放棄/成功通話分組的通話長度 ，以秒數分組       |
@@ -197,7 +197,7 @@ ms.locfileid: "62457233"
 |報表資料表名稱            |來來源資料表名稱            |處理       |
 |:----------------------------|:----------------------------|:----------------|
 |日期                        |日期                        |無             |
-|dCQ-CQIdentity               |CallQueueAnalytics           |Source = CallQueueAnalytics， <br>#"已移除的欄" = Table.RemoveColumns (Source，{"通話計數"，"通話佇列通話結果"，"日期"，"PSTN 連線類型"，"通話佇列目標型別"，"PSTN 總計分鐘數"}) ，<br>Distinct = Table.Distinct (#"已移除的欄")  |
+|dCQ-CQIdentity               |CallQueueAnalytics           |Source = CallQueueAnalytics， <br>#"已移除的欄" = Table.RemoveColumns (Source，{"通話計數"，"通話佇列通話結果"，"Date"，"PSTN 連線類型"，"通話佇列目標型別"，"PSTN 總計分鐘數"}) ，<br>Distinct = Table.Distinct (#"已移除的欄")  |
 |fCallQueueAnalytics          |CallQueueAnalytics           |無             |
 |fCallQueueFinalStateAction   |CallQueueFinalStateAction    |無             |
 
@@ -229,7 +229,7 @@ ms.locfileid: "62457233"
 |通話佇列身分識別                     |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶 **名稱 cq_test@microsoft.com 此值****為：cq_test** |
 |通話佇列目標型別                  |文本                     |***呼叫重新導向目標型別 -- 可能的值：***<br><br>§ ApplicationEndpoint<br>§ 信箱<br>§ 其他<br>§ 使用者 |
 |通話類型<sup>1</sup>                   |文本                     |通話類型 -- 可能的值：<br><br>§ 外部<br>§ 內部           |
-|日期                                    |日期/時間                |呼叫佇列通話的開始日期和時間 (UTC)  (時間)                            | 
+|日期                                    |日期/時間                |呼叫佇列通話開始時間 (UTC)  (時間)                            | 
 |IsAbandoned                             |True/false               |如果代理人未接聽來電，則為 True                                   |
 |PSTN 連線類型                  |文本                     |通話類型 -- 可能的值：<br><br>§ ExternalCall<br>§ 內部Call   |
 |PSTN 總分鐘數                      |全數位             |摘要：加總<br>PSTN 通話的總通話分鐘數                       |
@@ -238,9 +238,9 @@ ms.locfileid: "62457233"
 
 |名稱                                    |資料類型                |描述                              |
 |:---------------------------------------|:------------------------|:----------------------------------------|
-|***已放棄通話百分比***                 |百分比               |量值：TotalCallCount / 通話總數<br>成功與放棄通話計數的比例    |
+|***已放棄通話百分比***                 |百分比               |量值：已放棄通話數 / 通話總數    |
 |通話總數                             |全數位             |量值：加總代理已接聽來電        |
-|TotalCallCount                          |全數位             |量值：加 (通話計數)                  |
+|TotalCallCount                          |全數位             |量值：加 (通話)                  |
 
 #### <a name="fcallqueuefinalstateaction--cqd-fields-description"></a>fCallQueueFinalStateAction CQD 欄位描述
 
@@ -251,7 +251,7 @@ ms.locfileid: "62457233"
 |通話佇列通話結果                  |文本                     |呼叫佇列通話的最後狀態 -- 可能的值：<br><br>§ agent_joined_conference<br>§ 已拒絕<br>§ 已中斷連接<br>§ 錯誤<br>§ 失敗<br>§ 無效<br>§ 溢出<br>§ timed_out<br>§ transferred_to_agent |
 |呼叫佇列最終狀態動作           |文本                     |呼叫佇列最終動作 -- 可能的值：<br><br>§ 中斷 (timed_out通話) <br>§ disconnect_with_busy (溢出) <br>§ failed_to_accept_call<br>§ 轉場<br>§ shared_voicemail<br>§ 其他<br>§ 語音信箱 |
 |通話佇列身分識別                     |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶 **名稱 cq_test@microsoft.com 此值****為：cq_test** |
-|日期                                    |日期/時間                |呼叫佇列通話的開始日期和時間 (UTC)  (時間)    |
+|日期                                    |日期/時間                |在 UTC 或 UTC (撥打)  (通話)    |
 |IsAbandoned                             |True/false               |如果代理人未接聽來電，則為 True           |
 
 
@@ -262,7 +262,7 @@ ms.locfileid: "62457233"
 |報表區段                                          |描述                                                  |
 |:-------------------------------------------------------|:------------------------------------------------------------|
 |按代理人撥打的電話                                        |呼叫佇列和代理人的通話分配                 |
-|由代理 (通話) 通話總通話持續時間   |代理 (通話) 通話的總持續時間     |
+|由代理人和 (通話) 通話總通話持續時間   |代理 (通話) 通話的總持續時間     |
 |按代理人名稱 (通話) 通話持續時間           |代理 (通話) 通話的平均持續時間                  |
 
 #### <a name="report-to-cqd-table-and-field-mapping"></a>報告至 CQD 資料表和欄位映射
@@ -282,7 +282,7 @@ ms.locfileid: "62457233"
 |#Calls代理程式                               |代理人名稱<br>通話計數<br>日期      |無                  |
 |按代理人和通話佇列發佈          |代理人名稱<br>通話計數<br>通話持續時間 (分鐘) <br>通話佇列名稱 |無                      |
 |左下角                                   |代理人名稱<br>平均通話持續時間 (秒) <br>通話計數<br>通話持續時間 (分鐘) <br>通話佇列名稱 | 無 |
-|按代理人名稱 (通話) 通話持續時間) 秒數 |代理人名稱<br>平均通話持續時間 (秒) <br>通話計數<br>通話持續時間 (分鐘) <br>通話佇列名稱 | 無 |
+|按代理人名稱 (通話持續時間) 秒數 |代理人名稱<br>平均通話持續時間 (秒) <br>通話計數<br>通話持續時間 (分鐘) <br>通話佇列名稱 | 無 |
 
 #### <a name="fagenttimelineanalytics-cqd-fields-description"></a>fAgentTimelineAnalytics CQD 欄位描述
 

@@ -17,12 +17,12 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 description: 在解除委任商務用 Skype 內部部署環境之前，請先遷移 hyrid 應用程式端點。
-ms.openlocfilehash: 2968cdb5ecec3bffb22fffaf43c77e97ab8004d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 74e0ef935c993f6e39b08759d3beb69e0c5c7673
+ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583417"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62921851"
 ---
 # <a name="migrate-hybrid-application-endpoints-before-decommissioning-your-on-premises-environment"></a>在解除委任內部部署環境之前遷移混合應用程式端點
 
@@ -90,6 +90,8 @@ ms.locfileid: "58583417"
 - [停用混合式設定](cloud-consolidation-disabling-hybrid.md)
 
 - [移除您的內部部署商務用 Skype 部署](decommission-remove-on-prem.md)
+
+- [透過 Cmdlet 建立自動語音應答](/microsoftteams/create-a-phone-system-auto-attendant-via-cmdlets)
 
 
 

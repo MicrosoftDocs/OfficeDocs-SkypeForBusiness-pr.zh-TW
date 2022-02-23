@@ -12,13 +12,13 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
-description: 在單一位置尋找及管理商務用 Skype Server 2015/2019 和 Lync 2013 的更新。 使用此頁面上的連結取得更新的詳細資訊，然後下載更新。
-ms.openlocfilehash: ea8d88f9287c8795ee3b3f4252c2e0664695a44a
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+description: 在一個位置尋找及管理商務用 Skype Server 2019 和2015和 Lync Server 2013 及2010的更新。 使用此頁面上的連結取得更新的詳細資訊，然後下載更新。
+ms.openlocfilehash: 68b34b75cf0e671f5927c4e006e5567052be6e4e
+ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763338"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62921861"
 ---
 # <a name="skype-for-business-server-updates"></a>商務用 Skype Server 更新
 
@@ -28,10 +28,11 @@ ms.locfileid: "62763338"
 
 ## <a name="skype-for-business-server-2019-update-history"></a>商務用 Skype Server 2019 更新歷程記錄
 
-KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈之累計更新和修復程式的所有歷史清單。 
+[KB 4470124](https://support.microsoft.com/kb/4470124)是商務用 Skype Server 2019 的主要 KB。 它包含已針對此產品發行的所有累計更新和修復程式的相關歷史資料。 
 
-|套件名稱：|KB 號碼|發行日期|
+|套件名稱|KB 號碼|發行日期|
 |:--- |:--- |:--- |
+|商務用 Skype Server 2019 累計更新6 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2021 年 12 月 |
 |商務用 Skype Server 2019 累計更新5 |[KB 4470124 (MACP3) ](https://support.microsoft.com/kb/4470124)| 2021 年 3 月 |
 |商務用 Skype Server 2019 累計更新4修復程式1 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 11 月 |
 |商務用 Skype Server 2019 累計更新4 |[KB 4470124](https://support.microsoft.com/kb/4470124)| 2020 年 9 月 |
@@ -54,9 +55,9 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 ## <a name="skype-for-business-server-2015-update-history"></a>商務用 Skype Server 2015 更新歷程記錄
 
-[KB 3061064](https://support.microsoft.com/kb/3061064) 包含所有已發行的累計更新。 
+[KB 3061064](https://support.microsoft.com/kb/3061064)是商務用 Skype Server 2015 的主要 KB。 它包含已針對此產品發行的所有累計更新和修復程式的相關歷史資料。 
 
-|套件名稱：|KB 號碼|發行日期|
+|套件名稱|KB 號碼|發行日期|
 |:--- |:--- |:--- |
 |商務用 Skype Server 2015 累計更新12修復程式1|[KB 3061064](https://support.microsoft.com/kb/3061064)|2022 年 2 月 |
 |商務用 Skype Server 2015 累計更新12|[KB 3061064](https://support.microsoft.com/kb/3061064)|2021 年 8 月 |
@@ -92,33 +93,34 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 ## <a name="lync-server-2013-update-history"></a>Lync Server 2013 更新歷程記錄
 
-[KB 2809243](https://support.microsoft.com/kb/2809243) 包含所有已發行的累計更新。
+[KB 2809243](https://support.microsoft.com/kb/2809243) 是 Lync Server 2013 的主要 KB。 它包含已針對此產品發行的所有累計更新和修復程式的相關歷史資料。
 
-|套件名稱：|KB 號碼|發行日期|
+|套件名稱|KB 號碼|發行日期|
 |:--- |:--- |:--- |
-|Lync Server 2013 累計更新10修復程式5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|9月2021|
+|Lync Server 2013 累計更新10修復程式6 |[KB 5003602](https://support.microsoft.com/kb/5003602)|2021 年 5 月|
+|Lync Server 2013 累計更新10修復程式5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|2021 年 2 月|
 |Lync Server 2013 累計更新10修復程式4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2020 年 7 月|
 |Lync Server 2013 累計更新10修復程式3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2019 年 9 月|
 |Lync Server 2013 累計更新10修復程式2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|2019 年 6 月|
 |Lync Server 2013 累計更新10修復程式1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|2019 年 1 月|
 |Lync Server 2013 累計更新10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|2018 年 7 月 |
-|Lync Server 2013 累計更新9  |[KB 4019183](https://support.microsoft.com/kb/4019183) |2017 年 7 月 |
+|Lync Server 2013 累計更新9 |[KB 4019183](https://support.microsoft.com/kb/4019183) |2017 年 7 月 |
 |Lync Server 2013 累計更新8修復程式4 |[KB 4014154](https://support.microsoft.com/kb/4014154) |2017 年 3 月 |
 |Lync Server 2013 累計更新8修復程式3 |[KB 3210166](https://support.microsoft.com/kb/3210166) |2017 年 1 月 |
 |Lync Server 2013 累計更新8修復程式2 |[KB 3212869](https://support.microsoft.com/kb/3212869) |2016 年 12 月 |
 |Lync Server 2013 累計更新8修復程式1 |[KB 3200079](https://support.microsoft.com/kb/3200079) |2016 年 11 月 |
 |Lync Server 2013 累計更新8 |[KB 3175336](https://support.microsoft.com/kb/3175336)|2016 年 8 月 |
-|Lync Server 2013 累計更新7  |[KB 3140581](https://support.microsoft.com/kb/3140581)|2016 年 4 月 |
+|Lync Server 2013 累計更新7 |[KB 3140581](https://support.microsoft.com/kb/3140581)|2016 年 4 月 |
 |Lync Server 2013 累計更新6修復程式2 |[KB 3175338](https://support.microsoft.com/kb/3175338)|2016 年 1 月 |
 |Lync Server 2013 累計更新6修復程式1 |[KB 3121213](https://support.microsoft.com/kb/3121213)|2015 年 12 月 |
 |Lync Server 2013 累計更新6 |[KB 3081739](https://support.microsoft.com/kb/3081739)|2015 年 9 月 |
 |Lync Server 2013 累計更新5修復程式10 |[KB 3064728](https://support.microsoft.com/kb/3064728)|2015 年 7 月 |
 |Lync Server 2013 累計更新5修復程式9 |[KB 3051951](https://support.microsoft.com/kb/3051951)|2015 年 5 月 |
-|Lync Server 2013 累計更新5修復程式8  |[KB 3031065](https://support.microsoft.com/kb/3031065)|2015 年 2 月 |
-|Lync Server 2013 累計更新5修復程式7。1|[KB 3027553](https://support.microsoft.com/kb/3140582)|2014 年 12 月 |
+|Lync Server 2013 累計更新5修復程式8 |[KB 3031065](https://support.microsoft.com/kb/3031065)|2015 年 2 月 |
+|Lync Server 2013 累計更新5修復程式7。1 |[KB 3027553](https://support.microsoft.com/kb/3140582)|2014 年 12 月 |
 |Lync Server 2013 累計更新5修復程式7 |[KB 3018232](https://support.microsoft.com/kb/3018232)|2014 年 12 月 |
 |Lync Server 2013 累計更新5修復程式6 |[KB 3010028](https://support.microsoft.com/kb/3010028)|2014 年 11 月  |
-|Lync Server 2013 累計更新5修復程式5|[KB 3003358](https://support.microsoft.com/kb/3003358)|2014 年 10 月 |
+|Lync Server 2013 累計更新5修復程式5 |[KB 3003358](https://support.microsoft.com/kb/3003358)|2014 年 10 月 |
 | Lync Server 2013 累計更新5修復程式2 |[KB 2987511](https://support.microsoft.com/kb/3120728)|9月2014 |
 | Lync Server 2013 累計更新5 |[KB 2937305](https://support.microsoft.com/kb/2937305)|2014年8月 |
 |Lync Server 2013 累計更新4 |[KB 2905040](https://support.microsoft.com/kb/2905040)|2014年1月 |
@@ -127,7 +129,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 |Lync Server 2013 累計更新1 |[KB 2781550](https://support.microsoft.com/kb/2781550)|2013年2月 |
 ||||
 
-### <a name="lync-server-2013-dev-tools"></a>Lync Server 2013 開發工具
+### <a name="alync-server-2013-dev-tools"></a></a>Lync Server 2013 開發工具
 
 |套件名稱|發行日期|
 |:--- |:--- |
@@ -142,7 +144,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 #### <a name="pre-configured-vhds"></a>預先設定的 Vhd
 
-完整的拓撲包含7個虛擬機器，可讓您充分評估 Microsoft lync 2013、Microsoft Exchange 2013、SharePoint 2013 和 UC 開發平臺 APIs (包括 microsoft lync 2013 SDK、Exchange Web 服務 managed API 2.0、Microsoft Lync Server 2013 sdk，以及 microsoft 整合通訊管理 api 4.0) 。
+完整的拓撲包含7個虛擬機器，可讓您充分評估 Microsoft lync 2013、Microsoft Exchange 2013、SharePoint 2013 和 UC 開發平臺 APIs (包括 microsoft lync 2013 SDK、Exchange Web 服務受管理的 api 2.0、Microsoft Lync Server 2013 SDK，以及 microsoft 整合通訊 Managed api 4.0) 。
 
 套件名稱 |發行日期|
 |:--- |:--- |
@@ -150,15 +152,16 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 |[測試磁片磁碟機-Lync Server 2013-第2之1部分](https://www.microsoft.com/download/details.aspx?id=40267) |2013年9月 |
 |[測試磁片磁碟機-Lync Server 2013-3 的第3部分](https://www.microsoft.com/download/details.aspx?id=40265) |2013年9月 |
 
-### <a name="lync-2013-tools"></a>Lync 2013 工具
+### <a name="lync-server-2013-tools"></a><a id="lync-2013-tools"></a>Lync Server 2013 工具
 
 |套件名稱 |發行日期|
 |:--- |:--- |
+| Lync Server 2013 會議遷移工具 (MMT)  |2021 年 9 月 |
 | Lync Connectivity Analyzer (32-位) 已撤銷 |2017 年 6 月 |
 | Lync Connectivity Analyzer (64-位) 已撤銷 |2017 年 6 月 |
 | Lync Server 2013 最佳做法分析程式 |October 2012 |
 |[Lync Server 2013 容量計算機](https://www.microsoft.com/download/details.aspx?id=36828) |2013 年 7 月 |
-|Lync Server 2013 調試工具 |2014年1月 |
+| Lync Server 2013 調試工具 |2014年1月 |
 | Lync Server 2013 管理套件 |2016 年 5 月 |
 | Lync Server 2013 Persistent Chat Resource 工具組 |2013 年 7 月 |
 | Lync Server 2013 規劃工具 |2013 年 7 月 |
@@ -169,7 +172,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 |[Lync VDI 2013 外掛程式 (64-位) ](https://www.microsoft.com/download/details.aspx?id=35454) |October 2012 |
 |[新 Office Visio 模具](https://www.microsoft.com/download/details.aspx?id=35772) |2016 年 7 月 |
 
-### <a name="lync-2013-downloadable-documentation"></a>Lync 2013 可下載檔案
+### <a name="lync-server-2013-downloadable-documentation"></a><a id="lync-2013-downloadable-documentation"></a>Lync Server 2013 可下載檔案
 
 套件名稱 |發行日期|
 |:--- |:--- |
@@ -179,9 +182,9 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 ## <a name="lync-server-2010-update-history"></a>Lync Server 2010 更新歷程記錄
 
-[KB 2493736](https://support.microsoft.com/kb/2493736) 包含所有已發行的累計更新。
+[KB 2493736](https://support.microsoft.com/kb/2493736) 是 Lync Server 2010 的主要 KB。 它包含已針對此產品發行的所有累計更新和修復程式的相關歷史資料。
 
-|套件名稱：|KB 號碼|發行日期|
+|套件名稱|KB 號碼|發行日期|
 |:--- |:--- |:--- |
 |Lync Server 2010 累計更新18修復程式1 | KB 2493736 |2019 年 6 月|
 |Lync Server 2010 累計更新18| KB 2493736 |2019 年 1 月|
@@ -205,13 +208,13 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 
 ### <a name="group-chat-2010-updates"></a>群組聊天2010更新
 
-|套件名稱：|KB 號碼|發行日期|
+|套件名稱|KB 號碼|發行日期|
 |:--- |:--- |:--- |
 |Lync Server 2010 的累計更新，群組聊天 |[KB 2884623](https://support.microsoft.com/kb/2884623) |2013 年 10 月|
 |Lync Server 2010 的累計更新，群組聊天管理工具 |[KB 2884631](https://support.microsoft.com/kb/2884631) |2013 年 10 月|
 |Lync 2010 的累計更新，群組聊天 |[KB 2884627](https://support.microsoft.com/kb/2884627) |2013 年 10 月|
 
-### <a name="lync-2010-dev-tools"></a>Lync 2010 開發工具
+### <a name="lync-server-2010-developer-tools"></a><a id="lync-2010-dev-tools"></a>Lync Server 2010 開發人員工具
 
 |套件名稱 |發行日期|
 |:--- |:--- |
@@ -222,7 +225,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 | 語音平臺-伺服器執行時間語言 (版本 10.2)  |September 2010 |
 | Microsoft Lync Server 2010 的整合通訊增強顯示狀態架構 |November 2010 |
 
-### <a name="lync-2010-tools"></a>Lync 2010 工具
+### <a name="lync-server-2010-tools"></a><a id="lync-2010-tools"></a>Lync Server 2010 工具
 
 |套件名稱 |發行日期|
 |:--- |:--- |
@@ -235,7 +238,7 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 |[Lync Server 2010 Visio 模具](https://www.microsoft.com/downloads/details.aspx?FamilyID=65B5A396-2C87-445D-BE23-D324727D19CB)|February 2011 |
 | Lync Server 2010 Web 排程器 |April 2011 |
 
-### <a name="lync-2010-downloadable-documentation"></a>Lync 2010 可下載檔案
+### <a name="lync-server-2010-downloadable-documentation"></a><a id="lync-2010-downloadable-documentation"></a>Lync Server 2010 可下載檔案
 
 套件名稱 |發行日期|
 |:--- |:--- |
@@ -277,4 +280,3 @@ KB 4470124 是商務用 Skype Server 2019 的主要 KB，具有所有已發佈�
 - [安裝商務用 Skype Server 2015](./deploy/install/install.md)
 - [升級為商務用 Skype Server 2015](./deploy/upgrade-to-skype-for-business-server.md)
 - [使用 Windows Installer (MSI) 的商務用 Skype 版本更新](sfb-client-updates.md)
-
