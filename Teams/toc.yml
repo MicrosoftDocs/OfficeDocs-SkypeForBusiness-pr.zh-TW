@@ -1539,6 +1539,8 @@ items:
                 items:
                   - name: 概觀
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
+              - name: 班次資料常見問題
+                href: expand-teams-across-your-org/shifts/shifts-data-faq.md
       - name: Teams 教育版
         href: expand-teams-across-your-org/teams-for-education-landing-page.md
         items:
