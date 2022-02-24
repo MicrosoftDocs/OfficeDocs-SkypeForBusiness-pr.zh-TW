@@ -20,15 +20,15 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
-description: 瞭解如何在 Teams 中使用 Bookings 應用程式排程、管理及執行虛擬Teams。
-ms.openlocfilehash: 5734dbde3db60e5595a1c712bdfb7849dc86485e
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+description: 瞭解如何使用 Teams 中的 Bookings 應用程式排程、管理及執行虛擬Teams。
+ms.openlocfilehash: 6241c377cc5daa0986081fbfa30eca5fa7146efc
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763797"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929268"
 ---
-# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft Teams 和 Bookings 應用程式進行虛擬訪問
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>使用 Microsoft Teams 和 Bookings 應用程式進行虛擬會面
 
 ## <a name="overview"></a>概觀
 
@@ -38,7 +38,7 @@ Bookings App 可輕鬆管理任何組織的複雜排程需求。 排程器可以
 
 虛擬約會會透過會議Microsoft Teams，提供強大的視訊會議功能。 例如，醫生可以與病患共用螢幕並檢閱測試結果。 或者，銀行顧問可以在檔上要求電子簽章，讓他們遠端關閉交易。
 
-每個虛擬約會Teams一個會議連結，以電子郵件寄給出席者，他們可以輕鬆地從網頁瀏覽器加入會議，或在Teams裝置上加入。 自動電子郵件提醒有助於減少未顯示，並提升客戶和客戶的參與度。
+每個虛擬約會Teams一個會議連結，會以電子郵件寄給出席者，他們可以輕鬆地從網頁瀏覽器加入會議，或在Teams裝置上加入。 自動電子郵件提醒有助於減少未顯示，並提升客戶和客戶的參與度。
 
 使用 Bookings，您可以獲得專為您的產業量身打造的體驗。 以下是一些如何在組織中使用它的範例：
 
@@ -54,7 +54,7 @@ Bookings App 可輕鬆管理任何組織的複雜排程需求。 排程器可以
 
 如果您是系統管理員，請參閱管理[Teams 中的 Bookings](../bookings-app-admin.md)應用程式，以瞭解在 Teams 中使用 Bookings 應用程式的先決條件、如何控制貴組織中 Bookings 的存取權，以及建議的政策和系統管理設定。
 
-請記住，只有貴組織的排程者需要安裝 Bookings 應用程式Teams。 進行或參與虛擬約會的員工不需要應用程式。 他們從自己的會議Teams或Outlook，或在預約確認電子郵件中使用會議連結加入約會。
+請記住，只有貴組織的排程者需要在 Teams 中安裝 Bookings 應用程式。 進行或參與虛擬約會的員工不需要應用程式。 他們從自己的會議Teams或Outlook，或在預約確認電子郵件中使用會議連結加入約會。
 
 ## <a name="set-up-a-new-booking-calendar"></a>設定新的預約日曆
 
@@ -72,7 +72,7 @@ Bookings App 可輕鬆管理任何組織的複雜排程需求。 排程器可以
 
 ### <a name="add-staff"></a>新增教職員
 
-在預約日曆中，前往其他 **選項 (...**) >**設定**，然後選取教 **職員**。 新增教職員成員，並將角色指派給每個新增的人員。 您可以新增最多 100 位教職員成員至預約日曆。
+在預約日曆中，前往其他 **選項 (...****) >設定，** 然後選取教 **職員**。 新增教職員成員，並將角色指派給每個新增的人員。 您可以新增最多 100 位教職員成員至預約日曆。
 
 Bookings App 會與 Outlook。 新增教職員之後，您就能查看該人員的日曆可用性，並排程他們的預約。 若要深入瞭解，請參閱 [新增教職員並查看 Bookings 日曆](https://support.microsoft.com/office/add-staff-and-view-a-bookings-calendar-6c579f61-8adb-4514-9458-021de2023fa0)。  
 
@@ -88,13 +88,13 @@ Bookings App 會與 Outlook。 新增教職員之後，您就能查看該人員�
 
 在預約日曆中，選取新增 **預約**。 選取約會類型，然後填寫相關資訊。
 
-這包括出席者連絡人資訊、將提供服務的員工成員、只有教職員可以看到的內部記事、電子郵件提醒，以及出席者是否可以從行動瀏覽器加入。 若要深入瞭解，請參閱[在 Bookings](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f)應用程式中排程Teams預約。
+這包括出席者連絡人資訊、將提供服務的員工成員、只有教職員可以看到的內部記事、電子郵件提醒，以及出席者是否可以從行動瀏覽器加入。 若要深入瞭解，請參閱[在 Bookings Teams中排程預約](https://support.microsoft.com/office/schedule-a-booking-in-the-teams-bookings-app-e275049d-0d0f-4161-8526-461a9f29439f)。
 
 寄給出席者的電子郵件確認包含會議連結和附件，以便他們新增虛擬約會至他們的日曆。 教職員也會收到電子郵件確認和會議邀請。
 
 ## <a name="conduct-a-visit"></a>進行流覽
 
-在會議Teams或Outlook中，前往預約，然後選取 **加入或Teams** 連結。 檢查您的音訊和視音訊設定，然後選取立即 **加入**。 若要深入瞭解，請參閱執行 [Bookings 約會](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd)。
+在會議Teams或Outlook中，前往預約，然後選取加入或Teams連結。**** 檢查您的音訊和視音訊設定，然後選取立即 **加入**。 若要深入瞭解，請參閱執行 [Bookings 約會](https://support.microsoft.com/office/conduct-a-bookings-appointment-a86a4007-e26c-4909-9893-f7036e2747cd)。
 
 ## <a name="monitor-visits-and-get-real-time-status-updates"></a>監控訪問並取得即時狀態更新
 
@@ -118,6 +118,8 @@ Bookings Web App 提供您其他功能。 例如，您可以發佈自助線上�
 ## <a name="related-articles"></a>相關文章
 
 - [管理行動瀏覽器上Teams虛擬流覽的加入體驗](mobile-browser-join.md)
+
+- [Teams虛擬訪問使用方式報告](../teams-analytics-and-reports/virtual-visits-usage-report.md)
 
 - [開始使用醫療保健組織Teams服務](healthcare/teams-in-hc.md)
 

@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的私人頻道。
-ms.openlocfilehash: edf3fc2933bf51f3c5966fa8e021fe0ff50de39b
-ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
+ms.openlocfilehash: 2ff886835258d9508e2cbe7c977ab5437d87129e
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62881548"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926306"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人頻道
 
@@ -102,9 +102,9 @@ Teams 會管理私人頻道網站的生命週期。 如果在 Teams 以外刪除
 >
 > 深入了解如何管理 [Microsoft Teams 連線的小組網站](/SharePoint/teams-connected-sites)。
 
-## <a name="private-channel-message-compliance-records"></a>私人頻道訊息合規性記錄
+## <a name="compliance-copies-of-private-channel-messages"></a>私人頻道訊息的合規性複本
 
-在私人頻道中傳送的訊息記錄會傳送到所有私人頻道成員的信箱，而不是傳送到群組信箱。 記錄的標題會有格式設定，指出寄自哪一個私人頻道。
+在私人頻道中傳送的訊息合規性複本會傳送到所有私人頻道成員的信箱，而不是傳送到群組信箱。 合規性複本的標題會有格式設定，指出寄自哪一個私人頻道。
 
 如需有關以「電子文件探索」搜索私人頻道訊息的詳細資訊，請參閱[私人頻道的電子文件探索](ediscovery-investigation.md#ediscovery-of-private-channels)。
 
