@@ -18,16 +18,16 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: 概觀什麼是移轉訂單，以及如何將服務提供者的電話號碼移轉Teams。
-ms.openlocfilehash: b17e0dea6181c111355a865bf1f70c07bfcb9258
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: bb9ebd91b1f5a08fb07eff0f469be4496714ecfc
+ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398417"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62963414"
 ---
 # <a name="whats-a-port-order"></a>什麼是移轉訂單？
 
-如果您目前擁有電話服務提供者或電信業者，而且已經有使用者或服務的電話號碼，您必須建立「移轉訂單」，才能將這些電話號碼Microsoft Teams。 當號碼經過移植時，您可以將這些電話號碼指派給使用者和服務，例如會議橋接器 (、自動語音機和通話佇列的音訊會議)  (。
+如果您目前擁有電話服務提供者或電信業者，而且已經有使用者或服務的電話號碼，您必須建立「移轉訂單」，才能將這些電話號碼Microsoft Teams。 當號碼經過移植時，您可以將這些電話號碼指派給使用者和服務，例如會議橋接器 (、自動語音) 和通話佇列的音訊會議服務。
   
 將電話號碼移植到 Teams之後，Microsoft 會成為您的服務提供者，您可以中斷與舊服務提供者或電信公司的服務。
 
@@ -37,7 +37,7 @@ ms.locfileid: "62398417"
 
 您可以在所有支援的國家/地區移轉或移轉電話號碼，但您提交移轉訂單要求的順序取決於電話號碼來自的國家/地區。 有關支援號碼移植的國家和地區清單，請參閱 [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。  
 
-目前，[系統管理](transfer-phone-numbers-to-teams.md)中心的Microsoft Teams精靈支援取得英國、美國和加拿大的電話號碼。 若要取得其他國家/地區的電話號碼，您可以 [手動提交埠訂單](manually-submit-port-order.md)。
+目前，[系統管理中心中的](transfer-phone-numbers-to-teams.md)Microsoft Teams精靈支援取得英國、美國和加拿大的電話號碼。 若要取得其他國家/地區的電話號碼，您可以 [手動提交埠訂單](manually-submit-port-order.md)。
   
 ## <a name="what-numbers-can-be-transferred"></a>哪些號碼可以移轉？
 
@@ -76,7 +76,7 @@ ms.locfileid: "62398417"
 
 - 電話傳真專用號碼。
 
-    如果您有用於傳真的現有專用電話號碼，您可以將這些號碼轉接到Teams但傳真服務無法如預期繼續工作。 傳真服務不適用於Teams，即使您擁有 電話系統、國內通話方案或國際通話方案授權。
+    如果您有用於傳真的現有專用電話號碼，您可以將這些數位移轉至Teams但傳真服務無法如預期繼續工作。 即使您擁有傳真服務、國內Teams方案或國際通話方案電話系統傳真服務也一樣。
 
     如果您將電話號碼Teams，您可以將這個電話號碼指派給貴組織的使用者，而不是使用它進行傳真。
 
@@ -131,18 +131,22 @@ ms.locfileid: "62398417"
 
 完成埠訂單要求之後，處理需要 7-14 天。 不過，視您的服務提供者而異，最多可能需要 30 天。 電話號碼經過移植之後，您就會收到我們的電子郵件，讓您知道您很好。
   
-若要檢查您的埠訂單狀態，請在系統管理中心的左側導Microsoft Teams，前往 **[**  >  語音電話號碼，然後按一下 **[** 訂單 **歷程記錄**。 每個埠訂單狀態會列在狀態 **欄中** 。
+若要檢查您的埠訂單狀態，請在系統管理中心的左側導Microsoft Teams，前往 **[語音**  >  電話號碼，然後按一下 **[** 訂單 **歷程記錄**。 每個埠訂單狀態會列在狀態 **欄中** 。
   
-## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>使用者或 (訂閱) 電話號碼可以轉換成服務號碼嗎？
+## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>使用者或 () 電話號碼可以轉換成服務號碼嗎？
 <a name="bkmk_type_1"> </a>
 
-是的，他們可以。 您只需要提交服務要求，其中包含貴組織的租使用者 GUID 和您想要轉換的電話號碼。 若要這麼做，請參閱 [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+是的，他們可以。 您只需要提交服務要求，其中包含貴組織的租使用者 GUID 和您想要轉換的電話號碼。 若要這麼做，請參閱 [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 ## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>我可以將號碼從手機Teams到不同的電話服務提供者或電信公司嗎？
 
-若要將號碼從Teams到不同的電信公司，您必須向新的電信公司提交要求。 您也需要開啟支援案例來設定埠 PIN。 若要瞭解如何取得支援，請參閱取得 [支援](/microsoft-365/business-video/get-help-support)。 
+若要將號碼從Teams到不同的電信公司，您必須向新的電信公司提交要求。 您也需要在系統管理中心設定Microsoft Teams PIN。
+
+若要定義您的埠 PIN，請在 Microsoft Teams 系統管理中心的左側流覽中，前往頁面右上角的語音  >  **電話** 號碼，選取管理埠 **PIN**，然後輸入 10 位數 PIN。
 
 當您的新電信公司向我們提出移植要求時，我們會要求他們提供您定義的 PIN。
+
+如果您需要進一步設定 PIN，請聯絡 [電話號碼服務小組](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="common-mistakes-to-watch-out-for"></a>要留意的常見錯誤
 <a name="bkmk_type_1"> </a>
