@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: bfdb7ceab9e4a3d3ffebf903b073c5ec707e7bc6
-  ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+  ms.openlocfilehash: 1737461b1eface3038957a862ab2bcb743ca4615
+  ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 10/28/2021
-  ms.locfileid: "60605599"
+  ms.lasthandoff: 02/25/2022
+  ms.locfileid: "62960055"
 items:
 - durationInMinutes: 1
   content: >
@@ -67,7 +67,7 @@ items:
     -   張貼在本教程 [下一步] 頁面底部的註解區段。
 
 
-    若要向我們提供有關 Teams 的產品意見反應，例如新功能的想法，請存取 [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
+    若要提供有關產品的意見Teams，例如新功能的構想，請流覽 Teams[意見回饋入口網站](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
 - title: Teams 中的會議
   durationInMinutes: 16
   content: "\n要了解 Teams 會議，請看下列說明：\n-   在 [會議和通話](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)中「進行會議」(預計閱讀時間 6 分鐘)\n\n-   [立即開會](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) 影片 (1:45 分鐘)\n\n-   [已排程的會議](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) 影片 (1:45 分鐘)\n\n-   [使用 Microsoft Teams 進行會議的 9 個技巧](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444)，瞭解會議大廳、匿名參加會議等 (預計閱讀時間 6 分鐘)\n"
@@ -108,7 +108,7 @@ items:
 
     2.  傳送意見反應給我們：
         - 張貼在本頁底部的註解區段。
-        - 要向我們提供 Teams 產品意見反應或要求新功能，請轉到 [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public)。
+        - 若要提供Teams意見或要求新功能，請前往[意見Teams入口網站](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
     3.  保持最新狀態
         - 關注 [Teams 部落格](https://aka.ms/teamsblog)。
         - 閲讀 [Teams 藍圖](https://aka.ms/O365Roadmap)。

@@ -2,29 +2,34 @@
 title: Microsoft StaffHub 已停用
 author: SerdarSoysal
 ms.author: serdars
-ms.reviewer: 'lisawu, gumariam'
+ms.reviewer: lisawu, gumariam
 manager: serdars
 audience: admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: 尋找常見問題的解答，瞭解 Microsoft StaffHub 的停用，以及移轉至 Microsoft Teams 中的 Shifts 應用程式。
+description: 尋找關於 Microsoft StaffHub 的停用，以及移轉至 Microsoft Teams 中的 Shifts 應用程式的常見問題解答。
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_FLW
+- M365-collaboration
+- Teams_ITAdmin_FLW
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 08b3b0ddfa3d53bebb9c3e628347e99d1016a133
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960035"
 ---
-
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub 已停用
 
 自 2020 年 6 月 30 起，已終止對 Microsoft StaffHub 的支援。 我們正在將 StaffHub 功能建入 Microsoft Teams。 今天，Teams 包含用於排程管理的班次應用程式，並且會陸續推出其他功能。
 
-這些變更是我們持續努力的一部分，讓每位員工Microsoft 365。 有了 Teams 的前線員工功能，貴組織的每一位員工都能使用 Teams 簡化工作日、與同事共同作業，以及存取訊號和專業知識，協助他們完成最佳工作。
+這些變更是我們持續努力的一部分，讓每位員工Microsoft 365。 有了 Teams 中前線員工的功能，貴組織的每一位員工都能使用 Teams 簡化工作日、與同事共同作業，以及存取訊號和專業知識，協助他們完成最佳工作。
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 
@@ -50,9 +55,9 @@ Microsoft StaffHub 已經停用，自 2020 年 6 月 30 日生效。
 
 #### <a name="what-happens-if-i-didnt-move-a-staffhub-team-to-shifts-in-teams"></a>如果我沒有將 StaffHub 小組移至公司中的 Shifts，會發生什麼Teams？
 
-Teams使用 StaffHub 建立且未移至 Teams 的已停用後，無法再從 2020 年 6 月 30 日 StaffHub 停用後查看或移動。 不過，您隨時都可以Teams，在 Shifts 應用程式中建立班排程。
+Teams使用 StaffHub 建立且未移至 Teams 的已建立專案，在 StaffHub 于 2020 年 6 月 30 日停用後，無法再查看或移動。 不過，您隨時都可以Teams，在 Shifts 應用程式中建立班排程。
 
-如果您有一個與 Office 365 群組相關聯的 StaffHub 小組，但您並未移至 Teams，而您現在想要建立與該 Office 365 群組相關聯的 Teams 班排程，請連上支援人員。
+如果您有一個與 Office 365 群組相關聯的 StaffHub 小組，但您並未移至 Teams，而您現在想要建立與該 Office 365 群組相關聯的 Teams 班排程，請連連支援。
 
 ### <a name="about-shifts"></a>關於 Shifts
 
@@ -70,9 +75,9 @@ Teams中的 Shifts 應用程式是一種排程管理工具，可保持前線員�
 
 #### <a name="which-devices-or-platforms-is-shifts-available-on"></a>Shifts 提供哪些裝置或平臺？
 
-在 iOS 和 Android Teams 上，Teams用戶端和行動Teams用戶端 (班次) 。
+在 iOS 和 Android Teams 上Teams桌面Teams，以及Teams用戶端 (班次) 。
  
-#### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>Shifts 桌面與 Web 應用程式與行動版 iOS 和 Android (應用程式之間) 差異？
+#### <a name="are-there-differences-between-the-shifts-desktop-and-web-apps-and-the-mobile-ios-and-android-apps"></a>Shifts 桌面與 Web 應用程式與 iOS 和 Android (行動) 之間的差異？
 
 針對管理員，桌面和 Web 應用程式已優化以建立團隊、新增成員、建立和發佈排程，以及與小組共用內容。 管理員通常會使用行動應用程式來核准要求、傳送快速訊息給小組、打電話給團隊成員，以及隨時隨地共同合作。 
 
@@ -87,7 +92,7 @@ Teams中的 Shifts 應用程式是一種排程管理工具，可保持前線員�
 Shifts 適用于所有支援Teams瀏覽器，包括最新版本的 Microsoft Edge、Internet Explorer、Google Chrome 和 Mozilla Firefox。 詳細資訊，請參閱取得[用戶端Teams](../../get-clients.md)。
 
 > [!Note]
-> Microsoft 365應用程式與服務不支援 Internet Explorer 11，自 2021 年 8 月 17 日起 (Microsoft Teams自 2020 年 11 月 30 日起 (Microsoft Teams將不支援 Internet Explorer 11。從 2020 年 11 月 30 日) 。 [深入了解](https://aka.ms/AA97tsw)。 請注意，Internet Explorer 11 仍然是受支援的瀏覽器。 Internet Explorer 11 是作業系統Windows元件，並遵循其安裝之產品的生命週期策略[](/lifecycle/faq/internet-explorer-microsoft-edge)。 
+> Microsoft 365應用程式與服務不支援 Internet Explorer 11，自 2021 年 8 月 17 日起 (Microsoft Teams自 2020 年 11 月 30 日起 (Microsoft Teams將不支援 Internet Explorer 11。從 2020 年 11 月 30 日) 。 [深入了解](https://aka.ms/AA97tsw)。 請注意，Internet Explorer 11 仍然是受支援的瀏覽器。 Internet Explorer 11 是作業系統Windows元件，並遵循安裝之產品的生命週期政策。[ ](/lifecycle/faq/internet-explorer-microsoft-edge) 
 
 #### <a name="what-languages-does-shifts-support"></a>Shifts 支援哪些語言？
 
@@ -117,7 +122,7 @@ Shifts 資料會儲存在 Azure 中，位於北美和西歐的資料中心。 Sh
 
 #### <a name="what-if-i-currently-have-skype-for-business-enabled-in-my-organization-but-not-teams"></a>如果組織目前已啟用商務用 Skype，但並未啟用Teams？
 
-Teams支援與商務用 Skype。 有關詳細資訊，請參閱瞭解[](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)Teams商務用 Skype與互通性，以及與 Teams 一起使用之[組織的](../../migration-interop-guidance-for-teams-with-skype.md)移商務用 Skype。
+Teams支援與商務用 Skype。 有關詳細資訊，請參閱瞭解[](../../teams-and-skypeforbusiness-coexistence-and-interoperability.md)Teams及商務用 Skype相容性，以及組織在Teams與共同商務用 Skype的[移移與互通性商務用 Skype](../../migration-interop-guidance-for-teams-with-skype.md)。
 
 #### <a name="does-each-user-need-to-have-a-microsoft-365-or-office-365-account-or-azure-active-directory-azure-ad-account"></a>每個使用者是否需要帳戶或Microsoft 365帳戶Office 365帳戶Azure Active Directory (Azure AD) 帳戶？
 
@@ -137,13 +142,13 @@ Teams支援與商務用 Skype。 有關詳細資訊，請參閱瞭解[](../../te
 
 若要深入瞭解，請參閱如何SharePoint[線上商務用 OneDrive互動Teams](../../SharePoint-OneDrive-interact.md)。
  
-#### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Shifts 和日曆之間是否有Outlook整合？ 我可以將排程匯出至日曆嗎？
+#### <a name="is-there-integration-between-shifts-and-the-outlook-calendar-can-i-export-a-schedule-to-a-calendar"></a>Shifts 與日曆之間是否有Outlook整合？ 我可以將排程匯出至日曆嗎？
  
-前線工作人員可以在 Shifts 中一目了然地查看其整個工作排程。 我們將支援原生與Outlook整合，做為藍圖的一部分。 同時，請使用 Power Automate 來設定與 Teams 和 Google Outlook中的 Shifts 整合。
+前線工作人員可以在 Shifts 中一目了然地查看其整個工作排程。 我們將支援原生與Outlook整合，做為藍圖的一部分。 同時，請使用 Power Automate 來設定與 Google 和 Google Teams中的 Shifts Outlook整合。
  
 #### <a name="what-admin-controls-are-available-to-manage-whether-users-in-my-organization-can-use-shifts"></a>哪些系統管理控制項可管理組織中使用者是否可以使用 Shifts？  
   
-您可以為組織中的所有使用者開啟或關閉全組織的 Shifts。 您也可以Microsoft Teams系統管理中心，使用 Frontline Worker 應用程式設定政策，Teams前線員工版。 此策略已與活動、班次、聊天和通話應用程式一起配置。 指派策略將這些應用程式釘Teams應用程式欄，以便使用者快速且輕鬆地存取。 
+您可以為組織中的所有使用者開啟或關閉全組織的 Shifts。 在 Microsoft Teams系統管理中心，您也可以使用 Frontline Worker 應用程式設定政策，Teams前線員工版。 此策略已與活動、班次、聊天和通話應用程式一起配置。 指派策略將這些應用程式釘Teams應用程式欄，以便使用者快速且輕鬆地存取。 
 
 若要深入瞭解，請參閱在 Teams 中[管理貴組織的 Shifts Teams](manage-the-shifts-app-for-your-organization-in-teams.md)。
 
@@ -151,8 +156,7 @@ Teams支援與商務用 Skype。 有關詳細資訊，請參閱瞭解[](../../te
 
 您可以透過 Teams PowerShell 模組Microsoft Teams PowerShell 模組和 PowerShell 模組商務用 Skype管理。 詳細資訊請參閱[PowerShell Teams概觀](../../teams-powershell-overview.md)。 目前，沒有任何特定的 PowerShell Cmdlet 可用於管理 Shifts。  
 
-如果這是您感興趣的專案，請透過[UserVoice](https://microsoftteams.uservoice.com/forums/555103-public-preview/category/182881-developer-platform)上的 Teams意見回應入口網站傳送要求給我們。
-
+如果這是您感興趣的專案，請透過意見Teams[傳送要求給我們](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
 
 [!INCLUDE [uservoice-disclaimer-note](../../includes/uservoice-disclaimer-note.md)]
 

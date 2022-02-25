@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在頻道中設定仲裁Microsoft Teams，包括如何將小組成員新增為頻道仲裁者。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9fd15b6d7eeecf0f1b7e6ec25e33236f50fd83b3
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 4441eea880b5dcf1d71ca11f0ad32cf148f90cf4
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400847"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960005"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在頻道中設定及管理頻道Microsoft Teams
 
@@ -44,7 +44,7 @@ ms.locfileid: "62400847"
 
 ## <a name="scenarios"></a>案例
 
-以下範例說明貴組織如何在 Teams。
+以下範例說明貴組織如何在 Teams 中使用通道Teams。
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>使用頻道做為公告頻道
 
@@ -62,7 +62,7 @@ ms.locfileid: "62400847"
 
 在 Teams，請前往頻道，按一下 [**更多選項...**  > **管理頻道**。 您可以在這裡開啟並關閉仲裁、將小組成員新增為仲裁者，以及設定喜好設定。
 
-通道模式是每個頻道的設定。 頻道模式沒有租使用者層級設定。 如果您想要我們新增租使用者層級通道管理設定，請于[UserVoice Teams要求](https://microsoftteams.uservoice.com/)。
+通道模式是每個頻道的設定。 頻道模式沒有租使用者層級設定。 如果您想要我們新增租使用者層級通道管理設定，請于意見Teams[入口網站索取](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
@@ -76,7 +76,7 @@ ms.locfileid: "62400847"
 
 ### <a name="add-or-remove-channel-moderators"></a>新增或移除頻道仲裁者
 
-在 **神秘仲裁者嗎？**，**按一下 [管理**，然後新增或移除小組成員為仲裁者。 團隊擁有者和仲裁者可以新增和移除其他仲裁者。  
+在 **神秘是仲裁者嗎？**，按一下 [管理，然後新增或移除小組成員為仲裁者。 團隊擁有者和仲裁者可以新增和移除其他仲裁者。  
 
 ### <a name="set-team-member-permissions"></a>設定團隊成員許可權
 

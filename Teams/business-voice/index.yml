@@ -71,8 +71,8 @@ productDirectory:
       links:
         - url: ../cloud-voice-landing-page.md
           text: Microsoft Teams 系統管理文件
-        - url: 'https://microsoftteams.uservoice.com/'
-          text: Microsoft Teams UserVoice 意見反應
+        - url: 'https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472'
+          text: Microsoft Teams意見回饋入口網站
         - url: 'https://support.office.com/teams'
           text: Microsoft Teams 用戶端文件
         - url: /office365/admin/
