@@ -9,21 +9,26 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.meetingsettings.invitationurls
-  - ms.teamsadmincenter.meetingsettings.network.ports
-  - ms.teamsadmincenter.meetingsettings.overview
+- ms.teamsadmincenter.meetingsettings.invitationurls
+- ms.teamsadmincenter.meetingsettings.network.ports
+- ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
+- M365-collaboration
+- m365initiative-meetings
 description: 了解如何管理使用者在您組織中排程的 Teams 會議設定。
+ms.openlocfilehash: 294bbac570d1f1741449c7c81cb9389b20cdcdc6
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960025"
 ---
-
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>在 Microsoft Teams 中管理會議設定
 
 身為系統管理員，您可以使用 Teams 會議設定，來控制匿名使用者是否可以加入 Teams 會議、自訂會議邀請，以及如果您要啟用服務品質 (QoS)，則要針對即時流量設定連接範圍。 這些設定適用於使用者在貴組織中排程的所有 Teams 會議。 您可以在 Microsoft Teams 系統管理中心的 [會議]  >  [會議設定] 來管理這些設定。
@@ -67,6 +72,14 @@ description: 了解如何管理使用者在您組織中排程的 Teams 會議設
 > [!NOTE]
 > 若要針對組織使用每一召集人原則，且每個組織都關閉匿名加入，系統管理員必須建立原則，然後將其指派給使用者。 若要深入了解如何執行此操作，請參閱[在 Microsoft Teams 中管理會議原則](/microsoftteams/meeting-policies-overview)。
 
+### <a name="blocking-anonymous-join-for-specific-client-types"></a>封鎖特定用戶端類型的匿名加入
+
+允許匿名使用者加入會議時，他們可以使用 Teams 用戶端或使用 [Azure 通訊服務](/azure/communication-services/) 建立的自訂用戶端。 系統管理員可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) 中的 **-BlockedAnonymousJoinClientTypes** 參數封鎖選取的用戶端類型。
+
+可能的值為：
+- Null (預設)。 允許所有用戶端類型。
+- Acs。 封鎖使用 [Azure 通訊服務](/azure/communication-services/) 建立的自訂用戶端。
+- Microsoft Teams。 封鎖 Teams 用戶端。
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>允許匿名使用者與會議中的應用程式互動
 
