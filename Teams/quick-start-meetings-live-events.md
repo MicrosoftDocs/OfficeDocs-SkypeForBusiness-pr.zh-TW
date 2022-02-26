@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07d050782dfef1ce89f54891302457c2f1616fa5
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: ed6abe00ac67b6029fdb72178ad09e21ec58e80d
+ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763646"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "62974450"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>快速入門 - 會議、網路研討會與即時活動 
 
@@ -157,7 +157,7 @@ Microsoft 讓您能夠透過整合和使用會議應用程式來增強會議體�
 | 文章 | 描述 | 
 |----------|--------|
 | [應用程式、Bot 和連接器](deploy-apps-microsoft-teams-landing-page.md) | 應用程式簡介，以及如何為貴組織部署應用程式。 |
-| [Teams 會議的應用程式](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings | 會議應用程式擴充性、API 參考，以及如何啟用和設定會議應用程式的概觀。 |
+| [Teams 會議應用程式](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | 會議應用程式擴充性、API 參考，以及如何啟用和設定會議應用程式的概觀。 |
 | [管理 Teams 中的白板](manage-whiteboard.md) | 說明白板功能，以及如何為貴組織啟用和停用。 |
 ||
 
