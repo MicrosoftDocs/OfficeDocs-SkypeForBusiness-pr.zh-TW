@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2df5c465c9115dce47ee9e80ea649768606c338f
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: 3f26413aa746b37474e7035e313fc8ffff2fb93c
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918949"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039951"
 ---
 # <a name="shifts-data-faq"></a>班次資料常見問題
 
@@ -35,7 +35,7 @@ ms.locfileid: "62918949"
 
 ## <a name="where-is-shifts-data-stored"></a>Shifts 資料儲存在哪裡？
 
-Shifts 資料會儲存在三個地理位置 (地理位置) ：亞太地區 (亞太地區) 、歐盟 (歐盟) 或美國。 每個地理位置會將資料儲存在至少兩個 Azure 資料中心區域，以使用高可用性 (HA) 和災害復原 (DR) 。 目前，美國/北美地理位置使用美國中北部和中南部資料中心。 若要深入瞭解，請參閱[儲存Microsoft 365的位置](/microsoft-365/enterprise/o365-data-locations)。
+Shifts 資料會儲存在三個地理位置 (地理位置) ：亞太地區 (亞太地區) 、歐盟 (歐盟) 或美國。 每個地理位置會將資料儲存在至少兩個 Azure 資料中心區域，以在高可用性 (HA) 和災害 (DR) 。 目前，美國/北美地理位置使用美國中北部和中南部資料中心。 若要深入瞭解，請參閱[客戶Microsoft 365的位置](/microsoft-365/enterprise/o365-data-locations)。
 
 目前，Shifts 提供澳洲、加拿大、法國、日本及英國的資料居住權。 我們正積極努力將支援範圍擴大到更多位置。
 
@@ -61,7 +61,7 @@ Shifts 是一般資料保護法規 (GDPR) 規範。稱為資料主體 (之人員
 
 ## <a name="can-i-recover-a-shifts-schedule-that-was-deleted"></a>我可以復原已刪除的班次排程嗎？
 
-如果備份刪除的Microsoft 365群組 (或已還原Teams) 排程。
+如果備份刪除排程的Microsoft 365群組 (或已還原Teams) 排程。
 
 根據預設，已刪除Microsoft 365群組會保留 30 天。 這 30 天期間稱為「柔刪除」，因為您仍然可以還原群組。 若要深入瞭解，請參閱[還原已刪除Microsoft 365群組](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center)。
 
@@ -69,19 +69,15 @@ Shifts 是一般資料保護法規 (GDPR) 規範。稱為資料主體 (之人員
 
 目前，Shifts 不支援自訂保留政策。
 
-若要深入瞭解 Teams 中的保留Teams，請參閱瞭解保留[Teams管理保留](/microsoft-365/compliance/retention-policies-teams)[Teams。](../../retention-policies.md)
+若要深入瞭解 Teams 中的保留Teams，以及管理保留[Teams。](../../retention-policies.md) [ ](/microsoft-365/compliance/retention-policies-teams)
 
 ## <a name="can-i-retrieve-shifts-data-for-a-user-whose-license-was-revoked"></a>我可以為授權被撤銷的使用者取回 Shifts 資料嗎？
 
 今天，我們並不提供為授權被撤銷的使用者取回資料的能力。 這項功能是我們正在努力進行的工作。
 
-## <a name="is-shifts-supported-in-government-cloud-community-gcc-environments"></a>政府雲端環境是否支援 Shift Community (GCC) ？
-
-班次適用于GCC，但不適用於高GCC DoD 環境。
-
 ## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>Shifts 會針對靜態和傳輸中的資料使用哪種加密類型？
 
-班次資料會由 Azure Cosmos DB 和 Azure 儲存體。 若要深入瞭解，請參閱[靜態 Azure 資料加密](/azure/security/fundamentals/encryption-atrest)和[Azure 資料](/azure/cosmos-db/database-encryption-at-rest)加密Cosmos DB。
+班次資料會由 Azure 資料庫和 Azure Cosmos加密儲存體。 若要深入瞭解，請參閱[靜態 Azure 資料加密](/azure/security/fundamentals/encryption-atrest)和 Azure 資料加密Cosmos [DB](/azure/cosmos-db/database-encryption-at-rest)。
 
 班次遵循Microsoft 365傳輸中資料加密的準則。 若要深入瞭解，請參閱 [傳輸資料加密](/compliance/assurance/assurance-encryption-in-transit)。
 
@@ -95,7 +91,7 @@ SOC2 合規性稽核每年會驗證靜態和傳輸中資料的班次加密。
 
 有些班次的某些層面無法變更，某些方面可以變更。 例如，您可以編輯筆記和色彩等班次詳細資料，就像在 Shifts 應用程式中變更這些詳細資料的方式一樣。 除非要求已撤銷，否則無法編輯班次要求。
 
-若要查看哪些欄位已變更，您可以搜尋 Microsoft 365記錄中的 Shifts 事件。 若要深入瞭解在稽核記錄中記錄 Shifts 活動的事件，請參閱Microsoft 365活動中的班次Teams[活動](../../audit-log-events.md#shifts-in-teams-activities)。
+若要查看哪些欄位已變更，您可以搜尋 Microsoft 365記錄中的 Shifts 事件。 若要深入瞭解在稽核記錄中記錄 Shifts 活動的事件，請參閱Microsoft 365中的班次Teams[活動](../../audit-log-events.md#shifts-in-teams-activities)。
 
 ## <a name="my-organization-uses-a-workforce-management-system-for-scheduling-can-we-integrate-with-and-access-shifts-data"></a>我的組織使用人力管理系統進行排程。 我們可以與 Shifts 資料整合並存取嗎？
 
@@ -105,7 +101,7 @@ SOC2 合規性稽核每年會驗證靜態和傳輸中資料的班次加密。
 
 ## <a name="can-shifts-data-be-deleted-permanently-after-a-specified-period-of-time"></a>Shifts 資料可以在指定的一段時間之後永久刪除嗎？
 
-今天，我們不會刪除您的 Shifts 資料。 使用[Shifts Graph API](/graph/api/resources/shift)，使用 Power Apps 建立應用程式，以將資料保留[](/powerapps/maker/)指定的一段時間。 不過，我們不支援此原生功能。
+今天，我們不會刪除您的 Shifts 資料。 使用[Shifts Graph API](/graph/api/resources/shift)，使用 Power Apps 建立應用程式，以將資料保留指定的[](/powerapps/maker/)一段時間。 不過，我們不支援此原生功能。
 
 ## <a name="can-shifts-data-be-moved-in-a-tenant-to-tenant-migration"></a>Shifts 資料可以在租使用者對租使用者移轉中移動嗎？
 

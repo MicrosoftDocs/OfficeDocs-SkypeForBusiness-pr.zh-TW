@@ -13,20 +13,20 @@ ms.collection:
 description: 瞭解如何使用 PowerShell 控制項來管理Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: feaed3702173061561e09ccc784bbae3173914d1a030052d56a4aaa79f7986a0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 99af6bc71bdd25375f6165f1e645bf4626dd3123
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312451"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039971"
 ---
 # <a name="install-microsoft-teams-powershell-module"></a>安裝 Microsoft Teams PowerShell 模組
 
-本文將說明如何使用 PowerShell 圖庫Microsoft Teams PowerShell 模組。 所有Microsoft Teams都支援 PowerShell 模組Windows模組。 
+本文將說明如何使用 PowerShell 圖庫Microsoft Teams PowerShell 模組。 所有Microsoft Teams平臺都支援 PowerShell 模組Windows模組。 不支援 Mac 和 Linux。
 
 ## <a name="requirements"></a>需求
 
-Microsoft TeamsPowerShell 模組在所有平臺上都需要 PowerShell 5.1 或更高版本。 安裝 [適用于您作業系統的最新版本的 PowerShell。](/powershell/scripting/install/installing-powershell)   
+Microsoft Teams PowerShell 模組在所有平臺上都需要 PowerShell 5.1 或更高版本。 為 [作業系統安裝最新版的 PowerShellavailable](/powershell/scripting/install/installing-powershell)   。 
 
 若要檢查 PowerShell 版本，請在 PowerShell 會話內執行下列命令： 
 
@@ -35,7 +35,7 @@ $PSVersionTable.PSVersion
 ```
 我們建議您使用 Install-Module Cmdlet 來安裝 Microsoft Teams PowerShell 模組。 
  
-如果 PowerShell 圖庫 (PSGallery) 未配置為 **PowerShellGet** 的可信任存放庫，當您第一次使用 PSGallery 時，會看到下列訊息：
+如果 PowerShell 圖庫 (PSGallery) 未配置為 **PowerShellGet** 的受信任的存放庫，當您第一次使用 PSGallery 時，會看到下列訊息：
 
 ```console
 Untrusted repository
@@ -47,13 +47,13 @@ Are you sure you want to install the modules from 'PSGallery'?
 [Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"):
 ```
 
-若要 **繼續** 安裝 **，** 請回答是或全部是。
+回答 **是** 或 **全部是** 以繼續安裝。
 
 ## <a name="installing-using-the-powershellgallery"></a>使用 PowerShellGallery 安裝
 
-Microsoft TeamsPowerShell 模組目前支援與 PowerShell 5.1 一Windows。 請遵循下列步驟安裝模組： 
+Microsoft Teams PowerShell 模組目前支援與 PowerShell 5.1 一Windows。 請遵循下列步驟安裝模組： 
 
-- 更新至[Windows PowerShell 5.1。](/powershell/scripting/windows-powershell/install/installing-windows-powershell#upgrading-existing-windows-powershell) 如果您是使用 1607 Windows 10版本，表示您已安裝 PowerShell 5.1。 
+- 更新至[Windows PowerShell 5.1](/powershell/scripting/windows-powershell/install/installing-windows-powershell#upgrading-existing-windows-powershell)。 如果您是使用 1607 Windows 10版本，表示您已安裝 PowerShell 5.1。 
 - 安裝[.NET Framework 4.7.2](/dotnet/framework/install)或更新版。 
 - 執行下列命令以安裝最新的 PowerShellGet：
  
@@ -68,7 +68,7 @@ Install-Module -Name MicrosoftTeams -Force -AllowClobber
 
 ## <a name="offline-installation"></a>離線安裝 
 
-在某些環境中，無法連接到 PowerShell 圖庫。 在這些情況下，請遵循這些[手動安裝步驟。](https://aka.ms/psgallery-manualdownload)  
+在某些環境中，無法連接到 PowerShell 圖庫。 在這些情況下，請遵循這些 [手動安裝步驟](https://aka.ms/psgallery-manualdownload)。  
 
 ## <a name="sign-in"></a>登錄
 
@@ -109,7 +109,7 @@ Uninstall-Module MicrosoftTeams -Allversions
 
 [使用 powerShell Teams管理Teams](teams-powershell-managing-teams.md)
 
-[TeamsPowerShell 版本資訊](teams-powershell-release-notes.md)
+[Teams PowerShell 版本資訊](teams-powershell-release-notes.md)
 
 [Microsoft Teams Cmdlet 參照](/powershell/teams/?view=teams-ps)
 

@@ -21,25 +21,25 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: f3d82d9e546b2a2ba1b3e741173695898a72eb4d
-ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
+ms.openlocfilehash: 6ce43dca8c425b65fa1fa4cb1722d656d33b725c
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "62974480"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039911"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams Android 裝置
 
-Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，在整個 Teams (體驗Teams音訊、視視、使用者介面和使用者介面) 。 Microsoft 和 OEM 合作夥伴正積極合作，確保裝置符合所有認證需求，包括安全性、音訊和視Teams體驗，以及協助工具。
+Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，在整個 Teams) 體驗Teams音訊、視音訊、使用者介面和使用者介面 (。 Microsoft 和 OEM 合作夥伴正積極合作，確保裝置符合所有認證需求，包括安全性、音訊和視Teams體驗，以及協助工具。
 
 認證計畫是為了確保所有認證裝置都執行 Android 版本，且系統管理中心Teams Teams設定。 認證結束日期是根據進入認證計畫時在裝置上執行的 Android OS 版本。 我們的 OEM 合作夥伴正努力升級 Android OS 版本和重新認證，或發行最新版的新模型，以延長認證生命週期。
 
-在認證期間之後，Microsoft 承諾在認證期間結束後的兩Teams裝置上，努力支援最新版的 Teams 用戶端。
+在認證期間之後，Microsoft 承諾在認證期間結束後Teams裝置上支援最新版本的用戶端。
 
 >[!NOTE]
 >認證結束日期會根據 OEM 合作夥伴升級至較新版本的 Android OS 方案定期更新。
 
-## <a name="certified-teams-phones"></a>已Teams手機
+## <a name="certified-teams-phones"></a>已Teams電話
 
 下列裝置在電話認證計畫Microsoft Teams認證：
 
@@ -133,6 +133,8 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，在整�
 
 | 裝置模型  | 固件版本  | 已包含產品發行  |
 |:----------------|:--------------|:----------------------------|
+| Poly Trio C60   | `7.2.1.1831`  | 2022 更新 #1                        |
+| Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | 2022 更新 #1                 |
 |Cresron UC-2     | `1.0.4.75`    | 2022 更新 #1 |
 |音訊代碼 C455HD | `1.15.271`    | 2022 更新 #1
 |音訊代碼 C448HD  | `1.14.500` | 2022 更新 #1 |
@@ -191,7 +193,7 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，在整�
 | Yealink VP59        | `91.15.0.54`         | 2020 更新 #7           |
 | Yealink CP960       | `73.15.0.115`      | 2020 更新 #7           |
 
-請參閱[Microsoft Teams手機](phones-for-teams.md)功能集，以瞭解這些裝置支援的功能。
+請參閱[Microsoft Teams](phones-for-teams.md)手機功能集，以瞭解這些裝置支援的功能相關資訊。
 
 請參閱[Microsoft Teams顯示](teams-displays.md)。
 
@@ -275,7 +277,7 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，在整�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。**** 然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行|
 |:--------------|:-----------------|:-------------------------|
@@ -297,7 +299,7 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，在整�
 
 #### <a name="firmware-versions"></a>固件版本
 
-當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理 **代理程式版本**。 然後在上方的 App 版本 **資料表中查看產品** 發行。
+當您在裝置上安裝新的固件版本時，您可以在包含產品發行欄中尋找產品發行，以判斷已安裝的對應 Microsoft Teams 應用程式、公司入口網站 和系統管理代理程式版本。**** 然後在上方的 App 版本 **資料表中查看產品** 發行。
 
 | 裝置模型  | 固件版本 | 已包含產品發行|
 |:--------------|:-----------------|:-------------------------|
@@ -311,7 +313,7 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，在整�
 
 ## <a name="more-resources"></a>更多資源
 
-請參閱[Microsoft Teams手機](phones-for-teams.md)功能集，以瞭解這些裝置支援的功能。
+請參閱[Microsoft Teams](phones-for-teams.md)手機功能集，以瞭解這些裝置支援的功能相關資訊。
 
 請參閱 [尋找行動裝置上的固件版本](phones-for-teams.md) ，以判斷行動裝置上的裝置固件版本。
 
@@ -323,4 +325,4 @@ Microsoft Teams訂閱或訂閱的一Microsoft 365[購買Office 365授權](/offic
 
 [探索Microsoft Teams手機和認證裝置。](https://products.office.com/microsoft-teams/across-devices/devices)
 
-[Teams Skype互通性](../teams-skype-interop.md)
+[Teams和Skype互通性](../teams-skype-interop.md)
