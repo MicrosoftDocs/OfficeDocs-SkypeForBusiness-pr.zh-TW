@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些工作階段邊界控制器 (SBC) 已通過直接路由認證。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 69add2b195da03dee69b2a33583b5dbed8f614e8
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 3805a87171a770298e41337dfdd569c1b7d76985
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518925"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039991"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器
 
@@ -173,9 +173,9 @@ Microsoft 可與每個廠商合作，以：
 | [功能區](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. Software version: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  具有 Grandstream GXW42xx 的 anynode (V1.0.7.10) |     &#10004;     |
   
-如需提供有關 Teams 的產品意見反應，例如新功能的想法，請參閱 [Uservoice](https://microsoftteams.uservoice.com)。
-
-
-[!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
 記下授予主要版本的認證。 這表示支援主要版本之後的 SBC 韌體中，具有任何編號的韌體。
+
+如需提供有關 Teams 的產品意見反應，例如新功能的想法，請參閱 [Microsoft 意見反應入口網站](https://feedbackportal.microsoft.com/)。
+
+
