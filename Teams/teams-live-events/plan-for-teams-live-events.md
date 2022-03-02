@@ -8,20 +8,25 @@ ms.service: msteams
 audience: admin
 ms.reviewer: sonua
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
-  - m365initiative-meetings-enabler
-  - enabler-strategic
+- M365-collaboration
+- m365initiative-meetings
+- m365initiative-meetings-enabler
+- enabler-strategic
 search.appverid: MET150
 description: 在本文章中，您將瞭解在 Microsoft Teams 中設定即時活動之前需考量的因素。
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f7ce782db18c15e3b08367e0956003f7af2dde75
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047143"
 ---
-
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
 當您規劃使用 Teams 即時活動來舉辦組織中的大型會議時，必須先考量幾個因素，再開始進行設定。
@@ -181,7 +186,10 @@ ms.custom: seo-marvel-apr2020
 **排除和考量事項**
 
 - **資料位置：** Teams 資料位置，目前不支援上述以外的國家/地區。
-- **中國：** 活動小組成員和出席者無法使用 Teams 即時活動，因為無法在中國存取 Azure CDN。因應措施是使用公司 VPN 連線，透過客戶的公司網路，讓用戶端連線到 CDN。
+
+>[!Note]
+> 即時活動須仰賴 Azure CDN 服務，在部分國家/地區可能無法使用。 身為系統管理員，您可能需要根據所有適用法規設定 VPN，才能連接到公司網路，讓這些應用程式順暢地運作。 完成之後，貴組織人員就可以排程並參加即時活動。
+
 
 ## <a name="next-steps"></a>後續步驟
 

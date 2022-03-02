@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b87aaae3feeef9552cd64d76bb777cb081a6102e
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: b3b16b3015771cd136f3e5ee7333619008ada332
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055424"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047133"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>管理組織的 Microsoft Teams 設定
 
@@ -34,7 +34,23 @@ ms.locfileid: "61055424"
 
 您可以在 [Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com)的 **Teams App** 中管理貴組織的應用程式。 例如，您可以設定原則，以控制哪些應用程式可供整個組織或特定 Teams 使用者使用，另外還可以自訂 Teams，將對您使用者而言最重要的應用程式加以釘選。
 
-若要深入了解，請參閱[在 Teams 中管理應用程式的設定](admin-settings.md)。  
+若要深入了解，請參閱[在 Teams 中管理應用程式的設定](admin-settings.md)。
+
+### <a name="workflows-in-teams"></a>Teams 中的工作流程
+
+工作流程可讓您使用 Power Automate 將重複的工作和流程自動化。 您可以使用 **應用程式權限原則**，或透過 **[管理應用程式]** 頁面封鎖 Power Automate，以停用貴組織 Teams 的工作流程。 此功能預設為開啟。 有關工作流程的資訊，請參閱 [瀏覽及新增工作流程](https://support.microsoft.com/office/browse-and-add-workflows-4998095c-8b72-4b0e-984c-f2ad39e6ba9a)。
+
+若要停用具有應用程式權限原則的工作流程，請編輯全域 (全組織的預設) 原則，以在封鎖清單中包括 Power Automate，或將其從允許清單中移除。
+
+您也可以透過 **[管理應用程式]** 頁面封鎖 Power Automate。
+
+1. 前往 [**[Teams 應用程式]** >  **[管理應用程式]**](https://admin.teams.microsoft.com/policies/manage-apps)。
+1. 搜尋 **[Power Automate]**。
+1. 選取該應用程式。
+1. 將 **[狀態]** 從 **[允許]** 變更為 **[封鎖]**。
+
+> [!NOTE]
+> 當您關閉工作流程時，它會從 Teams 應用程式存放區、郵件擴充功能，以及更多動作功能表隱藏應用程式。 關閉工作流程也會停用任何使用中的流程。
 
 ## <a name="teams-external-access-and-guest-access-settings-in-the-microsoft-teams-admin-center"></a>Microsoft Teams 系統管理中心的 Teams 外部存取和來賓存取設定
 
@@ -79,7 +95,7 @@ Microsoft Teams 中的 **來賓存取** 可將團隊和頻道的存取權授與�
 
 您可以在這裡開啟或關閉檔案分享和雲端檔案儲存選項。
 
-使用者可以從 Teams 頻道和交談的雲端儲存服務上傳及分享檔案。 Teams 中的雲端儲存選項目前包括 Dropbox、Box、ShareFile、Google Drive 和 Egnyte。 開啟貴組織要使用的雲端儲存空間提供者的開關。
+使用者可以從 Teams 頻道和交談的雲端儲存服務上傳及分享檔案。 目前，Teams 的雲端儲存選項包括 Dropbox、Box、Citrix 檔案、Google 雲端硬碟和 Egnyte。 開啟貴組織要使用的雲端儲存空間提供者的開關。
 
 #### <a name="organization"></a>組織
 
