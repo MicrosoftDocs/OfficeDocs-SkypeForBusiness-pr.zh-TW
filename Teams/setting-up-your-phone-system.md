@@ -24,12 +24,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: 逐步指南詳述如何在 Teams 電話系統中為貴組織設定Microsoft 365。
-ms.openlocfilehash: 1a8f7ed554a360b94e568058be29697c0f2b1767
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 3a5c275c7d7d881ff770e6e84a3d4fa935d2827f
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039981"
+ms.locfileid: "63043341"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>設定貴組織的 [電話系統]
 
@@ -50,7 +50,7 @@ ms.locfileid: "63039981"
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>步驟 1：購買並指派電話系統授權
 
-若要指派電話系統授權給單一使用者，步驟與指派授權Microsoft 365相同。 您也可以大量指派授權給多個使用者。 若要進一電話系統授權，以及如何取得和指派授權，請參閱 [Teams](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md)附加元件授權和指派Microsoft Teams[附加元件授權](/teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+若要指派電話系統授權給單一使用者，步驟與指派授權Microsoft 365相同。 您也可以大量指派授權給多個使用者。 若要進一步瞭解如何取得電話系統授權以及如何取得和指派授權，請參閱 [Teams](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing)附加元件授權和指派[Microsot Teams附加元件授權](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)。
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>步驟 2. 選擇 PSTN 連接選項 
  
