@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a067488736a1392ac34259ba77518c299c46d203
-ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
+ms.openlocfilehash: 7136ea224b23e29e7b4e669fbe3d364b787193fd
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62224010"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63043351"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -181,7 +181,23 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |我想讓大部分使用者不能謄寫，但我能選擇性地啟用特定使用者允許他進行謄寫。 |<ol><li>確認 Global CsTeamsMeetingPolicy 具有 AllowCloudRecording = False。 <li>大部分使用者都獲得 Global CsTeamsMeetingPolicy 原則或是其中一個 CsTeamsMeetingPolicy 原則具備 AllowCloudRecording = False。 <li>所有其他使用者都獲得其中一個 CsTeamsMeetingPolicy 原則具備 AllowCloudRecording = True 的授權。 </ol>|
 
 ### <a name="terms-of-use-acceptance"></a>接受使用規定
-如果您的組織具有一個會議錄製原則，是您想要使用者在錄製會議之前要接受的原則，請使用 [Azure Active Directory 使用規定](/azure/active-directory/conditional-access/terms-of-use) \(部分機器翻譯\) 功能。 此功能可讓您的使用者先接受貴組織的使用規定原則，再取得 Microsoft Teams 的存取權。 此功能並不是按一下錄製按鈕的特定功能，而是與使用整體 Teams 或其他 Microsoft 365 應用程式相關的功能。 我們的建議是將您的會議錄製資訊新增至使用 Teams 或 Microsoft 365 的整體使用規定。 
+如果您的組織具有一個會議錄製原則，是您想要使用者在錄製會議之前要接受的原則，請使用 [Azure Active Directory 使用規定](/azure/active-directory/conditional-access/terms-of-use) \(部分機器翻譯\) 功能。 此功能可讓您的使用者先接受貴組織的使用規定原則，再取得 Microsoft Teams 的存取權。 此功能並不是按一下錄製按鈕的特定功能，而是與使用整體 Teams 或其他 Microsoft 365 應用程式相關的功能。 我們的建議是將您的會議錄製資訊新增至使用 Teams 或 Microsoft 365 的整體使用規定。
+
+### <a name="set-a-custom-privacy-policy-url"></a>設定自訂隱私權原則 URL
+
+系統管理員可以使用貴組織的自訂連結來更新 Teams 錄製和謄寫隱私權原則 URL。 您可使用下列步驟在 [Azure AD 系統管理中心](https://aad.portal.azure.com)來完成這項作業:
+
+1. 登入 Azure AD 系統管理中心。
+1. 移至 **Azure Active Directory** > **屬性**。
+1. 更新 **隱私權聲明 URL**，並包含您的隱私權原則連結。
+
+> [!NOTE]
+> 如果您已經更新組織的此欄位，則不需要進行任何變更。
+
+新增隱私權原則 URL 之後，預設 Teams 會議錄製和謄寫隱私權聲明將會以貴組織提供的新 URL 取代。
+
+> [!NOTE]
+> 加入由貴組織所主持之 Teams 會議的匿名、來賓和聯盟使用者，仍將擁有預設的 Teams 會議錄製和謄寫隱私權原則。
 
 ## <a name="permissions-and-storage"></a>權限與共用
 
