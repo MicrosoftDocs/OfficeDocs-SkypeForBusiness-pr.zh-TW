@@ -1017,7 +1017,7 @@ items:
             href: voice-case-study-call-queues.md
       - name: 適用於中小型企業的指導
         items:
-          - name: 適用於中小型企業的電話系統指引
+          - name: 電話系統指導方針
             href: business-voice/whats-business-voice.md
           - name: 適用國家與地區
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1025,7 +1025,7 @@ items:
             href: business-voice/get-ready-internet.md
           - name: 從經銷商或合作夥伴取得協助
             href: business-voice/reseller-partner-support.md
-          - name: 設定中小型企業用電話系統
+          - name: 設定電話系統
             items:
               - name: 概觀
                 href: business-voice/set-up-overview.md
@@ -1045,7 +1045,7 @@ items:
                 href: business-voice/port-phone-numbers.md
               - name: 安裝後資源
                 href: business-voice/set-up-finish.md
-          - name: 自訂適用於中小型企業的電話系統設定
+          - name: 自訂您的電話系統設定
             items:
               - name: 自訂選項
                 href: business-voice/customize-business-voice.md
@@ -1059,7 +1059,7 @@ items:
                 href: business-voice/create-a-phone-system-call-queue-smb.md
               - name: 設定自動語音應答
                 href: business-voice/create-a-phone-system-auto-attendant-smb.md
-          - name: 管理適用於中小型企業的電話系統設定
+          - name: 管理您的電話系統設定
             items:
               - name: 建立一或多個使用者
                 href: business-voice/create-users.md
@@ -1309,6 +1309,10 @@ items:
                 href: rooms/security.md
               - name: 線上授權
                 href: rooms/rooms-licensing.md
+              - name: 條件式存取與 Intune 合規性的最佳做法
+                href: rooms/conditional-access-and-compliance-for-devices.md
+              - name: 支援的條件式存取和 Intune 合規性原則
+                href: rooms/supported-ca-and-compliance-policies.md
               - name: 使用 Azure 監視器規劃管理
                 href: rooms/azure-monitor-plan.md
           - name: 部署
@@ -1566,7 +1570,7 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: Teams 教育版原則精靈
             href: easy-policy-setup-edu.md
-          - name: Teams 教育版中的家長
+          - name: Microsoft Teams 教育版中的家長聯繫
             href: edu-parents-app.md
           - name: Microsoft Teams 教育版中的職涯教練應用程式
             href: career-coach.md

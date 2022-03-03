@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 瞭解如何使用通話方案在 Microsoft 365 Teams 電話中設定和測試小型企業的自動Microsoft 365 Teams 電話。
-ms.openlocfilehash: b5c3b27b0b7bdc835d0dbe30a9478b52f4300ab4
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+description: 瞭解如何使用通話方案在 Microsoft Teams 電話系統中設定和測試小型企業的自動Microsoft Teams 電話系統。
+ms.openlocfilehash: c47733969d32f75222783d85bb9b8bcbcb5dc689
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767346"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053222"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>設定自動助理 - 小型企業教學課程
 

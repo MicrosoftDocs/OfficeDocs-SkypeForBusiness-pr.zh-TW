@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 - Teams_Business_Voice
 search.appverid: MET150
-description: 瞭解如何使用通話方案監控Teams 電話通話品質。
+description: 瞭解如何使用通話方案監控Teams 電話系統通話品質。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d313e0fdd13cedd5566fc1625c194e8230f64a1a
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 8471067396840ec30c7b5e643517403e3696f24f
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767156"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053052"
 ---
 [!INCLUDE [monitor-call-quality-qos](../monitor-call-quality-qos.md)]
