@@ -26,12 +26,12 @@ description: 瞭解 Microsoft Teams 遠距健康、電子健康記錄 (EHR) 整�
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: f257dbf999a333cb9b40d391cf15758631a4ffa6
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 9ca90625fc8b3229d282d9f86ba4e12fdfa56f49
+ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763348"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63050869"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>開始使用適用於醫療保健組織的 Teams
 
@@ -56,20 +56,20 @@ Microsoft Teams 提供許多對醫院和其他健康照護組織實用的遠距�
 
 | 案例 | 說明 | 需求 |
 | -------- | -------- | -------- |
-| [使用電子醫療保健記錄與 EHR (虛擬) 訪問](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 排程、管理及與病患進行虛擬約會。 此案例會Teams與 Cerner 或Epic 平臺，以支援虛擬訪問。 | 使用 EHR 連接器醫療保健版 Microsoft Cloud訂閱或訂閱Microsoft Teams EHR 連接器獨立優惠。 <br> 使用者必須擁有適當的Microsoft 365或Office 365授權，Teams會議*。 <br> 組織必須擁有 Cerner 版本 2018 年 11 月或更新版本，或 2018 年 11 月或更新版本。 <br>Cerner [EHR 和](ehr-admin-cerner.md#before-you-begin)[Epic EHR 需求](ehr-admin.md#before-you-begin)詳細資料 |
-| [使用 Microsoft Bookings 和 Bookings 應用程式進行虛擬訪問](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 排程、管理及與病患進行虛擬約會。 此案例仰賴 Microsoft Bookings 支援虛擬訪問。 | 必須為組織開啟 Microsoft Bookings。 <br> Bookings 應用程式的所有使用者，以及所有參與會議的員工都必須擁有支援 Teams 會議排程授權*。 <br>[Bookings 要求的詳細資料](../../bookings-app-admin.md#prerequisites-for-using-the-bookings-app-in-teams)|
+| [使用電子醫療保健記錄與 EHR (虛擬) 訪問](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 排程、管理及與病患進行虛擬約會。 此案例會Teams與 Cerner 或Epic 平臺，以支援虛擬訪問。 | 使用 EHR 連接器醫療保健版 Microsoft Cloud訂閱或訂閱Microsoft Teams EHR 連接器獨立版優惠。 <br> 使用者必須擁有適當的Microsoft 365或Office 365授權，Teams會議*。 <br> 組織必須擁有 Cerner 版本 2018 年 11 月或更新版本，或 2018 年 11 月或更新版本。 <br>Cerner [EHR 和](ehr-admin-cerner.md#before-you-begin)[Epic EHR 需求](ehr-admin.md#before-you-begin)詳細資料 |
+| [使用 Microsoft Bookings 和 Bookings 應用程式進行虛擬訪問](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | 排程、管理及與病患進行虛擬約會。 此案例仰賴 Microsoft Bookings 支援虛擬訪問。 | 必須為組織開啟 Microsoft Bookings。 <br> Bookings 應用程式的所有使用者，以及所有參與會議的員工都必須擁有支援 Teams 會議排程授權*。 <br>[Bookings 要求的詳細資料](../../bookings-app-admin.md#prerequisites-to-use-the-bookings-app-in-teams)|
 | [Teams 原則套件](#teams-policy-packages)| 確保臨床工作者、資訊工作者和病房裝置具有 Teams 功能的適當存取權。| 使用者必須擁有適當的授權*。 |
 | [安全傳訊](#secure-messaging) | 更快速地注意緊急訊息，並確信已收到並讀取訊息。 | 使用者必須擁有適當的授權*。  |
 | [Teams 範本](#teams-templates-for-healthcare-organizations) | 建立團隊，其中包括預先定義設定和頻道範本及預先安裝的應用程式，以適用於在病房、Pod 或部門間或院內的多個病房、Pod 和各部門間的通訊和共同作業。 | 使用者必須擁有適當的授權*。  |
 | [協調照護與共同作業](#care-coordination-and-collaboration) | 臨床醫生和教職員可以內部協作排程、文件和工作等等。| 使用者必須擁有適當的授權*。 |
 
-*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5，支援商務標準。 如需一般 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](../../user-access.md)。
+*Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3 和 E5、商務標準版。 如需一般 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](../../user-access.md)。
 
 ## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>整合 EHR 的虛擬 (電子) 記錄
 
 使用完整的會議平臺Teams安排、管理及與病患進行虛擬約會。
 
-- 如果貴組織已經使用電子健康記錄或 EHR，您可以整合Teams，以更順暢的體驗。 Teams電子健康記錄 (EHR) 連接器，讓臨床醫師可以直接從 EHR 系統啟動虛擬病患拜訪或諮詢 Teams 中的另一個提供者。 若要深入瞭解，請參閱使用虛擬Teams [- 整合至 Cerner EHR](ehr-admin-cerner.md)與虛擬Teams - 整合至[Epic EHR](ehr-admin.md)。
+- 如果貴組織已經使用電子健康記錄或 EHR，您可以整合Teams，以更順暢的體驗。 Teams EHR (電子健康記錄) 連接器，讓診所醫師可以直接從 EHR 系統，在 Teams 中啟動虛擬病患拜訪或諮詢。 若要深入瞭解，請參閱使用虛擬Teams [- 整合至 Cerner EHR](ehr-admin-cerner.md)與虛擬Teams - 整合至[Epic EHR](ehr-admin.md)。
 - 如果您未使用受支援的 EHR，您可以使用 Microsoft Bookings 和 Teams 中的 Bookings 應用程式。 若要深入瞭解，請參閱使用 Teams[和 Bookings 應用程式進行虛擬訪問](../bookings-virtual-visits.md)。
 
 ![使用虛擬Microsoft Teams。](../../media/virtual-visits-teams.png)
@@ -162,4 +162,4 @@ Teams 與班次應用程式和前線工作者整合，可用於協調班次人�
 
 - 如果您只是剛開始使用貴組織的 Teams 或將 Teams 擴充到貴組織的更多領域，請瀏覽 [Teams 採用中心](https://adoption.microsoft.com/microsoft-teams/)，以獲得有關推出 Teams 的建議。
 - 請考慮為使用者設定自訂 [學習路徑](https://adoption.microsoft.com/microsoft-365-learning-pathways/)，以僅涵蓋他們所需要執行的工作。
-- 在支援網站上取得使用者如何執行基本工作Teams，Teams包括[快速訓練影片](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)。[ ](https://support.microsoft.com/teams) 此網站也提供 Teams 應用程式的協助和訓練，包括 [清單](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)、 [工作](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070)、 [核准](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3)、 [Bookings](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b)和 [Shifts](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)。
+- 在支援網站上取得有關如何在 Teams 中執行基本Teams訓練，包括[快速訓練影片](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)。[ ](https://support.microsoft.com/teams) 此網站也提供 Teams 應用程式的協助和訓練，包括 [清單](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db)、 [工作](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070)、 [核准](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3)、 [Bookings](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b)和 [Shifts](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)。

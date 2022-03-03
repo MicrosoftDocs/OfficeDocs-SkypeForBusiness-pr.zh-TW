@@ -1413,6 +1413,8 @@ items:
                 href: devices/use-teams-panels.md
               - name: Teams 窗格上的應用程式支援
                 href: app-support-on-Teams-panels.md
+              - name: 簽入和會議室釋放
+                href: devices/check-in-and-room-release.md
           - name: 將 Teams 電話升級為 Teams 顯示器
             href: devices/upgrade-phones-to-displays.md
           - name: 使用 Intune 部署 Teams 電話與 Teams 顯示器
