@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: 瞭解適用于使用者的已知Microsoft Teams 會議室，包括更新、使用者介面、硬體、限制和預期行為。
+description: 瞭解適用于使用者的已知Microsoft Teams 會議室，包括更新、使用者介面、硬體，以及限制和預期行為。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5322020d37e3251aa54a20afecba353dd6335f55
-ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
+ms.openlocfilehash: 9472a9cf76f7471d84adea6c8fab58f8d026bcb9
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62926316"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062477"
 ---
 # <a name="known-issues"></a>已知問題 
  
@@ -31,13 +31,13 @@ ms.locfileid: "62926316"
 
 | 問題標題 |  行為 \/ 症狀 | 已知的因應措施 | KB 文章 |
 |  ---        |      ---             |   ---            | --- |
-| 當未偵測到邊緣時，白板/內容相機無法增強內容 | 更新至 4.11.12.0 之後，當內容相機的視野中沒有白板邊緣時，相機不會在相機的視野中強化/覆寫所有內容。| 修正要包含在未來版本中的修正，以強化相機視圖中的所有內容。 作為因應措施，將盒內貼到白板的貼上帶子可用來暫時提供內容相機可用來聚焦及強化內容的邊緣。 | 無 |
-| Edge 瀏覽器自動啟動 | 在裝置啟動時，在建立 97.0.1072.62 之前，在 Microsoft Teams應用程式旁邊自動啟動 Edge 瀏覽器。 | 這應該會自動解決，而不需要使用者互動，于 2022 年 1 月 17 日星期一或之前解決。 如果需要更快速的解決方法：當 Edge 在 Microsoft Teams 會議室旁邊啟動時，請流覽 URL edge://settings/help，更新應該會自動下載並適用。 在瀏覽器中，一旦更新完成申請，請選取 "重新開機」。 關閉Azure IoT Edge，重新開機系統，問題應該可以解決。 | 無 |
+| 當未偵測到邊緣時，白板/內容相機無法增強內容 | 更新至 4.11.12.0 之後，當內容相機的視野中沒有白板邊緣時，相機不會在相機的視野中強化/覆寫所有內容。| 此問題的修正程式可在應用程式版本 4.11.17.0 中提供。 | 無 |
+| Edge 瀏覽器自動啟動 | 在裝置啟動時，在建立 97.0.1072.62 之前，Edge 瀏覽器會在 Microsoft Teams會議室應用程式旁邊自動啟動。 | 這應該會自動解決，而不需要使用者互動，于 2022 年 1 月 17 日星期一或之前解決。 如果需要更快速的解決方法：當 Edge 在會議室Microsoft Teams時，請流覽 URL edge://settings/help，更新應該會自動下載並適用。 在瀏覽器中，一旦更新完成申請，請選取 "重新開機」。 關閉Azure IoT Edge，重新開機系統，問題應該可以解決。 | 無 |
 | 分割圖庫參與者影片   |  如果會議沒有超過 9 個遠端參與者的共用內容，且會議採用兩種會議室前顯示模式，則會議室前方顯示器上具有自我預覽的 1 個影片可能會顯示為音訊。 此外，音訊參與者數目少於實際音訊參與者數目，顯示在兩個會議室前方顯示器上。 | 問題將會在未來更新中解決。 | 無 |
 | 應用程式未啟動 |  更新至應用程式版本 4.4.41.0 之後，系統會引導至黑色螢幕，或幾分鐘後進入登錄畫面。 | 請遵循更新[Microsoft Teams 會議室 4.4.41.0](/microsoftteams/troubleshoot/teams-administration/teams-rooms-app-wont-start-after-update)之後，應用程式無法啟動中的步驟來修正此問題。  | 無 |
-|  內容共用後的會議音量較低         |   Microsoft Teams 會議室 20H2 體驗Windows 10裝置透過會議室 HDMI 共用內容後，媒體和會議音量降低。 這是因為 20H2 Windows 10問題所導致。 | 此問題的修正程式可在應用程式版本 [4.9.12.0 中提供](/microsoftteams/rooms/rooms-release-note#49120-7282021)。 | 無 |
+|  內容共用後的會議音量較低         |   Microsoft Teams 會議室 20H2 Windows 10體驗上的裝置，透過會議室 HDMI 共用內容後，媒體和會議音量會減少。 這是因為 20H2 Windows 10問題所導致。 | 此問題的修正程式可在應用程式版本 [4.9.12.0 中提供](/microsoftteams/rooms/rooms-release-note#49120-7282021)。 | 無 |
 |  應用程式已過期         |    主機Microsoft Teams 會議室顯示「系統組態已過期」錯誤。                |   [使用 Microsoft Teams 會議室修復工具](recovery-tool.md)             |  無 |
-|  裝置更新為不支援的版本Windows 10   |    Windows 10從版本 1803 更新至版本 1809 的裝置，但不支援。 支援的版本為 1903。 |   如果 [DeferFeatureUpdatesPeriodinDays](/windows/deployment/update/waas-configure-wufb) 的群組原則或 MDM 設定設為最多 365 天，可讓您將功能更新延後指定的天數，則可能發生此情況。 <br><br> Windows 10版本 1809 不支援Microsoft Teams 會議室版本 1903。 不過，自 2020 年 3 月 27 日，版本 1809 已經超過 365 天。 如果未變更此設定，Windows嘗試安裝版本 1809，這可能會導致Microsoft Teams 會議室。<br><br>若要避免這種情況， **請移除** 任何群組原則或 MDM 設定以延後更新。 這可讓Windows更新至最新、支援的作業系統版本。 <br><br>**重要：** 必須移除群組原則或 MDM 設定 (未設定) 且 **未設為 0**。 如果策略設為 0，Windows會採用可能不支援的最新可用版本。 |  無 |
+|  裝置更新為不支援的版本Windows 10   |    Windows 10從版本 1803 更新至版本 1809 的裝置，但不支援。 支援的版本為 1903。 |   如果 [DeferFeatureUpdatesPeriodinDays](/windows/deployment/update/waas-configure-wufb) 的群組原則或 MDM 設定設為最多 365 天，可讓您將功能更新延後指定的天數，則可能發生此情況。 <br><br> Windows 10版本 1809 不支援Microsoft Teams 會議室版本 1903。 不過，自 2020 年 3 月 27 日，版本 1809 已經超過 365 天。 如果未變更此設定，Windows嘗試安裝版本 1809，這可能會導致Microsoft Teams 會議室。<br><br>若要避免這種情況， **請移除** 任何群組原則或 MDM 設定以延後更新。 這可讓您Windows更新至最新支援的 OS 版本。 <br><br>**重要：** 必須移除群組原則或 MDM 設定 (未設定) 且 **未設為 0**。 如果策略設為 0，Windows會採用可能不支援的最新可用版本。 |  無 |
 
 
 
@@ -46,7 +46,7 @@ ms.locfileid: "62926316"
 
 | 問題標題 |  行為 \/ 症狀 | 已知的因應措施 | KB 文章 |
 |  ---        |      ---             |   ---            | --- |
-|虛擬鍵盤遺失   | 當您需要在 Microsoft Teams 會議室 中輸入資訊時，虛擬鍵盤Microsoft Teams 會議室。 此問題會發生在 Windows 10版本 1903 中。 | 透過更新為 x64 型系統安裝 Windows 10 1903 的 2020-04 累積更新Windows更新。  | 無 | 
+|虛擬鍵盤遺失   | 當您需要在 Microsoft Teams 會議室 中輸入資訊時，虛擬鍵盤Microsoft Teams 會議室。 此問題會發生在 Windows 10版本 1903 中。 | 透過更新為 x64 型系統的 Windows 10 1903 版本安裝 2020-04 累加更新Windows更新。  | 無 | 
 
 <a name="Hardware"> </a>  
 ## <a name="hardware"></a>硬體
@@ -68,11 +68,11 @@ ms.locfileid: "62926316"
 
 ***
 
-Microsoft Teams 會議室不支援 HDCP 輸入，因為已觀察此輸入會造成視 (音訊和音訊) 。 請小心確保已連接到 Microsoft Teams 會議室的開關已關閉 HDCP 選項。 
+Microsoft Teams 會議室不支援 HDCP 輸入，因為已觀察此輸入會造成視像、音訊和音訊 (HDMI) 。 請小心確保已連接到 Microsoft Teams 會議室的開關已關閉 HDCP 選項。 
 
 ***
 
-如果您希望當來源從待命模式喚醒時，會議室前方顯示器會自動切換到使用中的視像來源 ，例如，一個一線監控主機，則必須符合特定條件。 這項功能為選擇性，但Microsoft Teams 會議室支援，但基礎硬體支援此功能。 作為會議室前顯示器的消費者電視需要支援消費者電子控制 (CEC) HDMI 功能。  視選取的基座或主機不同，可能需要來自Crsron的 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 或 [Exron HD CTL 100](https://www.extron.com/article/hdctl100ad) 的控制器，才能啟用想要的行為。 請參閱製造商的支援檔，以確認基座或主機支援 CEC。
+如果您希望當來源從待命模式喚醒時，會議室前方顯示器會自動切換到使用中的視像來源 ，例如，一個一線監控主機，則必須符合特定條件。 這項功能為選擇性，但Microsoft Teams 會議室支援，但基礎硬體支援此功能。 用來做為會議室前顯示器的消費者電視需要支援消費者電子 (CEC) HDMI 功能。  視選取的基座或主機不同，可能需要來自Crsron的 [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E) 或 [Exron HD CTL 100](https://www.extron.com/article/hdctl100ad) 的控制器，才能啟用想要的行為。 請參閱製造商的支援檔，以確認基座或主機支援 CEC。
 
 此外，用來做為會議室前方顯示器的消費者電視可能會導致軟體的穩定性Microsoft Teams 會議室問題。 這是因為備用模式不一致的實現、使用中的視音訊來源選擇，以及將錯誤的 EDID 資訊Microsoft Teams 會議室裝置。 已知症狀是會議室顯示器前方出現黑色/灰色畫面，或主機Microsoft Teams 會議室從待命狀態喚醒後無法回應。  如果使用消費者電視時發生問題，我們建議您從 FSR 影片產品群組安裝可配置的 EDID 控制器或 EDID 模擬器，例如來自Crsron 或[DR-EDID Emulator 的](https://fsrinc.com/fsr-products/product/dr-edid-manager-learner/category_pathway-143) [HD-RX-201-C-E](https://www.crestron.com/Products/Video/HDMI-Solutions/HDMI-Extenders/HD-RX-201-C-E)。
 
@@ -82,7 +82,7 @@ Microsoft Teams 會議室不支援 HDCP 輸入，因為已觀察此輸入會造�
 
 ***
 
-如果您的Microsoft Teams 會議室失去對網域的信任，您將無法在裝置中進行驗證，無法開啟設定。 例如，如果您在網域加入Microsoft Teams 會議室移除網域，信任會遺失。 解決方法是使用本地系統管理員帳戶登入。 
+如果您的Microsoft Teams 會議室失去對網域的信任，您將無法在裝置中驗證並開啟設定。 例如，如果您在加入網域Microsoft Teams 會議室移除網域，信任會遺失。 解決方法是使用本地系統管理員帳戶登入。 
 ***
 Microsoft Teams 會議室是多視窗應用程式，需要會議室前方的顯示器連接到裝置 HDMI 埠，應用程式可以正確運作。 請確定您連接了 HDMI 顯示器，或是使用虛擬 HDMI 插頭進行測試，但尚未購買顯示器。
 ***

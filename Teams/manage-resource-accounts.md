@@ -21,18 +21,16 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 本文將瞭解如何在 Microsoft Teams 中建立、編輯及管理資源Microsoft Teams。
-ms.openlocfilehash: 11ba1600ca1da807711d4bd977abf1adfa09a612
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: bc49142a5e40b0bb883761cde297d01d89a3f67b
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299028"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062557"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
-資源帳戶是已停用的使用者物件Azure AD，可用來代表一般資源。 例如，資源帳戶可用於Exchange會議室，並允許會議室擁有電話號碼和日曆。 資源帳戶可以使用 2019 Microsoft 365或內部部署商務用 Skype Server中。
-
-在 Microsoft Teams，每個自動電話機或通話佇列都需要資源帳戶。 資源帳戶也可能被指派服務電話號碼。 這是您將電話號碼指派給自動語音機和通話佇列，讓來自Teams的來電者能夠到達自動語音機或通話佇列。
+在 Microsoft Teams中，每個自動電話機或通話佇列都需要資源帳戶。 資源帳戶也可能被指派服務電話號碼。 這是您將電話號碼指派給自動語音機和通話佇列，讓來自Teams的來電者能夠到達自動語音機或通話佇列。
 
 本文涵蓋如何建立資源帳戶，並準備好與自動通話和通話佇列一起使用。
 
@@ -42,7 +40,7 @@ ms.locfileid: "62299028"
 - [取得服務編號](#obtain-service-numbers)
 
 > [!NOTE]
-> 資源帳戶會停用以用於登錄，而且必須維持此狀態。 這些帳戶無法聊天和目前狀態。
+> 用於自動電話機和通話佇列的資源帳戶會停用以用於登錄，而且必須維持此狀態。 這些帳戶無法聊天和目前狀態。
 
 ### <a name="obtain-virtual-user-licenses"></a>取得虛擬使用者授權
 
@@ -50,7 +48,7 @@ ms.locfileid: "62299028"
 
 本文稍後將說明如何將授權指派給資源帳戶。
 
-若要取得虛擬使用者授權，請于 Microsoft 365 系統管理中心 中，前往 **BillingPurchase** ****  >  **servicesAdd-on**  >  訂閱並卷起至結尾 - 電話系統 *-* 虛擬使用者授權。 選取 **立即購買**。 零成本，但您仍然需要遵循這些步驟取得授權。
+若要取得虛擬使用者授權，請前往 Microsoft 365 系統管理中心 中的 **BillingPurchase** ****  >  **servicesAdd-on**  >  訂閱，並卷起到結尾 - 電話系統 *-* 虛擬使用者授權。 選取 **立即購買**。 零成本，但您仍然需要遵循這些步驟取得授權。
 
 ### <a name="obtain-service-numbers"></a>取得服務編號
 
@@ -68,7 +66,7 @@ ms.locfileid: "62299028"
 
 ![新增資源帳戶使用者介面的螢幕擷取畫面。](media/resource-account-add.png)
 
-1. 在系統管理Teams，展開 **[語音**，然後按一下 **[資源帳戶**。
+1. 在 [Teams管理中心中，展開 **[語音**，然後按一下 **[資源帳戶**。
 
 2. 按一下 [新增 **]**。
 
@@ -80,13 +78,13 @@ ms.locfileid: "62299028"
 
 ## <a name="assign-a-license"></a>指派授權
 
-針對每個資源帳戶，您必須指派一個Microsoft 365 電話系統 *- 虛擬使用者**授權或* 電話系統授權。
+針對每個資源帳戶，您必須指派一個Microsoft 365 電話系統 *- 虛擬使用者* 授權或 *電話系統* 授權。
 
 ![指派授權使用者介面的螢幕擷取畫面Microsoft 365 系統管理中心。](media/resource-account-assign-virtual-user-license.png)
 
 1. 在 Microsoft 365 系統管理中心中，按一下要指派授權的資源帳戶。
 
-2. On the **Licenses and Apps** tab, under **Licenses**, select **Microsoft 365 Phone System - Virtual User**.
+2. 在 "**授權與應用程式"** 選項卡 **的 "授權**" 下，選取 **Microsoft 365 電話系統 - 虛擬使用者**。
 
 3. 按一下 **[儲存變更]**。
 
@@ -98,7 +96,7 @@ ms.locfileid: "62299028"
 
 1. 在 Teams系統管理中心，在 [資源帳戶> 頁面上，選取要指派服務號碼的資源帳戶，然後按一下 [**指派/取消指派**。
 
-2. 在電話 **數位類型** 下拉式下拉清單中，選擇您想要使用的電話號碼類型。
+2. 在 電話 **數位** 類型下拉式下拉清單中，選擇您想要使用的號碼類型。
 
 3. 在 **[已指派的電話號碼** > 方塊中，搜尋您想要使用的號碼，然後按一下 [ **新增**。
 
@@ -130,7 +128,7 @@ ms.locfileid: "62299028"
 
 ## <a name="skype-for-business-server-2019"></a>Skype商務用伺服器 2019
 
-如果資源帳戶位於 Skype 商務用伺服器 2019，可用於雲端通話佇列和雲端自動話務員，請參閱規劃雲端通話佇列或[規劃雲端自動](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)話務員。[ ](/SkypeforBusiness/hybrid/plan-call-queue) 混合式 (直接路由) 上的數位是使用內部部署 商務用 Skype Server 2019 伺服器上[New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) Cmdlet 設定。
+如果資源帳戶位於 Skype 商務用伺服器 2019，可用於雲端通話佇列和雲端自動話務員，請參閱規劃雲端通話佇列或[規劃雲端自動](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)話務員。[ ](/SkypeforBusiness/hybrid/plan-call-queue) 直接路由 (上的混合式) 是使用內部部署 商務用 Skype Server 2019 伺服器上[New-CsHybridApplicationEndpoint](/powershell/module/skype/new-cshybridapplicationendpoint) Cmdlet 設定。
 
 建立應用程式實例時，您需使用的應用程式 ID 為：
 

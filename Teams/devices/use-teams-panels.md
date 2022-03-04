@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文提供如何使用面板Teams指南。
-ms.openlocfilehash: bd1a7a865d6e07cec47838a518d19523afef5134
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63050899"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062537"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>如何使用Microsoft Teams面板
 
@@ -204,7 +204,7 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 T
 
 簽入和會議室發行設定可讓使用者在會議開始時Teams會議室的面板上簽入會議。 如果使用者未在會議開始時間後的一段時間內簽入，會議室即會釋出，可供其他人保留。
 
-當Teams面板與 Android Microsoft Teams 會議室配對時，當會議延遲時，可以啟用簽入通知出現在會議室前顯示器上。
+當Teams面板與 Android Microsoft Teams會議室配對時，當會議延遲時，可以啟用簽入通知出現在會議室前顯示器上。
 
 若要啟用簽入和會議室釋放，請參閱在面板上Microsoft Teams[和會議室釋放](check-in-and-room-release.md)。
 

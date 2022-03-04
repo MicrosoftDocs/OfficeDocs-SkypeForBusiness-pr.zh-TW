@@ -17,18 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af6433cb3e5ca0e1849322bdd128915e826e219b
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 8d1b84fc78558fcbb1945cbc56b311b5e06234a5
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63040061"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062527"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在中設定父Microsoft Teams 教育版
 
 Teams 教育版中的家長關係可協助教師使用 Teams 聊天，安全地與班級團隊中的學生家長和監護人聯繫並互動，這將在教育者組織中進行縮放。 所有家長和監護人的資料都是使用學校資料同步處理，讓 IT 員工能夠順暢地設定專案。
 
-家長和監護人一旦設定好之後，就可以使用聊天功能與學生Teams聊天。 若要取得與教師聯繫家長和監護人的指引，請參閱連線[與Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960)。
+一旦設定好教育者和監護人，他們就可以使用聊天Teams聊天。 
+
+若要取得與教師聯繫家長和監護人的指引，請參閱連線[與Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960)。
+
+若要取得讓教育者設定與家長和監護人通訊的指引，請參閱在 Microsoft Teams 中[與監護人Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us)。
 
 家長也可以使用監督聊天。 家長和監護人沒有完整的Teams許可權，這表示他們無法開始與學生交談，或移除使用者的完整許可權 (例如教育) 聊天。 有關監看聊天的資訊[，請參閱在](supervise-chats-edu.md)聊天中Microsoft Teams。
 
@@ -61,7 +65,7 @@ Teams 教育版中的家長關係可協助教師使用 Teams 聊天，安全地�
 > [!NOTE]
 >家長和監護人在家長功能中會歸類為外部使用者，這表示他們沒有完整的租使用者權利。 他們只能存取新加入的聊天或聊天，以及檔案、影像，以及聊天中共用的其他內容。
 >
->此外，外部使用者 (離線、可用、忙碌等 ) ，但您可以使用 PowerShell 來關閉此功能，以保護使用者的隱私權。 在 PowerShell 中，使用 [Set-CsPrivacyConfiguration 和](/powershell/module/skype/set-csprivacyconfiguration?view=skype-ps) set ``EnablePrivacyMode=true`` 。
+>此外，外部使用者 (離線、可用、忙碌等 ) ，但您可以使用 PowerShell 來關閉此功能，以保護使用者的隱私權。 在 PowerShell 中，使用 [Set-CsPrivacyConfiguration 和](/powershell/module/skype/set-csprivacyconfiguration) set ``EnablePrivacyMode=true`` 。
 >
 >即使家長和監護人是外部使用者，他們對於聊天的貢獻還是可以探索的。 瞭解如何在 Teams中執行電子檔探索調查，以執行電子檔探索[Microsoft Teams](ediscovery-investigation.md)。
 
