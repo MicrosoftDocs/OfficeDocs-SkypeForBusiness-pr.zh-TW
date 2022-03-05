@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01fc283f8787ad659678b4e09ad3f573f34eb66d
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: e5e554672156f70556ebc18625115cd9a1ce8c58
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363029"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062687"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 中 Education Insights 的 IT 系統管理員指南
 
@@ -135,6 +135,7 @@ Insights *不會* 顯示關於授課者的資料。 資料的分析可提供可�
 | **會議** |    出席 (不包括會議內容)。|
 | **[朗讀進展](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |    準確度速率、最具挑戰的字詞，以及每分鐘的字數。  |
 | **[反映](reflect.md)** |   簽入 (包括值)。|
+| **職涯教練** | 學生提供的主修 (學習領域) 和學校年份、職涯教練應用程式中的學生活動，包括: 技能、技能興趣、職業興趣、學習興趣和工作相關活動。|
 
 > [!NOTE]
 > 收集的資料多數會在幾分鐘內出現在 Insights 中。班級會議 (與其中一個班級頻道相關聯的會議) 中的出席資訊，會在會議結束後顯示幾小時 (通常最多為 24 小時)。
@@ -239,12 +240,24 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 
 * 若要重新開啟，請遵循 [如何部署適用於 Insights 的 SDS](/schooldatasync/how-to-deploy-sds-for-insights) 中的指示。
 
-### <a name="how-to-delete-your-data"></a>如何刪除您的資料
-Insights 會儲存在班級團隊內容中執行的學生和授課者動作。 此資料被視為混合資料集，因此，一旦從組織中刪除了學生或授課者的使用者帳戶，就不會自動從服務中刪除。
-附註：刪除資料會損及 Insights 分析一段時間班級團隊參與度的能力。
-* [開啟支援票證](https://aka.ms/edusupport)。 支援票證必須明確聲明對 [GDPR Delete DSR] 操作的請求，並包含要刪除的使用者物件識別碼。 無法限制刪除的資料集或時間窗口。
-*   一旦提出，支援票證就會在佇列中等候一週，以符合合規性的最低保留原則。 您可以在此期間取消該作業。
-*   一週之後，Education Insights 團隊會確保與該使用者識別碼相關的所有資料都已從服務中刪除。 Microsoft 支援服務會監視該票證，並會在刪除程序完成後 28 天內通知您。
+### <a name="how-to-delete-user-data-from-education-insights"></a>如何從教育深入解析中刪除使用者資料
+深入解析會儲存在 Microsoft Teams 教育版中執行的學生和教師活動。
+
+深入解析收集的資料有兩種類型:
+* **混合資料** – 在課程學習活動中產生的資料。
+* **非混合 (私人) 資料** –由 Teams 教育版學生活動所收集的資料，而不是課程學習活動的一部分。 
+
+深入解析收集的完整資料會列於[此處](class-insights.md#data-collection)。
+
+為了提供過去時間範圍資料的完整性與整體性給教育者和教育領導者，根據預設，當學生或教育者使用者帳戶關閉時，Insights 不會自動從服務中刪除資料。 組織的 IT 系統管理員可以採取下列步驟，要求手動刪除使用者 (教育者或學生) 資料:
+* 開啟[支援票證](https://aka.ms/edusupport)。 支援票證必須明確聲明對 [GDPR Delete DSR] 操作的請求，並包含要刪除的使用者物件識別碼。
+無法限制刪除的資料集或時間窗口。
+* 在要求中，IT 系統管理員應清楚說明需要為該使用者刪除的資料類型，出於下列選項之一:
+  - 所有資料 (混合且私人)
+  - 所有私人資料 
+  - 僅職涯教練資料
+* 一旦提出，支援票證就會在佇列中等候一週，以符合合規性的最低保留原則。 您可以在此期間取消該作業。
+* 一週之後，Education Insights 團隊會確保與上述特定類型之使用者識別碼相關的所有資料都已從服務中刪除。 Microsoft 支援服務會監視該票證，並會在刪除程序完成後 28 天內通知您
 
 ## <a name="troubleshooting"></a>疑難排解
 ### <a name="why-doesnt-my-institution-see-any-data-in-insights"></a>為什麼我的機構在 Insights 中看不到任何資料？
