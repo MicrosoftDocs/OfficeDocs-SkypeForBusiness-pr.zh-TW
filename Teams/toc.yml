@@ -1389,6 +1389,8 @@ items:
             href: rooms/multi-tenant-management-customer.md
           - name: 會議室活動的稽核記錄
             href: rooms/multi-tenant-auditing.md
+          - name: 標準與會議室規劃工具
+            href: rooms/standards-and-room-planner.md
       - name: 裝置
         items:
           - name: 在 Teams 中管理裝置

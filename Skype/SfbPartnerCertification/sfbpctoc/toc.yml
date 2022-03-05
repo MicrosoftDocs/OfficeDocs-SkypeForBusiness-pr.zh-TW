@@ -9,7 +9,7 @@
       items:
         - name: 商務用 Skype IP 手機
           href: ../certification/devices-ip-phones.md
-        - name: Teams IP 手機
+        - name: Teams Android 裝置
           href: /microsoftteams/teams-ip-phones
         - name: USB 音訊和視訊裝置
           href: ../certification/devices-usb-devices.md
