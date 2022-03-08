@@ -1,8 +1,8 @@
 ---
 title: 自訂應用程式存放區
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: prem
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解在 Microsoft Teams 中自訂Microsoft Teams。
-ms.openlocfilehash: cabfc148edb793ac40b49950b3b92676a0c80bfa
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: f98b91c8a700bfc8ebb560930862e66b38a35a0e
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62399497"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070382"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>自訂應用程式儲存在 Microsoft Teams
 
-現在，您可以新增標誌、自訂背景和自訂文字色彩Teams以公司品牌來自訂貴組織的應用程式存放區，使其更吸引使用者。
+現在，您可以新增標誌、自訂背景和自訂文字色彩，以在 Teams 中自訂貴組織的應用程式存放區，以吸引更多使用者。
 
 > [!Note]
 > 品牌變更需要 24 小時才能生效。
@@ -44,7 +44,7 @@ ms.locfileid: "62399497"
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-您可以在這裡上傳貴組織標誌。 選取的商標會出現在您的租使用者Teams **AppBuilt**   >  的用戶端中。
+您可以在這裡上傳貴組織標誌。 選取的標誌會出現在租使用者Teams **AppBuilt**   >  的用戶端中。
 
 當您選取選擇 **圖片選項** 時，您可以上傳您所選擇的檔案。 標誌應為 240x60，否則會縮放至該大小。 它不應大於 5 MB。 支援的格式為：
 
@@ -68,7 +68,7 @@ ms.locfileid: "62399497"
 - .png
 - .jpg
 
-小型標誌會顯示在市/市登陸 **頁面的 "** 專為租使用者Teams區段標題旁。
+小型標誌會顯示在市/市登陸 **頁面的 "** 專為租使用者Teams標題旁。
 
 ## <a name="customize-the-background-color"></a>自訂背景色彩
 
@@ -76,7 +76,7 @@ ms.locfileid: "62399497"
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-請確定背景與文字有足夠的對比，讓使用者能清楚閱讀文字。 背景會出現在 **AppsBuilt**   >  Teams租使用者標題的用戶端中。
+請確定背景與文字有足夠的對比，讓使用者能清楚閱讀文字。 背景會出現在 **AppBuilt**   >  Teams租使用者標題的用戶端中。
 
 您的選擇包括︰
 
@@ -95,7 +95,7 @@ ms.locfileid: "62399497"
 <a name="textcolor"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-請確定文字色彩與背景有足夠的對比，讓使用者能清楚閱讀貴組織的名稱。 文字會顯示在 **AppsBuilt** Teams  >  租使用者標題的用戶端中。
+請確定文字色彩與背景有足夠的對比，讓使用者能清楚閱讀貴組織的名稱。 文字會顯示在 **AppBuilt** Teams  >  租使用者標題的用戶端中。
 
 當您選取選擇 **自訂色彩時**，色彩選擇器隨即開啟。 調整色彩選擇器縮放比例，以選取您想要的色彩。
 

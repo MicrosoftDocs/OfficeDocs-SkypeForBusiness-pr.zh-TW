@@ -1127,6 +1127,8 @@ items:
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovakia.md
               - name: 斯洛維尼亞的電話號碼管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-slovenia.md
+              - name: 南非的電話號碼管理
+                href: manage-phone-numbers-for-your-organization/phone-number-management-for-south-africa.md
               - name: 西班牙的電話號碼管理
                 href: manage-phone-numbers-for-your-organization/phone-number-management-for-spain.md
               - name: 荷蘭的電話號碼管理
@@ -1373,8 +1375,8 @@ items:
             href: rooms/obtaining-assigning-license.md
           - name: 註冊到受 MTRP 管理的服務
             href: rooms/enrolling-mtrp-managed-service.md
-          - name: 安裝
-            href: rooms/monitor-software-installation-guide.md
+          - name: 將裝置註冊到受管理的服務
+            href: rooms/enroll-a-device.md
           - name: 角色型存取控制
             href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: 監視和維護會議室

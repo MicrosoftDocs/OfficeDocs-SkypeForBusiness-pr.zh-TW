@@ -1,8 +1,8 @@
 ---
 title: 在系統管理中心管理Microsoft Teams應用程式
-author: KarliStites
-ms.author: kastites
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,12 +17,12 @@ description: 瞭解如何在系統管理中心的 Teams 管理應用程式頁面
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 8e0c475eaf2186c13174d27687a5bd10c2fa1057
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: ad1dd28f4de0bc6db0ab7b2870a1cf7b2dae007a
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062547"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070222"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在系統管理中心管理Microsoft Teams應用程式
 
@@ -55,7 +55,7 @@ ms.locfileid: "63062547"
 ![應用程式詳細資料頁面的螢幕擷取畫面。](media/app-detail-page.jpg)
 
 - **名稱**：應用程式名稱。 選取應用程式名稱以前往應用程式詳細資料頁面，以查看應用程式的詳細資訊。 這包括應用程式的描述，無論是允許或封鎖、版本、隱私權原則、使用條款、適用于應用程式的類別、認證狀態、支援的功能，以及應用程式識別碼。
-- **認證**：如果應用程式已經通過認證，則會看到已 **Microsoft 365或****Publisher認證**。 選取連結以查看應用程式的認證詳細資料。 如果您看到「 **--** 」，我們並沒有應用程式的認證資訊。 若要深入瞭解應用程式中的認證Teams，請參閱[Microsoft 365認證計畫](/microsoft-365-app-certification/overview)。
+- **認證**：如果應用程式已經通過認證，則會看到已 **Microsoft 365或****Publisher認證**。 選取連結以查看應用程式的認證詳細資料。 如果您看到 `--` ，我們並沒有應用程式的認證資訊。 若要深入瞭解應用程式中的認證Teams，請參閱[Microsoft 365認證計畫](/microsoft-365-app-certification/overview)。
 - **Publisher**：發行者的名稱。
 - **發佈狀態**：自訂應用程式的發佈狀態。
 - **狀態**：組織層級的應用程式狀態，可以是下列其中一項：

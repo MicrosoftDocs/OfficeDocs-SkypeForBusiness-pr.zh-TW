@@ -1,8 +1,8 @@
 ---
-title: 使用應用程式Teams API 提交和核准您的自訂應用程式
-author: KarliStites
-ms.author: kastites
-manager: serdars
+title: 使用應用程式Teams API 來提交和核准您的自訂應用程式
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -17,19 +17,19 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何核准使用 Teams App 提交 API 提交的自訂Microsoft Teams。
-ms.openlocfilehash: 17741733f506aefd6fd85f1b821d144961af6158
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+ms.openlocfilehash: a1b6778c79fd389ebfd4b3ce172daa186e92b76e
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312236"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070402"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>發佈透過應用程式提交 API Teams提交的自訂應用程式
 
 ## <a name="overview"></a>概觀
 
 > [!NOTE]
-> 當您發佈自訂 Teams應用程式時，組織 App Store 中的使用者可以使用自訂應用程式。 發佈自訂應用程式的方法有兩種，而使用方式取決於您取得應用程式的方式。 **本文著重于如何核准** 和發佈開發人員透過應用程式提交 API 提交Teams應用程式。 另一種方法 ，即上傳自訂應用程式，是當開發人員以新的格式傳送應用程式套件.zip使用。 若要深入瞭解這個方法，請參閱上傳應用程式套件 [來發佈自訂應用程式](/microsoftteams/upload-custom-apps)。 核准應用程式小工具在租使用者中GCC使用。
+> 當您發佈自訂Teams應用程式時，組織 App Store 中的使用者可以使用它。 發佈自訂應用程式的方法有兩種，而使用方式取決於您取得應用程式的方式。 **本文著重于如何核准** 和發佈開發人員透過應用程式提交 API Teams自訂應用程式。 另一種方法 ，即上傳自訂應用程式，是當開發人員以新的格式傳送應用程式套件.zip使用。 若要深入瞭解這個方法，請參閱上傳應用程式套件 [來發佈自訂應用程式](/microsoftteams/upload-custom-apps)。 核准應用程式小工具在租使用者中GCC使用。
 
 > [!IMPORTANT]
 > 這個方法目前不適用於GCC環境。 您必須使用上傳 *自訂應用程式的方法* 。
@@ -46,13 +46,13 @@ ms.locfileid: "62312236"
 
 ### <a name="create-the-app"></a>建立應用程式
 
-開發人員Microsoft Teams平臺，讓開發人員能輕鬆整合您自己的應用程式與服務，以提高生產力、更快速地做出決策，以及與現有內容和工作流程建立共同作業。 以平臺Teams的應用程式是用戶端Teams服務與工作流程之間的橋樑，直接將它們納入您的共同合作平臺中。 若要詳細資訊，請前往開發人員Teams[檔](/microsoftteams/platform)。
+開發人員Microsoft Teams平臺，讓開發人員能輕鬆整合您自己的應用程式和服務，以提高生產力、更快速地做出決策，並圍繞現有內容和工作流程建立共同作業。 建立在 Teams 平臺上的應用程式是用戶端Teams服務與工作流程之間的橋樑，直接將它們納入您的共同合作平臺中。 若要詳細資訊，請前往開發人員Teams[檔](/microsoftteams/platform)。
 
 ### <a name="submit-the-app"></a>提交應用程式
 
-當應用程式可供生產使用時，開發人員可以使用 Teams App 提交 API 提交應用程式，此 API 可以從[Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)、整合式開發環境 (IDE) 例如 Visual Studio Code 或 Power Apps 和 Power Virtual Agents. 這麼做之後，應用程式就可以在系統管理[](/microsoftteams/manage-apps)中心的 Microsoft Teams管理應用程式頁面使用，您可以在此查看及核准。
+當應用程式可供生產使用時，開發人員可以使用 Teams App 提交 API 提交應用程式，此 API 可以從[Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)、整合式開發環境 (IDE) 例如 Visual Studio Code 或 Power Apps 和 Power Virtual Agents. 這麼做之後，應用程式就可以在系統管理[](/microsoftteams/manage-apps)中心的 Microsoft Teams 管理應用程式頁面使用，您可以在此進行審閱和核准。
 
-Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)提交 API 可讓您的組織在所選擇的平臺上開發，並自動化 Teams 上自訂應用程式的提交至核准程式。
+Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)提交 API 可讓貴組織在所選擇的平臺上開發，並自動化 Teams 上自訂應用程式的提交至核准程式。
 
 以下範例說明此應用程式提交步驟在應用程式中Visual Studio Code：
 
@@ -64,7 +64,7 @@ Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=
 
 ## <a name="notify"></a>通知
 
-您可以開啟通知，以便知道開發人員何時提交新應用程式供審查和核准。 當開發人員提交應用程式更新時，您也會收到通知。 若要在系統管理中心Teams應用程式提交通知，請前往通知&[**通知RulesApp**  >  ****  >  ****](https://admin.teams.microsoft.com/notifications/rules)提交，然後將狀態變更為使用中來啟用規則。 此設定預設會關閉。 您必須是全域系統管理員或Teams才能開啟此設定。
+您可以開啟通知，以便知道開發人員何時提交新應用程式供審查和核准。 當開發人員提交應用程式更新時，您也會收到通知。 若要在系統管理中心Teams應用程式提交通知，請前往通知&[**通知****RulesApp**  >  ****  > ](https://admin.teams.microsoft.com/notifications/rules)提交，然後將狀態變更為使用中來啟用 **規則**。 此設定預設會關閉。 您必須是全域系統管理員或Teams才能開啟此設定。
 
 開啟此設定後，您將在名為 App 提交的新頻道的系統管理通知和通知小組 **中收到通知**。 或者，您可以選擇現有的團隊和頻道，以取得傳送至指定小組和頻道的通知。 若要這樣做，請執行下列步驟：
 
@@ -85,7 +85,7 @@ Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=
 
 ![應用程式提交通知。](media/app-submission-notification.png)
 
-設定應用程式提交規則之後，您可以在指定的頻道中查看通知卡片，以查看應用程式詳細資料，然後選取查看詳細資料，在系統管理中心Teams應用程式。
+設定應用程式提交規則之後，您可以在指定的頻道中查看通知卡片，以查看應用程式詳細資料，然後選取查看詳細資料，在系統管理中心Teams App。
 
 ## <a name="validate"></a>驗證
 
@@ -164,7 +164,7 @@ Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=
 ## <a name="related-topics"></a>相關主題
 
 - [上傳應用程式套件來發佈自訂應用程式](upload-custom-apps.md)
-- [在系統管理中心Microsoft Teams您的應用程式](manage-apps.md)
+- [在系統管理中心管理Microsoft Teams應用程式](manage-apps.md)
 - [在 Teams 中管理自訂應用程式原則和設定](teams-custom-app-policies-and-settings.md)
 - [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)
 - [在 Teams 中管理應用程式設定原則](teams-app-setup-policies.md)

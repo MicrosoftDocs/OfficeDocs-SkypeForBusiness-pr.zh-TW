@@ -17,36 +17,36 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在受管理Microsoft Teams 會議室註冊Microsoft Teams 會議室進階版帳戶。
 f1keywords: ''
-ms.openlocfilehash: 79dee52cc9c814338c6c5dc4c91245155ef2fd41
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: d00c4f84447e8ba41f0328cca9b907db45e8fdb7
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766966"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070412"
 ---
 # <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>在受管理的服務中Microsoft Teams 會議室進階版裝置
 
-若要在受Microsoft Teams 會議室服務中註冊Teams 會議室 進階版，您需要將一個使用者指派給 Managed Service 系統管理員，然後使用該使用者完成註冊步驟。
+若要在受Microsoft Teams 會議室註冊Teams 會議室 進階版，您必須將一或多個使用者指派給 Managed Service 系統管理員，然後使用該使用者完成註冊步驟。
 
 ## <a name="assign-users-to-the-managed-service-administrator-role"></a>將使用者指派給 Managed Service 系統管理員角色
 
 完成下列步驟，將使用者指派給 Managed Service 系統管理員角色：
 
 1. 以與登入[](https://portal.rooms.microsoft.com/)Teams 會議室 進階版相同的系統管理員許可權登入 Microsoft 365 系統管理中心。
-2. 流覽至  >  **設定設定**  >  **角色**，然後選取 **Managed Service 系統管理員**。
+2. 流覽至 **設定**  >  **設定**  >  **註冊，然後** 選取 **管理服務系統管理員**。
 3. 在 **Managed Service 系統管理員的** 下， **選取作業選項卡** ， **然後選取新增**。
 4. 請遵循精靈為作業命名，然後選取應該新增到該作業的使用者。 作業將適用于所有會議室和會議室群組。
-5. 在作業精靈的結尾，選取 新增 **作業**。
+5. 在作業精靈的結尾，選取新增 **作業**。
 
 指派受管理服務系統管理員角色的使用者負責管理及監控受管理Teams 會議室 進階版入口網站。
 
-將使用者指派給受管理服務系統管理員角色之後，請繼續到註冊裝置區[](#enroll-a-teams-rooms-device)段，Teams 會議室裝置新到受管理服務入口網站。
+將使用者指派給受管理服務系統管理員角色後，請繼續註冊 Teams 會議室[裝置](enroll-a-device.md)，將 Teams 會議室裝置新Teams 會議室到受管理服務入口網站。
 
-## <a name="enroll-a-teams-rooms-device"></a>註冊Teams 會議室裝置
+<!-- ## Enroll a Teams Rooms device
 
- 若要在受管理服務中Teams 會議室 進階版裝置，請參閱[監控裝置軟體安裝](monitor-software-installation-guide.md)。
+ To enroll a device in the Teams Rooms Premium managed service, see [Monitoring device software installation](monitor-software-installation-guide.md).
 
-<!--2. Select on the **?** icon at the top right-hand corner of the portal to launch the help menu. The help menu includes an [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) containing detailed enrollment instructions:
+2. Select on the **?** icon at the top right-hand corner of the portal to launch the help menu. The help menu includes an [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) containing detailed enrollment instructions:
 
     1. Review the **Pre-requisites** section in the Installation guide. Confirm that the URLs listed in the **URLs Required for Communication** list are added to your firewall's traffic allow list.
     2. Follow the instructions in the **Enabling TPM Settings** section to enable the Trusted Platform Module (TPM) functionality on your device.

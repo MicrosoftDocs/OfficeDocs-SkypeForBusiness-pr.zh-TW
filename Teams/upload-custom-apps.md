@@ -1,8 +1,8 @@
 ---
 title: Upload系統管理中心Microsoft Teams自訂應用程式
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -17,19 +17,19 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在系統管理中心將自訂應用程式上傳到Microsoft Teams市。
-ms.openlocfilehash: 30e63673956c71aee53f1acd685b6107a61f566f
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: f9cbbfb60b2bb93cb3f687e6da8c6595f5cc185b
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62824712"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070182"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>上傳應用程式套件來發佈自訂應用程式
 
 > [!NOTE]
-> 當您發佈自訂 Teams應用程式時，組織 App Store 中的使用者可以使用自訂應用程式。 發佈自訂應用程式的方法有兩種，而使用方式取決於您取得應用程式的方式。 **本文著重瞭解如何以** 開發人員傳送 (格式.zip應用程式套件) 發佈自訂應用程式。 當開發人員透過應用程式提交 API 將應用程式直接提交到管理應用程式頁面時，會Teams自訂應用程式<a href="/microsoftteams/manage-apps" target="_blank"></a>。 若要深入瞭解這個方法，請參閱發佈透過應用程式提交 API 提交的Teams<a href="/microsoftteams/submit-approve-custom-apps" target="_blank">應用程式</a>。
+> 當您發佈自訂Teams應用程式時，組織 App Store 中的使用者可以使用它。 發佈自訂應用程式的方法有兩種，而使用方式取決於您取得應用程式的方式。 **本文著重瞭解如何以** 開發人員傳送 (格式.zip應用程式套件) 發佈自訂應用程式。 當開發人員透過應用程式提交 API 將應用程式直接提交到管理應用程式頁面時，Teams自訂應用程式。<a href="/microsoftteams/manage-apps" target="_blank"> </a> 若要深入瞭解這個方法，請參閱發佈透過應用程式提交 API Teams<a href="/microsoftteams/submit-approve-custom-apps" target="_blank">提交的自訂應用程式</a>。
 
-本文提供端對端指南，瞭解如何將應用程式從開發Teams部署到探索。 本指南著重于應用程式Teams，適用于系統管理員和 IT 專業人員。 有關開發應用程式Teams，請參閱Teams<a href="/microsoftteams/platform" target="_blank">檔</a>。
+本文提供端對端指南，瞭解如何將應用程式從開發Teams部署到探索。 本指南著重于應用程式Teams，適用于系統管理員和 IT 專業人員。 有關開發應用程式Teams，請參閱開發人員Teams<a href="/microsoftteams/platform" target="_blank">檔</a>。
 
 ![從開發到部署的應用程式概觀。](media/upload-custom-apps.png)
 
@@ -37,7 +37,7 @@ ms.locfileid: "62824712"
 
 ### <a name="create-your-app"></a>建立您的應用程式
 
-開發人員Microsoft Teams平臺，讓開發人員能輕鬆整合您自己的應用程式與服務，以提高生產力、更快速地做出決策，以及與現有內容和工作流程建立共同作業。 建立在 Teams 平臺上的應用程式是用戶端Teams服務與工作流程之間的橋樑，直接將它們納入您的共同合作平臺中。 若要詳細資訊，請前往開發人員Teams<a href="/microsoftteams/platform" target="_blank">文檔</a>。
+開發人員Microsoft Teams平臺，讓開發人員能輕鬆整合您自己的應用程式和服務，以提高生產力、更快速地做出決策，並圍繞現有內容和工作流程建立共同作業。 建立在 Teams 平臺上的應用程式是用戶端Teams服務與工作流程之間的橋樑，直接將它們納入您的共同合作平臺中。 若要詳細資訊，請前往開發人員Teams<a href="/microsoftteams/platform" target="_blank">檔</a>。
 
 ## <a name="validate"></a>驗證
 
@@ -59,8 +59,8 @@ Microsoft<a href="/microsoftteams/platform/publishing/office-store-approval" tar
 1. 開啟允許 **與自訂應用程式** 全組織 App 互動設定。 若要這麼做：
     1. 在系統管理中心的左側導Microsoft Teams，請Teams **應用程式**  >  **管理** 應用程式，然後按一下 [全 **組織應用程式設定**>。
     2. 在 **[自訂應用程式**」 下，開啟 [允許 **與自訂應用程式互動**，然後按一下 [ **儲存**。
-2. 關閉全域 **Upload** 設定策略中的自訂應用程式設定。 若要這麼做：
-    1. 在系統管理中心的左側導Microsoft Teams，前往 [Teams **AppSetup** ****  >  政策，然後按一下 [全域 (**全組織** 的預設) 規則。
+2. 關閉 **全域Upload** 設定策略中的自訂應用程式設定。 若要這麼做：
+    1. 在系統管理中心的左側導Microsoft Teams，前往 Teams **AppSetup** ****  >  政策，然後按一下 [全域 (**全組織** 的預設) 規則。
     2. 關閉自訂 **Upload**，然後按一下 [**儲存**。
 3. 建立新的應用程式設定策略，允許上傳自訂應用程式，並將它指派給一組信任的使用者。 若要這麼做：
     1. 在系統管理中心的左側導Microsoft Teams，前往 [應用程式Teams **Setup**  >  **政策**，然後按一下 [**新增**。 為新政策命名和描述，開啟Upload **應用程式，** 然後按一下 [**儲存**。
@@ -72,7 +72,7 @@ Microsoft<a href="/microsoftteams/platform/publishing/office-store-approval" tar
 
 ## <a name="upload"></a>Upload
 
-若要讓應用程式可供貴組織 App Store 中的使用者使用，請上傳應用程式。 您可以在系統管理中心的管理<a href="/microsoftteams/manage-apps" target="_blank">應用程式頁面上Microsoft Teams</a>這項功能。
+若要讓應用程式可供貴組織 App Store 中的使用者使用，請上傳應用程式。 您可以在系統管理中心的管理<a href="/microsoftteams/manage-apps" target="_blank">應用程式Microsoft Teams執行</a>此工作。
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
 2. 選取 **Upload**，Upload，選取您從開發人員收到的應用程式套件，然後選取 [**開啟**。
@@ -130,7 +130,7 @@ Microsoft<a href="/microsoftteams/platform/publishing/office-store-approval" tar
 ## <a name="related-topics"></a>相關主題
 
 - [發佈透過應用程式提交 API Teams提交的自訂應用程式](submit-approve-custom-apps.md)
-- [在系統管理中心Microsoft Teams您的應用程式](manage-apps.md)
+- [在系統管理中心管理Microsoft Teams應用程式](manage-apps.md)
 - [在 Teams 中管理自訂應用程式原則和設定](teams-custom-app-policies-and-settings.md)
 - [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)
 - [在 Teams 中管理應用程式設定原則](teams-app-setup-policies.md)

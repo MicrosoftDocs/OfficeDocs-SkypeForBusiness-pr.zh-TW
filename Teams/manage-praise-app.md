@@ -1,29 +1,29 @@
 ---
 title: 在系統稱讚管理中心管理 Teams應用程式
-author: LanaChin
-ms.author: v-lanachin
-manager: samanro
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: rjam
 audience: admin
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 瞭解如何在系統管理中心稱讚應用程式Microsoft Teams應用程式。
-ms.openlocfilehash: 24ddbc66018056360e226f13669ee3dae1e78db5
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 6d1382084a9c789043d699f2d935e5c50369c474
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763308"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070192"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在系統稱讚管理中心管理 Microsoft Teams應用程式
 
-稱讚應用程式Microsoft Teams可協助使用者向貴組織或教室的成員表示感謝。 徽章的設計稱讚協助識別使用者從教育者到前線員工等Teams工作所付出的投入。 若要深入瞭解，請查看傳送稱讚[給人員](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
+稱讚應用程式Microsoft Teams協助使用者向貴組織或教室的成員表示感謝。 徽章的設計稱讚協助識別使用者從教育者到前線員工Teams各種工作所付出的投入。 若要深入瞭解，請查看傳送稱讚[給人員](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
 
 系統管理員必須擁有Teams才能存取此功能。 如果您嘗試在沒有授權的情況下存取Teams，就會收到錯誤訊息。
 
 > [!NOTE]
-> 此稱讚應用程式適用于雲端GCC，但不適用於高GCC DoD。
+> 稱讚應用程式適用于雲端GCC，但不適用於高GCC DoD。
 
 ## <a name="enable-or-disable-praise-in-your-organization"></a>在貴稱讚中啟用或停用
 
@@ -42,7 +42,7 @@ ms.locfileid: "62763308"
 
 ## <a name="badges"></a>徽章
 
-以下是其中的預設徽章組稱讚。 Teams中的使用者可以使用這些徽章來識別他們的同儕在工作上超越。
+以下是其中的預設徽章稱讚。 Teams中的使用者可以使用這些徽章來識別他們的同儕在工作上超越。
 
 :::image type="content" source="media/default-set-praise.png" alt-text="預設徽章集的徽章影像。":::
 

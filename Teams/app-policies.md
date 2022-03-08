@@ -1,8 +1,8 @@
 ---
-title: 在應用程式中管理應用程式Teams
-author: karlistites
-ms.author: kastites
-manager: serdars
+title: 管理應用程式中的應用程式Teams
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52fffd29519ea97bf95bc98c1b3de8140667e0b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 691ad4a26a4d396b6f06dd478bd0012a94861d4f
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610390"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070542"
 ---
 # <a name="manage-app-policies-in-microsoft-teams"></a>管理應用程式中的應用程式Microsoft Teams
 
-應用程式策略用於控制應用程式Microsoft Teams。
+應用程式策略用於控制應用程式中Microsoft Teams。
 
 ## <a name="app-permission-policies"></a>應用程式權限原則
 
@@ -40,7 +40,7 @@ ms.locfileid: "58610390"
 
 ## <a name="custom-app-policies"></a>自訂應用程式政策
 
-您可以控制誰可以使用自訂應用程式Teams **自訂應用程式策略上傳自訂應用程式。** [自訂應用程式設定和策略](teams-custom-app-policies-and-settings.md)會透過系統管理中心Microsoft Teams管理。
+您可以控制哪些人可以使用自訂應用程式Teams自訂 **應用程式策略上傳自訂應用程式。** [自訂應用程式設定和策略](teams-custom-app-policies-and-settings.md)會透過系統管理中心Microsoft Teams管理。
 
 ![自訂應用程式策略的螢幕擷取畫面。](media/custom-app-policy.png)
 

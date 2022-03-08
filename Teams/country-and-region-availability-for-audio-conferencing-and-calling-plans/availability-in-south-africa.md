@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: 以下是適用于南非Microsoft 365 Office 365和商務用 Skype Microsoft Teams服務。
-ms.openlocfilehash: cccc1b801b2627ecb93eafd38b0ab944baac91aa
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 7c56d5bb6fd8ee3449b110b21b00000eda9dac55
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190814"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070572"
 ---
 # <a name="availability-in-south-africa"></a>南非的可用性
 
@@ -59,9 +59,10 @@ ms.locfileid: "62190814"
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|可以購買通話方案嗎？  <br/> |否  <br/> |
-|通話方案可用的分鐘數  <br/> |不適用  <br/> |
-|可以向外撥打電話嗎？  <br/> |不適用  <br/> |
+|可以購買通話方案嗎？  <br/> |是  <br/> |
+|通話方案可用的通話分鐘數。 |每個日曆月提供四種方案選項： <ul><li>120 分鐘的國內通話方案 </li><li>240 分鐘的國內通話方案</li></li><li>1200 分鐘的國內通話方案 </li></li><li>國內及國際通話方案：1200 分鐘的國內 -OR- 600 分鐘國際通話 (以日曆月份第一次到達者為准) </li></li></ul>|
+|可以撥打付費號碼的外接電話嗎？  <br/> | 目前不支援。 <br/> |
+|可以向外撥打電話嗎？  <br/> | 到 196 個國家和地區，包括[這些。](users-can-make-outbound-calls-to-these-countries-and-regions.md)<br/> |
 
 如果無法購買通話方案，請參閱所有可用選項的 [PSTN](../pstn-connectivity.md) 連接選項。
    

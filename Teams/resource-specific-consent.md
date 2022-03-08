@@ -1,9 +1,9 @@
 ---
 title: 中特定資源Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: nkramer
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e2c77e33165bedbb5302a1202f85906a64cea9a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 9e6e2f0e7827dab36645fec7105a9cbe0c439472
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400827"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070652"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>中特定資源Microsoft Teams
 
@@ -91,7 +91,7 @@ ms.locfileid: "62400827"
 
 ## <a name="uploading-custom-apps"></a>上傳自訂應用程式
 
-上傳自訂應用程式時 (使用資源特定同意) 的已知側載應用程式時，應用程式必須來自要安裝的租使用者。 換句話說，應用程式註冊Azure AD必須來自此租使用者。 全域系統管理員不受此限制，而且可以直接將自訂應用程式從任何租使用者上傳至小組 (側載入) 或租使用者應用程式目錄。
+上傳自訂應用程式 (亦稱為) 使用特定資源同意的側載應用程式時，應用程式必須來自其安裝的租使用者。 換句話說，應用程式註冊Azure AD來自此租使用者。 全域系統管理員不受此限制，而且可以直接將自訂應用程式從任何租使用者上傳至小組 (側載入) 或租使用者應用程式目錄。
 
 ## <a name="related-topics"></a>相關主題
 

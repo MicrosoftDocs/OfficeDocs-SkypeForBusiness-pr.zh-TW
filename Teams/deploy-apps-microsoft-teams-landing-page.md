@@ -3,9 +3,9 @@ title: Microsoft Teams 中的應用程式、Bot 和連接器
 ms.reviewer: ''
 description: 了解應用程式、Bot 和連接器，以及如何根據貴組織的設定檔和商務需求，決定要在 Microsoft Teams 中部署哪些應用程式、Bot 和連接器。
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 audience: admin
 ms.date: 02/10/2021
 ms.service: msteams
@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a2789e522e666894ca58c8b22e9d571b35a4fb26
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05d683bbefa9b3cc564e4f97e52f0fad441f2763
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618509"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070392"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的應用程式、Bot 和連接器
 
@@ -37,7 +37,7 @@ Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核�
 
 ## <a name="use-third-party-apps"></a>使用協力廠商應用程式
 
-除了 Microsoft 提供的應用程式，您還可以使用 Microsoft 認證的協力廠商應用程式。 Microsoft 與 Microsoft 365 開發人員合作夥伴合作，以提供以加快使用 Teams 應用程式和增益集的決策所需的資訊。如需詳細資訊，請參閱 [Microsoft Teams 應用程式安全性與合規性](/microsoft-365-app-certification/teams/teams-apps)。
+除了 Microsoft 提供的應用程式之外，您還可以使用 Microsoft 認證的協力廠商應用程式。Microsoft 與 Microsoft 365 開發人員合作夥伴合作，以提供以加快使用 Teams 應用程式和增益集的決策所需的資訊。如需詳細資訊，請參閱 [Microsoft Teams 應用程式安全性與合規性](/microsoft-365-app-certification/teams/teams-apps)。
 
 ## <a name="use-teams-templates"></a>使用 Teams 範本
 
@@ -69,7 +69,7 @@ Teams 提供許多由 Microsoft 和第三方發行的應用程式，以吸引使
 
 ### <a name="app-permissions-and-other-considerations"></a>應用程式權限和其他考量
 
-應用程式經過使用者同意，並且由系統管理員或 IT 專業人員透過原則管理。 不過在絕大多數情況下，應用程式的權限和風險設定檔是在應用程式本身中定義。 
+應用程式經過使用者同意，並且由系統管理員或 IT 專業人員透過原則管理。 不過，應用程式的權限和風險設定檔是在應用程式本身中定義。
 
 | 問問自己 | 動作 |
 |--------------|--------|

@@ -1,8 +1,8 @@
 ---
 title: 在應用程式中自訂Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在應用程式中自訂Microsoft Teams。
-ms.openlocfilehash: cac5bc4e5d2748b8e4a9143d50e40dbf96ae80a0
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 7fb940ed512c96bd4aa4519bcdabbf9adcbe86a8
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62410616"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070422"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>在應用程式中自訂Microsoft Teams
 
- Microsoft Teams應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂Teams應用程式。管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新 **Teams應用程式屬性**。 您可以自訂的詳細資訊有：
+ Microsoft Teams應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂應用程式Teams應用程式。管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新 **Teams應用程式屬性**。 您可以自訂的詳細資訊有：
 
 - 簡短名稱
 - 簡短描述
@@ -39,10 +39,10 @@ ms.locfileid: "62410616"
 - 大綱圖示
 - 強調色彩
 
-請參閱Teams清單[架構](/microsoftteams/platform/resources/schema/manifest-schema)，以瞭解有關您可以自訂之欄位的詳細資訊。
+請參閱Teams[清單架構](/microsoftteams/platform/resources/schema/manifest-schema)，以瞭解有關您可以自訂之欄位的詳細資訊。
 
 > [!NOTE]
-> 目前 DoD 政府社群雲端 GCCH (或) 不支援自訂應用程式 (DoD) 中。
+> 目前，在 政府社群雲端 GCCH (或) DoD (不支援自訂應用程式) 。
 > 目前，此功能不適用於側載應用程式Microsoft Teams應用程式。
 
 ## <a name="customize-the-apps-details"></a>自訂應用程式詳細資料
@@ -87,9 +87,9 @@ ms.locfileid: "62410616"
 
 5. 展開圖示 **區** 段。
 
-   1. Upload圖示。 使用一個全彩色圖示 (192x192) PNG 格式。
+   1. Upload圖示。 在 PNG 格式的 192x192 (圖元) 全色圖示。
 
-   1. 選擇圖示外邊框色彩。 以 PNG 格式使用 (32x32) 的透明外邊框。
+   1. 選擇圖示外邊框色彩。 使用一個 32x32 (32x32) PNG 格式的透明外邊框。
 
    1. 選取符合圖示的應用程式強調色彩。
 
@@ -103,7 +103,7 @@ ms.locfileid: "62410616"
 
 現在您的Teams使用者可以開啟其Teams用戶端以查看自訂的應用程式。
 
-   ![在用戶端中自訂Teams應用程式。](media/contoso-app.png)
+   ![用戶端中的自訂Teams應用程式。](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>自訂應用程式的特殊考慮
 
