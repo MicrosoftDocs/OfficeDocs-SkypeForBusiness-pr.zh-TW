@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype 中規劃新式驗證
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 25e68396-96dc-4e4b-8a65-d30ea80d1bc9
 description: 規劃商務用 Skype Server 驗證及授權的主題，包括與其他產品的整合
-ms.openlocfilehash: 3bcd9ab78c9703dd938230740fddba4034aff315
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 25a4b50cc2248bdc82f5d5fb09057c39b42e0427
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851867"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404625"
 ---
 # <a name="discussing-authentication-and-authorization-in-skype-for-business"></a>在商務用 Skype 中討論驗證和授權
 
@@ -25,7 +25,7 @@ ms.locfileid: "60851867"
 
 授權 (AuthZ) 與您驗證您的人選後，與您可以存取的內容相關。 它會決定您已允許查看、編輯或以其他方式存取的專案。 例如，您可能有功能強大的網站集合管理員存取權 SharePoint 線上，但是如果您切換到另一個線上工作負載（如商務用 Skype online），您可能會具備疑難排解使用者問題的許可權，而不會變更伺服器或伺服器的設定。 在第三個工作負載中，例如 Exchange Online，您可能只會具備平均使用者的存取權。 AuthZ 會檢查您對服務/worloads、應用程式、檔案及其他資料的存取權。
 
-我們的範例包括 SharePoint 和 Exchange 線上等線上屬性，但是 AuthN 和 AuthZ 的處理常式會以相同的方式，在內部部署和混合式部署中運作。 最後，類似 AAD 連線和 ADFS 的工具，可 AuthN 透過將內部部署帳戶和密碼同步處理至雲端的 AD (（Azure AD) ，或在授權流程中 intruding，讓使用者不會經常收到其認證的情況，例如，在雲端中切換工作負載時）。 建立單一 Sign-On 案例。 不過，他們本身不負責 AuthN 或 AuthZ，只是部分機制。
+我們的範例包括 SharePoint 和 Exchange 線上等線上屬性，但是 AuthN 和 AuthZ 的處理常式會以相同的方式，在內部部署和混合式部署中運作。 最後，類似 AAD 連線和 ADFS 的工具，可 AuthN 透過將內部部署帳戶和密碼同步處理至雲端的 AD (（Azure AD) ，或在授權流程中 intruding，讓使用者不會經常提示其認證，例如，在雲端中切換工作負載時，建立單一 Sign-On 案例）。 不過，他們本身不負責 AuthN 或 AuthZ，只是部分機制。
 
 目前，許多技術會考慮這些程式 (AuthN 和 AuthZ) 為一種機制，您也會聽到許多驗證程式的參考，也就是在其中包含授權。 請務必記住，使用者存取中的第一步是 AuthN，證明您是由您所說的，而該 AuthZ 人員會使用他們的知識來決定誰可以存取 (，如您將會看到開啟的授權或 OAuth) 。
 

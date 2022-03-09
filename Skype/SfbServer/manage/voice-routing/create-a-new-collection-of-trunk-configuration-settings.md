@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server：建立主幹設定的新集合
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: SIP 主幹設定設定定義轉送伺服器和公用交換電話網路 (PSTN) 閘道、IP 公用分支 exchange (PBX) 或會話邊界控制器（在服務提供者上 (SBC) ）之間的關係。
-ms.openlocfilehash: 501785bacd13053eb3479605220d60e1a2f4d852
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e71c78bf76ca6bbdb67bb06a04012951f0e35c0f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843846"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402867"
 ---
 # <a name="skype-for-business-server-create-a-new-collection-of-trunk-configuration-settings"></a>商務用 Skype Server：建立主幹設定的新集合
 

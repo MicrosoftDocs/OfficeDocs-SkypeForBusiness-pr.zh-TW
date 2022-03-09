@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中的樹系準備所進行的變更
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: 本節將說明樹系準備步驟所建立的全域設定與物件，以及萬用服務和管理群組。
-ms.openlocfilehash: 8226c2e9b692699902faa751fafe14424e43ed45
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: f5df54a579da84c6e55a055d7949bb60f5774c6c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828636"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389875"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>商務用 Skype Server 中的樹系準備所進行的變更
 

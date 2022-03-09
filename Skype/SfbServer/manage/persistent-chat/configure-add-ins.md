@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 2015 中設定 Persistent 聊天室的增益集
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 摘要：瞭解如何在商務用 Skype Server 2015 中設定 Persistent 聊天室伺服器聊天室的增益集。
-ms.openlocfilehash: c23a0dd11d51bbfa1c49d8a910decda5be0ac48f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0020c85b5354738083a213e66cc7cc953e5b7e32
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854297"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402887"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>在商務用 Skype Server 2015 中設定 Persistent 聊天室的增益集
  
-**摘要：** 瞭解如何在商務用 Skype Server 2015 中設定 Persistent 聊天室伺服器聊天室的增益集。
+**總結：** 瞭解如何在商務用 Skype Server 2015 中設定 Persistent 聊天室伺服器聊天室的增益集。
   
 增益集是用來將 URLs 與聊天室產生關聯，以擴充會議室體驗。 這些 URLs 會出現在用戶端交談擴充窗格中。 一般增益集可能會包含指向 Silverlight 應用程式的 URL，該應用程式會在將股市代號傳送至聊天室時進行截獲，並在 [擴充性] 窗格中顯示 stock 記錄。 其他範例還包括在聊天室中嵌入 OneNote 2013 URL 做為增益集，以包含一些分享內容，例如「第一印象」或「本日熱門話題」。
   
@@ -71,7 +71,7 @@ ms.locfileid: "60854297"
 
 您可以使用 **New-CsPersistentChatAddin** Cmdlet 來建立新的增益集。
   
-例如，下列命令會以集區的 name ITPersistentChatAddin) 來建立新的增益集 (`atl-cs-001.contoso.com` 。 URL 參數和參數值會 `http://atl-cs-001.contoso.com/itchat` 指定增益集網頁的位置：
+例如，下列命令會以集 `atl-cs-001.contoso.com` 區的 name ITPersistentChatAddin) 來建立新的增益集 (。 URL 參數和參數值 `http://atl-cs-001.contoso.com/itchat` 會指定增益集網頁的位置：
   
 ```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>移除增益集
 
-您可以使用 **get-cspersistentchataddin** Cmdlet 來移除增益集。 例如，下列命令會移除在集區上找到的 Persistent Chat 增益集 ITChatAddin `atl-cs-001.contoso.com` ：
+您可以使用 **get-cspersistentchataddin** Cmdlet 來移除增益集。 例如，下列命令會移除在集 `atl-cs-001.contoso.com` 區上找到的 Persistent Chat 增益集 ITChatAddin：
   
 ```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

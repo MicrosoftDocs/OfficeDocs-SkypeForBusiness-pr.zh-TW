@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中管理 ELIN 閘道的位置
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: 使用 ELIN 閘道為 E9-1-1 的部署規劃位置資訊資料庫或類似的外部資料庫，在商務用 Skype Server 企業語音中所需的決策。
-ms.openlocfilehash: d958b9d533245e7071cb8c1f030e91a13a44925f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ddc92645a39b007c3bb0d1e72e009ff1bf303b37
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845166"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404665"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>在商務用 Skype Server 中管理 ELIN 閘道的位置
 

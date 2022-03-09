@@ -1,8 +1,8 @@
 ---
 title: 管理商務用 Skype Server 中的封存
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
 description: 摘要：瞭解如何管理商務用 Skype Server 的封存。
-ms.openlocfilehash: bdb373bf723e586cbc7222cd2559b87f4c72381e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0849a9fbc3db95579a1711e2934b0bafdc7b6e23
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856790"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392655"
 ---
 # <a name="manage-archiving-in-skype-for-business-server"></a>管理商務用 Skype Server 中的封存
 
-**摘要：** 瞭解如何管理商務用 Skype Server 的封存。
+**總結：** 瞭解如何管理商務用 Skype Server 的封存。
   
 當您為組織部署封存時，您會在部署期間指定初始設定。 不過，有時候您可能想要變更如何針對日常管理執行封存支援，或符合貴組織的新需求。 例如，您可能需要為特定網站、特定集區或組織內的特定使用者設定不同的封存支援。 針對位於商務用 Skype Server 的使用者，您可以建立及自訂封存設定選項和使用者原則，以執行這項作業。 
   

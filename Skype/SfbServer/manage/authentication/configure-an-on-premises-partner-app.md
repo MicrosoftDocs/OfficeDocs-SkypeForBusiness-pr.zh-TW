@@ -1,8 +1,8 @@
 ---
 title: 設定商務用 Skype Server 的內部部署夥伴應用程式
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 摘要：設定商務用 Skype Server 的內部部署夥伴應用程式。
-ms.openlocfilehash: c922765e81c0507e6eca9e81047cce4dfbb6dd6c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c3ad8184d7a63afa5b481c62901be13a7c5915e2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846466"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392605"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>設定商務用 Skype Server 的內部部署夥伴應用程式
  
-**摘要：** 設定商務用 Skype Server 的內部部署夥伴應用程式。
+**總結：** 設定商務用 Skype Server 的內部部署夥伴應用程式。
   
 在指派 OAuthTokenIssuer 憑證之後，您必須設定商務用 Skype Server 夥伴應用程式。  (所討論的程式會設定 Microsoft Exchange Server 2013 和 SharePoint 做為協力廠商應用程式，也就是選用的。 ) 若要設定內部部署夥伴應用程式，您必須先複製下列 Windows PowerShell 腳本，並將程式碼貼到記事本 (或任何其他文字編輯器) ：
   
@@ -104,7 +104,7 @@ New-CsPartnerApplication : Cannot bind parameter 'MetadataUrl' to the target. Ex
 
 此錯誤訊息通常代表發生下列兩種情況其中之一：1) 指令碼中其中一個指定的 URL 無效 (亦即，其中一個中繼資料 URL 並非實際的中繼資料 URL)；或 2) 無法連絡其中一個中繼資料 URL。如果發生這種情況，請驗證 URL 為正確且可存取，然後重新執行指令碼。
   
-為商務用 Skype Server 建立夥伴應用程式之後，您必須將商務用 Skype Server 設定為 Exchange 2013 的夥伴應用程式。 您可以執行腳本 Configure-EnterprisePartnerApplication.ps1，以設定 Exchange 2013 的夥伴應用程式。您只需要為商務用 Skype Server 指定中繼資料 URL，並指出商務用 Skype Server 是新的夥伴應用程式。 
+為商務用 Skype Server 建立夥伴應用程式之後，您必須將商務用 Skype Server 設定為 Exchange 2013 的夥伴應用程式。 您可以執行腳本來設定 Exchange 2013 的夥伴應用程式 Configure-EnterprisePartnerApplication.ps1; 您所需做的只是指定商務用 Skype Server 的中繼資料 URL，並指出商務用 Skype Server 是新的夥伴應用程式。 
   
 若要將商務用 Skype Server 設定為 Exchange 的夥伴應用程式，請開啟 Exchange 管理命令介面，並執行類似下列的命令
   

@@ -1,8 +1,8 @@
 ---
 title: 在商務用 Skype Server 中建立新的封存原則
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 摘要：瞭解如何為商務用 Skype Server 建立新的封存原則。
-ms.openlocfilehash: d60ca9399681bf44fadcf7767b7be1499e99cb99
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: ffa2821ca4871a0e05d0afe2f162512a60df3897
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836445"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392635"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>在商務用 Skype Server 中建立新的封存原則
 
-**摘要：** 瞭解如何為商務用 Skype Server 建立新的封存原則。
+**總結：** 瞭解如何為商務用 Skype Server 建立新的封存原則。
   
 您可以使用 [控制台] 或使用 Windows PowerShell Cmdlet 來建立新的封存原則。
   

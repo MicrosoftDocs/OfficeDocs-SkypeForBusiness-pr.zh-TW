@@ -1,8 +1,8 @@
 ---
 title: 商務用 Skype Server 中會議的硬體和軟體需求
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 摘要：閱讀此主題以瞭解商務用 Skype Server 中會議的硬體和軟體需求。
-ms.openlocfilehash: 4cb6192475b56d78d1cf03b69eea86b67c05519f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9c230d3dedc9e2941f3b0bd8c92f8360b2722abe
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859890"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404675"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>商務用 Skype Server 中會議的硬體和軟體需求
 
-**摘要：** 閱讀此主題以瞭解商務用 Skype Server 中會議的硬體和軟體需求。
+**總結：** 閱讀此主題以瞭解商務用 Skype Server 中會議的硬體和軟體需求。
 
 本節說明 web 會議、音訊和影片 (A/V) 會議、電話撥入式會議和立即訊息 (IM) 會議的硬體和軟體需求。 在前端伺服器上執行的所有會議功能;不同會議類型還有其他需求，如下圖所示。
 
@@ -69,7 +69,7 @@ ms.locfileid: "60859890"
 
 若要使用 web 會議功能，您必須安裝 Office 網頁應用程式伺服器，並設定商務用 Skype Server 以與 Office 網頁應用程式伺服器進行通訊。
 
-OfficeWeb 應用程式伺服器應該安裝在未執行商務用 Skype Server、SQL Server 或任何其他伺服器應用程式的獨立電腦上。  (您不得在該電腦上安裝任何版本的 Office。 ) 執行 Office Web Apps Server 的任何電腦也必須安裝一組特定的軟體， (包括 .NET Framework 4.5 和 Windows PowerShell 3.0) 。 這些需求，以及設定憑證和 Internet Information Services (IIS) 的相關資訊，會在[Microsoft Office Web Apps 部署網站](/webappsserver/deploy-the-infrastructure-office-web-apps-server)中詳細討論。
+Office Web Apps Server 應該安裝在未執行商務用 Skype Server、SQL Server 或任何其他伺服器應用程式的獨立電腦上。  (您不得在該電腦上安裝任何版本的 Office。 ) 執行 Office Web Apps Server 的任何電腦也必須安裝一組特定的軟體， (包括 .NET Framework 4.5 和 Windows PowerShell 3.0) 。 這些需求，以及設定憑證和 Internet Information Services (IIS) 的相關資訊，會在[Microsoft Office Web Apps 部署網站](/webappsserver/deploy-the-infrastructure-office-web-apps-server)中詳細討論。
 
 如需如何設定商務用 Skype Server 以使用 Office 網頁應用程式伺服器的詳細資訊，請參閱[configure with Office Web apps server in 商務用 Skype Server](../../deploy/deploy-conferencing/office-web-app-server.md)。
 
@@ -103,7 +103,7 @@ OfficeWeb 應用程式伺服器應該安裝在未執行商務用 Skype Server、
 
 電話撥入式會議、應用程式服務、會議語音應答應用程式和會議宣告應用程式與前端伺服器具有相同的作業系統需求。 如需詳細資訊，請參閱[商務用 Skype Server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
 
-會議語音應答應用程式和會議宣告應用程式需要在前端伺服器上安裝 Windows 媒體格式執行時間。 Windowsmedia Format Runtime 是播放 Windows 媒體音訊 (WMA) 檔案，以用於等候音樂、錄製名稱及提示。 如果您是在 Windows Server 2012 或 Windows Server 2012 R2 (建議) ，您必須安裝 Microsoft Media Foundation 以取得 Windows 媒體格式執行時間。 若要在 2012 Windows 之前安裝在任何版本的 Windows Server 上，您必須確定已安裝 Windows 的桌面體驗，才能取得 Windows 媒體格式執行時間。
+會議語音應答應用程式和會議宣告應用程式需要在前端伺服器上安裝 Windows 媒體格式執行時間。 Windows 媒體格式執行時間必須播放 Windows 媒體音訊 (WMA) 檔案，以用於等候音樂、記錄的名稱和提示。 如果您是在 Windows Server 2012 或 Windows Server 2012 R2 (建議) ，您必須安裝 Microsoft Media Foundation 以取得 Windows 媒體格式執行時間。 若要在 2012 Windows 之前安裝在任何版本的 Windows Server 上，您必須確定已安裝 Windows 的桌面體驗，才能取得 Windows 媒體格式執行時間。
 
 ### <a name="audio-file-requirements-for-dial-in-conferencing"></a>電話撥入式會議的音訊檔需求
 
@@ -132,18 +132,18 @@ OfficeWeb 應用程式伺服器應該安裝在未執行商務用 Skype Server、
 
 |**伺服器角色**|**服務名稱**|**Port**|**Protocol** (通訊協定)|**附註**|
 |:-----|:-----|:-----|:-----|:-----|
-|前端伺服器  <br/> |商務用 Skype ServerIM 會議服務  <br/> |5062  <br/> |TCP  <br/> |用於立即訊息 (IM) 會議的傳入 SIP 要求。  <br/> |
-|前端伺服器  <br/> |商務用 Skype ServerWeb 會議服務  <br/> |8057  <br/> |TCP (TLS)   <br/> |用於聆聽持續性共用物件模型 (PSOM) 來自用戶端的連線。  <br/> |
-|前端伺服器  <br/> |商務用 Skype ServerWeb 會議相容性服務  <br/> |8058  <br/> |TCP (TLS)   <br/> |用於聆聽持續性共用物件模型 (PSOM) 即時會議用戶端和舊版商務用 Skype Server 的連線。  <br/> |
-|前端伺服器  <br/> |商務用 Skype Server會議服務 Audio/Video  <br/> |5063  <br/> |TCP  <br/> |用於音訊/視頻 (A/V) 會議的傳入 SIP 要求。  <br/> |
-|前端伺服器  <br/> |商務用 Skype Server會議服務 Audio/Video  <br/> |57501-65535  <br/> |TCP/UDP  <br/> |用於視訊會議的媒體埠範圍。  <br/> |
+|前端伺服器  <br/> |商務用 Skype Server IM 會議服務  <br/> |5062  <br/> |TCP  <br/> |用於立即訊息 (IM) 會議的傳入 SIP 要求。  <br/> |
+|前端伺服器  <br/> |商務用 Skype Server Web 會議服務  <br/> |8057  <br/> |TCP (TLS)   <br/> |用於聆聽持續性共用物件模型 (PSOM) 來自用戶端的連線。  <br/> |
+|前端伺服器  <br/> |商務用 Skype Server Web 會議相容性服務  <br/> |8058  <br/> |TCP (TLS)   <br/> |用於聆聽持續性共用物件模型 (PSOM) 即時會議用戶端和舊版商務用 Skype Server 的連線。  <br/> |
+|前端伺服器  <br/> |商務用 Skype Server Audio/Video 會議服務  <br/> |5063  <br/> |TCP  <br/> |用於音訊/視頻 (A/V) 會議的傳入 SIP 要求。  <br/> |
+|前端伺服器  <br/> |商務用 Skype Server Audio/Video 會議服務  <br/> |57501-65535  <br/> |TCP/UDP  <br/> |用於視訊會議的媒體埠範圍。  <br/> |
 |前端伺服器  <br/> |商務用 Skype Server 會議語音應答服務 (電話撥入式會議)   <br/> |5064  <br/> |TCP  <br/> |用於電話撥入式會議的傳入 SIP 要求。  <br/> |
 |前端伺服器  <br/> |商務用 Skype Server 會議語音應答服務 (電話撥入式會議)   <br/> |5072  <br/> |TCP  <br/> |用於在會議) 中傳入的 SIP 要求 (撥號語音應答。  <br/> |
-|前端伺服器  <br/> |商務用 Skype Server應用程式共用服務  <br/> |5065  <br/> |TCP  <br/> |用於應用程式共用的傳入 SIP 聆聽要求。  <br/> |
-|前端伺服器  <br/> |商務用 Skype Server應用程式共用服務  <br/> |49152-65535  <br/> |TCP  <br/> |用於應用程式共用的媒體埠範圍。  <br/> |
+|前端伺服器  <br/> |商務用 Skype Server 應用程式共用服務  <br/> |5065  <br/> |TCP  <br/> |用於應用程式共用的傳入 SIP 聆聽要求。  <br/> |
+|前端伺服器  <br/> |商務用 Skype Server 應用程式共用服務  <br/> |49152-65535  <br/> |TCP  <br/> |用於應用程式共用的媒體埠範圍。  <br/> |
 |前端伺服器  <br/> |商務用 Skype Server 會議宣告服務  <br/> |5073  <br/> |TCP  <br/> |用於商務用 Skype Server 會議宣告服務的傳入 SIP 要求 (也就是用於電話撥入式會議) 。  <br/> |
-|所有內部伺服器  <br/> |各種  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |用於所有內部伺服器的音訊會議的媒體埠範圍。 由終止音訊的所有伺服器使用：前端伺服器 (商務用 Skype Server 會議語音應答服務、商務用 Skype Server 會議宣告服務，以及商務用 Skype Server Audio/Video 會議服務) 和轉送伺服器。  <br/> |
-|OfficeWeb 應用程式伺服器  <br/> ||443  <br/> ||由商務用 Skype Server 用來連線至 Office Web Apps Server。  <br/> |
+|所有內部伺服器  <br/> |各種  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |用於所有內部伺服器的音訊會議的媒體埠範圍。 由終止音訊的所有伺服器使用：前端伺服器 (商務用 Skype Server 會議語音應答服務、商務用 Skype Server 會議宣告服務，以及商務用 Skype Server Audio/Video 會議服務) 和轉送伺服器.  <br/> |
+|Office Web app 伺服器  <br/> ||443  <br/> ||由商務用 Skype Server 用來連線至 Office Web Apps Server。  <br/> |
 
 **必要的用戶端埠**
 

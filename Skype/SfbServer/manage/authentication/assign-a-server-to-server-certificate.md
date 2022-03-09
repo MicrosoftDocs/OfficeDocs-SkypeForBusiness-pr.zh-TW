@@ -1,8 +1,8 @@
 ---
 title: 將伺服器對伺服器驗證憑證指派給商務用 Skype Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,15 +13,15 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 摘要：指派商務用 Skype Server 的伺服器對伺服器驗證憑證。
-ms.openlocfilehash: 30d62351d92a53c107e858ce1e0f88239f615208
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fdbfcf7e5708b1992c4e7bb10108a35085607477
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839945"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392615"
 ---
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>將伺服器對伺服器驗證憑證指派給商務用 Skype Server
-**摘要：** 指派商務用 Skype Server 的伺服器對伺服器驗證憑證。
+**總結：** 指派商務用 Skype Server 的伺服器對伺服器驗證憑證。
   
 若要判斷伺服器對伺服器驗證憑證是否已指派給商務用 Skype Server，請從商務用 Skype Server 管理命令介面執行下列命令：
   
@@ -29,7 +29,7 @@ ms.locfileid: "60839945"
 Get-CsCertificate -Type OAuthTokenIssuer
 ```
 
-若未傳回憑證資訊，您必須指派 token 簽發者憑證，才能使用伺服器對伺服器驗證。 一般來說，任何商務用 Skype Server 憑證均可用作 OAuthTokenIssuer 憑證;例如，您的商務用 Skype Server 預設憑證也可用作 OAuthTokenIssuer 憑證。  (OAUthTokenIssuer 憑證也可以是任何網頁伺服器憑證，包含 [主旨] 欄位中的 SIP 網功能變數名稱稱。 ) 伺服器對伺服器驗證所用之憑證的主要兩項需求如下： 1) 相同的憑證必須設定為所有前端伺服器上的 OAuthTokenIssuer 憑證;而且，2) 憑證必須至少是2048位。
+若未傳回憑證資訊，您必須指派 token 簽發者憑證，才能使用伺服器對伺服器驗證。 一般來說，任何商務用 Skype Server 憑證均可用作 OAuthTokenIssuer 憑證; 例如，您的商務用 Skype Server 預設憑證也可用作 OAuthTokenIssuer 憑證。  (OAUthTokenIssuer 憑證也可以是任何網頁伺服器憑證，包含 [主旨] 欄位中的 SIP 網功能變數名稱稱。 ) 伺服器對伺服器驗證所用之憑證的主要兩項需求如下： 1) 相同的憑證必須設定為所有前端伺服器上的 OAuthTokenIssuer 憑證;而且，2) 憑證必須至少是2048位。
   
 如果您沒有可用於伺服器對伺服器驗證的憑證，您可以取得新的憑證，匯入新的憑證，然後使用該憑證進行伺服器對伺服器驗證。 在您要求並取得新憑證之後，您可以登入任何一部前端伺服器，並使用與下列類似的 Windows PowerShell 命令，匯入並指派該憑證：
   
