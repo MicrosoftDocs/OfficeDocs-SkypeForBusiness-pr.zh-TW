@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: 在一個位置尋找及管理商務用 Skype Server 2019 和2015和 Lync Server 2013 及2010的更新。 使用此頁面上的連結取得更新的詳細資訊，然後下載更新。
-ms.openlocfilehash: 68b34b75cf0e671f5927c4e006e5567052be6e4e
-ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
+ms.openlocfilehash: c9a30c0671302f8cc8c3f27927e3a058dc3cfcd7
+ms.sourcegitcommit: 109be23768ae183e07a0833fa9a9e5cb0369cb43
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62921861"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63368398"
 ---
 # <a name="skype-for-business-server-updates"></a>商務用 Skype Server 更新
 
@@ -97,10 +97,11 @@ ms.locfileid: "62921861"
 
 |套件名稱|KB 號碼|發行日期|
 |:--- |:--- |:--- |
-|Lync Server 2013 累計更新10修復程式6 |[KB 5003602](https://support.microsoft.com/kb/5003602)|2021 年 5 月|
-|Lync Server 2013 累計更新10修復程式5 |[KB 2809243](https://support.microsoft.com/kb/2809243)|2021 年 2 月|
-|Lync Server 2013 累計更新10修復程式4 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2020 年 7 月|
-|Lync Server 2013 累計更新10修復程式3 |[KB 4515509](https://support.microsoft.com/kb/4515509)|2019 年 9 月|
+|Lync Server 2013 累計更新10修復程式7 |[KB 5010850](https://support.microsoft.com/kb/5010850)|2022 年 2 月|
+|Lync Server 2013 累計更新10修復程式6 |[KB 5003729](https://support.microsoft.com/kb/5003729)|2021 年 5 月 11 日|
+|Lync Server 2013 累計更新10修復程式5 |[Kb 5000675](https://support.microsoft.com/kb/5000675)， [kb 5000688](https://support.microsoft.com/kb/5000688)|2021 年 2 月 9 日|
+|Lync Server 2013 累計更新10修復程式4 |[KB 4564312](https://support.microsoft.com/kb/4564312)|2020 年 7 月|
+|Lync Server 2013 累計更新10修復程式3 |[KB 4518345](https://support.microsoft.com/kb/4518345)|2019 年 9 月|
 |Lync Server 2013 累計更新10修復程式2 |[KB 4501392](https://support.microsoft.com/kb/4501392)|2019 年 6 月|
 |Lync Server 2013 累計更新10修復程式1 |[KB 4458772](https://support.microsoft.com/kb/4458772)|2019 年 1 月|
 |Lync Server 2013 累計更新10 |[KB 4295703](https://support.microsoft.com/kb/4295703)|2018 年 7 月 |
