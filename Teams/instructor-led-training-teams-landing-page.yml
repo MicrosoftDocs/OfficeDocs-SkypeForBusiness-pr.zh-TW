@@ -4,52 +4,52 @@ summary: Microsoft 很高興地舉辦一系列免費的即時線上訓練課程�
 brand: teams
 metadata:
   title: 適用于使用者的使用者訓練Microsoft Teams
-  description: Microsoft 很高興能為您提供免費、即時、虛擬的訓練課程，這些課程可為您提供Teams。 無論是企業決策者、系統管理員、IT 專業人員或使用者，都能找到適合的課程。 與我們一起查看Microsoft Teams，取得您的問題解答，並與我們的即時講師互動。 按一下下方的會話以註冊，請務必在下方查看更多課程。
+  description: Microsoft 很高興能為您提供免費、即時、虛擬的訓練課程，這些課程旨在為您提供Teams。 無論是企業決策者、系統管理員、IT 專業人員或使用者，都能找到適合的課程。 與我們一起查看Microsoft Teams，取得您的問題解答，並與我們的即時講師互動。 按一下下方的會話以註冊，請務必在下方查看更多課程。
   ms.topic: hub-page
   author: SerdarSoysal
-  ms.author: serdars
-  ms.date: 06/16/2020
+  ms.author: samanro
+  ms.date: 03/04/2022
 highlightedContent:
   items:
-    - title: 向 Microsoft Teams 打聲招呼
+    - title: Microsoft Teams
       itemType: overview
-      url: 'https://aka.ms/SayhelloTeams'
-    - title: 隨選使用者訓練
+      url: 'https://youtu.be/UoWHXrmIszg'
+    - title: 開始使用 Teams
       itemType: video
-      url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'
+      url: 'https://aka.ms/GetstartedwithMSTeams'
     - title: Microsoft 365 採用工具
       itemType: deploy
       url: 'https://adoption.microsoft.com'
 productDirectory:
   items:
-    - title: 開始使用 Teams
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
-      summary: 從聊天和會議到使用小組和頻道，使用者都將離開本次工作階段，帶有滿懷信心使用 Teams 的基礎。 (對象：所有人)
-      url: 'https://aka.ms/GetstartedwithMSTeams'
-    - title: 在 Teams 中使用聊天和通話
+    - title: 在 Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/chat.svg'
-      summary: 了解如何透過一個中央平台管理所有交談。 (對象：所有人)
-      url: 'https://aka.ms/ChatCallingInTeams'
-    - title: 利用 Teams 有效執行會議
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
-      summary: 了解如何讓會議更吸引人、具生產力且有意義。 (對象：所有人)
-      url: 'https://aka.ms/RunmeetingsTeams'
+      summary: '使用通話和會議即時共同合作、保持聯繫，以及隨時存取共用內容以學習、規劃和創新。  (層級：Teams基本功能;物件：所有人) '
+      url: 'https://aka.ms/CallingMeetingsTraining'
     - title: 探索 Teams 中的團隊和頻道
       imageSrc: 'https://docs.microsoft.com/office/media/icons/users-group.svg'
-      summary: 了解您如何簡化專案和工作群組共同作業。 (對象：所有人)
-      url: 'https://aka.ms/TeamsandchannelsinTeams'
-    - title: 在 Teams 中建立共同作業工作區
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
-      summary: 探索用於針對專案和工作群組建立工作區，判斷最佳方法的方式。 (對象：所有人)
-      url: 'https://aka.ms/CollaborateInTeams'
-    - title: 使用專業秘訣Teams
+      summary: '瞭解團隊和頻道的價值，以及團隊和頻道如何説明您在虛擬工作區或整個群組中共同合作。  (層級：Teams基本功能;物件：所有人) '
+      url: 'https://aka.ms/TeamsChannelsTraining'
+    - title: 提示的新增功能、快速鍵Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
-      summary: 了解 Teams 如何協助讓您的工作日常保持井然有序，並能更輕鬆地與同事保持連線。 (對象：所有人)
+      summary: '瞭解成為高能使用者的秘訣和快捷方式。 探索新功能，並尋找最新功能的專家方向。  (層級：Teams基本功能;物件：所有人) '
       url: 'https://aka.ms/TeamsProTips'
-    - title: Microsoft Teams YouTube 上的
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
-      summary: 訂閱並成為第一個瞭解最新功能、秘訣和訣竅的人。 (對象：所有人)
-      url: 'https://www.youtube.com/MicrosoftTeams'
+    - title: 與會議進一步Teams一起
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/calendar-teams.svg'
+      summary: '瞭解會議Teams網路研討會的主要功能，包括共同合作工具、分組討論會議室及會議資源的存取權。  (層級：Teams進一步;物件：所有人) '
+      url: 'https://aka.ms/MeetingsGoFurther'
+    - title: 使用Teams自訂應用程式
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
+      summary: '瞭解如何在單一使用者Teams中顯示應用程式整合，讓員工共同作業。  (層級：Teams進一步;物件：所有人) '
+      url: 'https://aka.ms/Teamsappstraining'
+    - title: 混合式工作解決方案
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
+      summary: '隨著您適應新的工作方式，保持聯繫、安全且有生產力。 瞭解如何在單一位置保持生產力：會議、通話、聊天、應用程式等。  (層級：Teams進一步;物件：所有人) '
+      url: 'https://aka.ms/HybridWorkTraining'
+    - title: 與合作夥伴Teams
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/structure-teams.svg'
+      summary: '瞭解如何充分利用頻道、聊天和已連接的應用程式，以改善各種規模的團隊之間的通訊和加深共同合作。  (層級：Teams基本功能;物件：所有人) '
+      url: 'https://aka.ms/CollaborateInTeams'
     - title: Teams 教育版 - 網路演討會
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
       summary: 了解在高等教育中如何使用 Teams。 (對象：職員、學生、學者、研究人員、IT 專業人員)
@@ -60,11 +60,14 @@ productDirectory:
       url: 'https://aka.ms/upgradeworkshops'
 additionalContent:
   sections:
-    - title: 課程
+    - title: 其他訓練
       items:
         - title: 團隊合作專家Learning路徑
           summary: 共同作業是現今工作隊伍的重要技能。 瞭解內部強大的功能Microsoft Teams如何讓您與小組保持聯繫，並更有效率地工作。
           url: /learn/paths/teamwork-specialist
         - title: 服務採用專家Learning路徑
-          summary: Microsoft 服務採用專家Learning路徑功能Teams及其他Microsoft 365服務。 瞭解如何在貴組織中推動Microsoft 服務採用。
+          summary: Microsoft 服務採用專家Learning路徑功能Teams及其他Microsoft 365服務。 瞭解如何在組織中推動Microsoft 服務採用。
           url: /learn/paths/m365-service-adoption
+        - title: 點播訓練影片
+          summary: 沒時間上課嗎？ 探索 Microsoft 支援服務的影片目錄，進行點播訓練。
+          url: 'https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7'

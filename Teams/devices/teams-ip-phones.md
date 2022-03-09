@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: 5f6c7701a3bf2979ef2c3541ec51f0f55d5e0a51
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 7a4e84d7f58d8239a5493afffea71878123f47b1
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062577"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388075"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams Android 裝置
 
@@ -48,7 +48,7 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，在整�
 | Cresron UC-P10-T (和不含聽筒)     | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
 | Cresron UC-P8-T (和不含聽筒)      | `1.0.0.56`       | 2023 年 8 月 5 日            | 9 |
 | Cresron UC-P10-C-T (和不含聽筒)   | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
-| Cresron UC-P8-C-T (和不含聽筒)    | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
+| Cresron UC-P8-C-T (和不含聽筒)    | `1.0.0.56`       | 2023 年 8 月 5 日            | 9 |
 | 音訊代碼 C470HD                      | `1.8.293   `                                               | 2023 年 8 月 5 日               | 9 |
 | Yealink MP52                           | `145.15.0.6 `                                              | 2023 年 8 月 5 日               | 9 |
 | AudioCodes C435HD                      | `1.12.33`                                                  | 2023 年 8 月 5 日               | 9 |
@@ -221,6 +221,7 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，在整�
 
 | 裝置模型  | 固件版本 | 已包含產品發行 |
 |:--------------|:-----------------|:-------------------------|
+| EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | 2022 更新 #1 |
 | AudioCodes RXV80 | `1.16.164 `   | 2022 更新 #1 |
 | Yealink VC210 | `118.15.0.65`   | 2022 更新 #1    |
 | Yealink MeetingBar A20 | `133.15.0.80 `   | 2022 更新 #1   |
