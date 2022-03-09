@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 中的公開預覽
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ description: 了解 Microsoft Teams 中的公開預覽。嘗試新功能並提�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e4a223431cef73d1fd9ec0578148b9f9d6f1d6d8
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 3c07244e49d0c61986ae6eb2c9c9d8e1f522e37b
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959872"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62417326"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公開預覽
 
@@ -46,7 +46,7 @@ Microsoft Teams 的公開預覽可提供 Teams 中尚未發行功能的早期存
 
 2. 為更新原則命名，新增描述，然後選取 **[顯示預覽功能]** 的設定。
 
-   -   **追蹤 Office Preview** (預設值)：這個新的預設選項會自動為註冊 Office 目前通道 (預覽) 的任何使用者啟用 Microsoft Teams 公開預覽功能。 使用者不需要執行其他動作。
+   -   **追蹤 Office Preview** (預設值)：這個新的預設選項會自動為註冊 Office 目前通道 (預覽) 的任何使用者啟用 Microsoft Teams 公開預覽功能。使用者不需要執行其他動作。
    -   **啟用**：無論使用者是否已註冊 Office 目前通道 (預覽)，此選項都會啟用 Microsoft Teams 公開預覽。 使用者也必須在 Teams 應用程式中選擇加入 Microsoft Teams 公開預覽。
 
    > [!NOTE]  
