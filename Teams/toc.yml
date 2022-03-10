@@ -365,7 +365,7 @@ items:
                 href: guest-access.md
               - name: 來賓體驗
                 href: guest-experience.md
-              - name: 開啟來賓存取或關閉
+              - name: 開啟或關閉來賓存取
                 href: set-up-guests.md
               - name: 在團隊中檢視來賓
                 href: view-guests.md

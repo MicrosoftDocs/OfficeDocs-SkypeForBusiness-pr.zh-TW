@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: d91fb5f4c95fd63fda1d953c73ba26d105f05083
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 7c33126f02a4a3236fb451e8e9efc0103c68abdd
+ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392885"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63418825"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams Android 裝置
 
@@ -223,22 +223,23 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，在整�
 
 | 裝置模型  | 固件版本 | 已包含產品發行 |
 |:--------------|:-----------------|:-------------------------|
+| Logi 拉力杆    |   `1.5.705`   | 2022 更新 #1    |
 | EPOS EXPAND Vision 3T |`1.2.4.22042.05`   | 2022 更新 #1 |
 | AudioCodes RXV80 | `1.16.164 `   | 2022 更新 #1 |
 | Yealink VC210 | `118.15.0.65`   | 2022 更新 #1    |
 | Yealink MeetingBar A20 | `133.15.0.80 `   | 2022 更新 #1   |
 | Yealink MeetingBar A30 | `133.15.0.80 `   | 2022 更新 #1   |
-| Yealink CTP18 | ` 137.15.0.49 `    | 2022 更新 #1   |
+| Yealink CTP18 | `137.15.0.49`    | 2022 更新 #1   |
 | Poly Studio X30 | `3.9.0` | 2021 更新#2F   |
 | Poly Studio X50 | `3.9.0` | 2021 更新#2F   |
 | Poly TC8        | `3.9.0`          | 2021 更新#2F   |
 | Poly Studio X30 | `3.8.0`          | 2021 更新 #2    |
 | Poly Studio X50 | `3.8.0`          | 2021 更新 #2    |
 | Poly TC8        | `3.8.0`          | 2021 更新 #2    |
-| Logi 拉力杆    | 1.3.538         | 2021 更新#2B    |
-| Logi 拉力杆迷你 | 1.3.538       | 2021 更新#2B    |
-| Logi 拉力杆    | 1.4.228         | 2021 更新#2B    |
-| Logi 拉力杆迷你 | 1.4.228       | 2021 更新#2B    |
+| Logi 拉力杆    | `1.3.538`         | 2021 更新#2B    |
+| Logi 拉力杆迷你 | `1.3.538`       | 2021 更新#2B    |
+| Logi 拉力杆    | `1.4.228`         | 2021 更新#2B    |
+| Logi 拉力杆迷你 | `1.4.228`       | 2021 更新#2B    |
 | Poly Studio X30 | `3.7.0`          | 2021 更新#2A    |
 | Poly Studio X50 | `3.7.0`          | 2021 更新#2A    |
 | Poly TC8        | `3.7.0`          | 2021 更新#2A    |
