@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: ed307d811322d2c217a117d192731cf5d42edcb7
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 6b1e2fdc31e5f9ece9b1c52f1f0cf5881e29229b
+ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536704"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63418835"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -105,7 +105,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 Teams 中的來賓存取可讓組織外部的人員存取 Teams 和頻道。您可以使用來賓存取設定來控制來賓可以或不能使用的功能。來賓存取依預設為開啟。若要深入了解，請參閱 [Teams 中的來賓存取](./guest-access.md)。
 
 > [!NOTE]
-> 若要深入了解外部存取和來賓存取，請參閱這裡 - [在 Microsoft Teams 中與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)。
+> 若要深入了解外部存取和來賓存取，請參閱這裡 - [在 Microsoft Teams 中與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)
 
 
 |問問自己|動作 |
@@ -247,7 +247,7 @@ Office 365 政府版 - GCC (政府社群雲端) 適合用來滿足在美國聯�
 
 | 問問自己 | 動作 |
 |--------------|--------|
-| 我需要在 Office 365 政府版 (GCC 環境) 中部署 Teams 嗎？ | 如需部署考量，請參閱[規劃 Office 365 政府版 - GCC 部署](plan-for-government-gcc.md)。|
+| 我會需要在 Office 365 政府版 (政府社群雲端環境) 中部署 Teams 嗎? | 如需部署考量，請參閱[規劃 Office 365 政府版 - GCC 部署](plan-for-government-gcc.md)。|
 |||
 
 ## <a name="next-steps"></a>後續步驟
