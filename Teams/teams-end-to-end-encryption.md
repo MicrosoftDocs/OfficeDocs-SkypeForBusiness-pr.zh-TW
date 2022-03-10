@@ -3,7 +3,7 @@ title: 適用於 Microsoft Teams 的端對端加密
 author: kccross
 ms.author: krowley
 manager: laurawi
-ms.date: 10/23/2021
+ms.date: 03/08/2022
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -19,21 +19,21 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdce0e30c1aaa3b40f362acda47c1a9ffa35161f
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 202aee527896b331a6c8e64e1fc8736fa4942ecb
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518935"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388186"
 ---
-# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls-public-preview"></a>針對一對一 Microsoft Teams 通話使用端對端加密 (公開預覽)
+# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>針對端對端 Microsoft Teams 通話使用端對端加密
 
 > [!IMPORTANT]
 > 為了改善客戶體驗，Teams 服務模型和其加密支援會有所變更。 例如，服務會定期捨棄不再視為安全的加密套件。 任何此類變更的目標都是讓 Teams 保持安全且從設計上值得信賴。 此外，Microsoft 資料中心的所有客戶內容都經過加密。 如需 Microsoft 365 中加密層級的資訊，請參閱 [Microsoft 365 中的加密](/microsoft-365/compliance/encryption)。
 
 端對端加密 (或 E2EE) 是在內容在傳送之前加密，並僅由預定收件者進行解密時才會發生。 使用端對端加密，僅有兩個端點系統參與加密和解密通話資料。 任何其他對象 (包括 Microsoft) 都可存取解密後的交談。
 
-有了這個公開預覽版，我們正要推出適用於未排程一對一通話的 E2EE。 僅有即時媒體流程，也就是影片和語音資料，適用於一對一 Teams 通話會進行端對端加密。 雙方必須開啟此設定，才能啟用端對端加密。 [Microsoft 365 中的加密](/microsoft-365/compliance/encryption) 會保護通話中的聊天、檔案共用、目前狀態及其他內容。
+使用 E2EE 進行未排程的一對一通話，僅有即時媒體流程，也就是影片和語音資料，適用於一對一 Teams 通話會進行端對端加密。 雙方必須開啟此設定，才能啟用端對端加密。 [Microsoft 365 中的加密](/microsoft-365/compliance/encryption) 會保護通話中的聊天、檔案共用、目前狀態及其他內容。
 
 如果您不啟用端對端加密，Teams 仍然會依照產業標準使用加密保護通話或會議的安全。 通話期間交換的資料在傳輸和休息時一定很安全。 如需詳細資訊，請參閱 [適用於 Teams 的媒體加密](teams-security-guide.md#media-encryption)。
 
@@ -109,7 +109,7 @@ E2EE 通話期間無法提供下列進一步功能：
 
 #### <a name="to-enable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>若要使用全域原則為全體租用戶者啟用端對端加密
 
-根據預設，系統會停用端對端加密。 若透過設定預設全域原則，為全體租用戶啟用端對端加密，請執行 [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) Cmdlet，如下所示。
+根據預設，系統會停用端對端加密。若透過設定預設全域原則，為全體租用戶啟用端對端加密，請執行 [Set-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Set-CsTeamsEnhancedEncryptionPolicy) Cmdlet，如下所示。
 
 ```powershell
 Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType DisabledUserOverride
@@ -123,7 +123,7 @@ Set-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionE
 
 #### <a name="to-disable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>若要使用全域原則為全體租用戶者停用端對端加密
 
-根據預設，系統會停用端對端加密。 如果您已經變更全域原則，您可以透過執行 [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) Cmdlet 將設定回復變更，如下所示。
+根據預設，系統會停用端對端加密。如果您已經變更全域原則，您可以透過執行 [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) Cmdlet 將設定回復變更，如下所示。
 
 ```powershell
 Grant-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType Disabled
@@ -149,7 +149,7 @@ Grant-CsTeamsEnhancedEncryptionPolicy -Identity "username" -PolicyName "policyna
 
 - *`policyname`* 是您想要用於此原則的名稱。 原則名稱不能包含空格，例如 ContosoE2EEUserPolicy。
 
-使用者仍然需要在 Teams 設定中切換端對端加密通話，才能進行端對端加密通話。 如需說明，請參閱 [為 Teams 通話使用端對端加密](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90)。
+使用者仍然需要在 Teams 設定中切換端對端加密通話，才能進行端對端加密通話。如需說明，請參閱 [為 Teams 通話使用端對端加密](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90)。
 
 例如：
 
