@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在應用程式中更新Microsoft Teams。
-ms.openlocfilehash: aaba298f928e88ad38b862e533cd98bb5aae690f
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: fac8f10808300280f52a62501ebb5cb8d69b4bb8
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070232"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435707"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>更新應用程式Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "63070232"
 * 已新增 Bot 的 SupportsCalling、支援Video 和 SupportsFiles 功能
 * 已新增訊息擴充功能
 * 已新增連接器
-* 「webApplicationInfo」中的屬性已變更
+* 已新增或變更 「授權」內的許可權
 
 ![提供新版本。](media/manage-your-custom-apps-update1.png)
 

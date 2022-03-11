@@ -16,19 +16,19 @@ ms.reviewer: mikedav
 description: 瞭解如何將附加Teams授權指派給使用者，以使用音訊會議、電話系統和通話方案等功能。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a0a83c30a4ea0fd4f907fd192b3f6dac455fc4d1
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 8668b31caf0dc10e8585a518a9c4c9be890d1d0d
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387591"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435837"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>指派Teams附加元件授權給使用者
 
-附加元件授權是特定功能Teams，例如音訊會議、電話系統和通話方案。 本文將說明如何將附加元件授權指派給個別使用者和大量大型使用者。
+附加元件授權是特定功能Teams例如音訊會議、電話系統和通話方案。 本文將說明如何大量指派附加元件授權給個別使用者和大型使用者。
 
 > [!NOTE]
-> 請參閱[Teams附加元件授權](./microsoft-teams-add-on-licensing.md)Teams附加元件授權提供的功能。 您也可以根據您的方案) 找到您需要購買哪些授權以及如何購買授權 (的資訊，讓使用者取得音訊會議、免付費號碼等功能，以及撥打組織外部電話號碼的功能。 決定要為使用者提供哪些功能之後，請指派授權給他們。
+> 請參閱[Teams附加元件授權](./microsoft-teams-add-on-licensing.md)Teams附加元件授權提供的功能。 您也可以根據您的方案，找到您需要購買哪些授權以及如何購買授權的資訊。 決定要為使用者提供哪些功能之後，請指派授權給他們。
 
 您可以使用應用程式或 PowerShell Microsoft 365 系統管理中心指派授權給貴組織的使用者。 您必須是全域系統管理員或使用者管理系統管理員，才能管理授權。
 
@@ -36,27 +36,29 @@ ms.locfileid: "62387591"
 
 在您開始使用之前，請審查下列需求：
 
-- 如果您使用的是內部部署公用交換電話網絡 (PSTN) 混合式使用者的) ，您只需要指派電話系統授權。 請勿指派通話方案授權。
+- 如果您使用的是內部部署公用交換電話網絡 (PSTN) 使用者，則只需要指派 Teams 電話授權。 請勿指派通話方案授權。
 
-- 由於使用者與Microsoft 365之間的延遲Microsoft Teams，使用者最多可能需要 24 小時，才能在指派授權後指派通話方案。 如果使用者在 24 小時後未指派通話方案，請聯絡商務產品 [支援人員 - 系統管理協助](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
+- 將 Microsoft 通話方案指派給使用者之後，最多可能需要 24 小時，使用者才能在用戶端看到撥號Teams鍵台。 如果撥號鍵台在 24 小時內未顯示，請檢查[您的撥號鍵台組式。](../dial-pad-configuration.md) 如有需要，您也可以與 [支援人員聯繫](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)。
 
 - 如果您沒有購買正確的授權數量，就會收到錯誤訊息。 如果您需要購買更多通話方案授權，請選擇購買更多方案的選項。
 
-- 即使您的使用者被指派Enterprise E5 授權，如果您想要撥打或接聽 PSTN 的通話，您[](../what-are-communications-credits.md)仍然需要指派通訊信用額度授權給他們。
+- 即使您的使用者被指派Enterprise E5 授權，您還是需要將它們連接到 PSTN。 您有幾個[PSTN 連接選項](../pstn-connectivity.md)，Microsoft Teams通話方案、直接路由或運算子連線。
 
 - 將通話方案或通訊信用額度授權指派給使用者之後，您必須取得貴組織的電話號碼，然後將這些號碼指派給使用者。 有關逐步指示，請參閱 [設定通話方案](../set-up-calling-plans.md)。
 
 ## <a name="using-the-microsoft-365-admin-center"></a>使用 Microsoft 365 系統管理中心
 
-使用 Microsoft 365 系統管理中心一次指派授權給個別使用者或少數使用者。 您一次在 (授權頁面為最多 20 個使用者指派授權) 或在活動使用者頁面 (一次指派最多 40 個使用者) 。 您選擇的方法取決於您要管理特定使用者的產品授權，或管理特定產品的使用者授權。
+使用 Microsoft 365 系統管理中心一次指派授權給個別使用者或少數使用者。
+
+您一次在 (授權頁面為最多 20 個使用者指派授權) 或在活動使用者頁面 (一次指派最多 40 個使用者) 。 您選擇的方法取決於您要管理特定使用者的產品授權，或管理特定產品的使用者授權。
 
 有關逐步指示，請參閱指派 [授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
-如果您需要指派授權給大量使用者 ，例如數百或數千個使用者，請使用 Powershell 或群組[授權](/azure/active-directory/users-groups-roles/licensing-groups-assign)在 Azure Active Directory (Azure AD) 。  
+如果您需要指派授權給大量使用者 ，例如數百或數千個使用者，請使用 Powershell 或群組[授權](/azure/active-directory/users-groups-roles/licensing-groups-assign)在 Azure Active Directory (Azure AD) 。
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
-使用 PowerShell 大量指派授權給使用者。  若要深入瞭解，請參閱使用 [PowerShell 將授權指派給使用者帳戶](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)。
+使用 PowerShell 大量指派授權給使用者。 若要深入瞭解，請參閱使用 [PowerShell 將授權指派給使用者帳戶](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)。
 
 ### <a name="example-script"></a>範例腳本
 
@@ -64,14 +66,14 @@ ms.locfileid: "62387591"
 
 1. 安裝適用于 [IT 專業人員 RTW 的 Microsoft Online Services 登入小幫手](/collaborate/connect-redirect?DownloadID=59185)的 64 位版本。
 2. 安裝 Microsoft Azure Active Directory 模組Windows PowerShell：
-    1. 開啟提升的Windows PowerShell命令提示 (以系統管理員Windows PowerShell執行) 。
+    1. 開啟提升Windows PowerShell命令提示 (以系統管理員Windows PowerShell執行) 。
     2. 執行下列命令：
         ```powershell
         Install-Module MSOnline
         ```
     3. 如果系統提示您安裝 NuGet，請輸入 **Y**，然後按 Enter。
     4. 如果系統提示您從 PSGallery 安裝模組，請輸入 **Y**，然後按 Enter。
-3. 在 Windows PowerShell \<CompanyName:License> 命令提示字元中，執行下列腳本來指派授權給使用者，其中您的組織名稱和要指派之授權識別碼在哪裡。 例如，litwareinc：MCOMEETADV。
+3. 在 Windows PowerShell \<CompanyName:License> 命令提示字元中，執行下列腳本來指派授權給使用者，您的組織名稱和要指派之授權識別碼在哪裡。 例如，litwareinc：MCOMEETADV。
 
     識別碼與授權好用的名稱不同。 例如，音訊會議識別碼為 MCOMEETADV。 若要深入瞭解，請參閱 [授權的產品名稱和 SKU 識別碼](#product-names-and-sku-identifiers-for-licensing)。
 
@@ -110,28 +112,28 @@ ms.locfileid: "62387591"
         }
     ```
 
-    例如，若要指派 Microsoft 365 企業版 1 和音訊會議授權，請使用腳本中的下列語法：
+    例如，若要指派Microsoft 365 企業版 E1 和音訊會議授權，請使用腳本中的下列語法：
 
       ```powershell
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:ENTERPRISEPACK" -ErrorAction SilentlyContinue
       Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOMEETADV" -ErrorAction SilentlyContinue
       ```
 
-    若要指派不含通話方案 (的 Microsoft Business Voice) ，請使用腳本中的下列語法：
+    若要使用通話Teams 電話指派通話方案授權，請使用腳本中的下列語法：
 
       ```powershell
-      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:BUSINESS_VOICE_DIRECTROUTING" -ErrorAction SilentlyContinue
+      Set-MsolUserLicense -UserPrincipalName $user -AddLicenses "litwareinc:MCOTEAMS_ESSENTIALS" -ErrorAction SilentlyContinue
       ```
 
 ## <a name="product-names-and-sku-identifiers-for-licensing"></a>授權的產品名稱和 SKU 識別碼
 
-以下是部分產品名稱及其對應的 SKU 零件名稱清單，當您使用 PowerShell 管理 Teams。
+以下是部分產品名稱及其對應的 SKU 零件名稱清單，您可以在使用 PowerShell 管理 Teams。
 
 若要深入瞭解，請參閱[使用 PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell)來查看授權和服務、授權[](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)的產品名稱和服務方案識別碼，以及[教育版 SKU 參考](../sku-reference-edu.md)。
 
 | 產品名稱| SKU 零件名稱 |
 |--------------|---------------|
-| Microsoft Enterprise E5 (電話系統)  | ENTERPRISEPREMIUM |
+| Microsoft Enterprise E5 (與 電話系統)  | ENTERPRISEPREMIUM |
 | Microsoft Enterprise E5 (沒有音訊會議)  | ENTERPRISEPREMIUM_NOPSTNCONF |
 | Microsoft Enterprise E5 (音訊會議)  | ENTERPRISEPREMIUM |
 | Microsoft Enterprise E3 | ENTERPRISEPACK |
@@ -139,21 +141,17 @@ ms.locfileid: "62387591"
 | Microsoft 365 商務基本版 | O365_BUSINESS_ESSENTIALS|
 | Microsoft 365 商務標準版 | O365_BUSINESS_PREMIUM|
 | Microsoft 365 商務版 | SPB|
-| Microsoft Business Voice (加拿大) | BUSINESS_VOICE_MED  |
-| Microsoft Business Voice (英國)  | BUSINESS_VOICE  |
-| Microsoft Business Voice (美國)  | BUSINESS_VOICE_MED2  |
-| Microsoft Business Voice (沒有通話方案)  | BUSINESS_VOICE_DIRECTROUTING  |
-| Microsoft Business Voice (美國) 方案| BUSINESS_VOICE_DIRECTROUTING _MED |
-| 音訊會議 | MCOMEETADV | 
-| 使用音訊會議時， (按分鐘付費) </br>*需要設定並啟用通訊信用額度。* | MCOMEETACPEA |
-| 電話系統 | MCOEV |
+| 音訊會議 | MCOMEETADV |
+| 音訊會議每分鐘付費 (在) 需要設定及啟用通訊信用額度時支付。* | MCOMEETACPEA |
+| Teams 電話標準版 | MCOEV |
+| 含通話方案的 Teams 電話 | MCOTEAMS_ESSENTIALS |
 | 國內和國際通話方案 | MCOPSTN2 |
 | 美國/ (/CA 的國內通話方案為每個使用者/月 3000 分鐘，歐盟國家/地區則為每個使用者/月 1200 分鐘)  | MCOPSTN1 |
 | 國內通話方案 (每個國家/地區/月 120 分鐘)  </br>*此方案不適用於美國。* | MCOPSTN5 |
 | 國內通話方案 (每個國家/地區/月 240 分鐘)  </br>*此方案不適用於美國。* | MCOPSTN6 |
 | 通訊點數 | MCOPSTNPP |
 
-## <a name="related-topics"></a>相關主題
+## <a name="related-content"></a>相關內容
 
 - [Teams 附加元件授權](./microsoft-teams-add-on-licensing.md)
 - [管理使用者對 Teams 的存取權](../user-access.md)

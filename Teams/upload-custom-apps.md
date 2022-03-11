@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在系統管理中心將自訂應用程式上傳到Microsoft Teams市。
-ms.openlocfilehash: f9cbbfb60b2bb93cb3f687e6da8c6595f5cc185b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b797d8728fba283ccb2f62a46bc6ac00a947c29a
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070182"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435827"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>上傳應用程式套件來發佈自訂應用程式
 
@@ -116,12 +116,10 @@ Microsoft<a href="/microsoftteams/platform/publishing/office-store-approval" tar
 * 已新增或移除 Bot
 * 現有 Bot 的「botId」屬性已變更
 * 已變更現有 Bot 的 "isNotificationOnly" 屬性
-* Bot 的「支援檔」屬性已變更
-* 已新增或移除訊息擴充功能
+* 已新增 Bot 的 SupportsCalling、支援Video 和 SupportsFiles 功能
+* 已新增訊息擴充功能
 * 已新增連接器
-* 已新增靜態定位停駐點
-* 已新增可配置的選項卡
-* 「webApplicationInfo」中的屬性已變更
+* 已新增或變更 「授權」內的許可權
 
 ![應用程式清單的螢幕擷取畫面，顯示提供新版本的應用程式。](media/manage-your-custom-apps-update1.png)
 
