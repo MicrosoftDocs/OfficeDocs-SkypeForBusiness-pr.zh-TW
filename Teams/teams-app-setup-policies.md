@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: adfdfa74dd00314cb0b7fad5524a89619e8772d2
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070742"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442339"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>管理應用程式中的應用程式設定Microsoft Teams
 
@@ -51,7 +51,7 @@ App 已釘釘到：
 
 |Teams 桌面用戶端  |Teams 行動用戶端 |
 |---------|---------|
-|![桌面Teams用戶端。](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![手機Teams用戶端](media/mobile-app-ui.png)      |
+|![桌面Teams用戶端。](media/app-setup-policies-desktop-app-bar.png)<  |   ![手機Teams用戶端](media/mobile-app-ui.png)      |
 
 > [!NOTE]
 > 如果您有Teams 教育版，必須知道全域原則中的作業應用程式預設為釘上，即使目前未在全域原則中列出。 它會是用戶端上釘上應用程式清單中的第四Teams App。
@@ -193,7 +193,7 @@ App 已釘釘到：
 |Teams 桌面用戶端 |Teams 行動用戶端 |
 |---------|---------|
 |在應用程式欄的 Teams中，選取 **...更多應用程式**。| 在靠近應用程式底部的應用程式Teams向上滑動。|
-|![桌面用戶端中的更多Teams應用程式。](media/app-setup-policies-desktop-more-apps.png)<br>   |![更多行動用戶端Teams應用程式](media/app-setup-policies-mobile-more-apps.png)  
+|![桌面用戶端中的更多Teams應用程式。](media/app-setup-policies-desktop-more-apps.png)   |![更多行動用戶端Teams應用程式](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>我需要知道行動Teams體驗
 

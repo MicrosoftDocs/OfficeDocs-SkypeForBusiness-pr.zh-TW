@@ -19,20 +19,22 @@ ms.collection:
 search.appverid: MET150
 description: 設定商務用 Skype 的混合模式，以規劃在商務用 Skype Server 和 Teams 之間執行混合連線。
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: ac2243613b4d3929f3d78facd4a45a4d70acda2b
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 242e365e190dcd915f7cc9f8e0989b7fc54a9206
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887201"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442469"
 ---
 # <a name="plan-hybrid-connectivity-between-skype-for-business-server-and-teams"></a>規劃商務用 Skype Server 和 Teams 之間的混合式連線
 
-[!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
+> [!Important]
+> 雖然自2021起已淘汰商務用 Skype 線上，但仍然支援內部部署產品商務用 Skype Server 2019、商務用 Skype Server 2015 和 Lync Server 2013。 此外，Microsoft 還支援這些內部部署產品與 Microsoft Teams 之間的混合式環境。 這可讓具有這些內部部署的組織，將其使用者遷移至 TeamsOnly。  最後，已不再支援雲端連接器版本的商務用 Skype Server。 需要內部部署 PSTN 連線的客戶應使用 [直接路由](/MicrosoftTeams/direct-routing-landing-page)。
 
-閱讀此主題以瞭解如何規劃商務用 Skype Server 和 Teams 之間的混合式連線。 設定混和式連線是將內部部署環境移至雲端的第一步。
 
-如果是使用 Teams (並存) 之內部部署的商務用 Skype 使用者，將無法從 Teams 用戶端與商務用 Skype 使用者互通，也無法從 Teams 用戶端與同盟組織中的使用者進行通訊。 若要取得 Teams 中的這項功能，這些使用者必須從商務用 Skype 內部部署移至雲端，而此動作需要設定商務用 Skype 混合式模式。 此外，為了獲得最佳的體驗，這些使用者應位於 Teams 僅限模式，可確保使用者 Teams 用戶端中所有使用者土地的來電和聊天。
+閱讀此主題以瞭解如何規劃商務用 Skype Server 或 Lync Server 2013 和 Teams 之間的混合式連接。 若要將內部部署環境移至 Microsoft Teams，第一步是設定混合連線能力。
+
+如果您有內部部署商務用 Skype 已使用 Teams (並排) 的使用者，這些使用者便無法從其商務用 Skype 用戶端與 Teams 使用者互動，也無法與同盟組織中的使用者通訊，其 Teams 用戶端。 若要在 Teams 中取得這項功能，必須將這些使用者移至雲端商務用 Skype 內部部署，使其成為 TeamsOnly 使用者，這需要設定商務用 Skype 混合模式。 不同于 Teams 的並列使用方式，當使用者處於 TeamsOnly 模式時，使用者 Teams 用戶端中所有使用者土地的來電和聊天。
 
 在解除您的內部部署商務用 Skype之前，還必須設定混合式連線並將所有使用者移至雲端。  設定混合式連線後，您可以根據您的排程和業務需求，選擇將使用者移至雲端。 使用直接路由，您可以在移至雲端時以及在完成移轉之後，運用您的內部部署語音基礎結構。
 
@@ -40,13 +42,11 @@ ms.locfileid: "60887201"
 
 閱讀本主題並準備好設定混合式連線後，請參閱[設定商務用 Skype Server 和 Teams 之間的混合式連接](configure-hybrid-connectivity.md)。 設定主題提供在內部部署與 Teams 之間設定混合式連線的逐步指引。
 
-> [!Important]
-> 商務用 Skype線上已于2021年7月31日停用，且無法再使用。 此外，您的內部部署環境之間的 PSTN 連線是否已不再支援商務用 Skype Server 或雲端連接器 Edition 和商務用 Skype Online。  瞭解如何使用[直接路由](/MicrosoftTeams/direct-routing-landing-page)將您的內部部署電話語音網路連線至 Teams。
 
 ## <a name="implications-of-the-retirement-of-skype-for-business-online"></a>商務用 Skype 線上退休的影響
-請務必記住，在商務用 Skype 線上退休之前和之後，位於內部部署商務用 Skype Server 的使用者可以使用 Teams，但無法 TeamsOnly。  (預設使用者處於孤島模式) 。 在 TeamsOnly 模式下，使用者只會體驗 Teams 的全部優點，尤其是在特定同盟及 PSTN 支援。 
+請務必記住，在商務用 Skype 線上退休之前和之後，位於內部部署商務用 Skype Server 中的使用者可能會使用 Teams，但無法 TeamsOnly。  (內部部署使用者預設為孤島模式) 。 在特定同盟中，使用者只會體驗 Teams 的全部優點，也就是在特定同盟中，在 Teams 中的所有輸入聊天及通話，都是在 TeamsOnly 模式中。 
 
-線上退休商務用 Skype 不會影響現有的支援週期商務用 Skype Server 或 Lync Server 2013。  不過，「商務用 Skype 線上退休」會影響客戶如何使用內部部署商務用 Skype Server 或 Lync Server 2013 （包括現有的混合式組織、轉換為雲端）的某些方面。 自淘汰以來，未變更的功能是使用混合式方式，將從內部部署轉換為雲端的方法保持不變。
+線上退休商務用 Skype 不會影響現有的支援週期商務用 Skype Server 或 Lync Server 2013。  不過，「商務用 Skype 線上退休」會影響客戶如何使用內部部署商務用 Skype Server 或 Lync Server 2013 （包括現有的混合式組織、轉換為雲端）的某些方面。 使用混合方式來從內部部署轉換為雲端 (例如，TeamsOnly) 不會受到停用商務用 Skype 線上的影響。
 
 在線上退休商務用 Skype 之前，混合式組織可能會包含三種基本類型的使用者： 
 - 內部部署使用者 (可能或不使用 Teams （但不是以 Teams 唯一模式）的使用者)  
@@ -55,23 +55,23 @@ ms.locfileid: "60887201"
 
 在線上退休商務用 Skype 後，混合式組織只能由兩種基本類型的使用者所組成： 
 - 內部部署使用者 (神秘可能使用或不使用 Teams，但在 TeamsOnly 模式中則不會) 
-- Teams僅限使用者。 
+- 僅 Teams 使用者。 
 
-若要讓組織從商務用 Skype Server 或 Lync Server 2013 移至 Teams，他們仍然必須使用相同的工具組來設定和設定混合（*完全如同退休之前*）。 變更的方式是將使用者從內部部署移至 Teams 時，您不再需要在 `-MoveToTeams` 中指定切換 `Move-CsUser` 以將使用者直接從內部部署移至 TeamsOnly。 先前若未指定此參數，則會將使用者轉換為位於商務用 Skype Server 內部部署，以商務用 Skype 線上，而且其模式仍保持不變。 由於退休，當您將使用者從內部部署移至雲端時 `Move-CsUser` ，使用者現在會自動指派 TeamsOnly 模式，而來自內部部署的會議會自動轉換為 Teams 會議，就如同 `-MoveToTeams` 已指定參數一樣，不論是否實際指定參數。  (這包括從 Lync Server 2013 進行遷移，其絕對不會有 `MoveToTeams` switch。 )  
+若要讓組織從商務用 Skype Server 或 Lync Server 2013 移至 Teams，他們仍然必須使用相同的工具組來設定和設定混合（*完全如同退休之前*）。 將使用者從內部部署移至 TeamsOnly 時，不再需要在中 `Move-CsUser` 指定 `-MoveToTeams` 參數。 先前若未指定此參數，則會將使用者轉換為位於商務用 Skype Server 內部部署，以商務用 Skype 線上，而且其模式仍保持不變。 不過，由於已淘汰 Skype 商務線上，所以將使用者從內部部署移至雲端 `Move-CsUser` 時，會 *自動* 指派 TeamsOnly 模式，並從內部部署將其會議從內部部署轉換為 Teams 會議，不論是否 `-MoveToTeams` 指定參數。 這也表示有 Lync Server 2013 的組織，其絕對不會有該 `MoveToTeams` 參數，可將使用者直接移至內部部署的 TeamsOnly。 
 
 同樣地，如果新使用者是直接在 Microsoft 365 中建立，而不是在內部部署中，則不論租使用者的模式為何，該使用者都會自動擁有 Teams 唯一模式。 請記住，在混合式組織中，應該在內部部署 Active Directory (中建立新的使用者，然後同步處理成 Microsoft 365) ，而不是直接在 Microsoft 365 中建立使用者，以確保內部部署使用者可以路由傳送至新的使用者。
 
-停用商務用 Skype Online 後，就會繼續存在共存模式。 就像以前，具有位於商務用 Skype Server 內部部署帳戶的使用者可以指派任何共存模式，但 TeamsOnly 除外。 停用之後，只有在線上使用者可以是任何模式) 時，才可以 (TeamsOnly 位於線上商務用 Skype 的使用者。  
+停用商務用 Skype Online 後，就會繼續存在共存模式。 就像以前，具有位於商務用 Skype Server 內部部署帳戶的使用者可以指派任何共存模式，但 TeamsOnly 除外。 停用之後，只有在線上使用者可以是任何模式) 時，才可以 (TeamsOnly 位於線上商務用 Skype 的使用者。 您無法再將 TeamsOnly 以外的模式指派給位於線上的使用者。
+
 
 > [!Important]
-> - 現有的混合式組織，且 TeamsOnly 為位於商務用 Skype Online 中但未的使用者，應著重于升級這些使用者，以便儘快 Teams 模式。 如果您的組織仍然有商務用 Skype 線上中未 TeamsOnly 的使用者，您可以排定 Microsoft 協助升級，將這些使用者轉換為 TeamsOnly。 這不會影響駐留在商務用 Skype Server 內部部署中的使用者。 在這些線上之前，會事先傳送給具有使用者商務用 Skype Online 之使用者的混合式客戶的排程通知，將非 TeamsOnly 使用者升級至 Teams。
-> - 您無法再將 TeamsOnly 以外的模式指派給位於線上的使用者。
+> 現有的混合式組織，且 TeamsOnly 為位於商務用 Skype Online 中但未的使用者，應著重于升級這些使用者，以便儘快 Teams 模式。 如果您的組織仍然有商務用 Skype *線上* 中未 TeamsOnly 的使用者，您可以排定 Microsoft 協助升級，將這些使用者轉換為 TeamsOnly。 **Microsoft 協助升級不會影響位於商務用 Skype Server 內部部署中的使用者。** 在這些線上之前，會事先傳送給具有使用者商務用 Skype Online 之使用者的混合式客戶的排程通知，將非 TeamsOnly 使用者升級至 Teams。
 
 ## <a name="about-shared-sip-address-space-functionality"></a>關於共用 SIP 位址空間功能
 
 <a name="BKMK_Overview"> </a>
 
- 在內部部署的商務用 Skype Server 和 Teams 之間設定混合式連線，您可以讓某些使用者位於內部部署，而部分使用者則位於線上。
+在內部部署的商務用 Skype Server 和 Teams 之間設定混合式連線，您可以讓某些使用者位於內部部署，而部分使用者則位於線上。
 
 這種類型的設定取決於共用 SIP 位址空間功能，有時也稱為「分割網域」--例如，網域的使用者（如 contoso.com）是在內部部署和 Teams 上使用商務用 Skype Server 進行分割，如下圖所示：
 
@@ -81,7 +81,7 @@ ms.locfileid: "60887201"
 
 - Azure Active Directory 連線是用來與 Microsoft 365 同步您的內部部署目錄。
 - 位於內部部署的使用者會與內部部署商務用 Skype 伺服器互動。
-- 位於線上的使用者可能會與 Teams 互動，直到2021年7月31日為止，商務用 Skype 線上以其共存模式為基礎。
+- 以線上方式與 Teams 互動的使用者。
 - 這兩種環境中的使用者都可以相互通訊。
 - 內部部署 Active Directory 具有權威性。 所有使用者都應該先在內部部署 Active Directory 中建立，然後同步處理至 Azure AD。 即使您想要讓使用者進入線上狀態，您還是必須先在內部部署環境中建立使用者，然後將使用者移至線上，以確保內部部署使用者可以發現使用者。
 
@@ -124,7 +124,9 @@ ms.locfileid: "60887201"
 *如果任何拓撲中需要混合式語音*，則指定為同盟 edge 的 edge server 以及與 SIP 同盟關聯的集區，都必須執行商務用 Skype 2015 或更新版本。 使用者可以保留在 Lync 2013 集區（如果有的話）。 如需詳細資訊，請參閱 [規劃語音解決方案](/MicrosoftTeams/cloud-voice-landing-page)。
 
 > [!NOTE]
-> Teams 不支援 Lync Server 2010。
+> - 在內部部署與 Teams 之間移動使用者需要 OAuth 驗證通訊協定。 建議使用之前 OAuth，但不是必要的。 商務用 Skype Server 2019 和商務用 Skype Server 2015 CU12 (KB 3061064) 已要求 OAuth。 如果您使用商務用 Skype Server 2015 搭配 CU8 CU11，您必須傳遞-UseOAuth 參數，以確保內部部署程式碼使用 OAuth （或最好升級為 CU12）進行驗證。 如果您在 CU8 之前使用商務用 Skype Server 2015 的版本，則必須升級至 CU12 或更新版本。 如果您使用的是 Lync Server 2013，您必須先升級至 Lync Server 2013 累計更新10修復程式 5 (KB 2809243) 或更新版本。
+> - Teams 不支援 Lync Server 2010。
+
 
 ## <a name="multi-forest-support"></a>多樹系支援
 

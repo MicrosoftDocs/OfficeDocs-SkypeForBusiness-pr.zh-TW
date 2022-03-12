@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 391c852edc1eef06c41277a43661fc1cf15b7cd6
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b2225429eee73ecd5c6b33b62d4d1be24da306b9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070352"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442539"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>在應用程式中管理自訂應用程式Microsoft Teams
 
@@ -56,7 +56,7 @@ ms.locfileid: "63070352"
 ### <a name="user-custom-app-policy"></a>使用者自訂應用程式策略
 
 在應用程式設定 [政策](teams-app-setup-policies.md)中，系統管理員可以使用策略設定 ，Upload **自訂應用程式**，以控制使用者是否可以將自訂應用程式上傳至Teams。
- 
+
 如果此設定已關閉：
 
 - 使用者無法將自訂應用程式上傳到貴組織或個人環境中的任何小組。
@@ -65,7 +65,7 @@ ms.locfileid: "63070352"
 如果已開啟此設定：
 
 - 使用者可以視整個組織自訂應用程式設定，將自訂應用程式上傳到允許的小組，以及他們擁有的團隊。
-- 使用者可以將自訂應用程式上傳至個人內容。 
+- 使用者可以將自訂應用程式上傳至個人內容。
 - 使用者可以視整個組織自訂應用程式設定，與自訂應用程式互動。
 
 您可以編輯全域應用程式設定策略中的設定，以包含您想要的應用程式。 如果您想要為貴組織Teams使用者群組自訂應用程式，請建立並指派一或多個自訂應用程式設定策略。
@@ -81,7 +81,7 @@ ms.locfileid: "63070352"
 ### <a name="team-custom-app-setting"></a>小組自訂應用程式設定
 
 系統管理員和團隊擁有者可以控制團隊是否允許新增自訂應用程式。 此設定 **：允許成員上傳自訂應用程式**，以及使用者的自訂應用程式策略，決定誰可以新增自訂應用程式至特定團隊。
- 
+
 如果此設定已關閉：
 
 - 如果團隊擁有者的自訂應用程式策略允許，可以新增自訂應用程式。

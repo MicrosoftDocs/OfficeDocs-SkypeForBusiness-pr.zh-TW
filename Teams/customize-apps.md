@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在應用程式中自訂Microsoft Teams。
-ms.openlocfilehash: 7fb940ed512c96bd4aa4519bcdabbf9adcbe86a8
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 1f32b7f7d00b6737d959a1687574ce4560bd4725
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070422"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442639"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>在應用程式中自訂Microsoft Teams
 
@@ -85,19 +85,19 @@ ms.locfileid: "63070422"
 > [!Note]
 > 只會顯示 App 開發人員指派為可自訂的欄位。
 
-5. 展開圖示 **區** 段。
+1. 展開圖示 **區** 段。
 
-   1. Upload圖示。 在 PNG 格式的 192x192 (圖元) 全色圖示。
+1. Upload圖示。 在 PNG 格式的 192x192 (圖元) 全色圖示。
 
-   1. 選擇圖示外邊框色彩。 使用一個 32x32 (32x32) PNG 格式的透明外邊框。
+1. 選擇圖示外邊框色彩。 使用一個 32x32 (32x32) PNG 格式的透明外邊框。
 
-   1. 選取符合圖示的應用程式強調色彩。
+1. 選取符合圖示的應用程式強調色彩。
 
-    ![自訂圖示面板色彩選項。](media/customize-app-colors.png)
+   ![自訂圖示面板色彩選項。](media/customize-app-colors.png)
 
-6. 自訂應用程式之後，請選取應用程式 **。**
+1. 自訂應用程式之後，請選取應用程式 **。**
 
-7. 選取 **發佈** 以發佈自訂的應用程式。
+1. 選取 **發佈** 以發佈自訂的應用程式。
 
    自訂的應用程式現在會列在您的管理 **應用程式頁面中** 。 由於自訂應用程式功能不會建立應用程式的副本，因此您只會擁有一個版本的應用程式。
 
@@ -110,6 +110,7 @@ ms.locfileid: "63070422"
 下列附注包含自訂應用程式的重要詳細資料。
 
 > [!Note]
+>
 > - 當您自訂應用程式，以及任何與應用程式相關的描述時，請確保遵循應用程式發行者在檔或使用條款中提供的任何自訂指導方針。 您也有責任尊重其他人對於您可能使用之任何協力廠商影像的權利。
 > - 系統管理提供的自訂資料會儲存在最近的地區。
 > - 您負責確保使用條款或隱私權政策的連結有效。

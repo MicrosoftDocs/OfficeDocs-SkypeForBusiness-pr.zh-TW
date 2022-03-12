@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何核准使用 Teams App 提交 API 提交的自訂Microsoft Teams。
-ms.openlocfilehash: a1b6778c79fd389ebfd4b3ce172daa186e92b76e
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 3a4dfc0b14f20f367cd3580c5366adc26233dde9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070402"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442329"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>發佈透過應用程式提交 API Teams提交的自訂應用程式
 
@@ -116,17 +116,17 @@ Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=
 
 ### <a name="control-access-to-the-app"></a>控制應用程式的存取權
 
-根據預設，貴組織的所有使用者都可以存取貴組織 App Store 中的應用程式。 若要限制及控制誰有權使用應用程式，您可以建立並指派應用程式權限原則。 若要深入了解，請參閱<a href="/microsoftteams/teams-app-permission-policies" target="_blank">管理 Teams 中的應用程式權限原則</a>。
+根據預設，貴組織的所有使用者都可以存取貴組織 App Store 中的應用程式。 若要限制及控制誰有權使用應用程式，您可以建立並指派應用程式權限原則。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
 
 ### <a name="pin-and-install-the-app-for-users-to-discover"></a>釘上並安裝應用程式供使用者探索
 
-根據預設，使用者若要尋找應用程式，必須前往貴組織的 App Store 並流覽或搜尋。 若要讓使用者輕鬆取得應用程式，您可以將應用程式釘到 Teams。 若要這麼做，請建立應用程式設定策略並指派給使用者。 若要深入了解，請參閱<a href="/microsoftteams/teams-app-setup-policies" target="_blank">管理 Teams 中的應用程式設定原則</a>。
+根據預設，使用者若要尋找應用程式，必須前往貴組織的 App Store 並流覽或搜尋。 若要讓使用者輕鬆取得應用程式，您可以將應用程式釘到 Teams。 若要這麼做，請建立應用程式設定策略並指派給使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式設定原則](teams-app-setup-policies.md)。
 
 ### <a name="search-the-audit-log-for-teams-app-events"></a>搜尋稽核記錄Teams應用程式事件
 
-您可以搜尋稽核記錄來Teams組織中應用程式活動。 若要深入瞭解如何搜尋稽核記錄，以及查看記錄在稽核記錄中的 Teams 活動清單，請參閱在 Teams 中搜尋<a href="/microsoftteams/audit-log-events" target="_blank">稽核記錄</a>。
+您可以搜尋稽核記錄來Teams組織中應用程式活動。 若要深入瞭解如何搜尋稽核記錄，以及查看記錄在稽核記錄中的 Teams 活動清單，請參閱在 Teams 中搜尋[稽核記錄](audit-log-events.md)。
 
-在您可以搜尋稽核記錄檔之前，您必須先在<a href="https://protection.office.com" target="_blank">安全性與合規性中心</a>中開啟稽核。 如需深入了解，請參閱<a href="https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014" target="_blank">開啟或關閉稽核記錄</a>。 請記住，只有當您開啟稽核時，才能使用稽核資料。
+在您可以搜尋稽核記錄檔之前，您必須先在[安全性與合規性中心](https://sip.protection.office.com/)中開啟稽核。 如需深入了解，請參閱[開啟或關閉稽核記錄](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide)。 請記住，只有當您開啟稽核時，才能使用稽核資料。
 
 ## <a name="discover-and-adopt"></a>探索及採用
 
@@ -159,7 +159,7 @@ Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=
 - 應用程式核准後，任何一個人都可以將更新提交至應用程式。 這表示其他開發人員 ，包括原本提交應用程式的開發人員，可以提交更新至應用程式。
 - 當開發人員提交 App 且要求擱置中時，只有相同的開發人員可以提交更新至應用程式。 其他開發人員只能在應用程式核准後提交更新。
 
-若要進一Graph API 更新應用程式，請參閱<a href="/graph/api/teamsapp-update">這裡</a>。
+若要進一Graph API 更新應用程式，請參閱[這裡](/graph/api/teamsapp-update?view=graph-rest-1.0&tabs=http)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -169,4 +169,4 @@ Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=
 - [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)
 - [在 Teams 中管理應用程式設定原則](teams-app-setup-policies.md)
 - [Teams監控和警示](alerts/teams-admin-alerts.md)
-- <a href="/graph/api/resources/teamsapp?view=graph-rest-beta" target="_blank">Microsoft Graph應用程式TEAMS API</a>
+- [Microsoft Graph應用程式TEAMS API](alerts/teams-admin-alerts.md)

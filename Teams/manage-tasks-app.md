@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ad0324509849700ea74afe582d4ce7a4934dc3e
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 90bdf2661432a5d68b8f6a727a272855f1a52173
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070592"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442449"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [工作] 應用程式
 
@@ -91,12 +91,12 @@ ms.locfileid: "63070592"
 
 使用 [工作發佈]，您的組織可以發佈針對組織內部特定地點 (小組) 的工作清單，以定義及共用將在這些地點完成的工作計畫。
 
-- 發佈小組中的人員 (例如公司或地區性領導階層) 可建立工作清單，並將其發佈給特定小組。<br>
+- 發佈小組中的人員 (例如公司或地區性領導階層) 可建立工作清單，並將其發佈給特定小組。
     ![工作發佈螢幕擷取畫面。](media/manage-tasks-app-publish.png)
-- 收件者小組的主管可查看發佈的工作清單，並將個別的工作指派給小組成員。<br>
+- 收件者小組的主管可查看發佈的工作清單，並將個別的工作指派給小組成員。
     ![指派任務的螢幕擷取畫面。](media/manage-tasks-app-assign.png)
 - 第一線工作者可輕鬆透過行動裝置查看指派給他們的工作。 他們可以附加相片以顯示工作 (如適用)，並將其工作標示為已完成。
-- 出版商和管理者可以查看報告，以瞭解每個階層的工作指派和完成狀態，包括依地點 (小組)、工作清單和個別工作。<br>
+- 出版商和管理者可以查看報告，以瞭解每個階層的工作指派和完成狀態，包括依地點 (小組)、工作清單和個別工作。
     ![行動版上指派任務的螢幕擷取畫面。](media/manage-tasks-app-reporting.png)
 
 使用者會在 [工作] 應用程式中的 **發佈清單** 索引標籤上建立、管理及發佈工作清單。 只有在貴組織[設定小組目標階層](#set-up-your-team-targeting-hierarchy)且使用者屬於階層所包含的小組時，才會顯示該索引標籤。 階層會決定使用者是否可以發佈或接收工作清單，以及查看已收到清單的報告。

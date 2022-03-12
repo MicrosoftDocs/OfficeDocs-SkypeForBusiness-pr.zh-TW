@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在系統管理中心管理 Microsoft Power Platform 內建的自訂Microsoft Teams存取權。
-ms.openlocfilehash: d2ccb100a0d6354b1fca62911b17afdd3479887b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: c093d432faa8d4977f4d931ac948a35dc6fe6509
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070532"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442669"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>在系統管理中心管理 microsoft Power Platform 應用程式Microsoft Teams管理中心
 
@@ -76,7 +76,7 @@ ms.locfileid: "63070532"
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>允許或封鎖特定使用者的 Microsoft Power Platform 應用程式
 
-若要允許或封鎖貴組織中特定使用者存取在 Power Apps 或 Power Virtual Agents 中建立的應用程式，請建立並指派一或多個自訂[應用程式權限原則](teams-app-permission-policies.md)。 
+若要允許或封鎖貴組織中特定使用者存取在 Power Apps 或 Power Virtual Agents 中建立的應用程式，請建立並指派一或多個自訂[應用程式權限原則](teams-app-permission-policies.md)。
 
 例如，若要封鎖特定使用者存取在 Power Apps 中建立的應用程式，請建立自訂應用程式權限原則來封鎖共用Power Apps，然後將該策略指派給這些使用者。
 
@@ -84,7 +84,7 @@ ms.locfileid: "63070532"
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>使用稽核記錄來調查 Microsoft Power Platform 安裝活動
 
-您可以使用稽核記錄Teams，調查使用者從 Teams 中應用程式頁面的 "由同事建立」 區段安裝 Microsoft  Power Platform 應用程式的事件。 若要 [這麼做，請](./audit-log-events.md)針對使用者或一組Teams 在 **App 安裝** (中搜尋已安裝的應用程式) 事件記錄。 若要尋找同事從 **建** 置安裝的應用程式，請尋找特定記錄詳細資料 **中 AppDistributionMode 屬性中的 TemplatedInstance** 值。**** 
+您可以使用稽核記錄Teams，調查使用者從 Teams 中應用程式頁面的 "由同事建立」 區段安裝 Microsoft  Power Platform 應用程式的事件。 若要 [這麼做，請](./audit-log-events.md)針對使用者或一組Teams 在 **App 安裝** (中搜尋已安裝的應用程式) 事件記錄。 若要尋找同事從 **建** 置安裝的應用程式，請尋找特定記錄詳細資料 **中 AppDistributionMode 屬性中的 TemplatedInstance** 值。****
 
 :::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="AppDistributionMode 屬性中 TemplatedInstance 值的螢幕擷取畫面。":::
 

@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在應用程式中更新Microsoft Teams。
-ms.openlocfilehash: fac8f10808300280f52a62501ebb5cb8d69b4bb8
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: ce788bcdfb690aec305b71ec881a865385c895c2
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435707"
+ms.locfileid: "63442279"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>更新應用程式Microsoft Teams
 
-在大多數情況下，應用程式開發人員發佈 App 更新後，新版本會自動顯示給使用者。 不過，系統對 Microsoft Teams<a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">清單</a>有一些更新需要使用者接受才能完成：
+在大多數情況下，應用程式開發人員發佈 App 更新後，新版本會自動顯示給使用者。 不過，系統對 Microsoft Teams[清單](/microsoftteams/platform/resources/schema/manifest-schema)有一些更新需要使用者接受才能完成：
 
 * 已新增或移除 Bot
 * 現有 Bot 的「botId」屬性已變更
@@ -41,8 +41,8 @@ ms.locfileid: "63435707"
 
 ![應用程式升級選項。](media/manage-your-custom-apps-update2.png)
 
-> [!NOTE] 
-> 更新程式適用于 Microsoft App、自訂應用程式和協力廠商應用程式的所有 App 更新。 
+> [!NOTE]
+> 更新程式適用于 Microsoft App、自訂應用程式和協力廠商應用程式的所有 App 更新。
 
 ## <a name="related-topics"></a>相關主題
 

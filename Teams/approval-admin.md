@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 0c2ec3432a503755ba6164f4a46f7b35f9696271
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070432"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442309"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 核准應用程式可用性
 
@@ -198,6 +198,7 @@ Common Data Model (CDN) 是 CDS 中商務和分析應用程式所使用的共用
 ## <a name="approvals-e-signature-integration"></a>核准電子簽章整合
 
 若要使用核准應用程式電子簽章功能，您需要特定電子簽章提供者的許可證才能使用。 若要取得貴組織的授權，您必須前往提供者的網站。
+
 ### <a name="enable-or-disable-e-signature-providers"></a>啟用或停用電子簽名提供者
 
 您可以使用系統Teams管理中心，控制哪些協力廠商電子簽章提供者可供您的使用者在核准應用程式中使用。 根據預設，電子簽章提供者會啟用在核准應用程式中。 當您停用電子簽章提供者時，您的使用者在建立核准時無法存取該提供者。 您的使用者也將無法查看使用該提供者建立的電子郵件簽名要求。

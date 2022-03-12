@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何將通話路由至貴組織中未指定的號碼。
-ms.openlocfilehash: 4d9c40a0b4a01f7fae4a755603cb5cf7eb132f5c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: f53e83b3d4f26123feed70bdecad32cb45bc5588
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767366"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442791"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>將通話路由至未指定的號碼
 
@@ -38,7 +38,7 @@ ms.locfileid: "61767366"
 
 您可以將未指定號碼的通話路由給使用者、與自動語音機或通話佇列相關聯的資源帳戶，或將播放自訂音訊檔案的公告服務路由給來電者。
 
-## <a name="configuration"></a>配置
+## <a name="configuration"></a>設定
 
 若要將通話路由至未指定的號碼，請使用 Teams PowerShell 模組 2.5.1 或更新版本提供的 New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment Cmdlet。
 
@@ -51,7 +51,7 @@ $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectI
 New-CsTeamsUnassignedNumberTreatment -Identity MainAA -Pattern "^\+15552223333$" -TargetType ResourceAccount -Target $RAObjectId -TreatmentPriority 1
 ```
 
-下一個範例指定號碼範圍 +1 (555) 333-0000 到 +1 (555) 333-9999 的所有通話都會路由至公告服務，該服務會播放音訊檔案 MainAnnouncement.wav 給來電者。
+下一個範例指定所有撥打到號碼範圍 +1 (555) 333-0000 到 +1 (555) 333-9999 的所有通話都會路由至公告服務，該服務會播放音訊檔案 MainAnnouncement.wav 給來電者。
 
 ```PowerShell
 $Content = Get-Content "C:\Media\MainAnnoucement.wav" -Encoding byte -ReadCount 0
@@ -67,11 +67,11 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - 如果路由至公告，音訊檔案會播放一次給來電者。
 
-- 若要將通話路由至未指定的 Microsoft 通話方案訂閱者號碼，您的租使用者必須擁有可用的 [通訊信用額度](what-are-communications-credits.md)。
+- 若要將通話路由至未指定的 Microsoft 通話方案訂閱者號碼，您的租使用者必須擁有可用的 [通訊額度](what-are-communications-credits.md)。
 
 - 若要將通話路由至未指定的 Microsoft 通話方案服務號碼，您的租使用者至少必須擁有一電話系統 – 虛擬使用者授權。
 
-- 支援的自訂音訊檔案格式為 WAV (未壓縮、線性PCM，其深度為 8/16/32 位的單聲道或身歷聲) 、WMA (單聲道) 和 MP3。 音訊檔案內容不能超過 5 MB。
+- 支援的自訂音訊檔案格式為 WAV (未壓縮的線性PCM，其深度為 8/16/32 位的單聲道或身歷聲) 、WMA (單聲道) 和 MP3。 音訊檔案內容不能超過 5 MB。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -82,3 +82,5 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 - [Set-CsTeamsUnasignedNumberTreatment](/powershell/module/teams/set-csteamsunassignednumbertreatment)
 
 - [Remove-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/remove-csteamsunassignednumbertreatment)
+
+- [Test-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/test-csteamsunassignednumbertreatment)

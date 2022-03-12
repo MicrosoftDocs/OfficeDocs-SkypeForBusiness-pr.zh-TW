@@ -17,12 +17,12 @@ description: 瞭解如何在系統管理中心的 Teams 管理應用程式頁面
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: ad1dd28f4de0bc6db0ab7b2870a1cf7b2dae007a
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 96acf3151c2b805fead94979010669520b7a000f
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070222"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442289"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在系統管理中心管理Microsoft Teams應用程式
 
@@ -165,7 +165,7 @@ ms.locfileid: "63070222"
     - **允許第三方應用程式**：這會控制使用者是否可以使用第三方應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何協力廠商應用程式，且這些 App 的應用程式狀態會顯示為表格中的全組織封鎖狀態。****
 
         > [!NOTE]
-        > 當 **允許第** 三方應用程式關閉時，[](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)仍為所有使用者啟用外發網頁連結，但您可以透過應用程式許可權政策允許或封鎖外發 Web 上手應用程式，以在使用者層級控制 [這些應用程式](teams-app-permission-policies.md)。 <br><br>請注意，如果您有 Microsoft 應用程式的現有應用程式權限原則，使用允許特定應用程式並封鎖所有其他設定，而且您想要為使用者啟用外發網頁連結，請新增外發 Web 上手應用程式至清單。[ ](teams-app-permission-policies.md)
+        > 當 **允許第** 三方應用程式關閉時，[](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)仍為所有使用者啟用外發網頁連結，但您可以透過應用程式許可權政策允許或封鎖外發 Web 上手應用程式，以在使用者層級控制 [這些應用程式](teams-app-permission-policies.md)。 請注意，如果您有 Microsoft 應用程式的現有應用程式權限原則，使用允許特定應用程式並封鎖所有其他設定，而且您想要為使用者啟用外發網頁連結，請新增外發 Web 上手應用程式至清單。[ ](teams-app-permission-policies.md)
 
         > [!NOTE]
         > Teams 使用者可以在主持會議或與其他組織人員聊天時新增應用程式。 當他們加入由其他組織主持的會議或聊天時，他們也可以使用由其他組織人員共用的應用程式。 將會套用託管使用者組織的資料原則，以及該使用者組織共用的任何協力廠商應用程式的資料共用做法。

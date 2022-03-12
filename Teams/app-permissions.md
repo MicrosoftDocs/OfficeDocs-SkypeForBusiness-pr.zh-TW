@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59d8303943b8912f7ed0578bd911b633b618f113
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 96755d4396e47ea1a6a3c4266a157cce63008372
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070552"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442699"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams應用程式許可權和考慮事項
 
@@ -38,7 +38,6 @@ Microsoft Teams應用程式是一種將一或多個功能匯總到可安裝、�
 應用程式是由使用者同意，由 IT 從策略角度進行管理。 不過，應用程式的許可權和風險設定檔大部分是由應用程式包含的許可權和風險設定檔所定義。 因此，本文著重于功能層級的許可權與考慮。
 
 下列以大寫字母列出的許可權 ，例如 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE，不會顯示在 Microsoft Teams 開發人員檔或[Microsoft](/graph/permissions-reference) Graph。[ ](/microsoftteams/platform/overview) 它們只是本文目的的描述性簡寫。
-
 
 | 標題   | 描述    |
 |-----------|------------|
@@ -71,7 +70,7 @@ Microsoft Teams應用程式是一種將一或多個功能匯總到可安裝、�
 
 - RECEIVE_MESSAGE，REPLYTO_MESSAGE。 Bot 可以接收使用者的郵件並回復使用者。<sup>1</sup>
 
-- POST_MESSAGE_USER。 在使用者傳送郵件給 Bot 之後，bot 隨時都可以將使用者直接 (稱為 *主動* 式訊息。
+- POST_MESSAGE_USER。 在使用者傳送郵件給 Bot 之後，bot 隨時都可以將使用者直接 (稱為 _主動_ 式訊息。
 
 - GET_CHANNEL_LIST。 新加入團隊的 Bot 可以取得團隊中頻道的名稱和 ID 清單。
 
@@ -82,10 +81,10 @@ Microsoft Teams應用程式是一種將一或多個功能匯總到可安裝、�
 - POST_MESSAGE_TEAM。 允許 App 的 Bot 隨時 (主動) 傳送訊息給任何團隊成員，即使使用者之前從未與 Bot 交談過。
 
 - 下列不是明確許可權，但由 RECEIVE_MESSAGE和REPLYTO_MESSAGE以及可在其中使用 bot 的範圍所隱含，在清單中宣告：
- 
-    - RECEIVE_MESSAGE_PERSONAL，REPLYTO_MESSAGE_PERSONAL
-    - RECEIVE_MESSAGE_GROUPCHAT，REPLYTO_MESSAGE_GROUPCHAT
-    - RECEIVE_MESSAGE_TEAM，REPLYTO_MESSAGE_TEAM
+
+  - RECEIVE_MESSAGE_PERSONAL，REPLYTO_MESSAGE_PERSONAL
+  - RECEIVE_MESSAGE_GROUPCHAT，REPLYTO_MESSAGE_GROUPCHAT
+  - RECEIVE_MESSAGE_TEAM，REPLYTO_MESSAGE_TEAM    
 
 - SEND_FILES，RECEIVE_FILES。<sup>2</sup> 控制 Bot 是否可以在個人聊天中傳送 (尚未支援群組聊天或頻道) 。
 
@@ -105,9 +104,9 @@ Microsoft Teams應用程式是一種將一或多個功能匯總到可安裝、�
 
 - Bot 可以 (，並) 團隊中的頻道清單;此資料會離開公司網路。
 
-- 當檔案送到 Bot 時，檔案會離開公司網路。 傳送和接收檔案需要使用者針對每個檔案核准。 
+- 當檔案送到 Bot 時，檔案會離開公司網路。 傳送和接收檔案需要使用者針對每個檔案核准。
 
-- 根據預設，Bot 無法代表使用者採取行動，但 Bot 可以要求使用者進行登錄;使用者一旦登錄，Bot 就會有一個存取權杖，可以執行其他工作。 這些額外功能究竟取決於 Bot 和 https://apps.dev.microsoft.com/ 使用者登錄位置：bot 是一種Azure AD應用程式，而且可以擁有自己的一組許可權。
+- 根據預設，Bot 無法代表使用者採取行動，但 Bot 可以要求使用者進行登錄;使用者一旦登錄，Bot 就會有一個存取權杖，可以執行其他工作。 這些額外功能究竟取決於 Bot 和使用者登錄位置：bot 是在應用程式註冊入口網站註冊的 Azure AD 應用程式，可以擁有自己的一組許可權[](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList)。
 
 - 每當使用者新加入或刪除團隊時，就會通知 Bot。
 
@@ -140,7 +139,7 @@ SEND_AND_RECEIVE_WEB_DATA
 
 ### <a name="considerations"></a>考量
 
-- 一個定位停駐點的風險設定檔幾乎與在瀏覽器選項卡中運行的同一個網站相同。 
+- 一個定位停駐點的風險設定檔幾乎與在瀏覽器選項卡中運行的同一個網站相同。
 
 - 一個 Tab 也會獲得其執行內容，包括目前使用者的登錄名稱和 UPN、目前使用者的 Azure AD 物件識別碼、其所在 Microsoft 365 群組的識別碼 (如果是團隊) 、租使用者識別碼，以及使用者的目前地區設置。 不過，若要將這些 ID 與使用者的資訊進行比對，該定位停駐點必須讓使用者Azure AD。
 
@@ -177,7 +176,7 @@ REPLYTO_CONNECTOR_MESSAGE。 某些連接器支援可採取動作的郵件，允
 
 ## <a name="outgoing-webhooks"></a>外發網頁連結
 
-*待發網頁連結* 是由團隊擁有者或小組成員在飛航中建立。 它們不是應用程式Teams功能;這項資訊會包含完整性。
+_待發網頁連結_ 是由團隊擁有者或小組成員在飛航中建立。 它們不是應用程式Teams功能;這項資訊會包含完整性。
 
 ### <a name="required-permissions"></a>必要的許可權
 

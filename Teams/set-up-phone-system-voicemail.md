@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為使用者雲端語音信箱帳戶。
-ms.openlocfilehash: d2bb29130bad312dbd420c0adb8b16558232c258
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392865"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442319"
 ---
 # <a name="set-up-cloud-voicemail"></a>設定 [雲端語音信箱]
 
@@ -107,7 +107,7 @@ ms.locfileid: "63392865"
 
 當您啟用受保護的語音信箱時，使用者可以在 Android 或 iOS 版 Outlook、Outlook 網頁版 或 Outlook 中開啟郵件，以聆聽受保護的語音信箱訊息。 在 Busimes 的 Microsoft Teams 或 Skype中無法開啟受保護的語音信箱訊息。
 
-若要為語音信箱建立敏感度標籤，請參閱 [使用敏感度標籤](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)。 選取 **Outlook，強制執行** 下列其中一項限制，然後選取不 **轉出** 選項。
+若要為語音信箱建立敏感度標籤，請參閱 [使用敏感度標籤](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)。 在加密 **區** 段，選擇允許使用者在申請標籤 **時指派許可權**。 選取 **Outlook，強制執行** 下列其中一項限制，然後選取不 **轉出** 選項。
 
 若要建立自動標記原則，以將敏感度標籤用於語音信箱，請參閱如何設定[](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)自動標籤原則，並指定下列特定設定：
 

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: bdc2124da8fb404c289a8e4e5eda962cd66cc9b4
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 2b8eaa4cfc9743ad297c7309769a3195e84cb539
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070372"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442459"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式權限原則
 
@@ -52,7 +52,7 @@ ms.locfileid: "63070372"
 如果您想要控制組織中不同使用者群組可用的應用程式，請建立並指派一或多個自訂應用程式權限原則。 您可以根據應用程式是否由 Microsoft、第三方或您的組織發佈，來建立並指派個別的自訂原則。 務必知道，建立自訂原則之後，如果已在全組織應用程式設定中停用第三方應用程式，就無法變更該自訂原則。
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [Teams 應用程式 **]**  >  [權限原則 **]**。
-2. 按一下 [新增 **]**。<br>
+2. 按一下 [新增 **]**。
     ![新應用程式權限原則的螢幕擷取畫面。](media/app-permission-policies-new-policy.png)
 3. 輸入原則的名稱和描述。
 4. 在 [Microsoft 應用程式 **]**、[第三方應用程式 **]** 和 [自訂應用程式 **]** 下，選取下列其中一項：
@@ -66,7 +66,7 @@ ms.locfileid: "63070372"
 
     1. 選取 [允許應用程式 **]**。
     1. 搜尋您要允許的應用程式，然後按一下 [新增 **]**。 搜尋結果會篩選至應用程式發行者 (**Microsoft 應用程式**、**第三方應用程式** 或 **自訂應用程式**)。
-    1. 選取應用程式清單後，請按一下 [允許 **]**。 
+    1. 選取應用程式清單後，請按一下 [允許 **]**。
 
 6. 同樣地，如果您選取 [封鎖特定的應用程式並允許所有其他的 **]**，請搜尋並新增您要封鎖的應用程式，然後按一下 [封鎖 **]**。
 7. 按一下 [儲存 **]**。
@@ -97,7 +97,7 @@ ms.locfileid: "63070372"
 1. 在 [權限原則 **]** 頁面上，選取 [全組織應用程式設定 **]**。 然後您就可以在面板中設定您要的設定。
 
     ![全組織應用程式設定螢幕擷取畫面。](media/app-permission-policies-gcc-org-wide.png)
-    
+
 2. 在 [第三方應用程式 **]** 下，關閉或開啟這些設定，以控制對第三方應用程式的存取權：
 
     - **允許第三方應用程式**：這會控制使用者是否可以使用第三方應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何第三方應用程式。 在 Microsoft 365政府 - GCCH 和 DoD Teams，此設定預設為關閉。
@@ -113,9 +113,11 @@ ms.locfileid: "63070372"
 ### <a name="working-with-app-permission-policies"></a>使用應用程式權限原則
 
 #### <a name="what-app-interactions-do-permission-policies-affect"></a>權限原則會影響哪些應用程式互動？
+
 權限原則會透過控制使用者的安裝、探索及互動，來控管應用程式的使用狀況。 系統管理員仍可以在 Microsoft Teams 系統管理中心中管理應用程式，而無論指派給他們的權限原則為何。
 
 #### <a name="can-i-control-line-of-business-lob-apps"></a>我可以控制企業營運 (LOB) 應用程式嗎？
+
 是的，您可以使用應用程式權限原則來控制自訂 (LOB) 應用程式的推出和發佈。 您可以建立自訂原則或編輯全域原則，以根據組織的需求來允許或封鎖自訂應用程式。
 
 #### <a name="how-do-app-permission-policies-relate-to-pinned-apps-and-app-setup-policies"></a>應用程式權限原則與釘選的應用程式和應用程式設定原則有何關聯？
