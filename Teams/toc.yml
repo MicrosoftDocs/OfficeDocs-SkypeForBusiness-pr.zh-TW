@@ -829,6 +829,8 @@ items:
             href: dial-pad-configuration.md
           - name: 等候音樂
             href: music-on-hold.md
+          - name: 設定您的使用者的通話設定
+            href: user-call-settings.md
       - name: PSTN 連線能力選項
         items:
           - name: 概觀
@@ -1527,6 +1529,8 @@ items:
             href: non-standard-users.md
           - name: 更新應用程式體驗
             href: apps-update-experience.md
+          - name: 管理 Microsoft 365 對協力廠商 Teams 應用程式的存取權
+            href: manage-third-party-teams-apps.md
   - name: 產業和政府指引
     items:
       - name: 概觀
@@ -1799,6 +1803,8 @@ items:
             href: teams-powershell-managing-teams.md
           - name: Teams PowerShell 版本資訊
             href: teams-powershell-release-notes.md
+          - name: Teams PowerShell 支援的版本。
+            href: teams-powershell-supported-versions.md
           - name: 自商務用 Skype Online 連接器移至 Teams PowerShell 模組
             href: teams-powershell-move-from-sfbo.md
           - name: Teams 的 Cmdlet 參考

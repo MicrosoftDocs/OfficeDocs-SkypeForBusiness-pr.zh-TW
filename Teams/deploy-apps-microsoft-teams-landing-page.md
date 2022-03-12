@@ -18,16 +18,16 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 05d683bbefa9b3cc564e4f97e52f0fad441f2763
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 3a9566ceb6d99bb7d665efea975ecee048607dc9
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070392"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442499"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的應用程式、Bot 和連接器
 
-應用程式可讓您透過喜好服務尋找內容，並在 Teams 中分享它。 他們可幫助您執行作業，例如在頻道最上方釘選服務、與 Bot 聊天或共用及指派工作。 若要深入了解，請參閱[ Teams 中的應用程式概觀](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。 
+應用程式可讓您透過喜好服務尋找內容，並在 Teams 中分享它。 他們可幫助您執行作業，例如在頻道最上方釘選服務、與 Bot 聊天或共用及指派工作。 若要深入了解，請參閱[ Teams 中的應用程式概觀](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
 
 您可以使用隨著 Microsoft Teams 提供的應用程式、使用認證的協力廠商應用程式和範本，以及透過建立您自己的自訂應用程式，將應用程式新增到您的 Teams 部署。
 
@@ -47,7 +47,6 @@ Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核�
 
 您可以使用與 [Microsoft Power Platform](teams-power-platfom-integration.md) 的 Teams 整合來快速建立自訂低程式碼解決方案。 您也可以建立自己的自訂應用程式，以符合您的商務需求。 如需詳細資訊，請參閱[為 Microsoft Teams 建立應用程式](/microsoftteams/platform/overview)。  
 
-
 ## <a name="apps-deployment-decisions"></a>應用程式部署決策
 
 Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組織認為預設設定就能滿足其需求。本文可協助您決定是否要根據組織的設定檔和商務需求來變更任何預設設定，並逐步引導您完成每個變更。我們已將設定分割成兩個群組，從[您最可能進行的變更](#core-deployment-decisions)的核心集開始。根據組織的需求，第二個群組包括您可能想要設定的[其他設定](#additional-deployment-decisions)。
@@ -56,11 +55,12 @@ Teams 為您的組織提供絕佳的現成共同作業體驗，而大部分組�
 
 這些應用程式設定是大部分組織想要變更的 (如果 Teams 的預設設定不符合組織的需求)。
 
-### <a name="app-availability-settings"></a>應用程式可用性設定 
+### <a name="app-availability-settings"></a>應用程式可用性設定
 
-Teams 提供許多由 Microsoft 和第三方發行的應用程式，以吸引使用者、支援生產活動，並將常用的商務服務整合到 Teams 中。 從 Teams 市集取得應用程式。 根據預設，所有的應用程式 (包括透過 [Teams 市集核准程序](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)提交的自訂應用程式) 都會針對所有使用者開啟。 例如，使用者可以使用 Planner 應用程式來建立和管理 Teams 中的小組工作。
+Teams 提供許多由 Microsoft 和第三方發行的應用程式，以吸引使用者、支援生產活動，並將常用的商務服務整合到 Teams 中。
+從 Teams 市集取得應用程式。 根據預設，所有的應用程式 (包括透過 [Teams 市集核准程序](/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process)提交的自訂應用程式) 都會針對所有使用者開啟。 例如，使用者可以使用 Planner 應用程式來建立和管理 Teams 中的小組工作。
 
-根據預設，您可使用所有由 Microsoft 及協力廠商提供和自訂的應用程式，並且可開啟或關閉個別應用程式。 這是全組織的設定，可讓您開啟或關閉整個組織的所有協力廠商的和/或自訂的應用程式。
+根據預設，您可使用所有由 Microsoft 及協力廠商提供和自訂的應用程式，並且可開啟或關閉個別應用程式。 這是全組織的設定，可讓您開啟或關閉整個組織的所有協力廠商的應用程式和/或自訂應用程式。
 
 | 問問自己 | 動作 |
 |--------------|--------|
@@ -68,6 +68,8 @@ Teams 提供許多由 Microsoft 和第三方發行的應用程式，以吸引使
 |||
 
 ### <a name="app-permissions-and-other-considerations"></a>應用程式權限和其他考量
+
+應用程式經過使用者同意，並且由系統管理員或 IT 專業人員透過原則管理。 不過在絕大多數情況下，應用程式的權限和風險設定檔是在應用程式本身中定義。
 
 應用程式經過使用者同意，並且由系統管理員或 IT 專業人員透過原則管理。 不過，應用程式的權限和風險設定檔是在應用程式本身中定義。
 
@@ -118,7 +120,9 @@ Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨�
 
 ### <a name="app-templates"></a>應用程式範本
 
-應用程式範本是適用於 Microsoft Teams 生產環境的應用程式，其由社群推動、為開放原始碼，而且可在 GitHub 上取得。 每個範本都包含詳細的指示，可用來部署和安裝組織的應用程式，並提供了一個可立即使用的應用程式，讓您立即安裝並開始使用。 同時也提供完整的原始程式碼，您可以在其中詳細探索，或衍生程式碼並加以變更，以符合您的特定需求。
+應用程式範本是適用於 Microsoft Teams 生產環境的應用程式，其由社群推動、為開放原始碼，而且可在 GitHub 上取得。 每個範本都包含詳細的指示，可用來部署和安裝組織的應用程式，並提供了一個可立即使用的應用程式，讓您立即安裝並開始使用。
+
+同時也提供完整的原始程式碼，您可以在其中詳細探索，或衍生程式碼並加以變更，以符合您的特定需求。
 
 | 問問自己 | 動作 |
 |--------------|--------|
