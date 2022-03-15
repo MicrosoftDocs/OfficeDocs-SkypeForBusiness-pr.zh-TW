@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft Teams 會議室 部署商務用 Skype Server
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: 請閱讀本主題，以瞭解如何使用 Microsoft Teams 會議室 部署商務用 Skype Server。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 702eb2128dd37980fd3fc76548638102d45d7af9
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: 358fa9295ec150f9c57a18252c76d309078b8e29
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355618"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503480"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>使用 Microsoft Teams 會議室 部署商務用 Skype Server
   
@@ -28,7 +28,7 @@ ms.locfileid: "61355618"
   
 如果您有使用 Exchange 2013 SP1 或更新版及 商務用 Skype Server 2015 或更新版的單一林內部部署，則您可以使用提供的 Windows PowerShell 腳本來建立裝置帳戶。 如果您使用的是多林部署，您可以使用會產生相同結果的對等 Cmdlet。 本節將說明這些 Cmdlet。
   
-在您開始部署Microsoft Teams 會議室，請確定您擁有執行關聯的 Cmdlet 的許可權。
+開始部署Microsoft Teams 會議室，請確定您擁有執行關聯的 Cmdlet 的許可權。
   
 
    ``` Powershell
@@ -42,7 +42,7 @@ ms.locfileid: "61355618"
    Import-PSSession $sessLync
    ```
 
-   請注意，$strExchangeServer是 (伺服器 FQDN) 的Exchange功能變數名稱，$strLyncFQDN是您部署中的 FQDN 商務用 Skype Server功能變數名稱。
+   請注意，$strExchangeServer是 Exchange 伺服器之完整功能變數名稱 (FQDN) ，$strLyncFQDN 是您 商務用 Skype Server 部署的 FQDN。
 
 2. 建立會話之後，您可以建立新信箱，並啟用為 RoomMailboxAccount，或變更現有會議室信箱的設定。 這會允許帳戶驗證Microsoft Teams 會議室。
 
@@ -87,7 +87,7 @@ ms.locfileid: "61355618"
    -RegistrarPool LYNCPool15.contoso.com 
    ```
 
-    將 `-DomainController` 和 `-RegistrarPool` 屬性變更為適合您環境的值。
+    將 和 `-DomainController` `-RegistrarPool` 屬性變更為適合您環境的值。
 
 7. **選。** 您也可以為您的帳戶Microsoft Teams 會議室 PSTN (PSTN) 公用電話交換企業語音網路。 企業語音不是您所需的Microsoft Teams 會議室，但如果您想要 PSTN 撥號功能Microsoft Teams 會議室，以下是啟用方式：
 
@@ -98,9 +98,9 @@ ms.locfileid: "61355618"
    Grant-CsDialPlan -Identity ConferenceRoom01 -PolicyName DP1
    ```
 
-   同樣，您必須以您自己的資訊取代所提供的網域控制站和電話號碼範例。 參數值$true保持相同。 您也需要取代語音策略和撥號方案策略名稱。
+   同樣，您必須以您自己的資訊取代所提供的網域控制站和電話號碼範例。 參數值$true保持不變。 您也需要取代語音策略和撥號方案策略名稱。
 
-## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>範例：內部部署和Exchange商務用 Skype Server會議室帳戶設定
+## <a name="sample-room-account-setup-in-exchange-and-skype-for-business-server-on-premises"></a>範例：內部部署Exchange商務用 Skype Server會議室帳戶設定
 
 ``` Powershell
 New-Mailbox -Alias ConferenceRoom01 -Name "Conference Room 01" -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String "" -AsPlainText -Force) -UserPrincipalName ConferenceRoom01@contoso.com

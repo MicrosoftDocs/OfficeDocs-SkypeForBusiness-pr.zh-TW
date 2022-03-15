@@ -1,7 +1,7 @@
 ---
 title: 遠端Microsoft Teams更新裝置
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: rahulmi
 manager: serdars
 audience: ITPro
@@ -12,19 +12,19 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 使用Microsoft Teams中心Teams遠端更新手機、Teams面板和共同Teams橫條圖
-ms.openlocfilehash: 68abf87a0e7e84f3fe5b9e6d7e4f57db55c63450
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+description: 使用 Microsoft Teams系統管理中心Teams遠端更新手機、Teams面板和共同Teams橫條圖
+ms.openlocfilehash: e2081bf0065230cdaaf18615fbc9610d14881a05
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984728"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503520"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>遠端Microsoft Teams更新裝置
 
-您可以使用 Microsoft Teams 系統管理中心，遠端更新 Teams 裝置，例如 Teams 手機、Teams 面板和共同合作條，您也可以選擇裝置固件自動更新行為。 您可以使用系統管理中心在裝置上更新Teams：
+您可以使用 Microsoft Teams 系統管理中心，遠端更新 Teams 裝置，例如 Teams 手機、Teams 面板和共同合作橫條圖，您也可以選擇裝置固件自動更新行為。 您可以使用系統管理中心在裝置上更新Teams：
 
-- Teams應用程式與團隊系統管理員代理
+- Teams應用程式與團隊系統管理員
 - 公司入口網站應用程式
 - OEM 代理應用程式
 - 裝置固件
@@ -32,9 +32,9 @@ ms.locfileid: "59984728"
 裝置固件更新可以自動或排程為未來的日期和時間。 其他可用的裝置更新不會自動申請，但可以手動或排程未來日期和時間。
 
 > [!NOTE]
-> 雖然可以排程裝置固件更新，但如果排定的日期和時間落在所配置的最長 30 天或 90 天延遲之後，則當達到最大延遲時間時，即會採用固件更新。 排程的日期和時間會被忽略。 此外，遠端Microsoft Teams裝置是美國政府雲端租使用者 (GCC-High) 。
+> 雖然可以排程裝置固件更新，但如果排定的日期和時間落在所配置的最長 30 天或 90 天延遲之後，則當達到最大延遲時間時，即會採用固件更新。 排程的日期和時間會被忽略。 此外，遠端Microsoft Teams裝置是美國政府雲端租使用者 (GCC-高) 。
 
-若要管理裝置，您必須是全域系統管理員、Teams系統管理員，或Teams系統管理員。有關系統管理員角色的資訊，請參閱使用 Microsoft Teams[系統管理員角色來管理Teams。](../using-admin-roles.md)
+若要管理裝置，您必須是全域系統管理員、Teams系統管理員，或Teams系統管理員。有關系統管理員角色的資訊，請參閱Microsoft Teams[系統管理員角色來管理Teams](../using-admin-roles.md)。
 
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>選擇自動裝置固件更新行為
 
@@ -48,11 +48,11 @@ ms.locfileid: "59984728"
 
 若要為裝置選擇自動更新行為，請執行下列操作：
 
-1. 請流覽 Microsoft Teams系統 https://admin.teams.microsoft.com 管理中心。
-2. 流覽 **Teams**  >  **裝置 IP 電話** 或 **共同Teams****面板**。
-3. 選取一或多個裝置， **然後選取** 更新 。
+1. 請流覽 以Microsoft Teams系統管理中心。 https://admin.teams.microsoft.com
+2. 流覽 **Teams DevicesIP**  >  **電話** 或 **共同Teams****面板**。
+3. 選取一或多個裝置， **然後選取更新**。
 4. 在 **固件自動更新下**，選取下列其中一項：
-    - **一旦可用** 第二個最新裝置固件更新會于最新更新發行後的第一個週末使用。
+    - **一旦推出** 第二個最新裝置固件更新會于最新更新發行後的第一個週末使用。
     - **延後 30 天** 第二個最新裝置固件更新會于最新更新發行後的 30 天內使用。
     - **延後 90 天** 第二個最新裝置固件更新會于最新更新發行後的 90 天內使用。
 5. 選取 **更新**。
@@ -65,17 +65,17 @@ ms.locfileid: "59984728"
 
 若要手動更新遠端裝置，請執行下列操作：
 
-1. 請流覽 Microsoft Teams系統 https://admin.teams.microsoft.com 管理中心。
-2. 流覽 **Teams**  >  **裝置 IP 電話** 或 **共同Teams****面板**。
-3. 選取一或多個裝置， **然後選取** 更新 。
-4. 如果您想要 **為** 未來的日期和時間排程更新，請選取在手動更新下排程。 更新會以時區中選取的時區日期和時間 **來申請**。
+1. 請流覽 以Microsoft Teams系統管理中心。 https://admin.teams.microsoft.com
+2. 流覽 **Teams DevicesIP**  >  **電話** 或 **共同Teams****面板**。
+3. 選取一或多個裝置， **然後選取更新**。
+4. 如果您想要 **為** 未來的日期和時間排程更新，請選取在手動更新下排程。 更新會以時區中選取的時區日期和時間 **進行。**
 
 您所看到的內容取決於您已選取一或多個裝置。 下方的左影像顯示已選取多個裝置，而右側影像則顯示已選取的單一裝置。
 
 :::image type="content" source="../media/device-update-status.png" alt-text="裝置更新狀態窗格中的單一和多個裝置視圖。":::
 
-當您選取多個裝置時，您可以選擇要適用于每個所選裝置的更新類型。 選取要申請的更新類型， **然後選取** 更新 。
+當您選取多個裝置時，您可以選擇要適用于每個所選裝置的更新類型。 選取要申請的更新類型， **然後選取更新**。
 
-當您選取單一裝置時，會顯示適用于該裝置的更新。 如果裝置可以使用多種更新類型，請選取要申請的每一種更新類型。 您可以查看裝置 **上** 所申請的目前版本， **以及要申請** 的新版本。 選取您想要 (的) ，然後選取 **更新**。
+當您選取單一裝置時，會顯示適用于該裝置的更新。 如果裝置可以使用多種更新類型，請選取要申請的每一種更新類型。 您可以查看裝置 **上** 所申請的目前版本， **以及要申請** 的新版本。 選取您想要 (的) ，然後 **選取更新。**
 
-選取更新 **之後**，更新會在您選取的日期和時間，在您排程更新時，將更新應用程式至您的裝置。 如果您沒有選取未來的日期和時間，更新會于幾分鐘內適用于您的裝置。
+選取更新 **之後**，更新會在您選取的日期與時間，在您排程更新時，將適用于您的裝置。 如果您沒有選取未來的日期和時間，更新會于幾分鐘內適用于您的裝置。

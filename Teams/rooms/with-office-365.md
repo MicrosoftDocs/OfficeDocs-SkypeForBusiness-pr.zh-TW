@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft Teams 會議室 部署Office 365
-ms.author: v-lanac
-author: lanachin
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 請閱讀本主題，以瞭解如何使用 Microsoft Teams 會議室 部署Office 365。
-ms.openlocfilehash: d4c66fb863c5c41a717808ddca43002752510fb5
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: f54e7f7e201127b0a61c99f09fee2084378dbbd9
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056023"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503710"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>使用 Microsoft Teams 會議室 部署Office 365
 
@@ -32,7 +32,7 @@ ms.locfileid: "62056023"
 
 ### <a name="add-a-resource-account"></a>新增資源帳戶
 
-1. 連線 PowerShell Exchange Online。 有關指示，請參閱連線[PowerShell Exchange Online。](https://go.microsoft.com/fwlink/p/?linkid=396554)
+1. 連線 PowerShell Exchange Online PowerShell。 有關指示，[請參閱連線 PowerShell Exchange Online。](https://go.microsoft.com/fwlink/p/?linkid=396554)
 
 2. 在 Exchange Online PowerShell 中，建立新會議室信箱或修改現有的會議室信箱。 根據預設，會議室信箱沒有關聯的帳戶。 當您建立或修改允許其驗證的會議室信箱時，您必須新增帳戶。
 
@@ -95,10 +95,10 @@ ms.locfileid: "62056023"
 
    有關詳細的語法和參數資訊，請參閱 [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing)。
    
-4. 連線 MS Online PowerShell 會藉由使用 連線-MsolService -Credential $cred Powershell Cmdlet 來設定 Active Directory 值。 有關 Active Directory 的詳細資訊，請參閱 [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
+4. 連線 MS Online PowerShell 會藉由使用 連線-MsolService -credential $cred powershell Cmdlet 來設定 Active Directory 值。 有關 Active Directory 的詳細資訊，請參閱 [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)。 
 
    > [!NOTE]
-   > [Azure Active Directory不支援 PowerShell 2.0。](/powershell/azure/active-directory/overview?view=azureadps-2.0) 
+   > [Azure Active Directory不支援 PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0)。 
 
 5. 強烈建議您停用帳戶Teams 會議室到期。 以下是如何停用帳戶 ConferenceRoom01 密碼到期的範例：
 
@@ -107,7 +107,7 @@ ms.locfileid: "62056023"
     ```
 
 
-1. 資源帳戶必須擁有有效的授權Office 365才能連接到Microsoft Teams。 您也需要為裝置帳戶指派使用位置，這決定您的帳戶可以使用哪些授權 SKUs。 您可以使用來為租使用者Office 365 `Get-MsolAccountSku` SKUS 清單。 您可以使用 `Set-MsolUserLicense` Cmdlet 新增授權。
+1. 資源帳戶必須擁有有效的授權Office 365才能連接到Microsoft Teams。 您也需要為裝置帳戶指派使用位置，這決定您的帳戶可以使用哪些授權 SKUs。 您可以使用來 `Get-MsolAccountSku` 為租使用者Office 365 SKUS 清單。 您可以使用 Cmdlet 新增 `Set-MsolUserLicense` 授權。
 
    此範例會指派會議室授權給美國的使用者。
 
@@ -118,7 +118,7 @@ ms.locfileid: "62056023"
   ``` 
 
 
-   有關詳細指示，請參閱使用 PowerShell 指派授權[Office 365使用者帳戶](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)。
+   有關詳細指示，請參閱使用[PowerShell 指派授權Office 365使用者帳戶](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)。
 
 
 ## <a name="validate"></a>驗證

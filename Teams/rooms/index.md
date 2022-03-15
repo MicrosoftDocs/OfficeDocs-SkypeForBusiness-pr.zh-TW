@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams 會議室
 ms.reviewer: ''
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 瞭解如何設定Microsoft Teams 會議室，包括規劃、部署和管理系統，以建立理想的虛擬會議室。
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 92c738d9fc036a7757655b0d57a366a0849ca9ea
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 0458513bc75bf352aed1b611895ef918fc621dcc
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015283"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504110"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams 會議室
 
@@ -57,4 +57,4 @@ ms.locfileid: "62015283"
 這些文章適用于負責規劃、部署及管理這些Microsoft Teams 會議室。 使用者將會對線上Microsoft Teams 會議室[感興趣](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
 
 > [!NOTE]
-> [Skype會議室系統](../rooms/lrs-migration.md) (Lync Room System) 和 Microsoft Teams 會議室是不同的產品，具有不同的相依性與部署程式。
+> [Skype會議室系統](../rooms/lrs-migration.md) (Lync Room System) 和 Microsoft Teams 會議室是不同的產品，其相依性與部署程式不同。

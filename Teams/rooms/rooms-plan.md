@@ -1,7 +1,7 @@
 ---
 title: 規劃 Microsoft Teams 會議室
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,17 +14,17 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection:
 - M365-collaboration
 - m365initiative-meetings
-description: 本文將說明部署新一代會議室系統Microsoft Teams 會議室相關的規劃考慮Skype考慮。
-ms.openlocfilehash: f0b1f8797a8d1f9d7589e959c71699b1efd84e3c
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+description: 本文將說明部署新一代會議室系統Microsoft Teams 會議室相關規劃Skype考慮。
+ms.openlocfilehash: eb1bacc0d96cf48f174980bd7bee9ea476f545f1
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015223"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504080"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>規劃Microsoft Teams 會議室
 
-本文將介紹一種端對端規劃、傳遞及操作Microsoft Teams 會議室作為整體會議與會議室策略的一部分。
+本文將介紹一種端對端規劃、傳遞及營運會議的方法，Microsoft Teams 會議室整體會議與會議室策略的一部分。
 
 您可以在下方找到規劃資訊，涵蓋建議的方法和您需要做出的重要決策，以及支援技術資訊的連結。 即使您已經完全部署，我們建議您查看規劃、部署及管理節。
 
@@ -53,7 +53,7 @@ Microsoft Teams 會議室包含下列關鍵元件，以提供出色的使用者�
 | &nbsp;   |  &nbsp;   |
 |-----------|------------|
 |![決定部署。](../media/audio_conferencing_image7.png) <br/>決策點|<ul><li>您是否將部署Microsoft Teams 會議室組織？ </li><li>您將如何取得Microsoft Teams 會議室系統？</li></ul> |
-| ![識別活動。](../media/audio_conferencing_image9.png)<br/>後續步驟 | <ul><li>識別誰將在整個部署期間進行重要活動。</li><li>查看您 (會議室，並規劃) ，以瞭解您想要在哪裡部署 Microsoft Teams 會議室，以及適合會議室大小的周邊裝置。</li></ul> |
+| ![識別活動。](../media/audio_conferencing_image9.png)<br/>後續步驟 | <ul><li>識別誰將在整個部署期間進行重要活動。</li><li>查看您 (會議室，並規劃) ，以瞭解您想要在哪裡部署 Microsoft Teams 會議室 以及適合會議室大小的周邊裝置。</li></ul> |
 | | |
 
 ## <a name="identify-who-will-undertake-the-key-activities-throughout-your-deployment"></a>識別誰將在整個部署期間進行重要活動
@@ -66,18 +66,18 @@ Microsoft Teams 會議室包含下列關鍵元件，以提供出色的使用者�
 
 您可能需要跨多個小組協調這些活動。 我們會提供您應涵蓋之主要活動的高層級視圖，以及一般參與部署和管理會議室系統的團隊建議，説明您決定需要處理哪些人。
 
-| 工作                       | 神秘承擔工作           | 已指派給 | 此內容的連結 |
+| 工作                       | 神秘承擔這項工作           | 已指派給 | 此內容的連結 |
 |----------------------------|----------------------------------------|-------------|-----------------------|
-| 庫存會議室            | 設施/ AV 團隊 / IT Project團隊 |             | [會議室庫存與功能規劃](#room-inventory-and-capability-planning)        |
+| 庫存會議室            | 設施/ AV 小組 / IT Project小組 |             | [會議室庫存與功能規劃](#room-inventory-and-capability-planning)        |
 | 規劃功能          | IT Project小組                        |             | [會議室庫存與功能規劃](#room-inventory-and-capability-planning)                       |
 | 裝置選取範圍           | IT Project團隊 / AV 團隊              |             | [裝置選取範圍](#device-selection)                      |
 | 採購                | IT Project團隊 / AV 團隊              |             | [採購](#procurement)                      |
-| 網站準備就緒             | 設施/ AV 團隊 / IT Project團隊 |             | [網站準備就緒](rooms-deploy.md#site-readiness)                      |
+| 網站準備就緒             | 設施/ AV 小組 / IT Project小組 |             | [網站準備就緒](rooms-deploy.md#site-readiness)                      |
 | 服務整備          | IT Project小組                        |             | [服務整備](rooms-deploy.md#service-readiness)                      |
-| 配置              | IT Project小組                        |             | [組配置與部署](rooms-deploy.md#configuration-and-deployment)                      |
-| Deployment                 | 設施/ AV 團隊 / IT Project團隊 |             | [部署檢查清單](console.md#microsoft-teams-rooms-deployment-checklist)                      |
-| 採用                   | 設施/ AV 團隊 / IT Project團隊 |             | [採用](#plan-for-adoption-and-change-management)                      |
-| 維護和作業 | AV 小組/IT Project小組              |             | [管理概觀](rooms-manage.md)                      |
+| 設定              | IT Project小組                        |             | [組配置與部署](rooms-deploy.md#configuration-and-deployment)                      |
+| Deployment                 | 設施/ AV 小組 / IT Project小組 |             | [部署檢查清單](console.md#microsoft-teams-rooms-deployment-checklist)                      |
+| 採用                   | 設施/ AV 小組 / IT Project小組 |             | [採用](#plan-for-adoption-and-change-management)                      |
+| 維護和作業 | AV 小組 /IT Project小組              |             | [管理概觀](rooms-manage.md)                      |
 
 
 ## <a name="room-inventory-and-capability-planning"></a>會議室庫存與功能規劃
@@ -86,7 +86,7 @@ Microsoft Teams 會議室包含下列關鍵元件，以提供出色的使用者�
 
 建立每個現有會議室之設備與功能的庫存之後，該會議室的需求會進入您的裝置選擇規劃，以建立豐富的會議解決方案。 除了會議室 (用途) ，每個會議室所需的音訊、視) 模式，在決定最適合每個會議室的解決方案時，都扮演重要角色。 
 
-做為探索的一部分，考慮會議室的隔音和版面配置是一項關鍵。 例如，檢查會議室中的椅子是否無法封鎖相機的視野。 確認會議室沒有過度回音或吵雜的空調，而且其螢幕和Microsoft Teams 會議室。 有許多因素可考慮您的視 (視) 小組或合作夥伴可以提供意見。 
+做為探索的一部分，考慮會議室的隔音和版面配置是一項關鍵。 例如，檢查會議室中的椅子是否無法封鎖相機的視野。 確認會議室沒有過度回音或吵雜的空調，而且其螢幕和Microsoft Teams 會議室。 有許多因素可考慮您的視 (視) 小組或合作夥伴) 提供建議。 
 
 | &nbsp;   | &nbsp;    |
 |-----------|------------|
@@ -96,16 +96,16 @@ _範例會議/會議室庫存_
 
 | 網站  | 會議室名稱 | 會議室類型 | 人員數目  | 在範圍中？ | 目前的會議室功能       | 未來的會議室功能     |
 |-----------|---------------|---------------|-----------------------|--------------|-------------------------------------|----------------------------------------------------------|
-| 倫敦總部 | 居裡         | 中型        | 6 &ndash; 12                  | 是          | 揚聲器                        | 1 個螢幕、音訊和視音訊加簡報<br>PSTN Access |
-| 雪梨總部 | 山          | 大型         | 12 &ndash; 16                 | 是          | 舊版 AV 裝置、1 個螢幕和相機 | 2 個畫面、音訊和視音訊以及簡報<br>PSTN Access |
+| 倫敦總部 | 居裡         | 中型        | 612 &ndash;                  | 是          | 揚聲器                        | 1 個螢幕、音訊和視音訊加簡報<br>PSTN Access |
+| 雪梨總部 | 山          | 大型         | 1216 &ndash;                 | 是          | 舊版 AV 裝置、1 個螢幕和相機 | 2 個畫面、音訊和視音訊以及簡報<br>PSTN Access |
 
 ## <a name="device-selection"></a>裝置選取範圍 
 
-根據Microsoft Teams 會議室未來功能，評估哪一種解決方案最適合每個會議室。 根據會議室大小和版面配置，決定最適合的 AV 周邊裝置。 
+根據Microsoft Teams 會議室未來的功能，評估哪一種解決方案最適合每個會議室。 根據會議室大小和版面配置，決定最適合的 AV 周邊裝置。 
 
 有關如何根據會議室類型和大小來瞭解系統與周邊裝置類型的指南，請參閱Microsoft Teams 會議室[一文](requirements.md)。 
 
-根據您偏好的廠商，使用需求文章中提供的資訊，定義每個會議室類型的 Microsoft Teams 會議室 和支援的周邊裝置組組，並使用此範本做為您的部署範本。 
+根據您偏好的廠商，使用需求文章提供的資訊定義每個會議室類型Microsoft Teams 會議室和支援的周邊裝置組組，並使用此範本做為您的部署範本。 
 
 **Pro提示**- 某些會議室類型可能不適用於您的部署。
 
@@ -118,10 +118,10 @@ _貴Microsoft Teams 會議室部署範本範例_
 
 | **會議室類型/大小** | **人員數目**  | **Microsoft Teams 會議室系統** | **周邊裝置**  | **顯示 ()** |
 |----------------------|-----------------------|----------------------------------|-------------------------|-----------------|
-| 焦點 10' 9'      | 2 &ndash; 4                   |                                  |                         |                 |
-| Small 16' by 16'     | 4 &ndash; 6                   |                                  |                         |                 |
-| 中 18' 20'    | 6 &ndash; 12                  |                                  |                         |                 |
-| 大型 15' 32'     | 12 &ndash; 16                 |                                  |                         |                 |
+| 焦點 10' 9'      | 24 &ndash;                   |                                  |                         |                 |
+| Small 16' by 16'     | 46 &ndash;                   |                                  |                         |                 |
+| 中 18' 20'    | 612 &ndash;                  |                                  |                         |                 |
+| 大型 15' 32'     | 1216 &ndash;                 |                                  |                         |                 |
 
 **Pro秘訣 –** 現在是開始收集您所選Microsoft Teams 會議室解決方案相關資訊的很好時間。
 

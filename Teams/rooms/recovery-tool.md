@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft Teams 會議室修復工具
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本文討論如何使用復原工具Microsoft Teams 會議室，您將使用此工具將過期的系統帶至支援的狀態。
-ms.openlocfilehash: 6f78f78ab17620a3466da713d813f8320b163a84
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 4abd13abcfd20385c6f26e029dae1435883f0f8e
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015063"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503690"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>使用 Microsoft Teams 會議室修復工具
 
@@ -29,23 +29,23 @@ ms.locfileid: "62015063"
 下載最新的[安裝Microsoft Teams 會議室套件](https://go.microsoft.com/fwlink/?linkid=851168)，然後解壓縮到 USB 記憶棒或可供使用者Microsoft Teams 會議室。
 
 > [!NOTE]
-> 從 MSI 解壓縮檔案有許多方法可以完成。 任何能解壓縮所有檔案並保留其目錄結構的機制都是可接受的。 其中一個方法就是使用命令，其中代表 Microsoft Teams 會議室安裝套件的完整路徑，並代表要解壓縮檔案之資料夾的完整 `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` `PathToTarget` 路徑。
+> 從 MSI 解壓縮檔案有許多方法可以完成。 任何能解壓縮所有檔案並保留其目錄結構的機制都是可接受的。 其中一個 `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` 方法就是使用命令，其中代表 Microsoft Teams 會議室 `PathToTarget` 安裝套件的完整路徑，並代表要解壓縮檔案之資料夾的完整路徑。
 
 ## <a name="running-the-tool"></a>執行工具
 
 1) 在裝置上Microsoft Teams 會議室系統管理員帳戶，然後啟動提升的命令提示。
-2) 從Microsoft Teams 會議室裝置確認您能夠存取檔案，該檔案包含在從安裝套件Microsoft Teams 會議室 `RecoveryTool.ps1` 檔案中。 您可以在準備先決條件時所使用的網路共用或 USB 磁碟機上找到套件。
+2) 從Microsoft Teams 會議室 `RecoveryTool.ps1` 裝置確認您能夠存取檔案，該檔案包含在從安裝套件Microsoft Teams 會議室檔案中。 您可以在準備先決條件時所使用的網路共用或 USB 磁碟機上找到套件。
 3) 執行 `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"` 。
 4) 若要執行出廠還原：
    1. 當腳本提示時，請選取選項 2： **重設**。
    2. 如果 BitLocker 已啟動，請遵循腳本輸出結尾所提供的指示來停用。
    3. 執行出廠還原。
-      1. 開啟 **設定應用程式**，然後選取更新 **&安全性**
+      1. 開啟 **設定應用程式**，然後選取 **更新&安全性**
       2. 流覽至修復 **定位** 點。
       3. 在 **重設此電腦** 底下，選取 **開始**
       4. 選取 **移除所有專案**，然後選取下 **一步** 和 **重設**
         > [!WARNING]
-        > 如果在Microsoft Teams 會議室重設程式期間選取了保留我的檔案 **-** 移除應用程式和設定，但保留您的個人檔案選項，Windows無法使用。 請勿選取此選項。
+        > 如果在Microsoft Teams 會議室重設程式期間選取了保留我的檔案 **-** 移除應用程式與設定，但保留您的個人檔案選項，Windows無法使用。 請勿選取此選項。
       5. 系統會重新開機多次。 重設完成後，系統會位於 OOBE Windows畫面的 「開箱 (」) 畫面。
 
 

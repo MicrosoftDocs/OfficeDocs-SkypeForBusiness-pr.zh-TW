@@ -1,7 +1,7 @@
 ---
 title: 適用于 Teams
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 ms.reviewer: divank
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: 7c33126f02a4a3236fb451e8e9efc0103c68abdd
-ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
+ms.openlocfilehash: 1f91af4b299223a2ac0e815f5f84b70cbc04b953
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63418825"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503560"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams Android 裝置
 
@@ -47,10 +47,8 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，在整�
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 2022 年 4 月 22 日               | 7.1x |
 | AudioCodes C448HD (上限模式僅)        | `C450HD_TEAMS_0.225`                                                  | 2022 年 4 月 22 日               | 7.1x |
-| Cresron UC-P10-T (和不含聽筒)     | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
-| Cresron UC-P8-T (和不含聽筒)      | `1.0.0.56`       | 2023 年 8 月 5 日            | 9 |
-| Cresron UC-P10-C-T (和不含聽筒)   | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
-| Cresron UC-P8-C-T (和不含聽筒)    | `1.0.0.56`       | 2023 年 8 月 5 日            | 9 |
+| Cresron UC-P10/T/CT                   | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
+| Cresron UC-P8/T /CT                   | `1.0.0.56`       | 2023 年 8 月 5 日            | 9 |
 | 音訊代碼 C470HD                      | `1.8.293   `                                               | 2023 年 8 月 5 日               | 9 |
 | Yealink MP52                           | `145.15.0.6 `                                              | 2023 年 8 月 5 日               | 9 |
 | AudioCodes C435HD                      | `1.12.33`                                                  | 2023 年 8 月 5 日               | 9 |
@@ -136,6 +134,8 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，在整�
 
 | 裝置模型  | 固件版本  | 已包含產品發行  |
 |:----------------|:--------------|:----------------------------|
+|Cresron UC-P8/I/C/CI     | `1.0.4.82`    | 2022 更新 #1 |
+|Cresron UC-P10/I/C/CI    | `1.0.4.82`    | 2022 更新 #1 |
 | Poly Trio C60   | `7.2.1.1831`  | 2022 更新 #1                        |
 | Poly CCX400/CCX500/CCX600   | `7.2.1.1826`  | 2022 更新 #1                 |
 |Cresron UC-2     | `1.0.4.75`    | 2022 更新 #1 |
@@ -308,6 +308,7 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，在整�
 
 | 裝置模型  | 固件版本 | 已包含產品發行|
 |:--------------|:-----------------|:-------------------------|
+|Cresron Touchpanel /770-T/1070-T | `1.006.0046 ` | 2022 更新 #1|
 |Yealink RoomPanel | ` 147.15.0.29 ` | 2022 更新 #1 |
 |Cresron -TSS770  | `1.004.0115` |2021 更新 #1 |
 |Cresron-TSS1070  | `1.004.0115` |2021 更新 #1 |

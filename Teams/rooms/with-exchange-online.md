@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft Teams 會議室 部署Exchange Online
-ms.author: v-lanac
-author: lanachin
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: 請閱讀本主題，以瞭解如何使用 Microsoft Teams 會議室 部署Exchange Online。
-ms.openlocfilehash: e6eb3253d7edb999ba74d28ef9a6d8ae835ac16d
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: ad3b621ef541fcec471e329d1696e4f7000f4cb5
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055483"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503740"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>使用 Microsoft Teams 會議室 部署Exchange Online
 
 請閱讀本主題，以瞭解如何使用 Microsoft Teams 會議室 部署Exchange Online。
   
-如果貴組織有混合式服務，其中一些是內部部署，有些是線上託管，則您的組式取決於每個服務的託管位置。 本主題涵蓋使用線上託管Microsoft Teams 會議室的Exchange混合式部署。 由於這類部署有許多不同的變化，因此無法針對所有部署提供詳細指示。 下列程式適用于許多配置。 如果此程式不適用於您的設定，建議您使用 Windows PowerShell來達到此處所記載的相同結果，以及其他部署選項。
+如果貴組織有混合式服務，其中一些是內部部署，有些是線上託管，則您的組式取決於每個服務的託管位置。 本主題涵蓋使用線上託管Microsoft Teams 會議室的Exchange部署。 由於這類部署有許多不同的變化，因此無法針對所有部署提供詳細指示。 下列程式適用于許多配置。 如果此程式不適用於您的設定，建議您使用 Windows PowerShell來達到此處所記載的相同結果，以及其他部署選項。
 
 ## <a name="requirements"></a>需求
 
@@ -35,7 +35,7 @@ ms.locfileid: "62055483"
 若要使用 Microsoft Teams 會議室部署Exchange Online，請遵循下列步驟。 請確定您擁有執行 Cmdlet 的許可權。 
 
    > [!NOTE]
-   >  本節 Azure Active Directory中 Windows PowerShell [Cmdlet](/powershell/azure/active-directory/overview?view=azureadps-1.0)的模組 (例如 Set-MsolUser) 已針對 Microsoft Teams 會議室 進行設定。 不過，其他 Cmdlet 可能可以工作，但尚未在此特定情況下進行測試。
+   >  本節[Azure Active Directory Cmdlet](/powershell/azure/active-directory/overview?view=azureadps-1.0) Windows PowerShell 模組 (例如 Set-MsolUser) 已在設定 Microsoft Teams 會議室 帳戶時過測試。 不過，其他 Cmdlet 可能可以工作，但尚未在此特定情況下進行測試。
 
 如果您部署 Active Directory Federation Services (AD FS) ，您可能必須先將使用者帳戶轉換為受管理的使用者，然後再執行這些步驟，然後在完成這些步驟後將使用者轉換回聯盟使用者。
   
@@ -70,8 +70,8 @@ ms.locfileid: "62055483"
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>為您的內部部署網域帳戶新增電子郵件地址
 
-1. 在 **Active Directory 使用者** 與電腦 AD 工具中，以滑鼠右鍵按一下要建立 Microsoft Teams 會議室 帳戶的容器或組織單位，按一下 [**新增**，然後按一下 **[使用者**。
-2. 從先前的 Cmdlet (Set-Mailbox 或 New-Mailbox) 輸入顯示名稱 ( ) - 身分識別) ，而別名則輸入到使用者 **登** 入名稱方塊中。 按一下 **[下一步**。
+1. 在 **Active Directory 使用者和電腦 AD** 工具中，以滑鼠右鍵按一下要建立 Microsoft Teams 會議室 帳戶的容器或組織單位，按一下 [**新增**，然後按一下 **[使用者**。
+2. 從先前的 Cmdlet (Set-Mailbox 或 New-Mailbox) 輸入顯示名稱 ( ) - 身分識別) ，然後將別名輸入到使用者 **登** 入名稱方塊中。**** 按一下 **[下一步**。
 3. 輸入此帳戶的密碼。 您必須重新輸入以進行驗證。 請確定選取 **的唯** 一選項為密碼永不過期核取方塊。
 
     > [!NOTE]
@@ -85,7 +85,7 @@ ms.locfileid: "62055483"
 1. 首先，請連接到 Azure AD以申請一些帳戶設定。 您可以執行此 Cmdlet 以連接。 有關 Active Directory 的詳細資訊，請參閱 [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0)。
 
    > [!NOTE]
-   > [Azure Active Directory不支援 PowerShell 2.0。](/powershell/azure/active-directory/overview?view=azureadps-2.0)
+   > [Azure Active Directory不支援 PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0)。
 
     ``` PowerShell
    Connect-MsolService

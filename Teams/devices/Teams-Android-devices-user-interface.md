@@ -1,7 +1,7 @@
 ---
 title: 設定Microsoft Teams Android 裝置使用者介面
-ms.author: mitressl
-author: flinchbot
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 appliesto:
@@ -12,13 +12,13 @@ ms.service: msteams
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: 瞭解如何在 Android 裝置上Teams介面。
-ms.openlocfilehash: 32f5129330bf46657f126fc00f7eddc2fc30f090
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+description: 瞭解如何在 Android 裝置上設定Teams介面。
+ms.openlocfilehash: c1872fffef3f21c3fec6a9c693b02e218d5d8337
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279381"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503771"
 ---
 # <a name="set-microsoft-teams-android-devices-user-interface"></a>設定Microsoft Teams Android 裝置使用者介面
 
@@ -53,7 +53,7 @@ Android 裝置上的使用者介面Teams類型：
 :::image type="content" source="../media/teams-android-devices-meeting.jpg" alt-text="會議介面。":::
 
 > [!NOTE]
-> 變更使用者介面不會影響您使用其他授權功能的能力。 例如，即使小組會議室授權的預設視圖是 [日曆視圖」，如果帳戶已正確授權及配置，您仍然可以撥打和接聽公用交換電話網路 (PSTN) 電話。
+> 變更使用者介面不會影響您使用其他授權功能的能力。 例如，即使小組會議室授權的預設視圖是 [日曆視圖，如果帳戶已正確授權及配置，您仍然可以撥打和接聽公用交換電話網路 (PSTN) 電話。
 
 > [!IMPORTANT]
 > 介面的其他元素會變更。 例如，若要防止使用者登出公用區域電話或會議室裝置，這些裝置上的「登出」選項會移至需要系統管理員許可權才能存取的設定功能表的一部分。

@@ -1,7 +1,7 @@
 ---
 title: 設定帳戶Microsoft Teams 會議室
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,37 +15,37 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 請閱讀本主題，瞭解如何在 Microsoft Teams 會議室 和 Exchange 中商務用 Skype。
-ms.openlocfilehash: 77e1dbe097bbb75697ec52ef7d472df4707ac9cb
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: 9c898d63291d6b2d4a8d2557f2e307156b3487b4
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306118"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503490"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>設定帳戶Microsoft Teams 會議室
  
 請閱讀本主題以瞭解Microsoft Teams 會議室，以及它如何與Exchange商務用 Skype。
   
-本主題將介紹如何在 Microsoft Microsoft Teams 會議室 中建立Exchange帳戶商務用 Skype。 您的基礎結構可能會屬於下列其中一種配置：
+本主題將介紹如何在 Microsoft Microsoft Teams 會議室 中建立Exchange商務用 Skype。 您的基礎結構可能會屬於下列其中一種配置：
   
-- 線上部署：貴組織的環境完全部署在 Microsoft 365 或 Office 365。 詳細資訊，請參閱使用 Microsoft Teams 會議室[或 Microsoft 365 部署Office 365。](with-office-365.md)
+- 線上部署：貴組織的環境完全部署在 Microsoft 365 或 Office 365。 詳細資訊，請參閱使用 Microsoft Teams 會議室[或 Microsoft 365 部署Office 365](with-office-365.md)。
     
-- 內部部署：貴組織有它所控制的伺服器，其中 Active Directory、Exchange和商務用 Skype Server託管。 詳細資訊，請參閱使用Microsoft Teams 會議室[部署商務用 Skype Server](with-skype-for-business-server-2015.md)
+- 內部部署：貴組織有它所控制的伺服器，其中 Active Directory、Exchange和商務用 Skype Server主機。 詳細資訊，請參閱使用Microsoft Teams 會議室[部署商務用 Skype Server](with-skype-for-business-server-2015.md)
     
-- 混合式部署：貴組織有混合式服務，有些是內部部署，有些則透過Microsoft 365或Office 365。 使用 Microsoft Teams 會議室，支援下列混合式案例：
+- 混合式部署：貴組織有混合式服務，其中一些是內部部署，有些則透過Microsoft 365或Office 365。 使用 Microsoft Teams 會議室，支援下列混合式案例：
     
-  - Exchange Online內部商務用 Skype Server中。 詳細資訊，請參閱使用混合式[Microsoft Teams 會議室部署Exchange Online () 。](with-exchange-online.md)
+  - Exchange Online內部商務用 Skype Server使用。 詳細資訊，請參閱使用混合[式Microsoft Teams 會議室部署Exchange Online () ](with-exchange-online.md)。
     
-  - Exchange內部部署Microsoft Teams。 詳細資訊請參閱在內部部署Microsoft Teams 會議室部署Exchange混合式 ([部署) 。](with-exchange-on-premises.md)
+  - Exchange內部部署Microsoft Teams。 詳細資訊，請參閱在內部部署Microsoft Teams 會議室部署Exchange混合式 ([部署) ](with-exchange-on-premises.md)。
     
 您擁有哪些設定將會影響您準備裝置設定時如何進行。
   
-Microsoft Teams 會議室 Active Directory、Exchange和 商務用 Skype。 該帳戶可用來存取其會議日曆，並建立Microsoft Teams或商務用 Skype連接。 人員可以預約此帳戶，並排程會議。 Microsoft Teams 會議室將能加入該會議，並提供各種功能給會議出席者。
+Microsoft Teams 會議室 Active Directory、Exchange和 商務用 Skype。 該帳戶可用來存取其會議日曆，並建立Microsoft Teams或商務用 Skype連接。 人員可以預約此帳戶，並排程會議。 Microsoft Teams 會議室加入會議，並提供各種功能給會議出席者。
   
 > [!IMPORTANT]
 > 沒有資源帳戶，這些功能都不起作用。 
   
-每個資源帳戶都是單一Microsoft Teams 會議室唯一，而且需要一些設定：
+每個資源帳戶都是單一Microsoft Teams 會議室的唯一帳戶，而且需要一些設定：
   
 - 必須正確配置資源帳戶。
     
@@ -62,7 +62,7 @@ Microsoft Teams 會議室 Active Directory、Exchange和 商務用 Skype。 該�
   
 您可以將資源帳戶視為資源帳戶，而使用者可以將它視為會議室或共用空間的帳戶。 當您想要使用該空間排程會議時，請邀請帳戶加入該會議。
   
-如果您已經針對要安裝帳戶的空間設定資源信箱帳戶Microsoft Teams 會議室，您可以將該帳戶變更為Teams 會議室帳戶。 完成之後，您只需要使用該帳戶Microsoft Teams 會議室帳戶。
+如果您已經將資源信箱帳戶設定為要安裝帳戶Microsoft Teams 會議室，您可以將該帳戶變更為Teams 會議室帳戶。 完成之後，您只需要使用該帳戶Microsoft Teams 會議室帳戶。
   
 ## <a name="basic-configuration"></a>基本組組
 
