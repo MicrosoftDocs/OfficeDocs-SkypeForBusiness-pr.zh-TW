@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在會議Teams中管理會議策略設定。
-ms.openlocfilehash: bdff1880104f80e7a5073900087a855202a9a137
-ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
+ms.openlocfilehash: 8b4015c209f9cb30a773abefa3af4e4300a0dcec
+ms.sourcegitcommit: 2deb76ad222b77a19d43beffc87714204961aa09
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62881528"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63494349"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>會議原則設定 - 參與者與來賓
 
@@ -70,11 +70,11 @@ ms.locfileid: "62881528"
 |**僅受邀使用者**    |只有受邀的使用者和會議召集人可以直接加入會議，而不必在大廳等候。 其他人，包括組織中經過驗證的使用者、來賓使用者、信任組織的使用者，以及匿名使用者，都必須在大廳等候。 在 Teams會議選項頁面上，會顯示為「我邀請的人」。 新增為通訊群組一部分的使用者必須經過大廳。      |
 
  > [!NOTE]
-> 信任的組織是允許在 Teams 中與聯盟通訊的Teams。 如果您啟用 **允許** 所有外部網域在系統管理中心Teams外部存取，任何組織中任何經過驗證Teams都會受到信任。 如果您選擇指定允許的外部網域並封鎖所有其他網域，則允許的網域會變成信任的組織。 任何封鎖的網域都視為不是信任的組織。
+> 信任的組織是允許在 Teams 中與聯盟通訊的Teams。 如果您啟用 **允許** 所有外部網域在系統管理中心Teams外部存取，任何組織中任何經過驗證Teams使用者都會受到信任。 如果您選擇指定允許的外部網域並封鎖所有其他網域，則允許的網域會變成信任的組織。 任何封鎖的網域都視為不是信任的組織。
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>允許撥入使用者無需先在大廳等候
 
-這是每一召集人原則。 此設定可控制透過電話撥入的人員是否直接加入會議，或是在大廳中等候，而不論 [自動准許人員 **]** 的設定為何。 此設定預設會關閉。 關閉此設定時，撥入使用者將在大廳中等候，直到組織使用者使用 Teams 用戶端加入會議並准許他們加入為止。 開啟此設定時，撥入使用者會在組織使用者加入會議時自動加入會議。
+這是每一召集人原則。 此設定可控制透過電話撥入的人員是否直接加入會議，或是在大廳中等候，而不論 [自動准許人員 **]** 的設定為何。 此設定預設會關閉。 關閉此設定時，撥入使用者將在大廳中等候，直到組織使用者使用 Teams 用戶端加入會議並准許他們加入為止。 開啟此設定後，當組織使用者使用用戶端加入會議時，撥入使用者Teams加入會議。
 
 > [!NOTE]
 > 如果撥入使用者在組織使用者加入會議之前加入會議，他們將會停留在大廳，直到組織使用者使用 Teams 用戶端加入會議並准許他們加入會議為止。 如果您變更任何使用者的預設設定，它將會套用至該使用者召集的所有新會議，以及使用者未修改會議選項的任何先前會議。
@@ -105,7 +105,7 @@ ms.locfileid: "62881528"
 
 ## <a name="enable-meeting-policy-settings"></a>啟用會議策略設定
 
-若要啟用會議策略設定，您可以使用 [Teams](https://admin.teams.microsoft.com/policies/meetings)系統管理中心 (**會議策略**  >  **在**  >  Teams PowerShell 中建立一個 **policyParticipants & 來賓)** 或 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet。 
+若要啟用會議策略設定，您可以使用 [Teams](https://admin.teams.microsoft.com/policies/meetings)系統管理中心 (**會議策略**  >  **在**  >  Teams PowerShell 中建立一個策略 **Participants & 來賓)** 或 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet。 
 
 在此範例中，我們使用 PowerShell 修改全域會議政策，允許任何人開始或加入會議。
 
