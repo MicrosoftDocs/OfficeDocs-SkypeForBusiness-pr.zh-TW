@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 瞭解如何使用會議策略設定來控制會議Microsoft Teams。
-ms.openlocfilehash: 8c8a5603aea6ac65a2cd35b12eca9250debc7c51
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: d4752251f65dac0afb41ba357ad03063b3f6dfb0
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279170"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514686"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>會議政策與會議到期Microsoft Teams
 
@@ -73,18 +73,21 @@ ms.locfileid: "62279170"
 - 關閉該使用者的會議策略設定，讓另一個已啟用該策略設定的使用者建立新會議以取代過期的會議。
 
 > [!NOTE]
-> 如果會議是由代理人傳送，而代理人獲派代表另一個人傳送會議邀請的許可權 ，例如主管，會議原則設定會適用于授予許可權 (主管) 。
+> 如果會議是由代理人傳送，而代理人獲授予代表另一個人傳送會議邀請的許可權 ，例如主管，會議原則設定會適用于授予許可權 (主管) 。
 
 ## <a name="changes-to-meeting-expiration"></a>會議到期變更
 
 > [!IMPORTANT]
 > 如果您想要在租使用者Teams啟用會議到期日，請Microsoft Teams[提早採用者計畫](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u)。
 
-所有新Teams TMRs (錄製) 預設到期日為 60 天。 此選項預設為所有租使用者。 這表示根據預設，開啟此功能後建立的所有 TMRs 都會在建立日期後的 60 天后刪除。 系統管理員也可以將會議設定 **為永不自動過期**。 系統OneDrive系統SharePoint所有 TMRs 上設定到期日，並會在到期日自動將 TMRs 移至回收站。
+所有新Teams TMRs (錄製) 預設到期日為 120 天。 此選項預設為所有租使用者。 這表示根據預設，開啟此功能後建立的所有 TMRs 都會在建立日期後的 120 天后刪除。 系統管理員也可以將會議設定 **為永不自動過期**。 系統OneDrive系統SharePoint所有 TMRs 上的到期日集，並會在到期日自動將 TMRs 移至回收站。
+
+> [!NOTE]
+> 會議記錄中的一份會儲存于OneDrive SharePoint另一份副本會儲存于Exchange儲存。 OSDP 副本會在 TMR 自動到期時到期。
 
 自動會議到期是一種輕量型的管家機制，可以減少舊版 TMRs 所造成儲存空間的雜亂。 平均而言，在所有客戶中，96% 的 TMRs 在 60 天后不會觀看，99% 在 110 天后不會觀看。 我們相信，移除 60 天后可能不會再觀看的錄製內容，幾乎所有客戶都會受益于租使用者降低的儲存空間負載。 根據預設，我們的目標是盡可能為所有客戶提供乾淨體驗。
 
-使用會議到期限制OneDrive或SharePoint由會議記錄所導向的雲端Teams耗用。 一般的會議錄製會耗用每小時約 400 MB 的錄製。
+使用會議到期限制OneDrive SharePoint由會議記錄所導向的雲端儲存Teams限制。 一般的會議錄製會耗用每小時約 400 MB 的錄製。
 
 > [!NOTE]
 > A1 使用者的預設到期日上限為 30 天。
@@ -126,8 +129,8 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 例如：
 
-- 如果您有一項規定，指出網站中所有檔案都必須保留 100 天，而 Teams 會議錄製的到期日設定是 30 天，則錄製內容會保留完整 100 天。
-- 如果您有刪除政策，指出所有 Teams 會議錄製都會在 5 天后刪除，而且您的 Teams 會議錄製有 30 天的到期日設定，則錄製內容將在 5 天后刪除。
+- 如果您有一項規定，指出網站中所有檔案都必須保留 100 天，而 Teams 會議錄製的到期日設定為 30 天，則錄製內容會保留完整 100 天。
+- 如果您有刪除政策，指出所有 Teams 會議錄製都會在 5 天后刪除，而且您的 Teams 會議錄製為 30 天，則錄製內容將在 5 天后刪除。
 
 ### <a name="will-this-feature-enforce-file-retention"></a>啟用此功能會強制執行檔案保留？
 
@@ -148,9 +151,22 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 否，移轉的 TMR 不會有到期設定。 相反地，我們鼓勵系統管理員只遷移他們想要保留的 TMR。 移轉文件將會提供更多詳細資料。
 
-### <a name="how-is-this-feature-different-from-the-expiration-message-i-see-when-a-tmr-upload-to-onedrive-and-sharepoint-fails"></a>此功能與當 TMR 上傳至 OneDrive 失敗時SharePoint不同？
+### <a name="how-is-this-feature-different-from-the-expiration-message-i-see-when-a-tmr-upload-to-onedrive-and-sharepoint-fails"></a>此功能與 TMR 上傳至 OneDrive 失敗時，SharePoint不同？
 
 當錄製無法上傳到 OneDrive 或 SharePoint 時，Teams 應用程式會在聊天中顯示一則訊息，指出使用者在從 Teams 伺服器永久刪除 TMR 之前，最多有 21 天的時間下載 TMR。 由於 TMR 上傳失敗而現有的到期體驗與說明文件中OneDrive SharePoint的自動到期功能相關。
+
+### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>如何知道 TMR 播放的發佈，讓我知道我租使用者的最佳自動到期預設值是什麼？
+
+1. 在文件庫中尋找影片。
+1. 選取 **...**  > **細節**
+1. 選取詳細資料窗格頂端的視圖數。
+
+您會看到檔案統計資料，顯示：
+
+- 唯一檢視器數目
+- 總視圖數
+- 過去 90 天內，每天查看和查看者的趨勢
+- 檢視者保留 (影片的哪個部分已檢視或未) 
 
 ## <a name="related-topics"></a>相關主題
 

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: 本文將說明如何設定及設定主機Microsoft Teams 會議室及其周邊設備。
-ms.openlocfilehash: 42f10ffe4ed2b577e91ed13b57ea8efcae67a1a4
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: c13a247f2ce9d7fee7571f7f3a202310b2ce8b41
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504010"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514718"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>建立Microsoft Teams 會議室圖像
 
@@ -117,30 +117,36 @@ ms.locfileid: "63504010"
     
 4. 選取 **時間 &amp; 語言**。
     
-5. 選取 **地區 &amp; 語言**。
+5. 選取 **語言**。
     
 6. 選取 **新增語言**。
     
 7. 選取要新增的語言。
     
-8. 選取您剛剛新加入「語言」清單的語言。
+8. 安裝語言功能。
     
-9. 選取 **設定為預設值**。
+9. 請勿檢查設定為我的Windows語言。
     
-10. 針對任何想要移除的語言：
+10. 選取 **安裝**。
+    
+11. 選取您剛剛新加入「語言」清單的語言。
+    
+12. 設定為預設值- 向上移動箭頭以設定預設值
+
+13. 針對任何想要移除的語言：
     
     a. 選取要移除的語言。
     
-    b. 選取 **移除**。
-    
-11. 啟動提升的命令提示。
-    
-12. 執行下列命令： 
+    b. 選取移除。
+
+14. 啟動提升的命令提示。
+
+15. 執行下列命令： 
     ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
     
-13. 重新開機系統。
+16. 重新開機系統。
     
 您所需的語言現在會Microsoft Teams 會議室主控台。
 ## <a name="initial-set-up-of-the-console"></a>主機的初始設定
@@ -154,12 +160,12 @@ ms.locfileid: "63504010"
    
 3. 選取支援的會議模式 - Microsoft Teams、商務用 Skype或兩個混合模式選項之一。 如有需要，請啟用新式驗證。
 
-4. 按一下 **[下一步**。
+4. 選取 **下一步**。
     
 5. 如果您使用 商務用 Skype，商務用 Skype SIP 網域與使用者的 Exchange 網域不同，請設定進商務用 Skype Server區段的 FQDN。 如果您不是使用 商務用 Skype SIP 網域與 Exchange網域，請保留此區段空白。
-6. 按一下 **[下一步**。
+6. 選取 **下一步**。
     
-7. 按一下 **[完成**。
+7. 選取 **完成**。
     
 應用程式Microsoft Teams 會議室以上述輸入的認證Microsoft Teams或 商務用 Skype Server 或 商務用 Skype Server，並且也應該使用這些相同的認證開始同步處理其Exchange日曆。 有關使用Teams 會議室的詳細資訊，請參閱Microsoft Teams 會議室[說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
   
@@ -195,7 +201,7 @@ Microsoft Teams 會議室必須信任所連接之伺服器所使用的憑證。 
 ### <a name="join-an-active-directory-domain-optional"></a>加入 Active Directory 網域 (選) 
 <a name="Certs"> </a>
 
-您可以加入Microsoft Teams 會議室網域。 Microsoft Teams 會議室與電腦工作站分開的 OU 中，因為許多工作站策略與電腦Microsoft Teams 會議室。 常見的範例是密碼強制執行政策，Microsoft Teams 會議室自動啟動。 有關 GPO 設定管理的資訊，請參閱[管理 Microsoft Teams 會議室](rooms-operations.md)。
+您可以加入Microsoft Teams 會議室網域。 Microsoft Teams 會議室與電腦工作站分開的 OU 中，因為許多工作站策略與電腦Microsoft Teams 會議室。 常見的範例是密碼強制執行政策，可防止Microsoft Teams 會議室自動啟動。 有關 GPO 設定管理的資訊，請參閱[管理 Microsoft Teams 會議室](rooms-operations.md)。
   
 ### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>若要加入Microsoft Teams 會議室網域
 

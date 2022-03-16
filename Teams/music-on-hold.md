@@ -15,20 +15,20 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 瞭解如何在 電話系統 中管理音樂保留電話系統。
-ms.openlocfilehash: d3fa7188e3d2320ba4eeb17ca95d28d1f57c18c4
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a1e2662c04cfa9300d034aaaf8d7975e44e63f69
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767406"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514780"
 ---
 # <a name="music-on-hold"></a>等候音樂
 
-當Microsoft Teams使用者從公用交換電話網絡 (PSTN) 撥打來電時，PSTN 來電者可以聆聽選取的音樂。
+當使用者Microsoft Teams從公用交換電話網絡 (PSTN) 來電時，PSTN 來電者可以聆聽選取的音樂。
 
-播放的音樂是 Microsoft 提供的預設音樂，或是您上傳和設定之自訂音樂。 作為租使用者系統管理員，您可以建立通話Teams，並將該Teams保留。
+播放的音樂是 Microsoft 提供的預設音樂，或是您上傳和設定之自訂音樂。 做為租使用者系統管理員，您可以建立通話Teams，並將該Teams保留狀態。
 
-PSTN 通話案例Microsoft Teams中提供的預設音樂，不含貴組織支付的任何版稅。
+PSTN 通話Microsoft Teams中提供的預設音樂不含貴組織支付的任何版稅。
 
 請注意，PSTN 來電者也可以在其他情況下聆聽等候音樂;例如，當他們撥打到雲端通話佇列，或他們的通話是由使用者Microsoft Teams時。 本文提及的功能並未涵蓋或控制這些案例。
 
@@ -40,11 +40,11 @@ PSTN 通話案例Microsoft Teams中提供的預設音樂，不含貴組織支付
 
 2.  在管理 **政策選項卡** 上，選取其中一個現有政策或建立新策略。
 
-3.  在 **[PSTN 通話者音樂保留狀態> 欄位中****，選取** 下拉式功能表中的 [已啟用。
+3.  在 [**PSTN 通話者音樂保留狀態> 欄位中****，選取** 下拉式功能表中的 [已啟用。
 
 您也可以使用 PowerShell 模組設定保留Teams音樂。 在 TeamsCallingPolicy 中，將 MusicOnHoldEnabledType 參數變更為啟用，然後將該策略實例授予一或多個使用者。
 
-如果使用者Teams通話Teams將等候音樂設定為停用，則當使用者保留通話Teams不會播放任何音樂。
+如果使用者Teams通話Teams將等候音樂設定為停用，則當 Teams 使用者保留通話時，不會播放任何音樂。
 
 ## <a name="configure-custom-music"></a>設定自訂音樂
 
@@ -59,11 +59,11 @@ PSTN 通話案例Microsoft Teams中提供的預設音樂，不含貴組織支付
 如需支援的音訊格式和最大檔案大小，請參閱 [Import-CsOnlineAudioFile](/powershell/module/skype/import-csonlineaudiofile)
 
 
-1. 請確定Teams保留 PSTN 來電者的音樂在 [通話Teams設為啟用。 
+1. 請確定Teams保留 PSTN 來電者的音樂在通話Teams設為啟用。 
 
 2. Upload自訂音訊檔案。
 
-3. 建立參照Teams音訊檔案的通話保留原則，並將其指派給Teams使用者。
+3. 建立參照Teams音訊檔案的通話保留原則，並將它指派給Teams使用者。
 
 ### <a name="upload-the-custom-audio-file"></a>Upload自訂音訊檔案
 
@@ -88,7 +88,7 @@ ApplicationId : TenantGlobal
 C:\> New-CsTeamsCallHoldPolicy -Identity "CustomMoH1" -Description "Custom MoH using CustomMoH1.mp3" -AudioFileId $AudioFile.Id
 ```
 
-建立新通話保留Teams後，您可以使用以下方法將這項Grant-CsTeamsCallHoldPolicy授權給使用者：
+建立新通話保留Teams後，您可以使用以下Grant-CsTeamsCallHoldPolicy授權給使用者：
 
 ```PowerShell
 C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contoso.com
@@ -112,7 +112,7 @@ C:\> Grant-CsTeamsCallHoldPolicy -PolicyName "CustomMoH1" -Identity user1@contos
 
 ## <a name="restrictions"></a>限制
 
-- 等候音樂僅適用于商業雲端。
+- 等候音樂僅適用于商業和GCC實例。
 
 - 只有在使用者進入 TeamsOnly 模式時，才能使用等候音樂。
 

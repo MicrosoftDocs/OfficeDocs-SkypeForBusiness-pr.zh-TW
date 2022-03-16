@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解帳戶Microsoft Teams 會議室如何取得存取進Microsoft Teams 會議室服務授權。
 f1keywords: ''
-ms.openlocfilehash: 2b20895cbd164adde136ae6a1953f59359f9e5aa
-ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
+ms.openlocfilehash: a72dd47184487ed9364ceafacadfdc155743c292
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2022
-ms.locfileid: "63418876"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514832"
 ---
 # <a name="getting-started-with-microsoft-teams-rooms-premium-managed-service"></a>開始使用Microsoft Teams 會議室進階版管理服務
 
@@ -42,7 +42,7 @@ Microsoft Teams 會議室資源帳戶需要Microsoft Teams 會議室進階版授
 2. 從 **左側>窗格中** 選擇帳單和授權。
 3. 針對您Teams 會議室 **使用** 方式選取適當的進 (授權，) 。 請參閱[共用通訊裝置的授權](rooms-licensing.md)解決方案，以比較 Microsoft Teams 會議室標準版 與 進階版。
 4. 在帳單 **帳戶頁面上** ，選取指派 **授權**。 系統 **會顯示指派授權給使用者** 頁面。
-5. 輸入授權 **指派Microsoft Teams 會議室****帳戶Teams 會議室 進階版** 帳戶。 有關設定新帳戶或驗證現有帳戶Microsoft Teams 會議室，請參閱使用 Microsoft Teams 會議室[或 Microsoft 365 部署Office 365](with-office-365.md)。
+5. 輸入授權 **指派Microsoft Teams 會議室****帳戶Teams 會議室 進階版** 帳戶。 有關設定新帳戶或驗證現有帳戶Microsoft Teams 會議室，請參閱為會議室和共用Teams[帳戶](with-office-365.md)。
 6. 帳戶提交完成後， **請選取指派** ，然後 **關閉**。 這些 **Microsoft Teams 會議室進階版** 已指派 **給Microsoft Teams 會議室帳戶**。
 
 現在，您可以註冊資源帳戶和相關認證Microsoft Teams 會議室受管理Microsoft Teams 會議室進階版裝置。 詳細資訊請參閱在受管理服務[中註冊Microsoft Teams 會議室進階版裝置](enrolling-mtrp-managed-service.md)。

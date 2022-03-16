@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-overview
 description: 在本文中，您將瞭解 電話系統 中Microsoft 365。
-ms.openlocfilehash: 739745c288e24b1cdb7ddc4cf65644a9fd98cb9e
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: a838561b25a737025838095e643bd78a2c69af92
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518595"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514554"
 ---
 # <a name="what-is-phone-system"></a>什麼是電話系統
 
@@ -39,9 +39,11 @@ ms.locfileid: "62518595"
 
 若要撥打外部電話，電話系統提供附加元件選項以連接到 PSTN。 有關語音解決方案和 PSTN 連接選項的詳細資訊，請參閱規劃您的Teams[語音](cloud-voice-landing-page.md)解決方案連線[PSTN](#connect-to-the-public-switched-telephone-network-pstn)。
 
+電話系統除了澳門以外，全球都提供此服務。 
+
 ## <a name="phone-system-features"></a>電話系統功能
 
-有了電話系統，使用者Teams撥打和接聽電話、轉接電話，以及將通話設為靜音或取消靜音。 電話系統使用者可以按一下通訊錄中的名稱，然後Teams該人員進行通話。 若要撥打和接聽電話，電話系統使用者可以使用他們的行動裝置、膝上型電腦或 PC 耳機，或許多 IP 電話之一，Teams。 
+有了電話系統，使用者Teams撥打和接聽電話、轉接電話，以及將通話設為靜音或取消靜音。 電話系統使用者可以按一下通訊錄中的名稱，然後Teams該人員進行通話。 若要撥打和接聽電話系統，使用者可以使用他們的行動裝置、膝上型電腦或 PC 耳機，或許多 IP 電話之一，Teams。 
 
 電話系統系統管理員可以從用於傳訊、共同合作等的同一個主機管理通話選項和設定。
 
@@ -50,9 +52,9 @@ ms.locfileid: "62518595"
 
 ## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>連線 PSTN (公用交換電話) 
   
-針對外部通話，電話系統數種方式之一，將電話連接到 PSTN：
+對於外部電話系統，您可以用以下幾種方法之一，將電話連接到 PSTN：
   
-- 購買 Microsoft 通話方案 (國內或國內及國際電話) 。 Microsoft 通話方案是一種以 Microsoft 做為 PSTN 電信公司的全雲端解決方案。 詳細資訊，請參閱電話系統[通話方案](calling-plan-landing-page.md)。
+- 在國內和國際電話 (購買 Microsoft 通話) 。 Microsoft 通話方案是一種以 Microsoft 做為 PSTN 電信公司的全雲端解決方案。 詳細資訊，請參閱電話系統[通話方案](calling-plan-landing-page.md)。
 
 - 使用現有的電話基礎結構進行內部部署 PSTN 連接。
 
