@@ -17,12 +17,12 @@ description: 瞭解如何在 Teams 系統管理中心Microsoft Teams PSTN 使用
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3c271ee710f84bed5f35b66969ce4970cd21b36a
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: 6dca22cd88936c711aa0f41f2a230d7cd34ab186
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388065"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556649"
 ---
 # <a name="microsoft-teams-pstn-usage-report"></a>Microsoft Teams PSTN 使用方式報告
 
@@ -64,7 +64,7 @@ Teams系統管理中心 (PSTN) 公用交換電話網路) Microsoft Teams使用�
 |**1**   |您可以針對過去 7 天或 28 天的趨勢來查看報表。 |
 |**2**   |每個報表都有產生日期。 報告通常會反映啟用時間起 24 到 48 小時的延遲。 |
 |**3**   |X 軸是特定報表的選取日期範圍。 Y 軸是所選時段的通話總數。<br>將游標停留在給定日期的點上方，以查看該日期的總通話。  |
-|**4**   |表格提供您每個通話的 PSTN 使用量明細。 <ul><li>**UTC (時間戳記)** 是通話開始的時間。</li><li>**顯示名稱** 是使用者的顯示名稱。 您可以按一下顯示名稱，以前往系統管理中心中的使用者Microsoft Teams頁面。 名稱也可以是 Bot 的名稱，例如通話佇列或雲端自動助理。 </li><li>**SIP 位址** 是使用者或接收或撥打來電的 Bot 的 SIP 位址。</li><li>**來電號碼** 是撥打該電話的使用者或 Bot 號碼。 </li><li>**通話者號碼** 是接到來電的使用者或 Bot 號碼。 在傳入來電給Teams使用者時，Teams使用者撥打的外Teams就會是 PSTN 使用者。 </li><li>**通話類型** 是通話是 PSTN 外寄或輸入通話，以及通話類型，例如使用者撥打的通話或音訊會議。 您可能會看到的通話類型包括：<br><br>**Teams使用者通話類型**<ul><li>**dr_in** - 使用者收到傳入 PSTN 通話</li><li>**dr_out** - 使用者撥打了外寄 PSTN 通話</li><li>**dr_out_user_conf** - 使用者在通話中新增 PSTN 參與者</li><li>**user_out_transfer** - 使用者將通話轉接到 PSTN 號碼</li><li>**dr_out_user_forwarding** - 使用者將通話轉往 PSTN 號碼</li><li>**dr_out_user_transfer** - 使用者將通話轉接到 PSTN 號碼</li><li>**dr_emergency_out** - 使用者撥打緊急電話</li><li>**dr_unassigned_in** - 透過直接路由到未指定號碼的傳入 PSTN 通話</li></ul><br>**Teams Bot 的通話類型**<ul><li>**dr_in_ucap** - 自動Teams或通話佇列等傳入 PSTN 通話</li><li>**dr_out_ucap** - 來自自動Teams或通話佇列等的外Teams PSTN 通話</li></ul><br><li>**呼叫者** 是接到來電的使用者號碼。</li><li>開始時間 **(UTC)** 是 SIP Proxy 在外寄通話 (Teams/Bot 上從 SBC 收到最後答案 (SIP 訊息 "200 確定") 給 PSTN 使用者) 的時間，或是 SIP Proxy 將邀請傳送至 Teams 後端內輸入呼叫 (PSTN 使用者至 Teams/Bot) 之後。 </li><li>邀請 **時間 (UTC)** 是初始邀請從 Teams 使用者或 Bot 通話傳送至 SBC 的外寄通話，或是從 SBC 直接路由的 SIP Proxy 元件在 Teams 或 bot 通話的輸入通話中收到邀請的時間。</li><li>**UTC (的)** 時間是通話失敗的時間。 僅適用于失敗的通話。 最終 SIP 程式碼、最終 Microsoft 子代碼和最終 SIP 片語提供通話失敗的原因，並有助於進行疑難排解。 </li><li>**UTC (結束時間)** 通話結束時間， (通話成功) 。</li><li>**持續時間** 是通話已連接多久。</li><li>**號碼類型** 是使用者的電話號碼類型，例如免付費號碼的服務。 </li><li>**媒體旁** 路會指出是否已啟用媒體旁路的主幹。 </li> <li>**SBC FQDN 是會話** 邊界控制器 (SBC) FQDN (FQDN) 。 </li><li>**Azure 媒體區域** 是在非旁路通話中做為媒體路徑的資料中心。 </li><li>**訊號的 Azure 區域** 是資料中心，用於旁路和非旁路通話的訊號。 </li><li>**事件種類** 是通話的事件種類。 您會看到成功的通話和嘗試失敗的通話。 </li><li>**最終 SIP 程式** 代碼是通話結束時使用的代碼。</li><li>**最終 Microsoft 副程式** 代碼是指出已發生特定動作的代碼。</li><li>**最終 SIP 詞** 組是 SIP 程式碼和 Microsoft 子代碼的描述。</li><li>**關聯識別碼** 是通話的唯一識別碼，您可以在撥打 Microsoft 支援服務時使用。</li><li>**共用關聯識別碼** 只會顯示在可下載的 CSV 檔案中，且不存在於入口網站中。 共用的關聯識別碼至少存在於兩個相關的通話中。 請參閱下方的詳細描述。</li></ul> 若要在表格中查看您想要的資訊，請務必新增欄至資料表。|
+|**4**   |表格提供您每個通話的 PSTN 使用量明細。 <ul><li>**UTC (時間戳記)** 是通話開始的時間。</li><li>**顯示名稱** 是使用者的顯示名稱。 您可以按一下顯示名稱，以前往系統管理中心中的使用者Microsoft Teams頁面。 名稱也可以是 Bot 的名稱，例如通話佇列或雲端自動助理。 </li><li>**SIP 位址** 是使用者或接收或撥打來電的 Bot 的 SIP 位址。</li><li>**來電號碼** 是撥打該電話的使用者或 Bot 號碼。 </li><li>**通話者號碼** 是接到來電的使用者或 Bot 號碼。 在傳入來電給Teams使用者時，Teams使用者撥打的外Teams就會是 PSTN 使用者。 </li><li>**通話類型** 是通話是 PSTN 外寄或輸入通話，以及通話類型，例如使用者撥打的通話或音訊會議。 您可能會看到的通話類型包括：<br><br>**Teams使用者通話類型**<ul><li>**dr_in** - 使用者收到傳入 PSTN 通話</li><li>**dr_out** - 使用者撥打了外寄 PSTN 通話</li><li>**dr_out_user_conf** - 使用者在通話中新增 PSTN 參與者</li><li>**user_out_transfer** - 使用者將通話轉接到 PSTN 號碼</li><li>**dr_out_user_forwarding** - 使用者將通話轉往 PSTN 號碼</li><li>**dr_out_user_transfer** - 使用者將通話轉接到 PSTN 號碼</li><li>**dr_emergency_out** - 使用者撥打緊急電話</li><li>**dr_unassigned_in** - 透過直接路由到未指定號碼的傳入 PSTN 通話</li></ul><br>**Teams Bot 的通話類型**<ul><li>**dr_in_ucap** - 自動Teams或通話佇列等傳入 PSTN 通話</li><li>**dr_out_ucap** - 來自自動Teams或通話佇列等的外Teams PSTN 通話</li></ul><br><li>**呼叫者** 是接到來電的使用者號碼。</li><li>開始時間 **(UTC)** 是 SIP Proxy 在外寄通話 (Teams/Bot 上從 SBC 收到最後答案 (SIP 訊息 "200 確定") 給 PSTN 使用者) 的時間，或是 SIP Proxy 將邀請傳送至 Teams 後端內輸入呼叫 (PSTN 使用者至 Teams/Bot) 之後。 </li><li>邀請 **時間 (UTC)** 是初始邀請從 Teams 使用者或 Bot 通話傳送至 SBC 的外寄通話，或是從 SBC 直接路由的 SIP Proxy 元件在 Teams 或 bot 通話的輸入通話中收到邀請的時間。</li><li>**UTC (的)** 時間是通話失敗的時間。 僅適用于失敗的通話。 最終 SIP 程式碼、最終 Microsoft 子代碼和最終 SIP 片語提供通話失敗的原因，並有助於進行疑難排解。 </li><li>**UTC (結束時間)** 通話結束時間， (通話成功) 。</li><li>**持續時間** 是通話已連接多久，從邀請到通話結束或失敗。 針對呼叫轉轉，持續時間包括在通話佇列中響鈴。</li><li>**號碼類型** 是使用者的電話號碼類型，例如免付費號碼的服務。 </li><li>**媒體旁** 路會指出是否已啟用媒體旁路的主幹。 </li> <li>**SBC FQDN 是會話** 邊界控制器 (SBC) FQDN (FQDN) 。 </li><li>**Azure 媒體區域** 是在非旁路通話中做為媒體路徑的資料中心。 </li><li>**訊號的 Azure 區域** 是資料中心，用於旁路和非旁路通話的訊號。 </li><li>**事件種類** 是通話的事件種類。 您會看到成功的通話和嘗試失敗的通話。 </li><li>**最終 SIP 程式** 代碼是通話結束時使用的代碼。</li><li>**最終 Microsoft 副程式** 代碼是指出已發生特定動作的代碼。</li><li>**最終 SIP 詞** 組是 SIP 程式碼和 Microsoft 子代碼的描述。</li><li>**關聯識別碼** 是通話的唯一識別碼，您可以在撥打 Microsoft 支援服務時使用。</li><li>**共用關聯識別碼** 只會顯示在可下載的 CSV 檔案中，且不存在於入口網站中。 共用的關聯識別碼至少存在於兩個相關的通話中。 請參閱下方的詳細描述。</li></ul> 若要在表格中查看您想要的資訊，請務必新增欄至資料表。|
 |**5**   |選取 **編輯欄** 以新增或移除表格中的欄。 |
 |**6**   |選取 **全螢幕** 以全螢幕模式來查看報表。 |
 |**7**   |選取 **匯出Excel** 以在 CSV (CSV) 中下載資料，以離線分析，或使用它做為帳單系統的輸入。 |
@@ -147,7 +147,7 @@ CSV 的第一列包含欄名。 所有日期都是 UTC 和 [ISO 8601](https://en
 > | 6 | 開始時間 | `datetimeoffset` | SIP Proxy 從外寄 (Teams/Bot 上的 SBC 收到最後答案 (SIP 訊息 "200 確定") 給 PSTN 使用者) 的時間，或 SIP Teams Proxy 在輸入通話 (PSTN 使用者傳送邀請至 Teams/Bot) 後端內下一個躍點的時間。<br/>如果通話失敗或未接聽，這等於邀請或失敗時間 |
 > | 7 | 失敗時間 | `datetimeoffset` | 只有未完全 (通話失敗) 存在 |
 > | 8 | 結束時間 | `datetimeoffset` | 只有成功撥打 (電話) 存在。 通話結束時間 |
-> | 9 | 持續時間 (秒)  | `int` | 通話持續時間 |
+> | 9 | 持續時間 (秒)  | `int` | 通話持續時間，從邀請到通話結束或失敗。 針對呼叫轉轉，持續時間包括在通話佇列中響鈴。 |
 > | 10 | 成功 | `nvarchar(3)` | 是/否。 成功或嘗試 |
 > | 11 | 來電 | `nvarchar(32)` | 撥打此電話的使用者或 Bot 號碼。 在輸入到小組使用者通話時，它會是 PSTN 使用者，從 Teams 使用者撥打時，就會成為Teams號碼 |
 > | 12 | 通話者號碼 | `nvarchar(32)` | 收到通話的使用者或 Bot 號碼。 在輸入到小組使用者通話時，它會是Teams使用者，從Teams呼叫時，它會是 PSTN 使用者 |

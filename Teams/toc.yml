@@ -1325,16 +1325,16 @@ items:
                 href: rooms/rooms-deploy.md
               - name: 設定帳戶
                 href: rooms/rooms-configure-accounts.md
-              - name: 使用 Office 365
+              - name: Surface Hub
+                items:
+                  - name: 設定協調會議
+                    href: rooms/coordinated-meetings.md
+                  - name: 管理 Microsoft Teams 設定
+                    href: rooms/surface-hub-manage-config.md
+              - name: 建立資源帳戶
                 href: rooms/with-office-365.md
               - name: 使用商務用 Skype Server
                 href: rooms/with-skype-for-business-server-2015.md
-              - name: 使用 Exchange Online (混合式)
-                href: rooms/with-exchange-online.md
-              - name: 使用 Exchange 內部部署 (混合式)
-                href: rooms/with-exchange-on-premises.md
-              - name: 在 Android 上部署 Microsoft Teams 會議室
-                href: devices/collab-bar-deploy.md
               - name: 設定主控台
                 href: rooms/console.md
               - name: 手動更新裝置
@@ -1785,8 +1785,6 @@ items:
         items:
           - name: Microsoft 365 群組與 Teams
             href: office-365-groups.md
-          - name: 使用 Microsoft 365 系統管理中心建立 Microsoft 365 資源帳戶
-            href: devices/resource-account-ui.md
           - name: 使用 Teams 加強現有的 Microsoft 365 群組
             href: enhance-office-365-groups.md
           - name: Exchange 和 Teams 如何互動

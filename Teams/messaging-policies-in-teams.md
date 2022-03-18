@@ -1,5 +1,5 @@
 ---
-title: 管理 Teams 中的訊息傳遞原則
+title: 管理 Teams 中的訊息原則
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -20,14 +20,14 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解傳訊政策，以及如何在聊天訊息中控制聊天Teams。
-ms.openlocfilehash: b2163e780706a17b7793f8451b1bdb85a1830b2b
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 968e79952381b04f5165f285807cfe3a07237307
+ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205263"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63564765"
 ---
-# <a name="manage-messaging-policies-in-teams"></a>管理 Teams 中的訊息傳遞原則
+# <a name="manage-messaging-policies-in-teams"></a>管理 Teams 中的訊息原則
 
 <!--- Add zone marker here--->
 
@@ -75,12 +75,12 @@ ms.locfileid: "61205263"
 
 以下是您可以設定的訊息原則設定。
 
-- **擁有者可以刪除已送出的郵件**  使用此設定，讓擁有者刪除使用者在聊天中送出的郵件。
+- **擁有者可以刪除已送出的郵件**  使用此設定，讓擁有者刪除使用者所寄的頻道訊息或文章。
 - **刪除已送出的郵件** 使用此設定可讓使用者刪除他們在聊天中送出的郵件。
 - **編輯已送出的郵件** 使用此設定可讓使用者編輯他們在聊天中送出的郵件。
 - **已讀回條** 讀取回條允許當收件者以 1：1 讀取其訊息，以及群組聊天 20 人以下時，通知聊天訊息的寄件者。 郵件讀信回條會不確定地移除郵件是否已讀取，並改善小組溝通。 電子資料探索報告不會捕獲已讀回條。  
     - **使用者控制** 這表示使用者可以決定是否要讀取回條為 ON 或 OFF。 應用程式中的預設設定為 ON。 使用者接著可以將其關閉。
-    - **已針對所有人開啟** 這表示租使用者中的每個人都會擁有開啟功能，沒有關閉功能的選項。 使用適用于所有人的 On 設定時，為整個租使用者設定回條的唯一方法，就是只為整個租使用者設定一個訊息策略 (稱為「全域 (全組織預設) 」) 或讓租使用者中所有訊息原則都使用相同的接收設定。 當此功能對 [針對每個人開啟 **]** 啟用時，讀信回條功能最為有效。
+    - **已針對所有人開啟** 這表示租使用者中的每個人都會擁有開啟功能，沒有關閉功能的選項。 使用適用于所有人的 On 設定時，為整個租使用者設定回條的唯一方法，就是為整個租使用者設定一個訊息策略 (稱為「全域 (全組織預設) 」) ，或是讓租使用者中所有的訊息策略都使用相同的接收設定。 當此功能對 [針對每個人開啟 **]** 啟用時，讀信回條功能最為有效。
     - **已針對所有人關閉** 這表示此功能已停用，而且租使用者中沒有人已讀取回條，也無法開啟。
 <a name="bkchat"> </a>
 

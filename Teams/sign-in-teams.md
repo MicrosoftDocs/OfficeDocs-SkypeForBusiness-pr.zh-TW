@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 716a18efda2c2c7f55adf68314dae4b1e07e387b
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: a00561f10e78a18acc146df4ed8a76b103c937c9
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537054"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514564"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>登入 Microsoft Teams
 
@@ -92,7 +92,7 @@ iOS 和 Android 版 Teams 提供 IT 系統管理員將帳戶設定推入 Microso
 
 對於已註冊 Microsoft Intune 的使用者，可以在 Azure 入口網站中使用 Intune 部署帳戶組態設定。
 
-當 MDM 提供者設定好帳戶組態設定且使用者註冊其裝置之後，iOS 和 Android 版 Teams 在 Teams 登入頁面上將只會顯示允許的帳戶。 使用者可以點選此頁面中任何允許的帳戶以登入。
+當 MDM 提供者設定好帳戶組態設定且使用者註冊其裝置之後，iOS 和 Android 版 Teams 在 Teams 登入頁面上將只會顯示允許的帳戶。使用者可以點擊此頁面中任何允許的帳戶以登入。
 
 在受管理的裝置的 Azure Intune 入口網站中設定下列設定參數。
 
@@ -139,7 +139,7 @@ Windows 和 macOS 上的 Teams 應用程式可支援限制登入組織的裝置�
 
 ### <a name="global-sign-in"></a>全域登入
 
-Teams Android 應用程式現在支援全域登入，為第一線員工提供輕鬆便利的登入體驗。 員工可以從共用裝置集區中挑選一部裝置，並執行單一登入，以在其班次期間將之作為自己的裝置。 在班次結束時，他們應該能夠執行登出，以便在裝置上全域登出。 請參閱[登出 Teams](sign-out-of-teams.md) 以深入了解。 這會自裝置移除其個人與公司資訊，他們便能將裝置歸還回裝置集區。 若要取得這項功能，裝置必須處於共用模式。 若要瞭解如何設定共用裝置，請參閱 [如何在 Android 上使用共用裝置模式](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
+Teams Android 應用程式現在支援全域登入，為第一線員工提供輕鬆便利的登入體驗。 員工可以從共用裝置集區中挑選一部裝置，並執行單一登入，以在其班次期間將之作為自己的裝置。 在班次結束時，他們應該能夠執行登出，以便在裝置上全域登出。 請參閱[登出 Teams](sign-out-of-teams.md) 以深入了解。 這會自裝置移除其個人與公司資訊，他們便能將裝置歸還裝置集區。 若要取得這項功能，裝置必須處於共用模式。 在登出之前，請務必在裝置上結束任何作用中的會議或通話。若要了解如何設定共用裝置，請參閱[如何在 Android 上使用共用裝置模式](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
 
 登入體驗看起來類似我們的標準 Teams 登入體驗。
 

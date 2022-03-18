@@ -12,13 +12,18 @@ description: 瞭解如何登出 Microsoft Teams。
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: b453295c02ef371c06c3adea4c2c8489c0a58468
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514708"
 ---
-
 # <a name="sign-out-of-microsoft-teams"></a>登出 Microsoft Teams
 
 我們建議使用者保持 Microsoft Teams 應用程式的登入狀態，以繼續接收聊天、來電及其他活動。 我們瞭解，有時使用者可能會因為數個原因而想要登出 Teams 應用程式:
@@ -49,7 +54,7 @@ SSO 對登出有重要影響。當使用者登出 Teams 時，與其帳戶相關
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>適用於前線工作者的全域登入和登出
 
-Teams Android 應用程式現在支援全域登入和登出，為前線員工提供輕鬆便利的登入和登出體驗。 員工可以從共用裝置集區中挑選一部裝置，並執行單一登入，以在其輪班期間「讓它成為自己的裝置」。 在班次結束時，他們應該能夠執行登出，以便在裝置上全域登出。 這會自裝置移除其個人與公司資訊，他們便能將裝置歸還裝置集區。 若要取得這項功能，裝置必須處於共用模式。 若要瞭解如何設定共用裝置，請參閱 [如何在 Android 上使用共用裝置模式](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
+Teams Android 應用程式現在支援全域登入和登出，為前線員工提供輕鬆便利的登入和登出體驗。 員工可以從共用裝置集區中挑選一部裝置，並執行單一登入，以在其輪班期間「讓它成為自己的裝置」。 在班次結束時，他們應該能夠執行登出，以便在裝置上全域登出。 這會自裝置移除其個人與公司資訊，他們便能將裝置歸還裝置集區。 若要取得這項功能，裝置必須處於共用模式。  在登出之前，請務必在裝置上結束任何作用中的會議或通話。若要了解如何設定共用裝置，請參閱[如何在 Android 上使用共用裝置模式](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode)。
 
 ## <a name="manual-cleanup"></a>手動清除
 

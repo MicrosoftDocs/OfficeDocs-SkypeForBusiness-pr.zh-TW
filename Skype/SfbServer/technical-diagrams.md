@@ -1,23 +1,28 @@
 ---
 title: 商務用 Skype Server 2015 的海報 |語音 PSTN
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
-ms.topic: hub-page
+ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - IT_Skype16
-  - Strat_SB_Admin
-ms.custom: null
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: 摘要：在規劃、實施或管理商務用 Skype Server 時，視需要複查這些海報。
+ms.openlocfilehash: 6d11b9c5cb6eac40d3794af3b0ba3fcd4cfedc74
+ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63564755"
 ---
-
 # <a name="technical-diagrams-for-skype-for-business-server"></a>商務用 Skype Server 的技術圖表
 
 **總結：** 在規劃、實施或管理商務用 Skype Server 時，視需要複查這些海報。

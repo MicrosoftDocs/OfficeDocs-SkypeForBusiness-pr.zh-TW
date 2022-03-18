@@ -19,16 +19,19 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: 本文將說明來賓Microsoft Teams使用的功能。
-ms.openlocfilehash: 5d8bb9ab670da0a4002f69cf5ddec9f245cd9c13
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: c7052eb22a68b146c3ee998b57ba877da82e11b4
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190686"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556629"
 ---
 # <a name="guest-experience-in-teams"></a>來賓在 Teams
 
-當來賓受邀加入團隊時，他們會收到歡迎電子郵件訊息。 此訊息包含團隊的一些相關資訊，以及他們成為成員後預期的結果。 來賓必須先選取電子郵件訊息中的 Microsoft Teams **，才能** 存取團隊及其頻道，以接受邀請。
+當來賓受邀加入團隊時，他們會收到歡迎電子郵件訊息。 此訊息包含團隊的一些相關資訊，以及他們成為成員後預期的結果。 來賓必須先選取電子郵件訊息中的 **Microsoft Teams，才能** 存取團隊及其頻道，以接受邀請。
+
+> [!NOTE]
+> 將來賓新加入團隊後，可能需要數小時才能存取。
     
 ![顯示歡迎電子郵件訊息範例的螢幕擷取畫面。](media/guest-experience-image1.png)
     
@@ -36,7 +39,7 @@ ms.locfileid: "62190686"
 
 ![顯示標記的螢幕擷取畫面，指出團隊中的來賓人數。](media/guest-experience-image2.png)
 
-請觀看以下有關來賓體驗的影片，Teams：
+請觀看以下影片，瞭解以下Teams：
 - [以來賓Teams加入會議](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
 - [在會議與外部來賓Teams合作](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
 
@@ -87,11 +90,11 @@ ms.locfileid: "62190686"
 | 可以立即轉呼叫 | 否 | 否 | 是 |
 | 可以同時撥打他們的電話 | 否 | 否 | 是 |
 | 可以路由未接聽的通話 | 否 | 否 | 是 |
-| 未接來電可以進入語音信箱 | 否 | 否<sup>1</sup> |是 |
+| 未接來電可以進入語音信箱 | 否 | <sup>No1</sup> |是 |
 | 有可以接聽電話的電話號碼 | 否 | 否 | 是 |
 | 可以撥打電話號碼 | 否 | 否 | 是 |
 | 可以存取通話設定 | 否 | 否 | 是 |
-| 可以變更語音信箱問候語 | 否 | 否<sup>1</sup> | 是 |
+| 可以變更語音信箱問候語 | 否 | <sup>No1</sup> | 是 |
 | 可以變更鈴聲 | 否 | 否  | 是 |
 | 支援 TTY | 否 | 否 | 是 |
 | 可以有代理人 | 否 | 否 | 是 |

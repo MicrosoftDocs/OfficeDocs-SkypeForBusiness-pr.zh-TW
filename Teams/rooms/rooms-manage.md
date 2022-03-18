@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解如何開發和執行持續維護與作業，以確保您的Microsoft Teams 會議室系統可供使用者使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 82725093e67b0f7619ea97837b53fd841b965146
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 12738e544e8bf0f2e46979df0a1d64ea762bfa1f
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504100"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556639"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 會議室
 
@@ -117,7 +117,7 @@ ms.locfileid: "63504100"
 
 | Teams裝置 | 應用程式版本 | 會議室顯示器的前方 |
 |--------------|-------------|-----------------------|
-|Microsoft Teams 會議室上Windows | 4.11.12.0 (建議使用最新版本)  | 支援單一和雙顯示器;最小大小：46 吋;解析度為 1920*1080 的長寬比為 16：9，解析度為 2560x1080 的長寬比為 21：9;所有顯示應設定為 100% 縮放比例，Windows設定 |
+|Microsoft Teams 會議室上Windows | 4.11.12.0 (建議使用最新版本)  | 支援單一和雙顯示器;最小大小：46 吋;16：9 與 1920x1080 解析度或 21：9 與 2560x1080 解析度;所有顯示應設定為 100% 縮放比例，Windows設定 |
 
 請參閱[Microsoft Teams 會議室](rooms-operations.md#change-scale-and-resolution)及作業，以調整您的顯示設定，以滿足前列的需求。
 
