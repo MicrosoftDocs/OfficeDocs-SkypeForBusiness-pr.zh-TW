@@ -1,7 +1,7 @@
 ---
-title: 快速入門 - 會議、網路研討會與即時活動
+title: 會議、網路研討會與即時活動
 ms.reviewer: ''
-description: 適用於系統管理員的快速入門指南，以在 Microsoft Teams 中推出和設定會議、網路研討會和即時事件。
+description: 系統管理員推出在 Microsoft Teams 中設定會議、網路研討會和即時事活動的指南。
 ms.topic: article
 author: CarolynRowe
 ms.author: crowe
@@ -20,29 +20,29 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ed6abe00ac67b6029fdb72178ad09e21ec58e80d
-ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
+ms.openlocfilehash: ffd0ad9f9b765839a4543dd8600b558000fa164f
+ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/26/2022
-ms.locfileid: "62974450"
+ms.lasthandoff: 03/18/2022
+ms.locfileid: "63564735"
 ---
-# <a name="quick-start---meetings-webinars-and-live-events"></a>快速入門 - 會議、網路研討會與即時活動 
+# <a name="meetings-webinars-and-live-events"></a>會議、網路研討會與即時活動 
 
 Microsoft Teams 有多種開會方式 - 會議、網路研討會和即時活動。 
 
-本文適用於系統管理員和 IT 專業人員，簡要說明會議、網路研討會和即時活動之間的差異。 然後它會提供您快速為使用者推出此功能所需的資訊連結。
+本文適用於系統管理員和 IT 專業人員，說明會議、網路研討會和即時活動之間的差異。 然後它會提供您快速為使用者推出此功能所需的資訊連結。
 
 > [!Note]
 > 如需有關快速設定不同平台上 Teams 會議和活動的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
-## <a name="meetings-webinars-and-live-events"></a>會議、網路研討會與即時活動
 
-[會議](#meetings)、[網路研討會](#webinars)和[即時活動](#live-events)都是所有類型的會議，但網路研討會和即時活動可為會議召集人提供對交談和參與者的額外控制。 網路研討會提供雙向互動，而即時活動則提供受管理的問與答體驗。 
+[會議](#meetings)、[網路研討會](#webinars) 和 [即時活動](#live-events) 為各種類型的會議，但網路研討會和即時活動可為會議召集人提供對交談和參與者的額外控制。網路研討會提供雙向互動，而即時活動則提供受管理的問與答體驗。 
 
 不同類型的會議也有不同的參與者限制和參與者功能。 
 
-下表簡要摘要說明三種會議類型、建議的參與者數目，以及參與者如何在會議中互動。如需每種類型會議的詳細資訊，請參閱下表。 <br><br>
+下表摘要說明三種會議類型、建議的參與者數目，以及參與者如何在會議中互動。 有關每種會議類型的詳細資訊章節，請參閱下列表格。 本文也包含有關 [大型會議的最佳作法](#best-practices-for-large-meetings) 一節。
+<br><br>
 
 | 會議類型 | 參與者的數量 | 互動 | 支援註冊 |
 |----------|--------|--------|-----|
@@ -55,20 +55,9 @@ Microsoft Teams 有多種開會方式 - 會議、網路研討會和即時活動�
 
 **到 2022 年 6 月 30 日，由一般的 10,000 位增加到 20,000 位。 您可以在 Yammer 和/或 Microsoft Stream 中排程更多即時活動。 如需詳細資訊，請參閱[跨 Microsoft 365 的即時活動](/stream/live-event-m365)。 請注意，超過 20,000 位出席者需要[即時活動協助計畫](/stream/live-events-assistance)。 
 
-**大型會議、網路研討會和即時活動的考慮事項** - 主持大型會議時，請考慮下列事項：
+請注意，會議、網路研討會和即時活動中完全支援 NDI，讓您使用 OBS 和 Wirecast 等工具產生廣播。如需詳細資訊，請參閱 [在Microsoft Teams 中使用 NDI® 技術](use-ndi-in-meetings.md)。
 
-- 若要在大型會議、網路研討會和即時活動中獲得最佳體驗，Microsoft 建議使用最新版的 Teams 桌面用戶端或 Teams 行動裝置用戶端。 
-
-- 大型會議、網路研討會和即時活動中的簡報者應該使用 Teams 桌面用戶端。 
-
-- 如需主持大型會議的更多秘訣，請參閱[大型 Teams 會議的最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
-
-有關僅供檢視會議體驗的資訊，請參閱 [Teams 僅供檢視會議體驗](view-only-meeting-experience.md)。
-
-請注意，會議、網路研討會和即時活動中完全支援 NDI，讓您使用 OBS 和 Wirecast 等工具產生廣播。 如需詳細資訊，請參閱[在Microsoft Teams 中使用 NDI® 技術](use-ndi-in-meetings.md)。
-
-
-### <a name="meetings"></a>會議
+## <a name="meetings"></a>會議
 
 Teams 中的 **會議** 包括音訊、視訊，且螢幕畫面分享人數最多可達 1,000 人，以及最多 1,000 位參與者的 [僅供檢視](view-only-meeting-experience.md)功能。 參與者不需要具備組織的成員資格 (或擁有 Teams 帳戶) 就能加入 Teams 會議。 他們可以透過加入會議連結直接從行事曆邀請加入，或透過音訊通話 (如果有)。  
 
@@ -76,7 +65,9 @@ Teams 中的 **會議** 包括音訊、視訊，且螢幕畫面分享人數最�
 
 除了定期排程的會議，您的使用者可以建立頻道會議。 使用頻道會議，小組中的每個人都可以看到會議、加入會議，以及使用會議聊天。 頻道會議是一種快速邀請小組中所有人員參加會議的方式。 如需使用者如何排定會議的相關資訊，請參閱[排程會議](https://support.microsoft.com/office/schedule-a-meeting-in-teams-943507a9-8583-4c58-b5d2-8ec8265e04e5)。
 
-#### <a name="articles-for-administrators"></a>針對系統管理員的文章
+有關僅供檢視會議體驗的資訊，請參閱 [Teams 僅供檢視會議體驗](view-only-meeting-experience.md)。
+
+### <a name="articles-for-administrators"></a>針對系統管理員的文章
 
 下表重點說明您想要檢閱的重要文章：
 
@@ -89,7 +80,7 @@ Teams 中的 **會議** 包括音訊、視訊，且螢幕畫面分享人數最�
 | [使用即時遙測來疑難排解會議品質不佳的問題](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | 描述如何使用 Real-Time 分析 (RTA) 疑難排解個別使用者 Microsoft Teams 會議品質不佳的問題。 
 |||
 
-#### <a name="key-training-for-end-users"></a>針對終端使用者的重要訓練
+### <a name="key-training-for-end-users"></a>針對終端使用者的重要訓練
 
 下表列出可供貴組織使用者使用的訓練：
 
@@ -102,12 +93,12 @@ Teams 中的 **會議** 包括音訊、視訊，且螢幕畫面分享人數最�
 ||
 
 
-### <a name="webinars"></a>網路研討會
+## <a name="webinars"></a>網路研討會
 
 **網路研討會** 是結構化會議，其中簡報者和參與者具有清楚的角色。 網路研討會與 Teams 會議的主要差異在於網路研討會支援註冊並提供出席者參與資料。 若要在組織中啟用網路研討會，請參閱[在 Teams 中設定網路研討會](set-up-webinars.md)。 
 
 
-#### <a name="key-training-for-end-users"></a>針對終端使用者的重要訓練
+### <a name="key-training-for-end-users"></a>針對終端使用者的重要訓練
 
 下表列出可供貴組織使用者使用的訓練：
 
@@ -118,11 +109,11 @@ Teams 中的 **會議** 包括音訊、視訊，且螢幕畫面分享人數最�
 ||
 
 
-### <a name="live-events"></a>即時活動
+## <a name="live-events"></a>即時活動
 
 **即時活動** 是結構化的會議，可讓貴組織排程並產生活動，向大量線上觀眾串流播放，&mdash;最多可讓 20,000 人參與。 使用即時活動時，觀眾互動是受管理的問與答體驗。
 
-#### <a name="articles-for-administrators"></a>針對系統管理員的文章
+### <a name="articles-for-administrators"></a>針對系統管理員的文章
 
 下表重點說明您想要檢閱的重要文章：
 
@@ -134,7 +125,7 @@ Teams 中的 **會議** 包括音訊、視訊，且螢幕畫面分享人數最�
 | [設定即時活動](teams-live-events/configure-teams-live-events.md) | 設定即時活動的步驟。
 ||
 
-#### <a name="key-training-for-end-users"></a>針對終端使用者的重要訓練
+### <a name="key-training-for-end-users"></a>針對終端使用者的重要訓練
 
 下表列出可供貴組織使用者使用的訓練：
 
@@ -163,11 +154,64 @@ Microsoft 讓您能夠透過整合和使用會議應用程式來增強會議體�
 
 ## <a name="license-requirements-for-meetings-webinars-and-live-events"></a>會議、網路研討會和即時活動的授權需求
 
-任何人都可以免費參加 Teams 會議、網路研討會或即時活動，&mdash;不需要授權。 
+任何人都可以免費參加 Teams 會議、網路研討會或即時活動，&mdash;不需要任何授權。 
 
 對於召集、排程和舉辦會議、網路研討會或即時活動的人員，這些人員需要 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)中所列的 Microsoft 365 授權之一。 如果您已經在使用 Teams，您可能已經擁有召集和舉辦會議、網路研討會和即時活動所需的授權。
 
 若要允許人員使用電話撥入會議，您必須設定音訊會議。 如需音訊會議的詳細資訊，請參閱 [Teams 中的音訊會議](deploy-audio-conferencing-teams-landing-page.md)。
+
+## <a name="best-practices-for-large-meetings"></a>大型會議的最佳做法
+
+本節提供系統管理員指南，以及系統管理員可以與簡報者和召集人分享的秘訣。
+
+若要成功舉辦活動，請遵循以下所列的做法：
+
+- 若要在大型會議、網路研討會和即時活動中獲得最佳體驗，Microsoft 建議使用最新版的 Teams 桌面用戶端或 Teams 行動裝置用戶端。 
+
+- 確保內部部署和遠端使用者都遵循所有 Microsoft [網路連線原則](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)。
+- 使用 [即時資料遙測](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-real-time-call-quality-analytics/ba-p/2912146) 來監控活動並找出任何可能的問題及其來源。
+  - 指定會議監視器以 [分析](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) 使用者因計量超過閥值而導致面臨體驗不佳的遙測。
+  - 將會議監視器設定為簡報者，以停用惡意視音訊流、將意外的即時麥克風設為靜音，並視需要移除出席者。
+
+### <a name="guidelines-for-your-end-users"></a>使用者指導方針
+
+您的召集人和簡報者應執行下列建議：
+
+- 若要建立順暢的會議，活動召集人可以設定預先定義的簡報者。 會議開始之後，簡報者也可以將其他出席者升級為簡報者角色。
+
+- 透過會議選項定義共同召集人 (公開預覽) 
+
+- 預先設定影片和麥克風設定，以控制出席者的體驗。
+  - 停用出席者麥克風以避免干擾。 如果有人需要在會議期間互動，請允許他們在舉手時取消靜音。
+  - 停用出席者影片，以避免視覺干擾。 在會議的適當時間，所有出席者或特定人員都可以觀看影片。
+
+- 在會議期間使用 [問與答]。
+
+- 使用大廳控制項以控制會議進入或大廳保留。
+
+- 執行 [Microsoft 365 網路連線測試](https://connectivity.office.com/)，以在在事件發生的前幾天及之後，驗證網路適用性。
+
+- 如果從家裡進行簡報，請確認其他裝置並未使用高頻寬 (串流服務、線上遊戲、大量下載)。
+
+- 使用有線連接從端點進行簡報，以進行更可靠的音訊、影片和螢幕分享。
+
+- 確保使用者在傳統型應用程式或行動裝置上使用最新的 Teams 應用程式。
+
+- 使用膝上型電腦時，請檢查是否擁有高網路連線能力和足夠的電力。
+
+- 在活動之前排程幹執行，以識別裝置、光源或網路問題。 這也會確保召集人/簡報者熟悉他們將會使用的功能。
+  - 如果發生問題，排程其他練習執行，以確保補救工作成功。
+  
+- 利用精選、PowerPoint Live、會議錄製、即時輔助字幕和文字記錄等功能，提升參與度和效率。
+
+- 簡報者和參與者應該使用 Teams 傳統型應用程式來提供最佳體驗。
+
+- 參與者應在大型會議期間關閉聊天通知，以避免分心。
+
+- 如需主持大型會議的更多秘訣，請參閱[大型 Teams 會議的最佳做法](https://support.microsoft.com/office/best-practices-for-a-large-teams-meeting-ce2cdb9a-0546-43a4-bb55-34ab98ab6b16)。
+
+
+
 
 
 ## <a name="related-topics"></a>相關主題

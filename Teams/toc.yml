@@ -1539,7 +1539,7 @@ items:
             href: non-standard-users.md
           - name: 更新應用程式體驗
             href: apps-update-experience.md
-          - name: 管理 Microsoft 365 對協力廠商 Teams 應用程式的存取權
+          - name: 管理整個 Microsoft 365 對 Teams 應用程式的存取權
             href: manage-third-party-teams-apps.md
   - name: 產業和政府指引
     items:

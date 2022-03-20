@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: 瞭解 Microsoft 如何支援可分派位置資訊以支援緊急電話。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7d241cee858d3ac19747be56b5a53e157b563f64
-ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
+ms.openlocfilehash: d80854fc36e6914ba48e8993d298c75b136bd06f
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61322996"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660708"
 ---
 # <a name="emergency-addresses-for-remote-locations"></a>遠端位置的緊急位址
 
-本文將說明 Microsoft 支援美國 911 緊急電話位置資訊。 此支援可確保針對撥打緊急電話的使用者，提供Teams最精確的可分派位置資訊。 無論來電者的位置 ，無論是現場或在家中工作，來電者的位置資訊必須正確 (PSAP) 。
+本文將說明 Microsoft 支援美國 911 緊急電話位置資訊。 此支援可確保為撥打緊急電話的使用者Teams最精確的可分派位置資訊。 無論來電者的位置 ，無論是現場或在家中工作，來電者的位置資訊必須正確無誤， (PSAP) 位置資訊。
 
-本文包含 Microsoft 遵守 RAY BAUM 多線電話系統與 MLTS (法規) 。 RAY BAUM 的法令延伸了 Kari 的法律需求，于 2021 年初生效。 有關 RAY BAUM 法和 Kari 法律的資訊，請參閱 [911](https://www.fcc.gov/911-dispatchable-location) 通話和多線電話系統的可分派位置 - Kari 的法規和 RAY BAUM 的 [911](https://www.fcc.gov/mlts-911-requirements)法案直接撥號、通知和可分派位置需求。 
+本文包含 Microsoft 遵守 RAY BAUM 多線電話系統與 MLTS (法規) 。 RAY BAUM 的法令延伸了 Kari 的法律需求，于 2021 年初生效。 有關 RAY BAUM 法和 Kari 法律的資訊，請參閱 [911](https://www.fcc.gov/911-dispatchable-location) 通話和多線電話系統的可分派位置 [- Kari 的法規和 RAY BAUM 的 Act 911](https://www.fcc.gov/mlts-911-requirements)直接撥號、通知和可分派位置需求。 
 
 在家工作的使用者現在可以設定自己的緊急位址 ，如果適用的話。 本文將說明如何設定使用者政策，讓使用者能夠設定其緊急位址。
 
@@ -55,7 +55,7 @@ ms.locfileid: "61322996"
 
 1. 由租使用者在位置資訊服務中定義的動態取得位址。
 
-2. 使用者確認、編輯或手動輸入的位址，與用戶端所連接的Teams網路相關聯。
+2. 使用者確認、編輯或手動輸入的位址，該位址與用戶端Teams網路相關聯。
 
 3. 作業系統自動建議的位址。
 
@@ -80,7 +80,7 @@ ms.locfileid: "61322996"
 
 ## <a name="enable-end-users-to-configure-their-emergency-address"></a>啟用使用者設定其緊急位址
 
-若要為使用者啟用這項功能，請使用 powerShell Cmdlet New-CsTeamsEmergencyCallingPolicy，將 ExternalLocationLookupMode 參數設為啟用。 請參閱下列範例： 
+若要為使用者啟用這項功能，請使用 powerShell Cmdlet New-CsTeamsEmergencyCallingPolicy，並設定 ExternalLocationLookupMode 參數為啟用。 請參閱下列範例： 
 
 
 ``` PowerShell
@@ -91,11 +91,11 @@ New-CsTeamsEmergencyCallingPolicy -Identity E911WFH -ExternalLocationLookupMode 
 Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.com
 ```
 
-為使用者啟用這項功能後，使用者可以在設定好緊急位址後，從通話標籤新增、編輯或確認緊急位址並顯示位址。 
+為使用者啟用這項功能後，使用者可以在設定好緊急位址後，從通話標籤新增、編輯或確認緊急位址並顯示位址。 若要進一步瞭解使用者如何設定位置服務，請參閱從家用緊急電話 [911 工作：啟用位置服務](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live)。
 
-在 Windows，您可以使用群組原則，或使用行動裝置管理或 MDM Windows 管理 ，管理 Windows (位置服務，以及應用程式是否可存取[) 。](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation)
+在 Windows，您可以使用群組原則或使用行動裝置管理 (MDM) 管理 Windows 位置服務，以及應用程式是否具有位置[的存取權](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation)。
 
-有關位置服務Windows，請參閱Windows[服務和隱私權。](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088)
+有關位置服務Windows，請參閱Windows[服務和隱私權](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088)。
 
 
 
@@ -103,7 +103,7 @@ Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.c
 
 請記住下列事項：
 
-- 描述的在家工作體驗適用于Teams Mac Windows桌面。
+- 描述的在家工作體驗適用于 Teams 和 Mac Windows桌面。
 
 - Teams手機不支援在家工作的體驗。
 
@@ -114,5 +114,7 @@ Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.c
 
 ## <a name="related-topics"></a>相關主題
 
-[管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)
+- [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)
+
+- [從家用緊急電話 911 工作：啟用位置服務](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live)
 

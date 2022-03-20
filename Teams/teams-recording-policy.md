@@ -1,5 +1,5 @@
 ---
-title: 會議Teams以策略為基礎的錄製&簡介
+title: 會議Teams使用策略式錄製&簡介
 author: cabailey
 ms.author: cabailey
 manager: laurawi
@@ -21,22 +21,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dc3b2d12295d13de0b5626475891100f7879bd7
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 98c05106ef5d9446d1cf591126eb3cffcb7e8bff
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279251"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660578"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>會議Teams通話以策略為基礎的錄製&簡介
 
-以策略為基礎的錄製可讓採用 Microsoft Teams 進行通話和會議的組織，使用系統管理政策，自動錄製和捕獲通話和線上會議，以按照相關公司或法規政策的要求進行後續處理和保留。
+以策略為基礎的錄製可讓採用 Microsoft Teams 進行通話和會議的組織使用系統管理政策，自動錄製和捕獲通話和線上會議，以按照相關公司或法規政策的要求進行後續處理和保留。
 
-Teams功能已增強，可支援整合協力廠商錄製解決方案，包括平臺功能、使用者體驗，以及提供端對端解決方案所需的系統管理介面，以用於配置、管理、錄製、儲存及分析 Teams 通訊。 增強功能包括通訊平臺 API 和錄製事件，提供：
+Teams功能已增強，可支援整合協力廠商錄製解決方案，包括平臺功能、使用者體驗，以及提供端對端解決方案所需的系統管理介面，以便針對 Teams 通訊進行配置、管理、錄製、儲存及分析。 增強功能包括通訊平臺 API 和錄製事件，提供：
 
 - 跨裝置及所有支援的音訊、視像、螢幕分享和聊天端點，順暢、高品質的媒體捕獲。
 
-- 支援使用者與支援Teams、行動 (Teams、Teams、PSTN 商務用 Skype通話端點之間的) 
+- 支援使用者與支援Teams、 (Teams、Teams、PSTN 商務用 Skype通話端點之間的) 
 
 - 合規性錄製的新系統管理政策，包括與現有的Teams系統管理通話和會議工具與政策整合
 
@@ -84,7 +84,7 @@ Teams提供各種功能，方便且實用的錄製會議和[](./cloud-recording.
 <tr class="even">
 <td>通訊系統管理員</td>
 <td><ul>
-<li><p>瞭解為何以及如何將錄製原則Teams使用者/端點。</p></li>
+<li><p>瞭解為什麼以及如何將錄製原則Teams使用者/端點。</p></li>
 <li><p>為組織設定Teams記錄策略。</p></li>
 <li><p>監控和疑難排解通話和Teams錄製相關問題。</p></li>
 <li><p>使用使用方式、品質和可靠性的營運分析，支援內部合規性人員。</p></li>
@@ -93,7 +93,7 @@ Teams提供各種功能，方便且實用的錄製會議和[](./cloud-recording.
 <tr class="odd">
 <td>合規性專員</td>
 <td><ul>
-<li><p>以Teams地區邊界之合規性義務的方式收集所有通訊。</p></li>
+<li><p>以Teams地區邊界中符合合規性義務的方式收集所有通訊。</p></li>
 <li><p>根據與通訊相關的中繼資料或互動內容搜尋互動。 常見的範例包括：</p>
 <ul>
 <li><p><strong>元</strong> - 參與者、時間、方向、撥號號碼、起始號碼、自訂商務資料</p></li>
@@ -108,10 +108,10 @@ Teams提供各種功能，方便且實用的錄製會議和[](./cloud-recording.
 
 ## <a name="solution-architecture-overview"></a>解決方案架構概觀
 
-合規性錄製解決方案會與Teams整合，如下圖所示：
+合規性錄製解決方案已與Teams整合，如下圖所示：
 
 > [!div class="mx-imgBorder"]
-> ![顯示小組自訂應用程式設定之螢幕擷取畫面。](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "影像顯示當Teams或來電時流程。")
+> ![顯示小組自訂應用程式設定之螢幕擷取畫面。](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "影像顯示當會議或Teams時流程。")
 
 > [!NOTE]
 > 此解決方案是專為啟用以策略為基礎的合規性錄製與Teams。 此解決方案的其他用途將不受支援。
@@ -215,7 +215,7 @@ IT 系統管理員可以建立和指派合規性錄製政策，決定要錄製�
 
 ## <a name="compliance-recording-for-teams-certification-programs"></a>認證計畫Teams合規性錄製
 
-除了發佈公開可用的 API，讓合作夥伴能夠開發和整合 CCaaS 解決方案與 Teams 之外，我們還針對 Microsoft Teams 認證計畫開發合規性記錄，為客戶提供保證，確保每個參與合作夥伴的解決方案都經過測試與驗證，以提供他們預期從 Microsoft 解決方案獲得的品質、相容性和可靠性。  
+除了發佈公開可用的 API，讓合作夥伴能夠開發和整合 CCaaS 解決方案與 Teams 之外，我們還為 Microsoft Teams 認證計畫開發合規性記錄，為客戶提供保證，確保每個參與合作夥伴的解決方案都經過測試與驗證，以提供他們預期從 Microsoft 解決方案獲得的品質、相容性和可靠性。  
 
 下列合作夥伴已認證其適用于Microsoft Teams。<br/><br/>
 
@@ -231,6 +231,7 @@ IT 系統管理員可以建立和指派合規性錄製政策，決定要錄製�
 |紅色方塊 |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Theta Lake |[https://thetalake.com/integrations/microsoft/](https://thetalake.com/integrations/microsoft/) |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
+|奧克創新 |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
 
 <br/>
 下列合作夥伴正在認證其解決方案Microsoft Teams。<br/><br/>
@@ -239,7 +240,7 @@ IT 系統管理員可以建立和指派合規性錄製政策，決定要錄製�
 |:--|:--|
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
-|奧克創新 |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
+
 
 隨著更多合作夥伴加入並符合認證準則，這份清單將會更新。
 

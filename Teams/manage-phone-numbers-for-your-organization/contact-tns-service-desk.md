@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 當您取得電話號碼或 (移) ，您可能需要在 TNS 服務台取得協助和支援。
-ms.openlocfilehash: c32a6ed98cc54d04783025eacd03cb178e7f9120
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: b7ac8edd3c3c740f3b87feedc44535a193280a77
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733865"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660688"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>電話號碼服務 (TNS) - 服務台 
 
@@ -39,11 +39,13 @@ ms.locfileid: "60733865"
 
 若要聯絡服務台：
 
-1. 登入您的 Teams 系統管理中心 - admin.teams.microsoft.com。
+1. 登入您的 Teams[系統管理中心](https://admin.teams.microsoft.com)。
 
-2. 在左側窗格中，選取 **[電話號碼]**。
+2. 在左側窗格中，**選取語音，** 然後選取 **電話數位**。
 
-3. 在頁面頂端，選取 **[取得電話號碼支援]**。 您將看到 [電話號碼服務中心]。  
+3. 選取 **新增或****埠**。
+
+4. 在頁面頂端，選取 **[取得電話號碼支援]**。 您將看到 [電話號碼服務中心]。  
 
 > [!NOTE]
 > 只允許來自相同租使用者的人員建立案例。 也就是說，來自 @fabrikam.com 的某人無法代表 @contoso.com 建立案例。 
@@ -192,9 +194,9 @@ ms.locfileid: "60733865"
 
 - 選取 **[開啟案例]**、**[所有案例]** 或 **[已關閉案例]** 來 **篩選您的案例**。
 
-- **開啟現有案例** 、向下卷起，然後選取新增批註，以與 TNS 服務台溝通您的 **案例**。 將會顯示新視窗。 在註解方塊中輸入您的訊息。 附加任何可協助您處理要求的支援文件 (如果有)，然後選取 **[提交]**。  
+- **開啟現有案例** 、向下卷起並選取新增批註，以與 TNS 服務台溝通您的 **案例**。 將會顯示新視窗。 在註解方塊中輸入您的訊息。 附加任何可協助您處理要求的支援文件 (如果有)，然後選取 **[提交]**。  
 
-  TNS **服務台的回應** 會顯示在同一個時程表底下。 當您的案例中有更新時，您將會收到更新的自動電子郵件通知。 
+  **TNS 服務台的回應** 會顯示在同一個時程表底下。 當您的案例中有更新時，您將會收到更新的自動電子郵件通知。 
 
 - 瀏覽至現有案例、向下卷動，並選取 **[取消案例]**，以 **取消案例**。 從下拉式清單中選取取消的原因，然後選取 **[取消]**。  
 

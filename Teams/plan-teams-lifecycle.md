@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 539597393f34f2f02734c57df57097281a4d7839
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2c69737e6677a48d4fa7788e50fd97a876a67040
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012817"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660598"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Teams 中的生命週期管理方案
 
@@ -153,7 +153,7 @@ Teams 系統管理員角色決定每個系統管理員角色持有者所擁有�
 
 當團隊的工作持續到自然結束，正式告知團隊已結束非常重要。 這樣可以讓團隊成員感覺到團隊已關閉，也可以避免任何人存取過期過時的資訊。 您可以利用團隊本身來舉辦如事後剖析和執行摘要等的關閉儀式。
 
-您可以刪除您知道已不再需要的團隊 (例如專為測試而建立的團隊，或是含有敏感性資料的團隊)。 實際上，團隊會以「虛刪除」的方式刪除，而 IT 人員最多可以在 30 天內復原。 刪除團隊不會影響依照合規性原則而保留的任何交談或內容。 頻道也有「虛刪除」，而且可以在刪除後最多 21 天內回復。 刪除頻道並不會刪除 SharePoint 文件庫中的資料夾或內容。
+您可以刪除您知道已不再需要的團隊 (例如專為測試而建立的團隊，或是含有敏感性資料的團隊)。 實際上，團隊會以「虛刪除」的方式刪除，而 IT 人員最多可以在 30 天內復原。 刪除團隊不會影響依照合規性原則而保留的任何交談或內容。 頻道也有「虛刪除」，而且可以在刪除後最多 30 天內回復。 刪除頻道並不會刪除 SharePoint 文件庫中的資料夾或內容。
 
 除了封存功能之外，您也可以使用到期和保留原則，針對不再使用的團隊或是擁有者已離開組織的團隊，減少這些團隊的曝光率。
 

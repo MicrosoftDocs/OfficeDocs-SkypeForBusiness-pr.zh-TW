@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話Microsoft Teams，以獲得最佳結果。
-ms.openlocfilehash: 1f91af4b299223a2ac0e815f5f84b70cbc04b953
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: f8d2d1bcd427908c7f21a0eba20096fb12ab4e0c
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503560"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660608"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams Android 裝置
 
@@ -71,6 +71,9 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，在整�
 
 | 裝置模型 | 固件版本 | 目前的認證結束日期 | 會議室大小                                        |  Android OS 版本    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| 整齊列 | `NFB1.20220211.1158`     |   2024 年 3 月 17 日 |    小型會議室 (4.5 m x 4.5 m)  | 10 |
+| 整齊的鍵盤 | `NFA1.20220211.1158 `    | 2024 年 3 月 17 日  |    小型會議室 (4.5 m x 4.5 m)  | 9 |
+| 整齊的電路板 | `NFC1.20220211.1158 `  |  2024 年 3 月 17 日 |    小型會議室 (4.5 m x 4.5 m)  | 10 |
 | Logitech 舍友 | `1.4.71` | 2024 年 9 月 3 日  | 大型會議室 (4.5m x 8.5m)   |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 2023 年 8 月 5 日 | 與 EPOS Vision 3T 套件 | 9 |
 | Logitech Tap Device     | `1.2.982`  |   2024 年 9 月 3 日  | 相容 Logitech 拉力杆和拉力杆迷你 | 10 |
