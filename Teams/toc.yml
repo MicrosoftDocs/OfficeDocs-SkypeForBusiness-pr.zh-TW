@@ -973,6 +973,8 @@ items:
             href: cloud-voice-network-settings.md
           - name: 管理雲端語音功能的網路拓撲
             href: manage-your-network-topology.md
+          - name: 管理視訊和媒體設定
+            href: network-roaming-policy.md
       - name: 緊急電話
         items:
           - name: 概觀
@@ -1364,7 +1366,7 @@ items:
               - name: 維護及操作
                 href: rooms/rooms-operations.md
               - name: 已知問題
-                href: rooms/known-issues.md
+                href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
               - name: 使用 Azure 監視器的裝置
                 href: rooms/azure-monitor-manage.md
               - name: 含有 XML 檔案的設定
@@ -1539,7 +1541,7 @@ items:
             href: non-standard-users.md
           - name: 更新應用程式體驗
             href: apps-update-experience.md
-          - name: 管理整個 Microsoft 365 對 Teams 應用程式的存取權
+          - name: 管理跨 Microsoft 365 的 Teams 應用程式存取權
             href: manage-third-party-teams-apps.md
   - name: 產業和政府指引
     items:
