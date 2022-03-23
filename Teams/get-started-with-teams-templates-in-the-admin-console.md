@@ -18,19 +18,19 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e65f7a0eef62197e90f77876129af95f32f4d6bc
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 832d13955287d4166a575d213c04331b7e79e1bd
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442479"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711897"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>在 Teams 系統管理中心開始使用團隊範本
 
 **尚未支援 EDU 客戶建立自訂範本的能力。**
 
 > [!NOTE]
-> - 小組範本目前不支援私人頻道。 範本定義中不包含私人頻道建立功能。
+> - 小組範本目前不支援私人和共用頻道。 私人和共用頻道的建立不會包含在範本定義中。
 >
 > - 在環境中，小組範本不支援敏感度GCC標籤。 從範本流程建立團隊中的敏感度標籤選項將不會適用于團隊。
 
@@ -139,14 +139,14 @@ ms.locfileid: "63442479"
 
 使用下列 Cmdlet 在 PowerShell 中管理範本。
 
-- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate?view=teams-ps)
-- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist?view=teams-ps)
-- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate?view=teams-ps)
-- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate?view=teams-ps)
-- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate?view=teams-ps)
+- [Get-CsTeamTemplate](/powershell/module/teams/get-csteamtemplate)
+- [Get-CsTeamTemplateList](/powershell/module/teams/get-csteamtemplatelist)
+- [New-CsTeamTemplate](/powershell/module/teams/new-csteamtemplate)
+- [Remove-CsTeamTemplate](/powershell/module/teams/remove-csteamtemplate)
+- [Update-CsTeamTemplate](/powershell/module/teams/update-csteamtemplate)
 
 ## <a name="related-articles"></a>相關文章
 
 - [從範本建立團隊](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [開始用 Microsoft Graph 使用團隊範本](get-started-with-teams-templates.md)
-- [複製團隊](/graph/api/team-clone?view=graph-rest-1.0&tabs=http)
+- [複製團隊](/graph/api/team-clone)

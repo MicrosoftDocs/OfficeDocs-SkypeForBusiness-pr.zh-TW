@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解傳訊政策，以及如何在聊天訊息中控制聊天Teams。
-ms.openlocfilehash: 968e79952381b04f5165f285807cfe3a07237307
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 9716fe3ba9a2162a3c6c85cfa61ef5541f34fb38
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564765"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711717"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>管理 Teams 中的訊息原則
 
@@ -109,7 +109,7 @@ ms.locfileid: "63564765"
 - **聊天許可權角色** 使用此設定可定義使用者的監督聊天角色。  深入了解[監督的聊天](supervise-chats-edu.md)。
 
 > [!NOTE]
-> 其中一些設定 ，例如使用 Giphys，也可以由團隊擁有者在團隊層級設定，而私人頻道擁有者也可在私人頻道層級設定。
+> 其中一些設定 ，例如使用 Giphys，也可以由團隊擁有者在團隊層級設定，以及頻道擁有者在私人或共用頻道層級設定。
 
 ### <a name="related-topics"></a>相關主題
 

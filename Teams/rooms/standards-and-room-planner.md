@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 根據您環境的智慧建議建立及策展標準。
 f1keywords: ''
-ms.openlocfilehash: 2eb0681999664cd3fd29876fbfa3550eee9fb507
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 978975bdd4ed02f248cf0a36d88109d2e281b8d4
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062802"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711523"
 ---
 # <a name="standards-and-room-planner"></a>標準和會議室規劃工具
 
@@ -37,7 +37,7 @@ ms.locfileid: "63062802"
 ![建立標準首頁的螢幕擷取畫面](../media/standards-and-room-planner-001.png)
 ### <a name="create-standards"></a>建立標準
 
-使用建立 **標準工作流程** 來建立標準。
+使用 **建立標準** 工作流程來建立標準。
 
 ![標準一般詳細資料螢幕擷取畫面](../media/standards-and-room-planner-001.png)
 
@@ -45,15 +45,15 @@ ms.locfileid: "63062802"
 
 1. 選取 **建立一般標準**，然後提供一般詳細資料，例如標準的名稱和描述。
 
-   ![標準選取選項的螢幕擷取畫面會議室](../media/standards-and-room-planner-002.png)
+   ![標準選取類型會議室螢幕擷取畫面](../media/standards-and-room-planner-002.png)
 
 1. 針對此標準選取您的會議室類型。
 
    ![標準選取建議裝置螢幕擷取畫面](../media/standards-and-room-planner-003.png)
 
-1. 從建議的硬體庫存中Teams，選取您所選擇的會議室裝置。
+1. 從建議Teams硬體庫存中通過認證的會議室範本中選取。 清單會視上一個步驟中選取的會議室類型而異。
 
-   ![標準一般詳細資料螢幕擷取畫面](../media/standards-and-room-planner-004.png)
+   ![選取標準 MTRs 的螢幕擷取畫面](../media/standards-and-room-planner-004.png)
 
 
 1. 請閱閱 《第三次國標》 資訊。
@@ -64,14 +64,13 @@ ms.locfileid: "63062802"
 
    ![發佈標準位置的螢幕擷取畫面。](../media/standards-and-room-planner-006.png)
 
-工作流程完成後，標準會成功建立併發布至網站、地區、建築物或會議室。 現在這些標準會用於規劃用途。
+標準發佈後，會用於規劃用途。
 
 ![成功發佈標準 '的螢幕擷取畫面'](../media/standards-and-room-planner-008.png)
 ### <a name="discovered-devices"></a>已發現裝置
 
 在標準中，選取 **已發現** 裝置，以在貴組織中查看所有非標準已發現裝置。
 
-![會議室已發現裝置之螢幕擷取畫面](../media/standards-and-room-planner-008.png)
 
 您可以採取行動，從庫存中這些已發現裝置來審查及建立標準。
 

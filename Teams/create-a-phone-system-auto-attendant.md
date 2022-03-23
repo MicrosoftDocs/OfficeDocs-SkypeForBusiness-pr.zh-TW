@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft Teams 中設定和測試大型組織的自動Microsoft Teams。
-ms.openlocfilehash: 1b212edfc750210aa7ab66bb0184dfa07541280e
-ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
+ms.openlocfilehash: 3a501ee9cdea0cf04466be1cbbd9c8f4407a9842
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2022
-ms.locfileid: "63660588"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711917"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動機務員
 
@@ -149,6 +149,8 @@ ms.locfileid: "63660588"
 
 > [!NOTE]
 > 如果您想要同時使用名稱撥號和分機撥號功能，您可以在主自動電話機上指派撥號鍵，以到達啟用名稱撥號 **的自動總機**。 您可以在該自動話務員中指派 1 個按鍵 (沒有與其關聯的字母，) **分機自動** 總機撥號。
+
+請參閱 [撥號和語音參考](dial-voice-reference.md) 以瞭解更多資訊。
 
 選取目錄 **搜尋選項之後** ，請選取下 **一步**。
 

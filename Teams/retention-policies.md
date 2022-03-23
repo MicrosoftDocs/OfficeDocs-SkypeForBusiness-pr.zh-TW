@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f1dbd1d7c586c989484fa71b1e0b0e3d1fb47550
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b6c370eee74266d2d24df4fa8e1e95904cd08386
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727402"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711287"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>管理 Microsoft Teams 的保留原則
 
@@ -36,6 +36,9 @@ ms.locfileid: "58727402"
 Microsoft 365 的保留原則和保留標籤可協助您更有效地管理組織中的資訊。 您可以設定保留原則，以保留符合貴組織的內部原則、產業法規或法律要求所需的資料。 您也可以設定保留設定以刪除被視為負債的資料、不再需要保留的資料，或沒有法律或商業價值的資料。
 
 Microsoft Teams 支援適用於聊天和頻道訊息的保留原則，所以身為系統管理員，您可以主動決定是否要保留資料、刪除資料，或保留特定的一段時間然後刪除。 這些動作的保留期間啟動一律取決於訊息建立的時間。 您可以將 Teams 保留原則套用到整個組織或特定的使用者和小組。 Microsoft Teams 不支援保留標籤。
+
+> [!NOTE]
+> [目前預覽](shared-channels.md)的共用頻道現在受到保留政策的支援。
 
 若要深入了解 Microsoft 365 中的保留解決方案，請參閱 [瞭解保留原則和保留標籤](/microsoft-365/compliance/retention)。
 
@@ -67,7 +70,7 @@ Microsoft Teams 支援適用於聊天和頻道訊息的保留原則，所以身�
 
 - 針對私人聊天分別 (1：1 或 1：) 聊天、標準頻道的郵件或私人頻道的郵件。
 
-- 僅將原則適用于貴組織的特定使用者或團隊。 針對Teams和私人頻道，您可以選取原則所適用的使用者。 如果是使用 Teams 頻道訊息，您可以選取原則要套用到哪些小組。
+- 僅將原則適用于貴組織的特定使用者或團隊。 若要Teams聊天和私人頻道，您可以選取原則所適用的使用者。 如果是使用 Teams 頻道訊息，您可以選取原則要套用到哪些小組。
 
 例如，針對標準頻道訊息：為貴組織的特定團隊建立保留原則，並設定該策略 1 年後的刪除動作。 然後為所有其他團隊的標準通道訊息建立另一個保留原則，然後在 3 年後使用刪除動作設定該策略。
 

@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在頻道中設定仲裁Microsoft Teams，包括如何將小組成員新增為頻道仲裁者。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4441eea880b5dcf1d71ca11f0ad32cf148f90cf4
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.openlocfilehash: b53a7d71fe7dfde77e9038ef4343539e2375985f
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62960005"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711317"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>在頻道中設定及管理頻道Microsoft Teams
 
@@ -32,7 +32,7 @@ ms.locfileid: "62960005"
 團隊擁有者也可以將小組成員新增為仲裁者。 團隊擁有者可能沒有頻道層級的主題專業知識，因此無法提供最佳支援通道管理。 允許特定小組成員管理頻道，讓團隊擁有者和頻道仲裁者分擔管理頻道內容與內容的責任。 例如，團隊擁有者可以將企業擁有者或內容擁有者新增為仲裁者，讓他們控制該頻道的資訊共用。
 
 > [!NOTE]
-> 頻道模式適用于標準頻道。 不適用於一般頻道或私人頻道。
+> 頻道模式適用于標準頻道。 不適用於一般頻道或私人或共用頻道。
 
 ## <a name="what-can-a-channel-moderator-do"></a>頻道仲裁者可以做什麼？
 
@@ -44,7 +44,7 @@ ms.locfileid: "62960005"
 
 ## <a name="scenarios"></a>案例
 
-以下範例說明貴組織如何在 Teams 中使用通道Teams。
+以下範例說明貴組織如何在 Teams。
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>使用頻道做為公告頻道
 

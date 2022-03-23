@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解 PowerShell 中Teams變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e45a80f4e16c211ae37579dc7de273c53f64d16
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: dea6b9d93d3950d4a831fdf669a98e28028f3c41
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435737"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711707"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 版本資訊
 
@@ -31,6 +31,7 @@ ms.locfileid: "63435737"
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 3 月 | [4.0.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.1-preview) |<li>修正 ErrorAction 常見參數的問題。</li>
 | 2022 年 3 月 | [4.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.0) |<li>本 GA 發行完成所有與組織相關之 Cmdlet 的Teams更新。 新式版本將會陸續推出，因此部分組織會繼續看到舊版的重處理版本。</li><li>發行 [NewSetRemove \| \| ]-CsUserCallingDelegate 和 [GetSet \| ]-CsUserCallingSettings CMdlet 在 GA 中。</li><li>[中斷變更]New-CsVoiceNormalizationRule 除外;其他 Cmdlet 不再支援 InMemory 開關。</li><li>取消使用下列 Cmdlet：ConvertTo-JsonForPSWS， Set-CsUserServicesPolicy， [GetSet \| ]-CsNetworkConfiguration， [SetRemove]-CsTenantNetworkConfiguration， New-CsNetworkMediaBypassConfiguration， [GetGrantNewRemoveSet \| \| \| \| ]-CsTeamsVerticalPackagePolicy，[GetRemoveSet \| \| \| ]-CsVoiceNormalizationRule。</li>
 | 2022 年 2 月 | [3.2.0-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/3.2.0-preview) |<li>此版本已完成所有與組織相關的 Cmdlet Teams更新。 新式版本將會陸續推出，因此部分組織會繼續看到舊版的重處理版本。</li><li>[中斷變更]New-CsVoiceNormalizationRule 除外;其他 Cmdlet 不再支援 InMemory 開關。</li><li>Connect-MicrosoftTeams提升績效。</li><li>使用首碼Import-Module的修正。</li><li>修正處理 [GetSetRemove \| \| ]-CsOnlineLisPort 中斜線字元 "/" 的埠。</li><li>Cmdlet Test-CsTeamsUnassignedNumberTreatment發行。</li><li>取消使用下列 Cmdlet：ConvertTo-JsonForPSWS， Set-CsUserServicesPolicy， [GetSet \| ]-CsNetworkConfiguration， [SetRemove]-CsTenantNetworkConfiguration， New-CsNetworkMediaBypassConfiguration， [GetGrantNewRemoveSet \| \| \| \| ]-CsTeamsVerticalPackagePolicy， [GetRemoveSet \| \| \| ]-CsVoiceNormalizationRule.</li>
 | 2022 年 2 月 | [3.1.1](https://www.powershellgallery.com/packages/MicrosoftTeams/3.1.1) |<li>Import-Module 的改良功能。</li><li>PSListModifier 取消序列化問題已修正。</li>

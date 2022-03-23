@@ -3,34 +3,39 @@ title: 在 Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
-ms.reviewer: 'acolonna, salu'
+ms.reviewer: acolonna, salu
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_Help
+- M365-collaboration
+- Teams_ITAdmin_Help
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在組織中管理標記在 Microsoft Teams 中Microsoft Teams。
+ms.openlocfilehash: 2e099c611cbbfd22cc2cc32c189edc8243ea362d
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711577"
 ---
-
 # <a name="manage-tags-in-microsoft-teams"></a>在 Microsoft Teams
 
 ## <a name="overview"></a>概觀
 
-其中Microsoft Teams標記可讓使用者快速且輕鬆地與團隊中的一部分人員聯繫。 您可以建立並指派自訂標記，根據角色、專案、技能或位置等屬性來將人員分類。 或者，您可以根據人員在 Shifts 應用程式中的排程和班次資訊，自動將標記 [指派給人員](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts)。 將標記新增到一或多個小組成員之後，頻道文章中的小組@mentions就可以在 @mentions 中使用標記，或只與指派該標記的人開始交談。
+其中Microsoft Teams標記可讓使用者快速且輕鬆地與團隊中的一部分人員聯繫。 您可以建立並指派自訂標記，根據角色、專案、技能或位置等屬性來將人員分類。 或者，您可以根據人員在 Shifts 應用程式中的排程和班次資訊，自動將標記 [指派給人員](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?#PickTab=Shifts)。 將標記新加到一或多個小組成員之後，頻道文章中的小組@mentions就可以在 @mentions 中使用標記，或只與指派該標記的人開始交談。
 
-如先前所述，Teams。
+如先前所述，在 Teams 中有兩種Teams。
 
 - **自訂標記**：團隊擁有者和小組成員 (啟用此功能時，) 手動建立和指派標記給人員。 例如，「設計工具」或「放射科醫生」標記會抵達團隊中的這些人員集合，而不需要輸入他們的名稱。
-- **以班次標記**：使用這項功能，人員會自動在 Teams 的 [Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)應用程式中指派符合其排程和班組名的Teams。 例如，在聊天或頻道貼文使用標記時，「EngineerOnCall」標記會到達所有排程在 Shifts 中工作的工程師。 使用輪班標記Teams，當使用者需要快速轉傳資訊時，您不用猜測輪班員工的名稱。 以班次標記也可以由 JDA、Kronos 和 AMiON 等主要員工管理系統做為後盾，將它們與公司中的班次Teams。 若要深入瞭解如何設定此功能，請參閱設定班次 [標記](#set-up-tagging-by-shift)。
+- **以班次標記**：使用這項功能，人員會自動在 Teams 的 [Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)應用程式中指派符合其排程和班組名的Teams。 例如，在聊天或頻道貼文使用標記時，「EngineerOnCall」標記會到達所有排程在 Shifts 中工作的工程師。 使用輪班標記Teams，當使用者需要快速轉傳資訊時，您不用猜測輪班員工的名稱。 以班次標記也可以由 JDA、Kronos 和 AMiON 等主要員工管理系統做為後盾，將它們與公司中的 Shifts Teams。 若要深入瞭解如何設定此功能，請參閱設定班次 [標記](#set-up-tagging-by-shift)。
 
 > [!NOTE]
-> 私人頻道尚不支援標記。 在 DoD 組織或 DoD (中) 標記。 
+> 私人或共用頻道不支援標記。 在 DoD 組織或 DoD (中) 標記。 
 
 ## <a name="how-tags-work"></a>標記如何工作
 
@@ -46,7 +51,7 @@ description: 瞭解如何在組織中管理標記在 Microsoft Teams 中Microsof
 
 ## <a name="manage-custom-tags-for-your-organization"></a>管理貴組織的自訂標記
 
-做為系統管理員，您可以在系統管理中心控制整個組織Microsoft Teams標記。 目前，您無法使用 PowerShell 來管理標記。
+做為系統管理員，您可以在系統管理中心控制整個Microsoft Teams使用方式。 目前，您無法使用 PowerShell 來管理標記。
 
 ![系統管理中心中標記Microsoft Teams的螢幕擷取畫面。](media/manage-tags-admin-settings.png)
 
@@ -76,13 +81,13 @@ description: 瞭解如何在組織中管理標記在 Microsoft Teams 中Microsof
 
 ## <a name="manage-custom-tags-settings-for-a-team"></a>管理小組的自訂標記設定
 
-如果您開啟了讓團隊擁有者在系統管理中心中Microsoft Teams誰可以管理標記設定，團隊擁有者可以設定成員是否可以在小組層級新增標記。 若要這麼做，在設定的按鈕上，請前往標記，然後選擇誰可以新增標記。
+如果您開啟了讓團隊擁有者在系統管理中心中Microsoft Teams誰可以管理標記設定，團隊擁有者可以設定成員是否可以在小組層級新增標記。 若要這麼做，在設定的按鈕上，前往標記，然後選擇誰可以新增標記。
 
 ![小組層級的標記設定螢幕擷取畫面。](media/manage-tags-team-settings.png)
 
 ## <a name="use-tags"></a>使用標記
 
-以下是如何新增自訂標記，以及如果您是在 (中使用 Shifts 應用程式， (來設定Teams) 。 若要深入瞭解，請查看使用[Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)。
+以下是如何新增自訂標記，以及如何在 (中使用 Shifts 應用程式來設定Teams) 。 若要深入瞭解，請查看在 Teams 中[使用Teams](https://support.office.com/article/using-tags-in-teams-667bd56f-32b8-4118-9a0b-56807c96d91e)。
 
 ### <a name="create-and-assign-custom-tags"></a>建立及指派自訂標記
 

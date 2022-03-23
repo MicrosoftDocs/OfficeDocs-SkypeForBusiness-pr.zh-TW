@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 瞭解如何使用通話品質儀表板Power BI報表來查看自動通話和通話佇列歷史資料。
-ms.openlocfilehash: bb83a31b083387bc945f7f4b4388ee6643c00f10
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.openlocfilehash: 57552af3a1df108dbbf86172793bb9ea86ed1b10
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62921871"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711487"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>呼叫佇列&自動助理
 
@@ -56,7 +56,7 @@ ms.locfileid: "62921871"
 
 執行下列步驟：
 
-- 下載[CQD Power BI查詢範本，](https://www.microsoft.com/download/details.aspx?id=102291)然後儲存 zip 檔案至您電腦的目錄。
+- 下載[CQD Power BI查詢範本，](https://www.microsoft.com/download/details.aspx?id=102291)然後將 zip 檔案儲存到您電腦的目錄。
 
 - 按兩下 zip 檔案以開啟它。
 
@@ -229,7 +229,7 @@ ms.locfileid: "62921871"
 |通話佇列身分識別                     |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶 **名稱 cq_test@microsoft.com 此值****為：cq_test** |
 |通話佇列目標型別                  |文本                     |***呼叫重新導向目標型別 -- 可能的值：***<br><br>§ ApplicationEndpoint<br>§ 信箱<br>§ 其他<br>§ 使用者 |
 |通話類型<sup>1</sup>                   |文本                     |通話類型 -- 可能的值：<br><br>§ 外部<br>§ 內部           |
-|日期                                    |日期/時間                |呼叫佇列通話的開始日期和時間 (UTC)  (時間)                            | 
+|日期                                    |日期/時間                |呼叫佇列通話開始時間 (UTC)  (時間)                            | 
 |IsAbandoned                             |True/false               |如果代理人未接聽來電，則為 True                                   |
 |PSTN 連線類型                  |文本                     |通話類型 -- 可能的值：<br><br>§ ExternalCall<br>§ 內部Call   |
 |PSTN 總分鐘數                      |全數位             |摘要：加總<br>PSTN 通話的總通話分鐘數                       |
@@ -240,7 +240,7 @@ ms.locfileid: "62921871"
 |:---------------------------------------|:------------------------|:----------------------------------------|
 |***已放棄通話百分比***                 |百分比               |量值：已放棄通話數 / 通話總數    |
 |通話總數                             |全數位             |量值：加總代理已接聽來電        |
-|TotalCallCount                          |全數位             |量值：加 (通話)                  |
+|TotalCallCount                          |全數位             |量值：加 (通話計數)                  |
 
 #### <a name="fcallqueuefinalstateaction--cqd-fields-description"></a>fCallQueueFinalStateAction CQD 欄位描述
 
@@ -251,7 +251,7 @@ ms.locfileid: "62921871"
 |通話佇列通話結果                  |文本                     |呼叫佇列通話的最後狀態 -- 可能的值：<br><br>§ agent_joined_conference<br>§ 已拒絕<br>§ 已中斷連接<br>§ 錯誤<br>§ 失敗<br>§ 無效<br>§ 溢出<br>§ timed_out<br>§ transferred_to_agent |
 |呼叫佇列最終狀態動作           |文本                     |呼叫佇列最終動作 -- 可能的值：<br><br>§ 中斷 (timed_out通話) <br>§ disconnect_with_busy (溢出) <br>§ failed_to_accept_call<br>§ 轉場<br>§ shared_voicemail<br>§ 其他<br>§ 語音信箱 |
 |通話佇列身分識別                     |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶 **名稱 cq_test@microsoft.com 此值****為：cq_test** |
-|日期                                    |日期/時間                |呼叫佇列通話的開始日期和時間 (UTC)  (時間)    |
+|日期                                    |日期/時間                |呼叫佇列通話開始時間 (UTC)  (時間)    |
 |IsAbandoned                             |True/false               |如果代理人未接聽來電，則為 True           |
 
 
@@ -279,7 +279,7 @@ ms.locfileid: "62921871"
 |:---------------------------------------------|:-------------------------------------|:---------------------|
 |代理人名稱                                    |代理人名稱                            |無                  |
 |通話佇列名稱                               |通話佇列名稱                       |無                  |
-|#Calls代理程式                               |代理人名稱<br>通話計數<br>日期      |無                  |
+|#Calls代理                               |代理人名稱<br>通話計數<br>日期      |無                  |
 |按代理人和通話佇列發佈          |代理人名稱<br>通話計數<br>通話持續時間 (分鐘) <br>通話佇列名稱 |無                      |
 |左下角                                   |代理人名稱<br>平均通話持續時間 (秒) <br>通話計數<br>通話持續時間 (分鐘) <br>通話佇列名稱 | 無 |
 |按代理人名稱 (通話持續時間) 秒數 |代理人名稱<br>平均通話持續時間 (秒) <br>通話計數<br>通話持續時間 (分鐘) <br>通話佇列名稱 | 無 |
@@ -289,9 +289,9 @@ ms.locfileid: "62921871"
 |名稱                                    |資料類型                |描述                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |代理人名稱                              |文本                     |使用者 UPN<br>如果完整使用者 **名稱 user@microsoft.com 此值** 為： **user** |
-|平均通話持續時間 (秒)           |十進位數           |摘要：加總<br>通話佇列通話的平均持續時間 ，以秒計算 |
-|通話計數                              |全數位             |摘要：加總<br>由代理人處理的通話數目                    |
-|通話持續時間 (分鐘)                   |全數位             |摘要：加總<br>通話佇列通話的總通話持續時間以分鐘數表示  |
+|平均通話持續時間 (秒)           |十進位數           |摘要：加總<br>接聽來電佇列通話的平均持續時間 ，以秒計算 |
+|通話計數                              |全數位             |摘要：加總<br>由代理人提供和接聽的通話數目     |
+|通話持續時間 (分鐘)                   |全數位             |摘要：加總<br>已接聽通話佇列通話的總通話持續時間以分鐘數 (進位到最接近的分鐘數)   |
 |通話佇列名稱                         |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶 **名稱 cq_test@microsoft.com 此值****為：cq_test** |
 |日期                                    |日期                     |                                                    |
 

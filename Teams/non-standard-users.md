@@ -1,5 +1,5 @@
 ---
-title: Teams非標準使用者的應用程式行為
+title: Teams類型的應用程式行為
 author: guptaashish
 ms.author: guptaashish
 ms.reviewer: joglocke
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解應用程式中的應用程式Microsoft Teams非標準使用者的行為。
+description: 瞭解應用程式中的應用程式Microsoft Teams不同類型的使用者的行為。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,16 +17,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4dd2a96b7df3ebcb3ae8659222744ed0f3273fa3
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 765c0b97d5e277bd086ac4b25ee11ac80cb6fc11
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070212"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711477"
 ---
-# <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams非標準使用者的應用程式行為
+# <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams類型的應用程式行為
 
-本文將說明當來賓Teams外部使用者、 (、) 使用者，以及匿名使用者時，Teams的行為。
+Teams來賓、外部 (、) ，以及匿名使用者以Teams顯示時的行為。
 
 - **來賓使用者** 不是貴組織的員工、學生或成員。 他們沒有貴組織的學校或公司帳戶。
 

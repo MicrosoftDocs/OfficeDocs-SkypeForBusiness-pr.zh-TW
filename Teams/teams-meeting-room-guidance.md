@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb74dcb92328890b71317818b3230571151fd0a6
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: b02e3f441ad7a4a338c86e89b2740561d3d552d7
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062713"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711567"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>會議室指南Teams
 
@@ -536,11 +536,12 @@ Microsoft Teams 會議室觸控主控台應安裝在表格中央，方便會議�
 
 ### <a name="displays"></a>顯示
 
--   具有同步處理和睡眠功能期間自動喚醒的簡短高解析度雷射投影機。
+- 短片或超短距離、高解析度和高亮度雷射投影機，在同步處理時自動喚醒，在睡眠功能期間進行冷淡。 低增益投影機畫面具有環境光線拒絕屬性，可提供明亮會議室的最佳圖片品質。
 
-如圖所示：
+如圖所示： 
 
-Epson EpiqVision™ Ultra LS500
+- [Epson EB-PU1007 投影機與 ELPLX01S 超短距鏡頭](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
+- [Da-Lite UTB 等高線螢幕|HD 漸進式 0.6 螢幕|Cinemascope 138" 對角線](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
 
 其他選項：
 
