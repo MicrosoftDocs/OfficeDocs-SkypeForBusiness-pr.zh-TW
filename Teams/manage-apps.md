@@ -17,12 +17,12 @@ description: 瞭解如何在系統管理中心的 Teams 管理應用程式頁面
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 96acf3151c2b805fead94979010669520b7a000f
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: f8130d8f6d9d8609ce37d5f43f18dd083a5106e0
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442289"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774072"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在系統管理中心管理Microsoft Teams應用程式
 
@@ -150,14 +150,16 @@ ms.locfileid: "63442289"
 
 ## <a name="manage-org-wide-app-settings"></a>管理全組織的應用程式設定
 
-使用全組織 App 設定，根據授權 (即將推出) 、使用者是否能安裝協力廠商應用程式，以及使用者是否可以上傳或與組織中的自訂應用程式互動，來控制使用者是否獲得量身訂做的應用程式體驗。 全組織應用程式設定會控管所有使用者的行為，並覆寫指派給使用者的任何其他應用程式權限原則。 您可以使用這些原則來控制惡意或有問題的應用程式。
+使用全組織 App 設定來控制 [擁有 F](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) 授權的使用者是否獲得量身訂做的前線應用程式體驗 (即將推出) 、使用者是否能安裝協力廠商應用程式，以及使用者是否可以上傳或與組織中的自訂應用程式互動。 全組織應用程式設定會控管所有使用者的行為，並覆寫指派給使用者的任何其他應用程式權限原則。 您可以使用這些原則來控制惡意或有問題的應用程式。
 
 > [!NOTE]
 > 若要瞭解如何在 Microsoft 365 政府 - 政府社群雲端 高 GCCH 和國防部 (DoD) Teams 部署中使用全組織應用程式設定，請參閱管理[Teams 中的應用程式許可權政策](teams-app-permission-policies.md)。
 
-1. 在管理應用程式頁面上，選取 **整個組織的應用程式設定**。 然後您就可以在面板中設定您要的設定。
+1. 在管理應用程式頁面上，選取 **整個組織的應用程式設定**。 接著，您可以在窗格中設定您想要的設定。
 
-1.  (即將推出) 自訂應用程式下，關閉或開啟顯示根據授權量身 **打造的應用程式**。 當此設定為啟用時，使用者會獲得根據授權釘上 App 的體驗。 若要深入瞭解，請參閱根據[授權Teams自訂您的應用程式](pin-teams-apps-based-on-license.md)。
+    :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="管理應用程式頁面上的全組織應用程式設定窗格螢幕擷取畫面":::
+
+1.  (即將推出) 自訂應用程式下，關閉或開啟顯示 **量身訂做的應用程式**。 當此設定為啟用時， [擁有 F 授權](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) 的使用者會獲得量身打造的前線應用程式體驗。 此體驗會針對前線員工Teams最相關的應用程式。 若要深入瞭解，請參閱為[前線Teams量身打造應用程式](pin-teams-apps-based-on-license.md)。
 
     此功能適用于 F 授權。 未來將會支援其他授權類型。
 1. 在 [第三方應用程式 **]** 下，關閉或開啟這些設定，以控制對第三方應用程式的存取權：

@@ -21,22 +21,22 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1af44c5e3962f89346cae166bf40efa6a8622338
-ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
+ms.openlocfilehash: 4b94251de11c302c18f7de725c76cfaaaa8b8f76
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/18/2022
-ms.locfileid: "62065179"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774162"
 ---
 # <a name="configure-sip-gateway"></a>設定 SIP 閘道
 
-本文說明如何設定 SIP 閘道，讓貴組織能與系統使用相容的 SIP Microsoft Teams。 若要瞭解 SIP 閘道可針對貴組織執行哪些工作，以及貴組織需要哪些硬體、軟體及授權，請參閱 [SIP 閘道規劃](sip-gateway-plan.md)。
+本文說明如何設定 SIP 閘道，讓貴組織能與系統使用相容的 SIP Microsoft Teams。 若要瞭解 SIP 閘道可針對貴組織執行哪些工作，以及貴組織需要哪些硬體、軟體和授權，請參閱 [SIP 閘道規劃](sip-gateway-plan.md)。
 
 在您設定 SIP 閘道之前，請執行下列操作：
 
 - **將 SIP 裝置重設為出廠預設值。** 您或貴組織的使用者必須將與 SIP 閘道一起使用的每個 SIP 裝置重設為出廠預設值。 若要瞭解如何執行這項操作，請參閱製造商的指示。
 
-- **開啟防火牆以Microsoft 365 Teams。** 開啟網路的防火牆以Microsoft 365 Teams URL 和 IP 位址範圍Office 365[流量](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
+- **開啟防火牆以Microsoft 365 Teams。** 開啟網路的防火牆以Microsoft 365 TEAMS URL 和[IP](/microsoft-365/enterprise/urls-and-ip-address-ranges)位址範圍Office 365流量。
 
 - **請確定 SIP 裝置不在 Proxy 後面。** 請確保 HTTP/s 流量會忽略任何公司 HTTP/s Proxy。
 
@@ -65,13 +65,13 @@ ms.locfileid: "62065179"
 
 - [確認貴組織可以使用 SIP 閘道](#verify-that-sip-gateway-is-available-for-your-organization)。
 
-- [為貴組織的使用者](#enable-sip-gateway-for-the-users-in-your-organization)啟用 SIP 閘道。
+- [為貴組織的使用者啟用 SIP 閘道](#enable-sip-gateway-for-the-users-in-your-organization)。
 
 - [設定 SIP 閘道設定伺服器 URL](#set-the-sip-gateway-provisioning-server-url)。
 
 本文也會說明如何：
 
-- [個別或批次註冊 SIP 裝置，以方便您使用](#provision-and-enroll-sip-devices-as-common-area-phones)。  
+- [為了方便您，請個別或分批註冊 SIP 裝置](#provision-and-enroll-sip-devices-as-common-area-phones)。  
 
 
 - [查看並監控 SIP 裝置。](#view-and-monitor-sip-devices)
@@ -80,9 +80,9 @@ ms.locfileid: "62065179"
 
 ## <a name="verify-that-sip-gateway-is-available-for-your-organization"></a>確認貴組織是否提供 SIP 閘道
 
-1. 請Teams[系統管理中心](https://admin-teams.microsoft.com/)。
+1. 請Teams[系統管理中心](https://admin.teams.microsoft.com/)。
 
-2. 在左側，選取 **Teams，** 並查看是否顯示 **SIP 裝置**。 如果是，則貴組織會啟用 SIP 閘道服務。
+2. 在左側，選取 **Teams**，並查看 **是否顯示 SIP 裝置**。 如果是，則貴組織會啟用 SIP 閘道服務。
 
 ## <a name="enable-sip-gateway-for-the-users-in-your-organization"></a>為貴組織的使用者啟用 SIP 閘道
 
@@ -94,18 +94,18 @@ ms.locfileid: "62065179"
 
 1. 前往系統[管理Teams中心](https://admin.teams.microsoft.com/)
 
-2. 在左側 **的語音下**，選取通話 **政策**。
+2. 在左側 **的語音下**，選取 **通話政策**。
 
 3. 在 **右側管理原則** 下，選取指派給使用者的適當通話策略，或在必要時建立新通話策略，並將其指派給必要的使用者。
 
 4. 選取 **管理原則**，選取一個策略， **然後選取編輯**。
 
-5. 開啟 SIP **裝置可用於** 通話的設定，然後選取 **儲存**。
+5. 開啟 **SIP 裝置可用於** 通話的設定，然後 **選取儲存。**
 
 
 ### <a name="by-using-powershell"></a>使用 PowerShell
 
-您也可以使用 PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) Cmdlet 啟用 SIP 閘道。 若要啟用 SIP 裝置的使用者，請選取一個策略，然後將 `-AllowSIPDevicesCalling` 屬性設定為 `True` 。 預設值為 ，因此除非您啟用，否則使用者將無法 `False` 使用他們的 SIP 裝置。
+您也可以使用 PowerShell [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) Cmdlet 啟用 SIP 閘道。 若要啟用 SIP 裝置的使用者，請選取一個策略，然後將屬性 `-AllowSIPDevicesCalling` 設定為 `True` 。 預設值為 `False` ，因此除非您啟用，否則使用者將無法使用他們的 SIP 裝置。
 
 
 > [!NOTE]
@@ -113,7 +113,7 @@ ms.locfileid: "62065179"
 
 ## <a name="set-the-sip-gateway-provisioning-server-url"></a>設定 SIP 閘道設定伺服器 URL
 
-您可以在動態主機設定通訊協定中設定 SIP 閘道設定伺服器的 URL， (DHCP) 伺服器。 遠端工作的使用者必須手動設定。
+您可以在 DHCP 伺服器的動態主機設定通訊協定中設定 SIP 閘道 (伺服器) URL。 遠端工作的使用者必須手動設定。
 
 ### <a name="using-dhcp"></a>使用 DHCP
 
@@ -147,7 +147,7 @@ ms.locfileid: "62065179"
 
 ## <a name="configure-conditional-access"></a>設定條件式存取
 
-條件式存取是Azure Active Directory (Azure AD) 項功能，可協助確保存取您Microsoft 365資源的裝置獲得妥善管理及保護。 SIP 閘道會使用 Azure AD驗證 SIP 裝置，因此如果貴組織針對公司網路中的裝置使用條件式 Access，則應該排除下列 IP 位址：
+條件式存取是Azure Active Directory (Azure AD) 項功能，可協助確保存取您Microsoft 365資源的裝置獲得妥善管理及保護。 SIP 閘道會使用 Azure AD驗證 SIP 裝置，因此，如果貴組織使用條件式 Access 處理公司網路中的裝置，則應該排除下列 IP 位址：
 
 - 北美：
     - 美國東部：52.170.38.140
@@ -170,47 +170,47 @@ ms.locfileid: "62065179"
 
 1. 登入系統管理 [**Teams中心**](https://admin.teams.microsoft.com)。
 
-2. 選取 **Teams**  >  **SIP 裝置**。
+2. 選取 **Teams裝置**  >  **SIP 裝置**。
 
-3. 在右上角，選取 **動作**  >  **置備裝置**，然後遵循下列其中一個步驟：
+3. 在右上角，選取 **ActionsProvision**   >  裝置，然後遵循下列其中一個步驟：
 
   - **若要配置一個裝置：**
 
-     a. 在 **等待啟用下****，選取** 新增 。
+     a. 在 **等待啟用下****，選取新增**。
 
-     b. 在新增 **MAC 位址窗格中**，輸入 **MAC** 位址和裝置的位置，然後選取 **Apply**。
+     b. 在新增 **MAC 位址窗格中**，輸入 **MAC 位址** 和裝置的位置，然後 **選取應用程式。**
      
-     C。 在 **等待啟用下**，選取您剛剛新增的裝置，然後選取 產生 **驗證碼**。
+     C。 在 **等待啟用下**，選取您剛剛新增的裝置，然後選取產生 **驗證碼**。
      
      D。 在安裝 **裝置窗格** 的驗證 **碼下**，記下 SIP 裝置驗證碼。
 
    - **若要配置許多裝置：**
 
-     a. 在 **正在等待啟用的** 右側，選取 (圖示Microsoft Excel匯出) 。
+     a. 在 **正在等待啟用的** 右側，選取 (圖示Microsoft Excel 匯出) 。
      
-     b. 在顯示 **多個 MAC** 位址的 **Upload 窗格中**，選取下載 **範本**。
+     b. 在顯示 **多個 MAC** 位址的 Upload **窗格中**，選取 **下載範本**。
      
      C。 將 **Template_Provisioning.csv** 儲存到您的電腦，並填寫 **MAC 識別碼** 和 **位置** 欄位。
     
      D。 在顯示 **裝置窗格** 上，選取 **Upload多個 MAC 位址**。 
 
-     e. 在 MAC 位址窗格的右側Upload選取一個檔案，然後選取 **Template_Provisioning.csv** 包含您資料的檔案。
+     e. 在 MAC 位址窗格的Upload，選取選取檔案，然後選取 **Template_Provisioning.csv包含您** 資料的檔案。****
 
      F。 On the **Provision devices** pane, under **Waiting on activation**, select a device and then select **Generate verification code** to generate a one-time verification code for each provisioned device. 請注意每個 SIP 裝置的驗證碼。
 
-4. 在 SIP 裝置上，撥打註冊功能代碼，後面接著驗證碼。 在 SIP 裝置上，撥打 SIP 閘道用於註冊一次驗證碼驗證) 的註冊功能代碼 55* (，後面接著此特定裝置在 Teams 系統管理中心產生的驗證 \* 碼。 例如，如果驗證碼123456，請撥打 \* 55 \* 123456以註冊裝置。
+4. 在 SIP 裝置上，撥打註冊功能代碼，後面接著驗證碼。 在 SIP 裝置上，撥打 SIP \* 閘道用於註冊一次驗證驗證) 的註冊功能代碼 55* (，後面接著此特定裝置在 Teams 系統管理中心產生的驗證碼。 例如，如果驗證碼123456， \* 請撥打 55 \* 123456以註冊裝置。
 
-5.  在顯示 **裝置窗格** 的等待 **登錄** 下，選取已 **登出**。
+5.  On the **Provision devices** pane, under **Waiting for sign in**, select **Signed out**.
 
 6. 在 **[登錄使用者>** 對話方塊中，複製或記下 SIP 裝置配對程式碼。
 
-7. 前往 [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin) ，然後在 **輸入程式碼** 下，輸入 SIP 裝置配對程式碼，然後選取下 **一步**。
+7. 前往 ， [https://microsoft.com/devicelogin](https://microsoft.com/devicelogin) 然後在 **輸入程式碼** 下，輸入 SIP 裝置配對代碼，然後選取下 **一步**。
 
-8. 在 Microsoft **的登錄** 頁面上，在電子郵件 **或** 電話欄位中，輸入 SIP 裝置的電子郵件地址，然後選取下 **一步**。
+8. 在 Microsoft **登錄頁面上** 的電子郵件或電話欄位中，輸入 SIP 裝置的電子郵件地址，然後選取下 **一步**。
 
-9. 在密碼 **頁面上**，輸入 SIP 裝置電子郵件地址的密碼，然後選取
+9. 在密碼 **頁面上** ，輸入 SIP 裝置電子郵件地址的密碼，然後選取 " **登錄」**。
 
-10. 在您 **嘗試在** SIP 裝置閘道Teams上，選取 **繼續**。
+10. 在您 **嘗試在** SIP 裝置閘道Teams上，**選取繼續。**
 
 ## <a name="how-to-sign-in-and-sign-out"></a>如何登錄和登出
 
@@ -218,23 +218,23 @@ ms.locfileid: "62065179"
 
 1. 登入系統管理 [**Teams中心**](https://admin.teams.microsoft.com)。
 
-2. 選取 **Teams**  >  **SIP 裝置**。
+2. 選取 **Teams裝置**  >  **SIP 裝置**。
 
-3. 在右側選取 SIP 裝置，然後 **選取登出**。
+3. 在右側選取 SIP 裝置， **然後選取登出**。
 
 
 ### <a name="user-pairing-and-sign-in"></a>使用者配對和登錄
 
 若要在使用者使用公司認證進行驗證之後配對 SIP 裝置，使用者必須：
 
-1. 在 **SIP 電話** 上按登錄以顯示驗證 URL 和配對代碼。 配對程式碼會區分時間。 如果到期，使用者必須在電話上按 **Back，** 然後再次啟動登錄程式。
+1. 在 **SIP 電話** 上按登錄以顯示驗證 URL 和配對代碼。 配對程式碼會區分時間。 如果到期，使用者必須在電話上按 **Back** ，然後再次啟動登錄程式。
 
 2. 流覽至使用者桌面或行動瀏覽器中的驗證 URL，並使用公司認證登入。
 
 3. 在 Web 驗證應用程式中輸入 SIP 電話上顯示的配對程式碼，將 SIP 電話與使用者帳戶配對。 如果成功登錄，可能需要一段時間，SIP 電話會顯示電話號碼和使用者名稱 ，如果裝置支援。
 
 > [!NOTE]
-> 在 Web 驗證應用程式上顯示Azure Active Directory的位置是裝置已連接的 SIP 閘道資料中心。 範圍中的 SIP 電話無法使用 OAuth，因此 SIP 閘道會透過 Web 驗證應用程式對使用者進行驗證，然後將裝置與使用者的認證配對。 請在這裡深入瞭解[：Microsoft 身分識別平臺和 OAuth 2.0 裝置授權授權流程](/azure/active-directory/develop/v2-oauth2-device-code)。
+> 在 Web 驗證應用程式上顯示Azure Active Directory的位置是裝置已連接的 SIP 閘道資料中心。 範圍中的 SIP 電話無法使用 OAuth，因此 SIP 閘道會透過 Web 驗證應用程式對使用者進行驗證，然後將裝置與使用者的認證配對。 請在這裡深入瞭解：[Microsoft 身分識別平臺和 OAuth 2.0 裝置授權授權流程](/azure/active-directory/develop/v2-oauth2-device-code)。
 
 ### <a name="sign-out"></a>登出
 
@@ -242,15 +242,15 @@ ms.locfileid: "62065179"
 
 - 在 **SIP 裝置** 上按登出，然後按照裝置上描述的步驟操作。 
 
-若要在系統管理中心Teams登出裝置：
+若要在系統管理中心登出Teams裝置：
 
 1. 登入系統管理 [**Teams中心**](https://admin.teams.microsoft.com)。
 
-2. 選取 **Teams**  >  **SIP 裝置**。
+2. 選取 **Teams裝置**  >  **SIP 裝置**。
 
 3. 在右側 ，在 **SIP 裝置窗格中** ，選取裝置。
 
-4. 在裝置之詳細資料窗格 **上**，選取詳細資料標籤，然後選取右上角的動作功能表，選取 **登出**。 
+4. On the device's **Details pane**, select the **Details** tab, and at the upper right on the **Actions** menu, select **Sign out**. 
 
 
 ## <a name="view-and-monitor-sip-devices"></a>查看及監控 SIP 裝置
@@ -259,15 +259,15 @@ ms.locfileid: "62065179"
 
 1. 登入系統管理[Teams中心](https://admin.teams.microsoft.com/)。
 
-2. 選取 **Teams**  >  **SIP 裝置**。 所有已登錄的 SIP 裝置都列在右側。
+2. 選取 **Teams裝置**  >  **SIP 裝置**。 所有已登錄的 SIP 裝置都列在右側。
 
 ## <a name="restart-a-sip-device"></a>重新開機 SIP 裝置
 
 1. 登入系統管理[Teams中心](https://admin.teams.microsoft.com)。
 
-2. 選取 **Teams**  >  **SIP 裝置**。 
+2. 選取 **Teams裝置**  >  **SIP 裝置**。 
 
-3. 在右側，選取要重新開機的 SIP 裝置，然後選取 **重新開機**。
+3. 在右側，選取要重新開機的 SIP 裝置，然後 **選取重新開機。**
 
 ## <a name="sync-policy-changes-to-sip-devices-to-enforce-policies"></a>同步策略變更至 SIP 裝置以強制執行策略
 
@@ -300,12 +300,12 @@ SIP 裝置通常可以顯示多種語言的資訊。 設定其 UI 語言會影�
 > - Yealink 不支援日文，而 Polycom VVX 也部分支援日文。
 > - 如果 SIP 端點不支援選取的語言，系統會預設為英文。
 > - 當 **lang_xx未** 透過設定 URL 設定時，會使用英文做為預設語言。
-> - 如果 **無法** 將緊急電話文字翻譯成其他語言，則由於螢幕限制，在下列 IP 電話型號上按 Sign **In** 時，只會顯示英文縮寫版本：
+> - **如果無法** 將緊急電話文字翻譯成其他語言，則由於螢幕限制，在下列 IP 電話型號上按 Sign **In** 時，只會顯示英文縮寫版本：
 >   - Poly VVX 150，VVX 201
 >   - Cisco CP-6821、CP-7811、CP-7821、CP-7841、CP-7861
 >   - 由於字串長度的限制，Voice mail softkey 標籤會以 **適用于** Poly VVX 的所有語言之 VM 文字進行硬編碼。
 
-## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams IPv6
+## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams和 IPv6
 
 SIP 閘道僅支援 IPv4。 Microsoft Teams和用戶端支援 IPv4 和 IPv6。 如果您想要控制通訊至Microsoft Teams，請使用 URL 和 IP 位址Microsoft 365 [IP 位址範圍](/microsoft-365/enterprise/urls-and-ip-address-ranges)。
 

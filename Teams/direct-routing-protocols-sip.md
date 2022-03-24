@@ -17,12 +17,12 @@ f1.keywords:
 description: 直接路由通訊協定
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436eded0069af9263aec02f62a697572be7a4ead
-ms.sourcegitcommit: b4bc3b4c1d167a075a25180818f61758eb56cd6b
+ms.openlocfilehash: 549ee30fa7327f1b9959cb2153d0846af61ba858
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "61041265"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774032"
 ---
 # <a name="direct-routing---sip-protocol"></a>直接路由 - SIP 通訊協定
 
@@ -30,7 +30,7 @@ ms.locfileid: "61041265"
 
 ## <a name="processing-the-incoming-request-finding-the-tenant-and-user"></a>處理傳入要求：尋找租使用者和使用者
 
-在可以處理傳入或外接通話之前，SIP Proxy 和 SBC 之間會交換 OPTIONS 訊息。 這些選項訊息允許 SIP Proxy 提供 SBC 允許的功能。 在 200OK 回應 (選項的) ，讓 SBC 與 SIP Proxy 之間的進一步通訊，以建立通話，這一點非常重要。 選項訊息中 SIP Proxy 的 SIP 標題如下例所示：
+在可以處理傳入或外接通話之前，SIP Proxy 和 SBC 之間會交換 OPTIONS 訊息。 這些選項訊息允許 SIP Proxy 提供 SBC 允許的功能。 在 200OK 回應 (選項的協商) ，允許 SBC 和 SIP Proxy 之間的進一步通訊，以建立通話。 選項訊息中 SIP Proxy 的 SIP 標題如下例所示：
 
 | 參數名稱 | 值範例 | 
 | :---------------------  |:---------------------- |
@@ -43,7 +43,7 @@ ms.locfileid: "61041265"
 | 連絡人標題 | 聯繫： <sip:sbc1.adatum.biz:50588;transport=tls> |
 
 > [!NOTE]
-> SIP 標頭在使用的 SIP URI 中不包含 userinfo。 根據 [RFC 3261，第 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1)節，URI 的使用者資訊部分為選擇性，當目的地主機沒有使用者的概念，或當 hosst 本身為所識別的資源時，可能會不存在。 如果 SIP URI 中出現 @ 符號，則使用者欄位不能是空的。
+> SIP 標頭在使用的 SIP URI 中不包含 userinfo。 根據 [RFC 3261，第 19.1.1](https://tools.ietf.org/html/rfc3261#section-19.1.1)節，URI 的使用者資訊部分為選擇性，當目的地主機沒有使用者的概念，或當 hosst 本身為識別的資源時，可能會不存在。 如果 SIP URI 中出現 @ 符號，則使用者欄位不能是空的。
 > 請注意，SIPS URI 不應與直接路由一起使用，因為它不受支援。
 > 檢查會話邊界控制器的組式，確定您未在 SIP 要求中使用「取代」標題。 直接路由會拒絕已定義取代標題的 SIP 要求。
 
@@ -85,7 +85,7 @@ ms.locfileid: "61041265"
 
    Microsoft 不支援在 Microsoft SIP Proxy 與配對 SBC 之間擁有協力廠商 SIP Proxy 或使用者代理伺服器，這可能會修改配對 SBC 所建立的要求 URI。
 
-   本文稍後會 (將一個 SBC 與許多租使用者 (電信企業案例) 相互連接時，需要的步驟 2 和) 3) 來瞭解這兩個檢查的需求。
+   本文稍後會 (將一個 SBC 與許多租使用者 (電信) 相互連接的情況下，需要的步驟 2 和) 3) 來瞭解兩個檢查的需求。
 
 ### <a name="detailed-requirements-for-contact-header-and-request-uri"></a>連絡人標題和 Request-URI 的詳細需求
 
@@ -95,15 +95,15 @@ ms.locfileid: "61041265"
 
 語法：連絡人：<sip：phone 或 sip address@FQDN sBC;transport=tls> 
 
-根據 [RFC 3261，第 11.1](https://tools.ietf.org/html/rfc3261#section-11.1)節，連絡人標題欄位可能會存在於 OPTIONS 訊息中。 在直接路由中，連絡人標題為必填專案。 針對上述格式的 INVITE 郵件，針對 OPTIONS 郵件，使用者可以從 SIP URI 移除使用者資訊，且只有 FQDN 會以以下格式送出：
+根據 [RFC 3261，第 11.1](https://tools.ietf.org/html/rfc3261#section-11.1)節，連絡人標題欄位可能存在於 OPTIONS 訊息中。 在直接路由中，連絡人標題為必填專案。 針對上述格式的 INVITE 郵件，針對 OPTIONS 郵件，使用者可以從 SIP URI 移除使用者資訊，且只有 FQDN 會以以下格式送出：
 
-語法：連絡人：<sip：SBC 的 FQDN;transport=tls>
+語法：Contact：<sip：SBC;transport=tls>
 
 FQDN (名稱) 也必須在所提交憑證的 (或) 名稱欄位。 Microsoft 支援在憑證的 (或) 名稱欄位中使用名稱的萬用字元值。   
 
-RFC [2818 第 3.1](https://tools.ietf.org/html/rfc2818#section-3.1)節說明萬用字元的支援。 特別：
+[RFC 2818 第 3.1 節說明萬用字元的支援](https://tools.ietf.org/html/rfc2818#section-3.1)。 特別：
 
-*「名稱可能包含萬用字元，視為符合任何 \* 單一功能變數名稱元件或元件片段。例如 \* ，.a.com 符合 foo.a.com，bar.foo.a.com f .com 符合 \* foo.com，bar.com」。*
+*「名稱可能包含萬用字元 \* ，視為符合任何單一功能變數名稱元件或元件片段。例如，.a.com \* 符合 foo.a.com，bar.foo.a.com.f.com \* foo.com，bar.com」。*
 
 如果 SBC 會送出 SIP 郵件中呈現的連絡人標題中的多個值，則只會使用連絡人標題第一個值的 FQDN 部分。
 
@@ -136,15 +136,15 @@ SIP Proxy 需要計算新對話方塊用戶端交易的下一躍點 FQDN (例如
 
 若未使用 Proxy SBC，Microsoft 建議只使用連絡人標題：
 
-- 每個 [RFC 3261，第 20.30](https://tools.ietf.org/html/rfc3261#section-20.30)節 ，Record-Route 是當 Proxy 想要在對話方塊中維持未來要求的路徑時，會使用 ，如果系統未針對 Microsoft SIP Proxy 與配對 SBC 之間的所有流量進行任何 Proxy SBC 的組組，則這不一定必要。 
+- 如果 Proxy 想要在對話方塊中維持未來要求的路徑，則每個 [RFC 3261，第 20.30](https://tools.ietf.org/html/rfc3261#section-20.30)、Record-Route 節會使用，如果系統未針對 Microsoft SIP Proxy 與配對 SBC 之間的所有流量進行任何 Proxy SBC 的建立，則這一點並不必要。 
 
-- Microsoft SIP Proxy 只會使用連絡人標題 (而非 Record-Route) 傳送出站 ping 選項時決定下一個躍點。 在連絡人 (中) 只設定一個參數， (連絡人和 Record-Route) 可簡化系統管理 ，如果 Proxy SBC 並未使用。 
+- Microsoft SIP Proxy 只會使用連絡人標題 (而非 Record-Route) 傳送出站 ping 選項時決定下一個躍點。 若不使用 proxy SBC (，) 只設定一個參數， (連絡人和記錄路由) 可簡化系統管理。 
 
 若要計算下一個躍點，SIP Proxy 會使用：
 
 - 優先順序 1。 頂層的 Record-Route。 如果頂層Record-Route包含 FQDN 名稱，FQDN 名稱會用來建立出站對話方塊連接。
 
-- 優先順序 2。 連絡人標題。 如果Record-Route，SIP Proxy 會尋找連絡人標頭的值，以建立外發連接。  (這是建議的組) 
+- 優先順序 2。 連絡人標題。 如果Record-Route，SIP Proxy 會尋找連絡人標頭的值，以建立出站連接。  (這是建議的組) 
 
 如果同時使用連絡人Record-Route，SBC 系統管理員必須保持其值相同，這會造成系統管理負荷。 
 
@@ -181,17 +181,17 @@ Teams使用者可能同時有多個端點。 例如，Teams用戶端Windows，Te
 -   已接受通話 - 由 SIP Proxy 轉換成 SIP 訊息 200 與 SDP。 收到郵件 200 時，SBC 預期會傳送和接收來自提供的 SDP 候選人的媒體。
 
     > [!NOTE]
-    > 直接路由不支援沒有 SDP (延遲優惠邀請) 。
+    > 直接路由不支援沒有 SDP (的延遲優惠邀請) 。
 
 #### <a name="multiple-endpoints-ringing-with-provisional-answer"></a>多個端點以暫發性答案響鈴
 
 1.  從 SBC 接收第一個邀請時，SIP Proxy 會傳送「SIP/2.0 100 嘗試」訊息，並通知所有使用者端點有關來電。 
 
-2.  通知後，每個端點都會開始響鈴，並傳送「通話進度」訊息至 SIP Proxy。 因為Teams使用者可以有多個終點，SIP Proxy 可能會收到多個通話進度訊息。
+2.  通知後，每個端點都會開始響鈴，並傳送「通話進度」訊息至 SIP Proxy。 由於使用者Teams多個端點，SIP Proxy 可能會收到多個通話進度訊息。
 
-3.  針對從用戶端收到的每一則通話進度訊息，SIP Proxy 會將通話進度訊息轉換為 SIP 訊息「SIP/2.0 180 嘗試」。 傳送這類郵件的間隔是由從呼叫控制器接收郵件的間隔所定義。 在下列圖表中，SIP Proxy 產生兩個 180 個郵件。 這些訊息來自使用者的兩Teams端點。 每個用戶端都有唯一的標記識別項。  每個來自不同端點的郵件都會是一個獨立的會話 (在 "To" 欄位中的參數 "tag" 會) 。 但端點可能不會立即產生訊息 180 並傳送訊息 183，如下圖所示。
+3.  針對從用戶端收到的每一則通話進度訊息，SIP Proxy 會將通話進度訊息轉換為 SIP 訊息「SIP/2.0 180 響鈴」。 傳送這類郵件的間隔是由從呼叫控制器接收郵件的間隔所定義。 在下列圖表中，SIP Proxy 產生兩個 180 個郵件。 這些訊息來自使用者的兩Teams端點。 每個用戶端都有唯一的標記識別項。  每一則來自不同端點的郵件都會是一個獨立的會話 (「至」欄位中的參數「標記」會) 。 但端點可能不會立即產生訊息 180 並傳送訊息 183，如下圖所示。
 
-4.  端點產生包含端點媒體候選者 IP 位址的 Media Answer 訊息後，SIP Proxy 會將收到的訊息轉換成「SIP 183 會話進度」訊息，而用戶端的 SDP 會由媒體處理器的 SDP 取代。 在下列圖表中，Fork 2 的端點已接電話。 如果主幹未被忽略，則只有一次 183 SIP 訊息 (Ring Bot 或用戶端結束點) 。 183 可能位於現有的分叉上，或開始新的分叉。
+4.  端點產生包含端點媒體候選者 IP 位址的 Media Answer 訊息後，SIP Proxy 會將收到的訊息轉換成「SIP 183 會話進度」訊息，而用戶端的 SDP 會由媒體處理器的 SDP 取代。 在下列圖表中，Fork 2 的端點已接電話。 如果主幹未被忽略，則只有一次 183 SIP 訊息 (Ring Bot 或用戶端) 。 183 可能位於現有的分叉上，或開始新的分叉。
 
 5.  電話接受訊息會與接受通話之端點的最終候選者一起送出。 通話接受訊息會轉換成 SIP 訊息 200。 
 
@@ -213,7 +213,7 @@ Teams使用者可能同時有多個端點。 例如，Teams用戶端Windows，Te
 
 ### <a name="media-bypass-flow"></a>媒體旁路流程
 
-媒體旁 (100 嘗試、180、183) 相同的訊息。 
+在媒體旁 (100 嘗試、180、183) 使用相同的訊息。 
 
 下列架構顯示旁路通話流程的範例。 
 
@@ -252,7 +252,7 @@ SIP Proxy 會根據 SBC 報告的功能來選取方法。 如果 SBC 指出它�
 ALLOW: INVITE, OPTIONS, INFO, BYE, CANCEL, ACK, PRACK, UPDATE, REFER, SUBSCRIBE, NOTIFY
 ```
 
-如果 SBC 未指出引用為支援的方法，則直接路由會使用選項 1，SIP proxy (做為仲裁者) 。 SBC 也必須發出支援 Notify 方法的訊號：
+如果 SBC 未指出引用為支援的方法，則直接路由會使用選項 1， (SIP Proxy 會做為) 。 SBC 也必須發出支援 Notify 方法的訊號：
 
 表示不支援引用方法的 SBC 範例：
 
@@ -264,7 +264,7 @@ ALLOW: INVITE, ACK, CANCEL, BYE, INFO, NOTIFY, PRACK, UPDATE, OPTIONS
 
 如果 SBC 指出不支援引用方法，SIP Proxy 會做為仲裁者。 
 
-來自用戶端的參考要求將在 SIP Proxy 上終止。  (下圖中，用戶端的 「轉接至 Dave」要求會顯示為「來電轉接至 Dave」。  詳細資訊，請參閱 [RFC 3892 的第 7.1 節](https://www.ietf.org/rfc/rfc3892.txt)。 
+來自用戶端的參考要求將在 SIP Proxy 上終止。  (下列圖表中，用戶端的 「轉接至 Dave」要求會顯示為「來電轉接至 Dave」。  詳細資訊，請參閱 [RFC 3892](https://www.ietf.org/rfc/rfc3892.txt)的第 7.1 節。 
 
 > [!div class="mx-imgBorder"]
 > ![顯示多個端點以暫時答案響鈴的圖表。](media/direct-routing-protocols-4.png)
@@ -279,14 +279,14 @@ RFC 5589 的第 6 節說明標準。 相關的 RFC 為：
 
 - [SIP 中的會話初始 (「) 取代」標頭](https://tools.ietf.org/html/rfc3891)
 
-- [SIP 的會話初始 (「) 引用」機制](https://tools.ietf.org/html/rfc3892)
+- [SIP 的會話初始 (「) 」機制](https://tools.ietf.org/html/rfc3892)
 
 此選項假設 SIP Proxy 會做為傳輸器，並傳送一則參考訊息給 SBC。 SBC 會做為受讓人，並處理參照以產生新的移轉優惠。 有兩種可能的情況：
 
 - 通話會轉接給外部 PSTN 參與者。 
-- 通話會透過 SBC 從一位Teams轉接Teams同一個租使用者中的另一位使用者。 
+- 通話會透過 SBC Teams同一個租使用者Teams另一位使用者轉接。 
 
-如果呼叫是透過 SBC 從一位 Teams 使用者轉接到另一個使用者，SBC 會使用 [參考訊息中收到的資訊 (針對 Teams) 使用者 (啟動新的對話方塊) 。 
+如果呼叫是透過 SBC 從一位 Teams 使用者轉接到另一個使用者，則 SBC 預期會使用 [參考訊息中收到的資訊 (為 (Teams 使用者) 啟動新的對話方塊) 。 
 
 若要在內部填入要求交易之 To/Transferor 欄位，SIP Proxy 需要在 REFER-TO/REFERRED-BY 標頭內傳達此資訊。 
 
@@ -312,7 +312,7 @@ REFERRED-BY 標頭是 SIP URI，其內編碼為傳輸器 MRI，以及傳輸器�
 
 ## <a name="session-timer"></a>會話計時器
 
-SIP Proxy 支援 (在) 通話時提供會話計時器，但不在旁路通話時提供。 SBC 不會強制使用會話計時器。
+SIP Proxy 支援 (在非) 通話時提供會話計時器，但不在旁路通話時提供。 SBC 不會強制使用會話計時器。
 
 ##  <a name="use-of-request-uri-parameter-userphone"></a>Request-URI 參數 user=phone 的使用
 
@@ -322,20 +322,20 @@ Microsoft 建議一直使用 user=phone 參數，以簡化通話設定程式。
 
 ## <a name="history-info-header"></a>History-Info頁標題
 
-History-Info頁標題用於重新置放 SIP 要求，並「提供 (s) 一種標準機制，以捕獲要求歷程記錄資訊，為網路和使用者啟用各式各樣的服務」。 詳細資訊，請參閱 [RFC 4244 – 第 1.1 節](http://www.ietf.org/rfc/rfc4244.txt)。 針對 Microsoft 電話，此標頭用於 Simulring 和來電轉接案例。  
+History-Info頁標題用於重新置放 SIP 要求，並「提供 (s) 一種標準機制，以捕獲要求歷程記錄資訊，為網路和使用者啟用各式各樣的服務」。 詳細資訊請參閱 [RFC 4244 – 第 1.1 節](http://www.ietf.org/rfc/rfc4244.txt)。 針對 Microsoft 電話，此標頭用於 Simulring 和來電轉接案例。  
 
 如果傳送，History-Info啟用方式如下：
 
-- SIP Proxy 會插入一個參數，在個別的History-Info中，包含一個包含History-Info標題至 PSTN 控制器的郵件。  PSTN 控制器只會使用具有電話號碼參數的項，重建新的 History-Info標題，然後透過 SIP Proxy 將它傳遞至 SIP 主幹提供者。
+- SIP Proxy 會插入一個參數，在個別的History-Info中，包含要History-Info PSTN 控制器的頁History-Info相關聯的電話號碼。  PSTN 控制器只會使用具有電話號碼參數的項，重建新的 History-Info標頭，然後透過 SIP Proxy 將它傳遞至 SIP 主幹提供者。
 
 - History-Info同時撥打和呼叫轉譯的情況下，會新增一個標題。
 
-- History-Info轉接案例時，系統不會新增標題。
+- History-Info轉接案例不會新增標題。
 
-- 重新建立之 History-Info 標題中的個別歷程記錄專案，會提供電話號碼參數，並結合直接路由 FQDN (sip.pstnhub.microsoft.com) 設為 URI 的主機部分;'user=phone' 的參數會新增為 SIP URI 的一部分。  與原始頁History-Info關聯的任何其他參數，除了電話上下文參數之外，都會在重新建構的 History-Info標頭中傳遞。  
+- 重新建立之 History-Info 標題中的個別歷程記錄專案，會提供電話號碼參數，並結合直接路由 FQDN (sip.pstnhub.microsoft.com) 設為 URI 的主機部分;'user=phone' 的參數會新增為 SIP URI 的一部分。  與原始 History-Info 標頭相關聯的任何其他參數 ，除了電話上下文參數之外，都會在重新建構的 History-Info標頭中傳遞。  
 
   > [!NOTE]
-  > 由 RFC 4244 (3.3 中定義的機制所決定之私人專案) 將會轉出，因為 SIP 主幹提供者是信任的對等體。
+  > 由 RFC 4244 (3.3 中定義的機制所定義的私人專案) 將會轉轉，因為 SIP 主幹提供者是信任的對等體。
 
 - 內History-Info會被忽略。
 
@@ -364,14 +364,14 @@ History-Info受強制 TLS 機制保護。
 
 ## <a name="retry-after"></a>Retry-After
 
-如果直接路由資料中心忙碌，服務可以傳送一Retry-After一秒間隔的訊息給 SBC。 當 SBC 收到 503 郵件，Retry-After標題以回應 INVITE 時，SBC 必須終止該連接，並嘗試下一個可用的 Microsoft 資料中心。
+如果直接路由資料中心忙碌，服務可以傳送一Retry-After一秒間隔的訊息給 SBC。 當 SBC 收到 503 郵件時，Retry-After標題回應 INVITE 時，SBC 必須終止該連接，並嘗試下一個可用的 Microsoft 資料中心。
 
 ## <a name="handling-retries-603-response"></a>處理 603 回應 (重試) 
 如果使用者在拒絕來電後，發現一個通話數次未接來電，這表示 SBC 或 PSTN 主幹提供者的重試機制配置錯誤。 必須重新配置 SBC，以停止 603 回應上的重試作業。
 
 ## <a name="ice-restart-media-bypass-call-transferred-to-an-endpoint-that-does-not-support-media-bypass"></a>ICE 重新開機：轉接到不支援媒體旁路的端點的媒體旁路通話
 
-SBC 必須支援 [RFC 5245 章節 9.1.1.1 中所述](https://tools.ietf.org/html/rfc5245#section-9.1.1.1)的 ICE 重新開機。
+SBC 必須支援 [RFC 5245 章節 9.1.1.1 中所述的 ICE 重新開機](https://tools.ietf.org/html/rfc5245#section-9.1.1.1)。
 
 直接路由中的重新開機會根據 RFC 的下列段落進行：
 
@@ -379,4 +379,4 @@ SBC 必須支援 [RFC 5245 章節 9.1.1.1 中所述](https://tools.ietf.org/html
 
 *代理程式會設定此媒體流 SDP 中其餘的欄位，就像初次提供此媒體流時一樣 (請參閱第 4.3 節) 。 因此，一組候選者可能包括該串流的部分、無或所有先前的候選者，而 MAY 則包含第 4.1.1 節所述收集的一組全新的候選者。*
 
-如果通話一開始是使用媒體旁路建立，而通話已轉接至 商務用 Skype 用戶端，則直接路由需要插入媒體處理器，這是因為直接路由無法與具有媒體旁路的 商務用 Skype 用戶端一起使用。 直接路由會變更 ice-pwd 和 ice-ufrag，並再次提供新的媒體候選項目，以啟動 ICE 重新開機程式。
+如果通話一開始是使用媒體旁路建立，而通話已轉接至 商務用 Skype 用戶端，則直接路由需要插入媒體處理器，這是因為直接路由無法與具有媒體旁通的 商務用 Skype 用戶端一起使用。 直接路由會變更 ice-pwd 和 ice-ufrag，並再次提供新的媒體候選項目，以啟動 ICE 重新開機程式。

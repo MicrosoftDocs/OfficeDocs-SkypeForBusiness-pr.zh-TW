@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在組織中管理標記在 Microsoft Teams 中Microsoft Teams。
-ms.openlocfilehash: 2e099c611cbbfd22cc2cc32c189edc8243ea362d
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: af9855f1ca771cb9f5d4739194e26cba746859ff
+ms.sourcegitcommit: caaed4b48b8f2b05d035c1bdea00a61301bc9f05
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711577"
+ms.locfileid: "63740200"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>在 Microsoft Teams
 
@@ -35,7 +35,7 @@ ms.locfileid: "63711577"
 - **以班次標記**：使用這項功能，人員會自動在 Teams 的 [Shifts](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)應用程式中指派符合其排程和班組名的Teams。 例如，在聊天或頻道貼文使用標記時，「EngineerOnCall」標記會到達所有排程在 Shifts 中工作的工程師。 使用輪班標記Teams，當使用者需要快速轉傳資訊時，您不用猜測輪班員工的名稱。 以班次標記也可以由 JDA、Kronos 和 AMiON 等主要員工管理系統做為後盾，將它們與公司中的 Shifts Teams。 若要深入瞭解如何設定此功能，請參閱設定班次 [標記](#set-up-tagging-by-shift)。
 
 > [!NOTE]
-> 私人或共用頻道不支援標記。 在 DoD 組織或 DoD (中) 標記。 
+> 私人或共用頻道不支援標記。  
 
 ## <a name="how-tags-work"></a>標記如何工作
 

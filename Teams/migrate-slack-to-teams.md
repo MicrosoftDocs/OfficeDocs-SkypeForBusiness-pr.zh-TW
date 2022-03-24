@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: 從 Slack 移轉到 Microsoft Teams 的完全指引。
-ms.openlocfilehash: 9342c7e251cc7466df0d70e8cb699d7e514455b4
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 7879e839c8f5597761827fe42ea75b1f0c8dddf9
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456353"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711887"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>從 Slack 移轉到 Microsoft Teams
 
@@ -55,7 +55,7 @@ ms.locfileid: "59456353"
 ### <a name="assess-your-slack-workspaces"></a>評估您的 Slack 工作區
 在可規劃組織的移轉方案之前，您必須先集結一些與 Slack 工作區相關的資訊。 了解您 Slack 工作區的使用方式將幫助您決定移轉的範圍。 例如，要移轉多少工作區？ 是由某個特定部門、許多部門，還是由整個組織使用？
 
-如果您屬於打算移轉之 Slack 工作區的成員之一，您可以前往 *\<your Slack workspace\>.slack.com/stats* 來自行分析使用方式。查看 [頻道] 和 [成員] 索引標籤以尋找使用模式。 決定要移轉何種工作區 (以及要留下哪些工作區)。 
+如果您屬於打算移轉之 Slack 工作區的成員之一，您可以前往 *\<your Slack workspace\>.slack.com/stats* 來自行分析使用方式。查看 [頻道] 和 [成員] 索引標籤以尋找使用模式。決定要移轉何種工作區 (以及要留下哪些工作區)。 
 
 > [!NOTE]
 > 如果您沒有統計資料頁面的存取權，您就不是系統管理員或擁有者。 

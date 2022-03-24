@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Microsoft Teams 中的來賓存取可將團隊和頻道的存取權授與給組織外部人員，讓貴組織中的團隊與組織外部的人員共同作業。
-ms.openlocfilehash: 8ea0ae05823a1f7402d6a41f51794d0a169faf43
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 99a17d521f0d244083c527803916bf8946730789
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457253"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711447"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Microsoft Teams 中的來賓存取
 
@@ -35,16 +35,18 @@ ms.locfileid: "62457253"
 
 來賓是在您組織中沒有學校或公司帳戶的人。 例如，來賓可能包括有合作夥伴、廠商、供應商或顧問。 只要是不屬於貴組織成員的任何人都可以在 Teams 中新增為來賓。 這表示任何擁有商務帳戶（也就是 Azure Active Directory 帳戶）或消費者電子郵件帳戶（使用 Outlook.com、Gmail.com 或其他）的人員都能以來賓身分參與 Teams，擁有對團隊和頻道體驗的存取權。
 
-Teams 中的來賓與其他部分的 Microsoft 365 一樣，都受到相同的合規性和稽核保護，且可在 Azure AD 中管理這些來賓。 來賓存取受到 Azure AD 和 Microsoft 365 或 Office 365 服務的限制。
+當您邀請來賓加入 Teams，系統會在 Azure Active Directory 中為他們建立來賓帳戶，並且與其他 Microsoft 365 使用者一樣受到相同的合規性和稽核保護。 來賓存取受到 Azure AD 和 Microsoft 365 服務的限制。
 
-來賓體驗有刻意設計的限制。 有關來賓可以在 Teams 中執行或無法執行之動作清單，請參閱 [Microsoft Teams 中的來賓存取](guest-experience.md)。
+來賓體驗有刻意設計的限制。有關來賓可以在 Teams 中執行或無法執行之完整清單，請參閱 [Microsoft Teams 中的來賓存取](guest-experience.md)。
 
 > [!IMPORTANT]
 > 對於共存的升級模式，來賓遵循 Teams 的全組織設定。這項設定無法變更。
 
-若要設定來賓存取，請參閱 [在小組中與來賓共同作業](/microsoft-365/solutions/collaborate-as-team)。 
-
 若要比較外部存取 (同盟) 和來賓存取 (並決定您應使用的方式)，請閱讀[在 Teams 中與其他組織的使用者通訊](communicate-with-users-from-other-organizations.md)。
+
+共用頻道提供一個來賓存取的替代方式，可讓您邀請組織外部人員，而不需要有 Azure AD 中的來賓帳戶。 若要比較來賓存取權與共享頻道，請參閱 [規劃外部共同作業](/microsoft-365/solutions/plan-external-collaboration)。
+
+若要設定來賓存取，請參閱 [在小組中與來賓共同作業](/microsoft-365/solutions/collaborate-as-team)。 
 
 ## <a name="set-up-guest-access"></a>設定來賓存取
 

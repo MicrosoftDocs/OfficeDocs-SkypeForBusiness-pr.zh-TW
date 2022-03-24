@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442339"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774012"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>管理應用程式中的應用程式設定Microsoft Teams
 
@@ -35,6 +35,9 @@ ms.locfileid: "63442339"
 - **Upload自訂應用程式：** App 設定政策讓您允許使用者將自訂應用程式上傳至Teams。 詳細資訊請參閱自訂[Upload應用程式](#upload-custom-apps)。
 
 ## <a name="pin-apps"></a>釘上應用程式
+
+> [!NOTE]
+> 針對貴組織的前線員工，建議您使用量身打造的前線應用程式體驗。 此功能會針對擁有 F 授權的使用者Teams中最相關的[應用程式](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt)。 若要深入瞭解，請參閱為[前線Teams量身打造應用程式](pin-teams-apps-based-on-license.md)。
 
 釘上應用程式可讓您展示貴組織中使用者所需的應用程式，包括由協力廠商或貴組織的開發人員所建立的應用程式。
 

@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的私人頻道。
-ms.openlocfilehash: 097c7e4c43c6127b59423cab94b97ac949a2df57
-ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
+ms.openlocfilehash: 908432588c1744027b03efee44b9506ea4388fa2
+ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63463746"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63761917"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人頻道
 
@@ -97,7 +97,7 @@ Teams 會管理私人頻道網站的生命週期。如果在 Teams 以外刪除�
 如果還原私人頻道或含有私人頻道的小組，則會一併還原網站。 如果私人頻道網站已還原，且超過私人頻道的 30 天虛刪除時機，則網站會以獨立網站的方式運作。
 
 > [!NOTE]
-> 在 Microsoft Teams 中建立新團隊或私人頻道時，會自動在 SharePoint 中建立小組網站。 若要編輯此小組網站的網站描述或分類，請前往對應頻道的 [Microsoft Teams 中的設定](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d)。
+> 在 Microsoft Teams 中建立新小組、私人或共用頻道時，會自動在 SharePoint 中建立小組網站。 若要編輯此小組網站的網站描述或分類，請前往對應頻道的 [Microsoft Teams 中的設定](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d)。
 >
 > 深入了解如何管理 [Microsoft Teams 連線的小組網站](/SharePoint/teams-connected-sites)。
 
@@ -105,7 +105,7 @@ Teams 會管理私人頻道網站的生命週期。如果在 Teams 以外刪除�
 
 在私人頻道中傳送的訊息合規性複本會傳送到所有私人頻道成員的信箱，而不是傳送到群組信箱。 合規性複本的標題會有格式設定，指出寄自哪一個私人頻道。
 
-如需有關以「電子文件探索」搜索私人頻道訊息的詳細資訊，請參閱[私人頻道的電子文件探索](ediscovery-investigation.md#ediscovery-of-private-channels)。
+如需有關以「電子文件探索」搜索私人頻道訊息的詳細資訊，請參閱[私人頻道的電子文件探索](ediscovery-investigation.md#ediscovery-of-private-and-shared-channels)。
 
 ## <a name="considerations-around-file-access-in-private-channels"></a>私人頻道檔案存取權的考量
 
@@ -123,11 +123,15 @@ Teams 會管理私人頻道網站的生命週期。如果在 Teams 以外刪除�
 
 當您從現有小組建立小組時，不會複製現有小組中任何的私人頻道。
 
-目前未接的活動電子郵件中不會包含來自私人頻道的通知。
+無法將私人頻道轉換成其他頻道類型。
+
+來自私人頻道的通知不會包含在錯過的活動電子郵件中。
 
 無法排程頻道會議。
 
 ## <a name="related-topics"></a>相關主題
+
+[Microsoft Teams 中的共用頻道](/MicrosoftTeams/shared-channels)
 
 [Teams 的小組和頻道概觀](teams-channels-overview.md)
 

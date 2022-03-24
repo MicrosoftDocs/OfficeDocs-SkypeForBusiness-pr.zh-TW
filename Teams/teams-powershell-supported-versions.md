@@ -12,16 +12,16 @@ ms.collection:
 description: 瞭解 PowerShell 模組支援Teams，用於管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9254afde824f072f6015531b90f4cacfb38acafe
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: ea8a755c75c5f91c5dbf3a4cd4dd749ac576557c
+ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63689083"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63762007"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 模組 - 支援的版本
 
-Microsoft Teams PowerShell 模組 (4.x.x) 系列中的 TPM 模組版本將是唯一支援的版本。 所有較舊版本都位於停用路徑上。
+Microsoft Teams PowerShell 模組 (4.0.0) 版本或更新版本，將是唯一支援的版本。 所有較舊版本都位於停用路徑上。
 
 
 
@@ -39,8 +39,7 @@ Microsoft Teams PowerShell 模組 (4.x.x) 系列中的 TPM 模組版本將是唯
 
 ## <a name="current-organizations-tpm-active"></a>目前使用 TPM (的組織) 
 
-過去三個月使用 TPM 的組織 (年 1 月 22 日 - 3 月 22 日) 將有更多的時間更新至 TPM 4.x.x。 近期要追蹤的更多詳細資料。
-
+過去三個月使用 TPM 的組織 (年 1 月 22 日 -) 年 3 月 22 日只能使用 TPM 4.0.0 或更新版，自 2022 年 6 月 15 日起。 建議您將 PowerShell 模組Teams更新至最新版本。
 
 
 ## <a name="important-notes"></a>重要記事
