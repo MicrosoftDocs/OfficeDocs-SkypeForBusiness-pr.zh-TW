@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: 瞭解如何在共用內容Teams管理會議策略設定。
-ms.openlocfilehash: 6c713800aa0f95c7adfd6655455e6ff332f91595
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: dccf36a257cde5731c140f2000e3d0733d3366c3
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205313"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403984"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>會議原則設定 - 內容共用
 
@@ -35,8 +35,8 @@ ms.locfileid: "61205313"
 - [螢幕畫面分享模式](#screen-sharing-mode)
 - [允許參與者授與或要求控制權](#allow-a-participant-to-give-or-request-control)
 - [允許外部參與者授與或要求控制權](#allow-an-external-participant-to-give-or-request-control)
-- [PowerPoint共用](#powerpoint-sharing)
-- [Whiteboard](#whiteboard)
+- [PowerPoint Live](#powerpoint-live)
+- [白板](#whiteboard)
 - [共用筆記](#shared-notes)
 
 ## <a name="screen-sharing-mode"></a>螢幕畫面分享模式
@@ -99,26 +99,26 @@ Daniela 可以將共用桌面或視窗的控制權授予由巴可克組織之會
 
 若要使用 PowerShell 來控制外部參與者是否可以授與控制權或接受控制的要求，請使用 AllowExternalParticipantGiveRequestControl Cmdlet。
 
-### <a name="powerpoint-sharing"></a>PowerPoint共用
+### <a name="powerpoint-live"></a>PowerPoint Live
 
 這是每一使用者原則。 此設定可控制使用者是否可以在會議中分享 PowerPoint 投影片組。 外部使用者 (包括匿名、來賓和同盟使用者) 會繼承會議召集人的原則。
 
 讓我們看看下列範例。
 
-|使用者 |會議原則  |PowerPoint共用 |
+|使用者 |會議原則  |PowerPoint Live |
 |---------|---------|---------|
 |Daniela   | 全域   | 開啟       |
 |Amanda   | Location1MeetingPolicy        | 關閉   |
 
 即使 Amanda 是會議召集人，也無法在會議中分享 PowerPoint 投影片組。 即使會議是由 Amanda 召集，Daniela 也可以分享 PowerPoint 投影片組。 Amanda 可以檢視其他人在會議中分享的 PowerPoint 投影片組，不過她無法分享 PowerPoint 投影片組。
 
-## <a name="whiteboard"></a>Whiteboard
+## <a name="whiteboard"></a>白板
 
 此設定是每個使用者的策略。 此設定可控制使用者是否可以在會議中分享白板。 外部使用者 (包括匿名、B2B 和同盟使用者) 會繼承會議召集人的原則。
 
 讓我們看看下列範例。
 
-|使用者 |會議原則  |Whiteboard|
+|使用者 |會議原則  |白板|
 |---------|---------|---------|
 |Daniela   | 全域   | 開啟       |
 |Amanda   | Location1MeetingPolicy        | 關閉   |
