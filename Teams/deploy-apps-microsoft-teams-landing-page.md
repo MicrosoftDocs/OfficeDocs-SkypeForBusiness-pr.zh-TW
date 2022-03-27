@@ -18,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3a9566ceb6d99bb7d665efea975ecee048607dc9
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: be7ee83b510096d8d6ffc0c4a0a5984917ad55c5
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442499"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403974"
 ---
-# <a name="apps-bots--connectors-in-microsoft-teams"></a>Microsoft Teams 中的應用程式、Bot 和連接器
+# <a name="about-apps-in-microsoft-teams"></a>關於 Microsoft Teams 中的應用程式
 
 應用程式可讓您透過喜好服務尋找內容，並在 Teams 中分享它。 他們可幫助您執行作業，例如在頻道最上方釘選服務、與 Bot 聊天或共用及指派工作。 若要深入了解，請參閱[ Teams 中的應用程式概觀](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
 
@@ -33,19 +33,19 @@ ms.locfileid: "63442499"
 
 ## <a name="use-microsoft-provided-apps"></a>使用 Microsoft 提供的應用程式
 
-Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核准等。 建議您在一開始推出 Teams 時能夠包含 Teams 的精選應用程式，例如 Planner。 在推廣 Teams 的採用時，新增其他應用程式、Bot 和連接器。
+Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核准等。 建議您在初始推出 Teams 時包括 Teams 的精選應用程式，例如 Planner。 在推廣 Teams 的採用時，新增其他應用程式、Bot 和連接器。
 
 ## <a name="use-third-party-apps"></a>使用協力廠商應用程式
 
 除了 Microsoft 提供的應用程式之外，您還可以使用 Microsoft 認證的協力廠商應用程式。Microsoft 與 Microsoft 365 開發人員合作夥伴合作，以提供以加快使用 Teams 應用程式和增益集的決策所需的資訊。如需詳細資訊，請參閱 [Microsoft Teams 應用程式安全性與合規性](/microsoft-365-app-certification/teams/teams-apps)。
 
-## <a name="use-teams-templates"></a>使用 Teams 範本
+## <a name="use-open-source-sample-apps-provided-by-microsoft"></a>使用 Microsoft 提供的開放來源範例應用程式
 
 您也可以使用 [Teams 範本](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)，其為針對由社群驅動、開放原始碼且可在 GitHub 上取得的適用於 Microsoft Teams 的生產就緒應用程式。
 
 ## <a name="create-custom-apps"></a>建立自訂應用程式
 
-您可以使用與 [Microsoft Power Platform](teams-power-platfom-integration.md) 的 Teams 整合來快速建立自訂低程式碼解決方案。 您也可以建立自己的自訂應用程式，以符合您的商務需求。 如需詳細資訊，請參閱[為 Microsoft Teams 建立應用程式](/microsoftteams/platform/overview)。  
+您可以使用與 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) 的 Teams 整合來快速建立自訂低程式碼解決方案。 您也可以建立自己的自訂應用程式，以符合您的商務需求。 如需詳細資訊，請參閱[為 Microsoft Teams 建立應用程式](/microsoftteams/platform/overview)。  
 
 ## <a name="apps-deployment-decisions"></a>應用程式部署決策
 
@@ -65,7 +65,6 @@ Teams 提供許多由 Microsoft 和第三方發行的應用程式，以吸引使
 | 問問自己 | 動作 |
 |--------------|--------|
 |您是否會變更預設的 Teams 應用程式設定？ | 如需可用來管理組織中的應用程式的原則和設定的詳細資訊，請參閱 [Microsoft Teams 中應用程式的系統管理設定](admin-settings.md)。|
-|||
 
 ### <a name="app-permissions-and-other-considerations"></a>應用程式權限和其他考量
 
@@ -76,7 +75,6 @@ Teams 提供許多由 Microsoft 和第三方發行的應用程式，以吸引使
 | 問問自己 | 動作 |
 |--------------|--------|
 |<br>我想允許哪些應用程式的存取權？ 我不想允許哪些應用程式的存取權？  | <ul><li>如需在允許應用程式、Bot、索引標籤或連接器的存取權時應考慮的事項清單，請參閱 [Microsoft Teams 應用程式權限和考量事項](app-permissions.md)。</li><li>如需提供應用程式讓貴組織的使用者使用的相關資訊，請參閱[在 Microsoft Teams 系統管理中心管理您的應用程式](manage-apps.md)。</li></ul>|
-|||
 
 ### <a name="bots-for-private-chats-and-channels"></a>適用於私人聊天和頻道的 Bot
 
@@ -85,7 +83,6 @@ Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨�
 | 問問自己 | 動作 |
 |--------------|--------|
 |我想要在我的組織中允許使用自訂 Bot 嗎？|如需新增 Bot 的詳細資訊，請參閱[在 Microsoft Teams 中新增適用於私人聊天和頻道的 Bot](/microsoftteams/platform/bots/what-are-bots)。 如需開啟或關閉自訂 Bot 的詳細資訊，請參閱 [Microsoft Teams 中應用程式的系統管理設定](admin-settings.md)。|
-|||
 
 ### <a name="built-in-and-custom-tabs"></a>內建和自訂索引標籤
 
@@ -94,7 +91,6 @@ Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨�
 | 問問自己 | 動作 |
 |--------------|--------|
 |我想要在我的組織中允許使用自訂索引標籤嗎？|如需詳細資訊，請參閱 [在 Teams 中使用內建和自訂索引標籤](built-in-custom-tabs.md)。|
-|||
 
 ### <a name="custom-connectors"></a>自訂連接器
 
@@ -103,7 +99,6 @@ Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨�
 | 問問自己 | 動作 |
 |--------------|--------|
 |我是否要允許使用者建立自訂連接器？|如需詳細資訊，請參閱[在 Teams 中使用自訂連接器](office-365-custom-connectors.md)。|
-|||
 
 ## <a name="additional-deployment-decisions"></a>其他部署決策
 
@@ -116,7 +111,6 @@ Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨�
 | 問問自己 | 動作 |
 |--------------|--------|
 | <br>誰需要查看活動報告，以及他們是否具備檢視報告的正確權限？ |<ul><li>如果您不想將系統管理員角色指派給使用者，您可以 [指派報告讀取者角色](teams-activity-reports.md#reports-reader-role)。</li><li>如需如何在 Azure Active Directory 中指派系統管理員角色的詳細資訊，請參閱[角色和權限](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 和[查看和指派角色](/azure/active-directory/users-groups-roles/directory-manage-roles-portal)。</li></ul> |
-|||
 
 ### <a name="app-templates"></a>應用程式範本
 
@@ -127,4 +121,3 @@ Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨�
 | 問問自己 | 動作 |
 |--------------|--------|
 | 我是否要安裝任何 Teams 應用程式範本，例如 Icebreaker？ |若要深入瞭解，請參閱 [Teams 的應用程式範本](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=MicrosoftTeams%2ftoc.json)。|
-|||

@@ -20,21 +20,20 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb32190c05dcbe165e203d9e4f097622d60943b8
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: f611afe731bc178759427efff2fe35d925ca0def
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763398"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403964"
 ---
 # <a name="get-started-with-teams-for-retail"></a>開始使用適用於零售的 Teams
 
-零售環境及其輪班排程和隨班人員的需求，與其他組織的需求非常不同。 若要讓零售組織獲得最大效益，您需先選擇 Teams 可以在日常商務作業中的哪些案例中幫助您，然後確定使用正確的基礎、團隊和應用程式來準備 Teams 環境以支援這些案例。
+零售環境及其輪班排程和隨班人員的需求，與其他組織非常不同。若要讓零售組織獲得最大效益，您需先選擇 Teams 可以在日常商務作業中的哪些情況提供您協助，然後確定您使用正確的基礎、團隊和應用程式來準備 Teams 環境以支援這些情況。
 
 1. [選擇您要為企業實作的案例](#choose-your-scenarios)。
 :::image type="content" source="../media/retail-teams-scenarios.png" alt-text="顯示適用於零售的 Teams 案例的圖表" lightbox="../media/retail-teams-scenarios.png":::。
-1. [設定基礎](#set-up-the-fundamentals) - 利用基礎支援您的員工：管理帳戶和裝置，並確保套用適當的 Teams 原則。
-:::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="顯示基礎的圖表，包括 Teams 原則、帳戶和裝置。" lightbox="../media/retail-teams-fundamentals.png":::
+1. [設定基礎](#set-up-the-fundamentals) - 利用基礎支援您的員工：管理帳戶和裝置，並確保套用適當的 Teams 原則。:::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="顯示基礎的圖表，包括 Teams 原則、帳戶和裝置。" lightbox="../media/retail-teams-fundamentals.png":::
 1. [設定團隊和應用程式](#set-up-teams-and-apps) - 使用團隊範本快速設定您需要的團隊，包括您企業所需的頻道和應用程式。 視需要新增來自 Microsoft 的其他應用程式，以支援您的案例。
 :::image type="content" source="../media/retail-teams-apps.png" alt-text="顯示可包含的團隊、團隊範本和應用程式的圖表。" lightbox="../media/retail-teams-apps.png":::
 
@@ -42,7 +41,7 @@ ms.locfileid: "62763398"
 
 ## <a name="choose-your-scenarios"></a>選擇您的案例
 
-Microsoft 365 和 Microsoft Teams 提供數種功能，可協助零售組織進行日常作業和數位轉型。 針對零售組織，我們建議下列案例：
+Microsoft 365 和 Microsoft Teams 提供數種功能，以協助零售組織日常營運和數位轉型。針對零售組織，我們建議下列案例：
 
 [![商店內通訊和共同作業。](../media/retail-scenarios-in-store.png)](#in-store-communication-and-collaboration) [![跨商店通訊和共同作業。](../media/retail-scenarios-cross-store.png)](#cross-store-communication-and-collaboration) [![虛擬試裝和諮詢。](../media/retail-scenarios-virtual-visits.png)](#virtual-fittings-and-consultations) [![簡化商務程序。](../media/retail-scenarios-business-processes.png)](#simplify-business-processes) [![企業通訊。](../media/retail-scenarios-corp-comms.png)](#corporate-communications) [![上線新員工。](../media/retail-scenarios-onboarding.png)](#onboarding-new-employees)
 
@@ -79,7 +78,7 @@ Microsoft Teams 中的 Bookings 應用程式提供組織一個簡單的方式，
 
 ### <a name="simplify-business-processes"></a>簡化商務程序
 
-您可以使用 Teams 應用程式、Power Apps 和 Power BI 來簡化商務程序。 例如，您可以：
+您可以使用 Teams 應用程式、Power Apps 和 Power BI 來簡化商務程序。例如，您可以：
 
 - 使用班次設定和維護員工的排程。
 - 使用 Power Apps 進行巡店和庫存清查。
@@ -156,7 +155,7 @@ Teams 與班次應用程式和前線工作者整合，可用於協調班次人�
 
 | Teams 應用程式和服務 | 描述 | 管理 | 說明 |
 | ----- | ----- | ----- | ----- |
-| 核准 | 核准可以整合至聊天中，以輕鬆批准。 | [管理核准](../approval-admin.md) | [使用核准](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) |
+| 核准 | 核准可以整合至聊天中，以輕鬆簽核。 | [管理核准](../approval-admin.md) | [使用核准](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3) |
 | 聊天 | 使用安全的企業級通訊工具 (而不是消費者等級的應用程式或簡訊) 在人員之間實現快速交談和批准。 | [Microsoft Teams 中的聊天、團隊、頻道和應用程式](../deploy-chat-teams-channels-microsoft-teams-landing-page.md) | [在 Teams 中聊天](https://support.microsoft.com/office/start-and-pin-chats-a864b052-5e4b-4ccf-b046-2e26f40e21b5?wt.mc_id=otc_microsoft_teams) |
 | 文件 | 共用標準作業程序、商店原則、計劃等等。 | [SharePoint 和 OneDrive 如何與 Microsoft Teams 互動](../sharepoint-onedrive-interact.md) | [共用檔案](https://support.microsoft.com/office/upload-and-share-files-57b669db-678e-424e-b0a0-15d19215cb12) |
 | 稱讚 | 使用稱讚應用程式來認可同事的團隊合作能力。 | [管理稱讚應用程式](../manage-praise-app.md) | [傳送稱讚給其他人員](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e) |
@@ -168,7 +167,7 @@ Teams 與班次應用程式和前線工作者整合，可用於協調班次人�
 | 來自 Microsoft 的更多應用程式和服務 | 描述 | 管理 | 說明 |
 | ----- | ----- | ----- | ----- |
 | Bookings | 啟用虛擬試裝和諮詢。 | [使用 Microsoft Teams 和 Bookings 應用程式進行虛擬會面](bookings-virtual-visits.md) | [使用 Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
-| Power Apps 和 Power Platform | 整合商務程序並實現對資料的快速更新，例如，商店庫存、銷售數字、事件報告等。 | [與 Microsoft Power Platform 的 Teams 整合](../teams-power-platfom-integration.md)和[在 Microsoft Teams 系統管理中心管理 Microsoft Power Platform 應用程式](../manage-power-platform-apps.md) | -  |
+| Power Apps 和 Power Platform | 整合商務程序並實現對資料的快速更新，例如，商店庫存、銷售數字、事件報告等。 | [與 Microsoft Power Platform 的 Teams 整合](/microsoftteams/platform/samples/teams-low-code-solutions)和[在 Microsoft Teams 系統管理中心管理 Microsoft Power Platform 應用程式](../manage-power-platform-apps.md) | -  |
 | SharePoint | 建立新團隊時，會建立新的 SharePoint 網站並連接至團隊。 上述許多案例都仰賴已內嵌在 Teams 中的 SharePoint 功能，例如，共用文件進行團隊共同作業。 | [Teams 和 SharePoint 整合](/sharepoint/teams-connected-sites) | [將 SharePoint 頁面、清單或文件庫新增為 Teams 中的索引標籤](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)|
 | Viva Connections | Viva Connections 會在 Teams 中建立中樞，在其中，您的零售夥伴可以檢視來自組織量身訂做的新聞摘要，以及具有其所需資源的個人化儀表板。 | [Viva Connections 概觀](/sharepoint/viva-connections-overview) | [Microsoft Teams 中的 Viva Connections](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) |
 | Viva Learning | 直接在工作流程中，於需要時提供訓練。 | [管理 Viva Learning](/microsoft-365/learning/) | [使用 Viva Learning (預覽)](https://support.microsoft.com/office/viva-learning-preview-01bfed12-c327-41e0-a68f-7fa527dcc98a) |
@@ -190,7 +189,7 @@ Teams 與班次應用程式和前線工作者整合，可用於協調班次人�
 
 ## <a name="get-ready-to-roll-out-your-scenarios---identify-roles-and-responsibilities-for-scenarios"></a>準備好推出您的案例 - 識別案例的角色與責任
 
-現在您知道想要實作的案例，以及要支援這些案例需要的項目，您可以召集您的團隊，以便規劃、推出及監視它們在組織中的運作情況。 例如，可能需要下列角色，才能在組織中推出這些案例：
+現在您知道想要實作的案例，以及要支援這些案例需要的項目，您可以召集您的團隊，以便規劃、推出及監視它們在組織中的運作情況。例如，可能需要下列角色，才能在您的組織中推出這些案例：
 
 | 影像 | 角色 | 責任 | 部門 |
 | ---- | ---- | ----- | ----- |

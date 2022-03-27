@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: 瞭解如何在系統管理中心Teams中流覽及購買裝置
-ms.openlocfilehash: cf67b4e99dabab45dec5cb46ca3996a15183d66a
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+ms.openlocfilehash: f83fd22192a8145167ff04a2bd73b88746dd3ce7
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64404065"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457076"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>在裝置市Teams購買裝置
 
@@ -52,18 +52,18 @@ ms.locfileid: "64404065"
 
 裝置Teams必須共用基本使用者和公司資訊，包括使用者和租使用者 GUID，UnifiedCommunications.com 在系統管理中心Teams購買。
 
-資料共用預設為關閉。 若要啟用，請前往 Teams裝置存放區、選取設定圖示，然後開啟資料處理和共用。  
+資料共用預設為關閉。 若要啟用，請前往Teams裝置存放區，選取設定圖示，然後開啟設定。  
 
 關閉此設定時，資料不會共用，您可以流覽Teams裝置存放區，但無法進行購買。 設定為啟用時，收集並與執行提供者共用的資料會按照隱私權聲明中的指定進行處理。
 
 ## <a name="order-tracking-and-history"></a>訂單追蹤和歷程記錄
 
-您可以流覽訂單歷程記錄， **>訂單記錄**，其中包含您和組織中其他系統管理員所下的所有訂單。 訂單歷程記錄也包含訂單的出貨狀態。 如需訂單追蹤、退貨或退款相關問題，請 UnifiedCommunications.com。 他們的連絡人資訊可在訂單歷程記錄頁面中查看。
+您可以流覽訂單歷程記錄， **>訂單記錄**，其中包含您和組織中其他系統管理員所下的所有訂單。 訂單歷程記錄也包含訂單的出貨狀態。 如需有關訂單追蹤、退貨或退款的問題，請 UnifiedCommunications.com。 他們的連絡人資訊可在訂單記錄頁面上查看。
 
 在裝置存放Teams中下的訂單，以及任何與其相關聯的資料，會分類為租使用者訂單和租使用者資料。
 
 ## <a name="provision-devices"></a>置備裝置
 
-當您購買支援遠端置備的裝置時，這些裝置的 MAC 位址會在裝置出貨Teams自動新Teams系統管理中心。 根據訂單和運送時間，MAC 位址可能需要大約 5 天才能顯示在 TAC 中。
+當您購買支援遠端置備的裝置時，這些裝置的 MAC 位址會在裝置出貨Teams自動新Teams系統管理中心。 根據訂單和運送時間，MAC 位址大約可能需要 5 天才能顯示在系統管理中心Teams顯示。
 
 傳送裝置後，請參閱遠端 [配置裝置](remote-provision-remote-login.md#generate-a-verification-code) 以完成撥備和登錄程式。

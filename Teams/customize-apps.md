@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在應用程式中自訂Microsoft Teams。
-ms.openlocfilehash: 1f32b7f7d00b6737d959a1687574ce4560bd4725
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: a8862e5c8b8d7d63f88274ed47cf647572b54401
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442639"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456896"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>在應用程式中自訂Microsoft Teams
 
@@ -67,7 +67,7 @@ ms.locfileid: "63442639"
 
      ![自訂選取選項 2。](media/app-details-customizable.png)
 
-   - 選取應用程式名稱， **然後從動作** 下拉下拉選取 **自訂** 。
+   - 選取應用程式名稱，按一下溢出 **功能表，** 將游標停留在 **[動作** > 上，然後選取 [自訂。
 
      ![自訂選取選項 3。](media/customize-action-menu.png)
 

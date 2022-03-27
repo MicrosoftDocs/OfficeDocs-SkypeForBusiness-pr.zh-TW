@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何核准使用 Teams App 提交 API 提交的自訂Microsoft Teams。
-ms.openlocfilehash: 3a4dfc0b14f20f367cd3580c5366adc26233dde9
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: c414bf8af8dc7edbea8376031592260142d67732
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442329"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456916"
 ---
 # <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>發佈透過應用程式提交 API Teams提交的自訂應用程式
 
@@ -50,17 +50,17 @@ ms.locfileid: "63442329"
 
 ### <a name="submit-the-app"></a>提交應用程式
 
-當應用程式可供生產使用時，開發人員可以使用 Teams App 提交 API 提交應用程式，此 API 可以從[Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)、整合式開發環境 (IDE) 例如 Visual Studio Code 或 Power Apps 和 Power Virtual Agents. 這麼做之後，應用程式就可以在系統管理[](/microsoftteams/manage-apps)中心的 Microsoft Teams 管理應用程式頁面使用，您可以在此進行審閱和核准。
+當應用程式可供生產使用時，開發人員可以使用 Teams App 提交 API 提交應用程式，此 API 可以從[Graph API](/graph/api/teamsapp-publish?view=graph-rest-beta&tabs=http#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true)、整合式開發環境 (IDE) 例如 Visual Studio Code 或 Power Apps 和 Power Virtual Agents. 這麼做可在系統管理中心的管理應用程式頁面[](/microsoftteams/manage-apps)Teams，您可以在此進行審核和核准。
 
-Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)提交 API 可讓貴組織在所選擇的平臺上開發，並自動化 Teams 上自訂應用程式的提交至核准程式。
+Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true)提交 API 可讓貴組織在所選擇的平臺上開發，並自動化 Teams 上自訂應用程式的提交至核准程式。
 
 以下範例說明此應用程式提交步驟在應用程式中Visual Studio Code：
 
 ![在 Visual Studio Code 中提交應用程式。](media/custom-app-lifecycle-submit-app.png)
 
-請記住，這尚未將應用程式發佈至組織的 App Store。 此步驟將應用程式提交至 Microsoft Teams系統管理中心，您可以在此核准應用程式發佈到組織的 App Store。
+請記住，這尚未將應用程式發佈至組織的 App Store。 此步驟將應用程式提交至 Teams系統管理中心，您可以在此核准應用程式發佈到組織的 App Store。
 
-若要進一Graph API 提交應用程式，請參閱[這裡](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog)。
+若要進一Graph API 提交應用程式，請參閱[這裡](/graph/api/teamsapp-publish?tabs=http&view=graph-rest-beta#example-2-upload-a-new-application-for-review-to-an-organizations-app-catalog&preserve-view=true)。
 
 ## <a name="notify"></a>通知
 
@@ -89,7 +89,7 @@ Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=
 
 ## <a name="validate"></a>驗證
 
-左側 [流覽](/microsoftteams/manage-apps)的 Microsoft Teams 系統管理中心 (中的管理應用程式頁面，請前往 [ **Teams App**  >  **管理**](https://admin.teams.microsoft.com/manage-apps)應用程式) ，讓您查看貴組織的所有 Teams 應用程式。 頁面 **頂端的** 擱置核准小工具可讓您知道何時提交自訂應用程式供核准。
+左側 [流覽](/microsoftteams/manage-apps)的 Teams 系統管理中心 (中的管理應用程式頁面，請前往 [ **Teams App**  >  **管理**](https://admin.teams.microsoft.com/manage-apps)應用程式) ，讓您查看組織Teams應用程式。 頁面 **頂端的** 擱置核准小工具可讓您知道何時提交自訂應用程式供核准。
 
 在表格中，新提交的應用程式會自動顯示已提交和封鎖狀態的 **發佈狀態**。****  您可以 **以遞減** 順序排序發佈狀態列，以快速找到應用程式。
 
@@ -99,14 +99,15 @@ Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=
 
 ![提交應用程式的應用程式詳細資料頁面。](media/custom-app-lifecycle-app-details.png)
 
-若要進一Graph API 檢查發佈 **狀態**，請參閱 [這裡](/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id)。
+若要進一Graph API 檢查發佈 **狀態**，請參閱 [這裡](/graph/api/appcatalogs-list-teamsapps?tabs=http&view=graph-rest-beta#example-3-find-application-based-on-the-teams-app-manifest-id&preserve-view=true)。
 
 ## <a name="publish"></a>發佈
 
 當您準備好要讓使用者使用 App 時，請發佈應用程式。
 
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
-2. 按一下應用程式名稱以前往應用程式詳細資料頁面，然後在 [發佈 **狀態** > 方塊中，選取 [ **發佈**。
+1. 登入[Teams系統管理中心](https://admin.teams.microsoft.com/dashboard)。
+1. 在左窗格中，前往應用程式 **管理Teams應用程式**  >  **。**
+1. 選取應用程式名稱以前往應用程式詳細資料頁面，然後在發佈 **狀態** 方塊中，**選取發佈。**
 
     ![應用程式詳細資料頁面上的發佈按鈕。](media/submitted-app-pending-action.png)
 
@@ -126,7 +127,7 @@ Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=
 
 您可以搜尋稽核記錄來Teams組織中應用程式活動。 若要深入瞭解如何搜尋稽核記錄，以及查看記錄在稽核記錄中的 Teams 活動清單，請參閱在 Teams 中搜尋[稽核記錄](audit-log-events.md)。
 
-在您可以搜尋稽核記錄檔之前，您必須先在[安全性與合規性中心](https://sip.protection.office.com/)中開啟稽核。 如需深入了解，請參閱[開啟或關閉稽核記錄](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide)。 請記住，只有當您開啟稽核時，才能使用稽核資料。
+在您可以搜尋稽核記錄檔之前，您必須先在[安全性與合規性中心](https://sip.protection.office.com/)中開啟稽核。 如需深入了解，請參閱[開啟或關閉稽核記錄](/microsoft-365/compliance/turn-audit-log-search-on-or-off?view=o365-worldwide&preserve-view=true)。 請記住，只有當您開啟稽核時，才能使用稽核資料。
 
 ## <a name="discover-and-adopt"></a>探索及採用
 
@@ -146,7 +147,7 @@ Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=
 
 若要審查併發布應用程式更新：
 
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
+1. 在系統管理中心的左側導Teams，請前往 **Teams管理**  >  **應用程式**。
 2. 按一下應用程式名稱以前往應用程式詳細資料頁面，然後選取 [可用的更新來查看更新詳細資料。
 
     ![應用程式詳細資料頁面。](media/custom-app-lifecycle-update-app.png)
@@ -159,7 +160,7 @@ Microsoft Teams 內建的[Graph App](/graph/api/teamsapp-publish?tabs=http&view=
 - 應用程式核准後，任何一個人都可以將更新提交至應用程式。 這表示其他開發人員 ，包括原本提交應用程式的開發人員，可以提交更新至應用程式。
 - 當開發人員提交 App 且要求擱置中時，只有相同的開發人員可以提交更新至應用程式。 其他開發人員只能在應用程式核准後提交更新。
 
-若要進一Graph API 更新應用程式，請參閱[這裡](/graph/api/teamsapp-update?view=graph-rest-1.0&tabs=http)。
+若要進一Graph API 更新應用程式，請參閱[這裡](/graph/api/teamsapp-update?view=graph-rest-1.0&tabs=http&preserve-view=true)。
 
 ## <a name="related-topics"></a>相關主題
 

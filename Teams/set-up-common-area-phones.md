@@ -21,16 +21,16 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: '瞭解如何設定大廳、接待區和會議室的公用區域電話 '
-ms.openlocfilehash: 144e32e1bf56bc3e2d64d0c6a1a137fd501442b7
-ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
+ms.openlocfilehash: 313a17d1829c8f3584ec5fb7f37e5f1ec49231d0
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "62856661"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456936"
 ---
 # <a name="deploy-common-area-phones-for-microsoft-teams"></a>部署常用的地區電話Microsoft Teams
 
-一般地區電話會放在大廳等區域，或是許多人可以撥打的另一個區域;例如，接待區、大廳或會議電話。 一般地區電話會使用與共同區域授權相關的帳戶電話登錄。
+一般地區電話會放在大廳等區域，或是許多人可以撥打的另一個區域;例如，接待區、大廳或會議電話。 一般地區電話會使用與公用區域或授權系結的帳戶電話。
 
 本文提供如何部署和設定手機Teams共用空間的公用區域電話概觀。 為獲得更完整的會議室體驗 ，包括音訊會議，請考慮使用會議室裝置會議室專用會議室授權。
 
@@ -65,7 +65,7 @@ ms.locfileid: "62856661"
 
 2. If the **View by category** section isn't already displayed, go to **Purchase from Microsoft**, and select **View products**. 然後選取 **共同合作與通訊**。  
 
-3. 在產品清單中，尋找 **常用區域電話** 並選取詳細 **資料**。
+3. 在產品清單中，尋找 **共同區域電話** 並選取詳細 **資料**。
 
 4. 輸入所需的授權數量，然後 **選取購買。**
 
@@ -104,7 +104,7 @@ ms.locfileid: "62856661"
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-當您想要一次建立及指派多個使用者帳戶授權時，請使用 PowerShell。 請參閱[使用 powerShell Microsoft 365](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide)建立使用者帳戶，[以及使用 PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) Microsoft 365指派授權給使用者帳戶以瞭解更多資訊。
+當您想要一次建立及指派多個使用者帳戶授權時，請使用 PowerShell。 請參閱[使用 powerShell Microsoft 365](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide)建立使用者帳戶，以及使用[PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) Microsoft 365指派授權給使用者帳戶以瞭解更多資訊。
 
 ## <a name="step-3---set-policies-for-common-area-phones"></a>步驟 3 - 設定一般地區電話的政策
 
@@ -117,13 +117,13 @@ ms.locfileid: "62856661"
 
 使用帳戶已指派共同區域或授權電話的手機會顯示共同區域使用者體驗。
 
-如果您想要重寫電話的預設介面，請考慮建立 [IP 電話策略](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps)。 例如，如果公用區域中使用公用區域電話，請設定 IP 電話政策，以限制搜尋貴組織的全域通訊錄並封鎖電話機。 請參閱[設定Teams Android 裝置使用者介面以](devices/Teams-Android-devices-user-interface.md)深入瞭解。
+如果您想要重寫電話的預設介面，請考慮建立 [IP 電話策略](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps)。 例如，如果公用區域中使用公用區域電話，請設定 IP 電話政策，以限制搜尋貴組織的全域通訊錄並封鎖電話機。 如需[深入瞭解Teams請參閱設定 Android 裝置使用者](devices/Teams-Android-devices-user-interface.md)介面。
 
 ### <a name="calling-policies"></a>通話原則
 
 使用通話策略啟用私人通話、使用呼叫轉轉，或同時撥打一般地區電話。 如需[深入瞭解，](teams-calling-policy.md)請參閱在 Teams 通話和呼叫轉Teams轉。
 
-根據預設，一般地區電話不會啟用通話停駐。 您需要建立一個策略來啟用它。 如需[深入瞭解，](call-park-and-retrieve.md)請參閱在 Microsoft Teams中呼叫駐Microsoft Teams並取回。
+根據預設，一般地區電話不會啟用通話停駐。 您需要建立一個策略來啟用它。 如需[深入瞭解，請參閱](call-park-and-retrieve.md)在 Microsoft Teams 中呼叫駐Microsoft Teams並取回。
 
 ## <a name="step-4---acquire-and-assign-phone-numbers"></a>步驟 4 - 取得及指派電話號碼
 
@@ -147,6 +147,9 @@ ms.locfileid: "62856661"
 
 3. 請遵循裝置上的登錄指示。 一旦登錄，電話會顯示常見的地區電話使用者體驗。
 
+> [!NOTE]
+> 如果您使用的是取消固定通話應用程式的自訂設定策略，撥號鍵台不會出現在公用區域電話。 有關設定Teams，請參閱管理 Microsoft Teams 中的[應用程式設定Microsoft Teams](/microsoftteams/teams-app-setup-policies)。
+
 ### <a name="sign-in-from-another-device"></a>從另一個裝置登錄
 
 您也可以使用程式碼，從另一部裝置上登錄一般地區電話。 當您以這種方式進行登錄時，您將在另一個裝置上輸入使用者名稱和密碼，而不是在電話本身。
@@ -159,7 +162,7 @@ ms.locfileid: "62856661"
 
 ### <a name="sign-in-using-the-teams-admin-center"></a>使用系統管理中心Teams登錄
 
-做為系統管理員，您可以從系統管理中心遠端Teams電話。 這是一次部署大量電話時最有效率的登錄方法。 如需深入瞭解，請參閱遠端Teams[並登錄 Android](devices/remote-provision-remote-login.md)裝置。
+做為系統管理員，您可以從系統管理中心遠端Teams電話。 這是一次部署大量電話時最有效率的登錄方法。 如需[深入瞭解，請參閱遠端Teams並登錄 Android](devices/remote-provision-remote-login.md)裝置。
 
 ## <a name="next-steps"></a>後續步驟
 

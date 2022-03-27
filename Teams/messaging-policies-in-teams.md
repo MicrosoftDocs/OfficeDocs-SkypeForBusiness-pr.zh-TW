@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解傳訊政策，以及如何在聊天訊息中控制聊天Teams。
-ms.openlocfilehash: 9716fe3ba9a2162a3c6c85cfa61ef5541f34fb38
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0f4001fc2a646b83f005d9cc48948fbbb314f042
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711717"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480665"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>管理 Teams 中的訊息原則
 
@@ -34,6 +34,9 @@ ms.locfileid: "63711717"
 訊息策略是用來控制哪些聊天和頻道訊息功能可供使用者 (擁有者和成員[) Microsoft Teams。](assign-roles-permissions.md) 您可以使用自動建立 (全組織的預設) ，或建立及指派自訂訊息策略。
 
 除非您建立並指派自訂策略，否則貴組織中使用者會自動取得全域原則。 編輯全域原則中的設定，或建立並指派一或多個自訂策略來開啟或關閉您想要的功能。
+
+> [!NOTE]
+> 為了確保在策略變更後同步處理，可能需要重新開機特定實例。 
 
 ## <a name="create-a-custom-messaging-policy"></a>建立自訂訊息策略
 
@@ -106,7 +109,8 @@ ms.locfileid: "63711717"
 - **從群組聊天移除使用者** 開啟此設定，讓使用者從群組聊天移除其他使用者。 這項功能可讓您繼續與一小群人員聊天，而不會失去聊天記錄。
 - **文字預測** 開啟此設定，讓使用者取得聊天訊息的文字預測。
 - **建議的回復**  開啟此設定以啟用聊天訊息的建議回復。
-- **聊天許可權角色** 使用此設定可定義使用者的監督聊天角色。  深入了解[監督的聊天](supervise-chats-edu.md)。
+- **聊天許可權角色** 使用此設定可定義使用者的監督聊天角色。 深入了解[監督的聊天](supervise-chats-edu.md)。
+- **擁有完整聊天許可權的使用者可以刪除任何訊息** 使用此設定可讓使用者擁有完整許可權的使用者刪除任何群組或會議聊天訊息。
 
 > [!NOTE]
 > 其中一些設定 ，例如使用 Giphys，也可以由團隊擁有者在團隊層級設定，以及頻道擁有者在私人或共用頻道層級設定。
