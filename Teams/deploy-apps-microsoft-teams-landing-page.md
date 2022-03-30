@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: be7ee83b510096d8d6ffc0c4a0a5984917ad55c5
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+ms.openlocfilehash: bd5ab3395aa870d0be073a0afcd08aafe9110637
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64403974"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480655"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>關於 Microsoft Teams 中的應用程式
 
@@ -94,7 +94,7 @@ Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨�
 
 ### <a name="custom-connectors"></a>自訂連接器
 
-連接器透過將您經常使用的服務中的內容和更新直接發送到頻道中，進而使您的團隊保持最新狀態。 有了連接器，您的 Teams 使用者就能在其 Teams 聊天中接收來自來自 Twitter、Trello、Wunderlist、GitHub 和 Azure DevOps 服務等熱門服務的更新。
+連接器透過將您經常使用的服務中的內容和更新直接發送到頻道中，進而使您的團隊保持最新狀態。 有了連接器，您的 Teams 使用者就能在其 Teams 聊天中接收來自 Trello、Wunderlist、GitHub 和 Azure DevOps 服務等熱門服務的更新。
 
 | 問問自己 | 動作 |
 |--------------|--------|

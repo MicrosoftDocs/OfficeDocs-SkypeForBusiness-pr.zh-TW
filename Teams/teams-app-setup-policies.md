@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.openlocfilehash: 1ed41c595a386607942c81dda8f151435a1d1ac7
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63774012"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504143"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>管理應用程式中的應用程式設定Microsoft Teams
 
@@ -61,28 +61,30 @@ App 已釘釘到：
 
 若要建立 App 設定策略以釘上應用程式，請執行下列步驟：
 
-1. 在系統管理中心的左側導 [Teams，請](https://www.admin.teams.microsoft.com)前往 **Teams Setup**  >  **政策**。
+1. 登入[系統管理Microsoft Teams管理中心](https://admin.teams.microsoft.com)。
 
-2. 選取 [新增 **]**。
+1. 在左窗格中，前往 Teams **Setup**  >  **策略**。
 
-3. 輸入原則的名稱和描述。
+1. 選取 [新增 **]**。
 
-4. 開啟使用者 **釘點**。
+1. 輸入原則的名稱和描述。
+
+1. 開啟使用者 **釘點**。
 
    > [!NOTE]
    > **Teams系統** 管理中心提供使用者釘Microsoft 365 政府社群雲端 (GCC) 設定 (GCC、GCC高) ，但目前沒有任何效果。
 
-5. 在 **已釘選的 App** 下，選取 **新增應用程式**。
+1. 在 **已釘選的 App** 下，選取 **新增應用程式**。
 
-6. 在新增 **釘選的應用程式窗格中**，搜尋您想要新增的應用程式，然後 **選取新增。** 您也可以根據應用程式權限原則篩選應用程式。
+1. 在新增 **釘選的應用程式窗格中**，搜尋您想要新增的應用程式，然後 **選取新增。** 您也可以根據應用程式權限原則篩選應用程式。
 
-7. 選取 [新增 **]**。
+1. 選取 [新增 **]**。
 
-8. 在 **應用程式欄** 或 **訊息** 擴充功能下，以您希望應用程式顯示在應用程式Teams。
+1. 在 **應用程式欄** 或 **訊息** 擴充功能下，以您希望應用程式顯示在應用程式Teams。
 
    ![的已釘釘應用程式區段。](media/pin-messaging-extensions.png)
 
-9. 選取 [儲存 **]**。
+1. 選取 [儲存 **]**。
 
 ## <a name="install-apps"></a>安裝應用程式
 

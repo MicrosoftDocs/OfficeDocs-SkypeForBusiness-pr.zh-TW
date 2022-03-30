@@ -21,23 +21,23 @@ description: 瞭解如何在 Microsoft Teams 系統管理中心管理Teams 教�
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88414131b5ba8fee750efef8d0b6f6f5313e13fd
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 529240db27824ce8bf872d23636b904198ef7db1
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363139"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504133"
 ---
 # <a name="assignments-in-teams-for-education"></a>Teams 教育版中的作業
 
 課程的作業和成績功能Teams 教育版教師將工作、工作或測驗指派給學生。 教師可以管理作業時程表、指示、新增資源以上交、以成績評分等等。 他們也可以追蹤課程和個別學生的進度在 "成績" 選項卡中。
 
-[深入瞭解作業和成績Teams 教育版](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)。
+[深入瞭解作業和成績](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)Teams 教育版。
 
 > [!Note]
-> 有關不同Teams作業的詳細資訊，請參閱[Teams功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
+> 有關在不同平臺上Teams作業的詳細資訊，請參閱[Teams功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
-## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>系統管理中心Microsoft Teams作業整合
+## <a name="assignments-integrations-in-the-microsoft-teams-admin-center"></a>系統管理中心中的作業Microsoft Teams整合
 
 使用系統管理中心Microsoft Teams設定，您可以開啟或關閉貴組織內部教育人員及其學生的功能。 以下是與作業相關的設定：
 
@@ -74,7 +74,7 @@ MakeCode 是 Microsoft 產品，受 Microsoft[使用條款和](https://go.micros
 
 此功能的預設設定為 - **關閉**。
 
-若要在系統Teams啟用 MakeCode 作業，請Teams系統管理 **中心、流覽至** 作業區段，然後將 MakeCode 切換選項切換為 **開啟**。 按一下 [儲存]。 允許幾個小時讓這些設定生效。
+若要在系統Teams啟用 MakeCode 作業，請Teams系統管理中心、流覽 **至作業區** 段，然後將 MakeCode 切換選項切換為 **開啟**。**** 選取 [儲存 **]**。 允許幾個小時讓這些設定生效。
 
 有關此功能運作方式的資訊，請觀看這段 [影片示範](https://makecode.com/blog/teams/teams-assignments)。
 
@@ -113,7 +113,7 @@ MakeCode 是 Microsoft 產品，受 Microsoft[使用條款和](https://go.micros
 
 ## <a name="assignments-data"></a>作業資料
 
-作業會儲存教師和學生所產生的資訊。 所有資料在教師與特定學生之間共同共用，而該資訊是供班級使用。 此商店有兩個，SharePoint及外部SharePoint。
+作業會儲存教師和學生所產生的資訊。 所有資料在教師與特定學生之間共同共用，而該資訊是供班級使用。 此資料有兩個存放區，SharePoint及外部SharePoint。
 
 >[!NOTE]
 >相同的規則也適用于第一方整合，例如閱讀進度。
@@ -128,7 +128,7 @@ IT 系統管理員可以使用內容搜尋工具搜尋學生檔案 (學生作業
 
 #### <a name="files-associated-with-the-teacher"></a>與教師相關聯的檔案
 
-IT 系統管理員可以使用內容搜尋工具搜尋教師檔案 (學生作業、課程檔案或其他與作業相關的第一方整合檔案) ，以及教師在作業中散發給學生的檔案。 例如，系統管理員可以搜尋SharePoint所有網站，並使用教師的名稱和班級或作業名稱在搜尋查詢中尋找與 DSR 相關的資料。
+IT 系統管理員可以使用內容搜尋工具搜尋教師檔案 (學生作業、課程檔案或其他第一方整合檔案 **) 這些檔案與作業中教師在作業中散發給學生的作業和檔案相關。 例如，系統管理員可以搜尋SharePoint網站，並使用教師的名稱和班級或作業名稱在搜尋查詢中尋找與 DSR 相關的資料。
 
 ### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>文件庫SharePoint作業資料
 
@@ -174,6 +174,39 @@ IT 系統管理員可以使用內容搜尋工具搜尋教師檔案 (學生作業
 
 您也可以使用Teams來移除特定使用者或整個租使用者的工作分派和成績。
 
-若要移除個別使用者的作業和成績，請Teams系統管理中心，然後流覽至 Teams 應用程式>**許可權** 策略，以建立新的應用程式權限原則定義。  建立新策略定義時，請設定 **Microsoft 應用程式** 政策以封鎖 _特定應用程式_，並允許所有其他應用程式，並新增作業到封鎖的應用程式清單中。 儲存新策略定義後，請將其指派給適當的使用者。
+若要移除個別使用者的作業和成績，請Teams系統管理中心，Teams許可權>**來** 建立新的應用程式許可權政策定義。  建立新策略定義時，請設定 **Microsoft 應用程式** 政策以封鎖 _特定應用程式_，並允許所有其他應用程式，並新增作業到封鎖的應用程式清單中。 儲存新策略定義後，請將其指派給適當的使用者。
 
-若要移除整個租使用者的工作分派和成績，請前往 Teams **系統** 管理中心、流覽至 Teams 應用程式 **>管理應用程式，然後** 從應用程式清單中搜尋並選取作業。**** 將作業應用程式設定頁面中的狀態設定變更為 _已封鎖_。
+若要移除整個租使用者的工作分派和成績，請前往 **Teams 系統** 管理中心、流覽至 Teams 應用程式 **>管理應用程式**，然後搜尋及選取應用程式清單中的作業。**** 將作業應用程式設定頁面中的狀態設定變更為 _已封鎖_。
+
+## <a name="assignments-diagnostic-tool-for-users"></a>使用者作業診斷工具
+
+Microsoft 支援服務已建立工具，為 Microsoft 工程小組收集診斷資料，以調查與作業功能相關的問題。
+
+此工具可在使用者遇到問題的任何畫面的作業記憶體取。
+
+若要在 Teams中啟動診斷工具，使用者可以：
+
+- **在桌面和 Web 上：**
+  - 選取 Ctrl+/
+- **在行動裝置上：**
+  - 使用兩指觸控螢幕，然後旋轉手指 45 度，或
+  - 以三指點一下螢幕 15 秒
+
+診斷工具出現後，使用者會看到 Microsoft 技術支援可能需要的資料清單。
+
+提取的資料可能包括：
+
+- 群組識別碼
+- 租用戶識別碼
+- 會話識別碼
+- 作業識別碼
+- 提交識別碼
+- 使用者識別碼
+
+此資料不會自動送往 Microsoft。 使用者需要複製資料並貼上至 Microsoft 支援代理程式，以使用支援票證。
+
+如果使用者拉起診斷工具，然後關閉它，系統不會送出任何資料。
+
+當資料送往 Microsoft 支援代理程式時，資料會依照貴組織的服務Microsoft 365處理。
+
+有關使用此診斷工具與教師和學生共用的指示，請參閱取得診斷資料以疑 [難解答作業](https://support.microsoft.com/topic/b40793f5-dbae-4c8a-841a-6baa7f232e2e)。

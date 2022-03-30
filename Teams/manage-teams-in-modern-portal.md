@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b84957e7451b75b804d2c279e160a260dabfbea8
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: d00cc5cd41d0b48f55564894a78f066406288151
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579533"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456946"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理團隊
 
@@ -39,11 +39,12 @@ ms.locfileid: "60579533"
 
 您可以在 [使用 Microsoft Teams 系統管理員角色以管理 Teams](using-admin-roles.md) 中深入瞭解 Microsoft Teams 中的系統管理員角色，而且您可以在 [Microsoft Teams Cmdlet 參考](/powershell/teams/) 中深入了解如何使用 PowerShell Cmdlet 管理團隊。
 
-
+> [!NOTE]
+> 商務用 Skype Online 系統管理員可以透過 PowerShell 同時管理 **Teams** 和 **商務用 Skype Online** 應用程式原則。
 
 ## <a name="teams-overview-grid"></a>Teams 概觀格線
 
-Teams 的管理工具位於 Microsoft Teams 系統管理中心的 **Teams** 節點下方。 (在系統管理中心，選取 **Teams** > **管理 Teams**。) 每個團隊都會受到一個 Microsoft 365 群組支援，而此節點可提供您的組織中由 Microsoft Teams 啟用之群組的檢視。
+Teams 的管理工具位於 Microsoft Teams 系統管理中心的 **Teams** 節點下方。(在系統管理中心，選取 [Teams **]** > [管理 Teams **]**。) 每個小組都會受到 Microsoft 365 群組支援，而此節點可提供您的組織中由 Microsoft Teams 啟用之群組的檢視。
 
 ![Teams 概觀格線的螢幕擷取畫面。](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -65,7 +66,7 @@ Teams 的管理工具位於 Microsoft Teams 系統管理中心的 **Teams** 節�
 
 ### <a name="add"></a>新增
 
-若要新增小組，請按一下 **[新增]**。 在 **新增小組** 窗格中，為小組命名和描述、設定您是否要將此小組設為私人或公開小組，並設定分類。
+若要新增小組，請按一下 [新增 **]**。在 [新增小組]**** 窗格中，為小組提供命名和描述、設定您是否要將此小組設為私人或公用的小組，並設定分類。
 
 > [!NOTE]
 > 新建立的團隊可以立即在 Microsoft Teams 系統管理中心內管理，與 Outlook 等其他用戶端的體驗不同。

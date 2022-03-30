@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f9e11a089c75f1060e509dc9895e97176fc30345
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 748380aec60c578ff6c2b7687cd51a8a07a8024c
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456343"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457056"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
 
@@ -91,7 +91,7 @@ ms.locfileid: "59456343"
 </tr>
 <tr class="even">
 <td>適用於 Teams 的建議程式</td>
-<td><a href="/microsoftteams/use-advisor-teams-roll-out">適用於 Teams 的建議程式</a>是 <a href="https://admin.teams.microsoft.com">Teams 系統管理中心</a>的一部分。 在您成功推出 Teams 前，它會評估您的 Microsoft 365 或 Office 365 環境，找出可能需要更新或修改的最常用設定。</td>
+<td><a href="/microsoftteams/use-advisor-teams-roll-out">適用於 Teams 的建議程式</a>是 <a href="https://admin.teams.microsoft.com">Teams 系統管理中心</a>的一部分。在您成功推出 Teams 前，它會評估您的 Microsoft 365 或 Office 365 環境，找出可能需要更新或修改的最常用設定。</td>
 </tr>
 <tr class="odd">
 <td>外部名稱解析</td>
@@ -106,7 +106,7 @@ ms.locfileid: "59456343"
 </tr>
 <tr class="even">
 <td>路由至 Microsoft 資料中心</td>
-<td><a href="/office365/enterprise/client-connectivity">對 Microsoft 資料中心實作最有效率的路由</a>。 盡可能有效率地識別可使用本機或區域出口點來連線至 Microsoft 網路的位置。</td>
+<td><a href="/office365/enterprise/client-connectivity">對 Microsoft 資料中心實作最有效率的路由</a>。盡可能有效率地識別可使用本機或區域出口點來連線至 Microsoft 網路的位置。</td>
 </tr>
 <tr class="odd">
 <td>入侵偵測與預防指引</td>
@@ -153,7 +153,7 @@ ms.locfileid: "59456343"
       **形式**
    :::column-end:::
    :::column span="3":::
-      **頻寬需求 (位元速率 Kb/s 上/下)**
+      **頻寬需求 (位元速率 KB/秒 上/下)**    
    :::column-end:::
 :::row-end:::
 :::row:::

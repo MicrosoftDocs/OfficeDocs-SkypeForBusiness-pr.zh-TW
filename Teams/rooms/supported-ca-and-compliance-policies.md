@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: 瞭解支援的建議條件式 Access 和 Intune 裝置合規性Microsoft Teams 會議室。
-ms.openlocfilehash: f3b115430779324a260232ce45ba125859abdde8
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: ea27f71a7d4f64bc1d9e8c8a3cd3d7b2a52151f3
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63689087"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504193"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms"></a>支援的條件式 Access 和 Intune 裝置合規性Microsoft Teams 會議室
 
@@ -28,7 +28,7 @@ ms.locfileid: "63689087"
 
 ## <a name="supported-conditional-access-policies"></a>支援的條件式 Access 政策  
 
-下列清單包含適用于 Android 和 Teams 會議室 Windows的受支援條件式 Access 政策：
+下列清單包含適用于 Android 和 Teams 會議室 Windows的受支援條件式 Access 政策。 支援的 Android 原則適用于所有 Android 裝置、手機和麵板。
 
 | 指派 | Windows | Android |
 |------------|---------|---------|

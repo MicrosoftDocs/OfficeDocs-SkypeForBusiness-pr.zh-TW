@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在應用程式中自訂Microsoft Teams。
-ms.openlocfilehash: a8862e5c8b8d7d63f88274ed47cf647572b54401
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+ms.openlocfilehash: 2696768bbd7ed930652d8671600f9721f15960b7
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456896"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504123"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>在應用程式中自訂Microsoft Teams
 
- Microsoft Teams應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂應用程式Teams應用程式。管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新 **Teams應用程式屬性**。 您可以自訂的詳細資訊有：
+ Microsoft Teams應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂應用程式Teams應用程式。管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新 **Microsoft Teams應用程式屬性**。 您可以自訂的詳細資訊有：
 
 - 簡短名稱
 - 簡短描述
@@ -49,7 +49,7 @@ ms.locfileid: "64456896"
 
 若要開始自訂應用程式，請完成下列步驟：
 
-1. 登入 Teams 系統管理中心。
+1. 請Teams[系統管理中心](https://admin.teams.microsoft.com/dashboard)。
 
 2. 展開 **Teams應用程式**，然後選取 **管理應用程式**。
 
@@ -63,7 +63,7 @@ ms.locfileid: "64456896"
 
      ![自訂選取選項 1。](media/select-app-to-customize1.png)
 
-   - 選取應用程式名稱，然後選取可 **自訂**。
+   - 選取應用程式名稱，然後在可自訂中選取編輯 **圖示**。
 
      ![自訂選取選項 2。](media/app-details-customizable.png)
 

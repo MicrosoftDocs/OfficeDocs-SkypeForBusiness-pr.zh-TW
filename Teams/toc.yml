@@ -1331,12 +1331,6 @@ items:
                 href: rooms/rooms-deploy.md
               - name: 設定帳戶
                 href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: 設定協調會議
-                    href: rooms/coordinated-meetings.md
-                  - name: 管理 Microsoft Teams 設定
-                    href: rooms/surface-hub-manage-config.md
               - name: 建立資源帳戶
                 href: rooms/with-office-365.md
               - name: 使用商務用 Skype Server
