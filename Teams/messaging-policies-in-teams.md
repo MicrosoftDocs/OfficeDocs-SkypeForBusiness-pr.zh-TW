@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解傳訊政策，以及如何在聊天訊息中控制聊天Teams。
-ms.openlocfilehash: 0f4001fc2a646b83f005d9cc48948fbbb314f042
-ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
+ms.openlocfilehash: 74b9474eda7fd3c6bfe7224f62fbf58f61689743
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480665"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556244"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>管理 Teams 中的訊息原則
 
@@ -80,6 +80,7 @@ ms.locfileid: "64480665"
 
 - **擁有者可以刪除已送出的郵件**  使用此設定，讓擁有者刪除使用者所寄的頻道訊息或文章。
 - **刪除已送出的郵件** 使用此設定可讓使用者刪除他們在聊天中送出的郵件。
+- **刪除聊天** 使用此設定可讓使用者刪除他們在聊天中送出的郵件。
 - **編輯已送出的郵件** 使用此設定可讓使用者編輯他們在聊天中送出的郵件。
 - **已讀回條** 讀取回條允許當收件者以 1：1 讀取其訊息，以及群組聊天 20 人以下時，通知聊天訊息的寄件者。 郵件讀信回條會不確定地移除郵件是否已讀取，並改善小組溝通。 電子資料探索報告不會捕獲已讀回條。  
     - **使用者控制** 這表示使用者可以決定是否要讀取回條為 ON 或 OFF。 應用程式中的預設設定為 ON。 使用者接著可以將其關閉。

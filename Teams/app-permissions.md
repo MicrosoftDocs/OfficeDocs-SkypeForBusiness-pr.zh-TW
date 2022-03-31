@@ -19,32 +19,36 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b15625ae6e487a54fb5dbad122064148465b0ad
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: c95f5ab273112b29b91a312111000ba2dac76f9e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711697"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556324"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams應用程式許可權和考慮事項
 
-Microsoft Teams應用程式是一種將一或多個功能匯總到可安裝、升級和卸載的應用程式套件的方法。 這些功能包括：
+Microsoft Teams應用程式是一種將一或多個功能匯總到可安裝、升級和卸載的 App 的方法。 應用程式的功能包括：
 
 * 機器人
 * 訊息擴充功能
 * 索引標籤
 * 連接
 
-應用程式是由使用者同意，由 IT 從策略角度進行管理。 不過，應用程式的許可權和風險設定檔是由應用程式包含的功能的許可權和風險設定檔所定義。 因此，本文著重于功能層級的許可權與考慮。
+做為系統管理員，您只會管理應用程式。 不過，本文著重于功能層級的許可權和考慮，因為應用程式的功能會影響應用程式所需的許可權和風險設定檔。 針對使用方式，應用程式是由使用者同意，由 IT 專業人員從政策角度進行管理。
 
-下列以大寫字母列出的許可權 ，例如 RECEIVE_MESSAGE 和 REPLYTO_MESSAGE，不會顯示在 Microsoft Teams 開發人員檔或[Microsoft](/graph/permissions-reference) Graph。[ ](/microsoftteams/platform/overview)
+例如，下列以 `RECEIVE_MESSAGE` `REPLYTO_MESSAGE` 大寫字母列出的許可權，僅供圖例和說明之用。 這些字串或許可權不會顯示在開發人員Microsoft Teams或[Microsoft](/graph/permissions-reference)應用程式的許可權Graph[](/microsoftteams/platform/overview)。
 
-| 標題   | 描述    |
+<!--- TBD: What does this table mean? The icons are not used anywhere in this article so commenting this for now.
+
+| Title   | Description    |
 |-----------|------------|
-| ![描繪決策點的圖示](media/audio_conferencing_image7.png) <br/>決策點|<ul><li>使用下表做為指南，瞭解您調查的應用程式要求哪些許可權。</li></ul> |
-| ![描繪後續步驟的圖示](media/audio_conferencing_image9.png)<br/>後續步驟|<ul><li>研究應用程式或服務本身，決定是否要允許在貴組織中存取它。 例如，Bot 會傳送和接收來自使用者的訊息，而且除了企業自訂 Bot 之外，它們位於合規性邊界之外。 因此，任何包含 Bot 的應用程式都需要這些許可權，而且具有最低風險設定檔。 </li></ul>|
+| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul> |
+| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise custom bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that minimum risk profile. </li></ul>|
 
-另請參閱[要求您帳戶的裝置Microsoft Teams許可權](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)。
+See also [Request device permissions for your Microsoft Teams tab](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
+
+--->
 
 ## <a name="global-app-permissions-and-considerations"></a>全域應用程式許可權與考慮
 
@@ -62,7 +66,7 @@ Microsoft Teams應用程式是一種將一或多個功能匯總到可安裝、�
 
 * [特定資源同意](resource-specific-consent.md) 提供一組應用程式可要求的許可權，這些許可權會顯示在應用程式的安裝畫面上。 若要深入瞭解資源特定同意許可權，請參閱Graph[許可權參照](/graph/permissions-reference#teams-resource-specific-consent-permissions)。
 
-* 應用程式可能也需要資源特定同意許可權外的許可權。 安裝應用程式之後，App 可能會透過Graph提示要求取得許可權。 若要深入瞭解，請參閱[瞭解Azure AD同意體驗](/azure/active-directory/develop/application-consent-experience)。 您可以在 Azure 入口網站中設定 API 許可權和同意。 若要深入瞭解，請參閱Azure Active Directory[架構](/azure/active-directory/develop/consent-framework)。
+* 應用程式可能也需要資源特定同意許可權外的許可權。 安裝應用程式之後，App 可能會透過Graph提示要求取得許可權。 若要深入瞭解，請參閱[瞭解Azure AD同意體驗](/azure/active-directory/develop/application-consent-experience)。 您可以在應用程式設定 API 許可權Azure 入口網站。 若要深入瞭解，請參閱Azure Active Directory[架構](/azure/active-directory/develop/consent-framework)。
 
 ## <a name="bots-and-messaging-extensions"></a>Bot 和訊息擴充功能
 
@@ -94,8 +98,7 @@ Microsoft Teams應用程式是一種將一或多個功能匯總到可安裝、�
 
   * RECEIVE_MESSAGE_PERSONAL，REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT，REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM，REPLYTO_MESSAGE_TEAM    
-
+  * RECEIVE_MESSAGE_TEAM，REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES，RECEIVE_FILES：<sup>2</sup> 控制 bot 是否可以在個人聊天中傳送 (尚未支援群組聊天或頻道) 。
 

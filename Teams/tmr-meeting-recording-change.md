@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf1f393c8f6caf27a53ec45af0f04401f93b6793
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 8d2863517ae4a147f9ded902dffff40ef315642e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514534"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556334"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>使用商務用 OneDrive或SharePoint串流進行會議錄製
 
@@ -37,7 +37,7 @@ ms.locfileid: "63514534"
 |2021 年 3 月 1 日開始推出<br> *(已完成)*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**進 GCC-High 和 DoD**<br> 客戶現在可以在其 Microsoft Teams 中首次啟用雲端會議錄製。 這些錄製預設會儲存並OneDrive SharePoint播放。 |
 |從 2021 年 8 月 16 日開始逐步推出<br> *(已完成)* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|**所有客戶 (企業、教育和 GCC)**<br>無法儲存新的會議錄製Microsoft Stream (傳統版) ;所有客戶都會自動將會議錄製儲存到 商務用 OneDrive 和 SharePoint，即使他們已將會議Teams變更為 Stream。<br><br> 我們建議客戶，在您對變更感到滿意選擇加入，而非等待變更生效，以便更好地控制組織中的變更。 |
 
-Microsoft Teams 有用於儲存會議錄製的新方法。 這是從傳統 Microsoft Stream 轉換到新 Stream 的第一個階段，[](/stream/streamnew/new-stream)此方法會儲存 Microsoft OneDrive 商務用和 SharePoint Microsoft 365 上的錄製內容，並提供許多優點。
+Microsoft Teams 有用於儲存會議錄製的新方法。 這是從傳統Microsoft Stream轉換到新 Stream 的第一階段，此方法會[](/stream/streamnew/new-stream)將錄製儲存在 Microsoft 商務用 OneDrive 和 SharePoint Microsoft 365 中，並提供許多優點。
 
 > [!NOTE]
 > 如果Teams錄製無法成功上傳到 OneDrive/SharePoint，就會出現「錄製未預期結束」錯誤訊息，而錄製將會暫時儲存至 Azure 媒體服務 (AMS) 。 儲存于 AMS 後，系統不會嘗試嘗試自動將錄製上傳到 OneDrive/SharePoint串流。
@@ -133,7 +133,7 @@ Microsoft Teams 有用於儲存會議錄製的新方法。 這是從傳統 Micro
 
 根據預設，所有錄製檔案都會OneDrive選取記錄的使用者 **的帳戶。** 對於頻道會議，錄製內容會一直SharePoint到頻道的網址。 系統管理員無法變更錄製的儲存位置。
 
-**如何處理來自前員工的錄製？**
+**如何?處理前員工的錄製？**
 
 由於影片與 商務用 OneDrive 和 SharePoint 中任何其他檔案一樣，因此在員工離職後處理擁有商務用 OneDrive保留商務用 OneDrive SharePoint[程式](/onedrive/retention-and-deletion)。
 
@@ -171,13 +171,13 @@ Teams錄製的檔案會商務用 OneDrive SharePoint，並包含在這些服務�
 
 **如果您打算將新增到 Stream 中，現有的影片會維持目前和多久？**
 
-在近期內不會將 Stream 當做平臺被棄用。 目前住在 Stream 中的影片會一直留在這裡，直到我們開始移移。 移移時，這些視商務用 OneDrive或SharePoint移。 請查看 [Stream 傳統移移](/stream/streamnew/classic-migration) 以瞭解更多資訊。
+在近期內不會將 Stream 當做平臺被棄用。 目前住在 Stream 中的影片會一直留在這裡，直到我們開始移移。 移移時，這些視商務用 OneDrive或SharePoint移。 請查看 [移移詳細](/stream/streamnew/migration-details) 資料以瞭解更多資訊。
 
-**如何將保留標籤Microsoft Teams錄製？**
+**如何?將保留標籤Microsoft Teams錄製？**
 
 請參閱 [如何自動貼上保留標籤](/microsoft-365/compliance/apply-retention-labels-automatically)。
 
-**如何指派策略給使用者，Microsoft Teams哪些策略為優先？**
+**如何?中指派策略給使用者Microsoft Teams哪些策略為優先？**
 
 請參閱 [以哪個策略為優先順序？](./policy-assignment-overview.md#which-policy-takes-precedence)。
 

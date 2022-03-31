@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams 中的應用程式、Bot 和連接器
+title: 了解 Microsoft Teams 中的應用程式
 ms.reviewer: ''
-description: 了解應用程式、Bot 和連接器，以及如何根據貴組織的設定檔和商務需求，決定要在 Microsoft Teams 中部署哪些應用程式、Bot 和連接器。
+description: 了解應用程式，並根據您的組織設定檔和商務需求，決定 Teams 中允許哪些應用程式。
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -18,26 +18,26 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd5ab3395aa870d0be073a0afcd08aafe9110637
-ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
+ms.openlocfilehash: b6fd5ef344550cf85420faef1748c34f6e87e88b
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480655"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556524"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>關於 Microsoft Teams 中的應用程式
 
-應用程式可讓您透過喜好服務尋找內容，並在 Teams 中分享它。 他們可幫助您執行作業，例如在頻道最上方釘選服務、與 Bot 聊天或共用及指派工作。 若要深入了解，請參閱[ Teams 中的應用程式概觀](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
+應用程式可讓使用者從最愛的服務中尋找內容，並分享至 Teams。 其可讓您執行工作，例如釘選在頻道頂端的服務、使用 Bot 自動通知，或共用和指派工作。 若要深入了解應用程式的使用，請參閱[適用於終端使用者的應用程式概觀](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
 
-您可以使用隨著 Microsoft Teams 提供的應用程式、使用認證的協力廠商應用程式和範本，以及透過建立您自己的自訂應用程式，將應用程式新增到您的 Teams 部署。
+終端使用者在 Teams 中可使用的不同類型應用程式包括 Microsoft 建立的應用程式、通過認證的協力廠商應用程式，以及貴組織所建立自訂的應用程式。
 
 ## <a name="use-microsoft-provided-apps"></a>使用 Microsoft 提供的應用程式
 
-Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核准等。 建議您在初始推出 Teams 時包括 Teams 的精選應用程式，例如 Planner。 在推廣 Teams 的採用時，新增其他應用程式、Bot 和連接器。
+Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核准等。 建議您在初始推出 Teams 時包括 Teams 的精選應用程式，例如 Planner。 在推動 Teams 採用時新增其他應用程式。 某些預設功能 (例如活動串流、聊天、行事曆和通話) 預設為可用，而且也會釘選供使用者輕鬆存取。
 
 ## <a name="use-third-party-apps"></a>使用協力廠商應用程式
 
-除了 Microsoft 提供的應用程式之外，您還可以使用 Microsoft 認證的協力廠商應用程式。Microsoft 與 Microsoft 365 開發人員合作夥伴合作，以提供以加快使用 Teams 應用程式和增益集的決策所需的資訊。如需詳細資訊，請參閱 [Microsoft Teams 應用程式安全性與合規性](/microsoft-365-app-certification/teams/teams-apps)。
+除了 Microsoft 提供的應用程式之外，您還可以使用 Microsoft 驗證的協力廠商應用程式。Microsoft 與 Microsoft 365 開發人員合作夥伴合作，以提供以加快使用 Teams 應用程式的決策所需的資訊。如需詳細資訊，請參閱 [Microsoft Teams 應用程式安全性與合規性](/microsoft-365-app-certification/teams/teams-apps)。
 
 ## <a name="use-open-source-sample-apps-provided-by-microsoft"></a>使用 Microsoft 提供的開放來源範例應用程式
 
@@ -68,41 +68,43 @@ Teams 提供許多由 Microsoft 和第三方發行的應用程式，以吸引使
 
 ### <a name="app-permissions-and-other-considerations"></a>應用程式權限和其他考量
 
-應用程式經過使用者同意，並且由系統管理員或 IT 專業人員透過原則管理。 不過在絕大多數情況下，應用程式的權限和風險設定檔是在應用程式本身中定義。
-
 應用程式經過使用者同意，並且由系統管理員或 IT 專業人員透過原則管理。 不過，應用程式的權限和風險設定檔是在應用程式本身中定義。
 
 | 問問自己 | 動作 |
 |--------------|--------|
 |<br>我想允許哪些應用程式的存取權？ 我不想允許哪些應用程式的存取權？  | <ul><li>如需在允許應用程式、Bot、索引標籤或連接器的存取權時應考慮的事項清單，請參閱 [Microsoft Teams 應用程式權限和考量事項](app-permissions.md)。</li><li>如需提供應用程式讓貴組織的使用者使用的相關資訊，請參閱[在 Microsoft Teams 系統管理中心管理您的應用程式](manage-apps.md)。</li></ul>|
 
-### <a name="bots-for-private-chats-and-channels"></a>適用於私人聊天和頻道的 Bot
+<!--- TBD: Rewrite this to talk about bots and tabs as a capability of apps. Admins do not govern bots, tabs, etc. Admins only govern apps that contain capabilities such as connectors, bots, etc. This writeup gives an impression that admins manage apps + bots + tabs + connectors, etc.
 
-Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨時了解的詳細資訊提供更新和通知。 Bot 可讓使用者與 Teams 聊天中的雲端服務互動，例如工作管理、排程和投票等。 Teams 支援在私人聊天和頻道中使用 Bot。 系統管理員可以控制是否允許在 Microsoft 365 或 Office 365 組織中使用 Bot。
+### Bots for private chats and channels
 
-| 問問自己 | 動作 |
+Bots are automated programs that respond to queries or give updates and notifications about details users find interesting or want to stay informed about. Bots allow users to interact with cloud services such as task management, scheduling, and polling in a Teams chat. Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in a Microsoft 365 or Office 365 organization.
+
+| Ask yourself | Action |
 |--------------|--------|
-|我想要在我的組織中允許使用自訂 Bot 嗎？|如需新增 Bot 的詳細資訊，請參閱[在 Microsoft Teams 中新增適用於私人聊天和頻道的 Bot](/microsoftteams/platform/bots/what-are-bots)。 如需開啟或關閉自訂 Bot 的詳細資訊，請參閱 [Microsoft Teams 中應用程式的系統管理設定](admin-settings.md)。|
+|Do I want to allow custom bots in my organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 
-### <a name="built-in-and-custom-tabs"></a>內建和自訂索引標籤
+### Built-in and custom tabs
 
-擁有者與團隊成員可以在頻道、私人聊天和群組聊天中新增索引標籤，協助整合其雲端服務。 新增索引標籤可協助使用者存取及管理他們所需或最常用的資料。 在頻道中，預設會建立 [交談] 和 [檔案] 索引標籤。 在每個私人聊天中，預設會建立 [交談]、[檔案]、[組織] 和 [活動] 索引標籤。 除了這些內建索引標籤之外，您還可以設計及新增自訂索引標籤。 若要瞭解如何為組織開啟或關閉Teams 應用程式，請參閱 [Teams 中應用程式的系統管理設定](admin-settings.md)。
+Owners and team members can add tabs to a channel, private chat, and group chat to help integrate their cloud services. Add tabs to help users access and manage the data they need or use the most. In channels, the Conversations and Files tabs are created by default. In every private chat, the Conversations, Files, Organization, and Activity tabs are created by default. In addition to these built-in tabs, you can design and add custom tabs. To learn about turning Teams apps on or off for your organization, read [Admin settings for apps in Teams](admin-settings.md).
 
-| 問問自己 | 動作 |
+| Ask yourself | Action |
 |--------------|--------|
-|我想要在我的組織中允許使用自訂索引標籤嗎？|如需詳細資訊，請參閱 [在 Teams 中使用內建和自訂索引標籤](built-in-custom-tabs.md)。|
+|Do I want to allow custom tabs in my organization?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
 
-### <a name="custom-connectors"></a>自訂連接器
+### Custom connectors
 
-連接器透過將您經常使用的服務中的內容和更新直接發送到頻道中，進而使您的團隊保持最新狀態。 有了連接器，您的 Teams 使用者就能在其 Teams 聊天中接收來自 Trello、Wunderlist、GitHub 和 Azure DevOps 服務等熱門服務的更新。
+Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel. With connectors, your Teams users can receive updates from popular services such as Trello, Wunderlist, GitHub, and Azure DevOps Services in their Teams chats.
 
-| 問問自己 | 動作 |
+| Ask yourself | Action |
 |--------------|--------|
-|我是否要允許使用者建立自訂連接器？|如需詳細資訊，請參閱[在 Teams 中使用自訂連接器](office-365-custom-connectors.md)。|
+|Do I want to allow users to create custom connectors?|For more information, see [Use custom connectors in Teams](office-365-custom-connectors.md).|
+
+--->
 
 ## <a name="additional-deployment-decisions"></a>其他部署決策
 
-根據組織的需求和組態而定，您可能會想要變更這些設定。
+您可根據組織的需求和設定來變更這些設定。
 
 ### <a name="activity-reports"></a>活動報告
 
@@ -114,7 +116,7 @@ Bot 是自動程式，可回應查詢或可針對使用者感興趣或希望隨�
 
 ### <a name="app-templates"></a>應用程式範本
 
-應用程式範本是適用於 Microsoft Teams 生產環境的應用程式，其由社群推動、為開放原始碼，而且可在 GitHub 上取得。 每個範本都包含詳細的指示，可用來部署和安裝組織的應用程式，並提供了一個可立即使用的應用程式，讓您立即安裝並開始使用。
+應用程式範本是適用於 Microsoft 生產環境的應用程式，其由社群推動、為開放原始碼，而且可在 GitHub 上取得。 每個應用程式都包含為貴組織部署及加以安裝的詳細指示，且是可供您立即安裝並開始使用的現成應用程式。
 
 同時也提供完整的原始程式碼，您可以在其中詳細探索，或衍生程式碼並加以變更，以符合您的特定需求。
 

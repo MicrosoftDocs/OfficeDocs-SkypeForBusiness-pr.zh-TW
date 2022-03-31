@@ -18,12 +18,12 @@ ms.localizationpriority: high
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 65421d36c0a8c19d8c7118e348222e3b62175a95
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 00b8079a360dbec05b14f1487755e96bfc98b76f
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893522"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556514"
 ---
 # <a name="teams-update-process"></a>Teams 更新程序
 
@@ -43,11 +43,6 @@ Teams 預設會隨著 Microsoft 365 Apps 企業版的新安裝一起安裝，請
 
 如上述所述，Teams 會遵循自己的更新程序。 Teams 不會遵循其他 Office 應用程式的更新程序，例如 Word 和 Excel。 若要深入了解，請參閱 [Microsoft 365 Apps 更新通道的概觀](/DeployOffice/overview-update-channels)。
 
-## <a name="what-about-updates-to-teams-on-vdi"></a>如何更新 VDI 上的 Teams ？
-
-
-虛擬桌面基礎結構 (VDI) 上的 Teams 用戶端不會以非 VDI Teams 用戶端的方式自動更新。 您必須安裝新的 MSI 以更新 VM 映像，請參閱[在 VDI 中安裝 Teams](teams-for-vdi.md) 中的說明。 您必須解除安裝目前的版本，以更新至較新的版本。
-
 ## <a name="can-admins-deploy-updates-instead-of-teams-auto-updating"></a>系統管理員可以部署更新，而不是 Teams 自動更新嗎？
 
 Teams 不會提供系統管理員透過任何傳遞機制部署更新的能力。
@@ -61,3 +56,7 @@ Teams 用戶端是新式線上服務，每兩週自動更新一次。 由於 Tea
 在進一步通知之前，政府雲端上的 Teams 桌面用戶端目前對此服務協定有例外。
 
 有關新版本的資訊，請查看 [訊息中心](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter)或前往用戶端中的 **[說明]** > **[新增功能]**。
+
+## <a name="what-about-updates-to-teams-on-vdi"></a>如何更新 VDI 上的 Teams ？
+
+虛擬桌面基礎結構 (VDI) 上的 Teams 用戶端不會以非 VDI Teams 用戶端的方式自動更新。 您必須安裝新的 MSI 以更新 VM 映像，請參閱[在 VDI 中安裝 Teams](teams-for-vdi.md) 中的說明。 您必須解除安裝目前的版本，以更新至較新的版本。

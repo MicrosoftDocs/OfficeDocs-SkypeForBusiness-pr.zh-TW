@@ -24,12 +24,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: 逐步指南詳述如何在 Teams 電話系統中為貴組織設定Microsoft 365。
-ms.openlocfilehash: 3a5c275c7d7d881ff770e6e84a3d4fa935d2827f
-ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
+ms.openlocfilehash: 6b56c68e7316c78c7c1881d6e9d6ca39b13823b1
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63043341"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556294"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>設定貴組織的 [電話系統]
 
@@ -50,7 +50,7 @@ ms.locfileid: "63043341"
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>步驟 1：購買並指派電話系統授權
 
-若要指派電話系統授權給單一使用者，步驟與指派授權Microsoft 365相同。 您也可以大量指派授權給多個使用者。 若要進一步瞭解如何取得電話系統授權以及如何取得和指派授權，請參閱 [Teams](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing)附加元件授權和指派[Microsot Teams附加元件授權](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)。
+若要指派電話系統授權給單一使用者，步驟與指派授權Microsoft 365相同。 您也可以大量指派授權給多個使用者。 若要進一電話系統授權，以及如何取得和指派授權，請參閱 [Teams](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing)附加元件授權和指派Microsoft Teams[附加元件授權](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses)。
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>步驟 2. 選擇 PSTN 連接選項 
  
@@ -58,7 +58,7 @@ ms.locfileid: "63043341"
 
 - 通話方案。 以 Microsoft 做為 PSTN 電信公司的全雲端解決方案。 
 
-- 運算子連線。 如果您現有的電信連線 Microsoft Operator 連線，他們可以管理 PSTN 通話和會話邊界控制 (SBC) SBC。 
+- 電信業者連線。 如果您現有的電信公司參與 Microsoft 電信業者連線計畫，他們就可以管理 PSTN 通話和會話邊界控制 (SBC) SBC。 
 
 - 直接路由。 使用您自己的 PSTN 電信公司，將 SBCs 連接到電話系統。 
 
@@ -81,12 +81,12 @@ ms.locfileid: "63043341"
 
 除了取得使用者的電話號碼之外，您還可以取得自動電話機和通話佇列等服務的付費或免付費電話號碼。 服務號碼可以同時處理數百個通話，而使用者的電話號碼只能同時處理幾個通話。   
 
-您可以向 Microsoft 取得授權中包含的服務號碼。 如果您透過運算子或直接路由連線 PSTN 連接，您可以使用自己的電信公司或電信公司所提供的服務號碼。 
+您可以向 Microsoft 取得授權中包含的服務號碼。 如果您使用 PSTN 電信業者連線或直接路由，您可以使用自己的電信公司或電信公司所提供的服務號碼。 
 
 詳細資訊，請參閱：
 
 - [管理貴組織的電話號碼](manage-phone-numbers-landing-page.md) - 提供電話號碼類型概觀，並根據您的 PSTN 連接選項提供取得及管理號碼的特定文章連結。  
-說明 [授權](manage-phone-numbers-landing-page.md#service-telephone-numbers) 中包含的 Microsoft 服務電話號碼。 如需運算子或直接連線所提供的服務號碼相關資訊，請與您的提供者聯繫。 
+說明 [授權](manage-phone-numbers-landing-page.md#service-telephone-numbers) 中包含的 Microsoft 服務電話號碼。 如需由 電信業者連線或直接路由所提供的服務號碼相關資訊，請與您的提供者聯繫。 
 
 - [您可以取得多少](how-many-phone-numbers-can-you-get.md) 電話號碼 - 說明您可以取得的電話號碼數目，取決於您購買和指派的電話號碼類型及授權類型。 
 

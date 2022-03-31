@@ -21,12 +21,12 @@ description: 您的 Teams 或 IT 系統管理員可以設定其他網域 (同盟
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ec2ee80d2475742380944b2e834b5c7b7cf24275
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 8505a57ff0ab9bb2e79607ffe13768058bab26d6
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392915"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556314"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部存取
 
@@ -149,7 +149,7 @@ Teams 系統管理中心會控制組織層級的外部存取權。 大部分選�
 |:-------|:--------|:------------------|
 |啟用/停用與其他 Teams 組織及商務用 Skype 的同盟|`-AllowFederatedUsers`|`-EnableFederationAccess`|
 |啟用與特定網域的同盟|`-AllowedDomains`|無法使用|
-|停用與特定網域的同盟|`-Blocked Domains`|無法使用|
+|停用與特定網域的同盟|`-BlockedDomains`|無法使用|
 |啟用/停用未由組織管理的 Teams 使用者的同盟|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
 |啟用/停用未由組織管理的 Teams 使用者啟動交談|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |啟用/停用與 Skype 的同盟|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|

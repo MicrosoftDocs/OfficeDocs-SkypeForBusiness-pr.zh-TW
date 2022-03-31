@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e02013ddc158e1e64386bc22652404ec387aee1
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 4b922607955d8b825006217bd2fe333eaadbc1ce
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893552"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556564"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>取得 Microsoft Teams 用戶端
 
@@ -46,7 +46,7 @@ Teams 桌面用戶端是獨立應用程式及 [Microsoft 365 Apps 企業版](/de
 - Linux (`.deb` 和 `.rpm` 格式)
 - Chrome OS (如需詳細資訊，請參閱[如何在 Chromebook 上使用 Microsoft Office](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad))
 
-如果使用者擁有適當的本機權限，就可以直接從 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) 下載並安裝桌面用戶端。 在 Windows 電腦上安裝 Teams 用戶端時不需要系統管理員權限，但 Mac 上需要系統管理員權限。
+如如果使用者擁有適當的本機權限，就可以直接從 [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) 下載並安裝桌面用戶端。在 Windows 電腦上安裝 Teams 用戶端時不需要系統管理員權限，但 Mac 上需要系統管理員權限。
 
 IT 專業人員可以選擇其偏好的方式，將安裝檔案發佈到組織中的電腦。 例如 Microsoft Endpoint Configuration Manager (Windows) 或 Jamf Pro (macOS)。 如需發佈 Teams 的資訊，請參閱下列內容。
 
@@ -63,7 +63,7 @@ IT 專業人員可以選擇其偏好的方式，將安裝檔案發佈到組織�
 
 Windows 上的 Teams 在 [32 位元](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)、[64 位元](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)和 [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true) 架構中提供可下載的 MSI 安裝程式。 Teams 的 x86 架構 (32 位元和 64 位元) 並不受限於已安裝的 Windows 和 Office 架構。 我們建議您在 64 位元系統上使用 64 位元版本的 Teams。
 
-Teams 需要 .NET Framework 4.5 或更新版本。 如果未安裝 .NET Framework 或更新版本，Teams 安裝程式會為您提供安裝。
+Teams 需要 .NET Framework 4.5 或更新版本。如果未安裝 .NET Framework 或更新版本，Teams 安裝程式會為您提供安裝。
 
 Windows 用戶端會部署至使用者設定檔中的 [AppData] 資料夾。 部署至使用者的本機設定檔中，即可在不需要提高權限的情況下安裝用戶端。 Windows 用戶端會利用下列位置：
 
@@ -205,4 +205,4 @@ Teams 行動裝置應用程式支援的行動平台如下：
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-瀏覽器用戶端會在連線至 [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) 時執行瀏覽器版本偵測。 如果偵測到不受支援的瀏覽器版本，則會封鎖瀏覽器介面的存取權，並建議使用者下載桌面版用戶端或行動裝置應用程式。
+瀏覽器用戶端會在連線至 [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) 時執行瀏覽器版本偵測。如果偵測到不受支援的瀏覽器版本，則會封鎖瀏覽器介面的存取權，並建議使用者下載桌面版用戶端或行動裝置應用程式。

@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: '瞭解如何為使用者和組織設定 PSTN 消費 (通訊) 或帳單授權。 '
-ms.openlocfilehash: 39ee93d35bbcb5055a6c5565df4f92374a18ed2e
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: f13580dcfa6d40802b414999e5fe047f3371b87e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392905"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556464"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>設定貴組織的 [通訊點數]
 
@@ -60,11 +60,13 @@ ms.locfileid: "63392905"
 
 1. 使用公司[Microsoft 365 系統管理中心](https://portal.office.com/Adminportal)學校帳戶來登錄帳戶。
     
-2. 在頁面左側導Microsoft 365 系統管理中心，請前往 **BillingPurchase** ****  >  Services。 向下卷起並選取 **附加元件**。
+2. 在頁面左側導Microsoft 365 系統管理中心，請前往 **BillingPurchase** ****  >  Services。
 
-3. 選取 **通訊信用額度**。
+3. 在 **附加元件類別** 下尋找通訊信用額度，或在搜尋所有產品類別搜尋方塊中搜尋「通訊信用額度」，然後選取 「**詳細資料**」。
     
-4. 在 [ **通訊信用額度訂閱** > 頁面上，填入您的資訊，然後按一下 [下 **一步**：
+4. 查看服務資訊， **然後選取購買**。  (注意：每一個訂單都會自動選取固定數量的通訊信用額度授權。) 
+
+5. 在結帳頁面上，輸入您的付款資訊並填寫所需資訊：
     
    - **新增資金** 輸入要新加到帳戶的金額。 如果您未啟用自動充值功能，一旦這些資金用盡，使用通訊信用額度啟用的通話功能會中斷 (例如免付費服務) 。 為了避免每次餘額達到 0 或零 (時，) 手動補充通訊信用額度餘額，建議您啟用自動充值功能。
     
@@ -81,7 +83,7 @@ ms.locfileid: "63392905"
      > 
      > 使用自動充值功能時，當達到觸發金額並處理充值交易時，會針對通訊信用額度產生發票。 通訊信用額度會先以先發的方式使用。 若要瞭解如何檢查每月使用量，請參閱[PSTN Microsoft Teams使用方式報告](/microsoftteams/teams-analytics-and-reports/pstn-usage-report)。
     
-5. 輸入您的付款資訊，然後按一下 **[下單**。
+6. 選取 **下單**。
     >[!IMPORTANT]
     >如果您是大量授權客戶，您可以選擇要付款的企業協定號碼。 如果您有多個企業協定編號，您可以選取要用於付款的企業協定。 如果適用，您也會有機會指定要與企業 (建立關聯的) 。
     

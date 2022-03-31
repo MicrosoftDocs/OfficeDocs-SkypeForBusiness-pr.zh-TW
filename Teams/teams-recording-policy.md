@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18e7b02a52a0ddc7c380ed3fb4c5879b45fe18dc
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 554c2e893272ca8dfca1fde6c746e72f1b462f1e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63761927"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556554"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>會議Teams通話以策略為基礎的錄製&簡介
 
@@ -138,7 +138,7 @@ Azure 和 Windows VM 需求僅適用于 Teams Bot 元件，這表示合作夥伴
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>合規性錄製策略指派和置備
 
-IT 系統管理員可以建立和指派合規性錄製政策，決定要錄製哪些使用者，以及每個使用者會使用哪個錄製器。 當通訊互動發生時，系統會自動根據這些策略的組式邀請錄製者參與交談。 合規性錄製原則是使用 [Microsoft PowerShell](./teams-powershell-overview.md) 管理，並可在每個組織的租使用者、每個使用者和安全性群組層級上加以應用。 您可以找到有關 Microsoft Docs 會議 [政策](./meeting-policies-overview.md)、 [通話策略](./teams-calling-policy.md) 和  [群群組原則的資訊](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)。
+IT 系統管理員可以建立和指派合規性錄製政策，決定要錄製哪些使用者，以及每個使用者會使用哪個錄製器。 當通訊互動發生時，系統會自動根據這些策略的組式邀請錄製者參與交談。 合規性錄製原則是使用 [Microsoft PowerShell](./teams-powershell-overview.md) 管理，並可在每個組織的租使用者、每個使用者和安全性群組層級上加以應用。 您可以找到有關會議[Microsoft Docs、通話](./meeting-policies-overview.md)[策略](./teams-calling-policy.md)和群群組原則[之詳細資訊。](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)
 
 1. 在租使用者中建立應用程式實例。
 
@@ -226,7 +226,8 @@ IT 系統管理員可以建立和指派合規性錄製政策，決定要錄製�
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |配音器 |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |深入技術 |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
-|好 |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+|NICE Engage |[https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage](https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage) |
+|NICE NTR |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |奧克創新 |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
 |紅色方塊 |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |

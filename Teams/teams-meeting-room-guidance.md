@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02e3f441ad7a4a338c86e89b2740561d3d552d7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: ac7ac28eca8a139d9a7d1ff5a8100af1de772955
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711567"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556274"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>會議室指南Teams
 
@@ -232,7 +232,7 @@ Microsoft Teams 會議室繼續透過軟體更新提供以人員為中心的混�
 
 超廣角相機會位於顯示器下方的會議室前方，以在空間內拍攝每個人。
 
-超寬的安吉相機具有智慧型追蹤會議參與者的功能，因此他們可以在大型畫面中個別顯示，而不是以整個會議室的大型影像顯示。
+超廣角相機具有智慧型追蹤會議參與者的功能，因此他們可以在大型視野中個別顯示，而不是以整個會議室的大型影像顯示。
 
 ![從高空模式呈現增強型會議室。](media/emr5.png)
 
@@ -246,7 +246,7 @@ Microsoft Teams 會議室繼續透過軟體更新提供以人員為中心的混�
 
 會議內容周圍環繞著內容相關的流暢元件，例如議程、工作及筆記，可即時更新，協助參與者保持參與和生產力。 此外，會議聊天會清楚顯示，因此當您從 Teams 會議室加入 Teams 會議時，您可以輕鬆地即時查看並參與交談。 在增強Microsoft Teams會議室中，此內容會顯示在寬長寬比畫面上，以最大化會議內容的大小，以及可同時查看的參與者數目。
 
-此版面配置將支援單一和雙顯示器配置，並透過軟體更新Teams 會議室提供。 雖然增強型會議室中的前排版面配置特別具影響，但無論傢俱與硬體Teams任何位於 Windows 的會議室中，都可以使用前列。
+單一和雙顯示器配置都支援此版面配置。 雖然增強型會議室中的前排版面配置特別具影響，但無論傢俱與硬體Teams任何位於 Windows 的會議室中，都可以使用前列。
 
 ### <a name="how-do-you-co-create-content"></a>如何共同建立內容？
 

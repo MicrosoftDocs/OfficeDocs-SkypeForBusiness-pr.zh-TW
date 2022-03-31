@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9ca46e3fa967019e674651ea27299b6552144a7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: b2f14993f47cdea5690413a32c9d286587db7324
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711957"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556344"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中指派 Teams 擁有者和成員
 
@@ -63,7 +63,7 @@ Microsoft Teams 內有兩個使用者角色：**擁有者** 和 **成員**。 �
 
 ## <a name="moderator-capabilities"></a>仲裁者功能
 
-除了其他功能外，小組擁有者和成員還可以擁有頻道的 [仲裁者] 功能 (前提是為小組開啟了 [仲裁])。 仲裁者可在頻道中開始新的文章，並控制團隊成員是否可以回覆現有的頻道訊息。 他們也可以控制 Bot 和連接器是否可以提交頻道訊息。
+除了其他功能外，小組擁有者和成員還可以擁有頻道的 [仲裁者] 功能 (前提是為小組開啟了 [仲裁])。 仲裁者可在頻道中開始新的文章，並控制團隊成員是否可以回覆現有的頻道訊息。 仲裁者也可以控制具有 Bot 和連接器功能的應用程式是否可以提交頻道訊息。
 
 仲裁者功能是在頻道層級指派。 團隊擁有者預設會有仲裁者功能。 團隊成員的仲裁者功能預設會關閉，但團隊擁有者可為團隊成員提供頻道的仲裁者功能。 頻道內的仲裁者可以新增和移除該頻道內的其他仲裁者。
 

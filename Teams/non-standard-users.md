@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 765c0b97d5e277bd086ac4b25ee11ac80cb6fc11
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: fe3ad067844de3c7a5dda0a042dee837a9638eae
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711477"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556284"
 ---
 # <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams類型的應用程式行為
 
@@ -49,7 +49,7 @@ Teams來賓、外部 (、) ，以及匿名使用者以Teams顯示時的行為。
 
 #### <a name="bots-installed-to-a-channel"></a>安裝至頻道的 Bot
 
-Bot 可以主動訊息來賓使用者，但來賓無法與 Bot 互動。 來賓無法一對一訊息給 Bot、提及 Bot，或與與 Bot 通訊的介面卡片互動。
+來賓使用者可以提及 Bot，並與介面卡互動。
 
 #### <a name="personal-bots-installed-with-policies"></a>使用策略安裝的個人 Bot
 

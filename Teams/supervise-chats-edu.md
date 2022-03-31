@@ -14,15 +14,15 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何在會議中進行Microsoft Teams聊天。
-ms.openlocfilehash: a16e2cb1113e47efd7affb0014a0160f4077a568
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 瞭解如何在會議中Microsoft Teams聊天。
+ms.openlocfilehash: 5027e214de2ee85c2898676b15f4fa04352e1566
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387621"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556484"
 ---
-# <a name="supervised-chats-in-microsoft-teams"></a>在聊天中監督Microsoft Teams
+# <a name="supervised-chats-in-microsoft-teams"></a>在聊天中監督聊天Microsoft Teams
 
 教育機構提供安全且健康的網際空間給學生。 網際空間包含電子郵件、線上會議和通話，以及郵件Teams。 為了防止不當的傳訊行為，許多學校會停用 Teams。 很抱歉，停用聊天也會讓教師無法私下與學生聯繫，進行個人化學習。 當學生不想在班級團隊中公開張貼訊息時，他們無法與教師聯繫。
 
@@ -58,7 +58,7 @@ ms.locfileid: "62387621"
 
 - *有限許可權* – 此角色適用于只有學生受監督存取權且能與其他教職員和教師完全存取的員工成員。 他們可以開始與任何完整或受限制的使用者聊天，但無法與受限制的使用者開始聊天。 如果擁有完整許可權的使用者開始與受限制的使用者聊天，可以將受限制的使用者加入交談。 發生此存取是因為擁有完整許可權的使用者目前負責監督受限制和受限制的使用者之間的共同合作。
 
-- *限制許可權* – 此角色適用于需要受監管的學生。 他們只能與擁有完整許可權的使用者開始聊天。 他們可以參與擁有完整許可權的使用者邀請他們進行的任何交談。 在聯合聊天案例中，限制使用者只能由擁有來自受限制使用者租使用者之完整許可權的使用者新加入聊天。
+- *限制許可權* – 此角色適用于需要受監管的學生。 他們只能與擁有完整許可權的使用者開始聊天。 他們可以參與擁有完整許可權的使用者開始的任何交談，然後邀請他們加入。 在聯合聊天案例中，限制使用者只能由擁有來自受限制使用者租使用者之完整許可權的使用者新加入聊天。
 
 若要設定使用者的聊天許可權角色，請使用系統管理入口網站中的訊息Teams中找到的聊天許可權角色策略。 您可以使用 PowerShell 使用 ChatPermissionRole 策略定義角色，其值為完整、限制或限制。 此政策位於 CsTeamsMessagingPolicy 下。
 
@@ -68,7 +68,7 @@ ms.locfileid: "62387621"
 
 ### <a name="allow-supervised-chat"></a>允許有監督的聊天
 
-您的租使用者預設會停用監督聊天。 為使用者設定聊天許可權角色之後，您可以進入 Teams Teams，將角色型聊天權限原則設定為 On，以啟用您的 **租** &gt; 使用者內監督聊天 *。*   您也可以將 AllowRoleBasedChatPermissions 設定為 True，使用 PowerShell 啟用監督聊天。 此 Cmdlet 位於 CsTeamsClientConfiguration 下。
+您的租使用者預設會停用監督聊天。 為使用者 &gt; 設定聊天許可權角色之後，您可以按 Teams Teams設定，將角色型聊天權限原則設定為 On，以在租使用者中啟用監看式聊天 *。*   您也可以將 AllowRoleBasedChatPermissions 設定為 True，使用 PowerShell 啟用監督聊天。 此 Cmdlet 位於 CsTeamsClientConfiguration 下。
 
 必須針對租使用者中的所有使用者啟用受監督的聊天，而且只能為部分使用者啟用。
 
