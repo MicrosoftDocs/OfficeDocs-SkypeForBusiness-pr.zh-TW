@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的共用頻道 (預覽)。
-ms.openlocfilehash: 3a5b7f1005af95580f56b87188bc8a67325d440d
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0c66d308ef5182c6ace69a7bdcd004c865109bec
+ms.sourcegitcommit: 3e7c491d2bb13c86ac8e73b1c6c9735660c673e3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63712114"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64590381"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Microsoft Teams 中的共用頻道 (預覽)
 
@@ -43,7 +43,7 @@ ms.locfileid: "63712114"
 
 ## <a name="getting-started-with-shared-channels"></a>開始使用共用頻道
 
-預設會在 Teams 中啟用共用頻道。 您可以選擇人員是否可建立共用頻道、是否可以與組織外部人員共用，以及是否可[建立頻道原則](/MicrosoftTeams/teams-policies)來參與外部共用頻道。
+預設會在 Teams 中啟用共用頻道。您可以選擇人員是否可建立共用頻道、是否可以與組織外部人員共用，以及是否可[建立頻道原則](/MicrosoftTeams/teams-policies)來參與外部共用頻道。
 
 如果您打算與組織外部人員共用頻道，請閱讀[規劃外部共同作業](/microsoft-365/solutions/plan-external-collaboration)，以了解重要的規劃考量。
 
@@ -73,7 +73,7 @@ ms.locfileid: "63712114"
 
 如果共用頻道擁有者是一或多個共用頻道的最後一位擁有者，則無法透過 Teams 用戶端將其移除。
 
-如果最後一個共用頻道擁有者離開貴組織，或是從與小組相關聯的 Microsoft 365 群組中被移除，則會自動將共用頻道的一位成員升級為共用頻道擁有者。 請考慮新增多個擁有者，以避免這種情況。
+如果最後一個共用頻道擁有者離開貴組織，或是從與小組相關聯的 Microsoft 365 群組中被移除，則會自動將共用頻道的一位成員升級為共用頻道擁有者。請考慮新增多個擁有者，以避免這種情況。
 
 ## <a name="channel-owner-settings"></a>頻道擁有者設定
 
@@ -122,6 +122,22 @@ Teams 會管理共用頻道網站的生命週期。 如果在 Teams 以外刪除
 如果透過 SharePoint 將共用頻道中檔案、資料夾或筆記本的存取權授與使用者，則從小組或共用頻道中移除該使用者並不會移除該使用者對檔案、資料夾或筆記本的存取權。
 
 如果現有的筆記本是以索引標籤的形式新增到共用頻道，則對共用頻道的存取權不會變更，且筆記本會保留其現有的權限。
+
+## <a name="resources-for-your-users"></a>使用者的資源
+
+下列文章對於使用共用頻道的貴組織使用者可能有所幫助。
+
+[在 Teams 中建立共用頻道](https://support.microsoft.com/office/80712457-579e-42b2-b54f-112329578aaa)
+
+[與 Teams 中的人員共用頻道](https://support.microsoft.com/office/5f60de2d-0080-4e55-b26f-33a9dafa120e)
+
+[與小組共用頻道](https://support.microsoft.com/office/b2e89992-2708-4583-b11e-bbb6edb4f1c3)
+
+[在 Teams 中是否使用共用頻道與其他頻道類型?](https://support.microsoft.com/office/e6ad61d0-6b3f-4e1b-baac-63e2978bd92e)
+
+[Teams 中的來賓和共用頻道](https://support.microsoft.com/office/612de4ce-e7a3-4579-b086-bb8ff9f2d11e)
+
+[Teams 中的共用頻道擁有者和成員角色](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
 ## <a name="limits-for-shared-channels-preview"></a>共用頻道的限制 (預覽)
 

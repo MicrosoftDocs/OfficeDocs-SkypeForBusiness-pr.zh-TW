@@ -415,6 +415,8 @@ items:
                 href: use-call-analytics-to-troubleshoot-poor-call-quality.md
               - name: 使用即時遙測來疑難排解不良會議品質
                 href: use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md
+              - name: 新增和更新報告標籤
+                href: learn-more-about-site-upload.md
           - name: 服務品質 (QoS)
             items:
               - name: 在 Teams 中設定 QoS
@@ -839,6 +841,8 @@ items:
             href: pstn-connectivity.md
           - name: 通話方案
             items:
+              - name: Microsoft 365 的通話方案
+                href: calling-plans-for-office-365.md
               - name: 哪一個通話方案適合您？
                 href: calling-plan-landing-page.md
               - name: 設定組織的通話方案
@@ -963,7 +967,7 @@ items:
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: 管理直接路由的電話號碼
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
-      - name: 語音路由
+      - name: 撥號對應表和轉接
         items:
           - name: 什麼是撥號對應表？
             href: what-are-dial-plans.md
@@ -971,8 +975,6 @@ items:
             href: create-and-manage-dial-plans.md
           - name: 將通話路由至未指派的號碼
             href: routing-calls-to-unassigned-numbers.md
-          - name: 新增和更新報告標籤
-            href: learn-more-about-site-upload.md
       - name: 網路設定和拓撲
         items:
           - name: 雲端語音功能的網路設定
@@ -1573,6 +1575,12 @@ items:
                 items:
                   - name: 概觀
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
+                  - name: 使用 Shifts 連接器精靈設定與 Blue Yonder WFM 的連線
+                    href: expand-teams-across-your-org/shifts/shifts-connector-wizard.md
+                  - name: 使用 PowerShell 設定與 Blue Yonder WFM 的連線
+                    href: expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup.md
+                  - name: 使用 PowerShell 管理您的班次至藍色 Yonder WFM 連線
+                    href: expand-teams-across-your-org/shifts/shifts-connector-powershell-manage.md
               - name: 班次資料常見問題
                 href: expand-teams-across-your-org/shifts/shifts-data-faq.md
       - name: Teams 教育版

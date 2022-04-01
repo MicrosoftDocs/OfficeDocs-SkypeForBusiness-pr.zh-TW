@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: 瞭解傳訊政策，以及如何在聊天訊息中控制聊天Teams。
-ms.openlocfilehash: 74b9474eda7fd3c6bfe7224f62fbf58f61689743
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 00146d35faac13ef511a06b6c442341832867bcc
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556244"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592788"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>管理 Teams 中的訊息原則
 
@@ -99,7 +99,7 @@ ms.locfileid: "64556244"
 - **URL 預覽** 使用此設定可開啟或關閉郵件中的自動 URL 預覽。
 - **翻譯郵件** 開啟此設定，讓使用者自動將Teams訊息翻譯成其個人語言設定所指定的語言，Microsoft 365或Office 365。
 - **郵件的沉浸式閱讀程式** 開啟此設定，讓使用者在 Microsoft 沈浸式閱讀程式。 沈浸式閱讀程式是一種學習工具，可提供全螢幕閱讀體驗，提高文字的可讀性。
-- **使用優先順序通知傳送緊急郵件** 如果您開啟此選項，使用者可以使用優先順序通知 [傳送郵件](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)。 優先順序通知會每隔 2 分鐘通知使用者 20 分鐘，或直到收件者選取並讀取標示為緊急的郵件。 此功能會增加郵件及時處理的可能性。
+- **使用優先順序通知傳送緊急郵件** 如果您開啟此選項，使用者可以使用優先順序通知 [傳送郵件](https://support.microsoft.com/article/mark-a-message-as-important-or-urgent-in-teams-ea99d5b6-1317-4550-8d75-86ff14cd4462)。 優先順序通知會每隔 2 分鐘通知使用者 20 分鐘，或直到收件者選取並讀取標示為緊急的郵件。 此功能會增加郵件及時處理的可能性。 傳送緊急郵件後，無法編輯。
 - **建立語音留言**
   > [!Important]
   > eDiscovery 報表不會捕獲音訊訊息。

@@ -11,21 +11,26 @@ search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 63579e7e9b6b2f7a7456349c489d4f544eb67cc1
+ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64584308"
 ---
-
 # <a name="manage-devices-in-the-teams-admin-center-with-administrative-units"></a>使用系統管理Teams管理中心管理裝置
 
-系統管理中心的系統Teams提供詳細的角色式存取權，以管理Teams裝置。 系統管理Teams授予系統管理員特定資源的存取權，但限制該系統管理員對其他資源的存取權。 如果您擁有不同國家/地區Teams系統管理員，這項功能就特別實用。
+系統管理中心的系統Teams提供詳細的角色式存取權，以管理Teams裝置。 系統管理單位Teams系統管理員存取特定資源的許可權，但限制該系統管理員對其他資源的存取權。 如果您擁有不同國家/地區Teams當地系統管理員，這項功能就特別實用。
 
 例如，Contoso 在全球都有作業。 艾莉是位於倫敦的全域 IT 系統管理員，而 Prashant 是位於印度班加羅爾的當地 IT 系統管理員。 現在，當 Prashant 以Teams管理員的登錄至系統管理中心時，Teams看到全球的裝置。 艾莉華想要限制 Prashant 只Teams班加羅爾的裝置存取權。 系統管理單位允許她這麼做。 若要深入瞭解，請參閱系統[管理Azure Active Directory](/azure/active-directory/roles/administrative-units)。
 
 > [!NOTE]
-> 系統管理單位目前僅在 Teams系統管理中心提供，Teams系統管理員角色使用。
+> 系統管理Teams系統管理中心目前僅適用于Teams系統管理員角色。
 
 ## <a name="add-administrative-units"></a>新增系統管理單位
 
@@ -33,7 +38,7 @@ appliesto:
 
 ## <a name="assign-admins-to-administrative-units"></a>指派系統管理員給系統管理單位
 
-您也需要全域系統管理員才能指派系統管理單位。 您可以使用 Azure 入口網站、PowerShell 或 Microsoft Graph API 指派系統管理單位。 若要深入瞭解，請參閱指派[Azure AD管理單元範圍的角色](/azure/active-directory/roles/admin-units-assign-roles)。
+您也需要全域系統管理員才能指派系統管理單位。 您可以使用系統、PowerShell 或 Microsoft Azure 入口網站 指派系統管理圖形 API。 若要深入瞭解，請參閱指派[Azure AD管理單元範圍的角色](/azure/active-directory/roles/admin-units-assign-roles)。
 
 ## <a name="select-administrative-units"></a>選取系統管理單位
 
@@ -49,7 +54,7 @@ appliesto:
 
 ## <a name="switch-administrative-units"></a>切換系統管理單位
 
-如果您是系統管理員Teams，如果您已登錄系統管理中心，可以在系統管理Teams切換。 若要切換到不同的系統管理單元：
+如果您是裝置系統管理員Teams，如果您已登錄系統管理中心，可以在系統管理Teams切換。 若要切換到不同的系統管理單元：
 
 1. 請Teams[系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=2024339)。
 
@@ -62,3 +67,7 @@ appliesto:
     - 如果您有 **許可權** 管理貴組織的所有裝置，請選取所有裝置。
 
 5. 選取 [儲存 **]**。
+
+## <a name="related-topics"></a>相關主題
+
+- [新增使用者或群組至系統管理單位](/azure/active-directory/roles/admin-units-members-add)

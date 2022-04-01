@@ -21,34 +21,34 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: 本文說明如何在解除委任您的內部部署環境之後管理屬性。
-ms.openlocfilehash: 64a56b2fd5543179fbd9167721ad60699c6c4a23
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 2186a3e3c3c1858a9ae071932d5bf4f6d2c72c1c
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763787"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592898"
 ---
 # <a name="decide-how-to-manage-attributes-after-decommissioning"></a>決定解除授權後如何管理屬性
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 
-根據預設，所有為商務用 Skype Server 啟用之後又移至雲端的使用者，仍然會在您的內部部署 Active Directory 中設定 msRTCSIP 屬性。 
+根據預設，所有為商務用 Skype Server 啟用之後又移至雲端的使用者，仍然會在內部部署的 Active Directory 中設定 msRTCSIP 屬性。 
 
-這些屬性（特別是 sip 位址 (msRTCSIP-PrimaryUserAddress) 和電話號碼 (msRTCSIP 行) ）繼續同步處理至 Azure AD。 如果需要變更任何 msRTCSIP 屬性，則必須在內部部署 Active Directory 中進行這些變更，然後同步處理至 Azure AD。 不過，商務用 Skype Server 部署已移除之後，就無法使用商務用 Skype Server 工具來管理這些屬性。
+這些屬性（特別是 sip 位址 (msRTCSIP-PrimaryUserAddress) 和電話號碼 (msRTCSIP 行) ）繼續同步處理至 Azure AD。 如果需要變更任何 msRTCSIP 屬性，必須在內部部署的 Active Directory 中進行這些變更，然後再同步處理至 Azure AD。 不過，商務用 Skype Server 部署已移除之後，就無法使用商務用 Skype Server 工具來管理這些屬性。
 
 有兩個選項可用於處理這種情況：
 
-1. 保留已為商務用 Skype 伺服器帳戶啟用的使用者，並使用 Active Directory 工具管理 msRTCSIP 屬性。 此方法可確保未遷移使用者的服務遺失，並可讓您移除商務用 Skype Server 部署，方法是消除 (（例如，擦除) 伺服器，而不需完全解除委任）。 不過，新授權的使用者將不會在您的內部部署 Active Directory 中填入這些屬性，且必須在線上進行管理。
+1. 保留已為商務用 Skype 伺服器帳戶啟用的使用者，並使用 Active Directory 工具管理 msRTCSIP 屬性。 此方法可確保未遷移使用者的服務遺失，並可讓您移除商務用 Skype Server 部署，方法是消除 (（例如，擦除) 伺服器，而不需完全解除委任）。 不過，新授權的使用者將不會在您的內部部署的 Active Directory 中填入這些屬性，且必須在線上進行管理。
 
-2.  從內部部署 Active Directory 中已遷移的使用者清除所有 msRTCSIP 屬性，並使用線上工具管理這些屬性。 此方法可讓現有和新使用者使用一致的管理方法。 不過，在內部部署解除委任過程中，可能會造成服務暫時遺失。
+2.  從內部部署的 Active Directory 中已遷移的使用者清除所有 msRTCSIP 屬性，並使用線上工具管理這些屬性。 此方法可讓現有和新使用者使用一致的管理方法。 不過，在內部部署解除委任過程中，可能會造成服務暫時遺失。
 
 
 ## <a name="method-1---manage-sip-addresses-and-phone-numbers-for-users-in-active-directory"></a>方法 1-管理 Active Directory 中使用者的 sip 位址和電話號碼
 
 管理員可以管理從內部部署商務用 Skype Server 移至雲端的使用者，即使在內部部署的部署解除委任後，也是如此。 
 
-如果您想要變更使用者的 sip 位址或使用者的電話號碼 (而且 sip 位址或電話號碼在內部部署 Active Directory) 中已有值，您必須在內部部署 Active Directory 中進行變更，並讓) 流程中的值 (s Azure AD。 此方法不需要內部部署商務用 Skype Server。 相反地，您可以使用 Active Directory 使用者和電腦 MMC 嵌入式管理單元來直接修改內部部署 Active Directory 中的這些屬性 (，如) 所示，或是使用 PowerShell。 如果您使用的是 MMC 嵌入式管理單元，請開啟使用者的 [內容] 頁面，按一下 [屬性編輯器] 索引標籤，然後尋找適當的屬性進行修改：
+如果您想要變更使用者的 sip 位址或使用者的電話號碼 (而且 sip 位址或電話號碼在內部部署的 Active Directory 中已有值) ，您必須在內部部署的 Active Directory 中進行變更，並讓 (s) 流程的值 Azure AD。 此方法不需要內部部署商務用 Skype Server。 相反地，您可以直接在內部部署的 Active Directory 中修改這些屬性，方法是使用 Active Directory 消費者和電腦 MMC 嵌入式管理單元 (（如) 所示），或是使用 PowerShell。 如果您使用的是 MMC 嵌入式管理單元，請開啟使用者的 [內容] 頁面，按一下 [屬性編輯器] 索引標籤，然後尋找適當的屬性進行修改：
 
 - 若要修改使用者的 sip 位址，請修改 `msRTCSIP-PrimaryUserAddress` 。
 
@@ -62,12 +62,12 @@ ms.locfileid: "62763787"
 
 - 如果使用者在移動之前沒有內部部署的值 `msRTCSIP-Line` ，您可以使用 `-PhoneNumber` Teams PowerShell 模組的[CsPhoneNumberAssignment 指令程式](/powershell/module/teams/set-csphonenumberassignment)中的參數修改電話號碼。
 
-在您停用混合式之後所建立的新使用者，這些使用者不需要這些步驟，而且可以直接在雲端中管理這些使用者。 如果您習慣搭配使用這些方法，並在內部部署 Active Directory 中就地保留 msRTCSIP 屬性，您可以重新鏡像內部部署商務用 Skype 伺服器。 不過，如果您想要清除所有 msRTCSIP 屬性，並執行商務用 Skype Server 的傳統卸載，請使用方法2。
+在您停用混合式之後所建立的新使用者，這些使用者不需要這些步驟，而且可以直接在雲端中管理這些使用者。 如果您習慣使用這些方法的組合，並在內部部署的 Active Directory 中就地保留 msRTCSIP 屬性，您可以重新影像內部部署商務用 Skype 伺服器。 不過，如果您想要清除所有 msRTCSIP 屬性，並執行商務用 Skype Server 的傳統卸載，請使用方法2。
 
 
 ## <a name="method-2---clear-skype-for-business-attributes-for-all-on-premises-users-in-active-directory"></a>方法 2-清除 Active Directory 中所有內部部署使用者的商務用 Skype 屬性
 
-這個選項需要更多的工作量及適當的規劃，因為從內部部署商務用 Skype Server 移至雲端的使用者必須重新布建。 這些使用者可以分為兩種不同的類別：沒有電話系統的使用者和具有電話系統的使用者。 在將電話號碼從內部部署 Active Directory 中管理到雲端時，具有電話系統的使用者將會經歷暫時遺失電話語音的情況。 **建議您在開始大量使用者作業之前，先使用少量的使用者與電話系統執行試驗。** 在大型部署中，使用者可以在不同時間視窗的較小群組中處理。 
+這個選項需要更多的工作量及適當的規劃，因為從內部部署商務用 Skype Server 移至雲端的使用者必須重新布建。 這些使用者可以分為兩種不同的類別：沒有電話系統的使用者和具有電話系統的使用者。 在將電話號碼從內部部署的 Active Directory 轉換為雲端時，具有電話系統的使用者將會經歷暫時遺失電話語音的情況。 **建議您在開始大量使用者作業之前，先使用少量的使用者與電話系統執行試驗。** 在大型部署中，使用者可以在不同時間視窗的較小群組中處理。 
 
 > [!NOTE] 
 > 此程式最簡單的情況是具有相符 sip 位址及 UserPrincipalName 的使用者。 如果組織的使用者在這兩個屬性之間具有非符合性值，請特別注意，以順利進行轉換。
@@ -112,7 +112,7 @@ ms.locfileid: "62763787"
    Disable-CsUser -Identity $user.SipAddress}
    ```
 
-   接下來，針對同一組使用者，使用內部部署 Active Directory PowerShell: 清除 msRTCSIP-DeploymentLocator 的值
+   接下來，針對同一組使用者，使用內部部署的 Active Directory 清除 msRTCSIP-DeploymentLocator 的值 PowerShell:
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -120,7 +120,7 @@ ms.locfileid: "62763787"
    Set-ADUser -Identity $user.SamAccountName -Clear msRTCSIP-DeploymentLocator}
    ```
 
-5. 若要將 sip 位址值新增回內部部署 Active directory proxyAddresses，請在 Windows PowerShell Cmdlet 中執行下列內部部署 active directory 模組。 此巨集指令可防止依賴此屬性的互通性問題。 
+5. 若要將 sip 位址值新增回內部部署的 Active Directory proxyAddresses，請在 Windows PowerShell Cmdlet 中執行下列內部部署的 Active Directory 模組。 此巨集指令可防止依賴此屬性的互通性問題。 
 
    ```PowerShell
    $sfbusers=import-csv "c:\data\SfbUsers.csv"
@@ -144,7 +144,7 @@ ms.locfileid: "62763787"
 7. 等候使用者布建完成。 您可以執行下列 Teams PowerShell 命令，以監視使用者布建進度。 下列 Teams PowerShell 命令會在很快處理常式完成時傳回空的結果。
 
    ```PowerShell
-   Get-CsOnlineUser -Filter {Enabled -eq $True -and (MCOValidationError -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
+   Get-CsOnlineUser -Filter {Enabled -eq $True -and (UserValidationErrors -ne $null -or ProvisioningStamp -ne $null -or SubProvisioningStamp -ne $null)} | fl SipAddress, InterpretedUserType, OnPremHostingProvider, MCOValidationError, *ProvisioningStamp
    ```
 
 8. 若要指派電話號碼並為使用者啟用電話系統，請執行下列 Teams PowerShell 命令：

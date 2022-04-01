@@ -21,12 +21,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: 本文將瞭解如何在 Microsoft Teams 中建立、編輯及管理資源Microsoft Teams。
-ms.openlocfilehash: bc49142a5e40b0bb883761cde297d01d89a3f67b
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: cb89621d6049106cb090d72244644a4b14565657
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062557"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592708"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>在 Microsoft Teams 中管理資源帳戶
 
@@ -105,7 +105,9 @@ ms.locfileid: "63062557"
 
 若要將直接路由或混合式號碼指派給資源帳戶，您需要使用 PowerShell：
 
-`Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting`
+```powershell
+Set-CsPhoneNumberAssignment -Identity aa-contoso_main@contoso64.net -PhoneNumber +19295550150 -PhoneNumberType DirectRouting
+```
 
 ## <a name="next-steps"></a>後續步驟
 
@@ -156,5 +158,5 @@ ms.locfileid: "63062557"
 若要從資源帳戶取消關聯直接路由電話號碼，請使用下列 Cmdlet：
 
 ```powershell
-Remove-CsPhoneNumberAssignment -Identity  <Resource Account oid> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
+Remove-CsPhoneNumberAssignment -Identity <Resource Account Object ID> -PhoneNumber <assigned phone number> -PhoneNumberType DirectRouting
 ```

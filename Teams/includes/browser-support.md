@@ -21,6 +21,6 @@ Teams 完全支援以下網際網路瀏覽器，但通話和會議例外。 此�
 <sup>4</sup> Edge RS2 或更新版本不支援透過 HTTP proxy 傳送即時音訊和影片流量。
 
 > [!NOTE]
-> 只要作業系統可以執行支援的瀏覽器，就能在桌上型電腦支援 Teams。 例如，在 Linux 作業系統上執行 Firefox，即為使用 Teams 的一個選項。
+> 在符合 [Microsoft Teams 最低硬體需求](../hardware-requirements-for-the-teams-app.md)的 PC 和 Mac 上支援在瀏覽器中執行 Teams。 例如，在 Linux 作業系統上執行 Firefox，即為使用 Teams 的一個選項。
 >
-> 針對行動裝置作業系統，我們建議您執行可從 Android 和 iOS 商店取得的 Teams 應用程式。 支援在行動裝置作業系統上執行 Teams，但許多功能無法使用。
+> 在行動裝置上，我們建議您使用 Teams 應用程式。 Teams 應用程式可從 Android 和 iOS 商店中購買。 支援在行動裝置上的瀏覽器中執行 Teams，但無法使用許多功能。

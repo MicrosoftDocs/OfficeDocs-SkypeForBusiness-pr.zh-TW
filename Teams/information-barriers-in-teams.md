@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4d8ae47e2e9963a6379c6516a6739f8fcf180154
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 41d5cf86085c944e414e1c78e3160f8f2678d0d1
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711937"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592938"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>中的資訊Microsoft Teams
 
@@ -110,7 +110,7 @@ IBM 合規性管理角色負責管理IB 政策。 有關此角色的資訊，請
 
 - 使用者在 Teams 中撥打電話：每當使用者透過 VOIP) 向另一個使用者或使用者群組啟動語音通話 (時，會評估該通話，以確保該通話不會違反其他小組成員的 IB 原則。 如果有任何衝突，語音通話會封鎖。
 
-- **來賓Teams**：IB 原則也適用于Teams的來賓。 如果貴組織的全域通訊清單中需要可探索來賓，請參閱管理群組中的[來賓Microsoft 365存取](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 一旦來賓可探索，您可以 [定義IB 政策](/office365/securitycompliance/information-barriers-policies)。
+- **來賓Teams**：IB 原則也適用于Teams的來賓。 如果貴組織的全域通訊清單中需要可探索來賓，請參閱在 Microsoft 365 群組 中[管理來賓Microsoft 365 群組](/microsoft-365/admin/create-groups/manage-guest-access-in-groups)。 一旦來賓可探索，您可以 [定義IB 政策](/office365/securitycompliance/information-barriers-policies)。
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>政策變更對現有聊天的影響
 
@@ -188,7 +188,7 @@ IBM 合規性管理角色負責管理IB 政策。 有關此角色的資訊，請
 
 - **開啟**：此組式是啟用資訊障礙之前所布備之所有現有群組的預設 IB 模式。 在此模式中，沒有適用的IB 政策。
 - **隱含**：啟用資訊障礙之後，當小組布備時，此組是預設的IB模式。 隱含模式可讓您新增群組中所有相容的使用者。
-- **擁有者管理 (** 預覽) ：當您想要允許由擁有者管理之不相容的區段使用者之間共同合作時，此模式是在小組中設定。 團隊擁有者可以依其 IBM 政策新增成員。
+- **擁有者受管理**：當您想要允許由擁有者管理之不相容的區段使用者之間共同合作時，此模式是在團隊中設定。 團隊擁有者可以依其 IBM 政策新增成員。
 
 Teams租使用者中啟用資訊障礙策略之前建立的資訊，預設會自動設定為 *開啟* 模式。 一旦在租使用者上啟用 IBM 政策，您必須將現有團隊的模式更新為 *[隱含* 模式」，以確保現有團隊符合 IBM 規範。
 
@@ -202,7 +202,7 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 
 若要針對所有現有團隊將模式從開啟更新為隱含，請使用 [此 PowerShell 腳本](information-barriers-mode-script.md)。
 
-如果您變更現有 Teams 連結群組上的 Open 模式組態，以滿足貴組織的合規性需求，您必須更新與 Teams 小組相關聯的 SharePoint 網站的[IB](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell)模式。
+如果您變更現有 Teams 連結群組上的 Open 模式組態，以滿足貴組織的合規性需求，您必須更新與 Teams 小組相關聯的 SharePoint 網站的[IB](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell)模式。
 
 ## <a name="required-licenses-and-permissions"></a>必要的授權和許可權
 
@@ -218,11 +218,10 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 ## <a name="more-information"></a>詳細資訊
 
 - 若要深入瞭解 IB，請參閱 [資訊障礙](/office365/securitycompliance/information-barriers)。
-- 若要設定IB 政策，請參閱 [開始使用資訊障礙](/office365/securitycompliance/information-barriers-policies)。
+- 若要設定IB 政策，請參閱開始[資訊障礙。](/office365/securitycompliance/information-barriers-policies)
 - 若要編輯或移除IB 政策，請參閱 [管理資訊障礙政策](/microsoft-365/compliance/information-barriers-edit-segments-policies)。
 - [資訊障礙與共享通道](information-barriers-shared-channels.md)
 
 ## <a name="availability"></a>可用 性
 
-- 這項功能可在我們的公用雲端使用;我們在 2021 年 1 月推出雲端GCC障礙。
-- 此功能尚未在雲端 -高GCC DOD 雲端中提供。
+我們的公用、Teams、GCC、GCC - 高和 DOD 雲端中都提供資訊障礙。

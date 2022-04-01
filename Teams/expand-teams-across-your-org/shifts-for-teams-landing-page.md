@@ -22,12 +22,12 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: b92cca01512d31fe193a718eede74fd04f44ae2e
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: 59e62ad1278c2703402a1186d198ae3ad877be63
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918866"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592769"
 ---
 # <a name="shifts-for-teams"></a>Teams 中的 Shifts
 
@@ -54,14 +54,17 @@ ms.locfileid: "62918866"
 |&nbsp;  |&nbsp;  |
 |---------|---------|
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Shifts 連接器概觀](shifts/shifts-connectors.md)** 取得 Shifts 連接器及其工作方式概觀。 瞭解可用的受管理與開放來源連接器，以及支援的 WFM 系統。   |
-|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[受管理的 Shifts 連接器](shifts/shifts-connectors.md#managed-shifts-connectors)** 與合作夥伴共同開發的受管理的 Shifts 連接器是由我們或我們的合作夥伴託管和管理。 如果您使用的是 Reflexis WFM 系統，請參閱[適用于 Microsoft Teams的反身符 Shifts 連接器以深入瞭解](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams)。    |
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[受管理的 Shifts 連接器](shifts/shifts-connectors.md#managed-shifts-connectors)** 與合作夥伴共同開發的受管理的 Shifts 連接器是由我們或我們的合作夥伴託管和管理。 若要深入瞭解，請參閱 Microsoft Teams [Yonder](shifts/shifts-connectors.md#microsoft-teams-shifts-connector-for-blue-yonder)和[Reflexis Shifts 連接器的 Shifts](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams)連接器Microsoft Teams。    |
+|   | **[使用 Shifts 連接器精靈將 Shifts 連接到 Blue Yonder 員工管理](shifts/shifts-connector-wizard.md)** 此範本中的 Shifts 連接器精靈Microsoft 365 系統管理中心可協助您快速設定與 WFM 系統的連接。 目前，精靈支援 Blue Yonder Teams Shifts 連接器，以將 Shifts 與 Blue Yonder 員工管理整合。
+|  | **[使用 PowerShell 將 Shifts 連接到 Blue Yonder 員工管理](shifts/shifts-connector-blue-yonder-powershell-setup.md)** 瞭解如何使用 PowerShell 透過 Blue Yonder 的 Shifts 連接器設定與 Blue Yonder 員工管理Teams連接。         |
+|   | **[使用 PowerShell 管理您與 Blue Yonder 員工管理之間的 Shifts 連接](shifts/shifts-connector-powershell-manage.md)** 透過 Shifts 連接器精靈或 PowerShell 設定之後，取得如何使用 PowerShell 管理您與 Blue Yonder 員工管理之間的 Shifts 連接。
 |<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[開放來源 Shifts 連接器](/microsoftteams/platform/samples/shifts-wfm-connectors)** 瞭解如何使用 [社群導向的](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)開放來源連接器，透過 Shifts Graph API 和 SDK 整合您的 Kronos 或 JDA WFM 系統。    |
 
 ## <a name="shifts-extensions"></a>Shifts 擴充功能
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[移Graph API](/graph/api/resources/shift)** Shifts Graph API 讓您將 Shifts 資料與外部員工管理整合至 WFM (系統) 整合。 您可以在後端彈性地建立自訂 Shifts 體驗，同時為使用者提供豐富的前端體驗，Teams。             |
+| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[移Graph API](/graph/api/resources/shift)** Shifts Graph API 讓您將 Shifts 資料與外部員工管理與 WFM (整合) 整合。 您可以在後端彈性地建立自訂 Shifts 體驗，同時為使用者提供豐富的前端體驗，Teams。             |
 |<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Shifts + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Shifts + Power Automate可讓您從 Shifts 中取資訊，並與其他 App 建立自訂工作流程，並大規模執行作業。 使用幾乎不執行任何程式碼來自動化重要程式。 觸發程式與範本支援各種案例，例如，在不需要主管核准時，為輪班要求啟用自動核准。 |
 
 ## <a name="featured-training"></a>精選訓練

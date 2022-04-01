@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6f2ec21ec3e7f4278443d6bcab4b4220db3619f
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 53a1c2730ebf6db06fb92ac2fc4e0873563c98ce
+ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556735"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64584327"
 ---
 # <a name="whats-new-for-direct-routing"></a>直接路由的新增功能
 
@@ -62,7 +62,7 @@ Microsoft 365更新 Teams服務，以使用一組不同的根憑證授權單位 
 
 檢查您的 SBC 配置，確定您不是在 SIP 要求中使用取代頁標題。
 
-## <a name="tls10-and-10"></a>TLS1.0 和 1.0
+## <a name="tls10-and-11"></a>TLS1.0 和 1.1
 
 為了為客戶提供一流的加密功能，Microsoft 計畫將傳輸層安全性 (TLS) 版本 1.0 和 1.1 取消。 Microsoft 將于 2022 年 4 月 3 日強制 TLS1.2 使用直接路由 SIP 介面。
 

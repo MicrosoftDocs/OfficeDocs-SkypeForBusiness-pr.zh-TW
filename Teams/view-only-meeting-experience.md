@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 104540c047f499f8b82139e0c76c93e4b4625f62
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 032036c6f08dac76cae9ed124ffe7bc8439e4c32
+ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401137"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64584258"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Teams 僅供檢視會議體驗
 
@@ -119,6 +119,7 @@ Teams 僅供檢視體驗可讓出席者：
 - 在會議中舉手。
 - 傳送或查看回應。
 - 與整合至 Teams 會議的任何第三方應用程式互動，包括投票。
+- 存取會議錄製。
 
 ## <a name="view-only-feature-limitations"></a>僅供檢視功能限制
 

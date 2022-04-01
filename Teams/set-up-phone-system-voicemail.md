@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為使用者雲端語音信箱帳戶。
-ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: dd98275ac768990337a47f1f4ba6dacbdb385087
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442319"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592718"
 ---
 # <a name="set-up-cloud-voicemail"></a>設定 [雲端語音信箱]
 
@@ -41,7 +41,7 @@ ms.locfileid: "63442319"
 
 針對使用者Teams與適用于線上使用者商務用 Skype相同。 針對 商務用 Skype Online 使用者，雲端語音信箱使用者被指派 電話系統 授權，且由企業語音系統啟用時，系統會自動設定和設定使用者。
 
-針對商務用 Skype Server內部部署使用者，系統會自動雲端語音信箱設定和設定使用者。 不過，您必須設定商務用 Skype Server，將通話路由到雲端語音信箱。 詳細資訊請參閱為內部[雲端語音信箱使用者規劃服務](/skypeforbusiness/hybrid/plan-cloud-voicemail.md)。
+針對商務用 Skype Server內部部署使用者，系統會自動雲端語音信箱設定和設定使用者。 不過，您必須設定商務用 Skype Server，將通話路由到雲端語音信箱。 詳細資訊請參閱為內部[雲端語音信箱使用者規劃服務](/skypeforbusiness/hybrid/plan-cloud-voicemail)。
 
 ## <a name="cloud-voicemail-storage"></a>雲端語音信箱儲存空間
 
@@ -55,7 +55,7 @@ ms.locfileid: "63442319"
 
 錄製和錄製雲端語音信箱會Microsoft 365通話的起始處開始雲端語音信箱。 郵件隨即傳送到使用者的信箱Exchange信箱。
 
-例如，如果通話是透過歐洲地區的會話邊界控制器 (SBC) 直接路由使用者，則語音信箱錄製和文字記錄會在歐洲完成。 郵件隨即傳送到使用者的信箱Exchange信箱。 另一個範例是，假設北美Teams使用者呼叫歐洲Teams無法使用的使用者。 在此案例中，通話會在北美開始，處理會在北美進行，然後語音信箱會傳送到使用者的歐洲Exchange信箱。
+例如，如果通話是透過歐洲地區的會話邊界控制器 (SBC) 直接路由使用者，則語音信箱錄製和文字記錄會在歐洲完成。 郵件隨即傳送到使用者的信箱Exchange信箱。 另一個範例是，假設Teams使用者北美洲歐洲Teams無法使用的使用者。 在這種情況下，通話會從 北美洲 開始，處理會北美洲，然後語音信箱會傳送到使用者的歐洲Exchange信箱。
 
 語音信箱的傳送Exchange使用簡易郵件傳輸通訊協定或 SMTP (SMTP) ，就像任何其他電子郵件一樣。
 
@@ -75,7 +75,7 @@ ms.locfileid: "63442319"
 
 為 雲端語音信箱 所設定之所有使用者的預設設定是允許將通話路由至雲端語音信箱，以及允許使用者將通話轉雲端語音信箱。
 
-您可以使用 Cmdlet 與 AllowVoicemail 參數雲端語音信箱 Cmdlet，Teams Set-CsTeamsCallingPolicy使用者是否允許將通話路由至其他使用者。 詳細資訊，請參閱 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy.md)。
+您可以使用 Cmdlet 與 AllowVoicemail 參數雲端語音信箱 Cmdlet，Teams Set-CsTeamsCallingPolicy使用者是否允許將通話路由至其他使用者。 詳細資訊，請參閱 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)。
 
 - 如果您將 AllowVoicemail 設為 AlwaysDisabled，來電永遠不會路由至語音信箱，無論使用者的呼叫轉寄或未接聽設定。 語音信箱無法以呼叫轉轉或未Teams。
 
@@ -105,11 +105,11 @@ ms.locfileid: "63442319"
 
 若要加密語音信箱訊息，您可以建立敏感度標籤。 使用自動標籤功能，您可以確保標籤會自動適用于傳入的語音信箱訊息。 
 
-當您啟用受保護的語音信箱時，使用者可以在 Android 或 iOS 版 Outlook、Outlook 網頁版 或 Outlook 中開啟郵件，以聆聽受保護的語音信箱訊息。 在 Busimes 的 Microsoft Teams 或 Skype中無法開啟受保護的語音信箱訊息。
+當您啟用受保護的語音信箱時，使用者可以在 Android 或 iOS 版 Outlook、Outlook 網頁版 或 Outlook 中開啟郵件，以聆聽受保護的語音信箱訊息。 受保護的語音信箱訊息無法于 Microsoft Teams 或 商務用 Skype。
 
 若要為語音信箱建立敏感度標籤，請參閱 [使用敏感度標籤](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)。 在加密 **區** 段，選擇允許使用者在申請標籤 **時指派許可權**。 選取 **Outlook，強制執行** 下列其中一項限制，然後選取不 **轉出** 選項。
 
-若要建立自動標記原則，以將敏感度標籤用於語音信箱，請參閱如何設定[](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)自動標籤原則，並指定下列特定設定：
+若要建立自動標籤原則，將敏感度標籤適用于語音信箱，請參閱如何設定[](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)自動標籤原則，並指定下列特定設定：
 
 -   若要 **選擇您想要將此標籤用於的資訊，** 請選取 **自訂原則**。
 
