@@ -16,12 +16,12 @@ f1.keywords:
 description: Teams多國公司的語音案例研究：電話系統
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c83cd07cb8943c19b783658a15db99351d11f995
-ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
+ms.openlocfilehash: abc7c2b3eb8cbbaf98842638526514171a8b23c7
+ms.sourcegitcommit: a77116a0b0fd7e3cf14de694c559338bea198851
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62353368"
+ms.lasthandoff: 04/03/2022
+ms.locfileid: "64628327"
 ---
 # <a name="contoso-case-study-phone-system-for-a-multi-national-corporation"></a>Contoso 案例研究：電話系統多國公司
 
@@ -42,11 +42,11 @@ ms.locfileid: "62353368"
 
 - 透過直接路由電話系統電話方案與電話系統 PSTN 電信公司之間的通話組合
  
-為了判斷適合其組織的解決方案，Contoso 在 Teams 中[](/SkypeForBusiness/cloud-voice-landing-page)使用規劃您的語音解決方案和 Ignite 2019[會話Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions)。  
+為了判斷適合其組織的解決方案，Contoso 在 Teams 中[](/microsoftteams/cloud-voice-landing-page)使用規劃您的語音解決方案和 Ignite 2019[會話Microsoft Teams](https://myignite.techcommunity.microsoft.com/sessions/83170?source=sessions)。  
 
 ## <a name="site-type-a-skype-for-business-enterprise-voice"></a>網站類型 A：商務用 Skype 企業語音 
 
-Contoso 商務用 Skype 企業語音設定為樞紐和分支。 有一個中央位置維護了地區的 PSTN 閘道，為位於國家/地區的使用者商務用 Skype 企業語音 PSTN。 這些衛星辦公室通常沒有自己的網際網路出口。 這些使用者的數位會位於連接到現有 SBC 的 SIP 主幹上。 
+Contoso 商務用 Skype 企業語音設定為樞紐和分支。 有一個中央位置維護了地區的 PSTN 閘道，為國家/地區的使用者商務用 Skype 企業語音 PSTN。 這些衛星辦公室通常沒有自己的網際網路出口。 這些使用者的數位會位於連接到現有 SBC 的 SIP 主幹上。 
 
 若要判斷已部署的 SBC 是否通過直接路由和媒體旁路的認證，Contoso 已檢查通過直接路由認證的會話 [框線控制器清單](direct-routing-border-controllers.md)。  
 
@@ -163,7 +163,7 @@ Contoso 參與 Ignite，Office 365系統與直接路由電話功能。 技術領
 - [直接路由的更新](https://myignite.techcommunity.microsoft.com/sessions/80381?source=sessions)
 
 
-## <a name="configuration"></a>配置
+## <a name="configuration"></a>設定
 
 ### <a name="calling-plans-sites"></a>通話方案網站
 
@@ -173,7 +173,7 @@ Contoso 參與 Ignite，Office 365系統與直接路由電話功能。 技術領
 
 ### <a name="direct-routing-sites"></a>直接路由網站
 
-若要將 Contoso 內部部署電話基礎結構連接到 Microsoft Teams，Contoso 的系統管理員遵循設定直接路由中的步驟，並查看 Microsoft Teams 中的影片[](direct-routing-configure.md)直接路由以尋求指引。[ ](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl)  Contoso 也提及認證 SBC 廠商的直接路由部署檔。 
+[若要](https://www.youtube.com/watch?v=1ASftX_Msb8&index=10&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl)將 Contoso 內部部署電話基礎結構連接到 Microsoft Teams，Contoso 的系統管理員遵循設定直接路由中的步驟，並查看 Microsoft Teams 中的影片[](direct-routing-configure.md)直接路由以尋求指引。  Contoso 也提及認證 SBC 廠商的直接路由部署檔。 
 
 一旦在 SBC 和 Microsoft 電話 系統之間進行直接路由，Contoso 必須測試該配置。 若要這麼做，Contoso 系統管理員使用 SIP 測試程式用戶端，該用戶端在 [Ignite 2019 的直接路由更新會話中已討論](https://myignite.techcommunity.microsoft.com/sessions/83178?source=sessions)。 SIP 測試程式用戶端腳本和檔是從 PowerShell 腳本下載，以測試直接路由會話邊界控制器連接。   
 

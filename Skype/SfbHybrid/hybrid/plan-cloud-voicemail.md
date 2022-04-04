@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: 本文說明實施 Microsoft 雲端語音信箱服務的優點、規劃考慮和需求。 如需設定雲端語音信箱的詳細資訊，請參閱設定雲端語音信箱。
-ms.openlocfilehash: fe3cc4cc9a7c009b2291875c6ffb4b9e8df4dbac
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 4aefe6485dd4eee8321ea56bf12d68799a31de45
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729292"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563732"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>規劃內部部署使用者的雲端語音信箱服務
 
@@ -40,7 +40,7 @@ ms.locfileid: "58729292"
 - 從 Exchange Online 整合通訊中利用現有的使用者問候語
 
 > [!Important]
-> 商務用 Skype線上將于2021年7月31日停用，超過此時間之後，使用者將無法再透過商務用 Skype Online 用戶端存取其 Exchange 信箱中的語音信箱。
+> 線上商務用 Skype 已于2021年7月31日停用。 使用者無法再透過商務用 Skype Online 用戶端存取其 Exchange 信箱中的語音信箱。
 
 如需有關功能比較的詳細資訊，請參閱[Plan for 商務用 Skype Server 和 Exchange Server 遷移](plan-um-migration.md)。
 
@@ -97,14 +97,14 @@ ms.locfileid: "58729292"
 
 | Skype/Lync 版本 | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
-| 商務用 Skype Server 2019 | Exchange ServerUM | Exchange ServerUM | 雲端語音信箱 | 雲端語音信箱 |
-| 商務用 Skype Server 2015 | Exchange ServerUM | Exchange ServerUM | 不支援 | 雲端語音信箱 |
-| Lync Server 2013 <br>  | Exchange ServerUM | Exchange ServerUM | 不支援 | 雲端語音信箱 |
+| 商務用 Skype Server 2019 | Exchange Server UM | Exchange Server UM | 雲端語音信箱 | 雲端語音信箱 |
+| 商務用 Skype Server 2015 | Exchange Server UM | Exchange Server UM | 不支援 | 雲端語音信箱 |
+| Lync Server 2013 <br>  | Exchange Server UM | Exchange Server UM | 不支援 | 雲端語音信箱 |
 
 Microsoft 建議下列遷移路徑：
 
 - 如果您要升級為商務用 Skype Server 2019，您可以在 Exchange Server 2013 或2016中使用 Exchange UM，但如果使用 Exchange Server 2019，則必須升級至雲端語音信箱。
 - 如果您要升級為 Exchange Server 2019，而您使用舊版的 Exchange Server UM 來商務用 Skype Server 語音訊息，則 Microsoft 建議您在信箱升級之前升級為商務用 Skype Server 2019。  否則，語音訊息功能將會遺失。
-- 如果您要升級為商務用 Skype Server 2019，並已針對含 Exchange Online UM 的語音信箱設定商務用 Skype Server 2015，使用者的語音信箱將會在其帳戶移至雲端語音信箱2019時，自動從 Exchange Online UM 遷移至商務用 Skype Server。 
+- 如果您要升級為商務用 Skype Server 2019，並已針對含 Exchange Online UM 的語音信箱設定商務用 Skype Server 2015，使用者的語音信箱將會在移動帳戶時自動從 Exchange Online UM 遷移至雲端語音信箱。若要商務用 Skype Server 2019。 
 
 如需規劃遷移的詳細資訊，請參閱[商務用 Skype Server 和 Exchange Server 遷移的計畫](plan-um-migration.md)。

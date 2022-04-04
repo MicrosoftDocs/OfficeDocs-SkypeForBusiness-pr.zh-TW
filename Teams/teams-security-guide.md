@@ -20,19 +20,19 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9fadf6685ada5f0625f7347efe3c1e4d8840af96
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 3e69fad1ab4aeeefba6d357fffd3d10a28139359
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579633"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592728"
 ---
 # <a name="security-and-microsoft-teams"></a>安全性和 Microsoft Teams
 
 > [!IMPORTANT]
 > 為了改善客戶體驗，Teams 服務模型可能會有所變更。 例如，預設存取權或重新整理權杖到期時間可能會修改，以提升使用 Teams 的效能與驗證復原能力。 任何此類變更的目標都是讓 Teams 保持安全且從設計上值得信賴。
 
-Microsoft Teams 是 Microsoft 365 和 Office 365 服務的一部分，其會遵循所有安全性最佳做法和程序，例如透過深度防禦達到服務等級的安全性、服務中的客戶控制、強化安全性及最佳營運做法。 如需詳細資訊，請參閱 [Microsoft 信任中心](https://microsoft.com/trustcenter)。
+Microsoft Teams 是 Microsoft 365 和 Office 365 服務的一部分，其會遵循所有安全性最佳做法和程序，例如透過深度防禦達到服務等級的安全性、服務中的客戶控制、強化安全性及最佳營運做法。如需詳細資訊，請參閱 [Microsoft 信任中心](https://microsoft.com/trustcenter)。
 
 ## <a name="trustworthy-by-design"></a>從設計上值得信賴
 
@@ -40,7 +40,7 @@ Teams 在設計和開發時就符合 Microsoft 高可信度電腦運算安全性
 
 ## <a name="trustworthy-by-default"></a>透過預設而值得信賴
 
-Teams 中的網路通訊預設會進行加密。 透過要求所有伺服器使用憑證，並使用 OAUTH、傳輸層安全性 (TLS)、安全即時傳輸通訊協定 (SRTP)，所有的 Teams 資料都會在網路上受到保護。
+Teams 中的網路通訊預設會進行加密。透過要求所有伺服器使用憑證，並使用 OAUTH、傳輸層安全性 (TLS)、安全即時傳輸通訊協定 (SRTP)，所有的 Teams 資料都會在網路上受到保護。
 
 ## <a name="how-teams-handles-common-security-threats"></a>Teams 如何處理常見的安全性威脅
 
@@ -48,11 +48,11 @@ Teams 中的網路通訊預設會進行加密。 透過要求所有伺服器使�
 
 ### <a name="compromised-key-attack"></a>盜取金鑰攻擊
 
-Teams 會使用 Windows Server 作業系統中的 PKI 功能，來保護用於 TLS 連線加密的金鑰資料。 用於媒體加密的金鑰會透過 TLS 連線來交換。
+Teams 會使用 Windows Server 作業系統中的 PKI 功能，來保護用於 TLS 連線加密的金鑰資料。用於媒體加密的金鑰會透過 TLS 連線來交換。
 
 ### <a name="network-denial-of-service-attack"></a>網路拒絕服務攻擊
 
-當攻擊者妨礙有效使用者正常使用網路並使網路失去功能時，就表示發生了分散式阻斷服務 (DDOS) 攻擊。 藉由使用拒絕服務攻擊，攻擊者可以：
+當攻擊者妨礙有效使用者正常使用網路並使網路失去功能時，就表示發生了分散式阻斷服務 (DDOS) 攻擊。藉由使用拒絕服務攻擊，攻擊者可以：
 
 - 對受攻擊網路上所執行的應用程式和服務傳送無效資料，以干擾其正常功能。
 - 傳送大量流量，讓系統超載直到其停止回應或只能緩慢回應合法要求。
@@ -134,7 +134,7 @@ Microsoft 365 中存在多層加密。 Teams 中的加密與 Microsoft 365 加�
 
 #### <a name="traffic-encryption"></a>流量加密
 
-伺服器對伺服器的流量無論是局限於內部網路還是跨越內部網路邊界，都需要使用 MTLS。 下表摘要說明 Teams 使用的通訊協定。
+伺服器對伺服器的流量無論是局限於內部網路還是跨越內部網路邊界，都需要使用 MTLS。下表摘要說明 Teams 使用的通訊協定。
 
 |**流量類型**|**加密工具**|
 |:-----|:-----|
@@ -150,7 +150,7 @@ Teams 會使用 TLS 和 MTLS 來加密立即訊息。
 
 #### <a name="media-encryption"></a>媒體加密
 
-Teams 中的通話流程基於 HTTPS 上的[工作階段描述通訊協定 (SDP) RFC 4566 ](https://tools.ietf.org/html/rfc4566)方案和接聽模型。 被呼叫者接受來電後，呼叫者和被呼叫者就工作階段參數達成一致。
+Teams 中的通話流程基於 HTTPS 上的 [工作階段描述通訊協定 (SDP) RFC 8866](https://datatracker.ietf.org/doc/html/rfc8866)方案和接聽模型。 被呼叫者接受來電後，呼叫者和被呼叫者就工作階段參數達成一致。
 
 媒體流量由呼叫者和被呼叫者使用安全 RTP (SRTP) 進行加密，並在雙方之間流動。SRTP 是即時傳輸通訊協定 (RTP) 的設定檔，可為 RTP 流量提供機密性、驗證和重播攻擊防護。 SRTP 使用由安全亂數產生器所產生，並透過訊號 TLS 通道來進行交換的工作階段金鑰。 在大多數情况下，用戶端對用戶端媒體流量透過用戶端對伺服器連線訊號進行交涉，并在用戶端直接導向至用戶端時，會使用 SRTP 加密。
 
@@ -189,7 +189,7 @@ Teams 驗證是透過 Azure AD 和 OAuth 來完成的。 驗證程序可簡化�
 
 ### <a name="configuring-access-to-teams-at-your-internet-boundary"></a>將 Teams 的存取設定在網際網路界限
 
-若要讓 Teams 正常運作，例如讓使用者能夠加入會議，客戶需要設定其網際網路存取，以允許流向 Teams 雲端服務的輸出 UDP 和 TCP 流量。 如需詳細資訊，請參閱 [Office 365 URL 和 IP 位址範圍](/office365/enterprise/urls-and-ip-address-ranges)。
+若要讓 Teams 正常運作，例如讓使用者能夠加入會議，客戶需要設定其網際網路存取，以允許流向 Teams 雲端服務的輸出 UDP 和 TCP 流量。如需詳細資訊，請參閱 [Office 365 URL 和 IP 位址範圍](/office365/enterprise/urls-and-ip-address-ranges)。
 
 ### <a name="udp-3478-3481-and-tcp-443"></a>UDP 3478-3481 和 TCP 443
 
@@ -262,13 +262,13 @@ Teams 會為企業使用者提供建立和加入即時會議的功能。 企業�
 
 會議參與者也會依位置和認證來分類。 您可以使用這兩種特性來決定哪些使用者可以存取特定會議。 使用者大致可以分成下列類別：
 
-- **屬於租用戶的使用者**. 這些使用者在 Azure Active Directory 中擁有租用戶的認證。
+- **屬於此租用戶的使用者**。這些使用者在 Azure Active Directory 中擁有租用戶的認證。
 
     *組織中的人員*：這些使用者在 Azure Active Directory 中擁有租用戶的認證。 *組織中的人員* 包括受邀的來賓帳戶。
 
     *遠端使用者*：這些使用者是從公司網路外部加入會議的。 這些人包括在家、在外工作的員工和其他人 (例如受信任供應商的員工)，且必須已獲得可在服務期間使用的企業認證。 遠端使用者可以建立和加入會議並擔任簡報者。
 
-- **不屬於租用戶的使用者**。 這些使用者在 Azure AD 中沒有租用戶的認證。
+- **不屬於此租用戶的使用者**。這些使用者在 Azure AD 中沒有租用戶的認證。
 
     *同盟使用者*：同盟使用者擁有對同盟合作夥伴有效的認證，因此可視為已由 Teams 驗證，但其對會議召集人租用戶來說仍屬外部。 同盟使用者可加入會議，並在加入會議後提升為簡報者，但他們無法在所同盟的企業中建立會議。
 
@@ -290,7 +290,7 @@ Teams 會為企業使用者提供建立和加入即時會議的功能。 企業�
 預設值為：
 
 - *組織中的人員*：組織外部的每個人都將在大廳等候，直到獲准加入會議。
-- *我的組織和受信任組織內的人員*：已通過驗證的使用者，以及位於外部存取允許清單上、來自 Teams 與商務用 Skype 網域的外部使用者可以略過大廳。 所有其他使用者則會在大廳中等待，直到獲准。
+- *我的組織和受信任組織內的人員*：已通過驗證的使用者，以及位於外部存取允許清單上、來自 Teams 與商務用 Skype 網域的外部使用者可以略過大廳。所有其他使用者則會在大廳中等待，直到獲准。
 - *每個人*：已通過驗證的使用者加入會議之後，所有會議參與者都可以略過大廳。
 
 ### <a name="presenter-capabilities"></a>簡報者的能力

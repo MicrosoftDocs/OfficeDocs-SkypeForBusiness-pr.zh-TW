@@ -12,12 +12,12 @@ ms.collection:
 description: 瞭解 PowerShell 模組支援Teams，用於管理 Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fc980420b53d850c48e680d25bdbf6ec437e8f8
-ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
+ms.openlocfilehash: e292e3ea5659920bca6fe6f663afc53164da5b49
+ms.sourcegitcommit: e3a4df81721abe83886714a7c3c798e4c0888c35
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783963"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "64617704"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 模組 - 支援的版本
 
@@ -39,7 +39,7 @@ Microsoft Teams 4.x.x (系列或更新版本中) 的 PowerShell 模組是未來�
 
 ## <a name="current-organizations-tpm-active"></a>目前使用 TPM (的組織) 
 
-過去三個月使用 Teams PowerShell 模組的組織 (年 1 月 22 日 -) 年 3 月 22 日，從 2022 年 6 月 15 日起，將只能使用 4.x.x 系列或以上的 Teams PowerShell 模組。 
+過去三個月使用 Teams PowerShell 模組的組織 (年 1 月 22 日 -) 年 3 月 22 日，從 2022 年 6 月 15 日起，將只能使用 4.x.x 系列或以上的 Teams PowerShell 模組。 訊息中心文章供參考 - MC350371。 
 
 
 
@@ -61,6 +61,8 @@ Microsoft Teams 4.x.x (系列或更新版本中) 的 PowerShell 模組是未來�
   * TPM 3.x.x Get-CsOnlineUser & Get-CsOnlineVoiceUser 更新更新 - [Get-CsOnlineUserGet-CsOnlineVoiceUser](/powershell/module/skype/get-csonlineuser)  &  (訊息中心文章 - MC340774) 。[ ](/powershell/module/skype/get-csonlinevoiceuser)
 
   * 電話 號碼指派即將變更 - [Set-CsUser](/powershell/module/skype/set-csuser)、[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)、[Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance)  &  (訊息中心文章 – MC316139 文章的更多詳細資料) [ ](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
+
+  * 取消Get-CsOnlineDirectoryTenant - [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant) (訊息中心文章 – MC346902) 。
 
 
 
