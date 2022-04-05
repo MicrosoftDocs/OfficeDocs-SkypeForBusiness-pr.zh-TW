@@ -3,26 +3,21 @@ title: 在 Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
-ms.reviewer: acolonna, salu
+ms.reviewer: 'acolonna, salu'
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
+  - Teams_ITAdmin_Help
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在組織中管理標記在 Microsoft Teams 中Microsoft Teams。
-ms.openlocfilehash: af9855f1ca771cb9f5d4739194e26cba746859ff
-ms.sourcegitcommit: caaed4b48b8f2b05d035c1bdea00a61301bc9f05
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63740200"
 ---
+
 # <a name="manage-tags-in-microsoft-teams"></a>在 Microsoft Teams
 
 ## <a name="overview"></a>概觀
@@ -61,7 +56,7 @@ ms.locfileid: "63740200"
 
 根據預設，團隊擁有者可以新增自訂標記。 您可以變更此設定，讓團隊擁有者和小組成員建立、編輯、刪除和管理標記，也可以關閉貴組織的標記。
 
-1. 在系統管理中心的左側導Microsoft Teams，按一下 [全 **組織**  >  設定 **Teams設定**。
+1. 在系統管理中心的左側導 **Microsoft Teams，按一下**[  >  Teams **Teams設定**。
 2. 在 **標記下****，選取下列** 其中一個選項，以管理標記：
 
     - **團隊擁有者和成員**：允許團隊擁有者和成員管理標記。
@@ -72,7 +67,7 @@ ms.locfileid: "63740200"
 
 您可以設定下列標記設定，以控制自訂標記在整個組織的使用方式。
 
-1. 在系統管理中心的左側導Microsoft Teams，按一下 [全 **組織**  >  設定 **Teams設定**。
+1. 在系統管理中心的左側導 **Microsoft Teams，按一下**[  >  Teams **Teams設定**。
 2. 根據 **貴** 組織的需求，在標記下設定下列專案。
 
     - 讓團隊擁有者取代誰可以管理標記：當您開啟此設定時，團隊擁有者可以設定小組成員是否可以在團隊中建立和管理標記，而標記值是由設定來管理，是每個團隊的預設值。 如果您關閉此設定，則無法變更每個團隊的標記管理方式設定。

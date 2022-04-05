@@ -8,21 +8,16 @@ ms.topic: reference
 ms.service: msteams
 audience: Admin
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-voice
+  - M365-voice
 search.appverid: MET150
 ms.localizationpriority: medium
 description: 本文提供如何使用面板Teams指南。
-ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062537"
 ---
+
 # <a name="how-to-use-microsoft-teams-panels"></a>如何使用Microsoft Teams面板
 
 Microsoft Teams面板是安裝在會議空間外部的精簡數字顯示裝置，通常位於入口旁邊。 這些觸控螢幕面板Microsoft Teams專用裝置，可提供會議空間和排定會議一目了然的視野。 使用生動的色彩編碼 LED 和首頁螢幕指示器，您可以判斷空間是否可用或保留距離。 您可以使用Teams面板，為臨時會議保留可用的會議空間。
@@ -33,7 +28,7 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 T
 
 若要瞭解面板裝置概觀，以及如何在組織中規劃、傳遞和管理這些裝置，請參閱部署Microsoft Teams[面板](teams-panels.md)。
 
-有關快速入門，請查看開始使用[Teams面板](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)。
+如要快速入門，請查看[開始面板Teams。](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
 
 ## <a name="teams-panels-end-user-experience"></a>Teams面板的使用者體驗
 
@@ -158,7 +153,7 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 T
 
 ## <a name="teams-panels-admin-experience"></a>Teams面板系統管理員體驗
 
-如果您是該Teams資源帳戶的系統管理員 [](teams-panels.md\#resource-account-provisioning)，則您也是裝置上的 **Panels App** 系統管理員。 作為 **Panels App** 系統管理員，除了管理裝置上的 **Panels App** 設定之外，您還可以執行 [](#teams-panels-end-user-experience)使用者經驗區段提及的所有功能。
+如果您是您Teams 面板資源帳戶的系統管理員 [](teams-panels.md\#resource-account-provisioning)，則您也是裝置上的 **Panels App** 系統管理員。 作為 **Panels App** 系統管理員，除了管理裝置上的 **Panels App** 設定之外，您還可以執行 [](#teams-panels-end-user-experience)使用者經驗區段提及的所有功能。
 
 您的面板裝置提供兩種類型的系統管理設定。 您必須是裝置系統管理員才能存取可用的系統管理員設定。 使用者無法存取這些設定。
 
@@ -192,9 +187,11 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 T
     - [壁紙](#update-the-wallpaper)
     - [LED 指示器](#change-the-busy-state-led-color)
 
-#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>將 Teams 面板與 Android Microsoft Teams會議室配對
+#### <a name="pair-a-teams-panel-with-a-microsoft-teams-room-on-android"></a>在 Android Teams 面板與 Microsoft Teams會議室配對
 
-在 Teams 面板上，使用系統管理員認證來登錄。  
+若要在 Android Teams 面板Teams會議室配對，這兩個裝置都必須登錄相同的資源帳戶。
+
+在 Teams 面板，使用系統管理員認證來登錄。
 
 1. 請前往 **設定 > 裝置設定 >管理設定 >應用程式設定 >裝置>配對。**
 
@@ -208,6 +205,24 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 T
 
 若要啟用簽入和會議室釋放，請參閱在面板上Microsoft Teams[和會議室釋放](check-in-and-room-release.md)。
 
+#### <a name="room-capacity-warning"></a>會議室容量警告
+
+Teams與 Android 會議室配對Teams當會議室容量超過或超過容量時，會顯示警告訊息。 若要使用這項功能，Teams會議室必須有支援人員計數的相機。 Teams 會議室 Android 支援會議室容量警告，但不Teams 面板。
+
+會議室容量警告預設為關閉。 若要從應用程式開啟設定，Teams 面板先將 Teams 面板與 Android Microsoft Teams[會議室配對](#pair-a-teams-panel-with-a-microsoft-teams-room-on-android)。 面板和 Teams會議室必須簽到相同的資源帳戶。
+
+ 接著，請前往 **設定 > 應用程式設定>管理>設定**。 接著，在會議 **下** 開啟最大 **會議室佔用通知**。
+
+#### <a name="view-room-equipment"></a>查看會議室設備
+
+開啟此功能後，使用者就可以在一個空間上查看哪些設備Teams 面板。
+
+此功能預設為關閉，而且每個裝置都可以啟用此功能。 若要開啟，請使用 [PowerShell 中的 Set-Place](/powershell/module/exchange/set-place?view=exchange-ps) 來設定 `AudioDeviceName` 、 `DisplayDeviceName` 、 `VideoDeviceName` 及 的 `Tags` 顯示名稱 `IsWheelChairAccessible` 。
+
+或者，您也可以在系統管理中心Exchange此功能。 請參閱 [編輯資源](/exchange/recipients-in-exchange-online/manage-resource-mailboxes#edit-a-resource) 以瞭解更多資訊。
+
+
+
 #### <a name="update-the-wallpaper"></a>更新牆紙
 
 變更 [主畫面牆紙影像。
@@ -216,7 +231,7 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 T
 2. 點 **一下 [牆紙**。
 3. 從 **選擇您的影像**，選取要設為主畫面背景影像的影像。 預覽背景下的選取 **影像**。
 :::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="此螢幕擷取畫面顯示牆紙設定畫面。":::
-4. 返回 [主畫面>，並確認已更新牆紙。
+4. 返回首頁畫面，並確認已更新牆紙。
 
 #### <a name="change-the-busy-state-led-color"></a>變更忙碌狀態 LED 色彩
 
@@ -226,7 +241,7 @@ Teams面板裝置會預先安裝 Microsoft Teams，並顯示透過 Outlook 或 T
 2. 點 **設定**。
 3. 從 **選擇您的 LED 色彩**，選取所需的色彩。
 :::image type="content" source="../media/panels-led-settings.png" alt-text="此螢幕擷取畫面顯示 LED 色彩忙碌狀態設定。":::
-4. 返回主畫面，並確認忙碌狀態的 LED 色彩已更新。 如果會議空間目前可用，請嘗試排程測試會議，以驗證忙碌狀態 LED 色彩的變更。
+4. 返回到主畫面，並確認忙碌狀態已更新的 LED 色彩。 如果會議空間目前可用，請嘗試排程測試會議，以驗證忙碌狀態 LED 色彩的變更。
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 

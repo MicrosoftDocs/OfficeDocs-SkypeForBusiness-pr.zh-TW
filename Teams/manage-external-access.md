@@ -7,27 +7,22 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- Teams_ITAdmin_GuestAccess
-- M365-collaboration
-- m365initiative-externalcollab
+  - Teams_ITAdmin_GuestAccess
+  - M365-collaboration
+  - m365initiative-externalcollab
 ms.reviewer: vinbel
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.externalaccess.overview
-- seo-marvel-mar2020
+  - ms.teamsadmincenter.externalaccess.overview
+  - seo-marvel-mar2020
 description: 您的 Teams 或 IT 系統管理員可以設定其他網域 (同盟) 的外部存取權，讓來自這些網域的使用者尋找、通話、聊天，以及設定與使用者的會議。
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 8505a57ff0ab9bb2e79607ffe13768058bab26d6
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
-ms.translationtype: HT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556314"
 ---
+
 # <a name="manage-external-access-in-microsoft-teams"></a>在 Microsoft Teams 中管理外部存取
 
 外部存取是一種讓組織外部的 Teams 使用者在 Teams 中尋找、通話、聊天及設定會議的方式。 您也可以使用外部存取，與來自其他組織、仍在使用商務用 Skype (線上或內部部署) 及 Skype 的人員通訊。
@@ -106,6 +101,9 @@ Teams 系統管理中心會控制組織層級的外部存取權。 大部分選�
 若要與其他租用戶通訊，他們必須啟用 **[允許所有外部網域]**，或按照上述相同的步驟，將啟用新增到允許的網域清單中。  
 
 ## <a name="manage-contact-with-external-teams-users-not-managed-by-an-organization"></a>管理與未由組織管理的外部 Teams 使用者的連繫
+
+> [!NOTE]
+> 本文Teams中Skype的交互操作功能不適用於 GCC、GCC 高或 DOD 部署，或私人雲端環境中。
 
 系統管理員可以選擇啟用或停用與未由組織管理的外部 Teams 使用者的通訊。 如果已啟用，他們也可以進一步控制具有未由組織管理的 Teams 帳戶人員是否能主動聯繫 (請參閱下列影像)。 如果 **未由組織管理的 Teams 帳戶的外部使用者可以與組織中的使用者聯繫** 已關閉，則未受管理的 Teams 使用者將無法搜尋完整的電子郵件地址，以尋找組織連絡人，且與未受管理的 Teams 使用者進行的所有通訊必須由組織使用者發起。
 

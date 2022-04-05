@@ -7,25 +7,20 @@ ms.author: samanro
 audience: admin
 manager: pamgreen
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.date: 03/01/2019
 ms.service: msteams
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 ms.localizationpriority: high
 search.appverid: MET150
 searchScope:
-- Microsoft Teams
-- Microsoft Cloud for Retail
+  - Microsoft Teams
+  - Microsoft Cloud for Retail
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: dfe825f1ab21aab3dad2617236d61859ab6b90d8
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: HT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288853"
+  - Microsoft Teams
 ---
+
 # <a name="simplify-business-processes-in-retail-environments"></a>簡化零售環境中的商務程式
 
 您可以使用 Teams 應用程式、Power Apps 和 Power BI 來簡化零售團隊的商務程式。
@@ -52,7 +47,7 @@ Teams 包含許多應用程式，可協助您和零售小組管理其日常工�
 
 ## <a name="track-key-performance-indicators-kpis-with-power-bi-reports"></a>使用 Power BI 報告追蹤關鍵績效指標 (KPI)
 
-在 Microsoft Teams 頻道和聊天中共用互動式 Power BI 內容並共同作業。 您可以將 [Power BI 索引標籤](../built-in-custom-tabs.md)新增到 Teams，以在 Teams 中內嵌有關您報告的互動報告與聊天，並直接在 Power BI 中的重要事件直接在 Teams 活動摘要中收到通知。
+在 Microsoft Teams 頻道和聊天中共用互動式 Power BI 內容並共同作業。 您可以將 [Power BI 索引標籤](/microsoftteams/platform/tabs/what-are-tabs)新增到 Teams，以在 Teams 中內嵌有關您報告的互動報告與聊天，並直接在 Power BI 中的重要事件直接在 Teams 活動摘要中收到通知。
 
 詳細資訊: [搭配 Power BI 在 Microsoft Teams 中共同作業](/power-bi/collaborate-share/service-collaborate-microsoft-teams)。
 

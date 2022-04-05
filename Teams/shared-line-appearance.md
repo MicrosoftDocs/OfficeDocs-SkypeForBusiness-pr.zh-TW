@@ -10,25 +10,20 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- M365-voice
+  - M365-voice
 audience: Admin
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Phone System
-- ms.teamsadmincenter.users.voice.calldelegation.tooltip
-- seo-marvel-apr2020
+  - Phone System
+  - ms.teamsadmincenter.users.voice.calldelegation.tooltip
+  - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中傳送包含其音訊會議資訊Microsoft Teams。
-ms.openlocfilehash: 1ec0b74bab289eaca1b1046eccebb870e8562a95
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312266"
 ---
+
 # <a name="shared-line-appearance-in-microsoft-teams"></a>共用線條外觀Microsoft Teams
 
 共用線路外觀是委派功能之一，讓使用者選擇代理人來代表他們接聽或處理通話。 如果使用者有一位管理小幫手定期處理使用者的通話，這項功能會很有説明。 在共用線路外觀中，主管是授權代理人代表代理人撥打或接聽電話的人，而代理人可以代表其他人撥打和接聽電話。
@@ -51,7 +46,7 @@ ms.locfileid: "62312266"
 租使用者系統管理員也可以為系統管理中心中的使用者Teams關係。 此外，使用者也可以直接在 Teams 中設定其委派Teams。 租使用者系統管理員或使用者無法彼此封鎖該組Teams，但系統管理中心Teams用戶端應該在這兩個地方正確顯示此關係。 
 
 > [!IMPORTANT]
-> 當租使用者系統管理員關閉使用者 (的委派後) ，他們也需要在 Teams 系統管理中心清理該使用者的委派關係，以避免不正確的通話路由。
+> 當租使用者系統管理員在) 開啟使用者 (後關閉使用者的委派時，他們也需要在 Teams 系統管理中心清理該使用者的委派關係，以避免不正確的通話路由。
 
 ## <a name="shared-line-appearance-feature-availability"></a>共用線條外觀功能可用性
 
@@ -72,7 +67,9 @@ ms.locfileid: "62312266"
 
 管理員最多可以新增 25 個代理人，而代理人最多可以有 25 名主管。 在租使用者中可以建立委派關係的數量沒有限制。 
  
-如果委派者與代理人不在同一個地理位置，則 PSTN 提供者可代表) 通話，允許代理人的本機號碼不同的地理位置 (本機號碼。 
+如果委派者與代理人不在同一個地理位置，則由 PST (N 提供者代表) 通話，允許代理人從不同的地理位置顯示本機號碼。 
+
+不允許迴圈委派組組。 如果委派的使用者之間也有委派，則他們只能看到其委派，而非初始委派。
  
 ## <a name="more-information"></a>詳細資訊
 

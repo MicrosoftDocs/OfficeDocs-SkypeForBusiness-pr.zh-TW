@@ -8,32 +8,27 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 description: 連接器透過將您經常使用的服務中的內容和更新直接發送到頻道中，進而使您的團隊保持最新狀態。
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e42ef850c089633a6c9145935d6e70a92cdb6801
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442689"
 ---
+
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 365 中使用自訂連接器Microsoft Teams
 
-連接器將經常使用的內容和服務更新直接傳送至頻道，讓您的小組保持在最新狀態。 有了連接器，Microsoft Teams使用者就可以在小組的聊天Wunderlist、GitHub和 Azure DevOps Services等熱門服務接收更新。
+若要讓您的小組保持更新，連接器會直接將常用的內容和服務更新傳送至Teams頻道。 有了連接器，Teams使用者就可以從熱門服務接收更新，例如 Trello、Wunderlist、GitHub和 Azure DevOps Services。 更新會直接張貼到小組中的聊天串流中。
 
-如果團隊許可權允許，團隊的任何成員都可以使用連接器將其小組連接到熱門雲端服務，而且所有小組成員都會收到該服務的活動通知。 連接器會繼續運作，即使最初設定連接器的成員已經離開。 任何具有新增\移除許可權的小組成員都可以修改其他成員的連接器設定。
+Microsoft 365連接器同時用於Microsoft Teams Microsoft 365群組，讓所有成員都更容易保持同步，並快速接收相關資訊。 兩Microsoft Teams Exchange使用相同的連接器模型，這可讓您在兩個平臺上使用相同的連接器。 不過，值得注意的是，停用團隊所依存之 Microsoft 365 群組的連接器，也停用該團隊建立連接器的能力。
 
-Microsoft 365連接器可同時用於Microsoft Teams Microsoft 365群組，讓所有成員更容易保持同步，並快速接收相關資訊。 兩Microsoft Teams Exchange使用相同的連接器模型，這可讓您在兩個平臺上使用相同的連接器。 不過，值得注意的是，停用小組所依存之 Microsoft 365 群組的連接器也會停用該團隊建立連接器的能力。
+如果團隊許可權允許，團隊的任何成員都可以使用連接器將其小組連接到熱門雲端服務，而且所有小組成員都會收到該服務的活動通知。 在最初設定連接器的成員離開之後，連接器會繼續運作。 任何具有新增或移除許可權的小組成員都可以修改其他成員的連接器設定。
 
 > [!NOTE]
-> 在政府雲端或環境中，連接器Community (GCC) 停用。 如果您需要啟用，請設定 ConnectorsEnabled 或 ConnectorsEnabledForTeams 參數，$true SetOrganizationConfig Cmdlet 設定。 您需要連接到[PowerShell Exchange Online。](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
+> 在政府雲端或環境中，連接器Community (GCC) 停用。 若要啟用這些參數，請用 `ConnectorsEnabled` `ConnectorsEnabledForTeams` `$true` Cmdlet 將 `SetOrganizationConfig` 或 參數設定為 。 連線[PowerShell Exchange Online。](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
 
 ## <a name="add-a-connector-to-a-channel"></a>新增連接器至頻道
 
@@ -59,7 +54,8 @@ Microsoft 365連接器可同時用於Microsoft Teams Microsoft 365群組，讓�
     > [!div class="mx-imgBorder"]
     > ![顯示頻道Teams交談之介面的螢幕擷取畫面。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
 
-<!---Delete this section after customer migration to new Webhook URL is complete--->
+<!---Delete this section after customer migration to new Webhook URL is complete --->
+
 > [!IMPORTANT]
 > **連接器 URL 更新通知**
 >
@@ -73,6 +69,6 @@ Microsoft 365連接器可同時用於Microsoft Teams Microsoft 365群組，讓�
 > 4. 成功更新 URL 之後，您就會看到「URL 為最新」訊息。
 > ![「URL 為最新」訊息的螢幕擷取畫面。](media/Teams_URL_up_to_date.png)
 
-## <a name="develop-custom-connectors"></a>開發自訂連接器
+## <a name="see-also"></a>另請參閱
 
-您也可以建立自訂連接器，以及內建和外接網頁連結。 如需詳細資訊，請參閱我們的[開發人員文件](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)。
+* [建立自訂連接器和網頁連結](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)

@@ -9,26 +9,21 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 了解 Microsoft Teams 中的應用程式權限原則，以及如何使用這些原則來控制組織中使用者可使用的應用程式。
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.apppermspolicies.overview
-- ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
-- ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
-- ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 35246d03fb7611971bd846370413ca0580397647
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64457046"
+  - ms.teamsadmincenter.apppermspolicies.overview
+  - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
+  - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
+  - ms.teamsadmincenter.appsetuppolicies.overview
 ---
+
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式權限原則
 
 身為系統管理員，您可以使用應用程式權限原則來控制組織中 Microsoft Teams 使用者可使用的應用程式。 您可以允許或封鎖所有應用程式，或是由 Microsoft、第三方和您的組織發行的特定應用程式。 當您封鎖應用程式時，擁有原則的使用者將無法從 Teams 應用程式商店安裝該應用程式。 您必須是全域系統管理員或 Teams 服務系統管理員，才能管理這些原則。
@@ -89,9 +84,12 @@ ms.locfileid: "64457046"
 
 在 Microsoft 365政府 - GCCH 和 DoD Teams 部署中，瞭解協力廠商應用程式設定非常重要，這些設定是 GCCH 和 DoD 所特有的。
 
-在 GCCH 和 DoD 中，所有協力廠商應用程式預設會封鎖。 此外，您會在 Microsoft Teams 系統管理中心的應用程式權限原則頁面上，看到以下關於管理第三方應用程式的說明。
+在 GCC 中，所有第三方應用程式預設都會遭到封鎖。 此外，您會在 Microsoft Teams 系統管理中心的應用程式權限原則頁面上，看到以下關於管理第三方應用程式的說明。
 
-![GCCH 和 DoD 中的應用程式權限原則螢幕擷取畫面。](media/app-permission-policies-gcc.png)
+:::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="GCCH 和 DoD 中的應用程式權限原則螢幕擷取畫面。" lightbox="media/app-permission-policies-gcc.png":::
+
+> [!NOTE]
+> 在 GCCH 和 DOD 雲端中，協力廠商應用程式無法使用。
 
 使用全組織應用程式設定來控制使用者是否可以安裝第三方應用程式。 全組織應用程式設定會控管所有使用者的行為，並覆寫指派給使用者的任何其他應用程式權限原則。 您可以使用這些原則來控制惡意或有問題的應用程式。
 
