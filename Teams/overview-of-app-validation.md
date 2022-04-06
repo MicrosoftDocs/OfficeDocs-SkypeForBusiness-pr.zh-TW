@@ -1,6 +1,6 @@
 ---
 title: Microsoft 應用程式驗證和應用程式測試概觀
-ms.reviewer: null
+ms.reviewer: ''
 description: 瞭解Teams應用程式的品質檢查、應用程式驗證和認證程式。
 ms.topic: article
 author: guptaashish
@@ -10,14 +10,20 @@ audience: admin
 ms.date: 04/05/2022
 ms.service: msteams
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 384a57abb724ee29feb5f93fa171d0bc5ec96f3d
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686490"
 ---
 # <a name="checks-and-validation-performed-by-microsoft-on-teams-apps"></a>Microsoft 在Teams應用程式上執行的檢查和驗證
 
@@ -25,15 +31,10 @@ Microsoft 需要所有應用程式通過強制驗證，才能在 Microsoft Store
 
 若要遵守 Microsoft App 認證原則，所有應用程式都必須符合 mandatorily。 Teams市集小組會執行 400 次以上的測試，以確保這些應用程式可供使用，並遵循高標準的隱私權和安全性。
 
-若要瞭解應用程式開發人員遵守的詳細驗證指導方針，請參閱 [適用于開發人員的驗證指導方針](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)。
+若要瞭解應用程式開發人員遵守的詳細驗證指導方針，請參閱 [適用于開發人員的驗證指導方針](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)。 指導方針是根據[Teams應用程式的認證原則](/legal/marketplace/certification-policies#1140-teams)。
 
 > [!NOTE]
 > Microsoft 的驗證和檢查不適用於自訂應用程式，因為它是在貴組織內開發，而且僅供貴組織成員使用。
-
-<!--- TBD: Add the link later. 
-To review the certification policies of any app, see [App certification policies]().
-Is the link /microsoft-365-app-certification/teams/teams-apps
---->
 
 ## <a name="app-validation-and-testing"></a>應用程式驗證與測試
 

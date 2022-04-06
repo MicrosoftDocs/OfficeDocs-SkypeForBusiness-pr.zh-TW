@@ -1,5 +1,5 @@
 ---
-title: 管理一般會議政策
+title: 管理一般會議原則
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -18,93 +18,94 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
-description: 瞭解如何在 Teams 中管理一般Teams。
-ms.openlocfilehash: 1bf4958f74a95775d6d34c87ea6d7d65262530e4
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+description: 瞭解如何在 Teams 中管理一般會議原則設定。
+ms.openlocfilehash: 2582327261e52f1d834cd3b368c79aa55ca7f103
+ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191474"
+ms.lasthandoff: 04/06/2022
+ms.locfileid: "64686340"
 ---
 # <a name="meeting-policy-settings---general"></a>會議原則設定 - 一般
 
 <a name="bkgeneral"> </a>
 
-本文將說明下列會議的一般Teams設定：
+本文將說明Teams會議的下列一般原則設定：
 
-- [現在在頻道中開會](#meet-now-in-channels)
-- [Outlook附加元件](#outlook-add-in)
+- [在頻道中立即開會](#meet-now-in-channels)
+- [Outlook增益集](#outlook-add-in)
 - [頻道會議排程](#channel-meeting-scheduling)
 - [私人會議排程](#private-meeting-scheduling)
-- [現在在私人會議中開會](#meet-now-in-private-meetings)
-- [指定的簡報者角色模式](#designated-presenter-role-mode)
+- [立即在私人會議中開會](#meet-now-in-private-meetings)
+- [指定簡報者角色模式](#designated-presenter-role-mode)
 - [互動報告](#engagement-report)
 - [會議註冊](#meeting-registration)
-- [神秘註冊](#who-can-register)
+- [神秘可以註冊](#who-can-register)
 - [群島模式的會議提供者](#meeting-provider-for-islands-mode)
+- [喇叭教練](#speaker-coach)
 
-## <a name="meet-now-in-channels"></a>現在在頻道中開會
+## <a name="meet-now-in-channels"></a>在頻道中立即開會
 
-這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在頻道中啟動Teams會議。 如果您開啟此功能，使用者可以按一下 [開會>按鈕，開始臨時會議或在頻道中排程會議。 預設值為 True。
+這是每一使用者原則，且會在會議開始之前套用。 此設定會控制使用者是否可以在Teams頻道中召開臨時會議。 如果您開啟此功能，使用者可以按一下 [ **開會]** 按鈕來召開臨時會議或在頻道中排程會議。 預設值為 True。
 
-[![顯示訊息下方的現在開會圖示的螢幕擷取畫面。 ](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
+[![螢幕擷取畫面顯示訊息下方的 [立即開會] 圖示。 ](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
 
-## <a name="outlook-add-in"></a>Outlook附加元件
+## <a name="outlook-add-in"></a>Outlook增益集
 
 這是每一使用者原則，且會在會議開始之前套用。 此設定可控制是否可以從 Outlook (Windows、Mac、Web 及行動裝置) 內排程 Teams 會議。
 
 ![顯示能夠排程新會議的螢幕擷取畫面。](media/meeting-policies-outlook-add-in.png)
 
-如果您關閉此功能，當使用者在 Teams 中建立新會議時，就無法排程會議Outlook。 例如，在 Windows 上的 Outlook 中，[新增 Teams 會議 **]** 選項不會在功能區中顯示。
+如果您關閉此功能，使用者在 Outlook 中建立新會議時，將無法排程Teams會議。 例如，在 Windows 上的 Outlook 中，[新增 Teams 會議 **]** 選項不會在功能區中顯示。
 
 ## <a name="channel-meeting-scheduling"></a>頻道會議排程
 
 使用現有的 AllowChannelMeetingScheduling 原則來控制可以在小組頻道行事曆上建立的事件類型。 這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在 Teams 頻道中排程會議。 此設定預設會開啟。
 
-如果關閉此政策，使用者將無法建立新頻道會議。 不過，活動召集人可以編輯現有的頻道會議。
+如果關閉此原則，使用者將無法建立新的頻道會議。 不過，活動召集人可以編輯現有的頻道會議。
 
 將會停用排程會議。
 
-![螢幕擷取畫面顯示在 Teams 中排程Teams。](media/schedule-meeting-option.png)
+![螢幕擷取畫面顯示 Teams 中的 [排程會議] 選項。](media/schedule-meeting-option.png)
 
 頻道選項已停用。
 
-[顯示選取您想要排程會議之頻道的日曆選項 ![ 的螢幕擷取畫面。 ](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
+[![顯示選取您要在其中排程會議的頻道之行事曆選項的螢幕擷取畫面。 ](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
-在頻道文章頁面中，下列專案將會停用：
+在頻道文章頁面中，將停用下列專案：
 
 - 頻道回覆撰寫方塊上的 [排程會議 **]** 按鈕。
-  ![顯示選取您想要排程會議之頻道的日曆選項的螢幕擷取畫面。](media/schedule-meeting-disabled-in-chat2.png)
+  ![顯示選取您要在其中排程會議之頻道的行事曆選項的螢幕擷取畫面。](media/schedule-meeting-disabled-in-chat2.png)
   
 - 頻道標頭上的 **[排程會議]** 按鈕。
-  ![螢幕擷取畫面顯示選取您想要透過哪個頻道排程會議之日曆選項的螢幕擷取畫面。](media/schedule-now-in-header.png)
+  ![顯示選取您要透過哪個頻道排程會議的行事曆選項的螢幕擷取畫面。](media/schedule-now-in-header.png)
 
 在頻道行事曆中：
 
 - 頻道行事曆上的 [新增活動 **]** 按鈕將會停用。
-  ![螢幕擷取畫面顯示選取可排程會議之頻道的日曆選項。](media/add-new-event-disabled.png)
+  ![顯示選取可讓您排程會議的頻道之行事曆選項的螢幕擷取畫面。](media/add-new-event-disabled.png)
 
-- 使用者將無法拖曳並選取頻道日曆上的時間區塊，以建立頻道會議。
+- 使用者將無法拖曳並選取頻道行事曆上的時間區塊來建立頻道會議。
 
-- 使用者無法使用鍵盤快速鍵在頻道日曆上建立會議。
+- 使用者無法使用鍵盤快速鍵在頻道行事曆上建立會議。
 
 在系統管理中心：
 
 頻道行事曆應用程式會在應用程式權限原則頁面上的 [Microsoft 應用程式 **]** 區段中顯示。
 
-![顯示系統管理中心中應用程式許可權Teams的螢幕擷取畫面。](media/manage-microsoft-apps-policy.png)
+![螢幕擷取畫面顯示Teams系統管理中心的應用程式許可權原則。](media/manage-microsoft-apps-policy.png)
 
 ## <a name="private-meeting-scheduling"></a>私人會議排程
 
 這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以在 Teams 中排程私人會議。 當會議未發佈到小組中的頻道時，會議是私人的。
 
-請注意，如果您 **關閉允許排** 程私人會議和允許頻道會議排程，系統即會針對 Teams 中的使用者停用新增必要的出席者及新增Teams。  此設定預設會開啟。
+請注意，如果您關閉 **[允許排程私人會議**] 和 [**允許頻道會議排程**]，Teams中的使用者會停用 [**新增必要出席者**] 和 [**新增頻道**] 選項。 此設定預設會開啟。
 
-## <a name="meet-now-in-private-meetings"></a>現在在私人會議中開會
+## <a name="meet-now-in-private-meetings"></a>立即在私人會議中開會
 
-這是每一使用者原則，且會在會議開始之前套用。 此設定可控制使用者是否可以啟動臨時私人會議。  此設定預設會開啟。
+這是每一使用者原則，且會在會議開始之前套用。 此設定會控制使用者是否可以召開臨時私人會議。  此設定預設會開啟。
 
-## <a name="designated-presenter-role-mode"></a>指定的簡報者角色模式
+## <a name="designated-presenter-role-mode"></a>指定簡報者角色模式
 
 這是每一使用者原則。 此設定可讓您變更 Teams 用戶端的 [會議選項 **]** 中 [誰可以簡報?**]** 設定的預設值。 此原則設定會影響所有會議，包括「立即開會」會議。
 
@@ -124,45 +125,45 @@ ms.locfileid: "62191474"
 
 這是每一使用者原則。 此設定會控制會議召集人是否可以下載[會議出席報告](teams-analytics-and-reports/meeting-attendance-report.md)。
 
-此政策預設為啟用，可讓召集人查看誰註冊並參與他們設定的會議和網路研討會。 若要在系統管理中心Teams關閉，請前往會議會議政策，並設定為關閉  >  **** **。。** 
+此原則預設為開啟，可讓您的召集人查看誰註冊並參與他們所設定的會議和網路研討會。 若要在Teams系統管理中心將其關閉，請移至 **[會議**  >  **服務原則**]，並將 [**預訂報告**] 設定設為 **[關閉]**。
 
-您也可以使用[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 編輯現有的會議Teams策略。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，並將它指派給使用者。
+您也可以使用[Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的Teams會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，並將它指派給使用者。
 
-根據預設 **，AllowEngagementReport 參數** 會設定為 **PowerShell** 中的啟用。 若要防止會議召集人下載會議出席報告，請設定 **AllowEngagementReport 參數** 為 **已停用**。
+根據預設， **AllowEngagementReport** 參數在 PowerShell 中設定為 **[啟用** ]。 若要防止會議召集人下載會議出席報告，請將 **AllowEngagementReport** 參數設為 **[停用]**。
 
-啟用此政策時，下載會議出席報告的選項會顯示在參與者 **窗格中** 。
+啟用此原則時，下載會議出席報告的選項會顯示在 [ **參與者** ] 窗格中。
 
 > [!NOTE]
-> 做為系統管理員，您無法針對不組織的會議查看出席報告。 不過，您可以在會議召開後 24 小時內，查看特定會議的參與者詳細資料。 在 Teams系統管理中心，前往 **使用者**  >  **管理使用者**。 選擇會議召集人的顯示名稱。 選取會議 **&，** 然後選擇適當的會議 ID 或通話 ID。 然後，選取 **參與者詳細資料**。
+> 身為系統管理員，您無法檢視未組織之會議的出席報告。 不過，您可以在會議後 24 小時內檢視指定會議的參與者詳細資料。 在Teams系統管理中心，移至 **[使用者**  >  **管理使用者]**。 選擇會議召集人的顯示名稱。 選取 [ **會議&通話** ] 索引標籤，然後選擇適當的會議 ID 或通話識別碼。 然後，選 **取 [參與者詳細資料]**。
 
-有關詳細資訊 ，包括參與報告的限制，請參閱在 Teams 中檢視[和下載會議出席Teams。](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)
+如需詳細資訊，包括參與報告的限制，請參閱[檢視和下載Teams中的會議出席報告](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)。
 
 ## <a name="meeting-registration"></a>會議註冊
 
-這是每一使用者原則。 如果您開啟此功能，貴組織中使用者可以設定網路研討會。 此策略預設為啟用。
+這是每一使用者原則。 如果您開啟此功能，貴組織中的使用者可以設定網路研討會。 此原則預設為啟用。
 
-若要在系統管理中心編輯Teams，請前往 **會議**  >  **會議政策**。 若要關閉會議註冊，請設定為關閉 **。**
-
-您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的 Teams 會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，並將它指派給使用者。
-
-若要開啟會議註冊，請設定  **MeetingRegistration 參數** 為 **True**。 根據預設，此設定為 **True。**
-
-若要關閉會議註冊並防止使用者排程網路研討會，請設定參數為 **False**。
-
-## <a name="who-can-register"></a>神秘註冊
-
-此政策會控制哪些使用者可以註冊並參加網路研討會。 此政策有兩個選項，只有在會議註冊 **開啟時才能** 使用。
-
-- 若要 **神秘** 允許所有人 ，包括匿名使用者，註冊並參加貴組織中使用者所設定的網路研討會，請設定設定為可以註冊至所有人。
-- 如果您 **神秘** 只允許貴組織的使用者註冊並參加網路研討會，請設定帳戶可以註冊至組織的所有人。
-
-根據預設 **，神秘可以註冊** 的設定為 **。。** 若要在系統管理中心編輯Teams，請前往 **會議**  >  **會議政策**。
+若要在系統管理中心Teams編輯此原則，請移至 **[會議**  >  **會議] 原則**。 若要關閉會議註冊，請將原則設為 **[關閉]**。
 
 您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的 Teams 會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，並將它指派給使用者。
 
-若要允許每個人 ，包括匿名使用者，註冊並參加網路研討會，請設定 **WhoCanRegister 參數** 給 **每個人**。 根據預設，這會 **設定為** 所有人。
+若要開啟會議註冊，請將  **MeetingRegistration** 參數設為 **True**。 此設定預設為 **True** 。
 
-若要只允許貴組織的使用者註冊並參加網路研討會，請設定參數為 **EveryoneInCompany**。
+若要關閉會議註冊並防止使用者排程網路研討會，請將參數設定為 **False**。
+
+## <a name="who-can-register"></a>神秘可以註冊
+
+這項原則會控制哪些使用者可以註冊及參加網路研討會。 此原則有兩個選項，只有在會議 **註冊** 已開啟時才能使用。
+
+- **如果您想要** 允許包括匿名使用者在內的所有人註冊並出席貴組織中使用者所設定的網路研討會，設定 **神秘可以向所有人註冊**。
+- 如果您只允許貴組織中的使用者註冊並參加網路研討會，設定 **神秘可以向****組織中的所有人** 註冊。
+
+根據預設，**神秘可以註冊** 設定為 **[所有人]**。 若要在系統管理中心Teams編輯此原則，請移至 **[會議**  >  **會議] 原則**。
+
+您可以使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet 來編輯現有的 Teams 會議原則。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，並將它指派給使用者。
+
+若要允許包括匿名使用者在內的所有人註冊及參加網路研討會，請將 **WhoCanRegister** 參數設定為 [ **所有人]**。 此設定預設為 [ **所有人** ]。
+
+若只要允許貴組織中的使用者註冊及參加網路研討會，請將參數設定為 **EveryoneInCompany**。
 
 ## <a name="meeting-provider-for-islands-mode"></a>群島模式的會議提供者
 
@@ -177,17 +178,27 @@ ms.locfileid: "62191474"
 - 將參數設定為 **TeamsAndSfB**，以在 Outlook 中同時啟用 Teams 會議附加元件和商務用 Skype 附加元件。 這是預設值。
 - 將參數設定為 **Teams** 以僅在 Outlook 中啟用 Teams 會議附加元件。 此原則設定可確保所有未來的會議都有 Teams 會議加入連結。 它不會將現有的商務用 Skype 會議加入連結移轉至 Teams。 此原則設定不會影響商務用 Skype 中的目前狀態、聊天、PSTN 通話或其他任何功能，這表示使用者將繼續對這些功能使用商務用 Skype。
 
-  如果您將參數設定為 **Teams**，然後切換回 **TeamsAndSfB**，則會同時啟用這兩個會議附加元件。 不過，請注意，Teams會議加入連結不會移至商務用 Skype。 只有變更後排程的商務用 Skype 會議會擁有商務用 Skype 會議加入連結。
+  如果您將參數設定為 **Teams**，然後切換回 **TeamsAndSfB**，則會同時啟用這兩個會議附加元件。 不過，請注意，現有的Teams會議加入連結不會移轉到商務用 Skype。 只有變更後排程的商務用 Skype 會議會擁有商務用 Skype 會議加入連結。
 
-## <a name="meeting-reactions"></a>會議反應
+## <a name="meeting-reactions"></a>會議圖釋
 
 AllowMeetingReactions 設定只能使用 PowerShell 來套用。 沒有選項可從 Teams 系統管理中心開啟或關閉 AllowMeetingReactions。
 
 會議反應預設為關閉。 關閉使用者的反應並不表示使用者無法在他們排程的會議中使用反應。 無論預設設定如何，會議召集人仍可從會議選項頁面開啟回應。
 
+## <a name="speaker-coach"></a>喇叭教練
+
+此設定可讓使用者在Teams會議期間開啟 [喇叭教練]。 演講者教練會在使用者進行簡報時聆聽使用者的音訊，並提供私人即時意見反應和建議以改善。 使用者也會在會議後取得意見反應的摘要報告。
+
+> [!NOTE]
+> 在會議期間開啟 [喇叭教練] 的使用者是唯一可以看到意見反應摘要報告的使用者。 系統管理員將無法存取任何此資料。
+
+目前，您只能在 PowerShell 中設定和編輯此原則。 使用 [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) Cmdlet。 或者，使用 [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) Cmdlet 來建立新 Teams 會議原則，並將它指派給使用者。
+
+此設定預設為啟用。 若要將它關閉，請將 **AllowMeetingCoach** 設為 **False**。
 
 ## <a name="related-topics"></a>相關主題
 
 - [Teams PowerShell 概觀](teams-powershell-overview.md)
-- [在 Teams](policy-assignment-overview.md)
+- [在 Teams 中指派原則](policy-assignment-overview.md)
 - [從使用者移除 RestrictedAnonymousAccess Teams 會議原則](meeting-policies-restricted-anonymous-access.md)

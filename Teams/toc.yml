@@ -969,6 +969,8 @@ items:
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
       - name: 撥號對應表和轉接
         items:
+          - name: 概觀
+            href: dial-plans-routing-overview.md
           - name: 什麼是撥號對應表？
             href: what-are-dial-plans.md
           - name: 建立和管理撥號對應表
