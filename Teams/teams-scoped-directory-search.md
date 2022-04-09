@@ -1,9 +1,8 @@
 ---
-title: 使用 Microsoft Teams 限域目錄搜尋
-author: SerdarSoysal
-ms.author: serdars
+title: 在 Teams 中搜尋目錄時限制使用者可以查看的人員
+author: MikePlumleyMSFT
+ms.author: mikeplum
 manager: serdars
-ms.date: 06/21/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -12,52 +11,42 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 瞭解如何使用Microsoft Teams目錄搜尋來提供目錄的自訂視圖。
+description: 瞭解如何在 Teams 中搜尋目錄時限制使用者可以查看的人員。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 108a5895bf568207246ec6b1d7711e13e6c87069
-ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
+ms.openlocfilehash: 8b073cdd67d89de7d934990abc33cb0586d0fc76
+ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61111983"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "64732221"
 ---
-# <a name="use-microsoft-teams-scoped-directory-search"></a>使用 Microsoft Teams 限域目錄搜尋
+# <a name="limit-who-users-can-see-when-searching-the-directory-in-teams"></a>在 Teams 中搜尋目錄時限制使用者可以查看的人員
 
-Microsoft Teams目錄搜尋功能可讓組織建立虛擬邊界，控制使用者如何尋找及與組織中其他使用者通訊。 
+Microsoft Teams可讓組織為使用者提供目錄的自訂檢視。 這些檢視在下列情況中很有用：
 
-Microsoft Teams可讓組織提供目錄的自訂視圖給使用者。 Microsoft Teams資訊[障礙策略來](/microsoft-365/compliance/information-barriers)支援這些自訂視圖。 啟用該政策後，搜尋其他使用者 (例如啟動聊天或新增成員至小組) 所返回的結果，將會根據已配置的政策進行範圍。 當範圍搜尋生效時，使用者將無法搜尋或探索任何團隊，但這些團隊中的現有成員可以新增使用者，如使用中的資訊障礙政策所允許。
+- 貴組織的租用戶中有多家公司，您想要將其分開。
+- 您的商務原則要求您防止組織中的特定群組彼此通訊。
+- 學校需要限制教職員與學生之間的交談。
 
-> [!NOTE]
-> 在Exchange環境中，此功能僅適用于Exchange Online信箱，而非內部部署信箱。
+有兩個選項可限制使用者在 Teams 中搜尋目錄時可以看到的人員：
 
-另請參閱在 Exchange Online[中的通訊錄Exchange Online。](/exchange/address-books/address-book-policies/address-book-policies)
+- [Microsoft Teams 中的資訊障礙](/MicrosoftTeams/information-barriers-in-teams)
+- [Exchange Online 中的通訊錄原則](/exchange/address-books/address-book-policies/address-book-policies)
 
-## <a name="when-should-you-use-scoped-directory-searches"></a>何時應該使用範圍目錄搜尋？
+如果使用任一選項，您必須在Teams系統管理中心開啟依名稱搜尋。
 
-從範圍目錄搜尋獲益的情境與通訊錄策略案例類似。 例如，您可能會想要在下列情況下使用範圍目錄搜尋：
+如果貴組織符合 [必要的授權和許可權](/microsoft-365/compliance/information-barriers#required-licenses-and-permissions)，建議您使用資訊障礙。
 
-- 貴組織的租用戶中有多家公司，您想要將其分開。 
-- 學校需要限制教職員與學生之間的交談。 
- 
-若要瞭解如何使用通訊錄政策，請參閱在 Exchange Online 中[的資訊Exchange Online。](/microsoft-365/compliance/information-barriers)
+開啟依名稱搜尋
 
-> [!IMPORTANT]
-> 通訊錄原則僅提供使用者與目錄的虛擬分隔。 此外，請注意，在強制執行新的或更新的通訊錄政策之前，任何已緩存的使用者資料，都會在最多 30 天內可供使用者使用。
+1. 在Microsoft Teams系統管理中心中，選 **Teams**  >  **Teams設定。**
 
-## <a name="turn-on-scoped-directory-search"></a>開啟範圍目錄搜尋
+1. 在 [**依名稱搜尋**] 底下的 [**使用 Exchange通訊錄原則搜尋範圍目錄**] 旁，開啟 [開啟 **] 切換開關**。
 
-1. 使用資訊隔層策略將貴組織設定為虛擬子組。 詳細資訊，請參閱定義 [資訊障礙政策](/microsoft-365/compliance/information-barriers-policies)。
-
-2. 在系統管理Microsoft Teams，選取  >  **Teams Teams設定**。
-
-3. 在 **使用通訊錄Teams** 搜尋的範圍目錄搜尋Exchange下，開啟切換 **開關 。**
-
-    ![在系統管理中心Microsoft Teams目錄搜尋。](media/teams-scoped-directory-search-image1.png)
-
-> [!IMPORTANT]
-> 此變更可能需要數小時才能複製。
+> [!Note]
+> 可能需要幾個小時，此變更才會生效。

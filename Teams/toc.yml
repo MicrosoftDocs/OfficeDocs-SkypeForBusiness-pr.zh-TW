@@ -1563,8 +1563,8 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: 管理 Bookings 應用程式
                 href: bookings-app-admin.md
-              - name: 管理行動裝置瀏覽器上的加入體驗
-                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: 管理瀏覽器上的加入體驗
+                href: expand-teams-across-your-org/browser-join.md
               - name: 虛擬門診使用方式報告
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
           - name: Teams 中的班次
@@ -1693,8 +1693,8 @@ items:
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: 虛擬門診使用方式報告
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
-              - name: 管理行動裝置瀏覽器上的加入體驗
-                href: expand-teams-across-your-org/mobile-browser-join.md
+              - name: 管理瀏覽器上的加入體驗
+                href: expand-teams-across-your-org/browser-join.md
           - name: 檢視並指派原則套件
             href: policy-packages-healthcare.md
           - name: 保護傳訊的安全
