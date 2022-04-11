@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解Microsoft Teams的附加元件授權，以及每個授權的功能。
-ms.openlocfilehash: 785ae1495e3a210883f489528ac401ad9442b526
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: 000678a0b41e660371de295ae40d2c6359774efe
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686380"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756949"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams附加元件授權
 
@@ -50,12 +50,6 @@ ms.locfileid: "64686380"
 ## <a name="which-microsoft-capabilities-are-available-with-my-plan"></a>我的方案提供哪些 Microsoft 功能？
 
 所有Microsoft 365方案都允許Teams使用者在貴組織內使用 VoIP 技術進行對等通話。 不過，您可能會想要針對撥打 PSTN 號碼或設定 PBX 等功能新增不同的授權。
-
-### <a name="audio-conferencing"></a>音訊會議
-
-您可以在所有 **Microsoft 365** 訂閱中免費新增音訊會議授權。
-
-Microsoft 365 E5/A5/G5 方案包括音訊會議授權，因此您不需要使用這些方案購買額外的音訊會議授權。
 
 ### <a name="voice-and-pstn-connectivity"></a>語音和 PSTN 連線能力
 
