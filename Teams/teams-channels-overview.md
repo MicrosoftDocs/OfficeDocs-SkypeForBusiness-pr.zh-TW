@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97af2abe8542a885f8a0056ed90f2a61330ba8a0
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 4bd98159e9e209cba855e1a0f2d0ee853b3ba889
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711927"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756889"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的團隊和頻道概覽
 
@@ -96,6 +96,9 @@ Teams 中的兩個主要角色如下：
 |頻道可以直接與其父小組共用。|不適用|否|是|
 |來賓可以參與頻道。|是|是|否|
 |外部參與者 (B2B 直接連結) 可以參與頻道。|否|否|是|
+|審核|是|否|否|
+|分組會議室|是|否|否|
+|複製頻道的連結|是|否|否|
 |每個頻道都有專屬的 SharePoint 網站。|否|是|是|
 |排定的會議|是|否|是|
 |Planner|是|否|否|

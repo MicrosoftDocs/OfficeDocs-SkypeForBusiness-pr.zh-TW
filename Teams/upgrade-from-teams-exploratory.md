@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
-ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
+ms.openlocfilehash: 95dd3f01d07a2e393414013ab40ca97ec1a63bb6
+ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/29/2021
-ms.locfileid: "61216669"
+ms.lasthandoff: 04/11/2022
+ms.locfileid: "64756969"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>從 Teams Exploratory 試用版升級使用者
 
@@ -37,7 +37,7 @@ ms.locfileid: "61216669"
 
 ## <a name="step-1-when-to-upgrade"></a>步驟 1：何時進行升級  
 
-若要檢查貴組織的 Teams Exploratory 試用版何時到期，以及有多少有效使用者，請前往 Microsoft 365 系統管理中心的 **帳單 >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>產品</b></a>。 Teams Exploratory 試用版到期之前，您也會收到通知。
+若要檢查貴組織的 Teams Exploratory 試用版何時到期，以及有多少作用中使用者，請前往 Microsoft 365 系統管理中心的 **[帳單] >** <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank"><b>[您的產品]</b></a>。Teams Exploratory 試用版到期前，您也會收到通知。
 
 > [!IMPORTANT]
 > 在到期日之前，您應該規劃將使用者升級至付費的授權，讓使用者不會失去 Teams 的存取權。
@@ -45,6 +45,9 @@ ms.locfileid: "61216669"
 > 在試用版到期日後的 30 天內，使用者將失去 Teams 的存取權。 只要在到期日的 60 天內，使用者獲指派付費的授權，他們就可以重新取得 Teams 的存取權，而且所有內容仍然存在。 不過，60 天后，該名使用者的資料就會遭到刪除。 將新授權指派給使用者以啟用 Teams 功能之後，如果是在寬限期時間範圍內新增授權，則會保留所有內容。 如需詳細資訊，請參閱 <a href="/microsoft-365/commerce/subscriptions/what-if-my-subscription-expires?view=o365-worldwide" target="_blank">當訂閱結束時，我的資料與存取權會發生什麼情況？</a>
 
 ## <a name="step-2-choose-an-upgrade-path"></a>步驟 2：選擇升級路徑
+
+> [!TIP]
+> 對於想要升級即將到期的 Teams Exploratory 試用版的客戶，我們建議使用 Teams Essentials 做為主要選項。 如需詳細資訊，請參閱 [比較 Microsoft Teams 基本版與其他方案](get-started-with-teams-essentials.md#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)。
 
 根據貴組織目前擁有訂閱，有三種方式可以將 Microsoft Teams Exploratory 試用版升級為付費授權：
 
@@ -67,7 +70,7 @@ ms.locfileid: "61216669"
 
 ### <a name="auto-claim-policies"></a>自動聲明原則
 
-下一次升級時，使用自動聲明原則以建立適用於貴組織的原則，以自動將付費訂閱中的授權指派給尚未取得 Teams 授權的新使用者。 如需詳細資訊，請參閱 <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">自動聲明原則</a>。
+下一次升級時，請使用自動聲明原則以建立適用於貴組織的原則，以自動將付費訂閱中的授權指派給尚未取得 Teams 授權的新使用者。如需詳細資訊，請參閱 <a href="/microsoft-365/commerce/licenses/manage-auto-claim-policies?view=o365-worldwide" target="_blank">管理自動聲明原則</a>。
 
 ## <a name="related-topics"></a>相關主題
 
