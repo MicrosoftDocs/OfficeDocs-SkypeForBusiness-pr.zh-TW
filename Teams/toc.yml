@@ -1503,7 +1503,7 @@ items:
             href: overview-third-party-apps.md
           - name: 瞭解 Microsoft 的應用程式驗證
             href: overview-of-app-validation.md
-          - name: 協力廠商應用程式的安全性、合規性和隱私權
+          - name: 應用程式的安全性、合規性和隱私權
             href: overview-of-app-certification.md
           - name: 使用 Microsoft 365 或 Office 365 和自訂連接器
             href: Office-365-custom-connectors.md
