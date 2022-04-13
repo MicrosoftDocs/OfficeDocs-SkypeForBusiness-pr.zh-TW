@@ -1,14 +1,13 @@
 ---
-title: Microsoft Teams 的安全性指南：在公用電腦上安全地使用 Teams
+title: Microsoft Teams 的零信任安全性指南：在公用電腦上安全地使用 Teams
 author: MSFTTracyP
 ms.author: tracyp
 manager: dansimp
-ms.date: 08/21/2020
 ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: pawa
-description: 在工作場所中從共用電腦安全地使用 Microsoft Teams 的指導方針。
+description: 在工作場所中從共用電腦安全地使用 Microsoft Teams 的零信任指南。
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c97ebd8cf9e43ada8d077ffbd33f6b39c8d9c64c
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 83fc071aa50ed076fc2a6798cfaee9d4770a36a5
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893542"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817674"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>在共用電腦上安全地使用 Microsoft Teams
 
@@ -54,17 +53,17 @@ ms.locfileid: "62893542"
 如果不符合上述指導方針，我們建議使用額外的瀏覽器安全性最佳做法：
 
 1. 套用瀏覽器的安全性功能。
-    1. 使用私人瀏覽工作階段，將保存到磁碟的資料和歷程記錄最小化。 例如，[在 Microsoft Edge 中使用 inPrivate 瀏覽](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate)、[在 Google Chrome中進行無痕式瀏覽](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en)，或使用您的特定瀏覽器用於私人瀏覽的功能。 
-    1. 建議將系統行為變更為 *預設* 採用私人瀏覽。 
+    1. 使用私人瀏覽工作階段，將保存到磁碟的資料和歷程記錄最小化。 例如，[在 Microsoft Edge 中使用 inPrivate 瀏覽](https://support.microsoft.com/help/4533513/microsoft-edge-browse-inprivate)、[在 Google Chrome中進行無痕式瀏覽](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en)，或使用您的特定瀏覽器用於私人瀏覽的功能。
+    1. 建議將系統行為變更為 *預設* 採用私人瀏覽。
 
 2. 瀏覽至並使用 [Teams Web 應用程式](https://teams.microsoft.com) (有時稱為 *Web* 用戶端)，而非可下載的Teams 用戶端。
 
-3. 使用共用系統完成之後，您必須： 
+3. 使用共用系統完成之後，您必須：
     1. [登出 Teams](https://support.microsoft.com/office/sign-out-of-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487)。
     1. 關閉所有瀏覽器索引標籤和視窗。
     1. 從裝置登出。
 
-上述項目並非涵蓋所有情況的最佳做法或安全性控制項的完整清單，且可能會在您的環境中採取額外的動作 (例如，如果您有 [Office 365 ATP 方案 1 或 2](/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)，安全性系統管理員可以選擇對 Teams 使用安全連結和安全附件)。不過，這些步驟可做為建立從共用裝置使用 Teams 指導方針的起點。
+上述項目並非涵蓋所有情況的最佳做法或安全性控制項的完整清單，且可能會在您的環境中採取額外的動作 (例如，如果您有 [適用於 Office 365 的 Microsoft Defender 方案 1 或 2](/microsoft-365/security/office-365-security/overview?view=o365-worldwide)，安全性系統管理員可以選擇對 Teams 使用安全連結和安全附件)。不過，這些步驟可做為建立從共用裝置使用 Teams 指導方針的起點。
 
 ## <a name="more-information"></a>詳細資訊
 

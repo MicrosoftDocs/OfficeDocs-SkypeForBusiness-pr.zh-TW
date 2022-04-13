@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的共用頻道 (預覽)。
-ms.openlocfilehash: 0c66d308ef5182c6ace69a7bdcd004c865109bec
-ms.sourcegitcommit: 3e7c491d2bb13c86ac8e73b1c6c9735660c673e3
+ms.openlocfilehash: feecbdfe45e890b1e302d49bfdcaf7b6d3e19157
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "64590381"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817844"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Microsoft Teams 中的共用頻道 (預覽)
 
@@ -34,6 +34,8 @@ ms.locfileid: "64590381"
 只有共用頻道的成員才能查看以及參與他們所加入的共用頻道。 已連接共用頻道的小組其他成員不會看到該頻道。
 
 共用頻道建立之後，會連結到父系小組，且不能移至其他小組。 此外，共用頻道不能轉換成標準頻道，反之亦然。
+
+[比較共用頻道和其他類型的頻道](/microsoftteams/teams-channels-overview#channel-feature-comparison)。
 
 ## <a name="best-practices-for-the-shared-channels-preview"></a>共用頻道預覽的最佳做法
 
