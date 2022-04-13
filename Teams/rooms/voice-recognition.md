@@ -1,14 +1,14 @@
 ---
-title: 租使用者系統管理在 (語音設定檔) 語音辨識Teams 會議室
-author: serdars
-ms.author: serdars
+title: Teams 會議室 中語音辨識 (語音設定檔) 的租使用者管理控制
+author: cazawideh
+ms.author: czawideh
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 瞭解租使用者系統管理在會議室 (語音) 語音Teams控制項。
+description: 瞭解Teams會議室中語音辨識 (語音設定檔) 的租使用者管理控制。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,107 +16,150 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c970fb3d8584c9a68512187158c7dad11562c4a
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.openlocfilehash: 6afd8cbf6a62665dbdb4c472df9620d623011452
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62863896"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817704"
 ---
-# <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智慧型喇叭的語音辨識技術控制項
+# <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智慧喇叭的語音辨識技術控制項
 
-智慧型喇叭會使用語音設定檔資訊來識別誰在即時抄寫中表達內容。 當Microsoft Teams 會議室會議室Windows配備智慧型演講者時，可在會議期間使用即時抄寫。 本文將說明租使用者系統管理員如何控制用於語音辨識的語音分析，以產生即時抄寫。 您可以控制組織使用語音辨識的程度，以及下列功能：
+智慧型喇叭會使用語音設定檔資訊來辨識即時轉譯內容的人員。 當Windows會議室的Microsoft Teams 會議室配備智慧喇叭時，可在會議期間使用即時轉譯。 本文說明租使用者系統管理員您如何控制用於語音辨識的語音分析，以產生即時轉譯。 您可以控制組織使用語音辨識的程度，以及下列功能：
 
 - 在文字記錄中編輯演講者的名稱。
-- 變更文字記錄中單字的演講者，或變更文字記錄中所有片語中的演講者 (但不要變更) 。
-- 變更會議中列出的人員之演講者識別。
-- 移除每個文字記錄上識別為該演講者的一或多個片語識別。
+- 變更文字記錄中單一口說的喇叭，或變更文字記錄 (中所有說出的演講者，但日後文字記錄) 。
+- 變更會議中所列人員的演講者身分識別。
+- 移除識別身為該演講者之一或多個語句的識別，在每一個文字記錄上。
 
-## <a name="review-intelligent-speaker-requirements"></a>審查智慧型喇叭需求
+## <a name="review-intelligent-speaker-requirements"></a>檢閱智慧型喇叭需求
 
-智慧型喇叭包含特殊的七麥克風陣列。 系統使用語音設定檔資訊來識別會議室中最多 10 人的聲音。
+智慧喇叭包含特殊的七個麥克風陣列。 系統會使用語音設定檔資訊來識別會議室中最多 10 個人的聲音。
 
-下列專案為智慧型喇叭需求：
+下列專案是智慧型喇叭需求：
 
-- 客戶租使用者必須位於美國 (北美) 。<sup>1</sup>
-- 會議室最多應有 10 個人出席。
-- 會議室的上傳連結至少為 7Mbps。
+- 會議室最多應有 10 人親自出席。
+- 會議室的上傳連結至少為 7 Mbps。
 
- <sup>1</sup> 智慧型喇叭和相關語音設定檔及使用方式僅適用于 EN-US 語言，且適用于美國 NA-US 地區 (租使用者) 使用。 租使用者使用者註冊並使用智慧型喇叭進行屬性化抄寫時，這兩個條件都必須成立。
+支援 Epos、Sennheiser 和 Yealink 智慧型喇叭。
+
+> [!NOTE]
+> 除了印度以外，所有國家和地區都提供智慧喇叭，但印度尚未支援此功能。 如需生物特徵辨識註冊和會議內轉譯目前支援之地區設定的清單，請參閱 [支援地區](#supported-locales) 設定。
 
 ## <a name="set-up-an-intelligent-speaker"></a>設定智慧型喇叭
 
-智慧型喇叭會使用 USB 直接連接到Teams 會議室主機。 為了獲得最佳結果，應該使用 Yealink 品牌智慧型喇叭與 Yealink 品牌主控台。
+智慧喇叭會直接使用 USB 連線到Teams 會議室主機。
 
 > [!NOTE]
-> Yealink 智慧喇叭 **必須與** Yealink 主機一起使用。
+> Yealink 智慧喇叭 **必須** 與 Yealink 主機搭配使用。
 
 > [!NOTE]
-> 我們不支援連接到 Logitech Surface Pro Microsoft Teams 會議室。 有一個已知Teams 會議室無法透過基座識別智慧型喇叭。
+> 我們不支援連線到 Logitech Surface Pro Microsoft Teams 會議室的智慧型喇叭。 已知問題Teams 會議室無法透過擴充座辨識智慧型喇叭。
 
-智慧型喇叭應置於至少 8 (20 公) ，遠離牆面和大型物件 ，例如膝上型電腦。 如果智慧型喇叭 USB 纜線不夠長，無法用於您的設定，請使用纜線延伸器。
+智慧型喇叭應放置至少 8 英吋 (20 公分) 遠離牆壁和大型物件，例如膝上型電腦。 如果智慧型喇叭 USB 纜線的安裝時間不夠長，請使用纜線延伸器。
 
-1. 以系統管理員的登錄主機。
-2. 設定Teams設定，以配合智慧型喇叭麥克風和喇叭。
-   您也可以透過 TAC 入口網站而非會議室主控台執行此操作。
+1. 以系統管理員身分登入主機。
+2. 設定Teams裝置設定，以符合智慧型喇叭麥克風和喇叭。
+   您也可以透過 TAC 入口網站執行此動作，而非透過會議室主機進行。
 
-   圖表顯示智慧型喇叭如何連接到裝置 ，如果裝置包含資料方塊。
+   圖表顯示如果裝置包含資料方塊，智慧型喇叭如何連線到裝置。
 
-   ![智慧型喇叭設定與喇叭、電源和資料方塊。一條線會進入主機的 USB 埠，另一條線則進入電源。](../media/intelligent-speakers1.png)
+   ![具有喇叭、電源和資料方塊的智慧型喇叭設定。其中一行會移至主機的 USB 埠，而另一行則會開啟電源。](../media/intelligent-speakers1.png)
 
-   圖表顯示如果裝置不包含資料方塊，智慧型喇叭如何連接到裝置。
+   圖表顯示如果裝置不包含資料方塊，智慧型喇叭如何連線到裝置。
 
-   ![智慧型喇叭設定，讓喇叭直接連接到主機。](../media/intelligent-speakers2.png)
+   ![智慧型喇叭設定，喇叭會直接連接到主機。](../media/intelligent-speakers2.png)
 
 > [!Note]
-> EPOS 和 Yealink 裝置應具有 "EPOS" 或 "Yealink" 首碼，且在喇叭名稱中包含 「UAC2_RENDER」，而麥克風名稱中則包含 「UAC2_TEAMS」。 如果您在下拉式功能表中找不到這些麥克風和喇叭名稱，請重新開機智慧喇叭裝置。
+> EPOS 和 Yealink 裝置的前置詞應該是「EPOS」或「Yealink」，並在喇叭名稱中包含「UAC2_RENDER」，麥克風名稱則為「UAC2_TEAMS」。 如果您在下拉式功能表中找不到這些麥克風和喇叭名稱，請重新開機智慧型喇叭裝置。
 
-## <a name="enable-an-intelligent-speaker-user-recognition"></a>啟用智慧型喇叭使用者識別
+## <a name="enable-an-intelligent-speaker-user-recognition"></a>啟用智慧喇叭使用者辨識
 
-語音設定檔資料可用於任何使用智慧型喇叭的會議。 請參閱[Teams和](../meetings-policies-recording-and-transcription.md#allow-transcription) [PowerShell 會議 Cmdlet，](/powershell/module/skype/set-csteamsmeetingpolicy)以瞭解會議設定的資訊。
+您可以在任何使用智慧喇叭的會議中使用語音設定檔資料。 如需會議設定的相關資訊，請參閱[Teams會議](../meetings-policies-recording-and-transcription.md#allow-transcription)原則和[PowerShell 會議 Cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy)。
 
-當策略設定為區分時，或非會議受邀者在會議期間逐步加入時，即會建立使用者的語音設定檔資料。 語音設定檔資料在會議結束時會關閉。
+當原則設為區分或非會議受邀者會在會議期間參與時，會建立使用者的語音設定檔資料。 會議結束時會拒絕語音設定檔資料。
 
-以下是設定智慧型喇叭和使用者識別所需的策略。
+以下是設定智慧喇叭和使用者辨識的必要原則。
 
 |政策|描述|值與行為|
 |-|-|-|
-|註冊UserOverride|在租使用者Teams設定中設定語音設定檔捕獲或註冊。 |**已停用**<br><ul><li> 從未註冊的使用者無法查看、註冊或重新註冊。<li>註冊流程的進入點將會隱藏。<li>如果使用者選取註冊頁面的連結，就會看到一則訊息，指出其組織尚未啟用此功能。  <li>已註冊的使用者可以在設定中查看和移除Teams設定檔。 移除語音設定檔後，他們將無法查看、存取或完成註冊流程。</li></ul><br>**啟用**<br><ul><li> 使用者可以查看、存取及完成註冊流程。<li>進入點會顯示在 Teams 的設定 **頁面上**。</li></ul>|
-|roomAttributeUserOverride|控制會議室中的語音使用者識別。 此設定適用于Teams 會議室帳戶。| **關閉**<br><ul><li>Teams 會議室裝置不會從會議室傳送音訊串流節省頻寬。 <li>會議室使用者不會被屬性或區分，而且他們的語音簽名也不會被取回或使用。<li>會議室使用者不明。</li></ul> <br>**屬性**<br><ul><li>會議室使用者會依據他們的註冊狀態來屬性。<li>註冊的使用者在文字翻譯中會顯示其名稱。  <li>未註冊的使用者會顯示為演講者 \<n> 。<li>此Teams 會議室裝置會從會議室傳送七個音訊資料流程。</ul> <br>**區分**<br> <ul><li>會議室使用者會以喇叭 1、喇叭 2、....喇 \<n> 叭。</li><li>無論使用者的註冊狀態為何，其名稱不會顯示在文字翻譯中。</li><li>此Teams 會議室裝置會從會議室傳送七個音訊資料流程。</li></ul>
-|AllowTranscription|使用者和會議室帳戶Teams必填專案。|**True** 和 **False**|
+|enrollUserOverride|用來在租使用者的Teams設定中設定語音設定檔擷取或註冊。 |**已停用**<br><ul><li> 從未註冊的使用者無法檢視、註冊或重新註冊。<li>系統會隱藏註冊流程的進入點。<li>如果使用者選取註冊頁面的連結，就會看到一則訊息，指出其組織並未啟用此功能。  <li>已註冊的使用者可以在Teams設定中檢視及移除他們的語音設定檔。 一旦移除他們的語音設定檔，他們將無法檢視、存取或完成註冊流程。</li></ul><br>**啟用**<br><ul><li> 使用者可以檢視、存取及完成註冊流程。<li>進入點會顯示在 [Teams] 設定頁面的 [**辨識] 索** 引標籤底下。</li></ul>|
+|roomAttributeUserOverride|控制會議室中的語音使用者身分識別。 Teams 會議室帳戶需要此設定。| **關閉**<br><ul><li>Teams 會議室裝置不會從會議室傳送音訊串流省電頻寬。 <li>會議室使用者不會被歸屬或分辨，而且完全不會擷取或使用其語音簽名。<li>會議室使用者為未知。</li></ul> <br>**屬性**<br><ul><li>會議室使用者會根據他們的註冊狀態來建立屬性。<li>已註冊的使用者會在轉錄中顯示其名稱。  <li>未註冊的使用者會顯示為喇叭 \<n> 。<li>Teams 會議室裝置會從會議室傳送七個音訊串流。</ul> <br>**區分**<br> <ul><li>會議室使用者將以演講者 1、喇叭 2、...轉譯中的喇叭 \<n> 。</li><li>不管使用者的註冊狀態為何，其名稱不會顯示在轉譯中。</li><li>Teams 會議室裝置會從會議室傳送七個音訊串流。</li></ul>
+|AllowTranscription|使用者和會議室帳戶Teams必要。|**True** 和 **False**|
 ||||
 
-在系統管理Teams中，設定 **文字翻譯** 政策。 設定為 **關閉**。
+在Teams系統管理中心中，設定 **[抄寫] 原則**。 設定預設為 **[關閉]**。
 
-![系統管理中心，且會議政策已強調，且已選取允許抄寫。](../media/allow-transcription1.png)
+![醒目提示會議原則的系統管理中心，並已選取 [允許轉譯]。](../media/allow-transcription1.png)
   
 > [!NOTE]
-> 指派策略後，最多可能需要 48 小時才能生效。 若要讓政策更早生效，帳戶必須簽出並重新簽回。
+> 指派原則之後，最多可能需要 48 小時才會生效。 若要讓原則更快生效，帳戶必須登出並重新登入。
 
 ## <a name="frequently-asked-questions-faq"></a>常見問題集 (FAQ)
 
 **語音設定檔資料儲存在哪裡？**
 
-語音設定檔資料會儲存在雲端Office 365包含使用者內容。
+語音設定檔資料會儲存在Office 365包含使用者內容的雲端中。
 
-**什麼是保留時間表和策略？**
+**保留時間表和原則為何？**
 
-資料保留概觀中會說明一 [般保留政策](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。 此外，如果使用者未在 1 年內受邀參加智慧型喇叭的任何會議，使用者的語音設定檔資料將在 1 年後刪除。 資料不會用於現有員工的任何會議。 如果員工離職，語音設定檔資料會視為使用者內容，並Office 365資料保留概觀所述之資料保留政策視為[使用者內容](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)。
+[資料保留概觀](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)中會說明一般保留原則。 此外，如果使用者在 1 年內沒有受邀參加任何智慧型喇叭會議，使用者的語音設定檔資料也會在 1 年後刪除。 現有員工的任何會議中不會使用資料。 如果員工已離開公司，語音設定檔資料會被視為使用者內容，並會根據資料保留概觀中所描述的Office 365[資料保留原則](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)來處理。
 
 **語音設定檔資料是否用於Microsoft 服務？**
 
-否，語音設定檔資料只會用於使用者提供同意的目的。 Microsoft 不會使用語音設定檔資料，除非Teams語音辨識案例。
+否，語音設定檔資料僅用於使用者提供同意的目的。 除了Teams語音辨識案例之外，Microsoft 不會使用語音設定檔資料。
 
-例如，Microsoft 不會在下列情況下使用資料：
+例如，Microsoft 不會在下列情況中使用資料：
 
-**當我加入另一個組織的會議時，是否使用我的語音設定檔資料？**
+**當我在其他組織加入會議時，是否使用我的語音設定檔資料？**
 
-不只在貴組織中由使用者組織的會議中。
+不只適用于組織中使用者召集的會議。
 
-**如何匯出語音設定檔？**
+**如何匯出我的語音設定檔？**
 
-您的 IT 系統管理員隨時都可以匯出您的音訊資料。
+您的 IT 系統管理員可以隨時匯出您的音訊資料。
+
+## <a name="supported-locales"></a>支援的地區設定
+
+下列註冊和會議內轉譯地區在所有國家/地區都受到支援。
+
+### <a name="enrollment-locales"></a>註冊地區設定
+
+使用者可以在下列地區設定中註冊語音以進行辨識：
+
+|**語言**|**國家/地區**|**文化識別碼**|
+|:-----|:-----|:-----|
+|英語  <br/> |澳洲 <br/> |en-AU  <br/> |
+|英語  <br/> |加拿大  <br/> |en-CA <br/> |
+|英語  <br/> |印度  <br/> |en-IN  <br/> |
+|英語  <br/> |紐西蘭  <br/> |en-NZ  <br/> |
+|英語  <br/> |英國  <br/> |en-GB  <br/> |
+|英語  <br/> |美國  <br/> |en-US  <br/> |
+
+
+### <a name="in-meeting-transcription-locales"></a>會議中的轉錄地區設定
+
+使用者註冊後，就可以在會議期間辨識其語音，並在會議設定為下列其中一個地區設定時，在轉譯中識別其語音：
+
+|**語言**|**國家/地區**|**文化識別碼**|
+|:-----|:-----|:-----|
+|簡體中文 ()   <br/> |中國  <br/> |zh-CN  <br/> |
+|英語  <br/> |澳洲 <br/> |en-AU  <br/> |
+|英語  <br/> |加拿大  <br/> |en-CA <br/> |
+|英語  <br/> |印度  <br/> |en-IN  <br/> |
+|英語  <br/> |紐西蘭  <br/> |en-NZ  <br/> |
+|英語  <br/> |英國  <br/> |en-GB  <br/> |
+|英語  <br/> |美國  <br/> |en-US  <br/> |
+|法語  <br/> |加拿大  <br/> |fr-CA  <br/> |
+|法語  <br/> |法國  <br/> |fr-FR  <br/> |
+|德語  <br/> |德國  <br/> |de-DE  <br/> |
+|義大利文  <br/> |義大利  <br/> | it-IT <br/> |
+|日語  <br/> |日本  <br/> |ja-JP  <br/> |
+|朝鮮語  <br/> |韓國  <br/> |ko-KR  <br/> |
+|葡萄牙文  <br/> |巴西  <br/> |pt-BR  <br/> |
+|西班牙文  <br/> |墨西哥  <br/> |es-MX  <br/> |
+|西班牙文  <br/> |西班牙  <br/> |es-ES  <br/> |
 
 ## <a name="related-topics"></a>相關主題
 
-[支援文章：使用智慧型喇叭識別會議室參與者 ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)
+[支援文章：使用智慧型喇叭識別會議室內的參與者 ](https://support.microsoft.com/office/use-teams-intelligent-speakers-to-identify-in-room-participants-in-meeting-transcription-a075d6c0-30b3-44b9-b218-556a87fadc00)
