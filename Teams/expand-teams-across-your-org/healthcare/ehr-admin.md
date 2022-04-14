@@ -1,5 +1,5 @@
 ---
-title: 含 Teams 的虛擬造訪 - 整合至 EHR
+title: 虛擬約會與 Teams - 整合至 EHR
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -22,31 +22,31 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: 瞭解如何整合 Teams EHR 連接器，讓貴組織中的醫療保健提供者直接從 EHR 系統與病患或其他Teams提供者進行虛擬造訪。
-ms.openlocfilehash: e573c30720383554c9bda8467221ff48a1369e0b
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+description: 瞭解如何整合 Teams EHR 連接器，讓貴組織中的醫療保健提供者直接從 EHR 系統與病患或其他Teams提供者進行虛擬約會。
+ms.openlocfilehash: baef8aeda05413ce2f307a4bbea7259490ecfb83
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/14/2022
-ms.locfileid: "64703599"
+ms.locfileid: "64853054"
 ---
-# <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>含 Teams 的虛擬造訪 - 整合至 EHR
+# <a name="virtual-appointments-with-teams---integration-into-epic-ehr"></a>虛擬約會與 Teams - 整合至 EHR
 
-Microsoft Teams電子健康情況記錄 (EHR) 連接器可讓病患輕鬆直接從 EHR 系統啟動虛擬病患造訪或與Microsoft Teams中的另一個提供者諮詢。 建置在Microsoft 365雲端上，Teams可在單一集線器中使用聊天、視訊、語音和醫療保健工具進行簡單、安全的共同作業和通訊，支援符合 HIPAA、HITECH 認證等功能。
+Microsoft Teams電子健康情況記錄 (EHR) 連接器可讓醫護人員輕鬆啟動虛擬病患預約，或直接從 EHR 系統與 Microsoft Teams 中的另一位提供者進行諮詢。 建置在Microsoft 365雲端上，Teams可在單一集線器中使用聊天、視訊、語音和醫療保健工具進行簡單、安全的共同作業和通訊，支援符合 HIPAA、HITECH 認證等功能。
 
 Teams的通訊與共同作業平臺可讓文工士輕鬆地解決雜亂的系統，讓他們能夠專注于提供最佳的保養。 使用 Teams EHR 連接器，您可以：
 
-- 使用整合式的醫療工作流程，從您的 EHR 系統啟動Teams虛擬造訪。
-- 讓病患從病患入口網站或簡訊加入Teams虛擬造訪。
+- 使用整合式的醫療工作流程，從您的 EHR 系統啟動Teams虛擬約會。
+- 讓病患從病患入口網站或簡訊加入Teams虛擬約會。
 - 支援其他案例，包括多參與者、群組造訪和翻譯服務。
-- 將中繼資料寫回 EHR 系統，Teams虛擬造訪]，以便在出席者連線、中斷連線時記錄，並啟用自動稽核和記錄保留。
-- 檢視已連線 EHR 的使用資料包告和可自訂的通話品質資訊。
+- 將有關Teams虛擬約會的中繼資料寫回 EHR 系統，以便在出席者連線、中斷連線，並啟用自動稽核和記錄保留時記錄。
+- 檢視已連線 EHR 之約會的消費資料包告和可自訂的通話品質資訊。
 
-請觀看這段影片，瞭解如何從 EHR 入口網站管理虛擬造訪。
+請觀看這段影片，瞭解如何從 EHR 入口網站管理虛擬約會的概觀。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
-本文說明如何設定和設定 Teams EHR 連接器，以與您醫療保健組織中的 [圖庫] 平臺整合。 它也可以讓您概略瞭解來自 EHR 系統Teams虛擬造訪體驗。
+本文說明如何設定和設定 Teams EHR 連接器，以與您醫療保健組織中的 [圖庫] 平臺整合。 它也會讓您概略瞭解來自 EHR 系統Teams虛擬約會體驗。
 
 ## <a name="before-you-begin"></a>開始之前
 
@@ -130,7 +130,7 @@ Microsoft 365管理員和等客戶分析師可以是同一位人員。
 > [!NOTE]
 > SMS 通知目前僅在美國中提供。 我們正努力在未來的 Teams 版本中于其他地區提供此功能，並且會在可用時更新本文。
 
-如果您的組織想要 Microsoft 管理您病患的簡訊通知，請完成此步驟。 當您啟用簡訊通知時，您的病患將會收到排定造訪的確認和提醒訊息。
+如果您的組織想要 Microsoft 管理您病患的簡訊通知，請完成此步驟。 當您啟用簡訊通知時，病患將會收到排程預約的確認和提醒訊息。
 
 若要啟用簡訊通知，Microsoft 365系統管理員執行下列動作：
 
@@ -159,8 +159,8 @@ Microsoft 365管理員和等客戶分析師可以是同一位人員。
 
     :::image type="content" source="media/ehr-connector-epic-sms-setup.png" alt-text="顯示 SMS 設定設定的螢幕擷取畫面。" lightbox="media/ehr-connector-epic-sms-setup.png":::
 
-    - **確認簡訊**：在 EHR 系統中排定、更新或取消造訪時，通知會傳送給病患。
-    - **提醒簡訊**：通知會根據您指定的時間間隔和已排程的造訪時間傳送給病患。
+    - **確認簡訊**：在 EHR 系統中排定、更新或取消預約時，通知會傳送給病患。
+    - **提醒簡訊**：通知會根據您指定的時間間隔和預約的排程時間傳送給病患。
 
     選擇 [ **儲存]**。
 
@@ -197,7 +197,7 @@ Microsoft 365管理員和等客戶分析師可以是同一位人員。
 - SMS 設定記錄
 - 裝置測試設定記錄
 
-等量表客戶分析師必須提供這些記錄給Picl，才能完成 [等量] 中的虛擬造訪設定。 如需詳細資訊，請參閱 Microsoft Teams [Telehealth 整合指南。](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)
+等量型客戶分析師必須提供這些記錄給Picl，才能完成 [等量] 中的虛擬約會設定。 如需詳細資訊，請參閱 Microsoft Teams [Telehealth 整合指南。](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357)
 
 > [!Note]  
 > Microsoft 365或等客戶分析師隨時都可以登入組態入口網站，視需要檢視整合記錄並變更組織設定。
@@ -207,11 +207,11 @@ Microsoft 365管理員和等客戶分析師可以是同一位人員。
 > [!Note]
 > 等客戶分析師必須完成Microsoft 365系統管理員所設定之每個 FHIR 基礎 URL 的核准程式。
 
-## <a name="launch-teams-virtual-visits"></a>啟動Teams虛擬造訪
+## <a name="launch-teams-virtual-appointments"></a>啟動Teams虛擬約會
 
-完成 EHR 連接器步驟和 [圖釋] 設定之後，您的組織就可以使用 Teams 支援視訊流覽。
+完成 EHR 連接器步驟和 [圖釋] 設定之後，您的組織就可以使用 Teams 支援視訊約會。
 
-### <a name="virtual-visits-prerequisites"></a>虛擬造訪先決條件
+### <a name="virtual-appointments-prerequisites"></a>虛擬約會先決條件
 
 - 您的系統必須符合Teams的所有[軟體和瀏覽器需求](../../hardware-requirements-for-the-teams-app.md)。
 
@@ -219,53 +219,53 @@ Microsoft 365管理員和等客戶分析師可以是同一位人員。
 
 ### <a name="provider-experience"></a>提供者體驗
 
-貴組織的醫療保健提供者可以使用來自 Hyperspace、並存取、Canto)  (等提供者應用程式Teams來加入造訪。 **[開始虛擬就診]** 按鈕內嵌在提供者流程中。
+貴組織的醫療保健提供者可以使用來自 Hyperspace、並排、Canto)  (等提供者應用程式Teams加入約會。 **[開始虛擬就診]** 按鈕內嵌在提供者流程中。
 
 提供者體驗的主要功能：
 
-- 提供者可以使用支援的瀏覽器或Teams應用程式加入流覽次數。
+- 提供者可以使用支援的瀏覽器或Teams應用程式加入約會。
 
-- 第一次加入造訪時，提供者必須使用其Microsoft 365帳戶進行一次性登入。
+- 第一次加入約會時，提供者必須使用其Microsoft 365帳戶進行一次性登入。
 
 - 一次性登入之後，提供者會直接前往Teams中的虛擬約會。  (提供者必須登入Teams) 。
 
-- 提供者可以即時看到參與者連線並中斷特定約會的連線和中斷連線的更新。 提供者可以查看病患何時連線到訪訪。
+- 提供者可以即時看到參與者連線並中斷特定約會的連線和中斷連線的更新。 提供者可以查看病患何時已連線到預約。
 
-  ![與病患一起造訪的提供者體驗。](media/ehc-provider-experience-6.png)
+  ![與病患預約的提供者體驗。](media/ehc-provider-experience-6.png)
 
 > [!NOTE]
 > 針對醫療記錄連續性或保留目的，在會議聊天中輸入的任何資訊，都應由醫療保健提供者下載、複製及標注。 聊天不構成法律醫療記錄或指定的記錄集。 來自聊天的訊息會根據Microsoft Teams管理員建立的設定來儲存。
 
 ### <a name="patient-experience"></a>病患體驗
 
-連接器支援透過 MyChart Web 和行動裝置加入造訪病患。 在預約時，病患可以使用 [ **開始虛擬造訪** ] 按鈕從 MyChart 開始造訪。
+連接器支援透過 MyChart Web 和行動裝置加入約會的病患。 在預約時，病患可以使用 [ **開始虛擬造訪** ] 按鈕從 MyChart 開始預約。
 
 病患體驗的主要功能：
 
-- 病患不需要安裝Teams應用程式，即可從[桌上型電腦和行動裝置上的現代化網頁瀏覽器](../browser-join.md)加入流覽。
+- 病患不需要安裝Teams應用程式，即可從[桌上型電腦和行動裝置上的現代化網頁瀏覽器](../browser-join.md)加入約會。
 
-- 只要按一下，病患就可以加入造訪，不需要其他帳戶或登入。
+- 病患只要按一下即可加入約會，不需要其他帳戶或登入。
 
-- 病患不需要建立 Microsoft 帳戶或登入即可啟動造訪。
+- 病患不需要建立 Microsoft 帳戶或登入即可啟動預約。
 
 - 病患會被置於大廳，直到提供者加入並接受。
 
-- 病患可以先在大廳測試視訊和麥克風，然後再加入造訪。
+- 病患可以先在大廳測試視訊和麥克風，然後再加入預約。
 
-  ![造訪的病患體驗。](media/ehc-virtual-visit-5.png)
+  ![預約的病患經驗。](media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic、MyChart、Haiku 和 Canto 是 Epic Systems Corporation 的商標。
 
-## <a name="get-insight-into-virtual-visits-usage"></a>深入瞭解虛擬造訪使用量
+## <a name="get-insight-into-virtual-appointments-usage"></a>深入瞭解虛擬約會使用量
 
-Microsoft Teams系統管理中心的[虛擬造訪使用方式報告](../../teams-analytics-and-reports/virtual-visits-usage-report.md)可讓系統管理員概略瞭解貴組織中的Teams虛擬造訪活動。 報告會顯示虛擬約會的詳細分析，包括Teams由 EHR 系統進行的 EHR 整合式會議。
+Microsoft Teams系統管理中心的[虛擬造訪使用方式報告](../../teams-analytics-and-reports/virtual-visits-usage-report.md)可讓系統管理員概略瞭解貴組織中的Teams虛擬約會活動。 報告會顯示虛擬約會的詳細分析，包括Teams由 EHR 系統進行的 EHR 整合式會議。
 
-您可以檢視主要指派，例如大廳等候時間和造訪持續時間。 使用此資訊以深入瞭解使用趨勢，協助您優化虛擬造訪，以提供更好的商務成果。
+您可以檢視重要指派，例如大廳等候時間和約會持續時間。 使用此資訊以深入瞭解使用趨勢，協助您優化虛擬約會，以提供更好的商務成果。
 
 ### <a name="privacy-and-location-of-data"></a>資料隱私權和位置
 
-Teams整合到 EHR 系統，可優化整合和虛擬造訪流程期間所使用及儲存的資料量。 解決方案遵循 Teams 隱私權中概述的整體 Teams 隱私權和資料管理原則和指導方針。
+Teams整合到 EHR 系統，可優化整合和虛擬約會流程期間所使用及儲存的資料量。 解決方案遵循 Teams 隱私權中概述的整體 Teams 隱私權和資料管理原則和指導方針。
 
 Teams EHR 連接器不會從 EHR 系統儲存或傳輸任何可識別的個人資料或病患或醫療保健提供者的任何健康記錄。 EHR 連接器儲存的唯一資料是 EHR 使用者的唯一識別碼，在 Teams 會議設定期間使用。
 

@@ -1,5 +1,5 @@
 ---
-title: 在 Teams 中的虛擬Teams - EHR 連接器系統管理員報告
+title: Teams 中的虛擬約會 - EHR 連接器系統管理報告
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -22,33 +22,33 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: 查看 EHR 連接器Teams管理員報告
-ms.openlocfilehash: 3f85d48493822db3a26851d281f7a5fddf813960
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+description: 檢視 Teams EHR 連接器約會的系統管理報告。
+ms.openlocfilehash: 021c80aef6b1581ae7266e5caeff3782cbbb8f26
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763298"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853194"
 ---
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams EHR 連接器系統管理員報告
 
-[Microsoft Teams電子健康情況記錄 (EHR) 連接器系統管理報告對話方塊提供使用狀況資料的快速且容易閱讀的視圖。
+Microsoft Teams電子健康情況記錄 (EHR) 連接器系統管理員報告] 對話方塊提供快速且易於閱讀的使用狀況資料檢視。
 
-您可以到系統管理Teams儀表板並檢視對話方塊，Microsoft Teams EHR 連接器系統管理員報告。
+您可以前往Microsoft Teams系統管理中心儀表板，檢視該處的對話方塊，以查看 Teams EHR 連接器系統管理報告。
 
-從系統管理中心儀表板Microsoft Teams報表。
+從Microsoft Teams系統管理中心儀表板存取報告。
 
- ![虛擬訪問分配和限制對話方塊。](../../media/admin-connector-report.png)
+ ![虛擬約會配置與限制的對話方塊。](../../media/admin-connector-report.png)
 
 對話方塊提供下列資料：
 
 - 超出限制
 - 剩餘配置
-- 已完成的拜訪
+- 已完成約會
 
-您可以使用報表對話方塊購買更多虛擬訪問。
+您可以使用 [報表] 對話方塊購買更多虛擬約會。
 
 ## <a name="related-articles"></a>相關文章
 
-- [使用虛擬Teams - 整合至 Cerner EHR](ehr-admin-cerner.md)
-- [使用虛擬Teams - 整合至Epic EHR](ehr-admin.md)
+- [虛擬約會與 Teams - 整合至 Cerner EHR](ehr-admin-cerner.md)
+- [虛擬約會與 Teams - 整合至 EHR](ehr-admin.md)

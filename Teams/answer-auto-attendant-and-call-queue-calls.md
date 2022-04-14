@@ -1,5 +1,5 @@
 ---
-title: 接聽自動回應和通話佇列通話
+title: 接聽自動語音應答和通話佇列通話
 ms.reviewer: colongma
 author: CarolynRowe
 ms.author: crowe
@@ -8,7 +8,7 @@ audience: ITPro
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: 說明雲端自動回應和通話佇列，並說明如何在 Teams 中接聽這些Teams。
+description: 說明雲端自動語音應答和通話佇列，並說明如何在Teams中接聽這些來電。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -19,56 +19,56 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 83659cba18674e04daa0f9d181b9ac5acf53b146
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: 595be9303c0d9732c3e2580b06bf3a0a55a27088
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249485"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853074"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>直接從 Teams 回答自動語音應答和通話佇列的通話
 
-Teams使用者可以直接從他們的用戶端接收和接聽來自雲端自動回應和Teams通話。
+Teams使用者可以直接從他們的Teams用戶端接收和接聽來自雲端自動語音應答和通話佇列的電話。
 
-## <a name="what-are-auto-attendants-and-call-queues"></a>什麼是自動電話機和通話佇列？
+## <a name="what-are-auto-attendants-and-call-queues"></a>什麼是自動語音應答和通話佇列？
 
-雲端自動語音留言提供一系列語音提示或音訊檔案，讓來電者在來電到組織時，聽到這些語音提示或音訊檔案，而不是由接線生聽到。 自動語音機可讓來電者使用電話鍵台 (DTMF) 語音輸入，在功能表系統之間移動、撥打電話或尋找使用者。
+雲端自動語音應答會提供一系列語音提示或音訊檔案，來電者在撥入組織時會聽到來電者，而非使用者接聽。 自動語音應答可讓來電者在功能表系統中移動、撥打電話或尋找使用者，方法是使用電話鍵台 (DTMF) 或使用語音辨識的語音輸入。
 
-雲端通話佇列包括當某人來電到貴組織的電話號碼時所使用的問候語、自動保留通話的能力，以及搜尋下一個可用的通話代理程式來處理通話，而通話者正在聆聽保留的音樂。 您可以為貴組織建立單一或多個通話佇列。
+雲端通話佇列包括當某人撥入貴組織的電話號碼時所使用的問候語、自動保留通話的功能，以及在通話者聆聽音樂時搜尋下一個可用來電代理程式處理通話的功能。 您可以為組織建立單一或多個通話佇列。
 
-## <a name="handling-an-auto-attendant-or-call-queue-call"></a>處理自動電話機或通話佇列通話
+## <a name="handling-an-auto-attendant-or-call-queue-call"></a>處理自動語音應答或通話佇列通話
 
-在接聽來電之前，使用者將能夠將來電與自動回應或通話佇列區別。 除了來電者的名稱和/或號碼外，每一個通話都會包含來電者嘗試與誰聯繫的資訊，為使用者提供更好的內容來稱呼來電者。
+使用者在接聽電話之前，可以區分來電與自動語音應答或通話佇列的來電。 連同來電者的名稱和/或號碼，每個通話都會包含來電者嘗試連絡的相關資訊，讓使用者更清楚地瞭解如何接聽來電者。
 
-下圖顯示來自自動電話機或通話佇列的來電會如何顯示給使用者。
+下圖顯示自動語音應答或通話佇列的來電如何顯示給使用者。
 
 ![來電通知的螢幕擷取畫面。](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-一旦自動回應或通話佇列通話獲得接聽，使用者就可以像處理任何其他通話一樣處理&#x2014;他們可以在其他使用者中新增或召開會議，或將通話轉接到另一方。 此外，系統也會根據使用者的組配置來轉乘自動通話。
+一旦自動語音應答或通話佇列通話接聽後，使用者就可以像處理任何其他通話一樣處理通話&#x2014;他們可以在其他使用者中新增或會議，或將電話轉接到另一方。 此外，自動語音應答通話也會根據使用者的設定轉接。
 
 > [!NOTE] 
-> 通話佇列通話不會根據使用者的組組進行轉轉。 這是為了確保來電者保留在佇列中，直到代理人可以接聽來電，且來電者不會意外轉轉。
+> 通話佇列通話不會根據使用者的通話接聽規則設定轉接。 這是為了確保來電者維持在佇列中，直到專員可以接聽電話，而且不會意外轉接來電者為止。
 
-> 代理人不會收到任何未接來電或來電佇列通話語音信箱的通知。
+> 專員不會收到任何未接來電或語音信箱的通知來電佇列通話。
 
 ## <a name="supported-clients"></a>支援的用戶端
 
-下列用戶端支援自動通話和通話佇列通話：
+下列用戶端支援自動語音應答和通話佇列通話：
 
--    Microsoft Teams Windows 32 (64 位版本的用戶端) 
--    Microsoft TeamsMac 用戶端
+-    Microsoft Teams Windows用戶端 (32 和 64 位版本) 
+-    Microsoft Teams Mac 用戶端
 -    Microsoft Teams iPhone應用程式
--    Microsoft TeamsAndroid 應用程式
+-    Microsoft Teams Android 應用程式
 
-系統Teams用戶端僅支援只支援 Teams[模式](/microsoftteams/setting-your-coexistence-and-upgrade-settings)。
+Teams用戶端僅支援[共存模式Teams。](/microsoftteams/setting-your-coexistence-and-upgrade-settings)
 
-## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>設定自動電話機和通話佇列支援Microsoft Teams
+## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>為Microsoft Teams設定自動語音應答和通話佇列支援
 
-若要在 Microsoft Teams上接收自動電話機和通話佇列通話，您必須設定互通性原則與升級原則。 請針對使用 Teams 和 商務用 Skype[的組織，檢查移](migration-interop-guidance-for-teams-with-skype.md)商務用 Skype。 如果您沒有設定自動電話機和/或通話佇列，並想這麼做，請參閱設定雲端 [自動](create-a-phone-system-auto-attendant.md) 電話機和 [建立雲端通話佇列](create-a-phone-system-call-queue.md)。
+若要在Microsoft Teams上接聽自動語音應答和通話佇列通話，您必須設定互通性原則和升級原則。 請檢閱[搭配商務用 Skype使用Teams的組織移轉和互通性](migration-interop-guidance-for-teams-with-skype.md)。 如果您沒有設定自動語音應答和/或通話佇列，並想要這樣做，請參閱 [設定雲端自動語音應答](create-a-phone-system-auto-attendant.md) 和 [建立雲端通話佇列](create-a-phone-system-call-queue.md)。
 
 ## <a name="known-issues"></a>已知問題
 
-當通話佇列代理程式在行動裝置上接聽來電時，如果裝置已鎖定，通話可能會保持保留狀態。 使用者必須先解除鎖定裝置，然後接聽電話。
+當通話佇列代理人在行動裝置上接聽來電時，如果裝置鎖定，通話可能會保留。 使用者必須先解除鎖定裝置，然後再接聽電話。
 
 
 ## <a name="related-topics"></a>相關主題
