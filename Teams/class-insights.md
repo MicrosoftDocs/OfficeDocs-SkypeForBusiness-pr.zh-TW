@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e5e554672156f70556ebc18625115cd9a1ce8c58
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 234121449025512f8a5ffe37814804cc775b7b37
+ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062687"
+ms.lasthandoff: 04/13/2022
+ms.locfileid: "64837456"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 中 Education Insights 的 IT 系統管理員指南
 
@@ -94,7 +94,7 @@ Insights 會呈現來自班級團隊內所有頻道的活動資料，但只能�
 **若要在 Teams 中新增 Insights 應用程式：**
 * 按一下 "**…**" 於應用程式列上。
 * 搜尋 **Insights** 並選取它。
-* 描述畫面將隨即開啟。 按一下 [新增 **]**。
+* 描述畫面將隨即開啟。按一下 **[新增]**。
 
 :::image type="content" source="media/insights-add-personal-app.png" alt-text="將 Insights 新增至 Teams。":::
 
@@ -106,7 +106,7 @@ Insights 會呈現來自班級團隊內所有頻道的活動資料，但只能�
 > 您也可以透過以下連結找到 Insights 應用程式：[https://aka.ms/addInsights](https://aka.ms/addInsights)
 
 ## <a name="when-is-insights-used"></a>Insights 的使用時機？ 
-Insights 在整個 **學習週期** 支援學習社群。 透過多個維度的即時度量，Insights 可支援學校社群成員之間的識別、反映、討論和採取行動的持續循環。
+Insights 在整個 **學習週期** 支援學習社群。透過多個維度的即時度量，Insights 可支援學校社群成員之間的識別、反映、討論和採取行動的持續循環。
 *   **識別** 學生與授課者、課程教材及其同儕互動的方式和時間，以及他們執行作業的情況。 
 *   **反映** 該意見如何支援學生以獲得成功，判斷成長領域，以及需要協助之處。
 *   與學生和學校社群 **討論** 發現的項目，以強化關聯、目標設定、自我檢討、激發共同作業，並改善成果。
@@ -141,15 +141,17 @@ Insights *不會* 顯示關於授課者的資料。 資料的分析可提供可�
 > 收集的資料多數會在幾分鐘內出現在 Insights 中。班級會議 (與其中一個班級頻道相關聯的會議) 中的出席資訊，會在會議結束後顯示幾小時 (通常最多為 24 小時)。
 
 > [!NOTE]
-> 在教育版分析中收集的資料會保留，直到 IT 系統管理員關閉 [[教育版分析切換]](#turn-sds-for-insights-on-or-off)，或租用戶 Office 訂閱結束為止。 關閉 Teams 中的特定功能不會刪除歷史資料。
+> 在教育版分析中收集的資料會保留，直到 IT 系統管理員關閉 [[教育版分析切換]](#turn-sds-for-insights-on-or-off)，或租用戶 Office 訂閱結束為止。關閉 Teams 中的特定功能不會刪除歷史資料。
 
 ### <a name="privacy-and-security"></a>隱私權和安全性
-透過 Insights 收集和顯示的資訊，符合[超過 90 個法規和產業標準](/compliance/regulatory/offering-home)，其中包括 [GDPR](/compliance/regulatory/gdpr) 和針對學生與兒童安全性的[家庭教育權和隱私權法案 (FERPA)](/compliance/regulatory/offering-ferpa)，以及其他類似的以隱私權為導向法規。
+教育版 Insights 做為 Microsoft 365 的一部分，符合資料收集和使用的國家、地區及產業特定法規，包括 [GDPR](/compliance/regulatory/gdpr) 和 [家庭教育權利與隱私權法案 (FERPA)](/compliance/regulatory/offering-ferpa) 以保護學生教育記錄的隱私權。
 
 資料屬於機構，而 Microsoft 只會收集資料並儲存資料。 Microsoft 人員無法存取資料或查看資料，除非合規性以經稽核的方式允許，以便維護服務 (例如資料復原)。
 
-> [!NOTE]
-> 若要深入了解 Microsoft 如何保護您的資料，請造訪 [Microsoft 信任中心](https://www.microsoft.com/trust-center)。
+> [!TIP]
+> * 若要深入了解 Microsoft 如何保護您的資料，請造訪 [Microsoft 信任中心](https://www.microsoft.com/trust-center)。
+> * 請瀏覽 [Microsoft 合規性供應項目](/compliance/regulatory/offering-home) ，以了解 Microsoft 365 如何協助您的機構符合法規合規性標準。
+
 
 ### <a name="performance-and-reliability"></a>效能和可靠性
 Insights 的設計可處理從 Teams 活動收集的大量資料，並具有最佳效能和可靠性。 我們無法保證 100% 的可用性，但我們會努力盡可能接近該目標。
@@ -191,7 +193,7 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 若要深入了解，請參閱 [**將學生資訊系統 (SIS) 資料與 Education Insights 同步處理**](education-insights-sis-data-sync.md)。
 
 ## <a name="manage-permissions"></a>管理權限
-身為 IT 系統管理員，您必須為教育領導者、校區領導者、學校校長、首席教師、顧問、學習領域主任、計畫主任、社交工作者和心理學家提供權限。 當授課者擁有班級團隊時，系統就會 *自動* 提供其權限。
+身為 IT 系統管理員，您必須為教育領導者、校區領導者、學校校長、首席教師、顧問、學習領域主任、計畫主任、社交工作者和心理學家提供權限。當授課者擁有班級團隊時，系統就會 *自動* 提供其權限。
 
 若要深入了解，請參閱 [**管理 Education Insights 的使用者存取權**](education-insights-manage-access.md)。
 
@@ -273,7 +275,7 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 
 
 ### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>為什麼我會看到部分學生或班級的資料，而非全部？
-我們只會收集經 *授權* 學生的資料，因此最可能的原因是您的學生以來賓身分參與班級，因此不會收集其資料。 您可能會看到他們的名稱，但沒有任何資料。
+我們只會收集經 *授權* 學生的資料，因此最可能的原因是您的學生以來賓身分參與班級，因此不會收集其資料。您可能會看到他們的名稱，但沒有任何資料。
 
 檢查學生的狀態，以確保他們都擁有學生授權。 
 
