@@ -13,14 +13,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本文討論如何設定貴組織及Teams 會議室裝置，以支援加入 Cisco WebEx 和 Zoom 的協力廠商會議。
-ms.openlocfilehash: 04be17003e39890ba74d6c7c4fc2393ba809f5c6
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 6defa9c9287b130eb5534f0aea158a78f2de8b18
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817664"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64846602"
 ---
 # <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>啟用Teams會議室裝置加入協力廠商會議
+
+> [!NOTE]
+> 此功能目前僅適用于 Teams 會議室 上的 Windows。
 
 Microsoft Teams 會議室裝置支援加入協力廠商線上會議的單點觸控體驗，也稱為直接來賓加入。 啟用時，您可以使用Teams 會議室加入 Cisco WebEx 上託管的會議，並輕鬆地加入以 Microsoft Teams 主持的會議。
 

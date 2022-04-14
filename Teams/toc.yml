@@ -1567,6 +1567,8 @@ items:
                 href: expand-teams-across-your-org/browser-join.md
               - name: 虛擬門診使用方式報告
                 href: teams-analytics-and-reports/virtual-visits-usage-report.md
+              - name: 協助您的客戶和客戶使用虛擬約會
+                href: expand-teams-across-your-org/virtual-appointments-toolkit.md
           - name: Teams 中的班次
             items:
               - name: 開始使用班次

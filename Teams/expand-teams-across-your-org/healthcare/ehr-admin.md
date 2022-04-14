@@ -24,10 +24,10 @@ appliesto:
 ms.reviewer: ansantam
 description: 瞭解如何整合 Teams EHR 連接器，讓貴組織中的醫療保健提供者直接從 EHR 系統與病患或其他Teams提供者進行虛擬造訪。
 ms.openlocfilehash: e573c30720383554c9bda8467221ff48a1369e0b
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2022
+ms.lasthandoff: 04/14/2022
 ms.locfileid: "64703599"
 ---
 # <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>含 Teams 的虛擬造訪 - 整合至 EHR

@@ -8,18 +8,23 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 searchScope:
-  - Microsoft Teams
+- Microsoft Teams
 search.appverid: MET150
 description: 了解 Microsoft Teams 中的核准應用程式可用性。
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 37c899c1507a28f51bb881a9e7e66de6d7af0d58
+ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64643067"
 ---
-
 # <a name="teams-approvals-app-availability"></a>Teams 核准應用程式可用性
 
 核准應用程式可以個人應用程式形式供所有 Microsoft Teams 使用者使用。
@@ -29,43 +34,43 @@ appliesto:
 
 使用者可以釘選核准應用程式，以將其儲存到功能表列。
 
- ![顯示具有圖釘選項的核准應用程式。](media/approvalApp-pin.png)
+ ![顯示具有 PIN 選項的核准應用程式。](media/approvalApp-pin.png)
 
-從應用程式建立的第一核准，會觸發預設 Microsoft Dataverse 環境中之核准解決方案的置備。 核准應用程式建立核准會儲存在預設的 Microsoft Dataverse 環境中。
+從 核准 應用程式建立的第一個核准會觸發在預設 Microsoft Dataverse 環境中布建核准解決方案。 從 核准 應用程式建立的核准會儲存在預設的 Microsoft Dataverse 環境中。
 
 本文章說明核准應用程式的需求和角色。
 
 > [!NOTE]
-> 這項功能尚未發行至 政府社群雲端 GCCH (中) DOD (DOD) 使用者。
+> 此功能尚未發佈給 政府社群雲端 High (GCCH) 和美國商務部 (DOD) 使用者。
 
 ## <a name="required-permissions-and-licenses"></a>必要的權限和授權
 
-若要部署 核准應用程式，您需要下列專案的許可權：
+若要部署核准應用程式，您需要下列專案的許可權：
 
 - 建立 Microsoft Dataverse 資料庫的許可權。
 
-- 帳戶 [powerautomate.microsoft.com](https://powerautomate.microsoft.com/)
+- [powerautomate.microsoft.com](https://powerautomate.microsoft.com/)上的帳戶
 
 - 目標環境中的系統管理員角色。
 
-- 適用于[Power Automate、](/power-automate/get-started-approvals)Office 365或 Dynamics 365 授權。
+- [Power Automate](/power-automate/get-started-approvals)、Office 365 或 Dynamics 365 的授權。
 
-- 使用者Microsoft Forms授權才能設定新的核准範本。
+- 使用者必須具備Microsoft Forms授權，才能設定新的核准範本。
 
-若要使用 核准 應用程式，您需要 Power Automate 授權，您的帳戶會在第一次核准指派時自動新核准至目標環境中的使用者角色。
+若要使用 核准 應用程式，您需要Power Automate的授權，而且您的帳戶會在第一次核准指派時自動新增至目標環境中核准使用者角色。
 
-## <a name="storage-with-microsoft-dataverse"></a>儲存體 Microsoft Dataverse
+## <a name="storage-with-microsoft-dataverse"></a>使用 Microsoft Dataverse 儲存體
 
-共同資料模型 (CD) 是商務和分析應用程式在 Microsoft Dataverse 中使用的共用資料語言。 它由 Microsoft 和我們的合作夥伴所發佈的一組標準化、可擴展的資料架構所組成，可讓資料在應用程式和商務程式間保持一致性及其意義。 深入了解 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals)。
+一般資料模型 (CDM) 是 Microsoft Dataverse 中商務和分析應用程式所使用的共用資料語言。 它包含一組由 Microsoft 和我們的合作夥伴所發行的標準化、可延伸資料架構，可在應用程式和商務程式之間保持資料的一致性及其意義。 深入了解 [Microsoft Power Platform 的 Common Data Model](/power-automate/get-started-approvals)。
 
 深入了解[核准工作流程](/power-automate/modern-approvals)。
 
-核准範本建立的資料仍然會儲存在 Microsoft Dataverse 中，例如標題、詳細資料、範本識別碼等。 在核准要求上提交的回復會儲存在 Forms 中。 深入瞭解資料 [儲存空間Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)。
+從範本建立的核准仍會在 Microsoft Dataverse 中儲存資料，例如標題、詳細資料、範本識別碼等等。 在核准要求上提交的回應會儲存在 Forms 中。 深入瞭解 [Microsoft Forms 的資料儲存空間](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)。
 
 >[!Note]
->如果您刪除網站上 Microsoft Forms範本，將會中斷您的核准範本，而使用者將無法啟動要求。 使用者嘗試開啟已在 Microsoft Forms 上刪除的核准範本時，收到「CDB TableNotFound」錯誤。
+>如果您刪除Microsoft Forms網站上的表單範本，該範本會中斷您的核准範本，使用者將無法開始要求。 嘗試開啟已在 Microsoft Forms 上刪除的核准範本時，使用者會收到「CDB TableNotFound」錯誤。
 
-組織範圍的範本會共用租使用者相同的生命週期，而小組範圍的範本會共用團隊的相同生命週期。 因此，永久刪除小組會刪除相關的範本。
+組織範圍的範本與租使用者的整個生命週期相同，而團隊範圍的範本則共用團隊的相同生命週期。 因此，永久刪除團隊會刪除相關的範本。
 
 ## <a name="approvals-teams-app-permissions"></a>核准 Teams 應用程式權限
 
@@ -94,10 +99,10 @@ appliesto:
 
 - 所有團隊擁有者都可以為他們擁有的團隊建立核准範本。
 
-- 當系統管理員第一次為整個組織建立範本時，系統會自動為租使用者的所有系統管理員建立一個新的 Azure Active Directory (AAD) 群組，包括全域Teams管理員。 這些系統管理員會新增為群組擁有者，以便共同管理組織範本。 小組建立之後，組織的新管理員必須手動新增為群組擁有者，以便他們擁有管理全組織範本的相同許可權。
+- 當系統管理員第一次為整個組織建立範本時，系統會自動為租使用者的所有系統管理員建立新的Azure Active Directory (AAD) 群組，包括全域和Teams服務系統管理員。 系統會將這些系統管理員新增為群組的擁有者，讓他們可以共同管理組織範本。 建立團隊之後，組織新手的系統管理員必須手動新增為群組擁有者，這樣他們才擁有管理整個組織範本的相同許可權。
 
 > [!Note]
-> 如果系統管理員刪除群組，您只有一個月的時間才能在 Azure Active Directory (AAD) 入口網站中還原群組，以還原所有關聯資料。 一個月後，或如果系統管理員在回收站中刪除此群組，您將失去所有相關的資料。
+> 如果系統管理員刪除群組，您在Azure Active Directory (AAD) 入口網站內有一個月的時間可以還原該群組，以還原所有相關資料。 一個月後，或如果系統管理員在回收站中刪除此群組，您將會遺失所有相關資料。
 
 ## <a name="disable-the-approvals-app"></a>停用核准應用程式
 
@@ -109,29 +114,29 @@ appliesto:
 
   3. 搜尋核准應用程式。
 
-     ![顯示系統管理中心流覽，Teams應用程式>管理應用程式。](media/manage-approval-apps.png)
+     ![顯示系統管理中心導覽，其中醒目提示 [Teams應用程式>管理應用程式]。](media/manage-approval-apps.png)
 
-  4. 選取 **核准**。
+  4. 選 **取 [核准]**。
 
   5. 選取切換以為組織停用該應用程式。
 
-     :::image type="content" alt-text="顯示應用程式核准詳細資料。" source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
+     :::image type="content" alt-text="顯示 核准 應用程式的詳細資料。" source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## <a name="app-policies"></a>應用程式政策
+## <a name="app-policies"></a>應用程式原則
 
 ### <a name="retention-policy"></a>保留原則
 
-核准應用程式建立核准儲存在預設的 Microsoft Dataverse 環境中，目前不支援備份。 深入了解如何[備份和還原環境 - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments)。
+從 核准 應用程式建立的核准會儲存在預設的 Microsoft Dataverse 環境中，目前不支援備份。 深入了解如何[備份和還原環境 - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments)。
 
-除非團隊擁有者從表單應用程式中刪除的表單Microsoft Forms資料，才能刪除儲存在 Forms 中的資料。****
+在團隊擁有者從 Microsoft Forms Web App 的 [**已刪除** 的表單] 索引標籤中清除資料之前，不會刪除儲存在 Forms 中的資料。
 
-### <a name="conditional-access-policies"></a>條件式 Access 政策
+### <a name="conditional-access-policies"></a>條件式存取原則
 
-目前，核准中的 Teams 應用程式不支援為 Microsoft Teams 設定的條件式 access Microsoft Teams。
+目前，Teams 中的 核准 應用程式不支援針對 Microsoft Teams 設定的條件式存取原則。
 
 ## <a name="data-limitations"></a>資料限制
 
-每個小組最多可以包含 400 個核准範本，而每個範本最多可以根據 Microsoft Forms 中的目前功能收集 50，000 個Microsoft Forms。
+每個小組最多可以包含 400 個核准範本，而每個範本可以根據 Microsoft Forms 中目前的功能，收集最多 50，000 個要求。
 
 ## <a name="auditing"></a>稽核
 
@@ -163,9 +168,9 @@ appliesto:
 
 - 已新增至核准要求的電子簽章
 
-- 已查看電子簽章要求詳細資料
+- 已檢視電子簽名要求詳細資料
 
-- 已審查電子簽章要求
+- 已檢閱電子簽名要求
 
 - 已取消電子簽名要求
 
@@ -175,9 +180,9 @@ appliesto:
 
 - 啟用/停用範本
 
-- 已查看範本
+- 已檢視的範本
 
-若要在 Power Automate中存取更多稽核核准，請啟用及設定主要核准實體的預設環境稽核核准、核准要求和核准回應。 建立、更新和刪除作業是核准記錄的可稽核事件。 深入了解[安全性與合規性的稽核資料和使用者活動 - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity)。
+若要在Power Automate記憶體取更多稽核核准，請啟用並設定主要核准實體核准、核准要求和核准回應的預設環境中的稽核。 建立、更新和刪除作業是核准記錄的可稽核事件。 深入了解[安全性與合規性的稽核資料和使用者活動 - Power Platform \| Microsoft Docs](/power-platform/admin/audit-data-user-activity)。
 
 您可以在 [Microsoft 365 安全性與合規性中心](https://support.office.com/article/go-to-the-office-365-security-compliance-center-7e696a40-b86b-4a20-afcc-559218b7b1b8?ui=en-US&rs=en-US&ad=US)進一步自訂稽核。
 
@@ -198,18 +203,18 @@ appliesto:
 
 ## <a name="approvals-e-signature-integration"></a>核准電子簽名整合
 
-若要使用 核准應用程式電子簽章功能，您需要特定電子簽章提供者的許可證才能使用。 若要取得貴組織的授權，您必須前往提供者的網站。
+若要使用核准應用程式電子簽名功能，您需要特定電子簽名提供者的授權才能使用。 若要為貴組織取得授權，您必須移至提供者的網站。
 
 ### <a name="enable-or-disable-e-signature-providers"></a>啟用或停用電子簽名提供者
 
-您可以使用系統管理Teams，控制哪些協力廠商電子簽章提供者可供您的使用者在 核准 App 中使用。 根據預設，電子簽章提供者會于應用程式核准啟用。 當您停用電子簽章提供者時，您的使用者在建立核准時無法存取該提供者。 您的使用者也將無法查看使用該提供者建立的電子郵件簽名要求。
+您可以使用Teams系統管理中心，控制使用者可在 核准 應用程式中使用哪些協力廠商電子簽名提供者。 根據預設，核准應用程式中會啟用電子簽名提供者。 當您停用電子簽名提供者時，您的使用者在建立核准時將無法存取該提供者。 您的使用者也無法檢視使用該提供者建立的電子簽名要求。
 
-1. 在系統管理中心的左側導Teams，請前往 **Teams管理**  >  **應用程式**。
-2. 搜尋應用程式核准，然後選取它。
-3. 請 **前往設定，** 然後執行下列一或多個操作：
+1. 在Teams系統管理中心的左側導覽畫面中，移至 **Teams應用程式**  >  **管理應用程式**。
+2. 搜尋核准應用程式，然後選取它。
+3. 移至 **[設定**] 索引標籤，然後執行下列一或多個動作：
 
-    - 若要啟用或停用 Adobe Sign，請切換至 **開啟或****關閉**。
-    - 若要啟用或停用 DocuSign，請切換至 **開啟或****關閉**。
-4. 選取 **提交**。
+    - 若要啟用或停用 Adobe Sign，請將開關切換為 [ **開** 啟] 或 **[關閉]**。
+    - 若要啟用或停用 DocuSign，請將開關切換為 [ **開** 啟] 或 **[關閉]**。
+4. 選取 **[提交]**。
 
-從應用程式建立核准簽名核准會儲存在所選提供者的雲端環境中。 若要匯出電子簽章的資料，您必須前往提供者的網站。 有關電子簽章協定的儲存、匯出及保留詳細資訊，請參閱提供者的檔。
+從 核准 應用程式建立的 E-signature 核准會儲存在選取的提供者的雲端環境中。 若要匯出電子簽章的相關資料，您必須移至提供者的網站。 如需儲存、匯出及保留電子簽章合約的詳細資訊，請參閱提供者的檔。
