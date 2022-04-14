@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的私人頻道。
-ms.openlocfilehash: 908432588c1744027b03efee44b9506ea4388fa2
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 775019bc0151215557e7b0962619c4fe8fb8fe85
+ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63761917"
+ms.lasthandoff: 04/12/2022
+ms.locfileid: "64817824"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Microsoft Teams 中的私人頻道
 
@@ -39,6 +39,8 @@ Microsoft Teams 中的私人頻道為小組內的共同作業建立了焦點空�
 鎖定圖示表示私人頻道。只有私人頻道的成員才能查看以及參與他們所加入的私人頻道。
 
 私人頻道建立之後，會連結到父系小組，且不能移至其他小組。 此外，私人頻道不能轉換成標準頻道，反之亦然。
+
+[比較私人頻道和其他的頻道類型](/microsoftteams/teams-channels-overview#channel-feature-comparison)。
 
 ![團隊私人頻道的螢幕擷取畫面。](media/private-channels-in-teams.png)
 
