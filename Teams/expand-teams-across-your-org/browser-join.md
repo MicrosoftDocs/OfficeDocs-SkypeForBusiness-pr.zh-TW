@@ -1,5 +1,5 @@
 ---
-title: 管理瀏覽器上Teams虛擬造訪的加入體驗
+title: 在瀏覽器上管理Teams虛擬約會的加入體驗
 author: lanachin
 ms.author: v-lanachin
 manager: samanro
@@ -20,15 +20,15 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: hafarmer
-description: 瞭解Teams瀏覽器上虛擬流覽的加入體驗。
-ms.openlocfilehash: 276e33b16972f0543566014adf264fd12e45c4ae
-ms.sourcegitcommit: 1e8cff687b12348d4ecc538084ab57bbba23b523
+description: 瞭解瀏覽器上Teams虛擬約會的加入體驗。
+ms.openlocfilehash: 418186734befa66f145ca56f883605715d83aa30
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/07/2022
-ms.locfileid: "64703740"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853304"
 ---
-# <a name="manage-the-join-experience-for-teams-virtual-visits-on-browsers"></a>管理瀏覽器上Teams虛擬造訪的加入體驗
+# <a name="manage-the-join-experience-for-teams-virtual-appointments-on-browsers"></a>在瀏覽器上管理Teams虛擬約會的加入體驗
 
 Microsoft Teams可讓使用者輕鬆加入虛擬約會，而不需要下載Teams。 為獲得更順暢的體驗，出席者可以從桌面或行動瀏覽器加入約會，例如醫療探訪和財務諮詢。 出席者不需要在他們的裝置上安裝Teams應用程式。
 
@@ -68,7 +68,7 @@ Microsoft Teams可讓使用者輕鬆加入虛擬約會，而不需要下載Teams
 
 **與 Cerner EHR** 整合：Teams EHR 連接器支援透過簡訊中的連結加入虛擬約會。 在預約時，病患可以點選簡訊中的連結來加入，Teams在瀏覽器中開啟。
 
-**與 EHR 整合**：Teams EHR 連接器支援透過 MyChart Web 和行動裝置加入虛擬約會的病患。 在預約時，病患可以使用 [**開始] 虛擬造訪** 按鈕從 MyChart 開始造訪，Teams在瀏覽器中開啟。
+**與 EHR 整合**：Teams EHR 連接器支援透過 MyChart Web 和行動裝置加入虛擬約會的病患。 在預約時，病患可以使用 [**開始] 虛擬造訪** 按鈕從 MyChart 開始預約，Teams在瀏覽器中開啟。
 
 ## <a name="supported-browsers"></a>支援的瀏覽器
 
@@ -88,12 +88,12 @@ Microsoft Teams可讓使用者輕鬆加入虛擬約會，而不需要下載Teams
 
 ## <a name="things-to-consider"></a>考慮事項
 
-進行此流覽的教職員成員可以從他們的Teams桌面、行動裝置或網頁用戶端，與從桌上型電腦或行動瀏覽器加入的出席者共用他們的螢幕。 不過，出席者無法從桌面或行動瀏覽器共用螢幕。
+進行約會的教職員成員可以從他們的Teams桌面、行動裝置或網頁用戶端，與從桌上型電腦或行動瀏覽器加入的出席者共用他們的螢幕。 不過，出席者無法從桌面或行動瀏覽器共用螢幕。
 
 ## <a name="related-articles"></a>相關文章
 
-- [含 Teams 和 Bookings 應用程式的虛擬造訪](bookings-virtual-visits.md)
+- [使用 Teams 和 Bookings 應用程式的虛擬約會](bookings-virtual-visits.md)
 - [建立Bookings約會類型](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [以出席者身分加入Bookings約會](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
-- [含 Teams 的虛擬造訪 - 整合至 Cerner EHR](healthcare/ehr-admin-cerner.md)
-- [含 Teams 的虛擬造訪 - 整合至 EHR](healthcare/ehr-admin.md)
+- [虛擬約會與 Teams - 整合至 Cerner EHR](healthcare/ehr-admin-cerner.md)
+- [虛擬約會與 Teams - 整合至 EHR](healthcare/ehr-admin.md)
