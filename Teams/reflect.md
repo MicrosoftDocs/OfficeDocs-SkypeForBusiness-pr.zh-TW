@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62aa82c42acf3ca4477da6da60b1faec6c847be1
-ms.sourcegitcommit: 0d61ca384e7d76612743de41c8fea4729072fb5e
+ms.openlocfilehash: d17409a09cbadc535e3b7971d6224b4e2fcb678b
+ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/13/2022
-ms.locfileid: "64837446"
+ms.locfileid: "64839034"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>在 Microsoft Teams 中 Reflect 的 IT 系統管理員指南
 
