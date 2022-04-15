@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 瞭解如何管理 Teams 網路漫遊原則設定。
-ms.openlocfilehash: 684bb9f30abb6a474582d83614d0e259ed44b21a
-ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
+ms.openlocfilehash: c26cdec0fc41e40a9c3eac7d0324050740cf05ef
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2022
-ms.locfileid: "63660719"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853234"
 ---
 # <a name="manage-video-and-media-settings-with-the-network-roaming-policy"></a>使用網路漫遊原則管理視訊和媒體設定
 
@@ -51,16 +51,16 @@ TeamsNetworkRoamingPolicy 包含下列參數：
 在您設定好該原則之後，使用 [Set-CsTenantNetworkSite](/powershell/module/skype/set-cstenantnetworksite) Cmdlet 將其指派給一或多個網路站台，方法如下：
 
 ```PowerShell
- Set-CsTenantNetworkSite -NetworkRoamingPolicy
+ Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy LowBandwidthSite
  ``` 
  
  若要從網路站台移除原則，請使用下列 Cmdlet：
  
  ```PowerShell
- Set-CsTenantNetworkSite -NetworkRoamingPolicy $null
+ Set-CsTenantNetworkSite -Identity Burlington -NetworkRoamingPolicy $null
  ```
 
-若要為未啟用企業語音的使用者啟用網路漫遊原則，您也必須在 TeamsMeetingPolicy 中啟用 AllowNetworkConfigurationSettingsLookup 設定。 此設定預設為關閉。
+若要為未啟用企業語音的使用者啟用網路漫遊原則，您也必須在 TeamsMeetingPolicy 中啟用 AllowNetworkConfigurationSettingsLookup 設定。此設定預設為關閉。
 
 有關建立網路站台的詳細資訊，請參閱 [雲端語音功能的網路設定](cloud-voice-network-settings.md)。 
 
