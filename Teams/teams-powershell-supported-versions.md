@@ -12,12 +12,12 @@ ms.collection:
 description: 瞭解用於管理 Microsoft Teams 的 Teams PowerShell 模組支援的版本。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e557a8ca4e8dff5489dbf729a137d73f9ca13c85
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: 242c7c43b2af31b11e4183fdf3b9ed1b00f4bb1b
+ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732281"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64866238"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 模組 - 支援的版本
 
@@ -101,6 +101,7 @@ Microsoft Teams 4.x.x 系列或更新版本中的 PowerShell 模組 (TPM) 版本
   * Get-CsImFilterConfiguration
   * Get-CsAudioConferencingProvider
   * [取得|Set]-CsTenantPublicProvider
+  * Get-CsHostingProvider
   * [取得|Set|註冊|Unregister]-CsHybridPSTNAppliance
   * [取得|Set|新增|Remove]-CsHybridPSTNSite
   * [取得|Set]- CsHybridMediationServer

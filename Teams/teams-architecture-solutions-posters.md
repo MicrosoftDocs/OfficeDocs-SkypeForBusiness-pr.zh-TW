@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: 摘要：了解使用 Microsoft Teams 領導，Microsoft 365 中生產力服務的邏輯架構。同時了解 Teams 的語音解決方案。
-ms.openlocfilehash: ec608f192c08a33b9505008eacb6f6549780e7bd
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 6ac6f7f88ec838b445d382dbc6ba8d5ee4ec1bcf
+ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564745"
+ms.lasthandoff: 04/15/2022
+ms.locfileid: "64866188"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Microsoft Teams IT 結構與語音解決方案海報
 
@@ -37,7 +37,7 @@ Teams 是 Microsoft 365 生產力服務的邏輯架構核心，其中包含資�
 
 這是關於 Microsoft 365 中的群組，IT 架構設計人員需要知道的事項。 這些圖例會詳細說明不同類型的群組、如何建立及管理群組，以及一些控管建議。
 
-[![群組資訊圖的縮圖影像。](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf)  <br/> [PDF](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.pdf) | [Visio](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups.vsdx)
+[![群組資訊圖的縮圖影像。](https://github.com/MicrosoftDocs/OfficeDocs-Enterprise/raw/live/Enterprise/downloads/msft-m365-groups-architecture-thumb.png)](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.pdf)  <br/> [PDF](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.pdf) | [Visio](https://download.microsoft.com/download/6/3/0/6309218f-a169-4f2d-af4c-2fe49e30ba17/msft-m365-groups.vsdx)
 
 ## <a name="microsoft-voice-solutions"></a>Microsoft 語音解決方案
 
