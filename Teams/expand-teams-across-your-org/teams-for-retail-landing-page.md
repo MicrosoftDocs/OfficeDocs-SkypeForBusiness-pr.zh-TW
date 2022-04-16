@@ -20,12 +20,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f611afe731bc178759427efff2fe35d925ca0def
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+ms.openlocfilehash: 2c20137aab3299f4151b6ef3ee7906ec39cf4baf
+ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64403964"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "64853184"
 ---
 # <a name="get-started-with-teams-for-retail"></a>開始使用適用於零售的 Teams
 
@@ -74,7 +74,7 @@ Microsoft Teams 中的 Bookings 應用程式提供組織一個簡單的方式，
 
 **重要功能與應用程式：** 會議、Bookings
 
-詳細資訊：[使用 Microsoft Teams 和 Bookings 應用程式進行虛擬拜訪](bookings-virtual-visits.md)
+詳細資訊：[使用 Microsoft Teams 和 Bookings 應用程式進行虛擬約會](bookings-virtual-visits.md)
 
 ### <a name="simplify-business-processes"></a>簡化商務程序
 
@@ -166,7 +166,7 @@ Teams 與班次應用程式和前線工作者整合，可用於協調班次人�
 
 | 來自 Microsoft 的更多應用程式和服務 | 描述 | 管理 | 說明 |
 | ----- | ----- | ----- | ----- |
-| Bookings | 啟用虛擬試裝和諮詢。 | [使用 Microsoft Teams 和 Bookings 應用程式進行虛擬會面](bookings-virtual-visits.md) | [使用 Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
+| Bookings | 啟用虛擬試裝和諮詢。 | [使用 Microsoft Teams 和 Bookings 應用程式進行虛擬約會](bookings-virtual-visits.md) | [使用 Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
 | Power Apps 和 Power Platform | 整合商務程序並實現對資料的快速更新，例如，商店庫存、銷售數字、事件報告等。 | [與 Microsoft Power Platform 的 Teams 整合](/microsoftteams/platform/samples/teams-low-code-solutions)和[在 Microsoft Teams 系統管理中心管理 Microsoft Power Platform 應用程式](../manage-power-platform-apps.md) | -  |
 | SharePoint | 建立新團隊時，會建立新的 SharePoint 網站並連接至團隊。 上述許多案例都仰賴已內嵌在 Teams 中的 SharePoint 功能，例如，共用文件進行團隊共同作業。 | [Teams 和 SharePoint 整合](/sharepoint/teams-connected-sites) | [將 SharePoint 頁面、清單或文件庫新增為 Teams 中的索引標籤](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)|
 | Viva Connections | Viva Connections 會在 Teams 中建立中樞，在其中，您的零售夥伴可以檢視來自組織量身訂做的新聞摘要，以及具有其所需資源的個人化儀表板。 | [Viva Connections 概觀](/sharepoint/viva-connections-overview) | [Microsoft Teams 中的 Viva Connections](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) |
