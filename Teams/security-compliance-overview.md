@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 712f0fe4fbfd6a4374b42df7a1e881149a7713d8
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: e2e0238439bb79a7ca7833ef082f4f499c082aa9
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817694"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922614"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams中的安全性和合規性
 
@@ -97,31 +97,31 @@ Microsoft Teams桌面應用程式支援 AppLocker。  如需有關 AppLocker 必
 
 ## <a name="compliance"></a>合規性
 
-Teams提供各種資訊以協助您處理合規性領域，包括頻道、聊天和附件的通訊合規性、保留原則、DLP)  (資料外泄保護、頻道的電子檔探索與法律保留、聊天和檔案、稽核記錄搜尋，以及Microsoft Intune的行動應用程式管理。 我們已提供下列所有主題的一些資訊，您可以移至[Microsoft 365 合規性中心](https://compliance.microsoft.com)來管理這些設定。
+Teams提供各種資訊以協助您處理合規性領域，包括頻道、聊天和附件的通訊合規性、保留原則、DLP)  (資料外泄防護、頻道的電子檔探索與法律保留、聊天和檔案、稽核記錄搜尋，以及Microsoft Intune的行動應用程式管理。 我們已提供下列所有主題的一些資訊，您可以移至[Microsoft 365 合規性中心](https://compliance.microsoft.com)來管理這些設定。
 
 ### <a name="information-barriers"></a>資訊障礙
 
-資訊障礙是Teams系統管理員在沒有任何商務需求的情況下，透過防止人員或群組彼此 (通訊等動作來設定原則，或是因法規理由封鎖他們進行這類) ，也可讓您設定與查閱和 eDiscovery (涵蓋在下方) 等事項相關的原則。 這些原則可能會影響一對一聊天、群組聊天或小組層級的使用者。 資訊隔陔功能可在公用雲端使用，自 2021 年 1 月開始，已推出至GCC雲端。
+Microsoft Purview 資訊障礙是Teams系統管理員採取的原則，可讓使用者或群組在沒有業務需要時，于彼此通訊 (，或是因法規理由封鎖他們進行此類) ，同時也可讓您設定與查閱和 eDiscovery (涵蓋在下方) 等事項相關的原則。 這些原則可能會影響一對一聊天、群組聊天或小組層級的使用者。 資訊隔陔功能可在公用雲端使用，自 2021 年 1 月開始，已推出至GCC雲端。
 
 如需進一步閱讀本主題，請移至[Microsoft Teams中的資訊障礙](information-barriers-in-teams.md)。
 
 ### <a name="communication-compliance"></a>通訊合規性
 
-Microsoft 365中的通訊合規性可讓您將使用者新增至範圍原則，這些原則可設定為檢查Microsoft Teams通訊是否具有攻擊性語言、敏感性資訊，以及與內部和法規標準相關的資訊。 您可以掃描公用和私人Teams頻道、個別聊天和附件中的聊天通訊和關聯附件，以協助將貴組織中的通訊風險降到最低。 如需有關如何設定原則以協助您偵測、擷取及對不當Teams通訊採取動作的詳細資訊，請參閱[Microsoft 365中的通訊合規性](/microsoft-365/compliance/communication-compliance)。
+Microsoft Purview Communication Compliance 可讓您將使用者新增至範圍原則，這些原則可設定為檢查Microsoft Teams通訊是否具有冒犯性的語言、機密資訊，以及與內部和法規標準相關的資訊。 您可以掃描公用和私人Teams頻道、個別聊天和附件中的聊天通訊和關聯附件，以協助將貴組織中的通訊風險降到最低。 如需有關如何設定原則以協助您偵測、擷取及對不當Teams通訊採取動作的詳細資訊，請參閱[瞭解通訊合規性](/microsoft-365/compliance/communication-compliance)。
 
 ### <a name="sensitivity-labels"></a>敏感度標籤
 
 套用 [敏感度標籤](/microsoft-365/compliance/sensitivity-labels) 以保護並規範在團隊內共同作業期間所建立之敏感組織內容的存取權。 例如，套用標籤來設定團隊的隱私 (公用或私人) 、控制來賓存取和外部共用，以及管理未受管理裝置的存取權。 如需詳細資訊，請檢閱[Microsoft Teams 中的敏感度標籤](sensitivity-labels.md)。
 
-### <a name="data-loss-prevention-dlp"></a>資料外泄防護 (DLP) 
+### <a name="microsoft-purview-data-loss-prevention-dlp"></a>Microsoft Purview 資料外泄防護 (DLP) 
 
-Microsoft Teams 中的資料外泄防護 (DLP) ，以及適用于Microsoft 365或Office 365的大型 DLP 案例，圍繞著保護機密檔和資料時的業務整備。 無論您對郵件或檔中的機密資訊有任何疑慮，DLP 原則都能協助確保您的使用者不會與錯誤的人員共用此機密資料。
+Microsoft Teams 中的資料外泄防護 (DLP) ，以及 Microsoft Purview 的大型 DLP 案例，圍繞著保護機密檔和資料時的業務整備。 無論您對郵件或檔中的機密資訊有任何疑慮，DLP 原則都能協助確保您的使用者不會與錯誤的人員共用此機密資料。
 
-如需 Teams 中資料外泄防護的相關資訊，請檢閱[Microsoft Teams 的 DLP](/microsoft-365/compliance/dlp-microsoft-teams)。 O365 DLP 考慮的一篇好文章是 [資料外泄防護概觀](/microsoft-365/compliance/data-loss-prevention-policies)。
+如需 Teams 中資料外泄防護的相關資訊，請檢閱[Microsoft Teams 的 DLP](/microsoft-365/compliance/dlp-microsoft-teams)。 DLP 考慮的一篇好文章是 [瞭解資料外泄防護](/microsoft-365/compliance/dlp-learn-about-dlp)。
 
 ### <a name="customer-key"></a>客戶金鑰
 
-Microsoft 365在內容的服務加密之上，提供一層額外的加密。 使用您提供的金鑰，客戶金鑰會加密Microsoft Teams中數種不同類型的資料。 在應用程式層級使用客戶金鑰，客戶金鑰會加密Teams儲存在 SharePoint Online 中的檔案。 如需詳細資訊，請參閱 [使用客戶金鑰進行服務加密](/microsoft-365/compliance/customer-key-overview)。 
+Microsoft 365在內容的服務加密之上，提供一層額外的加密。 使用您提供的金鑰，客戶金鑰會加密Microsoft Teams中數種不同類型的資料。 在應用程式層級使用客戶金鑰，客戶金鑰會加密Teams儲存在 SharePoint Online 中的檔案。 如需詳細資訊，請參閱使用 [Microsoft Purview 客戶金鑰進行服務加密](/microsoft-365/compliance/customer-key-overview)。
 
 在租使用者層級使用客戶金鑰，客戶金鑰加密：
 -  (一對一聊天、群組聊天、會議聊天和頻道交談Teams聊天訊息) 
@@ -129,7 +129,9 @@ Microsoft 365在內容的服務加密之上，提供一層額外的加密。 使
 - Teams儲存在Teams儲存空間中的通話和會議錄製
 - Teams聊天通知
 - Cortana Teams聊天建議
-- Teams狀態訊息 如需詳細資訊，請參閱[租使用者層級的Microsoft 365客戶金鑰概觀](/microsoft-365/compliance/customer-key-tenant-level)，並閱讀在[公開預覽中涵蓋客戶金鑰支援Microsoft Teams的Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893)部落格。 如需在租使用者層級包含客戶金鑰的Microsoft 資訊保護發行資訊，請參閱[宣佈新的Microsoft 資訊保護功能，以瞭解及保護您的機密資料](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)。
+- Teams狀態訊息
+
+如需詳細資訊，請參閱[租使用者層級的客戶金鑰概觀](/microsoft-365/compliance/customer-key-tenant-level)，並閱讀在[公開預覽中涵蓋客戶金鑰支援Microsoft Teams](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893) Microsoft Teams部落格。 如需在租使用者層級包含客戶金鑰的Microsoft 資訊保護發行資訊，請參閱[宣佈新的Microsoft 資訊保護功能，以瞭解及保護您的機密資料](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)。
 
 ### <a name="retention-policies"></a>保留原則
 
@@ -139,7 +141,7 @@ Microsoft Teams中的保留原則可讓您基於法規、法律、業務或其�
 
 電子化探索或電子檔探索是識別、收集及產生電子儲存資訊的電子層面， (ESI) ，以回應法律或調查中的生產要求。 功能包括案例管理、保留、搜尋、分析及匯出Teams資料。 這包括聊天、訊息和檔案、會議和通話摘要。 針對Teams會議和通話，會在 eDiscovery 中建立並提供會議和通話中發生的事件摘要。
 
-如需如何在Microsoft 365 合規性中心中使用電子檔探索工具搜尋Teams內容的詳細資料，請移至下列連結：
+如需如何在 Microsoft Purview 合規性入口網站中使用電子檔探索工具來搜尋Teams內容的詳細資料，請移至下列連結：
 
 - [電子文件探索](/microsoft-365/compliance/manage-legal-investigations)
 
@@ -169,11 +171,11 @@ Microsoft Teams中的保留原則可讓您基於法規、法律、業務或其�
 
 無論哪種情況，一旦設定保留狀態，就會確保即使使用者刪除或編輯群組信箱中的頻道訊息，該內容的不可失效複本仍可透過電子檔探索搜尋維護並取得。 法律保留通常會在 eDiscovery 案例中套用。
 
-請參閱[保留原則概觀](/microsoft-365/compliance/retention-policies)，以深入瞭解保留和保留Microsoft 365 合規性中心。 如需法律保留中Teams特定資訊，我們也有將[Microsoft Teams使用者或小組設為法律保留](legal-hold.md)，讓您深入瞭解。
+請參閱 [保留原則概觀](/microsoft-365/compliance/retention-policies) ，以深入瞭解 Microsoft Purview 合規性入口網站中的保留和保留。 如需法律保留中Teams特定資訊，我們也有將[Microsoft Teams使用者或小組設為法律保留](legal-hold.md)，讓您深入瞭解。
 
 ### <a name="content-search"></a>內容搜尋
 
-內容搜尋可用來透過豐富的篩選功能來搜尋所有Teams資料。 結果資料可匯出至特定容器，以獲得合規性與訴訟支援。 這可以使用電子檔探索案例或不包含電子檔探索案例來完成。 這可讓合規性系統管理員收集所有使用者Teams資料、檢閱並匯出資料以進一步處理。 請參閱[內容搜尋](/microsoft-365/compliance/content-search)，以深入瞭解如何在Microsoft 365 合規性中心中對Microsoft Teams和其他Microsoft 365或Office 365內容進行合規性內容搜尋。
+內容搜尋可用來透過豐富的篩選功能來搜尋所有Teams資料。 結果資料可匯出至特定容器，以獲得合規性與訴訟支援。 這可以使用電子檔探索案例或不包含電子檔探索案例來完成。 這可讓合規性系統管理員收集所有使用者Teams資料、檢閱並匯出資料以進一步處理。 請參閱[內容搜尋](/microsoft-365/compliance/content-search)，以深入瞭解如何在 Microsoft Purview 合規性入口網站中針對Microsoft Teams和其他Microsoft 365或Office 365內容執行合規性內容搜尋。
 
 > [!TIP]
 > 如有需要，您可以使用內容搜尋來篩選成僅Microsoft Teams內容，例如聊天和頻道訊息、會議和通話。
@@ -182,7 +184,7 @@ Microsoft Teams中的保留原則可讓您基於法規、法律、業務或其�
 
 ### <a name="auditing"></a>稽核
 
-稽核記錄搜尋會直接插入Microsoft 365 合規性中心，並允許系統管理員使用工作負載特定或一般事件集，並在無限制的稽核時程表上調查工作負載，讓您能夠設定提醒及稽核附隨報告。 您可以針對Microsoft 365 合規性中心中的所有稽核記錄資料設定警示，並篩選和匯出此資料以進一步分析。 若要深入瞭解如何在Microsoft 365 合規性中心中搜尋Microsoft Teams事件，請參閱[搜尋Microsoft Teams中事件的稽核記錄](audit-log-events.md)。
+稽核記錄搜尋會直接插入 Microsoft Purview 合規性入口網站，並允許系統管理員使用工作負載特定或一般事件集，並在無限制的稽核時程表上調查工作負載，讓您能夠設定警示，以及報告稽核事件。 您可以在 Microsoft Purview 合規性入口網站中設定所有稽核記錄資料的警示，並篩選和匯出此資料以進行進一步分析。 若要深入瞭解如何在 Microsoft Purview 合規性入口網站中搜尋Microsoft Teams事件，請參閱[搜尋Microsoft Teams中事件的稽核記錄](audit-log-events.md)。
 
 ## <a name="privacy"></a>隱私權
 
@@ -214,7 +216,7 @@ Microsoft Teams中的保留原則可讓您基於法規、法律、業務或其�
 如需判斷授權是否需要實作安全性與合規性功能的相關資訊，請檢閱安全性與合規性功能的 [授權需求](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) 。
 
 > [!NOTE]
-> 內容搜尋、核心電子檔探索和Advanced eDiscovery不需要在Microsoft 365 合規性中心中啟用即可運作。 如需詳細資訊，請[參閱Microsoft 365電子檔探索解決方案](/microsoft-365/compliance/ediscovery)。
+> 內容搜尋、核心電子檔探索和Advanced eDiscovery不需要在 Microsoft Purview 合規性入口網站中啟用即可運作。 如需詳細資訊，請[參閱Microsoft 365電子檔探索解決方案](/microsoft-365/compliance/ediscovery)。
 
 ## <a name="location-of-data-in-teams"></a>Teams 中的資料位置
 

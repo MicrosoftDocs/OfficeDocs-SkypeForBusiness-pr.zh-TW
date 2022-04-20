@@ -12,15 +12,15 @@ f1.keywords:
 - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: 瞭解如何從Microsoft 365 合規性中心的稽核記錄擷取Microsoft Teams資料。
+description: 瞭解如何從 Microsoft Purview 合規性入口網站的稽核記錄擷取Microsoft Teams資料。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdca912b77969e4157af641076dc683c3d17921c
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 744a18f2a8f7f2ed406853ef7efbc9842d0096f5
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63711327"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922634"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜尋事件的稽核記錄
 
@@ -42,7 +42,7 @@ ms.locfileid: "63711327"
 
 ## <a name="turn-on-auditing-in-teams"></a>在 Teams 中開啟稽核
 
-您必須先開啟Microsoft 365 合規性中心中的稽核，才能查看稽核資料。 如需詳細資訊，請參閱 [開啟或關閉稽核](/microsoft-365/compliance/turn-audit-log-search-on-or-off)。
+您必須先在 Microsoft Purview 合規性入口網站開啟稽核，才能查看稽核資料。 如需詳細資訊，請參閱 [開啟或關閉稽核](/microsoft-365/compliance/turn-audit-log-search-on-or-off)。
 
 > [!IMPORTANT]
 > 稽核資料只能從您開啟稽核時開始使用。
@@ -235,4 +235,4 @@ Teams (的成員資格變更，例如透過Azure Active Directory (Azure AD) 、
 
 ## <a name="related-topics"></a>相關主題
 
-- [在Microsoft 365 合規性中心中搜尋稽核記錄](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+- [在 Microsoft Purview 合規性入口網站中搜尋稽核記錄](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)

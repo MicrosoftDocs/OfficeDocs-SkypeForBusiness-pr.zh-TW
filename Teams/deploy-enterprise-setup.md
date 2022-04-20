@@ -10,20 +10,25 @@ description: 在您的企業中設定 Teams，讓使用者能夠使用聊天和�
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
-  - m365initiative-deployteams
+- M365-collaboration
+- m365initiative-deployteams
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 6d5a9e3318ac0c72360487dbfc08b63bd39dc55e
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.translationtype: HT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922424"
 ---
-
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>在您的企業中設定 Microsoft Teams
 
 使用本文的資訊來引導您完成在組織中的 Teams 部署。
 
 > [!NOTE]
-> 如果您尚未這麼做，我們強烈建議您使用試驗版，開始您的 Teams 部署。 試驗版將允許您和一些早期採用者在規劃及真正開始使用 Teams 之前，先熟悉 Teams 及其功能。若要瞭解如何開始使用試驗版，請參閱 [開始使用 Microsoft Teams](get-started-with-teams-quick-start.md)。
+> 如果您還沒有這麼做，我們強烈建議您從試驗開始 Teams 部署。試驗將允許您和一些早期採用者在規劃和最終推出之前熟悉 Teams 及其功能。若要了解如何開始試驗，請參閱[開始使用 Microsoft Teams](get-started-with-teams-quick-start.md)。
 
 在您廣泛使用 Teams 之前，請先檢閱 [確認您已準備就緒](get-started-with-teams-quick-start.md#make-sure-youre-ready) 中的項目，確認貴組織已準備就緒。
 
@@ -73,8 +78,8 @@ appliesto:
 
 | 決策 | 描述 |
 |--|--|
-| 應啟用外部存取嗎？ | 外部存取可讓另一個組織的任何人與貴組織的人交談。當您與另一個組織 (例如供應商) 有密切關係，並且想要讓任一組織的人能輕鬆地彼此聊天、開會等等時，這非常有用。<p>外部存取與來賓存取不同。 外部存取可讓組織的每個人與貴組織的人員進行互動。 來賓存取會邀請特定人員存取與貴組織人員的互動。<p>外部存取默 **認為開啟** 。<p>[在 Microsoft Teams 中管理外部存取](manage-external-access.md)  |
-| 應啟用來賓存取嗎？ |來賓存取可讓貴組織中的人員邀請組織外部人員存取您的小組和頻道。 來賓存取通常用於與貴組織外部且與貴組織人員沒有正式關係的人員進行共同合作。 例如，您可以邀請專案規劃人員暫時進行某一專案。<p>來賓存取與外部存取不同。 來賓存取會邀請特定人員存取與貴組織人員的互動。 外部存取可讓另一個組織的每個人與貴組織的人員進行互動。 <p>來賓存取默 **認為開啟** 。 <p>[與團隊中的來賓共同作業](/microsoft-365/solutions/collaborate-as-team)  |
+| 應啟用外部存取嗎？ | 外部存取可讓另一個組織的任何人與貴組織的人交談。當您與另一個組織 (例如供應商) 有密切關係，並且想要讓任一組織的人能輕鬆地彼此聊天、開會等等時，這非常有用。<p>外部存取與來賓存取不同。 外部存取可讓組織的每個人與貴組織的人員進行互動。 來賓存取會邀請特定人員存取與貴組織人員的互動。<p>外部存取依預設為 **開啟**。<p>[在 Microsoft Teams 中管理外部存取](manage-external-access.md)  |
+| 應啟用來賓存取嗎？ |來賓存取可讓貴組織中的人員邀請組織外部人員存取您的小組和頻道。 來賓存取通常用於與貴組織外部且與貴組織人員沒有正式關係的人員進行共同合作。 例如，您可以邀請專案規劃人員暫時進行某一專案。<p>來賓存取與外部存取不同。 來賓存取會邀請特定人員存取與貴組織人員的互動。 外部存取可讓另一個組織的每個人與貴組織的人員進行互動。 <p>來賓存取依預設為 **開啟**。 <p>[在小組中與來賓共同作業](/microsoft-365/solutions/collaborate-as-team)  |
 
 #### <a name="meetings-and-audio-conferencing"></a>[會議和音訊會議](#tab/MeetingsAudioConferencing)
 
@@ -113,7 +118,7 @@ appliesto:
 | 是否要取代您的內部部署電話系統？ | 設定 [電話系統]、設定自動語音應答、通話方案、通話佇列等等。 <p> [設定貴組織的 [電話系統]](setting-up-your-phone-system.md)|
 | 是否要設定 [雲端語音信箱] 原則？| 您可以控制哪些 [雲端語音信箱] 功能可供使用者使用，以及這些功能如何運作。 例如，您可以為整個組織啟用或停用語音信箱謄寫功能、啟用或停用特定使用者的猥褻遮蔽功能等等。<p> [設定 [雲端語音信箱]](set-up-phone-system-voicemail.md) |
 | 是否要啟用動態緊急電話？| 動態緊急電話可讓您根據網路設定及其他中繼資料來設定位置地圖，以判斷當使用者撥打緊急電話時需派遣緊急人員的位置。您可以設定網路設定、將緊急位址指派至位置等等。<p>[規劃和設定動態緊急電話](configure-dynamic-emergency-calling.md) |
-| 是否要自訂來電顯示行為？ | 根據預設，Teams使用者撥打電話時所顯示的電話號碼是使用者的電話號碼。 您可以將此變更為公司的主要號碼、封鎖電話號碼、將號碼匿名或顯示為其他服務號碼。 Teams 具有適用於所有人的全域原則。<p>如果您想要將相同的原則套用于所有人，您只需要變更此全域原則。 <p>如果您想要將不同的原則套用于不同的人員群組 (例如，將一個原則套用于辦公室員工，另一個原則套用于主管)，您可以建立並指派原則。 當您將原則指派給使用者時，他們將不再適用全域原則。<p> [管理 Microsoft Teams 中的來電顯示原則](caller-id-policies.md)。 |
+| 是否要自訂來電顯示行為？ | 根據預設，Teams 使用者進行通話時所顯示的電話號碼就是使用者的電話號碼。 您可以將此變更為公司的主要號碼、封鎖電話號碼、將號碼匿名或顯示為其他服務號碼。 Teams 具有適用於所有人的全域原則。<p>如果您想要將相同的原則套用于所有人，您只需要變更此全域原則。 <p>如果您想要將不同的原則套用于不同的人員群組 (例如，將一個原則套用于辦公室員工，另一個原則套用于主管)，您可以建立並指派原則。 當您將原則指派給使用者時，他們將不再適用全域原則。<p> [管理 Microsoft Teams 中的來電顯示原則](caller-id-policies.md)。 |
 
 ---
 
@@ -140,16 +145,16 @@ Teams 和 Microsoft 365 提供許多工具，協助符合貴公司和使用者�
 | [通訊合規性](communication-compliance.md)| 透過識別冒犯性、褻瀆性及騷擾性語言；成人色情內容、血腥影像；以及敏感性資訊的分享，並對此採取行動，以協助降低通訊風險。 |
 | [通話和會議的原則式錄製](teams-recording-policy.md)| 可讓您控制何時或是否要自動錄製並儲存通話和會議，供日後處理、保留或分析。|
 | [敏感度標籤](sensitivity-labels.md)| 建立強制執行所選隱私權選項的標籤，協助您保護及規範敏感性資訊的存取。|
-| [資料遺失防護](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 可讓您建立規則，決定如何處理特定資訊 (例如社會安全號碼、信用卡號碼等等)。 您可以防止特定資訊的傳送、避免該資訊自貴組織流出等等。|
+| [Microsoft Purview 資料外洩防護](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 可讓您建立規則，決定如何處理特定資訊 (例如社會安全號碼、信用卡號碼等等)。 您可以防止特定資訊的傳送、避免該資訊自貴組織流出等等。|
 | [電子文件探索](eDiscovery-investigation.md)| 當貴組織在法律程序中收到資訊探索要求時，可協助您搜尋並檢索貴組織中的內容。 |
 | [法務保存措施](legal-hold.md)| 可協助您將資訊保留在貴組織中 (即使該資訊已遭使用者刪除)，則若法律程序期間需要該文件，便可在電子文件探索調查過程中找到。 |
 | [內容搜尋](content-search.md)| 提供跨 Exchange、SharePoint Online 和商務用 OneDrive 查詢 Teams 資訊的方法。|
-| [稽核](audit-log-events.md)| 可讓您查看指定動作的資訊，包括動作執行者、執行動作時間、使用的 IP 位址等等。 動作包括建立或刪除團隊、建立頻道、變更Teams設定等等。|
+| [稽核](audit-log-events.md)| 可讓您查看指定動作的資訊，包括動作執行者、執行動作時間、使用的 IP 位址等等。 動作包括在 Teams 中建立或刪除團隊、建立頻道、變更設定等等。|
 | [客戶金鑰](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| 可讓您使用您提供的加密金鑰來建立資料加密原則。|
 
 ## <a name="clients"></a>用戶端
 
-當您準備好讓使用者開始使用 Teams 時，他們可以在 Windows、Mac 或 Linux 電腦或 Android 或 iOS 裝置上安裝 Teams 用戶端。 使用者可以直接從 <https://teams.microsoft.com/downloads>下載 Teams 用戶端。
+當您準備好讓使用者開始使用 Teams 時，他們可以在其 Windows、Mac 或 Linux 電腦或其 Android 或 iOS 裝置上安裝 Teams 用戶端。使用者能直接從 <https://teams.microsoft.com/downloads>下載 Teams 用戶端。
 
 確定所有將使用 Teams 的人都擁有 Teams 授權。 如需指派 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](user-access.md#using-the-microsoft-365-admin-center)。
 

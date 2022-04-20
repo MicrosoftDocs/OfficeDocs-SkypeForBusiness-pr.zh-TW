@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b04e5937ad737feb39528c06f54ad8890ba32d0
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 52e4a9df0daded1a1091c32790dae2c15294529d
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839054"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922494"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Exchange 和 Microsoft Teams 如何互動
 
@@ -131,7 +131,7 @@ Microsoft Teams 與多個 Microsoft 365 和 Office 365 服務合作，為使用�
 
 - 如果貴組織有合規性需求以確保所有會議討論都可探索，則如果召集人有 Exchange 內部部署郵箱，則應停用私人會議。 如需詳細資訊，請參閱 [私人會議排程](./meeting-policies-in-teams-general.md#private-meeting-scheduling)。
 
-- 在 Exchange 混合式部署中，聊天訊息中的內容都是可搜尋的，而不管聊天參與者是使用雲端式郵箱還是內部部署信箱。 若要了解更多資訊，請參閲[搜尋內部部署的雲端式郵箱](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 要瞭解如何在 Teams 中搜尋內容，請閱讀[Microsoft 365 合規性中心中的內容搜尋](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
+- 在 Exchange 混合式部署中，聊天訊息中的內容都是可搜尋的，而不管聊天參與者是使用雲端式郵箱還是內部部署信箱。 若要了解更多資訊，請參閲[搜尋內部部署的雲端式郵箱](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users)。 若要瞭解如何在 Teams 中搜尋內容，請閱讀[Microsoft Purview 合規性入口網站中的內容搜尋](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups)。
 
 - 對於目前狀態，Microsoft Teams 必須檢查郵箱是裝載於 Exchange Online 還是内部部署。 然後服務决定存取郵箱的位置。 若要使 Teams 服務能够透過對 Exchange Online 服務的 REST API 呼叫檢查郵箱位置，您必須透過執行 Exchange 混合組態精靈來部署 Exchange 混合環境，如[使用混合組態精靈建立混合部署](/exchange/hybrid-deployment/deploy-hybrid)中所述。
 

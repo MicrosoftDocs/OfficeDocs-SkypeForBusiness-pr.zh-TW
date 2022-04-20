@@ -39,8 +39,6 @@ items:
                 href: tutorial-network-planner-example.yml
               - name: Teams 或商務用 Skype Online 的 Proxy 伺服器
                 href: proxy-servers-for-skype-for-business-online.md
-              - name: 在 Teams 中建立團隊時，規劃 Microsoft 365 群組
-                href: plan-office-365-groups.md
               - name: 規劃 Teams 中的生命週期管理
                 href: plan-teams-lifecycle.md
               - name: 規劃 Teams 中的控管

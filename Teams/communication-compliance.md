@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4ab8adcbe4a717e62e0dff66ecf00fb1650e31b
-ms.sourcegitcommit: 823ad7fe5f7a27f681c95b2d369ce2cbe71cfdfe
+ms.openlocfilehash: 091fe5eba9d17cefc442978cb3090aaca87844d8
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64691448"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922644"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>與Microsoft Teams的通訊合規性
 
-通訊合規性是Microsoft 365中的測試人員風險解決方案，可協助您偵測、擷取及處理貴組織中的不當訊息，以協助將通訊風險降到最低。
+Microsoft Purview Communication Compliance 是 Microsoft 365 中的測試人員風險解決方案，可協助您偵測、擷取及處理貴組織中的不當訊息，以協助將通訊風險降到最低。
 
 對於Microsoft Teams，通訊合規性可協助識別Teams頻道、私人Teams頻道或 1：1 和群組聊天中的[下列類型的](/microsoft-365/compliance/communication-compliance-feature-reference)不當內容：
 
@@ -33,7 +33,7 @@ ms.locfileid: "64691448"
 - 成人、活潑和 Gory 影像
 - 共用機密資訊
 
-如需有關通訊合規性以及如何為貴組織設定原則的詳細資訊，請參閱[Microsoft 365中的通訊合規性](/microsoft-365/compliance/communication-compliance)。 如需Microsoft 365包含通訊合規性的訂閱的相關資訊，請參閱[測試人員風險解決方案](/microsoft-365/compliance/insider-risk-solution-overview#communication-compliance)。
+如需有關通訊合規性以及如何為組織設定原則的詳細資訊，請參閱 [瞭解通訊合規性](/microsoft-365/compliance/communication-compliance)。
 
 ## <a name="how-to-use-communication-compliance-in-microsoft-teams"></a>如何在 Microsoft Teams 中使用通訊合規性
 

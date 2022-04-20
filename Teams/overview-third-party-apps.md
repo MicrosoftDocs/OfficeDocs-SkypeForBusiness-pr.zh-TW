@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 85171e8125fc4e6cecbfde4a0f6832b48ca7ca84
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: 90395ab4bd9563a6bd9ad12ae6d9c1d164ddc89b
+ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756959"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910869"
 ---
 # <a name="overview-of-third-party-apps-in-microsoft-teams"></a>Microsoft Teams 中的協力廠商應用程式概觀
 
@@ -34,8 +34,9 @@ Microsoft Teams 中的協力廠商應用程式不受 Microsoft 控制或擁有�
 除了確保系統管理員能夠控制協力廠商應用程式之外，Microsoft 也確保只有高品質的應用程式可在市集中提供。 我們要求所有應用程式都經過 Microsoft 的強制驗證，以檢查應用程式的功能、識別發行者、應用程式尋求的權限，以及應用程式的合規性、隱私權及所收集資料的資料安全性。 我們鼓勵應用程式成為選用合規性計畫的一部分，以示範高度聚焦的產業標準安全性與合規性。 請參閱下列文章以瞭解這些計畫：
 
 1. [應用程式驗證](overview-of-app-validation.md#app-validation-and-testing)
-1. [發行者驗證](overview-of-app-validation.md#publisher-verification)
+
 1. Microsoft 應用程式合規性計畫：
 
+   * [發行者驗證](overview-of-app-certification.md#publisher-verification)
    * [發行者證明](overview-of-app-certification.md#publisher-attestation)
    * [Microsoft 365 認證](overview-of-app-certification.md#microsoft-365-certification)

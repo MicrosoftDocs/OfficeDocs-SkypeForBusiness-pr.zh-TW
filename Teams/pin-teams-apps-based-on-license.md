@@ -15,17 +15,17 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b526733558570e4903d9dce43094c7ffa0f7de17
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: fb5bf166d9f7253a5cb72ffc92b674613d959334
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63774182"
+ms.lasthandoff: 04/20/2022
+ms.locfileid: "64961286"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>為前線員工量身打造Teams應用程式
 
 > [!NOTE]
-> [!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
+> 這項功能目前正在推出中，可能尚未在貴組織中提供。 若要隨時掌握即將推出的Teams功能，請參[閱藍圖Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。
 
 ## <a name="overview"></a>概觀
 

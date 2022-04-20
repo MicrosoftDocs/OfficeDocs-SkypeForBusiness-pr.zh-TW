@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c91e964d9cc0bfc3047ed8413dff15e5aafb0cb8
-ms.sourcegitcommit: 4c608bf06f43e88c844492c262a26dcf3eacb4c3
+ms.openlocfilehash: aab8f71ec8c9eb5ad1e984a68985a8a425e21f16
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63523802"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922664"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -313,7 +313,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 
 您可以透過 ProgID 屬性，將自動保留標籤套用至僅鎖定 Teams 會議錄製影片檔案。 如需詳細資訊，請參閱 [如何將保留標籤自動套用至 Teams 會議錄製](/microsoft-365/compliance/apply-retention-labels-automatically#microsoft-teams-meeting-recordings)。
 
-### <a name="data-loss-prevention-dlp-policies"></a>資料遺失保護 (DLP) 原則
+### <a name="microsoft-purview-data-loss-prevention-dlp-policies"></a>Microsoft Purview 資料外洩防護 (DLP) 原則
 
 您也可以使用 ProgID 屬性，將 DLP 原則套用至會議錄製檔案。 在 SharePoint Online 和商務用 OneDrive 中的檔案之 DLP 規則中，可將條件設定為：
 

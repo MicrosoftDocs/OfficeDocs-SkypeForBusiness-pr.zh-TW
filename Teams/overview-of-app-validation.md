@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa6a03c5408afcd7cce1d3e48b78b3b1ddb3675a
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: a916d6bdd57c2956c076461d7f36df64d5c503d9
+ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756989"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "64910899"
 ---
 # <a name="validation-performed-by-microsoft-for-all-teams-apps"></a>Microsoft 針對所有 Teams 應用程式執行的驗證
 
@@ -53,14 +53,6 @@ Microsoft 需要所有應用程式通過強制驗證，才能列入終端用途�
 * ISV 的連絡人詳細資料可在 Microsoft 市集清單及其個別的[發行者證明頁面](/microsoft-365-app-certification/teams/teams-apps)上取得。
 
 此外，Microsoft 鼓勵應用程式開發人員參與其合規性計畫，這是確保應用程式品質、安全性和合規性的雙層嚴格方法。 Teams 市集中有數百個應用程式，這些應用程式除了符合已詳細列出的驗證指導方針之外，也遵循這些計畫。
-
-## <a name="publisher-verification"></a>發行者驗證
-
-應用程式開發人員必須先經過驗證，才能將應用程式提交給 Microsoft。 發行者使用其 Microsoft 合作夥伴網路 (MPN) 帳戶驗證其身分識別，並將此 MPN 帳戶與其應用程式註冊建立關聯。 發行者驗證可協助系統管理員和使用者瞭解整合Microsoft 身分識別平台之應用程式開發人員的真實性。 發行者驗證具有下列優點：
-
-* 提高客戶的透明度和降低風險 - 這項功能可協助客戶瞭解其組織中使用的應用程式是由他們信任的開發人員所發佈。
-* 改良的商標 - `verified` 徽章會顯示在 Azure Active Directory 同意提示、企業應用程式頁面，以及使用者和系統管理員使用的其他使用者介面上。
-* 更順暢的企業採用 - 系統管理員可以設定使用者同意原則，並以發行者驗證狀態做為主要原則準則。
 
 ## <a name="see-also"></a>另請參閱
 

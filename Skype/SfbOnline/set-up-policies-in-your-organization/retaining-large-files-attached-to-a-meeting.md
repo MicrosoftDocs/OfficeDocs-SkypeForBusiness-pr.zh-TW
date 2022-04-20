@@ -1,5 +1,5 @@
 ---
-title: 保留附加至會議商務用 Skype檔案
+title: 保留附加至商務用 Skype會議的大型檔案
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,34 +18,34 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 您可以將檔案附加至商務用 Skype，參與者可以開啟並下載。 附加至 商務用 Skype 會議的檔案會保留在信箱中，其信箱會置於訴訟保留狀態、已適用 Microsoft 365 或 Office 365 保留原則，或置於 Microsoft 365 合規性中心與電子檔探索案例相關聯的保留狀態。 此內容會儲存到參與者信箱中的可復原專案資料夾。
-ms.openlocfilehash: 1733cb1b0111bb83bbeddf5253bd1b65b919a4a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 您可以將檔案附加至商務用 Skype會議，參與者就可以開啟並下載。 附加至商務用 Skype會議的檔案會保留在任何參與者的信箱中，該參與者的信箱設為訴訟資料暫留、已套用Microsoft 365或Office 365保留原則，或是在 Microsoft Purview 合規性入口網站中將電子檔探索案例相關聯的保留狀態。 此內容會儲存到參與者信箱中的 [可復原的專案] 資料夾。
+ms.openlocfilehash: 35792e3415d3def0b8ac45ab39e9dec65f2f7725
+ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581987"
+ms.lasthandoff: 04/19/2022
+ms.locfileid: "64922434"
 ---
-# <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>保留附加至會議商務用 Skype檔案
+# <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>保留附加至商務用 Skype會議的大型檔案
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-您可以將檔案附加至商務用 Skype，參與者可以開啟並下載。 附加至 商務用 Skype 會議的檔案會保留在信箱中，其信箱會置於訴訟保留狀態、已適用 Microsoft 365 或 Office 365 保留原則，或置於 Microsoft 365 合規性中心與電子檔探索案例相關聯的保留狀態。 此內容會儲存到 **參與者信箱中的** 可復原專案資料夾。
+您可以將檔案附加至商務用 Skype會議，參與者就可以開啟並下載。 附加至商務用 Skype會議的檔案會保留在任何參與者的信箱中，該參與者的信箱設為訴訟資料暫留、已套用Microsoft 365或Office 365保留原則，或是在 Microsoft Purview 合規性入口網站中將電子檔探索案例相關聯的保留狀態。 此內容會儲存到參與者信箱中的 **[可復原的專案** ] 資料夾。
   
-保留信箱中保留的檔案會編制索引，因此在搜尋參與者的信箱時，可在安全性合規性中心執行內容搜尋時 &amp; 進行搜尋。 不過，大於 30 MB 的附加檔案會分割成兩個或多個較小的檔案，並儲存為壓縮 (.zip) 檔案。 這些  *較小的*  檔案內容不會為搜尋編制索引，而且可能不會在內容搜尋中退回。 不過 *，這些檔案*  的 (例如檔案名和作者) 會編制搜尋索引，並可能在內容搜尋中返回。
+保留信箱中的檔案會編制索引，因此在安全性合規性中心執行 &amp; 內容搜尋時，可以在搜尋參與者的信箱時進行搜尋。 不過，大於 30 MB 的附加檔案會分割成兩個或多個較小的檔案，並儲存為壓縮的 (.zip) 檔案。 這些較小的檔案  *內容*  不會編制搜尋索引，可能不會在內容搜尋中傳回。 不過，這些檔案的 *中繼資料*  (例如檔案名和作者) 會編制搜尋索引，並可能會在內容搜尋中傳回。
   
 > [!IMPORTANT]
-> 信箱的 MaxReceiveSize 和 MaxSendSize 設定Exchange Online可能會影響從會議保留大型商務用 Skype檔案的能力。 MaxReceiveSize 和 MaxSendSize 的預設設定分別為 36 MB 和 35 MB。 不過，這些預設設定太小，無法保留會議商務用 Skype超過 30 MB 的任何檔案。 這是因為系統Exchange Online郵件附件和其他二進位資料的 Base64 編碼。 當郵件編碼時，其大小會增加約 33%。 因此，為了確保保留 商務用 Skype 會議的大型檔案，建議您將 MaxReceiveSize 和 MaxSendSize 的值提高至 39 MB (這比先前針對保留使用者解說) 的 30 MB 大小限制大約 33%。 否則，附加至會議商務用 Skype可能不會保留大型檔案。 有關在 PowerShell 中使用 **Set-Mailbox -MaxReceiveSize** 和 **Set-Mailbox -MaxSendSize** 命令Exchange Online，請參閱 [Set-Mailbox](/powershell/module/exchange/mailboxes/Set-Mailbox)。
+> Exchange Online信箱的 MaxReceiveSize 和 MaxSendSize 設定可能會影響保留商務用 Skype會議中大型檔案的能力。 MaxReceiveSize 和 MaxSendSize 的預設設定分別為 36 MB 和 35 MB。 不過，這些預設設定太小，無法保留商務用 Skype會議中大於 30 MB 的任何檔案。 這是因為Exchange Online使用郵件附件和其他二進位資料的 Base64 編碼。 當郵件編碼時，其大小會增加約 33%。 因此，為了確保保留商務用 Skype會議中的大型檔案，建議您將 MaxReceiveSize 和 MaxSendSize 的值增加到 39 MB (比先前針對被保留狀態的使用者所說明) 所述的 30 MB 大小限制大約 33%。 否則，附加至商務用 Skype會議的大型檔案可能不會保留。 如需在 Exchange Online PowerShell 中使用 **Set-Mailbox -MaxReceiveSize** 和 **Set-Mailbox -MaxSendSize** 命令的詳細資訊，請參閱 [Set-Mailbox](/powershell/module/exchange/mailboxes/Set-Mailbox)。
   
-未保留的信箱將不會儲存任何會議資料。 例如，在三人會議中，將兩個參與者的信箱標示為保留，會議資料會儲存至這兩個參與者的信箱，但無法儲存至第三個參與者的信箱，因為第三個參與者的信箱並未保留。
+未保留的信箱不會儲存任何會議資料。 例如，在已標示兩個參與者信箱保留的三人會議中，會議資料會儲存至這兩個參與者的信箱，但不會儲存至第三位參與者的信箱，而該參與者的信箱並未保留該信箱。
   
 ## <a name="related-topics"></a>相關主題
 [建立自訂外部存取原則](create-custom-external-access-policies.md)
 
-[封鎖點到點檔案傳輸](block-point-to-point-file-transfers.md)
+[封鎖點對點檔案傳輸](block-point-to-point-file-transfers.md)
 
 [設定組織的用戶端原則](set-up-client-policies-for-your-organization.md)
 
-[在組織中設定會議策略](set-up-conferencing-policies-for-your-organization.md)
+[在貴組織中設定會議原則](set-up-conferencing-policies-for-your-organization.md)
   
   
