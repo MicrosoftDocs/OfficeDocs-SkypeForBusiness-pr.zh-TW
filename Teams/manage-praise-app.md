@@ -1,5 +1,5 @@
 ---
-title: 在系統稱讚管理中心管理 Teams應用程式
+title: 在 Teams 系統管理中心管理稱讚應用程式
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -8,47 +8,47 @@ audience: admin
 ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
-description: 瞭解如何在系統管理中心稱讚應用程式Microsoft Teams應用程式。
+description: 瞭解如何在 Microsoft Teams 系統管理中心管理稱讚應用程式。
 ms.openlocfilehash: 364fb60b6a729062e358685426acd98704c7ac02
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "63442679"
 ---
-# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在系統稱讚管理中心管理 Microsoft Teams應用程式
+# <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理稱讚應用程式
 
-稱讚應用程式Microsoft Teams協助使用者向貴組織或教室的成員表示感謝。 徽章的設計稱讚協助識別使用者從教育者到前線員工Teams各種工作所付出的投入。 若要深入瞭解，請查看傳送稱讚[給人員](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
+Microsoft Teams中的 稱讚 應用程式可協助使用者表達對貴組織或教室成員的感謝。 稱讚中的徽章是專為協助辨識Teams使用者從教育人員到第一線工作人員所投入之各種工作所投入的工作所設計。 若要深入瞭解，請參閱[傳送稱讚給其他人](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)。
 
-系統管理員必須擁有Teams才能存取此功能。 如果您嘗試在沒有授權的情況下存取Teams，就會收到錯誤訊息。
+系統管理員必須擁有Teams授權才能存取此功能。 如果您嘗試在沒有Teams授權的情況下存取此功能，您會收到錯誤訊息。
 
 > [!NOTE]
-> 稱讚應用程式適用于雲端GCC，但不適用於高GCC DoD。
+> 稱讚應用程式適用于GCC雲端環境，但不適用於 GCC High 或 DoD。
 
-## <a name="enable-or-disable-praise-in-your-organization"></a>在貴稱讚中啟用或停用
+## <a name="enable-or-disable-praise-in-your-organization"></a>啟用或停用組織中的稱讚
 
-稱讚為貴組織中所有Teams使用者啟用此功能。 您可以在 Microsoft Teams 系統管理中心的[管理應用程式](manage-apps.md)頁面上關閉或開啟組織層級的應用程式。
+稱讚預設會為貴組織中的所有Teams使用者啟用。 您可以在 Microsoft Teams 系統管理中心的[管理應用程式](manage-apps.md)頁面上關閉或開啟組織層級的應用程式。
 
-:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="系統管理中心稱讚應用程式詳細資料頁面的螢幕擷取畫面Teams顯示狀態切換。":::
+:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Teams系統管理中心中稱讚應用程式詳細資料頁面的螢幕擷取畫面，顯示 [狀態] 切換開關。":::
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
-2. 在應用程式清單中，搜尋 稱讚應用程式，選取它，然後將狀態切換為已封鎖或 **允許**。**** 
+2. 在應用程式清單中，搜尋稱讚應用程式，選取它，然後將 **[狀態**] 切換為 [**已封鎖**] 或 [**允許]**。
 
-請記住，此設定會影響 稱讚 應用程式稱讚 Viva Insights應用程式Teams。
+請記住，此設定會同時影響 稱讚 應用程式以及 Teams 中 Viva Insights 應用程式中的稱讚功能。
 
-## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>啟用或稱讚組織中特定使用者使用
+## <a name="enable-or-disable-praise-for-specific-users-in-your-organization"></a>為貴組織中的特定使用者啟用或停用稱讚
 
-若要允許或封鎖貴組織的特定使用者稱讚，請稱讚管理應用程式頁面上的貴組織已開啟[您的帳戶](manage-apps.md)。 然後建立自訂應用程式權限原則，並將其指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
+若要允許或封鎖貴組織中的特定使用者使用稱讚，請確定貴組織已在 [[管理應用程式](manage-apps.md)] 頁面上開啟稱讚。 然後建立自訂應用程式許可權原則，並將它指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
 
 ## <a name="badges"></a>徽章
 
-以下是其中的預設徽章稱讚。 Teams中的使用者可以使用這些徽章來識別他們的同儕在工作上超越。
+以下是 稱讚 中的預設徽章集合。 Teams組織中的使用者可以使用這些徽章來辨識同儕在工作上超越上手。
 
-:::image type="content" source="media/default-set-praise.png" alt-text="預設徽章集的徽章影像。":::
+:::image type="content" source="media/default-set-praise.png" alt-text="預設徽章集中的徽章影像。":::
 
 > [!NOTE]
-> 從 2022 年 2 月開始，人員只能傳送和接收預設徽章。 自訂徽章不再提供，而且自訂徽章的選項已從系統管理中心Teams移除。
+> 自 2022 年 2 月開始，人員只能傳送和接收預設徽章。 自訂徽章已無法使用，自訂徽章的選項也已從Teams系統管理中心移除。
 
 ## <a name="related-articles"></a>相關文章
 
-[在系統管理中心管理Microsoft Teams應用程式](manage-apps.md)
+[在 Microsoft Teams 系統管理中心管理您的應用程式](manage-apps.md)
