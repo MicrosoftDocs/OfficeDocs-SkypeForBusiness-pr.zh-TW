@@ -21,67 +21,82 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 請按照下列步驟建立預設電話號碼，讓來電者加入Microsoft Teams會議。
-ms.openlocfilehash: d1bce310424fb30ef8e76dde60003e97973630ec
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: 請依照下列步驟建立預設電話號碼，讓來電者加入Microsoft Teams會議。
+ms.openlocfilehash: 7f22f86a020940caf663b671c81ab7958230db21
+ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055443"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65016575"
 ---
-# <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>設定邀請中包含的電話號碼Microsoft Teams
+# <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>在 Microsoft Teams 中設定邀請中包含的電話號碼
 
-Microsoft 365 Office 365中的音訊會議可讓貴組織的使用者Microsoft Teams會議，然後允許使用者使用電話撥入這些會議。
-  
-會議橋接器會提供您組織的一組撥入電話號碼。 所有會議都可以用來加入會議召集人已建立的會議，但您可以選取哪些會議邀請會包含在會議邀請中。
-  
-> [!NOTE]
-> 會議邀請的會議召集人最多可以有一個付費電話和一個免付費電話號碼，但每個會議邀請底部也有一個連結，可開啟可用來加入會議之所有撥入電話號碼的完整清單。
+Microsoft 365和Office 365中的音訊會議可讓貴組織中的使用者建立Microsoft Teams會議，然後允許使用者使用電話號碼撥入這些會議。
+
+會議橋接器可為您的組織提供一組撥入電話號碼。 所有會議都可以用來加入會議召集人建立的會議，但您可以選取會議邀請中會包含哪些會議。
+
+除了會議召集人會議邀請中包含的電話號碼之外，每個會議邀請底部也會有一個連結，其中會開啟所有可用來加入會議之撥入電話號碼的完整清單。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
-  
-## <a name="initial-assignment-of-phone-numbers-that-are-included-in-the-meeting-invites-for-new-users"></a>新使用者會議邀請中包含的電話號碼初始指派
 
-啟用音訊會議之使用者的會議邀請中包含的電話號碼是由預設的會議付費電話號碼和預設免付費電話號碼使用者的設定所定義。 每個設定會指定指定使用者的會議邀請中會包含哪些付費和免付費號碼。 如上所述，每個會議邀請都包含一個付費號碼、一個選擇性免付費號碼，以及一個連結，可開啟可用來加入給定會議之所有撥入電話號碼的完整清單。
+## <a name="initial-assignment-of-phone-numbers-that-are-included-in-the-meeting-invites-for-users"></a>為使用者初始指派會議邀請中包含的電話號碼
 
-對於新使用者，預設會議付費號碼會根據使用者啟用音訊會議服務時在 Microsoft 365 系統管理中心中設定的使用位置來指派。 如果會議橋接器中的付費號碼符合使用者的國家/地區，該號碼會自動指派為使用者的預設付費號碼。 如果沒有號碼，則定義為會議橋接器預設付費號碼的號碼會指派為使用者的預設付費號碼。  
+在已指派給使用者的 *TeamsAudioConferencingPolicy* 中定義了會議邀請中已啟用音訊會議之使用者的電話號碼。 當 *TeamsAudioConferencingPolicy* 指派給使用者時，原則中新增的所有付費和免付費電話號碼都會包含在具有該原則的使用者的會議邀請中。 如果使用者獲指派 *TeamsAudioConferencingPolicy* ，且原則中未新增任何付費或免付費電話號碼，則在這種情況下，這些使用者會議邀請中顯示的電話號碼會根據預設會議付費電話號碼和每個個別使用者設定中的預設會議免付費電話號碼來定義。
 
-使用者啟用音訊會議服務後，租使用者系統管理員隨時都可以從使用者的初始值變更使用者的預設付費和免付費電話號碼。
+> [!NOTE]
+> 新增到 *TeamsAudioConferencingPolicy* 的付費或免付費電話號碼會優先于使用者設定的預設會議付費電話號碼和預設會議免付費電話號碼個別設定的電話號碼。
 
-## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>設定或變更會議召集人或使用者的預設音訊會議電話號碼
+如上所述，除了電話號碼之外，每一個會議邀請都包含一個連結，該連結會開啟所有可用來加入指定會議之撥入電話號碼的完整清單。
+
+### <a name="new-users"></a>新使用者
+
+會議邀請中包含給新使用者的付費電話號碼和免付費電話號碼，也會由指派給這些使用者的 *TeamsAudioconferencingPolicy* 定義。 根據預設，所有新使用者都會獲派 Global *TeamsAudioconferencingPolicy*。 除非租使用者系統管理員) 變更此設定，否則全域原則不會新增任何電話號碼 (。 在此情況下，已啟用音訊會議之使用者之會議邀請中所包含的電話號碼，會根據每個使用者設定中找到的預設會議付費電話號碼和預設會議免付費電話號碼來定義。
+
+對於新使用者，預設的會議付費電話號碼會根據使用者Microsoft 365系統管理中心的 [使用位置] 設定，在使用者啟用音訊會議服務時進行指派。 如果會議橋接器中有符合使用者國家/地區的付費電話號碼，該號碼會自動指派為使用者的預設付費電話號碼。 如果沒有，系統會將定義為會議橋接器預設付費電話號碼的數位指派為使用者的預設付費電話號碼。  
+
+一旦使用者啟用音訊會議服務，租使用者系統管理員就可以視需要變更使用者的預設付費電話號碼和免付費電話號碼。
+
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-users-in-powershell-using-the-teamsaudioconferencingpolicy-cmdlet"></a>在 Powershell 中使用 *TeamsAudioConferencingPolicy* Cmdlet 設定或變更使用者的預設音訊會議電話號碼
+
+請參閱 [付費和免付費電話號碼的音訊會議原則設定](audio-conferencing-toll-free-numbers-policy.md)
+
+## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user-individually"></a>設定或變更會議召集人或使用者的預設音訊會議電話號碼
 
 您必須是 Teams 服務系統管理員才能進行這些變更。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
 
-1. 登入系統管理Microsoft Teams中心。
+1. 登入Microsoft Teams系統管理中心。
 
-2. 在左側流覽中，按一下 [**使用者。**
+2. 在左側導覽中，按一下 [ **使用者]**。
 
-    ![顯示選取系統管理中心Microsoft Teams使用者。](media/Admin-users.png)
+    ![顯示在系統管理中心Microsoft Teams選取使用者。](media/Admin-users.png)
 
 3. 從可用使用者清單中按一下使用者名稱。
 
-4. 在 [ **音訊會議」 旁**，按一下 [ **編輯>**。
+4. 在 **[音訊會議**] 旁邊，按一下 [ **編輯]**。
 
-    ![按一下音訊會議旁的 [編輯>。](media/teams-set-phone-numbers-on-invites-image3.png)
+    ![按一下 [音訊會議] 旁的 [編輯]。](media/teams-set-phone-numbers-on-invites-image3.png)
 
-5. 使用 **付費號碼** 或 **免付費號碼欄位** 輸入使用者的數位。
+5. 使用 **[付費號碼** ] 或 **[免付費號碼** ] 欄位輸入使用者的號碼。
 
 > [!IMPORTANT]
-> 當您變更使用者的音訊會議設定時，必須更新週期性Microsoft Teams未來的會議，併發送給出席者。
+> 當您變更使用者的音訊會議設定時，週期性及未來Microsoft Teams會議必須更新並傳送給出席者。
 
-## <a name="want-to-use-windows-powershell"></a>想要使用Windows PowerShell
+> [!NOTE]
+> 只有在指派給使用者的 *TeamsAudioConferencingPolicy* 沒有新增任何電話號碼時，才會使用此設定中輸入的電話號碼。
 
-Windows PowerShell管理使用者，以及允許或不允許使用者執行哪些操作。 您可以使用Windows PowerShell管理Microsoft 365或Office 365管理點，當您有多個工作需要執行時，可以簡化您的日常工作。 若要開始使用Windows PowerShell，請參閱以下主題：
+## <a name="want-to-use-windows-powershell"></a>想要使用 Windows PowerShell
 
-- [為什麼您需要使用 PowerShell Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+Windows PowerShell是管理使用者，以及允許或不允許使用者執行的動作。 透過Windows PowerShell，您可以使用單點系統管理來管理Microsoft 365或Office 365，以簡化當您有多個工作要執行的日常工作。 若要開始使用Windows PowerShell，請參閱下列主題：
 
-- [使用 Microsoft 365 管理Office 365或Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [為什麼您需要使用 Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-若要使用 [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)設定或變更會議召集人或使用者的預設音訊會議電話號碼，請設定 **`ServiceNumber`** **`TollFreeServiceNumber`** [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) Cmdlet 的或參數至其中一個可用號碼。
+- [使用 Windows PowerShell 管理Microsoft 365或Office 365的最佳方式](/previous-versions//dn568025(v=technet.10))
+
+若要設定或變更會議召集人或使用者使用 [Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)的預設音訊會議電話號碼，請將 [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/set-CsOnlineDialInConferencingUser?view=skype-ps) Cmdlet 的其中一個可用號碼設定 **`ServiceNumber`** 或 **`TollFreeServiceNumber`** 參數。
 
 ## <a name="related-topics"></a>相關主題
 
-[嘗試或購買音訊會議Microsoft 365或Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
+[在 Microsoft 365 或 Office 365 中試用或購買音訊會議](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)
 
 [變更音訊會議橋接器的電話號碼](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)

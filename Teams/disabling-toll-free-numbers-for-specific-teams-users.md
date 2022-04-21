@@ -1,5 +1,5 @@
 ---
-title: 停用特定使用者的免付費Teams號碼
+title: 針對特定Teams使用者停用免付費電話號碼
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -20,47 +20,33 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 瞭解如何控制召集人如何針對音訊會議橋接器會議使用免付費號碼。
-ms.openlocfilehash: 18696143930c42649304bb62b5693e95179397e4
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: 瞭解如何控制召集人如何在音訊會議橋接器會議中使用免付費電話號碼。
+ms.openlocfilehash: 6d841a48381609a019a1749095aac4a95901a7c4
+ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055433"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65016625"
 ---
-# <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>停用特定使用者的免付費Teams號碼
+# <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>針對特定Teams使用者停用免付費電話號碼
 
-如果貴組織在其 Microsoft 音訊會議橋接器中擁有免付費號碼，您可以允許或禁止在特定的召集人會議中使用。  
+如果貴組織在其 Microsoft 音訊會議橋接器中有免付費電話號碼，您可以允許或防止其在特定召集人的會議中使用。  
 
-根據預設，貴組織的所有使用者都可以使用免付費號碼，也就是說，參與者可以使用這些號碼來加入他們的會議 。如果可用的話，這些號碼可供參與者使用。 如果貴組織中某些使用者不是想要的行為，您可以透過免付費號碼啟用控制項，限制特定使用者在會議中使用這些號碼。
+根據預設，貴組織中的所有使用者都可使用免付費電話號碼，這表示如果可以，參與者可以使用這些號碼加入其會議。 如果這不是貴組織中某些使用者想要的行為，您可以透過免付費號碼啟用控制，限制特定使用者在會議中使用這些號碼。
 
-當為給定的召集人停用免付費號碼時：
+為指定召集人停用免付費電話號碼時：
 
-- 免付費號碼將不再包含在其會議邀請中。
-- 免付費號碼將不再列在其會議邀請中參照的「尋找當地號碼」頁面上。
-- 如果參與者撥打組織的任何免付費號碼，他們將無法加入該召集人的會議。
-- 召集人的所有會議都會自動重新排期，免付費號碼也會從這些會議中移除。  
-
-    > [!IMPORTANT]
-    > 這會將召集人的所有電子郵件邀請重新發回給這些會議的所有參與者。
-
-- 參與者可以使用付費號碼繼續加入召集人的會議。
+- 他的會議邀請中將不再包含免付費電話號碼。
+- 免付費電話號碼將不再列在會議邀請中所參照的 [尋找當地號碼] 頁面上。
+- 如果參與者撥打組織的任何免付費電話號碼，就無法加入指定召集人的會議。
+- 參與者可以使用付費電話號碼繼續加入召集人的會議。
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>停用特定使用者的免付費電話號碼
 
-從 Microsoft Teams **系統管理中心**：
+您可以在指派給這些使用者的 *TeamsAudioConferencingPolicy* 中，將 *AllowTollFreeDialIn* 的設定變更為 **[關閉**]，以停用特定使用者的免付費電話號碼。 關閉由這類使用者建立的任何新會議後，將不會包含任何免付費電話號碼。 [付費和免付費電話號碼的音訊會議原則設定](audio-conferencing-toll-free-numbers-policy.md) 有更多資訊。
 
-1. 在左側導覽中， **按一下 [使用者**，然後從可用使用者清單中選取使用者。
-
-2. 在 [ **音訊會議」 旁**，按一下 [ **編輯>**。
-
-3. 將 **此使用者的會議要求包含** 免付費號碼設為 **關閉**。
-
-4. 按一下 **[儲存。**
+> [!IMPORTANT]
+> 舊的和先前排定的週期性會議可能仍會顯示免付費電話號碼，而參與者將無法使用免付費電話號碼加入這類會議。 您可以重新排程這些使用者的所有舊和週期性會議，並使用多媒體簡訊從中移除免付費電話號碼。
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
-
-### <a name="using-powershell"></a>使用 PowerShell
-
-請參閱[powerShell Microsoft Teams PowerShell](/powershell/module/teams/?view=teams-ps)參考資料以瞭解更多資訊。
