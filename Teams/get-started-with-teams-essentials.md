@@ -17,10 +17,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/20/2022
+ms.lasthandoff: 04/21/2022
 ms.locfileid: "62864026"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>適用於小型企業的 Microsoft Teams 基本版快速入門指南

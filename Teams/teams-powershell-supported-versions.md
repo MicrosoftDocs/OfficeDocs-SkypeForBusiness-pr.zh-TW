@@ -12,12 +12,12 @@ ms.collection:
 description: 瞭解用於管理 Microsoft Teams 的 Teams PowerShell 模組支援的版本。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 242c7c43b2af31b11e4183fdf3b9ed1b00f4bb1b
-ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
+ms.openlocfilehash: ac948022050babeff0c5ea3c0dbde853e0fabc54
+ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64866238"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65019325"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 模組 - 支援的版本
 
@@ -69,6 +69,7 @@ Microsoft Teams 4.x.x 系列或更新版本中的 PowerShell 模組 (TPM) 版本
 ## <a name="deprecated-cmdlets"></a>已取代的 Cmdlet
 
 - 以下列出一些最近已取代的 Cmdlet。 您可以在個別的公開檔中找到相同的詳細資料。 
+  * [Get-CsOnlineTelephoneNumber](/powershell/module/skype/get-csonlinetelephonenumber)
   * [Get-CsOnlineDialInConferencingUserInfo](/powershell/module/skype/get-csonlinedialinconferencinguserinfo)， [Get-CsOnlineDialInConferencingUserState](/powershell/module/skype/get-csonlinedialinconferencinguserstate)， [Enable-CsOnlineDialInConferencingUser](/powershell/module/skype/enable-csonlinedialinconferencinguser)， [Disable-CsOnlineDialInConferencingUser](/powershell/module/skype/disable-csonlinedialinconferencinguser)
   * [Get-CsOnlineDirectoryTenant](/powershell/module/skype/get-csonlinedirectorytenant)
   * [New-CsOnlineAudioFile](/powershell/module/skype/new-csonlineaudiofile)
