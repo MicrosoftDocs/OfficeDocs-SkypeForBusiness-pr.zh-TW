@@ -17,17 +17,17 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f97b2aea15fe626c7780f022e2d024729ad02589
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62363179"
 ---
 # <a name="manage-user-access-to-education-insights"></a>管理 Education Insights 的使用者存取權
 
 本文件提供管理[Microsoft Teams 中的 Education Insights](class-insights.md) 使用者存取權的必要步驟。
 
-您必須為教育領導者、校區領導者、學校校長、首席教師、顧問、學習領域主任、計畫主任、社交工作者和心理學家提供權限。 當授課者擁有班級團隊時，系統就會 *自動* 提供其權限。
+您必須為教育領導者、校區領導者、學校校長、首席教師、顧問、學習領域主任、計畫主任、社會工作者和心理學家提供權限。當授課者擁有班級團隊時，系統就會 *自動* 提供其權限。
 
 若要提供組織層級 Insights，您必須[從學生資訊系統 (SIS) 匯入資訊](education-insights-sis-data-sync.md)，讓 Insights 會有正確對應的教育系統階層結構。
 
@@ -50,7 +50,7 @@ ms.locfileid: "62363179"
 
 ## <a name="role-based-permissions"></a>角色權限
 
-如果您使用 [SDS V2.1 檔案格式](/schooldatasync/sds-v2.1-csv-file-format) 或 [SDS V2 檔案格式](/schooldatasync/sds-v2-csv-file-format)，您可以匯入教育系統內的所有角色和學校的完整階層。 此完整對應可讓您指派權限給角色。 
+如果您使用 [SDS V2.1 檔案格式](/schooldatasync/sds-v2.1-csv-file-format) 或 [SDS V2 檔案格式](/schooldatasync/sds-v2-csv-file-format)，您可以匯入教育系統內的所有角色和學校的完整階層。此完整對應可讓您指派權限給角色。 
 
 > [!NOTE]
 > 當使用者獲派角色時，他們會自動收到正確的權限，以查看與使用者相關的資料。
@@ -92,14 +92,14 @@ ms.locfileid: "62363179"
 * 按一下畫面左側的 **授予個別權限**。
 * 輸入每個使用者的使用者名稱或電子郵件地址。
 * 選取權限等級：
-  * **全部** 表示使用者會看到所有層級的所有組織單位。 這很少使用。
+  * **全部** 表示使用者會看到所有層級的所有組織單位。這很少使用。
   * **特定組織** 表示使用者會看到選取的組織單位，以及其下的所有組織單位。 開始輸入，然後從清單中選取組織單位。
 * 按一下 **[授與權限]** 以儲存。
 
 ### <a name="change-the-individual-permission-of-a-user"></a>變更使用者的個別權限
 * 針對相關使用者，按一下鉛筆圖示以選取個別的權限等級。
 * 選取權限等級：
-  * **全部** 表示使用者會看到所有層級的所有組織單位。 這很少使用。
+  * **全部** 表示使用者會看到所有層級的所有組織單位。這很少使用。
   * **特定組織** 表示使用者會看到選取的組織單位，以及其下的所有組織單位。 開始輸入，然後從清單中選取組織單位。
   * **無** 表示使用者只會看到由其角色自動指派的組織單位 (如果有)。
   

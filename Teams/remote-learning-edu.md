@@ -19,10 +19,10 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d061fa0cda1620980e7da68a345fc13acb6fc12a
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2022
+ms.lasthandoff: 04/20/2022
 ms.locfileid: "62362979"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
@@ -42,7 +42,7 @@ ms.locfileid: "62362979"
 > - 您可以使用 [**單頁入門**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/teams-for-education-getting-started-1-pager.pdf?raw=true)，迅速建立整個教育機構的資料，並在 Teams 中執行。
 > - 下載 [**如何開始使用 Teams**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/Teams-for-Education-ITAdmin-get-started-guide.pptx?raw=true)：適用於 IT 專業人員的指南，其中包含有關安全性和變更管理的實用作法。
 > - 專為授課者撰寫的文章集合，包括最重要之 [**在 Teams 中教學首要步驟**](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114)的使用方法指南。
-> - Microsoft 教育工作者中心的 1 小時線上課程，說明授課者如何在其專業領域中使用 Teams。 [**使用 Microsoft Teams 轉換學習**](https://education.microsoft.com/course/9c9f5c11/overview)。
+> - Microsoft 教育工作者中心的 1 小時線上課程，說明授課者如何在其專業領域中使用 Teams。[**使用 Microsoft Teams 轉換學習**](https://education.microsoft.com/course/9c9f5c11/overview)。
 > - Microsoft 教育工作者中心的 1 小時線上課程，引導授課者在班級 團隊中進行教學。 [**使用班級 Teams 營造共同學習環境**](https://education.microsoft.com/course/b1e15cfc/overview)。
 > - 如果您是授課者、學生、家長或監護人，請透過 [**使用 Office 365 遠端教學和學習**](https://aka.ms/RemoteLearningHelp)取得更多指引。
 > - 家長和監護人也可以前往我們的 [**家長支援頁面**](https://support.office.com/article/remote-learning-with-office-365-guidance-for-parents-and-guardians-89d514f9-bf5e-4374-a731-a75d38ddd588)，取得遠端學習的協助。
@@ -232,7 +232,7 @@ SDS 會透過兩個步驟建立團隊。 第一個步驟會在 Azure Active Dire
 
 - 盡早部署！盡早部署，以確保各個項目都能可靠地運作，且備妥供學校的第一天使用。
 - 如果您有超過 50 萬個團隊，建議您使用[由授課者引導的團隊建立方法](#educator-led-team-creation-from-office-365-class-groups)。 透過只建立相關且需要的班級團隊，該方法能夠減少未使用的團隊和雜亂。  
-- 如果 SDS 自動化建立團隊發生任何問題 (例如班級遺失)，而授課者立即需要使用這些團隊，則可以使用[由授課者引導的團隊建立方法](#educator-led-team-creation-from-office-365-class-groups)來重試。 [手動建立團隊](#manual-team-creation)是另一個解決方案，但是無法保持更新您的團隊成員資格。  
+- 如果 SDS 自動化建立團隊發生任何問題 (例如班級遺失)，而授課者立即需要使用這些團隊，則可以使用[由授課者引導的團隊建立方法](#educator-led-team-creation-from-office-365-class-groups)來重試。[手動建立團隊](#manual-team-creation)則是另一個解決方案，然而它無法更新您的團隊會員資格。  
 - 租用戶團隊的限制為 50 萬個團隊。 因此，系統管理員應積極嘗試減少未使用的團隊數量，以避免到達這些限制並延長其設定時間。 如需有關限制的詳細資訊，請參閱 [Microsoft Teams 的限制和規格](limits-specifications-teams.md)。  
 
 #### <a name="early-access-to-class-teams"></a>優先存取班級團隊
