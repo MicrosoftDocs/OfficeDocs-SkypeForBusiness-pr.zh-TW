@@ -3,7 +3,7 @@ title: 保留附加至商務用 Skype會議的大型檔案
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
-ms.reviewer: brendonb, markjjo
+ms.reviewer: brendonb, v-tophillips
 ms.topic: article
 ms.assetid: 12203a1a-4a9f-4838-88c5-3740ea16ed8d
 ms.tgt.pltfrm: cloud
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 您可以將檔案附加至商務用 Skype會議，參與者就可以開啟並下載。 附加至商務用 Skype會議的檔案會保留在任何參與者的信箱中，該參與者的信箱設為訴訟資料暫留、已套用Microsoft 365或Office 365保留原則，或是在 Microsoft Purview 合規性入口網站中將電子檔探索案例相關聯的保留狀態。 此內容會儲存到參與者信箱中的 [可復原的專案] 資料夾。
-ms.openlocfilehash: 35792e3415d3def0b8ac45ab39e9dec65f2f7725
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: b799c1a471ac3884aa1b22cc1a681e53ee8284e9
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922434"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031868"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>保留附加至商務用 Skype會議的大型檔案
 

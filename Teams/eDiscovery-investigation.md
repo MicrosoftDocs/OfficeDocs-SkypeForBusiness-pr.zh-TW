@@ -1,7 +1,7 @@
 ---
 title: 對內容進行電子檔探索調查
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ description: 瞭解當您需要執行電子檔探索時該怎麼辦，例如當�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d0906e24cc4bb749779bf432fe27c9c2af6ac0e3
-ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
+ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64866198"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031918"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中對內容進行電子檔探索調查
 
@@ -82,7 +82,7 @@ ms.locfileid: "64866198"
   > [!div class="mx-imgBorder"]
   > ![合規性複本中的會議中繼資料。](media/conversationOption3.png)
 
-如需進行電子檔探索調查的詳細資訊，請參[閱使用核心電子檔探索開始](/microsoft-365/compliance/get-started-core-ediscovery)。
+如需進行電子檔探索調查的詳細資訊，請參[閱使用電子檔探索 (標準) 開始](/microsoft-365/compliance/get-started-core-ediscovery)。
 
 Microsoft Teams資料會在Excel電子檔探索匯出輸出中顯示為 IM 或交談。 您可以在Outlook中開 `.pst` 啟檔案，以便在匯出郵件後檢視這些郵件。
 
@@ -131,7 +131,7 @@ Microsoft Teams資料會在Excel電子檔探索匯出輸出中顯示為 IM 或�
     Get-TeamChannelUser -GroupId <parent team GroupId> -DisplayName "Partner Shared Channel"
    ```
 
-4. 在核心電子檔探索中或識別和收集監管人內容時，將私人頻道的擁有者和成員的信箱納入[核心電子檔探索中的電子檔探索搜尋查詢](/microsoft-365/compliance/search-for-content-in-core-ediscovery)中，或[是在 Advanced eDiscovery 中識別和收集監管人內容](/microsoft-365/compliance/add-custodians-to-case)。
+4. 在[eDiscovery (Standard) ](/microsoft-365/compliance/search-for-content-in-core-ediscovery)中，或是在電子檔探索 (進階版) [中識別和收集監管人內容](/microsoft-365/compliance/add-custodians-to-case)時，包含私人頻道擁有者和成員的信箱。
 
 ### <a name="identifying-the-sharepoint-site-for-private-and-shared-channels"></a>識別私人和共用頻道的SharePoint網站
 
@@ -166,7 +166,7 @@ Microsoft Teams資料會在Excel電子檔探索匯出輸出中顯示為 IM 或�
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 
-4. 包含與私人或共用通道關聯的網站，做為[您在核心電子檔探索中的電子檔探索搜尋查詢](/microsoft-365/compliance/search-for-content-in-core-ediscovery)的一部分，或[是在 Advanced eDiscovery 中識別和收集監管人內容](/microsoft-365/compliance/add-custodians-to-case)時。
+4. 在[eDiscovery (Standard) 中，或是在 eDiscovery (進階版) ](/microsoft-365/compliance/search-for-content-in-core-ediscovery)中[識別和收集監管人內容](/microsoft-365/compliance/add-custodians-to-case)時，包含與私人或共用通道關聯的網站。
 
 ## <a name="search-for-content-for-guest-users"></a>搜尋來賓使用者的內容
 
@@ -251,6 +251,6 @@ Microsoft Teams資料會在Excel電子檔探索匯出輸出中顯示為 IM 或�
 ## <a name="related-topics"></a>相關主題
 
 - [Microsoft 365電子檔探索解決方案](/microsoft-365/compliance/ediscovery)
-- [使用核心電子檔探索開始](/microsoft-365/compliance/get-started-core-ediscovery)
-- [在 Advanced eDiscovery 中Teams工作流程](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
+- [開始使用 eDiscovery (Standard) ](/microsoft-365/compliance/get-started-core-ediscovery)
+- [Teams電子檔探索 (進階版) 中的工作流程](/microsoft-365/compliance/teams-workflow-in-advanced-ediscovery)
 - [Teams PowerShell 概觀](teams-powershell-overview.md)

@@ -1,7 +1,7 @@
 ---
 title: 將Microsoft Teams使用者或小組依法保留
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ f1.keywords:
 description: 瞭解如何使用 Microsoft Purview 合規性入口網站，將Microsoft Teams使用者或小組設為法律保留狀態，並瞭解哪些專案需要根據資料需求進行法律保留。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d56bece07fe7342c4156abdae73508a1a149864
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 1f0ea852b564ac339ac390994384258cc5d68ea1
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922454"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031908"
 ---
 # <a name="place-a-microsoft-teams-user-or-team-on-legal-hold"></a>將Microsoft Teams使用者或小組依法保留
 
@@ -35,7 +35,7 @@ ms.locfileid: "64922454"
 > 將使用者設為保留狀態並不會自動將群組設為保留狀態，反之亦然。
 > 活動摘要中傳送的通知無法保留。
 
-若要在核心電子檔探索案例中將使用者或小組以法律方式保留：
+若要在 eDiscovery (標準) 案例中保留使用者或小組：
 
 1. 移至 [Microsoft Purview 合規性入口網站](https://compliance.microsoft.com)。 當您建立新案例時，系統會顯示保留信箱或網站的選項。
 
@@ -44,7 +44,7 @@ ms.locfileid: "64922454"
    ![Microsoft Teams已選取電子檔探索索引標籤，顯示 [建立案例] 按鈕。](media/LegalHold1.png)
 
    > [!NOTE]
-   > 您也可以將使用者置於與Advanced eDiscovery案例相關聯的保留中。 如需詳細資訊，請參閱[管理Advanced eDiscovery中的保留](/microsoft-365/compliance/managing-holds)。
+   > 您也可以將使用者置於與 eDiscovery (進階版) 案例相關聯的保留中。 如需詳細資訊，請參閱[管理電子檔探索 (進階版) 中的保留](/microsoft-365/compliance/managing-holds)。
 
 3. 移至頂端功能表上的 [ **保留** ] 索引標籤，然後按一下 [ **建立** ] 以建立保留。 保留使用者或小組會保留這些使用者交換的所有訊息。 當您建立新案例時，系統會顯示保留信箱或網站的選項。
 

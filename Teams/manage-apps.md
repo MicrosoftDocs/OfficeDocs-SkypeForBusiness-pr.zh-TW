@@ -17,73 +17,95 @@ description: 瞭解如何在系統管理中心的 [管理應用程式] 頁面上
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 830850be078da8086253bbb57bb4a29ce6d7c951
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: a6e6adbfbed5e1b371655ca74aa6ca6c717490c9
+ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64961236"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65030939"
 ---
-# <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理您的應用程式
+# <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理Teams應用程式
 
-身為系統管理員，您可以檢視和管理貴組織的所有Teams應用程式。 在Teams系統管理中心的 [管理應用程式] 頁面上，您可以：
+您可以在系統管理中心Teams應用程式中管理貴組織的 **應用程式**。 使用 [[管理應用程式]](https://admin.teams.microsoft.com/policies/manage-apps)頁面來檢視和管理貴組織應用程式目錄中的所有Teams應用程式。 [管理應用程式] 頁面可讓您檢視租使用者目錄中所有可用的應用程式，為您提供決定要允許或封鎖整個組織之應用程式所需的資訊。 您可以查看應用程式的組織層級狀態和屬性、在組織層級封鎖或允許應用程式、將新的自訂應用程式上傳至您的租使用者目錄，以及管理整個組織的應用程式設定。
 
-- [在組織層級允許或封鎖應用程式](#allow-and-block-apps)
-- [發行者封鎖的應用程式](#apps-blocked-by-publishers)
-- [將應用程式新增至團隊](#add-an-app-to-a-team)
-- [核准或上傳新的自訂應用程式至貴組織的應用程式市集](#publish-a-custom-app-to-your-organizations-app-store)
-- [檢視應用程式要求的許可權](#view-resource-specific-consent-permissions)
-- [授與同意給應用程式](#grant-admin-consent-to-apps)
-- [協力廠商應用程式的購買服務](#purchase-services-for-third-party-apps)
-- [查看組織層級的應用程式狀態和屬性](#view-apps)
-- [管理整個組織的應用程式設定](#manage-org-wide-app-settings)
-- [檢視Microsoft 365認證應用程式的安全性和合規性資訊](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
+![[管理應用程式] 頁面的螢幕擷取畫面。](media/manage-apps.png)
 
-[管理應用程式] 頁面可讓您檢視所有可用的應用程式，為您提供決定要允許或封鎖整個組織之應用程式所需的資訊。 接著，您可以使用 [應用程式許可權原則](teams-app-permission-policies.md)、 [應用程式設定原則](teams-app-setup-policies.md)，以及 [自訂應用程式原則和設定](teams-custom-app-policies-and-settings.md) ，為組織中的特定使用者設定應用程式體驗。
+若要管理應用程式，您可以使用下列原則來控制使用者的許可權、應用程式安裝，以及上傳您在組織內建立的自訂應用程式。 若要瞭解原則，請參 [閱應用程式原則概觀](app-policies.md)。
 
-在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。 您必須是全域系統管理員或Teams服務系統管理員才能存取頁面。
-
-![[受管理的應用程式] 頁面的螢幕擷取畫面。](media/manage-apps.png)
+若要瞭解如何取得系統管理員角色和許可權，請[參閱Teams系統管理員角色](./using-admin-roles.md)。
 
 > [!NOTE]
-> Microsoft 365 政府社群雲端 High (GCCH) 或美國商務部 (DoD) Teams 部署中尚未提供 [管理應用程式] 頁面。
+> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="view-apps"></a>檢視應用程式
+> [!NOTE]
+> Microsoft 365 政府社群雲端 High (GCCH) 或美國商務部 (DoD) Teams 部署中無法使用 [管理應用程式] 頁面。
 
-您可以檢視每個應用程式，包括下列每個應用程式的相關資訊。
+<!--- TBD: This info belongs in the app policy overview article. Title it as mentioned in the spreadsheet.
 
-![應用程式的應用程式詳細資料頁面螢幕擷取畫面。](media/app-detail-page.jpg)
+* **App permission policy**: With it, you can control what apps are available to specific users in your organization. You can allow or block all apps or specific apps published by Microsoft, third-parties, and your organization. See [Manage app permission policies in Teams](teams-app-permission-policies.md).
+* **App setup policies**: It lets you customize the app experience for your users. You choose the apps that you want to pin to the app bar in the Teams clients and the order in which they appear, on web, desktop, and mobile clients. See [Manage app setup policies in Teams](teams-app-setup-policies.md).
+* **Custom app policies and settings**: Teams allows developers in your organization to build, test, and deploy custom apps to other users. Custom apps can be added to Teams by uploading an app package in a .zip file directly to a team or in the personal context. You can use app setup policies to control who in your organization can upload custom apps. You can also set org-wide settings to control whether users can interact with specific custom apps. See [Manage custom app policies and settings in Teams](teams-custom-app-policies-and-settings).
 
-- **名稱**：應用程式名稱。 選取應用程式名稱以移至應用程式詳細資料頁面，以查看應用程式的詳細資訊。 這包括應用程式的描述，無論應用程式是否允許或封鎖、版本、隱私權原則、使用條款、適用于應用程式的類別、認證狀態、支援功能和應用程式識別碼。
-- **認證**：如果應用程式通過認證，您會看到 **Microsoft 365認證** 或 **Publisher證明**。 選取連結以檢視應用程式的認證詳細資料。 如果您看到 `--` ，我們就不會有應用程式的認證資訊。 若要深入瞭解 Teams 中的認證應用程式，請參[閱Microsoft 365應用程式認證計畫。](/microsoft-365-app-certification/overview)
-- **Publisher**：發行者的名稱。
-- **發佈狀態**：自訂應用程式的發佈狀態。
-- **狀態**：組織層級的應用程式狀態，可以是下列其中一項：
-  - **允許**：此應用程式適用于組織中的所有使用者。
-  - **已封鎖**：此應用程式已封鎖，且不適用於貴組織中的任何使用者。
-  - **發行者封鎖**：此應用程式會被發行者封鎖，使用者預設會隱藏。 使用發行者的指引設定應用程式之後，您可以允許或封鎖應用程式，讓使用者使用。
-  - **全組織封鎖**：整個組織應用程式設定會封鎖此應用程式。
-      請務必瞭解，此欄代表先前位於 **全組織設定** 窗格上的應用程式所允許和封鎖的狀態。 您現在可以在 [管理應用程式] 頁面上檢視、封鎖及允許整個組織中的 **應用程式** 。
-- **授權**：表示應用程式是否提供「軟體即服務」 (SaaS) 訂閱以供購買。 此欄僅適用于協力廠商應用程式。 每一個協力廠商應用程式都會有下列其中一個值：
-  - **購買**：此應用程式提供 SaaS 訂閱，且可供購買。  
-  - **已購買**：應用程式提供 SaaS 訂閱，而且您已購買該訂閱的授權。
-  - **- -**：應用程式不提供 SaaS 訂閱。
-- **自訂應用程式**：應用程式是否為自訂應用程式。
-- **許可權**：指出在 Azure Active Directory (Azure AD) 中註冊的協力廠商或自訂應用程式是否具有需要同意的許可權。 您會看到下列其中一個值：
-  - **檢視詳細資料**：應用程式具有需要同意的許可權，應用程式才能存取資料。
-  - **- -**：應用程式沒有需要同意的許可權。
-- **類別**：套用至應用程式的類別。
-- **版本**：App 版本。
-- **系統管理員可以在會議中安裝**：指出系統管理員是否可以在小組會議中安裝應用程式。 [瞭解更多資訊](teams-app-setup-policies.md#install-apps)
+The following are the important use cases you can accomplish via the the Manage apps page:
 
-若要在表格中查看您要的資訊，請選取右上角的 **[編輯資料行** ]，以新增或移除資料表中的資料行。
+* [Allow or block apps at the org level](#allow-and-block-apps)
+* [Apps blocked by publishers](#apps-blocked-by-publishers)
+* [Add apps to teams](#add-an-app-to-a-team)
+* [Approve or upload new custom apps to your organization's app store](#publish-a-custom-app-to-your-organizations-app-store)
+* [View permissions requested by apps](#view-resource-specific-consent-permissions)
+* [Grant consent to apps](#grant-admin-consent-to-apps)
+* [Purchase service for third-party apps](#purchase-services-for-third-party-apps)
+* [See org-level status and properties of apps](#view-apps)
+* [Manage org-wide app settings](#manage-org-wide-app-settings)
+* [View security and compliance information for Microsoft 365 Certified apps](#view-security-and-compliance-information-for-microsoft-365-certified-apps)
+
+<!--- TBD: Commenting for now in favor of the definition list above: 
+
+The Manage apps page gives you a view into all available apps, providing you with the information you need to decide which apps to allow or block across your organization. You can then use [app permission policies](teams-app-permission-policies.md), [app setup policies](teams-app-setup-policies.md), and [custom app policies and settings](teams-custom-app-policies-and-settings.md) to configure the app experience for specific users in your organization.
+
+In the left navigation of the Microsoft Teams admin center, go to **Teams apps** > **Manage apps**. You must be a global admin or Teams service admin to access the page.
+
+--->
+
+<!--- TBD: Move this view apps section to a new article about navigating and understanding TAC. It is yet to be created.
+
+## View apps
+
+You can view every app including the following information about each app.
+
+![Screenshot of the apps details page for an app.](media/app-detail-page.jpg)
+
+- **Name**: The app name. Select the app name to go to the app details page to see more information about the app. This includes a description of the app, whether it's allowed or blocked, version, privacy policy, terms of use, categories that apply to the app, certification status, supported capabilities, and app ID.
+- **Certification**: If the app has gone through certification, you'll see either **Microsoft 365 certified** or **Publisher attestation**. Select the link to view certification details for the app. If you see `--`, we don't have certification information for the app. To learn more about certified apps in Teams, read [Microsoft 365 App Certification program](/microsoft-365-app-certification/overview).
+- **Publisher**: Name of the publisher.
+- **Publishing status**: Publishing status of custom apps.
+- **Status**: Status of the app at the org level, which can be one of the following:
+  - **Allowed**: The app is available for all users in your organization.
+  - **Blocked**: The app is blocked and not available for any users in your organization.
+  - **Blocked by publisher**: The app is blocked by the publisher and is hidden from end-users by default. After you set up the app using the publisher's guidance, you can allow or block the app to make it available to end-users.
+  - **Blocked org-wide**: The app is blocked in org-wide app settings.
+      It's important to know that this column represents the allowed and blocked status of apps that were formerly on the **Org-wide settings** pane. You now view, block, and allow apps at the org-wide on the **Manage apps** page.
+- **Licenses**: Indicates whether an app offers a Software as a Service (SaaS) subscription for purchase. This column applies only to third-party apps. Each third-party app will have one of the following values:
+  - **Purchase**: The app offers a SaaS subscription and is available to purchase.  
+  - **Purchased**: The app offers a SaaS subscription and you've purchased licenses for it.
+  - **- -**: The app doesn't offer a SaaS subscription.
+- **Custom app**: Whether the app is a custom app.
+- **Permissions**: Indicates whether a third-party or custom app that's registered in Azure Active Directory (Azure AD) has permissions that need consent. You'll see one of the following values:
+  - **View details**: The app has permissions that require consent before the app can access data.
+  - **- -**: The app doesn't have permissions that need consent.
+- **Categories**: Categories that apply to the app.
+- **Version**: App version.
+- **Admin can install in meetings**: Indicates whether an app can be installed by admins in Team meetings. [Learn more](teams-app-setup-policies.md#install-apps)
+
+To see the information that you want in the table, select **Edit Column** in the upper-right corner to add or remove columns to the table.
+--->
 
 ## <a name="publish-a-custom-app-to-your-organizations-app-store"></a>將自訂應用程式發佈到貴組織的 App 市集
 
 使用 [管理應用程式] 頁面發佈專為貴組織打造的應用程式。 發佈自訂應用程式之後，您組織應用程式市集中的使用者就可以使用該應用程式。 有兩種方式可以將自訂應用程式發佈到貴組織的 App Store。 您使用的方式取決於取得應用程式的方式。
 
-- [核准自訂應用程式](#approve-a-custom-app)：如果開發人員使用 Teams App 提交 API 直接將應用程式提交到 [管理應用程式] 頁面，請使用此方法。 然後，您可以直接從應用程式詳細資料頁面檢閱及發佈 (或拒絕) 應用程式。
-- [Upload應用程式套](#upload-an-app-package)件：如果開發人員以.zip格式傳送應用程式套件給您，請使用此方法。 您可以上傳應用程式套件來發佈應用程式。
+* [核准自訂應用程式](#approve-a-custom-app)：如果開發人員使用 Teams App 提交 API 直接將應用程式提交到 [管理應用程式] 頁面，請使用此方法。 然後，您可以直接從應用程式詳細資料頁面檢閱及發佈 (或拒絕) 應用程式。
+* [Upload應用程式套](#upload-an-app-package)件：如果開發人員以.zip格式傳送應用程式套件給您，請使用此方法。 您可以上傳應用程式套件來發佈應用程式。
 
 ### <a name="approve-a-custom-app"></a>核准自訂應用程式
 
@@ -129,8 +151,8 @@ ms.locfileid: "64961236"
 ![[新增至團隊] 按鈕的螢幕擷取畫面。](media/manage-apps-add-app-team.png)
 
 1. 搜尋您想要的應用程式，然後按一下應用程式名稱的左邊來選取應用程式。
-2. 選取 **[新增至團隊]**。
-3. 在 [ **新增至團隊** ] 窗格中，搜尋您要新增應用程式的團隊，選取該團隊，然後選取 [ **套用]**。
+1. 選取 **[新增至團隊]**。
+1. 在 [ **新增至團隊** ] 窗格中，搜尋您要新增應用程式的團隊，選取該團隊，然後選取 [ **套用]**。
 
 ## <a name="customize-an-app"></a>自訂應用程式
 
@@ -177,24 +199,23 @@ ms.locfileid: "64961236"
 1. 在 [ **自訂應用程式]** 底下，關閉或開啟 **[允許與自訂應用程式互動]**。 此設定會控制使用者是否可以與自訂應用程式互動。 若要深入了解，請參閱[在 Teams 中管理自訂應用程式原則和設定](teams-custom-app-policies-and-settings.md)。
 1. 選 **取 [** 儲存為整個組織的應用程式設定] 以生效。
 
-## <a name="view-security-and-compliance-information-for-microsoft-365-certified-apps"></a>檢視Microsoft 365認證應用程式的安全性和合規性資訊
+<!--- TBD: Commenting this info for now. Move it later to the new article about compliance program and how/where admins can find info about compliant apps.
 
-當系統管理員為其組織評估應用程式時，可以使用獨立雲端存取安全性代理人 (CASB) ，例如 Microsoft Cloud App Security (MCAS) ，來尋找有關應用程式安全性和行為的資訊。 Teams系統管理中心包含來自MCAS Microsoft 365認證應用程式的安全性與合規性資訊，以便您取得有關應用程式是否符合您需求的詳細資訊。
+## View security and compliance information for Microsoft 365 Certified apps
+
+When evaluating an app for their organization, admins can use independent Cloud Access Security Brokers (CASB), such as Microsoft Cloud App Security (MCAS), to find information about security and behaviors of an app. The Teams admin center includes security and compliance information from MCAS for Microsoft 365 Certified apps so you'll have more information on whether or not the app meets your needs.
 
 > [!NOTE]
-> 無論您的組織是否有支援MCAS授權，所有系統管理員都可以使用此功能。
+> This feature is available to all admins, whether or not your organization has a license that supports MCAS.
 
-若要存取MCAS資訊，請遵循下列步驟：
+To access MCAS information, follow these steps:
 
-1. 在Teams系統管理中心中，選取 [Teams應用程式] 底下的 [**管理****應用程式]**。
-1. 選 **取 [認證**] 來排序應用程式，並將所有Microsoft 365認證的應用程式推送到表格頂端。
-1. 選擇Microsoft 365認證的應用程式。
-1. 選取 **[安全性與合規性] 索引** 標籤。
+1. In the Teams admin center, select **Manage apps** under **Teams apps**.
+1. Select **Certification** to sort apps and push all Microsoft 365 Certified apps to the top of the table.
+1. Choose a Microsoft 365 Certified app.
+1. Select the **Security and compliance** tab.
 
-![Teams系統管理中心安全性與合規性索引標籤的螢幕擷取畫面。](media/mcas.png)
+![Screenshot of Teams admin center security and compliance tab.](media/mcas.png)
 
-在此索引標籤上，您會找到安全性、合規性及資料保護的相關資訊。 您也可以展開每個下拉式清單，深入瞭解所選應用程式支援哪些功能。
-
-## <a name="related-topics"></a>相關主題
-
-- [在 Teams 中管理應用程式的設定](admin-settings.md)
+On this tab, you'll find information on security, compliance, and data protection. You can also expand each dropdown list to get more details about which capabilities are supported for the selected application.
+--->

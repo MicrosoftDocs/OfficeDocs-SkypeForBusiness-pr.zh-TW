@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2e0238439bb79a7ca7833ef082f4f499c082aa9
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 1c41ac53e95c179fc62b5e2e469bb614cbdcd516
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922614"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031898"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Microsoft Teams中的安全性和合規性
 
@@ -149,9 +149,9 @@ Microsoft Teams中的保留原則可讓您基於法規、法律、業務或其�
 
 我們有一篇Teams特定的文章，如需詳細資訊，請參閱對[Microsoft Teams中的內容進行電子檔探索調查](eDiscovery-investigation.md)。
 
-客戶可以根據自己的需求運用電子檔探索或[Advanced eDiscovery](/microsoft-365/compliance/office-365-advanced-ediscovery)。 下表概述這兩者之間的差異：
+客戶可以根據自己的需求運用電子檔探索或[電子檔探索 (進階版) ](/microsoft-365/compliance/office-365-advanced-ediscovery)。 下表概述這兩者之間的差異：
 
-|&nbsp; |電子文件探索  |Advanced eDiscovery  |
+|&nbsp; |電子文件探索  |eDiscovery (進階版)   |
 |---------|---------|---------|
 |案例管理     |X        |X         |
 |存取控制  |X         |X         |
@@ -216,7 +216,7 @@ Microsoft Teams中的保留原則可讓您基於法規、法律、業務或其�
 如需判斷授權是否需要實作安全性與合規性功能的相關資訊，請檢閱安全性與合規性功能的 [授權需求](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) 。
 
 > [!NOTE]
-> 內容搜尋、核心電子檔探索和Advanced eDiscovery不需要在 Microsoft Purview 合規性入口網站中啟用即可運作。 如需詳細資訊，請[參閱Microsoft 365電子檔探索解決方案](/microsoft-365/compliance/ediscovery)。
+> 您不需要在 Microsoft Purview 合規性入口網站中啟用內容搜尋、電子檔探索 (標準) 和電子檔探索 (進階版) 即可運作。 如需詳細資訊，請[參閱Microsoft 365電子檔探索解決方案](/microsoft-365/compliance/ediscovery)。
 
 ## <a name="location-of-data-in-teams"></a>Teams 中的資料位置
 

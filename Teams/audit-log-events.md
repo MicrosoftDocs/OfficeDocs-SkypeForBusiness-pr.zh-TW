@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中搜尋事件的稽核記錄
-author: markjjo
-ms.author: markjjo
+author: v-tophillips
+ms.author: v-tophillips
 manager: laurawi
 ms.topic: article
 audience: admin
@@ -15,12 +15,12 @@ search.appverid: MET150
 description: 瞭解如何從 Microsoft Purview 合規性入口網站的稽核記錄擷取Microsoft Teams資料。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 744a18f2a8f7f2ed406853ef7efbc9842d0096f5
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 82da7932fb87101ee04759ede3d96b68cbb64aa2
+ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922634"
+ms.lasthandoff: 04/22/2022
+ms.locfileid: "65031888"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>在 Microsoft Teams 中搜尋事件的稽核記錄
 
@@ -141,7 +141,7 @@ ms.locfileid: "64922634"
 ||||
 
 > [!NOTE]
-> <sup>1</sup>只有在執行此作業時，才會記錄此事件的稽核記錄，方法是致電 Microsoft 圖形 API。 如果作業是在Teams用戶端中執行，則不會記錄稽核記錄<br/><sup>2</sup> 此事件僅適用于進階稽核。 這表示，在這些事件登入稽核記錄之前，必須先指派適當的授權給使用者。 如需僅適用于進階稽核之活動的詳細資訊，請參閱[Microsoft 365中的進階稽核](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 如需進階稽核授權需求，請參[閱Microsoft 365中的稽核解決方案](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)。 <br/> <sup>3</sup> 此活動為公開預覽。
+> <sup>1</sup>只有在執行此作業時，才會記錄此事件的稽核記錄，方法是致電 Microsoft 圖形 API。 如果作業是在Teams用戶端中執行，則不會記錄稽核記錄<br/><sup>2</sup>此事件僅適用于稽核 (進階版) 。 這表示，在這些事件登入稽核記錄之前，必須先指派適當的授權給使用者。 如需僅在稽核 (進階版) 中提供之活動的詳細資訊，請參閱[Microsoft Purview 中的稽核 (進階版) ](/microsoft-365/compliance/advanced-audit#advanced-audit-events)。 如需稽核 (進階版) 授權需求，請參閱[Microsoft 365中的稽核解決方案](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)。 <br/> <sup>3</sup> 此活動為公開預覽。
 
 ## <a name="shifts-in-teams-activities"></a>Teams活動中的班次
 
