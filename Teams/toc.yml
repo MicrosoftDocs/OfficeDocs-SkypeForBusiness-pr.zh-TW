@@ -667,90 +667,94 @@ items:
                 href: teams-live-events/live-events-recording-policies.md
       - name: 音訊會議
         items:
-          - name: 規劃您的部署
-            href: deploy-audio-conferencing-teams-landing-page.md
-          - name: Microsoft 365 中的音訊會議
+          - name: M365 中的音訊會議
             href: audio-conferencing-in-office-365.md
-          - name: 以音訊會議進行的網路會議
-            href: audio-conferencing-on-network.md
-          - name: 音訊會議的常見問題
-            href: audio-conferencing-common-questions.md
-          - name: 試用或購買 Microsoft 365 的音訊會議
-            href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: 規劃
+            items:
+              - name: 規劃您的部署
+                href: deploy-audio-conferencing-teams-landing-page.md
+              - name: 以音訊會議進行的網路會議
+                href: audio-conferencing-on-network.md
+              - name: 音訊會議的常見問題
+                href: audio-conferencing-common-questions.md
+              - name: 試用或購買 Microsoft 365 的音訊會議
+                href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: 設定
+            items:
+              - name: 設定音訊會議
+                href: set-up-audio-conferencing-in-teams.md
+              - name: 設定音訊會議 - 中小型企業快速入門
+                href: audio-conferencing-smb.md
+          - name: 管理
+            items:
+              - name: 管理您的音訊會議服務
+                items:
+                  - name: 適用於美國和加拿大的延長撥出通話時間
+                    href: dial-out-minutes-canada-us.md
+                  - name: 音訊會議訂用帳戶的「撥出」/「用下列電話號碼連絡我」優惠
+                    href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+                  - name: 音訊會議按分鐘計費
+                    href: audio-conferencing-pay-per-minute.md
+              - name: 管理音訊會議橋接器
+                items:
+                  - name: 變更音訊會議橋接器的電話號碼
+                    href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
+                  - name: 變更音訊會議橋接器的設定
+                    href: change-the-settings-for-an-audio-conferencing-bridge.md
+                  - name: 查看音訊會議的號碼清單
+                    href: see-a-list-of-audio-conferencing-numbers-in-teams.md
+                  - name: 設定音訊會議的自動語音應答語言
+                    href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
+                  - name: 為使用者設定會議撥出確認
+                    href: set-up-meeting-dial-out-confirmation.md
+              - name: 管理組織的音訊會議設定
+                href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
+              - name: 管理使用者的音訊會議設定
+                items:
+                  - name: 概觀
+                    href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
+                  - name: 查看可使用音訊會議的使用者清單
+                    href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
+                  - name: 讓使用者在加入會議時記錄他們的名稱
+                    href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
+                  - name: 重設使用者的會議識別碼
+                    href: reset-a-conference-id-for-a-user-in-teams.md
+                  - name: 重設使用者的音訊會議 PIN 碼
+                    href: reset-the-audio-conferencing-pin-in-teams.md
+                  - name: 在使用者設定變更時自動傳送給他們的電子郵件
+                    href: emails-sent-to-users-when-their-settings-change-in-teams.md
+                  - name: 啟用或停用當音訊會議設定變更時傳送電子郵件的設定
+                    href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
+                  - name: 付費和免付費電話號碼的原則設定
+                    href: audio-conferencing-toll-free-numbers-policy.md
+                  - name: 停用特定使用者的免付費電話號碼
+                    href: disabling-toll-free-numbers-for-specific-teams-users.md
+                  - name: 音訊會議和使用者 PSTN 通話的撥出通話限制原則
+                    href: outbound-calling-restriction-policies.md
+                  - name: 檢視並重設指派給使用者的會議識別碼
+                    href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
+                  - name: 傳送內含音訊會議資訊的電子郵件給使用者
+                    href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
+              - name: 管理音訊會議的會議設定
+                items:
+                  - name: 從會議撥出以便其他人加入會議
+                    href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
+                  - name: 開啟或關閉進入和結束會議的公告
+                    href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
+                  - name: 設定音訊會議的 PIN 碼長度
+                    href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
+                  - name: 設定邀請中包含的電話號碼
+                    href: set-the-phone-numbers-included-on-invites-in-teams.md
+                  - name: 透過電話啟動不需要 PIN 碼的音訊會議
+                    href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
+                  - name: 在 Teams 會議中遮罩電話號碼
+                    href: ptsn-mask-phone-numbers.md
           - name: 電信業者連線會議
             items:
               - name: 概觀
                 href: operator-connect-conferencing-plan.md
               - name: 設定電信業者連線會議
                 href: operator-connect-conferencing-configure.md
-          - name: 適用於美國和加拿大的延長撥出通話時間
-            href: dial-out-minutes-canada-us.md
-          - name: 音訊會議附贈的撥出時間
-            href: complimentary-dial-out-period.md
-          - name: 音訊會議訂用帳戶的「撥出」/「用下列電話號碼連絡我」優惠
-            href: audio-conferencing-subscription-dial-out.md
-          - name: 設定音訊會議
-            href: set-up-audio-conferencing-in-teams.md
-          - name: 設定音訊會議 - 中小型企業快速入門
-            href: audio-conferencing-smb.md
-          - name: 將 Microsoft 指派為音訊會議提供者
-            href: /SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
-          - name: 管理音訊會議橋接器
-            items:
-              - name: 變更音訊會議橋接器的電話號碼
-                href: change-the-phone-numbers-on-your-audio-conferencing-bridge.md
-              - name: 變更音訊會議橋接器的設定
-                href: change-the-settings-for-an-audio-conferencing-bridge.md
-              - name: 查看音訊會議的號碼清單
-                href: see-a-list-of-audio-conferencing-numbers-in-teams.md
-              - name: 設定音訊會議的自動語音應答語言
-                href: set-auto-attendant-languages-for-audio-conferencing-in-teams.md
-              - name: 為使用者設定會議撥出確認
-                href: set-up-meeting-dial-out-confirmation.md
-          - name: 管理組織的音訊會議設定
-            href: manage-the-audio-conferencing-settings-for-my-organization-in-teams.md
-          - name: 音訊會議按分鐘計費
-            href: audio-conferencing-pay-per-minute.md
-          - name: 管理使用者的音訊會議設定
-            items:
-              - name: 概觀
-                href: manage-the-audio-conferencing-settings-for-a-user-in-teams.md
-              - name: 查看可使用音訊會議的使用者清單
-                href: see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-teams.md
-              - name: 讓使用者在加入會議時記錄他們的名稱
-                href: enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md
-              - name: 重設使用者的會議識別碼
-                href: reset-a-conference-id-for-a-user-in-teams.md
-              - name: 重設使用者的音訊會議 PIN 碼
-                href: reset-the-audio-conferencing-pin-in-teams.md
-              - name: 在使用者設定變更時自動傳送給他們的電子郵件
-                href: emails-sent-to-users-when-their-settings-change-in-teams.md
-              - name: 啟用或停用當音訊會議設定變更時傳送電子郵件的設定
-                href: enable-or-disable-sending-emails-when-their-settings-change-in-teams.md
-              - name: 停用特定使用者的免付費電話號碼
-                href: disabling-toll-free-numbers-for-specific-teams-users.md
-              - name: 音訊會議和使用者 PSTN 通話的撥出通話限制原則
-                href: outbound-calling-restriction-policies.md
-              - name: 檢視並重設指派給使用者的會議識別碼
-                href: see-change-and-reset-a-conference-id-assigned-to-a-user-in-teams.md
-              - name: 傳送內含音訊會議資訊的電子郵件給使用者
-                href: send-an-email-to-a-user-with-their-dial-in-information-in-teams.md
-          - name: 管理音訊會議的會議設定
-            items:
-              - name: 從會議撥出以便其他人加入會議
-                href: dialing-out-from-a-teams-meeting-so-other-people-can-join-it.md
-              - name: 開啟或關閉進入和結束會議的公告
-                href: turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md
-              - name: 設定音訊會議的 PIN 碼長度
-                href: set-the-pin-length-for-audio-conferencing-meetings-in-teams.md
-              - name: 設定邀請中包含的電話號碼
-                href: set-the-phone-numbers-included-on-invites-in-teams.md
-              - name: 透過電話啟動不需要 PIN 碼的音訊會議
-                href: start-an-audio-conference-over-the-phone-without-a-pin-in-teams.md
-              - name: 在 Teams 會議中遮罩電話號碼
-                href: ptsn-mask-phone-numbers.md
-          - name: 音訊會議的適用國家/地區
-            href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: 參考
             items:
               - name: 音訊會議支援的語言
@@ -759,6 +763,10 @@ items:
                 href: phone-numbers-for-audio-conferencing-in-teams.md
               - name: 音訊會議的適用國家/地區
                 href: audio-conferencing-zones.md
+              - name: 音訊會議的適用國家/地區
+                href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
+              - name: 音訊會議附贈的撥出時間
+                href: complimentary-dial-out-period.md
               - name: 影片：Teams 的音訊會議
                 href: ./audio-conferencing-in-office-365.md
   - name: 語音 - 電話系統與 PSTN 連線
