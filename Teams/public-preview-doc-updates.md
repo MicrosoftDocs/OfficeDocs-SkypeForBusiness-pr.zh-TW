@@ -18,12 +18,12 @@ description: 了解 Microsoft Teams 中的公開預覽。嘗試新功能並提�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 3c07244e49d0c61986ae6eb2c9c9d8e1f522e37b
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: e3fdf0901d150df63fded6dc49822ad81f81f7d5
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62417326"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059184"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公開預覽
 
@@ -46,20 +46,22 @@ Microsoft Teams 的公開預覽可提供 Teams 中尚未發行功能的早期存
 
 2. 為更新原則命名，新增描述，然後選取 **[顯示預覽功能]** 的設定。
 
-   -   **追蹤 Office Preview** (預設值)：這個新的預設選項會自動為註冊 Office 目前通道 (預覽) 的任何使用者啟用 Microsoft Teams 公開預覽功能。使用者不需要執行其他動作。
-   -   **啟用**：無論使用者是否已註冊 Office 目前通道 (預覽)，此選項都會啟用 Microsoft Teams 公開預覽。 使用者也必須在 Teams 應用程式中選擇加入 Microsoft Teams 公開預覽。
+   -   **追蹤 Office Preview** (預設)
+       - 這個新的預設選項會自動為註冊 Office 目前通道 (預覽) 的任何使用者啟用 Microsoft Teams 公開預覽功能。 
+       - 使用者不需要執行其他動作。
+   -   **Enabled**
+       - 無論使用者是否已註冊 Office 目前通道 (預覽)，此選項都會啟用 Microsoft Teams 公開預覽。 
+       - 使用者也必須在 Teams 應用程式中選擇加入 Microsoft Teams 公開預覽。
 
    > [!NOTE]  
    > 對於不在 **目前通道 (預覽)** 中的 Microsoft Teams 公開預覽的現有使用者，IT 系統管理員需要從預設的 **追蹤 Office Preview** 切換到 **啟用**。
  
-   - **未啟用**：使用者可能無法使用 Microsoft Teams 公開預覽功能。
+   - **未啟用** 
+     - 終端使用者將無法使用 Microsoft Teams 公開預覽功能。
 
     ![顯示預覽設定對話方塊。](media/public-preview-policy.png)  
 
 您也可以使用 PowerShell `Set-CsTeamsUpdateManagementPolicy` cmdlet 和 `-AllowPublicPreview` 參數設定原則。
-
-> [!NOTE]   
-> AllowPreview 參數即將遭到取代。
 
 ## <a name="enable-public-preview"></a>啟用公開預覽
 
@@ -74,7 +76,7 @@ Microsoft Teams 的公開預覽可提供 Teams 中尚未發行功能的早期存
 
 ## <a name="teams-now-follows-office-preview-users"></a>Teams 現在會追蹤 Office Preview 使用者
 
-如果使用者位於 Windows 上 Office 365 用戶端的目前通道 (預覽)，**追蹤 Office Preview** 的新全域原則預設值就會自動讓使用者位於 Teams 的公開預覽通道中。
+如果使用者位於 Windows 與 Mac 上 Office 365 用戶端的目前通道 (預覽)，**追蹤 Office Preview** 的新全域原則預設值就會自動讓使用者位於 Teams 的公開預覽通道中。
 
 Microsoft Office 將繼續從目前通道 (預覽) 接收更新，而 Teams 用戶端將會透過公開預覽通道接收更新。 此原則不會根據 Teams 通道去切換 Office 通道。 
 
@@ -85,10 +87,6 @@ Microsoft Office 將繼續從目前通道 (預覽) 接收更新，而 Teams 用�
 **如何退出此設定？**
 
 您可以停用 Teams 系統管理中心的設定，從 **追蹤 Office Preview** 到 **未啟用** (請參閱 [設定更新原則](#set-the-update-policy))
-
-## <a name="known-issues"></a>已知問題
-
-Office 目前通道 (預覽) 使用者可以透過 Teams 用戶端的關於功能表結束 Microsoft Teams 公開預覽，同時將其更新原則設為 **追蹤 Office Preview**。 此功能並非預期用途，未來將會移除。 如果使用者在 Office 的目前通道 (預覽)，當裝置下次閒置時，Teams 用戶端可能會自動將功能自行設回公開預覽。
 
 ## <a name="related-topics"></a>相關主題
 

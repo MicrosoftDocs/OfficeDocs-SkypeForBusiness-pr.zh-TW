@@ -1,5 +1,5 @@
 ---
-title: 推動前線Kaizala Microsoft Teams採用
+title: 推動從Kaizala到第一線工作人員的Microsoft Teams採用
 author: Benny-54
 ms.author: v-bshilpa
 manager: serdars
@@ -7,31 +7,37 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: 本文將說明如何在前線員工Microsoft Teams中推動及優化採用。
+description: 本文將說明如何針對第Microsoft Teams工作者推動和優化採用。
 f1.keywords: ''
 ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: edc590b20678595fc7462901b6cae2c5a4d8f2cb
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: ed0221576b42c01de7a8c3d93188a94af2f74317
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398668"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059284"
 ---
-# <a name="microsoft-teams-for-frontline"></a>Microsoft Teams前線版
+# <a name="microsoft-teams-for-frontline"></a>前線Microsoft Teams
 
-Microsoft 承諾盡我們力，解決 Covid-19 對經濟及社會的影響。 我們希望確保您的前線員工能夠存取在困難時期所需的技術資源和專業知識。
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWPCnz]
 
-跨產業的 MICROSOFT 客戶 ，例如[2010 年 4 月 25](https://customers.microsoft.com/story/799203-ikea-retailers-teams)日，2012 年 4 月 4 日，2012 年 4 月[4](https://customers.microsoft.com/story/837930-alcoa-manufacturing-teams)日，Microsoft 客戶正使用 Teams來提升前線員工的能力。
+Microsoft 致力於盡我們所能解決 Covid-19 對經濟及社會的影響。 我們想要確保您的第一線工作人員能夠在這些困難時期存取所需的技術資源和專業知識。
 
-若要[順暢地](/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page)管理輪班排程，[請](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M6Xi)與您的[](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M4Uq)員工聯繫、簡化任務管理程式、啟用社群並與您的社群Teams互動，以及保護[團隊合作](/microsoftteams/teams-security-guide)。
+在各產業中，[IKEA](https://customers.microsoft.com/story/799203-ikea-retailers-teams)和[Alcoa](https://customers.microsoft.com/story/837930-alcoa-manufacturing-teams)等 Microsoft 客戶會使用Teams來增強他們的前線員工能力。
 
-您可以將員工與一對一交談、群組聊天和視音訊通話連線，提高員工的參與度。 透過[Walkie Talkie](/MicrosoftTeams/walkie-talkie)，這是一款原生內建于 Teams。
+若要[順暢地管理班次排程](/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page)，[請聯繫您的員工](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M6Xi)、[簡化任務管理程式](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4M4Uq)、啟用社群與Teams，以及[保護小組工作](/microsoftteams/teams-security-guide)。
 
-使用互動式 IT 系統管理員快速入門手冊，為前線員工設定 [有效的試驗](https://config-flw-interactive-guide.immersivelearning.online/)。
+您可以透過一對一交談、群組聊天和視訊通話來聯繫員工，藉此提高員工的參與度。 透過[無線對講機](/MicrosoftTeams/walkie-talkie)，這是原生內建于Teams的推入式對講應用程式。
 
-使用吸引人的教育影片Microsoft Teams進行前線[訓練](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)。
+使用互動式 [IT 系統管理員快速入門手冊](https://config-flw-interactive-guide.immersivelearning.online/)，為您的第一線員工設定有效的試驗。
 
-有關前線員工在 Teams 的更多系統管理Microsoft Teams請參閱我們的前線員工[- 快速入門手冊](/Microsoftteams/flw-quickstart)。
+針對吸引人[與教育影片](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)Microsoft Teams進行前線訓練。
+
+如需有關Teams中第一線工作人員的詳細系統管理指導方針，請參[閱我們的Microsoft Teams第一線工作人員 – 快速入門手冊。](/Microsoftteams/flw-quickstart)
+
+若要深入瞭解如何利用Microsoft 365優化第一線影響，請流覽我們的[產品和定價頁面](https://www.microsoft.com/microsoft-365/enterprise/frontline)。
+
+若要深入瞭解如何讓第一線工作人員Microsoft Teams，請流覽 [[前線採用中樞] 頁面](https://adoption.microsoft.com/microsoft-teams/frontline-workers/)。

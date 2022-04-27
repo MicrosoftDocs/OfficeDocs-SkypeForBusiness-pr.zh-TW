@@ -1,5 +1,5 @@
 ---
-title: 使用記錄檔案疑難排解Microsoft Teams
+title: 使用記錄檔進行疑難排解Microsoft Teams
 ms.reviewer: tejeshs
 author: CarolynRowe
 ms.author: crowe
@@ -13,62 +13,62 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: 瞭解由 Microsoft Teams 產生的 Debug、Media 和桌面記錄，以及這些記錄可以在哪裡找到，以及這些記錄如何協助監控和疑難排解。
+description: 瞭解由 Microsoft Teams 產生的偵錯、媒體和桌面記錄檔、可找到這些記錄的位置，以及如何協助監控和疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3cb6718c88f3b084f8a38f039a7e707e65c344d7
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.openlocfilehash: 4d8e3ab079498ecfca11a7d2ba48736aaf457329
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63774082"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059104"
 ---
-# <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用記錄檔案來監控和疑難排解Microsoft Teams
+# <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用記錄檔來監視及疑難排解Microsoft Teams
 
-用戶端自動產生的記錄檔案有三種類型，可運用這些記錄檔案以協助監控和疑難排解Teams：
+用戶端會自動產生三種類型的記錄檔，可用於協助監控及疑難排解Teams：
 
--   [調試記錄](#debug-logs)
+-   [偵錯記錄](#debug-logs)
 
--   [媒體記錄](#media-logs)
+-   [媒體記錄檔](#media-logs)
 
--   [桌面記錄](#desktop-logs)
+-   [桌面記錄檔](#desktop-logs)
 
-本文將說明這些記錄及其使用方式。 有關疑難排解特定問題的資訊，請參閱：Teams[疑難排解](/MicrosoftTeams/troubleshoot/teams)。 如需如何與支援人員聯繫的資訊，請參閱 [取得支援](/microsoft-365/business-video/get-help-support)。 使用 Microsoft 支援服務建立支援要求時，支援工程師需要調試記錄。 建立支援要求之前，先將調試記錄放在手邊，Microsoft 就會快速開始疑難排解問題。 **媒體** 或 **桌面** 記錄只有在 Microsoft 要求時才能使用。
+本文將說明這些記錄檔及其使用方式。 如需疑難排解特定問題的相關資訊，請參閱：[Teams疑難排解]](/MicrosoftTeams/troubleshoot/teams)。 如需如何連絡客戶支援的相關資訊，請參閱 [取得支援](/microsoft-365/business-video/get-help-support)。 使用Microsoft 支援服務建立支援要求時，支援工程師將需要偵錯記錄檔。 建立支援要求之前，請先備有偵錯記錄檔，可讓 Microsoft 快速開始疑難排解問題。 **只有** 當 Microsoft 要求時，才需要媒體或 **桌面** 記錄。
 
 > [!NOTE]
-> 本文中，" **調試** 記錄"一詞是指用於疑難排解的記錄。 不過，這些記錄產生的檔案名稱中會包含診斷 **記錄** 一詞。  
+> 在本文中， **「偵錯記錄」** 一詞是指用於疑難排解的記錄檔。 不過，針對這些記錄所產生的檔案名稱中會包含字詞 **診斷記錄** 檔。  
 
-## <a name="collect-and-enable-logging"></a>收集和啟用記錄
+## <a name="collect-and-enable-logging"></a>收集並啟用記錄
 
-發生問題時，收集記錄非常重要。 只要按幾下滑鼠，就能將記錄收集在一起。
+問題發生時，請務必立即收集記錄。 只要按幾下滑鼠，就可以將記錄收集在一起。
 
-- Windows：以滑鼠右鍵按一下系統Teams中的 [收集支援 **檔案**> 圖示。 
+- Windows：以滑鼠右鍵按一下系統匣中的Teams圖示，然後選擇 **[收集支援檔案]**。 
 
-- Mac：選取説明功能表，然後選擇收集 **支援檔案**。
+- Mac：選取 [說明] 功能表，然後選擇 **[收集支援檔案]**。
 
-Debug、Desktop 和 Media 記錄會收集到一個名稱為 _MSTeams 診斷記錄的資料夾 \<local date and time\>_。 當您開啟 Microsoft 支援服務的支援要求時，此資料夾可以壓縮並共用。 資料夾會包含桌面、會議 (媒體) 資料夾，以及 (網頁) 。 您可以使用下列鍵盤快速鍵收集檔案：
+偵錯、桌面和媒體記錄會收集在一個資料夾中，名稱為 _MSTeams 診斷記錄檔 \<local date and time\>_。 當您使用Microsoft 支援服務開啟支援要求時，可以壓縮並共用此資料夾。 資料夾會包含桌面、會議 (媒體) 和偵錯 (網頁) 的資料夾。 您可以使用下列鍵盤快速鍵來收集檔案：
 
 - Windows：<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 - Mac： <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 
-媒體記錄預設為關閉。 若要啟用媒體記錄，使用者必須在用戶端中開啟Teams選項。 前往 **設定**  >  **General**，然後選取啟用會議診斷記錄， (**重新開機Teams)**。 您必須Teams用戶端才能開始記錄 (請以滑鼠右鍵按一下 dock (Mac) 或工作列中的圖示，然後選取 (Windows) 以重新開機。**** 在您離開之後，只要按一下應用程式圖示，即可再次開啟) 。
+媒體記錄檔中所述，只有部分 CPU 預設會開啟 [媒體記錄](#media-logs)。 否則，預設會關閉。 若要啟用媒體記錄，使用者必須開啟Teams用戶端中的選項。 移至 **設定**  >  **General**，然後選取 [**啟用會議診斷記錄]， (需要重新開機Teams)**。 Teams用戶端必須重新開機，記錄才能開始 (重新開機，方法是以滑鼠右鍵按一下 Dock (Mac) 或工作列中的圖示， (Windows) 並選取 [**結束]**。 結束之後，只要按一下應用程式圖示，) 再開啟一次。
 
-如果特定會議或即時活動發生問題，讓 URL 與會議相關聯會很有説明。 這提供額外的資訊，可協助找出記錄中確切的會議或即時事件。 這項資訊可以從會議的任何參與者或即時活動的簡報者或製作人收集。 您可以將游標停留在連接 URL 上，並選擇複製超連結，以 **捕獲此 URL**。
+如果特定會議或即時事件發生問題，將 URL 與會議相關聯會很有説明。 這會提供其他資訊，以協助找出記錄檔中確切的會議或即時事件。 您可以從會議的任何參與者或現場活動的簡報者或製作人收集這項資訊。 將游標暫留在聯結 URL 上並選擇 **[複製超連結]**，即可擷取此 URL。
 
 > [!NOTE]
-> 如果已啟用媒體記錄功能，會議資料夾中會包含其他檔案，這是調查音訊和視音訊問題的必要檔案。 如果未啟用媒體記錄，則可用的記錄數量會受到限制。
+> 如果已啟用媒體記錄，會議資料夾中會包含其他檔案，這是調查音訊和視訊問題的必要檔案。 如果未啟用媒體記錄，則可用的記錄數量有限。
   
 > [!NOTE]
-> 先前使用下列鍵盤快速鍵收集的調試記錄。 這些仍然會運作，而且會完成與收集支援檔案選項 **相同的記錄** 捕獲。
+> 偵錯記錄檔先前使用下列鍵盤快速鍵收集。 這些功能仍然有效，且會完成與 **[收集支援檔案** ] 選項相同的記錄擷取。
 >
 > - Windows：<kbd>Crtl</kbd> + <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 >
 > - Mac： <kbd>Option</kbd> + <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>1</kbd>
 
 
-下表概述各種用戶端及其相關聯的記錄。 記錄檔案會儲存在用戶端和作業系統的特定位置。
+下表概述各種用戶端及其相關聯的記錄。 記錄檔會儲存在用戶端和作業系統的特定位置。
 
 
 |用戶端 |調試|桌面|媒體|
@@ -80,17 +80,17 @@ Debug、Desktop 和 Media 記錄會收集到一個名稱為 _MSTeams 診斷記�
 |iOS     |-         |-         |-         |
 |Android     |-         |-         |-         |
 
-有關支援的作業系統和瀏覽器的完整清單，請參閱取得[用戶端Microsoft Teams](get-clients.md)。
+如需支援的作業系統和瀏覽器的完整清單，請參閱[取得Microsoft Teams版用戶端](get-clients.md)。
 
-## <a name="debug-logs"></a>調試記錄
+## <a name="debug-logs"></a>偵錯記錄
 
-請參閱收集和 _啟用記錄_ 一節，Windows Mac 指示。 調試記錄是由 Windows Mac 桌面用戶端，以及瀏覽器型用戶端所產生。 記錄以文字為基礎，由下而上讀取。 您可以使用任何文字型編輯器來讀取，登入用戶端時會建立新記錄。
+如需Windows和 Mac 的指示，請參閱 _收集和啟用記錄_ 功能一節。 偵錯記錄是由 Windows 和 Mac 桌面用戶端以及瀏覽器型用戶端產生。 記錄檔是以文字為基礎，並從下到上朗讀。 您可以使用任何文字編輯器來讀取記錄，並在登入用戶端時建立新的記錄。
 
-調試記錄會顯示下列資料流程：
+偵錯記錄會顯示下列資料流程：
 
 -   登錄
 
--   到中介層服務的連接要求
+-   對中介層服務的連線要求
 
 -   通話/交談
 
@@ -98,69 +98,75 @@ Debug、Desktop 和 Media 記錄會收集到一個名稱為 _MSTeams 診斷記�
 - 鍵盤快速鍵：<kbd>CtrlAltShift1</kbd>  +  <kbd> </kbd>  +  <kbd> </kbd>  +  <kbd> </kbd>  
 - 檔案可在 `~/Downloads`
 
-若要收集瀏覽器和瀏覽器的Windows：
+若要收集瀏覽器和Windows的記錄：
 - 鍵盤快速鍵：<kbd>CtrlAltShift1</kbd>  +  <kbd> </kbd>  +  <kbd> </kbd>  +  <kbd> </kbd>  
 - 檔案可在 `%userprofile%\Downloads`
 
-## <a name="media-logs"></a>媒體記錄
+## <a name="media-logs"></a>媒體記錄檔
 
-請參閱收集和 _啟用記錄_ 一節，Windows Mac 指示。 媒體記錄包含有關會議音訊、視Teams資料的診斷資料。 當支援案例與通話相關問題連結時，這些案例是必填專案。
+如需Windows和 Mac 的指示，請參閱 _收集和啟用記錄_ 功能一節。 媒體記錄檔包含Teams會議中音訊、視訊和螢幕共用的診斷資料。 連結到通話相關問題的支援案例是必要的。
 
-媒體記錄預設為關閉。 若要記錄會議Teams診斷資料，使用者必須在用戶端中開啟Teams選項。 前往 **設定**  >  **General**，選取啟用會議診斷記錄 (需要重新開機 Teams **)** 核取方塊、重新開機 Teams，然後重現問題。 
+如果您的 CPU 為：電腦的媒體記錄功能預設為開啟：
+- 任何 Apple M1
+- 任何 Intel Xeon
+- 任何 Intel i9，U、G7、M 和 MQ 系列除外
+- 除了 U、G7、M 和 MQ 系列之外，任何第 6 代及之後的 Intel i7
+
+否則，預設會關閉。 若要記錄Teams會議的診斷資料，使用者必須開啟Teams用戶端中的選項。 移至 **設定**  >  **General**，選取 [啟用 **會議診斷的記錄]， (需要重新開機Teams**) 核取方塊、重新開機Teams，然後重現問題。 
 
 > [!NOTE]
-> 當您登出時，Teams記錄會重設為預設值。 
+> 當您登出Teams時，媒體記錄會重設為預設值。 
 
-當您將記錄檔案傳送給 Microsoft 支援人員時，請確認記錄檔案的時間戳記，以確保記錄在您重現問題時涵蓋時間範圍。
+當您傳送記錄檔給 Microsoft 支援服務時，請驗證記錄檔的時間戳記，以確保當您重現問題時，記錄檔涵蓋時間範圍。
 
 若要收集 Linux 的記錄：  
-- 檔案可在下列位置使用：
+- 這些檔案可在下列位置使用：
   - `~/.config/Microsoft/Microsoft Teams/media-stack/\*\.blog`
   - `~/.config/Microsoft/Microsoft Teams/skylib/\*\.blog`
 
-若要收集記錄Windows：  
-- 檔案可在下列位置使用：
+若要收集Windows記錄：  
+- 這些檔案可在下列位置使用：
   - `%appdata%\Microsoft\Teams\media-stack\\\*\.blog`
   - `%appdata%\Microsoft\Teams\skylib\\\*\.blog` 
 
 若要收集 Mac 的記錄：
-- 檔案可在下列位置使用：
+- 這些檔案可在下列位置使用：
   - `~/Library/Application Support/Microsoft/Teams/media-stack\\\*\.blog`
   - `~/Library/Application Support/Microsoft/Teams/skylib\\\*\.blog`
 
-以下是產生的記錄檔案及其包含的資訊清單。
+以下是所產生的記錄檔及其所含資訊的清單。
 
 <br/>
 
-|記錄檔案名  |描述  |
+|記錄檔名稱  |描述  |
 |---------|---------|
-|`Teams.msrtc-0-s1039525249.blog`     | 包含媒體堆疊相關資訊。 這包括頻道狀態，例如解析度、使用的解碼器及編碼器，以及已送出和接收的畫面數目，以及攝影機和視 (視) 會話狀態。         |
-|`rtmcontrol.msrtc-0-2415069487.blog`      |記錄與遠端控制動作相關的資訊，例如提供控制項時時間戳記，以及滑鼠指標資訊。          |
+|`Teams.msrtc-0-s1039525249.blog`     | 包含媒體堆疊的相關資訊。 這包括頻道狀態，例如解析度、使用的解碼器和編碼器，以及傳送和接收的框架數目，以及相機和視訊螢幕共用 (VBSS) 會話狀態。         |
+|`rtmcontrol.msrtc-0-2415069487.blog`      |記錄與遠端控制動作相關的資訊，例如授與控制時的時間戳記，以及滑鼠指標資訊。          |
 |`Teams_MediaStackETW-2-U-xr-U.etl`      |記錄媒體堆疊追蹤事件。         |
-|`Debug-0-s2790420889.blog`    | 包含與媒體代理程式有關的資訊，包括呈現品質。          |
-|`tscalling-0-2061129496.blog`   |在 ts-calling API 中記錄事件。       |
+|`Debug-0-s2790420889.blog`    | 包含媒體代理程式的相關資訊，包括轉譯品質。          |
+|`tscalling-0-2061129496.blog`   |記錄 TS 通話 API 中的事件。       |
 
-## <a name="desktop-logs"></a>桌面記錄
+## <a name="desktop-logs"></a>桌面記錄檔
 
-請參閱收集和 _啟用記錄_ 一節，Windows Mac 指示。 桌面記錄 ，也稱為 bootstrapper 記錄，包含桌面用戶端與瀏覽器之間發生的記錄資料。 與媒體記錄一樣，這些記錄只有在 Microsoft 要求時才能使用。 記錄是以文字為基礎，而且可以使用由上而下格式的任何文字型編輯器來讀取。
+如需Windows和 Mac 的指示，請參閱 _收集和啟用記錄_ 功能一節。 桌面記錄，也稱為啟動載入器記錄檔，包含會發生在桌面用戶端和瀏覽器之間的記錄資料。 這些記錄檔與媒體記錄一樣，只有在 Microsoft 要求時才需要。 記錄檔是以文字為基礎的，可以使用任何由上而下格式的文字編輯器來朗讀。
 
 若要收集 Linux 的記錄：
-- 按一下系統Microsoft Teams中的 [取得記錄 **記錄> 圖示**。
-- 檔案將在 中提供 `~/.config/Microsoft/Microsoft Teams/logs.txt` 。
+- 按一下系統匣中的Microsoft Teams圖示，然後選 **取 [取得記錄檔]**。
+- 檔案將在 中取得 `~/.config/Microsoft/Microsoft Teams/logs.txt` 。
   
-若要收集記錄Windows：
-- 按一下系統Microsoft Teams中的 [檔案備份圖示，然後選取 [**收集支援檔案**>。
-- 檔案 `logs.txt` 會自動在 記事本中開啟。
+若要收集Windows記錄：
+- 按一下系統匣中的Microsoft Teams圖示，然後選取 **[收集支援檔案]**。
+- 檔案 `logs.txt` 會自動以記事本開啟。
 
-在調查登錄Teams時，您可能需要手動收集桌面記錄。 這些記錄檔案位於 %appdata%\Microsoft\Teams Windows。
+在調查登入Teams的問題時，您可能需要手動收集桌面記錄檔。 這些記錄檔位於 Windows 中的 %appdata%\Microsoft\Teams。
 
 ## <a name="browser-trace"></a>瀏覽器追蹤
 
-針對某些類別的錯誤，Microsoft 支援服務可能會要求您收集瀏覽器追蹤。 這項資訊可提供發生錯誤時Teams用戶端狀態的重要詳細資料。
+對於某些類型的錯誤，Microsoft 支援服務可能需要您收集瀏覽器追蹤。 這項資訊可以提供有關錯誤發生時Teams用戶端狀態的重要詳細資料。
 
-開始瀏覽器追蹤之前，請確認您已Teams。 在啟動追蹤之前，執行這項工作非常重要，這樣追蹤就不包含敏感性的登錄資訊。
+開始瀏覽器追蹤之前，請確定您已登入Teams。 請務必先執行此動作，再啟動追蹤，讓追蹤不含敏感的登入資訊。
 
-在您登錄後，請選取下列其中一個連結 ，以適合您的瀏覽器使用，然後遵循所提供的步驟。 
+登入之後，請根據您的瀏覽器，選取下列其中一個連結，然後依照提供的步驟進行。 
 
 -   [Chrome & Edge (Chromium) ](/azure/azure-portal/capture-browser-trace#google-chrome-and-microsoft-edge-chromium?preserve-view=true#resolution)
 
@@ -171,22 +177,22 @@ Debug、Desktop 和 Media 記錄會收集到一個名稱為 _MSTeams 診斷記�
 -   [火狐](/azure/azure-portal/capture-browser-trace#firefox?preserve-view=true#resolution)
 
 > [!NOTE]
-> 在步驟中，將 Azure 入口網站的所有參照取代為 Teams用戶端。
+> 在步驟中，將Azure 入口網站的所有參照取代為Teams用戶端。
   
-## <a name="webrtc-logs-in-browsers"></a>網頁RTC 在瀏覽器中記錄
-WebRTC 記錄可提供音訊和視音訊通話的連線詳細資料，以協助 Microsoft 支援服務。 請按照步驟在 Edge (Chromium) 或 Chrome 中存取 WebRTC 記錄： 
+## <a name="webrtc-logs-in-browsers"></a>瀏覽器中的 WebRTC 記錄
+WebRTC 記錄檔可以提供音訊和視訊通話的連線詳細資料，協助Microsoft 支援服務。 依照步驟在 Edge (Chromium) 或 Chrome 中存取 WebRTC 記錄檔： 
   
-1.  開啟新的定位停駐點，然後前往下列其中一個 URL：
+1.  開啟新索引標籤，然後移至下列其中一個 URL：
     -   Edge (Chromium) ：`edge://webrtc-internals/`
     -   鉻： `chrome://webrtc-internals/`
   
 2.  開啟 Teams Web 應用程式並重現問題。
   
-3.  回到步驟 1 中存取的定位停駐點，您至少會看到兩個定位停駐點：
+3.  返回到步驟 1 中存取的索引標籤，您會看到至少兩個索引標籤：
     -   GetUserMedia 要求
     -   `https://teams.microsoft.com/url`
 
-4.  選擇包含應用程式名稱的Teams，然後儲存頁面內容。
+4.  選擇含有Teams應用程式名稱的索引標籤，然後儲存頁面內容。
 
 ## <a name="related-topics"></a>相關主題
 

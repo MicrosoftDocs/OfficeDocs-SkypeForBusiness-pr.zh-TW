@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中為大型組織設定通話佇列，提供問候語訊息、按住音樂、重新導向通話及其他功能。
-ms.openlocfilehash: 4e194a315abecdf779a2df48c7fbb7b6412693cc
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 0a62abc27eed0008a337b900f563f8e7e2a75097
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846542"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059084"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -208,6 +208,9 @@ Teams會在來電者在佇列中保留時，為來電者提供預設音樂。 Te
 > [!TIP]
 > 建議將 **專員警示時間** 設定為 **20 秒** 。
 
+> [!NOTE]
+> [通話逾時處理](#call-timeout-handling)設定的優先順序會超出專員警示時間。 如果已達到通話逾時處理設定的最大佇列時間，通話將會從代理人 (的) 取回，即使尚未達到專員的警示時間限制。
+
 ## <a name="call-overflow-handling"></a>呼叫溢位處理
 
 ![通話溢位設定的螢幕擷取畫面。](media/call-queue-overflow-handling.png)
@@ -356,7 +359,7 @@ Windows PowerShell可讓您以批次或程式設計的方式，透過命令列�
 
 如果您是系統管理員，您可以使用下列診斷工具驗證通話佇列是否能夠接聽來電：
 
-1. 選取 [執行測試]**** 以在 Microsoft 365 系統管理中心填入診斷。 
+1. 選取 **[執行測試]** 以在 Microsoft 365 系統管理中心填入診斷。 
 
    > [!div class="nextstepaction"]
    > [執行測試：Teams通話佇列](https://aka.ms/TeamsCallQueueDiag)

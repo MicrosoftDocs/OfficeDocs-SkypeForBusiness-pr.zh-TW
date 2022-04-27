@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6afd8cbf6a62665dbdb4c472df9620d623011452
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 95f3b03ddad75cd36bb6dbbfd51eac08d7742aac
+ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817704"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65063254"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智慧喇叭的語音辨識技術控制項
 
@@ -44,7 +44,7 @@ ms.locfileid: "64817704"
 支援 Epos、Sennheiser 和 Yealink 智慧型喇叭。
 
 > [!NOTE]
-> 除了印度以外，所有國家和地區都提供智慧喇叭，但印度尚未支援此功能。 如需生物特徵辨識註冊和會議內轉譯目前支援之地區設定的清單，請參閱 [支援地區](#supported-locales) 設定。
+> 智慧喇叭可在所有國家/地區使用。 如需生物特徵辨識註冊和會議內轉譯目前支援之地區設定的清單，請參閱 [支援地區](#supported-locales) 設定。
 
 ## <a name="set-up-an-intelligent-speaker"></a>設定智慧型喇叭
 

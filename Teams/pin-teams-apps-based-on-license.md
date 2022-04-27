@@ -1,5 +1,5 @@
 ---
-title: 為前線員工量身打造Teams應用程式
+title: 為您的前線員工量身打造 Teams 應用程式
 author: LanaChin
 ms.author: v-lanachin
 ms.reviewer: aaglick
@@ -15,14 +15,14 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb5bf166d9f7253a5cb72ffc92b674613d959334
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 5c3112740ab2b25b0f0107823d41c5b5e2d68f0f
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64961286"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059304"
 ---
-# <a name="tailor-teams-apps-for-your-frontline-workers"></a>為前線員工量身打造Teams應用程式
+# <a name="tailor-teams-apps-for-your-frontline-workers"></a>為您的前線員工量身打造 Teams 應用程式
 
 > [!NOTE]
 > 這項功能目前正在推出中，可能尚未在貴組織中提供。 若要隨時掌握即將推出的Teams功能，請參[閱藍圖Microsoft 365](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams)。
@@ -32,6 +32,8 @@ ms.locfileid: "64961286"
 Teams提供一種簡單的方法，可將應用程式釘選給第一線工作人員。 這項功能會根據授權來釘選應用程式，以在Teams中提供符合他們需求的全新體驗。
 
 透過量身打造的第一線應用程式體驗，您的第一線工作人員可在Teams取得最相關的應用程式，而不需要系統管理員採取任何動作。
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4VuCH]
 
 ## <a name="tailored-frontline-app-experience"></a>量身打造的第一線應用程式體驗
 

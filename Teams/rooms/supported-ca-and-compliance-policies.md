@@ -12,12 +12,12 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 description: 瞭解Microsoft Teams 會議室支援與建議的條件式存取和Intune裝置合規性原則。
-ms.openlocfilehash: befe8faae5db204f5e15e307cadcc24f6867a487
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: 19e4593a6135c79eb156a1b34847ab518d6e8ea4
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732291"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059234"
 ---
 # <a name="supported-conditional-access-and-intune-device-compliance-policies-for-microsoft-teams-rooms"></a>支援Microsoft Teams 會議室的條件式存取和Intune裝置合規性原則
 
@@ -28,7 +28,10 @@ ms.locfileid: "64732291"
 
 ## <a name="supported-conditional-access-policies"></a>支援的條件式存取原則  
 
-下列清單包含Windows和 Android 上Teams 會議室支援的條件式存取原則。 支援的 Android 原則適用于所有位於共用空間的 Android 裝置，包括常見的區域電話和麵板。
+下列清單包含Windows和 Android 上Teams 會議室支援的條件式存取原則。 
+
+> [!NOTE]
+> 支援的 Android 原則會套用至所有位於共用空間的 Android 裝置，包括 Andourd 上的Teams 會議室、通用的區域電話和麵板。
 
 | 指派 | Windows | Android |
 |------------|---------|---------|

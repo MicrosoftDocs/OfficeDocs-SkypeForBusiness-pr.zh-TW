@@ -17,12 +17,12 @@ description: 瞭解如何在系統管理中心的 [管理應用程式] 頁面上
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: a6e6adbfbed5e1b371655ca74aa6ca6c717490c9
-ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
+ms.openlocfilehash: 2a4062bbf71c3ad112a52a10ad9c1b3ff71f3dad
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65030939"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059074"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理Teams應用程式
 
@@ -30,9 +30,9 @@ ms.locfileid: "65030939"
 
 ![[管理應用程式] 頁面的螢幕擷取畫面。](media/manage-apps.png)
 
-若要管理應用程式，您可以使用下列原則來控制使用者的許可權、應用程式安裝，以及上傳您在組織內建立的自訂應用程式。 若要瞭解原則，請參 [閱應用程式原則概觀](app-policies.md)。
+若要使用Teams系統管理中心，您必須是全域系統管理員或Teams服務系統管理員。如需詳細資料，[請參閱Teams系統管理員角色](./using-admin-roles.md)。
 
-若要瞭解如何取得系統管理員角色和許可權，請[參閱Teams系統管理員角色](./using-admin-roles.md)。
+若要管理應用程式，您可以使用原則來控制使用者的許可權、應用程式安裝，以及上傳您在組織內建立的自訂應用程式。 若要瞭解原則，請參 [閱應用程式原則概觀](app-policies.md)。
 
 > [!NOTE]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]

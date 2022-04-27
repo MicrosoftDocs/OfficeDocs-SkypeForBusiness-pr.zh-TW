@@ -12,12 +12,12 @@ ms.collection:
 description: 瞭解用於管理 Microsoft Teams 的 Teams PowerShell 模組支援的版本。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ac948022050babeff0c5ea3c0dbde853e0fabc54
-ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
+ms.openlocfilehash: c97e3c840452a20be60d6f27e2bf4c3375322be1
+ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65019325"
+ms.lasthandoff: 04/26/2022
+ms.locfileid: "65059414"
 ---
 # <a name="teams-powershell-module---supported-versions"></a>Teams PowerShell 模組 - 支援的版本
 
@@ -60,7 +60,9 @@ Microsoft Teams 4.x.x 系列或更新版本中的 PowerShell 模組 (TPM) 版本
 - 相關變更
   * TPM 3.x.x 及更新版本中Get-CsOnlineUser & Get-CsOnlineVoiceUser的更新 – [Get-CsOnlineUserGet-CsOnlineVoiceUser](/powershell/module/skype/get-csonlineuser)  &  (訊息中心文章 - MC340774) 中的更多詳細資料。[ ](/powershell/module/skype/get-csonlinevoiceuser)
 
-  * 電話數位指派的變更 -[在 Set-CsUser](/powershell/module/skype/set-csuser)、[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)、[Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance)  &  (訊息中心文章中提供更多詳細資料 – MC316139) [ ](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
+  * 電話編號指派的變更 -[在 Set-CsUser](/powershell/module/skype/set-csuser)、[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)、[Set-CsOnlineApplicationInstanceSet-CsOnlineVoiceApplicationInstance](/powershell/module/skype/set-csonlineapplicationinstance)  &  (訊息中心文章 - MC316139) 中的更多詳細資料。[ ](/powershell/module/skype/set-csonlinevoiceapplicationinstance)
+  
+  * Get-CsTenant中的參數變更 - [Get-CsTenant 中的](/powershell/module/skype/get-cstenant)更多詳細資料。  
 
 -   使用 TPM 4.x.x 或更新版本時，建議不要使用 [以下](#deprecated-cmdlets)所述任何已取代或不支援的 Cmdlet。 
 

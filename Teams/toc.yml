@@ -295,7 +295,7 @@ items:
             href: legal-hold.md
           - name: 內容搜尋
             href: content-search.md
-          - name: 進階電子文件探索中的 Microsoft Teams 工作流程
+          - name: 電子文件探索中的 Microsoft Teams 工作流程 (進階版)
             href: /microsoft-365/compliance/teams-workflow-in-advanced-ediscovery
           - name: 稽核
             href: audit-log-events.md
