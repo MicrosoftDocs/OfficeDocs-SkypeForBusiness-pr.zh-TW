@@ -1547,8 +1547,6 @@ items:
             href: resource-specific-consent.md
           - name: 瞭解應用程式權限和資源存取權
             href: app-permissions.md
-          - name: 在 Teams 中的應用程式系統管理設定
-            href: admin-settings.md
           - name: 以使用者類型為依據的應用程式行為
             href: non-standard-users.md
           - name: 隨著使用者將應用程式更新為較新版本

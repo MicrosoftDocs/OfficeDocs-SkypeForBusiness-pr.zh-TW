@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 647e5e12f7140abc3da8dc63964d5b94d9785e16
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0d9cb6888243f86e1967105720e3859fa905cfb5
+ms.sourcegitcommit: 06d1c50c9b55b062d61844a856676d9837fd5abe
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711507"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "65030899"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -124,6 +124,7 @@ ms.locfileid: "63711507"
 |------------|---------------|
 |一場會議中的人數 (可以交談和通話)  | 1000 位，包含 GCC、GCCH 和 DoD，但不包含 A1 (300)。 **僅檢視** 會允許高達 20,000 名僅限聆聽參與者加入會議，其中的召集人擁有 E3/E5/A3/A5 SKU 以及政府用 (GCC、GCC High、DoD) 的授權。 網路研討會也即將推出僅檢視體驗。 深入了解[僅供檢視體驗](view-only-meeting-experience.md)。<sup>1，2</sup>|
 |交談視訊或音訊通話中的人員數目 | 20 |
+|同時進行的通話數 | 4 |
 |PowerPoint 檔案大小的最大值 | 2 GB|
 |Teams 會保留[會議記錄](cloud-recording.md)，該記錄不會上傳至 Microsoft Stream，但可供本機下載 | 20 天 |
   
