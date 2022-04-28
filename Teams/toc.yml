@@ -1327,34 +1327,28 @@ items:
                 href: rooms/security.md
               - name: 線上授權
                 href: rooms/rooms-licensing.md
-              - name: 條件式存取與 Intune 合規性的最佳做法
-                href: rooms/conditional-access-and-compliance-for-devices.md
-              - name: 支援的條件式存取和 Intune 合規性原則
-                href: rooms/supported-ca-and-compliance-policies.md
               - name: 使用 Azure 監視器規劃管理
                 href: rooms/azure-monitor-plan.md
           - name: 部署
             items:
               - name: 部署概觀
                 href: rooms/rooms-deploy.md
-              - name: 設定帳戶
-                href: rooms/rooms-configure-accounts.md
               - name: 建立資源帳戶
                 href: rooms/with-office-365.md
-              - name: 使用商務用 Skype Server
-                href: rooms/with-skype-for-business-server-2015.md
               - name: 設定主控台
                 href: rooms/console.md
+              - name: 驗證
+                items:
+                  - name: 設定驗證
+                    href: rooms/rooms-authentication.md
+                  - name: 條件式存取與 Intune 合規性的最佳做法
+                    href: rooms/conditional-access-and-compliance-for-devices.md
+                  - name: 支援的條件式存取和 Intune 合規性原則
+                    href: rooms/supported-ca-and-compliance-policies.md
               - name: 手動更新裝置
                 href: rooms/manual-update.md
-              - name: 設定驗證
-                href: rooms/rooms-authentication.md
-              - name: 加入第三方會議
-                href: rooms/third-party-join.md
               - name: 使用 Azure 監視器管理
                 href: rooms/azure-monitor-deploy.md
-              - name: 移轉 SRS v1 或 LRS
-                href: rooms/lrs-migration.md
               - name: 內容相機
                 href: rooms/content-camera.md
               - name: 智慧型喇叭的語音辨識控制項
@@ -1371,11 +1365,13 @@ items:
                 href: rooms/rooms-manage.md
               - name: 維護及操作
                 href: rooms/rooms-operations.md
+              - name: 加入第三方會議
+                href: rooms/third-party-join.md
               - name: 已知問題
                 href: /microsoftteams/troubleshoot/teams-devices-and-rooms/rooms-known-issues
-              - name: 使用 Azure 監視器的裝置
+              - name: 使用 Azure 監視器管理裝置
                 href: rooms/azure-monitor-manage.md
-              - name: 含有 XML 檔案的設定
+              - name: 使用 XML 檔案管理設定
                 href: rooms/xml-config-file.md
               - name: 使用修復工具
                 href: rooms/recovery-tool.md
@@ -1481,6 +1477,8 @@ items:
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: 規劃手機和顯示部署
             href: devices/plan-device-deployment.md
+          - name: 商務用 Skype Server 的資源帳戶
+            href: rooms/with-skype-for-business-server-2015.md
   - name: 管理應用程式
     items:
       - name: 概觀

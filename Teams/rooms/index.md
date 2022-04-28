@@ -14,29 +14,29 @@ ms.localizationpriority: medium
 ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: 瞭解如何設定Microsoft Teams 會議室，包括規劃、部署和管理系統，以建立理想的虛擬會議室。
+description: 瞭解如何設定Microsoft Teams 會議室，包括規劃、部署和管理系統，以建立您理想的虛擬會議室。
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 0458513bc75bf352aed1b611895ef918fc621dcc
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 85ddcccc2de769a20f12357aafcb2d5743f981c3
+ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504110"
+ms.lasthandoff: 04/27/2022
+ms.locfileid: "65106318"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams 會議室
 
 :::row:::
     :::column span="2":::
-       利用簡單使用、部署和管理的豐富、共同Teams，將會議空間從小型擠滿區域轉換到大型會議室。
+       將會議空間從小型交集區轉換成具有豐富共同作業Teams體驗的大型會議室，這些體驗簡單便於使用、部署及管理。
 
-       使用單鍵加入功能，及時開始會議，然後立即將專案顯示在會議室中，並分享給遠端參與者。
+       使用單點觸控加入，按時開始會議，然後立即投影到會議室中的顯示器，並分享給遠端參與者。
 
-       從我們的其中一個合作夥伴：Dell、Yealink、Logitech、Cresron、Polycom、Lenovo 和 HP 選取正確的系統與音訊視訊周邊設備。
+       從我們的其中一個合作夥伴選取正確的系統和音訊視訊周邊設備：Dell、Yealink、Logitech、Cresenovo、Polycom、Lenovo 和 HP。
 
-       若要快速瞭解Teams 會議室，請按一下右邊的影片。
+       如需Teams 會議室的快速簡介，請按一下右邊的影片。
     :::column-end:::
     :::column:::
-       [:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teams 會議室 Microsoft 技術員影片。":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+       [:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teams 會議室 Microsoft Mechanics 影片。":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
     :::column-end:::
 :::row-end:::
 
@@ -47,14 +47,11 @@ ms.locfileid: "63504110"
 |  **[規劃](./rooms-plan.md)** |  **[部署](./rooms-deploy.md)** |  **[管理](./rooms-manage.md)** |
 
 
-[:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teams 會議室 Microsoft 技術員影片。":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+[:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teams 會議室 Microsoft Mechanics 影片。":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 
 > [!NOTE]
-> Microsoft Teams 會議室適用于 2019 Microsoft Teams 2019 商務用 Skype Server或 2015 商務用 Skype Server使用。
+> Microsoft Teams 會議室適用于 Microsoft Teams、商務用 Skype Server 2019 或 商務用 Skype Server 2015。
 >
-> Lync Server 2013 等先前平臺不支援Microsoft Teams 會議室。
+> 舊版平臺如 Lync Server 2013 不受Microsoft Teams 會議室支援。
 
-這些文章適用于負責規劃、部署及管理這些Microsoft Teams 會議室。 使用者將會對線上Microsoft Teams 會議室[感興趣](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)。
-
-> [!NOTE]
-> [Skype會議室系統](../rooms/lrs-migration.md) (Lync Room System) 和 Microsoft Teams 會議室是不同的產品，其相依性與部署程式不同。
+這些文章適用于負責規劃、部署和管理這些Microsoft Teams 會議室的人員。 使用者會對Microsoft Teams 會議室[線上說明](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)更感興趣。
