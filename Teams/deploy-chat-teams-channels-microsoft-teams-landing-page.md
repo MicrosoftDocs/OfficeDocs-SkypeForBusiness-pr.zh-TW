@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 84c0ef026b16ec19337ef8840b2285a1a98e5193
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: a2d6ee4129128df8acf17906b0bc45140b57f6f4
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711727"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125498"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Microsoft Teams 中的聊天、團隊、頻道和應用程式
 
@@ -94,7 +94,7 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 
 |問問自己|動作 |
 |------------|-------|
-|<ul><li>我要將組織的外部存取開啟嗎？</li><li>如果啟用，我要限制組織可以與其通訊的網域嗎？</li></ul> |<br>若要開啟或關閉外部存取，請參閱[規劃外部存取](manage-external-access.md#plan-for-external-access)。|
+|<ul><li>我要關閉組織的外部會議和聊天嗎？</li><li>如果啟用，我要限制組織可以與其通訊的網域嗎？</li></ul> |<br>若要開啟或關閉外部會議和聊天，請參閱 [管理外部會議和聊天](manage-external-access.md)。|
 
 ### <a name="guest-access"></a>來賓存取
 

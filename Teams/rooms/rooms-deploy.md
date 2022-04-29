@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 請閱讀本文以瞭解如何部署Microsoft Teams 會議室，包括部署階段。
-ms.openlocfilehash: 61fce84f9f3737f771e0417443de566444cc2ca2
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 18a5d72fb9c11b34bb994734b8d064c3aaa2cdae
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839074"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125768"
 ---
 # <a name="deployment-overview"></a>部署概觀
 
@@ -53,12 +53,12 @@ ms.locfileid: "64839074"
 若要準備您的Microsoft Teams 會議室部署，請執行下列關鍵、中心工作：
 
 -   定義Microsoft Teams 會議室資源帳戶。
--   如果加入 Teams Room 以Azure Active Directory，請準備具有動態成員資格的Azure AD群組，以保留所有Teams 會議室資源帳戶。 這將會簡化未來的管理，例如套用條件式存取原則。 為了最輕鬆地運用Azure AD動態群組，請決定命名慣例，以唯一方式識別您的Teams 會議室資源帳戶。
--   如果將 Teams Room 加入 Active Directory，請準備組織單位和 Active Directory 群組來保存您的Microsoft Teams 會議室電腦和資源帳戶，並選擇性地準備群組原則物件 (GPO) 以啟用 PowerShell 重新傳送。
+-   如果加入Teams 會議室Azure Active Directory，請準備一個具有動態成員資格的Azure AD群組，以保留所有Teams 會議室資源帳戶。 這將會簡化未來的管理，例如套用條件式存取原則。 為了最輕鬆地運用Azure AD動態群組，請決定命名慣例，以唯一方式識別您的Teams 會議室資源帳戶。
+-   如果加入 Teams 會議室 至 Active Directory，請準備組織單位和 Active Directory 群組以保留您的Microsoft Teams 會議室電腦和資源帳戶，並選擇性地準備群組原則物件 (GPO) 啟用 PowerShell 重新傳送。
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>定義Microsoft Teams 會議室資源帳戶功能 
 
-根據您決定透過Microsoft Teams 會議室部署啟用的共同作業案例而定，您必須決定指派給每個您所啟用Microsoft Teams會議室的功能。
+根據您決定透過Microsoft Teams 會議室部署啟用的共同作業案例而定，您必須決定指派給您所啟用之每個Microsoft Teams 會議室的功能。
 
 | **案例** | **描述** | **Microsoft Teams 會議室服務帳戶功能** |
 |---------- |------------- | --- |

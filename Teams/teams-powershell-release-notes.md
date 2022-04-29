@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解 Teams PowerShell 中的最新變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 66ed3281b2376810e4a87db8103b4b140e4675bd
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 827f38a2be539583a30d6b94341bbfa76203f8c4
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922444"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125658"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 版本資訊
 
@@ -31,6 +31,7 @@ ms.locfileid: "64922444"
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 4 月 | [4.2.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.1-preview) |<li>修正 [SetRemove \| ]-CsPhoneNumberAssignment Cmdlet 的錯誤處理。</li><li>[取得 \|SetRemove \| ]-CsOnlineLisSubnet – 現代化 Cmdlet 中 Subnet 參數的修正。</li><li>[取得 \|Set]-CsOnlineLisLocation & [GetSet \| ]-CsOnlineLisCivicAddress – 現代化 Cmdlet 中支援的參數周圍的修正。</li>
 | 2022 年 4 月 | [4.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.0) |<li>針對所有與Teams相關之 Cmdlet 的 Proxy 支援。 支援的 Cmdlet 會逐漸推出。</li><li>修正搭配 PSListModifier 類型參數使用時，[NewSet \| ]- 現代化原則 Cmdlet 的問題。</li><li>[破折修訂]PSListModifier 類型參數只會接受 Hashtable 搭配 [新增] 或 [移除]。 現在不支援使用 Hashtable with Replace，而是可以直接在參數中設定 () 值。</li><li>修正 [GetNew \| ] 的格式問題- 少數幾個現代化原則 Cmdlet (CsVideoInteropServiceProvider、CsInboundBlockedNumberPattern、CsTeamsComplianceRecordingApplication、CsTeamsTranslationRule、CsTeamsUnasignedNumberTransment、CsVoiceNormalizationRule) 。</li><li>改善使用現代化 Cmdlet 的管線輸入處理效能。</li><li>修正管線輸入結果的次要問題。</li><li>Get-CsOnlineUser：已新增 Country 屬性 (3.x.x) 之前的版本中稱為 CountryOrRegionDisplayName。</li><li>[破折修訂]Get-CsOnlineUser：CountryAbbreviation 屬性現在僅適用于 -Identity 參數。</li>
 | 2022 年 3 月 | [4.1.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.1.0) |<li>修正警告和錯誤變數的問題。</li><li>修正搭配 PowerShell Runspaces 使用現代化 Cmdlet 的問題。</li><li>Releases [GetNewSetRemove \| \| \| ]-CsTeamsShiftsConnectionInstance Cmdlets.</li><li>Releases [GetNewRemove \| \| ]-CsTeamsShiftsConnectionTeamMap Cmdlets.</li><li>Releases Get-CsTeamsShiftsConnectionWfm[UserTeam \| ] Cmdlets.</li><li>Releases Get-CsTeamsShiftsConnectionConnector， Get-CsTeamsShiftsConnectionSyncResult， New-CsTeamsShiftsConnectionBatchTeamMap， Remove-CsTeamsShiftsScheduleRecord， Test-CsTeamsShiftsConnectionValidate， Get-CsTeamsShiftsConnectionOperation & Get-CsTeamsShiftsConnectionErrorReport Cmdlets.</li>
 | 2022 年 3 月 | [4.0.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.1-preview) |<li>修正 ErrorAction 通用參數的問題。</li>

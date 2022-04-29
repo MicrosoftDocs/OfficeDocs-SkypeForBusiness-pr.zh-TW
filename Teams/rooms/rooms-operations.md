@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 瞭解管理Microsoft Teams 會議室。
-ms.openlocfilehash: e214d0b438ea7dd9b710a7aba8597de6c5b76bdf
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106258"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125468"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 會議室維護與作業
  
@@ -37,6 +37,15 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 ```
 
 記錄檔會在 c：\rigel 中輸出為 ZIP 檔案。
+
+### <a name="managing-disk-space"></a>管理磁碟空間
+<a name="Space"> </a>
+
+裝置上下載的記錄可能會佔用磁碟空間。 如果記錄檔未定期清理，可能會干擾聊天室的一般功能。 Teams 會議室刪除 30 天后下載的記錄。 IT 系統管理員可以使用裝置登錄設定覆寫記錄清理。
+
+|設定|允許|
+|:-----|:-----|
+|HKLM\SOFTWARE\Microsoft\PPI\SkypeSettings\LogCleanupAgeThreshold  <br/> |在 30 天后清理記錄檔。  <br/> |
   
 ## <a name="front-of-room-display-settings"></a>[會議室] 前方的顯示設定
 <a name="Display"> </a>

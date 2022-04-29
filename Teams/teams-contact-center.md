@@ -1,5 +1,5 @@
 ---
-title: Teams聯絡中心
+title: Teams連絡人中心]
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -10,43 +10,43 @@ ms.reviewer: anblak
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 整合式聯絡人中心服務概觀 (CCaaS) 解決方案Microsoft Teams
+description: 整合式連絡人中心做為服務 (CCaaS) 解決方案的概觀，以供Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52de716c35e934e13140af278814a93620dd4962
-ms.sourcegitcommit: 2c8d6183920fd0df7e0491cf4e79b2311503dba7
+ms.openlocfilehash: 6ed7e2df1af7ceab02119d52ef9ed7bc5811a87c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63073741"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125638"
 ---
-# <a name="contact-center-integrations-for-microsoft-teams"></a>連絡人中心整合Microsoft Teams
+# <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams的連絡人中心整合
 
-  本文概觀說明連絡人中心解決方案如何與Microsoft Teams參與已連接連絡人中心認證計畫Microsoft Teams解決方案提供者整合。
+  本文將概略說明連絡人中心解決方案如何與參與Microsoft Teams線上連絡人中心認證計畫的Microsoft Teams及解決方案提供者整合。
 
-## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>什麼是連絡人中心整合功能Microsoft Teams？
+## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>什麼是Microsoft Teams連絡人中心整合？
 
-Microsoft Teams可在整個通訊模式中 ，包括聊天、視訊會議和通話，做為內部和外部客戶連結的中樞，支援客戶互動的資料流程。 在某些組織中，Microsoft Teams雲端語音[功能 ，包括](./cloud-voice-landing-page.md)[自動](./what-are-phone-system-auto-attendants.md)語音語音和通話[佇列](./create-a-phone-system-call-queue.md)，符合其需求。
+Microsoft Teams透過在聊天、視訊會議和通話等通訊模式中擔任內部和外部客戶連線的中樞，來支援客戶互動工作串流。 對於某些組織來說，Microsoft Teams[的雲端語音功能](./cloud-voice-landing-page.md)，包括[自動語音應答](./what-are-phone-system-auto-attendants.md)和[通話佇列](./create-a-phone-system-call-queue.md)，都符合其需求。
 
-針對想要使用商務工具和工作流程的解決方案來推動客戶歷程的組織，Microsoft Teams 的連絡人中心整合可讓連絡人中心成為服務 (CCaaS) 解決方案提供者，將其解決方案整合到 Teams。
+對於想要使用商務工具和工作流程來推動客戶旅程的組織，Microsoft Teams的連絡人中心整合可讓連絡人中心成為服務 (CCaaS) 解決方案提供者將其解決方案整合至Teams。
 
 
-## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>已連Microsoft Teams認證計畫
+## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>已連線Microsoft Teams認證計畫的連絡人中心
 
-Microsoft 認證計畫的Microsoft Teams中心會驗證每個參與提供者的解決方案都提供他們預期從 Microsoft 解決方案獲得的品質、相容性和可靠性。
+Microsoft Teams認證計畫的線上連絡人中心會驗證每個參與提供者的解決方案是否提供他們預期來自 Microsoft 解決方案的品質、相容性和可靠性。
 
-如果您是尋找整合式聯絡中心解決方案的組織，請參閱認證解決方案提供者清單的聯絡中心認證[Microsoft Teams](https://cloudpartners.transform.microsoft.com/contact-center-solutions)解決方案，並參閱在認證過程中提供者清單的已連接連絡人中心解決方案[](#connected-contact-center-solutions)。
+如果您是尋找整合式連絡人中心解決方案的組織，請參閱[連絡人中心的認證Microsoft Teams解決方案](https://cloudpartners.transform.microsoft.com/contact-center-solutions)，以取得認證解決方案提供者的清單，並參閱[連線的連絡人中心解決方案](#connected-contact-center-solutions)以取得認證程式中的提供者清單。
 
-如果您是想加入認證計畫的廠商，請以電子郵件 。 <Teamscategorypartner@microsoft.com>
+如果您是尋求加入認證計畫的廠商，請填寫 [此表單](https://aka.ms/CallingPlatformIntake) 做為下一個步驟。 如果您需要提供其他內容和詳細資料，請傳送郵件給 [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com)。
 
 [!INCLUDE [contact-center-integration-models](./includes/contact-center-integration-models.md)]
 
 
-## <a name="connected-contact-center-solutions"></a>已連接的聯絡人中心解決方案
+## <a name="connected-contact-center-solutions"></a>已連線的連絡人中心解決方案
 
-下列提供者提供使用其中一種Teams、延伸或 power 整合連線整合的聯絡中心解決方案。
+下列提供者提供使用其中一種連線、延伸或電源整合模型整合至Teams的連絡人中心解決方案。
 
-### <a name="certified-solutions"></a>認證解決方案
+### <a name="certified-solutions"></a>通過認證的解決方案
 
 ![認證徽章。](media/English_Solution_Certified_Teams_badge_noBkgrd_GrayText_RGB_500px.png)
 
@@ -62,7 +62,7 @@ Microsoft 認證計畫的Microsoft Teams中心會驗證每個參與提供者的�
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
 | `Tendfor` | https://www.tendfor.com                                                            |
 
-### <a name="solutions-currently-in-the-certification-process"></a>認證程式目前的解決方案
+### <a name="solutions-currently-in-the-certification-process"></a>目前正在認證程式中的解決方案
 
 |  解決方案提供者                                                                                                                               |  解決方案網站                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -77,7 +77,8 @@ Microsoft 認證計畫的Microsoft Teams中心會驗證每個參與提供者的�
 | `Luware` | https://luware.com/en/solutions/                                                                                       |
 | `Mida Solutions` | https://www.midasolutions.com/c3-cloud-contact-center-for-teams/                                        |
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
-| `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
-| `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
+| `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
+| `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
+| `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 
-隨著更多解決方案提供者加入並符合認證準則，這份清單將會更新。
+當更多解決方案提供者加入並符合認證準則時，將會更新此清單。

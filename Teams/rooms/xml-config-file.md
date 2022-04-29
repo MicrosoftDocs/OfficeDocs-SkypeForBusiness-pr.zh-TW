@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 遠端系統管理Microsoft Teams 會議室裝置使用的預設設定，包括套用自訂主題和建立主設定檔案。
-ms.openlocfilehash: ae529b99fc2e76aeb6c7f511de533be57b65ac08
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: c363dce55df4d9bdcf125492c2ca92b3b20feba7
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106278"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125458"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 組態檔遠端系統管理Microsoft Teams 會議室主機設定
 
@@ -64,6 +64,8 @@ ms.locfileid: "65106278"
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
   <FrontRowEnabled>true</FrontRowEnabled>
   <DefaultFoRExperience>0</DefaultFoRExperience>
+  <EnablePublicPreview>false</EnablePublicPreview>
+  <NoiseSuppressionDefault>0</NoiseSuppressionDefault>
   <SendLogs>
     <EmailAddressForLogsAndFeedback>username@microsoft.com</EmailAddressForLogsAndFeedback>
     <SendLogsAndFeedback>True</SendLogsAndFeedback>
@@ -137,6 +139,8 @@ ms.locfileid: "65106278"
 | \<DisableTeamsAudioSharing\>                | 布林值&#x2777;            | 第一個&#x2776; | 設為 True 以停用會議參與者在 Teams 會議中的 HDMI 音訊共用。 預設值為 False。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | \<FrontRowEnabled>                          | 布林值&#x2777;            | 第一個&#x2776; | 預設啟用。 如果為 false，則會停用前列。
 | \<DefaultFoRExperience>                     | 布林值&#x2777;            | 第一個&#x2776; | 根據預設，圖庫檢視。 [放置 1] 可將預設版面配置從 [圖庫檢視] 變更為 [前列]。
+| \<EnablePublicPreview\>                     | 布林值&#x2777;            | 第一個&#x2776; | 預設停用。 如果為 True，則會啟用公開預覽，且使用者可以在啟用的Teams 會議室存取公開預覽中的功能。 如需詳細資訊，請參閱[在 Windows 上公開預覽Microsoft Teams 會議室](../public-preview-doc-updates.md#public-preview-for-microsoft-teams-rooms-on-windows)。 |
+| \<NoiseSuppressionDefault\>                 | 布林值&#x2777;            | 第一個&#x2776; | 預設啟用。 將 0 設為停用。 停用不會影響桌面設定，此設定僅適用于Teams會議室帳戶。
 | \<CortanaWakewordEnabled\>                  | 布林值&#x2777;            | 第一個&#x2776; | 設為 True 以啟用Cortana喚醒「嗨 Cortana」一詞。 除非您所在的國家或地區支援Cortana服務，且連接的音訊周邊支援Cortana，否則此設定不會有任何作用。 預設值為 False。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | \<SendLogs\>                                | 容器                   | 第一個&#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | \<EmailAddressForLogsAndFeedback\>          | 字串&#x2778;            |                | 設定在出現 [提供意見反應] 視窗時，可以傳送記錄檔的選擇性電子郵件地址。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -274,7 +278,7 @@ XML 組態檔必須在裝置啟動時更新，才能辨識主題影像。 處理
 
 ## <a name="turn-off-front-row"></a>關閉前列
 
-前列預設為啟用。 如果您不想要允許使用者在特定會議室中使用 Front 列，請關閉 [前列]。 若要這麼做，請新 ```<FrontRowEnabled>false</FrontRowEnabled>``` 增至您的 XML 組態檔。
+前列預設為啟用。 如果您不想讓使用者在特定會議室中使用 Front 列，請關閉 [前列]。 若要這麼做，請新 ```<FrontRowEnabled>false</FrontRowEnabled>``` 增至您的 XML 組態檔。
 
 ## <a name="set-front-of-room-scale-and-resolution"></a>設定房間最前面的縮放比例和解析度
 

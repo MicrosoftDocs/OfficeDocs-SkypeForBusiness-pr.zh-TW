@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用即時遙測以及裝置、網路和連線的詳細資料，針對Microsoft Teams排程會議的使用者問題進行疑難排解。
-ms.openlocfilehash: 09c31b7734a849740cf1b0ff5749e4d82c667faf
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 4f56e50ddc8ac861e109bbc4d4a2a74533043d24
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62518725"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125798"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>使用即時遙測來疑難排解會議品質不佳的問題
 
@@ -57,11 +57,11 @@ Real-Time分析會顯示Office 365帳戶中每個使用者Teams會議的詳細�
 
 若要取得有關進行中會議參與者的其他資訊，包括其裝置、網路和音訊統計資料，請在 [ **最近的會議** ] 中尋找會議，然後選取 [ **參與者** ] 欄底下的連結。
 
-:::image type="content" alt-text="參與者詳細資料表格的螢幕擷取畫面。" source="media/participant-details.png" lightbox="media/participant-details.png":::
+:::image type="content" alt-text="參與者詳細資料表格的螢幕擷取畫面。" source="media/participant-details-edit.png" lightbox="media/participant-details-edit.png":::
 
 若要查看指定使用者對於進行中會議的遙測，包括裝置、網路、音訊、視訊及內容共用詳細資料等相關資訊，請選取 **[會議 ID]**。
 
-:::image type="content" alt-text="通話分析使用者會話資料的螢幕擷取畫面。" source="media/real-time-telemetry.png" lightbox="media/real-time-telemetry.png":::
+:::image type="content" alt-text="通話分析使用者會話資料的螢幕擷取畫面。" source="media/real-time-telemetry-edit.png" lightbox="media/real-time-telemetry-edit.png":::
 
 ## <a name="measures-available-in-real-time-analytics"></a>Real-Time分析] 中可用的量值
 

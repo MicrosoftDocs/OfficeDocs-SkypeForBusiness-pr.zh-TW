@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過認證，Microsoft Teams才能產生最佳結果。
-ms.openlocfilehash: de2dca728ede7c54480763a439296cde225d1447
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: e9ddd0a2e9988614bd2f0fe7825a75b790736027
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059224"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125508"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認證的 Android 裝置
 
@@ -141,6 +141,7 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，且在�
 
 | 裝置型號  | 韌體版本  | 包含的產品版本  |
 |:----------------|:--------------|:----------------------------|
+|Audiocodes C470HD  | `1.17.558` | 2022 更新#1C   |
 |Audiocodes C455HD | `1.15.289`    | 2022 更新#1C    |
 |Audiocodes C448HD  | `1.14.524` | 2022 更新#1C |
 |Audiocodes C450HD  | `1.14.524` | 2022 更新#1C |

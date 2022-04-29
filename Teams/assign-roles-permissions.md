@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2f14993f47cdea5690413a32c9d286587db7324
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 76ca4a5dfd6d120b71e23d899ec9c7749db99827
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556344"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125488"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中指派 Teams 擁有者和成員
 
-Microsoft Teams 內有兩個使用者角色：**擁有者** 和 **成員**。 根據預設，建立新小組的使用者會取得擁有者狀態。 此外，則小組擁有者和成員都可以有頻道的仲裁者功能 (如果已設定仲裁功能)。 如果團隊是從現有的團隊群組Microsoft 365，則許可權會繼承。
+Microsoft Teams 內有兩個使用者角色：**擁有者** 和 **成員**。 根據預設，建立新小組的使用者會取得擁有者狀態。 此外，則小組擁有者和成員都可以有頻道的仲裁者功能 (如果已設定仲裁功能)。 如果團隊是從現有的Microsoft 365群組建立，則會繼承許可權。
 
 下表顯示擁有者和成員之間的權限差異。
 
@@ -54,7 +54,7 @@ Microsoft Teams 內有兩個使用者角色：**擁有者** 和 **成員**。 �
 <sup>3</sup> 將成員添加到團隊後，擁有者還可以將成員提升為擁有者狀態。 擁有者也可以將自己的狀態降階為成員。<br>
 <sup>4</sup> 小組成員可以向公開小組新增其他成員。<br>
 <sup>5</sup> 雖然小組成員不能直接向私人小組新增成員，但他們可以要求將人員新增到其已經是成員的小組中。 當成員要求將某人新增到小組時，小組擁有者會收到表示他們有可以接受或拒絕的擱置的要求的警示。<br>
-<sup>6</sup> 如果團隊成員是共用頻道擁有者，他們可以執行此動作。
+<sup>6</sup> 如果小組成員是共用頻道擁有者，他們可以執行此動作。
 
 *若要了解有關私人頻道權限的詳細資訊，請參閱[小組中的私人頻道](private-channels.md)。
 
@@ -71,7 +71,10 @@ Microsoft Teams 內有兩個使用者角色：**擁有者** 和 **成員**。 �
 
 ## <a name="assign-a-user-role"></a>指派使用者角色
 
-要指派使用者角色，請在 Teams 中選取小組名稱，然後按一下 **[更多選項]** > **[管理小組]**。 在 **[成員]** 索引標籤上，可以新增成員並選擇擁有者和仲裁者 (如果您有足够的權限)。 詳細資訊，請參閱變更[團隊](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)Teams。
+若要指派使用者角色，請在Teams中選取團隊名稱，然後選取 [**其他選項** (**...**) >**管理團隊]**。 在 **[成員]** 索引標籤上，可以新增成員並選擇擁有者和仲裁者 (如果您有足够的權限)。 如需詳細資訊，請參閱[變更Teams中的團隊設定](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)。
+
+> [!NOTE]
+> 釘選的頻道不會顯示 **[管理團隊** ] 選項。 選取下方 [*您的團隊*] 底下的團隊名稱，然後選取名稱右 (**...**) [**更多選項**]。
 
 ## <a name="permissions-to-create-teams"></a>建立小組的權限
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365群組和Microsoft Teams
+title: Microsoft 365 群組和Microsoft Teams
 ms.reviewer: kblevins
 ms.author: mikeplum
 author: MikePlumleyMSFT
@@ -16,44 +16,44 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-description: 瞭解如何使用Microsoft 365群組和群組成員資格Microsoft Teams。
-ms.openlocfilehash: 4e140d50bb16c9ed99f126662545fb026c3df60a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 瞭解Microsoft 365群組和群組成員資格如何與Microsoft Teams搭配運作。
+ms.openlocfilehash: cf84c58e05e65b187ebe9c0d5a4560cf861fb9be
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729732"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125428"
 ---
-# <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365群組和Microsoft Teams
+# <a name="microsoft-365-groups-and-microsoft-teams"></a>Microsoft 365 群組和Microsoft Teams
 
-Microsoft 365群組是應用程式中的跨應用程式成員資格Microsoft 365。 在基本層級，Microsoft 365群組是 Azure Active Directory 中的物件，包含成員清單，並聯結到相關的工作負載，包括 SharePoint 小組網站、共用 Exchange 信箱、Planner 和 Power BI 工作區。 您可以新增或移除人員至群組，就像在 Active Directory 中任何其他群組式安全性物件一樣。
+Microsoft 365 群組是 Microsoft 365 中的跨應用程式成員資格服務。 在基本層級，Microsoft 365群組是Azure Active Directory中的物件，具有成員清單和相關工作負載的組合，包括SharePoint小組網站、共用Exchange信箱、Planner 和OneNote筆記本。 您可以新增或移除群組中的人員，就像在 Active Directory 中新增或移除其他任何群組式安全性物件一樣。
 
-![顯示群組Microsoft 365相關服務的圖表。](/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
+![顯示Microsoft 365 群組及相關服務的圖表。](/microsoft-365/media/microsoft-365-groups-hub-spoke.png?view=o365-worldwide)
 
-根據預設，Microsoft 365使用者可以建立及管理群組。 如需有關群組Microsoft 365，請參閱瞭解 Microsoft 365[群組](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2)和 IT 架構Microsoft 365[中的](teams-architecture-solutions-posters.md#groups-in-microsoft-365)群組。
+根據預設，Microsoft 365中的使用者可以建立和管理群組。 如需Microsoft 365 群組的詳細資訊，請參閱[瞭解 IT 架構海報Microsoft 365](https://support.office.com/article/b565caa1-5c40-40ef-9915-60fdb2d97fa2)[中的Microsoft 365 群組和群組](teams-architecture-solutions-posters.md#groups-in-microsoft-365)。
 
-## <a name="how-microsoft-365-groups-work-with-teams"></a>群組Microsoft 365群組如何Teams
+## <a name="how-microsoft-365-groups-work-with-teams"></a>Microsoft 365 群組如何使用 Teams
 
-當您建立團隊時，會建立Microsoft 365群組來管理團隊成員資格。 群組的相關服務 ，例如SharePoint網站、Power BI工作區等，會同時建立。
+當您建立團隊時，會建立一個Microsoft 365群組來管理團隊成員資格。 群組的相關服務，例如SharePoint網站、信箱等，會同時建立。
 
-建立團隊的人可以選擇使用現有的Microsoft 365群組，如果他們是該群組的擁有者。 團隊中的每個頻道在文件庫中都有個別的資料夾。 直接在文件庫中建立資料夾不會在團隊中建立頻道。
+建立團隊的人員可以選擇使用現有的Microsoft 365群組，如果他們是該群組的擁有者。 團隊中的每個頻道在文件庫中都有個別的資料夾。 直接在文件庫中建立資料夾並不會在團隊中建立頻道。
 
-在 Microsoft 365 或 Outlook 中SharePoint群組群組時，群組信箱Outlook。 在 Teams中建立團隊時，群組信箱預設會隱藏。 您可以使用 [Set-UnifiedGroup](/powershell/module/exchange/users-and-groups/set-unifiedgroup) Cmdlet 與 **HiddenFromExchangeClientsEnabled** 參數，讓信箱可見。
+在 Outlook 或 SharePoint 中建立Microsoft 365群組時，群組信箱會顯示在Outlook中。 在 Teams 中建立團隊時，預設會隱藏群組信箱。 您可以使用 [Set-UnifiedGroup](/powershell/module/exchange/users-and-groups/set-unifiedgroup) Cmdlet 搭配 **HiddenFromExchangeClientsEnabled** 參數來顯示信箱。
 
 ## <a name="group-membership"></a>群組成員資格
 
-如果您移除團隊的成員，他們Microsoft 365群組中移除。 從群組移除會立即從用戶端移除團隊Teams頻道。 如果您使用 Microsoft 365 系統管理中心 移除群組中的人員，他們將不再能夠存取其他共同合作層面，例如 SharePoint Online 文件庫、Yammer群組或共用OneNote。 不過，他們仍然可以存取團隊的聊天功能大約兩小時。
+如果您移除團隊的成員，也會從Microsoft 365群組中移除。 從群組移除後，會立即從Teams用戶端移除團隊和頻道。 如果您使用Microsoft 365 系統管理中心從群組中移除人員，他們將無法再存取其他共同作業層面，例如 SharePoint Online 文件庫、Yammer群組或共用OneNote。 不過，他們仍可存取團隊的聊天功能約兩小時。
 
-管理小組成員的最佳作法是從 Teams 用戶端新增和移除成員，以確保其他群組連接工作負載的許可權更新快速發生。 如果您使用 Microsoft 365 系統管理中心、Azure AD 或 Exchange Online PowerShell) 在 Teams 用戶端 (之外新增或移除小組成員，最多可能需要 24 小時，才能在 Teams 中反映變更。
+最佳作法是管理小組成員，請從Teams用戶端新增和移除他們，以確保其他群組連線工作負載的許可權更新能快速執行。 如果您使用 Microsoft 365 系統管理中心、Azure AD 或 Exchange Online PowerShell) ，在Teams用戶端 (外部新增或移除小組成員，最多可能需要 24 小時，變更才會反映在 Teams 中。
 
 ## <a name="deleting-groups-and-teams"></a>刪除群組和團隊
 
-刪除Microsoft 365群組會移除永久 Outlook/OWA 交談和 Teams 會議邀請的信箱別名，並SharePoint網站進行刪除。 移除團隊與團隊對團隊的影響之間大約需要 20 分鐘Outlook。 從用戶端刪除Teams將團隊從所有小組成員的視野中立即移除。 如果您移除已啟用 Teams 功能的 Microsoft 365 群組成員，則團隊在 Teams 用戶端中移除受影響的人員之前，可能會延遲約兩小時。
+刪除Microsoft 365群組會移除持續性Outlook/OWA 交談和Teams會議邀請的信箱別名，並將SharePoint網站標示為刪除。 從團隊移除到對Outlook的影響，大約需要 20 分鐘。 從Teams用戶端中刪除團隊時，會立即從檢視中移除該團隊，使其全部移除為團隊成員。 如果您移除已啟用Teams功能的Microsoft 365群組成員，在Teams用戶端中移除受影響人員的小組之前，可能會有大約兩小時的延遲。
 
-有關群組和團隊生命週期結束選項的詳細資訊，請參閱群組、[](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)團隊和團隊的生命週期結束選項Yammer及在 Microsoft Teams 中存檔[或刪除Microsoft Teams。](./archive-or-delete-a-team.md)
+如需群組和團隊生命週期結束選項的詳細資料，請參閱[群組、團隊和Yammer的結束生命週期選項](/microsoft-365/solutions/end-life-cycle-groups-teams-sites-yammer)和[封存或刪除Microsoft Teams中的團隊](./archive-or-delete-a-team.md)。
 
 ## <a name="related-topics"></a>相關主題
 
-[影片Microsoft Teams (基礎) ](https://aka.ms/teams-foundations)
+[Microsoft Teams (影片) 的基礎](https://aka.ms/teams-foundations)
 
 [還原已刪除的群組](/microsoft-365/admin/create-groups/restore-deleted-group)

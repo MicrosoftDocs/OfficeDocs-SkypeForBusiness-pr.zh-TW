@@ -1,5 +1,5 @@
 ---
-title: 使用Microsoft 365連接器
+title: 管理Microsoft 365和自訂連接器
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -8,67 +8,68 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 f1.keywords:
-  - NOCSH
+- NOCSH
 description: 連接器透過將您經常使用的服務中的內容和更新直接發送到頻道中，進而使您的團隊保持最新狀態。
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 100db95adf900a48898515b9bb9a3a753b47de4f
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125438"
 ---
+# <a name="manage-microsoft-365-and-custom-connectors"></a>管理Microsoft 365和自訂連接器
 
-# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>在 Microsoft 365 中使用自訂連接器Microsoft Teams
+為了持續更新您的小組，連接器會將常用的內容和服務更新直接傳送到Teams通道。 透過連接器，您的Teams使用者可以從 Trello、Wunderlist、GitHub 和 Azure DevOps Services 等熱門服務接收更新。 更新會直接張貼到小組中的聊天串流中。
 
-若要讓您的小組保持更新，連接器會直接將常用的內容和服務更新傳送至Teams頻道。 有了連接器，Teams使用者就可以從熱門服務接收更新，例如 Trello、Wunderlist、GitHub和 Azure DevOps Services。 更新會直接張貼到小組中的聊天串流中。
+Microsoft 365連接器同時搭配Microsoft Teams和Microsoft 365群組使用，可讓所有成員更輕鬆地保持同步，並快速接收相關資訊。 Microsoft Teams和Exchange都使用相同的連接器模型，這可讓您在兩個平臺中使用相同的連接器。 不過，如果您停用為Microsoft 365組設定的任何連接器，也會停用Microsoft 365群組建立連接器的功能。
 
-Microsoft 365連接器同時用於Microsoft Teams Microsoft 365群組，讓所有成員都更容易保持同步，並快速接收相關資訊。 兩Microsoft Teams Exchange使用相同的連接器模型，這可讓您在兩個平臺上使用相同的連接器。 不過，值得注意的是，停用團隊所依存之 Microsoft 365 群組的連接器，也停用該團隊建立連接器的能力。
+如果團隊許可權允許，團隊中的任何成員都可以使用連接器將小組連線到熱門的雲端服務，而且所有小組成員都會收到來自該服務的活動通知。 最初設定連接器的成員已離開之後，連接器仍會繼續運作。 任何具有新增或移除許可權的小組成員都可以修改其他成員設定的連接器。
 
-如果團隊許可權允許，團隊的任何成員都可以使用連接器將其小組連接到熱門雲端服務，而且所有小組成員都會收到該服務的活動通知。 在最初設定連接器的成員離開之後，連接器會繼續運作。 任何具有新增或移除許可權的小組成員都可以修改其他成員的連接器設定。
+## <a name="enable-or-disable-connectors-in-teams"></a>啟用或停用 Teams 中的連接器
 
-> [!NOTE]
-> 在政府雲端或環境中，連接器Community (GCC) 停用。 若要啟用這些參數，請用 `ConnectorsEnabled` `ConnectorsEnabledForTeams` `$true` Cmdlet 將 `SetOrganizationConfig` 或 參數設定為 。 連線[PowerShell Exchange Online。](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
+Exchange Online PowerShell V2 模組使用新式驗證，並可與稱為 MFA 的多重要素驗證搭配使用，以連線至 Microsoft 365 中所有Exchange相關 PowerShell 環境。 系統管理員可以使用 Exchange Online PowerShell 來停用整個租使用者或特定群組信箱的連接器，這會影響該租使用者或信箱中的所有使用者。 無法針對少數特定使用者停用。 此外，政府社群雲端的連接器預設為停用，稱為GCC租使用者。
 
-## <a name="add-a-connector-to-a-channel"></a>新增連接器至頻道
+租使用者設定會覆寫群組設定。 例如，如果系統管理員為群組啟用連接器，並在租使用者上停用連接器，群組的連接器就會停用。 若要在 Teams 中啟用連接器，請使用包含或不含 MFA 的新式驗證連線[至 Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps#connect-to-exchange-online-powershell-using-modern-authentication-with-or-without-mfa&preserve-view=true)。
 
-目前，您可以使用桌面和 web 用戶端Microsoft Teams連接器。 不過，這些連接器張貼的資訊可在所有用戶端 ，包括行動 **用戶端中查看** 。
+### <a name="commands-to-enable-or-disable-connectors"></a>啟用或停用連接器的命令
 
-1. 若要新增連接器至頻道，請按一下頻道名稱 ( **...** ) 的省略號，然後按一下 [ **連接器**。
+在 Exchange Online PowerShell 中執行下列命令：
 
-    > [!div class="mx-imgBorder"]
-    > ![已選取連接器Teams介面的螢幕擷取畫面。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+* 若要停用租使用者的連接器： `Set-OrganizationConfig -ConnectorsEnabled:$false` 。
+* 若要停用租使用者可採取動作的訊息： `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$false` 。
+* 若要啟用Teams的連接器，請執行下列命令：
+  * `Set-OrganizationConfig -ConnectorsEnabled:$true`
+  * `Set-OrganizationConfig -ConnectorsEnabledForTeams:$true`
+  * `Set-OrganizationConfig -ConnectorsActionableMessagesEnabled:$true`
 
-2. 您可以選取各種可用的連接器，然後按一下 [ **新增**。
+如需 PowerShell 模組交換的詳細資訊，請參閱 [Set-OrganizationConfig](/powershell/module/exchange/Set-OrganizationConfig?view=exchange-ps&preserve-view=true)。 若要啟用或停用Outlook連接器，請[將應用程式連線至Outlook中的群組](https://support.microsoft.com/topic/connect-apps-to-your-groups-in-outlook-ed0ce547-038f-4902-b9b3-9e518ae6fbab)。
 
-    > [!div class="mx-imgBorder"]
-    > ![顯示可用連接器的 [連接器」 對話方塊螢幕擷取畫面。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
+<!---TBD: Delete this section after customer migration to new Webhook URL is complete --->
 
-3. 填寫所選連接器的所需資訊，然後按一下 [ **儲存**。 每個連接器都需要各種不同的資訊，以正常運作，有些連接器可能會要求您使用連接器設定頁面上提供的連結來登錄服務。
+#### <a name="connector-url-update-notification"></a>連接器 URL 更新通知
 
-    > [!div class="mx-imgBorder"]
-    > ![RSS 連接器組組頁面的螢幕擷取畫面。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image3.png)
+Teams連接器正在轉換到新的 URL 以加強安全性。 在轉換期間，您會收到更新已設定之連接器的通知。 請儘早更新您的連接器，以防止任何對連接器服務的干擾。 若要更新連接器：
 
-4. 連接器提供的資料會自動張貼到頻道。
+1. 在 [連接器設定] 頁面上，核取設定的連接器旁的 [ **注意必要** ] 訊息。
 
-    > [!div class="mx-imgBorder"]
-    > ![顯示頻道Teams交談之介面的螢幕擷取畫面。](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image4.png)
+   ![[注意必要] 訊息的螢幕擷取畫面。](media/Teams_Attention_Required_message.png)
 
-<!---Delete this section after customer migration to new Webhook URL is complete --->
+1. 若要重新建立內送 webhook 連接器的連線，請選取 **[更新 URL** ]，然後使用產生的 webhook URL。
 
-> [!IMPORTANT]
-> **連接器 URL 更新通知**
->
-> 連接器Teams轉換至新的 URL，以增強安全性。 在此轉換期間，您會收到特定通知，將您配置的連接器更新為使用新 URL。 強烈建議您立即更新連接器，以防止連接器服務中斷。 更新 URL 時，必須遵循下列步驟：
->
-> 1. 在連接器組組頁面中，需要更新之連接的 「管理」按鈕下會顯示「注意需要」訊息。
-> ![「需要注意」訊息的螢幕擷取畫面。](media/Teams_Attention_Required_message.png)
-> 2. 對於內接的網頁連結連接器，使用者只要選取更新 **URL** ，然後使用新產生的 web上連結 URL，即可重新建立連接。
-> ![「更新 URL」按鈕的螢幕擷取畫面。](media/Teams_update_URL_button.png)
-> 3. 對於其他連接器類型，使用者必須移除連接器，然後重新進行連接器組式。
-> 4. 成功更新 URL 之後，您就會看到「URL 為最新」訊息。
-> ![「URL 為最新」訊息的螢幕擷取畫面。](media/Teams_URL_up_to_date.png)
+   ![[更新 URL] 按鈕的螢幕擷取畫面。](media/Teams_update_URL_button.png)
+
+1. 對於其他連接器類型，請移除連接器並重新建立連接器設定。 系統會顯示最新訊息的 **URL** 。
+
+   ![URL 是最新郵件的螢幕擷取畫面。](media/Teams_URL_up_to_date.png)
 
 ## <a name="see-also"></a>另請參閱
 
-* [建立自訂連接器和網頁連結](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
+* [自訂連接器和網路任務概觀](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors)
+* [建立Office 365連接器](/microsoftteams/platform/webhooks-and-connectors/how-to/connectors-creating)

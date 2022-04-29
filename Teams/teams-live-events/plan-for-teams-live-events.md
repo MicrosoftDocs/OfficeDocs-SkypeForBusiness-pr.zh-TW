@@ -20,12 +20,12 @@ description: 在本文章中，您將瞭解在 Microsoft Teams 中設定即時�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f7ce782db18c15e3b08367e0956003f7af2dde75
-ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.openlocfilehash: 8c48c322c913b71eb47e1c093e40200d926d26f3
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63047143"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125668"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>在 Microsoft Teams 中規劃即時活動
 
@@ -178,18 +178,9 @@ ms.locfileid: "63047143"
 - 阿拉伯聯合大公國
 - 英國
 
-**不支援這些國家/地區和雲端**
-
-- 政府社群雲端 (GCC)-H
-- 美國國防部 (DOD)
-
 **排除和考量事項**
 
 - **資料位置：** Teams 資料位置，目前不支援上述以外的國家/地區。
-
->[!Note]
-> 即時活動須仰賴 Azure CDN 服務，在部分國家/地區可能無法使用。 身為系統管理員，您可能需要根據所有適用法規設定 VPN，才能連接到公司網路，讓這些應用程式順暢地運作。 完成之後，貴組織人員就可以排程並參加即時活動。
-
 
 ## <a name="next-steps"></a>後續步驟
 
