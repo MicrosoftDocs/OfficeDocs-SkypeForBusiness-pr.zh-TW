@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 - Microsoft Cloud for Retail
-description: 瞭解如何在組織中為前線員工Teams中設定及管理 Shifts 應用程式。
+description: 瞭解如何在Teams中為組織中的一線員工設定和管理 Shifts 應用程式。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -24,23 +24,23 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d38af9f55f1620a1f38ad5860c71366201bb9444
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 2dcc945795da34ed3045ffadbc55445303b48281
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039901"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137004"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [班次] 應用程式
 
 ## <a name="overview-of-shifts"></a>班次概觀
 
-應用程式中的 Shifts 應用程式Microsoft Teams前線員工保持連接與同步。這是專為團隊快速且有效的時間管理與通訊所打造的行動電話。 輪班讓前線員工及其主管使用行動裝置管理排程並保持聯繫。
+Microsoft Teams中的 Shifts 應用程式可讓第一線工作人員保持聯繫並保持同步。這是第一次建置行動裝置，可為團隊提供快速且有效的時間管理和通訊。 班次可讓第一線工作人員及其主管使用行動裝置來管理排程並保持聯繫。
 
 - 主管建立、更新及管理團隊的排班表。 主管也可以傳送訊息給單一個人 (「地板上有打翻的液體」) 或整個團隊 (「區域總經理將於 20 分鐘後抵達」)。 主管還可以傳送原則文件、新訊佈告欄或影片。
 - 員工可查看預排的班次、查看當天還有誰已排班、要求調班或調班，以及要求請假。
 
-請注意，Shifts 目前不支援來賓。 這表示在 Teams 中開啟來賓存取時，團隊中的來賓無法新增或使用班次排程。
+請務必瞭解 Shifts 目前不支援來賓。 這表示在 Teams 中開啟來賓存取時，團隊中的來賓無法新增或使用班次排程。
 
 > [!Note]
 > 如需有關不同平台上班次功能的詳細資訊，請參閱[依平台的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
@@ -50,13 +50,13 @@ ms.locfileid: "63039901"
 班次可在可用 Teams 的所有企業 SKUS 中使用。
 
 > [!NOTE]
-> 班次適用于政府社群雲端 (GCC) ，但不適用於高GCC DoD 環境。
+> 班次可在政府社群雲端 (GCC) 環境中使用，但在 [高] 或 GCC [高] 或 [DoD] 環境中則無法使用。
 
 ## <a name="location-of-shifts-data"></a>班次資料的位置
 
-班次資料目前儲存在 Azure 中，位於亞太地區 (亞太地區) 、歐盟 (歐盟) 以及北美的資料中心。 如需有關資料儲存位置的詳細資訊，請參閱[我的資料在哪裡](http://o365datacentermap.azurewebsites.net/)？
+Shifts 資料目前儲存在 Azure 的資料中心，位於亞太地區 (APAC) 、歐盟 (歐盟) ，以及北美洲。 如需有關資料儲存位置的詳細資訊，請參閱[我的資料在哪裡](http://o365datacentermap.azurewebsites.net/)？
 
-若要深入瞭解 Shifts 資料，包括儲存、保留、取回和加密 Shifts 資料，請參閱 [Shifts 資料常見問題](shifts-data-faq.md)。
+若要深入瞭解班次資料，包括儲存空間、保留、擷取和 Shifts 資料加密，請參閱 [Shifts 資料常見問題](shifts-data-faq.md)。
 
 ## <a name="set-up-shifts"></a>設定班次
 
@@ -65,21 +65,21 @@ ms.locfileid: "63039901"
 您的組織中的所有 Teams 使用者預設會啟用 [班次]。 您可以在 Microsoft Teams 系統管理中心的[管理應用程式](../../manage-apps.md)頁面上關閉或開啟組織層級的應用程式。
 
 1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
-2. 在應用程式清單中，搜尋 Shifts 應用程式，選取它，然後將狀態切換開關切換為封鎖 **或****允許**。****
+2. 在應用程式清單中，搜尋 Shifts 應用程式，選取它，然後將 **[狀態]** 切換為 [ **已封鎖** ] 或 [ **允許]**。
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>啟用或停用組織中特定使用者的 [班次]
 
-若要允許或封鎖貴組織的特定使用者使用 Shifts，請確定貴組織在管理應用程式頁面上已開啟 [Shifts](../../manage-apps.md) 。 然後建立自訂應用程式權限原則，並將其指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](../../teams-app-permission-policies.md)。
+若要允許或封鎖貴組織中的特定使用者使用 Shifts，請確定已在 [ [管理應用程式](../../manage-apps.md) ] 頁面上為貴組織開啟 Shifts。 然後建立自訂應用程式許可權原則，並將它指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](../../teams-app-permission-policies.md)。
 
-### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>使用應用程式設定策略將 Shifts 釘Teams
+### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>使用應用程式設定原則將 Shifts 釘選到Teams
 
 應用程式設定原則可讓您自訂 Teams，以醒目提示對貴組織中的使用者最重要的應用程式。 您在原則中設定的應用程式會釘選到應用程式列&mdash;位於 Teams 桌面版用戶端側邊列，以及位於 Teams 行動版用戶端底部&mdash;，可讓使用者快速且輕鬆地存取。
 
-您可以 [新增 Shifts](../../teams-app-setup-policies.md) 應用程式來建立自訂應用程式設定策略，然後將該策略 [指派](../../assign-policies-users-and-groups.md) 給使用者。 或者，您可以使用屬於前線員工和 Frontline Manager 策略套件的應用程式設定策略。
+您可以新增 Shifts 應用程式來建立 [自訂應用程式設定原則](../../teams-app-setup-policies.md) ，然後 [將原則指派給](../../assign-policies-users-and-groups.md) 使用者。 或者，您也可以使用屬於第一線工作人員和第三線管理員原則套件一部分的應用程式設定原則。
 
-其中[一個](../../manage-policy-packages.md)Teams套件是預先定義的策略和設定集合，您可以指派給組織中具有類似角色的使用者。 Frontline Worker 和 Frontline Manager 策略套件中的一群組原則包含將 Shifts App 和其他支援該角色通訊和共同合作活動的 App 設定策略。
+Teams中[的原則套](../../manage-policy-packages.md)件是一組預先定義的原則和原則設定，您可以將這些設定指派給組織中具有類似角色的使用者。 [第一線工作者] 和 [第一線管理員] 原則套件中的原則集包含一個應用程式設定原則，可釘選 Shifts 應用程式和其他支援該角色通訊及共同作業活動的應用程式。
 
-我們建議您使用前線員工和 Frontline Manager 策略套件，以簡化、簡化，並有助於在管理前線員工的政策時提供一致性。
+我們建議您使用第一線工作人員和一線管理員原則套件，以簡化、簡化及協助在管理前線員工的原則時提供一致性。
 
 ## <a name="search-the-audit-log-for-shifts-events"></a>搜尋班次活動的稽核記錄檔
 
@@ -92,7 +92,7 @@ ms.locfileid: "63039901"
 ## <a name="related-articles"></a>相關文章
 
 - [Teams 中的 Shifts](../shifts-for-teams-landing-page.md)
-- [班次資料常見問題](shifts-data-faq.md)
-- [移轉連接器](shifts-connectors.md)
-- [第一線員工輪班協助](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Shifts 資料常見問題](shifts-data-faq.md)
+- [Shifts 連接器](shifts-connectors.md)
+- [第一線員工的輪班說明](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [將原則指派給 Teams 中的使用者](../../policy-assignment-overview.md)

@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何管理Microsoft Teams系統管理中心內建于 Microsoft Power Platform 的自訂應用程式存取權。
-ms.openlocfilehash: c093d432faa8d4977f4d931ac948a35dc6fe6509
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 9f212cf52ec757fc4860f081fb67da2cb1b4fcd5
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "63442669"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136994"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理 Microsoft Power Platform 應用程式
 
@@ -66,7 +66,7 @@ ms.locfileid: "63442669"
 
 根據預設，貴組織中的所有 **Teams** 使用者皆可使用共用Power Apps和 **共用 Power Virtual Agent Apps**。 您可以在系統管理中心的 [[管理應用程式](manage-apps.md)] Microsoft Teams 頁面上，于組織層級封鎖或允許它們。  
 
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。 您必須是全域系統管理員或Teams服務系統管理員才能存取頁面。
+1. 在Microsoft Teams系統管理中心的左窗格中，移至 **Teams應用程式**  >  **管理應用程式。** 您必須是全域系統管理員或Teams服務系統管理員才能存取頁面。
 2. 在應用程式清單中，執行下列其中一項操作。
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="[管理應用程式] 頁面的螢幕擷取畫面，顯示共用的 Microsoft Power Platform 應用程式":::

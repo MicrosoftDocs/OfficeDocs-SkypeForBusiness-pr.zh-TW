@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: 瞭解如何在 Microsoft Teams 系統管理中心管理稱讚應用程式。
-ms.openlocfilehash: 364fb60b6a729062e358685426acd98704c7ac02
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 16f59a8fbe0958a63f824762cfede020dbf54b8e
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "63442679"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65136974"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理稱讚應用程式
 
@@ -31,7 +31,7 @@ Microsoft Teams中的 稱讚 應用程式可協助使用者表達對貴組織或
 
 :::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Teams系統管理中心中稱讚應用程式詳細資料頁面的螢幕擷取畫面，顯示 [狀態] 切換開關。":::
 
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。
+1. 在Microsoft Teams系統管理中心的左窗格中，移至 **Teams應用程式**  >  **管理應用程式。**
 2. 在應用程式清單中，搜尋稱讚應用程式，選取它，然後將 **[狀態**] 切換為 [**已封鎖**] 或 [**允許]**。
 
 請記住，此設定會同時影響 稱讚 應用程式以及 Teams 中 Viva Insights 應用程式中的稱讚功能。

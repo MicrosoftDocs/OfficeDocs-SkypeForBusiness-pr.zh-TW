@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 37c899c1507a28f51bb881a9e7e66de6d7af0d58
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 45f663f2c75d12a21fe38c4bbc71e2b3d93d8247
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64643067"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137124"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 核准應用程式可用性
 
@@ -68,7 +68,7 @@ ms.locfileid: "64643067"
 從範本建立的核准仍會在 Microsoft Dataverse 中儲存資料，例如標題、詳細資料、範本識別碼等等。 在核准要求上提交的回應會儲存在 Forms 中。 深入瞭解 [Microsoft Forms 的資料儲存空間](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)。
 
 >[!Note]
->如果您刪除Microsoft Forms網站上的表單範本，該範本會中斷您的核准範本，使用者將無法開始要求。 嘗試開啟已在 Microsoft Forms 上刪除的核准範本時，使用者會收到「CDB TableNotFound」錯誤。
+>如果您刪除Microsoft Forms網站上的表單範本，該範本會中斷您的核准範本，且使用者無法啟動要求。 使用者在嘗試開啟已在 Microsoft Forms 上刪除的核准範本時，收到「CDB TableNotFound」錯誤。
 
 組織範圍的範本與租使用者的整個生命週期相同，而團隊範圍的範本則共用團隊的相同生命週期。 因此，永久刪除團隊會刪除相關的範本。
 
@@ -99,7 +99,7 @@ ms.locfileid: "64643067"
 
 - 所有團隊擁有者都可以為他們擁有的團隊建立核准範本。
 
-- 當系統管理員第一次為整個組織建立範本時，系統會自動為租使用者的所有系統管理員建立新的Azure Active Directory (AAD) 群組，包括全域和Teams服務系統管理員。 系統會將這些系統管理員新增為群組的擁有者，讓他們可以共同管理組織範本。 建立團隊之後，組織新手的系統管理員必須手動新增為群組擁有者，這樣他們才擁有管理整個組織範本的相同許可權。
+- 當系統管理員第一次為整個組織建立範本時，系統會自動為租使用者的所有系統管理員建立新的Azure Active Directory (AAD) 群組，包括全域和Teams服務系統管理員。 這些系統管理員會新增為群組的擁有者，讓他們可以共同管理組織範本。 建立團隊之後，組織新手的系統管理員必須手動新增為群組擁有者，這樣他們才擁有管理整個組織範本的相同許可權。
 
 > [!Note]
 > 如果系統管理員刪除群組，您在Azure Active Directory (AAD) 入口網站內有一個月的時間可以還原該群組，以還原所有相關資料。 一個月後，或如果系統管理員在回收站中刪除此群組，您將會遺失所有相關資料。
@@ -199,7 +199,7 @@ ms.locfileid: "64643067"
 使用者可以從 Teams 核准應用程式建立新的核准，並檢視他們已傳送和接收的核准。 使用者無法存取其他人所建立的核准，除非他們是回應者或要求的檢視者。
 
 > [!Note]
-> 如果使用者是建立核准所在的聊天或頻道的一部分，就會獲授與要求的檢視者角色。 如果在建立核准時未提供他們該角色，他們即無法對要求採取動作。
+> 如果使用者是建立核准的聊天或頻道的一部分，就會被指派一個檢視者角色。 如果在建立核准時未提供他們該角色，他們即無法對要求採取動作。
 
 ## <a name="approvals-e-signature-integration"></a>核准電子簽名整合
 
@@ -207,9 +207,9 @@ ms.locfileid: "64643067"
 
 ### <a name="enable-or-disable-e-signature-providers"></a>啟用或停用電子簽名提供者
 
-您可以使用Teams系統管理中心，控制使用者可在 核准 應用程式中使用哪些協力廠商電子簽名提供者。 根據預設，核准應用程式中會啟用電子簽名提供者。 當您停用電子簽名提供者時，您的使用者在建立核准時將無法存取該提供者。 您的使用者也無法檢視使用該提供者建立的電子簽名要求。
+您可以使用Teams系統管理中心來控制核准應用程式中的使用者可使用哪些協力廠商電子簽名提供者。 根據預設，核准應用程式中會啟用電子簽名提供者。 當您停用電子簽名提供者時，您的使用者在建立核准時將無法存取該提供者。 您的使用者也無法檢視使用該提供者建立的電子簽名要求。
 
-1. 在Teams系統管理中心的左側導覽畫面中，移至 **Teams應用程式**  >  **管理應用程式**。
+1. 在Teams系統管理中心的左窗格中，移至 **Teams應用程式**  >  **管理應用程式**。
 2. 搜尋核准應用程式，然後選取它。
 3. 移至 **[設定**] 索引標籤，然後執行下列一或多個動作：
 

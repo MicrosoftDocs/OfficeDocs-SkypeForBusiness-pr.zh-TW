@@ -16,12 +16,12 @@ description: 瞭解如何在 Microsoft Teams 系統管理中心為Teams購買協
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 84a527fbd8ec59817b4f0d3ee64a970c44d9abd4
-ms.sourcegitcommit: 708b489a7dca7fd9e5e9b1ec88c9aba79ecafe5f
+ms.openlocfilehash: 52cab02898a2fd187c60d2348a42c3ce97de2a3b
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64712927"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137084"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>購買適用于 Teams 的協力廠商應用程式
 
@@ -38,12 +38,12 @@ Teams應用程式可以免費安裝，有些可能需要購買服務訂閱才能
 > [!IMPORTANT]
 > 當您啟用應用程式購買時，它也會開啟應用程式內購買。 使用者可能會看到 App 內購買優惠，這些優惠是由其應用程式的 ISV 所控制。 如果您想要封鎖使用者購買應用程式，您必須封鎖該應用程式。 如需如何封鎖應用程式的詳細資訊，請參閱 [管理應用程式原則](app-policies.md) 或 [瞭解如何在組織層級封鎖應用程式](manage-apps.md#allow-and-block-apps)。
 
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **Teams 應用程式** > **管理應用程式**。 您必須是全域系統管理員或Teams服務系統管理員才能存取頁面。
+1. 在Microsoft Teams系統管理中心的左窗格中，移至 **Teams應用程式**  >  **管理應用程式。** 您必須是全域系統管理員或Teams服務系統管理員才能存取頁面。
 1. 搜尋您要的應用程式。 若要識別擁有付費 SaaS 訂閱的應用程式，請查看 **[授權] 欄** 。 每個應用程式都會有下列其中一個值：
     - **購買**：此應用程式提供 SaaS 訂閱，且可供購買。  
     - **已購買**：應用程式提供 SaaS 訂閱，而且您已購買該訂閱的授權。
     - **- -**：應用程式不提供 SaaS 訂閱。
-1. 當您找到應用程式時，請按一下 [ **購買** ]，移至應用程式詳細資料頁面的 [ **方案與價格** ] 索引標籤。 檢閱應用程式 SaaS 優惠方案的方案和定價資訊。 如果您需要更多資訊，請選取 **[深入瞭解]** 以移至 [AppSource 上的應用程式](https://appsource.microsoft.com/)頁面。
+1. 當您找到應用程式時，選取 **[購買** ] 以移至應用程式詳細資料頁面的 [ **方案與價格** ] 索引標籤。 檢閱應用程式 SaaS 優惠方案的方案和定價資訊。 如果您需要更多資訊，請選取 **[深入瞭解]** 以移至 [AppSource 上的應用程式](https://appsource.microsoft.com/)頁面。
 
    > [!NOTE]
    > 私人方案也可能會列在購買清單中，包括貴組織先前與 ISV 所洽詢的特殊定價。 這些方案會在計畫名稱底下顯示「 **私人計畫** 」標籤。
