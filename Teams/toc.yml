@@ -543,9 +543,9 @@ items:
         items:
           - name: 與其他組織的使用者通訊
             href: communicate-with-users-from-other-organizations.md
-          - name: 外部存取 (同盟)
+          - name: 外部會議和聊天
             items:
-              - name: 管理外部存取
+              - name: 管理外部會議和聊天
                 href: manage-external-access.md
               - name: 原生 Teams 聊天
                 href: native-chat-for-external-users.md
