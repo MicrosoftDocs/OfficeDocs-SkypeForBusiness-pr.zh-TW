@@ -20,12 +20,12 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在Microsoft Teams中使用和管理原則套件，以簡化、簡化並協助在管理使用者群組的原則時提供一致性。
-ms.openlocfilehash: 173d5d1488196ea048a64ce12916f8115362c572
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: d38384889e48e7d666036675b1a52ae194ea9582
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "63055303"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65144928"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>管理Microsoft Teams的原則套件
 
@@ -87,7 +87,7 @@ Teams目前包含下列原則套件。
 
 若要建立新的自訂原則套件：
 
-1. 在 Microsoft Teams系統管理中心的左側導覽畫面中，選取 [**原則套件**]，然後按一下 [**新增]**。
+1. 在系統管理中心的左窗格中，選 Microsoft Teams取 [**原則套件**]，然後按一下 [**新增]**。
 
     :::image type="content" source="media/policy-packages-add.png" alt-text="系統管理中心之 [原則套件] 頁面上的 [新增] 按鈕螢幕擷取畫面。":::
 
@@ -97,7 +97,7 @@ Teams目前包含下列原則套件。
 
 3. 選取要包含在套件中的原則類型和原則名稱。
 
-4. 按一下 [儲存]。
+4. 選取 [儲存 **]**。
 
 ## <a name="how-to-use-policy-packages"></a>如何使用原則套件
 
@@ -120,17 +120,17 @@ Teams目前包含下列原則套件。
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>檢視原則套件中的原則設定
 
-1. 在Microsoft Teams系統管理中心的左側導覽畫面中，選取 [**原則套件**]，然後按一下套件名稱左側以選取原則套件。
+1. 在Microsoft Teams系統管理中心的左窗格中，選取 [**原則套件**]，然後按一下套件名稱左側以選取原則套件。
 
-2. 按一下您要檢視的原則。
+2. 選取您要檢視的原則。
 
 ### <a name="customize-policies-in-a-policy-package"></a>自訂原則套件中的原則
 
 您可以透過 [原則 **套** 件] 頁面編輯原則設定，或直接移至Microsoft Teams系統管理中心的 [原則] 頁面。
 
-1. 在 Microsoft Teams系統管理中心的左側導覽中，執行下列其中一項操作：
-    - 按一下 **[原則套件**]，然後按一下套件名稱左邊來選取原則套件。
-    - 按一下原則類型。  例如，按一下 [ **訊息中心原則]**。
+1. 在 Microsoft Teams系統管理中心的左窗格中，執行下列其中一項操作：
+    - 選取 **[原則套件**]，然後按一下套件名稱左邊來選取原則套件。
+    - 選取原則類型。  例如，按一下 [ **訊息中心原則]**。
 
 2. 選取您要編輯的原則。 連結至原則套件的原則名稱與原則套件相同。
 

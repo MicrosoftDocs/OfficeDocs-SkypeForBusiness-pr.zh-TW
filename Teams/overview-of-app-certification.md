@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 5a8edd0afc2adde7a6867242dd0bdc0b406ca682
-ms.sourcegitcommit: 745d707ec63685ce7f973785e7056628472b9c45
+ms.openlocfilehash: 85277e9948dac1e083eb587f9bfc3787be3644a6
+ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "64910909"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65137154"
 ---
 # <a name="microsoft-365-app-compliance-program-for-security-compliance-and-privacy-of-third-party-apps"></a>適用於第三方應用程式安全性、合規性和隱私權的 Microsoft 365 應用程式合規性計畫
 
@@ -80,7 +80,7 @@ Microsoft 合規性計畫會針對衍生自領先業界標準架構的控制措�
 
 * 收集關於 Web 上應用程式詳細資訊時，請參閱 Microsoft 檔有關該應用程式的盾牌圖示。
 
-  :::image type="content" source="media/attested-app-doc-details.png" alt-text="在關於應用程式的安全性與合規性的詳細說明文章中檢視 Microsoft 365 認證資訊。":::
+  :::image type="content" source="media/attested-app-doc-details.png" alt-text="在關於應用程式的安全性與合規性的詳細說明文章中檢視 Microsoft 365 認證資訊":::
 
 * 在 Teams 系統管理中心檢查應用程式時，使用認證資料行來排序應用程式的清單。 查看圖示，並選擇性地選取連結以存取以上提及的應用程式特定頁面。
 
@@ -92,13 +92,35 @@ Microsoft 合規性計畫會針對衍生自領先業界標準架構的控制措�
 
 * 在 Teams 系統管理中心，在授與應用程式權限時，應用程式名稱前面的藍色核取記號表示它是發行者證明的應用程式或 Microsoft 365 認證的應用程式。
 
-   :::image type="content" source="media/attested-app-tac2.png" alt-text="在 Teams 系統管理中心，系統管理員可以於授與權限的對話方塊中檢查藍色核取記號，以確保應用程式已通過 Microsoft 365 認證。":::
+   :::image type="content" source="media/attested-app-tac2.png" alt-text="在 Teams 系統管理中心，系統管理員可以於授與權限的對話方塊中檢查藍色核取記號，以確保應用程式已通過 Microsoft 365 認證":::
 
-## <a name="view-security-compliance-and-privacy-information-in-microsoft-documentation"></a>在 Microsoft 文件中檢視安全性、合規性和隱私權資訊
+## <a name="view-security-compliance-and-privacy-information"></a>檢視安全性、合規性和隱私權資訊
 
-針對已證明或認證的應用程式，有關每個應用程式的安全性、隱私權、合規性等詳細資料，會列在從 [Microsoft Teams 應用程式安全性與合規性](/microsoft-365-app-certification/teams/teams-apps)連結的應用程式特定說明文章中。
+您可以在 Microsoft 文件和 Teams 系統管理中心找到已證明或認證應用程式的安全性、隱私權、合規性和行為相關資訊。
+
+### <a name="microsoft-documentation"></a>Microsoft 文件
+
+您可找到有關每個應用程式的安全性、隱私權、合規性等詳細資料，會列在從 [Microsoft Teams 應用程式安全性與合規性](/microsoft-365-app-certification/teams/teams-apps)連結的應用程式特定說明文章中。
 
 :::image type="content" source="media/attested-app-doc-details.png" alt-text="針對經歷 Microsoft 合規性計畫的應用程式提供詳細資訊。":::
+
+### <a name="teams-admin-center"></a>Teams 系統管理中心
+
+評估其組織的應用程式時，您可以使用獨立的雲端存取安全性代理人 (CASB)，例如 Microsoft Cloud App Security (MCAS)，來尋找應用程式安全性和行為的資訊。 Teams 系統管理中心包含來自 MCAS 的 Microsoft 365 認證應用程式安全性和合規性資訊，以檢查應用程式是否符合您的需求。
+
+> [!NOTE]
+> 此功能可供所有系統管理員使用，不論您的組織是否擁有支援 MCAS 授權。
+
+若要存取應用程式的 MCAS 資訊:
+
+1. 在 Teams 系統管理中心，選取 **[Teams 應用程式]** 下的 **[管理應用程式]**。
+1. 選取 **[認證]** 來排序應用程式，並推播所有 Microsoft 365 認證應用程式至表格頂端。
+1. 選擇 Microsoft 365 認證應用程式。
+1. 選取 **[安全性與合規性]** 索引標籤。
+
+   :::image type="content" source="media/mcas.png" alt-text="Teams 系統管理中心安全性與合規性索引標籤的螢幕擷取畫面":::
+
+   若要取得應用程式支援功能的詳細資訊，請選取每個類別的下拉清單。
 
 <!--- TBD: Move to the permissions article 
 
@@ -119,7 +141,7 @@ After admins grant the org-wide permissions to an app, they can review the Graph
 
 在 Teams 系統管理中心，每個應用程式頁面會連結到隱私權聲明和應用程式的使用條款。
 
-:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="從 Teams 系統管理中心，系統管理員可以存取每個應用程式的隱私權原則和使用規定的連結。" lightbox="media/tac-app-tou-privacy-info2.png":::
+:::image type="content" source="media/tac-app-tou-privacy-info1.png" alt-text="從 Teams 系統管理中心，系統管理員可以存取每個應用程式的隱私權原則和使用規定的連結" lightbox="media/tac-app-tou-privacy-info2.png":::
 
 <!--- TBD: Parking some content for later review. Check if this content needs to be published.
 

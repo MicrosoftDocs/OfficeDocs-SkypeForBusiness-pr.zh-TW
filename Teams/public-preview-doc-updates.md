@@ -18,12 +18,12 @@ description: 了解 Microsoft Teams 中的公開預覽。嘗試新功能並提�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e3fdf0901d150df63fded6dc49822ad81f81f7d5
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: f814483cee8941d3fd29d2442d653c444915d1a5
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059184"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125778"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公開預覽
 
@@ -73,6 +73,14 @@ Microsoft Teams 的公開預覽可提供 Teams 中尚未發行功能的早期存
 
 > [!NOTE]  
 > 此選項僅在 **顯示預覽功能** 設定為 **已啟用** 時可供使用。
+
+### <a name="public-preview-for-microsoft-teams-rooms-on-windows"></a>Windows 上的 Microsoft Teams 會議室公開預覽
+
+公開預覽預設為關閉。 開啟公開預覽時，使用者端可以存取 Teams 會議室公開預覽中的功能。 若要開啟公開預覽，請新增 ```<EnablePublicPreview>True</EnablePublicPreview>``` 至您的 XML 設定檔。
+
+我們建議註冊 5-10 部裝置以公開預覽。 
+
+所有公開預覽功能都會在 [Microsoft Teams 公開預覽 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)
 
 ## <a name="teams-now-follows-office-preview-users"></a>Teams 現在會追蹤 Office Preview 使用者
 
