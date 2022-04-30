@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些工作階段邊界控制器 (SBC) 已通過直接路由認證。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d8a1a3e739188859cf34ea60c0160e9532a9ab3d
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 2ebc88b42257ca6f6f6cdce482d042b0dc3b406c
+ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556574"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "65125758"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器
 
@@ -49,9 +49,7 @@ Microsoft 可與每個廠商合作，以：
 
 遵循經過直接路由認證之裝置清單的資料表。 (如需有關哪些 SBC 廠商支援本機媒體最佳化的資訊，請參閱[設定直接路由的本機媒體最佳化](direct-routing-media-optimization-configure.md))。
 
-[深入了解直接路由](https://aka.ms/dr)。
-如果您對直接路由的 SBC 認證計畫有任何疑問，請連絡 drsbccertification@microsoft.com。 請注意，在進一步通知之前，我們不會接受新的認證提名。
-<br/>
+[深入了解直接路由](https://aka.ms/dr)。請注意，在進一步通知之前，我們不會接受新的認證提名。<br/>
 
 ## <a name="certified-sbc-vendors"></a>認證的 SBC 廠商
 
@@ -91,8 +89,7 @@ Microsoft 可與每個廠商合作，以：
 |                                 |     適用於 1000 系列彙總服務路由器的 Cisco Unified Border Element (CUBE)      |     &#10004;   | &#10004; |      支援 IOS XE Amsterdam 17.2.1r (建議 17.6.1a)         |    &#10004;     |    |
 |                                 |     適用於 Catalyst 8000 邊緣平台的 Cisco Unified Border Element (CUBE)      |     &#10004;   | &#10004; |      支援 IOS XE Amsterdam 17.3.2 (建議 17.6.1a)      |    &#10004;     |    |
 |                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise (ASBCE)    |     &#10004;     |       &#10004;     |       8.1.1 版 (8.1.2 用於媒體旁路)      |     |    |
-|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia 工作階段邊界控制器    |     &#10004;     |           |       19.5 (1908)       |     |    |
-|                     |    Nokia 工作階段邊界控制器    |     &#10004;     |           |       20.8       |      &#10004;        |    |
+|                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia 工作階段邊界控制器    |     &#10004;     |      &#10004;     |       22.0       |   &#10004;  |    |
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       支援 5.0、5.1 (建議 5.3)     |     |    |
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid Link    |     &#10004;     |           |      3.1        |     |    |
