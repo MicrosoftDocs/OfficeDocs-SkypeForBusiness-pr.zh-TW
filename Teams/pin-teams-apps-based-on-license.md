@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5c3112740ab2b25b0f0107823d41c5b5e2d68f0f
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059304"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187119"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>為您的前線員工量身打造 Teams 應用程式
 
@@ -29,7 +29,7 @@ ms.locfileid: "65059304"
 
 ## <a name="overview"></a>概觀
 
-Teams提供一種簡單的方法，可將應用程式釘選給第一線工作人員。 這項功能會根據授權來釘選應用程式，以在Teams中提供符合他們需求的全新體驗。
+Teams根據授權釘選應用程式，以在Teams中根據他們的需求提供全新體驗。 
 
 透過量身打造的第一線應用程式體驗，您的第一線工作人員可在Teams取得最相關的應用程式，而不需要系統管理員採取任何動作。
 

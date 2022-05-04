@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2dcc945795da34ed3045ffadbc55445303b48281
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 2cd0032291054e5a4c7ee8d9204d6173cdcdebdf
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137004"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186999"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [班次] 應用程式
 
@@ -71,9 +71,19 @@ Shifts 資料目前儲存在 Azure 的資料中心，位於亞太地區 (APAC) �
 
 若要允許或封鎖貴組織中的特定使用者使用 Shifts，請確定已在 [ [管理應用程式](../../manage-apps.md) ] 頁面上為貴組織開啟 Shifts。 然後建立自訂應用程式許可權原則，並將它指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](../../teams-app-permission-policies.md)。
 
-### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>使用應用程式設定原則將 Shifts 釘選到Teams
+### <a name="pin-shifts-to-teams"></a>將班次釘選到Teams
 
-應用程式設定原則可讓您自訂 Teams，以醒目提示對貴組織中的使用者最重要的應用程式。 您在原則中設定的應用程式會釘選到應用程式列&mdash;位於 Teams 桌面版用戶端側邊列，以及位於 Teams 行動版用戶端底部&mdash;，可讓使用者快速且輕鬆地存取。
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-shifts-and-other-apps-to-teams"></a>使用量身打造的第一線應用程式體驗，將 Shifts 和其他應用程式釘選到Teams
+
+在 Teams 中量身打造的第一線應用程式體驗會將最相關的應用程式釘選到 Teams 中，以供[擁有 F 授權](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的使用者使用。 釘選的應用程式包括 Shifts、無線對講機、工作和核准。 根據預設，此功能為您的第一線工作人員提供專為其需求量身打造的全新體驗。
+
+這些應用程式會釘選到應用程式行，也就是Teams桌面用戶端側邊，以及Teams行動用戶端底部的列，使用者可以在此快速且輕鬆地存取它們。
+
+若要深入瞭解，包括體驗如何與您所設定的應用程式原則搭配運作，請參閱[為前線員工量身打造Teams應用程式](../../pin-teams-apps-based-on-license.md)。  
+
+#### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>使用應用程式設定原則將 Shifts 釘選到Teams
+
+應用程式設定原則可讓您自訂Teams，釘選對使用者最重要的應用程式。
 
 您可以新增 Shifts 應用程式來建立 [自訂應用程式設定原則](../../teams-app-setup-policies.md) ，然後 [將原則指派給](../../assign-policies-users-and-groups.md) 使用者。 或者，您也可以使用屬於第一線工作人員和第三線管理員原則套件一部分的應用程式設定原則。
 

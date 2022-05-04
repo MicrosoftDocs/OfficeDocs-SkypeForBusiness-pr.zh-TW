@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45f663f2c75d12a21fe38c4bbc71e2b3d93d8247
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 205f0869e699384c9a37590db50e690b5b8bd804
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137124"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186979"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 核准應用程式可用性
 
@@ -122,15 +122,29 @@ ms.locfileid: "65137124"
 
      :::image type="content" alt-text="顯示 核准 應用程式的詳細資料。" source="media/approvals-details-new.png" lightbox="media/approvals-details-new.png":::
 
-## <a name="app-policies"></a>應用程式原則
+## <a name="pin-approvals-to-teams"></a>將核准釘選到Teams
 
-### <a name="retention-policy"></a>保留原則
+### <a name="use-the-tailored-frontline-app-experience-to-pin-approvals-and-other-apps-to-teams"></a>使用量身打造的第一線應用程式體驗，將核准和其他應用程式釘選到Teams
+
+在 Teams 中量身打造的第一線應用程式體驗會將最相關的應用程式釘選到 Teams 中，以供[擁有 F 授權](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的使用者使用。 釘選的應用程式包括核准、無線對講機、工作和班次。 根據預設，此功能為您的第一線工作人員提供專為其需求量身打造的全新體驗。
+
+這些應用程式會釘選到應用程式行，也就是Teams桌面用戶端側邊，以及Teams行動用戶端底部的列，使用者可以在此快速且輕鬆地存取它們。
+
+若要深入瞭解，包括體驗如何與您所設定的應用程式原則搭配運作，請參閱[為前線員工量身打造Teams應用程式](pin-teams-apps-based-on-license.md)。
+
+### <a name="use-an-app-setup-policy-to-pin-approvals-to-teams"></a>使用應用程式設定原則將核准釘選到Teams
+
+應用程式設定原則可讓您自訂Teams以釘選對使用者中使用者最重要的應用程式。
+
+若要為使用者釘選核准應用程式，您可以編輯全域 (組織的預設) 原則，或建立及指派自訂應用程式設定原則。 若要深入了解，請參閱[管理 Teams 中的應用程式設定原則](teams-app-setup-policies.md)。
+
+## <a name="retention-policy"></a>保留原則
 
 從 核准 應用程式建立的核准會儲存在預設的 Microsoft Dataverse 環境中，目前不支援備份。 深入了解如何[備份和還原環境 - Power Platform \| Microsoft Docs](/power-platform/admin/backup-restore-environments)。
 
 在團隊擁有者從 Microsoft Forms Web App 的 [**已刪除** 的表單] 索引標籤中清除資料之前，不會刪除儲存在 Forms 中的資料。
 
-### <a name="conditional-access-policies"></a>條件式存取原則
+## <a name="conditional-access-policies"></a>條件式存取原則
 
 目前，Teams 中的 核准 應用程式不支援針對 Microsoft Teams 設定的條件式存取原則。
 

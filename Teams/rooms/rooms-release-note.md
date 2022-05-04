@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 系統管理員可以閱讀Microsoft Teams 會議室的版本資訊，其中列出Microsoft Teams 會議室中的累積改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ff29da1f78c39163dbb8262e1a94687dad6c4aac
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: f91c286f08046d1a521d3758f1fc297bf2aa0d59
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125708"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65187019"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 會議室的版本資訊
 
@@ -230,7 +230,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如[需詳細資訊
 
 - 在會議中將 HDMI 音訊分享給會議參與者Teams
 - Cortana預覽)  (語音技巧
-- 當Teams會議室以出席者身分加入時，請避免根據音訊許可權取消靜音。 如需詳細資訊，請參閱[管理Teams會議中的出席者音訊許可權](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)。
+- 當Teams 會議室以出席者身分加入時，請避免根據音訊許可權取消靜音。 如需詳細資訊，請參閱[管理Teams會議中的出席者音訊許可權](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)。
 - 從Teams會議室主機將某人的視訊設定為焦點，並在會議室顯示器上使用焦點視訊
 
 > [!NOTE]

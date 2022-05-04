@@ -18,12 +18,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c19894106dfd06c13ec9936657837aa42fcdade0
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 776f0f31d54788fbffd86bbcbedd44e30ada28a3
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "62015013"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186969"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的無線對講機應用程式
 
@@ -35,23 +35,25 @@ Teams中的 [無線對講機] 應用程式為您的小組提供即時推播到�
 
 ### <a name="deploying-walkie-talkie"></a>部署無線對講機
 
-在配備 Google 行動服務 (MCS) 和 iOS 裝置的 Android 裝置上支援無線對講機。 
+在配備 Google 行動服務 (MCS) 和 iOS 裝置的 Android 裝置上支援無線對講機。
 
-目前未預先安裝無線對講機。 若要為貴組織中的使用者啟用這項功能，您必須將無線對講機新增至從Teams系統管理中心指派給使用者的 [App 設定](teams-app-setup-policies.md)   [原則](https://admin.teams.microsoft.com/)。 啟用後，無線對講機將在 48 小時內在應用程式上提供使用。
+### <a name="pin-walkie-talkie-to-teams"></a>將無線對講機釘選到Teams
 
-### <a name="adding-walkie-talkie-to-your-app-list"></a>將無線對講機新增至應用程式清單
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-walkie-talkie-and-other-apps-to-teams"></a>使用量身打造的第一線應用程式體驗，將無線對講機和其他應用程式釘選到Teams
 
-在Microsoft Teams系統管理中心，**Teams應用程式**  >  **設定原則**] 底下，您應該將 **[允許使用者釘選**] 設為 [**開啟]**。 然後在 [釘選的應用程式] 區段下，按一下 **[+新增應用程式]**。
+在 Teams 中量身打造的第一線應用程式體驗會將最相關的應用程式釘選到 Teams 中，以供[擁有 F 授權](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的使用者使用。 釘選的應用程式包括無線對講機、班次、工作和核准。 根據預設，此功能為您的第一線工作人員提供專為其需求量身打造的全新體驗。
 
-:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="顯示已釘選的應用程式區段和要選取的 [新增應用程式] 按鈕。":::
+這些應用程式會釘選到應用程式行，也就是Teams桌面用戶端側邊，以及Teams行動用戶端底部的列，使用者可以在此快速且輕鬆地存取它們。
 
-在右側顯示的 [ **新增釘選的應用程式** ] 面板上，使用 **[搜尋** ] 文字方塊來尋找無線對講機。 當您將它做為搜尋結果時，請選取名稱右側的 [ **新增** ] 按鈕，將它新增至您的清單。
+若要深入瞭解，包括體驗如何與您所設定的應用程式原則搭配運作，請參閱[為前線員工量身打造Teams應用程式](pin-teams-apps-based-on-license.md)。
 
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="顯示在搜尋窗格中輸入無線對講機的 [新增釘選的應用程式] 提要欄位，以及搜尋結果中的 [無線對講機] 應用程式，旁邊有 [新增] 按鈕。":::
+#### <a name="use-an-app-setup-policy-to-pin-walkie-talkie-to-teams"></a>使用應用程式設定原則將無線對講機釘選到Teams
 
-[無線對講機] 應用程式現在應該會顯示在 [釘選的應用程式] 清單上，只要按一下 [儲存 **] 按鈕，** 就可以使用。
+應用程式設定原則可讓您自訂Teams以釘選對使用者中使用者最重要的應用程式。
 
-:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="顯示已釘選的應用程式清單，其中已新增 [無線對講機] 應用程式，以及清單下方的 [儲存] 按鈕。":::
+若要為使用者釘選無線對講機應用程式，您可以編輯全域 (組織的預設) 原則，或建立及指派自訂應用程式設定原則。 若要深入了解，請參閱[管理 Teams 中的應用程式設定原則](teams-app-setup-policies.md)。
+
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="螢幕擷取畫面顯示在 [新增釘選的應用程式] 窗格中，將 [無線對講機] 新增至釘選的應用程式清單。" lightbox="media/deploy-walkie-talkie-2.png":::
 
 ### <a name="network-documentation"></a>網路檔
 

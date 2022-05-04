@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4d410d643dcf0c3753e87fa03e4040812dd9a5a
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 051ea9a68cda344cf10bc297c84b3cbda6e61437
+ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137034"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "65186989"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [工作] 應用程式
 
@@ -37,7 +37,7 @@ ms.locfileid: "65137034"
 > [!NOTE]
 > 當我們推出 Teams 桌面版用戶端的 [工作] 體驗時，最初向使用者顯示的應用程式名稱為 **Planner**。 然後，會暫時變更為 **Planner 的工作和待辦事項**，之後再將其重新命名為 **工作**。 在 Teams 行動用戶端，使用者將會看到應用程式名稱一直都顯示為 **工作**。 有可用的桌面體驗之後，可能會有短暫的延遲之後才會有行動裝置體驗。
 
-   ![Teams清單上工作的清單檢視螢幕擷取畫面。](media/manage-tasks-app-tasks.png)
+:::image type="content" source="media/manage-tasks-app-tasks.png" alt-text="工作清單檢視的螢幕擷取畫面。" lightbox="media/manage-tasks-app-tasks.png":::
 
 對於想要簡化第一線工作者工作管理的組織，[工作] 還包含可讓您在第一線員工間進行大規模鎖定、發佈及追蹤工作的功能。 例如，公司和地區性領導階層可建立並發佈針對相關地點 (例如特定零售商店) 的工作清單，並透過即時報告追蹤進度。 經理人可將工作指派給他們的員工，並指揮在其地點中的活動，而第一線工作者在行動裝置或桌上型電腦中有其指派工作的優先順序清單。 若要啟用 [工作發佈](#task-publishing)，請先為貴組織設定小組目標階層，以定義階層中所有團隊之間的相互關聯。
 
@@ -75,9 +75,19 @@ ms.locfileid: "65137034"
 
 若要允許或封鎖貴組織中的特定使用者使用 [工作]，請確定您的組織在[管理應用程式](manage-apps.md)頁面上已開啟 [工作]，然後建立自訂應用程式權限原則，並將其指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
 
-### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>使用應用程式設定原則將工作釘選到 Teams
+### <a name="pin-tasks-to-teams"></a>將 [工作] 釘選到Teams
 
-應用程式設定原則可讓您自訂 Teams，以醒目提示對貴組織中的使用者最重要的應用程式。 您在原則中設定的應用程式會釘選到應用程式行，也就是桌面用戶端Teams端和 Teams行動用戶端底部的列，使用者可以在此快速且輕鬆地存取它們。
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>使用量身打造的第一線應用程式體驗，將 [工作] 和其他應用程式釘選到Teams
+
+在 Teams 中量身打造的第一線應用程式體驗會將最相關的應用程式釘選到 Teams 中，以供[擁有 F 授權](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的使用者使用。 釘選的應用程式包括 [工作]、[無線對講機]、[班次] 和 [核准]。 根據預設，此功能為您的第一線工作人員提供專為其需求量身打造的全新體驗。
+
+這些應用程式會釘選到應用程式行，也就是Teams桌面用戶端側邊，以及Teams行動用戶端底部的列，使用者可以在此快速且輕鬆地存取它們。
+
+若要深入瞭解，包括體驗如何與您所設定的應用程式原則搭配運作，請參閱[為前線員工量身打造Teams應用程式](pin-teams-apps-based-on-license.md)。
+
+#### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>使用應用程式設定原則將工作釘選到 Teams
+
+應用程式設定原則可讓您自訂Teams以釘選對使用者中使用者最重要的應用程式。
 
 若要為您的使用者釘選 [工作] 應用程式，您可以編輯全域 (全組織預設值) 原則，或建立並指定自訂應用程式設定原則。 若要深入了解，請參閱[管理 Teams 中的應用程式設定原則](teams-app-setup-policies.md)。
 
@@ -92,12 +102,13 @@ ms.locfileid: "65137034"
 使用 [工作發佈]，您的組織可以發佈針對組織內部特定地點 (小組) 的工作清單，以定義及共用將在這些地點完成的工作計畫。
 
 - 發佈小組中的人員 (例如公司或地區性領導階層) 可建立工作清單，並將其發佈給特定小組。
-    ![工作發佈螢幕擷取畫面。](media/manage-tasks-app-publish.png)
+
+    :::image type="content" source="media/manage-tasks-app-publish.png" alt-text="工作發佈螢幕擷取畫面。" lightbox="media/manage-tasks-app-publish.png":::
 - 收件者小組的主管可查看發佈的工作清單，並將個別的工作指派給小組成員。
-    ![指派工作的螢幕擷取畫面。](media/manage-tasks-app-assign.png)
+    :::image type="content" source="media/manage-tasks-app-assign.png" alt-text="指派工作的螢幕擷取畫面。" lightbox="media/manage-tasks-app-assign.png":::
 - 第一線工作者可輕鬆透過行動裝置查看指派給他們的工作。 他們可以附加相片以顯示工作 (如適用)，並將其工作標示為已完成。
 - 出版商和管理者可以查看報告，以瞭解每個階層的工作指派和完成狀態，包括依地點 (小組)、工作清單和個別工作。
-    ![行動裝置上已指派工作的螢幕擷取畫面。](media/manage-tasks-app-reporting.png)
+    :::image type="content" source="media/manage-tasks-app-reporting.png" alt-text="已發佈工作的螢幕擷取畫面。" lightbox="media/manage-tasks-app-reporting.png":::
 
 使用者會在 [工作] 應用程式中的 **發佈清單** 索引標籤上建立、管理及發佈工作清單。 只有在貴組織[設定小組目標階層](#set-up-your-team-targeting-hierarchy)且使用者屬於階層所包含的小組時，才會顯示該索引標籤。 階層會決定使用者是否可以發佈或接收工作清單，以及查看已收到清單的報告。
 
