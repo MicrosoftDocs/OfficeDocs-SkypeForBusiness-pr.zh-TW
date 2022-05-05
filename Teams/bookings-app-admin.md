@@ -21,12 +21,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 瞭解如何在Teams中為組織中的使用者管理Bookings應用程式。
-ms.openlocfilehash: aab7ce7a4813d851574f9a5796f5ce21d44774ff
-ms.sourcegitcommit: 68162a8c9dee9a27af596353baabeda9b8fa64f3
+ms.openlocfilehash: 5740da885fb271af212ba755d7db0228a996b429
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64853064"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217927"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>在 Microsoft Teams 中管理Bookings應用程式
 
@@ -41,7 +41,7 @@ Microsoft Teams中的 Bookings 應用程式提供簡單的親自和虛擬約會�
 
 * Exchange信箱位於Exchange Online中。 不支援內部部署Exchange Server信箱。
 * Microsoft Bookings適用于組織。
-* 使用者有適當的授權。 Office 365 A3、A5、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5、F1、F3 和商務標準都受到支援。
+* 使用者有適當的授權。 Office 365 A3、A5、E1、E3、E5、F1、F3、Microsoft 365 A3、A5、E3、E5、F1、F3 和商務標準都受到支援。
 * Bookings應用程式的所有使用者和參與會議的所有教職員都擁有支援Teams會議排程的授權。
 * [軟體和瀏覽器必要條件](hardware-requirements-for-the-teams-app.md)。
 

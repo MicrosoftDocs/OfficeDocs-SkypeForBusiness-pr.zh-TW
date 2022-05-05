@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器) 已通過Microsoft Teams認證。
-ms.openlocfilehash: ee6f3c2634b44c4c510deb2c7a50818f6bc5ef7c
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 272d0c0eb1b3885da9a313666c8eac2d7bb09fe0
+ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059214"
+ms.lasthandoff: 05/05/2022
+ms.locfileid: "65217917"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
 
@@ -74,13 +74,16 @@ ms.locfileid: "65059214"
 
 ## <a name="certified-devices"></a>已認證的裝置
 
-*2022 年 4 月更新的表格*
+*2022 年 5 月更新的表格*
 
 > [!NOTE]
 > 日期格式為 MMDDYYYY。
 
 | 製造商        | 模型                                                     | 合格      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Yealink              |UH38 頭戴式裝置                                               |5/2/2022        |通過Microsoft Teams認證                           |   
+|Yealink              |BH72 頭戴式裝置                                               |5/2/2022        |通過Microsoft Teams認證                           |
+|羅技             |True 區域無線耳機                                 |5/2/2022        |通過Microsoft Teams認證                           |
 |聯想               |移至無線 ANC 頭戴式裝置                                    |4/11/2022       |通過Microsoft Teams認證                           |
 |EPOS                 |ADAPT 661                                                  |3/11/2022       |通過Microsoft Teams認證                           |
 |EPOS                 |ADAPT 461T                                                 |3/11/2022       |通過Microsoft Teams認證                           |
