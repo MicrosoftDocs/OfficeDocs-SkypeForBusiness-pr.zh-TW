@@ -331,8 +331,6 @@ items:
         href: using-admin-roles.md
       - name: 在 Teams 系統管理中心管理 Teams
         href: manage-teams-in-modern-portal.md
-      - name: 管理組織的 Teams 設定
-        href: enable-features-office-365.md
       - name: 管理原則
         items:
           - name: 概觀
@@ -349,6 +347,8 @@ items:
             href: manage-policy-packages.md
       - name: 與組織外的人員合作。
         items:
+          - name: 使用 Teams 保護檔案共用和共同作業
+            href: /microsoft-365/solutions/setup-secure-collaboration-with-teams?wt.mc_id=TeamsTOCSecureCollab001
           - name: 與其他組織的使用者通訊
             href: communicate-with-users-from-other-organizations.md
           - name: 外部存取 (同盟)
@@ -431,34 +431,30 @@ items:
         href: FAQ-support-remote-workforce.md
       - name: 報告
         items:
-          - name: Microsoft 365 系統管理中心的活動報告
-            href: teams-activity-reports.md
-          - name: Teams 系統管理中心的分析和報告
-            items:
-              - name: 概觀
-                href: teams-analytics-and-reports/teams-reporting-reference.md
-              - name: Teams 使用報告
-                href: teams-analytics-and-reports/teams-usage-report.md
-              - name: Teams 使用者活動報告
-                href: teams-analytics-and-reports/user-activity-report.md
-              - name: Teams 應用程式使用報告
-                href: teams-analytics-and-reports/app-usage-report.md
-              - name: Teams 裝置使用報告
-                href: teams-analytics-and-reports/device-usage-report.md
-              - name: PSTN 封鎖使用者報告
-                href: teams-analytics-and-reports/pstn-blocked-users-report.md
-              - name: PSTN 分鐘集區報告
-                href: teams-analytics-and-reports/pstn-minute-pools-report.md
-              - name: PSTN 使用報告
-                href: teams-analytics-and-reports/pstn-usage-report.md
-              - name: Teams 音訊會議撥出使用報告
-                href: audio-conferencing-dial-out-usage-report.md
-              - name: Teams 即時活動使用報告
-                href: teams-analytics-and-reports/teams-live-event-usage-report.md
-              - name: Teams 資訊保護授權報告
-                href: teams-analytics-and-reports/information-protection-license-report.md
-              - name: Teams 虛擬門診使用方式報告
-                href: teams-analytics-and-reports/virtual-visits-usage-report.md
+          - name: 概觀
+            href: teams-analytics-and-reports/teams-reporting-reference.md
+          - name: Teams 使用報告
+            href: teams-analytics-and-reports/teams-usage-report.md
+          - name: Teams 使用者活動報告
+            href: teams-analytics-and-reports/user-activity-report.md
+          - name: Teams 應用程式使用報告
+            href: teams-analytics-and-reports/app-usage-report.md
+          - name: Teams 裝置使用報告
+            href: teams-analytics-and-reports/device-usage-report.md
+          - name: PSTN 封鎖使用者報告
+            href: teams-analytics-and-reports/pstn-blocked-users-report.md
+          - name: PSTN 分鐘集區報告
+            href: teams-analytics-and-reports/pstn-minute-pools-report.md
+          - name: PSTN 使用報告
+            href: teams-analytics-and-reports/pstn-usage-report.md
+          - name: Teams 音訊會議撥出使用報告
+            href: audio-conferencing-dial-out-usage-report.md
+          - name: Teams 即時活動使用報告
+            href: teams-analytics-and-reports/teams-live-event-usage-report.md
+          - name: Teams 資訊保護授權報告
+            href: teams-analytics-and-reports/information-protection-license-report.md
+          - name: Teams 虛擬門診使用方式報告
+            href: teams-analytics-and-reports/virtual-visits-usage-report.md
       - name: 記錄檔案、服務健康狀態和支援
         items:
           - name: 使用記錄檔案以監測並疑難排解 Teams 問題
