@@ -18,129 +18,128 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在系統管理中心管理小組範本
-ms.openlocfilehash: 470194c8a31236e5bed000fa2837c9b1fa05003e
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: c753a92205844ebade9a713a8442837039232339
+ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401177"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65248935"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>在系統管理中心管理小組範本
 
-在系統管理中心建立範本政策，管理使用者看到的團隊範本。 在每個範本策略中，您可以指定顯示或隱藏哪些範本。
-將不同的使用者指派給不同的範本策略，讓使用者只查看指定的小組範本子集。
+在系統管理中心建立範本原則，以管理使用者看到的小組範本。 在每個範本原則中，您可以指定要顯示或隱藏哪些範本。
+將不同的使用者指派給不同的範本原則，讓您的使用者只檢視指定的小組範本子集。
 
-請觀看這段短片，瞭解如何管理範本策略。
+請觀看這段短片，瞭解如何管理範本原則。
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyXL9]
 
-## <a name="create-template-policies-and-assign-available-templates"></a>建立範本策略並指派可用的範本
+## <a name="create-templates-policies-and-assign-available-templates"></a>建立範本原則並指派可用的範本
 
 1. 登入 Teams 系統管理中心。
 
-2. 展開 **Teams**  >  **範本策略**。
+2. 移至 **Teams**  >  **範本原則**。
 
-3. 選取 [新增 **]**。
+3. 選擇 **[新增]**。
 
-    ![範本策略已選取，且會以強調顯示狀態顯示新增。](media/template-policies-1.png)
+    ![已選取範本原則，並醒目提示 [新增]。](media/template-policies-1.png)
 
-1. 在範本 **策略設定** 區段，完成下欄欄位：
+1. 為原則命名並新增簡短描述。
 
-    - 範本策略名稱
+2. 在 [ **可檢視的範本** ] 清單中，選取您要隱藏的範本，然後選取 [ **隱藏]**。
 
-    - 範本策略簡短描述
+    ![已選取且醒目提示隱藏的範本。](media/template-policies-2.png)
 
-2. 在可 **查看的範本資料** 表中，選取您想要隱藏的範本，然後 **選取隱藏。**
+    您可以在 [隱藏的範本] 清單中看到您選擇隱藏 **的範本** 。
 
-    ![已選取的範本會以強調隱藏顯示。](media/template-policies-2.png)
+1. 若要取消隱藏特定範本，請移至 **[隱藏的範本]** 清單。
 
-    您可以在隱藏範本資料表中看到您選取要 **隱藏的範本。**
+2. 選取要取消隱藏的範本，然後選取 [ **顯示]**。
 
-1. 若要取消隱藏特定範本，請卷起至隱藏 **範本** 資料表。
+   ![未隱藏的選取範本。](media/template-policies-3.png)
 
-2. 選取要取消隱藏的範本， **然後選取顯示**。
+   選取的範本會顯示在 **[可檢視的範本] 清單中** 。
+3. 選擇 [ **儲存]**。
 
-   ![選取的範本不會隱藏。](media/template-policies-3.png)
+   新的範本原則會顯示在 **[範本原則** ] 清單中。
 
-   選取的範本會顯示在可查看 **的範本資料** 表中。
-3. 選取 [儲存 **]**。
+## <a name="assign-templates-policies-to-users"></a>指派範本原則給使用者
 
-   您的新範本策略會顯示在範本 **策略清單中** 。
-
-## <a name="assign-users-to-the-template-policies"></a>將使用者指派給範本策略
-
-指派給策略的使用者只能查看該策略內的可查看範本。
-
-1. 從 **範本策略** 中，選取一個策略，然後選取管理 **使用者**。
-
-2. 輸入要指派給此策略的使用者。
-
-   ![將使用者指派給範本策略。](media/template-policies-4.png)
-
-3. 選取 **Apply**。
+您可以直接指派範本原則給使用者，不論是個別或透過批次指派來縮放比例。 請記住，新原則可能需要長達 24 小時，才會對使用者生效。
 
 > [!Note]
-> 您的新政策最多可能需要 24 小時，使用者才能生效。
+> 目前不支援根據群組成員資格將範本原則指派給使用者，例如指派給安全性群組中的所有使用者。 這項功能未來將會提供使用。
 
-## <a name="size-limits-for-template-policies"></a>範本策略的大小限制
+如需在 Teams 中指派原則的概觀，請參閱[在 Teams 中指派原則](policy-assignment-overview.md)。
 
-每個策略最多可以隱藏 100 個範本。 如果 **已** 隱藏 100 個範本，則停用了隱藏按鈕。
+### <a name="assign-a-templates-policy-to-individual-users"></a>指派範本原則給個別使用者
+
+您可以使用Teams系統管理中心或 PowerShell，一次指派範本原則給個別使用者或少數使用者。 若要深入瞭解，請參閱 [指派原則給個別使用者](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)。
+
+### <a name="assign-a-templates-policy-to-a-batch-of-users"></a>指派範本原則給一批使用者
+
+您可以使用 PowerShell 一次指派範本原則給大量使用者。 若要這麼做，請使用 [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) Cmdlet 搭配 TeamsTemplatePermissionPolicy 來 ```PolicyType``` 提交一批使用者，以及您要指派的範本原則。 例如：
+
+```powershell
+New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -PolicyType TeamsTemplatePermissionPolicy -PolicyName <policy name> -Identity <users identity | list of user identities>
+```
+
+系統會將工作處理為背景作業，並為每個批次產生作業識別碼。 接著，您可以使用 [Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) Cmdlet 來追蹤批次中作業的進度和狀態。
+
+若要深入瞭解，請參閱 [使用 PowerShell 指派原則給一批使用者](assign-policies-users-and-groups.md#use-powershell-method)。
+
+## <a name="size-limits-for-templates-policies"></a>範本原則的大小限制
+
+您可以隱藏每個原則最多 100 個範本。 如果指定的原則已經隱藏了 100 個範本，[ **隱藏** ] 按鈕就會停用。
 
 ## <a name="frequently-asked-questions"></a>常見問題集
 
-**問：我可以批次將使用者指派給小組範本政策嗎？**
-  
-答：是，我們支援 PowerShell 中範本策略的批次指派。 此動作的策略類型為 TeamsTemplatePermissionPolicy。 [深入了解](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+**問：如果建立新的範本，範本會包含在我的原則中嗎？**
 
-**問：群組可以指派給小組範本政策嗎？**
+答：預設會顯示任何新範本。 您可以選擇在 [範本原則] 區段中隱藏系統管理中心的範本。
 
-答：目前否。 這項功能將在未來提供。
+**問：如果已刪除範本，會發生什麼情況？**
 
-**問：如果已建立新範本，範本會包含在我的政策中嗎？**
+答：任何已刪除的範本將不再出現在任何範本原則中。
 
-答：任何新範本預設都會顯示。 您可以在範本政策區段的系統管理中心選擇隱藏範本。
-
-**問：刪除範本時會發生什麼情況？**
-
-答：任何已刪除的範本將不再存在於任何範本政策中。
-
-**問：我可以將多個使用者指派給系統管理中心中的範本Teams嗎？**
+**問：我可以將多個使用者指派給Teams系統管理中心的範本原則嗎？**
 
 答：是。
 
-1. 在系統管理中心，前往 **使用者**。
-1. 在使用者清單表格中，選取要指派給特定範本策略的使用者。
-1. 選取編輯設定，然後變更範本政策欄位。
-1. 選取 Apply。 [深入了解](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)。
+1. 在Teams系統管理中心，移至 **[使用者**  >  **管理使用者]**。
+1. 在使用者清單中，選取您要指派給範本原則的使用者。
+1. 選取 **[編輯設定]**，然後在 **[範本原則**] 底下，選擇您要指派的原則。
+1. 選擇 [ **套用]**。
 
-**問：如何查看指派給特定策略的所有使用者？**
+若要深入瞭解，請參閱 [指派原則給個別使用者](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)。
 
-答：在系統管理中心：
+**問：如何?檢視指派給特定原則的所有使用者嗎？**
 
-1. 前往使用者 **區** 段。
-2. 在使用者清單資料表中選取篩選，然後針對小組範本策略進行篩選。
-3. 選取 **Apply**。
+答：在Teams系統管理中心：
 
-![選取的範本策略和查看使用者。](media/template-policies-5.png)
+1. 移至 **[使用者**  >  **管理使用者]**。
+2. 選 **取 [篩選**]，設定範本原則的篩選，然後選擇 [ **套用]**。
 
-**問：我可以透過 PowerShell 管理範本政策嗎？**
+    ![選取的範本原則並檢視使用者。](media/template-policies-5.png)
 
-答：否，不支援在 PowerShell 中管理範本。
+**問：我可以透過 PowerShell 管理範本原則嗎？**
 
-**問：範本政策是否適用于 EDU？**
+答：不支援在 PowerShell 中管理範本原則。 不過，您可以使用 PowerShell [將範本原則指派給](#assign-templates-policies-to-users) 使用者。
 
-答：否，不支援 EDU 的範本策略。
+**問：範本原則是否適用于 EDU？**
 
-## <a name="related-topics"></a>相關主題
+答：不支援 EDU 的範本原則。
 
-- [在系統管理中心開始使用小組範本](./get-started-with-teams-templates-in-the-admin-console.md)
+## <a name="related-articles"></a>相關文章
 
-- [建立自訂小組範本](./create-a-team-template.md)
+- [在系統管理中心使用小組範本開始](./get-started-with-teams-templates-in-the-admin-console.md)
 
-- [從現有的小組建立範本](./create-template-from-existing-team.md)
+- [建立自訂團隊範本](./create-a-team-template.md)
 
-- [從現有的小組範本建立小組範本](./create-template-from-existing-template.md)
+- [從現有團隊建立範本](./create-template-from-existing-team.md)
 
-- [在 Microsoft Docs Microsoft Teams指派 \| Microsoft Teams使用者](./policy-assignment-overview.md)
+- [從現有的團隊範本建立團隊範本](./create-template-from-existing-template.md)
 
-- [批次指派使用者至策略](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+- [在 Microsoft Teams 中指派原則給您的使用者 - Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
+
+- [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

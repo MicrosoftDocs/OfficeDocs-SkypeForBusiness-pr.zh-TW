@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 202aee527896b331a6c8e64e1fc8736fa4942ecb
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: d5865494b94c280295d13e0f99303bc76d1fc274
+ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388186"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "65249005"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>針對端對端 Microsoft Teams 通話使用端對端加密
 
@@ -79,13 +79,13 @@ E2EE 通話期間無法提供下列進一步功能：
 
 1. 使用已指派 Teams 或全域系統管理員角色的工作或學校帳戶， [Teams 系統管理中心](https://admin.teams.microsoft.com/)。
 
-2. 請移至 **其他設定** > **增強型加密原則**。
+2. 請移至 **[增強型加密原則]**。
 
 3. 選擇預設原則或選擇 **新增** 以新增新原則，然後命名此新原則。
 
-4. 若要為您的使用者啟用端對端加密，進行 **端對端通話加密**，請選擇 **使用者可以開啟加密**，然後選擇 **儲存**。
+4. 若要為您的使用者啟用端對端加密，進行 **[端對端通話加密]**，請選擇 **[已停用使用者覆寫]**，然後選擇 **[儲存]**。
 
-   若要停用端對端加密，請選擇 **為所有人關閉加密**。
+   若要停用端對端加密，請選擇 **[停用]**。
 
 當您完成設定此原則，請以您管理其他 Teams 原則的方式，將該原則指派給使用者、群組或全體租用戶。 如需在 Teams 中使用原則的資訊，請參閱 [使用原則管理 Teams](manage-teams-with-policies.md)。
 
