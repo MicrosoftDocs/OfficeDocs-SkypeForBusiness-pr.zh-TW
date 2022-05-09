@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bcb26d86e9b95ee629c252ea7cec25fc5f3eaf4
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 222ea1852ef4336c21cfb24c977c20665a667ff3
+ms.sourcegitcommit: 9968ef7d58c526e35cb58174db3535fd6b2bd1db
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885001"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "65284068"
 ---
 # <a name="configure-operator-connect"></a>設定電信業者連線
 
@@ -104,52 +104,51 @@ ms.locfileid: "64885001"
 
 #### <a name="step-1---remove-existing-direct-routing-numbers"></a>步驟 1 - 移除現有的直接路由號碼。
 
-移除現有直接路由號碼的方式，取決於號碼是內部部署還是線上指派。 若要檢查，請執行下列命令：
+移除現有直接路由號碼的方式，取決於號碼是內部部署還是線上指派。 若要檢查，請執行下列Teams PowerShell 模組命令：
     
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPremLineURIManuallySet, OnPremLineURI, LineURI 
+Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
 
-如果 `OnPremLineUriManuallySet` 設定為 `False` `LineUri` E.164 電話號碼且已填入，電話號碼會在內部部署中指派，並同步處理至Office 365。
+如果 `OnPremLineUri` 已填入 E.164 電話號碼，電話號碼會在內部部署中指派，並同步處理至Office 365。
     
-**若要移除內部部署指派的直接路由號碼，請** 執行下列命令：
+**若要移除內部部署指派的直接路由號碼，請** 執行下列商務用 Skype Server PowerShell 命令：
     
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
 
-移除程式生效所需的時間取決於您的設定。 若要檢查內部部署號碼是否已移除且已同步處理變更，請執行下列 PowerShell 命令： 
+移除程式生效所需的時間取決於您的設定。 若要檢查內部部署號碼是否已移除且已同步處理變更，請執行下列Teams PowerShell 模組命令： 
     
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl RegistrarPool,OnPremLineURIManuallySet, OnPremLineURI, LineURI 
+Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI 
 ```
        
 將變更同步處理至Office 365線上目錄之後，預期的輸出結果為： 
        
  ```console
 RegistrarPool                        : pool.infra.lync.com
- OnPremLineURIManuallySet             : True
- OnPremLineURI                        : 
+OnPremLineURI                        : 
 LineURI                              : 
 ```
 
-<br> **若要移除線上指派的現有線上直接路由號碼，請** 執行下列 PowerShell 命令：
+<br> **若要移除線上指派的現有線上直接路由號碼，** 請執行下列Teams PowerShell 模組命令：
 
 
 ```PowerShell
 Remove-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <pn> -PhoneNumberType DirectRouting
 ```
 
-移除電話號碼最多可能需要 10 分鐘。 在少數情況下，最多可能需要 24 小時。 若要檢查內部部署號碼是否已移除且已同步處理變更，請執行下列 PowerShell 命令： 
+移除電話號碼最多可能需要 10 分鐘。 在少數情況下，最多可能需要 24 小時。 若要檢查電話號碼是否已移除，請執行下列Teams PowerShell 模組命令： 
 
 
 ```PowerShell
-Get-CsOnlineUser -Identity <user> | fl Number
+Get-CsOnlineUser -Identity <user> | fl LineUri
 ```
 
 #### <a name="step-2---remove-the-online-voice-routing-policy-associated-with-your-user"></a>步驟 2 - 移除與使用者相關聯的線上語音路由原則
 
-一旦取消指派號碼，請執行下列 PowerShell 命令，移除與您的使用者相關聯的線上語音路由原則：
+一旦取消指派號碼，請執行 Teams下列 [PowerShell 模組] 命令，移除與您的使用者相關聯的線上語音路由原則：
 
 ```PowerShell
 Grant-CsOnlineVoiceRoutingPolicy -Identity <user> -PolicyName $Null
