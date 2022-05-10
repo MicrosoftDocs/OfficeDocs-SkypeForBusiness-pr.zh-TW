@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 瞭解如何使用通話品質儀表板Power BI報告來檢視自動語音應答和通話佇列歷程記錄資料。
-ms.openlocfilehash: 57552af3a1df108dbbf86172793bb9ea86ed1b10
-ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
+ms.openlocfilehash: 66394094f51d58344f151b8ebb7059c2e390c089
+ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2022
-ms.locfileid: "63711487"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65294094"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自動語音應答&通話佇列歷史報告
 
@@ -99,7 +99,7 @@ Teams自動語音應答&通話佇列歷史報告Power BI範本提供下列三個
 
 您可以自訂報表的特定視覺效果層面，例如新增或移除要在各種視覺效果中顯示的欄位、變更圖表類型等等。
 
-您無法在報表中新增其他資料欄位。
+您無法新增更多資料欄位至報表。
 
 ### <a name="change-color-schema"></a>變更色彩架構 
 
@@ -157,18 +157,18 @@ Teams自動語音應答&通話佇列歷史報告Power BI範本提供下列三個
 
 |名稱                                    |資料類型                |描述                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|AA 名稱                                 |文本                     |附加至自動語音應答的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **aa_test@microsoft.com** 則此值為： **aa_test** |
+|AA 名稱                                 |文本                     |附加至自動語音應答的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **aa_test@microsoft.com**，則此值會是： **aa_test** |
 |AACallerActionCount                     |整數             |摘要：加總<br>來電者在通話期間在自動語音應答中選取的動作數目  |
-|AACallFlow                              |文本                     |封裝了自動語音應答通話的不同狀態 -- 可能的值：<br><br>§ abs_search<br>§ 公告<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |文本                     |最終通話結果 -- 可能的值：<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ 未知<br>§ user_terminated |
+|AACallFlow                              |文本                     |封裝式顯示自動語音應答通話的不同狀態--可能的值：<br><br>§ abs_search<br>§ 公告<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
+|AACallResult                            |文本                     |最終通話結果--可能的值：<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ 未知<br>§ user_terminated |
 |AAChainDuration                         |小數           |摘要：加總<br>自動語音應答中的通話持續時間                     |
 |AAChainIndex                            |文本                     |                                                                         |
-|AAConnectivityType                      |文本                     |通話類型 -- 可能的值：<br><br>§ ExternalCall<br>§ 內部電話 |
+|AAConnectivityType                      |文本                     |通話類型--可能的值：<br><br>§ ExternalCall<br>§ 內部電話 |
 |AACount                                 |文本                     |參與通話的自動語音應答數目                               |
-|AADirectorySearchMethod                 |文本                     |最後一個通訊錄搜尋方法 -- 可能的值：<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
+|AADirectorySearchMethod                 |文本                     |最後一個通訊錄搜尋方法--可能的值：<br><br>§ abs_search_dtmf<br>§ abs_search_extension_x<br>§ abs_search_name |
 |AAStartTime                             |日期/時間                |自動語音應答通話開始時間                                           |
-|AATransferAction                        |文本                     |來電轉接目標型別 -- 可能的值：<br><br>***§ 應用程式 - 語音應用程式實體**_<br> § external_pstn <br>_*_§ hunt_group - 通話佇列實體_* _<br>_ * _§ orgaa - 組織自動語音應答實體_**<br>§ shared_voicemail<br>§ 未知<br>§ 使用者 |
-|通話類型<sup>1</sup>                   |文本                     |通話類型 -- 可能的值：<br><br>§ 外部<br>§ 內部         |
+|AATransferAction                        |文本                     |來電轉接目標型別--可能的值：<br><br>***§ 應用程式 - 語音應用程式實體**_<br> § external_pstn <br>_*_§ hunt_group - 通話佇列實體_* _<br>_ * _§ orgaa - 組織自動語音應答實體_**<br>§ shared_voicemail<br>§ 未知<br>§ 使用者 |
+|通話類型<sup>1</sup>                   |文本                     |通話類型--可能的值：<br><br>§ 外部<br>§ 內部         |
 |IsAAInvolved                            |文本                     |一律 1                                                                 |
 |PSTNMinutes                             |整數             |摘要：加總<br>分鐘總使用量                                     |
 |TotalCallCount                          |整數             |摘要：加總<br>一律 1 - 用來提供所有通話的總和            |
@@ -218,7 +218,7 @@ Teams自動語音應答&通話佇列歷史報告Power BI範本提供下列三個
 
 |名稱                                    |資料類型                |描述                            |
 |:---------------------------------------|:------------------------|:--------------------------------------|
-|通話佇列身分識別                     |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **cq_test@microsoft.com** ，則此值為： **cq_test** |
+|通話佇列身分識別                     |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **cq_test@microsoft.com**，則此值會是： **cq_test** |
 
 #### <a name="fcallqueueanalytics-cqd-fields-description"></a>fCallQueueAnalytics CQD 欄位描述
 
@@ -226,12 +226,12 @@ Teams自動語音應答&通話佇列歷史報告Power BI範本提供下列三個
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |通話數                              |整數             |摘要：加總<br>通話數目                                          |
 |通話佇列通話結果                  |文本                     |通話佇列通話的最終狀態 -- 可能的值：<br><br>§ agent_joined_conference<br>§ 已拒絕<br>§ 已中斷連線<br>§ 錯誤<br>§ 失敗<br>§ 無效<br>§ 溢位<br>§ timed_out<br>§ transferred_to_agent |
-|通話佇列身分識別                     |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **cq_test@microsoft.com** ，則此值為： **cq_test** |
-|通話佇列目標型別                  |文本                     |***呼叫重新導向目標型別 -- 可能的值：***<br><br>§ ApplicationEndpoint<br>§ 信箱<br>§ 其他<br>§ 使用者 |
-|通話類型<sup>1</sup>                   |文本                     |通話類型 -- 可能的值：<br><br>§ 外部<br>§ 內部           |
+|通話佇列身分識別                     |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **cq_test@microsoft.com**，則此值會是： **cq_test** |
+|通話佇列目標型別                  |文本                     |***呼叫重新導向目標型別--可能的值：***<br><br>§ ApplicationEndpoint<br>§ 信箱<br>§ 其他<br>§ 使用者 |
+|通話類型<sup>1</sup>                   |文本                     |通話類型--可能的值：<br><br>§ 外部<br>§ 內部           |
 |日期                                    |日期/時間                |通話佇列通話開始日期和時間 (小時)  (UTC)                            | 
 |IsAbandoned                             |True/false               |如果專員未接聽來電，則為 True                                   |
-|PSTN 連線類型                  |文本                     |通話類型 -- 可能的值：<br><br>§ ExternalCall<br>§ 內部電話   |
+|PSTN 連線類型                  |文本                     |通話類型--可能的值：<br><br>§ ExternalCall<br>§ 內部電話   |
 |PSTN 總分鐘數                      |整數             |摘要：加總<br>PSTN 通話的總分鐘數使用量                       |
 
 #### <a name="fcallqueueanalytics-measures-description"></a>fCallQueueAnalytics 量值描述
@@ -248,9 +248,9 @@ Teams自動語音應答&通話佇列歷史報告Power BI範本提供下列三個
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
 |平均通話持續時間 (秒)          |小數           |摘要：加總<br>以秒為內的平均通話持續時間 |
 |通話數                              |整數             |摘要：加總<br>通話數目                  |
-|通話佇列通話結果                  |文本                     |通話佇列通話的最終狀態 -- 可能的值：<br><br>§ agent_joined_conference<br>§ 已拒絕<br>§ 已中斷連線<br>§ 錯誤<br>§ 失敗<br>§ 無效<br>§ 溢位<br>§ timed_out<br>§ transferred_to_agent |
-|通話佇列最終狀態動作           |文本                     |通話佇列最終動作 - 可能的值：<br><br>§ 中斷 (timed_out通話) <br>§ disconnect_with_busy (溢位通話) <br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ 其他<br>§ 語音信箱 |
-|通話佇列身分識別                     |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **cq_test@microsoft.com** ，則此值為： **cq_test** |
+|通話佇列通話結果                  |文本                     |通話佇列通話的最終狀態--可能的值：<br><br>§ agent_joined_conference<br>§ 已拒絕<br>§ 已中斷連線<br>§ 錯誤<br>§ 失敗<br>§ 無效<br>§ 溢位<br>§ timed_out<br>§ transferred_to_agent |
+|通話佇列最終狀態動作           |文本                     |通話佇列最終動作--可能的值：<br><br>§ 中斷 (timed_out通話) <br>§ disconnect_with_busy (溢位通話) <br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ 其他<br>§ 語音信箱 |
+|通話佇列身分識別                     |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **cq_test@microsoft.com**，則此值會是： **cq_test** |
 |日期                                    |日期/時間                |通話佇列通話開始日期和時間 (小時)  (UTC)    |
 |IsAbandoned                             |True/false               |如果專員未接聽來電，則為 True           |
 
@@ -288,11 +288,11 @@ Teams自動語音應答&通話佇列歷史報告Power BI範本提供下列三個
 
 |名稱                                    |資料類型                |描述                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
-|專員名稱                              |文本                     |使用者 UPN<br>如果完整使用者名稱 **為 user@microsoft.com** 則此值為： **使用者** |
+|專員名稱                              |文本                     |使用者 UPN<br>如果完整使用者名稱 **user@microsoft.com**，則此值為： **使用者** |
 |第二)  (平均通話持續時間          |小數           |摘要：加總<br>在幾秒鐘內接聽來電佇列通話的平均持續時間 |
-|通話數                              |整數             |摘要：加總<br>專員撥打和接聽的電話數     |
+|通話數                              |整數             |摘要：加總<br>撥打給專員的電話數     |
 |通話持續時間 (分鐘)                   |整數             |摘要：加總<br>已接聽來電佇列通話的總通話持續時間， (無條件舍位到最接近的分鐘)   |
-|通話佇列名稱                         |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **cq_test@microsoft.com** ，則此值為： **cq_test** |
+|通話佇列名稱                         |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **cq_test@microsoft.com**，則此值會是： **cq_test** |
 |日期                                    |日期                     |                                                    |
 
 
