@@ -3,6 +3,28 @@
 
 
 
+## <a name="week-of-may-02-2022"></a>2022 年 5 月 2 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 5/2/2022 | [Microsoft Teams PSTN 使用方式報告](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 改 性 |
+| 5/3/2022 | [Teams 中的核准應用程式可用性](/MicrosoftTeams/approval-admin) | 改 性 |
+| 5/3/2022 | [在 Teams 教育版 中的家長管理設定](/MicrosoftTeams/edu-parents-app) | 改 性 |
+| 5/3/2022 | [管理組織的 [班次] 應用程式](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 改 性 |
+| 5/3/2022 | [在 Microsoft Teams 中管理貴組織的 [工作] 應用程式](/MicrosoftTeams/manage-tasks-app) | 改 性 |
+| 5/3/2022 | [Microsoft Teams 中的無線對講機應用程式](/MicrosoftTeams/walkie-talkie) | 改 性 |
+| 5/4/2022 | 管理貴組織的設定 | 刪除 |
+| 5/4/2022 | [Microsoft Teams應用程式使用方式報告](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | 改 性 |
+| 5/4/2022 | [Microsoft Teams面板上的簽入和會議室發行](/MicrosoftTeams/devices/check-in-and-room-release) | 改 性 |
+| 5/4/2022 | [在 Microsoft Teams 中管理您的裝置](/MicrosoftTeams/devices/device-management) | 改 性 |
+| 5/5/2022 | [透過 Cmdlet 建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue-via-cmdlets) | 改 性 |
+| 5/5/2022 | 使用活動報告進行Microsoft Teams | 刪除 |
+| 5/6/2022 | [Teams撥號鍵台設定](/MicrosoftTeams/dial-pad-configuration) | 改 性 |
+| 5/6/2022 | [在系統管理中心管理小組範本](/MicrosoftTeams/templates-policies) | 改 性 |
+| 5/6/2022 | [支援Microsoft Teams 會議室的條件式存取和Intune裝置合規性原則](/MicrosoftTeams/rooms/supported-ca-and-compliance-policies) | 改 性 |
+
+
 ## <a name="week-of-april-25-2022"></a>2022 年 4 月 25 日周
 
 
@@ -71,55 +93,3 @@
 | 4/21/2022 | [對內容進行電子檔探索調查](/MicrosoftTeams/ediscovery-investigation) | 改 性 |
 | 4/22/2022 | [Kaizala和Microsoft Teams](/MicrosoftTeams/get-started-kaizala-teams) | 改 性 |
 | 4/22/2022 | [流覽Microsoft Teams](/MicrosoftTeams/navigate-teams) | 改 性 |
-
-
-## <a name="week-of-april-04-2022"></a>2022 年 4 月 4 日周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 4/4/2022 | [使用Microsoft 365和自訂連接器](/MicrosoftTeams/office-365-custom-connectors) | 改 性 |
-| 4/4/2022 | [Teams 中的核准應用程式可用性](/MicrosoftTeams/approval-admin) | 改 性 |
-| 4/1/2022 | 在 Microsoft Teams 中使用內建和自訂索引標籤 | 刪除 |
-| 4/4/2022 | [了解 Microsoft Teams 中的應用程式](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 改 性 |
-| 4/4/2022 | [如何使用Microsoft Teams面板裝置](/MicrosoftTeams/devices/use-teams-panels) | 改 性 |
-| 4/4/2022 | [簡化零售環境中的商務程式](/MicrosoftTeams/expand-teams-across-your-org/retail-business-processes) | 改 性 |
-| 4/4/2022 | [使用 PowerShell 將班次連線到 Blue Yonder 員工管理](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | 改 性 |
-| 4/4/2022 | [使用 PowerShell 管理您與 Blue Yonder 員工管理的 Shifts 連線](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-powershell-manage) | 改 性 |
-| 4/4/2022 | [管理外部存取 (同盟)](/MicrosoftTeams/manage-external-access) | 改 性 |
-| 4/4/2022 | [在 Microsoft Teams 中管理應用程式權限原則](/MicrosoftTeams/teams-app-permission-policies) | 改 性 |
-| 4/4/2022 | [Microsoft Teams監視與警示](/MicrosoftTeams/alerts/teams-admin-alerts) | 改 性 |
-| 4/4/2022 | [管理 Microsoft Teams 中的標籤](/MicrosoftTeams/manage-tags) | 改 性 |
-| 4/4/2022 | [管理會議設定](/MicrosoftTeams/meeting-settings-in-teams) | 改 性 |
-| 4/4/2022 | [Microsoft Teams中的共用線條外觀](/MicrosoftTeams/shared-line-appearance) | 改 性 |
-| 4/4/2022 | [Microsoft Teams使用方式報告](/MicrosoftTeams/teams-analytics-and-reports/teams-usage-report) | 改 性 |
-| 4/4/2022 | [Microsoft Teams使用者活動報告](/MicrosoftTeams/teams-analytics-and-reports/user-activity-report) | 改 性 |
-| 4/5/2022 | [在您的企業中設定 Microsoft Teams](/MicrosoftTeams/deploy-enterprise-setup) | 改 性 |
-| 4/5/2022 | [管理跨Microsoft 365 Teams應用程式的存取權](/MicrosoftTeams/manage-third-party-teams-apps) | 改 性 |
-| 4/5/2022 | [Microsoft 應用程式驗證和應用程式測試概觀](/MicrosoftTeams/overview-of-app-validation) | 添加 |
-| 4/5/2022 | [瞭解 Microsoft Teams 中的協力廠商應用程式](/MicrosoftTeams/overview-third-party-apps) | 添加 |
-| 4/6/2022 | [Microsoft Teams 中的通話方案](/MicrosoftTeams/calling-plan-landing-page) | 改 性 |
-| 4/6/2022 | [國家/地區可用性 - 音訊會議、通話方案](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | 改 性 |
-| 4/6/2022 | [了解 Microsoft Teams 中的應用程式](/MicrosoftTeams/deploy-apps-microsoft-teams-landing-page) | 改 性 |
-| 4/6/2022 | [撥號對應表和路由](/MicrosoftTeams/dial-plans-routing-overview) | 添加 |
-| 4/6/2022 | [為您的使用者取得電話號碼](/MicrosoftTeams/getting-phone-numbers-for-your-users) | 改 性 |
-| 4/6/2022 | [您可以取得多少電話號碼？](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | 改 性 |
-| 4/6/2022 | [管理一般會議原則](/MicrosoftTeams/meeting-policies-in-teams-general) | 改 性 |
-| 4/6/2022 | [Microsoft 應用程式驗證和應用程式測試概觀](/MicrosoftTeams/overview-of-app-validation) | 改 性 |
-| 4/6/2022 | [搜尋使用者的電話號碼](/MicrosoftTeams/search-for-phone-numbers-for-users) | 改 性 |
-| 4/6/2022 | [Microsoft Teams附加元件授權](/MicrosoftTeams/teams-add-on-licensing/microsoft-teams-add-on-licensing) | 改 性 |
-| 4/6/2022 | [與Microsoft Teams的通訊合規性](/MicrosoftTeams/communication-compliance) | 改 性 |
-| 4/6/2022 | [在 Microsoft Teams 中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 改 性 |
-| 4/7/2022 | [在 Microsoft Teams 中管理Bookings應用程式](/MicrosoftTeams/bookings-app-admin) | 改 性 |
-| 4/7/2022 | [使用 Microsoft Teams 和 Bookings 應用程式進行虛擬會面](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | 改 性 |
-| 4/7/2022 | [管理瀏覽器上Teams虛擬造訪的加入體驗](/MicrosoftTeams/expand-teams-across-your-org/browser-join) | 添加 |
-| 4/7/2022 | [含 Teams 的虛擬造訪 - 整合至 Cerner EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-cerner) | 改 性 |
-| 4/7/2022 | [含 Teams 的虛擬造訪 - 整合至 EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 改 性 |
-| 4/6/2022 | 在行動瀏覽器上管理Teams虛擬造訪的加入體驗 | 刪除 |
-| 4/7/2022 | [使用前線工作者上線精靈，讓前線員工能夠順利上線](/MicrosoftTeams/flw-onboarding-wizard) | 改 性 |
-| 4/7/2022 | [購買適用于 Teams 的協力廠商應用程式](/MicrosoftTeams/purchase-third-party-apps) | 改 性 |
-| 4/7/2022 | [Teams PowerShell 模組 - 支援的版本](/MicrosoftTeams/teams-powershell-supported-versions) | 改 性 |
-| 4/8/2022 | [適用于 Teams 的裝置](/MicrosoftTeams/devices/teams-ip-phones) | 改 性 |
-| 4/8/2022 | [支援Microsoft Teams 會議室的條件式存取和Intune裝置合規性原則](/MicrosoftTeams/rooms/supported-ca-and-compliance-policies) | 改 性 |
-| 4/8/2022 | [Teams PowerShell 模組 - 支援的版本](/MicrosoftTeams/teams-powershell-supported-versions) | 改 性 |
-| 4/8/2022 | [在 Teams 中搜尋目錄時限制使用者可以查看的人員](/MicrosoftTeams/teams-scoped-directory-search) | 改 性 |
