@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何將通話路由至貴組織中未指派的號碼。
-ms.openlocfilehash: cc464419375b6391d0d95d6e99441777a40da9cb
-ms.sourcegitcommit: bc73017b4a3fe6271830bc8c5044bfd43eec80c0
+ms.openlocfilehash: f092cf5501d723dabb4336d648387833dd376e9b
+ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65266918"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65304055"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>將通話路由到未指派的號碼
 
@@ -34,7 +34,7 @@ ms.locfileid: "65266918"
 
 - 將所有通話路由至指定的未指派號碼至自訂公告。
 
-- 將所有通話路由到指定的未指派號碼到主切換板。
+- 將所有通話路由至指定的未指派號碼到主切換板。
 
 您可以將通話路由至未指派的號碼給使用者、與自動語音應答或通話佇列相關聯的資源帳戶，或傳送公告服務，向來電者播放自訂音訊檔案。
 

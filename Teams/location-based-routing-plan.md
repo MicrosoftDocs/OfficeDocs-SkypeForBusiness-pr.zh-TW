@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6361e9454f6df301c0fbf1c91e39158115f2300
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 4f156b287969303edbf195c0054b3bb1eb631db2
+ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817794"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "65303995"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>規劃直接路由的依位置路由
 
@@ -169,11 +169,11 @@ Location-Based路由的運作方式是根據使用者Teams端點的 IP 位址判
 
   - 是否允許傳輸是根據下列條件：
   
-    - 接收轉接來電之使用者的Location-Based路由設定。
+    - 正在傳輸至 PSTN 之使用者的Location-Based路由設定。
     - 端點網路網站位置。
     - 位置是否已啟用Location-Based路由。
 
-    如果接聽轉接來電的使用者能夠在其目前位置使用相同的 PSTN 閘道撥打 PSTN 電話，則允許轉接。
+    如果被轉移的使用者能夠使用相同的 PSTN 閘道，于其目前位置撥打 PSTN 電話，則允許轉接。
 
 - **對於傳入或撥出的 PSTN 電話，以及轉接給其他Teams使用者**，是否允許轉接取決於下列事項：
 
@@ -299,15 +299,15 @@ Location-Based路由的運作方式是根據使用者Teams端點的 IP 位址判
 
     - 如果來電者已啟用Location-Based路由，則只能傳輸至位於相同網路網站上Location-Based啟用路由的閘道。
  
-下表顯示Location-Based路由如何影響從 Site1 將 VOIP 通話路由到不同位置的使用者，以及轉接或轉接電話到 PSTN 端點的使用者。  
+下表顯示Location-Based路由如何影響從網站1 啟用Location-Based路由的 VOIP 通話路由到不同位置的使用者，將來電轉接或轉接至 PSTN 端點。  
 
-|使用者初始來電轉接或轉接  |移轉到 PSTN  |轉寄至 PSTN  |
-|---------|---------|---------|
-|同一個網路網站，啟用Location-Based路由 (User2)    |根據 User2 的語音路由原則，通話轉接只能透過網站1 啟用Location-Based路由閘道1 路由         |根據 User2 的語音路由原則，來電轉接只能透過網站1 啟用Location-Based路由的閘道1 進行路由         |
-|不同的網路網站，啟用Location-Based路由 (User3)     |根據 User3 的語音路由原則，通話轉接只能透過網站1 啟用Location-Based路由閘道1 路由         |根據 User3 的語音路由原則，來電轉接只能透過網站1 啟用Location-Based路由的閘道1 路由         |
-|不同的網路網站，網站未啟用Location-Based路由 (User4)     |根據 User4 的語音路由原則，通話轉接只能透過網站1 啟用Location-Based路由的閘道1 路由         |根據 User4 的語音路由原則，來電轉接只能透過網站1 啟用Location-Based路由閘道1 路由         |
-|不明的內部網路 (User5)      |根據 User5 的語音路由原則，通話轉接只能透過網站1 啟用Location-Based路由的閘道1 進行路由         |根據 User5 的語音路由原則，來電轉接只能透過網站1 啟用Location-Based路由閘道1 路由         |
-|User6 (未知的外部網路)    |根據 User6 的語音路由原則，通話轉接只能透過網站1 啟用Location-Based路由的閘道1 進行路由        |根據 User6 的語音路由原則，來電轉接只能透過網站1 啟用Location-Based路由閘道1 路由         |
+|使用者初始來電轉接或轉接  |轉送或轉寄至 PSTN  |
+|---------|---------|
+|同一個網路網站，啟用Location-Based路由 (User2)    |只有在根據 User2 的語音路由原則計算路由時，才會允許產生 PSTN 通話，該路由會在 Site1 中透過Location-Based啟用路由的閘道1 產生路由         |
+|不同的網路網站，啟用Location-Based路由 (User3)     |只有在根據 User3 的語音路由原則計算路由時，才會允許產生的 PSTN 通話在 Site1 中透過Location-Based路由啟用的閘道1 路由 |
+|不同的網路網站，網站未啟用Location-Based路由 (User4)     |只有在根據 User4 的語音路由原則計算的路由導致經由啟用路由Location-Based閘道1 的路由時，才會允許產生的 PSTN 通話。網站1          |
+|不明的內部網路 (User5)      |只有在根據 User5 的語音路由原則計算路由導致經由啟用路由Location-Based閘道1 的路由至 Site1 時，才會允許產生的 PSTN 通話。          |
+|User6 (未知的外部網路)    |只有在根據 User6 的語音路由原則計算的路由導致經由啟用路由的閘道Location-Based路由時，才允許產生 PSTN 通話。網站1          |
 
 ### <a name="simultaneous-ringing"></a>同時響鈴
 
@@ -328,19 +328,19 @@ Location-Based路由的運作方式是根據使用者Teams端點的 IP 位址判
 
 #### <a name="simultaneous-ringing-to-a-pstn-endpoint"></a>同時響鈴到 PSTN 端點
 
-下表顯示來自 Site1 的輸入 VoIP 通話的Location-Based路由行為，適用于不同位置的使用者，同時將頻道設定為 PSTN 號碼。 
+下表顯示位於 Site1 的Location-Based路由啟用使用者1 的輸入 VoIP 通話的Location-Based路由行為，適用于不同位置的使用者，同時將頻道設定為 PSTN 號碼。 
 
 |稱為使用者端點位置  |同時撥打目標為 PSTN 端點 |
 |---------|---------|
-|同一個網路網站，啟用Location-Based路由 (User2)     |通話只能透過網站1 的Location-Based路由閘道1 路由，根據 User2 的語音路由原則       |
-|啟用Location-Based路由 (User3) 的不同網路網站    |通話只能透過網站1 的Location-Based路由閘道1 路由，根據 User3 的語音路由原則        |
-|不同的網路網站未啟用 Location-Based 路由 (User4)     |通話只能透過網站1 的Location-Based路由閘道1 路由，根據 User4 的語音路由原則         |
-|不明的內部網路 (User5)     |通話只能透過網站1 的Location-Based路由閘道1 路由，根據 User5 的語音路由原則         |
-|User6 (未知的外部網路)    |通話只能透過網站1 的Location-Based路由閘道1 路由，根據 User6 的語音路由原則         |
+|同一個網路網站，啟用Location-Based路由 (User2)     |只有在根據 User2 的語音路由原則計算路由時，才會允許產生 PSTN 通話，該路由會在 Site1 中透過Location-Based啟用路由的閘道1 產生路由        |
+|啟用Location-Based路由 (User3) 的不同網路網站    |只有在根據 User3 的語音路由原則計算路由時，才會允許產生的 PSTN 通話在 Site1 中透過Location-Based路由啟用的閘道1 路由         |
+|不同的網路網站未啟用 Location-Based 路由 (User4)     |只有在根據 User4 的語音路由原則計算的路由導致經由啟用路由Location-Based閘道1 的路由時，才會允許產生的 PSTN 通話。網站1          |
+|不明的內部網路 (User5)     |只有在根據 User5 的語音路由原則計算路由導致經由啟用路由Location-Based閘道1 的路由至 Site1 時，才會允許產生的 PSTN 通話。          |
+|User6 (未知的外部網路)    |只有在根據 User6 的語音路由原則計算的路由導致經由啟用路由的閘道Location-Based路由時，才允許產生 PSTN 通話。網站1          |
 
 #### <a name="inbound-calls-through-voice-apps-auto-attendant-or-call-queue"></a>透過語音應用程式 (自動語音應答或通話佇列撥入通話) 
 
-可從Location-Based啟用路由的閘道撥打輸入 PSTN 電話，以連線到自動語音應答或通話佇列。 
+可從Location-Based啟用路由的閘道連線到自動語音應答或通話佇列的輸入 PSTN 通話。 
 
 啟用Location-Based路由的使用者位於輸入 PSTN 通話的來源網站時，支援接收這些應用程式的撥入來電轉接。
  
@@ -372,7 +372,7 @@ Teams使用者可以選擇可以代表其撥打和接聽電話的代理人。 Te
 
 支援下列Teams用戶端：
 - Teams桌面用戶端 (Windows和 Mac) 
-- Teams iOS 和 Android (行動用戶端) 
+- Teams行動用戶端 (iOS和Android) 
 - Teams IP 手機
 
 不支援Teams Web 用戶端和商務用 Skype用戶端。
