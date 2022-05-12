@@ -15,57 +15,57 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: 深入瞭解 SIP 閘道，例如需求與權益。
+description: 深入瞭解 SIP 閘道，例如需求和優點。
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 817f3dc7ce7f0b6f407607417c0cadb92b65e943
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 77d33d29a51fe32fff6901fdcb8ba33ecad107f7
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514748"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370896"
 ---
 # <a name="plan-for-sip-gateway"></a>規劃 SIP 閘道
 
-SIP 閘道可讓您的組織使用任何相容的 SIP 裝置Microsoft Teams SIP 裝置中的投資。 現在，您可以使用公司認證Teams，然後使用相容的 SIP 裝置撥打和接聽電話。 相容裝置可以是具有標準 SIP 商務用 Skype的 IP 電話、具有多平臺 SIP 固件的 Cisco IP 電話，或是來自 Poly、Yealink 和 AudioCodes 等廠商的 SIP 裝置。 若要瞭解如何設定 SIP 閘道的 SIP 裝置，請參閱 [設定 SIP 閘道](sip-gateway-configure.md)。
+SIP 閘道可讓貴組織使用任何與 Microsoft Teams 相容的 SIP 裝置，以保留您在 SIP 裝置上的投資。 現在您可以使用公司認證登入Teams，並使用相容的 SIP 裝置撥打和接聽電話。 相容裝置可商務用 Skype具有標準 SIP 韌體的 IP 手機、具有多重格式 SIP 韌體的 Cisco IP 手機，或來自 Poly、Yealink 和 AudioCode 等廠商的 SIP 裝置。 若要瞭解如何為 SIP 閘道設定 SIP 裝置，請參閱 [設定 SIP 閘道](sip-gateway-configure.md)。
 
-## <a name="benefits-of-sip-gateway"></a>SIP 閘道的好處
+## <a name="benefits-of-sip-gateway"></a>SIP 閘道的優點
 
-SIP 閘道可將相容的 SIP 裝置連接到Teams，協助使用者順暢地Teams電話。 使用 SIP 閘道，您的使用者可以執行下列所有操作：
+SIP 閘道會將相容的 SIP 裝置連線到Teams，以協助使用者順暢地移轉到Teams電話語音。 使用 SIP 閘道，您的使用者可以執行下列所有動作：
 
-- **撥打電話：** SIP 裝置使用者可以撥打公用交換電話網絡 (PSTN) 、其他 SIP 裝置，以及Teams商務用 Skype使用者。 SIP 裝置使用者只能打電話給有電話號碼的使用者。
-- **接聽電話：** SIP 裝置使用者可以從 PSTN、Teams 或 商務用 Skype 擁有 SIP 裝置的使用者，以及 Teams 和 商務用 Skype 應用程式接收來電。 SIP 裝置會做為Teams端點。 輸入通話也會分叉到使用者的 SIP 裝置。
-- **多個同時通話：** 通話中的 SIP 裝置使用者可以保留通話，以撥打或接聽其他通話。 SIP 裝置使用者也可以召開兩次電話會議。
-- **請勿打擾：** SIP 裝置使用者可以在裝置上設定請勿打擾，讓裝置不會響鈴接聽來電。 這不會影響使用者在其他所有端點Teams狀態。
-- **保留/繼續和靜音/取消靜音：** SIP 裝置使用者可以在裝置上使用這些動作的功能，來保留或繼續通話，或將通話設為靜音和取消靜音。
-- **語音 信箱：** SIP 裝置使用者可以聆聽來電者留給他們的電子儲存語音訊息。
-- **訊息等待指示器：** SIP 裝置使用者可以收到通知，當他們有新的語音信箱訊息時，會收到通知。
-- **登錄和登出：** SIP 裝置使用者可以在裝置上Teams並登出。
-- **雙音多頻率：** SIP 裝置使用者可以在互動式語音回應通話期間按數位鍵提供輸入。
-- **Teams：** SIP 裝置使用者可以撥打會議Teams號碼加入會議。 會議參與者可以撥出到使用者的電話號碼，或只要按一下 '要求加入' 來新增參與者，即可將 SIP 裝置使用者新增到會議，也會提醒使用者的 SIP 裝置。 來自另一個組織的來賓使用者Teams撥入來賓使用者號碼以包含該來賓的參與者加入會議。
-- **通話轉接：** SIP 裝置使用者可以轉接通話。 SIP 閘道同時支援視盲和諮詢傳輸。
-- **本地呼叫轉轉：** SIP 裝置使用者可以針對裝置設定 (、超時和忙碌) 轉轉規則。 如果裝置已連接到 SIP 閘道，則通話會依據裝置使用者設定的規則重新導向至目標位址。 若要讓本地呼叫轉轉工作，系統管理員必須將 `AllowCallRedirect` 屬性設定為 `Set-CsTeamsCallingPolicy` `Enabled` 。 
+- **撥打電話：** SIP 裝置使用者可以撥打公用交換電話網路 (PSTN) 、其他 SIP 裝置，以及Teams和商務用 Skype使用者。 SIP 裝置使用者只能撥打有電話號碼的使用者。
+- **接聽來電：** SIP 裝置使用者可以從 PSTN、Teams或商務用 Skype擁有 SIP 裝置的使用者，以及來自Teams和商務用 Skype用戶端應用程式的來電。 SIP 裝置會做為Teams端點。 輸入電話也會指派給使用者的 SIP 裝置。
+- **多個同時通話：** 通話中的 SIP 裝置使用者可以保留通話，以便撥打或接聽其他通話。 SIP 裝置使用者也可以進行兩次電話會議。
+- **請勿打擾：** SIP 裝置使用者可以在裝置上設定請勿打擾，讓裝置不會撥打來電。 這不會影響使用者對所有其他Teams端點的狀態。
+- **保留/繼續和靜音/取消靜音：** SIP 裝置使用者可以使用裝置上這些動作的功能，來保留通話並繼續通話，或將通話設為靜音和取消靜音。
+- **語音 信箱：** SIP 裝置使用者可以聆聽來電者為其保留的電子儲存語音訊息。
+- **訊息等待指標：** SIP 裝置使用者可以在有新的語音信箱訊息時收到通知。
+- **登入和登出：** SIP 裝置使用者可以在裝置上登入並登出Teams。
+- **雙音調多頻：** SIP 裝置使用者可以在互動式語音回應通話期間按下數位鍵來提供輸入。
+- **Teams會議：** SIP 裝置使用者可以撥打會議存取號碼來加入Teams會議。 會議參與者可以透過撥號至使用者的電話號碼將 SIP 裝置使用者新增至會議，或只要按一下 [要求加入] 新增參與者，也會警示使用者的 SIP 裝置。 其他組織的來賓使用者可由撥號至來賓使用者號碼以加入該來賓的參與者，新增至Teams會議。
+- **來電轉接：** SIP 裝置使用者可以轉接來電。 SIP 閘道支援盲眼和傳送傳輸。
+- **當地來電轉接：** SIP 裝置使用者可以隨時 (設定裝置的轉寄規則、逾時和忙碌) 。 如果裝置已連線至 SIP 閘道，則通話將會根據裝置使用者設定的規則重新導向至目標位址。 若要讓本機來電轉接運作，系統管理員必須將屬性設 `AllowCallRedirect` 為 `Set-CsTeamsCallingPolicy` `Enabled` 。 
 
 
 ## <a name="requirements-to-use-sip-gateway"></a>使用 SIP 閘道的需求
 
-Teams啟用 PSTN 通話的電話號碼，使用者必須使用 SIP 閘道。
+Teams使用者必須有啟用 PSTN 通話的電話號碼，才能使用 SIP 閘道。
 
 ### <a name="hardware-software-and-licenses"></a>硬體、軟體和授權
 
-如果您有 3PIP 或 SIP 裝置，您必須有： 
-- 透過 E5 電話系統 (授權或獨立授權) 
-- PSTN 啟用 (，即透過電話) 方案、Microsoft Teams路由或接線連線
-- 任何共同電話裝置的共同區域授權
+如果您有 3PIP 或 SIP 裝置，您必須具備： 
+- 透過 E5 電話系統 (或獨立授權的授權) 
+- PSTN 啟用 (，也即透過Microsoft Teams通話方案、直接路由或) 電話號碼電信業者連線
+- 任何通用區域裝置的共同區域電話授權
 
-## <a name="compatible-devices"></a>相容裝置
+## <a name="compatible-devices"></a>相容的裝置
 
-|廠商    |模型      |最小固件版本|核准的固件版本|備註|連結|
+|廠商    |模型      |最小韌體版本|已核准韌體版本|備註|連結|
 |----------|-----------|------------|-----------|------------|------------|
-|**Cisco** |           |            |           |執行企業固件的裝置必須轉換成多平臺的固件。 請閱讀右側指南以瞭解如何操作。|[Cisco 固件轉換指南](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
+|**Cisco** |           |            |           |執行企業韌體的裝置必須轉換成多重格式韌體。 請閱讀右側的指南以瞭解做法。|[Cisco 韌體轉換指南](https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7800-series/guide-c07-742786.html)|
 |          |8832       |11.3.5MPP   |11.3.5MPP  |   |   |
 |          |6821       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |7811       |11.1.1MPP   |11-3-3MPP  |   |   |
@@ -78,9 +78,10 @@ Teams啟用 PSTN 通話的電話號碼，使用者必須使用 SIP 閘道。
 |          |8851       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |8861       |11.1.1MPP   |11-3-3MPP  |   |   |
 |          |8865       |11.1.1MPP   |11-3-3MPP  |   |   |
-|**聚**  |           |            |           |裝置會自動重新開機並安裝選取的固件。|   |
-|          |三重 8500  |5.9.5.3182  |7.1.1.0997 |   |   |
-|          |三重 8800  |5.9.5.3182  |7.1.1.0997 |   |   |
+|**聚**  |           |            |           |裝置會自動重新開機並安裝選取的韌體。|   |
+|          |CCX 500    |7.0.3.0515  |7.2.1.1826 |   |   |
+|          |Trio 8500  |5.9.5.3182  |7.1.1.0997 |   |   |
+|          |Trio 8800  |5.9.5.3182  |7.1.1.0997 |   |   |
 |          |VVX150     |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX201     |5.9.5       |6.3.1.8427 |   |   |
 |          |VVX250     |5.9.5       |6.3.1.8427 |   |   |
@@ -127,7 +128,7 @@ Teams啟用 PSTN 通話的電話號碼，使用者必須使用 SIP 閘道。
 |          |T40G       |83          |76.84.0.125|   |   |
 |          |T41P       |83          |36.83.0.120|   |   |
 |          |T46G       |83          |28.83.0.130|   |   |
-|**AudioCodes**|       |            |           |某些 AudioCodes SIP 裝置需要設定設定 URL。 在右側下載並安裝受影響的 AudioCodes 裝置升級檔案。 |[在 AudioCodes 下載受影響裝置檔案](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
+|**AudioCodes**|       |            |           |某些 AudioCodes SIP 裝置需要布建 URL 設定。 在右側下載並安裝受影響之 AudioCodes 裝置的升級檔案。 |[在 AudioCodes 為受影響裝置下載的檔案](https://audiocodes.sharefile.com/share/view/sc9cdf17f9ec45d09/fo7914a2-4f3a-4000-8957-47bd6f35a3a5)|
 |          |405         |2.2.8      |2.2.16.570 |   |   |
 |          |405HD       |3.2.1      |2.2.16.570 |   |   |
 |          |420HD       |3.2.1      |2.2.16.570 |   |   |
@@ -139,4 +140,4 @@ Teams啟用 PSTN 通話的電話號碼，使用者必須使用 SIP 閘道。
 |          |RX50        |3.2.1      |3.4.6.687  |   |   |
 
 > [!NOTE]
-> 在某些裝置中，最小固件版本大於核准的固件版本。 這是因為 3.X 版本是 商務用 Skype版本。 我們會更新 2.X 版的 SIP 版本。
+> 對於某些裝置，最小韌體版本會大於核准的韌體版本。 這是因為 3.X 版本是 商務用 Skype 版本。 我們會更新 SIP 版本，也就是 2.X。

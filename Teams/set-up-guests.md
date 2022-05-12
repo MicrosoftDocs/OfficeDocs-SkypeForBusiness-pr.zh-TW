@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: 瞭解如何以 Office 365 系統管理員身份在 Microsoft Teams 中開啟或關閉來賓存取功能。
-ms.openlocfilehash: 1658ef97dd172209a965088caa2842a71e09e4e7
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 935fac44863ef2c3da4a9fc4f07fcd7e34265024
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839194"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370806"
 ---
 # <a name="turn-guest-access-in-microsoft-teams-on-or-off"></a>開啟或關閉Microsoft Teams中的來賓存取
 
@@ -60,6 +60,7 @@ ms.locfileid: "64839194"
       - **立即開會**– 開啟 **此設定可** 讓來賓在 Microsoft Teams 中使用 [立即開會] 功能。
       - **編輯已傳送的訊息** - **[開啟]** 此設定可允許來賓編輯他們以前傳送的郵件。 
       - **刪除已傳送的郵件** - 開啟 **此設定可** 讓來賓刪除先前傳送的郵件。
+      - **刪除聊天** - 開啟 **此設定可** 讓來賓刪除整個聊天交談。
       - **聊天** –**[開啟]** 此設定可使來賓能够在 Teams 中使用聊天。
       - **在交談中 Giphy** – 開啟 **此設定可** 讓來賓在交談中使用 Giphy。 Giphy 是線上資料庫和搜尋引擎，允許使用者搜尋和共用 GIF 動畫檔案。 每個 Giphy 都有內容分級。
       - **Giphy 內容分級** –  從下拉式清單中選取分級：
