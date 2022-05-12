@@ -21,29 +21,29 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過認證，Microsoft Teams才能產生最佳結果。
-ms.openlocfilehash: 6a17faead9926ea6a7a7475eb867804d974f700e
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: e5588662279a1eda0728b57553d0e0a4a473e2da
+ms.sourcegitcommit: 73df40ce6fbd1d305fd381140f293a2feb0d27bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65217937"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "65359783"
 ---
-# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認證的 Android 裝置
+# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認證的Android裝置
 
 Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，且在整個Teams體驗中提供更高的效能目標和品質指 (音訊、視訊、使用者介面) 。 Microsoft 和 OEM 合作夥伴正積極合作，以確保裝置符合所有認證需求，包括安全性、音訊和視訊品質、Teams體驗和協助工具。
 
-認證程式的設計目的是要確保所有通過認證的裝置都執行 Android 版本，並具備Teams和Teams系統管理中心的必要功能集。 認證結束日期是根據裝置進入認證計畫時在裝置上執行的 Android OS 版本。 我們的 OEM 合作夥伴正致力於藉由升級 Android OS 版本並重新認證，或發行最新狀態的新模型，來延長認證的存留期。
+認證程式的設計目的是要確保所有通過認證的裝置都執行Android版本，並具備Teams和Teams系統管理中心的必要功能集。 認證結束日期是根據裝置進入認證計畫時在裝置上執行的Android作業系統版本。 我們的 OEM 合作夥伴正努力延長認證的存留期，方法是升級Android作業系統版本並重新發佈，或發行最新狀態的新模型。
 
 在認證期間之後，Microsoft 致力於在認證期間結束後於這類裝置上支援最新版的Teams用戶端兩年。
 
 >[!NOTE]
->認證結束日期將會根據 OEM 合作夥伴計畫定期更新，以升級至較新的 Android 作業系統版本。
+>認證結束日期將會根據 OEM 合作夥伴計畫定期更新，以升級至較新Android作業系統版本。
 
 ## <a name="certified-teams-phones"></a>已認證Teams手機
 
 下列裝置在Microsoft Teams手機認證計畫下方通過認證：
 
-|裝置型號    | 韌體版本    | 目前的認證結束日期 | Android OS 版本                               |
+|裝置型號    | 韌體版本    | 目前的認證結束日期 | Android作業系統版本                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
 | Yealink CP965    | `143.15.0.7 `          | 2025 年 9 月 3 日     | 11 |
 | AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 2022 年 4 月 22 日               | 7.1x |
@@ -68,20 +68,20 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，且在�
 
 ## <a name="certified-teams-rooms-on-android"></a>Android 上的認證Teams 會議室
 
-下列裝置是根據 Android 認證計畫Microsoft Teams 會議室認證：
+下列裝置是根據Android認證計畫的Microsoft Teams 會議室認證：
 
-| 裝置型號 | 韌體版本 | 目前的認證結束日期 | 會議室大小                                        |  Android OS 版本    |
+| 裝置型號 | 韌體版本 | 目前的認證結束日期 | 會議室大小                                        |  Android作業系統版本    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
 | 整齊的橫條 | `NFB1.20220211.1400` |2024 年 9 月 3 日|    小型 會議室 (4.5 m x 4.5 m)  | 10 |
 | 整齊的鍵盤觸控主控台 | `NFA1.20220211.1400`  | 2023 年 8 月 5 日 |  僅與 [整齊列] 相容 | 9 |
 | 整齊的版面 | `NFC1.20220211.1400 ` | 2024 年 9 月 3 日 |    小型 會議室 (4.5 m x 4.5 m)  | 10 |
-| 記錄室成員 | `1.4.71` | 2024 年 9 月 3 日  | 大型會議室 (4.5m x 8.5m)   |   10  |
+| 記錄室成員 | `1.4.71` | 2024 年 9 月 3 日  | 大型會議室 (4.5 m x 8.5 m)   |   10  |
 | EPOS EXPAND 80T | `1.2.2.21182.10` | 2023 年 8 月 5 日 | 與 EPOS Vision 3T 搭售 | 9 |
 | 登入點選裝置     | `1.2.982`  |   2024 年 9 月 3 日  | 與 Logitech 欄和分隔線迷你版相容 | 10 |
 | Logitech 欄 Mini | `1.2.982`     |   2024 年 9 月 3 日  |    小型 會議室 (4.5 m x 4.5 m)  | 10 |
 | Logitech 方塊      | `1.2.788`     |   2024 年 9 月 3 日  |    中型房間 (4.5 m x 6 m)        | 10 |
-| AudioCodes RXV80 | `1.9.155`        |   2023 年 8 月 5 日  | 專注空間 (3m x 3m)  </br> 小型會議室 (4.5 m x 4.5 m)  | 9 |
-| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 2023 年 8 月 5 日 | 專注空間 (3m x 3m)  </br> 小型會議室 (4.5 m x 4.5 m)  | 9 |
+| AudioCodes RXV80 | `1.9.155`        |   2023 年 8 月 5 日  | 焦點空間 (3 m x 3 m)  </br> 小型會議室 (4.5 m x 4.5 m)  | 9 |
+| EPOS EXPAND Vision 3T       | `1.2.0.21102.03`    | 2023 年 8 月 5 日 | 焦點空間 (3 m x 3 m)  </br> 小型會議室 (4.5 m x 4.5 m)  | 9 |
 | Yealink 會議列 A30       | `133.15.0.52`    | 2023 年 8 月 5 日   | 中型房間 (4.5 m x 6 m)  | 9 |
 | Yealink CTP18 觸控主控台  | `137.15.0.28`    | 2023 年 8 月 5 日   | 與 Yealink 會議列 A20 和 Yealink MeetingBar A30 相容 | 9 |
 | Yealink 會議列 A20  | `133.15.0.19`      | 2023 年 8 月 5 日 | 焦點空間 (3 m x 3 m)  </br> 小型會議室 (4.5 m x 4.5 m)  | 9 |
@@ -92,16 +92,16 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，且在�
 
 ## <a name="certified-teams-displays"></a>認證Teams顯示器
 
-下列裝置是根據 Microsoft Teams Display Android 認證計畫認證：
+下列裝置在Microsoft Teams顯示器Android認證計畫下方通過認證：
 
-| 裝置型號 | 韌體版本 | 目前的認證結束日期  | Android OS 版本 |
+| 裝置型號 | 韌體版本 | 目前的認證結束日期  | Android作業系統版本 |
 |:------------------------|:-----------------|:--------------|----------------------------------|
 |Lenovo ThinkSmart 檢視|`CD-18781Y.201006.099`| 2022 年 12 月 5 日 |  8.1  |
 
 ## <a name="certified-teams-panels"></a>通過認證的Teams面板
 下列裝置在Microsoft Teams面板認證計畫下方通過認證：
 
-| 裝置型號| 韌體版本 | 目前的認證結束日期 | Android OS 版本 |                                         
+| 裝置型號| 韌體版本 | 目前的認證結束日期 | Android作業系統版本 |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
 |[整齊的鍵檯面板]    | `NFA1.20220211.1400` | 2023 年 8 月 5 日 | 9 |
 |Cres要 TSS-770 | `1.003.0082` |2022 年 12 月 5 日  | 8.1 |
@@ -220,7 +220,7 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，且在�
 
 ### <a name="product-release-information-for-teams-rooms-on-android"></a>Android 上Teams 會議室的產品發行資訊
 
-以下是 Android 應用程式和韌體版本的最新Teams 會議室。
+以下是Android應用程式和韌體版本的最新Teams 會議室。
 
 #### <a name="app-versions"></a>應用程式版本
 
@@ -241,6 +241,7 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，且在�
 
 | 裝置型號  | 韌體版本 | 包含的產品版本 |
 |:--------------|:-----------------|:-------------------------|
+| Logi Roommate |   `1.6.290`   | 2022 更新 #1    |
 | Logi 資訊看板迷你版   |   `1.6.272`   | 2022 更新 #1  |
 | Logi 方塊    |   `1.6.272`   | 2022 更新 #1   |
 | Logi Roommate |   `1.5.705`   | 2022 更新 #1    |
