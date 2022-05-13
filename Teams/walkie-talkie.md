@@ -18,24 +18,27 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 776f0f31d54788fbffd86bbcbedd44e30ada28a3
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 29a632efc433a14d578eff80fdeb74a6f167dfc3
+ms.sourcegitcommit: a388fd72e399f6e205c34707dc92cc309997e737
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65186969"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65400229"
 ---
 # <a name="walkie-talkie-app-in-microsoft-teams"></a>Microsoft Teams 中的無線對講機應用程式
 
-Teams中的 [無線對講機] 應用程式為您的小組提供即時推播到說話 (PTT) 通訊，現在可在 Android & iOS 上使用。 無線對講機可讓使用者使用屬於其成員的相同基礎頻道與其團隊連線。 只有連線到頻道中無線對講機的使用者會成為參與者，而且可以一次一個按鍵對講功能彼此通訊。
+Teams中的 [無線對講機] 應用程式為您的小組提供即時推 (對講) 通訊，現在可在 Android & iOS 上使用。 無線對講機可讓使用者使用屬於其成員的相同基礎頻道與其團隊連線。 只有連線到頻道中無線對講機的使用者會成為參與者，而且可以一次一個按鍵對講功能彼此通訊。
 
 透過 Teams 中的無線對講機，第一線工作人員現在可以安全地與熟悉的 PTT 體驗通訊，而不需要攜帶大量無線電，而且無線對講機可在 WiFi 或行動網路網際網路連線的任何地方使用。
+
+> [!NOTE]
+> 中國目前不提供無線對講機。
 
 ## <a name="getting-started"></a>快速入門
 
 ### <a name="deploying-walkie-talkie"></a>部署無線對講機
 
-在配備 Google 行動服務 (MCS) 和 iOS 裝置的 Android 裝置上支援無線對講機。
+在配備 Google 行動服務 (MCS) 和 iOS 裝置的Android裝置上支援無線對講機。
 
 ### <a name="pin-walkie-talkie-to-teams"></a>將無線對講機釘選到Teams
 
@@ -61,8 +64,8 @@ Teams中的無線對講機需要網際網路連線，而在網路條件之下則
 
 |度量 | 必要 |
 |---|---|
-|RTT)  (延遲 | < 300ms |
-|抖動 |< 30ms |
+|RTT)  (延遲 | < 300 ms |
+|抖動 |< 30 ms |
 |封包遺失 |< 1% |
 
 如上所述，透過 IP 網路即時媒體的品質受到網路連線品質的極大影響，尤其是受以下情況影響：
@@ -78,11 +81,11 @@ Teams中的無線對講機需要網際網路連線，而在網路條件之下則
 即使在手機遭到鎖定時，第一線工作人員仍需要使用無線對講機通話並接聽電話。 此體驗可透過具有專用 PTT 按鈕的專用裝置來體驗。
 
 - **耳機**
-  - iOS & Android)  (無線耳機
+  - 無線耳機 (iOS & Android) 
     - [BlueParrott](https://www.blueparrott.com/microsoft-teams-walkie-talkie)
-  - Android (有線耳機僅) 
+  - 有線耳機僅 (Android) 
     - [器克電子](https://www.kleinelectronics.com/poc-accessories/mtwt/)
-- **崎嶇不平的 Android 手機**
+- **崎嶇不平的Android手機**
   - Samsung [Galaxy XCover Pro](https://www.samsung.com/us/business/products/mobile/phones/galaxy-xcover-pro/)、[Galaxy XCover 5](https://www.samsung.com/de/smartphones/others/galaxy-xcover-5-black-64gb-sm-g525fzkdeeb/buy)、[Galaxy Tab Active 3](https://www.samsung.com/us/business/tablets/galaxy-tab-active/buy/)
     - 手動設定 - 安裝Teams後，流覽至 XCover/Active 鍵>設定 >進階功能。 開啟 [搭配應用程式控制 XCover 金鑰]，然後選取 [Teams]
     - [MDM 設定](https://docs.samsungknox.com/admin/knox-service-plugin/intune-teams.htm)
@@ -98,7 +101,7 @@ Office 365訂閱中的所有付費Teams授權中都包含無線對講機[應用�
 
 ## <a name="further-information"></a>進一步資訊
 
-- ITAdmins 可以透過應用程式原則來控制誰正在使用無線對講機。
+- IT 系統管理員可以透過應用程式原則來控制誰正在使用無線對講機。
 - 如果您的前線員工使用行動資料透過Teams通訊，無線對講機將會使用相同的方法。
 - 無線對講機在頻寬不足或智慧型手機連線正常運作的情況下，應該可以正常運作。 完全沒有連線時，無線對講機就無法運作。
 
