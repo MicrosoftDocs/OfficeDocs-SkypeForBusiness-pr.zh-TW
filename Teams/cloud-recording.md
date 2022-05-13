@@ -19,12 +19,12 @@ description: 在 Teams 中部署雲端語音功能的實用指引，以錄製 Te
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aab8f71ec8c9eb5ad1e984a68985a8a425e21f16
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 72ad8b9349681dbb10c3df848f99cc0250711543
+ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922664"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "65370816"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Teams 雲端會議錄製
 
@@ -147,8 +147,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
   
 開啟此設定將建立與會議錄製內容一起儲存的文字記錄，從而在會議錄製內容中啟用 **[搜尋]**、**[CC]** 和 **[文字記錄]**。
 
+
 > [!NOTE]
-> 錄製會議謄寫目前僅支援英文 (美國)、英文 (加拿大)、英文 (印度)、英文 (英國)、英文 (澳洲)、英文 (紐西蘭)、德文 (德國)、葡萄牙文 (巴西)、荷蘭文 (荷蘭)、荷蘭文 (比利時)、法文 (法國)、西班牙文 (西班牙)、日文 (日本)、法文 (加拿大)、中文 (粵語、繁體中文)、中文 (國語、簡體中文)、印地文 (印度)、義大利文 (義大利)、韓文 (韓國)、西班牙文 (墨西哥)、瑞典文 (瑞典)、波蘭文 (波蘭)、阿拉伯文 (阿拉伯聯合大公國)、阿拉伯文 (沙烏地阿拉伯)、丹麥文 (丹麥)、芬蘭文 (芬蘭)、挪威文 (挪威) 和俄文 (俄羅斯)。這些會議記錄會與商務用 OneDrive 和 SharePoint Online 雲端儲存空間中的會議錄製一起儲存。
+> 錄製會議謄寫目前僅支援英文 (美國)、英文 (加拿大)、英文 (印度)、英文 (英國)、英文 (澳洲)、英文 (紐西蘭)、阿拉伯文 (阿拉伯聯合大公國)、阿拉伯文 (沙烏地阿拉伯)、中文 (粵語)、中文 (國語)、捷克文 (捷克)、丹麥文 (丹麥)、德文 (比利時)、德文 (荷蘭)、法文 (加拿大)、法文 (法國)、芬蘭文 (芬蘭)、德文 (德國)、希伯來文(以色列)、印地文 (印度)、義大利文 (義大利)、日文 (日本)、韓文(韓國)、挪威文 (挪威)、波蘭文 (波蘭)、葡萄牙文 (巴西)、葡萄牙文 (葡萄牙)、俄文 (俄羅斯)、西班牙文 (墨西哥)、西班牙文 (西班牙)、瑞典文 (瑞典)、泰文 (泰國)、土耳其文 (土耳其)、越南文 (越南)。 這些會議記錄會與商務用 OneDrive 和 SharePoint Online 雲端儲存空間中的會議錄製一起儲存。
 
 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 來設定 Teams 會議原則，控制啟動錄製的人員是否可以選擇謄寫會議錄製內容。
 
