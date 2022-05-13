@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在Teams中管理參與者和來賓的會議原則設定。
-ms.openlocfilehash: 05408ade76aa96b64f07899881beb68fa52c74b4
-ms.sourcegitcommit: a31c02892e35babbbcf5e7c303c7f14d7ba5cb52
+ms.openlocfilehash: 6a3c2dda51c40c57cd100eda9c8c959583dfb60b
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64784697"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393747"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>會議原則設定 - 參與者與來賓
 
@@ -32,6 +32,7 @@ ms.locfileid: "64784697"
 
 這些設定可控制哪些會議參與者在獲准加入會議之前在大廳等候，以及允許他們在會議中允許的參與層級。
 
+- [讓匿名人員加入會議](#let-anonymous-people-join-a-meeting)
 - [讓匿名人員開始會議](#let-anonymous-people-start-a-meeting)
 - [自動准許人員](#automatically-admit-people)
 - [允許撥入使用者無需先在大廳等候](#allow-dial-in-users-to-bypass-the-lobby)
@@ -41,6 +42,9 @@ ms.locfileid: "64784697"
 > [!NOTE]
 >加入會議的選項會因每個 Teams 群組的設定和連線方法而有所不同。 如果您的群組有音訊會議，並且使用它來連線，請參閱[音訊會議](/microsoftteams/audio-conferencing-in-office-365)。 如果您的 Teams 群組沒有音訊會議，請參閱[在 Teams 中加入會議](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)。
 
+## <a name="let-anonymous-people-join-a-meeting"></a>讓匿名人員加入會議
+
+此每個召集人設定可讓任何人以匿名使用者的身分加入會議，方法是選取會議邀請中的連結。 若要深入了解，請參閱[在沒有 Teams 帳戶的情況下加入會議](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508)。 匿名使用者加入會議的能力也會受到貴組織層級的控制，而較嚴格的設定將會有效。 若要深入瞭解，請參[閱使用Microsoft Teams系統管理中心來設定整個組織的原則](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)。
 
 ## <a name="let-anonymous-people-start-a-meeting"></a>讓匿名人員開始會議
 
@@ -98,7 +102,7 @@ ms.locfileid: "64784697"
 
 |設定值 |行為  |
 |---------|---------|
-|**啟用**     | 所有參與者都可以撰寫和檢視聊天訊息。 |
+|**Enabled**     | 所有參與者都可以撰寫和檢視聊天訊息。 |
 |**未啟用**     | 所有參與者的會議聊天都已關閉。  |
 
 <a name="bkparticipantsandguests"> </a>

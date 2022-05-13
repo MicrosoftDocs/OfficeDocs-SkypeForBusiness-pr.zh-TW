@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: 商務用 Skype Server 2015 檔
-summary: 瞭解如何實施商務用 Skype Server 2015。
+summary: 瞭解如何實作 2015 商務用 Skype Server。
 metadata:
   title: 商務用 Skype Server 2015 檔
-  description: 瞭解如何實施商務用 Skype Server 2015。
+  description: 瞭解如何實作 2015 商務用 Skype Server。
   ms.service: skype-for-business-online
   audience: ITPro
   ms.topic: landing-page
@@ -11,14 +11,14 @@ metadata:
   author: lanachin
   ms.author: v-lanac
   ms.date: 06/23/2020
-  ms.openlocfilehash: b4ebe6851e6ee92d5b43fd781a3111fd015ba062
-  ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+  ms.openlocfilehash: feaab2b9acf9fa7d76ae564233930a00fb243006
+  ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 09/30/2021
-  ms.locfileid: "60014897"
+  ms.lasthandoff: 05/13/2022
+  ms.locfileid: "65393727"
 landingContent:
-- title: 關於商務用 Skype Server 2015
+- title: 關於 商務用 Skype Server 2015
   linkLists:
   - linkListType: overview
     links:
@@ -30,21 +30,17 @@ landingContent:
       url: https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d
     - text: 技術圖表
       url: ./technical-diagrams.md
-  - linkListType: download
-    links:
-    - text: 立即下載！
-      url: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server
 - title: 規劃
   linkLists:
   - linkListType: overview
     links:
-    - text: 規劃部署
+    - text: 規劃您的部署
       url: ./plan-your-deployment/plan-your-deployment.md
     - text: 規劃混合式連線
       url: /SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity
     - text: 規劃用戶端和裝置
       url: ./plan-your-deployment/clients-and-devices/clients-and-devices.md
-    - text: 規劃企業語音方案
+    - text: 規劃企業語音解決方案
       url: ./plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md
 - title: 安裝和管理
   linkLists:
@@ -58,7 +54,7 @@ landingContent:
       url: ./deploy/upgrade-to-skype-for-business-server.md
     - text: 部署企業語音
       url: ./deploy/deploy-enterprise-voice/deploy-enterprise-voice.md
-    - text: 設定 Skype 會議廣播的內部部署部署
+    - text: 設定內部部署以進行Skype 會議廣播
       url: ./deploy/configure-skype-meeting-broadcast.md
   - linkListType: how-to-guide
     links:
