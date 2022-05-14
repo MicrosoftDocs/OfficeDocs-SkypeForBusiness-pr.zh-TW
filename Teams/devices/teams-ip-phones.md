@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過認證，Microsoft Teams才能產生最佳結果。
-ms.openlocfilehash: e5588662279a1eda0728b57553d0e0a4a473e2da
-ms.sourcegitcommit: 73df40ce6fbd1d305fd381140f293a2feb0d27bf
+ms.openlocfilehash: b63adbf126936bf7a4fcf004ab18338351b09565
+ms.sourcegitcommit: 4b0bd129af9cd487123ef6a5dc19ace0ec5a6c41
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "65359783"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65406389"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認證的Android裝置
 
@@ -141,6 +141,9 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，且在�
 
 | 裝置型號  | 韌體版本  | 包含的產品版本  |
 |:----------------|:--------------|:----------------------------|
+|Yealink T55A/T56A/T58A   | `58.15.0.157`     | 2022 更新#2A  |
+|Yealink VP59             | `91.15.0.90`      | 2022 更新#2A  |
+|Yealink CP960            | `73.15.0.153`     | 2022 更新#2A  |
 |Audiocodes C470HD  | `1.17.561` | 2022 更新#1C |
 |Yealink MP54/MP56/MP58   | `122.15.0.80`     | 2022 更新#2A  |
 |Yealink MP52 | `145.15.0.28`  | 2022 更新#2A         |
