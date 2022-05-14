@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的共用頻道 (預覽)。
-ms.openlocfilehash: feecbdfe45e890b1e302d49bfdcaf7b6d3e19157
-ms.sourcegitcommit: 3beef904411a9d5787a73678464003a868630649
+ms.openlocfilehash: 1f222d8994c435c315a91deaba77e383b55cba42
+ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/12/2022
-ms.locfileid: "64817844"
+ms.lasthandoff: 05/13/2022
+ms.locfileid: "65393877"
 ---
 # <a name="shared-channels-in-microsoft-teams-preview"></a>Microsoft Teams 中的共用頻道 (預覽)
 
@@ -150,7 +150,7 @@ Teams 會管理共用頻道網站的生命週期。 如果在 Teams 以外刪除
 |小組中的成員|25,000|包含小組中的所有使用者，以及共用頻道中的直接成員。|
 |每個小組的共用頻道|50|託管並與小組共用。 (在 30 天的修復期間包含已刪除的頻道。)|
 |可以與之共用頻道的小組|50|排除父系小組|
-|共用頻道中的成員|1,000 名直接成員，包括最多 50 個小組。 (此限制的目的，頻道會以一個成員的計數與每個小組共用)|即時更新一次只能供 25,000 個使用者使用，頻道清單中只會顯示 25,000 個使用者。|
+|共用頻道中的成員|5,000 名直接成員，包括最多 50 個小組。 (此限制的目的，頻道會以一個成員的計數與每個小組共用)|即時更新一次只能供 25,000 個使用者使用，頻道清單中只會顯示 25,000 個使用者。|
 
 也會有下列限制：
 
