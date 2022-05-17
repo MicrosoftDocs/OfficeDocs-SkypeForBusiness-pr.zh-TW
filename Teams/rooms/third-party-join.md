@@ -13,14 +13,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 本文討論如何設定貴組織及Teams 會議室裝置，以支援加入 Cisco WebEx 和 Zoom 的協力廠商會議。
-ms.openlocfilehash: 6defa9c9287b130eb5534f0aea158a78f2de8b18
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 91b730f998a1c17ed41f42a1e2990c82045d3117
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846602"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65441999"
 ---
-# <a name="enable-teams-room-devices-to-join-third-party-meetings"></a>啟用Teams會議室裝置加入協力廠商會議
+# <a name="enable-teams-rooms-devices-to-join-third-party-meetings"></a>啟用Teams 會議室裝置加入協力廠商會議
 
 > [!NOTE]
 > 此功能目前僅適用于 Teams 會議室 上的 Windows。
@@ -65,8 +65,8 @@ Microsoft Teams 會議室裝置支援加入協力廠商線上會議的單點觸�
 
 以下是一些您可能需要新增至適用於 Office 365 的 Defender 保管庫連結 *不要重寫* 清單或協力廠商 URL 重寫例外清單的範例專案：
 
-- **Cisco WebEx** `*.webex.com*`
-- **[縮放** `*.zoom.us*` ] 底下， `*.zoom.com*``*.zoomgov.com*`
+- **Cisco WebEx** `*.webex.com/*`
+- **[縮放** `*.zoom.us/*` ] 底下， `*.zoom.com/*``*.zoomgov.com/*`
 
 如需要新增至適用於 Office 365 的 Defender 保管庫連結的 URL 完整清單 *請勿重寫* 清單或協力廠商 URL 重寫例外清單，請連絡您要接受會議邀請的協力廠商會議服務提供者。
 

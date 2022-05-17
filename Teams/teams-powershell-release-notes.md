@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解 Teams PowerShell 中的最新變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 169519741bb0107086679a0472ead65c0e512529
-ms.sourcegitcommit: 3aa1c3cbd8ba9919e2a4dd4c7d4b95c40ed3d55d
+ms.openlocfilehash: 2bd7507767cb7f8747d8abbf4a23adda39738182
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65230977"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442029"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 版本資訊
 
@@ -31,6 +31,7 @@ ms.locfileid: "65230977"
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 5 月 | [4.3.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.1-preview) |<li>模組大小的改進。</li><li>所有 Cmdlet 的現代化版本不支援參數會導致錯誤。</li><li>修正 [GetSet \| ]-CsOnlineDialInConferencingUser、Get-CsOnlineDialInConferencingBridge、[GetSetRegisterUnregister \| \| \| ]-CsOnlineDialInConferencingServiceNumber & Get-CsOnlineDialInConferencingLanguagesSupported Cmdlet 的錯誤處理。</li><li>在預覽中以 Scale Cmdlet 發行部署 - New-CsBatchTeamsDeployment & Get-CsBatchTeamsDeploymentStatus。</li>
 | 2022 年 5 月 | [4.3.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.3.0) |<li>修正 [SetRemove \| ]-CsPhoneNumberAssignment Cmdlet 的錯誤處理。</li><li>[取得 \|SetRemove \| ]-CsOnlineLisSubnet – 現代化 Cmdlet 中 Subnet 參數的修正。</li><li>[取得 \|Set]-CsOnlineLisLocation & [GetSet \| ]-CsOnlineLisCivicAddress – 現代化 Cmdlet 中支援的參數周圍的修正 (個別公開檔) 的詳細資料。</li>
 | 2022 年 4 月 | [4.2.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.1-preview) |<li>修正 [SetRemove \| ]-CsPhoneNumberAssignment Cmdlet 的錯誤處理。</li><li>[取得 \|SetRemove \| ]-CsOnlineLisSubnet – 現代化 Cmdlet 中 Subnet 參數的修正。</li><li>[取得 \|Set]-CsOnlineLisLocation & [GetSet \| ]-CsOnlineLisCivicAddress – 現代化 Cmdlet 中支援的參數周圍的修正。</li>
 | 2022 年 4 月 | [4.2.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.2.0) |<li>針對所有與Teams相關之 Cmdlet 的 Proxy 支援。 支援的 Cmdlet 會逐漸推出。</li><li>修正搭配 PSListModifier 類型參數使用時，[NewSet \| ]- 現代化原則 Cmdlet 的問題。</li><li>[破折修訂]PSListModifier 類型參數只會接受 Hashtable 搭配 [新增] 或 [移除]。 現在不支援使用 Hashtable with Replace，而是可以直接在參數中設定 () 值。</li><li>修正 [GetNew \| ] 的格式問題- 少數幾個現代化原則 Cmdlet (CsVideoInteropServiceProvider、CsInboundBlockedNumberPattern、CsTeamsComplianceRecordingApplication、CsTeamsTranslationRule、CsTeamsUnasignedNumberTransment、CsVoiceNormalizationRule) 。</li><li>改善使用現代化 Cmdlet 的管線輸入處理效能。</li><li>修正管線輸入結果的次要問題。</li><li>Get-CsOnlineUser：已新增 Country 屬性 (3.x.x) 之前的版本中稱為 CountryOrRegionDisplayName。</li><li>[破折修訂]Get-CsOnlineUser：CountryAbbreviation 屬性現在僅適用于 -Identity 參數。</li>

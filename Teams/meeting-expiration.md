@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 瞭解如何在 Microsoft Teams 中使用會議原則設定來控制會議到期日。
-ms.openlocfilehash: 4496896cc86cfd64f175b9cab7c58c3798b9249f
-ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
+ms.openlocfilehash: 74b47d296b06d2ef9462dfafec136a99ebff0a34
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65063244"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442019"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Microsoft Teams 中的會議原則和會議到期日
 
@@ -181,3 +181,5 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 [將原則指派給 Teams 中的使用者](policy-assignment-overview.md)
 
 [Teams PowerShell 概觀](teams-powershell-overview.md)
+
+[Microsoft Teams 的限制和規格](/microsoftteams/limits-specifications-teams)

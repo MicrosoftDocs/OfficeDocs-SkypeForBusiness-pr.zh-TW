@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 2a4862b1daedd90dce4d486ed1517efbfeaca336
-ms.sourcegitcommit: f3c380f745af4c3aaa2720234860b45696a0c333
+ms.openlocfilehash: a7276c2a538eacefc579a7233bb99fb7882afb8f
+ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2022
-ms.locfileid: "64737575"
+ms.lasthandoff: 05/17/2022
+ms.locfileid: "65442039"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式權限原則
 
@@ -87,14 +87,9 @@ ms.locfileid: "64737575"
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>管理 Microsoft 365 政府版的全組織應用程式設定  
 
-在Microsoft 365政府 - GCCH 和 DoD 部署Teams，請務必瞭解下列協力廠商應用程式設定，這是 GCCH 和 DoD 專屬的設定。
+在Microsoft 365政府 - GCC、GCCH 和 DoD 部署Teams，預設會封鎖所有協力廠商應用程式。 在 GCCH 和 DOD 雲端中，無法使用協力廠商應用程式。 此外，在 GCC 中，您會在 Microsoft Teams 系統管理中心的應用程式許可權原則頁面上看到下列有關管理協力廠商應用程式的注意事項。
 
-在 GCC、GCCH 和 DoD 部署中，預設會封鎖所有協力廠商應用程式。 此外，在 GCC 中，您會在 Microsoft Teams 系統管理中心的應用程式許可權原則頁面上看到下列有關管理協力廠商應用程式的注意事項。
-
-:::image type="content" source="media/app-permission-policies-gcc-trimmed.png" alt-text="GCCH 和 DoD 中應用程式許可權原則的螢幕擷取畫面。" lightbox="media/app-permission-policies-gcc.png":::
-
-> [!NOTE]
-> 在 GCCH 和 DOD 雲端中，無法使用協力廠商應用程式。
+:::image type="content" source="media/app-permission-policies-gcc.png" alt-text="GCCH 和 DoD 中應用程式許可權原則的螢幕擷取畫面。":::
 
 使用全組織應用程式設定來控制使用者是否可以安裝第三方應用程式。 全組織應用程式設定會控管所有使用者的行為，並覆寫指派給使用者的任何其他應用程式權限原則。 您可以使用這些原則來控制惡意或有問題的應用程式。
 
