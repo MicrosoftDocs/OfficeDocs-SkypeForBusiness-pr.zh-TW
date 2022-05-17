@@ -3,6 +3,25 @@
 
 
 
+## <a name="week-of-may-09-2022"></a>2022 年 5 月 9 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 5/9/2022 | [啟用使用者的直接路由](/MicrosoftTeams/direct-routing-enable-users) | 改 性 |
+| 5/9/2022 | [設定電信業者連線](/MicrosoftTeams/operator-connect-configure) | 改 性 |
+| 5/9/2022 | [在 Teams 中指派原則](/MicrosoftTeams/policy-assignment-overview) | 改 性 |
+| 5/9/2022 | [自動語音應答&通話佇列歷史報告](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 改 性 |
+| 5/10/2022 | [規劃直接路由的依位置路由](/MicrosoftTeams/location-based-routing-plan) | 改 性 |
+| 5/10/2022 | [Microsoft Teams中的通話原則：通話和來電轉接功能](/MicrosoftTeams/teams-calling-policy) | 改 性 |
+| 5/10/2022 | [Microsoft Teams 會議室應用程式版本支援](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 改 性 |
+| 5/12/2022 | [管理語音信箱原則](/MicrosoftTeams/manage-voicemail-policies) | 改 性 |
+| 5/12/2022 | [設定 SIP 閘道](/MicrosoftTeams/sip-gateway-configure) | 改 性 |
+| 5/12/2022 | [在 Teams 教育版 中的家長管理設定](/MicrosoftTeams/edu-parents-app) | 改 性 |
+| 5/13/2022 | [Microsoft Teams 中的無線對講機應用程式](/MicrosoftTeams/walkie-talkie) | 改 性 |
+| 5/13/2022 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 改 性 |
+
+
 ## <a name="week-of-may-02-2022"></a>2022 年 5 月 2 日周
 
 
@@ -82,7 +101,7 @@
 | 4/19/2022 | [根據使用者類型Teams應用程式行為](/MicrosoftTeams/non-standard-users) | 改 性 |
 | 4/19/2022 | [安全性與合規性概觀](/MicrosoftTeams/security-compliance-overview) | 改 性 |
 | 4/20/2022 | [音訊會議免付費電話號碼原則](/MicrosoftTeams/audio-conferencing-toll-free-numbers-policy) | 添加 |
-| 4/20/2022 | [變更音訊會議橋接器上的電話號碼](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 改 性 |
+| 4/20/2022 | [變更橋接器上的電話號碼音訊會議](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 改 性 |
 | 4/20/2022 | [針對特定Teams使用者停用免付費電話號碼](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) | 改 性 |
 | 4/20/2022 | [管理音訊會議設定](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | 改 性 |
 | 4/20/2022 | [設定邀請中包含的電話號碼](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 改 性 |
