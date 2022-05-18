@@ -19,14 +19,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c734fe5d6326d0fc4bfddfbc381d66339303d36e
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 8415ee8dc79c8c67189ae801b1287c56115e6d72
+ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392871"
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "65462027"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
+
+此文章詳述您的終端使用者 Teams 會議增益集的驗證需求和功能。 它也會顯示使用者如何在「孤島模式」中啟用私人會議及調整原則設定。 如果您有增益集的問題，請參閱我們[最新的疑難排解指導方針](/MicrosoftTeams/troubleshoot/meetings/resolve-teams-meeting-add-in-issues)。
 
 Teams 會議增益集可讓使用者從 Outlook 安排 Teams 會議。 您可以在 Windows、Mac、Web 和行動裝置上使用此增益集。
 
@@ -126,59 +128,6 @@ Teams 會議增益集是仍在建置的功能，因此請注意下列事項：
 - 使用者無法從 Outlook 中安排即時活動。 請移至 Teams 以安排即時活動。 如需詳細資訊，請參閱[什麼是 Microsoft Teams 即時活動？](teams-live-events/what-are-teams-live-events.md)。
 
 深入了解 [Microsoft Teams 中的會議和通話](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)。
-
-## <a name="troubleshooting"></a>疑難排解
-
-使用下列步驟來疑難排解 Teams 會議增益集的問題。
-
-> [!NOTE]
-> 此案例也可使用 [Microsoft 支援及修復小幫手的命令列版本](/office365/troubleshoot/administration/sara-command-line-version)與 SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook 管理。
-
-### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>在 Windows 版 Outlook 中，Teams 會議增益集無法顯示
-
-如果您無法安裝適用於 Outlook 的 Teams 會議增益集，請嘗試這些疑難排解步驟。
-
-[下載](https://aka.ms/SaRA-TeamsAddInScenario)並執行 [Microsoft 支援復原小幫手](https://aka.ms/SaRA_Home)，以執行自動疑難排解步驟和修正。
-
-或者，您可以手動執行下列步驟：
-
-- Windows 7 使用者必須[在 Windows 上安裝通用 C 執行階段的更新](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)，Teams 會議增益集才能正常運作。
-- 檢查使用者是否擁有可在 Teams 中排程會議的 Teams 升級原則。 如需詳細資訊，請參閱[從商務用 Skype 升級至 Teams](/microsoftteams/meeting-policies-in-teams-general) (部分機器翻譯)。
-- 檢查使用者是否擁有允許 Outlook 增益集的 Teams 會議原則。 如需詳細資料，請參閱[會議原則設定 -一般](./meeting-policies-in-teams-general.md#outlook-add-in)。
-- 確定使用者已安裝 Teams 桌面用戶端。 只使用 Teams 網頁用戶端時，不會安裝會議增益集。
-- 確定使用者已安裝 Outlook 2013 或更新版本。
-- 確定使用者擁有執行 regsvr32 的權限。
-- 確定所有適用於 Outlook 桌面用戶端的更新均已套用。
-- 請遵循下列步驟：
-  - 重新啟動 Teams 桌面版用戶端。
-  - 登出 Teams 桌面用戶端，然後重新登入。
-  - 重新啟動 Outlook 桌面用戶端。 (確定 Outlook 不是以 [系統管理員模式] 執行)。
-
-如果您仍然沒看到增益集，請確定未在 Outlook 中停用。
-
-- 在 Outlook 中，依序選擇 **[檔案]** 和 **[選項]**。
-- 選取 **[Outlook 選項]** 對話方塊的 **[增益集]** 索引標籤。
-- 確認 **[適用於 Microsoft Office 的 Microsoft Teams 會議增益集]** 是否列於 **[使用中應用程式增益集]** 清單中
-- 如果 Teams 會議增益集列於 **[停用的應用程式增益集]** 清單中，請在 **[管理]** 依序選取 **[COM 增益集]** 和 **[執行...]**
-- 設定 **[適用於 Microsoft Office 的 Microsoft Teams 會議增益集]** 旁的核取方塊。
-- 在所有對話方塊上選擇 **[確定]**，並重新啟動 Outlook。
-
-如需有關如何管理增益集的一般指導方針，請參閱[在 Office 程式中檢視、管理及安裝增益集](https://support.office.com/article/View-manage-and-install-add-ins-in-Office-programs-16278816-1948-4028-91E5-76DCA5380F8D)。
-
-如果增益集仍未顯示，請使用下列步驟來驗證登錄設定。
-
-> [!NOTE]
-> 不正確地編輯登錄可能會嚴重損害您的系統。 變更登錄之前，您應該先備份電腦上所有的重要資料。
-- 啟動 RegEdit.exe
-- 瀏覽至 HKEY_CURRENT_USER\Software\Microsoft\Office\Outlook\Addins
-- 驗證 TeamsAddin.FastConnect 是否存在。
-- 在 TeamsAddin.FastConnect 中，請驗證 LoadBehavior 存在，並設定為 3。
-  - 如果 LoadBehavior 的值不是 3，請將它變更為 3 並重新啟動 Outlook。
-
-### <a name="delegate-scheduling-does-not-work"></a>代理人排程無法運作
-
-如果您的系統管理員已將 Microsoft Exchange 設定為[控制對 Exchange Web 服務器 (EWS) 的存取](/exchange/client-developer/exchange-web-services/how-to-control-access-to-ews-in-exchange)，代理人將無法代表老闆安排 Teams 會議。 此設定的解決方案正在開發中，即將在未來發行。 您的系統管理員可以將下列字串新增至 EWS 允許清單：「*SchedulingService*」，作為因應措施。 
-
 
 ## <a name="related-topics"></a>相關主題
 
