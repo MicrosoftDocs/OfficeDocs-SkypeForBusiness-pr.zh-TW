@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 瞭解如何在 Microsoft Teams 中使用 Bookings 應用程式來排程、管理和進行虛擬約會。
-ms.openlocfilehash: 5693049942d48da8c18e46b05f4a8d0bb2ebae0a
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 3fb6b28b9e9e1b7581ef80d9830bce97f6a7070d
+ms.sourcegitcommit: 02fcd6686a2f7a59c0ad67430c2b85f809c1b662
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "64846640"
+ms.lasthandoff: 05/19/2022
+ms.locfileid: "65534378"
 ---
 # <a name="help-your-clients-and-customers-use-virtual-appointments"></a>協助客戶和客戶使用虛擬約會
 
@@ -66,7 +66,7 @@ Microsoft 支援內容的連結，其中包含加入虛擬約會的影片。<br>
 
 **虛擬約會的付款運作方式為何？**
 
-讓客戶知道您是否接受虛擬約會的不同付款類型。
+讓客戶知道您是否接受不同類型的虛擬約會付款。
 
 ### <a name="booking-an-appointment"></a>預約約會
 
@@ -113,6 +113,7 @@ Microsoft 支援內容的連結，其中包含加入虛擬約會的影片。<br>
 | [![金融服務資訊圖的影像](../media/vv-finserv-thumbnail.png)](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) | 適用于您的金融服務組織的可自訂資訊圖表 <br> [下載為 PDF](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pdf) <br> [下載為PowerPoint](//download.microsoft.com/download/8/5/7/85784cd8-6945-4fcc-a3c3-972bd88d3fef/VirtualVisit_Financial_Infographic.pptx)
 | [![零售資訊圖表的影像](../media/vv-retail-thumbnail.png)](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) | 適用于零售組織的可自訂資訊圖表 <br> [下載為 PDF](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pdf) <br> [下載為PowerPoint](//download.microsoft.com/download/a/b/5/ab5c07d9-cf7a-47b3-ba54-05a8a0a2a1bd/VirtualVisit_Retail_Infographic.pptx) |
 | [![醫療保健資訊圖的影像](../media/vv-healthcare-thumbnail.png)](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) | 您的醫療保健組織可自訂的資訊圖表 <br> [下載為 PDF](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pdf) <br> [下載為PowerPoint](//download.microsoft.com/download/4/d/3/4d3d9c53-0304-4aea-a56a-60a16402c58f/VirtualVisit_Healthcare_Infographic.pptx) |
+| [![非產業特定資訊圖表的影像。](../media/va-generic-thumb.png)](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) | 可自訂的資訊圖表，不適用於特定產業 <br> [下載為 PDF](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pdf) <br> [下載為PowerPoint](//download.microsoft.com/download/c/6/9/c69d3f29-a8f5-462b-a645-79119beab406/VirtualVisit_Generic_Infographic.pptx) |
 
 ### <a name="customize-your-infographic"></a>自訂您的資訊圖表
 
