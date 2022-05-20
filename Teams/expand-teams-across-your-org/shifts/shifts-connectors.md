@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 930f4b7a311acc7c34e60b7916071d10349c0313
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: a4759bc010367e6531a557e2a5ff951d1b613505
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64592888"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65598356"
 ---
 # <a name="shifts-connectors"></a>Shifts 連接器
 
@@ -30,7 +30,7 @@ Shifts 連接器可讓您將 Microsoft Teams 中的排程管理工具 Shifts 與
 
 將 WFM 系統連線至Teams可讓您的前線員工更有效率地管理排程，並簡化日常程式，提高參與度和生產力。 您的第一線工作人員有一個地方可以排程、通訊和共同作業，無論身在任何地方、在任何裝置上都需要完成工作。
 
-我們提供受管理且開放原始碼的 Shifts 連接器。 本文提供 Shifts 連接器及其運作方式的概觀。
+本文提供 Shifts 連接器及其運作方式的概觀。
 
 ## <a name="how-shifts-connectors-work"></a>Shifts 連接器的運作方式
 
@@ -115,17 +115,6 @@ Microsoft Teams的 Reflexis Shifts 連接器是由斑馬託管和管理。 使�
 - 在 Shifts 中要求休假、開啟班次，以及調班和丟班。
 
 若要深入瞭解，請移至 https://connect.zebra.com/microsoft-connectors 。
-
-## <a name="open-source-shifts-connectors"></a>開放原始檔 Shifts 連接器
-
-開放原始 Shifts 連接器是建置在[Shifts Graph API](/graph/api/resources/shift)上的社群導向整合。 下列開放原始碼連接器可供使用：
-
-- Kronos-to-Teams WFC 內部部署
-- 適用于 Blue Yonder 版本 2017 到 2020.2 的 JDA-to-Teams Shifts 連接器 () 
-
-每個連接器都隨附詳細的部署和設定指導方針。 其中包括 Azure Resource Manager (ARM) 部署腳本，可讓您在 Microsoft Azure 中託管所有必要的服務。 原始程式碼和部署腳本可在[GitHub存放庫](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)中下載。 您可以依需求進行部署或自訂或擴充。
-
-若要深入瞭解，請參閱 [生產就緒的 Shifts 連接器](/microsoftteams/platform/samples/shifts-wfm-connectors)。
 
 ## <a name="related-articles"></a>相關文章
 

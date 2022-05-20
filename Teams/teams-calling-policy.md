@@ -20,12 +20,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5097586825b231decd220a30bdde85bf258e27fc
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: 6a52b30e1ced457377d7dd1c820192cb856827ba
+ms.sourcegitcommit: 3b86e55787c34da76428d6915964ac4f3c6239fc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65313105"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65601593"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Teams中的通話和來電轉接
 
@@ -99,7 +99,7 @@ ms.locfileid: "65313105"
 
 此設定可讓使用者使用Teams Web 用戶端撥打 PSTN 號碼。
 
-### <a name="incoming-meeting-invites-are-automatically-answered"></a>自動回復傳入的會議邀請
+### <a name="automatically-answer-incoming-meeting-invites"></a>自動回答傳入的會議邀請
 
 此設定會控制是否自動回復傳入的會議邀請。 預設為關閉。 請記住，此設定僅適用于傳入的會議邀請。 不適用於其他類型的通話。
 
@@ -117,7 +117,7 @@ ms.locfileid: "65313105"
 
 ### <a name="call-recording-live-captions-and-transcription"></a>通話錄製、即時輔助字幕和轉譯
 
-這些設定可讓您控制使用者是否可使用通話錄製、即時輔助字幕和轉譯功能。
+這些設定可讓您控制使用者是否可以使用通話錄製、即時輔助字幕和轉譯功能。
 
 ## <a name="related-articles"></a>相關文章
 
