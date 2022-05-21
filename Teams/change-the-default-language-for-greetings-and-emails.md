@@ -3,7 +3,7 @@ title: 變更問候語和電子郵件的預設語言
 author: dstrome
 ms.author: dstrome
 manager: serdars
-ms.reviewer: wasseemh
+ms.reviewer: jenstr
 ms.topic: article
 ms.assetid: 820c3892-1b7e-47d3-ae8d-6e27e7cbcf38
 ms.tgt.pltfrm: cloud
@@ -22,61 +22,78 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: 瞭解如何設定Microsoft Teams商務用 Skype，以使用其他語言作為組織的預設語音信箱問候語。
-ms.openlocfilehash: 4c509edf6efa2fe660a59772f3266e6d49be8d31
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 瞭解如何設定Microsoft Teams和商務用 Skype為貴組織的預設語音信箱問候語使用其他語言。
+ms.openlocfilehash: 5e486e94470fd6303d132fdaa9c23b0ca6f65b98
+ms.sourcegitcommit: 4435ac0efcb95e4e5e1f21289e46761e79482ab5
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014417"
+ms.lasthandoff: 05/20/2022
+ms.locfileid: "65624087"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>變更問候語和電子郵件的預設語言
 
-如果您是[全域系統管理員，](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)您可以設定商務用 Skype以其他語言播放其預設語音信箱問候語。 預設系統問候語類似「請為 John Smith 留言」。 在鈴聲之後，請錄製您的訊息。 錄製完成後，請掛斷或按井號鍵以尋找更多選項。」
-  
- **首先，請閱讀這項重要資訊：**
-  
-- **可用的語言** 是由貴組織的位置所決定。 例如，如果您的組織位於美國，您可以將預設語言設定為英文或西班牙文。 如果貴組織位於加拿大，您可以選擇英文和法文。 如要瞭解 Teams 和 商務用 Skype 支援的語言清單，請參閱下列內容：
-  - [Microsoft Teams支援的語言](languages-for-voicemail-greetings-and-messages.md)
-  - [商務用 Skype支援的語言](/skypeforbusiness/what-is-phone-system-in-office-365/phone-system-voicemail/languages-for-voicemail-greetings-and-messages)
+雲端語音信箱使用各種語言設定來播放問候語、產生轉譯，以及產生語音信箱訊息。 根據預設，您可以在租使用者層級、原則或特定使用者上個別指定語言設定。
 
-- **變更個別使用者語音信箱問候語和語音信箱訊息的語言。** 您可以變更使用者偏好的語言，變更其語音信箱問候語和語音信箱訊息Outlook訊息。 詳細資訊，請參閱如何設定語言和地區設定Microsoft 365[或Office 365。](/office365/troubleshoot/access-management/set-language-and-region)
+## <a name="greetings"></a>問候
+問候語會播放給離開語音信箱的來電者，而且可以是下列類型：
 
-  > [!NOTE]
-  > 使用者可以在登錄後透過他們的設定來變更自己的問候語語言。 詳細資訊，請參閱變更商務用 Microsoft 365[顯示語言和時區](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
-  
-- **您想要錄製外發語音信箱訊息嗎？** 請參閱[檢查商務用 Skype和選項](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。 適用于Microsoft Teams - 使用者可以從桌面用戶端設定Teams[語音信箱設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+- 系統問候語
+- 使用者所錄製的自訂問候語
+- 在使用者上指定的自訂文字轉換語音問候語
 
-- **您想要變更語音信箱提示語言嗎？** 針對 商務用 Skype [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) - 並選擇提示語言 **下的新語言**。 適用于Microsoft Teams - 使用者可以從桌面用戶端設定Teams[語音信箱問候語](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)
+用來播放系統問候語的語言會依優先順序排列，例如指派給使用者的線上語音信箱原則中指定的主要和次要提示語言、為使用者指定的慣用語言，或預設的租使用者語言。
+
+自訂和不在辦公室問候語是由使用者以使用者選擇的語言錄製。
+
+如果使用者或租使用者系統管理員為使用者指定自訂文字轉換語音問候語，產生語音所用的語言就是與文字轉換語音問候語一起指定的 PromptLanguage。
+
+只有當使用者未錄製自訂問候語時，才會使用自訂文字轉換語音問候語。
+
+## <a name="transcription"></a>轉錄
+如果線上語音信箱原則為來電使用者啟用，雲端語音信箱會嘗試轉譯來電者留下的語音信箱。 它會使用語音偵測來瞭解音訊內容中使用的語言，並且盡可能使用偵測到的語言來轉譯內容。
+
+## <a name="transcription-translation"></a>轉譯轉譯
+如果線上語音信箱原則為來電使用者啟用，雲端語音信箱會翻譯轉譯的語音信箱。 它會依優先順序將語音偵測期間偵測到的語言翻譯成使用者所指定的慣用語言或預設的租使用者語言。
+
+## <a name="voicemail-message-template"></a>語音信箱訊息範本
+雲端語音信箱會根據使用者所指定的慣用語言或預設租使用者語言，以優先順序順序，使用語言範本產生語音信箱訊息。
+
+## <a name="setting-the-preferred-language-for-a-user"></a>設定使用者的慣用語言
+您可以在Azure Active Directory或內部部署的 Active Directory中為使用 PowerShell 的使用者設定慣用語言。 如需詳細資訊，請參閱[如何設定Microsoft 365或Office 365的語言和地區設定](/office365/troubleshoot/access-management/set-language-and-region)。
+
+使用者可以在登入之後，透過他們的設定來變更自己的慣用語言。 如需詳細資訊，請參閱[變更商務用 Microsoft 365 中的顯示語言和時區](https://support.office.com/article/change-your-display-language-and-time-zone-in-microsoft-365-for-business-6f238bff-5252-441e-b32b-655d5d85d15b?ui=en-US&rs=en-US&ad=US)
 
 ## <a name="change-the-system-language-for-everyone-in-your-organization"></a>變更貴組織中每個人的系統語言
 
-1. 使用全域系統管理員 [帳戶在](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) 中登錄 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home) 。
+1. 使用您的[全域系統管理員](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d)帳戶登入。 [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)
 
-2. 在 Microsoft 365 系統管理中心 中，選擇  >  **設定設定**  >  **設定檔**。
+2. 在 [Microsoft 365 系統管理中心] 中，選擇 **[設定**  >  **Org 設定組織**  >  **設定檔]**。
+3. 選擇 **[組織資訊]**。
+4. 從 [ **慣用語言** ] 清單中為組織中的每個人選取語言。
+5. 選擇 [ **儲存]**。
 
-     ![螢幕擷取畫面顯示設定選擇組織設定檔。](media/9d9de520-bb84-409f-9417-96bd8ec86c48.png)
+**您可用的語言取決於組織的位置**。 例如，如果您的組織位於美國，您可以將預設語言設定為英文或西班牙文。 如果您的組織位於加拿大，您可以選擇英文和法文。
+
+## <a name="supported-languages-in-cloud-voicemail"></a>雲端語音信箱支援的語言
+如需Microsoft Teams和商務用 Skype雲端語音信箱支援的語言清單，請參閱[雲端語音信箱支援的語言](languages-for-voicemail-greetings-and-messages.md)。
   
-3. 選擇 **編輯**。
 
-    ![顯示編輯選項的螢幕擷取畫面。](media/e4a0b09d-2b68-4bc8-a0d3-230939843ee2.png)
-  
-4. 從貴組織中每個人的 **偏好語言** 清單中選取語言。
+## <a name="custom-greeting-recorded-by-a-user"></a>使用者錄製的自訂問候語
+使用者可以錄製自己的自訂和不在辦公室自訂問候語。 請[參閱Teams桌面用戶端設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)和[檢查商務用 Skype語音信箱和選項](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8)。
 
-5. 選擇 **儲存**。
+## <a name="custom-text-to-speech-greeting-specified-for-a-user"></a>為使用者指定的自訂文字轉換語音問候語
+租使用者系統管理員可以使用 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) Cmdlet，為使用者指定自訂文字轉換語音問候語和提示語言。
 
-## <a name="related-articles-for-the-admin"></a>適用于系統管理員的相關文章
+## <a name="custom-text-to-speech-greeting-specified-by-a-user"></a>使用者指定的自訂文字轉換語音問候語
+使用者可以指定自己的自訂文字轉換語音問候語，以及用於問候語的語言。 針對Microsoft Teams - 使用者可以從Teams[桌面用戶端設定](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)變更他們的語音信箱問候語。 針對商務用 Skype ， [https://mysettings.lync.com/voicemail](https://mysettings.lync.com/voicemail) 然後在 [提示語言] 底下選擇新的 **語言**。 
 
-- [電話系統和通話方案](calling-plan-landing-page.md)
 
-- [設定通話方案](set-up-calling-plans.md)
+## <a name="related-articles"></a>相關文章
 
-- [在 電話系統中Microsoft 365或Office 365內部部署 PSTN 商務用 Skype Server](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
+[Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings)
 
-## <a name="related-topics"></a>相關主題
+[Get-CsOnlineVoicemailUserSettings](/powershell/module/skype/get-csonlinevoicemailusersettings)
 
-- [在商務用或商務用 Microsoft 365變更Office 365語言和時區](https://support.office.com/article/Change-your-display-language-and-time-zone-in-Office-365-for-Business-6f238bff-5252-441e-b32b-655d5d85d15b)
+[Set-CsOnlineVoicemailPolicy](/powershell/module/skype/set-csonlinevoicemailpolicy)
 
-- [在 2010 及Office新增語言或設定語言喜好設定) ](https://support.office.com/article/Add-a-language-or-set-language-preferences-in-Office-663d9d94-ca99-4a0d-973e-7c4a6b8a827d)
-
-- [啟用或變更鍵盤配置語言](https://support.office.com/article/Enable-or-change-a-keyboard-layout-language-1c2242c0-fe15-4bc3-99bc-535de6f4f258)
+[Get-CsOnlineVoicemailPolicy](/powershell/module/skype/get-csonlinevoicemailpolicy)
