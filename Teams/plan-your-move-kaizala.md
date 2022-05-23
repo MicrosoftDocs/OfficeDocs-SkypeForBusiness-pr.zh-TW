@@ -1,104 +1,109 @@
 ---
-title: 規劃成功從Kaizala移Microsoft Teams
-author: Benny-54
-ms.author: v-bshilpa
+title: 規劃成功從Kaizala移至Microsoft Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
 audience: admin
-ms.reviewer: null
-description: 本文將說明如何規劃成功從Kaizala轉換Microsoft Teams。
-f1.keywords: null
+ms.reviewer: ''
+description: 本文說明如何規劃從Kaizala成功轉換到Microsoft Teams。
+f1.keywords: ''
 ms.localizationpriority: medium
-search.appverid: null
-ms.collection: null
-ms.custom: null
+search.appverid: ''
+ms.collection: ''
+ms.custom: ''
+ms.openlocfilehash: 4416fa65f38ad3489d05312382cce55b4a21898f
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635391"
 ---
+# <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>規劃從Kaizala成功轉換到Microsoft Teams
 
-# <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>規劃成功從Kaizala轉換Microsoft Teams
+當您從Kaizala移至Microsoft Teams時，請務必花一些時間[規劃](/microsoftteams/deploy-enterprise-setup?tabs=ChatTeamsChannels#plan-your-deployment)一次成功的轉換。 穩固的轉換計畫可為您的移動提供結構，並確保所有專案關係人都正在努力達成共同的目標。 使用經驗證的架構來實作變更，可協助您立即開始轉換。
 
-當您從新Kaizala開始Microsoft Teams，您必須花時間規劃成功的轉場。[ ](/microsoftteams/deploy-enterprise-setup?tabs=ChatTeamsChannels#plan-your-deployment) 實心轉場計畫提供您移動的結構，並確保所有專案關係人都朝共同目標努力。 使用經過驗證的框架實做變更，可協助您開始進行今天轉場。
+## <a name="transition-framework"></a>轉換架構
 
-## <a name="transition-framework"></a>轉場架構
+![描繪轉場指導方針的影像](media/plan-for-successful-transition.png)
 
-![描述轉場指引的影像](media/plan-for-successful-transition.png)
-
-我們在下面概述成功轉場的建議方法，並鼓勵您按照階段順序進行，因為架構中的每個步驟都建立在先前的步驟上。
+我們已在下方概述成功轉換的建議方法，並鼓勵您按照順序遵循階段，因為架構中的每一個步驟都是在前一步建立的。
 
 - 為貴組織構想團隊合作
 
-- 識別支援者與重要專案關係人
+- 識別冠軍和重要專案關係人
 
 - 定義專案範圍
 
 - 試驗Microsoft Teams
 
-在開始使用之前，請確定：
+在開始之前，請確定：
 
-- [Teams，](/microsoftteams/get-clients)[且授權會指派到](/office365/servicedescriptions/teams-service-description)您的環境中。 至少應指派最低授權給核心小組，並指派給將參與此初始專案階段之早期採用者。
+- [Teams已安裝](/microsoftteams/get-clients)，並在您的環境中[指派授權](/office365/servicedescriptions/teams-service-description)。 至少應該將最低授權指派給核心小組以及參與此初始專案階段的早期採用者。
 
-- 您下載了桌面和行動應用程式。
+- 您已下載傳統型和行動裝置應用程式。
 
-### <a name="envision-teamwork-for-your-organization"></a>為貴組織構想團隊合作
+### <a name="envision-teamwork-for-your-organization"></a>為您的組織構想團隊合作
 
 ![描述其他轉場指引的影像](media/kaizala-framework-guidance.png)
 
-健康的技術環境、持續採用使用者，以及達成您的商業目標，都是從適當的規劃開始。 可靠的計畫會提供升級專案架構，並確保所有專案關係人都朝相同的目標努力。 請花一些時間列出目前使用Kaizala案例。 接下來，在現代化工作場所中，以Microsoft Teams。 若要開始定義使用案例[，請參閱定義](/microsoftteams/teams-adoption-define-usage-scenarios)Microsoft Teams。
+良好的技術環境、持續的使用者採用，以及業務目標的實現，都是從適當的規劃開始。 實心計畫可提供升級專案的架構，並確保所有專案關係人都努力達成相同的目標。 花一些時間列出目前使用Kaizala的案例。 接下來，在擁有Microsoft Teams的新式工作場所中，可想像上述及更現代化工作場所的使用情境。 若要開始定義使用案例，請參閱[定義Microsoft Teams的使用案例](/microsoftteams/teams-adoption-define-usage-scenarios)。
 
-### <a name="identify-champions-and-critical-stakeholders"></a>識別支援者與重要專案關係人
+### <a name="identify-champions-and-critical-stakeholders"></a>找出冠軍和重要專案關係人
 
-首先，將正確的專案關係人彙集在一起，並定義您的升級計畫。 適當的計畫應包含您的範圍、目標，以及明確的轉場時程表。 在已達成一致計畫後，請確認您的技術環境和使用者已準備好Teams。 找出對新技術有興趣的人，並協助其他人。 建立一 [個宣傳計畫](/microsoftteams/teams-adoption-create-champions-program) ，在轉場期間促進興奮、認知及採用。 我們已建立一個冠軍計劃指南，以在貴組織中啟動此計畫，若要深入瞭解，請參閱建立 [冠軍計畫](https://view.officeapps.live.com/op/view.aspx?src=https://fto365dev.blob.core.windows.net:443/media/Default/DocResources/Adoption/Build_Champions_Program_Guide.pptx)。
+首先，將正確的專案關係人整合在一起，並定義您的升級計畫。 適當的計畫應包含您的範圍、目標，以及明確的轉換時程表。 在已同意的方案中，確認您的技術環境和使用者已準備好進行Teams。 找出對新技術感興趣的人，並協助其他人。 建立 [冠軍計畫](/microsoftteams/teams-adoption-create-champions-program) ，推動整個轉換的興奮、意識和採用。 我們已建立冠軍計劃指南，以在您的組織中啟動此計畫，若要深入瞭解，請參閱 [建立冠軍計畫](https://view.officeapps.live.com/op/view.aspx?src=https://fto365dev.blob.core.windows.net:443/media/Default/DocResources/Adoption/Build_Champions_Program_Guide.pptx)。
 
 ### <a name="define-your-project-scope"></a>定義專案範圍
 
-當您規劃移至Microsoft Teams時，定義業務的成功外觀至關重要。  專案範圍會定義專案此時的焦點，並讓您的專案小組專注于目前的工作，以便您實現您的長期願景。
+當您規劃移至Microsoft Teams時，定義您的企業的成功外觀至關重要。  專案範圍可定義目前專案的焦點，並有助於讓專案小組專注于目前的任務，讓您能夠實現長期願景。
 
-若要深入瞭解我們定義結果和成功的建議策略，請參閱定義採用結果和成功[Microsoft Teams](/microsoftteams/teams-adoption-define-outcomes)。
+若要深入瞭解定義結果和成功的建議策略，請參閱[定義採用Microsoft Teams的成果和成功](/microsoftteams/teams-adoption-define-outcomes)。
 
 ### <a name="pilot-microsoft-teams"></a>試驗Microsoft Teams
 
-一旦定義專案範圍和願景之後，就該開始試驗Microsoft Teams。 找出早期採用者[的使用者群組](/microsoftteams/teams-adoption-onboard-early-adopters)，以參與與Teams。 進行試驗包括與使用者通訊、監控您的網路和使用狀況，以確保您的網路績效和通話品質維持健康、收集參與者的意見，以及檢閱技術支援中心票證，Teams。
+定義專案範圍和願景之後，就可以試驗Microsoft Teams。 找出[早期採用者的](/microsoftteams/teams-adoption-onboard-early-adopters)使用者群組，以參與Teams的初始實驗。 進行試驗包括與您的使用者通訊、監控您的網路和使用狀況，以確保您的網路效能和通話品質保持良好、收集參與者的意見反應，以及檢閱技術支援中心票證，以取得與Teams相關的問題。
 
-## <a name="prepare-your-organization"></a>準備您的組織
+## <a name="prepare-your-organization"></a>為您的組織做好準備
 
-遵循規劃成功從 Kaizala 轉換的建議架構之後，請為貴組織成功轉換Microsoft Teams。
+遵循建議的架構規劃從Kaizala成功轉換之後，為貴組織順利轉換Microsoft Teams做好準備。
 
 ### <a name="get-ready"></a>準備好
 
- 1. 請確保每個人都Teams授權。 請查看 [Teams 方案](/microsoft-teams/compare-microsoft-teams-options?rtc=1) 以及 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
+ 1. 確定每個人都有Teams授權。 請查看 [Teams 方案](/microsoft-teams/compare-microsoft-teams-options?rtc=1) 以及 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
 
- 2. 使用[Microsoft Teams採用](https://adoption.microsoft.com/microsoft-teams/#get-started)指南，以在Teams推出新計畫。
+ 2. 使用[Microsoft Teams採用](https://adoption.microsoft.com/microsoft-teams/#get-started)指導方針來在整個組織中推行Teams。
 
- 3. 讓系統管理員、領獎人及貴組織做好準備，透過技能及採用資源Teams與組織進行通訊。  
+ 3. 讓系統管理員、冠軍和您的組織準備好透過技能和採用資源與Teams進行溝通。  
 
- 4. 使用這些訓練資源，協助貴組織的使用者瞭解並充分利用Teams：
+ 4. 使用這些訓練資源來協助組織中的使用者學習並充分利用Teams：
 
-    - 有關 IT 系統管理員準備狀態，請參閱 [系統管理訓練資源](/microsoftteams/itadmin-readiness)。
+    - 如需 IT 管理員整備，請[參閱管理員訓練資源](/microsoftteams/itadmin-readiness)。
 
-    - 有關講師引導的訓練，請參閱講師[指導的 Microsoft Teams](/microsoftteams/instructor-led-training-teams-landing-page)。
+    - 如需講師帶領的訓練，請參閱[由講師帶領的訓練Microsoft Teams](/microsoftteams/instructor-led-training-teams-landing-page)。
   
-    - 有關訓練影片，請參閱[Microsoft Teams影片訓練](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-us&rs=en-us&ad=us)。
+    - 如需訓練影片，[請參閱Microsoft Teams影片訓練](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?ui=en-us&rs=en-us&ad=us)。
 
-## <a name="champion-microsoft-teams-adoption"></a>支援Microsoft Teams採用
+## <a name="champion-microsoft-teams-adoption"></a>冠軍Microsoft Teams採用
 
-通過[推動採用Microsoft Teams](/microsoftteams/teams-adoption-get-started)，您可以提供絕佳的使用者體驗，並提升公司內部的商業價值。
+藉由[推動採用](/microsoftteams/teams-adoption-get-started)Microsoft Teams，您可以在公司內提供絕佳的使用者體驗和提升的業務價值。
 
-在整個Teams推出期間，請務必利用這些資源，提供推動採用Teams[](/microsoftteams/adopt-microsoft-teams-landing-page)指南。
+在整個Teams推行期間，請務必利用[這些](/microsoftteams/adopt-microsoft-teams-landing-page)資源，並提供推動Teams採用的指導方針。
 
-透過對系統管理員和Teams的訓練，強化您有關組織使用和推動使用方式的知識。 有關訓練資源，請參閱Microsoft Teams[訓練](/microsoftteams/training-microsoft-teams-landing-page)。
+透過系統管理員和使用者訓練，強化您對於組織中Teams和推動使用方式的知識。 如需訓練資源，[請參閱Microsoft Teams訓練](/microsoftteams/training-microsoft-teams-landing-page)。
 
-如果貴組織想要自訂體驗，以配合您的使用和採用計畫，[請參閱](https://adoption.microsoft.com/microsoft-365-learning-pathways/)這裡以深入瞭解Microsoft 365學習路徑的點播訓練解決方案。
+如果您的組織想要有可自訂的體驗來配合您的使用方式和採用計畫，請參閱這裡以深入瞭解[Microsoft 365學習路徑](https://adoption.microsoft.com/microsoft-365-learning-pathways/)的隨選訓練解決方案。
 
-若要隨時瞭解 Teams 以及貴組織中所有其他 Microsoft 365 或 Office 365 產品與服務的資訊，請務必查看訊息中心及 Teams[藍圖。](https://www.microsoft.com/microsoft-365/roadmap?rtc=2&filters=Microsoft%20Teams) [ ](https://admin.microsoft.com/AdminPortal/Home?ref=/MessageCenter) 您會收到有關新功能和更新功能、計劃的變更和問題的公告，以協助您了解並做好準備。
+若要隨時掌握Teams以及貴組織中所有其他Microsoft 365或Office 365產品與服務的新功能，請務必檢查[訊息](https://admin.microsoft.com/AdminPortal/Home?ref=/MessageCenter)中心和[Teams藍圖](https://www.microsoft.com/microsoft-365/roadmap?rtc=2&filters=Microsoft%20Teams)。 您會收到有關新功能和更新功能、計劃的變更和問題的公告，以協助您了解並做好準備。
 
 ## <a name="additional-resources"></a>其他資源
 
-讓所有人聚在一起、讓交談有效進行、與員工聯繫，以及使用Microsoft Teams。 Teams能輕鬆與前線員工、成員、客戶和轉銷商聯繫及協調。
+讓每個人聚在一起、有效進行交談、與員工聯繫，以及使用Microsoft Teams數位化日常工作。 Teams可讓您輕鬆地與前線員工、成員、客戶和代理商聯繫及協調。
 
-針對其他資源，我們已針對系統管理員和 IT 專業人員Microsoft Teams[](/microsoftteams/)文件庫。 使用檔確保貴組織在從公司到Kaizala Microsoft Teams。
+如需其他資源，我們已編譯適用于系統管理員和 IT 專業人員[的Microsoft Teams檔庫](/microsoftteams/)。 使用檔以確保您的組織在從Kaizala到Microsoft Teams的旅程中做好準備。
 
 ## <a name="next-steps"></a>後續步驟
 
 <a name="ControlSyncThroughput"> </a>
 
-[從 Microsoft Teams 流覽Kaizala](/MicrosoftTeams/navigate-teams)
+[從 Kaizala 流覽Microsoft Teams](/MicrosoftTeams/navigate-teams)

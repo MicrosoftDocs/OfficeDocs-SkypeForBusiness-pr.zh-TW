@@ -1,7 +1,7 @@
 ---
 title: 流覽Microsoft Teams
-author: Benny-54
-ms.author: v-bshilpa
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 5c87bca0eacfdc85ca39d997488a97faedaf0824
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 9bf52e68f8db5ecacfb4683b0a4809437a860d77
+ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922674"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65635241"
 ---
 # <a name="navigate-microsoft-teams"></a>流覽Microsoft Teams
 
-現在，您已清楚瞭解貴組織的獨特路徑和需求，就可以開始與Microsoft Teams進行強大的共同作業。 請使用下列章節來瞭解如何在Teams中流覽卡齊拉的功能。
+現在，您已清楚瞭解貴組織的獨特路徑和需求，就可以開始與Microsoft Teams進行強大的共同作業。 請使用下節來瞭解如何在Teams中流覽Kaizala功能。
 
 | 從 Kaizala | 若要Teams |
 |---------|-----------------------|
@@ -42,7 +42,7 @@ ms.locfileid: "64922674"
 | | [適用于使用者](#end-user-guidance) |
 | Kaizala群組作業| [Kaizala群組作業](#kaizala-group-dissolution) |
 | Kaizala租使用者資料匯出]| [匯出Kaizala租使用者資料](#export-kaizala-tenant-data)  |
-| 與外部使用者共同作業 (廠商/供應商/合作夥伴) | [將Teams用於工作與Teams，個人使用互通性](#collaborating-with-external-usersvendorssupplierspartners) |
+| 與外部使用者共同作業 (廠商/供應商/合作夥伴) | [新增或邀請Teams組織外部的人員加入聊天](#collaborating-with-external-usersvendorssupplierspartners) |
 
 ## <a name="getting-started"></a>消費者入門
 
@@ -185,6 +185,7 @@ Teams由 **頻道** 組成，頻道是您與小組成員所進行的主題特定
 - 輸入標題、變更其背景色彩，或為標題區域新增背景影像。
 
 - 在 [新增子標題] 區域中輸入公告的主旨，然後輸入郵件內文，然後選取 [傳送] 按鈕。
+
     ![行動裝置公告](media/kaizala-to-teams-image10.png)
 
 **步驟 3**：選取訊息廣播的頻道。
@@ -202,21 +203,21 @@ Microsoft Teams在 Kaizala 中提供多種「隨選即用」動作卡片的功�
 
 ![使用Teams與您的人員互動](media/kaizala-to-teams-image12.png)
 
-Teams平臺可讓您透過整合至Microsoft Teams，以及現成的Microsoft 365應用程式和協力廠商應用程式，來使用現有的組織工具。 Microsoft Teams現在有超過 300 個外部應用程式可供使用。
+Teams平臺可讓您透過整合至Microsoft Teams，以及現成的Microsoft 365應用程式和協力廠商應用程式，來使用現有的組織工具。 Microsoft Teams現在有超過 800 個外部應用程式可供使用。
 
 ### <a name="polls-surveys-and-checklists-in-teams"></a>Teams中的投票、問卷和檢查清單
 
 [投票](https://github.com/OfficeDev/microsoft-teams-apps-poll/wiki)、[問卷](https://github.com/OfficeDev/microsoft-teams-apps-survey)和[檢查清單](https://github.com/OfficeDev/microsoft-teams-app-checklist)動作卡現在已可在 GitHub 上安裝[Teams訊息擴充](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)功能應用程式範本。
 
-**投票** 可讓使用者在聊天或頻道中快速建立及傳送投票，以瞭解其小組的意見。 投票應用程式支援所有平臺，Teams桌上型電腦、瀏覽器、iOS 和 Android 用戶端。 它已準備好做為現有Microsoft 365訂閱的一部分進行部署
+**投票** 可讓使用者在聊天或頻道中快速建立及傳送投票，以瞭解其小組的意見。 投票應用程式支援所有平臺，Teams桌面、瀏覽器、iOS和Android用戶端。 它已準備好做為現有Microsoft 365訂閱的一部分進行部署
 
 ![Teams 中的投票應用程式範本](media/polltemplatecompose.gif)
 
-**問卷** 可讓使用者在聊天或頻道中建立問卷，以詢問一系列問題並取得可採取動作的深入解析。 使用問卷調查：註冊、註冊、意見反應、見證、潛在客戶擷取、報告、抱怨和評估。 問卷應用程式支援所有平臺，Teams桌上型電腦、瀏覽器、iOS 和 Android 用戶端。 它已準備好做為現有Microsoft 365訂閱的一部分進行部署。
+**問卷** 可讓使用者在聊天或頻道中建立問卷，以詢問一系列問題並取得可採取動作的深入解析。 使用問卷調查：註冊、註冊、意見反應、見證、潛在客戶擷取、報告、抱怨和評估。 問卷應用程式支援所有平臺，包括桌面Teams、瀏覽器、iOS和Android用戶端。 它已準備好做為現有Microsoft 365訂閱的一部分進行部署。
 
 ![在 Teams 中問卷應用程式範本](media/surveytemplatecompose.gif)
 
-**檢查清單** 可讓您透過在聊天或頻道中建立共用檢查清單，與您的小組共同作業。 所有平臺都支援檢查清單應用程式，Teams桌上型電腦、瀏覽器、iOS 和 Android 用戶端。 它已準備好做為現有Microsoft 365訂閱的一部分進行部署。
+**檢查清單** 可讓您透過在聊天或頻道中建立共用檢查清單，與您的小組共同作業。 所有平臺都支援檢查清單應用程式，Teams桌面、瀏覽器、iOS和Android用戶端。 它已準備好做為現有Microsoft 365訂閱的一部分進行部署。
 
 ![Teams 中的檢查清單應用程式範本](media/checklisttemplatecompose.gif)
 
@@ -242,13 +243,13 @@ Teams平臺可讓您透過整合至Microsoft Teams，以及現成的Microsoft 36
 
 ### <a name="photo-check-ins"></a>相片簽入
 
-使用Teams智慧相機來擷取並與您的小組分享標注的影像。 精確地輕鬆分享您的位置，讓您的小組掌握最新資訊。 需要有更多資訊，以傳達Kaizala功能如何對應至Teams。 絕對會有投影片組中盡可能多的資訊到檔中。
+使用Teams智慧相機來擷取並與您的小組共用注釋影像。 精確地輕鬆分享您的位置，讓您的小組掌握最新資訊。 需要有更多資訊，以傳達Kaizala功能如何對應至Teams。 絕對會有投影片組中盡可能多的資訊到檔中。
 
 [使用 [教職員簽](/microsoftteams/platform/samples/app-templates#staff-check-ins)到] 應用程式範本，讓前線員工直接從Teams，以排程或臨機操作的方式輕鬆提供時間關鍵資訊和狀態更新。 應用程式支援即時位置、相片、筆記、提醒通知和自動化工作流程。
 
 ### <a name="quiz-in-teams"></a>Teams 中的測驗
 
-測驗是自訂[Teams訊息擴充功能](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)，可讓您在聊天或頻道中建立測驗，以進行知識檢查和即時結果。 您可以使用測驗進行課程和離線測驗、小組內的知識檢查，以及團隊內有趣的測驗。 測驗應用程式支援跨多個平臺，例如Teams桌上出版、瀏覽器、iOS 和 Android 用戶端。 此應用程式已準備好做為現有Microsoft 365訂閱的一部分來部署。
+測驗是自訂[Teams訊息擴充功能](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)，可讓您在聊天或頻道中建立測驗，以進行知識檢查和即時結果。 您可以使用測驗進行課程和離線測驗、小組內的知識檢查，以及團隊內有趣的測驗。 測驗應用程式支援跨多個平臺，例如Teams桌面、瀏覽器、iOS和Android用戶端。 此應用程式已準備好做為現有Microsoft 365訂閱的一部分來部署。
 
 [在 GitHub 上取得](https://github.com/OfficeDev/microsoft-teams-apps-quiz)
 
@@ -258,7 +259,7 @@ Teams平臺可讓您透過整合至Microsoft Teams，以及現成的Microsoft 36
 
 [使用 [教職員檢查](/microsoftteams/platform/samples/app-templates#staff-check-ins)] 應用程式範本，讓前線員工能夠直接從Teams直接在排程或臨機操作中輕鬆提供時間關鍵資訊和狀態更新。 應用程式支援即時位置、相片、筆記、提醒通知和自動化工作流程。
 
-使用Teams讓貴組織輕鬆進行訓練。 訓練是自訂[Teams訊息延伸](/microsoftteams/platform/what-are-messaging-extensions)應用程式，可讓使用者在聊天或頻道中發佈訓練，以便離線知識分享和更新。 應用程式支援跨多個Teams平臺用戶端，例如桌上型電腦、瀏覽器、iOS 和 Android。 此應用程式已準備好做為您Microsoft 365訂閱的一部分來部署。
+使用Teams讓貴組織輕鬆進行訓練。 訓練是自訂[Teams訊息延伸](/microsoftteams/platform/what-are-messaging-extensions)應用程式，可讓使用者在聊天或頻道中發佈訓練，以便離線知識分享和更新。 應用程式支援跨多個Teams平臺用戶端，例如桌上型電腦、瀏覽器、iOS和Android。 此應用程式已準備好做為您Microsoft 365訂閱的一部分來部署。
 
 [在 GitHub 上取得](https://github.com/OfficeDev/microsoft-teams-apps-training)
 
@@ -282,29 +283,29 @@ Teams平臺可讓您透過整合至Microsoft Teams，以及現成的Microsoft 36
 
 3. 根據使用頻率和複雜度，探索下列方法。
 
-    - 使用[原生Microsoft Teams功能](/microsoftteams/platform/concepts/capabilities-overview)探索因應措施
+    - 運用原生Microsoft Teams功能
 
-    - 使用 [3P 應用程式整合](deploy-apps-microsoft-teams-landing-page.md)
+    - 使用 [協力廠商應用程式整合和探索 App Store](deploy-apps-microsoft-teams-landing-page.md)
 
     - 探索 [應用程式範本](/microsoftteams/platform/samples/app-templates)
 
-    - 建立 [自訂解決方案開發](/microsoftteams/platform/overview)
+    - [使用 Teams 平臺建立自訂應用程式](/microsoftteams/platform/overview)
 
 ## <a name="management-in-microsoft-teams"></a>Microsoft Teams中的管理
 
 ### <a name="it-professionals"></a>IT 專業人員
 
-從Kaizala管理入口網站進行系統管理轉換，Microsoft Teams系統管理中心。 Teams系統管理中心主要僅供系統管理員角色使用。
+從Kaizala管理入口網站進行系統管理轉換到Microsoft Teams 管理員中心。 Teams系統管理中心主要僅供系統管理員角色使用。
 
 系統管理員可以管理整個Teams工作負載，也可以擁有針對通話品質問題進行疑難排解或管理貴組織電話語音需求的委派許可權。
 
-若要流覽系統管理中心，請[流覽Microsoft Teams系統管理中心。](https://admin.teams.microsoft.com/)
+若要流覽系統管理中心，請[流覽Microsoft Teams 管理員中心。](https://admin.teams.microsoft.com/)
 
-您可以使用[Microsoft Purview 合規性入口](/microsoft-365/compliance/microsoft-365-compliance-center)網站和[Microsoft 資訊安全中心](/microsoft-365/security/defender/overview-security-center)，監控貴組織在Microsoft 365的安全性與合規性。
+您可以透過Microsoft Purview 合規性入口網站和[Microsoft 資訊安全中心](/microsoft-365/security/defender/overview-security-center)監控貴組織在Microsoft 365的安全[性與合規](/microsoft-365/compliance/microsoft-365-compliance-center)性。
 
 您可以在[Azure Active Directory系統管理中心](https://aad.portal.azure.com/#@microsoft.onmicrosoft.com/dashboard/private/c7736064-7b28-4f3d-b366-2740a8d48020)檢閱群組、身分識別、授權和跨Microsoft 365存取權，以保護您的業務並增強使用者的能力。
 
-## <a name="kaizala-management-portal-to-teams-admin-center"></a>Kaizala 管理入口網站Teams系統管理中心
+## <a name="kaizala-management-portal-to-teams-admin-center"></a>Kaizala 管理入口網站Teams 管理員中心
 
 ### <a name="end-user-guidance"></a>使用者指引
 
@@ -315,12 +316,12 @@ Teams平臺可讓您透過整合至Microsoft Teams，以及現成的Microsoft 36
 | 建立 (連線到組織的群組)  | 透過傳統型或行動應用程式 **建立團隊** |
 | 大量新增使用者 | 若要將大量使用者新增至團隊，請考慮透過 O365 群組、O365 DLS 或安全性群組建立團隊 |
 | 目錄 | 透過團隊中的 **搜尋列搜尋** 組織中的任何人。 搜尋結果也會傳回檔案、訊息和文章 |
-| 分析 (動作卡片)  | **含有** 可下載資料的報表內建投票 **、問卷和** 檢查清單 **。您也可以在Tasksin planner的協助下指派工作****。其他協力廠商應用程式，例如** Trello **、** Wrike** 也可以在 Microsoft Teams 中輕鬆使用 |
+| 分析 (動作卡片)  | **投票**、 **問卷** 和 **檢查清單** 已內建含有可下載資料的報告。 您也可以在Teams中的工作應用程式的協助下指派工作，供使用者使用。 如需更多案例，您也可以探索 **Trello**、**Asana** 等協力廠商應用程式，以供Teams使用。 |
 | 擴充功能 – 連接器 | 針對任何需要連接器的頻道，請使用功能表 (...) 的 [ **連接器** ] 選項。 |
-| 分析 (使用方式) 採用報告、使用方式報告、活動報告 | 團隊擁有者可以流覽功能表 (...) 來 **管理團隊**  >  **分析**，以存取團隊的報告。 |
+| [分析 (使用方式) 採用報告](teams-analytics-and-reports/view-analytics.md)、 [使用方式報告](teams-analytics-and-reports/teams-usage-report.md)、 [活動報告](teams-analytics-and-reports/user-activity-report.md) | 團隊擁有者可以流覽功能表 (...) 來 **管理團隊**  >  **分析**，以存取團隊的報告。 |
 
 > [!NOTE]
-> Teams使用者可以在桌面或行動裝置上使用Teams來管理個別團隊和頻道，而且不需要存取Teams系統管理中心。
+> Teams使用者可以在桌上型電腦或行動裝置上使用Teams來管理個別團隊和頻道，而且不需要存取Teams 管理員中心。
 
 ## <a name="kaizala-group-dissolution"></a>Kaizala群組作業
 
@@ -415,20 +416,27 @@ Teams平臺可讓您透過整合至Microsoft Teams，以及現成的Microsoft 36
 
 ## <a name="collaborating-with-external-usersvendorssupplierspartners"></a>與外部使用者共同作業 (廠商/供應商/合作夥伴) 
 
-與廠商、供應商、合作夥伴及其他外部使用者共同作業比以往更容易Microsoft Teams。 透過Teams，使用者能夠使用電話號碼新增外部使用者。 Microsoft Teams Connect支援此功能。 組織內的使用者可以使用Teams工作與Teams來與外部使用者通訊，以利個人帳戶的互通性。 Teams中的外部使用者共同作業也可以使用個人或官方電子郵件來賓存取來完成。 Teams支援跨團隊和頻道的跨張貼公告。 例如：您的供應商和供應商可以將公告傳送給彼此Teams頻道或團隊。 請流覽[傳送公告至頻道](https://support.microsoft.com/office/send-an-announcement-to-a-channel-8f244ea6-235a-4dcc-9143-9c5b801b4992)，以深入瞭解我們在 Teams 中支援哪些專案。
+Microsoft Teams提供與外部方共同作業的安全解決方案，而透過Microsoft Teams Connect，我們更輕鬆地與組織外部的任何人合作。 Teams能讓商業使用者與外部商業使用者聊天，也就是其他組織中的商業使用者。 以此許可權為基礎，我們可讓您與組織外部的小組成員聊天，即使他們使用Teams個人帳戶。 這些帳戶經常由 SMB 使用，因此這項新功能可協助您加強與外部合作夥伴的關係。
 
-## <a name="what-is-external-access-in-teams"></a>Teams中的外部存取是什麼？
+如[前所述](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-ignite-fall-2021-innovations-coming-to-microsoft-teams/ba-p/2824127)，您可以輸入您要連絡的完整電子郵件地址或電話號碼，邀請任何Teams使用者聊天，並與擁有 Microsoft 個人帳戶的任何人開始一對一或群組聊天，而不需要切換租使用者。
 
-外部存取是一種讓整個外部網域的 Teams 使用者可以在 Teams 中尋找、通話、聊天以及與您進行會議的方式。 若要深入瞭解管理外部存取，請造訪 [管理外部存取](/microsoftteams/manage-external-access)。
+不需要切換租使用者即可與外部使用者交談，可讓您更快取得所需的結果。 讓我們仔細瞭解它的運作方式。
 
-## <a name="what-is-guest-access-in-teams"></a>Teams 中的來賓存取是什麼？
+根據貴組織的系統管理設定以及Teams個人帳戶使用者，您可以開始與外部Teams個人帳戶使用者進行交談，而外部Teams個人帳戶使用者可以開始與工作使用者Teams交談。
 
-有了 [來賓存取權](/MicrosoftTeams/guest-access)，您就可以將團隊、頻道中的檔、資源、聊天和應用程式的存取權提供給組織外部的人員，同時維持對公司資料的控制權。 在 Teams 中新增來賓不需要額外的授權。
+Teams由組織管理的使用者可以輸入完整的電子郵件地址或電話號碼，邀請Teams要與其聊天的個人帳戶使用者。 Teams個人使用者可以輸入他們要連絡之使用者的確切組織電子郵件地址，並嘗試開始聊天。
 
-## <a name="who-can-be-a-guest-in-teams"></a>神秘可以是Teams中的來賓嗎？
+如果您要聊天的人員尚未Teams使用者，他們會收到一封電子郵件或簡訊，邀請他們使用個人帳戶加入交談。 當他們註冊並登入其Teams個人帳戶時，就可以加入聊天。
 
-來賓是指非您組織員工或成員的人。 他們在貴組織中沒有公司帳戶。 例如，來賓可能包括有合作夥伴、廠商、供應商或顧問。
-任何不屬於您組織的人員都可以[在 Teams 中新增為來賓](/MicrosoftTeams/guest-access#how-a-guest-becomes-a-member-of-a-team)。 這表示擁有商務帳戶 (的任何人，例如 outlook.com、gmail.com (的Azure Active Directory帳戶) 或消費者電子郵件帳戶，因此) 可以以訪客身分參與Teams，並擁有團隊和頻道體驗的存取權。
+一旦您邀請的人員接受邀請，您就可以開始新的一對一或群組聊天，或甚至將他們新增到現有的外部群組聊天。 此聊天討論串會與其他聊天一起顯示，而不需要切換以檢視聊天的租使用者。
+
+做為聊天的一部分，您可以傳送和接收豐富的訊息、GIF 和媒體來表達自己。
+
+您可以選擇只保留在您想要加入的交談中。 您可以封鎖來自外部使用者的訊息，或離開群組聊天。
+
+Teams由組織管理的使用者以及Teams個人帳戶使用者可以選擇拒絕外部邀請。 一個使用者最多可以在接受前傳送 10 次訊息給外部使用者，但如果 10 封郵件之後無法接受，您將無法傳送其他訊息給此使用者。
+
+檢視[支援頁面](https://support.microsoft.com/en-us/office/add-or-invite-people-outside-your-teams-org-to-a-chat-6897ab47-9f60-4db6-8b95-18599714fe57)並閱讀[部落](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-users-can-now-chat-with-any-teams-user-outside/ba-p/3070832)格，以深入瞭解Teams如何讓您在受信任Teams工作區的安全性與安全性範圍內，與外部客戶和合作夥伴順暢地共同作業。
 
 ## <a name="next-steps"></a>後續步驟
 
