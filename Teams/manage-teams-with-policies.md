@@ -1,13 +1,13 @@
 ---
-title: 使用Teams管理
-author: karlistites
-ms.author: kastites
+title: 使用原則管理Teams
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: 瞭解Teams政策。
+description: 深入瞭解Teams原則。
 audience: admin
 ms.localizationpriority: medium
 MS.collection:
@@ -15,63 +15,63 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a08e48a37b90a7d8a99053d01a844c3451314e00
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 932fed6b2a735aabee0511b6f1c6b863e01e403c
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605589"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646482"
 ---
-# <a name="manage-teams-with-policies"></a>使用Teams管理
+# <a name="manage-teams-with-policies"></a>使用原則管理Teams
 
-策略是管理系統管理的重要Teams。 使用本文流覽如何使用策略來為貴組織帶來好處。
+原則是管理Teams的重要部分。 使用本文流覽如何使用原則來使貴組織受益。
 
-## <a name="what-you-use-policies-for"></a>您用於策略的
+## <a name="what-you-use-policies-for"></a>您使用原則的內容
 
-策略是用來在貴組織中完成跨不同領域的許多工作，例如訊息、會議和應用程式。 您可以執行一些操作，包括允許使用者在團隊頻道中排程會議、讓使用者編輯已送出的郵件，以及控制使用者是否可以將應用程式釘Teams應用程式欄。
+原則可用來完成貴組織中許多不同領域的工作，例如傳訊、會議和應用程式。 您可以執行的一些動作包括允許使用者在團隊頻道中排程會議、讓使用者編輯已傳送的訊息，以及控制使用者是否可以將應用程式釘選到Teams應用程式行。
 
-## <a name="how-to-assign-policies"></a>如何指派策略
+## <a name="how-to-assign-policies"></a>如何指派原則
 
-您可以根據貴組織嘗試完成的工作，以多種方式指派策略。 您可以在系統管理中心進行Teams作業。
+您可以根據貴組織嘗試完成的工作，以數種不同的方式指派原則。 您可以在系統管理中心Teams作業並檢視作業。
 
-![群群組原則作業的螢幕擷取畫面。](media/group-policy-assignment.png)
+![群組原則指派的螢幕擷取畫面。](media/group-policy-assignment.png)
 
-深入瞭解如何在這裡指派 [策略](policy-assignment-overview.md)。
+在這裡深入瞭解指[派原則。](policy-assignment-overview.md)
 
 ## <a name="how-to-manage-policies"></a>如何管理原則
 
-使用系統管理中心Microsoft Teams使用[PowerShell 管理原則](./teams-powershell-managing-teams.md#manage-policies-via-powershell)。
+原則是透過Microsoft Teams系統管理中心或[使用 PowerShell 來管理](./teams-powershell-managing-teams.md#manage-policies-via-powershell)。
 
-例如，應用程式設定策略可允許使用者上傳自訂應用程式、代表使用者安裝應用程式，以及將應用程式釘Teams應用程式欄。 這些策略在系統管理中心Teams中。
+例如，應用程式設定原則可以讓使用者上傳自訂應用程式、代表您的使用者安裝應用程式，以及將應用程式釘選到Teams應用程式行。 這些原則是在系統管理中心Teams設定的。
 
-![應用程式設定策略的螢幕擷取畫面。](media/app-setup-policy.png)
+![應用程式設定原則的螢幕擷取畫面。](media/app-setup-policy.png)
 
-此外，會議策略可用來控制會議中的音訊和視Teams設定，例如文字翻譯、雲端錄製和 IP 音訊/視像。
+此外，會議原則可用來控制Teams會議中的音訊和視訊設定，例如轉譯、雲端錄製和 IP 音訊/視訊。
 
-![會議策略的螢幕擷取畫面。](media/engineering-meeting-policy.png)
+![會議原則的螢幕擷取畫面。](media/engineering-meeting-policy.png)
 
 ### <a name="teams-for-education"></a>適用於教育的 Teams
 
-您也可以使用Teams 教育版精靈，[](easy-policy-setup-edu.md)輕鬆設定和管理學習環境的政策。
+您也可以使用[Teams 教育版原則精](easy-policy-setup-edu.md)靈，輕鬆設定和管理學習環境的原則。
 
-![系統Teams 教育版精靈的螢幕擷取畫面。](media/easy-policy-setup-quick-setup.png)
+![Teams 教育版原則精靈的螢幕擷取畫面。](media/easy-policy-setup-quick-setup.png)
 
-## <a name="types-of-policies"></a>政策類型
+## <a name="types-of-policies"></a>原則類型
 
-下列政策可以使用 Microsoft Teams。
+您可以使用Microsoft Teams來管理下列原則。
 
-策略類型 | 描述
+原則類型 | 描述
 ------------|------------
-[策略套件](manage-policy-packages.md) | 其中一個Microsoft Teams套件是一組預先定義的策略和設定，您可以指派給組織中具有類似角色的使用者。
-[會議原則](meeting-policies-overview.md) | 會議策略是用來控制貴組織中使用者排程會議之會議參與者可用的功能。 會議政策包含下列主題。<br> - 音訊和視音訊政策<br> - 內容和螢幕畫面共用政策<br> - 參與者、來賓和存取政策<br> - 一般政策
-[語音和通話政策](voice-and-calling-policies.md)| 語音和通話政策會透過團隊管理這些設定，例如緊急通話、呼叫路由和本機號碼。
-[應用程式政策](app-policies.md)| 應用程式策略用於控制應用程式Microsoft Teams。 系統管理員可以允許或封鎖使用者可以安裝的應用程式、將應用程式釘Teams使用者的應用程式欄，以及代表使用者安裝應用程式。
-[訊息原則](messaging-policies-in-teams.md)| 訊息策略可控制聊天和頻道功能的可用性。
+[原則套件](manage-policy-packages.md) | Microsoft Teams中的原則套件是一組預先定義的原則和設定，您可以指派給組織中具有類似角色的使用者。
+[會議原則](meeting-policies-overview.md) | 會議原則可用來控制組織中使用者排程之會議的會議參與者可用的功能。 會議原則包括下列主題。<br> - 音訊和視訊原則<br> - 內容和螢幕共用原則<br> - 參與者、來賓和存取原則<br> - 一般原則
+[語音和通話原則](voice-and-calling-policies.md)| 語音和通話原則會透過小組管理這些設定，例如緊急通話、通話路由和來電者識別碼。
+[應用程式原則](app-policies.md)| 應用程式原則是用來控制Microsoft Teams中的應用程式。 系統管理員可以允許或封鎖哪些應用程式使用者可以安裝、將應用程式釘選到使用者的Teams應用程式行，以及代表您的使用者安裝應用程式。
+[訊息原則](messaging-policies-in-teams.md)| 訊息原則可控制聊天和頻道功能的可用性。
 
 ## <a name="related-topics"></a>相關主題
 
-* [在 Teams 中指派Teams - 開始使用](policy-assignment-overview.md)
-* [管理意見Microsoft Teams](manage-feedback-policies-in-teams.md)
-* [管理團隊Microsoft Teams](teams-policies.md)
+* [在 Teams 中指派原則 - 快速入門](policy-assignment-overview.md)
+* [在 Microsoft Teams 中管理意見反應原則](manage-feedback-policies-in-teams.md)
+* [在 Microsoft Teams 中管理團隊原則](teams-policies.md)
 * [在 Microsoft Teams 中設定即時活動](teams-live-events/set-up-for-teams-live-events.md)
-* [Teams 教育版策略與政策套件](policy-packages-edu.md)
+* [Teams 教育版原則和原則套件](policy-packages-edu.md)

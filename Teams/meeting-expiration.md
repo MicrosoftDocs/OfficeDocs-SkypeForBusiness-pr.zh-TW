@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 中的會議原則和會議到期日
-author: KarliStites
-ms.author: kastites
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 瞭解如何在 Microsoft Teams 中使用會議原則設定來控制會議到期日。
-ms.openlocfilehash: 74b47d296b06d2ef9462dfafec136a99ebff0a34
-ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.openlocfilehash: 014989cd2fda0ce28ef96ee53c82908f814ee8c7
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65442019"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646212"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Microsoft Teams 中的會議原則和會議到期日
 
@@ -112,7 +112,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 您可以在會議原則下Teams系統管理中心設定到期日 **。** 開啟 **[會議] 自動過期後，** 您可以選擇設定錄製到期日。
 
-![系統管理中心會議到期原則的螢幕擷取畫面。](media/meeting-expiration-policy.jpg)
+![管理員會議到期原則的中央螢幕擷取畫面。](media/meeting-expiration-policy.jpg)
 
 ### <a name="security-and-compliance"></a>安全性與合規性
 

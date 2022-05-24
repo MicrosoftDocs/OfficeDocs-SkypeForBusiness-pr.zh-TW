@@ -1,7 +1,7 @@
 ---
-title: 管理錄製和抄寫的會議政策
-author: KarliStites
-ms.author: kastites
+title: 記錄管理和轉譯的會議原則
+author: mkbond007
+ms.author: mabond
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,33 +17,33 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
-description: 瞭解如何在錄製和Teams中管理會議策略設定。
-ms.openlocfilehash: ee558ae87d7bea781cae3d2bc267f82bc1fdb18a
-ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
+description: 瞭解如何在Teams中管理會議原則設定，以進行錄製和轉譯。
+ms.openlocfilehash: da7a5d43231abcb00339f2ffc2c57c7e90ff2d2e
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62224070"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646362"
 ---
-# <a name="meeting-policy-settings-for-recording--transcription"></a>錄製文字翻譯的會議&設定
+# <a name="meeting-policy-settings-for-recording--transcription"></a>記錄&轉錄的會議原則設定
 
-本文將說明錄製和文字記錄特有的會議策略設定，包括下列專案：
+本文將說明錄製和轉譯專用的會議原則設定，包括下列專案：
 
 - [允許轉錄](#allow-transcription)
 - [允許雲端錄製](#allow-cloud-recording)
-- [儲存您國家/地區以外的錄製內容](#store-recordings-outside-of-your-country-or-region)
+- [Microsoft Store您國家或地區以外的錄製內容](#store-recordings-outside-of-your-country-or-region)
 
 ## <a name="allow-transcription"></a>允許轉錄
 
-這是每個召集人和每個使用者策略的組合。 此設定可控制在播放會議錄製內容期間是否提供字幕和謄寫功能。 開始錄製的人需要開啟此設定，這些功能可以處理錄製內容。
+這是每個召集人和個別使用者原則的組合。 此設定可控制在播放會議錄製內容期間是否提供字幕和謄寫功能。 開始錄製的人需要開啟此設定，才能使用這些功能進行錄製。
 
-開啟此設定會建立與會議錄製一起儲存的記錄副本，啟用會議錄製上的搜尋、**副本** 和記錄。  
+開啟此設定將建立與會議錄製內容一起儲存的文字記錄，從而在會議錄製內容中啟用 **[搜尋]**、**[CC]** 和 **[文字記錄]**。
 
-錄製的會議文字目前僅支援將語言設定為英文或在會議中Teams字幕。
+錄製會議的轉譯目前僅支援在Teams會議中設定語言或說英文的使用者。
 
 ## <a name="allow-cloud-recording"></a>允許雲端錄製
 
-此設定是每個召集人和每個使用者策略的組合，並控制是否可以錄製會議。 如果參與者已開啟策略設定，且他們是來自同一個組織的已驗證使用者，會議召集人或其他會議參與者可以開始錄製。
+此設定結合了每個召集人及個別使用者的原則，並控制是否可以錄製會議。 如果參與者的原則設定已開啟，且對方是來自同一個組織的已驗證使用者，則會議召集人或另一個會議參與者就可以開始錄製。
 
 組織外部人員 (例如，同盟和匿名使用者) 無法開始錄製。 來賓使用者無法開始或停止錄製。
 
@@ -57,19 +57,19 @@ ms.locfileid: "62224070"
 |Amanda | Location1MeetingPolicy | 開啟|
 |John (外部使用者) | 不適用 | 不適用|
 
-- 無法錄製由 Daniela 組織的會議。
-- Amanda 無法錄製由 Daniela 組織的會議。
-- 您可以錄製由 Amanda 組織的會議。
-- Daniela 無法錄製由 Amanda 組織的會議。
-- John 無法錄製由 Amanda 組織的會議。
+- 您無法錄製由 Daniela 召集的會議。
+- 拉格無法錄製由 Daniela 召集的會議。
+- 您可以錄製由「小組」召集的會議。
+- Daniela 無法錄製由 10 月 2 日召集的會議。
+- John 無法錄製由[匯入] 召集的會議。
 
 若要深入了解雲端會議錄製，請參閱 [Teams 雲端會議錄製](cloud-recording.md)。
 
-## <a name="store-recordings-outside-of-your-country-or-region"></a>儲存您國家/地區以外的錄製內容
+## <a name="store-recordings-outside-of-your-country-or-region"></a>Microsoft Store您國家或地區以外的錄製內容
 
-此政策會控制會議記錄是否可以永久儲存在另一個國家/地區。 如果已啟用此功能，則無法移移錄製。 有關雲端會議及錄製儲存位置的資訊，請參閱Teams[會議錄製。](cloud-recording.md)
+此原則會控制會議記錄是否可以永久儲存在其他國家或地區。 如果已啟用，則無法移轉錄製內容。 如需有關雲端會議以及儲存錄製位置的詳細資訊，請參[閱Teams雲端會議錄製](cloud-recording.md)。
 
 ## <a name="related-topics"></a>相關主題
 
-- [為使用者指派Teams](policy-assignment-overview.md)
+- [在 Teams 中指派原則給使用者](policy-assignment-overview.md)
 - [雲端會議錄製](cloud-recording.md)

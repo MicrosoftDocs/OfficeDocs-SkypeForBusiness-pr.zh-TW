@@ -1,9 +1,9 @@
 ---
 title: Teams 中的核准應用程式可用性
-author: guptaashish
-ms.author: guptaashish
+author: mkbond007
+ms.author: mabond
 ms.reviewer: farhazk
-manager: prkosh
+manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 205f0869e699384c9a37590db50e690b5b8bd804
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: f31df258558e052e887a679321dd6ed2db48f344
+ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65186979"
+ms.lasthandoff: 05/23/2022
+ms.locfileid: "65646252"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 核准應用程式可用性
 
@@ -99,10 +99,10 @@ ms.locfileid: "65186979"
 
 - 所有團隊擁有者都可以為他們擁有的團隊建立核准範本。
 
-- 當系統管理員第一次為整個組織建立範本時，系統會自動為租使用者的所有系統管理員建立新的Azure Active Directory (AAD) 群組，包括全域和Teams服務系統管理員。 這些系統管理員會新增為群組的擁有者，讓他們可以共同管理組織範本。 建立團隊之後，組織新手的系統管理員必須手動新增為群組擁有者，這樣他們才擁有管理整個組織範本的相同許可權。
+- 當系統管理員第一次為整個組織建立範本時，系統會自動為租使用者的所有系統管理員建立新的 Azure Active Directory (AAD) 群組，包括全域和Teams服務系統管理員。 這些系統管理員會新增為群組的擁有者，讓他們可以共同管理組織範本。 建立團隊之後，組織新手的系統管理員必須手動新增為群組擁有者，這樣他們才擁有管理整個組織範本的相同許可權。
 
 > [!Note]
-> 如果系統管理員刪除群組，您在Azure Active Directory (AAD) 入口網站內有一個月的時間可以還原該群組，以還原所有相關資料。 一個月後，或如果系統管理員在回收站中刪除此群組，您將會遺失所有相關資料。
+> 如果系統管理員刪除群組，您在 Azure Active Directory (AAD) 入口網站中還有一個月的時間可以還原該群組，以還原所有相關資料。 一個月後，或如果系統管理員在回收站中刪除此群組，您將會遺失所有相關資料。
 
 ## <a name="disable-the-approvals-app"></a>停用核准應用程式
 
@@ -114,7 +114,7 @@ ms.locfileid: "65186979"
 
   3. 搜尋核准應用程式。
 
-     ![顯示系統管理中心導覽，其中醒目提示 [Teams應用程式>管理應用程式]。](media/manage-approval-apps.png)
+     ![顯示管理員中心導覽，其中醒目提示 [Teams應用程式>管理應用程式]。](media/manage-approval-apps.png)
 
   4. 選 **取 [核准]**。
 
