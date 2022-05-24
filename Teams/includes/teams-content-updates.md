@@ -3,6 +3,23 @@
 
 
 
+## <a name="week-of-may-16-2022"></a>2022 年 5 月 16 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 5/17/2022 | [在 Outlook 中使用 Microsoft Teams 會議增益集](/MicrosoftTeams/teams-add-in-for-outlook) | 改 性 |
+| 5/18/2022 | [在 Microsoft Teams 中撥號並擷取公園](/MicrosoftTeams/call-park-and-retrieve) | 改 性 |
+| 5/18/2022 | [虛擬約會與 Teams - 整合至 EHR](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | 改 性 |
+| 5/19/2022 | [Shifts 連接器](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connectors) | 改 性 |
+| 5/20/2022 | [規劃Teams自動語音應答和通話佇列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 改 性 |
+| 5/20/2022 | [變更問候語和電子郵件的預設語言](/MicrosoftTeams/change-the-default-language-for-greetings-and-emails) | 改 性 |
+| 5/20/2022 | [語音信箱問候語和訊息的Teams語言](/MicrosoftTeams/languages-for-voicemail-greetings-and-messages) | 改 性 |
+| 5/20/2022 | [管理直接路由的緊急通話路由原則](/MicrosoftTeams/manage-emergency-call-routing-policies) | 改 性 |
+| 5/20/2022 | [管理 Microsoft Teams 中的緊急通話原則](/MicrosoftTeams/manage-emergency-calling-policies) | 改 性 |
+| 5/20/2022 | [Microsoft Teams PowerShell 版本資訊](/MicrosoftTeams/teams-powershell-release-notes) | 改 性 |
+
+
 ## <a name="week-of-may-09-2022"></a>2022 年 5 月 9 日周
 
 
@@ -17,7 +34,7 @@
 | 5/10/2022 | [Microsoft Teams 會議室應用程式版本支援](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 改 性 |
 | 5/12/2022 | [管理語音信箱原則](/MicrosoftTeams/manage-voicemail-policies) | 改 性 |
 | 5/12/2022 | [設定 SIP 閘道](/MicrosoftTeams/sip-gateway-configure) | 改 性 |
-| 5/12/2022 | [在 Teams 教育版 中的家長管理設定](/MicrosoftTeams/edu-parents-app) | 改 性 |
+| 5/12/2022 | [在 Teams 教育版 中管理員家長設定](/MicrosoftTeams/edu-parents-app) | 改 性 |
 | 5/13/2022 | [Microsoft Teams 中的無線對講機應用程式](/MicrosoftTeams/walkie-talkie) | 改 性 |
 | 5/13/2022 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 改 性 |
 
@@ -29,7 +46,7 @@
 |------|------------|--------|
 | 5/2/2022 | [Microsoft Teams PSTN 使用方式報告](/MicrosoftTeams/teams-analytics-and-reports/pstn-usage-report) | 改 性 |
 | 5/3/2022 | [Teams 中的核准應用程式可用性](/MicrosoftTeams/approval-admin) | 改 性 |
-| 5/3/2022 | [在 Teams 教育版 中的家長管理設定](/MicrosoftTeams/edu-parents-app) | 改 性 |
+| 5/3/2022 | [在 Teams 教育版 中管理員家長設定](/MicrosoftTeams/edu-parents-app) | 改 性 |
 | 5/3/2022 | [管理組織的 [班次] 應用程式](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 改 性 |
 | 5/3/2022 | [在 Microsoft Teams 中管理貴組織的 [工作] 應用程式](/MicrosoftTeams/manage-tasks-app) | 改 性 |
 | 5/3/2022 | [Microsoft Teams 中的無線對講機應用程式](/MicrosoftTeams/walkie-talkie) | 改 性 |
@@ -87,28 +104,3 @@
 | 4/29/2022 | [在 Microsoft Teams 系統管理中心管理您的應用程式](/MicrosoftTeams/manage-apps) | 改 性 |
 | 4/29/2022 | [管理Microsoft Teams中的原則套件](/MicrosoftTeams/manage-policy-packages) | 改 性 |
 | 4/29/2022 | [Microsoft 應用程式認證概觀](/MicrosoftTeams/overview-of-app-certification) | 改 性 |
-
-
-## <a name="week-of-april-18-2022"></a>2022 年 4 月 18 日周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 4/18/2022 | [Microsoft 應用程式認證概觀](/MicrosoftTeams/overview-of-app-certification) | 改 性 |
-| 4/18/2022 | 在建立團隊時規劃 Microsoft 365 群組 | 刪除 |
-| 4/18/2022 | [管理 Microsoft Teams 中的應用程式設定原則](/MicrosoftTeams/teams-app-setup-policies) | 改 性 |
-| 4/19/2022 | [等候音樂](/MicrosoftTeams/music-on-hold) | 改 性 |
-| 4/19/2022 | [根據使用者類型Teams應用程式行為](/MicrosoftTeams/non-standard-users) | 改 性 |
-| 4/19/2022 | [安全性與合規性概觀](/MicrosoftTeams/security-compliance-overview) | 改 性 |
-| 4/20/2022 | [音訊會議免付費電話號碼原則](/MicrosoftTeams/audio-conferencing-toll-free-numbers-policy) | 添加 |
-| 4/20/2022 | [變更橋接器上的電話號碼音訊會議](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 改 性 |
-| 4/20/2022 | [針對特定Teams使用者停用免付費電話號碼](/MicrosoftTeams/disabling-toll-free-numbers-for-specific-teams-users) | 改 性 |
-| 4/20/2022 | [管理音訊會議設定](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-my-organization-in-teams) | 改 性 |
-| 4/20/2022 | [設定邀請中包含的電話號碼](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams) | 改 性 |
-| 4/20/2022 | [設定 Microsoft Teams 的音訊會議](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | 改 性 |
-| 4/21/2022 | Microsoft StaffHub 已停用 | 刪除 |
-| 4/21/2022 | Microsoft Teams 中應用程式的系統管理設定 | 刪除 |
-| 4/21/2022 | [在 Microsoft Teams 系統管理中心管理您的應用程式](/MicrosoftTeams/manage-apps) | 改 性 |
-| 4/21/2022 | [對內容進行電子檔探索調查](/MicrosoftTeams/ediscovery-investigation) | 改 性 |
-| 4/22/2022 | [Kaizala和Microsoft Teams](/MicrosoftTeams/get-started-kaizala-teams) | 改 性 |
-| 4/22/2022 | [流覽Microsoft Teams](/MicrosoftTeams/navigate-teams) | 改 性 |
