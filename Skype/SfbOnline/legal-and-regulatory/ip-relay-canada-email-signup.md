@@ -18,50 +18,47 @@ f1.keywords:
 ms.custom:
 - Legal
 hideEdit: true
-description: 如何為加拿大的 IP 轉場帳戶松一口氣。
-ms.openlocfilehash: d062ec96a35d01fc5986af24a2bc52adf8138440
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 如何註冊加拿大的 IP 轉送帳戶。
+ms.openlocfilehash: 63b4bf27d12a11200ed6dc4601d7116089013a40
+ms.sourcegitcommit: c53c22069b1babce7a2364de631057ff501ca1c0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620541"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65671689"
 ---
 # <a name="ip-relay-in-canada---sign-up"></a>加拿大 IP 轉送 - 註冊
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-若要為加拿大設定 IP 轉送帳戶，請完成下列所述資訊，然後以電子郵件傳送[ptn@microsoft.com。](mailto:ptn@microsoft.com)
+若要為加拿大設定 IP 轉送帳戶，請完成以下所述的資訊，並以電子郵件傳送至 [ptn@microsoft.com](mailto:ptn@microsoft.com)。
 
-- 姓氏&名字：
+- 名字&姓氏：
 
-- Microsoft 365或Office 365組織功能變數名稱： (範例：Contoso.com)    
+- Microsoft 365或Office 365組織功能變數名稱： (範例：Contoso.com) 
 
 - Microsoft 365或Office 365使用者電話號碼： (範例：+1 XXX XXX XXXX) 
 
-- 密碼 (8 到 16 個字元) ：    
+- 密碼 (8 到 16 個字元) ：
 
-- 發生緊急事件時最有可能是實際位址： 
+- 在緊急狀況下，最有可能的實體位址：
 
-- 街道號碼&名稱： 
+- 街道編號&名稱：
 
-- 住宅/套件：    
+- 棟樓 /套件：
 
-- 城市： 
+- 城市：
 
-- 省/市： 
+- 省/省：
 
-- 郵遞區號：   
+- 郵遞區號 / 郵遞區號：
 
-- 電話數量： 
+- 電話編號：
 
 - Microsoft 365或Office 365電子郵件地址：
 
 > [!NOTE]
-> 如果某人透過 IP 轉場電話來呼叫您，則上述電子郵件地址會在您不在線上時，收到您留下的郵件。 
+> 如果當某人透過 IP 轉送撥電話給您時，您不在線上，上述的電子郵件地址會收到剩餘的訊息。 
 
-一旦您的帳戶在 (24 個工作小時內) ，我們會以使用者名稱和密碼以電子郵件將您送回。 
+當您的帳戶在) 的 24 個工作小時內準備好 (，我們會以 [使用者名稱] 和 [密碼] 傳回電子郵件給您。 
 
-
-接下來，請參閱 [加拿大 IP 轉場 - 使用者指南](ip-relay-canada-user-guide.md) 以開始使用。 
-
-
+接下來，請參閱 [加拿大的 IP 轉送 - 使用者指南](ip-relay-canada-user-guide.md) 以開始使用。 
