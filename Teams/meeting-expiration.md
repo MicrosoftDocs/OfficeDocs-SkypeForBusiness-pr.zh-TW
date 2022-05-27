@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 瞭解如何在 Microsoft Teams 中使用會議原則設定來控制會議到期日。
-ms.openlocfilehash: 014989cd2fda0ce28ef96ee53c82908f814ee8c7
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 08cdcd9b7d7f18dafa468bd33ca065dafb5768a6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646212"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675355"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Microsoft Teams 中的會議原則和會議到期日
 
@@ -131,7 +131,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 ### <a name="will-this-feature-enforce-file-retention"></a>啟用此功能會強制執行檔案保留？
 
-否，檔案將不會因為這項功能或其設定而保留。 如果具有刪除許可權的使用者嘗試刪除具有到期設定之 TMR，將會執行該使用者的刪除動作。
+否，檔案將不會因為這項功能或其設定而保留。 如果具有刪除許可權的使用者嘗試刪除具有到期設定的 TMR，將會執行該使用者的刪除動作。
 
 ### <a name="what-skus-are-required-for-this-feature"></a>這項功能需要哪些 SKUs ?
 

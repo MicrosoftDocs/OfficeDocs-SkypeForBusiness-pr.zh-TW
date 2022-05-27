@@ -1,5 +1,5 @@
 ---
-title: 管理Teams新系统管理中心Teams转换
+title: 管理移轉至新Teams系統管理中心的Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: ''
 ROBOTS: NOINDEX, NOFOLLOW
-description: 了解如何在从 Teams 中的 Teams 转换至新的系统管理中心Microsoft 365 系統管理中心管理整个租用户Teams用户设定。
+description: 瞭解如何在從Microsoft 365 系統管理中心中的Teams轉換到新的Teams系統管理中心期間，管理全租使用者和Teams的使用者設定。
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -21,97 +21,97 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 727aa58f3e7a91336355730ce5f0a552ea09fdc9
-ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
+ms.openlocfilehash: 83b65724099aa46bfe1f1719430e70d8da86ce33
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491733"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675085"
 ---
 # <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>在轉換至新 Microsoft Teams 系統管理中心期間管理 Teams
 
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-## <a name="what-is-the-new-microsoft-teams-admin-center"></a>系统管理中心Microsoft Teams是什么  
+## <a name="what-is-the-new-microsoft-teams-admin-center"></a>新的系統管理中心Microsoft Teams  
 
-新的系统管理中心体验会为您提供统一体验，以管理Teams商務用 Skype。 我们正在提供其他功能、端对端深入见解，以及管理用户层级Teams设定的能力。
+新的系統管理中心體驗將為您提供統一的體驗來管理Teams和商務用 Skype。 我們正在提供其他功能、端對端深入解析，以及在使用者層級管理Teams設定的能力。
 
-![系统管理中心Microsoft Teams屏幕快照。](media/manage-teams-skype-for-business-admin-center-portal.png)
+![Microsoft Teams系統管理中心的螢幕擷取畫面。](media/manage-teams-skype-for-business-admin-center-portal.png)
 
-## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>設定移至新的系统管理Microsoft Teams中心
+## <a name="settings-migrated-to-the-new-microsoft-teams-admin-center"></a>設定移轉到新的 Microsoft Teams 系統管理中心
 
-下表识别已移Teams体验的区段，并显示新系统管理入口网站中目前设定与策略之间的关系。
+下表可識別已移轉的Teams體驗區段，並顯示目前設定與新系統管理入口網站中原則之間的關係。
 
-|在 Teams 中Microsoft 365 系統管理中心  |将名称 (租用户层级)   |Microsoft Teams系统管理中心政策   |层级：租用户或用户   |
+|Microsoft 365 系統管理中心 中的Teams區段  | (租使用者層級設定名稱)   |Microsoft Teams系統管理中心原則   |層級：租使用者或使用者   |
 |---------|---------|---------|---------|
-|一般     |在个人配置文件中显示组织结构        |  [TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)       |  租户       |
-|一般     |针对商務用 Skype的收件者使用Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |租户         |
-|電子郵件整合     |允许用户将电子邮件传送至频道         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |租户         |
-|電子郵件整合     |允许发件人列表         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)        |租户         |
-|自定义云端储存空间     |箱         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |租户         |
-|自定义云端储存空间     |Dropbox        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |租户         |
-|自定义云端储存空间     |Egnyte        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |租户         |
-|自定义云端储存空间     |Google 雲端硬碟        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |租户         |
-|自定义云端储存空间     |ShareFile        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |租户         |
-|設定用户/授权类型来显示     |为Microsoft Teams开启或关闭          |已弃用<sup>1</sup>        |         |
-|小組和頻道     |         |重新导向至Azure Active Directory管理 (目前体验) 。              |使用者         |
-|小組和頻道     |         |重新导向至 AAD 群组管理 (目前使用体验) 。             |使用者          |
-|應用程式|默认启用新的外部应用程序|全组织应用程序设定|租户|
-|應用程式|允许外部应用程序|全组织应用程序设定|租户|
-|應用程式|允许侧载外部应用程序<sup>2</sup>|[TeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy)|使用者|
-|應用程式|默认应用程序<sup>3</sup>|TeamsAppPermissionPolicy|使用者|
-|應用程式|外部应用程序<sup>3</sup>|TeamsAppPermissionPolicy|使用者|
-|通话与会议     |允许排程私人会议         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)         |使用者          |
-|通话与会议     |允许临时信道会议         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)         |使用者          |
-|通话与会议     |允许频道会议的排程         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)         |使用者          |
-|通话与会议     |在会议中允许影片         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)         |使用者          |
-|通话与会议     |在会议中允许屏幕画面共享         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)         |使用者          |
-|通话与会议     |允许私人通话         |[TeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)        |使用者          |
-|訊息中心     |啟用 Giphy，讓使用者可以在交談中新增 GIF         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
-|訊息中心     |內容分級         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
-|訊息中心     |啟用使用者可以編輯和新增到交談的 Meme         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
-|訊息中心     |啟用使用者可以編輯並新增到交談的貼圖         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
-|訊息中心     |允許擁有者刪除所有郵件         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
-|訊息中心     |允許使用者編輯自己的郵件         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
-|訊息中心     |允許使用者刪除自己的郵件         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
-|訊息中心     |允許使用者私下聊天         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
+|一般     |在個人設定檔中顯示組織結構        |  [TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)       |  租戶       |
+|一般     |針對沒有Teams的收件者使用商務用 Skype         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |租戶         |
+|電子郵件整合     |允許使用者傳送電子郵件到頻道         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |租戶         |
+|電子郵件整合     |允許寄件者清單         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)        |租戶         |
+|自訂雲端儲存空間     |箱         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |租戶         |
+|自訂雲端儲存空間     |Dropbox        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |租戶         |
+|自訂雲端儲存空間     |Egnyte        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |租戶         |
+|自訂雲端儲存空間     |Google 雲端硬碟        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |租戶         |
+|自訂雲端儲存空間     |ShareFile        |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |租戶         |
+|依使用者/授權類型設定     |為所有使用者開啟或關閉Microsoft Teams          |已取代<sup>1</sup>        |         |
+|小組和頻道     |         |重新導向至Azure Active Directory群組管理 (與目前體驗) 相同。              |使用者         |
+|小組和頻道     |         |重新導向至 AAD 群組管理 (與目前體驗) 相同。             |使用者          |
+|應用程式|預設啟用新的外部應用程式|全組織應用程式設定|租戶|
+|應用程式|允許外部應用程式|全組織應用程式設定|租戶|
+|應用程式|允許側載外部應用程式<sup>2</sup>|[TeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy)|使用者|
+|應用程式|預設應用程式<sup>3</sup>|TeamsAppPermissionPolicy|使用者|
+|應用程式|外部應用程式<sup>3</sup>|TeamsAppPermissionPolicy|使用者|
+|通話和會議     |允許私人會議排程         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)         |使用者          |
+|通話和會議     |允許臨機操作頻道會議         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)         |使用者          |
+|通話和會議     |允許頻道會議排程         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)         |使用者          |
+|通話和會議     |允許會議中的視訊         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)         |使用者          |
+|通話和會議     |允許在會議中共用螢幕畫面         |[TeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy)         |使用者          |
+|通話和會議     |允許私人通話         |[TeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)        |使用者          |
+|訊息傳送     |啟用 Giphy，讓使用者可以在交談中新增 GIF         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
+|訊息傳送     |內容分級         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
+|訊息傳送     |啟用使用者可編輯並新增至交談的 Meme         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
+|訊息傳送     |啟用貼圖，讓使用者可以編輯並新增至交談         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
+|訊息傳送     |允許擁有者刪除所有郵件         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
+|訊息傳送     |允許使用者編輯自己的訊息         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
+|訊息傳送     |允許使用者刪除自己的訊息         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
+|訊息傳送     |允許使用者私下聊天         |[TeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)         |使用者         |
 
-<sup>1</sup> 來賓已棄用。 現在可以在系統管理中心管理啟用/停用來賓Microsoft Teams管理。 啟用/停用商務Teams、Enterprise、Edu Student 和 Edu 教職員的商務用軟體即將被停用。 這應該會以指派授權的方式Microsoft 365 系統管理中心。 請參閱[管理使用者對 Microsoft Teams](user-access.md)的存取權。
+<sup>1</sup> 已取代為來賓。 現在可以在Microsoft Teams系統管理中心管理啟用/停用來賓。 即將淘汰啟用/停用商務用 Teams Enterprise、教育學生版和教育系。 這應該由在Microsoft 365 系統管理中心中指派授權來管理。 請參閱[管理使用者對Microsoft Teams的存取權](user-access.md)。
 <br><br>
-<sup>2</sup> Sideloading 分割方式如下：
+<sup>2</sup> 側載分割如下：
 
-- 允許使用者在 [TeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy)中側載可在使用者層級管理的應用程式。
-- 允許租使用者中的使用者與自訂應用程式互動，這些自訂應用程式可在全組織 App 設定中的租使用者層級管理。
+- 允許使用者側載可在 [TeamsAppSetupPolicy](/powershell/module/skype/set-csteamsappsetuppolicy)中以使用者層級管理的應用程式。
+- 允許租使用者中的使用者與可在整個組織應用程式設定的租使用者層級管理的自訂應用程式互動。
 
-<sup>3</sup> 在 TeamsAppPermissionPolicy 的使用者層級，可以啟用和停用預設應用程式和外部應用程式。 此外，您可以在整個組織的應用程式設定中，在租使用者層級封鎖應用程式，以取代任何使用者和租使用者層級設定。
+<sup>3</sup> 您可以在 TeamsAppPermissionPolicy 的使用者層級啟用和停用預設應用程式和外部應用程式。 此外，應用程式可以在全組織應用程式設定的租使用者層級封鎖，以覆寫任何使用者和租使用者層級的設定。
 
 > [!NOTE]
-> 您會繼續使用群組儀表板Microsoft 365 系統管理中心組和Teams相關的組。 設定應用程式將會保留在 Teams 的 Microsoft 365 系統管理中心 區域，並稍後移移。
+> 您將繼續使用 Microsoft 365 系統管理中心 中的 Groups 儀表板來設定與Teams和通道相關。 應用程式設定會保留在Microsoft 365 系統管理中心的Teams區域，稍後將會移轉。
 
-## <a name="manage-settings-during-the-migration"></a>在移移期間管理設定
+## <a name="manage-settings-during-the-migration"></a>管理移轉期間的設定
 
-您可以繼續修改系統管理中心Microsoft 365 系統管理中心系統管理商務用 Skype中的設定，直到您的租使用者完成節的移移。
+您可以繼續修改Microsoft 365 系統管理中心和商務用 Skype系統管理中心的設定，直到您的租使用者完成某一節的移轉為止。
 
-下表顯示您可以在移移期間管理功能的地方。
+下表顯示您可以在移轉期間管理功能的位置。
 
 |功能  |Microsoft Teams系統管理中心                      |商務用 Skype系統管理中心 (舊版)   |Microsoft 365 系統管理中心  |
 |---------|:---------:|:---------:|:---------:|
-|Teams訊息、會議和即時活動政策     |     X    |         |         |
-|Teams升級政策     |    X     |         |         |
-|訊息、會議和語音的來賓設定     |   X      |         |         |
-|Teams生命週期管理   |    X    |      |       |
+|Teams訊息中心、會議和即時活動原則     |     X    |         |         |
+|Teams升級原則     |    X     |         |         |
+|傳訊、會議和語音的來賓設定     |   X      |         |         |
+|Teams週期管理   |    X    |      |       |
 |Teams 設定   |    X    |      |       |
 |外部存取設定     |    X    |      |       |
 |使用者管理    |         |         |    X     |
 |音訊會議     |    X     |    X     |         |
 |通話方案     |    X    |    X     |         |
 |電話系統    |    X    |     X    |         |
-|電話號碼管理     |    X    |   X      |         |
-|雲端語音功能的授權     |         |         |    X     |
+|電話數位管理     |    X    |   X      |         |
+|雲端語音功能授權     |         |         |    X     |
 |自動語音應答     |    X    |          |         |
 |通話佇列     |    X    |          |         |
 
-## <a name="manage-settings-after-the-migration"></a>移移之後管理設定
+## <a name="manage-settings-after-the-migration"></a>管理移轉後的設定
 
-這些設定移移完成後，我們將在 Microsoft 365 系統管理中心 和 商務用 Skype 系統管理中心停用這些設定，然後可以在新的 Microsoft Teams 系統管理中心管理這些設定。
+這些設定移轉完成後，我們會在Microsoft 365 系統管理中心和系統管理中心停用這些設定 商務用 Skype，然後在新Microsoft Teams系統管理中心管理這些設定。

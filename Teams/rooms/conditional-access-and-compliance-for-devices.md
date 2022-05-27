@@ -1,5 +1,5 @@
 ---
-title: 條件式 Access 和合規性最佳做法Microsoft Teams 會議室
+title: Microsoft Teams 會議室的條件式存取和合規性最佳做法
 ms.author: czawideh
 author: cazawideh
 ms.reviewer: sohailta
@@ -11,67 +11,67 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-description: 瞭解建議的條件式 Access 和 Intune 裝置合規性政策，以及適用于Microsoft Teams 會議室。
-ms.openlocfilehash: 1f4bec9d47b73be1638b1740afeb879b4dfb4026
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+description: 瞭解建議的條件式存取和Intune裝置合規性原則和Microsoft Teams 會議室的最佳做法。
+ms.openlocfilehash: b4e1d3cb91ff68e664d590c8e180e55211ca93b0
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63689090"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675485"
 ---
-# <a name="conditional-access-and-intune-compliance-for-microsoft-teams-rooms"></a>條件式 Access 和 Intune 合規性Microsoft Teams 會議室
+# <a name="conditional-access-and-intune-compliance-for-microsoft-teams-rooms"></a>Microsoft Teams 會議室的條件式存取和Intune合規性
 
-本文提供共用空間中使用的條件式 Access 和 Intune 裝置合規性Microsoft Teams 會議室需求與最佳做法。
+本文針對在共用空間中使用的Microsoft Teams 會議室，提供條件式存取和Intune裝置合規性原則的需求和最佳做法。
 
 ## <a name="requirements"></a>需求
 
-Teams 會議室必須已經部署在您想要指派條件式 Access 策略的裝置上。 如果您尚未部署Teams 會議室，請參閱為會議室建立資源帳戶，Teams[](with-office-365.md)裝置共用，以及在[Android](../devices/collab-bar-deploy.md) Microsoft Teams 會議室部署資源帳戶。
+Teams 會議室必須已經部署在您要指派條件式存取原則的裝置上。 如果您尚未部署Teams 會議室，請參閱[建立會議室和共用Teams裝置的資源帳戶](with-office-365.md)和[在Android上部署Microsoft Teams 會議室](../devices/collab-bar-deploy.md)以取得詳細資訊。
 
-使用條件式Azure Active Directory需要 P1 服務方案。 它包含在授權Microsoft Teams 會議室中。
+需要Azure Active Directory P1 服務方案才能使用條件式存取。 它已包含在Microsoft Teams 會議室授權中。
 
-## <a name="teams-rooms-conditional-access-best-practices"></a>Teams 會議室條件式 Access 最佳做法
+## <a name="teams-rooms-conditional-access-best-practices"></a>Teams 會議室條件式存取最佳做法
 
-條件式 Access 策略可保護共用空間中且由多人使用的裝置上的登錄程式。 有關中條件式存取的Azure Active Directory (Azure AD) 概觀，請參閱其中什麼是條件[式Azure Active Directory？](/azure/active-directory/conditional-access/overview)。
+條件式存取原則可以保護位於共用空間且由多人使用的裝置上的登入程式。 如需 Azure Active Directory (Azure AD) 中的條件式存取概觀，請參閱[Azure Active Directory 中什麼是條件式存取？](/azure/active-directory/conditional-access/overview)。
 
-使用條件式 Access 保護Teams 會議室，請考慮下列最佳做法：
+使用條件式存取來保護Teams 會議室時，請考慮下列最佳做法：
 
--   若要簡化部署和管理，請Microsoft 365一個使用者群組中Teams 會議室所有會議室資源帳戶。
+-   若要簡化部署和管理，請在一個使用者群組中包含與Teams 會議室相關聯的所有Microsoft 365會議室資源帳戶。
 
--   針對所有資源帳戶Teams 會議室命名標準。 例如，帳戶名稱"mtr-room1@contoso.com"和"mtr-room2@contoso.com"都是以首碼 "0.5"開頭。
-    當帳戶名稱標準化時，您可以使用 Azure AD 動態群組，一次自動將條件式 Access 原則套用至所有這些帳戶。 請參閱 [動態填入群組成員資格的規則](/azure/active-directory/enterprise-users/groups-dynamic-membership) ，以瞭解有關動態群組的資訊。
+-   針對所有Teams 會議室資源帳戶設定命名標準。 例如，帳戶名稱「mtr-room1@contoso.com」和「mtr-room2@contoso.com」都是以前置詞「mtr-」開頭。
+    當帳戶名稱標準化時，您可以使用 Azure AD 中的動態群組，一次自動將條件式存取原則套用到所有這些帳戶。 如需有關動態群組的詳細資訊，請參閱 [動態填入群組成員資格](/azure/active-directory/enterprise-users/groups-dynamic-membership) 規則。
 
-請參閱支援的條件式 Access [Teams 會議室清單。](supported-ca-and-compliance-policies.md#supported-conditional-access-policies)
+如需Teams 會議室支援的條件式存取指派清單，請參閱[支援的條件式存取原則](supported-ca-and-compliance-policies.md#supported-conditional-access-policies)。
 
-## <a name="example-conditional-access-policy"></a>條件式 Access 策略範例
+## <a name="example-conditional-access-policy"></a>條件式存取原則範例
 
-在下列範例中，條件式 Access 策略運作方式如下：
+在下列範例中，條件式存取原則的運作方式如下：
 
-1.  帳戶登錄必須是特定使用者群組的成員，在此範例中為「共用裝置」群組。
+1.  帳戶登入必須是特定使用者群組的成員，在此範例中為「共用裝置」群組。
 
-2.  帳戶的登錄必須只嘗試存取 Exchange Online、Microsoft Teams或 SharePoint Online。 嘗試登錄任何其他用戶端應用程式將會遭到拒絕。
+2.  帳戶登入時，必須只嘗試存取 Exchange Online、Microsoft Teams 或 SharePoint Online。 登入任何其他用戶端應用程式的嘗試將會遭到拒絕。
 
-3.  資源帳戶必須在裝置平臺上Windows。
+3.  資源帳戶必須登入Windows裝置平臺。
 
-4.  資源帳戶也必須從已知、信任的位置進行登錄。
+4.  資源帳戶也必須從已知、信任的位置登入。
 
-如果成功符合這些條件，且使用者輸入正確的使用者名稱和密碼，則資源帳戶會Teams。
+如果成功符合這些條件，且使用者輸入正確的使用者名稱和密碼，資源帳戶就會登入Teams。
 
-## <a name="conditional-access-with-microsoft-intune-compliance-for-teams-rooms"></a>條件式 Access Microsoft Intune合規性Teams 會議室
+## <a name="conditional-access-with-microsoft-intune-compliance-for-teams-rooms"></a>Teams 會議室Microsoft Intune合規性的條件式存取
 
-合規性需求是裝置必須符合的已定義規則，以標示為符合規範，例如最低作業系統版本。 必須先將裝置視為相容，才能用來登錄資源帳戶。
+合規性需求是已定義的規則，裝置必須符合該規則才能標示為符合規範，例如最低作業系統版本。 裝置必須符合規範，才能用來登入資源帳戶。
 
-有關支援的 Intune 合規性政策清單Teams 會議室，請參閱[支援的裝置合規性政策](supported-ca-and-compliance-policies.md#supported-device-compliance-policies)。
+如需Teams 會議室支援的Intune合規性原則清單，請參閱[支援的裝置合規性原則](supported-ca-and-compliance-policies.md#supported-device-compliance-policies)。
 
-有關使用 Android 裝置設定 Intune Teams，請參閱設定[Intune 以註冊 Android Teams裝置](../devices/phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices)。
+如需有關使用Teams Android裝置設定Intune的詳細資訊，請參閱設定Intune以[註冊Teams Android型裝置](../devices/phones-displays-deploy.md#configure-intune-to-enroll-teams-android-based-devices)。
 
-## <a name="example-windows-only-conditional-access-with-intune-device-compliance"></a>僅 (Windows範例) ：Intune 裝置合規性的條件式 Access
+## <a name="example-windows-only-conditional-access-with-intune-device-compliance"></a>僅限 (Windows) 的範例：Intune裝置合規性的條件式存取
 
-在此範例中，Teams 會議室Windows
+在此範例中，Teams 會議室在 Windows
 
-1. 要求防火牆在 Teams 會議室 上Windows。
+1. 要求在 Windows 的 Teams 會議室 上執行防火牆。
 
-2. 要求 Microsoft Defender 在 Teams 會議室。
+2. 要求 Microsoft Defender 在 Teams 會議室 上執行。
 
-3. 如果Teams聊天室不符合上述任一需求，就不會標示為相容，且裝置無法登錄。
+3. 如果Teams空間不符合這些需求，就不會標示為符合規範，而且裝置也不會登入。
 
-此合規性原則適用于所有使用者，而不只是Teams帳戶。
+此合規性原則適用于所有使用者，而不只是Teams資源帳戶。

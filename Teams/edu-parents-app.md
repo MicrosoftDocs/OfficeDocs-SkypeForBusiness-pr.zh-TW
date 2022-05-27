@@ -1,5 +1,5 @@
 ---
-title: 在 Teams 教育版 中的家長管理設定
+title: 在 Teams 教育版 中管理員家長設定
 author: DaniEASmith
 ms.author: danismith
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f08ddd68d036d18e4ea18073dd0711e32e0c91e
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393867"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676125"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在 Microsoft Teams 教育版 中設定父系連線
 
@@ -102,8 +102,8 @@ Teams 教育版中的家長連線可協助授課者使用Teams，安全地與班
 
 班級擁有者可以：
 
-1. 開啟監護人的個人檔案卡片，選取省略號並 **封鎖使用者**。 
-2. 然後，從聊天中移除監護人。 
+1. 開啟監護人的個人檔案卡片，選取省略號並 **封鎖使用者**。
+2. 然後，從聊天中移除監護人。
 
 封鎖的使用者將無法開始與班級擁有者進行其他聊天。
 

@@ -1,5 +1,5 @@
 ---
-title: 在 Android 裝置上遠端Teams和登錄
+title: 遠端布建和登入Teams Android裝置
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -16,111 +16,111 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何在 Android 裝置上遠端Teams和登錄
-ms.openlocfilehash: e7e5acd491f15d4cc52ce1b898112da868f80594
-ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
+description: 瞭解如何遠端布建和登入Teams Android裝置
+ms.openlocfilehash: 4b3831bc42da92939c7aa61ff52a15266dc4a940
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61070147"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674335"
 ---
-# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>在 Android 裝置上遠端Teams和登錄
+# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>遠端布建和登入Teams Android裝置
 
-IT 系統管理員可以在 Android 裝置上遠端Teams並登錄。 若要遠端置備裝置，系統管理員必須上傳所配置之裝置之 MAC ID，並建立驗證碼。 整個程式可以從系統管理中心Teams完成。
+IT 系統管理員可以遠端布建並登入Teams Android裝置。 若要遠端布建裝置，系統管理員必須上傳所布建之裝置的 MAC 識別碼，並建立驗證碼。 整個程式都可以從Teams系統管理中心遠端完成。
 
-## <a name="review-the-supported-devices"></a>檢查支援的裝置
+## <a name="review-the-supported-devices"></a>檢閱支援的裝置
 
-下列清單顯示 Android 裝置固件需求。
+下列清單顯示Android裝置韌體需求。
 
-|裝置類別|裝置模型|固件版本|
-|-|-|-|
+|裝置類別|裝置型號|韌體版本|
+|---|---|---|
 |Teams手機|Yealink T55/T56/T58|58.15.0.124|
 |Teams手機|Yealink VP59|91.15.0.58|
 |Teams手機|Yealink CP960|73.15.0.117|
 |Teams手機|Yealink MP56/MP54/MP58|122.15.0.36|
-|Teams手機|Cresron UC-2|1.0.3.52|
-|Teams手機|  Poly Trio C60|  7.0.2.1071|
-|Teams手機|  CCX400/CCX500/CCX600    |7.0.2.1072|
-|Teams手機|  音訊代碼 C448HD/C450HD/C470HD|   1.10.120|
-|Teams面板|  Cresron 770/1070|  1.004.0115|
-|Teams 會議室 Android 上的應用程式|Logitech 拉力杆迷你|1.2.982|
-|Teams 會議室 Android 上的應用程式|Logitech 拉力杆|1.2.982|
-|Teams 會議室 Android 上的應用程式|AudioCodes RXV80|1.13.361|
-|Teams 會議室 Android 上的應用程式|EPOS EXPAND Vision 3T|1.2.2.21182.10|
-|Teams 會議室 Android 上的應用程式|Yealink MeetingBar A30|133.15.0.60|
-|Teams 會議室 Android 上的應用程式|Yealink MeetingBar A20|133.15.0.60|
-|Teams 會議室 Android 上的應用程式|Yealink CTP18 觸控主控台|137.15.0.37|
-|Teams 會議室 Android 上的應用程式|Poly Studio X30|3.5.0.344025|
-|Teams 會議室 Android 上的應用程式|Poly Studio X50|3.5.0.344025|
-|Teams 會議室 Android 上的應用程式|Poly TC8 觸控主控台 |3.5.0.210489|
-|Teams 會議室 Android 上的應用程式|Yealink VC210|118.15.0.54|
+|Teams手機|Cres 要點 UC-2|1.0.3.52|
+|Teams手機|Poly Trio C60|7.0.2.1071|
+|Teams手機|CCX400/CCX500/CCX600 |7.0.2.1072|
+|Teams手機|音訊代碼 C448HD/C450HD/C470HD|1.10.120|
+|Teams面板|Cres要 770/1070|1.004.0115|
+|Android 上的Teams 會議室|Logitech 欄 Mini|1.2.982|
+|Android 上的Teams 會議室|Logitech 方塊|1.2.982|
+|Android 上的Teams 會議室|AudioCodes RXV80|1.13.361|
+|Android 上的Teams 會議室|EPOS EXPAND Vision 3T|1.2.2.21182.10|
+|Android 上的Teams 會議室|Yealink 會議列 A30|133.15.0.60|
+|Android 上的Teams 會議室|Yealink 會議列 A20|133.15.0.60|
+|Android 上的Teams 會議室|Yealink CTP18 觸控主控台|137.15.0.37|
+|Android 上的Teams 會議室|Poly Studio X30|3.5.0.344025|
+|Android 上的Teams 會議室|Poly Studio X50|3.5.0.344025|
+|Android 上的Teams 會議室|Poly TC8 觸控主控台 |3.5.0.210489|
+|Android 上的Teams 會議室|Yealink VC210|118.15.0.54|
 
 ## <a name="add-a-device-mac-address"></a>新增裝置 MAC 位址
 
-完成下列步驟以配置新裝置。
+完成下列步驟以布建新裝置。
 
 1. 登入 Teams 系統管理中心。
-2. 展開 **Teams裝置**。
-3. 從 **動作選項卡中選取** 置 **備新** 裝置。
+2. 展開 **[Teams裝置]**。
+3. 從 [**動作**] 索引標籤選取 **[布建新裝置**]。
 
-在安裝 **新裝置** 視窗中，您可以手動新增 MAC 位址或上傳檔案。
+在 [ **布建新裝置** ] 視窗中，您可以手動新增 MAC 位址或上傳檔案。
 
 ### <a name="manually-add-a-device-mac-address"></a>手動新增裝置 MAC 位址
 
-1. 從等待 **啟用的選項卡** 中，選取 **新增 MAC 識別碼**。
+1. 從 [ **等待啟用] 索引** 標籤選取 **[新增 MAC 識別碼]**。
 
    ![手動新增裝置 mac 位址。](../media/remote-provision-6-new.png)
 
 1. 輸入 MAC 識別碼。
-1. 輸入位置，協助技術人員識別安裝裝置的位置。
-1. 完成 **時選取 Apply。**
+1. 輸入可協助技術人員識別裝置安裝位置的位置。
+1. 完成時，選取 **[套** 用]。
 
 ### <a name="upload-a-file-to-add-a-device-mac-address"></a>Upload檔案以新增裝置 MAC 位址
 
-1. 從在 **啟用時等待** 的選項卡中，選取 **Upload MAC ID。**
+1. 從 [**等待啟用] 索引** 標籤中，選 **取 [UPLOAD MAC 識別碼]**。
 2. 下載檔案範本。
 3. 輸入 MAC 識別碼和位置，然後儲存檔案。
-4. **選取檔案**，**然後選取** Upload。
+4. **選取 [檔案**]，然後選 **取 [Upload]**。
 
 ## <a name="generate-a-verification-code"></a>產生驗證碼
 
-您需要裝置驗證碼。 驗證碼會大量產生或在裝置層級產生，且有效 24 小時。
+您需要裝置的驗證碼。 驗證碼會大量產生，或在裝置層級產生，有效期為 24 小時。
 
-1. 從等待 **啟用的選項卡** 中，選取現有的 MAC 識別碼。
-   MAC 位址會建立密碼，且會顯示在驗證 **碼欄中** 。
+1. 從 [ **等待啟用] 索引** 標籤選取現有的 MAC 識別碼。
+   系統會為 MAC 位址建立密碼，並顯示在 [ **驗證碼** ] 欄中。
 
-2. 提供 MAC ID 和驗證碼清單給現場技術人員。 您可以直接在檔案中匯出詳細資料，並與執行實際安裝工作的技術人員共用檔案。
+2. 提供 MAC 識別碼清單和驗證碼給現場技術人員。 您可以直接將檔案中的詳細資料匯出，並與執行實際安裝工作的技術人員共用檔案。
 
-## <a name="provision-the-device"></a>置備裝置
+## <a name="provision-the-device"></a>布建裝置
 
-當裝置已電源開啟並連接至網路時，技術人員會配置裝置。 這些步驟在裝置上Teams完成。
+當裝置已開機並聯機到網路時，技術人員會將裝置安放在一起。 這些步驟已在Teams裝置上完成。
 
-1. 技術人員會從系統 **選取****設定。**  
+1. 技術人員從設定選取布 **建裝置****。**  
 
-   ![從動作選項卡中置備新裝置選項。](../media/provision-device1.png)
+   ![[動作] 索引標籤中的 [布建新裝置] 選項。](../media/provision-device1.png)
   
-2. 技術人員在提供的輸入欄位中輸入裝置專用驗證碼。
+2. 技術人員會在提供的輸入欄位中輸入裝置特定的驗證碼。
 
-   ![提供新裝置驗證。](../media/provision-device-verification1.png)
+   ![布建新的裝置驗證。](../media/provision-device-verification1.png)
 
-   成功配置裝置後，租使用者名稱會顯示在登錄頁面上。
+   一旦成功布建裝置，租使用者名稱就會顯示在登入頁面上。
 
-   ![登錄頁面上的租使用者名稱。](../media/provision-code.png)
+   ![登入頁面上的租使用者名稱。](../media/provision-code.png)
 
 ## <a name="first-time-remote-sign-in"></a>第一次遠端登入
 
-已置備的裝置會出現在等待 **登錄的** 選項卡中。選取個別裝置以啟動遠端登入程式。
+布建的裝置會出現在 [ **等待登入** ] 索引標籤中。選取個別裝置，開始遠端登入程式。
 
-1. 從 "正在等待登錄" 選項卡 **中選取** 裝置。
+1. 從 [ **等待登入** ] 索引標籤選取裝置。
 
-   ![已準備要登錄之裝置清單的視窗。](../media/remote-device1.png)
+   ![視窗中已準備好要登入的裝置清單。](../media/remote-device1.png)
 
-2. 請遵循使用者 **登錄中的指示，** 然後選取 **關閉**。
+2. 依照登入 **使用者中的** 指示操作，然後選取 **[關閉]**。
 
-   ![個別裝置的使用者視窗。](../media/sign-in-user.png)
+   ![個別裝置的 [登入使用者] 視窗。](../media/sign-in-user.png)
 
 ## <a name="related-articles"></a>相關文章
 
 - [在 Teams 中管理裝置](device-management.md)
-- [遠端登入和登出](remote-sign-in-and-sign-out.md)
-- [遠端Teams更新裝置](remote-update.md)
+- [遠端登入並登出](remote-sign-in-and-sign-out.md)
+- [遠端更新Teams裝置](remote-update.md)

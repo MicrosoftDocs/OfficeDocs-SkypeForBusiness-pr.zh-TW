@@ -13,12 +13,12 @@ f1.keywords:
 description: 整合式連絡人中心做為服務 (CCaaS) 解決方案的概觀，以供Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f3a6e792d4754c064e32035813cbee681607bdb
-ms.sourcegitcommit: bc73017b4a3fe6271830bc8c5044bfd43eec80c0
+ms.openlocfilehash: 97d12974a96afa6c60188a09f66ff885cd30bcb2
+ms.sourcegitcommit: de0233e51364b7730c4b307fd41a2166eda3c3fc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65266866"
+ms.lasthandoff: 05/26/2022
+ms.locfileid: "65741885"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams的連絡人中心整合
 
@@ -82,5 +82,7 @@ Microsoft Teams認證計畫的線上連絡人中心會驗證每個參與提供�
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
+| `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
+| `GuardRec` | https://www.guardrec.com/en/teams-compliance-recording                          |
 
 當更多解決方案提供者加入並符合認證準則時，將會更新此清單。

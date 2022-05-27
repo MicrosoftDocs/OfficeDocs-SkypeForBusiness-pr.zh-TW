@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b4cfaf44dd1d81c4733d1432abd1f17240d1b38
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 1cbfb516d07232d86782b8469956631d3b026300
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646202"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675225"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>在 Microsoft Teams 中從現有的團隊範本建立新的團隊範本
 
@@ -39,7 +39,7 @@ Microsoft Teams提供預先建立的範本，可加以儲存和修改，以符�
 
 ![[團隊範本] 對話方塊的影像，其中醒目提示 [新增]。](media/template-duplicate.png)
 
- (或者，您可以選取 **含有現有範本** 的 **[AddStart**  >  ] 以開啟 **[選取要用來做為起點的範本**]。) 
+ (或者，您可以選取 [使用 **現有範本****新增**  >  開始] 來開啟 **[選取要用來做為起點的範本**]。) 
 
 ![[團隊範本] 起點畫面的影像，其中醒目提示現有範本。](media/template-start-existing-template.png)
 

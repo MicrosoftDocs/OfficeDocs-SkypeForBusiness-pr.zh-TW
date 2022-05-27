@@ -1,5 +1,5 @@
 ---
-title: 關閉原生Teams檔Upload策略
+title: 關閉Teams原生檔案Upload原則
 author: danieasmith
 ms.author: danismith
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: ''
-description: 瞭解如何使用 PowerShell 建立、設定、指派及Teams檔案策略。
+description: 瞭解如何使用 PowerShell 建立、設定、指派及調整Teams檔案原則。
 audience: admin
 ms.localizationpriority: medium
 MS.collection:
@@ -15,51 +15,51 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 64bd9d23527ef1a63df4f258e89de5e60862a878
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 2b6089e93b4754fa35edaa9befb5cfa6bb176238
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62192482"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681904"
 ---
-# <a name="turn-off-teams-native-file-upload-policy"></a>關閉原生Teams檔Upload策略
+# <a name="turn-off-teams-native-file-upload-policy"></a>關閉Teams原生檔案Upload原則
 
-Microsoft Teams使用OneDrive ODSP SharePoint (ODSP) 來儲存和共用內容，但某些組織和使用者可能偏好使用協力廠商儲存提供者。  
+Microsoft Teams使用OneDrive和SharePoint來儲存及共用內容，但某些組織和使用者可能會偏好使用協力廠商儲存空間提供者。  
 
-如果貴組織選擇內容儲存的協力廠商，您必須關閉檔案Teams ``NativeFileEntryPoints`` 參數。 此參數預設為啟用，顯示將內容從 ODSP 上傳至Teams或頻道的選項。
+如果貴組織選擇協力廠商來儲存內容，您必須關閉 `NativeFileEntryPoints` Teams檔案原則中的參數。 此參數預設為啟用，顯示從OneDrive或SharePoint上傳內容至Teams聊天或頻道的選項。
 
-本文將協助您使用 PowerShell 建立、設定、指派 ``NativeFileEntryPoints`` 及移除參數。
+本文將協助您使用 PowerShell 建立、設定、指派及移除 `NativeFileEntryPoints` 參數。
 
 >[!NOTE]
->當 Teams 檔案政策關閉時，使用者不會在 Teams 中看到 OneDrive 和 SharePoint (ODSP) 的存取點，但新團隊和頻道的建立會繼續觸發符合 SharePoint 文件庫的產生。
+>關閉Teams檔案原則時，使用者不會在Teams中看到OneDrive和SharePoint的存取點，但新團隊和頻道的建立仍會持續觸發相符SharePoint庫的產生。
 
-## <a name="prepare-to-update-the-teams-files-policy"></a>準備更新檔案Teams策略
+## <a name="prepare-to-update-the-teams-files-policy"></a>準備更新檔案Teams原則
 
 ### <a name="set-up-microsoft-powershell"></a>設定 Microsoft PowerShell
 
-目前，此政策無法于系統管理中心Teams變更。 貴組織的租Microsoft 365系統管理員必須使用本文稍後詳述的 PowerShell Cmdlet 進行變更。
+目前，Teams系統管理中心無法變更此原則。 貴組織的Microsoft 365租使用者系統管理員必須使用本文稍後詳述的 PowerShell Cmdlet 進行變更。
 
-瞭解如何使用 PowerShell 圖庫Teams PowerShell 模組安裝[PowerShell](teams-powershell-install.md)Microsoft Teams模組。
+若要瞭解如何使用 PowerShell 資源庫 安裝 PowerShell Teams模組，請閱讀安裝[Microsoft Teams PowerShell 模組](teams-powershell-install.md)。
 
-若要安裝或下載 PowerShell 模組Teams，請參閱[PowerShell 圖庫以Microsoft Teams。](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0)
+若要安裝或下載 Teams PowerShell 模組，請參閱[Microsoft Teams PowerShell 資源庫](https://www.powershellgallery.com/packages/MicrosoftTeams/3.0.0)。
 
-若要瞭解如何設定 PowerShell 以管理Teams，請參閱使用 PowerShell Teams[管理Microsoft Teams。](teams-powershell-managing-teams.md)
+如需如何設定 Teams 管理用 PowerShell 的詳細資訊，請參閱使用[Microsoft Teams PowerShell 管理Teams](teams-powershell-managing-teams.md)。
 
-### <a name="allow-third-party-apps-in-teams-admin-center"></a>在系統管理中心Teams協力廠商應用程式
+### <a name="allow-third-party-apps-in-teams-admin-center"></a>在 Teams 管理員 中心允許協力廠商應用程式
 
-此步驟不需要變更 Teams 策略，但當您準備好將協力廠商儲存空間提供者整合至使用者的使用體驗時，Teams必須執行此步驟。
+此步驟不需要變更Teams檔案原則，但是當您準備好將協力廠商儲存空間提供者整合到使用者Teams體驗中時是必要的。
 
-您的Microsoft 365租使用者系統管理員必須啟用系統管理中心中的「允許協力廠商應用程式」Teams政策。
+您的Microsoft 365租使用者系統管理員必須在Teams系統管理中心啟用「允許協力廠商應用程式」原則。
 
-若要瞭解如何允許協力廠商或自訂應用程式，請參閱在系統管理中心管理您的應用程式中管理Microsoft Teams[應用程式設定](/microsoftteams/manage-apps#manage-org-wide-app-settings)。
+若要瞭解如何允許協力廠商或自訂應用程式，請參閱在系統管理中心管理您的應用程式中的管理整個組織應用程式[的設定Microsoft Teams](/microsoftteams/manage-apps#manage-org-wide-app-settings)。
 
-## <a name="turn-off-nativefileentrypoints-for-your-entire-tenant"></a>關閉整個租使用者的 NativeFileEntryPoints
+## <a name="turn-off-nativefileentrypoints-for-your-entire-tenant"></a>針對整個租使用者關閉 NativeFileEntryPoints
 
-將 ``-Identity`` 參數設定 ``Global`` 為會將原則設定適用于貴組織的所有使用者。
+`-Identity`將參數設定為 `Global` 會將原則設定套用至組織中的所有使用者。
 
-### <a name="sample-powershell-policy-cmdlet-for-entire-tenant"></a>整個租使用者的 PowerShell 策略 Cmdlet 範例
+### <a name="sample-powershell-policy-cmdlet-for-entire-tenant"></a>適用于整個租使用者的 PowerShell 原則 Cmdlet 範例
 
-此範例 PowerShell 命令會 ``NativeFileEntryPoints`` 針對整個租使用者 ``Disabled`` 設定參數。
+此範例 PowerShell 命令會針對您的整個租使用者設定 `NativeFileEntryPoints` 參數 `Disabled` 。
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
@@ -67,7 +67,7 @@ Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
 
 ### <a name="check-the-status-of-your-tenant"></a>檢查租使用者的狀態  
 
-若要查看租使用者檔案Teams目前狀態，請使用 ``Get-CsTeamsFilesPolicy`` Cmdlet。
+若要檢視租使用者Teams檔案原則的目前狀態，請使用 `Get-CsTeamsFilesPolicy` Cmdlet。
 
 ```powershell
 Get-CsTeamsFilesPolicy -Identity Global
@@ -75,7 +75,7 @@ Get-CsTeamsFilesPolicy -Identity Global
 
 ### <a name="turn-on-or-turn-off-native-file-upload-point"></a>開啟或關閉原生檔案上傳點
 
-若要開啟或關閉整個租使用者原生檔案上傳點，請設定參數 ``NativeFileEntryPoints`` 為 或 ``Enabled`` ``Disabled`` 。
+若要開啟或關閉整個租使用者的原生檔案上傳點，請將參數設 `NativeFileEntryPoints` 為 `Enabled` `Disabled` 。
 
 ```powershell
 Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Enabled
@@ -85,50 +85,50 @@ Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Enabled
 Set-CsTeamsFilesPolicy -Identity Global -NativeFileEntryPoints Disabled
 ```
 
-### <a name="remove-the-policy-for-your-users"></a>移除使用者的政策
+### <a name="remove-the-policy-for-your-users"></a>移除使用者的原則
 
-若要移除Teams檔案策略，請使用 ``Remove-CsTeamsFilesPolicy`` Cmdlet。
+若要移除使用者Teams檔案原則，請使用 `Remove-CsTeamsFilesPolicy` Cmdlet。
 
 ```powershell
 Remove-CsTeamsFilesPolicy -Identity Global
 ```
 
-## <a name="turn-off-nativefileentrypoints-for-specific-users"></a>關閉特定使用者的 NativeFileEntryPoints
+## <a name="turn-off-nativefileentrypoints-for-specific-users"></a>針對特定使用者關閉 NativeFileEntryPoints
 
-您也可以為特定使用者Teams檔案策略，Teams檔案策略字串，並將新建立的策略指派 ``-Identity`` 給使用者。
+您也可以建立新的Teams檔案原則字串，並將新建立的原則指派給使用者，藉此更新特定使用者Teams檔案 `-Identity` 原則。
 
-### <a name="sample-powershell-policy-cmdlet-for-specific-users"></a>適用于特定使用者的 PowerShell 策略 Cmdlet 範例
+### <a name="sample-powershell-policy-cmdlet-for-specific-users"></a>特定使用者的 PowerShell 原則 Cmdlet 範例
 
-此範例 PowerShell 命令會建立一個名稱為 且參數 ``CsTeamsFilesPolicy`` ``-Identity`` 設為 ``UserPolicy`` ``NativeFileEntryPoints`` 的新 ``Disabled`` 命令。
+此範例 PowerShell 命令會建立新的 `CsTeamsFilesPolicy` `-Identity` 名稱 `UserPolicy` 和 `NativeFileEntryPoints` 參數設定為 `Disabled` 。
 
-當使用者被指派為 時， ``CsTeamsFilesPolicy`` 其原生檔案 ``-Identity UserPolicy`` 輸入點會關閉。
-
-```powershell
-New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled
-```
-
-### <a name="assign-a-policy-to-user"></a>指派策略給使用者
-
-建立新策略之後，您可以使用 Cmdlet 將該策略 ``Grant-CsTeamsFilesPolicy`` 指派給使用者。
+當使用者獲得指派 `CsTeamsFilesPolicy` `-Identity UserPolicy` 時，他們的原生檔案專案點將會關閉。
 
 ```powershell
-Grant-CsTeamsFilesPolicy  -identity "user email id" -PolicyName UserPolicy
+New-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Disabled
 ```
 
-### <a name="update-the-policy"></a>更新策略
+### <a name="assign-a-policy-to-user"></a>指派原則給使用者
 
-如果您需要變更新的檔案Teams設定 ``UserPolicy`` ，請使用 ``Set-CsTeamsFilePolicy`` Cmdlet。
+建立新原則後，您可以使用 `Grant-CsTeamsFilesPolicy` Cmdlet 將該原則指派給使用者。
 
 ```powershell
-Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
+Grant-CsTeamsFilesPolicy  -identity "user email id" -PolicyName UserPolicy
 ```
 
-### <a name="remove-the-policy-for-the-complete-list-of-users"></a>移除完整使用者清單的政策
+### <a name="update-the-policy"></a>更新原則
 
-若要從指派給檔案策略的所有使用者移除 ``UserPolicy`` Teams，請使用 ``Remove-CsTeamsFilesPolicy`` Cmdlet。
+如果您需要變更新Teams檔案 `UserPolicy` 原則的設定，請使用 `Set-CsTeamsFilePolicy` Cmdlet。
+
+```powershell
+Set-CsTeamsFilesPolicy -Identity UserPolicy -NativeFileEntryPoints Enabled
+```
+
+### <a name="remove-the-policy-for-the-complete-list-of-users"></a>移除使用者完整清單的原則
+
+若要從指派給Teams檔案 `UserPolicy` 原則的所有使用者中移除原則，請使用 `Remove-CsTeamsFilesPolicy` Cmdlet。
 
 ```powershell
 Remove-CsTeamsFilesPolicy -Identity UserPolicy
 ```
 >[!NOTE]
-> 變更政策後，最多 12 小時，變更會顯示在使用者的用戶端Teams顯示。
+> 變更原則之後，最多可在 12 小時之內讓變更顯示在使用者Teams用戶端中。

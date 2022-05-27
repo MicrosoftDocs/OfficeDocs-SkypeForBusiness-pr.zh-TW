@@ -8,7 +8,7 @@ audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: 在本文中，您將瞭解如何在 Microsoft Teams 中存檔或永久刪除Microsoft Teams。
+description: 在本文中，您將瞭解如何封存或永久刪除Microsoft Teams中的團隊。
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c310794d439af79e53618d9b6e93e567c652cf47
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 0ec5d6dedc482eb7becdd23fbd2747e87195cd0f
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766636"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674445"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中封存或刪除團隊
 
@@ -32,46 +32,46 @@ ms.locfileid: "61766636"
 
 當您封存小組時，該小組的所有活動都會停止。 封存小組也會封存小組的私人頻道及其相關網站集合。  但是，您仍然可以新增或移除成員、更新角色，而且仍然可以在標準和私人頻道、檔案、聊天中檢視所有的小組活動。
 
-刪除團隊時，也會刪除標準 (頻道中的小組活動，) 檔案和聊天等相關聯的網站集合。
+當您刪除團隊時，也會刪除標準和私人頻道中的團隊活動 (以及相關聯的網站集合) 、檔案和聊天。
 
 > [!IMPORTANT]
-> 封存的小組可以重新啟用，但是您無法直接還原已刪除的小組。 請先考慮封存小組，並延後刪除，直到確定您不再需要小組。
+> 您可以重新啟用已封存的團隊，但您無法直接還原已刪除的團隊。 請先考慮封存小組，並延後刪除，直到確定您不再需要小組。
 
 ## <a name="archive-a-team"></a>封存小組
 
 按照這些步驟以封存小組。 您必須是 Teams 服務系統管理員才能進行這些變更。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
 
-1. 在系統管理中心 **中，選取** Teams。
+1. 在系統管理中心中，選 **取 [Teams]**。
 2. 按一下小組名稱以選取小組。
 3. 選取 [封存]。 將會出現下列訊息。
 
-    ![檔案Teams的螢幕擷取畫面。](media/teams-archive-message.png)
+    ![Teams封存訊息的螢幕擷取畫面。](media/teams-archive-message.png)
 
-4. 若要防止人員編輯與小組SharePoint網站和 Wiki SharePoint中的內容，請選取將網站SharePoint為小組成員的唯讀 **網站**。  (Teams擁有者仍然可以編輯此內容。) 
-5. 選取 [封存] 以封存小組。 團隊的狀態會變更為已存檔，它會移到團隊清單底部的隱藏團隊內，而代表已存檔狀態的小圖示會新增到該團隊旁邊。
+4. 若要防止人員編輯SharePoint網站中的內容，以及與小組相關聯的 [Wiki] 索引標籤，請選取 [**讓小組成員的SharePoint網站設為唯讀**]。  (Teams擁有者仍然可以編輯此內容。) 
+5. 選取 [封存] 以封存小組。 團隊的狀態會變更為 [ **已封存**]，它會移至位於團隊清單底部的 **[隱藏的團隊** ] 內，並在旁邊新增一個代表封存狀態的小圖示。
 
 ## <a name="make-an-archived-team-active"></a>讓封存的小組成為使用中
 
 按照下列步驟，讓封存的小組成為使用中。
 
-1. 在系統管理中心 **中，選取** Teams。
+1. 在系統管理中心中，選 **取 [Teams]**。
 2. 按一下小組名稱以選取小組。
-3. 選取 **還原**。 小組的狀態會變更為 [使用中]。 請注意，它不會自動移回您的 **小組** 內。
+3. 選取 **[還原]**。 團隊的狀態會變更為 [ **使用中]**。 請注意，系統不會自動將它移回 **[您的團隊]** 內。
 
 ## <a name="delete-a-team"></a>刪除小組
 
 如果未來不再需要小組，您可以將它刪除，而不只是封存。 按照下列步驟刪除小組。
 
-1.  在系統管理中心 **中，選取** Teams。
-2.  按一下小組名稱以選取小組。
-3.  選取 [刪除]。 將會出現確認訊息。
-4.  選取 [刪除] 以永久刪除小組。
+1. 在系統管理中心中，選 **取 [Teams]**。
+2. 按一下小組名稱以選取小組。
+3. 選取 [刪除]。 將會出現確認訊息。
+4. 選取 [刪除] 以永久刪除小組。
 
 ## <a name="restore-a-deleted-team"></a>還原刪除的小組
 
-請遵循下列步驟還原已刪除的團隊，Microsoft 365與小組相關聯的群組。 還原小組Microsoft 365群組會還原小組內容，包括定位停駐點、標準頻道和私人頻道及其相關聯的網站集合。
+請依照下列步驟還原與團隊關聯的Microsoft 365群組，以還原已刪除的團隊。 還原團隊的Microsoft 365群組會還原團隊內容，包括索引標籤、標準頻道、私人頻道及其相關聯的網站集合。
 
-根據預設，已刪除Microsoft 365群組會保留 30 天。 此 30 天期間稱為「虛刪除」，因為您可還原該群組。 若要深入瞭解，請參閱 [還原已刪除的群組](/microsoft-365/admin/create-groups/restore-deleted-group)。
+根據預設，已刪除的Microsoft 365組會保留 30 天。 此 30 天期間稱為「虛刪除」，因為您可還原該群組。 若要深入瞭解，請參閱 [還原已刪除的群組](/microsoft-365/admin/create-groups/restore-deleted-group)。
 
 ### <a name="install-the-azureadpreview-module"></a>安裝 AzureADPreview 模組
 
@@ -85,35 +85,45 @@ ms.locfileid: "61766636"
     ```PowerShell
     Uninstall-Module AzureAD
     ```
+
 3. 執行以下命令安裝最新版 AzureADPreview 模組：
 
     ```PowerShell
     Install-Module AzureADPreview
     ```
 
-### <a name="restore-the-deleted-microsoft-365-group"></a>還原已刪除的Microsoft 365群組
+### <a name="restore-the-deleted-microsoft-365-group"></a>還原已刪除的Microsoft 365組
 
 1. 執行下列命令連線到 Azure AD：
+
     ```PowerShell
     Connect-AzureAD
     ```
-    當您看到提示時，使用您的系統管理員帳戶和密碼登入。  
-2. 請執行下列操作，以顯示仍在 30 天保留期間Microsoft 365刪除的所有群組清單。 如果您 **有許多$True，** 請使用 -All $True參數。
+
+    當您看到提示時，使用您的系統管理員帳戶和密碼登入。
+
+1. 執行下列動作以顯示仍在 30 天保留期間內的所有虛刪除Microsoft 365群組清單。 如果您有許多群組，請使用 **-All $True** 參數。
+
     ```PowerShell
     Get-AzureADMSDeletedGroup
     ```
-3. 尋找您想要還原的群組，然後記下 `Id` 。
-4. 執行下列操作來還原群組，其中 `[Id]` 為群組識別碼。
+
+1. 尋找您要還原的群組，然後記下 `Id` 。
+1. 執行下列動作以還原群組，其所在為 `[Id]` 群組識別碼。
+
     ```PowerShell
     Restore-AzureADMSDeletedDirectoryObject -Id [Id]
     ```
-5.  請執行下列操作，確認群組已成功還原，群組 `[Id]` 識別碼在哪裡。
+
+1. 執行下列動作以確認群組已成功還原，群組識別碼在哪裡 `[Id]` 。
+
     ```PowerShell
     Get-AzureADGroup -ObjectId [Id]
     ```
 
     完成還原程序最多可能需要 24 小時，之後就會在 Teams 中顯示小組以及小組相關聯的內容 (包括索引標籤和頻道) 。
-    
+
 ## <a name="related-topics"></a>相關主題
 
-- [將小組存檔或還原](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) 
+- [封存或還原團隊](https://support.microsoft.com/office/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7)
+

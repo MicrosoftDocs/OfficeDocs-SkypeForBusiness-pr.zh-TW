@@ -19,60 +19,60 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 瞭解如何指派、變更或移除您的公司電話號碼Teams讓外部企業和客戶可以來電。
-ms.openlocfilehash: 6341b6c3242eafad7039b210995ee7c56613442e
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+description: 瞭解如何指派、變更或移除Teams使用者的公司電話號碼，讓外部企業和用戶端可以撥入電話。
+ms.openlocfilehash: dc616425b4dce35a2a40179e0ee4a56d31bae12b
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456906"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676485"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>指派、變更或移除使用者的電話號碼
 
-當您設定通話方案或接線連線時，會指派電話號碼給使用者。 在 Microsoft Teams中，當使用者按一下通話時，會列出您指派 **的電話號碼**。 
+當您設定通話方案或電信業者連線時，會將電話號碼指派給使用者。 在 Microsoft Teams 中，當使用者按一下 [**通話**] 時，會列出您指派的電話號碼。
 
-本文適用于通話方案及接線連線。 若要在直接路由情況下指派、變更或移除使用者的電話號碼，請參閱啟用使用者進行直接路由、語音和 [語音信箱](./direct-routing-enable-users.md)。
+本文適用于通話方案和電信業者連線。 如需在直接路由案例中指派、變更或移除使用者電話號碼的相關資訊，請參閱 [啟用使用者的直接路由、語音和語音信箱](./direct-routing-enable-users.md)。
 
-在您為通話方案或接線連線使用者指派號碼之前，您必須為使用者取得號碼。 詳細資訊，請參閱取得[通話](getting-phone-numbers-for-your-users.md)方案使用者的號碼，或設定接線連線[號碼](operator-connect-configure.md#set-up-phone-numbers)。
-
-  
-> [!NOTE]
-> 查看使用者是否已指派授權的方法之一，是Microsoft Teams系統管理中心>**使用者**。 如果已指派授權，就會在頁面上顯示授權。  您也可以使用Microsoft 365 系統管理中心。
+在指派通話方案或電信業者連線使用者的號碼之前，您必須先為使用者取得號碼。 如需詳細資訊，請參閱[取得通話方案使用者的號碼](getting-phone-numbers-for-your-users.md)或[為電信業者連線使用者設定號碼](operator-connect-configure.md#set-up-phone-numbers)。
 
 > [!NOTE]
-> 本附注適用于使用內部部署 Active Directory 進行混合式部署的客戶。 如果您想要將通話方案或運算子 連線 電話號碼指派給使用者或資源帳戶，您必須確保已移除儲存在內部部署 Active Directory 中使用者或資源帳戶物件上 msRTCSIP-Line 屬性中的任何電話號碼，而且變更已同步到 Microsoft 365。
-  
+> 查看使用者是否已指派授權的其中一個方法是移至 [使用者] Microsoft Teams系統管理中心>**使用者。** 如果已指派授權，該授權會顯示在頁面上。  您也可以使用Microsoft 365 系統管理中心。
+
+> [!NOTE]
+> 本附注適用于具有內部部署的 Active Directory混合式部署的客戶。 如果您想要將通話方案或電信業者連線電話號碼指派給使用者或資源帳戶，您必須確保已移除儲存在使用者或資源帳戶物件之 msRTCSIP-Line 屬性中的任何電話號碼 內部部署的 Active Directory，且變更已同步處理至Microsoft 365。
+
 ## <a name="assign-a-phone-number-to-a-user"></a>指派電話號碼給使用者
 
-將電話號碼指派給使用者時，請確定使用者的電話號碼和使用位置都在同一個國家/地區。
+將電話號碼指派給使用者時，請確定電話號碼和使用者的使用位置都在同一個國家/地區。
 
-若要使用系統管理中心指派Teams號碼：
-    
-1. 在左側流覽中，按一下 **[語音**  >  **電話號碼**。
+若要使用Teams系統管理中心指派號碼：
 
-2. 在 [數位 **電話** 頁面上，選取清單中的未分配的號碼，然後按一下 [**編輯**。  
+1. 在左側導覽畫面中，按一下 **[語音**  >  **電話號碼。**
 
-3. 在 [ **編輯窗格** 的 **[** 指派給的畫面中，依據顯示名稱或使用者名稱搜尋使用者，然後按一下 [ **指派**。
+2. 在 **[電話編號**] 頁面上，選取清單中未指派的編號，然後按一下 [**編輯]**。
 
-4. 若要指派或變更相關聯的緊急位置，請在緊急位置下搜尋，然後選取該位置。
+3. 在 [ **編輯** ] 窗格中的 [ **指定物件**] 底下，依顯示名稱或使用者名稱搜尋使用者，然後按一下 [ **指派]**。
+
+4. 若要指派或變更相關聯的緊急位置，請在 [ **緊急位置**] 底下搜尋，然後選取該位置。
 
    > [!NOTE]
-   > 如果您要將號碼指派給運算子連線使用者，您可能無法指派或變更相關聯的緊急位置。 此功能取決於您的運算子。 如需詳細資訊，請與您的接線員聯繫。
+   > 如果您要將號碼指派給電信業者連線使用者，您可能或無法指派或變更相關的緊急位置。 這項功能將視您的運算子而定。 如需詳細資訊，請連絡您的運算子。
 
-5. 根據您是否要傳送包含其電話號碼資訊的電子郵件給使用者，請關閉或開啟包含電話號碼 **資訊的電子郵件使用者**。 根據預設，這會是啟用狀態。 
-
+5. 根據您是否要傳送含有電話號碼資訊的電子郵件給使用者，請關閉或開啟 **含有電話號碼資訊的電子郵件使用者**。 預設會開啟此設定。
 6. 按一下 [儲存]。
 
-若要使用 PowerShell 指派數位，請使用 [Set-CsPhoneNumberAssignment Cmdlet](/powershell/module/teams/set-csphonenumberassignment) ，如下所示：
+若要使用 PowerShell 指派數位，請使用 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) Cmdlet，如下所示：
 
-針對通話方案號碼
+針對通話方案號碼：
+
 ```PowerShell
-Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType CallingPlan
+Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType CallingPlan
 ```
 
-針對運算子連線數位
+如需電信業者連線數位：
+
 ```PowerShell
-Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
+Set-CsPhoneNumberAssignment -Identity <user> -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
 例如：
@@ -83,51 +83,50 @@ Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+1425555010
 ```
 
 > [!NOTE]
-> 由於使用者與Microsoft 365之間的Teams，使用者最多可能需要 24 小時才能啟用。 如果 24 小時後未正確指派電話號碼，請參閱電話[號碼服務中心](https://pstnsd.powerappsportals.com/)。 
+> 由於Microsoft 365與Teams之間的延遲，使用者最多可能需要 24 小時才能啟用。 如果 24 小時後未正確指派電話號碼，請參[閱電話號碼服務中心。](https://pstnsd.powerappsportals.com/)
 
-  
 ## <a name="change-a-phone-number-for-a-user"></a>變更使用者的電話號碼
 
-若要使用系統管理中心變更使用者Teams電話號碼：
-    
-1. 在左側流覽中，按一下 [使用者，找出並按兩下您想要的使用者;按一下 [帳戶>，然後在 [一般資訊> 下，記下指派給使用者的電話號碼。****
+若要使用系統管理中心變更使用者的電話號碼Teams：
 
-2. 在左側流覽中，按一下 **[語音**  >  **電話號碼**。
+1. 在左側導覽中，按一下 [ **使用者**]，找出並按兩下您要的使用者，再按一下 [ **帳戶**]，然後在 [一 **般資訊**] 底下記下指派給使用者的電話號碼。
 
-3. 在 [數位 **電話** 頁面上，選取您于步驟 1 中識別的數位，然後按一下 [**編輯**。  
+2. 在左側導覽畫面中，按一下 **[語音** \> **電話號碼]**。
 
-4. 在 [ **編輯窗格** 的 **[指派給** 中， 下，按一下 **X** 以移除使用者。
+3. 在 **[電話編號**] 頁面上，選取您在步驟 1 中識別的號碼，然後按一下 [**編輯]**。
+
+4. 在 [ **編輯** ] 窗格中的 [ **指定物件**] 底下，按一下 **[X** ] 以移除使用者。
 
 5. 按一下 [儲存]。
 
-6. 在 [數位 **電話** 頁面上，選取清單中的未分配的號碼，然後按一下 [**編輯**。  
+6. 在 **[電話編號**] 頁面上，選取清單中未指派的編號，然後按一下 [**編輯]**。
 
-7. 在 [ **編輯窗格** 的 **[** 指派給的畫面中，依據顯示名稱或使用者名稱搜尋使用者，然後按一下 [ **指派**。
+7. 在 [ **編輯** ] 窗格中的 [ **指定物件**] 底下，依顯示名稱或使用者名稱搜尋使用者，然後按一下 [ **指派]**。
 
-8. 若要指派或變更相關聯的緊急位置，請在緊急位置下搜尋，然後選取該位置。
+8. 若要指派或變更相關聯的緊急位置，請在 [ **緊急位置**] 底下搜尋，然後選取該位置。
 
       > [!NOTE]
-      > 如果您要變更運算子的使用者連線號碼，您可能無法指派或變更相關聯的緊急位置。 此功能取決於您的運算子。 如需詳細資訊，請與您的接線員聯繫。
+      > 如果您要變更電信業者連線使用者的數位，您可能無法指派或變更相關聯的緊急位置。 這項功能將視您的運算子而定。 如需詳細資訊，請連絡您的運算子。
 
 9. 按一下 [儲存]。
 
-有關 PowerShell 範例，請參閱 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)。
+如需 PowerShell 範例，請參閱 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)。
 
 ## <a name="remove-a-phone-number-from-a-user"></a>移除使用者的電話號碼
 
-若要使用系統管理中心移除Teams電話號碼：
+若要使用系統管理中心移除電話號碼Teams：
 
-1. 在左側流覽中，按一下 [使用者，找出並按兩下您想要的使用者;按一下 [帳戶>，然後在 [一般資訊> 下，記下指派給使用者的電話號碼。****
+1. 在左側導覽中，按一下 [ **使用者**]，找出並按兩下您要的使用者，再按一下 [ **帳戶**]，然後在 [一 **般資訊**] 底下記下指派給使用者的電話號碼。
 
-2. 在左側流覽中，按一下 **[語音**  >  **電話號碼**。
+2. 在左側導覽畫面中，按一下 **[語音** \> **電話號碼]**。
 
-3. 在 [數位 **電話** 頁面上，選取您于步驟 2 中識別的數位，然後按一下 [**編輯**。  
+3. 在 **[電話編號**] 頁面上，選取您在步驟 2 中識別的號碼，然後按一下 [**編輯]**。
 
-4. 在 [ **編輯窗格** 的 **[指派給** 中， 下，按一下 **X** 以移除使用者。
+4. 在 [ **編輯** ] 窗格中的 [ **指定物件**] 底下，按一下 **[X** ] 以移除使用者。
 
 5. 按一下 [儲存]。
 
-有關 PowerShell 範例，請參閱 [Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)。
+如需 PowerShell 範例，請參閱 [Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -142,4 +141,3 @@ Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+1425555010
 [Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
 
 [Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)
-

@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在Microsoft Teams中管理貴組織中的標籤使用方式。
-ms.openlocfilehash: 0fa615f2bbcdd7965777925b2413717779ad4a7a
-ms.sourcegitcommit: 54cb804e6e8338f2d09499e53416e6d55ef1cc40
+ms.openlocfilehash: 62ac77c6467a17da10fdc3ba66350383d7c8016c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/17/2022
-ms.locfileid: "65442009"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675545"
 ---
 # <a name="manage-tags-in-microsoft-teams"></a>管理 Microsoft Teams 中的標籤
 
@@ -35,7 +35,7 @@ Microsoft Teams中的標籤可讓使用者快速且輕鬆地與團隊中的一�
 - **按班標記**：使用此功能，系統會自動指派符合排程的標籤，並在Teams的 [Shifts 應用程式](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)中指派組名。 例如，「EngineerOnCall」標籤會在聊天或頻道貼文中使用標籤時，觸及排定在 Shifts 中工作的所有工程師。 透過按班標記，當使用者需要快速轉送資訊時，Teams會猜出對輪班員工名稱的猜測。 JDA、Kronos 和 AMiON 等主要員工管理系統也可以透過將它們與 Teams 中的 Shifts 整合，藉此支援按班次標記。 若要深入瞭解如何設定此功能，請參閱 [按班設定標記](#set-up-tagging-by-shift)。
 
 > [!NOTE]
-> 私人或共用頻道不支援標籤。  
+> 私人或共用頻道不支援標籤。
 
 ## <a name="how-tags-work"></a>標籤的運作方式
 
@@ -55,7 +55,7 @@ Microsoft Teams中的標籤可讓使用者快速且輕鬆地與團隊中的一�
 
 ![在系統管理中心Microsoft Teams標記設定的螢幕擷取畫面。](media/manage-tags-admin-settings.png)
 
-團隊最多可以有 100 個標籤，最多可以指派 200 個小組成員給一個標籤，而同一個團隊中最多可以將 25 個標籤指派給單一使用者。 
+團隊最多可以有 100 個標籤，最多可以指派 200 個小組成員給一個標籤，而同一個團隊中最多可以將 25 個標籤指派給單一使用者。
 
 ### <a name="set-who-can-add-custom-tags"></a>設定誰可以新增自訂標籤
 
@@ -91,15 +91,15 @@ Microsoft Teams中的標籤可讓使用者快速且輕鬆地與團隊中的一�
 
 ### <a name="create-and-assign-custom-tags"></a>建立及指派自訂標籤
 
-若要建立及指派自訂標籤，請選 **取** 應用程式左側Teams，然後在清單中尋找您的小組。 選 **取 [̇ ̇ ̇ 更多選項]**，然後選擇 **[管理標籤]**。 您可以在這裡建立標籤，並將標記指派給小組中的人員。
+若要建立及指派自訂標籤，請選 **取** 應用程式左側Teams，然後在清單中尋找您的小組。 選取 **...[更多選項]**，然後選擇 **[管理標籤]**。 您可以在這裡建立標籤，並將標記指派給小組中的人員。
 
 ![螢幕擷取畫面顯示如何在Teams用戶端中套用標籤。](media/manage-tags-teams.png)
 
-若要刪除標籤，請選取標籤旁的 **[̇ ̇ ̇ 更多選項** ]，然後選取 **[刪除標籤]**。
+若要刪除標籤，請選取 **...卷** 標旁的更多選項，然後選取 **[刪除標籤]**。
 
 ### <a name="set-up-tagging-by-shift"></a>依班次設定標記
 
-按班標記可讓您的使用者即時聯繫上班的人員。 Teams會自動指派符合排程標籤的使用者，並從 Shifts 應用程式移轉組名，以啟用動態角色型訊息。 通知只會傳送給輪班時使用標籤開始聊天或頻道文章的人員。 
+按班標記可讓您的使用者即時聯繫上班的人員。 Teams會自動指派符合排程標籤的使用者，並從 Shifts 應用程式移轉組名，以啟用動態角色型訊息。 通知只會傳送給輪班時使用標籤開始聊天或頻道文章的人員。
 
 1. 在 Teams 中，移至[Shifts 應用程式](https://support.microsoft.com/office/get-started-in-shifts-5f3e30d8-1821-4904-be26-c3cd25a497d6#bkmk_openshiftsappdesktop)。
 2. 建立 [班次群組，](https://support.microsoft.com/office/fill-out-a-schedule-in-shifts-2d58df9b-1c6c-4c84-b0c3-835de7ad13ea#bkmk_organizeshiftsbygroup) 並以角色等屬性為其命名。 例如，EngineerOnCall。 班組名會是標籤的名稱。

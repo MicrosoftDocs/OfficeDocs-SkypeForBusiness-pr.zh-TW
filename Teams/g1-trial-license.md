@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1208636547258524816ca77e57ddc3b83646144
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8e6313d64f5ce4b2b22d6969d0ca7115d42d5a31
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618469"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676275"
 ---
 # <a name="manage-the-office-365-g1-trial-for-us-government"></a>管理適用於美國政府的 Office 365 G1 試用版 
 
@@ -55,10 +55,10 @@ ms.locfileid: "58618469"
 
   - 如果您想要透過 PowerShell 移除此授權，請參閱：[使用 Office 365 PowerShell 從使用者帳戶移除授權](/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
 
-  - 如果您想要透過系統管理入口網站移除此授權，請參閱：[刪除組織的使用者](/microsoft-365/admin/add-users/delete-a-user)
+  - 如果您想要透過系統管理入口網站移除此授權，請參閱：[從貴組織刪除使用者](/microsoft-365/admin/add-users/delete-a-user)
 
 ## <a name="related-topics"></a>相關主題
 
 [管理使用者對 Teams 的存取權](user-access.md)
 
-[管理貴組織的 Teams 設定](enable-features-office-365.md)
+[管理組織的 Teams 設定](enable-features-office-365.md)

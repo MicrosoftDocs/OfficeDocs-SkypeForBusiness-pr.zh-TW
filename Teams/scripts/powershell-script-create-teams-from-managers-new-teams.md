@@ -1,5 +1,5 @@
 ---
-title: PowerShell 腳本範例 - 建立新的人員管理員團隊
+title: PowerShell 腳本範例 - 建立新的人員管理團隊
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: brandber
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 腳本為每位主管建立一個團隊，並擔任團隊成員。
+description: 使用此 PowerShell 腳本為每個主管建立一個團隊，並以其直接的團隊成員身分建立團隊。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -16,39 +16,36 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f30bab1e96fc16b135b178a1933bbfd08289e861
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05f5a53974444341ecc7da8431525b69bc8f1923
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577793"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681554"
 ---
-# <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell 腳本範例 - 建立新的人員管理員團隊
+# <a name="powershell-script-sample---create-new-people-manager-teams"></a>PowerShell 腳本範例 - 建立新的人員管理團隊
 
-使用此 PowerShell 腳本為每位主管建立一個團隊，並擔任團隊成員。 執行此腳本之前，請執行匯出[](powershell-script-create-teams-from-managers-export-managers.md)管理員腳本， (Active Directory 匯出) 管理員及其主管清單來匯出您的組織。
+使用此 PowerShell 腳本為每個主管建立一個團隊，並以其直接的團隊成員身分建立團隊。 執行此腳本之前，請先執行 [匯出管理員](powershell-script-create-teams-from-managers-export-managers.md) 腳本，從 Active Directory 匯出 () 貴組織的主管及其主管清單。
 
-若要瞭解此 PowerShell 腳本，請參閱 [建立人員管理員團隊](../create-manager-directs-teams.md)。
+若要深入瞭解此 PowerShell 腳本，請閱讀 [建立人員管理團隊](../create-manager-directs-teams.md)。
 
-如果您剛開始使用 PowerShell，需要協助開始使用，請參閱概觀[Azure PowerShell。](/powershell/azure/overview?view=azurermps-5.1.1)
+如果您是 PowerShell 的新手，而且需要快速入門方面的協助，請參閱[Azure PowerShell概觀](/powershell/azure/overview)。
 
-
-## <a name="create-new-people-manager-teams"></a>建立新的人員管理員團隊 
+## <a name="create-new-people-manager-teams"></a>建立新的人員管理團隊
 
 ```powershell
-<# 
-.SYNOPSIS 
-  Name: New-TeamsFromManagers.ps1 
-  This sample script creates a new team for each people manager that includes the manager and their direct reports, based off the ExportedManagerDirects.txt file. 
-   
-.DESCRIPTION 
+<#
+.SYNOPSIS
+  Name: New-TeamsFromManagers.ps1
+  This sample script creates a new team for each people manager that includes the manager and their direct reports, based off the ExportedManagerDirects.txt file.
+
+.DESCRIPTION
  This sample script create new Teams based on the tab delimited .txt file you provide of managers and direct reports.
- 
-.NOTES 
-  &copy; 2020 Microsoft Corporation.  All rights reserved.  This document is provided 
-    "as-is." Information and views expressed in this document, including URL and 
-    other Internet Web site references, may change without notice.
- 
-.EXAMPLE 
+
+.NOTES
+  &copy; 2020 Microsoft Corporation.  All rights reserved.  This document is provided "as-is." Information and views expressed in this document, including URL and other Internet Web site references, may change without notice.
+
+.EXAMPLE
   New-TeamsFromManagers.ps1 -Input .\TeamsToCreate.txt
 #>
 
@@ -112,7 +109,7 @@ Function ProcessData ($Managers) {
                     $person.TeamsEnabled = IsTeamsEnabled $person.UserPrincipalName
                     if ($person.TeamsEnabled -eq $false) {
                         $countNonEnabled++
-                        Write-Verbose "$(Get-Timestamp) Warning: $($person.UserPrincipalName) is not enabled for Teams."                        
+                        Write-Verbose "$(Get-Timestamp) Warning: $($person.UserPrincipalName) is not enabled for Teams."
                     }
                     $boss.DirectReports.Add($person)
                 }
@@ -211,5 +208,4 @@ foreach ($Manager in $Managers) {
 Write-Host -ForegroundColor Green "$(Get-Timestamp) Info: Step 3: Completed."
 Write-Host -ForegroundColor Green "$(Get-Timestamp) Info: Exiting.."
 #endregion
-
 ```

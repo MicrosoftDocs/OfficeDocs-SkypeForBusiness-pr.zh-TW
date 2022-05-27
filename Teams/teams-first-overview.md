@@ -15,12 +15,12 @@ description: 使用此指導方針將Microsoft Teams作為您的第一個Microso
 ROBOTS: NOINDEX, NOFOLLOW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6dba57003aaa58b9d0b72e7e866da261bed578e
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 2621ea94e2a35e7de9eed3dac2994f9b1932b0bb
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922684"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681724"
 ---
 # <a name="roll-out-microsoft-teams-first"></a>Microsoft Teams First 推出
 
@@ -39,8 +39,8 @@ Microsoft Teams可協助您的員工保持聯繫並彼此共同作業，尤其�
 
 1.  使用您的功能變數名稱設定的Microsoft 365或Office 365組織
 
-2.  Azure Active Directory連線 (AAD連線) 或類似的雲端身分識別同步處理解決方案 –與您的租使用者同步處理所有必要屬性  
-    若要瞭解與AAD同步處理的屬性，請閱讀[Azure AD 連線同步處理：與Azure Active Directory同步的屬性](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
+2.  Azure Active Directory連線 (AAD 連線) 或類似的雲端身分識別同步處理解決方案 – 與您的租使用者同步處理所有必要屬性  
+    若要瞭解與 AAD 同步處理同步處理的屬性，請參閱[Azure AD 連線同步處理：與Azure Active Directory同步處理的屬性](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized)
 
 3.  為Teams指派適當的使用者授權  
     若要瞭解Teams授權，請閱讀[Microsoft Teams服務說明](/office365/servicedescriptions/teams-service-description)。
@@ -136,7 +136,7 @@ Teams 中的 VoIP / PSTN</td>
 <tr class="odd">
 <td>應用程式平臺</td>
 <td>使用者將能夠根據貴公司的原則，使用指定的應用程式。<br />
-在這裡深入瞭解：<a href="/microsoftteams/admin-settings">Teams 中應用程式的</a>系統管理設定</td>
+在這裡深入瞭解：<a href="/microsoftteams/admin-settings">Teams 中應用程式的管理員設定</a></td>
 </tr>
 <tr class="even">
 <td>安全性與合規性功能</td>
@@ -214,7 +214,7 @@ Teams 中的 VoIP / PSTN</td>
 <tr class="odd">
 <td>應用程式平臺</td>
 <td>使用者將能夠根據貴公司的原則，使用指定的應用程式。<br />
-在這裡深入瞭解：<a href="/microsoftteams/admin-settings">Teams 中應用程式的</a>系統管理設定</td>
+在這裡深入瞭解：<a href="/microsoftteams/admin-settings">Teams 中應用程式的管理員設定</a></td>
 </tr>
 <tr class="even">
 <td>安全性與合規性功能</td>

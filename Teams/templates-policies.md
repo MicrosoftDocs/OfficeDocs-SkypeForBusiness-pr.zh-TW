@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在系統管理中心管理小組範本
-ms.openlocfilehash: c753a92205844ebade9a713a8442837039232339
-ms.sourcegitcommit: 140c34f20f9cd48d7180ff03fddd60f5d1d3459f
+ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "65248935"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681394"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>在系統管理中心管理小組範本
 

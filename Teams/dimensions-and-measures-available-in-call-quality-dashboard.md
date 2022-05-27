@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 取得 Microsoft Teams 和 商務用 Skype Online 的通話品質儀表板 (CQD) 所使用的維度和度量的詳細資訊。
-ms.openlocfilehash: 01159d64a1c9fdb48321bdb82b6199d6861c4bfa
-ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
+ms.openlocfilehash: f5614f7f0d14aa0053a613f5f471ae5e5315f1cf
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65462047"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675935"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>[通話品質儀表板] (CQD) 中提供的維度和度量
 
@@ -753,7 +753,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 |P50 封包遺失率 | 百分比 | 50% 的要求應低於指定的封包遺失率。|
 |PSTN 撥出後轉盤延遲| 毫秒 | 撥出電話的延遲，是從撥號到來電者或來電者聽到鈴聲為止。|
 |PSTN 轉盤後延遲接收 | 毫秒 | 來電所發生的時間或延遲，是從撥號到來電者或來電者聽到響鈴的時間。|
-|PSTN NER 良好百分比 | 百分比 | NER 會藉由測量來電數目與傳送給收件者的來電數目，來測量網路能夠接聽電話的能力。<br/>NER = (接聽的電話 + 使用者忙碌 + 響鈴不接聽 + 終端機拒絕癲癇」/總嘗試通話 x 100。這個量值最多有 0.2% 的錯誤。 如需詳細資訊，請參閱下方附注。|
+|PSTN NER 良好百分比 | 百分比 | NER 會藉由測量來電數目與傳送給收件者的來電數目，來測量網路能夠接聽電話的能力。<br/>NER = (接聽的電話 + 使用者忙碌 + 無接聽電話 + 終端機拒絕癲癇) / 嘗試通話總數 x 100。 此量值有高達 0.2% 的錯誤。 如需詳細資訊，請參閱下方附注。|
 | Avg 自動語音應答鏈連結持續時間秒數 | 整數 | 使用者在自動語音應答中花費的平均持續時間，以秒為單位。 |
 | Avg 通話佇列持續時間秒數 | 整數 | 使用者等待由專員接聽來電佇列的平均持續時間，以秒為單位。 |
 

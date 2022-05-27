@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0f7e84dcd65f844e457d4821717ff7593593ce
-ms.sourcegitcommit: 2ce3e95401ac06c0370a54862372a94ec6291d01
+ms.openlocfilehash: 22e8307f386d6dba93812f77b668ec5578542136
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2022
-ms.locfileid: "64976014"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674475"
 ---
 # <a name="use-powershell-to-connect-shifts-to-blue-yonder-workforce-management"></a>使用 PowerShell 將班次連線到 Blue Yonder 員工管理
 
@@ -47,7 +47,7 @@ ms.locfileid: "64976014"
 
 [!INCLUDE [shifts-connector-prerequisites](../../includes/shifts-connector-prerequisites.md)]
 
-### <a name="admin-role-to-manage-the-connector-using-powershell"></a>使用 PowerShell 管理連接器的系統管理員角色
+### <a name="admin-role-to-manage-the-connector-using-powershell"></a>使用 PowerShell 管理連接器管理員角色
 
 [!INCLUDE [shifts-connector-admin-role](../../includes/shifts-connector-admin-role.md)]
 
@@ -93,7 +93,7 @@ Connect-MicrosoftTeams
     - **EnabledConnectorScenarios** 參數會定義從 Blue Yonder WFM 同步到 Shifts 的資料。 選項包括 `Shift` 、 `SwapRequest` 、、 `UserShiftPreferences` 、 `OpenShift` 、 `OpenShiftRequest` 、 `TimeOff` 。 `TimeOffRequest`
     - **enabledWfiScenarios** 參數會定義從 Shifts 同步到 Blue Yonder WFM 的資料。 選項包括 `SwapRequest` 、 `OpenShiftRequest` 、 `TimeOffRequest` 、 `UserShiftPreferences` 。
 
-    若要深入瞭解，請參閱 [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)。 若要查看每個參數支援的同步處理選項清單，請執行 [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps)。
+    若要深入瞭解，請參閱 [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance)。 若要查看每個參數支援的同步處理選項清單，請執行 [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector)。
 
     > [!IMPORTANT]
     > 腳本可針對所有這些選項啟用同步處理。 如果您想要變更同步設定，您可以在連線設定完成後進行。 若要深入瞭解，請參閱 [使用 PowerShell 管理您與 Blue Yonder 員工管理的 Shifts 聯](shifts-connector-powershell-manage.md)機。
@@ -136,7 +136,7 @@ $blueYonder = $connectors | where {$_.Id -match $BlueYonderId}
 $enabledConnectorScenario = $blueYonder.SupportedScenario
 $wfiSupportedScenario = $blueYonder.wfiSupportedScenario
 
-#Prompt for entering of WFM username and password 
+#Prompt for entering of WFM username and password
 $WfmUserName = Read-Host -Prompt 'Input your WFM super user name'
 $WfmPwd = Read-Host -Prompt 'Input your WFM password' -AsSecureString
 $plainPwd =[Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($WfmPwd))
@@ -150,7 +150,7 @@ $essApiUrl = Read-Host -Prompt 'Input ess api url'
 $federatedAuthUrl = Read-Host -Prompt 'Input federated authorization url'
 $retailWebApiUrl = Read-Host -Prompt 'Input retail web api url'
 $siteManagerUrl = Read-Host -Prompt 'Input site manager url'
-$testResult = Test-CsTeamsShiftsConnectionValidate -Name $InstanceName -ConnectorId $BlueYonderId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName 
+$testResult = Test-CsTeamsShiftsConnectionValidate -Name $InstanceName -ConnectorId $BlueYonderId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName
 if ($testResult.Code -ne $NULL) {
     write $testResult
     throw "Validation failed, conflict found"
@@ -198,7 +198,7 @@ else {
     throw "The WfmTeamId list is null or empty"
 }
 
-#Retrieve the list of WFM users and their roles 
+#Retrieve the list of WFM users and their roles
 Write-Host "Listing WFM users and roles"
 $WFMUsers = Get-CsTeamsShiftsConnectionWfmUser -ConnectorInstanceId $InstanceId -WfmTeamId $WfmTeamId
 write $WFMUsers
@@ -240,7 +240,7 @@ $RequestBody = @{
 $teamUpdateUrl="https://graph.microsoft.com/v1.0/teams/"+$TeamsTeamId+"/schedule"
 $Schedule = Invoke-MgGraphRequest -Uri $teamUpdateUrl -Method PUT -Body $RequestBody
 
-#Create a mapping of the new team to the site 
+#Create a mapping of the new team to the site
 Write-Host "Create a mapping of the new team to the site"
 $TimeZone = Read-Host -Prompt "Input the time zone of team mapping"
 $teamMappingResult = New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $TeamsTeamId -TimeZone $TimeZone -WfmTeamId $WfmTeamId
@@ -279,7 +279,7 @@ try {
 #Connect to MS Graph
 Connect-MgGraph -Scopes "User.Read.All","Group.ReadWrite.All"
 
-#List connector types available (comment out if not implemented for preview) 
+#List connector types available (comment out if not implemented for preview)
 Write-Host "Listing connector types available"
 $BlueYonderId = "6A51B888-FF44-4FEA-82E1-839401E9CD74"
 $connectors = Get-CsTeamsShiftsConnectionConnector
@@ -288,7 +288,7 @@ $blueYonder = $connectors | where {$_.Id -match $BlueYonderId}
 $enabledConnectorScenario = $blueYonder.SupportedScenario
 $wfiSupportedScenario = $blueYonder.wfiSupportedScenario
 
-#Prompt for entering of WFM username and password 
+#Prompt for entering of WFM username and password
 $WfmUserName = Read-Host -Prompt 'Input your WFM super user name'
 $WfmPwd = Read-Host -Prompt 'Input your WFM password' -AsSecureString
 $plainPwd =[Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($WfmPwd))
@@ -302,7 +302,7 @@ $essApiUrl = Read-Host -Prompt 'Input ess api url'
 $federatedAuthUrl = Read-Host -Prompt 'Input federated authorization url'
 $retailWebApiUrl = Read-Host -Prompt 'Input retail web api url'
 $siteManagerUrl = Read-Host -Prompt 'Input site manager url'
-$testResult = Test-CsTeamsShiftsConnectionValidate -Name $InstanceName -ConnectorId $BlueYonderId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName 
+$testResult = Test-CsTeamsShiftsConnectionValidate -Name $InstanceName -ConnectorId $BlueYonderId -ConnectorSpecificSettingAdminApiUrl $adminApiUrl -ConnectorSpecificSettingCookieAuthUrl $cookieAuthUrl -ConnectorSpecificSettingEssApiUrl $essApiUrl -ConnectorSpecificSettingFederatedAuthUrl $federatedAuthUrl -ConnectorSpecificSettingRetailWebApiUrl $retailWebApiUrl -ConnectorSpecificSettingSiteManagerUrl $siteManagerUrl -ConnectorSpecificSettingLoginPwd $plainPwd -ConnectorSpecificSettingLoginUserName $WfmUserName
 if ($testResult.Code -ne $NULL) {
     write $testResult
     throw "Validation failed, conflict found"
@@ -351,7 +351,7 @@ else {
     throw "The WfmTeamId list is null or empty"
 }
 
-#Retrieve the list of WFM users and their roles 
+#Retrieve the list of WFM users and their roles
 Write-Host "Listing WFM users and roles"
 $WFMUsers = Get-CsTeamsShiftsConnectionWfmUser -ConnectorInstanceId $InstanceId -WfmTeamId $WfmTeamId
 write $WFMUsers
@@ -373,7 +373,7 @@ $entityType = $entityType.Trim()
 $entityType = $entityType.Split('',[System.StringSplitOptions]::RemoveEmptyEntries)
 Remove-CsTeamsShiftsScheduleRecord -TeamId $TeamsTeamId -DateRangeStartDate $startTime -DateRangeEndDate $endTime -ClearSchedulingGroup:$True -EntityType $entityType -DesignatedActorId $$teamsUserId
 
-#Create a mapping of the new team to the site 
+#Create a mapping of the new team to the site
 Write-Host "Create a mapping of the existing team to the site"
 $TimeZone = Read-Host -Prompt "Input the time zone of team mapping"
 $teamMappingResult = New-CsTeamsShiftsConnectionTeamMap -ConnectorInstanceId $InstanceId -TeamId $TeamsTeamId -TimeZone $TimeZone -WfmTeamId $WfmTeamId
@@ -394,23 +394,23 @@ Disconnect-MgGraph
 
 ## <a name="shifts-connector-cmdlets"></a>Shifts 連接器 Cmdlet
 
-如需有關 Shifts 連接器 Cmdlet 的說明，包括腳本中使用的 Cmdlet，請在 [powerShell Cmdlet 參照Teams](/powershell/teams/intro?view=teams-ps)中搜尋 **CsTeamsShiftsConnection**。 以下是一些常用 Cmdlet 的連結。
+如需有關 Shifts 連接器 Cmdlet 的說明，包括腳本中使用的 Cmdlet，請在 [powerShell Cmdlet 參照Teams](/powershell/teams/intro)中搜尋 **CsTeamsShiftsConnection**。 以下是一些常用 Cmdlet 的連結。
 
-- [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation?view=teams-ps)
-- [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionInstance](/powershell/module/teams/get-csteamsshiftsconnectioninstance?view=teams-ps)
-- [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance?view=teams-ps)
-- [Remove-CsTeamsShiftsConnectionInstance](/powershell/module/teams/remove-csteamsshiftsconnectioninstance?view=teams-ps)
-- [Test-CsTeamsShiftsConnectionValidate](/powershell/module/teams/test-csteamsshiftsconnectionvalidate?view=teams-ps)
-- [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap?view=teams-ps)
-- [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionSyncResult](/powershell/module/teams/get-csteamsshiftsconnectionsyncresult?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionWfmUser](/powershell/module/teams/get-csteamsshiftsconnectionwfmuser?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionWfmTeam](/powershell/module/teams/get-csteamsshiftsconnectionwfmteam?view=teams-ps)
-- [Get-CsTeamsShiftsConnectionErrorReport](/powershell/module/teams/get-csteamsshiftsconnectionerrorreport?view=teams-ps)
-- [Remove-CsTeamsShiftsScheduleRecord](/powershell/module/teams/remove-csteamsshiftsschedulerecord?view=teams-ps)
+- [Get-CsTeamsShiftsConnectionOperation](/powershell/module/teams/get-csteamsshiftsconnectionoperation)
+- [New-CsTeamsShiftsConnectionInstance](/powershell/module/teams/new-csteamsshiftsconnectioninstance)
+- [Get-CsTeamsShiftsConnectionInstance](/powershell/module/teams/get-csteamsshiftsconnectioninstance)
+- [Set-CsTeamsShiftsConnectionInstance](/powershell/module/teams/set-csteamsshiftsconnectioninstance)
+- [Remove-CsTeamsShiftsConnectionInstance](/powershell/module/teams/remove-csteamsshiftsconnectioninstance)
+- [Test-CsTeamsShiftsConnectionValidate](/powershell/module/teams/test-csteamsshiftsconnectionvalidate)
+- [New-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/new-csteamsshiftsconnectionteammap)
+- [Get-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/get-csteamsshiftsconnectionteammap)
+- [Remove-CsTeamsShiftsConnectionTeamMap](/powershell/module/teams/remove-csteamsshiftsconnectionteammap)
+- [Get-CsTeamsShiftsConnectionConnector](/powershell/module/teams/get-csteamsshiftsconnectionconnector)
+- [Get-CsTeamsShiftsConnectionSyncResult](/powershell/module/teams/get-csteamsshiftsconnectionsyncresult)
+- [Get-CsTeamsShiftsConnectionWfmUser](/powershell/module/teams/get-csteamsshiftsconnectionwfmuser)
+- [Get-CsTeamsShiftsConnectionWfmTeam](/powershell/module/teams/get-csteamsshiftsconnectionwfmteam)
+- [Get-CsTeamsShiftsConnectionErrorReport](/powershell/module/teams/get-csteamsshiftsconnectionerrorreport)
+- [Remove-CsTeamsShiftsScheduleRecord](/powershell/module/teams/remove-csteamsshiftsschedulerecord)
 
 ## <a name="related-articles"></a>相關文章
 
@@ -418,4 +418,4 @@ Disconnect-MgGraph
 - [使用 PowerShell 管理您與 Blue Yonder 員工管理的 Shifts 連線](shifts-connector-powershell-manage.md)
 - [管理 Shifts 應用程式](manage-the-shifts-app-for-your-organization-in-teams.md)
 - [Teams PowerShell 概觀](../../teams-powershell-overview.md)
-- [Teams PowerShell Cmdlet 參照](/powershell/teams/intro?view=teams-ps)
+- [Teams PowerShell Cmdlet 參照](/powershell/teams/intro)

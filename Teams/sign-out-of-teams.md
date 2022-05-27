@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b453295c02ef371c06c3adea4c2c8489c0a58468
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 80dd1d2561660c9dbbc72d902380c01fb198429e
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514708"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681954"
 ---
 # <a name="sign-out-of-microsoft-teams"></a>登出 Microsoft Teams
 
@@ -60,7 +60,7 @@ Teams Android 應用程式現在支援全域登入和登出，為前線員工提
 
 雖然很少見，但 Teams 在完全登出後可能無法進行清除。根據使用者報告，常見原因包括檔案被系統執行的服務鎖定，但可能還有其他原因取決於個人的裝置設定或原則，以及裝置上所套用的使用者權限。
 
-此問題的一個常見徵兆是, Teams 會嘗試自動選取現有的帳戶以將使用者登入。 在這種情況下，使用者可能會想要手動清除 Teams 的本地快取記憶體。 若要深入瞭解, 請至 [從 Teams 中登入或移除帳戶](https://support.microsoft.com/office/sign-out-or-remove-an-account-from-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487?ui=en-US&rs=en-US&ad=US)。
+此問題的一個常見徵兆是, Teams 會嘗試自動選取現有的帳戶以將使用者登入。 在這種情況下，使用者可能會想要手動清除 Teams 的本機快取記憶體。 若要深入瞭解, 請至 [從 Teams 中登入或移除帳戶](https://support.microsoft.com/office/sign-out-or-remove-an-account-from-teams-a6d76e69-e1dd-4bc4-8e5f-04ba48384487?ui=en-US&rs=en-US&ad=US)。
 
 ## <a name="related-topics"></a>相關主題
 

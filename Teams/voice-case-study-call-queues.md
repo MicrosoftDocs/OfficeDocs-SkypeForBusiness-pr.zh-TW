@@ -1,5 +1,5 @@
 ---
-title: Teams語音 Contoso 案例研究：自動語音語音和通話佇列
+title: Teams語音 Contoso 案例研究：自動語音應答和通話佇列
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,88 +13,88 @@ ms.reviewer: jowrig
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Teams多國公司的語音案例研究：自動語音語音和通話佇列
+description: Teams多國公司語音案例研究：自動語音應答和通話佇列
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf1d7a5457af0d7463207c0bdbc9d50433b3142e2f72e7efc7f8c89ade82bc93
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c0b6da7bf00fd4e62cf3e9b3b08074bf1b42788
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296420"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681714"
 ---
-# <a name="contoso-case-study-auto-attendants-and-call-queues"></a>Contoso 案例研究：自動電話機和通話佇列
+# <a name="contoso-case-study-auto-attendants-and-call-queues"></a>Contoso 案例研究：自動語音應答和通話佇列
 
-Contoso 熟悉內部部署和部署中的自動商務用 Skype佇列。 為了瞭解如何設定雲端自動電話機和通話佇列，他們檢閱了自動Teams[和通話佇列的規劃](plan-auto-attendant-call-queue.md)。
+Contoso 熟悉內部部署商務用 Skype自動語音應答和通話佇列。 若要瞭解如何設定雲端自動語音應答和通話佇列，他們已檢閱[規劃Teams自動語音應答和通話佇列](plan-auto-attendant-call-queue.md)。
 
-## <a name="requirements-depending-on-site-type"></a>根據網站類型的需求
+## <a name="requirements-depending-on-site-type"></a>需求視網站類型而定
 
-根據網站類型，Contoso 有下列需求：
+根據網站類型而定，Contoso 有下列需求：
 
-- 網站類型 A：傳統傳統電話系統 
+- 網站類型 A：傳統的電話語音系統 
 
-  網站類型 A 需要保留與接待員相關聯的電話號碼，與自動電話機的號碼相同。 每個網站的重要部門都會擁有自己的通話佇列，以路由給小組成員。 網站混合使用直接路由電話系統直接路由電話系統通話方案。  
+  網站類型 A 需要保留與其自動語音應答號碼建立與接收機相關聯的電話號碼。 這些網站的重要部門會有自己的通話佇列，並路由至小組成員。 混合使用電話系統與直接路由的網站，以及搭配通話方案電話系統的網站。  
 
 - 網站類型 B：商務用 Skype 企業語音 
 
-  網站類型 B 現有的自動電話機和通話佇列需要遷移到Teams。 Contoso 需要保留與自動總機相關聯的電話號碼。 Contoso 將大部分的網站移至 電話系統通話方案。 不過，在少數沒有通話方案的位置，Contoso 將這些網站移至直接路由組。  
+  網站類型 B 有需要移轉到Teams的現有自動語音應答和通話佇列。 Contoso 需要保留與自動語音應答相關聯的電話號碼。 Contoso 將這些網站的大部分移至電話系統通話方案。 不過，在通話方案無法使用的少數幾個位置，Contoso 會將這些網站移至直接路由設定。  
 
-- 網站類型 C：商務用 Skype 企業語音 &傳統傳統電話系統 
+- 網站類型 C：商務用 Skype 企業語音 &傳統的電話語音系統 
 
-  網站類型 C 有現有的自動語音機，這些自動語音機位於傳統的傳統電話系統中。 此網站的決策和組組與網站類型 A 相同。   
+  網站類型 C 有現有的自動語音應答，位於傳統電話語音系統中。 此網站的決策和設定與網站類型 A 相同。   
 
-- 針對所有網站類型，Contoso 詢問下列問題：
+- 針對所有網站類型，Contoso 會詢問下列問題：
 
-  - 問：我們會使用新號碼或現有號碼嗎？ 
-    答：Contoso 決定使用現有電話號碼指派給自動總機的服務帳戶。 
+  - 問：我們會使用新的或現有的數位嗎？ 
+    答：Contoso 決定使用現有電話號碼指派給自動語音應答的服務帳戶。 
 
-  - 問：何時可以使用自動電話機接聽來電？ 
-    答：Contoso 決定設定上班時間，並且將上班時間之後收到的通話重新導向到「工作時間後」自動總機。  
+  - 問：自動語音應答何時可以接聽來電？ 
+    答：Contoso 決定設定上班時間，並將上班時間之後接聽的電話重新導向至「下班後」自動語音應答。  
 
-  - 問：如何將通話路由至通話佇列中的成員：話務員、序列或迴圈路由？ 
+  - 問：通話會如何路由至通話佇列中的成員：語音應答、串列或圓圈路由？ 
     答：Contoso 決定使用 Attendant 路由， 
 
-  - 問：我們會如何判斷使用者何時應該或不應該接到來電？ 
-    答：Contoso 決定使用通話處理選項來判斷代理人是否可用：目前狀態路由。 
+  - 問：我們將如何判斷使用者何時應該接到電話或不應該接聽電話？ 
+    答：Contoso 決定使用通話處理選項來判斷專員是否在線上：目前狀態路由。 
 
 
-## <a name="configuration"></a>配置
+## <a name="configuration"></a>設定
 
-設定自動電話機和通話佇列的步驟包括管理資源帳戶 [中概述的下列步驟](manage-resource-accounts.md)： 
+設定自動語音應答和通話佇列的步驟包括管理[資源帳戶](manage-resource-accounts.md)中所述的下列步驟： 
 
-1. 取得服務號碼。 
+1. 取得服務編號。 
 
-2. 取得免費電話系統 - 虛擬使用者授權或付費電話系統授權，以用於資源帳戶或電話系統授權。
+2. 取得免費電話系統 - 虛擬使用者授權或付費電話系統授權，以搭配資源帳戶或電話系統授權使用。
 
-3. 建立資源帳戶。 需要自動電話機或通話佇列才能擁有相關聯的資源帳戶。 
+3. 建立資源帳戶。 若要有相關聯的資源帳戶，必須有自動語音應答或通話佇列。 
 
-4. 將電話系統或電話系統虛擬使用者授權指派給資源帳戶。 如要詳細資訊，請參閱Microsoft 365 電話系統[– 虛擬使用者授權](./teams-add-on-licensing/virtual-user.md)。
+4. 將電話系統或電話系統 - 虛擬使用者授權指派給資源帳戶。 如需詳細資訊，請[參閱Microsoft 365 電話系統 – 虛擬使用者授權](./teams-add-on-licensing/virtual-user.md)。
 
 5. 將服務電話號碼指派給您指派授權的資源帳戶。 
 
-6. 建立電話系統通話佇列或自動電話機 
+6. 建立電話系統通話佇列或自動語音應答 
 
-7. 使用通話佇列或自動話務員連結資源帳戶。 
-
-
-### <a name="sites-with-phone-system-with-direct-routing"></a>具有直接電話系統的網站 
-
-Contoso 必須設定當地電信公司提供的電話號碼，做為 Office 365。 
-
-- 若要設定透過直接路由提供的電話號碼，Contoso 會遵循管理資源帳戶 [中的指示](manage-resource-accounts.md)。 由於Office 365內部部署電話號碼，Contoso 使用 PowerShell 來完成設定。   
-
-- 若要設定雲端自動話務員，Contoso 會遵循設定雲端自動話務員中概述 [的步驟](create-a-phone-system-auto-attendant.md)。 
-
-- 若要設定雲端通話佇列，Contoso 會遵循建立雲端通話佇列中 [概述的步驟](create-a-phone-system-call-queue.md)。  
+7. 將資源帳戶連結至通話佇列或自動語音應答。 
 
 
-### <a name="sites-with-phone-system-with-calling-plan"></a>具有通話電話系統的網站
+### <a name="sites-with-phone-system-with-direct-routing"></a>具有直接路由電話系統的網站 
 
-Contoso 必須將用於自動商務用 Skype 企業語音的電話號碼Office 365 電話系統。 這允許將相同的號碼指派為服務號碼，做為自動總機使用。 
+Contoso 必須將當地電信業者提供的電話號碼設定為 Office 365 中的服務號碼。 
 
-- 若要移轉電話號碼，Contoso 遵循將電話號碼移[](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)轉至 Teams 中的指示，並取得管理貴組織電話號碼[的其他指示](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+- 若要設定可透過直接路由取得的電話號碼，Contoso 會依照管理 [資源帳戶](manage-resource-accounts.md)中的指示操作。 由於Office 365並不知道內部部署電話號碼，因此 Contoso 使用 PowerShell 來完成設定。   
 
-- 若要設定雲端自動話務員，Contoso 會遵循設定雲端自動話務員中概述 [的步驟](create-a-phone-system-auto-attendant.md)。
+- 若要設定雲端自動語音應答，Contoso 會遵循設定[雲端自動語音應答](create-a-phone-system-auto-attendant.md)中所述的步驟。 
 
--  若要設定雲端通話佇列，Contoso 會遵循建立雲端通話佇列中 [概述的步驟](create-a-phone-system-call-queue.md)。  
+- 若要設定雲端通話佇列，Contoso 會依照建立雲端 [通話佇列](create-a-phone-system-call-queue.md)中所述的步驟進行。  
+
+
+### <a name="sites-with-phone-system-with-calling-plan"></a>具有通話方案電話系統的網站
+
+Contoso 必須將商務用 Skype 企業語音自動語音應答所用的電話號碼移轉至Office 365 電話系統。 這允許將相同的號碼指派為服務號碼，以做為自動語音應答使用。 
+
+- 若要移轉電話號碼，Contoso 會依照將[電話號碼移轉到Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)中的指示進行，並在[管理貴組織的電話號碼](./manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)取得其他指導方針。
+
+- 若要設定雲端自動語音應答，Contoso 會遵循設定[雲端自動語音應答](create-a-phone-system-auto-attendant.md)中所述的步驟。
+
+-  若要設定雲端通話佇列，Contoso 會依照建立雲端 [通話佇列](create-a-phone-system-call-queue.md)中所述的步驟進行。  
 

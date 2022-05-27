@@ -17,12 +17,12 @@ description: 瞭解當您需要執行電子檔探索時該怎麼辦，例如當�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 207164f3e16768b7643d2bba2177d52d6b3940f3
-ms.sourcegitcommit: 7d5266ae7e4a440ee45ab1873a30f4056bdcca1f
+ms.openlocfilehash: a89f2ac8fc94505ec0d97bb426bc8fc92901aa52
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2022
-ms.locfileid: "65031918"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675305"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>在 Microsoft Teams 中對內容進行電子檔探索調查
 
@@ -36,27 +36,26 @@ ms.locfileid: "65031918"
 
 並非所有Teams內容都可電子檔探索。 下表顯示您可以使用 Microsoft eDiscovery 工具搜尋的內容類型：
 
-| 內容類型 | eDiscoverable | 注釋 |
-|:--- | :--- |:--- |
-|音訊錄製 | 否 | |
+|內容類型|eDiscoverable|注釋|
+|---|---|---|
+|音訊錄製|否||
 |卡片內容|是|如需詳細資訊，請參閱 [搜尋卡片內容](#search-for-card-content) 。|
-|聊天連結 | 是 | |
-|聊天訊息 | 是 |這包括標準Teams頻道、1 對 1 聊天、1：N 群組聊天，以及與來賓使用者參與者聊天的內容。  |
-|程式碼片段 | 否 | |
-|編輯的郵件 | 是 | 如果使用者保留，先前編輯的郵件版本也會保留。 |
-|Emoji、GIF 和貼圖 | 是 | |
-|摘要通知 | 否 | |
-|內嵌影像 | 是 | |
-|Loop元件| 是|迴圈元件中的內容會儲存在儲存在傳送迴圈元件之使用者商務用 OneDrive帳戶中的 .fluid 檔案中。 這表示在迴圈元件中搜尋內容時，您必須將OneDrive做為資料來源。 |
-|會議 IM 交談 | 是 | |
-|會議中繼資料<sup>1</sup> | 是 |  |
-|頻道名稱 | 是 | |
-|私人和共用頻道聊天訊息 | 是 | |
-|報價 | 是 | 可搜尋引用的內容。 不過，搜尋結果不會指出已引用內容。 |
-| (贊、心和其他反應等反應)  | 否 | |
-|主題 | 是 | |
-|表 | 是 | |
-||||
+|聊天連結|是||
+|聊天訊息|是|這包括標準Teams頻道、1 對 1 聊天、1：N 群組聊天，以及與來賓使用者參與者聊天的內容。|
+|程式碼片段|否||
+|編輯的郵件|是|如果使用者保留，先前編輯的郵件版本也會保留。|
+|Emoji、GIF 和貼圖|是||
+|摘要通知|否||
+|內嵌影像|是||
+|Loop元件|是|迴圈元件中的內容會儲存在儲存在傳送迴圈元件之使用者商務用 OneDrive帳戶中的 .fluid 檔案中。 這表示在迴圈元件中搜尋內容時，您必須將OneDrive做為資料來源。|
+|會議 IM 交談|是||
+|會議中繼資料<sup>1</sup>|是||
+|頻道名稱|是||
+|私人和共用頻道聊天訊息|是||
+|報價|是|可搜尋引用的內容。 不過，搜尋結果不會指出已引用內容。|
+| (贊、心和其他反應等反應) |否||
+|主題|是||
+|表|是||
 
 <sup>1</sup> 會議 (和通話) 中繼資料包含下列專案：
 
@@ -174,9 +173,9 @@ Microsoft Teams資料會在Excel電子檔探索匯出輸出中顯示為 IM 或�
 
 若要搜尋來賓使用者的內容：
 
-1. 連線Azure AD PowerShell。 如需相關指示，請參閱 連線使用 PowerShell 連線Microsoft 365中的 Azure Active Directory [PowerShell>](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)一節。 請務必完成上一篇文章中的步驟 1 和步驟 2。
+1. 連線至 Azure AD PowerShell。 如需相關指示，請參閱 連線使用 PowerShell 連線Microsoft 365中的 Azure Active Directory [PowerShell>](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)一節。 請務必完成上一篇文章中的步驟 1 和步驟 2。
 
-2. 成功連線到 Azure AD PowerShell 之後，請執行下列命令，為貴組織中的所有來賓使用者顯示使用者主體名稱 (UPN) 。 在步驟 4 中建立搜尋時，您必須使用來賓使用者的 UPN。
+2. 成功連線至 Azure AD PowerShell 之後，請執行下列命令，為貴組織中的所有來賓使用者顯示使用者主體名稱 (UPN) 。 在步驟 4 中建立搜尋時，您必須使用來賓使用者的 UPN。
 
    ```powershell
    Get-AzureADUser -Filter "userType eq 'Guest'" -All $true | FL UserPrincipalName
@@ -207,7 +206,7 @@ Microsoft Teams資料會在Excel電子檔探索匯出輸出中顯示為 IM 或�
    Start-ComplianceSearch <search name>
    ```
 
-6. 移至 [https://compliance.microsoft.com](https://compliance.microsoft.com) ，然後按一下 **[顯示** **allContent**  >  搜尋]。
+6. 移至 [https://compliance.microsoft.com](https://compliance.microsoft.com) ，然後按一下 **[顯示所有**  >  **內容搜尋]**。
 
 7. 在搜尋清單中，選取您在步驟 4 中建立的搜尋以顯示飛出視窗頁面。
 
@@ -234,11 +233,11 @@ Microsoft Teams資料會在Excel電子檔探索匯出輸出中顯示為 IM 或�
 ![Teams頻道訊息中的卡片內容。](media/CardContentTeams.png)
 
 ### <a name="card-content-in-search-results"></a>搜尋結果中的卡片內容
-  
+
 ![內容搜尋結果中的同一張卡片內容。](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> 若要在目前搜尋結果中顯示卡片內容的影像， (例如上一個螢幕擷取畫面) 中的核取記號，您必須在 https://teams.microsoft.com) 用來檢視搜尋結果的相同瀏覽器會話中，于其他索引標籤登入Teams (。 否則，會顯示影像預留位置。
+> 若要在目前搜尋結果中顯示卡片內容的影像， (例如上一個螢幕擷取畫面) 中的核取記號，您必須在 <https://teams.microsoft.com> 用來檢視搜尋結果的相同瀏覽器會話中，于) 的不同索引標籤中登入Teams (。 否則，會顯示影像預留位置。
 
 ## <a name="ediscovery-in-federated-and-non-federated-environments"></a>同盟與非同盟環境中的 eDiscovery
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d17409a09cbadc535e3b7971d6224b4e2fcb678b
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 5df52ff5de4db994cb049db1dde2b27c2465dce5
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64839034"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675755"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>在 Microsoft Teams 中 Reflect 的 IT 系統管理員指南
 
@@ -69,7 +69,7 @@ Reflect 遵循與[教育版 Insights](class-insights.md) 相同的隱私權和�
 > 如需詳細資料，請參閱[如何允許應用程式或將其新增到班級團隊](manage-apps.md#allow-and-block-apps)。
 
 ## <a name="where-do-educators-find-reflect"></a>授課者可以在哪裡找到 Reflect？
-啟用 Reflect 之後，授課者可以前往班級，然後選取 [新增交談 **]**。 然後，他們會選取「**...**」來顯示傳訊擴充功能，然後在搜尋列輸入 **Reflect**。 對話方塊會引導他們定義問題，以及誰可以看到問題。
+啟用 Reflect 之後，授課者可以前往班級，然後選取 [新增交談 **]**。 然後，他們會選取 [...]**** 來顯示傳訊擴充功能，然後在搜尋列輸入 **Reflect**。 對話方塊會引導他們定義問題，以及誰可以看到問題。
 
 :::image type="content" source="media/reflect-add-app.png" alt-text="將 Reflect 新增到班級團隊。":::
 

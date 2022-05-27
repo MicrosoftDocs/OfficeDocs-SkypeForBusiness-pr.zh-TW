@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 9bf52e68f8db5ecacfb4683b0a4809437a860d77
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 2455d386e9bdf297995880f679e5db74b299e64d
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635241"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674835"
 ---
 # <a name="navigate-microsoft-teams"></a>流覽Microsoft Teams
 
@@ -89,7 +89,7 @@ Teams由 **頻道** 組成，頻道是您與小組成員所進行的主題特定
 
 - 選項 2：從Kaizala平坦的群組切換到Teams團隊
 
-**選項 1：在 Teams 中從Kaizala平坦的群組切換到群組聊天**
+**選項 1：在 Teams 中從Kaizala平坦的群組切換到群組聊天**：
 
 您可以建立Teams群組聊天，與最多 250 個參與者進行快速的交會和暫時性交談。 群組聊天可讓貴組織中的人員有一個開放式交談的中心位置，讓任何人都可以加入聊天。
 
@@ -102,23 +102,23 @@ Teams由 **頻道** 組成，頻道是您與小組成員所進行的主題特定
 2. 將人員新增至交談。
 
     ![將人員新增至交談](media/kaizala-to-teams-image5.png)
-    
+
    將某人新增至群組聊天 (不是一對一) 時，您可以包含 **聊天記錄** 和您要與他們共用 **的歷程記錄持續時間** 。
 
 3. 管理群組聊天。
   
     ![管理群組聊天](media/manage-groupchats.png)
-    
+
    若要查看群組聊天中的人員，請將游標暫留在聊天標題中的參與者數目上，以顯示每個人的姓名清單。
 
-**選項 2：從Kaizala平坦的群組切換到Teams團隊**
-   
+**選項 2：從Kaizala平坦的群組切換到Teams小組**：
+
 針對目標大型群組通訊，您可以為單一群組建立小組。 您最多可以新增 25，000 個成員，以對話串交談進行結構化溝通。 這種類型的通訊可讓仲裁與系統管理角色確保運作順暢。
 
 1. 建立團隊：若要在Teams中啟動並執行，您應該建立團隊、新增人員，以及新增頻道。 若要深入瞭解，請參閱 [您的第一個團隊](get-started-with-teams-create-your-first-teams-and-channels.md)。
 2. 檢閱團隊擁有者指南：
 
-身為 [團隊擁有者](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us)，您可以新增成員和來賓、將成員變更為擁有者、管理頻道和設定，以及封存不再使用的團隊。
+   身為 [團隊擁有者](https://support.microsoft.com/office/go-to-guide-for-team-owners-92d238e6-0ae2-447e-af90-40b1052c4547?ui=en-us&rs=en-us&ad=us)，您可以新增成員和來賓、將成員變更為擁有者、管理頻道和設定，以及封存不再使用的團隊。
 
 3. 將大量成員新增至團隊：
 
@@ -318,7 +318,7 @@ Teams平臺可讓您透過整合至Microsoft Teams，以及現成的Microsoft 36
 | 目錄 | 透過團隊中的 **搜尋列搜尋** 組織中的任何人。 搜尋結果也會傳回檔案、訊息和文章 |
 | 分析 (動作卡片)  | **投票**、 **問卷** 和 **檢查清單** 已內建含有可下載資料的報告。 您也可以在Teams中的工作應用程式的協助下指派工作，供使用者使用。 如需更多案例，您也可以探索 **Trello**、**Asana** 等協力廠商應用程式，以供Teams使用。 |
 | 擴充功能 – 連接器 | 針對任何需要連接器的頻道，請使用功能表 (...) 的 [ **連接器** ] 選項。 |
-| [分析 (使用方式) 採用報告](teams-analytics-and-reports/view-analytics.md)、 [使用方式報告](teams-analytics-and-reports/teams-usage-report.md)、 [活動報告](teams-analytics-and-reports/user-activity-report.md) | 團隊擁有者可以流覽功能表 (...) 來 **管理團隊**  >  **分析**，以存取團隊的報告。 |
+| [分析 (使用方式) 採用報告](teams-analytics-and-reports/view-analytics.md)、 [使用方式報告](teams-analytics-and-reports/teams-usage-report.md)、 [活動報告](teams-analytics-and-reports/user-activity-report.md) | 團隊擁有者可以流覽功能表 (...) 來 **管理團隊** 分析，以存取團隊  >  **的報告**。 |
 
 > [!NOTE]
 > Teams使用者可以在桌上型電腦或行動裝置上使用Teams來管理個別團隊和頻道，而且不需要存取Teams 管理員中心。

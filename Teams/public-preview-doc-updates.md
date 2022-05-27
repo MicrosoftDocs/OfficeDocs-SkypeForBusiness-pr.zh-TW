@@ -18,17 +18,17 @@ description: 了解 Microsoft Teams 中的公開預覽。嘗試新功能並提�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: f814483cee8941d3fd29d2442d653c444915d1a5
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 49ea7fe244b46840e80bfa4093706d314c708dcb
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125778"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675065"
 ---
 # <a name="microsoft-teams-public-preview"></a>Microsoft Teams 公開預覽
 
 > [!NOTE] 
-> 預覽中包含的功能可能不完整，且在公開發行之前可以會變更。提供預覽版僅針對評估和探索目的。Office 365 政府社群雲端 (GCC) 中不支援預覽版功能。
+> 預覽中包含的功能可能不完整，且在公開發行之前可能會變更。 提供預覽版僅針對評估和探索目的。 Office 365 政府社群雲端 (GCC) 不支援預覽功能。
 
 Microsoft Teams 的公開預覽可提供 Teams 中尚未發行功能的早期存取。預覽版可讓您探索並測試即將推出的功能。我們也歡迎您提供對於公開預覽中任何功能的意見反應。公開預覽將針對每個 Teams 使用者啟用，因此您不需要擔心會影響整個組織。
 
@@ -36,7 +36,7 @@ Microsoft Teams 的公開預覽可提供 Teams 中尚未發行功能的早期存
 
 ## <a name="set-the-update-policy"></a>設定更新原則
 
-公開預覽將針對每位使用者啟用，而開啟公開預覽的選項會在系統管理原則中控制。更新原則可用來管理會在 Teams 應用程式中看到搶鮮版或預覽版功能的 Teams 和 Office Preview 使用者。您可以使用全域 (全組織預設) 原則並進行自訂，或為您的使用者建立一個或多個自訂原則。
+公開預覽將針對每位使用者啟用，而開啟公開預覽的選項會在系統管理原則中控制。更新原則可用來管理會在 Teams 應用程式中看到搶鮮版或預覽版功能的 Teams 和 Office 預覽版使用者。您可以使用全域 (全組織預設) 原則並進行自訂，或為您的使用者建立一個或多個自訂原則。
 
 1. 登入 [Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com/)。
 

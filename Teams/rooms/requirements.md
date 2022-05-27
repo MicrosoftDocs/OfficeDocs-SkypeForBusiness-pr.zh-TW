@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解支援Microsoft Teams 會議室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8086cfb6ac74e35d95ba45b701e2913d5b0f2ed6
-ms.sourcegitcommit: 4b0bd129af9cd487123ef6a5dc19ace0ec5a6c41
+ms.openlocfilehash: ad5abd962852aa8dd055e18fc8c525c16334d3c1
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65406409"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674185"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 

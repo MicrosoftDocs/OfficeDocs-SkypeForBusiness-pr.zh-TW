@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77d33d29a51fe32fff6901fdcb8ba33ecad107f7
-ms.sourcegitcommit: cd9a1f7afaaf053741c81022e7052bf6f8008fcc
+ms.openlocfilehash: 0a1a178c279a418c0555f100c48a63c9efe71717
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "65370896"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681784"
 ---
 # <a name="plan-for-sip-gateway"></a>規劃 SIP 閘道
 
@@ -47,8 +47,7 @@ SIP 閘道會將相容的 SIP 裝置連線到Teams，以協助使用者順暢地
 - **雙音調多頻：** SIP 裝置使用者可以在互動式語音回應通話期間按下數位鍵來提供輸入。
 - **Teams會議：** SIP 裝置使用者可以撥打會議存取號碼來加入Teams會議。 會議參與者可以透過撥號至使用者的電話號碼將 SIP 裝置使用者新增至會議，或只要按一下 [要求加入] 新增參與者，也會警示使用者的 SIP 裝置。 其他組織的來賓使用者可由撥號至來賓使用者號碼以加入該來賓的參與者，新增至Teams會議。
 - **來電轉接：** SIP 裝置使用者可以轉接來電。 SIP 閘道支援盲眼和傳送傳輸。
-- **當地來電轉接：** SIP 裝置使用者可以隨時 (設定裝置的轉寄規則、逾時和忙碌) 。 如果裝置已連線至 SIP 閘道，則通話將會根據裝置使用者設定的規則重新導向至目標位址。 若要讓本機來電轉接運作，系統管理員必須將屬性設 `AllowCallRedirect` 為 `Set-CsTeamsCallingPolicy` `Enabled` 。 
-
+- **當地來電轉接：** SIP 裝置使用者可以隨時 (設定裝置的轉寄規則、逾時和忙碌) 。 如果裝置已連線至 SIP 閘道，則通話將會根據裝置使用者設定的規則重新導向至目標位址。 若要讓本機來電轉接運作，系統管理員必須將屬性設 `AllowCallRedirect` 為 `Set-CsTeamsCallingPolicy` `Enabled` 。
 
 ## <a name="requirements-to-use-sip-gateway"></a>使用 SIP 閘道的需求
 
@@ -56,7 +55,8 @@ Teams使用者必須有啟用 PSTN 通話的電話號碼，才能使用 SIP 閘�
 
 ### <a name="hardware-software-and-licenses"></a>硬體、軟體和授權
 
-如果您有 3PIP 或 SIP 裝置，您必須具備： 
+如果您有 3PIP 或 SIP 裝置，您必須具備：
+
 - 透過 E5 電話系統 (或獨立授權的授權) 
 - PSTN 啟用 (，也即透過Microsoft Teams通話方案、直接路由或) 電話號碼電信業者連線
 - 任何通用區域裝置的共同區域電話授權

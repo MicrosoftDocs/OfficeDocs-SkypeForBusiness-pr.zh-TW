@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 222ea1852ef4336c21cfb24c977c20665a667ff3
-ms.sourcegitcommit: 9968ef7d58c526e35cb58174db3535fd6b2bd1db
+ms.openlocfilehash: 8d3b56a7935f31413829c89285fc81ee70023ab4
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "65284068"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675765"
 ---
 # <a name="configure-operator-connect"></a>設定電信業者連線
 
@@ -71,7 +71,7 @@ ms.locfileid: "65284068"
 4. **指派號碼。** 您的電信業者完成訂單後，就會將號碼上傳至您的租使用者。 您可以移至 **[語音**] > 電話號碼，在Teams系統管理中心檢視號碼和提供者。 從Teams系統管理中心或使用 PowerShell 指派號碼給使用者。 如需詳細資訊，請參閱 [指派號碼](#assign-numbers)。
 
 > [!NOTE]
-> 除了 [為使用者輸入電話號碼](getting-phone-numbers-for-your-users.md)，您還可以取得電話會議) 橋接器的音訊會議 (、自動語音應答和通話佇列等服務的付費或免付費電話號碼， (也稱為服務號碼) 。 與使用者或訂閱者電話號碼相比，服務電話號碼的並行通話容量較高。 例如，服務號碼可以同時處理數百個通話，而使用者的電話號碼只能同時處理幾個通話。 若要取得服務號碼，請連絡您的電信業者。
+> 除了[取得使用者的電話號碼](getting-phone-numbers-for-your-users.md)，您還可以取得服務的付費或免付費電話號碼，例如會議橋) 音訊會議 (、自動語音應答和通話佇列， (也稱為服務號碼) 。 與使用者或訂閱者電話號碼相比，服務電話號碼的並行通話容量較高。 例如，服務號碼可以同時處理數百個通話，而使用者的電話號碼只能同時處理幾個通話。 若要取得服務號碼，請連絡您的電信業者。
 
 ### <a name="emergency-addresses"></a>緊急位址
 

@@ -1,5 +1,5 @@
 ---
-title: PSTN 連接選項
+title: PSTN 連線選項
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,204 +21,189 @@ ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-may2020
 search.appverid: MET150
-description: 深入瞭解如何Teams PSTN (PSTN) 選項，以及您將為貴組織做出的決策。
+description: 深入瞭解Teams電話 (PSTN 連線) 選項，以及您為組織做出的決策。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 28cb740146fc23f3dfdda35c35f280cba8a950c4
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: f37265a445a4b7361cdda8e6729944bb5250b029
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763747"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675805"
 ---
-# <a name="pstn-connectivity-options"></a>PSTN 連接選項
+# <a name="pstn-connectivity-options"></a>PSTN 連線選項
 
-Microsoft 透過Exchange (提供) PBX 的完整私人分支電話系統。 不過，若要讓使用者在組織外撥打電話，您必須將電話電話系統到公用交換電話網絡 (PSTN) 。
+Microsoft 透過 電話系統 為貴組織提供完整的私人分支Exchange (PBX) 功能。 不過，若要讓使用者在組織外部撥打電話，您必須將電話系統連線到公用交換電話網路 (PSTN) 。
 
-本文著重于 PSTN 連接選項。 有關 Microsoft 語音解決方案的詳細資訊 ，包括有關電話系統功能的詳細資訊，請參閱[規劃您的Teams解決方案](cloud-voice-landing-page.md)。
+本文著重于 PSTN 連線選項。 如需 Microsoft 語音解決方案的詳細資訊，包括電話系統功能的詳細資訊，請參閱[規劃您的Teams語音解決方案](cloud-voice-landing-page.md)。
 
-若要將電話系統 PSTN，您可以從下列選項中選擇：
+若要將電話系統連線到 PSTN，您可以從下列選項中選擇：
 
-- [**通話方案**](#phone-system-with-calling-plan)。 以 Microsoft 做為 PSTN 電信公司的全雲端解決方案。
+- [**通話方案**](#phone-system-with-calling-plan)。 將 Microsoft 做為 PSTN 電信業者的所有雲端解決方案。
 
-- [**運算子連線**](#phone-system-with-operator-connect)。 使用運算子連線，如果您現有的電信公司參與 Microsoft Operator 連線 計畫，他們可以管理 PSTN 通話和會話邊界控制器 (SBC) 。 
+- [**電信業者連線**](#phone-system-with-operator-connect)。 透過電信業者連線，如果您現有的電信業者參與 Microsoft 電信業者連線 計畫，他們可以管理 PSTN 通話和會話框線控制器 (SBC) 。
 
-- [**直接路由**](#phone-system-with-direct-routing)，可讓您使用自己的 PSTN 電信公司，將會話邊界控制器 (SBC)  (SBC) 電話系統。
+- [**直接路由**](#phone-system-with-direct-routing)可讓您使用自己的 PSTN 電信業者，方法是將會話框線控制器 (的)  (SBC) 連線至電話系統。
 
+您也可以選擇選項群組合，讓您設計複雜環境的解決方案，或管理多步驟移轉。
 
-您也可以選擇選項群組合，這可讓您設計複雜環境的解決方案，或管理多步驟移移。
+您選擇的選項或選項會影響某些電話系統功能的設定方式。 如需詳細資訊，請參閱本文稍後 [的設定考慮](#configuration-considerations) 。
 
-您選擇的選項會影響某些電話系統功能的配置方式。 詳細資訊，請參閱 [本文稍後的](#configuration-considerations) 組組考慮。
+## <a name="phone-system-with-calling-plan"></a>電話系統通話方案
 
+電話系統通話方案是 Microsoft 針對Teams使用者所提供的所有雲端語音解決方案。 這個解決方案是將 電話系統 連線到 PSTN 的最簡單選項。 使用此選項，Microsoft 會做為您的 PSTN 電信業者，如下圖所示：
 
-## <a name="phone-system-with-calling-plan"></a>電話系統通話方案 
+![圖表 1 顯示電話系統與通話方案。](media/voice-solutions-simple.png)
 
-電話系統方案是 Microsoft 針對使用者所使用之全雲端語音Teams解決方案。 此解決方案是連接 PSTN 電話系統最簡單的選項。 使用這個選項，Microsoft 會做為 PSTN 電信者，如下圖所示：
+如果您對下列事項回答「是」，則電話系統通話方案是適合您的解決方案：
 
-![圖表 1 顯示電話系統通話方案。](media/voice-solutions-simple.png)
-
-如果您對下列專案回答是，電話系統通話方案是適合的解決方案：
-
-- 通話方案可在您的地區使用。
-- 您不需要保留目前的 PSTN 電信公司。
+- 您所在的地區可使用通話方案。
+- 您不需要保留目前的 PSTN 電信業者。
 - 您想要使用 Microsoft 管理的 PSTN 存取權。
 
-使用此選項： 
+使用此選項：
 
-- 您可以電話系統國內或國際通話方案，根據授權服務等級 (撥打世界各地的電話) 。
+- 根據授權) 的服務等級， (取得已新增國內或國際通話方案的電話系統。
 
-- 您不需要部署或維護 &mdash; 內部部署，因為通話方案無法Microsoft 365。
+- 您不需要部署或維護內部 &mdash; 部署，因為通話方案的運作超出Microsoft 365。
 
-- 注意：您可以透過直接路由連接支援的會話邊界控制器 (SBC) ，以與 SBC 支援的協力廠商 PBX、類比裝置和其他電話設備進行互通性。
+- 注意：您可以透過直接路由連接支援的會話框線控制器 (SBC) ，以便與協力廠商 PBX、類比裝置以及 SBC 支援的其他電話語音設備進行交互操作。
 
-此選項需要不間斷地連接到Microsoft 365。
+此選項需要與Microsoft 365的不間斷連線。
 
-有關通話方案的資訊，請參閱下列文章：
+如需通話方案的詳細資訊，請參閱下列文章：
 
 - [哪一個通話方案適合您？](calling-plan-landing-page.md)
 - [如何購買通話方案](calling-plans-for-office-365.md)
 - [通話方案的適用國家與地區](./country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 - [設定通話方案](set-up-calling-plans.md)
 
+## <a name="phone-system-with-operator-connect"></a>電話系統電信業者連線
 
-## <a name="phone-system-with-operator-connect"></a>電話系統運算子連線
+透過電信業者連線，如果您現有的電信業者參與 Microsoft 電信業者連線 計畫，他們就可以管理將 PSTN 通話帶到Teams的服務。 您的電信業者會 (SBC) 管理 PSTN 通話服務和會話框線控制器，讓您能夠儲存在硬體購買和管理上。
 
-使用運算子連線，如果您現有的電信連線參與 Microsoft Operator 連線計畫，他們可以管理將 PSTN 通話帶到 Teams。 您的電信業者會管理 PSTN 通話服務和會話邊界 (SBC) ，讓您節省硬體購買和管理。
+如果下列情況，電信業者連線可能是您組織的正確解決方案：
 
-如果連線運算子或運算子，可能是適用于貴組織的解決方案：
+- 您的地理位置無法使用 Microsoft 通話方案。
+- 您慣用的電信業者是 Microsoft 電信業者連線 計畫的參與者。
+- 您想要尋找新的電信業者，以便在 Teams 中啟用通話。
 
-- 您的地理位置無法提供 Microsoft 通話方案。
-- 您偏好的電信公司是 Microsoft Operator 連線參與者。
-- 您想要尋找新的電信公司，以在 Teams。
-
-有關運算子和電信連線的好處和需求，以及參與此計畫的電信公司清單，請參閱規劃運算子[連線。](operator-connect-plan.md) 若要瞭解如何設定運算子連線，請參閱[設定運算子連線](operator-connect-configure.md)。
-
+如需電信業者連線權益與需求的相關資訊，以及參與此計畫的電信業者清單，請參閱[規劃電信業者連線](operator-connect-plan.md)。 如需如何設定電信業者連線的相關資訊，請參閱設定[電信業者連線](operator-connect-configure.md)。
 
 ## <a name="phone-system-with-direct-routing"></a>電話系統直接路由
 
-這個選項會電話系統直接路由，將電話網路連接到您的電話網絡，如下圖所示： 
+此選項會使用直接路由將電話系統連線到電話語音網路，如下圖所示： 
 
-![圖表 5 顯示電話系統路由的圖表。](media/voice-solution-with-direct-routing.png)
+![圖表 5 顯示電話系統與直接路由。](media/voice-solution-with-direct-routing.png)
 
-如果您對下列問題回答是，電話系統直接路由是適合的解決方案：
+如果您對下列問題回答「是」，那麼使用直接路由電話系統就是最適合的解決方案：
 
-- 您想要在 Teams 中電話系統。
-- 您需要保留目前的 PSTN 電信公司。
-- 您想要混合路由，有些通話會透過通話方案進行，有些則透過您的電信公司進行。
-- 您需要與協力廠商 PBX 和/或設備進行交互操作，例如架空傳呼機、類比裝置等。
+- 您想要將Teams與電話系統搭配使用。
+- 您必須保留目前的 PSTN 電信業者。
+- 您想要混合路由，有些通話會透過通話方案進行，有些則是透過電信業者。
+- 您需要與協力廠商 PBX 和/或設備相交互操作，例如重頭頁機、類比裝置等。
 
 使用此選項：
 
-- 您可以在 SBC 中 (會話邊界控制器) 電話系統，而不需要其他內部部署軟體。
+- 您將自己支援的會話框線控制器 (SBC) 連線到電話系統，而不需要其他內部部署軟體。
 
-- 您幾乎可以在任何電話電信業者電話系統。
+- 您幾乎可以搭配電話系統使用任何電話語音電信業者。
 
-- 您可以設定及管理此選項，也可以由您的電信公司或合作夥伴設定及管理 (詢問您的電信公司或合作夥伴是否提供此選項) 。
+- 您可以設定和管理此選項，也可以由您的電信業者或合作夥伴設定和管理， (詢問您的電信業者或合作夥伴是否提供此選項) 。
 
-- 您可以設定電話設備 &mdash; 之間的互通性，例如協力廠商 PBX &mdash; 和類比裝置電話系統。
+- 您可以在電話語音設備 &mdash; 之間設定互通性，例如協力廠商 PBX 和類比裝置 &mdash; ，以及電話系統。
 
 此選項需要下列專案：
 
-- 不間斷地Microsoft 365。
+- 與 Microsoft 365 的連線不會中斷。
 
 - 部署及維護支援的 SBC。
 
-- 與協力廠商電信公司簽訂合約。
-   (除非已部署為選項，為使用通話方案的使用者提供協力廠商 PBX、類比裝置或其他電話電話系統裝置) 
+- 與協力廠商電信業者簽訂的合約。
+   (除非部署為提供連線至協力廠商 PBX、類比裝置或其他電話語音設備的選項，以供使用通話方案電話系統使用者使用。) 
 
-有關直接路由的資訊，請參閱下列文章：
+如需直接路由的詳細資訊，請參閱下列文章：
 
 - [規劃直接路由](direct-routing-plan.md)
 - [設定直接路由](direct-routing-configure.md)
-- [管理語音路由策略，以用於直接路由](manage-voice-routing-policies.md)
+- [管理語音路由原則以搭配直接路由使用](manage-voice-routing-policies.md)
 - [規劃直接路由的依位置路由](location-based-routing-plan.md)
 - [通過直接路由認證的工作階段邊界控制器清單](direct-routing-border-controllers.md)
 
+## <a name="configuration-considerations"></a>設定考慮
 
+不論您選擇的 PSTN 連線選項為何，大部分電話系統功能都相同。 例如，未接聽的通話和轉接設定、來電轉接、保留自訂音樂、通話駐留、共用行和語音應用程式皆可使用。 如需電話系統功能的完整清單，請參閱電話系統功能的相關[說明](here-s-what-you-get-with-phone-system.md)。
 
-## <a name="configuration-considerations"></a>組組考慮
+不過，功能有一些差異會影響您設定特定電話系統功能的方式。 例如，直接路由需要其他步驟來設定通話路由。 另一個範例是，直接路由提供以位置為基礎的路由 (LBR) 。 LBR 可讓您在不允許付費的特定地理位置限制略過付費。 
 
-無論您選擇電話系統 PSTN 連接選項，大部分的功能都是相同的。 例如，通話未回音和轉接設定、來電轉接、保留的自訂音樂、通話保留、共用線路和語音應用程式都可供使用。 有關功能的完整電話系統清單，請參閱以下列出您取得[的功能](here-s-what-you-get-with-phone-system.md)電話系統。
+下表醒目提示主要設定的差異。 表格後面的各節提供詳細資訊和詳細資料的連結。
 
-不過，功能有一些差異會影響您設定特定功能電話系統方式。 例如，直接路由需要額外的步驟來設定通話路由。 另一個範例是，直接路由提供位置式路由 (LBR) 。 LBR 可讓您在某些不允許的地理位置限制免付費路。 
-
-下表會強調主要組組差異。 表格後各節提供詳細資訊和詳細資料的連結。
-
-| 選項 | 描述 | 電話號碼管理 | 通話路由 | 緊急通話可用性 |
+| 選項 | 描述 | 電話數位管理 | 通話路由 | 緊急通話可用性 |
 | :------------| :-------| :-------| :-------| :-------| 
-| 通話方案 | -Microsoft 會做為 PSTN 電信公司。<br>-不需要購買或管理 SBC。| 透過 Microsoft 取得。| -由 Microsoft 管理。 <br> -系統管理員設定數位翻譯的使用者撥號方案。 | -由 Microsoft 啟用。 <br> -系統管理員登入位址。 <br> -支援動態通話。 |
-| 運算子連線 | -電信公司管理 PSTN 連接和 SBC。 <br> -不需要購買或管理 SBC。 | -透過電信公司取得。 <br> - 與電信公司管理的緊急位址相關聯的號碼。   | -由電信公司管理。 <br>-系統管理員設定數位翻譯的使用者撥號方案。 | -由電信公司啟用。 <br> -系統管理員登入位址。 <br> -支援動態通話。 |
-| 直接路由 | -需要向協力廠商廠商購買經過認證的 SBC。<br>-連線 SBC 電話系統。<br> -使用現有的 PSTN 電信公司。 | 透過電信公司取得。 | -需要系統管理員進行額外的配置。<br>-系統管理員設定號碼翻譯的主幹撥號方案。 <br>-LBR 可用於限制免付費路。 | -需要系統管理員進行額外的配置。 <br>-不支援已註冊的位址。 <br>-支援動態通話，但需要額外的配置。 |
-|||||
+| 通話方案 | -Microsoft 做為 PSTN 電信業者。<br>-您不需要購買或管理 SBC。| 透過 Microsoft 取得。| -由 Microsoft 管理。 <br> -管理員設定號碼翻譯的使用者撥號對應表。 | -由 Microsoft 啟用。 <br> -管理員登錄位址。 <br> -支援動態通話。 |
+| 電信業者連線 | -電信業者會管理 PSTN 連線和 SBC。 <br> -您不需要購買或管理 SBC。 | -透過電信業者取得。 <br> - 與電信業者管理的緊急位址相關聯的數位。 | -由電信業者管理。 <br>-管理員設定號碼翻譯的使用者撥號對應表。 | -由電信業者啟用。 <br> -管理員登錄位址。 <br> -支援動態通話。 |
+| 直接路由 | -需要向協力廠商廠商購買通過認證的 SBC。<br>-連線您的 SBC 進行電話系統。<br> -使用您現有的 PSTN 電信業者。 | 透過電信業者取得。 | -需要由系統管理員進行額外設定。<br>-管理員設定號碼翻譯的主幹撥號對應表。 <br>-LBR 可用來限制略過付費。 | -需要由系統管理員進行額外設定。 <br>-不支援登錄位址。 <br>-支援動態通話，但需要其他設定。 |
 
+### <a name="phone-number-management"></a>電話數位管理
 
-### <a name="phone-number-management"></a>電話號碼管理
-
-Microsoft 有兩種類型的可用電話號碼：訂閱者 (使用者) 號碼，可指派給貴組織的使用者，以及服務號碼，以付費和免付費服務號碼提供。 服務號碼的並行通話容量高於訂閱者號碼，並可以指派給音訊會議、自動語音服務或通話佇列等服務。
+Microsoft 有兩種類型的電話號碼可供使用：訂閱者 (使用者) 號碼，可以指派給貴組織中的使用者，以及提供付費和免付費服務號碼的服務號碼。 服務號碼的並行通話容量高於訂閱者號碼，而且可以指派給服務，例如音訊會議、自動語音應答或通話佇列。
 
 您必須決定：
 
 - 哪些使用者位置需要 Microsoft 的新電話號碼？
-- 我需要哪一 (或服務) 電話號碼？
-- 如何將現有的電話號碼Teams？
+- 我需要訂閱者或服務 (電話號碼類型) ？
+- 如何?將現有的電話號碼移轉至Teams？
 
-您取得和管理電話號碼方式會根據您的 PSTN 連接選項而不同。
+您取得及管理電話號碼方式會根據您的 PSTN 連線選項而有所不同。
 
-- 有關管理通話方案電話號碼的資訊，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+- 如需管理通話方案電話號碼的相關資訊，請參閱 [管理組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
 
-- 有關使用運算子管理電話號碼連線，請參閱使用運算子設定電話號碼[連線。](operator-connect-configure.md#set-up-phone-numbers)
+- 如需使用電信業者連線管理電話號碼的相關資訊，請參閱[使用電信業者連線設定電話號碼](operator-connect-configure.md#set-up-phone-numbers)。
 
-- 有關管理直接路由電話號碼的資訊，請參閱設定 [電話號碼並啟用企業語音](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)。
+- 如需管理直接路由電話號碼的相關資訊，請參閱設定 [電話號碼並啟用企業語音](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice)。
 
+### <a name="call-routing-and-dial-plans"></a>通話路由和撥號對應表
 
-### <a name="call-routing-and-dial-plans"></a>通話路由和撥號方案
+您設定通話路由方式會根據 PSTN 連線選項而有所不同。  
 
-您設定通話路由方式會根據您的 PSTN 連接選項而不同。  
+- 針對通話方案，大部分的通話路由是由 Microsoft 通話方案基礎結構處理。 您設定使用者撥號對應表，用於電話授權和通話路由的號碼轉換目的。 如需詳細資訊，請參閱[什麼是撥號對應表？](what-are-dial-plans.md)
 
-- 針對通話方案，大部分的通話路由是由 Microsoft 通話方案基礎結構處理。 您可以設定使用者撥號方案，以用於電話授權和通話路由的號碼翻譯。 詳細資訊請參閱 [什麼是撥號方案？](what-are-dial-plans.md)。
+- 針對電信業者連線，大部分的通話路由是由電信業者管理。  您設定使用者撥號對應表，用於電話授權和通話路由的號碼轉換目的。 如需詳細資訊，請參閱[什麼是撥號對應表？](what-are-dial-plans.md)
 
-- 針對電信連線，大部分的通話路由是由電信公司管理。  您可以設定使用者撥號方案，以用於電話授權和通話路由的號碼翻譯。 詳細資訊請參閱 [什麼是撥號方案？](what-are-dial-plans.md)。
-
-- 針對直接路由，您必須指定語音路由並指派語音路由策略給使用者，來設定通話路由。 您可以在主幹層級設定號碼翻譯的撥號方案，以確保與會話邊界控制器和 SBC (互通性) 。 詳細資訊請參閱設定直接 [路由](direct-routing-voice-routing.md)的語音路由、 [管理語音路由策略](manage-voice-routing-policies.md) 和 [翻譯電話號碼](direct-routing-translate-numbers.md)。 
-
+- 若是直接路由，您必須指定語音路由，並將語音路由原則指派給使用者，藉此設定通話路由。 您可以在主幹層級設定撥號對應表，以確保可與會話框線控制器 (SBC) 互通性。 如需詳細資訊，請參閱設定 [直接路由的語音路由](direct-routing-voice-routing.md)、 [管理語音路由原則](manage-voice-routing-policies.md) 和 [翻譯電話號碼](direct-routing-translate-numbers.md)。 
 
 ### <a name="location-based-routing-for-direct-routing"></a>Location-Based直接路由的路由
 
-在某些國家和地區，忽略 PSTN 電信公司以降低長途通話費用是違法的行為。 Location-Based直接路由 (LBR) 路由選項可讓您根據使用者的地理位置Teams付費旁路。 若要進一步瞭解如何規劃及設定 LBR，請參閱下列文章：
+在某些國家與地區，略過 PSTN 電信業者以降低長途電話成本是很非法的。 Location-Based直接路由的路由 (LBR) 可讓您根據使用者的地理位置限制Teams使用者的付費略過。 如需如何規劃及設定 LBR 的詳細資訊，請參閱下列文章：
 
 - [規劃直接路由的依位置路由](location-based-routing-plan.md)
 - [設定依位置路由的網路設定](location-based-routing-configure-network-settings.md)
 - [啟用直接路由的依位置路由](location-based-routing-enable.md)
 - [Contoso 案例研究：Location-Based路由](voice-case-study-location-based-routing.md)<br>
-  說明一家虛構的多國公司 Contoso 如何為Location-Based路由實作。
-
+  說明虛擬的多國公司 Contoso 如何為組織實作Location-Based路由。
 
 ### <a name="emergency-calling"></a>緊急電話
 
-您設定緊急電話方式會根據您的 PSTN 連接選項而不同。
+您設定緊急電話的設定方式會根據您的 PSTN 連線選項而有所不同。
 
-- 針對通話方案，每個使用者會自動啟用緊急通話。 使用者必須擁有與其指定電話號碼相關聯的已註冊緊急位址。 支援 (用戶端Teams動態緊急) 通話。  
+- 針對通話方案，系統會自動為每位使用者啟用緊急通話。 使用者必須有與其指派的電話號碼相關聯的已註冊緊急位址。 根據Teams用戶端) 的位置 (動態緊急通話。  
 
-- 針對運算子連線，每個使用者會自動啟用緊急通話。 使用者必須擁有與其指派的電話 numbe，r 相關聯的已註冊緊急位址，但位址只能由電信合作夥伴設定。 支援 (用戶端Teams動態緊急) 通話。
+- 針對電信業者連線，每位使用者都會自動啟用緊急電話。 使用者必須有與其指派之電話 Nu 要聯的已註冊緊急位址，r，但只能由電信業者合作夥伴設定位址。 根據Teams用戶端) 的位置 (動態緊急通話。
 
-- 針對直接路由，您必須使用 Teams 緊急呼叫路由 (TeamsEmergencyCallRoutingPolicy) 。 該政策會定義緊急號碼及其相關聯的路由目的地。 直接路由使用者不支援已註冊的緊急位置。 針對動態緊急電話，路由緊急電話時，可能需要進行其他組組，並可能還需要合作夥伴連接。
+- 若要使用直接路由，您必須使用 Teams 緊急通話路由原則 (TeamsEmergencyCallRoutingPolicy) 來定義使用者的緊急通話原則。 原則會定義緊急號碼及其相關聯的路由目的地。 已註冊的緊急位置不支援直接路由使用者。 針對動態緊急通話，必須進行額外的設定，才能路由緊急電話，也可能用於合作夥伴連線。
 
-若要進一步瞭解緊急通話概念和術語，以及如何設定緊急電話和動態緊急電話，請參閱下列文章：
+如需緊急通話概念與術語，以及如何設定緊急電話和動態緊急電話的詳細資訊，請參閱下列文章：
 
-- [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md)
+- [管理緊急通話](what-are-emergency-locations-addresses-and-call-routing.md)
 - [規劃和設定動態緊急電話](configure-dynamic-emergency-calling.md)
 - [管理緊急電話原則](manage-emergency-calling-policies.md)
-- [管理直接路由的緊急通話路由策略](manage-emergency-call-routing-policies.md)
-- [Contoso 案例研究：緊急電話](voice-case-study-emergency-calling.md)<br>
-  說明一家虛構的多國公司 Contoso 如何為組織實作緊急電話。
-
+- [管理直接路由的緊急通話路由原則](manage-emergency-call-routing-policies.md)
+- [Contoso 案例研究：緊急通話](voice-case-study-emergency-calling.md)<br>
+  說明虛擬的多國公司 Contoso 如何為組織實作緊急通話。
 
 ### <a name="network-topology-for-voice-features"></a>語音功能的網路拓撲
 
-如果您要部署動態緊急電話或直接路由Location-Based路由，您必須在 Microsoft Teams 中設定這些功能的網路Microsoft Teams。 若要瞭解如何設定網路區域、網路網站、網路子網和受信任的 IP 位址的網路設定，請參閱下列文章：
+如果您要部署動態緊急通話或Location-Based直接路由路由，您必須在 Microsoft Teams 中為這些功能設定網路設定。 若要瞭解如何設定網路區域、網路網站、網路子網及受信任 IP 位址的網路設定，請參閱下列文章：
 
-- [雲端語音功能的網路設定Microsoft Teams概念和術語](cloud-voice-network-settings.md)
-- [管理雲端語音功能的網路拓撲Microsoft Teams](manage-your-network-topology.md)
-
-
-
+- [Microsoft Teams中雲端語音功能的網路設定 - 概念與術語](cloud-voice-network-settings.md)
+- [在 Microsoft Teams 中管理雲端語音功能的網路拓撲](manage-your-network-topology.md)

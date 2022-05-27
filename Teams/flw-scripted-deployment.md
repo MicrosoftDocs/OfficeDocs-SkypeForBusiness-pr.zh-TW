@@ -19,12 +19,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
-ms.sourcegitcommit: 480046a53dfb6e6cf867e1920f8fb43dda9d3774
+ms.openlocfilehash: 7123d45819f6e956ecf562fd321e7762b50e5ae6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "61545004"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674655"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何為一線員工大規模佈建 Teams
 
@@ -214,8 +214,8 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 您可以根據業務需求來自訂下列設定。 我們已根據最佳做法選擇了一些建議選項，讓您可更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](teams-app-setup-policies.md)。
 
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至  **[Teams 應用程式]** > **[設定原則]**。
-2. 按一下  **[新增]**。  
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **[Teams 應用程式]** > **[設定原則]**。
+2. 按一下 [新增 **]**。  
 3. 輸入原則的名稱和描述。 例如，一線管理者的應用程式設定原則。
     :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="一線管理者應用程式設定原則範例名稱和描述的螢幕擷取畫面。":::
 
@@ -227,7 +227,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="新增釘選應用程式畫面，並顯示 Shifts 應用程式的 [新增] 按鈕的螢幕擷取畫面":::
 
 7. 移除 [通話] 功能 (如果有的話)。移除此功能不會為使用者停用此功能，但會防止其顯示在應用程式列上，藉此簡化使用者體驗。
-8. 按照下列順序排列應用程式，以指定應用程式在 Teams 應用程式列中的順序，然後按一下  **[儲存]**。
+8. 按照下列順序排列應用程式，以指定應用程式在 Teams 應用程式列中的順序，然後按一下 **[儲存]**。
 
     - 活動
     - 聊天
@@ -241,8 +241,8 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 您可以根據業務需求來自訂下列設定。 我們已根據最佳做法選擇了一些建議選項，讓您可更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](teams-app-setup-policies.md)。
 
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至  **[Teams 應用程式]** > **[設定原則]**。
-2. 按一下  **[新增]**。
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **[Teams 應用程式]** > **[設定原則]**。
+2. 按一下 [新增 **]**。
 3. 輸入原則的名稱和描述。 例如，一線員工的應用程式設定原則。
     :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="一線員工應用程式設定原則範例名稱和描述的螢幕擷取畫面。":::
 
@@ -255,7 +255,7 @@ Connect-MicrosoftTeams -Credential $teams_cred
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="新增釘選應用程式畫面，並顯示 Shifts 應用程式的 [新增] 按鈕的螢幕擷取畫面":::
 
 7. 注移除 [會議] 和 [通話] (如果有的話)。移除這些功能不會為使用者停用這些功能，但會防止其顯示在應用程式列上，藉此簡化使用者體驗。
-8. 按照下列順序排列應用程式，以指定應用程式在 Teams 應用程式列中的順序，然後按一下  **[儲存]**。
+8. 按照下列順序排列應用程式，以指定應用程式在 Teams 應用程式列中的順序，然後按一下 **[儲存]**。
     - 活動
     - 聊天
     - Teams
@@ -273,31 +273,31 @@ Connect-MicrosoftTeams -Credential $teams_cred
 
 您可以根據業務需求來自訂下列設定。 以下是根據最佳做法提供的建議選項，可讓您更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](teams-app-permission-policies.md)。
 
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至  **[Teams 應用程式]** > **[權限原則]**。
-2. 按一下  **[新增]**。
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [Teams 應用程式 **]**  >  [權限原則 **]**。
+2. 按一下 [新增 **]**。
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="新增應用程式權限原則頁面的螢幕擷取畫面。":::
 
 3. 輸入原則的名稱和描述。 例如，一線管理者的應用程式權限原則。
-4. 在  **[Microsoft 應用程式]** 底下，選取 **[允許所有應用程式]**。
-5. 在  **[第三方應用程式]** 底下，選取 **[允許所有應用程式]**。
+4. 在 **[Microsoft 應用程式]** 底下，選取 **[允許所有應用程式]**。
+5. 在 **[第三方應用程式]** 底下，選取 **[允許所有應用程式]**。
 6. 在 **[自訂應用程式]** 底下，選取 **[允許所有應用程式]**。
-7. 按一下  **[儲存]**。
+7. 按一下 [儲存]。
 
 #### <a name="create-the-frontline-worker-app-permission-policy"></a>建立一線員工的應用程式權限原則
 
 您可以根據業務需求來自訂下列設定。 以下是根據最佳做法提供的建議選項，可讓您更輕鬆地加入大量新使用者。 如需詳細資訊，請按一下[這裡](teams-app-permission-policies.md)。
 
-1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至  **[Teams 應用程式]** > **[權限原則]**。
-2. 按一下  **[新增]**。
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 [Teams 應用程式 **]**  >  [權限原則 **]**。
+2. 按一下 [新增 **]**。
 
     :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="新增應用程式權限原則頁面的螢幕擷取畫面。":::
 
 3. 輸入原則的名稱和描述。 例如，一線員工的應用程式權限原則。
-4. 在  **[Microsoft 應用程式]** 底下，選取 **[允許所有應用程式]**。
-5. 在  **[第三方應用程式]** 底下，選取 **[封鎖所有應用程式]**。
+4. 在 **[Microsoft 應用程式]** 底下，選取 **[允許所有應用程式]**。
+5. 在 **[第三方應用程式]** 底下，選取 **[封鎖所有應用程式]**。
 6. 在 **[自訂應用程式]** 底下，選取 **[允許所有應用程式]**。
-7. 按一下  **[儲存]**。
+7. 按一下 [儲存]。
 
 ## <a name="users-and-security-groups"></a>使用者和安全性群組
 

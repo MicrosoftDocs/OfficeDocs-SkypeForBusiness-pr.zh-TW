@@ -1,5 +1,5 @@
 ---
-title: PowerShell 腳本範例 - 為學校中的教師和學生建立安全性群組
+title: PowerShell 腳本範例 - 為貴校的授課者和學生建立安全性群組
 author: serdars
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 腳本來建立您管理學校Teams教師和學生所需的安全性群組。
+description: 使用此 PowerShell 腳本建立您需要管理學校授課者和學生Teams原則的安全性群組。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,35 +17,35 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 79b73ac2001acfbb7424250c8c6c118808250459
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: f46bd50e47640c575489788ccd3e5db0ce778564
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398387"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681544"
 ---
-# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 腳本範例 - 為學校中的教師和學生建立安全性群組
+# <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 腳本範例 - 為貴校的授課者和學生建立安全性群組
 
-使用此 PowerShell 腳本來建立管理學校Microsoft Teams策略所需的安全性群組。 系統[中的群組原則](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group)指派Teams可讓您將策略指派給一組使用者，例如安全性群組。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。
+使用此 PowerShell 腳本建立您在學校管理Microsoft Teams原則所需的安全性群組。 Teams中[群組的原則指派](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group)功能可讓您將原則指派給使用者群組，例如安全性群組。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。
 
-此 PowerShell 腳本會根據授權類型建立兩個安全性群組，一個適用于教職員和教育工作者，另一個則適用于學校的學生。 接著，您可以將策略指派給您建立的安全性組。 有關使用此腳本的資訊，請參閱指派策略給 [學校](../batch-group-policy-assignment-edu.md)中的大量使用者。
+此 PowerShell 腳本會根據授權類型建立兩個安全性群組，一個供教職員和授課者使用，另一個供您學校的學生使用。 接著，您可以將原則指派給您所建立的安全性群組。 如需使用此腳本的詳細資訊，請參閱 [指派原則給學校中的大型使用者群組](../batch-group-policy-assignment-edu.md)。
 
-此腳本執行下列操作：
+此腳本會執行下列動作：
 
-- 識別指派教職員 SKU 的教職員和教育工作者，建立安全性群組，然後將教職員和教師新加入群組。
-- 識別指派學生 SKU 的學生、建立安全性群組，然後將學生新增到群組。
-- 更新每個安全性群組的成員，以根據員工、教育者和學生是否有授權來新增或移除他們。
+- 識別指派教職員 SKU 的教職員和授課者、建立安全性群組，然後將教職員和授課者新增至群組。
+- 識別獲指派學生 SKU 的學生、建立安全性群組，然後將學生新增至群組。
+- 更新每個安全性群組的成員資格，以根據是否有授權來新增或移除教職員、授課者和學生。
 
-您必須定期執行此腳本，讓安全性群組保持在最新狀態。
+您必須定期執行此腳本，才能讓安全性群組保持在最新狀態。
 
 > [!IMPORTANT]
-> 將原則指派[給群組時](../assign-policies-users-and-groups.md#precedence-rules)，瞭解優先順序[](../assign-policies-users-and-groups.md#group-assignment-ranking)規則和群組分派排名非常重要。 請確定您閱讀並瞭解有關指派給群組之策略的您需要瞭解 [的概念](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)。
+> 將原則指派給群組時，請務必瞭解 [優先順序規則](../assign-policies-users-and-groups.md#precedence-rules) 和 [群組指派排名](../assign-policies-users-and-groups.md#group-assignment-ranking) 。 請務必閱讀並瞭解 [關於群組的原則指派所需注意](../assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)事項中的概念。
 
-## <a name="before-you-start"></a>在您開始之前
+## <a name="before-you-start"></a>開始之前
 
-下載並安裝[商務用 Skype PowerShell 模組](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)，然後在系統提示時重新開機電腦。
+下載並安裝[商務用 Skype Online PowerShell 模組](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)，然後在出現提示時重新開機電腦。
 
-若要精簡更多內容，[請參閱使用 PowerShell 商務用 Skype管理 Office 365線上](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)Teams [PowerShell 概觀](../teams-powershell-overview.md)。
+若要深入瞭解，請參閱[使用 Office 365 PowerShell 管理 商務用 Skype Online](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)和[Teams PowerShell 概觀](../teams-powershell-overview.md)。
 
 
 ## <a name="sample-script"></a>範例腳本

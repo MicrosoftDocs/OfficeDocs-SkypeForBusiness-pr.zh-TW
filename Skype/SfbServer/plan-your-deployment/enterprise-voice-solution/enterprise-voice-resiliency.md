@@ -1,5 +1,5 @@
 ---
-title: 在商務用 Skype Server 中規劃企業語音恢復功能
+title: 在 商務用 Skype Server 中規劃企業語音復原
 ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
@@ -15,27 +15,27 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
-description: 瞭解如何在中央網站和分支網站商務用 Skype Server 企業語音中支援語音彈性。 分支網站選項包括部署 Survivable 分支裝置或 Survivable Branch Server。
-ms.openlocfilehash: fa68fda07e104477bf0e8a089b45adf641ef4ed9
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 瞭解如何在中央網站和分支網站上支援商務用 Skype Server 企業語音的語音恢復功能。 分支網站選項包括部署 Survivable Branch Appliance 或 Survivable Branch Server。
+ms.openlocfilehash: 493f599f7fbec2a67efaaf59851fd7c2f3b2d144
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400287"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675475"
 ---
-# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>在商務用 Skype Server 中規劃企業語音恢復功能
+# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>在 商務用 Skype Server 中規劃企業語音復原
 
-瞭解如何在中央網站和分支網站商務用 Skype Server 企業語音中支援語音彈性。 分支網站選項包括部署 Survivable 分支裝置或 Survivable Branch Server。
+瞭解如何在中央網站和分支網站上支援商務用 Skype Server 企業語音的語音恢復功能。 分支網站選項包括部署 Survivable Branch Appliance 或 Survivable Branch Server。
 
-語音恢復指的是，如果主控商務用 Skype Server 的中央網站無法使用（不論是透過廣域網路絡 (WAN) 失敗或其他原因），則使用者可以繼續撥打和接聽電話的能力。 若中央網站失敗，企業語音服務必須透過無縫容錯移轉至備份網站而繼續中斷。 在 WAN 失敗的情況下，必須將分支網站來電重新導向至本機 PSTN 閘道。 本節討論在中央網站或 WAN 失敗的情況時，如何規劃語音彈性。
+語音復原是指當裝載商務用 Skype Server的中央網站無法使用時，使用者能夠繼續撥打和接聽電話，不論是透過廣域網路 (WAN) 失敗或其他原因。 如果中央月臺失敗，企業語音服務必須透過無縫容錯移轉至備份月臺，繼續不中斷。 萬一發生 WAN 失敗時，必須將分支月臺呼叫重新導向至本機 PSTN 閘道。 本節討論在中央網站或 WAN 失敗時的語音恢復功能規劃。
 
-## <a name="central-site-resiliency"></a>中央網站恢復能力
+## <a name="central-site-resiliency"></a>中央網站復原
 
-越來越多的企業開始將網站散佈到全球各地。 維護緊急服務、存取服務台，以及在中央網站停止服務時執行重要商務工作的能力，對任何企業語音恢復解決方案而言都是必要的。 當中央網站無法使用時，必須符合下列條件：
+越來越多的企業開始將網站散佈到全球各地。 維護緊急服務、存取技術支援人員，以及在中央網站服務中斷時執行重要商務工作的能力，對於任何企業語音復原解決方案而言都是不可或缺的。 當中央網站無法使用時，必須符合下列條件：
 
 - 必須提供語音容錯移轉功能。
 
-- 一般在中央網站上使用前端集區註冊的使用者，必須能夠使用替代的前端集區註冊。 若要執行此動作，可以建立多個 DNS SRV 記錄，每個記錄會解析為每一個中央網站的 Director 集區或前端集區。 您可以調整 SRV 記錄的優先順序和權重，這樣該中央網站所提供的使用者就能在其他 SRV 記錄中取得對應的 Director 和前端集區。
+- 通常向中央網站的前端集區註冊的使用者必須能夠向替代的前端集區註冊。 這可以透過建立多個 DNS SRV 記錄來完成，每個記錄都會解析為每個中央網站中的目錄集區或前端集區。 您可以調整 SRV 記錄的優先順序和權數，讓由該中央網站提供服務的使用者取得對應的 Director 和前端集區，而在其他 SRV 記錄中的前端集區前面。
 
 - 撥入其他網站或由其他網站撥出的使用者通話必須重新路由至 PSTN。
 
@@ -43,7 +43,7 @@ ms.locfileid: "62400287"
 
 ### <a name="architecture-and-topology"></a>架構與拓撲
 
-在中央網站規劃語音彈性功能時，需要對商務用 Skype Server 註冊機構在啟用語音容錯移轉中所扮演的中央角色有基本瞭解。 商務用 Skype Server 註冊機構是一種服務，可讓用戶端註冊及驗證，並提供路由服務。 它會在所有的 Standard Edition server、前端伺服器、Director 或 Survivable 分支裝置上執行。 註冊集區包含在前端集區上執行的註冊機構服務，且位於相同的網站。 商務用 Skype 用戶端會透過下列探索機制來探索前端集區：
+在中央網站規劃語音恢復功能需要基本瞭解商務用 Skype Server註冊機構在啟用語音容錯移轉時所扮演的中央角色。 商務用 Skype Server註冊機構是一項服務，可啟用用戶端註冊和驗證，並提供路由服務。 它會在所有Standard Edition伺服器、前端伺服器、Director 或 Survivable Branch Appliance 上執行。 註冊機構集區是由在前端集區上執行且位於相同月臺的註冊機構服務所組成。 商務用 Skype用戶端會透過下列探索機制探索前端集區：
 
 1. DNS SRV 記錄
 
@@ -51,22 +51,22 @@ ms.locfileid: "62400287"
 
 3. DHCP 選項 120
 
-商務用 Skype 用戶端連接至前端集區之後，它會由負載平衡器導向集區中的前端伺服器之一。 然後，該前端伺服器又會將用戶端重新導向至集區中的首選註冊機構。
+在商務用 Skype用戶端連線到前端集區之後，負載平衡器會將其導向集區中的其中一個前端伺服器。 該前端伺服器接著會將用戶端重新導向至集區中慣用的註冊機構。
 
-每個為企業語音啟用的使用者會指派給特定的註冊機構集區，該集區會變成該使用者的主要註冊集區。 在特定網站上，數百名或數千名使用者通常會共用單一主要登錄器集區。 為了針對任何一個分支網站裡倚賴中央網站以獲得顯示狀態、會議或容錯移轉功能的使用者，記錄其對中央網站資源的使用情況，建議您將每位分支網站使用者視為向中央網站註冊的使用者。 分支網站使用者數目（包括註冊 Survivable Branch 裝置的使用者）目前沒有任何限制。
+針對企業語音啟用的每個使用者都會指派給特定的註冊機構集區，這會變成該使用者的主要註冊機構集區。 在特定網站上，數百名或數千名使用者通常會共用單一主要登錄器集區。 為了針對任何一個分支網站裡倚賴中央網站以獲得顯示狀態、會議或容錯移轉功能的使用者，記錄其對中央網站資源的使用情況，建議您將每位分支網站使用者視為向中央網站註冊的使用者。 分支網站使用者的數目目前沒有任何限制，包括向 Survivable Branch Appliance 註冊的使用者。
 
-為了確保中央網站故障時的語音恢復能力，主要登錄器集區必須在另一個網站上設有一台指定的備份登錄器集區。 您可以使用拓撲產生器恢復設定來設定備份。 假設兩個網站之間存在可恢復的 WAN 連結，則已無法再使用主要登錄器集區的使用者會自動導向至備用登錄器集區。
+為了確保中央網站故障時的語音恢復能力，主要登錄器集區必須在另一個網站上設有一台指定的備份登錄器集區。 您可以使用拓撲產生器復原設定來設定備份。 假設兩個網站之間存在可恢復的 WAN 連結，則已無法再使用主要登錄器集區的使用者會自動導向至備用登錄器集區。
 
 下列步驟說明用戶端探索與註冊程序：
 
-1. 用戶端透過 DNS SRV 記錄探索商務用 Skype Server。 在商務用 Skype Server 中，可以將 dns srv 記錄設定為將多個 FQDN 傳回 DNS srv 查詢。 例如，如果 Contoso 企業擁有三個中央網站 (北美、歐洲與亞太地區) 並在每個中央網站擁有一個 Director 集區，DNS SRV 記錄可以分別指向這三個位置的個別 Director 集區 FQDN。 只要其中一個位置有 Director 集區可用，用戶端可以連線至第一個躍點商務用 Skype Server。
+1. 用戶端會透過 DNS SRV 記錄探索商務用 Skype Server。 在商務用 Skype Server中，DNS SRV 記錄可以設定為將多個 FQDN 傳回 DNS SRV 查詢。 例如，如果 Contoso 企業擁有三個中央網站 (北美、歐洲與亞太地區) 並在每個中央網站擁有一個 Director 集區，DNS SRV 記錄可以分別指向這三個位置的個別 Director 集區 FQDN。 只要其中一個位置中的 Director 集區可供使用，用戶端就可以連線到第一個躍點商務用 Skype Server。
 
     > [!NOTE]
-    > 使用 Director 集區是選用的。 可以改為使用前端集區。
+    > 使用 Director 集區是選擇性的。 您可以改用前端集區。
 
-2. Director 集區會將使用者的主要註冊區集區和備份註冊區集區告知商務用 Skype 用戶端。
+2. Director 集區會通知商務用 Skype用戶端有關使用者的主要註冊機構集區和備份登錄器集區。
 
-3. 商務用 Skype 用戶端會先嘗試連接至使用者的主要註冊集區。 如果主要登錄器集區有回應，該登錄器就會接受註冊。 如果無法使用主要註冊集區，商務用 Skype 用戶端會嘗試連線至備份註冊機構集區。 如果備份報名者集區可供使用，且已決定使用者的主要註冊集區無法使用 (請偵測指定的容錯移轉間隔不足的偵測) 。備份註冊器集區會接受使用者的註冊。 在備份註冊機構偵測到主要報名者再次可用之後，[備份註冊機集區] 會將容錯移轉用戶端重新導向至其主要集區。
+3. 商務用 Skype用戶端會先嘗試連線到使用者的主要註冊機構集區。 如果主要登錄器集區有回應，該登錄器就會接受註冊。 如果主要登錄器集區無法使用，商務用 Skype用戶端會嘗試連線到備份註冊機構集區。 如果備份登錄器集區可用，且已藉由偵測到指定容錯移轉間隔缺少活動訊號， (判斷使用者的主要登錄器集區無法使用，) 備份註冊機構集區接受使用者的註冊。 備份註冊機構偵測到主要登錄器再次可用之後，備份登錄器集區會將容錯移轉用戶端重新導向至其主要集區。
 
 ### <a name="requirements-and-recommendations"></a>需求和建議
 
@@ -76,28 +76,28 @@ ms.locfileid: "62400287"
 
 - 每個中央網站必須內含一個登錄器集區，且該集區必須包含一或多個登錄器。
 
-- 每個註冊機構集區都必須使用 DNS 負載平衡、硬體負載平衡或兩者兩者進行負載平衡。 如需規劃負載平衡設定的詳細資訊，請參閱[商務用 Skype 的負載平衡需求](../../plan-your-deployment/network-requirements/load-balancing.md)。
+- 每個註冊機構集區都必須使用 DNS 負載平衡、硬體負載平衡或兩者進行負載平衡。 如需規劃負載平衡設定的詳細資訊，請參閱[商務用 Skype的負載平衡需求](../../plan-your-deployment/network-requirements/load-balancing.md)。
 
-- 每個使用者都必須使用商務用 Skype Server 管理命令介面 **get-csuser 指令程式**，或商務用 Skype Server 控制台，指派給主要註冊集區。
+- 必須使用 商務用 Skype Server Management Shell **set-CsUser** Cmdlet 或 商務用 Skype Server 主控台，將每個使用者指派給主要登錄器集區。
 
 - 主要登錄器集區必須在其他中央網站設有一個備份登錄器集區。
 
-- 主要登錄器集區必須設為容錯移轉至備份登錄器集區。 主要登錄器集區預設會在故障超過 300 秒之後容錯移轉至備份登錄器集區。 您可以使用商務用 Skype Server 拓撲產生器來變更此間隔。
+- 主要登錄器集區必須設為容錯移轉至備份登錄器集區。 主要登錄器集區預設會在故障超過 300 秒之後容錯移轉至備份登錄器集區。 您可以使用 商務用 Skype Server 拓撲產生器來變更此間隔。
 
 - 設定容錯移轉路由。 設定路由時，所指定的閘道必須與主要路由之指定閘道分屬不同網站。
 
-- 若中央網站包含您的主要管理伺服器，且該網站可能長時間關機，您需要在備份網站重新安裝管理工具;否則，您將無法變更任何管理設定。
+- 如果中央月臺包含您的主要管理伺服器，而且月臺可能會長時間關閉，您必須在備份月臺重新安裝管理工具;否則，您將無法變更任何管理設定。
 
 ### <a name="dependencies"></a>相依性
 
-商務用 Skype Server 取決於下列基礎結構和軟體元件，以確保語音復原能力：
+商務用 Skype Server取決於下列基礎結構和軟體元件，以確保語音恢復：
 
 |**元件** <br/> |**功能** <br/> |
 |:-----|:-----|
 |DNS  <br/> |負責解析 SRV 記錄與 A 記錄以因應伺服器對伺服器，及伺服器對用戶端的連線需求  <br/> |
 |Exchange 與 Exchange Web 服務 (EWS)  <br/> |連絡儲存裝置；行事曆資料  <br/> |
 |Exchange 整合通訊與 Exchange Web 服務  <br/> |通話記錄、語音信箱清單、語音信箱  <br/> |
-|DHCP 選項 120  <br/> |如果無可用的 DNS SRV，用戶端會嘗試使用 DHCP 選項 120 來探索登錄器。 若要執行此作業，必須設定 dhcp 伺服器或啟用商務用 Skype Server dhcp。  <br/> |
+|DHCP 選項 120  <br/> |如果無可用的 DNS SRV，用戶端會嘗試使用 DHCP 選項 120 來探索登錄器。 若要讓此功能能夠運作，必須設定 DHCP 伺服器，或商務用 Skype Server必須啟用 DHCP。  <br/> |
 
 ### <a name="survivable-voice-features"></a>Survivable Voice 功能
 
@@ -129,13 +129,13 @@ ms.locfileid: "62400287"
 
   - 變更 DNS SRV 記錄，以便中央網站的 Exchange UM 伺服器指向另一個網站的備份 Exchange UM 伺服器。
 
-  - 設定每一位使用者的 Exchange UM 撥號對應表，以在中央網站和備份網站上同時包括 Exchange um 伺服器，但將備份 Exchange UM 伺服器指定為已停用。 若主網站無法使用，Exchange 管理員必須將備份網站上的 Exchange UM 伺服器標示為 [已啟用]。
+  - 將每個使用者的Exchange UM 撥號對應表設定為在中央月臺和備份月臺包含Exchange UM 伺服器，但將備份Exchange UM 伺服器指定為已停用。 如果主要月臺變得無法使用，Exchange系統管理員必須將備份月臺上的Exchange UM 伺服器標示為已啟用。
 
-    如果上述兩種解決方案皆無法使用，則當中央網站無法使用時，就無法使用 Exchange UM。
+    如果上述解決方案都無法使用，則在中央網站無法使用時，將無法使用Exchange UM。
 
 - 所有會議類型
 
-    已經容錯移轉至備份網站的使用者，可以加入由開放使用集區的召集人所建立或主控的會議，但是由於該使用者所屬的主要集區已經不再提供服務，因此無法自行建立或主控會議。 同樣地，其他使用者無法加入位於受影響使用者之主要集區上的會議。
+    已經容錯移轉至備份網站的使用者，可以加入由開放使用集區的召集人所建立或主控的會議，但是由於該使用者所屬的主要集區已經不再提供服務，因此無法自行建立或主控會議。 同樣地，其他使用者無法加入在受影響使用者的主要集區上主持的會議。
 
 下列語音功能在主要中央網站中斷服務時將無法運作：
 
@@ -151,23 +151,23 @@ ms.locfileid: "62400287"
 
 - 通訊錄 Web 搜尋
 
-## <a name="branch-site-resiliency"></a>分支網站恢復功能
+## <a name="branch-site-resiliency"></a>分支月臺復原
 
-如果您想要提供分支網站恢復能力，也就是高可用性的企業語音服務，您有三個選項可供您執行：
+如果您想要提供分支月臺復原功能，也就是高可用性企業語音服務，您有三個選項可執行這項操作：
 
 - Survivable Branch Appliance
 
 - Survivable Branch Server
 
-- 分支網站上的完整商務用 Skype Server 部署
+- 分支月臺的完整商務用 Skype Server部署
 
 此指南會協助您評估最適合您組織的恢復能力解決方案，以及根據恢復能力解決方案，評估要使用的 PSTN 連線解決方案。也會協助您說明先決條件及其他規劃考量，以準備部署選擇的解決方案。
 
-### <a name="branch-site-resiliency-features"></a>分支網站恢復功能
+### <a name="branch-site-resiliency-features"></a>分支月臺復原功能
 
-如果您提供分支網站恢復能力，當分支網站與中央網站的 WAN 連線失敗，或是無法存取中央網站時，下列語音功能應該仍然可用：
+如果您提供分支月臺復原功能，如果分支月臺與中央網站的 WAN 連線失敗，或中央網站無法連線，則應繼續提供下列語音功能：
 
-- 輸入和輸出公用交換電話網路 (PSTN) 通話
+- 輸入和輸出公用交換電話網路 (PSTN) 電話
 
 - 相同與不同的網站之間的使用者，皆可進行企業通話
 
@@ -175,46 +175,46 @@ ms.locfileid: "62400287"
 
 - 兩方立即訊息
 
-- 來電轉接、端點同時響鈴、呼叫委派及小組通話服務，但只有在 delegator 和代理人 (例如，管理員和管理員的系統管理員) 或所有小組成員，都是在相同的網站上設定
+- 呼叫轉送、端點同時響鈴、通話委派和小組通話服務，但前提是委派者和委派 (例如，管理員和經理的系統管理員) 或所有小組成員都設定在同一個月臺
 
-- Cdr)  (詳細通話記錄
+- CDR () 的通話詳細資料記錄
 
-- 使用會議自動語音應答的 PSTN 電話撥入式會議
+- 使用會議自動語音應答的 PSTN 撥入式會議
 
-- 語音信箱功能（如果您設定語音信箱重新路由設定）。
+- 如果您設定語音信箱重新路由設定，則可使用語音信箱功能。
 
 - 使用者驗證和授權
 
-下列功能只有在您的恢復解決方案是在分支網站上進行大規模商務用 Skype Server 部署時才會使用：
+只有當復原解決方案是分支月臺的完整商務用 Skype Server部署時，才能使用下列功能：
 
-- IM、web 及 A/V 會議
+- IM、Web 和 A/V 會議
 
-- 目前狀態和請勿打擾 (DND) 型路由 (禁止通話在已啟用 DND 的分機上響鈴) 
+- 目前狀態和不打擾 (以 DND) 為基礎的路由 (，其中會防止在已啟用 DND 的擴充功能上撥打電話) 
 
 - 更新來電轉接設定
 
 - 回應群組應用程式和通話駐留應用程式
 
-- 布建新的電話和用戶端，但只有在分支網站有 Active Directory 網域服務。
+- 布建新的電話和用戶端，但只有在分支月臺有Active Directory 網域服務時才會布建。
 
 - 增強型 9-1-1 (E9-1-1) 
 
-    如果已部署 E9-1-1，而中央網站的 SIP 主幹無法使用，因為 WAN 連結已關機，則 Survivable Branch 裝置會將 E9-1-1 呼叫路由傳送至本機分支閘道。 若要啟用此功能，分支網站使用者的語音原則應該會在發生 WAN 失敗時，將通話路由傳送至本地閘道。
+    如果已部署 E9-1-1，而且因為 WAN 連結已關閉，所以無法使用中央網站的 SIP 主幹，則 Survivable Branch Appliance 會將 E9-1-1 呼叫路由傳送至本機分支閘道。 若要啟用這項功能，分支網站使用者的語音原則應該在 WAN 失敗時，將呼叫路由傳送至本機閘道。
 
 > [!NOTE]
-> SBA (survivable branch office) 不支援 XMPP。 位於 SBA 設定中的使用者將無法使用 XMPP 連絡人傳送 IMs 或查看顯示狀態。
+> XMPP 不支援 SBA (代理分公司) 。 位於 SBA 設定中的使用者將無法傳送 IM 或查看具有 XMPP 連絡人的目前狀態。
 
-### <a name="branch-site-resiliency-solutions"></a>分支網站恢復解決方案
+### <a name="branch-site-resiliency-solutions"></a>分支月臺復原解決方案
 
-為您的組織提供分支網站恢復能力的好處是顯而易見的。 具體而言，如果您失去中央網站的連線，分支網站使用者將會繼續企業語音服務和語音信箱 (如果您設定) 的語音信箱重新路由設定。 但對於使用者人數低於 25 位的網站而言，恢復能力解決方案所提供的投資報酬率可能不夠。
+為您的組織提供分支網站恢復能力的好處是顯而易見的。 具體來說，如果您失去與中央網站的連線，分支網站使用者會繼續擁有企業語音服務和語音信箱 (如果您設定語音信箱重新路由設定) 。 但對於使用者人數低於 25 位的網站而言，恢復能力解決方案所提供的投資報酬率可能不夠。
 
 如果您決定要提供分支網站恢復能力，您有三個選項。下表可協助您判斷最適合您的組織之選項。
 
-|**如果您...**|**建議您使用...**|
+|**如果您...**|**我們建議您使用...**|
 |:-----|:-----|
-|在您的分支網站上主控 25 到 1000 名使用者，且投資報酬率不足以支應完整部署，或是不具本機管理支援  <br/> |Survivable Branch Appliance  <br/> Survivable 分支裝置是業界標準的刀片式伺服器，具有在 Windows server 2008 R2 上執行的商務用 Skype Server 註冊裝置和轉送伺服器。 Survivable Branch 裝置也包含公用交換電話網路 (PSTN) 閘道。 合格的第三方裝置 (由參與 Survivable Branch Appliance (SBA) 資格/認證方案的 Microsoft 協力廠商所開發) 在 WAN 失效時仍可提供持續的 PSTN 連線，但這個方法無法提供可恢復的顯示狀態與會議功能，因為這些功能依存於中央網站上的前端伺服器。  <br/> 如需 Survivable 分支裝置的詳細資訊，請參閱本主題稍後的「Survivable Branch 裝置詳細資料」。  <br/> **注意：** 如果您決定同時將 SIP 主幹與 Survivable 分支裝置搭配使用，請與您的 Survivable 分支裝置廠商聯繫，以瞭解哪一種服務提供者最適合您的組織。 <br/> |
-|在分支網站上的1000和2000使用者間主機、缺乏彈性的 WAN 連線，且有訓練有素的商務用 Skype Server 系統管理員可用  <br/> |Survivable 分支伺服器或兩個 Survivable 分支裝置。  <br/> Survivable 分支伺服器是 Windows 伺服器會議：指定的硬體需求，其上已安裝商務用 Skype Server 註冊機構和轉送伺服器軟體。 該伺服器必須將 PSTN 閘道或 SIP 主幹連線至電話服務提供者。  <br/> 如需 Survivable 分支伺服器的詳細資訊，請參閱本主題稍後的「Survivable Branch Server Details。」。  <br/> |
-|如果您需要最多5000使用者的語音功能，且有訓練有素的商務用 Skype Server 系統管理員可用，請使用目前狀態和會議功能。  <br/> |以 Standard Edition Server 部署為中央網站，而非分支網站。  <br/> 在發生 WAN 失敗時，完整的商務用 Skype Server 部署可提供連續的 PSTN 連線和彈性顯示功能和會議。  <br/> |
+|在您的分支網站上主控 25 到 1000 名使用者，且投資報酬率不足以支應完整部署，或是不具本機管理支援  <br/> |Survivable Branch Appliance  <br/> Survivable Branch Appliance 是業界標準的刀鋒伺服器，商務用 Skype Server註冊機構和轉送伺服器在 Windows Server 2008 R2 上執行。 Survivable Branch Appliance 也包含公用交換電話網路 (PSTN) 閘道。 合格的第三方裝置 (由參與 Survivable Branch Appliance (SBA) 資格/認證方案的 Microsoft 協力廠商所開發) 在 WAN 失效時仍可提供持續的 PSTN 連線，但這個方法無法提供可恢復的顯示狀態與會議功能，因為這些功能依存於中央網站上的前端伺服器。  <br/> For details about Survivable Branch Appliances, see "Survivable Branch Appliance Details," later in this topic.  <br/> **注意：** 如果您也決定搭配 Survivable Branch Appliance 使用 SIP 主幹，請連絡您的 Survivable Branch Appliance 廠商，以瞭解哪個服務提供者最適合您的組織。 <br/> |
+|在您的分支網站裝載 1000 到 2000 位使用者、缺少復原的 WAN 連線，並已訓練商務用 Skype Server系統管理員可用  <br/> |Survivable Branch Server 或兩個 Survivable Branch Appliance。  <br/> Survivable Branch Server 是符合指定硬體需求的Windows伺服器，其上已安裝商務用 Skype Server註冊機構和轉送伺服器軟體。 該伺服器必須將 PSTN 閘道或 SIP 主幹連線至電話服務提供者。  <br/> For details about Survivable Branch Servers, see "Survivable Branch Server Details," later in this topic.  <br/> |
+|如果您除了最多 5000 位使用者的語音功能之外，還需要出席和會議功能，且已訓練商務用 Skype Server系統管理員可用  <br/> |以 Standard Edition Server 部署為中央網站，而非分支網站。  <br/> 完整商務用 Skype Server部署提供連續的 PSTN 連線，以及萬一發生 WAN 失敗時的復原狀態和會議。  <br/> |
 
 #### <a name="resiliency-topologies"></a>恢復能力拓撲
 
@@ -222,11 +222,11 @@ ms.locfileid: "62400287"
 
 **分支網站恢復能力選項**
 
-![語音分支恢復選項。](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
+![語音分支復原選項。](../../media/Plan_OCS_Voice_BranchResiliencyOptions.jpg)
 
 #### <a name="survivable-branch-appliance-details"></a>Survivable Branch Appliance 詳細資料
 
-商務用 Skype Server Survivable Branch 裝置包含下列元件：
+商務用 Skype Server Survivable Branch Appliance 包含下列元件：
 
 - 使用者驗證、登錄與通話路由所需的登錄器
 
@@ -236,136 +236,136 @@ ms.locfileid: "62400287"
 
 - 供本機使用者存放資料的 SQL Server Express
 
-Survivable 分支裝置也包含 PSTN 主幹、類比埠和乙太網路介面卡。
+Survivable Branch Appliance 也包含 PSTN 主幹、類比埠和乙太網路介面卡。
 
-如果分支網站與中央網站之間的 WAN 連線無法使用，則內部分支使用者仍會向 Survivable Branch 裝置註冊機構註冊，並使用 Survivable Branch 裝置連接至 PSTN，以取得不間斷的語音服務。 當分支網站的 WAN 連結無法使用時，從家中或其他遠端位置連線的分支網站使用者將可使用中央網站上的登錄器伺服器進行登錄。 這些使用者將可擁有完整的整合通訊功能，但有一例外，傳入分支網站的來電會轉接至語音信箱。 當 WAN 連線恢復時，分支網站使用者即應可重獲完整的功能。 容錯移轉至 Survivable Branch 裝置或服務的還原，都不需要有 IT 系統管理員的狀態。
+如果分支網站與中央網站的 WAN 連線變得無法使用，內部分支使用者會繼續向 Survivable Branch Appliance 註冊機構註冊，並使用與 PSTN 的 Survivable Branch Appliance 連線來取得不中斷的語音服務。 當分支網站的 WAN 連結無法使用時，從家中或其他遠端位置連線的分支網站使用者將可使用中央網站上的登錄器伺服器進行登錄。 這些使用者將可擁有完整的整合通訊功能，但有一例外，傳入分支網站的來電會轉接至語音信箱。 當 WAN 連線恢復時，分支網站使用者即應可重獲完整的功能。 容錯移轉至 Survivable Branch Appliance 或還原服務都不需要 IT 系統管理員。
 
-商務用 Skype Server 在分支網站上支援最多兩個 Survivable 分支裝置。
+商務用 Skype Server在分支網站最多支援兩個 Survivable Branch Appliance。
 
 #### <a name="survivable-branch-appliance-deployment-overview"></a>Survivable Branch Appliance 部署概觀
 
-Survivable 分支裝置是由原始設備製造商生產，與 Microsoft 合作，並由增值零售商自行部署。 只有在中央網站部署商務用 Skype Server 後，才會發生此部署，分支網站的 WAN 連線已到位，且已啟用分支網站使用者的企業語音。
+Survivable Branch Appliance 是由原始設備製造商與 Microsoft 合作製造，並由增值零售商代表他們部署。 只有在中央月臺已部署商務用 Skype Server、分支網站的 WAN 連線已就緒，且分支月臺使用者已啟用企業語音之後，才會進行此部署。
 
 如需這些階段的詳細資訊，請參閱部署文件中的＜[Deploying a Survivable Branch Appliance or Server](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-a-survivable-branch-appliance-or-server)＞。
 
 |**階段**|**步驟**|**使用者權限**|
 |:-----|:-----|:-----|
-|為 Survivable Branch 裝置設定 Active Directory 網域服務  <br/> |**在中央網站上：** <br/>  在分支網站上，為將安裝及啟動 Survivable 分支裝置的技術人員建立網域使用者帳戶 (或企業身分識別) 。 <br/>  使用 Active Directory 網域服務中 Survivable Branch 裝置的適用的完整功能變數名稱 (FQDN) ) ，建立電腦帳戶 (。 <br/>  在 [拓撲產生器] 中，建立併發布 Survivable Branch 裝置。 <br/> |技術人員的使用者帳戶必須是 RTCUniversalSBATechnicians 的成員。 Survivable 分支裝置必須屬於 RTCSBAUniversalServices 群組，這會在您使用拓撲產生器時自動進行。  <br/> |
-|安裝和啟動 Survivable 分支裝置。  <br/> |**在分支網站上：** <br/>  將 Survivable 分支裝置連線至乙太網路埠和 PSTN 埠。 <br/>  啟動 Survivable 分支裝置。 <br/>  使用在中央網站為 Survivable Branch 裝置建立的網域使用者帳戶，將 Survivable 分支裝置加入網域。 設定 FQDN 與 IP 位址，使其符合在電腦帳戶中建立的 FQDN。 <br/>  使用 OEM 使用者介面設定 Survivable 分支裝置。 <br/>  測試 PSTN 連線。 <br/> |技術人員的使用者帳戶必須是 RTCUniversalSBATechnicians 的成員。  <br/> |
+|設定 Survivable Branch Appliance 的Active Directory 網域服務  <br/> |**在中央網站上：** <br/>  為將在分支月臺安裝並啟用 Survivable Branch Appliance 的技術人員建立網域使用者帳戶 (或企業身分識別) 。 <br/>  在 Active Directory 網域服務 中，使用適用的完整功能變數名稱 (FQDN) ) 建立適用于 Survivable Branch Appliance 的電腦帳戶 (。 <br/>  在拓撲產生器中，建立併發布 Survivable Branch Appliance。 <br/> |技術人員的使用者帳戶必須是 RTCUniversalSBATechnicians 的成員。 Survivable Branch Appliance 必須屬於 RTCSBAUniversalServices 群組，這會在您使用拓撲產生器時自動發生。  <br/> |
+|安裝並啟用 Survivable Branch Appliance。  <br/> |**在分支網站上：** <br/>  連線 Survivable Branch Appliance 連線到乙太網路埠和 PSTN 埠。 <br/>  啟動 Survivable Branch Appliance。 <br/>  使用為中央網站的 Survivable Branch Appliance 建立的網域使用者帳戶，將 Survivable Branch Appliance 加入網域。 設定 FQDN 與 IP 位址，使其符合在電腦帳戶中建立的 FQDN。 <br/>  使用 OEM 使用者介面設定 Survivable Branch Appliance。 <br/>  測試 PSTN 連線。 <br/> |技術人員的使用者帳戶必須是 RTCUniversalSBATechnicians 的成員。  <br/> |
 
 #### <a name="survivable-branch-server-details"></a>Survivable Branch Server 詳細資料
 
-在 [拓撲產生器] 中，建立分支網站，將 Survivable 分支伺服器新增至該網站，然後在您要安裝該角色的電腦上執行商務用 Skype Server 部署嚮導。
+在 [拓撲產生器] 中建立分支月臺，將 Survivable Branch Server 新增至該月臺，然後在您要安裝角色的電腦上執行 [商務用 Skype Server 部署精靈]。
 
-### <a name="branch-site-resiliency-requirements"></a>分支網站恢復需求
+### <a name="branch-site-resiliency-requirements"></a>分支月臺復原需求
 
-本主題將協助您為使用者準備分支網站恢復功能及語音信箱留存性，也會指定相關的硬體和軟體需求。
+本主題將協助您為使用者準備分支網站復原能力和語音信箱生存能力，並同時指定相關的硬體和軟體需求。
 
-#### <a name="preparing-branch-users-for-branch-site-resiliency"></a>準備分支使用者 Branch-Site 恢復功能
+#### <a name="preparing-branch-users-for-branch-site-resiliency"></a>準備分支使用者以Branch-Site復原
 
-將其註冊機構集區設為 Survivable Branch 裝置 (SBA) 或 Survivable Branch Server），為使用者準備分支網站恢復功能。
+將使用者的註冊機構集區設定為 Survivable Branch Appliance (SBA) 或 Survivable Branch Server，讓使用者準備好進行分支網站復原。
 
 #### <a name="registrar-assignments-for-branch-users"></a>分支使用者的註冊機構指派
 
-不論您選擇哪一個分支網站恢復解決方案，您都必須將主要註冊器指派給每個使用者。 分支網站使用者應始終向分支網站上的註冊機構註冊，不論該報名者是位於 Survivable branch 裝置、Survivable branch Server，還是獨立商務用 Skype Server Standard 或 Enterprise Edition 伺服器上。 網域名稱系統 (DNS) 服務 (SRV) 資源記錄是必要的，讓用戶端能夠探索其註冊區集區。 如果 Survivable 分支裝置無法使用，這就是分支網站用戶端將如何自動探索備份註冊機。
+無論您選擇哪一個分支月臺復原解決方案，您都必須將主要註冊機構指派給每個使用者。 無論註冊機構位於 Survivable Branch Appliance、Survivable Branch Server 或獨立商務用 Skype Server Standard 或 Enterprise Edition 伺服器中，分支網站使用者都應該一律向分支網站註冊註冊機構。 需要網域名稱系統 (DNS) 服務 (SRV) 資源記錄，讓用戶端可以探索其註冊機構集區。 如果 Survivable Branch Appliance 變得無法使用，這就是分支月臺用戶端自動探索備份註冊機構的方式。
 
-如果分支網站沒有 DNS 伺服器，有兩種方法可用於設定 Survivable 分支裝置或 Survivable Branch 伺服器的探索：
+如果分支月臺沒有 DNS 伺服器，則有兩種設定 Survivable Branch Appliance 或 Survivable Branch Server 探索的替代方式：
 
-- 在分支網站的動態主機設定通訊協定上，設定 DHCP 選項120。 (DHCP) 伺服器指向 Survivable Branch 裝置或 Survivable Branch 伺服器的完整功能變數名稱 (FQDN) 。
+- 在分支月臺的動態主機設定通訊協定 (DHCP) 伺服器上設定 DHCP 選項 120，以指向 Survivable Branch Appliance 或 Survivable Branch Server 的 FQDN) 完整功能變數名稱 (。
 
-- 設定 Survivable 分支裝置或 Survivable 分支伺服器以回應 DHCP 120 查詢。
+- 設定 Survivable Branch Appliance 或 Survivable Branch Server 以回應 DHCP 120 查詢。
 
 #### <a name="voice-routing-for-branch-users"></a>分支使用者的語音路由
 
-建議您建立個別的使用者層級語音 over 網際網路通訊協定 (VoIP 分支網站中使用者的) 原則。 這個原則應包含使用 Survivable Branch 裝置或 Branch server 閘道的主要路由，以及一個或多個在中央網站上使用具有公用電話 (交換網之公用電話) 閘道的主幹的備份路由。 如果主要路由無法使用，則改為使用使用一或多部中央網站閘道的備份路由。 這種方式不論登錄使用者的位置為何（位於中央網站的分支網站註冊機構或備份註冊機構集區），使用者的 VoIP 原則都是有效的。 這是容錯移轉案例的重要考慮。 例如，如果您需要重新命名 Survivable 分支裝置，或重新設定 Survivable Branch 裝置以連線至中央網站的備份註冊機構集區，則必須將分支網站使用者移至中央網站的持續時間。  (如需重新命名或重新配置 Survivable 分支裝置的詳細資訊，請參閱部署檔中的 [附錄 B：管理 Survivable Branch 裝置](/previous-versions/office/lync-server-2013/lync-server-2013-appendix-b-managing-a-survivable-branch-appliance) 。 ) 如果這些使用者沒有使用者層級 VoIP 原則或使用者層級撥號對應表，當使用者移至另一個網站時，網站層級 VoIP 原則及網站層級撥號對應表的中央網站預設會套用至使用者。 而不是分支網站網站層級 VoIP 原則和撥號對應表。 在此情況下，除非備份註冊機構集區所使用的網站層級 VoIP 原則和網站層級撥號對應表也可以套用至分支網站使用者，否則他們的呼叫將會失敗。 例如，如果位於日本的分支網站中的使用者已移至 Redmond 中的中央網站，則在其上預置 + 1425 至所有7位數通話的正規化規則的撥號對應表，將不會適當地為這些使用者轉譯來電。
+建議您為分支網站中的使用者建立個別的使用者層級語音透過網際網路通訊協定 (VoIP) 原則。 此原則應包含使用 Survivable Branch Appliance 或分支伺服器閘道的主要路由，以及一或多個使用主幹與公用交換電話網路絡的備份路由 (中央月臺的 PSTN) 閘道。 如果主要路由無法使用，則會改用使用一或多個中央月臺閘道的備份路由。 如此一來，不論使用者在何處註冊—在分支網站註冊機構或中央網站的備份註冊機構集區上—使用者的 VoIP 原則一律有效。 這是容錯移轉案例的重要考慮。 例如，如果您需要重新命名 Survivable Branch Appliance，或重新設定 Survivable Branch Appliance 以連線到中央網站的備份註冊機構集區，則必須在持續期間內將分支月臺使用者移至中央網站。  (如需重新命名或重新設定 Survivable Branch Appliance 的詳細資訊，請參閱部署檔中的 [附錄 B：管理 Survivable Branch Appliance](/previous-versions/office/lync-server-2013/lync-server-2013-appendix-b-managing-a-survivable-branch-appliance) 。) 如果這些使用者沒有使用者層級 VoIP 原則或使用者層級撥號對應表，當使用者移至另一個網站時，預設會套用中央網站的月臺層級 VoIP 原則和月臺層級撥號對應表， 而不是分支月臺月臺層級 VoIP 原則和撥號對應表。 在此案例中，除非備份註冊機構集區所使用的月臺層級 VoIP 原則和月臺層級撥號對應表也可以套用至分支網站使用者，否則他們的呼叫將會失敗。 例如，如果位於日本分支網站的使用者移至 Redmond 中的中央網站，則在所有 7 位數呼叫前面加上 +1425 的正規化規則的撥號對應表不太可能能適當地轉譯這些使用者的通話。
 
 > [!IMPORTANT]
-> 當您建立分支辦公室備份路由時，建議您將兩個 PSTN 電話使用方式記錄新增至分支 office 使用者原則，並將個別的路由指派給每個。 第一個或 [主要] 路由會直接呼叫與 Survivable Branch 裝置相關聯的閘道 (SBA) 或分支伺服器;第二個或 [備份] 路由會將呼叫直接呼叫至中央網站的閘道。 在接聽來電中，SBA 或 branch 伺服器會先嘗試所有指派給第一個 PSTN 使用方式記錄的路由，再嘗試第二個使用方式記錄。
+> 當您建立分公司備份路由時，建議您將兩個 PSTN 電話使用量記錄新增至分公司使用者原則，並將個別的路由指派給每個路由。 第一個或主要路由會將呼叫導向至與 Survivable Branch Appliance (SBA) 或分支伺服器相關聯的閘道;第二個或備份路由會將呼叫導向中央月臺的閘道。 在指示呼叫中，SBA 或分支伺服器會嘗試指派給第一個 PSTN 使用量記錄的所有路由，然後再嘗試第二筆使用量記錄。
 
-為了協助確保當分支閘道或 Survivable 分支裝置網站的 Windows 元件無法使用時，對分支網站使用者的撥入呼叫會到達這些使用者 (會發生這種情況。例如，如果 Survivable 分支裝置或分支閘道已停機以進行維護) ，請在閘道上建立容錯移轉路由 (或使用直接向內撥號 (已) 提供者) 將來電重新導向至備份中央網站上的註冊集區。 在此，來電會透過 WAN 連結路由傳送至分支使用者。 請確定路由會轉譯數位，使其符合 PSTN 閘道或其他主幹對等公認的電話號碼格式。 如需建立容錯移轉路由的詳細資訊，請參閱設定 [容錯移轉路由](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route)。 另外，也為分支網站上與閘道相關聯的主幹建立服務層級撥號對應表，以正常化來電。 如果您有兩個 Survivable 分支裝置在分支網站上，您可以為這兩種方案建立一個網站層級撥號對應表，除非每個必要都要有個別的服務層級計畫。
+為了協助確保在分支閘道或 Survivable Branch Appliance 網站的Windows元件無法使用時，對分支月臺使用者的輸入呼叫會連線到這些使用者 (發生這種情況。 例如，如果 Survivable Branch Appliance 或分支閘道已關閉進行維護) ，請在閘道上建立容錯移轉路由 (或使用您的直接向內撥號 (DID) 提供者) 將連入呼叫重新導向至備份中央網站的註冊機構集區。 從該處，呼叫會透過 WAN 連結路由傳送至分支使用者。 請確定路由會轉譯號碼，以符合 PSTN 閘道或其他主幹對等互連接受的電話號碼格式。 如需建立容錯移轉路由的詳細資訊，請參閱設定 [容錯移轉路由](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route)。 此外，在分支月臺為與閘道相關聯的主幹建立服務層級撥號對應表，以將來電正規化。 如果您在分支月臺上有兩個 Survivable Branch Appliance，您可以為這兩者建立月臺層級撥號對應表，除非需要個別的服務層級方案。
 
 > [!NOTE]
-> 若要使用依賴中央網站以進行顯示狀態、會議或容錯移轉的任何分支網站使用者，針對中央網站資源的消費，建議您考慮每個分支網站使用者，就像使用者已向中央網站註冊。 分支網站使用者數目（包括註冊 Survivable Branch 裝置的使用者）目前沒有任何限制。
+> 若要考慮依賴中央網站來進行會議、會議或容錯移轉的任何分支網站使用者使用中央網站資源，建議您將每個分支網站使用者視為已向中央網站註冊。 分支網站使用者的數目目前沒有任何限制，包括向 Survivable Branch Appliance 註冊的使用者。
 
-此外，我們也建議您建立使用者層級撥號對應表和語音原則，然後將其指派給分支網站使用者。 如需詳細資訊，請參閱在部署檔中建立[或修改商務用 Skype Server 的撥號](../../deploy/deploy-enterprise-voice/dial-plans.md)對應表，並[為分支使用者建立 VoIP 路由原則](/previous-versions/office/lync-server-2013/lync-server-2013-create-the-voip-routing-policy-for-branch-users)。
+我們也建議您建立使用者層級撥號對應表和語音原則，然後將它指派給分支網站使用者。 如需詳細資訊，請參閱部署檔[中的在 商務用 Skype Server 中建立或修改撥號對應表](../../deploy/deploy-enterprise-voice/dial-plans.md)和[建立分支使用者的 VoIP 路由](/previous-versions/office/lync-server-2013/lync-server-2013-create-the-voip-routing-policy-for-branch-users)原則。
 
-#### <a name="routing-extension-numbers"></a>路由分機號碼
+#### <a name="routing-extension-numbers"></a>路由延伸模組號碼
 
-為分支網站使用者準備撥號對應表和語音原則時，請務必包含符合 msRTCSIP-line (或 line URI) 屬性中所用之字串及數位格式的正規化規則和轉譯規則，如此一來，在分支網站使用者與中央網站使用者之間啟用商務用 Skype 呼叫會正確地路由，尤其是當必須透過 WAN 連結無法使用時，必須以 PSTN 重新路由傳送。 此外，撥打號碼的特殊考慮（包括分機號碼），而不只是電話號碼。
+為分支網站使用者準備撥號對應表和語音原則時，請務必包含符合 msRTCSIP 行 (或 Line URI) 屬性中所用字串和數位格式的正規化規則和轉譯規則，如此一來，在分支網站使用者與中央網站使用者之間啟用的商務用 Skype呼叫將會正確地路由傳送，特別是當呼叫必須透過 PSTN 重新路由傳送，因為 WAN 連結無法使用時。 此外，撥號號碼有特殊考慮，包括擴充號碼，而不只是電話號碼。
 
-包含分機號碼之行 URIs 的正規化規則和轉譯規則，不論是獨佔還是除了完整的 e.164 電話號碼，都有額外的需求。 本節說明使用分機號碼來路由傳送電話 URIs 的幾個範例案例。
+與包含擴充號碼的行 URI 相符的正規化規則和轉譯規則，不論是獨佔或完整 E.164 電話號碼，都有額外的需求。 本節描述數個範例案例，以路由傳送具有擴充號碼之 Line URI 的呼叫。
 
-如果您的組織沒有直接向內撥號 () 為個別使用者設定的電話號碼，且每位使用者的線路 URI 只會以分機號碼來設定，則內部使用者可以只撥打分機號碼撥打一個分機號碼。 不過，您必須設定標準化規則，以套用至分支網站使用者的呼叫與分機號碼相符的中央網站使用者。
+如果您的組織沒有直接向內撥號 (DID) 為個別使用者設定的電話號碼，而且每個使用者的 Line URI 都只設定一個擴充號碼，則內部使用者只要撥號即可彼此通話。 不過，您必須設定正規化規則，以套用至從分支網站使用者到中央網站使用者的呼叫，且該呼叫符合擴充號碼。
 
-在分支網站與中央網站之間的 WAN 連結可供使用的情況下，分支網站使用者對中央網站使用者的呼叫不需要符合的正規化規則來轉譯號碼，因為通話不會透過 PSTN 路由傳送。 例如：
+在分支網站與中央網站之間有 WAN 連結可用的案例中，從分支網站使用者到中央網站使用者的呼叫不需要比對正規化規則來轉譯號碼，因為呼叫不會透過 PSTN 路由傳送。 例如：
 
 |**規則名稱**|**描述**|**號碼模式**|**轉換**|**範例**|
 |:-----|:-----|:-----|:-----|:-----|
-|5digitExtensions  <br/> |不轉譯5位數的數位  <br/> |^(\d{5})$  <br/> |$1  <br/> |未轉譯10001  <br/> |
+|5digitExtensions  <br/> |不轉譯 5 位數的數位  <br/> |^(\d{5})$  <br/> |$1  <br/> |10001 未翻譯  <br/> |
 
-您也必須在特定案例中容納分機號碼，例如在分支網站與中央網站之間的 WAN 連結無法使用，以及必須透過 PSTN 路由傳送分支網站的電話時。 在 WAN 中斷期間，如果分支網站使用者只會撥打中央網站使用者的分機呼叫中央網站使用者，您必須有一個輸出轉譯規則，以加入中央網站使用者的完整電話號碼。 如果使用者的列 URI 包含您組織的完整電話號碼和使用者的唯一分機號碼，而不是使用者特有的完整電話號碼，則您必須有一個輸出轉譯規則，可改為新增組織的完整電話號碼。 例如：
+您也必須容納特定案例的擴充號碼，例如當分支月臺與中央月臺之間的 WAN 連結無法使用，而且必須透過 PSTN 路由傳送分支月臺的呼叫時。 在 WAN 中斷期間，如果分支網站使用者只透過撥打中央網站使用者的擴充功能來呼叫中央網站使用者，您必須有輸出轉譯規則，以新增中央網站使用者的完整電話號碼。 如果使用者的線路 URI 包含您組織的完整電話號碼和使用者的唯一擴充號碼，而不是使用者唯一的完整電話號碼，則您必須有輸出轉譯規則，改為新增組織的完整電話號碼。 例如：
 
-|**描述**|**符合模式**|**轉換**|**範例**|
+|**說明**|**比對模式**|**轉換**|**範例**|
 |:-----|:-----|:-----|:-----|
-|將5位數號碼轉譯為使用者的電話號碼和分機號碼  <br/> |^(\d{5})$  <br/> |+ 14255550123; ext = $ 1  <br/> |10001會轉譯為 + 14255550123; ext = 10001  <br/> |
-|將5位數號碼轉譯為您組織的電話號碼和使用者的分機號碼  <br/> |^(\d{5})$  <br/> |+ 14255550100; ext = $ 1  <br/> |10001會轉譯為 + 14255550100; ext = 10001  <br/> |
+|將 5 位數的數位轉譯為使用者的電話號碼和擴充功能  <br/> |^(\d{5})$  <br/> |+14255550123;ext=$1  <br/> |10001 會轉譯為 +14255550123;ext=10001  <br/> |
+|將 5 位數號碼轉譯為組織的電話號碼和使用者的擴充功能  <br/> |^(\d{5})$  <br/> |+14255550100;ext=$1  <br/> |10001 會轉譯為 +14255550100;ext=10001  <br/> |
 
-在此案例中，如果處理與 PSTN 間重新路由的主幹對等動作不支援分機號碼，則輸出轉譯規則也必須移除分機號碼。 例如：
+在此案例中，如果處理重新路由傳送至 PSTN 的主幹對等互連不支援擴充號碼，則輸出轉譯規則也必須移除擴充號碼。 例如：
 
-|**描述**|**符合模式**|**轉換**|**範例**|
+|**說明**|**比對模式**|**轉換**|**範例**|
 |:-----|:-----|:-----|:-----|
-|從具有分機號碼的電話號碼中移除分機號碼  <br/> |^\+ ( \d \*) ; ext = ( \d \*) $  <br/> |+ $1  <br/> |+ 14255550123; ext = 10001 會轉譯成 + 14255550123  <br/> |
+|從具有擴充功能的電話號碼移除擴充功能  <br/> |^\+ (\d \*) ;ext= (\d \*) $  <br/> |+$1  <br/> |+14255550123;ext=10001 會轉譯為 +14255550123  <br/> |
 
-WAN 連結是否可供使用時，如果您的組織未針對個別使用者設定號碼，且使用者的線路 URI 中包含組織的電話號碼和使用者的唯一分機號碼，則您必須使用分支網站上的主幹對等或 PSTN 閘道可存取的號碼，設定組織的電話號碼行 URI。 您也必須設定組織的電話號碼行 URI，以包含其專屬的唯一分機，以路由傳送至該號碼。
+不論 WAN 連結是否可用，如果您的組織沒有為個別使用者設定 DID 號碼，且使用者的線路 URI 包含您組織的電話號碼和使用者的唯一擴充號碼，則您必須設定組織的電話號碼線路 URI，其號碼可由分支網站的主幹對等或 PSTN 閘道連線。 您也必須設定組織的電話號碼線路 URI，以包含自己的唯一擴充功能，以便將通話路由傳送至該號碼。
 
-#### <a name="preparing-for-voice-mail-survivability"></a>準備語音信箱留存能力
+#### <a name="preparing-for-voice-mail-survivability"></a>準備語音信箱擴充性
 
-Exchange 整合通訊 (UM) 通常只安裝在中央網站，而非位於分支網站。 即使分支網站與中央網站之間的 WAN 連結無法使用，來電者還是可以留下語音信箱訊息。 因此，設定 Exchange UM 自動語音應答電話號碼的行 URI，為分支網站使用者提供語音信箱時，除了語音原則、撥號對應表，以及適用于該語音信箱號碼的正規化規則之外，還需要特別考慮。
+Exchange整合通訊 (UM) 通常只會安裝在中央網站，而不是在分支月臺上。 即使分支網站與中央網站之間的 WAN 連結無法使用，呼叫端也應該能夠留下語音信箱訊息。 因此，除了適用于該語音信箱號碼的語音原則、撥號對應表和正規化規則以外，為分支網站使用者提供語音信箱的Exchange UM 自動語音應答電話號碼設定行 URI 需要特殊考慮。
 
-Survivable 分支裝置 (Sba) 和 Survivable 分支伺服器在 WAN 中斷期間為分支使用者提供語音信箱留存能力。 具體說來，如果您是使用 Survivable 分支裝置或 Survivable 分支伺服器，而 WAN 變成無法使用，則 SBA 或 Survivable branch 伺服器會透過 PSTN 將未接聽的呼叫重新連接至中央網站的 Exchange UM。 透過 SBA 或 Survivable Branch 伺服器，使用者也可以透過 PSTN 在 WAN 中斷期間取回語音信箱訊息。 最後，在 wan 中斷期間，Survivable Branch 裝置或 Survivable branch 伺服器會將未接來電通知排入佇列，然後在還原 wan 時將其上傳至 Exchange UM 伺服器。 若要協助確保語音信箱重新路由可復原，請確定您已將中央網站集區的 FQDN 和 Edge Server FQDN 專案的專案新增至 Survivable 分支伺服器上的主機檔案。 否則，如果您在分支網站上沒有 DNS 伺服器，則 DNS 解析可能會超時。
+Survivable Branch Appliance (SBA) 和 Survivable Branch Servers 可在 WAN 中斷期間為分支使用者提供語音信箱生存能力。 具體而言，如果您使用 Survivable Branch Appliance 或 Survivable Branch Server，且 WAN 變得無法使用，則 SBA 或 Survivable Branch Server 會透過 PSTN 重新路由傳送未接聽的呼叫，以在中央網站Exchange UM。 透過 SBA 或 Survivable Branch Server，使用者也可以在 WAN 中斷期間透過 PSTN 擷取語音信箱訊息。 最後，在 WAN 中斷期間，Survivable Branch Appliance 或 Survivable Branch Server 會將未接來電通知排入佇列，然後在 WAN 還原時將其上傳至 Exchange UM 伺服器。 為了協助確保語音信箱重新路由具有復原性，請務必將中央網站集區的 FQDN 專案和 Edge Server FQDN 的專案新增至 Survivable Branch Server 上的主機檔案。 否則，如果您在分支月臺上沒有 DNS 伺服器，DNS 解析可能會逾時。
 
-我們建議分支網站使用者的語音信箱留存能力的下列設定：
+針對分支網站使用者的語音信箱生存能力，我們建議使用下列設定：
 
-- Microsoft Exchange 管理員應該設定 Exchange UM 自動語音應答 (AA) 以只接受郵件。 此設定會停用所有其他一般功能，例如轉接至使用者或轉接至操作員，並且限制 AA 只接受郵件。 此外，Exchange 管理員也可以使用一般 AA 或自訂的 aa，將通話路由傳送至運算子。
+- Microsoft Exchange 系統管理員應該將 Exchange UM 自動語音應答 (AA) 設定為只接受訊息。 此設定會停用所有其他泛型功能，例如傳送至使用者或傳送至操作員，並將 AA 限制為只接受訊息。 或者，Exchange系統管理員可以使用一般 AA 或自訂的 AA，將呼叫路由傳送至操作員。
 
-- 商務用 Skype Server 管理員應該取得 AA 電話號碼，並使用該電話號碼做為 Survivable 分支裝置或分支伺服器之語音信箱重新路由設定中的 **exchange um 自動** 語音應答號碼。
+- 商務用 Skype Server系統管理員應該採用 AA 電話號碼，並在 Survivable Branch Appliance 或分支伺服器的語音信箱重新路由設定中，使用該電話號碼作為 **交換 um 自動語音應答** 號碼。
 
-- 商務用 Skype Server 管理員應該取得 Exchange UM 訂戶存取電話號碼，並使用該號碼做為 Survivable Branch 裝置或 Survivable branch 伺服器之語音信箱重新路由設定中的 **訂戶訪問** 號碼。
+- 商務用 Skype Server系統管理員應該取得Exchange UM 訂閱者存取電話號碼，並在 Survivable Branch Server 或 Survivable Branch Server 的語音信箱重新路由設定中使用該號碼作為 **訂閱者存取** 號碼。
 
-- 商務用 Skype Server 管理員應該設定 Exchange UM，這樣就只有一個撥號對應表與所有需要存取語音信箱的 WAN 中斷期間的分支使用者相關聯。
+- 商務用 Skype Server系統管理員應該設定 Exchange UM，以便在 WAN 中斷期間，只有一個撥號對應表與所有需要存取語音信箱的分支使用者相關聯。
 
-- 當 WAN 連結無法使用時，可將分支網站使用者的通話路由傳送至使用者的 Exchange 整合通訊 (UM) 語音信箱，但只有在套用至通話的語音原則指定了唯一且不含分機號碼的語音信箱電話號碼時。
+- 當 WAN 連結無法使用時，對分支網站使用者的通話可以路由傳送至使用者的Exchange整合通訊 (UM) 語音信箱，但前提是套用至通話的語音原則會指定唯一且不包含擴充號碼的語音信箱電話號碼。
 
-#### <a name="hardware-and-software-requirements-for-branch-site-resiliency"></a>Branch-Site 恢復功能的硬體和軟體需求
+#### <a name="hardware-and-software-requirements-for-branch-site-resiliency"></a>Branch-Site復原的硬體和軟體需求
 
-硬體和軟體需求會根據您的恢復解決方案而有所不同。
+硬體和軟體需求會根據您的復原解決方案而有所不同。
 
-#### <a name="requirements-for-survivable-branch-appliances"></a>Survivable 分支裝置的需求
+#### <a name="requirements-for-survivable-branch-appliances"></a>Survivable Branch Appliance 的需求
 
-必要的硬體和軟體已內置於 Survivable 分支裝置中。 不過，我們也建議每個分支網站部署 DHCP 伺服器以取得用戶端 IP 位址;否則，當 DHCP 租用到期時，用戶端將不會有 IP 連線能力。
+必要的硬體和軟體內建于 Survivable Branch Appliance 中。 不過，我們也建議每個分支月臺部署 DHCP 伺服器以取得用戶端 IP 位址;否則，當 DHCP 租用到期時，用戶端將不會有 IP 連線能力。
 
-如果企業 DNS 伺服器僅位於中央網站，分支網站使用者將無法在 WAN 中斷期間與其連線，因此商務用 Skype Server 使用 DNS SRV (服務的探索 (SRV) 資源記錄) 會失敗。 為了確保 WAN 中斷期間的提示重新路由，必須在分支網站上快取 DNS 記錄。 如果分支路由器支援，請開啟 DNS 快取。 或者，您可以在分支部署 DNS 伺服器。 這可以是獨立的伺服器，也可以是支援 DNS 功能的 Survivable 分支裝置版本。 如需詳細資訊，請與您的 Survivable 分支裝置提供者聯繫。
+如果企業 DNS 伺服器只位於中央網站，分支月臺使用者將無法在 WAN 中斷期間連線到它們，因此商務用 Skype Server使用 DNS SRV (服務的探索 (SRV) 資源記錄) 將會失敗。 為了確保在 WAN 中斷期間提示重新路由，必須在分支月臺快取 DNS 記錄。 如果分支路由器支援，請開啟 DNS 快取。 或者，您可以在 分支部署 DNS 伺服器。 這可以是獨立伺服器或支援 DNS 功能的 Survivable Branch Appliance 版本。 如需詳細資訊，請連絡您的 Survivable Branch Appliance 提供者。
 
 > [!NOTE]
-> 不需要有分支網站的網域控制站。 Survivable 分支裝置會使用特殊的憑證來驗證用戶端，以回應用戶端的憑證要求登入。
+> 在分支月臺上不需要有網域控制站。 Survivable Branch Appliance 會使用特殊憑證來驗證用戶端，該憑證會在用戶端登入時傳送用戶端以回應用戶端的憑證要求。
 
-商務用 Skype 用戶端可以使用 DHCP 選項 120 (SIP 註冊器選項) 探索商務用 Skype Server。 這可以採用下列其中一種方式進行設定：
+商務用 Skype用戶端可以使用 DHCP 選項 120 (SIP 註冊機構選項) 來探索商務用 Skype Server。 這可以透過下列兩種方式之一來設定：
 
-- 在分支網站上設定 DHCP 伺服器以回復 DHCP 120 查詢，傳回 Survivable Branch 裝置或 Survivable Branch Server 上之註冊機的 FQDN。
+- 在分支月臺設定 DHCP 伺服器以回復 DHCP 120 查詢，這會傳回 Survivable Branch Appliance 或 Survivable Branch Server 上註冊機構的 FQDN。
 
-- 開啟商務用 Skype Server DHCP。 開啟此選項時，商務用 Skype Server 註冊機構會回應 DHCP 選項120查詢。 請注意，註冊機構不會回應 DHCP 選項120以外的任何 DHCP 查詢。
+- 開啟 商務用 Skype Server DHCP。 開啟此功能時，商務用 Skype Server註冊機構會回應 DHCP 選項 120 查詢。 請注意，註冊機構不會回應 DHCP 選項 120 以外的任何 DHCP 查詢。
 
-此外，針對具有多個子網的大型分支網站，應啟用 DHCP 轉送代理程式，以將 DHCP 選項120查詢轉寄至 DHCP 伺服器 (設定 1) 或註冊機 (設定 2) 。
+此外，對於具有多個子網的較大分支月臺，應啟用 DHCP 轉送代理程式，以將 DHCP 選項 120 查詢轉送至 DHCP 伺服器 (組態 1) 或註冊機構 (設定 2) 。
 
-最後，必須對分支網站使用者設定企業語音，並使用適當的整合通訊端點進行布建。
+最後，分支網站使用者必須設定為企業語音，並使用適當的整合通訊端點進行布建。
 
-#### <a name="requirements-for-survivable-branch-servers"></a>Survivable 分支伺服器的需求
+#### <a name="requirements-for-survivable-branch-servers"></a>Survivable Branch Server 的需求
 
-Survivable 分支伺服器的需求與前端伺服器的需求相同。 如需詳細資訊，請參閱[商務用 Skype Server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
+Survivable Branch Server 的需求與前端伺服器的需求相同。 如需詳細資訊，請[參閱 商務用 Skype Server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
 
-#### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Full-Scale 商務用 Skype Server Branch-Site 部署的需求
+#### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Full-Scale 商務用 Skype Server Branch-Site部署的需求
 
-如需詳細資訊，請參閱規劃檔中的[商務用 Skype Server 2015 的伺服器需求](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)。
+如需詳細資訊，請參閱規劃檔中的[商務用 Skype Server 2015 的伺服器](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)需求。
 
 ### <a name="example-configuring-a-failover-route"></a>範例：設定容錯移轉路由
 
@@ -377,16 +377,16 @@ Survivable 分支伺服器的需求與前端伺服器的需求相同。 如需�
 |:-----|:-----|
 |預設通話原則  <br/> |本機  <br/> GlobalPSTNHopoff  <br/> |
 |Redmond 本地原則  <br/> |RedmondLocal  <br/> |
-|Dallas 通話原則  <br/> |DallasUsers  <br/> GlobalPSTNHopoff  <br/> |
+|Dallas 通話原則  <br/> |達拉斯使用者  <br/> GlobalPSTNHopoff  <br/> |
 
 **表 2. 路由**
 
 
 | **路由名稱**             | **號碼模式** | **電話使用方式**         | **樹幹**                                 | **閘道**                                     |
 |:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
-| Redmond 本地路由  <br/> | ^\+1 (425           | 206                     | 253)  ( \d {7}) $  <br/>                       | 本機  <br/> RedmondLocal  <br/>                |
-| Dallas 本地路由  <br/>  | ^\+1 (972           | 214                     | 469)  ( \d {7}) $  <br/>                       | 本機  <br/>                                    |
-| 全域路由  <br/>     | ^\+？ ( \d \*) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> 達拉斯-GW1  <br/> |
-| Dallas 使用者路由  <br/>  | ^\+？ ( \d \*) $  <br/> | DallasUsers  <br/>      | Trunk3  <br/>                             | 達拉斯-GW1  <br/>                               |
+| Redmond 本地路由  <br/> | ^\+1 (425           | 206                     | 253)  (\d {7}) $  <br/>                       | 本機  <br/> RedmondLocal  <br/>                |
+| Dallas 本地路由  <br/>  | ^\+1 (972           | 214                     | 469)  (\d {7}) $  <br/>                       | 本機  <br/>                                    |
+| 全域路由  <br/>     | ^\+？ (\d \*) $  <br/> | GlobalPSTNHopoff  <br/> | 主幹1  <br/> 主幹2  <br/> 主幹3  <br/> | Red-GW1  <br/> Red-GW2  <br/> 達拉斯-GW1  <br/> |
+| Dallas 使用者路由  <br/>  | ^\+？ (\d \*) $  <br/> | 達拉斯使用者  <br/>      | 主幹3  <br/>                             | 達拉斯-GW1  <br/>                               |
 
 表 1 中，在「Dallas 通話原則」的「DallasUsers」電話使用方式後，將新增 GlobalPSTNHopoff 電話使用方式。如此可讓具有「Dallas 通話原則」的電話在無法使用 DallasUsers 電話使用方式的路由時，可以使用為 GlobalPSTNHopoff 電話使用方式所設定的路由。

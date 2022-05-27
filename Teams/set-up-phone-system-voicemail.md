@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為使用者設定雲端語音信箱。
-ms.openlocfilehash: 96c96f85625d0cda7e6d7a28a59d6c9415f2bb79
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 6a75856954da509677a1c9ccdb54e34055f171ed
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922624"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681404"
 ---
 # <a name="set-up-cloud-voicemail"></a>設定 [雲端語音信箱]
 
@@ -67,7 +67,7 @@ ms.locfileid: "64922624"
 您可以針對通話接聽規則、語音信箱轉譯、轉譯不雅用遮罩、轉譯翻譯和系統提示語言等功能，設定並指派現有或新的語音信箱原則。 如需詳細資訊，請參閱 [New-CsOnlineVoicemailPolicy](/powershell/module/skype/new-csonlinevoicemailpolicy)。
 
 若要管理個別使用者的雲端語音信箱設定，請使用[Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) Cmdlet。 雲端語音信箱您可套用至個別使用者的設定包括通話接聽規則、提示語言、語音預設文字，以及休假問候語。 如需詳細資訊，請參閱 [Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings)。
- (請注意，您的使用者也可以在Teams用戶端中設定這些設定，方法是移至 **設定**  ->  **CallsConfigure** ****  ->  Voicemail.) 
+ (請注意，您的使用者也可以在Teams用戶端中設定這些設定，方法是移至 **設定**  ->  **Calls**  ->  **設定 Voicemail**.) 
 
 您也可以使用[Set-CsOnlineVoicemailUserSettings](/powershell/module/skype/set-csonlinevoicemailusersettings) Cmdlet 並將 VoicemailEnabled 參數設定為$false，來停用使用者的雲端語音信箱。 此設定可確保雲端語音信箱無法再錄製使用者的語音信箱。
 
@@ -75,7 +75,7 @@ ms.locfileid: "64922624"
 
 為雲端語音信箱布建之所有使用者的預設設定是允許將通話轉接至雲端語音信箱，並允許使用者將來電轉接至雲端語音信箱。
 
-您可以使用 AllowVoicemail 參數搭配 Set-CsTeamsCallingPolicy Cmdlet，控制是否允許Teams使用者將通話轉接至雲端語音信箱。 如需詳細資訊，請參閱 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)。
+您可以使用 AllowVoicemail 參數搭配 Set-CsTeamsCallingPolicy Cmdlet，控制是否允許Teams使用者將通話轉接至雲端語音信箱。 如需詳細資訊，請參閱 [Set-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)。
 
 - 如果您將 AllowVoicemail 設為 AlwaysDisabled，無論使用者的來電轉接或未接聽設定為何，通話永遠不會路由到語音信箱。 語音信箱在 Teams 中無法做為來電轉接或未接聽的設定。
 
@@ -99,36 +99,34 @@ ms.locfileid: "64922624"
 
 ## <a name="enable-protected-voicemail-in-your-organization"></a>在貴組織中啟用受保護的語音信箱
 
-當某人為貴組織中的使用者留下語音信箱訊息時，語音信箱會以電子郵件附件的形式傳送到使用者的信箱。 
+當某人為貴組織中的使用者留下語音信箱訊息時，語音信箱會以電子郵件附件的形式傳送到使用者的信箱。
 
-使用 Microsoft Purview 資訊保護，您可以加密內部和外部來電者留下的語音信箱訊息。 您也可以防止使用者轉寄這些訊息。 擁有Exchange Online信箱的使用者支援此功能。
+使用Microsoft Purview 資訊保護，您可以加密內部和外部來電者留下的語音信箱訊息。 您也可以防止使用者轉寄這些訊息。 擁有Exchange Online信箱的使用者支援此功能。
 
-若要加密語音信箱訊息，您可以建立敏感度標籤。 透過自動標籤功能，您可以確保標籤會自動套用至內送語音信箱訊息。 
+若要加密語音信箱訊息，您可以建立敏感度標籤。 透過自動標籤功能，您可以確保標籤會自動套用至內送語音信箱訊息。
 
-當您啟用受保護的語音信箱時，使用者可以透過撥入語音信箱來聆聽受保護的語音信箱訊息，或是在 Android 或 iOS 的Outlook、Outlook 網頁版或Outlook中開啟郵件。 受保護的語音信箱訊息無法在Microsoft Teams或商務用 Skype中開啟。
+當您啟用受保護的語音信箱時，使用者可以透過撥入語音信箱來聆聽受保護的語音信箱訊息，或是開啟Android或iOS的Outlook、Outlook 網頁版或Outlook訊息。 受保護的語音信箱訊息無法在Microsoft Teams或商務用 Skype中開啟。
 
-若要建立語音信箱的敏感度標籤，請參 [閱使用敏感度標籤](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions)。 在 [ **加密] 區** 段中，選擇 **[允許使用者在套用標籤時指派許可權]**。 選 **取 [在 Outlook 中，強制執行下列其中一項限制**，然後選取 [**不要轉寄**] 選項。
+若要建立語音信箱的敏感度標籤，請參 [閱使用敏感度標籤](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions)。 在 [ **加密] 區** 段中，選擇 **[允許使用者在套用標籤時指派許可權]**。 選 **取 [在 Outlook 中，強制執行下列其中一項限制**，然後選取 [**不要轉寄**] 選項。
 
-若要建立自動標籤原則以將敏感度標籤套用至語音信箱，請參閱 [如何設定自動標籤原則](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)，並指定下列特定設定：
+若要建立自動標籤原則以將敏感度標籤套用至語音信箱，請參閱 [如何設定自動標籤原則](/microsoft-365/compliance/apply-sensitivity-label-automatically#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange)，並指定下列特定設定：
 
--   如 **需選擇您要套用此標籤的資訊**，請選取 **[自訂原則]**。
+- 如 **需選擇您要套用此標籤的資訊**，請選取 **[自訂原則]**。
 
--   針對 **[選擇您要套用標籤的位置**]，選 **取 [位置]：Exchange所有使用者**。
+- 針對 **[選擇您要套用標籤的位置**]，選 **取 [位置]：Exchange所有使用者**。
 
--   若  **要設定一般或進階規則**，請選取 [ **進階規則]**。
+- 若  **要設定一般或進階規則**，請選取 [ **進階規則]**。
 
 - Exchange規則：
-    - 條件：<br>
-        - **頁首符合模式：**<br>
-              Content-Class = Voice-CA
-       -  **寄件者的 IP 位址為：**<br>
-               13.107.64.0/18, 52.112.0.0/14, 52.120.0.0/14, 52.238.119.141/32, 52.244.160.207/32
+  - 條件：
+    - **頁首符合模式**：Content-Class = Voice-CA
+    - **寄件者的 IP 位址是**：13.107.64.0/18， 52.112.0.0/14、52.120.0.0/14、52.238.119.141/32、52.244.160.207/32
 
 - 若 **要選擇要自動套用的標籤**，請選取您在上述步驟中為語音信箱建立的敏感度標籤。
 
-- 如 **需電子郵件的其他設定**，請選取 [將 **加密套用到組織外部接收的電子郵件**]，然後指定版權管理擁有者。
+- 如 **需電子郵件的其他設定**，請選取 [將加密套用 **到組織外部接收的電子郵件**]，然後指定Rights Management擁有者。
 
-[寄件者 IP 位址] 中指定的 IP V4 範圍，是根據識別碼 12 中的清單[，以Office 365 URL 和 IP 位址範圍為依據](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)。
+[寄件者 IP 位址] 中指定的 IP V4 範圍，是根據識別碼 12 中的清單[，以Office 365 URL 和 IP 位址範圍為依據](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。
 
 如需郵件加密的詳細資訊，請參閱 [定義郵件流程規則以加密電子郵件訊息](/microsoft-365/compliance/define-mail-flow-rules-to-encrypt-email)。
 

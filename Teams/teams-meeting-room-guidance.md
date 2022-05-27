@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3345cdecbb6b55f1b5dc83693a1caee5b1a6e77f
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 4fb3eb61de1372012f2a530be86d394ca46893a6
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635371"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681744"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>會議室Teams指引
 
@@ -37,7 +37,7 @@ ms.locfileid: "65635371"
 
 Microsoft Teams 會議室解決方案可在傳統會議室所沒有的空間中，提供彈性的用途，甚至是靈活的移動彈性。 例如，使用Teams 會議室裝置時，使用者可以利用數位白板加強共同作業，智慧型人員追蹤攝影機可確保無論每位本機參與者在會議室中的位置都能看見他們。 任何類型的空間和任何類型的會議都可以與Teams 會議室裝置或Teams 會議室解決方案優化。
 
-### <a name="presentation-focused-meetings"></a>簡報導向的會議 
+### <a name="presentation-focused-meetings"></a>簡報導向的會議
 
 會議和簡報會議是第一個貯體，而此會議通常較為正式。 音訊視覺是優先順序，而焦點會放在簡報內容上。 裝置通常會修正，讓使用者在從平板電腦中央與裝置互動時，仍可維持坐著狀態。
 
@@ -60,6 +60,7 @@ Microsoft Teams 會議室解決方案可在傳統會議室所沒有的空間中�
 **組合簡報和共同建立空間版面配置：** 其他會議案例的使用案例組合可以結合成多用途的會議室，讓簡報導向的會議以及共同建立工作能以相同的效率達成，通常同時進行。
 
 ## <a name="optimizing-the-meeting-experience"></a>優化會議體驗
+
 絕佳的會議體驗是使用最佳可能技術來建立會議空間的結果，有助於在不具有干擾的情況下交換想法。
 
 ### <a name="native-teams-rooms-experiences-versus-other-devices"></a>原生Teams 會議室體驗與其他裝置
@@ -118,33 +119,33 @@ Teams 會議室提供獨一無二的會議室功能，例如單點連接、內�
 
 音訊考慮對於確保可清楚聽到和理解遠端和會議室參與者至關重要。 麥克風和喇叭涵蓋範圍必須包含會議室中的每一個座位，而不需留下間距。
 
-*每個空間的正確音訊裝置*
+*每個空間的音訊裝置正確* 無誤：
 
 需要一個空格的單一音訊來源，以確保會議室中沒有音訊問題。
 
 為每個空格配對正確的麥克風和喇叭，可讓您在不受干擾的情況下清楚聆聽，獲得最佳的可能結果。
 
--   在共用空間中，選項會展開，但仍維持相同的原則：會議參與者必須清楚聽取並聆聽其他人的意見。
+- 在共用空間中，選項會展開，但仍維持相同的原則：會議參與者必須清楚聽取並聆聽其他人的意見。
 
-    -   萬一音訊裝置是適用于 **較小空間** 的簡單部署、高品質選項，只有少數參與者坐著相對靠近音訊裝置。
+  - 萬一音訊裝置是適用于 **較小空間** 的簡單部署、高品質選項，只有少數參與者坐著相對靠近音訊裝置。
 
-    -   在 **較大的空間** 中，麥克風和喇叭會分開，以確保所有參與者在空間中的涵蓋範圍最大。 許多中型大型會議室的解決方案都可做為不需要設定之套件的一部分，只提供麥克風和喇叭的實體安裝。
+  - 在 **較大的空間** 中，麥克風和喇叭會分開，以確保所有參與者在空間中的涵蓋範圍最大。 許多中型大型會議室的解決方案都可做為不需要設定之套件的一部分，只提供麥克風和喇叭的實體安裝。
 
-    -   **在最大且最複雜的空間** 中，可以使用各種不同的麥克風和喇叭類型，例如從大型大廳擷取答錄機和觀眾的聲音，同時為每個人傳送通話。 當與 Microsoft 合作夥伴一起部署時，這些解決方案在設計和部署更具技術性的解決方案方面具有專長時獲得最佳成效。
+  - **在最大且最複雜的空間** 中，可以使用各種不同的麥克風和喇叭類型，例如從大型大廳擷取答錄機和觀眾的聲音，同時為每個人傳送通話。 當與 Microsoft 合作夥伴一起部署時，這些解決方案在設計和部署更具技術性的解決方案方面具有專長時獲得最佳成效。
 
 ### <a name="video"></a>影片
 
 視訊與音訊同樣重要。 擷取如臉部表情或手勢等實體非口頭通訊，與課堂或會議內容一樣重要，以確保最大參與度和理解。 會議室必須配備適當的顯示大小，這樣每個人才能在會議室或遠端正常體驗會議。 這就是為什麼會議室也需要有正確的相機涵蓋範圍和檢視欄位 (FOV) ，才能有效擷取所有從遠端加入的會議內會議參與者。
 
-*每個空間的相機正確無誤*
+*每個空間的相機正確無誤*：
 
 高品質視訊與音訊一樣重要，也是現代化Teams共同作業的必要條件。 相機技術有了大幅的進階，高品質的相機現在可供所有空間使用。
 
--   膝上型電腦和平板電腦等裝置中隨附的相機應該用於所有會議，以確保每個人都能看到並聽到。 對於想要為 **個人空間** 提供更豐富的視訊體驗的使用者，外部攝影機代表內嵌裝置的上一步，可在更多案例和設定中使用，確保通話參與者能分享自己的最佳品質檢視。 這些裝置可透過在每個電腦上找到的簡易 USB 連線輕鬆安裝。
+- 膝上型電腦和平板電腦等裝置中隨附的相機應該用於所有會議，以確保每個人都能看到並聽到。 對於想要為 **個人空間** 提供更豐富的視訊體驗的使用者，外部攝影機代表內嵌裝置的上一步，可在更多案例和設定中使用，確保通話參與者能分享自己的最佳品質檢視。 這些裝置可透過在每個電腦上找到的簡易 USB 連線輕鬆安裝。
 
--   在共用空間中，選項和功能會展開。 **較小的會議室** 可能會被音訊欄等一體音訊裝置內的相機所覆蓋。 這些相機通常具有廣泛的視野，可確保在一次拍攝中擷取空間中的每一位參與者。 其中許多相機也具有智慧型影像框架等功能，因此相機只會顯示會議中的人員，而非空白的椅子或正在計算的人員數目，以追蹤及瞭解空間使用量。
+- 在共用空間中，選項和功能會展開。 **較小的會議室** 可能會被音訊欄等一體音訊裝置內的相機所覆蓋。 這些相機通常具有廣泛的視野，可確保在一次拍攝中擷取空間中的每一位參與者。 其中許多相機也具有智慧型影像框架等功能，因此相機只會顯示會議中的人員，而非空白的椅子或正在計算的人員數目，以追蹤及瞭解空間使用量。
 
--   在 **較大的會議室** 中，相機採用可在不同距離的不同位置擷取參與者所需的技術。 這些相機可以擷取群組或聚焦于特定個人，同時保持絕佳的視覺清晰度。 只能追蹤並只使用主動式喇叭的裝置，會經常在較大的空間中使用，讓許多參與者在參與整個會議時，都能在參與會議時個別受到精選。
+- 在 **較大的會議室** 中，相機採用可在不同距離的不同位置擷取參與者所需的技術。 這些相機可以擷取群組或聚焦于特定個人，同時保持絕佳的視覺清晰度。 只能追蹤並只使用主動式喇叭的裝置，會經常在較大的空間中使用，讓許多參與者在參與整個會議時，都能在參與會議時個別受到精選。
 
 # <a name="enhanced-microsoft-teams-room"></a>[增強Microsoft Teams會議室](#tab/emtr)
 
@@ -172,25 +173,25 @@ Microsoft 會在未來看到會議是沈浸式的，而且在人員周圍設計�
 
 設計原則：
 
--   遠端參與者可以在會議室中建立正版目前狀態
+- 遠端參與者可以在會議室中建立正版目前狀態
 
--   會議室內的參與者可以在會議中保留其個人身分識別
+- 會議室內的參與者可以在會議中保留其個人身分識別
 
--   所有會議參與者都可以進行無邊界的共同作業。
+- 所有會議參與者都可以進行無邊界的共同作業。
 
 **目標 2：關係感覺自然且沈浸式。**
 
 設計原則：
 
--   體驗會針對人性化連線進行縮放，讓互動感覺每個人都在同一個房間。
+- 體驗會針對人性化連線進行縮放，讓互動感覺每個人都在同一個房間。
 
 增強的會議室體驗是所有這些元件和構想整合在一起，沒有任何定義體驗的單一功能。 在我們的增強型Microsoft Teams 會議室中找到的個別功能和概念，也可以自行部署。
 
 特定功能部署的範例：
 
--   在所有類型的會議空間中，如果有支援該功能的Microsoft Teams會議室解決方案，請善用我們全新的前列前方會議室顯示體驗。
+- 在所有類型的會議空間中，如果有支援該功能的Microsoft Teams會議室解決方案，請善用我們全新的前列前方會議室顯示體驗。
 
--   實作具有傳統Microsoft Teams會議室體驗的弧形表格和前方版面配置，以促進會議室中更好的人性化連線，同時在所有會議空間保持經驗的連續性。
+- 實作具有傳統Microsoft Teams會議室體驗的弧形表格和前方版面配置，以促進會議室中更好的人性化連線，同時在所有會議空間保持經驗的連續性。
 
 ## <a name="when-should-you-deploy-this-room-type"></a>您應該何時部署此聊天室類型？
 
@@ -198,13 +199,13 @@ Microsoft 會在未來看到會議是沈浸式的，而且在人員周圍設計�
 
 Microsoft Teams 會議室將繼續提供以人員為中心的混合式會議體驗，並透過軟體更新提供。 不過，有些硬體技術和會議室設定指引在優化一些增強的體驗方面扮演關鍵角色。 這是這些元件的組合，組成了增強Microsoft Teams空間。 評估要進化為增強Microsoft Teams會議室的Microsoft Teams 會議室數時，請考慮下列事項：
 
--   需要進行哪些硬體升級和/或投資。
+- 需要進行哪些硬體升級和/或投資。
 
--   大部分的會議室是設計來最大化寶貴的方塊片段，且會議室維度與會議室容量之間有密切的關係。 增強Microsoft Teams會議室可將會議體驗優先于最大化方塊片段。 並非每個組織都可以針對每個會議空間排列這種優先順序，因為它可能會減少其會議室數目。
+- 大部分的會議室是設計來最大化寶貴的方塊片段，且會議室維度與會議室容量之間有密切的關係。 增強Microsoft Teams會議室可將會議體驗優先于最大化方塊片段。 並非每個組織都可以針對每個會議空間排列這種優先順序，因為它可能會減少其會議室數目。
 
-### <a name="understanding-this-space"></a>瞭解此空間 
+### <a name="understanding-this-space"></a>瞭解此空間
 
-*在混合式彈性與包容性之間取得平衡*
+*在混合式彈性與包容性之間取得平衡*：
 
 在 Microsoft，我們彈性的工作指導方針優先提供員工在工作地點和時間上的選擇和彈性。 這種原則的基本改變讓我們重新思考會議空間和技術的演進。
 
@@ -222,7 +223,7 @@ Microsoft Teams 會議室將繼續提供以人員為中心的混合式會議體�
 
 版面配置具有弧形表格，可讓參與者親自眼球接觸及方向，讓所有椅子都朝向顯示器的遠端參與者，讓參與者可以跟著走。
 
-### <a name="how-does-the-audio-work"></a>音訊如何運作？ 
+### <a name="how-does-the-audio-work"></a>音訊如何運作？
 
 使用通過Microsoft Teams 會議室認證的音訊解決方案，使用者就能清楚聽到並聽到聲音。
 
@@ -236,9 +237,9 @@ Microsoft Teams 會議室將繼續提供以人員為中心的混合式會議體�
 
 ![從頭頂檢視轉譯增強型會議室。](media/emr5.png)
 
-### <a name="how-do-the-front-of-room-displays-work"></a>前方顯示器如何運作？ 
+### <a name="how-do-the-front-of-room-displays-work"></a>前方顯示器如何運作？
 
-此聊天室已針對稱為前列的Microsoft Teams 會議室版面配置進行優化，並透過特殊短交高解析度投影機顯示，建立專為Teams會議設計的沈浸式前室體驗。 
+此聊天室已針對稱為前列的Microsoft Teams 會議室版面配置進行優化，並透過特殊短交高解析度投影機顯示，建立專為Teams會議設計的沈浸式前室體驗。
 
 ### <a name="what-is-front-row"></a>什麼是前列？
 
@@ -254,9 +255,9 @@ Microsoft Teams 會議室將繼續提供以人員為中心的混合式會議體�
 
 ## <a name="enhanced-microsoft-teams-room-design-guidance"></a>增強Microsoft Teams室設計指引
 
-本節旨在涵蓋從頭開始建置會議室。 
+本節旨在涵蓋從頭開始建置會議室。
 
-### <a name="room-layout"></a>會議室版面配置 
+### <a name="room-layout"></a>會議室版面配置
 
 #### <a name="room-size"></a>會議室大小
 
@@ -264,9 +265,9 @@ Microsoft Teams 會議室將繼續提供以人員為中心的混合式會議體�
 
 25 吋 x 14 吋
 
-#### <a name="room-capacity"></a>會議室容量 
+#### <a name="room-capacity"></a>會議室容量
 
-此增強Microsoft Teams室已針對 6 到 8 個人優化。 
+此增強Microsoft Teams室已針對 6 到 8 個人優化。
 
 #### <a name="room-furniture"></a>會議室傢俱
 
@@ -290,7 +291,7 @@ Microsoft Teams 會議室觸控主控台應該會安裝在表格中央，方便�
 
 雖然許多參與者可以選擇透過個人裝置加入Teams會議來共用這類會議室中的內容，Teams通話，但會議室內的本機視訊簡報也應以易於存取的方式在表格中提供。
 
-## <a name="infrastructure"></a>基礎 設施 
+## <a name="infrastructure"></a>基礎 設施
 
 ### <a name="infrastructure-power"></a>基礎結構電源
 
@@ -312,11 +313,11 @@ Microsoft Teams 會議室觸控主控台應該會安裝在表格中央，方便�
 
 這類房間的樓層應有毯子，或是以聲學方式處理，以防止會議期間發生回音與周遭環境噪音問題。
 
-### <a name="lighting"></a>照明 
+### <a name="lighting"></a>照明
 
 應提供頭頂燈號以平均顯示空間，會議室參與者看起來不會被刷淡或坐在深色空間中。 為了避免出現眩光，應努力將房間前顯示器上的直接光源、共同建立裝置或空間內的其他反射表面降到最低。
 
-## <a name="technology-guidance"></a>技術指引 
+## <a name="technology-guidance"></a>技術指引
 
 ### <a name="microsoft-teams-rooms-solution"></a>Microsoft Teams 會議室解決方案
 
@@ -362,21 +363,21 @@ Microsoft Teams增強的會議室需要在 Microsoft Windows 上使用Microsoft 
 
 顯示類型範例包括：
 
--   雷射投影機
+- 雷射投影機
 
--   LED 視訊牆
+- LED 視訊牆
 
--   特殊 LCD 或 OLED 平面面板顯示
+- 特殊 LCD 或 OLED 平面面板顯示
 
 #### <a name="display-functions"></a>顯示函數
 
 增強Microsoft Teams 會議室和其他所有Microsoft Teams 會議室解決方案一樣，都需要使用可容納下列功能的顯示器，才能正常運作：
 
--   根據 HDMI 同步處理，從睡眠狀態睡眠與快速喚醒。
+- 根據 HDMI 同步處理，從睡眠狀態睡眠與快速喚醒。
 
-    -   對於投影機，必須支援自動熱身和冷卻期間，而不需要使用者介入。
+  - 對於投影機，必須支援自動熱身和冷卻期間，而不需要使用者介入。
 
--   顯示器必須支援Microsoft Teams 會議室設計所需的適當 EDID 和解析度。
+- 顯示器必須支援Microsoft Teams 會議室設計所需的適當 EDID 和解析度。
 
 #### <a name="display-placement"></a>顯示位置
 
@@ -396,7 +397,7 @@ Microsoft Teams增強的會議室需要在 Microsoft Windows 上使用Microsoft 
 
 所有Teams 會議室都能夠透過互動式共同作業裝置來利用Microsoft Whiteboard，例如Microsoft Surface Hub、觸控式螢幕前方顯示器，以及透過電腦、手機或平板電腦等隨附裝置。
 
-#### <a name="traditional-whiteboard"></a>傳統白板 
+#### <a name="traditional-whiteboard"></a>傳統白板
 
 Windows上的所有Teams 會議室都可以使用智慧型擷取功能和次要內容相機，在Teams會議中運用傳統白板。
 
@@ -404,7 +405,7 @@ Windows上的所有Teams 會議室都可以使用智慧型擷取功能和次要�
 
 ### <a name="microsoft-teams-room-console-and-compute"></a>Microsoft Teams會議室主機和計算
 
--   以Windows為基礎的Microsoft Teams 會議室解決方案。
+- 以Windows為基礎的Microsoft Teams 會議室解決方案。
 
 如圖所示：
 
@@ -412,17 +413,17 @@ Windows上的所有Teams 會議室都可以使用智慧型擷取功能和次要�
 
 其他選項：
 
--   [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
+- [Lenovo ThinkSmart Core + Controller](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-core-controller/948)
 
--   [Cres要彈性自訂的會議系統](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
+- [Cres要彈性自訂的會議系統](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
 
--   [Cres括定可自訂的會議系統進階](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
+- [Cres括定可自訂的會議系統進階](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/crestron-flex-customizable-conference-system/849)
 
--   [Poly G10-T](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-g10-t/564)
+- [Poly G10-T](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-g10-t/564)
 
 ### <a name="camera"></a>相機
 
--   具有智慧框架的超全形相機。
+- 具有智慧框架的超全形相機。
 
 如圖所示：
 
@@ -430,27 +431,27 @@ Windows上的所有Teams 會議室都可以使用智慧型擷取功能和次要�
 
 其他選項：
 
--   [Jabra PanaCast](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast/353)
+- [Jabra PanaCast](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/jabra-panacast/353)
 
--   [Yealink UVC30](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-room/409)
+- [Yealink UVC30](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-room/409)
 
--   [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
+- [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
 
--   [Bose 視訊列 VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
+- [Bose 視訊列 VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
 
--   [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
+- [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
--   Poly Studio E70
+- Poly Studio E70
 
--   [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
+- [Logitech Rally](https://www.logitech.com/product/rally-ultra-hd-conferencecam)
 
--   [Logitech 方塊](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html)
+- [Logitech 方塊](https://www.logitech.com/products/video-conferencing/room-solutions/rallybar.960-001308.html)
 
--   [Logitech 欄 Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html)
+- [Logitech 欄 Mini](https://www.logitech.com/products/video-conferencing/room-solutions/rallybarmini.960-001336.html)
 
 ### <a name="microphone"></a>麥克風
 
--   可清楚擷取所有會議室內會議參與者的認證麥克風解決方案。
+- 可清楚擷取所有會議室內會議參與者的認證麥克風解決方案。
 
 如圖所示：
 
@@ -458,45 +459,45 @@ Windows上的所有Teams 會議室都可以使用智慧型擷取功能和次要�
 
 其他選項：
 
--   [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
+- [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
 
--   [Bose 視訊列 VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
+- [Bose 視訊列 VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
 
--   [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
+- [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
--   [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [含柏拉角落麥克風的 Biamp Devio 會議室中心](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [含柏拉角落麥克風的 Biamp Devio 會議室中心](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [含 Parle 表格麥克風的 Biamp Devio 會議室中心](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [含 Parle 表格麥克風的 Biamp Devio 會議室中心](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Shure MXA710-4FT 掛牆音訊系統](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
+- [Shure MXA710-4FT 掛牆音訊系統](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
 
--   [Nureva HDL300 音訊會議系統](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
+- [Nureva HDL300 音訊會議系統](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
 
--   [QSC 會議室音訊：in--ceiling 喇叭](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
+- [QSC 會議室音訊：in--ceiling 喇叭](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
 
--   [QSC 方向音訊 - 上限音訊](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
+- [QSC 方向音訊 - 上限音訊](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
 
--   [QSC 會議室音訊：垂直喇叭](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
+- [QSC 會議室音訊：垂直喇叭](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
 
--   [含 Parlé ceiling 麥克風的 Biamp 音訊](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [含 Parlé ceiling 麥克風的 Biamp 音訊](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [含 Parlé 平板麥克風的 Biamp 音訊](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [含 Parlé 平板麥克風的 Biamp 音訊](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Bose DS4 上限音訊解決方案](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
+- [Bose DS4 上限音訊解決方案](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
 
--   [Bose ES1 上限音訊解決方案](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
+- [Bose ES1 上限音訊解決方案](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
 
--   [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
+- [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
 
--   [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
+- [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
 
 ### <a name="speakers"></a>揚聲器
 
--   可為所有會議室內的會議參與者提供清楚且可省略音訊的認證喇叭解決方案。
+- 可為所有會議室內的會議參與者提供清楚且可省略音訊的認證喇叭解決方案。
 
 如圖所示：
 
@@ -504,47 +505,47 @@ Windows上的所有Teams 會議室都可以使用智慧型擷取功能和次要�
 
 其他選項：
 
--   [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
+- [Yealink UVC40](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc40/648)
 
--   [Bose 視訊列 VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
+- [Bose 視訊列 VB1](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-videobar-vb1/809)
 
--   [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
+- [Poly Studio](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/poly-studio/206)
 
--   [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
+- [Lenovo ThinkSmart Bar XL](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/lenovo-thinksmart-bar/949)
 
--   [含柏拉角落麥克風的 Biamp Devio 會議室中心](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [含柏拉角落麥克風的 Biamp Devio 會議室中心](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [含 Parle 表格麥克風的 Biamp Devio 會議室中心](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
+- [含 Parle 表格麥克風的 Biamp Devio 會議室中心](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-devio-conference-room-hubs/920)
 
--   [Shure MXA710-4FT 掛牆音訊系統](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
+- [Shure MXA710-4FT 掛牆音訊系統](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-mxa710-audio-systems/967)
 
--   [Nureva HDL300 音訊會議系統](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
+- [Nureva HDL300 音訊會議系統](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/nureva-hdl300-audio-conferencing-system/739)
 
--   [QSC 會議室音訊：in--ceiling 喇叭](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
+- [QSC 會議室音訊：in--ceiling 喇叭](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-in-ceiling-speakers/700)
 
--   [QSC 方向音訊 - 上限音訊](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
+- [QSC 方向音訊 - 上限音訊](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-directional-audio/704)
 
--   [QSC 會議室音訊：垂直喇叭](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
+- [QSC 會議室音訊：垂直喇叭](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/qsc-meeting-room-audio-pendant-speakers/711)
 
--   [含 Parlé ceiling 麥克風的 Biamp 音訊](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [含 Parlé ceiling 麥克風的 Biamp 音訊](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [含 Parlé 平板麥克風的 Biamp 音訊](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
+- [含 Parlé 平板麥克風的 Biamp 音訊](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-complete-room-audio-with-parle-ceiling-mic/613)
 
--   [Bose DS4 上限音訊解決方案](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
+- [Bose DS4 上限音訊解決方案](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-ds4-ceiling-audio-solution/694)
 
--   [Bose ES1 上限音訊解決方案](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
+- [Bose ES1 上限音訊解決方案](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/bose-es1-ceiling-audio-solution/506)
 
--   [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
+- [Shure Microflex Advance MXA910 + IntelliMix P300](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/shure-microflex-advance-mxa910-intellimix-p300/429)
 
--   [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
+- [Biamp Tesira DSP & Sennheiser TeamConnect Ceiling 2](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/biamp-tesira-dsp-sennheiser-teamconnect-ceiling-2/359)
 
 ### <a name="displays"></a>顯示
 
 - 短傳或超短傳回、高解析度和高亮度雷射投影機，在同步處理時自動喚醒，並在睡眠功能期間進行冷卻。 低增益投影機畫面具有環境光線拒絕屬性，可在亮麗的房間中提供最佳的圖片品質。
 
-如圖所示： 
+如圖所示：
 
 - [Epson EB-PU1007 Projector with ELPLX01S Ultra Short Throw lens](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
 - [Da-Lite UTB Contour Screen |HD 漸進式 0.6 螢幕|Cinemascope 138「 對角線](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
@@ -555,9 +556,9 @@ Windows上的所有Teams 會議室都可以使用智慧型擷取功能和次要�
 
 ### <a name="co-create-options"></a>共同建立選項
 
--   含內容相機 OR 的類比白板
+- 含內容相機 OR 的類比白板
 
--   相容的互動式觸控顯示器。
+- 相容的互動式觸控顯示器。
 
 如圖所示：
 
@@ -567,11 +568,11 @@ Windows上的所有Teams 會議室都可以使用智慧型擷取功能和次要�
 
 內容相機：
 
--   [Yealink UVC30 內容相機](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-content-camera/647)
+- [Yealink UVC30 內容相機](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/yealink-uvc30-content-camera/647)
 
--   [哈茲利畫布](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/huddly-canvas/568)
+- [哈茲利畫布](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/huddly-canvas/568)
 
--   [Logitech BRIO Content 相機 Kit](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
+- [Logitech BRIO Content 相機 Kit](https://www.microsoft.com/en-us/microsoft-teams/across-devices/devices/product/logitech-brio-content-camera-kit/349)
 
 互動式觸控式裝置：
 

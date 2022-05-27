@@ -1,5 +1,5 @@
 ---
-title: 外線通話限制 - PSTN 通話&音訊會議
+title: 撥出通話限制 - 音訊會議 & PSTN 通話
 ms.reviewer: ''
 ms.author: heidip
 author: MicrosoftHeidi
@@ -20,84 +20,84 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 系統管理員可以控制使用者可撥打的音訊會議和使用者 PSTN 通話類型。
-ms.openlocfilehash: 39a51c1fdf6bbb7597b255fc5879a4d7a77be2db
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+description: 系統管理員可以控制使用者可以撥打的音訊會議和使用者 PSTN 通話類型。
+ms.openlocfilehash: fd7dc24d7a920e5fb2c151600c3a6604381044e6
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055173"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674805"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>音訊會議和使用者 PSTN 通話的撥出通話限制原則
 
-做為系統管理員，您可以使用輸出通話控制項來限制貴組織中使用者可以撥打的音訊會議和使用者公用交換電話網路 (PSTN) 電話類型。
+身為系統管理員，您可以使用撥出撥號控制項來限制音訊會議和使用者公用交換電話網路 (PSTN 的類型，) 組織中使用者可以撥打的通話。
 
-外發通話控制項可以依據每個使用者或租使用者來使用，並提供下列兩種控制項來獨立限制每種類型的外發通話。 根據預設，這兩個控制項都設定為允許國際和國內外發通話。
+撥出撥號控制項可以依個別使用者或租使用者為基礎套用，並提供下列兩個控制項，以獨立限制每種類型的撥出通話。 根據預設，這兩個控制項都設定為允許國際和國內撥出電話。
 
-|控制|描述|控制項選項|
+|控制|描述|控制選項|
 |:-----|:-----|:-----|
-|音訊會議 PSTN 通話|限制外發類型 </br>內允許的通話 </br>使用者組織的會議。|任何目的地 (預設) </br>與召集人在同一個國家/地區 </br> [區域 A 國家/地區或區域](audio-conferencing-zones.md) </br>不允許|
-|使用者 PSTN 通話|限制通話類型 </br>使用者可以進行。|國際和國內 (預設) </br>國內</br>無|
+|音訊會議 PSTN 通話|限制輸出類型 </br>允許從內部撥打的通話 </br>由使用者召集的會議。|任何目的地 (預設) </br>在與召集人相同的國家或地區 </br> 區域：僅[限國家或地區](audio-conferencing-zones.md) </br>不允許|
+|使用者 PSTN 通話|限制通話類型 </br>可由使用者建立。|國際及國內 (預設) </br>國內</br>無|
 
-若要瞭解哪些國家和地區被視為區域 A，請參閱音訊會議的國家和地區 [區域](audio-conferencing-zones.md)。
+若要瞭解哪些國家與地區被視為 A 區，請參閱[音訊會議的國家/地區和區域區域](audio-conferencing-zones.md)。
 
    > [!NOTE]
-   > 如果撥打的號碼位於會議 (的召集人已設定 Microsoft 365 或 Office 365 的同一個國家/地區，或使用者) 的情況下，在使用者 PSTN 通話) 的情況下 (則通話會視為國內通話。
+   > 如果撥號的號碼所在的國家/地區已針對會議召集人設定Microsoft 365或Office 365，則電話會視為國內電話 (，以供音訊會議) ，或是使用者 (在使用者 PSTN 通話) 的情況下撥打電話。
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="restrict-audio-conferencing-outbound-calls"></a>限制音訊會議輸出通話
+## <a name="restrict-audio-conferencing-outbound-calls"></a>限制音訊會議撥出電話
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在左側導覽中， **選取使用者**，然後從可用使用者清單中選取使用者的顯示名稱。
+1. 在左側導覽中，選取 [ **使用者**]，然後從可用使用者清單中選取使用者的顯示名稱。
 
-2. 下一個前往 **音訊會議，選取****編輯**。
+2. 接著移至 **[音訊會議**]，選取 [**編輯]**。
 
-3. 在 **會議撥出下**，選取您想要的撥出限制選項。
+3. 在 [ **從會議撥出**] 底下，選取您想要的撥出限制選項。
 
 4. 選取 [儲存 **]**。
 
 ### <a name="using-powershell"></a>使用 PowerShell
 
-輸出通話限制是由稱為 OnlineDialOutPolicy 的單一策略控制，每個策略都有一個限制屬性。 無法自訂該策略，而是每個設定組合都有預先定義的策略實例。
+撥出電話限制是由單一稱為 OnlineDialOutPolicy 的原則所控制，其每個原則都有一個限制屬性。 原則無法自訂，而是每個設定組合都有預先定義的原則實例。
 
-您可以使用 Get-CSOnlineDialOutPolicy Cmdlet 來查看外寄通話政策，並使用下列命令進行設定。
+您可以使用Get-CSOnlineDialOutPolicy Cmdlet 來檢視輸出通話原則，並使用下列命令進行設定。
 
-**使用下列 Cmdlet** 將策略設定為每個使用者層級。  (Grant Cmdlet 不包含 「線上」一詞，就像 Get Cmdlet 一樣。) 
+**使用下列 Cmdlet 在每個使用者層級上設定** 原則。  (Grant Cmdlet 不包含 「Online」 這個字，就像 Get Cmdlet 一樣。) 
 
 ```powershell
 Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>    
 ```
 
-**使用下列 Cmdlet 在租使用者層級設定策略**。
+**使用下列 Cmdlet 在租使用者層級設定** 原則。
 
 ```powershell
-Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
+Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
 ```
 
-未指派任何撥出策略的租使用者所有使用者都會取得此策略。 其他使用者會維持目前的政策。
+未指派任何撥號原則之租使用者的所有使用者都會取得此原則。 其他使用者仍維持其目前的原則。
 
-**使用下列 Cmdlet 檢查租使用者層級的目前政策**。
+**使用下列 Cmdlet 檢查租使用者層級的目前原則**。
 
 ```powershell
 Get-CSOnlineDialOutPolicy -Identity Global
 ```
 
-下表提供每個策略的概覽。
+下表提供每個原則的概觀。
 
 |PowerShell Cmdlet|描述|
 |:-----|:-----|
-|Identity='tag：DialoutCPCandPSTNInternational'    |    會議中的使用者可以撥出國際和國內號碼，而且這個使用者也可以撥打國際和國內號碼。    |
-|Identity='tag：DialoutCPCDomesticPSTNInternational'  |    會議中的使用者只能撥出國內號碼，而此使用者可以撥打國際和國內號碼。    |
-|    Identity='tag：DialoutCPCDisabledPSTNInternational'    |    會議中的使用者無法撥出。此使用者可以撥打國際和國內號碼。    |
-|    Identity='tag：DialoutCPCInternationalPSTNDomestic'    |    會議中的使用者可以撥出國際和國內號碼，而且此使用者只能撥打國內 PSTN 號碼。    |
-|    Identity='tag：DialoutCPCInternationalPSTNDisabled'    |    會議中的使用者可以撥出國際和國內號碼，而且除了緊急號碼之外，此使用者無法撥打任何外撥 PSTN 號碼。    |
-|    Identity='tag：DialoutCPCandPSTNDomestic'    |    會議中的使用者只能撥出國內號碼，而且此使用者只能撥打國內 PSTN 號碼。    |
-|    Identity='tag：DialoutCPCDomesticPSTNDisabled'    |    會議中的使用者只能撥出到國內號碼，而且除了緊急號碼之外，此使用者無法撥打任何撥出的 PSTN 號碼。    |
-|    Identity='tag：DialoutCPCDisabledPSTNDomestic'    |    會議中的使用者無法撥出，而且此使用者只能撥打國內 PSTN 號碼。    |
-|    Identity='tag：DialoutCPCandPSTNDisabled'    |    會議中的使用者無法撥出，而且除了緊急號碼之外，此使用者無法撥打任何外撥 PSTN 號碼。    |
-|    Identity='tag：DialoutCPCZoneAPSTNInternational'    |    會議中的使用者只能撥出至 [區域 A](audio-conferencing-zones.md)國家/地區，而且此使用者可以撥打國際和國內號碼。    |
-|    Identity='tag：DialoutCPCZoneAPSTNDomestic'    |    會議中的使用者只能撥出到 [區域 A](audio-conferencing-zones.md)國家/地區，而且此使用者只能撥打國內 PSTN 號碼。    |
-|    Identity='tag：DialoutCPCZoneAPSTNDisabled'    |    會議中的使用者只能撥出到 [區域 A](audio-conferencing-zones.md)國家/地區，而且除了緊急號碼之外，此使用者無法撥打任何 PSTN 號碼。    |
+|Identity='tag：DialoutCPCandPSTNInternational'    |    會議中的使用者可以撥出國際和國內號碼，而此使用者也可以撥打國際和國內號碼的傳出號碼。    |
+|Identity='tag：DialoutCPCDomesticPSTNInternational'  |    會議中的使用者只能撥出國內號碼，而且此使用者可以撥打國際和國內號碼的撥出電話。    |
+|    Identity='tag：DialoutCPCDisabledPSTNInternational'    |    會議中的使用者無法撥出。此使用者可以撥打國際和國內號碼的撥出電話。    |
+|    Identity='tag：DialoutCPCInternationalPSTNDomestic'    |    會議中的使用者可以撥出國際和國內號碼，且此使用者只能撥打國內 PSTN 號碼的傳出號碼。    |
+|    Identity='tag：DialoutCPCInternationalPSTNDisabled'    |    會議中的使用者可以撥出國際和國內號碼，而且除了緊急號碼以外，此使用者無法撥打任何 PSTN 號碼的傳出號碼。    |
+|    Identity='tag：DialoutCPCandPSTNDomestic'    |    會議中的使用者只能撥出國內號碼，且此使用者只能撥打國內 PSTN 號碼的傳出號碼。    |
+|    Identity='tag：DialoutCPCDomesticPSTNDisabled'    |    會議中的使用者只能撥出國內號碼，而且除了緊急號碼以外，此使用者無法撥打任何 PSTN 號碼的撥出電話。    |
+|    Identity='tag：DialoutCPCDisabledPSTNDomestic'    |    會議中的使用者無法撥出，且此使用者只能撥打國內 PSTN 號碼的撥出電話。    |
+|    Identity='tag：DialoutCPCandPSTNDisabled'    |    會議中的使用者無法撥出，而且此使用者除了緊急號碼外，無法撥打任何 PSTN 號碼的撥出電話。    |
+|    Identity='tag：DialoutCPCZoneAPSTNInternational'    |    會議中的使用者只能撥出到 [A 區國家與地區](audio-conferencing-zones.md)，且此使用者可以撥打國際和國內號碼的撥出電話。    |
+|    Identity='tag：DialoutCPCZoneAPSTNDomestic'    |    會議中的使用者只能撥出到 [A 區國家與地區](audio-conferencing-zones.md)，且此使用者只能撥打國內 PSTN 號碼的撥出電話。    |
+|    Identity='tag：DialoutCPCZoneAPSTNDisabled'    |    會議中的使用者只能撥出到 [A 區國家與地區](audio-conferencing-zones.md)，而且此使用者除了緊急號碼以外，無法撥打任何 PSTN 號碼的撥出電話。    |

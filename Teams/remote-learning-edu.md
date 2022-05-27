@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d061fa0cda1620980e7da68a345fc13acb6fc12a
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 67be704ae81379a122a9c205305da1c4d4a5dcbd
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "62362979"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675645"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>開始使用 Microsoft Teams 進行遠端學習
 
@@ -106,12 +106,12 @@ Teams 原則能讓您控制特定使用者或使用者群組可用的選項。 �
 
 ### <a name="create-class-teams-for-secure-classroom-use"></a>建立班級團隊以確保教室使用安全
 
-Microsoft Teams 教育版提供  [特定團隊類型](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67) 供教育使用。 [班級團隊類型](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)專為教室使用設計，並隨附支援教室需求的特定功能，包括：  
+Microsoft Teams 教育版提供[特定團隊類型](https://support.office.com/article/choose-a-team-type-to-collaborate-in-microsoft-teams-0a971053-d640-4555-9fd7-f785c2b99e67)供教育使用。 [班級團隊類型](https://support.office.com/article/create-a-class-team-in-microsoft-teams-fae422eb-58b7-4431-9ff2-a4b9b6ae7c5b)專為教室使用設計，並隨附支援教室需求的特定功能，包括：  
 
 - 作業
 - 成績
 - OneNote 教室筆記本  
-- [班級教材資料夾](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988) ，用於保護學生的唯讀內容
+- [課程教材資料夾](https://support.office.com/article/Use-folders-to-create-read-only-files-for-students-or-other-team-members-0e7791d7-8c9c-4749-9bca-984289477988)用於保護學生的唯讀內容
 - [深入解析](./class-insights.md) 針對每個教室提供學生參與情況、作業及健康的即時資料。 
 - [優先的授課者存取權](https://support.microsoft.com/article/activate-early-access-class-teams-created-with-school-data-sync-0d154696-66ab-4fcf-b22f-c3d9a82aaf78)，可在加入學生之前完成班級設定 
 - 能夠讓會干擾的學生靜音和其他特殊權限  
@@ -241,7 +241,7 @@ SDS 會透過兩個步驟建立團隊。 第一個步驟會在 Azure Active Dire
 
 ##### <a name="how-do-i-create-class-teams-that-allow-educators-early-access-to-set-up-a-team-before-admitting-students"></a>我該如何建立班級團隊，以允許授課者可以在學生加入前，搶先存取並設定團隊？
 
-從群組（透過 SDS、授課者引導的或 Graph API）建立的團隊會預設自動建立優先存取團隊。 若要使用 Graph API 建立您自己的優先存取團隊，您將會需要 [建立班級](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true) 和 [從群組建議團隊](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true)。
+從群組（透過 SDS、授課者引導的或 Graph API）建立的團隊會預設自動建立優先存取團隊。 若要使用 Graph API 建立您自己的優先存取團隊，您需要[建立班級](/graph/api/educationroot-post-classes?tabs=http&view=graph-rest-beta&preserve-view=true)和[從群組建立團隊](/graph/api/team-post?tabs=http&view=graph-rest-beta#example-4-create-a-team-from-group&preserve-view=true)。
 
 ##### <a name="how-do-i-check-if-a-class-is-activated"></a>我該如何檢查我的班級是否已啟用？
 
@@ -249,7 +249,7 @@ SDS 會透過兩個步驟建立團隊。 第一個步驟會在 Azure Active Dire
 
 ##### <a name="how-do-i-activate-a-class-for-an-educator"></a>我該如何為授課者啟用班級？
 
-使用 [更新 Team API](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true)並將屬性 ```isMembershipLimitedToOwners``` 設定為 false 以代表您的授課者啟用這個團隊。  請注意，啟用團隊之後，啟用狀態是無法還原的。
+使用[更新 Team API](/graph/api/team-update?tabs=http&view=graph-rest-beta&preserve-view=true) 並將 ```isMembershipLimitedToOwners``` 屬性設定為 false 以代表您的授課者啟用這個團隊。 請注意，啟用團隊之後，啟用狀態是無法還原的。
 
 ### <a name="create-staff-teams-for-staff-communication-and-collaboration"></a>建立教職員團隊來進行教職員通訊和共同作業
 

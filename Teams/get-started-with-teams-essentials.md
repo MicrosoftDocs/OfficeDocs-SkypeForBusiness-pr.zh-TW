@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
-ms.sourcegitcommit: 8cda22925ccddb612f91351a7593b521eee10f0e
+ms.openlocfilehash: 46624ff1e1eeeede5066cf6972cc92469cf8979c
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "62864026"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675045"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>適用於小型企業的 Microsoft Teams 基本版快速入門指南
 
@@ -29,7 +29,7 @@ Microsoft Teams 基本版是獨立的 Teams 訂閱，提供適用于小型企業
 
 ### <a name="before-you-continue"></a>在您繼續之前
 
-Microsoft Teams 基本版可直接在 Microsoft 網站購買，並選取 Microsoft 雲端合作夥伴。 透過直接和合作夥伴的訂閱，在某些方面會有所不同，因為它們使用不同的身分識別系統。 請瀏覽本文稍後的表格以瞭解更多資訊，請前往此處：[Microsoft Teams 基本版方案](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
+Microsoft Teams 基本版可直接在 Microsoft 網站購買，並選取 Microsoft Cloud 合作夥伴。 透過直接和合作夥伴的訂閱，在某些方面會有所不同，因為它們使用不同的身分識別系統。 請瀏覽本文稍後的表格以瞭解更多資訊，請前往此處：[Microsoft Teams 基本版方案](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans)
 
 透過 Microsoft 直接網站購買的訂閱使用 Microsoft 帳戶身分識別，可讓您使用現有的電子郵件地址 (例如 TomislavK@outlook.com、TomislavK@gmail.com 或 TomislavK@ContosoLandscaping.com) 進行註冊。
 
@@ -153,20 +153,20 @@ Microsoft Teams 基本版可直接在 Microsoft 網站購買，並選取 Microso
 
 #### <a name="how-do-i-upgrade-my-organization"></a>如何升級我的組織？
 
-若要升級至 Microsoft Teams 基本版的 Teams 版本，請選取 **…** 在頂端的導覽功能表中。 接下來，選取功能表底部顯現的 **升級**  選項按鈕。   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="顯示 [升級] 按鈕的螢幕擷取畫面"::: 
+若要升級至 Teams 的 Microsoft Teams 基本版，請選取頂端導覽功能表中的 [...**]**。 接下來，選取隨之出現之下拉式功能表底端的 [升級]**** 按鈕。   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="顯示 [升級] 按鈕的螢幕擷取畫面"::: 
 
 在於 Teams 中選取 **[升級]** 按鈕之後，系統會將您導向此處：[適用於小型企業的 Microsoft Teams](https://www.microsoft.com/microsoft-teams/upgrade-teams)
 
 輸入您目前用於登錄 Teams 的電子郵件地址，然後購買 Microsoft Teams 基本版方案。
 
 
-### <a name="can-i-purchase-teams-essentials-using-aad-identity-through-microsofts-website"></a>我可以透過 Microsoft 網站使用 AAD 身分識別購買 Teams 基本版嗎？  
+### <a name="can-i-purchase-teams-essentials-using-aad-identity-through-microsofts-website"></a>我是否可以透過 Microsoft 網站使用 AAD 身分識別購買 Teams 基本版?  
 
 否。 只有透過選取 Microsoft 雲端合作夥伴才能使用具有 AAD 身分識別的 Teams 基本版。 如果您有興趣與合作夥伴合作，請瀏覽 [Microsoft 合作夥伴雲端解決方案提供者](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)。
 
-### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>我可以使用現有的電子郵件系統與 Microsoft Teams 基本版嗎？  
+### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>我可以使用現有的電子郵件系統與 Microsoft Teams 基本版嗎？  
 
-是的。您可以保留現有的電子郵件系統，並運用 Teams 基本版進行會議、聊天和共同合作。  
+是的。您可以保留現有的電子郵件系統，並運用 Teams 基本版進行會議、聊天和共同合作。  
 
 ### <a name="can-i-connect-my-existing-calendar-solution-with-teams-essentials"></a>我可以將現有的行事曆解決方案與 Teams 基本版相連接嗎？
 是的。您可以使用 Teams 基本版同步處理來自 Outlook.com 和 Google 的現有行事曆。

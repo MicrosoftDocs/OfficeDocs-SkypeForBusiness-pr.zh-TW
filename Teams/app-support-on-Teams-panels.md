@@ -20,12 +20,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2bf4066675755e0f93844644a6a59404af678a38
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: 1f9d2e3b17f852dcd020dc11c323bbc24c2dfc30
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635411"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675905"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>在 Teams 面板上Microsoft Teams應用程式/商務 (LOB) 應用程式支援
 
@@ -36,7 +36,7 @@ Teams面板新增[Teams應用程式/商務營運 (LOB) 應用程式的支援](/m
 
 ## <a name="teams-app-experience-on-teams-panels"></a>在Teams面板上Teams應用程式體驗
 
-![顯示哪個區段可讓使用者流覽至應用程式的Teams系統管理中心的螢幕擷取畫面。](media/tac1update.png) 
+![顯示哪個區段可讓使用者流覽至應用程式的Teams系統管理中心的螢幕擷取畫面。](media/tac1update.png)
 
 *Teams面板主畫面包含應用程式流覽選項，以紅色螢幕擷取畫面標示。請注意，這些是範例圖示，可能無法使用。*
 
@@ -44,7 +44,7 @@ Teams面板新增[Teams應用程式/商務營運 (LOB) 應用程式的支援](/m
 
 *當使用者點選其中一個應用程式圖示時，他們會在上一個螢幕擷取畫面中看到Teams應用程式畫面。螢幕擷取畫面中的灰色矩形是應用程式在Teams 面板上顯示的位置。應用程式行已修正，屬於Teams面板應用程式的一部分。*
 
-## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>在 Teams 系統管理中心中設定和管理Teams面板應用程式 
+## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>在 Teams 系統管理中心中設定和管理Teams面板應用程式
 
 Microsoft Teams應用程式會將重要資訊、常用工具和信任的程式帶入人們收集、學習及工作的地點。 Teams應用程式[可透過整合功能運作](/microsoftteams/platform/concepts/capabilities-overview)。 現在，身為 IT 系統管理員，您可以選擇要在貴組織的 Teams 面板裝置中加入哪些應用程式，並透過[Teams系統管理中心自訂許可權](https://admin.teams.microsoft.com/)。
 
@@ -62,11 +62,11 @@ Microsoft Teams應用程式會將重要資訊、常用工具和信任的程式�
 
 由於Teams提供顯示各種應用程式的功能，系統管理員可以決定哪些應用程式對組織最為重要，並且只將這些應用程式釘選到Teams面板 **主** 畫面以供快速存取。 如果有超過五個釘選的應用程式或任何未釘選的應用程式，它們將會顯示在 [ **其他** ] 畫面下方。 Microsoft 建議您特別針對Teams面板建立自訂應用程式設定原則。
 
-![應用程式設定原則頁面的使用者介面螢幕擷取畫面。](media/appsetup1.png) 
+![應用程式設定原則頁面的使用者介面螢幕擷取畫面。](media/appsetup1.png)
 
 若要管理Teams面板上顯示的釘選應用程式，請登入貴組織的Teams系統管理中心，並流覽至 **Teams應用程式** \> **設定原則** \> **選取或建立釘選的新原則** \> 。****
 
-![使用者介面內已釘選應用程式區段的螢幕擷取畫面。](media/appsetup2.png) 
+![使用者介面內已釘選應用程式區段的螢幕擷取畫面。](media/appsetup2.png)
 
 *此影像中包含的應用程式只是範例，可能無法使用。*
 
@@ -74,7 +74,7 @@ Microsoft 建議您關閉 **Upload自訂應用程式** 和 **使用者釘選**�
 
 如需釘選應用程式的詳細資訊，請參閱 [管理應用程式設定原則](/microsoftteams/teams-app-setup-policies)。
 
-## <a name="manage-apps-display-order-in-teams-panels"></a>管理Teams面板中的應用程式顯示順序 
+## <a name="manage-apps-display-order-in-teams-panels"></a>管理Teams面板中的應用程式顯示順序
 
 ![使用者介面內應用程式區段的螢幕擷取畫面。](media/appsetup3.png)
 
@@ -122,6 +122,6 @@ Microsoft 建議您關閉 **Upload自訂應用程式** 和 **使用者釘選**�
 
 ![使用者介面內的設定原則區段的螢幕擷取畫面，其中包含確認使用者釘選為作用中的快顯。](media/appsetup4.png)
 
-*此影像中包含的應用程式只是範例，可能無法使用。* 
+*此影像中包含的應用程式只是範例，可能無法使用。*
 
 這是裝置在共用空間中的預期行為，有助於防止非意意的應用程式釘選。

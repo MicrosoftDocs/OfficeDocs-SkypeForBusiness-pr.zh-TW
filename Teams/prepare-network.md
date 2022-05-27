@@ -19,20 +19,20 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 8a8e8b21bb3b224586ef7e74f971059070d0a74c
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: d530cc3947c738753f053d126ded1dd77b815009
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059294"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676395"
 ---
-# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路 
+# <a name="prepare-your-organizations-network-for-microsoft-teams"></a>針對 Microsoft Teams 準備組織的網路
 
 ## <a name="network-requirements"></a>網路需求
 
 如果您已[針對 Microsoft 365 或 Office 365 最佳化您的網路](/Office365/Enterprise/assessing-network-connectivity)，則可能已準備好使用 Microsoft Teams。 在任何情況下，尤其是如果您要快速推出 Teams 做為第一個 Microsoft 365 或 Office 365 工作負載以支援 **遠端工作者** - 請在開始推出 Teams 之前，檢查下列項目：
 
-1.  您的所有位置是否都有網際網路存取權 (以便它們可以連線到 Microsoft 365 或 Office 365)？ 除了正常網路流量之外，請確定您已開啟 [Office 365 URL 和 IP 位址範圍中列入 Teams 的 TCP 埠和 IP 位址](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。
+1. 您的所有位置是否都有網際網路存取權 (以便它們可以連線到 Microsoft 365 或 Office 365)？ 除了正常網路流量之外，請確定您已開啟 [Office 365 URL 和 IP 位址範圍中列入 Teams 的 TCP 埠和 IP 位址](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)。
 
     > [!IMPORTANT]
     > 如果需要與商務用 Skype (內部部署或線上) 進行同盟，您必須設定額外的 DNS 記錄。
@@ -40,14 +40,14 @@ ms.locfileid: "65059294"
     >|DNS 記錄  |服務  |Protocol (通訊協定)  |Priority (優先順序)  |Weight (權數)  |Port (連接埠)  |Target (目標)  |
     >|---------|---------|---------|---------|---------|---------|---------|
     >|SRV     |sipfederationtls     |TCP     |100     |1     |5061     |sipfed.online.lync.com     |
-    
-2.  您是否有 Microsoft 365 或 Office 365 的經驗證網域 (例如，contoso.com)？
-    
+
+2. 您是否有 Microsoft 365 或 Office 365 的經驗證網域 (例如，contoso.com)？
+
     - 如果您的組織尚未推出 Microsoft 365 或 Office 365，請參閱[開始使用](/microsoft-365/admin/admin-overview/get-started-with-office-365)。
     - 如果您的組織尚未為 Microsoft 365 或 Office 365 新增或設定經驗證的網域，請參閱[網域常見問題集](/microsoft-365/admin/setup/domains-faq)。
 
-3.  您的組織是否已部署 Exchange Online 和 SharePoint Online？
-    
+3. 您的組織是否已部署 Exchange Online 和 SharePoint Online？
+
     - 如果您的組織沒有 Exchange Online，請參閱[了解 Exchange 和 Microsoft Teams 如何互動](exchange-teams-interact.md)。
     - 如果您的組織沒有 SharePoint Online，請參閱[了解 SharePoint Online 和商務用 OneDrive 如何與 Microsoft Teams 互動](sharepoint-onedrive-interact.md)。
 
@@ -55,12 +55,12 @@ ms.locfileid: "65059294"
 
 > [!IMPORTANT]
 > **適用於教育機構**：如果您的組織是教育機構，且您使用學生資訊系統 (SIS)，請在推出 Teams 之前 [部署學校資料同步處理](/schooldatasync/)。
->  
+>
 > **執行內部部署商務用 Skype Server**：如果您的組織執行的是內部部署商務用 Skype Server (或 Lync Server)，您必須 [設定 Azure AD Connect](/skypeforbusiness/hybrid/configure-azure-ad-connect)，以與 Microsoft 365 或 Office 365 同步處理您的內部部署目錄。
 
-### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>最佳做法：使用 CQD 和通話分析監視您的網路 
+### <a name="best-practice-monitor-your-network-using-cqd-and-call-analytics"></a>最佳做法：使用 CQD 和通話分析監視您的網路
 
-使用[通話品質儀表板 (CQD)](turning-on-and-using-call-quality-dashboard.md) 以深入了解 Teams 中的通話和會議品質。 CQD 會透過持續注意品質、可靠性和使用者體驗，協助您最佳化您的網路。 CQD 會查看整個組織整體模式可能變得明顯處的彙總遙測，這可讓您識別問題並規劃補救。 此外，CQD 會提供豐富的計量報告，其提供整體品質、可靠性和使用者體驗的深入見解。 
+使用[通話品質儀表板 (CQD)](turning-on-and-using-call-quality-dashboard.md) 以深入了解 Teams 中的通話和會議品質。 CQD 會透過持續注意品質、可靠性和使用者體驗，協助您最佳化您的網路。 CQD 會查看整個組織整體模式可能變得明顯處的彙總遙測，這可讓您識別問題並規劃補救。 此外，CQD 會提供豐富的計量報告，其提供整體品質、可靠性和使用者體驗的深入見解。
 
 您將使用[通話分析](set-up-call-analytics.md)來調查個別使用者的通話和會議問題。
 
@@ -70,9 +70,9 @@ ms.locfileid: "65059294"
 
 您可能會想要執行其他網路最佳化，前提是：
 
-  - Teams 執行速度緩慢 (可能是您的頻寬不足)
-  - 通話持續斷線 (可能是防火牆或 Proxy 封鎖程式所導致)
-  - 通話有停滯和中斷，或聲音聽起來像機器人 (可能是抖動或封包遺失)
+- Teams 執行速度緩慢 (可能是您的頻寬不足)
+- 通話持續斷線 (可能是防火牆或 Proxy 封鎖程式所導致)
+- 通話有停滯和中斷，或聲音聽起來像機器人 (可能是抖動或封包遺失)
 
 如需網路最佳化的深入討論，包括識別和修正網路減損的指引，請參閱 [Microsoft 365 和 Office 365 網路連線原則](/microsoft-365/enterprise/microsoft-365-network-connectivity-principles)。
 
@@ -117,9 +117,9 @@ ms.locfileid: "65059294"
 <td><p>建議您為會略過虛擬私人網路 (VPN) 的 Teams 流量提供替代路徑，通常稱為<a href="/windows/security/identity-protection/vpn/vpn-routing">分割通道 VPN</a>。 分割通道表示 Microsoft 365 或 Office 365 的流量不會通過 VPN，而是直接進入 Microsoft 365 或 Office 365。 略過 VPN 會對 Teams 品質產生正面影響，並減少來自 VPN 裝置和組織網路的負載。 若要實作分割通道 VPN，請與 VPN 廠商合作。</p>
 <p>我們建議略過 VPN 的其他原因：
 <ul>
-<li><p>VPN 通常不會設計或設定為支援即時媒體。</p></li> 
-<li><p>某些 VPN 可能也不支援 UDP (這是 Teams 所需)。</p></li> 
-<li><p>VPN 也會在已加密的媒體流量上引入額外的加密層。</p></li> 
+<li><p>VPN 通常不會設計或設定為支援即時媒體。</p></li>
+<li><p>某些 VPN 可能也不支援 UDP (這是 Teams 所需)。</p></li>
+<li><p>VPN 也會在已加密的媒體流量上引入額外的加密層。</p></li>
 <li><p>由於透過 VPN 裝置切換流量，與 Teams 的連線可能會沒有效率。</p></li></td>
 </tr>
 <tr class="odd">
@@ -153,7 +153,7 @@ ms.locfileid: "65059294"
       **形式**
    :::column-end:::
    :::column span="3":::
-      **頻寬需求 (位元速率 KB/秒 上/下)**    
+      **頻寬需求 (位元速率 KB/秒 上/下)**
    :::column-end:::
 :::row-end:::
 :::row:::
@@ -304,13 +304,13 @@ ms.locfileid: "65059294"
 
 **最低**、 **建議的**，以及 **最佳** 頻寬需求是根據每個端點的使用情況。 一般來說，每個使用者為一個端點，例如電腦或行動裝置。 不過，如果使用者 *同時* 在電腦 *與* 行動裝置上參與 Teams 會議，則兩個端點皆會與該使用者相關聯。
 
-- 視訊通話的 **最低** 頻寬需求為最高 240p 解析度、共用螢幕內容畫面播放速率可調整 1.875 到 7.5fps，而齊聚模式/大型圖庫視訊最高 540p 解析度。  
+- 視訊通話的 **最低** 頻寬需求為最高 240p 解析度、共用螢幕內容畫面播放速率可調整 1.875 到 7.5fps，而齊聚模式/大型圖庫視訊最高 540p 解析度。
 
-- 視訊通話的 **建議** 頻寬需求為最高 1080p 解析度 <sup>\*</sup>、共用螢幕內容畫面播放速率可調整為 7.5 到 30fps，而齊聚模式/大型圖庫視訊最高 1080p 解析度 <sup>\*</sup>。  
+- 視訊通話的 **建議** 頻寬需求為最高 1080p 解析度 <sup>\*</sup>、共用螢幕內容畫面播放速率可調整為 7.5 到 30fps，而齊聚模式/大型圖庫視訊最高 1080p 解析度 <sup>\*</sup>。
 
 - **「最佳效能** 指引」可達成較大型的會議出席者人數、高遺失環境以及較高動作內容逼真度的視訊，螢幕共用內容畫面播放速率可調整從 15 到 30fps。
 
-<sup>\*</sup>預期最高品質 1080p ，但根據您的網路狀況，音訊解析度和品質會加以優化。  
+<sup>\*</sup>預期最高品質 1080p ，但根據您的網路狀況，音訊解析度和品質會加以優化。
 
 ## <a name="related-topics"></a>相關主題
 

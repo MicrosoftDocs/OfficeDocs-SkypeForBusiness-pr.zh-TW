@@ -1,5 +1,5 @@
 ---
-title: 變更音訊會議橋接器上的電話號碼
+title: 變更橋接器上的電話號碼音訊會議
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 瞭解將新的服務電話號碼指派給會議橋接器所需的步驟，以擴充使用者的涵蓋範圍。
-ms.openlocfilehash: 25af462ec7e531bdbaec01ee2a8b37c43376a48e
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+ms.openlocfilehash: 0433577334dca5f84854ba1cdc14b81e4ec37e63
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016645"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674775"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>變更音訊會議橋接器的電話號碼
 
-當您購買 **音訊會議** 授權時，Microsoft 會為您的組織主控您的音訊會議橋接器。 音訊會議橋接器會提供來自不同位置的撥入電話號碼，讓會議召集人和參與者可以使用電話加入商務用 Skype或Microsoft Teams會議。
-  
+當您購買 **音訊會議** 授權時，Microsoft 會為您的組織代管音訊會議橋接器。 音訊會議橋接器會提供來自不同位置的撥入電話號碼，讓會議召集人和參與者可以使用電話加入商務用 Skype或Microsoft Teams會議。
+
 除了已指派給會議橋接器的電話號碼之外，您還可以從其他位置取得用於音訊會議) 的 [額外服務號碼](./getting-service-phone-numbers.md) (付費和免付費電話號碼，然後將它們指派到會議橋接器，以便擴大使用者的涵蓋範圍。
-  
+
 > [!NOTE]
 > 若要能夠指派/取消指派會議橋接器的電話號碼，電話號碼必須是「*服務*」號碼。 您可以在Microsoft Teams系統管理中心流覽至 **[語音**  >  **電話號碼**]，然後查看 [**數位類型**] 欄，以查看它的數位類型。 Microsoft 365或Office 365通訊點數必須先設定，使用者才能使用免付費電話號碼撥入橋接器。
 
@@ -50,7 +50,7 @@ ms.locfileid: "65016645"
 
 2. 從清單中選取電話號碼，然後按一下 [ **編輯]**。
 
-3. 在 [**編輯]** 頁面的 [**指定物件**] 底下，展開下拉式清單，然後選取 **[會議橋接器**  >  **]**。
+3. 在 [**編輯]** 頁面的 [**指定物件**] 底下，展開下拉式清單，然後選取 **[會議橋接器**  >  **套用]**。
 
 ### <a name="step-2---change-the-default-phone-number-of-your-conference-bridge-optional"></a>步驟 2 ： 變更會議橋接器的預設電話號碼 (選用) 
 
@@ -58,7 +58,7 @@ ms.locfileid: "65016645"
 
 只有服務付費電話號碼可以設定為會議橋接器的預設號碼; **服務免付費電話號碼無法設定為會議橋接器的預設號碼**。 如果您要指派服務付費電話號碼，而您想要將它設為音訊會議橋接器的新預設號碼，請執行下列步驟：
 
-1. 在左側功能窗格中，移至 **[會議**  >  **會議] 橋接器**。
+1. 在左側功能窗格中，移至 **會議**  >  **橋接器**。
 
 2. 醒目提示您要設為預設的服務付費電話號碼。
 
@@ -69,14 +69,14 @@ ms.locfileid: "65016645"
 請參閱[在 Microsoft Teams 中設定邀請中包含的電話號碼](set-the-phone-numbers-included-on-invites-in-teams.md)。
 
 > [!NOTE]
-> 您也可以將電話號碼新增至 *TeamsAudioconferencingpolicy* ，並將原則指派給使用者，藉此設定電話號碼。 新增到原則的付費和免付費電話號碼會優先于透過音訊會議設定窗格個別為使用者設定的電話號碼。 如果未將電話號碼新增至 *Teamsaudioconferencingpolicy*，則透過音訊會議設定窗格個別設定的電話號碼將會顯示在會議邀請Microsoft Teams。 [付費和免付費電話號碼的音訊會議原則設定](audio-conferencing-toll-free-numbers-policy.md) 有更多資訊。
+> 您也可以將電話號碼新增至 *TeamsAudioconferencingpolicy* ，並將原則指派給使用者，藉此設定電話號碼。 新增到原則的付費和免付費電話號碼會優先于透過音訊會議設定窗格個別為使用者設定的電話號碼。 如果未將電話號碼新增至 *Teamsaudioconferencingpolicy*，則透過音訊會議設定窗格個別設定的電話號碼將會顯示在會議邀請Microsoft Teams。 [音訊會議付費和免付費電話號碼的原則設定](audio-conferencing-toll-free-numbers-policy.md)有更多資訊。
 
 ### <a name="step-4---update-existing-meeting-invites-of-users-using-the-meeting-migration-service-optional"></a>步驟 4 - 使用會議移轉服務更新使用者的現有會議邀請 (選擇性) 
 
 在接下來的兩個步驟中，您必須開始Windows PowerShell。
-  
+
 如果您已更新部分或所有使用者會議邀請中所包含的預設電話號碼，您可以選擇性地更新已傳送給貴組織使用者的會議邀請，再使用會議移轉服務變更其預設電話號碼。 如需詳細資訊，請參閱 [設定會議移轉服務 (MMS) ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
-  
+
 - 針對在步驟 2 中變更預設電話號碼的使用者，執行會議移轉服務 (MMS) 。 若要這麼做，請執行下列命令：
 
 ```PowerShell
@@ -122,7 +122,7 @@ Get-CsMeetingMigrationStatus -SummaryOnly
 ```
 
 如需會議移轉服務的詳細資訊，請參閱 [設定會議移轉服務 (MMS) ](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms)。
-  
+
 ### <a name="step-3---unassign-the-old-phone-number-from-the-audio-conferencing-bridge"></a>步驟 3 - 從音訊會議橋接器取消指派舊電話號碼
 
 使用Unregister-CsOnlineDialInConferencingServiceNumber Cmdlet 從會議橋接器取消註冊付費或免付費電話號碼
@@ -192,7 +192,7 @@ Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 **範例** 中，to unassign， the DefaultServiceNumber 「8005551234」
 
 ```PowerShell
-Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
+Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234
 ```
 
 ## <a name="about-windows-powershell"></a>關於Windows PowerShell

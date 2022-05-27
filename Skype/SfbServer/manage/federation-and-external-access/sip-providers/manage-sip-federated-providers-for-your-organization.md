@@ -14,40 +14,40 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: 瞭解如何為 SIP 同盟提供者的使用者設定支援。
-ms.openlocfilehash: b6a28714ec3ad81470f362f49605d0be4805dbe2
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 瞭解如何設定 SIP 同盟提供者使用者的支援。
+ms.openlocfilehash: dbbf01de2c1538c0761550b073ace573cde44eb7
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62392555"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676205"
 ---
-# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>在商務用 Skype Server 中管理組織的 SIP 同盟提供者
+# <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>在 商務用 Skype Server 中管理貴組織的 SIP 同盟提供者
 
-若要為 SIP 同盟提供者的使用者設定支援，您需要執行下列作業：
+若要設定 SIP 同盟提供者使用者的支援，您需要執行下列動作：
 
-  - 設定一或多個外部使用者存取原則，以支援與 SIP 同盟提供者連絡人的通訊
+  - 設定一或多個外部使用者存取原則，以支援與 SIP 同盟提供者連絡人通訊
 
-  - 指定您要支援的主控提供者
+  - 指定您想要支援的託管提供者
 
-  - 指定您要支援的公用 IM 提供者
+  - 指定您想要支援的公用 IM 提供者
 
-## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或編輯公用 SIP 同盟提供者
+## <a name="create-or-edit-public-sip-federated-providers-in-skype-for-business-server"></a>在 商務用 Skype Server 中建立或編輯公用 SIP 同盟提供者
 
-公用立即訊息 (IM) 連線能力，讓組織中的使用者能夠使用 IM 與公用提供者所提供的 IM 服務使用者通訊。
+公用立即訊息 (IM) 連線可讓組織中的使用者使用 IM 與公用提供者所提供的 IM 服務使用者通訊。
 
-商務用 Skype Server 具有立即訊息的公用提供者設定。 每個公用提供者都會使用提供者的 Edge Server 完整網域名稱，以及預設驗證層級 **[僅允許使用者與其連絡人清單上使用此提供者的人通訊]** 來設定。
+商務用 Skype Server具有立即訊息的公用提供者設定。 每個公用提供者都會使用提供者的 Edge Server 完整網域名稱，以及預設驗證層級 **[僅允許使用者與其連絡人清單上使用此提供者的人通訊]** 來設定。
 
-預設設定為不啟用任何公用提供者。 在啟用公用提供者之前，您應該先完成授權合約及佈建工作。 您可以在完成授權和佈建工作之前啟用提供者。 在必要工作完成之前，使用者將無法與這些提供者的連絡人通訊。 如需授權及布建公用提供者的詳細資訊，請參閱 [設定原則以控制公用使用者](../external-access-policies/configure-policies-to-control-public-user-access.md)訪問。
+預設設定為不啟用任何公用提供者。 在啟用公用提供者之前，您應該先完成授權合約及佈建工作。 您可以在完成授權和佈建工作之前啟用提供者。 在必要工作完成之前，使用者將無法與這些提供者的連絡人通訊。 如需授權和布建公用提供者的詳細資訊，請參閱設定 [原則以控制公用使用者的存取](../external-access-policies/configure-policies-to-control-public-user-access.md)權。
 
-請使用下列程式來建立或編輯公用提供者。
+使用下列程式來建立或編輯公用提供者。
 
 
 ### <a name="to-create-or-edit-public-providers"></a>建立或編輯公用提供者
 
-1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
+1.  從屬於 RTCUniversalServerAdmins 群組成員的使用者帳戶， (或具有對等的使用者權限) ，或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
+2.  開啟瀏覽器視窗，然後輸入管理員 URL 以開啟商務用 Skype Server 主控台。 
 
 3.  在左導覽列中，依序按一下 **[同盟和外部存取]** 和 **[SIP 同盟提供者]**。
 
@@ -69,19 +69,19 @@ ms.locfileid: "62392555"
 
 7.  完成設定之後，請按一下 **[認可]** 儲存，或按一下 **[取消]** 捨棄您的變更。
 
-## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>在商務用 Skype Server 中建立或編輯主控的 SIP 同盟提供者
+## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>在 商務用 Skype Server 中建立或編輯裝載的 SIP 同盟提供者
 
-主控提供者立即訊息 (IM) 連線能力，讓組織中的使用者能夠使用 IM，與託管提供者所提供之 IM 服務的使用者進行通訊。
+裝載的提供者立即訊息 (IM) 連線可讓組織中的使用者使用 IM 與託管提供者所提供的 IM 服務使用者通訊。
 
 每個裝載提供者都設有提供者的 Edge Server 完整網域名稱，以及預設驗證層級 [允許使用者僅與其連絡人清單中使用此提供者的人通訊]。
 
-請使用下列程式來建立或編輯主控的提供者。
+使用下列程式來建立或編輯裝載的提供者。
 
 ### <a name="to-create-or-edit-hosted-providers"></a>建立或編輯裝載提供者
 
-1.  從 RTCUniversalServerAdmins 群組成員的使用者帳戶 (或擁有同等的使用者權限) 或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
+1.  從屬於 RTCUniversalServerAdmins 群組成員的使用者帳戶， (或具有對等的使用者權限) ，或指派給 CsAdministrator 角色，登入內部部署中的任何電腦。
 
-2.  開啟瀏覽器視窗，然後輸入管理 URL，以開啟 [商務用 Skype Server 控制台]。 
+2.  開啟瀏覽器視窗，然後輸入管理員 URL 以開啟商務用 Skype Server 主控台。 
 
 3.  在左導覽列中，按一下 [同盟及外部存取]，然後按一下 [SIP 同盟提供者]。
 
@@ -107,7 +107,7 @@ ms.locfileid: "62392555"
 ## <a name="see-also"></a>另請參閱
 
 
-[設定原則以控制公用使用者的加入](../external-access-policies/configure-policies-to-control-public-user-access.md)
+[設定原則以控制公用使用者的存取](../external-access-policies/configure-policies-to-control-public-user-access.md)
 
 [啟用或停用同盟和公用 IM 連線](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
 

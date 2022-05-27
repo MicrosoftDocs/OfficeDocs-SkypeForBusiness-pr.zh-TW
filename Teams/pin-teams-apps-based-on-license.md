@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f717672c4cb297d7f3d2e95ceaa038eeceaa2ee
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: b59753e1ad1e5a0be36ed8a0d924d7fa6d6658a2
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187119"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675515"
 ---
 # <a name="tailor-teams-apps-for-your-frontline-workers"></a>為您的前線員工量身打造 Teams 應用程式
 
@@ -37,7 +37,7 @@ Teams根據授權釘選應用程式，以在Teams中根據他們的需求提供�
 
 ## <a name="tailored-frontline-app-experience"></a>量身打造的第一線應用程式體驗
 
-應用程式會釘選到應用程式行，也就是Teams行動用戶端底部 (iOS 和 Android) 以及Teams桌面用戶端的列。 下列應用程式會釘選給擁有 [F 授權](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的使用者：
+應用程式會釘選到應用程式行，也就是Teams行動用戶端 (iOS和Android) 底部以及Teams桌面用戶端的列。 下列應用程式會釘選給擁有 [F 授權](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的使用者：
 
 - [活動](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
 - [聊天](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
@@ -55,7 +55,7 @@ Teams根據授權釘選應用程式，以在Teams中根據他們的需求提供�
 
 :::image type="content" source="media/tailored-teams-apps-desktop.png" alt-text="在桌上型電腦上量身打造的第Teams一線應用程式體驗" lightbox="media/tailored-teams-apps-desktop.png"::: 
 
-## <a name="admin-controls"></a>系統管理控制項
+## <a name="admin-controls"></a>管理員控制項
 
 > [!NOTE]
 > 使用者 **釘選** 設定必須在全域 (預設) [應用程式設定原則](teams-app-setup-policies.md) 中開啟，此功能才會生效。
@@ -66,7 +66,7 @@ Teams根據授權釘選應用程式，以在Teams中根據他們的需求提供�
 
 此功能預設為啟用。 不過，如果您不希望 Microsoft 提供量身打造的一線應用程式體驗，您可以關閉此功能。 若要關閉或開啟此功能：
 
-1. 在Microsoft Teams系統管理中心的左側導覽畫面中，移至 **[Teams應用程式**  >  管理 **應用程式**]，然後選取 [**全組織應用程式設定]**。
+1. 在Microsoft Teams系統管理中心的左側導覽畫面中，移至 **[Teams應用程式**  >  **管理應用程式**]，然後選取 [**全組織應用程式設定]**。
 2. 在 **[量身打造的應用程式]** 底下，將 **[顯示量身打造的應用程式** ] 切換為 [ **關閉** ] 或 [ **開啟]**。
 
     :::image type="content" source="media/tailored-teams-apps-admin-center.png" alt-text="Teams系統管理中心 [管理應用程式] 頁面上 [顯示量身打造的應用程式] 設定的螢幕擷取畫面" lightbox="media/tailored-teams-apps-admin-center.png":::

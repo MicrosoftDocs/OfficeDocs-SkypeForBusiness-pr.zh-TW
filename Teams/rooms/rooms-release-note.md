@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: 系統管理員可以閱讀Microsoft Teams 會議室的版本資訊，其中列出Microsoft Teams 會議室中的累積改良功能。
+description: 管理員可以閱讀Microsoft Teams 會議室的版本資訊，其中列出Microsoft Teams 會議室中的累積改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f91c286f08046d1a521d3758f1fc297bf2aa0d59
-ms.sourcegitcommit: ad8447b683381bc07f993bf843a93a4bdb77d840
+ms.openlocfilehash: 03a23ecb47fb0efca19ce3a7085a1fcc41b80dc3
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "65187019"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674195"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 會議室的版本資訊
 
@@ -95,9 +95,9 @@ Teams 會議室受到現代化生命週期原則的規範。 如[需詳細資訊
 
 在此更新中推出：
 - IT 系統管理員可以註冊Teams會議室裝置，以便透過 XML 設定接收公開預覽功能。 一旦註冊，裝置將會開始接收 Beta 功能。 所有要進行 Beta 測試的功能都會在[Microsoft Teams Public Preview - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview) <sup>1，2</sup>宣佈  
-- IT 系統管理員可以透過 XML 設定，設定 [會議室前方] 顯示器解析度和遠端縮放比例<sup>2</sup>
-- IT 系統管理員可以透過 XML 設定停用 Microsoft 噪音抑制<sup>功能3</sup> 
-- IT 系統管理員可以透過登錄機碼設定來覆寫裝置上的下載資料夾清理<sup>4</sup>
+- IT 系統管理員可以透過 XML 設定<sup>2</sup>，設定 [會議室前方] 顯示器解析度和遠端縮放比例
+- IT 系統管理員可以透過 XML 設定<sup>3</sup>停用 Microsoft 噪音抑制功能 
+- IT 系統管理員可以透過登錄機碼設定<sup>4</sup>覆寫裝置上的下載資料夾清理
 - 讓使用者加入託管在其他雲端 (的Teams會議，也就是 GCCH 客戶可以加入在商業雲端託管的Teams會議，反之亦然)  
 - Teams會議室現在會封鎖從 PowerPoint Live 中的 URL 啟動 Edge 瀏覽器，這是Teams使用觸控式顯示器的會議室的額外安全性措施。 
 - 現已改善 [立即開會] 體驗，為使用者新增邀請使用者加入會議室的指示 
@@ -125,13 +125,13 @@ Teams 會議室受到現代化生命週期原則的規範。 如[需詳細資訊
 
 在此更新中推出：
 - Windows 1 的 MTR 預覽)  (前列版面<sup>配置</sup> 
-- 將前列版面配置設為預設值的系統管理設定  
-- [立即開會] 並僅針對 Teams 撥號應用程式更新，Teams預設的用戶端模式<sup>1，2</sup>
-- 在會議中切換多個視訊攝影機Teams <sup>1</sup> 
+- 管理員設定設為預設的前列版面配置  
+- [立即開會]，並僅針對 Teams 撥號應用程式更新，Teams預設的用戶端模式<sup>1，2</sup>
+- 在Teams會議中切換多個視訊攝影機<sup>1</sup> 
 - 預設視訊攝影機設定 
 - 在 MTR 主機上Cortana推入式討論區圖示更新 
 - Azure AD Premium 1 個包含在 [會議室標準] 和 [進階版 SKU] 中的授權 
-- AAD條件式存取原則支援<sup>3</sup> 
+- AAD 條件式存取原則支援<sup>3</sup> 
 - Cortana OOBE 中預設啟用語音啟動
 - 遠端 PTZ 控制項支援<sup>4</sup>
 
@@ -139,7 +139,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如[需詳細資訊
 > 
 > 僅Microsoft Teams或商務用 Skype Windows上執行的<sup>2</sup>個Teams會議室和Microsoft Teams (預設) 會更新為新的 [開會] 和 [通話] 體驗，但其他模式不受此更新影響。
 > 
-> <sup>3</sup>請參閱設定[AAD Teams 會議室的條件式存取](../rooms/rooms-authentication.md#azure-ad-conditional-access)原則的新增詳細資料。
+> <sup>3</sup>請參閱為Teams 會議室設定[AAD 條件式存取](../rooms/rooms-authentication.md#azure-ad-conditional-access)原則的新增詳細資料。
 > 
 > <sup>4</sup>這項功能需要 IT 系統管理員設定Teams桌面用戶端遠端 PTZ 控制應用程式。
 > 
@@ -265,7 +265,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如[需詳細資訊
 在此更新中推出：
 
 - 使用直接來賓加入，從 Teams 會議室 加入 Cisco WebEx 會議
-- Teams系統管理中心啟用和自動註冊
+- Teams 管理員中心啟用和自動註冊
 - Windows 10 1909 版本支援
 - 即使在內容出現時，仍可切換到視訊庫版面配置
 - 虛擬舉手支援出席者和簡報者的控制項
@@ -321,7 +321,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如[需詳細資訊
 在此更新中推出：
 
 - 自動接聽近接式通話和系統管理員設定以控制此設定
-- 裝置系統管理員設定 UI 重新整理，在 [關於] 索引標籤下新增裝置設定
+- 裝置管理員 設定 UI 重新整理，在 [關於] 索引標籤下新增裝置設定
 - 會議室控制項回到主畫面
 - GCC 中提供會議室 SKU
 - Surface Pro型系統的內容相機支援 (最低必要應用程式組建：4.2.4.0) 
@@ -350,9 +350,9 @@ Teams 會議室受到現代化生命週期原則的規範。 如[需詳細資訊
 - Skype Room System 市集應用程式重新命名為「Microsoft Teams 會議室」
 - Microsoft Teams 會議室主機使用者介面重新調整為Microsoft Teams
 - 主題更新：只在會議室顯示器前保留自訂背景影像，同時將主機背景設定為中性色彩，以確保主機 UI 控制項符合色彩對比 — 協助工具需求
-- Teams通話/會議的會議內撥號控制通用列，以提供Microsoft Teams電腦/Web/行動用戶端的一致性體驗<sup>1</sup>
-- Teams通話/會議之後的通話品質意見反應評分<sup>1</sup>
-- 從電腦/網路/行動裝置Teams用戶端<sup>1</sup> <sup>2</sup>共用時，在會議室顯示器的Microsoft Teams 會議室前方接收/轉譯Microsoft Whiteboard
+- Teams通話/會議的會議內撥號控制通用列，以提供Microsoft Teams電腦/Web/行動用戶端<sup>1</sup>的一致性體驗
+- Teams通話/會議之後的通話品質意見反應評等<sup>1</sup>
+- 從電腦/Web/行動Teams用戶端<sup>1</sup> <sup>2</sup>共用時，在會議室顯示器的Microsoft Teams 會議室前方接收/轉譯Microsoft Whiteboard
 - 由於Microsoft Teams 會議室用戶端的相容性問題，已移除Windows 10版本 1809 升級的支援。 Windows 10版本 19H1 支援將會在未來的版本中新增
 
 <sup>使用</sup>Teams 環Microsoft Teams 1 個服務推出。 此功能可能早于或晚于 4.0.105.0 用戶端更新提供
@@ -422,7 +422,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如[需詳細資訊
 
 - Teams模式中的「回報問題」功能改進 (相當於商務用 Skype模式中的「提供意見反應」) 
 - 啟用 SIP 通話從Teams回復為商務用 Skype模式的能力
-- 朗讀程式、放大鏡)  (協助工具改進
+-  (朗讀程式、放大鏡) 的協助工具增強功能
 - 套用 XML 布建變更之後，必要時自動重新開機應用程式
 - 其他修正程式
 
@@ -521,7 +521,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如[需詳細資訊
 - 提供公開組建意見反應的能力
 - 改善會議加入的遙測可靠性
 - 改良的 OMS 報告
-- IT 系統管理員遠端設定裝置的能力
+- IT 管理員遠端設定裝置的能力
 
 ### <a name="2020-03152017"></a>2017 年 2 月 15 日 (2.0.2.0) 
 
@@ -537,24 +537,24 @@ Teams 會議室受到現代化生命週期原則的規範。 如[需詳細資訊
  **專為商務用 Skype而建置**
 
 - 單點加入Skype會議
-- Skype會議體驗已針對螢幕填滿 HD 視訊和 HD 寬頻音訊的會議室優化
-- 所有參與者都可以從他們可能所在的位置使用自己選擇的裝置連線至Skype會議
+- Skype 會議使用螢幕填滿 HD 視訊和 HD 寬頻音訊的會議室優化的體驗
+- 所有參與者都可以從他們可能所在的位置使用自己選擇的裝置連線到Skype 會議
 - 從目錄邀請人員，您可以在其中立即查看他們的顯示狀態或透過電話
 - 支援商務用 Skype PSTN 會議和 PSTN 通話，以取代會議室中的獨立會議電話
 
  **轉換任何會議室**
 
-- 專屬Skype會議應用程式，適用于表格觸控控制器中心和大型會議室前方顯示器
+- 專屬Skype 會議專屬的應用程式，適用于表格觸控控制器中心和大型房間前方顯示器
 - 重複使用會議室顯示器或投影機前方的現有投資
 - 適用于所有類型的會議空間，從擁擠的空間到大型會議室
 - 已認證商務用 Skype音訊和視訊裝置適用于各種房間大小
-- 內建有線內充功能可將桌面共用投影到會議室和Skype會議
+- 內建有線內充功能可將桌面共用投影到會議室和Skype 會議
 
  **容易部署、易於管理**
 
 - 當設備偵測到會議室中的人員時，會自動喚醒顯示器的永遠開啟設備
-- 簡易部署和更新 UWP (通用 Windows 平臺) Skype會議應用程式
-- Windows AppLocker 將裝置鎖定至Skype會議應用程式
+- UWP (通用 Windows 平臺) Skype 會議 App 的簡單部署與更新
+- Windows AppLocker 將裝置鎖定至 Skype 會議 應用程式
 - 透過 Intune 和 Configuration Manager (MDM) 以Windows 10 企業版裝置監控和管理
 - Enterprise級可靠性
 - 使用者由於熟悉Skype使用者介面而訓練精力不足

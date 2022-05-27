@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d4fc6e36c0c78bdf86e1384fe6269f292f20deb7
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 35447b432118737821f578ddaee364e780f18e0d
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922824"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675345"
 ---
 # <a name="shifts-data-faq"></a>Shifts 資料常見問題
 
@@ -45,9 +45,9 @@ Shifts 資料會儲存在三個地理位置 () 的其中一個：亞太地區 (A
 
 ## <a name="can-i-access-and-export-or-delete-a-users-personal-data-in-shifts"></a>我可以在 Shifts 中存取及匯出或刪除使用者的個人資料嗎？
 
-Shifts 是一般資料保護規定， (GDPR) 規範。 (稱為資料主體) 對其個人資料採取動作的正式要求稱為資料主體要求 (DSR) 。 您可以在 Shifts 中尋找及處理個人資料，以回應 DSR。
+Shifts 是一般資料保護規定， (GDPR) 規範。  (稱為資料主體) 對其個人資料採取動作的正式要求稱為資料主體要求 (DSR) 。 您可以在 Shifts 中尋找及處理個人資料，以回應 DSR。
 
-您可以在 Microsoft Purview 合規性入口網站中使用內容搜尋電子檔探索工具來搜尋並匯出排程和時鐘資料以Excel。 針對所有其他 Shifts 資料，您可以擷取資料的螢幕擷取畫面。
+您可以在Microsoft Purview 合規性入口網站中使用內容搜尋電子檔探索工具來搜尋排程和時鐘資料，並將資料匯出至Excel。 針對所有其他 Shifts 資料，您可以擷取資料的螢幕擷取畫面。
 
 若要深入瞭解，[請參閱Office 365 GDPR 和 CCPA 的資料主體要求](/microsoft-365/compliance/gdpr-dsr-office365)。
 
@@ -63,7 +63,7 @@ Shifts 是一般資料保護規定， (GDPR) 規範。 (稱為資料主體) 對�
 
 如果 (Microsoft 365群組或Teams) 中的團隊已還原，您可以復原已刪除的排程。
 
-根據預設，已刪除的Microsoft 365組會保留 30 天。 此 30 天期間稱為「虛刪除」，因為您仍然可以還原群組。 若要深入瞭解，請參閱[還原已刪除Microsoft 365群組](/microsoft-365/admin/create-groups/restore-deleted-group?view=o365-worldwide&tabs=admin-center)。
+根據預設，已刪除的Microsoft 365組會保留 30 天。 此 30 天期間稱為「虛刪除」，因為您仍然可以還原群組。 若要深入瞭解，請參閱[還原已刪除Microsoft 365群組](/microsoft-365/admin/create-groups/restore-deleted-group?tabs=admin-center)。
 
 ## <a name="can-i-use-custom-retention-policies-for-shifts-data"></a>我可以針對 Shifts 資料使用自訂保留原則嗎？
 
@@ -77,7 +77,7 @@ Shifts 是一般資料保護規定， (GDPR) 規範。 (稱為資料主體) 對�
 
 ## <a name="what-type-of-encryption-does-shifts-use-for-data-at-rest-and-in-transit"></a>Shifts 在休憩和傳輸中的資料使用何種類型的加密？
 
-Azure Cosmos DB 和 Azure 儲存體會在休息時加密 Shifts 資料。 若要深入瞭解，請參閱[休息時的 Azure 資料加密](/azure/security/fundamentals/encryption-atrest)和[Azure Cosmos DB 中的資料加密](/azure/cosmos-db/database-encryption-at-rest)。
+Shifts 資料會由 Azure Cosmos DB 和 Azure 儲存體 加密。 若要深入瞭解，請參閱[休息時的 Azure 資料加密](/azure/security/fundamentals/encryption-atrest)和[Azure Cosmos DB 中的資料加密](/azure/cosmos-db/database-encryption-at-rest)。
 
 班次遵循Microsoft 365傳輸中資料加密的指導方針。 若要深入瞭解，請參閱資料傳輸 [中的加密](/compliance/assurance/assurance-encryption-in-transit)。
 

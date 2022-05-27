@@ -1,5 +1,5 @@
 ---
-title: 設定直接路由的當地媒體優化
+title: 設定直接路由的本機媒體優化
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,103 +13,98 @@ ms.reviewer: filippse
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 設定直接路由的當地媒體優化
+description: 設定直接路由的本機媒體優化
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 59524c620525505b9fcc19d909f5b4b84cc60720
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: 58cf5f560a22a58cb76ea28389d0dce1e3b3f4fb
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356431"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674875"
 ---
-# <a name="configure-local-media-optimization-for-direct-routing"></a>設定直接路由的當地媒體優化
+# <a name="configure-local-media-optimization-for-direct-routing"></a>設定直接路由的本機媒體優化
 
-本地媒體優化的設定是以其他雲端語音功能所常見的網路設定為基礎，例如Location-Based路由和動態緊急電話。 若要深入瞭解網路區域、網路網站、網路子網和信任的 IP 位址，請參閱雲端 [語音功能的網路設定](cloud-voice-network-settings.md)。
+本機媒體優化的設定是以其他雲端語音功能常見的網路設定為基礎，例如Location-Based路由和動態緊急通話。 若要深入瞭解網路區域、網路網站、網路子網和受信任的 IP 位址，請參閱 [雲端語音功能的網路設定](cloud-voice-network-settings.md)。
 
-設定 Local Media 優化之前，請參閱直接路由 [的當地媒體優化](direct-routing-media-optimization.md)。  
+設定本機媒體優化之前，請參閱 [直接路由的本機媒體優化](direct-routing-media-optimization.md)。
 
-若要設定 Local Media 優化，需要下列步驟。 您可以使用系統管理中心Teams PowerShell。 詳細資料請參閱 [管理您的網路拓撲](manage-your-network-topology.md)。
+若要設定本機媒體優化，必須執行下列步驟。 您可以使用 Teams 管理員 Center 或 PowerShell。 如需詳細資料，請 [參閱管理您的網路拓撲](manage-your-network-topology.md)。
 
-1. 設定使用者和 SBC 網站 (如本文所述) 。
-2. 根據 SBC 廠商規格 (設定 SBC 本地媒體優化) 。
+1. 如本文) 所述，設定使用者和 SBC 網站 (。
+2. 根據您的 SBC 廠商規格 () 設定本機媒體優化的 SBC。
 
-下圖顯示本文中範例中使用的網路設定。
+下圖顯示本文範例中所使用的網路設定。
 
 > [!div class="mx-imgBorder"]
-> ![顯示網路設定範例的圖表。](media/direct-routing-media-op-9.png "範例的網路設定")
-
+> ![顯示範例之網路設定的圖表。](media/direct-routing-media-op-9.png "範例的網路設定")
 
 ## <a name="configure-the-user-and-the-sbc-sites"></a>設定使用者和 SBC 網站
 
 若要設定使用者和 SBC 網站，您必須：
 
-1. [管理外部信任的 IP 位址](#manage-external-trusted-ip-addresses)。  
+1. [管理外部信任的 IP 位址](#manage-external-trusted-ip-addresses)。
 
-2. [建立網路區域、](#define-the-network-topology) 網路網站和網路子網，以定義網路拓撲。
+2. [設定網路](#define-the-network-topology) 區域、網路網站和網路子網來定義網路拓撲。
 
-3. [使用相關的模式](#define-the-virtual-network-topology) 和 proxy SBC 值 (SBC) 網站 (定義) 拓撲。
+3. 將 SBC (的) 指派給具有相關模式和 Proxy SBC 值的網站 () ，以[定義虛擬網路](#define-the-virtual-network-topology)拓撲。
 
 > [!NOTE]
-> 本地媒體優化仰賴用戶端位置被偵測為外部或內部相對於公司網路，可連至直接路由 (DR) 會話邊界控制器 (SBC) 介面。
-> 在分割式 VPN 情況下，當用戶端端點偵測到客戶網路外部時，Microsoft 會向 SBC 發出外部位置的訊號，即使用戶端可以到達客戶直接路由 SBC 的內部介面。 使用 Local Media 優化直接路由客戶可能會遇到通話設定時間過長的問題，在某些情況下，從 PSTN 接聽來電時可能沒有音訊。
-> 為了避免這種情況，VPN 系統管理員必須封鎖遠端 VPN 使用者與直接路由 SBC 內部介面之間的存取。
+> 本機媒體優化仰賴被偵測為外部或內部的用戶端位置，相對於連線到直接路由 (DR) 會話框線控制器 (SBC) 內部介面的公司網路。
+> 在偵測到客戶網路外部的用戶端點時，分割通道 VPN 案例中，即使用戶端可以連線到客戶直接路由 SBC 的內部介面，Microsoft 仍會將外部位置訊號傳送到 SBC。 使用本機媒體優化直接路由的客戶可能會遇到長時間通話設定時間，在某些情況下，從 PSTN 接聽來電時不會出現音訊。
+> 若要避免此問題，VPN 系統管理員必須封鎖遠端 VPN 使用者和直接路由 SBC 內部介面之間的存取。
 
+## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>根據 SBC 廠商規格設定本機媒體優化的 SBC () 
 
-
-## <a name="configure-sbcs-for-local-media-optimization-according-to-the-sbc-vendor-specification"></a>根據 SBC (規格) 設定 SBC) 本地媒體優化
-
-本文將說明 Microsoft 元件的組組。 有關 SBC 組建的資訊，請參閱您的 SBC 廠商檔。 有關哪些 SBC 廠商支援本地媒體優化的資訊，請參閱通過直接路由的會話 [邊界控制器認證](direct-routing-border-controllers.md)。
+本文將說明 Microsoft 元件的設定。 如需 SBC 設定的相關資訊，請參閱您的 SBC 廠商檔。 如需哪些 SBC 廠商支援本機媒體優化的相關資訊，請參閱 [通過直接路由認證的會話框線控制器](direct-routing-border-controllers.md)。
 
 ## <a name="manage-external-trusted-ip-addresses"></a>管理外部信任的 IP 位址
 
-外部信任的 IP 是商業網路的網際網路外部 IP。 這些 IP 是用戶端在Microsoft Teams時所使用的 IP 位址Microsoft 365。 您必須針對每個使用 Local Media 優化的使用者，新增這些外部 IP。
+外部信任的 IP 是商業網路的網際網路外部 IP。 這些 IP 是Microsoft Teams用戶端連線至Microsoft 365時所使用的 IP 位址。 您必須為每個使用者使用本機媒體優化的網站新增這些外部 IP。
 
-若要新增每個網站的公用 IP 位址，請使用 New-CsTenantTrustedIPAddress Cmdlet。 您可以為租使用者定義無限個信任的 IP 位址。 如果使用者看到的外部 IP Microsoft 365 IPv4 和 IPv6 位址，您必須新增這兩種類型的 IP 位址。 針對 IPv4，請使用遮罩 32。 針對 IPv6，請使用遮罩 128。 您可以在 Cmdlet 上指定不同的 MaskBit，以新增個別的外部 IP 位址和外部 IP 子網。
+若要新增每個網站的公用 IP 位址，請使用New-CsTenantTrustedIPAddress Cmdlet。 您可以為租使用者定義無限數目的受信任 IP 位址。 如果Microsoft 365看到的外部 IP 同時為 IPv4 和 IPv6 位址，您必須新增這兩種類型的 IP 位址。 對於 IPv4，請使用遮罩 32。 若是 IPv6，請使用遮罩 128。 您可以在 Cmdlet 上指定不同的 MaskBits，藉此同時新增個別外部 IP 位址和外部 IP 子網。
 
-```
+```powershell
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description>
 ```
 
-
 新增信任 IP 位址的範例。
 
-```
+```powershell
 New-CsTenantTrustedIPAddress -IPAddress 172.16.240.110 -MaskBits 32 -Description "Vietnam site trusted IP"
 New-CsTenantTrustedIPAddress -IPAddress 172.16.240.120 -MaskBits 32 -Description "Indonesia site trusted IP"
 New-CsTenantTrustedIPAddress -IPAddress 172.16.240.130 -MaskBits 32 -Description "Singapore site trusted IP"
 ```
 
-
 ## <a name="define-the-network-topology"></a>定義網路拓撲
 
 本節說明如何定義網路拓撲的網路區域、網路網站和網路子網。
 
-所有參數都是區分大小寫的，因此您必須確保您使用的大小寫與設定期間所使用的大小寫相同。   (例如，GatewaySiteID 值「越南」和「越南」會視為不同的網站。) 
+所有參數都區分大小寫，因此您必須確定使用的大小寫與設定期間使用的大小寫相同。   (例如，GatewaySiteID 值 「越南」 和 「vietnam」 會被視為不同的網站。) 
 
 ### <a name="define-network-regions"></a>定義網路區域
 
-若要定義網路區域，請使用 New-CsTenantNetworkRegion Cmdlet。 RegionID 參數是一個邏輯名稱，代表地區的地理位置，而且沒有相依性或限制。 CentralSite `<site ID>` 參數為選擇性。
+若要定義網路區域，請使用New-CsTenantNetworkRegion Cmdlet。 RegionID 參數是一個邏輯名稱，代表區域的地理位置，沒有相依性或限制。 CentralSite `<site ID>` 參數為選用。
 
 ```powershell
-New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
+New-CsTenantNetworkRegion -NetworkRegionID <region ID>
 ```
 
 下列範例會建立名為 APAC 的網路區域：
 
 ```powershell
-New-CsTenantNetworkRegion -NetworkRegionID "APAC"  
+New-CsTenantNetworkRegion -NetworkRegionID "APAC"
 ```
 
-###  <a name="define-network-sites"></a>定義網路網站
+### <a name="define-network-sites"></a>定義網路網站
 
-若要定義網路網站，請使用 New-CsTenantNetworkSite Cmdlet。 每個網路網站都必須與網路區域相關聯。
+若要定義網路網站，請使用New-CsTenantNetworkSite Cmdlet。 每個網路網站都必須與網路區域建立關聯。
 
 ```powershell
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
 ```
 
-下列範例在亞太地區建立三個新網路網站，越南、印尼和新加坡：
+下列範例會在 APAC 地區建立三個新的網路網站，越南、印尼和新加坡：
 
 ```powershell
 New-CsTenantNetworkSite -NetworkSiteID "Vietnam" -NetworkRegionID "APAC"
@@ -119,7 +114,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Singapore" -NetworkRegionID "APAC"
 
 ### <a name="define-network-subnets"></a>定義網路子網
 
-若要定義網路子網並將其與網路網站建立關聯，請使用 New-CsTenantNetworkSubnet Cmdlet。 每個網路子網只能與一個網站建立關聯。 
+若要定義網路子網並將它們與網路網站建立關聯，請使用New-CsTenantNetworkSubnet Cmdlet。 每個網路子網只能與一個網站相關聯。
 
 ```powershell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
@@ -128,222 +123,210 @@ New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmas
 下列範例定義三個網路子網，並將它們與三個網路網站建立關聯：越南、印尼和新加坡：
 
 ```powershell
-New-CsTenantNetworkSubnet -SubnetID 192.168.1.0 -MaskBits 24 -NetworkSiteID “Vietnam”
-New-CsTenantNetworkSubnet -SubnetID 192.168.2.0 -MaskBits 24 -NetworkSiteID “Indonesia”
-New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID “Singapore”
+New-CsTenantNetworkSubnet -SubnetID 192.168.1.0 -MaskBits 24 -NetworkSiteID "Vietnam"
+New-CsTenantNetworkSubnet -SubnetID 192.168.2.0 -MaskBits 24 -NetworkSiteID "Indonesia"
+New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID "Singapore"
 ```
 
-## <a name="define-the-virtual-network-topology"></a>定義虛擬網路拓撲 
+## <a name="define-the-virtual-network-topology"></a>定義虛擬網路拓撲
 
-首先，租使用者系統管理員會使用 Cmdlet 建立每個相關 SBC 的新 SBC New-CsOnlinePSTNGateway組。
-租使用者系統管理員使用 Cmdlet 指定 PSTN 閘道物件的網路網站，以定義Set-CsOnlinePSTNGateway拓撲：
+首先，租使用者系統管理員會使用 New-CsOnlinePSTNGateway Cmdlet，為每個相關的 SBC 建立新的 SBC 設定。
+租使用者系統管理員使用 Set-CsOnlinePSTNGateway Cmdlet 來指定 PSTN 閘道物件的網路網站，藉此定義虛擬網路拓撲：
 
 ```powershell
 PS C:\> Set-CsOnlinePSTNGateway -Identity <Identity> -GatewaySiteID <site ID> -MediaBypass <true/false> -BypassMode <Always/OnlyForLocalUsers> -ProxySBC  <proxy SBC FQDN or $null>
 ```
 
-注意下列事項： 
-   - 如果客戶有單一 SBC，則 -ProxySBC 參數必須是強制 $null 或 SBC FQDN 值 (具有集中式主幹案例的集中式 SBC) 。
-   - -MediaBypass 參數必須設為 $true才能支援 Local Media 優化。
-   - 如果 SBC 未設定 -BypassMode 參數，將不會送出 X-MS 標頭。 
-   - 所有參數都是區分大小寫的，因此您必須確保您使用的大小寫與設定期間所使用的大小寫相同。   (例如，GatewaySiteID 值「越南」和「越南」會視為不同的網站。) 
+注意下列事項：
 
-下列範例會將三個 SBC 新越南 APAC 地區的網路網站中，且模式永遠會忽略：
+- 如果客戶擁有單一 SBC，則 -ProxySBC 參數必須是具有集中式主幹案例的強制$null或 SBC FQDN 值 (集中式主幹) 。
+- -MediaBypass 參數必須設定為 $true，才能支援本機媒體優化。
+- 如果 SBC 未設定 -BypassMode 參數，將不會傳送 X-MS 標頭。
+- 所有參數都區分大小寫，因此您必須確定使用的大小寫與設定期間使用的大小寫相同。   (例如，GatewaySiteID 值 「越南」 和 「vietnam」 會被視為不同的網站。) 
+
+下列範例將三個 SBC 新增至 APAC 地區的網路網站越南、印尼和新加坡，且模式一律略過：
 
 ```powershell
-Set-CSOnlinePSTNGateway -Identity “proxysbc.contoso.com” -GatewaySiteID “Singapore” -MediaBypass $true -BypassMode “Always” -ProxySBC $null
+Set-CSOnlinePSTNGateway -Identity "proxysbc.contoso.com" -GatewaySiteID "Singapore" -MediaBypass $true -BypassMode "Always" -ProxySBC $null
 
-Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Vietnam” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
+Set-CSOnlinePSTNGateway -Identity "VNsbc.contoso.com" -GatewaySiteID "Vietnam" -MediaBypass $true -BypassMode "Always" -ProxySBC "proxysbc.contoso.com"
 
-Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indonesia” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
+Set-CSOnlinePSTNGateway -Identity "IDsbc.contoso.com" -GatewaySiteID "Indonesia" -MediaBypass $true -BypassMode "Always" -ProxySBC "proxysbc.contoso.com"
 ```
 
 > [!NOTE]
-> 若要確保同時設定本地媒體優化和 Location-Based 路由 (LBR) 時不間斷地執行作業，必須將 GatewaySiteLbrEnabled 參數設定為 $true，讓 LBR 啟用下游 SBC。  (Proxy SBC.) 
+> 若要確保當同時設定本機媒體優化和Location-Based路由 (LBR) 時，LBR 作業不會中斷，您必須將 GatewaySiteLbrEnabled 參數設定為每個下游 SBC 的$true，以針對 LBR 啟用下限 SB。  (Proxy SBC.) 此設定並非必要設定
 
-根據上述資訊，直接路由會包含三個專屬的 SIP 標題至 SIP 邀請和重新邀請，如下表所示。
+根據上述資訊，直接路由將包含三個 SIP 標頭至 SIP 邀請和重新邀請，如下表所示。
 
-如果已定義 BypassMode，在邀請和 Re-Invites直接路由中引入的 X-MS 標頭：
+在 [邀請] 上的直接路由中導入 X-MS 標題，如果已定義 BypassMode，Re-Invites：
 
-| 標題名稱 | 值 | 註解 | 
-|:------------|:-------|:-------|
-| X-MS-UserLocation | 內部/外部 | 指出使用者是內部使用者還是外部使用者 |
-| 要求-URI 邀請 sip：+84439263000@VNsbc.contoso.com SIP /2.0 | SBC FQDN | 目標為通話的 FQDN，即使 SBC 未直接連接到直接路由 |
-| X-MS-MediaPath | 範例：proxysbc.contoso.com、VNsbc.contoso.com | 應該用於使用者和目標 SBC 之間媒體路徑的 SBC 順序。 最後一個 SBC 永遠為最後一個 |
-| X-MS-UserSite | usersiteID | 租使用者系統管理員定義的字串 |
+|頁首名稱|值|註解|
+|---|---|---|
+|X-MS-UserLocation|內部/外部|指出使用者是否為內部或外部|
+|Request-URI INVITE sip： +84439263000@VNsbc.contoso.com SIP /2.0|SBC FQDN|即使 SBC 未直接連線到直接路由，也會以通話為目標的 FQDN|
+|X-MS-MediaPath|範例：proxysbc.contoso.com、VNsbc.contoso.com|應用於使用者與目標 SBC 之間媒體路徑的 SBC 順序。 最後的 SBC 永遠都是最後一個|
+|X-MS-UserSite|usersiteID|由租使用者系統管理員定義的字串|
 
-## <a name="call-flows"></a>通話流程 
+## <a name="call-flows"></a>通話流量
 
-下列顯示兩種模式的通話流程：
+下列顯示兩種模式的通話流量：
 
-- [一直忽略](#always-bypass-mode)
-- [僅適用于當地使用者](#only-for-local-users-mode)
+- [一律略過](#always-bypass-mode)
+- [僅適用于本機使用者](#only-for-local-users-mode)
 
-### <a name="always-bypass-mode"></a>永遠忽略模式
+### <a name="always-bypass-mode"></a>一律略過模式
 
-永遠忽略模式是最簡單的設定選項。 租使用者系統管理員可以設定所有使用者和 SBC 的單一網站，只要所有 SBCs 都可以從任何網站取得。
+[永遠略過模式] 是最簡單的設定選項。 如果所有 SB 都可從任何網站連線，租使用者系統管理員可以為所有使用者和 SBC 設定單一網站。
 
-這些範例顯示下列案例的一直忽略模式：
+範例顯示下列案例的一律略過模式：
 
-- [外發通話與使用者位於 SBC 相同的位置](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
-- [來電和使用者位於 SBC 相同的位置](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
-- [外接通話和使用者是外部使用者](#outbound-calls-and-the-user-is-external-with-always-bypass)
-- [來電和使用者是外部使用者](#inbound-calls-and-the-user-is-external-with-always-bypass)
+- [撥出電話，且使用者與 SBC 位於同一個位置](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
+- [輸入通話，且使用者與 SBC 位於同一個位置](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)
+- [撥出電話，且使用者是外部使用者](#outbound-calls-and-the-user-is-external-with-always-bypass)
+- [輸入電話，且使用者是外部使用者](#inbound-calls-and-the-user-is-external-with-always-bypass)
 
 下表顯示範例中使用的 FQDN 和 IP 位址：
 
-| FQDN | SBC 外部 IP 位址 | SBC 內部 IP 位址 | 內部子網 | 位置 | 外部 NAT (信任的 IP)  |
-|:------------|:-------|:-------|:-------|:-------|:-------|
-| VNsbc.contoso.com | 無 | 192.168.1.5 | 192.168.1.0/24 | 越南 | 172.16.240.110 |
-| IDsbc.contoso.com | 無 | 192.168.2.5 | 192.168.2.0/24 | 印尼 | 172.16.240.120 |
-| proxysbc.contoso.com | 172.16.240.133 | 192.168.3.5 | 192.168.3.0/24 | 新加坡 | 172.16.240.130 |
+|FQDN|SBC 外部 IP 位址|SBC 內部 IP 位址|內部子網|位置|外部 NAT (信任的 IP) |
+|---|---|---|---|---|---|
+|VNsbc.contoso.com|無|192.168.1.5|192.168.1.0/24|越南|172.16.240.110|
+|IDsbc.contoso.com|無|192.168.2.5|192.168.2.0/24|印尼|172.16.240.120|
+|proxysbc.contoso.com|172.16.240.133|192.168.3.5|192.168.3.0/24|新加坡|172.16.240.130|
 
+#### <a name="outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass"></a>撥出電話，且使用者與 SBC 使用 Always Bypass 位於同一個位置
 
+|模式|使用者|位置|撥號方向|
+|---|---|---|---|
+|AlwaysBypass|內部|與 SBC 相同的網站|出境|
 
-#### <a name="outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass"></a>外發通話和使用者位於 SBC 的同一個位置，且有一直旁路
+下表顯示使用者設定和動作：
 
-| 模式 |    使用者 |  位置 |  通話方向 |
-|:------------|:-------|:-------| :-------|
-| AlwaysBypass |    內部 |  與 SBC 相同的網站 |  出境 |
+|使用者實體位置|使用者撥打或接聽來電至/接聽號碼|使用者電話號碼|線上語音路由原則|為 SBC 設定模式|
+|---|---|---|---|---|
+|越南|+84 4 3926 3000|+84 4 5555 5555|優先順序 1：^ \+ 84 (\d {9}) $ -VNsbc.contoso.com <br> 優先順序 2：.* - proxysbc.contoso.com|VNsbc.contoso.com – 永遠略過 <br> proxysbc.contoso.com – 永遠略過|
 
-下表顯示使用者組組和動作：
-
-| 使用者實際位置| 使用者撥打或接收來電到/從號碼 | 使用者電話號碼  | 線上語音路由策略 | 為 SBC 所配置的模式 |
-|:------------|:-------|:-------|:-------|:-------|
-| 越南 | +84 4 3926 3000 | +84 4 5555 5555   | 優先順序 1：^ \+ 84 (\d) {9} $ -VNsbc.contoso.com <br> 優先順序 2：.* - proxysbc.contoso.com   | VNsbc.contoso.com – 永遠忽略 <br> proxysbc.contoso.com – 永遠忽略
-
-
-下圖顯示使用 Always 旁路模式的外發通話的 SIP 梯級，以及使用者與 SBC 相同的位置。
+下圖顯示輸出通話的 SIP 標準為 Always 略過模式，且使用者與 SBC 位於同一個位置。
 
 > [!div class="mx-imgBorder"]
-> ![顯示外線通話的圖表。](media/direct-routing-media-op-10.png "外接通話")
+> ![顯示撥出通話的圖表。](media/direct-routing-media-op-10.png "撥出電話")
 
-下表顯示直接路由傳送的 X-MS 標頭：
+下表顯示由直接路由傳送的 X-MS 標頭：
 
-| 參數 | 解釋 |
-|:------------|:-------|
-| 邀請 +8443926300@VNsbc.contoso.com | 在線上語音路由策略中定義的 SBC 目標 FQDN 會以要求 URI 傳送 | 
-| X-MS-UserLocation：內部 | 該欄位表示使用者位於公司網路內 |
-| X-MS-MediaPath：VNsbc.contoso.com |   指定用戶端必須橫穿到目標 SBC 的 SBC。 在此案例中，我們一直有旁路，而用戶端是內部的目標名稱，作為標題中的唯一名稱。 | 
-|X-MS-UserSite：越南 |   使用者所在的網站內所指示的欄位。 |
+|參數|解釋|
+|---|---|
+|邀請 +8443926300@VNsbc.contoso.com|如線上語音路由原則中所定義，SBC 的目標 FQDN 會在要求 URI 中傳送|
+|X-MS-UserLocation：內部|指出使用者位於公司網路內的欄位|
+|X-MS-MediaPath：VNsbc.contoso.com|指定用戶端必須周轉至目標 SBC 的 SBC。 在此情況下，因為我們有 Always Bypass，且用戶端是內部傳送為標頭中的唯一名稱的目標名稱。|
+|X-MS-UserSite：越南|使用者所在網站內所指示的欄位。|
 
+#### <a name="inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass"></a>輸入電話，且使用者與 SBC 使用 Always Bypass 位於同一個位置
 
-#### <a name="inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass"></a>來電和使用者位於 SBC 的同一個位置，且有一直旁路
+|模式|使用者|位置|撥號方向|
+|---|---|---|---|---|
+|AlwaysBypass|內部|與 SBC 相同的網站|入境|
 
-| 模式 |    使用者 |  位置 |  通話方向 |
-|:------------|:-------|:-------|:-------|:-------|
-| AlwaysBypass |    內部 | 與 SBC 相同的網站 | 入境 |
+在輸入通話中，使用者的位置為未知，且 SBC 必須猜測使用者的位置。 如果猜測不正確，則需要重新邀請。 此案例假設使用者是內部使用者、媒體可以直接流程，而且不需要進行其他動作 (重新邀請) 。
+連線至直接路由服務的 SBC 會提供Record-Route和連絡人欄位，以回報原始 SBC 位置。 根據這些欄位，媒體路徑是由直接路由計算。
 
+注意：如果使用者可以有多個端點，就無法支援 183。 在此情況下，直接路由一律會使用 180 響鈴。
 
-在輸入通話中，使用者的位置不明，SBC 必須猜測使用者的位置。 如果猜測不正確，將會需要重新邀請。 此案例假設使用者是內部使用者，媒體可以直接流動，而且不需要執行其他動作 (重新邀請) 。
-連結至直接路由服務的 SBC 會提供 Record-Route和連絡人欄位，以報告原始 SBC 位置。 根據這些欄位，媒體路徑是由直接路由計算。
-
-注意：由於使用者可以有多個端點，因此無法支援 183。 在這種情況下，直接路由一定會使用 180 響鈴。 
-
-下圖顯示使用 AlwaysBypass 模式進行輸入通話的 SIP 梯級，且使用者的位置與 SBC 相同。
+下圖顯示搭配 AlwaysBypass 模式進行輸入通話的 SIP，且使用者與 SBC 位於同一個位置。
 
 > [!div class="mx-imgBorder"]
-> ![顯示 SIP 梯形圖的圖表。](media/direct-routing-media-op-11.png)
+> ![顯示 SIP 記憶體的圖表。](media/direct-routing-media-op-11.png)
 
+#### <a name="outbound-calls-and-the-user-is-external-with-always-bypass"></a>撥出電話，且使用者使用 Always Bypass 的外部
 
-#### <a name="outbound-calls-and-the-user-is-external-with-always-bypass"></a>外接通話，且使用者是外部使用者，且使用 Always Bypass
+|模式|使用者|網站|撥號方向
+|---|---|---|---|
+|AlwaysBypass|外部|不適用|出境|
 
-| 模式 |    使用者 |  網站 |  通話方向
-|:------------|:-------|:-------|:-------|
-AlwaysBypass |  外部 |  不適用 | 出境 |
-
-
-下圖顯示使用 AlwaysBypass 模式的外發通話的 SIP 梯級，且使用者為外部使用者：
+下圖顯示以 AlwaysBypass 模式輸出通話的 SIP 預留位置，且使用者是外部使用者：
 
 > [!div class="mx-imgBorder"]
-> ![圖表顯示 SIP 梯形圖。](media/direct-routing-media-op-12.png)
+> ![圖表顯示 SIP 的特性。](media/direct-routing-media-op-12.png)
 
-下表顯示直接路由服務傳送的 X-MS 標頭：
+下表顯示直接路由服務所傳送的 X-MS 標頭：
 
-| 參數 |   解釋 |
-|:------------|:-------|
-|邀請 +8443926300@VNsbc.contoso.com | 在線上語音路由策略中定義的 SBC 目標 FQDN 會傳送至要求 URI。|
-| X-MS-UserLocation：外部 | 該欄位表示使用者位於公司網路外部。 |
-| X-MS-MediaPath：proxysbc.contoso.com，VNsbc.contoso.com    | 指定用戶端必須橫穿到目標 SBC 的 SBC。 在此案例中，我們一直有旁路，而且用戶端是外部的。 |
+|參數|解釋|
+|---|---|
+|邀請 +8443926300@VNsbc.contoso.com|如線上語音路由原則中所定義，SBC 的目標 FQDN 會在要求 URI 中傳送。|
+|X-MS-UserLocation：外部|表示使用者位於公司網路外部的欄位。|
+|X-MS-MediaPath：proxysbc.contoso.com、VNsbc.contoso.com|指定用戶端必須周轉至目標 SBC 的 SBC。 在此情況下，因為我們有 Always Bypass，且用戶端是外部用戶端。|
 
-#### <a name="inbound-calls-and-the-user-is-external-with-always-bypass"></a>輸入通話，且使用者是外部使用者，且使用一直旁路
+#### <a name="inbound-calls-and-the-user-is-external-with-always-bypass"></a>輸入電話，且使用者使用 Always Bypass 的外部電話
 
-| 模式 | 使用者 | 網站 |  通話方向 |
-|:------------|:-------|:-------|:-------|
-AlwaysBypass |  外部 |  不適用 |   入境 |
+|模式|使用者|網站|撥號方向|
+|---|---|---|---|
+|AlwaysBypass|外部|不適用|入境|
 
-如果是輸入通話，連接到直接路由的 SBC 必須傳送重新邀請 (根據預設，如果使用者的位置是外部) 則一向會提供本地媒體候選者。  X-MediaPath 是根據指定Record-Route SBC 使用者所計算。
+對於輸入通話，連線到直接路由的 SBC 預設需要傳送重新邀請 (，如果使用者的位置是外部媒體，一律會提供本機媒體候選項目) 。  X-MediaPath 是根據Record-Route和指定的 SBC 使用者來計算。
 
-下圖顯示使用 AlwaysBypass 模式的輸入通話的 SIP 梯形圖，且使用者是外部使用者。
-
-> [!div class="mx-imgBorder"]
-> ![再次顯示 SIP 梯形圖。](media/direct-routing-media-op-13.png)
-
-
-### <a name="only-for-local-users-mode"></a>僅適用于本地使用者模式
-
-只有在使用者與 SBC 位於同一個位置時，才能提供目標 SBC 的當地媒體候選者。 在所有其他情況下，媒體會透過 Proxy SBC 的內部或外部 IP 進行。
-
-描述下列案例：
-
-- [外發通話與使用者位於 SBC 相同的位置](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users)
-- [來電和使用者位於 SBC 相同的位置](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users)
-- [使用者與 SBC 不在同一個位置，但位於公司網路中](#user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users)
-- [來電和使用者是內部通話，但與 SBC 不在同一個位置](#inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users)
-
-下表顯示使用者組組和動作：
-
-| 使用者實際位置 |  使用者撥打或接收來電到/從號碼 |  使用者電話號碼 | 線上語音路由策略 |   為 SBC 所配置的模式 |
-|:------------|:-------|:-------|:-------|:-------|
-| 越南 | +84 4 3926 3000 |  +84 4 5555 5555 | 優先順序 1：^ \+ 84 (\d) {9} $ -VNsbc.contoso.com <br> 優先順序 2：.* - proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com – 永遠忽略 |
-
-#### <a name="outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>外發通話和使用者位於 SBC 的同一個位置，且僅適用于當地使用者
-
-| 模式 | 使用者 | 網站 | 通話方向 |
-|:------------|:-------|:-------|:-------|
-| OnlyForLocalUsers |   內部 |與 SBC 相同   | 出境 |
-
-下圖顯示 OnlyForLocalUsers 模式的外發通話，而使用者的位置與 SBC 相同。 當使用者位於與 SBC 相同的位置時，此流程會顯示在外接 [通話中](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)。
+下圖顯示具有 AlwaysBypass 模式之輸入通話的 SIP 預留位置，且使用者是外部使用者。
 
 > [!div class="mx-imgBorder"]
-> ![圖表再次顯示 SIP 梯形圖。](media/direct-routing-media-op-14.png)
+> ![再次顯示 SIP 的圖表。](media/direct-routing-media-op-13.png)
 
+### <a name="only-for-local-users-mode"></a>僅適用于本機使用者模式
 
-#### <a name="inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>來電和使用者位於 SBC 的同一個位置，且僅適用于當地使用者
+只有在使用者與 SBC 位於相同位置時，才能提供目標 SBC 的本機媒體候選字。 在所有其他情況下，媒體會流經 Proxy SBC 的內部或外部 IP。
 
-| 模式 | 使用者 | 網站 | 通話方向 |
-|:------------|:-------|:-------|:-------|
-| OnlyForLocalUsers |   內部 | 與 SBC 相同 | 入境 |
+以下是描述的案例：
 
-下圖顯示使用 OnlyForLocalUsers 模式的輸入通話，而使用者的位置與 SBC 相同。 當使用者位於與 SBC 相同的位置時，此流程與 [輸入通話中顯示的流程相同](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)。
+- [撥出電話，且使用者與 SBC 位於同一個位置](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users)
+- [輸入通話，且使用者與 SBC 位於同一個位置](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users)
+- [使用者的位置與 SBC 不同，但位於公司網路中](#user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users)
+- [輸入通話，且使用者是內部使用者，但位置與 SBC 不同](#inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users)
 
-> [!div class="mx-imgBorder"]
-> ![另一個顯示 SIP 梯形圖的圖表。](media/direct-routing-media-op-15.png)
+下表顯示使用者設定和動作：
 
+|使用者實體位置|使用者撥打或接聽來電至/接聽號碼|使用者電話號碼|線上語音路由原則|為 SBC 設定模式|
+|---|---|---|---|---|
+|越南|+84 4 3926 3000|+84 4 5555 5555|優先順序 1：^ \+ 84 (\d {9}) $ -VNsbc.contoso.com <br> 優先順序 2：.* - proxysbc.contoso.com|VNsbc.contoso.com – 只有ForLocalUsers Proxysbc.contoso.com – 永遠略過|
 
-#### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>使用者與 SBC 不在同一個位置，但位於公司網路中，只有當地使用者才能使用
+#### <a name="outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>撥出電話與使用者所在的位置與 SBC 相同，僅限本機使用者
 
-| 模式 | 使用者 | 網站 |通話方向 |
-|:------------|:-------|:-------|:-------|
-| OnlyForLocalUsers  | 內部 |   與 SBC 不同 | 出境 |
+|模式|使用者|網站|撥號方向|
+|---|---|---|---|
+|OnlyForLocalUsers|內部|與 SBC 相同|出境|
 
-直接路由會根據使用者的報告位置，以及 SBC 上所配置的模式來計算 X-MediaPath。
-
-
-下圖顯示使用 OnlyForLocalUsers 模式的外發通話，以及與 SBC 不在同一個位置的內部使用者。
-
-> [!div class="mx-imgBorder"]
-> ![另一個圖表顯示 SIP 梯形圖。](media/direct-routing-media-op-16.png)
-
-
-#### <a name="inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users"></a>輸入通話與使用者為內部，但位置與 SBC 不在同一個位置，且只供當地使用者使用
-
-| 模式 |    使用者 |  網站 |  通話方向 |
-|:------------|:-------|:-------|:-------|
-| OnlyForLocalUsers | 內部 |    與 SBC 不同 |    入境 |
-
-下圖顯示使用 OnlyForLocalUsers 模式的輸入通話，以及與 SBC 不在同一個位置的內部使用者。
+下圖顯示只有ForLocalUsers 模式的撥出通話，且使用者與 SBC 位於同一個位置。 當 [使用者與 SBC 位於同一個位置時，就會在撥出通話中顯示相同的](#outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)流程。
 
 > [!div class="mx-imgBorder"]
-> ![另一個顯示 SIP 梯形圖的圖表。](media/direct-routing-media-op-17.png)
+> ![圖表再次顯示 SIP 自訂。](media/direct-routing-media-op-14.png)
 
+#### <a name="inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>輸入電話與使用者所在的位置與 SBC 相同，僅適用于本機使用者
+
+|模式|使用者|網站|撥號方向|
+|---|---|---|---|
+|OnlyForLocalUsers|內部|與 SBC 相同|入境|
+
+下圖顯示只有ForLocalUsers 模式的輸入通話，且使用者與 SBC 位於同一個位置。 這與 [使用者位於 SBC 相同位置時，輸入通話中顯示的流程相同](#inbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-always-bypass)。
+
+> [!div class="mx-imgBorder"]
+> ![另一個顯示 SIP 特性圖表。](media/direct-routing-media-op-15.png)
+
+#### <a name="user-is-not-at-the-same-location-as-the-sbc-but-is-in-the-corporate-network-with-only-for-local-users"></a>使用者的位置與 SBC 不同，但僅限本機使用者在公司網路中
+
+|模式|使用者|網站|撥號方向|
+|---|---|---|---|
+|OnlyForLocalUsers|內部|與 SBC 不同|出境|
+
+直接路由會根據在 SBC 上所報告的使用者位置和模式來計算 X-MediaPath。
+
+下圖顯示只有ForLocalUsers 模式的撥出通話，以及與 SBC 不同位置的內部使用者。
+
+> [!div class="mx-imgBorder"]
+> ![另一個圖表顯示 SIP 的特性。](media/direct-routing-media-op-16.png)
+
+#### <a name="inbound-call-and-the-user-is-internal-but-is-not-at-the-same-location-as-the-sbc-with-only-for-local-users"></a>輸入通話，且使用者是內部使用者，但與 SBC 不同，僅限本機使用者
+
+|模式|使用者|網站|撥號方向|
+|---|---|---|---|
+|OnlyForLocalUsers|內部|與 SBC 不同|入境|
+
+下圖顯示只有ForLocalUsers 模式的輸入通話，以及與 SBC 不同位置的內部使用者。
+
+> [!div class="mx-imgBorder"]
+> ![還有另一個顯示 SIP 存取的圖表。](media/direct-routing-media-op-17.png)

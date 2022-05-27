@@ -16,16 +16,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e57686e2decb5b2d663f75f1ad7884220a9ff4c2
-ms.sourcegitcommit: 1d990582e2deb5f55ba9adada3e17377f792a141
+ms.openlocfilehash: 38698179e2a3b4c6ca402190c98f89f329820d6e
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/19/2022
-ms.locfileid: "64922804"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65675405"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Microsoft Teams 中的資訊障礙
 
-[Microsoft 許可權資訊障礙](/microsoft-365/compliance/information-barriers) (IB) 是系統管理員可以設定的原則，可防止個人或群組彼此通訊。 例如，如果某個部門處理的資訊不應該與其他部門共用，IB 就很有用。 當群組需要隔離或無法與該群組以外的任何人通訊時，IB 也很有用。 Microsoft Teams中的共用頻道受到資訊障礙的支援。 根據共用類型而定，資訊障礙原則可能會以特定方式限制共用。 如需共用頻道和資訊障礙行為的詳細資訊，請參閱 [資訊障礙和共用頻道](information-barriers-shared-channels.md)。
+[Microsoft Purview資訊障礙](/microsoft-365/compliance/information-barriers) (IB) 是系統管理員可以設定的原則，以防止個人或群組彼此通訊。 例如，如果某個部門處理的資訊不應該與其他部門共用，IB 就很有用。 當群組需要隔離或無法與該群組以外的任何人通訊時，IB 也很有用。 Microsoft Teams中的共用頻道受到資訊障礙的支援。 根據共用類型而定，資訊障礙原則可能會以特定方式限制共用。 如需共用頻道和資訊障礙行為的詳細資訊，請參閱 [資訊障礙和共用頻道](information-barriers-shared-channels.md)。
 
 對於Microsoft Teams，資訊障礙可以判斷並防止下列類型的未經授權共同作業：
 
@@ -37,7 +37,7 @@ ms.locfileid: "64922804"
 
 >[!NOTE]
 >- 資訊隔闔群組無法在租使用者之間建立。
->- 第 1 版不支援使用 Bot、Azure Active Directory (Azure AD) 應用程式、API 來傳送活動摘要通知，以及使用某些 API 來新增使用者。
+>- 在版本 1 中不支援使用 Bot、Azure Active Directory (Azure AD) 應用程式、API 來傳送活動摘要通知，以及部分新增使用者的 API。
 >- 私人頻道符合您設定的資訊障礙原則。
 >- 如需連線至Teams之SharePoint網站障礙的支援相關資訊，請參閱[與Microsoft Teams網站相關聯的區段](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)。
 
@@ -67,14 +67,14 @@ IB 的主要驅動程式來自金融服務產業。 財務產業監管局 ([FINR
 
 ## <a name="managing-information-barrier-policies"></a>管理資訊隔隔原則
 
-Microsoft Purview 合規性入口網站 (SCC) 使用 PowerShell Cmdlet 管理 IB 原則。 如需詳細資訊，請參閱 [定義資訊障礙的原則](/office365/securitycompliance/information-barriers-policies)。
+系統會在 Microsoft Purview 合規性入口網站 (SCC) 中使用 PowerShell Cmdlet 來管理 IB 原則。 如需詳細資訊，請參閱 [定義資訊障礙的原則](/office365/securitycompliance/information-barriers-policies)。
 
 >[!IMPORTANT]
 >在設定或定義原則之前，您必須在 Microsoft Teams 中啟用限定範圍的目錄搜尋。 啟用範圍目錄搜尋後，請至少等候幾個小時，然後再設定或定義資訊障礙的原則。 如需詳細資訊，請參閱 [定義資訊隔隔原則](/office365/securitycompliance/information-barriers-policies#prerequisites)。
 
 ## <a name="information-barriers-administrator-role"></a>資訊障礙系統管理員角色
 
-IB 合規性管理角色負責管理 IB 原則。 如需此角色的詳細資訊，請參閱 [Microsoft Purview 合規性入口網站中的許可權](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
+IB 合規性管理角色負責管理 IB 原則。 如需此角色的詳細資訊，請參[閱Microsoft Purview 合規性入口網站中的許可權](/office365/securitycompliance/permissions-in-the-security-and-compliance-center)。
 
 ## <a name="information-barrier-triggers"></a>資訊隔隔觸發程式
 

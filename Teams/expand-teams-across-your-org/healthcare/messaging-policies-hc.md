@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: 了解如何為可能包含讀信回條和優先通知的 Microsoft Teams 自訂安全訊息原則。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ededfabcca1ab61ec822f201502658f4d8ac498a
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: c450bb298e0a0e01440442d0813708048005a652
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045515"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674865"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>適用於醫療保健組織的安全郵件傳遞
 
@@ -37,11 +37,11 @@ ms.locfileid: "60045515"
 
 您可以輕鬆在 [Microsoft Teams 系統管理中心](https://admin.teams.microsoft.com)管理原則，方法是使用系統管理員認證登入，並選擇左側瀏覽窗格中的 [訊息原則 **]**。
 
- :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="訊息策略頁面的螢幕擷取畫面。" lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
+ :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="[訊息原則] 頁面的螢幕擷取畫面。" lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
  
  若要編輯組織的現有預設訊息原則，請按一下 [全域 (全組織預設值)**]**，然後進行您的變更。 若要建立新的自訂訊息原則，請按一下 [新增 **]**，然後選取您的設定。 完成後，請選擇 [儲存 **]**。
 
-![訊息策略設定螢幕擷取畫面。](../../media/hc-messaging-policy.png)
+![訊息原則設定的螢幕擷取畫面。](../../media/hc-messaging-policy.png)
 
 下列設定與醫療保健應用程式特別相關，在設計用於醫療保健領域的自訂原則時，應該考慮：
 

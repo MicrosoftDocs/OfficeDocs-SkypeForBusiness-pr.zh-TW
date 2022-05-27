@@ -17,18 +17,18 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a00561f10e78a18acc146df4ed8a76b103c937c9
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: b6fb93bf7f8e3278ba4fba16604769c6f8f10e36
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514564"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681604"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>登入 Microsoft Teams
 
 ## <a name="windows-users"></a>Windows 使用者
 
-Microsoft 建議組織使用最新版本的 Windows 10，內含有混合式網域加入或 Azure AD 加入設定。使用最近的版本能確保在 Windows 網頁帳戶管理員中已將使用者的帳戶準備好，進而讓您以單一的方式登入 Teams 和其他 Microsoft 應用程式。單一登入可提供更好的使用者體驗 (無訊息式登入) 和加強的安全性狀況。
+Microsoft 建議組織使用最新版本的 Windows 10，內含有混合式網域加入或 Azure AD 加入設定。 使用最近的版本能確保在 Windows 網頁帳戶管理員中已將使用者的帳戶準備好，進而讓您以單一的方式登入 Teams 和其他 Microsoft 應用程式。 單一登入可提供更好的使用者體驗 (無訊息式登入) 和加強的安全性狀況。
 
 Microsoft Teams 使用新式驗證讓登入體驗更加簡單可靠。若要瞭解使用者如何登入 Teams，請閱讀[登入 Teams](https://support.office.com/article/sign-in-to-teams-ea4b1443-d11b-4791-8ae1-9977e7723055)。
 
@@ -84,7 +84,7 @@ iOS 和 Android 版 Teams 支援多個公司、學校和多個個人帳戶並行
 
 ## <a name="restrict-sign-in-to-teams"></a>限制登入 Teams
 
-組織可能會想要限制在受管理的裝置上使用公司核准應用程式的方式，例如，限制學生或員工從其他組織存取資料，或將公司核准的應用程式用作個人使用的情況。可以透過設定 Teams 應用程式識別的 [裝置原則]，以強制執行這些限制。
+組織可能會想要限制在受管理的裝置上使用公司核准應用程式的方式，例如，限制學生或員工從其他組織存取資料，或將公司核准的應用程式用作個人使用的情況。 可以透過設定 Teams 應用程式可識別的裝置原則來強制執行這些限制。
 
 ### <a name="how-to-restrict-sign-in-on-mobile-devices"></a>如何在行動裝置上限制登入
 

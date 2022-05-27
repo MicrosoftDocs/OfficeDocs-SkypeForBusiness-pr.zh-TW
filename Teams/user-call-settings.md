@@ -22,21 +22,19 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 瞭解如何設定來電轉接和委派的使用者設定。
-ms.openlocfilehash: 360be8c46418abba1419b94678dd87666e280269
-ms.sourcegitcommit: 3cb40132e36717dfbdc6dfe83e7ea319f3ec9347
+ms.openlocfilehash: 41d954f468166fd8600601f98ea98d5be129eccd
+ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65465484"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65681994"
 ---
 # <a name="configure-call-settings-for-your-users"></a>為您的使用者設定通話設定
 
 本文說明系統管理員如何變更使用者的來電轉接和委派設定。 您可能會想要變更這些設定，例如：：
 
 - 使用者已休假，您必須確保轉接給使用者的來電給同事。
-
 - 您需要檢查部門中所有使用者的來電轉接設定，並視需要加以修正。
-
 - 已雇用新的助理，您必須將助理新增為一組員工的代理人。
 
 您可以使用Teams系統管理中心或Teams PowerShell Cmdlet 來檢視及變更使用者的通話設定。
@@ -45,7 +43,7 @@ ms.locfileid: "65465484"
 
 ## <a name="use-the-teams-admin-center"></a>使用Teams系統管理中心
 
-您可以使用Teams系統管理中心為您的使用者設定來電轉接和未接聽的設定、群組通話接聽，以及通話委派。 
+您可以使用Teams系統管理中心為您的使用者設定來電轉接和未接聽的設定、群組通話接聽，以及通話委派。
 
 若要設定立即來電轉接設定：
 
@@ -61,21 +59,15 @@ ms.locfileid: "65465484"
 
 通話委派和群組通話接聽的設定會整合到來電轉接和未接聽的設定中，方法是選取適當的類型。 例如，若要設定通話也應撥打給使用者的代理人，請在同一頁面上選取 [也允許] 下的 [**通話委****派]**。 然後選取 [ **新增人員** ]，然後按一下 [儲存 **]**，以新增適當的代理人。
 
-
 ## <a name="use-powershell"></a>使用 PowerShell
 
 您可以使用 PowerShell 為使用者設定來電轉接和委派設定。  您將使用下列 Cmdlet，可在 Teams PowerShell 模組 4.0 或更新版本中使用：
 
-- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) - 顯示使用者的來電轉接設定、代理人和委派資訊。
-
-- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings?view=teams-ps) - 設定使用者的來電轉接設定。
-
-- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate?view=teams-ps) - 新增具有使用者許可權的新代理人。
-
--   [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate?view=teams-ps) - 變更現有代理人的許可權。
-
--   [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate?view=teams-ps) - 會從使用者中移除代理人。
-
+- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings) - 顯示使用者的來電轉接設定、代理人和委派資訊。
+- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings) - 設定使用者的來電轉接設定。
+- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate) - 新增具有使用者許可權的新代理人。
+- [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate) - 變更現有代理人的許可權。
+- [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate) - 會從使用者中移除代理人。
 
 ### <a name="display-call-forward-and-delegation-settings-for-a-user"></a>顯示使用者的來電轉接和委派設定
 
@@ -93,7 +85,7 @@ UnansweredTarget          :
 UnansweredTargetType      : Voicemail
 UnansweredDelay           : 00:00:20
 Delegates                 : Id:sip:user2@contoso.com
-Delegators                : 
+Delegators                :
 CallGroupOrder            : InOrder
 CallGroupTargets          : {}
 GroupMembershipDetails    :
@@ -109,22 +101,21 @@ ReceiveCalls   : True
 
 輸出顯示使用者1 同時響鈴給已設定的代理人。 未接聽的通話會在 20 秒後傳送至語音信箱。 User2 定義為具有所有代理人許可權的代理人。
 
-
 ### <a name="set-call-forward-settings-for-a-user"></a>設定使用者的來電轉接設定
 
-若要將 user1 的所有來電轉接至 user2，請使用 Set-CsUserCallingSettings Cmdlet，如下列範例所示： 
+若要將 user1 的所有來電轉接至 user2，請使用 Set-CsUserCallingSettings Cmdlet，如下列範例所示：
 
 ```PowerShell
 Set-CsUserCallingSettings -Identity user1@contoso.com -IsForwardingEnabled $true -ForwardingType Immediate -ForwardingTargetType SingleTarget -ForwardingTarget user2@contoso.com
 ```
 
-若要同時為 user3 的所有代理人響鈴，請使用Set-CsUserCallingSettings Cmdlet，如下列範例所示： 
+若要同時為 user3 的所有代理人響鈴，請使用Set-CsUserCallingSettings Cmdlet，如下列範例所示：
 
 ```PowerShell
 Set-CsUserCallingSettings -Identity user3@contoso.com -IsForwardingEnabled $true -ForwardingType Simultaneous -ForwardingTargetType MyDelegates
 ```
 
-下列範例使用Set-CsUserCallingSettings Cmdlet 來設定 user4 的通話群組，並以 user5 和 user6 為成員。 所有呼叫群組成員的呼叫都會以其定義順序轉接： 
+下列範例使用Set-CsUserCallingSettings Cmdlet 來設定 user4 的通話群組，並以 user5 和 user6 為成員。 所有呼叫群組成員的呼叫都會以其定義順序轉接：
 
 ```PowerShell
 $cgm = @("user5@contoso.com","user6@contoso.com")
@@ -134,11 +125,11 @@ Set-CsUserCallingSettings -Identity user4@contoso.com -CallGroupOrder InOrder -C
 Set-CsUserCallingSettings -Identity user4@contoso.com -IsForwardingEnabled $true -ForwardingType Immediate -ForwardingTargetType Group
 ```
 
-如需更多範例，請參閱 [Set-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps)。
+如需更多範例，請參閱 [Set-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings)。
 
 ### <a name="add-a-calling-delegate-for-a-user"></a>新增使用者的通話代理人
 
-若要將 user2 新增為允許擁有權限的 user1 代理人，請使用New-CsUserCallingDelegate Cmdlet，如下列範例所示： 
+若要將 user2 新增為允許擁有權限的 user1 代理人，請使用New-CsUserCallingDelegate Cmdlet，如下列範例所示：
 
 ```PowerShell
 New-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com -MakeCalls $true -ReceiveCalls $true -ManageSettings $true
@@ -146,7 +137,7 @@ New-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.co
 
 ### <a name="change-calling-delegate-permissions"></a>變更通話代理人許可權
 
-若要變更代理人許可權，例如不允許 user2 撥打使用者電話1，請使用Set-CsUserCallingDelegate Cmdlet，如下列範例所示： 
+若要變更代理人許可權，例如不允許 user2 撥打使用者電話1，請使用Set-CsUserCallingDelegate Cmdlet，如下列範例所示：
 
 ```PowerShell
 Set-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com -MakeCalls $false
@@ -154,21 +145,16 @@ Set-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.co
 
 ### <a name="remove-a-calling-delegate-for-a-user"></a>移除使用者的通話代理人
 
-若要移除 user2 做為 user1 的代理人，請使用Remove-CsUserCallingDelegate Cmdlet，如下列範例所示： 
+若要移除 user2 做為 user1 的代理人，請使用Remove-CsUserCallingDelegate Cmdlet，如下列範例所示：
 
 ```PowerShell
 Remove-CsUserCallingDelegate -Identity user1@contoso.com -Delegate user2@contoso.com
 ```
 
-
 ## <a name="related-topics"></a>相關主題
 
-- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings?view=teams-ps) 
-
-- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings?view=teams-ps) 
-
-- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate?view=teams-ps) 
-
--   [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate?view=teams-ps) 
-
--   [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate?view=teams-ps) 
+- [Get-CsUserCallingSettings](/powershell/module/teams/get-csusercallingsettings)
+- [Set-CsUserCallingSettings](/powershell/module/teams/set-csusercallingsettings)
+- [New-CsUserCallingDelegate](/powershell/module/teams/new-csusercallingdelegate)
+- [Set-CsUserCallingDelegate](/powershell/module/teams/set-csusercallingdelegate)
+- [Remove-CsUserCallingDelegate](/powershell/module/teams/remove-csusercallingdelegate)

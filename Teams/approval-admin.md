@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f31df258558e052e887a679321dd6ed2db48f344
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 93b0a74feb2d9333d634b9a7858ff6136ca5b5ec
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646252"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65676495"
 ---
 # <a name="teams-approvals-app-availability"></a>Teams 核准應用程式可用性
 
@@ -65,7 +65,7 @@ ms.locfileid: "65646252"
 
 深入了解[核准工作流程](/power-automate/modern-approvals)。
 
-從範本建立的核准仍會在 Microsoft Dataverse 中儲存資料，例如標題、詳細資料、範本識別碼等等。 在核准要求上提交的回應會儲存在 Forms 中。 深入瞭解 [Microsoft Forms 的資料儲存空間](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)。
+從範本建立的核准仍會在 Microsoft Dataverse 中儲存資料，例如標題、詳細資料、範本識別碼等等。 在核准要求上提交的回應會儲存在 Forms 中。 深入瞭解[Microsoft Forms 的資料儲存空間](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)。
 
 >[!Note]
 >如果您刪除Microsoft Forms網站上的表單範本，該範本會中斷您的核准範本，且使用者無法啟動要求。 使用者在嘗試開啟已在 Microsoft Forms 上刪除的核准範本時，收到「CDB TableNotFound」錯誤。
@@ -223,7 +223,7 @@ ms.locfileid: "65646252"
 
 您可以使用Teams系統管理中心來控制核准應用程式中的使用者可使用哪些協力廠商電子簽名提供者。 根據預設，核准應用程式中會啟用電子簽名提供者。 當您停用電子簽名提供者時，您的使用者在建立核准時將無法存取該提供者。 您的使用者也無法檢視使用該提供者建立的電子簽名要求。
 
-1. 在Teams系統管理中心的左窗格中，移至 **Teams應用程式**  >  **管理應用程式**。
+1. 在Teams系統管理中心的左窗格中，移至 **Teams應用程式**  >  **管理應用程式。**
 2. 搜尋核准應用程式，然後選取它。
 3. 移至 **[設定**] 索引標籤，然後執行下列一或多個動作：
 

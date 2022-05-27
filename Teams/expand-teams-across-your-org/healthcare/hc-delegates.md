@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: acolonna
 description: 了解狀態為 [離開] 或 [請勿打擾] 的使用者如何在狀態訊息中明確地將另一個使用者設定為代理人。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fd1b11038d4dbd0f1ea773065628170d7f55a33c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14f58861074ed8b9291ca725f60ff1612534f4dc
+ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596187"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "65674205"
 ---
 # <a name="message-delegation"></a>訊息委派
 
@@ -62,7 +62,7 @@ ms.locfileid: "58596187"
   
 並無視覺效果可表示備註是在商務用 Skype 中所設定。
 
-商務用 Skype 不會在狀態資訊上強制執行字元限制。 Microsoft Teams 只會顯示在商務用 Skype 中所備註的前 280 個字元。 備註結尾的省略號 (...) 表示截斷。
+商務用 Skype 不會在狀態資訊上強制執行字元限制。 Microsoft Teams 只會顯示在商務用 Skype 中所備註的前 280 個字元。 筆記結尾的省略號 (...) 表示截斷。
   
 商務用 Skype 不支援備註的到期時間。
 
