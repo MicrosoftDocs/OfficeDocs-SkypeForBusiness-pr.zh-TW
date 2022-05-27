@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理員可以閱讀Microsoft Teams 會議室的版本資訊，其中列出Microsoft Teams 會議室中的累積改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 03a23ecb47fb0efca19ce3a7085a1fcc41b80dc3
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: eadeea6648da5ef2a5b5210b45bb3c884a1cabe8
+ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674195"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65753056"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 會議室的版本資訊
 
@@ -39,6 +39,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如[需詳細資訊
 
 |釋放 |發佈至 <br/> Microsoft Store |
 |--- |--- |
+|4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
 |4.11.12.0 |1/24/2022 |
@@ -90,6 +91,13 @@ Teams 會議室受到現代化生命週期原則的規範。 如[需詳細資訊
 |RTM (1.0.8)  |12/7/2016 |
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 會議室功能簡介和問題解決方式
+
+### <a name="4121380-5262022"></a>4.12.138.0 (2022/5/26) 
+
+在此更新中推出：
+- Jabra Panacast 50 的錯誤修正
+- 跨雲匿名會議加入的錯誤修正
+- 品質與可靠性修正
 
 ### <a name="4121260-4272022"></a>4.12.126.0 (2022 年 4 月 27 日) 
 
