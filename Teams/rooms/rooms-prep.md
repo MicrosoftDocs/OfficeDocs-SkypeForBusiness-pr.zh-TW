@@ -1,7 +1,7 @@
 ---
 title: 準備您的環境
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解如何準備您的基礎結構以部署Microsoft Teams 會議室讓您可以善用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b04ecd5b10f82e3f331bc2e888f59927de52e18c
-ms.sourcegitcommit: 9bee7cb9433bfc687387647a102f814dc52c8591
+ms.openlocfilehash: 4e479a3bc51cdab49a742d9084601505f13020d8
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2022
-ms.locfileid: "64838994"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761245"
 ---
 # <a name="prepare-your-environment"></a>準備您的環境
 
@@ -43,7 +43,7 @@ ms.locfileid: "64838994"
 
 若要正常運作，Microsoft Teams 會議室必須能夠存取符合下列需求的有線網路：
   
-- 存取您的 Active Directory 或 Azure Active Directory (Azure AD) 實例，以及 Microsoft Exchange和Microsoft Teams。
+- 存取 Active Directory 或 Azure Active Directory (Azure AD) 實例，以及 Microsoft Exchange 和 Microsoft Teams。
 
 - 存取可使用 DHCP 提供 IP 位址的伺服器。 Microsoft Teams 會議室無法在第一個單位啟動時使用靜態 IP 位址進行設定。
 
@@ -79,7 +79,7 @@ ms.locfileid: "64838994"
 Microsoft Teams 會議室是設計來繼承 Windows OS 的 Proxy 設定。 以下列方式存取Windows作業系統：
   
 1. 在 Microsoft Teams 會議室 UI 中，按一下設定齒輪圖示，系統會提示您輸入裝置上的本機系統管理員密碼， (預設密碼為 **sfb**) 。
-2. 點 **選設定**，接著點選 [**移至Windows**] 按鈕，然後點選 [移 **至系統管理員登** 入] 按鈕，然後按一下 [系統 **管理員**] 按鈕 (如果電腦已加入網域，請選擇 [**其他使用者]，** 然後使用 .\admin 做為使用者名稱) 。
+2. 點 **選設定** 然後點選 [**移至Windows**] 按鈕，然後點選 [移至管理員登 **入**] 按鈕，然後按一下 [系統 **管理員**] 按鈕 (如果電腦已加入網域，請選擇 [**其他使用者]，** 然後使用 .\admin 做為使用者名稱) 。
 3. 在 regedit 左下方的 [**搜尋Windows**] 方塊中 (長按螢幕或以滑鼠右鍵按一下，然後選擇 [**以系統管理員身** 分執行]) 。
 4. 按一下HKEY_USERS資料夾 (您會看到機器使用者 SIM 卡清單，) 確定已選取根資料夾HKEY_USERS。
        
@@ -116,12 +116,12 @@ Microsoft Teams 會議室是設計來繼承 Windows OS 的 Proxy 設定。 以�
     
 如需 FQDN、埠和 IP 位址範圍的完整詳細資料，請參閱[網路安全](./security.md#network-security)性文章，以瞭解Microsoft Teams 會議室所需的詳細資料。
   
-### <a name="admin-group-management"></a>系統管理群組管理
+### <a name="admin-group-management"></a>管理員群組管理
 
 如果您加入宣告網域 (Azure Active Directory或 Active Directory) ，您可以使用 Microsoft 端點管理員、群組原則 或本機電腦管理將安全性群組設定為本機系統管理員，就像您在網域中使用Windows電腦一樣。 任何身為該安全性群組成員的人都可以輸入認證並解除鎖定設定。
   
 > [!NOTE]
-> 例如，如果您的Microsoft Teams 會議室裝置對網域 (失去信任，如果您在網域加入網域後移除網域Microsoft Teams 會議室) ，您將無法驗證裝置並開啟設定。 因應措施是使用本機系統管理員帳戶登入。 
+> 例如，如果您的Microsoft Teams 會議室裝置對網域 (失去信任，如果您在網域加入網域後移除網域Microsoft Teams 會議室) ，您將無法驗證裝置並開啟設定。 因應措施是使用本機管理員帳戶登入。 
   
 ## <a name="local-accounts"></a>本機帳戶
 
@@ -129,16 +129,16 @@ Microsoft Teams 會議室是設計來繼承 Windows OS 的 Proxy 設定。 以�
 
 Teams 會議室包含名為「Skype」的無密碼本機帳戶。 此帳戶用來登入Windows以啟動 Teams 會議室 應用程式。 不支援將密碼套用至此帳戶。 如[需詳細資訊，](security.md)請參閱Microsoft Teams 會議室安全性]。
   
-### <a name="admin---local-administrator-account"></a>「系統管理員」 - 本機系統管理員帳戶
+### <a name="admin---local-administrator-account"></a>「管理員」 - 本機系統管理員帳戶
 
-Microsoft Teams 會議室預設密碼設為 「sfb」。 您可以透過本機系統管理員模式或在AutoUnattend.xml檔案中變更密碼 (使用 ADK 的 Windows System Image manager 來變更 xml 檔案) 。
+Microsoft Teams 會議室預設密碼設為 「sfb」。 您可以透過本機管理員模式或在AutoUnattend.xml檔案中變更密碼 (使用 ADK 中的 Windows System Image manager 來變更 xml 檔案) 。
   
 > [!CAUTION]
 > 請務必儘快變更Microsoft Teams 會議室密碼。 
   
 在安裝期間，本機系統管理員密碼不會包含在選項中。
 
-您可以在Microsoft Teams 會議室[安全](security.md)性一文中深入瞭解系統管理員帳戶。
+您可以在Microsoft Teams 會議室安全性一文中深入瞭解[管理員](security.md)帳戶。
   
 ### <a name="machine-account"></a>電腦帳戶
 

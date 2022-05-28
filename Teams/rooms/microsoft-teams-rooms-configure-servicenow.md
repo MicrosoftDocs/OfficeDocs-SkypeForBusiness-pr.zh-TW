@@ -1,7 +1,7 @@
 ---
-title: 設定 ServiceNow Teams 會議室
-author: cazawideh
-ms.author: czawideh
+title: 設定 ServiceNow for Teams 會議室
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -10,76 +10,76 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
-description: 瞭解如何在入口網站中Teams 會議室 進階版 ServiceNow
+description: 瞭解如何在 Teams 會議室 進階版 入口網站中設定 ServiceNow
 f1keywords: ''
-ms.openlocfilehash: deca4f8111dec958b19d9a6fa2651fca34f4050f
-ms.sourcegitcommit: 9caa3131e9896b140afe10edea2b1e599eacd02b
+ms.openlocfilehash: c11a4e3cf4f128c8043ad2451f7d0a7a2ffe1c2e
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62082209"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761495"
 ---
-# <a name="configure-servicenow-for-teams-rooms"></a>設定 ServiceNow Teams 會議室
+# <a name="configure-servicenow-for-teams-rooms"></a>設定 ServiceNow for Teams 會議室
 
-本文將說明在入口網站中設定 ServiceNow 環境的先決條件Teams 會議室 進階版步驟。
+本文將說明在Teams 會議室 進階版入口網站中設定 ServiceNow 環境的必要條件和步驟。
 
 ## <a name="before-you-begin"></a>開始之前
 
 ### <a name="teams-rooms-prerequisites"></a>Teams 會議室先決條件
 
-- 您必須有指派的服務系統管理員角色。 有關詳細資訊，請參閱[使用受](microsoft-teams-rooms-premium-rbac.md)管理服務Microsoft Teams 會議室存取控制。
+- 您必須擁有指派的服務系統管理員角色。 如需詳細資訊，請參閱Microsoft Teams 會議室[受管理服務的角色型存取控制](microsoft-teams-rooms-premium-rbac.md)。
 
-### <a name="servicenow-prerequisites"></a>ServiceNow 先決條件
+### <a name="servicenow-prerequisites"></a>ServiceNow 必要條件
 
-- 基本授權登錄或 [OAuth](https://docs.servicenow.com/bundle/rome-platform-administration/page/administer/security/concept/c_OAuthApplications.html) 登錄。 詳細資訊 [請參閱在](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/servicenow_application_developer/app_store_learnv2_rest_rome_creating_credentials) ServiceNow 中建立認證。
-- ServiceNow 實例及其實例主機名稱稱和 API URI
-- 使用者或incident_manager角色
-- 支援資料表 API 的軟體版本 ServiceNow
+- 基本授權登入或 [OAuth 登入](https://docs.servicenow.com/bundle/rome-platform-administration/page/administer/security/concept/c_OAuthApplications.html) 。 如需詳細資訊，請參閱在 ServiceNow [中建立認證](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/servicenow_application_developer/app_store_learnv2_rest_rome_creating_credentials) 。
+- ServiceNow 實例及其實例主機名稱和 API URI
+- incident_manager或更新版本的角色
+- 支援 資料表 API 的 ServiceNow 軟體版本
 
 ## <a name="configure-your-environment"></a>設定您的環境
 
-您的環境配置方式高度可自訂，並視貴組織的需求而決定。 下列步驟將瞭解如何在 ServiceNow 中將現有的組Teams 會議室 進階版入口網站。
+您的環境設定方式是高度可自訂的，而且會視貴組織的需求而定。 下列步驟將逐步說明如何將您在 ServiceNow 中的現有設定複製到Teams 會議室 進階版入口網站。
 
-1. 開啟您想要複製的 ServiceNow 實例。 當您在入口網站中完成組Teams 會議室 進階版參照。
-2. 在新的瀏覽器選項卡中，前往 Teams 會議室 進階版 [入口網站](https://portal.rooms.microsoft.com/)，**然後前往** 設定。 接著，選取左側流覽功能表中的 **ServiceNow** 以開啟組式表單。
-3. 選取要登錄的驗證方法，然後輸入您的 ServiceNow 實例主機和 API URI。
-4. 欄位映射區段的 ServiceNow 欄位欄中的所有所需專案都應該預先填入。 下表包含每個 ServiceNow 欄位及其對應的Microsoft Teams 會議室欄位。 完成欄位地圖區段每一列的動作。 有關每個 ServiceNow 欄位的定義，請參閱 [ServiceNow 欄位定義](#servicenow-field-definitions)。
+1. 開啟您要複製的 ServiceNow 實例。 當您在Teams 會議室 進階版入口網站中完成組態表單時，必須參照此專案。
+2. 在新的瀏覽器索引標籤中，移至 [Teams 會議室 進階版入口網站](https://portal.rooms.microsoft.com/)，然後移至 **設定**。 然後，在左側導覽功能表中選取 **[ServiceNow** ] 以開啟組態表單。
+3. 選取驗證方法以登入並輸入您的 ServiceNow 實例主機和 API URI。
+4. [欄位對應] 區段的 [ServiceNow 功能變數] 欄中的所有必要專案都應預先填入。 下表包含每個 ServiceNow 欄位及其對應的Microsoft Teams 會議室欄位。 完成 [欄位對應] 區段中每一列的動作。 如需每個 ServiceNow 欄位的定義，請參閱 [ServiceNow 欄位定義](#servicenow-field-definitions)。
 
-| ServiceNow 欄位 | Microsoft Teams 會議室欄位 | 動作 |
+| ServiceNow 功能變數 | Microsoft Teams 會議室欄位 | 動作 |
 | --- | --- | --- |
-| short_description | 事件描述 | 不需要任何動作。 自動Teams 會議室欄位。 |
-| 描述 | 第一封郵件 | 不需要任何動作。 自動Teams 會議室欄位。 |
-| assignment_group | 會議室群組 | 複製assignment_group實例中的值，並貼到組式表單中的 ServiceNow 值欄位。 如果您擁有多個自訂assignment_group， **請針對每個** 額外的自訂值選取新增會議室群組。 |
-| 嚴重性 | 環 | 嚴重性是 ServiceNow 中的自訂值。 這是 ServiceNow 實例第二欄中的第四個專案。 複製值並貼到組式表單中的 ServiceNow 值欄位。 如果您的嚴重性值超過一個， **請針對每個** 額外的自訂值選取 [新增響鈴>。 |
-| 批註 (選)  | 自訂值* | 若要新增批註欄位至組塊表單， **請選取欄位** 映射區段頂端的新增。 複製 ServiceNow 實例中的批註值，並貼到組式表單中的 ServiceNow 欄位。 從下拉式功能表Microsoft Teams會議室欄位，然後複製並貼上 ServiceNow 值。 |
-| 已 (狀態)  | 自訂值* | 從 ServiceNow 實例複製解析狀態，然後將其貼到組態表單中的 ServiceNow 值欄位。 |
-| close_code | 自訂值* | 在 **ServiceNow** 實例的解析度資訊選項卡中，複製關閉程式碼，然後將它貼到 ServiceNow 值欄位至組組表單。 |
+| short_description | 事件描述 | 不需要採取任何動作。 Teams 會議室欄位會自動填滿。 |
+| 描述 | 第一封郵件 | 不需要採取任何動作。 Teams 會議室欄位會自動填滿。 |
+| assignment_group | [會議室] 群組 | 複製 ServiceNow 實例中的assignment_group值，並貼到組態表單中的 [ServiceNow 值] 欄位。 如果您有多個assignment_group，請針對每個額外的自訂值選取 [ **新增會議室群組** ]。 |
+| 嚴重性 | 環 | 嚴重性是 ServiceNow 中的自訂值。 這是 ServiceNow 實例第二欄中的第四個專案。 複製值並貼到組態表單中的 ServiceNow 值欄位。 如果您有一個以上的嚴重性值，請針對每個額外的自訂值選取 [ **新增通道** ]。 |
+| 批註 (選用)  | 自訂值* | 若要將批註欄位新增至組態表單，請選取欄位對應區段頂端的 [ **新增** ]。 複製 ServiceNow 實例中的批註值，並貼到組態表單中的 ServiceNow 欄位。 從下拉式功能表中指派 [Microsoft Teams會議室] 欄位，然後複製並貼上 ServiceNow 值。 |
+| 已解決 ()  | 自訂值* | 從您的 ServiceNow 實例複製解析度狀態，並貼到組態表單中的 ServiceNow 值欄位。 |
+| close_code | 自訂值* | 在 ServiceNow 實例的 [ **解析度資訊** ] 索引標籤中，複製關閉的程式碼，並將其貼到 [ServiceNow 值] 欄位的組態表單中。 |
 
 *從下拉式功能表選取自訂值
 
 >[!NOTE]
->如果您找不到自訂值，請連連您的 ServiceNow 系統管理員。
+>如果您找不到自訂值，請連絡您的 ServiceNow 系統管理員。
 
-若要在解決事件區段新增其他必要的欄位， **請選取** 新增 。
+若要新增其他必要欄位至 [解決事件] 區段，請選取 [ **新增]**。
 
-## <a name="test-and-enable"></a>測試和啟用
+## <a name="test-and-enable"></a>測試並啟用
 
-完成組式表單之後 **，選取頁面** 底部的測試。 需要測試才能提交您的組配置。
+完成組態表單後，選取頁面底部的 **[測試** ]。 您必須進行測試才能提交您的設定。
 
-成功通過測試後， **請選取提交** 以儲存您的變更。 準備好為貴組織啟用 ServiceNow 後，請切換至開啟 。 
+測試成功通過後，選取 [ **提交** ] 以儲存變更。 當您準備好為組織啟用 ServiceNow 後，將 [ **您要啟用 ServiceNow？** ] 切換為 [ **開啟]**。
 
 ## <a name="servicenow-field-definitions"></a>ServiceNow 欄位定義
 
-- **** short_description：ServiceNow 中的簡短描述欄位是一個簡短、160 個字元的英數位元值，可提供事件摘要。 簡短描述相當於入口網站中的事件Teams 會議室 進階版描述。
+- **short_description**：ServiceNow 中的簡短描述欄位是簡短的 160 個字元英數位元值，提供事件摘要。 簡短描述相當於Teams 會議室 進階版入口網站中的事件描述。
 
-- **描述**：ServiceNow 中的描述欄位是 ServiceNow 事件交談記錄的第一個值。 描述相當於入口網站中的第一Teams 會議室 進階版訊息。
+- **描述**：ServiceNow 中的描述欄位是 ServiceNow 事件交談記錄中的第一個值。 描述相當於Teams 會議室 進階版入口網站中的第一封郵件。
 
-- **** assignment_group：ServiceNow 中的作業群組欄位是用來組織事件。 作業群組相當於入口網站中的會議室Teams 會議室 進階版群組。 根據預設，有一個會議室群組，而且可以新增更多。 您可以決定有多少群組，以及如何將事件分組。 例如，您可以選擇根據位置來組織事件。
+- **assignment_group**：ServiceNow 中的 [工作分派群組] 欄位是用來組織事件。 作業群組相當於Teams 會議室 進階版入口網站中的 [會議室] 群組。 根據預設，有一個聊天室群組，而且可以新增更多聊天室群組。 您可以決定有多少個群組，以及如何將事件分組。 例如，您可以選擇依據位置來組織事件。
 
-- **嚴重性**：ServiceNow 中的嚴重性欄位會用來根據優先順序來組織事件。 指定優先順序的值可自訂。 嚴重性相當於入口網站中的 [響鈴Teams 會議室 進階版欄位。 若要自訂入口網站中的Teams 會議室 進階版，**請前往左側** 流覽功能表中的更新。 接著，請前往的 **響鈴標籤** ，然後選取 **新增響鈴**。
+- **嚴重性**：ServiceNow 中的嚴重性欄位是用來依優先順序組織事件。 指定優先順序的值是可自訂的。 嚴重性相當於Teams 會議室 進階版入口網站中的 [響鈴] 欄位。 若要自訂Teams 會議室 進階版入口網站中的頻道，請移至左側導覽功能表中的 **[更新**]。 然後移至 [ **頻道] 索引卷** 標，然後選取 **[新增頻道]**。
 
-- **批註**：批註是 ServiceNow 中的一個選擇性欄位，用來在入口網站組Teams 會議室 進階版包含 ServiceNow 實例的自訂Teams 會議室 進階版欄位。 批註的等同值是入口網站中的Teams 會議室 進階版值。
+- **批註**：[批註] 是 ServiceNow 中的選擇性欄位，用於在您的 Teams 會議室 進階版 入口網站設定中包含來自 ServiceNow 實例的自訂必要欄位。 等同于批註是Teams 會議室 進階版入口網站中的自訂值。
 
-- **狀態 (** 解決) ：ServiceNow (已解決) 欄位的狀態會用來指定事件的解決方式，並需要該狀態才能關閉事件。 已解析 (的狀態) 可自訂。 已解析 (的狀態) 是網站入口網站中的自訂Teams 會議室 進階版值。
+- **狀態 (解決了)**： ServiceNow 中的狀態 (解決了) 欄位，用來指定事件的解決方式，以及關閉事件的必要條件。 已解決) 值的狀態 (可自訂。 Teams 會議室 進階版入口網站中的自訂值相當於 (解決) 狀態。
 
-- **close_code：** 完全解決事件後，必須指派關閉代碼給事件。 此值在 ServiceNow 中可自訂。 相當於關閉程式碼的是入口網站中的Teams 會議室 進階版值。
+- **close_code**：在事件完全解決之後，必須指派關閉代碼給事件。 這個值可在 ServiceNow 中自訂。 等同于關閉程式碼是Teams 會議室 進階版入口網站中的自訂值。

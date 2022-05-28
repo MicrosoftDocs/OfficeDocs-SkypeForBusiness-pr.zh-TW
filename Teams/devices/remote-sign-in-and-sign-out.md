@@ -1,7 +1,7 @@
 ---
-title: 在 Android 裝置上遠端Teams登出
-author: cazawideh
-ms.author: czawideh
+title: 遠端登入並登出Teams Android裝置
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: prasad.gholve
 ms.topic: article
@@ -17,36 +17,36 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何在 Android 裝置上遠端Teams登出
-ms.openlocfilehash: 13566268df77f0d5f963829444002dc753569ec8
-ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
+description: 瞭解如何從遠端登入及登出Teams Android裝置
+ms.openlocfilehash: 5688ed8b7edf49e3048cb8b36b7e033030c09d5b
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61070568"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761425"
 ---
-# <a name="remote-sign-in-and-sign-out-for-teams-android-devices"></a>在 Android 裝置上遠端Teams登出
+# <a name="remote-sign-in-and-sign-out-for-teams-android-devices"></a>遠端登入並登出Teams Android裝置
 
-本文將說明如何從系統管理中心遠端Teams Android Teams登出。 如果您尚未撥備裝置，或裝置已撥備，但尚未登錄，請參閱在 Android 裝置上[遠端Teams和登錄](remote-provision-remote-login.md)。
+本文說明如何從Teams系統管理中心遠端登入及登出Teams Android裝置。 如果您尚未布建裝置，或裝置已布建但從未登入，請參閱[遠端布建及登入Teams Android裝置](remote-provision-remote-login.md)。
 
 ## <a name="remote-sign-in"></a>遠端登入
 
-第一次部署並登錄裝置之後，裝置會顯示在系統管理中心的 Teams **裝置** 節點Teams頁面上。
+在裝置第一次布建並登入之後，它將會出現在Teams系統管理中心的 **Teams裝置** 節點底下的對應頁面上。
 
-若要登錄已登出的裝置，請前往對應的裝置頁面。
+若要登入已登出的裝置，請移至對應的裝置頁面。
 
-1. 選取要登錄的裝置。
+1. 選取您要登入的裝置。
 
-2. 請前往動作 **功能表**，**然後選取**
+2. 移至 [ **動作]** 功能表，然後選取 **[登入使用者]**。
 
 ## <a name="remote-sign-out"></a>遠端登出
 
-1. 選取您想要從對應頁面登出的裝置。
+1. 選取您要從對應頁面登出的裝置。
 
-2. 前往動作 **功能表** ， **然後選取** 登出 。
+2. 移至 [ **動作]** 功能表，然後選取 [ **登出]**。
 
 ## <a name="related-articles"></a>相關文章
 
-- [在 Android 裝置上遠端Teams和登錄](remote-provision-remote-login.md)
+- [遠端布建和登入Teams Android裝置](remote-provision-remote-login.md)
 - [在 Teams 中管理裝置](device-management.md)
-- [遠端Teams更新裝置](remote-update.md)
+- [遠端更新Teams裝置](remote-update.md)

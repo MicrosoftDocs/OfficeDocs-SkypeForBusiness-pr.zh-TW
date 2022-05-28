@@ -1,7 +1,7 @@
 ---
 title: 管理 Microsoft Teams 會議室
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解如何開發和執行持續維護和作業，以確保您的Microsoft Teams 會議室系統可供使用者使用。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 47f1c170fd0c41331dfaffa2d81386ac3c2fb722
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 0252d44b073353aea43fec838f439ecb2233c43f
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106268"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761295"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>管理 Microsoft Teams 會議室
 
@@ -101,7 +101,7 @@ ms.locfileid: "65106268"
 | **預設磁片區**                                           | 0-100                                                  | 否                 |
 | **內容相機**                                           | 可用相機清單                              | 否                 |
 | **內容相機增強功能**                              | 開啟<br>關閉                                              | 否                 |
-| **將內容相機旋轉 180 度**                        | 開啟<br>關閉                                              | 否                 |
+| **將內容旋轉 180 度相機**                        | 開啟<br>關閉                                              | 否                 |
 | *主題*                                                    |                                                        |                    |
 |                                                              | 預設<br>無主題<br>自 定義<br>內建主題清單   | 是                |
 

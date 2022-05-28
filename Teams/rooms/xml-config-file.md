@@ -1,7 +1,7 @@
 ---
 title: 遠端系統管理Microsoft Teams 會議室裝置設定
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 遠端系統管理Microsoft Teams 會議室裝置使用的預設設定，包括套用自訂主題和建立主設定檔案。
-ms.openlocfilehash: c363dce55df4d9bdcf125492c2ca92b3b20feba7
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 15cedb921657d9be646fcd1aef94f15f989eec4f
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125458"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761135"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 組態檔遠端系統管理Microsoft Teams 會議室主機設定
 
@@ -164,7 +164,7 @@ ms.locfileid: "65125458"
 | \<Settings\>                                | 容器                   |                | 協調會議之設定音訊和視訊組態元素的容器。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | \<Audio\>                                   | 布林值&#x2777;            |                | 控制Teams 會議室裝置上的音訊設定。 此元素有兩個屬性：<br><ul><li><b>預設</b> 決定當會議開始時，麥克風會在哪個裝置上作用中。 通常只有一個裝置 (Teams 會議室裝置) 可以將此欄位設定為 `true` ，而其他裝置必須設定此欄位，以避免 `false` 音訊回音和意見反應。</li><li><b>啟用</b> 判斷會議中的參與者是否可以開啟或關閉麥克風。 設為 `false` **Audio 預設** 值的裝置應將此設定設為 `false` ，讓參與者無法意外開啟麥克風並造成音訊回音或意見反應。<p>如果 **音訊預設** 值設為 `true` ，則會忽略 **啟用音訊的** 設定，且參與者可以將麥克風設為靜音或取消靜音。</li></ul>                        |
 | \<Video\>                                   | 布林值&#x2777;            |                | 控制Teams 會議室裝置上的視訊設定。 此元素有兩個屬性：<br><ul><li><b>預設</b> 決定會議開始時相機會在哪個裝置上使用。 為獲得最佳體驗，建議您在所有其他裝置都設 `false` 為 `true` 時，只設定Teams 會議室裝置。</li><li><b>啟用</b> 判斷會議中的參與者是否可以開啟或關閉相機。 您可以將此設定在 `true` 活動參與者想要分享不同視訊觀點的任何其他裝置上， (例如參與者正在使用Surface Hub白板) 。 如果您不希望參與者在裝置上開啟或關閉相機，請將此設定設為 `false` 。<p> 如果 **[視訊] 預設** 值設為 `true` ，則會忽略 **啟用視訊的** 設定，且參與者可以開啟或關閉相機。</li></ul> |
-| \<Whiteboard\>                              | 布林值&#x2777;            |                | 控制Teams 會議室裝置上的白板設定。 此元素有兩個屬性：<br><ul><li><b>預設</b> 決定白板會在會議開始時使用哪個裝置。 為獲得最佳體驗，建議您將Teams 會議室裝置設定為 `false` ，並讓您在Surface Hub上使用白板。</li><li><b>啟用</b> 決定會議中的參與者是否可以開啟或關閉白板。 如果您不希望參與者在裝置上開啟或關閉白板，請將此設定設為 `false` 。<p> 如果 **Whiteboard 預設** 設定 `true` 為 ， **啟用白板的** 設定會被忽略，參與者可以開啟或關閉白板。</li></ul>                                                                                                                                                   |
+| \<Whiteboard\>                              | 布林值&#x2777;            |                | 控制Teams 會議室裝置上的白板設定。 此元素有兩個屬性：<br><ul><li><b>預設</b> 決定白板會在會議開始時使用哪個裝置。 為獲得最佳體驗，建議您將Teams 會議室裝置設定為 `false` ，並讓您在Surface Hub上使用白板。</li><li><b>啟用</b> 決定會議中的參與者是否可以開啟或關閉白板。 如果您不希望參與者在裝置上開啟或關閉白板，請將此設定設為 `false` 。<p> 如果 **Whiteboard 預設** 設定 `true` 為 ，**啟用白板的** 設定會被忽略，參與者可以開啟或關閉白板。</li></ul>                                                                                                                                                   |
 | \<EnableResolutionAndScalingSetting\> | 布林值&#x2777; | 第一個&#x2776; | 預設會停用。 如果您想要變更 [會議室前方] 的解析度和縮放比例，請將它設為 True。 如果為 True，將會套用顯示器解析度和縮放比例設定。 啟用此設定後，此設定會同時影響主 FoR 和延伸 FoR。 |
 | \<MainFoRDisplay\> | 容器 | | 如果您的裝置使用單一顯示模式，請使用此容器。<br><br>在雙顯示模式下，會議室 (FoR) 的主要前方是會議) 中時鐘 (離開會議) 和自我預覽視訊 (的畫面。 \<MainFoRDisplayResolution\> 並且 \<MainFoRDisplayScaling\> 一次必須一起設定。 如果您只使用其中一 \<MainFoRDisplayResolution\> 種或 \<MainFoRDisplayScaling\> ，則會忽略。 |
 | \<MainFoRDisplayResolution\> | String | | Width、Height (的輸入數值，例如 1920，1080) 。 如果您的 FoR 不支援此功能，則會忽略此設定。|

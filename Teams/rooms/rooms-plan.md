@@ -1,7 +1,7 @@
 ---
 title: 規劃 Microsoft Teams 會議室
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 本文將說明部署Microsoft Teams 會議室新一代Skype會議室系統的相關規劃考慮。
-ms.openlocfilehash: 5dea2485221fa2755c567fd3ce619c232b4bb6a9
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 392a14e3a72d60903db88b34d9b72152e1a8ec81
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676135"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761365"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>規劃Microsoft Teams 會議室
 

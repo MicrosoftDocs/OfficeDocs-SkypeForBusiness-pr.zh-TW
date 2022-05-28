@@ -1,7 +1,7 @@
 ---
 title: 部署 Microsoft Teams 會議室
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: 請閱讀本文以瞭解如何部署Microsoft Teams 會議室，包括部署階段。
-ms.openlocfilehash: 18a5d72fb9c11b34bb994734b8d064c3aaa2cdae
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 0111e8723d70b753c2d8de64350387252db8f8f7
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125768"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760915"
 ---
 # <a name="deployment-overview"></a>部署概觀
 
@@ -53,7 +53,7 @@ ms.locfileid: "65125768"
 若要準備您的Microsoft Teams 會議室部署，請執行下列關鍵、中心工作：
 
 -   定義Microsoft Teams 會議室資源帳戶。
--   如果加入Teams 會議室Azure Active Directory，請準備一個具有動態成員資格的Azure AD群組，以保留所有Teams 會議室資源帳戶。 這將會簡化未來的管理，例如套用條件式存取原則。 為了最輕鬆地運用Azure AD動態群組，請決定命名慣例，以唯一方式識別您的Teams 會議室資源帳戶。
+-   如果加入 Teams 會議室 以Azure Active Directory，請準備具有動態成員資格的 Azure AD 群組，以保留所有Teams 會議室資源帳戶。 這將會簡化未來的管理，例如套用條件式存取原則。 為了最輕鬆地運用 Azure AD 動態群組，請決定命名慣例，以唯一方式識別您的Teams 會議室資源帳戶。
 -   如果加入 Teams 會議室 至 Active Directory，請準備組織單位和 Active Directory 群組以保留您的Microsoft Teams 會議室電腦和資源帳戶，並選擇性地準備群組原則物件 (GPO) 啟用 PowerShell 重新傳送。
 
 ### <a name="define-microsoft-teams-rooms-resource-account-features"></a>定義Microsoft Teams 會議室資源帳戶功能 
@@ -63,7 +63,7 @@ ms.locfileid: "65125768"
 | **案例** | **描述** | **Microsoft Teams 會議室服務帳戶功能** |
 |---------- |------------- | --- |
 | 互動式會議            | 使用語音、視訊和螢幕畫面分享;將Microsoft Teams 會議室設定為可預約的資源                     | 已啟用Microsoft Teams或商務用 Skype;已啟用Exchange (資源信箱)  |
-| 電話撥入式會議            | 點選主機上的 [新增會議] 時，有音訊會議電話號碼 | 已啟用音訊會議                                          |
+| 電話撥入式會議            | 點選主機上的 [新增會議] 時，有音訊會議電話號碼 | 已啟用 音訊會議                                          |
 | 輸出/輸入 PSTN 通話 | 啟用Microsoft Teams 會議室主機撥打和接聽 PSTN 通話                                         | 已啟用 電話系統                                                |
 
 如需Microsoft Teams 會議室帳戶的詳細資訊，請參閱[設定Microsoft Teams 會議室帳戶](rooms-configure-accounts.md)。
@@ -79,8 +79,8 @@ _Microsoft Teams 會議室資源帳戶規劃資料表範例_
 
 | **網站**  | **會議室名稱** | **會議室類型** | **未來會議室功能**                                                 | **Microsoft Teams 會議室帳戶功能**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| 倫敦 HQ | 居裡         | 中型        | 1 個螢幕、音訊和視訊加上簡報 <br>電話撥入式會議存取權<br> PSTN 存取權  | 已啟用Exchange (資源信箱)  <br>已啟用音訊會議 <br>已啟用 電話系統 |
-| 雪梨 HQ | 山          | 大型         | 2 個螢幕、音訊和視訊加上簡報<br>電話撥入式會議存取權<br> PSTN 存取權  | 已啟用 商務用 Skype <br>已啟用Exchange (資源信箱) <br> 已啟用音訊會議 <br>已啟用 電話系統 |
+| 倫敦 HQ | 居裡         | 中型        | 1 個螢幕、音訊和視訊加上簡報 <br>電話撥入式會議存取權<br> PSTN 存取權  | 已啟用Exchange (資源信箱)  <br>已啟用 音訊會議 <br>已啟用 電話系統 |
+| 雪梨 HQ | 山          | 大型         | 2 個螢幕、音訊和視訊加上簡報<br>電話撥入式會議存取權<br> PSTN 存取權  | 已啟用 商務用 Skype <br>已啟用Exchange (資源信箱) <br> 已啟用 音訊會議 <br>已啟用 電話系統 |
 
 
 ### <a name="prepare-to-host-microsoft-teams-rooms-and-resource-accounts-optional"></a>準備 (選擇性) 託管Microsoft Teams 會議室和資源帳戶
@@ -115,7 +115,7 @@ _Microsoft Teams 會議室資源帳戶規劃資料表範例_
 
 每個Microsoft Teams 會議室裝置都需要專屬且唯一的資源帳戶，Microsoft Teams或商務用 Skype都必須啟用該帳戶，Exchange。 此帳戶必須在Exchange主控會議室信箱。 行事曆處理必須設定好，裝置才能自動接受傳入的會議邀請。 如需建立這些帳戶的詳細資訊，請參閱[設定Microsoft Teams 會議室帳戶](rooms-configure-accounts.md)。 
 
-**Pro提示**- 每個Microsoft Teams 會議室在您的網路上都必須有有效且唯一的電腦名稱稱。 許多監控和警示系統會將電腦名稱稱顯示為金鑰識別碼，因此請務必針對Microsoft Teams 會議室部署開發命名慣例，讓支援人員能夠輕鬆找到已標幟為需要採取動作的Microsoft Teams 會議室。 例如，使用 *MTR-SiteRoom* - *Name* (MTR-LON-CURIE) 模式。 
+**Pro提示**- 每個Microsoft Teams 會議室在您的網路上都必須有有效且唯一的電腦名稱稱。 許多監控和警示系統會將電腦名稱稱顯示為金鑰識別碼，因此請務必針對Microsoft Teams 會議室部署開發命名慣例，讓支援人員能夠輕鬆找到已標幟為需要採取動作的Microsoft Teams 會議室。 例如，使用 *MTR-Site* - *Room Name* (MTR-LON-CURIE) 模式。 
 
 |  &nbsp;  | &nbsp;    |
 |-----------|------------|

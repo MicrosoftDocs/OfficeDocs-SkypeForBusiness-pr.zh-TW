@@ -1,7 +1,7 @@
 ---
 title: 適用于 Microsoft Teams 的電話和裝置
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: dougand
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器) 已通過Microsoft Teams認證。
-ms.openlocfilehash: 91f7a1a8d3e8ea68b113d98d667aeaae9a90dd4e
-ms.sourcegitcommit: 4b0bd129af9cd487123ef6a5dc19ace0ec5a6c41
+ms.openlocfilehash: 912d6d3481ba6f9885a79e0600f74c9ecd031c8c
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65406399"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760895"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
 

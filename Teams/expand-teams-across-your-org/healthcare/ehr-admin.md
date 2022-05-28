@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: 瞭解如何整合 Teams EHR 連接器，讓貴組織中的醫療保健提供者直接從 EHR 系統與病患或其他Teams提供者進行虛擬約會。
-ms.openlocfilehash: abe826b1e71c37e0932404233c234282ec90b7f9
-ms.sourcegitcommit: 3cb40132e36717dfbdc6dfe83e7ea319f3ec9347
+ms.openlocfilehash: c34c8fbb32d78c1380267ce6876e947b877ce383
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65465434"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760945"
 ---
 # <a name="virtual-appointments-with-teams---integration-into-epic-ehr"></a>虛擬約會與 Teams - 整合至 EHR
 
@@ -62,7 +62,7 @@ Teams的通訊與共同作業平臺可讓文工士輕鬆地解決雜亂的系統
 
 您必須要求存取Teams應用程式。
 
-1. 要求下載 Teams 市集市集的[App](https://apporchard.epic.com/Gallery?id=6153)。 這麼做會觸發從[程式集] 到 Microsoft EHR 連接器團隊的要求。
+1. 要求下載 Teams 市集市集的[App](https://apporchard.epic.com/Gallery?id=16793)。 這麼做會觸發從[程式集] 到 Microsoft EHR 連接器團隊的要求。
 1. 提出要求之後，請傳送電子郵件給 [TeamsForHealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) ，其中包含您的組織名稱、租使用者識別碼，以及您的 Preview 技術連絡人的電子郵件地址。
 1. Microsoft EHR 連接器小組會以啟用確認方式回復您的電子郵件。
 

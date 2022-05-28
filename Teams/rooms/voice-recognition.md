@@ -1,7 +1,7 @@
 ---
 title: Teams 會議室 中語音辨識 (語音設定檔) 的租使用者管理控制
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95f3b03ddad75cd36bb6dbbfd51eac08d7742aac
-ms.sourcegitcommit: 20d44ce9a62ba2fb60f989d2e7bbc9333055e783
+ms.openlocfilehash: 3d5caa402be0ea282d70bfe17cc9d2d728e6ec2c
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65063254"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760925"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>管理智慧喇叭的語音辨識技術控制項
 
@@ -83,7 +83,7 @@ ms.locfileid: "65063254"
 
 |政策|描述|值與行為|
 |-|-|-|
-|enrollUserOverride|用來在租使用者的Teams設定中設定語音設定檔擷取或註冊。 |**已停用**<br><ul><li> 從未註冊的使用者無法檢視、註冊或重新註冊。<li>系統會隱藏註冊流程的進入點。<li>如果使用者選取註冊頁面的連結，就會看到一則訊息，指出其組織並未啟用此功能。  <li>已註冊的使用者可以在Teams設定中檢視及移除他們的語音設定檔。 一旦移除他們的語音設定檔，他們將無法檢視、存取或完成註冊流程。</li></ul><br>**啟用**<br><ul><li> 使用者可以檢視、存取及完成註冊流程。<li>進入點會顯示在 [Teams] 設定頁面的 [**辨識] 索** 引標籤底下。</li></ul>|
+|enrollUserOverride|用來在租使用者的Teams設定中設定語音設定檔擷取或註冊。 |**已停用**<br><ul><li> 從未註冊的使用者無法檢視、註冊或重新註冊。<li>系統會隱藏註冊流程的進入點。<li>如果使用者選取註冊頁面的連結，就會看到一則訊息，指出其組織並未啟用此功能。  <li>已註冊的使用者可以在Teams設定中檢視及移除他們的語音設定檔。 一旦移除他們的語音設定檔，他們將無法檢視、存取或完成註冊流程。</li></ul><br>**Enabled**<br><ul><li> 使用者可以檢視、存取及完成註冊流程。<li>進入點會顯示在 [Teams] 設定頁面的 [**辨識] 索** 引標籤底下。</li></ul>|
 |roomAttributeUserOverride|控制會議室中的語音使用者身分識別。 Teams 會議室帳戶需要此設定。| **關閉**<br><ul><li>Teams 會議室裝置不會從會議室傳送音訊串流省電頻寬。 <li>會議室使用者不會被歸屬或分辨，而且完全不會擷取或使用其語音簽名。<li>會議室使用者為未知。</li></ul> <br>**屬性**<br><ul><li>會議室使用者會根據他們的註冊狀態來建立屬性。<li>已註冊的使用者會在轉錄中顯示其名稱。  <li>未註冊的使用者會顯示為喇叭 \<n> 。<li>Teams 會議室裝置會從會議室傳送七個音訊串流。</ul> <br>**區分**<br> <ul><li>會議室使用者將以演講者 1、喇叭 2、...轉譯中的喇叭 \<n> 。</li><li>不管使用者的註冊狀態為何，其名稱不會顯示在轉譯中。</li><li>Teams 會議室裝置會從會議室傳送七個音訊串流。</li></ul>
 |AllowTranscription|使用者和會議室帳戶Teams必要。|**True** 和 **False**|
 ||||

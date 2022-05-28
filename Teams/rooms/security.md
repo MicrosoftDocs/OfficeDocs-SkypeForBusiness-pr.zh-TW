@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams 會議室安全性
-ms.author: czawideh
-author: cazawideh
+title: Microsoft Teams 會議室安全性]
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 appliesto:
@@ -15,97 +15,97 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: 瞭解如何保護您的Microsoft Teams 會議室裝置。
-ms.openlocfilehash: bbb61023772e5116d2ca96171d30649ab85bf68c
-ms.sourcegitcommit: 109be23768ae183e07a0833fa9a9e5cb0369cb43
+ms.openlocfilehash: 135e286ce255f097dc3751bc509c05fc94f2ffb2
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/08/2022
-ms.locfileid: "63368378"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761095"
 ---
-# <a name="microsoft-teams-rooms-security"></a>Microsoft Teams 會議室安全性
+# <a name="microsoft-teams-rooms-security"></a>Microsoft Teams 會議室安全性]
 
-Microsoft 會與我們的合作夥伴合作，提供安全的解決方案，而且不需要採取其他動作，Microsoft Teams 會議室。 本文討論許多在 Teams 會議室 中找到的安全性Teams 會議室。
+Microsoft 與我們的合作夥伴合作，提供安全且不需要額外動作來保護Microsoft Teams 會議室的解決方案。 本文探討 Teams 會議室 中找到的許多安全性功能。
 
 > [!NOTE]
-> Microsoft Teams 會議室不應該視為一般的使用者工作站。 不僅使用案例差異很大，而且預設安全性設定檔也差異很大。
-> 本文適用于在 Microsoft Teams 會議室 上Windows。
+> Microsoft Teams 會議室不應該被視為一般的使用者工作站。 不僅使用案例有很大的不同，預設的安全性設定檔也有很大的不同。
+> 本文適用于在 Windows 上執行的Microsoft Teams 會議室裝置。
 
-有限的使用者資料會儲存在 Teams 會議室。 使用者資料可能儲存于記錄檔中，僅提供疑難排解和支援。 會議出席者不得使用Teams 會議室將檔案複製到硬碟或以本身方式登錄。 使用者資料不會傳輸至或易於Microsoft Teams 會議室裝置。
+有限的使用者資料會儲存在Teams 會議室上。 使用者資料可能儲存在記錄檔中，僅供疑難排解和支援。 出席者在任何時候都無法使用Teams 會議室將檔案複製到硬碟或自行登入。 系統不會將使用者資料傳輸至Microsoft Teams 會議室裝置，或無法存取該裝置。
 
-即使使用者無法將檔案放在硬碟Teams 會議室，Microsoft Defender 仍然已啟用。 Teams 會議室 Microsoft Defender 測試其性能。 停用此功能或新增端點安全性軟體可能會導致無法預測的結果，並可能導致系統降級。
+雖然使用者無法將檔案放在Teams 會議室硬碟上，但仍然啟用 Microsoft Defender。 Teams 會議室使用 Microsoft Defender 測試效能。 停用此功能或新增端點安全性軟體可能會導致無法預期的結果和潛在的系統降級。
 
 ## <a name="hardware-security"></a>硬體安全性
 
-在Teams 會議室環境中，有一個中央計算模組可執行Windows 10 IoT 企業版版本。 每個通過認證的計算模組都必須有安全安裝解決方案、安全鎖定插槽 (例如，Kensington lock) ，以及 I/O 埠存取安全性措施，以防止未經授權的裝置連接。 您也可以透過統一可擴展的固件介面或 UEFI (停用) 埠。
+在Teams 會議室環境中，有一個執行Windows 10 IoT 企業版版本的中央計算模組。 每個通過認證的計算模組都必須有安全安裝解決方案、安全性鎖定插槽 (例如，對通通鎖定) ，以及 I/O 埠存取安全性措施，以防止未經授權的裝置連線。 您也可以透過整合可延伸韌體介面 (UEFI) 設定停用特定埠。
 
-每個通過認證的計算模組都必須在 TPM 中 (受信任的平臺模組) 預設啟用的 2.0 相容技術。 TPM 是用來加密資源帳戶Teams 會議室資訊。
+每個認證的計算模組都必須隨附信賴平臺模組 (TPM) 預設啟用 2.0 相容技術。 TPM 是用來加密Teams 會議室資源帳戶的登入資訊。
 
-預設會啟用安全啟動。 安全啟動是電腦產業成員所開發的安全性標準，可協助確保裝置只使用原始設備製造商或 OEM (信任) 。 電腦啟動時，固件會檢查每個開機軟體的簽名，包括 UEFI (也稱為 Option ROM) 、EFI 應用程式和作業系統。 如果簽名有效，電腦會啟動，而該固件會提供作業系統的控制權。 詳細資訊，請參閱安全 [啟動](/windows-hardware/design/device-experiences/oem-secure-boot)。
+預設會啟用安全開機。 安全開機是電腦產業成員所開發的安全性標準，可協助確保裝置僅使用原始設備製造商 (OEM) 信任的軟體啟動。 電腦啟動時，韌體會檢查每一個開機軟體的簽章，包括 UEFI 韌體驅動程式 (也稱為 Option ROM) 、EFI 應用程式和作業系統。 如果簽章有效，電腦就會啟動，而韌體則會對作業系統進行控制。 如需詳細資訊，請參閱 [安全開機](/windows-hardware/design/device-experiences/oem-secure-boot)。
 
-只有附加實體鍵盤和滑鼠，才能存取 UEFI 設定。 這可防止您透過啟用觸控Teams 會議室主控台，以及任何其他附加至鍵盤上的觸控顯示來存取 UEFI Teams 會議室。
+只有附加實體鍵盤和滑鼠才能存取 UEFI 設定。 這可防止透過Teams 會議室觸控式主機以及連接到Teams 會議室的任何其他觸控式顯示器存取 UEFI。
 
-內核直接記憶體存取 (DMA) 保護是 Windows 10 上啟用的 Teams 會議室。 有了這項功能，作業系統和系統固件可保護系統，防範所有支援 DMA 的裝置受到惡意和意外的 DMA 攻擊：
+核心直接記憶體存取 (DMA) 保護是已在 Teams 會議室 啟用的Windows 10設定。 使用此功能，作業系統和系統韌體可保護系統，避免所有支援 DMA 功能的裝置遭受惡意和非預期的 DMA 攻擊：
 
-- 在啟動過程中。
+- 在開機程式期間。
 
-- 在 OS 執行時間期間，由裝置連接到易於訪問的內部/外部 DMA 埠 ，例如 M.2 PCIe 插槽和 Thunderbolt 3，以防範惡意 DMA。
+- 在作業系統執行時間期間，透過連接到可輕鬆存取內部/外部 DMA 埠的裝置來抵禦惡意 DMA，例如 M.2 PCIe 插槽和 Thunderbolt 3。
 
-Teams 會議室啟用受 Hypervisor 保護的代碼完整性 (HVCI) 。 HVCI 提供的功能之一是認證防護。 認證防護提供下列優點：
+Teams 會議室也啟用受 Hypervisor 保護的程式碼完整性 (HVCI) 。 HVCI 提供的其中一項功能是 Credential Guard。 Credential Guard 提供下列優點：
 
-- **硬體安全性** NTLM、Kerberos 和認證管理員會利用平臺安全性功能 ，包括安全啟動和虛擬化來保護認證。
+- **硬體安全性** NTLM、Kerberos 和認證管理員利用平臺安全性功能，包括安全開機和虛擬化，以保護認證。
 
-- **以虛擬化為基礎的** 安全性Windows NTLM 和 Kerberos 衍生認證及其他機密，在與執行中的作業系統隔離的受保護環境中執行。
+- **以虛擬化為基礎的安全** 性Windows NTLM 和 Kerberos 衍生認證及其他機密，會在與執行中作業系統隔離的受保護環境中執行。
 
-- **進一的保護，防範進一級的持續性威脅** 當認證管理員網域認證、NTLM 和 Kerberos 衍生認證使用虛擬化安全性受到保護時，許多目標攻擊中使用的認證竊取攻擊技術和工具會遭到封鎖。 在具有系統管理許可權的作業系統中執行惡意程式無法解壓縮受虛擬化安全性保護的機密。
+- **針對進階持續性威脅提供更佳的保護** 當 Credential Manager 網域認證、NTLM 和 Kerberos 衍生認證使用虛擬化型安全性受到保護時，會封鎖在許多目標攻擊中使用的認證竊取攻擊技術和工具。 在作業系統中以系統管理許可權執行的惡意程式碼無法擷取受到虛擬化型安全性保護的機密。
 
 ## <a name="software-security"></a>軟體安全性
 
-Microsoft Windows啟動後，Teams 會議室自動登入名為 Windows 的Skype。 Skype帳戶沒有密碼。 若要確保Skype會話安全，請執行下列步驟。
+Microsoft Windows啟動之後，Teams 會議室自動登入名為 Skype 的本機Windows使用者帳戶。 Skype帳戶沒有密碼。 若要確保Skype帳戶會話的安全，請執行下列步驟。
 
 > [!IMPORTANT]
-> 請勿變更密碼或編輯Skype使用者帳戶。 這麼做可防止Teams 會議室自動登入。
+> 請勿變更密碼或編輯本機Skype使用者帳戶。 這麼做可以防止Teams 會議室自動登入。
 
-此Microsoft Teams 會議室應用程式會使用 1903 Windows 10更新版本找到的已指派存取功能執行。 已指派的 Access 是 Windows 10中的一項功能，可限制公開給使用者的應用程式進入點。 這就是啟用單一應用程式資訊站模式的方式。 使用 Shell Launcher，Teams 會議室已配置為以使用者介面Windows桌面應用程式執行資訊站裝置。 應用程式Microsoft Teams 會議室取代預設 shell (explorer.exe) 通常會在使用者登錄時執行。 換句話說，傳統的 Explorer shell 完全無法啟動。 這可大幅減少Microsoft Teams 會議室內漏洞Windows。 若要詳細資訊，請參閱在桌上出版上設定Windows[站和數位標記](/windows/configuration/kiosk-methods)。
+Microsoft Teams 會議室應用程式會使用 Windows 10 1903 和更新版本中的 [指派的存取] 功能執行。 指派的存取權是Windows 10中的一項功能，可限制向使用者公開的應用程式進入點。 這是啟用單一應用程式 kiosk 模式的原因。 使用 Shell Launcher，Teams 會議室設定為 kiosk 裝置，可執行Windows桌面應用程式做為使用者介面。 Microsoft Teams 會議室應用程式會取代使用者登入時通常會執行的預設殼層 (explorer.exe) 。 換句話說，傳統的檔案總管殼層完全不會啟動。 這會大幅減少Windows內Microsoft Teams 會議室弱點。 如需詳細資訊，請參閱在[Windows桌上出版本上設定 kiosk 和數位記號](/windows/configuration/kiosk-methods)。
 
-如果您決定在 Teams 會議室 上執行安全性掃描或 Internet Security center (CIS) 基準，則掃描只能在當地系統管理員帳戶的情況下執行，因為 Skype 使用者帳戶不支援執行 Teams 會議室 應用程式外的應用程式。 適用于 Skype 使用者上下文的許多安全性功能並不適用于其他本地使用者，因此這些安全性掃描無法顯示已用於 Skype 帳戶的完整安全性鎖定。 因此，不建議在 Teams 會議室 上執行Teams 會議室。 不過，您可以執行外部穿透測試 ，如果需要的話。 因此，建議您針對這些裝置執行外部Teams 會議室測試，而不是執行本地掃描。
+如果您決定執行安全性掃描或網際網路安全性中心 (CIS) Teams 會議室基準，掃描只能在本機系統管理員帳戶的內容下執行，因為Skype使用者帳戶不支援Teams 會議室應用程式以外的執行應用程式。 許多套用至Skype使用者內容的安全性功能不適用於其他本機使用者，因此這些安全性掃描不會顯示套用至Skype帳戶的完整安全性鎖定。 因此，不建議您在Teams 會議室上執行本機掃描。 不過，如有需要，您可以執行外部測試。 因此，建議您對Teams 會議室裝置執行外部測驗，而不是執行本機掃描。
 
-此外，鎖定原則會用來限制使用非系統管理功能。 已啟用鍵盤篩選來截取並封鎖指派的 Access 政策未涵蓋的潛在不安全鍵盤組合。 只有具有本地或網域管理許可權的使用者才能Windows管理Teams 會議室。 這些和其他原則適用于Windows裝置Microsoft Teams 會議室在產品生命週期期間持續進行評估和測試。
+此外，鎖定原則會套用以限制非系統管理功能的使用。 已啟用鍵盤篩選器來截距並封鎖可能不安全的鍵盤組合，但指派的存取原則未涵蓋這些組合。 只有擁有本機或網域系統管理許可權的使用者才有權登入Windows以管理Teams 會議室。 在Microsoft Teams 會議室裝置上套用至Windows的這些原則及其他原則會在產品生命週期期間持續受到評估和測試。
 
 ## <a name="account-security"></a>帳戶安全性
 
-Teams 會議室裝置包含一個名為「系統管理員」的系統管理帳戶，並包含預設密碼。 我們強烈建議您完成設定後，儘快變更預設密碼。
+Teams 會議室裝置包含名為「管理員」的系統管理帳戶，並具有預設密碼。 我們強烈建議您在完成設定後儘快變更預設密碼。
 
-系統管理帳戶不一定可正確Teams 會議室，而且可以重新命名或甚至刪除。 不過，刪除系統管理帳戶之前，請確定您設定了備用的本地系統管理員帳戶，然後再移除隨裝置Teams 會議室帳戶。 若要進一步瞭解如何使用內建的 Windows或 PowerShell 變更Windows帳戶的密碼，請參閱下列內容：
+管理員帳戶不需要適當操作Teams 會議室裝置，也可以重新命名或甚至刪除。 不過，在刪除管理員帳戶之前，請務必先設定替代的本機系統管理員帳戶，再移除隨Teams 會議室裝置一起出貨的帳戶。 如需如何使用內建Windows工具或 PowerShell 變更本機Windows帳戶密碼的詳細資訊，請參閱下列內容：
 
 - [變更或重設Windows密碼](https://support.microsoft.com/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c)
 - [Set-LocalUser](/powershell/module/microsoft.powershell.localaccounts/set-localuser?view=powershell-5.1#example-2--change-the-password-on-an-account)
 
-您也可以將網域帳戶Windows系統管理員群組。 您可以使用 Intune Azure AD帳戶執行此工作。 詳細資訊，請參閱策略[CSP – 受限制的組。](/windows/client-management/mdm/policy-csp-restrictedgroups)
+您也可以將網域帳戶匯入本機Windows系統管理員群組。 您可以使用 Intune，針對 Azure AD 帳戶執行此動作。 如需詳細資訊，請參閱[原則雲端解決方案提供者 – RestrictedGroups.](/windows/client-management/mdm/policy-csp-restrictedgroups)。
 
 > [!NOTE]
-> 如果您使用的是Crsron主機，請務必同時更新主機上的系統管理密碼，以及計算模組上的系統管理密碼。 如需詳細資訊，請聯絡Crsron。
+> 如果您使用的是 Cres tenant 主機，也請務必更新主機和計算模組上的管理員密碼。 如需詳細資訊，請連絡 Cres 要點。
 
 > [!CAUTION]
-> 如果您在將本地系統管理員許可權授予其他本地或網域帳戶之前先刪除或停用系統管理員帳戶，您可能會失去管理Teams 會議室的能力。 如果發生這種情況，您必須將裝置重設回其原始設定，然後再次完成設定程式。
+> 如果您先刪除或停用管理員帳戶，再將本機系統管理員許可權授與另一個本機或網域帳戶，您可能會失去管理Teams 會議室裝置的能力。 如果發生這種情況，您將需要將裝置重設回其原始設定，然後再次完成設定程式。
 
-請勿將本地系統管理員許可權授予Skype使用者帳戶。
+請勿將本機系統管理員許可權授與Skype使用者帳戶。
 
-Windows組組設計工具可用來建立Windows 10套件。 除了變更本機系統管理員密碼，您也可以執行變更電腦名稱稱及註冊至 Azure Active Directory。 有關建立組Windows設計工具的套件詳細資訊，請參閱為[Windows 10。](/windows/configuration/provisioning-packages/provisioning-packages)
+Windows組態設計工具可用來建立Windows 10布建套件。 除了變更本機管理員密碼，您也可以執行變更電腦名稱稱和註冊Azure Active Directory等動作。 如需建立Windows設定設計工具布建套件的詳細資訊，請參閱[布建Windows 10套件](/windows/configuration/provisioning-packages/provisioning-packages)。
 
-您需要為每個裝置建立Teams 會議室帳戶，以便它Teams。 此帳戶無法使用雙因素或多重要素驗證。 要求第二個要素會防止帳戶在重新開機後自動Teams 會議室應用程式。 不過，您可以為此帳戶啟用新式驗證，以提供額外的安全性。 此外，Azure Active Directory條件式 Access 策略和 Intune 合規性策略，以保護資源帳戶。 有關詳細資訊，請參閱適用于 Microsoft Teams 會議室 和條件[式 Access 與 Intune](conditional-access-and-compliance-for-devices.md)合規性的支援條件式 Access 和[Intune](supported-ca-and-compliance-policies.md) Microsoft Teams 會議室
+您必須為每個Teams 會議室裝置建立資源帳戶，讓它可以登入Teams。 您無法在此帳戶中使用雙因素或多重要素驗證。 要求第二個因素可防止帳戶在重新開機後自動登入Teams 會議室應用程式。 不過，您可以為此帳戶啟用新式驗證以獲得額外的安全性。 此外，Azure Active Directory可部署條件式存取原則和Intune合規性原則以保護資源帳戶。 如需詳細資訊，請參閱Microsoft Teams 會議室和條件式[存取及Intune](supported-ca-and-compliance-policies.md)合規性的條件式存取和[Intune裝置合規性原則Microsoft Teams 會議室](conditional-access-and-compliance-for-devices.md)
 
-如果可能的話，建議您在 Azure AD 中建立資源帳戶。 雖然同步處理的帳戶可以在混合式部署Teams 會議室，但這些同步處理的帳戶通常難以Teams 會議室且可能難以進行疑難排解。 如果您選擇使用協力廠商聯合服務驗證資源帳戶的認證，請確定協力廠商 IDP `wsTrustResponse` 會以設為 的屬性回應 `urn:oasis:names:tc:SAML:1.0:assertion` 。
+建議您盡可能在 Azure AD 中建立資源帳戶。 雖然同步處理的帳戶可以在混合式部署中使用Teams 會議室，但這些同步處理的帳戶通常很難登入Teams 會議室，而且可能難以進行疑難排解。 如果您選擇使用協力廠商同盟服務驗證資源帳戶的認證，請確定協力廠商 IDP 會在屬性設為 `urn:oasis:names:tc:SAML:1.0:assertion` 時回應 `wsTrustResponse` 。
 
 ## <a name="network-security"></a>網路安全性
 
-一般而言Teams 會議室用戶端的網路需求Microsoft Teams相同。 透過防火牆和其他安全性裝置存取，Teams 會議室用戶端的存取Microsoft Teams相同。 針對Teams 會議室，列為「必填」Teams必須在防火牆上開啟。 Teams 會議室使用 Windows管理Microsoft Store，Microsoft Intune (使用者也需要存取 Microsoft Intune、) 。 有關所需 IP 和 URL 的完整清單，請參閱Microsoft Teams 會議室：
+一般而言，Teams 會議室的網路需求與任何Microsoft Teams用戶端相同。 透過防火牆和其他安全性裝置存取的Teams 會議室與任何其他Microsoft Teams用戶端相同。 專為Teams 會議室，Teams列為「必要」的類別必須在防火牆上開啟。 如果您使用 Microsoft Intune 管理裝置) ，Teams 會議室也需要存取Windows Update、Microsoft Store和Microsoft Intune (。 如需Microsoft Teams 會議室所需的 IP 和 URL 完整清單，請參閱：
 
-- **Microsoft Teams Office 365** [URL 和 IP 位址範圍](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
-- **Windows更新**[設定 WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
-- **Microsoft Store**[與教育商務用 Microsoft Store先決條件](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
-- **Microsoft Intune**[網路端點Microsoft Intune](/mem/intune/fundamentals/intune-endpoints)
+- **Microsoft Teams** [Office 365 URL 和 IP 位址範圍](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide#skype-for-business-online-and-microsoft-teams)
+- **Windows Update**[設定 WSUS](/windows-server/administration/windows-server-update-services/deploy/2-configure-wsus#211-connection-from-the-wsus-server-to-the-internet)
+- **Microsoft Store** [商務用 Microsoft Store 和教育的先決條件](/microsoft-store/prerequisites-microsoft-store-for-business#proxy-configuration)
+- **Microsoft Intune**[適用于 Microsoft Intune 的網路端點](/mem/intune/fundamentals/intune-endpoints)
 
-如果您使用的是 Microsoft Teams 會議室的受Microsoft Teams 會議室進階版服務元件，您也需要確認Teams 會議室能夠存取下列 URL：
+如果您使用的是 Microsoft Teams 會議室進階版 的Microsoft Teams 會議室管理服務元件，您也需要確認Teams 會議室可以存取下列 URL：
 
 - agent.rooms.microsoft.com
 - global.azure-devices-provisioning.net
@@ -121,17 +121,17 @@ Windows組組設計工具可用來建立Windows 10套件。 除了變更本機�
 - mmrprodnoamiot.azure-devices.net
 - mmrprodnoamstor.blob.core.windows.net
 
-Teams 會議室已配置為使用最新的更新 ，包括安全性更新Windows自行修補。 Teams 會議室使用預先設定的本地策略，每天從上午 2：00 開始安裝任何擱置的更新。 不需要使用其他工具來部署並Windows更新。 使用其他工具來部署及應用更新可能會延遲安裝Windows修補程式，因此會導致較安全的部署。 系統Teams 會議室應用程式是使用 Microsoft Store。 如果您的裝置已授權Microsoft Teams 會議室標準版，任何新版本的應用程式都會在夜間修補程式期間自動安裝。 如果您的裝置已授權Microsoft Teams 會議室進階版 Microsoft Managed Service 註冊，系統會根據您定義的部署Teams 會議室安裝新版本的 App。
+Teams 會議室設定為自動保持自己修補最新的Windows更新，包括安全性更新。 Teams 會議室使用預先設定的本地原則，每天從早上 2：00 開始安裝任何擱置中的更新。 您不需要使用其他工具來部署和套用Windows更新。 使用其他工具來部署和套用更新可能會延遲安裝Windows修補程式，因此導致部署較不安全。 Teams 會議室應用程式是使用Microsoft Store部署。 如果您的裝置已獲得Microsoft Teams 會議室標準版授權，任何新版本的應用程式都會在夜間修補程式期間自動安裝。 如果您的裝置已獲得Microsoft Teams 會議室進階版授權，並且已註冊 Microsoft Managed Service，則系統會根據您定義的推行計畫安裝新版的 Teams 會議室 應用程式。
 
-Teams 會議室裝置可與大多數的 802.1X 或其他網路安全通訊協定一起使用。 不過，我們無法針對所有可能的Teams 會議室安全性組進行測試。 因此，如果發生可追蹤到網路性能問題的績效問題，您可能需要停用這些通訊協定 ，如果這些通訊協定已由貴組織所配置。
+Teams 會議室裝置可搭配大部分的 802.1X 或其他網路安全性通訊協定使用。 不過，我們無法針對所有可能的網路安全性設定測試Teams 會議室。 因此，如果出現可追蹤到網路效能問題的效能問題，如果您的組織已設定這些通訊協定，您可能需要停用這些通訊協定。
 
-為了獲得最佳即時媒體的顯示效果，我們強烈建議您設定Teams媒體流量，以忽略 Proxy 伺服器和其他網路安全性裝置。 即時媒體對於延遲非常敏感，Proxy 伺服器和網路安全性裝置可能會大幅降低使用者的視音訊品質。 此外，Teams媒體已經加密，因此透過 Proxy 伺服器傳遞流量並沒有明顯的好處。 若要詳細資訊，請參閱將 (網路) [—](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide)一位架構設計師的觀點，探討使用 Microsoft Teams 和 Microsoft Teams 會議室 的網路建議。
+為了獲得即時媒體的最佳效能，我們強烈建議您設定Teams媒體流量略過 Proxy 伺服器及其他網路安全性裝置。 即時媒體非常延遲，Proxy 伺服器和網路安全性裝置可能會大幅降低使用者的視訊和音訊品質。 此外，由於Teams媒體已加密，因此透過 Proxy 伺服器傳遞流量沒有任何明顯的好處。 如需詳細資訊，請參閱將[ (連線到雲端) — 一個架構的](/microsoft-365/solutions/networking-design-principles?view=o365-worldwide)架構討論網路建議，以透過Microsoft Teams和Microsoft Teams 會議室來改善媒體效能。
 
 > [!IMPORTANT]
-> Teams 會議室不支援經過驗證的 Proxy 伺服器。
+> Teams 會議室不支援已驗證的 Proxy 伺服器。
 
-Teams 會議室裝置不需要連接到內部 LAN。 請考慮將Teams 會議室直接網際網路存取置於安全網路區段中。 如果您的內部 LAN 遭到入侵，將會減少攻擊Teams 會議室的機會。
+Teams 會議室裝置不需要連線到內部 LAN。 考慮將Teams 會議室放在具有直接網際網路存取的安全網路區段中。 如果您的內部 LAN 遭到入侵，將減少向Teams 會議室的攻擊向量機會。
 
-我們強烈建議您將您的Teams 會議室裝置連接到有線網路。 不建議或Teams 會議室裝置上使用無線網路。 某些連接功能 ，例如 Wi-Fi，預設會停用。
+我們強烈建議您將Teams 會議室裝置連線到有線網路。 不建議或認證在Teams 會議室裝置上使用無線網路。 某些連線功能，例如Wi-Fi感知器，預設為停用。
 
-鄰近連接和其他Teams 會議室功能仰賴藍牙。 不過，藍牙裝置上的Teams 會議室，不允許外部裝置連接到Teams 會議室裝置。 藍牙裝置上Teams 會議室目前僅限於廣告標誌和提示的親數連接。 通訊 `ADV_NONCONN_INT` 協定資料單位 (PDU) 用於廣告標誌。 此 PDU 類型適用于無法連接裝置向聆聽裝置廣告資訊。 這些功能藍牙裝置配對。 您可以在 SIG 藍牙上找到有關藍牙[的其他詳細資料](https://www.bluetooth.com/blog/bluetooth-low-energy-it-starts-with-advertising/)。
+鄰近連接及其他Teams 會議室功能仰賴藍牙。 不過，Teams 會議室裝置上的藍牙實作不允許外部裝置連線至Teams 會議室裝置。 藍牙裝置上使用的 Teams 會議室技術目前僅限於廣告指標和提示的近似連線。 PDU `ADV_NONCONN_INT`) 類型 (通訊協定資料單位會用於廣告指標中。 此 PDU 類型適用于無法連線裝置的廣告資訊給聆聽的裝置。 這些功能沒有藍牙裝置配對。 如需藍牙通訊協定的其他詳細資料，請參[閱 藍牙 SIG 網站](https://www.bluetooth.com/blog/bluetooth-low-energy-it-starts-with-advertising/)。

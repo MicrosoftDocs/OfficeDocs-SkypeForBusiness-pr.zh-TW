@@ -1,8 +1,8 @@
 ---
 title: Microsoft Teams 會議室
 ms.reviewer: ''
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 瞭解如何設定Microsoft Teams 會議室，包括規劃、部署和管理系統，以建立您理想的虛擬會議室。
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 85ddcccc2de769a20f12357aafcb2d5743f981c3
-ms.sourcegitcommit: 0967f725aad0a7b9c430b2e30a37ea333007558a
+ms.openlocfilehash: 917b260bc7377c47be52c71179a7a027649846b4
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/27/2022
-ms.locfileid: "65106318"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761125"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams 會議室
 

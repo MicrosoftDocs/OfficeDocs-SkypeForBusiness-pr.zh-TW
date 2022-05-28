@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 會議室維護與作業
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 瞭解管理Microsoft Teams 會議室。
-ms.openlocfilehash: d57f84aa07c90b6a75693f0cbf739402a6e90a4c
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: df9760694bd8e0c650be25eec7d435efcae02127
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125468"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65761055"
 ---
 # <a name="microsoft-teams-rooms-maintenance-and-operations"></a>Microsoft Teams 會議室維護與作業
  
@@ -30,7 +30,7 @@ Microsoft Teams 會議室是 Microsoft 的會議解決方案，旨在將會議�
 
 若要在 Teams 系統管理中心收集記錄，請移至 **Windows 上的 Teams 部裝置> Teams 會議室**。 選取您要記錄檔之裝置的顯示名稱。 在頂端面板中，選取 [下載裝置記錄檔]。 確認之後，記錄檔將在幾分鐘後於 [歷程記錄] 索引標籤中準備下載。
 
-您也可以使用 PowerShell 來收集記錄。 您必須叫用隨附于 Microsoft Teams 會議室 應用程式的記錄收集腳本。 在 [系統管理模式中](rooms-operations.md)，啟動提升許可權的命令提示字元，併發出下列命令：
+您也可以使用 PowerShell 來收集記錄。 您必須叫用隨附于 Microsoft Teams 會議室 應用程式的記錄收集腳本。 在[管理員模式中](rooms-operations.md)，啟動提升許可權的命令提示字元，併發出下列命令：
   
 ```PowerShell
 powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\ScriptLaunch.ps1 CollectSrsV2Logs.ps1
@@ -96,11 +96,11 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
 
 |工作組|未加入網域|加入網域|
 |:-----|:-----|:-----|
-|重新 啟動  <br/> |Teams系統管理中心  <br/> 遠端桌面  <br/> 遠端 PowerShell  <br/> | <br/>遠端桌面 (需要進一步的設定)   <br/> 遠端 PowerShell (需要進一步的設定)   <br/> Configuration Manager  <br/> |
+|重新 啟動  <br/> |Teams 系統管理中心  <br/> 遠端桌面  <br/> 遠端 PowerShell  <br/> | <br/>遠端桌面 (需要進一步的設定)   <br/> 遠端 PowerShell (需要進一步的設定)   <br/> Configuration Manager  <br/> |
 |更新作業系統  <br/> |Windows Update  <br/> |Windows Update  <br/> WSUS  <br/> |
-|應用程式更新  <br/> |Windows Store  <br/> |Windows Store  <br/> Configuration Manager  <br/> |
-|帳戶設定  <br/> |Teams系統管理中心  <br/> |Teams系統管理中心  <br/> |
-|Access 記錄檔  <br/> |Teams系統管理中心  <br/> PowerShell  <br/> |Teams系統管理中心 <br/> PowerShell  <br/>  |
+|應用程式更新  <br/> |Windows Microsoft Store  <br/> |Windows Microsoft Store  <br/> Configuration Manager  <br/> |
+|帳戶設定  <br/> |Teams 系統管理中心  <br/> |Teams 系統管理中心  <br/> |
+|Access 記錄檔  <br/> |Teams 系統管理中心  <br/> PowerShell  <br/> |Teams 系統管理中心 <br/> PowerShell  <br/>  |
    
 ## <a name="configuring-group-policy-for-microsoft-teams-rooms"></a>設定 Microsoft Teams 會議室 的群組原則
 <a name="GroupPolicy"> </a>
@@ -159,10 +159,10 @@ powershell -ExecutionPolicy unrestricted c:\rigel\x64\scripts\provisioning\Scrip
   
 例如，您可以啟用遠端 PowerShell，如下所示：
   
-1. 以系統管理員身分登入Microsoft Teams 會議室裝置。
+1. 在Microsoft Teams 會議室裝置上以管理員身分登入。
 2. 開啟提升許可權的 PowerShell 命令提示字元。
 3. 輸入下列命令： `Enable-PSRemoting -SkipNetworkProfileCheck -Force`
-4. 開啟本機安全性原則，並將系統 *管理員* 安全性群組新增至 **安全性設定**  >  **Local PoliciesUser**  >  **版權指派**  >  **從網路存取此電腦**。
+4. 開啟本機安全性原則，並將系統 *管理員* 安全性群組新增至 **安全性設定**  >  **本地原則**  >  **使用者權利指派**  >  **從網路存取此電腦**。
 
 若要執行管理作業：
   
@@ -221,23 +221,23 @@ Copy-Item $movefile $targetDevice
 ## <a name="software-updates"></a>軟體更新
 <a name="SWupdate"> </a>
 
-根據預設，Microsoft Teams 會議室嘗試連線到 Windows Store 以取得最新版本的 Microsoft Teams 會議室 軟體。 因此，Teams 會議室需要定期存取網際網路。 在連絡 Microsoft 以解決支援問題之前，請確定Microsoft Teams 會議室已載入最新版本的應用程式。
+根據預設，Microsoft Teams 會議室嘗試連線到Windows Microsoft Store以取得最新版本的 Microsoft Teams 會議室 軟體。 因此，Teams 會議室需要定期存取網際網路。 在連絡 Microsoft 以解決支援問題之前，請確定Microsoft Teams 會議室已載入最新版本的應用程式。
   
 Microsoft Teams 會議室連線至Windows Update以擷取作業系統和周邊裝置韌體更新。 它也會連線至Microsoft Store以擷取應用程式更新。
 
 如果您需要手動管理應用程式更新，但無法按照一般程式[商務用 Microsoft Store](https://businessstore.microsoft.com/store)[散佈離線應用程式](/microsoft-store/distribute-offline-apps)，您可以取得Teams 會議室更新套件，以在支援的作業系統上執行應用程式更新。 更新版本可能會跟 Microsoft Store 版本落後，而且可能不一定總是符合最新可用的組建。 若要深入瞭解，請參閱[手動更新Microsoft Teams 會議室裝置](manual-update.md)。
 
-## <a name="admin-mode-and-device-management"></a>系統管理模式與裝置管理
+## <a name="admin-mode-and-device-management"></a>管理員模式與裝置管理
 <a name="AdminMode"> </a>
 
-有些管理功能，例如手動安裝私人 CA 憑證，需要將Teams 會議室設為系統管理模式。 
+有些管理功能，例如手動安裝私人 CA 憑證，需要將Teams 會議室放在管理員模式中。 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>切換到系統管理模式，並在Microsoft Teams 會議室應用程式執行時返回
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-is-running"></a>切換至管理員模式，並在Microsoft Teams 會議室應用程式執行時返回
 
 1. 掛斷任何進行中的通話，然後返回主畫面。
 2. 選取 [齒輪] 圖示並顯示功能表， (**設定、****協助工具** 和 **重新開機裝置**) 選項。
 3. 選 **取 [設定]**。
-4. 輸入系統管理員密碼。 安裝程式畫面隨即出現。  如果裝置未加入網域，預設會使用本機系統管理帳戶 (使用者名稱 「Admin」) 。 此帳戶的預設密碼為 'sfb'。 請儘快變更此密碼。 如果電腦已加入網域，您可以使用適當許可權的網域帳戶登入。
+4. 輸入系統管理員密碼。 安裝程式畫面隨即出現。  如果裝置未加入網域，預設會使用本機系統管理帳戶 (使用者名稱「管理員」) 。 此帳戶的預設密碼為 'sfb'。 請儘快變更此密碼。 如果電腦已加入網域，您可以使用適當許可權的網域帳戶登入。
 5. 選 **Windows 設定** 左欄。
 6. 使用您的系統管理認證登入桌面。 您將擁有管理裝置的必要許可權。
 7. 執行必要的系統管理工作。
@@ -245,7 +245,7 @@ Microsoft Teams 會議室連線至Windows Update以擷取作業系統和周邊�
     
 主機現在恢復為正常運作模式。 如果尚未連接鍵盤，下列程式會要求您將鍵盤連接到裝置。 
   
-### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>切換到系統管理模式，並在Microsoft Teams 會議室應用程式當機時返回
+### <a name="switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes"></a>切換至管理員模式，並在Microsoft Teams 會議室應用程式當機時返回
 
 1. 快速連續按Windows鍵五次。 這會將您帶到Windows登入畫面。 
 2. 使用您的系統管理認證登入桌面。

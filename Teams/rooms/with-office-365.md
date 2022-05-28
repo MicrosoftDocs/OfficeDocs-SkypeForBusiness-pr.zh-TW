@@ -1,7 +1,7 @@
 ---
 title: 建立會議室和共用Teams裝置的資源帳戶
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,16 +15,16 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: 請閱讀本文，瞭解如何建立會議室和共用裝置的資源帳戶，包括會議室和共用裝置的Microsoft Teams 會議室、Surface Hub上的Teams 會議室，以及Teams顯示器上的快捷方式。
-ms.openlocfilehash: e788ca2086faf86f602ef0938d520ea03dce4ef4
-ms.sourcegitcommit: 5bfd2e210617e4388241500eeda7b50d5f2a0ba3
+ms.openlocfilehash: 53d69a5dd91e012bc948bad1b9d7350afcbbb1b2
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2022
-ms.locfileid: "64885021"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760885"
 ---
 # <a name="create-and-configure-resource-accounts-for-rooms-and-shared-teams-devices"></a>建立及設定會議室和共用Teams裝置的資源帳戶
 
-本文提供針對共用空間和裝置建立資源帳戶的步驟，其中包含在 Windows 上設定Microsoft Teams 會議室的資源帳戶、在 Android 上Teams 會議室、在Surface Hub上Teams 會議室，以及在Teams顯示器上設定快捷方式的步驟。.
+本文提供建立共用空間和裝置之資源帳戶的步驟，其中包含在 Windows 上設定Microsoft Teams 會議室的資源帳戶、Android Teams 會議室、Surface Hub上的Teams 會議室，以及開啟快速鍵的步驟。Teams顯示器。
 
 Microsoft 365資源帳戶是專屬於特定資源的信箱和Teams帳戶，例如會議室或投影機。 這些資源帳戶可以使用您在建立時定義的規則自動回應會議邀請。 例如，如果您有會議室等一般資源，您可以為該會議室設定資源帳戶，該會議室會根據其行事曆可用性自動接受或拒絕會議邀請。 
 
@@ -62,7 +62,7 @@ Microsoft 365資源帳戶是專屬於特定資源的信箱和Teams帳戶，例�
 
 - **PSTN 通話** 如果您希望資源撥打或接聽外部電話號碼的電話， (稱為公用交換電話網路或 PSTN 通話) ，您需要Microsoft 365 電話系統或Microsoft 365 商務語音授權。 您只需要完成下列概觀中的步驟 1。 然後，如需詳細資訊[，請參閱Microsoft Teams附加](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)元件授權。
 
-- 如果您只使用資源帳戶預約資源 &mdash; ，請邀請資源加入會議，並讓資源自動接受或拒絕邀請 &mdash; ，您不需要指派授權給資源帳戶，您只需要完成下列概觀中的步驟 1。  
+- 如果您只使用資源帳戶預約資源，請邀請資源 &mdash; 加入會議，並讓資源自動接受或拒絕您不需要指派授權給資源帳戶的邀請 &mdash; ，而且您只需要完成下列概觀中的步驟 1。  
 
 ## <a name="overview"></a>概觀
 
@@ -104,9 +104,9 @@ Microsoft 365資源帳戶是專屬於特定資源的信箱和Teams帳戶，例�
       - 工期 (小時) ：24
     - 自動接受會議邀請
 
-    如果您想要變更它們，請選取 **[設定排程選項** ]，然後再選取 **[關閉]**。 如果您之後想要變更它們，請移至 **ResourcesRooms**  >  **&設備**，選取資源帳戶。 然後在 **[Booking 選項]** 底下，選取 **[編輯]**。
+    如果您想要變更它們，請選取 **[設定排程選項** ]，然後再選取 **[關閉]**。 如果您之後想要變更它們，請移至 [**資源**  >  **會議室] &設備**，選取資源帳戶。 然後在 **[Booking 選項]** 底下，選取 **[編輯]**。
 
-6. 移至 [**使用者**  >  **作用中的使用者]**，然後選取您建立的聊天室來開啟 [內容] 面板。
+6. 移至 **[使用者**  >  **作用中使用者]**，然後選取您建立的會議室以開啟 [內容] 面板。
 
 7. 接下來，將密碼指派給資源帳戶。 在面板中，選取 **[重設密碼]**。
  
@@ -202,7 +202,7 @@ Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMail
 > [!IMPORTANT]
 > 如果您只使用此資源帳戶預約空間，並自動接受或拒絕邀請，表示您已完成設定。 如果您使用此資源帳戶進行 PSTN 通話，請參[閱Microsoft Teams附加](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)元件授權以判斷它需要哪些授權。
 >
-> 只有當資源帳戶用於Windows上的Teams 會議室、Android 上的Teams 會議室、Surface Hub上的Teams 會議室或Teams顯示器使用桌上型電腦時，才能繼續進行下一節。
+> 只有當資源帳戶用於Windows上的Teams 會議室、Android上的Teams 會議室、Surface Hub上的Teams 會議室或Teams顯示器使用快速鍵時，才能繼續下一節。
 
 ## <a name="configure-mailbox-properties"></a>設定信箱屬性
 
@@ -315,7 +315,7 @@ Set-AzureADUser -ObjectID ConferenceRoom01@contoso.com -PasswordPolicies Disable
 #### <a name="active-directory-20"></a>[**Active Directory 2.0**](#tab/active-directory2-license/)
 
 
-1. 連線Azure AD
+1. 連線至 Azure AD
   
     ```PowerShell
     Connect-AzureAD
