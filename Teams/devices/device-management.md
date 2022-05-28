@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中管理您的裝置
-author: cazawideh
-ms.author: czawideh
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4346d82e490d28840e029d257cbeeb4c4e10765
-ms.sourcegitcommit: e102d72e67ab1c440c29ae6a048fc2cf8545fe01
+ms.openlocfilehash: 576c22d95dbbbb16105eb8e365c717ba7140cfb8
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "65220347"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65767239"
 ---
 # <a name="microsoft-teams-managing-your-devices"></a>Microsoft Teams：管理您的裝置 
 
@@ -66,13 +66,13 @@ ms.locfileid: "65220347"
 | 檢視會議活動                  | 選取裝置名稱以開啟 [活動] >裝置詳細 **資料**。 當您開啟 [ **活動] 索** 引標籤時，您可以看到裝置參與的所有會議。 此摘要檢視會顯示會議開始時間、參與者數目、持續時間，以及整體通話品質。                                                                                        |
 | 檢視會議詳細資料                   | 選取裝置名稱以在 [ **活動** ] >開啟裝置詳細資料>選取會議。 當您開啟會議的詳細資料時，您可以看到會議中的所有參與者、他們在通話中的時間長度、Teams會話類型，以及他們的個別通話品質。 如果您想要查看參與者通話的技術資訊，請選取該參與者的通話開始時間。 |
 
-## <a name="manage-phones-teams-rooms-on-android-teams-displays-and-teams-panels"></a>管理手機、Android Teams 會議室、Teams顯示器和Teams面板 
+## <a name="manage-phones-teams-rooms-on-android-teams-displays-and-teams-panels"></a>管理手機、Teams 會議室Android、Teams顯示器和Teams面板 
 
-在Teams系統管理中心，您可以檢視和管理您組織中Teams上的電話、Android Teams 會議室、Teams顯示器，以及Teams註冊的面板。 您會針對每個裝置看到的資訊包括裝置名稱、製造商、型號、使用者、狀態、動作、上次查看和歷程記錄。 您可以自訂檢視以顯示符合您需求的資訊。
+在Teams系統管理中心，您可以檢視和管理您組織中Teams上Android的電話、Teams 會議室、Teams顯示器，以及Teams面板。 您會針對每個裝置看到的資訊包括裝置名稱、製造商、型號、使用者、狀態、動作、上次查看和歷程記錄。 您可以自訂檢視以顯示符合您需求的資訊。
 
 如果您已註冊手機、Android Teams 會議室、Teams顯示器和Teams面板，Microsoft Intune會自動註冊。 註冊裝置之後，確認裝置合規性，並套用條件式存取原則至裝置。
 
-以下是一些範例，說明如何在組織中管理手機、Android Teams 會議室、Teams顯示器，以及Teams面板。  
+以下是一些範例，說明如何管理組織中的手機、Teams 會議室Android、顯示器Teams，以及Teams面板。  
 
 | 若要這麼做...                           | 執行此動作                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -87,13 +87,13 @@ ms.locfileid: "65220347"
 
 ### <a name="use-configuration-profiles-in-teams"></a>在 Teams 中使用組態設定檔
 
-使用組態設定檔來管理貴組織中不同Teams裝置的設定和功能，包括 Android、Teams顯示器、Teams手機和Teams面板上的Teams 會議室。 您可以建立或上傳組態設定檔以包含您想要啟用或停用的設定和功能，然後將設定檔指派給裝置或一組裝置。 
+使用組態設定檔來管理貴組織中不同Teams裝置的設定和功能，包括Android、Teams顯示器、Teams手機和Teams面板上的Teams 會議室。 您可以建立或上傳組態設定檔以包含您想要啟用或停用的設定和功能，然後將設定檔指派給裝置或一組裝置。 
 
 #### <a name="create-a-configuration-profile"></a>建立組態設定檔
 
 若要建立Teams裝置類型的設定設定檔：
 
-1. 在左側導覽中，移至 **[Teams裝置**] >選取 [設定 **] 設定檔**> Teams裝置類型。 例如，選 **Teams [裝置**  >  **Teams面板**  >  設定 **設定檔**]，為Teams面板建立新的組態設定檔。
+1. 在左側導覽中，移至 **[Teams裝置**] >選取 [設定 **] 設定檔**> Teams裝置類型。 例如，選 **Teams [裝置**  >  **Teams面板**  >  **設定設定檔**]，為Teams面板建立新的組態設定檔。
 2. 按一下 [新增 **]**。
 3. 輸入設定檔的名稱，並選擇性地新增好記的描述。
 4. 指定您想要的設定檔設定，然後按一下 [儲存 **]**。

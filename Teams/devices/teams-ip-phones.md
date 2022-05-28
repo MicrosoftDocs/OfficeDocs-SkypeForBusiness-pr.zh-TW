@@ -1,7 +1,7 @@
 ---
 title: 適用于 Teams 的裝置
-ms.author: czawideh
-author: cazawideh
+ms.author: dstrome
+author: dstrome
 manager: serdars
 ms.reviewer: divank
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過認證，Microsoft Teams才能產生最佳結果。
-ms.openlocfilehash: 6506c4820791cbea68630ce60c5c35c6e644e894
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 7ad570697609c8e2f6d2cd13cb26c0e147822afa
+ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675945"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "65760935"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認證的Android裝置
 
@@ -48,8 +48,6 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，且在�
 | AudioCodes C450HD                      | `1.17.443`                                                  |    2023 年 8 月 5 日              | 9 |
 | AudioCodes C448HD (Cap Mode)        |  `1.17.443`                                                   | 2023 年 8 月 5 日            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | 2025 年 9 月 3 日     | 11 |
-| AudioCodes C450HD                      | `C450HD_TEAMS_0.225`                                                  | 2022 年 4 月 22 日               | 7.1.x |
-| AudioCodes C448HD (Cap Mode)        | `C450HD_TEAMS_0.225`                                                  | 2022 年 4 月 22 日               | 7.1.x |
 | Cres 要點 UC-P10/T/CT                   | `1.0.0.80`       | 2023 年 8 月 5 日            | 9 |
 | Cres}UC-P8/T /CT                   | `1.0.0.56`       | 2023 年 8 月 5 日            | 9 |
 | Audiocodes C470HD                      | `1.8.293   `                                               | 2023 年 8 月 5 日               | 9 |
@@ -231,6 +229,7 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，且在�
 
 | 產品發行版本| 發行日期 | Microsoft Teams應用程式版本 | 公司入口網站版本 | 管理員專員版本 |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 更新 #2  | 2022 年 5 月 25 日 |`1449/1.0.96.2022051102`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2022 更新 #1  | 2022 年 2 月 24 日 |`1449/1.0.96.2022011305`| `5.0.5304.0` | `1.0.0.202112100118.product version code : 322` |
 | 2021 更新#2A | 2021 年 7 月 15 日  |`1449/1.0.96.2021070803`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
 | 2021 更新 #2 | 2021 年 6 月 28 日  |`1449/1.0.96.2021051904`|  `5.0.5088.0` |  `1.0.0.202104280345.product version code: 262` |
