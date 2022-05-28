@@ -1640,6 +1640,8 @@ items:
         items:
           - name: 開始使用適用於前線工作者的 Teams
             href: flw-landing-page.md
+          - name: 從 Frontline 試用版開始
+            href: flw-trial.md
           - name: 適用於前線員工的授權選項
             href: flw-licensing-options.md
           - name: 前線員工快速入門手冊
