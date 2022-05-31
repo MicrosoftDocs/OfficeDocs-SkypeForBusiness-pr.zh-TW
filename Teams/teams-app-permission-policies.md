@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 648150f67471f1721a035e2fd19fded274ecd05e
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 4872cb6222d8841bb2efe6be0e19fa17d3557e33
+ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681594"
+ms.lasthandoff: 05/31/2022
+ms.locfileid: "65780639"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式權限原則
 
@@ -59,12 +59,13 @@ ms.locfileid: "65681594"
 
 1. 提供原則的名稱和描述。
 1. 在 [Microsoft 應用程式 **]**、[第三方應用程式 **]** 和 [自訂應用程式 **]** 下，選取下列其中一項：
-   - **允許所有應用程式**
-   - **允許特定的應用程式並封鎖所有其他的**
-   - **封鎖特定的應用程式並允許所有其他的**
-   - **封鎖所有應用程式**
 
-1. 如果您選取 [允許特定的應用程式並封鎖所有其他的 **]**，請新增您要允許的應用程式：
+    * 允許所有應用程式
+    * 允許特定的應用程式並封鎖所有其他的
+    * 封鎖特定的應用程式並允許所有其他的
+    * 封鎖所有應用程式
+
+1. 如果您選取 **[允許特定應用程式並封鎖所有其他** 應用程式]，請新增您要允許的應用程式：
 
     1. 選取 [允許應用程式 **]**。
     1. 搜尋您要允許的應用程式，然後選取 [ **新增]**。 搜尋結果會篩選至應用程式發行者 (**Microsoft 應用程式**、**第三方應用程式** 或 **自訂應用程式**)。
@@ -104,8 +105,9 @@ ms.locfileid: "65681594"
   ![GCC中全組織應用程式設定的螢幕擷取畫面。](media/app-permission-policies-gcc-org-wide.png)
 
 1. 在 [第三方應用程式 **]** 下，關閉或開啟這些設定，以控制對第三方應用程式的存取權：
-   - **允許協力廠商應用程式**：此選項會控制使用者是否可以使用協力廠商應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何第三方應用程式。 在Microsoft 365政府 - GCCH 和 DoD 部署的 Teams 中，此設定預設為關閉。
-   - **允許預設發佈至 Microsoft Store 的任何新協力廠商應用程式**：此選項會控制發佈至Teams應用程式存放區的新協力廠商應用程式是否會自動在 Teams 中使用。 您只能在允許第三方應用程式時設定此選項。
+
+    * **允許協力廠商應用程式**：此選項會控制使用者是否可以使用協力廠商應用程式。 如果您關閉此設定，您的使用者將無法安裝或使用任何第三方應用程式。 在Microsoft 365政府 - GCCH 和 DoD 部署的 Teams 中，此設定預設為關閉。
+    * **允許預設發佈至 Microsoft Store 的任何新協力廠商應用程式**：此選項會控制發佈至Teams應用程式存放區的新協力廠商應用程式是否會自動在 Teams 中使用。 您只能在允許第三方應用程式時設定此選項。
 
 1. 在 [封鎖的應用程式 **]** 下，新增您想要在組織中封鎖存取權的應用程式。 在Microsoft 365政府 - GCCH 和 DoD 部署的 Teams 中，根據預設，所有協力廠商應用程式都會新增至此清單中。 針對您想要在組織中允許的任何第三方應用程式，請從此封鎖的應用程式清單中移除該應用程式。 當您封鎖整個應用程式組織時，無論任何應用程式許可權原則中是否允許該應用程式，都會自動為您的所有使用者封鎖該應用程式。
 
@@ -156,12 +158,12 @@ ms.locfileid: "65681594"
 
 例如，當應用程式遭到封鎖時，使用者無法執行下列任何一項工作：
 
-- 自行新增應用程式或將應用程式新增至聊天或小組
-- 傳送訊息給應用程式的 Bot
-- 執行會將資訊傳送回應用程式的按鈕動作，例如，可採取動作的郵件  
-- 檢視應用程式的索引標籤
-- 設定連接器以接收通知
-- 使用應用程式的訊息延伸模組
+* 自行新增應用程式或將應用程式新增至聊天或小組
+* 傳送訊息給應用程式的 Bot
+* 執行會將資訊傳送回應用程式的按鈕動作，例如，可採取動作的郵件  
+* 檢視應用程式的索引標籤
+* 設定連接器以接收通知
+* 使用應用程式的訊息延伸模組
 
 允許舊版入口網站在組織層級控制應用程式，這表示當某個應用程式遭到封鎖時，系統會為組織中的所有使用者封鎖該應用程式。 在 [管理應用程式[]](manage-apps.md) 頁面上封鎖應用程式的運作方式完全相同。
 
@@ -169,6 +171,6 @@ ms.locfileid: "65681594"
 
 ## <a name="see-also"></a>另請參閱
 
-- [在 Teams 中管理應用程式的設定](admin-settings.md)
-- [在 Teams 中將原則指派給使用者](policy-assignment-overview.md)
-- [Teams功能可用性比較](/office365/servicedescriptions/teams-service-description#feature-availability)
+* [在 Teams 中管理應用程式的設定](admin-settings.md)
+* [在 Teams 中將原則指派給使用者](policy-assignment-overview.md)
+* [Teams功能可用性比較](/office365/servicedescriptions/teams-service-description#feature-availability)

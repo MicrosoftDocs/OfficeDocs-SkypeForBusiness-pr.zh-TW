@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 中更新應用程式。
-ms.openlocfilehash: ed9a1de2e182088a20721758c63f8b6d83cc36df
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 7139fb1f1788ff0e9fe093a17fbe08842f47bfd9
+ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674995"
+ms.lasthandoff: 05/31/2022
+ms.locfileid: "65780609"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>更新 Microsoft Teams 中的應用程式
 
@@ -43,7 +43,3 @@ ms.locfileid: "65674995"
 
 > [!NOTE]
 > 更新程式適用于 Microsoft 應用程式、自訂應用程式和協力廠商應用程式的所有應用程式更新。
-
-## <a name="related-topics"></a>相關主題
-
-[管理應用程式](manage-apps.md)
