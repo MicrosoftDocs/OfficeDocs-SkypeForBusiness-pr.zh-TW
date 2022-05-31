@@ -19,45 +19,37 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 7c00a5e70684a93f31a11d48ac542920fca3b697
-ms.sourcegitcommit: 9f7372f7568b4275169590510d2b7a0c0ad7577b
+ms.openlocfilehash: 05e70d9b1e69ff72eda8e984af1cb1228842f5da
+ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/03/2022
-ms.locfileid: "65171729"
+ms.lasthandoff: 05/31/2022
+ms.locfileid: "65786003"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>管理 Microsoft Teams 中的應用程式設定原則
 
-身為系統管理員，您可以使用應用程式設定原則來安裝和釘選應用程式以宣傳貴組織中最常使用的應用程式，以及決定是否要讓使用者將自訂應用程式上傳至Teams。
+身為系統管理員，您可以使用應用程式設定原則來安裝和釘選應用程式，並允許使用者上傳自訂應用程式。 釘選有助於促進組織中相關應用程式的採用。
 
-- **釘選應用程式：** 應用程式設定原則可讓您選擇要釘選的應用程式、設定使用者在Teams應用程式行或撰寫訊息區域中的顯示順序，以及控制使用者是否可以釘選自己的應用程式。 如需詳細資訊，請參閱 [釘選應用程式](#pin-apps)。
-- **安裝應用程式：** 應用程式設定原則可讓您在使用者啟動Teams和會議期間代表使用者安裝應用程式。 如需詳細資訊，請參閱 [安裝應用程式](#install-apps)。
-- **Upload自訂應用程式：** 應用程式設定原則可讓使用者上傳自訂應用程式以Teams。 如需詳細資訊，請[參閱Upload自訂應用程式。](#upload-custom-apps)
+* **釘選應用程式：** 應用程式設定原則可讓您選擇要釘選的應用程式，並設定應用程式在Teams應用程式行或撰寫訊息區域中顯示給使用者的順序。 系統管理員也可以控制使用者是否可以釘選自己的應用程式。 請參閱 [釘選應用程式](#pin-apps)。
+* **安裝應用程式：** 應用程式設定原則可讓您在使用者啟動Teams和會議期間代表使用者安裝應用程式。 如需詳細資訊，請參閱 [安裝應用程式](#install-apps)。
+* **Upload自訂應用程式：** 應用程式設定原則可讓使用者上傳自訂應用程式以Teams。 如需詳細資訊，請[參閱Upload自訂應用程式。](#upload-custom-apps)
 
 ## <a name="pin-apps"></a>釘選應用程式
 
-> [!NOTE]
-> 我們建議貴組織的第一線員工使用量身打造的第一線應用程式體驗。 這項功能會為擁有[F 授權](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt)的使用者釘選Teams中最相關的應用程式。 若要深入瞭解，請參閱[為前線員工量身Teams應用程式](pin-teams-apps-based-on-license.md)。
+釘選應用程式可讓您醒目提示組織中使用者最需要的應用程式。 釘選適用于 Microsoft、ISV 公司及組織內開發人員所提供的應用程式。 透過應用程式設定原則釘選應用程式也會安裝它。 使用應用程式設定原則，您可以執行下列工作：
 
-釘選應用程式可讓您展示組織中使用者需要的應用程式，包括協力廠商或貴組織開發人員所建置的應用程式。
+* 自訂 Teams 以強調對使用者而言最重要的應用程式。 您選擇要釘選的應用程式，並設定它們的顯示順序。
+* 控制使用者是否可以釘選應用程式。
 
-使用應用程式設定原則，您可以執行下列工作：
-
-- 自訂 Teams 以強調對使用者而言最重要的應用程式。 您選擇要釘選的應用程式，並設定它們的顯示順序。
-- 控制使用者是否可以將應用程式釘選到 Teams。
-
-應用程式會釘選到應用程式行，也就是Teams桌面用戶端左側和 iOS 和 Android) Teams行動 (用戶端底部的列。
+應用程式會釘選到Teams桌面用戶端左側及行動用戶端底部Teams應用程式行。
 
 |Teams 桌面用戶端  |Teams 行動用戶端 |
 |---------|---------|
-|![Teams桌面用戶端。](media/app-setup-policies-desktop-app-bar.png).  |   ![Teams行動用戶端](media/mobile-app-ui.png)      |
+|![Teams桌面用戶端中的應用程式行。](media/app-setup-policies-desktop-app-bar.png).  |   ![Teams行動用戶端中的應用程式行。](media/mobile-app-ui.png)      |
 
 訊息延伸模組位於撰寫郵件區域的底部。
 
-> [!NOTE]
-> 如果您有Teams 教育版，請務必瞭解[作業] 應用程式預設會釘選到全域原則中，即使目前未在全域原則中顯示。
-
-若要建立應用程式設定原則來釘選應用程式，請執行下列步驟：
+若要建立應用程式設定原則來釘選應用程式，請遵循下列步驟：
 
 1. 登入[Microsoft Teams系統管理中心](https://admin.teams.microsoft.com)。
 
@@ -84,30 +76,33 @@ ms.locfileid: "65171729"
 
 1. 選取 [儲存 **]**。
 
-## <a name="install-apps"></a>安裝應用程式
-
-您可以選擇使用者在其個人Teams環境中預設要安裝哪些應用程式、將應用程式安裝為[訊息延伸](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)模組，以及指定要在會議中安裝的應用程式。
-
-使用應用程式設定原則，您可以執行下列工作：
-
-- 在使用者的個人Teams環境中安裝應用程式
-- 為使用者安裝應用程式做為訊息延伸模組
-- 在會議召集人會議中安裝應用程式
+> [!NOTE]
+> 在 Teams 教育版 中，[作業] 應用程式預設會釘選在全域原則中，即使您沒有看到它列在全域原則中。
 
 > [!NOTE]
-> 如果指派給他們的 [應用程式許可權原則](teams-app-permission-policies.md) 允許，使用者仍然可以自行安裝應用程式。
+> 我們建議貴組織的第一線員工使用量身打造的第一線應用程式體驗。 這項功能會為擁有[F 授權](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt)的使用者釘選Teams中最相關的應用程式。 若要深入瞭解，請參閱[為前線員工量身Teams應用程式](pin-teams-apps-based-on-license.md)。
 
-若要建立應用程式設定原則來安裝應用程式，請執行下列步驟：
+## <a name="install-apps"></a>安裝應用程式
 
-1. 在Microsoft Teams系統管理中心的左側導覽畫面中，移至 **Teams應用程式**  >  **設定原則**。
+系統管理員可以使用應用程式設定原則來完成下列工作：
+
+* 根據預設，為使用者在其個人Teams環境中安裝應用程式。
+* 為使用者安裝應用程式做為 [訊息延伸模組](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)。
+* 在會議召集人的會議中安裝應用程式。
+
+如果應用程式許可權原則允許，使用者可以自行安裝 [應用程式](teams-app-permission-policies.md) 。
+
+若要建立應用程式設定原則來安裝應用程式，請遵循下列步驟：
+
+1. 登入Teams系統管理中心並 **存取Teams應用程式**  >  **設定原則**。
 
 2. 選取 [新增 **]**。
 
-3. 輸入原則的名稱和描述。
+3. 提供原則的名稱和描述。
 
 4. 在 **[已安裝的應用程式] 底** 下，選取 **[新增應用程式]**。
 
-5. 在 [ **新增已安裝的應用程式** ] 窗格中，搜尋您要為使用者自動安裝的應用程式。 您也可以依應用程式許可權原則篩選應用程式。
+5. 在 [ **新增已安裝的應用程式** ] 窗格中，搜尋您要為使用者安裝的應用程式。 您也可以依應用程式許可權原則篩選應用程式。
 
 6. 選取 [新增 **]**。
 
@@ -118,34 +113,32 @@ ms.locfileid: "65171729"
 
 ## <a name="upload-custom-apps"></a>Upload自訂應用程式
 
-您可以使用Microsoft Teams系統管理中心建立自訂原則，讓使用者上傳自訂應用程式以Teams。
+若要建立自訂原則以允許使用者上傳自訂應用程式，請遵循下列步驟：
 
-若要建立應用程式設定原則以允許使用者將自訂應用程式上傳至Teams，請執行下列步驟：
-
-1. 在Microsoft Teams系統管理中心的左側導覽畫面中，移至 **Teams應用程式**  >  **設定原則**。
+1. 登入Teams系統管理中心並 **存取Teams應用程式**  >  **設定原則**。
 
 2. 選取 [新增 **]**。
 
-3. 輸入原則的名稱和描述。
+3. 提供原則的名稱和描述。
 
-4. 根據您是否要讓使用者上傳 **自訂應用程式以Teams**，開啟或關閉自訂應用程式Upload。
+4. 開啟或關閉 **Upload自訂應用程式**。
 
 > [!NOTE]
-> 如果在 [全組織應用程式設定](manage-apps.md#manage-org-wide-app-settings)中關閉 **協力廠商應用程式**，您就無法變更此設定。
+> 若要變更此設定，您租使用者的 [整個組織應用程式設定](manage-apps.md#manage-org-wide-app-settings) 必須允許 **協力廠商應用程式**。
 
 ## <a name="manage-app-setup-policies"></a>管理應用程式設定原則
 
-您可以在Microsoft Teams系統管理中心管理應用程式設定原則。 使用全域 (組織的預設) 原則或建立及指派自訂原則。  除非您建立並指派自訂原則，否則貴組織中的使用者將會自動取得全域原則。 您必須是全域系統管理員或 Teams 服務系統管理員，才能管理這些原則。
+您可以在Microsoft Teams系統管理中心管理應用程式設定原則。 使用全域 (組織的預設) 原則或建立及指派自訂原則。 使用者取得全域原則。 如果您建立自訂原則，它會覆寫全域原則。 全域系統管理員或Teams服務系統管理員可以管理這些原則。
 
 您可以編輯全域原則中的設定，以包含您要的應用程式。 若要自訂群組織中不同使用者群組的Teams，請建立並指派一或多個自訂原則。
 
-![[應用程式設定原則] 頁面。](media/app-setup-policies-update.png)
+![應用程式設定原則頁面，以管理原則或新增原則。](media/app-setup-policies-update.png)
 
 ### <a name="edit-an-app-setup-policy"></a>編輯應用程式設定原則
 
 您可以使用Microsoft Teams系統管理中心來編輯原則，包括全域 (組織的預設) 原則和您建立的自訂原則。
 
-1. 在Microsoft Teams系統管理中心的左側導覽畫面中，移至 **Teams應用程式**  >  **設定原則**。
+1. 在 Microsoft Teams 系統管理中心的左側瀏覽窗格中，移至 **[Teams 應用程式]** > **[設定原則]**。
 
 2. 選擇您要編輯的原則，然後選取 [ **編輯]**。
 
@@ -157,15 +150,18 @@ ms.locfileid: "65171729"
 
 如需指派原則給使用者和群組的詳細資訊，請參閱 [指派原則給使用者和群組](assign-policies-users-and-groups.md)。
 
-## <a name="faq"></a>常見問題集
+## <a name="faqs"></a>常見問題 解答
+
+<!--- TBD: Incorporate these pointers in the content itself.
+--->
 
 ### <a name="working-with-app-setup-policies"></a>使用應用程式設定原則
 
 #### <a name="what-built-in-app-setup-policies-are-included-in-the-microsoft-teams-admin-center"></a>Microsoft Teams系統管理中心包含哪些內建應用程式設定原則
 
-- **全域 (組織預設)**：此預設原則會套用至貴組織中的所有使用者，除非您指派其他原則。 編輯全域原則以釘選對使用者最重要的應用程式。
+* **全域 (組織預設)**：此預設原則會套用至貴組織中的所有使用者，除非您指派其他原則。 編輯全域原則以釘選對使用者最重要的應用程式。
 
-- **第一線工作人員**：這項原則適用于第一線工作人員。 您可以將它指派給組織中的一線工作人員。 請務必瞭解，就像您建立的自訂原則一樣，您必須將原則指派給使用者，讓設定為使用中。 For more information, go to the [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users-and-groups) section of this article.
+* **第一線工作人員**：這項原則適用于第一線工作人員。 您可以將它指派給組織中的一線工作人員。 請務必瞭解，就像您建立的自訂原則一樣，您必須將原則指派給使用者，讓設定為使用中。 For more information, go to the [Assign a custom app setup policy to users](#assign-a-custom-app-setup-policy-to-users-and-groups) section of this article.
 
 #### <a name="why-cant-i-find-an-app-in-the-add-pinned-apps-pane"></a>為什麼我在 [新增釘選的應用程式] 窗格中找不到應用程式
 
@@ -179,7 +175,7 @@ Teams 教育版 中無法使用通話應用程式。 當您建立新的自訂應
 
 #### <a name="how-many-pinned-apps-can-be-added-to-a-policy"></a>有多少釘選的應用程式可以新增至原則
 
- (iOS 和 Android) ，至少必須將兩個應用程式釘選到Teams行動用戶端。 如果原則的應用程式少於兩個，行動用戶端將不會反映原則設定，而是會繼續使用現有的設定。
+最少兩個應用程式必須釘選到Teams行動用戶端 (iOS和Android) 。 如果原則的應用程式少於兩個，行動用戶端將不會反映原則設定，而是會繼續使用現有的設定。
 
 您可以新增至原則的釘選應用程式數量沒有限制。
 
@@ -200,9 +196,9 @@ Teams 教育版 中無法使用通話應用程式。 當您建立新的自訂應
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>行動Teams體驗須知事項
 
-iOS 和 Android (Teams行動用戶端) 支援具有靜態索引標籤的個人應用程式。 釘選到Teams桌面用戶端的應用程式會顯示在Teams行動用戶端中。 個人機器人會出現在行動用戶端的聊天中。
+Teams行動用戶端 (iOS和Android) 支援具有靜態索引標籤的個人應用程式。 釘選到Teams桌面用戶端的應用程式會顯示在Teams行動用戶端中。 個人機器人會出現在行動用戶端的聊天中。
 
-協力廠商應用程式 (可從 Teams Store 下載) 必須在行動裝置上顯示之前獲得核准。 如果系統管理員釘選 Microsoft 行動裝置版未核准的應用程式，該應用程式會顯示在Teams桌面，但不會顯示在行動裝置上。 如需詳細資訊，請參閱 [行動客戶](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) 端。
+協力廠商應用程式 (從Teams Microsoft Store) 下載，必須先核准，才能在行動裝置上顯示。 如果系統管理員釘選 Microsoft 行動裝置版未核准的應用程式，該應用程式會顯示在Teams桌面，但不會顯示在行動裝置上。 如需詳細資訊，請參閱 [行動客戶](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) 端。
 
 透過Teams行動用戶端，使用者會看到活動、聊天和Teams等核心Teams應用程式，而且您可以釘選 Microsoft 的一些第一方應用程式，例如 Shifts。
 
@@ -212,7 +208,7 @@ iOS 和 Android (Teams行動用戶端) 支援具有靜態索引標籤的個人�
 
 #### <a name="does-user-pinning-take-precedence"></a>使用者釘選優先順序是否優先
 
-系統管理員釘選一律優先。 如果 [ **使用者釘選** ] 選項已開啟，使用者會將其釘選的應用程式保留在系統管理員釘選的應用程式下方。 如果 [ **使用者釘選** ] 選項已關閉，使用者將會失去其預先存在的圖釘，應用程式行中只會出現系統管理員釘選的應用程式。
+管理員釘一律優先。 如果 [ **使用者釘選** ] 選項已開啟，使用者會將其釘選的應用程式保留在系統管理員釘選的應用程式下方。 如果 [ **使用者釘選** ] 選項已關閉，使用者將會失去其預先存在的圖釘，應用程式行中只會出現系統管理員釘選的應用程式。
 
 ### <a name="custom-teams-apps"></a>自訂Teams應用程式
 
@@ -220,8 +216,7 @@ iOS 和 Android (Teams行動用戶端) 支援具有靜態索引標籤的個人�
 
 提交應用程式之前，請務必遵循標誌指導方針。 若要深入瞭解，請 [參閱銷售商儀表板提交檢查清單](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/overview)。
 
-## <a name="related-articles"></a>相關文章
+## <a name="see-also"></a>另請參閱
 
-[在 Teams 中管理應用程式的設定](admin-settings.md)
-
-[在 Teams 中將原則指派給使用者](assign-policies-users-and-groups.md)
+* [在 Teams 中管理應用程式的設定](admin-settings.md)
+* [在 Teams 中指派原則給使用者](assign-policies-users-and-groups.md)

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 4872cb6222d8841bb2efe6be0e19fa17d3557e33
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+ms.openlocfilehash: 20993aea7665893d71be1fd1094df9f0d1acdc91
+ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/31/2022
-ms.locfileid: "65780639"
+ms.locfileid: "65785953"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式權限原則
 
@@ -55,7 +55,7 @@ ms.locfileid: "65780639"
 1. 在左面板中，移至 **Teams應用程式**  >  **許可權原則**。
 1. 選取 [新增 **]**。
 
-    ![新應用程式許可權原則的螢幕擷取畫面。](media/app-permission-policies-new-policy.png)
+   ![新應用程式許可權原則的螢幕擷取畫面。](media/app-permission-policies-new-policy.png)
 
 1. 提供原則的名稱和描述。
 1. 在 [Microsoft 應用程式 **]**、[第三方應用程式 **]** 和 [自訂應用程式 **]** 下，選取下列其中一項：
@@ -102,7 +102,7 @@ ms.locfileid: "65780639"
 
 1. 在 [ **管理應用程式]** 頁面上，選取 **[全組織應用程式設定]**。 然後您就可以在面板中設定您要的設定。
 
-  ![GCC中全組織應用程式設定的螢幕擷取畫面。](media/app-permission-policies-gcc-org-wide.png)
+   ![GCC中全組織應用程式設定的螢幕擷取畫面。](media/app-permission-policies-gcc-org-wide.png)
 
 1. 在 [第三方應用程式 **]** 下，關閉或開啟這些設定，以控制對第三方應用程式的存取權：
 
@@ -119,7 +119,7 @@ ms.locfileid: "65780639"
 
 1. 在 [權限原則 **]** 頁面上，選取 [全組織應用程式設定 **]**。 然後您就可以在面板中設定您要的設定。
 
-  ![GCCH 和 DoD 中全組織應用程式設定的螢幕擷取畫面。](media/app-permission-policies-gcch-dod-org-wide.png)
+   ![GCCH 和 DoD 中全組織應用程式設定的螢幕擷取畫面。](media/app-permission-policies-gcch-dod-org-wide.png)
 
 1. 在 [封鎖的應用程式 **]** 下，新增您想要在組織中封鎖存取權的應用程式。 在Microsoft 365政府 - GCCH 和 DoD 部署的 Teams 中，根據預設，所有協力廠商應用程式都會新增至此清單中。 當您封鎖整個應用程式組織時，無論任何應用程式許可權原則中是否允許該應用程式，都會自動為您的所有使用者封鎖該應用程式。
 1. 選 **取 [** 儲存為整個組織的應用程式設定] 以生效。
