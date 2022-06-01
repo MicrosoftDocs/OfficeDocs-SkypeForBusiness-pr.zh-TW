@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 745500dd0ac30d717e37ec9287618342554b26c9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1cf7d4e9670d8ea282105eaa057347fa7e9f6dac
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627025"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65822992"
 ---
 # <a name="azure-sentinel-and-microsoft-teams"></a>Azure Sentinel 和 Microsoft Teams
 
@@ -220,13 +220,13 @@ SigninLogs
 
 **Pete Bryan、Nicholas DiCola 和 Matthew Lowe，感謝各位參與內容共同作業。** Pete Bryan 以及與他共同合作的人，會持續開發 Teams 的偵測和搜捕查詢。
 
-保持追蹤此 [GitHub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/TeamsLogs) 存放庫以取得更新。
+保持追蹤此 [GitHub](https://github.com/Azure/Azure-Sentinel/tree/master/Hunting%20Queries/) 存放庫以取得更新。
 
 注意本文所使用的[剖析器](https://github.com/Azure/Azure-Sentinel/blob/master/Parsers/Teams_parser.txt)和[邏輯應用程式](https://github.com/Azure/Azure-Sentinel/tree/master/Playbooks/Get-O365Data)的更新。
 
 您也應該加入 (並貢獻) [Azure Sentinel 社群](https://github.com/Azure/Azure-Sentinel/wiki)。 我們正積極尋求對本文的意見反應，因此請使用下方的意見反應選項。 感謝您並祝您快樂搜捕。
 
-[在 Azure AD 中註冊您的應用程式](/skype-sdk/ucwa/registeringyourapplicationinazuread%C2%A0%20%20%C2%A0)
+[在 Azure AD 中註冊您的應用程式](/skype-sdk/trusted-application-api/docs/registrationinazureactivedirectory)
 
 [開啟或關閉稽核記錄搜尋](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 

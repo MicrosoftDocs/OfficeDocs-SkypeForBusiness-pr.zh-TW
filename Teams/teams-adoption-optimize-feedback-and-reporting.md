@@ -1,5 +1,5 @@
 ---
-title: 針對採用專案優化意見Microsoft Teams報告
+title: 針對採用Microsoft Teams優化意見反應和報告
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -10,49 +10,54 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何在採用時取得使用者意見Teams報告。
+description: 瞭解如何在採用Teams中取得使用者意見反應並使用服務健康情況報告。
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - Adopt
-  - seo-marvel-mar2020
+- Adopt
+- seo-marvel-mar2020
 ms.collection:
-  - Teams_ITAdmin_Adopt
-  - M365-collaboration
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: a1f7338e7d70afee603357d55fd3323e88a2d47d
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823182"
 ---
+# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>針對您的採用Microsoft Teams優化意見反應和報告
 
-# <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>針對您的採用優化意見Microsoft Teams報告
+請遵循我們針對使用者意見反應和服務健康情況報告的最佳做法，確保您從您的服務和員工中取回訊號。  在某些情況下，您可能需要系統管理員許可權才能存取特定的服務使用方式和健康情況報告。 如果您不是貴組織的Microsoft 365或Office 365系統管理員，請與該個人合作，以獲授與Microsoft 365 系統管理中心中的報告閱讀程式角色，以存取其中一些資料。
 
-請遵循我們針對使用者意見回饋和服務健康情況報告的最佳作法，確保您從服務和員工獲得回訊。  在某些情況下，您可能需要系統管理員許可權才能存取特定服務使用方式和健康情況報告。 如果您不是組織的Microsoft 365或Office 365系統管理員，請與該人員合作，在 Microsoft 365 系統管理中心 中獲授予報表讀者角色，以存取部分這些資料。
+## <a name="incorporating-feedback"></a>合併意見反應 
 
-## <a name="incorporating-feedback"></a>納入意見回饋 
+在整個實驗階段，您將會擷取人員如何使用產品及其體驗的相關資訊。 立即使用此資訊來調整您的意識和訓練計畫，以擴充其在各業務單位的使用。 一些常見的範例問題可能是：
 
-在整個實驗階段中，您將捕獲有關人員如何使用產品及其體驗的資訊。 現在使用這項資訊來調整您的認知和訓練計畫，因為您打算將計畫擴大到整個業務單位。 一些常見的範例問題可能是：
+- 何時要將這項新工具與現有的技術搭配使用？
+- 神秘核准可以搭配我使用此工具嗎？
+- 高度機密性資訊是否安全？ 
+- 我是否神秘交談以深入瞭解Microsoft Teams？
+- 某些專案無法運作。 如何?取得協助嗎？
 
-- 何時可以連同現有的技術一起使用此新工具？
-- 神秘已核准將此工具用於我？
-- 高度機密資訊是否安全？ 
-- 神秘，以深入瞭解Microsoft Teams？
-- 有東西無法工作。 如何取得協助？
+## <a name="invest-in-your-champions"></a>投資您的冠軍
 
-## <a name="invest-in-your-champions"></a>投資您的領獎人
-
-當您準備調整您的Microsoft Teams，請在每個業務單元或群組中招募其他領軍者。 在服務訓練計畫註冊這些充滿熱誠的人，並標準化您與這些人員開會的進行與開會時間。
+當您準備調整Microsoft Teams使用量時，請在您展開的每個業務單位或群組中，招募其他冠軍。 在您的服務訓練計畫中註冊這些熱情的人員，並標準化您與他們開會的方式和時機。
  
-請清楚瞭解您的領軍者計畫設計您的員工將會獲得什麼，以及當員工成為領獎者時預期要給予什麼。 常見的計畫需求包括排程辦公室時數、參與每月社群通話，以及參與內部線上社群，以支援您向這些新體驗的轉換。  
+在冠軍計畫設計中，請清楚瞭解您的員工在成為冠軍時會獲得哪些專案，以及他們預期會提供哪些專案。 一般計畫需求是排定的辦公室時間、參與每月社群通話，以及參與內部線上社群，以支援您轉換到這些新體驗。  
 
-最佳做法：為內部Teams每月召開一次會議。 在教導新功能、處理意見回饋，以及為員工社群提供自助工具之間分割您的議程。
+最佳做法：為內部冠軍舉辦每月Teams會議。 在教導新功能、解決意見反應，以及為您的員工社群提供自助工具之間分割您的議程。
 
-最佳做法：請來自內部支援部門或 IT 支援服務的代表加入您的支援社群，以隨時瞭解您Teams使用方式的新資訊。 
+最佳做法：請內部支援部門或 IT 技術服務人員代表加入您的冠軍社群，隨時掌握有關您Teams使用狀況的新資訊。 
 
 ## <a name="service-reporting"></a>服務報告
 
-當您部署及採用以下專案時，您應該查看三種類型的Microsoft Teams：
+部署並採用Microsoft Teams時，您應該檢閱三種類型的報告：
 
-- [服務健康](https://status.office365.com/)狀態 – Microsoft 365、Office 365，以及您的內部 IT 支援部門。
-- [Microsoft 365管理](/microsoft-365/admin/activity-reports/activity-reports)中心中的報表 - 從 Microsoft 365 或 Office 365 在系統管理中心Microsoft 365[報表 - Microsoft Teams活動](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity)。 您也可以使用貴組織內部其他系統的資訊。
-- 服務滿意度 – 收集來自內部社群論壇和特定體驗的問卷
+- [服務健康情況](https://status.office365.com/)– 來自 Microsoft 365、Office 365 以及您的內部 IT 支援部門。
+- [Microsoft 365系統管理中心的報告](/microsoft-365/admin/activity-reports/activity-reports)- 從系統管理中心的Microsoft 365或Office 365檢視[Microsoft 365報告 - Microsoft Teams使用者活動](/microsoft-365/admin/activity-reports/activity-reports)。 您也可以使用組織內其他系統的資訊。
+- 服務滿意度 – 從內部社群論壇收集並調查特定體驗
 
-![代表下一個步驟的圖示。](media/teams-adoption-next-icon.png) 下一 [步：提升認知度及執行訓練](teams-adoption-drive-awareness.md)
+![代表下一個步驟的圖示。](media/teams-adoption-next-icon.png) 下一步： [推動意識與實作訓練](teams-adoption-drive-awareness.md)

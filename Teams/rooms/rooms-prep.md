@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解如何準備您的基礎結構以部署Microsoft Teams 會議室讓您可以善用所有功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4e479a3bc51cdab49a742d9084601505f13020d8
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 0bedb70ade23f92424a14e4bea3f1462fc2cbccf
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761245"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823052"
 ---
 # <a name="prepare-your-environment"></a>準備您的環境
 
@@ -32,8 +32,8 @@ ms.locfileid: "65761245"
   
 3. 為了改善您的體驗，Microsoft 會收集資料。 若要允許 Microsoft 收集資料，請允許下列網站：
 
-   - 遙測用戶端端點： https://vortex.data.microsoft.com/
-   - 遙測設定端點： https://settings.data.microsoft.com/
+   - 遙測用戶端端點： `https://vortex.data.microsoft.com/`
+   - 遙測設定端點：` https://settings.data.microsoft.com/`
     
 ### <a name="create-and-test-a-resource-account"></a>建立和測試資源帳戶
 
@@ -144,7 +144,7 @@ Microsoft Teams 會議室預設密碼設為 「sfb」。 您可以透過本機�
 
 就像任何Windows裝置一樣，您可以在 [**關於** \> **重新** 命名電腦] 中以滑鼠右鍵按一下 **滑鼠** 右鍵，重新命名設定 \> 電腦名稱稱。
   
-如果您想要在加入網域後重新命名電腦，請使用 [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer?view=powershell-7.2)，一個 PowerShell 命令，後面接著電腦的新名稱。
+如果您想要在加入網域後重新命名電腦，請使用 [Rename-Computer](/powershell/module/microsoft.powershell.management/rename-computer)，一個 PowerShell 命令，後面接著電腦的新名稱。
   
 ## <a name="related-topics"></a>相關主題
 

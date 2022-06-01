@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: de0d76010823bfecd631d7fcfb45f348abd07eae
-  ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+  ms.openlocfilehash: 3ada1b46f057c4c1f6f7d715c038c78e1e0eecd1
+  ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 05/25/2022
-  ms.locfileid: "65681944"
+  ms.lasthandoff: 06/01/2022
+  ms.locfileid: "65823012"
 items:
 - durationInMinutes: 1
   content: >
@@ -88,7 +88,7 @@ items:
   content: "\n在本練習中，您將有機會在Teams中測試會議。 雖然我們不描述如何執行每個動作，但我們建議嘗試一些案例。\n\n### <a name=\"requirements\"></a>需求\n-   具有使用 Teams 的適當權限的 Office 365 組織\n    -   我們強烈建議您使用專用測試租用戶。\n    -   如果您沒有測試租使用者，可以在[Office 365 企業版 E5 試用版註冊試用](https://go.microsoft.com/fwlink/p/?LinkID=698279)版租使用者。\n    -   請勿在您的生產環境中執行任何測試。 更改設定或原則可能會對所有使用者產生負面影響，並可能影響他們的使用者體驗。\n-   至少兩個端點\n   -   這可以是兩台電腦，但您也可以在手機上使用用戶端。\n\n### <a name=\"suggested-scenarios-to-test\"></a>建議測試的場景\n-   在 Teams 用戶端中安排不同的會議類型：頻道會議、臨機操作會議、私人會議。\n-   使用 [Outlook 增益集](./teams-add-in-for-outlook.md) 排程會議。\n-   對於排程會議，在會議開始前開始聊天 (例如討論議程)。\n-   參加會議並測試不同的場景和工作負載：例如，僅音訊、視訊、桌面共用。\n-   從瀏覽器加入會議，但不登入租使用者 (您可能會想要使用 「InPrivate」 流覽) 以匿名方式加入會議。\n-   登入到 Microsoft Teams 系統管理中心並變更會議的某些設定 (例如，停用私人會議的排程)。 這對使用者體驗有何影響？\n-   作為會議召集人，結束所有參與者的會議。    \n"
 - title: 報告
   durationInMinutes: 2
-  content: "\n從報告的角度來看，有兩個方面需要考慮：\n-   使用方式：：召開多少次會議？\n-   品質：會議的品質如何？\n\n您應該仔細監控這兩個方面：\n-   使用量過低表示使用者因某種原因而沒有使用該產品。 你只能透過做額外的調查來確定原因。 原因可能包括會議的使用者需求不足、認知或訓練不足，以及品質問題。\n-   另一方面，低品質意味著使用者和 Office 365 之間的連線能力存在問題。 低品質會導致使用者體驗不佳，並降低使用率。\n    請參閱[系統管理中心中的 Microsoft 365 報告 - Microsoft Teams 使用者活動](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (估計閱讀時間 5 分鐘)，以瞭解有關使用率報告的更多資訊。\n\n品質管制不在本訓練範圍內，但請參閱以下訓練資料：\n\n-   有關 [品質冠軍] 角色的資訊，請參閱[品質冠軍角色](./prepare-network.md)。\n-   有關 [通話品質儀錶板] 的資訊，請參閱[使用 CQD 調查媒體品質](https://aka.ms/sof-cqd)。\n"
+  content: "\n從報告的角度來看，有兩個方面需要考慮：\n-   使用方式：：召開多少次會議？\n-   品質：會議的品質如何？\n\n您應該仔細監控這兩個方面：\n-   使用量過低表示使用者因某種原因而沒有使用該產品。 你只能透過做額外的調查來確定原因。 原因可能包括會議的使用者需求不足、認知或訓練不足，以及品質問題。\n-   另一方面，低品質意味著使用者和 Office 365 之間的連線能力存在問題。 低品質會導致使用者體驗不佳，並降低使用率。\n    請參閱[系統管理中心中的 Microsoft 365 報告 - Microsoft Teams 使用者活動](https://docs.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?view=o365-worldwide) (估計閱讀時間 5 分鐘)，以瞭解有關使用率報告的更多資訊。\n\n品質管制不在本訓練範圍內，但請參閱以下訓練資料：\n\n-   有關 [品質冠軍] 角色的資訊，請參閱[品質冠軍角色](./prepare-network.md)。\n-   有關 [通話品質儀錶板] 的資訊，請參閱[使用 CQD 調查媒體品質](https://aka.ms/sof-cqd)。\n"
 - title: 後續步驟
   durationInMinutes: 1
   content: >-

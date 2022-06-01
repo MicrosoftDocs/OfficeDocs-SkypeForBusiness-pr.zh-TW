@@ -1,5 +1,5 @@
 ---
-title: PowerShell 腳本範例 - 建立&訊息策略
+title: PowerShell 腳本範例 - 建立&指派訊息原則
 author: serdars
 ms.author: serdars
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.reviewer: ritikag
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 腳本，在 Teams中建立訊息Teams並將它指派給貴組織的使用者。
+description: 使用此 PowerShell 腳本在 Teams 中建立訊息原則，並將它指派給您組織中的使用者。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,27 +17,27 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c6c1faaff2ce252b1363fab149c7d168c5e042e5
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 09254f9ed85f69551ee825dbeb8ae063a010f780
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62390835"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823704"
 ---
-# <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 腳本範例 - 建立及指派訊息策略
+# <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 腳本範例 - 建立及指派訊息原則
 
-使用此 PowerShell 腳本在郵件中建立訊息Microsoft Teams並指派給使用者。 
+使用此 PowerShell 腳本在 Microsoft Teams 中建立訊息原則，並將它指派給使用者。 
 
-有關使用此 PowerShell 腳本的資訊，請參閱[快速入門 - Teams 教育版](../teams-quick-start-edu.yml)。
+如需使用此 PowerShell 腳本的詳細資訊，請參閱[快速入門 - Teams 教育版](../teams-quick-start-edu.yml)。
 
-此腳本使用[Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) Cmdlet，商務用 Skype Online PowerShell 模組中。 請參閱[Teams PowerShell 概](../teams-powershell-overview.md)觀，進一Teams PowerShell 管理應用程式。
+此腳本使用 商務用 Skype Online PowerShell 模組中的[Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) Cmdlet。 若要深入瞭解如何使用 PowerShell 管理Teams，請參閱[Teams PowerShell 概觀](../teams-powershell-overview.md)。
 
 
-## <a name="before-you-start"></a>在您開始之前
+## <a name="before-you-start"></a>開始之前
 
-下載並安裝[商務用 Skype PowerShell 模組](https://www.microsoft.com/download/details.aspx?id=39366)，然後重新開機電腦 ，如果系統提示。
+下載並安裝[商務用 Skype Online PowerShell 模組](https://www.microsoft.com/download/details.aspx?id=54616)，然後在出現提示時重新開機電腦。
 
-若要精簡更多內容，請參閱使用[PowerShell 商務用 Skype管理Office 365線上](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
+若要深入瞭解，請參閱[使用 Office 365 PowerShell 管理 商務用 Skype Online](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)。
 
 ## <a name="sample-script"></a>範例腳本
 
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> 您也可以透過批次策略指派，將訊息策略直接指派給使用者，或指派給使用者為成員的群組。 詳細資訊請參閱指派[策略給學校](../batch-group-policy-assignment-edu.md)中的大量使用者，以及指派[Teams。](../policy-assignment-overview.md)
+> 您也可以透過批次處理原則指派或使用者為其成員的群組，以縮放比例直接指派訊息原則給使用者。 如需詳細資訊，請參閱[指派原則給學校中的大型使用者群](../batch-group-policy-assignment-edu.md)組和[在 Teams 中指派原則給使用者](../policy-assignment-overview.md)。

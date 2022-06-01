@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4fb3eb61de1372012f2a530be86d394ca46893a6
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 8df4740d6f5facc427900e7af760b11a9c8cb43f
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681744"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823398"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>會議室Teams指引
 
@@ -83,7 +83,7 @@ Teams 會議室提供獨一無二的會議室功能，例如單點連接、內�
 
 您可以從此計畫開始，解決所有非 AV 或非共同作業配備的會議空間。 即使會議室尚未安裝Teams裝置，您仍然可以利用會議室中的Teams。
 
-*音訊：* 建立完整Teams會議室的一大橋樑是規劃會議技術，方法是為個別使用者提供小型會議室和群組的Teams認證音訊裝置，或是在完整Teams 會議室解決方案之前將裝置部署到會議室中，以供小型裝置無法剪下的大型群組使用。
+*音訊：* 建立完整Teams 會議室的一大橋樑是規劃會議技術，方法是為您的個別使用者提供小型會議室和群組的Teams認證音訊裝置，或是在完整Teams 會議室解決方案前面部署這些音訊裝置，以供小型裝置無法剪下的大型群組使用。
 
 *視頻：* 使用這些會議室時，個別使用者可以攜帶自己的裝置來共用Teams會議內容，並使用個別相機擷取運算式。 使用者接著可以指定某人為本機群組的單一音訊來源，將該個人裝置連線到經過認證的音訊裝置，讓所有 (本機和遠端) 都能獲得正面的會議音訊體驗。
 

@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 8c538a4de417bcc6b19e579162357e56c444abdb
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+ms.openlocfilehash: 39b0e358e57a8780918c6969a562b28d9e3fe49d
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65781036"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823724"
 ---
 # <a name="manage-the-updates-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的更新應用程式
 
@@ -53,6 +53,8 @@ Microsoft Teams應用程式中的更新可讓貴組織成員集中建立、檢�
 ![行動裝置上每週安全逐步解說範本的影像。](media/updates-mobile.png)
 
 與此同時，一組遠端工作者正在更新 Microsoft Store 的網站。 這些會議會跨時區散佈，因此每日的待命會議並不方便。 相反地，每個小組成員都會將他們進度的每日更新報告提交給小組領導人。
+
+[下載更新外觀簿](https://go.microsoft.com/fwlink/?linkid=2197649&clcid=0x409) ，以查看更多您可以使用更新執行的範例。
 
 ## <a name="required-permissions-and-licenses"></a>必要的權限和授權
 

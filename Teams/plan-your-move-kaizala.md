@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 4416fa65f38ad3489d05312382cce55b4a21898f
-ms.sourcegitcommit: d425748a50964ebc78e5d38fce564a444a449f43
+ms.openlocfilehash: c65b51b34de54f419db341d5e1328a93746f0984
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65635391"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823308"
 ---
 # <a name="planning-for-a-successful-transition-from-kaizala-to-microsoft-teams"></a>規劃從Kaizala成功轉換到Microsoft Teams
 
@@ -70,7 +70,7 @@ ms.locfileid: "65635391"
 
 ### <a name="get-ready"></a>準備好
 
- 1. 確定每個人都有Teams授權。 請查看 [Teams 方案](/microsoft-teams/compare-microsoft-teams-options?rtc=1) 以及 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
+ 1. 確定每個人都有Teams授權。 請查看 [Teams 方案](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot%3aprimaryr1) 以及 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
 
  2. 使用[Microsoft Teams採用](https://adoption.microsoft.com/microsoft-teams/#get-started)指導方針來在整個組織中推行Teams。
 

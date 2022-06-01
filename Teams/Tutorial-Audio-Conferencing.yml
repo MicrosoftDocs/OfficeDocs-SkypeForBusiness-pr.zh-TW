@@ -22,12 +22,12 @@ metadata:
   - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 3394afabda431f5a9da72fed1d3f8939d2b1a12d
-  ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+  ms.openlocfilehash: 3aaa1944ab3a4fb1aaf63f91f26d72b6ce80aeea
+  ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
   ms.translationtype: MT
   ms.contentlocale: zh-TW
-  ms.lasthandoff: 05/25/2022
-  ms.locfileid: "65681374"
+  ms.lasthandoff: 06/01/2022
+  ms.locfileid: "65823192"
 items:
 - durationInMinutes: 1
   content: >
@@ -70,7 +70,7 @@ items:
     若要提供有關Teams的產品意見反應，例如新功能的想法，請造訪Teams意見反應[入口網站](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472)。
 - title: Teams 中的音訊會議
   durationInMinutes: 12
-  content: "\n透過音訊會議，參與者可以使用一般電話參與Teams會議，無論是從電話撥入會議，或使用會議內的撥出功能。 請檢閱下列資源以深入瞭解音訊會議：\n-   [音訊會議功能](https://products.office.com/skype-for-business/audio-conferencing#Features) (預估的閱讀時間為 1 分鐘) \n-   [使用Microsoft Teams (](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) 1 - 透過音訊會議加入會議」的預估閱讀時間的 \\# 9 個秘訣為 1 分鐘;如需詳細資訊，請參閱整篇文章) \n-   音訊會議 (估計閱讀時間為 7 分鐘) [常見問題](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)\n-   [從會議撥出，讓其他人可以加入會議](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) ， (預估的閱讀時間為 2 分鐘) \n"
+  content: "\n透過音訊會議，參與者可以使用一般電話參與Teams會議，無論是從電話撥入會議，或使用會議內的撥出功能。 請檢閱下列資源以深入瞭解音訊會議：\n-   [音訊會議功能](/skypeforbusiness/plan-your-deployment/conferencing/conferencing) (預估的閱讀時間為 1 分鐘) \n-   [使用Microsoft Teams (](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) 1 - 透過音訊會議加入會議」的預估閱讀時間的 \\# 9 個秘訣為 1 分鐘;如需詳細資訊，請參閱整篇文章) \n-   音訊會議 (估計閱讀時間為 7 分鐘) [常見問題](/skypeforbusiness/audio-conferencing-in-office-365/audio-conferencing-common-questions)\n-   [從會議撥出，讓其他人可以加入會議](/SkypeForBusiness/audio-conferencing-in-office-365/dialing-out-from-a-meeting-so-other-people-can-join-it) ， (預估的閱讀時間為 2 分鐘) \n"
 - title: 案例 – 音訊會議
   durationInMinutes: 1
   content: "\nGarth 任職于 Contoso，該公司有多個辦公室。 健輝經常需要與其他辦公室的人聯繫，而且他經常在家工作或出門在外，因此他經常是Teams會議的粉絲。 當 Garth 傳送會議邀請時，它會自動新增音訊會議的資訊。 這可讓下列案例成為可能：\n-   高麗想要參加健輝的會議，但是她在路上，無法存取可靠的網路。 因此，她使用會議邀請中的電話撥入座標加入會議。 在撥入程式期間，她會使用 PIN 進行驗證，因此系統會將她辨識為「常用」。\n-   現位於旅館的 Bob 使用電腦上的Teams用戶端加入會議。 很抱歉，旅館的網際網路連線音訊品質不是很好，所以百勝從會議撥出到自己的電話號碼，透過公用交換電話網路 (PSTN) 加入。\n-   如果會議參與者在通話期間決定要以不同的電話號碼新增使用者，他們只要撥出電話號碼，再將其他人員加入會議即可。\n-   其他使用者也可以從電腦、Mac 或行動裝置上的Teams用戶端加入。\n\n在 Teams 中，會議召集人可以結束所有會議參與者的會議。 這在以下情况下非常有用：\n\n-   授課者就能在課程完成之後，確保學生不會留在會議中而不受監督。\n-   對於正在錄製的會議 (如網路研討會)，會議召集人可以確保錄製在會議結束時結束。\n-   結束所有參與者的會議有助於減少貴組織的 PSTN 使用量和帳單。 \n\n例如，會議結束後，Garth 可以在小組中按一下 **[會議結束]** 並從會議中移除所有參與者。\n"
@@ -88,7 +88,7 @@ items:
   content: "\n在本練習中，您將有機會在 Teams 中測試音訊會議。\n雖然我們不描述如何執行每個動作，但我們建議嘗試一些案例。\n\n### <a name=\"requirements\"></a>需求\n-   具有使用 Teams 的適當權限的 Office 365 組織\n    -   我們強烈建議您使用專用測試租用戶。\n    -   如果您沒有測試租使用者，可以在[Office 365 企業版 E5 試用版註冊試用](https://go.microsoft.com/fwlink/p/?LinkID=698279)版租使用者。\n    -   請勿在您的生產環境中執行任何測試。 更改設定或原則可能會對所有使用者產生負面影響，並可能影響他們的使用者體驗。\n-   至少兩個端點\n    -   這可以是兩台電腦，但您也可以在手機上使用用戶端。\n    -   可以撥入會議並撥出到\n\n### <a name=\"suggested-scenarios-to-test\"></a>建議測試的場景\n-   啟用使用者音訊會議。\n-   為不同的使用者設定不同的會議橋接器號碼。\n-   變更租使用者的預設會議橋接器號碼。\n-   變更會議橋接器號碼 (不同語言的設定) 。\n-   變更會議橋接器的全域設定， (會議進入和離開通知、PIN 長度、電子郵件通知) 。\n-   觀察電子郵件傳送給使用者。\n-   排程Teams會議，並檢閱會議邀請。\n-   從電話加入會議。\n-   從會議撥出電話。\n-   在會議中使用雙音調多頻控制，將電話設為靜音和取消靜音。\n-   結束所有使用者的會議。 \n"
 - title: 磁片磁碟機值
   durationInMinutes: 1
-  content: "\n從報表的觀點來看，您有兩個區域可供查看：\n-   使用方式：：召開多少次會議？\n-   品質：會議的品質如何？\n\n您應該仔細監控這兩個方面：\n-   使用量過低表示使用者因某種原因而沒有使用該產品。 您只能進一步調查以判斷原因。\n    原因可能包括會議的使用者需求不足、認知或訓練不足，以及品質問題。\n-   另一方面，低品質意味著使用者和 Office 365 之間的連線能力存在問題。 低品質會導致使用者體驗不佳，並降低使用率。 請參閱[系統管理中心中的 Microsoft 365 報告 - Microsoft Teams 使用者活動](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524) (估計閱讀時間 5 分鐘)，以瞭解有關使用率報告的更多資訊。\n\n品質管制不在本訓練範圍內，但請參閱以下訓練資料：\n\n-   [營運我的服務](./1-drive-value-operate-my-service.md)\n"
+  content: "\n從報表的觀點來看，您有兩個區域可供查看：\n-   使用方式：：召開多少次會議？\n-   品質：會議的品質如何？\n\n您應該仔細監控這兩個方面：\n-   使用量過低表示使用者因某種原因而沒有使用該產品。 您只能進一步調查以判斷原因。\n    原因可能包括會議的使用者需求不足、認知或訓練不足，以及品質問題。\n-   另一方面，低品質意味著使用者和 Office 365 之間的連線能力存在問題。 低品質會導致使用者體驗不佳，並降低使用率。 請參閱[系統管理中心中的 Microsoft 365 報告 - Microsoft Teams 使用者活動](https://docs.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-teams-user-activity-preview?view=o365-worldwide) (估計閱讀時間 5 分鐘)，以瞭解有關使用率報告的更多資訊。\n\n品質管制不在本訓練範圍內，但請參閱以下訓練資料：\n\n-   [營運我的服務](./1-drive-value-operate-my-service.md)\n"
 - title: 後續步驟
   durationInMinutes: 1
   content: >-

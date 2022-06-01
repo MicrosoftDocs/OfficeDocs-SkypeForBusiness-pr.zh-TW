@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8bc388f533d39d6e1bc0140bcd975d6354898d5a
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: dcea261be727c01382d55c4a2861541291fcb343
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674905"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823584"
 ---
 # <a name="connect-microsoft-teams-essentials-aad-identity-to-an-existing-email-system-with-calendar"></a>連線 Microsoft Teams 基本版 (AAD 身分識別) 至具有行事曆的現有電子郵件系統
 
@@ -69,7 +69,7 @@ Microsoft Teams 基本版 (AAD 身分識別) 將會議、聊天、通話和共�
 
 :::image type="content" source="media/essentials-googleworkspace.png" alt-text="描述 EXO 和 Gmail 之間郵件流程圖的影像":::
 
-這些範例仰賴[屬於 PowerShell V2 模組Exchange Online](/powershell/module/exchange/connect-exchangeonline?view=exchange-ps&preserve-view=true)一部分[的 連線-ExchangeOnline PowerShell](/powershell/exchange/exchange-online-powershell-v2&preserve-view=true)命令組。 如果您在執行 連線-ExchangeOnline 時收到錯誤訊息，請確定您已遵循使用安裝[EXO V2 模組](/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps&preserve-view=true)來安裝模組的建議指示。 當Connect-ExchangeOnline提示您輸入認證時，請務必使用租使用者系統管理員帳戶。
+這些範例仰賴[屬於 PowerShell V2 模組Exchange Online](/powershell/module/exchange/connect-exchangeonline)一部分[的 連線-ExchangeOnline PowerShell](/powershell/exchange/exchange-online-powershell-v2?preserve-view=true&view=exchange-ps)命令組。 如果您在執行 連線-ExchangeOnline 時收到錯誤訊息，請確定您已遵循使用安裝[EXO V2 模組](/powershell/exchange/exchange-online-powershell-v2#install-and-maintain-EXO-v2-module)來安裝模組的建議指示。 當Connect-ExchangeOnline提示您輸入認證時，請務必使用租使用者系統管理員帳戶。
 
 #### <a name="step-one-set-up-a-new-microsoft-365-tenant-domain"></a>步驟 1：設定新的Microsoft 365租使用者網域
 

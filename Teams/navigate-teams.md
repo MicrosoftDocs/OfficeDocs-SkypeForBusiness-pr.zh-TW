@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 search.appverid: ''
 ms.collection: ''
 ms.custom: ''
-ms.openlocfilehash: 2455d386e9bdf297995880f679e5db74b299e64d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: cbea53abb94bc3cb591d98781187ac2f4cb68dfd
+ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674835"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65823458"
 ---
 # <a name="navigate-microsoft-teams"></a>流覽Microsoft Teams
 
@@ -259,7 +259,7 @@ Teams平臺可讓您透過整合至Microsoft Teams，以及現成的Microsoft 36
 
 [使用 [教職員檢查](/microsoftteams/platform/samples/app-templates#staff-check-ins)] 應用程式範本，讓前線員工能夠直接從Teams直接在排程或臨機操作中輕鬆提供時間關鍵資訊和狀態更新。 應用程式支援即時位置、相片、筆記、提醒通知和自動化工作流程。
 
-使用Teams讓貴組織輕鬆進行訓練。 訓練是自訂[Teams訊息延伸](/microsoftteams/platform/what-are-messaging-extensions)應用程式，可讓使用者在聊天或頻道中發佈訓練，以便離線知識分享和更新。 應用程式支援跨多個Teams平臺用戶端，例如桌上型電腦、瀏覽器、iOS和Android。 此應用程式已準備好做為您Microsoft 365訂閱的一部分來部署。
+使用Teams讓貴組織輕鬆進行訓練。 訓練是自訂[Teams訊息延伸](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions?tabs=dotnet)應用程式，可讓使用者在聊天或頻道中發佈訓練，以便離線知識分享和更新。 應用程式支援跨多個Teams平臺用戶端，例如桌上型電腦、瀏覽器、iOS和Android。 此應用程式已準備好做為您Microsoft 365訂閱的一部分來部署。
 
 [在 GitHub 上取得](https://github.com/OfficeDev/microsoft-teams-apps-training)
 
