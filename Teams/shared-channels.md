@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 中的共用頻道 (預覽)
+title: Microsoft Teams 中的共用頻道
 author: MikePlumleyMSFT
 ms.author: mikeplum
 manager: serdars
@@ -17,15 +17,15 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
-description: 了解如何使用和管理 Microsoft Teams 中的共用頻道 (預覽)。
-ms.openlocfilehash: 1f222d8994c435c315a91deaba77e383b55cba42
-ms.sourcegitcommit: 0c7d199b2f7580dbfa8ce755eda97ec70bc86978
+description: 了解如何使用和管理 Microsoft Teams 中的共用頻道。
+ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
+ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/13/2022
-ms.locfileid: "65393877"
+ms.lasthandoff: 06/01/2022
+ms.locfileid: "65795635"
 ---
-# <a name="shared-channels-in-microsoft-teams-preview"></a>Microsoft Teams 中的共用頻道 (預覽)
+# <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共用頻道
 
 在 Microsoft Teams 中的共用頻道建立共同作業空間，您可以在這裡邀請不在小組中的人員。 只有身為共用頻道擁有者或成員的使用者可以存取該頻道。 雖然來賓 (組織中具有 Azure Active Directory 來賓帳戶的人員) 無法新增到共用頻道，但您可以使用 Azure AD B2B 直接連線來邀請組織外部人員參與共用頻道。
 
@@ -36,12 +36,6 @@ ms.locfileid: "65393877"
 共用頻道建立之後，會連結到父系小組，且不能移至其他小組。 此外，共用頻道不能轉換成標準頻道，反之亦然。
 
 [比較共用頻道和其他類型的頻道](/microsoftteams/teams-channels-overview#channel-feature-comparison)。
-
-## <a name="best-practices-for-the-shared-channels-preview"></a>共用頻道預覽的最佳做法
-
-共用頻道為預覽階段，您必須已設定[Microsoft Teams 公開預覽](/MicrosoftTeams/public-preview-doc-updates)。 如果您想要與其他組織共用頻道，也必須已設定 Teams 公開預覽。
-
-我們建議您為所有使用者啟用預覽。 未啟用預覽的使用者無法建立共用頻道，但仍可以新增到共用頻道。 為所有使用者啟用預覽有助於確保一致的體驗。
 
 ## <a name="getting-started-with-shared-channels"></a>開始使用共用頻道
 
@@ -141,14 +135,14 @@ Teams 會管理共用頻道網站的生命週期。 如果在 Teams 以外刪除
 
 [Teams 中的共用頻道擁有者和成員角色](https://support.microsoft.com/office/75b379f4-8e9c-4202-acf1-6ffc3878a2d7)
 
-## <a name="limits-for-shared-channels-preview"></a>共用頻道的限制 (預覽)
+## <a name="limits-for-shared-channels"></a>共用頻道的限制
 
 下表說明頻道和成員數目上限。
 
 |上限...|值|注釋|
 |:---------|:----|:----|
 |小組中的成員|25,000|包含小組中的所有使用者，以及共用頻道中的直接成員。|
-|每個小組的共用頻道|50|託管並與小組共用。 (在 30 天的修復期間包含已刪除的頻道。)|
+|每個小組的共用頻道|200|託管並與小組共用。 (在 30 天的修復期間包含已刪除的頻道。)|
 |可以與之共用頻道的小組|50|排除父系小組|
 |共用頻道中的成員|5,000 名直接成員，包括最多 50 個小組。 (此限制的目的，頻道會以一個成員的計數與每個小組共用)|即時更新一次只能供 25,000 個使用者使用，頻道清單中只會顯示 25,000 個使用者。|
 
@@ -156,11 +150,78 @@ Teams 會管理共用頻道網站的生命週期。 如果在 Teams 以外刪除
 
 - 除了 Stream、Planner 和 Forms 之外，共用頻道支援其他索引標籤。
 
-- 公開預覽不支援 LOB 應用程式、Bot、連接器和訊息擴充功能。
+- 不支援 LOB 應用程式、Bot、連接器和訊息擴充功能。
 
 - 當您從現有小組建立小組時，不會複製現有小組中任何的共用頻道。
 
 - 未接的活動電子郵件中不會包含來自共用頻道的通知。
+
+## <a name="supported-apps-in-shared-channels"></a>共用頻道中支援的應用程式
+
+如需如何為共用頻道準備應用程式的相關資訊，請參閱[如何開啟應用程式以與 Microsoft Teams Connect 跨組織共同作業](https://mybuild.microsoft.com/sessions/4d84d73c-08de-4f56-990b-2a73b2037df1)。
+
+下列應用程式支援在共用頻道中使用。 
+
+- 活動
+- Adobe Acrobat Sign
+- Asana
+- 行事曆
+- Calendar Pro
+- 通話
+- 聊天
+- Code by Vivani
+- Conceptboard
+- Excel
+- FileBrowser
+- 檔案
+- Flipgrid
+- Freehand by InVision
+- HeyTaco
+- Jira Cloud
+- Kahoot!
+- 清單
+- Lucidchart
+- Lumio
+- MeisterTask
+- MindMeister
+- Mindomo
+- Miro
+- Monday.com
+- MURAL
+- Nearpod
+- OneNote
+- PDF
+- Pear Deck
+- PowerPoint
+- Priority Matrix
+- Quicklinks
+- Quizlet
+- Saved
+- Scrum-Poker
+- 搜尋
+- SharePoint
+- SharePoint Pages
+- Slido
+- Smartsheet
+- SurveyMonkey
+- Tasks in a Box
+- Teams
+- Teams Manager
+- TeamViewer
+- 團隊合作
+- Testportal
+- TrackingTime
+- Trello
+- Vevox
+- Visio
+- VSTS
+- Wakelet
+- Web
+- Wooclap
+- Word
+- YouTube
+- Zendesk
+- Zoho Projects
 
 ## <a name="related-topics"></a>相關主題
 
