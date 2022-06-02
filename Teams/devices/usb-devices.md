@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器) 已通過Microsoft Teams認證。
-ms.openlocfilehash: 912d6d3481ba6f9885a79e0600f74c9ecd031c8c
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: ac06ca93423039714de87a5bce036b18becedb27
+ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65760895"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65840965"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
 
@@ -74,13 +74,14 @@ ms.locfileid: "65760895"
 
 ## <a name="certified-devices"></a>已認證的裝置
 
-*2022 年 5 月更新的表格*
+*2022 年 6 月更新表格*
 
 > [!NOTE]
 > 日期格式為 MMDDYYYY。
 
 | 製造商        | 模型                                                     | 合格      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|EPOS                 |C10/C20/C50 系列耳機                                |5/31/2022       |通過Microsoft Teams認證                           |
 |聚                 |Studio P21 監視器                                         |5/12/2022       |通過Microsoft Teams認證                           |
 |Yealink              |UH38 頭戴式裝置                                               |5/2/2022        |通過Microsoft Teams認證                           |   
 |Yealink              |BH72 頭戴式裝置                                               |5/2/2022        |通過Microsoft Teams認證                           |
@@ -146,8 +147,8 @@ ms.locfileid: "65760895"
 |聯想               |Pro Wired VoIP 立體耳機                              |12/21/2020      |升級至 Microsoft Teams 商務用 Skype      |
 |聚                 |Svit Office 7320                                           |12/18/2020      |通過Microsoft Teams認證                           |
 |聚                 |Svit Office 7310                                           |12/18/2020      |通過Microsoft Teams認證                           |
-|Jabra                |Evolve 75e Headset                                         |12/16/2020      |升級至 Microsoft Teams 商務用 Skype      |
-|Jabra                |Evolve 65e Headset                                         |12/16/2020      |升級至 Microsoft Teams 商務用 Skype      |
+|Jabra                |Evolve 75e / SE Headset                                         |12/16/2020      |升級至 Microsoft Teams 商務用 Skype      |
+|Jabra                |Evolve 65e / SE耳機                                         |12/16/2020      |升級至 Microsoft Teams 商務用 Skype      |
 |戴爾                 |C3422WE 監視器                                            |12/11/2020      |通過Microsoft Teams認證                           |
 |戴爾                 |C2722DE 監視器                                            |12/11/2020      |通過Microsoft Teams認證                           |
 |戴爾                 |C2422HE 監視器                                            |12/11/2020      |通過Microsoft Teams認證                           |
