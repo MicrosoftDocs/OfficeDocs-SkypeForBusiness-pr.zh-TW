@@ -1495,6 +1495,8 @@ items:
             href: approval-admin.md
           - name: 管理班次應用程式
             href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+          - name: 管理更新應用程式
+            href: manage-updates-app.md
       - name: 管理協力廠商應用程式
         items:
           - name: 瞭解協力廠商應用程式
@@ -1509,9 +1511,9 @@ items:
             href: purchase-third-party-apps.md
       - name: 適用於 Teams 的應用程式範本
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
-      - name: 管理自訂企業營運應用程式
+      - name: 管理自訂企業營運系統應用程式
         items:
-          - name: 在 Microsoft Teams 系統管理中心管理 Power Platform
+          - name: 在 Teams 系統管理中心管理 Power Platform 應用程式
             href: manage-power-platform-apps.md
           - name: 在組織市集上發佈自訂應用程式
             href: submit-approve-custom-apps.md
@@ -1521,7 +1523,7 @@ items:
             href: customize-apps.md
           - name: 打造貴組織的應用程式市集品牌。
             href: customize-your-app-store.md
-      - name: 系統管理控制與應用程式控管
+      - name: 控管應用程式的管理員控制項
         items:
           - name: 系統管理員適用的應用程式管理概觀
             href: manage-apps.md
@@ -1537,11 +1539,11 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: 為您的前線員工量身打造 Teams 應用程式
             href: pin-teams-apps-based-on-license.md
-          - name: 檢視 Azure AD 權限並授與系統管理員同意
+          - name: 關於 Azure AD 權限和管理員同意
             href: app-permissions-admin-center.md
           - name: 管理貴組織特定資源的同意
             href: resource-specific-consent.md
-          - name: 瞭解應用程式權限和資源存取權
+          - name: 了解應用程式權限和資源存取權限
             href: app-permissions.md
           - name: 以使用者類型為依據的應用程式行為
             href: non-standard-users.md
