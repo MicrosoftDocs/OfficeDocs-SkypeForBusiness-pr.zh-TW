@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過認證，Microsoft Teams才能產生最佳結果。
-ms.openlocfilehash: 2daf43e3166c70c0947706d3d8f9ce8166fc1e91
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: a5ebc44e3fb7f4f49f97efe61cec59828b6b5e7c
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823022"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860744"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認證的Android裝置
 
@@ -245,6 +245,7 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，且在�
 
 | 裝置型號  | 韌體版本 | 包含的產品版本 |
 |:--------------|:-----------------|:-------------------------|
+| Logi Tap Device  |  `1.5.705`   | 2022 更新 #1    |
 | Poly Studio X30 | `3.11.0.364021`          | 2022 更新 #1    |
 | Poly Studio X50 | `3.11.0.364021`          | 2022 更新 #1    |
 | Logi Roommate |   `1.6.290`   | 2022 更新 #1    |

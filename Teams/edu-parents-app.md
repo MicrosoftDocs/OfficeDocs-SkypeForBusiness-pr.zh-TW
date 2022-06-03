@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ccc69a07d523b046298643ad387e31e25138096f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
+ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676125"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860794"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在 Microsoft Teams 教育版 中設定父系連線
 
@@ -56,13 +56,13 @@ Teams 教育版中的家長連線可協助授課者使用Teams，安全地與班
 > - 公用分支Exchange (PBX) 功能。
 > - 連線到 PSTN。
 >
-> Microsoft 365 A1和 A3 方案不包含 PBX 功能或 PSTN 連線。 您可以為每一項購買 [附加元件授權](/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+> Microsoft 365 A1和 A3 方案不包含 PBX 功能或 PSTN 連線。 您可以為每一項購買 [附加元件授權](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
 >
 > Microsoft 365 A5方案僅包含使用 Teams 電話系統 的 PBX 功能。 您仍然需要[購買Teams通話方案，或使用協力廠商解決方案](pstn-connectivity.md)連線到 PSTN 上的外部號碼。
 >
 > 如需取得 PSTN 連線的所有選項的詳細資訊，請參閱 [PSTN 連線選項](pstn-connectivity.md)。
 >
-> 如需Teams通話授權的詳細資訊，請[參閱Teams附加元件授權選項](/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
+> 如需Teams通話授權的詳細資訊，請[參閱Teams附加元件授權選項](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)。
 
 ## <a name="requirements"></a>需求
 
@@ -91,13 +91,20 @@ Teams 教育版中的家長連線可協助授課者使用Teams，安全地與班
   - 這必須在租使用者層級和使用者層級上開啟。 您可以在 Teams 系統管理中心的 **[使用者>外部存取**] 中找到租使用者層級設定。 您也可以透過 PowerShell 存取此設定。 使用者層級外部存取原則只能透過 PowerShell 存取。 如需進一步指導方針，請參閱下方的 PowerShell 命令。
 
 #### <a name="parent-and-guardian-restrictions"></a>家長和監護人限制
-家長和監護人在「家長關係」中被歸類為「外部使用者」，這表示他們並沒有完整的租使用者許可權。 他們只能存取新增的聊天或聊天，以及在聊天中共用的檔案、影像和其他內容。
+
+家長和監護人在「家長關係」中被歸類為 *「外部使用者* 」，這表示他們並沒有完整的租使用者許可權。 他們只能存取屬於聊天或聊天的一部分，以及聊天中共用的檔案、影像及其他內容。
+
+對於外部聊天，內部和外部使用者都可以將使用者新增至聊天。 若要深入瞭解外部聊天體驗，請參閱[管理Microsoft Teams中的外部會議和聊天](manage-external-access.md)。
 
 此外，外部使用者可以看到貴組織使用者的目前狀態 (離線、線上、忙碌等) ，但您可以使用 PowerShell 關閉此功能以保護使用者的隱私權。 在 PowerShell 中，使用 [Set-CsPrivacyConfiguration](/powershell/module/skype/set-csprivacyconfiguration) 並設定 ``EnablePrivacyMode=true`` 。
 
-雖然家長和監護人是外部使用者，他們對於聊天的貢獻仍可被探索。 瞭解如何透過閱讀對Microsoft Teams[中的內容進行電子檔探索調查，以進行Teams](ediscovery-investigation.md)電子檔探索調查。
+即使家長和監護人是外部使用者，他們對於聊天的貢獻仍可被探索。 瞭解如何透過閱讀對Microsoft Teams[中的內容進行電子檔探索調查，以進行Teams](ediscovery-investigation.md)電子檔探索調查。
+
+> [!IMPORTANT]
+> IT 系統管理員應該教育所有班級擁有者最佳做法，以便透過聊天分享學生資訊，包括學生隱私權的風險。
 
 #### <a name="blocking-a-parent-or-guardian-in-a-chat"></a>在聊天中封鎖家長或監護人
+
 授課者可以在 [家長連線] 中啟動的聊天中封鎖監護人。
 
 班級擁有者可以：
