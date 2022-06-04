@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c975abb16b8c131b21733d57463435aa7e643639
-ms.sourcegitcommit: 6e7af2e556526bd8b2bcc8f689192e254d8cb4a3
+ms.openlocfilehash: 39025c0ccd9cb3b7bc02de85719f98f4ec7f3090
+ms.sourcegitcommit: 1788f852508208a01f230f6f68a5a81ec8594c47
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/20/2022
-ms.locfileid: "62146250"
+ms.lasthandoff: 06/02/2022
+ms.locfileid: "65860066"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬體需求
 
@@ -44,7 +44,7 @@ ms.locfileid: "62146250"
 |.NET 版本    |  需要 .NET 4.5 CLR 或更新版本       |
 |影片    |  USB 2.0 視訊攝影機       |
 |裝置    |   標準膝上型電腦攝影機、麥克風、喇叭    |
-|視訊通話和會議|<ul><li>需要雙核心處理器。對於較高的視訊/螢幕分享解析度和畫面播放速率，建議使用 4 核心處理器或更佳的處理器。</li> <li>背景影片效果需要 Windows 10 或具有 AVX2 指令集的處理器。</li> <li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>在 Microsoft Teams 會議室中使用「鄰近偵測」功能加入會議，需要在用戶端裝置上啟用藍牙，且對於 Windows 用戶端其必須有 64 位元 Teams 用戶端。此功能不適用於 32 位元 Teams 用戶端。</li></ul> |
+|視訊通話和會議|<ul><li>需要雙核心處理器。 對於較高的視訊/螢幕分享解析度和畫面播放速率，建議使用 4 核心處理器或更佳的處理器。</li> <li>背景影片效果需要 Windows 10 或具有 AVX2 指令集的處理器。</li> <li>如需不支援的解碼器和編碼器清單，請參閱[硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。</li><li>在 Microsoft Teams 會議室中使用「鄰近偵測」功能加入會議，需要在用戶端裝置上啟用藍牙，且對於 Windows 用戶端其必須有 64 位元 Teams 用戶端。此功能不適用於 32 位元 Teams 用戶端。</li></ul> |
 |Teams 即時活動 | 如果您會產生 Teams 即時活動，建議您使用配備 Core i5 Kaby Lake 處理器、4.0-GB RAM (或更高)、硬體編碼器的電腦。 如需 **不支援的** 解碼器和編碼器清單，請參閱 [硬體解碼器和解碼驅動程式建議](hardware-decoders-and-encoders.md)。 |
 
 ## <a name="hardware-requirements-for-teams-on-a-mac"></a>Mac 電腦上 Teams 的硬體需求
@@ -58,7 +58,7 @@ ms.locfileid: "62146250"
 |作業系統  |    macOS 三個最新版本的其中一個。 您可以在[這裡](https://support.apple.com/en-us/HT201260)找到最新 macOS 版本的資訊以及如何升級 macOS 版本。 例如，當新版本的 macOS 發行時，新版本和前兩個版本會變成支援的版本。      |
 |影片  |    相容的網路攝影機     |
 |語音    |  相容的麥克風與喇叭、具備麥克風的耳機、或同等級裝置       |
-|視訊通話和會議 | <ul><li>需要雙核心處理器。對於較高的視訊/螢幕分享解析度和畫面播放速率，建議使用 4 核心處理器或更佳的處理器。 </li><li>macOS 無法使用 Microsoft Teams 會議室的「鄰近偵測」功能加入會議。</li></ul>
+|視訊通話和會議 | <ul><li>需要雙核心處理器。 對於較高的視訊/螢幕分享解析度和畫面播放速率，建議使用 4 核心處理器或更佳的處理器。 </li><li>macOS 無法使用 Microsoft Teams 會議室的「鄰近偵測」功能加入會議。</li></ul>
 |
 
 ## <a name="hardware-requirements-for-teams-on-linux"></a>Linux 電腦上 Teams 的硬體需求
@@ -74,7 +74,7 @@ ms.locfileid: "62146250"
 |影片    |  USB 2.0 視訊攝影機       |
 |裝置    |   標準膝上型電腦攝影機、麥克風、喇叭    |
 |語音    |  相容的麥克風與喇叭、具備麥克風的耳機、或同等級裝置       |
-|視訊通話和會議 | <ul><li>需要雙核心處理器。對於較高的視訊/螢幕分享解析度和畫面播放速率，建議使用 4 核心處理器或更佳的處理器。</li><li>Linux 無法使用 Microsoft Teams 會議室的「鄰近偵測」功能加入會議。</li></ul>
+|視訊通話和會議 | <ul><li>需要雙核心處理器。 對於較高的視訊/螢幕分享解析度和畫面播放速率，建議使用 4 核心處理器或更佳的處理器。</li><li>Linux 無法使用 Microsoft Teams 會議室的「鄰近偵測」功能加入會議。</li></ul>
 |支援的 Linux 發行版 | Ubuntu 18.04 LTS、20.04 LTS、Fedora 30 Workstation、RHEL 8 Workstation、CentOS 8       |
 |支援的桌面環境 | GNOME、KDE       |
 |支援的顯示伺服器 | X11       |
@@ -101,6 +101,6 @@ ms.locfileid: "62146250"
 ### <a name="related-topics"></a>相關主題
 
 - [取得 Teams 應用程式](get-clients.md)
-- [行動裝置上的 Microsoft Teams](https://support.office.com/article/Microsoft-Teams-on-mobile-devices-2ACBCF73-8FD4-4929-9B31-AE403B88C2D3)
+- [行動裝置上的 Microsoft Teams](https://support.microsoft.com/office/set-up-your-teams-mobile-apps-1ba8dce3-1122-47f4-8db6-00a4f93117e8)
 - [使用 MSI 安裝 Microsoft Teams 應用程式](msi-deployment.md)
 - [Microsoft Teams 的限制和規格](limits-specifications-teams.md)
