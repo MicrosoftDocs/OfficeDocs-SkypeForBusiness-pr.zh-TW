@@ -18,20 +18,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb3d38060a9538196795e3da7b325840321814d8
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
-ms.translationtype: MT
+ms.openlocfilehash: 1392678e77d96eb34445be1848a6cbfbb559bc5c
+ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686390"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65913411"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>關於 Microsoft Teams 中的應用程式
 
-應用程式是彙集工作場所工具與服務，並與他人共同作業的絕佳方式。 應用程式可協助使用者在日常工作中提高生產力、共同作業併發揮效率。 組織會使用應用程式與其客戶聯繫、提供服務及共用資訊。 應用程式可讓使用者更有效Teams聊天、會議和頻道。 例如，使用者在Teams中使用釘選的行事曆快速與其他人共同作業、可讓使用者知道Teams頻道中 Web 服務 QoS 的應用程式，以及可在頻道中共用和指派工作給各種使用者的應用程式。
+應用程式是彙集工作場所工具與服務，並與他人共同作業的絕佳方式。 應用程式可協助使用者在日常工作中提高生產力、共同作業並發揮效率。 組織會使用應用程式與客戶聯繫、提供服務及分享資訊。 應用程式可讓使用者在 Teams 聊天、會議和頻道中更有效率。 例如，使用者在 Teams 中使用釘選行事曆快速與其他人共同作業、應用程式具有機器人功能，可通知使用者 Teams 頻道中 Web 服務的 QoS，以及共用和指派工作給頻道中各種使用者的應用程式。
 
-我們在 Microsoft Store 中廣泛選取的經過驗證且安全的應用程式，可讓使用者存取貴組織每天需要的工具和服務。 Microsoft Teams應用程式是不需要部署的 Web SaaS 應用程式。 使用者只能根據您提供的許可權，在Teams中使用應用程式。 身為系統管理員，您只要核准或封鎖貴組織使用者使用任何應用程式即可。 您可以控制所有使用者在會議、聊天和頻道中的應用程式可用性。
+在我們 Microsoft Store 中各式各樣經過驗證且安全的應用程式，可供使用者取得貴組織每天需要的工具和服務。 Microsoft Teams 應用程式是不需要部署的 Web SaaS 應用程式。 使用者只能根據您提供的[權限](https://admin.teams.microsoft.com/policies/app-permission)，使用 Teams 中的應用程式。 身為系統管理員，您只要核准或封鎖貴組織使用者使用任何應用程式即可。 您可以控制所有使用者在會議、聊天和頻道中的應用程式可用性。
 
-若要為使用者提供所需的應用程式，請繼續閱讀以瞭解應用程式類型，以及使用者存取這些應用程式的位置。 若要深入瞭解應用程式的使用方式，請參閱 [適用于使用者的應用程式概觀](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)
+若要為使用者提供所需的應用程式，請繼續閱讀以瞭解應用程式類型，以及使用者存取這些應用程式的位置。 若要深入了解應用程式的使用，請參閱 [適用於使用者的應用程式概觀](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
 
 <!--- Commenting the previous content as part of this article revamp.
 
@@ -39,68 +39,68 @@ Apps let users find content from their favorite services and share it in Teams. 
 
 --->
 
-使用者可在 Teams 中使用的不同應用程式類型如下：
+您的使用者在 Teams 中可使用的不同類型應用程式包括：
 
-* [屬於Teams一部分的核心應用程式](#core-apps)。
-* Microsoft [建立的其他應用程式](#microsoft-provided-apps)。
-* 由合作夥伴 (Microsoft) 驗證的第[三方應用程式](#third-party-apps-validated-by-microsoft)。
-* 由您自己的組織建立的[自訂應用程式](#custom-apps)。
+* [屬於 Teams 一部分的核心應用程式](#core-apps)。
+* [Microsoft 創建的其他應用程式](#microsoft-provided-apps)。
+* 合作夥伴 (經 Microsoft 驗證) 的[協力廠商應用程式](#third-party-apps-validated-by-microsoft)。
+* 由您自己的組織創建的[自訂應用程式](#custom-apps)。
 
 ## <a name="core-apps"></a>核心應用程式
 
-某些預設功能，例如活動摘要、Teams頻道、聊天、行事曆和通話，預設會可供使用者使用及釘選，方便使用者存取。 身為系統管理員，您可以使用 [設定原則](/microsoftteams/teams-app-setup-policies)來修改預設行為。
+某些預設功能 (例如活動摘要、Teams 頻道、聊天、行事曆和通話) 預設為可用，並且釘選供使用者輕鬆存取。 身為系統管理員，您可以使用[設定原則](/microsoftteams/teams-app-setup-policies)來修改預設行為。
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="核心應用程式是預設釘選在 Teams 中的應用程式。" lightbox="media/core-apps-pinned2.png":::
 
-## <a name="microsoft-provided-apps"></a>Microsoft 提供的應用程式
+## <a name="microsoft-provided-apps"></a>使用 Microsoft 提供的應用程式
 
-Microsoft 提供許多應用程式來提升生產力和共同作業。 您和使用者可以在系統管理中心尋找列為Publisher的 Microsoft，或在 Teams 市集中列為提供者，藉此找到這些應用程式。
+Microsoft 提供許多應用程式來提升生產力和共同作業。 您和使用者可透過在系統管理中心尋找 Microsoft 列為「發行者」(Publisher)，或在 Teams 市集中列為「提供者」(Provider)，以找到這些應用程式。
 
 Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核准等。 建議您在初始推出 Teams 時包括 Teams 的精選應用程式，例如 Planner。
 
-:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Teams系統管理中心的 Microsoft 應用程式" lightbox="media/microsoft-apps-in-tac2.png":::
+:::image type="content" source="media/microsoft-apps-in-tac1.png" alt-text="Microsoft Teams 系統管理中心的 Microsoft 應用程式" lightbox="media/microsoft-apps-in-tac2.png":::
 
 ## <a name="third-party-apps-validated-by-microsoft"></a>由 Microsoft 驗證的協力廠商應用程式
 
-除了 Microsoft 提供的應用程式之外，您還可以使用 Microsoft 驗證的協力廠商應用程式。 Microsoft 會先驗證這些應用程式的功能和安全性，然後再將這些應用程式提供給Teams市集。 若要瞭解應用程式驗證的優點，請參閱 [驗證協力廠商應用程式](overview-of-app-validation.md)。
+除了 Microsoft 提供的應用程式，您還可以使用 Microsoft 認證的協力廠商應用程式。 Microsoft 在 Teams 市集中提供這些應用程式之前，先驗證這些應用程式的功能和安全性。 若要瞭解應用程式驗證的優點，請參閱 [驗證協力廠商應用程式](overview-of-app-validation.md)。
 
-:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Teams市集中的協力廠商應用程式範例":::
+:::image type="content" source="media/3p-apps-in-teams.png" alt-text="Teams 市集中協力廠商應用程式的範例":::
 
 ## <a name="custom-apps"></a>自訂應用程式
 
-由貴組織中的開發人員建立的應用程式稱為自訂應用程式。 針對貴組織的特定需求而委任開發這類應用程式，而且您有允許或不允許這類應用程式的控制項。 貴組織中的開發人員可以使用Teams與[Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions)整合，快速建立自訂的低程式碼解決方案。
+由貴組織中的開發人員建立的應用程式稱為自訂應用程式。 這類應用程式為因應貴組織的特定需求委任開發，而且您有允許或不允許這類應用程式的控制項。 貴組織的開發人員可以使用與 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) 整合的 Teams 來快速建立自訂低程式碼解決方案。
 
-當系統管理員允許使用自訂應用程式後，使用者可以在Teams存放區左側導覽中按一下 **[為您的組織打造**] 來尋找這類應用程式。
+當系統管理員允許使用自訂應用程式後，使用者可以在 Teams 市集的左側瀏覽中按一下 **[專為貴組織打造]** 來尋找這類應用程式。
 
-:::image type="content" source="media/built-for-your-org1.png" alt-text="Teams傳統型應用程式中儲存Teams中的自訂應用程式" lightbox="media/built-for-your-org2.png":::
+:::image type="content" source="media/built-for-your-org1.png" alt-text="Teams 傳統型應用程式中的 Teams 市集自訂應用程式" lightbox="media/built-for-your-org2.png":::
 
 ### <a name="understand-sideloading-of-custom-apps"></a>瞭解自訂應用程式側載
 
-開發自訂應用程式時，並在發佈給使用者之前先測試應用程式，方法是將應用程式新增至 Microsoft Store 以自行測試，或是與其側載應用程式的小組一起測試。 此方法稱為側載應用程式，僅適用于自訂應用程式。
+開發自訂應用程式，並在發佈給使用者之前，開發人員先測試應用程式，透過將應用程式新增至 Microsoft Store 以自行測試，或是與側載應用程式的團隊一起測試。 此方法稱為側載應用程式，僅適用於自訂應用程式。
 
-開發人員可以側載應用程式，將它提供給特定小組的成員使用，通常是用來測試開發不足的應用程式。 如果允許側載，則不需要系統管理員核准。 身為系統管理員，您可以不允許任何開發人員側載。
+開發人員可以側載應用程式，將它提供給特定團隊的成員使用，通常是用來測試開發中的應用程式。 如果允許側載，則不需要系統管理員核准。 身為系統管理員，您可以不允許任何開發人員側載。
 
-如果您不允許側載，開發人員仍然可以在 [測試租](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)使用者中測試他們的應用程式。 自訂應用程式開發完成後，開發人員會要求系統管理員將自訂應用程式發佈給使用者。 如需詳細資料，請參閱 [如何發佈自訂應用程式](/microsoftteams/upload-custom-apps)。 身為系統管理員，您可以允許或不允許特定使用者使用自訂應用程式。
+如果您不允許側載，開發人員仍然可以在[測試租用戶](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)中測試其應用程式。 自訂應用程式開發完成後，開發人員會要求系統管理員將自訂應用程式發佈給使用者。 如需詳細資料，請參閱 [如何發佈自訂應用程式](/microsoftteams/upload-custom-apps)。 身為系統管理員，您可以允許或不允許特定使用者使用自訂應用程式。
 
 ### <a name="about-app-templates"></a>關於應用程式範本
 
-Teams的應用程式範本具有功能性、已準備就緒的 Microsoft 建立的範例應用程式，以說明熱門的使用案例、展示應用程式開發的最佳做法，以及提供開放原始碼應用程式供開發人員延伸以建立自訂應用程式。 您的組織開發人員需要透過簡易變更 GitHub 中可用的程式碼，為貴組織自訂應用程式範本。 身為系統管理員，您可以提供這些應用程式做為使用者的自訂應用程式。
+Teams 的應用程式範本是由 Microsoft 建立的功能化、生產就緒的範例應用程式，用來說明熱門使用案例、展示應用程式開發的最佳做法，以及提供開放原始碼應用程式，讓開發人員可以擴充以建立自訂應用程式。 您的組織開發人員需要對 GitHub 中可用的程式碼進行簡單的變更，以自訂貴組織的應用程式範本。 身為系統管理員，您可以提供這些應用程式做為使用者的自訂應用程式。
 
-若要深入瞭解，[請參閱Microsoft Teams應用程式範本]](https://adoption.microsoft.com/microsoft-teams/app-templates/)。
+若要深入了解，請參閱 [Microsoft Teams 應用程式範本](https://adoption.microsoft.com/microsoft-teams/app-templates/)。
 
 ## <a name="understand-app-capabilities"></a>瞭解應用程式功能
 
-為了提供讓使用者在Teams內工作的豐富體驗，應用程式開發人員可運用下列應用程式功能。 訊息中心擴充功能可讓使用者與您的 Web 服務Teams用戶端互動。 它們會在外部系統中搜尋或啟動動作。 您可以將互動的結果以豐富的格式化卡片傳送給Teams用戶端。 會議擴充性應用程式整合了開發人員在會議中的應用程式，並提供回應靈敏的會議內體驗。
+為了提供讓使用者在 Teams 內工作的豐富體驗，應用程式開發人員可運用下列應用程式功能。 訊息擴充功能可讓使用者與您的 Web 服務 Teams 用戶端互動。 它們會在外部系統中搜尋或開始動作。 您可以使用豐富的格式化卡片，將互動的結果傳送給 Teams 用戶端。 會議擴充性應用程式整合了開發人員在會議中的應用程式，並提供回應式的會議內體驗。
 
-Bot 也稱為聊天機器人或交談機器人。 這是執行簡單且重複工作的應用程式。 Bot 互動可以是快速的問題與解答，也可以是提供服務或協助存取權的複雜交談。 使用者可以與一對一或頻道中的位聊天。 例如，您可以使用[投票] 應用程式建立快速問卷、取得意見反應，以及執行脈衝檢查。
+Bot 也稱為聊天機器人或交談機器人。 它是執行簡單且重複的工作的應用程式。 聊天機器人互動可以是快速的問題與解答，也可以是提供存取服務或協助的複雜交談。 使用者可以與一對一或頻道中的機器人聊天。 例如，您可以使用 [Polly] 應用程式建立快速問卷、取得意見反應，以及執行脈搏檢查。
 
-索引標籤是釘選在頻道或聊天頂端的Teams感知網頁。 索引標籤可讓您以類似網頁的體驗與內容和服務互動。 您可以在小組、群組聊天或個別使用者的個人應用程式內，新增索引標籤做為頻道的一部分。
+索引標籤是釘選在頻道或聊天頂端的 Teams 感知網頁。 索引標籤可讓您以類似網頁的體驗與內容和服務互動。 您可以在小組、群組聊天或個別使用者的個人應用程式內，新增索引標籤做為頻道的一部分。
 
-Web 端子和連接器會從使用者經常使用 (服務提供內容和更新，例如 Jira Cloud 和 Bitbucket) 直接進入頻道交談。 使用此功能的應用程式可以與外部應用程式通訊，並可從外部服務傳送或接收通知和訊息。
+Webhooks 和連接器會從使用者經常使用提供內容和更新的服務 (例如 Jira Cloud 和 Bitbucket) 直接進入頻道交談。 使用此功能的應用程式可以與外部應用程式通訊，並可從外部服務傳送或接收通知和訊息。
 
-訊息中心擴充功能是插入應用程式內容或在郵件上執行動作的快速鍵，使用者不必離開交談。 訊息延伸模組可以具有搜尋命令，讓使用者快速找到外部內容，並將其插入郵件或動作命令中。
+訊息中心擴充功能是插入應用程式內容或處理郵件的快速鍵，使用者不需要離開交談。 訊息擴充功能可以具有搜尋命令，讓使用者快速找到外部內容，並將其插入郵件或動作命令中。
 
-若要檢視對應至Teams功能的常見使用案例，請參閱將[您的使用案例對應至Teams應用程式功能](/microsoftteams/platform/concepts/design/map-use-cases)。
+若要檢視對應至 Teams 功能的常見使用案例，請參閱 [將您的使用案例對應至 Teams 應用程式功能](/microsoftteams/platform/concepts/design/map-use-cases)。
 
 <!--- TBD: Admins do many considerations and decisions around app adoption and app governance. These are to be covered in a separate article. Commenting the below content for now as part of this article revamp.
 
