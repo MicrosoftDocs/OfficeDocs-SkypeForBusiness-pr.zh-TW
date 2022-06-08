@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8415ee8dc79c8c67189ae801b1287c56115e6d72
-ms.sourcegitcommit: 2c3c067cccd7b84064b5619a0b5f87242af52984
+ms.openlocfilehash: 03a2501236cd8dfa708790e49719d8103a187783
+ms.sourcegitcommit: 5640e8264b61c1f8cf8eb212315eeba1a794e494
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "65462027"
+ms.lasthandoff: 06/07/2022
+ms.locfileid: "65928826"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>在 Outlook 中使用 Teams 會議增益集
 
@@ -39,11 +39,14 @@ Teams 會議增益集可讓使用者從 Outlook 安排 Teams 會議。 您可以
 ![Outlook 功能區上， Teams 會議增益集的螢幕擷取畫面。](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
+>
+>
 > - **沒有直接的 URL** 可連結至 Teams 增益集。
 > - 如果貴組織同時執行 Teams 和商務用 Skype 兩者，則有其他考量。 在某些情況下，Outlook 中不提供 Teams 增益集。 如需詳細資訊，請參閱[從商務用 Skype 升級至 Teams](upgrade-to-Teams-on-prem-tools.md) (部分機器翻譯)。
 > - 若要在電腦上安裝 Teams 會議增益集，使用者必須具備執行 Regsvr32 .exe 檔案的權限。
 > - 如果使用者沒有看到 Teams 會議增益集，請指示他們關閉 Outlook 和 Teams，然後重新啟動 Teams 用戶端並登入 Teams，接著重新啟動 Outlook 用戶端 (須遵循特定順序)。
 > - 如果您使用的是 Microsoft Store 提供的 Office Outlook 安裝，則不支援 Teams 會議增益集。 針對需要此增益集的使用者，建議您安裝隨選即用的 Office，如 [Windows 10 S 模式上的 Office](https://support.office.com/article/faq-office-on-windows-10-in-s-mode-717193b5-ff9f-4388-84c0-277ddf07fe3f)一文中所述。
+> - Teams 會議增益集功能和內嵌的會議選項都必須安裝 [Webview2](/microsoft-edge/webview2/concepts/distribution)。 如果尚未安裝 WebView2，使用者將會重新導向到瀏覽器，這可能會提供較降級的體驗，尤其是在建立會議時。
 
 ## <a name="teams-meeting-add-in-in-outlook-for-mac"></a>在 Mac 版 Outlook 中使用 Teams 會議增益集
 
