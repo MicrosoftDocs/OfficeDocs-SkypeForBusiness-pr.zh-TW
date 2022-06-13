@@ -22,13 +22,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
-description: 瞭解如何在 Microsoft Teams 中為大型組織設定通話佇列，提供問候語訊息、按住音樂、重新導向通話及其他功能。
-ms.openlocfilehash: 7678d132b8711ea828bf643201df5501323ab77e
-ms.sourcegitcommit: 18a26d07a335184dbcda71908452e82a6ddc3158
+description: 瞭解如何在 Microsoft Teams 中為大型組織設定通話佇列。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
+ms.openlocfilehash: d6dd0d7211f9e430dbb716ff905c82443d5f4830
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65840985"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046435"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -39,23 +39,17 @@ ms.locfileid: "65840985"
 
 通話佇列提供：
 
-- 問候語訊息。
+- 問候語訊息
 
-- 當人們等候佇列中的保留時播放音樂。
+- 當人們等候佇列中的保留時播放音樂
 
-- 呼叫路由 - 在 [ *第一筆]、[第一次取出* ] 中， () 訂單中的 FIFO - 給專員。
+- 呼叫路由 - 在 [ *第一筆]、[第一次取出* ] 中， (訂單中的 FIFO) - 給專員
 
-- 佇列溢出和逾時的處理選項。
+- 佇列溢出和逾時的處理選項
 
-請確定您已閱讀[規劃Teams自動語音應答和通話佇列](plan-auto-attendant-call-queue.md)，並遵循[開始步驟](plan-auto-attendant-call-queue.md#getting-started)，再依照本文中的程式進行。
+按照本文中的程式進行之前，請確定您已閱讀規劃[Teams自動語音應答和通話佇列](plan-auto-attendant-call-queue.md)，並依照[開始步驟進行](plan-auto-attendant-call-queue.md#getting-started)。
 
 **如需詳細資訊，請參閱下方的 [通話佇列功能相容性](#call-queue-feature-compatibility) 矩陣。**
-
-## <a name="video-demonstration"></a>視訊示範
-
-這段影片示範如何在 Teams 中建立通話佇列的基本範例。
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
 ## <a name="create-the-call-queue"></a>建立通話佇列
 
@@ -77,13 +71,13 @@ ms.locfileid: "65840985"
 
 **適用于Teams頻道/共同作業通話桌面使用者，以及標準通話佇列Teams行動用戶端使用者**
 
-您可以指定一或多個使用電話號碼的資源帳戶，為代理程式指派撥出來電號碼。 專員可以選取要用於每個撥出電話的撥出來電號碼。
+您可以指定一或多個使用電話號碼的資源帳戶，為代理程式指派撥出來電號碼。 專員可以選取要用於每個撥出電話的撥出來電號碼。 在 [通話] 應用程式中，專員可以使用他們的通話佇列 (CQ) / 自動語音應答 (AA) 號碼或自己的個人 Direct InWard Dial (DID) 。
 
 按一下 **[新增**]，搜尋您要允許代理程式在撥打撥出電話時用於來電者識別碼的資源帳戶，按一下 [ **新增**]，然後按一下 [ **新增]**。
 
 **標準通話佇列**
 
-對於Teams桌面使用者和標準通話佇列，請考慮將通話佇列成員的來電識別碼直接設定為通話佇列的服務號碼或適當的自動語音應答。 如需詳細資訊，請參閱[在 Microsoft Teams 中管理來電者識別碼原則](caller-id-policies.md)。
+對於Teams桌面使用者和標準通話佇列，請考慮將通話佇列成員的來電識別碼設定為通話佇列的服務號碼或適當的自動語音應答。 如需詳細資訊，請參閱[在 Microsoft Teams 中管理來電者識別碼原則](caller-id-policies.md)。
 
 > [!NOTE]
 > 用於通話識別碼的資源帳戶必須具備Microsoft Teams 電話系統虛擬使用者授權，以及下列其中一項指派：
@@ -129,12 +123,14 @@ Teams會在來電者在佇列中保留時，為來電者提供預設音樂。 Te
 
 > [!NOTE]
 > 如果您使用此選項，通話佇列最多可能需要 24 小時才能完全運作。
+>
+> 如果小組中有超過 200 個成員，則只會依字母順序將前 200 位成員新增為通話佇列中的代理人。
 
 ##### <a name="users-and-groups"></a>使用者和群組
 
 您最多可以透過群組個別新增 20 個代理程式和最多 200 個代理程式。
 
-如果您想要將個別使用者或群組新增至佇列，請選取 [ **選擇使用者和群組]** 選項。 
+如果您想要將個別使用者或群組新增至佇列，請選取 **[選擇使用者和群組]**。 
 
 若要將使用者新增至佇列，請按一下 [ **新增使用者]**、搜尋使用者、按一下 [ **新增**]，然後按一下 [ **新增]**。
 
@@ -142,17 +138,19 @@ Teams會在來電者在佇列中保留時，為來電者提供預設音樂。 Te
 
 > [!NOTE]
 > 新增至群組的新使用者最多可能需要八小時，才能收到他們的第一個通話。
+>
+> 如果群組中有超過 200 個成員，則只會依字母順序將前 200 位成員新增為通話佇列中的代理人。
 
 ## <a name="call-routing"></a>通話路由
 
 ![會議模式和路由方法設定的螢幕擷取畫面。](media/call-queue-conference-mode-routing-method.png)
 
-**會議模式** 會大幅減少來電者接聽來電者接聽電話之後，與代理人連線所需的時間。 若要讓會議模式正常運作，通話佇列中的代理程式必須使用下列其中一個用戶端：
+**會議模式** 會減少在代理人接聽來電後，來電者與代理人連線所需的時間。 若要讓會議模式正常運作，通話佇列中的代理程式必須使用下列其中一個用戶端：
 
   - Microsoft Teams桌面用戶端、Android應用程式或iOS應用程式的最新版本
   - Microsoft Teams 電話版本 1449/1.0.94.2020051601 或更新版本
   
-專員的Teams帳戶必須設定為僅Teams模式。 不符合需求的代理程式不包含在通話路由清單中。 如果您的代理程式都使用相容的用戶端，建議您為通話佇列啟用會議模式。
+專員的Teams帳戶必須設定為 TeamsOnly 模式。 不符合需求的代理程式不包含在通話路由清單中。 如果您的代理程式使用相容的用戶端，建議您為通話佇列啟用會議模式。
 
 > [!NOTE]
 > 如果電話從已啟用以位置為基礎的路由的直接路由閘道路由到佇列，則不支援會議模式。
@@ -166,7 +164,7 @@ Teams會在來電者在佇列中保留時，為來電者提供預設音樂。 Te
 
 - **語音應答路由** 會同時響鈴佇列中的所有代理程式。 接聽電話的第一個撥號專員會接聽來電。
 
-- **串列路由** 會以 [通話專員] 清單中指定的順序，逐一撥打所有 **通話代理程式** 。 如果專員解除或未接聽來電，通話會撥打下一位專員。 這將會重複，直到接聽來電或逾時為止。
+- **串列路由** 會以 [通話專員] 清單中指定的順序，逐一撥打所有 **通話代理程式** 。 如果專員解除或未接聽來電，通話會撥打給下一位專員。 這將會重複，直到接聽來電或逾時為止。
 
 - **Round 方會** 平衡來電的路由，讓每個來電代理程式從佇列取得相同數目的來電。 在輸入銷售環境中，這種路由方式可能很理想，以確保所有來電代理商都能享有相同的商機。
 
@@ -180,9 +178,9 @@ Teams會在來電者在佇列中保留時，為來電者提供預設音樂。 Te
 > 
 > 使用 **最長閒置** 時間，且佇列中的通話少於可用代理程式時，只有前兩個最長的閒置代理程式會顯示來自佇列的來電。
 > 
-> 使用 **最長閒置** 時間時，有時專員在無法使用後很快收到來自佇列的來電，或在有空後接到佇列來電的短暫延遲。
+> 使用 **最長閒置** 時間時，有時專員可能會在無法使用後很快收到來自佇列的來電，或在有空後收到來自佇列的來電的短暫延遲。
 > 
-> 代理程式的通話佇列通話簡報可能會與位置路由限制發生衝突。 在此情況下，專員會收到快顯通知，但無法接聽電話。 此條件會繼續執行，直到有其他專員可以接聽電話、來電者掛斷或發生通話佇列逾時條件為止。  
+> 代理程式的通話佇列通話簡報可能會與位置路由限制發生衝突。 在此情況下，專員會收到快顯通知，但無法接聽來電。 此條件會繼續執行，直到有其他專員可以接聽電話、來電者掛斷或發生通話佇列逾時條件為止。  
 
 
 ![路由、退出宣告和警示時間設定的螢幕擷取畫面。](media/call-queue-presence-agents-time.png)
@@ -196,9 +194,9 @@ Teams會在來電者在佇列中保留時，為來電者提供預設音樂。 Te
 > [!NOTE]
 > 當選取 **[最長閒置** 時間] 做為路由方法時，即使目前狀態型路由切換開關為 **[關閉** ] 且呈現灰色，仍需要並自動啟用目前狀態路由。
 >
-> 如果未啟用目前狀態路由，且佇列中有多個通話，系統會同時向代理程式顯示這些通話，不論其目前狀態為何。 這會導致專員收到多個來電通知，特別是某些專員未接聽給專員的初始通話時。
+> 如果未啟用目前狀態路由，且佇列中有多個通話，系統會同時向代理程式顯示這些通話，不論其目前狀態為何。 此動作會向專員傳送多個通話通知，特別是某些專員未接聽給專員的初始通話時。
 >
-> 使用 **目前狀態路由** 時，有時專員可能會在無法使用後很快收到來自佇列的來電，或在有空後收到來自佇列的來電的短暫延遲。
+> 使用目前 **狀態路由** 時，有時專員可能會在無法使用後很快收到來自佇列的來電，或在有空後接到佇列來電的短暫延遲。
 > 
 > 啟用目前狀態型路由時，使用商務用 Skype用戶端的代理程式不會包含在通話路由清單中。 如果您有使用商務用 Skype的專員，請勿啟用目前狀態型通話路由。
 
@@ -222,7 +220,7 @@ Teams會在來電者在佇列中保留時，為來電者提供預設音樂。 Te
 您可以選擇中斷通話，或將其重新導向至任何呼叫路由目的地。 例如，您可能會讓來電者為佇列中的代理程式留下語音信箱。 如需外部傳輸，請參閱 [必要條件](plan-auto-attendant-call-queue.md#prerequisites) 和 [外部電話號碼移轉 -](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 數位格式設定的技術詳細資料。
 
 > [!NOTE]
-> 如果將通話數上限設為 0，則問候語訊息將無法播放。
+> 如果電話數上限設為 0，則無法播放問候語訊息。
 >
 > 重新導向至共用語音信箱時，請確定已針對Microsoft 365 系統管理中心的小組/群 **組，讓組織外部的人員傳送電子郵件給此小組**。
 
@@ -252,42 +250,41 @@ Teams會在來電者在佇列中保留時，為來電者提供預設音樂。 Te
 
 ## <a name="call-queue-feature-compatibility"></a>通話佇列功能相容性
 
-|功能                          |Teams桌面<sup>1</sup> |Teams行動<sup>裝置版 2</sup> |Lync |IP Phone | 標準通話佇列 |頻道型通話佇列 | 評論 |
-|:--------------------------------|:------------------------:|:-----------------------:|:---:|:--------:|:--------------------:|:------------------------:|:-------------|
-|**代理程式路由方法**        |                          |                         |     |          |                      |                          |              |
-|`Attendant Routing`              |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*預設*     |
-|`Longest Idle`<sup>3</sup>       |Y                         |Y                        |N    |Y         |Y                     |Y                         |*建議* |
-|`Round Robin`                    |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*建議* |
-|`Serial`                         |Y                         |Y                        |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |              |
-|**專員路由選項**        |                          |                         |     |          |                      |                          |              |
-|`Presence Based Routing`<sup>3</sup>|Y                        |Y                        |N    |Y         |Y                     |Y                         |*建議* |
-|`Agents can Opt-out`               |Y                         |Y                        |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*預設*     |
-|**傳輸模式**               |                          |                         |     |          |                      |                          |              |
-|`Conference Mode`<sup>5</sup>    |Y                         |Y                        |N    |Y<sup>6</sup>|Y                  |Y                         |*建議* |
-|`Transfer Mode`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |*預設*              |
-|**共同作業通話**        |                          |                         |     |          |                      |                          |              |
-|`Channel Based Queues`             |Y                         |N                        |N    |N         |n/a                   |Y<sup>8</sup>             |              |
-|**動態來電者識別碼**            |                          |                         |     |          |                      |                          |              |
-|`Standard call queue`            |N                         |Y                        |N    |N         |Y                     |n/a                       |              |
-|`Channel based call queue`       |Y                         |n/a                      |n/a  |n/a       |n/a                   |Y                         |              |
-|**PSTN 連線方法**    |                          |                         |     |          |                      |                          |請參閱附注 10   |
-|`Calling Plans`                  |Y                         |Y                        |Y    |Y         |Y                     |Y                         |              |
-|`Direct Routing`                 |Y                         |Y                        |N    |N         |Y                     |Y                         |              |
-|`Operator Connect`               |Y                         |Y                        |     |          |Y                     |Y                         |              |
-|**雜項**    |                          |                         |     |          |                      |                          |請參閱附注 10   |
-|`Call toast shows Resource Account Name` |Y<sup>9</sup>       |Y                        |Y    |          |Y                     |Y                         |              |
+|功能                          |Teams桌面<sup>1</sup> |Teams網頁版 | Teams行動<sup>裝置版 2</sup> |Lync |IP Phone | 標準通話佇列 |頻道型通話佇列 | 評論 |
+|:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
+|**代理程式路由方法**        |                          |          |                |     |          |                      |                          |   |
+|`Attendant Routing`              |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*預設*     |
+|`Longest Idle`<sup>3</sup>       |Y                         |Y         |Y               |N    |Y         |Y                     |Y                         |*建議* |
+|`Round Robin`                    |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*建議* |
+|`Serial`                         |Y                         |Y         |Y               |Y    |Y         |Y<sup>4</sup>         |Y<sup>4</sup>             |   |
+|**專員路由選項**        |                          |          |                |     |          |                      |                          |   |
+|`Presence Based Routing`<sup>3</sup>|Y                      |Y         |Y               |N    |Y         |Y                     |Y                         |*建議* |
+|`Agents can Opt-out`               |Y                       |Y         |Y               |Y<sup>7</sup>|Y<sup>7</sup>|Y          |Y                         |*預設*     |
+|**傳輸模式**               |                          |          |                |     |          |                      |                          |   |
+|`Conference Mode`<sup>5</sup>    |Y                         |Y         |Y               |N    |Y<sup>6</sup>|Y                  |Y                         |*建議* |
+|`Transfer Mode`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |*預設*              |
+|**共同作業通話**        |                          |          |                |     |          |                      |                          |   |
+|`Channel Based Queues`             |Y                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
+|**動態來電者識別碼**            |                          |          |                |     |          |                      |                          |   |
+|`Standard call queue`            |N                         |N         |Y               |N    |N         |Y                     |n/a                       |   |
+|`Channel based call queue`       |Y                         |n/a       |n/a             |n/a  |n/a       |n/a                   |Y                         |   |
+|**PSTN 連線方法**    |                          |          |                |     |          |                      |                          |請參閱附注 9   |
+|`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
+|`Direct Routing`                 |Y                         |Y         |Y               |N    |N         |Y                     |Y                         |   |
+|`Operator Connect`               |Y                         |Y         |Y               |     |          |Y                     |Y                         |   |
+|**雜項**                |                          |          |                |     |          |                      |                          |   |
+|`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
 附註：
-1. Microsoft Teams Windows用戶端、Microsoft Teams Mac 用戶端、虛擬化桌面基礎結構上的 Microsoft Teams、Microsoft Teams Web 用戶端。
+1. Microsoft Teams Windows虛擬化桌面基礎結構上的用戶端、Microsoft Teams Mac 用戶端Microsoft Teams。
 2. Microsoft Teams iPhone應用程式，Microsoft Teams Android應用程式。
 3. 針對代理程式路由方法選取 [最長閒置時間] 會自動啟用以目前狀態為基礎的路由。
 4. 只能設定將個別使用者新增為標準通話佇列的一部分時的順序。 使用通訊群組清單或Teams通道時，順序會依字母順序排列。
 5. 如果電話從已啟用以位置為基礎的路由的直接路由閘道路由到佇列，則不支援會議模式。
-6. 僅Microsoft Teams手機。
-7. 透過 [使用者設定入口網站頁面：https://aka.ms/vmsettings
+6. Microsoft Teams 電話。
+7. 透過 [使用者設定入口網站頁面， https://aka.ms/vmsettings
 8. 僅支援公用頻道。
-9. 不包含Teams Web 用戶端。
-10. 自動語音應答和通話佇列無法在 PSTN 連線方法之間轉接來電。
+9. 自動語音應答和通話佇列無法在 PSTN 連線方法之間轉接來電。
 
 
 ## <a name="supported-clients"></a>支援的用戶端
@@ -308,7 +305,7 @@ Teams會在來電者在佇列中保留時，為來電者提供預設音樂。 Te
   - Microsoft Teams Android應用程式
 
     > [!NOTE]
-    > 指派直接路由號碼的通話佇列不支援商務用 Skype用戶端、Lync 用戶端或以代理程式商務用 Skype IP 電話。 Teams用戶端僅支援[共存模式Teams。](/microsoftteams/setting-your-coexistence-and-upgrade-settings)
+    > 指派直接路由號碼的通話佇列不支援商務用 Skype用戶端、Lync 用戶端或以代理程式商務用 Skype IP 電話。 只有[使用 Teams 的共存模式](/microsoftteams/setting-your-coexistence-and-upgrade-settings)才能支援Teams用戶端。
 
 ## <a name="call-queue-cmdlets"></a>通話佇列 Cmdlet
 

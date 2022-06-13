@@ -16,12 +16,12 @@ search.appverid: MET150
 f1.keywords:
 - CSH
 description: 瞭解如何在 Teams 系統管理中心裝置存放區中流覽和購買裝置
-ms.openlocfilehash: da520b6396fa7e47288f4fdaa6b9f028ba16b3dd
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: e5cedb84d50111d90d90d47802f667fb6fdbc106
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761445"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045642"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>在 Teams 裝置市集中購買裝置
 
@@ -34,7 +34,7 @@ Teams系統管理中心的裝置存放區可讓您流覽、購買及布建通過
 
 ## <a name="requirements"></a>需求
 
-若要使用裝置存放區，您必須是全域系統管理員、Teams系統管理員或Teams裝置系統管理員。
+若要使用裝置存放區，您必須是全域系統管理員或Teams系統管理員。
 
 ## <a name="browse-the-store"></a>流覽市集
 

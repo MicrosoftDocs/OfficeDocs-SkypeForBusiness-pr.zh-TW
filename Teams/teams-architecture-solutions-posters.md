@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams IT 結構與語音解決方案海報
-ms.author: serdars
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: ITPro
 ms.topic: landing-page
@@ -16,12 +16,12 @@ search.appverid:
 f1.keywords:
 - NOCSH
 description: 摘要：了解使用 Microsoft Teams 領導，Microsoft 365 中生產力服務的邏輯架構。同時了解 Teams 的語音解決方案。
-ms.openlocfilehash: 6ac6f7f88ec838b445d382dbc6ba8d5ee4ec1bcf
-ms.sourcegitcommit: 204e4654f2c3977db260670f3ee1784d1ad6ed17
+ms.openlocfilehash: 5e53d82aff2ad67ca97acd151e5cbc9d2ed75810
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/15/2022
-ms.locfileid: "64866188"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045422"
 ---
 # <a name="microsoft-teams-it-architecture-and-voice-solutions-posters"></a>Microsoft Teams IT 結構與語音解決方案海報
 

@@ -1,7 +1,7 @@
 ---
 title: 適用於 Microsoft Teams 或商務用 Skype® 2015 Online 的 Proxy 伺服器
-ms.author: tonysmit
-author: tonysmit
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.topic: reference
@@ -21,40 +21,40 @@ f1.keywords:
 ms.custom:
 - Optimization
 - seo-marvel-apr2020
-description: 本文提供有關將 Proxy 伺服器與 Microsoft Teams 或 商務用 Skype。
-ms.openlocfilehash: 559a42c19aa47a9e72a5c0549e80f45de8d50fdf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 本文提供搭配Microsoft Teams或商務用 Skype使用 Proxy 伺服器的相關資訊。
+ms.openlocfilehash: 61a1878b3c7057de7dddbcd63c480f80c2f16e0f
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582157"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045432"
 ---
 # <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>適用於 Microsoft Teams 或商務用 Skype® 2015 Online 的 Proxy 伺服器
 
-本文提供有關將 Proxy 伺服器與 Teams 或 商務用 Skype。
+本文提供搭配Teams或商務用 Skype使用 Proxy 伺服器的指導方針。
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>建議您不要使用 Proxy 伺服器
 
-當涉及代理Teams或商務用 Skype流量時，Microsoft 建議忽略代理。 由於流量已加密，因此Teams或商務用 Skype更安全。
+若要透過 proxy Teams或商務用 Skype流量，Microsoft 建議略過 Proxy。 Proxy 不會讓Teams或商務用 Skype更安全，因為流量已加密。
   
-而擁有 Proxy 也可能會造成問題。 與績效相關的問題可能會透過延遲和封包遺失而引入環境。 這類問題會導致音訊和視Teams或商務用 Skype情境中的負面體驗，而即時資料流是不可或缺的。
+而擁有 Proxy 可能會造成問題。 效能相關問題可透過延遲和封包遺失而引入環境。 這類問題會導致在音訊和視訊等Teams或商務用 Skype案例中產生負的體驗，而即時串流是必要的。
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>如果您需要使用 Proxy 伺服器
 
-有些組織無法針對流量或流量Teams商務用 Skype Proxy。 如果是這種情況，您必須記住上述問題。
+有些組織無法略過Teams或商務用 Skype流量的 Proxy。 如果是這種情況，您必須記住上述問題。
   
-Microsoft 也強烈建議您：
+Microsoft 也強烈建議：
   
-- 使用外部 DNS 解析
+- 使用外部 DNS 解析度
     
-- 使用直接 UDP 路由
+- 使用直接 UDP 型路由
     
 - 允許 UDP 流量
     
-- 遵循我們的網路指導方針中的其他建議：準備貴組織的網路[Teams](prepare-network.md)
+- 依照我們的網路指導方針中的其他建議進行：[準備貴組織的網路以供Teams](prepare-network.md)
   
     
-遵循此指引應能將潛在問題降到最低。
+遵循此指引應最小化潛在問題。
   
 ## <a name="related-topics"></a>相關主題
 

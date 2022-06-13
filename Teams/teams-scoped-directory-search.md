@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b073cdd67d89de7d934990abc33cb0586d0fc76
-ms.sourcegitcommit: 5fe5516f6118ce3fa0449ab194a6fe87bf48c664
+ms.openlocfilehash: c20c5acdafff69e5a43f02093b515b456daa8ff7
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "64732221"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046425"
 ---
 # <a name="limit-who-users-can-see-when-searching-the-directory-in-teams"></a>在 Teams 中搜尋目錄時限制使用者可以查看的人員
 
@@ -50,3 +50,5 @@ Microsoft Teams可讓組織為使用者提供目錄的自訂檢視。 這些檢�
 
 > [!Note]
 > 可能需要幾個小時，此變更才會生效。
+> 
+> 開啟 [依名稱搜尋] 會隱藏 [在 Teams 中 **加入或建立團隊**] 中的 [**搜尋團隊**] 方塊和公開團隊清單。 它也會在Teams頂端的命令方塊中輸入 `/join` ，停用加入團隊的功能。

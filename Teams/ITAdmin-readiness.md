@@ -1,8 +1,8 @@
 ---
-title: 管理員訓練資源 - Microsoft Teams
+title: 系統管理訓練資源 - Microsoft Teams
 ms.reviewer: jhwang
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -19,12 +19,12 @@ ms.custom:
 description: 提供給系統管理員的訓練影片、PowerPoint組、教學課程及其他資源，以瞭解如何規劃、部署及執行Microsoft Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0bc4841e67606f467bc13940755a7de77038d7b6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 3cda81a54bce9310454cd6b0607e943eb7c2bb37
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675585"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045852"
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>開始使用 Microsoft Teams 的系統管理訓練
 
@@ -96,7 +96,7 @@ ms.locfileid: "65675585"
 | 標題                                                                       | 抽象                                                                                                                                                                                                               |  連結至節目表                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Teams的身分識別、存取管理&威脅防護                   | 瞭解如何使用 Microsoft 系統管理中心和 PowerShell 來設定存取和身分識別原則，以及為Teams啟用Office 365進階威脅防護                                                            | [Teams安全性指南](https://aka.ms/teamsesecurityinteractiveguide)         |
-| Microsoft Purview資料外泄防護 (DLP) 原則Microsoft Teams                     | 瞭解如何將Microsoft Teams新增至現有的 DLP 原則，以及如何根據範本或完全根據貴組織的資料保護需求來建立新原則。                        | [Teams DLP 指南](https://aka.ms/teamsdlpguide)         |
+| Microsoft Purview 資料外泄防護 (DLP) 原則Microsoft Teams                     | 瞭解如何將Microsoft Teams新增至現有的 DLP 原則，以及如何根據範本或完全根據貴組織的資料保護需求來建立新原則。                        | [Teams DLP 指南](https://aka.ms/teamsdlpguide)         |
 | 管理 Teams 中的合規性                                                | 使用Microsoft 365安全性、Microsoft 365合規性及Microsoft Teams系統管理中心，以及Windows PowerShell來管理和設定Office 365組織的Microsoft Teams原則和設定。 | [在Teams指南中管理合規性](https://aka.ms/complianceinteamsinteractiveguide)      |
 | Teams 建議程式：在 Microsoft Teams 中部署聊天、團隊、頻道和應用程式 | 瞭解如何使用Teams顧問來評估您的環境，並建立部署聊天、團隊、頻道和應用程式的計畫。                                                                                         |  [Teams 建議程式指南](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | 使用 PowerShell 和動態群組串流Teams管理        | 將Office 365組從靜態成員資格轉換為動態，並使用Windows PowerShell將新的應用程式許可權原則指派給所有成員。                                                                         |  [Streamlining Teams管理指南](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
@@ -105,7 +105,7 @@ ms.locfileid: "65675585"
 | 設定直接路由：連接 SB 和語音路由                 | 使用 Microsoft Teams 電話 System Direct Routing 與您現有的電話語音基礎結構整合。                                                                                                              | [設定直接路由指南](https://aka.ms/DirectRoutingInteractiveGuide)          |
 | 在 Microsoft Teams 中設定監管                                     | 瞭解如何為貴組織建立Teams訊息保留原則，以及如何封存、刪除及還原個別Teams                                                                                   |  [Microsoft Teams指南中的設定控管](https://aka.ms/TeamsGovernanceInteractiveGuide)        |
 | 設定及部署Microsoft Teams會議                          | 逐步執行部署Microsoft Teams會議工作負載的程式。                                                                                                                                       |  [設定及部署Microsoft Teams會議指南](https://aka.ms/TeamsMeetingsInteractiveGuide)          |
-| 設定 Microsoft Teams 的音訊會議                            | 探索Teams中的音訊會議功能，並瞭解如何指派會議橋接器和撥入電話號碼。                                                                                          |  [Microsoft Teams指南設定音訊會議](https://aka.ms/AudioConferencingInteractiveGuide)      |
+| 設定Microsoft Teams的音訊會議                            | 探索Teams中的音訊會議功能，並瞭解如何指派會議橋接器和撥入電話號碼。                                                                                          |  [Microsoft Teams指南設定音訊會議](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | 為第一線員工設定Microsoft Teams                           | 瞭解如何為您的第一線員工設定和部署適當的Microsoft Teams環境。                                                                                                                  | [設定第一線員工Microsoft Teams指南](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | 前線員工的身分識別：增強 IT、主管和前線員工的能力                    | 瞭解如何整合Microsoft Teams與現有的人力資源系統、設定輕量型委派身分識別管理，並為使用共用裝置的使用者設定簡化的登入和順暢轉換。                                                                                                                  | [第一線工作者身分識別指南](https://aka.ms/FLWIdentityIG)              |
 | 部署Microsoft Teams 會議室                           | 瞭解如何在 Microsoft Teams 系統管理中心建立及設定帳戶以搭配Microsoft Teams 會議室及管理裝置。                                                                                                                  | [部署Microsoft Teams 會議室](https://aka.ms/teamsroomslab)              |

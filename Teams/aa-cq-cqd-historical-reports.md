@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: 瞭解如何使用通話品質儀表板Power BI報告來檢視自動語音應答和通話佇列歷程記錄資料。
-ms.openlocfilehash: 66394094f51d58344f151b8ebb7059c2e390c089
-ms.sourcegitcommit: 56d529cdbd8d8733350625316082f339ae8d66c9
+ms.openlocfilehash: e2d71410d10fb809debd1699afcf452c71a6e088
+ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65294094"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046445"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>自動語音應答&通話佇列歷史報告
 
@@ -42,7 +42,7 @@ Teams自動語音應答&通話佇列歷史報告Power BI範本提供下列三個
 ## <a name="prerequisites"></a>必要條件
 
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-您必須安裝Power BI Desktop。 您可以從[Microsoft Windows Store](https://aka.ms/pbidesktopstore)安裝。
+您必須安裝Power BI Desktop。 您可以從[Microsoft Windows Microsoft Store](https://aka.ms/pbidesktopstore)安裝。
 
 您可以使用免費版本的 Power BI Desktop。 最小相容版本為 2.85.681.0 (2020 年 9 月) 。
 
@@ -160,7 +160,7 @@ Teams自動語音應答&通話佇列歷史報告Power BI範本提供下列三個
 |AA 名稱                                 |文本                     |附加至自動語音應答的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **aa_test@microsoft.com**，則此值會是： **aa_test** |
 |AACallerActionCount                     |整數             |摘要：加總<br>來電者在通話期間在自動語音應答中選取的動作數目  |
 |AACallFlow                              |文本                     |封裝式顯示自動語音應答通話的不同狀態--可能的值：<br><br>§ abs_search<br>§ 公告<br>§ automatic_menu<br>§ call_termination<br>§ call_transfer<br>§ first_level_menu<br>§ main_menu<br>§ speech_input_confirmation<br>§ user_selection |
-|AACallResult                            |文本                     |最終通話結果--可能的值：<br><br>§ failed_to_establish_media<br>§ failover_to_operator<br>§ oaa_chain_too_long<br>§ oaa_session_too_long<br>§ service_declined<br>§ service_terminated<br>§ terminated_automatic_selection<br>§ terminated_no_operator<br>§ terminated_transfer_failed<br>***§ transferred_to_operator***<br>§ transferred_to_receptionist<br>§ transferred_to_self<br>§ transferred_to_shared_voicemail<br>§ transferred_to_user<br>§ 未知<br>§ user_terminated |
+|AACallResult                            |文本                     |最終通話結果--可能的值：<br><br>§ failed_to_establish_media (無法建立通話的媒體部分) <br>§ 一般由於系統錯誤) ，failover_to_operator (來電轉接給電信業者<br>§ AA) 中oaa_chain_too_long (過多的雙腳<br>§ oaa_session_too_long (AA 會話太長) <br>§ service_declined (AA 未接受通話) <br>§ service_terminated (AA 設定會中斷通話) <br>§ terminated_automatic_selection (AA 設定會中斷通話) <br>§ terminated_no_operator (呼叫因錯誤而終止，但未定義) 運算子 <br>§ terminated_transfer_failed (呼叫因轉接失敗而終止 - 通常是傳送至外部號碼) <br>***§ transferred_to_operator*** (來電轉接給電信業者 - 通常是因為使用者輸入錯誤) <br>§ transferred_to_receptionist (與 transferred_to_operator) 相同<br>§ transferred_to_self (通話已返回 AA 的開頭 - 通常是從功能表公告選項) <br>§ transferred_to_shared_voicemail (通話已轉接至共用語音信箱) <br>§ transferred_to_user (電話已轉接給使用者 - 包括通話佇列) <br>§ 未知 (發生未知的錯誤) <br>§ user_terminated (來電者掛斷)  |
 |AAChainDuration                         |小數           |摘要：加總<br>自動語音應答中的通話持續時間                     |
 |AAChainIndex                            |文本                     |                                                                         |
 |AAConnectivityType                      |文本                     |通話類型--可能的值：<br><br>§ ExternalCall<br>§ 內部電話 |
@@ -225,7 +225,7 @@ Teams自動語音應答&通話佇列歷史報告Power BI範本提供下列三個
 |名稱                                    |資料類型                |描述                                                                |
 |:---------------------------------------|:------------------------|:--------------------------------------------------------------------------|
 |通話數                              |整數             |摘要：加總<br>通話數目                                          |
-|通話佇列通話結果                  |文本                     |通話佇列通話的最終狀態 -- 可能的值：<br><br>§ agent_joined_conference<br>§ 已拒絕<br>§ 已中斷連線<br>§ 錯誤<br>§ 失敗<br>§ 無效<br>§ 溢位<br>§ timed_out<br>§ transferred_to_agent |
+|通話佇列通話結果                  |文本                     |通話佇列通話的最終狀態 -- 可能的值：<br><br>§ agent_joined_conference (接聽的會議模式電話) <br>§ 已拒絕<br>§ 已中斷連線<br>§ 錯誤<br>§ 失敗<br>§ 無效<br>§ 符合溢位 (溢出條件的溢位) <br>§ timed_out (逾時條件符合) <br>§ transferred_to_agent (接聽的 Tranfer 模式通話 {default})  |
 |通話佇列身分識別                     |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **cq_test@microsoft.com**，則此值會是： **cq_test** |
 |通話佇列目標型別                  |文本                     |***呼叫重新導向目標型別--可能的值：***<br><br>§ ApplicationEndpoint<br>§ 信箱<br>§ 其他<br>§ 使用者 |
 |通話類型<sup>1</sup>                   |文本                     |通話類型--可能的值：<br><br>§ 外部<br>§ 內部           |
@@ -248,7 +248,7 @@ Teams自動語音應答&通話佇列歷史報告Power BI範本提供下列三個
 |:---------------------------------------|:------------------------|:--------------------------------------------------|
 |平均通話持續時間 (秒)          |小數           |摘要：加總<br>以秒為內的平均通話持續時間 |
 |通話數                              |整數             |摘要：加總<br>通話數目                  |
-|通話佇列通話結果                  |文本                     |通話佇列通話的最終狀態--可能的值：<br><br>§ agent_joined_conference<br>§ 已拒絕<br>§ 已中斷連線<br>§ 錯誤<br>§ 失敗<br>§ 無效<br>§ 溢位<br>§ timed_out<br>§ transferred_to_agent |
+|通話佇列通話結果                  |文本                     |通話佇列通話的最終狀態--可能的值：<br><br>§ agent_joined_conference (接聽的會議模式電話) <br>§ 已拒絕<br>§ 已中斷連線<br>§ 錯誤<br>§ 失敗<br>§ 無效<br>§ 符合溢位 (溢出條件的溢位) <br>§ timed_out (逾時條件符合) <br>§ transferred_to_agent (接聽的轉接模式通話 {default} |
 |通話佇列最終狀態動作           |文本                     |通話佇列最終動作--可能的值：<br><br>§ 中斷 (timed_out通話) <br>§ disconnect_with_busy (溢位通話) <br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ 其他<br>§ 語音信箱 |
 |通話佇列身分識別                     |文本                     |附加至通話佇列的資源帳戶名稱<br><br>如果完整資源帳戶名稱 **cq_test@microsoft.com**，則此值會是： **cq_test** |
 |日期                                    |日期/時間                |通話佇列通話開始日期和時間 (小時)  (UTC)    |
@@ -304,8 +304,8 @@ Teams自動語音應答&通話佇列歷史報告Power BI範本提供下列三個
 
 - 通話佇列和自動語音應答會以資源帳戶的識別碼顯示，而不是通話佇列/自動語音應答名稱。  若要顯示自動語音應答或通話佇列的所有流量，您必須選取指派給自動語音應答或通話佇列的所有資源帳戶。
 
-- 儀表板中僅提供 28 天歷程記錄，因為通話佇列/自動語音應答資料會被視為個人資料，並受限於資料隱私權保留原則。
+- 儀表板中只提供 28 天歷程記錄，因為通話佇列/自動語音應答資料會被視為個人資料，並受限於資料隱私權保留原則。
 
 - 在某些情況下，雲端通話佇列代理人時程表報告中的代理人接聽來電計數，可能與Teams用戶端通話記錄中顯示的通話數目不同。 Teams用戶端通話記錄正確無誤。 支援正在調查中，但目前沒有可供修復的估計時間。
 
-- <sup>1</sup>自動語音 **應答中的來電來源** 和通話佇列圖形會顯示最後一個通話列源，而不是初始通話列源。 例如，如果自動語音應答接聽外部來電，並將通話轉接到另一個自動語音應答或通話佇列，則來 **電來源** 會被回報為 [內部]。
+- <sup>1</sup>自動語音應答和通話佇列圖形中的來 **電來源** 會顯示最後一個通話列源，而不是初始通話列源。 例如，如果自動語音應答接聽外部電話，並將電話轉接到另一個自動語音應答或通話佇列，則來 **電來源** 會被回報為 [內部]。

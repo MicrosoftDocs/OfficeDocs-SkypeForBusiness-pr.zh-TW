@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 企業部署概觀
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -16,19 +16,19 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f6e6a2835df6f00bc9103594b1cfe5ae011c6960
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fae55eb230c3c0a450a95eb00e50861888bbe3f1
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617419"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045572"
 ---
 # <a name="teams-enterprise-deployment-overview"></a>Teams 企業部署概觀
 
 如果您是中型或大型企業，您需要思考如何向使用者推出服務、如何向使用者部署 Microsoft Teams 用戶端、您的網路設計對即時通訊品質的影響等等。請查看下列各節的文章指標，協助您在組織中規劃 Teams。
 
 > [!NOTE]
-> 如果您尚未部署 Teams，我們強烈建議您使用試驗版，開始您的 Teams 部署。 試驗將可使您和一些早期採用者在您進行規劃和最終推出之前熟悉 Teams 及其功能。若需更多資訊說明如何開始試驗，請查閱 [開始使用 Microsoft Teams](get-started-with-teams-quick-start.md)。
+> 如果您還沒有這麼做，我們強烈建議您從試驗開始 Teams 部署。試驗將允許您和一些早期採用者在規劃和最終推出之前熟悉 Teams 及其功能。若要了解如何開始試驗，請參閱[開始使用 Microsoft Teams](get-started-with-teams-quick-start.md)。
 
 在您完成閱讀下列章節並準備開始在組織中部署 Teams 之後，請參閱 [在企業中設定 Microsoft Teams](deploy-enterprise-setup.md)。
 
@@ -42,7 +42,7 @@ Teams 有三種工作負載可以彼此獨立部署：**聊天、Teams 和頻道
 
 若要查看您想要部署之工作負載的部署規劃資訊，請參閱下列文章：
 
-- [聊天、Teams 和頻道](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
+- [聊天、團隊和頻道](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
 - [會議和研討會](deploy-meetings-microsoft-teams-landing-page.md)
 - [電話系統與 PSTN 連線](cloud-voice-landing-page.md)
 

@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中設定網路研討會
-author: mkbond007
-ms.author: mabond
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: sachung, emryan
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: 瞭解如何管理Teams會議的網路研討會原則。
-ms.openlocfilehash: 2cf3af39b64506fc8802eafd1e2c45f35b7a4d00
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 247d5c560075dfd0498ea76b476d5515d0fc6f07
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646242"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045702"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>在 Microsoft Teams 中設定網路研討會
 
@@ -41,7 +41,7 @@ ms.locfileid: "65646242"
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>允許使用者在Teams系統管理中心排程網路研討會
 
-您可以使用Teams系統管理中心為貴組織設定網路研討會。 您可以在 [**會議**  >  會議] 原則下Teams系統管理中心找到設定網路研討會 **的原則**。
+您可以使用Teams系統管理中心為貴組織設定網路研討會。 您可以在會議會議 **原則底下的**  >  Teams系統管理中心找到設定網路研討會 **的原則**。
 
 ### <a name="meeting-registration"></a>會議註冊
 

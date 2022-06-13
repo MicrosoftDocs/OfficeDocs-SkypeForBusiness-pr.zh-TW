@@ -1,19 +1,19 @@
 ---
 title: Ignite 2020 的Teams會話
 description: 尋找所有可用的商務用學習中心。
-author: SerdarSoysal
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.date: 09/21/2020
 ms.topic: article
 ms.service: msteams
-ms.author: serdars
 audience: admin
 manager: serdars
-ms.openlocfilehash: 35ec6c883c880543c9d27a18a9af87d3cff7ab6d
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: a956af4c9eedf5e9b4c10c61c219651da94f4ffb
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675115"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046012"
 ---
 # <a name="teams-sessions-at-ignite-2020"></a>Ignite 2020 的Teams會話
 
@@ -26,7 +26,7 @@ ms.locfileid: "65675115"
 |[使用Microsoft Teams建立彈性、包容性和混合式工作場所](https://aka.ms/IG20-DB156-R1) |組織正移至混合式工作場所，以支援遠端和現場員工的需求。 在第一部分中，瞭解團隊如何透過Teams會議、虛擬活動和通話以及新的裝置體驗保持聯繫。 我們將示範Teams平臺如何協助簡化工作流程、改善決策，以及整合您的應用程式生態系統。 <br> 也請參閱本系列的第二部分，會話代碼 DB158。|Nicole Hersk當中                 |
 |[透過Microsoft Teams會議，更聰明地開會、保持專注，以及達成更多目標](https://aka.ms/IG20-DB151)  |會議是工作完成方式的功用。 瞭解Teams會議如何協助您和貴組織在適應新工作方式時提高生產力。  |平拉子杯|
 |[Microsoft Teams通話變得簡單]](https://aka.ms/IG20-DB149)  |Enterprise在 Teams 中通話是一種簡單的部署和使用方式。 瞭解Teams通話的基本概念，同時瞭解通話的最新資訊，例如新的通話體驗和共同作業通話。 |Paul 方塊、Laura Kramer、Laura Kim|
-|[系統管理員管理Microsoft Teams的一個位置：Teams可管理性的新功能](https://aka.ms/IG20-DB144) |Teams系統管理員具有彈性且細分的管理功能。 這些功能可讓他們為組織打造最符合企業需求的自訂體驗。 在本會話中，我們將介紹小組管理員中心入口網站的最新和最佳功能、討論原則、應用程式管理、裝置管理、報告、分析和疑難排解，以及 PowerShell 的新增功能。 |朗尼特·本-謝伯、鐘牬|
+|[系統管理員管理Microsoft Teams的一個位置：Teams可管理性的新功能](https://aka.ms/IG20-DB144) |Teams系統管理員具有彈性且細分的管理功能。 這些功能可讓他們為組織打造最符合企業需求的自訂體驗。 在本會話中，我們將介紹小組系統管理中心入口網站的最新和最佳功能、討論原則、應用程式管理、裝置管理、報告、分析和疑難排解，以及 PowerShell 的新增功能。 |朗尼特·本-謝伯、鐘牬|
 |[使用 Microsoft Teams 縮放和自訂虛擬會議和事件](https://aka.ms/IG20-DB138)|會議有各種形狀和大小，瞭解如何使用Teams來建構和管理下一個大型活動。 Teams可以順暢地配合貴組織的需求來調整規模，為各種規模的活動提供自訂並提供最佳出席者體驗的方式。  |Christina Torok， Ashwin Appiah|
 |[使用Microsoft Teams裝置跨混合式工作場所的 Power Modern 會議體驗](https://aka.ms/IG20-DB147) |Microsoft Teams裝置簡介。 Teams裝置的設計目的是要協助使用者最大化Teams能力，並搭起遠端工作區與共享工作區的間距。 瞭解專為提供以人員為中心的會議室體驗，以及重新構想的個人工作區所設計的裝置，以啟用更具包容性且與Microsoft Teams裝置共同作業的體驗。  |周建拉·柏拉，高德·巴里巴斯|
 |[使用Microsoft Teams平臺轉換現代化工作場所](https://aka.ms/IG20-DB157) |瞭解Teams平臺內所有新的和現有的擴充性點。 探索如何建立功能強大的應用程式和解決方案來解決您的商務需求。|Archana Saseetharan，平雅雅文，賴西卡群島|

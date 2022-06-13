@@ -1,7 +1,7 @@
 ---
 title: 在小型企業中設定 Microsoft Teams
-author: dstrome
-ms.author: dstrome
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 audience: admin
@@ -18,19 +18,19 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bdf55403f807ddb8929da71d082adffcbcb7877d
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: c3afa62cfaca28c0c428c15b44868e7237973955
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767146"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66045442"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>在小型企業中設定 Microsoft Teams
 
 有許多方法可以自訂 Teams。 下列各章節將說明如何設定每個 Teams 工作負載：**聊天、團隊和頻道**；**會議與召集會議**；和 **語音解決方案**。 您對每個工作負載的順序設定由您決定。 雖然我們建議您先設定聊天、Teams 和頻道工作負載，但您可以先從會議和研討會，或甚至是雲端語音開始。 您可以自行選擇。
 
 > [!NOTE]
-> 如果您尚未這麼做，我們強烈建議您使用試驗版，開始您的 Teams 部署。 試驗版將允許您和一些早期採用者在規劃及真正開始使用 Teams 之前，先熟悉 Teams 及其功能。若要瞭解如何開始使用試驗版，請參閱 [開始使用 Microsoft Teams](get-started-with-teams-quick-start.md)。
+> 如果您還沒有這麼做，我們強烈建議您從試驗開始 Teams 部署。試驗將允許您和一些早期採用者在規劃和最終推出之前熟悉 Teams 及其功能。若要了解如何開始試驗，請參閱[開始使用 Microsoft Teams](get-started-with-teams-quick-start.md)。
 
 在您廣泛使用 Teams 之前，請先檢閱 [確認您已準備就緒](get-started-with-teams-quick-start.md#make-sure-youre-ready) 中的項目，確認貴組織已準備就緒。
 
@@ -86,7 +86,7 @@ Teams 中的會議依預設為啟用狀態，不過，您可以控制召集人�
 
 ## <a name="deploy-clients"></a>部署用戶端
 
-當您準備好讓使用者開始使用 Teams 時，他們可以在 Windows、Mac 或 Linux 電腦或 Android 或 iOS 裝置上安裝 Teams 用戶端。 使用者可以直接從 <https://teams.microsoft.com/downloads>下載 Teams 用戶端。
+當您準備好讓使用者開始使用 Teams 時，他們可以在其 Windows、Mac 或 Linux 電腦或其 Android 或 iOS 裝置上安裝 Teams 用戶端。使用者能直接從 <https://teams.microsoft.com/downloads>下載 Teams 用戶端。
 
 確定將使用 Teams 的每個人都擁有 Teams 授權。 如需指派 Teams 授權的詳細資訊，請參閱 [管理使用者對 Teams 的存取權](user-access.md#using-the-microsoft-365-admin-center)。
 
