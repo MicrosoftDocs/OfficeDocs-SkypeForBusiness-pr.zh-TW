@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a86535c701b38b65d1610dc3aa8af2b5616d4a3
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: b6fb06062902ee5bb0b3ab3f41f25a712933dd37
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823002"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056923"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>通話&會議Teams原則型錄製簡介
 
@@ -55,7 +55,7 @@ Teams已增強以支援協力廠商錄製解決方案的整合，包括平臺功
 
 | 類型                   | 便利性 (一般Teams錄製)  | 組織 - 受規範 (合規性記錄)  |
 | ---------------------- | ------------------ | --------------- |
-| 引發              | 使用者               | 管理員 (系統)   |
+| 引發              | 使用者               | 系統管理 ()   |
 | Target (目標)                 | 每次通話 /會議 | 每一使用者        |
 | 儲存體擁有者          | 使用者               | 合規性      |
 | 需要通知嗎？ | 是                | 是             |
@@ -240,6 +240,7 @@ IT 系統管理員可以建立並指派合規性錄製原則，決定要錄製�
 
 |夥伴|解決方案網站 |
 |:--|:--|
+|GuardRec |[https://www.guardrec.com/en/teams-compliance-recording/](https://www.guardrec.com/en/teams-compliance-recording/) |
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 

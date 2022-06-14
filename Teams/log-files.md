@@ -16,12 +16,12 @@ search.appverid: MET150
 description: 瞭解由 Microsoft Teams 產生的偵錯、媒體和桌面記錄檔、可找到這些記錄的位置，以及如何協助監控和疑難排解。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d8e3ab079498ecfca11a7d2ba48736aaf457329
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 178e89ff91de4638f6a9ff56a4dcb935d18f6f91
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059104"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66056943"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>使用記錄檔來監視及疑難排解Microsoft Teams
 
@@ -95,12 +95,16 @@ ms.locfileid: "65059104"
 -   通話/交談
 
 若要收集 Linux 的記錄：
-- 鍵盤快速鍵：<kbd>CtrlAltShift1</kbd>  +  <kbd> </kbd>  +  <kbd> </kbd>  +  <kbd> </kbd>  
+- 鍵盤快速鍵：<kbd>Ctrl</kbd>  +  <kbd>Alt</kbd>  +  <kbd>Shift</kbd>  +  <kbd>1</kbd>  
 - 檔案可在 `~/Downloads`
 
 若要收集瀏覽器和Windows的記錄：
-- 鍵盤快速鍵：<kbd>CtrlAltShift1</kbd>  +  <kbd> </kbd>  +  <kbd> </kbd>  +  <kbd> </kbd>  
+- 鍵盤快速鍵：<kbd>Ctrl</kbd>  +  <kbd>Alt</kbd>  +  <kbd>Shift</kbd>  +  <kbd>1</kbd>  
 - 檔案可在 `%userprofile%\Downloads`
+
+若要收集 Mac 的記錄：
+- 鍵盤快速鍵：<kbd>Option</kbd>  +  <kbd>Command</kbd>  +  <kbd>Shift</kbd>  +  <kbd>1</kbd>  
+- 檔案可在 `~/Downloads`
 
 ## <a name="media-logs"></a>媒體記錄檔
 
@@ -153,7 +157,11 @@ ms.locfileid: "65059104"
 若要收集 Linux 的記錄：
 - 按一下系統匣中的Microsoft Teams圖示，然後選 **取 [取得記錄檔]**。
 - 檔案將在 中取得 `~/.config/Microsoft/Microsoft Teams/logs.txt` 。
-  
+
+若要收集 Mac 的記錄：
+- 按一下 Microsoft Teams 中的 [說明] 功能表，然後選取 **[收集支援檔案]**。
+- 檔案 `logs.txt` 會位於 _MSTeams 診斷記錄 \<local date and time>_ 檔資料夾內的 [桌面] 資料夾中。
+
 若要收集Windows記錄：
 - 按一下系統匣中的Microsoft Teams圖示，然後選取 **[收集支援檔案]**。
 - 檔案 `logs.txt` 會自動以記事本開啟。

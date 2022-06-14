@@ -6,23 +6,20 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
-f1.keywords:
-- NOCSH
 ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-- m365initiative-voice
 search.appverid: MET150
 description: 瞭解如何將您的商務語音授權變更為Teams 電話授權。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39e374175b4ba0a7613405305c4db3baa0e69171
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: e9e973d00761e62e62a3c749163f9e6dcaa8a636
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046128"
+ms.locfileid: "66057093"
 ---
 # <a name="move-from-business-voice-to-teams-phone-licenses"></a>從商務語音移至Teams 電話授權
 
@@ -38,6 +35,11 @@ Business Voice 搭售下列三Teams附加元件授權：
 
 本文適用于需要將其商務語音授權變更為Microsoft Teams 電話和音訊會議授權，同時維護相同功能的 IT 系統管理員。
 
+> [!WARNING]
+> 密切遵循本文的指示操作。 如果指示指示您不要選取 [儲存 **] 按鈕，** 請勿 **選取 [** 儲存] 按鈕。
+>
+> 謹慎儲存可能會導致遺失電話號碼指派、撥號對應表、自動語音應答和通話佇列。
+
 ## <a name="acquire-new-licenses"></a>取得新授權
 
 在更換商務語音授權之前，您必須先為使用者購買取代授權。
@@ -52,18 +54,17 @@ Business Voice 搭售下列三Teams附加元件授權：
 
 | 舊授權方案 | 建議的授權方案 | 描述 |
 | ---------------- | ------------------------ | ----------- |
-| 附帶通話方案的 Business Voice | 含通話方案的 Teams 電話 | 提供雲端型電話系統功能，以及以 Microsoft 做為 PSTN 提供者的國內通話方案。 |
-| 不含通話方案的商務語音 | Teams 電話標準方案 | 提供可[透過協力廠商 PSTN 提供者使用電信業者連線或直接路由與通話方案](pstn-connectivity.md)結合的雲端型電話系統功能 |
-| 商務語音 (任何版本)  | Microsoft Team 音訊會議選取 [撥出] 或 [音訊會議] | 提供撥入和撥出功能給授權使用者召集的會議出席者 |
+| 附帶通話方案的 Business Voice | 使用撥出到 USA/CAN 的通話方案和Microsoft Teams音訊會議Teams 電話 | 提供雲端式電話系統功能、以 Microsoft 做為 PSTN 提供者的國內通話方案，以及由授權使用者召集的會議出席者的電話撥入和撥出功能。 |
+| 不含通話方案的商務語音 | Teams 電話標準方案和Microsoft Teams音訊會議，並撥出到 USA/CAN | 提供雲端式電話系統功能，這些功能可以[與 PSTN 提供者搭配的協力廠商通話方案結合，使用電信業者連線或直接路由](pstn-connectivity.md)和撥入和撥出功能給授權使用者召集的會議出席者。 |
 
 ## <a name="how-to-update-licenses"></a>如何更新授權
 
 您有四種方式可以更新您的授權：
 
-- 單一使用者授權會透過Microsoft 365 系統管理中心更新。
-- 透過Microsoft 365 系統管理中心大量使用者授權更新。
-- 使用 PowerShell 腳本大量更新使用者授權。
-- 使用 Azure 群組授權進行大量使用者授權更新。
+- 透過Microsoft 365 系統管理中心更新單一使用者授權
+- 透過 Microsoft 365 系統管理中心 大量更新使用者授權
+- 使用 PowerShell 腳本大量更新使用者授權
+- 使用 Azure 群組授權大量更新使用者授權
 
 # <a name="option-1-single-user-in-admin-center"></a>[選項 1：系統管理中心的單一使用者](#tab/single-user)
 
