@@ -1033,6 +1033,8 @@ items:
         items:
           - name: 電話系統指導方針
             href: business-voice/whats-business-voice.md
+          - name: 從 Business Voice 移至 Teams 電話授權
+            href: business-voice-to-teams-phone-licenses.md
           - name: 適用國家與地區
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: 檢查您的網際網路連線
@@ -1405,6 +1407,8 @@ items:
             href: rooms/standards-and-room-planner.md
           - name: 客戶報告事件
             href: rooms/customer-reported-incidents.md
+          - name: 使用 Teams 會議室行動應用程式
+            href: rooms/extended-mobile-app.md
       - name: 裝置
         items:
           - name: Teams 裝置儲存

@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: cdbae6cacd861602baea69ec9682f8069dc720a0
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: 2d31474233057d930ccdbc0bdfea27262cc5dc04
+ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913431"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66046002"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Microsoft Teams 的限制和規格
 
@@ -45,8 +45,8 @@ ms.locfileid: "65913431"
 |每個小組的頻道數目    | 200 (包含已刪除的頻道)<sup>4</sup>        |
 |每個小組的私人頻道數量    |30 (包含已刪除的頻道)<sup>4</sup>        |
 |私人頻道中的成員數目    |250|
-|可匯入小組中的通訊群組清單、安全性群組或 Office 365 群組的大小上限    |3,500|
-|Office 365 群組中可轉換成小組的成員數目上限    |10,000<sup>6</sup>     |
+|可匯入小組中的通訊群組清單、安全性群組或 Microsoft 365 群組的大小上限    |3,500|
+|Microsoft 365 群組中可轉換成小組的成員數目上限    |10,000<sup>6</sup>     |
 |頻道交談貼文大小 | 每篇貼文約 28 KB<sup>5</sup> |
 
 <sup>1</sup> Azure Active Directory 中的任何目錄物件都會計入此限制。全域系統管理員會從此限制豁免，使用[應用程式權限](/graph/permissions-reference)呼叫 Microsoft Graph 的應用程式亦然。
@@ -62,7 +62,7 @@ ms.locfileid: "65913431"
 <sup>6</sup> 來自團隊外部的共用頻道成員會計入此限制。 進一步請注意，團隊/頻道提及在超過 10,000 個成員的小組中會封鎖。
 
 > [!NOTE]
-> 有關共用頻道預覽的限制，請參閱[共用頻道的限制 (預覽)](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview)。
+> 如需共用頻道的限制，請參閱[共用頻道的限制](/MicrosoftTeams/shared-channels#limits-for-shared-channels)。
 
 ## <a name="messaging"></a>訊息傳送
 

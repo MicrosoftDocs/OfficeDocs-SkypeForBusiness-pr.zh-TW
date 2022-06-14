@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中為大型組織設定通話佇列。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
-ms.openlocfilehash: d6dd0d7211f9e430dbb716ff905c82443d5f4830
-ms.sourcegitcommit: 193aec6f3f6b6ac14b07e778b3485eed813f5e99
+ms.openlocfilehash: 0d871572f1b1c9b3baa727d35e66f21d93be1f58
+ms.sourcegitcommit: cd34cb3082392d4ca3390b2ecf5bcfe1db7d1046
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046435"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "66068678"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -155,6 +155,8 @@ Teams會在來電者在佇列中保留時，為來電者提供預設音樂。 Te
 > [!NOTE]
 > 如果電話從已啟用以位置為基礎的路由的直接路由閘道路由到佇列，則不支援會議模式。
 >
+> 如果電話從商務用 Skype Server路由到佇列，則不支援會議模式。
+> 
 > 如果Teams使用者需要在通話佇列中查閱/轉接電話，則必須使用會議模式。
 
 > [!TIP]

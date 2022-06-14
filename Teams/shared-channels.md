@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的共用頻道。
-ms.openlocfilehash: 72701d71712a553c9a02cf9ab41ce0ced0597c3a
-ms.sourcegitcommit: c74c83fdb3fdbf1a5ebc9398bf0379d33f888d1b
+ms.openlocfilehash: 11abe6245dea7ee72bc2f71b412addbed5aa6e30
+ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65795635"
+ms.lasthandoff: 06/13/2022
+ms.locfileid: "66057053"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共用頻道
 
@@ -96,10 +96,12 @@ ms.locfileid: "65795635"
 
 每個共用頻道都有[自己的 SharePoint 網站](/SharePoint/teams-connected-sites)。 分隔的網站是為了確保僅限共用頻道的成員才可存取共用頻道檔案。 依預設，這些網站會以文件庫建立，且可以透過[網站管理介面](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)輕鬆地增強為功能完整的網站。 每個網站都在與父系小組的網站相同的地理區域中建立。 這些輕量型網站擁有自訂範本識別碼 TEAMCHANNEL#0，可讓您透過 PowerShell 和圖形 API 更輕鬆地進行管理。 
 
+共用頻道網站會繼承上層小組的敏感度標籤。 即使頻道是直接與另一個團隊共用，這仍會保持 True。
+
 > [!NOTE]
 > 只有頻道中擁有擁有者或成員許可權的人才能存取共用頻道網站中的內容。 父團隊和系統管理員中的人員無法存取，除非他們也是頻道成員。
 
-共用頻道網站會同步處理來自父系小組網站的資料分類。 網站擁有者和成員群組的成員資格，會與共用頻道的成員資格保持同步。 無法透過 SharePoint 獨立管理共用頻道網站的網站權限。 
+網站擁有者和成員群組的成員資格，會與共用頻道的成員資格保持同步。 無法透過 SharePoint 獨立管理共用頻道網站的網站權限。 
 
 Teams 會管理共用頻道網站的生命週期。 如果在 Teams 以外刪除網站，只要共用頻道仍在使用中，就會在 4 小時內自動還原網站。 如果網站已永久刪除，將會為共用頻道佈建新網站。
 
