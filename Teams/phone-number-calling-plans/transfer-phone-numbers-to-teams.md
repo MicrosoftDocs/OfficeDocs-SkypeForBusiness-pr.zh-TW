@@ -1,5 +1,5 @@
 ---
-title: 將電話號碼轉接到Microsoft Teams
+title: 將電話號碼移轉到Microsoft Teams
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -17,88 +17,89 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何使用移轉精靈將您目前服務提供者的電話號碼移轉Microsoft Teams。
+description: 瞭解如何使用移轉精靈將您的電話號碼從目前的服務提供者移轉至Microsoft Teams。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f7d41f95dce78d7ebe783ccb44f23998c0898009
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 5b139d332026ffe0ec8338cbe54f6a5309e6e2df
+ms.sourcegitcommit: 39fc58109da6b4628ffb658f2c6b94099e0ab604
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62418346"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66103250"
 ---
-# <a name="transfer-phone-numbers-to-microsoft-teams"></a>將電話號碼轉接到Microsoft Teams
+# <a name="transfer-phone-numbers-to-microsoft-teams"></a>將電話號碼移轉到Microsoft Teams
 
-使用系統管理中心Microsoft Teams移轉精靈，將您目前服務提供者的電話號碼移轉Teams。 將電話號碼移植到 Teams之後，Microsoft 會成為您的服務提供者，並且會針對這些電話號碼向您計費。
+使用Microsoft Teams系統管理中心的移轉精靈，將您目前服務提供者的電話號碼移轉至Teams。 將電話號碼移轉至Teams之後，Microsoft 將會成為您的服務提供者，並會向您收取這些電話號碼的帳單。
 
-在您開始之前，建議您先查看什麼是埠 [訂單？](port-order-overview.md) 如果您有電話撥入式會議橋接器的服務號碼、自動語音電話或其他服務號碼、免付費電話號碼，或您需轉接至 Teams 的使用者 (訂閱者) 電話號碼超過 999 個，請參閱管理貴組織的電話號碼，以下載正確的表單並傳送給我們。[ ](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+開始之前，建議您檢閱 [移轉訂單中的資訊？](port-order-overview.md) 如果您有電話撥入式會議橋接器的服務號碼、自動語音應答或其他服務號碼、免付費電話號碼，或有超過 999 個使用者 (訂閱者) 需要移轉到Teams的電話號碼，請參閱[管理組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)以下載正確的表單並將它們傳送給我們。
 
   > [!NOTE]
-  > 我們只會處理移轉電話號碼的移轉訂單，而不是在公開假日或週末。
+  > 我們處理移轉電話號碼的移轉訂單僅限美國個工作天，而非國定假日或週末。
+  > 免付費電話號碼的移轉可用性可能會因國家/地區而異。 若要尋找我們的詳細資訊，請參閱您的國家或地區特定檔，以查看移轉服務的可用支援。
 
-## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>建立移轉訂單，並傳送電話號碼至Teams
+## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>建立移轉訂單並將您的電話號碼移轉到Teams
 
 > [!NOTE]
-> **目前，您可以使用此精靈取得** 英國、美國和加拿大的電話號碼。 若要取得其他國家/地區的電話號碼，您可以 [手動提交埠訂單](manually-submit-port-order.md)。 若要取得您需要手動提交埠訂單的表單，請在管理貴組織的電話號碼下拉式清單中選取 [您的國家/地區](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。
+> **目前，您可以使用此精靈來取得英國、美國和加拿大的電話號碼**。 若要取得其他國家/地區的電話號碼，您可以 [手動提交移轉訂單](manually-submit-port-order.md)。 若要取得您需要手動提交移轉訂單的表單，請在 [ [管理組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)] 下拉式清單中選取您的國家或地區。
 
-1. 在系統管理中心的左側導Microsoft Teams，請前往 **語音**  >  **電話號碼**。 按一下 **[數位**，然後按一下 **[埠** 以啟動埠精靈。
-2. 在 [開始使用> **頁面上** 查看資訊，然後當您準備好時，按一下 [下 **一步**。
-3. 在 [ **選取位置和數位類型頁面** ， 指定下列專案，然後按一下 [ **下一步**：
+1. 在 Microsoft Teams系統管理中心的左側導覽畫面中，移至 **[語音**  >  **電話號碼。** 按一下 **[數位**]，然後按一下 [ **埠** ] 以啟動移轉精靈。
+2. 檢閱 **開始** 頁面上的資訊，然後當您準備好時，按一下 [**下一步]**。
+3. 在 [ **選取位置和編號類型]** 頁面上，指定下列專案，然後按 [ **下一步]**：
 
-    - **國家/地區**：您收到號碼的國家/地區。
-    - **電話類型**：數位類型，例如地理號碼或免付費號碼。
-    - **指派給的數位**：指派給哪些數位。 例如，使用者或會議或語音功能。
+    - **國家或地區**：您取得數位的國家或地區。
+    - **電話號碼類型**：數位類型，例如地理或免付費號碼。
+    - **指派給** 的數位：指派給數位的物件。 例如，使用者、會議或語音功能。
 
-4. 在 [ **新增帳戶資訊>** 頁面上，完成下列操作，然後按一下 [ **下一步**。
+4. 在 [ **新增帳戶資訊]** 頁面上，完成下列操作，然後按 [ **下一步]**。
 
     > [!IMPORTANT]
-    > 此頁面上顯示的資訊是由國家/地區與數位類型所決定。 每個國家/地區對埠號碼所需資訊有不同的規定。 您在此頁面上看到的內容可能與本文所述不同。
+    > 此頁面上顯示的資訊是由國家或地區及編號類型決定。 每個國家和地區對移轉號碼所需的資訊有不同的規定。 您在此頁面上看到的內容可能與此處所述的內容不同。
 
     - **訂單詳細資料**： 
-        - **訂單名稱**：您的訂單名稱
-        - **通知電子郵件**：接收訂單通知的電子郵件地址。 如果您輸入多個電子郵件地址，請以分號分隔每個位址。
-        - **移轉日期**：由目前服務提供者發行的傳輸日期。
-    - **電話數位詳細資料**
-        - **埠類型**：無論您是執行完整埠來傳輸所有號碼，還是部分埠來傳輸部分號碼。
-    - **要求詳細資料的人**  
-        - 貴組織名稱和要求移轉人員之連絡人詳細資料。
-    - **目前提供者詳細資料**
-        - **計費電話號碼 (BTN)**：您的 BTN 格式為 E.164，這需要 + 符號，以在號碼之前。 例如，針對北美號碼，請使用 +1XXXYYZZ 格式。
-        - 其他詳細資料，包括您目前的服務提供者名稱、您的帳戶號碼和服務位址。
+        - **訂單名稱**：訂單名稱
+        - **通知電子郵件**：接收訂單通知的電子郵件地址。 如果您輸入多個電子郵件地址，請以分號分隔每一個位址。
+        - **移轉日期**：由您目前服務提供者發行的移轉日期。
+    - **電話號碼詳細資料**
+        - **埠類型**：無論您要執行完整移轉以移轉所有號碼，還是移轉部分埠以移轉部分號碼。
+    - **要求詳細資料的人員**  
+        - 您的組織名稱和要求移轉之人員的連絡人詳細資料。
+    - **目前提供者的詳細資料**
+        - **帳單電話號碼 (BTN)**：您的 BTN 為 E.164 格式，需要 + 符號才能加上號碼。 例如，若是北美洲數位，請使用 +1XXXYYZZ 格式。
+        - 其他詳細資料，包括您目前服務提供者的名稱、您的帳戶號碼和服務位址。
             
-5. 在 [**新增號碼>** 頁面上，按一下 [選取檔案，流覽至並選取包含要傳輸的電話號碼的 CSV 檔案，然後按一下 [下 **一步**。  
+5. 在 [ **新增號碼** ] 頁面上，按一下 **[選取檔案**]，流覽並選取包含您要傳輸之電話號碼的 CSV 檔案，然後按 [ **下一步]**。  
 
     > [!NOTE]
-    > CSV 檔案必須只有一個標題為 PhoneNumber 的欄。 每個電話號碼必須位於另一列，而且只能是數位或 E.164 格式。
+    > CSV 檔案必須只有一個名為 PhoneNumber 的標題列。 每個電話號碼都必須在另一列，而且只能是數位或 E.164 格式。
 
-6. 在 [**完成您的訂單Upload**，按一下 [授權書Upload上傳已簽署授權書的掃描 (LOA) 。
+6. 在 [**完成訂單]** 頁面上，按一下 **[Upload已簽署的授權書**]，以上傳已簽署之授權書的掃描複本 (LOA) 。
 
-    如果您尚未下載並簽署 LOA，請執行下列操作：
+    如果您尚未下載並簽署 LOA，請執行下列動作：
     
-    1. 按一下 **[下載範本** 以下載您國家/地區或地區的 LOA。 
+    1. 按一下 [下載適用于您國家或地區的 LOA **] 範本** 。 
     2. 列印 LOA。
-    3. 由有權變更帳戶的人員簽署 LOA。
-    4. 掃描已簽署的 LOA，然後按一下 **[Upload授權** 書以上傳。
+    3. 讓 LOA 由獲授權變更帳戶的人員簽署。
+    4. 掃描簽署的 LOA，然後按一下 **Upload已簽署的授權書** 上傳。
 
     > [!NOTE]
-    > 上傳 LOA 之後，提交您的訂單。 只上傳 LOA 是不夠的。 您還必須提交訂單才能處理。
+    > 上傳 LOA 之後，提交您的訂單。 只上傳 LOA 就不夠了。 您也必須提交訂單，才能進行處理。
 
-7. 檢查您的訂單詳細資料，然後按一下 [ **提交**。
+7. 檢閱您的訂單詳細資料，然後按一下 [ **提交]**。
 
 
-## <a name="what-happens-next"></a>接下來會發生什麼情況？
+## <a name="what-happens-next"></a>接下來會發生什麼事？
 
-當我們收到您的埠訂單時，您會收到一封驗證您要求的電子郵件。 您的要求會每天檢查和更新，而且會收到電子郵件中其進度和狀態的通知。 如果您的埠要求遭到失敗電信公司拒絕，請連至 [TNS 服務台](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
+當我們收到您的移轉訂單時，您會收到一封電子郵件來驗證您的要求。 系統會每天檢查並更新您的要求，系統會在電子郵件中通知您的要求進度和狀態。 如果遺失電信業者拒絕您的移轉要求，請連絡 [TNS 服務台](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
-若要查看您的埠訂單狀態，請在系統管理中心的左側導Microsoft Teams，前往 [**VoicePort** 訂單>**，**  >  然後按一下 [訂單 **歷程記錄**。 每個埠訂單狀態會列在狀態 **欄中** 。 若要深入瞭解，請參閱您的埠訂單 [狀態是什麼？](port-order-status.md)
+若要檢視移轉訂單的狀態，請在Microsoft Teams系統管理中心的左側導覽中，移至 [>**語音**  >  **埠訂單**]，然後按一下 [**訂購記錄]**。 每個移轉訂單狀態都會列在 **[狀態** ] 欄中。 若要深入瞭解，請參閱 [移轉訂單的狀態為何？](port-order-status.md)
 
 
 ## <a name="reporting-telephone-number-issues"></a>報告電話號碼問題？
-如果您發現埠完成後的 24-48 小時內，埠號碼發生任何問題，請聯絡 [TNS 服務台](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。 如果問題超過 48 小時，請聯絡 Microsoft 支援小組。
+如果您在埠完成後的前 24-48 小時內發現移轉號碼有任何問題，請連絡 [TNS 服務台](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。 針對超過 48 小時的任何問題，請連絡Microsoft 支援服務小組。
 
 ## <a name="related-topics"></a>相關主題
 
 - [什麼是移轉訂單？](port-order-overview.md)
-- [用於通話方案的各種電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [通話方案所用的不同電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [緊急通話條款及條件](../emergency-calling-terms-and-conditions.md)
 - [緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
