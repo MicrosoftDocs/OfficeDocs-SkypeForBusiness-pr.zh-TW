@@ -1407,6 +1407,8 @@ items:
             href: rooms/standards-and-room-planner.md
           - name: 客戶報告事件
             href: rooms/customer-reported-incidents.md
+          - name: 資料和隱私權資訊
+            href: rooms/data-and-privacy-info.md
           - name: 使用 Teams 會議室行動應用程式
             href: rooms/extended-mobile-app.md
       - name: 裝置
