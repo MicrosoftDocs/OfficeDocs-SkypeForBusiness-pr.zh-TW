@@ -1,5 +1,5 @@
 ---
-title: 迴圈元件概觀Teams
+title: Teams中Loop元件概觀
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -11,75 +11,87 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 瞭解如何在 Teams 中管理迴圈Teams。
+description: 瞭解如何在 Teams 中管理Loop元件。
 f1.keywords:
 - CSH
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f9ca97a0088c703dc482d69406a9e9c2c8b2a22
-ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
+ms.openlocfilehash: 2fb436ef2e8b32f737fcfa10823b54dc0e6a7cca
+ms.sourcegitcommit: 07abd8fdb653e57a839ded72620d0179049f25dc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63043371"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088579"
 ---
-# <a name="overview-of-loop-components-in-teams"></a>迴圈元件概觀Teams
+# <a name="overview-of-loop-components-in-teams"></a>Teams中Loop元件概觀
 
-在聊天中Teams元件，提供一種共同構思、建立及做出決策的新方式。 傳送元件 ，例如表格、工作清單或段落，讓聊天中的每個人都能在線上編輯，並查看變更。 
+在Teams聊天中Loop元件提供新的方式，讓您一起構構、建立和做出決策。 傳送元件，例如表格、工作清單或段落，讓聊天中的每個人都可以進行內嵌編輯，並在變更時看到變更。 
 
 > [!Note]
-> 迴圈元件是[Microsoft Loop](https://www.microsoft.com/en-us/microsoft-loop)應用程式的第一項功能，可在 Teams。 
+> Loop元件是[Microsoft Loop 應用程式](https://www.microsoft.com/en-us/microsoft-loop)的第一項功能，可在 Teams 中使用。 
 
-**一起更快速地完成工作。** 群組來源議程、追蹤群組的動作專案，或共同記錄筆記。 這些只是讓迴圈元件更容易的一些案例。
+**共同完成工作更快。** 群組議程、追蹤群組的動作專案，或共同記錄筆記。 這些只是幾個使用Loop元件更輕鬆的案例。
 
-**共用元件。** 在這個版本中，您可以將迴圈元件共用至不同的Teams聊天。 收件者無論身在何處都可以編輯，而且無論變更在何處，都可以立即看到更新。
+**共用元件。** 在此版本中，您可以在不同的Teams聊天中共用Loop元件。 收件者可以隨時隨地進行編輯，而且無論在何處進行變更，都能立即查看更新。
 
-**從聊天開始，從該開始建立。** 您從聊天Teams建立的每一個元件都會自動儲存到 OneDrive。 因此，您可能會開始在聊天中共同合作，然後再移至檔案，因為檔案的視覺空間較大，可以視需要新增更多元件。
+**從聊天開始，從該處建立。** 您從聊天Teams建立的每個元件都會自動儲存到OneDrive中的檔案。 因此，您可能會在聊天中開始共同作業，之後移至檔案，您有更大的可編輯視覺空間，而且可以視需要新增任意數量的元件。
 
-有關迴圈元件在 Teams 中的系統管理設定[SharePoint。](/sharepoint/manage-loop-components)
+如需Teams中Loop元件的系統管理設定資訊，請參閱[管理 SharePoint 中的Loop元件](/sharepoint/manage-loop-components)。
 
 ## <a name="clients-and-platforms"></a>用戶端和平臺
 
-適用于 Teams、Mac Windows Linux、iOS 和 Android 上的應用程式。
+適用于 Windows、Mac、Linux、iOS 和 Android 上的Teams應用程式。
 
-## <a name="loop-components-and-loop-files"></a>迴圈元件和 .loop 檔案
+## <a name="loop-components-and-fluid-files"></a>Loop元件和 .fluid 檔案
 
-在 Teams中建立的元件會以儲存在建立者檔案中的 .loop 檔案OneDrive。 成為檔案OneDrive表示使用者可以建立、探索及管理迴圈元件 (.迴圈) ，就像任何Office一樣。 .loop 檔案可處理電子檔探索、稽核、報告和法律保留等資料監管功能。
+以 Teams 建立的Loop元件是由儲存在建立者OneDrive中的 .fluid 檔案所支援。 在OneDrive中的檔案表示使用者可以像建立、探索及管理Loop元件 (.fluid 檔案一樣輕鬆地) 任何Office檔。 
 
-## <a name="how-are-loop--files-stored"></a>如何儲存 .loop 檔案？
+## <a name="how-are-fluid--files-stored"></a>如何儲存 .fluid 檔案？
 
-.loop 檔案會顯示在 Office.com 和 OneDrive，例如位於最近和建議的區域。 使用者可以從 Office.com 和 OneDrive 搜尋 .loop 檔案中OneDrive。 .loop 檔案可以從 OneDrive 還原到OneDrive。 若要建立迴圈元件聊天參與者必須擁有OneDrive帳戶。 如果沒有有效的OneDrive帳戶，聊天參與者仍可在其他使用者所建立的元件上共同OneDrive帳戶，但無法建立自己的帳戶。 
+.fluid 檔案會顯示在 Office.com 和 OneDrive，例如 [最近] 和 [建議] 區域。 使用者可以從 Office.com 和 OneDrive 搜尋 .fluid 檔案中的內容。 .fluid files can be restored to previous versions from OneDrive. 若要建立Loop元件，聊天參與者必須擁有OneDrive帳戶。 如果沒有有效的OneDrive帳戶，聊天參與者可能仍然可以針對其他擁有有效OneDrive帳戶但無法建立自己帳戶的使用者所建立的元件進行共同作業。 
 
-將 .loop 檔案從 OneDrive移動到SharePoint網站會導致即時元件無法載入至Teams聊天。
+將 .fluid 檔案從OneDrive移至SharePoint網站會導致即時元件無法在Teams聊天中載入。
 
 ## <a name="what-happens-if-the-owner-of-the-file-leaves-the-company"></a>如果檔案擁有者離開公司，會發生什麼情況？
 
-OneDrive保留原則會套用至 .loop 檔案，就像套用至使用者建立的其他內容一樣。
+OneDrive保留原則會套用至 .fluid 檔案，就像套用到使用者建立的其他內容一樣。
 
-## <a name="how-are-loop-files-shared"></a>如何共用 .loop 檔案？
+## <a name="how-are-fluid-files-shared"></a>如何共用 .fluid 檔案？
 
-迴圈元件可以在聊天中插入Teams或從一個聊天複製到另一個聊天。  (通道中尚不支援迴圈元件。) 它們預設為組織的現有許可權，但使用者可以在傳送前變更許可權，以確保每個人都能存取。
+Loop元件可以插入Teams聊天中，或是從一個聊天複製到另一個聊天。 頻道尚未支援 (Loop元件。) 它們預設為組織現有的許可權，但使用者可以在傳送前變更許可權，以確保每個人都能存取。
 
-在 Office.com 中Teams聊天中開啟元件，提供視窗頂端的共用功能，類似其他 Office 檔的共用選項。
+在 Office.com 中從Teams聊天開啟元件可在視窗頂端提供共用功能，類似其他Office檔的共用選項。
 
-## <a name="what-if-a-loop-file-becomes-corrupted-or-damaged"></a>如果 .loop 檔案損毀或損毀，該怎麼處理？
+## <a name="what-if-a-fluid-file-becomes-corrupted-or-damaged"></a>如果 .fluid 檔案損毀或損壞該怎麼辦？
 
-版本歷程記錄可讓您從檔案的先前版本進行審閱和複製。
+版本歷程記錄可讓您檢閱及複製舊版檔案。
 
-## <a name="what-apps-can-open-and-edit-loop-files"></a>哪些應用程式可以開啟和編輯 .loop 檔案？
+## <a name="what-apps-can-open-and-edit-fluid-files"></a>哪些應用程式可以開啟和編輯 .fluid 檔案？
 
-.loop 檔案只能在瀏覽器中以連結開啟，例如 Office.com，以及聊天中的迴圈Teams元件。 下載後，若未先將檔上傳回OneDrive或SharePoint。
+.fluid 檔案只能在瀏覽器中開啟為連結，例如 Office.com，以及Teams聊天中的Loop元件。 如果已下載，則必須先將它們上傳到OneDrive或SharePoint，就無法再次開啟。
 
-## <a name="known-issues"></a>已知問題
+## <a name="does-fluid-files-support-ediscovery"></a>.fluid 檔案是否支援 eDiscovery？
 
-- 在 Android 上使用聊天時，無法透過Office 應用程式編輯聊天Teams元件。
-- 如果租使用者的預設檔案許可權設定為 [特定人員 (只有使用者指定的人員) ，而寄件者在建立元件時，會從許可權對話方塊中的 [特定人員清單上移除部分使用者」，則這些使用者可能仍可存取內容。
-- 將租使用者預設檔案許可權設定為 [特定人員 (只有使用者指定的人員) ，將連結複製到即時元件，並在另一個聊天中將內容上線，要求寄件者使用許可權對話方塊，並新增 [特定人員」 選項中的收件者，以正確授予存取權。
-- 將租使用者預設檔案許可權設定為特定 *人員 (只有* 使用者指定的人員) ，在超過 20 個成員的群組聊天中建立即時元件，會要求寄件者手動選取元件的許可權選項。
-- 在搜尋中搜尋迴圈Teams會返回連結至 office.com 中的元件，而不是聊天訊息本身。
-- 在聯合聊天中，迴圈元件會停用。
-- B2B 來賓將無法透過公司共用連結，在即時元件上共同合作。 將許可權設定為 **目前在此聊天中的人員** ，以與 B2B 來賓共用元件。
-- 在頻道中不支援Teams元件。
-- 只有在檔案移至不同的文件庫時，才能載入聊天中的迴圈元件。 如果檔案移至不同的資料夾，檔案會繼續在聊天中載入。
+.fluid 檔案可被搜尋，但電子檔探索工作流程支援有限。 目前，.fluid 檔案會儲存在建立者的OneDrive中，而且可以在 eDiscovery (Standard) 和 eDiscovery (進階版) 中搜尋和收集。 不過，它們不會在預覽中呈現，而且現有工具無法耗用檢閱的匯出格式。 若要檢視匯出的內容，請將它們上傳到任何OneDrive。 如有需要，您可以暫時停用[設定管理一](/sharepoint/manage-loop-components#settings-management)節中所述的這些體驗。
+
+## <a name="if-loop-is-disabled-from-the-admin-switch-what-will-the-user-experience-be"></a>如果從系統管理切換停用Loop，使用者體驗會是什麼？
+
+如果您停用設定[管理](/sharepoint/manage-loop-components#settings-management)一節中所述的這些體驗，將會套用下列體驗變更：
+
+- 訊息中心內的建立/插入進入點將會隱藏Teams。 使用者將無法建立新的 .fluid 檔案。
+- 先前以互動式Loop元件呈現的現有郵件，會改為轉譯為超連結「Loop元件」。 Teams內不會顯示任何互動式內容。
+- 當使用者按一下「Loop元件」超連結，或流覽至商務用 OneDrive中的 .fluid 檔案並按一下以開啟時，該檔案會在另一個瀏覽器索引標籤中開啟，但使用者無法編輯檔案。
+
+## <a name="known-issues"></a>已知的問題
+
+- 在Android上使用Teams時，無法透過Office 應用程式編輯聊天中的Loop元件。
+- 如果租使用者預設檔案許可權設定為 *[特定人員* ]， (使用者指定) 的人員，而寄件者在建立元件時，會從 [許可權] 對話方塊的 [ *特定人員* ] 清單中移除部分使用者，這些使用者可能仍然可以存取內容。
+- 在租使用者預設檔案許可權設定為 [ *特定人員* ] 時， (使用者指定) 的人員、將連結複製到即時元件並貼到其他聊天時，寄件者必須使用許可權對話方塊，並在 [特定人員] 選項中新增收件者，才能正確授與存取權。
+- 在租使用者預設檔案許可權設定為 [ *特定人員* ] (使用者指定的人員) ，在與超過 20 位成員的群組聊天中建立即時元件，將需要寄件者手動選取元件的許可權選項。
+- 在Teams搜尋中搜尋Loop元件時，會傳回 office.com 元件的連結，而不是聊天訊息本身。
+- 同盟聊天會停用Loop元件。
+- B2B 來賓無法在透過公司共用連結與他們共用的即時元件上共同作業。 將 **目前在此聊天中的** 人員許可權設定為與 B2B 來賓共用元件。
+- Teams通道不支援Loop元件。
+- 只有當檔案移至不同的文件庫時，聊天中的Loop元件才會載入。 如果檔案移到不同的資料夾，則檔案會繼續載入在聊天中。

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過認證，Microsoft Teams才能產生最佳結果。
-ms.openlocfilehash: a5ebc44e3fb7f4f49f97efe61cec59828b6b5e7c
-ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
+ms.openlocfilehash: 20edc2195d09d802d2812e207c7d6052195a9945
+ms.sourcegitcommit: 07abd8fdb653e57a839ded72620d0179049f25dc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860744"
+ms.lasthandoff: 06/15/2022
+ms.locfileid: "66088549"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams認證的Android裝置
 
@@ -245,6 +245,15 @@ Microsoft Teams裝置認證計畫可確保認證裝置符合高標準，且在�
 
 | 裝置型號  | 韌體版本 | 包含的產品版本 |
 |:--------------|:-----------------|:-------------------------|
+| Logi 方塊    | `1.6.552`         | 2022 更新 #2    |
+| Logi 資訊看板迷你版 | `1.6.552`       | 2022 更新 #2   |
+| 整齊的橫條 | `NFB1.20220512.2200` | 2022 更新 #2 |
+| 整齊的鍵盤觸控主控台 | `NFA1.20220512.2158`  |  2022 更新 #2 |
+| 整齊的版面 | `NFC1.20220512.2200` |  2022 更新 #2 |
+| Yealink 會議列 A20 | `133.15.0.95 `   | 2022 更新 #2  |
+| Yealink 會議列 A30 | `133.15.0.95 `   | 2022 更新 #2  |
+| Yealink CTP18 | `137.15.0.53`     | 2022 更新 #2    |
+| Yealink VC210 + VC210 | `118.15.0.69`     | 2022 更新 #2    |
 | Logi Tap Device  |  `1.5.705`   | 2022 更新 #1    |
 | Poly Studio X30 | `3.11.0.364021`          | 2022 更新 #1    |
 | Poly Studio X50 | `3.11.0.364021`          | 2022 更新 #1    |
