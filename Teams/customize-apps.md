@@ -1,5 +1,5 @@
 ---
-title: 在應用程式中自訂Microsoft Teams
+title: 修改貴組織Teams市集中應用程式的外觀
 author: guptaashish
 ms.author: guptaashish
 manager: prkosh
@@ -17,165 +17,140 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何在應用程式中自訂Microsoft Teams。
-ms.openlocfilehash: 927c8abd9458be18661e26daf7686ce791bd6428
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+description: 瞭解如何在 Microsoft Teams 中自訂應用程式。
+ms.openlocfilehash: 3f8a8a3c1922de230573628926a1aff2eee6ee06
+ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556504"
+ms.lasthandoff: 06/16/2022
+ms.locfileid: "66124368"
 ---
-# <a name="customize-apps-in-microsoft-teams"></a>在應用程式中自訂Microsoft Teams
+# <a name="customize-appearance-of-apps-in-your-organizations-teams-store"></a>自訂貴組織Teams市集中應用程式的外觀
 
- Microsoft Teams應用程式自訂功能，以增強Teams體驗。 有些應用程式開發人員允許系統管理員自訂應用程式Teams應用程式。管理員可以使用系統管理中心管理應用程式頁面，根據組織需求自訂或重新 **Microsoft Teams應用程式屬性**。 您可以自訂的詳細資訊有：
+Microsoft Teams可讓系統管理員自訂Teams應用程式，以增強店面體驗並遵守組織品牌。 應用程式開發人員可以允許Teams系統管理員自訂其應用程式。接著，您可以在系統管理中心的 [管理應用程式] Teams 頁面中，根據組織需求更新應用程式屬性。 您可以自訂的詳細資料包括：
 
-- 簡短名稱
-- 簡短描述
-- 完整描述
-- 隱私權政策 URL
-- 網站 URL
-- 使用條款 URL
-- 色彩圖示
-- 大綱圖示
-- 強調色彩
+* 簡短名稱
+* 簡短描述
+* 完整描述
+* 隱私權原則 URL
+* 網站 URL
+* 使用規定 URL
+* 應用程式圖示
+* 圖示的外框色彩
+* 輔色
 
-請參閱Teams[清單架構](/microsoftteams/platform/resources/schema/manifest-schema)，以瞭解有關您可以自訂之欄位的詳細資訊。
+如需應用程式各種元資料欄位的相關資訊，請參閱開發人員檔中的[Teams資訊清單架構](/microsoftteams/platform/resources/schema/manifest-schema)。
 
 > [!NOTE]
-> 目前，在 政府社群雲端 GCCH (或) DoD (不支援自訂應用程式) 。
-> 目前，此功能不適用於側載應用程式Microsoft Teams應用程式。
+> 您無法自訂任何組織中的側載應用程式。 您無法在 政府社群雲端 High (GCCH) 或美國商務部 (DoD) 雲中自訂任何應用程式。
 
-## <a name="customize-the-apps-details"></a>自訂應用程式詳細資料
+## <a name="customize-details-of-an-app"></a>自訂應用程式的詳細資料
 
-若要開始自訂應用程式，請完成下列步驟：
+若要自訂應用程式，請完成下列步驟：
 
-1. 請Teams[系統管理中心](https://admin.teams.microsoft.com/dashboard)。
+1. 登入 Teams 系統管理中心。
 
-2. 展開 **Teams應用程式**，然後選取 **管理應用程式**。
+1. 展開 **Teams應用程式**，然後選取 **[[管理應用程式]](https://admin.teams.microsoft.com/policies/manage-apps)**。
 
-3. 檢查應用程式 **清單** 的可自訂欄，並按可自訂的應用程式排序。
+1. 檢查應用程式清單的 **[可自訂** ] 欄，並依可自訂的應用程式排序。
 
-   ![已排序的自訂欄。](media/customize-column.png)
+   ![系統管理中心的自訂欄可協助您查看可自訂的應用程式。](media/customizable-apps-in-tac.png)
 
-   有三個進入點可存取自訂功能：
+   存取自訂功能有三個進入點：
 
-   - 選取您想要自訂的應用程式旁，然後 **選取自訂。**
+   * 選取您要自訂之應用程式旁邊的，然後選取 [ **自訂]**。
 
-     ![自訂選取選項 1。](media/select-app-to-customize1.png)
+     ![自訂選取範圍選項 1.](media/select-app-to-customize1.png)
 
-   - 選取應用程式名稱，然後在可自訂中選取編輯 **圖示**。
+   * 選取應用程式名稱，然後選取 [ **可自訂**] 中的編輯圖示。
 
-     ![自訂選取選項 2。](media/communities-microsoft.png)
+     ![自訂選取範圍選項 2。](media/communities-microsoft.png)
 
-   - 選取應用程式名稱，按一下溢出 **功能表，** 將游標停留在 **[動作** > 上，然後選取 [自訂。
+   * 選取應用程式名稱，按一下 [動作 **] 上的****溢位功能表** 暫留，然後選取 [自訂]。
 
-     ![自訂選取選項 3。](media/customize-action-menu.png)
+     ![自訂選取範圍選項 3.](media/customize-action-menu.png)
 
-4. 展開詳細 **資料** 區段並自訂下欄欄位：
+1. 展開 [ **詳細資料]** 區段並自訂下列一或多個欄位。 可由開發人員指定為可自訂的欄位會顯示。
 
-    - 簡短名稱
-    - 簡短描述
-    - 完整描述
-    - 網站
-    - 隱私權政策 URL
-    - 使用條款 URL
+    * 簡短名稱
+    * 簡短描述
+    * 完整描述
+    * 網站
+    * 隱私權原則 URL
+    * 使用規定 URL
 
    ![自訂設定。](media/customize-settings.png)
 
-> [!Note]
-> 只會顯示 App 開發人員指派為可自訂的欄位。
+1. 展開 **[圖示]** 區段。
 
-1. 展開圖示 **區** 段。
+1. Upload圖示。 使用 PNG 格式的圖示 (192 x 192) 圖元。
 
-1. Upload圖示。 在 PNG 格式的 192x192 (圖元) 全色圖示。
+1. 選擇圖示外框色彩。 使用 PNG 格式的透明外框 (32x32) 圖元。
 
-1. 選擇圖示外邊框色彩。 使用一個 32x32 (32x32) PNG 格式的透明外邊框。
-
-1. 選取符合圖示的應用程式強調色彩。
+1. 選取符合圖示的應用程式輔色。
 
    ![自訂圖示面板色彩選項。](media/customize-app-colors.png)
 
-1. 自訂應用程式之後，請選取應用程式 **。**
+1. 自訂應用程式之後，選取 [ **套用]**。
 
-1. 選取 **發佈** 以發佈自訂的應用程式。
+1. 選 **取 [發佈** ] 以發佈自訂的應用程式。
 
-   自訂的應用程式現在會列在您的管理 **應用程式頁面中** 。 由於自訂應用程式功能不會建立應用程式的副本，因此您只會擁有一個版本的應用程式。
+   自訂應用程式現在會列在 [ **管理應用程式** ] 頁面中。 您只有一個版本的應用程式，因為自訂應用程式功能並不會建立應用程式的複本。
 
-現在您的Teams使用者可以開啟其Teams用戶端以查看自訂的應用程式。
+現在您的Teams使用者可以在用戶端中看到自訂的應用程式。
 
-   ![用戶端中的自訂Teams應用程式。](media/contoso-app.png)
+   ![Teams用戶端中的自訂應用程式。](media/contoso-app.png)
 
-### <a name="special-considerations-for-customizing-an-app"></a>自訂應用程式的特殊考慮
+請注意自訂應用程式的下列詳細資料：
 
-下列附注包含自訂應用程式的重要詳細資料。
+* 當您自訂應用程式，以及任何與應用程式相關的描述時，如果應用程式發行者在其檔或使用條款中提供，請確定您遵循任何自訂指導方針。 對於您可能使用的任何協力廠商影像，您也必須尊重他人的權利。
 
-> [!Note]
->
-> - 當您自訂應用程式，以及任何與應用程式相關的描述時，請確保遵循應用程式發行者在檔或使用條款中提供的任何自訂指導方針。 您也有責任尊重其他人對於您可能使用之任何協力廠商影像的權利。
-> - 系統管理提供的自訂資料會儲存在最近的地區。
-> - 您負責確保使用條款或隱私權政策的連結有效。
-> - 如果應用程式發行者不再允許欄位可自訂，應用程式詳細資料頁面上會出現一則訊息，通知系統管理員無法再自訂的欄位。 對該欄位進行的所有變更都會還原為原始值。
-> - 我們建議您在測試租使用者Teams測試應用程式自訂變更，然後再在生產環境中進行這些變更。
-> - 變更商標可能需要最多 24 小時，使用者才能看到變更。
+* 管理員提供的自訂資料會儲存在最接近的地區。
 
-## <a name="review-app-details"></a>查看應用程式詳細資料
+* 您必須負責確保使用規定或隱私權原則的連結有效。
 
-您可能會想要查看應用程式詳細資料，以檢查資訊。
+* 如果應用程式發行者不再允許可自訂欄位，應用程式詳細資料頁面上會出現一則訊息，通知系統管理員有關無法再自訂的欄位。 對該欄位所做的所有變更將會還原為原始值。
+
+* 建議您先在Teams測試租使用者中測試應用程式自訂變更，然後再在您的生產環境中進行這些變更。
+
+* 商標變更最多可能需要 24 小時，才能傳播到所有使用者。
+
+* 開發人員可以提供應用程式的新版本，讓應用程式可以自訂。 您上傳新版本，並移除舊版的應用程式。 如果您已自訂併發布應用程式，使用應用程式自訂功能自訂的新應用程式將不會取代目前的應用程式。
+
+* [應用程式使用方式報告](teams-analytics-and-reports/app-usage-report.md)會顯示發行者所提供的應用程式原始名稱。
+
+* [Microsoft Graph許可權同意] 對話方塊會顯示發行者所提供的應用程式原始名稱。 它可協助您在提供許可權時準確識別應用程式。
+
+## <a name="review-app-details"></a>檢閱應用程式詳細資料
+
+您可能會想要查看應用程式詳細資料以檢閱資訊。
 
 1. 登入 Teams 系統管理中心。
 
-2. 展開 [Teams 應用程式 **]**，然後選取 [管理應用程式 **]**。
+1. 展開 **Teams應用程式**，然後選取 **[[管理應用程式]](https://admin.teams.microsoft.com/policies/manage-apps)**。
 
-3. 選取應用程式名稱。
+1. 選取應用程式名稱。
 
-4. 查看應用程式詳細資料，包括原始應用程式名稱 **Publisher 的簡短名稱**。
+1. 檢視應用程式詳細資料，包括原始應用程式名稱 **發行者提供的簡短名稱**。
 
    ![自訂圖示面板應用程式名稱。](media/original-app-version.png)
 
-   只有 **您變更了** 應用程式的簡短名稱，才能看到來自發行者欄位的簡短名稱。
+   只有當您變更了應用程式的簡短名稱時，才會顯示 **發行** 者的簡短名稱欄位。
 
-## <a name="reset-app-details-to-default"></a>將應用程式詳細資料重設為預設值
+## <a name="reset-app-details-to-default-values"></a>將應用程式詳細資料重設為預設值
 
-您隨時都可以將應用程式詳細資料重設為原始設定。
+您可以將應用程式詳細資料重設為應用程式開發人員提供的原始值。 此選項僅適用于您自訂的應用程式。
 
-1. 登入 Teams 系統管理中心。
+1. 在Teams系統管理中心，存取 **Teams應用程式**  >  **[管理應用程式。](https://admin.teams.microsoft.com/policies/manage-apps)**
 
-2. 展開 **Teams應用程式**，然後選取 **管理應用程式**。
+1. 選取應用程式名稱。
 
-3. 選取應用程式名稱。
+1. 從 [動作] 功能表選取 [**重設為預設****值**]。
 
-4. 從 **動作下拉下** 拉選取預設值。
-
-   ![選取重設以預設為已強調。](media/select-reset.png)
-
-## <a name="frequently-asked-questions"></a>常見問題集
-
-**我的使用者需要多久時間查看自訂的應用程式？**
-
-雖然系統管理員可以在系統管理中心Teams變更，但使用者最多可能需要 24 小時才能看到變更。  
-
-**應用程式提供者可以為客戶自訂應用程式嗎？**
-
- 否，租使用者系統管理員需要使用系統管理中心自訂租使用者Teams應用程式。
-
-**自訂的應用程式會自動部署以取代租使用者中的目前自訂應用程式嗎？**
-
-否，租使用者系統管理員必須手動移除任何自訂應用程式，併發布自訂版本的應用程式。 如果您自訂應用程式並將其發佈為自訂應用程式，使用應用程式自訂功能自訂的新應用程式不會取代目前的自訂應用程式。  
-
-**應用程式使用方式報告也會顯示自訂的值 ，例如自訂的簡短名稱嗎？**
-
- 否，應用程式使用方式報告仍然會顯示從發行者寄來的應用程式原始名稱。
-
-**我可以使用應用程式自訂功能自訂哪些應用程式？**
-
-您只可以自訂應用程式發行者允許可自訂的應用程式。 應用程式發行者必須加入宣告，允許其客戶自訂應用程式。
-
-**自訂屬性會顯示在圖形許可權同意畫面上嗎？**
-
-否，許可權同意畫面仍然會顯示發行者所寄的原始值。
+   ![選取 [重設] 以醒目提示預設值。](media/select-reset.png)
 
 ## <a name="related-article"></a>相關文章
 
-- [管理應用程式](manage-apps.md)
-- [自訂您的 App Store](customize-your-app-store.md)
-- [重新品牌您的應用程式](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)
+* [管理應用程式](manage-apps.md)
+* [自訂群組織的 App Store](customize-your-app-store.md)
+* [重新命名您的應用程式](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/rebrand-apps-to-your-own-organization-s-branding-with-app/ba-p/2376296)
