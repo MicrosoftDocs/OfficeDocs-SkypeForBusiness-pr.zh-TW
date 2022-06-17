@@ -805,11 +805,13 @@ items:
                 href: more-about-calling-line-id-and-calling-party-name.md
           - name: 自動語音應答和通話佇列
             items:
-              - name: 規劃
+              - name: 規劃自動語音應答和通話佇列
                 href: plan-auto-attendant-call-queue.md
-              - name: 自動語音應答設定
+              - name: 規劃通話路由流程
+                href: plan-your-call-routing-flow.md
+              - name: 設定自動語音應答
                 href: create-a-phone-system-auto-attendant.md
-              - name: 通話佇列設定
+              - name: 設定通話佇列
                 href: create-a-phone-system-call-queue.md
               - name: 管理 Teams 資源帳戶
                 href: manage-resource-accounts.md
@@ -819,6 +821,8 @@ items:
                 href: answer-auto-attendant-and-call-queue-calls.md
               - name: 報告
                 href: aa-cq-cqd-historical-reports.md
+              - name: 自動語音應答和通話佇列的 PowerShell Cmdlet 參考
+                href: call-queue-auto-attendant-cmdlets.md
               - name: 撥號和語音參考
                 href: dial-voice-reference.md
           - name: 封鎖撥入通話
@@ -1056,7 +1060,7 @@ items:
               - name: 步驟 5：將電話號碼指派給使用者
                 href: business-voice/set-up-assign-numbers.md
               - name: 步驟 6：設定自動語音應答
-                href: business-voice/set-up-auto-attendant.md
+                href: create-a-phone-system-auto-attendant.md
               - name: 步驟 7：連接埠電話號碼 (選用)
                 href: business-voice/port-phone-numbers.md
               - name: 安裝後資源
@@ -1072,13 +1076,9 @@ items:
               - name: 建立更多使用者
                 href: business-voice/create-users.md
               - name: 設定通話佇列
-                href: business-voice/create-a-phone-system-call-queue-smb.md
-              - name: 設定自動語音應答
-                href: business-voice/create-a-phone-system-auto-attendant-smb.md
+                href: create-a-phone-system-call-queue.md
           - name: 管理您的電話系統設定
             items:
-              - name: 建立一或多個使用者
-                href: business-voice/create-users.md
               - name: 管理裝置
                 href: business-voice/manage-devices.md
               - name: 監控通話品質
@@ -1793,7 +1793,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: 傳訊原則授權
             href: teams-add-on-licensing/pri-message.md
-          - name: Microsoft 365 電話系統 - 虛擬使用者授權
+          - name: Microsoft 標準版電話系統 - 虛擬使用者授權
             href: teams-add-on-licensing/virtual-user.md
           - name: 開始使用 Teams 基本版
             href: get-started-with-teams-essentials.md
