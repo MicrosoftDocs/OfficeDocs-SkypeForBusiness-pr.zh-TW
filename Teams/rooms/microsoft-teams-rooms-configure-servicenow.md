@@ -1,9 +1,9 @@
 ---
 title: 設定 ServiceNow for Teams 會議室
-author: dstrome
-ms.author: dstrome
+author: donnah007
+ms.author: v-donnahill
 manager: serdars
-ms.reviewer: ''
+ms.reviewer: ronmart
 ms.topic: article
 ms.service: msteams
 audience: Admin
@@ -12,18 +12,21 @@ appliesto:
 localization_priority: Normal
 description: 瞭解如何在 Teams 會議室 進階版 入口網站中設定 ServiceNow
 f1keywords: ''
-ms.openlocfilehash: c11a4e3cf4f128c8043ad2451f7d0a7a2ffe1c2e
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.openlocfilehash: 6362d0bed4263ce374c1fb5cfd05d4d8815044c2
+ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761495"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66167307"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>設定 ServiceNow for Teams 會議室
 
 本文將說明在Teams 會議室 進階版入口網站中設定 ServiceNow 環境的必要條件和步驟。
 
-## <a name="before-you-begin"></a>開始之前
+## <a name="watch-microsoft-teams-rooms--managed-services-service-now-integration"></a>觀看：Microsoft Teams 會議室 - 受管理的服務服務立即整合
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ZK4B]
+
 
 ### <a name="teams-rooms-prerequisites"></a>Teams 會議室先決條件
 

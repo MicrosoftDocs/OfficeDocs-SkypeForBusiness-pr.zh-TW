@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 將Teams 會議室裝置上線至受管理的服務
 f1keywords: ''
-ms.openlocfilehash: d40daed54a04ca7d9949ecc63f57c379aee6b666
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 901cf212d6eaeb7ca98b8a158de517b0687ba517
+ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675785"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "66167317"
 ---
 # <a name="enroll-device-into-managed-service"></a>將裝置註冊到受管理的服務
 
@@ -85,10 +85,10 @@ ms.locfileid: "65675785"
 > [!NOTE]
 > 如果電腦 *已加入網域*，請選擇 [ **其他使用者**]，然後使用 **.\admin**，或在裝置上設定為使用者名稱的本機系統管理員使用者名稱。
 
-執行必要的系統管理工作之後，若要返回Microsoft Teams會議室應用程式：
+執行必要的系統管理工作之後，若要返回Microsoft Teams 會議室應用程式：
 
 1. 從Windows ***[開始] 功能表***，從管理員帳戶登出。
-1. 選取畫面最左側的使用者帳戶圖示，然後選取 [Skype]，即可返回 **[Microsoft Teams會議室]**。
+1. 若要返回Microsoft Teams 會議室，請選取畫面最左側的使用者帳戶圖示，然後選 **取 [Skype]**。
 
 > [!NOTE]
 > 如果未列出Skype使用者，請選取 [其他使用者]，然後輸入 ***.\skype*** 做為使用者名稱，然後登入。
