@@ -17,13 +17,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何在 Microsoft Teams 中自訂貴組織的應用程式存放區。
-ms.openlocfilehash: 18ea62e608fe7f357ca0848a1b39fa5a337c7442
-ms.sourcegitcommit: b8098d6ea36f10ee3a630a230ebd84bc2d96e37a
+description: 瞭解如何新增標誌、自訂背景和自訂文字色彩，來自訂貴組織的Teams應用程式市集。
+ms.openlocfilehash: a838164ffc9d2403d4755cdef8b1bdcdb153958e
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65780629"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190303"
 ---
 # <a name="customize-your-organizations-app-store-in-microsoft-teams"></a>在 Microsoft Teams 中自訂貴組織的 App Store
 

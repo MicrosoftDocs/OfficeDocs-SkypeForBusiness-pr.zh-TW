@@ -14,17 +14,17 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何在Microsoft Teams中使用和管理貴組織使用者的應用程式設定原則。
+description: 瞭解如何建立、編輯和管理應用程式設定原則，以釘選應用程式、安裝應用程式，以及允許使用者上傳自訂應用程式。
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 05e70d9b1e69ff72eda8e984af1cb1228842f5da
-ms.sourcegitcommit: e8a78c24fda7e56c7b217a843a8a5f1c30aa95f6
+ms.openlocfilehash: 58a2b8730c4f3d02746aeb0bb3887bcd63d44918
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/31/2022
-ms.locfileid: "65786003"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190474"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>管理 Microsoft Teams 中的應用程式設定原則
 

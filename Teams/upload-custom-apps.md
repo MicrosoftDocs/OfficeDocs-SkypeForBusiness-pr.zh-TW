@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何將您的自訂應用程式上傳到您組織的 Microsoft Teams 系統管理中心中的應用程式市集。
-ms.openlocfilehash: 33f2a1234c041029b44f63f42f224784cc487fdc
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 01a74422ef5bc1f9c63c6ea1c7ecf2e05cc377a4
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124348"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190353"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>上傳應用程式套件以發佈自訂應用程式
 
@@ -41,7 +41,7 @@ Microsoft Teams開發人員平臺可讓開發人員輕鬆整合您自己的應�
 
 ### <a name="get-the-app-package"></a>取得應用程式套件
 
-當應用程式準備就緒可在生產中使用時，開發人員會產生應用程式套件。 他們可以使用 [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview) 來執行此工作。 他們會將檔案以.zip格式傳送給您。
+當應用程式準備就緒可在生產中使用時，開發人員應該會產生應用程式套件。 他們可以使用 [App Studio](/microsoftteams/platform/concepts/build-and-test/app-studio-overview)。 他們會將檔案以.zip格式傳送給您。
 
 Teams市集中的所有應用程式都會通過必要的[應用程式驗證](overview-of-app-validation.md)，以符合全域Teams應用程式市集的品質和安全性標準。 此外，Microsoft 也強烈建議應用程式開發人員參與選擇性的 [應用程式合規性計畫](overview-of-app-certification.md) ，以指出增強的合規性、安全性和隱私權控制。 如需詳細資訊，請[參閱Teams應用程式驗證指導方針](/microsoftteams/platform/concepts/deploy-and-publish/appsource/prepare/teams-store-validation-guidelines)。
 

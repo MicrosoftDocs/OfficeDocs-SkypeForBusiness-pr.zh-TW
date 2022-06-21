@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c26f70bb6592c418968b77c9ef2a495cb98648a
-ms.sourcegitcommit: e99471689ff60f9ab1095bc075f8b4c5569c9634
+ms.openlocfilehash: 6a38bfbcc8ec7de5e9c1535b1a597b534e46d009
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860794"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190613"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>在 Microsoft Teams 教育版 中設定父系連線
 
@@ -41,12 +41,11 @@ Teams 教育版中的家長連線可協助授課者使用Teams，安全地與班
 
 家長連線可讓授課者和監護人使用Teams聊天、傳送電子郵件和通話。
 
-- Teams監護人連絡人資料使用 SIS 保持在最新狀態，學校資料同步處理 (SDS) 。
+- 授課者可以與監護人開始聊天。
+  - 如果監護人沒有Teams的消費者帳戶，他們會收到授課者的初始訊息和前往Teams的電子郵件邀請。
 - 它適用于受監督的聊天。 如需詳細資訊，請參閱[在Microsoft Teams中使用受監督的聊天](supervise-chats-edu.md)。
   - 根據預設，監護人具有限制的許可權，因此他們無法與學生聊天或將使用者從聊天中移除。
   - 租使用者管理員可以變更此設定。
-- 授課者可以與監護人開始聊天。
-  - 如果監護人沒有Teams的消費者帳戶，他們會收到授課者的初始訊息和前往Teams的電子郵件邀請。
 - 授課者可以按一下監護人的電子郵件，使用他們原生的電子郵件客戶程式傳送電子郵件給他們。
 - 授課者可以按一下監護人的電話號碼，在Teams內撥打他們。
 
@@ -66,7 +65,17 @@ Teams 教育版中的家長連線可協助授課者使用Teams，安全地與班
 
 ## <a name="requirements"></a>需求
 
+您必須使用 Microsoft Graph或學校資料同步處理 (SDS) 填入每個學生的家長和監護人的相關連絡資訊。
+
+### <a name="graph-api"></a>Graph API
+
+如果您已經使用[Microsoft Graph PowerShell SDK](/powershell/microsoftgraph/overview)來建立學生身分識別，您可以輕鬆地包含[相關連線資源類型](/graph/api/resources/relatedcontact)。
+
 ### <a name="school-data-sync"></a>學校資料同步處理
+
+Teams監護人連絡人資料會在SDS設定為定期同步時，使用 學校資料同步處理 (SDS) 讓 SIS 保持在最新狀態。
+
+如果監護人已從 *學生的* 記錄中移除，任何涉及他們的現有聊天都會包含聊天擁有者可見的橫幅。 此橫幅會讓聊天擁有者知道變更，要求他們從聊天中移除監護人。 Microsoft 不會自動更新聊天成員資格以移除監護人。
 
 - 您需要學校資料同步處理 (SDS) 填入每個學生的家長和監護人的 **相關連絡** 資訊。
   - [部署SDS](/schooldatasync/parents-and-guardians-in-sds)

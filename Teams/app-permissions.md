@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a9ce3fccd8974bd7f8cba04d01bf16738772ea11
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 925136660ef6adda6374fab1acccf10a2b9f1722
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124178"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190283"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Microsoft Teams應用程式許可權與考慮
 
@@ -73,13 +73,13 @@ Microsoft Teams應用程式可將一或多個功能匯總到可安裝、升級�
 
 * POST_MESSAGE_TEAM：允許應用程式的 Bot 隨時傳送直接 (主動) 訊息給小組成員，即使使用者從未與 Bot 互動。
 
-* 下列並非明確許可權，但RECEIVE_MESSAGE和REPLYTO_MESSAGE所暗示，以及可使用 Bot 的範圍在資訊清單中宣告：
+* 下列並非明確許可權，而是RECEIVE_MESSAGE和REPLYTO_MESSAGE所暗示，以及可使用 Bot 的範圍，請在資訊清單中宣告：
 
   * RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT
   * RECEIVE_MESSAGE_TEAM、REPLYTO_MESSAGE_TEAM
 
-* 下列並非明確許可權，但RECEIVE_MESSAGE和REPLYTO_MESSAGE所暗示，以及可使用 Bot 的範圍在資訊清單中宣告：
+* 下列並非明確許可權，而是RECEIVE_MESSAGE和REPLYTO_MESSAGE所暗示，以及可使用 Bot 的範圍，請在資訊清單中宣告：
 
   * RECEIVE_MESSAGE_PERSONAL、REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT、REPLYTO_MESSAGE_GROUPCHAT

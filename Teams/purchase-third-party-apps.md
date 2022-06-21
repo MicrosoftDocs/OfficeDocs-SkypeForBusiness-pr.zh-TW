@@ -12,16 +12,16 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava, nsuter
 search.appverid: MET150
 f1keywords: ''
-description: 瞭解如何在 Microsoft Teams 系統管理中心為Teams購買協力廠商應用程式。
+description: 瞭解如何使用信用卡、轉帳卡或發票帳單，從Teams市集購買協力廠商應用程式。
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 52cab02898a2fd187c60d2348a42c3ce97de2a3b
-ms.sourcegitcommit: 836926a4914eb33fc3e0d8d6c84cee886cb1a5a7
+ms.openlocfilehash: 33d5faec0694c666b2f392713d235cb52ef8b0e8
+ms.sourcegitcommit: 9946c6c1faa78617ccd7bdf115457090ebce5619
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65137084"
+ms.lasthandoff: 06/21/2022
+ms.locfileid: "66190323"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>購買適用于 Teams 的協力廠商應用程式
 
@@ -38,7 +38,7 @@ Teams應用程式可以免費安裝，有些可能需要購買服務訂閱才能
 > [!IMPORTANT]
 > 當您啟用應用程式購買時，它也會開啟應用程式內購買。 使用者可能會看到 App 內購買優惠，這些優惠是由其應用程式的 ISV 所控制。 如果您想要封鎖使用者購買應用程式，您必須封鎖該應用程式。 如需如何封鎖應用程式的詳細資訊，請參閱 [管理應用程式原則](app-policies.md) 或 [瞭解如何在組織層級封鎖應用程式](manage-apps.md#allow-and-block-apps)。
 
-1. 在Microsoft Teams系統管理中心的左窗格中，移至 **Teams應用程式**  >  **管理應用程式。** 您必須是全域系統管理員或Teams服務系統管理員才能存取頁面。
+1. 在 Microsoft Teams系統管理中心的左窗格中，移至 **Teams應用程式**  >  **管理應用程式。** 您必須是全域系統管理員或Teams服務系統管理員才能存取頁面。
 1. 搜尋您要的應用程式。 若要識別擁有付費 SaaS 訂閱的應用程式，請查看 **[授權] 欄** 。 每個應用程式都會有下列其中一個值：
     - **購買**：此應用程式提供 SaaS 訂閱，且可供購買。  
     - **已購買**：應用程式提供 SaaS 訂閱，而且您已購買該訂閱的授權。
@@ -72,7 +72,7 @@ Teams應用程式可以免費安裝，有些可能需要購買服務訂閱才能
 全域系統管理員可以新增更多授權、移除授權，以及取消由組織中任何人購買的訂閱。 Teams服務系統管理員可以針對自己購買的專案執行相同的動作。 不過，如果Teams服務系統管理員也有帳單系統管理員角色，他們可以管理組織中任何人所購買的專案。
 
 > [!NOTE]
-> 如果全域系統管理員想要管理另一位全域系統管理員購買的訂閱，他們必須位於相同的計費帳戶中。 您可以在Microsoft 365 系統管理中心中選取應用程式，為您購買的訂閱提供另一個全域系統管理員存取權。 從該處，移至檢 **視帳單設定檔**  >  **選取計費帳戶**  >  **指定角色**  >  **新增其他全域系統管理員**。
+> 如果全域系統管理員想要管理另一位全域系統管理員購買的訂閱，他們必須位於相同的計費帳戶中。 您可以在Microsoft 365 系統管理中心中選取應用程式，為您購買的訂閱提供另一個全域系統管理員存取權。 從該處，移至檢 **視帳單設定檔**  >  **選取計費帳戶**  >  **指派角色**  >  **新增其他全域系統管理員**。
 
 ### <a name="invoice-billing"></a>發票帳單
 
@@ -91,5 +91,5 @@ Teams應用程式可以免費安裝，有些可能需要購買服務訂閱才能
 
 - [在 Microsoft Teams 系統管理中心管理您的應用程式](manage-apps.md)
 - [建立 SaaS 優惠](/azure/marketplace/partner-center-portal/create-new-saas-offer)
-- [Azure AD內建角色](/azure/active-directory/roles/permissions-reference)
+- [Azure AD 內建角色](/azure/active-directory/roles/permissions-reference)
 - [Microsoft 365系統管理員角色](/microsoft-365/admin/add-users/about-admin-roles)
