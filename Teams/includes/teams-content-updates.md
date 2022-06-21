@@ -3,6 +3,38 @@
 
 
 
+## <a name="week-of-june-13-2022"></a>2022 年 6 月 13 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 6/13/2022 | [在 Microsoft Teams 中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 改 性 |
+| 6/13/2022 | [使用 Power BI 分析 Microsoft Teams 的 CQD 資料](/MicrosoftTeams/cqd-power-bi-query-templates) | 改 性 |
+| 6/13/2022 | [從商務語音移至Teams 電話授權](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | 改 性 |
+| 6/13/2022 | [使用記錄檔進行疑難排解Microsoft Teams](/MicrosoftTeams/log-files) | 改 性 |
+| 6/13/2022 | [資料與隱私權資訊](/MicrosoftTeams/rooms/data-and-privacy-info) | 改 性 |
+| 6/13/2022 | [Microsoft Teams 會議室更新管理](/MicrosoftTeams/rooms/update-management) | 改 性 |
+| 6/15/2022 | [Teams PowerShell 模組 - 支援的版本](/MicrosoftTeams/teams-powershell-supported-versions) | 改 性 |
+| 6/16/2022 | [自動語音應答和通話佇列的 PowerShell Cmdlet 參照](/MicrosoftTeams/call-queue-auto-attendant-cmdlets) | 添加 |
+| 6/16/2022 | [規劃Microsoft Teams的通話路由流程](/MicrosoftTeams/plan-your-call-routing-flow) | 添加 |
+| 6/16/2022 | [Microsoft Teams應用程式許可權與考慮](/MicrosoftTeams/app-permissions) | 改 性 |
+| 6/16/2022 | [指派、變更或移除使用者的電話號碼](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 改 性 |
+| 6/16/2022 | 設定 Microsoft Teams 自動語音應答 - 小型企業教學課程 | 刪除 |
+| 6/16/2022 | 在 Microsoft Teams 電話 系統中建立通話佇列 - 小型企業教學課程 | 刪除 |
+| 6/16/2022 | [將Teams 電話系統電話號碼指派給使用者](/MicrosoftTeams/business-voice/set-up-assign-numbers) | 改 性 |
+| 6/16/2022 | 為公司的主要電話號碼設定自動語音應答 | 刪除 |
+| 6/16/2022 | [設定Microsoft Teams 電話系統資源帳戶](/MicrosoftTeams/business-voice/set-up-resource-account) | 改 性 |
+| 6/16/2022 | [Teams 電話系統中小型企業指南](/MicrosoftTeams/business-voice/whats-business-voice) | 改 性 |
+| 6/16/2022 | [設定Microsoft Teams自動語音應答](/MicrosoftTeams/create-a-phone-system-auto-attendant) | 改 性 |
+| 6/16/2022 | [在 Microsoft Teams 中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 改 性 |
+| 6/16/2022 | [修改貴組織Teams市集中應用程式的外觀](/MicrosoftTeams/customize-apps) | 改 性 |
+| 6/16/2022 | [自動語音應答和通話佇列撥號和語音辨識參照](/MicrosoftTeams/dial-voice-reference) | 改 性 |
+| 6/16/2022 | [在 Teams 中管理資源帳戶](/MicrosoftTeams/manage-resource-accounts) | 改 性 |
+| 6/16/2022 | [規劃Teams自動語音應答和通話佇列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 改 性 |
+| 6/16/2022 | [在 Microsoft Teams 系統管理中心Upload您的自訂應用程式](/MicrosoftTeams/upload-custom-apps) | 改 性 |
+| 6/16/2022 | [管理參與者和來賓的會議原則](/MicrosoftTeams/meeting-policies-participants-and-guests) | 改 性 |
+
+
 ## <a name="week-of-june-06-2022"></a>2022 年 6 月 6 日周
 
 
@@ -37,7 +69,7 @@
 | 6/1/2022 | [在 Microsoft Teams 中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 改 性 |
 | 6/2/2022 | [Microsoft Teams 的硬體需求](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | 改 性 |
 | 6/2/2022 | [Teams 原則中的特殊字元限制](/MicrosoftTeams/special-character-restrictions-in-policy-names) | 改 性 |
-| 6/2/2022 | [在 Teams 教育版 中的家長管理設定](/MicrosoftTeams/edu-parents-app) | 改 性 |
+| 6/2/2022 | [在 Teams 教育版 中管理員家長設定](/MicrosoftTeams/edu-parents-app) | 改 性 |
 | 6/3/2022 | [Microsoft Teams EHR 連接器虛擬約會報表](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin-reports) | 改 性 |
 
 
@@ -56,10 +88,10 @@
 | 5/25/2022 | [在 Microsoft Teams 中封存或刪除團隊](/MicrosoftTeams/archive-or-delete-a-team) | 改 性 |
 | 5/25/2022 | [指派、變更或移除使用者的電話號碼](/MicrosoftTeams/assign-change-or-remove-a-phone-number-for-a-user) | 改 性 |
 | 5/25/2022 | [音訊會議撥出使用方式報告](/MicrosoftTeams/audio-conferencing-dial-out-usage-report) | 改 性 |
-| 5/25/2022 | [音訊會議的網路會議](/MicrosoftTeams/audio-conferencing-on-network) | 改 性 |
+| 5/25/2022 | [音訊會議 的網路會議](/MicrosoftTeams/audio-conferencing-on-network) | 改 性 |
 | 5/25/2022 | [在 Microsoft Teams 中搜尋事件的稽核記錄](/MicrosoftTeams/audit-log-events) | 改 性 |
 | 5/25/2022 | [在 Microsoft Teams 中封鎖輸入通話](/MicrosoftTeams/block-inbound-calls) | 改 性 |
-| 5/25/2022 | [變更音訊會議橋接器上的電話號碼](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 改 性 |
+| 5/25/2022 | [變更橋接器上的電話號碼音訊會議](/MicrosoftTeams/change-the-phone-numbers-on-your-audio-conferencing-bridge) | 改 性 |
 | 5/25/2022 | [Microsoft Teams 中 Education Insights 的 IT 系統管理員指南](/MicrosoftTeams/class-insights) | 改 性 |
 | 5/25/2022 | [設定適用于 Microsoft Teams 的雲端視訊 Interop](/MicrosoftTeams/cloud-video-interop-for-teams-set-up) | 改 性 |
 | 5/25/2022 | [連線 Microsoft Teams 基本版 (AAD 身分識別) 至具有行事曆的現有電子郵件系統](/MicrosoftTeams/connect-teams-essentials-to-email) | 改 性 |
@@ -77,7 +109,7 @@
 | 5/25/2022 | [在混合式環境中使用 PSTN 的使用者帳戶](/MicrosoftTeams/direct-routing-user-accounts-in-a-hybrid-environment) | 改 性 |
 | 5/25/2022 | [對內容進行電子檔探索調查](/MicrosoftTeams/ediscovery-investigation) | 改 性 |
 | 5/25/2022 | [Teams 教育版原則精靈]，輕鬆套用原則以進行安全學習](/MicrosoftTeams/easy-policy-setup-edu) | 改 性 |
-| 5/25/2022 | [在 Teams 教育版 中的家長管理設定](/MicrosoftTeams/edu-parents-app) | 改 性 |
+| 5/25/2022 | [在 Teams 教育版 中管理員家長設定](/MicrosoftTeams/edu-parents-app) | 改 性 |
 | 5/25/2022 | [將學生資訊系統 (SIS) 資料與 Education Insights 同步處理](/MicrosoftTeams/education-insights-sis-data-sync) | 改 性 |
 | 5/25/2022 | [Teams作業](/MicrosoftTeams/expand-teams-across-your-org/assignments-in-teams) | 改 性 |
 | 5/25/2022 | [使用 PowerShell 將班次連線到 Blue Yonder 員工管理](/MicrosoftTeams/expand-teams-across-your-org/shifts/shifts-connector-blue-yonder-powershell-setup) | 改 性 |
@@ -153,22 +185,3 @@
 | 5/20/2022 | [管理直接路由的緊急通話路由原則](/MicrosoftTeams/manage-emergency-call-routing-policies) | 改 性 |
 | 5/20/2022 | [管理 Microsoft Teams 中的緊急通話原則](/MicrosoftTeams/manage-emergency-calling-policies) | 改 性 |
 | 5/20/2022 | [Microsoft Teams PowerShell 版本資訊](/MicrosoftTeams/teams-powershell-release-notes) | 改 性 |
-
-
-## <a name="week-of-may-09-2022"></a>2022 年 5 月 9 日周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 5/9/2022 | [啟用使用者的直接路由](/MicrosoftTeams/direct-routing-enable-users) | 改 性 |
-| 5/9/2022 | [設定電信業者連線](/MicrosoftTeams/operator-connect-configure) | 改 性 |
-| 5/9/2022 | [在 Teams 中指派原則](/MicrosoftTeams/policy-assignment-overview) | 改 性 |
-| 5/9/2022 | [自動語音應答&通話佇列歷史報告](/MicrosoftTeams/aa-cq-cqd-historical-reports) | 改 性 |
-| 5/10/2022 | [規劃直接路由的依位置路由](/MicrosoftTeams/location-based-routing-plan) | 改 性 |
-| 5/10/2022 | [Microsoft Teams中的通話原則：通話和來電轉接功能](/MicrosoftTeams/teams-calling-policy) | 改 性 |
-| 5/10/2022 | [Microsoft Teams 會議室應用程式版本支援](/MicrosoftTeams/rooms/rooms-lifecycle-support) | 改 性 |
-| 5/12/2022 | [管理語音信箱原則](/MicrosoftTeams/manage-voicemail-policies) | 改 性 |
-| 5/12/2022 | [設定 SIP 閘道](/MicrosoftTeams/sip-gateway-configure) | 改 性 |
-| 5/12/2022 | [在 Teams 教育版 中的家長管理設定](/MicrosoftTeams/edu-parents-app) | 改 性 |
-| 5/13/2022 | [Microsoft Teams 中的無線對講機應用程式](/MicrosoftTeams/walkie-talkie) | 改 性 |
-| 5/13/2022 | [Microsoft Teams 會議室需求](/MicrosoftTeams/rooms/requirements) | 改 性 |
