@@ -1487,7 +1487,7 @@ items:
             href: rooms/with-skype-for-business-server-2015.md
   - name: 管理應用程式
     items:
-      - name: 概觀
+      - name: 在 Teams 中了解應用程式
         href: deploy-apps-microsoft-teams-landing-page.md
       - name: 管理 Microsoft 提供的應用程式
         items:
@@ -1513,7 +1513,7 @@ items:
             href: overview-of-app-validation.md
           - name: 協力廠商應用程式的安全性、合規性和隱私權
             href: overview-of-app-certification.md
-          - name: 使用 Microsoft 365 或 Office 365 和自訂連接器
+          - name: 管理 Microsoft 365 和自訂連接器
             href: Office-365-custom-connectors.md
           - name: 為 Teams 購買第三方應用程式
             href: purchase-third-party-apps.md
@@ -1533,7 +1533,7 @@ items:
             href: customize-your-app-store.md
       - name: 控管應用程式的管理員控制項
         items:
-          - name: 系統管理員適用的應用程式管理概觀
+          - name: 應用程式管理概觀
             href: manage-apps.md
           - name: 應用程式原則
             items:
@@ -1547,7 +1547,7 @@ items:
                 href: teams-custom-app-policies-and-settings.md
           - name: 為您的前線員工量身打造 Teams 應用程式
             href: pin-teams-apps-based-on-license.md
-          - name: 關於 Azure AD 權限和管理員同意
+          - name: Azure AD中 的 Graph 權限和管理員同意
             href: app-permissions-admin-center.md
           - name: 管理貴組織特定資源的同意
             href: resource-specific-consent.md
@@ -1555,11 +1555,11 @@ items:
             href: app-permissions.md
           - name: 以使用者類型為依據的應用程式行為
             href: non-standard-users.md
-          - name: 隨著使用者將應用程式更新為較新版本
+          - name: 應用程式更新和系統管理員角色
             href: apps-update-experience.md
           - name: 管理跨 Microsoft 365 的 Teams 應用程式存取權
             href: manage-third-party-teams-apps.md
-      - name: 應用程式使用狀況報告
+      - name: 應用程式使用報告和分析
         href: teams-analytics-and-reports/app-usage-report.md
   - name: 產業和政府指引
     items:
