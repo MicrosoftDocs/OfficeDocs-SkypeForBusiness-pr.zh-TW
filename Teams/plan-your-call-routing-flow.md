@@ -1,5 +1,5 @@
 ---
-title: 規劃Microsoft Teams的通話路由流程
+title: 規劃 Microsoft Teams 的通話路由流程
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft Teams 中規劃自動語音應答和通話佇列的通話路由流程。
-ms.openlocfilehash: 3be72f17f876eb694d3b46293f039ccc07d65fbb
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 7788bbe07b33a133af04c8a7fe8333ba66f7f2df
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124572"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240982"
 ---
 # <a name="plan-your-call-routing-flow"></a>規劃您的通話路由流程
 
@@ -47,8 +47,9 @@ ms.locfileid: "66124572"
 
 - **組織中的** 人員- 組織中可接聽語音通話的人員。 這可以是線上使用者或使用商務用 Skype Server託管在內部部署的使用者。
 - **語音應用程式**- 另一個自動語音應答或通話佇列。 選擇與目的地相關聯的資源帳戶。
-- **外部電話號碼** - 任何電話號碼。  (請參閱 [外部傳輸技術詳細](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 資料) 。
-- **語音信箱**- 與您指定之Microsoft 365群組相關聯的語音信箱。 您可以選擇是否要語音信箱轉譯，以及「請在鈴聲後面留下訊息」。 系統提示。
+- **外部電話號碼** - 任何電話號碼。 請參閱 [外部傳輸技術詳細資料](create-a-phone-system-auto-attendant.md?tabs=additional-resources)。
+
+- **語音信箱** - 與您指定的 Microsoft 365 群組相關聯的語音信箱。 您可以選擇是否要語音信箱轉譯，以及「請在鈴聲後面留下訊息」。 系統提示。
 - **運** 算符只會 (自動語音應答) - 自動語音應答定義的運算子。 定義運算子是選用的。 運算子可以是此清單中的任何其他目的地。
 
 自動語音應答會針對在上班時間以外和假日接聽的電話，提供個別的來電路由選項。

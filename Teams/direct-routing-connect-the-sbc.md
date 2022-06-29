@@ -1,5 +1,5 @@
 ---
-title: 連線會話邊界控制器 (SBC) 直接路由
+title: 將會話框線控制器 (SBC) 連線至直接路由
 ms.reviewer: fillipse
 ms.author: crowe
 author: CarolynRowe
@@ -15,62 +15,62 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: 瞭解如何設定 SBC 並連結至 Teams 電話系統路由。
-ms.openlocfilehash: 7983fa176fec5e4921db169e1e92a6f6ebc2f2a7
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+description: 瞭解如何設定並將您的 SBC 連線到 Teams Phone System Direct Routing。
+ms.openlocfilehash: e33f9538fdf69696e0a87da84dc5aec8e8d304af
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518715"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241102"
 ---
-# <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>連線會話邊界控制器 (SBC) 直接路由
+# <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>將會話框線控制器 (SBC) 連線至直接路由
 
-本文將說明如何設定會話邊界控制器 (SBC) 並連結至直接路由。  這是設定直接路由的下列步驟的第 1 個步驟：
+本文說明如何設定會話框線控制器 (SBC) 並將它連線至直接路由。  這是設定直接路由的下列步驟之 1 步驟：
 
-- **步驟 1。連線 SBC 電話系統並驗證** (本文) 
-- 步驟 2. [啟用使用者進行直接路由](direct-routing-enable-users.md)
+- **步驟 1.使用電話系統連接您的 SBC 並驗證聯** 機 (本文) 
+- 步驟 2. [啟用使用者的直接路由](direct-routing-enable-users.md)
 - 步驟 3. [設定通話路由](direct-routing-voice-routing.md)
-- 步驟 4. [將數位轉換成替代格式](direct-routing-translate-numbers.md)
+- 步驟 4. [將數位翻譯成替代格式](direct-routing-translate-numbers.md)
 
-若要瞭解設定直接路由所需的所有步驟，請參閱 [設定直接路由](direct-routing-configure.md)。
+如需設定直接路由所需所有步驟的相關資訊，請參閱 [設定直接路由](direct-routing-configure.md)。
 
-您可以使用系統管理中心[Microsoft Teams](#using-the-microsoft-teams-admin-center) [PowerShell](#using-powershell)來設定 SBC 並連結至直接路由。
+您可以使用 [Microsoft Teams 系統管理中心](#using-the-microsoft-teams-admin-center) 或 [PowerShell](#using-powershell) 來設定並將 SBC 連線到直接路由。
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>使用 Microsoft Teams 系統管理中心
 
-1. 在左側流覽中，前往 **VoiceDirect**  >  **路由**，然後按一下 **[SBCs> 定位** 點。
+1. 在左側導覽中，移至 **[語音**  >  **直接路由]**，然後按一下 [**SBC] 索引卷** 標。
 
 2. 按一下 [新增 **]**。
 
-3. 輸入 SBC 的 FQDN。 <br><br>請確定 FQDN `*.onmicrosoft.com` 的功能變數名稱部分符合在租使用者中註冊的網域，並請記住，SBC FQDN 功能變數名稱不支援該功能變數名稱。 例如，如果您有兩個功能變數名稱 `contoso.com` `contoso.onmicrosoft.com` 和 ，請使用 `sbc.contoso.com` 做為 SBC 名稱。 如果使用子域，請確定此子域也已在租使用者中註冊。 例如，如果您想要使用 `sbc.service.contoso.com` ，則 `service.contoso.com` 必須註冊。
+3. 輸入 SBC 的 FQDN。 <br><br>請確定 FQDN 的功能變數名稱部分符合您租使用者中註冊的網域， `*.onmicrosoft.com` 並記住 SBC FQDN 功能變數名稱不支援該功能變數名稱。 例如，如果您有兩個功能變數名稱， `contoso.com` 而 `contoso.onmicrosoft.com` 使用 `sbc.contoso.com` 為 SBC 名稱。 如果使用子域，請確定此子域也已在您的租使用者中註冊。 例如，如果您想要使用 `sbc.service.contoso.com` ，則 `service.contoso.com` 需要註冊。
 
-4. 根據貴組織的需求，設定 SBC 的下列設定。 有關這些設定的詳細資訊，請參閱 [SBC 設定](#sbc-settings)。
+4. 根據貴組織的需求，為 SBC 設定下列設定。 如需每個設定的詳細資料，請參閱 [SBC 設定](#sbc-settings)。
 
-    ![在系統管理中心新增 SBC 頁面Microsoft Teams螢幕擷取畫面。](media/direct-routing-add-sbc.png)
+    ![在 Microsoft Teams 系統管理中心新增 SBC 頁面的螢幕擷取畫面。](media/direct-routing-add-sbc.png)
 
 5. 完成後，按一下 [儲存]。
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
-若要將您的 SBC 連接到直接路由，您必須：
+若要將 SBC 連線至直接路由，您必須：
 
-1. [連線 PowerShell 商務用 Skype Online。](#connect-to-skype-for-business-online-by-using-powershell)
+1. [使用 PowerShell 連線至 商務用 Skype Online](#connect-to-skype-for-business-online-by-using-powershell)。
 
-2. [連線 SBC 到租使用者](#connect-the-sbc-to-the-tenant)。
+2. [將 SBC 連線到租使用者](#connect-the-sbc-to-the-tenant)。
 
-3. [驗證 SBC 連接](#verify-the-sbc-connection)。
+3. [驗證 SBC 連線](#verify-the-sbc-connection)。
 
-### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>連線 PowerShell 商務用 Skype Online
+### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>使用 PowerShell 連線至 商務用 Skype Online
 
-若要將 SBC 配對至直接路由介面，請使用連接到租使用者的 PowerShell 會話。 若要開啟 PowerShell 會話，請遵循設定電腦以[Windows PowerShell。](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+若要將 SBC 與直接路由介面配對，請使用連線到租使用者的 PowerShell 會話。 若要開啟 PowerShell 會話，請依照設定[電腦以Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)中所述的步驟操作。
  
-建立遠端 PowerShell 會話之後，請確認您能看到管理 SBC 的命令。 若要驗證命令，請在 PowerShell 會話中輸入或複製並貼上下列命令，然後按 Enter： 
+建立遠端 PowerShell 會話之後，請確認您可以看到管理 SBC 的命令。 若要驗證命令，請在 PowerShell 會話中輸入或複製並貼上下列命令，然後按 Enter： 
 
 ```PowerShell
 Get-Command *onlinePSTNGateway*
 ```
 
-該命令會返回此處顯示的四個函數，讓您管理 SBC。
+此命令會傳回此處顯示的四個函數，可讓您管理 SBC。
 
 <pre>
 CommandType    Name                       Version    Source 
@@ -81,19 +81,20 @@ Function       Remove-CsOnlinePSTNGateway 1.0        tmp_v5fiu1no.wxt
 Function       Set-CsOnlinePSTNGateway    1.0        tmp_v5fiu1no.wxt
 </pre>
 
-### <a name="connect-the-sbc-to-the-tenant"></a>連線 SBC 給租使用者
+### <a name="connect-the-sbc-to-the-tenant"></a>將 SBC 連線到租使用者
 
-若要將 SBC 連接到租使用者，請使用 [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) Cmdlet。 在 PowerShell 會話中，輸入下列專案，然後按 Enter：
+若要將 SBC 連線到租使用者，請使用 [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) Cmdlet。 在 PowerShell 會話中，輸入下列內容，然後按 Enter：
 
 ```PowerShell
 New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxConcurrentSessions <Max Concurrent Sessions the SBC can handle> -Enabled $true
 ```
 
   > [!NOTE]
-  > 1. 建議您使用 SBC 檔中的資訊，在 SBC 中設定通話上限。 如果 SBC 處於容量層級，則此限制會觸發通知。
-  > 2. 只有當 SBC 的 FQDN \* 網域部分符合您租使用者中註冊的其中一個網域時，才能連接 SBC，但 .onmicrosoft.com。 SBC \* FQDN 名稱不支援使用 .onmicrosoft.com 功能變數名稱。 例如，如果您有兩個功能變數名稱 **，contoso.com** 和 **contoso.onmicrosoft.com**，您可以使用 sbc.contoso.com 名稱作為 SBC 名稱。 如果您嘗試使用 sbc.contoso.abc 等名稱來連接 SBC，系統不會讓您使用，因為網域並非此租使用者所擁有。<br/>
-  > 除了在租使用者中註冊的網域之外，擁有該網域的使用者以及已指派的 E3 或 E5 授權也非常重要。 如果沒有，您會收到下列錯誤：<br/>
+  > 1. 我們建議您使用 SBC 檔中可找到的資訊，在 SBC 中設定最大通話限制。 如果 SBC 處於容量等級，此限制將會觸發通知。
+  > 2. 您只能在 FQDN 的網域部分符合您租使用者中註冊的其中一個網域時連線 SBC，但 .onmicrosoft.com 除外 \* 。 SBC FQDN 名稱不支援使用 \* .onmicrosoft.com 功能變數名稱。 例如，如果您有兩個功能變數名稱 **，contoso.com** 和 **contoso.onmicrosoft.com**，您可以使用 sbc.contoso.com 做為 SBC 名稱。 如果您嘗試以 sbc.contoso.abc 等名稱連線 SBC，系統將不會讓您這麼做，因為網域不是由此租使用者所擁有。<br/>
+  > 除了在租使用者中註冊的網域之外，請務必有一位使用者擁有該網域，並擁有指派的 E3 或 E5 授權。 如果沒有，您會收到下列錯誤：<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
+  > 3. 不支援在 SBC 端對應相同 FQDN 的多個 IP。
 
 以下是範例：
 
@@ -101,7 +102,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
 New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignalingPort 5067 -MaxConcurrentSessions 100 
 ```
 
-這會返回：
+這會傳回：
 
 <pre>
 Identity              : sbc.contoso.com 
@@ -116,26 +117,26 @@ Enabled               : True
 </pre>
 
 > [!NOTE]
-> 此範例只顯示最小所需的參數。 在連接過程中，您可以使用 [New-CsOnlinePSTNGateway Cmdlet](/powershell/module/skype/new-csonlinepstngateway) 設定其他參數。 若要深入瞭解，請參閱 [SBC 設定](#sbc-settings)。
+> 此範例僅顯示所需參數的最小值。 在連線過程中，您可以使用 [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) Cmdlet 設定其他參數。 若要深入瞭解，請參閱 [SBC 設定](#sbc-settings)。
  
-### <a name="verify-the-sbc-connection"></a>驗證 SBC 連接
+### <a name="verify-the-sbc-connection"></a>驗證 SBC 連線
 
-若要驗證連接：
+若要驗證連線：
 
-- [檢查 SBC 是否位於配對 SBC 清單中](#check-whether-the-sbc-is-on-the-list-of-paired-sbcs)。
+- [檢查 SBC 是否列在已配對的 SBC 清單中](#check-whether-the-sbc-is-on-the-list-of-paired-sbcs)。
 - [驗證 SIP 選項](#validate-sip-options)。
  
-#### <a name="check-whether-the-sbc-is-on-the-list-of-paired-sbcs"></a>檢查 SBC 是否位於配對 SBC 清單中
+#### <a name="check-whether-the-sbc-is-on-the-list-of-paired-sbcs"></a>檢查 SBC 是否列在已配對 SB 的清單中
 
-連接 SBC 之後，請使用 [Get-CsOnlinePSTNGateway Cmdlet](/powershell/module/skype/get-csonlinepstngateway) 來驗證 SBC 是否存在於配對 SBC 清單中。 在遠端 PowerShell 會話中輸入下列專案，然後按 Enter：
+連接 SBC 之後，請使用 [Get-CsOnlinePSTNGateway](/powershell/module/skype/get-csonlinepstngateway) Cmdlet 來驗證 SBC 是否出現在已配對的 SBC 清單中。 在遠端 PowerShell 會話中輸入下列內容，然後按 Enter：
 
 ```PowerShell
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
 
-配對閘道應該會出現在清單中，如下列範例所示， **且 Enabled** 參數應顯示 **True 的值**。
+配對閘道應該會顯示在清單中，如下列範例所示， **而 Enabled** 參數應顯示 **True** 值。
 
-這會返回：
+這會傳回：
 
 <pre>
 Identity              : sbc.contoso.com  
@@ -153,30 +154,30 @@ Enabled               : True
 
 #### <a name="validate-sip-options"></a>驗證 SIP 選項
 
-若要使用外發 SIP 選項驗證配對，請使用 SBC 管理介面並確認 SBC 收到 200 個確定回應給待發的 OPTIONS 郵件。
+若要使用外寄 SIP 選項驗證配對，請使用 SBC 管理介面，並確認 SBC 收到其待發選項訊息的 200 個確定回應。
 
-當直接路由看到傳入的 OPTIONS 時，它會開始將外寄 SIP 選項郵件傳送至內送選項訊息中 ，在連絡人標題欄位中所配置的 SBC FQDN。 
+當直接路由看到內送選項時，它會開始傳送外寄 SIP 選項郵件到內送選項訊息中 [連絡人] 標題欄位中設定的 SBC FQDN。 
 
-若要使用內送 SIP 選項驗證配對，請使用 SBC 管理介面，並查看 SBC 會傳送回復給來自直接路由的 OPTIONS 訊息，而且傳送的回應代碼為 200 確定。
+若要使用內送 SIP 選項驗證配對，請使用 SBC 管理介面，並查看 SBC 會傳送回復來自直接路由的選項訊息，且傳送的回應碼為 200 確定。
 
 ## <a name="sbc-settings"></a>SBC 設定
 
-下表列出您可以在系統管理中心Microsoft Teams使用[New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) Cmdlet 為 SBC 設定的選項。
+下表列出您可以在 Microsoft Teams 系統管理中心以及使用 [New-CsOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) Cmdlet 為 SBC 設定的選項。
 
-|必填？|Teams系統管理中心設定|PowerShell 參數|描述|預設|可能的值|類型和限制|
+|必填？|Teams 系統管理中心設定|PowerShell 參數|描述|預設|可能的值|類型與限制|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|是|**新增 SBC 的 FQDN**|FQDN |無|FQDN 名稱，限制 63 個字元|字串，請參閱[Active Directory](https://support.microsoft.com/help/909264)電腦、網域、網站和 OUs 的命名慣例中允許和不允許的字元清單|
-|否|**啟用**|啟用|用於開啟 SBC 進行外發通話。 您可以在更新 SBC 或維護期間，使用此功能暫時從服務移除 SBC。 |假|真<br/>假|Boolean|
-|是|**SIP 訊號埠**|SipSignalingPort |這是使用傳輸層和 TLS 通訊協定與直接路由通訊 (埠) 埠。|無|任何埠|0 到 65535 |
-|否|**傳送 SIP 選項**|SendSIPOptions |定義 SBC 是否要傳送 SIP 選項訊息。 我們強烈建議您開啟此設定。 關閉此設定時，SBC 會排除在監控和警示系統之外。|真|真<br/>假|Boolean|
-|否|**轉往通話記錄**|ForwardCallHistory |指出通話記錄資訊是否透過主幹轉轉。 當您開啟此選項時，Microsoft 365 Proxy 會傳送歷程記錄資訊和引用標頭。 |假|真<br/>假|Boolean|
-|否|**將 P-確認身分識別轉 (PAI) 頁標題**|ForwardPAI|指出 PAI 標頭是否與通話一起轉轉。 PAI 標頭可用於驗證來電者的身分識別。 如果此設定為啟用，也會送出 Privacy：ID 標頭。|假|真<br/>假|Boolean|
-|否|**同時通話容量**|MaxConcurrentSessions |當您設定值時，當同時會話數目為 90% 或高於此值時，通知系統會通知您。 如果您沒有設定值，系統不會產生通知。 不過，監控系統會每 24 小時報告一次並行會話數目。 |空|空<br/>1 到 100，000 ||
-|否|**容錯移轉回應代碼**|容錯移轉ResponseCodes<br>|如果 Direct Routing 收到回應外發邀請的任何 4xx 或 6xx SIP 錯誤碼，則通話預設會視為已完成。 外撥是指從 Teams 用戶端撥打到 PSTN 的流量：Teams 用戶端 -> 直接路由 -> SBC ->電話網絡) 。 當您指定容錯移轉回應程式碼時，如果使用者) 的語音路由策略中存在另一個 SBC (，當 SBC 因為網路或其他問題而無法進行通話時，它會強制直接路由嘗試另一個 SBC) 。 若要深入瞭解，請參閱 [容錯移轉從會話邊界控制器或 SBC (接收) ](direct-routing-trunk-failover-on-outbound-call.md)。|408, 503, 504||Int|
-|否|**容錯移轉時間 (秒)**|FailoverTime秒 |當您設定值時，閘道在您設定時間內未接聽的外發通話會路由到下一個可用的主幹。 如果沒有額外的主幹，系統會自動中斷通話。 預設值為 10 秒。 在網路和閘道回應緩慢的組織中，這可能會導致不必要地中斷通話。|10|數量|Int|
-|否|**媒體流量的偏好國家/地區**|MediaRelayRoutingLocationOverride | 不適用於直接路由。 此參數是保留用於通話方案中的受管理的電信公司 |無|||
-|否|**SBC 支援 PIDF/LO 撥打緊急電話**|PidfloSupported|指定 SBC 是否支援目前狀態資訊資料格式位置物件 (PIDF/LO) 緊急通話。||||
-|否| - |MediaBypass|此設定會指出 SBC 是否支援媒體旁路，以及您是否要使用此 SBC。 |無|真<br/>假|Boolean|
+|是|**新增 SBC 的 FQDN**|FQDN |無|FQDN 名稱，限制 63 個字元|字串，請參閱在[Active Directory 中為電腦、網域、網站和 OU 命名慣例](https://support.microsoft.com/help/909264)上的允許和不允許的字元清單|
+|否|**Enabled**|Enabled|用來開啟 SBC 來接聽撥出電話。 您可以使用此功能在服務更新或維護期間暫時移除 SBC。 |假|真<br/>假|Boolean|
+|是|**SIP 訊號埠**|SipSignalingPort |這是使用傳輸層 (TLS) 通訊協定來與直接路由通訊時所用的聆聽埠。|無|任何埠|0 到 65535 |
+|否|**傳送 SIP 選項**|SendSIPOptions |定義 SBC 是否會傳送 SIP 選項訊息。 強烈建議您開啟此設定。 關閉此設定時，系統會排除 SBC。|真|真<br/>假|Boolean|
+|否|**轉接通訊記錄**|ForwardCallHistory |指出通話記錄資訊是否透過主幹轉接。 當您開啟此設定時，Microsoft 365 Proxy 會傳送歷程記錄資訊和參照標頭。 |假|真<br/>假|Boolean|
+|否|**FORWARD P-標題 (的 P-名識別)**|ForwardPAI|指出是否在呼叫中轉接了該當中的一頁首。 PAI 標頭可用於驗證來電者的身分識別。 如果此設定已開啟，也會傳送 Privacy：ID 標頭。|假|真<br/>假|Boolean|
+|否|**並行通話容量**|MaxConcurrentSessions |當您設定值時，當同時會話數目超過此值 90% 或更高時，警示系統會通知您。 如果您未設定值，就不會產生警示。 不過，監控系統會每 24 小時報告一次並行會話的數目。 |空|空<br/>1 到 100，000 ||
+|否|**容錯移轉回應代碼**|FailoverResponseCodes<br>|如果直接路由在回應外寄邀請時收到任何 4xx 或 6xx SIP 錯誤碼，則預設會將通話視為完成。 外寄是指從 Teams 用戶端到 PSTN 的流量流量：Teams 用戶端 ->直接路由 -> SBC ->電話語音網路) 。 當您指定容錯移轉回應碼時，如果使用者) 的語音路由原則中有另一個 SBC 因網路或其他問題而無法撥打電話，這會強制直接路由嘗試另一個 SBC (。 若要深入瞭解，請參閱 [從會話框線控制器收到的特定 SIP 代碼容錯移轉 (SBC) ](direct-routing-trunk-failover-on-outbound-call.md)。|408, 503, 504||Int|
+|否|**容錯移轉時間 (秒)**|FailoverTimeSeconds |當您設定值時，閘道未在您設定的來電轉接至下一個可用主幹時未接聽的撥出電話。 如果沒有額外的樹幹，通話會自動中斷。 預設值為 10 秒。 在網路和閘道回應緩慢的組織中，這可能會導致通話不必要地中斷。|10|數量|Int|
+|否|**媒體流量的慣用國家或地區**|MediaRelayRoutingLocationOverride | 不適用於直接路由。 此參數保留給通話方案中的受管理電信業者使用 |無|||
+|否|**SBC 支援 PIDF/LO 進行緊急通話**|PidfloSupported|指定 SBC 是否支援緊急通話的目前狀態資訊資料格式位置物件 (PIDF/LO) 。||||
+|否| - |MediaBypass|此設定會指出 SBC 是否支援媒體略過，以及您是否要將它用於此 SBC。 |無|真<br/>假|Boolean|
 
 ## <a name="see-also"></a>另請參閱
 
