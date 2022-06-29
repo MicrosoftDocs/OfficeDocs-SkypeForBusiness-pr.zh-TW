@@ -24,95 +24,95 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 - seo-marvel-mar2020
-description: 瞭解如何設定通話方案，包括查看您地區可用的方案、&指派授權、取得電話號碼，以及新增緊急&位址。
-ms.openlocfilehash: 4b459e82aa99194dc62c721d42b162961b61f372
-ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
+description: 瞭解如何設定通話方案，包括檢視您所在地區可用的方案、購買&指派授權、取得電話號碼，以及&位置新增緊急位址。
+ms.openlocfilehash: 7adc9b0447c8a6dddda50b4a9fd26ec67477154e
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62228931"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240962"
 ---
 # <a name="set-up-calling-plans"></a>設定通話方案
 
-撥打給Teams使用者是免費的，但如果您希望使用者能夠撥打公司外的電話，請于 Microsoft 365 取得國內通話方案或國際通話方案。 輕鬆設定商務用通話方案。  有關通話方案的資訊，請參閱哪一種通話方案 [適合您？](calling-plan-landing-page.md)。
+撥打給其他 Teams 使用者的通話是免費的，但如果您希望使用者能夠撥打公司外部的電話，請取得 Microsoft 365 中的國內通話方案或國際通話方案。 為您的企業設定通話方案非常容易。  如需通話方案的詳細資訊，請參閱 [哪一個通話方案適合您？](calling-plan-landing-page.md)。
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>步驟 1：瞭解您的國家/地區是否提供通話方案
-前往音訊[](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)會議與通話方案的國家/地區可用性，然後選取您的國家/地區以取得通話方案的可用性資訊，以及音訊會議、Teams 電話、付費和免付費號碼，以及通訊信用額度的資訊。
+移至 [音訊會議和通話方案的國家/地區和地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ，並選取您的國家或地區以取得通話方案的可用性資訊，以及音訊會議、Teams 電話、付費電話和免付費電話號碼，以及通訊點數的相關資訊。
 
-如果通話方案不適用於您的國家/地區，請參閱所有可用選項的 [PSTN](pstn-connectivity.md) 連接選項。
+如果通話方案不適用於您的國家或地區，請參閱 [所有可用選項的 PSTN 連線](pstn-connectivity.md) 選項。
   
-## <a name="step-2-buy-and-assign-licenses"></a>步驟 2：購買及指派授權
-1. 如果Teams 電話方案不包含此功能Microsoft 365，您可能需要購買電話系統附加元件授權。  在您擁有授權 **電話系統，** 請購買 [適用于 Microsoft 365 的通話Microsoft 365。](calling-plans-for-office-365.md) 請參閱[Microsoft Teams附加元件授權，](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)並購買授權和計畫。 
+## <a name="step-2-buy-and-assign-licenses"></a>步驟 2：購買並指派授權
+1. 如果您的 Microsoft 365 方案未包含 Teams Phone 功能，您可能需要購買 **手機系統** 附加元件授權。 取得 **電話系統** 授權之後，請購買 [Microsoft 365 的通話方案](calling-plans-for-office-365.md)。 請參閱 [Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)，並購買授權和方案。 
     
     > [!TIP]
-    > **電話系統** 授權和通話方案Microsoft 365一起，因此若要查看購買通話方案的選項，您必須先擁有 **電話系統授權。**
+    > **Microsoft** 365 的電話系統授權和通話方案搭配使用，因此若要查看購買通話方案的選項，您必須先擁有 **電話系統** 授權。
   
-2. 首先指派授權，然後指派通話方案給貴組織的人。 請參閱[指派Microsoft Teams附加元件授權](./teams-add-on-licensing/assign-teams-add-on-licenses.md)。
+2. 首先指派授權，然後將通話方案指派給貴組織中的人員。 請參閱 [指派 Microsoft Teams 附加元件授權](./teams-add-on-licensing/assign-teams-add-on-licenses.md)。
     
 ## <a name="step-3-get-phone-numbers"></a>步驟 3：取得電話號碼
-取得新使用者號碼的方法有三種：
+有三種方法可以取得新的使用者號碼：
 
-- **使用 Teams系統管理中心。** 針對部分國家/地區，您可以使用系統管理中心取得使用者Teams，請參閱取得使用者[的電話號碼](getting-phone-numbers-for-your-users.md)。
+- **使用 Teams 系統管理中心。** 對於某些國家/地區，您可以使用 Teams 系統管理中心取得使用者號碼，請參閱 [為您的使用者取得電話號碼](getting-phone-numbers-for-your-users.md)。
     
-- **轉移現有的號碼。** 您可以將現有號碼從目前的服務提供者或電話電信公司移轉或移轉Microsoft 365。 若要詳細資訊，請參閱[將電話號碼](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)轉接Teams或管理貴[組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
+- **轉移現有的號碼。** 您可以將現有號碼從目前的服務提供者或電信業者移轉至 Microsoft 365。 如需詳細資訊，請參閱 [將電話號碼移轉至 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) 或 [管理組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
   
-- **使用表單要求新號碼。** 有時候 (視您的國家/地區) 您將無法使用 Teams 系統管理中心取得新的電話號碼，或者您需要特定的電話號碼或區碼。 若是如此，您將需要下載表單並將它傳送給我們。 詳細資訊，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
+- **使用表單要求新號碼。** 有時候 (視您的國家/地區而定) 您將無法使用 Teams 系統管理中心取得新的電話號碼，或者您需要特定的電話號碼或區碼。 若是如此，您將需要下載表單並將它傳送給我們。 如需詳細資訊，請參閱 [管理組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)。 
 
 ## <a name="step-4-add-emergency-addresses-and-locations-for-your-organization"></a>步驟 4：新增組織的緊急位址和位置
-<a name="bkmk_add_addresses"></a>緊急位址必須與電話號碼相關聯。 當發生此關聯時，國家/地區可能會有所不同。 例如，在美國，當您將電話號碼指派給使用者時，您必須建立緊急位址的關聯。 在英國，當您從 Microsoft 365 取得電話號碼，或從目前的服務提供者移轉電話號碼時，您必須將緊急位址與電話號碼建立關聯。 
+<a name="bkmk_add_addresses"></a>緊急位址必須與電話號碼相關聯。 發生此關聯時，可能會因國家/地區而異。 例如，在美國中，當您將電話號碼指派給使用者時，必須建立緊急位址的關聯。 在英國，當您從 Microsoft 365 取得電話號碼，或從您目前的服務提供者移轉電話號碼時，您必須將緊急位址與電話號碼建立關聯。 
 
-有關緊急電話及管理緊急位址的資訊，請參閱管理緊急[](what-are-emergency-locations-addresses-and-call-routing.md)電話，以及新增、變更或移除貴組織的[緊急位置](add-change-remove-emergency-location-organization.md)。
+如需緊急電話與管理緊急位址的相關資訊，請參閱 [管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md) 和 [新增、變更或移除組織的緊急位置](add-change-remove-emergency-location-organization.md)。
     
 ## <a name="step-5-assign-an-emergency-address-and-a-phone-number-to-a-user"></a>步驟 5：指派緊急位址和電話號碼給使用者
-<a name="bkmk_add_addresses"></a>當您在 Microsoft 365 中設定通話方案時，您必須指派電話號碼和緊急位址給每個使用者。 必須先建立緊急位址，才能將其與電話號碼建立關聯。 詳細資訊，請參閱指派 [或變更緊急位址](assign-change-emergency-location-user.md)。
+<a name="bkmk_add_addresses"></a>當您在 Microsoft 365 中設定通話方案時，必須指派電話號碼和緊急位址給每一位使用者。 您必須先建立緊急位址，才能將它與電話號碼建立關聯。 如需詳細資訊，請參閱 [指派或變更緊急位址](assign-change-emergency-location-user.md)。
 
 
 > [!TIP]
-> 如果您在執行此步驟之前先新增更多人員到公司，他們可能需要數小時才能出現在語音 **使用者** 頁面上。 
+> 如果您在執行此步驟之前，先將更多人員新增至貴公司，可能需要 **數小時** 的時間才會顯示在 **[語音使用者** ] 頁面上。 
 
 
 
-## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>步驟 6：告知使用者他們的新電話號碼
+## <a name="step-6-tell-your-users-about-their-new-phone-numbers"></a>步驟 6：告知使用者他們新的電話號碼
 
-Microsoft 建議傳送郵件，或使用您企業偏好的通訊方式，告知人員他們的新電話號碼。
+Microsoft 建議您傳送郵件，或使用貴公司慣用的通訊方式，向連絡人告知他們新的電話號碼。
  
-在 **Microsoft Teams** 中，使用者可以按一下左側流覽 **中的通話來** 查看其電話號碼。 電話號碼會顯示在撥號鍵臺上方。
+在 **Microsoft Teams 中**，使用者可以在左側導覽中按一下 [ **通話** ] 來查看他們的電話號碼。 電話號碼會顯示在撥號鍵臺上方。
 
-![按一下通話後可用選項的螢幕擷取畫面。](media/teams-phone-number.png)
+![按一下 [通話] 後可用選項的螢幕擷取畫面。](media/teams-phone-number.png)
 
 ## <a name="run-a-self-diagnostics-tool"></a>執行自我診斷工具
 
-Microsoft 365系統管理員使用者可以存取可在租使用者內執行診斷，以確認使用者已正確配置以撥打或接聽 PSTN 通話。 
+Microsoft 365 系統管理員使用者有權存取可以在租使用者內執行的診斷，以確認使用者已正確設定為撥打或接聽 PSTN 通話。 
 
 > [!NOTE]
->這項功能不適用於政府、Microsoft 365或由世紀互聯提供的 Microsoft 365 Microsoft 365使用。
+>此功能不適用於 Microsoft 365 Government、由世紀互聯提供的 Microsoft 365 或 Microsoft 365 Germany。
 
-選取執行測試，如下所示。 這會在中心填入Microsoft 365 系統管理診斷。
+選取 [執行測試]，如下所示。 這會在 Microsoft 365 系統管理 中心填入診斷。
 >> [!div class="nextstepaction"]
 >> [執行測試：Teams PSTN](https://aka.ms/TeamsPSTNDiag)
 
-診斷會執行大量的驗證。
+此診斷會執行大量驗證。
 
-## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>您想要自動指派電話號碼嗎？
+## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>您想要自動化指派電話號碼嗎？
 <a name="bkmk_add_addresses"> </a>
 
-如果您知道Windows PowerShell，您可以使用下列 Cmdlet 自動指派電話號碼給使用者。 
+如果您知道Windows PowerShell，可以使用下列 Cmdlet 自動化指派電話號碼給使用者。 
   
-- [Get-CsOnlineTelephoneNumber：](/powershell/module/skype/Get-CsOnlineTelephoneNumber?view=skype-ps)從 Business Voice Directory 中取得電話號碼。
+- [Get-CsPhoneNumberAssignment](/powershell/module/teams/Get-CsPhoneNumberAssignment)：從租使用者擷取電話號碼。
     
-- [Set-CsPhoneNumberAssignment：](/powershell/module/teams/Set-CsPhoneNumberAssignment?view=teams-ps)設定電話號碼。
+- [Set-CsPhoneNumberAssignment](/powershell/module/teams/Set-CsPhoneNumberAssignment)：設定電話號碼。
     
-若要深入瞭解，請參閱[PowerShell Teams概觀](teams-powershell-overview.md)。
+若要深入瞭解，請參閱 [Teams PowerShell 概觀](teams-powershell-overview.md)。
   
 
 ## <a name="related-topics"></a>相關主題
 [移轉電話號碼的常見問題](./phone-number-calling-plans/port-order-overview.md)
 
-[用於通話方案的各種電話號碼](different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[通話方案所用的不同電話號碼](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[管理緊急電話](what-are-emergency-locations-addresses-and-call-routing.md) 
+[管理緊急通話](what-are-emergency-locations-addresses-and-call-routing.md) 
 
 [新增、變更或移除貴組織的緊急位置](add-change-remove-emergency-location-organization.md)
 

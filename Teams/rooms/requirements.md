@@ -13,31 +13,31 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: 瞭解支援 Microsoft Teams 會議室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
+description: 瞭解支援Microsoft Teams 會議室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e2f8ae10f19d59d9eefdc5f4f5fcf0eac4085eb0
-ms.sourcegitcommit: e3931446943684db155bb3edf7d7e52d41775013
+ms.openlocfilehash: f3bdfc24344f481a2846790ae13b6c964c69d4c2
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2022
-ms.locfileid: "65886650"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241022"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
-Microsoft Teams 會議室會縮放為不同的會議室大小。 Teams 會議室會根據會議室的大小和使用，使用各種經過認證的音訊和視訊周邊裝置。 透過選取右核心裝置和主機，結合麥克風、喇叭、相機和適合空間的顯示器，您可以將 Microsoft Teams 會議室部署到任何大小的空格中，從大型會議空間和會議室往上塞滿小型空間。  您可以在[裝置展示](https://products.office.com/microsoft-teams/across-devices)中取得可用於設定會議室的所有經認證音訊和視訊週邊設備的完整集合。
+Microsoft Teams 會議室調整為不同的房間大小。 Teams 會議室根據會議室的大小和使用，使用各種經過認證的音訊和視訊周邊裝置。 您可以選取適合空間的右核心裝置和主機，結合麥克風、喇叭、攝影機和顯示器，將Microsoft Teams 會議室部署到任何大小的空格中，從大型會議空間和會議室往上插入小型空間。  您可以在[裝置展示](https://products.office.com/microsoft-teams/across-devices)中取得可用於設定會議室的所有經認證音訊和視訊週邊設備的完整集合。
 
 本文摘要說明支援 Microsoft Teams 會議室所需的裝置部署和組態需求。
 
-您的部署涉及建立和設定 Teams 會議室的資源帳戶，如 [部署 Microsoft Teams 會議室](rooms-deploy.md)中所述。
+您的部署涉及建立和設定Teams 會議室的資源帳戶，如[部署Microsoft Teams 會議室中](rooms-deploy.md)所述。
 
 請參閱：
 
 - [根據您方案的授權選項：Microsoft Teams 會議室](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams 會議室登入 Microsoft Teams、商務用 Skype Server 2019 或商務用 Skype Server 2015，並可加入由任何這些服務所主持的會議。
+> Microsoft Teams 會議室登入 Microsoft Teams、商務用 Skype Server 2019 或 商務用 Skype Server 2015，並可加入由這些服務所主持的會議。
 >
-> Microsoft Teams 會議室不支援舊版平台 (例如 Lync Server 2013)。 Microsoft 365 或由 21Vianet 營運的 Office 365 或 DoD 環境不支援 Microsoft Teams 會議室。
+> Microsoft Teams 會議室不支援舊版平台 (例如 Lync Server 2013)。 Microsoft Teams 會議室不支援由 21Vianet 或 DoD 環境營運的 Microsoft 365 或 Office 365。
 >
 > 如果您擁有內部部署 Exchange Server，則 Microsoft Teams 會議室需要使用 Exchange Server 2013 SP1 或更新版本。
 
@@ -121,7 +121,7 @@ Microsoft Teams 會議室會縮放為不同的會議室大小。 Teams 會議室
   |Surface Pro </br>(第五代) |Core i5 |8 GB 或 4 GB |128 GB 或更多 |
   |Surface Pro 4 |Core i5 |8 GB 或 4 GB |128 GB 或更多 |
 
-- Surface Pro 裝置需要下列其中一個連接基座選項：
+- Surface Pro裝置需要下列其中一個連接基座選項：
 
   - [Logitech SmartDock](https://www.logitech.com/product/smartdock)
   - [Crestron SR](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
@@ -182,6 +182,7 @@ Microsoft Teams 會議室會縮放為不同的會議室大小。 Teams 會議室
 |[Poly Trio C60](https://www.poly.com/us/en/products/phones/trio/trio-c60)  |5.9.5.3066|
 |[Poly Studio P15 視訊列](https://www.poly.com/us/en/products/video-conferencing/studio-p/studio-p15)|1.2.0.000287 |
 |[Poly Studio E70 Camera](https://www.poly.com/us/en/products/video-conferencing/studio/studio-e70)|1.1|
+|[Poly Studio R30](https://www.poly.com/us/en/products/video-conferencing/studio/studio-r30)|2.0.0.001096|
 |[EPOS SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc)   |2.0.12.0   |
 |[EPOS SP20](https://www.eposaudio.com/en/us/enterprise/products/sp-20-ml-142ee5ca-speakerphone-1000226)   |1.2.15   |
 |[EPOS SP30](https://www.eposaudio.com/en/us/enterprise/products/sp-30-78c0cecc-bluetooth-speakerphone-1000223)   |2.1.52  |

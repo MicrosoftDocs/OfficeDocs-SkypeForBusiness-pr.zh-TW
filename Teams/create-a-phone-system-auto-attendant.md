@@ -1,5 +1,5 @@
 ---
-title: 設定Microsoft Teams自動語音應答
+title: 設定 Microsoft Teams 的自動語音應答
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,27 +20,27 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft Teams 中設定和管理自動語音應答。
-ms.openlocfilehash: 7cfce516946d38f794e9803e5ecfb30c128cb149
-ms.sourcegitcommit: e38dc23e3968f55625e90c8883884045f80d22ee
+ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/16/2022
-ms.locfileid: "66124168"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240942"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動語音應答
 
 自動語音應答可讓人員撥打電話給您的組織，並流覽功能表系統與正確的部門、通話佇列、人員或電信業者通話。 您可以使用 Microsoft Teams 系統管理中心或 PowerShell 為貴組織建立自動語音應答。
 
-請確定您已閱讀[規劃Teams自動語音應答和通話佇列](plan-auto-attendant-call-queue.md)，並遵循[開始步驟](plan-auto-attendant-call-queue.md#getting-started)，再依照本文中的程式進行。
+請確定您已閱讀 [規劃 Teams 自動語音應答和通話佇列](plan-auto-attendant-call-queue.md) ，並遵循 [開始步驟](plan-auto-attendant-call-queue.md#getting-started) ，然後再遵循本文中的程式。
 
 自動語音應答可以根據來電者的輸入，將通話導向下列其中一個目的地：
 
 - **運算子**- 針對自動語音應答定義的運算子。 定義運算子是選用的。 運算子可以定義為此清單中的其他任何目的地。
 - **組織中的** 人員- 組織中可接聽語音通話的人員。 此人可以是線上使用者或使用商務用 Skype Server裝載于內部部署的使用者。
 - **語音應用程式**- 另一個自動語音應答或通話佇列。  (選擇此目的地時，選擇與自動語音應答或通話佇列相關聯的資源帳戶。) 
-- **語音信箱**- 與您指定之Microsoft 365群組相關聯的語音信箱。 您可以選擇是否要語音信箱轉譯，以及「請在鈴聲後面留下訊息」。 系統提示。
-  - 在 M365 管理員中心為您指定的Microsoft 365群組啟用「讓組織外部的人員傳送電子郵件給此小組」。
-- **外部電話號碼** - 任何電話號碼。  (請參閱 [外部傳輸技術詳細](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details) 資料) 。
+- **語音信箱** - 與您指定的 Microsoft 365 群組相關聯的語音信箱。 您可以選擇是否要語音信箱轉譯，以及「請在鈴聲後面留下訊息」。 系統提示。
+  - 在 M365 管理員中心為您指定的 Microsoft 365 群組啟用「讓組織外部的人員傳送電子郵件給此小組」。
+- **外部電話號碼** - 任何電話號碼。 請參閱 [外部傳輸技術詳細資料](create-a-phone-system-auto-attendant.md?tabs=additional-resources)。
 - **公告 (音訊檔案)** - 播放音訊檔案。 您上傳儲存為音訊的錄製公告訊息。WAV、.MP3 或 。WMA 格式。 錄製不得大於 5 MB。 系統會播放公告，然後返回 [自動語音應答] 功能表。
 - **宣告 (輸入)** - 輸入訊息。 您要讓系統讀取的文字。 您最多可以輸入 1000 個字元。 系統會播放公告，然後返回 [自動語音應答] 功能表。
 
@@ -53,15 +53,15 @@ ms.locfileid: "66124168"
 1. 設定撥號範圍。
 1. 設定資源帳戶。
 
-本文概述的步驟是使用系統管理中心建立自動語音應答Teams。 如需 **使用 PowerShell 建立自動語音應答的** 指示，請參閱 [使用 PowerShell Cmdlet 建立自動語音應答](create-a-phone-system-auto-attendant-via-cmdlets.md)。
+本文概述的步驟是使用 Teams 系統管理中心建立自動語音應答。 如需 **使用 PowerShell 建立自動語音應答的** 指示，請參閱 [使用 PowerShell Cmdlet 建立自動語音應答](create-a-phone-system-auto-attendant-via-cmdlets.md)。
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>請依照下列步驟來設定您的自動語音應答
-
-若要設定自動語音應答，[請在Teams系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)展開 **[語音**]，選取 [**自動語音應答**]，然後選取 [**新增]**。
 
 # <a name="step-1---general-info"></a>[步驟 1 - 一般資訊](#tab/general-info)
 
 ## <a name="step-1---set-the-auto-attendants-general-information"></a>步驟 1 - 設定自動語音應答的一般資訊
+
+若要設定自動語音應答，請在 [Teams 系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)展開 **[語音**]，選取 [**自動語音應答**]，然後選取 [**新增]**。
 
 1. 在頂端方塊中輸入自動語音應答的名稱。
 
@@ -78,13 +78,14 @@ ms.locfileid: "66124168"
 
 設定自動語音應答的一般資訊之後，請選取 [**下一步]**。
 
+
 # <a name="step-2---basic-call-flow"></a>[步驟 2 - 基本通話流程](#tab/call-flow)
 
 ## <a name="step-2---set-up-the-basic-call-flow"></a>步驟 2 - 設定基本通話流程
 
 ### <a name="set-a-greeting"></a>設定問候語
 
-- 如果您選取 **[播放音訊檔案**]，您可以使用 **[Upload檔案**] 按鈕上傳儲存為音訊的錄製問候語訊息。WAV、.MP3 或 。WMA 格式。 錄製不得大於 5 MB。
+- 如果您選取 **[播放音訊檔案** ]，您可以使用 **[上傳檔案]** 按鈕上傳儲存為音訊的錄製問候語訊息。WAV、.MP3 或 。WMA 格式。 錄製不得大於 5 MB。
 
 - 如果您選取 **[輸入問候語訊息**]，系統會在自動語音應答接聽電話時，讀取您輸入 (最多 1000 個字元) 文字。
 
@@ -181,7 +182,7 @@ ms.locfileid: "66124168"
 
 *撥號範圍* 會定義當來電者使用撥號依據名稱或撥號方式延伸時，哪些使用者可在目錄中使用。 [**所有線上使用者]** 的預設值包含貴組織中所有使用 商務用 Skype Server 的線上使用者或內部部署託管的使用者。
 
-您可以選取 [包含] 或 [**排除****] 底下的** **[自訂使用者群組**]，然後選擇一或多個Microsoft 365群組、通訊群組清單或安全性群組，以包含或排除特定使用者。 例如，您可能會想要將貴組織中的高階主管從撥號目錄中排除。
+您可以選取 [包含] 或 [**排除****] 底下的** **[自訂使用者群組**]，然後選擇一或多個 Microsoft 365 群組、通訊群組清單或安全性群組，以包含或排除特定使用者。 例如，您可能會想要將貴組織中的高階主管從撥號目錄中排除。
 
 如果使用者同時在兩份清單中，則會從目錄中排除使用者。
 
@@ -200,7 +201,7 @@ ms.locfileid: "66124168"
 
 新增資源帳戶後，請選取 [ **下一步]**。
 
-如需詳細資訊，請參閱[管理Teams資源帳戶](manage-resource-accounts.md)。
+如需詳細資訊，請參閱 [管理 Teams 資源帳戶](manage-resource-accounts.md) 。
 
 # <a name="additional-resources"></a>[其他資源](#tab/additional-resources)
 
@@ -210,7 +211,7 @@ ms.locfileid: "66124168"
 
 請參閱 [必要條件](plan-auto-attendant-call-queue.md#prerequisites) ，以允許自動語音應答在外部轉接來電。  另外：
 
-- 對於具有[通話方案授權](calling-plans-for-office-365.md)或[電信業者連線](operator-connect-plan.md)號碼的資源帳戶，外部移轉電話號碼必須以 E.164 格式輸入， (+[country code][area code][phone number]) 。
+- 對於具有 [通話方案授權](calling-plans-for-office-365.md) 或運算子 [聯](operator-connect-plan.md) 機號碼的資源帳戶，外部移轉電話號碼必須以 E.164 格式輸入 (+[country code][area code][電話號碼]) 。
 
 - 對於具有Microsoft Teams 電話授權和直接路由線上語音路由原則的資源帳戶，外部移轉電話號碼格式取決於[會話框線控制器 (SBC) ](direct-routing-connect-the-sbc.md)設定。
 
@@ -230,7 +231,7 @@ ms.locfileid: "66124168"
 1. 選取 [執行測試]**** 以在 Microsoft 365 系統管理中心填入診斷。
 
    > [!div class="nextstepaction"]
-   > [執行測試：Teams自動語音應答]](https://aka.ms/TeamsAADiag)
+   > [執行測試：Teams 自動語音應答](https://aka.ms/TeamsAADiag)
 
 2. 在 [執行] 診斷窗格中，在 [ **使用者名稱] 或 [電子郵件** ] 欄位中輸入 [資源帳戶]，然後選取 [ **執行測試]**。
 
@@ -240,7 +241,7 @@ ms.locfileid: "66124168"
 
 ### <a name="related-topics"></a>相關主題
 
-[以下是您可以透過Teams 電話](./here-s-what-you-get-with-phone-system.md)
+[以下是您透過 Teams Phone 取得的功能](./here-s-what-you-get-with-phone-system.md)
 
 [取得服務電話號碼](./getting-service-phone-numbers.md)
 

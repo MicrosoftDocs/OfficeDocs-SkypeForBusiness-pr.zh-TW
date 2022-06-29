@@ -15,18 +15,18 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 561eaf310201b99ada9cce4dde49746d58d77088
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: feffd8e6f651b4592e789cd24243f01417f1b966
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046022"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240730"
 ---
 # <a name="deploy-teams-at-scale-for-frontline-workers-in-microsoft-teams"></a>在 Microsoft Teams 中針對第一線工作人員大規模部署團隊
 
 > [!NOTE]
-> 這項功能目前處於私人預覽中。 如果您想要參與私人預覽，請在 [dscale@microsoft.com](mailto:dscale@microsoft.com)與我們連絡。
+> 這項功能目前處於公開預覽中。 如果您想要參與，請在 dscale@microsoft.com 與我們連 [絡](mailto:dscale@microsoft.com)。
+
 
 ## <a name="overview"></a>概觀
  
@@ -51,7 +51,7 @@ ms.locfileid: "66046022"
 ## <a name="how-to-deploy-teams-at-scale"></a>如何大規模部署團隊
 
 > [!NOTE]
-> 在部署您的團隊之前，請先確認所有團隊擁有者都擁有Teams授權。
+> 在部署您的團隊之前，請確定所有團隊擁有者都擁有 Teams 授權。
 
 請依照下列步驟一次部署大量團隊。
 
@@ -66,7 +66,7 @@ ms.locfileid: "66046022"
     |**團隊名稱**|團隊名稱。|
     |**現有的小組識別碼**|如果您要新增或移除現有團隊中的使用者，請指定團隊的團隊識別碼。|
     |**知名度**|團隊是否為公開 (貴組織中的任何人都可以加入) 或私人 (使用者需要團隊擁有者的核准才能加入) 。 選項為 **[公用** ] 和 [ **私人]**。|
-    |**小組範本識別碼**|如果您要從預先建立或自訂範本建立團隊，請指定團隊範本識別碼。 如[需預先建立的團隊範本](get-started-with-teams-templates-in-the-admin-console.md)和識別碼清單，請參閱在 Teams 系統管理中心使用團隊範本開始。 如果您想要使用標準的預設團隊範本，請將此保留空白。|
+    |**小組範本識別碼**|如果您要從預先建立或自訂範本建立團隊，請指定團隊範本識別碼。 請參閱 [在 Teams 系統管理中心開始使用團隊範本](get-started-with-teams-templates-in-the-admin-console.md) ，以取得預先建立的團隊範本和識別碼清單。 如果您想要使用標準的預設團隊範本，請將此保留空白。|
 
 - **對應您要新增至每個團隊之使用者的 CSV 檔案**。 此檔案必須包含這些必要的欄，順序如下：從第一欄開始：
 
@@ -86,31 +86,31 @@ ms.locfileid: "66046022"
 
 |團隊名稱|現有的小組識別碼|知名度|小組範本識別碼|
 |---------|---------|---------|---------|
-|Contoso Microsoft Store 1||公共|com.microsoft.teams.template.retailStore|
-|Contoso Microsoft Store 2||公共|com.microsoft.teams.template.retailStore|
-|Contoso Microsoft Store 3||公共|com.microsoft.teams.template.retailStore|
-|Contoso Microsoft Store 4||公共|com.microsoft.teams.template.retailStore|
-|Contoso Microsoft Store 5||公共|com.microsoft.teams.template.ManageAProject|
-|Contoso Microsoft Store 6||公共|com.microsoft.teams.template.ManageAProject|
-|Contoso Microsoft Store 7||公共||
-|Contoso Microsoft Store 8||私人|com.microsoft.teams.template.OnboardEmployees|
-|Contoso Microsoft Store 9||私人|com.microsoft.teams.template.OnboardEmployees|
-|Contoso Microsoft Store 10||私人|com.microsoft.teams.template.OnboardEmployees|
+|Contoso 市集 1||公共|com.microsoft.teams.template.retailStore|
+|Contoso 市集 2||公共|com.microsoft.teams.template.retailStore|
+|Contoso 市集 3||公共|com.microsoft.teams.template.retailStore|
+|Contoso 市集 4||公共|com.microsoft.teams.template.retailStore|
+|Contoso 市集 5||公共|com.microsoft.teams.template.ManageAProject|
+|Contoso 市集 6||公共|com.microsoft.teams.template.ManageAProject|
+|Contoso 市集 7||公共||
+|Contoso 市集 8||私人|com.microsoft.teams.template.OnboardEmployees|
+|Contoso 市集 9||私人|com.microsoft.teams.template.OnboardEmployees|
+|Contoso 市集 10||私人|com.microsoft.teams.template.OnboardEmployees|
 
 **Users.csv**
 
 |使用者全名 |使用者 UPN 或 ID|團隊名稱|ActionType|擁有者或成員|
 |---------|---------|---------|---------|---------|
-|Avery Howard|averyh@contoso.com|Contoso Microsoft Store 1|AddMember|擁有者|
-|Casey Jensen|caseyj@contoso.com|Contoso Microsoft Store 2|AddMember|擁有者|
-|埃莉莉·Irwin|jessiei@contoso.com|Contoso Microsoft Store 3|AddMember|擁有者|
-|曼吉耶特巴提亞文|manjeetb@contoso.com|Contoso Microsoft Store 4|AddMember|擁有者|
-|Mikaela Lee|mikaelal@contoso.com|Contoso Microsoft Store 5|AddMember|擁有者|
-|Morgan Conners|morganc@contoso.com|Contoso Microsoft Store 6|AddMember|成員|
-|拉華|oscarw@contoso.com|Contoso Microsoft Store 7|AddMember|成員|
-|RenePeletier|renep@contoso.com|Contoso Microsoft Store 8|AddMember|成員|
-|雪梨馬多斯|sydneym@contoso.com|Contoso Microsoft Store 9|AddMember|成員|
-|Violet Martinez|violetm@contoso.com|Contoso Microsoft Store 10|AddMember|成員|
+|Avery Howard|averyh@contoso.com|Contoso 市集 1|AddMember|擁有者|
+|Casey Jensen|caseyj@contoso.com|Contoso 市集 2|AddMember|擁有者|
+|埃莉莉·Irwin|jessiei@contoso.com|Contoso 市集 3|AddMember|擁有者|
+|曼吉耶特巴提亞文|manjeetb@contoso.com|Contoso 市集 4|AddMember|擁有者|
+|Mikaela Lee|mikaelal@contoso.com|Contoso 市集 5|AddMember|擁有者|
+|Morgan Conners|morganc@contoso.com|Contoso 市集 6|AddMember|成員|
+|拉華|oscarw@contoso.com|Contoso 市集 7|AddMember|成員|
+|RenePeletier|renep@contoso.com|Contoso 市集 8|AddMember|成員|
+|雪梨馬多斯|sydneym@contoso.com|Contoso 市集 9|AddMember|成員|
+|Violet Martinez|violetm@contoso.com|Contoso 市集 10|AddMember|成員|
 
 ### <a name="step-2-deploy-your-teams"></a>步驟 2：部署您的團隊
 
@@ -118,18 +118,18 @@ ms.locfileid: "66046022"
 
 您可以使用 ```New-CsBatchTeamsDeployment``` Cmdlet 提交一批要建立的團隊。 系統會針對每個批次產生協調識別碼。 接著， ```Get-CsBatchTeamsDeployment``` 您可以使用 Cmdlet 來追蹤每個批次的進度和狀態。
 
-1. 安裝 PowerShell 版本 7 或更新版本。 如需逐步指引，請參閱[在 Windows 上安裝 PowerShell](/powershell/scripting/install/installing-powershell-on-windows)。
+1. 安裝 PowerShell 版本 7 或更新版本。 如需逐步指引，請參閱 [在 Windows 上安裝 PowerShell](/powershell/scripting/install/installing-powershell-on-windows)。
 1. 以系統管理員模式執行 PowerShell。
-1. 執行下列動作以卸載任何先前安裝Teams PowerShell 模組。
+1. 執行下列動作以卸載任何先前安裝的 Teams PowerShell 模組。
 
     ```powershell
     Uninstall-module -Name MicrosoftTeams -Force -Allversions
     ```
 
     如果您收到錯誤訊息，表示您已設定完成。 移至下一個步驟。
-1. 下載並安裝[最新版的 Teams PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams)。
+1. 下載並安裝 [最新版的 Teams PowerShell 模組](https://www.powershellgallery.com/packages/MicrosoftTeams)。
 
-1. 執行下列動作以連線至Teams。
+1. 執行下列動作以連線至 Teams。
 
     ```powershell
     Connect-MicrosoftTeams
