@@ -1,5 +1,5 @@
 ---
-title: Teams連絡人中心]
+title: Teams 連絡人中心
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -10,32 +10,32 @@ ms.reviewer: anblak
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 整合式連絡人中心做為服務 (CCaaS) 解決方案的概觀，以供Microsoft Teams
+description: 整合式連絡人中心做為 Microsoft Teams 服務 (CCaaS) 解決方案的概觀
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f441785af609c9336fd03707f9eee334070fb885
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: d43b698b18aaca09eedbd4f7a1f8afdac91753ff
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66056933"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66529655"
 ---
-# <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams的連絡人中心整合
+# <a name="contact-center-integrations-for-microsoft-teams"></a>Microsoft Teams 的連絡人中心整合
 
-  本文將概略說明連絡人中心解決方案如何與參與Microsoft Teams線上連絡人中心認證計畫的Microsoft Teams及解決方案提供者整合。
+  本文提供如何與 Microsoft Teams 以及參與 Microsoft Teams 線上連絡人中心認證計畫的解決方案提供者整合連絡人中心解決方案的概觀。
 
-## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>什麼是Microsoft Teams連絡人中心整合？
+## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Microsoft Teams 的連絡人中心整合是什麼？
 
-Microsoft Teams透過在聊天、視訊會議和通話等通訊模式中擔任內部和外部客戶連線的中樞，來支援客戶互動工作串流。 對於某些組織來說，Microsoft Teams[的雲端語音功能](./cloud-voice-landing-page.md)，包括[自動語音應答](./what-are-phone-system-auto-attendants.md)和[通話佇列](./create-a-phone-system-call-queue.md)，都符合其需求。
+Microsoft Teams 透過在聊天、視訊會議和通話等通訊模式中擔任內部和外部客戶連線的中樞，以支援客戶互動工作串流。 對於某些組織來說，Microsoft Teams 的[雲端語音功能](./cloud-voice-landing-page.md)，包括[自動語音應答](./what-are-phone-system-auto-attendants.md)和[通話佇列](./create-a-phone-system-call-queue.md)，都符合其需求。
 
-對於想要使用商務工具和工作流程來推動客戶旅程的組織，Microsoft Teams的連絡人中心整合可讓連絡人中心成為服務 (CCaaS) 解決方案提供者將其解決方案整合至Teams。
+對於想要使用商務工具和工作流程來推動客戶旅程的組織，Microsoft Teams 的連絡人中心整合可讓連絡人中心成為服務 (CCaaS) 解決方案提供者將其解決方案整合至 Teams。
 
 
-## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>已連線Microsoft Teams認證計畫的連絡人中心
+## <a name="connected-contact-center-for-microsoft-teams-certification-program"></a>Microsoft Teams 認證計畫的線上連絡人中心
 
-Microsoft Teams認證計畫的線上連絡人中心會驗證每個參與提供者的解決方案是否提供他們預期來自 Microsoft 解決方案的品質、相容性和可靠性。
+Microsoft Teams 認證計畫的線上連絡人中心會驗證每個參與提供者的解決方案是否提供他們預期來自 Microsoft 解決方案的品質、相容性和可靠性。
 
-如果您是尋找整合式連絡人中心解決方案的組織，請參閱[連絡人中心的認證Microsoft Teams解決方案](https://cloudpartners.transform.microsoft.com/contact-center-solutions)，以取得認證解決方案提供者的清單，並參閱[連線的連絡人中心解決方案](#connected-contact-center-solutions)以取得認證程式中的提供者清單。
+如果您是尋找整合式連絡人中心解決方案的組織，請參閱 [連絡人中心的已認證 Microsoft Teams 解決方案](https://cloudpartners.transform.microsoft.com/contact-center-solutions) 以取得認證的解決方案提供者清單，並參閱 [連線的連絡人中心解決方案](#connected-contact-center-solutions) 以取得認證程式中的提供者清單。
 
 如果您是尋求加入認證計畫的廠商，請填寫 [此表單](https://aka.ms/CallingPlatformIntake) 做為下一個步驟。 如果您需要提供其他內容和詳細資料，請傳送郵件給 [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com)。
 
@@ -44,7 +44,7 @@ Microsoft Teams認證計畫的線上連絡人中心會驗證每個參與提供�
 
 ## <a name="connected-contact-center-solutions"></a>已連線的連絡人中心解決方案
 
-下列提供者提供使用其中一種連線、延伸或電源整合模型整合至Teams的連絡人中心解決方案。
+下列提供者提供使用其中一種連線、延伸或電源整合模型整合至 Teams 的連絡人中心解決方案。
 
 ### <a name="certified-solutions"></a>通過認證的解決方案
 
@@ -84,6 +84,7 @@ Microsoft Teams認證計畫的線上連絡人中心會驗證每個參與提供�
 | `Novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `Puzzel` | https://www.puzzel.com/microsoft-teams                            |
 | `Sikom` | http://www.sikom.de/microsoft-teams/                            |
+| `Solgari` | https://solgari.com/converse-for-teams/                       |
 | `Talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
 | `Vonage` |  https://www.vonage.com/contact-centers/integrations/microsoft-teams/                                 |
 

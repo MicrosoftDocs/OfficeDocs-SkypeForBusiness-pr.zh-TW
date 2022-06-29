@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解支援Microsoft Teams 會議室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f3bdfc24344f481a2846790ae13b6c964c69d4c2
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 3b725dc6a39ac777e7f15e3fbf2e4389b5f4333b
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241022"
+ms.locfileid: "66529715"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
@@ -90,6 +90,8 @@ Microsoft Teams 會議室調整為不同的房間大小。 Teams 會議室根據
   |配備 Lenovo Core Compute 的 Logitech TAP 主機 |Core i5|8 GB|128 GB|
   |[記錄點選和 Lenovo ThinkSmart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[Poly G10-T with Lenovo ThinkSmart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
+  |[Poly G40-T Kit with Poly Studio USB， with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g40) |Core i5| 8 GB | 128 GB|
+  |[Poly G85-T Kit with Poly Eagle Eye Director II， with Lenovo](https://www.poly.com/us/en/support/products/video-conferencing/poly-room-solutions/g85) |Core i5| 8 GB | 128 GB|
   |配備 Lenovo Thinksmart Core 的 Poly GC8 主機|Core i5|8 GB|128 GB|
   |Poly GC8 Console with Dell Optiplex 7080|Core i5|8 GB|128 GB|
   |[Yealink MVC300 with Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |

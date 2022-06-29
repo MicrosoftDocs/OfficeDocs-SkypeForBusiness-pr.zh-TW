@@ -17,23 +17,23 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 瞭解如何在 Microsoft Teams 中使用會議原則設定來控制會議到期日。
-ms.openlocfilehash: 08cdcd9b7d7f18dafa468bd33ca065dafb5768a6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 08ca5a75b8dd470b006d44e562eb795f814faba6
+ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675355"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66529685"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Microsoft Teams 中的會議原則和會議到期日
 
-[Microsoft Teams中的會議原則](meeting-policies-overview.md)可用來控制貴組織中的使用者是否可以啟動和排程會議，以及使用者排程之會議參與者可用的功能。 您可以使用全域 (全組織預設值) 原則，或建立並指派自訂原則。 您可以在Microsoft Teams系統管理中心管理會議原則，或使用[Get](/powershell/module/skype/get-csteamsmeetingpolicy)、[New](/powershell/module/skype/new-csteamsmeetingpolicy)、[Set](/powershell/module/skype/set-csteamsmeetingpolicy)、[Remove](/powershell/module/skype/remove-csteamsmeetingpolicy)、[Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell Cmdlet。
+Microsoft Teams 中的[會議原則](meeting-policies-overview.md)可用來控制貴組織中的使用者是否可以開始和排程會議，以及使用者排程會議時會議參與者可用的功能。 您可以使用全域 (全組織預設值) 原則，或建立並指派自訂原則。 您可以在 Microsoft Teams 系統管理中心或使用 [Get](/powershell/module/skype/get-csteamsmeetingpolicy)、 [New](/powershell/module/skype/new-csteamsmeetingpolicy)、 [Set](/powershell/module/skype/set-csteamsmeetingpolicy)、 [Remove](/powershell/module/skype/remove-csteamsmeetingpolicy)、 [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell Cmdlet 來管理會議原則。
 
 控制使用者是否可以開始和排程會議，以及控制使用者排程之會議到期的會議原則設定。 當會議的會議加入連結和會議 ID 到期時，沒有人可以加入會議。 下列會議原則設定決定使用者是否可以在 Teams 中開始和排程會議。 我們討論本文中的會議設定。
 
 - [立即在頻道中開會](meeting-policies-in-teams-general.md#meet-now-in-channels)：控制使用者是否可以在頻道中召開臨時會議。
 - [頻道會議排程](meeting-policies-in-teams-general.md#channel-meeting-scheduling)：控制使用者是否可以在頻道中排程會議。
 - [私人會議排程](meeting-policies-in-teams-general.md#private-meeting-scheduling)：控制使用者是否可以在 Teams 中排程私人會議。 當會議未發佈到小組中的頻道時，會議是私人的。
-- [Outlook新增至](meeting-policies-in-teams-general.md#outlook-add-in)：控制使用者是否可以從Outlook排程私人會議。 當會議未發佈到小組中的頻道時，會議是私人的。
+- [Outlook 載入](meeting-policies-in-teams-general.md#outlook-add-in)宏：控制使用者是否可以從 Outlook 排程私人會議。 當會議未發佈到小組中的頻道時，會議是私人的。
 - [立即在私人會議中開會](meeting-policies-in-teams-general.md#meet-now-in-private-meetings)：控制使用者是否可以召開臨時私人會議。
 
 根據預設，這些設定為開啟狀態。 關閉任何這些設定時，任何獲指派原則的使用者都無法啟動或排程該類型的新會議。 同時，會議加入會連結及使用者先前啟動或排程之所有現有會議的會議識別碼。
@@ -63,7 +63,7 @@ ms.locfileid: "65675355"
 |如果您想要...&nbsp;&nbsp; |執行此動作&nbsp;&nbsp;&nbsp;&nbsp;  |會議加入行為&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
 |到期私人會議現在由使用者開始會議&nbsp;&nbsp;|在 **私人會議中關閉 [立即開會]**。&nbsp;&nbsp;|現在沒有人可以加入使用者啟動的私人 **會議** 。|
-|到期使用者排程的私人會議&nbsp;&nbsp;|關閉 **私人會議排程**_，並_ 關閉 **增益集Outlook**。 &nbsp;&nbsp;|沒有人可以加入使用者排程的私人會議。 這可防止人員加入下列會議：<ul><li>過去私人會議。</li><li>已排程于未來且尚未進行的私人會議。</li><li>未來的週期性私人會議實例。</li></ul><br>**私人會議排程** 和 **Outlook載入** 宏都必須關閉，才能讓使用者排程的私人會議過期。 如果其中一個設定已關閉，而另一個設定已開啟，現有會議的會議加入連結和會議識別碼仍會保持作用中，且不會過期。|
+|到期使用者排程的私人會議&nbsp;&nbsp;|關閉 **私人會議排程**_，並_ 關閉 **Outlook 增益集**。 &nbsp;&nbsp;|沒有人可以加入使用者排程的私人會議。 這可防止人員加入下列會議：<ul><li>過去私人會議。</li><li>已排程于未來且尚未進行的私人會議。</li><li>未來的週期性私人會議實例。</li></ul><br>**私人會議排程** 和 **Outlook 載入** 宏都必須關閉，才能讓使用者排程的私人會議過期。 如果其中一個設定已關閉，而另一個設定已開啟，現有會議的會議加入連結和會議識別碼仍會保持作用中，且不會過期。|
 |到期通道 **立即開會** 由使用者召開會議&nbsp;&nbsp;|關閉 **[立即在頻道中開會**] _，並_ 關閉 **[頻道會議排程]**。&nbsp;&nbsp;|現在沒有人可以加入頻道 **會議** ，會議是由使用者召開。|
 |到期使用者排定的通道會議&nbsp;&nbsp;|關閉 **通道會議排程**。&nbsp;&nbsp;|沒有人可以加入使用者排定的頻道會議。 這可防止人員加入下列會議：<ul><li>過去曾進行過的通道會議。</li><li>針對未來排程且尚未進行的通道會議。</li><li>週期性頻道會議的未來實例。</li></ul>|
 
@@ -77,26 +77,26 @@ ms.locfileid: "65675355"
 
 ## <a name="changes-to-meeting-expiration"></a>變更會議到期日
 
-所有新建立Teams會議錄製 (TMR) 預設到期日為 120 天。 此設定預設為適用于所有租使用者。 這表示根據預設， *在開啟此功能之後* 建立的所有 TMR 都會在建立日期之後的 120 天內刪除。 系統管理員也可以將會議設為 **永不過期**。 OneDrive和SharePoint系統會監控所有 TMR 上設定的到期日，並會在 TMR 到期日自動將 TMR 移至回收站。
+所有新建立的 Teams 會議錄製 (TMR) 預設到期日為 120 天。 此設定預設為適用于所有租使用者。 這表示根據預設， *在開啟此功能之後* 建立的所有 TMR 都會在建立日期之後的 120 天內刪除。 系統管理員也可以將會議設為 **永不過期**。 OneDrive 和 SharePoint 系統會監控所有 TMR 上設定的到期日，並會在 TMR 到期日自動將 TMR 移至回收站。
 
 > [!NOTE]
-> 會議文字記錄的一份複本會儲存在OneDrive SharePoint中，而第二份複本會儲存在Exchange暫存中。 OSDP 複本會在 TMR 自動到期時過期。
+> 會議文字記錄的一份複本會儲存在 OneDrive SharePoint 中，而第二份複本會儲存在 Exchange 的暫時儲存空間中。 OSDP 複本會在 TMR 自動到期時過期。
 
 自動會議到期是輕量型的內部管理機制，可減少舊版 TMR 所建立的儲存空間雜亂。 平均而言，在所有客戶中，96% 的 TMR 在 60 天后不會被監視，而 99% 的 TMR 在 110 天后不會被監視。 我們相信，幾乎所有客戶都會移除可能在 60 天后不會再被監視的錄製，藉此從降低租使用者的儲存空間負載獲益。 我們的目標是根據預設為所有客戶提供盡可能簡潔的體驗。
 
-使用會議到期日來限制Teams會議記錄所驅動的雲端儲存空間使用OneDrive或SharePoint。 一般會議錄製會耗用每小時約 400 MB 的錄製。
+使用會議到期日來限制由 Teams 會議記錄驅動的 OneDrive 或 SharePoint 雲端儲存空間使用量。 一般會議錄製會耗用每小時約 400 MB 的錄製。
 
 > [!NOTE]
 > A1 使用者的預設到期日上限為 30 天。
 
 ### <a name="expiration-date"></a>有效期
 
-- 到期日會計算為 **建立** 日期，加上系統 **管理員在Teams原則中設定的預設天數**。
+- 到期日會計算為 **建立** 日期，加上 **系統管理員在 Teams 原則中設定的預設天數**。
 - 播放不會影響到期日。
 
 ### <a name="change-the-default-expiration-date"></a>變更預設到期日
 
-系統管理員可以在 PowerShell 或Teams系統管理中心編輯預設的到期設定。 任何變更只會影響從該點開始 *建立的新* TMR。 這不會影響該日期之前建立的任何錄製。 系統管理員無法變更現有 TMR 的到期日。 這樣做是為了保護擁有 TMR 之使用者的決定。 會議和通話都可以由此設定控制。
+系統管理員可以在 PowerShell 或 Teams 系統管理中心編輯預設的到期設定。 任何變更只會影響從該點開始 *建立的新* TMR。 這不會影響該日期之前建立的任何錄製。 系統管理員無法變更現有 TMR 的到期日。 這樣做是為了保護擁有 TMR 之使用者的決定。 會議和通話都可以由此設定控制。
 
 您可以將到期日值設定為：
 
@@ -110,7 +110,7 @@ PowerShell 命令範例：
 Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 ```
 
-您可以在會議原則下Teams系統管理中心設定到期日 **。** 開啟 **[會議] 自動過期後，** 您可以選擇設定錄製到期日。
+您可以在 Teams 系統管理中心的 **會議原則** 下設定到期日。 開啟 **[會議] 自動過期後，** 您可以選擇設定錄製到期日。
 
 ![管理員會議到期原則的中央螢幕擷取畫面。](media/meeting-expiration-policy.jpg)
 
@@ -120,14 +120,14 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 否，您不應該依賴這項資訊來提供法律保護，因為使用者可以修改他們所控制之任何錄製的到期日。
 
-#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>我在安全性&合規性中心設定的保留和/或刪除原則是否會覆寫Teams會議錄製到期日設定？
+#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>我在安全性&合規性中心設定的保留和/或刪除原則是否會覆寫 Teams 會議錄製到期設定？
 
 是的，您在合規性中心設定的任何原則都會優先。
 
 例如：
 
-- 如果您有原則指出網站中的所有檔案都必須保留 100 天，而Teams會議錄製的到期設定是 30 天，則錄製會保留整整 100 天。
-- 如果您的刪除原則指出所有Teams會議錄製都會在五天后刪除，而且您有 30 天Teams會議錄製的到期設定，則錄製會在 5 天后刪除。
+- 如果您有原則指出網站中的所有檔案都必須保留 100 天，而 Teams 會議錄製的到期設定為 30 天，則錄製會保留整整 100 天。
+- 如果您的刪除原則指出所有 Teams 會議錄製都會在五天后刪除，而且您有 30 天 Teams 會議錄製的到期設定，則錄製將在五天后刪除。
 
 ### <a name="will-this-feature-enforce-file-retention"></a>啟用此功能會強制執行檔案保留？
 
@@ -142,15 +142,15 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 我們建議使用安全性與合規性保留和/或刪除原則。 提供該功能的目標是解決複雜的原則與 SLA 導向的管理法律考量。
 
-自動過期功能僅適用于輕量型內部管理機制，以減少舊Teams會議錄製所建立的儲存空間待過濾郵件。
+自動過期功能僅適用于輕量型內部管理機制，以減少舊版 Teams 會議錄製內容所建立的儲存空間雜亂。
 
 ### <a name="will-future-tmrs-migrated-from-classic-stream-after-this-feature-is-released-have-auto-expiration-applied-to-them-too"></a>未來在此功能釋出後, 從傳統資料流移轉來的 TMR 也將套用自動到期？
 
 否，移轉的 TMR 不會有到期設定。 相反地，我們鼓勵系統管理員只遷移他們想要保留的 TMR。 移轉文件將會提供更多詳細資料。
 
-### <a name="how-is-this-feature-different-from-the-expiration-message-i-see-when-a-tmr-upload-to-onedrive-and-sharepoint-fails"></a>這項功能與我在 TMR 上傳至OneDrive時看到的到期訊息有何不同，SharePoint失敗？
+### <a name="how-is-this-feature-different-from-the-expiration-message-i-see-when-a-tmr-upload-to-onedrive-and-sharepoint-fails"></a>這項功能與我在將 TMR 上傳到 OneDrive 和 SharePoint 失敗時看到的到期訊息有何不同？
 
-當錄製無法上傳至OneDrive或SharePoint時，Teams應用程式會在聊天中顯示一則訊息，讓使用者在聊天中最多有 21 天可以下載 TMR，然後才會從Teams伺服器永久刪除。 由於 TMR 上傳失敗所造成的現有到期體驗與說明文件中討論的OneDrive和SharePoint自動過期功能無關。
+當錄製無法上傳到 OneDrive 或 SharePoint 時，Teams 應用程式會在聊天中顯示一則訊息，讓使用者最多有 21 天可以下載 TMR，然後才會從 Teams 伺服器永久刪除。 由於 TMR 上傳失敗所造成的現有到期體驗與說明文件中討論的 OneDrive 和 SharePoint 自動過期功能無關。
 
 ### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>如何?知道 TMR 播放的發佈，所以我知道最佳的自動到期預設值對我的租使用者有何影響？
 
@@ -167,7 +167,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 ### <a name="when-will-the-file-be-deleted"></a>何時會刪除檔案？
 
-檔案會在到期日的五天內刪除，但這並不是嚴格保證。 檔案擁有者會在錄製到期時收到電子郵件通知，並會導向至回收站以復原錄製內容。
+錄製內容通常會在到期日後的一天內刪除，但在少數情況下可能需要長達五天的時間。 檔案擁有者會在錄製到期時收到電子郵件通知，並會導向至回收站以復原錄製內容。
 
 > [!NOTE]
 > 在到期日，錄製會移至回收站，並清除到期日欄位。 如果您從回收站復原錄製內容，此功能將不會再次刪除該錄製，因為已清除到期日。
