@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中指派 Teams 擁有者和成員
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 audience: admin
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76ca4a5dfd6d120b71e23d899ec9c7749db99827
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 1a8993882bb281dc7c9bd6b8bde95387a183b637
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125488"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562762"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>在 Microsoft Teams 中指派 Teams 擁有者和成員
 
-Microsoft Teams 內有兩個使用者角色：**擁有者** 和 **成員**。 根據預設，建立新小組的使用者會取得擁有者狀態。 此外，則小組擁有者和成員都可以有頻道的仲裁者功能 (如果已設定仲裁功能)。 如果團隊是從現有的Microsoft 365群組建立，則會繼承許可權。
+Microsoft Teams 內有兩個使用者角色：**擁有者** 和 **成員**。 根據預設，建立新小組的使用者會取得擁有者狀態。 此外，則小組擁有者和成員都可以有頻道的仲裁者功能 (如果已設定仲裁功能)。 如果團隊是從現有的 Microsoft 365 群組建立，則會繼承許可權。
 
 下表顯示擁有者和成員之間的權限差異。
 
@@ -43,8 +43,8 @@ Microsoft Teams 內有兩個使用者角色：**擁有者** 和 **成員**。 �
 | ***編輯私人頻道名稱/描述** |    否     |    不適用|
 |        ***刪除私人頻道**         |    是     |    否|
 |          **新增共用頻道**          |    是     |    否|
-| **編輯共用頻道名稱/描述** |    否     |    <sup>No6</sup>|
-|        **刪除共用頻道**         |    是     |    <sup>No6</sup>|
+| **編輯共用頻道名稱/描述** |    否     |    否<sup>6</sup>|
+|        **刪除共用頻道**         |    是     |    否<sup>6</sup>|
 |          **新增成員**          |  是<sup>3</sup>   |     否<sup>4</sup>    |
 |          **要求新增成員**          |  不適用   |     是<sup>5</sup>     |
 |           **新增應用程式**            |    是     |    是<sup>2</sup>|
@@ -71,7 +71,7 @@ Microsoft Teams 內有兩個使用者角色：**擁有者** 和 **成員**。 �
 
 ## <a name="assign-a-user-role"></a>指派使用者角色
 
-若要指派使用者角色，請在Teams中選取團隊名稱，然後選取 [**其他選項** (**...**) >**管理團隊]**。 在 **[成員]** 索引標籤上，可以新增成員並選擇擁有者和仲裁者 (如果您有足够的權限)。 如需詳細資訊，請參閱[變更Teams中的團隊設定](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)。
+若要指派使用者角色，請在 Teams 中選取團隊名稱，然後選取 [ **其他選項** (**...**) > **管理團隊]**。 在 **[成員]** 索引標籤上，可以新增成員並選擇擁有者和仲裁者 (如果您有足够的權限)。 如需詳細資訊，請參閱 [變更 Teams 中的團隊設定](https://support.office.com/article/ce053b04-1b8e-4796-baa8-90dc427b3acc)。
 
 > [!NOTE]
 > 釘選的頻道不會顯示 **[管理團隊** ] 選項。 選取下方 [*您的團隊*] 底下的團隊名稱，然後選取名稱右 (**...**) [**更多選項**]。

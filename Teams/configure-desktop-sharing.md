@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中設定桌面共用
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.date: 03/22/2019
@@ -11,18 +11,18 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解如何設定會議策略，讓使用者在聊天或會議中Teams桌面。
+description: 瞭解如何設定會議原則，讓使用者在 Teams 聊天或會議中共用桌面。
 ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c5db10ce87dc98cfb793eefb1daa953385c95f6d
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 6c94991255b7309e1510a934645f1f4cf0b7e049
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205284"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562382"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>在 Microsoft Teams 中設定桌面共用
 
@@ -39,11 +39,11 @@ ms.locfileid: "61205284"
 
 1. 選取 [會議] > [會議原則]。
 
-    ![已選取會議政策。](media/configure-desktop-sharing-image1.png)
+    ![已選取會議原則。](media/configure-desktop-sharing-image1.png)
 
-2. 在會議 **政策頁面上****，選取** 新增 。
+2. 在 [ **會議原則]** 頁面上，選取 [ **新增]**。
 
-    ![會議政策訊息。](media/addMeeting.png)
+    ![會議原則訊息。](media/addMeeting.png)
 
 3. 為您的原則指定唯一的標題，然後輸入簡短的描述。
 
@@ -56,12 +56,12 @@ ms.locfileid: "61205284"
     ![共用模式選項。](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
-  > 您不需要啟用通話策略，使用者才能從聊天使用螢幕共用。 不過，他們的音訊會關閉，直到他們自行取消靜音。 此外，共用螢幕的使用者可以按一下 [ **新增音訊** > 以啟用音訊。 如果通話政策已停用，使用者將無法從聊天會話將音訊新增到螢幕共用。
+  > 您不需要啟用通話原則，使用者就可以使用聊天中的螢幕畫面分享。 不過，他們的音訊會關閉，直到他們自行取消靜音為止。 此外，共用螢幕的使用者可以按一下 [ **新增音訊** ] 來啟用音訊。 如果通話原則已停用，使用者將無法從聊天會話將音訊新增至螢幕共用。
 
 5. 開啟或關閉下列設定：
 
-    - **允許參與者提供或要求控制權** ， 讓小組成員提供或要求控制簡報者的桌面或應用程式。
-    - **允許外部參與者提供或要求控制權** - 這是每個使用者的政策。 不論會議召集人的設定為何，無論組織是否為使用者設定此選項，都無法控制外部參與者可以執行的動作。 此參數會根據分享者在其組織的會議原則中所設定的內容，是否可以授與外部參與者控制或要求控制分享者的螢幕畫面。
+    - **允許參與者授與或要求控制權** ，讓小組成員授與或要求簡報者桌面或應用程式的控制權。
+    - **允許外部參與者授與或要求控制權** –這是個別使用者的原則。 不論會議召集人的設定為何，無論組織是否為使用者設定此選項，都無法控制外部參與者可以執行的動作。 此參數會根據分享者在其組織的會議原則中所設定的內容，是否可以授與外部參與者控制或要求控制分享者的螢幕畫面。
     - **允許 PowerPoint 分享**：讓使用者建立可讓 PowerPoint 簡報上傳並共用的會議。
     - **允許使用白板**：讓使用者共用白板。
     - **允許共用記事**：讓使用者記共用記事。

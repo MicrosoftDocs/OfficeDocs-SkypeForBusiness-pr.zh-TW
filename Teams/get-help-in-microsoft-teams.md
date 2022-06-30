@@ -1,7 +1,7 @@
 ---
-title: 取得Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+title: 在 Microsoft Teams 中取得說明
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -13,30 +13,30 @@ ms.reviewer: karuanag
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 瞭解說明主題、影片、版本資訊及意見回饋論壇，以取得Microsoft Teams。
+description: 瞭解說明主題、影片、版本資訊和意見反應論壇，以便在 Microsoft Teams 中取得協助。
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 815746f350f4ded43f8f38811e4d0105ac1c742d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c34db9bdd2911a1b2680b9d886ce99ec0f690537
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579717"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562632"
 ---
-# <a name="get-help-in-microsoft-teams"></a>取得Microsoft Teams
+# <a name="get-help-in-microsoft-teams"></a>在 Microsoft Teams 中取得說明
 
-您的使用者和Microsoft Teams中的協助按鈕，可在這裡找到他們在使用Teams。
+Microsoft Teams 中的 [說明] 按鈕是您的使用者和冠軍可以在使用 Teams 時找到他們可能需要的所有協助的地方。
 
-Teams為説明內容提供當地語系化語言支援。 有關支援語言最新清單，請參閱Microsoft Teams[語言以尋找協助內容](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)。
+Teams 提供說明內容的當地語系化語言支援。 如需最新的支援語言清單，請參閱 [Microsoft Teams 支援的說明內容語言](https://support.office.com/article/Microsoft-Teams-supported-languages-for-help-content-9c71d10a-0c5c-49d4-b6d7-0c58cdfdf4cf)。
 
- - **流覽主題**- 此功能可協助您整理Teams內容。 簡單且直接的指引，可協助使用者從Teams。 
+ - **流覽主題** - 這有助於使用 Teams 功能整理的內容。 簡單明瞭的指導方針，可協助使用者充分發揮 Teams 的效用。 
 
- - **影片** - 我們的點播影片內容可讓使用者快速瞭解特定工作。 我們會持續製作新的影片，因此請經常回來查看。 當然，需要網際網路存取。 
+ - **影片** - 我們的隨選視訊內容可讓使用者快速瞭解特定工作。 我們會持續地製作新的影片，因此請經常回來查看。 當然，需要網際網路存取。 
 
- - **新增功能** - 
-   針對使用者和團隊擁有者定期發佈有關新功能或更新Teams資訊。
+ - **新增** - 
+    功能使用者和團隊擁有者有關 Teams 新功能或更新功能的定期版本資訊。
 
- - **分享想法**- 我們一直想要聽取您關於如何改善Teams。 此選項會帶您到我們的產品意見回應論壇，您可以在此提交新功能要求或對現有功能要求進行投票。 我們會持續在規劃新功能時，查看這項資訊。 
+ - **分享想法** - 我們一直希望您聽到如何改善 Teams。 這個選項會帶您前往我們的產品意見反應論壇，您可以在此提交新的功能要求或對現有的功能進行投票。 在我們規劃新功能時，我們會持續檢閱這項資訊。 
 
 

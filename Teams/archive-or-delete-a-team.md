@@ -1,14 +1,14 @@
 ---
 title: 在 Microsoft Teams 中封存或刪除團隊
-author: SerdarSoysal
-ms.author: serdars
 manager: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 ms.topic: conceptual
 audience: admin
 ms.service: msteams
 ms.reviewer: jastark
 search.appverid: MET150
-description: 在本文中，您將瞭解如何封存或永久刪除Microsoft Teams中的團隊。
+description: 在本文中，您將瞭解如何在 Microsoft Teams 中封存或永久刪除團隊。
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0ec5d6dedc482eb7becdd23fbd2747e87195cd0f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: dddb7bdb2285eb6a6502adbf6172aa6a3fe76c3d
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674445"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562412"
 ---
 # <a name="archive-or-delete-a-team-in-microsoft-teams"></a>在 Microsoft Teams 中封存或刪除團隊
 
@@ -45,9 +45,9 @@ ms.locfileid: "65674445"
 2. 按一下小組名稱以選取小組。
 3. 選取 [封存]。 將會出現下列訊息。
 
-    ![Teams封存訊息的螢幕擷取畫面。](media/teams-archive-message.png)
+    ![Teams 封存訊息的螢幕擷取畫面。](media/teams-archive-message.png)
 
-4. 若要防止人員編輯SharePoint網站中的內容，以及與小組相關聯的 [Wiki] 索引標籤，請選取 [**讓小組成員的SharePoint網站設為唯讀**]。  (Teams擁有者仍然可以編輯此內容。) 
+4. 若要防止人員編輯 SharePoint 網站中的內容，以及與小組相關聯的 Wiki 索引標籤，請選取 [ **讓小組成員唯讀 SharePoint 網站]**。  (Teams 擁有者仍然可以編輯此內容。) 
 5. 選取 [封存] 以封存小組。 團隊的狀態會變更為 [ **已封存**]，它會移至位於團隊清單底部的 **[隱藏的團隊** ] 內，並在旁邊新增一個代表封存狀態的小圖示。
 
 ## <a name="make-an-archived-team-active"></a>讓封存的小組成為使用中
@@ -69,9 +69,9 @@ ms.locfileid: "65674445"
 
 ## <a name="restore-a-deleted-team"></a>還原刪除的小組
 
-請依照下列步驟還原與團隊關聯的Microsoft 365群組，以還原已刪除的團隊。 還原團隊的Microsoft 365群組會還原團隊內容，包括索引標籤、標準頻道、私人頻道及其相關聯的網站集合。
+請依照下列步驟還原與團隊關聯的 Microsoft 365 群組，以還原已刪除的團隊。 還原團隊的 Microsoft 365 群組可還原團隊內容，包括索引標籤、標準頻道、私人頻道及其相關聯的網站集合。
 
-根據預設，已刪除的Microsoft 365組會保留 30 天。 此 30 天期間稱為「虛刪除」，因為您可還原該群組。 若要深入瞭解，請參閱 [還原已刪除的群組](/microsoft-365/admin/create-groups/restore-deleted-group)。
+根據預設，已刪除的 Microsoft 365 群組會保留 30 天。 此 30 天期間稱為「虛刪除」，因為您可還原該群組。 若要深入瞭解，請參閱 [還原已刪除的群組](/microsoft-365/admin/create-groups/restore-deleted-group)。
 
 ### <a name="install-the-azureadpreview-module"></a>安裝 AzureADPreview 模組
 
@@ -92,7 +92,7 @@ ms.locfileid: "65674445"
     Install-Module AzureADPreview
     ```
 
-### <a name="restore-the-deleted-microsoft-365-group"></a>還原已刪除的Microsoft 365組
+### <a name="restore-the-deleted-microsoft-365-group"></a>還原已刪除的 Microsoft 365 群組
 
 1. 執行下列命令連線到 Azure AD：
 
@@ -102,7 +102,7 @@ ms.locfileid: "65674445"
 
     當您看到提示時，使用您的系統管理員帳戶和密碼登入。
 
-1. 執行下列動作以顯示仍在 30 天保留期間內的所有虛刪除Microsoft 365群組清單。 如果您有許多群組，請使用 **-All $True** 參數。
+1. 執行下列動作以顯示所有仍處於 30 天保留期間內的虛刪除 Microsoft 365 群組清單。 如果您有許多群組，請使用 **-All $True** 參數。
 
     ```PowerShell
     Get-AzureADMSDeletedGroup

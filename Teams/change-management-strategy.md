@@ -1,8 +1,8 @@
 ---
 title: 建立變更管理策略
 ms.reviewer: ''
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 09/25/2017
 ms.topic: article
@@ -11,22 +11,22 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: 透過識別重要的專案關係人、業務成果、成功措施和管理行銷活動，為Microsoft Teams建立變更管理策略。
+description: 透過識別重要的專案關係人、業務成果、成功措施和管理行銷活動，為 Microsoft Teams 建立變更管理策略。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 65bd3c7c4ded22f2ca8286215171408f7d86b1e1
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 589294402d093afef8686dd7a376f0d88d7025cb
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823242"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562372"
 ---
-# <a name="create-a-change-management-strategy-for-microsoft-teams"></a>建立Microsoft Teams的變更管理策略
+# <a name="create-a-change-management-strategy-for-microsoft-teams"></a>建立 Microsoft Teams 的變更管理策略
 
 對於使用者意識和採用新技術的變更管理策略，對於在組織中成功推行任何新技術而言至關重要。 成功完成這項工作可確保使用者採用和滿意的新體驗。  根據貴組織的規模而定，下列可變更的步驟，但確保與專案關係人、冠軍、IT 系統管理員和使用者持續保持持續的通訊層級，是成功變更的關鍵。  
 
-變更管理Teams的最佳做法：
+Teams 變更管理的最佳做法：
 
 1.  找出您重要的專案關係人、冠軍和使用者設定檔
 
@@ -59,8 +59,8 @@ ms.locfileid: "65823242"
 |圖示  |描述  |
 |---------|---------|
 |![高階主管贊助者圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image1.png)     |**高階主管贊助** 者是組織內的重要領導者，他們的參與對於推動員工採用至關重要。 它們對公司文化具有最大的影響，而且可以主動傳達新技術和方式的價值與優點。         |
-|![服務擁有者圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**服務擁有者** 負責確保使用者使用服務並從中獲取價值。 設定組織內的服務擁有者對於確保Microsoft 365或Office 365設定的企業目標得以實現非常重要。         |
-|![冠軍圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |從組織中的每個使用者取得購買是一項挑戰。 **冠軍** 可以協助減少此挑戰，並在採用Microsoft 365或Office 365中扮演重要角色。 他們知識豐富的知識、致力於進一步培養專業知識，並願意提供對等指導和協助。 他們協助將Microsoft 365或Office 365翻譯成其部門或小組的實際情況。         |
+|![服務擁有者圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image2.png)     |**服務擁有者** 負責確保使用者使用服務並從中獲取價值。 設定組織內的服務擁有者對於確保 Microsoft 365 或 Office 365 設定的企業目標得以實現非常重要。         |
+|![冠軍圖示。](media/Create_a_change_management_strategy_for_Microsoft_Teams_image3.png)     |從組織中的每個使用者取得購買是一項挑戰。 **冠軍** 可以協助減少此挑戰，並在採用 Microsoft 365 或Office 365中扮演重要角色。 他們知識豐富的知識、致力於進一步培養專業知識，並願意提供對等指導和協助。 他們協助將 Microsoft 365 或Office 365翻譯成其部門或小組的實際情況。         |
 
 我們建議定期與這些專案關係人開會，讓他們瞭解計畫的進度。 根據您的公司文化，初始化「共同作業委員會」以允許提供意見反應和討論可能是很有用的工具。
 
@@ -114,7 +114,7 @@ ms.locfileid: "65823242"
 
 -   定期與專案專案關係人開會進行更新。
 
--   挑選意見反應方法，從參與試驗的人員收集資訊。 較小的組織可以在Teams內使用公用頻道，允許使用者加入並提供意見反應。 在大型組織中，考慮啟動Yammer社群以提供產品支援。  
+-   挑選意見反應方法，從參與試驗的人員收集資訊。 較小的組織可以使用 Teams 內的公用頻道，讓使用者加入並提供意見反應。 在大型組織中，考慮啟動 Yammer 社群以提供產品支援。  
 
 -   提供自助檔，包括產品影片。
 
@@ -138,15 +138,15 @@ ms.locfileid: "65823242"
 
 ## <a name="measure-and-share-success"></a>衡量並分享成功
 
-在您的專案小組中，應該是您組織的 IT 系統管理員。 這些個人將可存取Microsoft 365 系統管理中心體驗內建的Microsoft 365或Office 365 Microsoft Teams使用方式報告。 此資訊可以顯示貴公司中Microsoft Teams的使用方式。 我們也建議您直接從您的使用者取得有關其Teams體驗的意見反應，以及他們對於使用的其他想法。 與您的使用者社群分享來自您公司內部的這些真實範例，對於隨著時間持續地改變，是非常有價值的。  
+在您的專案小組中，應該是您組織的 IT 系統管理員。 這些個人將能存取內建于Microsoft 365 系統管理中心體驗中的 Microsoft 365 或Office 365 Microsoft Teams 使用方式報告。 此資訊可以顯示您公司中 Microsoft Teams 的使用方式。 我們也建議您直接從您的使用者取得有關其 Teams 體驗的意見反應，以及他們對於使用的其他想法。 與您的使用者社群分享來自您公司內部的這些真實範例，對於隨著時間持續地改變，是非常有價值的。  
 
-深入瞭解Microsoft 365 系統管理中心Microsoft 365 系統管理中心[Microsoft Teams使用方式報告中的Microsoft Teams使用方式報告](/microsoftteams/teams-analytics-and-reports/user-activity-report)。
+在Microsoft 365 系統管理中心中Microsoft 365 系統管理中心[Microsoft Teams 使用方式報告中深入瞭解 Microsoft Teams 使用方式報告](/microsoftteams/teams-analytics-and-reports/user-activity-report)。
 
 > [!TIP]
-> 使用您的公開小組或Yammer社群來收集使用方式的深入解析。 使用#TeamsStories標籤共用，以便輕鬆擷取。  在內部網路上每月共用#TeamsStory，以醒目提示接受變更以提升您環境中生產力及共同作業的員工。  
+> 使用您的公用小組或 Yammer 社群來收集使用方式的深入解析。 使用#TeamsStories標籤共用，以便輕鬆擷取。  在內部網路上每月共用#TeamsStory，以醒目提示接受變更以提升您環境中生產力及共同作業的員工。  
 
 ## <a name="ongoing-adoption"></a>持續採用
 
-在組織中推動變更是進行中的活動，而不是活動。 您的啟動會議只是讓人員更有效效率地共同作業的開頭。 請務必規劃此旅程中強調成功、介紹新功能，以及與整體Microsoft 365或Office 365服務策略保持聯繫，這是 IT 部門會打造的策略。 確保您的使用者參與而非不知所措，可減少他們改變的疲勞，並支援他們放開舊習慣，例如透過電子郵件寄送附件等，以產生新事物，例如將檔儲存在雲端。
+在組織中推動變更是進行中的活動，而不是活動。 您的啟動會議只是讓人員更有效效率地共同作業的開頭。 請務必規劃此旅程中強調成功、介紹新功能，以及與整體 Microsoft 365 或Office 365服務策略保持聯繫，這是 IT 部門會打造的。 確保您的使用者參與而非不知所措，可減少他們改變的疲勞，並支援他們放開舊習慣，例如透過電子郵件寄送附件等，以產生新事物，例如將檔儲存在雲端。
 
-在 Microsoft Technical Community 網站上的[「推動採用](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)」社群中，分享有關服務採用Teams和Microsoft 365或Office 365的問題。 我們一直希望聽到您的心聲，並協助您進行採用之旅。
+在 Microsoft 技術社群網站上的[「推動採用](https://techcommunity.microsoft.com/t5/Driving-Adoption/ct-p/DrivingAdoption)」社群中，分享有關 Teams 與 Microsoft 365 或 Office 365 服務採用的問題。 我們一直希望聽到您的心聲，並協助您進行採用之旅。

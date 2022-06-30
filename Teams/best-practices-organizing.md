@@ -1,8 +1,8 @@
 ---
-title: 組織團隊的最佳作法
+title: 組織團隊的最佳做法
 ms.reviewer: pbethi
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 523d35fd1e7981a52e5972232f0c00c276435f7f
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 959a2936a762584ceee8c3292cc9ced343d33fc5
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711877"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562752"
 ---
 # <a name="best-practices-for-organizing-teams-in-microsoft-teams"></a>在 Microsoft Teams 中組織小組的最佳做法
 
@@ -41,13 +41,13 @@ ms.locfileid: "63711877"
 
 ## <a name="create-channels-to-focus-discussions"></a>建立頻道來聚焦討論
 
-建立小組之後，建議開始思考您需要支援的不同專案和交談類型。 建立初始頻道，讓其他人知道要在哪裡參與，並尋找現有的交談。 使用描述性的頻道名稱，讓使用者能夠輕鬆地知道每個交談的位置。 將工具 (例如 OneNote、Power BI 或 Planner) 新增為頻道的索引標籤，讓成員能夠在頻道中具備所需的項目。 您也可以將常用網頁新增為頻道的索引標籤。
+建立小組之後，建議您開始思考您需要支援的不同專案和交談類型。 建立初始頻道，讓其他人知道要在哪裡參與，並尋找現有的交談。 使用描述性的頻道名稱，讓使用者能夠輕鬆地知道每個交談的位置。 將工具 (例如 OneNote、Power BI 或 Planner) 新增為頻道的索引標籤，讓成員能夠在頻道中具備所需的項目。 您也可以將常用網頁新增為頻道的索引標籤。
 
 使用適用於使用者的快速秘訣，深入了解[在小組中工作](https://support.office.com/article/teams-and-channels-df38ae23-8f85-46d3-b071-cb11b9de5499#ID0EAABAAA=Work_in_teams)。
 
 最佳做法：使用大量成員和更多頻道來建立小組。 將需要人員參與的小組數目最小化。 小組內的頻道應視為主題或工作流，協助小組組織其工作，以達成其共同目標。 沒有應該建立的明確頻道數目。 每個小組都應根據其工作、優先順序和樣式製作頻道。
 
-對小組中每個人都能參與的交談使用標準頻道。 當您需要 [與一群](private-channels.md) 選取的小組成員進行專注共同合作時，請利用私人頻道。 當您 [需要與](shared-channels.md) 小組外部人員共同合作時，請使用共用頻道。
+對小組中每個人都能參與的交談使用標準頻道。 當您需要有專屬的共同作業空間與選取的團隊成員群組時，請善用 [私人頻道](private-channels.md) 。 當您需要與團隊外部人員共同作業時，請使用 [共用頻道](shared-channels.md) 。
 
 較大的組織可能會希望將小組建立為「範本」，以便標準化其擷取有關特定工作類型的資訊。 這適用於策略客戶管理、教室管理、衛生保健案例、理賠管理、事故管理，以及適合特定產業的其他案例。 若要深入了解，請參閱[開始使用 Teams 範本](get-started-with-teams-templates.md)和[適用於中小型企業的 Teams 範本](smb-templates.md)。
 

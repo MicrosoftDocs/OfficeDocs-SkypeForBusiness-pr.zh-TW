@@ -1,14 +1,14 @@
 ---
-title: 在 Microsoft Teams 中Cortana語音協助
-author: SerdarSoysal
-ms.author: serdars
+title: Microsoft Teams 中的 Cortana 語音協助
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: akshbhat
 search.appverid: MET150
-description: 瞭解如何搭配使用Cortana語音協助Teams
+description: 瞭解如何在 Teams 中使用 Cortana 語音協助
 ms.localizationpriority: medium
 ms.custom:
 - Teams-upgrade-guidance
@@ -19,27 +19,27 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b79640b5f9d85b845c8d7c74fa1d6931931a6b50
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: b3c4ff65fb87bed077e1020764382314d5d15c62
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674985"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562432"
 ---
-# <a name="cortana-voice-assistance-in-teams"></a>在 Teams 中Cortana語音協助
+# <a name="cortana-voice-assistance-in-teams"></a>Teams 中的 Cortana 語音協助
 
 > [!NOTE]
-> Cortana行動裝置 App 支援 Microsoft Teams iOS和Android的行動裝置 App，以及針對美國、英國、加拿大、印度和澳大利亞使用者顯示的Microsoft Teams語音協助。 Windows上的Microsoft Teams 會議室僅支援地區設定為 en-us 的裝置。 Cortana語音協助目前不適用於 GCC、GCC-High、DoD 和非美國 EDU 租使用者。 Cortana行動裝置應用程式 Teams中的語音協助現在適用于 en-US 的 EDU 客戶。 擴充至其他語言和地區時，將會成為未來版本的一部分。
+> iOS 和 Android 版 Microsoft Teams 行動應用程式支援 Cortana 語音協助，而適用于美國、英國、加拿大、印度和澳大利亞使用者的 Microsoft Teams 顯示器則支援。 windows 上的Microsoft Teams 會議室僅支援已設定為 en-us 的裝置。 Cortana 語音協助目前不適用於 GCC、GCC-High、DoD 和非美國 EDU 租使用者。 Teams 行動裝置 App 中的 Cortana 語音協助現已可供 en-US 的 EDU 客戶使用。 擴充至其他語言和地區時，將會成為未來版本的一部分。
 
-Cortana行動裝置應用程式、Windows Microsoft Teams 會議室以及Microsoft Teams顯示裝置上的Teams行動裝置上的語音協助可Microsoft 365 企業版 使用者使用口語自然語言簡化通訊、共同作業和會議相關工作。 使用者可以透過選取Teams行動裝置應用程式右上角的麥克風按鈕，或在Microsoft Teams會議室或使用Microsoft Teams顯示器說「Cortana」來與Cortana交談。 若要在外出時以免持聽筒的方式快速與小組聯繫，使用者可以說出「打電話給 Megan」或「傳送訊息至我的下一場會議」等查詢。 使用者也可以說出「加入我的下一場會議」來加入會議，並使用語音協助來共用檔案、檢查行事曆等等。 這些語音協助體驗是使用Cortana完全符合Office 365隱私權、安全性和合規性承諾[的企業級服務](/microsoft-365/admin/misc/cortana-integration)所提供，如[OST)  (線上服務條款](https://www.microsoft.com/licensing/product-licensing/products?rtc=1&preserve-view=true)所反映。
+Teams 行動裝置 App、Windows 上的 Microsoft Teams 會議室 和 Microsoft Teams 顯示裝置上的 Cortana 語音協助可讓Microsoft 365 企業版使用者使用口語自然語言簡化通訊、共同作業和會議相關工作。 使用者可以透過選取 Teams 行動應用程式右上角的麥克風按鈕，或在 Microsoft Teams 會議室或使用 Microsoft Teams 顯示器說「Cortana」來與 Cortana 交談。 若要在外出時以免持聽筒的方式快速與小組聯繫，使用者可以說出「打電話給 Megan」或「傳送訊息至我的下一場會議」等查詢。 使用者也可以說出「加入我的下一場會議」來加入會議，並使用語音協助來共用檔案、檢查行事曆等等。 這些語音協助體驗是使用[Cortana 企業級服務](/microsoft-365/admin/misc/cortana-integration)所提供，這些服務完全符合Office 365隱私權、安全性和合規性承諾，如[OST)  (線上服務條款](https://www.microsoft.com/licensing/product-licensing/products?rtc=1&preserve-view=true)所反映。
 
 ## <a name="admin-control-and-limitations"></a>管理員控制與限制
 
-Teams中的Cortana語音協助是使用完全遵守 Office 365 企業層級隱私權、安全性和合規性承諾的服務提供，如 OST)  (線上服務條款所反映。 租使用者預設會啟用此功能。
+Teams 中的 Cortana 語音協助是使用完全符合Office 365企業層級隱私權、安全性和合規性承諾的服務所提供，如 OST)  (線上服務條款所反映。 租使用者預設會啟用此功能。
 
-租使用者系統管理員可以使用 TeamsCortanaPolicy)  (原則，控制其租使用者中的誰可以在Teams使用Cortana語音協助。 此原則設定為使用者帳戶層級或租使用者層級。 系統管理員可以使用此原則控制項內的 CortanaVoiceInvocationMode 欄位來判斷是否停用Cortana、僅以推播按鈕叫用啟用，或使用喚醒字叫功能，以及適用于支援該功能之裝置的 (，例如Microsoft Teams顯示) 。
+租使用者系統管理員可以使用 Teams 中的原則 (TeamsCortanaPolicy) ，控制其租使用者中的誰可以使用 Cortana 語音協助。 此原則設定為使用者帳戶層級或租使用者層級。 系統管理員可以使用此原則控制項內的 CortanaVoiceInvocationMode 欄位來判斷 Cortana 是否已停用、僅以推播按鈕叫用啟用，或是喚醒文字叫用，以及適用于支援 Cortana 的裝置 (，例如 Microsoft Teams 顯示) 。
 
-系統管理員可以使用下列 PowerShell Cmdlet 來管理此原則， (目前Microsoft Teams系統管理中心) 不提供該原則。
+系統管理員可以使用下列 PowerShell Cmdlet 來管理此原則 (Microsoft Teams 系統管理中心) 目前無法使用該原則。
 
 - [New-CsTeamsCortanaPolicy](/powershell/module/skype/New-CsTeamsCortanaPolicy)
 
@@ -51,19 +51,19 @@ Teams中的Cortana語音協助是使用完全遵守 Office 365 企業層級隱�
 
 - [Remove-CsTeamsCortanaPolicy](/powershell/module/skype/Remove-CsTeamsCortanaPolicy)
 
-例如，下列命令會建立名為「EmployeeCortanaPolicy」的新原則，其中會停用Microsoft Teams中的Cortana語音協助。
+例如，下列命令會建立名為「EmployeeCortanaPolicy」的新原則，其中停用 Microsoft Teams 中的 Cortana 語音協助。
 
 ```PowerShell
 PS C:\> New-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode Disabled
 ```
 
-此範例顯示更新現有原則，名稱為「EmployeeCortanaPolicy」，並僅在Microsoft Teams中啟用Cortana語音協助， 使用者可以 Cortana透過選取Teams中的 [麥克風] 按鈕來叫用Cortana。 將會停用 (「Hey Cortana」 或 「Cortana」) 語句。
+此範例顯示更新現有原則，名稱為「EmployeeCortanaPolicy」，並僅以按鈕扣入功能啟用 Microsoft Teams 中的 Cortana 語音協助。 使用者可以在 Teams 中選取 Cortana 麥克風按鈕來叫用 Cortana。 將會停用喚醒單字 (「嗨 Cortana」或「Cortana」) 。
 
 ```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode PushToTalkUserOverride
 ```
 
-此範例顯示更新原則，並啟用Cortana按鍵和喚醒單字叫用的語音協助。
+此範例顯示更新原則，並透過按鍵和喚醒文字叫用啟用 Cortana 語音協助。
 
 ```PowerShell
 PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceInvocationMode WakeWordPushToTalkUserOverride
@@ -71,41 +71,41 @@ PS C:\> Set-CsTeamsCortanaPolicy -Identity EmployeeCortanaPolicy -CortanaVoiceIn
 
 目前，美國Microsoft 365 企業版使用者的英文版初次發行版本中，有下列可用功能：
 
-- Teams行動裝置 App 不支援喚醒 word 啟用，但未來會受到支援。
+- Teams 行動裝置 App 不支援喚醒 word 啟用，但日後將會受到支援。
 
-- Windows和Microsoft Teams顯示裝置上的Microsoft Teams 會議室將支援喚醒 word 啟用。
+- Windows 和 Microsoft Teams 顯示裝置上的Microsoft Teams 會議室將支援喚醒 word 啟用。
 
 ## <a name="user-control"></a>使用者控制
 
-個別使用者可以在不同的裝置上嘗試Cortana語音協助：
+個別使用者可以在不同的裝置上嘗試 Cortana 語音協助：
 
-- 在行動應用程式Teams選取麥克風按鈕。
+- 在 Teams 行動應用程式中選取麥克風按鈕。
 
-- 選取麥克風按鈕或在Microsoft Teams 會議室中說出「Cortana」。
+- 選取麥克風按鈕或在Microsoft Teams 會議室中說「Cortana」。
 
-- 在Microsoft Teams顯示器裝置上說「Cortana」。
+- 在 Microsoft Teams 顯示裝置上說「Cortana」。
 
-您可以使用裝置中的設定來控制Teams中的Cortana是否已為您的裝置啟用。
+您可以使用裝置中的設定，控制 Teams 中的 Cortana 是否已為您的裝置啟用。
 
-![顯示啟用Cortana時行動裝置視窗的進度。](media/cortana-mobile-sequence.png)
+![顯示啟用 Cortana 時行動裝置視窗的進度。](media/cortana-mobile-sequence.png)
 
 ### <a name="microsoft-teams-rooms-on-windows"></a>在 Windows 上Microsoft Teams 會議室
 
-只有在租使用者層級啟用Cortana時，才能在裝置層級進行變更。
+只有在租使用者層級啟用 Cortana 時，才能在裝置層級進行變更。
 
-在裝置層級，您可以設定Cortana以兩種不同的方式使用。 您可以同時啟用其中一個選項或兩者：
+在裝置層級，您可以將 Cortana 設定為以兩種不同的方式使用。 您可以同時啟用其中一個選項或兩者：
 
-- 點選麥克風，此麥克風稱為Cortana _推入說話_
-- 說「嘿，Cortana」，這稱為 _「Cortana語音啟動」_
+- 點選麥克風，稱為 Cortana _推播說話_
+- 說「嗨，Cortana」，這稱為 _Cortana 語音啟用_
 
-Cortana 如果您的聊天室是使用下列任何語言來設定，預設會啟用「_推入交談_」：en-au (Australia) 、en-ca (Canada) 、en-gb (United Kingdom) 、en-in (India) 、en-us (美國) 。 [瞭解更多資訊。](/MicrosoftTeams/rooms/console#to-apply-your-desired-language) Cortana圖示會取代Teams會議室主機中 [_其他...]_ 功能表底下的 [_簡報_] 按鈕。 若要停用Cortana _按下以說話_，請使用 PowerShell。[瞭解更多資訊。](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
+如果您的聊天室是使用下列任何語言來設定，Cortana _推入式交談_ 預設會啟用：en-au (Australia) 、en-ca (Canada) 、en-gb (United Kingdom) 、en-in (India) 、en-us (美國) 。 [瞭解更多資訊。](/MicrosoftTeams/rooms/console#to-apply-your-desired-language) Cortana 圖示會取代 Teams 會議室主機中 [_其他...]_ 功能表底下的 [_簡報_] 按鈕。 若要停用 Cortana _推播以說話_ ，請使用 PowerShell。[瞭解更多資訊。](/powershell/module/skype/new-csteamscortanapolicy?view=skype-ps#example-1)
 
-若要啟用Cortana _語音啟動_，必須符合下列條件：
+若要啟用 Cortana _語音啟動_，必須符合下列條件：
 
-- Cortana認證的裝置必須連線到Teams會議室。 您可以在本文結尾處找到已認證裝置的清單。
-- Teams會議室必須使用下列任何語言來設定：en-au (Australia) 、en-ca (Canada) 、en-gb (United Kingdom) 、en-in (India) 、en-us (美國) 。 日後將會提供更多語言。
+- Cortana 認證的裝置必須連線到您的 Teams 會議室。 您可以在本文結尾處找到已認證裝置的清單。
+- Teams 會議室必須使用下列任何語言來設定：en-au (Australia) 、en-ca (Canada) 、en-gb (英國) 、en-in (India) 、en-us (美國) 。 日後將會提供更多語言。
 - 您必須進行下列其中一項設定變更：
-  - 在 Teams 系統管理中心開啟此功能[以深入瞭解。](/microsoftteams/rooms/rooms-manage)
+  - 在 Teams 系統管理中心開啟此功能 [以深入瞭解。](/microsoftteams/rooms/rooms-manage)
   - 將下列 XML 屬性新增至 SkypeSettings XML 檔案：
 
     ```xml
@@ -114,15 +114,15 @@ Cortana 如果您的聊天室是使用下列任何語言來設定，預設會啟
     </SkypeSettings>
     ```
 
-在會議層級，只有在裝置層級啟用Cortana _語音啟動_ 時，才能進行變更。  若要在會議期間啟用Cortana _語音啟動_，請將開關移至 **[開啟**] 或 [**關閉]** 以停用。 會議結束後，Cortana會回到裝置層級設定。
+在會議層級，只有在裝置層級啟用 Cortana _語音啟動_ 時，才能進行變更。  若要在會議期間啟用 Cortana _語音啟動_，請將開關移至 **[開啟****] 或 [關閉]** 以停用。 會議結束後，Cortana 會回到裝置層級設定集。
 
-如果已在裝置層級啟用Cortana，則可在會議層級進行變更。
+如果已在裝置層級啟用 Cortana，則可在會議層級進行變更。
 
-若要在會議期間啟用Cortana _語音啟動_，請將開關移至 [**開****啟] 或 [關閉]**。 會議結束後，Cortana會回到裝置層級設定。
+若要在會議期間啟用 Cortana _語音啟動_，請將開關移至 [**開啟****] 或 [關閉]**。 會議結束後，Cortana 會回到裝置層級設定集。
 
-## <a name="cortana-certified-devices-for-teams-rooms"></a>Cortana Teams 會議室認證的裝置
+## <a name="cortana-certified-devices-for-teams-rooms"></a>適用于 Teams 會議室 的 Cortana 認證裝置
 
-Cortana如果您使用的是 Lenovo Hub 500 或是您已將下列任何裝置連接到會議室，則可以啟用 _語音啟動_：
+如果您使用的是 Lenovo Hub 500，或如果您有將下列任何裝置連接到會議室，則可啟用 Cortana _語音啟動_ ：
 
 - Jabra Panacast 50
 - 麥克風

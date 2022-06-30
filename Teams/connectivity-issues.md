@@ -1,8 +1,8 @@
 ---
-title: 疑難排解用戶端Teams問題
+title: 疑難排解 Teams 用戶端的連線問題
 ms.reviewer: ''
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: troubleshooting
 ms.service: msteams
@@ -16,16 +16,16 @@ description: 針對 Microsoft Teams 用戶端的連線問題進行疑難排解�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 524a78f5a588b0a3a233385f7892624c46e5bac541f7e8a13f647e541b0ffbff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8974aa7cf54ab61cb15650b839185daad1b82cc7
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308952"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562162"
 ---
 # <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>針對 Microsoft Teams 用戶端的連線問題進行疑難排解
 
-Microsoft Teams 用戶端所發現的問題大多可以追溯到防火牆或 Proxy 連線。 確認防火牆或 Proxy 中已開啟必要的 URL、IP 位址和連接埠，將會讓不必要的疑難排解工作降到最低。 如需有關 URL 和 IP 所需的特定Microsoft Teams，請參閱MICROSOFT 365及Office 365 URL 與[IP 位址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)支援文章。 下列案例需要在防火牆中開啟特定的 URL 和連接埠。
+Microsoft Teams 用戶端所發現的問題大多可以追溯到防火牆或 Proxy 連線。 確認防火牆或 Proxy 中已開啟必要的 URL、IP 位址和連接埠，將會讓不必要的疑難排解工作降到最低。 如需 Microsoft Teams 所需 URL 和 IP 的特定資訊，請參閱[Microsoft 365 和 Office 365 URL 和 IP 位址](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2)支援文章。 下列案例需要在防火牆中開啟特定的 URL 和連接埠。
 
 - 驗證
 
@@ -43,9 +43,9 @@ Microsoft Teams 用戶端所發現的問題大多可以追溯到防火牆或 Pro
 
 - 商務用 Skype 用戶端互通性
 
-## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>當Teams離線或低頻寬條件時
+## <a name="when-teams-is-offline-or-in-low-bandwidth-conditions"></a>當 Teams 離線或頻寬不足時
 
-好消息是，即使您Teams或是在低頻寬情況下執行，系統仍持續執行。 Teams會將您所有未傳送的訊息 (現有的聊天) 並一回到線上就傳送。 如果您離線超過 24 小時，Teams可讓您選擇重新接收或刪除未接收的郵件。 我們正在努力將這項功能新加入新聊天中，並將于提供時更新此檔。
+好消息是，即使您離線或在低頻寬條件下執行，Teams 仍會持續執行。 Teams 會將您所有未傳送的訊息儲存 (最多 24 小時) ，並在您恢復連線時傳送。 如果您離線超過 24 小時，Teams 可讓您選擇重新傳送或刪除未傳送的訊息。 我們正在努力將這項功能新增至新的聊天，並且會在可用時更新此檔。
 
 ## <a name="related-topics"></a>相關主題
 

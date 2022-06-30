@@ -1,14 +1,14 @@
 ---
 title: 規劃直接路由的依位置路由
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 ms.reviewer: roykuntz
 search.appverid: MET150
-description: 瞭解如何規劃Teams 電話直接路由Location-Based路由。
+description: 瞭解如何規劃 Teams 手機直接路由Location-Based路由。
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,18 +16,18 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f156b287969303edbf195c0054b3bb1eb631db2
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: d282a2cd9588c2e7104b3093d03da082e9cf388b
+ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65303995"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66562622"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>規劃直接路由的依位置路由
 
 在某些國家與地區，略過公用交換電話網路 (PSTN) 提供者降低長途電話成本是不正確的。 
 
-本文說明您需要瞭解的事項，以根據使用者的地理位置，使用Location-Based路由來限制Microsoft Teams使用者的付費略過。 本文僅適用于直接路由。 Location-Based路由不適用於通話方案或電信業者連線。
+本文將說明您需要瞭解的事項，以根據 Microsoft Teams 使用者的地理位置，使用Location-Based路由限制 Microsoft Teams 使用者的付費略過。 本文僅適用于直接路由。 Location-Based路由不適用於通話方案或運算子連線。
 
 當您準備好啟用Location-Based路由時，請參閱：
 
@@ -44,9 +44,9 @@ Location-Based路由可讓您根據原則及使用者在輸入或撥出 PSTN 通
 
 Location-Based路由會使用您針對網路區域、網站和子網路定義的網路拓撲。 當某個位置的付費略過受到限制時，您會將該位置的每個 IP 子網和每個 PSTN 閘道與網路網站建立關聯。 
 
-在 PSTN 通話時，使用者的位置是由 IP 子網決定，該使用者的Teams端點是連線至該端點。 如果使用者在不同網站上有多個Teams用戶端，Location-Based路由會根據Teams端點的位置個別強制執行每個用戶端的路由。
+在 PSTN 通話時，使用者的位置是由使用者 Teams 端點連線的 IP 子網所決定。 如果使用者在不同的網站有多個 Teams 用戶端，Location-Based路由會根據 Teams 端點的位置個別強制執行每個用戶端的路由。
 
-如需網路設定的詳細資訊，請參閱[Teams 中雲端語音功能的網路設定](cloud-voice-network-settings.md)。
+如需網路設定的詳細資訊，請參閱 [Teams 中雲端語音功能的網路設定](cloud-voice-network-settings.md)。
 
 本文假設網路網站可以處於下列其中一種狀態：
 
@@ -58,27 +58,27 @@ Location-Based路由會使用您針對網路區域、網站和子網路定義的
 
 ### <a name="toll-bypass-evaluation-and-outcome"></a>略過付費評估和結果
 
-使用Location-Based路由時，會評估Teams使用者與 PSTN 之間的通話，以判斷是否限制略過付費。 視結果而定，通話將會完成或無法完成。 
+使用Location-Based路由時，系統會評估 Teams 使用者與 PSTN 之間的通話，以判斷是否限制付費旁路。 視結果而定，通話將會完成或無法完成。 
 
-如果使用者已啟用Location-Based路由，且使用者位於Location-Based路由限制生效的網站，則該使用者的免付費略過功能會受到限制。 Teams使用下列資訊來判斷是否限制略過付費： 
+如果使用者已啟用Location-Based路由，且使用者位於Location-Based路由限制生效的網站，則該使用者的免付費略過功能會受到限制。 Teams 會使用下列資訊來判斷是否限制略過付費： 
 
-- Teams使用者是否如使用者Teams通話原則中所定義，啟用Location-Based路由。
+- Teams 使用者是否已啟用Location-Based的路由，如使用者 Teams 通話原則中所定義。
 
-- Teams使用者的端點網路網站位置，以及網站是否啟用Location-Based路由。
+- Teams 使用者的端點網路網站位置，以及網站是否啟用Location-Based路由。
 
 - 通話所使用之 PSTN 閘道的網路網站位置。
 
 - 通話所使用的 PSTN 閘道是否已啟用Location-Based路由。
 
-- 針對轉接案例，PSTN 通話的路由是根據來電轉接人員的路由設定，以及轉接通話之Teams使用者的Location-Based路由設定。  
+- 針對轉接案例，PSTN 通話的路由是根據來電轉接人員的路由設定，以及轉接通話之 Teams 使用者的Location-Based路由設定。  
 
-- 針對會議和群組通話案例，無論是受限於付費旁路限制的Teams使用者，還是已參與通話。
+- 針對會議和群組通話案例，無論是受限於付費旁路受限的 Teams 使用者，還是已參與通話。
 
-如果通話無法完成，Teams使用者會收到以下通知：
+如果通話無法完成，Teams 使用者會收到以下通知：
 
 - 針對撥出 PSTN 通話，通話視窗中會顯示下列訊息：由於貴組織的設定，不允許通話。
 
-- 若是輸入 PSTN 通話，通話會根據Teams使用者未接聽的來電轉接設定路由，通常是到語音信箱。 如果Teams使用者未設定未接聽的通話設定，通話將會中斷連線。
+- 若是輸入 PSTN 通話，通話會根據稱為 Teams 使用者未接聽的來電轉接設定路由，通常是到語音信箱。 如果 Teams 使用者未設定未接聽的通話設定，通話將會中斷連線。
 
 ## <a name="apply-location-based-routing"></a>套用Location-Based路由
 
@@ -106,7 +106,7 @@ Location-Based路由會使用您針對網路區域、網站和子網路定義的
 
 如果使用者受到付費略過限制，該使用者必須啟用Location-Based路由。 當啟用的使用者位於啟用Location-Based路由的網站時，使用者必須透過同時連線至網站且啟用Location-Based路由的閘道撥打電話。 
 
-Location-Based路由的運作方式是根據使用者Teams端點的 IP 位址判斷使用者的目前位置，並據此套用規則。 啟用Location-Based路由的使用者位置可分類如下： 
+Location-Based路由的運作方式是根據使用者 Teams 端點的 IP 位址判斷使用者的目前位置，並據此套用規則。 啟用Location-Based路由的使用者位置可分類如下： 
 
 - **使用者位於與 PSTN 閘道相關聯Location-Based啟用路由的網站，並指派其 DID。**<br>在此案例中，使用者位於已啟用Location-Based路由的已設定網路網站中，且使用者的直接向內撥號 (DID) 號碼會在相同網路網站上的 PSTN 閘道上終止。 例如，使用者在辦公室。 
 
@@ -141,7 +141,7 @@ Location-Based路由的運作方式是根據使用者Teams端點的 IP 位址判
 
 ## <a name="restriction-rules"></a>限制規則
 
-限制規則取決於Teams使用者是否啟用Location-Based路由。
+限制規則取決於 Teams 使用者是否啟用Location-Based路由。
 
 ### <a name="user-is-enabled-for-location-based-routing"></a>使用者已啟用Location-Based路由
 
@@ -175,7 +175,7 @@ Location-Based路由的運作方式是根據使用者Teams端點的 IP 位址判
 
     如果被轉移的使用者能夠使用相同的 PSTN 閘道，于其目前位置撥打 PSTN 電話，則允許轉接。
 
-- **對於傳入或撥出的 PSTN 電話，以及轉接給其他Teams使用者**，是否允許轉接取決於下列事項：
+- **對於傳入或撥出的 PSTN 通話，以及轉接給其他 Teams 使用者**，是否允許轉接取決於下列專案：
 
    - 接收轉接來電之使用者的路由設定。 
    - 端點網路網站位置。
@@ -186,7 +186,7 @@ Location-Based路由的運作方式是根據使用者Teams端點的 IP 位址判
 
 ### <a name="user-is-not-enabled-for-location-based-routing"></a>使用者未啟用Location-Based路由
 
-當Teams使用者未啟用Location-Based路由時，所有來Location-Based路由的來電都必須透過未啟用Location-Based路由的 PSTN 閘道進行路由。 透過啟用Location-Based路由的 PSTN 閘道傳送給這類使用者的撥入通話，會路由至使用者未接聽的來電轉接設定， (通常是語音信箱) 。
+當 Teams 使用者未啟用Location-Based路由時，所有來Location-Based路由的來電都必須透過未啟用的 PSTN 閘道路由Location-Based路由。 透過啟用Location-Based路由的 PSTN 閘道傳送給這類使用者的撥入通話，會路由至使用者未接聽的來電轉接設定， (通常是語音信箱) 。
 
 ### <a name="decision-flows-for-inbound-and-outbound-calls"></a>輸入和撥出電話的決策流程
 
@@ -205,10 +205,10 @@ Location-Based路由的運作方式是根據使用者Teams端點的 IP 位址判
 
 本節說明使用Location-Based路由限制略過付費的不同案例。 案例會比較未啟用Location-Based路由的使用者與啟用Location-Based路由之使用者的通話路由方式。
 
-- [Teams使用者將撥出電話撥打到 PSTN](#teams-user-places-an-outbound-call-to-the-pstn)
-- [Teams使用者收到 PSTN 的撥入通話](#teams-user-receives-an-inbound-call-from-the-pstn)
-- [Teams使用者轉接或轉接電話給其他Teams使用者](#teams-user-transfers-or-forwards-call-to-another-teams-user)
-- [Teams使用者轉接或轉接電話到 PSTN 端點](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
+- [Teams 使用者將撥出電話撥打到 PSTN](#teams-user-places-an-outbound-call-to-the-pstn)
+- [Teams 使用者會收到來自 PSTN 的輸入通話](#teams-user-receives-an-inbound-call-from-the-pstn)
+- [Teams 使用者轉接或轉接電話給其他 Teams 使用者](#teams-user-transfers-or-forwards-call-to-another-teams-user)
+- [Teams 使用者轉接或轉接電話到 PSTN 端點](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)
 - [同時響鈴](#simultaneous-ringing)
 - [委派](#delegation)
 
@@ -216,7 +216,7 @@ Location-Based路由的運作方式是根據使用者Teams端點的 IP 位址判
 
 ![顯示Location-Based路由案例的圖表。](media/lbr-direct-routing.png "顯示Location-Based路由案例的圖表")
 
-### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams使用者將撥出電話撥打到 PSTN
+### <a name="teams-user-places-an-outbound-call-to-the-pstn"></a>Teams 使用者將撥出電話撥打到 PSTN
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>使用者未啟用Location-Based路由
 
@@ -234,7 +234,7 @@ Location-Based路由的運作方式是根據使用者Teams端點的 IP 位址判
 |[位置4] (未知的內部網路)     |  除非閘道已將 GatewayLbrEnabledUserOverride 設為 True，否則不允許 PSTN 通話       |
 |Location5 (不明外部網路)     | 除非閘道已將 GatewayLbrEnabledUserOverride 設為 True，否則不允許 PSTN 通話       |
 
-### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teams使用者收到 PSTN 的撥入通話
+### <a name="teams-user-receives-an-inbound-call-from-the-pstn"></a>Teams 使用者會收到來自 PSTN 的輸入通話
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>使用者未啟用Location-Based路由
 
@@ -252,11 +252,11 @@ Location-Based路由的運作方式是根據使用者Teams端點的 IP 位址判
 |[位置4] (未知的內部網路)    | [位置4] 中未路由至端點的通話        |
 |Location5 (不明外部網路)      | [位置5] 中未路由至端點的通話        |
 
-### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teams使用者轉接或轉接電話給其他Teams使用者
+### <a name="teams-user-transfers-or-forwards-call-to-another-teams-user"></a>Teams 使用者轉接或轉接電話給其他 Teams 使用者
 
 涉及 PSTN 端點時，Location-Based路由會分析一或兩個使用者是否啟用Location-Based路由，並根據兩個端點的位置判斷是否應該轉移或轉接通話。 
  
-來電轉接要求初始使用者在來電轉接時接聽電話，而不需要接聽初始通話。 即使 User1 不在接收撥入電話的位置，電話仍可轉接 (參閱[Teams使用者收到 PSTN](#teams-user-receives-an-inbound-call-from-the-pstn)一節的撥入電話) 如果 User1 無法接聽撥入電話，則無法轉接電話。 
+來電轉接要求初始使用者在來電轉接時接聽電話，而不需要接聽初始通話。 即使 User1 不在某個位置可接聽撥入電話，電話仍可轉接 (查看 [Teams 使用者收到 PSTN](#teams-user-receives-an-inbound-call-from-the-pstn) 一節的撥入電話) ，如果 User1 無法接聽輸入電話，則無法轉接電話。 
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>使用者未啟用Location-Based路由
 
@@ -268,7 +268,7 @@ Location-Based路由的運作方式是根據使用者Teams端點的 IP 位址判
 
 只有在目標使用者啟用Location-Based路由且位於同一個網站的情況下，才能從啟用Location-Based路由的閘道傳輸和轉接輸入 PSTN 呼叫。 否則，則不允許轉接和轉接電話。 
 
-下表顯示是否允許來電轉接和來電轉接，視目標使用者的位置而定。 在此資料表中，位於 [網站1] 中的 User1 會起始傳輸或轉寄給其他Teams使用者，這些使用者也已啟用Location-Based路由以及位於不同位置的使用者。  
+下表顯示是否允許來電轉接和來電轉接，視目標使用者的位置而定。 在此表格中，位於 [網站1] 中的 User1 會起始傳輸或轉寄給其他已啟用Location-Based路由的 Teams 使用者，以及位於不同位置的使用者。  
 
 |目標使用者端點位置|User1 啟動來電轉接 |User1 啟動來電轉接|
 |---------|---------|---------|
@@ -278,7 +278,7 @@ Location-Based路由的運作方式是根據使用者Teams端點的 IP 位址判
 |不明的內部網路 (User5) | 不允許|不允許|
 |User6 (未知的外部網路) | 不允許|不允許|
 
-### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teams使用者轉接或轉接電話到 PSTN 端點
+### <a name="teams-user-transfers-or-forwards-call-to-pstn-endpoint"></a>Teams 使用者轉接或轉接電話到 PSTN 端點
 
 #### <a name="user-not-enabled-for-location-based-routing"></a>使用者未啟用Location-Based路由
 
@@ -313,7 +313,7 @@ Location-Based路由的運作方式是根據使用者Teams端點的 IP 位址判
 
 當啟用Location-Based路由的使用者收到來電並同時啟用鈴聲時，Location-Based路由會分析通話方的位置和呼叫方的端點，以判斷是否應該路由通話。 同時響鈴遵循與來電轉接和轉接相同的Location-Based規則。 
 
-#### <a name="simultaneous-ringing-for-another-teams-user"></a>另一個Teams使用者同時響鈴
+#### <a name="simultaneous-ringing-for-another-teams-user"></a>另一個 Teams 使用者同時響鈴
 
 下表顯示Location-Based路由是否允許使用者同時撥打 User1 的輸入 PSTN 通話給不同的使用者。
 
@@ -350,11 +350,11 @@ Location-Based路由的運作方式是根據使用者Teams端點的 IP 位址判
 
 ### <a name="delegation"></a>委派
 
-Teams使用者可以選擇可以代表其撥打和接聽電話的代理人。 Teams中的委派功能受Location-Based路由影響，如下所示： 
+Teams 使用者可以選擇可以代表其撥打和接聽電話的代理人。 Teams 中的委派功能受Location-Based路由影響，如下所示： 
 
-- 對於代表委派者的Location-Based已啟用路由的代理人撥出電話，也適用相同的規則。 通話路由是根據代理人的通話授權原則、語音路由原則和位置。 如需詳細資訊，請[參閱Teams使用者將撥出電話撥入 PSTN](#teams-user-places-an-outbound-call-to-the-pstn)。 
+- 對於代表委派者的Location-Based已啟用路由的代理人撥出電話，也適用相同的規則。 通話路由是根據代理人的通話授權原則、語音路由原則和位置。 如需詳細資訊，請參閱 [Teams 使用者將撥出電話撥打到 PSTN](#teams-user-places-an-outbound-call-to-the-pstn)。 
 
-- 對於轉接 PSTN 通話給委派者，適用于來電轉接或同時撥打給其他使用者的相同Location-Based路由規則也適用于代理人。 如需詳細資訊，請[參閱Teams使用者轉接或轉接電話給其他Teams使用者](#teams-user-transfers-or-forwards-call-to-another-teams-user)、[Teams使用者轉接或轉接電話到 PSTN 端點](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)，以及[同時響鈴](#simultaneous-ringing)。 當代理人將 PSTN 端點設定為同時響鈴的目標時，代理人的語音路由原則會用來將通話路由至 PSTN。 
+- 對於轉接 PSTN 通話給委派者，適用于來電轉接或同時撥打給其他使用者的相同Location-Based路由規則也適用于代理人。 如需詳細資訊，請參閱 [Teams 使用者轉接或轉接電話給其他 Teams 使用者](#teams-user-transfers-or-forwards-call-to-another-teams-user)、 [Teams 使用者轉接或轉接電話到 PSTN 端點](#teams-user-transfers-or-forwards-call-to-pstn-endpoint)，以及 [同時響鈴](#simultaneous-ringing)。 當代理人將 PSTN 端點設定為同時響鈴的目標時，代理人的語音路由原則會用來將通話路由至 PSTN。 
 
 - 針對委派，Microsoft 建議委派者和相關聯的代理人位於同一個網路網站上。 
 
@@ -370,20 +370,20 @@ Teams使用者可以選擇可以代表其撥打和接聽電話的代理人。 Te
 
 ### <a name="client-support-for-location-based-routing"></a>Location-Based路由的用戶端支援
 
-支援下列Teams用戶端：
-- Teams桌面用戶端 (Windows和 Mac) 
-- Teams行動用戶端 (iOS和Android) 
+支援下列 Teams 用戶端：
+- Windows 和 Mac (Teams 桌面用戶端) 
+- iOS 和 Android (Teams 行動用戶端) 
 - Teams IP 手機
 
-不支援Teams Web 用戶端和商務用 Skype用戶端。
+不支援 Teams Web 用戶端和商務用 Skype用戶端。
 
 ### <a name="capabilities-not-supported-by-location-based-routing"></a>未受位置基礎路由支援的功能
 
-Location-Based路由] 不適用於下列類型的互動。 Location-Based在下列案例中Teams端點與 PSTN 端點互動時，不會強制執行路由： 
+Location-Based路由] 不適用於下列類型的互動。 Location-Based在下列案例中，當 Teams 端點與 PSTN 端點互動時，不會強制執行路由： 
 
 - 透過通話公園撥號或擷取 PSTN 通話 
 
-- 內部部署商務用 Skype使用者或線上商務用 Skype使用者呼叫Teams使用者  
+- 內部部署商務用 Skype使用者或線上商務用 Skype使用者呼叫 Teams 使用者  
 
 ### <a name="location-based-routing-for-conferencing"></a>會議Location-Based路由
 
