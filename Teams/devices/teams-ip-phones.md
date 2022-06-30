@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以產生最佳結果。
-ms.openlocfilehash: 4182487d03b2628553ed9b7fee860a080ad3c6c6
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 95a92b964773e7ed1aafa9e4e87004acad61b3f3
+ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494350"
+ms.locfileid: "66551210"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認證的 Android 裝置
 
@@ -72,6 +72,8 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 | 裝置型號 | 韌體版本 | 目前的認證結束日期 | 會議室大小                                        |  Android OS 版本    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Yealink 會議列 A20 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 小型會議室 (4.5 m x 4.5 m) | 10|
+| Yealink 會議列 A30 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 中型房間 (4.5 m x 6 m)  | 10|
 | 登入點選 IP VR0029     | `1.6.762`  |   2024 年 9 月 3 日  | 與 Logitech 欄和分隔線迷你版相容 | 10 |
 | 整齊的橫條 | `NFB1.20220211.1400` |2024 年 9 月 3 日|    小型會議室 (4.5 m x 4.5 m)  | 10 |
 | 整齊的鍵盤觸控主控台 | `NFA1.20220211.1400`  | 2023 年 8 月 5 日 |  僅與 [整齊列] 相容 | 9 |
@@ -246,6 +248,8 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 | 裝置型號  | 韌體版本 | 包含的產品版本 |
 |:--------------|:-----------------|:-------------------------|
+| Poly Studio X30 | `3.12.0.366027` | 2022 更新 #1   |
+| Poly Studio X50 | `3.12.0.366027` | 2022 更新 #1  |
 | Logi 方塊    | `1.6.552`         | 2022 更新 #2    |
 | Logi 資訊看板迷你版 | `1.6.552`       | 2022 更新 #2   |
 | 整齊的橫條 | `NFB1.20220512.2200` | 2022 更新 #2 |

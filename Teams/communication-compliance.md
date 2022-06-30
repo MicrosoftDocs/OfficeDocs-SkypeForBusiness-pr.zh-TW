@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01b51694b22d44ace9980f2b98fdb89a9150a12d
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: b96108f3bf548475cd19822967ba4e484fb26703
+ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240742"
+ms.locfileid: "66551200"
 ---
 # <a name="communication-compliance-with-microsoft-teams"></a>Microsoft Teams 的通訊合規性
 
@@ -53,7 +53,7 @@ Teams 系統管理員可以在下列層級設定通訊合規性原則：
 >[!NOTE]
 >適用于授權和使用 [通訊合規性](/microsoft-365/compliance/communication-compliance-configure#subscriptions-and-licensing) 與 Microsoft Teams 之組織的使用者回報訊息可用性，于 2022 年 5 月啟動。 此功能將于 2022 年 8 月 31 日之前提供給所有已授權且使用通訊合規性的組織使用，到 2022 年 7 月為止。 對於在 2022 年 7 月之後開始使用通訊合規性的組織，使用者回報的訊息原則可用性可能需要最多 30 天的時間，從您的授權日期起至首次使用通訊合規性。
 
-Teams 內部聊天訊息中的 [ *回報疑慮* ] 選項預設為啟用，可透過 Teams 系統管理中心的 Teams 訊息 [原則](/microsoftteams/manage-teams-in-modern-portal)加以控制。 這可讓貴組織中的使用者提交不適當的內部聊天訊息，供通訊合規性檢閱者檢閱原則。 如需有關通訊合規性中使用者回報訊息的詳細資訊，請參閱 [通訊合規性原則](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy)。
+Teams 個人和群組聊天訊息的 [ *回報關注* ] 選項預設為啟用，可透過 Teams 系統管理 [中心的 Teams](/microsoftteams/manage-teams-in-modern-portal)訊息原則加以控制。 這可讓貴組織中的使用者提交不適當的內部聊天訊息，供通訊合規性檢閱者檢閱原則。 如需有關通訊合規性中使用者回報訊息的詳細資訊，請參閱 [通訊合規性原則](/microsoft-365/compliance/communication-compliance-policies#user-reported-messages-policy)。
 
 ![回報疑慮功能表。](./media/communication-compliance-report-a-concern-full-menu.png)
 

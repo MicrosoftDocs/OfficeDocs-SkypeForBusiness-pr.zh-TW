@@ -22,16 +22,16 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 取得 Microsoft Teams 和 商務用 Skype Online 的通話品質儀表板 (CQD) 所使用的維度和度量的詳細資訊。
-ms.openlocfilehash: f5614f7f0d14aa0053a613f5f471ae5e5315f1cf
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 27b7800efd8835254c5f093781881296b4db2464
+ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675935"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66551220"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>[通話品質儀表板] (CQD) 中提供的維度和度量
 
-Microsoft Teams和 商務用 Skype Online 的 [通話品質儀表板] (CQD) 可讓您更加瞭解使用這些服務撥打的通話品質。 本主題提供有關透過 CQD 顯示的維度和度量單位的詳細資訊。 若要深入瞭解 CQD，請參閱[使用 CQD 管理Microsoft Teams中的通話和會議品質](quality-of-experience-review-guide.md)。
+Microsoft Teams 和 商務用 Skype Online 的通話品質儀表板 (CQD) 可讓您更加瞭解使用這些服務撥打的通話品質。 本主題提供有關透過 CQD 顯示的維度和度量單位的詳細資訊。 若要深入瞭解 CQD，請參閱 [使用 CQD 管理 Microsoft Teams 中的通話和會議品質](quality-of-experience-review-guide.md)。
 
 ## <a name="first-and-second-endpoint-classification"></a>第一個和第二個端點分類
 
@@ -50,8 +50,8 @@ CQD 中許多維度和度量單位都標示為第一個或第二個。 下列邏
 |OC (商務用 Skype 用戶端)  |OC (商務用 Skype 用戶端)  |OC (商務用 Skype 用戶端)  |OC (商務用 Skype 用戶端)  |假 |
 |AV-MCU |中繼伺服器 |中繼伺服器 |AV-MCU ||
 |中繼伺服器 |AV-MCU |中繼伺服器 |AV-MCU |真 |
-|OC (商務用 Skype 用戶端)  |OC 電話 (商務用 Skype IP 電話)  |OC (商務用 Skype 用戶端)  |OC 電話 (商務用 Skype IP 電話)  |真 |
-|OC 電話 (商務用 Skype IP 電話)  |OC (商務用 Skype 用戶端)  |OC (商務用 Skype 用戶端)  |OC 電話 (商務用 Skype IP 電話)  |假 |
+|OC (商務用 Skype 用戶端)  |OC Phone (商務用 Skype IP Phone)  |OC (商務用 Skype 用戶端)  |OC Phone (商務用 Skype IP Phone)  |真 |
+|OC Phone (商務用 Skype IP Phone)  |OC (商務用 Skype 用戶端)  |OC (商務用 Skype 用戶端)  |OC Phone (商務用 Skype IP Phone)  |假 |
 
 > [!NOTE]
 > 第一個和第二個分類與來電者或來電者是分隔的。 First Is Caller 維度可用來協助識別來電者或來電者是哪一個端點。
@@ -149,6 +149,8 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二個端點標籤 3|String|這是可自訂的標籤，可從端點資料檔讀取資訊。| <br/>&bull; 端點沒有資料檔案 |
 | First ASN|String|第一個端點的製表系統編號。 <br/> **範例值：** 8069  | <br/>&bull; 無法使用網路資料來判斷端點 ASN |
 | 第二個 ASN|String|第二個端點的製表系統編號。 <br/> **範例值：** 8069  | <br/>&bull; 無法使用網路資料來判斷端點 ASN |
+| 第一個 ASN ISP 名稱|String|ASN 擁有者的名稱 ，通常是網際網路服務提供者或 ISP，以表示第一個端點的管理系統編號。 <br/> **範例值** Microsoft Corporation  | <br/>&bull; 無法使用網路資料來判斷端點 ASN |
+| 第二個 ASN ISP 名稱|String|ASN 擁有者的名稱，通常是網際網路服務提供者或 ISP，用於管理第二個端點的系統編號。 <br/> **範例值：** Microsoft Corporation  | <br/>&bull; 無法使用網路資料來判斷端點 ASN |
 | 第一個 ASN 國碼|String|決定第一個端點之資訊系統編號的國家/地區代碼。 <br/> **範例值：** 我們  | <br/>&bull; 無法使用網路資料來判斷端點 ASN |
 | 第二個 ASN 國碼|String|針對決定第二個端點的[實作系統號碼] 的國家/地區代碼。 <br/> **範例值：** 我們  | <br/>&bull; 無法使用網路資料來判斷端點 ASN |
 | 第一個 ASN 國家/地區|String|決定第一個端點之管理系統編號的國家/地區名稱。 <br/> **範例值：** 美國  | <br/>&bull; 無法使用網路資料來判斷端點 ASN |
@@ -164,7 +166,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第一棟大樓名稱  | String  | 根據對應子網到租使用者建築物資料，第一個端點所在的大樓名稱。  <br/> **範例值：** 主要  | &bull; 端點未回報網路資料 <br/>&bull; 子網對應資料中未定義網路   |
 | 第一個擁有權類型  | String  | 第一個端點所在的建築物擁有權類型。 根據將子網對應到租使用者建築物資料。 <br/> **範例值：** Contoso-IT  | &bull; 端點未回報網路資料 <br/>&bull; 網路不在公司網路內，子網路對應資料中未定義網路擁有權  |
 | 第一棟大樓類型   | String  | 以子網對應到租使用者建築物資料為基礎，位於第一個端點所在的建築物類型。 <br/> **範例值：** 開啟 Office | &bull; 端點未回報的網路資料 <br/>&bull; 網路不在公司網路內 <br/>&bull; 子網對應資料中未定義網路建置類型  |
-| 第一棟建築Office類型  | String  | 以子網對應到租使用者建築物資料為基礎，位於第一個端點所在的建築物類型。 <br/> **範例值：** 開啟 Office | &bull; 端點未回報的網路資料 <br/>&bull; 網路不在公司網路內 <br/>&bull; 子網對應資料中未定義網路建置類型  |
+| 第一棟大樓 Office 類型  | String  | 以子網對應到租使用者建築物資料為基礎，位於第一個端點所在的建築物類型。 <br/> **範例值：** 開啟 Office | &bull; 端點未回報的網路資料 <br/>&bull; 網路不在公司網路內 <br/>&bull; 子網對應資料中未定義網路建置類型  |
 | 第一城市  | String  | 根據將子網對應到租使用者建築物資料，位於第一個端點所在的城市。 <br/> **範例值：** 雷德蒙 | &bull; 端點未回報的網路資料 <br/>&bull; 網路不在公司網路內 <br/>&bull; 網路沒有在子網對應資料中定義的城市   |
 | 第一個郵遞區號  | String  | 第一個端點所在的郵遞區號，是根據將子網對應到租使用者建築物資料。 <br/> **範例值：** 98052 | &bull; 端點未回報的網路資料 <br/>&bull; 網路不在公司網路內 <br/>&bull; 網路沒有定義子網對應資料中的郵遞區號   |
 | 第一個國家  | String  | 第一個端點所在的國家/地區，是根據將子網對應到租使用者建築物資料。 <br/> **範例值：** 美國 | <br/>&bull; 端點未回報的網路資料<br/>&bull; 網路不在公司網路內 <br/>&bull; 網路沒有在子網對應資料中定義的國家/地區 |
@@ -178,7 +180,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二棟大樓名稱  | String  | 根據對應子網到租使用者建築物資料，第二個端點所在的大樓名稱。 <br/> **範例值：** 主要 | <br/>&bull; 端點未回報的網路資料<br/>&bull; 網路不在公司網路內 <br/>&bull; 網路未定義子網對應資料中的建築物名稱 |
 | 第二個擁有權類型  | String  | 根據將子網對應到租使用者建築物資料，第二個端點所在的建築物擁有權類型。 <br/> **範例值：** Contoso - IT | &bull; 端點未回報的網路資料<br/>&bull; 網路不在公司網路內 <br/>&bull; 網路沒有定義子網對應資料中的擁有權 |
 | 第二棟大樓類型  | String  | 根據將子網對應到租使用者建築物資料，第二個端點所在的建築物類型。 <br/> **範例值：** 開啟 Office | <br/>&bull; 端點未回報的網路資料<br/>&bull; 網路不在公司網路內 <br/>&bull; 子網對應資料中未定義網路建置類型  |
-| 第二棟建築Office類型  | String  | Office根據對應子網到租使用者建築物資料，來建立第二個端點所在的建築物類型。 <br/> **範例值：** Office  | <br/>&bull; 端點未回報的網路資料<br/>&bull; 網路不在公司網路內 <br/>&bull; 網路沒有在子網對應資料中定義的建築物辦公室類型。  |
+| 第二棟大樓 Office 類型  | String  | 第二個端點所在的 Office 大樓類型，是根據將子網對應到租使用者建築物資料。 <br/> **範例值：** 辦公室  | <br/>&bull; 端點未回報的網路資料<br/>&bull; 網路不在公司網路內 <br/>&bull; 網路沒有在子網對應資料中定義的建築物辦公室類型。  |
 | 第二城市  | String  | 根據將子網對應到租使用者建築物資料，位於第二個端點所在的城市。 <br/> **範例值：** 雷德蒙 |  <br/>&bull; 端點未回報的網路資料  <br/>&bull; 網路不在公司網路內  <br/>&bull; 網路沒有在子網對應資料中定義的城市   |
 | 第二個郵遞區號  | String  | 第二個端點所在的郵遞區號，是以對應子網至租使用者建築物資料為基礎。 <br/> **範例值：** 98052  | <br/>&bull; 端點未回報的網路資料 <br/>&bull; 網路不在公司網路內 <br/>&bull; 網路沒有定義子網對應資料中的郵遞區號 |
 | 第二個國家/地區  | String  | 根據將子網對應到租使用者建築物資料，位於第二個端點所在的國家/地區。 <br/> **範例值：** 美國  | <br/>&bull; 端點未回報的網路資料<br/>&bull; 網路不在公司網路內 <br/>&bull; 網路未定義子網對應資料中的國家/地區  |
@@ -191,7 +193,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 |**Deployment**| | | |
 | 第一個租使用者識別碼  | String  | 第一個端點的租使用者識別碼。 <br/> **範例值：** 000000000 - 0000 -0000 - 0000 - 0000000000  | <br/>&bull; 無法判斷第一個端點的租使用者識別碼。 這可能表示端點已登入內部部署商務用 Skype Server。  |
 | 第二個租使用者識別碼  | String  | 第二個端點的租使用者識別碼。 <br/> **範例值：** 00000000 - 0000 - 0000 - 0000 - 000000000  |  <br/>&bull; 無法判斷第二個端點的租使用者識別碼。 這可能表示端點已登入內部部署商務用 Skype Server。  |
-| 第一個集區  | String  | 商務用 Skype指派給第一個端點的線上集區 FQDN。 <br/> **範例值：** pool1.lync.com <span></span> <span></span>  | <br/>&bull;表示端點已登入Microsoft Teams或商務用 Skype。 只有使用內部部署商務用 Skype Server部署的串流，才會填入此欄位。 |
+| 第一個集區  | String  | 商務用 Skype指派給第一個端點的線上集區 FQDN。 <br/> **範例值：** pool1.lync.com <span></span> <span></span>  | <br/>&bull;表示端點已登入 Microsoft Teams 或 商務用 Skype。 只有使用內部部署商務用 Skype Server部署的串流，才會填入此欄位。 |
 | 第二個集區  | String  | 商務用 Skype指派給第二個端點的線上集區 FQDN。 <br/> **範例值：**<span>pool1.lync.com</span>   | &bull;無法判斷 商務用 Skype Online 集區的第二個端點。 這可能表示端點已登入內部部署商務用 Skype Server。  |
 | 同盟  | Boolean  | 如果串流在兩個同盟租使用者之間，則為 True，否則為 False。   | <br/>&bull; 無法判斷這是否為同盟串流 <br/>&bull; 未收集某些訊號資料   |
 |地區 | String   |  部署所在的地區是根據租使用者的住家地區。 <br/> **範例值：** 北美洲 | <br/>&bull; 未報告網路資料 <br/>&bull; 網路不在公司網路內 <br/>&bull; 網路沒有定義子網對應資料中的區域。 |
@@ -204,8 +206,8 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第一種是伺服器  | 枚舉 <br/>**可能的值：** <br/>&bull; 客戶 <br/>&bull; 伺服器  | 表示第一個端點是會議服務器 (AVMCU、ASMCU) 或其他媒體伺服器 (中型伺服器) 等伺服器端點，或是用戶端端點。  **範例值：** 客戶 | |
 | Second Is Server  | 枚舉 <br/>**可能的值：** <br/>&bull; 客戶 <br/>&bull; 伺服器   | 表示第二個端點是伺服器端點，還是用戶端端點。 <br/>  **範例值：** 客戶 | |
 | 首先是來電者  | Boolean  | 如果第一個端點是啟動會話的來電者，則為 True。   | |
-| 第一個網路連線詳細資料  | 枚舉 <br>**可能的值：** <br/>&bull; 有線 <br/>&bull; 無線 <br/>&bull; MobileBB <br/>&bull;Tunnel <br/>&bull; 其他 | 第一個端點使用的網路類型。  <br/> **範例值：** 有線  | &bull; 端點未回報資料  |
-| 第二個網路連線詳細資料  | 枚舉 <br/>**可能的值：** <br/>&bull; 有線 <br/>&bull; 無線 <br/>&bull; MobileBB <br/>&bull;Tunnel <br/>&bull; 其他 | 第二個端點使用的網路類型。  <br/> **範例值：** 有線  | &bull; 端點未回報資料  |
+| 第一個網路連線詳細資料  | 枚舉 <br>**可能的值：** <br/>&bull; 有線 <br/>&bull; 無線 <br/>&bull; MobileBB <br/>&bull; 隧道 <br/>&bull; 其他 | 第一個端點使用的網路類型。  <br/> **範例值：** 有線  | &bull; 端點未回報資料  |
+| 第二個網路連線詳細資料  | 枚舉 <br/>**可能的值：** <br/>&bull; 有線 <br/>&bull; 無線 <br/>&bull; MobileBB <br/>&bull; 隧道 <br/>&bull; 其他 | 第二個端點使用的網路類型。  <br/> **範例值：** 有線  | &bull; 端點未回報資料  |
 | 串流方向  | 枚舉 <br/>**可能的值：** <br/>&bull; 第一到第二個 <br/>&bull; 第二到第一個 <br/> | 表示串流的方向。 <br/>&bull;**範例值：** 第一到第二個 | &bull; 未報告任何資料指出串流的方向 |
 | 承載描述  | String  | 串流中使用之最後一個編解碼器的名稱。 <br/> **範例值：** 在全球的94444 | &bull; 沒有資料可用 |
 | 音訊和視訊通話  | Boolean  | 如果通話同時有音訊和視訊串流，則為 True，否則為 False    | &bull; 未報告任何資料指出串流的媒體類型。 |
@@ -213,7 +215,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二筆 QoE 記錄可用  | Boolean  | 如果將第一個端點的 QoE 記錄回報為 CQD，則為 True。   ||
 | 持續時間 5 秒以內  | Boolean  | 如果 stream 的持續時間小於 5 秒，則為 True，否則為 False。   ||
 | 持續時間 60 秒或更久  | Boolean  | 如果 stream 的持續時間超過 60 秒，則為 True，否則為 False。   | |
-| 是否Teams  | Boolean  | True 表示串流的第一個或第二個使用者代理程式是Microsoft Teams端點。 <br/> False 表示使用者代理程式商務用 Skype端點。 |  |
+| 是 Teams  | Boolean  | True 表示串流的第一個或第二個使用者代理程式是 Microsoft Teams 端點。 <br/> False 表示使用者代理程式商務用 Skype端點。 |  |
 | 持續時間 (分鐘)   | 範圍 (分鐘)   | 以分鐘為單位的串流持續時間。 依範圍分組的值。 <br/> **範例值：** 065：[3-4)  ||
 | 持續時間 (秒)   | 範圍 (秒)  | 以秒為內的串流持續時間。 依範圍分組的值。 <br/> **範例值：** 062：[1 -2) ||
 |**日期**||| |
@@ -382,7 +384,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 視訊不佳，因為 VideoFrameRateAvg  | Boolean  | 如果視訊串流根據此處所列的視訊框架速率 Avg 公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非視訊串流永遠都是 False。    | &bull; 端點並未回報此資料  <br/>&bull; 串流不是視訊串流 |
 | 由於 VideoPostFecplr 導致 VBS 不佳  | Boolean  | 如果視訊型螢幕共用串流依據此處所列的 [影片張貼 FEC PLR] 標準閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非視訊型螢幕共用串流永遠都是 False。    | &bull; 端點並未回報此資料 <br/>&bull; 串流不是視訊型螢幕共用串流  |
 | 由於 VideoLocalFrameLossPercentageAvg 導致 VBSS 不佳  | Boolean  | 如果視訊型螢幕共用串流根據此處所列的影片本機框架遺失百分比 Avg 公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非視訊螢幕共用串流永遠都是 False。    | &bull; 端點並未回報此資料 <br/>&bull; 串流不是視訊型螢幕共用串流  |
-| 視訊因凍結而不佳 | Boolean  | 1 如果視訊串流根據 [視訊凍結] 實例分類為不佳： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md) | &bull; 端點並未回報此資料  <br/>&bull; 串流不是視訊串流。 此欄位僅限Microsoft Teams。 |
+| 視訊因凍結而不佳 | Boolean  | 1 如果視訊串流根據 [視訊凍結] 實例分類為不佳： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md) | &bull; 端點並未回報此資料  <br/>&bull; 串流不是視訊串流。 此欄位僅限 Microsoft Teams。 |
 | 因為 VideoFrameRateAvg 而造成 VBS 不佳  | Boolean  | 如果視訊型螢幕共用串流根據此處所列的視訊框架速率 Avg 公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非視訊型螢幕共用串流永遠都是 False。   | &bull; 端點並未回報此資料 <br/>&bull; 串流不是視訊型螢幕共用串流   |
 | 因被破壞的TilePercentTotal而造成應用程式共用不佳  | Boolean  | 如果應用程式共用串流根據此處所列的 [被破壞的磚百分比總計百分比] 閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非應用程式共用串流永遠為 False。   | &bull; 端點並未回報此資料  <br/>&bull; 串流不是應用程式共用串流。  |
 | 因為 RelativeOneWayAverage 而導致 App 分享不佳  | Boolean  | 如果應用程式共用串流依據此處所列的相對單向平均公制閾值分類為不佳，則為 True： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 非應用程式共用串流永遠為 False。    | &bull; 端點並未回報此資料  <br/>&bull; 串流不是應用程式共用串流 |
@@ -489,18 +491,18 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 | 第二個 MAC 位址|String|媒體存取控制 (第二個端點網路裝置的 MAC) 位址。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。| |
 | 第一次 Sip Uri|String|會話初始通訊協定 (第一個端點使用者的 SIP) URI。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。| &bull;僅針對商務用 Skype端點填入。 <br/>&bull; 使用者沒有檢視 EUII 的許可權。 |
 | 第二個 Sip Uri|String|第一個端點使用者的 SIP URI。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。| &bull;僅針對商務用 Skype端點填入。<br/>&bull; 使用者沒有檢視 EUII 的許可權。 |
-| 第一個電話編號|String|第一個端點使用者的電話號碼。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。 不論 EUII 檢視許可權為何，PSTN 數位的最後四位數一律會在 CQD 中混淆。<br/> **範例值：** +1425555*}| &bull; 僅針對 PSTN 端點填入。 <br/>&bull; 使用者沒有檢視 EUII 的許可權。 |
-| 第二個電話數位|String|第二個端點使用者的電話號碼。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。 不論 EUII 檢視許可權為何，PSTN 數位的最後四位數一律會在 CQD 中混淆。<br/> **範例值：** +1425555*} | &bull; 僅針對 PSTN 端點填入。<br/>&bull; 使用者沒有檢視 EUII 的許可權。 |
+| 第一個電話號碼|String|第一個端點使用者的電話號碼。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。 不論 EUII 檢視許可權為何，PSTN 數位的最後四位數一律會在 CQD 中混淆。<br/> **範例值：** +1425555*}| &bull; 僅針對 PSTN 端點填入。 <br/>&bull; 使用者沒有檢視 EUII 的許可權。 |
+| 第二個電話號碼|String|第二個端點使用者的電話號碼。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。 不論 EUII 檢視許可權為何，PSTN 數位的最後四位數一律會在 CQD 中混淆。<br/> **範例值：** +1425555*} | &bull; 僅針對 PSTN 端點填入。<br/>&bull; 使用者沒有檢視 EUII 的許可權。 |
 | 第一個 UPN|String|使用者主體名稱 (第一個端點使用者的 UPN) 。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。| &bull; 並非所有 UserType 都有 UPN;包括第二個 UserType 或第二個 User ObjectId 維度，以深入瞭解這些端點。 |
 | 第二個 UPN|String|使用者主體名稱 (第二個端點使用者的 UPN) 。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。| &bull; 並非所有 UserType 都有 UPN;包括第二個 UserType 或第二個 User ObjectId 維度，以深入瞭解這些端點。 |
 | 第一個意見反應文字|String|通話結束時，第一個端點的使用者提供的逐字意見反應文字。如果有的話。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。 | |
 | 第二個意見反應文字|String| 第二個端點使用者在通話結束時提供的逐字意見反應文字，如果有的話。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。||
 | 第一個用戶端端點名稱|String|第一個端點的電腦名稱稱。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。||
 | 第二個用戶端端點名稱|String|第二個端點的機器名稱。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。||
-| 第一個端點產品名稱|String|第一個端點的產品名稱 (商務用 Skype或Microsoft Teams) 。||
-| 第二個端點產品名稱|String|第二個端點的產品名稱 (商務用 Skype或Microsoft Teams) 。||
-| 第一個 UserType|列舉字串|第一個端點上的使用者類型。 <br/> **可能的值：** 使用者， 伺服器， 匿名， 應用程式， PSTN， 語音信箱， 未知 <br/> <br/>**未知** - 如果無法根據收到的資訊來判斷 UserType 的預設值。 <br/>**PSTN** - PSTN 使用者。 <br/>**匿名**- Teams使用者或商務用 Skype訪客。 <br/>**應用程式** - Bot。 <br/>**使用者**- AAD 使用者可以商務用 Skype使用者或Teams使用者。 <br/>**伺服器** - 針對會議，至少一邊是伺服器。 <br/>**語音信箱 - 語音信箱** 服務已回復端點。||
-| 第二個 UserType|列舉字串|第二個端點上的使用者類型。 <br/> **可能的值：** 使用者， 伺服器， 匿名， 應用程式， PSTN， 語音信箱， 未知 <br/> <br/>**未知** - 如果無法根據收到的資訊來判斷 UserType 的預設值。 <br/>**PSTN** - PSTN 使用者。 <br/>**匿名**- Teams使用者或商務用 Skype訪客。 <br/>**應用程式** - Bot。 <br/>**使用者**- AAD 使用者可以商務用 Skype使用者或Teams使用者。 <br/>**伺服器** - 針對會議，至少一邊是伺服器。 <br/>**語音信箱 - 語音信箱** 服務已回復端點。||
+| 第一個端點產品名稱|String|商務用 Skype或 Microsoft Teams)  (第一個端點的產品名稱。||
+| 第二個端點產品名稱|String|第二個端點的產品名稱 (商務用 Skype或 Microsoft Teams) 。||
+| 第一個 UserType|列舉字串|第一個端點上的使用者類型。 <br/> **可能的值：** 使用者， 伺服器， 匿名， 應用程式， PSTN， 語音信箱， 未知 <br/> <br/>**未知** - 如果無法根據收到的資訊來判斷 UserType 的預設值。 <br/>**PSTN** - PSTN 使用者。 <br/>**匿名**- Teams 使用者或商務用 Skype訪客。 <br/>**應用程式** - Bot。 <br/>**使用者**- AAD 使用者可以是商務用 Skype使用者或 Teams 使用者。 <br/>**伺服器** - 針對會議，至少一邊是伺服器。 <br/>**語音信箱 - 語音信箱** 服務已回復端點。||
+| 第二個 UserType|列舉字串|第二個端點上的使用者類型。 <br/> **可能的值：** 使用者， 伺服器， 匿名， 應用程式， PSTN， 語音信箱， 未知 <br/> <br/>**未知** - 如果無法根據收到的資訊來判斷 UserType 的預設值。 <br/>**PSTN** - PSTN 使用者。 <br/>**匿名**- Teams 使用者或商務用 Skype訪客。 <br/>**應用程式** - Bot。 <br/>**使用者**- AAD 使用者可以是商務用 Skype使用者或 Teams 使用者。 <br/>**伺服器** - 針對會議，至少一邊是伺服器。 <br/>**語音信箱 - 語音信箱** 服務已回復端點。||
 | Organizer ObjectId|String|會議召集人使用者的 Active Directory 物件識別碼。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。  | &bull; 使用者沒有檢視 EUII 的許可權。 <br/>&bull; 記錄早于 28 天。 |
 | 召集人 UPN|String|會議召集人使用者的 UPN)  (使用者主體名稱。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。| &bull; 使用者沒有檢視 EUII 的許可權。 <br/>&bull; 記錄早于 28 天。 |
 | 召集人 Sip Uri|String|會話初始通訊協定 (會議召集人使用者的 SIP) URI。 僅適用于過去 28 天的資料，且只有角色允許 EUII 存取的使用者才能看到。| &bull;僅針對商務用 Skype端點填入。 <br/>&bull; 使用者沒有檢視 EUII 的許可權。 <br/>&bull; 記錄早于 28 天。|
@@ -531,7 +533,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 |自動語音應答鏈啟動時間|String|自動語音應答通話的開始時間和日期。||
 |自動語音應答鏈連結持續時間秒數|整數| 自動語音應答中的通話持續時間，以秒為單位。||
 |自動語音應答來電者動作計數|整數|在通話期間，自動語音應答中來電者所選取的動作數目。||
-|自動語音應答通話Flow|String| 封裝顯示自動語音應答通話的不同狀態。||
+|自動語音應答通話流程|String| 封裝顯示自動語音應答通話的不同狀態。||
 |自動語音應答轉接動作|枚舉| 來電轉接目標型別。||
 |自動語音應答通話結果|枚舉| 自動語音應答的最終通話結果。 ||
 |自動語音應答目錄搜尋方法|枚舉|上次使用的通訊錄搜尋方法。||
@@ -550,7 +552,7 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 |**會議**||||
 |排程來源應用程式識別碼|String |預約會議的第一方或協力廠商排程用戶端的 AppID。|排程用戶端未透過遙測提供此參數。|
 |**Datapair**||||
-| 網路連線詳細資料配對  | 列舉的配對 <br/>**可能的值：** <br/> wifi ：wifi <br/> wifi：有線 <br/> 有線 ：wifi <br/> 有線：有線 <br/> MobileBB：MobileBB <br/> MobileBB：其他 <br/> MobileBB：Tunnel <br/> MobileBB ：wifi <br/> MobileBB：有線 <br/> 其他：其他 <br/> 其他 ：wifi <br/> 其他：有線 <br/> Tunnel：Tunnel <br/> Tunnel：wifi <br/> Tunnel：有線 <br/> ： MobileBB <br/> ：其他 <br/> ：Tunnel <br/> ： wifi <br/> ： 有線 <br/> :  | 第一個和第二個端點的網路連線詳細資料組合。  | &bull; 端點網路連線類型為未知。 如果無法建立通話，就可能會發生這種情況。   |
+| 網路連線詳細資料配對  | 列舉的配對 <br/>**可能的值：** <br/> wifi ：wifi <br/> wifi：有線 <br/> 有線 ：wifi <br/> 有線：有線 <br/> MobileBB：MobileBB <br/> MobileBB：其他 <br/> MobileBB ：通通道 <br/> MobileBB ：wifi <br/> MobileBB：有線 <br/> 其他：其他 <br/> 其他 ：wifi <br/> 其他：有線 <br/> 通地道：通水道 <br/> 通道：wifi <br/> 網道：有線 <br/> ： MobileBB <br/> ：其他 <br/> ：通通 <br/> ： wifi <br/> ： 有線 <br/> :  | 第一個和第二個端點的網路連線詳細資料組合。  | &bull; 端點網路連線類型為未知。 如果無法建立通話，就可能會發生這種情況。   |
 | 使用者代理程式類別配對  | 列舉的配對  | 第一個和第二個端點的一組使用者代理程式類別。 <br/> **範例值：** AV-MCU ：OC  | &bull; 端點使用者代理程式不是已知的類型  |
 | 是伺服器配對  | 列舉的配對 <br/>**可能的值：** 用戶端：用戶端 <br/> 用戶端：伺服器 <br/> 伺服器：伺服器  | 將第一個和第二個端點識別成一組用戶端或伺服器。  | 無空白值   |
 | 連接冰組  | 列舉的配對 <br/>**可能的值：** <br/> DIRECT：DIRECT <br/> DIRECT：失敗 <br/> DIRECT：HTTP <br/> 失敗：失敗 <br/> 失敗：轉送 <br/> HTTP：RELAY <br/> : <br/> ：DIRECT <br/> ：失敗 <br/> ： HTTP <br/> ：RELAY | 每個端點所使用的 ICE 連線類型配對。   | &bull; 端點使用的 ICE 連線不為人知或未報告   |
@@ -581,10 +583,10 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 |通話總和百分比 |百分比 |總通話長度小於 1 分鐘的百分比。 |
 |媒體失敗總數百分比 |百分比 |無法建立媒體路徑或無法正常終止之所有串流的百分比。 |
 |音訊串流總持續時間 (分鐘)  |分鐘 |在選取的時間範圍內，以分鐘為單位的總音訊串流持續時間。 |
-|媒體失敗，因為防火牆 DPI 串流計數 |串流數目 |由於深度封包檢查不允許商務用 Skype流量，導致網路設備封鎖存取而無法建立的串流數目。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置未正確設定，無法存取商務用 Skype在 Microsoft 365 或 Office 365 中使用的 IP 位址和埠。 |
-|防火牆 DPI 媒體失敗百分比 |百分比 |由於深度封包檢查不允許商務用 Skype流量，導致網路設備封鎖存取而無法建立的串流百分比。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置未正確設定，無法存取商務用 Skype在 Microsoft 365 或 Office 365 中使用的 IP 位址和埠。 |
-|媒體失敗，因為防火牆 IP 封鎖的串流計數 |串流數目 |因網路設備封鎖存取商務用 Skype伺服器而無法建立的串流數目。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置未正確設定，無法存取商務用 Skype在 Microsoft 365 或 Office 365 中使用的 IP 位址和埠。 |
-|防火牆 IP 封鎖媒體失敗百分比 |百分比 |因網路設備封鎖存取商務用 Skype伺服器而無法建立的串流百分比。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置未正確設定，無法存取商務用 Skype在 Microsoft 365 或 Office 365 中使用的 IP 位址和埠。 |
+|媒體失敗，因為防火牆 DPI 串流計數 |串流數目 |由於深度封包檢查不允許商務用 Skype流量，導致網路設備封鎖存取而無法建立的串流數目。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置未正確設定，無法存取 microsoft 365 或 Office 365 中商務用 Skype所使用的 IP 位址和埠。 |
+|防火牆 DPI 媒體失敗百分比 |百分比 |由於深度封包檢查不允許商務用 Skype流量，導致網路設備封鎖存取而無法建立的串流百分比。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置未正確設定，無法存取 microsoft 365 或 Office 365 中商務用 Skype所使用的 IP 位址和埠。 |
+|媒體失敗，因為防火牆 IP 封鎖的串流計數 |串流數目 |因網路設備封鎖存取商務用 Skype伺服器而無法建立的串流數目。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置未正確設定，無法存取 microsoft 365 或 Office 365 中商務用 Skype所使用的 IP 位址和埠。 |
+|防火牆 IP 封鎖媒體失敗百分比 |百分比 |因網路設備封鎖存取商務用 Skype伺服器而無法建立的串流百分比。 這些失敗通常表示 Proxy、防火牆或其他網路安全性裝置未正確設定，無法存取 Microsoft 365 或 Office 365 中商務用 Skype使用的 IP 位址和埠。 |
 | 媒體因其他串流計數而失敗|串流數目| 端點之間因未確定/未分類原因而無法建立媒體路徑的串流數目。|
 | 其他媒體失敗百分比|百分比| 由於未確定/未分類的原因，無法在端點之間建立媒體路徑的串流百分比。 |
 | 可用的 CDR 通話總數|串流數目|提供可靠性/診斷資訊的媒體串流總數。 此量值有高達 0.2% 的錯誤。 如需詳細資訊，請參閱下方附注。|
@@ -626,12 +628,12 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 |視訊不佳，因為 VideoPostFecplr Count |串流數目 |影片張貼類別超過此處所列閾值的視訊串流數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
 |視訊不佳，因為 VideoLocalFrameLossPercentageAvg Count |串流數目 |影片本機框架遺失百分比 Avg 超過此處所列之閾值的視訊串流數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
 |視訊不佳，因為 VideoFrameRateAvg 計數 |串流數目 |視訊框架速率 Avg 超過此處所列之閾值的視訊串流數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
-|視訊因凍結計數而不佳 |串流數目 | 影片凍結計量超過此處所列閾值的主要視訊串流數目。 [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 此欄位僅限Microsoft Teams |
+|視訊因凍結計數而不佳 |串流數目 | 影片凍結計量超過此處所列閾值的主要視訊串流數目。 [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 此欄位僅限 Microsoft Teams |
 |視訊不佳的串流計數 |串流數目 |此處所列的通話 [品質儀表板中的 Stream 分類](stream-classification-in-call-quality-dashboard.md)所列的網路計量，分類為不佳的視訊串流數目。 |
 |視訊良好串流計數 |串流數目 |根據此處所列的網路計量分類為良好視訊串流的數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
 |影片未分類的串流計數 |串流數目 |根據此處所列的網路計量，沒有足夠的資料可分類為良好或不佳的視訊串流數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 未分類的串流在「不佳百分比」計算中會被省略。 |
 |視訊不佳百分比|百分比 |根據此處所列之 [ [通話品質儀表板中的 Stream 分類](stream-classification-in-call-quality-dashboard.md)] 所列之網路計量分類的分類視訊串流百分比。 |
-|視訊凍結導致百分比不佳|百分比 | 此處[ [通話品質儀表板] 中的 [串流分類](stream-classification-in-call-quality-dashboard.md)] 中列出以 [視訊不佳] 計量為基礎的主要視訊串流百分比。 此欄位僅限Microsoft Teams |
+|視訊凍結導致百分比不佳|百分比 | 此處[ [通話品質儀表板] 中的 [串流分類](stream-classification-in-call-quality-dashboard.md)] 中列出以 [視訊不佳] 計量為基礎的主要視訊串流百分比。 此欄位僅限 Microsoft Teams |
 |VBSS 串流計數 |串流數目 |視訊螢幕共用串流的數目。 |
 |由於 VideoPostFecplr 計數導致 VBS 不佳 |串流數目 |視訊型螢幕共用串流中[視訊張貼類別] plr 超過此處所列閾值的串流數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
 |由於 VideoLocalFrameLossPercentageAvg Count 導致 VBSS 不佳 |串流數目 |影片本機框架遺失百分比 Avg 超過此處所列之閾值的視訊型螢幕共用串流數目： [通話品質儀表板中的串流分類](stream-classification-in-call-quality-dashboard.md)。 |
@@ -768,13 +770,13 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 
 ## <a name="related-topics"></a>相關主題
 
-[改善及監控Teams的通話品質](monitor-call-quality-qos.md)
+[改善及監控 Teams 的通話品質](monitor-call-quality-qos.md)
 
 [什麼是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
 [設定呼叫品質儀表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
-[Upload租使用者和建築物資料](CQD-upload-tenant-building-data.md)
+[上傳租使用者和建築物資料](CQD-upload-tenant-building-data.md)
 
 [CQD 資料和報表](CQD-data-and-reports.md)
 
@@ -782,4 +784,4 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 
 [CQD 中的串流分類](stream-classification-in-call-quality-dashboard.md)
 
-[使用 Power BI 來分析 CQD 資料](CQD-Power-BI-query-templates.md)
+[使用 Power BI 分析 CQD 資料](CQD-Power-BI-query-templates.md)
