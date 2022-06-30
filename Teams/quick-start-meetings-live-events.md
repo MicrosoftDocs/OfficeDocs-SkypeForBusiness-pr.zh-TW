@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 330faa00c2ba14f03e5219642fa274fc24eb8765
-ms.sourcegitcommit: 1ac37cc27d4ccb3e1dae20ca1929214e17be2075
+ms.openlocfilehash: f33ab77f2b615bcdd08f14512585b653027c38e8
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2022
-ms.locfileid: "65913421"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240972"
 ---
 # <a name="meetings-webinars-and-live-events"></a>會議、網路研討會與即時活動 
 
@@ -176,6 +176,8 @@ Microsoft 讓您能夠透過整合和使用會議應用程式來增強會議體�
 ### <a name="guidelines-for-your-end-users"></a>使用者指導方針
 
 您的召集人和簡報者應執行下列建議：
+
+- 對於 10 人以上的會議，請使用 [問與答](/MicrosoftTeams/manage-qna-for-teams) 讓參與者有機會正式提問並取得問題的答案，以及參與結構化討論。
 
 - 若要建立順暢的會議，活動召集人可以設定預先定義的簡報者。 會議開始之後，簡報者也可以將其他出席者升級為簡報者角色。
 
