@@ -19,12 +19,13 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7123d45819f6e956ecf562fd321e7762b50e5ae6
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 0c51c0e2225d73d140f424535f3dc1bd7a302afa
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674655"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66240412"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>如何為一線員工大規模佈建 Teams
 
@@ -105,7 +106,7 @@ ms.locfileid: "65674655"
 > [!IMPORTANT]
 > 在這些指令碼中管理認證的方式，可能不適合您的使用，但易於變更，以符合您的需求。 請務必遵循公司用於保護服務帳戶和管理身分識別的標準和做法。
 
-該指令碼會使用以 XML 檔案格式儲存在 $ENV:LOCALAPPDATA\keys 中的認證，也就是 AppData\Local 資料夾。 需要呼叫模組 **BulkAddFunctions.psm1** 中的 **Set-Creds** Helper 函數，以設定用來執行這些指令碼的認證。 此方式可讓您不再需要對所有服務端點進行驗證，同時在本機存放區中維護認證。 從每個指令碼內，系統會使用 Helper 函數 **Get-Creds** 來讀取適當認證，且這些認證會用來與各種服務連線。
+該指令碼會使用以 XML 檔案儲存在 `$ENV:LOCALAPPDATA\keys` 中的認證，也就是 AppData\Local 資料夾。 需要呼叫模組 **BulkAddFunctions.psm1** 中的 **Set-Creds** Helper 函數，以設定用來執行這些指令碼的認證。 此方式可讓您不再需要對所有服務端點進行驗證，同時在本機存放區中維護認證。 從每個指令碼內，系統會使用 Helper 函數 **Get-Creds** 來讀取適當認證，且這些認證會用來與各種服務連線。
 
 呼叫 **Set-Creds** 時，系統會提示您提供要寫入 $ENV:LOCALAPPDATA\keys 的 XML 檔案名稱。 不同的服務可能有不同的認證。 例如，您可能會有用於 MicrosoftTeams、AzureAD 和 MSonline 的不同認證，在這種情況下，您可以執行 **Set-Creds** 一次以上，將每個認證檔案以對其本身有意義的名稱儲存。
 

@@ -14,12 +14,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad9b66b249bc907071b00e1c2fd9f7b1c2148def
-ms.sourcegitcommit: bf0071417188b33fc23e2a420187da5024d4bd40
+ms.openlocfilehash: 378467e9e540754023c4d69a53e50e6b1b403a1b
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/20/2022
-ms.locfileid: "64961296"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66241012"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>開始使用適用於前線工作者的 Teams
 
@@ -31,7 +31,7 @@ ms.locfileid: "64961296"
 
 - [快速入門 - 適用於前線工作者的 Teams](flw-quickstart.yml)
 - [使用前線工作者上線精靈，讓前線員工能夠順利上線](flw-onboarding-wizard.md)
-- [如何為一線員工大規模佈建 Teams](flw-scripted-deployment.md)
+- [為前線員工大規模部署 Teams](deploy-teams-at-scale.md)
 - [適用於前線員工和主管的原則套件](manage-policy-packages.md)
 - [為您的前線員工量身打造 Teams 應用程式](pin-teams-apps-based-on-license.md)
 - [登入 Teams](sign-in-teams.md)
