@@ -1,13 +1,13 @@
 ---
-title: 在用戶端中 (QoS) 服務品質Microsoft Teams品質
-author: SerdarSoysal
-ms.author: serdars
+title: '在 Microsoft Teams 用戶端中實作服務品質 (QoS) '
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: Serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
-description: 瞭解如何使用 QoS (服務品質) 優化桌面用戶端Microsoft Teams網路流量。
+description: 瞭解如何使用 QoS (服務品質) 優化 Microsoft Teams 桌面用戶端的網路流量。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -19,18 +19,18 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: c283a66db274bc8723d429631bf265fdb0f5206b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 70dbc5794fe64a1afed86bc82d0005ad7d510c5f
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606012"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563921"
 ---
-# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>在用戶端中 (QoS) 服務品質Microsoft Teams品質
+# <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>在 Microsoft Teams 用戶端中實作服務品質 (QoS) 
 
-您可以在群組原則內使用以策略為基礎的服務品質 (QoS) ，在用戶端中設定預先定義的 DSCP 值的來源Teams範圍。 下表指定的埠範圍是為每個工作負載建立策略的起點。
+您可以在 群組原則 內使用原則型服務品質 (QoS) ，為 Teams 用戶端中預先定義的 DSCP 值設定來源埠範圍。 下表中指定的埠範圍是建立每個工作負載原則的起點。
 
-*表格 1.建議的初始埠範圍*
+*資料表 1.建議的初始埠範圍*
 
 |媒體流量類型| 用戶端來源連接埠範圍  |通訊協定|DSCP 值|DSCP 類別|
 |:--- |:--- |:--- |:--- |:--- |
@@ -39,89 +39,89 @@ ms.locfileid: "58606012"
 |應用程式/螢幕共用| 50,040-50,059|TCP/UDP|18|保證式轉送 (AF21)|
 | | | | | |
 
-盡可能在群組原則物件中設定以策略為基礎的 QoS 設定。 下列步驟與在 商務用 Skype Server[](/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)上為用戶端組定埠範圍和服務品質政策非常類似，其中可能不需要一些額外的詳細資料。
+請盡可能在群組原則物件內設定原則型 QoS 設定。 下列步驟與在[商務用 Skype Server 上為用戶端設定埠範圍和服務品質](/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10)原則非常類似，其中包含一些不需要的額外詳細資料。
 
-若要為已加入網域的電腦Windows 10 QoS 音訊策略，首先請登入已安裝群組原則管理的電腦。 開啟群組原則管理 (按一下 [開始>、指向 [管理工具>，然後按一下 [群組原則管理) ，然後完成下列步驟：
+若要為加入網域的Windows 10電腦建立 QoS 音訊原則，請先登入已安裝群組原則管理的電腦。 開啟 [群組原則管理] (按一下 [開始]，指向 [管理工具]，然後按一下 [群組原則管理]) ，然後完成下列步驟：
 
-1. 在群組原則管理中，找出應建立新策略的容器。 例如，如果您所有的用戶端電腦都位於名為 Client 的 OU中，則新策略應在用戶端 OU 中建立。
+1. 在 [群組原則管理] 中，找出應建立新原則的容器。 例如，如果您所有的用戶端電腦都位於名為 [ **客戶** 端] 的 OU 中，則應在 [用戶端 OU] 中建立新原則。
 
-1. 以滑鼠右鍵按一下適當的容器，然後按一下 [在此網域中建立 **GPO，並連結這裡**。
+1. 以滑鼠右鍵按一下適當的容器，然後按一下 [ **在此網域中建立 GPO]，然後將它連結在這裡**。
 
-1. 在 [ **新增 GPO>** 對話方塊中，在 [名稱> 方塊中輸入新群組原則 **物件的名稱，** 然後按一下 [ **確定**。
+1. 在 [**新增 GPO**] 對話方塊的 [名稱] 方塊中，輸入新群組原則 **物件的名稱**，然後按一下 [**確定]**。
 
-1. 以滑鼠右鍵按一下新建立的政策，然後按一下 [ **編輯**。
+1. 以滑鼠右鍵按一下新建立的原則，然後按一下 [ **編輯]**。
 
-1. 在群組原則管理編輯器中，展開[電腦群組 **Windows 設定、展開**[Windows 設定、以滑鼠右鍵按一下 [以策略為基礎的 **QoS，** 然後按一下 **[建立新策略**> 。
+1. 在 [群組原則管理編輯器] 中，展開 [**電腦設定**]，展開 **[Windows 設定**]，以滑鼠右鍵按一下 [原則 **型 QoS]**，然後按一下 [**建立新原則]**。
 
-1. 在 [ **以策略為基礎的 QoS** 對話方塊的開啟頁面上，在 [名稱> 方塊中輸入新 **政策** 的名稱。 選取 **指定 DSCP 值** ，然後將值設為 **46**。 請 **離開 [未指定外發節** 流速率，然後按一下 [下 **一步**）。
+1. 在 [ **原則型 QoS]** 對話方塊的開啟頁面上，于 [ **名稱** ] 方塊中輸入新原則的名稱。 選 **取 [指定 DSCP 值** ]，並將值設為 **46**。 離開 指定未選取 **的輸出節流速率** ，然後按 [ **下一步]**。
 
-1. 在下一個頁面上，選取 [只有 **具有此可執行** 檔案名稱的應用程式，然後輸入Teams.exe名稱，然後按一下 [**下一步**。 此設定會指示策略只排列來自用戶端之Teams流量的優先順序。
+1. 在下一個頁面上，選取 **[只有具有此可執行名稱的應用程式** ]，然後 **輸入名稱Teams.exe**，然後按 [ **下一步]**。 此設定會指示原則只排定 Teams 用戶端的比對流量優先順序。
 
-1. 請確定第三頁上已選取 [任何來源 **IP 位址** 及任何目的地 **IP** 位址，然後按一下 [下 **一步**> 。 這兩個設定可確保無論哪部電腦 (IP 位址) 封包，以及哪個電腦 (IP 位址) 都會受到管理。
+1. 請確認已選取第三頁上的 [ **任何來源 IP 位址** ] 和 [ **任何目的地 IP 位址** ]，然後按 [ **下一步]**。 這兩個設定可確保無論哪部電腦 (IP 位址) 傳送封包，以及哪些電腦 (IP 位址) 會收到封包，封包都會受到管理。
 
-1. 第四頁，從選取此 **QoS** 原則適用于下拉式清單的通訊協定，選取 TCP 和 **UDP。** TCP (傳輸控制通訊協定) UDP (使用者資料包通訊) 是最常用的兩種網路通訊協定。
+1. 在 [第四頁] 上，從 [選取 **此 QoS 原則適用于** 下拉式清單的通訊協定] 中選取 **[TCP 和 UDP**]。 TCP (傳輸控制通訊協定) 和 UDP (使用者資料圖表通訊協定) 是兩種最常使用的網路通訊協定。
 
-1. 在標題下 **指定來源埠號碼**，選取 **從此來源埠或範圍**。 在隨附的文字方塊中，輸入音訊廣播所保留的埠範圍。 例如，如果您透過埠 50019 為音訊流量保留埠 50000，請使用此格式輸入埠範圍 **：50000：50019**。 按一下 **[完成>**。
+1. 在 [ **指定來源埠號碼**] 標題底下，選 **取 [從此來源埠或範圍]**。 在隨附的文字方塊中，輸入保留用於音訊廣播的埠範圍。 例如，如果您保留埠 50000 至埠 50000 以供音訊流量使用，請使用此格式輸入埠範圍： **50000：50019**。 按一下 [ **完成]**。
 
-1. 重複步驟 5-10，為視像和應用程式/桌面共用建立策略，以步驟 6 和 10 中的適當值來表示。
+1. 重複步驟 5-10 以建立視訊和應用程式/桌面共用的原則，在步驟 6 和 10 中取代適當的值。
 
-在用戶端電腦上重新更新群組原則之前，您建立的新政策不會生效。 雖然群群組原則會自行定期重新更新，但您可以遵循下列步驟來強制立即重新建立：
+您建立的新原則必須等到用戶端電腦重新整理群組原則才會生效。 雖然群組原則定期自行重新整理，但您可以依照下列步驟強制立即重新整理：
 
-1. 在您想要重新更新群組原則的每部電腦上，開啟以系統管理員 (*以系統管理員*) 。
+1. 在您要重新整理群組原則的每部電腦上，以系統管理員身分開啟命令提示字元 (*以系統管理員身* 分執行) 。
 
-1. 在命令提示符中，輸入
+1. 在命令提示字元中，輸入
 
    ```console
    gpupdate /force
    ```
 
-## <a name="verify-dscp-markings-in-the-group-policy-object"></a>驗證群組原則物件中的 DSCP 標記
+## <a name="verify-dscp-markings-in-the-group-policy-object"></a>確認群組原則物件中的 DSCP 標記
 
 若要確認已設定群組原則物件的值，請執行下列步驟：
 
-1. 開啟以系統管理員 (*命令提示*) 。
+1. 以系統管理員身分開啟命令提示字元 (*以系統管理員* 身分執行) 。
 
-1. 在命令提示符中，輸入
+1. 在命令提示字元中，輸入
 
    ```console
    gpresult /R > gp.txt
    ```
 
-   這會產生已申請的 GPO 報告，並將它傳送至名為gp.txt *的文字檔*。
+   這會產生已套用 GPO 的報告，並將它傳送到名為 *gp.txt* 的文字檔。
 
-   針對名為gp.html 的可讀 *HTML* 報表，請輸入下列命令：
+   如需更易於閱讀且名為gp.html的 HTML 報 *表*，請輸入下列命令：
 
    ```console
    gpresult /H gp.html
    ```
 
-1. 在產生的檔案中，尋找標題為已應用組 **策略** 物件，並確認先前建立之群組原則物件的名稱在已應用原則清單中。
+1. 在產生的檔案中，尋找 [套用 **群組原則物件**] 標題，並確認先前建立的群組原則物件名稱在套用原則清單中。
 
-1. 開啟登錄編輯程式，然後前往
+1. 開啟 [登錄編輯程式]，然後移至
 
-   HKEY \_ LOCAL \_ MACHINE \\ 軟體政策 Microsoft Windows \\ \\ \\ \\ QoS
+   HKEY \_ LOCAL \_ MACHINE \\ Software \\ Policies \\ Microsoft \\ Windows \\ QoS
 
-   確認資料表 2 中列出的登錄機碼目值。
+   確認資料表 2 中所列登錄專案的值。
 
-   *表格 2.QoS Windows登錄機碼目的值*
+   *資料表 2.QoS 的 Windows 登錄專案值*
 
    |          名稱          |  類型  |    資料     |
    |         :---:          | :---:  |    :---:    |
    |    應用程式名稱    | REG_SZ |  Teams.exe  |
    |       DSCP 值       | REG_SZ |     46      |
-   |        本地 IP        | REG_SZ |     \*      |
-   | 本地 IP 前置長度 | REG_SZ |     \*      |
-   |       本地埠       | REG_SZ | 50000-50019 |
-   |        通訊協定        | REG_SZ |     \*      |
+   |        本機 IP        | REG_SZ |     \*      |
+   | 本機 IP 前置長度 | REG_SZ |     \*      |
+   |       本機埠       | REG_SZ | 50000-50019 |
+   |        Protocol (通訊協定)        | REG_SZ |     \*      |
    |       遠端 IP        | REG_SZ |     \*      |
    |    遠端 IP 首碼    | REG_SZ |     \*      |
    |      遠端埠       | REG_SZ |     \*      |
    |     節流速率      | REG_SZ |     -1      |
    | | | |
 
-1. 確認您使用之用戶端的應用程式名稱專案值正確無誤，並確認 DSCP 值和本地埠專案都反映群組原則物件中的設定。
+1. 確認您所使用之用戶端的應用程式名稱專案值正確無誤，並確認 DSCP 值和本機埠專案都反映群組原則物件中的設定。
 
 
 ## <a name="related-topics"></a>相關主題
 
-[在 (中 (QoS) 服務品質Teams](QoS-in-Teams.md)
+[在 Teams 中實作服務品質 (QoS) ](QoS-in-Teams.md)

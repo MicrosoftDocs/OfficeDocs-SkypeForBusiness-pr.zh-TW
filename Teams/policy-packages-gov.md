@@ -1,7 +1,7 @@
 ---
-title: Teams政府政策套件
-author: serdars
-ms.author: serdars
+title: 適用于政府機關的 Teams 原則套件
+ms.author: mabond
+author: mkbond007
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -16,18 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何使用及管理Teams組織的政策套件。
-ms.openlocfilehash: 40804e4536be5f4263623c48ace2450dec92036a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 瞭解如何使用和管理您政府組織的 Teams 原則套件。
+ms.openlocfilehash: fdaacb8b551c1031d71c522dffdbc4afd9f551a8
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62384101"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66564091"
 ---
-# <a name="teams-policy-packages-for-government"></a>Teams政府政策套件
+# <a name="teams-policy-packages-for-government"></a>適用于政府機關的 Teams 原則套件
 
 > [!NOTE]
-> 在政府部署或 DoD 部署Microsoft 365提供GCC套件。
+> 原則套件目前不適用於 Microsoft 365 政府版 GCC High 或 DoD 部署。
 
 ## <a name="overview"></a>概觀
 
@@ -41,19 +41,19 @@ Microsoft Teams 中的 [原則套件](manage-policy-packages.md) 是預先定義
 - 應用程式設定
 - 即時活動
 
-Teams目前包含下列政府政策套件。
+Teams 目前包含下列適用于政府的原則套件。
 
 |Microsoft Teams 系統管理中心所列的套件名稱|最適合用於|描述 |
 |---------|---------|---------|
-|公共安全專員  |貴政府組織的公開安全人員  |建立一組套套用至貴組織的公開安全人員之原則與原則設定。 |
-|前線管理員  |您政府組織的前線管理員 |建立一組原則，並套用這些設定給貴組織的前線管理員。|
-|前線工作人員  |您政府組織的前線工作人員 |建立一組原則，並套用這些設定給貴組織的前線工作人員。|
+|公開安全人員  |您政府組織中的公共安全人員  |建立一組原則設定，套用至貴組織中的公用安全人員。 |
+|第一線管理員  |您政府組織中的前線主管 |建立一組原則，並將這些設定套用至組織中的 [前線管理員]。|
+|第一線工作人員  |您政府組織中的前線工作人員 |建立一組原則，並將這些設定套用至貴組織中的一線工作人員。|
 
-![醫療保健政策套件的螢幕擷取畫面。](media/policy-packages-gov.png)
+![醫療保健原則套件的螢幕擷取畫面。](media/policy-packages-gov.png)
 
-每個個別原則都會被賦予原則套件的名稱，以便輕鬆識別連結至原則套件的原則。 例如，當您將公用安全人員政策套件指派給貴組織的使用者時，會針對套件中的每個PublicSafety_Officer建立名為 PublicSafety_Officer 的策略。
+每個個別原則都會被賦予原則套件的名稱，以便輕鬆識別連結至原則套件的原則。 例如，當您將 Public safety officer 原則套件指派給貴組織中的使用者時，系統會為套件中的每個原則建立一個名為PublicSafety_Officer的原則。
 
-![醫療保健診所工作人員套件中之政策螢幕擷取畫面。](media/policy-packages-public-safety-officer.png)
+![醫療保健工作者套件中原則的螢幕擷取畫面。](media/policy-packages-public-safety-officer.png)
 
 ## <a name="manage-policy-packages"></a>管理原則套件
 
@@ -104,4 +104,4 @@ Teams目前包含下列政府政策套件。
 
 [在 Teams 中管理原則套件](manage-policy-packages.md)
 
-[指派策略套件給使用者和群組](assign-policy-packages.md)
+[指派原則套件給使用者和群組](assign-policy-packages.md)

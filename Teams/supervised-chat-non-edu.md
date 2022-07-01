@@ -1,7 +1,7 @@
 ---
 title: 針對非教育租使用者使用受監督的聊天
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: angch
 ms.topic: article
@@ -14,13 +14,13 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解Microsoft Teams會議中非教育租使用者受監督的聊天。
-ms.openlocfilehash: 4076a2dfa93a037912649bbac88c876c498f1586
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+description: 瞭解 Microsoft Teams 會議中非教育租使用者受監督的聊天。
+ms.openlocfilehash: a06aa7b9ae24e29a70b3c1a4fc74fae134616b6b
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681564"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66564181"
 ---
 # <a name="supervised-chats-for-non-educational-tenants"></a>非教育租使用者受監督的聊天
 
@@ -48,13 +48,13 @@ ms.locfileid: "65681564"
 
 - 受限制的許可權：這個角色非常適合需要受到監督的使用者。 他們只能與擁有完整許可權的使用者開始聊天。 他們可以參與具有完整許可權的使用者邀請他們進行的任何交談。 在同盟聊天案例中，只有擁有受限制使用者租使用者之完整許可權的使用者才能將受限制的使用者新增至聊天。
 
-若要設定使用者的聊天許可權角色，請使用您在系統管理入口網站的訊息中心原則選項內找到的聊天許可權 **角色** 原則Teams。 您可以使用 PowerShell 來使用 ChatPermissionRole 原則以及 [完整]、[有限] 或 [受限制] 值來定義角色。 這項原則在 [CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)底下。
+若要設定使用者的聊天許可權角色，請使用 Teams 系統管理入口網站中訊息原則選項內的聊天許可權 **角色** 原則。 您可以使用 PowerShell 來使用 ChatPermissionRole 原則以及 [完整]、[有限] 或 [受限制] 值來定義角色。 這項原則在 [CsTeamsMessagingPolicy](/powershell/module/skype/set-csteamsmessagingpolicy)底下。
 
 您無法將角色指派給租使用者中的來賓。 來賓會獲派有限的角色。
 
 ## <a name="allow-supervised-chat"></a>允許受監督的聊天
 
-您的租使用者預設會停用受監督的聊天。 設定使用者的聊天許可權角色之後，您可以移至全組織 **設定** \> **Teams 設定**，並將 **角色型聊天** 許可權原則設定為 [**開** 啟]，在租使用者內啟用受監督的聊天。 您也可以使用 PowerShell 將 AllowRoleBasedChatPermissions 設為 True 來啟用受監督的聊天。 此 Cmdlet 位於 [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)底下。
+您的租使用者預設會停用受監督的聊天。 設定使用者的聊天許可權角色之後，您可以移至 [全組織設定 **Teams** **設定** \> ] 並將 [**角色型聊天** 許可權原則] 設定為 [**開** 啟]，在租使用者內啟用受監督的聊天。 您也可以使用 PowerShell 將 AllowRoleBasedChatPermissions 設為 True 來啟用受監督的聊天。 此 Cmdlet 位於 [CsTeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)底下。
 
 租使用者中的所有使用者都必須啟用受監督的聊天功能，而且您只能為部分使用者啟用。
 

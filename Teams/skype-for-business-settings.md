@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 系統管理中心管理商務用 Skype設定
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: jastark
 ms.topic: article
@@ -22,12 +22,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Microsoft Teams 系統管理中心管理商務用 Skype功能的設定。
-ms.openlocfilehash: f3c79e40d55319af9a45063893bed285140c6d7f
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 06c5cc4a199a7b29f2db97159850583d6927fc13
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681334"
+ms.lasthandoff: 06/30/2022
+ms.locfileid: "66563701"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理商務用 Skype設定
 
@@ -35,18 +35,18 @@ ms.locfileid: "65681334"
 <a name="sfb-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-身為系統管理員，Microsoft Teams系統管理中心是您管理組織中商務用 Skype使用者商務用 Skype功能的地方。 您可以在使用者詳細資料頁面的 **[商務用 Skype**] 索引 **標籤上**，于商務用 Skype頁面管理貴 [組織的](#manage-skype-for-business-settings-for-your-organization)設定，以及 [個別使用者](#manage-skype-for-business-settings-for-individual-users)的設定。
+身為系統管理員，Microsoft Teams 系統管理中心是您管理貴組織中商務用 Skype使用者商務用 Skype功能的地方。 您可以在使用者詳細資料頁面的 **[商務用 Skype**] 索引 **標籤上**，于商務用 Skype頁面管理貴 [組織的](#manage-skype-for-business-settings-for-your-organization)設定，以及 [個別使用者](#manage-skype-for-business-settings-for-individual-users)的設定。
 
-只有當貴組織的共存模式未設為僅 **Teams** 時，您才會看到 **商務用 Skype** 頁面。 同樣地，如果使用者的共存模式不只 **Teams**，您只會看到使用者 **的 [商務用 Skype] 索引標籤**。 若要深入瞭解共存模式，請參閱[瞭解Teams和商務用 Skype共存與互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)與[設定您的共存與升級設定](setting-your-coexistence-and-upgrade-settings.md)。
+只有當貴組織的共存模式未設定為 **Teams** 時，您才會看到 **商務用 Skype** 頁面。 同樣地，如果使用者的共存模式並非僅限 Teams，您只會看到使用者的 **[商務用 Skype**]**索引標籤**。 若要深入瞭解共存模式，請參閱[瞭解 Teams 和商務用 Skype共存和互通性](teams-and-skypeforbusiness-coexistence-and-interoperability.md)與[設定您的共存與升級設定](setting-your-coexistence-and-upgrade-settings.md)。
 
 > [!NOTE]
-> 商務用 Skype設定先前位於 Microsoft Teams 系統管理中心的 **舊版入口** 網站中。 隨著舊版入口網站的淘汰，我們將設定移轉到Teams系統管理中心的這些新位置，以供商務用 Skype管理。
+> 商務用 Skype設定先前位於 Microsoft Teams 系統管理中心的 **舊版入口** 網站。 隨著舊版入口網站的淘汰，我們將設定移轉到 Teams 系統管理中心的這些新位置，以便商務用 Skype管理。
 
-您必須獲指派全域系統管理員或商務用 Skype系統管理員的[Azure AD 系統管理員角色](/azure/active-directory/roles/permissions-reference)，才能管理 Microsoft Teams 系統管理中心的商務用 Skype功能。
+您必須被指派全域系統管理員或商務用 Skype系統管理員的[Azure AD 系統管理員角色](/azure/active-directory/roles/permissions-reference)，才能在 Microsoft Teams 系統管理中心管理商務用 Skype功能。
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>管理貴組織的商務用 Skype設定
 
-在 Microsoft Teams系統管理中心的左側導覽畫面中，移至 **全組織設定**  >  **商務用 Skype**。 您可以在這裡為組織中的所有商務用 Skype使用者設定和管理Skype 會議廣播、目前狀態隱私權及行動裝置通知。
+在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 **全組織設定**  >  **商務用 Skype**。 您可以在這裡為組織中的所有商務用 Skype使用者設定和管理Skype 會議廣播、目前狀態隱私權及行動裝置通知。
 
 ### <a name="skype-meeting-broadcast"></a>Skype 會議廣播
 
@@ -80,7 +80,7 @@ ms.locfileid: "65681334"
 根據預設，貴組織商務用 Skype使用者可以查看其他商務用 Skype使用者的目前狀態 (，例如 [線上]、[忙碌] 或 [離開]) 。 選擇下列其中一項，以設定誰可以查看您的商務用 Skype使用者的目前狀態。
 
 - **自動顯示目前狀態資訊**：貴組織中尚未新增至使用者 **外部** 或 **封鎖** 清單的任何商務用 Skype使用者，都可以看到該使用者的目前狀態。
-- **只向使用者的連絡人顯示目前狀態資訊**：未新增至 **外部或****封鎖** 清單之使用者連絡人清單中的任何商務用 Skype使用者，都可以看到該使用者的目前狀態。 使用者可以在商務用 Skype中覆寫此設定，方法是移至 **[設定**  >  **工具**  >  **選項]**。
+- **只向使用者的連絡人顯示目前狀態資訊**：未新增至 **外部或****封鎖** 清單之使用者連絡人清單中的任何商務用 Skype使用者，都可以看到該使用者的目前狀態。 使用者可以在 商務用 Skype 中覆寫此設定，方法是移至 [**設定**  >  **工具選項**  >  **]**。
 
 #### <a name="mobile-notifications"></a>行動裝置通知
 
@@ -93,7 +93,7 @@ ms.locfileid: "65681334"
 - 當您關閉推播通知時，使用者無法將它們重新開啟。 
 
 > [!IMPORTANT]
-> Microsoft 會使用其他公司為Windows Phone、iPhone和iPad使用者提供即時商務用 Skype行動裝置通知。 請參閱本 [隱私權聲明](https://go.microsoft.com/fwlink/p/?linkid=247732)。
+> Microsoft 會使用其他公司為Windows Phone、iPhone 和 iPad 使用者提供即時商務用 Skype行動通知。 請參閱本 [隱私權聲明](https://go.microsoft.com/fwlink/p/?linkid=247732)。
 
 ## <a name="manage-skype-for-business-settings-for-individual-users"></a>管理個別使用者的商務用 Skype設定
 
@@ -101,7 +101,7 @@ ms.locfileid: "65681334"
 <a name="sfb-user-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-若要管理個別使用者的商務用 Skype設定，請在Teams系統管理中心的左側導覽中，移至 [**使用者**]，按一下使用者的顯示名稱以開啟 [使用者詳細資料] 頁面，然後選 **取 [商務用 Skype設定]** 索引標籤。您可以在這裡為使用者設定外部存取和會議設定。
+若要管理個別使用者的商務用 Skype設定，請在 Teams 系統管理中心的左側導覽中，移至 [**使用者**]，按一下使用者的顯示名稱以開啟使用者詳細資料頁面，然後選 **取 [商務用 Skype設定] 索引卷** 標。您可以在這裡為使用者設定外部存取和會議設定。
 
 :::image type="content" source="media/skype-for-business-settings-user.png" alt-text="使用者詳細資料頁面上商務用 Skype索引標籤的螢幕擷取畫面。":::
 
@@ -110,7 +110,7 @@ ms.locfileid: "65681334"
 您可以選擇性地允許或封鎖使用者是否可以與組織外部人員通訊。
 
 - **外部商務用 Skype使用者**：如果您要允許使用者與同盟網域中的商務用 Skype使用者通訊，請開啟此功能。
-- **外部Skype使用者**：如果您要允許使用者與Skype使用者通訊，請開啟此功能。 
+- **外部 Skype 使用者**：如果您想要允許使用者與 Skype 使用者通訊，請開啟此功能。 
 
 ### <a name="meeting-settings"></a>會議設定
 

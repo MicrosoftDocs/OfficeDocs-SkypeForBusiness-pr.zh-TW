@@ -17,12 +17,12 @@ description: 瞭解當您需要執行電子檔探索時該怎麼辦，例如當�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 6f24c780944bfed6bb10fb8b1cd7634edc1ce850
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 4b5a0ca0cb52c4b444769b7bfc25b17cab80a02b
+ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562422"
+ms.locfileid: "66563941"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>對 Microsoft Teams 中的內容進行電子檔探索調查
 
@@ -38,7 +38,7 @@ ms.locfileid: "66562422"
 
 |內容類型|eDiscoverable|注釋|
 |---|---|---|
-|音訊錄製|否||
+|音訊錄製|是||
 |卡片內容|是|如需詳細資訊，請參閱 [搜尋卡片內容](#search-for-card-content) 。|
 |聊天連結|是||
 |聊天訊息|是|這包括標準 Teams 頻道中的內容、1 對 1 聊天、1：N 群組聊天，以及與來賓使用者參與者聊天。|
@@ -51,7 +51,6 @@ ms.locfileid: "66562422"
 |會議 IM 交談|是||
 |會議中繼資料<sup>1</sup>|是||
 |頻道名稱|是||
-|私人和共用頻道聊天訊息|是||
 |報價|是|可搜尋引用的內容。 不過，搜尋結果不會指出已引用內容。|
 | (贊、心和其他反應等反應) |是||
 |主題|是||
