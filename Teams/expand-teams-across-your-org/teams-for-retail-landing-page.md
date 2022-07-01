@@ -22,12 +22,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 03b68923ae47324525f192949d442e94e36685c2
-ms.sourcegitcommit: 55926815f13efce42fb45f63d95515a5765e0d40
+ms.openlocfilehash: f965e69e3dda921cf5fdf348a728db403fc26a84
+ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65753046"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "66494730"
 ---
 # <a name="get-started-with-teams-for-retail"></a>開始使用適用於零售的 Teams
 
@@ -127,7 +127,7 @@ Microsoft Teams 中的 Bookings 應用程式提供組織一個簡單的方式，
 
 由於人力流動率高，快速新增和移除帳戶，以及指派正確原則的能力為重要。 開始使用 Microsoft 365 系統管理中心的前線工作者上線精靈。 精靈會為前線工作者設定團隊，並將授權和原則套件指派給每個團隊成員。 如需詳細資訊，請參閱[使用前線工作者上線精靈，讓您的前線工作者開始工作](../flw-onboarding-wizard.md)。
 
-如果您有許多要新增的使用者 (超過 100 位)，您可以快速佈建使用者和團隊，並為所有相關原則指派[針對前線工作者編寫的指令碼部署](../flw-scripted-deployment.md)。
+如果有許多團隊需要部署，請參閱 [為前線工作者大規模部署團隊](../deploy-teams-at-scale.md)。
 
 由於前線工作者每天的工作時間通常不同，因此前線工作者的目前狀態通常較無法預測。 身為系統管理員，您可以使用班次型存取 (預覽) 設定 Teams，以顯示組織中前線工作者的一組以班次為基礎的目前狀態，指出他們何時到班和下班。 您也可以管理前線工作者下班時對 Teams 的存取權。 如需詳細資訊，請參閱[管理前線工作者以班次為基礎的存取](shifts/manage-shift-based-access-flw.md)。
 
