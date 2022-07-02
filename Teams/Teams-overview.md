@@ -1,7 +1,7 @@
 ---
 title: 歡迎使用 Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.custom:
 - intro-overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57ec8ab827eae0d0c6334e11fa75b068544f8505
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
+ms.openlocfilehash: 9b91bff459d93dee392a428e1a141622c8937c70
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625924"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66606242"
 ---
 # <a name="welcome-to-microsoft-teams"></a>歡迎使用 Microsoft Teams
 如果您是組織中 Microsoft Teams 的系統管理員，那您便是正確的人選。 當您準備好開始使用 Teams 時，請從[如何推出 Teams](./deploy-overview.md) 和[使用 Microsoft 365 和 Microsoft Teams 設定安全的共同作業](/microsoft-365/solutions/setup-secure-collaboration-with-teams)開始。
@@ -34,7 +34,7 @@ ms.locfileid: "61625924"
 
 請勿錯過我們的 Teams 系統管理員適用的「歡迎使用 Teams」影片 (剛好超過 3 分鐘)：
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vi2L]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
 如果您要尋找終端使用者 Teams 說明，請按一下應用程式左側的 **[說明]**，或移至 [Microsoft Teams 說明中心](https://support.office.com/teams)。若要進行訓練，移至 [Microsoft Teams 訓練](training-microsoft-teams-landing-page.md)。 
 

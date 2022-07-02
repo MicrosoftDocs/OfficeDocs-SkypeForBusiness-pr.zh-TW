@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器，) 經過 Microsoft Teams 認證。
-ms.openlocfilehash: 93e0832b73ef0f62a00cfdf454b1fbcffb715542
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: a2f106b71cc6494594ad34b9aa8dbfb61789a67a
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494340"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605702"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
 
@@ -81,6 +81,7 @@ ms.locfileid: "66494340"
 
 | 製造商        | 模型                                                     | 合格      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|戴爾                 |WB5023 相機                                              |6/29/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |ADAPT 560 II 頭戴式裝置                                       |6/22/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |C10/C20/C50 系列耳機                                |5/31/2022       |已通過 Microsoft Teams 認證                           |
 |聚                 |Studio P21 監視器                                         |5/12/2022       |已通過 Microsoft Teams 認證                           |

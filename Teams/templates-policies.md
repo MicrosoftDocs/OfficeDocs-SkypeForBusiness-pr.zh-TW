@@ -1,7 +1,7 @@
 ---
 title: 在系統管理中心管理小組範本
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在系統管理中心管理小組範本
-ms.openlocfilehash: 46b59d42ae464a5f09e9f24ecc91378bd6464034
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 9f2044f059414f9afe1ff335f8204cd26861164b
+ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681394"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "66605902"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>在系統管理中心管理小組範本
 
@@ -70,11 +70,11 @@ ms.locfileid: "65681394"
 > [!Note]
 > 目前不支援根據群組成員資格將範本原則指派給使用者，例如指派給安全性群組中的所有使用者。 這項功能未來將會提供使用。
 
-如需在 Teams 中指派原則的概觀，請參閱[在 Teams 中指派原則](policy-assignment-overview.md)。
+如需 Teams 中指派原則的概觀，請參閱 [在 Teams 中指派原則](policy-assignment-overview.md)。
 
 ### <a name="assign-a-templates-policy-to-individual-users"></a>指派範本原則給個別使用者
 
-您可以使用Teams系統管理中心或 PowerShell，一次指派範本原則給個別使用者或少數使用者。 若要深入瞭解，請參閱 [指派原則給個別使用者](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)。
+您可以使用 Teams 系統管理中心或 PowerShell，一次指派範本原則給個別使用者或少數使用者。 若要深入瞭解，請參閱 [指派原則給個別使用者](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)。
 
 ### <a name="assign-a-templates-policy-to-a-batch-of-users"></a>指派範本原則給一批使用者
 
@@ -102,11 +102,11 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 答：任何已刪除的範本將不再出現在任何範本原則中。
 
-**問：我可以將多個使用者指派給Teams系統管理中心的範本原則嗎？**
+**問：我可以將多個使用者指派給 Teams 系統管理中心的範本原則嗎？**
 
 答：是。
 
-1. 在Teams系統管理中心，移至 **[使用者**  >  **管理使用者]**。
+1. 在 Teams 系統管理中心，移至 **[使用者**  >  **管理使用者]**。
 1. 在使用者清單中，選取您要指派給範本原則的使用者。
 1. 選取 **[編輯設定]**，然後在 **[範本原則**] 底下，選擇您要指派的原則。
 1. 選擇 [ **套用]**。
@@ -115,7 +115,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 **問：如何?檢視指派給特定原則的所有使用者嗎？**
 
-答：在Teams系統管理中心：
+答：在 Teams 系統管理中心：
 
 1. 移至 **[使用者**  >  **管理使用者]**。
 2. 選 **取 [篩選**]，設定範本原則的篩選，然後選擇 [ **套用]**。
@@ -132,7 +132,7 @@ New-CsBatchPolicyAssignmentOperation -OperationName <Any operation name> -Policy
 
 ## <a name="related-articles"></a>相關文章
 
-- [在系統管理中心使用小組範本開始](./get-started-with-teams-templates-in-the-admin-console.md)
+- [在系統管理中心開始使用團隊範本](./get-started-with-teams-templates-in-the-admin-console.md)
 
 - [建立自訂團隊範本](./create-a-team-template.md)
 
