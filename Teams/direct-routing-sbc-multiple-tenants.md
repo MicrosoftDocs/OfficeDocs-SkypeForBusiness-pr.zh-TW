@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何設定一個會話框線控制器 (SBC) ，為 Microsoft 合作夥伴和/或 PSTN 電信業者提供多個租使用者服務。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 48a045ea84cabf34ec6f95b4aa0f605a3155d50e
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9221414053b0ee92b87553e0f81c23b41b23f0fb
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240662"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616339"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>設定多個租用戶的工作階段邊界控制器
 
@@ -139,7 +139,7 @@ SBC 需要憑證才能驗證連線。 針對 SBC 主機服務案例，電信業�
 - 含 Office 365 E1/E3/E5/A3/A5 或 Microsoft 365 E3/E5/A3/A5 的使用者帳戶
 - 含 Office 365 F1/F3 或 Microsoft 365 F1/F3 的使用者帳戶
 - 具有通用區域電話的使用者帳戶
-- 具有虛擬使用者授權的資源帳戶
+- 具有 **Microsoft Teams 電話資源帳戶授權的資源帳戶**
 
 此外，帳戶的 UPN (使用者主體名稱) 或商務用 Skype內部部署 SIP 位址必須與新建立的網域使用相同的 FQDN。
 
@@ -189,22 +189,22 @@ SBC 需要憑證才能驗證連線。 針對 SBC 主機服務案例，電信業�
 
 10. 選取 **[更新 DNS 設定**] 頁面上的 [**完成**]。
 
-11. 確定狀態已 **設定完成**。 
-    
+11. 確定狀態已 **設定完成**。
+
     ![顯示安裝程式狀態的頁面螢幕擷取畫面。](media/direct-routing-12-sbc-setup-complete.png)
-    
+
 > [!NOTE]
 > 個別用戶端的基底 URL 和子域必須位於相同的租使用者上，才能讓您新增 _直接路由主幹_ 。
 
 ### <a name="activate-the-subdomain-name"></a>啟用子功能變數名稱稱
 
 註冊子功能變數名稱稱之後，您需要新增至少一個 Teams 授權使用者或資源帳戶來啟用它。 可接受的帳戶將會使用下列其中一種 SKU 的授權：
- 
+
 -   含 Office 365 E1/E3/E5/A3/A5 或 Microsoft 365 E3/E5/A3/A5 的使用者帳戶
 -   含 Office 365 F1/F3 或 Microsoft 365 F1/F3 的使用者帳戶
 -   具有通用區域電話的使用者帳戶
--   具有虛擬使用者授權的資源帳戶
- 
+-   具有Microsoft Teams 電話 **資源帳戶授權的資源帳戶**
+
 此外，帳戶的 UPN (使用者主體名稱) 或商務用 Skype內部部署 SIP 位址必須與新建立的子域使用相同的 FQDN。
 
 如需在 Microsoft 365 組織中新增使用者的詳細資訊，請參閱 [取得 Microsoft 365 的說明](/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)。

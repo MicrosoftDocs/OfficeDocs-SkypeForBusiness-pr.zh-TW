@@ -1,7 +1,7 @@
 ---
 title: 使用 Microsoft Teams 系統管理員角色來管理 Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 09/19/2018
 ms.topic: article
@@ -19,58 +19,58 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - seo-marvel-apr2020
 ms.reviewer: islubin
-description: 瞭解如何使用系統管理角色來指定需要不同層級存取權限的系統管理員，以管理Teams。
+description: 瞭解如何使用系統管理角色來指定需要不同層級存取權限的系統管理員來管理 Teams。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c227abe677d75d06fd6577ccbfc8057c82f00002
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+ms.openlocfilehash: 17a8f6e9475355a5ee0f8960294bf3589d228ed1
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456956"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615449"
 ---
 # <a name="use-microsoft-teams-administrator-roles-to-manage-teams"></a>使用 Microsoft Teams 系統管理員角色來管理 Teams
 
-您可以使用 Azure Active Directory (Azure AD) ，指定需要不同層級存取權限的系統管理員來管理Microsoft Teams。 系統管理員可以管理整個Teams工作量，或者他們可以委派許可權來疑難排解通話品質問題或管理貴組織的電話需求。
+使用 Azure Active Directory (Azure AD) ，您可以指定需要不同層級存取才能管理 Microsoft Teams 的系統管理員。 系統管理員可以管理整個 Teams 工作負載，也可以擁有針對通話品質問題進行疑難排解或管理貴組織電話語音需求的委派許可權。
 
-## <a name="teams-roles-and-capabilities"></a>Teams角色和功能
+## <a name="teams-roles-and-capabilities"></a>Teams 角色和功能
 
-系統提供Teams系統管理員角色：Teams、Teams通訊系統管理員、Teams通訊支援專家、Teams通訊支援工程師，以及 Teams系統管理員。 請查閱下表，瞭解每個角色可以執行哪些工作，以及系統管理員可以在系統管理中心與 PowerShell Microsoft Teams哪些工具。
+有數個 Teams 系統管理員角色可供使用：Teams 系統管理員、Teams 通訊系統管理員、Teams 通訊支援專家、Teams 通訊支援工程師，以及 Teams 裝置系統管理員。 請檢閱下表，瞭解每個角色可以做什麼，以及系統管理員可以在 Microsoft Teams 系統管理中心和 PowerShell 中使用哪些工具。
 
 > [!NOTE]
-> 商務用 Skype Online 系統管理員可以透過 PowerShell 管理Teams商務用 Skype  **線上** 應用程式策略。
+> 商務用 Skype Online 系統管理員可以透過 PowerShell 同時管理 **Teams** 和 **商務用 Skype Online** 應用程式原則。
 
-若要追蹤，您必須是系統管理員。本文提供取得許可權的指示。
+若要追蹤，您必須是系統管理員。取得許可權的指示請參閱本文。
 
 <!-- add Global admin role? -->
 
 | 角色                                    | 可以執行這些工作                                                           | 可以存取下列工具                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Teams 系統管理員             | 管理Teams服務，以及管理及建立Microsoft 365群組。        | 系統管理中心Microsoft Teams相關的 PowerShell 控制項，包括：<ul><li> 管理會議，包括會議策略、組配置和會議橋接器。<sup>1，2</sup></li><li>管理語音，包括通話策略和電話號碼庫存和工作分派。<sup>1，3</sup></li><li>管理訊息，包括訊息策略。<sup>1，2</sup></li><li>管理所有全組織設定，包括聯盟、團隊升級和 Teams 用戶端設定。<sup>1，2</sup></li><li>管理組織中團隊及其關聯的設定，包括透過 PowerShell 支援的成員資格 (群組管理、Teams系統管理中心) 。<sup>1，2</sup></li><li>管理Teams認證的裝置，並設定及指派設定策略。<sup>1</sup></li><li>使用進一步疑難排解工具集來查看使用者設定檔頁面及疑難排解使用者通話品質問題。<sup>2</sup> </li><li>存取系統管理中心Microsoft Teams報告</li><li> 使用通話品質儀表板 (CQD) 中公開的資料，存取、監控及疑難排解租使用者的通話品質與可靠性，) 受到通話品質不佳影響的使用者。 建立新的通話品質報告，並根據需要更新和移除通話品質報告。 Upload並更新 CQD 建築物資料。</li><li> [將應用程式發佈到系統管理中心中的租Microsoft Teams目錄](manage-apps.md)</li></ul> |
-| Teams 通訊系統管理員      | 管理服務內部的通話Teams功能。               | 管理會議，包括會議策略、組配置和會議橋接器。<sup>1，2</sup><br><br> 管理語音，包括通話策略和電話號碼庫存和工作分派。<sup>1，3</sup><br><br> 使用進一步疑難排解工具集來查看使用者設定檔頁面並疑難排解使用者通話品質問題。<sup>2</sup> <br><br> 使用通話品質儀表板 (CQD) 中公開的資料，存取、監控及疑難排解租使用者的通話品質和可靠性) 因為通話品質不佳而受到影響的使用者。 建立新的通話品質報告，並根據需要更新和移除通話品質報告。 Upload並更新 CQD 建築物資料。|
-| Teams 通訊支援工程師   | 使用進Teams疑難排解內部 **通訊** 問題。 | 使用進一步疑難排解工具集來查看使用者設定檔頁面及疑難排解使用者通話品質問題。<sup>2</sup> <br><br> 使用通話品質儀表板 (CQD) 中公開的資料，存取、監控及疑難排解租使用者的通話品質和可靠性) 因為通話品質不佳而受到影響的使用者。 |
-| Teams通訊支援專員 | 使用基本工具Teams內部通訊 **問題疑難排解**。    | 存取使用者設定檔頁面，以在通話分析中疑難排解通話。 只能查看要搜尋之特定使用者的使用者資訊。<sup>2</sup> <br><br> 使用 CQD 儀表板和 CQD 中公開的資料存取、監控及疑難排解租使用者 (品質) 。 |
-| Teams裝置系統管理員              | 管理已配置為與服務Teams裝置。                    | 管理裝置設定和更新、審查已連接之周邊的裝置健康情況與狀態、設定及套用設定設定檔，以及重新開機裝置。<p>Teams系統管理員角色不提供通話品質資料或通話分析的存取權。 若要查看通話品質資料或通話分析，您必須獲得通訊Teams管理員角色。 |
+| Teams 系統管理員             | 管理 Teams 服務，以及管理和建立Microsoft 365 群組。        | Microsoft Teams 系統管理中心內的所有專案以及相關聯的 PowerShell 控制項，包括：<ul><li> 管理會議，包括會議原則、設定和會議橋接器。<sup>1，2</sup></li><li>管理語音，包括通話原則和電話號碼庫存和指派。<sup>1，3</sup></li><li>管理訊息中心，包括訊息原則。<sup>1，2</sup></li><li>管理全組織設定，包括同盟、團隊升級和團隊用戶端設定。<sup>1，2</sup></li><li>管理組織中的團隊及其相關設定，包括透過 PowerShell 支援的成員資格 (群組管理、Teams 系統管理中心的團隊管理) 。<sup>1，2</sup></li><li>管理 Teams 認證的裝置，並設定和指派組態原則。<sup>1</sup></li><li>使用進階疑難排解工具組，檢視使用者設定檔頁面並疑難排解使用者通話品質問題。<sup>2</sup> </li><li>存取 Microsoft Teams 系統管理中心的所有報告</li><li> 使用 [通話品質儀表板] (CQD 中所公開的資料，存取、監視及疑難排解租使用者的通話品質及可靠性，) 降低到受通話品質不佳影響的使用者。 視需要建立新的通話品質報告、更新和移除通話品質報告。 上傳和更新 CQD 建築物資料。</li><li> [在 Microsoft Teams 系統管理中心將應用程式發佈到租使用者應用程式目錄](manage-apps.md)</li></ul> |
+| Teams 通訊系統管理員      | 管理 Teams 服務中的通話和會議功能。               | 管理會議，包括會議原則、設定和會議橋接器。<sup>1，2</sup><br><br> 管理語音，包括通話原則和電話號碼庫存和指派。<sup>1，3</sup><br><br> 使用進階疑難排解工具組來檢視使用者設定檔頁面，並疑難排解使用者通話品質問題。<sup>2</sup> <br><br> 使用 [通話品質儀表板] (CQD 中所公開的資料，存取、監視及疑難排解租使用者的通話品質和可靠性，) 降低到受通話品質不佳影響的使用者。 視需要建立新的通話品質報告、更新和移除通話品質報告。 上傳和更新 CQD 建築物資料。|
+| Teams 通訊支援工程師   | 使用 **進** 階工具疑難排解 Teams 內的通訊問題。 | 使用進階疑難排解工具組，檢視使用者設定檔頁面並疑難排解使用者通話品質問題。<sup>2</sup> <br><br> 使用 [通話品質儀表板] (CQD 中所公開的資料，存取、監視及疑難排解租使用者的通話品質和可靠性，) 降低到受通話品質不佳影響的使用者。 |
+| Teams 通訊支援專家 | 使用 **基本** 工具疑難排解 Teams 內的通訊問題。    | 在 Call Analytics 中針對通話進行疑難排解的存取使用者設定檔頁面。 只能檢視搜尋特定使用者的使用者資訊。<sup>2</sup> <br><br> 使用 [通話品質儀表板] (CQD) 中公開的資料，存取、監視及疑難排解租使用者的通話品質和可靠性。 |
+| Teams 裝置系統管理員              | 管理設定為搭配 Teams 服務使用的裝置。                    | 管理裝置設定和更新、檢閱連接周邊裝置的裝置健康情況和狀態、設定和套用組態設定檔，以及重新開機裝置。<p>Teams 裝置系統管理員角色不提供通話品質資料或通話分析的存取權。 若要檢視通話品質資料或通話分析，您必須獲派 Teams Communications 系統管理員角色。 |
 
-<sup>1</sup> [PowerShell - Microsoft Teams](https://www.powershellgallery.com/packages/MicrosoftTeams/)模組 (公開發行 1.1.6 或更新版本已與 商務用 Skype Online Connector.) <br>
-<sup>2</sup> [Microsoft Teams系統](./manage-teams-skypeforbusiness-admin-center.md) 
- 管理中心<sup>3</sup> Teams系統管理員帳戶必須擁有有效的Teams授權。
+<sup>1</sup> [PowerShell - Microsoft Teams 模組](https://www.powershellgallery.com/packages/MicrosoftTeams/) (公開發行 1.1.6 或更新版本已與 商務用 Skype Online Connector.) 整合<br>
+<sup>2</sup> [Microsoft Teams 系統管理中心](./manage-teams-skypeforbusiness-admin-center.md) 
+ <sup>3</sup> Teams 系統管理員帳戶必須具備有效的 Teams 授權。
 <!-- <sup>3</sup> Azure Active Directory admin center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 <sup>4</sup> Microsoft 365 Admin Center <<note that these are going to come later because they're related to Microsoft 365 Group management>> 
 -->
-有關可用於管理帳戶的管理工具Microsoft Teams，請參閱[管理Microsoft Teams](./manage-teams-skypeforbusiness-admin-center.md)。
+如需有關可用來管理 Microsoft Teams 的系統管理工具的詳細資訊，請參閱 [管理 Microsoft Teams](./manage-teams-skypeforbusiness-admin-center.md)。
 
-若要進一Teams限制、規格及其他需求，請參閱適用于[Microsoft Teams。](limits-specifications-teams.md)
+如需適用于 Teams 的限制、規格及其他需求的詳細資訊，請參閱 [Microsoft Teams 的限制和規格](limits-specifications-teams.md)。
 
-## <a name="assign-users-to-each-role"></a>將使用者指派給每個角色
+## <a name="assign-users-to-each-role"></a>指派使用者給每個角色
 
-您可以將使用者指派給這些角色，Azure AD。 若要瞭解如何在 Azure AD 中指派系統管理角色給使用者，請參閱在 Azure Active Directory 中指派[使用者至系統管理員Azure Active Directory](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。
+您可以在 Azure AD 中指派使用者擔任這些角色。 若要瞭解如何在 Azure AD 中指派系統管理角色給使用者，請參閱 [在 Azure Active Directory 中指派使用者給系統管理員角色](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。
 
-## <a name="cmdlets-available-for-each-role"></a>每個角色可用的 Cmdlet
+## <a name="cmdlets-available-for-each-role"></a>每個角色都可使用 Cmdlet
 
-這些系統管理員角色的 PowerShell 工具大多都採用 Teams PowerShell 模組，因此請注意，這些系統管理員角色可存取的一些 Cmdlet 可控制 商務用 Skype Online 也使用的共用設定。 
+這些系統管理員角色的大部分 PowerShell 工具都存在於 Teams PowerShell 模組中，請務必注意，這些系統管理員角色可存取某些 Cmdlet，以控制也用於 商務用 Skype Online 的共用設定。 
 
-若要查看 Cmdlet 的完整清單：
+若要檢視 Cmdlet 的完整清單：
 
 ```powershell
 Get-Command -Module MicrosoftTeams

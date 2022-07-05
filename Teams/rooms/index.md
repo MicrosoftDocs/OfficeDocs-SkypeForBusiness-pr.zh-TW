@@ -8,6 +8,7 @@ audience: ITPro
 ms.topic: article
 feedback_system: None
 ms.service: msteams
+ms.subservice: teams-devices
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -15,19 +16,19 @@ ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: 瞭解如何設定Microsoft Teams 會議室，包括規劃、部署和管理系統，以建立您理想的虛擬會議室。
-ms.custom: seo-marvel-may2020
-ms.openlocfilehash: 917b260bc7377c47be52c71179a7a027649846b4
-ms.sourcegitcommit: 726df9ecac561bda18e349a5adab9bc85e52844d
+ms.custom: seo-marvel-may2020; intro-overview
+ms.openlocfilehash: e4ef69f21ed47c283f9576984d38730ddbd5c2d6
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "65761125"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615409"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams 會議室
 
 :::row:::
     :::column span="2":::
-       將會議空間從小型交集區轉換成具有豐富共同作業Teams體驗的大型會議室，這些體驗簡單便於使用、部署及管理。
+       使用簡單、部署及管理的豐富共同作業 Teams 體驗，將會議空間從小型交集區轉換成大型會議室。
 
        使用單點觸控加入，按時開始會議，然後立即投影到會議室中的顯示器，並分享給遠端參與者。
 
@@ -45,7 +46,6 @@ ms.locfileid: "65761125"
 |    <img src="/office/media/icons/list-123-teams.svg" width="40 px" height="40 px" alt="plan icon">           | <img src="/office/media/icons/deploy-teams.svg" width="40 px" height="40 px" alt="deploy icon">              |   <img src="/office/media/icons/toolbox.svg" width="40 px" height="40 px" alt="manage icon">            |
 | ------------- | ------------- | ------------- |
 |  **[規劃](./rooms-plan.md)** |  **[部署](./rooms-deploy.md)** |  **[管理](./rooms-manage.md)** |
-
 
 [:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teams 會議室 Microsoft Mechanics 影片。":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 

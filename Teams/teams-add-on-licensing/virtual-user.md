@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams 電話標準 – 虛擬使用者授權
+title: Microsoft Teams 電話資源帳戶授權
 ms.author: dstrome
 author: dstrome
 manager: serdars
@@ -19,61 +19,59 @@ ms.custom:
 - Licensing
 - LIL_Placement
 - seo-marvel-apr2020
-description: 瞭解如何為貴Teams 電話資源帳戶指派免費 Teams 電話虛擬使用者授權或付費標準使用者授權。
-ms.openlocfilehash: 542d80a8cb463df01e6e232454b2454a939a457b
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+description: 瞭解如何將免費的 Teams Phone 資源帳戶授權或付費Teams 電話標準方案使用者授權指派給貴組織中的資源帳戶。
+ms.openlocfilehash: 07b47b2ec5b24b1edbfb599dc5a61e96169a02a2
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435727"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615399"
 ---
-# <a name="microsoft-teams-phone-standard--virtual-user-licenses"></a>Microsoft Teams 電話標準 – 虛擬使用者授權
+# <a name="microsoft-teams-phone-resource-account-licenses"></a>Microsoft Teams 電話資源帳戶授權
 
-具有 Teams 電話 標準版Teams 電話或具有通話方案授權使用者的組織，可以將免費的 *Microsoft Teams 電話 標準 –* 虛擬使用者授權或付費 *Teams 電話* 標準使用者授權指派給資源帳戶。 Microsoft 通話方案不一定一定 (請參閱規劃 Teams[自動](../plan-auto-attendant-call-queue.md#prerequisites)話務員和通話佇列，瞭解將通話轉接至外部電話號碼時的先決條件) 。
+擁有Teams 電話標準方案或具有通話方案之 Teams Phone 授權使用者的組織可以將免費 *Microsoft Teams 電話資源帳戶* 授權或付費 *Teams 電話標準方案* 使用者授權指派給資源帳戶。 不一定需要 Microsoft 通話方案 (請參閱 [規劃 Teams 自動語音應答和呼叫佇列](../plan-auto-attendant-call-queue.md#prerequisites) ，瞭解將通話移轉到外部電話號碼) 的必要條件。
 
-所有自動電話機和通話佇列都需要相關聯的資源帳戶。 需要電話號碼的資源帳戶需要免費 *Microsoft Teams 電話 標準 –* 虛擬使用者授權或付費 *Teams 電話 標準* 使用者授權，才能將電話號碼用於資源帳戶。
+所有自動語音應答和通話佇列都需要相關聯的資源帳戶。 需要電話號碼的資源帳戶需要免費 *Microsoft Teams 電話資源帳戶* 授權或付費 *Teams 電話標準方案* 使用者授權，才能將電話號碼套用至資源帳戶。
 
 > [!TIP]
-> 資源帳戶不需要授權，而資源帳戶會與巢式自動總機或未指派電話號碼的通話佇列一起使用。 請參閱下列圖表以參考。
+> 沒有指派電話號碼的巢狀自動語音應答或通話佇列使用的資源帳戶不需要授權。 請參閱下圖以取得參考。
 
-:::image type="content" alt-text="虛擬使用者授權。" source="../media/resource-account.png":::
+## <a name="resource-account-license-allocation"></a>資源帳戶授權配置
 
-## <a name="virtual-user-license-allocation"></a>虛擬使用者授權配置
-
-貴組織會根據Microsoft Teams 電話 *標準 – 虛擬使用者* 授權來配置。 任何擁有至少一個授權Teams 電話系統的組織，Teams 電話標準版Teams 電話通話方案授權Teams 電話有 25 個虛擬使用者授權，且無需付費。 當您在組織中新增 10 Teams 電話或 Teams 電話通話方案使用者授權時，系統就會Microsoft Teams 電話標準 *– 虛擬使用者* 授權。
+您的組織Microsoft Teams 電話 *資源帳戶* 授權會根據其整體大小而配置。 擁有至少一個授權且具備 Teams 電話系統功能的任何組織，包括Teams 電話標準方案和具有通話方案授權的 Teams Phone，都有 25 個資源帳戶授權可供免費使用。 當您在貴組織中新增 10 個Teams 電話標準方案或含通話方案使用者授權的 Teams Phone 時，還有一 *個Microsoft Teams 電話資源帳戶* 授權可供使用。
 
 > [!NOTE]
-> Teams 電話通話方案Teams 電話標準版和通話方案，所有訂閱者都Microsoft 365附加Microsoft 365授權。 Teams 電話標準授權也會包含在計畫Microsoft 365 E5一部分。
+> Teams 電話標準方案和含通話方案的 Teams Phone 都是可供所有 Microsoft 365 訂閱者使用的附加元件授權。 Teams 電話標準方案授權也會包含在Microsoft 365 E5方案中。
 
-如果貴組織在建立自動Microsoft Teams 電話或通話佇列節點時，已使用免費的 Microsoft Teams 電話 標準 – 虛擬使用者授權，您仍可在資源帳戶使用付費 *Teams 電話 標準* 授權。 根據縮放比例方案，大部分組織都會擁有足夠的虛擬使用者授權。
+如果貴組織在建立自動語音應答或通話佇列節點時使用免費 *Microsoft Teams 電話資源帳戶* 授權，您仍然可以將付費 *Teams 電話標準方案* 授權搭配資源帳戶使用。 大部分的組織會根據縮放比例計畫擁有足夠的資源帳戶授權。
 
 ### <a name="license-allocation-example"></a>授權配置範例
 
-Contoso， Inc. 已購買 600 個授權，電話系統 (每個員工和) 。 Contoso 會獲得初始 25+ 60 Microsoft Teams 電話 *標準 – 虛擬使用者* 授權，總計 85 個。 他們的組織有 90 個通話佇列和具有電話號碼的自動電話機。 他們需要指派所有標準 *– Microsoft Teams 電話使用者* 授權，並取得五個標準Teams 電話 *授權*。
+Contoso， Inc. 已購買 600 個授權，其中包含電話系統 (每個員工) 一個授權。 Contoso 的初始 25 加上 60 *Microsoft Teams 電話資源帳戶* 授權，總計為 85 個。 其組織有 90 個有電話號碼的通話佇列和自動語音應答。 他們需要指派所有 *Microsoft Teams 電話資源帳戶* 授權，並取得五個一般定價 *Teams 電話標準方案* 授權。
 
-Contoso 應考慮重新設計自動電話機和通話佇列系統。 如果他們使用的電話號碼較少，且巢中節點更多，而不需要電話號碼，則能簡化實現並降低成本。
+Contoso 應該考慮重新設計自動語音應答和通話佇列系統。 如果他們使用較少的電話號碼和更不需要電話號碼的巢狀節點，則會簡化實作並降低成本。
 
-## <a name="how-to-buy-microsoft-teams-phone-standard--virtual-user-licenses"></a>如何購買Microsoft Teams 電話標準 – 虛擬使用者授權
+## <a name="how-to-buy-microsoft-teams-phone-resource-account-licenses"></a>如何購買Microsoft Teams 電話資源帳戶授權
 
-1. 請登錄Microsoft 365 系統管理中心。
-2. 前往 **BillingPurchase** ****  >  **servicesAdd-ons**  >  。
-3. 卷起到結尾，尋找 Microsoft Teams 電話 **標準 – 虛擬使用者** 授權。 選取 **立即購買**。
+1. 登入Microsoft 365 系統管理中心。
+2. 移至 **帳單**  >  **購買服務**  >  **附加元件**。
+3. 捲動以尋找 **Microsoft Teams 電話資源帳戶** 授權。 選取 **[立即購買]**。
 
    > [!NOTE]
-   > 請記住，您仍必須 **購買授權** ，即使其成本為零。
+   > 請記住，即使授權的成本為零，您仍必須 **購買** 授權。
 
-## <a name="change-an-existing-resource-account-to-use-a-microsoft-teams-phone-standard--virtual-user-license"></a>變更現有的資源帳戶，以使用 Microsoft Teams 電話標準 – 虛擬使用者授權
+## <a name="change-an-existing-resource-account-to-use-a-microsoft-teams-phone-resource-account-license"></a>將現有的資源帳戶變更為使用Microsoft Teams 電話資源帳戶授權
 
-如果您決定將資源帳戶上的授權從標準Teams 電話切換到 Microsoft Teams 電話 *– 虛擬使用者* 授權：**
+如果您決定將資源帳戶的授權從 *Teams 電話標準方案* 授權切換為 *Microsoft Teams 電話資源帳戶* 授權：
 
-1. 取得新的 Microsoft Teams 電話 標準 – 虛擬使用者授權。
-2. 請遵循中心中的Microsoft 365 系統管理[步驟，將使用者移至不同的訂閱](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。
+1. 取得新的 *Microsoft Teams 電話資源帳戶* 授權。
+2. 請依照Microsoft 365 系統管理中心中的連結步驟[，將使用者移至不同的訂閱](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)。
 
 > [!WARNING]
-> 永遠 *移除標準Teams 電話* 的完整授權，並在同一個Microsoft Teams 電話活動中指派標準 *–* 虛擬使用者授權。 如果您移除舊授權、儲存帳戶變更、新增授權，然後再次儲存帳戶設定，資源帳戶可能不再如預期運作。 如果發生這種情況，建議您為標準版 *–* 虛擬使用者授權Microsoft Teams 電話新資源帳戶，並移除中斷的資源帳戶。
+> 一律移除完整 *Teams 電話標準方案* 授權，並在相同的授權活動中指派 *Microsoft Teams 電話資源帳戶* 授權。 如果您移除舊授權、儲存帳戶變更、新增授權，然後再次儲存帳戶設定，資源帳戶可能無法再如預期般運作。 如果發生這種情況，建議您為 *Microsoft Teams 電話資源* 帳戶授權建立新的資源帳戶，並移除損毀的資源帳戶。
 
 ## <a name="related-information"></a>相關資訊
 
-[自動電話機和通話佇列服務更新](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
+[自動語音應答和通話佇列服務更新](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Auto-Attendant-and-Call-Queues-Service-Update/ba-p/564521)
 
 [在 Microsoft Teams 中管理資源帳戶](../manage-resource-accounts.md)

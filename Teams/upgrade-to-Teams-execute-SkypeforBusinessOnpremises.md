@@ -1,66 +1,71 @@
 ---
 title: 將商務用 Skype 內部部署升級為 Teams
-author: SerdarSoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: 瞭解如何從內部部署Microsoft Teams組織商務用 Skype組織。
+description: 瞭解如何將貴組織從商務用 Skype內部部署轉換到 Microsoft Teams。
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - Teams-upgrade-guidance
-  - seo-marvel-apr2020
+- Teams-upgrade-guidance
+- seo-marvel-apr2020
 ms.collection:
-  - Teams_ITAdmin_JourneyFromSfB
-  - M365-collaboration
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 7b06134a0fe0f72e8dc9c01b4faa85c67a6063f3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615439"
 ---
+# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>從商務用 Skype內部部署升級至 Teams
 
-# <a name="upgrade-from-a-skype-for-business-on-premises-deployment-to-teams"></a>從內部部署商務用 Skype升級至Teams
+![升級旅程的階段，強調部署和實作階段。](media/upgrade-banner-deployment.png "升級旅程的階段，強調部署和實作階段")
 
-![升級歷程的階段，強調部署與執行階段。](media/upgrade-banner-deployment.png "升級歷程的階段，強調部署與執行階段")
+本文是升級旅程中部署與實作階段的一部分。 繼續進行之前，請確認您已完成下列活動：
 
-本文是升級歷程的部署與執行階段之一。 繼續進行之前，請確認您已完成下列活動：
-
-- [已招募專案專案關係人](upgrade-enlist-stakeholders.md)
-- [已定義專案範圍](./upgrade-define-project-scope.md)
-- [瞭解共同商務用 Skype和Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
-- [已選擇升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [準備您的環境](./upgrade-prepare-environment.md)
-- [準備您的組織](./upgrade-prepare-organization.md)
+- [呼叫專案專案專案關係人](upgrade-enlist-stakeholders.md)
+- [定義您的專案範圍](./upgrade-define-project-scope.md)
+- [瞭解商務用 Skype和 Teams 的共存和互通性](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- [已選擇您的升級旅程](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [準備好您的環境](./upgrade-prepare-environment.md)
+- [為您的組織做好準備](./upgrade-prepare-organization.md)
 - [進行試驗](./pilot-essentials.md)
 
-如果您已經部署 商務用 Skype 或 Microsoft Lync 內部部署，且貴組織想要選擇性地升級至 Microsoft Teams，請遵循本文中的指引，使用多種共存模式或全功能。 
+如果您已在內部部署商務用 Skype或 Microsoft Lync，且貴組織想要透過選擇性方式升級至 Microsoft Teams，或使用多個共存模式，或是全面升級，請遵循本文中的指引。 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
-## <a name="step-1-deploy-hybrid-connectivity"></a>步驟 1：部署混合式連接
+## <a name="step-1-deploy-hybrid-connectivity"></a>步驟 1：部署混合式連線能力
 
-將使用者升級至 Teams的關鍵先決條件是部署混合式連接。
+將使用者升級至 Teams 的關鍵先決條件是部署混合式連線能力。
 
-詳細資訊，請參閱在 商務用 Skype Server 與[商務用 Skype 之間部署混合式連線](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
+如需詳細資訊，請參閱[在 商務用 Skype Server 與 商務用 Skype Online 之間部署混合式連線](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 
-## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>步驟 2：為貴組織執行您所選擇的升級歷程
+## <a name="step-2-implement-your-chosen-upgrade-journey-for-your-organization"></a>步驟 2：實作您為組織選擇的升級旅程
 
-完成混合式設定之後，您可以規劃將使用者移至Microsoft 365或Office 365。
+完成混合式設定之後，您可以規劃將使用者移至 Microsoft 365 或Office 365。
 
-詳細資訊，請參閱：
+如需詳細資訊，請參閱：
 
-- [TeamsUpgradePolicy：管理移移和共存](upgrade-to-teams-on-prem-tools.md)。
+- [TeamsUpgradePolicy：管理移轉與共存](upgrade-to-teams-on-prem-tools.md)。
 
-- [將使用者從內部部署移至 商務用 Skype Online](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)。
+- [將使用者從內部部署移至 商務用 Skype Online。](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/move-users-from-on-premises-to-skype-for-business-online)
 
-## <a name="phone-system-and-teams-upgrade"></a>電話系統Teams升級
+## <a name="phone-system-and-teams-upgrade"></a>手機系統和 Teams 升級
 
-從內部部署電話系統轉換至 Teams 將允許您使用 電話系統 直接路由 ("直接路由") 或 microsoft 提供的 Microsoft 365 或 Office 365 通話方案。
+從內部部署電話系統轉換到 Teams，可讓您利用電話系統直接路由 (「直接路由」) 或 Microsoft 提供的 Microsoft 365 或 Office 365 通話方案。
 
-如果您不是使用通話方案，您必須在升級至 電話系統時，將企業語音部署電話系統直接路由Teams。
+如果您不是使用通話方案，在升級至 Teams 的過程中，您必須將企業語音部署轉換為電話系統直接路由。
 
-詳細資訊請參閱直接路由[電話系統考慮](./direct-routing-landing-page.md)。 如果您打算使用通話方案，請參閱我們的指引，將電話號碼轉接[至](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)Teams。
+如需詳細資訊，請參閱 [電話系統直接路由的其他考慮](./direct-routing-landing-page.md)。 如果您打算使用通話方案，請參閱我們將 [電話號碼移轉到 Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)的指導方針。

@@ -1,13 +1,13 @@
 ---
-title: Microsoft Teams轉場電子郵件和問卷|基本升級
-author: SerdarSoysal
-ms.author: serdars
+title: Microsoft Teams 轉場電子郵件和問卷|基本升級
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: 在 Conjunciton 中使用的電子郵件和問卷範例，以及加速從 商務用 Skype 升級至 Teams
+description: 範例電子郵件和問卷，可與加速從 商務用 Skype 升級至 Teams 的十步驟行動計畫搭配使用
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,28 +18,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 928ccad80670a140bfe72eaf42c94b145c0134e0
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: bb091735402abf89a7eb20b681252bbb1b681ee3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62409806"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615629"
 ---
-# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升級基本通訊的電子郵件和問卷範例
+# <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>升級基本通訊的範例電子郵件和問卷
 
-## <a name="sample-emails"></a>電子郵件範例
+## <a name="sample-emails"></a>範例電子郵件
 
 <a name="step-1-email"></a>
 
 ### <a name="stakeholder-email-for-step-1"></a>步驟 1 的專案關係人電子郵件
 
-主題行：
+主旨行：
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-電子郵件的內體：
+電子郵件本文：
 
 ````
 As Microsoft [announced](https://blogs.office.com/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) in September 2017, Skype for Business and Microsoft Teams will be coming together into one solution. Teams builds on the great capabilities of Skype for Business and offers chat (IM), meetings, audio/video calling, file management, and a project workspace in one collaboration tool.
@@ -53,15 +53,15 @@ Microsoft has provided an upgrade checklist outlining the essential tasks we sho
 
 <a name="step-4-email"></a>
 
-### <a name="notify-users-email-for-step-4"></a>針對步驟 4 通知使用者電子郵件
+### <a name="notify-users-email-for-step-4"></a>針對步驟 4，通知使用者電子郵件
 
-主題行：
+主旨行：
 
 ```
 IMPORTANT ANNOUNCEMENT Regarding Skype for Business
 ```
 
-電子郵件的內體：
+電子郵件本文：
 
 ````
 From instant messaging to meetings to audio calling, we understand how much you rely on technologies like Skype for Business to get your job done. We’re excited to announce that we’ll be transitioning to Microsoft Teams, which provides one solution for your communication and collaboration needs. Teams leverages much of what you know and love about Skype for Business and expands what’s possible, integrating chat (IM), online meetings, calling, file management and a project workspace all into one interface.
@@ -84,13 +84,13 @@ If you have questions or need help, please reach out to <<insert company support
 
 ### <a name="remind-users-email-for-step-6"></a>針對步驟 6 提醒使用者電子郵件
 
-主題行：提醒：準備好升級至Teams
+主旨行：提醒：準備好升級至 Teams
 
 ```
 ACTION REQUIRED: Host your next online meeting in Teams
 ```
 
-電子郵件的內體：
+電子郵件本文：
 ````
 We’re just <<X weeks/days>> away from the transition to Microsoft Teams and want to make sure that you’re ready. Online meetings are part of our everyday life, so take time this week to get acquainted with online meetings in Teams. Complete the following steps for the smoothest experience:
 
@@ -113,15 +113,15 @@ Should you have questions about this upgrade, contact <<insert alias or contact 
 
 <a name="step-7-email"></a>
 
-### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>歡迎使用者從執行贊助者收到電子郵件，以執行步驟 7
+### <a name="welcome-users-email-from-the-executive-sponsor-for-step-7"></a>歡迎使用者透過高階贊助者傳送的電子郵件，以取得步驟 7
 
-主題行：
+主旨行：
 
 ```
 PLEASE READ: Skype for Business is now Microsoft Teams
 ```
 
-電子郵件的內體：
+電子郵件本文：
 
 ````
 Let me be the first to officially welcome you to Microsoft Teams. Your Skype for Business client will be decommissioned, and Teams is your default application for chat and meetings. In case you missed it, let’s review what Microsoft Teams can do for you:
@@ -150,13 +150,13 @@ Regards,
 
 ### <a name="check-in-email-for-step-9"></a>步驟 9 的簽入電子郵件
 
-主題行：
+主旨行：
 
 ```
 ACTION REQUESTED: Tell us about your Microsoft Teams experience
 ```
 
-電子郵件的內體：
+電子郵件本文：
 
 ````
 We upgraded to Microsoft Teams just over a week ago and want to hear from you.
@@ -170,15 +170,15 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-10-email"></a>
 
-### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>要求使用者試用步驟 10 之團隊和頻道的電子郵件
+### <a name="email-to-ask-users-to-give-teams-and-channels-a-try-for-step-10"></a>要求使用者試用步驟 10 的團隊和頻道的電子郵件
 
-主題行：
+主旨行：
 
 ```
 CALL TO ACTION: Give teams and channels a try
 ```
 
-電子郵件的內體：
+電子郵件本文：
 
 ````
 Now that you’re up and running with Microsoft Teams, learn what else Teams can do for you. More than just enabling chat and meetings, Teams serves as a hub for teamwork—where you can chat, collaborate, and share content with the people you work with. Using the teams and channels functionality enables you to organize your projects and conversations in a way that works for you.
@@ -199,31 +199,31 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 <a name="step-9-surveys"></a>
 
-## <a name="sample-surveys"></a>問卷樣本
+## <a name="sample-surveys"></a>範例問卷
 
-指出您執行下列活動的能力Teams以及如果您想要深入瞭解的一或多個活動。
+表示您在 Teams 中執行下列活動的專業程度，以及您是否想要深入瞭解一或多個活動。
 
-| &nbsp; | 非常熟練 | 有點熟練 | 完全不熟練 | 想要深入瞭解 | 不適用 | 不確定/不熟悉 |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
+| &nbsp; | 非常熟練 | 有點熟練 | 完全不擅長 | 想要深入瞭解 | 不適用 | 不確定/不熟悉 |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 使用Teams進行 IM/聊天 | | | | | | | | | | |
-| 使用 Teams線上會議 | | | | | | | | | | |
-| 使用Teams工具 (團隊和頻道)  | | | | | | | | | | |
-| 在Teams裝置上使用 | | | | | | | | | | |
+| 使用 Teams 與其他人進行 IM/聊天 | | | | | | | | | | |
+| 使用 Teams 進行線上會議 | | | | | | | | | | |
+| 使用 Teams (團隊和頻道共同作業)  | | | | | | | | | | |
+| 在我的行動裝置上使用 Teams | | | | | | | | | | |
 
-| **有什麼可以阻止您使用Microsoft Teams？** | **選取所有適用專案** |
+| **若有任何阻礙您使用 Microsoft Teams 的情況，該怎麼辦？** | **選取所有適用的選項** |
 |---|---|
 | 我從未聽過 | &#9744; |
-| 我的電腦上沒有安裝 | &#9744; |
-| 我不了解它如何對我或我合作的人有好處 | &#9744; |
-| 我沒有時間評估它以滿足您的需求 | &#9744; |
-| 我已經使用其他應用程式，以滿足通訊和共同合作的需求 | &#9744; |
-| 使用之前，我需要訓練 | &#9744; |
-| 我嘗試過使用它，但遇到技術問題或體驗不佳 | &#9744; |
-| 我們的支援人員無法協助我解決我的問題 | &#9744; |
-| 沒有，我目前使用它 | &#9744; |
+| 我沒有在電腦上安裝它 | &#9744; |
+| 我不了解它對我或我一起工作的人員有何好處 | &#9744; |
+| 我沒有時間根據自己的需求來評估 | &#9744; |
+| 我已經使用符合通訊和共同作業需求的其他應用程式 | &#9744; |
+| 我使用之前需要訓練 | &#9744; |
+| 我已嘗試使用它，但發生技術問題或經驗不佳 | &#9744; |
+| 我們的支援中心無法協助我處理問題 | &#9744; |
+| 什麼都沒有，我目前使用它 | &#9744; |
 | 其他 (請指定)  | &#9744; |
 
-**您建議朋友/同事使用Microsoft Teams的可能性如何？ (0=完全不可能...10=極可能)**
+**您建議朋友/同事使用 Microsoft Teams 的可能性如何？ (0=完全不可能...10=極有可能)**
 
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|

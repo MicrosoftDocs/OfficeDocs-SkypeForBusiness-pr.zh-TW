@@ -1,7 +1,7 @@
 ---
-title: 在迦納的可用性
-author: SerdarSoysal
-ms.author: serdars
+title: 在迦納有空
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,27 +23,27 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: 以下是適用于 Microsoft 365 Office 365 的 商務用 Skype 和 Microsoft Teams 服務。
-ms.openlocfilehash: 28c3611dd2c108a84ba15ebcd1d3c9f55f2ef91b
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 以下是適用于商務用 Skype的 Microsoft 365 和 Office 365 服務，以及適用于迦納的 Microsoft Teams。
+ms.openlocfilehash: bb0ed535f39a98aefde6f1ca90af58f3c25ed5b2
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62394645"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615899"
 ---
-# <a name="availability-in-ghana"></a>在迦納的可用性
+# <a name="availability-in-ghana"></a>在迦納有空
 
 [尋找其他國家或地區](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)，或深入了解音訊會議與通話方案的適用國家/地區。
 
-以下是適用于 Microsoft 365 Office 365 的 商務用 Skype 和 Microsoft Teams 服務。
+以下是適用于商務用 Skype的 Microsoft 365 和 Office 365 服務，以及適用于迦納的 Microsoft Teams。
   
 ## <a name="audio-conferencing"></a>音訊會議
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|音訊會議是否可供購買？  <br/> |是 [，僅按分鐘](../audio-conferencing-pay-per-minute.md) 付費 <br/> |
+|音訊會議是否可供購買？  <br/> |是，僅[限每分鐘付費](../audio-conferencing-pay-per-minute.md) <br/> |
 |是否會自動為音訊會議指派電話號碼？  <br/> |否  <br/> |
-|使用 [語音來電] 功能的撥出功能  <br/> | 需要通訊信用額度 <br/> |
+|使用 [語音來電] 功能的撥出功能  <br/> | 需要通訊點數 <br/> |
    
 ## <a name="phone-system"></a>電話系統
 
@@ -62,17 +62,17 @@ ms.locfileid: "62394645"
 |通話方案可用的分鐘數  <br/> |不適用  <br/> |
 |可以向外撥打電話嗎？  <br/> |不適用  <br/> |
 
-如果無法購買通話方案，請參閱所有可用選項的 [PSTN](../pstn-connectivity.md) 連接選項。
+如果無法購買通話方案，請參閱 [所有可用選項的 PSTN 連線選項](../pstn-connectivity.md) 。
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>服務的付費和免付費號碼
+## <a name="toll-and-toll-free-numbers-for-services"></a>服務的免付費電話號碼
 
 |**功能**|**詳細資料**|
 |:-----|:-----|
-|哪些首都/首要城市能提供您付費電話號碼？   | 非地理位置。 電話數位不會連結至特定城市或位置。 <br/> |
+|哪些首都/首要城市能提供您付費電話號碼？   | 非地理位置。 電話號碼不會連結到特定城市或位置。 <br/> |
 |有提供付費電話號碼嗎？  <br/> |是  <br/> |
-|是否提供免付費號碼？  <br/> |否  <br/> |
+|可使用免付費電話號碼嗎？  <br/> |否  <br/> |
    
- 如果您想要取得音訊會議、自動語音電話和通話佇列的付費和免付費電話號碼，請參閱取得電話和電話商務用 Skype [Microsoft Teams。](../getting-service-phone-numbers.md)
+ 如果您想要取得音訊會議、自動語音應答和通話佇列的付費和免付費電話號碼，請參閱[取得 商務用 Skype 和 Microsoft Teams 的服務電話號碼](../getting-service-phone-numbers.md)。
   
 ## <a name="communications-credits"></a>通訊點數
 

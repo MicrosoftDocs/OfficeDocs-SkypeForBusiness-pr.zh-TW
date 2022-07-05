@@ -5,6 +5,8 @@ ms.author: guptaashish
 manager: prkosh
 ms.topic: article
 ms.service: msteams
+ms.subservice: teams-apps
+ms.custom: intro-get-started
 audience: admin
 ms.collection:
 - Teams_ITAdmin_Help
@@ -17,18 +19,18 @@ description: 瞭解如何管理 Teams 應用程式。 瞭解如何允許或封�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 25e540a7709ab12b73a97cc94b1350630c302197
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 82ab9372f925e40beac41d4075b49b34118f8851
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529725"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616049"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理 Teams 應用程式
 
 您可以在 Teams 系統管理中心入口網站的 **Teams 應用程式** 頁面中管理貴組織的應用程式。 使用 [管理應用程式] 頁面來檢視和管理貴組織應用程式目錄中的所有 Teams 應用程式。
 
-![[管理應用程式] 頁面的螢幕擷取畫面。](media/manage-apps.png)
+:::image type="content" source="media/manage-apps.png" alt-text="[管理應用程式] 頁面的螢幕擷取畫面。" lightbox="media/manage-apps.png":::
 
 若要使用 Teams 系統管理中心，您必須擁有全域管理員或 Teams 系統管理員角色。 如需詳細資料，請參閱下列說明文章：
 
@@ -156,7 +158,7 @@ Teams 系統管理中心提供可完成大部分應用程式管理使用案例�
 1. 依應用程式名稱搜尋應用程式，然後選取應用程式。 請勿開啟應用程式詳細資料頁面。
 1. 選取 **[新增至團隊]**。
 
-   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="可新增至團隊範圍之應用程式的 [新增至小組] 選項螢幕擷取畫面。" lightbox="media/manage-apps-add-app-team.png":::
+   :::image type="content" source="media/manage-apps-add-app-team-trimmed.png" alt-text="可新增至團隊範圍之應用程式的 [新增至小組] 選項螢幕擷取畫面。":::
 
 1. 在 [ **新增至團隊** ] 窗格中，搜尋您要新增應用程式的團隊，選取該團隊，然後選取 [ **套用]**。
 

@@ -20,12 +20,12 @@ ms.localizationpriority: medium
 ms.custom:
 - Phone System
 description: 瞭解如何在 Microsoft Teams 中設定和管理自動語音應答。
-ms.openlocfilehash: 37326ec03c22c91de5f4c4edb94aaad67f52bde5
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 384c7aae5e11c938a6bf8ab5f82924d0379a83aa
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240942"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616109"
 ---
 # <a name="set-up-an-auto-attendant"></a>設定自動語音應答
 
@@ -57,9 +57,9 @@ ms.locfileid: "66240942"
 
 ## <a name="follow-these-steps-to-set-up-your-auto-attendant"></a>請依照下列步驟來設定您的自動語音應答
 
-# <a name="step-1---general-info"></a>[步驟 1 - 一般資訊](#tab/general-info)
+# <a name="step-1-general-info"></a>[步驟 1：一般資訊](#tab/general-info)
 
-## <a name="step-1---set-the-auto-attendants-general-information"></a>步驟 1 - 設定自動語音應答的一般資訊
+## <a name="step-1-set-the-auto-attendants-general-information"></a>步驟 1：設定自動語音應答的一般資訊
 
 若要設定自動語音應答，請在 [Teams 系統管理中心](https://go.microsoft.com/fwlink/p/?linkid=2066851)展開 **[語音**]，選取 [**自動語音應答**]，然後選取 [**新增]**。
 
@@ -78,10 +78,9 @@ ms.locfileid: "66240942"
 
 設定自動語音應答的一般資訊之後，請選取 [**下一步]**。
 
+# <a name="step-2-basic-call-flow"></a>[步驟 2：基本通話流程](#tab/call-flow)
 
-# <a name="step-2---basic-call-flow"></a>[步驟 2 - 基本通話流程](#tab/call-flow)
-
-## <a name="step-2---set-up-the-basic-call-flow"></a>步驟 2 - 設定基本通話流程
+## <a name="step-2-set-up-the-basic-call-flow"></a>步驟 2：設定基本通話流程
 
 ### <a name="set-a-greeting"></a>設定問候語
 
@@ -131,9 +130,9 @@ ms.locfileid: "66240942"
 
 設定基本通話流程選項後，請選取 [ **下一步]**。
 
-# <a name="step-3---after-hours-call-flow"></a>[步驟 3 - 下班後通話流程](#tab/after-hours)
+# <a name="step-3-after-hours-call-flow"></a>[步驟 3：下班後通話流程](#tab/after-hours)
 
-## <a name="step-3---set-up-call-flow-for-after-hours-optional"></a>步驟 3 - 設定數小時後的通話流程 (選擇性) 
+## <a name="step-3-set-up-call-flow-for-after-hours-optional"></a>步驟 3：設定數小時後的通話流程 (選擇性) 
 
 您可以為每個自動語音應答設定上班時間。
 
@@ -151,9 +150,9 @@ ms.locfileid: "66240942"
 
 新增下班後通話流程後，請選取 [ **下一步]**。
 
-# <a name="step-4---holiday-call-flow"></a>[步驟 4 - 假日通話流程](#tab/holidays)
+# <a name="step-4-holiday-call-flow"></a>[步驟 4：假日通話流程](#tab/holidays)
 
-## <a name="step-4---set-up-call-flows-for-holidays-optional"></a>步驟 4 - 設定假日 (選擇性) 的通話流量
+## <a name="step-4-set-up-call-flows-for-holidays-optional"></a>步驟 4：設定假日 (選擇性) 
 
 您的自動語音應答可以為[您所設定的每個假日提供](set-up-holidays-in-teams.md)通話流程。 您最多可以在每個自動語音應答新增 20 個排定的假日。
 
@@ -176,9 +175,9 @@ ms.locfileid: "66240942"
 
 新增所有佳節時段後，請選取 [ **下一步]**。
 
-# <a name="step-5---dial-scope"></a>[步驟 5 - 撥號範圍](#tab/dial-scope)
+# <a name="step-5-dial-scope"></a>[步驟 5：撥號範圍](#tab/dial-scope)
 
-## <a name="step-5---set-up-dial-scope-optional"></a>步驟 5 - 將撥號範圍設定 (選用) 
+## <a name="step-5-set-up-dial-scope-optional"></a>步驟 5：將撥號範圍設定 (選用) 
 
 *撥號範圍* 會定義當來電者使用撥號依據名稱或撥號方式延伸時，哪些使用者可在目錄中使用。 [**所有線上使用者]** 的預設值包含貴組織中所有使用 商務用 Skype Server 的線上使用者或內部部署託管的使用者。
 
@@ -191,9 +190,9 @@ ms.locfileid: "66240942"
 
 選取 **您的 [撥號範圍** ] 選項後，選取 [ **下一步]**。
 
-# <a name="step-6---resource-accounts"></a>[步驟 6 - 資源帳戶](#tab/resource-accounts)
+# <a name="step-6-resource-accounts"></a>[步驟 6：資源帳戶](#tab/resource-accounts)
 
-## <a name="step-6---set-up-resource-accounts-optional"></a>步驟 6 - (選擇性) 設定資源帳戶
+## <a name="step-6-set-up-resource-accounts-optional"></a>步驟 6： (選用) 設定資源帳戶
 
 所有自動語音應答都必須有相關聯的資源帳戶。  第一層自動語音應答至少需要一個具有相關聯服務號碼的資源帳戶。 如有需要，您可以將多個資源帳戶指派給一個自動語音應答，每個帳戶都有個別的服務編號。
 
@@ -203,9 +202,9 @@ ms.locfileid: "66240942"
 
 如需詳細資訊，請參閱 [管理 Teams 資源帳戶](manage-resource-accounts.md) 。
 
-# <a name="additional-resources"></a>[其他資源](#tab/additional-resources)
+---
 
-## <a name="resources-for-more-complex-scenarios"></a>更複雜案例的資源
+## <a name="resources-for-complex-scenarios"></a>複雜案例的資源
 
 ### <a name="external-phone-number-transfers---technical-details"></a>外部電話號碼移轉 - 技術詳細資料
 
@@ -236,8 +235,6 @@ ms.locfileid: "66240942"
 2. 在 [執行] 診斷窗格中，在 [ **使用者名稱] 或 [電子郵件** ] 欄位中輸入 [資源帳戶]，然後選取 [ **執行測試]**。
 
 3. 測試會識別導致自動語音應答無法接聽來電的租使用者、原則或資源帳戶設定，並提供修正已發現問題的步驟。
-
----
 
 ### <a name="related-topics"></a>相關主題
 

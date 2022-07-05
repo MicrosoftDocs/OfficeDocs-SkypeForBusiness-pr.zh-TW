@@ -23,12 +23,12 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System - seo-marvel-apr2020
 description: 瞭解如何在 Microsoft Teams 中設定通話佇列。 通話佇列提供問候語訊息、按住音樂、重新導向通話，以及其他功能。
-ms.openlocfilehash: b90dc937d9df1b8578e80c34c96030caf2db5bad
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: cd5e0cc291b353b8bb46d82333275cc44ef860d3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494690"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616169"
 ---
 # <a name="create-a-call-queue"></a>建立通話佇列
 
@@ -96,7 +96,7 @@ ms.locfileid: "66494690"
 您可以指定一或多個使用電話號碼的資源帳戶，為代理程式指派撥出來電號碼。 專員可以選取要用於每個撥出電話的撥出來電號碼。 在 [通話] 應用程式中，專員可以使用他們的通話佇列 (CQ) / 自動語音應答 (AA) 號碼或自己的個人 Direct InWard Dial (DID) 。
 
 > [!NOTE]
-> 用於通話識別碼的資源帳戶必須具有 **Microsoft Teams 電話 System - 虛擬使用者** 授權，以及下列其中一項指派：
+> 用於通話識別碼的資源帳戶必須具備 **Microsoft Teams 電話資源帳戶** 授權，以及下列其中一項指派：
 >
 > - 通話方案授權和指派的電話號碼
 > - 指派的運算子連線電話號碼
@@ -121,7 +121,7 @@ ms.locfileid: "66494690"
 
 在您建立這個用於通話 ID 的新資源帳戶之後，您仍然需要：
 
-- 指派[Teams 電話標準方案 - 虛擬使用者授權](manage-resource-accounts.md#assign-a-license)
+- 指派 [Teams 電話資源帳戶授權](manage-resource-accounts.md#assign-a-license)
 - 指派 Microsoft 通話方案授權、指派運算子連線電話號碼，或指派直接路由的線上語音路由原則
 - 如果您使用的是 Microsoft 通話方案，請將[服務電話號碼指派給資源帳戶](manage-resource-accounts.md#assign-a-service-number)
 
@@ -133,7 +133,7 @@ ms.locfileid: "66494690"
 
 選取語言之後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
-# <a name="step-2---greeting-and-music"></a>[步驟 2 - 問候語與音樂](#tab/greeting-music)
+# <a name="step-2-greeting-and-music"></a>[步驟 2：問候語與音樂](#tab/greeting-music)
 
 ## <a name="step-2-add-a-greeting-and-on-hold-music"></a>步驟 2：新增問候語和等候音樂
 
@@ -151,7 +151,7 @@ ms.locfileid: "66494690"
 
 選取問候語和等候音樂後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
-# <a name="step-3---call-answering"></a>[步驟 3 - 接聽來電](#tab/call-answering)
+# <a name="step-3-call-answering"></a>[步驟 3：電話接聽](#tab/call-answering)
 
 ## <a name="step-3-set-up-who-will-answer-incoming-calls"></a>步驟 3：設定誰接聽來電
 
@@ -223,7 +223,7 @@ ms.locfileid: "66494690"
 
 選取來電接聽選項後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
-# <a name="step-4---agent-routing"></a>[步驟 4 - 代理程式路由](#tab/agent-routing)
+# <a name="step-4-agent-routing"></a>[步驟 4：代理程式路由](#tab/agent-routing)
 
 ## <a name="step-4-select-your-agent-routing-options"></a>步驟 4：選取您的專員路由選項
 
@@ -285,7 +285,7 @@ ms.locfileid: "66494690"
 
 選取您的代理人通話路由選項後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
-# <a name="step-5---call-overflow"></a>[步驟 5 - 通話溢位](#tab/call-overflow)
+# <a name="step-5-call-overflow"></a>[步驟 5：通話溢位](#tab/call-overflow)
 
 ## <a name="step-5-set-how-to-handle-call-overflow"></a>步驟 5：設定如何處理通話溢位
 
@@ -308,7 +308,7 @@ ms.locfileid: "66494690"
 
 選取通話逾時選項後，請選取 [**新增通話佇列**] 頁面底部的 [**下一步**] 按鈕。
 
-# <a name="step-6---call-timeout"></a>[步驟 6 - 通話逾時](#tab/call-timeout)
+# <a name="step-6-call-timeout"></a>[步驟 6：通話逾時](#tab/call-timeout)
 
 ## <a name="step-6-set-how-to-handle-call-timeouts"></a>步驟 6：設定如何處理通話逾時
 
@@ -327,9 +327,11 @@ ms.locfileid: "66494690"
 
 選取代理人通話路由選項後，請選取 [**新增通話佇列**] 頁面底部的 [**提交**] 按鈕。
 
-# <a name="additional-resources"></a>[其他資源](#tab/additional-resources)
+---
 
-## <a name="summary-of-recommended-call-queue-settings"></a>建議通話佇列設定摘要
+## <a name="resources-for-complex-scenarios"></a>複雜案例的資源
+
+### <a name="summary-of-recommended-call-queue-settings"></a>建議通話佇列設定摘要
 
 建議使用下列設定：
 
@@ -338,7 +340,7 @@ ms.locfileid: "66494690"
 - **以目前狀態為基礎的路由** 至 [ **開啟]**
 - **專員警示時間：** 到 **20 秒**
 
-## <a name="call-queue-feature-compatibility"></a>通話佇列功能相容性
+### <a name="call-queue-feature-compatibility"></a>通話佇列功能相容性
 
 |功能                          |Teams 電腦版<sup>1</sup> |Teams Web | Teams Mobile<sup>2</sup> |Lync |IP Phone | 標準通話佇列 |頻道型通話佇列 | 評論 |
 |:--------------------------------|:------------------------:|:--------:|:--------------:|:---:|:--------:|:--------------------:|:------------------------:|:--------|
@@ -356,7 +358,7 @@ ms.locfileid: "66494690"
 |**共同作業通話**        |                          |          |                |     |          |                      |                          |   |
 |`Channel Based Queues`             |Y                       |N         |N               |N    |N         |n/a                   |Y<sup>8</sup>             |   |
 |**動態來電者識別碼**            |                          |          |                |     |          |                      |                          |   |
-|`Standard call queue`            |N                         |N         |Y               |N    |N         |Y                     |n/a                       |   |
+|`Standard call queue`            |Y                         |Y         |Y               |N    |N         |Y                     |n/a                       |   |
 |`Channel based call queue`       |Y                         |n/a       |n/a             |n/a  |n/a       |n/a                   |Y                         |   |
 |**PSTN 連線方法**    |                          |          |                |     |          |                      |                          |請參閱附注 9   |
 |`Calling Plans`                  |Y                         |Y         |Y               |Y    |Y         |Y                     |Y                         |   |
@@ -365,7 +367,7 @@ ms.locfileid: "66494690"
 |**雜項**                |                          |          |                |     |          |                      |                          |   |
 |`Call toast shows Resource Account Name` |Y                 |N         |Y               |Y    |          |Y                     |Y                         |              |
 
-### <a name="notes"></a>注釋
+#### <a name="notes"></a>注釋
 
 1. Microsoft Teams Windows 用戶端、Microsoft Teams Mac 用戶端、虛擬化桌面基礎結構上的 Microsoft Teams。
 2. Microsoft Teams iPhone 應用程式、Microsoft Teams Android 應用程式。
@@ -377,7 +379,7 @@ ms.locfileid: "66494690"
 8. 僅支援公用頻道。
 9. 自動語音應答和通話佇列無法在 PSTN 連線方法之間轉接來電。
 
-## <a name="supported-clients"></a>支援的用戶端
+### <a name="supported-clients"></a>支援的用戶端
 
 通話佇列中的通話代理程式支援下列用戶端：
 
@@ -397,7 +399,7 @@ ms.locfileid: "66494690"
   > [!NOTE]
   > 指派直接路由號碼的通話佇列不支援商務用 Skype用戶端、Lync 用戶端或以代理程式商務用 Skype IP 電話。 只有 Teams [共同存在模式](setting-your-coexistence-and-upgrade-settings.md)才支援 Teams 用戶端。
 
-## <a name="call-queue-diagnostic-tool"></a>通話佇列診斷工具
+### <a name="call-queue-diagnostic-tool"></a>通話佇列診斷工具
 
 如果您是系統管理員，您可以使用下列診斷工具驗證通話佇列是否能夠接聽來電：
 
@@ -410,9 +412,7 @@ ms.locfileid: "66494690"
 
 3. 測試會傳回解決任何租使用者、原則和資源帳戶設定的最佳後續步驟，以驗證通話佇列是否能夠接聽來電。
 
----
-
-## <a name="related-topics"></a>相關主題
+### <a name="related-topics"></a>相關主題
 
 [以下是您可以透過Microsoft Teams 電話](here-s-what-you-get-with-phone-system.md)
 

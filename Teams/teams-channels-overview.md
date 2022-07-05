@@ -6,6 +6,7 @@ ms.reviewer: ''
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
+ms.subservice: teams-chat
 audience: admin
 search.appverid: MET150
 description: 了解應用於各種需求 (例如財務、活動規劃和銷售等) 的不同團隊、頻道和應用程式。
@@ -18,16 +19,17 @@ ms.custom:
 - ms.teamsadmincenter.teamschannel.overview
 - ms.teamsadmincenter.teamssettings.overview
 - okr_smb
+- intro-overview
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4bd98159e9e209cba855e1a0f2d0ee853b3ba889
-ms.sourcegitcommit: b70f01d7eae2e3e6f7495c685518a2037aaece31
+ms.openlocfilehash: 74f4580eee7ee7ee935b405cfe51c4a3e49ef98c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/11/2022
-ms.locfileid: "64756889"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616279"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Microsoft Teams 中的團隊和頻道概覽
 
@@ -75,7 +77,7 @@ Teams 中的兩個主要角色如下：
 
 如果您是 Microsoft 365 中的 Teams 系統管理員，您可以在 Teams 系統管理中心中存取全系統的設定。 這些設定可以影響團隊擁有者可在其團隊設定底下看到的選項和預設值。 例如，您可以啟用預設的「一般」頻道，用於整個小組的公告、討論和資源，這將顯示在所有小組中。
 
-根據預設，所有使用者都有建立團隊的權限。如需修改此內容，請參閱[在 Teams 中指派角色和權限](assign-roles-permissions.md)。
+根據預設，所有使用者都有建立團隊的權限。 若要修改此內容，請參閱[在 Teams 中指派角色和權限](assign-roles-permissions.md)。
 
 為了讓使用者與 Teams 接觸而建立早期規劃活動的其中一個重點是，這可協助使用者思考並了解 Teams 可如何加強他們日常生活中的共同作業。 藉由與其他人交談，協助他們選取目前以零碎方式進行共同作業的商務案例。 透過相關索引標籤將他們聚集在頻道中，以協助他們完成工作。 Teams 最強的使用案例之一就是任何跨組織的程序。
 

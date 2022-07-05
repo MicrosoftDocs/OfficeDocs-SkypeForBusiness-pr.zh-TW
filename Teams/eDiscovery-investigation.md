@@ -17,12 +17,12 @@ description: 瞭解當您需要執行電子檔探索時該怎麼辦，例如當�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4b5a0ca0cb52c4b444769b7bfc25b17cab80a02b
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: ac4aa6e8182342f36da0434aaf78123937d6d8ce
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563941"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616409"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>對 Microsoft Teams 中的內容進行電子檔探索調查
 
@@ -52,7 +52,7 @@ ms.locfileid: "66563941"
 |會議中繼資料<sup>1</sup>|是||
 |頻道名稱|是||
 |報價|是|可搜尋引用的內容。 不過，搜尋結果不會指出已引用內容。|
-| (贊、心和其他反應等反應) |是||
+| (贊、心和其他反應等反應) |是|2022 年 6 月 1 日之後，所有商業客戶都支援反應。 在此日期之前所出現的圖釋不適用於電子檔探索。 我們已規劃政府雲端支援。 圖釋沒有法律保留支援。|
 |主題|是||
 |表|是||
 

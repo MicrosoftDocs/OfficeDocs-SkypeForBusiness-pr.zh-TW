@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何將通話路由至貴組織中未指派的號碼。
-ms.openlocfilehash: f092cf5501d723dabb4336d648387833dd376e9b
-ms.sourcegitcommit: d847256fca80e4e8954f767863c880dc8472ca04
+ms.openlocfilehash: 8874fc5a47ede1c35178cf16c7d3eded6f7826a7
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/10/2022
-ms.locfileid: "65304055"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615729"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>將通話路由到未指派的號碼
 
@@ -69,13 +69,13 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - 若要將通話路由至未指派的 Microsoft 通話方案訂閱者號碼，您的租使用者必須具備可用的 [通訊點數](what-are-communications-credits.md)。
 
-- 若要將通話路由至未指派的 Microsoft 通話方案服務號碼，您的租使用者必須至少有一個電話系統 - 虛擬使用者授權。
+- 若要將通話路由至未指派的 Microsoft 通話方案服務號碼，您的租使用者必須至少有一 **個Microsoft Teams 電話資源帳戶** 授權。
 
 - 支援的自訂音訊檔格式為 WAV (未壓縮、單聲道或身歷聲) 深度為 8/16/32 位的線性 PCM、僅限 WMA (單聲道) ，以及 MP3。 音訊檔案內容不能超過 5 MB。
 
-- Microsoft Teams撥打Microsoft Teams和撥出的來電，都會根據未指派的號碼範圍核取來電號碼。
+- Microsoft Teams 的輸入通話和 Microsoft Teams 的撥出電話，都會根據未指派的號碼範圍檢查來電號碼。
 
-- 如果指定的模式/範圍包含指派給租使用者中的使用者或資源帳戶的電話號碼，這些電話號碼的呼叫將會路由至適當的目標，而不會路由至指定的未指派號碼處理。 不會對範圍中的數位進行其他檢查。 如果範圍包含有效的外部電話號碼，則會根據處理方式從Microsoft Teams撥出至該電話號碼。
+- 如果指定的模式/範圍包含指派給租使用者中的使用者或資源帳戶的電話號碼，這些電話號碼的呼叫將會路由至適當的目標，而不會路由至指定的未指派號碼處理。 不會對範圍中的數位進行其他檢查。 如果範圍包含有效的外部電話號碼，則會根據處理方式從 Microsoft Teams 撥出至該電話號碼。
 
 ## <a name="related-topics"></a>相關主題
 

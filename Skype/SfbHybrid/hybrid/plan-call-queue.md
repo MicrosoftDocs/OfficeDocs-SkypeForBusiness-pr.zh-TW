@@ -11,47 +11,47 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
-description: 使用雲端自動語音應答與商務用 Skype Server 2019 的概覽。
-ms.openlocfilehash: 1dffa2e0b92f9888fc9b24323c7fa638468c8b1b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 使用雲端自動語音應答與 商務用 Skype Server 2019 的概觀。
+ms.openlocfilehash: df8013a4abc2029d585032b3d0bce810175e04f4
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578167"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615419"
 ---
 # <a name="plan-cloud-call-queues"></a>規劃雲端通話佇列
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-雲端通話佇列是一種服務，可接受客戶的來電、播放問候語訊息，然後在等候佇列中進行這些呼叫，然後搜尋預先設定的代理程式清單，以接聽這些呼叫。 您可以在啟用郵件功能的通訊群組清單或安全性群組中定義一組代理人。 您的組織可以有一或多個通話佇列。 通話佇列通常會與自動語音應答一起使用。
+雲端通話佇列是一項服務，可接受客戶通話、播放問候訊息，然後在搜尋預先設定的代理程式清單以接聽這些通話時，將這些通話放在等候佇列中。 您可以在擁有郵件功能的通訊群組清單或安全性群組中定義一組代理程式。 您的組織可以有一或多個通話佇列。 通話佇列通常與自動語音應答搭配使用。
 
 此外，雲端通話佇列可以提供：
 
-- 來電者等候通話時的音樂
-- 通話佇列的自訂設定大小上限、timeout 及通話處理選項
+- 來電者在等候等候時播放音樂
+- 通話佇列大小上限、逾時和通話處理選項的自訂設定
 
-每個通話佇列指派一個 **資源帳戶** (請參閱設定) 商務用 Skype Server 2019 系統上的 [資源帳戶](configure-onprem-ra.md)，此系統將直接連結到 Microsoft Teams 系統管理中心的呼叫佇列。 如需通話佇列的詳細資訊，以及通話佇列的選項及功能，請參閱 [Create a 雲端通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) 。
+每個通話佇列都會獲指派 **資源帳戶** (請參閱在您的 商務用 Skype Server 2019 系統上設定 [資源帳戶](configure-onprem-ra.md)) ，該帳戶會直接連結至 Microsoft Teams 系統管理中心的通話佇列。 如需通話 [佇列](/MicrosoftTeams/create-a-phone-system-call-queue) 的詳細資訊，以及通話佇列有哪些選項和功能，請參閱建立雲端通話佇列。
 
 > [!NOTE]
-> 您可以將多個電話號碼指派給通話佇列，但必須是 Microsoft 服務號碼、直接路由號碼或混合號碼。
+> 您可以將多個電話號碼指派給通話佇列，但必須是 Microsoft 服務號碼、直接路由號碼或混合式號碼。
 
 ## <a name="requirements"></a>需求
 
-下列需求假設您已在支援的拓撲中部署商務用 Skype Server 2019。  您的需求取決於您的案例：
+下列需求假設您已在支援的拓撲中部署 商務用 Skype Server 2019。  您的需求取決於您的案例：
 
-- 若為雲端通話佇列的新設定，請遵循 [設定資源帳戶](configure-onprem-ra.md)中所述的步驟。 您必須在線上或商務用 Skype Server 2019 中建立資源帳戶，而且您可能還需要將電話號碼與通話佇列關聯。
+- 如需新的雲端通話佇列設定，請遵循設定 [資源帳戶](configure-onprem-ra.md)中所述的步驟。 您必須在線上或在 2019 商務用 Skype Server建立資源帳戶，而且您可能也需要將電話號碼與通話佇列產生關聯。
 
-除了上述需求之外，還必須設定下列需求，才能連線至 Microsoft 雲端通話佇列服務：
+除了上述需求之外，還必須將下列需求設定為連線到 Microsoft Cloud 通話佇列服務：
 
-- 混合連接。 如果您已部署商務用 Skype Server，而您想要為您的內部部署使用者啟用雲端通話佇列，您必須確定您的內部部署與線上環境之間已設定混合式連線能力。 這有時稱為分割網域設定。
+- 混合式連線能力。 如果您已部署商務用 Skype Server，而且想要為內部部署使用者啟用雲端通話佇列，則必須確定您已在內部部署與線上環境之間設定混合式連線。 這有時稱為分割網域組態。
 
-   如需詳細資訊，請參閱[Plan 商務用 Skype Server 和 Microsoft 365 之間的混合](plan-hybrid-connectivity.md)式連線，或 Office 365 和[設定商務用 Skype Server 及 Microsoft 365 或 Office 365 之間的混合](configure-hybrid-connectivity.md)式連線。
+   如需詳細資訊，請參閱[規劃 商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合式聯](plan-hybrid-connectivity.md)機，以及設定[商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合式連線](configure-hybrid-connectivity.md)。
 
-- 若要將電話號碼指派給資源帳戶，您現在可以使用無成本的電話系統虛擬使用者授權。 這為組織層級的電話號碼提供電話系統功能，並可讓您建立自動語音應答及通話佇列功能。
+- 如果您要將電話號碼指派給資源帳戶，您現在可以使用免費 **Microsoft Teams 電話資源帳戶** 授權。 這可為組織層級的電話號碼提供電話系統功能，並可讓您建立自動語音應答和通話佇列功能。
 
-- 針對每個通話佇列建立內部部署 [資源帳戶](configure-onprem-ra.md) ，並視需要指派授權和電話號碼。  
+- 為每個通話佇列建立內部部署 [資源帳戶](configure-onprem-ra.md) ，並視需要指派授權和電話號碼。  
 
-當您具有符合您需求的實體結構，以及可有效指導客戶有效的腳本時，請繼續  [設定資源帳戶](configure-onprem-ra.md)。
+當您有符合需求的穩固結構，以及有效率地引導客戶的腳本時，請繼續設定  [資源帳戶](configure-onprem-ra.md)。
 
 ## <a name="see-also"></a>另請參閱
 
@@ -65,6 +65,6 @@ ms.locfileid: "58578167"
 
 [規劃商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合式連線](plan-hybrid-connectivity.md)
 
-[設定商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合式連線](configure-hybrid-connectivity.md)
+[設定 商務用 Skype Server 與 Microsoft 365 或 Office 365 之間的混合式連線](configure-hybrid-connectivity.md)
 
 [在 Microsoft Teams 中管理資源帳戶](/MicrosoftTeams/manage-resource-accounts)

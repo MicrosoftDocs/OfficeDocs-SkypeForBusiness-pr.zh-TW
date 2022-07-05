@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何為使用者設定雲端語音信箱。
-ms.openlocfilehash: 259072194dc474d88a979ac3afb591e72eb51248
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9d6752098ff9dee6294d53fb24f6b7df6ee8e21c
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494370"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66616249"
 ---
 # <a name="set-up-cloud-voicemail"></a>設定 [雲端語音信箱]
 
@@ -105,7 +105,7 @@ Teams 使用者的布建與商務用 Skype Online 使用者的布建並不相同
 
 若要加密語音信箱訊息，您可以建立敏感度標籤。 透過自動標籤功能，您可以確保標籤會自動套用至內送語音信箱訊息。
 
-當您啟用受保護的語音信箱時，使用者可以透過撥入語音信箱來聆聽受保護的語音信箱訊息，或是在 Outlook、Outlook 網頁版或 Android 或 iOS 版 Outlook 中開啟郵件。 Microsoft Teams 或 商務用 Skype 無法開啟受保護的語音信箱訊息。
+當您啟用受保護的語音信箱時，使用者可以在 Outlook、Outlook 網頁版或 Android 或 iOS 版 Outlook 中開啟郵件，以聆聽受保護的語音信箱訊息。 Microsoft Teams 或 商務用 Skype 無法開啟受保護的語音信箱訊息。
 
 若要建立語音信箱的敏感度標籤，請參 [閱使用敏感度標籤](/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions)。 在 [ **加密] 區** 段中，選擇 **[允許使用者在套用標籤時指派許可權]**。 選 **取 [在 Outlook 中，強制執行下列其中一項限制**]，然後選取 [ **不要轉寄** ] 選項。
 
