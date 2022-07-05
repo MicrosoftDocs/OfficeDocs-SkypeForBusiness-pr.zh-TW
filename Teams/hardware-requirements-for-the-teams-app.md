@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 39025c0ccd9cb3b7bc02de85719f98f4ec7f3090
-ms.sourcegitcommit: 1788f852508208a01f230f6f68a5a81ec8594c47
+ms.openlocfilehash: 449f706b5df8431fae6dda45d0e1412f34a4bd46
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "65860066"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615429"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Microsoft Teams 的硬體需求
 
@@ -40,7 +40,7 @@ ms.locfileid: "65860066"
 |硬碟    | 3.0 GB 的可用磁碟空間        |
 |顯示器    |   1024 x 768 螢幕解析度 |
 |圖形硬體 |  Windows OS：圖形硬體加速需要 DirectX 9 或更新版本，以及適用於 Windows 10 的 WDDM 2.0 或更新版本 (或適用於 Windows 10 Fall Creators Update 的 WDDM 1.3 或更新版本)
-|作業系統  |    Windows 11、Windows 10 (Windows 10 LTSC 除外)、ARM 版 Windows 10、Windows 8.1、Windows Server 2019、Windows Server 2016、Windows Server 2012 R2。 注意：建議您使用最新的 Windows 版本及可用的安全性修補程式。|
+|作業系統  |    Windows 11、Windows 10 (除了適用於 Teams 傳統型應用程式的 Windows 10 LTSC 之外)、ARM 版 Windows 10、Windows 8.1、Windows Server 2019、Windows Server 2016、Windows Server 2012 R2。 注意：建議您使用最新的 Windows 版本及可用的安全性修補程式。|
 |.NET 版本    |  需要 .NET 4.5 CLR 或更新版本       |
 |影片    |  USB 2.0 視訊攝影機       |
 |裝置    |   標準膝上型電腦攝影機、麥克風、喇叭    |
