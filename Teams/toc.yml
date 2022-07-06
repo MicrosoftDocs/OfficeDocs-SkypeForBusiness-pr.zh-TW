@@ -1797,7 +1797,7 @@ items:
             href: teams-add-on-licensing/advanced-communications.md
           - name: 傳訊原則授權
             href: teams-add-on-licensing/pri-message.md
-          - name: Microsoft 標準版電話系統 - 虛擬使用者授權
+          - name: Microsoft Teams 電話資源帳戶授權
             href: teams-add-on-licensing/virtual-user.md
           - name: 開始使用 Teams 基本版
             href: get-started-with-teams-essentials.md
