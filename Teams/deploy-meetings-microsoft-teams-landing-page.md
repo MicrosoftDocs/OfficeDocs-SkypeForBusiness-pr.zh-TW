@@ -7,6 +7,7 @@ author: SerdarSoysal
 ms.author: serdars
 manager: serdars
 ms.service: msteams
+ms.subservice: meetings
 audience: admin
 f1.keywords:
 - NOCSH
@@ -19,13 +20,13 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c41219f080e2270ed27d52688a03891f74ac26d
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.custom: seo-marvel-apr2020; intro-get-started
+ms.openlocfilehash: 51cbef962948063eee08db38b111d732477f9fc3
+ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605359"
+ms.lasthandoff: 07/05/2022
+ms.locfileid: "66615489"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Microsoft Teams 中的會議和召集會議
 
@@ -33,27 +34,25 @@ ms.locfileid: "60605359"
 > - 如需轉換至遠端學習和資源以協助您開始使用的概觀，請參閱我們的 [**遠端學習首頁**](https://www.microsoft.com/education/remote-learning)。
 > - 可在 [**Office 365 教育版中的遠端教學和學習**](https://support.office.com/article/remote-teaching-and-learning-in-office-365-education-f651ccae-7b65-478b-8366-51bb884025c4)中取得協助教育人員和學生進行遠端學習的資源。
 
-
 您已完成[開始使用](get-started-with-teams-quick-start.md)。 您已使用[聊天、團隊、頻道和應用程式](deploy-chat-teams-channels-microsoft-teams-landing-page.md)在組織中推出 Teams。 現在您已準備好要新增會議工作負載，包括[音訊會議](deploy-audio-conferencing-teams-landing-page.md)、視訊和共用。 本文將逐步引導您完成會議與音訊會議的推出。 請從觀看我們的 Teams 會議、召集會議和裝置影片開始 (3 分 28 秒)：
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE46ZdQ]
 
-若要深入了解使用者的會議體驗，請參閱 [會議和通話](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)。 
-
+若要深入了解使用者的會議體驗，請參閱 [會議和通話](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)。
 
 *2020 年 4 月新增功能*：會議召集人可以在會議期間按一下會議控制項中的 [結束會議]，結束 Teams 中所有會議參與者的會議。  
 
 *2019 年 11 月中的新功能*：您現在可以 [使用 Advisor for Teams (預覽) 協助您推出 Microsoft Teams](use-advisor-teams-roll-out.md)。 Advisor for Teams (預覽) 會引導您完成 Teams 的推出，包括會議和召集會議。 在您於 Teams 中成功推出會議和召集會議之前，它會評估您的 Office 365 環境，找出可能需要更新或修改的最常用設定。
 
- > [!Note]
-> 如需 Teams 會議與不同平台上的會議的詳細資訊，請參閱 [按平台區別的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
+ > [!NOTE]
+ > 如需 Teams 會議與不同平台上的會議的詳細資訊，請參閱 [按平台區別的 Teams 功能](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)。
 
 ## <a name="meetings-and-conferencing-deployment-decisions"></a>會議和召集會議部署決策
 
 Teams 為您的組織提供絕佳的現成體驗，而大部分組織認為預設設定就能滿足其需求。 本文可協助您決定是否要根據組織的設定檔和商務需求來變更任何預設設定，並逐步引導您完成每個變更。 我們已將設定分割成兩個群組，從[您最可能進行的變更](#core-deployment-decisions)的核心集開始。 根據組織的需求，第二個群組包括您可能想要設定的[其他設定](#additional-deployment-decisions)。
 
-> [!Tip]
-> 請觀看下列部分以深入了解會議：[IT 專業人員適用的 Microsoft Teams 中的會議簡介](https://aka.ms/teams-meetings-intro)
+> [!TIP]
+> 請觀看下列部分以深入了解會議：[IT 專業人員適用的 Microsoft Teams 中的會議簡介](https://aka.ms/teams-meetings-intro)。
 
 
 ## <a name="meetings-and-conferencing-prerequisites"></a>會議和召集會議必要條件
@@ -70,7 +69,6 @@ Teams 為您的組織提供絕佳的現成體驗，而大部分組織認為預�
 | 問問自己 | 動作 |
 |--------------|--------|
 |我的網路是否已準備好進行 Teams 會議部署？ | 若要確認您的網路已準備就緒，請參閱：<ul><li>[針對 Microsoft Teams 準備組織的網路](./prepare-network.md)</li><li>[URL 和 IP 位址範圍](./office-365-urls-ip-address-ranges.md)</li></ul> |
-|||
 
 ## <a name="core-deployment-decisions"></a>核心部署決策
 
@@ -78,24 +76,22 @@ Teams 為您的組織提供絕佳的現成體驗，而大部分組織認為預�
 
 ### <a name="teams-administrators"></a>Teams 系統管理員
 
-Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。這些角色為系統管理員提供了多種能力。 
+Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。這些角色為系統管理員提供了多種能力。
 
 | 問問自己 | 動作 |
 |--------------|--------|
 |誰將獲指派 Teams 通訊系統管理員角色？|若要深入了解 Teams 系統管理員角色，請參閱[使用 Microsoft Teams 系統管理員角色管理來管理 Teams](using-admin-roles.md)。|
 |誰將獲指派 Teams 通訊支援工程師角色？|若要指派系統管理員角色，[使用 Azure Active Directory 將系統管理員和非系統管理員角色指派給使用者](/azure/active-directory/fundamentals/active-directory-users-assign-role-azure-portal)。|
 |誰將獲指派 Teams 通訊支援專員角色？||
-|||
 
-### <a name="meetings-settings"></a>會議設定 
+### <a name="meetings-settings"></a>會議設定
 
-會議設定可用於控制匿名使用者是否可以加入 Teams 會議、設定會議邀請，以及針對即時流量設定連接埠 (如果您要開啟服務品質，即 QoS)。 這些設定會用於使用者在組織中排程的所有 Teams 會議。 
+會議設定可用於控制匿名使用者是否可以加入 Teams 會議、設定會議邀請，以及針對即時流量設定連接埠 (如果您要開啟服務品質，即 QoS)。 這些設定會用於使用者在組織中排程的所有 Teams 會議。
 
 | 問問自己 | 動作 |
 |--------------|--------|
 |我要自訂初始會議設定嗎？ |若要深入了解會議設定，請參閱 [Teams 中的會議教學課程](tutorial-meetings-in-teams.yml)。|
 |我要實作 QoS 嗎？|如需 QoS 概念的相關資訊，請參閱 [Microsoft Teams 中的服務品質](qos-in-teams.md)。 案例和實作。|
-|||
 
 ### <a name="meeting-policies"></a>會議原則
 
@@ -104,11 +100,10 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 | 問問自己 | 動作 |
 |--------------|--------|
 |<ul><li>我要自訂初始會議原則嗎？</li><li>我需要多個會議原則嗎？</li><li>我如何判斷哪些使用者群組會套用哪些會議原則？</li></ul>|<br>請閱讀[在 Teams 中管理會議原則](meeting-policies-overview.md)。|
-|||
 
 ### <a name="audio-conferencing"></a>音訊會議
 
-音訊會議能讓會議參與者使用傳統有線電話、專用交換機 (PBX) 或行動電話撥入，透過公用交換電話網路 (PSTN) 加入會議，為組織提供任何會議 (臨機操作或排程) 的其他進入點。 
+音訊會議能讓會議參與者使用傳統有線電話、專用交換機 (PBX) 或行動電話撥入，透過公用交換電話網路 (PSTN) 加入會議，為組織提供任何會議 (臨機操作或排程) 的其他進入點。
 
 當您準備好要推出音訊會議時，請參閱深入的[音訊會議推出](deploy-audio-conferencing-teams-landing-page.md)指導方針。
 
@@ -120,18 +115,15 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 |--------------|--------|
 |我要為使用者購買個人裝置嗎？ |請閱讀[在 Teams 中管理裝置](devices/device-management.md)。 |
 |我要為會議室購買並部署會議室系統裝置嗎？|請閱讀[會議室裝置和解決方案](/skypeforbusiness/certification/devices-meeting-rooms?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)。|
-|||
 
 ### <a name="reporting"></a>報告
 
-使用活動報告來查看組織中的使用者如何使用 Teams。 例如，如果有人還沒使用 Teams，可能是他們不知道如何開始，或不了解如何使用 Teams 提高生產力和共同作業。 組織可以使用活動報告來決定要優先進行訓練和溝通的方面。 
-
+使用活動報告來查看組織中的使用者如何使用 Teams。 例如，如果有人還沒使用 Teams，可能是他們不知道如何開始，或不了解如何使用 Teams 提高生產力和共同作業。 組織可以使用活動報告來決定要優先進行訓練和溝通的方面。
 
 | 問問自己 | 動作 |
 |--------------|--------|
 |誰將負責報告？|請閱讀[對 Teams 使用活動報告](teams-activity-reports.md)。  |
 |誰將負責監視使用情況？|請閱讀[在 Teams 中監視使用情況和意見反應](get-started-with-teams-monitor-usage-and-feedback.md)。|
-|||
 
 ## <a name="additional-deployment-decisions"></a>其他部署決策
 
@@ -147,7 +139,6 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 | 問問自己 | 動作 |
 |--------------|--------|
 | 我是否需要在會議推出之前和期間進行頻寬規劃？ |如需詳細資訊和可簡化規劃程序的工具連結，請參閱[網路整備](3-envision-evaluate-my-environment.md#network-readiness)。|
-|||
 
 ### <a name="meeting-recording-and-archiving"></a>會議錄製和封存
 
@@ -161,40 +152,32 @@ Teams 提供了一組自訂管理員角色，可用來為組織管理 Teams。�
 | 問問自己 | 動作 |
 |--------------|--------|
 | 我將開啟會議轉錄服務嗎？|請參閱[開啟或關閉錄製轉錄](meetings-policies-recording-and-transcription.md#allow-transcription)|
-|||
-
 
 ### <a name="live-events-policies"></a>即時事件原則
 
-Teams 即時事件原則用於管理使用者群組的事件設定。 您可以使用預設原則或建立可指派給組織內舉辦活動的使用者的額外原則。 
+Teams 即時事件原則用於管理使用者群組的事件設定。 您可以使用預設原則或建立可指派給組織內舉辦活動的使用者的額外原則。
 
 | 問問自己 | 動作 |
 |--------------|--------|
 | 我的組織是否會使用 Teams 即時事件？| 如需規劃、設定及設定 Teams 即時事件的詳細資訊，請參閱[即時事件文章](teams-live-events/what-are-teams-live-events.md)。|
-|||
 
 ### <a name="conference-room-systems-rollout"></a>會議室系統推出
 
 擁有多個會議室的組織可能需要使用結構化的方法來清查其會議室、找出適當的裝置，然後將它們推出。 
 
-
-
 | 問問自己 | 動作 |
 |--------------|--------|
 | 要推出會議室系統，我需要做什麼？|請查看[規劃 Microsoft Teams 會議室](/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json)文章。|
-|||
 
 ### <a name="cloud-video-interop"></a>雲端視訊 Interop
 
-雲端視訊 Interop 可讓第三方會議室裝置加入 Teams 會議。 
+雲端視訊 Interop 可讓第三方會議室裝置加入 Teams 會議。
 
-具有內容共同作業的視訊電話會議可協助您充分利用會議。 不過，會議室系統和裝置的升級成本過於高昂。 適用於 Teams 的雲端視訊 Interop 可搭配第三方系統使用，並可為所有參與者 (會議室中或 Teams 用戶端內) 提供原生的會議體驗。 
+具有內容共同作業的視訊電話會議可協助您充分利用會議。 不過，會議室系統和裝置的升級成本過於高昂。 適用於 Teams 的雲端視訊 Interop 可搭配第三方系統使用，並可為所有參與者 (會議室中或 Teams 用戶端內) 提供原生的會議體驗。
 
 | 問問自己 | 動作 |
 |--------------|--------|
 | 我將隨著會議室系統部署使用雲端視訊 Interop 解決方案嗎？ | 請閱讀 [Teams 雲端視訊 Interop](cloud-video-interop.md)。|
-|||
-
 
 ### <a name="personal-device-rollout"></a>個人裝置推出
 
@@ -203,16 +186,14 @@ Teams 即時事件原則用於管理使用者群組的事件設定。 您可以�
 | 問問自己 | 動作 |
 |--------------|--------|
 |我要使用站對站方法來推出會議嗎？ |  [Teams 的網站啟用語音手冊](3-onboard-deploy-my-service.md#site-enablement-playbook-for-microsoft-teams-voice-workloads)可提供良好的基礎，供您用於自己的部署。 本指南著重於語音，但是裝置交付、帳戶整備、採用及訓練的一般原則亦適用大型會議部署。 |
-|||
 
-### <a name="troubleshoot-meeting-and-call-quality"></a>對會議和通話品質進行疑難排解 
+### <a name="troubleshoot-meeting-and-call-quality"></a>對會議和通話品質進行疑難排解
 
-Teams 有兩種方式可供您監視和疑難排解通話品質問題：[通話分析和通話品質儀表板](monitor-call-quality-qos.md)。 通話分析能顯示每位使用者在特定通話和會議的裝置、網路和連線詳細資訊。 通話分析的設計目的在於協助系統管理員和支援人員疑難排解特定通話的通話品質問題，而通話品質儀表板的設計目的則是在協助系統管理員和網路工程師最佳化網路。 通話品質儀表板的重點不在特定使用者身上，而是會查看整個 Teams 組織的匯彙資訊。 
+Teams 有兩種方式可供您監視和疑難排解通話品質問題：[通話分析和通話品質儀表板](monitor-call-quality-qos.md)。 通話分析能顯示每位使用者在特定通話和會議的裝置、網路和連線詳細資訊。 通話分析的設計目的在於協助系統管理員和支援人員疑難排解特定通話的通話品質問題，而通話品質儀表板的設計目的則是在協助系統管理員和網路工程師最佳化網路。 通話品質儀表板的重點不在特定使用者身上，而是會查看整個 Teams 組織的匯彙資訊。
 
 |問問自己|動作 |
 |------------|-------|
 | 誰會負責監視及疑難排解通話品質問題？ | 如需疑難排解通話品質問題所需權限等級的相關資訊，請閱讀[使用通話分析來疑難排解不良通話品質](use-call-analytics-to-troubleshoot-poor-call-quality.md)。|
-|||
 
 ### <a name="operate-your-meetings-service"></a>操作會議服務
 
@@ -221,8 +202,6 @@ Teams 有兩種方式可供您監視和疑難排解通話品質問題：[通話�
 |問問自己|動作 |
 |------------|-------|
 |我的組織中的哪些人員將負責管理會議服務？ | 請確定這個人員擁有管理您的會議服務所需的 Teams 系統管理員權限。 若要深入了解 Teams 系統管理員角色，請參閱[使用 Microsoft Teams 系統管理員角色管理來管理 Teams](using-admin-roles.md)。|
-|||
-
 
 ## <a name="next-steps"></a>後續步驟
 - 在您的組織中推動會議和召集會議的[採用](adopt-microsoft-teams-landing-page.md)。
