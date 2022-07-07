@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以產生最佳結果。
-ms.openlocfilehash: 95a92b964773e7ed1aafa9e4e87004acad61b3f3
-ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
+ms.openlocfilehash: ad6db1f1766173b8d1e167b912555d85115087e3
+ms.sourcegitcommit: f608811288c82a6348a6af1671246a93ed06e578
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66551210"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66660969"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認證的 Android 裝置
 
@@ -120,6 +120,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 | 產品發行版本 | 發行日期  | Microsoft Teams 應用程式版本 | 公司入口網站版本 | 管理員專員版本 |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
+| 2022 更新 #3  | 2022 年 7 月 6 日   | `1449/1.0.94.2022061702` |`5.0.5304.0` | `322` |
 | 2022 更新#2A  | 2022 年 4 月 13 日   | `1449/1.0.94.2022041102` |`5.0.5304.0` | `322` |
 | 2022 更新 #2   | 2022 年 3 月 21 日   | `1449/1.0.94.2022030501` |`5.0.5304.0` | `322` |
 | 2022 更新#1C  | 2022 年 3 月 3 日  | `1449/1.0.94.2022022305` |`5.0.5304.0` | `322` |
