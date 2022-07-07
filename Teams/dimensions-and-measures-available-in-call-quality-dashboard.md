@@ -22,12 +22,12 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: 取得 Microsoft Teams 和 商務用 Skype Online 的通話品質儀表板 (CQD) 所使用的維度和度量的詳細資訊。
-ms.openlocfilehash: 27b7800efd8835254c5f093781881296b4db2464
-ms.sourcegitcommit: b383b309dbdf9caac7ad7e4a94df8d89016dc485
+ms.openlocfilehash: bc2289f06641e206f3188c865b936962e5f1b1f5
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66551220"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682532"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>[通話品質儀表板] (CQD) 中提供的維度和度量
 
@@ -551,6 +551,9 @@ CQD 使用的字串通常衍生自資料檔案，而且在允許的長度內幾�
 |包含通話佇列|Boolean|如果為 True，指定的通話或串流會包含通話佇列。 ||
 |**會議**||||
 |排程來源應用程式識別碼|String |預約會議的第一方或協力廠商排程用戶端的 AppID。|排程用戶端未透過遙測提供此參數。|
+|**常見**||||
+| 第一個 ACS 資源識別碼 |String |與第一個端點相關聯之 Azure 通訊服務的可啟用資源識別碼。 <br/> **範例：** 00000000-0000-0000-0000-0000000000 | 端點未使用 Azure 通訊服務 API|
+| 第二個 ACS 資源識別碼 |String |與第二個端點相關聯之 Azure 通訊服務的可啟用資源識別碼。 <br/> **範例：** 00000000-0000-0000-0000-0000000000 | 端點未使用 Azure 通訊服務 API|
 |**Datapair**||||
 | 網路連線詳細資料配對  | 列舉的配對 <br/>**可能的值：** <br/> wifi ：wifi <br/> wifi：有線 <br/> 有線 ：wifi <br/> 有線：有線 <br/> MobileBB：MobileBB <br/> MobileBB：其他 <br/> MobileBB ：通通道 <br/> MobileBB ：wifi <br/> MobileBB：有線 <br/> 其他：其他 <br/> 其他 ：wifi <br/> 其他：有線 <br/> 通地道：通水道 <br/> 通道：wifi <br/> 網道：有線 <br/> ： MobileBB <br/> ：其他 <br/> ：通通 <br/> ： wifi <br/> ： 有線 <br/> :  | 第一個和第二個端點的網路連線詳細資料組合。  | &bull; 端點網路連線類型為未知。 如果無法建立通話，就可能會發生這種情況。   |
 | 使用者代理程式類別配對  | 列舉的配對  | 第一個和第二個端點的一組使用者代理程式類別。 <br/> **範例值：** AV-MCU ：OC  | &bull; 端點使用者代理程式不是已知的類型  |

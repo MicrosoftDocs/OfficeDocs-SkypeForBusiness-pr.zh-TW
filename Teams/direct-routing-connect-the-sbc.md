@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: 瞭解如何設定並將您的 SBC 連線到 Teams Phone System Direct Routing。
-ms.openlocfilehash: e33f9538fdf69696e0a87da84dc5aec8e8d304af
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 0423c374e903aab2e283ee45bcabf9ceb31ef869
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241102"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682662"
 ---
 # <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>將會話框線控制器 (SBC) 連線至直接路由
 
@@ -95,6 +95,8 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
   > 除了在租使用者中註冊的網域之外，請務必有一位使用者擁有該網域，並擁有指派的 E3 或 E5 授權。 如果沒有，您會收到下列錯誤：<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
   > 3. 不支援在 SBC 端對應相同 FQDN 的多個 IP。
+  > 4. 為了提供一流的加密給我們的客戶，Microsoft 將會強制使用 TLS1.2 直接路由 SIP 介面。
+  > 若要避免任何服務影響，請確定您的 SBC 已設定為支援 TLS1.2，而且可以使用下列其中一個密碼套件連線：TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384即。 ECDHE-RSA-AES256-GCM-SHA384 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256即 ECDHE-RSA-AES128-GCM-SHA256 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384，也即 ECDHE-RSA-AES256-SHA384 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 i.e. ECDHE-RSA-AES128-SHA256
 
 以下是範例：
 

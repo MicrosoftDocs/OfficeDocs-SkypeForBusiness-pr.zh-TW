@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解國家或地區是否可使用音訊會議、電話系統、通話方案、通訊點數，以及免付費電話號碼和免付費電話號碼。
-ms.openlocfilehash: 71aa417de6a6ec9f6388ac414512f42a881be001
-ms.sourcegitcommit: 4847f24e8c644336d2b2f48aa09e2cf91360e4dd
+ms.openlocfilehash: 7693ae0421d186d1ac230d48bf4df2369aa4e3f8
+ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/06/2022
-ms.locfileid: "64686310"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66682462"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>音訊會議與通話方案的適用國家/地區
 
@@ -161,7 +161,7 @@ ms.locfileid: "64686310"
 
 ***
 
-在您確認其中一個商務用 Skype或Microsoft Teams服務是否可供使用之後，您可以看到[商務用 Skype和Microsoft Teams附加](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)元件授權，以協助您購買授權並將它們指派給使用者。
+在您確認其中一個商務用 Skype或 Microsoft Teams 服務是否可供使用之後，您可以看到[商務用 Skype和 Microsoft Teams 附加](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)元件授權，以協助您購買授權並將它們指派給使用者。
 
 > [!NOTE]
 >
@@ -171,7 +171,7 @@ ms.locfileid: "64686310"
 
 ### <a name="audio-conferencing"></a>音訊會議
 
-貴組織內的人員有時會需要透過電話來加入會議。 商務用 Skype和Microsoft Teams包含音訊會議功能，就是為了這種情況！ 人員可以透過電話來加入會議，而不必在行動裝置或電腦上透過商務用 Skype 和 Microsoft Teams 應用程式來參加。 當您決定要為組織安排音訊會議時，請為組織中即將排程/主持 **音訊** 會議的每個人員購買一個音訊會議授權。
+貴組織內的人員有時會需要透過電話來加入會議。 商務用 Skype和 Microsoft Teams 包含音訊會議功能，就是為了這種情況！ 人員可以透過電話來加入會議，而不必在行動裝置或電腦上透過商務用 Skype 和 Microsoft Teams 應用程式來參加。 當您決定要為組織安排音訊會議時，請為組織中即將排程/主持 **音訊** 會議的每個人員購買一個音訊會議授權。
   
 透過音訊會議，您的使用者可以使用免付費電話號碼和免付費電話號碼撥入會議。 組織若已啟用音訊會議功能，系統便會自動將下列國家/地區的付費電話號碼當作共用的音訊會議號碼來指派給組織。 您可以從其他城市將專用付費和免付費電話號碼指派給貴組織。
 
@@ -193,7 +193,7 @@ ms.locfileid: "64686310"
   
 ### <a name="phone-system"></a>電話系統
 
-您可以使用電話系統建立自動語音應答和通話佇列， (使用付費或免付費電話號碼) 來接聽組織的來電。 當您為使用者新增通話方案時，他們可以使用商務用 Skype來處理基本的撥號控制工作，例如撥打和接聽來電、轉接電話，以及將通話設為靜音和取消靜音。 **電話系統** 使用者按一下通訊錄中的名稱，商務用 Skype就會撥打電話給那個人。 若要撥打和接聽電話，**電話系統** 使用者可以使用行動裝置、使用膝上型電腦或電腦的耳機，或是可與商務用 Skype搭配使用的眾多 IP 手機之一。
+使用 [電話系統]，您可以建立自動語音應答和通話佇列， (使用付費或免付費電話號碼) 來接聽組織的來電。 當您為使用者新增通話方案時，他們可以使用商務用 Skype來處理基本的撥號控制工作，例如撥打和接聽來電、轉接電話，以及將通話設為靜音和取消靜音。 **電話系統** 使用者按一下通訊錄中的名稱，商務用 Skype就會撥打電話給那個人。 若要撥打和接聽電話，**電話系統** 使用者可以使用行動裝置、配備膝上型電腦或電腦的耳機，或是可與商務用 Skype搭配使用的眾多 IP 電話之一。
 
 根據庫存量而定，某些位置在任何給定時間不一定會有付費電話號碼。 除了取得個別使用者的電話號碼，您也可以搜尋及取得電話會議) 橋接器 (、自動語音應答和通話佇列等服務的付費或免付費電話號碼。 這些電話號碼稱為服務號碼。 請參閱[取得服務電話號碼](../getting-service-phone-numbers.md)以取得電話號碼。 但對您的使用者來說，在為其指派通話方案之後，您就可以指派使用者電話號碼，讓其可以撥打和接聽電話。 若要尋找這些電話號碼，請移至[為使用者取得電話號碼](../getting-phone-numbers-for-your-users.md)。 您也可以參閱[指派、變更或移除使用者的電話號碼](../assign-change-or-remove-a-phone-number-for-a-user.md)。
 
@@ -206,7 +206,7 @@ ms.locfileid: "64686310"
 
 ### <a name="calling-plans"></a>通話方案
 
-與電話系統一起使用時，通話方案可讓使用者撥打及接聽電話。 您會先取得使用者 (使用者) 電話號碼 (而不是服務號碼，) 指派給使用者，然後指派通話方案。 有三種可用的通話方案： **國內**、 **國際** 及 **國內及國際**。 如需詳細資訊，請參閱[電話系統和通話方案](../calling-plan-landing-page.md)。
+與電話系統一起使用時，通話方案可讓使用者撥打及接聽電話。 您會先取得使用者 (使用者) 電話號碼 (而不是服務號碼，) 指派給使用者，然後指派通話方案。 有兩種類型的通話方案可用： **國內** 和 **國際**。 如需詳細資訊，請參閱[電話系統和通話方案](../calling-plan-landing-page.md)。
 
 您也可以參閱[電話系統和通話方案授權](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)以取得授權資訊。
 
