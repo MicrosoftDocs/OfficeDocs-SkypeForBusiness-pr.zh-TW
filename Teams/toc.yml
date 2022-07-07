@@ -1563,6 +1563,8 @@ items:
             href: apps-update-experience.md
           - name: 管理跨 Microsoft 365 的 Teams 應用程式存取權
             href: manage-third-party-teams-apps.md
+          - name: 應用程式管理活動和事件的稽核
+            href: audit-app-management-activities.md
       - name: 應用程式使用報告和分析
         href: teams-analytics-and-reports/app-usage-report.md
   - name: 產業和政府指引
