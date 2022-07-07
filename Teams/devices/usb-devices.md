@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器，) 經過 Microsoft Teams 認證。
-ms.openlocfilehash: a2f106b71cc6494594ad34b9aa8dbfb61789a67a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: 7df6ca32a359931a62935d68257583c4d499aa93
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66605702"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647655"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
 
@@ -149,8 +149,8 @@ ms.locfileid: "66605702"
 |聯想               |Pro Wired VoIP 立體耳機                              |12/21/2020      |升級至 Microsoft Teams 商務用 Skype      |
 |聚                 |Svit Office 7320                                           |12/18/2020      |已通過 Microsoft Teams 認證                           |
 |聚                 |Svit Office 7310                                           |12/18/2020      |已通過 Microsoft Teams 認證                           |
-|Jabra                |Evolve 75e / SE Headset                                         |12/16/2020      |升級至 Microsoft Teams 商務用 Skype      |
-|Jabra                |Evolve 65e / SE Headset                                         |12/16/2020      |升級至 Microsoft Teams 商務用 Skype      |
+|Jabra                |Evolve 75e Headset                                         |12/16/2020      |升級至 Microsoft Teams 商務用 Skype      |
+|Jabra                |Evolve 65e Headset                                         |12/16/2020      |升級至 Microsoft Teams 商務用 Skype      |
 |戴爾                 |C3422WE 監視器                                            |12/11/2020      |已通過 Microsoft Teams 認證                           |
 |戴爾                 |C2722DE 監視器                                            |12/11/2020      |已通過 Microsoft Teams 認證                           |
 |戴爾                 |C2422HE 監視器                                            |12/11/2020      |已通過 Microsoft Teams 認證                           |
@@ -167,8 +167,8 @@ ms.locfileid: "66605702"
 |EPOS/Sennheiser      |使用 USB-ED CC 01 MS 連接器影響 SC 660               |8/20/2020       |升級至 Microsoft Teams 商務用 Skype      |
 |EPOS/Sennheiser      |使用 USB-ED CC 01 MS 連接器影響 SC 630               |8/20/2020       |升級至 Microsoft Teams 商務用 Skype      |
 |EPOS/Sennheiser      |使用 USB-ED CC 01 MS 連接器影響 SC 260               |8/20/2020       |升級至 Microsoft Teams 商務用 Skype      |
-|Jabra                |Evolve 75 Headset                                          |7/31/2020       |升級至 Microsoft Teams 商務用 Skype      |
-|Jabra                |Evolve 65 Headset                                          |7/31/2020       |升級至 Microsoft Teams 商務用 Skype      |
+|Jabra                |Evolve 75 / SE Headset                                          |7/31/2020       |升級至 Microsoft Teams 商務用 Skype      |
+|Jabra                |Evolve 65 / SE Headset                                          |7/31/2020       |升級至 Microsoft Teams 商務用 Skype      |
 |Jabra                |參與 50 頭戴式裝置                                          |7/31/2020       |升級至 Microsoft Teams 商務用 Skype      |
 |Avocor               |WCD- AVW-6555                                              |7/30/2020       |已通過 Microsoft Teams 認證                           |
 |Jabra                |Evolve2 85 Headset                                         |7/17/2020       |已通過 Microsoft Teams 認證                           |

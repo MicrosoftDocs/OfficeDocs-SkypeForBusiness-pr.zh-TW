@@ -19,12 +19,12 @@ description: 瞭解如何管理 Teams 應用程式。 瞭解如何允許或封�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 82ab9372f925e40beac41d4075b49b34118f8851
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 92f7c6d69fbc9f680c204f0210aaa80742dd6384
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616049"
+ms.lasthandoff: 07/06/2022
+ms.locfileid: "66647745"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理 Teams 應用程式
 
@@ -62,7 +62,7 @@ Teams 系統管理中心提供可完成大部分應用程式管理使用案例�
 | 更新原則是用來管理 Teams 和 Office 預覽版使用者，這些使用者將會在 Teams 應用程式中看到發行前版本或預覽功能。  | [Teams 更新原則](https://admin.teams.microsoft.com/policies/updatemanagement) | [Teams 公開預覽](public-preview-doc-updates.md) |
 | **Teams 外部系統管理中心** | | |
 | 在 Microsoft 365 系統管理中心 中管理協力廠商應用程式的授權和訂閱 | [Microsoft 365 系統管理中心](https://admin.microsoft.com/#/licenses) | [管理協力廠商應用程式訂閱](/microsoft-365/commerce/manage-saas-apps) |
-| 稽核 Microsoft Purview 合規性入口網站 上的 Teams 應用程式事件。 | [審計](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams 活動](audit-log-events.md#teams-activities) |
+| 稽核 Microsoft Purview 合規性入口網站 上的 Teams 應用程式事件。 | [審計](https://compliance.microsoft.com/auditlogsearch?viewid=Async%20Search) | [Teams 活動](audit-app-management-activities.md) |
 | 應用程式可透過三種方法授與貴組織及其資料的許可權：系統管理員同意所有使用者的應用程式、使用者授與同意應用程式，或是系統管理員整合應用程式並啟用自助存取，或直接將使用者指派給應用程式。 確認應用程式的 Graph 許可權。 確認使用者提供或系統管理員委派的許可權。 | [Azure AD 入口網站](https://aad.portal.azure.com/) | [檢閱授與應用程式的許可權](/azure/active-directory/manage-apps/manage-application-permissions) |
 
 <!---
