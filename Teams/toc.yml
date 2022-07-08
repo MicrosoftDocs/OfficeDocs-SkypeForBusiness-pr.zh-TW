@@ -1561,9 +1561,9 @@ items:
             href: non-standard-users.md
           - name: 應用程式更新和系統管理員角色
             href: apps-update-experience.md
-          - name: 管理跨 Microsoft 365 的 Teams 應用程式存取權
+          - name: 管理整個 Microsoft 365 的應用程式存取權
             href: manage-third-party-teams-apps.md
-          - name: 應用程式管理活動和事件的稽核
+          - name: 稽核應用程式管理活動
             href: audit-app-management-activities.md
       - name: 應用程式使用報告和分析
         href: teams-analytics-and-reports/app-usage-report.md

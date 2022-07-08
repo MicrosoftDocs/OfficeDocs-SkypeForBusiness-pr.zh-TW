@@ -15,14 +15,14 @@ description: 了解如何稽核貴組織中使用者和系統管理員的 Teams 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: d75773db33f1648e3fff0c7bf06944da133f0604
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: 77c7ac5d80304e82f1309e3a22b21c17d106a58c
+ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642883"
+ms.locfileid: "66647841"
 ---
-# <a name="search-the-audit-logs-for-app-events"></a>搜尋應用程式事件的稽核記錄
+# <a name="audit-for-app-management-activities-and-events"></a>適用於應用程式管理活動和事件的稽核
 
 Microsoft 365 中的 Microsoft Purview 稽核 (標準版) 可讓您按使用者和系統管理員搜尋在各種 Microsoft 365 服務中執行之活動的稽核記錄。
 
@@ -32,7 +32,7 @@ Microsoft 365 中的 Microsoft Purview 稽核 (標準版) 可讓您按使用者�
 * [在 Microsoft Purview 合規性入口網站中開啟稽核功能](/microsoft-365/compliance/turn-audit-log-search-on-or-off)。
 * [指派搜尋稽核記錄的權限](/microsoft-365/compliance/set-up-basic-audit)。
 
-## <a name="audit-logs-for-app-events-in-teams"></a>Teams 中應用程式事件的稽核記錄
+## <a name="search-the-audit-logs-for-app-events-in-teams"></a>搜尋 Teams 中應用程式事件的稽核記錄
 
 Teams 中應用程式事件的稽核記錄可協助您調查特定動作。 雖然您可以搜尋各種動作的記錄檔，但下表列出一些已記錄的 Teams 應用程式動作。 此外，您可以搜尋與連接器、Bot、索引標籤等的相關活動。
 
