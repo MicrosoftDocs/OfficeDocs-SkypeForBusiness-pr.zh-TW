@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: 當您取得組織的電話號碼或埠 (移轉) 號碼時，您可能需要在 TNS 服務台取得協助及支援。
-ms.openlocfilehash: bd12ac951e6a0f23ffeebf7a9d2e7655ce73d906
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 8fd5bb73ebdf5aba4cbadeb885404e1a6a6b4fca
+ms.sourcegitcommit: 9175c6d542dd825ce965d0cb7c67264f22315202
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240722"
+ms.lasthandoff: 07/07/2022
+ms.locfileid: "66687869"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>電話號碼服務 (TNS) - 服務台
 
@@ -43,7 +43,7 @@ ms.locfileid: "66240722"
 
 2. 在左側窗格中，選取 [ **語音**]，然後選取 [ **電話號碼]**。
 
-3. 按一下頁面右上角的 [ **動作**]，然後選 **取 [取得電話號碼支援]**。 系統會將您移轉至 **[服務** 中心] (服務台入口網站) 。
+3. 按一下頁面右上角的 [ **動作**]，然後選 **取 [取得電話號碼支援]**。 您將會被移轉到 [電話號碼服務中心](https://pstnsd.powerappsportals.com/)
 
 > [!NOTE]
 > 只有來自相同租使用者的人員才能建立案例。 例如，來自 @fabrikam.com 的人無法代表 @contoso.com 建立案例。
