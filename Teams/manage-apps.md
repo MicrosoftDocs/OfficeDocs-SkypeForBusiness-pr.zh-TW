@@ -19,12 +19,12 @@ description: 瞭解如何管理 Teams 應用程式。 瞭解如何允許或封�
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 92f7c6d69fbc9f680c204f0210aaa80742dd6384
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: f9bf05364ae990930da89a64643fa86b2b0467c4
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647745"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695066"
 ---
 # <a name="manage-teams-apps-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理 Teams 應用程式
 
@@ -119,7 +119,7 @@ Teams 系統管理中心提供可完成大部分應用程式管理使用案例�
 
  1. 登入 Teams 系統管理中心，然後選取 [[管理應用程式]](https://admin.teams.microsoft.com/policies/manage-apps)
 
-    :::image type="content" source="media/requested-apps1.png" alt-text="使用者要求" lightbox="media/requested-apps.png" border="true":::
+    :::image type="content" source="media/requested-apps1.png" alt-text="已封鎖應用程式的使用者要求會顯示在 Teams 系統管理中心的標題為[使用者要求] 的欄中。" lightbox="media/requested-apps.png":::
 
  1. 若要檢視及檢查每個應用程式的要求數目，請在 [ **依使用者** 要求] 欄中排序要求。
  1. 選取您要解除封鎖的應用程式名稱，它會開啟應用程式詳細資料頁面。

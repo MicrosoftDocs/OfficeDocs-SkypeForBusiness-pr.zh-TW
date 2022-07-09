@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
 description: 瞭解 Microsoft 直接路由如何讓您將受支援的客戶提供的會話框線控制器 (SBC) 連線至電話系統。
-ms.openlocfilehash: a5ccb8534ed8772124ae6e2506af81e5b63134d0
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: fd5f2733fc11511e6cfc2e646c0bb78aff26b522
+ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682512"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "66695056"
 ---
 # <a name="plan-direct-routing"></a>規劃直接路由
 
@@ -160,6 +160,9 @@ contoso.com|是|**有效的名稱：**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.
 
 SBC 只需要一個 FQDN，而且可以從配對租使用者中的任何位址空間為使用者提供服務。 例如，名稱 sbc1.contoso.com 的 SBC 可以接收並傳送位址 user@contoso.com 使用者的 PSTN 流量，只要這些 SIP 位址空間是在同一個租使用者中登錄，user@fabrikam.com。  
 
+ > [!NOTE]
+ > Azure 通訊服務直接路由中的 SBC FQDN 必須與 Teams 直接路由中的 SBC FQDN 不同。
+  
 ## <a name="public-trusted-certificate-for-the-sbc"></a>SBC 的公用信任憑證
 
 Microsoft 建議您產生認證簽署要求 (CSR) ，以要求 SBC 的憑證。 如需有關為 SBC 產生 CSR 的特定指示，請參閱 SBC 廠商提供的相互連接指示或檔。 
