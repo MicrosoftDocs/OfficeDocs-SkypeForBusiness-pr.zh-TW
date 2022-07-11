@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6015c7b7cf1e7be5bc6b9b3e1fe0577a7f707377
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: 5b9c049942808da9b2df97d031ff850949bca211
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66564141"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713311"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>在 Microsoft Teams 中實作服務品質 (QoS) 
 
@@ -151,7 +151,7 @@ _建議的初始埠範圍_
 
 - 所有用戶端，包括行動用戶端和 Teams 裝置，都會使用這些埠範圍，並受到您實作使用這些來源埠範圍之 DSCP 原則的影響。 唯一會繼續使用動態埠的用戶端是瀏覽器型用戶端 (可讓參與者使用其瀏覽器) 加入會議的用戶端。
 
-- 雖然 Mac 用戶端使用相同的埠範圍，但也針對音訊 (EF) 和視訊 (AF41) 使用硬式編碼值。 這些值無法設定。
+- 雖然 Mac 用戶端使用相同的埠範圍，但也針對音訊 (EF) 和視訊及應用程式/螢幕共用 (AF41) 使用硬式編碼值。 這些值無法設定。
 
 - 如果您之後需要調整埠範圍以改善使用者體驗，埠範圍無法重迭且應彼此相鄰。
 

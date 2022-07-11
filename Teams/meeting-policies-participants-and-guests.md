@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: 瞭解如何在 Teams 中管理參與者和來賓的會議原則設定。
-ms.openlocfilehash: 5770c4d998a28edf2b8fc8131650b98420e826f9
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 7f9cb76e12671425ee2b7b0543263195796e04d5
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241132"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713351"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>會議原則設定 - 參與者與來賓
 
@@ -112,9 +112,11 @@ ms.locfileid: "66241132"
 
 ## <a name="qa-in-meetings"></a>會議中的 Q&A
 
-這是每一召集人原則。 此設定會控制召集人是否可以將 Q&A 體驗新增至他們的會議。 此設定預設會關閉。 在這裡深入瞭解 Q [&A。](/manage-qna-for-meetings) 
+這是每一召集人原則。 此設定可讓 Microsoft 365 租使用者系統管理員啟用或停用 Q&A)  (問題&解答體驗。
 
-若要參數 QnAEngagementMode 在 PowerShell 和 Q&A 中控制此原則，也可以在系統管理入口網站內進行調整。
+此設定會在召集人建立或更新會議時強制執行。 此設定預設會關閉。 在這裡深入瞭解 Q [&A。](/manage-qna-for-meetings)
+
+參數 QnAEngagementMode 會在 PowerShell 中控制此原則。 您也可以在系統管理入口網站中調整 Q&A。
 
 |設定值 |行為  |
 |---------|---------|

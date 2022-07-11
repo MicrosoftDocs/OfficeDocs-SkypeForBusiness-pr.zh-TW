@@ -17,16 +17,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何使用意見反應原則來控制貴組織中的 Teams 使用者是否可以將 Teams 相關的意見反應提交給 Microsoft。
-ms.openlocfilehash: 206533faba3ae7c79c5e6bed54eb738061ed37bb
-ms.sourcegitcommit: ff783fad2fb5d412e864e3af2ceaa8fedcd9da07
+ms.openlocfilehash: 7fcfa1738f7dbbc0f7c70afec86e9e2f181d6d21
+ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66562442"
+ms.lasthandoff: 07/11/2022
+ms.locfileid: "66713341"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理意見反應原則
-
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 貴組織中的使用者可以傳送有關 Microsoft Teams 的意見反應，讓我們知道我們如何直接從 Teams 桌上型電腦、Web 用戶端和行動裝置中進行。 我們持續改善 Teams 體驗，並使用此意見反應讓 Teams 變得更好。
 
