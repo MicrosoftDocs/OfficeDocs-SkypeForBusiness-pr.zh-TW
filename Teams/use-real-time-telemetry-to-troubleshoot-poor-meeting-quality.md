@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用即時遙測與裝置、網路和連線的詳細資料，以疑難排解 Microsoft Teams 排程會議的使用者問題。
-ms.openlocfilehash: c7bc5ee0415a289782cad1dd7daa5c13bdaf7364
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 794c0097c3bdcc757e0a469cb0f65b5eb4e6c285
+ms.sourcegitcommit: ce1cbdcfce8c785c66f6a51ef8e84092124f3ef0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494720"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "66716799"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>使用即時遙測來疑難排解會議品質不佳的問題
 
@@ -153,6 +153,9 @@ Real-Time分析會針對您Office 365帳戶中的每位使用者顯示 Teams 會
 - 即時遙測資料可在會議結束後 24 小時于 [ **最近的會議** ] 底下進行會議。 24 小時後，您將無法存取資料，且會議會移至 **[過去的會議]**。 如果會議時間超過 3 小時，即時遙測只能 *在最後 3 小時* 使用。
 - 使用舊版 Teams 時，無法即時使用遙測。 如果沒有遙測可用，請嘗試更新您的用戶端。
 - 如果外部參與者或匿名使用者加入會議，他們的顯示名稱會顯示為 **無法** 保留跨租使用者隱私權。
+
+> [!NOTE]
+> 在限時公開預覽中，即時遙測資料目前可在會議結束後 **的 7 天內** 使用。 上述限制會在公開預覽結束之後套用。
 
 ## <a name="related-topics"></a>相關主題
 
