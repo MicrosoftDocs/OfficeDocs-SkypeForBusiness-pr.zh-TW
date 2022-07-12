@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 瞭解如何透過 Cmdlet 設定自動語音應答
-ms.openlocfilehash: a3f669a6540e42cd0ff4a016da0215ca79f3bd22
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 4dccd4e5026d78dada222cedf98659cdcd5ce6e5
+ms.sourcegitcommit: 6fb15729b2ff5ca142cb90605f3c98112cb36804
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65676610"
+ms.lasthandoff: 07/12/2022
+ms.locfileid: "66744319"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>透過 Cmdlet 建立自動語音應答
 
@@ -52,7 +52,7 @@ ms.locfileid: "65676610"
 3. 您已購買 Microsoft Teams 電話
 4. 在 [使用 PowerShell Cmdlet 建立通話佇列](create-a-phone-system-call-queue-via-cmdlets.md) 指南之後，已經設定下列的通話佇列。
 
-**注意**：下列部分參照的 Cmdlet 可能是 Teams PowerShell 模組的公開預覽版本的一部分。 如需詳細資訊，請[參閱安裝 powerShell Teams公開預覽](teams-powershell-install.md)，並[參閱Microsoft Teams PowerShell 版本資訊。](teams-powershell-release-notes.md)
+**注意**：下列部分參照的 Cmdlet 可能是 Teams PowerShell 模組的公開預覽版本的一部分。 如需詳細資訊，請參閱 [安裝 Teams PowerShell 公開預覽](teams-powershell-install.md) ，並參閱 [Microsoft Teams PowerShell 版本資訊](teams-powershell-release-notes.md)。
 
 已安裝 MicrosoftTeams 模組的使用者應 `Update-Module MicrosoftTeams` 確保已安裝最新版本。
 
@@ -85,7 +85,7 @@ ms.locfileid: "65676610"
 
 ## <a name="login"></a>登錄
 
-系統會提示您輸入Teams系統管理員認證。
+系統會提示您輸入 Teams 系統管理員認證。
 
 ```PowerShell
 $credential = Get-Credential
@@ -143,7 +143,7 @@ $dtr = New-CsOnlineDateTimeRange -Start "01/01/2022" -End "02/01/2022"
 $newyearSchedule = New-CsOnlineSchedule -Name "New Year" -FixedSchedule -DateTimeRanges @($dtr)
 ```
 
-### <a name="create-address-fax-and-email-information-prompt"></a>建立位址、傳真和電子郵件資訊提示
+### <a name="create-address-fax-and-email-information-prompt"></a>建立位址、傳真和Email資訊提示
 
 ```PowerShell
 $addressPrompt = New-CsAutoAttendantPrompt -TextToSpeechPrompt "To repeat this information at any time press the * key. Our mailing address is: 123 Main Street, Any town, Any Place, County. Our email address is: info@contoso.com. Our fax number is: 929-555-0151"
@@ -211,7 +211,7 @@ $dialbynameAAMenuOption3 = New-CsAutoAttendantMenuOption -Action TransferCallToT
 $afterHoursMenuOption4 = New-CsAutoAttendantMenuOption -Action Announcement -DtmfResponse Tone4 -Prompt $addressPrompt
 ```
 
-### <a name="create-after-hours-menu-and-call-flow"></a>建立 [下班時間] 功能表和 [通話Flow
+### <a name="create-after-hours-menu-and-call-flow"></a>建立 [下班時間] 功能表和 [通話流程]
 
 ```PowerShell
 $afterHoursMenu = New-CsAutoAttendantMenu -Name "After Hours Menu" -MenuOptions @($afterHoursMenuOption1, $afterHoursMenuOption2, $dialbynameAAMenuOption3, $afterHoursMenuOption4) -Prompt $afterHoursMenuPrompt
@@ -288,7 +288,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 ### <a name="get-list-of-unassigned-service-numbers"></a>取得未指派的服務號碼清單
 
 ```PowerShell
-Get-CsOnlineTelephoneNumber -IsNotAssigned -InventoryType Service
+Get-CsPhoneNumberAssignment -PstnAssignmentStatus Unassigned -CapabilitiesContain VoiceApplicationAssignment
 ```
 
 #### <a name="assign-available-phone-number"></a>指派可用的電話號碼
