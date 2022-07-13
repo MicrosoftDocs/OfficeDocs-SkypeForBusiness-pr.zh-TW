@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8dc80503c2b949fb77cc8d593ba5a8dd71e68654
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 90e577f9d6ef7567387fbc7a26a944d20e976f66
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240442"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773702"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -176,8 +176,6 @@ Microsoft 365 Apps 企業版不支援 Teams 的每個電腦安裝。 若要使�
 
     > [!NOTE]
     > 如果是政府雲端，請參閱 [使用 Windows Installer (MSI) 大量安裝 Teams ](msi-deployment.md) ，以取得 MSI 檔案的下載連結。
-
-    需要的 Teams 傳統型應用程式的最低版本是版本 1.3.00.4461。 舊版不支援 PSTN 保留。
 
 2. 執行下列其中一個命令，將 MSI 安裝到 VDI VM：
 

@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以產生最佳結果。
-ms.openlocfilehash: ad6db1f1766173b8d1e167b912555d85115087e3
-ms.sourcegitcommit: f608811288c82a6348a6af1671246a93ed06e578
+ms.openlocfilehash: f0cfd75ed37937abc988f7f865a1357aec352b3c
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66660969"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773692"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認證的 Android 裝置
 
@@ -72,6 +72,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 | 裝置型號 | 韌體版本 | 目前的認證結束日期 | 會議室大小                                        |  Android OS 版本    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
+| Yealink MeetingBoard 65 吋 | `155.15.0.6 `   | 2024 年 9 月 3 日 | 中型房間 (4.5 m x 6 m)  | 10|
 | Yealink 會議列 A20 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 小型會議室 (4.5 m x 4.5 m) | 10|
 | Yealink 會議列 A30 | `133.15.0.108  `   | 2024 年 9 月 3 日 | 中型房間 (4.5 m x 6 m)  | 10|
 | 登入點選 IP VR0029     | `1.6.762`  |   2024 年 9 月 3 日  | 與 Logitech 欄和分隔線迷你版相容 | 10 |
