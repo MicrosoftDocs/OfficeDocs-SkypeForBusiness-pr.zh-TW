@@ -34,7 +34,7 @@ ms.locfileid: "66606242"
 
 請勿錯過我們的 Teams 系統管理員適用的「歡迎使用 Teams」影片 (剛好超過 3 分鐘)：
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vi2L]
 
 如果您要尋找終端使用者 Teams 說明，請按一下應用程式左側的 **[說明]**，或移至 [Microsoft Teams 說明中心](https://support.office.com/teams)。若要進行訓練，移至 [Microsoft Teams 訓練](training-microsoft-teams-landing-page.md)。 
 
