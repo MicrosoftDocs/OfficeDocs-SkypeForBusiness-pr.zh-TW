@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器，) 經過 Microsoft Teams 認證。
-ms.openlocfilehash: 7df6ca32a359931a62935d68257583c4d499aa93
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: c56b6c50ff9873aa2eace6a790f484065697f855
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647655"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789158"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
 
@@ -84,6 +84,9 @@ ms.locfileid: "66647655"
 |戴爾                 |WB5023 相機                                              |6/29/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |ADAPT 560 II 頭戴式裝置                                       |6/22/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |C10/C20/C50 系列耳機                                |5/31/2022       |已通過 Microsoft Teams 認證                           |
+|Jabra                |Engage55 Mono/身歷聲耳機                               |5/25/2022       |已通過 Microsoft Teams 認證                           |
+|EPOS                 |EXPAND 40T Speakerphone                                    |5/24/2022       |已通過 Microsoft Teams 認證                           | 
+|戴爾                 |U3223QZ 監視器                                            |5/24/2022       |已通過 Microsoft Teams 認證                           |
 |聚                 |Studio P21 監視器                                         |5/12/2022       |已通過 Microsoft Teams 認證                           |
 |Yealink              |UH38 頭戴式裝置                                               |5/2/2022        |已通過 Microsoft Teams 認證                           |   
 |Yealink              |BH72 頭戴式裝置                                               |5/2/2022        |已通過 Microsoft Teams 認證                           |

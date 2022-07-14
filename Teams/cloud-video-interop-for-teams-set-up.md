@@ -1,7 +1,7 @@
 ---
 title: 設定適用于 Microsoft Teams 的雲端視訊 Interop
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b76e7c5e79b3928c7fb19ad9c5f5fb8f241b29a
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: f9ae7d59a97989d7f0677bf56b46c0a3d51f3e49
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674735"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789328"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>設定適用于 Microsoft Teams 的雲端視訊 Interop
 
@@ -32,7 +32,7 @@ ms.locfileid: "65674735"
 
 ## <a name="plan"></a>規劃
 
-如需識別組織中要使用的合作夥伴或合作夥伴的相關資訊，請參閱雲端視訊[Interop](cloud-video-interop.md)以取得Microsoft Teams。
+如需識別組織中要使用的合作夥伴或合作夥伴的相關資訊，請參閱 [Microsoft Teams 的雲](cloud-video-interop.md) 端視訊 Interop。
 
 若要規劃使用者型/並行/全網站啟用：
 
@@ -78,7 +78,7 @@ ms.locfileid: "65674735"
 
 您必須提供視訊電話會議裝置 (VTC 的許可權同意，) 透過合作夥伴服務加入貴組織的會議。 您的合作夥伴也會提供此同意連結。
 
-完成這些步驟後，透過上述 Grant Cmdlet 個別啟用的使用者，或如果已啟用租使用者，組織中的所有使用者都會在他們排程的所有Teams會議中具有 VTC 座標。 任何 VTC 都可以透過這些座標加入這些會議。
+完成這些步驟後，透過上述 Grant Cmdlet 個別啟用的使用者，或如果已啟用租使用者，組織中的所有使用者都會在他們排程的所有 Teams 會議中具有 VTC 座標。 任何 VTC 都可以透過這些座標加入這些會議。
 
 |名稱|應用程式許可權簡短描述| 描述|
 |---|---|---|
@@ -89,21 +89,21 @@ ms.locfileid: "65674735"
 
 ## <a name="schedule"></a>附表
 
-接下來，使用視訊交互座標安排Teams會議。 啟用的使用者可以透過下列方式排程團隊會議：
+接下來，使用視訊交互座標排程 Teams 會議。 啟用的使用者可以透過下列方式排程團隊會議：
 
-- [Teams Outlook 的會議增益集](teams-add-in-for-outlook.md)
-- Teams用戶端桌面和行動裝置
+- [適用于 Outlook 的 Teams 會議增益集](teams-add-in-for-outlook.md)
+- Teams 用戶端桌面和行動裝置
 
 ## <a name="join"></a>加入
 
-您可以使用 VTC 裝置以下列方式加入Teams會議：
+您可以使用下列方式使用 VTC 裝置加入 Teams 會議：
 
 - IVR (互動式語音回應) 
   - 您可以使用tenantkey@domain撥入合作夥伴的 IVR。
-  - 一旦您進入合作夥伴 IVR，系統會提示您輸入 VTC 會議Id，然後將您連線至Teams會議。
+  - 一旦您進入合作夥伴 IVR，系統會提示您輸入 VTC 會議Id，然後將您連線至 Teams 會議。
 - 直撥
-  - 您可以直接撥入Teams會議，而不需使用完整的租使用者金鑰串直接撥號功能與合作夥伴的 IVR 互動。VTC ConferenceId@domain。
+  - 您可以直接撥入 Teams 會議，而不需與合作夥伴的 IVR 互動，方法是使用完整的租使用者金鑰字串直接撥號功能。VTC ConferenceId@domain。
 - 單點觸控轉盤
-  - 如果您有整合式Teams室，您可以使用合作夥伴 (提供的單點觸控撥號功能，而不需要輸入任何撥號字串) 。
+  - 如果您有整合的 Teams 會議室，您可以使用合作夥伴 (提供的單點觸控撥號功能，而不需要輸入任何撥號字串) 。
 
-最後，使用音訊、視訊和內容共用功能，與Teams使用者一起參與會議。
+最後，使用音訊、視訊和內容共用功能，與 Teams 使用者一起參與會議。

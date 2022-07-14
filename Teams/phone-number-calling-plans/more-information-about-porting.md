@@ -1,114 +1,119 @@
 ---
-title: 有關移植的更多資訊
-author: SerdarSoysal
-ms.author: serdars
+title: 有關移轉的詳細資訊
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
-ms.reviewer: 'tonysmit,jastark'
+ms.reviewer: tonysmit,jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-voice
+- M365-voice
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
-  - CSH
+- CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
-description: 取得將電話號碼移植至Microsoft Teams。
+description: 取得將電話號碼移轉到 Microsoft Teams 所需的指導方針。
+ms.openlocfilehash: 6edb3f617a890659d6aeedb817b38fba4a2c1da1
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790358"
 ---
+# <a name="more-information-about-porting"></a>有關移轉的詳細資訊
 
-# <a name="more-information-about-porting"></a>有關移植的更多資訊
+您可以在這裡找到將電話號碼移轉到 Microsoft Teams 的詳細資訊。
 
-您可以在這裡找到將電話號碼Microsoft Teams。
+如需完整的逐步指示，請參閱 [將電話號碼移轉到 Teams](transfer-phone-numbers-to-teams.md)。
 
-有關完整的逐步指示，請參閱將[電話號碼轉接到Teams](transfer-phone-numbers-to-teams.md)。
+如果您需要協助或需要取得更多電話號碼，請連絡 [TNS 服務台說明](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
 
-如果您需要協助，或需要取得更多電話號碼，請聯絡 [TNS 服務台協助](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)。
+## <a name="port-order-account-information"></a>移轉訂單帳戶資訊
 
-## <a name="port-order-account-information"></a>埠訂單帳戶資訊
-
-當您位於移植精靈的新增帳戶資訊頁面以提交埠訂單時，您將在 LOA 中輸入幾乎所有相同的資訊，包括：
+當您在移轉精靈的 [ **新增帳戶資訊** ] 頁面上提交移轉訂單時，幾乎會輸入您在 LOA 中提供的所有相同資訊，包括：
   
-- 服務提供者或電信服務提供者的帳戶號碼
+- 服務提供者或電信業者的帳戶號碼
     
-- 計費電話號碼 (BTN) 
+- 帳單電話號碼 (BTN) 
     
-- PIN - 如果目前的服務提供者或電信公司需要
+- PIN - 如果您目前的服務提供者或電信業者需要
     
 - 組織名稱
     
     > [!NOTE]
-    > 這只會接受 25 個字元，包括空格。 如果組織名稱超過 25 個字元，將會提交名稱的前 25 個字元，而且仍將處理埠訂單。
+    > 這只會接受 25 個字元，包括空格。 如果組織名稱超過 25 個字元，將會提交名稱的前 25 個字元，而且仍將處理移轉訂單。
   
-- 有權變更帳戶的人員名稱
+- 授權對帳戶進行變更的人員名稱
     
     > [!NOTE]
-    > 這只會接受 15 個字元，包括空格。 如果授權人員的名稱超過 15 個字元，將會提交名稱的前 15 個字元，而且仍將處理埠訂單。 
+    > 這只會接受 15 個字元，包括空格。 如果授權人員的名稱超過 15 個字元，將會提交名稱的前 15 個字元，而且仍將處理移轉訂單。 
   
 - 服務位址
   
-若要輕鬆提交埠訂單並避免錯誤，請確認您執行下列操作：
+若要輕鬆提交移轉訂單並避免錯誤，請務必執行下列動作：
   
-- 移除任何與 (相關聯的功能，例如) 群組。 請確定這些電話號碼上未啟用進一級的通話控制功能，例如通話搜尋或特殊鈴聲。
+- 移除 (的任何功能，例如搜尋群組) 與您的號碼相關聯。 確定這些電話號碼上未啟用進階通話控制功能，例如通話搜尋或特殊撥打。
     
-- 請確保您尚未下任何新的服務訂單，或中斷與目前服務提供者的中斷連接。
+- 請確定您沒有下任何新的服務訂單，或中斷與您目前服務提供者的連線。
     
-- 請確定所有號碼都來自同一個電信電信公司與同一個帳戶。
+- 確定所有號碼都來自同一個電信業者和相同的帳戶。
     
-- 請確定您提供的帳戶資訊與手機電信公司的記錄完全一樣。 資訊不一致是錯誤最常見的原因，而且可能會延遲您的埠訂單。
+- 請確定您所提供之帳戶資訊完全符合您的電信業者記錄中的帳戶資訊。 不相符的資訊是造成錯誤的最常見原因，而且可能會延遲移轉訂單。
     
 > [!CAUTION]
-> 請勿中斷與服務提供者或電信業者的服務。 您必須保持先前的服務有效，才能將電話號碼Teams。 請勿凍結服務提供者或電信服務提供者的帳戶。 凍結帳戶可防止帳戶上的電信公司變更。 授權使用者必須提交訂單給目前的電信公司，才能移除凍結。 此程式可能需要一到三周的時間，視電信公司不同。
+> 請勿中斷服務與服務提供者或電信業者的連線。 您必須保持先前的服務作用中，才能將電話號碼移轉至 Teams。 請勿凍結您與服務提供者或電信業者的帳戶。 凍結帳戶可防止帳戶上的電信業者變更。 授權使用者必須提交訂單給目前的電信業者，才能移除凍結。 視電信業者而定，此程式可能需要一到三周的時間。
 
 ## <a name="authorized-person-on-the-account"></a>帳戶上的授權人員
 
-在埠精靈中，您必須向服務提供者或電信公司輸入有權變更帳戶的人員名稱。 該名稱不會用於處理埠訂單，但用於發生爭議，或數位在埠時不正確。 此人員負責處理埠訂單的授權書 (LOA) 授權書。
+在移轉精靈中，您必須輸入有權變更服務提供者或電信業者帳戶的人員名稱。 名稱不會用來處理移轉訂單，而是用於發生爭議，或是移轉號碼時發生錯誤。 此人對於移轉訂單的授權 (LOA) 負責。
   
 > [!NOTE]
-> 方塊限制為 15 個字元 (包含空格) 。 在方塊中沒有完整名稱不會延遲或取消埠訂單。
+> 方塊的字元數限制為 15 個字元， (包含空格) 。 方塊中沒有完整名稱並不會延遲或取消移轉訂單。
   
-## <a name="whats-my-billing-telephone-number"></a>我的帳單電話號碼是什麼？
+## <a name="whats-my-billing-telephone-number"></a>什麼是我的帳單電話號碼？
 
-BTN () 帳單電話號碼是包含在帳單上且由服務提供者或電信業者計費的主要電話號碼。 如果您從只有一個電話號碼的帳戶移轉電話號碼，您必須輸入此電話號碼。 如果您要從擁有多個帳戶的帳戶移轉電話號碼，您可以查看帳單，或連連您的服務提供者或電信業者，以判斷您帳戶的 BTN 是什麼。
+ (BTN) 帳單的主要電話號碼，由您的服務提供者或電信業者計費。 如果您要從只有一個電話號碼的帳戶移轉電話號碼，您必須輸入這個電話號碼。 如果您要從擁有多個帳戶的帳戶移轉電話號碼，您可以查看帳單或連絡您的服務提供者或電信業者，以判斷 BTN 適用于您的帳戶。
 
-## <a name="what-should-i-put-in-for-the-account-number"></a>我應該為帳戶號碼放入什麼？
+## <a name="what-should-i-put-in-for-the-account-number"></a>我應該輸入什麼帳號？
 
-一般來說，您可以在服務提供者或電信公司的任何帳單或發票上找到帳戶號碼，也可以登入電信公司的網站。 如果您仍然不知道帳戶號碼，您可以與您的服務提供者或電信公司聯繫以取得。
+一般情況下，您可以從服務提供者或電信業者取得的任何帳單或發票上找到帳號，或是登入電信業者的網站。 如果您仍然不知道帳號，可以連絡您的服務提供者或電信業者來取得。
   
 > [!CAUTION]
->  請務必在輸入服務提供者或電信業者帳戶號碼時，使用空格、破折號或連字號。
+>  輸入您的服務提供者或電信業者帳戶號碼時，請務必確定您不要使用空格、破折號或連字號。
 
 ## <a name="what-should-i-put-in-for-the-organization-name"></a>我應該為組織名稱輸入什麼？
 
-這是貴組織的名稱。 組織名稱限制為 25 個字元，其中包括空格。 公司名稱不會用來處理埠訂單要求。 它用於發生爭議，或當電話號碼被移植時發生錯誤。 如果您無法將公司整個名稱容納在方塊中，就不會延遲或取消埠訂單。
+這是貴組織的名稱。 組織名稱限制為 25 個字元，其中包含空格。 公司名稱不會用來處理移轉訂單要求。 它用於爭議或移轉電話號碼時發生不正確的情形。 如果您無法將整個公司名稱納入方塊中，就不會延遲或取消移轉訂單。
   
 ## <a name="what-should-i-put-in-for-the-service-address"></a>我應該為服務位址輸入什麼？
 
-服務位址與您向電話服務提供者或電信公司註冊的帳單或緊急位址不同。 如果您不知道這一點，請與您的服務提供者或電信公司聯繫，以找出您帳戶上所列的服務位址。
+服務位址與您向電話服務提供者或電信業者註冊的帳單或緊急位址不同。 如果您不知道這一點，請連絡您的服務提供者或電信業者，以找出您帳戶中列出的服務位址。
 
-## <a name="how-should-i-enter-the-phone-numbers"></a>我要如何輸入電話號碼？
+## <a name="how-should-i-enter-the-phone-numbers"></a>我該如何輸入電話號碼？
 <a name="bkadding"> </a>
 
-提交埠訂單時，您必須使用格式正確的 CSV 檔案來提交電話號碼。 以下是 CSV 檔案的需求：
+提交移轉訂單時，您必須使用格式正確的 CSV 檔案來提交電話號碼。 以下是 CSV 檔案的需求：
 
- - 您可以為檔案指定您想要的任何名稱。
- - 檔案必須只有一個標題為 PhoneNumber 的欄。
- - 每個電話號碼必須位於另一列。
- - 電話數位只能是數位或 E.164 格式。
- - 電話號碼格式必須與您所選的國家/地區相符。 例如，如果您在埠精靈中選擇英國，請使用 44，這是國家/地區代碼，後面接著具有正確位數的電話號碼。 例如，4420812341234。
+ - 您可以為檔案提供任何您想要的名稱。
+ - 檔案只能有一個名為 PhoneNumber 標題的欄。
+ - 每個電話號碼都必須在另一列。
+ - 電話號碼只能是數位或 E.164 格式。
+ - 電話號碼格式必須符合您選取的國家或地區。 例如，如果您在移轉精靈中選擇 [英國]，請使用 44，也就是國碼，後面接著號碼正確的數位。 例如，4420812341234。
 
-## <a name="how-do-i-see-the-status-of-my-port-order"></a>如何查看我的埠訂單狀態？
+## <a name="how-do-i-see-the-status-of-my-port-order"></a>如何?查看移轉訂單的狀態？
 
-[請參閱您的埠訂單狀態是什麼？](port-order-status.md)
+請參閱移 [轉訂單的狀態為何？](port-order-status.md)
 
 ## <a name="related-topics"></a>相關主題
 
 - [什麼是移轉訂單？](port-order-overview.md)
-- [用於通話方案的各種電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+- [通話方案所用的不同電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 - [管理貴組織的電話號碼](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 - [緊急通話條款及條件](../emergency-calling-terms-and-conditions.md)
 - [緊急通話免責聲明標籤](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)

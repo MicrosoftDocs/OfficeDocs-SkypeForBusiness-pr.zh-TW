@@ -1,7 +1,7 @@
 ---
 title: '[通話品質儀表板] (CQD) 中的資料和報告'
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: 瞭解 Microsoft 通話品質儀表板 (CQD) 中提供的資料和報告。
-ms.openlocfilehash: c30840ea4bf1de02572300044964211c5668056f
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: ba30be8d63dab1f5720be5637ea0a28c26d5d877
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675005"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789808"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>[通話品質儀表板] (CQD) 中的資料和報告
 
@@ -39,9 +39,9 @@ Microsoft Call Quality Dashboard (CQD) 使用接近即時 (NRT) 資料摘要。 
 
 |&nbsp;|&nbsp;|
 |---|---|
-|Teams系統管理中心[ (https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)|CQD 資料會包含在 Teams 系統管理中心的 [**使用者**] 頁面上，以易於閱讀的格式顯示您最常用的資料。 您無法自訂 [ **使用者**] 底下的 CQD 資料。|
+|Teams 系統管理中心[ (https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)|CQD 資料會包含在 Teams 系統管理中心的 [ **使用者** ] 頁面上，以簡單易讀的格式顯示您最常用的資料。 您無法自訂 [ **使用者**] 底下的 CQD 資料。|
 |CQD 入口[網站 (https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)|透過切入篩選，可滿足大多數需求的強固摘要和詳細報告。 您也可以在 CQD 入口網站中自訂報表。 <br><br>取得兩個 [CQD 報表範本](#import-the-cqd-report-templates) ，協助您分析 CQD 入口網站中的資料。|
-|Power BI|使用可[自訂的Power BI範本](CQD-Power-BI-query-templates.md)，在 Power BI 中使用直接查詢檢視您的 CQD 資料。 [下載 Power BI CQD 查詢範本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>您也可以[使用 REST API 透過 Power BI 存取 CQD 資料](/skypeforbusiness/management-tools/call-quality-dashboard/data-api)。 如果您想要下載 CQD 資料以便離線工作，請使用這個方法。 使用此方法的好處是效能更好，尤其對於在您上線時Power BI中變慢的大型資料集特別有用。|
+|Power BI|使用可 [自訂的 Power BI 範本](CQD-Power-BI-query-templates.md)，使用直接查詢在 Power BI 中檢視您的 CQD 資料。 [下載適用于 CQD 的 Power BI 查詢範本](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)。<br><br>您也可以 [使用 REST API 透過 Power BI 存取 CQD 資料](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) 。 如果您想要下載 CQD 資料以便離線工作，請使用這個方法。 使用此方法的好處是效能更好，尤其對於在您上線時在 Power BI 中變慢的大型資料集特別有用。|
 |Graph API|使用圖形 API自行存取通話品質[資料。](/graph/api/resources/callrecords-api-overview) 這是最複雜的方法，但可讓您在分析通話品質資料時，擁有最大的控制能力和彈性。 例如，如果您需要將它與組織的其他資料聯結，您可以使用圖形 API建立資料模型，並整合通話品質資料。|
 
 ## <a name="import-the-cqd-report-templates"></a>匯入 CQD 報表範本
@@ -73,14 +73,14 @@ Microsoft Call Quality Dashboard (CQD) 使用接近即時 (NRT) 資料摘要。 
 - 電腦端點名稱
 - 使用者逐字意見反應
 - 物件識別碼 (端點使用者的 Active Directory 物件識別碼) 
-- 電話編號
+- 電話號碼
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>管理員具有或不含 EUII 存取權的角色
 
 這些 [RBAC](/azure/role-based-access-control/overview) 角色 **DO** 具有 EUII 存取權：
 
 - 全域管理員
-- Teams服務管理員
+- Teams 服務管理員
 - Teams Communications 管理員
 - Teams 通訊支援工程師
 - 全域閱讀程式
@@ -89,7 +89,7 @@ Microsoft Call Quality Dashboard (CQD) 使用接近即時 (NRT) 資料摘要。 
 這些 RBAC 角色 **沒有** EUII 存取權：
 
 - 報表閱讀程式
-- Teams Communications 支援專員
+- Teams 通訊支援專家
 
 ## <a name="date-controls"></a>日期控制項
 
@@ -115,7 +115,7 @@ URL Date 參數接受 Day 欄位。 滾動日報表使用 YYYY-MM-DD 格式所�
 
 您只需要管理組織通話品質的預設摘要和詳細的 CQD 報告即可。如有需要，您可以 [建立自訂報表](#create-custom-detailed-reports)。
 
-如果您想要使用Power BI來分析您的 CQD 資料，請參閱[使用Power BI來分析 Teams 的 CQD 資料](CQD-Power-BI-query-templates.md)。
+如果您想要使用 Power BI 來分析您的 CQD 資料，請參閱 [使用 Power BI 來分析 Teams 的 CQD 資料](CQD-Power-BI-query-templates.md)。
 
 |功能|摘要報表|詳細報告|
 |:---|:---|:---|
@@ -131,16 +131,16 @@ URL Date 參數接受 Day 欄位。 滾動日報表使用 YYYY-MM-DD 格式所�
 |以視訊為基礎的螢幕畫面分享指派|否|是|
 |視訊指派|否|是|
 |可用的資料量|過去 12 個月|過去 12 個月|
-|Microsoft Teams資料|是|是|
+|Microsoft Teams 資料|是|是|
 
 ### <a name="select-product-data-to-see-in-reports"></a>選取要在報告中查看的產品資料
 
-在 [摘要與Location-Enhanced報表] 中，您可以使用 **[產品篩選**] 下拉式清單來顯示所有產品資料，只顯示Microsoft Teams資料，或僅商務用 Skype線上資料。
+在 [摘要與Location-Enhanced報表] 中，您可以使用 **[產品篩選**] 下拉式清單顯示所有產品資料，僅顯示 Microsoft Teams 資料，或僅商務用 Skype線上資料。
 
 > [!div class="mx-imgBorder"]
 > ![螢幕擷取畫面：顯示 [產品篩選] 控制選項。](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
 
-在 [詳細報告] 中，您可以使用 **Is Teams** 維度來篩選資料以Microsoft Teams或商務用 Skype線上資料。
+在 [詳細報告] 中，您可以使用 **Is Teams** 維度來篩選資料至 Microsoft Teams 或商務用 Skype線上資料。
 
 ## <a name="summary-reports"></a>摘要報表
 
@@ -214,13 +214,13 @@ Server-Client案例的內部測試只會考慮用戶端端點。 因為從使用
 
 ## <a name="tenant-data-information"></a>租使用者資料資訊
 
-CQD 摘要報告儀表板包含租使用者 **資料Upload** 頁面，可從右上角的 [設定] 功能表中選取 [**租使用者資料] Upload** 來存取。 此頁面供系統管理員上傳自己的資訊，例如：
+CQD 摘要報告儀表板包含租 **使用者資料上傳** 頁面，可從右上角的設定功能表中選取 [ **租使用者資料上傳** ] 來存取。 此頁面供系統管理員上傳自己的資訊，例如：
 
 - IP 位址和地理位置資訊的地圖。
 - 每個無線 AP 及其 MAC 位址的地圖。
 - 端點對應到端點的 [製作/模型/類型] 等。
 
-我們建議您上傳租使用者、建築物和位置資料，讓 CQD 可以將這項資訊包含在您的報告中。 如果您尚未上傳此資料，請閱讀[Upload租使用者和建築物資料](CQD-upload-tenant-building-data.md)。
+我們建議您上傳租使用者、建築物和位置資料，讓 CQD 可以將這項資訊包含在您的報告中。 如果您尚未上傳此資料，請閱讀 [上傳租使用者和建築物資料](CQD-upload-tenant-building-data.md)。
 
 ## <a name="detailed-reports"></a>詳細報告
 
@@ -238,7 +238,7 @@ CQD 摘要報告儀表板包含租使用者 **資料Upload** 頁面，可從右�
 
 ## <a name="create-custom-detailed-reports"></a>建立自訂詳細報告
 
-如果預設 CQD 報表不符合您的需求，請使用這些指示建立自訂報表。 或者，自 2020 年 1 月起 () 改[用 CQD 報表](cqd-power-bi-query-templates.md)Power BI。
+如果預設 CQD 報表不符合您的需求，請使用這些指示建立自訂報表。 或者 (自 2020 年 1 月起) [改用 Power BI for CQD 報告 ](cqd-power-bi-query-templates.md)。
 
 從顯示在登入 [**摘要報告**] 畫面 \) 的螢幕 \( 頂端報表下拉式清單中，選取 [**詳細報告**]，然後選取 [**新增]**。 按一下報告中的 **[編輯**] 以查看查詢編輯器。 每個報表都由查詢在 Cube 中備份。 報表是其查詢所傳回資料的視覺效果。 查詢編輯器可協助您編輯這些查詢和報表的顯示選項。
 
@@ -335,7 +335,7 @@ CQD 支援新增篩選至 URL。 這可讓您輕鬆共用或將 CQD 查詢加入
 
 `filter/DATA_MODEL_NAME|VALUE`
 
-例如，若要套用 Microsoft Teams 的產品篩選值，請新增下列專案：
+例如，若要套用 Microsoft Teams 的 [產品] 篩選值，您可以新增下列專案：
 
 `filter/[AllStreams].[Is%20Teams]|[True]`
 
@@ -349,7 +349,7 @@ CQD 支援新增篩選至 URL。 這可讓您輕鬆共用或將 CQD 查詢加入
 
 如果您指定不正確名稱或值，則不會套用 URL 篩選。
 
-您可以使用 URL 篩選來篩選每個報表的特定維度。 最常見的 URL 篩選是用來篩選報表以排除同盟參與者遙測，或只將焦點放在Teams或商務用 Skype Online。 當您修復受管理的建築物或網路，同盟端點可能會影響您的報表時，從 CQD 報表排除同盟資料會很有用。
+您可以使用 URL 篩選來篩選每個報表的特定維度。 最常見的 URL 篩選是用來篩選報表以排除同盟參與者遙測，或只將焦點放在 Teams 或 商務用 Skype Online。 當您修復受管理的建築物或網路，同盟端點可能會影響您的報表時，從 CQD 報表排除同盟資料會很有用。
 
 |Filter|描述|CQD 查詢篩選範例|
 |---|---|---|
@@ -361,9 +361,9 @@ CQD 支援新增篩選至 URL。 這可讓您輕鬆共用或將 CQD 查詢加入
 
 CQD 中的租使用者識別碼會對應到 Azure 中的目錄識別碼。 如果您不知道目錄識別碼，可以在Azure 入口網站中找到：
 
-1. 登入Microsoft Azure入口網站：<https://portal.azure.com>
+1. 登入 Microsoft Azure 入口網站：<https://portal.azure.com>
 
-2. 選 **取 [Azure Active Directory]**。
+2. 選 **取 Azure Active Directory**。
 
 3. 在 [ **管理] 底** 下，選取 [ **內容]**。 您的租使用者識別碼位於 [ **目錄識別碼** ] 方塊中。
 
@@ -375,22 +375,22 @@ Login-AzureRmAccount
 
 ## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>比較 Teams 和 商務用 Skype CQD 資料
 
-檢閱資料時，您可能會看到Teams與商務用 Skype之間的資料差異。 一些原因：
+檢閱資料時，您可能會看到 Teams 和 商務用 Skype 之間的資料差異。 一些原因：
 
 - 確保效能與可靠性的機制差異：
-  - Teams有自動重新連線和快速漫遊功能。 商務用 Skype不行。
-  - Teams有動態頻寬管理。 商務用 Skype不行。
-- TEAMS與 商務用 Skype 之間[IP 位址範圍](Office-365-URLs-IP-address-ranges.md)的差異。 Teams IP 範圍較新，可能會導致防火牆發生連線問題。
+  - Teams 有自動重新連線和快速漫遊功能。 商務用 Skype不行。
+  - Teams 具有動態頻寬管理。 商務用 Skype不行。
+- Teams 與 商務用 Skype 之間[IP 位址範圍](Office-365-URLs-IP-address-ranges.md)的差異。 Teams IP 範圍較新，可能會導致防火牆發生連線問題。
 
 ## <a name="related-topics"></a>相關主題
 
-[改善及監控Teams的通話品質](monitor-call-quality-qos.md)
+[改善及監控 Teams 的通話品質](monitor-call-quality-qos.md)
 
 [什麼是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
 [設定呼叫品質儀表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
-[Upload租使用者和建築物資料](CQD-upload-tenant-building-data.md)
+[上傳租使用者和建築物資料](CQD-upload-tenant-building-data.md)
 
 [使用 CQD 管理通話和會議品質](quality-of-experience-review-guide.md)
 
@@ -398,4 +398,4 @@ Login-AzureRmAccount
 
 [CQD 中的串流分類](stream-classification-in-call-quality-dashboard.md)
 
-[使用 Power BI 來分析 CQD 資料](CQD-Power-BI-query-templates.md)
+[使用 Power BI 分析 CQD 資料](CQD-Power-BI-query-templates.md)

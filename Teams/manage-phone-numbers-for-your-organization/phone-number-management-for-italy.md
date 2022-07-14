@@ -1,7 +1,7 @@
 ---
-title: 電話號碼管理
-author: SerdarSoysal
-ms.author: serdars
+title: 義大利的電話號碼管理
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -18,32 +18,32 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 使用此表格可尋找取得及管理義大利地區電話號碼Microsoft Teams。
-ms.openlocfilehash: 1e1ca63cbc9ebdffccc4b3d200425a908067179b
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 使用下表尋找有關取得和管理義大利 Microsoft Teams 電話號碼的資訊。
+ms.openlocfilehash: 8fe89bd892f1df694f51475f1336f470b2576c5d
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401217"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789338"
 ---
-# <a name="phone-number-management-for-italy"></a>電話號碼管理
+# <a name="phone-number-management-for-italy"></a>義大利的電話號碼管理
 
-使用此表格可尋找取得及管理義大利地區電話號碼Microsoft Teams。
+使用下表尋找有關取得和管理義大利 Microsoft Teams 電話號碼的資訊。
   
-詳細資訊，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)。
+如需詳細資訊，請參閱 [管理組織的電話號碼](manage-phone-numbers-for-your-organization.md)。
   
-|**您想要做什麼？**|**下載正確的表單並傳送給我們**|
+|**您想要做什麼？**|**下載正確的表單並將它們傳送給我們**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。   <br/> |下載其中一個表單。 <br>  [義大利的新電話號碼要求 (5.0)  (it-it) ](https://download.microsoft.com/download/7/2/7/727217df-80e4-4ff5-b9ed-65b84cdceba6/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf) <br/>  [義大利的新電話號碼要求 (5.0)  (en-us) ](https://download.microsoft.com/download/4/1/7/417d2578-3686-4530-87ea-e9f36e8653c1/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf)<br/>  <br/>填寫並聯絡 [TNS 以尋找指示](contact-tns-service-desk.md)。 |
-|將電話號碼轉接給我們。  <br/> | 下載此表單。 <br/>[義大利 (LOA (LOA) 授權書 (所有)  (v.6.0)  (it-it) ](https://download.microsoft.com/download/e/8/a/e8a20665-cbea-4f15-a50c-b8e1f6ef352d/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.6.0)-(it-it).pdf) <br/> <br/>填寫並聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。 |
-|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需要](contact-tns-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請聯絡 TNS 服務台。      <br/> |
-|將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-tns-service-desk.md) 服務號碼之使用者號碼清單的指示，請聯絡 TNS 服務台。 <br/> |
-|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請下載此義大利 [ (v.1.0)  (it-it) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)的目錄服務表單，填寫並聯系 [TNS](contact-tns-service-desk.md)以尋找指示。 |
-|審查服務章程| 下載並閱讀義大利服務 [ (v.1.0)  (it-it) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/charter-of-services-for-italy-(v.1.0)-(it-it).pdf?raw=true)。 |
+|取得未列在 Microsoft Teams 系統管理中心的新使用者或服務電話號碼。   <br/> |下載下列其中一個表單。 <br>  [義大利的新電話號碼要求 (v.5.0)  () ](https://download.microsoft.com/download/7/2/7/727217df-80e4-4ff5-b9ed-65b84cdceba6/new-phone-number-request-for-italy-(v.5.0)-(it-it).pdf) <br/>  [適用于義大利的新電話號碼要求 (v.5.0)  (en-us) ](https://download.microsoft.com/download/4/1/7/417d2578-3686-4530-87ea-e9f36e8653c1/new-phone-number-request-for-italy-(v.5.0)-(en-us).pdf)<br/>  <br/>填寫並 [連絡 TNS 以取得相關指示](contact-tns-service-desk.md)。 |
+|將電話號碼移轉給我們。  <br/> | 下載此表單。 <br/>[義大利的 LOA) 授權 ( ()  (6.0 的所有)  (數位) ](https://download.microsoft.com/download/e/8/a/e8a20665-cbea-4f15-a50c-b8e1f6ef352d/letter-of-authorization-(loa)-for-italy-(all-numbers)-(v.6.0)-(it-it).pdf) <br/> <br/>填寫並 [連絡 TNS 服務台以取得相關指示](contact-tns-service-desk.md)。 |
+|發佈/解除發佈電話號碼 (國家電話目錄中的) 。  <br/> |如需有關您要發佈/解除發佈之電話號碼清單的指示，請連絡[TNS 服務台](contact-tns-service-desk.md)。      <br/> |
+|將使用者的號碼變更為服務號碼。  <br/> |如需有關您要轉換為服務號碼之使用者號碼清單的指示，請[連絡 TNS 服務台](contact-tns-service-desk.md)。 <br/> |
+|將目錄服務更新為撥號佇列或自動語音應答號碼|若要新增或變更通話佇列或自動語音應答號碼，請下載此[適用于義大利的目錄服務表單 (v.1.0)  (it-it) ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/directory-services-form-for-italy-(v.1.0)-(it-it).pdf?raw=true)，填寫並[連絡 TNS 以取得相關指示](contact-tns-service-desk.md)。 |
+|檢閱服務合約| 下載並閱讀 [義大利 (1.0 版)  () 服務合約 ](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/charter-of-services-for-italy-(v.1.0)-(it-it).pdf?raw=true)。 |
 
 ## <a name="related-topics"></a>相關主題
 
-[用於通話方案的各種電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[通話方案所用的不同電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)
 

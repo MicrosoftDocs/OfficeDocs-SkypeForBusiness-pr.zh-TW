@@ -1,7 +1,7 @@
 ---
 title: '呼叫品質儀表板 (CQD) 常見問題 (常見問題) '
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: 閱讀常見問題 (常見問題) 與Microsoft Teams通話品質儀表板 (CQD) 的相關解答。
-ms.openlocfilehash: f320bab549ee322c1254babd0feb49cc24419215
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+description: 閱讀常見問題 (常見問題) 和 Microsoft Teams 通話品質儀表板 (CQD) 的解答。
+ms.openlocfilehash: 862967138321b1855f2fdc5b0c8b6ce6caca887f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823202"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789388"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>呼叫品質儀表板 (CQD) 常見問題 (常見問題) 
 
@@ -40,13 +40,13 @@ ms.locfileid: "65823202"
 
 [我嘗試將 CQD 用於使用方式類型報告，但發現有些資料不完整，為什麼呢？](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
 
-[為什麼只有篩選Teams時，才會在 CQD 中看到商務用 Skype資訊？](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[為什麼只有針對 Teams 篩選時，才會在 CQD 中看到商務用 Skype資訊？](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [為什麼當我知道應該有更多專案時，我的自訂報表最多隻會傳回 10，000 列？](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
 [為什麼 Wi-Fi VPN 連線顯示為有線，而不是 Wi-Fi？](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
-[我在Teams中開啟了以原則為基礎的錄製，現在對等通話被標示為會議 -- 發生了什麼事？](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
+[我開啟了 Teams 中的原則型錄製，現在對等通話被標示為會議 - 發生了什麼事？](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
 
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>如果一或多個會議參與者的體驗不佳，為什麼 CQD 會將通話標示為「良好」？
 
@@ -83,20 +83,20 @@ ms.locfileid: "65823202"
 
 這些系統管理員角色可以存取 CQD，但他們無法檢視 EUII (使用者標識資訊) ：
 
-- Microsoft 365報表閱讀程式]
-- Teams Communications 支援專員
+- Microsoft 365 報表閱讀程式
+- Teams 通訊支援專家
 
 若要深入瞭解可存取 CQD 的角色，包括 EUII，請參閱 [指派角色以存取 CQD](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)。
 
 ### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>我嘗試將 CQD 用於使用方式類型報告，但發現有些資料不完整，為什麼呢？
 
-呼叫品質管制工具，例如 CQD、通話分析、CallRecord 圖形 API和即時分析，都是以診斷遙測為基礎。 我們在Teams通話品質管制工具中顯示的資訊，與我們從參與通話的用戶端所收到的遙測資料一樣完整。 有幾個原因會導致我們無法收到完整的遙測，例如網路中斷、 [防火牆或 Proxy 設定錯誤](/microsoft-365/enterprise/urls-and-ip-address-ranges)。 我們持續努力改善Teams用戶端對服務進行遙測的可靠性和復原。
+呼叫品質管制工具，例如 CQD、通話分析、CallRecord 圖形 API和即時分析，都是以診斷遙測為基礎。 我們在 Teams 通話品質管制工具中顯示的資訊，與我們從參與通話的用戶端所收到的遙測資料一樣完整。 有幾個原因會導致我們無法收到完整的遙測，例如網路中斷、 [防火牆或 Proxy 設定錯誤](/microsoft-365/enterprise/urls-and-ip-address-ranges)。 我們持續努力改善 Teams 用戶端對服務進行遙測的可靠性和復原。
 
-考慮到這一點，我們不支援使用通話品質管制工具來進行使用方式報告。 這些資料表的設計並非為了因應這些類型的報告案例而設計，而且這些工具中不提供許多使用狀況統計資料，也不提供這些資訊。 Teams 管理員中心提供一系列的[使用方式報告](teams-analytics-and-reports/teams-reporting-reference.md)，且[會議出席報告](teams-analytics-and-reports/meeting-attendance-report.md)可直接從Teams用戶端取得。
+考慮到這一點，我們不支援使用通話品質管制工具來進行使用方式報告。 這些資料表的設計並非為了因應這些類型的報告案例而設計，而且這些工具中不提供許多使用狀況統計資料，也不提供這些資訊。 Teams 管理員中心提供一系列的[使用方式報告](teams-analytics-and-reports/teams-reporting-reference.md)，且[會議出席報告](teams-analytics-and-reports/meeting-attendance-report.md)可直接從 Teams 用戶端取得。
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>為什麼只有篩選Teams時，才會在 CQD 中看到商務用 Skype資訊？
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>為什麼只有針對 Teams 篩選時，才會在 CQD 中看到商務用 Skype資訊？
 
-當您只在 CQD 報表中篩選Teams (isTeams = 1) 時，會篩選第 *一個端點* Teams的所有通話。 如果商務用 Skype *第二個端點*，該資訊會顯示在您的 CQD 報告中。 視客戶的情況而定，設定「[通話資料連線器](/skypeforbusiness/hybrid/plan-call-data-connector)」時，CQD 可能會包含商務用 Skype Server 2019 通話。 也可能包括 Skype Bot 通話 (AA、CVI、VDI) 、即時事件和 PSTN 通話。
+當您只在 CQD 報表中篩選 Teams (isTeams = 1) 時，您會篩選出 *第一個端點* 是 Teams 的所有通話。 如果商務用 Skype *第二個端點*，該資訊會顯示在您的 CQD 報告中。 視客戶的情況而定，設定「[通話資料連線器](/skypeforbusiness/hybrid/plan-call-data-connector)」時，CQD 可能會包含商務用 Skype Server 2019 通話。 也可能包括 AA、CVI、VDI) 、即時事件和 PSTN 通話 (Skype Bot 通話。
 
 您可以藉由篩選第 *一個使用者代理程式類別和第二個使用者代理* 類別等維度，從查詢移除商務用 Skype資訊。 您也可以使用 *使用者代理程式類別配對* ，將第一個和第二個維度合併成單一篩選。
 
@@ -108,19 +108,19 @@ CQD 是專為摘要資料查詢而設計，並非設計用來匯出資料。 我
 
 這是預期的行為。 VPN 廠商建立了虛擬乙太網路介面卡，將其視為有線連線。 由於未正確標示，作業系統不知道它是Wi-Fi連線，並以有線方式報告。
 
-### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>我在Teams中開啟了以原則為基礎的錄製，現在對等通話被標示為會議 -- 發生了什麼事？
+### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>我開啟了 Teams 中的原則型錄製，現在對等通話被標示為會議 - 發生了什麼事？
 
-在 Microsoft Teams 中啟用原則型錄製時，這是預期的行為。 以原則為基礎的錄製會使用部署在 Microsoft Azure 中的 Teams Recorder Bot 來擷取會議內容以供合規性之用。 在通話品質管制中，「對等」是媒體流量的描述，而不是使用者之間的互動。 由於錄製程式機器人本身就是通話的一方，因此通話不再是對等通話，而是多方通話。 多方通話會依Microsoft Teams分類為會議，因此當您在 CQD 和其他通話品質工具中檢視這些通話時，這些通話會被指定為會議。
+在 Microsoft Teams 中啟用原則型錄製時，這是預期的行為。 以原則為基礎的錄製會使用部署在 Microsoft Azure 中的 Teams 錄製程式 Bot 來擷取會議內容以利合規性。 在通話品質管制中，「對等」是媒體流量的描述，而不是使用者之間的互動。 由於錄製程式機器人本身就是通話的一方，因此通話不再是對等通話，而是多方通話。 多方通話被 Microsoft Teams 分類為會議，因此當您在 CQD 和其他通話品質工具中檢視這些通話時，這些通話會被標示為這類通話。
 
 ## <a name="related-articles"></a>相關文章
 
-[改善及監控Teams的通話品質](monitor-call-quality-qos.md)
+[改善及監控 Teams 的通話品質](monitor-call-quality-qos.md)
 
 [什麼是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
 [設定呼叫品質儀表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
-[Upload租使用者和建築物資料](CQD-upload-tenant-building-data.md)
+[上傳租使用者和建築物資料](CQD-upload-tenant-building-data.md)
 
 [CQD 資料和報表](CQD-data-and-reports.md)
 
@@ -130,6 +130,6 @@ CQD 是專為摘要資料查詢而設計，並非設計用來匯出資料。 我
 
 [CQD 中的串流分類](stream-classification-in-call-quality-dashboard.md)
 
-[使用 Power BI 來分析 CQD 資料](CQD-Power-BI-query-templates.md)
+[使用 Power BI 分析 CQD 資料](CQD-Power-BI-query-templates.md)
 
 [Teams 疑難排解](/MicrosoftTeams/troubleshoot/teams)

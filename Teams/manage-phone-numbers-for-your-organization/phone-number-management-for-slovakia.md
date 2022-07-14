@@ -1,7 +1,7 @@
 ---
-title: 電話斯洛伐克的號碼管理
-author: SerdarSoysal
-ms.author: serdars
+title: 斯洛伐克的電話號碼管理
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -19,33 +19,33 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: 使用此表格可尋找在斯洛伐克取得及管理斯洛伐克電話號碼Microsoft Teams。
-ms.openlocfilehash: 55304dd0906b4ca9b2318a97e0383ed140d6e6eb
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+description: 使用下表尋找在斯洛伐克取得和管理 Microsoft Teams 電話號碼的相關資訊。
+ms.openlocfilehash: 05f953c2ff98a71586cced881f21cc91786c30c5
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62398427"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789608"
 ---
-# <a name="phone-number-management-for-slovakia"></a>電話斯洛伐克的號碼管理
+# <a name="phone-number-management-for-slovakia"></a>斯洛伐克的電話號碼管理
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-使用此表格可尋找在斯洛伐克取得及管理斯洛伐克電話號碼Microsoft Teams。
+使用下表尋找在斯洛伐克取得和管理 Microsoft Teams 電話號碼的相關資訊。
   
-詳細資訊，請參閱 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)。
+如需詳細資訊，請參閱 [管理組織的電話號碼](manage-phone-numbers-for-your-organization.md)。
   
 |**您想要做什麼？**|**下載正確的表單**|
 |:-----|:-----|
-|取得系統管理中心未Microsoft Teams新使用者Microsoft Teams電話號碼。 |在斯洛伐克，您可以使用系統管理中心取得Microsoft Teams電話號碼。 您也可以下載表單並聯絡 [TNS](contact-tns-service-desk.md)服務台以索取指示，以提交新的電話號碼要求。<br/><br/>[斯洛伐克的新電話號碼要求 (v.1.0)  (en-sk) ](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf)。 <br/><br/> 在將電話號碼指派給您之前，您必須下載認識您的客戶表單、完整填寫，並請聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。<br/><br/>新訂單可能需要兩到三周的時間才能填入這個市場。  |
-|將電話號碼轉接給我們。   | 下載此表單。 <br/>斯洛伐克 (LOA) 授權書 (所有)  ([v.1.1)  (en-sk) ](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf)。 <br/> <br/>斯洛伐克 (LOA) 授權書 (所有號碼[)  (v.1.0)  (sk-sk) ](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf)。 <br/><br/>填寫並聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。 <br/><br/>在這個市場中，移轉數位可能需要四到五周才能完成。 <br/><br/>這些號碼目前無法用於會議。 |
-|發佈/取消發佈電話號碼 () 電話號碼目錄中的號碼。  <br/> |[如需要](contact-tns-service-desk.md) 發佈/取消發佈之電話號碼清單的指示，請聯絡 TNS 服務台。 <br/> |
-|將使用者的號碼變更為服務號碼。  <br/> |[如需要轉換成](contact-tns-service-desk.md) 服務號碼之使用者號碼清單的指示，請聯絡 TNS 服務台。 <br/> |
-|讓目錄服務更新以撥打佇列或自動電話機號碼|若要新增或變更通話佇列或自動電話機號碼，請聯絡 [TNS 服務台以尋找指示](contact-tns-service-desk.md)。 |
+|取得未列在 Microsoft Teams 系統管理中心的新使用者或服務電話號碼。 |在斯洛伐克，您可以使用 Microsoft Teams 系統管理中心取得貴組織的電話號碼。 您也可以下載表單以提交新的電話號碼要求，並 [連絡 TNS 服務台以取得相關指示](contact-tns-service-desk.md)。<br/><br/>[新的斯洛伐克電話號碼要求 (v.1.0)  (en-sk) ](https://download.microsoft.com/download/f/8/9/f895e7f5-c88a-4b0d-a97f-58e29c407df5/new-phone-number-request-for-slovakia-(v1.0)-(sk-SK).pdf)。 <br/><br/> 在將電話號碼指派給您之前，您必須先下載「瞭解您的客戶」表單、完整完成，然後 [連絡 TNS 服務台以取得相關指示](contact-tns-service-desk.md)。<br/><br/>新訂單可能需要兩到三周的時間才能進入這個市場。  |
+|將電話號碼移轉給我們。   | 下載此表單。 <br/>[斯洛伐克的授權 (LOA)  ()  (v.1.1)  (en-sk) 的所有數位 ](https://download.microsoft.com/download/5/e/2/5e294448-313e-4398-bd8e-bbaee92dc78d/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(en-sk).pdf)。 <br/> <br/>[斯洛伐克的授權 (LOA)  ()  (v.1.0)  (sk-sk) 的所有數位 ](https://download.microsoft.com/download/f/2/d/f2d73643-c597-4da6-8e0e-d6d3af3737a3/letter-of-authorization-(loa)-for-slovakia-(all-numbers)-(v.1.1)-(sk-sk).pdf)。 <br/><br/>填寫並 [連絡 TNS 服務台以取得相關指示](contact-tns-service-desk.md)。 <br/><br/>在此市場中，移轉數位可能需要四到五周的時間。 <br/><br/>這些數位目前無法用於會議。 |
+|發佈/解除發佈電話號碼 (國家電話目錄中的) 。  <br/> |如需有關您要發佈/解除發佈之電話號碼清單的指示，請連絡[TNS 服務台](contact-tns-service-desk.md)。 <br/> |
+|將使用者的號碼變更為服務號碼。  <br/> |如需有關您要轉換為服務號碼之使用者號碼清單的指示，請[連絡 TNS 服務台](contact-tns-service-desk.md)。 <br/> |
+|將目錄服務更新為撥號佇列或自動語音應答號碼|若要新增或變更通話佇列或自動語音應答號碼，請連絡[TNS 服務台以取得相關指示](contact-tns-service-desk.md)。 |
    
 ## <a name="related-topics"></a>相關主題
 
-[用於通話方案的各種電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
+[通話方案所用的不同電話號碼](../different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
 [管理貴組織的電話號碼](manage-phone-numbers-for-your-organization.md)
 

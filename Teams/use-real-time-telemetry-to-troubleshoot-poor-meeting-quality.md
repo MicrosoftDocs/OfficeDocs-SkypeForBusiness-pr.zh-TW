@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用即時遙測與裝置、網路和連線的詳細資料，以疑難排解 Microsoft Teams 排程會議的使用者問題。
-ms.openlocfilehash: 794c0097c3bdcc757e0a469cb0f65b5eb4e6c285
-ms.sourcegitcommit: ce1cbdcfce8c785c66f6a51ef8e84092124f3ef0
+ms.openlocfilehash: 26ee7b809d7b18bb07a7f8ae57852c2333b26d94
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/12/2022
-ms.locfileid: "66716799"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789618"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>使用即時遙測來疑難排解會議品質不佳的問題
 
@@ -155,7 +155,7 @@ Real-Time分析會針對您Office 365帳戶中的每位使用者顯示 Teams 會
 - 如果外部參與者或匿名使用者加入會議，他們的顯示名稱會顯示為 **無法** 保留跨租使用者隱私權。
 
 > [!NOTE]
-> 在限時公開預覽中，即時遙測資料目前可在會議結束後 **的 7 天內** 使用。 上述限制會在公開預覽結束之後套用。
+> 在限時公開預覽中，即時遙測資料目前可在會議結束後 **的 7 天內** 使用。 預覽結束後，只有擁有 Advanced Communications 附加元件授權的租使用者才能在延長的 7 天期間內使用遙測功能。 所有其他租使用者均受上述限制。
 
 ## <a name="related-topics"></a>相關主題
 

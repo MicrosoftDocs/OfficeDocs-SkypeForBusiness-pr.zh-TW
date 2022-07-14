@@ -1,8 +1,8 @@
 ---
 title: 硬體解碼器和編碼器驅動程式的建議
 ms.reviewer: ''
-author: SerdarSoysal
-ms.author: serdars
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 06/06/2019
 audience: Admin
@@ -19,12 +19,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 282ae2aa177fba42aa35d132f7c5c5d540696526
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: a38078c5e348c41cc15bf350de0abaad7c04b13c
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675125"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789558"
 ---
 # <a name="hardware-decoder-and-encoder-driver-recommendations"></a>硬體解碼器和編碼器驅動程式的建議
 

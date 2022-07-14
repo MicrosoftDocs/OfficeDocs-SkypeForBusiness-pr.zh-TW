@@ -1,7 +1,7 @@
 ---
-title: '建立通話品質儀表板的建 (CQD) '
-ms.author: serdars
-author: SerdarSoysal
+title: " (CQD) 建立通話品質儀表板的建築物地圖"
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, siunies, gageames
 ms.topic: article
@@ -19,29 +19,29 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: 瞭解如何建立建築物地圖，以在 CQD (中上傳租使用者和) 。
-ms.openlocfilehash: a119324090d05b593eb1ed66f41efbb7a5bd7a0a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 瞭解如何在 [通話品質儀表板] (CQD) 中建立您可以用來上傳租使用者和建置資料的建築物地圖。
+ms.openlocfilehash: 71d1872bbd81769f9a49f4ca9f6ac9aae641252f
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634097"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789818"
 ---
-# <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a>建立通話品質儀表板的建 (CQD) 
+# <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a> (CQD) 建立通話品質儀表板的建築物地圖
 
-在 Microsoft Teams 或 商務用 Skype部署中，所有用戶端都是外部的。 因此，根據預設，所有用戶端都會在通話品質儀表板 (CQD) 中報告為外部，無論用戶端是否已在內部公司網路上連接。
+在 Microsoft Teams 或 商務用 Skype Online 部署中，所有用戶端都是外部用戶端。 因此，根據預設，所有用戶端都會在通話品質儀表板 (CQD) 中回報為外部，無論用戶端是否已連線到內部公司網路。
 
-當您使用 CQD 時，您必須知道端點的位置，以及端點是否連接到您可以管理的網路或無法管理的網路，前提是只能改善您可以管理的網路。 將子網和建築物資訊上傳至 CQD，您可以啟用 CQD 來判斷端點是連接到內部 (受管理的) 網路，還是外部 (未管理的) 網路。 這就是為什麼為貴組織建立建築物地圖並將其上傳到 [CQD](CQD-upload-tenant-building-data.md)非常重要的原因。
+當您使用 CQD 時，您必須知道端點的位置，以及端點是連線到您可以管理的網路還是無法管理的網路，假設您只能改善您可以管理的網路。 透過將子網和建築物資訊上傳到 CQD，您可啟用 CQD 來判斷端點是連線到內部 (受管理) 網路，還是外部 (未受管理) 網路。 因此，請務必為組織建立建築物地圖，並將 [它上傳到 CQD](CQD-upload-tenant-building-data.md)。
 
-## <a name="building-mapping-tools"></a>建立地圖工具
+## <a name="building-mapping-tools"></a>建置地圖工具
 
-有許多方法可以映射貴組織的子網。 如果您需要協助，您可以使用這篇部落格文章中所述的 CQDTools PowerShell [模組](https://aka.ms/cqdtools)。 這些工具是以 PowerShell 為基礎，並使用 Active Directory (AD) 網站與服務和 Microsoft DHCP 服務，協助預先填入您的建房檔案。 這些工具可協助進行下列工作：
+有許多方式可以對應貴組織的子網。 如果您需要協助，可以使用這 [篇部落格文章](https://aka.ms/cqdtools)中所述的 CQDTools PowerShell 模組。 這些工具是以 PowerShell 為基礎，並使用 Active Directory (AD) 網站與服務以及 Microsoft DHCP 服務，協助預先填入您的建築物檔案。 這些工具可協助您執行下列工作：
 
-1. 查詢 AD 網站和服務，然後根據所包含的資訊建立建房檔案。
-1. 查詢 Microsoft DHCP 伺服器或伺服器以提取子網資訊，並自動建立建築物檔案。
-1. 驗證現有的建築物檔案，檢查重複和重迭。
-1. 在 CQD 中尋找未映射的子網。
+1. 查詢 AD 網站與服務，並根據內含的資訊建立建築物檔案。
+1. 查詢 Microsoft DHCP 伺服器或伺服器以擷取子網路資訊，並自動建立建築物檔案。
+1. 驗證現有的建築物檔案，檢查是否有重複與重迭。
+1. 在 CQD 中尋找未對應的子網。
 
 ## <a name="related-topics"></a>相關主題
 
-[Upload在 CQD 中建立租使用者和建築物資料](CQD-upload-tenant-building-data.md)
+[在 CQD 中上傳租使用者和建築物資料](CQD-upload-tenant-building-data.md)

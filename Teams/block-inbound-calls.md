@@ -1,7 +1,7 @@
 ---
 title: 在 Microsoft Teams 中封鎖輸入通話
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -15,18 +15,18 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: 瞭解如何使用 PowerShell 管理輸入通話封鎖。
-ms.openlocfilehash: 25b271cbcf62acd732463e9dd34d4189479d2417
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 217a4fe6770d916e9013acf7f90ebf6a5556b837
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674385"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66789598"
 ---
 # <a name="block-inbound-calls"></a>封鎖輸入通話
 
-Microsoft 通話方案、直接路由和電信業者連線所有支援封鎖來自公用交換電話網路 (PSTN) 的撥入通話。 此功能可讓系統管理員在租使用者全域層級定義號碼模式清單，以便針對符合的清單檢查每一個 PSTN 來電給租使用者的來電者識別碼。 如果符合，則會拒絕來電。
+Microsoft 通話方案、直接路由和運算子連線都支援封鎖來自公用交換電話網路 (PSTN) 的撥入通話。 此功能可讓系統管理員在租使用者全域層級定義號碼模式清單，以便針對符合的清單檢查每一個 PSTN 來電給租使用者的來電者識別碼。 如果符合，則會拒絕來電。
 
-此輸入通話封鎖功能僅適用于來自 PSTN 且只適用于租使用者全域層級的輸入通話。 個別Teams使用者無法操作此清單。 Teams用戶端允許個別使用者封鎖 PSTN 通話。 如需使用者如何實作通話封鎖的相關資訊，請參閱[管理Teams中的通話設定](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)。
+此輸入通話封鎖功能僅適用于來自 PSTN 且只適用于租使用者全域層級的輸入通話。 個別 Teams 使用者無法操作此清單。 Teams 用戶端允許個別使用者封鎖 PSTN 通話。 如需使用者如何實作通話封鎖的相關資訊，請參閱 [管理 Teams 中的通話設定](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f)。
 
 > [!NOTE]
 > 封鎖的來電者在遭到封鎖時，可能會遇到稍微不同的行為。 此行為是根據封鎖的來電者電信業者如何處理不允許成功完成通話的通知。 範例可能包括電信業者訊息，指出無法在撥號時完成通話，或直接撥出電話。

@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90e577f9d6ef7567387fbc7a26a944d20e976f66
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: 1e557e0901293c26d48e30ed163883f9cd97f12e
+ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773702"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66790348"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>適用於虛擬桌面架構的 Teams
 
@@ -171,8 +171,8 @@ Microsoft 365 Apps 企業版不支援 Teams 的每個電腦安裝。 若要使�
 
 1. 使用下列其中一個連結下載符合您 VDI VM 作業系統的 Teams MSI 套件：
 
-    - [32 位版本](https://statics.teams.cdn.office.net/production-windows/1.5.00.11865/Teams_windows.msi)
-    - [64 位版本](https://statics.teams.cdn.office.net/production-windows-x64/1.5.00.11865/Teams_windows_x64.msi)
+    - [32 位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)
+    - [64 位版本](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)
 
     > [!NOTE]
     > 如果是政府雲端，請參閱 [使用 Windows Installer (MSI) 大量安裝 Teams ](msi-deployment.md) ，以取得 MSI 檔案的下載連結。
