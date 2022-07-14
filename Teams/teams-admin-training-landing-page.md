@@ -1,8 +1,9 @@
 ---
-title: 系統管理訓練Microsoft Teams
+title: 管理員 Microsoft Teams 訓練
 ms.reviewer: ''
-description: 取得您管理組織中帳戶所需的系統管理員訓練Microsoft Teams支援。
-author: SerdarSoysal
+description: 取得管理貴組織中 Microsoft Teams 所需的系統管理員訓練及支援。
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: admin
 ms.date: 01/22/2018
@@ -19,17 +20,16 @@ f1.keywords:
 - NOCSH
 search.appverid: MET150
 ms.topic: landing-page
-ms.author: serdars
-ms.openlocfilehash: f784fa8c171a204c58f33a11eda2e48ce234cbf9
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 83185e267f1a3aa44158c5e6252e5b964868af5f
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62387491"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794281"
 ---
-# <a name="admin-training-for-microsoft-teams"></a>系統管理訓練Microsoft Teams
+# <a name="admin-training-for-microsoft-teams"></a>管理員 Microsoft Teams 訓練
 
-瞭解如何為貴Teams管理帳戶。
+瞭解如何管理貴組織的 Teams。
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -43,7 +43,7 @@ ms.locfileid: "62387491"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>NEW：由講師帶領的訓練課程Teams</h3>
+                        <h3>新增：由講師帶領的 Teams 訓練課程</h3>
                     </div>
                 </div>
             </div>
@@ -79,7 +79,7 @@ ms.locfileid: "62387491"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>需要協助您商務用 Skype？</h3>
+                        <h3>需要登入商務用 Skype方面的協助嗎？</h3>
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@ ms.locfileid: "62387491"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>疑難排解線上商務用 Skype問題</h3>
+                        <h3>疑難排解 商務用 Skype Online 的問題</h3>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@ ms.locfileid: "62387491"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>從 商務用 Skype 到 Teams</h3>
+                        <h3>從 商務用 Skype 到 Teams 的旅程</h3>
                     </div>
                 </div>
             </div>
@@ -159,8 +159,8 @@ ms.locfileid: "62387491"
                     </div>
                     <div class="cardText">
                         <h3>新功能</h3>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">加拿大的通話方案 (一般) </a></p>
-                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">澳洲的通話方案 (預覽) </a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-canada">加拿大的通話方案 (一般可用性) </a></p>
+                        <p><a href="/SkypeForBusiness/country-and-region-availability-for-audio-conferencing-and-calling-plans/availability-in-australia">澳洲的通話方案僅 (預覽) </a></p>
                     </div>
                 </div>
             </div>
@@ -176,7 +176,7 @@ ms.locfileid: "62387491"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>主要更新</h3>
+                        <h3>重大更新</h3>
                         <p><a href="/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing">設定音訊會議</a></p>
                     </div>
                 </div>

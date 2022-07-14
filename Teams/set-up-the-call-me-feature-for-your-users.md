@@ -1,27 +1,32 @@
 ---
 title: 為您的使用者設定語音來電功能
-author: SerdarSoysal
-ms.author: serdars
-ms.reviewer: 'macai, phedry'
+author: CarolynRowe
+ms.author: crowe
+ms.reviewer: macai, phedry
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: 瞭解如何在 Teams 中設定呼叫我功能，讓使用者在將電腦用於音訊時，使用電話加入音訊部分。
+description: 瞭解如何在 Teams 中設定 [撥號給我] 功能，讓使用者在無法使用電腦進行音訊時，可以透過電話加入音訊部分。
 ms.localizationpriority: medium
 ms.collection:
-  - M365-voice
+- M365-voice
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: a144e6a751f44ff520ee0317dbbcb390f30abbfd
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794531"
 ---
-
 # <a name="set-up-the-call-me-feature-for-your-users"></a>為您的使用者設定語音來電功能
 
-在 Microsoft Teams中 **，通話給我** 功能可讓使用者以電話加入會議的音訊部分。 在可能無法將電腦用於音訊的情況下，這項功能非常實用。 使用者透過 &mdash; &mdash; 行動電話或陸上線路取得會議的音訊部分，以及會議的內容部分，例如當另一個會議參與者共用其螢幕或透過電腦播放視音訊時。
+在 Microsoft Teams 中， **[撥號給我** ] 功能可讓使用者透過電話加入會議的音訊部分。 在可能無法使用電腦處理音訊的情況下，這會派上用場。 使用者可透過行動電話或有線電話取得會議的音訊部分，以及會議 &mdash; 內容部分，例如其他會議參與者共用螢幕或透過電腦播放視 &mdash; 訊時。
 
 > [!IMPORTANT]
 > 
@@ -32,40 +37,40 @@ ms.custom: seo-marvel-mar2020
 
 ## <a name="the-user-experience"></a>使用者體驗
 
-### <a name="join-a-meeting-by-using-phone-for-audio"></a>使用電話進行音訊加入會議
+### <a name="join-a-meeting-by-using-phone-for-audio"></a>使用電話加入會議的音訊
 
-按一下 **[** 加入以加入會議電話 **選擇** 您的視音訊選項畫面上的音訊，然後按一下 [**立即加入**。 使用者可以在這裡進行會議通話並加入會議，或手動撥入會議。
+按一下 **[加入**] 加入會議，然後按一下 [**選擇您的視訊和音訊選項**] 畫面上的 [**電話音訊**]，然後按一下 [**立即加入]**。 使用者可以從這裡撥打會議電話並加入會議，或手動撥入會議。
 
-![音訊選項電話螢幕擷取畫面。](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
+![[手機音訊] 選項的螢幕擷取畫面。](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
-**讓會議Teams通話**
+**讓 Teams 會議通話**
 
-在使用 **電話進行音訊** 畫面上，使用者輸入其電話號碼，然後按一下電話 **給我**。 會議會打電話給使用者，並讓他們加入會議。
+在 [ **將電話用於音訊** ] 畫面上，使用者輸入其電話號碼，然後按一下 [ **撥號給我]**。 會議會打電話給使用者並加入會議。
 
-![在音訊畫面上使用電話的通話選項的螢幕擷取畫面。](media/set-up-the-call-me-feature-for-your-users-call-me.png)
+![[將電話用於音訊] 畫面上 [撥號給我] 選項的螢幕擷取畫面。](media/set-up-the-call-me-feature-for-your-users-call-me.png)
 
 **手動撥入**
 
-另一個加入的方式是直接撥入會議。 在 **[使用電話進行音訊** 播放的畫面上，按一下 [手動撥入>，以取得要撥入會議的電話號碼清單。
+另一個加入方式是直接撥入會議。 在 [ **使用電話進行音訊** ] 畫面上，按一下 **[手動撥入** ]，取得用來撥入會議的電話號碼清單。
 
-![手動撥入選項的螢幕擷取畫面。](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
+![[手動撥入] 選項的螢幕擷取畫面。](media/set-up-the-call-me-feature-for-your-users-dial-in.png)
 
-### <a name="get-a-call-back-when-something-goes-wrong-with-audio-during-a-meeting"></a>會議期間音訊發生問題時，請回電
+### <a name="get-a-call-back-when-something-goes-wrong-with-audio-during-a-meeting"></a>在會議期間音訊發生問題時取回回電
 
-如果使用者在會議期間使用電腦時遇到音訊問題，使用者可以輕鬆地切換到使用手機進行音訊。 Teams音訊或裝置問題何時發生，並顯示回電選項，重新導向使用者以使用手機。****
+如果使用者在會議期間使用電腦時遇到音訊問題，使用者可以輕鬆切換到使用手機進行音訊。 Teams 會偵測音訊或裝置何時發生問題，並顯示 [ **回電** ] 選項，將使用者重新導向至使用其手機。
 
-以下是郵件的範例，以及當無法偵測到麥克風時顯示的Teams回電選項。
+以下是當 Teams 偵測不到麥克風時所顯示的訊息和 [ **回撥號** ] 選項的範例。
 
-![螢幕擷取畫面顯示 "回電給我」 選項。](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
+![[回電] 選項的螢幕擷取畫面。](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
-使用者按一下 **呼叫我，** 這可顯示使用 **電話進行音訊** 畫面。 在這裡，他們可以輸入其電話號碼，並Teams會議通話，並加入會議，或手動撥入會議。
+使用者按一下 **[回撥電話給我**]，顯示 [ **將電話用於音訊** ] 畫面。 從這裡，他們可以輸入電話號碼，並讓 Teams 會議通話加入會議，或手動撥入會議。
 
-## <a name="set-up-the-call-me-feature"></a>設定呼叫我功能
+## <a name="set-up-the-call-me-feature"></a>設定 [撥號給我] 功能
 
-若要為貴組織的使用者啟用呼叫我功能，必須配置下列專案：
+若要為貴組織中的使用者啟用 [撥號給我] 功能，必須設定下列專案：
 
-- 貴組織中排程會議的使用者， (會議) 。 若要深入瞭解[，請參閱在](set-up-audio-conferencing-in-teams.md)Teams 中為使用者設定音訊會議[Teams。](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
+- 組織中排程會議的使用者可使用音訊會議 (會議召集人) 。 若要深入瞭解，請參閱 [設定 Teams 的音訊會議](set-up-audio-conferencing-in-teams.md) 和 [管理 Teams 中使用者的音訊會議設定](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)。
 
-- 會議召集人可以從會議撥出。 若要深入瞭解，請參閱在 Teams 中[管理使用者的音訊會議Teams](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)。
+- 會議召集人可以從會議撥出電話。 若要深入瞭解，請參閱 [在 Teams 中管理使用者的音訊會議設定](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)。
 
-如果會議召集人未啟用會議撥出功能，則任何人都無法使用選擇視像和音訊選項畫面上的 **電話** 音訊選項，而且其他使用者無法收到加入會議的電話。 對於已啟用撥出功能的使用者，一旦他們加入會議，就可以加入其他人，從顯示參與者圖示撥打 **他們的** 號碼。
+如果會議召集人未啟用會議撥出，則任何人無法使用 [**選擇您的視訊和音訊選項**] 畫面上的 [**電話音訊**] 選項，其他使用者也無法接聽來電加入會議。 對於已啟用撥出功能的使用者，一旦加入會議，他們就可以從 [ **顯示參與者** ] 圖示加入其他人撥打他們的號碼。

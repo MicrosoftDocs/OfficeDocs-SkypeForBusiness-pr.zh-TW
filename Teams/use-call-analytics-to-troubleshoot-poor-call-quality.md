@@ -1,7 +1,7 @@
 ---
 title: 使用通話分析來疑難排解不良通話品質
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -21,33 +21,33 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.callanalytics
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
-description: 使用每個使用者的通話分析有關裝置、網路和連線能力的詳細資料，來疑難排解Microsoft Teams通話和會議的使用者問題。
-ms.openlocfilehash: 47b60eb979c36508ed1911a70f531695c03533e5
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+description: 使用每個使用者的通話分析有關裝置、網路和連線能力的詳細資料，來疑難排解 Microsoft Teams 通話和會議的使用者問題。
+ms.openlocfilehash: 38636d911be55648ec17628bcec7d4cee21358c5
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125648"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794311"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>使用通話分析來疑難排解不良通話品質
 
-本文說明如果您擔任Teams系統管理員、Teams通訊支援專家或Teams通訊支援工程師角色，如何使用「通話分析」來疑難排解個別使用者的不良Microsoft Teams通話或會議品質。
+本文說明如果您擔任 Teams 系統管理員、Teams 通訊支援專家或 Teams 通訊支援工程師角色，如何使用 Call Analytics 針對個別使用者的 Microsoft Teams 通話或會議品質不佳問題進行疑難排解。
 
 ## <a name="call-analytics-permissions"></a>通話分析許可權
 
-本文假設您已經設定「通話分析」。 如果您尚未設定，請參閱[設定Teams的通話分析](set-up-call-analytics.md)。
+本文假設您已經設定「通話分析」。 如果您尚未設定，請閱讀 [設定 Teams 的通話分析](set-up-call-analytics.md)。
 
 ## <a name="introduction-to-call-analytics"></a>通話分析簡介
 
-通話分析會顯示Office 365帳戶中每個使用者Teams通話和會議的詳細資訊。 它包含裝置、網路、連線能力和通話品質的相關資訊 (其中任何一項都可能是通話品質不佳或會議品質不佳) 的因素。 如果您上傳建築物、網站和租使用者資訊，這些資訊也會顯示在每個通話和會議中。 使用「通話分析」來協助您找出使用者通話或會議體驗不佳的原因。
+通話分析會顯示您Office 365帳戶中每個使用者的 Teams 通話和會議的詳細資訊。 它包含裝置、網路、連線能力和通話品質的相關資訊 (其中任何一項都可能是通話品質不佳或會議品質不佳) 的因素。 如果您上傳建築物、網站和租使用者資訊，這些資訊也會顯示在每個通話和會議中。 使用「通話分析」來協助您找出使用者通話或會議體驗不佳的原因。
 
-通話分析會顯示通話或會議的每一段，例如，從一位參與者到第二位參與者。 透過分析這些詳細資料，Teams管理員可以隔離問題區域，並找出品質不佳的根本原因。
+通話分析會顯示通話或會議的每一段，例如，從一位參與者到第二位參與者。 透過分析這些詳細資料，Teams 系統管理員可以隔離問題區域，並找出品質不佳的根本原因。
 
-身為Teams系統管理員，您可以完整存取每個使用者的所有通話分析資料。 此外，您可以指派Azure Active Directory角色給支援人員。 若要深入瞭解這些角色，請參閱 [授與許可權給支援人員和技術服務人員](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff)。 請勿錯過下方[每個Teams支援角色的功能](#what-does-each-teams-support-role-do)？
+身為 Teams 系統管理員，您可以完整存取每個使用者的所有通話分析資料。 此外，您可以指派 Azure Active Directory 角色來支援員工。 若要深入瞭解這些角色，請參閱 [授與許可權給支援人員和技術服務人員](set-up-call-analytics.md#give-permission-to-support-and-helpdesk-staff)。 請勿錯過[下方每個 Teams 支援角色的作用為何？](#what-does-each-teams-support-role-do)
 
 ## <a name="where-to-find-per-user-call-analytics"></a>哪裡可以找到個別使用者的通話分析
 
-若要查看使用者的所有通話資訊和資料，請移至[Teams系統管理中心](https://admin.teams.microsoft.com)。 在 [ **使用者**] 底下，選取使用者，然後開啟使用者設定檔頁面上的 **[會議&通話** ] 索引標籤。 您可以在這裡找到該使用者過去 30 天的所有通話和會議。
+若要查看使用者的所有通話資訊和資料，請移至 [Teams 系統管理中心](https://admin.teams.microsoft.com)。 在 [ **使用者**] 底下，選取使用者，然後開啟使用者設定檔頁面上的 **[會議&通話** ] 索引標籤。 您可以在這裡找到該使用者過去 30 天的所有通話和會議。
 
 ![所有分析使用者資料的螢幕擷取畫面。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
@@ -55,11 +55,11 @@ ms.locfileid: "65125648"
 
 ![通話分析使用者會話資料的螢幕擷取畫面。](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image2.png)
 
-## <a name="what-does-each-teams-support-role-do"></a>每個Teams支援角色的功能為何？
+## <a name="what-does-each-teams-support-role-do"></a>每個 Teams 支援角色的功能為何？
 
-第 1 層 **支援 (Teams通訊支援專家**) 處理基本的通話品質問題。 它們不會調查會議的問題。 他們反而會收集相關資訊，然後向上呈報給Teams通訊支援工程師。
+**Teams 通訊支援專家** (層級 1 支援) 處理基本的通話品質問題。 它們不會調查會議的問題。 相反地，他們會收集相關資訊，然後向上呈報給 Teams 通訊支援工程師。
 
-第 2 層 **支援 (Teams通訊支援工程師**) 會在Teams通訊支援專家隱藏的詳細通話記錄中看到資訊。 下表列出每個Teams通訊支援角色可用的資訊。
+第 2 層支援服務 (**Teams 通訊支援工程師**) 看到 Teams 通訊支援專家隱藏的詳細通話記錄中的資訊。 下表列出每個 Teams 通訊支援角色可用的資訊。
 
 下表告訴您每個通訊支援角色可使用哪些個別使用者資訊。
 
@@ -81,7 +81,7 @@ ms.locfileid: "65125648"
 
 ## <a name="troubleshoot-user-call-quality-problems"></a>疑難排解使用者通話品質問題
 
-1. 開啟Teams系統管理中心 (<https://admin.teams.microsoft.com>) ，並使用您的Teams通訊支援或Teams系統管理員認證登入。
+1. 開啟 Teams 系統管理中心 (<https://admin.teams.microsoft.com>) 並使用您的 Teams 通訊支援或 Teams 系統管理員認證登入。
 
 2. 在 **儀表板** 的 [ **使用者搜尋**] 中，開始輸入您要進行疑難排解之使用者的名稱或 SIP 位址，或選取 [ **檢視使用者** ] 以查看使用者清單。
 

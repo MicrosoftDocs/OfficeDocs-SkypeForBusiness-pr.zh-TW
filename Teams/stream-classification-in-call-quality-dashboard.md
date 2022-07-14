@@ -1,7 +1,7 @@
 ---
 title: '[通話品質儀表板] (CQD) 中的 Stream 分類'
-ms.author: serdars
-author: lolaj
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: gageames
 ms.topic: article
@@ -20,16 +20,16 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 瞭解如何在 Microsoft Teams 和 商務用 Skype Online 的通話品質儀表板 (CQD) 中分類串流品質。
-ms.openlocfilehash: 5ee2575cf952eb9d7e78f14b2b8ba7693cd3f878
-ms.sourcegitcommit: bd05783dfb33a63e0eb083a2135f97d110dc81a3
+ms.openlocfilehash: 9b17cf115759e96edbccdb85369ac42fd5861ff7
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2022
-ms.locfileid: "65059254"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794291"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>呼叫品質儀表板中的串流分類 (CQD) 
 
-Microsoft Teams和 商務用 Skype Online 的 [通話品質儀表板] (CQD) 可讓您深入瞭解使用Microsoft Teams和商務用 Skype服務進行通話的品質。 本主題提供媒體串流品質分類的詳細資訊。 若要深入瞭解 CQD 及其設定方式，請參閱 [設定通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)。
+Microsoft Teams 和 商務用 Skype Online 的通話品質儀表板 (CQD) 可讓您深入瞭解使用 Microsoft Teams 和商務用 Skype服務進行通話的品質。 本主題提供媒體串流品質分類的詳細資訊。 若要深入瞭解 CQD 及其設定方式，請參閱 [設定通話品質儀表板](turning-on-and-using-call-quality-dashboard.md)。
 
 ## <a name="classifier-definitions"></a>分類器定義
 
@@ -48,7 +48,7 @@ CQD 中的串流會根據可用關鍵品質計量的值分類為 _[良好_]、[ 
 
 ### <a name="video-classifier-due-to-freeze"></a>凍結造成的視訊分類器
 
-視訊串流會根據產生的分類分數值來標示為 [  _良好_ ] 或 [ _不佳_ ]，以估算使用者是否遭遇凍結視訊。 此分類器僅適用于Microsoft Teams產品。
+視訊串流會根據產生的分類分數值來標示為 [  _良好_ ] 或 [ _不佳_ ]，以估算使用者是否遭遇凍結視訊。 此分類器僅適用于 Microsoft Teams 產品。
 
 |步#|度量|案例|條件 |如果條件為 True，則分類 |如果條件為 False，則分類 |如果公制無法使用，則分類 |解釋 |
 |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
@@ -113,13 +113,13 @@ VBSS 串流會根據下列順序的第一個可用計量值標示為 [ _良好_ 
   > 您可以使用「封包使用量」維度和「Avg 封包使用量」來判斷串流的封包活動。
 
 ## <a name="related-topics"></a>相關主題
-[改善及監控Teams的通話品質](monitor-call-quality-qos.md)
+[改善及監控 Teams 的通話品質](monitor-call-quality-qos.md)
 
 [什麼是 CQD？](CQD-what-is-call-quality-dashboard.md)
 
 [設定呼叫品質儀表板 (CQD) ](turning-on-and-using-call-quality-dashboard.md)
 
-[Upload租使用者和建築物資料](CQD-upload-tenant-building-data.md)
+[上傳租使用者和建築物資料](CQD-upload-tenant-building-data.md)
 
 [CQD 資料和報表](CQD-data-and-reports.md)
 
@@ -127,4 +127,4 @@ VBSS 串流會根據下列順序的第一個可用計量值標示為 [ _良好_ 
 
 [CQD 中提供的維度和量值](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[使用 Power BI 來分析 CQD 資料](CQD-Power-BI-query-templates.md)
+[使用 Power BI 分析 CQD 資料](CQD-Power-BI-query-templates.md)

@@ -21,45 +21,45 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a715e913966040c5406901403b90d5a6a421e2e4
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 6bf8e6ab6f2a5ba7303887e9e7d7d72d22c50964
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66045872"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794681"
 ---
 # <a name="plan-for-sip-gateway"></a>規劃 SIP 閘道
 
-SIP 閘道可讓貴組織使用任何與 Microsoft Teams 相容的 SIP 裝置，以保留您在 SIP 裝置上的投資。 現在您可以使用公司認證登入Teams，並使用相容的 SIP 裝置撥打和接聽電話。 相容裝置可商務用 Skype具有標準 SIP 韌體的 IP 手機、具有多重格式 SIP 韌體的 Cisco IP 手機，或來自 Poly、Yealink 和 AudioCode 等廠商的 SIP 裝置。 若要瞭解如何為 SIP 閘道設定 SIP 裝置，請參閱 [設定 SIP 閘道](sip-gateway-configure.md)。
+SIP 閘道可讓貴組織使用任何與 Microsoft Teams 相容的 SIP 裝置，以保留您在 SIP 裝置上的投資。 現在您可以使用公司認證登入 Teams，並使用相容的 SIP 裝置撥打和接聽電話。 相容裝置可商務用 Skype具有標準 SIP 韌體的 IP 手機、具有多重格式 SIP 韌體的 Cisco IP 手機，或來自 Poly、Yealink 和 AudioCode 等廠商的 SIP 裝置。 若要瞭解如何為 SIP 閘道設定 SIP 裝置，請參閱 [設定 SIP 閘道](sip-gateway-configure.md)。
 
 ## <a name="benefits-of-sip-gateway"></a>SIP 閘道的優點
 
-SIP 閘道會將相容的 SIP 裝置連線到Teams，以協助使用者順暢地移轉到Teams電話語音。 使用 SIP 閘道，您的使用者可以執行下列所有動作：
+SIP 閘道會將相容的 SIP 裝置連線到 Teams，協助使用者順暢地移轉到 Teams 電話語音。 使用 SIP 閘道，您的使用者可以執行下列所有動作：
 
-- **撥打電話：** SIP 裝置使用者可以撥打公用交換電話網路 (PSTN) 、其他 SIP 裝置，以及Teams和商務用 Skype使用者。 SIP 裝置使用者只能撥打有電話號碼的使用者。
-- **接聽來電：** SIP 裝置使用者可以從 PSTN、Teams或商務用 Skype擁有 SIP 裝置的使用者，以及來自Teams和商務用 Skype用戶端應用程式的來電。 SIP 裝置會做為Teams端點。 輸入電話也會指派給使用者的 SIP 裝置。
+- **撥打電話：** SIP 裝置使用者可以撥打公用交換電話網路 (PSTN) 、其他 SIP 裝置以及 Teams 和商務用 Skype使用者。 SIP 裝置使用者只能撥打有電話號碼的使用者。
+- **接聽來電：** SIP 裝置使用者可以從 PSTN、Teams 或商務用 Skype擁有 SIP 裝置的使用者，以及來自 Teams 和商務用 Skype用戶端應用程式的來電。 SIP 裝置可做為 Teams 端點。 輸入電話也會指派給使用者的 SIP 裝置。
 - **多個同時通話：** 通話中的 SIP 裝置使用者可以保留通話，以便撥打或接聽其他通話。 SIP 裝置使用者也可以進行兩次電話會議。
-- **請勿打擾：** SIP 裝置使用者可以在裝置上設定請勿打擾，讓裝置不會撥打來電。 這不會影響使用者對所有其他Teams端點的狀態。
+- **請勿打擾：** SIP 裝置使用者可以在裝置上設定請勿打擾，讓裝置不會撥打來電。 這不會影響使用者在所有其他 Teams 端點上的狀態。
 - **保留/繼續和靜音/取消靜音：** SIP 裝置使用者可以使用裝置上這些動作的功能，來保留通話並繼續通話，或將通話設為靜音和取消靜音。
 - **語音 信箱：** SIP 裝置使用者可以聆聽來電者為其保留的電子儲存語音訊息。
 - **訊息等待指標：** SIP 裝置使用者可以在有新的語音信箱訊息時收到通知。
-- **登入和登出：** SIP 裝置使用者可以在裝置上登入並登出Teams。
+- **登入和登出：** SIP 裝置使用者可以在裝置上登入並登出 Teams。
 - **雙音調多頻：** SIP 裝置使用者可以在互動式語音回應通話期間按下數位鍵來提供輸入。
-- **Teams會議：** SIP 裝置使用者可以撥打會議存取號碼來加入Teams會議。 會議參與者可以透過撥號至使用者的電話號碼將 SIP 裝置使用者新增至會議，或只要按一下 [要求加入] 新增參與者，也會警示使用者的 SIP 裝置。 其他組織的來賓使用者可由撥號至來賓使用者號碼以加入該來賓的參與者，新增至Teams會議。
+- **Teams 會議：** SIP 裝置使用者可以撥打會議存取號碼來加入 Teams 會議。 會議參與者可以透過撥號至使用者的電話號碼將 SIP 裝置使用者新增至會議，或只要按一下 [要求加入] 新增參與者，也會警示使用者的 SIP 裝置。 其他組織的來賓使用者可由撥號至來賓使用者號碼以加入該來賓的參與者新增到 Teams 會議。
 - **來電轉接：** SIP 裝置使用者可以轉接來電。 SIP 閘道支援盲眼和傳送傳輸。
 - **當地來電轉接：** SIP 裝置使用者可以隨時 (設定裝置的轉寄規則、逾時和忙碌) 。 如果裝置已連線至 SIP 閘道，則通話將會根據裝置使用者設定的規則重新導向至目標位址。 若要讓本機來電轉接運作，系統管理員必須將屬性設 `AllowCallRedirect` 為 `Set-CsTeamsCallingPolicy` `Enabled` 。
 
 ## <a name="requirements-to-use-sip-gateway"></a>使用 SIP 閘道的需求
 
-Teams使用者必須有啟用 PSTN 通話的電話號碼，才能使用 SIP 閘道。
+Teams 使用者必須有已啟用 PSTN 通話的電話號碼，才能使用 SIP 閘道。
 
 ### <a name="hardware-software-and-licenses"></a>硬體、軟體和授權
 
 如果您有 3PIP 或 SIP 裝置，您必須具備：
 
-- 透過 E5 電話系統 (或獨立授權的授權) 
-- PSTN 啟用 (，也即透過Microsoft Teams通話方案、直接路由或) 電話號碼電信業者連線
-- 任何通用區域裝置的共同區域電話授權
+- 電話系統 (透過 E5 或獨立授權的授權) 
+- PSTN 啟用 (，也即透過 Microsoft Teams 通話方案、直接路由或運算子連線) 電話號碼
+- 任何通用區域裝置的通用區域電話授權
 
 ## <a name="compatible-devices"></a>相容的裝置
 
@@ -137,6 +137,27 @@ Teams使用者必須有啟用 PSTN 通話的電話號碼，才能使用 SIP 閘�
 |          |C450HD      |3.2.1      |3.4.6.687  |   |   |
 |          |445HD       |3.2.1      |3.4.6.687  |   |   |
 |          |RX50        |3.2.1      |3.4.6.687  |   |   |
+|**Spectralink**|       |           |           |   |[Spectralink 支援](https://support.spectralink.com)|
+|          |7202        |PCS22B     |PCS22B     |手機 |   |
+|          |7212        |PCS22B     |PCS22B     |手機 |   |
+|          |7502        |PCS22B     |PCS22B     |手機 |   |
+|          |7522        |PCS22B     |PCS22B     |手機 |   |
+|          |7532        |PCS22B     |PCS22B     |手機 |   |
+|          |7622        |PCS22B     |PCS22B     |手機 |   |
+|          |7642        |PCS22B     |PCS22B     |手機 |   |
+|          |7722        |PCS22B     |PCS22B     |手機 |   |
+|          |7742        |PCS22B     |PCS22B     |手機 |   |
+|          |IP-DECT Server 200 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+|          |IP-DECT Server 400 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+|          |IP-DECT Server 6500 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+|          |虛擬 IP-DECT Server One |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+|          |IP-DECT 基座 |PCS22Ab |PCS22Ab |IP-DECT Server |   |
+
+> [!NOTE]
+> Spectralink 聽筒會透過 Air 從 Spectralink IP-DECT 伺服器接收韌體更新。
+
+> [!NOTE]
+> 針對支援查詢，搭配 Teams SIP 閘道使用 IP-DECT 系統的客戶應連絡其 DECT 製造商或其實作通道合作夥伴。
 
 > [!NOTE]
 > 對於某些裝置，最小韌體版本會大於核准的韌體版本。 這是因為 3.X 版本是 商務用 Skype 版本。 我們會更新 SIP 版本，也就是 2.X。

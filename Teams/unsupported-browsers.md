@@ -1,48 +1,53 @@
 ---
-title: Microsoft Teams瀏覽器上的會議
-author: SerdarSoysal
-ms.author: serdars
+title: 不支援的瀏覽器上的 Microsoft Teams 會議
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 MS.collection:
-  - M365-collaboration
+- M365-collaboration
 ms.reviewer: nakulm
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 瞭解如何Teams瀏覽器支援音訊和視音訊。
+description: 瞭解 Teams 如何在不受支援的瀏覽器中支援音訊和視訊。
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 134700ad29dac89174e5c05db697dd46911a86f9
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794121"
 ---
+# <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>不支援的瀏覽器上的 Microsoft Teams 會議
 
-# <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams瀏覽器上的會議
-
-某些瀏覽器 ，例如 Internet Explorer 11、Safari 和 Firefox，支援 Microsoft Teams Web App，但不支援部分 Teams 通話和會議功能。 若要解決這項限制，Teams Web App 可讓使用者透過 PSTN 連接接收音訊，並讓他們以降低的顯示 (螢幕) 分享內容。
+Internet Explorer 11、Safari 和 Firefox 等部分瀏覽器支援 Microsoft Teams Web App，但不支援部分 Teams 通話和會議功能。 為了解決此限制，Teams Web App 可讓使用者透過 PSTN 連線接收音訊，並讓他們以降低顯示速率檢視呈現的內容 (螢幕共用) 。
 
 > [!Note]
-> Microsoft 365應用程式和服務不支援 Internet Explorer 11，自 2021 年 8 月 17 日起 (Microsoft Teams自 2020 年 11 月 3) 0 日起 (Microsoft Teams將不支援 Internet Explorer 11。 [深入了解](https://aka.ms/AA97tsw)。 請注意，Internet Explorer 11 仍然是受支援的瀏覽器。 Internet Explorer 11 是作業系統Windows元件，並遵循其安裝之產品的生命週期策略[](/lifecycle/faq/internet-explorer-microsoft-edge)。
+> 自 2021 年 8 月 17 日起，Microsoft 365 應用程式與服務將不支援 Internet Explorer 11， (從 2020 年 11 月 30 日開始，Microsoft Teams 不支援 Internet Explorer 11，) 。 [深入了解](https://aka.ms/AA97tsw)。 請注意，Internet Explorer 11 仍然是受支援的瀏覽器。 Internet Explorer 11 是 Windows 作業系統的元件，並遵循其安裝所在產品 [的生命週期原則](/lifecycle/faq/internet-explorer-microsoft-edge) 。
 
-當您Teams不支援的瀏覽器時，瀏覽器會自動顯示一則訊息，說明問題與會話限制。 此訊息提供存取會議音訊的進一步指示，例如建議使用者留下回電號碼Teams以便 Teams 可以打電話給使用者，或指示使用者撥打會議邀請中包含的會議號碼。 訊息也會鼓勵使用者下載並使用桌面Teams[用戶端](https://teams.microsoft.com/downloads)，以獲得完整的Teams體驗。
+當 Teams 偵測到不受支援的瀏覽器時，它會自動顯示一則訊息，說明問題與會話限制。 訊息會提供存取會議音訊的進一步指示，例如建議使用者留下回撥號碼，讓 Teams 可以撥打電話給使用者，或指示使用者撥打會議邀請中包含的會議號碼。 訊息也鼓勵使用者下載並使用 [Teams 桌面用戶端](https://teams.microsoft.com/downloads) ，以獲得完整的 Teams 體驗。
 
-如果 PSTN 無法使用，使用者將看不到存取會議的指示，且無法加入會議。
+如果 PSTN 無法使用，使用者將不會看到存取會議的指示，也無法加入會議。
 
 ## <a name="browser-limitations"></a>瀏覽器限制
 
-在不支援的瀏覽器Teams Web App 的人將會遇到下列限制：
+在不受支援的瀏覽器上使用 Teams Web App 的使用者將會遇到下列限制：
 
-- 音訊僅能透過 PSTN 連接使用。 使用者無法使用麥克風。
-- 使用者無法共用相機或查看其他參與者的影片，但可以透過圖像型螢幕分享來查看呈現的內容。
-- 使用者無法共用其螢幕，雖然他們可以看到另一個會議參與者分享的畫面。
-- 使用者無法控制螢幕共用會話期間。
+- 音訊僅可透過 PSTN 連線使用。 使用者無法使用麥克風。
+- 使用者無法共用相機或查看其他參與者的視訊，但可以透過影像型螢幕畫面分享來檢視呈現的內容。
+- 使用者無法共用螢幕畫面，但可以看到其他會議參與者共用的畫面。
+- 使用者無法在螢幕共用會話期間取得控制權。
 - 使用者不會收到來電通知。
-- 如果通話中斷，會議不會自動重新連接。
+- 如果通話中斷，會議不會自動重新連線。
 - 使用者無法開始會議。
 
-如想進一Teams瀏覽器支援，請參閱瀏覽器的[Teams。](./limits-specifications-teams.md#browsers)
+如需有關 Teams 中瀏覽器支援的詳細資訊，請參閱 [Teams 的限制和規格](./limits-specifications-teams.md#browsers)。
 
 ## <a name="related-topics"></a>相關主題
 
-- [在不支援Teams上加入會議](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)
+- [在不受支援的瀏覽器上加入 Teams 會議](https://support.office.com/article/daafdd3c-ac7a-4855-871b-9113bad15907)

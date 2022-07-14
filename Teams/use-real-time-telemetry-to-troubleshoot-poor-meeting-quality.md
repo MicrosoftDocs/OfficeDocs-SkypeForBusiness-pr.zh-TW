@@ -1,7 +1,7 @@
 ---
 title: 使用即時遙測來疑難排解會議品質不佳的問題
-ms.author: serdars
-author: SerdarSoysal
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, vkorlep
 ms.topic: article
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用即時遙測與裝置、網路和連線的詳細資料，以疑難排解 Microsoft Teams 排程會議的使用者問題。
-ms.openlocfilehash: 26ee7b809d7b18bb07a7f8ae57852c2333b26d94
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: e1f9b445917a0bfd8ba06a736444fc532aa1a0b7
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789618"
+ms.locfileid: "66794341"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>使用即時遙測來疑難排解會議品質不佳的問題
 

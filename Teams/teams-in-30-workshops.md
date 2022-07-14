@@ -1,7 +1,7 @@
 ---
-title: Teams 30 中
-author: SerdarSoysal
-ms.author: serdars
+title: 30 中的 Teams
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.date: 07/01/2019
 ms.service: msteams
@@ -13,25 +13,25 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: landerl, nsuter
 search.appverid: MET150
-description: 即時互動式研討會，專為在 30 天內使用Microsoft Teams上操作而設計。
+description: 即時的互動式研討會，專為協助您在 30 天內啟動並執行 Microsoft Teams 而設計。
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b030ed9efd92a33ef38029088edcd8e2cf6023b5
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: aaa02c0db57f253d080cc616ff91ae7fa2a287b5
+ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392895"
+ms.lasthandoff: 07/14/2022
+ms.locfileid: "66794171"
 ---
-# <a name="teams-in-30"></a>Teams 30 中
+# <a name="teams-in-30"></a>30 中的 Teams
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft 很高興邀請您參加 30 Teams，這是一系列即時互動式研討會，專為協助中型組織 (500-5000 名員工) 在<strong>30</strong>天內使用 Microsoft Teams 進行啟動與運作。 與我們一起瞭解經過時間測試的指引和最佳做法，並取得Teams解答。 研討會參與者也會與專家一起收到開啟麥克風時數的專屬Teams邀請。
-           <p>準備好要跳到了嗎？ 我們鼓勵專案小組的所有成員從<i>30</i>個會話的 入門開始Teams開始。 按一下下方的會話標題以註冊。
+        <p>Microsoft 很高興邀請您 <strong>加入 30 日的 Teams</strong>，這是一系列即時的互動式研討會，旨在協助中型組織 (500-5000 名員工，) 在 30 天內啟動並執行 Microsoft Teams。 加入我們以瞭解經過時間測試的指導方針和最佳做法，並讓您的 Teams 問題獲得解答。 研討會參與者也會收到 Teams 專家的開放麥克風辦公室時間專屬邀請。
+           <p>準備好跳入了嗎？ 我們鼓勵專案小組的所有成員在 <i>30</i> 個會話中從開始使用 Teams 開始。 按一下下方的會話標題以註冊。
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
@@ -44,9 +44,9 @@ ms.locfileid: "63392895"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>在 30 Teams開始使用 (從這裡開始！) </h3>
-                        <P>在 30 Teams右腳開始您的行程。 瞭解計畫、誰應該參與，以及您可以使用哪些資源來確保成功。</P>
-                        <p><i>物件：商務贊助者、IT 系統管理員、採用及變更擁有者</i></p>
+                        <h3>從這裡開始使用 30 (Teams！) </h3>
+                        <P>在右腳的 30 個旅程中開始您的 Teams。 瞭解計畫、誰應該參與，以及您可以使用哪些資源來確保成功。</P>
+                        <p><i>物件：商務贊助者、IT 系統管理員、採用和變更擁有者</i></p>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@ ms.locfileid: "63392895"
                     </div>
                     <div class="cardText">
                         <h3>讓您的使用者做好準備</h3>
-                    <p>探索準備使用者、建立一批領軍企業，以及確保使用者接受做為您推出計畫的核心Teams和資源。</p><p><i>物件：採用及變更擁有者</i></p>
+                    <p>探索為您的使用者做好準備、建置冠軍雲端的策略和資源，並確保使用者接受為 Teams 推行的核心元件。</p><p><i>物件：採用和變更擁有者</i></p>
                     </div>
                 </div>
             </div>
@@ -83,8 +83,8 @@ ms.locfileid: "63392895"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>準備您的環境 - 第一部分</h3>
-                    <p>設定您的部署Teams基礎。 找出Teams先決條件、網路和安全性最佳做法、共存原則、分析和報告，以及用戶端發佈建議。</p><p><i>對象：IT 系統管理員</i></p>
+                    <h3>準備您的環境 - 第 I 部分</h3>
+                    <p>設定 Teams 推行的基礎。 找出 Teams 必要條件、網路和安全性最佳做法、共存原則、分析和報告，以及用戶端發佈建議。</p><p><i>對象：IT 系統管理員</i></p>
 </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@ ms.locfileid: "63392895"
                     </div>
                     <div class="cardText">
                         <h3>準備您的環境 - 第二部分</h3>
-                    <p>現在，您已經打好基礎，請瞭解針對這些使用者實行合規性、保留、管理和音訊會議的最佳作法Teams。</p><p><i>對象：IT 系統管理員</i></p>
+                    <p>現在您已經有了基礎，瞭解實作 Teams 合規性、保留、控管和音訊會議的最佳做法。</p><p><i>對象：IT 系統管理員</i></p>
                     </div>
                 </div>
             </div>
@@ -121,8 +121,8 @@ ms.locfileid: "63392895"
                     </div>
                     <div class="cardText">
                     <h3>優化和展開</h3>
-                    <p>設計方案，包括優化服務績效、擴充Teams功能，以及加入新使用者。</p>
-                    <p><i>物件：商務贊助者、IT 系統管理員、採用及變更擁有者</i></p>
+                    <p>設計包含優化服務效能、擴充 Teams 功能，以及讓新使用者上線的方案。</p>
+                    <p><i>物件：商務贊助者、IT 系統管理員、採用和變更擁有者</i></p>
                     </div>
                 </div>
             </div>
@@ -140,9 +140,9 @@ ms.locfileid: "63392895"
                         </div>
                     </div>
                     <div class="cardText">
-                    <h3>Teams粉筆交談</h3>
-                    <p>在主題專家的協助下，這些線上互動式研討會提供一個獨一無二的機會，以學習最佳做法和實用指南，以瞭解 Teams 中一些最熱門的案例。 粉筆交談假設您已完成基本Teams推出。</p>
-                    <p><strong>先決條件</strong>：Teams出席 30 個研討會，或已針對Teams啟用。</p>
+                    <h3>Teams 粉筆交談</h3>
+                    <p>在主題專家的推動下，這些線上互動式研討會提供了一個獨特的機會，可讓您瞭解 Teams 中一些熱門且吸引人案例的最佳做法和實用指導方針。 粉筆交談假設您已完成基本 Teams 推出。</p>
+                    <p><strong>必要條件</strong>：30 場研討會的 Teams 出席或已為貴組織的 Teams 啟用。</p>
                     <p><i>對象：IT 系統管理員</i></p>
                     </div>
                 </div>
