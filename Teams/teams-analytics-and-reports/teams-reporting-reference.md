@@ -18,12 +18,12 @@ description: 在本文中，您將瞭解 Microsoft Teams 系統管理中心提�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f0891b9267039d8c07d437cb8e67eb2b982a0016
-ms.sourcegitcommit: cf2f2d23e6dcda0c03f22a5800a210a1c88e583f
+ms.openlocfilehash: ad17bd2932786253f7dd3a925856d46780032204
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "65883546"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819308"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析與報告
 
@@ -31,12 +31,12 @@ Microsoft Teams 系統管理中心提供新的 Microsoft Teams 分析和報告�
 
 ## <a name="how-to-access-the-reports"></a>如何存取報告
 
-若要存取報告，您必須是 Microsoft 365 或 Office 365 的全域系統管理員、Microsoft 365 或 Office 365 中的全域助讀程式、Teams 服務系統管理員或商務用 Skype 系統管理員。若要深入瞭解 Teams 系統管理員角色，以及每個系統管理員角色可以存取哪些報告，請參閱 [使用 Teams 系統管理員角色管理 Teams](../using-admin-roles.md)。
+若要存取報告，您必須是 Microsoft 365 或 Office 365 的全域系統管理員、Microsoft 365 中的全域助讀程式、Office 365、Teams 服務系統管理員或商務用 Skype系統管理員。若要深入瞭解 Teams 系統管理員角色，以及每個系統管理員角色可以存取哪些報告，請參閱[使用 Teams 系統管理員角色管理 Teams](../using-admin-roles.md)。
 
 移至 Microsoft Teams 系統管理中心，在左側導覽中，選 **取 [分析&報** 表]，然後在 [ **檢視報** 表] 底下，選擇您要執行的報告。
 
 > [!NOTE]
-> Microsoft Teams 系統管理中心的報表與屬於 Microsoft 365 系統管理中心 Microsoft 365 報告一部分的 Teams 活動報告是分開的。 如需 Microsoft 365 系統管理中心活動報告的詳細資訊，請參閱 [Microsoft 365 系統管理中心的 Teams 活動報告](../teams-activity-reports.md)
+> Microsoft Teams 系統管理中心的報表與屬於Microsoft 365 系統管理中心中 Microsoft 365 報告一部分的 Teams 活動報告是分開的。 如需有關Microsoft 365 系統管理中心中活動報告的詳細資訊，請參閱[Microsoft 365 系統管理中心中的 Teams 活動報告](../teams-activity-reports.md)
 
 ## <a name="teams-reporting-reference"></a>Teams 報告參考
 
@@ -55,17 +55,17 @@ Microsoft Teams 系統管理中心提供新的 Microsoft Teams 分析和報告�
 |[Teams PSTN 使用方式報告 - 通話方案](pstn-usage-report.md#calling-plans)|  時間戳記<br>使用者名稱<br>電話號碼<br>通話類型 <br>已撥打至<br>移至國家或地區 <br>來電者 <br>從國家或地區<br>負責<br>貨幣<br>時間<br>國內/國際<br>通話識別碼<br>數位類型<br>國家或地區<br>會議 ID<br>功能 (授權) |
 |[Teams PSTN 使用方式報告 - 直接路由](pstn-usage-report.md#direct-routing)  |  時間戳記<br>顯示名稱<br>SIP 位址<br>電話號碼 <br>通話類型<br>已撥打至<br>開始時間<br>邀請時間<br>失敗時間<br>結束時間<br>時間<br>數位類型<br>媒體旁路<br>SBC FQDN<br>Azure 地區<br>事件種類<br>最終 SIP 代碼<br>最終 Microsoft 子代碼<br>最後一個 SIP 片語<br>相互關聯識別碼  |
 |[Teams 資訊保護授權報告](information-protection-license-report.md)  | <br>使用者是否擁有透過變更通知推送訊息的有效授權</br><br>使用者觸發的變更通知事件總數<br><br>哪些應用程式正在聆聽整個組織變更通知事件<br>|
-|[Teams 虛擬造訪使用方式報告](virtual-visits-usage-report.md)  | 虛擬約會的數目<br>Bookings 約會數目<br> (EHR) 整合式約會的 Teams 電子健康記錄數目<br>約會的平均持續時間<br>出席者的平均大廳等候時間<br>開始時間<br>會議 ID<br>大廳等候時間<br>時間<br>地位<br>產品類型<br>出席者<br>已傳送簡訊
-|[Teams EHR 連接器虛擬約會報告](../expand-teams-across-your-org/healthcare/ehr-admin-reports.md) | 開始時間<br>時間<br>會議召集人) 的主要 (名稱<br>主要的電子郵件 (會議召集人的電子郵件) <br>部門<br>服務員<br>大廳等候時間<br>約會是否在配置限制內
+|[Teams 虛擬造訪使用方式報告](/microsoft-365/frontline/virtual-visits-usage-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)  | 虛擬約會的數目<br>Bookings 約會數目<br> (EHR) 整合式約會的 Teams 電子健康記錄數目<br>約會的平均持續時間<br>出席者的平均大廳等候時間<br>開始時間<br>會議 ID<br>大廳等候時間<br>時間<br>地位<br>產品類型<br>出席者<br>已傳送簡訊
+|[Teams EHR 連接器虛擬約會報表](/microsoft-365/frontline/ehr-connector-report?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json) | 開始時間<br>時間<br>會議召集人) 的主要 (名稱<br>主要的電子郵件 (會議召集人的電子郵件) <br>部門<br>服務員<br>大廳等候時間<br>約會是否在配置限制內|
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
 ## <a name="make-the-user-specific-data-anonymous"></a>將使用者的特定資料匿名化
 
-若要將 Teams 使用者活動和 Teams 裝置使用方式報告中的資料匿名化，您必須是全域系統管理員。 這會隱藏報表及其匯出中可識別的資訊，例如顯示名稱、電子郵件和 Microsoft Azure Active Directory ID。
+若要將 Teams 使用者活動和 Teams 裝置使用方式報告中的資料匿名化，您必須是全域系統管理員。 這會隱藏報表及其匯出中可識別的資訊，例如顯示名稱、電子郵件和Microsoft Azure Active Directory識別碼。
 
-1. 在 Microsoft 365 系統管理中心，移至 [ **設定** \> **組織設定]**，然後在 [ **服務** ] 索引標籤下選擇 [ **報告]**。
+1. 在 Microsoft 365 系統管理中心 中，移至 [**設定** \> **組織設定]**，然後在 [**服務]** 索引標籤下選擇 [**報告]**。
     
-2. 選取 **[報告**]，然後選擇 **[在所有報表中顯示隱藏的使用者、群組和網站名稱]**。 此設定會同時套用到 Microsoft 365 系統管理中心的使用方式報告，以及 Teams 系統管理中心。
+2. 選取 **[報告**]，然後選擇 **[在所有報表中顯示隱藏的使用者、群組和網站名稱]**。 此設定會同時套用至 Microsoft 365 系統管理中心 中的使用方式報告，以及 Teams 系統管理中心。
   
 3. 選 **取 [儲存變更]**。
 

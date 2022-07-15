@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: yinchang
 description: 瞭解如何在 Teams 系統管理中心管理及使用醫療保健小組範本, 以及使用 Microsoft Graph 快速且輕鬆地為醫療保健組織建立團隊。
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 78269b393c384af82e48284e3ffefe8785013975
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 831e4e257277ce2fca6dc007ac5f3bfe963bca35
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045999"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819438"
 ---
 # <a name="use-healthcare-team-templates"></a>使用醫療保健團隊範本
 
@@ -73,7 +73,7 @@ Teams 中包括專為醫療保健組織設計的範本。 使用這些預先建�
 &sup1;應用程式已做為索引標籤新增到頻道
 ## <a name="use-team-templates-with-microsoft-graph"></a>以 Microsoft Graph 使用團隊範本
 
-開發人員可以使用 Microsoft Graph 從預先組建的團隊範本建立團隊。若要深入了解在 Microsoft Graph 中使用團隊範本, 請參閱[開始在 Microsoft Graph 中使用團隊範本](../../get-started-with-teams-templates.md), [Microsoft Teams API 概觀](/graph/teams-concept-overview?view=graph-rest-1.0), 和 [teamsTemplate 資源類型](/graph/api/resources/teamstemplate?view=graph-rest-1.0)。
+開發人員可以使用 Microsoft Graph 從預先組建的團隊範本建立團隊。若要深入了解在 Microsoft Graph 中使用團隊範本, 請參閱[開始在 Microsoft Graph 中使用團隊範本](../../get-started-with-teams-templates.md), [Microsoft Teams API 概觀](/graph/teams-concept-overview), 和 [teamsTemplate 資源類型](/graph/api/resources/teamstemplate)。
 
 以下是預先建立的醫療保健團隊範本。
 ### <a name="ward"></a>病房
@@ -214,4 +214,4 @@ Teams 中包括專為醫療保健組織設計的範本。 使用這些預先建�
 - [從範本建立團隊](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [在 Teams 系統管理中心開始使用團隊範本](../../get-started-with-teams-templates-in-the-admin-console.md)
 - [開始用 Microsoft Graph 使用團隊範本](../../get-started-with-teams-templates.md)
-- [開始使用適用於醫療保健組織的 Teams](teams-in-hc.md)
+- [開始使用適用於醫療保健組織的 Teams](/microsoft-365/frontline/teams-in-hc?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)
