@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b040eb7d595a50b92d69a9722ae1e134cd098ff8
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 9c18d1ce0e7b9d75245dc62a5990c7dfbbad7246
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241112"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819458"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式設定原則
 
@@ -80,7 +80,7 @@ ms.locfileid: "66241112"
 > 在 Teams 教育版 中，[作業] 應用程式預設會釘選在全域原則中，即使您沒有看到它列在全域原則中。
 
 > [!NOTE]
-> 我們建議貴組織的第一線員工使用量身打造的第一線應用程式體驗。 這項功能會為擁有 [F 授權](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt)的使用者釘選 Teams 中最相關的應用程式。 若要深入瞭解，請參閱 [為您的前線員工量身打造 Teams 應用程式](pin-teams-apps-based-on-license.md)。
+> 我們建議貴組織的第一線員工使用量身打造的第一線應用程式體驗。 這項功能會為擁有 [F 授權](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt)的使用者釘選 Teams 中最相關的應用程式。 若要深入瞭解，請參閱 [為您的前線員工量身打造 Teams 應用程式](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)。
 
 ## <a name="install-apps"></a>安裝應用程式
 

@@ -1,8 +1,8 @@
 ---
 title: 在 Microsoft Teams 中管理 Bookings 應用程式
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: article
 ms.service: msteams
@@ -21,16 +21,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: 瞭解如何在 Teams 中為組織中的使用者管理 Bookings 應用程式。
-ms.openlocfilehash: 45ce6c29cd7bfbaedf53c1b75178142a925157cb
-ms.sourcegitcommit: 15ec17eff4ad4c962d00b8683513f9b269d82917
+ms.openlocfilehash: f11739784dcb9897bf9a3fcbffdadc8aea00d3e0
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "66695036"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819288"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>在 Microsoft Teams 中管理 Bookings 應用程式
 
-Microsoft Teams 中的 Bookings 應用程式提供一個簡單的方式來排程親自和虛擬約會。 例如，醫療探訪、財務諮詢、面談、客戶支援，以及教育辦公室時間。 若要深入瞭解，請參閱 [使用 Teams 的虛擬約會和 Bookings 應用程式](expand-teams-across-your-org/bookings-virtual-visits.md)。
+Microsoft Teams 中的 Bookings 應用程式提供一個簡單的方式來排程親自和虛擬約會。 例如，醫療探訪、財務諮詢、面談、客戶支援，以及教育辦公室時間。 若要深入瞭解，請參閱 [使用 Teams 的虛擬約會和 Bookings 應用程式](/microsoft-365/frontline/bookings-virtual-visits)。
 
 排程器可以從單一體驗管理多個部門和教職員行事曆，以及與內部和外部出席者通訊。 虛擬約會會透過 Microsoft Teams 會議進行，以提供強大的視訊會議功能。
 
@@ -100,7 +100,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 
 ## <a name="related-articles"></a>相關文章
 
-[在瀏覽器上管理 Teams 虛擬約會的加入體驗](expand-teams-across-your-org/browser-join.md)
+[在瀏覽器上管理 Teams 虛擬約會的加入體驗](/microsoft-365/frontline/browser-join)
 
 
   [適用於終端使用者的 Bookings 文件](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

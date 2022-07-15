@@ -1,8 +1,8 @@
 ---
 title: 適用於醫療保健的 Teams 原則套件
-ms.author: mabond
-author: mkbond007
-manager: serdars
+ms.author: v-lanachin
+author: LanaChin
+manager: samanro
 ms.reviewer: aaglick
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: 瞭解如何使用和管理適用于貴醫療保健組織的 Teams 原則套件。
-ms.openlocfilehash: c4a1d6909cd6a2c7f58c3a30353a3d4398c4c70e
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: a4613716b1c5ce626e5a00ce2ed884cfb208f097
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563721"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819418"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>適用於醫療保健的 Teams 原則套件
 
@@ -101,9 +101,7 @@ Teams 目前包含下列醫療保健原則套件。
 
 #### <a name="assign-a-policy-package-to-a-group"></a>將原則套件指派給群組
 
-**這項功能在私人預覽中**
-
-透過向群組指派原則套件，可以將多個原則指派給一組使用者，例如安全性群組或通訊群組。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。 此方法推薦用於最多 50000 個使用者的群組，但也適用於較大的群組。
+將原則套件指派給群組，可讓您將多個原則指派給一組使用者，例如安全性群組或通訊群組清單。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。 此方法推薦用於最多 50000 個使用者的群組，但也適用於較大的群組。
 
 若要深入了解，請參閱 [將原則套件指派到群組](assign-policy-packages.md#assign-a-policy-package-to-a-group)。
 
@@ -111,7 +109,7 @@ Teams 目前包含下列醫療保健原則套件。
 
 使用批次原則套件指派，將原則套件一次性指派給大組使用者組。 您可以使用 [CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation) Cmdlet 來提交一批使用者和您要指派的原則套件。 系統會將工作處理為背景作業，並為每個批次產生作業識別碼。
 
-批次最多可包含 5000 個使用者。 您可以使用使用者的物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入了解，請參閱 [將原則套件指派到一批使用者](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)。
+批次最多可包含 5000 個使用者。 您可以依使用者的物件識別碼、UPN、SIP 位址或電子郵件地址來指定使用者。 若要深入了解，請參閱 [將原則套件指派到一批使用者](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)。
 
 ## <a name="related-topics"></a>相關主題
 

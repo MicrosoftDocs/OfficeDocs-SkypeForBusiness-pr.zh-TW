@@ -1,8 +1,8 @@
 ---
 title: 在 Microsoft Teams 中管理貴組織的 [工作] 應用程式
-author: mkbond007
-ms.author: mabond
-manager: serdars
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
@@ -21,12 +21,12 @@ MS.collection:
 - microsoftcloud-retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cff25b181af1f5280834080bb2308c9ab9bbc8b0
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: 1749c4b21c6b67f40eddd437ff0766918b5dc5df
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646392"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819268"
 ---
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [工作] 應用程式
 
@@ -43,11 +43,11 @@ ms.locfileid: "65646392"
 
 ## <a name="what-you-need-to-know-about-tasks"></a>有關 [工作] 必須知道的事項
 
-[工作] 能以應用程式和頻道中的索引標籤的形式供使用。 應用程式會顯示來自待辦事項的個別工作，以及 Planner 的小組工作。 索引標籤只會顯示小組工作。
+[工作] 能以應用程式和頻道中的索引標籤的形式供使用。 應用程式會顯示來自 To Do 的個別工作，以及 Planner 的小組工作。 索引標籤只會顯示小組工作。
 
 使用者可在桌上型電腦、Web 和行動裝置上使用 [工作]。 如果在 Teams 桌面版用戶端安裝 [工作]，使用者也會在其 Teams 的 Web 和行動用戶端上看到。 來賓例外。 請務必瞭解，訪客只能從 Teams 行動用戶端存取 [工作] 應用程式。 訪客將在 Teams 的桌面版和 Web 用戶端上看到 [工作] 索引標籤。
 
-**我的工作** 會顯示使用者的個別工作。 **共用計畫** 會示整個小組正在處理的工作，並包含任何以 [工作] 索引標籤的方式新增至頻道的工作清單。 請注意[任務]、[待辦事項] 和 [Planner] 中的工作之間的下列關聯：
+**我的工作** 會顯示使用者的個別工作。 **共用計畫** 會示整個小組正在處理的工作，並包含任何以 [工作] 索引標籤的方式新增至頻道的工作清單。 請注意，[工作]、[待辦事項] 和 [Planner] 中的工作之間有下列關聯：
 
 - 使用者在 [工作] 應用程式中建立的工作清單也會顯示在該使用者的待辦事項用戶端。 同樣地，使用者在待辦事項中建立的工作清單將會顯示在該使用者的 [工作] 中的 **我的工作**。 這同樣適用於個別工作。
 
@@ -62,7 +62,7 @@ ms.locfileid: "65646392"
 
 您的組織中的所有 Teams 使用者預設會啟用 [工作]。 您可以在 Microsoft Teams 系統管理中心的[管理應用程式](manage-apps.md)頁面上關閉或開啟組織層級的應用程式。
 
-1. 在Microsoft Teams系統管理中心的左窗格中，移至 **Teams應用程式**  >  **管理應用程式。**
+1. 在 Microsoft Teams 系統管理中心的左窗格中，移至 **Teams 應用程式**  >  **管理應用程式**。
 2. 在應用程式清單中，執行下列其中一項動作：
 
     - 若要關閉貴組織的 [工作]，請搜尋 [工作] 應用程式，選取它，然後選取 [ **封鎖]**。
@@ -75,19 +75,19 @@ ms.locfileid: "65646392"
 
 若要允許或封鎖貴組織中的特定使用者使用 [工作]，請確定您的組織在[管理應用程式](manage-apps.md)頁面上已開啟 [工作]，然後建立自訂應用程式權限原則，並將其指派給這些使用者。 若要深入了解，請參閱[管理 Teams 中的應用程式權限原則](teams-app-permission-policies.md)。
 
-### <a name="pin-tasks-to-teams"></a>將 [工作] 釘選到Teams
+### <a name="pin-tasks-to-teams"></a>將 [工作] 釘選到 Teams
 
-#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>使用量身打造的第一線應用程式體驗，將 [工作] 和其他應用程式釘選到Teams
+#### <a name="use-the-tailored-frontline-app-experience-to-pin-tasks-and-other-apps-to-teams"></a>使用量身打造的第一線應用程式體驗，將 [工作] 和其他應用程式釘選到 Teams
 
-在 Teams 中量身打造的第一線應用程式體驗會將最相關的應用程式釘選到 Teams 中，以供[擁有 F 授權](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的使用者使用。 釘選的應用程式包括 [工作]、[無線對講機]、[班次] 和 [核准]。 根據預設，此功能為您的第一線工作人員提供專為其需求量身打造的全新體驗。
+Teams 中量身打造的第一線應用程式體驗可為擁有 [F 授權](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt)的使用者釘選 Teams 中最相關的應用程式。 釘選的應用程式包括 [工作]、[無線對講機]、[班次] 和 [核准]。 根據預設，此功能為您的第一線工作人員提供專為其需求量身打造的全新體驗。
 
-這些應用程式會釘選到應用程式行，也就是Teams桌面用戶端側邊，以及Teams行動用戶端底部的列，使用者可以在此快速且輕鬆地存取它們。
+應用程式會釘選到應用程式行，也就是 Teams 桌面用戶端側邊和 Teams 行動用戶端底部的列，使用者可以在此快速且輕鬆地存取它們。
 
-若要深入瞭解，包括體驗如何與您所設定的應用程式原則搭配運作，請參閱[為前線員工量身打造Teams應用程式](pin-teams-apps-based-on-license.md)。
+若要深入瞭解，包括體驗如何與您所設定的應用程式原則搭配運作，請參閱 [為您的第一線員工量身打造 Teams 應用程式](/microsoft-365/frontline/pin-teams-apps-based-on-license?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)。
 
 #### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>使用應用程式設定原則將工作釘選到 Teams
 
-應用程式設定原則可讓您自訂Teams以釘選對使用者中使用者最重要的應用程式。
+應用程式設定原則可讓您自訂 Teams，以釘選對使用者中使用者最重要的應用程式。
 
 若要為您的使用者釘選 [工作] 應用程式，您可以編輯全域 (全組織預設值) 原則，或建立並指定自訂應用程式設定原則。 若要深入了解，請參閱[管理 Teams 中的應用程式設定原則](teams-app-setup-policies.md)。
 
