@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: 使用即時遙測與裝置、網路和連線的詳細資料，以疑難排解 Microsoft Teams 排程會議的使用者問題。
-ms.openlocfilehash: e1f9b445917a0bfd8ba06a736444fc532aa1a0b7
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: 203f16d83d211a4a85f3217992d509bccba5dea3
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794341"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810175"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>使用即時遙測來疑難排解會議品質不佳的問題
 
@@ -137,10 +137,10 @@ Real-Time分析會針對您Office 365帳戶中的每位使用者顯示 Teams 會
 
 ## <a name="teams-devices-with-support-for-real-time-telemetry"></a>支援即時遙測的 Teams 裝置
 
-- MTR - Surface Hub
-- MTR - Teams 顯示器
-- MTR - 共同作業列
-- IP Phone 裝置
+- Teams 顯示器
+- Teams 手機
+- Teams 會議室
+- Surface Hub 上的 Teams 會議室
 
 > [!NOTE]
 > Real-Time Analytics 不支援使用雲端視訊 Interop (CVI) 解決方案加入會議的裝置。

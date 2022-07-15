@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: 管理員可以閱讀Microsoft Teams 會議室的版本資訊，其中列出Microsoft Teams 會議室中的累積改良功能。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: d4ac16e7214a6340eb74f1c154661f78a50992ee
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 07b4661df5df7ac766c17a07c2bdd940b3d2cb6b
+ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529695"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66810105"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Microsoft Teams 會議室的版本資訊
 
@@ -27,18 +27,19 @@ ms.locfileid: "66529695"
 
 Teams 會議室有兩種類型的更新：Teams 會議室應用程式更新和 Teams Web 用戶端。 
 
-Teams 會議室應用程式更新會透過 Microsoft Store 或[透過手動更新來進行](manual-update.md)。 這會更新本機裝置上安裝的通用 Windows 平臺 (UWP) 應用程式。
+Teams 會議室應用程式更新會透過 Microsoft Store 或[透過手動更新來進行](manual-update.md)。 更新會套用至本機安裝于本機的 通用 Windows 平臺 (UWP) 應用程式。
 
-Teams Web 用戶端更新會透過 Teams Web App 傳遞服務進行。 這是雲端式服務，不需要更新裝置上安裝的本機 UWP 應用程式。
+Teams Web 用戶端更新會透過 Teams Web App 傳遞服務進行。 Teams Web 用戶端是雲端式服務，不需要更新裝置上安裝的本機 UWP 應用程式。
 
 如需 Teams 更新方式的詳細資訊，請參閱 [Teams 更新程式](../teams-client-update.md)
 
-Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊，請參閱 [Teams 更新程式](../teams-client-update.md#servicing-agreement) 。
+Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊，請參閱 [Teams 更新程式](../teams-client-update.md#servicing-agreement)。
 
 ## <a name="version-history"></a>版本歷程記錄
 
 |釋放 |發佈至 <br/> Microsoft Store |
 |--- |--- |
+|4.12.139.0 |7/14/2022 |
 |4.12.138.0 |5/26/2022 |
 |4.12.126.0 |4/27/2022 |
 |4.11.17.0 |3/3/2022 |
@@ -92,6 +93,15 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 
 ## <a name="microsoft-teams-rooms-feature-introduction-and-issue-resolution"></a>Microsoft Teams 會議室功能簡介和問題解決方式
 
+### <a name="4121390-7142022"></a>4.12.139.0 (2022 年 7 月 14 日) 
+
+在此更新中推出：
+
+- 變更版本號碼，允許受 Windows [KB5013942](https://support.microsoft.com/topic/may-10-2022-kb5013942-os-builds-19042-1706-19043-1706-and-19044-1706-60b51119-85be-4a34-9e21-8954f6749504) 影響的系統重新註冊應用程式，以便啟動。 此應用程式版本中沒有 4.1.2.138.0 的功能變更。
+
+> [!NOTE]
+> 如需詳細資訊，請參閱Teams 會議室[和裝置的已知問題](/microsoftteams/troubleshoot/teams-rooms-and-devices/rooms-known-issues)中的「Teams 會議室應用程式在更新後無法啟動」。
+
 ### <a name="4121380-5262022"></a>4.12.138.0 (2022/5/26) 
 
 在此更新中推出：
@@ -102,7 +112,7 @@ Teams 會議室受到現代化生命週期原則的規範。 如需詳細資訊�
 ### <a name="4121260-4272022"></a>4.12.126.0 (2022 年 4 月 27 日) 
 
 在此更新中推出：
-- IT 系統管理員可以註冊 Teams 會議室裝置，透過 XML 設定接收公開預覽功能。 一旦註冊，裝置將會開始接收 Beta 功能。 所有要進行 Beta 測試的功能都會在 [Microsoft Teams 公開預覽版上宣告 - Microsoft 技術社](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)<sup>群 1，2</sup>  
+- IT 系統管理員可以註冊 Teams 會議室裝置，透過 XML 設定接收公開預覽功能。 一旦註冊，裝置將會開始接收 Beta 功能。 所有要進行 Beta 測試的功能都會在[Microsoft Teams 公開預覽](https://techcommunity.microsoft.com/t5/microsoft-teams-public-preview/bd-p/MicrosoftTeamsPublicPreview)版上公佈 - Microsoft Tech Community <sup>1，2</sup>  
 - IT 系統管理員可以透過 XML 設定<sup>2</sup>，設定 [會議室前方] 顯示器解析度和遠端縮放比例
 - IT 系統管理員可以透過 XML 設定<sup>3</sup>停用 Microsoft 噪音抑制功能 
 - IT 系統管理員可以透過登錄機碼設定<sup>4</sup>覆寫裝置上的下載資料夾清理
