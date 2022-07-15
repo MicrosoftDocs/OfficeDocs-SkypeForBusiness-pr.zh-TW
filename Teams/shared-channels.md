@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的共用頻道。
-ms.openlocfilehash: 11abe6245dea7ee72bc2f71b412addbed5aa6e30
-ms.sourcegitcommit: e38776625a3623216b0d5f092fffaff67519b1a6
+ms.openlocfilehash: 9a547963854f981e723d29b1472c2bda808b90c2
+ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66057053"
+ms.lasthandoff: 07/13/2022
+ms.locfileid: "66773762"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共用頻道
 
@@ -94,7 +94,7 @@ ms.locfileid: "66057053"
 
 ## <a name="shared-channel-sharepoint-sites"></a>共用頻道 SharePoint 網站
 
-每個共用頻道都有[自己的 SharePoint 網站](/SharePoint/teams-connected-sites)。 分隔的網站是為了確保僅限共用頻道的成員才可存取共用頻道檔案。 依預設，這些網站會以文件庫建立，且可以透過[網站管理介面](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)輕鬆地增強為功能完整的網站。 每個網站都在與父系小組的網站相同的地理區域中建立。 這些輕量型網站擁有自訂範本識別碼 TEAMCHANNEL#0，可讓您透過 PowerShell 和圖形 API 更輕鬆地進行管理。 
+每個共用頻道都有[自己的 SharePoint 網站](/SharePoint/teams-connected-sites)。 分隔的網站是為了確保僅限共用頻道的成員才可存取共用頻道檔案。 依預設，這些網站會以文件庫建立，且可以透過[網站管理介面](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04)輕鬆地增強為功能完整的網站。 每個網站都在與父系小組的網站相同的地理區域中建立。 這些輕量型網站擁有自訂範本識別碼 TEAMCHANNEL#1，可讓您透過 PowerShell 和圖形 API 更輕鬆地進行管理。 
 
 共用頻道網站會繼承上層小組的敏感度標籤。 即使頻道是直接與另一個團隊共用，這仍會保持 True。
 
