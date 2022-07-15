@@ -1,27 +1,32 @@
 ---
-title: PowerShell 腳本範例 - Teams清理
-author: SerdarSoysal
-ms.author: serdars
+title: PowerShell 腳本範例 - Teams 部署清理
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 腳本卸載Teams使用者Teams資料夾。
+description: 使用此 PowerShell 腳本卸載 Teams 並移除使用者的 Teams 資料夾。
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-ROBOTS: 'NOINDEX, NOFOLLOW'
+ROBOTS: NOINDEX, NOFOLLOW
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: d7875cb01b928567d5883f36e21eb2f0de0bccf6
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825687"
 ---
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell 腳本範例 - Teams 部署清理
 
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell 腳本範例 - Teams清理部署
-
-使用此腳本移除Teams。 此腳本會卸載Teams並移除Teams資料夾。 針對每一個使用者設定檔執行此腳本，Teams電腦上安裝此設定檔。
+使用此腳本移除 Teams。 此腳本會卸載 Teams，並移除使用者的 Teams 資料夾。 針對在電腦上安裝 Teams 的每個使用者設定檔執行此腳本。
 
 
 ## <a name="sample-script"></a>範例腳本
@@ -59,5 +64,5 @@ catch
 
 ## <a name="related-topics"></a>相關主題
 
-- [使用 Microsoft Teams 安裝Microsoft Endpoint Configuration Manager](../msi-deployment.md)
-- [使用 Teams 部署Microsoft 365 Apps](/deployoffice/teams-install)
+- [使用 Microsoft Endpoint Configuration Manager 安裝 Microsoft Teams](../msi-deployment.md)
+- [使用 Microsoft 365 Apps 部署 Teams](/deployoffice/teams-install)

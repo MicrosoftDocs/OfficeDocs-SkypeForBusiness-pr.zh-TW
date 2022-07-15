@@ -1,13 +1,13 @@
 ---
 title: PowerShell 腳本範例 - 建立&指派訊息原則
-author: serdars
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 腳本在 Teams 中建立訊息原則，並將它指派給您組織中的使用者。
+description: 使用此 PowerShell 腳本在 Teams 中建立訊息原則，並將它指派給組織中的使用者。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 09254f9ed85f69551ee825dbeb8ae063a010f780
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 764de690bbf743991536416c7fed08d0b88e7e97
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823704"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825887"
 ---
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell 腳本範例 - 建立及指派訊息原則
 
@@ -30,7 +30,7 @@ ms.locfileid: "65823704"
 
 如需使用此 PowerShell 腳本的詳細資訊，請參閱[快速入門 - Teams 教育版](../teams-quick-start-edu.yml)。
 
-此腳本使用 商務用 Skype Online PowerShell 模組中的[Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) Cmdlet。 若要深入瞭解如何使用 PowerShell 管理Teams，請參閱[Teams PowerShell 概觀](../teams-powershell-overview.md)。
+此腳本使用 商務用 Skype Online PowerShell 模組中的[Grant-CsTeamsMessagingPolicy](/powershell/module/skype/grant-csteamsmessagingpolicy) Cmdlet。 若要深入瞭解如何使用 PowerShell 管理 Teams，請參閱 [Teams PowerShell 概觀](../teams-powershell-overview.md) 。
 
 
 ## <a name="before-you-start"></a>開始之前
@@ -61,4 +61,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> 您也可以透過批次處理原則指派或使用者為其成員的群組，以縮放比例直接指派訊息原則給使用者。 如需詳細資訊，請參閱[指派原則給學校中的大型使用者群](../batch-group-policy-assignment-edu.md)組和[在 Teams 中指派原則給使用者](../policy-assignment-overview.md)。
+> 您也可以透過批次處理原則指派或使用者為其成員的群組，以縮放比例直接指派訊息原則給使用者。 如需詳細資訊，請參閱 [指派原則給學校中的大型使用者群](../batch-group-policy-assignment-edu.md) 組和 [在 Teams 中指派原則給使用者](../policy-assignment-overview.md)。

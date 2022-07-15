@@ -1,7 +1,7 @@
 ---
-title: PowerShell 腳本範例 - 匯出管理員及其直接專案
-author: SerdarSoysal
-ms.author: serdars
+title: PowerShell 腳本範例 - 匯出管理員及其直接報告
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 ms.topic: article
 ms.reviewer: brandber
@@ -16,16 +16,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 436f9566031a2cd9bc3b06a23df7b3b7346d3bec
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: fbd1758c0de6d0cb7751b4a447e21ab386f823ba
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65674175"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825667"
 ---
-# <a name="powershell-script-sample---export-managers-and-their-directs"></a>PowerShell 腳本範例 - 匯出管理員及其直接專案
+# <a name="powershell-script-sample---export-managers-and-their-direct-reports"></a>PowerShell 腳本範例 - 匯出管理員及其直接報告
 
-使用此 PowerShell 腳本，為貴組織匯出經理清單及其直接資訊。 使用此腳本，為每個主管建立一個人員管理員團隊，並以其直接報告作為團隊成員進行準備。
+使用此 PowerShell 腳本，為貴組織匯出經理清單及其直接報告。 使用此腳本，為每個主管建立一個人員管理員團隊，並以其直接報告作為團隊成員進行準備。
 
 若要深入瞭解此 PowerShell 腳本，請參閱 [建立人員管理團隊](../create-manager-directs-teams.md)。
 

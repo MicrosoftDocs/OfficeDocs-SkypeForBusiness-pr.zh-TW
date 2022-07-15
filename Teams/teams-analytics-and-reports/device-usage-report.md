@@ -1,7 +1,7 @@
 ---
-title: Microsoft Teams裝置使用方式報告
-author: SerdarSoysal
-ms.author: serdars
+title: Microsoft Teams 裝置使用方式報告
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -13,49 +13,49 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: 瞭解如何在系統管理Teams使用 Microsoft Teams裝置使用方式報告，以瞭解貴組織的使用者如何Teams。
+description: 瞭解如何使用 Microsoft Teams 系統管理中心的 Teams 裝置使用方式報告，以查看貴組織中的使用者如何連線至 Teams。
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f3d7960f0543c3c15733b4c1a77179fc4571a0f2
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 949ad172425f5e02da2fa67078193b198cb987d1
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62418326"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66825507"
 ---
-# <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams裝置使用方式報告
+# <a name="microsoft-teams-device-usage-report"></a>Microsoft Teams 裝置使用方式報告
 
-系統Teams系統管理中心中的 Microsoft Teams裝置使用方式報告會提供使用者如何連接到Teams。 您可以使用報表查看整個組織使用的裝置，包括Teams行動裝置使用多少裝置。  
+Microsoft Teams 系統管理中心的 Teams 裝置使用方式報告會提供使用者如何連線至 Teams 的相關資訊。 您可以使用報告來查看貴組織中使用的裝置，包括在外出時從行動裝置使用 Teams 的數目。  
 
-## <a name="view-the-device-usage-report"></a>查看裝置使用方式報告
+## <a name="view-the-device-usage-report"></a>檢視裝置使用方式報告
 
-1. 在系統管理中心的左側導Microsoft Teams，按一下 [分析&**報表**  >  **使用報告**。 On the **View reports** tab, under **Report**, select **Teams device usage**.
-2. 在 **[日期範圍**」 下，選取範圍，然後按一下 [ **執行報表**。
+1. 在 Microsoft Teams 系統管理中心的左側導覽中，按一下 **[分析&報告**  >  **使用方式報告。** 在 [ **檢視報表]** 索引標籤的 [ **報表**] 底下，選 **取 [Teams 裝置使用量]**。
+2. 在 **[日期範圍]** 底下，選取範圍，然後按一下 [ **執行報表]**。
 
-    ![系統管理中心Teams裝置使用方式報表的螢幕擷取畫面Teams圖。](../media/teams-reports-device-usage-with-callouts.png "系統管理中心Teams裝置使用方式報表的螢幕擷取畫面Teams圖")
+    ![Teams 系統管理中心內含圖說文字的 Teams 裝置使用方式報告螢幕擷取畫面。](../media/teams-reports-device-usage-with-callouts.png "Teams 系統管理中心內含圖說文字的 Teams 裝置使用方式報告螢幕擷取畫面")
 
-## <a name="interpret-the-report"></a>解譯報表
+## <a name="interpret-the-report"></a>解讀報表
 
 |標注 |描述  |
 |--------|-------------|
-|**1**   |您可以Teams裝置使用方式報告，查看過去 7 天或 30 天內的趨勢。  |
-|**2**   |每個報表都有產生報表的日期。 報告通常會反映啟用時間 24 小時的延遲。 |
-|**3**   |<ul><li>圖表上的 X 軸代表用來 **(Windows、****Mac**、**Linux**、**iOS、Android** **電話**、web) 等裝置Teams。 </li><li>Y 軸是所選時段內使用裝置的使用者數目。</li> </ul>將游標停留在代表裝置的長條上，以查看使用裝置連接到Teams。|
-|**4**   |下表提供使用者裝置使用量的明細。 <ul><li>**使用者** 名稱是使用者的顯示名稱。 您可以按一下顯示名稱，以前往系統管理中心中的使用者Microsoft Teams頁面。 </li><li>**Windows**，如果使用者在以電腦為基礎的電腦Teams桌面用戶端中Windows，系統即會選取此選項。</li><li>**如果使用者在 macOS** 電腦上使用 Teams桌面用戶端，會選取 Mac。 </li> <li>**如果使用者在 Linux** 電腦上使用 Teams桌面用戶端，會選取 Linux。 </li> <li>**如果使用者在 iOS** 行動用戶端上Teams iOS，即會選取 iOS。</li><li>**如果使用者在 Android** 行動用戶端上Teams已選取 Android 手機。 <li><li>**如果使用者** 在 Web 用戶端上Teams已選取 Web。 <li>**上次活動** 是使用者 (UTC) 最後一個Teams日期。</li> </ul> 請注意，如果使用者帳戶不再存在於 Azure AD，使用者名稱會顯示為 「--」于表格中。 <br><br>若要在表格中查看您想要的資訊，請務必新增欄至資料表。 |
-|**5**   |選取 **編輯欄** 以新增或移除表格中的欄。 |
-|**6**   |您可以將報表匯出為 CSV 檔案，進行離線分析。 按一下 **[匯出** Excel，然後在 [下載> 選項卡上，按一下 [下載以在報表準備就緒時下載報表。<br><br>![顯示匯出報表的下載清單螢幕擷取畫面。](../media/teams-reports-export-to-csv.png)|
+|**1**   |您可以檢視 Teams 裝置使用方式報告，瞭解過去 7 天或 30 天的趨勢。  |
+|**2**   |每份報告都有該報告產生時間的日期。 報告通常會反映啟用時間的 24 小時延遲。 |
+|**3**   |<ul><li>圖表上的 X 軸代表用來連線至 **Teams (Windows**、 **Mac**、 **Linux**、 **iOS**、 **Android Phone**、 **Web**) 的不同裝置。 </li><li>Y 軸是所選時段內使用裝置的使用者數目。</li> </ul>將游標停留在代表裝置的列上，以查看使用裝置連線至 Teams 的使用者數目。|
+|**4**   |表格提供使用者的裝置使用量明細。 <ul><li>**使用者名稱** 是使用者的顯示名稱。 您可以按一下顯示名稱，移至 Microsoft Teams 系統管理中心的使用者設定頁面。 </li><li>如果使用者在 Windows 電腦的 Teams 桌面用戶端中處於使用中狀態，**就會** 選取 Windows。</li><li>如果使用者在 macOS 電腦上使用 Teams 桌面用戶端，**則** 會選取 Mac。 </li> <li>如果使用者在 Linux 電腦上使用 Teams 桌面用戶端，則會選取 **Linux**。 </li> <li>如果使用者在 **iOS** 版 Teams 行動用戶端上處於使用中狀態，就會選取 iOS。</li><li>如果使用者在 Android 版 Teams 行動用戶端上處於使用中狀態，就會選取 Android **手機**。 <li><li>如果使用者在 Teams Web 用戶端上處於使用中狀態，就會選取 [**Web**]。 <li>**上次活動** 是使用者參與 Teams 活動 (UTC) 的最後一個日期。</li> </ul> 請注意，如果 Azure AD 中不再存在使用者帳戶，則使用者名稱會在資料表中顯示為 「--」。 <br><br>若要在資料表中查看您要的資訊，請務必將欄新增至資料表。 |
+|**5**   |選取 **[編輯欄]** 以新增或移除表格中的欄。 |
+|**6**   |您可以將報表匯出為 CSV 檔案以進行離線分析。 按一下 **[匯出至 Excel**]，然後在 [ **下載] 索引卷** 標上，按一下 [ **下載** ] 以在報表準備就緒時下載報表。<br><br>![顯示匯出報告的 [下載] 索引標籤螢幕擷取畫面。](../media/teams-reports-export-to-csv.png)|
 
 
-## <a name="make-the-user-specific-data-anonymous"></a>將使用者特定資料匿名
+## <a name="make-the-user-specific-data-anonymous"></a>將使用者的特定資料匿名化
 
-若要將裝置使用方式報告中Teams匿名，您必須是全域系統管理員。 這會隱藏可辨識的資訊，例如顯示名稱、電子郵件AAD識別碼及其匯出。
+若要將 Teams 裝置使用方式報告中的資料匿名化，您必須是全域系統管理員。 這會隱藏報表中的可識別資訊，例如顯示名稱、電子郵件和 AAD ID 及其匯出。
 
-1. 在 Microsoft 365 系統管理中心，請前往 \> 設定 **組織** 設定，然後選擇在服務 **選項卡****下，選擇** 報告。
+1. 在 Microsoft 365 系統管理中心 中，移至 [**設定** \> **組織設定]**，然後在 [**服務]** 索引標籤下選擇 [**報告]**。
     
-2. 選取 **報表**，然後選擇顯示 **匿名識別碼**。 此設定會同時適用于系統管理中心Microsoft 365 系統管理中心使用方式Teams報表。
+2. 選取 **[報告**]，然後選擇 **[顯示匿名識別碼]**。 此設定會同時套用至 Microsoft 365 系統管理中心 中的使用方式報告，以及 Teams 系統管理中心。
   
-3. 選取 **儲存變更**。
+3. 選 **取 [儲存變更]**。
 
 ## <a name="related-topics"></a>相關主題
 
