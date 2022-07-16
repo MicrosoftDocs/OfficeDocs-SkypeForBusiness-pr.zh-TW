@@ -14,33 +14,17 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 378467e9e540754023c4d69a53e50e6b1b403a1b
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 3d8a3f7378c8f24c0279988d4ef3a457b2e45e9e
+ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66241012"
+ms.lasthandoff: 07/15/2022
+ms.locfileid: "66819538"
 ---
 # <a name="get-started-with-teams-for-frontline-workers"></a>開始使用適用於前線工作者的 Teams
 
 前線員工的主要功能是直接與客戶或一般大眾合作，提供服務、支援和銷售產品，或直接參與產品和服務製造和發佈的員工。
 
-[適用於前線員工的 Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise/frontline) 已針對主要與客戶互動，但也需要與組織其他人員保持連繫行動力最佳化。 深入了解[前線員工的授權選項](flw-licensing-options.md)，以及您應該為組織中不同類型的使用者使用哪些授權類型。
+[適用於前線員工的 Microsoft 365](https://www.microsoft.com/microsoft-365/enterprise/frontline) 已針對主要與客戶互動，但也需要與組織其他人員保持連繫行動力最佳化。
 
-本節內容：
-
-- [快速入門 - 適用於前線工作者的 Teams](flw-quickstart.yml)
-- [使用前線工作者上線精靈，讓前線員工能夠順利上線](flw-onboarding-wizard.md)
-- [為前線員工大規模部署 Teams](deploy-teams-at-scale.md)
-- [適用於前線員工和主管的原則套件](manage-policy-packages.md)
-- [為您的前線員工量身打造 Teams 應用程式](pin-teams-apps-based-on-license.md)
-- [登入 Teams](sign-in-teams.md)
-- [登出 Teams](sign-out-of-teams.md)
-- 適用於前線員工之 Microsoft 的應用程式:
-  - [班次](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
-  - [工作](manage-tasks-app.md)
-  - [核准](approval-admin.md)
-  - [清單](manage-lists-app.md)
-  - [稱讚](manage-praise-app.md)
-  - [無線對講機](walkie-talkie.md)
-- [適用於 Microsoft Teams 的 RealWear](flw-realwear.md)
+請參閱我們 [適用前線員工的 Microsoft 365 文件](/microsoft-365/frontline)，以取得部署指南，並了解如何讓前線員工最有效地使用 Teams。
