@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 分析與報告
-author: serdarsoysal
-ms.author: serdars
+ms.author: mikeplum
+author: MikePlumleyMSFT
 manager: serdars
 audience: Admin
 ms.topic: conceptual
@@ -18,12 +18,12 @@ description: 在本文中，您將瞭解 Microsoft Teams 系統管理中心提�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: ad17bd2932786253f7dd3a925856d46780032204
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: 02acd95084b814e6f49634972eebeedfdeeb9472
+ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819308"
+ms.locfileid: "66825857"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析與報告
 
