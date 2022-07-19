@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: f802506ff815745aaf555501e37171ebddfc7f91
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 24115de31c06c38ff1f0217868cf19993aa24555
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66615859"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838858"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>關於 Microsoft Teams 中的應用程式
 
@@ -83,9 +83,15 @@ Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核�
 
 如果您不允許側載，開發人員仍然可以在[測試租用戶](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant)中測試其應用程式。 自訂應用程式開發完成後，開發人員會要求系統管理員將自訂應用程式發佈給使用者。 如需詳細資料，請參閱 [如何發佈自訂應用程式](/microsoftteams/upload-custom-apps)。 身為系統管理員，您可以允許或不允許特定使用者使用自訂應用程式。
 
-### <a name="about-app-templates"></a>關於應用程式範本
+## <a name="about-app-templates"></a>關於應用程式範本
 
-Teams 的應用程式範本是由 Microsoft 建立的功能化、生產就緒的範例應用程式，用來說明熱門使用案例、展示應用程式開發的最佳做法，以及提供開放原始碼應用程式，讓開發人員可以擴充以建立自訂應用程式。 您的組織開發人員需要對 GitHub 中可用的程式碼進行簡單的變更，以自訂貴組織的應用程式範本。 身為系統管理員，您可以提供這些應用程式做為使用者的自訂應用程式。
+Teams 的應用程式範本功能多樣且已準備就緒的範例應用程式，由 Microsoft 建立，以達成下列目標:
+
+* 說明常見使用案例
+* 展示應用程式開發的最佳做法
+* 提供開發人員可以延伸以建立自訂應用程式的開放原始碼應用程式
+
+您的組織開發人員對 GitHub 中可用的程式碼進行簡單的變更，以自訂應用程式範本。 您為使用者提供這些應用程式做為自訂應用程式，以符合任何組織的需求。
 
 若要深入了解，請參閱 [Microsoft Teams 應用程式範本](https://adoption.microsoft.com/microsoft-teams/app-templates/)。
 

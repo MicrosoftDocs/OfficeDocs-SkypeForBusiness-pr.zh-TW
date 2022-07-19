@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: 了解哪些工作階段邊界控制器 (SBC) 已通過直接路由認證。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bb4363fec70a7bcf139929541a7dfe3686089937
-ms.sourcegitcommit: 2b1290b763c73f64c84c7568b16962e4ae48acf6
+ms.openlocfilehash: 3a0db349d1e828a238a6b7a68d8f005e7389182b
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/01/2022
-ms.locfileid: "65823545"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838848"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>通過直接路由認證的工作階段邊界控制器
 
@@ -178,3 +178,6 @@ Microsoft 可與每個廠商合作，以：
 記下授予主要版本的認證。 這表示支援主要版本之後的 SBC 韌體中，具有任何編號的韌體。
 
 如需提供有關 Teams 的產品意見反應，例如新功能的想法，請參閱 [Microsoft 意見反應入口網站](https://feedbackportal.microsoft.com/)。
+
+> [!NOTE]
+> 不支援媒體重新設定目標。 在直接路由通話期間，如果 SBC 傳送新的媒體 IP 至 Teams 直接路由，雖然是在 SIP 訊號中交涉，但媒體永遠不會從 Teams 直接路由傳送至新的 IP 位址。
