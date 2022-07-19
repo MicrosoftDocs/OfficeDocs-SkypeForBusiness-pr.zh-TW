@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams 附加元件授權
-ms.author: serdars
-author: SerdarSoysal
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.reviewer: mikedav
 ms.topic: conceptual
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解 Microsoft Teams 的附加元件授權，以及您取得的每個授權功能。
-ms.openlocfilehash: f3d7b7aacf611592898b6d2aeef0fb3dde854fdf
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: a44851194543c58fed7f3449fcbe5b4bedbf6074
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682482"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838828"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 附加元件授權
 

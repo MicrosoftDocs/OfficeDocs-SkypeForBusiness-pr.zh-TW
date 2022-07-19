@@ -1,13 +1,13 @@
 ---
 title: PowerShell 腳本範例 - 為貴校的授課者和學生建立安全性群組
-author: serdars
-ms.author: serdars
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.reviewer: angch
 ms.service: msteams
 audience: admin
-description: 使用此 PowerShell 腳本建立您需要管理學校授課者和學生Teams原則的安全性群組。
+description: 使用此 PowerShell 腳本建立您需要管理學校授課者和學生 Teams 原則的安全性群組。
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -17,16 +17,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f46bd50e47640c575489788ccd3e5db0ce778564
-ms.sourcegitcommit: cc6a3b30696bf5d254a3662d8d2b328cbb1fa9d1
+ms.openlocfilehash: 99c4e10cc37513323eb3dcfb8159977b269a667d
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65681544"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838788"
 ---
 # <a name="powershell-script-sample---create-security-groups-for-educators-and-students-in-your-school"></a>PowerShell 腳本範例 - 為貴校的授課者和學生建立安全性群組
 
-使用此 PowerShell 腳本建立您在學校管理Microsoft Teams原則所需的安全性群組。 Teams中[群組的原則指派](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group)功能可讓您將原則指派給使用者群組，例如安全性群組。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。
+使用此 PowerShell 腳本建立您在學校管理 Microsoft Teams 原則所需的安全性群組。 Teams 中 [群組功能的原則指派](../assign-policies-users-and-groups.md#assign-a-policy-to-a-group) 可讓您將原則指派給使用者群組，例如安全性群組。 原則指派將根據優先順序規則傳播到群組成員。 在群組中新增或移除成員時，系統會相應地更新其繼承的原則指派。
 
 此 PowerShell 腳本會根據授權類型建立兩個安全性群組，一個供教職員和授課者使用，另一個供您學校的學生使用。 接著，您可以將原則指派給您所建立的安全性群組。 如需使用此腳本的詳細資訊，請參閱 [指派原則給學校中的大型使用者群組](../batch-group-policy-assignment-edu.md)。
 
@@ -34,7 +34,7 @@ ms.locfileid: "65681544"
 
 - 識別指派教職員 SKU 的教職員和授課者、建立安全性群組，然後將教職員和授課者新增至群組。
 - 識別獲指派學生 SKU 的學生、建立安全性群組，然後將學生新增至群組。
-- 更新每個安全性群組的成員資格，以根據是否有授權來新增或移除教職員、授課者和學生。
+- 更新每個安全性群組的成員資格，以根據他們是否擁有授權來新增或移除教職員、授課者和學生。
 
 您必須定期執行此腳本，才能讓安全性群組保持在最新狀態。
 
@@ -45,7 +45,7 @@ ms.locfileid: "65681544"
 
 下載並安裝[商務用 Skype Online PowerShell 模組](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell)，然後在出現提示時重新開機電腦。
 
-若要深入瞭解，請參閱[使用 Office 365 PowerShell 管理 商務用 Skype Online](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)和[Teams PowerShell 概觀](../teams-powershell-overview.md)。
+若要深入瞭解，請參閱使用[Office 365 PowerShell 和 Teams PowerShell 管理線上商務用 Skype](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)[概觀](../teams-powershell-overview.md)。
 
 
 ## <a name="sample-script"></a>範例腳本

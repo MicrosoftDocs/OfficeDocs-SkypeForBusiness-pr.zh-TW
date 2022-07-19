@@ -2,7 +2,7 @@
 title: Microsoft Teams 會議室客戶回報事件
 author: donnah007
 ms.author: v-donnahill
-ms.date: 06/27/2022
+ms.date: 07/08/2022
 manager: serdars
 ms.reviewer: dstrome
 ms.topic: article
@@ -17,12 +17,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 合作夥伴/客戶可以手動關閉事件，並確保在 MTRP 中正確報告會議室健康情況。
-ms.openlocfilehash: 3f765627e2d18d52a6b3db8abbdd2ad59cee7019
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: f28462c6fab02a2a6b8e7db00b1f89ff30b80da1
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66494650"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842301"
 ---
 # <a name="customer-reported-incident-tickets"></a>客戶回報的事件票證
 
@@ -31,6 +31,11 @@ ms.locfileid: "66494650"
 ![事件>報告事件的螢幕擷取畫面](../media/customer-reported-incidents-001.png)
 
 在 [描述] 欄位中，盡可能描述您需要 Microsoft 協助的問題。 您可以新增一或多個會議室。
+
+如果事件造成服務或重要空間的健康情況嚴重降級，請檢查 [  **高影響** ]。 若要協助 Microsoft 正確排列您要求的優先順序，請詳細描述這對您造成高影響的原因。
+
+> [!NOTE]
+> 請勿將此欄位用於一般問題、會議室和/或沒有可用的緩和功能的問題。
 
 ![受影響附隨報告會議室的螢幕擷取畫面](../media/customer-reported-incidents-002.png)
 

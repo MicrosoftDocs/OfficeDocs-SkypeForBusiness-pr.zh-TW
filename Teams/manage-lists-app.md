@@ -1,9 +1,9 @@
 ---
 title: 管理貴組織的 [清單] 應用程式
-author: mkbond007
-ms.author: mabond
+author: LanaChin
+ms.author: v-lanachin
 ms.reviewer: anach,v-jasuk
-manager: serdars
+manager: samanro
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 6c756fcdf8251bc2b468be1f89c98b1f069a1779
-ms.sourcegitcommit: 9532eb79310cd653010565607fa394f2b8dd182d
+ms.openlocfilehash: efb9f2ce1f96dbddef049166e34fd999a5ed987e
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/23/2022
-ms.locfileid: "65646492"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842229"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>在 Microsoft Teams 中管理貴組織的 [清單] 應用程式
 
@@ -60,7 +60,7 @@ Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者
 
 聚會之後，郵件運送人就會撿拾自己的郵件並啟動其遞送路線。 在遞送路線中可能會發生事件，例如車輛事故、狗相關的問題或社會動亂的抗議。 當郵件運送人遇到事件時，他們會利用其行動裝置上的 Teams 來記錄事件詳細資料，並透過小組頻道的清單追蹤。 小組中的每個人 (包括在外面的郵件運送人) 都能看到這項資訊並取得最新訊息。
 
-在移至Teams之前，郵件電信業者必須返回郵局以完成硬複製表單以報告事件，該表單隨後已在Excel試算表中輸入。 Teams 先提供郵件運送人一個行動裝置，讓他們體會可以在何處使用 [清單] 來報告實地發生的事件、與小組成員分享事件詳細資料、在頻道中進行討論以及取得問題的解決方法。
+在移至 Teams 之前，郵件電信業者必須返回郵局以完成硬複製表單，以報告事件，該事件隨後已輸入 Excel 試算表。 Teams 先提供郵件運送人一個行動裝置，讓他們體會可以在何處使用 [清單] 來報告實地發生的事件、與小組成員分享事件詳細資料、在頻道中進行討論以及取得問題的解決方法。
 
 ## <a name="what-you-need-to-know-about-lists"></a>必須知道的有關 [清單] 的事情
 
@@ -95,7 +95,7 @@ Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者
 
 您的組織中的所有 Teams 使用者預設會啟用 [清單]。 您可以在 Microsoft Teams 系統管理中心的[管理應用程式](manage-apps.md)頁面上關閉或開啟組織層級的應用程式。
 
-1. 在Microsoft Teams系統管理中心的左窗格中，移至 **Teams應用程式**  >  **管理應用程式。**
+1. 在 Microsoft Teams 系統管理中心的左窗格中，移至 **Teams 應用程式**  >  **管理應用程式**。
 2. 執行下列其中一項：
 
     - 若要關閉貴組織的清單，請搜尋清單應用程式，選取它，然後選取 **[封鎖]**。
@@ -119,7 +119,7 @@ Microsoft Teams 中的 [清單] 應用程式可協助您的組織中的使用者
 
 ## <a name="give-feedback-or-report-an-issue"></a>提供意見反應或回報問題
   
-若要傳送意見反應給我們或回報問題 **，請選** 取Teams左窗格底部附近的 [說明]，然後選取 [**回報問題]**。 選取 **清單**，然後輸入您的意見反應或您所遇到問題的詳細資料。
+若要傳送意見反應給我們或回報問題 **，請選** 取 Teams 左窗格底部附近的 [說明]，然後選取 [ **回報問題]**。 選取 **清單**，然後輸入您的意見反應或您所遇到問題的詳細資料。
 
 ## <a name="related-articles"></a>相關文章
 

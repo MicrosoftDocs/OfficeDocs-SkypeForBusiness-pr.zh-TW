@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b508b368629ce716a1269380eb1fffe2137620c8
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: 0a2af1aae614763432ce0c856c9bad12fc7bceef
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647645"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838808"
 ---
 # <a name="export-content-with-the-microsoft-teams-export-apis"></a>使用 Microsoft Teams 匯出 API 匯出內容
 
@@ -43,7 +43,7 @@ Teams 匯出 API 可讓您從 Microsoft Teams 匯出 1：1、群組聊天、會�
 - **混合式環境：** 匯出由在混合式環境 (內部部署 Exchange 和 Teams) 布建的使用者所傳送的支援訊息。 任何由設定混合式環境的使用者所傳送的郵件，都可使用匯出 API 存取。
 - **使用者刪除的郵件：** 使用者從 Teams 用戶端刪除的訊息，最多可在刪除後 21 天內使用匯出 API 存取。
 - **郵件附件：** 匯出 API 包含郵件中傳送之附件的連結。 您可以使用 [匯出 API] 擷取郵件中附加的檔案。
-- **反應：** 在 Teams 訊息上匯出使用者所編輯的 API 支援反應。 目前支援的圖釋有心、生氣、贊、傷心、驚訝和大笑。
+- **反應：** 匯出由使用者在 Teams 訊息上啟動的 API 支援反應。 目前支援的圖釋有心、生氣、贊、傷心、驚訝和大笑。
 - **聊天訊息內容：** 請參閱 Teams 匯出 API [在這裡](/graph/api/resources/chatmessage#properties)支援的完整屬性清單。
 
 

@@ -19,26 +19,26 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 9c18d1ce0e7b9d75245dc62a5990c7dfbbad7246
-ms.sourcegitcommit: c4ec82b7d8a820362b6b0276470b0dea95a628df
+ms.openlocfilehash: b97f6c490f562cbd860e6c69a09e3659340dea99
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66819458"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838798"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>在 Microsoft Teams 中管理應用程式設定原則
 
 身為系統管理員，您可以使用應用程式設定原則來安裝和釘選應用程式，並允許使用者上傳自訂應用程式。 釘選有助於促進組織中相關應用程式的採用。
 
 * **釘選應用程式：** 應用程式設定原則可讓您選擇要釘選的應用程式，並設定應用程式在 Teams 應用程式行或撰寫訊息區域中顯示給使用者的順序。 系統管理員也可以控制使用者是否可以釘選自己的應用程式。 請參閱 [釘選應用程式](#pin-apps)。
-* **安裝應用程式：** 應用程式設定原則可讓您在使用者啟動 Teams 和會議期間代表使用者安裝應用程式。 如需詳細資訊，請參閱 [安裝應用程式](#install-apps)。
+* **安裝應用程式：** 應用程式設定原則可讓您在使用者啟動 Teams 和會議期間，代表使用者安裝允許的應用程式。 如需詳細資訊，請參閱 [安裝應用程式](#install-apps)。
 * **上傳自訂應用程式：** 應用程式設定原則可讓您允許使用者將自訂應用程式上傳到 Teams。 如需詳細資訊，請參閱 [上傳自訂應用程式](#upload-custom-apps)。
 
 ## <a name="pin-apps"></a>釘選應用程式
 
-釘選應用程式可讓您醒目提示組織中使用者最需要的應用程式。 釘選適用于 Microsoft、ISV 公司及組織內開發人員所提供的應用程式。 透過應用程式設定原則釘選應用程式也會安裝它。 使用應用程式設定原則，您可以執行下列工作：
+釘選應用程式可讓您醒目提示組織中使用者最需要的應用程式。 釘選適用于 Microsoft、ISV 公司及組織內開發人員所提供的應用程式。 如果使用者可以使用應用程式，則透過應用程式設定原則釘選應用程式也會安裝它。 使用應用程式設定原則，您可以執行下列工作：
 
-* 自訂 Teams 以強調對使用者而言最重要的應用程式。 您選擇要釘選的應用程式，並設定它們的顯示順序。
+* 為使用者自訂 Microsoft Teams，為使用者醒目提示最重要的應用程式。 您可以選擇要釘選的應用程式，以及應用程式顯示的順序。
 * 控制使用者是否可以釘選應用程式。
 
 應用程式會釘選到 Teams 桌面用戶端左側及 Teams 行動用戶端底部的應用程式行。
@@ -88,7 +88,6 @@ ms.locfileid: "66819458"
 
 * 根據預設，為使用者在其個人 Teams 環境中安裝應用程式。
 * 為使用者安裝應用程式做為 [訊息延伸模組](/microsoftteams/platform/messaging-extensions/what-are-messaging-extensions)。
-* 在會議召集人的會議中安裝應用程式。
 
 如果應用程式許可權原則允許，使用者可以自行安裝 [應用程式](teams-app-permission-policies.md) 。
 
@@ -201,7 +200,7 @@ iOS 和 Android)  (，至少必須將兩個應用程式釘選到 Teams 行動用
 
 iOS 和 Android (Teams 行動用戶端) 支援具有靜態索引標籤的個人應用程式。 釘選到 Teams 桌面用戶端的應用程式會顯示在 Teams 行動用戶端中。 個人機器人會出現在行動用戶端的聊天中。
 
-協力廠商應用程式 (可以從 Teams 市集下載) 必須在行動裝置上顯示之前獲得核准。 如果系統管理員釘選 Microsoft 行動裝置版未核准的應用程式，該應用程式會顯示在 Teams 電腦版上，但不會顯示在行動裝置上。 如需詳細資訊，請參閱 [行動客戶](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients) 端。
+協力廠商應用程式 (可以從 Teams 市集下載) 必須在行動裝置上顯示之前獲得核准。 如果系統管理員釘選 Microsoft 行動裝置版未核准的應用程式，該應用程式會顯示在 Teams 電腦版上，但不會顯示在行動裝置上。 如需詳細資訊，請參閱 [行動用戶端](/microsoftteams/platform/tabs/what-are-tabs#mobile-clients)。
 
 透過 Teams 行動用戶端，使用者會看到核心 Teams 應用程式，例如活動、聊天和 Teams，而且您可以釘選 Microsoft 的一些第一方應用程式，例如 Shifts。
 

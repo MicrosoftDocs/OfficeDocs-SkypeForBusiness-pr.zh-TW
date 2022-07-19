@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bf8e6ab6f2a5ba7303887e9e7d7d72d22c50964
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: bbb03bcf092d1379065ced1d95e3aa61980febcc
+ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794681"
+ms.lasthandoff: 07/18/2022
+ms.locfileid: "66838998"
 ---
 # <a name="plan-for-sip-gateway"></a>規劃 SIP 閘道
 
@@ -52,6 +52,9 @@ SIP 閘道會將相容的 SIP 裝置連線到 Teams，協助使用者順暢地�
 ## <a name="requirements-to-use-sip-gateway"></a>使用 SIP 閘道的需求
 
 Teams 使用者必須有已啟用 PSTN 通話的電話號碼，才能使用 SIP 閘道。
+
+> [!NOTE]
+> SIP 閘道不適用於 GCC、GCC High 和 DoD)  (政府環境。
 
 ### <a name="hardware-software-and-licenses"></a>硬體、軟體和授權
 

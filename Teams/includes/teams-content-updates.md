@@ -3,6 +3,51 @@
 
 
 
+## <a name="week-of-july-11-2022"></a>2022 年 7 月 11 日周
+
+
+| 發佈于 |主題標題 | 改變 |
+|------|------------|--------|
+| 7/13/2022 | [等候音樂](/MicrosoftTeams/music-on-hold) | 改 性 |
+| 7/14/2022 | [規劃 SIP 閘道](/MicrosoftTeams/sip-gateway-plan) | 改 性 |
+| 7/15/2022 | [Microsoft Teams 會議室 (Windows) 的版本資訊](/MicrosoftTeams/rooms/rooms-release-note) | 改 性 |
+| 7/15/2022 | [適用於前線員工的 Teams 原則套件](/MicrosoftTeams/policy-packages-flw) | 添加 |
+| 7/15/2022 | [在 Microsoft Teams 中管理核准應用程式](/MicrosoftTeams/approval-admin) | 改 性 |
+| 7/15/2022 | [在 Microsoft Teams 中管理 Bookings 應用程式](/MicrosoftTeams/bookings-app-admin) | 改 性 |
+| 7/15/2022 | 在 Microsoft Teams 中針對第一線工作人員大規模部署團隊 | 刪除 |
+| 7/15/2022 | 使用 Microsoft Teams 和 Bookings 應用程式進行虛擬約會 | 刪除 |
+| 7/15/2022 | 在瀏覽器上管理 Teams 虛擬約會的加入體驗 | 刪除 |
+| 7/15/2022 | [展開整個組織的 Microsoft Teams](/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page) | 改 性 |
+| 7/15/2022 | 使用 Teams 的虛擬約會 - 整合至 Cerner EHR | 刪除 |
+| 7/15/2022 | Microsoft Teams EHR 連接器虛擬約會報告 | 刪除 |
+| 7/15/2022 | 使用 Teams 進行虛擬約會 - 整合至 EHR | 刪除 |
+| 7/15/2022 | 訊息委派 | 刪除 |
+| 7/15/2022 | 使用 Microsoft Teams 的適用於醫療保健組織的安全郵件傳遞 | 刪除 |
+| 7/15/2022 | 開始使用適用於醫療保健組織的 Teams | 刪除 |
+| 7/15/2022 | 簡化零售環境中的商務程式 | 刪除 |
+| 7/15/2022 | 零售團隊共同作業 | 刪除 |
+| 7/15/2022 | Teams 中的 Shifts | 刪除 |
+| 7/15/2022 | 在 Teams 中管理第一線員工的輪班式存取權 | 刪除 |
+| 7/15/2022 | [管理組織的 [班次] 應用程式](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | 改 性 |
+| 7/15/2022 | 管理班次管理排程擁有者 | 刪除 |
+| 7/15/2022 | 使用 PowerShell 將 Shifts 連線到 Blue Yonder Workforce Management | 刪除 |
+| 7/15/2022 | 使用 PowerShell 管理您與 Blue Yonder Workforce Management的 Shifts 連線 | 刪除 |
+| 7/15/2022 | 使用 Shifts 連接器精靈將 Shifts 連接到 Blue Yonder Workforce Management | 刪除 |
+| 7/15/2022 | Shifts 連接器 | 刪除 |
+| 7/15/2022 | 適用於零售業的 Teams | 刪除 |
+| 7/15/2022 | 協助客戶和客戶使用虛擬約會 | 刪除 |
+| 7/15/2022 | [開始使用適用於前線工作者的 Teams](/MicrosoftTeams/flw-landing-page) | 改 性 |
+| 7/15/2022 | 了解前線員工使用者類型和授權 | 刪除 |
+| 7/15/2022 | 使用前線工作者上線精靈，讓前線員工能夠順利上線 | 刪除 |
+| 7/15/2022 | 第一線工作人員快速入門手冊 | 刪除 |
+| 7/15/2022 | 在 Teams 中管理第一線試用版 | 刪除 |
+| 7/15/2022 | 為您的前線員工量身打造 Teams 應用程式 | 刪除 |
+| 7/15/2022 | [適用於醫療保健的 Teams 原則套件](/MicrosoftTeams/policy-packages-healthcare) | 改 性 |
+| 7/15/2022 | Microsoft Teams 虛擬造訪使用方式報告 | 刪除 |
+| 7/15/2022 | [PowerShell 腳本範例 - 匯出管理員及其直接報告](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-export-managers) | 改 性 |
+| 7/15/2022 | [PowerShell 腳本範例 - 建立新的人員管理團隊](/MicrosoftTeams/scripts/powershell-script-create-teams-from-managers-new-teams) | 改 性 |
+
+
 ## <a name="week-of-july-04-2022"></a>2022 年 7 月 4 日周
 
 
@@ -90,22 +135,3 @@
 | 6/16/2022 | [規劃 Teams 自動語音應答和通話佇列](/MicrosoftTeams/plan-auto-attendant-call-queue) | 改 性 |
 | 6/16/2022 | [在 Microsoft Teams 系統管理中心上傳您的自訂應用程式](/MicrosoftTeams/upload-custom-apps) | 改 性 |
 | 6/16/2022 | [管理參與者和來賓的會議原則](/MicrosoftTeams/meeting-policies-participants-and-guests) | 改 性 |
-
-
-## <a name="week-of-june-06-2022"></a>2022 年 6 月 6 日周
-
-
-| 發佈于 |主題標題 | 改變 |
-|------|------------|--------|
-| 6/6/2022 | [管理 Microsoft 365 中 Teams 應用程式的存取權](/MicrosoftTeams/manage-third-party-teams-apps) | 改 性 |
-| 6/7/2022 | [管理貴組織的更新應用程式](/MicrosoftTeams/manage-updates-app) | 改 性 |
-| 6/7/2022 | [在 Microsoft Teams 中針對第一線工作人員大規模部署團隊](/MicrosoftTeams/deploy-teams-at-scale) | 添加 |
-| 6/8/2022 | [啟用Teams 會議室裝置加入協力廠商會議](/MicrosoftTeams/rooms/third-party-join) | 改 性 |
-| 6/9/2022 | [根據使用者類型的 Teams 應用程式行為](/MicrosoftTeams/non-standard-users) | 改 性 |
-| 6/9/2022 | [設定通用區域電話授權](/MicrosoftTeams/set-up-common-area-phones) | 改 性 |
-| 6/9/2022 | [在 Microsoft Teams 中建立通話佇列](/MicrosoftTeams/create-a-phone-system-call-queue) | 改 性 |
-| 6/9/2022 | [設定貴組織的 [通訊點數]](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | 改 性 |
-| 6/10/2022 | [行動裝置 App 擴充功能](/MicrosoftTeams/rooms/extended-mobile-app) | 添加 |
-| 6/10/2022 | [在 Microsoft Teams 中針對第一線工作人員大規模部署團隊](/MicrosoftTeams/deploy-teams-at-scale) | 改 性 |
-| 6/10/2022 | [從商務語音轉換至 Teams Phone 授權](/MicrosoftTeams/business-voice-to-teams-phone-licenses) | 添加 |
-| 6/10/2022 | [啟用Teams 會議室裝置加入協力廠商會議](/MicrosoftTeams/rooms/third-party-join) | 改 性 |

@@ -18,19 +18,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 適用于 Teams 會議室 的行動應用程式擴充功能
 f1keywords: Microsoft Teams Rooms Managed Service mobile app extension
-ms.openlocfilehash: cfeb5573ce164ea136ba3617fe73661f8ac4ca97
-ms.sourcegitcommit: 91cfb1a9c527d605300580c3acad63834ee54682
+ms.openlocfilehash: 939ac7d5bd61f51a229400b2c1aee1bd38047369
+ms.sourcegitcommit: ea9cbb8e32b7f23c17930eadc0a1dcbd906449ae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/13/2022
-ms.locfileid: "66046084"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66842319"
 ---
 # <a name="teams-rooms-mobile-client-application-features"></a>Teams 會議室行動用戶端應用程式功能
 
 有時候您可能需要從行動裝置管理Teams 會議室受管理的服務 (MTMS) 。 行動裝置應用程式有許多功能可供您從行動裝置或平板電腦裝置管理。
 ## <a name="before-you-begin"></a>開始之前
 
-您必須是Microsoft 365組織的系統管理員，才能使用Teams 會議室行動裝置 App。
+您必須是 Microsoft 365 組織中的系統管理員，才能使用Teams 會議室行動裝置 App。
 從[Apple](https://apps.apple.com/app/apple-store/id761397963?pt=80423&ct=docsaboutadminapp&mt=8) App Store 或Google Play 商店下載Teams 會議室行動裝置[App。](https://play.google.com/store/search?q=Microsoft%20Teams%20Rooms&c=apps)
 
 **若要取得 MTMS 行動應用程式**
@@ -52,7 +52,7 @@ ms.locfileid: "66046084"
 
 [事件] 頁面會顯示開啟的事件種類。
 
-![MTMS 行動應用程式事件頁面畫面](../media/mtms-extended-app-001.png)<!--Microsoft 已核准每個作者的影像.>
+![MTMS 行動應用程式事件頁面畫面](../media/mtms-extended-app-001.png)
 
 ## <a name="managing-tickets"></a>管理票證
 以下是您在行動裝置 App 上管理票證的一些功能。
@@ -99,7 +99,7 @@ ms.locfileid: "66046084"
 
 **我該怎麼做才能使用應用程式？**
 
-若要使用應用程式，您必須具備系統管理員許可權和有效的Microsoft 365訂閱。
+若要使用應用程式，您必須具備系統管理員許可權和有效的 Microsoft 365 訂閱。
 
 
 **應用程式支援哪些語言？**
@@ -116,7 +116,7 @@ ms.locfileid: "66046084"
 您可以嘗試一些常見的行動裝置 App 疑難排解步驟：
 - 關閉並重新開啟應用程式。
 - 卸載並重新安裝應用程式。確定您使用的是最新版本的應用程式。
-- 如果您的裝置上已安裝Microsoft Authenticator或公司入口網站應用程式，請嘗試重新安裝或更新為最新版本。 如果還是沒有用，您可以在 feedback365@microsoft.com 傳送電子郵件給我們，讓我們知道。
+- 如果您的裝置上已安裝 Microsoft Authenticator 或公司入口網站應用程式，請嘗試重新安裝或更新為最新版本。 如果還是沒有用，您可以在 feedback365@microsoft.com 傳送電子郵件給我們，讓我們知道。
 
 **如果問題未獲得解答該怎麼辦？**
 
