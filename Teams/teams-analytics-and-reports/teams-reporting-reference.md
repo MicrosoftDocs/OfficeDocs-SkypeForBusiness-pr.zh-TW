@@ -18,12 +18,12 @@ description: 在本文中，您將瞭解 Microsoft Teams 系統管理中心提�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 02acd95084b814e6f49634972eebeedfdeeb9472
-ms.sourcegitcommit: 4c4f2f220832cae3efb3f6f3c74795300d661295
+ms.openlocfilehash: bd6be2023745390a0f1225224e6ebbe9bcbde1dc
+ms.sourcegitcommit: e6f3e1e499ed1298b3e6f7a1b53f6cb8ba73c9b1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66825857"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66906958"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams 分析與報告
 
@@ -36,7 +36,7 @@ Microsoft Teams 系統管理中心提供新的 Microsoft Teams 分析和報告�
 移至 Microsoft Teams 系統管理中心，在左側導覽中，選 **取 [分析&報** 表]，然後在 [ **檢視報** 表] 底下，選擇您要執行的報告。
 
 > [!NOTE]
-> Microsoft Teams 系統管理中心的報表與屬於Microsoft 365 系統管理中心中 Microsoft 365 報告一部分的 Teams 活動報告是分開的。 如需有關Microsoft 365 系統管理中心中活動報告的詳細資訊，請參閱[Microsoft 365 系統管理中心中的 Teams 活動報告](../teams-activity-reports.md)
+> Microsoft Teams 系統管理中心的報表與屬於Microsoft 365 系統管理中心中 Microsoft 365 報告一部分的 Teams 活動報告是分開的。 如需Microsoft 365 系統管理中心中活動報告的詳細資訊，請參閱[系統管理中心的 Microsoft 365 報告](/microsoft-365/admin/activity-reports/activity-reports)。
 
 ## <a name="teams-reporting-reference"></a>Teams 報告參考
 
