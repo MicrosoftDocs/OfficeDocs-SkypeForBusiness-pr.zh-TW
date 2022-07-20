@@ -15,22 +15,18 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 description: 瞭解 IT 系統管理員如何在 Teams Q&A 中設定、使用及管理 Q&A，以結構化的方式收集問題、組織討論、刪除個別訊息、使用可用的語言，以及瞭解資料生命週期以及資料保留和刪除原則。
-ms.openlocfilehash: 387f66967a4448ff15374d6765e10ae25a72d7c0
-ms.sourcegitcommit: 8d7a926758971bee491d24f23b1ad14f5e5c6f7f
+ms.openlocfilehash: 3ffdc4f48c43bef2d1d342983a63612c91bc40a9
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2022
-ms.locfileid: "66713441"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880427"
 ---
 # <a name="manage-qa-in-teams-meetings"></a>在 Teams 會議中管理 Q&A
 
 Q&A 可讓簡報者回答出席者的問題，並即時回答。 這項功能最適合大型結構化會議，例如「大會堂」、「網路研討會」、「萬事如意」和「訓練」。
 
 本文說明如何管理 Q&A 和使用者層級原則，這表示召集人是否可以在會議中啟用 Teams Q&A。
-
-> [!NOTE]
-> 這項功能目前處於私人預覽中，無法公開存取。 如果您想要參與私人預覽計畫，請 [在這裡註冊。](https://m365crmedu.powerappsportals.com/LMSSignup/)
-
 
 ## <a name="prerequisites"></a>必要條件
 
@@ -47,12 +43,12 @@ Q&A 可由下列使用者類型使用：
 - 同盟使用者：具有 Microsoft 365 認證至不同租使用者的使用者。
 - 來賓使用者：任何您新增至 Microsoft Teams、SharePoint 或 Azure Active Directory 的來賓。
 
-當系統管理員啟用 Q&A 時，擁有召集人角色的使用者可以在建立或更新會議時開啟 Q&A。 透過 Teams 和 Outlook 會議選項，召集人也可以將 Q&A 從先前新增來阻止出席者使用此功能的會議中移除。
+> [!NOTE]
+> Q&A 將無法供僅供超過會議容量的 [檢視出席者] 使用。
+
+當系統管理員啟用 Q&A 時，擁有 [召集人角色](https://aka.ms/GetQnA) 的使用者可以在建立或更新會議時開啟 Q&A。 透過 Teams 和 Outlook 會議選項，召集人也可以將 Q&A 從先前新增來阻止出席者使用此功能的會議中移除。
 
 ## <a name="use-the-teams-admin-center-to-manage-qa"></a>使用 Teams 系統管理中心管理 Q&A
-
-> [!NOTE]
-> 在系統管理中心管理 Q&A 無法在公開預覽中使用。 使用 PowerShell 為您的使用者設定和管理 Q&A。
 
 您的組織可能會要求限制哪些召集人可以開啟 Q&A。 您可以使用 Teams 系統管理中心來管理哪些召集人可以在大型會議中開啟 Q&A。
 請依照下列步驟控制哪些召集人可以使用 Q&A：
@@ -155,4 +151,23 @@ Teams 中 Q&A 所產生資料的生命週期取決於您在合規性中心的 Ya
 
 **問：透過 Teams App Store 設定 Q&A 與使用會議選項有何不同？**
 
-**答：** 雖然出席者和仲裁者使用者體驗沒有差異，但往後 Q&A 必須只使用會議選項來設定。 Teams App Store 中的 Q&A 應用程式將于 2022 年底遭取代，因此建議您使用 [會議選項] 在會議中設定 Q&A。
+**答：** 我們已經簡化透過會議選項啟用 Q&A。自 2022 年 8 月起，Teams App Store 中的 Q&A 應用程式將不再受到支援，因此 Q&A 只能透過 [會議選項] 啟用。 如果您是透過 Teams App Store 啟用 Q&A 的會議召集人，請移除 Q&A 應用程式，而只透過 [會議選項] 啟用。
+
+**問：為什麼我在會議中看到兩個 Q&A 圖示？**
+
+**答：** 您會在會議中看到兩個 Q&A 圖示，因為 Q&A 也是透過 [會議選項] 啟用的。 請使用下列指示移除透過 Teams App Store新增的 Q&A 應用程式。 請針對您先前透過 Teams App Store 新增 Q&A 的所有會議執行此動作。
+
+**如何移除從 Teams App Store 新增的 Q&A 應用程式。**
+
+1. 在 Teams 電腦版上，加入您先前新增 Q&A 的會議。
+
+2. 在頂端面板中，選取 Teams 會議視窗中第二個出現的 Q&A 圖示， 這是透過 Teams App Store新增的 Q&A 體驗。
+
+3. 選取的 Q&A 索引標籤開啟時，按一下省略號，然後按一下 [移除]。 這會移除透過 Teams App Store 新增的 Q&A 體驗。
+
+4. 按一下 [移除] 以永久移除透過 Teams App Store 新增的 Q&A 體驗。
+
+> [!NOTE]
+> 只有透過 Teams App Store 新增的 Q&A 應用程式才會有可移除 Q&A 應用程式的省略號。 透過 [會議選項] 啟用的 Q&A 體驗不會有省略號，也無法從這裡移除。
+
+就是這樣！ 現在只有一個 Q&A 體驗 ， 由會議選項提供。 透過 Teams App Store 新增的 Q&A 應用程式會移除。

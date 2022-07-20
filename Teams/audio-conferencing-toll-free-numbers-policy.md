@@ -21,29 +21,29 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - ms.teamsadmincenter.audioconferencing.overview
-description: 瞭解Microsoft 365或Office 365中的音訊會議如何允許使用者從其電話撥入會議。
-ms.openlocfilehash: 11e1e493db38b5e830b3334f659d23f86b6b56ba
-ms.sourcegitcommit: 296fbefe0481c0b8b94aee925118474375cdf138
+description: 瞭解 Microsoft 365 或 Office 365 中的音訊會議如何允許使用者從其電話撥入會議。
+ms.openlocfilehash: 1a03faf129a40d61605474e95c759067ce20841e
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "65016995"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884902"
 ---
 # <a name="audio-conferencing-policy-settings-for-toll-and-toll-free-numbers"></a>付費和免付費電話號碼的音訊會議原則設定
 
-## <a name="teams-audio-conferencing-policy"></a>Teams音訊會議原則
+## <a name="teams-audio-conferencing-policy"></a>Teams 音訊會議原則
 
-使用音訊會議原則來管理由組織內使用者建立的會議邀請所顯示的音訊會議付費和免付費電話號碼。 您可以使用兩個自動建立的原則之一，或建立及指派自訂原則。 自動建立的兩個原則是全全組織 (預設) ，以及 AllowTollFreeDialinFalse (指派給組織中所有未啟用免付費撥入號碼) 的現有使用者。 您可以在Microsoft Teams系統管理中心或使用[PowerShell](teams-powershell-overview.md)來管理音訊會議原則。
+使用音訊會議原則來管理由組織內使用者建立的會議邀請所顯示的音訊會議付費和免付費電話號碼。 您可以使用兩個自動建立的原則之一，或建立及指派自訂原則。 自動建立的兩個原則是全全組織 (預設) ，以及 AllowTollFreeDialinFalse (指派給組織中所有未啟用免付費撥入號碼) 的現有使用者。 您可以在 Microsoft Teams 系統管理中心或使用 [PowerShell](teams-powershell-overview.md)管理音訊會議原則。
 
-- AllowTollFreeDialin 的設定無法再透過Teams系統管理中心或 PowerShell 管理個別使用者。 租使用者系統管理員只能透過新的音訊會議原則來管理此設定。
-- 您無法從Teams系統管理中心修改全域原則。
+- AllowTollFreeDialin 的設定無法再透過 Teams 系統管理中心或 PowerShell 管理個別使用者。 租使用者系統管理員只能透過新的音訊會議原則來管理此設定。
+- 無法從 Teams 系統管理中心修改全域原則。
 
-當租使用者啟用Teams音訊會議原則時，租使用者中會自動建立兩個原則。 這兩個原則會自動建立，其預設設定如下：
+在租使用者中啟用 Teams 音訊會議原則時，租使用者中會自動建立兩個可用的原則。 這兩個原則會自動建立，其預設設定如下：
 
 ### <a name="global-org-wide-default"></a>全域 (組織的預設) 
 
 在此原則中， **AllowTollfreedialin** 的值將會設定為 [開啟]，且原則中不會定義任何電話號碼。 對於啟動時將 **AllowTollfreedialin** 設為 [開啟] 之租使用者中的所有使用者，這將會是預設 **原則。**
-由於原則並未定義任何電話號碼，因此當此原則的使用者建立Teams會議時，其會議中可用的電話號碼會與該原則之前使用者擁有的電話號碼相同。 除非租使用者系統管理員變更個別使用者的電話號碼，否則這些電話號碼通常預設為使用者的國家/地區/位置。
+由於原則並未定義任何電話號碼，因此當此原則的使用者建立 Teams 會議時，其會議中可用的電話號碼會與該原則之前使用者擁有的電話號碼相同。 除非租使用者系統管理員變更個別使用者的電話號碼，否則這些電話號碼通常預設為使用者的國家/地區/位置。
 
 例如，如果德國以外的使用者在啟動音訊會議原則之前指派了德國的付費電話號碼和免付費電話號碼，那麼在啟動時，使用者會獲得全域原則的指派，而他們會在會議邀請中繼續看到的電話號碼，與套用原則之前一樣 (也就是說， 德國的付費電話號碼和免付費電話號碼) 。 啟動原則時，使用者不會看到任何變更。 不過，如果租使用者系統管理員修改了全域原則，並在原則中包含與之前不同的特定電話號碼，則原則的所有使用者將只會看到原則中包含在他們所排程的任何會議中的電話號碼。
 
@@ -64,7 +64,7 @@ ms.locfileid: "65016995"
 
 步驟概觀：
 
-1. 在Microsoft Teams系統管理中心的左側導覽畫面中，移至會議>音訊會議。
+1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至會議>音訊會議。
 1. 選取 [新增]。
 1. 輸入原則的名稱和描述。 名稱不能包含特殊字元，且長度不可超過 64 個字元。
 1. 選擇您想要的設定。
@@ -76,7 +76,7 @@ ms.locfileid: "65016995"
 
 ### <a name="step-by-step-instructions-on-creating-a-custom-policy-based-on-the-example"></a>根據範例建立自訂原則的逐步指示
 
-1. 在Microsoft Teams系統管理中心的左側導覽畫面中，移至 **[MeetingsAudio**  >  **會議]**。
+1. 在 Microsoft Teams 系統管理中心的左側導覽中，移至 **[會議**  >  **音訊會議]**。
 2. 選取 [新增 **]**。
 3. 輸入原則的名稱和描述。 名稱不能包含特殊字元，且長度不可超過 64 個字元。
 4. 選擇是否要在由此原則使用者建立的會議中包含免付費電話號碼。 將此設定設為 **[開啟** ] 可讓您在此原則中新增免付費電話號碼。
@@ -96,7 +96,7 @@ ms.locfileid: "65016995"
 
 您可以編輯您建立的任何自訂原則。  (請注意，無法從 Teams 系統管理中心編輯全域原則) 
 
-1. 在Microsoft Teams系統管理中心的左側導覽畫面中，移至 **[MeetingsAudio**  >  **會議]**。
+1. 在 Microsoft Teams 系統管理中心的左側導覽中，移至 **[會議**  >  **音訊會議]**。
 1. 選取原則名稱左側，然後選取 [ **編輯**]，選擇您要編輯的原則。
 1. 進行編輯。
 1. 選取 [儲存 **]**。
@@ -116,6 +116,9 @@ ms.locfileid: "65016995"
 > [!NOTE]
 > 使用者一次只能指派一個音訊會議原則。
 
+> [!IMPORTANT]
+> 指派的電話號碼最多可能需要 24 小時，才會顯示在您的會議邀請上。 如果您沒有看到更新號碼出現，請等候至少 24 小時，然後再連絡支援服務。
+
 ### <a name="known-issue"></a>已知問題
 
-當您使用 [**立即開會**] 選項從 [行事曆] Microsoft Teams > > [開會 Mow] 開始會議時，如果您選取省略號...功能表選項，然後 [會議資訊] 下方區段的下半部會發生問題，**或僅 () 的音訊通話**。 系統會顯示原則中定義的所有電話號碼，但號碼的對齊方式會讓您難以閱讀。
+當您使用 Microsoft Teams 的 [ **立即開會** ] 選項開始會議時，>行事曆>認識 Mow，如果您接著選取省略號...功能表選項，然後 [會議資訊] 下方區段的下半部會發生問題， **或僅 () 的音訊通話**。 系統會顯示原則中定義的所有電話號碼，但號碼的對齊方式會讓您難以閱讀。

@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器，) 經過 Microsoft Teams 認證。
-ms.openlocfilehash: c56b6c50ff9873aa2eace6a790f484065697f855
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: 956034bff42cdf3694c648306caf218057bca1da
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789158"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880387"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
 
@@ -74,13 +74,14 @@ ms.locfileid: "66789158"
 
 ## <a name="certified-devices"></a>已認證的裝置
 
-*2022 年 6 月更新表格*
+*2022 年 7 月更新表格*
 
 > [!NOTE]
 > 日期格式為 MMDDYYYY。
 
 | 製造商        | 模型                                                     | 合格      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Logi                 |Dock Speakerphone                                          |7/13/2022       |已通過 Microsoft Teams 認證                           |
 |戴爾                 |WB5023 相機                                              |6/29/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |ADAPT 560 II 頭戴式裝置                                       |6/22/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |C10/C20/C50 系列耳機                                |5/31/2022       |已通過 Microsoft Teams 認證                           |

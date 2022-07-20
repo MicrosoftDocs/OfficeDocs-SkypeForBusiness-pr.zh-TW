@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何在 Teams 系統管理中心使用 Microsoft Power Platform 來管理自訂應用程式的存取權。
-ms.openlocfilehash: bf75d65f9ebc84ec836dd64839b3e6178d828867
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: 85aa9904b22dd03e1056b353bf91904909c11f59
+ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240522"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66880257"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-teams-admin-center"></a>在 Teams 系統管理中心管理 Microsoft Power Platform 應用程式
 
@@ -39,7 +39,7 @@ ms.locfileid: "66240522"
 
 當 Microsoft Power Platform 應用程式建立或共用時，使用者可以移至使用 **Power Platform 建置**，在 [應用程式] 頁面上檢視並安裝它。  (應用程式建立或共用之後可能需要幾分鐘的時間，應用程式才會顯示在這裡。) 
 
-:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="[應用程式] 頁面的螢幕擷取畫面，顯示 [在 Power Platform 內建] 中列出的 Microsoft Power Platform 應用程式":::
+:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="[應用程式] 頁面的螢幕擷取畫面，顯示 [使用 Power Platform 打造] 中列出的 Microsoft Power Platform 應用程式。":::
 
 如果應用程式符合下列其中一個條件，使用者會看到「 **使用 Power Platform 建置** 」的應用程式。
 
@@ -69,10 +69,10 @@ ms.locfileid: "66240522"
 1. 在 Microsoft Teams 系統管理中心的左窗格中，移至 **Teams 應用程式**  >  **管理應用程式**。 您必須是全域系統管理員或 Teams 服務系統管理員才能存取頁面。
 2. 在應用程式清單中，執行下列其中一項操作。
 
-    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="[管理應用程式] 頁面的螢幕擷取畫面，顯示共用的 Microsoft Power Platform 應用程式":::
+    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="顯示共用的 Microsoft Power Platform 應用程式的 [管理應用程式] 頁面螢幕擷取畫面。":::
 
-    - 若要封鎖在 Power Apps 或 Power Virtual Agents 中為貴組織中的所有使用者建立的應用程式，請搜尋 **[共用 Power Apps** ] 或 [ **共用 Power Virtual Agent Apps**]，選取該應用程式，然後按一下 [ **封鎖]**。
-    - 若要允許貴組織中所有使用者在 Power Apps 或 Power Virtual Agents 中建立的應用程式，請搜尋 **[共用 Power Apps** ] 或 [ **共用 Power Virtual Agent Apps**]，選取它，然後按一下 [ **允許]**。
+    * 若要封鎖在 Power Apps 或 Power Virtual Agents 中為貴組織中的所有使用者建立的應用程式，請搜尋 **[共用 Power Apps** ] 或 [ **共用 Power Virtual Agent Apps**]，選取該應用程式，然後選取 [ **封鎖]**。
+    * 若要允許在 Power Apps 或 Power Virtual Agents 中為貴組織中的所有使用者建立應用程式，請搜尋 **[共用 Power Apps** ] 或 [ **共用 Power Virtual Agent Apps**]，選取該應用程式，然後選取 [ **允許]**。
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>允許或封鎖特定使用者的 Microsoft Power Platform 應用程式
 
@@ -91,10 +91,10 @@ ms.locfileid: "66240522"
 > [!NOTE]
 > 您可以匯出 CSV 格式的稽核記錄，以便更容易篩選。
 
-## <a name="related-topics"></a>相關主題
+## <a name="related-articles"></a>相關文章
 
-- [在 Power Apps 中共用畫布應用程式](/powerapps/maker/canvas-apps/share-app)
-- [與其他使用者共用您的 Bot](/power-virtual-agents/admin-share-bots)
-- [在 Microsoft Teams 系統管理中心管理應用程式](manage-apps.md)
-- [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)
-- [發佈透過 Teams 應用程式提交 API 提交的自訂應用程式](submit-approve-custom-apps.md)
+* [在 Power Apps 中共用畫布應用程式](/powerapps/maker/canvas-apps/share-app)
+* [與其他使用者共用您的 Bot](/power-virtual-agents/admin-share-bots)
+* [在 Microsoft Teams 系統管理中心管理應用程式](manage-apps.md)
+* [在 Teams 中管理應用程式權限原則](teams-app-permission-policies.md)
+* [發佈透過 Teams 應用程式提交 API 提交的自訂應用程式](submit-approve-custom-apps.md)
