@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以產生最佳結果。
-ms.openlocfilehash: 33be6dce1359637602ee81bcefdb6b4035c22f6c
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 39806bd983bb9cd0f7c35e14bd78a93b185d5b7a
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880247"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915201"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認證的 Android 裝置
 
@@ -45,6 +45,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 |裝置型號    | 韌體版本    | 目前的認證結束日期 | Android OS 版本                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
+| Poly CCX505                            | `7.3.1.0811`                                                  |  2023 年 8 月 5 日              | 9 |
 | AudioCodes C450HD                      | `1.17.443`                                                  |    2023 年 8 月 5 日              | 9 |
 | AudioCodes C448HD (Cap Mode)        |  `1.17.443`                                                   | 2023 年 8 月 5 日            | 9 |
 | Yealink CP965    | `143.15.0.7 `          | 2025 年 9 月 3 日     | 11 |

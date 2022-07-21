@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da74dcb2203eb43ca5b7174697cbc074f5d50855
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: e2e934e0dd9896c507e4d5818a77a1637cdcb2b3
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642748"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915211"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>通話&會議的 Teams 原則型錄製簡介
 
@@ -206,8 +206,8 @@ IT 系統管理員可以建立並指派合規性錄製原則，決定要錄製�
 **其他端點 - 音訊注意事項**
 - SIP 手機
 - 商務用 Skype
-- 音訊會議
-- PSTN 來電者
+- 音訊會議 (撥入號碼預設或使用者選取語言的音訊通知) 
+- PSTN 來電者在 Teams 使用者的預設語言中 (音訊通知) 
 
 > [!NOTE]
 > 會議模式通話佇列不支援合規性錄製。 請使用轉接模式通話佇列。

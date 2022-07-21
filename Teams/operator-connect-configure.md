@@ -1,7 +1,7 @@
 ---
 title: 設定運算子連線
-author: cazawideh
-ms.author: czawideh
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.date: 09/30/2021
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c37c6e52eac53e2cf3e43e45566243a6c83025a7
-ms.sourcegitcommit: f2253162a23d0683e7424211da1a0a8760c8a91b
+ms.openlocfilehash: e9a773e7c8767164480374826a2410050681505a
+ms.sourcegitcommit: 5a8a077b30a0eab2342afc422869adaa682a015b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66240502"
+ms.lasthandoff: 07/20/2022
+ms.locfileid: "66915191"
 ---
 # <a name="configure-operator-connect"></a>設定運算子連線
 
@@ -91,18 +91,15 @@ ms.locfileid: "66240502"
 
 1. 請連絡您的電信業者，將您的號碼移轉至運算子連線。 請參閱 [Microsoft 365 運算子 Connect 目錄](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) 以尋找您電信業者的網站。
 
-2. 電信業者完成移轉訂單後，您可以取消指派使用者的通話方案電話號碼，並移除通話方案授權。 然後，您的電信業者就可以將數位上傳到您的租使用者。
+2. 電信業者完成移轉訂單後，您的電信業者會將號碼上傳至您的租使用者。
 
 3. 使用 Teams 系統管理中心或使用 PowerShell 指派運算子連線號碼給使用者。 如需詳細資訊，請參閱 [指派號碼](#assign-numbers)。
 
 ### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>將數位從直接路由移至運算子連線
 
-若要將數位從直接路由移至運算子連線，您電信業者上傳到租使用者的現有直接路由號碼必須從指派給的使用者中移除。 然後，在號碼移轉到運算子 Connect 之後，您可以將號碼重新指派給使用者。 若要使用內部部署或線上電話號碼從直接路由移至運算子連線，請遵循下列步驟：
+若要使用內部部署或線上電話號碼從直接路由移至運算子連線，請遵循下列步驟：
 
->[!IMPORTANT]
-> 在移轉期間，電話號碼將會退出服務，因此請在開始之前先與您的運算子連線電信業者協調。
-
-#### <a name="step-1---remove-existing-direct-routing-numbers"></a>步驟 1 - 移除現有的直接路由號碼。
+#### <a name="step-1---identify-if-the-existing-direct-routing-numbers-are-assigned-online-or-on-premises"></a>步驟 1 ： 識別是否已在線上或內部部署指派現有的直接路由號碼。
 
 執行 Teams PowerShell 模組命令，檢查使用者是否已獲指派直接路由號碼：
 
@@ -119,9 +116,13 @@ Get-CsOnlineUser -Identity <user> | fl RegistrarPool, OnPremLineURI, LineURI
 ```
 
 如果 `OnPremLineUri` 已填入 E.164 電話號碼，電話號碼會被指派到內部部署，並同步處理到 Microsoft 365。
-    
-**若要移除內部部署指派的直接路由號碼，請** 執行下列商務用 Skype Server PowerShell 命令：
-    
+
+**若要移轉線上指派給運算子連線的現有直接路由號碼**，請連絡您的電信業者。 若要尋找您電信業者的網站，請參閱 [Microsoft 365 運算子 Connect 目錄](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory)。 在同意的日期和時間，您的運算子會將您的號碼從直接路由移轉到運算子連線。
+
+**若要將內部部署指派的直接路由號碼移轉到運** 算符連線，請執行下列商務用 Skype Server PowerShell 命令：
+>[!IMPORTANT]
+> 在移轉期間，電話號碼將會退出服務，因此請在開始之前先與您的運算子連線電信業者協調。
+
 ```PowerShell
 Set-CsUser -Identity <user> -LineURI $null 
 ```
@@ -140,7 +141,7 @@ OnPremLineURI                        :
 LineURI                              : 
 ```
 
-<br> **若要移除線上指派的現有線上直接路由號碼，請** 執行下列 Teams PowerShell 模組命令：
+
 
 
 ```PowerShell
