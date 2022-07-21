@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: 了解如何使用和管理 Microsoft Teams 中的共用頻道。
-ms.openlocfilehash: 9a547963854f981e723d29b1472c2bda808b90c2
-ms.sourcegitcommit: 8fc2d6a824e1e119f54ea2347bc5c10cc076956d
+ms.openlocfilehash: 2c15567c78000de187877477554c233b59c5e58f
+ms.sourcegitcommit: 312ff79ecab91412918793ec882bfc6e0143d30a
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "66773762"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "66884912"
 ---
 # <a name="shared-channels-in-microsoft-teams"></a>Microsoft Teams 中的共用頻道
 
@@ -85,11 +85,11 @@ ms.locfileid: "66773762"
 |---------|---------|---------|---------|---------|---------|---------|
 |建立共用頻道|系統管理員控制|系統管理員和小組擁有者控制|否|不適用|否|否|
 |刪除共用頻道|是|否|否|是|否|否|
-|離開共用頻道|不適用|不適用|不適用|是，除非他們是最後一個擁有者|是|是|
-|編輯共用頻道|否|不適用|不適用|是|否|否|
+|離開共用頻道|不適用|N/A|不適用|是，除非他們是最後一個擁有者|是|是|
+|編輯共用頻道|否|N/A|不適用|是|否|否|
 |還原已刪除的共用頻道|是|否|否|是|否|否|
-|新增成員|否|不適用|不適用|是|否|否|
-|編輯設定|否|不適用|不適用|是|否|否|
+|新增成員|否|N/A|不適用|是|否|否|
+|編輯設定|否|N/A|不適用|是|否|否|
 |管理索引標籤和應用程式|否|不適用|不適用|是，必須為小組安裝應用程式|頻道擁有者控制|否|
 
 ## <a name="shared-channel-sharepoint-sites"></a>共用頻道 SharePoint 網站
@@ -157,6 +157,8 @@ Teams 會管理共用頻道網站的生命週期。 如果在 Teams 以外刪除
 - 當您從現有小組建立小組時，不會複製現有小組中任何的共用頻道。
 
 - 未接的活動電子郵件中不會包含來自共用頻道的通知。
+
+- 班級團隊不支援共用頻道。
 
 ## <a name="supported-apps-in-shared-channels"></a>共用頻道中支援的應用程式
 
