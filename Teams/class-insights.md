@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-edu
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2694981d18bfbee7f75ea8157fb656d77675a71d
-ms.sourcegitcommit: 90f03a841f8ca33092dce65c543357c7c2f7b82a
+ms.openlocfilehash: 02a425d325721dc732e0bd06aa3aee8fd3973dda
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66647685"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952777"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Microsoft Teams 中 Education Insights 的 IT 系統管理員指南
 
@@ -99,13 +99,13 @@ Insights 會呈現來自班級團隊內所有頻道的活動資料，但只能�
 
 **若要在 Teams 中新增 Insights 應用程式：**
 
-- 按一下應用程式行上的 [...**]**。
+- 選取應用程式列上的 **[...]**。
 - 搜尋 **Insights** 並選取它。
-- 描述畫面將隨即開啟。按一下 **[新增]**。
+- 描述畫面將隨即開啟。 選取 [新增 **]**。
 
   :::image type="content" source="media/insights-add-personal-app.png" alt-text="將 Insights 新增至 Teams。":::
 
-- 在 Insights 圖示上按一下滑鼠右鍵，然後選取 **[釘選]**。
+- 在 Insights 圖示上以滑鼠右鍵選取，然後選取 **[釘選]**。
 
   :::image type="content" source="media/insights-pin-app.png" alt-text="釘選 Insights 應用程式。":::
 
@@ -125,13 +125,13 @@ Insights 在整個 **學習週期** 支援學習社群。透過多個維度的�
 
 ## <a name="how-insights-works"></a>Insights 的運作方式為何？
 
-Insights 可產生功能強大的分析，以協助授課者提供更完善的學習成果。其做法是透過分析 Teams 內的學生活動，並選擇性地運用您提供的學生資訊系統 (SIS) 資料來協助將活動情境化和分組。
+Insights 可產生功能強大的分析，以協助授課者提供更完善的學習成果。 其做法是透過分析 Teams 內的學生活動，並選擇性地使用您提供的學生資訊系統 (SIS) 資料來協助將該活動情境化和分組。
 
 開始為您的機構部署 Insights 之前，請先快速查看 Insights 的運作方式、我們對資料道德的承諾，以及所需的授權。
 
 ### <a name="data-collection"></a>資料收集
 
-將為 Insights 從 Teams 中的學生和授課者活動收集資料。不會收集來賓資料。
+將為 Insights 從 Teams 中的學生和授課者活動收集資料。 不會收集來賓資料。
 
 Insights *不會* 顯示關於授課者的資料。 資料的分析可提供可行的深入解析，以協助您參與教學和學習。
 
@@ -166,6 +166,7 @@ Insights *不會* 顯示關於授課者的資料。 資料的分析可提供可�
 > - 請瀏覽 [Microsoft 合規性供應項目](/compliance/regulatory/offering-home) ，以了解 Microsoft 365 如何協助您的機構符合法規合規性標準。
 
 ### <a name="performance-and-reliability"></a>效能和可靠性
+
 Insights 的設計可處理從 Teams 活動收集的大量資料，並具有最佳效能和可靠性。 我們無法保證 100% 的可用性，但我們會努力盡可能接近該目標。
 
 資料收集程序會在不同伺服器上，針對 Teams 中的 Insights 索引標籤安裝進行。 Insights 索引標籤或個人應用程式不會影響使用其餘 Teams 功能的授課者和學生的應用程式效能或網路頻寬。
@@ -187,7 +188,7 @@ Microsoft 從頭開始建立 Insights，以確保資料保護。 我們知道資
 
 Insights 聚焦於學生學習和數位參與。 資料可支援學習，並展現數位學習平台上的學生參與層級。 雖然您可以向下切入班級活動的個別層級，但 Microsoft **並未指派任何正數或負數值** 指派給這些動作。 收集資料的目的是為了支援學生與授課者，以便達成最佳成果。
 
-授課者最知道並了解其學生。 Insights 中提供的資訊可協助他們在數位學習案例中 **為學生提供支援**。 它會複製一般可在面對面體驗中獲得的深入解析。 例如，假設某個學生在特定期間未處於非活動中狀態，或未在上週準時完成其所有作業。 該資料會向授課者呈現，以便對學生適當催促或查勤。 與學生或與學生的家長或監護人進行互動仍為授課者的責任，以找出所偵測任何活動中或非活動中的基礎原因。
+授課者最知道並了解其學生。 Insights 中提供的資訊可協助他們在數位學習案例中 **為學生提供支援**。 它會複製可在面對面體驗中獲得的深入解析。 例如，假設某個學生在特定期間未處於非活動中狀態，或未在上週準時完成其所有作業。 該資料會向授課者呈現，以便對學生適當催促或查勤。 與學生或與學生的家長或監護人進行互動仍為授課者的責任，以找出所偵測任何活動中或非活動中的基礎原因。
 
 Insights 的設計可同時支援學生和授課者的數位學習環境架構。 Insights **不會直接擷取關於授課者的資料**。 除了個別的學生資料之外，它還為特定授課者提供學生活動和成果的彙總，以讓教育授課者可支援學生和授課者。
 
@@ -195,7 +196,7 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 
 若要存取 Insights，使用者必須具備適用於 Microsoft 365 的 A1、A3 或 A5 教職員授權。
 
-*教育版 Insights Premium* 是付費的升級，為教育領導者提供教育版 Insights 資料的組織層級檢視，以及教育者對歷史資料檢視的擴充存取權。 合格的教育機構可以購買 *教育版 Insights Premium* 附加元件授權，方法是透過註冊教育版解決方案 (EES)、雲端服務提供者 (CSP) 和 Microsoft 365 系統管理中心 (Web 直接)。
+*教育版 Insights Premium* 是付費的升級，其為教育領導者提供教育版 Insights 資料的組織層級檢視，以及教育者對歷史資料檢視的擴充存取權。 合格的教育機構可以購買 *教育版 Insights Premium* 附加元件授權，方法是透過註冊教育版解決方案 (EES)、雲端服務提供者 (CSP) 和 Microsoft 365 系統管理中心 (Web 直接)。
 
 組織可根據為租用戶中的所有數位活躍學生購買權限，使用 Education Insights Premium 附加元件。
 
@@ -240,15 +241,28 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 - 最後，查看 Insights 專屬的[此部落格](https://techcommunity.microsoft.com/t5/education-blog/6-ways-to-be-insight-ful-and-support-student-engagement/ba-p/1903091)。
 
 適用於 **教育領導者** 的資料：
+
 - [適用於教育組織支援頁面的 Insights](https://support.microsoft.com/office/8738d1b1-4e1c-49bd-9e8d-b5292474c347)。
 
-### <a name="turn-insights-on-or-off"></a>開啟或關閉 Insights
+### <a name="turn-on-and-off-insights"></a>開啟和關閉深入解析
 
-根據預設，會開啟 Insights，這可讓我們收集 Teams 中學生活動的分析，以用於 Insights。 您可以決定退出 Insights，在這種情況下，我們會 *刪除 Insights 已收集的所有資料*，並停止收集任何未來的資料。 若您重新開啟 Insights，我們就會從重新啟用的時間開始收集資料。
+根據預設，會開啟 Insights，允許在 Insights 中使用學生活動的分析。 您可以退出 Insights，在這種情況下，我們會 *刪除 Insights 已收集的所有資料*，並停止收集任何未來的資料。 若您重新開啟 Insights，我們就會從重新啟用的時間開始收集資料。
 
-- 若要關閉/開啟 Insights，開啟 [[SDS 系統管理中心]](https://sds.microsoft.com/)，並移至 **[設定]** > **[管理教育版 Insights]**。 關閉/開啟 **收集 Insights 活動資料**，以啟用或停用 Insights。
+您可以在兩個地方控制 *[教育版 Insights]*。 這兩個選項的結果皆會是相同的。 對於已從 *SDS (傳統)* 轉換 *到 SDS 以進行佈建* 的客戶，僅會提供 Teams 用戶端選項。
 
-:::image type="content" source="media/insights-settings.png" alt-text="SDS 系統管理中心頁面的螢幕擷取畫面，您可以在此設定選項開啟或關閉 Insights。":::
+#### <a name="turn-on-and-off-insights-from-the-sds-admin-center"></a>從 SDS 系統管理中心開啟和關閉 Insights
+
+1. 開啟 [[SDS 系統管理中心]](https://sds.microsoft.com/)。
+1. 移至 **[設定]** > **[管理教育版 Insights]**。
+1. 調整 **[收集 Insights 的活動資料]** 切換開關以開啟或關閉。
+
+![SDS 系統管理中心關閉和開啟 Insights 的切換開關之螢幕擷取畫面](media/manage-insights-toggles.png)
+
+#### <a name="turn-on-and-off-insights-from-the-teams-client"></a>從 Teams 用戶端開啟和關閉 Insights
+
+1. 如果您沒有釘選 *[教育版 Insights]* 個人應用程式，請依照 [下列指示](class-insights.md#education-leaders)來新增它。
+1. 使用 Microsoft 365 系統管理員帳戶，透過使用位於 **[教育版 Insights]** 右上角的省略符號以開啟 *[管理員設定]* 頁面。
+1. 調整 **[收集 Insights 的活動資料]** 切換開關以開啟或關閉。
 
 > [!NOTE]
 > 如果您已關閉 Insights，系統將會刪除已收集的資料。 即使重新啟用 Insights，稍後也無法恢復在選擇退出時所刪除的資料。
@@ -257,10 +271,21 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 
 開啟教育版 Insights 的 **[允許進階推論]** 切換開關時，教育版 Insights 可能會向學生、教育人員和教育領導者提供學習相關的進階推論 (例如參與警告)。 這些推論可讓授課者為學生提供更量身打造的支援。 切換開關也控制進行模型化所使用的租用戶資料。
 
-開啟此切換不會收集教育版 Insights 所收集資料以外的任何其他資料。
+開啟此切換不會收集教育版 Insights 所收集資料以外的任何額外資料。
 
-- 若要加以確認，請開啟 [[SDS 系統管理中心]](https://sds.microsoft.com/)，並移至 **[設定]** > **[管理教育版 Insights]**。
-- 調整 **[允許進階推論]** 切換開關以關閉或開啟。
+您可以在兩個地方控制 *[進階推論]*。 這兩個選項的結果皆會是相同的。 對於已從 *SDS (傳統)* 轉換 *到 SDS 以進行佈建* 的客戶，僅會提供 Teams 用戶端選項。  
+
+#### <a name="turn-on-and-off-advanced-inferences-from-the-sds-admin-center"></a>從 SDS 系統管理中心開啟和關閉進階推論
+
+1. 開啟 [[SDS 系統管理中心]](https://sds.microsoft.com/)。
+1. 移至 **[設定]** > **[管理教育版 Insights]**。
+1. 調整 **[允許進階推論]** 切換開關以關閉或開啟。
+
+#### <a name="turn-on-and-off-advanced-inferences-from-the-teams-client"></a>從 Teams 用戶端開啟和關閉進階推論
+
+1. 如果您沒有釘選 *[教育版 Insights]* 個人應用程式，請依照 [下列指示](class-insights.md#education-leaders)來新增它。
+1. 使用 Microsoft 365 系統管理員帳戶，透過使用位於 **[教育版 Insights]** 右上角的省略符號以開啟 *[管理員設定]* 頁面。
+1. 調整 **[允許進階推論]** 切換開關以關閉或開啟。
 
 > [!NOTE]
 > 此切換需視 **[收集 Insights 活動資料**] 切換而定。 若關閉 **[收集 Insights 的活動資料]** 也會關閉 **[允許進階推論]** 切換開關。
@@ -271,11 +296,12 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 
 使用 Insights *不要求* 使用 SDS。 不過，您可以隨時選擇退出 Insights。
 
-- 若要關閉 Insights 使用學校資料同步處理，請遵循 [停用適用於 Insights 的 SDS](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights) 中的指示。
+- 若要關閉 Insights 使用學校資料同步處理，請遵循[停用適用於 Insights 的 SDS](/schooldatasync/how-to-deploy-sds-for-insights#disabling-sds-for-insights) 中的指示。
 
-- 若要重新開啟，請遵循 [如何部署適用於 Insights 的 SDS](/schooldatasync/how-to-deploy-sds-for-insights) 中的指示。
+- 若要重新開啟，請遵循[如何部署適用於 Insights 的 SDS](/schooldatasync/how-to-deploy-sds-for-insights) 中的指示。
 
 ### <a name="how-to-delete-user-data-from-education-insights"></a>如何從教育深入解析中刪除使用者資料
+
 深入解析會儲存在 Microsoft Teams 教育版中執行的學生和教師活動。
 
 深入解析收集的資料有兩種類型:
@@ -302,7 +328,7 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 
 如果這是 *新* 的租用戶，且您 *未曾* 在 Insights 中看到資料，請檢查您的租用戶已 **以教育租用戶的身分通過驗證**，才能存取 Insights。 與您的 Microsoft 帳戶管理員連絡，請求他們檢查該租用戶是否正確設定。
 
-如果您沒有帳戶管理員，請開啟票證。 移至 [Office 365 系統管理中心 []](https://admin.microsoft.com/AdminPortal/)  >  [支援 **]**  >  [新增服務要求 **]**。  在票證標題中，撰寫：「需要協助進行教育驗證」。
+如果您沒有帳戶管理員，請開啟票證。 移至 [[Microsoft 365 系統管理中心]](https://admin.microsoft.com/AdminPortal/) > **[支援]** > **[新增服務要求]**。  在票證標題中，撰寫：「需要協助進行教育驗證」。
 
 此外，請確認已為 Insights 啟用資料收集。 雖然其預設會開啟，但 IT 系統管理員可能已將它關閉，並因而已刪除 Insights 所擁有的所有資料。
 
@@ -312,7 +338,7 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 
 ### <a name="why-do-i-see-data-for-some-students-or-classes-not-all"></a>為什麼我會看到部分學生或班級的資料，而非全部？
 
-我們只會收集經 *授權* 學生的資料，因此最可能的原因是您的學生以來賓身分參與班級，因此不會收集其資料。您可能會看到他們的名稱，但沒有任何資料。
+我們只會收集經 *授權* 學生的資料，因此最可能的原因是您的學生以來賓身分參與班級，因此不會收集其資料。 您可能會看到他們的名稱，但沒有任何資料。
 
 檢查學生的狀態，以確保他們都擁有學生授權。
 
@@ -320,7 +346,7 @@ Insights 的設計可同時支援學生和授課者的數位學習環境架構�
 
 要在 Insights 報告中看到會議資料，最多需要 24 小時的時間。 因此，請檢查是否已超過足夠的時間。
 
-此外，請檢查學生 *並未*[在沒有 Teams 帳戶的情況下加入班級會議](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)。 在這種情況下，系統不會收集該學生的活動。
+此外，請檢查學生並未[在沒有 Teams 帳戶的情況下加入班級會議](https://support.microsoft.com/office/c6efc38f-4e03-4e79-b28f-e65a4c039508)。 在這種情況下，系統不會收集該學生的活動。
 
 > [!TIP]
 > 針對想要追蹤學生出勤的授課者，您可以建議其在會議期間傳送訊息以要求學生回覆。這麼做可在幾分鐘內註冊其出席。
