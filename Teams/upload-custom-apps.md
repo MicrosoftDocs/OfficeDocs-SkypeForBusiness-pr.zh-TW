@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: 瞭解如何將您的自訂應用程式上傳到您組織的 Microsoft Teams 系統管理中心中的應用程式存放區。
-ms.openlocfilehash: 5ef5992e01b5de4e2f4feaed51b50e2d0f16c0d8
-ms.sourcegitcommit: 4be2a5db44972b35bdde5752eea0d74cf831607a
+ms.openlocfilehash: 8f7968a53b70ac8ffa871d03adacd648ec047c52
+ms.sourcegitcommit: 70185cd963c5a9d539e65e302d4230018209ecae
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/06/2022
-ms.locfileid: "66642758"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66958048"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>上傳應用程式套件以發佈自訂應用程式
 
@@ -57,20 +57,20 @@ Teams 市集中的所有應用程式都會通過必要的 [應用程式驗證](o
 1. 開啟 [ **允許與整個組織自訂應用程式互動** ] 設定。 若要執行此動作：
 
     1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 **[Teams 應用程式**  >  **管理應用程式**]，然後按一下 [**全組織應用程式設定]**。
-    
-    2. 在 [ **自訂應用程式]** 底下，開啟 [ **允許與自訂應用程式互動**]，然後按一下 [ **儲存]**。
-    
+
+    1. 在 [ **自訂應用程式]** 底下，開啟 [ **允許與自訂應用程式互動**]，然後按一下 [ **儲存]**。
+
 1. 關閉全域應用程式設定原則中的 **[上傳自訂應用程式** ] 設定。 若要執行此動作：
 
     1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 **[Teams 應用程式**  >  **設定原則**]，然後按一下 **全域 (組織的預設)** 原則。
-    
-    2. 關閉 **[上傳自訂應用程式**]，然後按一下 [ **儲存]**。
-    
+
+    1. 關閉 **[上傳自訂應用程式**]，然後按一下 [ **儲存]**。
+
 1. 建立新的應用程式設定原則，允許上傳自訂應用程式，並將它指派給信任的使用者集合。 若要執行此動作：
 
     1. 在 Microsoft Teams 系統管理中心的左側導覽畫面中，移至 **[Teams 應用程式**  >  **設定原則**]，然後按一下 [**新增]**。 為新原則命名和描述，開啟 **[上傳自訂應用程式**]，然後按一下 [ **儲存]**。
-    
-    2. 選取您建立的新原則，然後按一下 **[管理使用者]**。 搜尋使用者，按一下 [ **新增**]，然後按一下 [ **套用]**。 重複此步驟，將原則指派給所有信任的使用者。
+
+    1. 選取您建立的新原則，然後按一下 **[管理使用者]**。 搜尋使用者，按一下 [ **新增**]，然後按一下 [ **套用]**。 重複此步驟，將原則指派給所有信任的使用者。
 
        ![[新增應用程式設定原則] 頁面的螢幕擷取畫面](media/manage-your-lob-apps-new-app-setup-policy.png)
 
@@ -119,7 +119,17 @@ Teams 市集中的所有應用程式都會通過必要的 [應用程式驗證](o
 
 在大多數情況下，當您完成應用程式更新後，使用者會自動顯示新版本。 如需詳細資訊，請參閱 [使用者更新體驗](apps-update-experience.md)。
 
-## <a name="related-topics"></a>相關主題
+## <a name="remove"></a>刪除
+
+若要移除應用程式，請遵循下列步驟：
+
+1. 登入 Teams 系統管理中心。
+1. 存取 **Teams 應用程式**  >  **[[管理應用程式]](https://admin.teams.microsoft.com/policies/manage-apps)** 頁面。
+1. 按一下應用程式名稱以開啟應用程式詳細資料頁面。
+1. 在應用程式橫幅旁，選取 **[刪除動作**  >  **]**。
+1. 在對話方塊中，選 **取 [刪除]**。
+
+## <a name="related-articles"></a>相關文章
 
 * [發佈透過 Teams 應用程式提交 API 提交的自訂應用程式](submit-approve-custom-apps.md)
 * [在 Microsoft Teams 系統管理中心管理您的應用程式](manage-apps.md)

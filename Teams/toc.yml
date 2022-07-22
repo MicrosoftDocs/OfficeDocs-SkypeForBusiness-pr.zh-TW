@@ -1535,10 +1535,6 @@ items:
             href: submit-approve-custom-apps.md
           - name: 透過上傳應用程式套件發佈自訂應用程式
             href: upload-custom-apps.md
-          - name: 自訂應用程式的外觀和中繼資料
-            href: customize-apps.md
-          - name: 打造貴組織應用程式市集的品牌。
-            href: customize-your-app-store.md
       - name: 控管應用程式的管理員控制項
         items:
           - name: 應用程式管理概觀
@@ -1561,16 +1557,20 @@ items:
             href: resource-specific-consent.md
           - name: 了解應用程式權限和資源存取權限
             href: app-permissions.md
+          - name: 自訂應用程式的外觀和中繼資料
+            href: customize-apps.md
+          - name: 打造貴組織應用程式市集的品牌。
+            href: customize-your-app-store.md
           - name: 管理整個 Microsoft 365 的應用程式存取權
             href: manage-third-party-teams-apps.md
-          - name: 稽核應用程式管理活動
-            href: audit-app-management-activities.md
-          - name: 應用程式使用報告和分析
-            href: teams-analytics-and-reports/app-usage-report.md
           - name: 以使用者類型為依據的應用程式行為
             href: non-standard-users.md
           - name: 應用程式更新和系統管理員角色
             href: apps-update-experience.md
+          - name: 稽核應用程式管理活動
+            href: audit-app-management-activities.md
+          - name: 應用程式使用報告和分析
+            href: teams-analytics-and-reports/app-usage-report.md
   - name: 產業和政府指引
     items:
       - name: 概觀
