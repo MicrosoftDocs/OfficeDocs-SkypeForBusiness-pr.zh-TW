@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db4b3adabecf147f5adf9cadb9891892b5a82e5a
-ms.sourcegitcommit: 79ada2140b110239deff96e4854ebd5dd9b77881
+ms.openlocfilehash: e2ac9a38e16000829b391e77dffdd718ed349299
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "66606222"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952757"
 ---
 # <a name="share-to-teams-from-outlook"></a>從 Outlook 共用至 Teams
 
@@ -30,9 +30,9 @@ ms.locfileid: "66606222"
 [共用至 Teams] 功能需要 Outlook 的增益集。 每當使用者登入 Teams Web 應用程式或 Teams 桌面用戶端時，就會自動安裝此增益集。
 
 > [!NOTE]
-> 請務必檢閱[Exchange Online 中的 Outlook 載入](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook)宏和[Exchange Online 中的用戶端存取規則](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)，以確保 Outlook 的增益集正確運作。 此外，停用連線體驗也會導致 Outlook 的增益集無法正常運作。 如需詳細資訊，請參閱 [Office 中的連線體驗](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) 。  
+> 請務必檢閱[Exchange Online 中的 Outlook 載入](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook)宏和[Exchange Online 中的用戶端存取規則](/exchange/clients-and-mobile-in-exchange-online/client-access-rules/client-access-rules)，以確保 Outlook 的增益集正確運作。 此外，停用連線體驗也會導致 Outlook 的增益集無法正常運作。 如需詳細資訊，請參閱 [Office 中的連線體驗](https://support.microsoft.com/topic/connected-experiences-in-office-8d2c04f7-6428-4e6e-ac58-5828d4da5b7c) 。 增益集不支援共用信箱。 
 
-[共用至 Teams] 使用與使用者傳送頻道電子郵件時相同的傳輸機制。 若要共用至聊天，系統會將包含電子郵件附件) 的電子郵件 (複製到寄件者的 OneDrive。 若要共用至頻道，電子郵件和附件會複製到 SharePoint 中 **的電子郵件檔** 夾。
+[共用至 Teams] 使用與使用者傳送頻道電子郵件時相同的傳輸機制。 若要共用至聊天，系統會將包含電子郵件附件) 的電子郵件 (複製到寄件者的 OneDrive。 若要共用至頻道，電子郵件和附件會複製到 SharePoint **中的Email郵件** 資料夾。
 
 [共用至 Teams] 的 Outlook 增益集使用需求集 1.7，如 [Outlook 增益集檔所](/exchange/clients-and-mobile-in-exchange-online/add-ins-for-outlook/add-ins-for-outlook)詳述，其中包含 Outlook 增益集的詳細資料、Outlook 增益集的環境需求，以及需求設定 1.7 所支援的特定 Outlook 用戶端。
 

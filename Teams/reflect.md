@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5df52ff5de4db994cb049db1dde2b27c2465dce5
-ms.sourcegitcommit: 296862e02b548f0212c9c70504e65b467d459cc3
+ms.openlocfilehash: 0e6fdb36148f87ce243fff044a08a3bdcdd28d58
+ms.sourcegitcommit: f5546acf02ec644225f6d0fb41f38b1912da6adf
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "65675755"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "66952767"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>在 Microsoft Teams 中 Reflect 的 IT 系統管理員指南
 
@@ -29,15 +29,15 @@ ms.locfileid: "65675755"
 
 此簽入應用程式使用表情圖示和有研究支持的情緒細微度，來支援授課者在已經忙碌的例行工作中新增社交和情緒學習。
 
-
 ## <a name="privacy-and-security"></a>隱私權和安全性
+
 Reflect 遵循與[教育版 Insights](class-insights.md) 相同的隱私權和安全性標準，以保護學生的敏感性資訊。
 
 反映做為 Microsoft 365 的一部分，符合資料收集和使用的國家、地區及產業特定法規，包括 [GDPR](/compliance/regulatory/gdpr) 和 [家庭教育權利與隱私權法案 (FERPA)](/compliance/regulatory/offering-ferpa) 以保護學生教育記錄的隱私權。
 
 資料屬於機構，而 Microsoft 只會收集資料並儲存資料。 Microsoft 人員無法存取資料或查看資料，除非合規性以經稽核的方式允許，以便維護服務 (例如資料復原)。
 
-學生 *不會* 看到其他學生的名稱，只會看到他們如何回應。 雖然他們可以看到回應的分佈，但 *無法* 看到與每個反映相關的名稱。 
+學生 *不會* 看到其他學生的名稱，只會看到他們如何回應。 雖然他們可以看到回應的分佈，但 *無法* 看到與每個反映相關的名稱。
 
 > [!NOTE]
 > 如果少於五個學生回應，不會對學生顯示任何資料。 這是為了將學生識別彼此回應的可能性降至最低。
@@ -51,9 +51,9 @@ Reflect 遵循與[教育版 Insights](class-insights.md) 相同的隱私權和�
 
 資料會儲存在教育版 Insights 中。 預設會開啟育版 Insights。 當您選擇退出時，我們會 **刪除針對 Reflect 收集的所有資料**。 重新開啟教育版 Insights，我們就會從重新啟用的時間開始收集資料。
 
-在 [教育版 Insights 的 IT 系統管理員指南](class-insights.md)中，您可以閱讀教育版 Insights 如何運作 (包括儲存位置)，以及當您要刪除資料或啟用服務時，[如何關閉或開啟教育版 Insights](class-insights.md#turn-insights-on-or-off)。
+在 [教育版 Insights 的 IT 系統管理員指南](class-insights.md)中，您可以閱讀教育版 Insights 如何運作 (包括儲存位置)，以及當您要刪除資料或啟用服務時，[如何關閉或開啟教育版 Insights](class-insights.md#turn-on-and-off-insights)。
 
-雖然不會收集來賓資料，但會從 Reflect 中的學生收集資料。 **如果有學生被定義為來賓，則不會收集其資料。** 
+雖然不會收集來賓資料，但會從 Reflect 中的學生收集資料。 **如果有學生被定義為來賓，則不會收集其資料。**
 
 ## <a name="enable-reflect"></a>啟用 Reflect
 如果您管理機構的應用程式設定政策，請確保在租用戶中允許 *Reflect*。 您也可以從 Teams 系統管理中心將 Reflect 新增到相關的班級團隊。
