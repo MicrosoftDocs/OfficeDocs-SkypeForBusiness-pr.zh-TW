@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器，) 經過 Microsoft Teams 認證。
-ms.openlocfilehash: 956034bff42cdf3694c648306caf218057bca1da
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 63813ca51626ae16903b57e56de9b47345f44c10
+ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880387"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "66972778"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
 
@@ -41,6 +41,12 @@ ms.locfileid: "66880387"
 - **已通過 Microsoft Teams 認證** 此層級認證的裝置表示已認證的最新裝置，以獲得無危害的 Teams 體驗。 這些裝置提供先前認證的所有優點，同時也包含具有 LED 指示器的專用 Teams 按鈕。 在大部分的表單因素下，Teams 按鈕會是含有 Teams 標誌的易於尋找的觸控按鈕。 隨著時間，Microsoft 會持續與裝置製造商合作，透過韌體更新來提供新的價值。
 
 ### <a name="special-usage-designations"></a>特殊使用方式指定
+
+- **原生藍牙認證音訊周邊設備**  大多數通過 Microsoft Teams 認證的藍牙耳機和免持聽筒，都是設計用來搭配 USB 硬體鎖來連線到電腦和 Mac 主機。 許多使用者一直要求選擇直接將裝置與主機配對，因為他們沒有足夠的 USB 埠，或不想記得在不同位置工作時隨身攜帶 USB 硬體鎖。
+
+    Windows 電腦支援原生藍牙認證裝置，包括耳機和免持聽筒 (未來可能會支援 MacOS) 。 裝置會針對音訊效能、通話控制和 Teams 按鈕整合進行測試，不含與不使用 USB 硬體鎖。
+
+    原生藍牙模式的效能受主機電腦上的藍牙無線電影響，因此我們建議為裝置和藍牙無線電安裝最新的韌體更新。 有一小部分的使用者可能需要繼續使用 USB 硬體鎖，例如在高密度無線電環境中工作、多部配對裝置或某些藍牙無線電效能不佳的電腦大量使用其電腦藍牙。
 
 - **開啟 Office 的進階麥克風** 所有耳機都經過測試以提供清楚的音訊，但開啟辦公室和其他吵雜的環境會構成更大的挑戰。 具有此指定的耳機會接聽頭戴式裝置使用者的聲音，但不會傳送其周邊的音效。
 - **會議室大小** 免持聽筒和相機等共用裝置有支援的使用距離。 建議的距離可能會根據製造商而有所不同。 為提供客戶清楚的指導方針，所有共用裝置都會通過認證，以針對定義明確的會議室大小和噪音環境進行測試。
