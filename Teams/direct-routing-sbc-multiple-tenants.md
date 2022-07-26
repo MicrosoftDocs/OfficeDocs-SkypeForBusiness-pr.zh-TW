@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何設定一個會話框線控制器 (SBC) ，為 Microsoft 合作夥伴和/或 PSTN 電信業者提供多個租使用者服務。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9221414053b0ee92b87553e0f81c23b41b23f0fb
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616339"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005353"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>設定多個租用戶的工作階段邊界控制器
 
@@ -60,7 +60,7 @@ Microsoft 不會管理電信業者。 Microsoft 提供電話系統—私人 Exch
 
 - **AudioCodes：** 如需 SBC 主機服務案例的設定，請參閱 [直接路由設定附注](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) ，如「將 AudioCodes SBC 連線到 Microsoft Teams 直接路由主機模式設定注意事項」中所述。 
 - **甲骨文：** 如一節所述，請參閱 SBC 主機服務案例設定的 [直接路由設定附注](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) 。 
-- **功能區通訊：** 如需如何設定功能區核心系列 SBC 的檔，請參閱 [功能區通訊 SBC Core Microsoft Teams 設定指南](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) 。 另請參閱 [功能區最佳做法 - 設定 Microsoft Teams 直接路由 SBC Edge 的貨運公司](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
+- **功能區通訊：** 如需如何設定功能區核心系列 SBC 的檔，請參閱 [功能區通訊 SBC Core Microsoft Teams 設定指南](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+MS+Teams+Solution+Guide) 。 另請參閱 [功能區最佳做法 - 設定 Microsoft Teams 直接路由 SBC Edge 的貨運公司](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
 - **TE-Systems (任何節點) ：** 在 [TE-Systems 社群頁面網站上](https://community.te-systems.de/) 註冊，以取得如何為多個租使用者設定任何節點 SBC 的檔和範例。
 - **元切換：** 在 [元切換社群頁面網站上](https://manuals.metaswitch.com/MAN39555) 註冊，以取得如何為多個租使用者啟用 Perimeta SBC 的檔。
 

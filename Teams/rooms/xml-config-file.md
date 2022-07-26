@@ -16,12 +16,12 @@ ms.collection:
 ms.custom:
 - seo-marvel-mar2020
 description: 遠端系統管理Microsoft Teams 會議室裝置使用的預設設定，包括套用自訂主題和建立主設定檔案。
-ms.openlocfilehash: d991c90fb9d5f652e684343a292cf61d0043c61d
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: b31c6519c04070c644d297071b07cc75c7dfc0f6
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529665"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005343"
 ---
 # <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>使用 XML 組態檔遠端系統管理Microsoft Teams 會議室主機設定
 
@@ -63,6 +63,7 @@ ms.locfileid: "66529665"
   <DuplicateIngestDefault>true</DuplicateIngestDefault>
   <DisableTeamsAudioSharing>true</DisableTeamsAudioSharing>
   <FrontRowEnabled>true</FrontRowEnabled>
+  <SingleFoRDefaultContentLayout>1</SingleFoRDefaultContentLayout>
   <DefaultFoRExperience>0</DefaultFoRExperience>
   <EnablePublicPreview>false</EnablePublicPreview>
   <NoiseSuppressionDefault>1</NoiseSuppressionDefault>
@@ -139,8 +140,9 @@ ms.locfileid: "66529665"
 | `<DisableTeamsAudioSharing>`                | 布林值&#x2777;            | 第一個&#x2776; | 設定為 True 以停用 Teams 會議中會議參與者的 HDMI 音訊共用。 預設值為 False。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | `<FrontRowEnabled>`                          | 布林值&#x2777;            | 第一個&#x2776; | 預設啟用。 如果為 false，則會停用前列。
 | `<DefaultFoRExperience>`                     | 布林值&#x2777;            | 第一個&#x2776; | 根據預設，圖庫檢視。 [放置 1] 可將預設版面配置從 [圖庫檢視] 變更為 [前列]。
+| `<SingleFoRDefaultContentLayout>`           | String                      |                 | 在單一顯示模式中，您可以設定 [內容+人員] 和 [僅內容] 之間的預設版面配置：<br><ul><li><b>0</b> 僅限內容</li><li><b>1</b> 個內容+人員 (預設) </li></ul>|
 | `<EnablePublicPreview>`                     | 布林值&#x2777;            | 第一個&#x2776; | 預設停用。 如果為 True，則會啟用公開預覽，且使用者可以在啟用的Teams 會議室存取公開預覽中的功能。 如需詳細資訊，請參閱[Windows 上Microsoft Teams 會議室的公開預覽](../public-preview-doc-updates.md#public-preview-for-microsoft-teams-rooms-on-windows)。 |
-| `<NoiseSuppressionDefault>`                 | 布林值&#x2777;            | 第一個&#x2776; | 控制 Teams 中的噪音抑制等級。<br><ul><li><b>0</b> [關閉]。 僅使用 OEM 提供的噪音抑制功能。</li><li><b>1</b> 自動 (預設) 。 Teams 會根據當地噪音決定最佳的噪音抑制層級。</li><li><b>2</b> 低。 隱藏低等級的持續性背景雜音，例如電腦風扇或空氣條件器。</li><li><b>3</b> 高。 隱藏所有不是語音的背景音效。</li></ul>
+| `<NoiseSuppressionDefault>`                 | String                      | 第一個&#x2776; | 控制 Teams 中的噪音抑制等級。<br><ul><li><b>0</b> [關閉]。 僅使用 OEM 提供的噪音抑制功能。</li><li><b>1</b> 自動 (預設) 。 Teams 會根據當地噪音決定最佳的噪音抑制層級。</li><li><b>2</b> 低。 隱藏低等級的持續性背景雜音，例如電腦風扇或空氣條件器。</li><li><b>3</b> 高。 隱藏所有不是語音的背景音效。</li></ul>
 | `<CortanaWakewordEnabled>`                  | 布林值&#x2777;            | 第一個&#x2776; | 設為 True 以啟用 Cortana 喚醒文字「嗨 Cortana」。 除非您所在的國家或地區支援 Cortana 服務，且您的連接音訊周邊支援 Cortana，否則此設定不會有任何作用。 預設值為 False。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | `<SendLogs>`                                | 容器                   | 第一個&#x2776; |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | `<EmailAddressForLogsAndFeedback>`          | 字串&#x2778;            |                | 設定在出現 [提供意見反應] 視窗時，可以傳送記錄檔的選擇性電子郵件地址。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |

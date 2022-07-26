@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: 瞭解如何在 Microsoft Teams 中使用會議原則設定來控制會議到期日。
-ms.openlocfilehash: 08ca5a75b8dd470b006d44e562eb795f814faba6
-ms.sourcegitcommit: bdb919a6f53556f76dd4a71759412023e6e18fbb
+ms.openlocfilehash: 3d79041cf6e8e16ed4ebd680cf5f4370e04cd62a
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "66529685"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005333"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Microsoft Teams 中的會議原則和會議到期日
 
@@ -101,8 +101,8 @@ Microsoft Teams 中的[會議原則](meeting-policies-overview.md)可用來控�
 您可以將到期日值設定為：
 
 - 最小值： **1 天**
-- 最大值： **99，999 天**
-- 您也可以將到期日設定為 **-1** ，讓錄製永遠不會過期。
+- 最大值： **99999 天**
+- 您也可以在 PowerShell 中將到期日設定為 **-1** ，讓錄製永遠不會過期。
 
 PowerShell 命令範例：
 
@@ -114,24 +114,19 @@ Set-CsTeamsMeetingPolicy -Identity Global -NewMeetingRecordingExpirationDays 50
 
 ![管理員會議到期原則的中央螢幕擷取畫面。](media/meeting-expiration-policy.jpg)
 
-### <a name="security-and-compliance"></a>安全性與合規性
+### <a name="compliance"></a>合規性
 
-#### <a name="should-i-rely-on-this-feature-for-strict-security-and-compliance-adherence"></a>我應該仰賴這項功能來嚴格遵守安全性與合規性嗎？
+您不應該依賴 TMR 到期設定來提供法律保護，因為使用者可以修改他們所控制之任何錄製的到期日。
 
-否，您不應該依賴這項資訊來提供法律保護，因為使用者可以修改他們所控制之任何錄製的到期日。
+#### <a name="teams-meeting-recording-expiration-settings-and-microsoft-365-retention-policies-in-microsoft-purview"></a>Microsoft Purview 中的 Teams 會議錄製到期設定和 Microsoft 365 保留原則
 
-#### <a name="will-a-retention-andor-deletion-policy-ive-set-in-the-security--compliance-center-override-the-teams-meeting-recording-expiration-setting"></a>我在安全性&合規性中心設定的保留和/或刪除原則是否會覆寫 Teams 會議錄製到期設定？
+檔案保留優先于檔案刪除。 在保留期間完成之前，TMR 到期原則無法刪除具有 Purview 保留原則的會議錄製。 例如，如果您的許可權租借原則指出檔案將保留五年，且 TMR 到期原則設定為 60 天，則 TMR 到期原則會在 5 年後刪除錄製內容。  
 
-是的，您在合規性中心設定的任何原則都會優先。
+如果您有 TMR 到期原則和具有不同刪除日期的許可權刪除原則，檔案會在兩個日期的最早日期刪除。 例如，如果您的 [許可權] 刪除原則指出檔案將在一年後刪除，而 TMR 到期設定為 120 天，則 TMR 到期設定會在 120 天后刪除檔案。
 
-例如：
+### <a name="enforcement-of-file-retention-with-the-teams-meeting-recording-expiration-setting"></a>使用 Teams 會議錄製到期設定強制執行檔案保留
 
-- 如果您有原則指出網站中的所有檔案都必須保留 100 天，而 Teams 會議錄製的到期設定為 30 天，則錄製會保留整整 100 天。
-- 如果您的刪除原則指出所有 Teams 會議錄製都會在五天后刪除，而且您有 30 天 Teams 會議錄製的到期設定，則錄製將在五天后刪除。
-
-### <a name="will-this-feature-enforce-file-retention"></a>啟用此功能會強制執行檔案保留？
-
-否，檔案將不會因為這項功能或其設定而保留。 如果具有刪除許可權的使用者嘗試刪除具有到期設定的 TMR，將會執行該使用者的刪除動作。
+由於此功能或其設定，將不會保留檔案。 如果具有刪除許可權的使用者嘗試刪除具有到期設定的 TMR，將會執行該使用者的刪除動作。
 
 ### <a name="what-skus-are-required-for-this-feature"></a>這項功能需要哪些 SKUs ?
 

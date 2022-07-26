@@ -1,9 +1,9 @@
 ---
-title: 將Teams會議室裝置註冊到受管理的服務
+title: 將 Teams 會議室裝置註冊到受管理的服務
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
-ms.reviewer: ''
+ms.date: 07/22/2022
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -17,16 +17,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: 將Teams 會議室裝置上線至受管理的服務
 f1keywords: ''
-ms.openlocfilehash: 901cf212d6eaeb7ca98b8a158de517b0687ba517
-ms.sourcegitcommit: 5bb00d639828c744951a39705fefe81ed6698efe
+ms.openlocfilehash: 124d301a37fde8802b60f3e59ad5f1a1dd19862c
+ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/20/2022
-ms.locfileid: "66167317"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67005433"
 ---
 # <a name="enroll-device-into-managed-service"></a>將裝置註冊到受管理的服務
 
-部署需要將Microsoft Teams 會議室裝置上線至Microsoft Teams 會議室管理的服務。 監控服務代理程式適用于經過認證的 Microsoft Teams Room (MTR) 系統和周邊設備。
+部署需要將Microsoft Teams 會議室裝置上線至Microsoft Teams 會議室管理的服務。 監控服務代理程式適用于經過認證的 Microsoft Teams 會議室 (MTR) 系統和周邊設備。
 
 ## <a name="prerequisites"></a>必要條件
 
@@ -35,12 +35,12 @@ ms.locfileid: "66167317"
 ### <a name="adding-proxy-settings-optional"></a>新增 Proxy 設定 (選用) 
 
 1. 以系統管理員身分登入：以[MTR 裝置管理員使用者](#performing-operations-as-the-admin-user-of-the-mtr-device)身分執行操作。
-1. 在螢幕) 左下 (的 [Windows ***Search** _ 功能變數中，輸入 _ *cmd** (長按螢幕或向右選取，然後選擇 [**_以系統管理員身_** 分執行]) 。
+1. 在螢幕) 左下 (的 [Windows ***Search** _] 欄位中，輸入 _ *cmd** (長按螢幕或向右選取，然後選擇 [ **_以系統管理員身_** 分執行]) 。
 1. 執行下列命令 (命令結尾的雙引號很重要) ：
 
    - 如果使用單一 ***Proxy 伺服器***： `bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY <proxyserver>:<port> ""`
 
-     *例子：*
+     *範例：*
 
      ```DOS
      bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL_PROXY contosoproxy.corp.net:8080 ""
@@ -48,7 +48,7 @@ ms.locfileid: "66167317"
 
    - 如果使用 ***pac*** 檔案： `bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT <pac file url>`
 
-     *例子：*
+     *範例：*
 
      ```DOS
      bitsadmin /Util /SetIEProxy LOCALSYSTEM AUTOSCRIPT `http://contosoproxy.corp.net/proxy.pac`
@@ -77,21 +77,21 @@ ms.locfileid: "66167317"
 以系統管理員身分登入裝置 (本機系統管理員) ：
 
 1. 確定您掛斷任何進行中的通話，並返回主畫面。
-1. 在 [Microsoft Teams Room 使用者介面] 中，選取 [**更多**]，然後選 **取 [設定**]，系統會提示您輸入裝置上的本機系統管理員密碼 (預設密碼為 **_sfb_**) 。
-1. 選 **取 [設定**]，然後選 **取 [Windows 設定** 以本機系統管理員身分存取Windows。
+1. 在 Microsoft Teams 會議室使用者介面中，選取  **[更多**]，然後選取 [ **設定**]，系統會提示您輸入裝置上的本機系統管理員密碼 (預設密碼為 **_sfb_**) 。
+1. 選 **取 [設定]**，然後選取  **[Windows 設定]**  以本機系統管理員身分存取 Windows。
 
-1. 從顯示在Windows登入畫面的使用者清單中 **，選取**[系統管理員 (或您裝置) 的個別本機系統管理員。
+1. 從 Windows 登入畫面中顯示的使用者清單中  **，選取** [系統管理員 (或您裝置) 的個別本機系統管理員。
 
 > [!NOTE]
 > 如果電腦 *已加入網域*，請選擇 [ **其他使用者**]，然後使用 **.\admin**，或在裝置上設定為使用者名稱的本機系統管理員使用者名稱。
 
 執行必要的系統管理工作之後，若要返回Microsoft Teams 會議室應用程式：
 
-1. 從Windows ***[開始] 功能表***，從管理員帳戶登出。
-1. 若要返回Microsoft Teams 會議室，請選取畫面最左側的使用者帳戶圖示，然後選 **取 [Skype]**。
+1. 從 Windows [***開始] 功能表*** 中，從管理員帳戶登出。
+1. 選取畫面最左側的使用者帳戶圖示，然後選取 **Skype**，即可返回Microsoft Teams 會議室。
 
 > [!NOTE]
-> 如果未列出Skype使用者，請選取 [其他使用者]，然後輸入 ***.\skype*** 做為使用者名稱，然後登入。
+> 如果未列出 Skype 使用者，請選取 [其他使用者]，然後輸入 ***.\skype*** 做為使用者名稱，然後登入。
 
 ## <a name="urls-required-for-communication"></a>通訊所需的 URL
 
@@ -116,7 +116,7 @@ mmrprodnoamstor.blob.core.windows.net
 
 註冊程式涉及下列步驟：
 
-1. 在 Microsoft Teams 會議室 – Managed Services 入口網站 [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/) 的左側導覽列上，展開 **設定**，然後選取 [**一般]**。
+1. 在 Microsoft Teams 會議室 – 受管理服務入口網站 [http://portal.rooms.microsoft.com](https://portal.rooms.microsoft.com/) 的左側導覽列上，展開 [**設定]**，然後選取 [**一般]**。
 1. 在 *[註冊聊天室] 底* 下，選取 **[下載安裝程式**  ] 以下載監控專員軟體。
 1. **選：** 設定代理程式的 Proxy 設定;請參閱 [ (選擇性) 新增 Proxy 設定](#adding-proxy-settings-optional)。
 1. 安裝在 MTR 裝置上進行步驟 2) 下載的代理程式安裝程式 (，方法是在 MTR 裝置上執行 MSI，或透過將 MSI 應用程式大量發佈到環境中裝置的標準方式， (群組原則等) 
@@ -125,17 +125,17 @@ mmrprodnoamstor.blob.core.windows.net
    ![設定和自我註冊金鑰的螢幕擷取畫面。](../media/software-installation-005new.png)
 
 > [!NOTE]
-> 如果您需要在沒有 MTR 上Teams應用程式的情況下安裝代理程式，才能登入Teams，您可以使用我們的註冊金鑰做為選擇性程式。 移至 [？] (入口網站右上角的 [說明]) ，然後選取 [下載金鑰 (選用) ]。 安裝專員時，請將先前從入口 (網站) 下載的「自我註冊金鑰」放置在裝置的 **C：\Rigel** 目錄中。
+> 如果您需要安裝代理程式，但 MTR 上沒有 Teams 應用程式可以登入 Teams，您可以使用我們的註冊金鑰做為選擇性程式。 移至 [？] (入口網站右上角的 [說明]) ，然後選取 [下載金鑰 (選用) ]。 安裝專員時，請將先前從入口 (網站) 下載的「自我註冊金鑰」放置在裝置的 **C：\Rigel** 目錄中。
 
 ## <a name="installation"></a>安裝
 
 從 Microsoft (從入口網站下載安裝程式之後，或使用上述) 提供的 AKA.ms URL，解壓縮其內容以存取檔案 **ManagedRoomsInstaller.msi**。
 
-安裝模式有兩種：1) 個別的本機電腦安裝，以及 2) 大量部署模式 (通常透過類似方法的群組原則) 。 我們建議針對未加入網域的電腦或您無法遠端執行 MSI 安裝程式的電腦個別安裝。
+安裝模式有兩種：1) 個別的本機電腦安裝，以及 2) 大量部署模式， (通常透過Intune類似的方法) 。 我們建議針對未加入網域的電腦或您無法遠端執行 MSI 安裝程式的電腦個別安裝。
 
-由於客戶可在大量部署模式中執行 MSI 應用程式的各種不同方式，本文只會逐步執行個別模式的安裝。
+由於客戶可在大量部署模式中執行 MSI 應用程式的各種不同方式，本文只會逐步執行個別模式的安裝，以及大量安裝在Intune註冊的裝置上。
 
-## <a name="individual-devicemdashdomain-joined-walkthrough"></a>加入網域的個別裝置 &mdash; 逐步解說
+### <a name="individual-device-installation"></a>個別裝置安裝
 
 1. 以系統管理員身分登入裝置。 請確定已遵循 *以裝置管理員使用者身分執行作業* 的步驟。
 
@@ -154,15 +154,58 @@ mmrprodnoamstor.blob.core.windows.net
     > [!NOTE]
     > 請勿關閉視窗。 安裝完成後，精靈會顯示「完成」按鈕。
 
+### <a name="intune-enrolled-device-bulk-deployment"></a>Intune註冊的裝置大量部署
+
+下列元件是成功安裝的先決條件： 
+
+- **Intune註冊**：Windows 裝置上的Teams 會議室必須已經在 Intune 註冊。
+  如需如何在 Intune 的 Windows 裝置上註冊Teams 會議室的詳細資訊，請參閱使用[Microsoft 端點管理員 在 Windows 裝置上註冊Microsoft Teams 會議室 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
+- **包含 Windows 裝置上所有Teams 會議室成員的 Azure AD 群組**– 在 Azure AD 中建立的群組，其中包含應為Microsoft Teams 會議室進階版服務一部分的 Windows 裝置上的所有Teams 會議室。 此群組將用於針對 MTRP 代理程式的部署。
+  
+> [!NOTE]
+> 您可以考慮將 Azure AD 中的動態群組用於此用途，如需詳細資訊，請參閱使用[Microsoft 端點管理員在 Windows 裝置上註冊Microsoft Teams 會議室 - Microsoft Tech Community](https://techcommunity.microsoft.com/t5/intune-customer-success/enrolling-microsoft-teams-rooms-on-windows-devices-with/ba-p/3246986)
+- **下載 MTRP 代理****程式安裝程式**- 從 <https://aka.ms/serviceportalagentmsi> 下載專員的 zip 檔案，並將 zip (ManagedRoomsInstaller.msi) 的內容解壓縮到本機暫存資料夾。
+
+**使用 Intune 安裝**
+
+1. 登入[Microsoft 端點管理員 系統管理中心](https://go.microsoft.com/fwlink/?linkid=2109431)。
+1. 選 **取 [應用程式**  >  **所有應用程式**  >  **新增]**。
+1. 在 [ **選取應用程式類型** ] 窗格的 [ **其他** 應用程式類型] 底下，選取 **[企業營運應用程式]**。
+1. 按一下 **[選取]**。 隨即顯示 **[新增應用程式** ] 步驟。 
+1. 在 [ **新增應用程式** ] 窗格中，按一下 **[選取應用程式套件檔案]**。
+   1. 在 **[應用程式套件檔案** ] 窗格中，選取 [  **流覽]**。 然後，選取先前下載 **的ManagedRoomsInstaller.msi** 檔案， (參閱) 的先決條件一節。
+   1. 完成後，請在 **[應用程式套件檔案**] 窗格中選取 [**確定**] 以新增應用程式。
+1. 在 **[應用程式資訊** ] 頁面中，執行下列變更：
+   1. Publisher：輸入 **Microsoft Corporation**。
+   1. 忽略應用程式版本：選取 **[是]**。
+
+      > [!NOTE]
+      > MTRP 代理程式正在自行更新;，您應該明確忽略應用程式版本 (任何比較基準版本都可以自動更新) 。
+
+   1.  (選用) 類別：選取 **[電腦管理]**。
+   
+1. 按一下 **[下一步** ] 以顯示 [ **作業]** 頁面。
+   1. 在 [ **必要** ] 區段底下，按一下 **[+ 新增群組** ]，以某一組裝置為目標以安裝專員。
+   1. 在 [ **選取群組** ] 窗格的 [搜尋] 方塊中輸入組名 (參照上方的先決條件) ，然後按一下所要的 **群組** ，然後按一下 [ **選取]**。
+      如需詳細資訊，請參閱[新增群組來組織使用者和裝置](https://go.microsoft.com/fwlink/?linkid=2202166)，以及[將應用程式指派給Microsoft Intune群組](https://go.microsoft.com/fwlink/?linkid=2202270)。
+1. 按一下 **[下一步** ] 以顯示 [ **校閱 + 建立]** 頁面。
+1. 檢閱您為應用程式輸入的值和設定。 完成後，請按一下 [**建立**]，將應用程式新增至Intune。
+
+完成程式後，您的裝置將會在幾分鐘後開始安裝 MTRP 代理程式。
+
+> [!NOTE]
+> 安裝之後，MTRP 代理程式可能需要長達八小時來執行最新版本的自我更新，並出現在 MTRP 入口網站中。
+若要加快 MTRP 入口網站中的自動註冊，請考慮依照代理程式部署重新開機 MTR 裝置。
+
 ## <a name="completing-enrollment"></a>完成註冊
 
-安裝完成後，等候 5-10 分鐘並重新整理入口網站，系統會將裝置列為上 *線狀態。*
+安裝完成後，請等候 5-10 分鐘，然後重新整理入口網站以在清單中檢視裝置， *回報為上* 線狀態。
 
 在 *上線* 狀態下，系統會顯示並更新聊天室的狀態，但不會提出任何警示或建立調查票證。
 
-選擇會議室，然後選 **取 [註冊**  ] 以開始取得事件警示、調查票證或報告事件。
+選擇會議室，然後選 **取 [註冊**  ] 以開始接收事件警示、調查票證或報告事件。
 
-如有任何疑問或問題，請在入口網站或連絡 managedroomsupport@microsoft.com 開啟客戶回報的事件。
+如有任何疑問或問題，請在入口網站中開啟客戶回報的事件，或連絡 managedroomsupport@microsoft.com。
 
 ### <a name="unenrolling-and-uninstalling-monitoring-software"></a>取消註冊和卸載監視軟體
 
@@ -171,7 +214,7 @@ mmrprodnoamstor.blob.core.windows.net
 1. 在受到監視的裝置上，以系統管理員身分登入裝置。 請務必依照 *以裝置管理員使用者身分執行操作中的* 步驟進行。
 1. 從 [aka.ms/MTRPDeviceOffBoarding](https://aka.ms/MTRPDeviceOffBoarding)下載重設腳本。
 1. 擷取裝置上某處的腳本，然後複製路徑。
-1. 以系統管理員身分開啟 PowerShell：在螢幕) 左下 (的 [Windows ***Search** _ 功能變數中，輸入 'Powershell'，然後以滑鼠右鍵按一下 _*_Windows PowerShell_**。
+1. 以系統管理員身分開啟 PowerShell：在螢幕) 左下 (的 [Windows ***Search** _] 欄位中，輸入 「Powershell」，然後以滑鼠右鍵按一下 _*_Windows PowerShell_**。
 1. 選取 *[以系統管理員身分執行]* 並接受 UAC 提示。
 1. 輸入 *Set-ExecutionPolicy –ExecutionPolicy RemoteSigned* ，然後在下一個提示按 **Y** 。
 1. 將解壓縮的登出腳本的完整路徑貼上或輸入到 PowerShell 視窗，然後按 **Enter**。
@@ -202,6 +245,6 @@ C：\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-
 |||
 |您收到錯誤訊息，指出： </p><p> ***找不到 TPM 資料***|確定您的裝置在 BIOS 中已開啟 TPM (信賴平臺模組) 。 這通常會在裝置 BIOS 的安全性設定中找到。|
 |||
-|您收到錯誤訊息： </p><p> ***錯誤：找不到名為「管理員」或「Skype」的本機使用者帳戶***|確定使用者帳戶存在於經過認證的 Microsoft Teams Room 系統裝置上。|
+|您收到錯誤訊息： </p><p> ***錯誤：找不到名為「管理員」或「Skype」的本機使用者帳戶***|確定已認證的 Microsoft Teams 會議室系統裝置上有使用者帳戶。|
 |||
-|您會收到上述未涵蓋的任何錯誤狀態訊息。|請提供安裝記錄檔的複本給Microsoft Teams系統支援專員。|
+|您會收到上述未涵蓋的任何錯誤狀態訊息。|請將安裝記錄檔的複本提供給您的 Microsoft Teams System 支援專員。|
