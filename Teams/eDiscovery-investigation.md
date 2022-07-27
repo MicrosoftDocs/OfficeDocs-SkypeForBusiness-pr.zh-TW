@@ -17,12 +17,12 @@ description: 瞭解當您需要執行電子檔探索時該怎麼辦，例如當�
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ac4aa6e8182342f36da0434aaf78123937d6d8ce
-ms.sourcegitcommit: a6f4c459b9c8154814a8a5b098bde1e374348c99
+ms.openlocfilehash: 1d548149f978764bbfbe3d0cd3475704ad6a76c2
+ms.sourcegitcommit: 9b08e2826b5b210abd9daa2ef40d4693a5000e33
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/05/2022
-ms.locfileid: "66616409"
+ms.lasthandoff: 07/27/2022
+ms.locfileid: "67039640"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>對 Microsoft Teams 中的內容進行電子檔探索調查
 
@@ -69,16 +69,13 @@ ms.locfileid: "66616409"
 
 ![Teams 中的參與者之間的交談。](media/MeetingIMConversations.png)
 
-[!div class="mx-imgBorder"]
-
 以下是在 eDiscovery 工具中檢視之相同聊天交談的合規性複本範例。
 
 ![eDiscovery 搜尋結果中的參與者之間的交談。](media/MeetingImConversation2.png)
 
 以下是會議中繼資料的範例。
 
-  > [!div class="mx-imgBorder"]
-  > ![合規性複本中的會議中繼資料。](media/conversationOption3.png)
+![合規性複本中的會議中繼資料。](media/conversationOption3.png)
 
 如需進行電子檔探索調查的詳細資訊，請參閱 [開始使用電子檔探索 (標準) ](/microsoft-365/compliance/get-started-core-ediscovery)。
 
