@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: 瞭解如何設定一個會話框線控制器 (SBC) ，為 Microsoft 合作夥伴和/或 PSTN 電信業者提供多個租使用者服務。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8880f912ae21af3bf269e86469241f345bc33f74
-ms.sourcegitcommit: f5d784df59a8010b390691bbb20c4ea66c46280b
+ms.openlocfilehash: 9d7ee3960f88b1c6ed4ee140b4f291162e37da30
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 07/26/2022
-ms.locfileid: "67005353"
+ms.locfileid: "67024016"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>設定多個租用戶的工作階段邊界控制器
 
@@ -246,7 +246,7 @@ SBC 需要憑證才能驗證連線。 針對 SBC 主機服務案例，電信業�
 例子：
 - Customers.adatum.biz – 必須在電信業者租使用者中建立的承運業者主幹。
 
-- Sbc1.customers.adatum.biz – 客戶租使用者中的衍生主幹。 您可以在線上語音路由原則中，新增客戶租使用者中衍生主幹的名稱，而不需建立。
+- Sbc1.customers.adatum.biz – 客戶租使用者中的衍生主幹。 您可以在語音路由中新增客戶租使用者中衍生主幹的名稱，而不需建立。
 
 - 承運業者必須設定 DNS 記錄，以解決衍生主幹 FQDN 到電信業者 SBC IP 位址的問題。
 

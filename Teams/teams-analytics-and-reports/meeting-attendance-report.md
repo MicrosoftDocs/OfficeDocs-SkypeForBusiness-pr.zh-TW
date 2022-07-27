@@ -17,12 +17,12 @@ description: 從 Teams 內部取得會議出席報告。 此報告補充了 Team
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: ff591bbb48a194dd7924aa329248fb56d7369cee
-ms.sourcegitcommit: 4d88637f510a78d5709d1213c3e285d83a022014
+ms.openlocfilehash: dd3ee2b46af430be271e5c257132f9b6cc8087eb
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66794471"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023754"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Microsoft Teams 會議出席報告
 
@@ -32,7 +32,7 @@ ms.locfileid: "66794471"
 
 對於教育版租用戶，此報告很適合追蹤線上課程的學生出席情況。 例如，教師可以在課程開始時下載出席報告，做為進行「點名」的簡單方法。 若要深入了解，請參閱[在 Teams 中下載出席報告](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)。
 
-如果您是系統管理員，您可以控制會議召集人是否可以設定 Teams 會議原則來下載會議出席報告。 預設會將下載報告的功能關閉。 如需如何開啟此功能的步驟，請參閱[會議原則設定 - 允許參與報告](../meeting-policies-in-teams-general.md#engagement-report)。
+如果您是系統管理員，您可以控制會議召集人是否可以設定 Teams 會議原則來下載會議出席報告。 依預設，下載報告的功能為開啟。 如需如何關閉此功能的步驟，請參閱[會議原則設定 - 允許參與報告](../meeting-policies-in-teams-general.md#engagement-report)。
 
 如果會議召集人需要存取的會議出席資料比從會議內可用的報告取得的資料還多，您可以指派 *[報告讀取者]* 角色，以便他們自行存取 Teams 系統管理員報告。 若要深入了解，請參閱[誰可以存取 Teams 活動報告](../teams-activity-reports.md#who-can-access-the-teams-activity-reports)。 
 

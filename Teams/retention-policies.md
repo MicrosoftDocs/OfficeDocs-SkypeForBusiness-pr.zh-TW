@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b6c370eee74266d2d24df4fa8e1e95904cd08386
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 508f10c07a25bb2dc3cef7af84d7dacc62989f28
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711287"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023684"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>管理 Microsoft Teams 的保留原則
 
@@ -38,7 +38,7 @@ Microsoft 365 的保留原則和保留標籤可協助您更有效地管理組織
 Microsoft Teams 支援適用於聊天和頻道訊息的保留原則，所以身為系統管理員，您可以主動決定是否要保留資料、刪除資料，或保留特定的一段時間然後刪除。 這些動作的保留期間啟動一律取決於訊息建立的時間。 您可以將 Teams 保留原則套用到整個組織或特定的使用者和小組。 Microsoft Teams 不支援保留標籤。
 
 > [!NOTE]
-> [目前預覽](shared-channels.md)的共用頻道現在受到保留政策的支援。
+> 保留原則支援[共用頻道](shared-channels.md)。
 
 若要深入了解 Microsoft 365 中的保留解決方案，請參閱 [瞭解保留原則和保留標籤](/microsoft-365/compliance/retention)。
 
@@ -66,17 +66,17 @@ Microsoft Teams 支援適用於聊天和頻道訊息的保留原則，所以身�
 
 在許多情況下，組織會認為私人聊天資料比頻道訊息有更多的責任，通常是和專案更相關的交談。
 
-您可以非常有效率地設定所有郵件的單一保留Teams策略。 或者，針對更精細的控制項，您可以：
+您可以非常有效率地為所有 Teams 訊息設定單一保留原則。 或者，如需更精細的控制措施，您可以：
 
-- 針對私人聊天分別 (1：1 或 1：) 聊天、標準頻道的郵件或私人頻道的郵件。
+- 針對私人聊天 (1：1 或 1：多聊天) 、來自標準頻道的訊息或來自私人頻道的訊息，有個別的保留原則。
 
-- 僅將原則適用于貴組織的特定使用者或團隊。 若要Teams聊天和私人頻道，您可以選取原則所適用的使用者。 如果是使用 Teams 頻道訊息，您可以選取原則要套用到哪些小組。
+- 只將原則套用至組織中的特定使用者或小組。 針對 Teams 聊天和私人頻道，您可以選取原則適用的使用者。 如果是使用 Teams 頻道訊息，您可以選取原則要套用到哪些小組。
 
-例如，針對標準頻道訊息：為貴組織的特定團隊建立保留原則，並設定該策略 1 年後的刪除動作。 然後為所有其他團隊的標準通道訊息建立另一個保留原則，然後在 3 年後使用刪除動作設定該策略。
+例如，針對標準頻道訊息：為貴組織中的特定團隊建立保留原則，並在 1 年後以刪除動作設定該原則。 然後為所有其他團隊建立另一個標準頻道訊息的保留原則，並在 3 年後以刪除動作設定該原則。
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>建立和管理 Microsoft Teams 保留原則
 
-若要建立或編輯郵件的保留Teams，請使用保留政策中的指示[Teams位置](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)。
+若要建立或編輯 Teams 訊息的保留原則，請使用 [Teams 位置保留原則的](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)指示。
 
 該頁面提供有關為 Microsoft 365 中的其他工作負載，建立和管理保留原則的其他資訊。 例如，您可能也想要為 Microsoft 365 群組建立保留原則，以保留和刪除在 Teams 中存取並儲存於 OneDrive 或 SharePoint 中的檔案。  
 
@@ -84,10 +84,10 @@ Microsoft Teams 支援適用於聊天和頻道訊息的保留原則，所以身�
 
 對於私人聊天 (1:1 聊天) 或群組聊天，使用者會看到時間早於保留原則組態的聊天遭到刪除，並在在尚未刪除的訊息上方顯示一個自動產生的訊息，表示「我們已因貴組織保留原則而刪除較舊的訊息」。 例如：
 
-:::image type="content" source="media/retention-policies-image1.png" alt-text="使用者Teams聊天訊息會因為保留Teams而刪除。":::
+:::image type="content" source="media/retention-policies-image1.png" alt-text="在 Teams 中通知使用者，聊天訊息會因為 Teams 保留原則而遭刪除。":::
 
 
-:::image type="content" source="media/retention-policies-image2.png" alt-text="系統Teams訊息的使用者會因為保留Teams而刪除。":::
+:::image type="content" source="media/retention-policies-image2.png" alt-text="Teams 中說明訊息的使用者會因為 Teams 保留原則而刪除。":::
 
 對於頻道訊息，使用者 (頻道成員) 會在訊息過期後看到已刪除的訊息在檢視中消失。 如果刪除的訊息是往來交談的父郵件，則會顯示一則訊息，說明「此訊息已因保留原則而遭到刪除」。 例如：
 
@@ -105,3 +105,4 @@ Microsoft Teams 支援適用於聊天和頻道訊息的保留原則，所以身�
 - [開始使用保留原則和保留標籤](/microsoft-365/compliance/get-started-with-retention)
 - [了解 Microsoft Teams 保留](/microsoft-365/compliance/retention-policies-teams)
 - [建立及設定保留原則](/microsoft-365/compliance/create-retention-policies)
+- 疑難排解：[保留原則意外刪除 Teams 和 Yammer 應用程式中的訊](/microsoftteams/troubleshoot/teams-im-presence/messages-unexpectedly-deleted-retention-policy)息

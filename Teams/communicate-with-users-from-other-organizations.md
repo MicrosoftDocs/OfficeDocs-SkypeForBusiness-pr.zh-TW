@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: 了解如何使用外部存取和來賓存取在 Microsoft Teams 中通話、聊天、尋找和新增來自組織外部的使用者。
-ms.openlocfilehash: c2cf4a3820cceacf1f84401161d130995ecbc98f
-ms.sourcegitcommit: d16fb01f752d186445893ea8e3b0d4450a4a0e67
+ms.openlocfilehash: 829f763c77578fdc9e17a29386ebad30e52f4986
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "65125478"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023986"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>使用來賓存取和外部存取與組織外的人員共同作業
 
@@ -42,6 +42,11 @@ ms.locfileid: "65125478"
 
 ![外部存取設定的螢幕擷取畫面。](media/external-access-federation-settings.png)
 
+下列租用戶可使用外部存取:
+
+- 橫跨和介於商用、GCC 與 GCC High
+- 僅限 DOD 之間
+
 若要設定外部存取，請參閱[管理外部存取](manage-external-access.md)。 
 
 >[!NOTE]
@@ -52,6 +57,12 @@ ms.locfileid: "65125478"
 使用來賓存取將來自組織外部的人員新增至小組，他們可在其中聊天、通話、開會及就檔案共同作業。 來賓幾乎擁有與原生小組成員相同的所有 Teams 功能。 如需詳細資訊，請參閱 [Teams 中的來賓體驗](guest-experience.md)。
 
 來賓會以 B2B 使用者的身分新增至組織的 Azure Active Directory 中，且必須使用其來賓帳戶登入 Teams。 這表示他們可能必須登出自己的組織，才能登入您的組織。
+
+來賓存取權適用於下列租用戶:
+
+- 橫跨和介於商用與 GCC
+- 僅限 GCC High 之間
+- 僅限 DOD 之間
 
 若要為 Teams 設定來賓存取，請參閱[在小組中與來賓共同作業](/microsoft-365/solutions/collaborate-as-team)。
 

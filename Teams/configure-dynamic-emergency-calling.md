@@ -18,12 +18,12 @@ description: 瞭解如何設定 Microsoft 通話方案和電話系統直接路�
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9da8f8f082812063de7d2fb81c7d5b716ad1e07a
-ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
+ms.openlocfilehash: bc7fb0ae87cda84dfbf7b164d38b709b7ef2eef9
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66972788"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023694"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>規劃和設定動態緊急電話 
 
@@ -156,7 +156,7 @@ Azure 地圖服務用於位置型服務。 當您使用 Microsoft Teams 系統�
 
 - 如果需要動態啟用緊急通話或動態設定安全性辦公桌通知，則必須同時設定信任的 IP 位址和網路網站。
 
-- 如果只需要動態位置，您必須只設定信任的 IP 位址;您不需要設定元工作設定。
+- 如果只需要動態位置，您必須只設定信任的 IP 位址;不需要設定網路設定。
 
 - 如果兩者都不需要，則不需要設定網路設定。
 

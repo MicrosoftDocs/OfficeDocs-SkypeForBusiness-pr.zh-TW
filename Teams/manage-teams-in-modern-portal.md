@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 735fc17c7e82c1c2362b235508b28b9b4a392439
-ms.sourcegitcommit: 472e46b6eb907f41920516616683a61f0fc6f741
+ms.openlocfilehash: d99dacdd0580d2ee9eaf775d843c5c46a0960259
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2022
-ms.locfileid: "66563971"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023996"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>在 Microsoft Teams 系統管理中心管理團隊
 
@@ -58,7 +58,7 @@ Teams 的管理工具位於 Microsoft Teams 系統管理中心的 **Teams** 節�
 - **隱私權** - 支援 Microsoft 365 群組的 Visibility/AccessType。
 - **狀態** - 此團隊的已封存或使用中狀態。 深入瞭解在 [封存或還原團隊](https://support.office.com/article/archive-or-restore-a-team-dc161cfd-b328-440f-974b-5da5bd98b5a7) 中的封存 Teams。
 - **描述** - 支援 Microsoft 365 群組的描述。
-- **分類** - 指派給支援 Microsoft 365 群組的分類 (若用於您的組織)。 深入了解位於 [在貴組織中建立適用於 Office 群組的分類](/office365/enterprise/powershell/manage-office-365-groups-with-powershell#create-classifications-for-office-groups-in-your-organization) 的分類。
+- **分類** - 指派給支援 Microsoft 365 群組的分類 (若用於您的組織)。 深入了解位於[在貴組織中建立適用於 Microsoft 365 群組分類](/microsoft-365/enterprise/manage-microsoft-365-groups-with-powershell#create-classifications-for-microsoft-365-groups-in-your-organization)的分類。
 - **GroupID** - 支援 Microsoft 365 群組的唯一 GroupID。
 
 > [!NOTE]

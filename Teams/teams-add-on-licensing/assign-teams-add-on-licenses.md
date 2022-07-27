@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 瞭解如何針對音訊會議、電話系統和通話方案等功能，將 Teams 附加元件授權指派給使用者。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 380abec55466d831722c76c9e552055378ecf1df
-ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+ms.openlocfilehash: 07196e26f38042b6046d6761bd60dfad64f89c7d
+ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "66838818"
+ms.lasthandoff: 07/26/2022
+ms.locfileid: "67023674"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>指派 Teams 附加元件授權給使用者
 
@@ -64,18 +64,10 @@ ms.locfileid: "66838818"
 
 以下是如何使用腳本將授權指派給使用者的範例。
 
-1. 安裝 64 位版本的 [適用于 IT 專業人員 RTW 的 Microsoft Online Services 登入小幫手](/collaborate/connect-redirect?DownloadID=59185)。
-2. 安裝 Windows PowerShell 的Microsoft Azure Active Directory模組：
-    1. 開啟提升許可權的Windows PowerShell命令提示字元 (以系統管理員) Windows PowerShell執行。
-    2. 執行下列命令：
-        ```powershell
-        Install-Module MSOnline
-        ```
-    3. 如果系統提示您安裝 NuGet 提供者，請輸入 **Y**，然後按 Enter。
-    4. 如果系統提示您從 PSGallery 安裝模組，請輸入 **Y**，然後按 Enter。
-3. 在Windows PowerShell命令提示字元中，執行下列腳本以指派授權給使用者，您的組織名稱和 \<CompanyName:License> 您要指派之授權的識別碼在哪裡。 例如，litwareinc：MCOMEETADV。
+1. [安裝 Windows PowerShell 的Microsoft Azure Active Directory模組](/powershell/azure/active-directory/install-msonlinev1)。
+2. 在Windows PowerShell命令提示字元中，執行下列腳本以指派授權給使用者，您的組織名稱和 `CompanyName:License` 您要指派之授權的識別碼在哪裡。 例如， `litwareinc:MCOMEETADV` .
 
-    識別碼與授權的易記名稱不同。 例如，音訊會議的識別碼是 MCOMEETADV。 若要深入瞭解，請參閱 [授權用的產品名稱和 SKU 識別碼](#product-names-and-sku-identifiers-for-licensing)。
+    識別碼與授權的易記名稱不同。 例如，音訊會議的識別碼是 `MCOMEETADV` 。 若要深入瞭解，請參閱 [授權用的產品名稱和 SKU 識別碼](#product-names-and-sku-identifiers-for-licensing)。
 
     ```powershell
     #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.
