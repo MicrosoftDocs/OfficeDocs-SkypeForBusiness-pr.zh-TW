@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: 瞭解哪些電話機和會議電話經過 Microsoft Teams 認證，以產生最佳結果。
-ms.openlocfilehash: 9708efebd884684e825ecd493f9b1cb124a1a95e
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 0fd39009285f411fce3719cac3b8e6f2b0673c59
+ms.sourcegitcommit: 08fe98cc6760028bdd1946ecc5d4ec61ce65e096
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023794"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67058924"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams 認證的 Android 裝置
 
@@ -357,6 +357,7 @@ Microsoft Teams 裝置認證計畫確保認證裝置符合高標準，在整個 
 
 | 裝置型號  | 韌體版本 | 包含的產品版本|
 |:--------------|:-----------------|:-------------------------|
+|Cres括弧 Touchpanel TSS-1070 / TSS-770 | `2.001.0058 ` | 2022 更新 #1|
 |[記錄] 點選 [排程器] | `1.6.762` |2022 更新 #2  |
 |[整齊的鍵檯面板] |NFA1.20220512.2158 | 2022 更新 #2 |
 |[記錄] 點選 [排程器] | `1.6.215` |2022 更新#1A  |
