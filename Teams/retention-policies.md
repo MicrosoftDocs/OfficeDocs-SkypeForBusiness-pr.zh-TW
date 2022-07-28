@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 508f10c07a25bb2dc3cef7af84d7dacc62989f28
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 000c279c32237fd7477a375bf9968db03ec5376d
+ms.sourcegitcommit: 644374fcad6372494e87d729de690af4c060f635
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023684"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "67054924"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>管理 Microsoft Teams 的保留原則
 
@@ -42,7 +42,7 @@ Microsoft Teams 支援適用於聊天和頻道訊息的保留原則，所以身�
 
 若要深入了解 Microsoft 365 中的保留解決方案，請參閱 [瞭解保留原則和保留標籤](/microsoft-365/compliance/retention)。
 
-受 Microsoft Teams 保留原則限制的使用者必須擁有適當的授權，例如 Office 365 E3 或 Office 365 A3。 有關這些保留原則的其他授權選項，請參閱 [Microsoft 365 安全性與合規性的授權指引](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) 中的 [資訊控管](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance) 章節。 若要深入瞭解 Microsoft Teams 授權，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
+受 Microsoft Teams 保留原則限制的使用者必須擁有適當的授權，例如 Office 365 E3 或 Office 365 A3。 如需這些保留原則的其他授權選項，請參閱[Microsoft 365 安全性&合規性授權指導方針的Microsoft Purview 資料生命週期管理](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-governance)一節。[ ](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#microsoft-purview-data-lifecycle-management) 若要深入瞭解 Microsoft Teams 授權，請參閱 [Microsoft Teams 服務描述](/office365/servicedescriptions/teams-service-description)。
 
 ## <a name="how-teams-retention-policies-support-retain-and-delete-actions"></a>Microsoft Teams 保留原則支援保留和刪除動作的方式
 
