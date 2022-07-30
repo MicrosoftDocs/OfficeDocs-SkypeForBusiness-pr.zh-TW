@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解支援Microsoft Teams 會議室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3d8084c1136ef462dcced10b73879d2de2a48671
-ms.sourcegitcommit: 0dda332951df3b946097d90a4923eb191fd86b4c
+ms.openlocfilehash: fc7c56ff41eb5d5cab01162468acf6b4dd11b344
+ms.sourcegitcommit: 3f6ae7946b64e857f6358019be2f0fdf19a207ad
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2022
-ms.locfileid: "66789758"
+ms.lasthandoff: 07/29/2022
+ms.locfileid: "67074641"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
@@ -30,7 +30,7 @@ Microsoft Teams 會議室調整為不同的房間大小。 Teams 會議室根據
 
 您的部署涉及建立和設定Teams 會議室的資源帳戶，如[部署Microsoft Teams 會議室中](rooms-deploy.md)所述。
 
-請參閱：
+指：
 
 - [根據您方案的授權選項：Microsoft Teams 會議室](rooms-licensing.md)
 
@@ -133,8 +133,8 @@ Microsoft Teams 會議室調整為不同的房間大小。 Teams 會議室根據
 
 這些裝置可在[會議室系統配件產品展示](https://products.office.com/microsoft-teams/across-devices/devices/category?devicetype=73&page=1&filterIds=)和 [https://office.com/teamsdevices](https://office.com/teamsdevices) 中取得。
 
-|Microsoft Teams 會議室週邊設備|認證的韌體版本 | 相機支援內容相機使用|
-|:--- |:--- | :--- |
+|Microsoft Teams 會議室週邊設備|認證的韌體版本 | 支援內容相機|智慧型相機|
+|:--- |:--- | :--- |:--- |
 |[Aver VC520 專業相機 + 免持聽筒](https://www.averusa.com/products/conference-camera/vc520pro) |1004.35|
 |[Aver VC520 PRO2 會議系統](https://www.averusa.com/products/conference-camera/vc520pro2) | 00.0.7200.79 |
 |[Aver VB342+ 相機音效列](https://www.averusa.com/products/conference-camera/vb342plus) | 音效列：0.0.0000.97|
@@ -158,7 +158,7 @@ Microsoft Teams 會議室調整為不同的房間大小。 Teams 會議室根據
 |配備 Cresenovo UC-M70-T MTR 套件的 Huddly L1 相機 | Huddly L1 相機：1.2.1 </br> Cres tenant UC-M70-T with ASUS Tek Computer INC 9934 compute 1.0.20.246 或更新版本 |
 |配備 Cres 要點 UC-MX70-T MTR 套件的 Huddly L1 相機 | Huddly L1 相機：1.2.1 </br> Cres tenant UC-MX70-T with ASUS Tek Computer INC 9934 compute 1.0.20.246 或更新版本 |
 |[Jabra Panacast3 相機](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
-|[Jabra Panacast 50 視訊列](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|3.4.0| &#x2714; |
+|[Jabra Panacast 50 視訊列](https://www.jabra.com/business/video-conferencing/jabra-panacast-50)|4.0.15| &#x2714; | &#x2714;|
 |[Lenovo ThinkSmart Cam Camera](https://www.lenovo.com/us/en/accessories-and-monitors/webcams-and-video/webcams/SMARTOF-BO-ThinkSmart-Cam/p/4Y71C41660)|1.0.111.4|
 |[Lenovo ThinkSmart Bar](https://www.lenovo.com/us/en/virtual-reality-and-smart-devices/smart-collaboration/thinksmart/ThinkSmart-Bar/p/11SP1TSSDBR)|0.9.3|
 |Lenovo ThinkSmart Bar Expand XL|5.9.5|
