@@ -13,12 +13,12 @@ ms.collection:
 description: 瞭解 Teams PowerShell 中的最新變更。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 96f2b119c36b26a0c8805bcce29edc2830e1568f
-ms.sourcegitcommit: 2871c05e00458a0cc76d919ff822b0b354bd1f72
+ms.openlocfilehash: 355188b2c9e3e563be7e48eb30bee6884d67b04c
+ms.sourcegitcommit: 3335cdff195be42b87f1e00348214e16cc490c7f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/15/2022
-ms.locfileid: "66810115"
+ms.lasthandoff: 07/30/2022
+ms.locfileid: "67077628"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell 版本資訊
 
@@ -31,6 +31,7 @@ ms.locfileid: "66810115"
 
 | 日期 | 版本 | 更新 |
 |------- | -------------------- | ------------------------------ |
+| 2022 年 7 月 | [4.6.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.6.0) |<li>釋出 Get-CsOnlineUser Cmdlet 的 AccountType 參數，可查詢特定類型的使用者。</li><li>AccountType 屬性會新增到指出使用者類型的Get-CsOnlineUser輸出中。 AccountType 的可能值為：[使用者] (使用者帳戶) 、app 端點或資源帳戶 (的 [ResourceAccount]) 、「來賓」 (來賓帳戶) &「未知」 (使用者類型為未知) 。</li><li>修正 Grant-Cs \<PolicyName\> Cmdlet 中 Rank & Group 參數的問題。</li><li>發行 [取得 \| 設定 \| 新的 \| 移除授與 \| ]-CsTeamsEventsPolicy Cmdlets。</li><li>移除所有已取代的&不支援的 Cmdlet。 [Teams PowerShell 支援版本](teams-powershell-supported-versions.md#deprecated-cmdlets)的詳細資料。</li><li>發行現代化版本的 [New \| Get]-CsCloudCallDataConnection Cmdlets。</li><li>版本 [取得 \| 移除]-SharedWithTeam Cmdlet。</li><li>版本Get-TeamAllChannel Cmdlet。</li><li>版本Get-TeamIncomingChannel Cmdlet。</li><li>版本Get-AssociatedTeam Cmdlet。</li><li>版本Get-SharedWithTeamUser Cmdlet。</li><li>支援 Add-TeamChannelUser Cmdlet 的 TenantId 選擇性參數。</li><li>版本Get-TeamTargetingHierarchyStatus & [移除 \| 集]-TeamTargetingHierarGet-TeamTargetingHierarchyStatus & Cmdlet。</li>
 | 2022 年 7 月 | [4.5.1-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.1-preview) |<li>釋出 Get-CsOnlineUser Cmdlet 的 AccountType 參數，可查詢特定類型的使用者。</li><li>AccountType 屬性會新增到指出使用者類型的Get-CsOnlineUser輸出中。 AccountType 的可能值為：[使用者] (使用者帳戶) 、app 端點或資源帳戶 (的 [ResourceAccount]) 、「來賓」 (來賓帳戶) &「未知」 (使用者類型為未知) 。</li><li>修正 Grant-Cs \<PolicyName\> Cmdlet 中 Rank & Group 參數的問題。</li>
 | 2022 年 6 月 | [4.5.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.5.0) |<li>支援 Get-CsAutoAttendantStatus Cmdlet 的 IncludeResources 參數。</li><li>支援 Get-CsOnlineUser Cmdlet 的 SoftDeletedUsers 參數。</li><li>Releases [Get \| Grant]-CsTeamsMediaLoggingPolicy Cmdlets.</li><li>支援 [New \| Set]-CsAutoAttendant & [New \| Set]-CsCallQueue Cmdlet 的 AuthorizedUsers 選擇性參數。</li><li>修正已設定Set-CsCallQueue Cmdlet 之後，無法切換提示輸入的共用語音信箱提示參數。</li><li> 修正 [新 \| 集合]-CsOnlineSchedule Cmdlet 以歐洲日期時間格式運作。</li><li>版本 [新 \| Get Set \| \| Remove \| Grant]-CsTeamsVoiceApplicationsPolicy Cmdlets.</li><li>版本Get-CsHybridTelephoneNumber Cmdlet。</li><li>發行新式版本的 [New \| Remove]-CsHybridTelephoneNumber Cmdlets。</li><li>支援 ToneStar 和 TonePound 做為 New-CsAutoAttendantMenuOption Cmdlet 中 DtmfResponse 參數的值。</li><li> 修正現代化 Set-CsTenantFederationConfiguration Cmdlet 中 AllowedDomainsAsAList 參數中的 PSListModifier 問題。</li><li> 支援所有 Grant-Cs Cmdlet 的 \<PolicyName\> Group 和 Rank 參數。</li><li> 版本Test-CsTeamsTranslationRule Cmdlet。</li>
 | 2022 年 6 月 | [4.4.3-preview](https://www.powershellgallery.com/packages/MicrosoftTeams/4.4.3-preview) |<li>支援 Get-CsAutoAttendantStatus Cmdlet 的 IncludeResources 參數。</li><li>支援 Get-CsOnlineUser Cmdlet 的 SoftDeletedUsers 參數。</li><li>Releases [Get \| Grant]-CsTeamsMediaLoggingPolicy Cmdlets.</li><li>支援 [New \| Set]-CsAutoAttendant & [New \| Set]-CsCallQueue Cmdlet 的 AuthorizedUsers 選擇性參數。</li><li>修正已設定Set-CsCallQueue Cmdlet 之後，無法切換提示輸入的共用語音信箱提示參數。</li><li> 修正 [新 \| 集合]-CsOnlineSchedule Cmdlet 以歐洲日期時間格式運作。</li>
