@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 瞭解如何取得 Teams 的新號碼、移轉號碼或移轉現有號碼，以及如何向使用者顯示變更。
-ms.openlocfilehash: 18dd5a84110dc25721d9f8c027dffe861d29cbd1
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: b0ed990cd16a7e4878c2819a95fac29f46a9d770
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682542"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156541"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>為您的使用者取得電話號碼
 
@@ -42,31 +42,34 @@ ms.locfileid: "66682542"
   
 > [!NOTE]
 > 如果您需要為組織設定電話號碼的協助，請[連絡商務產品支援連絡人 - 管理員說明]](/microsoft-365/admin/contact-support-for-business-products)。
+
 ## <a name="get-new-phone-numbers-for-your-users"></a>為您的使用者取得新的電話號碼
 
- **使用 Microsoft Teams 系統管理中心**
+**使用 Microsoft Teams 系統管理中心**
 
 您必須是 Teams 服務系統管理員才能進行這些變更。 請參閱[使用 Teams 系統管理員角色來管理 Teams](./using-admin-roles.md)，以了解取得系統管理員角色和權限。
 
 1. 移至 Microsoft Teams 管理員中心。
 
-2. 在左側導覽畫面中，移至 **[語音**  >  **電話號碼]**，然後按一下 [**新增]**。
+2. 在左側導覽中，移至 **[語音**  >  **電話號碼]**，然後選取 [**新增]**。
 
 3. 輸入訂單名稱並新增描述。
 
 4. 在 [位置及數量] 頁面上，執行下列動作：
     1. 在 [ **國家或地區]** 底下，選取國家或地區。
     2. 在 **[數數值型別]** 底下，選 **取 [使用者 (訂閱者)**] 。
-    3. 在 [ **位置] 底** 下，選取一個位置。 如果您需要建立新的位置，請按一下 [ **新增位置]**。
+    3. 在 [ **位置] 底** 下，選取一個位置。 如果您需要建立新的位置，請選取 [ **新增位置]**。
     4. 在 **[區碼]** 底下，選取區碼。
-    5. 在 [ **數量**] 底下，輸入您想要的組織數位，然後按一下 [ **下一步** ] 選取您的數位。
+    5. 在 [ **數量**] 底下，輸入您想要的組織數位，然後選取 [ **下一步** ] 以選取您的數位。
 
 5. 選取您要的數位。 您有 10 分鐘的時間可以選取電話號碼並下單。 如果您花費超過 10 分鐘，電話號碼會回到號碼集區。
 
-6. 當您準備好下單時，按一下 [ **下單]**。
+6. 當您準備好下單時，選取 [ **下單]**。
 
     > [!IMPORTANT]
-    >  (訂閱者) 使用者的電話號碼等於您已指派的 **國內通話方案****和國際通話方案** 授權總數乘以 1.1，再加上 10 個額外的電話號碼。 例如，如果您有 50 個使用者擁有國內通話方案和/或國際通話方案，您可以取得 **65** 個電話號碼 **(50 x 1.1 + 10)**。 如需詳細資料，請參閱 [您可以取得多少電話號碼？](./how-many-phone-numbers-can-you-get.md)。 如果您需要取得的電話號碼超過此數量，請[連絡商務產品支援連絡人 - 管理員說明]](/microsoft-365/admin/contact-support-for-business-products)。
+    >  (訂閱者) 使用者的電話號碼等於您已指派的 **國內通話方案****和國際通話方案** 授權總數乘以 1.1，再加上 10 個額外的電話號碼。 例如，如果您有 50 個使用者擁有國內通話方案和/或國際通話方案，您可以取得 **65** 個電話號碼 **(50 x 1.1 + 10)**。 請注意，如果您有「隨付即用」通話方案，則每指派的授權只能取得 1 個電話號碼。
+    >
+    > 如需詳細資料，請參閱 [您可以取得多少電話號碼？](./how-many-phone-numbers-can-you-get.md)。 如果您需要取得的電話號碼超過此數量，請[連絡商務產品支援連絡人 - 管理員說明]](/microsoft-365/admin/contact-support-for-business-products)。
   
 ## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>從您的服務提供者或電信業者移轉電話號碼
   
@@ -76,7 +79,7 @@ ms.locfileid: "66682542"
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>檢視貴組織的電話號碼
 
- **使用 Microsoft Teams 系統管理中心**
+**使用 Microsoft Teams 系統管理中心**
 
 在系統管理中心的左側導覽畫面中，移至 **[語音**  >  **電話號碼**] 檢視貴組織的號碼，包括位置、號碼類型和狀態資訊。
   
@@ -87,7 +90,7 @@ ms.locfileid: "66682542"
 > [!NOTE]
 > 如果您需要取得的電話號碼超過此數量，請[連絡商務產品支援連絡人 - 管理員說明]](/microsoft-365/admin/contact-support-for-business-products)。
 
-## <a name="related-topics"></a>相關主題
+## <a name="related-articles"></a>相關文章
 
 [移轉電話號碼的常見問題](./phone-number-calling-plans/port-order-overview.md)
 

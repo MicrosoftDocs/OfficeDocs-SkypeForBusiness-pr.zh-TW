@@ -29,47 +29,49 @@ ms.custom:
 - O365P_SFBVoiceCredit
 - O365P_SFBVoiceCreditAether
 - Licensing
-description: '瞭解如何支付 PSTN (PSTN 消費) 服務商務用 Skype，並查看讓使用者持續使用電話系統存取權的計畫。 '
-ms.openlocfilehash: 3d2b6eb0a1f487794cc93f9639e49e9557ca4fcd
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+description: '瞭解如何支付 商務用 Skype 服務的通訊點數 (PSTN 消費) ，並查看讓使用者能夠持續存取電話系統的計畫。 '
+ms.openlocfilehash: 0e8c737f8ed1ac4537c4453d77cc284719fb8086
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942046"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156641"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>加值和管理通訊點數
 
-通訊信用額度是一種在 電話系統 或 Microsoft 365 通話方案Microsoft 365 Office 365。 通訊信用額度有助於確保您和使用者不會因為無法：
+通訊點數是 Microsoft 365 或 Office 365 中電話系統與通話方案的便利付款條件。 通訊點數可協助確保您和您的使用者在無法存取的情況下永遠不會被抓到：
   
-- 使用免付費電話撥入電話號碼撥入音訊會議。
+- 使用免付費撥入電話號碼撥入音訊會議。
 
-- 從音訊會議撥出，從世界任何地方新增其他人。
+- 從音訊會議撥出電話，即可從世界各地新增其他人。
 
-- 從音訊會議會議撥出到行動電話，商務用 Skype或Microsoft Teams應用程式。
+- 在已安裝商務用 Skype或 Microsoft Teams 應用程式的情況下，從音訊會議撥出到您的行動電話。
 
-- 當您有國內通話方案時，撥打 **任何國際電話號碼**。
+- 當您有 **國內通話方案** 時，撥打任何國際電話號碼。
 
-- 一旦用盡每月的分鐘分配，請撥出並按分鐘付款。
+- 一旦您將每月分鐘分配用盡後，每分鐘撥出並支付一次。
+
+- 如果您有隨選即用的通話方案，則所有撥出電話每分鐘撥出並支付一次。
 
 > [!NOTE]
-> 如果您想知道費用與費率，請參閱通話方案頁面上的 [費率](https://go.microsoft.com/fwlink/p/?LinkId=799523) 資料表。
+> 如果您想知道金額和費率，請參閱 [通話方案](https://go.microsoft.com/fwlink/p/?LinkId=799523) 頁面上的費率資料表。
   
-做為系統管理員，您可以手動新增資金，也可以設定自動加值，我們建議 **這樣做**。
+身為系統管理員，您可以手動新增資金，也可以設定自動加值功能，我們 **建議您執行此動作**。
   
-當餘額低於您設定觸發金額時，自動充值會自動超過您的餘額。 我們建議您使用自動加價，這樣您就不必記得手動新增資金。 當您的餘額達到觸發金額時，系統會自動新增資金。 如果您沒有選擇自動充值，則您的餘額風險會低於零。 此時，您和您的使用者將無法撥打免付費電話或國際電話。
+當餘額低於您設定的觸發金額時，自動加值會自動加值餘額。 我們建議您使用自動加值功能，這樣您就不需要記得手動新增額度。 當您的餘額達到觸發金額時，就會自動新增資金。 如果您沒有選擇自動加值，就會承擔餘額低於零的風險。 此時，您和您的使用者將無法撥打免付費電話或國際電話。
   
-您隨時都可以更新您的付款選項。 在訂閱 **頁面上** ，選取 **通訊信用額度**，然後進行更新。
+您可以隨時更新您的付款選項。 在 [ **訂閱] 頁面上** ，選取 **[通訊點數**]，然後進行更新。
   
-當服務使用時，資金只會以 Microsoft 的發行費率，適用于通訊信用額度。 在購買日期後 12 個月內未使用的任何資金將會過期並予以沒收。
+資金只會套用至使用服務時，Microsoft 所公佈費率的通訊點數。 在購買日期的 12 個月內未使用的任何資金將會過期並失效。
   
 > [!TIP]
-> 當您透過自動加值新增資金、自動加值失敗時 (例如信用卡到期) ，以及餘額達到零時，我們會傳送電子郵件通知。
+> 當透過自動加值新增資金、自動加值失敗 (例如信用卡到期) ，以及您的餘額達到零時，我們會傳送電子郵件通知給您。
   
-詳細資訊請參閱 [什麼是通訊信用額度？](what-are-communications-credits.md)
+如需詳細資訊，請參閱 [什麼是通訊點數？](what-are-communications-credits.md)
   
 ## <a name="want-to-know-about-plans-and-pricing"></a>想要瞭解方案與價格
 
-您可以流覽下列其中一個連結來查看方案與價格：
+您可以流覽下列其中一個連結來查看方案和價格：
   
 - [通話方案](https://go.microsoft.com/fwlink/?LinkId=799761 )
 
@@ -77,14 +79,14 @@ ms.locfileid: "59942046"
 
 - [電話系統方案](https://go.microsoft.com/fwlink/?LinkId=799763)
 
-您也可以登錄訂閱，並進入帳單訂閱新增訂閱Microsoft 365 系統管理中心  >  **查看**  >  **資訊**。
+您也可以登入Microsoft 365 系統管理中心並移至 **[計費**  >  **訂閱**  >  新增 **訂閱**] 來查看資訊。
   
-若要查看每個功能所需的授權或授權資料表，請參閱Microsoft Teams[附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
+若要查看每個功能所需的授權或授權資料表，請參閱 [Microsoft Teams 附加](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)元件授權。
   
-## <a name="related-topics"></a>相關主題
+## <a name="related-articles"></a>相關文章
 
 - [設定商務用 Skype Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
 - [設定雲端語音信箱 - 管理說明](set-up-phone-system-voicemail.md)
 
-- [設定通話方案](set-up-calling-plans.md)及通話方案[Microsoft 365或Office 365](calling-plans-for-office-365.md)
+- [設定](set-up-calling-plans.md) [Microsoft 365 或 Office 365 的通話方案和通話方案](calling-plans-for-office-365.md)

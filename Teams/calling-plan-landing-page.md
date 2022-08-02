@@ -18,12 +18,12 @@ description: 決定哪一個 Microsoft 電話系統通話方案最適合在 Team
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e11c6f6cbb53808ba259afd90420ac9855c9731d
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 0040814b12e98c4f44d1dff5939651938580fa4d
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682472"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156551"
 ---
 # <a name="which-calling-plan-is-right-for-you"></a>哪一個通話方案適合您？
 
@@ -43,18 +43,19 @@ ms.locfileid: "66682472"
 
 若要使用 Microsoft 做為電話語音電信業者，您必須取得通話方案授權，並將授權指派給您的電話系統使用者。
 
-有兩種類型的通話方案可用：
+有三種可用的通話方案類型：
 
 - 國內通話方案
 - 國際通話方案
+- 隨手付費通話方案
 
-|問問自己|動作 |
-|------------|-------|
-|我的區域是否提供通話方案？ 哪些使用者位置將提供通話方案服務？ | 如需詳細資訊，請參閱 [音訊會議和通話方案的國家/地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
-我的使用者需要國際電話嗎？ | 如需詳細資訊，請參閱[Microsoft 365 或 Office 365 通話方案](calling-plans-for-office-365.md)。 |
-我的使用者是否擁有通話方案授權？ | 若要購買及指派授權，請參閱 [步驟 2：購買並指派授權](set-up-calling-plans.md#step-2-buy-and-assign-licenses)。 |
-我的每個使用者是否有直接向內撥號 (是否) 電話號碼？ | 若要取得電話號碼，請參閱 [步驟 3：取得電話號碼](set-up-calling-plans.md#step-3-get-phone-numbers)。 |
-|||
+| 問問自己 | 動作 |
+|--------------|--------|
+| 我的區域是否提供通話方案？ 哪些使用者位置將提供通話方案服務？ | 如需詳細資訊，請參閱 [音訊會議和通話方案的國家/地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
+| 我的使用者需要國際電話嗎？ | 如需詳細資訊，請參閱[Microsoft 365 或 Office 365 通話方案](calling-plans-for-office-365.md)。 |
+| 如果我的某些使用者未撥打大量撥出電話，「隨付即用」通話方案是他們最經濟的選擇嗎？ | 如需詳細資訊，請參閱[Microsoft 365 或 Office 365 通話方案](calling-plans-for-office-365.md)。 |
+| 我的使用者是否擁有通話方案授權？ | 若要購買及指派授權，請參閱 [步驟 2：購買並指派授權](set-up-calling-plans.md#step-2-buy-and-assign-licenses)。 |
+| 我的每個使用者是否有直接向內撥號 (是否) 電話號碼？ | 若要取得電話號碼，請參閱 [步驟 3：取得電話號碼](set-up-calling-plans.md#step-3-get-phone-numbers)。 |
 
 ### <a name="transfer-phone-numbers-to-microsoft-365-or-office-365"></a>將電話號碼移轉到 Microsoft 365 或 Office 365
 

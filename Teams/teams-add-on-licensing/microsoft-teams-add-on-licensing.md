@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: 瞭解 Microsoft Teams 的附加元件授權，以及您取得的每個授權功能。
-ms.openlocfilehash: a44851194543c58fed7f3449fcbe5b4bedbf6074
-ms.sourcegitcommit: 791d0a341ff873145fa893ece05055729b0b8d50
+ms.openlocfilehash: b4c416720a618cff106552126e0f7e1aaa87b1bc
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/18/2022
-ms.locfileid: "66838828"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156801"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Microsoft Teams 附加元件授權
 
@@ -42,7 +42,7 @@ ms.locfileid: "66838828"
 |**Microsoft 365 Business Voice** <br/> |Business Voice 是 Microsoft 中小型企業的語音功能套件，但從 2022 年 3 月 1 日開始將不再提供購買。 目前的商務語音訂閱者可以續約其商務語音授權，直到 2022 年 6 月 30 日為止。 <br/> <br/> 如果您是中小型企業，如果可在您所在地區使用，建議您購買 Teams [Phone 搭配通話方案授權](../business-voice/whats-business-voice.md)。 <br/> <br/> 或者，您可以購買Teams 電話標準方案授權，讓您連線到慣用的協力廠商 PSTN 提供者。 |
 |**Teams Phone 與通話方案套件組合** <br/> |含通話方案授權的 Teams 電話會搭售 Teams 電話系統的 PBX 功能和 PSTN 連線的國內通話方案。 <br/> |
 |**Teams 電話標準方案** <br/> |[Teams Phone System](../what-is-phone-system-in-office-365.md) 是一種託管電話語音，可提供通話控制和 Private Branch Exchange (PBX) 功能。 Teams 電話標準方案授權可提供您所有 Teams 電話系統功能，例如雲端語音信箱、來電者識別碼、通話駐留、來電轉接、自動語音應答、通話佇列、來電轉接和來電者識別碼。 <br/> <br/>若要深入瞭解電話系統，請參閱 [Teams Phone System 的功能如下](../here-s-what-you-get-with-phone-system.md)。 <br/> |
-|**Microsoft Teams 通話方案** <br/> |如果您希望使用者能夠撥打組織外部的電話號碼，您可以購買[Microsoft Teams 通話方案](../calling-plans-for-office-365.md)以以 PSTN 提供者身分與 Microsoft 連線至 PSTN 電話號碼。 有國內通話方案及國際通話方案。 <br/> <br/> 若要瞭解您的國家或地區是否提供 Teams 通話方案，請參閱音訊 [會議和通話方案的國家/地區和地區可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
+|**Microsoft Teams 通話方案** <br/> |如果您希望使用者能夠撥打組織外部的電話號碼，您可以購買[Microsoft Teams 通話方案](../calling-plans-for-office-365.md)以以 PSTN 提供者身分與 Microsoft 連線至 PSTN 電話號碼。 有國內通話方案、國際通話方案和隨選即用通話方案。 <br/> <br/> 若要瞭解您的國家或地區是否提供 Teams 通話方案，請參閱音訊 [會議和通話方案的國家/地區和地區可用性](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 |
 |**通訊點數** | 如果您的所有通話方案分鐘數都已在下個月開始之前使用，通訊點數提供每月的分鐘數集合，也可用於 PSTN 電話。 如果您想要音訊會議、自動語音應答或通話佇列的免付費電話號碼，您必須 [設定通訊點數](../set-up-communications-credits-for-your-organization.md)。 <br/> |
 |**音訊會議** <br/> |有時候貴組織中的人員需要使用電話撥入 Teams 會議，而非使用電腦。 為排程或與需要使用電話撥入會議的出席者安排或主持會議的使用者設定[音訊會議](../set-up-audio-conferencing-in-teams.md)。 <br/> <br/>若要了解您的國家/地區是否可使用音訊會議，請參閱[音訊會議與通話方案的適用國家和地區](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)。 如需定價資訊，請參閱[音訊會議的定價](https://go.microsoft.com/fwlink/?linkid=799762)。  <br/> <br/>組織現在可以使用協力廠商運算子來進行音訊會議號碼。 如需詳細資訊，請參閱[規劃電信業者連線會議](../operator-connect-conferencing-plan.md)。 <br/>|
 |**Microsoft Teams 會議室** <br/> | Microsoft Teams 會議室是額外的 Microsoft Teams 產品，可將視訊、音訊和內容共用帶入會議室。 組織可以針對這些功能購買Microsoft Teams 會議室獨立授權。 如需詳細資訊，請參閱 [Teams 會議室授權](../rooms/rooms-licensing.md)。 <br/>|
