@@ -16,12 +16,12 @@ ms.reviewer: mikedav
 description: 瞭解如何針對音訊會議、電話系統和通話方案等功能，將 Teams 附加元件授權指派給使用者。
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07196e26f38042b6046d6761bd60dfad64f89c7d
-ms.sourcegitcommit: 3266fde54b92a18865d666b98e4e7e8322b9dedc
+ms.openlocfilehash: 1bef1464b94f736a10cc184a2bdb88e2cdf6df88
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/26/2022
-ms.locfileid: "67023674"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156971"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>指派 Teams 附加元件授權給使用者
 
@@ -54,7 +54,7 @@ ms.locfileid: "67023674"
 
 如需逐步指示，請參閱 [指派授權給使用者](/microsoft-365/admin/manage/assign-licenses-to-users)。
 
-如果您需要指派授權給大量使用者，例如數百或數千名使用者，請 [在 Azure Active Directory (Azure AD) ](/azure/active-directory/users-groups-roles/licensing-groups-assign)中使用 Powershell 或群組授權。
+如果您需要指派授權給大量使用者，例如數百或數千名使用者，請 [在 Azure Active Directory (Azure AD) ](/azure/active-directory/users-groups-roles/licensing-groups-assign)中使用 PowerShell 或群組授權。
 
 ## <a name="using-powershell"></a>使用 PowerShell
 
@@ -142,6 +142,8 @@ ms.locfileid: "67023674"
 | 每個國家/地區的國內通話方案 (每個使用者每月 120 分鐘)  </br>*美國不提供此方案。* | MCOPSTN5 |
 | 每個國家/地區的國內通話方案 (每個使用者每月 240 分鐘)  </br>*美國不提供此方案。* | MCOPSTN6 |
 | 通訊點數 | MCOPSTNPP |
+|  (區域-1 國家/地區) 的隨用付費通話方案 | MCOPSTN_PAYG_1 |
+|  (區域-2 個國家/地區) 隨地付費通話方案 | MCOPSTN_PAYG_2 |
 
 ## <a name="related-content"></a>相關內容
 

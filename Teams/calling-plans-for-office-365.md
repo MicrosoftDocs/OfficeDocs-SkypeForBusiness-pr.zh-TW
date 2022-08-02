@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: '瞭解商務用 Skype 選項的通話方案 (PSTN 通話方案) ，以及如何取得貴組織的授權。 '
-ms.openlocfilehash: 5021087c900141c97e534b521d3789dbe7f5eb72
-ms.sourcegitcommit: d87991ed2d3e4d70edb048378763a17ff689b710
+ms.openlocfilehash: 2c47c240da6c25369a6276ee61d4a7b97eda60e4
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2022
-ms.locfileid: "66682522"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156821"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Microsoft 365 通話方案
 
@@ -39,16 +39,18 @@ ms.locfileid: "66682522"
   
 以下是通話方案選項：
   
-- **國內通話方案**：授權使用者可以在 Microsoft 365 或 Office 365 中撥打指派給所在國家/地區的號碼。
+- **國內通話方案**：授權使用者可以撥打到 Microsoft 365 中指派其所在國家/地區的號碼。 包含無限的來電分鐘數。 待發分鐘數會根據購買的授權包含在內。
 
-- **國際通話方案**：授權使用者可以撥號到其 Microsoft 365 或Office 365授權指派給使用者的國家/地區號碼，以及 [196 個國家/地區的](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)國際號碼。
+- **國際通話方案**：授權使用者可以根據使用者的位置，撥打到其 Microsoft 365 授權指派給使用者之國家/地區的號碼，以及 [196 個國家/地區的](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)國際號碼。 包含無限的來電分鐘數。 待發分鐘數會根據購買的授權包含在內。
+
+- **隨時隨地付費通話方案**：授權使用者可以根據使用者的位置，撥打到其 Microsoft 365 授權指派給使用者之國家/地區的號碼，以及  [196 個國家/地區的](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md)國際號碼。 包含無限的來電分鐘數。 不含撥出分鐘數。 所有撥出電話都是根據使用通訊點數或付款後計費的分鐘數來計費。
 
 相同國家/地區的所有使用者 (這是Microsoft 365 系統管理中心) 授權區域中定義的使用者國家/地區位置，且相同的通話方案共用通話分鐘方案。 例如，如果您有 100 個使用者位於相同的國家/地區，且已指派 120 分鐘的國內通話方案，則他們共用一個 12，000 分鐘的集區。 超過這些分鐘數的所有通話都會按分鐘計費。
 
 請流覽 [國家/地區可用性](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) ，瞭解每個國家/地區中每個組織每個月可用的分鐘數。
   
 > [!IMPORTANT]
-> 國家/地區是根據使用者授權在 **Microsoft 365 系統管理中心**  >  作用中 **使用者** 的位置，**而非****Microsoft 365 系統管理中心** 中 **[組織設定檔**] 底下所列的帳單位址。 
+> 國家/地區是根據使用者授權在 **Microsoft 365 系統管理中心**  >  作用中 **使用者** 的位置，**而非****Microsoft 365 系統管理中心** 中 **[組織設定檔**] 底下所列的帳單位址。
 
 > [!NOTE]
 > 集區功能僅適用于相同的通話方案。
@@ -59,14 +61,14 @@ ms.locfileid: "66682522"
   
 ## <a name="how-to-buy-a-calling-plan"></a>如何購買通話方案
 
-1. <strong>您必須先購買 **Phone System</strong>附加元件授權 <strong>。若要這麼做，[請登入Microsoft 365 系統管理中心](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog)，然後選擇 **帳單</strong>  >  **購買服務**  >  **附加元件**  >  訂閱 **立即購買**。
+1. 您必須先購買 **電話系統附加元件授權**。 若要這麼做，[請登入Microsoft 365 系統管理中心，然後選擇 **[計費**](https://go.microsoft.com/fwlink/p/?linkid=868433)  >  **購買服務**  >  **附加元件**  >  訂閱 **立即購買]**。
 
     ![顯示購買語音通話方案選項的螢幕擷取畫面。](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
     > 視您的方案而定，您可能需要購買更多附加元件，才能購買電話系統授權。 若要深入瞭解，請參閱 [Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
-2. 購買電話系統授權之後，您可以登入 **Microsoft 365 系統管理中心**，選擇 [**計費**  >  **購買服務**  >  **附加元件訂閱**]，然後按一下 [**立即購買]**，以購買通話方案。 您會在該處看到通話方案。
+2. 購買電話系統授權之後，您可以登入Microsoft 365 系統管理中心並 [選擇 [**計費**](https://go.microsoft.com/fwlink/p/?linkid=868433)  >  **購買服務**  >  附加元件 **訂閱**]，然後選取 [**立即購買]**，以購買通話方案。 您會在該處看到通話方案。
 
 您可以根據組織的需求，購買不同的通話方案並指派給不同的使用者。 選取您需要的通話方案之後，請繼續結帳。 您可以將計畫指派給Microsoft 365 系統管理中心中的每個使用者。 若要瞭解做法，請參閱 [指派 Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)。
   
@@ -89,7 +91,7 @@ ms.locfileid: "66682522"
 - [Microsoft Teams 附加元件授權](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [以下是您在 Microsoft 365 或 Office 365 中透過手機系統取得的功能](./here-s-what-you-get-with-phone-system.md)
 
-## <a name="related-topics"></a>相關主題
+## <a name="related-articles"></a>相關文章
 
 - [設定商務用 Skype Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 - [設定雲端語音信箱 - 管理說明](set-up-phone-system-voicemail.md)

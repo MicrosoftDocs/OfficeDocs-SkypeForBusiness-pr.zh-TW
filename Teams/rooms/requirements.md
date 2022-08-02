@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: 瞭解支援Microsoft Teams 會議室的需求，包括選擇適當的裝置、麥克風、喇叭、相機和顯示器。
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fc7c56ff41eb5d5cab01162468acf6b4dd11b344
-ms.sourcegitcommit: 3f6ae7946b64e857f6358019be2f0fdf19a207ad
+ms.openlocfilehash: 271e75787c9659dc453eeb1d6f3260aa7bd0dd3b
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/29/2022
-ms.locfileid: "67074641"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156811"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Microsoft Teams 會議室需求
 
@@ -82,6 +82,8 @@ Microsoft Teams 會議室調整為不同的房間大小。 Teams 會議室根據
   |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
   |[HP Elite Slice G2 Audio Ready with Microsoft Teams Rooms](https://store.hp.com/us/en/pdp/hp-elite-slice-for-meeting-rooms-g2-skype-room-systems-audio-ready?jumpid=cp_r12131_us/en/psg/elite_slice_for_meetings/product/shop-now-eliteslicemeeting-g2-audio) |Core i5 |8 GB |128 GB |
   |[HP Slice Partner Ready with Logitech TAP]( https://www.logitech.com/video-collaboration/partners/hp.html)|Core i5|8 GB|128 GB| 
+  |[HP Presence Small Space Solution with Microsoft Teams 會議室](https://www.hp.com/us-en/solutions/presence.html)|Core i5|8 GB|128 GB|
+  |[HP 目前狀態小型空間解決方案加上配備 Microsoft Teams 會議室 的 AI 相機](https://www.hp.com/us-en/solutions/presence.html)|Core i5|8 GB|128 GB|
   | Lenovo ThinkSmart Hub 500 |Core i5 |8 GB |128 GB |
   |[Lenovo ThinkSmart Hub](https://news.lenovo.com/pressroom/press-releases/new-thinksmart-hub-collaboration-solution-from-lenovo-helps-organizations-embrace-hybrid-working-model/) |Core i5 |8 GB |128 GB|
   |Lenovo ThinkSmart Core Kit |Core i5|8 GB|128 GB|
@@ -148,6 +150,7 @@ Microsoft Teams 會議室調整為不同的房間大小。 Teams 會議室根據
 |[Biamp Devio SCR-20CX Web-Based具有 Ceiling Microphone 的會議中心](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9|
 |[使用桌面麥克風的 Biamp Devio SCR-20TX Web-Based會議中心](https://www.biamp.com/products/product-families/devio/huddle-room-solutions) |2.2.0.9 |
 |[Crestron Huddly IQ](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Accessories/CCS-CAM-USB-F-400)   | 1.02.09.33901  | 
+|HP 目前狀態請參閱相機| 1.0.23.0 |
 |[哈茲利畫布](https://www.huddly.com/blog/say-hello-to-huddly-canvas-our-latest-ai-technology-for-content-capture-and-enhancement/) | 1.3.25 |  &#x2714; |
 |[Huddly IQ](https://www.huddly.com/conference-cameras/iq/) |1.3.22|
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|

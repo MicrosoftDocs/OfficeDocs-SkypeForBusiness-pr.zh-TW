@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器，) 經過 Microsoft Teams 認證。
-ms.openlocfilehash: 63813ca51626ae16903b57e56de9b47345f44c10
-ms.sourcegitcommit: 911fdb6df0511b4a4d9e4705799877045a09113c
+ms.openlocfilehash: 003a532331ad7a1c3e88addad3f2f73a8b5b1f61
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2022
-ms.locfileid: "66972778"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156941"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
 
@@ -44,7 +44,7 @@ ms.locfileid: "66972778"
 
 - **原生藍牙認證音訊周邊設備**  大多數通過 Microsoft Teams 認證的藍牙耳機和免持聽筒，都是設計用來搭配 USB 硬體鎖來連線到電腦和 Mac 主機。 許多使用者一直要求選擇直接將裝置與主機配對，因為他們沒有足夠的 USB 埠，或不想記得在不同位置工作時隨身攜帶 USB 硬體鎖。
 
-    Windows 電腦支援原生藍牙認證裝置，包括耳機和免持聽筒 (未來可能會支援 MacOS) 。 裝置會針對音訊效能、通話控制和 Teams 按鈕整合進行測試，不含與不使用 USB 硬體鎖。
+    Windows 電腦支援原生藍牙認證裝置，包括耳機和免持聽筒 (未來可能會支援 macOS) 。 裝置會針對音訊效能、通話控制和 Teams 按鈕整合進行測試，不含與不使用 USB 硬體鎖。
 
     原生藍牙模式的效能受主機電腦上的藍牙無線電影響，因此我們建議為裝置和藍牙無線電安裝最新的韌體更新。 有一小部分的使用者可能需要繼續使用 USB 硬體鎖，例如在高密度無線電環境中工作、多部配對裝置或某些藍牙無線電效能不佳的電腦大量使用其電腦藍牙。
 
@@ -85,27 +85,28 @@ ms.locfileid: "66972778"
 > [!NOTE]
 > 日期格式為 MMDDYYYY。
 
-| 製造商        | 模型                                                     | 合格      | 認證計畫                                      |
+| 製造者        | 型                                                     | 合格      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |已通過 Microsoft Teams 認證                           |
-|戴爾                 |WB5023 相機                                              |6/29/2022       |已通過 Microsoft Teams 認證                           |
+|山谷                 |WB5023 相機                                              |6/29/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |ADAPT 560 II 頭戴式裝置                                       |6/22/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |C10/C20/C50 系列耳機                                |5/31/2022       |已通過 Microsoft Teams 認證                           |
 |Jabra                |Engage55 Mono/身歷聲耳機                               |5/25/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |EXPAND 40T Speakerphone                                    |5/24/2022       |已通過 Microsoft Teams 認證                           | 
-|戴爾                 |U3223QZ 監視器                                            |5/24/2022       |已通過 Microsoft Teams 認證                           |
+|山谷                 |U3223QZ 監視器                                            |5/24/2022       |已通過 Microsoft Teams 認證                           |
 |聚                 |Studio P21 監視器                                         |5/12/2022       |已通過 Microsoft Teams 認證                           |
 |Yealink              |UH38 頭戴式裝置                                               |5/2/2022        |已通過 Microsoft Teams 認證                           |   
 |Yealink              |BH72 頭戴式裝置                                               |5/2/2022        |已通過 Microsoft Teams 認證                           |
-|羅技             |True 區域無線耳機                                 |5/2/2022        |已通過 Microsoft Teams 認證                           |
-|聯想               |移至無線 ANC 頭戴式裝置                                    |4/11/2022       |已通過 Microsoft Teams 認證                           |
+|Logitech             |True 區域無線耳機                                 |5/2/2022        |已通過 Microsoft Teams 認證                           |
+|Lenovo               |移至無線 ANC 頭戴式裝置                                    |4/11/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |ADAPT 661                                                  |3/11/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |ADAPT 461T                                                 |3/11/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |ADAPT 361                                                  |3/11/2022       |已通過 Microsoft Teams 認證                           |
-|戴爾                 |免持聽筒 SP3022                                        |2/7/2022        |已通過 Microsoft Teams 認證                           |
-|戴爾                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |已通過 Microsoft Teams 認證                           | 
-|聯想               |移至有線 ANC 頭戴式裝置                                       |1/12/2022       |已通過 Microsoft Teams 認證                           |
-|聯想               |移至有線免持聽筒                                      |1/10/2022       |已通過 Microsoft Teams 認證                           |
+|山谷                 |免持聽筒 SP3022                                        |2/7/2022        |已通過 Microsoft Teams 認證                           |
+|山谷                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |已通過 Microsoft Teams 認證                           |
+|聚                 |同步處理 10                                                    |1/18/2022       |已通過 Microsoft Teams 認證                           |
+|Lenovo               |移至有線 ANC 頭戴式裝置                                       |1/12/2022       |已通過 Microsoft Teams 認證                           |
+|Lenovo               |移至有線免持聽筒                                      |1/10/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |影響 SDW 5066T                                           |12/1/2021       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |影響 SDW 5063T                                           |12/1/2021       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |影響 SDW 5036T                                           |12/1/2021       |已通過 Microsoft Teams 認證                           |
@@ -117,33 +118,33 @@ ms.locfileid: "66972778"
 |聚                 |Voyager 4320 和 Voyager Office Base                       |10/20/2021      |已通過 Microsoft Teams 認證                           |
 |聚                 |Voyager 4310 和 Voyager Office Base                       |10/20/2021      |已通過 Microsoft Teams 認證                           |
 |Jabra                |Evolve 2 75 耳機                                        |10/8/2021       |已通過 Microsoft Teams 認證                           |
-|羅技             |區域有線耳機                                         |9/2/2021        |已通過 Microsoft Teams 認證                           |
+|Logitech             |區域有線耳機                                         |9/2/2021        |已通過 Microsoft Teams 認證                           |
 |AudioCodes           |RXVCam10                                                   |8/26/2021       |已通過 Microsoft Teams 認證                           |
 |聚                 |Voyager 4320                                               |8/6/2021        |已通過 Microsoft Teams 認證                           |
 |聚                 |Voyager 4310                                               |8/6/2021        |已通過 Microsoft Teams 認證                           |
 |EPOS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |已通過 Microsoft Teams 認證                           |
-|戴爾                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |已通過 Microsoft Teams 認證                           |
+|山谷                 |Ultrasharp Webcam WB7022                                   |6/16/2021       |已通過 Microsoft Teams 認證                           |
 |NEC                  |WD551 Windows 共同作業顯示器                        |5/21/2021       |已通過 Microsoft Teams 認證                           |
 |聚                 |EncorePro 520 和 DA85-M                                   |4/26/2021       |已通過 Microsoft Teams 認證                           |
 |聚                 |EncorePro 510 和 DA85-M                                   |4/26/2021       |已通過 Microsoft Teams 認證                           |
 |聚                 |EncorePro 525-M                                            |4/26/2021       |已通過 Microsoft Teams 認證                           |
 |聚                 |EncorePro 515-M                                            |4/26/2021       |已通過 Microsoft Teams 認證                           |
-|戴爾                 |WL7022 Premier Wireless ANC Headset                        |4/22/2021       |已通過 Microsoft Teams 認證                           |
-|戴爾                 |WL5022 Pro Wireless Headset                                |4/22/2021       |已通過 Microsoft Teams 認證                           |
-|戴爾                 |WH3022 專業有線耳機                                   |4/22/2021       |已通過 Microsoft Teams 認證                           |
-|羅技             |C920e Webcam                                               |4/22/2021       |已通過 Microsoft Teams 認證                           |
+|山谷                 |WL7022 Premier Wireless ANC Headset                        |4/22/2021       |已通過 Microsoft Teams 認證                           |
+|山谷                 |WL5022 Pro Wireless Headset                                |4/22/2021       |已通過 Microsoft Teams 認證                           |
+|山谷                 |WH3022 專業有線耳機                                   |4/22/2021       |已通過 Microsoft Teams 認證                           |
+|Logitech             |C920e Webcam                                               |4/22/2021       |已通過 Microsoft Teams 認證                           |
 |聚                 |Studio P5 網路攝影機                                           |4/22/2021       |已通過 Microsoft Teams 認證                           |
 |Jabra                |Biz 2400 II                                                |4/22/2021       |升級至 Microsoft Teams 商務用 Skype      |
 |Jabra                |Biz 2300                                                   |4/22/2021       |升級至 Microsoft Teams 商務用 Skype      |
-|微軟            |Modern Wireless Headset                                    |4/19/2021       |已通過 Microsoft Teams 認證                           |
-|微軟            |現代化 USB-C 喇叭                                       |4/15/2021       |已通過 Microsoft Teams 認證                           |
-|微軟            |新式 USB 頭戴式裝置                                         |4/15/2021       |已通過 Microsoft Teams 認證                           |
+|Microsoft            |Modern Wireless Headset                                    |4/19/2021       |已通過 Microsoft Teams 認證                           |
+|Microsoft            |現代化 USB-C 喇叭                                       |4/15/2021       |已通過 Microsoft Teams 認證                           |
+|Microsoft            |新式 USB 頭戴式裝置                                         |4/15/2021       |已通過 Microsoft Teams 認證                           |
 |Yealink              |UVC20 網路攝影機                                               |3/30/2021       |已通過 Microsoft Teams 認證                           |
-|微軟            |新式網路攝影機                                              |3/24/2021       |已通過 Microsoft Teams 認證                           |
+|Microsoft            |新式網路攝影機                                              |3/24/2021       |已通過 Microsoft Teams 認證                           |
 |EPOS/Sennheiser      |調整 200 系列耳機                                  |3/19/2021       |已通過 Microsoft Teams 認證                           |
 |聚                 |Voyager Focus 2 耳機                                    |3/11/2021       |已通過 Microsoft Teams 認證                           |
 |Jabra                |Evolve2 30 Headset                                         |3/1/2021        |已通過 Microsoft Teams 認證                           |
-|微軟            |Surface Headphones 2+                                      |2/26/2021       |已通過 Microsoft Teams 認證                           |
+|Microsoft            |Surface Headphones 2+                                      |2/26/2021       |已通過 Microsoft Teams 認證                           |
 |聚                 |Studio P15 視訊列                                       |2/1/2021        |已通過 Microsoft Teams 認證                           |
 |聚                 |同步 40 免持聽筒                                       |1/19/2021       |已通過 Microsoft Teams 認證                           |
 |聚                 |將 40+ 免持聽筒與 Poly BT600 USB 硬體鎖同步           |1/19/2021       |已通過 Microsoft Teams 認證                           |
@@ -154,16 +155,16 @@ ms.locfileid: "66972778"
 |Yealink              |WH63 DECT 頭戴式裝置                                          |12/23/2020      |已通過 Microsoft Teams 認證                           |
 |Yealink              |WH62 雙/單聲道 DECT 頭戴式裝置                                |12/23/2020      |已通過 Microsoft Teams 認證                           |
 |EPOS/Sennheiser      |調整 100 個系列耳機                                  |12/22/2020      |已通過 Microsoft Teams 認證                           |
-|戴爾                 |Pro 身歷聲耳機 - UC350                                 |12/21/2020      |升級至 Microsoft Teams 商務用 Skype      |
-|戴爾                 |Pro 身歷聲耳機 - UC150                                 |12/21/2020      |升級至 Microsoft Teams 商務用 Skype      |
-|聯想               |Pro Wired VoIP 立體耳機                              |12/21/2020      |升級至 Microsoft Teams 商務用 Skype      |
+|山谷                 |Pro 身歷聲耳機 - UC350                                 |12/21/2020      |升級至 Microsoft Teams 商務用 Skype      |
+|山谷                 |Pro 身歷聲耳機 - UC150                                 |12/21/2020      |升級至 Microsoft Teams 商務用 Skype      |
+|Lenovo               |Pro Wired VoIP 立體耳機                              |12/21/2020      |升級至 Microsoft Teams 商務用 Skype      |
 |聚                 |Svit Office 7320                                           |12/18/2020      |已通過 Microsoft Teams 認證                           |
 |聚                 |Svit Office 7310                                           |12/18/2020      |已通過 Microsoft Teams 認證                           |
 |Jabra                |Evolve 75e Headset                                         |12/16/2020      |升級至 Microsoft Teams 商務用 Skype      |
 |Jabra                |Evolve 65e Headset                                         |12/16/2020      |升級至 Microsoft Teams 商務用 Skype      |
-|戴爾                 |C3422WE 監視器                                            |12/11/2020      |已通過 Microsoft Teams 認證                           |
-|戴爾                 |C2722DE 監視器                                            |12/11/2020      |已通過 Microsoft Teams 認證                           |
-|戴爾                 |C2422HE 監視器                                            |12/11/2020      |已通過 Microsoft Teams 認證                           |
+|山谷                 |C3422WE 監視器                                            |12/11/2020      |已通過 Microsoft Teams 認證                           |
+|山谷                 |C2722DE 監視器                                            |12/11/2020      |已通過 Microsoft Teams 認證                           |
+|山谷                 |C2422HE 監視器                                            |12/11/2020      |已通過 Microsoft Teams 認證                           |
 |聚                 |將 20 + 免持聽筒與 Poly BT600 USB 硬體鎖同步          |11/9/2020       |已通過 Microsoft Teams 認證                           |
 |聚                 |同步處理 20 部免持聽筒                                       |11/9/2020       |已通過 Microsoft Teams 認證                           |
 |Jabra                |Evolve 65t Headset                                         |10/31/2020      |升級至 Microsoft Teams 商務用 Skype      |
@@ -215,9 +216,9 @@ ms.locfileid: "66972778"
 | EPOS/Sennheiser     | 影響 SC 660 USB MS                                      | 4/9/2020       | 升級至 Microsoft Teams 商務用 Skype     |
 | EPOS/Sennheiser     | 影響 SC 660 ANC USB                                     | 4/9/2020       | 升級至 Microsoft Teams 商務用 Skype     |
 | EPOS/Sennheiser     | 影響 SC 665 USB                                         | 4/9/2020       | 升級至 Microsoft Teams 商務用 Skype     |
-| 羅技            | Zone Wireless                                             | 4/8/2020       | 已通過 Microsoft Teams 認證                          |
+| Logitech            | Zone Wireless                                             | 4/8/2020       | 已通過 Microsoft Teams 認證                          |
 | 聚                | Voyager 8200 頭戴式裝置                                      | 3/26/2020      | 升級至 Microsoft Teams 商務用 Skype     |
-| 羅技            | 區域有線                                                | 3/26/2020      | 已通過 Microsoft Teams 認證                          |
+| Logitech            | 區域有線                                                | 3/26/2020      | 已通過 Microsoft Teams 認證                          |
 | Jabra               | Evolve2 40 Headset                                        | 3/26/2020      | 已通過 Microsoft Teams 認證                          |
 | 聚                | Voyager 6200 頭戴式裝置                                      | 3/23/2020      | 升級至 Microsoft Teams 商務用 Skype     |
 | 聚                | Voyager 4245 Office                                       | 3/23/2020      | 已通過 Microsoft Teams 認證                          |
@@ -235,7 +236,7 @@ ms.locfileid: "66972778"
 | 聚                | Blackwire 3325-M                                          | 03/05/2020     | 已通過 Microsoft Teams 認證                          |
 | 聚                | Calisto 3200-M                                            | 01/27/2020     | 已通過 Microsoft Teams 認證                          |
 | Cres 要點            | CCS-UCA-MIC                                               | 12/18/2019     | 已通過 Microsoft Teams 認證                          |
-| 森海塞爾          | SP 30T                                                    | 12/05/2019     | 已通過 Microsoft Teams 認證                          |
+| Sennheiser          | SP 30T                                                    | 12/05/2019     | 已通過 Microsoft Teams 認證                          |
 | Polycom             | Elara                                                     | 11/06/2019     | 已通過 Microsoft Teams 認證                          |
 | Polycom             | Studio 音效列                                           | 10/18/2019     | 已通過 Microsoft Teams 認證                          |
 | Yealink             | UVC30                                                     | 10/18/2019     | 已通過 Microsoft Teams 認證                          |
