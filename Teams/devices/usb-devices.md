@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: 查看哪些 USB 周邊設備和裝置 (，例如耳機、免持聽筒、網路攝影機和監視器，) 經過 Microsoft Teams 認證。
-ms.openlocfilehash: 003a532331ad7a1c3e88addad3f2f73a8b5b1f61
-ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
+ms.openlocfilehash: 3df5c2e8a9b3ce27967a8b061c444daccd4cace5
+ms.sourcegitcommit: a64574da14969a33a77c7d979ffde452b5b3a531
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 08/02/2022
-ms.locfileid: "67156941"
+ms.locfileid: "67176087"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>通過 Microsoft Teams 認證的 USB 音訊和視訊裝置
 
@@ -80,13 +80,15 @@ ms.locfileid: "67156941"
 
 ## <a name="certified-devices"></a>已認證的裝置
 
-*2022 年 7 月更新表格*
+*2022 年 8 月更新表格*
 
 > [!NOTE]
 > 日期格式為 MMDDYYYY。
 
 | 製造者        | 型                                                     | 合格      | 認證計畫                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Jabra                |Engage 50 II                                               |7/29/2022       |已通過 Microsoft Teams 認證                           | 
+|Jabra                |Engage 40                                                  |7/29/2022       |已通過 Microsoft Teams 認證                           |
 |Logi                 |Dock Speakerphone                                          |7/13/2022       |已通過 Microsoft Teams 認證                           |
 |山谷                 |WB5023 相機                                              |6/29/2022       |已通過 Microsoft Teams 認證                           |
 |EPOS                 |ADAPT 560 II 頭戴式裝置                                       |6/22/2022       |已通過 Microsoft Teams 認證                           |
