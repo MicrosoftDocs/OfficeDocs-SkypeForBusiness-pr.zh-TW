@@ -865,6 +865,8 @@ items:
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
           - name: 電信業者連線
             items:
+              - name: 新增功能
+                href: operator-connect-whats-new.md
               - name: 電信業者連線計劃
                 href: operator-connect-plan.md
               - name: 設定電信業者連線
@@ -1622,6 +1624,8 @@ items:
                 href: education-insights-manage-access.md
               - name: 開始使用 Reflect
                 href: reflect.md
+              - name: 了解朗讀進展的深入解析
+                href: insights-for-reading-progress.md
           - name: Teams 教育版中的作業
             href: expand-teams-across-your-org/assignments-in-teams.md
           - name: Teams 教育版系統管理員的資源
