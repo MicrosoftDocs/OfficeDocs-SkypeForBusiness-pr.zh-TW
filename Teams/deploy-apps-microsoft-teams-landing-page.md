@@ -19,26 +19,20 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020; intro-overview; intro-hub-or-landing
-ms.openlocfilehash: a74128c7732d649c33ee50c73255eee956053260
-ms.sourcegitcommit: 89904ab4116294ad9e4fd407feba8d7e3eefef10
+ms.openlocfilehash: 8fa6763641edf1b4eff29e16fb7ecdeaa4111edf
+ms.sourcegitcommit: 07761c26b53d92fc36b82cab7b3e38a6de4ff945
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/19/2022
-ms.locfileid: "66880377"
+ms.lasthandoff: 08/02/2022
+ms.locfileid: "67156681"
 ---
-# <a name="about-apps-in-microsoft-teams"></a>關於 Microsoft Teams 中的應用程式
+# <a name="understand-microsoft-teams-apps"></a>了解 Microsoft Teams 應用程式
 
 應用程式是彙集工作場所工具與服務，並與他人共同作業的絕佳方式。 應用程式可協助使用者在日常工作中提高生產力、共同作業並發揮效率。 組織會使用應用程式與客戶聯繫、提供服務及分享資訊。 例如，使用者在 Teams 中使用釘選行事曆應用程式快速與其他人共同作業、應用程式具有機器人功能，可通知使用者 Teams 頻道中 Web 服務的品質，以及共用和指派工作給頻道中各種使用者的應用程式。
 
-在我們 Microsoft Store 中各式各樣經過驗證且安全的應用程式，可供使用者取得貴組織每天需要的工具和服務。 Microsoft Teams 應用程式是不需要部署的網路型軟體即服務 (SaaS) 應用程式。 使用者只能根據您提供的[權限](https://admin.teams.microsoft.com/policies/app-permission)，使用 Teams 中的應用程式。 身為系統管理員，您只要核准或封鎖貴組織使用者使用任何應用程式即可。 您可以控制所有使用者在會議、聊天和頻道中的應用程式可用性。
+在我們 Teams Store 中各式各樣經過驗證且安全的應用程式，可供使用者取得貴組織每天需要的工具和服務。 Microsoft Teams 應用程式是不需要部署的網路型軟體即服務 (SaaS) 應用程式。 終端使用者只能根據您提供的[權限](app-policies.md)，使用 Teams 中的應用程式。 身為系統管理員，您可以使用企業級原則來允許或封鎖貴組織使用者的任何應用程式。 您可以控制每個使用者在會議、聊天和頻道等各種內容中的應用程式可用性。
 
-若要為使用者提供所需的應用程式，請繼續閱讀以瞭解應用程式類型，以及使用者存取這些應用程式的位置。 若要深入了解應用程式的使用，請參閱 [適用於使用者的應用程式概觀](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
-
-<!--- Commenting the previous content as part of this article revamp.
-
-Apps let users find content from their favorite services and share it in Teams. They let you do tasks such as pin services at the top of a channel, automate notifications using bots, or share and assign tasks.
-
---->
+此文章可協助您了解應用程式類型，以及使用者可從何處存取這些應用程式。 若要深入了解應用程式的使用，請參閱[適用於終端使用者的應用程式概觀](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0)。
 
 您的使用者在 Teams 中可使用的不同類型應用程式包括：
 
@@ -49,7 +43,7 @@ Apps let users find content from their favorite services and share it in Teams. 
 
 ## <a name="core-apps"></a>核心應用程式
 
-某些預設功能 (例如活動摘要、Teams 頻道、聊天、行事曆和通話) 預設為可用，並且釘選供使用者輕鬆存取。 身為系統管理員，您可以使用[設定原則](/microsoftteams/teams-app-setup-policies)來修改預設行為。
+根據預設，某些 Teams 功能 (例如活動摘要、頻道、聊天、行事曆和通話) 會預設為可用，並且釘選供終端使用者輕鬆存取。 身為系統管理員，您可以使用此[設定原則](/microsoftteams/teams-app-setup-policies)來修改預設行為。
 
 :::image type="content" source="media/core-apps-pinned1.png" alt-text="核心應用程式是預設釘選在 Teams 中的應用程式。" lightbox="media/core-apps-pinned2.png":::
 
@@ -69,15 +63,17 @@ Teams 隨附一組內建的應用程式，包括清單、工作、稱讚、核�
 
 ## <a name="custom-apps"></a>自訂應用程式
 
-由貴組織中的開發人員建立的應用程式稱為自訂應用程式。 這類應用程式為因應貴組織的特定需求委任開發，而且您有允許或不允許這類應用程式的控制項。 貴組織的開發人員可以使用與 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) 整合的 Teams 來快速建立自訂低程式碼解決方案。
+由貴組織中的開發人員建立的應用程式稱為自訂應用程式 (或企業營運應用程式)。 貴組織可能會針對組織特定的需求委託建立自訂應用程式。 您有權為整個組織或特定使用者允許或封鎖此類應用程式。 貴組織的開發人員可以使用與 [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) 整合的 Teams 來建立自訂低程式碼解決方案。
 
 當系統管理員允許使用自訂應用程式後，使用者可以在 Teams 市集的左側瀏覽中按一下 **[專為貴組織打造]** 來尋找這類應用程式。
 
 :::image type="content" source="media/built-for-your-org1.png" alt-text="Teams 傳統型應用程式中 Teams 市集中自訂應用程式的螢幕擷取畫面。" lightbox="media/built-for-your-org2.png":::
 
+<!--- TBD - new article on custom app overview and sideloading. --->
+
 ### <a name="understand-sideloading-of-custom-apps"></a>瞭解自訂應用程式側載
 
-開發自訂應用程式，並在發佈給使用者之前，開發人員會先將應用程式新增至 Microsoft Store 以自行測試，或是與側載應用程式的團隊一起測試，以測試應用程式。 此方法稱為側載應用程式，僅適用於自訂應用程式。
+開發自訂應用程式，並在發佈給終端使用者之前，開發人員會先將應用程式新增至 Microsoft Store 以進行測試。 開發人員可以自行或使用指定的使用者群組進行測試，但該應用程式不會提供給組織中的其他終端使用者使用。 此方法稱為側載應用程式，僅適用於自訂應用程式。
 
 開發人員可以側載應用程式，將它提供給特定團隊的成員使用，通常是用來測試開發中的應用程式。 以這種方式使用應用程式會限制應用程式開發人員的使用，而且只要系統管理員允許在 Teams 中側載，就不需要系統管理員核准。 身為系統管理員，您可以不允許所有開發人員側載應用程式。
 
