@@ -117,8 +117,6 @@ items:
         items:
           - name: Teams 的管理訓練
             href: itadmin-readiness.md
-          - name: Ignite 中的 Teams 工作階段
-            href: ignite-2020-landing-page.md
           - name: Teams 的終端使用者訓練
             href: instructor-led-training-teams-landing-page.yml
   - name: 自商務用 Skype 升級
